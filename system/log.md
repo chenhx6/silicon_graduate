@@ -1094,3 +1094,21 @@ updated: 2026-07-15
 
 - Separated `weekly-learning`, `continuation-audit` and `maintenance`; added a global candidate pool, continuity/novelty slots, repository-local eight-cycle coverage history, two-cycle source cooldown and ISO-week tie-break rules.
 - Reclassified the 2026-08-19 D21-8 run as continuation-only and added Selection audits to the four historical self-test reports; the next novelty slot must leave the current `131Ce`/Ding/`127Xe`/`129Ba` cluster unless a hard exception is recorded.
+
+## [2026-08-24] weekly-self-test | `135Pr` mixing-ratio branch reassessment
+
+- Selected a non-overlapping novelty slot and found Sensharma et al. 2026, which adds a new Gammasphere run plus a combined-data large-`|δ|` analysis for the disputed wobbling links.
+- Reclassified the evidence state as two explicit, conflicting experimental analysis chains: the partially dependent 2026 angular-distribution result versus Lv 2022's independent small-branch `P-R_ac` result; no final wobbling verdict or L4 run was made.
+- Controlled PDF downloads failed without producing a candidate PDF; acquisition status was recorded, no source/project page was changed, and the protected Zotero BibTeX remained outside task scope. The local WIP was not pushed because fresh fetch and its bounded network diagnostics could not reach `github.com:443`.
+
+## [2026-08-31] weekly-self-test | `106Ag` dual-DSAM lineage conflict
+
+- Selected a non-overlapping A≈100 novelty slot and identified Lieder 2014 and Rather 2014 as independent AFRODITE/INGA DSAM experiments rather than one experiment plus a vague alternative.
+- Both chains reject the simple crossing-band chiral-pair reading, but their two-/four-quasiparticle versus same-deformation projected-configuration interpretations are not identical; only the falsification boundary is currently robust.
+- Controlled local PDF fetches failed, so no source/project/nucleus page or BibTeX was changed; acquisition and review state were recorded for later dual-source ingest.
+
+## [2026-09-01] publication | weekly self-tests finalized, AskPass blocked
+
+- Amended the rolling weekly WIP to final `Finalize weekly self-tests through 2026-08-31` without recording a Human Review or changing scientific review state.
+- After the user removed the stale `.git` DENY, schema-3, fresh fetch and ancestry passed; system and bundled Git both failed exact-refspec dry-run because the protected repo-local AskPass executable could not be spawned.
+- No real push, credential change, schema-4 implementation or automation Run now was performed; protected `raw/zotero/wiki-inbox.bib` remained unstaged.

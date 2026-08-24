@@ -1,7 +1,7 @@
 ---
 type: system-wip-queue
 graph-excluded: true
-updated: 2026-08-19
+updated: 2026-09-01
 ---
 
 # Pending WIP queue
@@ -9,6 +9,17 @@ updated: 2026-08-19
 This page tracks pending local WIP/review tasks that still need follow-up work. Keep entries short. Do not store long reports here. `system/review-history.md` records completed human-review rounds; the same task may appear in both places.
 
 ## Active entries
+
+### Review pending: `106Ag` dual-DSAM lineage conflict
+- status: final-not-pushed on `main`; focused scientific review and local dual-source ingest remain pending; both Git runtimes failed dry-run because protected AskPass could not be spawned
+- branch: `main`
+- commit: current main HEAD `Finalize weekly self-tests through 2026-08-31`
+- files: 2026-08-31 weekly-learning report; literature-acquisition manifest; handoff/log/queue
+- scheduler note: selected as a non-overlapping novelty slot outside the recent `135Pr` and `131Ce` source clusters
+- review needed: count Lieder 2014 and Rather 2014 as independent experiments; retain their common falsification of the simple chiral-pair reading while separating their nonidentical configuration/model interpretations
+- overview/QMD: unchanged/deferred until both original PDFs are locally verified and ingested
+- next action: obtain and hash both PDFs, then perform one dual-source band/lifetime/model crosswalk before changing the `106Ag` nucleus or chirality project
+- risks: no local candidate PDF or BibTeX exists; Bark/Wang are repeated secondary lineage, not experimental replication; protected Zotero BibTeX remains unstaged
 
 ### Review pending: `131Ce` N=73 isotone discrimination
 - status: published to `main` for traceability; focused scientific review remains pending
@@ -20,6 +31,17 @@ This page tracks pending local WIP/review tasks that still need follow-up work. 
 - overview/QMD: overview/index unchanged; QMD deferred until review finalization
 - next action: review the report P1 items; if manuscript-level use is planned, read Byrne 1992, Palacz 1991 and Bazzacco 1998 before admitting the exact band crosswalk
 - risks: protected `raw/zotero/wiki-inbox.bib` remains unstaged; no neighbor wobbling label may be transferred to `131Ce`
+
+### Review pending: `135Pr` mixing-ratio branch reassessment
+- status: final-not-pushed on `main`; focused scientific review remains pending; both Git runtimes failed dry-run because protected AskPass could not be spawned
+- branch: `main`
+- commit: included in current main HEAD `Finalize weekly self-tests through 2026-08-31`
+- files: 2026-08-24 weekly-learning report; literature-acquisition manifest; handoff/log/queue
+- scheduler note: this is the first post-repair novelty slot and is outside the `131Ce`/Ding/`127Xe`/`129Ba` cooldown cluster
+- review needed: classify the 2026 combined Gammasphere dataset as partially independent; compare its large-`|δ|` angular-distribution branch with Lv 2022's independent small-`|δ|` `P-R_ac` branch; retain the unresolved-verdict boundary
+- overview/QMD: unchanged/deferred until the 2026 PDF is locally verified and ingested
+- next action: review the report P1 items; after network recovery, fresh-fetch and publish the existing WIP if remote ancestry is safe. Separately obtain arXiv:2403.10749v2 or the published PDF into the controlled incoming path before source/project ingest
+- risks: no local PDF or BibTeX entry exists; correction notices and Guo comments are not independent experimental replications; protected Zotero BibTeX remains unstaged
 
 ## Legacy completed entries
 

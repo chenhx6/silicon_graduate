@@ -1,0 +1,64 @@
+{
+  "run_id": "20260824-135pr-mixing-branch",
+  "created_at": "2026-08-24T19:40:01.1127913+08:00",
+  "query": "135Pr 747 813 450 keV mixing-ratio branch, polarization, corrections, and newer direct evidence",
+  "si_choice": "no-si; no selected key datum or method required supplementary information beyond the already-held Lv 2022 supplement",
+  "candidates": [
+    {
+      "candidate_title": "Evolution of chirality from transverse wobbling in 135Pr",
+      "doi": "10.1103/3g4p-ncjn",
+      "arxiv_id": "2403.10749v2",
+      "discovery_source": "CrossRef, arXiv, APS metadata",
+      "download_url": "https://arxiv.org/pdf/2403.10749v2",
+      "sha256": null,
+      "pdf_verification": "not performed; controlled Node fetch failed",
+      "final_path": null,
+      "bibtex_key": null,
+      "duplicate_status": "new relative to current Wiki sources",
+      "failure_status": "failed_after_retry; full arXiv v2 HTML read externally, local PDF absent",
+      "workflow_status": {"download": "failed", "verification": "not-started", "bibtex": "not-started", "ingest": "deferred"}
+    },
+    {
+      "candidate_title": "Comment on Transverse Wobbling in 135Pr",
+      "doi": null,
+      "arxiv_id": "2011.14364v3",
+      "discovery_source": "arXiv",
+      "download_url": "https://arxiv.org/pdf/2011.14364v3",
+      "sha256": null,
+      "pdf_verification": "not performed; controlled Node fetch failed",
+      "final_path": null,
+      "bibtex_key": null,
+      "duplicate_status": "not ingested",
+      "failure_status": "failed_after_retry; abstract and identity externally verified",
+      "workflow_status": {"download": "failed", "verification": "not-started", "bibtex": "not-started", "ingest": "deferred"}
+    },
+    {
+      "candidate_title": "Comment on Erratum: Negative-parity high-spin states and a possible magnetic rotation band in 135Pr",
+      "doi": null,
+      "arxiv_id": "2007.10031v2",
+      "discovery_source": "arXiv",
+      "download_url": "https://arxiv.org/pdf/2007.10031v2",
+      "sha256": null,
+      "pdf_verification": "not performed; controlled Node fetch failed",
+      "final_path": null,
+      "bibtex_key": null,
+      "duplicate_status": "not ingested",
+      "failure_status": "failed_after_retry; abstract and identity externally verified",
+      "workflow_status": {"download": "failed", "verification": "not-started", "bibtex": "not-started", "ingest": "deferred"}
+    },
+    {
+      "candidate_title": "Corrections and corrigenda for Matta 2015, Garg 2015, and Sensharma 2019",
+      "doi": "10.1103/PhysRevLett.127.139902; 10.1103/PhysRevC.100.069901; 10.1016/j.physletb.2021.136556",
+      "discovery_source": "CrossRef, PubMed, publisher metadata",
+      "download_url": null,
+      "sha256": null,
+      "pdf_verification": "not performed; exact correction text verified from publisher or institutional metadata where exposed",
+      "final_path": null,
+      "bibtex_key": null,
+      "duplicate_status": "correction lineage absent from current source pages",
+      "failure_status": "oa_not_found in controlled downloader for the DOI batch",
+      "workflow_status": {"download": "failed", "verification": "metadata-and-visible-text-only", "bibtex": "not-started", "ingest": "deferred"}
+    }
+  ],
+  "boundary": "No institutional login, CAPTCHA loop, external Downloads write, credential change, SI download, unverified PDF promotion, or protected Zotero BibTeX modification was attempted. No source page was created without a locally verified raw PDF."
+}

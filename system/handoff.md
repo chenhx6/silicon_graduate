@@ -1,33 +1,33 @@
 ---
 type: system-handoff
 graph-excluded: true
-updated: 2026-08-19
+updated: 2026-09-01
 ---
 
 # 跨会话交接
 ## Active handoff
 
 Current active task:
-Global weekly-learning scheduler repair is complete; focused human review of D21-8 and the two N=73 project evidence rows remains pending.
+Implement the Wiki weekly-self-test download-permission repair. The repository-level `.git` write probe is restored and the 2026-08-24/31 weekly reports are finalized, but publication is blocked because the protected repo-local AskPass executable cannot be spawned in the current runtime.
 
 Current branch / local commit:
-Current branch is `main`; current main HEAD subject is `Audit 131Ce N=73 evidence lineage` (exact hash belongs only in the task receipt).
+Current branch is `main`; current main HEAD subject is `Finalize weekly self-tests through 2026-08-31`. The final is local and not pushed; exact hash belongs only in the task receipt.
 
 Last task status:
 
-The weekly workflow now separates `weekly-learning`, `continuation-audit` and `maintenance`, selects a global novelty slot from recent repository-local coverage history, applies source/nucleus cooldowns, and records a Selection audit. The 2026-08-19 report is classified as continuation-only; no scientific ranking or raw evidence changed.
+The rolling weekly WIP was amended to final `Finalize weekly self-tests through 2026-08-31` under the user's explicit repair plan. No Human Review was registered and no scientific page status changed. Schema-3, fresh fetch and remote ancestry passed after the user removed the stale `.git` DENY, but system and bundled Git both failed exact-refspec dry-run because `.git/codex-credential/askpass-native.exe` returned `Permission denied`; no real push was attempted.
 
 Unfinished items:
-Focused review remains required for D21-8 and the two project evidence rows. Byrne 1992, Palacz 1991 and Bazzacco 1998 have not been read; obtain them only if the exact band crosswalk becomes decision-relevant. QMD refresh and scientific finalization remain deferred. The next true weekly-learning novelty slot must leave the `131Ce`/Ding/`127Xe`/`129Ba` source cluster unless a hard exception is recorded. Do not modify or stage the protected `raw/zotero/wiki-inbox.bib` change.
+Diagnose and restore execute access to the protected repo-local AskPass outside Codex without reading or replacing the executable, ciphertext or entropy; then rerun full H3 and publish the exact final refspec. Only after that publication gate passes should schema-4, controlled PDF validation and automation Run now continue. Scientific follow-up remains local verification of Lieder/Rather 2014 and Sensharma 2026 plus focused review of the earlier `131Ce` rows. Do not modify or stage `raw/zotero/wiki-inbox.bib`.
 
 P0/P1 review focus:
-P0: none identified. P1: confirm the expanded Figs.4-6 locator and refs.46-48 lineage, that `[404]7/2+` and `h11/2` comparisons remain configuration-specific, and that neighbor wobbling labels are not transferred to `131Ce`.
+P0: tooling publication gate — protected AskPass cannot be spawned by either available Git runtime. Scientific P0: none identified. P1: retain the `106Ag` independent-experiment/configuration boundary, the `135Pr` partial-independence/branch review and the earlier `131Ce` D21-8 focus.
 
 Risks:
-Keep `raw/zotero/wiki-inbox.bib` protected and unstaged. Do not treat Ding's citation crosswalk as full verification of refs.46-48, count compiled N=73 systematics as a new independent experiment, infer a unique gamma from signature splitting, or upgrade `131Ce` wobbling without target delta/polarization/absolute-strength evidence.
+Keep `raw/zotero/wiki-inbox.bib` protected and unstaged. Do not read, replace, copy or reconfigure the repo-local AskPass/DPAPI materials. Do not count Bark/Wang reviews as additional `106Ag` experiments, collapse the two original DSAM interpretations, or create local source claims without verified PDFs. The downloader left only failure manifests in the incoming area; no PDF was promoted.
 
 Next prompt / continuation phrase:
-`审核 2026-08-19 131Ce D21-8 locator 与来源谱系`
+`继续实施 Wiki 周自检下载权限修复计划（AskPass 已恢复）`
 
 Recent user decisions:
 Normal commits target `main` and may be pushed after the repository publication checks; do not create a task branch without a concrete technical constraint. The protected BibTeX stays read-only and unstaged, and no host automation/global/sandbox state belongs to the Wiki task.
