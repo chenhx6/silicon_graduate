@@ -2,13 +2,14 @@
 type: system-index
 graph-excluded: true
 created: 2026-07-01
-updated: 2026-08-11
+updated: 2026-09-02
 ---
 
 # Wiki Index
 
 ## Sources
 
+- [[ding-2012-phd-thesis-127-128i-high-spin]] - 丁兵 2012 博士论文：`127I` 的 `πh11/2` 退耦带、`πg7/2/πd5/2` 强耦合小扁椭带与三准粒子态共存；`128I` 的两准粒子多重态、NPA 计算及单粒子主导演化。
 - [[alwaleedi-2013-band-structures-131ce]] - `131Ce` Bands 1–7 的 Gammasphere 纲图、crossing/alignment、组态图与带 `δ=0` 假设的 `B(M1)/B(E2)` 基线。
 - [[singh-2016-lifetime-131ce-133pr]] - `131Ce/133Pr` yrast 带寿命、`Q_t` 与 γ-soft/TRS 解释；2016 当前值与 2004 依赖行分层。
 - [[li-2004-lifetimes-131ce]] - `131Ce` 正负宇称序列的早期 DSAM 寿命与 `Q_t` 原始谱系。
@@ -91,6 +92,8 @@ updated: 2026-08-11
 
 ## Nuclei
 
+- [[127i]] - A≈130 N=74 奇 Z 核；`πh11/2` 退耦带、`πg7/2/πd5/2` 正宇称 `ΔI=1` 转动带与 `15/2+, 23/2+` 三准粒子单粒子-集体激发共存。
+- [[128i]] - A≈130 N=75 奇奇核；`πg7/2/πd5/2 ⊗ νh11/2` 负宇称与 `πh11/2 ⊗ νh11/2` 正宇称多重态，NPA/经验壳模型计算及单粒子运动主导。
 - [[74as]] - A≈80 odd-odd nucleus；Bands 1/2 chiral candidate、Band 1/3 octupole correlations、revised spins and unresolved low-energy gap。
 - [[131ce]] - N=73 奇中子核；当前以 Bands 1–7 的高自旋组态、crossing 与集体模式判别为重点。
 - [[134pr]] - N=75 odd-odd nucleus；当前保存 Petrache 1996 four-band 高自旋基线与后续 chirality reinterpretation 的证据边界。
@@ -122,6 +125,8 @@ updated: 2026-08-11
 
 ## Bands
 
+- [[127i-pi-h11-2-decoupled-band]] / [[127i-pi-g7-2-rotational-band]] / [[127i-pi-d5-2-band]] - `127I` 的 `πh11/2` 退耦带与高 K 小扁椭 `πg7/2[404]7/2+`, `πd5/2[402]5/2+` `ΔI=1` 能带。
+- [[128i-pi-g7-2-nu-h11-2-structure]] / [[128i-pi-h11-2-nu-h11-2-structure]] - `128I` 的负宇称 `πg7/2 ⊗ νh11/2` 与正宇称 `πh11/2 ⊗ νh11/2` 两准粒子激发结构。
 - [[74as-bands-1-2-chiral-doublet-candidate]] / [[74as-band-3-octupole-correlated-negative-parity]] - five-link positive pair and three-E1 opposite-parity correlation structure；no absolute strengths/stable deformation。
 - [[131ce-negative-parity-yrast-reference-sequence]] / [[131ce-positive-parity-reference-sequence]] - Li 2004 两条 opposite-parity DSAM reference sequences；保留 finite/limit semantics，不作为 chiral pair。
 - [[133pr-negative-parity-yrast-reference-sequence]] - Singh 2016 low-Ω `πh11/2` RDDS reference；singles/long-feeding and pre-crossing boundaries。
@@ -180,6 +185,7 @@ updated: 2026-08-11
 
 ## Experiments
 
+- [[tsukuba-127-128i-li7-28-32mev]] - 28 MeV/32 MeV `124Sn(7Li,3n/4n)128,127I`、日本筑波大学串列与 10-HPGe 反康谱仪阵列在束 γ 谱学数据集；实际多极性分析使用 ADO。
 - [[ithembalabs-afrodite-74as-he4-58-62mev]] - `74Ge(4He,1p3n)74As` at `58.6/62.6 MeV`；AFRODITE+LEPS coincidence/ADO/polarization dataset。
 - [[ciae-hi13-131ce-f19-95mev]] - 95 MeV `116Sn(19F,p3n)131Ce`、11-HPGe γ-γ coincidence/DSAM lifetime 数据集。
 - [[iuac-gda-131ce-o16-rdds-dsam]] / [[iuac-gda-133pr-f19-rdds]] - Singh 2016 的 `131Ce` dual-run RDDS/DSAM 与 `133Pr` multiplicity-gated-singles plunger data sets。
