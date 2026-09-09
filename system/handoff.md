@@ -8,29 +8,35 @@ updated: 2026-09-10
 ## Active handoff
 
 Current active task:
-Connected the Wiki's canonical maintenance remote to Gitee and retired the GitHub maintenance chain. Wiki work remains owned by the Docker-hosted terminal Codex; the scientific work remains L2 with existing review flags.
+Published the portable Wiki repository cleanup: tracked Codex/Obsidian configuration was removed, the Zotero Inbox is local-only, and public AI guidance no longer assumes Docker or a fixed path. The reviewed `configure` and `muIon-beam` skill migration remains recorded below; scientific work remains L2 with existing review flags.
 
 Current branch / local commit:
-Current branch is `main`; local final commit is `Ingest dissertation corpus and migrate Wiki to Gitee`, with annotated tag `迁移github至gitee`. Existing concurrent/unpublished changes remain uncommitted. `origin` points to `https://gitee.com/chx6/silicon_graduate`. Publication status is `final-not-pushed` because no usable Gitee authentication entry is available. No raw file or credential material was changed.
+Wiki branch is `main`; HEAD is `Make Wiki repository environment portable` at `71fd0d4`, published to `origin/main`. Shared skill repository `/root/.agents/skills` has checkpoint `755fc63` and its sync owner controls publication. Local `raw/zotero/wiki-inbox.bib` and Obsidian files remain in place but are no longer tracked. Existing capability and research files remain uncommitted and untouched.
 
 Last task status:
-Verified that `origin` has only the Gitee fetch/push URL and no GitHub remote. Removed the repository-local GitHub-specific credential/SSL entries, retired `.github/workflows/wiki-lint.yml`, removed its lint required-path entry, and updated active repository, security, contribution, check, workflow, plan and memory guidance. Created the explicitly scoped local commit and annotated tag. Gitee fetch/ancestry passed, but branch+tag dry-run failed before authentication because the stale repository `core.askpass` points to missing `E:/imp/wiki/.../askpass-native.exe`; a command-level no-askpass retry also found no usable credentials, so no real push occurred.
+Pinned source review completed at configure `18a5bfec545adc0029cee1129dba8a3437730299` (MIT) and muIon-beam `d8498ade8821c02a6e01127fcab51a0a4c42d579` (MIT). The 25 configure skills remain in `/root/.agents/skills`; shared `team`/`dispatch` now include manifest/ready-wave checks, capability and stale-catalog boundaries, evidence-gated completion, cooperative resource locks, lifecycle/retry records and leader-owned publication. Shared `all`/`make`/`test` now distinguish `completed`/`converged` from `stopped`/`interrupted`/`partial`/`blocked`. Source hashes and reference-only decisions are recorded in shared `ATTRIBUTIONS.md`; Wiki adoption guidance is updated. Structure/name/AGENTS checks, shared `git diff --check`, and sensitive-pattern scan remain required before publication. `skill-creator` was not duplicated because it is a Codex system skill; Wiki-specific `evolution`, `farmer` and `hook` remain local. Shared auto-sync owns checkpoint/push; do not manually push the shared repository.
 
 Unfinished items:
-1. Restore a valid Gitee authentication entry outside this task, then rerun the non-force branch+tag push; the local commit/tag remain `final-not-pushed`. Do not stage the concurrent capability/hook/farmer changes without separate review.
-2. Human claim-specific review of the completed HK10/LB16 crosswalk remains pending, especially phase-space/B(GT) convention and `100In` branching boundaries.
-3. Current dissertation and daily-learning content remain `content-complete / final-not-pushed`; do not alter raw files or claim review flags.
+1. Let the shared `skills-sync` owner publish checkpoint `755fc63`; do not manually push the shared repository or rewrite its history. Verify `git -C /root/.agents/skills status -sb` and `.git/skills-sync-last-pushed` in a later session.
+2. New containers must mount the same shared skill volume and restart Codex to rescan `/root/.agents/skills`; validate that the 25 names appear without duplicating `skill-creator`.
+3. Decide whether to keep the user-level farmer daemon running; if enabled, verify `python3 system/scripts/wiki_farmer.py status --root .` and stop it before changing runtime assumptions. Do not stage capability/hook/farmer files without separate review.
+4. Future Wiki changes may use the standing autonomous commit/push authorization after the normal publication gates.
+5. Human claim-specific review of the completed HK10/LB16 crosswalk remains pending, especially phase-space/B(GT) convention and `100In` branching boundaries.
+6. Current dissertation and daily-learning content remain `content-complete / final-not-pushed`; do not alter raw files or claim review flags.
 
 P0/P1 review focus:
 P0: batch source claims listed in `outputs/degree-dissertation-ingest-20260905.md`, especially `131Ba` MχD/E1, `135Pr/187Au` wobbling, `100Sn` BGT/level schemes, `178Hf` K-mixing, `237Pu` Nilsson labels, and Ding `127/128I` ADO/NPA boundaries. P1: fast timing/MSCD, multi-nuclide fission assignments, NEEC estimates, `6Li(p,γ)7Be` resonance candidate and all shared thesis/journal lineages.
 
 Risks:
-Keep `raw/zotero/wiki-inbox.bib`, `.codex/config.toml` and all raw PDFs/OCR images protected and unstaged. Do not restore a GitHub maintenance workflow or remote. Do not change claim `needs_review` status without explicit claim-level confirmation. Do not count thesis/journal shared datasets as independent experiments. Preserve the canonical Ding experiment page `tsukuba-127-128i-li7-28-32mev`.
+Keep local `raw/zotero/wiki-inbox.bib`, local Obsidian state and all raw PDFs/OCR images outside Git tracking. Do not restore a GitHub maintenance workflow or remote. Do not change claim `needs_review` status without explicit claim-level confirmation. Do not count thesis/journal shared datasets as independent experiments. Preserve the canonical Ding experiment page `tsukuba-127-128i-li7-28-32mev`.
 
 Next prompt / continuation phrase:
-`继续 100Sn claim-specific review：核对共同 phase-space/B(GT) convention与100In level-scheme branching，决定哪些HK10/LB16 claims可进入论文证据池`
+`继续执行普通任务：按持续授权自动 commit/push；先通过 preflight、lint、H3 和精确 refspec，遇到 WIP/hard P0/不要 push 指令则停在本地`
 
 Recent user decisions:
+2026-09-10: 用户明确以后普通 commit/push 不再逐次询问；通过发布门的 final、治理和工具修改可自主提交并推送。当前指令“不要 push”“只 commit”“只修改”可覆盖本轮；force push、历史重写、raw 覆盖、未隔离 hard P0 和人工审核关口仍需保留。
+2026-09-10: 明确共有能力的 skill 优先进入 Docker shared skill 层；项目专用 skill 留在项目 `.agents/skills/`，完成通用化和多容器验证后才可晋升共享层。
+2026-09-10: 指定学习 `configure` 与 `muIon-beam` 的头脑风暴、up/evolution、auto、tag、hook、farmer 等能力；允许把可复用部分接入 Wiki，但保留科学审核、raw、凭据、Git 发布和不可逆操作边界。
 2026-09-10: 指定 Gitee `https://gitee.com/chx6/silicon_graduate` 为本库维护入口，GitHub 仅保留镜像关系；随后授权将当前已审计快照 commit/push，并创建 tag `迁移github至gitee`。
 2026-09-02: Confirmed Ding's experiment was performed at the University of Tsukuba, not CIAE; retained evidence review boundaries.
 2026-09-05: Authorized autonomous ingest/check of the 15 degree dissertations plus the extra `103Pd` report; Alwaleedi is to be re-read; Git failure must not block content; commit/push is one-time after the batch via `git20260905`.

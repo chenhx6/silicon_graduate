@@ -1171,3 +1171,30 @@ updated: 2026-07-15
 - Verified local `origin` fetch/push URLs as `https://gitee.com/chx6/silicon_graduate`; no GitHub remote remains. Removed only the repository-local GitHub-specific credential/SSL configuration entries.
 - Retired `.github/workflows/wiki-lint.yml` and removed its `system/lint-config.json` required-path entry; updated active repository, security, contribution, check, workflow, plan and memory guidance so Gitee is the maintenance endpoint and GitHub is mirror-only.
 - The explicitly scoped snapshot was committed as `Ingest dissertation corpus and migrate Wiki to Gitee` and tagged `迁移github至gitee`; concurrent capability/hook/farmer changes remained outside the commit. Gitee fetch/ancestry passed, but branch+tag dry-run failed before authentication because the stale repository `core.askpass` points to a missing Windows path; the no-askpass retry found no credentials, so no real push occurred and the state is `final-not-pushed`. No raw file, protected BibTeX or credential content was changed.
+
+## [2026-09-10] tooling | configure/muIon-beam Agent capability adoption
+
+- Reviewed fixed commits `18a5bfec545adc0029cee1129dba8a3437730299` (`configure`, MIT) and `a2939799aad0d7672fb3c45f612da84ad56742bf` (`muIon-beam`). Installed the 25 general configure skills plus its license copy under user-level `/root/.codex/skills`; added Wiki adapters for `evolution`, `farmer` and `hook`.
+- Added `system/agent-capability-adoption.md` and `system/agent-capability-upgrade.md` with source pins, adoption/rejection gates, brainstorm/auto/up/tag routing, and the rule that external skills do not bypass L0–L4, human review, raw, credentials or Git publication controls.
+- Added explicit read-only `wiki_hook.py` lifecycle checks and JSONL-only `wiki_farmer.py` supervision with one pending continuation per allowlisted transient error; no Codex SQLite, credentials, raw files, Git commit/push/tag or automatic Codex configuration was changed.
+- Full system tests passed (17 tests in 65.655s), agent-ops tests passed (4 tests), and Wiki lint passed with 0 errors. Farmer dry-run observed Wiki sessions and queued no recovery message. Capability files remain uncommitted for explicit review.
+
+## [2026-09-10] tooling | shared skill migration
+
+- Confirmed `/root/.agents/skills` is the Docker `shared-skills` volume and the Codex-supported shared discovery path; `/root/.codex/skills` is the container-local `codex-profile` volume.
+- Migrated 25 cross-project configure skills from fixed commit `18a5bfec545adc0029cee1129dba8a3437730299` into the shared repository, retaining `ATTRIBUTIONS.md` and the MIT license. Excluded system-provided `skill-creator` and Wiki-bound `evolution`/`farmer`/`hook` adapters.
+- Shared `skills-sync` created checkpoint `755fc63` (`auto: update shared skills 2026-09-09T21:24:46Z`); local `main` is one commit ahead of `origin/main` and the sync marker still points to the previous pushed commit. No manual push or history rewrite was attempted.
+- Added the shared-first rule to Wiki memory and capability adoption guidance. Existing Wiki raw, protected BibTeX, credentials and scientific review state were not changed.
+
+## [2026-09-10] governance | standing autonomous commit/push authorization
+
+- User authorized routine Wiki commit/push without per-task confirmation. Updated `AGENTS.md`, `check.md`, user guides, ingest/reflect/autonomous-research/scheduled-continuation workflows, memory and capability guidance.
+- Automatic publication still requires explicit file scope, protected-path checks, preflight, lint, H3, fresh fetch, remote ancestry and exact non-force refspec dry-run. Waiting-review WIP, unresolved hard P0, safe suspend, authentication failure and remote drift remain local/`final-not-pushed`.
+- “不要 push”, “只 commit” and “只修改” remain per-task overrides. Force push, history rewrite, published-tag rewrite, raw overwrite and other irreversible operations remain separately gated.
+- No current Wiki commit or push was performed solely because this preference changed; existing dirty files remain preserved.
+
+## [2026-09-10] governance | portable public repository cleanup
+
+- Removed tracked `.codex/` and `.obsidian/` configuration, ignored future local configuration, and stopped tracking `raw/zotero/wiki-inbox.bib` while preserving local files.
+- Made public AI guidance and scheduled publication wording environment-neutral; the preflight now permits public clones without a local Zotero Inbox.
+- Committed as `Make Wiki repository environment portable` and pushed non-force to `origin/main`; unrelated dirty files remain uncommitted.
