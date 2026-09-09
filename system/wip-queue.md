@@ -1,7 +1,7 @@
 ---
 type: system-wip-queue
 graph-excluded: true
-updated: 2026-09-05
+updated: 2026-09-10
 ---
 
 # Pending WIP queue
@@ -9,6 +9,13 @@ updated: 2026-09-05
 This page tracks pending local WIP/review tasks that still need follow-up work. Keep entries short. Do not store long reports here. `system/review-history.md` records completed human-review rounds; the same task may appear in both places.
 
 ## Active entries
+
+### Unread degree-dissertation corpus: adaptive ingest and full-Wiki closure (2026-09-10)
+- status: planned; target state is defined in the execution plan; do not mark complete from partial reading
+- plan: `docs/plans/2026-09-10-degree-dissertation-corpus-ingest.md`
+- scope: all PDFs under `raw/papers/degree dissertation`; adaptive coverage, high-value deep reading, full-Wiki bidirectional linking, cross-source review and two independent self-audits
+- completion gate: all files have a truthful reading state; high-value claims have source locators; affected Wiki pages are linked and reviewed; reports and lint/graph/hash checks pass
+- next action: execute Stage 0 preflight and generate `outputs/degree-dissertation-reading-queue-20260910.md`; keep raw PDFs and protected BibTeX unstaged
 
 ### Daily learning: `100Sn` independent B(GT) evidence map (2026-09-07 continuation)
 - status: content-complete / final-not-pushed; active-L2; raw-PDF locator crosswalk completed

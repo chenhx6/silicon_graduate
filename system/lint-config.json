@@ -251,7 +251,12 @@
     "system/log.md",
     "system/memory.md",
     "system/schema.md",
+    "system/agent-capability-adoption.md",
+    "system/agent-capability-upgrade.md",
+    "system/scripts/wiki_hook.py",
+    "system/scripts/wiki_farmer.py",
     "system/scripts/wiki_lint.py",
+    "system/tests/test_agent_ops.py",
     "system/tests/test_wiki_lint.py",
     "system/vocabulary.md",
     "system/workflows/scheduled-continuation.md"

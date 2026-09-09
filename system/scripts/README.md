@@ -26,3 +26,24 @@ python3 system/scripts/wiki_automation_preflight.py --root .
 ```
 
 行尾脚本只处理 `knowledge/**/*.md` 的 LF/CRLF-only 差异；预检检查项目配置、受保护 BibTeX 哈希和仓库根目录/`.git` 的临时写探针。
+
+## Agent hook 与 farmer
+
+外部 Agent 能力的固定来源、采用边界和恢复约束见
+[`system/agent-capability-adoption.md`](../agent-capability-adoption.md)。Hook 是显式、只读的生命周期适配器：
+
+```bash
+python3 system/scripts/wiki_hook.py session-start --root .
+python3 system/scripts/wiki_hook.py before-edit --root . -- system/workflows/scheduled-continuation.md
+python3 system/scripts/wiki_hook.py after-edit --root .
+python3 system/scripts/wiki_hook.py session-summary --root .
+```
+
+Farmer 只读取 `CODEX_HOME/sessions/**/*.jsonl`，对 Wiki 根目录内的白名单瞬态失败排队一次固定续接消息；状态写入被忽略的 `tmp/farmer/`，不访问 Codex SQLite，也不执行 Git 发布：
+
+```bash
+python3 system/scripts/wiki_farmer.py once --root . --dry-run
+python3 system/scripts/wiki_farmer.py ensure --root .
+python3 system/scripts/wiki_farmer.py status --root .
+python3 system/scripts/wiki_farmer.py stop --root .
+```
