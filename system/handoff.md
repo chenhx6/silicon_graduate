@@ -8,18 +8,18 @@ updated: 2026-09-10
 ## Active handoff
 
 Current active task:
-Published the standing autonomous commit/push policy for routine Wiki work. The reviewed `configure` and `muIon-beam` skill migration remains recorded below; scientific work remains L2 with existing review flags.
+Published the Wiki agent capability adapters and explicit hook/farmer checks; scientific work remains L2 with existing review flags.
 
 Current branch / local commit:
-Wiki branch is `main`; HEAD subject is `Enable autonomous routine Git publication`, published through the standing non-force path. Shared skill repository `/root/.agents/skills` is managed by its sync owner. Existing capability, research and unrelated dirty files remain outside this commit.
+Wiki branch is `main`; HEAD subject is `Adopt Wiki agent capability adapters`, published through the standing non-force path. Shared skill repository `/root/.agents/skills` is managed by its sync owner. Capability files are now tracked; local plans and runtime caches remain ignored.
 
 Last task status:
-Updated the Git policy across `check.md`, user guides, memory and ingest/reflect/autonomous-research/scheduled-continuation workflows. Preflight passed, full system tests passed (18 tests), Wiki lint passed with 0 errors, staged diff check passed, and only the 10 policy/workflow files entered the commit. Current instruction overrides remain `不要 push`, `只 commit` and `只修改`; WIP/hard P0/safe suspend and irreversible operations remain gated.
+Reviewed `git status -sb`, restored the accidental CRLF-only `.gitkeep` change, kept local `docs/` plans ignored, and explicitly staged the 10 capability/governance files. Added the capability adoption/upgrade guides, read-only hook and JSONL farmer adapters, tests, README/lint routing, and the planned dissertation queue entry. Preflight passed, full system tests passed (18 tests), agent-ops tests passed (4 tests), Wiki lint passed with 0 errors, staged diff check passed, and exact non-force publication to Gitee `origin/main` passed. The hook Git timeout is 30 seconds because this repository's read-only Git checks take about 13–14 seconds. Current instruction overrides remain `不要 push`, `只 commit` and `只修改`; WIP/hard P0/safe suspend and irreversible operations remain gated.
 
 Unfinished items:
 1. Let the shared `skills-sync` owner publish checkpoint `755fc63`; do not manually push the shared repository or rewrite its history. Verify `git -C /root/.agents/skills status -sb` and `.git/skills-sync-last-pushed` in a later session.
 2. New containers must mount the same shared skill volume and restart Codex to rescan `/root/.agents/skills`; validate that the 25 names appear without duplicating `skill-creator`.
-3. Decide whether to keep the user-level farmer daemon running; if enabled, verify `python3 system/scripts/wiki_farmer.py status --root .` and stop it before changing runtime assumptions. Do not stage capability/hook/farmer files without separate review.
+3. Decide whether to keep the user-level farmer daemon running; it is currently stopped (`status` reports `running: false`). If enabled, verify `python3 system/scripts/wiki_farmer.py status --root .` and stop it before changing runtime assumptions.
 4. Future Wiki changes may use the standing autonomous commit/push authorization after the normal publication gates.
 5. Human claim-specific review of the completed HK10/LB16 crosswalk remains pending, especially phase-space/B(GT) convention and `100In` branching boundaries.
 6. Current dissertation and daily-learning content remain `content-complete / final-not-pushed`; do not alter raw files or claim review flags.

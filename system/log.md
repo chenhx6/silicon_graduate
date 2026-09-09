@@ -1204,3 +1204,9 @@ updated: 2026-07-15
 - Committed the standing commit/push policy as `Enable autonomous routine Git publication` using only the ten explicitly scoped governance/workflow files; unrelated dirty files and capability scripts remained unstaged.
 - Preflight passed, full system tests passed (18 tests), Wiki lint reported 0 errors, staged diff check passed, fresh fetch/ancestry and exact non-force refspec publication passed.
 - Routine final/governance/tool changes now publish automatically after the gates. Waiting-review WIP, hard P0, safe suspend, current “不要 push/只 commit/只修改” overrides, force push, history rewrite, published-tag rewrite and raw overwrite remain excluded.
+
+## [2026-09-10] tooling | capability baseline reviewed and published
+
+- Reviewed the dirty baseline from `git status -sb`; restored the CRLF-only `knowledge/research-notes/.gitkeep` noise and retained local `docs/` plans under `.gitignore`.
+- Explicitly staged the 10 Wiki capability/governance files, including the adoption/upgrade guides, read-only hook, JSONL farmer, tests, README/lint routing and dissertation queue entry. Increased the hook's Git check timeout from 5 to 30 seconds after observing the repository's 13–14 second read-only checks.
+- Preflight, 18 system tests, 4 agent-ops tests, Wiki lint (0 errors), staged diff check, exact refspec dry-run and non-force push all passed. Protected BibTeX/raw/Obsidian/local runtime content stayed outside the commit.
