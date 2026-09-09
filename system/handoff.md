@@ -11,7 +11,7 @@ Current active task:
 Published the Wiki agent capability adapters and explicit hook/farmer checks; scientific work remains L2 with existing review flags.
 
 Current branch / local commit:
-Wiki branch is `main`; HEAD subject is `Adopt Wiki agent capability adapters`, published through the standing non-force path. Shared skill repository `/root/.agents/skills` is managed by its sync owner. Capability files are now tracked; local plans and runtime caches remain ignored.
+Wiki branch is `main`; current reconciliation pointer is `main` + `Reconcile capability handoff pointer`. The capability baseline `Adopt Wiki agent capability adapters` is published through the standing non-force path. Shared skill repository `/root/.agents/skills` is managed by its sync owner. Capability files are now tracked; local plans and runtime caches remain ignored.
 
 Last task status:
 Reviewed `git status -sb`, restored the accidental CRLF-only `.gitkeep` change, kept local `docs/` plans ignored, and explicitly staged the 10 capability/governance files. Added the capability adoption/upgrade guides, read-only hook and JSONL farmer adapters, tests, README/lint routing, and the planned dissertation queue entry. Preflight passed, full system tests passed (18 tests), agent-ops tests passed (4 tests), Wiki lint passed with 0 errors, staged diff check passed, and exact non-force publication to Gitee `origin/main` passed. The hook Git timeout is 30 seconds because this repository's read-only Git checks take about 13–14 seconds. Current instruction overrides remain `不要 push`, `只 commit` and `只修改`; WIP/hard P0/safe suspend and irreversible operations remain gated.
