@@ -55,7 +55,9 @@ python -m unittest discover -s system/tests -p "test_*.py" -v
 - [ ] 递归删除、历史重写、raw 证据删除/覆盖、已发布标签改写和其它不可逆操作均有用户明确授权；普通 push 使用持续授权但仍通过 H3/发布检查，未把自主发布授权解释为 force push 或 raw 覆盖授权。
 - [ ] `system/log.md` 只追加，没有重写历史记录；启动或普通恢复未用 `ReadAllText(system/log.md)` 读取完整 log。
 - [ ] 若使用定时续跑，已遵循 `system/workflows/scheduled-continuation.md`，并说明本机应用、调度服务与电脑可用性前提。
-- [ ] 创建分支、提交、fetch 或 push 前运行 `python3 system/scripts/wiki_automation_preflight.py --root .`，确认 protected BibTeX 哈希未变化；不依赖 PowerShell、ACL、运行时 marker 或项目 sandbox profile。
+- [ ] 若启用 Wiki farmer，已先运行 dry-run；监控范围仅为 Wiki 根目录内的公开 rollout JSONL，会话状态只写入 `tmp/farmer/`，没有读取 Codex SQLite、凭据或 raw。
+- [ ] Hook 只通过 `system/scripts/wiki_hook.py` 显式调用；输入按数据处理，未自动修改 Codex 配置、source/eval 目标文件或执行外部安装器。
+- [ ] 创建分支、提交、fetch 或 push 前运行 `python3 system/scripts/wiki_automation_preflight.py --root .`；不依赖 PowerShell、ACL、运行时 marker 或项目 sandbox profile。
 - [ ] 定时任务正文未通过 shell、补丁或文件 API 读写 Codex 宿主 automation memory、global state、sandbox state 或任何 Wiki 外文件；宿主状态仅由 Codex automation 功能维护。
 - [ ] 定时任务的“一次/重复”、时区和下次运行时间在界面中无歧义；一次性请求未显示为“每天”。
 - [ ] 只有在存在运行回执且产物已核验时，才把定时任务报告为“已执行/已完成”；无回执明确写为“未触发/未验证”。
@@ -240,7 +242,7 @@ python -m unittest discover -s system/tests -p "test_*.py" -v
 - [ ] HEAD 已是 active WIP ingest/review/suspend 时，没有开始下一篇摄入、下一项综合或创建第二个 WIP。
 - [ ] 普通 ingest 自审完成或用户审核完成后，均通过 `git commit --amend` 把对应 rolling WIP 转为 final commit，没有保留独立 WIP 或累积额外 review/final commits；只有真实 human-review completion event 才写 review history 或改变用户明确确认范围内的 review 状态。
 - [ ] 用户指定本轮提交 message 时已原样使用；未指定时由 Codex 根据实际修改推荐直接相关的 message，并在最终报告中说明。
-- [ ] 对应 active WIP + 用户审核完成 + final commit/push 指令已按仓库内明确 amend 授权处理，没有错误套用通用“不主动 amend”约束。
+- [ ] 对应 active WIP + 用户审核完成时，已按持续授权 amend 为 final，并在发布门通过后自动 push；当前指令覆盖或科学发布门未通过时保留本地状态，没有错误套用通用“不主动 amend”约束。
 - [ ] WIP/final commit 均未包含 `.obsidian/graph.json`、`raw/zotero/wiki-inbox.bib`、未经本轮授权的 raw PDF、论文、数据、图片、`PLAN.md` 或无关文件；获准进入 `raw/papers/gpt/**` / `raw/zotero/gpt.bib` 的文件已逐项核验并显式暂存。
 - [ ] Safe suspend 遇到大量 Markdown diff 时，已优先判断并尝试本地 WIP checkpoint。
 - [ ] 文献摄入、project、synthesis 或 framework 任务正常结束时，已自动刷新 Active handoff 并向 `system/log.md` 追加简短记录；用户不需要每次手动要求 handoff/log 收尾。

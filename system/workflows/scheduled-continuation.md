@@ -60,8 +60,35 @@ not inspect Desktop state, ACLs, or PowerShell markers. Keep task recovery in
 For publication, check the intended files explicitly, run lint, fetch `origin`
 the configured remote, verify remote ancestry, then use
 `git push --dry-run origin HEAD:main` followed by the same non-force refspec.
-Network or authentication failure leaves the local content intact and is
-reported as `final-not-pushed`.
+The Wiki's standing commit/push authorization permits this automatically after
+the publication gate; current instructions such as `不要 push`, `只 commit`
+or `只修改` override it. Network or authentication failure leaves the local
+content intact and is reported as `final-not-pushed`.
+
+### Farmer session supervision
+
+For Codex sessions that run in this Wiki, the repository-local farmer can watch
+public rollout JSONL and queue one continuation after an allowlisted transient
+failure. It is an execution aid, not a second scheduler or a guarantee that a
+closed application or machine will restart. The farmer must remain scoped to
+the Wiki root and must not read Codex SQLite, credentials, raw evidence, or
+Git state beyond the read-only session metadata it needs.
+
+Use the no-side-effect probe before starting it:
+
+```bash
+python3 system/scripts/wiki_farmer.py once --root . --dry-run
+python3 system/scripts/wiki_farmer.py ensure --root .
+python3 system/scripts/wiki_farmer.py status --root .
+```
+
+Only `server_overloaded`, rate limiting, temporary unavailability, timeouts
+and connection resets are recoverable. Authentication, permission, cancel,
+context exhaustion and invalid model/parameter errors stop automatic retries
+and require the normal handoff path. One pending continuation is kept per
+session event and retries use bounded backoff. Stop it with
+`python3 system/scripts/wiki_farmer.py stop --root .` before changing the
+runtime environment or debugging the supervisor itself.
 
 ## Wiki weekly self-test and bounded research expansion
 

@@ -145,13 +145,13 @@ Wiki 可在不同操作系统和 AI 工具环境中使用；`.codex/`、`.obsidi
 摄入主体完成且检查通过后，默认流程是：
 
 1. 长任务或中断时，Codex 显式暂存本轮摄入文件，创建/更新单一 rolling `WIP ingest:`；
-2. Codex 逐篇回查全文、locator、claim kind、证据层、竞争解释和 P0/P1；WIP 不 push，也不代表页面或 claims 已人工复核；
+2. Codex 逐篇回查全文、locator、claim kind、证据层、竞争解释和 P0/P1；等待审核或存在 hard P0 的 WIP 不 push，也不代表页面或 claims 已人工复核；
 3. 摄入完整、检查通过且没有未隔离 hard P0 时，Codex 使用 `git commit --amend` 把 rolling WIP 转为 final ingest commit，不创建第二个 final commit；
 4. Agent 自审不写 Human Review Record/history，不把页面升级为 `human-reviewed`，也不自行清除 `needs_review`；
-5. 用户已经为普通 ingest 建立持续 push 授权；除非当前指令明确要求不 push，Codex 在 H3、fresh fetch、remote ancestry 和精确 refspec dry-run 通过后使用同一 refspec 非 force push；
+5. 用户已经为普通 ingest 建立持续 commit/push 授权；除非当前指令明确要求不 push，Codex 在 H3、fresh fetch、remote ancestry 和精确 refspec dry-run 通过后使用同一 refspec 非 force push；
 6. 认证、远端漂移、检查失败或未隔离 hard P0 均 safe suspend。后续问答、研究和论文证据采用时，再按具体 claim 由用户审核证据陈述。
 
-同一分支最多保留一个 active WIP。旧式“不 commit/push，等待审核”表示不 final commit、不 push，但允许本地 WIP；若要禁止所有本地 commit，需明确写“禁止本地 WIP commit”。Safe suspend 遇到大量 Markdown diff 时也优先采用本地 WIP checkpoint，减少 Codex、Git、编辑器或文件监听的持续 CPU 占用；checkpoint 绝不自动 push。
+同一分支最多保留一个 active WIP。旧式“不 commit/push，等待审核”表示不 final commit、不 push，但允许本地 WIP；若要禁止所有本地 commit，需明确写“禁止本地 WIP commit”。Safe suspend 遇到大量 Markdown diff 时也优先采用本地 WIP checkpoint，暂停本轮自动 push，减少 Codex、Git、编辑器或文件监听的持续 CPU 占用；checkpoint 在恢复并通过发布门后再发布。
 
 默认按主题连续逐篇摄入，在自然批次完成 Agent 自审后统一 final/push；不再逐篇等待人工审核。多个 pending WIP 仍需在新任务第一次写入前比较预期文件：无重叠可独立；同一范围继续并 amend 原 WIP；依赖上游未 final 内容时记录 dependent WIP；两个独立任务需要同一共享文件时，先 final 上游或暂缓该文件。不得静默创建两个独立且修改同一文件的 WIP。
 
@@ -169,7 +169,7 @@ Wiki 可在不同操作系统和 AI 工具环境中使用；`.codex/`、`.obsidi
 审核：1... 2... 审核完毕，除以上两点外无问题。
 ```
 
-Codex 应自动理解为：本轮人工审核已经结束，可以记录一条 Review history，然后按审核意见做最小修改，处理明确确认范围内的 `needs_review`，更新 overview，刷新 QMD，完成 review/final commit，并按用户要求决定是否 push。是否保留 queue entry 需要独立判断；Review history 与 Pending WIP 可以同时存在。
+Codex 应自动理解为：本轮人工审核已经结束，可以记录一条 Review history，然后按审核意见做最小修改，处理明确确认范围内的 `needs_review`，更新 overview，刷新 QMD，完成 review/final commit，并在检查通过后自动 push。是否保留 queue entry 需要独立判断；Review history 与 Pending WIP 可以同时存在。
 
 若不想执行其中某项，需要明确写“不要更新 overview”“不要刷新 QMD”“不要 push”或“只修改不 finalization”。如果是否结束本轮审核存在歧义，Codex 不应擅自写入 Review history。
 

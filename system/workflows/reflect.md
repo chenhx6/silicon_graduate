@@ -113,17 +113,17 @@ Project、synthesis 或跨来源 reflect 完成后，必须按 `system/workflows
 
 主结论、evidence matrix 归类、用户数据解释、创新点候选和 paper evidence gate 候选通常属于 P0/P1。Planning notes、follow-up sources 与低风险导航可归入 P2/P3。所有 P0 无总量硬上限，必须逐项展示实际判断、证据、Agent inference、locator、审核目的和不审核风险；可分批但不得聚合隐藏。P1 可分组但不能退化为纯文件名列表。
 
-综合主体完成、等待用户审核时，若用户未明确禁止任何本地 commit，按 `AGENTS.md` 创建单个本地 `WIP review: <task short name> for user review`，不 push，并在 `system/wip-queue.md` 写入或更新 pending entry。queue 只保留继续审核所需的最新 branch/commit/next action；若后续 amend/rebase 改变 WIP hash，只更新到最新 commit。用户审核完成并要求 final commit/push 后，必须把该 WIP amend 为 final commit，不得另建 review/final commit；用户指定 final message 时原样使用，未指定时由 Codex 推荐直接相关的 message 并在最终报告中说明。
+综合主体完成、等待用户审核时，按 `AGENTS.md` 创建单个本地 `WIP review: <task short name> for user review`，不 push，并在 `system/wip-queue.md` 写入或更新 pending entry。queue 只保留继续审核所需的最新 branch/commit/next action；若后续 amend/rebase 改变 WIP hash，只更新到最新 commit。用户审核完成后，必须把该 WIP amend 为 final commit；通过发布门后按持续授权自动 push，不得另建 review/final commit；用户指定 final message 时原样使用，未指定时由 Codex 推荐直接相关的 message 并在最终报告中说明。
 
 若上一轮处于 project review、synthesis review、cross-project synthesis review、waiting for user review、waiting for user P0/P1 review 或 `WIP review:` 状态，且用户给出实质性审核意见，并明确表示或根据当前消息与上下文可以无歧义地判断本轮审核已经结束，应识别为 human-review completion event，并在适用时进入 `review-finalization request`。
 
 不要求固定触发短语；若存在歧义，不得自动写入 `system/review-history.md`。
 
-Review finalization 在规则允许时可以默认完成审核意见对应的最小修改、检查、本地 commit 与状态同步；push 始终需要用户明确授权。用户没有说“不要 push”不等于已经授权 push；缺少明确授权时必须停在 `ready-for-push`。完整 Git 边界由根目录 `AGENTS.md` 的 Review-finalization / Safe suspend 规则和 `check.md` 的 Git preflight 维护，本 workflow 不复制。其余收尾按审核范围处理：仅更新用户明确确认的 `needs_review`，确认无 unresolved P0/locator gaps 后按触发条件处理 overview/QMD，追加 `system/review-history.md`，独立判断 queue，刷新 Active handoff 和 short log。
+Review finalization 在规则允许时可以默认完成审核意见对应的最小修改、检查、本地 commit、自动 push 与状态同步；当前指令中的“不要 push”“只 commit”“只修改”可覆盖本轮发布。完整 Git 边界由根目录 `AGENTS.md` 的 Review-finalization / Safe suspend 规则和 `check.md` 的 Git preflight 维护，本 workflow 不复制。其余收尾按审核范围处理：仅更新用户明确确认的 `needs_review`，确认无 unresolved P0/locator gaps 后按触发条件处理 overview/QMD，追加 `system/review-history.md`，独立判断 queue，刷新 Active handoff 和 short log。
 
 若仍有 unresolved P0、locator gaps、审核意见未落实、审核意见无法唯一映射到具体 project/synthesis statement、project/synthesis 仍存在高风险不确定内容，或 HEAD 不是对应 WIP 且无法确认归属，不得强行 finalization；应停止并报告阻塞，必要时 safe suspend。
 
-若用户明确不要 overview/QMD、只修改不 finalization，或 push 未获授权/状态无法确认，Review history 仍可记录本轮已经明确结束的人工审核，但 queue 是否保留必须独立判断。
+若用户明确不要 overview/QMD、只修改不 finalization、不要 push，或 push 状态无法确认，Review history 仍可记录本轮已经明确结束的人工审核，但 queue 是否保留必须独立判断。
 
 Project、synthesis、cross-project synthesis 或 framework 任务正常结束后，必须自动刷新 `system/handoff.md` 的 Active handoff 并向 `system/log.md` 追加一条简短记录；用户不需要每次手动要求。Active handoff 写当前任务状态、commit/push 状态、未完成事项、P0/P1 审核重点、风险和下一步；若任务结束为 WIP、未 push、push 状态 uncertain 或等待审核，同步更新 `system/wip-queue.md`。
 

@@ -147,7 +147,7 @@ python3 system/scripts/clean_knowledge_eol_dirty.py --dry-run
 
 脚本只清理未暂存且可证明为 LF/CRLF-only 的 tracked `knowledge/**/*.md`；普通行尾空格、Markdown 双空格和 Tab 都视为 substantive 并保留。脚本不触碰 staged 内容、不处理其它目录，并保留 substantive/mixed 状态。exit code `1` 只表示仍需由 Codex 按授权范围、入口 baseline 和 WIP 归属分类；完全属于当前授权任务的 substantive diff 不会因此被无条件阻断。
 
-`system/review-history.md` 单独记录已经明确结束的人工审核轮次；Agent 的 ingest 自审不会写入这里。两者可以同时保留同一任务：history 记录“这一轮人类审核已经审完”，queue 记录“这项工作还要继续处理什么”。之后可以说“列出 pending WIP”“继续审核 Sigma-over-I alignment sources”“列出最近完成的 reviews”或“哪些 review 已完成但还没写入论文？”。WIP 不应 push 到 `main`；Agent 自审通过的 final ingest 可以按授权流程发布，但仍保持未发生人工审核的状态标记。
+`system/review-history.md` 单独记录已经明确结束的人工审核轮次；Agent 的 ingest 自审不会写入这里。两者可以同时保留同一任务：history 记录“这一轮人类审核已经审完”，queue 记录“这项工作还要继续处理什么”。之后可以说“列出 pending WIP”“继续审核 Sigma-over-I alignment sources”“列出最近完成的 reviews”或“哪些 review 已完成但还没写入论文？”。等待审核的 WIP 不应 push 到 `main`；Agent 自审通过的 final ingest 可以按持续授权和发布门自动发布，但仍保持未发生人工审核的状态标记。
 
 审核完成时可以直接写简短结论，例如：
 

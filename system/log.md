@@ -1198,3 +1198,9 @@ updated: 2026-07-15
 - Removed tracked `.codex/` and `.obsidian/` configuration, ignored future local configuration, and stopped tracking `raw/zotero/wiki-inbox.bib` while preserving local files.
 - Made public AI guidance and scheduled publication wording environment-neutral; the preflight now permits public clones without a local Zotero Inbox.
 - Committed as `Make Wiki repository environment portable` and pushed non-force to `origin/main`; unrelated dirty files remain uncommitted.
+
+## [2026-09-10] governance | autonomous routine Git publication finalized
+
+- Committed the standing commit/push policy as `Enable autonomous routine Git publication` using only the ten explicitly scoped governance/workflow files; unrelated dirty files and capability scripts remained unstaged.
+- Preflight passed, full system tests passed (18 tests), Wiki lint reported 0 errors, staged diff check passed, fresh fetch/ancestry and exact non-force refspec publication passed.
+- Routine final/governance/tool changes now publish automatically after the gates. Waiting-review WIP, hard P0, safe suspend, current “不要 push/只 commit/只修改” overrides, force push, history rewrite, published-tag rewrite and raw overwrite remain excluded.

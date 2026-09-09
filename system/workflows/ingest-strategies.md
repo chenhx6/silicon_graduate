@@ -18,7 +18,7 @@ updated: 2026-07-16
 5. 需要人工核对的 claim 保留 `needs_review: true`；页面级 `human-reviewed` 与 claim-level `needs_review` 独立。
 6. 不修改 raw PDF、论文、数据、图片或 `raw/zotero/wiki-inbox.bib`；不新增 Skill、automation、脚本或调度器。
 7. 普通摄入不修改 lint 脚本、lint 配置或测试；若认为必须修改，停止并询问用户。
-8. 普通文献摄入默认由 Agent 完成逐 claim 自审；长任务可保留单一 rolling `WIP ingest:`，完成且无未隔离 hard P0 时 amend 为 final，并按仓库已授权发布流程 push。Agent 自审不改变 `unreviewed` / `needs_review`；用户明确禁止 push、禁止任何本地 commit 或要求先审核时按该覆盖指令执行。
+8. 普通文献摄入默认由 Agent 完成逐 claim 自审；长任务可保留单一 rolling `WIP ingest:`，完成且无未隔离 hard P0 时 amend 为 final，并按仓库持续 commit/push 授权自动发布。Agent 自审不改变 `unreviewed` / `needs_review`；用户明确禁止 push、禁止任何本地 commit 或要求先审核时按该覆盖指令执行。
 9. 普通单篇摄入不强制 QMD embed；可把 QMD refresh 写为 deferred，并说明原因与建议补跑时机。
 10. 普通单篇摄入不默认更新 `knowledge/overview.md`；overview 是阶段性地图。
 11. 只做与本轮任务直接相关的最小同步；有帮助但非必要的优化只列建议。

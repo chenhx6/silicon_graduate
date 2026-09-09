@@ -8,13 +8,13 @@ updated: 2026-09-10
 ## Active handoff
 
 Current active task:
-Published the portable Wiki repository cleanup: tracked Codex/Obsidian configuration was removed, the Zotero Inbox is local-only, and public AI guidance no longer assumes Docker or a fixed path. The reviewed `configure` and `muIon-beam` skill migration remains recorded below; scientific work remains L2 with existing review flags.
+Published the standing autonomous commit/push policy for routine Wiki work. The reviewed `configure` and `muIon-beam` skill migration remains recorded below; scientific work remains L2 with existing review flags.
 
 Current branch / local commit:
-Wiki branch is `main`; HEAD is `Make Wiki repository environment portable` at `71fd0d4`, published to `origin/main`. Shared skill repository `/root/.agents/skills` has checkpoint `755fc63` and its sync owner controls publication. Local `raw/zotero/wiki-inbox.bib` and Obsidian files remain in place but are no longer tracked. Existing capability and research files remain uncommitted and untouched.
+Wiki branch is `main`; HEAD subject is `Enable autonomous routine Git publication`, published through the standing non-force path. Shared skill repository `/root/.agents/skills` is managed by its sync owner. Existing capability, research and unrelated dirty files remain outside this commit.
 
 Last task status:
-Pinned source review completed at configure `18a5bfec545adc0029cee1129dba8a3437730299` (MIT) and muIon-beam `d8498ade8821c02a6e01127fcab51a0a4c42d579` (MIT). The 25 configure skills remain in `/root/.agents/skills`; shared `team`/`dispatch` now include manifest/ready-wave checks, capability and stale-catalog boundaries, evidence-gated completion, cooperative resource locks, lifecycle/retry records and leader-owned publication. Shared `all`/`make`/`test` now distinguish `completed`/`converged` from `stopped`/`interrupted`/`partial`/`blocked`. Source hashes and reference-only decisions are recorded in shared `ATTRIBUTIONS.md`; Wiki adoption guidance is updated. Structure/name/AGENTS checks, shared `git diff --check`, and sensitive-pattern scan remain required before publication. `skill-creator` was not duplicated because it is a Codex system skill; Wiki-specific `evolution`, `farmer` and `hook` remain local. Shared auto-sync owns checkpoint/push; do not manually push the shared repository.
+Updated the Git policy across `check.md`, user guides, memory and ingest/reflect/autonomous-research/scheduled-continuation workflows. Preflight passed, full system tests passed (18 tests), Wiki lint passed with 0 errors, staged diff check passed, and only the 10 policy/workflow files entered the commit. Current instruction overrides remain `不要 push`, `只 commit` and `只修改`; WIP/hard P0/safe suspend and irreversible operations remain gated.
 
 Unfinished items:
 1. Let the shared `skills-sync` owner publish checkpoint `755fc63`; do not manually push the shared repository or rewrite its history. Verify `git -C /root/.agents/skills status -sb` and `.git/skills-sync-last-pushed` in a later session.

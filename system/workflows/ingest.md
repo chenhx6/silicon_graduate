@@ -41,7 +41,7 @@ updated: 2026-08-06
 
 用户未指定时采用标准深入阅读模式。摄入请求同时授权与该来源直接相关的 L2：知识固化、关联、质疑、低成本验证和高价值问题记录。若问题需要系统背景、多个竞争解释或可能形成课题，可按 `autonomous-research.md` 自然进入 L3；L4 仍须 safe suspend 后由用户手动启动。三种模式不得与 `metadata-only`、`skimmed`、`read`、`deep-read` 建立一一对应关系。
 
-活跃 L3 中的多来源摄入归入同一 project-level WIP 或用户明确授权的 final commit；仍需逐来源建立 source、locator、claim kind 和 triage，但不执行逐篇等待人工审核的阻塞节奏。P0/P1 是内部优先级，不要求用户逐项处理；每个重要问题必须有状态、依据和后续路线。
+活跃 L3 中的多来源摄入归入同一 project-level WIP 或通过发布门的 final commit；仍需逐来源建立 source、locator、claim kind 和 triage，但不执行逐篇等待人工审核的阻塞节奏。P0/P1 是内部优先级，不要求用户逐项处理；每个重要问题必须有状态、依据和后续路线。
 
 ## 1. 预检
 
@@ -190,7 +190,7 @@ A source outside the current main research anchor may still justify lightweight 
 - QMD refresh 不是普通单篇摄入固定收尾成本；可只运行轻量状态检查，或写明 `QMD refresh deferred`、原因和建议补跑时机。批量摄入、多篇文献完成、用户明确要求或大型 project/synthesis 依赖最新检索时，再运行 `qmd update` / `qmd embed`。
 - 检查是否推进 `knowledge/questions.md` 中的开放问题；不为形式完整而新增重复问题。
 - 向 `system/log.md` 追加简短 ingest 记录，更新 `system/handoff.md` 的 Active handoff；用户不需要每次手动要求 handoff/log 收尾。
-- 普通摄入结束后由 Agent 完成全文、locator、claim kind、证据层、竞争解释和 P0/P1 自审；不存在未隔离 hard P0 且检查通过时，可把 rolling WIP amend 为 final，并按用户已建立的普通 ingest 持续授权进入 H3 与非 force push。Agent 自审不改变页面级 `unreviewed` 或 claim-level `needs_review`，也不写入 Human Review Record/history。
+- 普通摄入结束后由 Agent 完成全文、locator、claim kind、证据层、竞争解释和 P0/P1 自审；不存在未隔离 hard P0 且检查通过时，可把 rolling WIP amend 为 final，并按用户已建立的持续 commit/push 授权进入 H3 与非 force push。Agent 自审不改变页面级 `unreviewed` 或 claim-level `needs_review`，也不写入 Human Review Record/history。
 - 摄入尚未完成、存在未隔离 hard P0、检查失败、远端异常，或用户明确要求先审核时，创建/保留本地 WIP ingest commit、不 push，并在 `system/wip-queue.md` 写入或更新 pending entry；queue 只保留继续处理所需的最新 branch/commit/next action，overview/QMD 可按规则 deferred。
 - handoff/log 不保存长复盘；Active handoff 记录任务状态、commit/push 状态、未完成事项、P0/P1 审核重点、风险和下一步。
 - 执行 `check.md` 中与本次摄入相关的项目。
@@ -206,7 +206,7 @@ A source outside the current main research anchor may still justify lightweight 
 3. 回查每篇全文与 source-specific triage，确认核心 claim 有可用 locator、事实/作者解释/模型/Agent synthesis 分层明确、竞争解释与反证未被抹平；P0 必须逐项处置，P1 保留为未来证据采用时的复核优先级；
 4. Agent 自审通过且不存在未隔离 hard P0 时，显式暂存本轮摄入相关文件，不使用 `git add .`；若 HEAD 是本任务 rolling WIP，则 amend 为与实际范围相符的 final commit，否则直接创建 final commit；
 5. 不把 Agent 自审记为 Human review，不写 `system/review-history.md`，不将 `review_status` 升为 `human-reviewed`，不自行把 `needs_review: true` 改为 `false`；
-6. 若用户未明确要求不 push，则当前仓库对普通 ingest 的持续发布授权生效：完成 H3、fresh fetch、remote ancestry、精确 refspec dry-run，再以同一 refspec 非 force push；认证、远端漂移或检查失败立即 safe suspend；
+6. 用户的持续 commit/push 授权在普通 ingest 通过发布门后生效：完成 H3、fresh fetch、remote ancestry、精确 refspec dry-run，再以同一 refspec 非 force push；当前指令中的“不要 push”“只 commit”“只修改”可覆盖本轮发布，认证、远端漂移或检查失败立即 safe suspend；
 7. 尚未完成、存在未隔离 hard P0、检查失败或用户明确要求先审核时，创建/保留 `WIP ingest: <paper short name> for user review`，更新 pending queue，不 push；
 8. 最终复盘列出 final/WIP hash、message、push 状态、关键文件、Agent self-audit 结果、Human review triage 与未来 claim 复核重点。
 
@@ -216,7 +216,7 @@ WIP ingest 是长任务、中断、hard P0 或用户明确审核请求下的本�
 
 用户审核后，若上一轮处于 `WIP ingest:` / source review / waiting for user review / waiting for user P0/P1 review 状态，且用户给出实质性审核意见，并明确表示或根据当前消息与上下文可以无歧义地判断本轮人工审核已经结束，应识别为 human-review completion event，并在适用时进入 `review-finalization request`。
 
-不要求固定触发短语；若存在歧义，不得自动写入 `system/review-history.md`。用户明确要求“只修改不 finalization”“只修改，不提交”或“只 commit，不进行其它收尾”时，不进入本地 finalization；“不要更新 overview”或“不要刷新 QMD”只覆盖对应步骤。“不要 push”只表示继续不 push，不取消 review-finalization 或本地 commit，因为 push 本来就不是默认动作。没有这些覆盖要求时，默认进入适用的 finalization。
+不要求固定触发短语；若存在歧义，不得自动写入 `system/review-history.md`。用户明确要求“只修改不 finalization”“只修改，不提交”或“只 commit，不进行其它收尾”时，不进入本地 finalization；“不要更新 overview”或“不要刷新 QMD”只覆盖对应步骤。“不要 push”只表示继续不 push，不取消 review-finalization 或本地 commit。没有这些覆盖要求时，默认进入适用的 finalization，并在发布门通过后自动 push。
 
 Finalization 包括：
 
@@ -232,7 +232,7 @@ Finalization 包括：
 8. 重新输出 Human review triage，列明已处理项目、仍保留的 P0/P1 和 paper evidence gate 影响；
 9. 确认 HEAD 是对应的 WIP ingest commit 后，使用 `git commit --amend` 把 WIP 转换为 review/final commit，不新建额外 review commit；
 10. 用户指定本轮提交 message 时原样使用；未指定时由 Codex 根据实际摄入与审核修改推荐直接相关的 message，并在最终报告中说明；
-11. 完成本地 review/final commit 后停在 `ready-for-push`，并报告 commit hash、检查结果和远端状态；push 始终需要用户明确授权，用户未说“不要 push”不能视为授权；
+11. 完成本地 review/final commit 后，在 H3、fresh fetch、remote ancestry 和精确 refspec dry-run 通过时自动 push，并报告 commit hash、检查结果和远端状态；当前指令中的“不要 push”“只 commit”“只修改”可覆盖本轮发布；
 12. 为本轮明确结束的人工审核追加 `system/review-history.md` 条目；记录审核范围、用户判断、要求修改、遗留问题、下一步、相关页面，以及 `review commit message`（若本轮实际创建或 amend 了 review commit）；
 13. 在同一个 finalization 流程中刷新 `system/handoff.md` Active handoff，并独立判断 `system/wip-queue.md` 对应 entry 是继续保留、更新还是清除；不得使用简单的 queue-to-history 自动迁移模型；
 14. 向 `system/log.md` 追加短记录；

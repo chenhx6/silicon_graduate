@@ -1,7 +1,7 @@
 ---
 type: system-memory
 graph-excluded: true
-updated: 2026-08-18
+updated: 2026-09-10
 ---
 
 # 长期记忆
@@ -21,7 +21,7 @@ updated: 2026-08-18
 - Markdown 知识库使用 Gitee 仓库 `https://gitee.com/chx6/silicon_graduate` 作为唯一维护远端 `origin`。GitHub 若存在仅是 Gitee 镜像，不承担本库维护或 CI。未发表内容、合作材料、审稿材料、个人数据、敏感原始材料和 PDF 不得进入公开远端或普通 Git 历史。
 - 用户在仓库根目录维护 `PLAN.md`，用于宏观阶段计划、个人好奇心备忘和研究方向草稿；它由用户拥有，不是 cite-key 文献清单、执行日志或 Agent 可自由改写的任务列表。
 - `PLAN.md` 按任务条件读取并管理方向与优先级；`system/handoff.md` 管理最近执行事实与交接细节。无法分类的冲突必须询问用户。
-- 执行余量不足且任务无法稳定完成时进入 safe suspend：停止扩大范围、完成 Git 检查、写完整 handoff，并等待用户在额度刷新后发送“继续”；不自动 push，若大量 diff 或恢复风险符合门槛，可创建本地 WIP checkpoint，但它不等于 review finalization 或 push 授权。
+- 执行余量不足且任务无法稳定完成时进入 safe suspend：停止扩大范围、完成 Git 检查、写完整 handoff，并等待用户在额度刷新后发送“继续”；safe suspend 会暂停本轮 commit/push，若大量 diff 或恢复风险符合门槛，可创建本地 WIP checkpoint，但它不等于 review finalization 或科学发布门通过。
 - 当前系统为 Continuous Research-Learning v2（硅基研究生 V2），是面向低能核结构研究的 Human-in-the-loop research Wiki；摄入默认运行 L0–L2，高价值问题可进入 L3，L4 必须由用户确认数据后手动启动并形成可复现分析。完整等级、状态、每周自测和人工关口只由 `system/workflows/autonomous-research.md` 维护；ordinary Q&A 保持轻量，Wiki 不是最终权威，也不保证文献完整性。
 - Review status 是核查元数据，不是检索、可见性、科学价值或知识资格门槛。高相关、高信息增益的未审核内容应主动呈现，并说明其可能贡献、review/source/locator 状态和核查路径；不机械罗列低相关内容。
 - `human-reviewed` 不表示永久正确、完整或已穷尽文献知识；已审核内容仍可被质疑、重新核验、纠正和继续挖掘。页面整体 `unreviewed` 不妨碍针对具体 claim 完成直接来源核验。
@@ -31,12 +31,13 @@ updated: 2026-08-18
 - Wiki 证据入口采用读取后核实的绝对文件行号链接，并在当前 Codex 客户端打开实时渲染可编辑视图；普通 Markdown 与 inline `code-comment` 均不能稳定强制只读审核界面。不得为改变界面而修改证据页、制造 fake/空白 diff 或创建临时 commit。
 - 仓库用 `.gitattributes` 固定 Markdown 和常用文本格式为 LF；editable evidence view 仍可能产生 LF/CRLF-only dirty state。统一清理入口是 `system/scripts/clean_knowledge_eol_dirty.py`，写任务第一次写入前、commit 前和 push 前运行；纯 read-only 问答不运行。脚本只清理可证明为 LF/CRLF 行尾格式差异的 worktree 修改，不忽略普通行尾空格、Markdown 双空格或 Tab，也不审批科学修改。不得使用 `git add .`。
 - 文献摄入和科学内容修改默认本地 WIP、用户审核后 amend 为 final；推荐审核完成当前摄入后再开始下一篇。允许多个 pending WIP，但共享文件必须在写入前选择合并原 WIP、记录依赖或暂缓，不得静默重叠。每个 WIP/final commit 即使不 push 也必须完成 H3 post-commit reconciliation；仓库内以 branch + subject 指向当前 commit，禁止在 commit 自身包含的文件中记录自己的精确 hash，最终 hash 只进入任务回执。方案和验收已确认、无科学内容且检查通过的治理/框架/脚本任务可直接 final commit。
-- 2026-08-19 用户明确：本 Wiki 以单人、可追溯记录为主，Codex 默认不再自行创建任务分支；普通修改、WIP 记录和工具维护直接在 `main` 上小步提交并按授权 push。只有并行任务、危险迁移、远端禁止直推、需要隔离审查或其它确实无法安全直推的技术约束时才例外；该偏好不改变受保护 raw 文件、显式暂存、preflight、lint、非强制 push 和科学审核边界。
+- 2026-08-19 用户明确：本 Wiki 以单人、可追溯记录为主，Codex 默认不再自行创建任务分支；普通修改、WIP 记录和工具维护直接在 `main` 上小步提交。2026-09-10 用户进一步授予持续自主 commit/push 授权：普通 final、治理/工具修改和通过发布门的内容由 Codex 自行 commit/push；当前任务可用“不要 push”“只 commit”“只修改”覆盖。并行任务、危险迁移、远端禁止直推、需要隔离审查或其它无法安全直推的技术约束仍可例外；force push、历史重写、raw 覆盖、未隔离 hard P0 和人工审核关口不在授权范围内。
 - 日常建设坚持一次摄入一篇论文，并在每次摄入后列出新增 claim、待审 claim、竞争解释和证据缺口。
 - Wiki 仓库内自有 Skill 仍只保留 `.agents/skills/wiki-evidence-query` 这一证据型知识问答入口；ingest/reflect/lint 等 Wiki 治理流程稳定后再考虑仓库内封装。
 - Nature Skills 使用 `system/scripts/update_nature_skills.py` 跨平台维护：固定上游、目录白名单、SHA-256 staging、回退备份和 `--check-only`/`--rollback`/`--no-pull` 均由 Python 实现；Windows `.cmd` 仅作为启动器。这些外部 skills 是科研写作辅助层，不能覆盖 Wiki evidence policy、paper evidence gate、source/raw locator 复核和用户科学判断。
 - Nature Skills 的非 API 本机依赖已配置：下载/PDF、专利文档和 CNIPA Playwright Python 依赖已安装，Playwright Chromium 已就绪，Academic Search MCP 通过 `uv` 隔离环境全局注册并使用本机联系邮箱访问无需 key 的 PubMed/CrossRef/OpenAlex 路由。出版商、NCBI 和 Semantic Scholar API key 暂不申请、不配置；Scopus/ScienceDirect 等 key-dependent provider 保持按需禁用。机构入口与联系邮箱只保存在用户本机配置，不写入公开 Wiki 或 Git 历史。
 - Wiki 工作项目由 Docker 内的终端 Codex 接手，Docker 负责 sandbox 和完整仓库访问；`.codex/config.toml` 不声明项目 sandbox。raw 保护、科学证据规则、人工审核和不可逆操作确认仍有效，工作流不依赖桌面端 GUI。
+- 共有能力的 skill 优先进入 Docker 共享 skill 库 `/root/.agents/skills`，并保留固定来源、许可证和结构验证；项目专用 skill 留在项目的 `.agents/skills/`，不能把 Wiki 路径、运行状态、凭据或项目专用脚本未经通用化放进共享层。
 - Nature-first 文献入口固定为：先用 `nature-academic-search` 核对结构化元数据，再补查 Google Scholar 或学术镜像，候选下载交给 `nature-downloader`；Scholar/镜像发现的 PDF 不因入口不稳定直接丢弃，而是在 `raw/papers/gpt/_incoming/<run-id>/` 校验。已验证 PDF 晋升到 `raw/papers/gpt/`，Agent BibTeX 只写 `raw/zotero/gpt.bib`，去凭据 manifest 写入 `outputs/literature-acquisition/`；`raw/zotero/wiki-inbox.bib` 始终保持用户/Zotero 管理和 Agent 只读。APS/PRC 或 Scholar 的真人验证由用户在原标签页完成。
 - 经典高自旋综述不能仅因年代较早而被笼统降级：通用术语、γ 探测基础和物理成因框架可继续作为有效背景；应分别核对后来发展的物理模式、具体装置性能和单核素证据。
 - 本仓库采用 bounded initiative：允许与当前任务直接相关的必要最小同步，禁止非必要顺手优化；脚本统一使用 Python 3，Git 由当前终端环境提供。

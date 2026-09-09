@@ -25,7 +25,7 @@ updated: 2026-07-07
 9. 不修改 `raw/zotero/wiki-inbox.bib`，除非用户明确要求。
 10. 不新增 Skill、automation、脚本或调度器。
 11. 普通摄入不修改 lint 脚本、lint 配置或测试；若认为必须修改，停止并询问用户。
-12. 普通文献摄入默认创建本地 WIP ingest commit、绝不自动 push；完整规则见下节。
+12. 普通文献摄入在长任务、未完成、等待审核或存在 hard P0 时创建本地 WIP ingest commit并暂不 push；完成发布门后按持续授权自动 push，完整规则见下节。
 13. 摄入后列出新增 claims、`needs_review` claims、证据缺口和建议人工审阅的文件。
 14. 按 `AGENTS.md` 的 bounded initiative 只做直接相关的最小同步；有帮助但非必要的修改只列为建议。
 15. 单篇文献的新术语或别名优先写入页面 `aliases`。只有需要跨库统一、存在歧义或重复 slug/aliases 风险，或用户明确要求时，才修改 `system/vocabulary.md`；不确定时先询问或只列建议。
@@ -174,13 +174,13 @@ P3 快速扫过：
 
 ## Default commit policy and WIP lifecycle
 
-普通文献摄入默认不 push。摄入主体完成且 Git 检查与 Wiki lint 通过后，如果用户没有明确指定提交策略，默认创建本地 WIP ingest commit：
+普通文献摄入完成且 Git 检查与 Wiki lint 通过后，如果尚未完成证据链、等待审核或存在 hard P0，创建本地 WIP ingest commit；若已完成发布门且没有本轮覆盖指令，默认完成 final commit 并自动 push：
 
 ```text
 WIP ingest: <paper short name> for user review
 ```
 
-WIP commit 只是等待用户审核的临时检查点，用于保存当前结果、减少未提交 diff 和文件监听负担；不表示页面或 claims 已完成人工复核，不得自动 push。
+WIP commit 只是等待审核或恢复的临时检查点，用于保存当前结果、减少未提交 diff 和文件监听负担；不表示页面或 claims 已完成人工复核，因此保持本地，不自动 push。
 
 只有用户明确写出“禁止任何本地 commit”“不要创建 WIP commit”或“不要本地临时 commit”时，才不得创建 WIP。旧式“不 commit/push，等待审核”在文献摄入场景中解释为：
 
@@ -501,7 +501,7 @@ project 关系：
 <非目标质量区、只读某章节、不作为核心证据等>
 
 提交策略：
-<默认本地 WIP、不 push / 禁止任何本地 commit / 审核后只 final commit / 审核后 final commit 并 push>
+<通过发布门后自动 final commit/push / 默认本地 WIP / 禁止任何本地 commit / 审核后只 final commit>
 ```
 
-用户不需要重复 Global ingest rules 或各策略默认清单。未填写提交策略时默认本地 WIP、不 push；旧式“不 commit/push，等待审核”也不禁止本地 WIP，只有明确写“禁止任何本地 commit”才禁止。`daily-ingest`、`claim-review-update` 和 `data-analysis-bridge` 可在“摄入策略”或任务正文中直接指定；缺少关键信息且无法从仓库唯一确定时，Codex 应先询问，不得猜测。
+用户不需要重复 Global ingest rules 或各策略默认清单。未填写提交策略时，已完成且通过发布门的任务默认自动 final commit/push；等待审核、存在 hard P0 或未完成时默认本地 WIP、不 push。旧式“不 commit/push，等待审核”也不禁止本地 WIP，只有明确写“禁止任何本地 commit”才禁止。`daily-ingest`、`claim-review-update` 和 `data-analysis-bridge` 可在“摄入策略”或任务正文中直接指定；缺少关键信息且无法从仓库唯一确定时，Codex 应先询问，不得猜测。

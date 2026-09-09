@@ -177,7 +177,7 @@ L4 只生成 readiness audit，不假定用户已有实验数据。检查 Wiki �
 - 无实质发现不创建分支或 commit；
 - 普通治理和周测修改继续在已核验 `main` 上小步提交；只有确有技术隔离需要时才创建分支。
 
-周测 automation 只产生经过审计的结果；只有当前任务明确允许、H3 和仓库发布检查通过时才进行正常非 force push。无实质变化时只输出可核验回执，不制造空提交。
+周测 automation 只产生经过审计的结果；通过 H3 和仓库发布检查后，按持续授权进行正常非 force push；未完成、等待审核或存在 hard P0 时保留本地 WIP。无实质变化时只输出可核验回执，不制造空提交。
 
 ### 审核报告与 checkpoint
 
@@ -189,7 +189,7 @@ L4 只生成 readiness audit，不假定用户已有实验数据。检查 Wiki �
 
 WIP 创建或 amend 成功后，即使不准备 push，也必须按 `check.md` H3 完成 post-commit reconciliation：用实际 branch + subject（subject 取自 HEAD）核对报告、Active handoff 和 WIP queue，把提交前的 `planned` / `expected checkpoint` 未来时态改为实际本地 WIP 状态；需要修正时 amend 同一个 WIP 一次并重跑 H3。WIP 自身不得在其包含的文件中记录自己的精确 hash；最终 hash 只在任务回执中报告。
 
-用户审核完成后，落实意见、隔离 hard P0、刷新 QMD 和检查，将 WIP amend 为 `Finalize weekly self-test YYYY-MM-DD: <topic>`；远端无漂移时 fast-forward main 并 push。未审核或存在 hard P0 时不得把内容标为 final、不得宣称科学定案或越过 human-review；只有当前任务明确授权且 H3/发布检查通过时，才可将明确标注为 awaiting-review 的 WIP/continuation 结果正常非 force push。
+用户审核完成后，落实意见、隔离 hard P0、刷新 QMD 和检查，将 WIP amend 为 `Finalize weekly self-test YYYY-MM-DD: <topic>`；远端无漂移且 H3/发布检查通过时自动 fast-forward main 并 push。未审核或存在 hard P0 时不得把内容标为 final、不得宣称科学定案或越过 human-review；awaiting-review 的 WIP/continuation 结果仍保留本地，直到相应科学发布门通过。
 
 ## 共同停止条件
 
@@ -199,7 +199,7 @@ WIP 创建或 amend 成功后，即使不准备 push，也必须按 `check.md` H
 - 权限、raw、Git、外部写入或不可逆操作边界将被触及；
 - 上下文、执行时间或资源不足以可靠完成。
 
-停止不是丢弃：记录状态、依据、剩余 gap、下一步和 continuation prompt。正式外发、论文主张、`confidence: high`、用户 raw 修改、权限变化和 push 仍遵守相应人工关口。
+停止不是丢弃：记录状态、依据、剩余 gap、下一步和 continuation prompt。正式外发、论文主张、`confidence: high`、用户 raw 修改、权限变化和科学发布门仍遵守相应人工关口；普通 Git commit/push 已获持续授权，但不能越过这些科学关口。
 
 ## Counter-evidence requirements (all levels)
 
