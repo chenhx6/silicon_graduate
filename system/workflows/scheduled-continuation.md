@@ -50,7 +50,7 @@ updated: 2026-09-06
 
 ## Wiki local-project automation
 
-Codex runs these tasks in the Docker terminal. A task may call
+The task runner is supplied by the user's local environment. A task may call
 `python3 system/scripts/wiki_automation_preflight.py --root .` before Git
 publication to verify the working tree and protected BibTeX baseline. The
 preflight is a diagnostic convenience, not a second permission system; it does
@@ -58,7 +58,7 @@ not inspect Desktop state, ACLs, or PowerShell markers. Keep task recovery in
 `system/handoff.md`, reports, and Git files inside the Wiki.
 
 For publication, check the intended files explicitly, run lint, fetch `origin`
-(`https://gitee.com/chx6/silicon_graduate`), verify remote ancestry, then use
+the configured remote, verify remote ancestry, then use
 `git push --dry-run origin HEAD:main` followed by the same non-force refspec.
 Network or authentication failure leaves the local content intact and is
 reported as `final-not-pushed`.
@@ -145,7 +145,7 @@ commit.
    ```
 
 3. 更新 `system/handoff.md`，写明已完成事项、未完成事项、已修改文件、当前风险，以及下一轮可直接执行的续跑提示词；
-4. 除非用户明确要求，不得自动 commit/push；
+4. Safe suspend 阶段不得自动 commit/push；恢复后按任务发布门和持续授权决定是否自动完成 commit/push；
 5. 告知用户等待额度刷新后发送“继续”。
 
 Safe suspend 是一次受控停点，不是让当前任务自动睡眠并原地恢复，也不会自动创建 automation。若用户后续选择 automation，应把它视为额度刷新后启动的新任务，由该任务读取 handoff 后继续。

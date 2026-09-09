@@ -53,6 +53,12 @@ class WikiAutomationPreflightTests(unittest.TestCase):
         self.assertFalse(payload["ok"])
         self.assertEqual(payload["protected_bib"]["status"], "mismatch")
 
+    def test_missing_bib_is_allowed_for_public_clone(self) -> None:
+        self.bib.unlink()
+        p, payload = self.invoke()
+        self.assertEqual(p.returncode, 0, p.stderr)
+        self.assertEqual(payload["protected_bib"]["status"], "absent")
+
 
 if __name__ == "__main__":
     unittest.main()

@@ -8,6 +8,7 @@
 *.npy
 
 # Raw data and private working material
+raw/zotero/wiki-inbox.bib
 raw/data/*
 !raw/data/.gitkeep
 raw/figures/*
@@ -29,6 +30,9 @@ tools/nndc_mcp/.cache/
 tools/nndc_mcp/.venv/
 
 # Obsidian machine-local state
+.codex/
+.obsidian/
+AGENTS.local.md
 .obsidian/workspace.json
 .obsidian/workspace-mobile.json
 .obsidian/cache/
@@ -38,3 +42,6 @@ tools/nndc_mcp/.venv/
 
 # Local paper comment/review Markdown (kept outside Git tracking)
 raw/notes/comment/**/*.md
+
+# Local prompt drafts
+prompt/

@@ -78,13 +78,19 @@ def main() -> int:
         if args.expected_profile and default != args.expected_profile:
             raise ValueError(f"default_permissions is {default!r}, expected {args.expected_profile!r}")
         bib = root / "raw" / "zotero" / "wiki-inbox.bib"
-        actual = sha256(bib)
-        baseline = (args.baseline_bib_hash or actual).upper()
-        result["protected_bib"] = {"path": str(bib), "baseline_sha256": baseline,
-                                    "actual_sha256": actual,
-                                    "status": "matched" if baseline == actual else "mismatch"}
-        if baseline != actual:
-            raise ValueError("protected BibTeX changed since the supplied baseline")
+        if bib.is_file():
+            actual = sha256(bib)
+            baseline = (args.baseline_bib_hash or actual).upper()
+            result["protected_bib"] = {"path": str(bib), "baseline_sha256": baseline,
+                                        "actual_sha256": actual,
+                                        "status": "matched" if baseline == actual else "mismatch"}
+            if baseline != actual:
+                raise ValueError("protected BibTeX changed since the supplied baseline")
+        elif args.baseline_bib_hash:
+            raise FileNotFoundError("protected BibTeX baseline supplied but wiki-inbox.bib is absent")
+        else:
+            result["protected_bib"] = {"path": str(bib), "baseline_sha256": None,
+                                        "actual_sha256": None, "status": "absent"}
         if args.protected_bib_hash:
             result["warnings"].append("--protected-bib-hash is deprecated and ignored")
         token = f"wiki-preflight-{uuid.uuid4().hex}"

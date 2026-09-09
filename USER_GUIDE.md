@@ -23,7 +23,7 @@ outputs/     审计、报告、文章草稿和演示产物
 - `knowledge/questions.md`：开放科研问题；
 - `system/handoff.md`：最近任务做到哪里、改了什么、下一步是什么；
 
-Wiki 工作项目由 Docker 内的终端 Codex 接手，Docker 负责 sandbox 和完整仓库访问；`.codex/config.toml` 不再声明项目 sandbox。任务仍需遵守证据规则、raw 保护和不可逆操作确认，且不依赖桌面端 GUI 或 Computer Use。
+Wiki 可在不同操作系统和 AI 工具环境中使用；`.codex/`、`.obsidian/` 和个人运行参数属于本地配置，不随公共仓库分发。任务仍需遵守证据规则、raw 保护和不可逆操作确认，且不依赖桌面端 GUI 或 Computer Use。
 
 ### 科研自治入口
 
@@ -38,7 +38,7 @@ Wiki 工作项目由 Docker 内的终端 Codex 接手，Docker 负责 sandbox �
 ## 2. 在 Obsidian 中打开
 
 1. 在 Obsidian 选择“打开本地仓库作为库”。
-2. 选择整个 `/workspace/wiki`，不要只选择 `knowledge/`。
+2. 选择 clone 后的整个仓库目录，不要只选择 `knowledge/`。
 3. 这样可以同时看到证据、知识、治理规则和输出，但日常主要浏览 `knowledge/`。
 
 推荐启用的核心功能：
@@ -134,7 +134,7 @@ SORT file.name ASC
 
 普通文献摄入像研究生自行读文献：Codex 逐篇完成全文回查、locator/claim kind、证据分层、竞争解释与 P0/P1 自审。长任务可保留一个本地 rolling `WIP ingest:`；完成且没有未隔离 hard P0 时 amend 为 final，并按仓库的持续 ingest 授权完成 H3、fresh fetch、精确 refspec dry-run 和非 force push。Agent 自审或 final/push 都不等于人工审核，不会自动把页面升级为 `human-reviewed` 或清除 `needs_review`。独立 project、synthesis、跨来源研究结论等待审核时仍使用 `WIP review: ... for user review`。
 
-审核后，Codex 根据报告修改明确项目，并使用 `git commit --amend` 把对应 WIP 转为落实本轮审核意见的 review commit / final commit；不得保留独立 WIP 后再增加 final commit。你指定 review commit message 时原样使用；未指定时由 Codex 推荐与本轮内容直接相关的 message，并在最终报告中说明。只有你允许时才 push。同一分支不累积多个 active WIP。仓库存在对应 WIP、你已完成审核并要求 final commit/push 时，这本身就是仓库流程对 amend 的明确授权。旧式“不 commit/push，等待审核”表示不 final commit、不 push，但允许本地 WIP；若确实不希望任何本地 commit，请明确写“禁止本地 WIP commit”。
+审核后，Codex 根据报告修改明确项目，并使用 `git commit --amend` 把对应 WIP 转为落实本轮审核意见的 review commit / final commit；不得保留独立 WIP 后再增加 final commit。你指定 review commit message 时原样使用；未指定时由 Codex 推荐与本轮内容直接相关的 message，并在最终报告中说明。你已授予持续自主 commit/push：通过 H3、lint、远端 ancestry 和精确 refspec dry-run 后，Codex 默认自动发布。同一分支不累积多个 active WIP。等待审核、存在 hard P0 或未完成的 WIP 仍留在本地；当前指令中的“不要 push”“只 commit”“只修改”可覆盖本轮发布。若确实不希望任何本地 commit，请明确写“禁止本地 WIP commit”。
 
 多篇文献仍逐篇摄入并优先在同一主题 rolling WIP 中连续完成，以减少 nucleus、concept、project、synthesis、index 等共享页重叠；不再逐篇等待人工审核。存在多个 pending WIP 时仍需按文件 overlap 处理：无重叠可独立；同一范围继续并 amend 原 WIP；依赖未 final 内容时记录 dependent WIP；共享文件无法安全隔离时暂缓修改。Codex 会把中断、未隔离 hard P0、未 push checkpoint 或 push 状态 uncertain 的短恢复索引记录到 `system/wip-queue.md`，Active handoff 只保留最近一次活动。
 
@@ -158,7 +158,7 @@ python3 system/scripts/clean_knowledge_eol_dirty.py --dry-run
 审核完毕，除了以上几点外无问题。
 ```
 
-Codex 应自动把这类消息理解为“本轮人工审核已经结束”，记录本轮 Review history，并进入 review-finalization：按审核意见做最小修改，按 workflow 触发条件评估 overview/QMD，完成本地 review/final commit，再独立判断 queue 是否继续保留。push 始终 opt-in；你未明确授权时停在 `ready-for-push`，不能把沉默理解为授权。“不要 push”只表示继续不 push，不会取消已经明确结束的人工审核或本地 finalization。你不必使用固定短语；只要整体语义可以无歧义地判断本轮人工审核已经结束即可。如果你不想进行本地 finalization，需要明确写“只修改不 finalization”“只修改，不提交”或“只 commit，不进行其它收尾”；“不要更新 overview”或“不要刷新 QMD”只覆盖对应收尾步骤。
+Codex 应自动把这类消息理解为“本轮人工审核已经结束”，记录本轮 Review history，并进入 review-finalization：按审核意见做最小修改，按 workflow 触发条件评估 overview/QMD，完成 review/final commit，并在检查通过后自动 push，再独立判断 queue 是否继续保留。“不要 push”只表示继续不 push，不会取消已经明确结束的人工审核或本地 finalization。你不必使用固定短语；只要整体语义可以无歧义地判断本轮人工审核已经结束即可。如果你不想进行本地 finalization，需要明确写“只修改不 finalization”“只修改，不提交”或“只 commit，不进行其它收尾”；“不要更新 overview”或“不要刷新 QMD”只覆盖对应收尾步骤。
 
 普通问答、跨来源比较、研究讨论和早期草稿默认采用 evidence-calibrated ordinary mode：Codex 会基于当前已有证据给出最佳可支持答案，区分事实、作者解释、模型结果、综合判断和暂时推断。已核实的 Wiki 页面名称和行号链接直接放在它所支持的句子后面，方便立即核对；默认不再在末尾重复列出同一批证据页。一般专业背景不要求每句附链接；知识库未覆盖时仍可补充稳定的一般专业背景，但会说明它不是 Wiki-grounded 或 externally verified evidence。重要但 Wiki 尚无直接证据的判断会在出现位置说明。普通回答不默认展开 citation key、raw PDF、review 状态或长 evidence card；原文核查、论文级审查或 strict paper mode 再补充完整核查信息。Wiki 正文仍保留 Obsidian Wikilink，也不会为了改变打开界面而修改证据页或制造 Git diff。打开证据页可能让 `knowledge/*.md` 显示 modified；Codex 会在每次 commit/push preflight 中区分授权修改与 LF/CRLF-only dirty 状态，后者确认无实质差异后清理，存在实质差异时停止并要求用户确认。用户也应避免使用 `git add .`。论文或投稿核查、正式引用、直接来源或原文引文、精确 locator、关键科学 claim 确认时才进入严格的 paper evidence mode；普通争议讨论本身不自动触发 strict mode。
 
@@ -354,7 +354,7 @@ Codex 中的定时续跑不是 Windows 任务计划程序，也不能仅靠“�
 
 对本知识库，最稳妥的长等待方案是：Agent 先保存未完成状态、精确续跑命令和下一步到 `system/handoff.md`；额度刷新后由你发送“继续”，再从 handoff 恢复。只有在已经验证常驻调度环境时，才适合承诺无人值守执行。
 
-如果 Codex 判断剩余上下文、token、5 小时额度或执行余量不足以稳定完成任务，会进入 safe suspend：停止扩大修改范围，检查 Git 状态和 diff，把已完成/未完成事项、修改文件、风险及可直接使用的续跑提示词写入 handoff，然后请你在额度刷新后发送“继续”。大量 Markdown diff 场景会优先创建仅保存在本地、绝不自动 push 的 WIP checkpoint，以减少持续文件扫描和 CPU 占用；已有同任务 WIP 时通过 amend 更新，不创建第二个。这不会让原任务自动睡眠或原地恢复，也不会自动创建 automation。
+如果 Codex 判断剩余上下文、token、5 小时额度或执行余量不足以稳定完成任务，会进入 safe suspend：停止扩大修改范围，检查 Git 状态和 diff，把已完成/未完成事项、修改文件、风险及可直接使用的续跑提示词写入 handoff，然后请你在额度刷新后发送“继续”。大量 Markdown diff 场景会优先创建仅保存在本地的 WIP checkpoint，暂停本轮自动 push，以减少持续文件扫描和 CPU 占用；已有同任务 WIP 时通过 amend 更新，不创建第二个。这不会让原任务自动睡眠或原地恢复，也不会自动创建 automation。
 
 ## 10. 常用指令
 

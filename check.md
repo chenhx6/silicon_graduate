@@ -49,10 +49,10 @@ python -m unittest discover -s system/tests -p "test_*.py" -v
 - [ ] 每份实质周测报告有 `Selection audit`，记录运行类型、是否计入轮次、候选覆盖类别、两个槽位、核心来源指纹/重叠、冷却或 deferred 原因、新增知识和 belief revision；其它重要问题写入 `Deferred important issues`。
 - [ ] 核素问题在适用时比较同位素和同中子素；L3 只使用合法、可核验的 Nature-first 获取路径和 Agent 管理的 `raw/papers/gpt/**`、`raw/zotero/gpt.bib`；关键 SI 才下载，`wiki-inbox.bib` 永不修改/暂存。
 - [ ] L4 只生成 `outputs/l4/<issue>-<date>/report.md` readiness（`ready`/`partial`/`not-ready`）；`partial`/`not-ready` 不停用周测，不假定用户已有实验数据。
-- [ ] pending review 只阻止重叠写入，不阻止全局只读选题或无重叠的新知任务；有实质变化的周测生成 `outputs/self-tests/` P0/P1 报告和相应 WIP/final 状态，push 仅按当前任务明确授权并在 H3/发布检查通过后执行，无实质变化时未制造空 commit。
-- [ ] Wiki 工作项目由 Docker 内的终端 Codex 运行；`.codex/config.toml` 不声明项目 sandbox，容器负责访问边界。
+- [ ] pending review 只阻止重叠写入，不阻止全局只读选题或无重叠的新知任务；有实质变化的周测生成 `outputs/self-tests/` P0/P1 报告和相应 WIP/final 状态，通过 H3/发布检查后按持续授权自动 push；未完成或无实质变化时未制造空 commit。
+- [ ] 检查不依赖 Docker、固定路径、`.codex/`、`.obsidian/` 或特定 AI 工具配置；这些属于本地运行环境。
 - [ ] 本轮只执行与 Wiki 任务相关的命令；未依赖桌面端 GUI 或 Computer Use，浏览器下载已指定到仓库内路径。
-- [ ] 递归删除、历史重写、raw 证据删除/覆盖、治理核心修改和 push 等危险操作均有用户明确授权，未把概括性自主授权解释为破坏性授权。
+- [ ] 递归删除、历史重写、raw 证据删除/覆盖、已发布标签改写和其它不可逆操作均有用户明确授权；普通 push 使用持续授权但仍通过 H3/发布检查，未把自主发布授权解释为 force push 或 raw 覆盖授权。
 - [ ] `system/log.md` 只追加，没有重写历史记录；启动或普通恢复未用 `ReadAllText(system/log.md)` 读取完整 log。
 - [ ] 若使用定时续跑，已遵循 `system/workflows/scheduled-continuation.md`，并说明本机应用、调度服务与电脑可用性前提。
 - [ ] 创建分支、提交、fetch 或 push 前运行 `python3 system/scripts/wiki_automation_preflight.py --root .`，确认 protected BibTeX 哈希未变化；不依赖 PowerShell、ACL、运行时 marker 或项目 sandbox profile。
@@ -228,7 +228,7 @@ python -m unittest discover -s system/tests -p "test_*.py" -v
 - [ ] 已判断当前任务在本轮审核后是否应写入 `system/review-history.md`，以及 queue 应继续保留、更新还是清理。
 - [ ] Review finalization 已按 ingest workflow 评估 `knowledge/overview.md` 触发条件；触发时最小同步，未触发时记录 deferred 理由，而不是机械更新。
 - [ ] Review finalization 默认执行 QMD refresh；若用户明确不要 QMD 或 QMD 失败，最终复盘已说明。
-- [ ] Review finalization 已按 WIP lifecycle amend/创建相应本地 commit；没有默认 push，push 只有在用户明确授权时执行，沉默或“不要 push”未被混淆为授权，未授权时停在 `ready-for-push`。
+- [ ] Review finalization 已按 WIP lifecycle amend/创建相应本地 commit；通过检查后默认自动 push，当前指令中的“不要 push”“只 commit”“只修改”可覆盖本轮发布；未完成、hard P0 或远端异常时保留本地状态并记录原因。
 - [ ] Review history 条目记录了审核范围、用户判断、要求修改和遗留问题，没有伪装成 Git/push 历史。
 - [ ] Review history 使用 `review commit message`，不使用 `Git reference` 或 `final commit message`，且没有记录 commit hash 或 push 状态。
 - [ ] Review history 中的 `review commit message` 与实际 commit message 一致，且没有把它解释为 task closure、finalization complete 或 push complete。
@@ -244,9 +244,9 @@ python -m unittest discover -s system/tests -p "test_*.py" -v
 - [ ] WIP/final commit 均未包含 `.obsidian/graph.json`、`raw/zotero/wiki-inbox.bib`、未经本轮授权的 raw PDF、论文、数据、图片、`PLAN.md` 或无关文件；获准进入 `raw/papers/gpt/**` / `raw/zotero/gpt.bib` 的文件已逐项核验并显式暂存。
 - [ ] Safe suspend 遇到大量 Markdown diff 时，已优先判断并尝试本地 WIP checkpoint。
 - [ ] 文献摄入、project、synthesis 或 framework 任务正常结束时，已自动刷新 Active handoff 并向 `system/log.md` 追加简短记录；用户不需要每次手动要求 handoff/log 收尾。
-- [ ] Safe suspend 仍然禁止自动 push。
+- [ ] Safe suspend 会暂停本轮自动 commit/push，保留可恢复 checkpoint；恢复后重新通过发布门才继续。
 - [ ] Safe suspend WIP 只显式暂存本轮可分类文件；无法解释或无法安全暂存时未创建 commit。
-- [ ] 旧式“不 commit/push，等待审核”已解释为“不 final commit / 不 push，但允许本地 WIP”。
+- [ ] 旧式“不 commit/push，等待审核”已解释为“不 final commit / 不 push，但允许本地 WIP”；当前用户持续授权默认适用于已完成且通过发布门的任务，不覆盖等待审核 WIP。
 - [ ] 只有用户明确禁止任何本地 commit 时，才不创建 WIP checkpoint，并已提示大 diff 的 CPU 风险。
 - [ ] HEAD 已是当前任务相关 WIP 时使用 amend 更新；归属不明时已停止并询问用户。
 - [ ] Ingest/review 最终复盘列出 hash、message、push 状态、关键文件、Agent self-audit/Human review 边界，以及后续需按 claim 回证据核验的 ID/段落。
@@ -272,14 +272,14 @@ python -m unittest discover -s system/tests -p "test_*.py" -v
 - [ ] 创建或 amend WIP、或创建 final commit 前，已重新运行清理脚本、`git status -sb`、`git status --short`、`git diff --stat`，并以入口 baseline 核对本轮变化。
 - [ ] staged-only knowledge 文件被脚本保留且没有被误判为清理失败；substantive、mixed 或 unsafe 状态已按授权范围和 WIP 归属处理。
 - [ ] pending WIP 的预期文件已检查 overlap：无重叠可独立；同一范围继续并 amend；依赖关系写入 queue；共享文件无法隔离时先 final 上游或暂缓，没有静默创建两个独立冲突 WIP。
-- [ ] 普通摄入按 rolling WIP（如需要）→ Agent 自审 → final → 已授权 push；独立 project/synthesis、跨来源研究结论和 claim-review 默认创建本地 WIP、不 push；方案已确认且检查通过的治理、框架、脚本和说明任务可直接 final commit。
+- [ ] 普通摄入按 rolling WIP（如需要）→ Agent 自审 → final → 通过发布门后自动 push；独立 project/synthesis、跨来源研究结论和 claim-review 在等待人工审核或存在 hard P0 时保留本地 WIP、不 push；方案已确认且检查通过的治理、框架、脚本和说明任务可直接 final commit/push。
 - [ ] 没有使用 `git add .` 或其它宽泛 stage；只显式 stage 本轮实际修改且用户授权的文件。
 - [ ] commit 前已运行 `git diff --cached --name-only`、`git diff --cached --stat` 和 `git diff --cached --check`，完整 index 不含无关 `knowledge/`、`.obsidian/`、未授权 `raw/` 或历史 staged 文件。
 - [ ] 提交前若 handoff/queue/report 需要描述尚未发生的 commit，只使用 `commit target` / `checkpoint commit message`；没有把 `planned`、`will create` 或 `expected checkpoint` 留作最终实际状态。
 
 ### H3. Post-commit / pre-push final check
 
-- [ ] 每个 WIP、amend 或 final commit 成功后都执行 H3，即使本轮不准备 push；只有远端/fetch/dry-run 条目可因未获 push 授权而跳过。
+- [ ] 每个 WIP、amend 或 final commit 成功后都执行 H3；WIP 因等待审核/hard P0/安全暂停而不 push 时记录原因，不能以“未获授权”作为默认原因。
 - [ ] 已用 Git 解析实际 branch、HEAD subject、最终 commit hash 和提交文件，并核对 Active handoff、WIP queue 与报告；实际状态字段不再声称该 commit 仍是 `planned`、`will create` 或 `expected checkpoint`。
 - [ ] 当前 commit 包含的仓库文件没有记录该 commit 自身的精确 hash；仓库内使用 branch + subject 作为稳定指针，最终 hash 只写入任务回执。父提交、其它分支或已固定 commit 的 hash 已明确区分。
 - [ ] 若 post-commit reconciliation 需要修正当前任务的 handoff/queue/report，已显式暂存这些文件并 amend 同一 commit 一次，随后从头重跑 H3；未创建第二个 WIP 或纯状态 commit。

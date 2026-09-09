@@ -128,7 +128,7 @@ Agent 主动查找文献时采用 Nature-first 路由：先调用 `nature-academ
 
 APS/PRC 或 Google Scholar 出现 Turnstile、图片验证码、QR、OTP、登录或反复安全验证时，Codex 保留原标签页并交给用户处理，不循环重试。这里的“禁用浏览器原生 Download”只禁止无法指定路径、会默认写入 Wiki 外 Downloads 的下载方式，不是禁止下载：`nature-downloader`、命令行下载器、browser-context downloader 或可靠的“另存为 Wiki 路径”均可使用。用户若手工下载到外部目录，Agent 只能读取并复制到 Wiki，不得移动、删除或清理外部原文件。
 
-Wiki 工作项目由 Docker 内的终端 Codex 接手，Docker 负责 sandbox 和完整仓库访问；`.codex/config.toml` 只保留项目集成设置，不声明 sandbox。任务仍遵守 raw 保护、证据规则和不可逆操作确认，工作流不依赖桌面端 GUI 或 Computer Use。
+Wiki 可在不同操作系统和 AI 工具环境中使用；`.codex/`、`.obsidian/` 和个人运行参数属于本地配置，不随公共仓库分发。任务仍遵守 raw 保护、证据规则和不可逆操作确认，工作流不依赖桌面端 GUI 或 Computer Use。
 
 用户可以明确声明某篇文献、核素、反应体系或实验方法属于当前分析、未来课题或论文写作重点。例如：
 
