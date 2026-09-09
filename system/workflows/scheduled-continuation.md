@@ -2,7 +2,7 @@
 type: system-workflow
 graph-excluded: true
 operation: scheduled-continuation
-updated: 2026-08-11
+updated: 2026-09-06
 ---
 
 # SCHEDULED CONTINUATION：定时续跑流程
@@ -48,62 +48,20 @@ updated: 2026-08-11
 3. 告知用户在额度刷新后发送“继续”；
 4. 新会话按 `AGENTS.md` 启动顺序恢复。
 
-## Wiki local-project automation permission gate
+## Wiki local-project automation
 
-Every Wiki local-project cron run must begin in `E:\imp\wiki` by invoking
-`system/scripts/wiki_automation_preflight.ps1` with `-ExpectedProfile wiki_l3`
-and no fixed BibTeX hash. The schema-3 JSON result creates a
-run-local `protected_bib.baseline_sha256`; keep that value only in the current
-run's output/continuation state and pass it back as `-BaselineBibHash` at H1,
-H2 and H3. A change between two independent runs is accepted and creates a
-new baseline. The legacy `-ProtectedBibHash` argument is accepted only for
-compatibility, emits a deprecation warning, and never blocks a run.
-The script is the schema-3 permission gate. It must perform real
-create/read/delete probes only in the Wiki root and `.git`, then open
-`.codex/config.toml` and `.agents/skills/wiki-evidence-query/SKILL.md` for
-read-only sentinel checks. It must never create a file in `.codex` or `.agents`.
-The project profile may retain `write` for Wiki-local maintenance; the scheduled
-task must not exercise that grant on these two paths.
-Before the capability checks, the script must attest that the active top-level
-`default_permissions` in `.codex/config.toml` is exactly `wiki_l3`.
-`CODEX_PERMISSION_PROFILE` is an optional diagnostic marker, not the authority:
-a matching value confirms the attestation, a missing value emits a warning and
-continues, and a non-empty mismatch fails with exit `1`. The task must not
-self-inject the marker.
-Its single JSON result and exit code are authoritative:
+Codex runs these tasks in the Docker terminal. A task may call
+`python3 system/scripts/wiki_automation_preflight.py --root .` before Git
+publication to verify the working tree and protected BibTeX baseline. The
+preflight is a diagnostic convenience, not a second permission system; it does
+not inspect Desktop state, ACLs, or PowerShell markers. Keep task recovery in
+`system/handoff.md`, reports, and Git files inside the Wiki.
 
-- exit `0` permits the normal Git and task gates to continue;
-- exit `1` stops the run before `clean_knowledge_eol_dirty.ps1`, repository
-  writes, branch creation, or automation updates; collect only read-only
-  diagnostics and safe-suspend;
-- exit `2` is a probe-cleanup failure and follows the same stop rule, with the
-  cleanup error preserved in the JSON result.
-
-The script reports explicit non-inherited DENY entries for all four directories
-as diagnostics only and records the runtime token's user/group SIDs plus
-token-matching versus nonmatching DENY principals. Runtime host DENY entries on
-`.codex` and `.agents` are protection behavior, not a rewrite of the project
-profile, and do not block a successful protected-read check. The task must not
-change ACLs. A failed root/`.git` write probe or protected-sentinel read is a
-permission-gate failure; DENY counts alone never change the exit code. Probe
-files must be unique and absent after every run.
-
-For Git write operations, schema-3 preflight is the single entry gate: run it
-once before the first branch/commit and again in H3 immediately before fresh
-fetch. After exit `0`, continue fetch, dry-run and non-force push even when
-nonmatching DENY entries remain. Only an explicit `.git` probe `Access denied`
-opens the current-token ACL diagnosis and safe-suspend path; never run
-`icacls /remove:d` automatically before each push. Treat `github.com:443` as a
-network failure (one `ls-remote` plus one bounded retry) and AskPass/401/403 as
-authentication failures, not as ACL failures.
-
-The task body must not modify project configuration or repository Skills. It
-must not use shell, patches, or file APIs to read or write Codex host automation
-memory, global state, sandbox state, or any file outside the Wiki. Host-managed
-internal persistence is not a task write grant. Recovery state is reported
-through task output and Wiki `handoff`/WIP/Git artifacts; it must not be inferred
-from host memory. Automation changes, including a failure pause, are made only
-through the Codex automation function.
+For publication, check the intended files explicitly, run lint, fetch `origin`
+(`https://gitee.com/chx6/silicon_graduate`), verify remote ancestry, then use
+`git push --dry-run origin HEAD:main` followed by the same non-force refspec.
+Network or authentication failure leaves the local content intact and is
+reported as `final-not-pushed`.
 
 ## Wiki weekly self-test and bounded research expansion
 
@@ -180,7 +138,7 @@ commit.
 1. 停止新增大范围修改；
 2. 运行：
 
-   ```powershell
+   ```bash
    git status --short
    git diff --stat
    git diff --check

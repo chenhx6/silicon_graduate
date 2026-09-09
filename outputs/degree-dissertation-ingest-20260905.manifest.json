@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "run_id": "degree-dissertation-ingest-20260905",
+  "expected_branch": "main",
+  "base_head": "37d814e9eb49b4ef8e4a68d343e6e2a01c1ccf5b",
+  "commit_message": "Ingest 15 degree dissertations corpus",
+  "scope": {
+    "degree_dissertations": 15,
+    "new_thesis_sources": 13,
+    "existing_thesis_re_read": [
+      "ding-2012-phd-thesis-127-128i-high-spin",
+      "alwaleedi-2013-band-structures-131ce"
+    ],
+    "additional_experiment_reports": [
+      "dietrich-1974-excited-states-103pd"
+    ],
+    "duplicate_files_not_reingested": [
+      "raw/papers/degree dissertation/100Sn.pdf",
+      "raw/papers/degree dissertation/Spectroscopy of the doubly magic nucleus 100Sn and its decay.pdf",
+      "raw/papers/degree dissertation/Band structures of 131Ce.pdf"
+    ]
+  },
+  "allowed_paths": [
+    "knowledge/bands/127i-pi-d5-2-band.md",
+    "knowledge/bands/127i-pi-g7-2-rotational-band.md",
+    "knowledge/bands/127i-pi-h11-2-decoupled-band.md",
+    "knowledge/bands/128i-pi-g7-2-nu-h11-2-structure.md",
+    "knowledge/bands/128i-pi-h11-2-nu-h11-2-structure.md",
+    "knowledge/concepts/gamow-teller-strength.md",
+    "knowledge/concepts/signature-inversion.md",
+    "knowledge/experiments/galileo-131ba-c13-65mev.md",
+    "knowledge/experiments/gammasphere-cf252-fission-ru108-112.md",
+    "knowledge/experiments/tsukuba-127-128i-li7-28-32mev.md",
+    "knowledge/index.md",
+    "knowledge/nuclei/100sn.md",
+    "knowledge/nuclei/108ru.md",
+    "knowledge/nuclei/112ru.md",
+    "knowledge/nuclei/127i.md",
+    "knowledge/nuclei/128i.md",
+    "knowledge/nuclei/131ba.md",
+    "knowledge/nuclei/135pr.md",
+    "knowledge/nuclei/187au.md",
+    "knowledge/observables/lifetime.md",
+    "knowledge/overview.md",
+    "knowledge/sources/alwaleedi-2013-band-structures-131ce.md",
+    "knowledge/sources/che-2007-high-spin-108-112ru-134-135ba.md",
+    "knowledge/sources/chen-size-2014-6li-pgamma-7be.md",
+    "knowledge/sources/dietrich-1974-excited-states-103pd.md",
+    "knowledge/sources/ding-2012-phd-thesis-127-128i-high-spin.md",
+    "knowledge/sources/hayes-2005-k-conservation-178hf.md",
+    "knowledge/sources/hinke-2010-100sn-decay-spectroscopy.md",
+    "knowledge/sources/lubos-2016-100sn-neighboring-nuclei-decay-spectroscopy.md",
+    "knowledge/sources/morgan-2008-237pu-nilsson-orbitals.md",
+    "knowledge/sources/palffy-2006-neec-thesis.md",
+    "knowledge/sources/qiang-2019-high-spin-130-131ba-87zr.md",
+    "knowledge/sources/regis-2011-fast-timing-labr3.md",
+    "knowledge/sources/sensharma-2021-wobbling-motion-135pr-187au.md",
+    "knowledge/sources/smith-1998-rotational-bands-127-131pr.md",
+    "knowledge/sources/wang-enhong-2015-neutron-rich-fission-fragments.md",
+    "knowledge/sources/wang-huale-2006-170re-176ir-thesis.md",
+    "outputs/degree-dissertation-ingest-20260905.manifest.json",
+    "outputs/degree-dissertation-ingest-20260905.md",
+    "script/git20260905.cmd",
+    "script/git20260905.py",
+    "system/handoff.md",
+    "system/log.md",
+    "system/wip-queue.md"
+  ],
+  "protected_paths": [
+    {
+      "path": ".codex/config.toml",
+      "sha256": "B5A723B769809B7924CDD38E952EE9C8040BF21220A2DD2694A3FE22C01D29D8"
+    },
+    {
+      "path": "system/lint-config.json",
+      "sha256": "E798CA57B98A4E5442DCD867AE4953AE2B6A316F449DA638D6AD53ABCB516961"
+    },
+    {
+      "path": "raw/zotero/wiki-inbox.bib",
+      "sha256": "037EA133DE204270AD36961CA66B3AB36C0913B7D472B45F8FD013C8293BE5BE"
+    }
+  ],
+  "publication": {
+    "remote": "origin",
+    "refspec": "HEAD:main",
+    "force_push": false,
+    "dry_run_before_push": true,
+    "network_retry_limit": 1
+  }
+}

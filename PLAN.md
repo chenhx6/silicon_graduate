@@ -13,7 +13,7 @@
 ## 当前发布状态
 
 - Continuous Research-Learning v2（硅基研究生 V2）已完成全仓库检查、去重、公开内容审计与非 force fast-forward 发布。
-- canonical Git reference 为 annotated tag `continuous-research-learning-v2`；实际远端状态以 Git ref 和 GitHub Wiki lint 为准。
+- canonical Git reference 为 annotated tag `continuous-research-learning-v2`；实际远端状态以 Git ref 和 Gitee `chx6/silicon_graduate` 为准，结构检查以本地 Wiki lint 为准。GitHub 仅作为 Gitee 镜像，不承担本库维护。
 
 ## 下一阶段：用户独立 `131Ce` 数据
 

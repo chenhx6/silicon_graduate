@@ -7,6 +7,25 @@ updated: 2026-07-28
 
 # Knowledge Base Health Dashboard
 
+## Current Snapshot: 2026-09-05 Degree Dissertation Batch
+
+The degree-dissertation batch has completed content ingestion: 15 degree dissertations are represented (Ding 2012 already present; Alwaleedi 2013 re-read; 13 new thesis sources) plus one additional 1974 `103Pd` experiment report. The batch adds A≈130 shape/wobbling, `100Sn` independent decay baselines, fast timing, K-mixing, fission-isomer and low-energy reaction method evidence. All new claims remain source-level `unreviewed` with `needs_review: true`; this is not a paper-level admission or human-review event.
+
+| metric | current value | note |
+|---|---:|---|
+| source pages | 109 | Includes 14 new source pages plus the existing Ding/Alwaleedi thesis records; the `103Pd` report is explicitly marked as an experiment report, not a dissertation. |
+| nucleus / band / experiment pages | 59 / 63 / 37 | Added a lightweight `100Sn` page and touched only directly related `Ru/Ba/Pr/Au` and experiment relation pages. |
+| concept / method / model / observable pages | 43 / 19 / 15 / 20 | Added GT-strength, signature-inversion and lifetime anchors; no schema or lint configuration changes. |
+| project / synthesis pages | 9 / 7 | No new project/synthesis page; cross-source REFLECT is recorded in the batch report and remains provisional. |
+| source pages unreviewed | 49 | New thesis/report sources remain page-level unreviewed; Alwaleedi retains its earlier status. |
+| claim-level `needs_review: true` | 691 | Includes the batch claims and pre-existing review queues; no claim was cleared automatically. |
+| claim missing locator / kind | 0 / 0 | Current lint result. |
+| raw hash coverage | 109/109 | New source hashes match their PDF files; raw PDFs and extracted raw images remain outside Git staging. |
+| automated lint | 0 errors / 89 warnings / 691 info | Warnings are existing reaction/element/orphan/citation-key notices plus protected raw changes. |
+| commit/push status | content complete; one-time publish pending | Git is intentionally decoupled from content ingest; `script/git20260905.cmd` performs explicit staging and a non-force `HEAD:main` attempt. |
+
+The batch keeps thesis/journal shared-data lineages separate, especially `131Ba`, `108,112Ru`, `135Pr`, `187Au` and `100Sn`. The `100Sn` GSI (Hinke 2010) and RIKEN (Lubos 2016) results are independent candidate lineages, not silently averaged. `178Hf` key pages were checked visually/OCR because the PDF text layer is unreliable. `Pálffy 2006` and Chen 2014 remain source-only or method-oriented relative to the current high-spin focus.
+
 ## Current Snapshot: 2026-08-11 Nuclear-chirality 23-paper corpus WIP
 
 The ordered corpus from Petrache 1996 through Bark 2024 is fully ingested in one local rolling `WIP ingest:` commit. Each of the 23 target PDFs has a source page with citation key, raw hash, reading coverage, locator-level claims, analytical reconstruction and Human review triage. The corpus remains unreviewed working knowledge: completing ingest does not promote candidate chirality, MχD, octupole/pseudospin coupling or model geometry to confirmed claims.

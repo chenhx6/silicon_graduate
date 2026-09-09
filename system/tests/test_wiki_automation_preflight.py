@@ -3,312 +3,55 @@ from __future__ import annotations
 import hashlib
 import json
 import os
-import shutil
 import subprocess
+import sys
 import tempfile
 import unittest
 from pathlib import Path
 
 
-REPO_ROOT = Path(__file__).resolve().parents[2]
-SCRIPT = REPO_ROOT / "system" / "scripts" / "wiki_automation_preflight.ps1"
-POWERSHELL = Path(r"C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe")
+ROOT = Path(__file__).resolve().parents[2]
+SCRIPT = ROOT / "system" / "scripts" / "wiki_automation_preflight.py"
 
 
-@unittest.skipUnless(os.name == "nt", "the preflight uses Windows ACLs and PowerShell")
 class WikiAutomationPreflightTests(unittest.TestCase):
     def setUp(self) -> None:
-        self.tmp_root = Path(tempfile.mkdtemp(prefix="wiki-preflight-", dir=REPO_ROOT / "tmp"))
-        for name in (".git", ".codex", ".agents"):
-            (self.tmp_root / name).mkdir()
-        (self.tmp_root / ".codex" / "config.toml").write_text(
-            'default_permissions = "wiki_l3"\n', encoding="utf-8"
+        self.tmp = Path(tempfile.mkdtemp(prefix="wiki-preflight-", dir=ROOT / "tmp"))
+        (self.tmp / ".git").mkdir()
+        (self.tmp / ".codex").mkdir()
+        (self.tmp / ".codex" / "config.toml").write_text(
+            '# Docker supplies sandboxing\n', encoding="utf-8"
         )
-        skill_dir = self.tmp_root / ".agents" / "skills" / "wiki-evidence-query"
-        skill_dir.mkdir(parents=True)
-        (skill_dir / "SKILL.md").write_text("# Test sentinel\n", encoding="utf-8")
-        bib = self.tmp_root / "raw" / "zotero"
+        bib = self.tmp / "raw" / "zotero"
         bib.mkdir(parents=True)
-        (bib / "wiki-inbox.bib").write_bytes(b"@article{probe, title={probe}}\n")
-        self.bib_hash = hashlib.sha256(
-            (bib / "wiki-inbox.bib").read_bytes()
-        ).hexdigest().upper()
+        self.bib = bib / "wiki-inbox.bib"
+        self.bib.write_text("@article{probe}\n", encoding="utf-8")
 
     def tearDown(self) -> None:
-        shutil.rmtree(self.tmp_root, ignore_errors=True)
+        import shutil
+        shutil.rmtree(self.tmp, ignore_errors=True)
 
-    def invoke(
-        self,
-        *,
-        profile: str | None = "wiki_l3",
-        baseline_hash: str | None = None,
-        legacy_hash: str | None = None,
-    ):
+    def invoke(self, *extra: str):
         env = os.environ.copy()
-        if profile is None:
-            env.pop("CODEX_PERMISSION_PROFILE", None)
-        else:
-            env["CODEX_PERMISSION_PROFILE"] = profile
-        script_path = str(SCRIPT).replace("'", "''")
-        root_path = str(self.tmp_root).replace("'", "''")
-        ps_args = f"-Root '{root_path}' -ExpectedProfile 'wiki_l3'"
-        if baseline_hash is not None:
-            ps_args += f" -BaselineBibHash '{baseline_hash}'"
-        if legacy_hash is not None:
-            ps_args += f" -ProtectedBibHash '{legacy_hash}'"
-        command = [
-            str(POWERSHELL),
-            "-NoProfile",
-            "-ExecutionPolicy",
-            "Bypass",
-            "-Command",
-            f"& {{ & '{script_path}' {ps_args}; exit $LASTEXITCODE }}",
-        ]
-        completed = subprocess.run(
-            command,
-            cwd=self.tmp_root,
-            env=env,
-            text=True,
-            capture_output=True,
-            check=False,
-        )
-        payload = json.loads(completed.stdout.strip())
-        return completed, payload
+        env.pop("CODEX_PERMISSION_PROFILE", None)
+        p = subprocess.run([sys.executable, str(SCRIPT), "--root", str(self.tmp), *extra],
+                           text=True, capture_output=True, env=env, check=False)
+        return p, json.loads(p.stdout)
 
-    def protected_tree_snapshot(self) -> dict[str, bytes | None]:
-        snapshot: dict[str, bytes | None] = {}
-        for root_name in (".codex", ".agents"):
-            root = self.tmp_root / root_name
-            for path in sorted(root.rglob("*")):
-                relative = path.relative_to(self.tmp_root).as_posix()
-                snapshot[relative] = path.read_bytes() if path.is_file() else None
-        return snapshot
-
-    def assert_no_probe_files(self) -> None:
-        for target in (
-            self.tmp_root,
-            self.tmp_root / ".git",
-            self.tmp_root / ".codex",
-            self.tmp_root / ".agents",
-        ):
-            self.assertEqual(list(target.glob(".codex-write-probe-*.tmp")), [])
-
-    def set_explicit_deny(self, path: Path, sid: str) -> None:
-        completed = subprocess.run(
-            ["icacls", str(path), "/deny", f"*{sid}:(W)"],
-            cwd=self.tmp_root,
-            text=True,
-            capture_output=True,
-            check=False,
-        )
-        self.assertEqual(completed.returncode, 0, completed.stderr or completed.stdout)
-
-    def remove_explicit_deny(self, path: Path, sid: str) -> None:
-        completed = subprocess.run(
-            ["icacls", str(path), "/remove:d", f"*{sid}"],
-            cwd=self.tmp_root,
-            text=True,
-            capture_output=True,
-            check=False,
-        )
-        self.assertEqual(completed.returncode, 0, completed.stderr or completed.stdout)
-
-    def test_schema_3_success_creates_run_baseline_and_leaves_no_files(self) -> None:
-        protected_before = self.protected_tree_snapshot()
-
-        completed, payload = self.invoke()
-
-        self.assertEqual(completed.returncode, 0, completed.stderr)
-        self.assertEqual(payload["schema_version"], 3)
+    def test_success_and_probes_are_cleaned(self) -> None:
+        p, payload = self.invoke()
+        self.assertEqual(p.returncode, 0, p.stderr)
         self.assertTrue(payload["ok"])
-        self.assertEqual(payload["profile_attestation"]["config_default"], "wiki_l3")
-        self.assertTrue(payload["profile_attestation"]["config_matches"])
-        self.assertEqual(payload["profile_attestation"]["marker_status"], "matched")
-        self.assertEqual(payload["warnings"], [])
-        self.assertEqual(payload["protected_bib"]["baseline_sha256"], self.bib_hash)
-        self.assertEqual(payload["protected_bib"]["actual_sha256"], self.bib_hash)
-        self.assertEqual(payload["protected_bib"]["baseline_source"], "run_start")
-        self.assertEqual(payload["protected_bib"]["baseline_status"], "stable")
-        self.assertTrue(payload["protected_bib"]["ok"])
-        self.assertEqual(
-            payload["capability_policy"],
-            {
-                "authority": "write_probes_and_protected_reads",
-                "acl_diagnostics_only": True,
-            },
-        )
-        self.assertRegex(payload["runtime_token"]["user_sid"], r"^S-1-")
-        self.assertIsNone(payload["runtime_token"]["error"])
-        self.assertEqual(len(payload["write_probes"]), 2)
-        self.assertEqual(
-            [Path(item["path"]).name for item in payload["write_probes"]],
-            [self.tmp_root.name, ".git"],
-        )
-        self.assertTrue(all(item["created"] for item in payload["write_probes"]))
-        self.assertTrue(all(item["read_back"] for item in payload["write_probes"]))
-        self.assertTrue(all(item["deleted"] for item in payload["write_probes"]))
-        self.assertEqual(len(payload["protected_read_checks"]), 2)
-        self.assertTrue(all(item["readable"] for item in payload["protected_read_checks"]))
-        self.assertEqual(
-            [item["sentinel"] for item in payload["protected_read_checks"]],
-            [
-                ".codex/config.toml",
-                ".agents/skills/wiki-evidence-query/SKILL.md",
-            ],
-        )
-        self.assertEqual(len(payload["acl_diagnostics"]), 4)
-        for diagnostic in payload["acl_diagnostics"]:
-            for key in (
-                "token_matching_deny_count",
-                "token_matching_deny_principals",
-                "nonmatching_deny_count",
-                "nonmatching_deny_principals",
-            ):
-                self.assertIn(key, diagnostic)
-        self.assertEqual(self.protected_tree_snapshot(), protected_before)
-        self.assert_no_probe_files()
+        self.assertIsNone(payload["config_default"])
+        self.assertTrue(all(x["deleted"] for x in payload["write_probes"]))
+        self.assertFalse(list(self.tmp.glob(".codex-write-probe-*.tmp")))
+        self.assertFalse(list((self.tmp / ".git").glob(".codex-write-probe-*.tmp")))
 
-    def test_missing_profile_marker_warns_and_runs_capability_checks(self) -> None:
-        completed, payload = self.invoke(profile=None)
-
-        self.assertEqual(completed.returncode, 0, completed.stderr)
-        self.assertTrue(payload["ok"])
-        self.assertIsNone(payload["actual_profile"])
-        self.assertEqual(payload["profile_attestation"]["config_default"], "wiki_l3")
-        self.assertTrue(payload["profile_attestation"]["config_matches"])
-        self.assertEqual(payload["profile_attestation"]["marker_status"], "missing")
-        self.assertEqual(
-            [item["code"] for item in payload["warnings"]],
-            ["permission_profile_marker_missing"],
-        )
-        self.assertEqual(len(payload["write_probes"]), 2)
-        self.assertEqual(len(payload["protected_read_checks"]), 2)
-        self.assertIn("user_sid", payload["runtime_token"])
-        self.assertIn("group_sids", payload["runtime_token"])
-        self.assertTrue(all("token_matching_deny_count" in item for item in payload["acl_diagnostics"]))
-        self.assert_no_probe_files()
-
-    def test_nonmatching_deny_is_diagnostic_only(self) -> None:
-        guests_sid = "S-1-5-32-546"
-        git_path = self.tmp_root / ".git"
-        self.set_explicit_deny(git_path, guests_sid)
-        try:
-            completed, payload = self.invoke()
-        finally:
-            self.remove_explicit_deny(git_path, guests_sid)
-
-        self.assertEqual(completed.returncode, 0, completed.stderr)
-        self.assertTrue(payload["ok"])
-        git_diagnostic = next(
-            item for item in payload["acl_diagnostics"] if Path(item["path"]).name == ".git"
-        )
-        self.assertGreaterEqual(git_diagnostic["explicit_deny_count"], 1)
-        self.assertEqual(git_diagnostic["token_matching_deny_count"], 0)
-        self.assertGreaterEqual(git_diagnostic["nonmatching_deny_count"], 1)
-        self.assertTrue(
-            guests_sid in git_diagnostic["nonmatching_deny_principals"]
-            or "BUILTIN\\Guests" in git_diagnostic["nonmatching_deny_principals"]
-        )
-        self.assert_no_probe_files()
-
-    def test_profile_mismatch_fails_before_probes(self) -> None:
-        completed, payload = self.invoke(profile="wrong-profile")
-
-        self.assertEqual(completed.returncode, 1)
+    def test_baseline_mismatch_fails(self) -> None:
+        p, payload = self.invoke("--baseline-bib-hash", "0" * 64)
+        self.assertEqual(p.returncode, 1)
         self.assertFalse(payload["ok"])
-        self.assertEqual(payload["error"]["code"], "permission_profile_mismatch")
-        self.assertEqual(payload["profile_attestation"]["marker_status"], "mismatch")
-        self.assertEqual(payload["write_probes"], [])
-        self.assertEqual(payload["protected_read_checks"], [])
-
-    def test_project_config_profile_mismatch_fails_before_probes(self) -> None:
-        (self.tmp_root / ".codex" / "config.toml").write_text(
-            'default_permissions = "wrong-profile"\n', encoding="utf-8"
-        )
-
-        completed, payload = self.invoke()
-
-        self.assertEqual(completed.returncode, 1)
-        self.assertFalse(payload["ok"])
-        self.assertEqual(payload["error"]["code"], "project_config_profile_mismatch")
-        self.assertEqual(payload["profile_attestation"]["config_default"], "wrong-profile")
-        self.assertFalse(payload["profile_attestation"]["config_matches"])
-        self.assertEqual(payload["write_probes"], [])
-        self.assertEqual(payload["protected_read_checks"], [])
-
-    def test_missing_project_config_fails_before_probes(self) -> None:
-        (self.tmp_root / ".codex" / "config.toml").unlink()
-
-        completed, payload = self.invoke()
-
-        self.assertEqual(completed.returncode, 1)
-        self.assertFalse(payload["ok"])
-        self.assertEqual(payload["error"]["code"], "project_config_profile_unreadable")
-        self.assertEqual(payload["write_probes"], [])
-        self.assertEqual(payload["protected_read_checks"], [])
-
-    def test_run_local_baseline_mismatch_fails_before_probes(self) -> None:
-        completed, payload = self.invoke(baseline_hash="0" * 64)
-
-        self.assertEqual(completed.returncode, 1)
-        self.assertFalse(payload["ok"])
-        self.assertEqual(payload["error"]["code"], "protected_hash_changed_since_baseline")
-        self.assertEqual(payload["protected_bib"]["baseline_source"], "supplied_run_baseline")
-        self.assertEqual(payload["protected_bib"]["baseline_status"], "mismatch")
-        self.assertEqual(payload["write_probes"], [])
-        self.assertEqual(payload["protected_read_checks"], [])
-
-    def test_legacy_hash_is_ignored_with_warning(self) -> None:
-        completed, payload = self.invoke(legacy_hash="0" * 64)
-
-        self.assertEqual(completed.returncode, 0, completed.stderr)
-        self.assertTrue(payload["ok"])
-        self.assertEqual(
-            [item["code"] for item in payload["warnings"]],
-            ["legacy_expected_hash_ignored"],
-        )
-        self.assertEqual(payload["protected_bib"]["baseline_sha256"], self.bib_hash)
-        self.assertEqual(payload["protected_bib"]["baseline_source"], "run_start")
-
-    def test_independent_run_accepts_new_bibtex_hash(self) -> None:
-        bib_path = self.tmp_root / "raw" / "zotero" / "wiki-inbox.bib"
-        bib_path.write_bytes(b"@article{probe2, title={new probe}}\n")
-        new_hash = hashlib.sha256(bib_path.read_bytes()).hexdigest().upper()
-        self.assertNotEqual(new_hash, self.bib_hash)
-
-        completed, payload = self.invoke()
-
-        self.assertEqual(completed.returncode, 0, completed.stderr)
-        self.assertTrue(payload["ok"])
-        self.assertEqual(payload["protected_bib"]["baseline_sha256"], new_hash)
-        self.assertEqual(payload["protected_bib"]["actual_sha256"], new_hash)
-        self.assertEqual(payload["protected_bib"]["baseline_source"], "run_start")
-
-    def test_missing_git_fails_without_leaving_probe(self) -> None:
-        shutil.rmtree(self.tmp_root / ".git")
-
-        completed, payload = self.invoke()
-
-        self.assertEqual(completed.returncode, 1)
-        self.assertFalse(payload["ok"])
-        self.assertEqual(payload["error"]["code"], "probe_failed")
-        self.assertEqual(payload["protected_read_checks"], [])
-        self.assert_no_probe_files()
-
-    def test_missing_protected_sentinel_fails_after_clean_write_probes(self) -> None:
-        (self.tmp_root / ".agents" / "skills" / "wiki-evidence-query" / "SKILL.md").unlink()
-
-        completed, payload = self.invoke()
-
-        self.assertEqual(completed.returncode, 1)
-        self.assertFalse(payload["ok"])
-        self.assertEqual(payload["error"]["code"], "protected_read_failed")
-        self.assertEqual(len(payload["write_probes"]), 2)
-        self.assertTrue(all(item["deleted"] for item in payload["write_probes"]))
-        self.assertEqual(len(payload["protected_read_checks"]), 2)
-        self.assertTrue(payload["protected_read_checks"][0]["readable"])
-        self.assertFalse(payload["protected_read_checks"][1]["readable"])
-        self.assert_no_probe_files()
+        self.assertEqual(payload["protected_bib"]["status"], "mismatch")
 
 
 if __name__ == "__main__":

@@ -55,7 +55,9 @@ Branching-derived ratios assume pure M1 for `ΔI=1` transitions. Lifetimes are n
 ## Sources
 
 - [[luo-2009-chirality-evolution-ru]] LU09-1 to LU09-16; PDF pp.2-5.
+- [[che-2007-high-spin-108-112ru-134-135ba]]：博士论文层的 `108,112Ru` 同类 `252Cf` Gammasphere 数据总结；不计为独立实验。
 
 ## Evolution Log
 
 - 2026-08-11: created from Luo 2009 fission-coincidence and angular-correlation details.
+- 2026-09-05: linked Che 2007 thesis and preserved shared-data lineage.

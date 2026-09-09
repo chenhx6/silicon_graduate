@@ -1,7 +1,7 @@
 ---
 type: system-wip-queue
 graph-excluded: true
-updated: 2026-09-01
+updated: 2026-09-05
 ---
 
 # Pending WIP queue
@@ -9,6 +9,34 @@ updated: 2026-09-01
 This page tracks pending local WIP/review tasks that still need follow-up work. Keep entries short. Do not store long reports here. `system/review-history.md` records completed human-review rounds; the same task may appear in both places.
 
 ## Active entries
+
+### Daily learning: `100Sn` independent B(GT) evidence map (2026-09-07 continuation)
+- status: content-complete / final-not-pushed; active-L2; raw-PDF locator crosswalk completed
+- files: `knowledge/projects/100sn-gamow-teller-independent-evidence.md`, both `100Sn` source pages, `outputs/learning-daily/2026-09-07.md`, `system/handoff.md`, `system/log.md`
+- next action: human claim-specific review of common phase-space/B(GT) convention and `100In` branching; no review status changes yet
+- Git gate: Docker terminal runtime is available; publication still awaits explicit review and staged-file checks
+
+### 90-day continuous nuclear-structure learning: 2026-09-05–2026-12-03
+- status: framework-ready; daily 22:00 Asia/Shanghai project automation `wiki` is ACTIVE; content and Git publication are explicitly decoupled
+- scope: four phases, dynamic multi-topic/multi-source reading, graph closure, thematic REFLECT, daily/weekly/milestone records; seed corpus is the 15-dissertation batch
+- files: `system/workflows/continuous-learning.md`, `system/learning-queue.md`, `outputs/learning-daily/`, `outputs/learning-weekly/`, `outputs/learning-milestones/`, README/user-guide/check updates
+- next action: first run starts with dissertation graph closure and cross-mass-region comparison; write a daily record, then select the highest-information-gap problem
+- Git gate: if network or remote publication fails, keep Wiki content write-back and record `content-complete / final-not-pushed`
+
+### Degree dissertation batch: 2026-09-05
+- status: content-complete; one-time publication remains pending after the Python tooling migration; no new commit/push
+- scope: 15 degree dissertations represented (Ding existing, Alwaleedi re-read, 13 new thesis sources) plus the `103Pd` experiment report; source/nucleus/concept/observable/index/overview/report/script files
+- review needed: all new source claims retain `needs_review: true`; complete P0/P1 list is in `outputs/degree-dissertation-ingest-20260905.md`
+- protected: `raw/zotero/wiki-inbox.bib`, `.codex/config.toml`, `system/lint-config.json`, all raw PDFs and extracted raw images remain unstaged
+- commit target: one explicit-stage commit using `Ingest 15 degree dissertations corpus` (do not use `git add .`)
+- next action: run `python3 script/git20260905.py --dry-run`, then publish only after reviewing the manifest scope
+
+### Review pending: 丁兵 2012 `127,128I` thesis correction
+- status: current HEAD is the existing `WIP ingest: Ding 2012 127I 128I high-spin thesis`; the path correction and batch synchronization remain in the current worktree
+- files: source note; `127I`/`128I` nucleus and five band pages; University of Tsukuba experiment page; index; handoff/log
+- review needed: all 11 source claims retain `needs_review: true`; focused review remains for ADO values, two-branch mapping, NPA ordering/configuration boundaries and exact thesis-to-journal crosswalks
+- risks: keep `raw/zotero/wiki-inbox.bib` unstaged; do not use the historical `ciae-hi13-127-128i-li7-28-32mev` slug
+- next action: include the corrected Ding source path in the batch's explicit manifest; do not amend the already tracked WIP commit or force-push it
 
 ### Review pending: `106Ag` dual-DSAM lineage conflict
 - status: final-not-pushed on `main`; focused scientific review and local dual-source ingest remain pending; both Git runtimes failed dry-run because protected AskPass could not be spawned

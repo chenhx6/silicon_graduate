@@ -1,11 +1,42 @@
 ---
 type: system-handoff
 graph-excluded: true
-updated: 2026-09-01
+updated: 2026-09-10
 ---
 
 # 跨会话交接
 ## Active handoff
+
+Current active task:
+Connected the Wiki's canonical maintenance remote to Gitee and retired the GitHub maintenance chain. Wiki work remains owned by the Docker-hosted terminal Codex; the scientific work remains L2 with existing review flags.
+
+Current branch / local commit:
+Current branch is `main`; local final commit is `Ingest dissertation corpus and migrate Wiki to Gitee`, with annotated tag `迁移github至gitee`. Existing concurrent/unpublished changes remain uncommitted. `origin` points to `https://gitee.com/chx6/silicon_graduate`. Publication status is `final-not-pushed` because no usable Gitee authentication entry is available. No raw file or credential material was changed.
+
+Last task status:
+Verified that `origin` has only the Gitee fetch/push URL and no GitHub remote. Removed the repository-local GitHub-specific credential/SSL entries, retired `.github/workflows/wiki-lint.yml`, removed its lint required-path entry, and updated active repository, security, contribution, check, workflow, plan and memory guidance. Created the explicitly scoped local commit and annotated tag. Gitee fetch/ancestry passed, but branch+tag dry-run failed before authentication because the stale repository `core.askpass` points to missing `E:/imp/wiki/.../askpass-native.exe`; a command-level no-askpass retry also found no usable credentials, so no real push occurred.
+
+Unfinished items:
+1. Restore a valid Gitee authentication entry outside this task, then rerun the non-force branch+tag push; the local commit/tag remain `final-not-pushed`. Do not stage the concurrent capability/hook/farmer changes without separate review.
+2. Human claim-specific review of the completed HK10/LB16 crosswalk remains pending, especially phase-space/B(GT) convention and `100In` branching boundaries.
+3. Current dissertation and daily-learning content remain `content-complete / final-not-pushed`; do not alter raw files or claim review flags.
+
+P0/P1 review focus:
+P0: batch source claims listed in `outputs/degree-dissertation-ingest-20260905.md`, especially `131Ba` MχD/E1, `135Pr/187Au` wobbling, `100Sn` BGT/level schemes, `178Hf` K-mixing, `237Pu` Nilsson labels, and Ding `127/128I` ADO/NPA boundaries. P1: fast timing/MSCD, multi-nuclide fission assignments, NEEC estimates, `6Li(p,γ)7Be` resonance candidate and all shared thesis/journal lineages.
+
+Risks:
+Keep `raw/zotero/wiki-inbox.bib`, `.codex/config.toml` and all raw PDFs/OCR images protected and unstaged. Do not restore a GitHub maintenance workflow or remote. Do not change claim `needs_review` status without explicit claim-level confirmation. Do not count thesis/journal shared datasets as independent experiments. Preserve the canonical Ding experiment page `tsukuba-127-128i-li7-28-32mev`.
+
+Next prompt / continuation phrase:
+`继续 100Sn claim-specific review：核对共同 phase-space/B(GT) convention与100In level-scheme branching，决定哪些HK10/LB16 claims可进入论文证据池`
+
+Recent user decisions:
+2026-09-10: 指定 Gitee `https://gitee.com/chx6/silicon_graduate` 为本库维护入口，GitHub 仅保留镜像关系；随后授权将当前已审计快照 commit/push，并创建 tag `迁移github至gitee`。
+2026-09-02: Confirmed Ding's experiment was performed at the University of Tsukuba, not CIAE; retained evidence review boundaries.
+2026-09-05: Authorized autonomous ingest/check of the 15 degree dissertations plus the extra `103Pd` report; Alwaleedi is to be re-read; Git failure must not block content; commit/push is one-time after the batch via `git20260905`.
+2026-09-05: Authorized the 90-day continuous-learning plan with daily 22:00 Asia/Shanghai runs; 2–3 hours are checkpoints only, topic/paper counts are open, and content write-back is decoupled from Git publication.
+
+## Previous active handoff (superseded 2026-09-02)
 
 Current active task:
 Implement the Wiki weekly-self-test download-permission repair. The repository-level `.git` write probe is restored and the 2026-08-24/31 weekly reports are finalized, but publication is blocked because the protected repo-local AskPass executable cannot be spawned in the current runtime.

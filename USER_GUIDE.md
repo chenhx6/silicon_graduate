@@ -23,11 +23,13 @@ outputs/     审计、报告、文章草稿和演示产物
 - `knowledge/questions.md`：开放科研问题；
 - `system/handoff.md`：最近任务做到哪里、改了什么、下一步是什么；
 
-Wiki 使用项目级 `wiki_l3`：Codex 可维护 `E:\imp\wiki`，Wiki 外只读且 `approval_policy=never`，不存在外部写入提权入口。确需改变外部状态时，Codex 必须停止，由你在 Codex 外手动完成，再由新任务只读核验。其他项目继续使用普通 workspace 权限。Wiki 任务不使用 Computer Use，避免 GUI 程序绕过文件边界。
+Wiki 工作项目由 Docker 内的终端 Codex 接手，Docker 负责 sandbox 和完整仓库访问；`.codex/config.toml` 不再声明项目 sandbox。任务仍需遵守证据规则、raw 保护和不可逆操作确认，且不依赖桌面端 GUI 或 Computer Use。
 
 ### 科研自治入口
 
-完整 L0–L4、每周自测、P0/P1 和人工关口只在 [autonomous-research workflow](system/workflows/autonomous-research.md) 维护。常用触发示例：`摄入 <文献>` 默认完成 L0–L2；`开始 L3 研究：<问题>` 启动课题调查；L4 必须先有数据候选并由你发送 `开始 <项目> L4：数据=<Wiki 内路径>`。`wiki_l3` 只是文件权限 profile 名称，不是科学等级上限。每周自测有实质变化时先建立本地 WIP 和集中 P0/P1 报告，经你审核后才发布。
+完整 L0–L4、每周自测、P0/P1 和人工关口只在 [autonomous-research workflow](system/workflows/autonomous-research.md) 维护。常用触发示例：`摄入 <文献>` 默认完成 L0–L2；`开始 L3 研究：<问题>` 启动课题调查；L4 必须先有数据候选并由你发送 `开始 <项目> L4：数据=<Wiki 内路径>`。`:danger-full-access` 只是终端运行权限，不是科学自治等级。每周自测有实质变化时先建立本地 WIP 和集中 P0/P1 报告，经你审核后才发布。
+
+90 天持续学习由 [continuous-learning workflow](system/workflows/continuous-learning.md) 和 [learning queue](system/learning-queue.md) 管理。每日 22:00（Asia/Shanghai）的独立任务以 2–3 小时为 checkpoint，不是硬停止，不限制主题或论文数量；达到里程碑或信息增益下降才收敛。若 Git、网络或认证失败，任务仍可写回安全的知识页和学习记录并标为 `content-complete / final-not-pushed`，不会伪造已发布。
 - `system/log.md`：只追加的操作历史；
 - `check.md`：系统与科学质量检查。
 
@@ -36,7 +38,7 @@ Wiki 使用项目级 `wiki_l3`：Codex 可维护 `E:\imp\wiki`，Wiki 外只读�
 ## 2. 在 Obsidian 中打开
 
 1. 在 Obsidian 选择“打开本地仓库作为库”。
-2. 选择整个 `E:\imp\wiki`，不要只选择 `knowledge/`。
+2. 选择整个 `/workspace/wiki`，不要只选择 `knowledge/`。
 3. 这样可以同时看到证据、知识、治理规则和输出，但日常主要浏览 `knowledge/`。
 
 推荐启用的核心功能：
@@ -128,6 +130,8 @@ SORT file.name ASC
 
 ### 本地 WIP 检查点
 
+每日持续学习把内容写回与 Git 发布分轨：发布门失败不等于学习失败，但根目录、配置/sentinel、BibTeX 基线和 dirty/raw overlap 不安全时必须 safe-suspend；完整 H1/H2/H3 通过后才 commit/push。
+
 普通文献摄入像研究生自行读文献：Codex 逐篇完成全文回查、locator/claim kind、证据分层、竞争解释与 P0/P1 自审。长任务可保留一个本地 rolling `WIP ingest:`；完成且没有未隔离 hard P0 时 amend 为 final，并按仓库的持续 ingest 授权完成 H3、fresh fetch、精确 refspec dry-run 和非 force push。Agent 自审或 final/push 都不等于人工审核，不会自动把页面升级为 `human-reviewed` 或清除 `needs_review`。独立 project、synthesis、跨来源研究结论等待审核时仍使用 `WIP review: ... for user review`。
 
 审核后，Codex 根据报告修改明确项目，并使用 `git commit --amend` 把对应 WIP 转为落实本轮审核意见的 review commit / final commit；不得保留独立 WIP 后再增加 final commit。你指定 review commit message 时原样使用；未指定时由 Codex 推荐与本轮内容直接相关的 message，并在最终报告中说明。只有你允许时才 push。同一分支不累积多个 active WIP。仓库存在对应 WIP、你已完成审核并要求 final commit/push 时，这本身就是仓库流程对 amend 的明确授权。旧式“不 commit/push，等待审核”表示不 final commit、不 push，但允许本地 WIP；若确实不希望任何本地 commit，请明确写“禁止本地 WIP commit”。
@@ -136,9 +140,9 @@ SORT file.name ASC
 
 写任务第一次修改文件前、创建 WIP/final commit 前及 push 前，Codex 会按 `check.md` 运行仅限 LF/CRLF 行尾格式差异的清理入口。用户也可手动运行：
 
-```powershell
-powershell -ExecutionPolicy Bypass -File system/scripts/clean_knowledge_eol_dirty.ps1
-powershell -ExecutionPolicy Bypass -File system/scripts/clean_knowledge_eol_dirty.ps1 -DryRun
+```bash
+python3 system/scripts/clean_knowledge_eol_dirty.py
+python3 system/scripts/clean_knowledge_eol_dirty.py --dry-run
 ```
 
 脚本只清理未暂存且可证明为 LF/CRLF-only 的 tracked `knowledge/**/*.md`；普通行尾空格、Markdown 双空格和 Tab 都视为 substantive 并保留。脚本不触碰 staged 内容、不处理其它目录，并保留 substantive/mixed 状态。exit code `1` 只表示仍需由 Codex 按授权范围、入口 baseline 和 WIP 归属分类；完全属于当前授权任务的 substantive diff 不会因此被无条件阻断。
@@ -193,14 +197,14 @@ QMD `2.5.3` 已配置为 `knowledge/` 的本地搜索层。你正常提问即可
 
 索引位于被 Git 忽略的 `.qmd/`，只包含 `knowledge/**/*.md`，不会索引 PDF、`raw/`、系统规则或 Obsidian 工作区。Research notes 暂时仍在同一 collection，但 ordinary Q&A 会按路径/type 排除。你可在仓库根目录检查：
 
-```powershell
+```bash
 qmd.cmd status
 qmd.cmd search "wobbling signature splitting" -c nuclear-knowledge
 ```
 
 知识页发生变化后，Agent 应自动运行：
 
-```powershell
+```bash
 qmd.cmd update
 qmd.cmd embed -c nuclear-knowledge
 ```
@@ -277,26 +281,33 @@ Project 可以随具体研究问题、阶段性数据处理结果、证据比较
 
 Git 只管理 Markdown、规则和小型文本资产。PDF、数据和个人材料默认不进入普通 Git 历史；它们由 Zotero、原始存储和备份负责。
 
-公开远端仓库为 `chenhx6/wiki-nuclear-structure`。首次连接本地仓库时运行：
+公开主远端仓库为 [Gitee `chx6/silicon_graduate`](https://gitee.com/chx6/silicon_graduate)。GitHub 若存在仅作为 Gitee 镜像，不作为本库维护或 CI 入口。本地 `origin` 应指向：
 
-```powershell
-git remote add origin https://github.com/chenhx6/wiki-nuclear-structure.git
+```bash
+git remote set-url origin https://gitee.com/chx6/silicon_graduate
 git push -u origin main
 ```
 
 若 `git remote -v` 已显示 `origin`，不要重复执行 `remote add`。未发表内容、合作材料、审稿材料、个人数据和敏感原始材料应继续留在被忽略的私有目录，不进入公开远端。
 
-### Push 前的 DENY 故障分类
+### Push 前检查
 
-任何创建分支、提交、fetch 或 push 的 Git 写入口，先在 Wiki 根目录运行 schema-3 `system/scripts/wiki_automation_preflight.ps1 -Root E:\imp\wiki -ExpectedProfile wiki_l3`。首次调用从 JSON 的 `protected_bib.baseline_sha256` 建立本次运行基线，后续 H1/H2/H3 仅把该值作为 `-BaselineBibHash` 传回；两次独立运行之间 `raw/zotero/wiki-inbox.bib` 的正常 Zotero 更新会建立新基线，不会因旧哈希误阻断。旧 `-ProtectedBibHash` 只兼容并告警，不再作为长期配置。只有 exit `0`、根目录和 `.git` 写探针成功且保护读取成功，才进入 Git 检查；`acl_diagnostics` 中不匹配当前 token 的旧 SID DENY 只是诊断，不会阻断 dry-run 或 push，也不需要每次执行 `/remove:d`。该 BibTeX 文件仍由用户/Zotero 管理，Agent 不得修改或暂存。
+提交或推送前运行跨平台预检并确认 staged 文件：
 
-若 `github.com:443` 连接失败，这是网络问题：执行一次 `ls-remote`，再做一次有界重试。AskPass、401/403 或 credential helper 报错走认证诊断。只有 `.git` 写探针明确返回 `Access denied` 时，才检查 `runtime_token` 与 `token_matching_deny_*`，然后 safe-suspend，交给 Codex 外做最小、明确范围的 ACL 处理。不要为了追求“零 DENY”而重置或递归修改权限；真实探针能力和保护读取才是放行依据。
+```bash
+python3 system/scripts/wiki_automation_preflight.py --root .
+git diff --cached --check
+git push --dry-run origin HEAD:main
+git push origin HEAD:main
+```
+
+`raw/zotero/wiki-inbox.bib` 仍由 Zotero 管理，不要修改或暂存；认证失败时保留本地提交并记录 `final-not-pushed`。
 
 ## 8. 自动 lint
 
-在 PowerShell 中进入仓库根目录后运行：
+在仓库根目录运行：
 
-```powershell
+```bash
 python system/scripts/wiki_lint.py --fail-on error
 ```
 
@@ -320,12 +331,12 @@ SUMMARY pages=61 wikilinks=372 hashes=7 errors=0 warnings=0 info=9
 
 需要更严格或机器可读输出时：
 
-```powershell
+```bash
 python system/scripts/wiki_lint.py --fail-on warning
 python system/scripts/wiki_lint.py --format json --output outputs/lint-report.json
 ```
 
-自动 lint 不判断“某带是否真的属于 wobbling/chiral”这类科学结论，也不会自动合并或改写页面。GitHub 仓库的 Actions 页面中会显示 `Wiki lint`；相关 push 和 pull request 会自动运行。由于 PDF 不进入 GitHub，云端缺少 PDF 时只报告 warning；完整哈希核验应在本机运行。
+自动 lint 不判断“某带是否真的属于 wobbling/chiral”这类科学结论，也不会自动合并或改写页面。维护远端为 Gitee，GitHub 镜像不运行本库维护工作流；由于 PDF 不进入公开远端，云端缺少 PDF 时只报告 warning；完整哈希核验应在本机运行。
 
 当前自动 lint 主要证明结构健康，不等于科学内容已全部人工复核。输出中的 `GOVERNANCE` 行会自动统计页面级/source 页 unreviewed、claim-level `needs_review: true`、缺 locator、缺 `claim_kind`、source 缺 `raw_file` 和缺 citation key。`CLAIM_NEEDS_REVIEW` 作为非阻断 info 保留人工审阅队列；缺 locator/kind 为 error，缺 citation key 为 warning。
 

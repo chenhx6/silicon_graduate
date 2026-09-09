@@ -1112,3 +1112,62 @@ updated: 2026-07-15
 - Amended the rolling weekly WIP to final `Finalize weekly self-tests through 2026-08-31` without recording a Human Review or changing scientific review state.
 - After the user removed the stale `.git` DENY, schema-3, fresh fetch and ancestry passed; system and bundled Git both failed exact-refspec dry-run because the protected repo-local AskPass executable could not be spawned.
 - No real push, credential change, schema-4 implementation or automation Run now was performed; protected `raw/zotero/wiki-inbox.bib` remained unstaged.
+
+## [2026-09-02] ingest | 丁兵 2012 博士论文：127,128I 高自旋能级结构研究
+
+- Deep-read and extracted all 7 chapters (100 pages) of Ding Bing's 2012 PhD thesis on `127,128I` in-beam gamma spectroscopy with CIAE HI-13 tandem ($^7\text{Li} + {}^{124}\text{Sn}$).
+- Created source note `ding-2012-phd-thesis-127-128i-high-spin`, experiment page `ciae-hi13-127-128i-li7-28-32mev`, nuclei `127i` and `128i`, and 5 band pages (`127i-pi-h11-2-decoupled-band`, `127i-pi-g7-2-rotational-band`, `127i-pi-d5-2-band`, `128i-pi-g7-2-nu-h11-2-structure`, `128i-pi-h11-2-nu-h11-2-structure`).
+- Recorded 11 structured claims covering $\pi h_{11/2}$ decoupled band extension to stable $^{127}\text{I}$, $\pi g_{7/2}/\pi d_{5/2}$ high-K oblate rotational reinterpretation via newly observed interband transitions, $15/2^+, 23/2^+$ 3qp single-particle/collective coexistence in a $\gamma$-soft/$\beta$-soft PES, and $^{128}\text{I}$ 2qp multiplets supported by NPA and empirical shell model. Synchronized `knowledge/index.md`.
+
+## [2026-09-02] review-correction | 丁兵 2012 博士论文摄入优化
+
+- User confirmed the experiment was performed at the University of Tsukuba, not CIAE; corrected the experiment page slug, facility, reaction-energy mapping and detector geometry.
+- Rechecked key figures/tables and corrected ADO/DCO terminology, 127I Band-A and 23/2+ energies, 128I low-lying levels/Band-B path, and NPA/PES evidence boundaries; all claim-level review flags remain unchanged.
+- Wiki lint completed with zero errors; protected `raw/zotero/wiki-inbox.bib` remained untouched and unstaged. Local checkpoint was not created because schema-3 `.git` write probe returned `Access denied`; no push was attempted.
+
+## [2026-09-05] ingest | 15 篇学位论文批次与 Git 解耦
+
+- Completed content ingest for 15 degree dissertations (Ding existing, Alwaleedi key-evidence re-read, 13 new thesis sources) plus the 1974 `103Pd` experiment report; added source-level evidence, locators, review triage and minimal direct relations.
+- Added `100Sn`/GT-strength/lifetime/signature-inversion anchors and preserved thesis/journal shared-data and independent-experiment boundaries. `178Hf` key pages were visually/OCR checked because its text layer is unreliable.
+- Git failure was treated as a publication-only condition for this batch. A one-time explicit-stage publisher was added at `script/git20260905.ps1` with double-click entry `script/git20260905.cmd`; no raw PDF, protected BibTeX, ACL or credential material was changed.
+- `wiki_lint.py --fail-on error` passed with zero errors; commit/push remains pending until the one-time script attempt.
+
+## [2026-09-05] publication-attempt | degree dissertation batch
+
+- Ran `script/git20260905.ps1` once without `-DryRun`; schema-3 stopped before staging with exit 42 because runtime marker `:workspace` did not match project profile `wiki_l3`.
+- No new commit, amend, push, ACL change, credential access or raw modification occurred. Content remains complete and `final-not-pushed`; the script can be rerun by the user after repairing the Git/runtime environment.
+
+## [2026-09-05] diagnostic | degree dissertation publisher boundary
+
+- A child-process `-DryRun` with `CODEX_PERMISSION_PROFILE=wiki_l3` passed project-config/marker and root write checks but `.git` write probe remained `Access denied`; diagnostics showed two explicit nonmatching DENY entries and no matching current-token DENY.
+- This was read-only diagnosis only; no stage/commit/push or ACL/credential change occurred. Content remains complete and the user-facing script is the sole continuation path after external repair.
+
+## [2026-09-05] tooling | QMD refresh after degree dissertation batch
+
+- `qmd update` indexed 27 new and 13 updated knowledge pages; `qmd embed -c nuclear-knowledge` completed with 384 files and 2615 vectors, 0 pending.
+- The refresh touched only the ignored project-local `.qmd` index; no Git index, raw PDF, protected BibTeX or repository governance file was changed.
+
+## [2026-09-05] framework | 90-day continuous nuclear-structure learning
+
+- Implemented `system/workflows/continuous-learning.md`, `system/learning-queue.md`, and daily/weekly/milestone output indexes for the 90-day expert-learning loop (about 80% nuclear structure, 20% adjacent nuclear science).
+- Documented multi-topic/multi-source learning with 2–3 hour checkpoints, milestone/information-gain stopping, graph closure, source independence, thematic REFLECT and L0–L4 boundaries; README, user guides, `check.md` and scheduled-continuation now expose the workflow.
+- Created and enabled Codex project automation `wiki` for daily 22:00 Asia/Shanghai runs. The daily task has an explicit content-only path when Git/AskPass/network publication fails, while root/config/sentinel/protected-hash/raw-overlap failures still safe-suspend.
+- No raw PDF, protected BibTeX, ACL, credential or `.codex` content was changed. The first daily run and post-change Wiki lint remain to be verified.
+
+## [2026-09-06] continuous-learning | first daily run: `100Sn` B(GT) evidence map
+
+- Selected `100Sn` GSI-vs-RIKEN B(GT) comparison as the highest-information gap after deferring overlapping `135Pr`/`187Au` review queues.
+- Added a project evidence map, one deduplicated open question, reverse links, and daily record; preserved `multiple-independent`, source-level locators and all `needs_review` boundaries.
+- Schema-3 root probe passed but `.git` probe remained `Access denied`; protected BibTeX hash unchanged. Content is `content-complete / final-not-pushed`; no Git publication action was attempted.
+
+## [2026-09-07] continuous-learning | `100Sn` raw-PDF crosswalk audit
+
+- Re-read Hinke Ch.5.1–5.4/Ch.6.2 and Lubos Ch.4.2/4.4/Ch.5.1 from the local PDFs; verified endpoint/Q corrections, branch components, response treatment, level-scheme and model-space locators.
+- Updated both source pages with locator audits and expanded the `100Sn` project matrix; all claim-level review flags and independent-lineage boundaries remain unchanged.
+- Preflight stopped on runtime marker mismatch `:workspace` vs `wiki_l3`; lint passed with 0 errors, and no Git publication action was attempted.
+
+## [2026-09-10] tooling | Gitee canonical remote and GitHub maintenance retired
+
+- Verified local `origin` fetch/push URLs as `https://gitee.com/chx6/silicon_graduate`; no GitHub remote remains. Removed only the repository-local GitHub-specific credential/SSL configuration entries.
+- Retired `.github/workflows/wiki-lint.yml` and removed its `system/lint-config.json` required-path entry; updated active repository, security, contribution, check, workflow, plan and memory guidance so Gitee is the maintenance endpoint and GitHub is mirror-only.
+- The explicitly scoped snapshot was committed as `Ingest dissertation corpus and migrate Wiki to Gitee` and tagged `迁移github至gitee`; concurrent capability/hook/farmer changes remained outside the commit. Gitee fetch/ancestry passed, but branch+tag dry-run failed before authentication because the stale repository `core.askpass` points to a missing Windows path; the no-askpass retry found no credentials, so no real push occurred and the state is `final-not-pushed`. No raw file, protected BibTeX or credential content was changed.

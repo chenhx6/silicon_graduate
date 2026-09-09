@@ -128,7 +128,7 @@ Agent 主动查找文献时采用 Nature-first 路由：先调用 `nature-academ
 
 APS/PRC 或 Google Scholar 出现 Turnstile、图片验证码、QR、OTP、登录或反复安全验证时，Codex 保留原标签页并交给用户处理，不循环重试。这里的“禁用浏览器原生 Download”只禁止无法指定路径、会默认写入 Wiki 外 Downloads 的下载方式，不是禁止下载：`nature-downloader`、命令行下载器、browser-context downloader 或可靠的“另存为 Wiki 路径”均可使用。用户若手工下载到外部目录，Agent 只能读取并复制到 Wiki，不得移动、删除或清理外部原文件。
 
-Wiki 项目级 `wiki_l3` 允许维护整个 `E:\imp\wiki`，外部仅可读和执行。运行外部程序前必须把工作目录、临时目录、缓存、日志、配置和输出约束到 Wiki；安装器、系统管理工具或无法证明零外部写入的 GUI 程序不得自行执行。Wiki 固定 `approval_policy = never`，Codex 不得请求外部写入权限；确需外部状态变更时应停止并交给用户在 Codex 外手动完成，随后由新会话只读核验。Wiki 任务行为上禁用 Computer Use，但保留 Web Search、Browser、Chrome 和 MCP。其他项目仍使用普通 workspace 权限并在越界安装或系统修改时按需审批。
+Wiki 工作项目由 Docker 内的终端 Codex 接手，Docker 负责 sandbox 和完整仓库访问；`.codex/config.toml` 只保留项目集成设置，不声明 sandbox。任务仍遵守 raw 保护、证据规则和不可逆操作确认，工作流不依赖桌面端 GUI 或 Computer Use。
 
 用户可以明确声明某篇文献、核素、反应体系或实验方法属于当前分析、未来课题或论文写作重点。例如：
 
@@ -159,7 +159,7 @@ Wiki 项目级 `wiki_l3` 允许维护整个 `E:\imp\wiki`，外部仅可读和�
 
 已有 pending WIP commit 与仍留在 Git index 的 staged 文件不同：commit 不会自动混入当前 commit，任务前 staged 文件却会。write-entry 和 commit preflight 必须检查完整 cached name/stat；无关 staged 内容不得混入本轮，也不得在归属不明时擅自 unstage。若治理允许且归属明确，可先安全保存到所属 WIP；否则暂停并询问用户。
 
-统一脚本 `system/scripts/clean_knowledge_eol_dirty.ps1` 只处理 tracked knowledge Markdown 的 LF/CRLF-only worktree dirty state，不忽略普通行尾空格、Markdown 双空格或 Tab。exit code `0` 表示清理流程成功，`1` 表示 substantive/mixed/unsafe 状态仍需按 baseline 和授权范围分类，`2` 表示脚本或 Git 错误并停止写操作。脚本不审批科学修改，也不替代 pending-WIP overlap 判断。
+统一脚本 `system/scripts/clean_knowledge_eol_dirty.py` 只处理 tracked knowledge Markdown 的 LF/CRLF-only worktree dirty state，不忽略普通行尾空格、Markdown 双空格或 Tab。exit code `0` 表示清理流程成功，`1` 表示 substantive/mixed/unsafe 状态仍需按 baseline 和授权范围分类，`2` 表示脚本或 Git 错误并停止写操作。脚本不审批科学修改，也不替代 pending-WIP overlap 判断。
 
 `system/review-history.md` 记录的是已经明确结束的人工审核轮次，不要求任务已经 closed，也不要求已经 push。之后可以说“列出 pending WIP”“继续审核 Sigma-over-I alignment sources”“列出最近完成的 reviews”或“哪些 review 已完成但还没写入论文？”；Codex 应从 queue、handoff、review history 和 Git 状态恢复，而不是把旧 WIP 从 Active handoff 中丢失。
 
@@ -265,7 +265,7 @@ QMD 是 `$wiki-evidence-query` 和普通查询流程可自动调用的底层检�
 
 维护命令（普通单篇摄入不强制每次运行 `embed`；deferred 时复盘说明原因和建议补跑时机）：
 
-```powershell
+```bash
 qmd.cmd status
 qmd.cmd update
 qmd.cmd embed -c nuclear-knowledge
@@ -288,6 +288,13 @@ qmd.cmd embed -c nuclear-knowledge
 
 `knowledge/overview.md` 是阶段性地图，不需要每篇 source 都更新；source、project 和 synthesis 才是主要知识承载。overview deferred 不代表摄入失败。大型 project/synthesis 可维护 `Agent active summary` 作为导航入口，但 active summary 不是 source，不替代 project/synthesis 主体，也不替代原文 locator。
 ## 13. Git and safety / Git 与安全边界
+
+### 90 天持续学习与发布解耦
+
+每日 22:00（Asia/Shanghai）的持续学习任务遵循
+[`continuous-learning workflow`](system/workflows/continuous-learning.md)，周期为 90 天、约 80% 核结构与 20% 相邻核科学。2–3 小时只是督促 checkpoint；主题数、来源数和是否切换问题由里程碑、信息增益、证据质量与资源决定。日/周/阶段记录分别写入 `outputs/learning-daily/`、`outputs/learning-weekly/` 和 `outputs/learning-milestones/`，队列在 `system/learning-queue.md`。
+
+每日任务可运行 `system/scripts/wiki_automation_preflight.py` 验证仓库根目录、配置和受保护 BibTeX 基线。Git 发布前确认 dirty baseline、staged 文件、lint 和远端 ancestry；网络或认证失败时保留本地内容并记录 `content-complete / final-not-pushed`。该检查不替代普通摄入、周测和 L4 人工关口。
 
 - 不要使用不加检查的 `git add .`；应显式暂存目标文件；
 - `raw/`、PDF、论文、数据和图片不得被 Agent 误改或误提交；

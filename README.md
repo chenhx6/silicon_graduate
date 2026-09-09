@@ -2,6 +2,8 @@
 
 本 Wiki 是面向个人科研工作的可追溯知识库，用于积累文献事实、竞争性物理解读、研究决策和失败经验，并支持 Obsidian 浏览、AI 辅助整理与科研写作。
 
+Wiki 工作项目由 Docker 内的终端 Codex 接手，Docker 负责 sandbox 和完整仓库访问。科学证据、原始资料和不可逆 Git 操作仍按本仓库工作约定处理。
+
 ## 当前定位
 
 当前系统是 **Continuous Research-Learning v2（硅基研究生 V2）**：面向低能核结构研究的 Human-in-the-loop research Wiki。它支持 traceable evidence、摄入默认 L2、课题调查型 L3、手动启动且可复现的数据研究型 L4，以及以 P0/P1 为中心的集中审核；ordinary Q&A 保持轻量，正式知识晋升仍由 Human review 控制。
@@ -28,6 +30,7 @@ A≈130 是当前研究锚点，不是 Wiki 的收录边界。v2 的设计决策
 | 知识库规模和健康状态 | [knowledge/overview.md](knowledge/overview.md) |
 | 尚未解决的科研问题 | [knowledge/questions.md](knowledge/questions.md) |
 | 当前阶段计划和用户备忘 | [PLAN.md](PLAN.md) |
+| 90 天持续学习工作流与队列 | [system/workflows/continuous-learning.md](system/workflows/continuous-learning.md) · [system/learning-queue.md](system/learning-queue.md) |
 | 最近一次 Agent 执行交接 | [system/handoff.md](system/handoff.md) |
 | 摄入论文 | [system/workflows/ingest.md](system/workflows/ingest.md) |
 | 查询知识库 | [system/workflows/query.md](system/workflows/query.md) |
@@ -57,7 +60,7 @@ Zotero Wiki Inbox
 
 自动检查命令：
 
-```powershell
+```bash
 python system/scripts/wiki_lint.py --fail-on error
 ```
 
@@ -65,6 +68,8 @@ python system/scripts/wiki_lint.py --fail-on error
 
 文献摄入推荐按“一篇摄入 → 本地 WIP → 用户审核 → amend 为 final → 再摄入下一篇”串行推进，以减少共享知识页重叠。确需并行时可保留多个 pending WIP，但写入前必须检查文件 overlap，并选择合并、依赖或暂缓共享文件。
 
+- Canonical repository: [Gitee `chx6/silicon_graduate`](https://gitee.com/chx6/silicon_graduate)
+- GitHub 若存在仅作为 Gitee 镜像，不承担本库维护或 CI。
 - Citation: [`CITATION.cff`](CITATION.cff)
 - License: [`LICENSE`](LICENSE)
 - Disclaimer: [`DISCLAIMER.md`](DISCLAIMER.md)

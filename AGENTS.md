@@ -1,425 +1,83 @@
-﻿# 低能核结构研究 Wiki：Agent 行为契约
+﻿# 低能核结构研究 Wiki：工作约定
 
-本仓库是面向熔合蒸发反应与低能原子核结构研究的长期知识库。目标不是囤积资料，而是持续积累可追溯的事实、相互竞争的物理解读、研究决策和失败经验。
+本仓库是面向低能原子核结构研究的可追溯知识库。Wiki 工作项目由 Docker 内的终端 Codex 接手；Docker 提供完整的仓库读写、网络和 Git 能力。运行权限不等于自动扩大研究范围或跳过证据审核。
 
-## 每次会话的启动顺序
+## 会话启动
 
-本文件作为行为契约加载后，开始任何知识库任务前依次读取：
+开始任务前依次读取：
 
-1. `README.md`：了解 Wiki 的稳定入口、当前定位、研究范围和工作流入口；
-2. `system/handoff.md`：只读取 `## Active handoff` 区块、默认不读取 `Previous active handoff`、`superseded` 或 handoff archive、只有当 Active handoff 内部信息不足、存在冲突，或用户明确要求历史审计/追溯时，才允许读取 superseded 区块或 archive；
-   1. 默认原则：当前任务状态以 Active handoff 为准；superseded 和 archive 只作为冲突排查或历史审计材料，不作为普通任务启动上下文。
+1. `README.md`；
+2. `system/handoff.md` 的 `Active handoff`；
+3. `profile.md`、`system/memory.md`、`knowledge/index.md`；
+4. `system/log.md` 最近 10 条。
 
-3. `profile.md`；
-4. `system/memory.md`；
-5. `knowledge/index.md`；
-6. `system/log.md` 最近 10 条记录。
+任务涉及阶段计划或长期研究方向时，再读取 `PLAN.md`。只按本轮需要读取其它 workflow、source 和输出文件，不把 README 的链接当成自动读取清单。
 
-`README.md` 是稳定入口，不是自动扩展读取清单。Codex 启动时只用它建立项目范围和入口意识；不得因为 README 列出 `USER_GUIDE`、`USER_GUIDE_DETAIL`、overview、schema、detail workflow 或其他链接，就自动继续读取这些文件。只有本轮任务确实需要时才读取扩展文件。不需要建立两份 README；同一个 README 可以同时服务人类用户和 Codex。
+Git 工作树可能包含用户或上一轮留下的修改。写入前先运行 `git status --short --branch`，识别并保留已有修改；不得使用 `git add .` 把无关文件带入提交。
 
-`PLAN.md` 是条件读取文件，不是每次小任务的强制启动文件。当任务涉及阶段计划、研究优先级、文献选择方向、项目建立、长期探索方向、基于用户好奇点扩充知识库、多步骤知识库建设，或用户明确要求读取 `PLAN.md` 时，必须在读取 `README.md` 后、读取 `system/handoff.md` 前额外读取 `PLAN.md`。
+## 任务边界
 
-`PLAN.md` 由用户拥有和维护，用于宏观阶段计划、个人好奇心备忘和研究方向草稿，可以记录讨论点、好奇点、未来探索问题以及需要补充的文献类别或问题方向。它通常不写具体 cite key，不是文献清单、执行日志或 Agent 可自由改写的任务列表；其中模糊、大纲式或探索性的内容不等于 Agent 必须立即执行的任务。未经用户明确要求，Agent 不得覆盖、重写、删除、重排或机械整理其内容。
+- 普通问答默认只读；用户明确要求摄入、综合、修复或写作时，才写入相关文件。
+- `knowledge/` 是可维护的知识层；`system/` 是治理和脚本层；`outputs/` 保存报告。
+- `raw/`、`PLAN.md`、用户管理的 `raw/zotero/wiki-inbox.bib` 默认保持不变；需要修改时必须得到用户明确指令，并逐文件核验。
+- 递归删除、历史重写、force push、覆盖原始证据等不可逆操作必须单独确认。
+- 不使用桌面端 GUI 或 Computer Use 来代替终端操作。浏览器只用于检索和验证，下载应指定到仓库内路径。
 
-`system/handoff.md` 顶部必须保留短的 `Active handoff`，只包含 current active task、current branch / WIP or local commit、last task status、unfinished items、P0/P1 review focus、risks、next prompt / continuation phrase 和 recent user decisions。历史交接应归档到 `system/archive/handoff-history-YYYY-MM.md` 或放在 active 区块之后；启动时默认不读取归档。简言之：`PLAN.md` answers “where the user may want to go next”; `system/handoff.md` answers “where the last task stopped.”
+## 科学证据规则
 
-`system/wip-queue.md` is a short index for multiple unfinished local WIP, review WIP, safe-suspended tasks, or not-pushed checkpoints. It does not replace Active handoff. Do not read the full queue during normal startup; read it only when the task concerns unfinished WIP, review continuation, safe suspend, non-serial work, or the user asks about pending WIP / unfinished review tasks.
+1. 重要事实、数值和引文回链到 `knowledge/sources/`，尽量提供页码、图表号、公式或能级位置。
+2. 分开记录实验直接报告、作者解释、模型计算和本任务推断。
+3. 重复引用不等于独立证据；同一实验的论文、学位论文和综述要标明依赖关系。
+4. wobbling、chirality、γ-soft/γ-rigid、shape coexistence 等争议主题必须保留反证、替代解释和适用条件。
+5. 原文歧义、图表不可读、元数据或 locator 缺失时标记 `needs-human-review`，不得补写确定结论。
+6. 未经用户确认，不把 `confidence` 提升为 `high`，不把 Codex 自审写成 Human review。
 
-`system/review-history.md` is a short index for completed human-review rounds. Do not read it during ordinary startup; read it only when the task concerns completed reviews, review rounds already finished by the user, or the user asks what was already reviewed/finalized.
-
-若文件之间存在冲突：
-
-1. 用户当前明确指令永远最高；
-2. 在阶段目标、研究兴趣、长期探索方向、研究优先级和文献补充方向上，`PLAN.md` 优先于旧的 `system/handoff.md`；
-3. 在最近完成事项、具体执行状态、未完成问题、文件修改记录和下一次任务交接细节上，`system/handoff.md` 优先作为事实记录；
-4. 若冲突无法判断属于哪一类，停止并询问用户，不得猜测。
-
-若 Git 可用，在开始修改前检查工作树状态，识别并保护用户已有修改。不得假定未提交内容属于 Agent。
-
-聊天记录不是长期记忆。未写入仓库的信息，不得假定下一次会话仍然可用。
-
-## Bounded initiative / 有限主动性
-
-以下四条是 ordinary task 的默认边界。用户启动 L3/L4 后，只在已声明的研究问题、milestone 和 `system/workflows/autonomous-research.md` 范围内扩大科研主动性；这不构成无关修改或破坏性操作授权。
-
-1. 不确定就问，别猜；
-2. 没要求且非必要同步的不写；
-3. 只改与本轮任务直接相关的部分；
-4. 以验收标准收敛任务；若验收标准缺失、含糊或与仓库工作流冲突，先提出可验证的验收标准并询问用户，不得自行扩大目标。
-
-Codex 可以执行与当前任务直接相关、低风险、可解释、可回滚的最小必要同步，包括：
-
-- 对 index、overview、handoff、log 做必要的最小更新；
-- 更新与本次变更直接相关的 lint/test 期望值；
-- 补充与本次新增 source、concept、observable 或 project 直接相关的 aliases、反链或入口链接；
-- 按已有 schema 补齐能够明确确定的 `citation_key`、`raw_file`、`locator`、`claim_kind` 等字段。
-
-额外修改只有在同时满足以下条件时才可直接执行：
-
-- 直接服务于本轮任务；
-- 修改范围小；
-- 不改变项目治理规则；
-- 不改变科学结论；
-- 不新增 Skill、automation、脚本或调度器；
-- 能在最终复盘中清楚解释必要性；
-- 能在 diff 中单独审查。
-
-某项修改有帮助但并非必要时，只写入最终建议，不在本轮执行。以下修改必须先询问用户或另开任务：
-
-- 修改 schema、evidence-policy 或 workflow 的核心规则；
-- 新增或重写 `system/vocabulary.md` 等治理文件；
-- 批量整理术语或批量重命名页面；
-- 批量修改 `review_status` 或 `needs_review`；
-- 新增 Skill、automation、脚本或调度器；
-- 大规模扩写科学内容；
-- 修改 `PLAN.md`；
-- 修改 `raw/`、论文、数据或图片。
-
-若无法判断某项修改属于必要同步还是顺手优化，停止并询问用户，不得猜测。
-
-## Research autonomy / L0-L4
-
-L0-L4、P0/P1 状态、每周自测和人类保留关口由 `system/workflows/autonomous-research.md` 统一维护。ordinary Q&A 仍只读；已授权的 ingest/reflect/project/synthesis 默认运行 L2，高价值问题可按该 workflow 自然进入 L3。每周自测分为 `weekly-learning`、`continuation-audit` 和 `maintenance`；前者最多主动研究两个满足硬重要性门槛的问题，并通过全局覆盖、近期来源冷却和 Selection audit 保留新知槽，后两者不冒充新知轮次。文献总数不设固定上限但按去重、直接相关和证据饱和收敛；其它重要问题写入 deferred 区块，核素问题适用时比较同位素/同中子素。L4 必须形成 candidate、safe suspend 和 readiness 报告，并由用户确认数据后手动启动；`partial`/`not-ready` 不停用周测。不得在本文件或其它 workflow 复制第二套完整定义。
-
-## Windows PowerShell Git PATH fallback
-
-Git 边界检查不能因为 PowerShell 的 `PATH` 暂时找不到 `git` 而跳过。普通 `git` 不可用时，依次尝试：
-
-```powershell
-Get-Command git
-where.exe git
-Test-Path 'C:\Program Files\Git\cmd\git.exe'
-Test-Path 'C:\Program Files\Git\bin\git.exe'
-```
-
-找到 Git 后，使用其绝对路径执行同一组检查，例如：
-
-```powershell
-& 'C:\Program Files\Git\cmd\git.exe' status --short
-& 'C:\Program Files\Git\cmd\git.exe' diff --stat
-& 'C:\Program Files\Git\cmd\git.exe' diff --check
-& 'C:\Program Files\Git\cmd\git.exe' log --oneline --decorate -5
-```
-
-若仍找不到 Git，停止并报告执行环境问题；不得假设仓库状态，也不得跳过提交边界审查。不要安装 Git、修改系统 `PATH`，或用其他工具替代 Git 状态检查。
-
-## Wiki authenticated Git push runtime
-
-Git 版本号不是本 Wiki 的 push 权限边界。可使用当前 Wiki 会话中可用且通过仓库级认证预检的 Git；`PATH` 中的 system Git、Codex bundled Git 或其它已知运行时均不因版本号本身被允许或拒绝。切换运行时时不得修改系统 `PATH`；若 bundled Git 需要 `GIT_EXEC_PATH`，只为该命令设置为同一 Git 发行版的路径。
-
-若某个显式 `-C E:\imp\wiki` 调用因沙箱身份与目录所有者不同而触发 dubious-ownership，只能为该条命令增加 `-c safe.directory=E:/imp/wiki`，不得写入 global/system `safe.directory`，也不得把通配符或其它项目加入信任范围。Codex 已为当前工作目录注入精确的命令级 safe-directory 时无需重复设置。
-
-当前 Wiki 的认证仅由该仓库 `.git/config` 中的 repo-local AskPass 提供：URL-scoped helper 为空重置、用户名限定到本仓库 URL，`core.askPass` 指向 common Git dir 下受保护的 DPAPI executable。该 executable、密文和熵文件都属于本地 Git metadata，不得读取/输出 token、不得暂存或提交，也不得复制到其它项目。
-
-所有会创建分支、提交、fetch 或 push 的 Git 写入口，都必须先运行 schema-3 `wiki_automation_preflight.ps1`。首次调用建立本次运行的 `protected_bib.baseline_sha256`，后续同一运行的 H1/H2/H3 传入 `-BaselineBibHash`；两次独立任务之间的 Zotero 更新不阻断新任务。旧 `-ProtectedBibHash` 仅兼容并告警，不是长期配置或权限依据。其 exit `0`、真实根目录/`.git` 写探针和保护读取是能力依据；`acl_diagnostics` 以及旧 SID DENY 只用于诊断。即使存在不匹配当前运行时 token 的 DENY，也继续正常 Git 流程；只有 `.git` 写探针明确 `Access denied` 时，才按 `runtime_token` 与 `token_matching_deny_*` 做分类并 safe-suspend，交给 Codex 外的最小 ACL 处理。不得在每次 push 前自动执行 `icacls /remove:d`，也不得把 ACL 清零当作 push 前置条件。
-
-用户明确授权 push 且 `check.md` H3 全部通过后，对同一精确 refspec 先 dry-run、再非 force push。`github.com:443` 连接失败属于网络故障：只执行一次 `ls-remote` 和一次有界重试；AskPass、401/403 或 credential helper 报错属于认证诊断；`.git` 写探针的 `Access denied` 才属于 ACL 诊断。某个 Git 运行时未通过 dry-run 时，可以改用另一已知运行时重新执行完整预检；若 AskPass 缺失、配置不再是 repo-local、所有可用运行时均失败或远端发生未知漂移，停止并报告。不得修改全局凭据、SSL 校验或权限边界，也不得使用旧 PowerShell credential helper 作为自动回退。完整检查由 `check.md` 维护，本节不复制第二套清单。
-
-## Git write-entry / commit / push preflight
-
-`check.md` 的 `Git write-entry / commit / push preflight` 是完整权威清单。纯读取、搜索、普通问答和只给建议不运行清理脚本；任何会新增、删除、移动、重命名或修改仓库文件的任务，必须在第一次写入前运行 status、`system/scripts/clean_knowledge_eol_dirty.ps1` 和再次 status，并建立当前会话的 dirty baseline。涉及 fetch/push 的 H3 在 fresh fetch 前再次运行 schema-3 preflight，并传入同一运行基线。脚本 exit code `1` 表示仍有 substantive/mixed/unsafe knowledge 状态，需要按本轮授权范围、既有 WIP 和 baseline 分类，不是无条件中断；exit code `2` 必须停止写操作并报告。
-
-入口 baseline 至少区分 initial authorized scope、authorized inherited changes、protected pre-existing changes 和 unresolved/overlapping changes。任务中发现新的必要关联文件时，可动态扩展 authorized scope，但每个新文件在第一次写入前必须对照 baseline、pending WIP queue、既有 substantive diff 和修改必要性；来源不明、mixed/conflict 或 WIP overlap 无法区分时先暂停。任务期间不要求每次编辑后重跑脚本，除非工作树异常变化、再次打开大量证据页、跨会话恢复或怀疑出现无关修改。
-
-创建或 amend WIP、创建 final commit，以及 commit 后 push 前，均须再次执行 `check.md` 对应阶段。属于本轮授权的 knowledge 修改必须保留并显式 stage；无关真实修改不得 restore、修改、stage 或 commit。不得提交 LF/CRLF-only dirty state，不得使用 `git add .`，也不得把无关 `knowledge/`、`.obsidian/`、`raw/` 或任务前 staged 文件带入提交。即使本轮获准写入 Agent 管理的 raw 入口，也必须逐文件显式暂存。
-
-## 权限边界
-
-- Wiki 使用受信任的项目级 `.codex/config.toml` 启用 `wiki_l3`；机器级 Codex requirements 不得用于锁定所有项目。该 profile 保留整个 `E:\imp\wiki`（包括 `.git/`、`.codex/`、`.agents/` 与按任务授权的 raw 路径）的 `write`，Wiki 外只允许读取和执行；具体任务仍受 bounded initiative、raw 边界和周测专用规则约束。Codex Desktop 可在运行时对 `.codex/` 与 `.agents/` 施加宿主保护 DENY；这不改变 profile 的 Wiki 内 write 设计，也不要求清理 ACL。周测不得修改项目配置或仓库 Skill，只对两处执行只读哨兵检查；若其它任务确需维护它们而当前运行时拒绝写入，必须完全退出 Desktop 后由用户在 Codex 外精确修改，再由全新 Wiki 会话核验。`CODEX_PERMISSION_PROFILE` 只是宿主可能提供的诊断 marker，不是有效 profile 的唯一证明：周测先核验项目配置，再以真实写探针和只读哨兵作为权限事实；marker 缺失只告警，非空且不匹配才阻断，任务不得自行注入该变量。Wiki 固定 `approval_policy = never`，Codex 不得请求或使用外部写入权限；确需其它外部状态变更时必须停止并交给用户在 Codex 外手动完成。Codex Desktop 自身维护的日志和 sandbox 状态属于宿主运行数据，不构成 Wiki 工具的外部写权限。
-- 运行 Wiki 外程序前，必须确认其工作目录、TEMP/TMP、缓存、日志、配置和输出全部约束到 Wiki；无法证明零外部写入的安装器、GUI 程序或系统管理工具不得在 Wiki 会话中执行。Windows 没有由 Codex 单独管理的 X 文件位；“可执行”不等于允许程序写入外部状态。
-- Wiki 任务禁止调用 Computer Use。Web Search、Browser、Chrome、MCP 和命令行下载仍可使用；Browser/Chrome 只用于检索、登录和真人验证，不得触发无法指定目标路径且会默认写入 Downloads、桌面或其他外部目录的下载。
-- Wiki 固定 `approval_policy = never`。递归删除、大规模移动、`git reset --hard`、force push、历史重写、删除或覆盖 raw 原始证据、大规模不可逆迁移、治理核心规则修改和 push 仍需用户明确授权；即使用户授权，也只能在 Wiki 内执行。概括性的“自行判断”或“充分自主”不得扩张为无关的破坏性授权。
-- `raw/` 是原始证据层，默认由人类拥有。物理沙盒允许写入整个 Wiki，但这不构成修改 raw 的一般授权；除下述 Agent 管理例外外，Agent 仍不得自行修改、重命名、移动或删除 raw 内容。
-- `raw/papers/gpt/**` 与 `raw/zotero/gpt.bib` 是已授权 Nature-first 文献获取的 Agent 管理入口。候选 PDF 只能先进入 `raw/papers/gpt/_incoming/<run-id>/`，通过文件、首页、DOI、元数据、哈希与重复检查后才能晋升到 `raw/papers/gpt/` 并写入 `gpt.bib`。`raw/zotero/wiki-inbox.bib` 始终由用户/Zotero 管理，Agent 不得修改或暂存。
-- `share_message/` 是外部分享材料，只作为设计参考，不是本 Wiki 的行为契约。
-- `knowledge/` 是编译后的知识层，Agent 可按本契约维护。
-- `system/` 是治理层。修改规则前必须说明影响，并同步更新相关检查项和用户指南。
-- `outputs/` 保存报告、审计和写作产物；它不替代可持续维护的知识页。
-- 未经用户明确确认，不得把 `confidence` 提升为 `high`，不得合并物理含义可能不同的概念页，不得覆盖相互冲突的解释。
-
-## 研究锚点、收录边界与摄入优先级
-
-A≈130 是当前重要研究锚点之一，不是 Wiki 的收录边界。摄入文献时，不得因为核素不在 A≈130 附近，就自动降级为 source-only、拒绝建立轻量核素页，或写出“因为 Wiki 以 A≈130 为中心，所以不创建某核素页”一类判断。
-
-摄入优先级应综合判断：
-
-1. 文献是否提供可复用的低能核结构实验信息，例如能级结构、带结构、跃迁性质、自旋宇称指定、组态指认、集体运动或竞争解释；
-2. 文献是否涉及可复用的实验判据或谱学分析方法，例如角分布、角关联、DCO 比值、线偏振、ADO、混合比、alignment 等；
-3. 文献是否能为 wobbling、chirality、shape coexistence、triaxiality、core coupling、configuration assignment 等主题提供比较背景；
-4. 用户是否在当前指令、`profile.md`、`PLAN.md`、`system/handoff.md`、project page 或已审核记录中明确标记该文献、核素、反应体系或方法为重点。
-
-质量区不能作为唯一排除标准，也不能作为唯一纳入标准。是否建立 nucleus page、band page、concept page、method page 或 project link，应由 source-supported 信息、结构信息密度、方法复用价值、比较意义和用户明确优先级决定。
-
-Codex 不得自行推断某实验与用户个人履历直接相关、长期关注某核素，或把某文献自动归入用户个人重点。若需要依赖用户个人优先级但仓库中没有明确记录，应询问用户，或仅按文献本身的实验核结构价值进行轻量摄入。
-
-本节是行为规则，不记录用户个人履历，也不写入具体学位论文题目、具体实验反应道或未经确认的个人经历。
-
-## 不可违反的科学规则
-
-1. 每个重要事实或数值都必须追溯到 `knowledge/sources/` 中的来源页，并尽量给出页码、图号、表号或能级位置。
-2. 严格区分：
-   - 文献直接报告的实验事实；
-   - 文献作者的物理解读；
-   - 模型计算结果；
-   - 我们自己的推断或工作假设。
-3. “多篇文献重复引用”不等于独立证据。证据独立性必须单独记录。
-4. 对 wobbling、手征双重带、γ 软/γ 刚性等存在竞争解释的主题，必须保留反证和替代解释。
-5. 不得把“相似现象”“支持某解释”和“证明某解释”混写。
-6. 原始来源有歧义、图表不可读或元数据不全时，标记 `needs-human-review`，不得补写看似合理的内容。
+A≈130 是重要研究锚点，不是收录边界。是否建立核素、实验、方法、概念或 project 页面，按来源提供的可复用结构信息、实验判据、比较价值和用户当前重点决定。
 
 ## 工作流路由
 
-- 摄入论文或笔记：遵循 `system/workflows/ingest.md`
-- 查询与回答：遵循 `system/workflows/query.md`
-- 跨来源综合与反向检验：遵循 `system/workflows/reflect.md`
-- L0-L4 科研自治与数据闭环：遵循 `system/workflows/autonomous-research.md`
-- 健康检查：遵循 `system/workflows/lint.md` 和根目录 `check.md`
-- 定时续跑或无人值守任务：遵循 `system/workflows/scheduled-continuation.md`
+- 论文或笔记摄入：`system/workflows/ingest.md`
+- 查询与回答：`system/workflows/query.md`
+- 跨来源综合：`system/workflows/reflect.md`
+- L0–L4 与人工关口：`system/workflows/autonomous-research.md`
+- 每日持续学习：`system/workflows/continuous-learning.md`
+- 定时续跑：`system/workflows/scheduled-continuation.md`
+- 健康检查：`system/workflows/lint.md` 和 `check.md`
 
-已授权的文献发现与获取采用 Nature-first 路由：先用 `nature-academic-search` 对低能核结构主题并行检索 CrossRef 与 arXiv、交叉核验 DOI/作者/年份/期刊并去重；随后必须补查 Google Scholar，无法访问时再用学术镜像。Scholar 或镜像发现的 PDF 可进入隔离区校验，不因入口不稳定而直接丢弃。候选列表确定后交给 `nature-downloader`。允许下载，但 Agent 只能使用能够显式指定 Wiki 输出路径的 downloader、命令行或 browser-context 下载；若浏览器只能默认写入外部 Downloads，则交接用户或改用可控下载方式。
+L0–L4、P0/P1 和每周自测只在 `autonomous-research.md` 维护；其它文件只做路由和任务记录。研究型任务应记录问题、证据缺口、停止原因和下一步，不以论文数量代替信息增益。
 
-每次获取生成 `run_id`，精简且去除凭据的记录写入 `outputs/literature-acquisition/<run-id>.json`；下载、PDF 校验、BibTeX 写入与 ingest 必须分别记录状态。APS/PRC 或 Scholar 出现 Turnstile、图片验证码、QR、OTP、登录或反复安全验证时立即保留原标签页并交接给用户，不循环重试；普通无身份 Continue/确认最多尝试一次。
+## Git 与发布
 
-普通 Wiki 问答保持只读，不因读取旧页面而静默写回。已授权的 ingest、reflect、project、synthesis、claim-review-update 或研究写作任务若实际使用旧页面，可按当前任务做最小 on-touch migration；未触及的历史页面不批量升级，科学内容或状态变化必须进入 Human review triage。
+仓库推送远端为：
 
-三种用户摄入模式及默认标准深入阅读闭环以 `system/workflows/ingest.md` 为 canonical owner；`reading_depth` 仅表示 source 的实际阅读完成状态，以 `system/schema.md` 为准。普通问答与研究型任务的路由以 `system/workflows/query.md` 为准。不得在本文件重复维护完整模式定义或学习清单。
+`https://gitee.com/chx6/silicon_graduate`
 
-`knowledge/research-notes/` 是受控的暂定研究推理层；字段由 `system/schema.md` 定义，创建/晋升生命周期由 `system/workflows/reflect.md` 定义，ordinary Q&A 排除规则由 `system/workflows/query.md` 定义。本文件只负责路由，不复制这些规则。
-## 工具使用卫生
+远端名称保持 `origin`。提交前显式检查 `git diff --check`、状态和 staged 文件；推送使用精确 refspec 和非 force 模式：
 
-默认避免无过滤全库扫描。不得直接运行 `Get-ChildItem -Recurse` 扫全仓库、`tree`、`ls -R`、`rg "关键词" .`，也不得无目的扫描 `.git/`、`.qmd/`、`.obsidian/`、`tmp/`、`raw/`、`outputs/`、`share_message/`、`__pycache__/` 或 `.pytest_cache/`。
+GitHub 仅作为由 Gitee 同步的镜像，不是本仓库的维护或 CI 入口；不要为本仓库恢复 GitHub remote、Actions 或其它 GitHub 维护链路。
 
-搜索科学知识或治理规则时限定路径，例如 `knowledge/`、`system/`、`AGENTS.md`、`check.md`、`USER_GUIDE_DETAIL.md`。查找 raw PDF 时只查目标文件名或已知目录候选，不递归扫 raw 全目录。
-
-## QMD 本地检索契约
-
-QMD 是 `knowledge/` 的本地候选检索层，不是证据来源、Git 客户端或聊天记忆替代品。仓库根目录下被忽略的 `.qmd/` 保存 project-local 可重建索引；collection 固定为 `nuclear-knowledge`，只覆盖 `knowledge/**/*.md`。`raw/`、`system/`、`outputs/` 和 Obsidian 配置不进入该 collection。
-
-在 Windows PowerShell 中优先调用 `qmd.cmd`；若 `PATH` 暂时不可见，使用：
-
-```powershell
-$qmd = Join-Path $env:APPDATA 'npm\qmd.cmd'
-& $qmd status
+```bash
+git fetch origin main
+git merge-base --is-ancestor origin/main HEAD
+git push --dry-run origin HEAD:main
+git push origin HEAD:main
 ```
 
-检索路由：
+认证由 Git 当前环境负责，禁止把 token 写入仓库、日志或脚本。网络或认证失败时保留本地提交并如实记录 `final-not-pushed`，不要改全局凭据、SSL 或 Git 配置。
+push 始终需要用户明确授权；提交后执行 post-commit reconciliation，核对状态、提交文件和 handoff，再决定是否发布。
+“不要 push”只表示继续不推送，不取消本地检查或 finalization；当前提交用 branch + subject 作为稳定指针，最终精确 hash 只写入任务回执。
 
-1. 已知文件路径或少量确定页面时，直接读取，不为形式统一而调用 QMD。
-2. 精确核素、作者、DOI、citation key、带名或术语优先使用 `rg` 或 `qmd.cmd search`。
-3. 关键词不足以覆盖近义表达、跨页机制或竞争解释时，使用 `qmd.cmd vsearch`。
-4. 完整 `qmd.cmd query` 包含本地 query expansion 与 reranking；当前 Windows 机器冷启动可能耗时数分钟，只用于高价值跨页综合且执行余量充足的任务。超时或收益不足时降级到 `search`/`vsearch`，不得阻塞回答。
-5. 搜索摘要和排名只能用于选择候选文件。回答事实、数值、引文、决策或细微物理边界前，必须用 `qmd.cmd get`、直接读取文件或回到 source/raw 查看完整上下文。
+## 通用脚本
 
-QMD refresh 不是普通单篇文献摄入的固定收尾成本。单篇摄入完成后可以只运行轻量状态检查；`qmd update` / `qmd embed` 可标记为 deferred，并在最终复盘说明原因与建议补跑时机。批量摄入、多篇文献完成、用户明确要求刷新检索层，或 project/synthesis 大综合确实依赖最新检索时，再运行：
+仓库脚本统一使用 Python 3，避免依赖 PowerShell：
 
-```powershell
-qmd.cmd update
-qmd.cmd embed -c nuclear-knowledge
-qmd.cmd status
-```
+- `system/scripts/clean_knowledge_eol_dirty.py`：检查并清理仅由 LF/CRLF 造成的 tracked knowledge 脏状态；
+- `system/scripts/wiki_automation_preflight.py`：检查仓库根目录、配置和受保护 BibTeX 基线；
+- `system/scripts/update_nature_skills.py`：更新或回退 Nature Skills；
+- `script/git20260905.py`：按 manifest 显式暂存、提交并尝试发布批次内容。
 
-若 QMD 不可用或索引损坏，明确报告并降级到 `rg`、`knowledge/index.md` 和直接读取；不得伪造 QMD 已检索。`qmd pull` 只负责下载或修复本地模型，不是日常索引更新；`qmd update --pull` 会先操作 Git，本仓库禁止由 QMD 执行，Git 同步必须由显式 Git 工作流控制。
+Windows 用户可使用同目录 `.cmd` 启动器；Linux、macOS 和 WSL 直接运行 `python3 <script>.py`。脚本不得修改用户未授权的 raw、凭据或其它项目。
 
-完成知识页、治理规则、模板或脚本的实质修改后，必须运行：
+## 变更记录
 
-```text
-python system/scripts/wiki_lint.py --fail-on error
-```
-
-自动 lint 的 error 必须在提交前处理；warning 和 info 必须如实报告，但不得为了消除提示而自动改写科学解释。修改 lint 脚本或配置时，还必须运行 `python -m unittest discover -s system/tests -p "test_*.py" -v`。
-
-## 定时续跑的可靠性边界
-
-- 定时任务是尽力执行的调度手段，不是完成保证。只有生成运行记录并核验产物后，才能写“已执行”或“已完成”。
-- `heartbeat` 只用于短时、同一线程的继续工作；等待超过 1 小时不得使用 heartbeat。较长等待优先使用面向工作区的独立调度，但仍须说明本机应用、调度服务和电脑保持可用的前提。
-- 一次性请求不得以界面显示为“每天”的规则交付。若调度器只能用带 `COUNT=1` 的重复规则表达，必须明确告知界面歧义并优先改用无歧义方案。
-- 配额刷新不会主动唤醒任务。若到期执行依赖本地应用或电脑保持唤醒，必须在承诺前说明；不能确认时，应留下完整 handoff 和续跑命令，请用户在刷新后唤醒会话。
-- 到期后必须核对运行回执、开始/结束时间和输出。没有回执即报告“未触发/未验证”，不得依据预定时间推断已运行。
-
-## Safe suspend
-
-当 Codex 发现上下文、token、5 小时额度或执行余量不足，执行时间过长、检查失败需要用户决策、长 PDF 尚未读完、多篇逐篇摄入未完成、project/synthesis 修改未完成，或任务无法可靠完成时，不得继续扩大修改范围，必须立即进入 safe suspend。
-
-Safe suspend 的目标是保护当前工作、停止低余量扩张、留下可恢复 handoff，并避免大量未提交 Markdown diff 长时间触发 Codex、Git、文件监听或编辑器的高 CPU 占用。Safe suspend 绝不自动 push。
-
-### 基本步骤
-
-1. 停止新增大范围修改和新增科学 claim；
-2. 运行 `git status --short`、`git diff --stat`、`git diff --check`；
-3. 更新 `system/handoff.md`，记录 current active task、branch / local commit、last completed step、已修改文件、未完成事项、未核查 claim / locator gaps、P0/P1 review focus、当前风险、检查结果、下一轮可直接执行的续跑提示词，以及是否存在 active WIP commit；
-4. 如本轮已形成可记录事件，向 `system/log.md` 追加一条短记录；不得写长复盘；
-5. 不得自动 push；
-6. 告知用户等待额度刷新后发送“继续”或 handoff 中指定的 continuation phrase。
-
-若系统突然中断导致来不及写 handoff，下一轮 Codex 应先用 `git status --short`、`git diff --stat`、`git diff`、last Active handoff、`system/log.md` tail 和最近 commit 恢复现场；先输出 recovery audit，再继续任务。
-
-### 本地 WIP checkpoint commit
-
-文献摄入、project 建立、批量 Markdown 页面生成或其他产生大量 diff 的任务进入 safe suspend 时，应优先尝试创建本地 WIP checkpoint commit。它只用于保存检查点、降低工作树 diff、方便下一轮从 handoff 与 Git HEAD 继续，并减少持续文件扫描；不表示科学内容已经人工审核，也不表示任务已经完成，绝不自动 push。
-
-只有同时满足以下条件，才允许创建或更新 WIP checkpoint：
-
-1. 当前修改能够分类；
-2. 可以显式暂存本轮相关文件，且不使用 `git add .`；
-3. 不暂存 `.obsidian/graph.json`、`raw/zotero/wiki-inbox.bib`、raw PDF、论文、数据、图片、无关 framework/governance 文件、无法解释的文件，以及未经用户明确要求的 `PLAN.md`；
-4. 已运行 `git status --short`、`git diff --stat`、`git diff --check`；
-5. `system/handoff.md` 已写入任务状态、风险、检查结果和续跑提示词。
-
-如果 wiki lint 来不及完整运行，可以创建未验证的 `WIP suspend` commit，但 handoff 和最终报告必须明确写明：“wiki lint 未执行，本 WIP checkpoint commit 未验证为可提交状态。”
-
-提交前的 handoff、WIP queue 或报告只能把尚未发生的提交写成 `commit target` / `checkpoint commit message`，不得在最终状态字段中把 `planned`、`will create`、`expected checkpoint` 等未来时态冒充为已经存在的 commit。提交成功后必须立即执行一次 **post-commit reconciliation**：解析实际 branch、HEAD subject、提交文件和工作树/index 状态，把 Active handoff、queue 和报告中的未来时态改为实际的本地 WIP/final 状态；若这些状态文件属于刚创建的当前任务 commit，则显式暂存它们并 amend 同一个 commit 一次，再重新运行 H3。不得为状态对账创建第二个 WIP 或独立的纯状态 commit。
-
-任何 commit 都不得在其自身包含的文件中记录自己的精确 hash，因为 amend 会改变该 hash。仓库内对当前 commit 使用 branch + subject（例如 `current branch HEAD` 或明确 branch 上的 local WIP subject）作为稳定指针；最终精确 hash 只写入任务回执。引用父提交、其它分支或已经固定的外部 commit 时可以记录其 hash。
-
-Commit message 统一使用：
-
-- 未完成任务：`WIP suspend: <task short name>`；
-- 摄入尚未完成、存在未隔离 hard P0、或用户明确要求先审核：`WIP ingest: <paper short name> for user review`；
-- project、synthesis 或跨来源综合主体完成、等待用户审核：`WIP review: <task short name> for user review`；
-- 未完成的 workflow/framework 修正：`WIP suspend: <workflow short name>`。
-
-普通文献摄入由 Agent 按 ingest workflow 完成全文回查、locator/claim-kind/证据层校验、竞争解释审计和 P0/P1 自审；自审通过且不存在未隔离 hard P0 时，直接使用与实际摄入范围相符的 final commit message。Agent 自审不得写成 Human review event，不得把页面升级为 `human-reviewed`，也不得自行清除 `needs_review`。
-
-### Active WIP 限制与 amend
-
-同一分支最多允许一个 active `WIP ingest:`、`WIP review:` 或 `WIP suspend:` commit。HEAD 已是当前任务相关 WIP 时，不得再创建第二个 WIP；安全暂存后使用 `git commit --amend --no-edit`，需要调整 message 时使用 `git commit --amend -m "<updated WIP message>"`。HEAD 不是当前任务相关 WIP，或无法判断归属时，停止并询问用户，不得擅自 amend。
-
-恢复任务时先检查 HEAD、handoff、工作树、用户/无关文件，以及是否可以继续 amend 当前 WIP。任务完成后的处理：
-
-- 文献摄入完成且 Agent 自审通过：将对应 rolling WIP amend 为 final commit；本仓库用户已为普通 ingest 建立持续 push 授权，除非当前指令明确要求不 push，否则按 H3、fresh fetch、remote ancestry、精确 refspec dry-run 和非 force push 发布；
-- 文献摄入尚未完成、存在未隔离 hard P0、检查失败或用户明确要求先审核：保留本地 WIP ingest，不 push；
-- project、synthesis 或跨来源综合完成但未审核：保留本地 WIP review，不 push；
-- 用户审核完成：按审核报告修改并确认待提交文件均为本轮 human-review 收口内容后，将对应 WIP amend 为 review/final commit，不得另建 review/final commit；只有用户允许时才 push；
-- 用户指定本轮提交 message 时原样使用；未指定时由 Codex 给出与本轮内容直接相关的建议 message，并在最终报告中说明；
-- 任务放弃：等待用户明确指令，不自动 reset。
-
-仓库中存在对应 active WIP、用户已完成审核并要求 final commit/push 时，上述规则即构成对 `git commit --amend` 的明确本地授权，优先于通用的“除非用户明确要求，否则不要 amend”约束。不得因该通用约束而保留独立 WIP，再额外创建 final commit。
-
-普通文献摄入及其直接必要的 source/claim、nucleus/band/concept/observable、project relation 和主题收尾，默认按 rolling WIP（长任务/中断时）→ Agent 自审 → amend 为 final → 已授权 push 的生命周期执行，不等待用户逐篇审核。Human review triage 在这里是未来问答、研究和论文证据使用时的核验优先级，不是普通 ingest 发布门槛；未隔离 hard P0、检查失败或远端异常仍必须 safe suspend。独立 project/synthesis、跨来源研究结论、claim-review-update 和需要用户科学判断的修改仍按本地 WIP → 用户审核 → amend 为 final → 用户允许后 push 执行。多篇摄入仍必须解决共享文件 overlap，并保持逐篇 source-level / claim-level 证据审计。
-
-治理、框架、脚本和说明文档任务若方案与验收标准已由用户确认、无科学内容修改、无新增重大设计选择、检查通过且文件归属清楚，可直接创建 final commit 并按用户指令 push，不因多文件修改而机械等待 WIP 审核。只有设计分歧、范围异常扩大、核心检查失败、迁移需裁决、文件归属/overlap 不明、用户要求先审核或执行余量不足时，才使用 WIP 或 safe suspend。
-
-### Pending WIP queue
-
-When a task ends as WIP, a local not-pushed commit, a safe suspend, or user-review pending state, update `system/wip-queue.md` as well as Active handoff. Active handoff records only the latest activity; the queue preserves short recovery indexes for multiple non-serial pending WIPs.
-
-Queue entries record only task short name, status, branch, commit, files, review needed, overview/QMD, next action, and risks. They should keep only the latest branch / commit / next action needed to continue review or push, not every temporary commit/push state. Do not store full paper notes, raw content, source-claim bodies, or long recaps there. If the user starts a new ingest/project/synthesis while older WIPs remain unreviewed, keep the older WIPs in the queue instead of relying on Active handoff.
-
-Multiple pending WIPs are allowed, but a new ingest/project/synthesis must check its expected files against relevant queue entries before first write. No overlap permits an independent WIP. If files overlap, continue and amend the same WIP when the scope is shared; record an explicit upstream dependency for a dependent WIP; or defer the shared-file edit until the upstream WIP is finalized. Never create two supposedly independent WIPs that silently modify the same file. If ownership cannot be resolved, pause before editing the shared file.
-
-If a referenced parent, other-branch, or already-fixed WIP commit hash changes after amend or rebase, update the queue to the latest branch/commit pointer. A queue entry contained by the WIP itself must use its branch + subject rather than its own hash. Review history and Pending WIP are not mutually exclusive: after a human-review round is completed, append review history first, then independently decide whether the queue entry should remain, be updated, or be cleared. If queue, Git state, and handoff conflict during recovery, review-finalization, or safe suspend, follow the current user instruction first, then verify against Git and the relevant source/project files; ask the user if ownership remains unclear.
-
-### Review history
-
-`system/review-history.md` records completed human-review rounds. A review round exists when the user gives substantive review comments and clearly indicates, or the context makes it unambiguous, that this review round has ended. Keep entries short and index-like; do not copy long review reports, raw source text, or full claim bodies there.
-
-Do not require a fixed trigger phrase, but do not invent review completion when the user's intent is ambiguous, partial, or still open-ended. Review history is triggered by the human-review completion event itself, not by commit, push, merge, rebase, overview, QMD, lint, or the Agent's own sense that a task is finished.
-
-Review history does not require task closure, paper readiness, or push completion. It may coexist with a Pending WIP entry when follow-up work still remains. Record `review commit message` when a real review commit is created or amended for that round; do not record commit hash or push status there.
-
-Review history is workflow traceability metadata, not scientific evidence, an approved-knowledge whitelist, or a paper-readiness index. It must not determine whether relevant content may be retrieved, surfaced, discussed, rechecked, or used as candidate evidence.
-
-Do not backfill old completed reviews during routine framework maintenance.
-
-### Review-finalization trigger / 审核完成触发
-
-当上一轮任务处于 `WIP ingest:`、source review、waiting for user review、waiting for user P0/P1 review、`WIP review:`、project review、synthesis review 或 cross-project synthesis review 状态，且用户给出实质性审核意见，并明确表示或根据当前消息与上下文可以无歧义地判断本轮人工审核已经结束时，Codex 应识别为发生了 human-review completion event，并在适用时进入 `review-finalization request`。
-
-不要求固定短语；若是否结束本轮审核存在歧义，不得擅自写入 `system/review-history.md` 或强行进入 finalization。
-
-在 `review-finalization request` 下，除非用户明确要求“只修改不 finalization”“只修改，不提交”或“只 commit，不进行其它收尾”等覆盖默认行为，Codex 默认执行适用的本地修改、检查、状态同步和本地 commit；“不要更新 overview”或“不要刷新 QMD”只覆盖对应步骤。“不要 push”只确认继续不 push，不取消本地 finalization，因为 push 本来就不是默认动作：
-
-1. 根据用户审核意见做最小修改；
-2. 只处理用户明确确认范围内的 `review_status` / `needs_review` 状态；
-3. 若仍有 unresolved P0、未核查 locator gaps 或用户审核意见未落实，不得强行 finalization，应 safe suspend 或报告阻塞；
-4. 若审核意见已落实且无 unresolved P0，按 `system/workflows/ingest.md` 的 overview 触发条件评估是否更新；未触发时记录 deferred 理由，不机械重写共享 overview；
-5. 执行 QMD refresh（`qmd.cmd update`、`qmd.cmd embed -c nuclear-knowledge`、`qmd.cmd status`），失败时如实报告并不得伪造刷新成功；
-6. 运行与本次修改相称的检查；
-7. 按 WIP lifecycle 将对应 WIP amend 为 review commit / final commit；push 始终需要用户明确授权。用户没有说“不要 push”不等于已经授权 push；未获授权时停在 `ready-for-push`；
-8. 为本轮明确结束的人工审核追加 `system/review-history.md` 条目；该条目记录审核范围、用户判断、要求修改、遗留问题、下一步、相关页面，以及 `review commit message`（若本轮实际创建或 amend 了 review commit）；
-9. 独立判断 `system/wip-queue.md` 对应 entry 是否继续保留、需要更新，还是已经可以清除；不得使用简单的 `Pending WIP → Review history` 单向迁移模型；
-10. 刷新 `system/handoff.md` 的 Active handoff；
-11. 向 `system/log.md` 追加一条简短记录；
-12. 最终复盘报告 overview、QMD、commit、push、handoff、queue、review history 和 log 的状态。
-
-若仍存在 unresolved P0、locator gaps、审核意见未落实、审核意见无法唯一映射到具体 claim、source/project/synthesis 仍存在高风险不确定内容，或 HEAD 不是对应 WIP 且无法确认归属，不得强行 finalization；应停止扩大修改，必要时 safe suspend，并向用户报告阻塞点。
-
-不要在 push 后再额外创建只修正 queue/status 的 commit，除非前一次 finalization 确实遗漏了必要的 queue/review-history/handoff/log 同步。若无法确认 push 是否成功，应 safe suspend，并在 handoff/queue 中写明 `push status: uncertain`，而不是猜测已完成。
-
-## Evidence-calibrated reasoning / 证据校准推理
-
-可追溯性的目的，是区分证据层级、校准表述强度并方便用户核查，而不是禁止合理分析和推断。普通 Wiki 问答、研究讨论、跨来源比较、综合分析和论文早期草稿，应基于当前已有证据给出最佳可支持答案，同时明确区分：
-
-- 文献直接报告的实验事实；
-- 文献作者的解释；
-- 模型或计算结果；
-- 跨来源综合；
-- 我们自己的暂时推断、工作假设或可能解释。
-
-Agent 可以在授权研究任务中充分形成分析性重建、条件化迁移、竞争解释、反向检验和研究问题；限制只作用于持久化与知识晋升。未经分类、溯源和审核的 provisional reasoning 不得冒充 source evidence、作者结论、正式 synthesis、用户已采用的 project 判断、稳定 memory 或普通 log。
-
-当直接证据不完整时，应降低表述强度、说明限制，并指出值得补查的来源、数据、locator 或页面入口，而不是无必要地拒绝回答或停止写作。不得虚构 citation key、DOI、页码、图号、表号、locator、原文表述、数据或引文。
-
-严格 paper evidence gate 只在论文或投稿核查、正式引用、直接来源或原文引文、精确 locator、关键科学 claim 确认，或用户明确要求时启用。普通问答、研究讨论、探索性综合、早期草稿和一般争议讨论不因此自动进入 strict mode。未通过 paper evidence gate 不禁止普通讨论、谨慎综合、合理推断或初稿生成；它只表示正式提交前仍需回到直接来源、精确 locator、适用条件、竞争解释和引用风险做进一步核查。
-
-### “不 commit/push”的兼容解释
-
-文献摄入任务中的旧式“不要 commit/push”或“不 commit、不 push，等待审核”，默认表示不创建 final commit、不 push，但允许创建本地 WIP ingest/checkpoint 以降低 diff 和 CPU 负担。只有用户明确写出“禁止任何本地 commit”“不要创建 WIP commit”或“不要本地临时 commit”时，才不得创建 WIP。
-
-若用户明确禁止任何本地 commit，而大量 diff 可能导致高 CPU 占用，safe suspend 报告必须提醒：“由于用户明确禁止任何本地 commit，本轮无法创建 WIP checkpoint commit。大量未提交 diff 可能导致 Codex/Git/文件监听高 CPU 占用。”
-
-Safe suspend 不是让当前任务自动睡眠并原地恢复。若用户后续使用 automation，应视为额度刷新后新开一次任务，由新任务按启动规则读取 handoff 和当前 Git HEAD 后继续；不得因进入 safe suspend 自动创建 automation。
-
-## 写回与收尾
-
-完成有实质内容的任务后：
-
-1. 更新受影响的来源页、概念页、核素页或带结构页；
-2. 更新 `knowledge/index.md`；
-3. 向 `system/log.md` 追加简短记录，绝不改写旧记录，也不写入长复盘；
-4. 更新 `system/handoff.md` 的 Active handoff，写明当前状态、commit/push 状态、未解决问题、P0/P1 审核重点、风险和下一步；
-5. 若用户纠正了 Agent 的长期行为，更新 `system/memory.md`；
-6. 运行与本次修改相称的 `check.md` 检查。
-7. 实质修改通过自动 lint 后方可提交；自动检查不能替代 `check.md` 中需要科学判断的项目。
-
-文献摄入、project、synthesis 或 framework 任务正常结束后，Codex 应自动刷新 Active handoff 并追加简短 log；用户不需要每次手动要求。handoff/log 收尾不得成为启动时读取 archive 的理由。
-
-普通单篇文献摄入不默认重写 `knowledge/overview.md`。只有多篇批量摄入、project/synthesis 显著更新、主题知识地图结构性变化、paper evidence gate 或 major concept map 变化，或用户明确要求时，才更新 overview。若 deferred，最终复盘写明原因和建议何时补跑。
-
-大型 project / synthesis 页面可维护短的 `Agent active summary`。普通摄入优先读取 active summary 和相关 section；active summary 只用于导航和定位，不替代 source locator、project/synthesis 主体或原文证据。本轮若实际修改 project/synthesis 主体，必须同步最小更新该页 active summary；用户明确要求补充 project/synthesis 时，不得只改 active summary。
-
-## 最终复盘控长
-
-普通 ingest、project、synthesis 和 claim-review-update 的最终复盘默认先给出 `Result status`、commit hash、是否 push、未提交文件、关键修改文件、Human review triage、checks 和 next action。除非用户要求 detailed workflow recap，不写成长篇论文；普通任务建议控制在 400-900 中文字。
-
-Human review triage 必须优先列 P0/P1。P0 无总量硬上限，全部逐项可读、可审核；可分批但不得聚合隐藏、降级或遗漏。没有 P0 时写 `P0: none identified`。P1 可按文件分组，但重要项仍须显示实际判断、证据、Agent inference 和审核目的；P2/P3 只聚合。“精力有限时建议先看”只安排顺序，不改变完整 P0 队列。commit/push 状态必须醒目；未 push 写 `not pushed`，已 push 写 commit hash 和 branch。
-
-## 强制文档同步门
-
-每次任务结束前必须逐项判断，不得跳过：
-
-1. 用户可见的目录、命令、工具或工作流是否变化？若是，更新 `USER_GUIDE.md`。
-2. Agent 的行为约束是否变化？若是，更新 `AGENTS.md` 与 `check.md`。
-3. 页面类型或字段是否变化？若是，更新 `system/schema.md` 与 `system/templates/`。
-4. 专业术语或别名是否变化？单篇来源新增术语或页面别名优先记录在页面 `aliases`；只有需要跨库统一、存在歧义或重复 slug/aliases 风险，或用户明确要求时，才更新治理层 `system/vocabulary.md`。不确定时先询问或只列最终建议，不得在普通摄入中顺手修改。
-5. 是否完成实质任务？若是，更新 `system/handoff.md` 与只追加的 `system/log.md`。
-6. 是否摄入或修改知识？若是，更新 `knowledge/index.md`，按 overview 阶段性更新规则判断是否更新 `knowledge/overview.md`，并检查 `knowledge/questions.md`。
-7. Git 可用时检查最终 diff，确认 `raw/` 只有本轮明确授权的 Agent 管理入口发生变化，且 `raw/zotero/wiki-inbox.bib`、其他 PDF、数据和个人材料均未被误改或误提交。
-
-即使 `USER_GUIDE.md` 不需要修改，也必须在内部完成判断；不得因为“这次只是小改动”而省略。
-
-## 文件与链接规范
-
-- 正文以中文为主，首次出现的专业术语附英文名称。
-- 文件名使用稳定的英文小写连字符 slug；核素采用约定格式，例如 `130ba.md`。
-- Wikilink 使用文件 slug，例如 `[[wobbling-motion]]`、`[[130ba]]`。
-- 中文、英文缩写和历史叫法统一记录在 `aliases` 中。
-- 系统文件不参与知识图谱，不从科学页面建立指向 `index`、`log`、`check` 或工作流文件的 wikilink。
-
-## NNDC MCP (Windows, read-only)
-
-- For nuclide levels, gamma transitions, adopted levels/gammas, ENSDF, or NuDat data, prefer the project-local `nndc` MCP first.
-- If an MCP query fails, check its project-local cache and `nndc_check_access` before using another route.
-- Fall back only to read-only official NNDC web pages when the MCP cannot provide the requested data. Do not replace NNDC with non-official secondary sites unless the user explicitly asks.
-- Never describe an inference, stale cache, or failed parse as an NNDC-reported value. Preserve the connector's source URL, nuclide, retrieval date, cache state, parse status, and warnings in the answer.
-- The configured connector is Windows-only for this project; do not add a WSL MCP entry for the NNDC service unless the user explicitly requests a separate configuration.
+必要的任务状态写入 `system/handoff.md`，日志只追加到 `system/log.md`。修改治理规则时同步更新 `check.md` 和相关用户指南；科学页面的结论、review 状态和引用元数据按原有 schema 维护。

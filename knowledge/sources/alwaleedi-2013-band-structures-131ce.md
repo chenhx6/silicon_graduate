@@ -3,7 +3,7 @@ type: source
 title: Band Structures of 131Ce
 aliases: [Alwaleedi 2013 131Ce thesis]
 created: 2026-07-27
-updated: 2026-08-11
+updated: 2026-09-05
 status: active
 review_status: unreviewed
 source_type: phd-thesis-experiment
@@ -22,7 +22,7 @@ zotero_item_key:
 citation_key: mohammedabdullahalwaleedi_2013_Bandstructures
 zotero_uri:
 library_file:
-raw_file: raw/papers/Band structures of 131Ce.pdf
+raw_file: raw/papers/degree dissertation/Band structures of 131Ce.pdf
 raw_sha256: B50C22877418DE560F06002588BB46D34F5BA670C6880E30A89D1509C79AD8C1
 nuclei: [131ce]
 reactions: [100Mo(36S,5n)131Ce]
@@ -45,6 +45,7 @@ Mohammed Abdullah Alwaleedi，*Band Structures of 131Ce*，University of Liverpo
 - Covered scope: 全文 97 页；实验与 angular intensity ratio 方法；Figure 4.1、Tables 4.1–4.7；crossings、alignments、configuration assignments、Tables 5.1–5.4、Figure 5.5 和 B(M1)/B(E2) 推导。
 - Coverage caveat: 当前环境缺少 PyMuPDF，标准 preparation bundle 未成功生成；采用 chapter/section/figure/table/equation locator，关键实验页、Figure 4.1 和 Table 5.3 已由 Poppler 渲染并视觉复核。
 - Not covered: 本数据集没有寿命、绝对 B(E2)、线偏振或直接形变测量。
+- 2026-09-05 re-read: 复核 Abstract、Chapter 4 Figure 4.1/Tables 4.1–4.7、Chapter 5 Tables 5.1–5.4/Figure 5.5；确认 Bands 1–7、`δ=0`、Band 2 parity conflict 和 Band 5 duplicated `e⊗AEFG` mapping 与现有 source 记录一致，未发现需要改变 claim wording 的新证据。
 
 ## Paper Question and Scientific Motivation
 
@@ -187,4 +188,4 @@ Mohammed Abdullah Alwaleedi，*Band Structures of 131Ce*，University of Liverpo
 
 ## Non-source Notes and Follow-up
 
-L3 pilot 将独立保存跨来源推理；本页不把后来形成的 wobbling/chirality 分类倒灌为论文作者主张。
+L3 pilot 将独立保存跨来源推理；本页不把后来形成的 wobbling/chirality 分类倒灌为论文作者主张。2026-09-05 复读属于本批次温故知新，不改变页面级 `review_status` 或既有 claim-level 状态。

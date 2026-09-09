@@ -2,6 +2,8 @@
 
 Contributions are welcome through focused pull requests.
 
+The canonical repository is [Gitee `chx6/silicon_graduate`](https://gitee.com/chx6/silicon_graduate). GitHub, if present, is a mirror and is not maintained directly.
+
 ## Workflow
 
 1. Fork the repository.
@@ -9,7 +11,7 @@ Contributions are welcome through focused pull requests.
 3. Preserve the existing directory structure, front matter, citation keys,
    and provenance.
 4. Run the available checks.
-5. Open a pull request describing the change and its evidence.
+5. Open a pull request on Gitee describing the change and its evidence.
 
 Making the repository public does not grant direct write access to the
 maintainer's `main` branch.

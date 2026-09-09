@@ -69,10 +69,10 @@ python -m unittest discover -s system/tests -p "test_*.py" -v
 - 合并、重命名和物理解读变更必须先展示影响。
 - QMD 已启用时可检查 `qmd.cmd status`、collection 范围和 freshness；普通单篇摄入不强制 `qmd embed`。若 QMD refresh deferred，在检查或复盘中说明原因和建议补跑时机；不可用或异常时报告“未执行/警告”，使用 `rg`、索引和直接读取降级，不得伪造 QMD 状态。
 - QMD 的 `.qmd/` 是被 Git 忽略的可重建缓存，不属于结构 lint 产物；禁止通过 `qmd update --pull` 让检索工具接管 Git。
-- 本地存在 PDF 时执行 source SHA-256；GitHub Actions 因 PDF 不入 Git，会把缺失 PDF 报为 warning 而不是伪装成已校验。
+- 本地存在 PDF 时执行 source SHA-256；公开远端因 PDF 不入 Git，缺失 PDF 只报告 warning 而不是伪装成已校验；完整哈希核验必须在本机运行。
 - 日常 lint 可只输出到终端；正式阶段审计写入 `outputs/system-audit-YYYY-MM-DD.md`。
 - 正式报告完成后更新 log 和 handoff。
 
-## GitHub Actions
+## 远端维护与本地检查
 
-`.github/workflows/wiki-lint.yml` 在相关 push、pull request 和手动触发时执行测试和 lint。CI 失败表示结构性 error；科学待审状态不会自动改写，也不会仅因 `needs-human-review` 使 CI 失败。
+Gitee `https://gitee.com/chx6/silicon_graduate` 是本库的维护远端。GitHub 镜像不承担本库维护或 CI；测试和 Wiki lint 由本地维护流程执行。检查结果只表示结构性 error，科学待审状态不会自动改写，也不会仅因 `needs-human-review` 使本地检查失败。

@@ -298,6 +298,7 @@ updated: 2026-09-02
 - [[187au-longitudinal-wobbling-controversy]] - 已审核的 Sensharma 2020/Guo 2022 locator-level evidence matrix；跟踪 `187Au` LW、single-particle excitation、associated signature partner 与低自旋近似争议。
 - [[low-spin-wobbling-controversies]] - `135Pr/187Au` 低自旋 wobbling identification 跨案例证据地图；接入 γ-soft 背景、Lawrie 2020/TiP、`135Nd` reference 与 Nomura 2022 IBFM alternative。
 - [[sigma-over-i-uncertainty-in-pado-mixing-ratio-extraction]] - 支持 NST/P-ADO 写作的 `σ/I` 预设困难、alignment uncertainty 与 feeding dependence evidence map。
+- [[100sn-gamow-teller-independent-evidence]] - 比较 GSI/RIKEN 两条独立 `100Sn` 衰变谱学链的 B(GT)、Q/endpoint 与 `100In` 能级证据边界。
 
  - [[gamma-ray-linear-polarization-in-nuclear-spectroscopy]] - P/A/Q formalism、Compton detector technologies、GRETINA relativistic corrections 与 P-ADO bridge 的 evidence map。
 
@@ -346,3 +347,29 @@ updated: 2026-09-02
 - `outputs/system-audit-2026-07-01.md` - 初始化历史核查；目录重构后将生成新版核查。
 - `outputs/system-audit-2026-07-01-v2.md` - 第二轮文献摄入后的结构与来源完整性核查。
 - `outputs/system-audit-2026-07-02.md` - 自动 lint 实现、测试与人工复核状态核查。
+
+## 2026-09-05 Degree Dissertation Batch
+
+### Sources
+
+- [[qiang-2019-high-spin-130-131ba-87zr]] - 强赟华 2019：`130,131Ba` 高自旋、K-isomer/t-band/S-band、MχD、E1 关联及 `87Zr` 寿命。
+- [[che-2007-high-spin-108-112ru-134-135ba]] - 车兴来 2007：`108,112Ru` 与 `134,135Ba` 高自旋、γ 振动、回弯和组态系统学。
+- [[smith-1998-rotational-bands-127-131pr]] - Smith 1998：`127–131Pr` 正常/增强/超形变转动带、signature inversion 与 DCO。
+- [[sensharma-2021-wobbling-motion-135pr-187au]] - Sensharma 2021：`135Pr` 二声子/手征 wobbling 与 `187Au` 横向/纵向 wobbling。
+- [[regis-2011-fast-timing-labr3]] - Régis 2011：LaBr3(Ce) fast timing、MSCD、PRD 与 `176W` 寿命。
+- [[wang-huale-2006-170re-176ir-thesis]] - 王华磊 2006：`170Re` 在束高自旋与 `176Ir` EC/β+ 衰变。
+- [[wang-enhong-2015-neutron-rich-fission-fragments]] - Wang Enhong 2015：`252Cf`/`238U+9Be` 裂变碎片多核素高自旋谱学。
+- [[hinke-2010-100sn-decay-spectroscopy]] - Hinke 2010：`100Sn`/`100In` GSI 衰变谱学与 GT strength。
+- [[lubos-2016-100sn-neighboring-nuclei-decay-spectroscopy]] - Lubos 2016：RIKEN `100Sn` 及邻近 N=Z 核素衰变谱学。
+- [[morgan-2008-237pu-nilsson-orbitals]] - Morgan 2008：`237Pu` 超形变第二势阱、裂变异能态与 Nilsson 轨道。
+- [[hayes-2005-k-conservation-178hf]] - Hayes 2005：`178Hf` 高-K 带 K 守恒破缺与 Coulomb excitation 矩阵元。
+- [[palffy-2006-neec-thesis]] - Pálffy 2006：重离子 NEEC 理论、截面、RR background 与角分布。
+- [[chen-size-2014-6li-pgamma-7be]] - 陈思泽 2014：`6Li(p,γ)7Be` 低能截面与 S-factor 候选共振。
+- [[dietrich-1974-excited-states-103pd]] - Dietrich 等 1974：`103Pd` 实验报告、内转换、角分布和 `11/2−` 寿命（附加来源，不计入学位论文数量）。
+
+### Nuclei and Methods
+
+- [[100sn]] - 两条独立 `100Sn` decay-spectroscopy thesis lineages；BGT/Q-value 和 `100In` level-scheme 边界。
+- [[gamow-teller-strength]] - `100Sn` B(GT) 定义、两份 thesis 结果及 model/uncertainty 边界。
+- [[lifetime]] - fast timing、MLH、RDDS/DSAM 和 fission-isomer timing 的寿命观测量入口。
+- [[signature-inversion]] - signature inversion 的现象定义、判据和多机制边界。

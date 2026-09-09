@@ -6,7 +6,7 @@ echo Nature Skills updater
 echo =====================
 echo.
 
-powershell.exe -NoLogo -NoProfile -ExecutionPolicy Bypass -File "%SCRIPT_DIR%update_nature_skills.ps1" %*
+python "%SCRIPT_DIR%update_nature_skills.py" %*
 set "EXIT_CODE=%ERRORLEVEL%"
 
 echo.

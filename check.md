@@ -12,7 +12,7 @@ updated: 2026-08-04
 
 在仓库根目录运行：
 
-```powershell
+```bash
 python system/scripts/wiki_lint.py --fail-on error
 ```
 
@@ -20,11 +20,11 @@ python system/scripts/wiki_lint.py --fail-on error
 - exit code `1`：存在 error，提交前必须处理；
 - `--fail-on warning`：临时采用更严格阈值；
 - `--format json --output outputs/lint-report.json`：生成机器可读报告；
-- GitHub Actions 的 `Wiki lint` 会在相关 push、pull request 和手动触发时运行。
+- Gitee `chx6/silicon_graduate` 是维护远端；GitHub 仅作为镜像，不作为本仓库维护或 CI 入口。
 
 修改 lint 脚本或配置后还要运行：
 
-```powershell
+```bash
 python -m unittest discover -s system/tests -p "test_*.py" -v
 ```
 
@@ -50,13 +50,12 @@ python -m unittest discover -s system/tests -p "test_*.py" -v
 - [ ] 核素问题在适用时比较同位素和同中子素；L3 只使用合法、可核验的 Nature-first 获取路径和 Agent 管理的 `raw/papers/gpt/**`、`raw/zotero/gpt.bib`；关键 SI 才下载，`wiki-inbox.bib` 永不修改/暂存。
 - [ ] L4 只生成 `outputs/l4/<issue>-<date>/report.md` readiness（`ready`/`partial`/`not-ready`）；`partial`/`not-ready` 不停用周测，不假定用户已有实验数据。
 - [ ] pending review 只阻止重叠写入，不阻止全局只读选题或无重叠的新知任务；有实质变化的周测生成 `outputs/self-tests/` P0/P1 报告和相应 WIP/final 状态，push 仅按当前任务明确授权并在 H3/发布检查通过后执行，无实质变化时未制造空 commit。
-- [ ] Wiki 会话实际加载项目级 `wiki_l3 + approval_policy=never`，机器级 `requirements.toml` 不存在；普通项目仍使用全局 `:workspace + on-request`。Wiki 外部写入被直接拒绝且没有提权入口；宿主自身日志与 sandbox 状态已作为运行数据例外单独识别。
-- [ ] Wiki 外仅执行已确认零外部写入的程序；工作目录、TEMP/TMP、缓存、日志、配置和输出均约束到 Wiki，未调用安装器、系统管理工具或会修改外部状态的 GUI 程序。
-- [ ] Wiki 任务未调用 Computer Use；浏览器下载要么显式输出到 Wiki，要么交接用户，未触发默认外部 Downloads。
+- [ ] Wiki 工作项目由 Docker 内的终端 Codex 运行；`.codex/config.toml` 不声明项目 sandbox，容器负责访问边界。
+- [ ] 本轮只执行与 Wiki 任务相关的命令；未依赖桌面端 GUI 或 Computer Use，浏览器下载已指定到仓库内路径。
 - [ ] 递归删除、历史重写、raw 证据删除/覆盖、治理核心修改和 push 等危险操作均有用户明确授权，未把概括性自主授权解释为破坏性授权。
 - [ ] `system/log.md` 只追加，没有重写历史记录；启动或普通恢复未用 `ReadAllText(system/log.md)` 读取完整 log。
 - [ ] 若使用定时续跑，已遵循 `system/workflows/scheduled-continuation.md`，并说明本机应用、调度服务与电脑可用性前提。
-- [ ] Wiki local-project cron 以及任何会创建分支、提交、fetch 或 push 的 Git 写入口，在第一次 Git 写操作前调用 schema-3 `system/scripts/wiki_automation_preflight.ps1`；首次调用只传 `Root` 和 `ExpectedProfile`，从 JSON 的 `protected_bib.baseline_sha256` 建立本次运行基线，H1/H2/H3 传入同一 `-BaselineBibHash`；独立运行之间的 BibTeX 更新不阻断下一次运行。旧 `-ProtectedBibHash` 仅兼容并告警，不是权限门。脚本先核验 `.codex/config.toml` 顶层 `default_permissions=wiki_l3`，再只在 Wiki 根目录和 `.git` 执行真实创建—回读—删除探针，并只读打开 `.codex/config.toml` 与 `.agents/skills/wiki-evidence-query/SKILL.md`；`CODEX_PERMISSION_PROFILE` 缺失只告警，非空且不匹配才阻断，任务不得自行注入；即使 profile 为两处保留 `write`，任务也不得在保护目录创建文件；exit `0` 才放行，exit `1`/`2` 立即只读 safe-suspend。`runtime_token` 与 `token_matching_deny_*` 只分类当前 token，ACL 数量和不匹配 DENY 不改变 exit code；只有真实 `.git` 写探针明确 `Access denied` 才进入 ACL 诊断，不得每次 push 前自动 `/remove:d`。
+- [ ] 创建分支、提交、fetch 或 push 前运行 `python3 system/scripts/wiki_automation_preflight.py --root .`，确认 protected BibTeX 哈希未变化；不依赖 PowerShell、ACL、运行时 marker 或项目 sandbox profile。
 - [ ] 定时任务正文未通过 shell、补丁或文件 API 读写 Codex 宿主 automation memory、global state、sandbox state 或任何 Wiki 外文件；宿主状态仅由 Codex automation 功能维护。
 - [ ] 定时任务的“一次/重复”、时区和下次运行时间在界面中无歧义；一次性请求未显示为“每天”。
 - [ ] 只有在存在运行回执且产物已核验时，才把定时任务报告为“已执行/已完成”；无回执明确写为“未触发/未验证”。
@@ -258,8 +257,8 @@ python -m unittest discover -s system/tests -p "test_*.py" -v
 
 ### H1. Write-entry preflight
 
-- [ ] 首个 Git 门之前已验证 cwd、`.codex/config.toml` 顶层 `default_permissions=wiki_l3`，由 schema-3 首次调用建立本次运行的 `protected_bib.baseline_sha256`，完成 Wiki 根目录和 `.git` 的真实写探针，并只读核验 `.codex/config.toml` 与 `.agents/skills/wiki-evidence-query/SKILL.md`；`CODEX_PERMISSION_PROFILE` 仅作诊断 marker，缺失时 warning 后继续、非空不匹配时阻断且未自行注入；JSON schema 3 中包含运行内基线、`runtime_token` 和匹配/不匹配 DENY 分类字段且无残留探针文件，ACL 诊断不单独阻断。
-- [ ] 第一次新增、删除、移动、重命名或修改仓库文件前，已依次运行 `git status -sb`、`git status --short`、`powershell -ExecutionPolicy Bypass -File system/scripts/clean_knowledge_eol_dirty.ps1`，再运行两次 status。
+- [ ] 首个 Git 门之前已运行跨平台预检并确认 `git status -sb`、`git status --short`；配置、根目录和 `.git` 可写，受保护 BibTeX 哈希已记录。
+- [ ] 第一次新增、删除、移动、重命名或修改仓库文件前，已运行 `python3 system/scripts/clean_knowledge_eol_dirty.py`，再检查 status。
 - [ ] 已检查 `git diff --cached --name-only` 和 `git diff --cached --stat`，没有让任务前已 staged 的无关文件静默进入本轮 commit；未擅自 unstage 或覆盖用户内容。
 - [ ] 已建立入口 dirty baseline，并将现有变化分为 initial authorized scope、authorized inherited changes、protected pre-existing changes 和 unresolved/overlapping changes。
 - [ ] 清理脚本 exit code `0` 视为成功；exit code `1` 后已分类剩余 substantive/mixed/unsafe 文件，而非无条件中断；exit code `2` 已停止文件与 Git 写操作并报告错误。
@@ -289,8 +288,7 @@ python -m unittest discover -s system/tests -p "test_*.py" -v
 - [ ] 没有提交 LF/CRLF-only dirty state；脚本未审批科学修改，也未替代 Codex 对授权范围、baseline 和 pending WIP 归属的判断。
 - [ ] 已记录实际使用的 Git executable 与 `git --version`；Git 版本号不作为许可或拒绝条件。normal/system Git 与 Codex bundled Git 均可使用，但所选运行时必须通过以下仓库级预检；若 bundled Git 需要 `GIT_EXEC_PATH`，仅对该命令使用同一发行版的路径，未修改系统 `PATH`。
 - [ ] `git rev-parse --git-common-dir` 已解析到当前 Wiki 的 common Git dir；若主工作树触发 dubious-ownership，只对该条命令使用精确的 `-c safe.directory=E:/imp/wiki`，未写 global/system `safe.directory`、通配符或其它项目路径。
-- [ ] `.git/config` 的 AskPass、精确仓库 URL-scoped empty helper reset 和用户名均为 repo-local。AskPass 位于该 common Git dir 的受保护 credential 目录，未读取、打印、复制、暂存或提交 token/DPAPI 文件。
-- [ ] H3 fresh fetch 前已再次运行 schema-3 preflight，并传入同一运行基线；exit `0` 后即使存在不匹配当前 token 的 DENY 也继续。`github.com:443` 失败按网络问题只做一次 `ls-remote` 和一次有界重试；AskPass/401/403/credential 报错按认证诊断处理；只有 `.git` 写探针明确 `Access denied` 才按匹配 SID 进入 ACL safe-suspend。remote ref 和 ancestry 检查通过后，已对最终精确 refspec 执行 `push --dry-run`，再使用同一 refspec 非 force push。某个 Git 运行时失败时，只可改用另一已知运行时重新执行完整预检；认证或远端状态仍异常时已停止，未修改全局凭据、SSL 校验或权限边界，也未回退到旧 PowerShell credential helper。
+- [ ] H3 fresh fetch、remote ancestry、`git push --dry-run origin HEAD:main` 和同一精确 refspec 的非 force push 均已检查；远端为 `https://gitee.com/chx6/silicon_graduate`。
 - [ ] 正常发布路径的最终提交不写入 `push in progress`、`publication preflight in progress` 或“no remote action”等瞬时状态；成功后的远端结果只写任务回执。只有 push 失败时才把同一 final commit 对账为 `final-not-pushed` 并 amend handoff/queue。
 
 - [ ] Git 工作树状态已检查；用户已有修改未被覆盖。

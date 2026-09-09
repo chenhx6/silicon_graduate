@@ -23,6 +23,7 @@ updated: 2026-07-08
 - [ ] `135Pr` 与 `187Au` 的争议能否导出一套不依赖预设 band label、同时约束 mixing-ratio 双解、polarization、signature-partner identity、`f(n,I)` 近似条件与 phonon quantization 的最小 wobbling identification protocol？（opened 2026-07-04；updated 2026-07-04；scope: low-spin-wobbling/cross-case）
 - [ ] 在用户的 P-ADO / NST mixing-ratio extraction 中，`σ/I`、Gaussian width、attenuation coefficients 与 feeding-condition uncertainty 应如何映射到同一套可审计的 fit/prior schema？（opened 2026-07-08；scope: pado/sigma-over-i/alignment）
 - [ ] Lauritsen 2025 的 `sigma/J` 与用户分析中的 `σ/I` 在代码和公式层面应如何一一映射？Summary 2013 给出的 `σ/I = 0.3` 目前只能作为 guide-level practice 背景，不能直接当作 universal prior。（opened 2026-07-09；updated 2026-07-09；scope: pado/sigma-over-i/notation-boundary）
+- [ ] `100Sn` 的 GSI 与 RIKEN `B(GT)` 差异能否由 Q/endpoint、branching、response 和 model-space 约定统一解释？（opened 2026-09-06；scope: 100sn/gamow-teller/independent-evidence；project: [[100sn-gamow-teller-independent-evidence]]）
 
 ## Resolved
 

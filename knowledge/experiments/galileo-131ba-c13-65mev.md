@@ -58,8 +58,10 @@ Guo 2020 把完整数据分析细节指向 Ref.27；其正文没有逐条列出�
 
 - [[guo-2020-pseudospin-chiral-quartet-131ba]]
 - [[ding-2021-131ba-133ce-signature-splitting]]
+- [[qiang-2019-high-spin-130-131ba-87zr]]
 
 ## Evolution Log
 
 - 2026-07-01：由 2021 signature-splitting 论文建立。
 - 2026-08-11：on-touch 前移 Guo 2020 原始六带用途、`R_ac`/angular-distribution 条件和弱线 assumed-δ 边界。
+- 2026-09-05：接入 Qiang 2019 thesis；保留其与本实验 journal sources 的 multiple-dependent 关系。

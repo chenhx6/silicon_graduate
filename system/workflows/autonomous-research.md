@@ -7,7 +7,7 @@ updated: 2026-08-06
 
 # Autonomous Research：L0-L4 科研自治
 
-本文件是 Wiki 科研自治等级、升级条件、问题状态、每周自测和人类保留关口的唯一 canonical owner。其它治理文件只做路由。文件系统 profile `wiki_l3` 只表示 Wiki 内可写、Wiki 外只读，不是科学自治等级。
+本文件是 Wiki 科研自治等级、升级条件、问题状态、每周自测和人类保留关口的唯一 canonical owner。其它治理文件只做路由。Docker 的运行权限不表示科学自治等级；L0–L4 仍按本文件和用户授权推进。
 
 ## 能力等级
 
