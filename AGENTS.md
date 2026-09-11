@@ -29,8 +29,8 @@ Git 工作树可能包含用户或上一轮留下的修改。写入前先运行 
 2. 分开记录实验直接报告、作者解释、模型计算和本任务推断。
 3. 重复引用不等于独立证据；同一实验的论文、学位论文和综述要标明依赖关系。
 4. wobbling、chirality、γ-soft/γ-rigid、shape coexistence 等争议主题必须保留反证、替代解释和适用条件。
-5. 原文歧义、图表不可读、元数据或 locator 缺失时标记 `needs-human-review`，不得补写确定结论。
-6. 未经用户确认，不把 `confidence` 提升为 `high`，不把 Codex 自审写成 Human review。
+5. 原文歧义、图表不可读、元数据或 locator 缺失时保留 `needs_review: true` 或相应 evidence boundary，不能补写确定结论；这类边界由 Codex 在研究报告中自审和追踪，不自动变成用户待办。
+6. Codex 可以依据直接来源、locator、竞争解释和适用条件完成 source/claim self-audit 并更新相应证据状态；不得把 self-audit 写成 `human-reviewed`。论文写作或后续问答需要用户裁决时，再对具体 claim 触发定向确认。
 
 A≈130 是重要研究锚点，不是收录边界。是否建立核素、实验、方法、概念或 project 页面，按来源提供的可复用结构信息、实验判据、比较价值和用户当前重点决定。
 
@@ -60,7 +60,7 @@ git push origin HEAD:main
 ```
 
 认证由 Git 当前环境负责，禁止把 token 写入仓库、日志或脚本。网络或认证失败时保留本地提交并如实记录 `final-not-pushed`，不要改全局凭据、SSL 或 Git 配置。
-普通 final commit、治理/工具修改和已通过科学发布门的内容默认自动 push；当前指令中的“不要 push”“只 commit”“只修改”可覆盖本轮发布。未完成、等待人工审核或存在未隔离 hard P0 的 WIP 仍停在本地，不因持续授权而提前发布。提交后执行 post-commit reconciliation，核对状态、提交文件和 handoff。
+普通 final commit、治理/工具修改和已通过发布门的内容默认自动 push；当前指令中的“不要 push”“只 commit”“只修改”可覆盖本轮发布。科学 partial/stopped 状态和未触发的用户审核不阻止发布；来源身份、raw/哈希、权限、凭据、危险重叠或 Git 安全问题等未隔离 hard P0 仍必须停在本地。提交后执行 post-commit reconciliation，核对状态、提交文件和 handoff。
 Force push、历史重写、已发布标签改写、递归删除、raw 覆盖和其它不可逆操作仍需单独确认；持续 commit/push 授权不扩展到这些动作。当前提交用 branch + subject 作为稳定指针，最终精确 hash 只写入任务回执。
 
 ## 通用脚本

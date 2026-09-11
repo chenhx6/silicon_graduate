@@ -7,7 +7,7 @@ updated: 2026-08-06
 
 # Autonomous Research：L0-L4 科研自治
 
-本文件是 Wiki 科研自治等级、升级条件、问题状态、每周自测和人类保留关口的唯一 canonical owner。其它治理文件只做路由。Docker 的运行权限不表示科学自治等级；L0–L4 仍按本文件和用户授权推进。
+本文件是 Wiki 科研自治等级、升级条件、问题状态、每周自测和用户数据关口的唯一 canonical owner。其它治理文件只做路由。Docker 的运行权限不表示科学自治等级；L0–L4 仍按本文件和用户授权推进。
 
 ## 能力等级
 
@@ -21,17 +21,15 @@ updated: 2026-08-06
 
 普通问答仍只读。用户要求摄入、固化、reflect、project 或 synthesis，即授权与任务直接相关的 L0-L2 写入；不得因 ordinary Q&A 静默写回。
 
-## 人类审核保留关口
+## Codex self-audit 与后续用户裁决
 
-Codex 默认自主完成普通摄入、locator 复核、低风险纠错、关联固化和候选问题记录。人工审核集中在：
+Codex 默认自主完成普通摄入、locator 复核、低风险纠错、关联固化、L3/L4 研究和候选问题记录。Codex self-audit 必须检查直接来源、locator、claim kind、证据层级、竞争解释、source lineage、适用条件和失败条件，并把判断写入对应报告或 source/project 页面。
 
-- 问答 Skill 输出的关键外部链接与综合判断；
-- L3/L4 milestone 结论和候选创新点；
-- provisional finding 向正式 synthesis、论文结论或 `confidence: high` 的晋升；
-- 权限、ACL、项目配置、用户 raw、不可逆操作和外部状态变化；
-- 本地科学 commit 的 P0/P1 集中审核与 push。
+- 用户审核只在后续问答需要裁决具体说法，或论文写作需要将具体 claim 纳入 paper evidence gate 时发生；
+- `human-reviewed` 只记录真实用户审核事件，Codex self-audit 不伪装成该事件；
+- 权限、ACL、项目配置、用户 raw、不可逆操作和外部状态变化仍按各自安全边界处理。
 
-Codex self-audit 不是 Human review，不得据此设置 `human-reviewed`、清除需要用户判断的 `needs_review` 或提升为 `high` confidence。
+Codex self-audit 可以依据直接证据更新 `needs_review` 和 confidence 的技术记录，但必须保留证据边界，不能设置 `human-reviewed`。论文写作或后续问答中的最终措辞仍按 paper evidence gate 需要用户确认。
 
 ## L2 默认研究学习闭环
 
@@ -70,7 +68,7 @@ P0/P1 表示重要程度，不自动等于等待用户逐项处理。每个重�
 - `safe-suspended`
 - `formal-review-required`
 
-来源身份/哈希无法确认、关键数值或 locator 污染核心知识、数据安全/权限/Git/raw 异常、正式结论越级或用户数据可能被破坏属于 hard P0，必须阻止 finalization/push。研究型 P0 可以通过 self-check、降级、L3、L4 candidate 或受阻状态处理；受影响结论隔离并标为 provisional 后，不必阻塞无关内容。
+来源身份/哈希无法确认、关键数值或 locator 无法追溯、数据安全/权限/Git/raw 异常、用户数据可能被破坏属于技术 hard P0，必须阻止 finalization/push。科学措辞越级、争议、partial/stopped 研究状态和未触发的用户审核由 Codex self-audit 降级、隔离并记录，不单独阻止发布。
 
 ## L3：课题调查与假设研究
 
@@ -80,7 +78,7 @@ P0/P1 表示重要程度，不自动等于等待用户逐项处理。每个重�
 - `自动选择一个 L3 pilot`；
 - 授权摄入或每周自测发现高价值问题，并满足下述升级条件。
 
-状态为 `active-L3`、`safe-suspended`、`awaiting-milestone-review`、`completed` 或 `abandoned`。状态绑定具体研究问题，不扩散到无关任务。
+状态为 `active-L3`、`safe-suspended`、`awaiting-milestone-review`、`completed` 或 `abandoned`。`awaiting-milestone-review` 只在后续问答/写作需要用户裁决时使用；普通研究完成 self-audit 后即可进入 `completed`。状态绑定具体研究问题，不扩散到无关任务。
 
 ### L3 升级条件
 
@@ -103,7 +101,7 @@ P0/P1 表示重要程度，不自动等于等待用户逐项处理。每个重�
 7. 自主选择下一项文献、计算或建议测量；
 8. 形成已有工作图景、证据缺口、研究 prospectus 和下一阶段文献/数据需求。
 
-L3 不设机械检索或文献数量上限。继续条件是下一步仍可能产生实质信息增益且成本与问题价值相称。边际收益显著下降、证据开始重复、关键来源需真人验证、资源不足、WIP/权限冲突或下一步属于 L4 时，停止或 safe suspend。
+L3 不设机械检索或文献数量上限。继续条件是下一步仍可能产生实质信息增益且成本与问题价值相称。边际收益显著下降、证据开始重复、关键来源缺失、资源不足、WIP/权限冲突或下一步属于 L4 时，停止或 safe suspend。
 
 ## L4：手动发起的数据研究
 
@@ -150,7 +148,7 @@ L4 必须同时包含：
 
 ### 全局选题与双槽位
 
-在打开具体证据页、下载文献或写入知识页之前，先做一次 Wiki 内只读的全局候选筛选。候选池至少覆盖核素/质量区、物理主题或竞争机制、实验方法/observable、证据类型和 human-review 风险；候选必须通过上述硬重要性门槛。`PLAN.md` 的 `131Ce` 数据阶段是用户方向记录，不是周测的默认选题权。
+在打开具体证据页、下载文献或写入知识页之前，先做一次 Wiki 内只读的全局候选筛选。候选池至少覆盖核素/质量区、物理主题或竞争机制、实验方法/observable、证据类型和 Codex self-audit 风险；候选必须通过上述硬重要性门槛。`PLAN.md` 的 `131Ce` 数据阶段是用户方向记录，不是周测的默认选题权。
 
 每个 `weekly-learning` 运行最多有两个槽位：
 
@@ -161,45 +159,45 @@ L4 必须同时包含：
 
 通过重要性和冷却筛选后，按科学影响、覆盖债务、距上次检查时间、证据独立性缺口和预期信息增益排序；只在同等级候选之间使用以 ISO 周为种子的可复现随机抽选。修正规则上线后的第一轮 `weekly-learning` 新知槽不得选择 `131Ce`、Ding 2021、`127Xe` 2020 或 `129Ba` 2024，除非记录上述硬例外。
 
-文献总量不设固定上限，但每批必须是去重、题名/DOI 明确且直接服务于两个问题之一的有限清单；在批次间按独立证据、关键 locator、竞争解释和信息增益重新评估。证据饱和、信息增益下降、验证/时间余量不足、需要用户获取全文或超出两个问题时收敛或建立 WIP。未入选的重要问题写入报告 `Deferred important issues`，记录页面、证据缺口、建议路径及下次周测续研/用户主动开启。已开始并改动文件的任务才进入 WIP。
+文献总量不设固定上限，但每批必须是去重、题名/DOI 明确且直接服务于两个问题之一的有限清单；在批次间按独立证据、关键 locator、竞争解释和信息增益重新评估。证据饱和、信息增益下降、验证/时间余量不足、外部来源不可得或超出两个问题时收敛或建立 WIP。未入选的重要问题写入报告 `Deferred important issues`，记录页面、证据缺口、建议路径及下次周测续研。已开始并改动文件的任务才进入 WIP。
 
-核素问题原则上比较至少一个适用同位素和一个同中子素；物理上不适用或没有可靠资料时说明原因，不机械创建页面。L3 可按 Nature-first 路由检索、合法获取、核验 locator、摄入 `raw/papers/gpt/**` 和 `raw/zotero/gpt.bib`；关键数据/方法只在补充信息中时可获取 SI。`raw/zotero/wiki-inbox.bib` 始终只读、不得暂存。无法获得全文时记录 DOI、访问路线和用户所需动作，不循环登录或把 HTML 当 PDF。
+核素问题原则上比较至少一个适用同位素和一个同中子素；物理上不适用或没有可靠资料时说明原因，不机械创建页面。L3 可按 Nature-first 路由检索、合法获取、核验 locator、摄入 `raw/papers/gpt/**` 和 `raw/zotero/gpt.bib`；关键数据/方法只在补充信息中时可获取 SI。`raw/zotero/wiki-inbox.bib` 始终只读、不得暂存。无法获得全文时记录 DOI、访问路线和下一次获取路径，不循环登录或把 HTML 当 PDF。
 
-L4 只生成 readiness audit，不假定用户已有实验数据。检查 Wiki 已有文献、能级纲图、ADO、线偏振、分析产物及 NNDC 等公共数据，输出来源、可复现程度、缺失 observable/locator 和 `ready`/`partial`/`not-ready` 到 `outputs/l4/<issue>-<date>/report.md`。`partial`/`not-ready` 只结束该问题本轮扩展，不停用周测。继续、暂停或升级仍由重要性、证据充分度、信息增益、资源、权限和实质进展决定，避免机械浅尝和无价值无限扩张。
+L4 对公开数值或可靠模拟可以在具备数据身份、参数、代码和失败检查后由 Codex 自主执行；用户提供的真实数据仍需用户手动启动。没有完整输入时先生成 readiness audit，输出来源、可复现程度、缺失 observable/locator 和 `ready`/`partial`/`not-ready` 到 `outputs/l4/<issue>-<date>/report.md`。`partial`/`not-ready` 只结束该问题本轮扩展，不停用周测。继续、暂停或升级仍由重要性、证据充分度、信息增益、资源、权限和实质进展决定，避免机械浅尝和无价值无限扩张。
 
 ### Git 安全门
 
 每次运行先检查 Git/远端、dirty baseline、WIP queue、运行内 `wiki-inbox.bib` 基线和文件 overlap；独立运行之间的 Zotero 正常更新不阻断新运行。完成 H1 后先做全局只读候选筛选，再决定续跑或写入：
 
 - active weekly/L3 WIP 只能在满足信息增益条件时占用温故槽；不能跳过新知槽筛选；
-- pending review 只阻止与既有 WIP 重叠的写入，不阻止全局只读选题或无重叠的新知任务；
+- 用户未审核的内容只阻止需要该用户裁决的最终问答/写作措辞，不阻止全局只读选题、无重叠的新知任务或 Codex self-audit 写回；
 - 无法区分归属或存在 unresolved overlap 时只读检查并 safe suspend；
 - 无实质发现不创建分支或 commit；
 - 普通治理和周测修改继续在已核验 `main` 上小步提交；只有确有技术隔离需要时才创建分支。
 
-周测 automation 只产生经过审计的结果；通过 H3 和仓库发布检查后，按持续授权进行正常非 force push；未完成、等待审核或存在 hard P0 时保留本地 WIP。无实质变化时只输出可核验回执，不制造空提交。
+周测 automation 只产生经过 Codex self-audit 的结果；通过 H3 和仓库发布检查后，按持续授权进行正常非 force push；存在技术 hard P0、检查失败或远端异常时保留本地 WIP。科学 partial/stopped 和未触发的用户审核不单独阻止发布。无实质变化时只输出可核验回执，不制造空提交。
 
 ### 审核报告与 checkpoint
 
 每次完成都在任务中形成报告；有实质修改时同时创建 `outputs/self-tests/YYYY-MM-DD-<topic>.md`，依次包含 `Selection audit`、范围、P0、P1、低风险摘要/链接、验证与研究摘要、L3/L4 状态、文件/Git/检查状态。`Selection audit` 必须记录运行类型及是否计入周测、候选覆盖类别、两个槽位的选择结果、核心来源指纹及近期重叠、冷却例外/deferred 原因、本轮新增知识和 belief-revision 结果。
 
-用户默认只需阅读 P0、P1 和升级状态。低风险内容只提供摘要与可追溯链接。
+用户默认可只阅读 P0、P1 和升级状态；Codex 不主动索要审核。低风险内容只提供摘要与可追溯链接；后续问答或论文写作需要用户裁决具体 claim 时，再触发定向审核。
 
-有实质变化时完成 Git 检查、Wiki lint、显式 stage 并创建 `WIP review: weekly self-test YYYY-MM-DD for user review`；未完成 L3 或 L4 candidate safe suspend 使用 `WIP suspend: weekly L3 YYYY-MM-DD <topic>`。同一分支继续时 amend，不创建第二个 active WIP。无实质变化不制造空 commit。
+有实质变化时完成 Git 检查、Wiki lint、显式 stage；Codex self-audit 完成且无技术 hard P0 时，使用当前 rolling WIP amend 为 final 并按发布门 push。未完成 L3、L4 输入不足、技术 hard P0 或安全暂停时使用 `WIP suspend: weekly L3 YYYY-MM-DD <topic>`，不 push。同一分支继续时 amend，不创建第二个 active WIP。无实质变化不制造空 commit。
 
 WIP 创建或 amend 成功后，即使不准备 push，也必须按 `check.md` H3 完成 post-commit reconciliation：用实际 branch + subject（subject 取自 HEAD）核对报告、Active handoff 和 WIP queue，把提交前的 `planned` / `expected checkpoint` 未来时态改为实际本地 WIP 状态；需要修正时 amend 同一个 WIP 一次并重跑 H3。WIP 自身不得在其包含的文件中记录自己的精确 hash；最终 hash 只在任务回执中报告。
 
-用户审核完成后，落实意见、隔离 hard P0、刷新 QMD 和检查，将 WIP amend 为 `Finalize weekly self-test YYYY-MM-DD: <topic>`；远端无漂移且 H3/发布检查通过时自动 fast-forward main 并 push。未审核或存在 hard P0 时不得把内容标为 final、不得宣称科学定案或越过 human-review；awaiting-review 的 WIP/continuation 结果仍保留本地，直到相应科学发布门通过。
+若后续发生用户审核，按用户意见进行定向 review-finalization；普通 Codex self-audit 完成后即可将 WIP amend 为 `Finalize weekly self-test YYYY-MM-DD: <topic>`，并在远端无漂移且 H3/发布检查通过时自动 fast-forward main 并 push。未完成技术 hard P0 时保留本地；科学 partial/stopped 不影响已校准结果发布。论文级最终措辞仍须通过 paper evidence gate。
 
 ## 共同停止条件
 
 - 达到 milestone 或当前证据足以支持边界清晰的结论；
 - 下一步信息增益不足；
-- 来源/数据/真人验证缺失；
+- 来源/数据/外部验证缺失；
 - 权限、raw、Git、外部写入或不可逆操作边界将被触及；
 - 上下文、执行时间或资源不足以可靠完成。
 
-停止不是丢弃：记录状态、依据、剩余 gap、下一步和 continuation prompt。正式外发、论文主张、`confidence: high`、用户 raw 修改、权限变化和科学发布门仍遵守相应人工关口；普通 Git commit/push 已获持续授权，但不能越过这些科学关口。
+停止不是丢弃：记录状态、依据、剩余 gap、下一步和 continuation prompt。论文主张、正式写作措辞、用户 raw 修改、权限变化和科学发布门仍遵守相应边界；普通 Git commit/push 已获持续授权，科学 partial/stopped 不单独阻止发布，但技术 hard P0 不能越过。
 
 ## Counter-evidence requirements (all levels)
 

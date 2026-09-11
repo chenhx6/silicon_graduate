@@ -47,9 +47,9 @@ tags: []
 
 其中：
 
-- `unreviewed`：页面尚未经过用户页面级检查；
+- `unreviewed`：页面尚未经过用户页面级检查；不阻止 Codex 继续进行证据核查、研究或普通发布；
 - `human-reviewed`：用户已查看页面并确认无明显页面级问题，但不自动确认页面内全部 claims；
-- `verified`：已按任务约定完成更严格核验；
+- `verified`：已按任务约定由 Codex 完成更严格核验；不等同于用户审核或论文级准入；
 - `needs-human-review`：页面整体存在需要用户判断的问题。
 
 页面级 `review_status` 与 claim-level `needs_review` 独立。页面升级为 `human-reviewed` 时，不得批量改写 claim-level 状态。
@@ -72,7 +72,7 @@ source 还应在正文明确记录 `Covered scope` 与 `Not covered`。局部问
 `research-note` 是“暂定研究推理”的受控中间层，不是 source 或正式 synthesis。三个状态字段职责不可重叠：
 
 - `status`：页面的一般生命周期；沿用公共枚举。
-- `review_status`：人工审核流程；新 note 为 `unreviewed`。
+- `review_status`：页面/推理的用户审核记录；新 note 为 `unreviewed`，Codex self-audit 不写成 `human-reviewed`。
 - `reasoning_status`：推理的科学成熟度与处置；允许值仅为 `provisional`、`promoted`、`rejected`、`superseded`、`withdrawn`。
 
 新 note 必须使用 `review_status: unreviewed` 与 `reasoning_status: provisional`。`unreviewed` / `reviewed` 不得写入 `reasoning_status`。`revised` 是 `Promotion or Rejection History` 中的历史事件，不是稳定状态；修订后仍回到相应稳定枚举。
@@ -83,7 +83,7 @@ Research note 还必须包含：
 - `created_from`：产生该推理的授权任务类型，例如 ingest、reflect、project 或 synthesis；
 - `promotion_target`：尚未晋升时可留空，晋升后指向正式 project/synthesis/method/concept 等 owning page。
 
-`promoted` 表示推理已经经过相称 Human review，并被正式页面吸收且保留回链；它不把 research note 自身变成 source evidence。`rejected`、`superseded`、`withdrawn` 均保留简短处置原因和触发证据，不静默删除历史。
+`promoted` 表示推理已经经过相称审核并被正式页面吸收且保留回链；研究任务可先由 Codex self-audit 完成，只有后续问答或论文写作明确需要用户裁决时才记录 Human review。它不把 research note 自身变成 source evidence。`rejected`、`superseded`、`withdrawn` 均保留简短处置原因和触发证据，不静默删除历史。
 
 ## 科学主张字段
 
@@ -94,7 +94,7 @@ Research note 还必须包含：
 - `source_independence`: `single`、`multiple-dependent`、`multiple-independent`；
 - `confidence`: `low`、`medium`、`high`；
 - `locator`: 页码、图号、表号、能级或数据位置。
-- `needs_review`: `true` 或 `false`；`true` 只能在用户明确确认对应 claim 或 claim 组后改为 `false`。
+- `needs_review`: `true` 或 `false`；Codex 可在完成直接来源、locator、claim kind、竞争解释和适用条件的 self-audit 后更新；不得把该更新写成用户审核。论文写作或后续问答中的最终措辞仍按 paper evidence gate 触发用户确认。
 
 source 页还使用 `citation_key` 连接只读 BibTeX 导出。无法通过 DOI、题名或文件名唯一匹配时保持空值，不得猜测；citation key 缺失影响写作链稳定性，不自动表示科学内容错误。
 

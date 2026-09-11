@@ -66,6 +66,12 @@ The experiment asks whether a new positive-parity side band in `74As` forms a ch
 
 The experiment identifies two positive-parity and one negative-parity `ΔI=1` bands in `74As`. Band 2 is established and linked to Band 1 by four `M1/E2` plus one E2 transition, supporting a common `πg9/2⊗νg9/2` assignment. Their separation stays near `400 keV`; `S(I)` values and branching-derived `B(M1)/B(E2)` are similar, and a fitted TPRM reproduces these trends. The model gives an aplanar total angular momentum but a nonideal geometry because the neutron angular momentum is spread across all three axes. Three E1 transitions connect negative-parity Band 3 to Band 1; their relative `B(E1)/B(E2)` and `δE` resemble `78Br` and differ strongly from stable-octupole `224Th`, supporting octupole correlations rather than stable deformation. Band 3's `π(f5/2/p3/2)⊗νg9/2` assignment is tentative.
 
+## Thesis–Journal Crosswalk
+
+This article and [[xiao-xiao-2019-high-spin-74as-thesis]] are the same iThemba LABS `74As` lineage, not independent experiments. The journal reports about `1.9×10^9` γ-γ coincidences and focuses on three `ΔI=1` bands, whereas the thesis reports about `6.17×10^9` γ-γ coincidences and summarizes 27 new γ transitions, 9 new levels, and two newly observed bands. The two statistics are kept as source-specific reported totals because the sources do not give a shared gate, selection, or subset definition.
+
+The positive-parity labels can be mapped directly: thesis Band 1/2 correspond to journal Band 1/2. The negative-parity labels cannot yet be mapped one-to-one. The thesis explicitly names the newly observed negative-parity band as Band 4 and treats Bands 3/4 as a pseudospin-partner candidate, while the journal uses a single negative-parity Band 3 for the three Band-3→Band-1 E1 links and the octupole-correlation discussion. Therefore the journal Band-3 octupole-correlation interpretation should not be copied back as the thesis conclusion for a specific thesis negative-parity band without a transition-level crosswalk.
+
 ## Experimental Setup
 
 - Beam/reaction: `4He` at `58.6` and `62.6 MeV`; `74Ge(4He,1p3n)74As`.
@@ -98,6 +104,7 @@ The experiment identifies two positive-parity and one negative-parity `ΔI=1` ba
 | XA22-16 | Band 3 is tentatively assigned `π(f5/2/p3/2)⊗νg9/2`, motivated by the proton `g9/2↔p3/2` octupole-coupling region near `Z=34`. | configuration-assignment | indirect | PDF p.7 | true |
 | XA22-17 | No lifetimes or absolute E1/M1/E2 strengths are measured; the transition-probability ratios are branching-based fingerprints. | evidence-boundary | synthesis | PDF pp.2,6-7; Figs.5,7 | true |
 | XA22-18 | Extending the A≈80 chiral-island boundary to `Z=33` is the authors' classification based on this candidate evidence, not a model-independent boundary measurement. | author-interpretation | direct | PDF pp.1,7 | true |
+| DD-20260910-74AS-03 | Thesis negative-parity Bands 3/4 are a pseudospin-partner candidate in the thesis, while this journal uses a single Band 3 for E1/octupole-correlation evidence; the one-to-one negative-parity label mapping remains unresolved. | cross-source-synthesis | synthesis | Thesis physical PDF p.33/printed p.25 and pp.45-47; journal PDF pp.3-7; Figs.1,7 | true |
 
 ## Nuclear Structure Information
 
@@ -115,6 +122,7 @@ The experiment identifies two positive-parity and one negative-parity `ΔI=1` ba
 - Band 3 contains unresolved `f5/2/p3/2` proton content, and the octupole mechanism is inferred from systematics rather than a dedicated reflection-asymmetric calculation for `74As`.
 - Relative E1/E2 ratios and `δE` distinguish correlations from the `224Th` stable benchmark, but no lifetime establishes absolute E1 collectivity.
 - The `≈11.8-keV` unobserved low-energy gap and revised spin scale should be preserved in any detailed level-scheme reuse.
+- The thesis negative-parity Bands 3/4 and journal Band 3 are not a closed one-to-one label mapping; only the positive-parity Band 1/2 labels are currently closed across the two sources.
 
 ## Analytical Reconstruction
 

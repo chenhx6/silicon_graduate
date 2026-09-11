@@ -1210,3 +1210,22 @@ updated: 2026-07-15
 - Reviewed the dirty baseline from `git status -sb`; restored the CRLF-only `knowledge/research-notes/.gitkeep` noise and retained local `docs/` plans under `.gitignore`.
 - Explicitly staged the 10 Wiki capability/governance files, including the adoption/upgrade guides, read-only hook, JSONL farmer, tests, README/lint routing and dissertation queue entry. Increased the hook's Git check timeout from 5 to 30 seconds after observing the repository's 13–14 second read-only checks.
 - Preflight, 18 system tests, 4 agent-ops tests, Wiki lint (0 errors), staged diff check, exact refspec dry-run and non-force push all passed. Protected BibTeX/raw/Obsidian/local runtime content stayed outside the commit.
+
+## [2026-09-11] continuation | degree-dissertation L3 crosswalk
+
+- Rechecked `135Nd` D3/D4 parity from the raw thesis pages: the D4 positive/negative contradiction is present in the source text, while Table 6.1 lists D4 positive and contains a separate inconsistent D3 row. Kept `DD-20260910-136ND-03` stopped as `source-text/table conflict`; no review flag or confidence changed.
+- Separated Qiang `87Zr` SHANS lifetime/derived-strength evidence from the dependent 65-MeV GALILEO `131Ba` lineage, and separated Sensharma thesis/journal support lineages from independent Lv/Guo counter data for `135Pr/187Au`. Four missing-data/provenance stops remain; L4 stays 0.
+- Post-edit checks: `git diff --check` exit 0; Wiki lint exit 0 with 0 errors; raw SHA 139/139 and index links 424/424 matched. Local WIP remains unpushed because hard P0/partial issues are still present; raw/protected BibTeX/workflow paths were not modified.
+
+## [2026-09-13] continuation | external `135Nd`/`100Sn`/`135Pr`/`187Au` evidence audit
+
+- Added and self-audited external source pages for 2019 `135Nd` PRC reanalysis, 2024 `100Sn` In electromagnetic properties, 2021 Guo `135Pr` comment and 2026 Sensharma `135Pr` follow-up; added four credential-free acquisition manifests. Downloaded external PDFs/CSV remain ignored under `raw/papers/gpt/_incoming` and were not staged.
+- `DD-20260910-136ND-03` changed from stopped to completed at the cross-source level: the 2019 PRC正文/IPDCO/E2-E1/table evidence supports D3/D4 positive parity while preserving the D3 `334.4 keV` table anomaly. `100Sn` warm-up produced no material change to the GSI/RIKEN B(GT) comparison.
+- `135Pr` evidence now includes SH26 DB1/DB2 links and old-data χ² response plus GU21 double-solution/polarization counter-methodology; `SE21-1..8` remains unresolved and no new independent experiment or L4 was counted. Targeted `187Au` search found only already-ingested Guo 2022/arXiv `2011.14354v3`; `185Au` 2026 was excluded as a different nucleus.
+- Farmer was started as PID 8571 and reports no transient recovery actions. Lint passed with 0 errors; current research totals are L3 `55/31/21/3` and L4 `0`. Final publication still requires explicit scope review, preflight, fetch/ancestry, dry-run and exact non-force push.
+
+## [2026-09-13] finalize | degree-dissertation L3/L4 research package
+
+- Completed the Codex self-audit continuation: 55 degree PDFs (54 unique hashes and one duplicate), 46 degree source mappings, 143/143 source SHA matches, index 428/428, four acquisition manifests, and protected-path checks all passed. L3 remains `55/31/21/3` and L4 remains `0`, with scientific partial/stopped boundaries preserved.
+- The rolling WIP was amended to `Finalize degree dissertation corpus L3/L4 research 20260912`; the package contains the external `135Nd`, `100Sn`, `135Pr` and `187Au` crosswalk updates, governance synchronization, reports, handoff and queue reconciliation. The exact commit hash is kept in the task receipt, not in repository content.
+- Final local gates passed: Wiki lint `errors=0`, 20 system tests `OK`, preflight `ok=true`, staged diff check clean, and the protected Zotero BibTeX SHA matched the baseline. Raw PDFs, OCR artifacts, local plans, temporary reading directories and protected BibTeX remained outside the commit.

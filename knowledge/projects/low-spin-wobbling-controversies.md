@@ -3,7 +3,7 @@ type: project
 title: "Low-spin wobbling controversies"
 aliases: [low-spin wobbling evidence map, low-spin wobbling identification controversies, 低自旋 wobbling 争议]
 created: 2026-07-04
-updated: 2026-07-16
+updated: 2026-09-13
 status: active
 review_status: human-reviewed
 project_stage: cross-case-evidence-map
@@ -16,7 +16,7 @@ tags: [low-spin-wobbling, triaxiality, mixing-ratio, linear-polarization, signat
 
 ## Agent Active Summary
 
-The original experiments for `105Pd`, `133La` and `127Xe`, plus comparative `129Ba`, `133Ba`, `136Nd`, `151Eu` and `183Au` cases, were ingested on 2026-07-16. They replace the previous source-level placeholder for those three IBFM comparison cases but remain unreviewed. The cross-case evidence-strength synthesis is [[experimental-wobbling-evidence-strength-map]]. Existing reviewed `135Pr/187Au/TiP/IBFM` judgments are unchanged.
+The original experiments for `105Pd`, `133La` and `127Xe`, plus comparative `129Ba`, `133Ba`, `136Nd`, `151Eu` and `183Au` cases, were ingested on 2026-07-16. They replace the previous source-level placeholder for those three IBFM comparison cases but remain unreviewed. The cross-case evidence-strength synthesis is [[experimental-wobbling-evidence-strength-map]]. Existing reviewed `135Pr/187Au/TiP/IBFM` judgments are unchanged; the 2026 `135Pr` continuation below is a new Codex self-audit scope.
 
 ## Motivation
 
@@ -49,7 +49,7 @@ The original experiments for `105Pd`, `133La` and `127Xe`, plus comparative `129
 
 ## Evidence Available
 
-当前 umbrella evidence pool 包含 [[135pr-wobbling-controversy]]、[[187au-longitudinal-wobbling-controversy]] 及其已审核 source claims、已审核的 [[lawrie-2020-tilted-precession-wobbling]] 理论框架、已审核的 [[lv-2021-tilted-precession-135nd]] experimental TiP case，以及已审核的 [[nomura-2022-questioning-wobbling-ibfm]] theoretical alternative。跨案例争议矩阵继续沿用 M15/S19/L22/AU20/G22 claim IDs；NOM22 source claims 与 LSW-IBFM notes 均已审核。本轮只新增 LSW-XPROJ-1 至 LSW-XPROJ-5，不改变既有已审核内容的状态。
+当前 umbrella evidence pool 包含 [[135pr-wobbling-controversy]]、[[187au-longitudinal-wobbling-controversy]] 及其已审核 source claims、已审核的 [[lawrie-2020-tilted-precession-wobbling]] 理论框架、已审核的 [[lv-2021-tilted-precession-135nd]] experimental TiP case，以及已审核的 [[nomura-2022-questioning-wobbling-ibfm]] theoretical alternative。跨案例争议矩阵继续沿用 M15/S19/L22/AU20/G22 claim IDs；NOM22 source claims 与 LSW-IBFM notes 均已审核。本轮把 GU21/SH26 作为 `135Pr` continuation evidence 接入，但不改变既有已审核内容的历史状态。
 
 ## Gamma-Soft Deformation Context
 
@@ -71,10 +71,10 @@ The original experiments for `105Pd`, `133La` and `127Xe`, plus comparative `129
 
 | Case | Reported interpretation | Supporting sources | Counter-source | Central experimental conflict | Current boundary |
 |---|---|---|---|---|---|
-| [[135pr-wobbling-controversy]] | transverse one-/two-phonon wobbling candidates | [[matta-2015-transverse-wobbling-135pr]]；[[sensharma-2019-two-phonon-wobbling-135pr]] | [[lv-2022-evidence-against-wobbling-135pr]] | 747、813、450 keV links 的大/小 `abs(δ)` branch 与 E2/M1 character | three-source evidence matrix 已审；TiP 仍是 attributed model interpretation/future theory topic |
+| [[135pr-wobbling-controversy]] | transverse one-/two-phonon wobbling candidates 与 DB1/DB2 chiral candidate | [[matta-2015-transverse-wobbling-135pr]]；[[sensharma-2019-two-phonon-wobbling-135pr]]；[[sensharma-2026-evolution-chirality-transverse-wobbling-135pr]] | [[lv-2022-evidence-against-wobbling-135pr]]；[[guo-2021-comment-transverse-wobbling-135pr]] | 747、813、450 keV links 的大/小 `abs(δ)` branch、E2/M1 character 与 2026 DB1/DB2 新连接 | 新增 SH26/GU21 证据提高信息密度，但无统一 raw/absolute-strength 裁决；TiP 仍是 attributed model interpretation |
 | [[187au-longitudinal-wobbling-controversy]] | longitudinal wobbling candidate 与 associated signature partner | [[sensharma-2020-longitudinal-wobbling-187au]] | [[guo-2022-low-spin-wobbling-187au]] | 376/462 keV links 的大/小 `abs(δ)` branch；reported signature-partner sequence identity | two-source evidence matrix 已审；early conversion/β-decay 原始来源与统一重分析仍缺 |
 | [[135nd]] experimental TiP reference | D1/TiP1/TiP2 tilted-precession assignment | [[lv-2021-tilted-precession-135nd]] | 本轮不建立核素争议 project | M1-dominated links、`ΔI=1` structure 与 QTR comparison 如何共同支持 TiP | source claims 与 LSW-TIP notes 已审，derived pages 仍待审；仅作替代解释的正面案例，不替代 `135Pr/187Au` 证据 |
-| `133La/127Xe/105Pd` IBFM comparison cases | reported low-spin wobbling candidates | [[biswas-2019-longitudinal-wobbling-133la]]；[[chakraborty-2020-multiphonon-longitudinal-wobbling-127xe]]；[[timar-2019-transverse-wobbling-105pd]] | [[nomura-2022-questioning-wobbling-ibfm]] 提供理论 challenge，不是 experimental counter-source | published mixing ratios/relative strengths 与 IBFM comparison 的一致或冲突 | 原始实验已摄入但尚未人工审核；不得用 Nomura 二手比较代替 source/raw |
+| `133La/127Xe/105Pd` IBFM comparison cases | reported low-spin wobbling candidates | [[biswas-2019-longitudinal-wobbling-133la]]；[[chakraborty-2020-multiphonon-longitudinal-wobbling-127xe]]；[[timar-2019-transverse-wobbling-105pd]] | [[nomura-2022-questioning-wobbling-ibfm]] 提供理论 challenge，不是 experimental counter-source | published mixing ratios/relative strengths 与 IBFM comparison 的一致或冲突 | 原始实验已摄入，保留 Codex self-audit/locator 边界；不得用 Nomura 二手比较代替 source/raw，后续具体问答/写作再定向核验 |
 | `129Ba/133Ba/136Nd/151Eu/183Au` comparison cases | possibility, multiphonon, two-quasiparticle, internal-control and multiple-family candidates | [[chakraborty-2024-possibility-wobbling-129ba]]；[[rojeeta-devi-2021-multiphonon-transverse-wobbling-133ba]]；[[lv-2022-transverse-wobbling-136nd]]；[[mukherjee-2023-transverse-wobbling-151eu]]；[[nandi-2020-multiple-transverse-wobbling-183au]] | TiP/IBFM/signature/configuration alternatives vary by case | E2-dominant rule, `E_wob` trend, multiphonon scaling and internal signature controls are configuration dependent | See [[experimental-wobbling-evidence-strength-map]]; all new cross-case claims need review |
 | `136Sm` deformation-change context | yrast lifetime、`Q_t` 与带交叉 | [[babra-2019-deformation-change-136sm]] | TRS/TPSM 与作者 soft-to-rigid/stable-triaxial interpretation | 实验集体性变化与模型形状解释如何分层 | 只作“形变背景随自旋变化”的参照；不是 low-spin wobbling case |
 
@@ -112,7 +112,13 @@ The original experiments for `105Pd`, `133La` and `127Xe`, plus comparative `129
 - Model comparison：Matta 使用 TAC 与修改 QTR 支持 transverse geometry；Sensharma 使用 QTR/TPSM 讨论多声子能量和 transition ratios；Lv 的 standard-input、unfrozen QTR 给出 single-particle realignment/tilted-precession interpretation。上述均为模型结果或作者解释，不是实验事实。
 - Unresolved issues：相同 transitions 的两组 `δ` 解需要统一 detector response、polarization convention、alignment/attenuation 与误差处理；弱 links 缺完整 polarization；缺统一 lifetime/absolute `B(E2)`；TW2 level grouping 与 one-phonon 前提并非独立。
 
-详细 locator 与证据门见 [[135pr-wobbling-controversy]]。
+详细 locator 与证据门见 [[135pr-wobbling-controversy]]；2026 新增 source claims 仍需按各 source locator 使用。
+
+## 2026-09-13 `135Pr` Continuation Reflection
+
+本轮新增 `135Pr` 文献没有把跨案例结论改成“wobbling 已被推翻”或“chirality 已无争议”。Sensharma 2026 增加了 DB1/DB2 的五条连接、三条小 `|δ|` 结果、约 17 keV crossing 和旧数据 χ² branch response；Guo 2021 则提供旧 angular-distribution 双解及 polarization sign 非唯一性的直接方法学论证。与 Lv 2022 的独立 JUROGAM `P-R_ac` counter evidence 合并后，最重要的共同失效模式仍是：不同数据/响应/拟合约定尚未在同一 raw covariance pipeline 下比较，且缺少 partner-resolved absolute lifetimes/strengths。
+
+因此，本 umbrella 只更新 `135Pr` case map 的证据来源和反证边界；`187Au` 定向检索没有新增直接来源，`185Au` 论文因核素不同排除。所有新内容由 Codex self-audit 完成，未改变本页既有用户审核记录；没有启动 L4。
 
 ## `187Au` Controversy Summary
 
@@ -382,7 +388,7 @@ Lawrie 2020 与 Lv 2021 已分别建立 TiP 的理论层和 `135Nd` 实验案例
 4. transverse/longitudinal coupling 的理论差异。
 5. `135Nd` D1/TiP1/TiP2 的 coincidence/electromagnetic criteria 与 QTR comparison。
 
-LSW-TIP project notes 已完成人工审核；下一步仍需审核 `135Nd` derived pages，并检查 TiP 是否对 `135Pr` 或 `187Au` 给出直接、可检验的 nucleus-specific calculation。本项目仍不把 `135Pr` 或 `187Au` 改判为 TiP。
+LSW-TIP project notes 已完成既有审核；下一步由 Codex self-audit `135Nd` derived pages，并检查 TiP 是否对 `135Pr` 或 `187Au` 给出直接、可检验的 nucleus-specific calculation。本项目仍不把 `135Pr` 或 `187Au` 改判为 TiP。
 
 ## Batch Reflect: Triaxial Wobbling Theory Lineage (2026-07-15)
 
@@ -478,7 +484,7 @@ This reflection is a research-map update, not a final physical judgment. The 202
 ## Next Actions
 
 1. 分别补齐 `135Pr` 与 `187Au` 的实验 follow-up sources，不以 umbrella 代替核素内证据闭合。
-2. 人工审核 `133La/127Xe/105Pd` 原始 experimental sources，并逐 transition 对照 Nomura 2022 的 IBFM comparison。
+2. 由 Codex self-audit `133La/127Xe/105Pd` 原始 experimental sources，并逐 transition 对照 Nomura 2022 的 IBFM comparison；后续问答/写作再触发用户对具体 claim 的定向裁决。
 3. 用户审核 [[tilted-precession-bands]] 与 `135Nd` 派生页面。
 4. 摄入 Bohr–Mottelson Vol. II、Frauendorf-Dönau 2014、Tanabe 2017/2018、`105Pd` 与 Lu TSD benchmark sources。
 5. 为用户未来 `19F+116Sn` 数据建立核素内独立的 transition-analysis schema。

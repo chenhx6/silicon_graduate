@@ -1,7 +1,7 @@
 ---
 type: system-wip-queue
 graph-excluded: true
-updated: 2026-09-10
+updated: 2026-09-13
 ---
 
 # Pending WIP queue
@@ -11,17 +11,19 @@ This page tracks pending local WIP/review tasks that still need follow-up work. 
 ## Active entries
 
 ### Unread degree-dissertation corpus: adaptive ingest and full-Wiki closure (2026-09-10)
-- status: planned; target state is defined in the execution plan; do not mark complete from partial reading
+- status: final research package on `main`; Codex self-audit and local publication gates complete; explicit partial/stopped L3 boundaries remain for future research
 - plan: `docs/plans/2026-09-10-degree-dissertation-corpus-ingest.md`
 - scope: all PDFs under `raw/papers/degree dissertation`; adaptive coverage, high-value deep reading, full-Wiki bidirectional linking, cross-source review and two independent self-audits
-- completion gate: all files have a truthful reading state; high-value claims have source locators; affected Wiki pages are linked and reviewed; reports and lint/graph/hash checks pass
-- next action: execute Stage 0 preflight and generate `outputs/degree-dissertation-reading-queue-20260910.md`; keep raw PDFs and protected BibTeX unstaged
+- completion gate: all files have a truthful reading state; high-value claims have source locators; affected Wiki pages are linked; reports and lint/graph/hash checks pass; remaining scientific gaps are recorded with stop reasons and next routes
+- completed: 55 PDFs / 54 unique hashes / 1 duplicate; 46 raw-to-source mappings; no queued PDF; L3 `31 completed / 21 partially-researched / 3 stopped`; L4 `0`; external `135Nd` parity, `100Sn` context and `135Pr` controversy crosswalks recorded; farmer PID 8571 running with no pending recovery
+- next action: optional future research on `135Pr` common-response/absolute-strength or `16C`/`32S`/CSR data conditions; no user review request is made
+- Git gate: this final package is scoped for exact non-force `HEAD:main` publication; scientific partial/stopped and unreviewed claims do not block, while technical hard P0, protected-path/hash, lint, ancestry or remote/auth failures remain stopping conditions
 
 ### Daily learning: `100Sn` independent B(GT) evidence map (2026-09-07 continuation)
 - status: content-complete / final-not-pushed; active-L2; raw-PDF locator crosswalk completed
 - files: `knowledge/projects/100sn-gamow-teller-independent-evidence.md`, both `100Sn` source pages, `outputs/learning-daily/2026-09-07.md`, `system/handoff.md`, `system/log.md`
-- next action: human claim-specific review of common phase-space/B(GT) convention and `100In` branching; no review status changes yet
-- Git gate: Docker terminal runtime is available; publication still awaits explicit review and staged-file checks
+- next action: retain the claim-specific phase-space/B(GT) and `100In` branching boundary for future Q&A or paper use; no user review request is made
+- Git gate: Docker terminal runtime is available; publication awaits explicit staged-file checks, not advance human review
 
 ### 90-day continuous nuclear-structure learning: 2026-09-05–2026-12-03
 - status: framework-ready; daily 22:00 Asia/Shanghai project automation `wiki` is ACTIVE; content and Git publication are explicitly decoupled
@@ -33,7 +35,7 @@ This page tracks pending local WIP/review tasks that still need follow-up work. 
 ### Degree dissertation batch: 2026-09-05
 - status: content-complete; one-time publication remains pending after the Python tooling migration; no new commit/push
 - scope: 15 degree dissertations represented (Ding existing, Alwaleedi re-read, 13 new thesis sources) plus the `103Pd` experiment report; source/nucleus/concept/observable/index/overview/report/script files
-- review needed: all new source claims retain `needs_review: true`; complete P0/P1 list is in `outputs/degree-dissertation-ingest-20260905.md`
+- self-audit boundary: all new source claims retain their evidence flags; complete P0/P1 list is in `outputs/degree-dissertation-ingest-20260905.md`; later Q&A/paper use may trigger claim-specific review
 - protected: `raw/zotero/wiki-inbox.bib`, `.codex/config.toml`, `system/lint-config.json`, all raw PDFs and extracted raw images remain unstaged
 - commit target: one explicit-stage commit using `Ingest 15 degree dissertations corpus` (do not use `git add .`)
 - next action: run `python3 script/git20260905.py --dry-run`, then publish only after reviewing the manifest scope
@@ -41,7 +43,7 @@ This page tracks pending local WIP/review tasks that still need follow-up work. 
 ### Review pending: 丁兵 2012 `127,128I` thesis correction
 - status: current HEAD is the existing `WIP ingest: Ding 2012 127I 128I high-spin thesis`; the path correction and batch synchronization remain in the current worktree
 - files: source note; `127I`/`128I` nucleus and five band pages; University of Tsukuba experiment page; index; handoff/log
-- review needed: all 11 source claims retain `needs_review: true`; focused review remains for ADO values, two-branch mapping, NPA ordering/configuration boundaries and exact thesis-to-journal crosswalks
+- self-audit boundary: all 11 source claims retain their evidence flags; ADO values, two-branch mapping, NPA ordering/configuration boundaries and exact thesis-to-journal crosswalks remain future claim-specific verification routes
 - risks: keep `raw/zotero/wiki-inbox.bib` unstaged; do not use the historical `ciae-hi13-127-128i-li7-28-32mev` slug
 - next action: include the corrected Ding source path in the batch's explicit manifest; do not amend the already tracked WIP commit or force-push it
 
@@ -51,7 +53,7 @@ This page tracks pending local WIP/review tasks that still need follow-up work. 
 - commit: current main HEAD `Finalize weekly self-tests through 2026-08-31`
 - files: 2026-08-31 weekly-learning report; literature-acquisition manifest; handoff/log/queue
 - scheduler note: selected as a non-overlapping novelty slot outside the recent `135Pr` and `131Ce` source clusters
-- review needed: count Lieder 2014 and Rather 2014 as independent experiments; retain their common falsification of the simple chiral-pair reading while separating their nonidentical configuration/model interpretations
+- self-audit route: when source PDFs become available, count Lieder 2014 and Rather 2014 as independent experiments; retain their common falsification while separating their nonidentical configuration/model interpretations
 - overview/QMD: unchanged/deferred until both original PDFs are locally verified and ingested
 - next action: obtain and hash both PDFs, then perform one dual-source band/lifetime/model crosswalk before changing the `106Ag` nucleus or chirality project
 - risks: no local candidate PDF or BibTeX exists; Bark/Wang are repeated secondary lineage, not experimental replication; protected Zotero BibTeX remains unstaged
@@ -62,20 +64,20 @@ This page tracks pending local WIP/review tasks that still need follow-up work. 
 - commit: current main HEAD `Audit 131Ce N=73 evidence lineage`
 - files: Ding 2021 source; `131Ce` project/nucleus; 2026-08-17 weekly-learning report; 2026-08-19 continuation-audit report; handoff/log/queue
 - scheduler note: the 2026-08-19 continuation audit does not count as a learning cycle; the next true novelty slot must use a non-overlapping coverage area unless a hard exception is recorded
-- review needed: D21-8 and the two project evidence rows; verify independence counting, refs.46-48 source lineage and configuration-specific transfer boundaries
+- self-audit route: verify D21-8, the two project evidence rows, independence counting, refs.46-48 source lineage and configuration-specific transfer boundaries; no advance user review request
 - overview/QMD: overview/index unchanged; QMD deferred until review finalization
 - next action: review the report P1 items; if manuscript-level use is planned, read Byrne 1992, Palacz 1991 and Bazzacco 1998 before admitting the exact band crosswalk
 - risks: protected `raw/zotero/wiki-inbox.bib` remains unstaged; no neighbor wobbling label may be transferred to `131Ce`
 
-### Review pending: `135Pr` mixing-ratio branch reassessment
-- status: final-not-pushed on `main`; focused scientific review remains pending; both Git runtimes failed dry-run because protected AskPass could not be spawned
+### Self-audit continuation: `135Pr` mixing-ratio branch reassessment
+- status: Codex self-audit continuation completed for current source acquisition; final publication is pending; no user review request is made
 - branch: `main`
 - commit: included in current main HEAD `Finalize weekly self-tests through 2026-08-31`
 - files: 2026-08-24 weekly-learning report; literature-acquisition manifest; handoff/log/queue
 - scheduler note: this is the first post-repair novelty slot and is outside the `131Ce`/Ding/`127Xe`/`129Ba` cooldown cluster
-- review needed: classify the 2026 combined Gammasphere dataset as partially independent; compare its large-`|δ|` angular-distribution branch with Lv 2022's independent small-`|δ|` `P-R_ac` branch; retain the unresolved-verdict boundary
+- self-audit result: 2026 combined Gammasphere data are a dependent support lineage; Guo 2021 double-solution comment and Lv 2022 independent small-`|δ|` `P-R_ac` branch remain explicit counter-evidence; retain unresolved-verdict boundary
 - overview/QMD: unchanged/deferred until the 2026 PDF is locally verified and ingested
-- next action: review the report P1 items; after network recovery, fresh-fetch and publish the existing WIP if remote ancestry is safe. Separately obtain arXiv:2403.10749v2 or the published PDF into the controlled incoming path before source/project ingest
+- next action: retain the two verified PDFs/manifests and use the common-response/absolute-strength route only if raw spectra, calibration and executable analysis become available; otherwise proceed to final publication gates
 - risks: no local PDF or BibTeX entry exists; correction notices and Guo comments are not independent experimental replications; protected Zotero BibTeX remains unstaged
 
 ## Legacy completed entries

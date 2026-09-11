@@ -3,7 +3,7 @@ type: project
 title: "100Sn Gamow-Teller independent evidence map"
 aliases: [100Sn BGT comparison, 100Sn decay spectroscopy evidence map]
 created: 2026-09-06
-updated: 2026-09-07
+updated: 2026-09-12
 status: ai-draft
 review_status: unreviewed
 project_stage: competing-evidence-matrix
@@ -34,6 +34,7 @@ tags: [a100, 100sn, gamow-teller, beta-decay, evidence-map, project]
 |---|---|---|---|
 | [[hinke-2010-100sn-decay-spectroscopy]] | GSI FRS + SIMBA/RISING；`124Xe` projectile fragmentation at 1 GeV/u | historical low-statistics `100Sn` half-life/endpoint/BGT baseline | single within source; independent of RIKEN chain |
 | [[lubos-2016-100sn-neighboring-nuclei-decay-spectroscopy]] | RIKEN RIBF BigRIPS/WAS3ABi/EURICA；345 AMeV `124Xe+9Be` | higher-statistics Q-value, BGT and neighboring-nuclei decay chain | single within source; independent of GSI chain |
+| [[karthein-2024-electromagnetic-properties-indium-100sn]] | ISOLDE/CRIS precision laser spectroscopy of `101–131In` | independent `N=50` shell-closure/collectivity context; not a `100Sn` β-decay or `100In` branching measurement | independent context, not a third BGT chain |
 
 两条链标为 `multiple-independent`：不同 facility、植入/响应系统和 analysis chain。它们不是同一实验的重复出版，但数值仍不能在统一输入和误差模型前合并。
 
@@ -50,10 +51,11 @@ Raw-PDF reread completed for Hinke Ch.5.1–5.4 and Ch.6.2/7.1, and Lubos Ch.4.2
 | `B(GT)` / `log(ft)` | `BGT=9.1(+4.8/-2.3)` from single-channel formula; Hinke calls it Super GT and notes large statistical uncertainty（HK10-5/HK10-8；Ch.6.2 pp.76–79；Eq.A.8；Ch.7.1） | `BGT=5.26(+0.90/-1.06)`, `log(ft)=2.86±0.08` from Eq.4.25 with `T1/2=1.17 s`, `Q=3.74 MeV`; fit-range/systematic dependence noted（LB16-2/LB16-8；Ch.4.4.2 pp.80–81；Eqs.4.25–4.27） | Phase-space/Q input, branching, response and shell-model convention; no silent average | central unresolved comparison |
 | `100In` level scheme / branching | Five γ lines: 96, 141, 436, 1297, 2048 keV; Table 5.2 intensities are low-statistics and γγ shows only a 3-count 96–436 keV hint（HK10-4/HK10-6；Ch.5.2 pp.59–62；Table 5.2；Fig.5.7） | 96/141/436 keV intensities are approximately equal while 1297/2048 keV form two branches; ≈50 keV `5+→6+` link candidate; extra fragmented LSSM branches absent（LB16-3；Ch.4.2 pp.70–75；Figs.4.17–4.20；Ch.5.1 pp.83–84） | γγ closure, multipolarity and low-energy efficiency are decisive; candidate is not confirmation | complementary, not yet closed |
 | `100Sn` 6+ isomer | Four counts near 3004 keV in first 25 ns; timing probability requires `Eγ<100 keV`, `B(E2)≈40 W.u.`, while realistic `≈1 W.u.` favors later bins（HK10-7；Ch.5.4 pp.66–68；Fig.5.9） | No independent confirmation in the thesis summary; missing weak branches remain a stated limit（LB16-3） | Delayed timing, detector response and higher-statistics γγ/total-absorption data required | unresolved |
+| `100Sn` shell-closure context | Karthein 2024 measures In `Q_s`, magnetic moments and charge radii down to `101In (N=52)`; trends reduce toward `N=50` and are interpreted as supporting doubly-magic `100Sn`（KAR24-1–5；PDF pp.1–5） | Ground-state In electromagnetic properties are not decay observables and do not identify `100In` branches or GT phase space | Use as independent collectivity context only; do not average or merge with BGT values | no material change to BGT comparison |
 
 ## Interpretations and Alternatives
 
-- `B(GT)` 数值差异首先应作为 analysis/input difference 的候选，而不是 GT quenching 的直接反证；两份 source 都把 response、branching 或 level-scheme assumptions 置于解释链中（HK10-8；LB16-8）。
+- `B(GT)` 数值差异首先应作为 analysis/input difference 的候选，而不是 GT quenching 的直接反证；两份 source 都把 response、branching 或 level-scheme assumptions 置于解释链中（HK10-8；LB16-8）。Karthein 2024 的 In `Q_s`/半径趋势为独立壳闭合背景，不改变这条 decay-input 判断。
 - Hinke 的 “Super Gamow–Teller / no obvious quenching” 与 Lubos 的 large-space shell-model comparison 都是作者解释或模型比较，不是独立实验事实。
 - Model-space crosswalk: Hinke discusses a dominant isolated `1+` final state and reports no obvious quenching within large statistical errors; Lubos contrasts extreme single-particle `BGT=17.78`, `g_A` renormalization (`≈10`) and LSSM sums (`8.19` all final states, `7.82` within QEC window, first excited `1+` contribution `5.7`). These are model outputs/interpretations, not directly measured observables (Hinke Ch.1 pp.5–8; Lubos Ch.4.4.2 pp.80–81).
 - `100In` 的低能 level ordering、约 50 keV link 和 `6+` isomer 仍可由 missing weak branches、multipolarity ambiguity 或统计限制解释；“未观测”在当前灵敏度下只写为 conditional limitation。
@@ -79,6 +81,12 @@ Raw-PDF reread completed for Hinke Ch.5.1–5.4 and Ch.6.2/7.1, and Lubos Ch.4.2
 3. 逐条核对 `100In` γ branching、γγ closure、multipolarity 和低能探测效率；
 4. 对 `6+` isomer 候选给出 delayed-time distribution、响应模型和统计灵敏度；
 5. 用相同 shell-model space、矩阵元和 quenching convention 重算 comparison，而不是比较不同 model-space 的单个数字。
+
+## 2026-09-12 Warm-up Cross-check
+
+Karthein 等 2024 的 Nature Physics 论文和其公开 Zenodo 数据已完成来源/locator self-audit。它测量的是 `101–131In` 的 hyperfine-derived `Q_s`、磁矩和 charge radii，不是 `100Sn` half-life/Q-value、`100In` γ branching 或 `B(GT)`。因此本轮对项目的判断是 **no material change**：保留 GSI `9.1(+4.8/-2.3)` 与 RIKEN `5.26(+0.90/-1.06)` 的独立 decay chains 及其输入差异假设，仅增加 `N=50` collectivity 的独立外部背景。
+
+论文的 Data Availability 指向 Zenodo `10.5281/zenodo.10138423`（101–115In）和 `10.5281/zenodo.6406949`（113–131In）；结果图数据另有 Zenodo `10.5281/zenodo.11061390`。预印本 Ref.[99] 将结果图 DOI 写成 `10138423`，与 publisher/Zenodo 专门结果图记录不同，该 metadata discrepancy 已单列，未被当作物理冲突。大型 archive 没有下载，也没有启动无新问题/参数/代码/灵敏度包的 L4。
 
 ## Knowledge Impact and Learning Decision
 

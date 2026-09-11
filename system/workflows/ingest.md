@@ -27,7 +27,7 @@ updated: 2026-08-06
 
 普通单篇摄入指：一篇目标文献、明确 PDF 路径、明确 BibTeX key、明确摄入策略、明确研究主题、明确 project 关系，且不要求跨文献综合、修改 workflow、解释摄入策略、detailed workflow recap 或 detailed strategy-policy audit。普通单篇摄入不默认读取 detail 教程，但这不表示降低 PDF 阅读深度。
 
-多篇摄入不自动等于复杂摄入。若用户一次给出多篇文献但要求逐篇摄入，Codex 应按“一篇一篇顺序摄入”执行；每篇都必须保持 source note、claim kind、locator、needs_review、project relation 和 Human review triage 标准，并有自己的 source-level / claim-level 审核重点。不得因为多篇文献在同一提示词中出现，就合并成粗略批处理。只有多篇之间需要跨文献比较、冲突证据判断、project/synthesis 大综合、策略选择不明确，或用户要求 detailed strategy-policy audit 时，才读取 detail 教程。多篇任务达到自然主题阶段时，按短版 strategy 的 `Thematic batch REFLECT` 触发和收尾，不默认等待整个批次结束。
+多篇摄入不自动等于复杂摄入。若用户一次给出多篇文献但要求逐篇摄入，Codex 应按“一篇一篇顺序摄入”执行；每篇都必须保持 source note、claim kind、locator、needs_review、project relation 和 Agent self-audit triage 标准，并有自己的 source-level / claim-level 核查重点。不得因为多篇文献在同一提示词中出现，就合并成粗略批处理。只有多篇之间需要跨文献比较、冲突证据判断、project/synthesis 大综合、策略选择不明确，或用户要求 detailed strategy-policy audit 时，才读取 detail 教程。多篇任务达到自然主题阶段时，按短版 strategy 的 `Thematic batch REFLECT` 触发和收尾，不默认等待整个批次结束。
 
 开始新文献前检查 HEAD commit message，并在任务涉及未完成 WIP、review continuation 或非串行工作时读取 `system/wip-queue.md`。若 HEAD 是 active `WIP ingest:` 或 `WIP suspend:`，不得在同一分支直接开始下一篇摄入；先按 handoff/queue finalize/amend 当前 WIP，或等待用户明确要求另开分支、分离 pending WIP、放弃 WIP。
 
@@ -92,7 +92,7 @@ Staged evidence reading 只是阅读顺序优化，不是降低摄入标准，�
 9. 可检验 research-question potential；
 10. 新证据是否要求修正现有认识；
 11. 该内容应留在当次输出、进入受控暂定推理层，还是经审核后晋升到正式知识；
-12. Human review 与 promotion decision。
+12. Codex self-audit 与后续 promotion decision；用户审核只在后续问答或论文写作实际需要时触发。
 
 ### 2.2.1 伴随观测与反证审计（高风险谱学 claim）
 
@@ -144,19 +144,19 @@ A source outside the current main research anchor may still justify lightweight 
 - 模型结果；
 - 我们的推断或综合判断。
 
-无法核实的内容标记 `needs-human-review`。
+无法核实的内容保留 `needs_review: true` 或相应 evidence boundary；由 Codex self-audit 记录核验范围和下一路线，不自动要求用户审核。
 
-来源页中的 scientific motivation、method/design logic、reasoning chain 和 limitations，若为作者明确陈述，应给出 locator 并标为作者内容。若由 Agent 根据原文分析性重建，必须单列为 `Analytical reconstruction` 或 `provisional interpretation`，列出证据、locator、关键推断步骤与不确定性，不得写成 source-grounded fact。重要或存在歧义的分析性重建进入 P0/P1；低复用内容留在当次输出，高复用且值得长期保留的内容按受控暂定研究推理流程处理，未经审核不得晋升为正式 synthesis/project 判断。
+来源页中的 scientific motivation、method/design logic、reasoning chain 和 limitations，若为作者明确陈述，应给出 locator 并标为作者内容。若由 Agent 根据原文分析性重建，必须单列为 `Analytical reconstruction` 或 `provisional interpretation`，列出证据、locator、关键推断步骤与不确定性，不得写成 source-grounded fact。重要或存在歧义的分析性重建进入 P0/P1；低复用内容留在当次输出，高复用且值得长期保留的内容按受控暂定研究推理流程处理，先由 Codex self-audit 并明确证据边界。
 
-每篇 source 必须把 source-specific Human review triage 写回页面，直接采用短版 strategy 的 P0/P1/P2/P3 定义，不在 source 或聊天中另建分级规则。Triage 不得只存在于最终报告。Human Review Notes 与 Human Review Record 为事件驱动的可选区块：前者只在用户实际给出批注后加入，Agent 可为清晰度压缩、重排或整理用户表达，但必须保持原意和判断强度并与 Agent inference 分开；后者只记录真实发生的审核事件。
+每篇 source 必须把 source-specific Agent self-audit triage 写回页面，直接采用短版 strategy 的 P0/P1/P2/P3 定义，不在 source 或聊天中另建分级规则。Triage 不得只存在于最终报告。Human Review Notes 与 Human Review Record 为事件驱动的可选区块：只有用户在后续问答或写作中实际给出批注时才加入；Agent 可为清晰度压缩、重排或整理用户表达，但必须保持原意和判断强度并与 Agent inference 分开。
 
 重要的 Related Knowledge / Project Relation 可使用轻量关系类型：`supports`、`limits`、`conflicts`、`foundational-background`、`methodological-bridge`、`competing-interpretation`、`retrospective-connection`、`not-direct-evidence`。只标注有助于知识判断的主要关系，并附简短具体说明；普通链接无需全部类型化。`retrospective-connection` 不得把后来术语倒灌为早期作者表述，`not-direct-evidence` 明确理论、方法或历史背景不能直接支持具体实验结论。
 
-新建页面默认 `review_status: unreviewed`。页面级人工审阅与 claim-level `needs_review` 分开维护；Codex 不得因用户浏览过页面而自动清除具体 claim 的待审状态。
+新建页面默认 `review_status: unreviewed`。页面级用户审核记录与 claim-level `needs_review` 分开维护；Codex self-audit 可以更新 claim evidence 状态，但不得把该动作写成 `human-reviewed`。
 
 ## 5. 更新领域页面
 
-重用旧 source、nucleus、band、concept、method、project 或 synthesis 页面时，只按本轮实际需要做最小 on-touch migration；不得因为旧格式本身扩大任务范围、批量补历史 ingest mode、创建 research-note、转换 Personal Notes 或统一补 frontmatter。若修改科学 claim、interpretation、review/reasoning state 或知识关系，必须进入 Human review triage；未触及的历史页面保持不变。
+重用旧 source、nucleus、band、concept、method、project 或 synthesis 页面时，只按本轮实际需要做最小 on-touch migration；不得因为旧格式本身扩大任务范围、批量补历史 ingest mode、创建 research-note、转换 Personal Notes 或统一补 frontmatter。若修改科学 claim、interpretation、review/reasoning state 或知识关系，必须进入 Agent self-audit triage；后续问答或论文写作需要用户裁决时，再进入针对具体 claim 的 Human review；未触及的历史页面保持不变。
 
 1. 核素信息更新到 `knowledge/nuclei/`。
 2. 具体能带或双重带更新到 `knowledge/bands/`。
@@ -168,18 +168,18 @@ A source outside the current main research anchor may still justify lightweight 
 8. 新来源与旧来源发生冲突时，并列写入，不静默覆盖。
 9. 只有长期可复用的内容才进入综合页。
 
-## 6. 人工复核门
+## 6. Codex self-audit gate
 
-以下变化必须向用户展示后再落为确定结论：
+Codex 在 source ingest、L3/L4 和批次综合中自行核对以下内容：
 
-- 新的自旋宇称或组态指认；
-- 从“候选”升级为较强的结构解释；
-- γ-soft 与 γ-rigid 之间的判断；
-- wobbling、chiral doublet 或其他竞争解释的取舍；
-- `confidence: high`；
-- 概念页或能带页的合并。
+- 新的自旋宇称或组态指认是否有直接 locator；
+- “候选”“支持”“确定”等措辞是否与证据强度相符；
+- γ-soft、γ-rigid、wobbling、chiral doublet 和其它竞争解释是否分开；
+- claim 是否区分实验事实、实验判据、作者解释、模型结果和 Codex inference；
+- `confidence` 是否由证据而非引用数量决定；
+- source lineage、反证、适用条件和失败条件是否完整。
 
-只有用户明确确认某条 claim 或明确圈定的一组 claims 已完成复核，Codex 才能把相应 `needs_review: true` 改为 `false`。未复核内容可以帮助定位问题，但不能进入论文级证据池。
+完成上述 self-audit 后，Codex 可以更新对应 claim 的 evidence 状态或 `needs_review`，但不得设置 `human-reviewed` 或写成用户确认。后续问答需要裁决具体表述、或论文写作需要进入 paper evidence gate 时，再对具体 claim 触发用户确认。
 
 ## 7. 收尾与 WIP lifecycle
 
@@ -190,12 +190,12 @@ A source outside the current main research anchor may still justify lightweight 
 - QMD refresh 不是普通单篇摄入固定收尾成本；可只运行轻量状态检查，或写明 `QMD refresh deferred`、原因和建议补跑时机。批量摄入、多篇文献完成、用户明确要求或大型 project/synthesis 依赖最新检索时，再运行 `qmd update` / `qmd embed`。
 - 检查是否推进 `knowledge/questions.md` 中的开放问题；不为形式完整而新增重复问题。
 - 向 `system/log.md` 追加简短 ingest 记录，更新 `system/handoff.md` 的 Active handoff；用户不需要每次手动要求 handoff/log 收尾。
-- 普通摄入结束后由 Agent 完成全文、locator、claim kind、证据层、竞争解释和 P0/P1 自审；不存在未隔离 hard P0 且检查通过时，可把 rolling WIP amend 为 final，并按用户已建立的持续 commit/push 授权进入 H3 与非 force push。Agent 自审不改变页面级 `unreviewed` 或 claim-level `needs_review`，也不写入 Human Review Record/history。
-- 摄入尚未完成、存在未隔离 hard P0、检查失败、远端异常，或用户明确要求先审核时，创建/保留本地 WIP ingest commit、不 push，并在 `system/wip-queue.md` 写入或更新 pending entry；queue 只保留继续处理所需的最新 branch/commit/next action，overview/QMD 可按规则 deferred。
+- 普通摄入结束后由 Agent 完成全文、locator、claim kind、证据层、竞争解释和 P0/P1 self-audit；不存在来源身份、raw/哈希、权限、凭据、危险重叠或 Git 安全 hard P0 且检查通过时，可把 rolling WIP amend 为 final，并按用户已建立的持续 commit/push 授权进入 H3 与非 force push。Agent self-audit 不改变页面级 `human-reviewed` 事件含义，也不写入 Human Review Record/history。
+- 摄入尚未完成、存在技术 hard P0、检查失败或远端异常时，创建/保留本地 WIP ingest commit、不 push，并在 `system/wip-queue.md` 写入或更新 pending entry；科学 partial/stopped 状态在边界清楚时不单独阻止 final/push，overview/QMD 可按规则 deferred。
 - handoff/log 不保存长复盘；Active handoff 记录任务状态、commit/push 状态、未完成事项、P0/P1 审核重点、风险和下一步。
 - 执行 `check.md` 中与本次摄入相关的项目。
-- 最终复盘采用 compact final recap：Result status、commit/push、关键文件、Human review triage、checks、next action。
-- 最终复盘必须按 `system/workflows/ingest-strategies.md` 输出 Human review triage。所有 P0 都必须逐项可读、可审核，可分批展示但不得聚合隐藏、降级或遗漏；P1 可分组展示但仍须呈现实际判断、证据、Agent inference 和审核目的。多篇摄入必须按每篇分别列 P0/P1。
+- 最终复盘采用 compact final recap：Result status、commit/push、关键文件、Agent self-audit triage、checks、next action。
+- 最终复盘必须按 `system/workflows/ingest-strategies.md` 输出 Agent self-audit triage。所有 P0 都必须逐项可读、可追溯，可分批展示但不得聚合隐藏、降级或遗漏；P1 可分组展示但仍须呈现实际判断、证据、Agent inference 和后续问答/写作核验目的。多篇摄入必须按每篇分别列 P0/P1。
 
 ### 7.1 Ingest completion and Agent self-audit
 
@@ -204,17 +204,17 @@ A source outside the current main research anchor may still justify lightweight 
 1. 运行 `git status --short`、`git diff --stat`、`git diff --check`；
 2. 运行 `python system/scripts/wiki_lint.py --fail-on error`；
 3. 回查每篇全文与 source-specific triage，确认核心 claim 有可用 locator、事实/作者解释/模型/Agent synthesis 分层明确、竞争解释与反证未被抹平；P0 必须逐项处置，P1 保留为未来证据采用时的复核优先级；
-4. Agent 自审通过且不存在未隔离 hard P0 时，显式暂存本轮摄入相关文件，不使用 `git add .`；若 HEAD 是本任务 rolling WIP，则 amend 为与实际范围相符的 final commit，否则直接创建 final commit；
-5. 不把 Agent 自审记为 Human review，不写 `system/review-history.md`，不将 `review_status` 升为 `human-reviewed`，不自行把 `needs_review: true` 改为 `false`；
+4. Agent self-audit 通过且不存在技术 hard P0 时，显式暂存本轮摄入相关文件，不使用 `git add .`；若 HEAD 是本任务 rolling WIP，则 amend 为与实际范围相符的 final commit，否则直接创建 final commit；
+5. 不把 Agent self-audit 记为 Human review，不写 `system/review-history.md`，不将 `review_status` 升为 `human-reviewed`；可依据逐 claim 证据核查更新 `needs_review`，但必须在报告中说明依据和边界；
 6. 用户的持续 commit/push 授权在普通 ingest 通过发布门后生效：完成 H3、fresh fetch、remote ancestry、精确 refspec dry-run，再以同一 refspec 非 force push；当前指令中的“不要 push”“只 commit”“只修改”可覆盖本轮发布，认证、远端漂移或检查失败立即 safe suspend；
-7. 尚未完成、存在未隔离 hard P0、检查失败或用户明确要求先审核时，创建/保留 `WIP ingest: <paper short name> for user review`，更新 pending queue，不 push；
-8. 最终复盘列出 final/WIP hash、message、push 状态、关键文件、Agent self-audit 结果、Human review triage 与未来 claim 复核重点。
+7. 尚未完成、存在技术 hard P0、检查失败或远端异常时，创建/保留 `WIP ingest: <paper short name> for self-audit`，更新 pending queue，不 push；科学 partial/stopped 状态若已隔离且检查通过，不单独触发 WIP；
+8. 最终复盘列出 final/WIP hash、message、push 状态、关键文件、Agent self-audit 结果、后续用户核验入口与未来 claim 复核重点。
 
-WIP ingest 是长任务、中断、hard P0 或用户明确审核请求下的本地检查点，不表示科学内容已人工复核。普通 ingest 的 final/push 也只表示 Agent 已完成摄入自审和工程检查，不表示页面或 claims 已经人类复核。若用户明确禁止本地 WIP，保留工作树 diff，并在 diff 较大时提示可能产生 Codex、Git 或文件监听的持续 CPU 负担。
+WIP ingest 是长任务、中断、技术 hard P0 或安全暂停下的本地检查点，不表示科学内容已由用户审核。普通 ingest 的 final/push 表示 Agent 已完成摄入 self-audit 和工程检查；页面是否 `human-reviewed`、具体 claim 是否适合论文，分别由真实用户事件和 paper evidence gate 决定。若用户明确禁止本地 WIP，保留工作树 diff，并在 diff 较大时提示可能产生 Codex、Git 或文件监听的持续 CPU 负担。
 
 ### 7.2 Review finalization
 
-用户审核后，若上一轮处于 `WIP ingest:` / source review / waiting for user review / waiting for user P0/P1 review 状态，且用户给出实质性审核意见，并明确表示或根据当前消息与上下文可以无歧义地判断本轮人工审核已经结束，应识别为 human-review completion event，并在适用时进入 `review-finalization request`。
+后续问答或论文写作中的用户审核完成后，若上一轮处于 `WIP ingest:` / source review / `WIP review:` 状态，且用户给出实质性审核意见，并明确表示或根据当前消息与上下文可以无歧义地判断本轮审核已经结束，应识别为 human-review completion event，并在适用时进入 `review-finalization request`。
 
 不要求固定触发短语；若存在歧义，不得自动写入 `system/review-history.md`。用户明确要求“只修改不 finalization”“只修改，不提交”或“只 commit，不进行其它收尾”时，不进入本地 finalization；“不要更新 overview”或“不要刷新 QMD”只覆盖对应步骤。“不要 push”只表示继续不 push，不取消 review-finalization 或本地 commit。没有这些覆盖要求时，默认进入适用的 finalization，并在发布门通过后自动 push。
 

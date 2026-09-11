@@ -15,7 +15,7 @@ year: 2022
 volume: 828
 pages: 137010
 doi: 10.1016/j.physletb.2022.137010
-arxiv:
+arxiv: 2011.14354
 language: en
 canonical_source: doi:10.1016/j.physletb.2022.137010
 zotero_item_key:
@@ -37,7 +37,7 @@ tags: [a190, 187au, wobbling-counter-evidence, hirfl, qtr, low-spin-precession]
 
 ## Bibliographic Record
 
-S. Guo et al., *Physics Letters B* **828**, 137010 (2022)，DOI `10.1016/j.physletb.2022.137010`。题名、作者、年份与 DOI 和只读 BibTeX 条目唯一匹配，使用 citation key `guo_2022_Probingnature`。
+S. Guo et al., *Physics Letters B* **828**, 137010 (2022)，DOI `10.1016/j.physletb.2022.137010`，arXiv `2011.14354v3`。题名、作者、年份、DOI 和 arXiv 版本身份一致，使用 citation key `guo_2022_Probingnature`。
 
 ## Scope and Reading Depth
 

@@ -79,12 +79,12 @@ tags: [a130, high-spin, barium-isotopes, chiral-doublet-bands, k-isomer, t-band,
 | ID | 陈述 | claim_kind | evidence_level | source_independence | locator | needs_review |
 |---|---|---|---|---|---|---|
 | QY19-1 | 65 MeV `13C` + `122Sn` 反应和 GALILEO/EUCLIDES/Neutron Wall 符合测量显著扩展了 `130,131Ba` 的高自旋纲图。 | experimental-fact | direct | multiple-dependent | Abstract；Ch.3；Ch.5 | true |
-| QY19-2 | `130Ba` 中首次观察到建立在 Kπ=8−、T1/2=9.5 ms 同核异能态上的转动结构；分支/混合比提取的 gK、gR 与 `ν7/2+[404]⊗9/2−[514]` 预期相容。 | experimental-fact + author-interpretation | direct | multiple-dependent | Abstract；Ch.5.1；Ch.6 pp.75–76 | true |
+| QY19-2 | `130Ba` 中首次观察到建立在 Kπ=8− 同核异能态上的转动结构；Ch.5.1 正文写 `T1/2=9.4 ms`，摘要/总结写约 `9.5 ms`。分支/混合比提取的 gK、gR 与 `ν7/2+[404]⊗9/2−[514]` 预期相容。 | experimental-fact + author-interpretation | direct | multiple-dependent | Abstract；Ch.5.1 physical PDF pp.55–61；Ch.6 pp.75–76 | true |
 | QY19-3 | 建立在 `130Ba` 8+、2979 keV 能级上的带被作者解释为 A≈130 首例 t-band，候选组态为 `ν7/2−[523]⊗9/2−[514]`。 | author-interpretation | indirect | multiple-dependent | Ch.5.1；Ch.6 p.75 | true |
 | QY19-4 | `130Ba` 两个 S-band 的大 signature splitting 被作者用于区分质子长椭与中子扁椭激发，并报告四准粒子带和负宇称带。 | author-interpretation | indirect | multiple-dependent | Abstract；Ch.5.1；Ch.6 | true |
 | QY19-5 | `131Ba` 观察到 19 条转动带、其中 9 条新建；作者提出一对负宇称和两对正宇称 MχD。 | experimental-fact + author-interpretation | direct | multiple-dependent | Abstract；Ch.5.2；Ch.6 p.75 | true |
 | QY19-6 | `131Ba` 正负宇称带之间的 E1 跃迁被作者解释为八极关联；带 3–6 的近简并还被提出可能涉及赝自旋与手征的共同破缺。 | experimental-criterion + author-interpretation | indirect | multiple-dependent | Ch.5.2；Ch.6 p.75 | true |
-| QY19-7 | `87Zr` 第一激发态 `7/2+` 的寿命为 `1017(16) ps`，由此得到的 `B(E2;7/2+→9/2+)` 与 `N=47` 系统学和 `86Zr` 核芯集体性相近。 | experimental-fact | direct | single | Abstract；Ch.5.3；Ch.6 p.76 | true |
+| QY19-7 | `87Zr` 第一激发态 `7/2+` 的寿命为 `1017(16) ps`；同一延迟符合分析给出 `B(E2)=258.8(15) e² fm⁴=11.3(7) W.u.` 和 `B(M1)=0.0059(3) μ_N²=0.0033(2) W.u.`，并与 `N=47` 系统学和 `86Zr` 核芯集体性比较。 | experimental-fact | direct | single | Abstract；Ch.5.3 physical PDF pp.71–73；Ch.6 p.76 | true |
 | QY19-8 | `130Ba`/`131Ba` 的组态、形变和 MχD 结论依赖角关联、分支、邻核系统学及模型；不能仅凭本论文宣称直接测得 γ 形状或已证明手征。 | analytical-boundary | inferred | multiple-dependent | Ch.5–6；缺少绝对形变/完整矩阵元 | true |
 
 ## Nuclear Structure Information
@@ -166,3 +166,20 @@ tags: [a130, high-spin, barium-isotopes, chiral-doublet-bands, k-isomer, t-band,
 ## Non-source Notes and Follow-up
 
 本论文是 `131Ba` GALILEO 数据的博士论文层复述/扩展，后续计数不得与 `guo-2020-pseudospin-chiral-quartet-131ba`、`ding-2021-131ba-133ce-signature-splitting` 当作独立实验重复加权。
+
+## 2026-09-11 L3 Independence and Lifetime Crosswalk
+
+本次把 `QY19-002` 拆成“`130Ba` K-isomer 数值/组态”“`87Zr` 寿命与派生强度”和“`131Ba` GALILEO 数据谱系”三个证据层，均回到本地 PDF/source，而不把同一篇论文中的不同实验混成一个样本。
+
+| Evidence layer | Direct locator and result | Independence / limitation |
+|---|---|---|
+| `130Ba` K-isomer | Ch.5.1 physical p.55（printed p.54）把结构写在 `Kπ=8− (T1/2=9.4 ms)` 异能态上；摘要/总结约写 `9.5 ms`。物理 PDF pp.59–61 给出 `δ`、`(gK−gR)/Q0`、`gK/gR` 和 `B(E2;ΔI=1)/B(E2;ΔI=2)` 的提取链。 | `9.4/9.5 ms` 是同一 source 内的数值表述差异，不能在无作者版本核对时静默择一；g 因子和模型组态仍需 claim-level review。 |
+| `87Zr` lifetime/strength | `87Nb` β+ 衰变经 SHANS 的 β–γ delayed-coincidence 测量；201-keV γ 的卷积拟合在 physical p.71 给 `τ=1017(16) ps`，并由 δ=`−0.35`、`αT=0.0370` 的转换得到 `B(E2)=11.3(7) W.u.`、`B(M1)=0.0033(2) W.u.`。 | 这是与 GALILEO `130,131Ba` 在束实验分开的 β-γ 寿命实验；B(E2)/B(M1) 是由寿命、混合比和内转换系数派生的量，不是独立的绝对矩阵元重测。 |
+| `131Ba` lineage | Qiang thesis 的 `122Sn(13C,xn)`、65 MeV、GALILEO+EUCLIDES+Neutron Wall 与 Guo 2020 的 `122Sn(13C,4n)`、65 MeV、GALILEO 25-detector、约 `1.2×10^9` fold≥3 events 相符；Ding 2021 使用同一反应/能量/阵列和同样事件量。 | 本地证据支持同一 GALILEO campaign/data lineage，而不能仅凭相同 event total 推断三份文件的精确子集关系；Qiang、Guo、Ding 不计为三个独立 `131Ba` 实验。 |
+
+阶段结论：`87Zr` 的直接寿命 locator 和派生强度链已闭合到 source level，`131Ba` 的 shared/dependent lineage 也已明确；但 `130Ba` 的 9.4/9.5-ms source conflict、g-factor 误差传播和所有 `131Ba` MχD/绝对强度缺口仍保留 `needs_review`。`DD-20260910-QY-002` 继续保持 `partially-researched`，本轮不提升 confidence、review_status 或任何 claim 的人工审核状态。
+
+## 2026-09-10 Batch Crosswalk
+
+- `DD-20260910-QY-001`（P0）：`130Ba` t-band 与 `131Ba` MχD/E1 claim 重新纳入本批次问题池；核心 locator 与原有 `QY19-3/QY19-5/QY19-6` 对齐。
+- `DD-20260910-QY-002`（P1）：K-isomer、`87Zr` lifetime 和 shared GALILEO lineage；状态 `partially-researched`，保留原有 `needs_review`。

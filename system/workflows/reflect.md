@@ -53,20 +53,20 @@ updated: 2026-08-06
 
 Project 用于承载特定研究问题下的证据组织、候选解释和决策状态；synthesis 用于承载具有跨任务复用价值、证据边界清楚且经过相称审核的跨来源综合。只有新证据真实改变证据矩阵、解释强度、适用条件或开放问题时才更新这些页面，不因每篇新文献机械重写。
 
-重用旧 project/synthesis 时，只对本轮实际使用且确有必要的部分做最小 on-touch migration；仅有格式差异不触发机械重写，不批量补历史字段或转换旧 Personal Notes。任何新的科学判断、竞争解释、结论或状态变化继续进入 Human review triage。
+重用旧 project/synthesis 时，只对本轮实际使用且确有必要的部分做最小 on-touch migration；仅有格式差异不触发机械重写，不批量补历史字段或转换旧 Personal Notes。任何新的科学判断、竞争解释、结论或状态变化继续进入 Agent self-audit triage；用户审核只在后续问答裁决或论文写作使用具体 claim 时触发。
 
-暂定研究推理、迁移假设、反向检验和认识修正候选不得直接写成正式 project/synthesis 结论。晋升时至少记录：此前认识、新认识、触发证据与 locator、支持/冲突来源、关键假设、仍存不确定性、Human review 结果和晋升目标。被修正、拒绝或取代的认识保留简短 history，不静默删除。
+暂定研究推理、迁移假设、反向检验和认识修正候选不得直接写成正式 project/synthesis 结论。晋升时至少记录：此前认识、新认识、触发证据与 locator、支持/冲突来源、关键假设、仍存不确定性、Codex self-audit 结果和晋升目标；若后续问答或论文写作发生用户裁决，再记录对应 Human review。被修正、拒绝或取代的认识保留简短 history，不静默删除。
 
 ### Research-note 创建与生命周期
 
 在用户已授权的 ingest、reflect、project 或 synthesis 写入任务中，Agent 只有在暂定推理满足至少一项持久化门时才可创建 `knowledge/research-notes/` 页面：具有明确跨来源或跨任务复用价值；形成可检验预测/问题；可能改变 project/synthesis；存在真实竞争解释；值得长期追踪；或当次输出结束后丢失会造成明显研究损失。普通联想、关键词关系、重复摘要和低价值问题不持久化。
 
-创建时必须有 grounded evidence、locator/证据入口、创建理由，并使用 `review_status: unreviewed`、`reasoning_status: provisional`。创建不等于审核或晋升，必须进入 Human review triage。普通 Q&A 不创建 research note。
+创建时必须有 grounded evidence、locator/证据入口、创建理由，并使用 `review_status: unreviewed`、`reasoning_status: provisional`。创建不等于审核或晋升，必须进入 Agent self-audit triage。普通 Q&A 不创建 research note。
 
 生命周期：
 
 1. `provisional`：证据与推理已分开，但尚未晋升；可保持 `unreviewed`，只有可能改变科学结论、project/synthesis 或 paper evidence 的项进入 P0，其余高价值判断进入 P1。
-2. `promoted`：用户完成相称审核，正式 owning page 吸收结论并回链 note/source；记录 promotion target、日期、理由和触发证据。
+2. `promoted`：Codex 完成相称 self-audit 后，正式 owning page 吸收结论并回链 note/source；若后续问答或论文写作发生用户裁决，再补记对应 Human review 事件。
 3. `rejected`：当前推理被审核否决；保留否决依据。
 4. `superseded`：由更完整 note 或正式认识取代；链接后继页面。
 5. `withdrawn`：创建者/用户主动撤回且不再作为活动候选；保留原因。
@@ -78,7 +78,7 @@ Project 用于承载特定研究问题下的证据组织、候选解释和决策
 
 大型 project 或 synthesis 页面应维护短的 `Agent active summary` / `Active summary for agents`，用于帮助后续任务定位相关 section 和减少启动开销。Active summary 不得替代 source locator、project/synthesis 主体或原文证据。
 
-普通单篇摄入只需要读取 active summary 和相关 section；正式 project-level synthesis / cross-project synthesis 才默认完整读取相关 project/synthesis。若本轮实际修改 project/synthesis 主体、添加 evidence row/source relation/evidence gap/next action，必须同步最小更新 active summary；用户明确要求补充 project/synthesis 时，不得只改 active summary。给现有大型页面新增 active summary 时，只摘录已有页面结构和已有结论，不新增科学判断，并在 Human review triage 中列为 P1。
+普通单篇摄入只需要读取 active summary 和相关 section；正式 project-level synthesis / cross-project synthesis 才默认完整读取相关 project/synthesis。若本轮实际修改 project/synthesis 主体、添加 evidence row/source relation/evidence gap/next action，必须同步最小更新 active summary；用户明确要求补充 project/synthesis 时，不得只改 active summary。给现有大型页面新增 active summary 时，只摘录已有页面结构和已有结论，不新增科学判断，并在 Agent self-audit triage 中列为 P1。
 ## Stage 3：Gap Analysis
 
 寻找：
@@ -91,17 +91,17 @@ Project 用于承载特定研究问题下的证据组织、候选解释和决策
 - 多次出现但尚无独立页面的核素、能带或概念；
 - 可能改变结论的新实验或计算。
 
-## Stage 4：人工决策
+## Stage 4：Codex self-audit and later user decision
 
-涉及 `confidence: high`、概念合并或研究方向决策时，展示证据矩阵并等待用户确认。
+涉及 `confidence: high`、概念合并或研究方向决策时，Codex 先完成证据矩阵、竞争解释、适用条件和反向检验的 self-audit，并记录判断依据。普通研究不等待用户确认；后续问答或论文写作需要具体措辞时，再对相关 claim 进行定向用户确认。
 
 若综合结果将用于论文级主张，还必须通过 `system/paper-evidence-gate.md`：回到原始 source/raw、检查 locator、claim kind、人工复核状态、citation key 和竞争解释。综合页自身不能替代原始文献。
 
 普通综合、研究讨论和早期写作不默认进入严格 paper evidence gate。综合可以提出任何单篇文献未逐字写出的 synthesis、inference、working hypothesis 或 possible interpretation，但必须标明其性质、主要支撑来源和证据限制；不得把综合结论写成某一来源直接报告的事实，不得因为直接证据尚不完整就无必要地拒绝合理综合。
 
-## Stage 5：Human review triage
+## Stage 5：Agent self-audit triage
 
-Project、synthesis 或跨来源 reflect 完成后，必须按 `system/workflows/ingest-strategies.md` 的统一格式输出 Human review triage。至少评估：
+Project、synthesis 或跨来源 reflect 完成后，必须按 `system/workflows/ingest-strategies.md` 的统一格式输出 Agent self-audit triage。至少评估：
 
 - synthesis 主结论和 “What is established vs what is not”；
 - project evidence matrix 中 supporting/counter/alternative source 的归类；
@@ -111,17 +111,17 @@ Project、synthesis 或跨来源 reflect 完成后，必须按 `system/workflows
 - Motivation/why this matters 中可能过强的判断；
 - innovation candidate notes、data-analysis bridge 和争议性解释总结。
 
-主结论、evidence matrix 归类、用户数据解释、创新点候选和 paper evidence gate 候选通常属于 P0/P1。Planning notes、follow-up sources 与低风险导航可归入 P2/P3。所有 P0 无总量硬上限，必须逐项展示实际判断、证据、Agent inference、locator、审核目的和不审核风险；可分批但不得聚合隐藏。P1 可分组但不能退化为纯文件名列表。
+主结论、evidence matrix 归类、数据解释、创新点候选和 paper evidence gate 候选通常属于 P0/P1 self-audit 项。Planning notes、follow-up sources 与低风险导航可归入 P2/P3。所有 P0 无总量硬上限，必须逐项展示实际判断、证据、Agent inference、locator、后续问答/写作核验目的和不核验风险；可分批但不得聚合隐藏。P1 可分组但不能退化为纯文件名列表。
 
-综合主体完成、等待用户审核时，按 `AGENTS.md` 创建单个本地 `WIP review: <task short name> for user review`，不 push，并在 `system/wip-queue.md` 写入或更新 pending entry。queue 只保留继续审核所需的最新 branch/commit/next action；若后续 amend/rebase 改变 WIP hash，只更新到最新 commit。用户审核完成后，必须把该 WIP amend 为 final commit；通过发布门后按持续授权自动 push，不得另建 review/final commit；用户指定 final message 时原样使用，未指定时由 Codex 推荐直接相关的 message 并在最终报告中说明。
+综合主体完成后由 Codex 完成 self-audit；不存在技术 hard P0 时可按发布门创建 final commit 并 push。只有后续问答或论文写作实际发生用户审核时，才创建/使用 `WIP review: <task short name> for user review` 记录该事件。科学 partial/stopped 状态本身不阻止发布；技术 hard P0、检查失败或远端异常时保留本地 WIP。
 
-若上一轮处于 project review、synthesis review、cross-project synthesis review、waiting for user review、waiting for user P0/P1 review 或 `WIP review:` 状态，且用户给出实质性审核意见，并明确表示或根据当前消息与上下文可以无歧义地判断本轮审核已经结束，应识别为 human-review completion event，并在适用时进入 `review-finalization request`。
+若上一轮处于 project review、synthesis review、cross-project synthesis review 或 `WIP review:` 状态，且用户在后续问答/写作中给出实质性审核意见，并明确表示或根据当前消息与上下文可以无歧义地判断本轮审核已经结束，应识别为 human-review completion event，并在适用时进入 `review-finalization request`。
 
 不要求固定触发短语；若存在歧义，不得自动写入 `system/review-history.md`。
 
 Review finalization 在规则允许时可以默认完成审核意见对应的最小修改、检查、本地 commit、自动 push 与状态同步；当前指令中的“不要 push”“只 commit”“只修改”可覆盖本轮发布。完整 Git 边界由根目录 `AGENTS.md` 的 Review-finalization / Safe suspend 规则和 `check.md` 的 Git preflight 维护，本 workflow 不复制。其余收尾按审核范围处理：仅更新用户明确确认的 `needs_review`，确认无 unresolved P0/locator gaps 后按触发条件处理 overview/QMD，追加 `system/review-history.md`，独立判断 queue，刷新 Active handoff 和 short log。
 
-若仍有 unresolved P0、locator gaps、审核意见未落实、审核意见无法唯一映射到具体 project/synthesis statement、project/synthesis 仍存在高风险不确定内容，或 HEAD 不是对应 WIP 且无法确认归属，不得强行 finalization；应停止并报告阻塞，必要时 safe suspend。
+若仍有技术 hard P0、无法追溯的 locator gaps、后续用户审核意见未落实、意见无法唯一映射到具体 project/synthesis statement、或 HEAD 不是对应 WIP 且无法确认归属，不得强行 finalization；应停止并报告阻塞，必要时 safe suspend。科学 partial/stopped 和未触发用户审核不单独阻止 Codex self-audit 收尾。
 
 若用户明确不要 overview/QMD、只修改不 finalization、不要 push，或 push 状态无法确认，Review history 仍可记录本轮已经明确结束的人工审核，但 queue 是否保留必须独立判断。
 

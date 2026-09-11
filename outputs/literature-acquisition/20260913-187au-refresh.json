@@ -1,0 +1,55 @@
+{
+  "run_id": "20260913-187au-refresh",
+  "created_at": "2026-09-13T00:00:00Z",
+  "query": "187Au low-spin wobbling longitudinal wobbling later experimental or theoretical follow-up",
+  "scope": "External search audit; do not create a new source when the hit is the already-ingested Guo 2022 publication or concerns a different isotope.",
+  "candidates": [
+    {
+      "candidate_title": "Probing the nature of the conjectured low-spin wobbling bands in atomic nuclei",
+      "doi": "10.1016/j.physletb.2022.137010",
+      "arxiv_id": "2011.14354v3",
+      "discovery_source": "OpenAlex, Crossref, arXiv API",
+      "download_url": "https://arxiv.org/pdf/2011.14354v3",
+      "final_path": "raw/papers/2022_Guo et al_Probing the nature of the conjectured low-spin wobbling bands in atomic nuclei3.pdf",
+      "pages": 6,
+      "bytes": 547802,
+      "sha256": "de541977e4c8402c905ef8268ebc5707303f4b92f244eb4f59405a70c3473206",
+      "pdf_verification": "existing published-version PDF and arXiv metadata crosschecked; no duplicate download or source page created",
+      "bibtex_key": "guo_2022_Probingnature",
+      "duplicate_status": "same published source already ingested; arXiv v3 is not an independent experiment",
+      "failure_status": null,
+      "source_map": ["knowledge/sources/guo-2022-low-spin-wobbling-187au.md", "knowledge/projects/187au-longitudinal-wobbling-controversy.md"],
+      "workflow_status": {
+        "download": "not-needed-existing-pdf",
+        "verification": "completed",
+        "bibtex": "not-modified",
+        "ingest": "no-material-change"
+      }
+    },
+    {
+      "candidate_title": "Experimental evidence of transverse wobbling motion in 185Au: Revealing a transition from transverse to longitudinal wobbling in Au isotopes",
+      "doi": "10.1016/j.physletb.2026.140454",
+      "arxiv_id": null,
+      "discovery_source": "Crossref/OpenAlex",
+      "download_url": "https://doi.org/10.1016/j.physletb.2026.140454",
+      "final_path": null,
+      "pages": null,
+      "bytes": null,
+      "sha256": null,
+      "pdf_verification": "metadata-only; different nucleus (185Au), excluded from 187Au source ingest",
+      "bibtex_key": null,
+      "duplicate_status": "nearby-Au contextual lead, not a 187Au direct source",
+      "failure_status": "out-of-scope-different-nucleus",
+      "source_map": ["knowledge/projects/187au-longitudinal-wobbling-controversy.md#2026-09-13-search-audit"],
+      "workflow_status": {
+        "download": "not-started",
+        "verification": "metadata-only",
+        "bibtex": "not-modified",
+        "ingest": "excluded"
+      }
+    }
+  ],
+  "search_conclusion": "No new 187Au direct experiment or later 187Au-specific calculation was found in this targeted search. The only direct hit is the already-ingested Guo 2022 paper; 185Au is a distinct isotope and remains an un-ingested contextual lead.",
+  "l4_decision": "No L4 started: no new 187Au data package or executable analysis input was found.",
+  "protected_boundary": "No protected Zotero BibTeX, credentials, Git configuration, raw evidence or original degree-dissertation PDF was modified."
+}

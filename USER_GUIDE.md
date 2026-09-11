@@ -113,28 +113,28 @@ SORT file.name ASC
 1. 你提供一篇新论文或指定 `raw/papers/` 中的新文件；
 2. Codex 读取原文，建立或更新 source 页；
 3. Codex 按 schema 更新相关 nucleus、band、concept、observable、model、experiment 和必要的 synthesis 页面；
-4. Codex 在最终复盘中列出修改文件、新增 claims、待人工复核 claims、缺失原始文献和竞争解释；
-5. 你逐一审阅必要 source 页和关键 claims；
-6. 可能用于论文的具体 claim 应完成直接来源、locator、适用条件和竞争解释核验，并由你确认当前拟用措辞后，才能进入论文级证据池；不要求先全面审核整页。
+4. Codex 在最终复盘中列出修改文件、新增 claims、self-audit 结果、缺失原始文献和竞争解释；
+5. Codex 自行完成 source 页和关键 claims 的研究核查；用户不需要在本批次逐项审核；
+6. 后续问答或论文写作需要使用具体 claim 时，再完成直接来源、locator、适用条件和竞争解释核验；论文级最终措辞仍由用户确认，不要求先全面审核整页。
 
-### 摄入后你需要审阅什么
+### 摄入后 Codex 自审什么
 
 - 实验事实是否与作者解释分开；
 - 能级、自旋宇称、跃迁能量和单位是否正确；
 - 图号、表号、页码等 locator 是否足够；
 - 组态、wobbling、chiral、γ-soft/γ-rigid 是否保留候选或争议状态；
 - Agent 拟合并的概念是否真的物理等价；
-- `needs-human-review` 项是否需要你裁决。
+- `needs-human-review` 或 `needs_review` 项的证据边界、后续核验路径和措辞强度。
 
-页面级 `review_status: human-reviewed` 只表示用户看过该页并完成页面层复核；它不自动清除表格中的 claim-level `needs_review: true`。Codex 不得自行把 claim 的 `needs_review` 改为 `false`，只有你明确确认该条或该组 claim 后才允许更新。
+页面级 `review_status: human-reviewed` 只表示真实用户看过该页并完成页面层复核。Codex 可以在完成直接来源、locator、claim kind、适用条件和竞争解释的 self-audit 后更新对应 claim 的 `needs_review` 或 confidence 技术记录，但不得把该动作写成用户审核。后续问答或论文写作中的最终措辞仍按具体 claim 触发用户确认。
 
 ### 本地 WIP 检查点
 
 每日持续学习把内容写回与 Git 发布分轨：发布门失败不等于学习失败，但根目录、配置/sentinel、BibTeX 基线和 dirty/raw overlap 不安全时必须 safe-suspend；完整 H1/H2/H3 通过后才 commit/push。
 
-普通文献摄入像研究生自行读文献：Codex 逐篇完成全文回查、locator/claim kind、证据分层、竞争解释与 P0/P1 自审。长任务可保留一个本地 rolling `WIP ingest:`；完成且没有未隔离 hard P0 时 amend 为 final，并按仓库的持续 ingest 授权完成 H3、fresh fetch、精确 refspec dry-run 和非 force push。Agent 自审或 final/push 都不等于人工审核，不会自动把页面升级为 `human-reviewed` 或清除 `needs_review`。独立 project、synthesis、跨来源研究结论等待审核时仍使用 `WIP review: ... for user review`。
+普通文献摄入像研究生自行读文献：Codex 逐篇完成全文回查、locator/claim kind、证据分层、竞争解释与 P0/P1 self-audit。长任务可保留一个本地 rolling `WIP ingest:`；完成且没有技术 hard P0 时 amend 为 final，并按仓库的持续 ingest 授权完成 H3、fresh fetch、精确 refspec dry-run 和非 force push。科学 partial/stopped 状态不单独阻止 final/push；页面是否 `human-reviewed`、论文 claim 是否准入分别由真实用户事件和 paper evidence gate 决定。独立 project、synthesis、跨来源研究结论也由 Codex self-audit 后收尾，不主动要求用户审核。
 
-审核后，Codex 根据报告修改明确项目，并使用 `git commit --amend` 把对应 WIP 转为落实本轮审核意见的 review commit / final commit；不得保留独立 WIP 后再增加 final commit。你指定 review commit message 时原样使用；未指定时由 Codex 推荐与本轮内容直接相关的 message，并在最终报告中说明。你已授予持续自主 commit/push：通过 H3、lint、远端 ancestry 和精确 refspec dry-run 后，Codex 默认自动发布。同一分支不累积多个 active WIP。等待审核、存在 hard P0 或未完成的 WIP 仍留在本地；当前指令中的“不要 push”“只 commit”“只修改”可覆盖本轮发布。若确实不希望任何本地 commit，请明确写“禁止本地 WIP commit”。
+后续用户审核发生时，Codex 根据报告修改明确项目，并使用 `git commit --amend` 把对应 WIP 转为落实本轮审核意见的 review commit / final commit。普通研究由 Codex self-audit 后直接收尾；技术 hard P0、检查失败或远端异常时保留本地 WIP。你已授予持续自主 commit/push：通过 H3、lint、远端 ancestry 和精确 refspec dry-run 后，Codex 默认自动发布。同一分支不累积多个 active WIP。当前指令中的“不要 push”“只 commit”“只修改”可覆盖本轮发布。若确实不希望任何本地 commit，请明确写“禁止本地 WIP commit”。
 
 多篇文献仍逐篇摄入并优先在同一主题 rolling WIP 中连续完成，以减少 nucleus、concept、project、synthesis、index 等共享页重叠；不再逐篇等待人工审核。存在多个 pending WIP 时仍需按文件 overlap 处理：无重叠可独立；同一范围继续并 amend 原 WIP；依赖未 final 内容时记录 dependent WIP；共享文件无法安全隔离时暂缓修改。Codex 会把中断、未隔离 hard P0、未 push checkpoint 或 push 状态 uncertain 的短恢复索引记录到 `system/wip-queue.md`，Active handoff 只保留最近一次活动。
 
@@ -147,7 +147,7 @@ python3 system/scripts/clean_knowledge_eol_dirty.py --dry-run
 
 脚本只清理未暂存且可证明为 LF/CRLF-only 的 tracked `knowledge/**/*.md`；普通行尾空格、Markdown 双空格和 Tab 都视为 substantive 并保留。脚本不触碰 staged 内容、不处理其它目录，并保留 substantive/mixed 状态。exit code `1` 只表示仍需由 Codex 按授权范围、入口 baseline 和 WIP 归属分类；完全属于当前授权任务的 substantive diff 不会因此被无条件阻断。
 
-`system/review-history.md` 单独记录已经明确结束的人工审核轮次；Agent 的 ingest 自审不会写入这里。两者可以同时保留同一任务：history 记录“这一轮人类审核已经审完”，queue 记录“这项工作还要继续处理什么”。之后可以说“列出 pending WIP”“继续审核 Sigma-over-I alignment sources”“列出最近完成的 reviews”或“哪些 review 已完成但还没写入论文？”。等待审核的 WIP 不应 push 到 `main`；Agent 自审通过的 final ingest 可以按持续授权和发布门自动发布，但仍保持未发生人工审核的状态标记。
+`system/review-history.md` 只记录后续问答或论文写作中真实结束的人工审核轮次；Agent self-audit 不写入这里。科学研究的 WIP 在 self-audit 和技术发布门通过后可以 final/push，即使尚未发生用户审核；需要论文使用时仍回到具体 claim 的 paper evidence gate。
 
 审核完成时可以直接写简短结论，例如：
 

@@ -164,3 +164,14 @@ Nirupama Sensharma，*Wobbling Motion in Nuclei: Transverse, Longitudinal and Ch
 ## Non-source Notes and Follow-up
 
 本 thesis 与已摄入 Sensharma journal sources 可能共享实验数据；后续 source-independence 必须显式标注，不能把 thesis 叙述当成新的独立实验复制。
+
+## 2026-09-11 L3 Evidence-Independence Audit
+
+本次按核素和实验运行拆分 thesis 中的支持链与 Wiki 已有的反方/替代来源；“独立”只表示当前记录中的实验数据链不同，不表示作者、装置技术或理论框架完全没有重叠。
+
+| Case | Support-side source lineage | Counter/alternative lineage | Current independence result |
+|---|---|---|---|
+| `135Pr` | Sensharma 2019 与本 thesis 都围绕 `123Sb(16O,4n)135Pr`、80 MeV Gammasphere 数据；thesis 是更完整的 dissertation-level 复述/延伸，不增加独立实验数。 | Lv 2022 使用 `100Mo(40Ar,1p4n)135Pr`、152 MeV JUROGAM II，约 `5.1×10^10` fold≥3 events，并以 `P-R_ac` 联合约束 747/813/450 keV links（[[lv-2022-evidence-against-wobbling-135pr]] L22-1–5）。 | 反方数据链与 Sensharma 支持链区分明确；关键 δ/E2 判据仍存在方法冲突，不能由 lineage audit 单独裁决。 |
+| `187Au` | Sensharma 2020 合并 105/115 MeV `19F+174Yb` Gammasphere runs；本 thesis 的 `187Au` 章节使用同一支持方结构和分析谱系，不作第二个实验计数。 | Guo 2022 的 HIRFL `18O` 外靶数据链提供独立 `R_ac+P` counter/reinterpretation；其 supplementary 是同一 Guo 实验的附属证据，不另计独立来源。 | 支持方与 Guo counter 数据可分层为不同实验链；reported band (3) 的身份、早期 conversion/β-decay 转述和低自旋替代解释仍未由底层原始来源完全闭合。 |
+
+必要伴随证据审计：两边都没有一套可统一比较的 partner-resolved lifetime 和 absolute `B(E2)/B(M1)`；当前 E2 fraction、relative ratios、`E_wobb` 和模型几何只能约束候选解释。missing polarization/弱 link、band identity 或 lifetime 若被后续原始数据改变，会触发 wobbling→TiP/single-particle/signature interpretation 的 belief revision。因而 `SE21-1..8` 的研究状态不提升，且不启动 L4。

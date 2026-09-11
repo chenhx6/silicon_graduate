@@ -70,13 +70,37 @@ def parse_session_events(lines: list[str], project_root: str | Path) -> dict[str
 def read_rollout(path: Path, project_root: Path) -> dict[str, object] | None:
     try:
         with path.open("rb") as handle:
-            head = handle.read(262144).decode("utf-8", errors="replace")
-            handle.seek(max(0, path.stat().st_size - 1048576))
-            tail = handle.read().decode("utf-8", errors="replace")
+            size = path.stat().st_size
+            first_line = handle.readline().decode("utf-8", errors="replace")
+            latest = None
+            pending = b""
+            cursor = size
+            while cursor:
+                start = max(0, cursor - 1048576)
+                handle.seek(start)
+                pending = handle.read(cursor - start) + pending
+                parts = pending.split(b"\n")
+                complete = parts if start == 0 else parts[1:]
+                for raw_line in reversed(complete):
+                    if b"event_msg" not in raw_line:
+                        continue
+                    try:
+                        item = json.loads(raw_line.decode("utf-8", errors="replace"))
+                    except json.JSONDecodeError:
+                        continue
+                    payload = item.get("payload") or {}
+                    if payload.get("type") in {"task_started", "task_complete", "turn_aborted"}:
+                        latest = item
+                        break
+                if latest is not None or start == 0:
+                    break
+                pending = parts[0]
+                cursor = start
     except OSError:
         return None
-    lines = head.splitlines()[:1] + (tail.splitlines()[1:] if tail and head != tail else tail.splitlines())
-    return parse_session_events(lines, project_root)
+    if latest is None:
+        return None
+    return parse_session_events([first_line, json.dumps(latest)], project_root)
 
 
 def recovery_step(session: dict[str, object], previous: dict[str, object] | None, now: float, queue: Callable[[str, str], int], max_attempts: int | None = None) -> dict[str, object]:
@@ -139,11 +163,25 @@ def process_once(root: Path, codex_home: Path, dry_run: bool = False, max_attemp
     sessions: dict[str, object] = {}
     actions: list[dict[str, object]] = []
     now = time.time()
+    latest_sessions: dict[str, tuple[tuple[str, float, str], dict[str, object]]] = {}
     for rollout in walk_rollouts(codex_home):
         session = read_rollout(rollout, root)
         if not session or not session.get("id"):
             continue
         session_id = str(session["id"])
+        latest = session.get("latest") or {}
+        timestamp = str(latest.get("timestamp") or "")
+        try:
+            mtime = rollout.stat().st_mtime
+        except OSError:
+            mtime = 0.0
+        order = (timestamp, mtime, str(rollout))
+        previous_session = latest_sessions.get(session_id)
+        if previous_session is not None and previous_session[0] >= order:
+            continue
+        latest_sessions[session_id] = (order, session)
+
+    for session_id, (_, session) in sorted(latest_sessions.items()):
         previous = states.get(session_id) if isinstance(states.get(session_id), dict) else None
         def queue(thread: str, message: str) -> int:
             if dry_run:

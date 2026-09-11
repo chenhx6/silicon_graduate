@@ -1,37 +1,36 @@
 ---
 type: system-handoff
 graph-excluded: true
-updated: 2026-09-10
+updated: 2026-09-13
 ---
 
 # 跨会话交接
 ## Active handoff
 
 Current active task:
-Published the Wiki agent capability adapters and explicit hook/farmer checks; scientific work remains L2 with existing review flags.
+Completed the 2026-09-10 autonomous degree-dissertation corpus plan with documented partial/stopped L3 boundaries, then continued the 2026-09-11/13 L3 crosswalk. The 55-file reading ledger, 46 mapped degree source pages, four research reports, visual `135Nd` parity audit, `100Sn` warm-up, and `135Pr` external controversy audit are in the working tree.
 
 Current branch / local commit:
-Wiki branch is `main`; current reconciliation pointer is `main` + `Reconcile capability handoff pointer`. The capability baseline `Adopt Wiki agent capability adapters` is published through the standing non-force path. Shared skill repository `/root/.agents/skills` is managed by its sync owner. Capability files are now tracked; local plans and runtime caches remain ignored.
+Wiki branch is `main`; the current final commit subject is `Finalize degree dissertation corpus L3/L4 research 20260912`. The capability baseline `Adopt Wiki agent capability adapters` is published through the standing non-force path. Shared skill repository `/root/.agents/skills` is managed by its sync owner. Capability files are now tracked; local plans and runtime caches remain ignored. The exact final hash is kept in the task receipt rather than in the commit's own files.
 
 Last task status:
-Reviewed `git status -sb`, restored the accidental CRLF-only `.gitkeep` change, kept local `docs/` plans ignored, and explicitly staged the 10 capability/governance files. Added the capability adoption/upgrade guides, read-only hook and JSONL farmer adapters, tests, README/lint routing, and the planned dissertation queue entry. Preflight passed, full system tests passed (18 tests), agent-ops tests passed (4 tests), Wiki lint passed with 0 errors, staged diff check passed, and exact non-force publication to Gitee `origin/main` passed. The hook Git timeout is 30 seconds because this repository's read-only Git checks take about 13–14 seconds. Current instruction overrides remain `不要 push`, `只 commit` and `只修改`; WIP/hard P0/safe suspend and irreversible operations remain gated.
+Raw inventory and SHA-256 ledger cover 55 degree PDFs / 54 unique hashes / 1 duplicate. The existing degree corpus has 46 mapped source pages, with the remaining source-only/skimmed states preserved. This continuation added four external source pages and four acquisition manifests: 2019 PRC `135Nd` parity crosswalk, 2024 Nature Physics `100Sn` collectivity context, 2021 Guo `135Pr` methodological comment, and 2026 Sensharma `135Pr` follow-up. The `135Nd` issue is now `completed` at the cross-source level: 2019 PRC pp.2–3, 6, 8–9 support D3/D4 positive parity through IPDCO and E2/E1 connections, while its D3 `334.4 keV` Table I row remains a local anomaly. The `100Sn` source produces no material change to the GSI/RIKEN B(GT) comparison. The `135Pr` source pair adds DB1/DB2 links, small-`|δ|` new-link results, old-data χ² response, and a direct double-solution/polarization counter-comment; the common branch/covariance/absolute-strength dispute remains open. L3 is `55 started / 31 completed / 21 partially-researched / 3 stopped`; L4 remains `0`. No raw PDF, OCR artifact, protected BibTeX or PLAN was modified. External PDFs/CSV remain ignored local evidence under `raw/papers/gpt/_incoming`. Farmer is running as PID 8571 with no pending transient recovery; `once --dry-run` reports no actions.
 
 Unfinished items:
-1. Let the shared `skills-sync` owner publish checkpoint `755fc63`; do not manually push the shared repository or rewrite its history. Verify `git -C /root/.agents/skills status -sb` and `.git/skills-sync-last-pushed` in a later session.
-2. New containers must mount the same shared skill volume and restart Codex to rescan `/root/.agents/skills`; validate that the 25 names appear without duplicating `skill-creator`.
-3. Decide whether to keep the user-level farmer daemon running; it is currently stopped (`status` reports `running: false`). If enabled, verify `python3 system/scripts/wiki_farmer.py status --root .` and stop it before changing runtime assumptions.
-4. Future Wiki changes may use the standing autonomous commit/push authorization after the normal publication gates.
-5. Human claim-specific review of the completed HK10/LB16 crosswalk remains pending, especially phase-space/B(GT) convention and `100In` branching boundaries.
-6. Current dissertation and daily-learning content remain `content-complete / final-not-pushed`; do not alter raw files or claim review flags.
+1. No degree PDF remains queued after actual reading. Six files remain `source-only`, two remain `skimmed`, and the 21 partial plus 3 stopped issues remain explicit research boundaries.
+2. `135Pr` common-pipeline branch test still lacks raw spectra/response/covariance/code; no L4 was started. Absolute DB1/DB2 lifetimes and strengths are also unavailable.
+3. The `135Nd` PRC D3 `334.4 keV` table anomaly, `100Sn` metadata DOI discrepancy, and existing `16C`/`32S`/CSR data stops remain documented rather than silently harmonized.
+4. `knowledge/overview.md` is deferred while the corpus still contains partial/stopped issues, to avoid presenting a partial research map as a stable full map.
+5. The batch is scientifically and technically closed at the documented evidence boundary; future continuation may revisit `135Pr` common-response/absolute-strength or the `16C`/`32S`/CSR data conditions when new inputs appear.
 
-P0/P1 review focus:
-P0: batch source claims listed in `outputs/degree-dissertation-ingest-20260905.md`, especially `131Ba` MχD/E1, `135Pr/187Au` wobbling, `100Sn` BGT/level schemes, `178Hf` K-mixing, `237Pu` Nilsson labels, and Ding `127/128I` ADO/NPA boundaries. P1: fast timing/MSCD, multi-nuclide fission assignments, NEEC estimates, `6Li(p,γ)7Be` resonance candidate and all shared thesis/journal lineages.
+P0/P1 self-audit focus:
+P0: the 10 initial groups plus thesis/external claims on `131Ba/130Ba`, `135Pr/187Au`, `100Sn`, `104Ag`, `106Ag`, `187Pb/188Bi/188Po`, and A≈180 signature/shape assignments. P1: DAQ/fast timing, RDT design, `111,112Sn` E1/DSAM, `81Kr` triplet bands and shared thesis/journal lineages. No user review request is pending; later Q&A or paper use can trigger claim-specific review.
 
 Risks:
-Keep local `raw/zotero/wiki-inbox.bib`, local Obsidian state and all raw PDFs/OCR images outside Git tracking. Do not restore a GitHub maintenance workflow or remote. Do not change claim `needs_review` status without explicit claim-level confirmation. Do not count thesis/journal shared datasets as independent experiments. Preserve the canonical Ding experiment page `tsukuba-127-128i-li7-28-32mev`.
+Do not count thesis/journal shared datasets as independent experiments. Do not promote author interpretations or model results to experimental facts. Do not modify raw PDFs, OCR, protected BibTeX, governance workflows or the canonical Ding experiment page. Preserve all unresolved locator and OCR boundaries.
 
 Next prompt / continuation phrase:
-`继续执行普通任务：按持续授权自动 commit/push；先通过 preflight、lint、H3 和精确 refspec，遇到 WIP/hard P0/不要 push 指令则停在本地`
+`继续研究：若出现新的 raw 数据、manifest 或后续原文，优先复查 135Pr common-response/absolute-strength 或 16C/32S/CSR 条件；否则进入温故知新候选`
 
 Recent user decisions:
 2026-09-10: 用户明确以后普通 commit/push 不再逐次询问；通过发布门的 final、治理和工具修改可自主提交并推送。当前指令“不要 push”“只 commit”“只修改”可覆盖本轮；force push、历史重写、raw 覆盖、未隔离 hard P0 和人工审核关口仍需保留。
@@ -163,3 +162,13 @@ Continue sigma-over-I synthesis review finalization: audit the new synthesis pag
 
 Recent user decisions:
 User asked to first check for unpushed commits before starting this task; none existed on `main`. This round is restricted to sigma-over-I / P-ADO synthesis planning only, allows a local planning/synthesis commit, forbids push, and requires checkpoint-first workflow with Human review triage.
+
+## 2026-09-11 Continuation checkpoint
+
+The continuation completed actual PDF reading and source write-back for the ten files previously listed as queued: Liu Chen `78Br`, Liu Hongna `12C`, Liu Yanxin PSM, Lv Bingfeng `136Nd/135Nd`, Wu 2021 DAQ, Sun Yazhou `16C`, Yue Ke Gamma Ball, Xiao Xiao `74As`, Mavela `32S`, and Yan Duo CSR detector/PID. Four new source pages were added for Yue, Xiao, Mavela and Yan; six existing continuation source pages were already present and retained.
+
+The reading ledger now records 55 PDFs / 54 unique hashes / 1 duplicate, 46 raw-file source mappings, 6 source-only files and 2 skimmed files. No actually read file remains marked queued. The autonomous report now counts the fixed initial problem pool (10 P0, 5 P1), 40 source-linked stable issue IDs (24 P0, 16 P1), final working registry P0=34/P1=21, L3 55 started / 30 complete / 21 partial / 4 stopped, and L4=0. Yue `CSI-02/04` and Yan `CSR-01` moved from partial to locator-level completed in this continuation; Yan `CSR-04` remains stopped for missing data/manifest. The closure, full-wiki reflect and self-audit outputs were synchronized; `knowledge/index.md` has ten source links.
+
+Scientific boundaries retained: `74As` thesis Bands 3/4 are recorded as a pseudospin-partner candidate rather than a thesis-level chiral or octupole conclusion. The thesis–journal crosswalk closes the positive-parity Band 1/2 labels, but does not establish a unique thesis Bands 3/4 ↔ journal Band 3 mapping; the journal's three E1/octupole-correlation interpretation is not back-projected onto a specific thesis band. The thesis `6.17×10^9` and journal `1.9×10^9` γ-γ totals remain lineage-specific reported statistics without a shared selection definition. Mavela's abstract/main `Q_S` uncertainty conflict has been localized by visual re-render and remains explicit; the detailed GOSIA/conclusion value is the stage working value, not an Agent correction of the abstract. Yue's `1025/1077 kg` and `82/83%` Gamma Ball version/definition conflicts have been localized to printed pp.I–II, 35, 56, 71, 95 and 103 and remain explicit; Yan's `CSR-01` `38.9%` measured versus `66.0%` GEANT4 efficiency gap is locator-level L3 completed but unresolved, while `CSR-04` remains stopped because raw spectra and manifest are unavailable. No confidence, review status, raw file, protected BibTeX or workflow was promoted or modified.
+
+Goal `01a08869-6209-7ce3-a85a-8a996da25567` completion audit passed after the duplicate-rollout and oversized-metadata aggregation repairs; farmer PID 231566 had the latest session event classified as `running`, `pending: false`, and was stopped after completion. The runtime blocker is resolved and does not alter the scientific partial/stopped classifications. Work remains local WIP because hard P0/unreviewed content is present; do not stage, commit or push in this checkpoint.

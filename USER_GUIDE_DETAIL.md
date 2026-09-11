@@ -29,11 +29,11 @@
 - 不是最终权威，不能替代原始论文阅读；
 - 不保证文献完整覆盖；
 - 不能仅凭已有页面生成可直接投稿的确定结论；
-- 不能把尚未完成 claim-specific verification 和用户确认的 candidate evidence 写成最终论文依据；
+- 不能把尚未完成 claim-specific verification 和用户确认的 candidate evidence 写成最终论文依据；普通研究和 Codex self-audit 不受此论文用途条件阻塞；
 - 不能因为未收录某类文献就断言“没有相关工作”；
 - 不能用 synthesis 页面代替原始文献引用。
 
-论文级结论必须回到 source、必要的 raw 原文、精确 locator、citation key 和人工复核，并通过 paper evidence gate。普通 Wiki 问答、研究讨论、跨来源综合和早期草稿不默认进入严格 paper evidence gate；这些场景仍应基于现有证据给出最佳可支持内容，只是需要校准措辞并说明限制。
+论文级结论必须回到 source、必要的 raw 原文、精确 locator、citation key 和针对具体 claim 的用户确认，并通过 paper evidence gate。普通 Wiki 问答、研究讨论、跨来源综合和早期草稿不默认进入严格 paper evidence gate；这些场景由 Codex self-audit，基于现有证据给出最佳可支持内容，并校准措辞和限制。
 
 ## 4. Core layers / 核心层级
 
@@ -94,7 +94,7 @@ Research note 还使用第三个独立状态：`reasoning_status`。新 note 为
 
 ```text
 当前哪些来源讨论这个问题？请区分原始论文与 synthesis，
-并说明哪些 claim 尚未人工复核。
+并说明哪些 claim 尚未完成 Codex self-audit、哪些只在论文使用时需要用户确认。
 ```
 
 可显式调用 `$wiki-evidence-query`。该 Skill 默认只读；知识库缺少足够出处时，应明确报告证据边界。普通问答仍可补充稳定的一般专业背景，但不得将其冒充 Wiki 已收录、已审核或已外部核验的证据，也不得用模型记忆虚构论文、数据、locator 或作者结论。
@@ -118,8 +118,8 @@ Wiki 直接支持的事实或判断，会把已实际读取并核实的链接紧
 1. 用户提供论文，或指定 `raw/papers/` 中的新文件；
 2. Codex 阅读原文，建立或更新 source 页；
 3. Codex 按 schema 更新相关 concept、observable、nucleus、band、model、experiment 和必要的 synthesis；
-4. Codex 在复盘中列出新增 claims、待审 claims、竞争解释和证据缺口；
-5. 用户审阅 source 页和关键 claims；
+4. Codex 在复盘中列出新增 claims、self-audit 结果、竞争解释和证据缺口；
+5. Codex 自行完成 source 页和关键 claims 的研究核查；用户不需要在本批次逐项审核；
 6. 可能用于论文的具体 claim 完成直接来源、locator、适用条件和竞争解释核验，并由用户确认当前拟用措辞后，才进入论文级证据池；页面整体无需先完成全面审核。
 
 不要把聊天内容或整批未读文献机械倒入 knowledge。新文献应先检查重复、书目信息、citation key 和原始文件定位。
@@ -145,11 +145,11 @@ Wiki 可在不同操作系统和 AI 工具环境中使用；`.codex/`、`.obsidi
 摄入主体完成且检查通过后，默认流程是：
 
 1. 长任务或中断时，Codex 显式暂存本轮摄入文件，创建/更新单一 rolling `WIP ingest:`；
-2. Codex 逐篇回查全文、locator、claim kind、证据层、竞争解释和 P0/P1；等待审核或存在 hard P0 的 WIP 不 push，也不代表页面或 claims 已人工复核；
-3. 摄入完整、检查通过且没有未隔离 hard P0 时，Codex 使用 `git commit --amend` 把 rolling WIP 转为 final ingest commit，不创建第二个 final commit；
-4. Agent 自审不写 Human Review Record/history，不把页面升级为 `human-reviewed`，也不自行清除 `needs_review`；
+2. Codex 逐篇回查全文、locator、claim kind、证据层、竞争解释和 P0/P1；技术 hard P0 的 WIP 不 push，科学 partial/stopped 和未发生用户审核不单独阻止发布；
+3. 摄入完整、检查通过且没有技术 hard P0 时，Codex 使用 `git commit --amend` 把 rolling WIP 转为 final ingest commit，不创建第二个 final commit；
+4. Agent self-audit 不写 Human Review Record/history，不把页面升级为 `human-reviewed`；可依据直接证据更新对应 `needs_review`，但不得把它写成用户审核；
 5. 用户已经为普通 ingest 建立持续 commit/push 授权；除非当前指令明确要求不 push，Codex 在 H3、fresh fetch、remote ancestry 和精确 refspec dry-run 通过后使用同一 refspec 非 force push；
-6. 认证、远端漂移、检查失败或未隔离 hard P0 均 safe suspend。后续问答、研究和论文证据采用时，再按具体 claim 由用户审核证据陈述。
+6. 认证、远端漂移、检查失败或技术 hard P0 均 safe suspend。后续问答和论文证据采用时，再按具体 claim 由用户确认最终表述；普通研究继续由 Codex self-audit 完成。
 
 同一分支最多保留一个 active WIP。旧式“不 commit/push，等待审核”表示不 final commit、不 push，但允许本地 WIP；若要禁止所有本地 commit，需明确写“禁止本地 WIP commit”。Safe suspend 遇到大量 Markdown diff 时也优先采用本地 WIP checkpoint，暂停本轮自动 push，减少 Codex、Git、编辑器或文件监听的持续 CPU 占用；checkpoint 在恢复并通过发布门后再发布。
 
@@ -186,22 +186,22 @@ Codex 应自动理解为：本轮人工审核已经结束，可以记录一条 R
 - citation key 是否与来源唯一匹配；
 - 是否遗漏限制条件、反证或竞争解释。
 
-用户查看 source 页只足以更新页面级状态，不自动清除 `needs_review: true`。只有用户明确确认某条 claim，或明确圈定的一组 claims，Codex 才能更新对应 claim-level 状态。
+用户查看 source 页只足以更新页面级状态，不自动清除 `needs_review: true`。Codex 完成直接来源、locator、claim kind、适用条件和竞争解释的 self-audit 后，可以更新对应 claim-level 状态；用户确认只在后续问答或论文写作需要最终表述时发生。
 
 ### 如何根据审核优先级审核 Codex 输出
 
-文献摄入、project、synthesis、data-analysis-bridge 和 claim-review-update 完成后，Codex 应提供 Human review triage：
+文献摄入、project、synthesis、data-analysis-bridge 和 claim-review-update 完成后，Codex 应提供 Agent self-audit triage；论文用途另列 Paper-use Human review triage：
 
 - **P0 优先处置**：影响核心科学结论、关键数值/指认、数据/权限安全或论文级证据门的位置。Codex 可通过自校验、隔离、降级、L3/L4 调查或标记受阻来处置研究型 P0；只有未隔离的 hard P0、正式结论越级或权限/数据风险必须阻止 finalization 与 push。
-- **P1 优先审核**：关键 source claims、evidence matrix、模型假设、跨来源总结、定义和高歧义 aliases。有时间应优先看。
+- **P1 优先自审**：关键 source claims、evidence matrix、模型假设、跨来源总结、定义和高歧义 aliases。Codex 有时间应优先处理；后续用户问答/写作再决定是否需要用户核验。
 - **P2 可抽查**：背景摘要、follow-up sources、evidence gaps 和 planning notes，按文件抽查即可。
 - **P3 快速扫过**：index、overview、handoff/log、普通反链、格式和低风险导航。
 
-P0/P1 是当前关键 claim 或证据项的 focused review 优先级，不要求全面审核整页或整篇文献，除非当前 claim 依赖更广上下文。局部 claim 核验和用户确认只适用于该 claim 与当前使用语境，不自动改变页面或其它 claims 的 review 状态。
+P0/P1 是当前关键 claim 或证据项的 Codex self-audit 优先级；不要求用户全面审核整页或整篇文献。论文或后续问答的局部 claim 核验和用户确认只适用于该 claim 与当前使用语境，不自动改变页面或其它 claims 的 review 状态。
 
 审核时，source 重点核对原文与 locator；project 重点核对证据归类、研究问题和数据桥；synthesis 重点核对跨来源结论是否过强；data-analysis-bridge 重点核对数据事实、分析结果、物理解释和创新点候选是否分层。页面级 `human-reviewed` 与 claim-level `needs_review` 仍然独立，不能因整页通过就自动清除具体 claim 的待审状态。
 
-审核点很多时，完整 P0 inventory 仍须保留且可分轮审核；“精力有限时建议先看”的 3–5 个位置只是当前阅读顺序，不得隐藏、聚合或降级其它 P0。对每个 P0/P1，审核报告可明确写：
+核查点很多时，完整 P0 inventory 仍须保留且可分轮 self-audit；“精力有限时建议先看”的 3–5 个位置只是当前阅读顺序，不得隐藏、聚合或降级其它 P0。对每个 P0/P1，self-audit 报告可明确写：
 
 ```text
 <文件 / claim ID>：通过 / 需要修改；
@@ -224,9 +224,9 @@ Project 可以记录研究问题、连接数据处理结果、汇总 source 与 
 
 ### 暂定研究推理如何使用
 
-在已授权的 ingest、reflect、project 或 synthesis 任务中，如果一项推理具有跨来源/跨任务价值、可检验性、可能改变现有判断，或丢失会造成明显研究损失，Codex 可以创建 research note。它必须把 `Grounded Evidence` 与 `Provisional Reasoning` 分开，并在 Human review triage 中告知你。普通联想、重复摘要和低价值问题不会持久化。
+在已授权的 ingest、reflect、project 或 synthesis 任务中，如果一项推理具有跨来源/跨任务价值、可检验性、可能改变现有判断，或丢失会造成明显研究损失，Codex 可以创建 research note。它必须把 `Grounded Evidence` 与 `Provisional Reasoning` 分开，并在 Agent self-audit triage 中记录。普通联想、重复摘要和低价值问题不会持久化。
 
-你可以要求保留 provisional、修改、晋升、拒绝、撤回或标记 superseded。晋升需要 Human review，并由正式 project/synthesis/method/concept 吸收、回链原始 source；research note 自身始终不替代论文证据。
+Codex 可以在 self-audit 后保留 provisional、修改、晋升、拒绝、撤回或标记 superseded。只有后续问答或论文写作需要用户裁决时才记录 Human review；正式 project/synthesis/method/concept 吸收时必须回链原始 source，research note 自身始终不替代论文证据。
 
 ## 10. How to prepare for writing / 如何为写作准备
 

@@ -1,0 +1,59 @@
+{
+  "run_id": "20260913-135pr-refresh",
+  "created_at": "2026-09-13T00:00:00Z",
+  "query": "135Pr transverse wobbling/chirality: later support, angular-distribution branch ambiguity, polarization and R_ac crosswalk",
+  "scope": "External direct-source continuation of the 135Pr controversy map; distinguish shared Gammasphere support lineage from independent JUROGAM counter evidence and methodological comments.",
+  "candidates": [
+    {
+      "candidate_title": "Evolution of chirality from transverse wobbling in 135Pr",
+      "doi": "10.1103/3g4p-ncjn",
+      "arxiv_id": "2403.10749v2",
+      "discovery_source": "arXiv API, Crossref, OpenAlex",
+      "download_url": "https://arxiv.org/pdf/2403.10749v2",
+      "final_path": "raw/papers/gpt/_incoming/20260912-135pr-refresh/sensharma-2026-135pr-chirality-wobbling.pdf",
+      "pages": 17,
+      "bytes": 6330099,
+      "sha256": "294f791a230a12005ef43a237afb25b9bf731f8f520a1a65d6b32d0386ef91b3",
+      "pdf_verification": "direct arXiv v2 PDF identity verified; DOI, article number 024313, volume 113 and publication metadata crosschecked with Crossref; pp.1, 5-6, 12-15 visually inspected",
+      "bibtex_key": null,
+      "duplicate_status": "new later source in the existing 135Pr Gammasphere support lineage; not an independent experiment",
+      "failure_status": null,
+      "source_map": ["knowledge/sources/sensharma-2026-evolution-chirality-transverse-wobbling-135pr.md", "SE21-1..8 continuation audit"],
+      "workflow_status": {
+        "download": "completed",
+        "verification": "completed",
+        "bibtex": "not-modified",
+        "ingest": "source-created"
+      }
+    },
+    {
+      "candidate_title": "Comment on Transverse Wobbling in 135Pr [Phys. Rev. Lett. 114, 082501 (2015)]",
+      "doi": null,
+      "arxiv_id": "2011.14364v3",
+      "discovery_source": "arXiv API",
+      "download_url": "https://arxiv.org/pdf/2011.14364v3",
+      "final_path": "raw/papers/gpt/_incoming/20260912-135pr-refresh/guo-2020-comment-135pr-wobbling.pdf",
+      "pages": 2,
+      "bytes": 219631,
+      "sha256": "cc9e43e07f23c3e85250c4acf55032d1085901e14d075591bcb141e5fddcdafc",
+      "pdf_verification": "direct arXiv v3 PDF identity verified; title, author and version date crosschecked with arXiv metadata; both pages and Fig.1-2 visually inspected",
+      "bibtex_key": null,
+      "duplicate_status": "new methodological comment dependent on Matta 2015; not an independent experiment",
+      "failure_status": null,
+      "source_map": ["knowledge/sources/guo-2021-comment-transverse-wobbling-135pr.md", "SE21-1..8 continuation audit"],
+      "workflow_status": {
+        "download": "completed",
+        "verification": "completed",
+        "bibtex": "not-modified",
+        "ingest": "source-created"
+      }
+    }
+  ],
+  "lineage": {
+    "supporting_gammasphere": ["matta_2015_TransverseWobbling", "sensharma_2019_Twophononwobbling", "SH26"],
+    "independent_counter_experiment": ["lv_2022_Evidencewobbling"],
+    "methodological_comment": ["GU21 dependent on Matta 2015"]
+  },
+  "l4_decision": "No L4 started: the sources provide literature-level angular-distribution/polarization evidence and no complete event-level manifest, raw matrices, calibrated response, executable analysis and sensitivity/negative-control package was assembled.",
+  "protected_boundary": "No protected Zotero BibTeX, credentials, Git configuration, original degree-dissertation PDF or existing raw evidence was modified. The two downloaded PDFs remain ignored local evidence under raw/papers/gpt/_incoming."
+}

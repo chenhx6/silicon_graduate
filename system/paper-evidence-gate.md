@@ -36,13 +36,13 @@ A page may remain `unreviewed` while a specific claim is directly verified and a
 
 Wiki 未收录某类文献，只能写“当前知识库未覆盖”。不得据此声称“没有相关工作”“文献已经完整覆盖”或“一篇不漏”。
 
-## Human review triage gate
+## Paper-use Human review triage gate
 
 任何准备进入 paper evidence gate 的 claim、project statement、synthesis-supporting statement 或 data-analysis-derived statement，默认必须列为 P0 或 P1 审核对象。P0/P1 是当前关键 claim、证据项或高风险位置的核验优先级；focused review 可以满足当前 claim 的审核需求，不要求全面审核整页或整篇文献，除非该 claim 依赖更广上下文。其它 claims 保持原状态。
 
-P0/P1 focused review 和用户确认未完成时，不得描述为“可直接用于论文”“可直接作为论文结论”“已经进入 paper evidence gate”或“无需回原文引用”，但仍须呈现 candidate evidence、风险和最值得核查的位置。完成当前 claim 的 focused review 和用户确认后，可以判断该 claim 对当前论文措辞的支持能力，不自动将整个页面或文献标记为已审核。
+P0/P1 focused review 和用户确认未完成时，不得描述为“可直接用于论文”“可直接作为论文结论”“已经进入 paper evidence gate”或“无需回原文引用”，但仍须呈现 candidate evidence、风险和最值得核查的位置。完成当前 claim 的 focused review 和用户确认后，可以判断该 claim 对当前论文措辞的支持能力，不自动将整个页面或文献标记为已审核。这个用户确认门只在实际论文写作、正式引用或用户要求的严格 claim 核查中触发，不阻止普通研究、Codex self-audit 或常规知识发布。
 
-Synthesis 可以组织跨来源思路，project 可以推进证据链，但两者都不能替代 source 和原文 locator。论文写作仍须回到原始来源，并满足本文件的全部准入条件。P0 尚未审核时，不建议把对应 WIP amend 为 final commit 或 push。
+Synthesis 可以组织跨来源思路，project 可以推进证据链，但两者都不能替代 source 和原文 locator。论文写作仍须回到原始来源，并满足本文件的全部准入条件。普通研究中的 P0/P1 由 Codex self-audit 处置；只有准备进入论文用途时，才需要本节规定的 focused review 和用户确认。
 
 进入 paper evidence gate 的最终复盘必须完整列出全部 P0；P0 可以分批展示，但不得聚合隐藏、降级或省略。P1 可以按主题或页面分组，但仍须展示实际判断、证据、Agent inference 和审核目的。每个 P0/P1 必须保留文件、claim/section、locator、审核事项和风险；P2/P3 可以聚合。
 

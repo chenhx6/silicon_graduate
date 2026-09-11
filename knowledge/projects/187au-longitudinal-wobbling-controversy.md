@@ -3,7 +3,7 @@ type: project
 title: "187Au low-spin longitudinal-wobbling controversy"
 aliases: [187Au longitudinal wobbling controversy, 187Au LW evidence map]
 created: 2026-07-03
-updated: 2026-07-04
+updated: 2026-09-13
 status: active
 review_status: human-reviewed
 project_stage: competing-evidence-matrix
@@ -45,7 +45,7 @@ tags: [187au, longitudinal-wobbling, signature-partner, controversy, evidence-ma
 
 ## Evidence Available
 
-当前直接 evidence pool 由 Sensharma 2020 与 Guo 2022 两篇已人工复核 source 构成。以下矩阵沿用 AU20/G22 source claim ID 与 locator；Rupnik、Bourgeois、Lawrie 和 TiP 案例目前只作为 follow-up，不冒充已独立摄入的底层证据。
+当前直接 evidence pool 仍由 Sensharma 2020 与 Guo 2022 两篇已人工复核 source 构成。2026-09-13 定向外部检索确认 Guo 2022 的 arXiv `2011.14354v3` 是同一发表来源，未发现新的 `187Au` 直接实验或核素专属后续计算。以下矩阵沿用 AU20/G22 source claim ID 与 locator；Rupnik、Bourgeois、Lawrie 和 TiP 案例目前只作为 follow-up，不冒充已独立摄入的底层证据。
 
 ## Observed Facts
 
@@ -216,3 +216,11 @@ tags: [187au, longitudinal-wobbling, signature-partner, controversy, evidence-ma
 - [[linear-polarization-asymmetry]]、[[two-point-angular-correlation-ratio]]
 - [[particle-rotor-model]]、[[triaxial-particle-rotor-model]]
 - [[135pr-wobbling-controversy]]
+
+## 2026-09-13 External Search Audit
+
+本轮以 `187Au low-spin wobbling`、`longitudinal wobbling 187Au` 和相关 arXiv/DOI 元数据做定向检索。唯一直接命中的是 Guo 等 *Physics Letters B* 828, 137010 (2022)，其 arXiv `2011.14354v3` 与当前已摄入的发表版 PDF 同一来源；现有 source 已补入该 arXiv 标识，未重复下载或计数。另命中 2026 年 `185Au` transverse-to-longitudinal wobbling 论文，但其核素为 `185Au`，不属于本页的 `187Au` 直接证据，未创建 source。
+
+阶段结论：本轮对 `187Au` evidence ranking **no material change**。Sensharma 2020 的大 `|δ|`/LW 支持链与 Guo 2022 的独立 `R_ac+P` 小 `|δ|`/single-particle counter chain 仍是主要证据；band (3) identity、原始 internal-conversion/β-decay crosswalk、absolute lifetime/strength 和 common-input model benchmark 仍未闭合。搜索与排除记录见 `outputs/literature-acquisition/20260913-187au-refresh.json`。
+
+本节为 2026 continuation 的 Codex self-audit，不属于此前用户审核的新增 claim；不改变页面既有 `human-reviewed` 历史范围，也不启动 L4。

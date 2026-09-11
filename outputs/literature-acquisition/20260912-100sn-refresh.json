@@ -1,0 +1,101 @@
+{
+  "run_id": "20260912-100sn-refresh",
+  "created_at": "2026-09-12T00:00:00Z",
+  "query": "100Sn recent electromagnetic properties, 100In level context, and public data availability",
+  "scope": "Warm-up review for the 100Sn B(GT) evidence map; this source does not measure 100Sn beta decay or 100In branching directly.",
+  "candidates": [
+    {
+      "candidate_title": "Electromagnetic properties of indium isotopes illuminate the doubly magic character of 100Sn",
+      "doi": "10.1038/s41567-024-02612-y",
+      "arxiv_id": "2310.15093",
+      "discovery_source": "OpenAlex, Crossref, Nature publisher page",
+      "download_url": "https://arxiv.org/pdf/2310.15093",
+      "final_path": "raw/papers/gpt/_incoming/20260912-100sn-refresh/100sn-indium-2024-arxiv.pdf",
+      "pages": 26,
+      "bytes": 3152275,
+      "sha256": "4a833c6fbf425ae2f6b190661103ea61335ec1547728788bc9f21f25bf40bd17",
+      "pdf_verification": "direct arXiv PDF identity verified from title page; DOI, title, volume/pages and author list crosschecked with Crossref/Nature metadata; pp.1, 3-6 and data-availability section inspected",
+      "bibtex_key": null,
+      "duplicate_status": "new external source relative to current 100Sn Wiki pages",
+      "failure_status": null,
+      "source_map": ["knowledge/sources/karthein-2024-electromagnetic-properties-indium-100sn.md", "knowledge/nuclei/100sn.md"],
+      "workflow_status": {
+        "download": "completed",
+        "verification": "completed",
+        "bibtex": "not-modified",
+        "ingest": "source-created"
+      }
+    },
+    {
+      "candidate_title": "Raw Data Results Figure: Electromagnetic Properties of Indium Isotopes Elucidate the Doubly Magic Character of 100Sn",
+      "doi": "10.5281/zenodo.11061390",
+      "arxiv_id": "2310.15093",
+      "discovery_source": "Nature Data Availability and Zenodo API",
+      "download_url": "https://zenodo.org/records/11061390/files/fig2-Kar23-results-data.csv?download=1",
+      "final_path": "raw/papers/gpt/_incoming/20260912-100sn-refresh/fig2-Kar23-results-data.csv",
+      "pages": null,
+      "bytes": 7122,
+      "sha256": "5f685ef18a3d6177c8d4f2a89d3b7559c99ecc40a51f242070a7b1cda709e68c",
+      "repository_checksum": "md5:62db8a41a58ed710f65bea6ef1cb090e",
+      "pdf_verification": "not a PDF; CSV header and rows inspected; Zenodo record, file size and checksum verified",
+      "bibtex_key": null,
+      "duplicate_status": "new public figure-data artifact; not a 100Sn beta-decay dataset",
+      "failure_status": null,
+      "source_map": ["knowledge/sources/karthein-2024-electromagnetic-properties-indium-100sn.md#public-data-and-l4-boundary"],
+      "workflow_status": {
+        "download": "completed",
+        "verification": "completed",
+        "bibtex": "not-modified",
+        "ingest": "supporting-data-only"
+      }
+    },
+    {
+      "candidate_title": "Dataset: Electromagnetic Properties of Indium Isotopes Elucidate the Doubly Magic Character of 100Sn",
+      "doi": "10.5281/zenodo.10138423",
+      "arxiv_id": "2310.15093",
+      "discovery_source": "Nature Data Availability and Zenodo API",
+      "download_url": "https://zenodo.org/records/10138423/files/CRIS_101-115In_raw-data.zip",
+      "final_path": null,
+      "pages": null,
+      "bytes": 596324027,
+      "sha256": null,
+      "repository_checksum": "md5:04b6e0dcf719139c6eb710be2dff818e",
+      "pdf_verification": "metadata-only; open Zenodo record and file identity verified, 596 MB archive not downloaded",
+      "bibtex_key": null,
+      "duplicate_status": "new public raw-data dataset; outside current 100Sn B(GT) decay data",
+      "failure_status": null,
+      "source_map": ["knowledge/sources/karthein-2024-electromagnetic-properties-indium-100sn.md#public-data-and-l4-boundary"],
+      "workflow_status": {
+        "download": "deferred-by-scope",
+        "verification": "metadata-verified",
+        "bibtex": "not-modified",
+        "ingest": "not-started"
+      }
+    },
+    {
+      "candidate_title": "Dataset: Nuclear moments of indium isotopes reveal abrupt change at magic number 82",
+      "doi": "10.5281/zenodo.6406949",
+      "arxiv_id": null,
+      "discovery_source": "Nature Data Availability and Zenodo API",
+      "download_url": "https://zenodo.org/records/6406949/files/In_rich_EMs_data.zip",
+      "final_path": null,
+      "pages": null,
+      "bytes": 390597795,
+      "sha256": null,
+      "repository_checksum": "md5:5239574e2ab0cbbfb747d32c9ea0a054",
+      "pdf_verification": "metadata-only; cited as the 113-131In companion dataset, archive not downloaded",
+      "bibtex_key": null,
+      "duplicate_status": "related public dataset; no local promotion",
+      "failure_status": null,
+      "source_map": ["knowledge/sources/karthein-2024-electromagnetic-properties-indium-100sn.md#public-data-and-l4-boundary"],
+      "workflow_status": {
+        "download": "deferred-by-scope",
+        "verification": "metadata-verified",
+        "bibtex": "not-modified",
+        "ingest": "not-started"
+      }
+    }
+  ],
+  "l4_decision": "No L4 started: the source is not a 100Sn beta-decay/B(GT) dataset and no new analysis question, complete input manifest, parameter record, code run, and sensitivity/negative-control package was assembled.",
+  "protected_boundary": "No protected Zotero BibTeX, credentials, Git configuration, or original degree-dissertation PDF was modified. The downloaded PDF/CSV are ignored local evidence under raw/papers/gpt/_incoming."
+}

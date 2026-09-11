@@ -15,10 +15,10 @@ updated: 2026-07-16
 2. 默认保持深度文献读取；优化目标是减少启动、扫描、QMD 和复盘固定开销，不降低 evidence quality。
 3. 每条 key claim 尽量给出 page、section、figure、table、equation、caption、level scheme、spectrum 或具体段落等 locator。
 4. 区分 observed fact、experimental criterion、model result、author interpretation 和 Wiki synthesis。
-5. 需要人工核对的 claim 保留 `needs_review: true`；页面级 `human-reviewed` 与 claim-level `needs_review` 独立。
+5. 需要进一步核验的 claim 保留 `needs_review: true`；Codex self-audit 可在直接来源和 locator 核对后更新对应状态；页面级 `human-reviewed` 只记录真实用户审核。
 6. 不修改 raw PDF、论文、数据、图片或 `raw/zotero/wiki-inbox.bib`；不新增 Skill、automation、脚本或调度器。
 7. 普通摄入不修改 lint 脚本、lint 配置或测试；若认为必须修改，停止并询问用户。
-8. 普通文献摄入默认由 Agent 完成逐 claim 自审；长任务可保留单一 rolling `WIP ingest:`，完成且无未隔离 hard P0 时 amend 为 final，并按仓库持续 commit/push 授权自动发布。Agent 自审不改变 `unreviewed` / `needs_review`；用户明确禁止 push、禁止任何本地 commit 或要求先审核时按该覆盖指令执行。
+8. 普通文献摄入默认由 Agent 完成逐 claim self-audit；长任务可保留单一 rolling `WIP ingest:`，完成且无技术 hard P0 时 amend 为 final，并按仓库持续 commit/push 授权自动发布。科学 partial/stopped 和未发生用户审核不阻止发布；用户明确禁止 push、禁止任何本地 commit 或要求先审核时按该覆盖指令执行。
 9. 普通单篇摄入不强制 QMD embed；可把 QMD refresh 写为 deferred，并说明原因与建议补跑时机。
 10. 普通单篇摄入不默认更新 `knowledge/overview.md`；overview 是阶段性地图。
 11. 只做与本轮任务直接相关的最小同步；有帮助但非必要的优化只列建议。
@@ -33,7 +33,7 @@ updated: 2026-07-16
 
 普通单篇摄入指：一篇目标文献、明确 PDF 路径、明确 BibTeX key、明确摄入策略、明确研究主题、明确 project 关系，且不要求跨文献综合、修改 workflow、解释摄入策略、detailed workflow recap 或 detailed strategy-policy audit。不默认读取 detail 教程只表示不读取长 workflow 教程，不表示降低 PDF 阅读深度；PDF 阅读深度由 source note 的 `reading-depth` / evidence-reading 状态决定。
 
-多篇摄入不自动等于复杂摄入。若用户要求逐篇摄入，按顺序一篇一篇完成；每篇都必须有独立 source note、claim kind、locator、needs_review、project relation、source-level / claim-level 审核重点和 P0/P1 triage。不得因为多篇在同一提示词出现而合并成粗略批处理。只有多篇之间需要跨文献比较、冲突证据判断、project/synthesis 大综合、策略选择不明确，或用户要求 detailed strategy-policy audit 时，才读取 detail 教程。
+多篇摄入不自动等于复杂摄入。若用户要求逐篇摄入，按顺序一篇一篇完成；每篇都必须有独立 source note、claim kind、locator、needs_review、project relation、source-level / claim-level self-audit 重点和 P0/P1 triage。不得因为多篇在同一提示词出现而合并成粗略批处理。只有多篇之间需要跨文献比较、冲突证据判断、project/synthesis 大综合、策略选择不明确，或用户要求 detailed strategy-policy audit 时，才读取 detail 教程。
 
 ## Thematic batch REFLECT
 
@@ -84,17 +84,17 @@ Staged evidence reading 是阅读顺序优化，不是降低摄入标准。用�
 
 普通单篇文献摄入不默认更新 `knowledge/overview.md`。以下情况建议更新：多篇文献批量摄入完成；新建或显著更新 project；新建或显著更新 synthesis；主题知识地图发生结构性变化；用户明确要求；paper evidence gate 或 major concept map 变化。
 
-若本轮不更新 overview，最终复盘写明 `overview update deferred`、deferred reason 和建议何时更新。`knowledge/index.md` 可做最小索引更新，但不得扩写成综合性 overview。若 overview 加入科学判断、跨文献总结或争议判断，Human review triage 至少列为 P1；低风险统计或导航更新列为 P2/P3。
+若本轮不更新 overview，最终复盘写明 `overview update deferred`、deferred reason 和建议何时更新。`knowledge/index.md` 可做最小索引更新，但不得扩写成综合性 overview。若 overview 加入科学判断、跨文献总结或争议判断，Agent self-audit triage 至少列为 P1；低风险统计或导航更新列为 P2/P3。
 
-## Human review triage
+## Agent self-audit triage
 
-P0/P1 是复盘重点，不把所有 `needs_review` 等权重铺开；但科学风险不能因展示预算被隐藏。
+P0/P1 是 Codex self-audit 的复盘重点，不把所有 `needs_review` 等权重铺开；但科学风险不能因展示预算被隐藏。后续问答或论文写作需要用户裁决具体 claim 时，再触发人工审核。
 
-- `P0`：无总量硬上限。每项必须给出实际判断、文件、section/claim ID、source locator、grounded evidence、Agent inference、为什么重要、用户检查什么和不审核的风险。可按认知负担分批继续或 safe suspend，但完整 P0 队列必须保留，不得聚合隐藏、降级、删除或直接晋升。
-- `P1`：允许软性展示预算和按文件分组，但每个重要判断仍须显示 evidence、Agent inference 与审核目的，不能退化为纯文件名列表。
+- `P0`：无总量硬上限。每项必须给出实际判断、文件、section/claim ID、source locator、grounded evidence、Agent inference、为什么重要、后续问答/写作核验目的和不核验风险。可按信息增益分批继续或 safe suspend，但完整 P0 队列必须保留，不得聚合隐藏、降级或删除。
+- `P1`：允许软性展示预算和按文件分组，但每个重要判断仍须显示 evidence、Agent inference 与后续核验目的，不能退化为纯文件名列表。
 - `P2/P3`：按文件或内容类型聚合；低风险 index/overview/handoff/log 与科学 claim 分开。
 - 没有 P0 时写 `P0: none identified`。
-- Source-specific triage 必须持久化到对应 source 页面，不得只保留在聊天或最终报告；页面直接引用本节定义，不复制第二套分级规则。Human Review Notes/Human Review Record 只在用户批注或审核事件真实发生后加入。
+- Source-specific triage 必须持久化到对应 source 页面，不得只保留在聊天或最终报告；页面直接引用本节定义，不复制第二套分级规则。Human Review Notes/Human Review Record 只在用户后续问答或写作批注真实发生后加入。
 - 若 P0 较多，当前轮说明本批范围和后续未审 P0 队列；“精力有限时建议先看”只决定顺序，不改变总清单。
 
 ## Compact final recap
@@ -103,8 +103,8 @@ P0/P1 是复盘重点，不把所有 `needs_review` 等权重铺开；但科学�
 
 1. Result status：completed / partial / safe suspend；commit hash；是否 push；是否存在未提交文件。
 2. Files changed：只列关键文件；index/overview/handoff/log 可聚合说明。
-3. Human review triage：按完整 P0、可分组 P1、聚合 P2/P3 输出。
+3. Agent self-audit triage：按完整 P0、可分组 P1、聚合 P2/P3 输出；后续用户核验入口单独说明。
 4. Checks：`git status --short`、`git diff --stat`、`git diff --check`、wiki_lint 结果。
-5. Next action：用户下一步审核什么；partial 时给继续提示词。
+5. Next action：下一步研究或核验什么；partial 时给继续提示词。
 
 除非用户要求 detailed workflow recap，普通最终复盘建议控制在 400-900 中文字。commit/push 状态必须醒目；未 push 写 `not pushed`，已 push 写 commit hash 和 branch。

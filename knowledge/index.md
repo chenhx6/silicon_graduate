@@ -2,7 +2,7 @@
 type: system-index
 graph-excluded: true
 created: 2026-07-01
-updated: 2026-09-02
+updated: 2026-09-13
 ---
 
 # Wiki Index
@@ -29,7 +29,9 @@ updated: 2026-09-02
 - [[wang-2013-high-spin-104ag]] - `104Ag` revised A-F coexistence scheme、A/B chiral candidate and electric-/magnetic-rotation references。
 - [[kuti-2014-multiple-chiral-doublets-103rh]] - `103Rh` positive pair plus two negative same-configuration MχD candidates；保留 band-number crosswalk、parity assumption 与 PRM energy/alignment discrepancies。
 - [[petrache-2018-chiral-bands-even-even-136nd]] - `136Nd` five-pair even-even chirality case；D5 partner-ratio evidence、four weak candidates and D3-only 3D-TAC geometry 分层。
+- [[lv-2019-chirality-135nd-reexamined]] - `135Nd` 后续原始重分析；以 IPDCO、E2/E1 连接和 Table I crosswalk 支持 D3/D4 正宇称，并与 D5/D6 负宇称历史谱系分层。
 - [[xiong-wang-2019-nuclear-chiral-doublet-data-tables]] - 59 reported doublets/47 nuclei/8 MχD candidates 的 2019 历史 census；作为查表与原始来源入口，不增加独立证据。
+- [[karthein-2024-electromagnetic-properties-indium-100sn]] - ISOLDE/CRIS `101–131In` 精密激光谱学；以 `Q_s`、磁矩和电荷半径趋势补充 `100Sn` 双幻数背景，不替代 GT 衰变证据。
 - [[guo-2020-pseudospin-chiral-quartet-131ba]] - `131Ba` D3-D6 pseudospin-chiral quartet、D7/D8 negative pair 与 direct E1 octupole-correlation network；保留 pairing/geometry/lifetime 边界。
 - [[wang-2020-recent-progress-multiple-chiral-doublets]] - distinct-/same-configuration MχD taxonomy、实验/预测表与 ideal-PRM linking rules；保留二级证据、模型条件和 `136Nd (5n)` 表错。
 - [[starosta-2001-n75-chiral-vibrations]] - `130Cs/132La/134Pr/136Pm` doublet systematics、mixed links、soft chiral-vibration/island interpretation 与五同中子素 3D TAC；保留 reaction/independence conflict。
@@ -56,6 +58,8 @@ updated: 2026-09-02
 - [[matta-2015-transverse-wobbling-135pr]] - `135Pr` transverse-wobbling 解释的原始实验支持来源。
 - [[sensharma-2019-two-phonon-wobbling-135pr]] - `135Pr` two-phonon wobbling extension 的原始实验支持来源。
 - [[lv-2022-evidence-against-wobbling-135pr]] - 反对 `135Pr` low-spin wobbling 的联合角关联/偏振实验与 QTR 比较；supplementary material 作为附属证据层挂接。
+- [[guo-2021-comment-transverse-wobbling-135pr]] - `135Pr` Matta 2015 判据的 methodological comment；记录 angular-distribution 双解与 polarization sign 非唯一性。
+- [[sensharma-2026-evolution-chirality-transverse-wobbling-135pr]] - `135Pr` 后续高统计 Gammasphere 研究；新增 DB1/DB2 连接并以 χ² 重分析回应 wobbling 反方质疑，保留无偏振/无绝对寿命边界。
 - [[sensharma-2020-longitudinal-wobbling-187au]] - `187Au` longitudinal-wobbling 与 signature-partner 区分的原始实验支持来源。
 - [[guo-2022-low-spin-wobbling-187au]] - 以独立 `R_ac-P`、internal conversion 比较与 QTR 重解释 `187Au` reported low-spin wobbling 的反方来源；supplementary material 作为附属证据层挂接。
 - [[lawrie-2020-tilted-precession-wobbling]] - TiP 完整 3D rotation、wobbling approximation 条件与 phonon quantization 的理论基础来源。
@@ -118,9 +122,9 @@ updated: 2026-09-02
 - [[133ce]] - 中高自旋多带、三轴性及 N=75 signature splitting。
 - [[137nd]] - 两对候选手征双重带及 chiral-vibration 解释。
 - [[163lu]] - 非 A≈130 的三轴超形变与高自旋转动参照核素。
-- [[135pr]] - 低自旋 yrast/side-band wobbling 争议核素。
+- [[135pr]] - 低自旋 yrast/side-band wobbling 与 DB1/DB2 chirality 争议核素。
 - [[187au]] - A≈190 区 low-spin longitudinal-wobbling、single-particle excitation 与 signature-partner 争议核素。
-- [[135nd]] - `N=75` 奇中子核；当前聚焦 D1/TiP1/TiP2 experimental tilted-precession case。
+- [[135nd]] - `N=75` 奇中子核；分层保存 D1/TiP1/TiP2、HD band 与 2019 PRC 的 D3/D4、D5/D6 chiral-band crosswalk。
 - [[152dy]] - Lauritsen 2025 GRETINA tracking-array 方法示例中的 high-spin `152Dy` 实验信息入口。
 
 ## Bands
@@ -369,7 +373,46 @@ updated: 2026-09-02
 
 ### Nuclei and Methods
 
-- [[100sn]] - 两条独立 `100Sn` decay-spectroscopy thesis lineages；BGT/Q-value 和 `100In` level-scheme 边界。
+- [[100sn]] - 两条独立 `100Sn` decay-spectroscopy thesis lineages，加上 2024 ISOLDE/CRIS In electromagnetic shell-closure context；BGT/Q-value 和 `100In` level-scheme 边界仍分层保存。
 - [[gamow-teller-strength]] - `100Sn` B(GT) 定义、两份 thesis 结果及 model/uncertainty 边界。
 - [[lifetime]] - fast timing、MLH、RDDS/DSAM 和 fission-isomer timing 的寿命观测量入口。
 - [[signature-inversion]] - signature inversion 的现象定义、判据和多机制边界。
+
+## 2026-09-10 Autonomous Dissertation Research
+
+### Sources
+
+- [[wang-shouyu-2005-126cs-123i-chiral-thesis]] - 王守宇 `126Cs/123I` 高自旋与手征候选。
+- [[wang-haixia-2012-173w-128i-high-spin-thesis]] - 王海霞 `173W/128I` 高自旋结构。
+- [[wang-jianguo-2010-high-spin-103-104nb-140pm]] - 王建国 `103,104Nb/140Pm` 高自旋结构。
+- [[wang-2014-high-spin-104ag-91-92zr]] - 王志刚 `104Ag/91,92Zr` 高自旋与 ADO。
+- [[li-2013-high-spin-184-186au]] - 李仕成 `184,186Au` 形变双奇核高自旋。
+- [[wang-2013-high-spin-195au-195pt]] - 王思成 `195Au/195Pt` 高自旋结构。
+- [[zheng-2004-high-spin-145tb-157yb]] - 郑勇 `145Tb/157Yb` 高自旋结构。
+- [[zhou-houbing-2012-101pd-rdt-thesis]] - 周厚兵 `101Pd` 在束谱学与 RDT 设计。
+- [[wu-hongyi-2020-general-purpose-digital-daq-thesis]] - 吴鸿毅通用数字化获取系统。
+- [[liu-2008-shape-coexistence-188pt]] - 刘渊 `188Pt` 形状共存。
+- [[liu-minliang-2004-high-spin-141nd-142pm]] - 柳敏良 `141Nd/142Pm` 高自旋结构。
+- [[li-mingliang-2006-high-spin-137la-138pr-98sr]] - 李明亮 `137La/138Pr/98Sr` 高自旋结构。
+- [[mu-lin-2024-exotic-shapes-sn-isotopes]] - 穆琳 `111,112Sn` 奇特形状、E1 与 DSAM。
+- [[mu-lin-2020-high-spin-81kr-triplet-bands]] - 穆琳 `81Kr` 三重带/手征–赝自旋候选。
+- [[he-chuangye-2006-magnetic-chiral-106ag]] - 贺创业 `106Ag` 磁转动与手征候选。
+- [[fang-2008-high-spin-188au]] - 方永得 `188Au` 高自旋与 Clover 偏振。
+- [[song-litao-2006-high-spin-179au-183au]] - 宋立涛 `179Au/183Au` 高自旋。
+- [[guo-song-2009-high-spin-174re]] - 郭松 `174Re` 高自旋与旋称反转。
+- [[zhang-2022-shape-coexistence-187pb-188bi-188po]] - 张文强 `187Pb/188Bi/188Po` 形状共存与 RDT 效率。
+- [[zheng-2021-collectivity-shape-119cs-119ba-118cs]] - 郑宽宽 `119Cs/119Ba/118Cs` 集体性、形状和 revolving chirality。
+- [[liu-chen-2016-78br-chirality-reflection-symmetry-thesis]] - 刘晨 `78Br` 手征与反射对称性破缺博士论文；与 2016 期刊论文共享实验谱系。
+- [[liu-hongna-2015-12c-np-correlations-thesis]] - 刘红娜 `12C` 中子质子关联、双核子敲出和三体力边界。
+- [[liu-yanxin-2012-projected-shell-model-exotic-nuclei]] - 刘艳鑫投影壳模型/三轴投影壳模型在 Zr/Mo 丰中子区的理论结果。
+- [[lv-bingfeng-2019-chirality-136nd-135nd-thesis]] - 吕冰峰 `136Nd/135Nd` 手征、RDT 和倾斜进动候选。
+- [[wu-2021-general-purpose-digital-daq-waveform-analysis]] - 吴鸿毅等数字化通用获取系统及波形分析算法期刊方法来源。
+- [[sun-yazhou-2019-16c-single-proton-knockout-thesis]] - 孙亚洲 `16C` 单质子敲出和 `R_s` 能量比较。
+- [[yue-ke-2010-hirfl-csr-gamma-ball-csi-thesis]] - 岳珂 HIRFL-CSR 外靶 CsI(Tl) Gamma Ball 设计与模拟。
+- [[xiao-xiao-2019-high-spin-74as-thesis]] - 肖骁 `74As` 高自旋态；正宇称手征候选与负宇称 pseudospin 边界。
+- [[mavela-2019-32s-quadrupole-moment-doppler-correction-thesis]] - Mavela `32S` 第一 `2+` 态谱学四极矩和 GOSIA 重定向效应。
+- [[yan-duo-2015-csr-coulomb-excitation-detector-system-thesis]] - 闫铎 CSR 外靶 Gamma Ball 效率与 CsI 望远镜 PID 方法。
+
+### Batch status
+
+本批次按 raw 目录建立 55-file 阅读台账；source 页记录实际阅读范围、SHA-256、关键 claims、P0/P1 和未完成边界。共享 thesis/journal lineage 不计为独立实验。

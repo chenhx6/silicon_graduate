@@ -1,0 +1,119 @@
+{
+  "run_id": "20260912-135nd-crosswalk",
+  "created_at": "2026-09-12T00:00:00Z",
+  "query": "135Nd D3 D4 parity conflict, original Band A/B papers, later reanalysis, and model crosswalk",
+  "scope": "External direct-source crosswalk for DD-20260910-136ND-03; downloaded PDFs remain under the ignored raw/papers/gpt/_incoming path.",
+  "candidates": [
+    {
+      "candidate_title": "Chirality of 135Nd reexamined: Evidence for multiple chiral doublet bands",
+      "doi": "10.1103/PhysRevC.100.024314",
+      "arxiv_id": "1907.12809v1",
+      "discovery_source": "arXiv API, Crossref, OpenAlex",
+      "download_url": "https://arxiv.org/pdf/1907.12809v1",
+      "final_path": "raw/papers/gpt/_incoming/20260912-135nd-crosswalk/lv-2019-135nd-reexamined-arxiv.pdf",
+      "pages": 10,
+      "bytes": 285508,
+      "sha256": "97182e90125ce57ac2faa0feeef42b6bc12952b3287f82f277a04f8d32cf0303",
+      "pdf_verification": "direct arXiv PDF identity verified; title, journal reference and DOI crosschecked with arXiv API/Crossref; pp.1-3, 6-10 visually inspected",
+      "bibtex_key": null,
+      "duplicate_status": "new direct journal source; same JUROGAM campaign lineage as the Lv thesis, not an independent experiment",
+      "failure_status": null,
+      "source_map": ["knowledge/sources/lv-2019-chirality-135nd-reexamined.md", "DD-20260910-136ND-03"],
+      "workflow_status": {
+        "download": "completed",
+        "verification": "completed",
+        "bibtex": "not-modified",
+        "ingest": "source-created"
+      }
+    },
+    {
+      "candidate_title": "A Composite Chiral Pair of Rotational Bands in the Odd-A Nucleus 135Nd",
+      "doi": "10.1103/PhysRevLett.91.132501",
+      "arxiv_id": "nucl-ex/0302029v2",
+      "discovery_source": "arXiv API, Crossref",
+      "download_url": "https://arxiv.org/pdf/nucl-ex/0302029",
+      "final_path": "raw/papers/gpt/_incoming/20260912-135nd-crosswalk/zhu-2003-135nd-arxiv.pdf",
+      "pages": 10,
+      "bytes": 169558,
+      "sha256": "8dd7aaa0a2e369532dd673384bcc18c60abc330408f20243939b31df15d98542",
+      "pdf_verification": "direct arXiv PDF identity and pp.1-2, 4 visual evidence inspected; used as historical Band A/B crosswalk only",
+      "bibtex_key": null,
+      "duplicate_status": "new contextual source relative to current Wiki pages",
+      "failure_status": null,
+      "source_map": ["knowledge/sources/lv-2019-chirality-135nd-reexamined.md#historical-lineage"],
+      "workflow_status": {
+        "download": "completed",
+        "verification": "completed",
+        "bibtex": "not-modified",
+        "ingest": "crosswalk-only"
+      }
+    },
+    {
+      "candidate_title": "From chiral vibration to static chirality in 135Nd",
+      "doi": "10.1103/PhysRevLett.99.172501",
+      "arxiv_id": "0708.1493",
+      "discovery_source": "arXiv API, Crossref, INSPIRE",
+      "download_url": "https://arxiv.org/pdf/0708.1493",
+      "final_path": "raw/papers/gpt/_incoming/20260912-135nd-crosswalk/almehed-2007-135nd-tac-rpa.pdf",
+      "pages": 10,
+      "bytes": 128664,
+      "sha256": "244102a3716d2f12459c5d9b1dd9c024a51a579f6e11b7ecf8fbb6ac8b886c10",
+      "pdf_verification": "direct arXiv PDF identity and pp.1-2, 4-5 visual evidence inspected; used for historical lifetime/transition-probability lineage",
+      "bibtex_key": null,
+      "duplicate_status": "new contextual source relative to current Wiki pages",
+      "failure_status": null,
+      "source_map": ["knowledge/sources/lv-2019-chirality-135nd-reexamined.md#historical-lineage"],
+      "workflow_status": {
+        "download": "completed",
+        "verification": "completed",
+        "bibtex": "not-modified",
+        "ingest": "crosswalk-only"
+      }
+    },
+    {
+      "candidate_title": "Chirality in odd-A nucleus 135Nd in particle rotor model",
+      "doi": "10.1016/j.physletb.2009.02.061",
+      "arxiv_id": "0812.4597",
+      "discovery_source": "Crossref and arXiv metadata",
+      "download_url": "https://arxiv.org/pdf/0812.4597",
+      "final_path": "raw/papers/gpt/_incoming/20260912-135nd-crosswalk/qi-2009-135nd-prm-arxiv.pdf",
+      "pages": 16,
+      "bytes": 376923,
+      "sha256": "248546abd4a1d1597bf9ddf39cfffd5f09604802704204f0ff61647bbdb19346",
+      "pdf_verification": "direct arXiv PDF identity and full text extraction completed; model paper retained as contextual theory support",
+      "bibtex_key": null,
+      "duplicate_status": "new contextual source relative to current Wiki pages",
+      "failure_status": null,
+      "source_map": ["knowledge/sources/lv-2019-chirality-135nd-reexamined.md#historical-lineage"],
+      "workflow_status": {
+        "download": "completed",
+        "verification": "completed",
+        "bibtex": "not-modified",
+        "ingest": "crosswalk-only"
+      }
+    },
+    {
+      "candidate_title": "Covariant density functional theory for nuclear chirality in 135Nd",
+      "doi": "10.1016/j.physletb.2020.135795",
+      "arxiv_id": "2009.08075",
+      "discovery_source": "Crossref and arXiv metadata",
+      "download_url": "https://arxiv.org/pdf/2009.08075",
+      "final_path": "raw/papers/gpt/_incoming/20260912-135nd-crosswalk/lawrie-2020-135nd-cdfT.pdf",
+      "pages": 6,
+      "bytes": 497843,
+      "sha256": "d756bbd68c74684ecbc4dfc1bd1d16bf7a62ae23371d341d00924ddddac74946",
+      "pdf_verification": "direct arXiv PDF identity and full text extraction completed; theory source retained as contextual configuration support",
+      "bibtex_key": null,
+      "duplicate_status": "new contextual source relative to current Wiki pages",
+      "failure_status": null,
+      "source_map": ["knowledge/sources/lv-2019-chirality-135nd-reexamined.md#historical-lineage"],
+      "workflow_status": {
+        "download": "completed",
+        "verification": "completed",
+        "bibtex": "not-modified",
+        "ingest": "crosswalk-only"
+      }
+    }
+  ],
+  "protected_boundary": "No protected Zotero BibTeX, credentials, Git configuration, raw original degree-dissertation PDF, or external Downloads path was modified. The five PDF artifacts are ignored local evidence and are not part of the staged publication scope."
+}

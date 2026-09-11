@@ -28,7 +28,7 @@ python system/scripts/wiki_lint.py --fail-on error
 python -m unittest discover -s system/tests -p "test_*.py" -v
 ```
 
-自动 lint 覆盖结构、链接、哈希、字段、A/Z/N、可解析的中子蒸发反应道、Git 边界和 claim-level 治理统计。`GOVERNANCE` 行报告页面/source unreviewed、claim 待审、缺 locator/kind、source 缺 raw_file/citation key；涉及科学解释、证据独立性和物理等价性的项目仍需人工判断。
+自动 lint 覆盖结构、链接、哈希、字段、A/Z/N、可解析的中子蒸发反应道、Git 边界和 claim-level 治理统计。`GOVERNANCE` 行报告页面/source unreviewed、claim 核验标记、缺 locator/kind、source 缺 raw_file/citation key；涉及科学解释、证据独立性和物理等价性的项目由 Codex self-audit 判断，论文或后续问答再触发用户裁决。
 
 ## A. 会话记忆与治理
 
@@ -49,7 +49,7 @@ python -m unittest discover -s system/tests -p "test_*.py" -v
 - [ ] 每份实质周测报告有 `Selection audit`，记录运行类型、是否计入轮次、候选覆盖类别、两个槽位、核心来源指纹/重叠、冷却或 deferred 原因、新增知识和 belief revision；其它重要问题写入 `Deferred important issues`。
 - [ ] 核素问题在适用时比较同位素和同中子素；L3 只使用合法、可核验的 Nature-first 获取路径和 Agent 管理的 `raw/papers/gpt/**`、`raw/zotero/gpt.bib`；关键 SI 才下载，`wiki-inbox.bib` 永不修改/暂存。
 - [ ] L4 只生成 `outputs/l4/<issue>-<date>/report.md` readiness（`ready`/`partial`/`not-ready`）；`partial`/`not-ready` 不停用周测，不假定用户已有实验数据。
-- [ ] pending review 只阻止重叠写入，不阻止全局只读选题或无重叠的新知任务；有实质变化的周测生成 `outputs/self-tests/` P0/P1 报告和相应 WIP/final 状态，通过 H3/发布检查后按持续授权自动 push；未完成或无实质变化时未制造空 commit。
+- [ ] 未完成用户审核只阻止需要该用户裁决的论文/问答措辞，不阻止全局只读选题、无重叠的新知任务或 Codex self-audit 写回；有实质变化的周测生成 `outputs/self-tests/` 报告和相应 WIP/final 状态，通过 H3/发布检查后按持续授权自动 push；未完成或无实质变化时未制造空 commit。
 - [ ] 检查不依赖 Docker、固定路径、`.codex/`、`.obsidian/` 或特定 AI 工具配置；这些属于本地运行环境。
 - [ ] 本轮只执行与 Wiki 任务相关的命令；未依赖桌面端 GUI 或 Computer Use，浏览器下载已指定到仓库内路径。
 - [ ] 递归删除、历史重写、raw 证据删除/覆盖、已发布标签改写和其它不可逆操作均有用户明确授权；普通 push 使用持续授权但仍通过 H3/发布检查，未把自主发布授权解释为 force push 或 raw 覆盖授权。
@@ -61,7 +61,7 @@ python -m unittest discover -s system/tests -p "test_*.py" -v
 - [ ] 定时任务正文未通过 shell、补丁或文件 API 读写 Codex 宿主 automation memory、global state、sandbox state 或任何 Wiki 外文件；宿主状态仅由 Codex automation 功能维护。
 - [ ] 定时任务的“一次/重复”、时区和下次运行时间在界面中无歧义；一次性请求未显示为“每天”。
 - [ ] 只有在存在运行回执且产物已核验时，才把定时任务报告为“已执行/已完成”；无回执明确写为“未触发/未验证”。
-- [ ] 若执行余量不足、检查失败需要用户决策、长任务未完成或任务无法稳定完成，已停止扩大范围，运行三项 Git 检查并把完整 safe suspend 信息写入 handoff。
+- [ ] 若执行余量不足、检查失败、长任务未完成或任务无法稳定完成，已停止扩大范围，运行三项 Git 检查并把完整 safe suspend 信息写入 handoff；普通科学未决不作为等待用户决策的默认原因。
 - [ ] Safe suspend 未被表述为自动睡眠/原地恢复，未自动创建 automation 或 push；大量 diff 场景已按规则判断是否创建本地 WIP checkpoint。
 - [ ] Safe suspend / checkpoint 已写明未完成内容、未核查 locator / claim gaps、P0/P1 风险和 continuation prompt；未把 metadata-only 或 skimmed 伪装成 read / deep-read。
 
@@ -82,12 +82,12 @@ python -m unittest discover -s system/tests -p "test_*.py" -v
 ## C. 科学表述与证据
 
 - [ ] 已查看 lint 的 `GOVERNANCE` 统计，页面级 review 状态与 claim-level `needs_review` 没有混为一谈。
-- [ ] `CLAIM_NEEDS_REVIEW` info 已列入人工审阅队列，未因页面为 `human-reviewed` 而自动清除。
+- [ ] `CLAIM_NEEDS_REVIEW` info 已列入 Codex self-audit 队列；未因页面为 `human-reviewed` 而自动清除，后续问答/写作的用户核验另行触发。
 - [ ] `claim_missing_locator` 与 `claim_missing_kind` 均为 0，或已按 error 处理。
 - [ ] `source_missing_raw_file` 与 `source_missing_citation_key` 均为 0，或已解释并处理。
 - [ ] 实验事实、作者解释、模型结果和个人推断已明确区分。
 - [ ] 置信度没有仅凭引用数量自动提高。
-- [ ] `high` 置信度均有用户确认记录。
+- [ ] `high` 置信度若用于论文或需要最终措辞，均有对应用户确认；普通研究中的 high candidate 有直接证据和 Codex self-audit 记录，未伪装成用户确认。
 - [ ] 多来源结论已判断证据是否真正独立。
 - [ ] 竞争解释、反证与限制没有被静默覆盖。
 - [ ] “候选”“支持”“强证据”“确定”用词与证据强度匹配。
@@ -125,13 +125,13 @@ python -m unittest discover -s system/tests -p "test_*.py" -v
 - [ ] Ordinary Q&A 没有默认启动完整学习闭环或持久化 provisional reasoning；研究型任务按 query routing 进入 ingest/reflect。
 - [ ] Ordinary Q&A 保持 read-only，没有因读取旧页面而静默写回；发现迁移需求时只报告并路由到授权 workflow。
 - [ ] on-touch migration 只处理当前授权 ingest/reflect/project/synthesis/claim-review-update/研究写作任务实际使用的旧页面，没有批量升级未触及历史页。
-- [ ] 没有批量补历史 ingest mode、research-note、Personal Notes 或统一 frontmatter；科学 claim、interpretation、review/reasoning state 或知识关系变化已进入 Human review triage。
+- [ ] 没有批量补历史 ingest mode、research-note、Personal Notes 或统一 frontmatter；科学 claim、interpretation、review/reasoning state 或知识关系变化已进入 Agent self-audit triage，后续用户问答/写作核验按具体 claim 触发。
 - [ ] Research note 只在授权研究任务且满足持久化门时创建；没有成为每篇文献的默认产物。
 - [ ] L2 只记录高价值、可检验的未决问题；L3 包含背景/已有工作、候选课题、假设、反证、信息增益与 milestone；L4 记录数据身份、运行复现、失败和 belief revision，没有用文献综合、作图或写作冒充数据研究。
-- [ ] Codex 自审核未伪装成 Human review，未自行清除 `needs_review`、设置 `confidence: high` 或晋升正式 synthesis。
+- [ ] Codex self-audit 未伪装成 Human review；可按证据更新相应 `needs_review` 或 confidence 技术记录，但未设置 `human-reviewed`，且正式论文措辞仍遵守 paper evidence gate。
 - [ ] Research note 使用 `review_status: unreviewed` 与 `reasoning_status: provisional` 起步；`reasoning_status` 未重复 `unreviewed/reviewed`，`revised` 只作为 history event。
 - [ ] `Grounded Evidence` 与 `Provisional Reasoning` 明确分开；note 不替代 source evidence。
-- [ ] `promoted` note 有正式 promotion target、Human review 和 grounded-source 回链；rejected/superseded/withdrawn 保留处置依据。
+- [ ] `promoted` note 有正式 promotion target、Codex self-audit 和 grounded-source 回链；若后续问答/写作发生用户审核则另有记录；rejected/superseded/withdrawn 保留处置依据。
 - [ ] Ordinary Q&A 已排除 `knowledge/research-notes/` / `type: research-note`；研究型任务使用 note 时显示 provisional 状态并回读 grounded sources。
 - [ ] Lint 只验证 research-note 的结构、枚举、grounded-source 非空和 promotion/review 一致性；没有把 lint 通过解释为推理科学正确。
 
@@ -145,7 +145,7 @@ python -m unittest discover -s system/tests -p "test_*.py" -v
 - [ ] 摄入前已按 `system/workflows/ingest-strategies.md` 运行时短规则选择策略；普通单篇摄入定义明确，未默认读取 `ingest-strategies-detail.md`。
 - [ ] 已确认 `ingest-strategies-detail.md` 的 detail 指 workflow detail，不是 PDF reading depth；不读取 detail 不得降低文献阅读深度。
 - [ ] 策略默认清单只用于检查文中是否报告相关信息，没有为填满清单编造内容。
-- [ ] 摄入复盘采用 compact final recap，优先列 Result status、commit/push、关键文件、Human review triage、checks 和 next action。
+- [ ] 摄入复盘采用 compact final recap，优先列 Result status、commit/push、关键文件、Agent self-audit triage、checks 和 next action。
 - [ ] 摄入后已做必要最小同步；普通单篇摄入没有无必要重写 `knowledge/overview.md`，若 deferred 已说明原因和建议补跑时机。
 - [ ] 查询答案的核心结论可追溯到来源页，而非只引用综合页。
 - [ ] 高复用答案才持久化，普通聊天不机械入库。
@@ -169,25 +169,25 @@ python -m unittest discover -s system/tests -p "test_*.py" -v
 - [ ] QMD 不可用、超时或索引异常时已如实报告并降级到 `rg`、index 和直接读取。
 - [ ] 没有运行 `qmd update --pull` 或让 QMD 隐式操作 Git；`qmd pull` 只在首次下载或修复模型时使用。
 
-### Human review triage
+### Agent self-audit triage
 
-- [ ] 文献摄入、project、synthesis、data-analysis-bridge 或 claim-review-update 的最终复盘包含 Human review triage。
-- [ ] 每篇 source-specific triage 已写回对应 source 页面而非只存在于聊天/复盘，并直接采用现有 P0/P1/P2/P3 定义。Human Review Notes/Human Review Record 只在实际批注或审核事件发生后实例化。
+- [ ] 文献摄入、project、synthesis、data-analysis-bridge 或 claim-review-update 的最终复盘包含 Agent self-audit triage；论文用途另列 Paper-use Human review triage。
+- [ ] 每篇 source-specific triage 已写回对应 source 页面而非只存在于聊天/复盘，并直接采用现有 P0/P1/P2/P3 定义。Human Review Notes/Human Review Record 只在后续问答或写作批注真实发生后实例化。
 - [ ] Triage 明确列出 P0/P1/P2/P3；没有 P0 时写明 `P0: none identified`。
-- [ ] P0 无总量硬上限；所有 P0 逐项给出实际判断、文件、section/段落、claim ID（如有）、source locator、grounded evidence、Agent inference、审核目的和不审核风险。
+- [ ] P0 无总量硬上限；所有 P0 逐项给出实际判断、文件、section/段落、claim ID（如有）、source locator、grounded evidence、Agent inference、后续核验目的和不核验风险。
 - [ ] P0 可以分批但没有聚合隐藏、降级、删除或直接晋升；后续未审 P0 队列完整保留。
 - [ ] 没有把所有 `needs_review` 等权重铺开；P1 可按文件分组但重要判断仍可审核，P2/P3 按文件聚合。
 - [ ] 审核点较多时给出“精力有限时建议先看”的 3-5 个位置。
 - [ ] 低风险 index/overview/handoff/log、格式和导航更新与科学 claim 分开。
-- [ ] Paper evidence gate 候选被列为 P0/P1；未完成 P0/P1 审核时没有描述为可直接用于论文。
+- [ ] Paper evidence gate 候选被列为 P0/P1；未完成该论文用途所需的 focused review 和用户确认时，没有描述为可直接用于论文。
 - [ ] 高相关未核验材料未因 `unreviewed` 或缺少 Review history entry 而被隐藏；已作为 candidate evidence 标明 review/source/locator 状态、适用条件、缺口和核查路径。
-- [ ] P0/P1 聚焦当前关键 claim 或证据项；没有要求用户先全面审核整页/整篇，除非当前 claim 依赖更广上下文。
+- [ ] P0/P1 聚焦当前关键 claim 或证据项；普通研究不要求用户逐项审核，论文用途仍按具体 claim 触发 focused review 和用户确认。
 - [ ] 页面整体 `unreviewed` 未阻止具体 claim 核验；页面 `human-reviewed` 也未替代精确、高风险或论文用途 claim 的直接来源核验。
 - [ ] Paper admission 由具体 claim、拟用措辞、直接来源、locator、适用条件、数据一致性和竞争解释共同决定，并经用户明确确认；局部准入未扩张为整页或其它 claims 的 review 状态更新。
 - [ ] 用户数据解释、competing interpretation、innovation candidate 和 paper-level candidate 被列为 P0/P1。
 - [ ] 多篇逐篇摄入没有粗略批处理；每篇文献分别列 source-level / claim-level 审核重点和 P0/P1。
-- [ ] Project/synthesis 任务列出主结论段落、evidence matrix 和跨来源解释的审核优先级。
-- [ ] 普通 ingest 的 P0 已由 Agent 逐项回证据处置；未隔离 hard P0 会阻止 final/push，P1 与已隔离/降级项目保留为未来问答、研究或论文证据采用时的核验优先级，不机械等待用户逐篇审核。
+- [ ] Project/synthesis 任务列出主结论段落、evidence matrix 和跨来源解释的 Codex self-audit 优先级。
+- [ ] 普通 ingest 的 P0 已由 Agent 逐项回证据处置；技术 hard P0 会阻止 final/push，科学 partial/stopped 与未触发的用户审核不阻止发布，并保留后续问答/研究/论文采用时的核验入口。
 
 ### 中英文术语归一化
 
@@ -213,42 +213,42 @@ python -m unittest discover -s system/tests -p "test_*.py" -v
 
 ### WIP ingest/review 与 safe suspend checkpoint
 
-- [ ] 文献摄入长任务、中断、未隔离 hard P0 或用户明确要求先审核时，HEAD 存在且仅存在一个 active `WIP ingest:` commit；正常完成且 Agent 自审通过时已 amend/创建 final commit。
+- [ ] 文献摄入长任务、中断、技术 hard P0 或用户明确要求先审核时，HEAD 存在且仅存在一个 active `WIP ingest:` commit；Codex self-audit 完成且技术安全通过时已 amend/创建 final commit。
 - [ ] WIP/final commit 只包含本轮摄入及直接必要同步文件；WIP message 以 `WIP ingest:` 开头，final message 与实际范围相符。
-- [ ] Project、synthesis 或跨来源综合完成并等待人工审核时，HEAD 存在且仅存在一个 active `WIP review:` commit。
+- [ ] Project、synthesis 或跨来源综合完成后由 Codex self-audit；只有后续问答/写作实际等待用户裁决时才使用 active `WIP review:` commit。
 - [ ] WIP commit 只保存在本地，没有 push；普通 ingest final 只有在 H3、fresh fetch、ancestry 和精确 refspec dry-run 通过后才使用同一 refspec 非 force push。
 - [ ] 已判断当前是否存在 pending WIP，以及本轮任务是否需要更新 `system/wip-queue.md`。
-- [ ] 若存在 pending WIP、等待审核、safe-suspended task 或未 push checkpoint，`system/wip-queue.md` 已新增或更新短 entry。
+- [ ] 若存在 pending WIP、技术 safe-suspended task、未 push checkpoint 或用户后续审核待处理项，`system/wip-queue.md` 已新增或更新短 entry。
 - [ ] Pending WIP queue 只记录恢复索引，没有写入 raw 内容、source claim 正文或长复盘。
 - [ ] Pending WIP queue 只保留继续审核所需的最新 branch / commit / next action，没有频繁追踪每个临时 commit/push 状态。
-- [ ] WIP 结束时 overview/QMD deferred 状态已在 queue 和最终复盘中说明；未把 WIP push 到 `main`，且没有把 Agent 自审后的 final/push 伪装成人类审核。
+- [ ] WIP 结束时 overview/QMD deferred 状态已在 queue 和最终复盘中说明；技术 hard P0 时不 push，科学 partial/stopped 可在 self-audit 后发布，且没有把 Agent self-audit 伪装成人类审核。
 - [ ] 本轮是否存在用户已经完成的实质性人工审核，以及是否可以无歧义地判断本轮审核已经结束。
 - [ ] Review history 触发判断没有机械依赖固定关键词；存在歧义时未擅自创建 Review history entry。
 - [ ] Review history 由审核完成语义触发，而不是由 commit、push、merge、overview 或 QMD 触发。
-- [ ] Review finalization 已按用户审核意见做最小修改，并只处理用户明确确认范围内的 `review_status` / `needs_review`。
+- [ ] Review finalization 已按后续用户问答/写作审核意见做最小修改，并只处理明确确认范围内的 `review_status` / `needs_review`；普通研究由 Codex self-audit 收尾。
 - [ ] Review history 不要求 task closed 后才能写入，并允许与 Pending WIP queue 同时存在。
 - [ ] 已判断当前任务在本轮审核后是否应写入 `system/review-history.md`，以及 queue 应继续保留、更新还是清理。
 - [ ] Review finalization 已按 ingest workflow 评估 `knowledge/overview.md` 触发条件；触发时最小同步，未触发时记录 deferred 理由，而不是机械更新。
 - [ ] Review finalization 默认执行 QMD refresh；若用户明确不要 QMD 或 QMD 失败，最终复盘已说明。
-- [ ] Review finalization 已按 WIP lifecycle amend/创建相应本地 commit；通过检查后默认自动 push，当前指令中的“不要 push”“只 commit”“只修改”可覆盖本轮发布；未完成、hard P0 或远端异常时保留本地状态并记录原因。
+- [ ] Review finalization 已按 WIP lifecycle amend/创建相应本地 commit；通过检查后默认自动 push，当前指令中的“不要 push”“只 commit”“只修改”可覆盖本轮发布；技术 hard P0 或远端异常时保留本地状态并记录原因。
 - [ ] Review history 条目记录了审核范围、用户判断、要求修改和遗留问题，没有伪装成 Git/push 历史。
 - [ ] Review history 使用 `review commit message`，不使用 `Git reference` 或 `final commit message`，且没有记录 commit hash 或 push 状态。
 - [ ] Review history 中的 `review commit message` 与实际 commit message 一致，且没有把它解释为 task closure、finalization complete 或 push complete。
 - [ ] Review finalization 已刷新 Active handoff，并按规则更新 queue / review history / short log；没有把它们强制绑定为简单 queue-to-history 迁移。
 - [ ] 没有在 push 后再额外创建纯 queue/status 修正 commit，除非前一次 finalization 确实遗漏了必要同步。
 - [ ] 同一任务的多轮审核按 round 追加，而不是覆盖旧条目。
-- [ ] 存在 unresolved P0、locator gaps、审核意见无法唯一映射或 WIP 归属不明时，未强行 finalization，已 safe suspend 或报告阻塞。
+- [ ] 存在技术 hard P0、locator gaps、WIP 归属不明或论文用途审核意见无法唯一映射时，未强行 finalization，已 safe suspend 或报告阻塞；普通科学 partial/stopped 已有校准记录时不被误当作技术阻塞。
 - [ ] framework setup 或普通维护没有回填旧 review history，除非用户明确要求历史审计。
 - [ ] HEAD 已是 active WIP ingest/review/suspend 时，没有开始下一篇摄入、下一项综合或创建第二个 WIP。
 - [ ] 普通 ingest 自审完成或用户审核完成后，均通过 `git commit --amend` 把对应 rolling WIP 转为 final commit，没有保留独立 WIP 或累积额外 review/final commits；只有真实 human-review completion event 才写 review history 或改变用户明确确认范围内的 review 状态。
 - [ ] 用户指定本轮提交 message 时已原样使用；未指定时由 Codex 根据实际修改推荐直接相关的 message，并在最终报告中说明。
-- [ ] 对应 active WIP + 用户审核完成时，已按持续授权 amend 为 final，并在发布门通过后自动 push；当前指令覆盖或科学发布门未通过时保留本地状态，没有错误套用通用“不主动 amend”约束。
+- [ ] 对应 active WIP + 用户审核完成时，已按持续授权 amend 为 final；Codex self-audit 完成且技术发布门通过时也可 amend 为 final 并自动 push；当前指令覆盖或技术发布门未通过时保留本地状态。
 - [ ] WIP/final commit 均未包含 `.obsidian/graph.json`、`raw/zotero/wiki-inbox.bib`、未经本轮授权的 raw PDF、论文、数据、图片、`PLAN.md` 或无关文件；获准进入 `raw/papers/gpt/**` / `raw/zotero/gpt.bib` 的文件已逐项核验并显式暂存。
 - [ ] Safe suspend 遇到大量 Markdown diff 时，已优先判断并尝试本地 WIP checkpoint。
 - [ ] 文献摄入、project、synthesis 或 framework 任务正常结束时，已自动刷新 Active handoff 并向 `system/log.md` 追加简短记录；用户不需要每次手动要求 handoff/log 收尾。
 - [ ] Safe suspend 会暂停本轮自动 commit/push，保留可恢复 checkpoint；恢复后重新通过发布门才继续。
 - [ ] Safe suspend WIP 只显式暂存本轮可分类文件；无法解释或无法安全暂存时未创建 commit。
-- [ ] 旧式“不 commit/push，等待审核”已解释为“不 final commit / 不 push，但允许本地 WIP”；当前用户持续授权默认适用于已完成且通过发布门的任务，不覆盖等待审核 WIP。
+- [ ] 旧式“不 commit/push，等待审核”已按当前规则解释为技术 hard P0 或用户明确要求时保留本地 WIP；科学 partial/stopped 和未发生用户审核不单独阻止 self-audit 后的 final/push。
 - [ ] 只有用户明确禁止任何本地 commit 时，才不创建 WIP checkpoint，并已提示大 diff 的 CPU 风险。
 - [ ] HEAD 已是当前任务相关 WIP 时使用 amend 更新；归属不明时已停止并询问用户。
 - [ ] Ingest/review 最终复盘列出 hash、message、push 状态、关键文件、Agent self-audit/Human review 边界，以及后续需按 claim 回证据核验的 ID/段落。
@@ -274,14 +274,14 @@ python -m unittest discover -s system/tests -p "test_*.py" -v
 - [ ] 创建或 amend WIP、或创建 final commit 前，已重新运行清理脚本、`git status -sb`、`git status --short`、`git diff --stat`，并以入口 baseline 核对本轮变化。
 - [ ] staged-only knowledge 文件被脚本保留且没有被误判为清理失败；substantive、mixed 或 unsafe 状态已按授权范围和 WIP 归属处理。
 - [ ] pending WIP 的预期文件已检查 overlap：无重叠可独立；同一范围继续并 amend；依赖关系写入 queue；共享文件无法隔离时先 final 上游或暂缓，没有静默创建两个独立冲突 WIP。
-- [ ] 普通摄入按 rolling WIP（如需要）→ Agent 自审 → final → 通过发布门后自动 push；独立 project/synthesis、跨来源研究结论和 claim-review 在等待人工审核或存在 hard P0 时保留本地 WIP、不 push；方案已确认且检查通过的治理、框架、脚本和说明任务可直接 final commit/push。
+- [ ] 普通摄入按 rolling WIP（如需要）→ Agent self-audit → final → 通过发布门后自动 push；技术 hard P0、检查失败或用户明确要求不 push 时保留本地状态，科学 partial/stopped 和未触发的用户审核不单独阻止发布；方案已确认且检查通过的治理、框架、脚本和说明任务可直接 final commit/push。
 - [ ] 没有使用 `git add .` 或其它宽泛 stage；只显式 stage 本轮实际修改且用户授权的文件。
 - [ ] commit 前已运行 `git diff --cached --name-only`、`git diff --cached --stat` 和 `git diff --cached --check`，完整 index 不含无关 `knowledge/`、`.obsidian/`、未授权 `raw/` 或历史 staged 文件。
 - [ ] 提交前若 handoff/queue/report 需要描述尚未发生的 commit，只使用 `commit target` / `checkpoint commit message`；没有把 `planned`、`will create` 或 `expected checkpoint` 留作最终实际状态。
 
 ### H3. Post-commit / pre-push final check
 
-- [ ] 每个 WIP、amend 或 final commit 成功后都执行 H3；WIP 因等待审核/hard P0/安全暂停而不 push 时记录原因，不能以“未获授权”作为默认原因。
+- [ ] 每个 WIP、amend 或 final commit 成功后都执行 H3；WIP 因技术 hard P0、安全暂停、检查失败或用户明确要求不 push 而不 push 时记录原因，不能以“未获授权”作为默认原因。
 - [ ] 已用 Git 解析实际 branch、HEAD subject、最终 commit hash 和提交文件，并核对 Active handoff、WIP queue 与报告；实际状态字段不再声称该 commit 仍是 `planned`、`will create` 或 `expected checkpoint`。
 - [ ] 当前 commit 包含的仓库文件没有记录该 commit 自身的精确 hash；仓库内使用 branch + subject 作为稳定指针，最终 hash 只写入任务回执。父提交、其它分支或已固定 commit 的 hash 已明确区分。
 - [ ] 若 post-commit reconciliation 需要修正当前任务的 handoff/queue/report，已显式暂存这些文件并 amend 同一 commit 一次，随后从头重跑 H3；未创建第二个 WIP 或纯状态 commit。
