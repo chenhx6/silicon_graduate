@@ -3,7 +3,7 @@ type: concept
 title: "Rotating Mean Field"
 aliases: [rotating mean-field, rotating nuclear mean field]
 created: 2026-07-13
-updated: 2026-07-13
+updated: 2026-09-20
 status: ai-draft
 review_status: unreviewed
 concept_type: high-spin-mean-field
@@ -43,6 +43,11 @@ Routhians, moments of inertia, alignment trends, transition energies and electro
 ## Supporting Evidence
 
 - [[frauendorf-2001-spontaneous-symmetry-breaking-rotating-nuclei]]
+- [[li-2024-144ba-octupole-cdf-3d-lattice]]
+- [[frauendorf-2018-beyond-unified-model]]
+- [[aberg-flocard-nazarewicz-1990-mean-field-shapes]]
+
+[[aberg-flocard-nazarewicz-1990-mean-field-shapes]] provides the foundational HF/HFB and Nilsson–Strutinsky shape map: centrifugal stretching, decoupled-particle polarization, termination, noncollective rotation and superdeformation are rotating-frame model outputs. Intrinsic `β/γ` minima require observable and symmetry-restoration boundaries before being transferred to laboratory band labels.
 
 ## Counter-evidence and Competing Interpretations
 
@@ -58,4 +63,4 @@ Keep the rotating mean field as an intrinsic theory layer and do not promote its
 
 ## Review Status
 
-New concept page; review pending.
+Li–Wang 2024 provides a concrete 3D-lattice cranking example: the intrinsic `β20/β30` evolution and semiclassical `B(E2)/B(E3)` mapping are useful model outputs, while parity splitting and laboratory partner bands remain outside the unprojected calculation. Self-audited; review pending.

@@ -42,9 +42,10 @@ tags: [level-scheme, in-beam-spectroscopy]
 
 ## Sources
 
+[[schirmer-1984-double-gamma-40ca-90zr]] demonstrates a rare two-photon branch: delayed proton-gated events, Crystal-Ball multiplicity, Eq.(1) PAF kinematics, energy/angle cuts and polarization-assisted angular-correlation fitting are all needed to separate simultaneous photons from annihilation/Compton backgrounds. This is a two-photon-decay case, not a generic cascade-DCO recipe.
+
 - [[chakraborty-2023-131xe-wobbling-origin]]
 
 ## Evolution Log
 
 - 2026-07-01：记录 `131Xe` 级联建立实例。
-

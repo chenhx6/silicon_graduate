@@ -42,3 +42,4 @@ alignment、配对减弱、带混合与形变变化可共同影响相同观测�
 ## Sources
 
 - [[de-voigt-dudek-szymanski-1983-high-spin-phenomena]]
+- [[stephens-1975-coriolis-rotation-alignment]]

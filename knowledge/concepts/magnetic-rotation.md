@@ -39,6 +39,11 @@ Band regularity, M1/E2 strengths, B(M1) decrease with spin, transition multipola
 - [[frauendorf-2001-spontaneous-symmetry-breaking-rotating-nuclei]]
 - [[clark-2000-shears-mechanism]]
 - [[kumar-2025-review-magnetic-antimagnetic-rotational-structures]]
+- [[frauendorf-2018-beyond-unified-model]]
+- [[greiner-1966-magnetic-properties-even-nuclei]]
+- [[hubel-2005-magnetic-rotation-review]]
+
+[[hubel-2005-magnetic-rotation-review]] consolidates the detector, lifetime and static-moment chain: decreasing `B(M1)` with spin, weak/decreasing `B(E2)`, configuration links, g factors, quadrupole moments and band termination jointly discriminate shears rotation from ordinary core rotation. The review also keeps antimagnetic rotation (cancelled transverse moments, `ΔI=2` and decreasing `B(E2)`) separate, and treats TAC/P2 interaction results as model-dependent rather than universal thresholds.
 
 ## Counter-evidence and Competing Interpretations
 
@@ -53,6 +58,8 @@ Treat magnetic rotation as a configuration-dependent interpretation supported by
 - [[frauendorf-2001-spontaneous-symmetry-breaking-rotating-nuclei]]
 - [[clark-2000-shears-mechanism]]
 - [[kumar-2025-review-magnetic-antimagnetic-rotational-structures]]
+- [[frauendorf-2018-beyond-unified-model]]
+- [[greiner-1966-magnetic-properties-even-nuclei]]
 
 ## Review Status
 

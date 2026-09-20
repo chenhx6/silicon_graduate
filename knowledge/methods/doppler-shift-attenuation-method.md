@@ -49,13 +49,18 @@ Thick targets broaden the production-depth/velocity distribution. Stopping power
 
 [[bark-2024-investigations-nuclear-chirality-ithembalabs]] describes the AFRODITE use of forward/backward line shapes and COMPA/GAMMA/SHAPE Monte Carlo histories that include slowing, feeding and statistical/collective cascades. Its `106Ag` example is secondary to the original Lieder 2014 experiment and should not substitute for that source's fit/systematic details.
 
+[[jensen-2001-165tm-h9-2-configuration]] provides a classic Nordball DSAM example: four angle-specific γγ matrices, Au/Pb backings, Monte Carlo recoil histories, Bateman side-feeding cascades and a fitted effective `Qs` are used to obtain `Qt` for `165Tm` bands. The reported `Qt` comparison is therefore tied to the stated stopping, feeding and rotational-model assumptions.
+
 ## Sources
+
+[[wadsworth-1977-61ni-levels]] is a historical `61Ni` DSAM example: centroid shifts at several beam energies are converted to attenuation factors/lifetimes with explicit stopping/feeding caveats.
 
 - [[singh-2016-lifetime-131ce-133pr]]: explicit LINESHAPE/stopping/side-feeding audit for `131Ce`.
 - [[li-2004-lifetimes-131ce]]: earlier `131Ce` DSAM lineage.
 - [[petrache-1998-highly-deformed-lifetimes-131ce-nd]]: shared-systematics HD-band DSAM comparison.
 - [[wang-2023-experimental-studies-nuclear-chirality-china]]: secondary review of DSAM uncertainty practice and pointer to correlated Bayesian/MCMC treatment.
 - [[bark-2024-investigations-nuclear-chirality-ithembalabs]]: AFRODITE/COMPA-GAMMA-SHAPE overview and secondary `106Ag` line-shape counterexample.
+- [[jensen-2001-165tm-h9-2-configuration]]: Nordball DSAM, `165Tm` `Qt`, side-feeding and stopping-systematics example.
 
 ## Related Methods
 

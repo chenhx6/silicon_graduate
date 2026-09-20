@@ -45,6 +45,8 @@ The 2026-07-16 experimental batch adds two important boundaries:
 
 [[frauendorf-2024-wobbling-review]] 把集体增强 interband E2 作为核心实验标志。
 
+[[frauendorf-2018-beyond-unified-model]] gives the rotating-mean-field distinction between simple harmonic wobbling and transverse wobbling: the former is precession about the largest-moment axis, while a high-`j` aligned quasiparticle can drive a symmetry change and tilted `ΔI=1` sequence. The review-level equations do not replace nucleus-specific lifetimes and transition data.
+
 [[matta-2015-transverse-wobbling-135pr]] 报告 `135Pr` 候选带间 ΔI=1 transitions 的较大 E2 fractions 与正 polarization asymmetry，并由此提出 zero-/one-phonon wobbling pair。
 
 [[odegard-2001-evidence-wobbling-163lu]] provides the high-spin benchmark with polarization-selected E2-dominated links. [[timar-2019-transverse-wobbling-105pd]], [[biswas-2019-longitudinal-wobbling-133la]] and [[mukherjee-2023-transverse-wobbling-151eu]] extend the link-character paradigm to normal-deformed cases with different model interpretations.
@@ -76,6 +78,7 @@ Lawrie 2020 的 QTR/TiP comparison 显示 TiP bands 也可有 large mixing ratio
 - [[guo-2022-low-spin-wobbling-187au]]
 - [[lawrie-2020-tilted-precession-wobbling]]
 - [[experimental-wobbling-evidence-strength-map]]
+- [[frauendorf-2018-beyond-unified-model]]
 
 ## Evolution Log
 
@@ -84,3 +87,4 @@ Lawrie 2020 的 QTR/TiP comparison 显示 TiP bands 也可有 large mixing ratio
 - 2026-07-03（4 sources）：加入 Matta 2015 的 `135Pr` 原始支持证据，不裁决后续争议。
 - 2026-07-04：加入 Guo 2022 对低自旋 wobbling approximation、mixing-ratio 范式与替代机制的批评。
 - 2026-07-04：加入 Lawrie 2020 的 TiP/3D rotation、`f(n,I)<<1` 与 phonon-quantization 边界。
+- 2026-09-20：加入 Frauendorf 2018 的 harmonic/transverse wobbling framework、symmetry-change and semiclassical limits。

@@ -18,7 +18,7 @@ tags: [gamma-ray-linear-polarization, compton-polarimetry, detector-methods, tra
 
 This is an evidence map for nuclear gamma-ray linear polarization, Compton-polarimeter calibration, detector sensitivity, measured azimuthal asymmetry and in-beam relativistic corrections. It connects three source-level methods without treating a detector demonstration, a response simulation or an author interpretation as a universal experimental criterion. The project is not a formal synthesis or a paper draft.
 
-Current source set: Jones 2002 calibration formalism; Go 2024 multi-layer CdTe detector demonstration; Longfellow 2026 GRETINA in-beam angular-distribution and polarization method. All three source pages are deep-read and remain page-level `unreviewed`; claim-level review is listed below.
+Current source set: Garcia-Raffi 1995 non-orthogonal response formalism; Simpson 1983 sectored-GeLi calibration; Jones 2002 calibration formalism; Go 2024 multi-layer CdTe detector demonstration; Longfellow 2026 GRETINA in-beam angular-distribution and polarization method; Zheng 2013 EXOGAM clover calibration. The added source pages are deep-read and remain page-level `unreviewed`; numerical response values remain detector-specific.
 
 ## Research Question
 
@@ -54,6 +54,9 @@ The current evidence is limited to the three deep-read source pages listed above
 | [[jones-2002-calibration-compton-polarimeters]] | formalism and calibration method | Defines `P`, `A`, `Q`, Klein-Nishina sensitivity, a2/a4 calibration and Rose-Brink mixed-transition polarization; documents special full-polarization cases and low-energy calibration limits. | J02-2 to J02-13 | Source and claim review complete |
 | [[go-2024-demonstration-nuclear-gamma-ray-polarimetry-cdte]] | detector method and demonstration | Characterizes a twenty-layer CdTe camera with a `56Fe` 847-keV reference line, two-hit events, simulated response, maximum-likelihood polarization inference and modulation/sensitivity-efficiency trade-off. | G24-2 to G24-15 | Source and claim review complete |
 | [[longfellow-2026-gretina-energy-ordering-polarization]] | in-beam tracking-array method | Connects angular distributions, Gaussian alignment, `Pbar`, `Q`, `A0`, mixing ambiguity, GRETINA energy ordering, Lorentz angle transformation and separate Doppler correction. | L26-2 to L26-16 | Source and claim review complete |
+| [[simpson-1983-sectored-geli-compton-polarimeter]] | historical segmented-detector calibration | Gives single-crystal sector geometry, `P/A/Q`, configuration-dependent efficiency/sensitivity and `F=Q²εc` trade-off. | S83-1 to S83-4 | Source-level self-audit complete |
+| [[garciaraffi-1995-nonorthogonal-compton-polarimeter]] | non-orthogonal response formalism | Replaces the orthogonal `A=QP` shortcut with `Q1/Q2/Q3` response terms and CLUSTER merit simulation. | GR95-1 to GR95-4 | Source-level self-audit complete |
+| [[zheng-2013-linear-polarization-91ru]] | in-beam clover experiment | Demonstrates EXOGAM `A/Q/P` calibration with DCO and retains the `91Ru` ground-state assumption. | Z13-1 to Z13-5 | Source-level self-audit complete |
 
 ## Evidence Categories
 

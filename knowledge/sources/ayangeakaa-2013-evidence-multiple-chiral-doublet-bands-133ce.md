@@ -3,7 +3,7 @@ type: source
 title: "Evidence for Multiple Chiral Doublet Bands in 133Ce"
 aliases: [Ayangeakaa 2013 133Ce MχD]
 created: 2026-07-13
-updated: 2026-07-13
+updated: 2026-09-20
 status: active
 review_status: human-reviewed
 source_type: journal-article-experiment
@@ -24,6 +24,9 @@ zotero_uri:
 library_file:
 raw_file: "raw/papers/2013_Ayangeakaa et al_Evidence for Multiple Chiral Doublet Bands in Ce 133 2.pdf"
 raw_sha256: 91EC60DFA43E7D8748276E18327028D8EABDF6C5047682726B0DA4A656D5E837
+alternate_version_file: "raw/papers/gpt/high-spin-20260920/三轴/手征/实验/2013_Ayangeakaa et al_Evidence for Multiple Chiral Doublet Bands in Ce 133 1.pdf"
+alternate_version_sha256: 3c5a3d7c543140ee25f7cb09376d5aeee760c8ac50c76edd466a010d610c2d0f
+alternate_version_identity: "PRL 110, 172504 electronic reprint; same title/DOI and five-page article"
 nuclei: [133ce]
 reactions: [116Cd(22Ne,5n)133Ce]
 experiments: [atlas-133ce-ne22-112mev]
@@ -41,7 +44,7 @@ tags: [multiple-chiral-doublet, triaxial-shape-coexistence, high-spin-spectrosco
 
 ## Scope and Reading Depth
 
-全文 deep-read，核对实验条件、Fig.1 能级纲图和 linking transitions、DCO/角分布指认、Fig.2 fingerprints、Fig.3/Table I 的 constrained triaxial RMF、TPRM 输入/比较、Coriolis attenuation、lifetime gap 与作者的 MχD/shape-coexistence 解释。
+规范期刊版已全文 deep-read；本批提供的五页电子 reprint was reread end-to-end to audit experiment, Fig.1 level scheme/linking transitions, DCO/angular-distribution assignments, Fig.2 fingerprints, Fig.3/Table I RMF, TPRM input, Coriolis attenuation, lifetime gap and MχD/shape-coexistence attribution. No material claim change was found.
 
 ## Summary
 
@@ -115,3 +118,8 @@ tags: [multiple-chiral-doublet, triaxial-shape-coexistence, high-spin-spectrosco
 ## Personal Notes
 
 该文是支持方原始实验来源，但其 MχD 与 shape-coexistence 结论必须保留 author/model attribution 和 lifetime gap。
+
+## Alternate-version self-audit (2026-09-20)
+
+- The alternate reprint has the same PRL title, authors, DOI, five-page structure and reported values as the canonical source. It confirms the two candidate pairs (Bands 2–3 and 5–6), the `4.1×10^9` event total, the DCO/angular-distribution assignments, RMF/TPRM parameters and the absence of direct lifetimes.
+- It is an exact same-paper version audit, not an independent experiment; the existing human-review record remains limited to the prior page-level scope, while this alternate-version check is Codex self-audit.

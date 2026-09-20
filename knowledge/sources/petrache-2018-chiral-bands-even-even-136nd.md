@@ -3,7 +3,7 @@ type: source
 title: "Petrache et al. 2018 - Evidence of chiral bands in even-even nuclei"
 aliases: [Petrache 2018 136Nd, even-even chirality in 136Nd]
 created: 2026-08-11
-updated: 2026-08-11
+updated: 2026-09-20
 status: active
 review_status: unreviewed
 source_type: journal-article
@@ -20,6 +20,12 @@ canonical_source: https://doi.org/10.1103/PhysRevC.97.041304
 citation_key: petrache_2018_Evidencechiral
 raw_file: "raw/papers/2018_Petrache et al_Evidence of chiral bands in even-even nuclei.pdf"
 raw_sha256: D2615FC0D95428B06C056EB8946AFA2F62940CE58D79C1FC1CC3F50E19C73EF3
+additional_raw_file: "raw/papers/gpt/high-spin-20260920/三轴/手征/2018_Petrache et al_Evidence of chiral bands in even-even nuclei.pdf"
+additional_raw_sha256: "1a67acb9a4088f03260d097e98c7cfb8c0bcd69ee79d74b3dd7df93343743697"
+supplementary_raw_file: "raw/papers/gpt/high-spin-20260920/三轴/手征/2018_Petrache et al_Evidence of chiral bands in even-even nuclei.pdf"
+supplementary_raw_sha256: "1a67acb9a4088f03260d097e98c7cfb8c0bcd69ee79d74b3dd7df93343743697"
+published_version_file: "raw/papers/gpt/high-spin-20260920/三轴/手征/实验/2018_Petrache et al_Evidence of chiral bands in even-even nuclei.pdf"
+published_version_sha256: "5e6f1c01501598b5cf765d838d86a2b37a4fcf252039ba9058e631ccc7517f81"
 nuclei: [136nd]
 reactions: ["100Mo(40Ar,4n)136Nd"]
 experiments: [jyfl-jurogam2-136nd-ar40-152mev]
@@ -41,6 +47,9 @@ Physical Review C 97, 041304(R) (2018), DOI `10.1103/PhysRevC.97.041304`. The pr
 - Covered scope: repository cover plus all six journal pages; experiment, partial level scheme, five doublet pairs, relative populations, DCO/`R_ac`/angular-distribution/polarization basis, experimental and calculated `B(M1)/B(E2)`, constrained/TAC-CDFT configuration mapping and the D3 3D-TAC example.
 - Not covered: the promised full level scheme/angular-correlation paper, raw matrices, numerical transition table, the earlier disputed `136Nd` lifetime paper, or any later MQ-PRM calculation in full.
 - Coverage caveats: many in-band dipoles are unobserved; four weak partner bands lack measured `B(M1)/B(E2)`; 3D TAC-CDFT is shown only for D3; details of the summary's MQ-PRM statement are not presented in the body.
+- 2026 full-source reuse audit: the HS-012 electronic reprint is a distinct byte version of the same DOI/article. Its title page, abstract, six journal pages, figures, Table I and conclusions were reread; no material claim change was found relative to this source page. The new copy is linked as an additional raw artifact, not a new experiment or source.
+- 2026 supplementary audit: the HS-012 PDF includes the electronic reprint and the article's detailed Table I/figures; the tabulated `Eγ`, intensities, `R_ADO`, polarization, `δ`, `B(M1)` and `B(E2)` rows for Bands 1-3 and interband decays were read. Upper limits for the missing high-energy band-2→band-1 E2 links remain explicit, and the material is attached evidence for this parent source, not an independent experiment.
+- HS-053 published PRC PDF audit (2026-09-20): the six-page article was reread end-to-end; its five-pair `136Nd` scheme, DCO/`R_ac`/polarization limits, D5 partner-ratio evidence and TAC/CDFT caveats agree with this page. No material claim change; the published PDF is a same-experiment version, not an independent source.
 
 ## Extracted Pages
 

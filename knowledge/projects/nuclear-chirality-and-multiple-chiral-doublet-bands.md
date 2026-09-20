@@ -3,7 +3,7 @@ type: project
 title: "Nuclear chirality and multiple chiral doublet bands"
 aliases: [核手征与多个手征双带证据图, MχD evidence map]
 created: 2026-07-13
-updated: 2026-08-11
+updated: 2026-09-21
 status: active
 review_status: unreviewed
 project_stage: evidence-mapping
@@ -19,6 +19,10 @@ tags: [nuclear-chirality, multiple-chiral-doublet, evidence-map, writing-support
 本页是 evidence map / writing-support project，不是论文草稿。Meng 2010、Ayangeakaa 2013 与 Liu 2016 均已 deep-read 并完成人工 source review；本 project 页仍保留独立 review 状态。所有解释必须与 observed facts、experimental assignments、author interpretations 和 model calculations 分层。
 
 Guo 2024 adds an unreviewed `74Br` chiral-wobbler candidate with ADO/polarization, DSAM lifetimes, transition probabilities and PRM. It extends the scope but does not alter the reviewed `133Ce/78Br` source claims.
+
+Mukhopadhyay 2008 provides a direct `136Nd` counterexample to energy-degeneracy-only reading: DSAM-derived `B(E2)` values of the two near-degenerate negative-parity bands differ by factors of about 2–3, and TAC+RPA favors distinct configurations with band mixing. Petrache 2006 generalizes the warning to `134Pr/136Pm`: crossings can compress the level spacing, while the extracted `Q0,1/Q0,2=2.0(4)` and alignment differences contradict an ideal chiral-pair assumption. These sources raise the project's minimum test from “near-degeneracy + links” to partner-resolved electromagnetic strengths, alignment and crossing alternatives.
+
+HS-126 is an alternate PDF of the Guo 2024 PRL. Its title, DOI, figures, tables, equations and conclusions agree with the canonical copy; it is audited version evidence, not a new experiment.
 
 Frauendorf 2001 is a reviewed review/background source for the rotating-mean-field symmetry map. It supplies PAC/planar/aplanar TAC distinctions, the TAC/PRM and symmetry-restoration boundary, and comparison mechanisms such as magnetic, antimagnetic and reflection-asymmetric rotation. It is not an additional original experiment and does not change the reviewed status of the Meng/Ayangeakaa/Liu claims.
 
@@ -92,6 +96,7 @@ Bark 2024 closes the 23-paper sequence with an iThemba programme review. It supp
 | [[petrache-1996-rotational-bands-134pr]] | original experiment + model comparison + historical precursor | `134Pr` four-band level scheme；Band 1/Band 2 links、alignment、DCO 与 branching-derived `B(M1)/B(E2)`；simple signature-partner interpretation 被作者排除 | 论文不使用 chirality；shape coexistence、`γ`-phonon coupling 与模型缺陷仍未裁决，只能作 retrospective connection |
 | [[petrache-1998-highly-deformed-lifetimes-131ce-nd]] | original lifetime experiment + deformation control | `134Nd` 三带及 `135Nd/131Ce` HD bands 的 shared-systematics DSAM `Q0`，检验 `νi13/2` occupancy 与 deformation additivity | 论文不使用 chirality；`135Nd` HD band 未与后来 chiral doublets crosswalk，不能替代 chiral-partner lifetimes |
 | [[klemme-1999-lifetimes-134nd-neighbors]] | precision lifetime + RDDS/DDCM method precursor | `134Nd` 12-state strength map；`135Nd [514]9/2` low-spin lifetimes/ASYR；`134Pr 9+` lifetime | 只测一个 `135Nd` sequence 和一个 `134Pr` state；无 partner-band electromagnetic comparison 或 chirality claim |
+| [[mukhopadhyay-2007-135nd-chiral-vibration-static]] | original DSAM lifetimes + TAC/RPA model comparison | `135Nd` partner Bands A/B have near-identical intraband `B(E2)`/`B(M1)`; TAC+RPA models chiral vibration → static chirality | DSAM/feeding and TAC+RPA assumptions remain; `135Nd` is a nucleus-specific reference, not a universal band-identity template |
 | [[hecht-2001-chiral-symmetry-breaking-136pm-138eu]] | original experiment + DCO/polarization + 3D TAC | `136Pm/138Eu` linked yrast/new-band pairs、selected electromagnetic character、alignment/`B(M1)/B(E2)` similarity and aplanar TAC solutions | bandhead spins depend on isotone systematics；common configuration and handedness are inferred；TAC cannot calculate quantum doublet mixing；paper concludes candidate level |
 | [[starosta-2001-n75-chiral-vibrations]] | original experiment + cross-isotone systematics + 3D TAC | `130Cs/132La/136Pm` new sidebands、`134Pr` imported pair、mixed links、four-isotone displacements and five-isotone chiral-island/vibration model | common spin/configuration and vibration are inferred；no quantum vibrational calculation；overlaps Hecht evidence lineage；printed `136Pm 4n` channel is inconsistent |
 | [[hecht-2003-chirality-shape-coexistence-140eu]] | original experiment + multipolarity/polarization + competing models | `140Eu` five-band scheme；linked Bands 1/2 and 3/4；common-configuration arguments；TRS and branching-ratio comparisons | title carries a question mark；chirality and `γ≈±25°` shape coexistence remain unresolved；missing signature partners and no lifetimes/absolute strengths |

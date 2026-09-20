@@ -34,6 +34,8 @@ signature splitting/inversion 随自旋的能量序列、alignment、Routhian、
 
 ## Supporting Evidence
 
+[[liu-1996-signature-inversion-a130]] demonstrates that signature inversion conclusions depend on the bandhead-spin crosswalk: revised `I0` values make inversion systematic across A≈130 chains, while unresolved Cs anchors can reverse the inferred signature order and γ interpretation.
+
 [[wang-huale-2006-170re-176ir-thesis]] 与 [[smith-1998-rotational-bands-127-131pr]] 报告 `170Re`/Pr 相关带的 signature inversion 或其系统学。
 
 ## Counter-evidence and Competing Interpretations

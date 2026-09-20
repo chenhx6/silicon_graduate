@@ -3,7 +3,7 @@ type: method
 title: γ 射线角分布分析
 aliases: [angular distribution, gamma-ray angular distribution, gamma angular distribution, in-beam angular distribution, ADO]
 created: 2026-07-08
-updated: 2026-07-13
+updated: 2026-09-21
 status: ai-draft
 review_status: unreviewed
 method_type: gamma-ray-angular-distribution
@@ -33,6 +33,8 @@ Angular distribution 可与 [[multipole-mixing-ratio]]、[[dco-ratio]] 和线偏
 
 ADO（angular distribution from oriented states）ratio 是有限角组实现：在相同 gate 下比较不同探测器角组的归一化强度，并用本实验已知 multipolarities 标定 dipole/quadrupole 区域。[[liu-2016-octupole-correlations-multiple-chiral-doublet-bands-78br]] 的 AFRODITE 几何给出 stretched quadrupole 约 1.1、pure stretched dipole 约 0.7；这些阈值不得跨阵列复用。
 
+[[zheng-2002-ado-coincidence-angular-anisotropy]] 给出符合模式下 ADO 的显式效率修正：`R_ADO(γ1)=[I^S/I^L]/[ε_S(γ1)/ε_L(γ1)]`，并将其写为待测 γ 的角分布比乘以门控 γ 和探测器响应共同决定的 `f_ADO`。在 `145Tb` 的 12 套 BGO-HPGe、约 `±32°/±58°/90°` 三角度组中，门控能量 `100–1500 keV` 的 `f_ADO` 最大偏差约为四极门 `5.2%`、偶极门 `3.2%`；该来源报告的纯四极约 `R_ADO=1.25`、纯偶极约 `0.75` 只能作为本阵列的局部标定，不能替代新阵列的参考线验证。
+
 ## Tracking-Array Formalism
 
 [[lauritsen-2025-gamma-angular-formalism-tracking-arrays]] gives a modern tracking-array notation for in-beam angular distributions: `omega(theta)=A0+alpha2 A2 P2(cos theta)+alpha4 A4 P4(cos theta)+...`. In that local formula, `Amax_k` contains the spin sequence, multipolarities and mixing ratio `delta`, while `alpha_k(J)` is the nuclear alignment/deorientation attenuation calculated from magnetic-substate population `Pm(J)`. The same source usually parameterizes `Pm(J)` as a Gaussian with normalized width `sigma/J`.
@@ -42,6 +44,12 @@ This `alpha_k` must not be merged with detector solid-angle attenuation. Laurits
 ## What It Can Establish
 
 在 alignment 或 population model 足够受控时，角分布可约束 transition multipolarity、mixing ratio 和 attenuation/alignment 参数。
+
+[[rose-brink-1967-phase-defined-angular-distributions]] gives the phase-consistent foundation: the general distribution uses alignment tensors `B_K`, geometry/multipole coefficients `R_K` and reduced interaction-multipole matrix elements. The familiar even-`K` formula requires cylindrical alignment and definite parity; mixed-parity or polarized initial states require the general expression.
+
+[[der-mateosian-sunyar-1974-angular-coefficients]] supplies practical `A_2/A_4` tables through `J=26` (integer) and `51/2` (half-integer). The worked example solves `σ/J` and δ jointly, and explicitly warns that angular-distribution and γγ-correlation δ signs may differ under their respective conventions.
+
+[[yamazaki-1967-aligned-angular-coefficients]] is the earlier coefficient-table backbone: it defines complete-alignment `B_k`, `F_k` and cascade `U_k` tensors for integral and half-integral spins, then applies Gaussian magnetic-substate attenuation. Its explicit angular-distribution/γγ-correlation δ-sign warning is retained as a convention boundary, not merged into a detector calibration.
 
 ## What It Cannot Establish Alone
 
@@ -59,6 +67,8 @@ Liu 2016 将 ADO 与 linear polarization 联合用于 `78Br` linking transitions
 
 ## Sources
 
+[[twin-1970-polarization-angular-correlation-40k]] combines near-threshold `a2/a4` angular distributions, γγ correlations and Compton polarization; it shows that joint fits can resolve δ branches that a single angular distribution cannot.
+
 - [[draper-1970-gaussian-substate-side-feeding]]
 - [[zobel-1980-magnetic-substate-distributions]]
 - [[zobel-1983-energy-projectile-alignment]]
@@ -66,6 +76,9 @@ Liu 2016 将 ADO 与 linear polarization 联合用于 `78Br` linking transitions
 - [[chiara-2012-cu65-cu67-core-coupled-protons]]
 - [[summary-2013-bases-spin-parity-assignments]]
 - [[liu-2016-octupole-correlations-multiple-chiral-doublet-bands-78br]]
+- [[zheng-2002-ado-coincidence-angular-anisotropy]]
+- [[taras-1971-phase-defined-polarization-formulas]]
+- [[taras-1970-particle-gamma-angular-correlations]]
 
 ## Evolution Log
 

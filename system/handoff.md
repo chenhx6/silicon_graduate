@@ -1,10 +1,39 @@
 ---
 type: system-handoff
 graph-excluded: true
-updated: 2026-09-13
+updated: 2026-09-21
 ---
 
 # 跨会话交接
+
+## 2026-09-21 high-spin-127 full-ingest closure
+
+Current active task:
+The unattended high-spin batch has reached the final verification stage. The original 127-row ledger now has 118 valid terminal rows and 9 user-confirmed contamination exclusions; 110 unique SHA-256 hashes and 8 exact duplicate rows remain separate counts. HS-116 Walz Supplementary Information was attached and audited; HS-117–HS-125 and HS-127 were fully read and mapped to new source pages; HS-126 was audited as an alternate Guo 2024 PDF with no material claim change. Earlier stale HS-001–HS-019 ledger rows and HS-024/025 exclusions were reconciled from the durable event log without re-reading or restoring deleted files.
+
+Current branch / local state:
+`main` with broad WIP content from this batch. Protected `raw/zotero/wiki-inbox.bib`, `PLAN.md` and raw PDFs were not modified. Agent-generated temporary `.degree-read-*` directories and the read-only `raw/high-spin-reading-record.md` remain uncommitted. No force push or destructive action was performed.
+
+Checks completed:
+`python3 system/scripts/wiki_lint.py --fail-on error` → `errors=0`, 278 warnings, 1103 informational review notices; `git diff --check` passed; ledger counts/raw SHA-256 audit passed; `wiki_automation_preflight.py` passed with protected BibTeX baseline matched. QMD collection update completed (526 knowledge files indexed); CPU embedding refresh is still running in the shared QMD process and should be polled before the final receipt. QMD has 301 orphaned chunks and currently reports 171 pending vectors; this is index maintenance, not a scientific reading blocker.
+
+Scientific closure:
+The final report is in `outputs/high-spin-learning-20260920/report.md`; checkpoint entries 108–119 describe HS-116–127. L3 units are recorded per source. No L4 claim is made: raw event/response/code inputs are missing or author-request-only. The main synthesis revisions are the Söderström 2020 E3M1/M2E2 energy-sharing conflict with Walz, Mukhopadhyay/Petrache counterexamples to energy-degeneracy-only chirality, and Bucher direct `144Ba` E3 evidence.
+
+Unfinished items:
+1. Poll QMD until the current embedding process exits and record the final status; do not run overlapping embed processes.
+2. Explicitly stage only the task-scope `knowledge/` and `outputs/high-spin-learning-20260920/` (plus the task report if desired), leaving raw input, temporary degree-read directories and protected files untouched; run staged diff review.
+3. Under standing user authorization, perform the exact non-force `origin/main` publication gate and write the final commit/push receipt. If authentication fails, retain the local commit and record `final-not-pushed`.
+
+P0/P1 self-audit focus:
+No unread valid row or missing locator/kind error remains. P0/P1 scientific boundaries stay explicit in each source; `review_status` remains self-audit/unreviewed, never `human-reviewed`. Final user report should be concise and literature-report style, with counts and the principal evidence conflicts.
+
+Next prompt / continuation phrase:
+`继续高自旋-127 最终发布门：轮询 QMD、暂存任务范围、提交并按精确 refspec 推送`
+
+Recent user decisions:
+The user authorized unattended continuation and automatic full ingestion without intermediate confirmation; valid documents must be read, self-audited, connected to the knowledge base and used for L3/L4 questions where inputs permit. They requested a concise final literature-reading report only after the batch is actually complete.
+
 ## Active handoff
 
 Current active task:

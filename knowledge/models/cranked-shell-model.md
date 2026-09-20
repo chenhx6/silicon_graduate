@@ -38,6 +38,8 @@ tags: [signature, coriolis, high-spin]
 
 quasiparticle Routhian、alignment、交叉频率与 signature splitting。
 
+[[frauendorf-2018-beyond-unified-model]] uses the cranked-shell model as a fast configuration-classification layer: diabatic Routhians, alignment and crossings organize multi-band spectra, while the review warns that high-K configurations can be misplaced in simple Routhian diagrams and that quantum mixing requires more complete models.
+
 ## Strengths
 
 可直接展示 γ=0 与非零 γ 时 signature branches 的能量响应。
@@ -54,8 +56,10 @@ quasiparticle Routhian、alignment、交叉频率与 signature splitting。
 
 - [[ding-2021-131ba-133ce-signature-splitting]]
 - [[babra-2019-deformation-change-136sm]]
+- [[frauendorf-2018-beyond-unified-model]]
 
 ## Evolution Log
 
 - 2026-07-01：由 N=75 g7/2 signature-splitting 分析建立。
 - 2026-07-05：加入 `136Sm` 准粒子交叉与 TRS 多极小的高自旋形变演化用途。
+- 2026-09-20：加入 review-level Routhian/configuration-classification and quantum-mixing boundary。

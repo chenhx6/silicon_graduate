@@ -24,6 +24,9 @@ zotero_uri:
 library_file:
 raw_file: "raw/papers/2021_Nomura et al_Coupling of pairing and triaxial shape vibrations in collective states of γ -soft nuclei.pdf"
 raw_sha256: CF500A8CDCF4E192AE79DB7AC22A29EB2272034FE797D2E0EC350516810102C4
+alternate_version_file: "raw/papers/gpt/high-spin-20260920/形变/2021_Nomura et al_Coupling of pairing and triaxial shape vibrations in collective states of γ.pdf"
+alternate_version_sha256: "883850ece784ecf7fcf126859f1a37c59772b42a5fb5aeae575e0aeef6600087"
+alternate_version_identity: "arXiv:2105.11997v1; same title/authors and seven-page preprint"
 nuclei: [128xe, 130xe]
 reactions: []
 experiments: []
@@ -98,6 +101,11 @@ Physical Review C 103, 054322 (2021)，DOI `10.1103/PhysRevC.103.054322`。PDF �
 ## Extracted Pages
 
 - Concepts: [[gamma-soft-deformation]], [[gamma-rigid-deformation]]
+
+## Alternate-version self-audit (2026-09-20)
+
+- The supplied arXiv v1 was reread end-to-end; its equations, four model-space comparisons, Figs.1–4 and limitations agree with the canonical PRC source. No material claim change was found.
+- HS-071 is an exact SHA-256 duplicate row of HS-070; neither adds an independent experiment or source.
 - Models: [[interacting-boson-model]], [[covariant-density-functional-theory]], [[gamma-unstable-model]], [[davydov-triaxial-rotor-model]]
 - Nuclei: `128Xe`, `130Xe`
 - Project: [[a130-high-spin-collective-modes-evidence-map]]

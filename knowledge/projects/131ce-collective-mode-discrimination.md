@@ -24,7 +24,7 @@ tags: [l3, a130, collective-modes, evidence-map, candidate-l4, n73-isotones]
 
 ## Research Question
 
-以 [[alwaleedi-2013-band-structures-131ce]] 的 Bands 1–7 为 `131Ce` 结构基线，`131Ce/133Ce` 及必要邻核的公开证据最支持哪种形变背景与集体模式？wobbling、chirality、signature-partner/configuration coupling、γ-soft 粒子—芯耦合和 shape coexistence 中哪些仍可行，缺少哪些 observable 阻止裁决？
+以 [[alwaleedi-2013-band-structures-131ce]] 的 Bands 1–7 为 `131Ce` 结构基线，结合 [[ionescu-bujor-1998-static-moments-129-131ce]] 的 `129,131Ce` TDPAD moments/PTR shape anchor，`131Ce/133Ce` 及必要邻核的公开证据最支持哪种形变背景与集体模式？wobbling、chirality、signature-partner/configuration coupling、γ-soft 粒子—芯耦合和 shape coexistence 中哪些仍可行，缺少哪些 observable 阻止裁决？
 
 范围限定：
 
@@ -132,6 +132,7 @@ tags: [l3, a130, collective-modes, evidence-map, candidate-l4, n73-isotones]
 ## Related Sources and Pages
 
 - Target baseline: [[alwaleedi-2013-band-structures-131ce]], [[singh-2016-lifetime-131ce-133pr]], [[li-2004-lifetimes-131ce]], [[131ce-negative-parity-yrast-reference-sequence]], [[131ce-positive-parity-reference-sequence]], [[petrache-1998-highly-deformed-lifetimes-131ce-nd]], [[131ce]]
+- Static-moment/shape anchor: [[ionescu-bujor-1998-static-moments-129-131ce]]；其 `131Ce` `J=9−` moments and PTR shape parameters constrain the shape background but do not identify the high-spin collective mode alone.
 - `133Ce`: [[ayangeakaa-2013-evidence-multiple-chiral-doublet-bands-133ce]], [[ayangeakaa-2016-133ce-in-beam]], [[133ce]]
 - N=73 configuration/wobbling controls: [[ding-2021-131ba-133ce-signature-splitting]], [[chakraborty-2020-multiphonon-longitudinal-wobbling-127xe]], [[chakraborty-2024-possibility-wobbling-129ba]], [[127xe]], [[129ba]]
 - Mechanism controls: [[ding-2021-131ba-133ce-signature-splitting]], [[chakraborty-2023-131xe-wobbling-origin]], [[nomura-2022-questioning-wobbling-ibfm]]

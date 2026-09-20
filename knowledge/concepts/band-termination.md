@@ -39,6 +39,7 @@ Spin limit, changing transition energies, dynamic moment of inertia, E2 strength
 - [[frauendorf-2001-spontaneous-symmetry-breaking-rotating-nuclei]]
 - [[clark-2000-shears-mechanism]]
 - [[kumar-2025-review-magnetic-antimagnetic-rotational-structures]]
+- [[frauendorf-2018-beyond-unified-model]]
 
 ## Counter-evidence and Competing Interpretations
 
@@ -53,6 +54,7 @@ Use termination as a configuration-specific structural interpretation, not as a 
 - [[frauendorf-2001-spontaneous-symmetry-breaking-rotating-nuclei]]
 - [[clark-2000-shears-mechanism]]
 - [[kumar-2025-review-magnetic-antimagnetic-rotational-structures]]
+- [[frauendorf-2018-beyond-unified-model]]
 
 ## Review Status
 

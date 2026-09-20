@@ -25,6 +25,8 @@ This configuration-alignment meaning is distinct from reaction-produced magnetic
 
 alignment 值依赖参考转子、频率定义和候选组态；主轴 cranking 的图像也不应无条件外推到所有三轴或倾斜轴运动。
 
+[[liang-2016-pseudospin-symmetry-review]] reviews quantized alignment and pseudospin partner configurations as a symmetry-organized interpretation; near-degenerate alignments still require deformed wave-function/configuration checks rather than energy proximity alone.
+
 ## Discriminating Observables
 
 alignment gain、Routhian crossing、[[moments-of-inertia]]、signature 行为，以及交叉前后的组态和跃迁性质。
@@ -45,3 +47,4 @@ alignment 是连接实验系统学与 cranking 类模型的诊断量，不作为
 
 - [[de-voigt-dudek-szymanski-1983-high-spin-phenomena]]
 - [[frauendorf-2001-spontaneous-symmetry-breaking-rotating-nuclei]]
+- [[stephens-1975-coriolis-rotation-alignment]]

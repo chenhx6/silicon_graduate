@@ -33,6 +33,8 @@ tags: [signature, rotational-band, odd-a]
 
 `131Xe` 的 yrare 序列由低 mixing ratio、能量/Routhian 系统性和 TPRM 比较支持为 unfavoured νh11/2 signature partner。[[131ba-band-2]] 与 [[133ce-band-2]] 展示高 Ω `νg7/2[404]7/2+` 强耦合带中两支 signature 序列及明显劈裂。
 
+[[ma-1990-131ba-competing-alignments]] provides an A≈130 control: the `νh11/2` yrast splitting, proton/neutron crossing frequencies and E2/M1/DCO data change together as different aligned pairs drive the soft/triaxial core. Signature splitting remains a mechanism-sensitive observable, not a unique γ meter.
+
 ## Counter-evidence and Competing Interpretations
 
 某些历史上的 unfavoured partners 后来被重新解释为 wobbling；判别依赖可靠的 mixing ratio 与跃迁强度。
@@ -50,6 +52,7 @@ tags: [signature, rotational-band, odd-a]
 
 ## Sources
 
+- [[liang-2016-pseudospin-symmetry-review]] - symmetry-layer comparator; pseudospin doublets influence deformed/identical bands but are not signature partners by definition.
 - [[chakraborty-2023-131xe-wobbling-origin]]
 - [[frauendorf-2024-wobbling-review]]
 - [[ding-2021-131ba-133ce-signature-splitting]]

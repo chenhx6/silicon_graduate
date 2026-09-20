@@ -39,6 +39,10 @@ tags: [chirality, triaxiality, angular-momentum-geometry]
 
 [[bark-2024-investigations-nuclear-chirality-ithembalabs]] 进一步显示：realistic configuration mixing 下，少量 planar components 也可使 dominantly aplanar partners 明显不等；相反，多个相似 bands 也可能无法唯一分对。核手征判断因此同时需要 geometry、configuration 与 band-identity mapping，而不是逐项 fingerprint 打勾。
 
+[[mukhopadhyay-2007-135nd-chiral-vibration-static]] adds a direct electromagnetic-strength reference: `135Nd` partner bands have near-identical intraband `B(E2)`/`B(M1)` from DSAM, while TAC+RPA connects a low-spin chiral-vibration regime to higher-spin static chirality. The source remains nucleus-specific and model-bound at the critical-spin transition.
+
+[[grodner-2018-128cs-chiral-g-factor]] adds a direct geometry-sensitive counterexample: TDPAD gives `g=+0.59(1)` for the `128Cs` chiral-band head, while PRM+CDFT finds an almost planar rather than ideal aplanar configuration. This supports a spin/frequency onset boundary and warns against using low-spin fingerprints alone.
+
 ## Counter-evidence and Competing Interpretations
 
 `gamma` vibration、shape coexistence、many-particle correlations、pseudospin partners、core polarization 和不同组态伙伴带可能产生相似结构。

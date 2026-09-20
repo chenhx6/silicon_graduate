@@ -3,7 +3,7 @@ type: project
 title: "A≈130 high-spin collective modes evidence map"
 aliases: [A130 high-spin evidence map, A≈130 高自旋集体模式证据图]
 created: 2026-07-02
-updated: 2026-07-05
+updated: 2026-09-20
 status: active
 review_status: unreviewed
 project_stage: seed
@@ -59,6 +59,11 @@ tags: [a130, high-spin, evidence-map, data-analysis, project]
 |---|---|
 | [[domscheit-1999-triaxial-superdeformation-163lu]] | `163Lu` 的 SD-ND linking、四极矩/转动惯量与 UC/PES 三轴极小值；仅用于 deformation 判据和模型-实验边界参照 |
 | [[babra-2019-deformation-change-136sm]] | `136Sm` 的 DSAM `Q_t` 与带交叉前后 TRS/TPSM 形变比较；仅作为随自旋重评形变背景的参照 |
+| [[li-2024-144ba-octupole-cdf-3d-lattice]] | `144Ba` PC-PK1 3D-lattice cranking 的 `I–ω`, `B(E2/E3)` 与 `β30` 稳定性；仅作非 A≈130 八极形变模型比较 |
+| [[reed-2016-triaxiality-rhenium]] | `187,189,191Re` signature splitting + M1/E2 + γ-bandhead systematics | cross-mass triaxiality/γ-softness comparator; model γ not direct |
+| [[frauendorf-2015-low-energy-quadrupole-mode]] | quadrupole-mode, γ-softness, tidal-wave/TPSM model framework | review-level model boundary; no new A≈130 experiment |
+| [[gore-2005-gamma-band-staggering]] | Mo/Ru/Pd γ-band staggering and model-limit comparator | cross-mass level-energy diagnostic; no unique γ inference |
+| [[heyde-wood-2011-shape-coexistence-review]] | shape-coexistence theory/fingerprint framework | review-level companion-observable requirements |
 
 ## Evidence Available
 
@@ -154,6 +159,7 @@ tags: [a130, high-spin, evidence-map, data-analysis, project]
 2. 检查 pairing softness 是否会影响后续 `131Ce/133Ce` 形变背景模型选择。
 3. 审核 [[gamma-soft-deformation-evidence-map]] 与更新后的 [[gamma-soft-vs-gamma-rigid-diagnostics]]，再决定如何接入 `131Ce/133Ce` 数据。
 4. 数据处理出现阶段性结果后更新 Data-Analysis Bridge。
+5. 对比 Li–Wang 的 pairing/parity-projection 缺口，明确哪些 A≈130 竞争解释需要 parity-sensitive observables，而不是仅比较 mean-field `β`。
 
 ## Related Sources and Pages
 
@@ -162,7 +168,9 @@ tags: [a130, high-spin, evidence-map, data-analysis, project]
 - [[gamma-soft-deformation]]、[[gamma-rigid-deformation]]、[[triaxial-deformation]]
 - [[gamma-soft-deformation-evidence-map]]、[[gamma-soft-vs-gamma-rigid-diagnostics]]
 - [[in-beam-gamma-spectroscopy]]、[[gamma-gamma-coincidence]]
+- [[li-2024-144ba-octupole-cdf-3d-lattice]]
 
 ## Evolution Log
 
 - 2026-07-05：按 theory/experiment + project-ingest 接入 Nomura 2017、Nomura 2021 与 Babra 2019；仅更新 seed evidence map、证据缺口与 data-analysis bridge，不形成综合结论。
+- 2026-09-20：接入 Li–Wang 2024 `144Ba` 3D-lattice cranking CDFT；作为八极形变模型 benchmark，保留 pairing、parity projection 和非独立实验点边界。

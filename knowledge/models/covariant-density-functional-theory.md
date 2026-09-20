@@ -3,7 +3,7 @@ type: model
 title: 协变密度泛函理论
 aliases: [covariant density functional theory, CDFT, constrained CDFT, TAC-CDFT]
 created: 2026-07-01
-updated: 2026-08-11
+updated: 2026-09-20
 status: active
 review_status: unreviewed
 model_family: self-consistent-mean-field
@@ -42,6 +42,10 @@ tags: [mean-field, deformation, chirality, high-spin]
 
 [[guo-2022-possible-chiral-multiple-chiral-thallium-isotopes]] uses PK1 adiabatic and configuration-fixed constrained triaxial RMF for `192-200Tl`, with 12 fermion/20 meson shells and no pairing. It selects favorable deformation/configuration minima but contains no cranking orientation or laboratory-frame partner-band calculation.
 
+[[li-2024-144ba-octupole-cdf-3d-lattice]] uses PC-PK1 cranking CDFT on a 3D lattice (1-fm mesh, 30 points per axis) without spatial symmetry restrictions. It obtains `β20≈0.22`, `β30≈0.13` at the ground-state minimum and an average `β30≈0.128` to `I≈24ℏ`; pairing is omitted and parity/total-I restoration is not performed, so parity splitting is outside the calculation.
+
+[[liang-2016-pseudospin-symmetry-review]] supplies the Dirac/RMF symmetry layer: PSS is exact only in the `dΣ/dr=0` limit, while realistic tensor/deformation/continuum terms break the degeneracy; it is not a direct band-assignment rule.
+
 ## Predicted Observables
 
 形变极小值、能量、频率、角动量分量及部分带内电磁量。
@@ -66,6 +70,8 @@ tags: [mean-field, deformation, chirality, high-spin]
 - [[petrache-2020-137nd-multiple-chiral-bands]]
 - [[peng-chen-2022-chiral-rotation-rhodium-isotopes]]
 - [[guo-2022-possible-chiral-multiple-chiral-thallium-isotopes]]
+- [[li-2024-144ba-octupole-cdf-3d-lattice]]
+- [[liang-2016-pseudospin-symmetry-review]]
 
 ## Evolution Log
 
@@ -74,3 +80,4 @@ tags: [mean-field, deformation, chirality, high-spin]
 - 2026-07-13：加入 Liu 2016 MDC-CDFT configuration shapes 与 `beta30` softness 边界。
 - 2026-08-11: added the Peng-Chen 2022 PC-PK1 3D-TAC isotope-chain example and pairing/side-band limits.
 - 2026-08-11: added Guo 2022's PK1 constrained-RMF Tl-isotope screening and separated static minima from rotational chirality.
+- 2026-09-20: added Li–Wang 2024 PC-PK1 3D-lattice cranking CDFT and its pairing/parity-projection boundary.

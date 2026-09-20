@@ -66,6 +66,18 @@ ICC-based `delta` extraction 也可能带来明显非对称误差；当 experime
 
 ## Sources
 
+[[konigshofen-2001-mixing-ratios-130ba]] provides direct `130Ba` δ values under the Rose–Brink sign convention, including dominant M1 admixtures and one no-unique-solution case. Its M1-corrected `B(E2)` ratios are detector-angle and reference-transition dependent.
+
+[[greiner-1966-magnetic-properties-even-nuclei]] is a historical model bridge linking M1/E2 mixing and rotational gR suppression to a proton–neutron deformation-difference tensor; use it as a model assumption, not a universal prior.
+
+[[hamilton-1969-mixing-ratios-pt194-196]] is a high-resolution cascade-separation example: `194Pt` gives `δ=−(30^{+39}_{−19})` and `196Pt` gives `δ=+4.03(12)` under the Biedenharn convention. The source demonstrates that convention mapping, contaminant correction and unresolved feeding (the 759-keV warning) are part of the observable identity, not post-processing details.
+
+[[rose-brink-1967-phase-defined-angular-distributions]] defines δ as a ratio of phase-defined reduced interaction-multipole matrix elements. Its sign is physical only after operator phase, initial/final state order, time-reversal convention and parity/alignment assumptions are mapped; the magnitude is related to partial-width ratios but does not remove these convention boundaries.
+
+[[eldridge-2018-gamma-band-mixing-ratios]] demonstrates the uncertainty topology in practice: IPAC `A2/A4` ovals for 37 Mo/Ru/Pd γ-band links can admit pure-E2 `δ=±∞`, finite positive/negative branches or very large alternatives. Retain all branches within the stated `(A2,A4)` uncertainty before using a shape-systematics interpretation.
+
+[[krane-steffen-1970-cd110-mixing-ratios]] supplies a 25-correlation `110Cd` network with explicit emission-matrix-element conventions and Compton-background control. Its δ values are portable only after the Rose–Brink/Biedenharn state-order map is reproduced.
+
 - [[chakraborty-2023-131xe-wobbling-origin]]
 - [[frauendorf-2024-wobbling-review]]
 - [[matta-2015-transverse-wobbling-135pr]]
@@ -78,6 +90,7 @@ ICC-based `delta` extraction 也可能带来明显非对称误差；当 experime
 - [[kibedi-2008-evaluation-theoretical-conversion-coefficients-bricc]]
 - [[rusev-2009-multipole-mixing-ratios-11b]]
 - [[diamond-1966-nuclear-alignment-heavy-ion-reactions]]
+- [[taras-1971-phase-defined-polarization-formulas]]
 
 ## Evolution Log
 

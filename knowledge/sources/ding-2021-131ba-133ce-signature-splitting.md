@@ -3,7 +3,7 @@ type: source
 title: "Signature splitting of the g7/2[404]7/2+ bands in 131Ba and 133Ce"
 aliases: []
 created: 2026-07-01
-updated: 2026-08-19
+updated: 2026-09-20
 status: active
 review_status: human-reviewed
 source_type: journal-article-experiment-and-model
@@ -24,6 +24,9 @@ zotero_uri:
 library_file:
 raw_file: "raw/papers/2021_Ding et al_Signature splitting of the g 7 - 2 [ 404 ] 7 - 2 + bands in Ba 131 and Ce 133.pdf"
 raw_sha256: 752D3C5DA690C20EC7E188DCC043F9DA2A7F062DEEFC371DD8A497A190B66C37
+alternate_version_file: "raw/papers/gpt/high-spin-20260920/旋称/2021_Ding et al_Signature splitting of the g 7 - 2 [ 404 ] 7 - 2 + bands in Ba 131 and Ce 2.pdf"
+alternate_version_sha256: 47451ae95676399c72b907b0efa10bdeb07e82c794a1ed480759ee20bae0c652
+alternate_version_identity: "PRC 104, 064304 published PDF; same title/DOI and fifteen-page article"
 nuclei: [131ba, 133ce]
 reactions: [122sn-c13-4n-131ba, 125te-c12-4n-133ce]
 experiments: [galileo-131ba-c13-65mev, afrodite-133ce-c12-57mev]
@@ -41,7 +44,7 @@ Physical Review C 104, 064304 (2021)，DOI `10.1103/PhysRevC.104.064304`。本�
 
 ## Scope and Reading Depth
 
-全文精读；视觉核对 Fig.1 两核能级纲图、Tables I-II 跃迁、Figs.5-10 系统学和 QTR 灵敏度、Table III 的 PES 形变参数及总结。
+规范期刊版已全文精读；本批提供的十五页 PRC PDF was reread end-to-end to audit Fig.1 schemes, Tables I–II, Figs.4–10 systematics/QTR sensitivity, Table III PES parameters and summary. No material claim change was found.
 
 ## Summary
 
@@ -131,6 +134,11 @@ configuration-constrained PES、cranked shell model（CSM）和 quasiparticle-pl
 - Persistence decision: add D21-8 and connect it to the `131Ce` project while preserving the independence limit.
 - Review state: page-level `human-reviewed` remains unchanged; D21-8 starts as `needs_review: true`.
 - 2026-08-19 locator audit: expanded D21-8 from the p.9 summary paragraph to the actual Fig.4/5 observable panels and refs.46-48 source lineage; scientific ranking and review state are unchanged.
+
+## Alternate-version self-audit (2026-09-20)
+
+- The supplied PRC PDF reproduces the canonical source's two reactions, `1.2×10^9`/`2.8×10^10` event totals, `R_ac` calibration, `νg7/2[404]7/2+` assignments, CSM/QTR/PES calculations and the conclusion that low-j `s1/2` mixing and triaxiality compete.
+- It is the same experiment/paper version, not an independent measurement. The existing human-review record remains unchanged; this alternate-version check is Codex self-audit.
 
 ## Related Knowledge and Project Relations
 

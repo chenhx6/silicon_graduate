@@ -41,7 +41,7 @@ tags: [gamma-softness, gamma-rigidity, a130, deformation, evidence-map, data-ana
 
 ## Evidence Available
 
-当前已审核核心证据由五篇 source 构成：一篇低能偶偶判据来源、三篇共享或相邻理论方法链的 Nomura 理论来源，以及一篇独立 `136Sm` 寿命实验及模型比较。Nomura 2022 已补入 γ-soft IBFM odd-mass bands 与 low-spin wobbling alternative 的直接桥接；它不自动改变本页既有 project-level notes 的审核状态。Frauendorf 2024 仅提供 low-spin relation 背景。2026-08-04 的自测另接入未审核的 `131Ce` Singh 2016 寿命来源：它补上目标核 `Q_t` 入口，但只直接约束 E2 集体性/core response，γ-soft 标签仍为 TRS/作者解释。
+当前已审核核心证据由五篇 source 构成：一篇低能偶偶判据来源、三篇共享或相邻理论方法链的 Nomura 理论来源，以及一篇独立 `136Sm` 寿命实验及模型比较。Nomura 2022 已补入 γ-soft IBFM odd-mass bands 与 low-spin wobbling alternative 的直接桥接；它不自动改变本页既有 project-level notes 的审核状态。Frauendorf 2024 仅提供 low-spin relation 背景。2026-08-04 的自测另接入未审核的 `131Ce` Singh 2016 寿命来源：它补上目标核 `Q_t` 入口，但只直接约束 E2 集体性/core response，γ-soft 标签仍为 TRS/作者解释。Rees 2011 提供独立的 `156Er` 非 yrast、γ-band staggering 与 competing-alignment comparator；它扩展跨质量区证据，但不替代 A≈130 的目标核数据。
 
 ## Seed Sources
 
@@ -54,6 +54,8 @@ tags: [gamma-softness, gamma-rigidity, a130, deformation, evidence-map, data-ana
 | [[nomura-2022-questioning-wobbling-ibfm]] | theory source, source reviewed | `135Pr/133La/127Xe/105Pd` 的 γ-soft core + odd-fermion bands 与 E2/M1 predictions | 与 Nomura 2017/2021 共享方法链；couplings fitted；`127Xe` 有异常 `δ`；不是新实验 |
 | [[frauendorf-2024-wobbling-review]] | review/background | γ-soft 芯与奇 A collective-band interpretation 的关系入口 | 只用于 relation/future bridge，不替代 wobbling 原始实验来源 |
 | [[singh-2016-lifetime-131ce-133pr]] | experiment source + TRS interpretation, unreviewed | `131Ce` Band-1-like yrast 寿命/`Q_t` 与目标核形变讨论入口 | 寿命直接约束 E2 集体性；四个有限点的下降仅 `0.64σ`，γ-softness 依赖 TRS/作者解释 |
+| [[rees-2011-156er-nonyrast-gamma-soft]] | experiment + model interpretation | `156Er` weak non-yrast bands, `S(4)≈−1`, second-`0+`/γ-band proximity and competing `(νi13/2)2` vs `(νh9/2,f7/2)2` alignment | direct level/coincidence and angular-ratio facts; γ-soft/configuration labels remain interpretation and geometry-dependent |
+| [[eldridge-2018-gamma-band-mixing-ratios]] | multi-isotope IPAC experiment | 37 γ-band→ground-band `δ(E2/M1)` values in Mo/Ru/Pd, predominantly E2; `110Ru` sign trend | attenuation/g-factor and δ-oval branches are explicit; shape-transition reading is model/systematics, not direct γ rigidity |
 
 ## Gamma-soft Deformation Concepts
 

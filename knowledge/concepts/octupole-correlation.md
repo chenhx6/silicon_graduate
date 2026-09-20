@@ -3,7 +3,7 @@ type: concept
 title: 八极关联
 aliases: [octupole correlation, octupole correlations]
 created: 2026-07-13
-updated: 2026-08-11
+updated: 2026-09-21
 status: active
 review_status: unreviewed
 concept_type: reflection-asymmetric-correlation
@@ -35,6 +35,14 @@ E1 links、`B(E1)/B(E2)`、[[energy-displacement]]、相反宇称轨道耦合与
 
 [[xiao-2022-chirality-octupole-correlations-74as]] 在 `74As` 建立三条 Band-3→Band-1 E1 links，并比较 relative `B(E1)/B(E2)` 与 `δE`。其结果接近 `78Br` correlations、明显偏离 stable-octupole `224Th`；另有 `372.4-keV` low-lying E1，但不属于这三条 band-to-band links。
 
+[[li-2024-144ba-octupole-cdf-3d-lattice]] supplies a theory-side contrast: a self-consistent `144Ba` `β30` minimum and stable mean-field evolution, but no parity projection or quantum parity splitting. It anchors the model layer without converting octupole correlations in `74As/78Br` into stable deformation.
+
+[[gaffney-2013-pear-shaped-rn-ra]] supplies a direct experimental E3/Q3 layer: `220Rn` and `224Ra` Coulomb-excitation matrix elements distinguish weaker from stronger octupole collectivity, while the static-versus-vibrational label still requires model and parity-systematics checks.
+
+[[bucher-2016-144ba-direct-octupole]] supplies a stronger direct E3 comparator in neutron-rich Ba (`B(E3)=48^{+25}_{−34} W.u.`). It anchors the observable layer without making `E1` links or relative `B(E1)/B(E2)` ratios in `74As/78Br` equivalent to a measured static `β3`.
+
+[[butler-nazarewicz-1996-intrinsic-reflection-asymmetry]] supplies the pre-1996 theoretical/experimental evidence map, emphasizing E1 cancellation sensitivity, collective E3 strength, opposite-parity orbital couplings and the need to keep static, soft and vibrational interpretations separate.
+
 [[wang-2023-experimental-studies-nuclear-chirality-china]] 的 Br-isotope review synthesis 把 measured/calculated doublet splitting 与 E1-related systematics 合并，提出 octupole correlations 可能使 chirality evolution 提前。但 Fig.12 的 TPRM 本身保持 reflection symmetry，跨核素数据也来自异质来源，因此“catalyze chirality”只保留为可检验的二级解释，不写成因果事实。
 
 ## Counter-evidence and Competing Interpretations
@@ -57,6 +65,10 @@ E1 links、`B(E1)/B(E2)`、[[energy-displacement]]、相反宇称轨道耦合与
 - [[guo-2020-pseudospin-chiral-quartet-131ba]]
 - [[xiao-2022-chirality-octupole-correlations-74as]]
 - [[wang-2023-experimental-studies-nuclear-chirality-china]]
+- [[li-2024-144ba-octupole-cdf-3d-lattice]]
+- [[gaffney-2013-pear-shaped-rn-ra]]
+- [[bucher-2016-144ba-direct-octupole]]
+- [[butler-nazarewicz-1996-intrinsic-reflection-asymmetry]]
 
 ## Evolution Log
 
@@ -64,3 +76,4 @@ E1 links、`B(E1)/B(E2)`、[[energy-displacement]]、相反宇称轨道耦合与
 - 2026-08-11：加入 `131Ba` direct E1 network 与 RAT-PRM comparison；保留 relative-strength、tentative-β3 和 stable-deformation exclusions。
 - 2026-08-11：加入 `74As` 三条 Band-3→Band-1 E1、relative ratios/`δE` 与 `224Th` counter-benchmark；分离额外 low-lying E1。
 - 2026-08-11：加入 Wang 2023 Br-isotope octupole/chirality cross-source hypothesis，并明确 reflection-symmetric model 与因果边界。
+- 2026-09-20：加入 `144Ba` CDFT theory-side contrast；保持 correlations、softness 与 stable mean-field deformation 的三层分离。

@@ -60,6 +60,8 @@ Frauendorf 2001 makes the rotating-frame form explicit as `H-prime = H - omega d
 
 [[peng-chen-2022-chiral-rotation-rhodium-isotopes]] gives a self-consistent `102-107Rh` 3D-TAC CDFT example: the Routhian is minimized in `theta` and scanned in `phi`, with finite `±phi` minima marking aplanar intrinsic solutions. Its five finite `omega_crit` values are model onsets; `102Rh` only supplies an unconverged lower bound. The calculation fixes configurations and omits pairing, chiral vibration and tunnelling, so it cannot produce the partner spectrum or energy splitting.
 
+[[frauendorf-2018-beyond-unified-model]] provides the broad rotating-mean-field bridge: `H' = H−ω·J`, `J∥ω`, principal-axis/planar/aplanar symmetry classes, and the relation of TAC to cranked-shell and quantum triaxial-rotor descriptions. It explicitly keeps angular-momentum conservation, tunnelling and interband amplitudes as limitations of the semiclassical layer.
+
 ## Related Models
 
 [[particle-rotor-model]]
@@ -76,6 +78,7 @@ Use the symmetry labels explicitly: PAC preserves a signature-like operation; pl
 - [[clark-2000-shears-mechanism]]
 - [[kumar-2025-review-magnetic-antimagnetic-rotational-structures]]
 - [[peng-chen-2022-chiral-rotation-rhodium-isotopes]]
+- [[frauendorf-2018-beyond-unified-model]]
 
 ## Evolution Log
 
@@ -84,3 +87,4 @@ Use the symmetry labels explicitly: PAC preserves a signature-like operation; pl
 - 2026-07-03：加入 Matta 2015 的 `135Pr` 1qp/3qp/5qp TAC 比较。
 - 2026-07-13：加入 Meng 2010 的 total-angular-momentum、tunneling 与 RPA 边界。
 - 2026-08-11: added Peng-Chen 2022 Rh critical-frequency systematics and the configuration-fixed/no-pairing/mean-field boundary.
+- 2026-09-20: added Frauendorf 2018 review bridge across TAC, wobbling, chirality, magnetic rotation and termination.

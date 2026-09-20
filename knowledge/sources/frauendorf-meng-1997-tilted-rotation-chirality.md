@@ -3,7 +3,7 @@ type: source
 title: "Tilted rotation of triaxial nuclei"
 aliases: []
 created: 2026-07-01
-updated: 2026-07-02
+updated: 2026-09-20
 status: active
 review_status: human-reviewed
 source_type: journal-article-theory
@@ -24,6 +24,9 @@ zotero_uri:
 library_file:
 raw_file: "raw/papers/1997_Frauendorf et al_Tilted rotation of triaxial nuclei.pdf"
 raw_sha256: 9DC81B3147A786189DD0C2F31D79A56E9BB5D83E16FD0C8137BCCAF2A43D81E2
+alternate_version_file: "raw/papers/gpt/high-spin-20260920/三轴/手征/1997_Frauendorf_Jie Meng_Tilted rotation of triaxial nuclei.pdf"
+alternate_version_sha256: 2bd27510b61b1ca7e9d0eff559f8c0bcde46939249d7c5a720bf8425f7114f81
+alternate_version_identity: "FZR-156 preprint, November 1996; same title/authors and precursor to NPA 617 (1997) 131-147"
 nuclei: [134pr]
 reactions: []
 experiments: []
@@ -41,7 +44,7 @@ Nuclear Physics A 617 (1997) 131-147。理论论文，共 17 页。
 
 ## Scope and Reading Depth
 
-全文精读，重点核对 planar/aplanar TAC 的定义、对称性推导、PRM 对比、跃迁概率、实验候选与结论。
+规范期刊版已全文精读；本批提供的 FZR-156 (Nov. 1996) preprint 21-page version was reread end-to-end to audit the same theory chain, figures 1–9, equations, transition-probability discussion, `134Pr` comparison and conclusion. Pagination and OCR artefacts differ from the journal PDF, so locators below retain section/figure semantics rather than silently transferring page numbers.
 
 ## Summary
 
@@ -58,7 +61,7 @@ Nuclear Physics A 617 (1997) 131-147。理论论文，共 17 页。
 
 | ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
 |---|---|---|---|---|---|
-| FM97-1 | planar TAC 解中角动量位于主平面；aplanar 解中角动量不位于任一主平面。 | model-result | direct | PDF p.5, Sec.3.1 | false |
+| FM97-1 | planar TAC 解中角动量位于主平面；aplanar 解中角动量不位于任一主平面。 | model-result | direct | Journal Sec.3.1; preprint Sec.3, Fig.1/5 | false |
 | FM97-2 | planar TAC 表示一条 ΔI=1 带；aplanar TAC 表示两条简并、同宇称 ΔI=1 带。 | model-result | direct | PDF pp.8-9 | false |
 | FM97-3 | aplanar 解的两组带具有相反的内禀手征性；planar 解是 achiral。 | model-result | direct | PDF pp.9-10, Figs.5-6 | false |
 | FM97-4 | PRM 中左右手态之间的隧穿可使双带仍有劈裂；只有隧穿足够小时才接近简并。 | model-result | direct | PDF pp.11-12 | false |
@@ -96,4 +99,9 @@ Nuclear Physics A 617 (1997) 131-147。理论论文，共 17 页。
 
 ## Personal Notes
 
-该文是“aplanar TAC → 动态手征性 → 同宇称双带”的奠基来源，但不能被用作某个具体核已证明手征性的实验依据。
+该文是“aplanar TAC → 动态手征性 → 同宇称双带”的奠基来源，但不能被用作某个具体核已证明手征性的实验依据。Preprint audit confirms no material change to the existing source claims; it is the same theory source/version lineage, not an independent study or experiment.
+
+## Alternate-version self-audit (2026-09-20)
+
+- The FZR-156 preprint reproduces the published theory structure: TAC/PRM basics, planar versus aplanar solutions, D2 symmetry, chiral geometry, transition probabilities, the `134Pr` candidate comparison and the need for microscopic self-consistent TAC.
+- No new independent claims were promoted. The existing journal-page locators remain canonical; preprint OCR corruption in equations and page numbers is retained as a version caveat rather than silently corrected.

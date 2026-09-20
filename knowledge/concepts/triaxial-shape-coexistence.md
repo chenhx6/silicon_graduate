@@ -29,6 +29,8 @@ tags: [triaxiality, shape-coexistence, multiple-chiral-doublet]
 
 ## Supporting Evidence
 
+[[aberg-flocard-nazarewicz-1990-mean-field-shapes]] is the historical mean-field backbone for competing minima, rotation-induced triaxiality and the need for projection/configuration mixing before assigning laboratory bands.
+
 [[ayangeakaa-2013-evidence-multiple-chiral-doublet-bands-133ce]] 的 RMF 为 `133Ce` states a/b 给出不同三轴形变与组态，TPRM 对相应双带作比较；论文据此解释为 triaxial shape coexistence。
 
 [[guo-2022-possible-chiral-multiple-chiral-thallium-isotopes]] 的 PK1 constrained RMF 在 `192-198Tl` 中得到多个局域三轴极小值，并把它们称为 triaxial shape coexistence 的例子；`199,200Tl` 没有合适的三轴极小值。这里的 coexistence 是单一 mean-field landscape 的模型结果，尚未由 band-to-minimum mapping 或绝对 E2 observables 独立约束。

@@ -48,6 +48,17 @@ Angular correlations do not by themselves define a universal side-feeding Gaussi
 
 ## Sources
 
+[[konigshofen-2001-mixing-ratios-130ba]] demonstrates a three-angle low-spin application: efficiency-corrected `W(180°)/W(90°)` and `W(55°)/W(90°)` ratios can yield a unique `δ` for 18 `130Ba` transitions when the spin/parity and pure-E2 reference assumptions hold. The unresolved `4+_3→3+_1` row remains an explicit multi-solution boundary.
+
+[[falkoff-1948-polarization-correlation]] is a historical successive-γ polarization precursor: its `A` coefficient complements, but does not replace, directional-correlation coefficients and requires phase-convention mapping.
+
+[[krane-1973-directional-correlations-oriented-states]] is the generalized DCO foundation, separating orientation parameters, radiation coefficients, finite geometry and multipole conventions from later compressed ratios.
+
 - [[radeck-2012-deorientation-lifetime-98ru-rdds]]
 - [[lauritsen-2025-gamma-angular-formalism-tracking-arrays]]
 - [[kramer-flecken-1989-use-dco-ratios]]
+- [[bargholtz-1987-high-spin-gamma-gamma-directional-correlations]]
+
+[[starosta-1999-pdco-experimental-test]] is a direct high-spin example of the compressed-observable boundary: `R_DCO` constrains the alignment/multipolarity space, while CLOVER polarization adds electric/magnetic sensitivity; the combined fit still leaves a 490-keV E2/M1-E2 branch under the paper's assumptions.
+
+[[james-twin-butler-1974-angular-correlation-statistics]] adds the statistical gate: alignment/model variance enters the design matrix, effective degrees of freedom are `n−rank`, and `arctan δ` confidence contours must retain nonlinear/multibranch topology.

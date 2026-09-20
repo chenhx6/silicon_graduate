@@ -3,7 +3,7 @@ type: concept
 title: 八极形变
 aliases: [octupole deformation, stable octupole deformation]
 created: 2026-07-13
-updated: 2026-08-11
+updated: 2026-09-21
 status: active
 review_status: unreviewed
 concept_type: nuclear-shape
@@ -29,6 +29,16 @@ tags: [octupole, reflection-asymmetry, deformation]
 
 ## Supporting Evidence
 
+[[aberg-flocard-nazarewicz-1990-mean-field-shapes]] supplies the mean-field octupole/reflection-asymmetry background and explicitly separates intrinsic `β3` minima from parity-restored laboratory spectroscopy.
+
+[[li-2024-144ba-octupole-cdf-3d-lattice]] provides a self-consistent PC-PK1 3D-lattice mean-field example for `144Ba`: a nonzero `β30≈0.13` minimum and nearly persistent `β30≈0.128` to `I≈24ℏ`. This is a model order parameter; the paper explicitly lacks pairing and parity projection, so it does not by itself establish measured parity splitting or a quantum alternating-parity spectrum.
+
+[[gaffney-2013-pear-shaped-rn-ra]] provides a direct E3/Q3 Coulomb-excitation benchmark: `224Ra` has stronger, more coherent octupole collectivity than `220Rn`, but the conversion from fitted matrix elements to a pear-shaped/static interpretation remains model- and isotope-systematics dependent.
+
+[[bucher-2016-144ba-direct-octupole]] adds a direct neutron-rich-Ba benchmark: sub-barrier `144Ba+208Pb` Coulomb excitation with CHICO2/GRETINA gives `B(E3;3−→0+)=48^{+25}_{−34} W.u.`, `Q3=1.73^{+0.45}_{−0.62}×10³ efm³` and inferred `β3=0.17^{+0.04}_{−0.06}`. The E3 matrix element is direct; the static-shape/β3 conversion still carries rotor, higher-multipole and E1-sign assumptions.
+
+[[butler-nazarewicz-1996-intrinsic-reflection-asymmetry]] is the historical review anchor for separating stable octupole minima, octupole softness/vibration, parity restoration and E1/E3 observables; it is not an independent experiment.
+
 当前来源没有把 `74As` 或 `78Br` 建立为 stable octupole-deformed nucleus。
 
 ## Counter-evidence and Competing Interpretations
@@ -48,8 +58,14 @@ Liu 2016 的 `78Br` ratios/`delta E` 明显不同于 `224Th`，PES 为 [[octupol
 
 - [[liu-2016-octupole-correlations-multiple-chiral-doublet-bands-78br]]
 - [[xiao-2022-chirality-octupole-correlations-74as]]
+- [[li-2024-144ba-octupole-cdf-3d-lattice]]
+- [[gaffney-2013-pear-shaped-rn-ra]]
+- [[bucher-2016-144ba-direct-octupole]]
+- [[butler-nazarewicz-1996-intrinsic-reflection-asymmetry]]
 
 ## Evolution Log
 
 - 2026-07-13：建立 stable-deformation 排除边界。
 - 2026-08-11：加入 `74As` 对 `78Br/224Th` 的 comparison；relative ratios 不升级为 static deformation。
+- 2026-09-20：加入 `144Ba` 3D-lattice CDFT 的 stable-mean-field example；明确 `β30` 模型结果、PES softness、pairing omission 与 parity-projection boundary。
+- 2026-09-20：加入 `220Rn/224Ra` direct E3/Q3 Coulomb-excitation benchmark；分离测量矩阵元与 static-pear interpretation。

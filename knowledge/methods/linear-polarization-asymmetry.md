@@ -3,7 +3,7 @@ type: method
 title: 线偏振不对称分析
 aliases: [linear polarization asymmetry, polarization asymmetry, Delta asym]
 created: 2026-07-01
-updated: 2026-07-12
+updated: 2026-09-20
 status: active
 review_status: unreviewed
 method_type: gamma-ray-polarimetry
@@ -42,6 +42,20 @@ tags: [multipolarity, electric-magnetic-character]
 
 [[lauritsen-2025-gamma-angular-formalism-tracking-arrays]] treats tracking-array linear polarization as a continuous-angle response-function problem. For in-beam single-gamma polarization, its Eq.35 expands the angular-distribution expression with a `P_pm cos(2 zeta)` term and includes mixed transitions. Its `152Dy` 432-keV example shows why angular distribution, DCO and linear polarization may all be needed to resolve `M1/E2` versus `E1/M2` ambiguity.
 
+[[zheng-2013-linear-polarization-91ru]] provides a clover implementation boundary: EXOGAM `90°` clovers use adjacent-crystal Compton scatters, an unpolarized `152Eu` normalization `a(Eγ)`, and known pure E2 transitions to fit `Q(Eγ)`. The experiment uses `A=QP` together with `R_DCO`; the sign and magnitude separate stretched electric/magnetic and nonstretched cases under the stated geometry. Its `91Ru` assignments remain conditional on the assumed `(9/2+)` ground state, so a clean asymmetry does not remove level-scheme assumptions by itself.
+
+[[garciaraffi-1997-monte-carlo-compton-polarimeters]] shows why `Q` calibration is not a universal constant: geometry, thresholds, scatter-angle windows and polarization transport through multiple scatters must be reproduced before a simulated or measured asymmetry is converted to physical `P`.
+
+[[twin-1970-polarization-angular-correlation-40k]] is an early joint-analysis example: Compton polarization provides parity/multipole sensitivity only after `a2/a4` angular distributions constrain spin and population; polarization alone can admit several spin/parity fits.
+
+[[wadsworth-1977-61ni-levels]] extends the same Rose–Brink/three-GeLi method to a `61Ni` level scheme and demonstrates that polarization, angular distributions and DSAM must be kept as separate evidence layers.
+
+[[falkoff-1948-polarization-correlation]] supplies an early successive-γ polarization-correlation sign formalism; it is not the same detector-level asymmetry as modern segmented-clover analyses.
+
+[[starosta-1999-pdco-experimental-test]] demonstrates the PDCO joint observable in EUROGAM-II: the CLOVER asymmetry is converted with `Q(E)` and combined with a geometry-dependent `R_DCO`. The study explicitly retains an E2 versus mixed M1/E2 branch for the 490-keV transition, showing why polarization plus DCO is narrowing evidence rather than an automatic unique assignment.
+
+[[jones-1995-clover-compton-calibration]] defines the detector-level separation used in later CLOVER work: angular-distribution fitting supplies `P`, adjacent-crystal counts supply `A`, and the calibration is `Q=A/P`. Its 197–1368 keV response and 60-keV threshold should not be copied to another array without recalibration.
+
 ## Formalism Boundary
 
 The three new method sources make the detector-layer separation explicit: Jones 2002 defines physical polarization `P`, experimental count asymmetry `A` and detector sensitivity `Q`; Go 2024 extracts a polarization from normalized measured/simulated azimuthal distributions; Longfellow 2026 uses `A0=1/2 Q Pbar` after integrating GRETINA coverage. These are related observables, not interchangeable names for the same quantity.
@@ -66,9 +80,15 @@ The special `|P|=1` cases in Jones 2002 require particular alignment and pure tr
 - [[matta-2015-transverse-wobbling-135pr]]
 - [[guo-2022-low-spin-wobbling-187au]]
 - [[rusev-2009-multipole-mixing-ratios-11b]]
+- [[simpson-1983-sectored-geli-compton-polarimeter]]
+- [[garciaraffi-1995-nonorthogonal-compton-polarimeter]]
+- [[taras-1971-phase-defined-polarization-formulas]]
+- [[butler-1973-three-geli-compton-polarimeter]]
 - [[lauritsen-2025-gamma-angular-formalism-tracking-arrays]]
 - [[liu-2016-octupole-correlations-multiple-chiral-doublet-bands-78br]]
+- [[zheng-2013-linear-polarization-91ru]]
 - [[bark-2024-investigations-nuclear-chirality-ithembalabs]]
+- [[garciaraffi-1997-monte-carlo-compton-polarimeters]]
 
 ## Evolution Log
 

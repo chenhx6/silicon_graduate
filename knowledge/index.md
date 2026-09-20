@@ -2,14 +2,92 @@
 type: system-index
 graph-excluded: true
 created: 2026-07-01
-updated: 2026-09-13
+updated: 2026-09-21
 ---
 
 # Wiki Index
 
 ## Sources
 
+- [[yamazaki-1967-aligned-angular-coefficients]] - 对齐核角分布 `p_k/B_k/F_k/U_k` 系数表、Gaussian `σ/J` 近似与 angular-distribution/γγ-correlation `δ` 符号边界。
+- [[suffert-1959-proton-capture-polarization]] - 三类质子俘获反应的 NaI Compton 偏振、`P/R/p` 修正与自旋/宇称及 E2/M1 歧义解析。
+- [[mukhopadhyay-2008-136nd-transition-rates]] - `136Nd` 两条负宇称带 DSAM `B(M1)/B(E2)` 差异；TAC+RPA 支持不同组态/带混合并反驳能量简并即手征。
+- [[petrache-2006-near-degenerate-chiral-misinterpretation]] - `134Pr/136Pm` 近简并带的 crossing、alignment 与 `Q0,1/Q0,2=2.0(4)` 反例；手征判据的批判性来源。
+- [[lange-kumar-hamilton-1982-multipole-admixtures]] - 76页 E0/E2/M1 mixing-ratio RMP、Krane–Steffen sign convention、PPQ/IBM 及历史数据表的质量脚注。
+- [[bucher-2016-144ba-direct-octupole]] - `144Ba` CHICO2+GRETINA GOSIA 直接 E3；`B(E3)=48^{+25}_{−34} W.u.`、`Q3`/`β3` 与 rotor/higher-multipole 边界。
+- [[dey-2026-116cs-multifaceted-decay]] - `116Cs`/`116Xe` 滴线多通道衰变、7.66-MeV 低能等轴八极共振、延迟 2p 与可能 `12C` cluster；数据与代码可得性边界。
+- [[hamilton-1948-successive-quanta-polarization]] - successive-γ direction–polarization formalism；16种 dipole/quadrupole 组合、相对宇称可判定性和探测效率边界。
+- [[herzan-2015-193bi-spectroscopy]] - `193Bi` JUROGAM-II/RITU/GREAT 纲图、`29/2±` 异构体、RDCO/IPDCO 标定和 `1/2[651]` SD 候选。
+- [[soderstrom-2020-137ba-competitive-gamma]] - `137mBa` ELIGANT 独立确认 `8.7σ` 双光子分支；能量共享把 Walz 的 Aqq/Aod 解释修订为较强 E3M1、受抑 M2E2。
 - [[ding-2012-phd-thesis-127-128i-high-spin]] - 丁兵 2012 博士论文：`127I` 的 `πh11/2` 退耦带、`πg7/2/πd5/2` 强耦合小扁椭带与三准粒子态共存；`128I` 的两准粒子多重态、NPA 计算及单粒子主导演化。
+- [[gade-2015-gamma-rays-come-in-twos]] - `137Ba` 竞争性双 γ 衰变的 Nature News & Views 评论；作为 Walz 2015 原始实验的二手入口，保留分支比、装置与 Compton 背景控制的复核边界。
+- [[schirmer-1984-double-gamma-40ca-90zr]] - `40Ca/90Zr` 直接双光子衰变实验；Crystal Ball PAF 背景抑制、γγ 角关联和偏振分支选择。
+- [[walz-2015-competitive-double-gamma-137ba]] - `137Ba` 竞争性双光子衰变直接观察；LaBr3 时间、随机/Compton/级联排除与 `Aqq/Aod` 路径。
+- [[zheng-2002-ado-coincidence-angular-anisotropy]] - 符合模式 ADO 的定义、`f_ADO` 效率修正和 `145Tb` 三角度组验证；`R_ADO≈0.75/1.25` 保持阵列特定边界。
+- [[jahangir-2026-tpsm-gamma-bands-nb-tc]] - 奇质量 Nb/Tc 八核素的 TPSM γ1/2γ/γ2/3γ 计算；`103,105Nb` 第四带的 γ2 (`K0−2`) 解释与实验验证边界。
+- [[zheng-2013-linear-polarization-91ru]] - `91Ru` EXOGAM clover 线偏振/DCO/角分布联合实验；保留 `(9/2+)` 基态假设和 `A/Q/P` 阵列校准边界。
+- [[meyer-1978-multiparticle-configurations-61ni-67zn]] - `61Ni/67Zn` 衰变谱学、绝对 γ 强度与 MSDI/ASDI/cluster 模型比较；保留低强度线和有效算符边界。
+- [[jensen-2001-165tm-h9-2-configuration]] - `165Tm` 高自旋纲图、`πh9/2[541]1/2−` DSAM `Qt`、delayed alignment、band mixing、γ-vibrational bands 和 E1 enhancement；HS-006/HS-007 为同哈希副本。
+- [[simpson-1983-sectored-geli-compton-polarimeter]] - 八扇区 Ge(Li) Compton polarimeter 的 `P/A/Q`、A/B/C 配置、效率/灵敏度/F trade-off 与 `158Er` 应用。
+- [[garciaraffi-1995-nonorthogonal-compton-polarimeter]] - EUROBALL CLUSTER 非正交 Compton polarimeter 的 `Q1/Q2/Q3` 响应、threshold/efficiency/merit 和几何边界。
+- [[garciaraffi-1997-monte-carlo-compton-polarimeters]] - GEANT3/Stokes Monte Carlo 对五晶体、四晶体和 CLOVER Compton polarimeter 的 `Q(E)`/`M=εQ²` 验证；保留多次散射、几何和阈值边界。
+- [[twin-1970-polarization-angular-correlation-40k]] - `40K` 近阈值 `a2/a4`、γγ 角关联与 Compton 偏振联合赋值；保留 Biedenharn/Rose–Brink convention 与多解边界。
+- [[wadsworth-1977-61ni-levels]] - `61Ni` 低能级纲图、angular distribution/偏振/mixing ratio 与 DSAM lifetime 基线。
+- [[falkoff-1948-polarization-correlation]] - 早期 successive-γ polarization-correlation 公式、符号/电磁性质与 angular-correlation 互补边界。
+- [[bass-1972-two-crystal-compton-polarimeter]] - 对称双晶体 Compton polarimeter 的 coincidence/anticoincidence `R(E,E_th)`、阈值和效率边界。
+- [[klein-nishina-1929-compton-scattering]] - Klein–Nishina/Dirac 自由电子散射响应的历史理论基础；明确不含偏振和探测器灵敏度。
+- [[vonderwerth-1995-compton-polarimeters]] - POLALI/MINIPOLA 五晶体与四分段 Ge Compton 设计、kinematic gate、`Q/ε/F` 标定边界。
+- [[schmid-1998-gammasphere-polarization]] - 分段 Gammasphere Ge 的 confined/shared 偏振方法、Monte Carlo `Q(E)` 与 `197Pb` 高背景示范。
+- [[krane-1973-directional-correlations-oriented-states]] - 56页 generalized DCO、orientation/statistical tensors、F coefficients 与几何/δ convention 边界。
+- [[summary-bases-spin-parity-assignments]] - Spin/parity assignment strong/weak evidence checklist；保留 DCO/偏振/角分布 setup boundaries。
+- [[droste-1999-ppco-polarization]] - PPCO 两个偏振探测器的四计数 formalism、PP1/PP2/AA1/AA2 与 DCO 联合判别。
+- [[starosta-1999-pdco-experimental-test]] - EUROGAM-II CLOVER PDCO 实验验证；`Q(E)`、积分偏振和 DCO 联合约束，并保留 `490 keV` E2/M1-E2 多解。
+- [[rees-2011-156er-nonyrast-gamma-soft]] - `156Er` Gammasphere 非 yrast 结构、γ-band staggering/`S(4)` γ-soft 证据与竞争准粒子 alignment。
+- [[hamilton-1969-mixing-ratios-pt194-196]] - `194,196Pt` 高分辨 γγ 角关联与线偏振提取 E2/M1 `δ`；保留 Biedenharn convention、196Pt theory conflict 与 759-keV 未解析警告。
+- [[jones-1995-clover-compton-calibration]] - 四晶体 CLOVER/EUROGAM Compton 偏振标定；`P/A/Q` 分离、197–1368 keV `Q(E)`、60-keV threshold 与几何边界。
+- [[aprahamian-2005-nuclear-astrophysics-structure]] - 79页核天体物理结构综述；质量、壳层、聚团、形变、level density、反应率与弱作用输入边界。
+- [[pfutzner-2012-radioactive-decays-stability-limits]] - 53页 RMP drip-line 放射性综述；质子/双质子、β延迟粒子、α、连续统与中子放射性机制边界。
+- [[rose-brink-1967-phase-defined-angular-distributions]] - 42页 RMP 相位一致角分布理论；`B_K`、`R_K`、γγ 关联、δ 符号与 operator/state-order convention。
+- [[der-mateosian-sunyar-1974-angular-coefficients]] - 56页 ADNDT 混合多极角分布系数表；高自旋 `A2/A4`、Gaussian alignment、`σ/J`–`δ` 联合解与 sign-convention 警告。
+- [[aberg-flocard-nazarewicz-1990-mean-field-shapes]] - 89页 mean-field 形状综述；HF/HFB、Nilsson–Strutinsky、转动高自旋、八极形变、superdeformation 与 shape coexistence 边界。
+- [[mukhopadhyay-2007-135nd-chiral-vibration-static]] - `135Nd` 双带 DSAM 电磁强度与 TAC+RPA；近简并、`B(M1)/B(E2)` 相似及 chiral vibration→static chirality 边界。
+- [[ma-1990-131ba-competing-alignments]] - `131Ba` 五晶体高自旋谱学；质子/中子 `h11/2` 对齐、signature splitting、DCO/δ 与相反形状驱动边界。
+- [[eldridge-2018-gamma-band-mixing-ratios]] - `Mo/Ru/Pd` 十核素 Gammasphere IPAC；37 个 γ-band→ground-band δ、E2 主导、`110Ru` sign-trend 与 δ-oval 多解边界。
+- [[miller-2007-sega-polarization]] - SeGA 侧入射 Compton 偏振标定；`Q≈0.14(2)`、`FM≈5.9×10^-6` 与 geometry/finite-angle boundary。
+- [[krane-steffen-1970-cd110-mixing-ratios]] - `110Cd` 25 组 Ge(Li) directional-correlation δ；E2/M1 convention mapping、Compton background 与 vibrational/extra-pair 边界。
+- [[aoki-1975-geli-summing-polarimeters]] - 多方向 Ge(Li) summing Compton polarimeter 与 Ge(Li)-Ge(Li) 低本底谱仪；同时测 `φ=0/30/60/90°` 与效率/阈值权衡。
+- [[rahaman-2024-40k-spectroscopy]] - `40K` INGA 高自旋纲图更新；RDCO/RADO/IPDCO/δ 联合赋值与 sd–pf 大空间壳模型边界。
+- [[das-2020-37ar-high-spin]] - `37Ar` INGA 高自旋纲图扩展至 10.5 MeV；RDCO/RADO/IPDCO/δ 与 sd–pf 壳模型/双能级混合边界。
+- [[fagg-hanna-1959-polarization-measurements]] - 48页 RMP 偏振综述；alignment/polarization、Compton/photoelectric analyzers 与 direction–polarization/circular-correlation 历史边界。
+- [[williams-1975-61ni-low-lying-levels]] - `61Ni` 低能级 DSAM、角关联/偏振、mixing ratio 与 shell-model 对照；与 Meyer/Wadsworth/Samanta 保持谱系分层。
+- [[ragnarsson-nilsson-sheline-1978-shell-structure]] - 87页 Physics Reports 壳层结构综述；magic numbers、形状依赖 shell gaps、Strutinsky、高自旋与 superdeformation 边界。
+- [[james-twin-butler-1974-angular-correlation-statistics]] - 9页统计方法；alignment/model uncertainty、design-matrix rank、χ²/F test 与 `arctan δ` confidence boundary。
+- [[der-mateosian-sunyar-1974-attenuation-coefficients]] - 16页 `α2/α4` Gaussian alignment attenuation tables；`σ/J`、高自旋 appendix 与 ADO/DCO transfer boundary。
+- [[grodner-2018-128cs-chiral-g-factor]] - `128Cs` TDPAD 首次 g 因子 `+0.59(1)`；核心转动、近平面 bandhead 与 chiral critical-frequency 边界。
+- [[garg-2015-135pr-magnetic-rotation]] - `135Pr` 负宇称高自旋带；RDCO/IPDCO、M1/E2、3qp→5qp TAC 交叉与“possible magnetic rotation”寿命缺口。
+- [[liu-1996-signature-inversion-a130]] - A≈130 `πh11/2⊗νh11/2` 系统学；修订 `I0`、signature inversion 与 particle–triaxial-rotor 比较，保留 Cs spin crosswalk 多解。
+- [[bisoi-2014-34cl-high-spin]] - `34Cl` INGA 高自旋纲图至 10.6 MeV；RDCO/IPDCO/δ、DSAM `B(E2)` 与 sd–pf 壳模型/双能级混合边界。
+- [[kramp-1987-160-two-photon-decay]] - `16O` `0+→0+` 双光子衰变；`(6.6±0.5)×10^-4` 分支、`2E1/2M1` 干涉、Crystal-Ball 背景控制与矩阵元双解。
+- [[henderson-2014-98mo-two-photon-upper-limit]] - `98Mo` `0+2→0+1` 双光子分支 `95% CL <1×10^-4`；DSSD/约束方法、效率与形状共存解释边界。
+- [[schlitt-1994-sectored-compton-polarimeter]] - 四分区单晶 Ge/NRF 偏振仪；`Q≈20% @0.5 MeV`、`≈9.5% @4.4 MeV`、效率/FOM 与 `162Dy` parity sign。
+- [[summary-bases-spin-parity-assignments-1970]] - 1970 Nuclear Data Sheets spin/parity strong/weak evidence proposition sheet；与后续编译版本分开审计。
+- [[vaillancourt-taras-1974-three-multipole-formulas]] - 三多极混合 `γ` 角分布/线偏振公式；Rose–Brink phase、Eq.32 angular→polarization recipe 与 `E1/M2/E3` 两个 δ 边界。
+- [[droste-1996-pdco-formalism]] - PDCO 理论源；统一 DCO/PDCO/PPCO、statistical tensors、geometry/deorientation 与 Gaussian alignment 边界。
+- [[afanasjev-1999-termination-rotational-bands]] - 124页 Physics Reports 高自旋 band termination 综述；CNS、configuration tracking、alignment、`Q_t/B(E2)` 与跨质量区边界。
+- [[ewan-1969-single-geli-polarimeter]] - 单平面 Ge(Li) 偏振仪；0.8–4.4 MeV `Q` 标定与 `102Ru` E2/混合跃迁 parity/multipole 应用。
+- [[davidson-1965-rotations-vibrations-deformed-nuclei]] - 54页 RMP 集体模型综述；形变表面振动、转动、奇核粒子-芯耦合与电磁/衰变观测边界。
+- [[hara-sun-1995-projected-shell-model-high-spin]] - PSM 角动量投影、配置混合、band crossing/signature 和高自旋 spectroscopy 的历史综述；A≈130 早期 shape inference 保留 axial-code 边界。
+- [[taras-1971-phase-defined-polarization-formulas]] - Rose-Brink phase-defined matrix elements、统计张量、角分布/线偏振公式与 mixing-ratio 符号一致性；保留多解和 convention 边界。
+- [[butler-1973-three-geli-compton-polarimeter]] - 三 Ge(Li) Compton polarimeter 的 `P/A/Q`、`cosθ`/511-keV 背景控制、Q(E) 标定与 `33S` 自旋歧义示范。
+- [[logan-1974-generalized-polarimeter-merit]] - 含背景的 gamma polarimeter generalized merit；分开 `P/Q/ε`、peak-to-background 和统计精度。
+- [[taras-1970-particle-gamma-angular-correlations]] - `s=1/2` particle-γ angular-correlation curves、Method II、δ 多解和 finite particle-counter correction `T_k(J)`。
+- [[bargholtz-1987-high-spin-gamma-gamma-directional-correlations]] - 高自旋 γγ directional-correlation 的渐近简化、`A2/A4` coefficient reduction、triple-correlation extension 与 spin≈20 验证边界。
+- [[stephens-1975-coriolis-rotation-alignment]] - Coriolis coupling、rotation alignment、band crossing、signature effects 与 backbending 的历史综述，保留模型归因边界。
+- [[konigshofen-2001-mixing-ratios-130ba]] - `130Ba` 三角度 γγ 角关联确定 18 个 mixing ratios；M1 修正与 Rose–Brink convention/多解边界。
+- [[frauendorf-2018-beyond-unified-model]] - 80页高自旋理论综述；统一记录 rotating mean field、TAC、wobbling、chirality、magnetic rotation、termination 与 tidal-wave 的边界。
+- [[hubel-2005-magnetic-rotation-review]] - 69页磁转动综述；整合 Pb/轻质量区 M1/E2、寿命、g 因子、TAC、shears 与 antimagnetic-rotation 证据边界。
+- [[tidal-wave]] - 弱形变 yrast 潮汐波的转动框架、`B(E2)/J` 与相干性边界。
+- [[ionescu-bujor-1998-static-moments-129-131ce]] - `129,131Ce` TDPAD 静态电磁矩、`J=9−` isomer assignments 和 PTR 形状演化；`ε2/γ/ε4` 保留模型边界。
 - [[alwaleedi-2013-band-structures-131ce]] - `131Ce` Bands 1–7 的 Gammasphere 纲图、crossing/alignment、组态图与带 `δ=0` 假设的 `B(M1)/B(E2)` 基线。
 - [[singh-2016-lifetime-131ce-133pr]] - `131Ce/133Pr` yrast 带寿命、`Q_t` 与 γ-soft/TRS 解释；2016 当前值与 2004 依赖行分层。
 - [[li-2004-lifetimes-131ce]] - `131Ce` 正负宇称序列的早期 DSAM 寿命与 `Q_t` 原始谱系。
@@ -168,6 +246,34 @@ updated: 2026-09-13
 - [[chiral-vibration]] / [[static-chirality]] - 左右手软振动、有限隧穿与较稳定 aplanar regime 的动力学边界。
 - [[triaxial-shape-coexistence]] - 多个三轴形变/组态候选与实验带对应的模型—实验联合解释。
 - [[octupole-correlation]] / [[octupole-softness]] / [[octupole-deformation]] - 八极关联、软势能面与稳定八极形变的分层边界。
+- [[two-photon-nuclear-decay]] - 核双光子衰变与普通级联、Compton/PAF 假符合的证据边界。
+- [[drip-line-radioactivity]] - 滴线阈值、屏障、β延迟粒子、2p/cluster 衰变与连续统边界。
+- [[nuclear-astrophysics-structure]] - 质量、阈值、壳层/聚团、形变、level density 与反应网络输入边界。
+- [[shell-effects-and-deformation]] - 壳修正、形状依赖 shell gaps、高自旋与 intrinsic-to-laboratory 边界。
+- [[coulomb-excitation]] - 放射性束库仑激发、GOSIA 矩阵元反演与形变解释边界。
+- [[gaffney-2013-pear-shaped-rn-ra]] - `220Rn/224Ra` MINIBALL+GOSIA E1/E2/E3 矩阵元与八极关联比较。
+- [[lister-butterworth-2013-pear-shaped-nuclei]] - Gaffney `220Rn/224Ra` 结果的 Nature News & Views 二级解读；补充 EDM/Schiff context，不计独立实验。
+- [[freirefernandez-2024-isolated-two-photon-72ge]] - 裸 `72Ge32+` S+IMS/Schottky 直接测量 `0+→0+` 双光子衰变；`23.9(6) ms` 总分支寿命与极化率分解边界。
+- [[greiner-1966-magnetic-properties-even-nuclei]] - 历史集体模型：proton/neutron deformation difference、gR tensor 与 M1/E2 mixing 的联系。
+- [[butler-nazarewicz-1996-intrinsic-reflection-asymmetry]] - 73页 RMP 八极/反射不对称证据地图；分离 E1/E3、静态形变、softness、振动与 parity restoration。
+- [[liang-2016-pseudospin-symmetry-review]] - Dirac/SUSY pseudospin symmetry、deformed shell evolution、alignment 与 symmetry-breaking 边界。
+- [[storage-ring-mass-spectrometry]] - 存储环等时质量与非破坏 Schottky 异构态寿命方法。
+- [[alder-1956-coulomb-excitation-review]] - 111页 Coulomb excitation 经典/量子理论、实验条件、矩阵元反演与转动/振动应用基础。
+- [[haxel-jensen-suess-1949-magic-numbers]] - 历史 spin-orbit shell model 的 magic-number 论证；明确扫描页边界与现代 shell-evolution 限制。
+- [[reed-2016-triaxiality-rhenium]] - `187,189,191Re` signature splitting、M1/E2、γ-vibrational energies 与 PTR/PES/TRS triaxiality/softness 边界。
+- [[hamilton-1968-angular-correlations-192pt]] - `192Pt` Ge+NaI complex γγ cascades、summing polarimeter 与 E2/M1 mixing ratios。
+- [[samanta-2019-single-particle-configurations-61ni]] - 现代 clover `61Ni` 纲图、RADO/RDCO/偏振与 `fpg+g9/2` 壳模型配置。
+- [[nolan-sharpey-schafer-1979-lifetime-measurements]] - 88页核态寿命方法综述；DSAM/RDM、stopping/feeding、timing 与间接宽度反演边界。
+- [[walker-dracoulis-2001-exotic-isomers]] - 变形核 K-trap/spin-trap、`178Hf` 极端异构态与轴对称/K 混合边界。
+- [[frauendorf-2015-low-energy-quadrupole-mode]] - 低能四极模式、Bohr/ATDMF/GCM/IBM、tidal wave/TPSM 与 γ-softness/绝热性边界。
+- [[gore-2005-gamma-band-staggering]] - `104–116` Mo/Ru/Pd γ-band odd-even staggering 的快速反转与 γ-soft/rigid 判据边界。
+- [[heyde-wood-2011-shape-coexistence-review]] - 55页 RMP 形状共存理论、E0/E2/半径证据与 symmetry-restoration/configuration-mixing 边界。
+- [[moller-2006-global-axial-asymmetry]] - FRLDM 全球地面态轴不对称/三轴 PES、γ-band companion 与 mass-residual 边界。
+- [[meng-2009-nuclear-chirality-review]] - 中文核手征综述；联合 fingerprint、TAC/TPRM/RMF 边界与寿命缺口。
+- [[suzuki-kimura-2021-n28-triaxiality]] - AMD/Gogny-D1S+GCM `N=28` shell-gap erosion、triaxial projected shapes 与 interband-E2 predictions。
+- [[macchiavelli-2018-erratum-spectroscopic-factors-be]] - `11,12Be` Nilsson spectroscopic-factor erratum；记录修正公式与原文缺口，不并入高自旋主线。
+- [[gade-2025-62cr-shape-coexistence]] - FRIB/GRETINA `62Cr` excited `0+` shape-coexistence evidence, knockout momentum and LNPS/DNO-SM boundaries。
+- [[mccutchan-2007-gamma-band-staggering]] - `S(J)/S(4)` γ-band staggering limits across vibrator/γ-soft/axial/triaxial structures。
 - [[reflection-symmetry-breaking]] / [[chirality-parity-quartet-band]] - 内禀反射对称性与未观测 quartet future proposal。
 - [[pseudospin-chiral-quartet-bands]] - 同宇称四带中 pseudospin 与 chiral splittings 共同作用；与 chirality-parity quartet 明确区分。
 - [[direct-feeding]] - 与 side feeding 区分的离散 gamma feeding component；在 Ionescu 1981 的 feeding-aware population model 中是关键项。
@@ -238,6 +344,7 @@ updated: 2026-09-13
 - [[random-phase-approximation]] / [[triaxial-projected-shell-model]] - wobbling 的微观描述。
 - [[cranked-nilsson-strutinsky-model]] / [[cranked-shell-model]] - 高自旋组态能量、Routhian 与 signature 响应。
 - [[covariant-density-functional-theory]] - constrained CDFT 与 TAC-CDFT 的自洽形变入口。
+- [[li-2024-144ba-octupole-cdf-3d-lattice]] - `144Ba` PC-PK1 3D-lattice cranking CDFT；`β30≈0.128` 至 `I≈24ℏ` 的模型结果与 pairing/parity-projection 边界。
 
 ## Observables
 
