@@ -2,7 +2,7 @@
 type: research-checkpoint
 run_id: high-spin-20260920
 updated: 2026-09-20
-status: active-ingest
+status: complete
 ---
 
 # 高自旋文献全量学习 checkpoint

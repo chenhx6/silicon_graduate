@@ -2,7 +2,7 @@
   "schema_version": 1,
   "plan": "docs/plans/2026-09-20-high-spin-127-ingest-and-identity-audit.md",
   "run_id": "high-spin-20260920",
-  "status": "active-ingest",
+  "status": "complete",
   "started_by_user_instruction": "请硅基研究生开始学习",
   "snapshot_sha256": "56bf57606ef23cb34b2676e9737e455e6147aaea058761fc3b623e9eb75dce37",
   "input_counts": {
@@ -4767,5 +4767,6 @@
       "next_action": "Finalize batch audit"
     }
   ],
-  "updated": "2026-09-21"
+  "updated": "2026-09-21",
+  "completed_at": "2026-09-21"
 }

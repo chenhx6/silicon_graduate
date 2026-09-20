@@ -3,7 +3,7 @@ type: output
 title: "高自旋文献全量学习报告"
 created: 2026-09-20
 updated: 2026-09-21
-status: final-verification
+status: complete
 review_status: unreviewed
 tags: [high-spin, full-text-learning, l3, l4, 2026-09-20]
 ---
