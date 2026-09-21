@@ -42,7 +42,7 @@ Completed in this continuation:
 - Extended the public-input scan to chiral-pair, octupole and ADO/δ units (`EXT-20260921-003`); published plots/tables do not supply event/response/covariance/code packages, so all remain L3-only.
 
 Current branch / local state:
-`main` contains the published commit `Prepare Docker-hosted daily learning runner`; exact remote hash is recorded only in the task receipt. User-provided raw PDFs, reading record, temporary degree directories, protected BibTeX and `PLAN.md` remain untouched and unstaged. Do not stage them.
+`main` contains the published commit `Add Windows trigger adapters for Docker learning runner`; exact remote hash is recorded only in the task receipt. User-provided raw PDFs, reading record, temporary degree directories, protected BibTeX and `PLAN.md` remain untouched and unstaged. Do not stage them.
 
 Verification completed:
 

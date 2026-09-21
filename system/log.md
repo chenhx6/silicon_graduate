@@ -20,6 +20,10 @@ updated: 2026-07-15
 
 - Added optional PowerShell adapters for the confirmed `wiki-dev` container. The host adapter only checks container/mount health and calls the Docker-internal Python runner; the installer registers the 22:00 task without overwriting an existing task. No host task or Docker setting was changed from inside the container.
 
+## [2026-09-22] git | Windows trigger adapters published
+
+- Published `Add Windows trigger adapters for Docker learning runner` to Gitee by exact non-force `HEAD:main`. The core runner remains inside `wiki-dev`; only the optional host trigger adapters were added. No Windows task was registered from the container.
+
 ## [2026-09-22] git | Docker-hosted runner publication verified
 
 - Published `Prepare Docker-hosted daily learning runner` to Gitee by exact non-force `HEAD:main`. The remote ref matches the local commit; only inherited raw/temporary user paths remain dirty and unstaged. Host/project cron is still not enabled by Codex.
