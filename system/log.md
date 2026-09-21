@@ -24,6 +24,10 @@ updated: 2026-07-15
 
 - Published `Add Windows trigger adapters for Docker learning runner` to Gitee by exact non-force `HEAD:main`. The core runner remains inside `wiki-dev`; only the optional host trigger adapters were added. No Windows task was registered from the container.
 
+## [2026-09-22] reliability | Docker lifecycle and permission failure policy
+
+- Defined bounded host-wrapper retries for container startup/daemon/`docker exec` races. Persistent container-internal preflight or science failures remain visible as failed/safe-suspended receipts and never advance the learning day. Container survival across Windows power cycles does not by itself imply scheduled execution; the host trigger remains the clock source.
+
 ## [2026-09-22] git | Docker-hosted runner publication verified
 
 - Published `Prepare Docker-hosted daily learning runner` to Gitee by exact non-force `HEAD:main`. The remote ref matches the local commit; only inherited raw/temporary user paths remain dirty and unstaged. Host/project cron is still not enabled by Codex.

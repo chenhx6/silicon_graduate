@@ -16,6 +16,7 @@ Completed:
 - Added `system/prompts/daily-learning.md` with the daily evidence, counter-evidence, L0–L4 and write-boundary contract.
 - Added `system/scripts/run_daily_learning.py`, which verifies the Wiki root, uses `/root/.codex` session persistence, takes a non-overlap lock, computes Asia/Shanghai `day_index`, invokes `codex exec --json` with `workspace-write`, records `run.json/events.jsonl/last-message.md/stderr.log`, runs preflight/lint/diff checks, and advances state only after a verified report.
 - Added optional host adapters `system/scripts/run_daily_learning_host.ps1` and `system/scripts/install_wiki_daily_task.ps1`. They contain no science logic: the first only calls `docker exec wiki-dev`, and the second only registers the Windows 22:00 trigger. They have not been executed inside the container and do not modify Docker or the host scheduler automatically.
+- The host adapter now performs at most four bounded retries for Docker/container startup races and transient `docker exec` failures (60/180/600 seconds). A container-internal preflight or scientific verification failure is not retried and cannot advance `day_index`.
 - Added `system/tests/test_daily_learning_runner.py`; the full system suite currently passes 28 tests. Real model execution was not started; `--dry-run` passed and reports day 1 / baseline phase.
 
 External setup still required from the host/project side:
