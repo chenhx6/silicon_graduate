@@ -16,6 +16,10 @@ updated: 2026-07-15
 - Added the Wiki-local daily-learning prompt, runner and six focused runner tests. The runner's real `--dry-run` passed; full system tests passed (28 tests).
 - The runner invokes `codex exec` inside the existing container and records durable receipts; it does not configure Docker or a host/project scheduler. Host scheduling, container lifecycle and `/root/.codex` volume persistence remain explicit external setup items.
 
+## [2026-09-22] git | Docker-hosted runner publication verified
+
+- Published `Prepare Docker-hosted daily learning runner` to Gitee by exact non-force `HEAD:main`. The remote ref matches the local commit; only inherited raw/temporary user paths remain dirty and unstaged. Host/project cron is still not enabled by Codex.
+
 ## [2026-07-01] initialize | 建立低能核结构研究 Wiki 的治理层与第一版结构
 
 ## [2026-07-01] audit | 完成初始化结构核查；0 个结构性失败，qmd 未安装，端到端摄入待验证
