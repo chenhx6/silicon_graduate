@@ -6,6 +6,26 @@ updated: 2026-09-21
 
 # 跨会话交接
 
+## 2026-09-22 Docker-hosted Codex CLI learning runner
+
+Current active task:
+Prepare the one-month apprenticeship runner for the user's Docker-hosted Codex CLI. This is a Wiki-local runner only; it does not configure Docker, Docker Desktop, the host scheduler or external cron.
+
+Completed:
+
+- Added `system/prompts/daily-learning.md` with the daily evidence, counter-evidence, L0–L4 and write-boundary contract.
+- Added `system/scripts/run_daily_learning.py`, which verifies the Wiki root, uses `/root/.codex` session persistence, takes a non-overlap lock, computes Asia/Shanghai `day_index`, invokes `codex exec --json` with `workspace-write`, records `run.json/events.jsonl/last-message.md/stderr.log`, runs preflight/lint/diff checks, and advances state only after a verified report.
+- Added `system/tests/test_daily_learning_runner.py`; the full system suite currently passes 28 tests. Real model execution was not started; `--dry-run` passed and reports day 1 / baseline phase.
+
+External setup still required from the host/project side:
+
+1. Keep the current container running or ensure the host scheduler starts it before 22:00 Asia/Shanghai.
+2. Preserve both the `/workspace/wiki` bind mount and `/root/.codex` persistent volume across container recreation.
+3. Run the runner's `--dry-run` from the host via `docker exec`, then schedule the same command daily. The exact container name must be discovered on the host with `docker ps`; it is not visible from this container because the Docker CLI/socket is unavailable here.
+4. Verify the first real `outputs/learning-daily/<date>/run.json` before counting Day 1. No receipt means `not-triggered`.
+
+No host scheduler or Docker configuration has been changed by Codex in this checkpoint.
+
 ## 2026-09-21 residual-resolution continuation
 
 Current active task:

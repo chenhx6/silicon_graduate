@@ -1,0 +1,357 @@
+#!/usr/bin/env python3
+"""Run one unattended daily learning turn inside the Wiki Docker container.
+
+The runner owns execution bookkeeping only. Scientific content decisions remain in
+the Codex prompt and repository workflows. It never stages or commits files.
+"""
+
+from __future__ import annotations
+
+import argparse
+import fcntl
+import json
+import os
+import re
+import shutil
+import subprocess
+import sys
+import tempfile
+from dataclasses import dataclass
+from datetime import datetime
+from pathlib import Path
+from typing import Any
+from zoneinfo import ZoneInfo
+
+
+TIMEZONE = ZoneInfo("Asia/Shanghai")
+PHASES = (
+    (1, 1, "baseline-and-research-contract"),
+    (2, 10, "nuclear-structure-framework"),
+    (11, 14, "gamma-spectroscopy-and-level-schemes"),
+    (15, 17, "angular-correlation-polarization-and-mixing-ratio"),
+    (18, 20, "lifetimes-strengths-and-deformation"),
+    (21, 21, "experimental-evidence-exam"),
+    (22, 23, "wobbling-and-signature-partners"),
+    (24, 25, "chirality-and-shape-coexistence"),
+    (26, 26, "octupole-and-magnetic-rotation"),
+    (27, 27, "cross-mass-region-comparison"),
+    (28, 28, "independent-l3-research"),
+    (29, 29, "research-design-defense"),
+    (30, 30, "final-exam-and-prospectus"),
+)
+
+
+@dataclass(frozen=True)
+class Paths:
+    root: Path
+    daily_root: Path
+    state_file: Path
+    prompt_file: Path
+    lock_file: Path
+
+
+def phase_for_day(day_index: int) -> str:
+    if not 1 <= day_index <= 30:
+        raise ValueError("day_index must be in 1..30")
+    for first, last, phase in PHASES:
+        if first <= day_index <= last:
+            return phase
+    raise AssertionError("phase table does not cover day_index")
+
+
+def validate_root(root: Path) -> None:
+    required = (root / "README.md", root / "knowledge", root / ".git")
+    missing = [str(path) for path in required if not path.exists()]
+    if missing:
+        raise RuntimeError("Wiki root is incomplete: " + ", ".join(missing))
+
+
+def get_paths(root: Path) -> Paths:
+    return Paths(
+        root=root,
+        daily_root=root / "outputs" / "learning-daily",
+        state_file=root / "outputs" / "learning-milestones" / "2026-09-one-month-state.json",
+        prompt_file=root / "system" / "prompts" / "daily-learning.md",
+        lock_file=Path("/tmp/wiki-one-month-daily-learning.lock"),
+    )
+
+
+def local_date() -> str:
+    return datetime.now(TIMEZONE).date().isoformat()
+
+
+def read_state(path: Path) -> dict[str, Any]:
+    if not path.exists():
+        return {
+            "schema_version": 1,
+            "cycle": "2026-09-one-month",
+            "next_day_index": 1,
+            "last_success": None,
+            "last_run_id": None,
+            "status": "not-started",
+        }
+    try:
+        value = json.loads(path.read_text(encoding="utf-8"))
+    except (OSError, json.JSONDecodeError) as exc:
+        raise RuntimeError(f"cannot read state file {path}: {exc}") from exc
+    if not isinstance(value, dict):
+        raise RuntimeError(f"state file must contain an object: {path}")
+    return value
+
+
+def write_json_atomic(path: Path, value: dict[str, Any]) -> None:
+    path.parent.mkdir(parents=True, exist_ok=True)
+    fd, tmp_name = tempfile.mkstemp(prefix=f".{path.name}.", dir=path.parent)
+    try:
+        with os.fdopen(fd, "w", encoding="utf-8") as handle:
+            json.dump(value, handle, ensure_ascii=False, indent=2)
+            handle.write("\n")
+            handle.flush()
+            os.fsync(handle.fileno())
+        os.replace(tmp_name, path)
+    finally:
+        try:
+            os.unlink(tmp_name)
+        except FileNotFoundError:
+            pass
+
+
+def next_run_number(daily_root: Path, run_date: str) -> int:
+    pattern = re.compile(rf"^{re.escape(run_date)}-run-(\d+)$")
+    numbers = []
+    for child in daily_root.glob(f"{run_date}-run-*"):
+        match = pattern.match(child.name)
+        if match:
+            numbers.append(int(match.group(1)))
+    return max(numbers, default=0) + 1
+
+
+def extract_session_id(lines: list[str]) -> str | None:
+    for line in lines:
+        try:
+            value = json.loads(line)
+        except json.JSONDecodeError:
+            continue
+        if not isinstance(value, dict):
+            continue
+        for key in ("thread_id", "threadId", "session_id", "sessionId"):
+            candidate = value.get(key)
+            if isinstance(candidate, str) and candidate:
+                return candidate
+        nested = value.get("thread")
+        if isinstance(nested, dict):
+            candidate = nested.get("id")
+            if isinstance(candidate, str) and candidate:
+                return candidate
+    return None
+
+
+def build_command(root: Path, model: str, last_message: Path, enable_search: bool) -> list[str]:
+    command = [
+        "codex",
+        "-C",
+        str(root),
+        "-m",
+        model,
+        "-s",
+        "workspace-write",
+        "-a",
+        "never",
+    ]
+    if enable_search:
+        command.append("--search")
+    command += ["exec", "--json", "-o", str(last_message), "-"]
+    return command
+
+
+def run_preflight(root: Path) -> dict[str, Any]:
+    result = subprocess.run(
+        [sys.executable, "system/scripts/wiki_automation_preflight.py", "--root", str(root)],
+        cwd=root,
+        text=True,
+        capture_output=True,
+        check=False,
+    )
+    return {
+        "exit": result.returncode,
+        "stdout_tail": result.stdout[-3000:],
+        "stderr_tail": result.stderr[-1000:],
+    }
+
+
+def render_prompt(paths: Paths, run_id: str, run_date: str, day_index: int) -> str:
+    phase = phase_for_day(day_index)
+    template = paths.prompt_file.read_text(encoding="utf-8")
+    substitutions = {
+        "{{RUN_ID}}": run_id,
+        "{{RUN_DATE}}": run_date,
+        "{{DAY_INDEX}}": str(day_index),
+        "{{PHASE}}": phase,
+        "{{OUTPUT_DIR}}": str(paths.daily_root / f"{run_date}-run-{run_id.rsplit('-', 1)[-1]}"),
+        "{{STATE_FILE}}": str(paths.state_file),
+    }
+    for old, new in substitutions.items():
+        template = template.replace(old, new)
+    return template
+
+
+def run_checks(root: Path, report_path: Path) -> dict[str, Any]:
+    preflight = run_preflight(root)
+    lint = subprocess.run(
+        [sys.executable, "system/scripts/wiki_lint.py", "--fail-on", "error", "--no-git"],
+        cwd=root,
+        text=True,
+        capture_output=True,
+        check=False,
+    )
+    diff = subprocess.run(
+        ["git", "diff", "--check"], cwd=root, text=True, capture_output=True, check=False
+    )
+    return {
+        "preflight": preflight,
+        "report_exists": report_path.is_file(),
+        "lint_exit": lint.returncode,
+        "lint_tail": lint.stdout[-2000:] if lint.stdout else lint.stderr[-2000:],
+        "git_diff_check_exit": diff.returncode,
+        "git_diff_check_tail": diff.stdout[-1000:] + diff.stderr[-1000:],
+    }
+
+
+def dry_run(paths: Paths, model: str, enable_search: bool) -> dict[str, Any]:
+    validate_root(paths.root)
+    if shutil.which("codex") is None:
+        raise RuntimeError("codex executable was not found in PATH")
+    if not paths.prompt_file.is_file():
+        raise RuntimeError(f"prompt file is missing: {paths.prompt_file}")
+    state = read_state(paths.state_file)
+    day_index = int(state.get("next_day_index", 1))
+    run_date = local_date()
+    run_id = f"dry-run-{run_date}-day-{day_index:02d}"
+    return {
+        "status": "dry-run-ok",
+        "root": str(paths.root),
+        "codex": shutil.which("codex"),
+        "day_index": day_index,
+        "phase": phase_for_day(day_index),
+        "command": build_command(paths.root, model, paths.daily_root / "last-message.md", enable_search),
+        "state_file": str(paths.state_file),
+        "run_id": run_id,
+    }
+
+
+def main() -> int:
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--root", type=Path, default=Path.cwd())
+    parser.add_argument("--day-index", default="auto")
+    parser.add_argument("--mode", choices=["daily-learning"], default="daily-learning")
+    parser.add_argument("--model", default="gpt-5.6-sol")
+    parser.add_argument("--no-search", action="store_true")
+    parser.add_argument("--dry-run", action="store_true")
+    args = parser.parse_args()
+
+    root = args.root.resolve()
+    paths = get_paths(root)
+    try:
+        result = dry_run(paths, args.model, not args.no_search)
+        if args.dry_run:
+            print(json.dumps(result, ensure_ascii=False, indent=2))
+            return 0
+        validate_root(root)
+        state = read_state(paths.state_file)
+        day_index = int(state.get("next_day_index", 1)) if args.day_index == "auto" else int(args.day_index)
+        phase = phase_for_day(day_index)
+        run_date = local_date()
+        run_number = next_run_number(paths.daily_root, run_date)
+        run_id = f"{run_date}-day-{day_index:02d}-{run_number:02d}"
+        run_dir = paths.daily_root / f"{run_date}-run-{run_number:02d}"
+        run_dir.mkdir(parents=True, exist_ok=False)
+        report_path = paths.daily_root / f"{run_date}.md"
+        events_path = run_dir / "events.jsonl"
+        stderr_path = run_dir / "stderr.log"
+        last_message = run_dir / "last-message.md"
+        receipt = {
+            "schema_version": 1,
+            "run_id": run_id,
+            "run_date": run_date,
+            "day_index": day_index,
+            "phase": phase,
+            "status": "running",
+            "started_at": datetime.now(TIMEZONE).isoformat(),
+            "report": str(report_path),
+        }
+        write_json_atomic(run_dir / "run.json", receipt)
+        with paths.lock_file.open("w", encoding="utf-8") as lock_handle:
+            try:
+                fcntl.flock(lock_handle.fileno(), fcntl.LOCK_EX | fcntl.LOCK_NB)
+            except BlockingIOError:
+                receipt.update({"status": "overlap-blocked", "exit_code": 75})
+                write_json_atomic(run_dir / "run.json", receipt)
+                print(json.dumps(receipt, ensure_ascii=False, indent=2))
+                return 75
+            preflight = run_preflight(root)
+            if preflight["exit"] != 0:
+                receipt.update(
+                    {
+                        "status": "safe-suspended-preflight",
+                        "preflight": preflight,
+                        "exit_code": preflight["exit"],
+                        "finished_at": datetime.now(TIMEZONE).isoformat(),
+                    }
+                )
+                write_json_atomic(run_dir / "run.json", receipt)
+                print(json.dumps(receipt, ensure_ascii=False, indent=2))
+                return 3
+            prompt = render_prompt(paths, run_id, run_date, day_index)
+            command = build_command(root, args.model, last_message, not args.no_search)
+            with events_path.open("w", encoding="utf-8") as events, stderr_path.open(
+                "w", encoding="utf-8"
+            ) as stderr:
+                process = subprocess.run(
+                    command,
+                    cwd=root,
+                    input=prompt,
+                    text=True,
+                    stdout=events,
+                    stderr=stderr,
+                    check=False,
+                )
+            lines = events_path.read_text(encoding="utf-8", errors="replace").splitlines()
+            checks = run_checks(root, report_path)
+            success = (
+                process.returncode == 0
+                and checks["preflight"]["exit"] == 0
+                and checks["report_exists"]
+                and checks["lint_exit"] == 0
+                and checks["git_diff_check_exit"] == 0
+            )
+            receipt.update(
+                {
+                    "status": "completed" if success else "failed-verification",
+                    "exit_code": process.returncode,
+                    "session_id": extract_session_id(lines),
+                    "checks": checks,
+                    "finished_at": datetime.now(TIMEZONE).isoformat(),
+                }
+            )
+            if success:
+                state.update(
+                    {
+                        "schema_version": 1,
+                        "cycle": "2026-09-one-month",
+                        "next_day_index": min(day_index + 1, 31),
+                        "last_success": run_date,
+                        "last_run_id": run_id,
+                        "status": "complete" if day_index == 30 else "active",
+                    }
+                )
+                write_json_atomic(paths.state_file, state)
+            write_json_atomic(run_dir / "run.json", receipt)
+            print(json.dumps(receipt, ensure_ascii=False, indent=2))
+            return 0 if success else 1
+    except Exception as exc:
+        print(json.dumps({"status": "runner-error", "error": str(exc)}, ensure_ascii=False), file=sys.stderr)
+        return 2
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())
