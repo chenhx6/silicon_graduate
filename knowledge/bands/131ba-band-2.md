@@ -1,7 +1,7 @@
 ---
 type: band
 title: "131Ba band 2"
-aliases: [131Ba g7/2 band, 131Ba νg7/2[404]7/2+ band]
+aliases: ["131Ba g7/2 band", "131Ba νg7/2[404]7/2+ band"]
 created: 2026-07-01
 updated: 2026-07-01
 status: active
@@ -56,4 +56,3 @@ tags: [a130, n75, signature, strong-coupling]
 ## Evolution Log
 
 - 2026-07-01（1 source）：建立 N=75 强耦合 signature-partner 带。
-

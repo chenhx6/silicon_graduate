@@ -10,7 +10,7 @@ source_type: journal-article-theory-review
 reading_depth: deep-read
 title_original: "Open Problems in Understanding the Nuclear Chirality"
 authors: [Jie Meng, S. Q. Zhang]
-journal: Journal of Physics G: Nuclear and Particle Physics
+journal: "Journal of Physics G: Nuclear and Particle Physics"
 year: 2010
 volume: 37
 pages: 064025

@@ -1,6 +1,6 @@
 ---
 type: source
-title: "Nuclear Data Sheets 1970 - Summary of bases for spin and parity assignments"
+title: "Nuclear Data Sheets 1970 - Summary of bases for spin and parity assignments (1970)"
 aliases: [Summary of Bases 1970]
 created: 2026-09-21
 updated: 2026-09-21

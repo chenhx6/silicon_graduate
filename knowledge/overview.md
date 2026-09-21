@@ -25,6 +25,8 @@ The high-spin corpus has completed source-level reading and is now in full knowl
 
 The current reconciliation is organized around four themes: angular/polarization/mixing-ratio methods; lifetimes/strengths/deformation; chirality/wobbling competition; and octupole/rare electromagnetic decay. External literature may be added when a concrete evidence gap requires it; each external source receives its own identity, hash, locator and independence record.
 
+The whole `knowledge/` directory was audited on 2026-09-21. Structural errors are cleared (`lint errors=0`). Remaining warnings are registered residuals: 150 unverified citation keys, 59 source pages without inbound links outside the index, parser/configuration warnings for complex reactions/elements, and expected local raw-input state. These are metadata or graph-ownership queues; they are not silently converted into scientific conclusions.
+
 ## Current Snapshot: 2026-09-05 Degree Dissertation Batch
 
 The degree-dissertation batch has completed content ingestion: 15 degree dissertations are represented (Ding 2012 already present; Alwaleedi 2013 re-read; 13 new thesis sources) plus one additional 1974 `103Pd` experiment report. The batch adds A≈130 shape/wobbling, `100Sn` independent decay baselines, fast timing, K-mixing, fission-isomer and low-energy reaction method evidence. All new claims remain source-level `unreviewed` with `needs_review: true`; this is not a paper-level admission or human-review event.

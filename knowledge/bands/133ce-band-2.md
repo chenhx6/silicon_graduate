@@ -1,7 +1,7 @@
 ---
 type: band
 title: "133Ce band 2"
-aliases: [133Ce Q1, 133Ce g7/2 band, 133Ce νg7/2[404]7/2+ band]
+aliases: ["133Ce Q1", "133Ce g7/2 band", "133Ce νg7/2[404]7/2+ band"]
 created: 2026-07-01
 updated: 2026-07-01
 status: active
@@ -57,4 +57,3 @@ QTR 的 γ=10° 和 PES 的 γ=-10.5° 使用不同约定与任务；不能由�
 ## Evolution Log
 
 - 2026-07-01（2 related sources）：完成 Q1 与 band 2 的跨论文映射。
-

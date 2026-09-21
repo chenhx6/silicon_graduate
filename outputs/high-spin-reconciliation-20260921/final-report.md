@@ -40,6 +40,8 @@ L4 is `not-started`: no selected question has a complete public event matrix, de
 
 Updated the global index, overview, research questions, A≈130 and chirality projects, polarization project, octupole concepts, two-photon concept, and four new synthesis pages. QMD collection update indexed 531 knowledge files; 2605 vectors are present, no pending vectors remain, and 441 historical orphan chunks are retained as optional cache cleanup.
 
+The whole `knowledge/` directory was then audited: 528 knowledge pages were scanned for frontmatter, required sections, links, source claim tables and orphan status. Three malformed frontmatter pages and one alias collision were fixed. Residual citation-key, orphan-page and reaction-parser warnings are registered with reasons in [global-audit-20260921.md](global-audit-20260921.md).
+
 ## Verification
 
 - Wiki lint: `errors=0`.

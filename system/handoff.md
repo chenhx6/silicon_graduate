@@ -9,6 +9,9 @@ updated: 2026-09-21
 ## 2026-09-21 high-spin full-reconciliation execution
 
 Current active task:
+The whole `knowledge/` directory has now been audited in addition to the high-spin graph: 528 pages scanned, frontmatter/required sections/links/source claim tables checked, three malformed frontmatter pages and one alias collision fixed, and residual citation-key/orphan/parser warnings registered in `global-audit-20260921.md`.
+
+Current high-spin reconciliation state:
 The high-spin full-reconciliation plan is in execution. The original 127-row ledger has 118 valid terminal rows and 9 user-confirmed contamination exclusions; 110 unique SHA-256 hashes and 8 exact duplicate rows remain separate counts. Source identity has been audited, four synthesis pages and four L3 research units have been created, and one external open-access source (`EXT-20260921-001`, `146Ba` direct E3) has been added outside the original denominator.
 
 Current branch / local state:
