@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "run_id": "high-spin-reconciliation-20260921",
-  "status": "l3-units-complete-final-audit-pending",
+  "status": "complete",
   "row_source": "outputs/high-spin-learning-20260920/ledger.json",
   "baseline": {
     "original_rows": 127,
@@ -65,5 +65,5 @@
     "retrieval_policy": "traceable open, institutional or user-supplied full text; record metadata-only blockers",
     "completed_units": ["EXT-20260921-001"]
   },
-  "next_task": "Task 11: final consistency audit, QMD refresh and publication"
+  "next_task": "No required task remains; future work is a new research question or optional QMD orphan cleanup."
 }

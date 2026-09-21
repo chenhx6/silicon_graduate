@@ -3,7 +3,7 @@ type: output
 title: "High-spin full knowledge reconciliation report"
 created: 2026-09-21
 updated: 2026-09-21
-status: final-verification
+status: complete
 review_status: unreviewed
 tags: [high-spin, synthesis, l3, l4, external-research]
 ---
@@ -23,7 +23,7 @@ The source corpus remains 127 ledger rows: 118 valid, 9 user-confirmed exclusion
 
 ## External research
 
-`EXT-20260921-001` was added from the lawful open-access arXiv copy of Bucher et al., PRL 118, 152504 (2017). The six-page paper was read end-to-end, hashed, and linked to the octupole synthesis. It adds direct `146Ba` E3 evidence without changing the original 127-row denominator.
+`EXT-20260921-001` was added from the lawful open-access arXiv copy of Bucher et al., PRL 118, 152504 (2017). The six-page paper was read end-to-end, hashed, and linked to the octupole synthesis. It adds direct `146Ba` E3 evidence without changing the original 127-row denominator. The Walz Table 1 OCR transcription was also corrected after visual PDF inspection.
 
 ## L3/L4 status
 
@@ -38,7 +38,7 @@ L4 is `not-started`: no selected question has a complete public event matrix, de
 
 ## Knowledge-base changes
 
-Updated the global index, overview, research questions, A≈130 and chirality projects, polarization project, octupole concepts, two-photon concept, and four new synthesis pages. QMD collection update indexed 531 knowledge files; vector embedding refresh was started and its pending/orphan state is retained as cache-maintenance metadata.
+Updated the global index, overview, research questions, A≈130 and chirality projects, polarization project, octupole concepts, two-photon concept, and four new synthesis pages. QMD collection update indexed 531 knowledge files; 2605 vectors are present, no pending vectors remain, and 441 historical orphan chunks are retained as optional cache cleanup.
 
 ## Verification
 
