@@ -12,7 +12,7 @@ Current active task:
 The high-spin full-reconciliation plan is in execution. The original 127-row ledger has 118 valid terminal rows and 9 user-confirmed contamination exclusions; 110 unique SHA-256 hashes and 8 exact duplicate rows remain separate counts. Source identity has been audited, four synthesis pages and four L3 research units have been created, and one external open-access source (`EXT-20260921-001`, `146Ba` direct E3) has been added outside the original denominator.
 
 Current branch / local state:
-`main` is one local WIP ahead of the published high-spin ingest receipt while reconciliation changes are being reviewed. Protected `raw/zotero/wiki-inbox.bib`, `PLAN.md` and raw PDFs were not modified. The external 146Ba PDF is local evidence under `raw/papers/gpt/high-spin-20260920/external-146ba/`; it will be included only with its manifest and source page. Agent-generated temporary `.degree-read-*` directories and the read-only `raw/high-spin-reading-record.md` remain outside publication scope.
+Reconciliation commit `3b862f4` (`Reconcile high-spin corpus across knowledge base`) is pushed to `origin/main` by exact non-force refspec. Protected `raw/zotero/wiki-inbox.bib`, `PLAN.md` and raw PDFs were not modified. The external 146Ba PDF remains local evidence under `raw/papers/gpt/high-spin-20260920/external-146ba/`, with its manifest and source page published. Agent-generated temporary `.degree-read-*` directories and the read-only `raw/high-spin-reading-record.md` remain outside publication scope.
 
 Checks completed:
 `python3 system/scripts/wiki_lint.py --fail-on error` → `errors=0`, 269 warnings, 1106 informational review notices; source/ledger/raw-hash mapping passes; `wiki_automation_preflight.py` passes with protected BibTeX baseline matched; `git diff --check` passes. QMD collection update now indexes 531 knowledge files; vector refresh was started and its pending/orphan status is recorded as cache maintenance.
@@ -21,14 +21,13 @@ Scientific closure:
 The original ingest report remains in `outputs/high-spin-learning-20260920/report.md`; the reconciliation report is `outputs/high-spin-reconciliation-20260921/final-report.md`. L3 units are `L3-2G-PATH-001`, `L3-CHIRAL-PAIR-002`, `L3-OCT-E3-E1-003` and `L3-ADO-DELTA-004`. No L4 claim is made: raw event/response/code inputs are missing or author-request-only. The key new external increment is Bucher 2017 `146Ba` direct E3.
 
 Unfinished items:
-1. Complete final source/project consistency review, including the corrected Walz Table 1 transcription and the external 146Ba source.
-2. Run final QMD status, lint, hash and Git checks, then commit and publish the reconciliation batch by the standing exact refspec.
+No required scientific or publication item remains. QMD reports 531 indexed knowledge files and no pending vectors; 441 orphaned historical chunks remain as optional cache cleanup.
 
 P0/P1 self-audit focus:
 No unread valid row or missing locator/kind error remains. P0/P1 scientific boundaries stay explicit in each source; `review_status` remains self-audit/unreviewed, never `human-reviewed`. Final user report should be concise and literature-report style, with counts and the principal evidence conflicts.
 
 Next prompt / continuation phrase:
-`继续高自旋全库 reconciliation：完成最终审计并发布`
+`开始下一项研究问题；高自旋全库 reconciliation 已发布`
 
 Recent user decisions:
 The user authorized unattended continuation and automatic full ingestion without intermediate confirmation; valid documents must be read, self-audited, connected to the knowledge base and used for L3/L4 questions where inputs permit. They requested a concise final literature-reading report only after the batch is actually complete.
