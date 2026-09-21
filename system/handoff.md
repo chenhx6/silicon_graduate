@@ -21,7 +21,7 @@ Completed in this continuation:
 - Extended the public-input scan to chiral-pair, octupole and ADO/δ units (`EXT-20260921-003`); published plots/tables do not supply event/response/covariance/code packages, so all remain L3-only.
 
 Current branch / local state:
-`main` contains local commit `Resolve high-spin audit residuals and L4 readiness` (post-commit reconciliation in progress; exact hash is reported in the task receipt). User-provided raw PDFs, reading record, temporary degree directories, protected BibTeX and `PLAN.md` remain untouched and unstaged. Do not stage them.
+`main` contains the published commit `Resolve high-spin audit residuals and L4 readiness`; exact remote hash is recorded only in the task receipt. User-provided raw PDFs, reading record, temporary degree directories, protected BibTeX and `PLAN.md` remain untouched and unstaged. Do not stage them.
 
 Verification completed:
 
@@ -32,7 +32,7 @@ Verification completed:
 
 Remaining work:
 
-1. Complete the post-commit publication gate for `Resolve high-spin audit residuals and L4 readiness`; update this handoff and `system/log.md` with the actual remote state.
+1. No publication action remains for this residual pass. Future work is limited to the explicit metadata/L4 re-entry conditions above.
 2. Keep 76 citation-key residuals and three underdetermined reactions explicit. Do not generate local keys or pretend those reactions are balanced.
 3. L4 may reopen only if a complete public/authorized data, response, covariance and code package appears; otherwise keep the readiness audits as the stopping record.
 

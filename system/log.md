@@ -1243,3 +1243,7 @@ updated: 2026-07-15
 ## [2026-09-21] git | residual-resolution package committed
 
 - Committed the explicit residual-resolution package as `Resolve high-spin audit residuals and L4 readiness` on `main`. The package contains the parser/tests, Crossref key registry, provenance hub, public-input manifests, readiness audits, reports and handoff/log reconciliation. Protected BibTeX, raw PDFs, local reading records and temporary visual/OCR artifacts remain outside the commit.
+
+## [2026-09-21] git | residual-resolution publication verified
+
+- Exact non-force `HEAD:main` publication succeeded on Gitee. Remote `refs/heads/main` matches the local residual-resolution commit; the protected BibTeX SHA remains unchanged and the only dirty paths are user/local raw and temporary reading inputs outside scope.
