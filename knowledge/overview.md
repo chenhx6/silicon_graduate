@@ -2,10 +2,28 @@
 type: system-overview
 graph-excluded: true
 created: 2026-07-01
-updated: 2026-07-28
+updated: 2026-09-21
 ---
 
 # Knowledge Base Health Dashboard
+
+## Current Snapshot: 2026-09-21 High-spin full reconciliation
+
+The high-spin corpus has completed source-level reading and is now in full knowledge-base reconciliation. The original 127-row ledger contains 118 valid rows, 9 user-confirmed exclusions, 110 unique hashes and 8 exact duplicate rows. This phase updates affected knowledge nodes and creates four cross-source synthesis pages; it does not treat source-page completion as human review or final paper evidence.
+
+| metric | current value | note |
+|---|---:|---|
+| source / nucleus / band / experiment pages | 244 / 59 / 63 / 37 | Global Wiki counts after the high-spin ingest and one external `146Ba` source; high-spin rows remain separately tracked in the batch ledger. |
+| concept / method / model / observable pages | 48 / 21 / 15 / 20 | Includes high-spin method, octupole, two-photon and drip-line additions. |
+| project / synthesis pages | 10 / 11 | Four new high-spin synthesis pages are self-audited and remain unreviewed. |
+| high-spin ledger | 127 rows / 118 valid / 9 excluded | `102` source-created, `8` reused audits, `7` duplicate audits, `1` attached-material audit. |
+| unique high-spin hashes | 110 | Distinct file content, not independent papers or experiments. |
+| source pages unreviewed | 183 | Global lint governance count; no claims were automatically promoted to `human-reviewed`. |
+| claim-level `needs_review: true` | 1103 | Existing and new paper-use review queue; locator/kind gaps are tracked separately. |
+| automated lint | 0 errors / 278 warnings / 1103 info | Warnings include citation-key/orphan/reaction configuration notices. |
+| QMD | 526 documents indexed | Vector refresh state is recorded separately; QMD remains a retrieval aid, not an evidence gate. |
+
+The current reconciliation is organized around four themes: angular/polarization/mixing-ratio methods; lifetimes/strengths/deformation; chirality/wobbling competition; and octupole/rare electromagnetic decay. External literature may be added when a concrete evidence gap requires it; each external source receives its own identity, hash, locator and independence record.
 
 ## Current Snapshot: 2026-09-05 Degree Dissertation Batch
 

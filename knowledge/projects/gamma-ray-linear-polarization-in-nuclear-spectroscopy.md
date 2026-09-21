@@ -14,6 +14,10 @@ tags: [gamma-ray-linear-polarization, compton-polarimetry, detector-methods, tra
 
 # Gamma-Ray Linear Polarization in Nuclear Spectroscopy
 
+## 2026 high-spin corpus reconciliation
+
+The high-spin corpus extends this project with the historical formalism chain from Yamazaki, Hamilton and Suffert through GeLi, CLOVER, Gammasphere, SeGA and AFRODITE applications. The reusable result is a layered calibration rule: physical polarization, count asymmetry, detector sensitivity, efficiency, alignment and mixing-ratio convention must remain separate. The cross-source synthesis is [[high-spin-angular-polarization-mixing-ratio]].
+
 ## Active Summary for Agents
 
 This is an evidence map for nuclear gamma-ray linear polarization, Compton-polarimeter calibration, detector sensitivity, measured azimuthal asymmetry and in-beam relativistic corrections. It connects three source-level methods without treating a detector demonstration, a response simulation or an author interpretation as a universal experimental criterion. The project is not a formal synthesis or a paper draft.

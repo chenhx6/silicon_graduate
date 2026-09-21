@@ -37,6 +37,8 @@ tags: [octupole, reflection-asymmetry, deformation]
 
 [[bucher-2016-144ba-direct-octupole]] adds a direct neutron-rich-Ba benchmark: sub-barrier `144Ba+208Pb` Coulomb excitation with CHICO2/GRETINA gives `B(E3;3−→0+)=48^{+25}_{−34} W.u.`, `Q3=1.73^{+0.45}_{−0.62}×10³ efm³` and inferred `β3=0.17^{+0.04}_{−0.06}`. The E3 matrix element is direct; the static-shape/β3 conversion still carries rotor, higher-multipole and E1-sign assumptions.
 
+[[bucher-2017-146ba-direct-octupole]] extends the direct-E3 layer to `146Ba`: `B(E3;3−→0+)=48^{+21}_{−29} W.u.` despite a strong suppression of the intrinsic E1 moment. This neighboring-isotope result shows that E1 magnitude is not a one-to-one proxy for octupole strength; the occupancy-sensitive microscopic explanation remains model dependent.
+
 [[butler-nazarewicz-1996-intrinsic-reflection-asymmetry]] is the historical review anchor for separating stable octupole minima, octupole softness/vibration, parity restoration and E1/E3 observables; it is not an independent experiment.
 
 当前来源没有把 `74As` 或 `78Br` 建立为 stable octupole-deformed nucleus。
@@ -61,6 +63,7 @@ Liu 2016 的 `78Br` ratios/`delta E` 明显不同于 `224Th`，PES 为 [[octupol
 - [[li-2024-144ba-octupole-cdf-3d-lattice]]
 - [[gaffney-2013-pear-shaped-rn-ra]]
 - [[bucher-2016-144ba-direct-octupole]]
+- [[bucher-2017-146ba-direct-octupole]]
 - [[butler-nazarewicz-1996-intrinsic-reflection-asymmetry]]
 
 ## Evolution Log

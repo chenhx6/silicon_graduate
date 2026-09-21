@@ -56,7 +56,7 @@ PRL 132, 092501 (2024), DOI `10.1103/PhysRevLett.132.092501`; PDF/BibTeX identit
 
 ## Key Evidence and Reasoning Chain
 
-- Similar B1/B2 energies/strengths plus M1 interlinks → chiral-partner interpretation; increasingly E2 B1-B3 links → wobbling interpretation; same-configuration assignment and PRM mapping → coexistence claim. Missing supplemental numbers limit audit.
+- Similar B1/B2 energies/strengths plus M1 interlinks → chiral-partner interpretation; increasingly E2 B1-B3 links → wobbling interpretation; same-configuration assignment and PRM mapping → coexistence claim. The supplied supplement closes the transition-table gap; configuration and PRM dependence remain.
 
 ## Summary
 
@@ -80,7 +80,7 @@ The paper proposes `74Br` bands B1/B2 as chiral partners and B3 as a one-phonon 
 
 ## Nuclear Structure Information
 
-B1/B2/B3 are interconnected ΔI=1 bands assigned πg9/2⊗νg9/2. Lifetimes and relative/absolute strengths provide unusually broad observables, but exact transition tables are incomplete without the supplement.
+B1/B2/B3 are interconnected ΔI=1 bands assigned πg9/2⊗νg9/2. Lifetimes and relative/absolute strengths provide unusually broad observables; the supplied supplement makes the transition table locally auditable.
 
 ## Authors' Interpretation
 
@@ -92,13 +92,13 @@ PRM angular-momentum components reproduce the proposed chiral and wobbling geome
 
 ## Competing Interpretations and Limitations
 
-The same-configuration inference uses linking patterns, similar strengths and PRM. Chiral/wobbling fingerprints are not individually sufficient; the missing supplement prevents a full numeric audit. Future thin-target and `g`-factor measurements are explicitly proposed.
+The same-configuration inference uses linking patterns, similar strengths and PRM. Chiral/wobbling fingerprints are not individually sufficient; configuration assignment and PRM dependence remain. Future thin-target and `g`-factor measurements are explicitly proposed.
 
 ## Analytical Reconstruction
 
 | ID | 审核项 | Agent 判断 | Evidence / locator | 审核状态 |
 |---|---|---|---|---|
-| GU24-AR-1 | Core reconstruction | The three-band comparison, lifetimes and strengths are unusually rich, but same-configuration coexistence still depends on the missing supplement and PRM mapping. | Key Results and Competing Interpretations above | unreviewed |
+| GU24-AR-1 | Core reconstruction | The three-band comparison, lifetimes and strengths are unusually rich; the supplement closes the table gap, while same-configuration coexistence still depends on configuration and PRM mapping. | Key Results and Competing Interpretations above | unreviewed |
 | GU24-AR-2 | Assumptions and dependencies | The adopted band identities, mixing-ratio branches, configuration assignments, and model inputs are valid within the stated measured range. | Method/results/model sections cited above | unreviewed |
 | GU24-AR-3 | Transfer conditions | Transfer only the measured observables and their explicit conditions; do not transfer the author interpretation without equivalent link and configuration evidence. | Source scope and claim locators above | unreviewed |
 | GU24-AR-4 | Failure conditions | Alternative branch, band identity, configuration, or model dependence can weaken the structural label even when the measured transitions remain valid. | Competing Interpretations and Limitations above | unreviewed |
@@ -109,7 +109,7 @@ The same-configuration inference uses linking patterns, similar strengths and PR
 
 - Existing Wiki understanding: The Wiki already contained the broader wobbling topic and related candidate map, but not this source in a complete source-local evidence and review structure.
 - Effect of this source: supports
-- Reason: The three-band comparison, lifetimes and strengths are unusually rich, but same-configuration coexistence still depends on the missing supplement and PRM mapping.
+- Reason: The three-band comparison, lifetimes and strengths are unusually rich; the supplement closes the table gap, while same-configuration coexistence still depends on configuration and PRM mapping.
 - Persistence decision: project update / synthesis update
 - Review state: page-level `human-reviewed` within the main-paper-only scope; Key Results claims remain `needs_review: true` for future claim-specific paper use.
 
@@ -123,7 +123,7 @@ The same-configuration inference uses linking patterns, similar strengths and PR
 
 ## Human Review Triage
 
-Review disposition: the user completed a rough page-level review on 2026-07-25 and accepted the current main-paper evidence boundary without correction. The P0/P1 items below are retained as future strict paper-use verification prompts, not unresolved ingest blockers; the missing Supplemental Material remains an explicit coverage limitation.
+Review disposition: the user completed a rough page-level review on 2026-07-25 and accepted the current main-paper evidence boundary without correction. The P0/P1 items remain future strict paper-use verification prompts; the supplied supplement is audited, while raw matrices, detector response and PRM inputs remain unavailable.
 
 ### P0
 
@@ -140,12 +140,12 @@ Review disposition: the user completed a rough page-level review on 2026-07-25 a
 
 ## Human Review Record
 
-- 2026-07-25: the user completed a rough review of this source page and accepted its current main-paper claims, attribution boundaries, locators and explicit missing-supplement limitation without requesting corrections.
+- 2026-07-25: the user completed a rough review of the main-paper source page and accepted its claims and attribution boundaries.
 
 ## Supplementary-material audit (2026-09-20)
 
 - The supplied three-page supplement was read end-to-end. Table I provides transition energies/intensities, `R_ADO`, polarization `P`, mixing ratios `δ`, and `B(M1)/B(E2)`-related quantities for Bands 1–3; the spectra/gate panels and upper-limit E2 rows were checked against the surrounding text.
-- This is attached evidence for the same PRL experiment, not a second experiment or independent source. It closes the previous “supplement absent” coverage note but preserves `needs_review` for claims whose interpretation requires the parent PRL's configuration assignment and PRM.
+- This is attached evidence for the same PRL experiment, not a second experiment or independent source. It closes the transition-table coverage gap but preserves `needs_review` for claims whose interpretation requires the parent PRL's configuration assignment and PRM.
 
 ## Alternate-version audit (HS-126, 2026-09-21)
 

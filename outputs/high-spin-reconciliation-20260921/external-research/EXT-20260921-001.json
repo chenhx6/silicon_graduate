@@ -1,0 +1,28 @@
+{
+  "id": "EXT-20260921-001",
+  "question_id": "EXT-Q-OCT-001",
+  "title": "Direct Evidence for Octupole Deformation in 146Ba and the Origin of Large E1 Moment Variations in Reflection-Asymmetric Nuclei",
+  "authors": "B. Bucher et al.",
+  "published_version": "Physical Review Letters 118, 152504 (2017)",
+  "doi": "10.1103/PhysRevLett.118.152504",
+  "discovery_url": "https://arxiv.org/abs/1703.05268",
+  "fulltext_url": "https://arxiv.org/pdf/1703.05268",
+  "retrieval": {
+    "route": "lawful_open_access_direct_url",
+    "status": "open_access_downloaded",
+    "si_requested": false,
+    "retrieved_at": "2026-09-21",
+    "bytes": 1423088,
+    "sha256": "c49cb44350cd24f25d172efe405cd9e78360692eb4087bb3eef1801534264beb",
+    "raw_file": "raw/papers/gpt/high-spin-20260920/external-146ba/PDFs/Direct_Evidence_for_Octupole_Deformation_in_146Ba_and_the_Origin_of_Large_E1_Moment_Variations_in_Reflection-Asymmetric_Nuclei.pdf",
+    "downloader_manifest": "raw/papers/gpt/high-spin-20260920/external-146ba/manifest.json"
+  },
+  "scope": "Follow-up to the 144Ba direct-E3 evidence ladder; not part of the original 127 rows.",
+  "read_scope": "Six-page arXiv/published-version manuscript read end-to-end; experiment, GOSIA, Table I, E1/E3 discussion, SCCM/GCM interpretation and alternatives checked.",
+  "increment": "Adds an independent neighboring-isotope direct E3 result: B(E3;3−→0+)=48(+21/−29) W.u., approximately equal to 144Ba, while the E1 dipole moment is strongly suppressed by neutron-orbital occupancy.",
+  "independence": "Independent 146Ba Coulomb-excitation measurement, same broad CHICO2/GRETINA program as 144Ba; treat as related experimental lineage rather than an exact duplicate.",
+  "limitations": ["Low radioactive-beam statistics", "GOSIA rigid-rotor coupling released only for uncertainty evaluation", "E1 matrix elements have weak sensitivity", "SCCM assumes axial quadrupole/octupole collective coordinates", "arXiv copy used for local audit"],
+  "decision": "include-in-octupole-synthesis",
+  "l3_unit": "EXT-Q-OCT-001",
+  "l4_status": "not-started-input-not-required-for-literature-synthesis"
+}

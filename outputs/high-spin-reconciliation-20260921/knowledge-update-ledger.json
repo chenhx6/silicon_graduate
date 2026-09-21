@@ -1,0 +1,69 @@
+{
+  "schema_version": 1,
+  "run_id": "high-spin-reconciliation-20260921",
+  "status": "l3-units-complete-final-audit-pending",
+  "row_source": "outputs/high-spin-learning-20260920/ledger.json",
+  "baseline": {
+    "original_rows": 127,
+    "valid_rows": 118,
+    "excluded_rows": 9,
+    "unique_sha256": 110,
+    "source_slugs": 106
+  },
+  "known_identity_correction": {
+    "item_id": "HS-095",
+    "old_source_slug": "kramp-1987-16o-two-photon-decay",
+    "new_source_slug": "kramp-1987-160-two-photon-decay",
+    "reason": "Match the existing source filename and index link; no scientific claim changed."
+  },
+  "claim_corrections": [
+    {
+      "source": "walz-2015-competitive-double-gamma-137ba",
+      "claim": "Table 1 polarizability coefficients",
+      "correction": "Visual PDF p.408 audit gives experiment +33.9(2.8), +10.1(4.2) and QPM +42.60, +9.50; the earlier OCR-derived leading-1 transcription was removed.",
+      "impact": "revises source transcription; no change to branch existence or total branching ratio"
+    }
+  ],
+  "priority_nodes": {
+    "P0": [
+      "knowledge/methods/angular-distribution.md",
+      "knowledge/methods/angular-correlation.md",
+      "knowledge/methods/compton-polarimetry.md",
+      "knowledge/methods/linear-polarization-asymmetry.md",
+      "knowledge/observables/multipole-mixing-ratio.md",
+      "knowledge/concepts/two-photon-nuclear-decay.md",
+      "knowledge/projects/nuclear-chirality-and-multiple-chiral-doublet-bands.md"
+    ],
+    "P1": [
+      "knowledge/methods/doppler-shift-attenuation-method.md",
+      "knowledge/concepts/octupole-deformation.md",
+      "knowledge/concepts/octupole-correlation.md",
+      "knowledge/concepts/drip-line-radioactivity.md",
+      "knowledge/projects/a130-high-spin-collective-modes-evidence-map.md",
+      "knowledge/overview.md",
+      "knowledge/questions.md"
+    ]
+  },
+  "topic_units": [
+    {"id":"TOPIC-ANG-POL-001","scope":"angular distribution, angular correlation, polarization and mixing ratio","status":"synthesis-created-self-audited"},
+    {"id":"TOPIC-LIFE-SHAPE-002","scope":"lifetimes, transition strengths, deformation and high-spin mechanisms","status":"synthesis-created-self-audited"},
+    {"id":"TOPIC-CHIRAL-WOB-003","scope":"chirality, wobbling, gamma softness and shape coexistence","status":"synthesis-created-self-audited"},
+    {"id":"TOPIC-OCT-2G-004","scope":"octupole, double-gamma and drip-line decay","status":"synthesis-created-self-audited"}
+  ],
+  "l3_units": [
+    {"id":"L3-2G-PATH-001","status":"completed-with-open-data-boundary"},
+    {"id":"L3-CHIRAL-PAIR-002","status":"completed-with-pair-specific-gaps"},
+    {"id":"L3-OCT-E3-E1-003","status":"completed-with-model-gap"},
+    {"id":"L3-ADO-DELTA-004","status":"completed-method-boundary"}
+  ],
+  "l4": {"status":"not-started","reason":"No complete public event, response, covariance and code package identified for the selected units."},
+  "external_research": {
+    "enabled": true,
+    "trigger": "specific unresolved claim or discriminating observable only",
+    "source_ids": "EXT-YYYYMMDD-NNN",
+    "denominator_policy": "external sources are separate from the original 127 rows",
+    "retrieval_policy": "traceable open, institutional or user-supplied full text; record metadata-only blockers",
+    "completed_units": ["EXT-20260921-001"]
+  },
+  "next_task": "Task 11: final consistency audit, QMD refresh and publication"
+}

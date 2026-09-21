@@ -7,6 +7,10 @@ status: complete
 
 # 高自旋文献全量学习 checkpoint
 
+## 2026-09-21 full-reconciliation checkpoint
+
+The corpus-wide reconciliation has produced `outputs/high-spin-reconciliation-20260921/impact-map.md`, four synthesis pages, four L3 research units and external manifest `EXT-20260921-001` for the lawful open-access `146Ba` direct-E3 follow-up. HS-095 source-slug mapping was corrected; the Walz Table 1 transcription was visually corrected to experiment `+33.9(2.8)`, `+10.1(4.2)` and QPM `+42.60`, `+9.50`. Final audit and publication remain pending for this reconciliation WIP.
+
 ## Current state
 
 - User start instruction: `请硅基研究生开始学习`

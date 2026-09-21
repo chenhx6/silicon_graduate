@@ -41,6 +41,8 @@ E1 links、`B(E1)/B(E2)`、[[energy-displacement]]、相反宇称轨道耦合与
 
 [[bucher-2016-144ba-direct-octupole]] supplies a stronger direct E3 comparator in neutron-rich Ba (`B(E3)=48^{+25}_{−34} W.u.`). It anchors the observable layer without making `E1` links or relative `B(E1)/B(E2)` ratios in `74As/78Br` equivalent to a measured static `β3`.
 
+[[bucher-2017-146ba-direct-octupole]] shows a comparable direct E3 strength in `146Ba` (`48^{+21}_{−29} W.u.`) while its E1 dipole moment is strongly reduced. The pair of Ba measurements supports an E3-first evidence ladder and separates octupole strength from isotope-dependent dipole cancellation.
+
 [[butler-nazarewicz-1996-intrinsic-reflection-asymmetry]] supplies the pre-1996 theoretical/experimental evidence map, emphasizing E1 cancellation sensitivity, collective E3 strength, opposite-parity orbital couplings and the need to keep static, soft and vibrational interpretations separate.
 
 [[wang-2023-experimental-studies-nuclear-chirality-china]] 的 Br-isotope review synthesis 把 measured/calculated doublet splitting 与 E1-related systematics 合并，提出 octupole correlations 可能使 chirality evolution 提前。但 Fig.12 的 TPRM 本身保持 reflection symmetry，跨核素数据也来自异质来源，因此“catalyze chirality”只保留为可检验的二级解释，不写成因果事实。
@@ -68,6 +70,7 @@ E1 links、`B(E1)/B(E2)`、[[energy-displacement]]、相反宇称轨道耦合与
 - [[li-2024-144ba-octupole-cdf-3d-lattice]]
 - [[gaffney-2013-pear-shaped-rn-ra]]
 - [[bucher-2016-144ba-direct-octupole]]
+- [[bucher-2017-146ba-direct-octupole]]
 - [[butler-nazarewicz-1996-intrinsic-reflection-asymmetry]]
 
 ## Evolution Log

@@ -15,6 +15,7 @@ updated: 2026-09-21
 - [[petrache-2006-near-degenerate-chiral-misinterpretation]] - `134Pr/136Pm` 近简并带的 crossing、alignment 与 `Q0,1/Q0,2=2.0(4)` 反例；手征判据的批判性来源。
 - [[lange-kumar-hamilton-1982-multipole-admixtures]] - 76页 E0/E2/M1 mixing-ratio RMP、Krane–Steffen sign convention、PPQ/IBM 及历史数据表的质量脚注。
 - [[bucher-2016-144ba-direct-octupole]] - `144Ba` CHICO2+GRETINA GOSIA 直接 E3；`B(E3)=48^{+25}_{−34} W.u.`、`Q3`/`β3` 与 rotor/higher-multipole 边界。
+- [[bucher-2017-146ba-direct-octupole]] - 外部开放获取 `146Ba` 直接 E3；`B(E3)=48(+21/−29) W.u.` 与 `144Ba` 相当，解释 E1 dipole variation 与 octupole strength 的分离。
 - [[dey-2026-116cs-multifaceted-decay]] - `116Cs`/`116Xe` 滴线多通道衰变、7.66-MeV 低能等轴八极共振、延迟 2p 与可能 `12C` cluster；数据与代码可得性边界。
 - [[hamilton-1948-successive-quanta-polarization]] - successive-γ direction–polarization formalism；16种 dipole/quadrupole 组合、相对宇称可判定性和探测效率边界。
 - [[herzan-2015-193bi-spectroscopy]] - `193Bi` JUROGAM-II/RITU/GREAT 纲图、`29/2±` 异构体、RDCO/IPDCO 标定和 `1/2[651]` SD 候选。
@@ -392,6 +393,10 @@ updated: 2026-09-21
 
 ## Synthesis
 
+- [[high-spin-angular-polarization-mixing-ratio]] - 角分布、角关联、偏振、alignment、detector response 与 δ convention 的跨来源方法综合。
+- [[high-spin-lifetime-strength-deformation]] - DSAM/RDDS、跃迁强度、`Qt`、band crossing 与形变解释的证据链。
+- [[chirality-wobbling-competition-evidence]] - 手征、wobbling、γ-softness、shape coexistence 与反例的逐对比较框架。
+- [[octupole-and-rare-electromagnetic-decay]] - 直接 E3、E1 correlation、双光子衰变和滴线稀有衰变的证据梯度。
 - [[sigma-over-i-assumptions-and-mixing-ratio-extraction]] - `sigma/I` 假设、alignment / feeding / deorientation 边界与 P-ADO `delta` 提取动机的小型 writing-support synthesis。
 - [[gamma-soft-vs-gamma-rigid-diagnostics]] - γ-soft 的低能判据、形状相变、配对-三轴耦合、`136Sm` 形变演化与 low-spin 外推边界。
 - [[low-spin-wobbling-gamma-soft-deformation-and-alternative-interpretations]] - 连接 low-spin wobbling、γ-soft 背景、TiP/IBFM alternatives、共享实验判据与未来数据入口的阶段性综合。

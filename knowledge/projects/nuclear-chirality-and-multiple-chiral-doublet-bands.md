@@ -14,6 +14,10 @@ tags: [nuclear-chirality, multiple-chiral-doublet, evidence-map, writing-support
 
 # Nuclear Chirality and Multiple Chiral Doublet Bands
 
+## 2026 high-spin corpus reconciliation
+
+The new high-spin corpus strengthens the project's evidence gate. `Mukhopadhyay 2008` and `Petrache 2006` show that near-degeneracy, links and signature patterns can arise from crossings or distinct configurations; partner-resolved strengths, alignment and lifetimes are required for a stronger claim. The four-theme comparison is persisted in [[chirality-wobbling-competition-evidence]], while `74Br` supplement and alternate-version audits remain attached to [[guo-2024-chiral-wobbler-74br]].
+
 ## Active Summary for Agents
 
 本页是 evidence map / writing-support project，不是论文草稿。Meng 2010、Ayangeakaa 2013 与 Liu 2016 均已 deep-read 并完成人工 source review；本 project 页仍保留独立 review 状态。所有解释必须与 observed facts、experimental assignments、author interpretations 和 model calculations 分层。

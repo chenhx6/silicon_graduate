@@ -57,7 +57,7 @@ The experiment asks whether a very weak double-γ branch can compete directly wi
 - The 72° energy-sum peak at `661.6(1.6) keV` has `693(95)` counts after random subtraction; its time-difference spectrum is centered at zero with about 1 ns FWHM, inconsistent with Compton-scatter delays of ±0.8 ns.
 - Individual photon energies are continuous rather than peaking at the sequential 283.5-keV cascade energies, excluding the main sequential-decay alternative. The allowed single-γ branch to the ground state is much stronger, so the measured ratio is a competitive branch.
 - The 144° group gives a consistent peak at `664.2(2.8) keV` with `307(78)` counts, establishing a pronounced angular correlation.
-- Simultaneous energy/angular fitting yields `Γγγ/Γγ=(2.05±0.37)×10⁻6`, `aE2M2=133.9(2.8) e²fm⁴MeV⁻1` and `aM1E3=110.1(4.2) e²fm⁴MeV⁻1`; QPM predicts 2.69×10⁻6, 142.60 and 19.50 respectively (Table 1). The dominant `Aqq` term and positive interference sign are reported; the QPM `aM1E3` mismatch is a model-level discrepancy.
+- Simultaneous energy/angular fitting yields `Γγγ/Γγ=(2.05±0.37)×10⁻6`, `αE2M2=+33.9(2.8)` and `αM1E3=+10.1(4.2) e²fm⁴MeV⁻1`; QPM gives `2.69×10⁻6`, `+42.60` and `+9.50` respectively (Table 1, visually checked PDF p.408). The dominant `Aqq` term and positive interference sign are reported; the experiment/QPM comparison is close for both coefficients at the displayed precision.
 
 ## Key Results
 
@@ -84,6 +84,8 @@ Residual Compton scattering, random coincidences and sequential decay are addres
 | W15-AR-2 | Sequential alternative | Continuous photon spectra and no delayed cascade signature disfavor the 283.5-keV `1/2+` path; SI needed for full efficiency/cascade subtraction. | PDF p.407 | provisional |
 | W15-AR-3 | Model attribution | `aE2M2/aM1E3` are coherent virtual-state sums, not isolated measured transitions; QPM is a model comparison. | PDF pp.408–409 | self-checking |
 | W15-AR-4 | Independence | Direct `137Ba` experiment; Gade 2015 is a secondary commentary and Schirmer 1984 is a different direct `40Ca/90Zr` experiment. | Source lineage | self-checking |
+
+| W15-AR-5 | Numeric transcription | The PDF table displays `+33.9(2.8)`, `+10.1(4.2)`, `+42.60` and `+9.50`; an earlier OCR-derived transcription with leading `1` digits was corrected after visual inspection. | PDF p.408, Table 1 | self-checking |
 
 ## Knowledge Impact and Learning Decision
 

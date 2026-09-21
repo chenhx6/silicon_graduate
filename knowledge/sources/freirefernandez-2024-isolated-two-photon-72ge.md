@@ -35,13 +35,13 @@ tags: [two-photon-decay, 72Ge, isomer, storage-ring, Schottky, shape-coexistence
 
 - D. Freire-Fernández *et al.*, *Physical Review Letters* **133**, 022502 (2024), DOI `10.1103/PhysRevLett.133.022502`。
 - 规范文件：`raw/papers/gpt/high-spin-20260920/multipolarity/electromagnetic/2024_Freire-Fernandez et al_Measurement of the Isolated Nuclear Two-Photon Decay in 72 Ge.pdf`。
-- 7-page open-access PRL; title/DOI, figures, Tables I–II and methods text checked. The supplied high-spin batch also contains a separate supplementary-information PDF (HS-116), to be audited as attached material rather than counted as a second experiment.
+- 7-page open-access PRL; title/DOI, figures, Tables I–II and methods text checked. The batch's HS-116 file is the Walz 2015 supplementary information and is unrelated to this Freire-Fernández source; no Freire-Fernández supplement was supplied.
 
 ## Scope and Reading Depth
 
 - PDF pp.1–7 fully read: 2γ formalism Eq.(1), storage-ring mass-spectrometry Eq.(2), S+IMS setup, Figs.1–2, Tables I–II, polarizability/susceptibility Eqs.(3–7), shell-model estimate, summary and future route.
 - Figure/table audit: isomer/ground-state frequency-time spectrogram, half-life systematics, all lifetime/excitation-energy rows and uncertainty explanations.
-- Not covered: HS-116 Supplementary Information, raw Schottky spectra, `iqtools/rionid` code and full shell-model matrix-element files.
+- Not covered: raw Schottky spectra, `iqtools/rionid` code, a Freire-Fernández supplementary file and full shell-model matrix-element files.
 
 ## Paper Question and Experimental Logic
 
@@ -89,7 +89,7 @@ The shorter half-life could reflect enhanced E1 polarizability, M1 susceptibilit
 ## Knowledge Impact and Learning Decision
 
 - Effect: `supports` [[two-photon-nuclear-decay]] and `revises` the method map by adding a direct isolated-ion lifetime route below the pair-creation threshold; it also opens an L3 question on separating polarizability components.
-- Persistence: update the two-photon concept and rare-branch method map; attach HS-116 SI when reached.
+- Persistence: update the two-photon concept and rare-branch method map; retain the missing Freire-Fernández raw/code boundary.
 - Review state: Codex self-audited; not `human-reviewed`.
 
 ## Related Knowledge and Project Relations
@@ -110,7 +110,7 @@ The shorter half-life could reflect enhanced E1 polarizability, M1 susceptibilit
 ### P1
 
 - `FF24-P1-1`: shell-model `jj44/JUN45` M1/E2 estimates and omitted orbital contributions limit the decomposition of the total matrix element.
-- `FF24-P1-2`: HS-116 supplementary information and raw/analysis artifacts remain an attached-material audit item.
+- `FF24-P1-2`: Raw Schottky spectra, analysis artifacts and any Freire-Fernández supplementary file remain unavailable.
 
 ## Extracted Pages
 

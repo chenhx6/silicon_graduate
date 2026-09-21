@@ -2,7 +2,7 @@
 type: system-questions
 graph-excluded: true
 created: 2026-07-01
-updated: 2026-07-08
+updated: 2026-09-21
 ---
 
 # Research Questions
@@ -24,6 +24,12 @@ updated: 2026-07-08
 - [ ] 在用户的 P-ADO / NST mixing-ratio extraction 中，`σ/I`、Gaussian width、attenuation coefficients 与 feeding-condition uncertainty 应如何映射到同一套可审计的 fit/prior schema？（opened 2026-07-08；scope: pado/sigma-over-i/alignment）
 - [ ] Lauritsen 2025 的 `sigma/J` 与用户分析中的 `σ/I` 在代码和公式层面应如何一一映射？Summary 2013 给出的 `σ/I = 0.3` 目前只能作为 guide-level practice 背景，不能直接当作 universal prior。（opened 2026-07-09；updated 2026-07-09；scope: pado/sigma-over-i/notation-boundary）
 - [ ] `100Sn` 的 GSI 与 RIKEN `B(GT)` 差异能否由 Q/endpoint、branching、response 和 model-space 约定统一解释？（opened 2026-09-06；scope: 100sn/gamow-teller/independent-evidence；project: [[100sn-gamow-teller-independent-evidence]]）
+- [ ] `137Ba` 双光子衰变中，Walz 的 Aqq 主导解释与 Söderström 的 E3M1/受抑 M2E2 解释，哪些新增能量共享、偏振或响应观测可以区分？（opened 2026-09-21；scope: high-spin/two-photon-decay；project: [[octupole-and-rare-electromagnetic-decay]]）
+- [ ] A≈130 近简并带在什么条件下必须提供 partner-resolved `B(E2)`, `B(M1)` 和 lifetime，才能排除 crossing、configuration mixing 与 shape coexistence？（opened 2026-09-21；scope: high-spin/chirality; project: [[chirality-wobbling-competition-evidence]]）
+- [ ] `A2/A4`、偏振、DCO/ADO、alignment 和 detector `Q(E)` 的协方差，何时会使 mixing-ratio `δ` 不可识别？（opened 2026-09-21；scope: high-spin/angular-polarization; project: [[high-spin-angular-polarization-mixing-ratio]]）
+- [ ] 直接 E3、E1 correlation、PES `β3` 与相反宇称能级系统学如何形成可迁移的 octupole evidence ladder？（opened 2026-09-21；scope: high-spin/octupole; project: [[octupole-and-rare-electromagnetic-decay]]）
+- [ ] `144Ba` 与 `146Ba` 的相近 `B(E3)` 和显著不同 E1 dipole moment 能否用同一套 occupancy-sensitive microscopic model 定量解释？（opened 2026-09-21；scope: external/146ba/octupole; project: [[octupole-and-rare-electromagnetic-decay]]）
+- [ ] 哪些已发表的后续原始来源或公开数据能改变本批四个主题的证据排序？（opened 2026-09-21；scope: high-spin/external-research; external sources must be separately numbered）
 
 ## Resolved
 
