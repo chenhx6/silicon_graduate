@@ -19,7 +19,9 @@ arxiv: 2310.15093
 language: en
 canonical_source: "https://doi.org/10.1038/s41567-024-02612-y"
 zotero_item_key:
-citation_key:
+citation_key: Karthein_2024
+citation_key_origin: crossref-content-negotiation
+citation_key_verified: 2026-09-21
 zotero_uri:
 library_file: "raw/papers/gpt/_incoming/20260912-100sn-refresh/100sn-indium-2024-arxiv.pdf"
 raw_file: "raw/papers/gpt/_incoming/20260912-100sn-refresh/100sn-indium-2024-arxiv.pdf"

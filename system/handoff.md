@@ -6,6 +6,39 @@ updated: 2026-09-21
 
 # 跨会话交接
 
+## 2026-09-21 residual-resolution continuation
+
+Current active task:
+The prior “whole-library complete” receipt was too broad: it proved structural/link integrity, not that every metadata residual or L4 input had been resolved. This continuation is the honest residual pass. The current knowledge tree has 529 pages and the current lint state is `0 errors / 79 warnings / 1106 info`.
+
+Completed in this continuation:
+
+- Expanded the lint element map and exact `p3n/2pn/1p3n` channel parser; added tests. Only three genuinely underdetermined channels remain warnings: `xn`, `xnyp`, `xnyalpha`.
+- Restored 19 citation keys from unique read-only local BibTeX matches and 55 from unique Crossref DOI records. External keys carry `citation_key_origin: crossref-content-negotiation`; protected `raw/zotero/wiki-inbox.bib` was not changed.
+- Added `outputs/high-spin-reconciliation-20260921/citation-key-audit.md` and `citation-key-crossref-registry.json`. Seventy-six citation keys remain intentionally empty (73 without a unique identifier/record, 2 unresolved arXiv records, 1 Jahangir arXiv DOI with no Crossref record).
+- Added `knowledge/projects/source-provenance-coverage-map.md`, a deliberate graph-owner registry for the 59 former index-only source pages. It is navigation/provenance, not claim review.
+- Checked the public-data route for `137Ba` double-γ re-fitting. The cited Mendeley DOI `10.17632/skhmjshxdj` currently has no retrievable snapshot; raw data and sorting code are author-request-only. Added `EXT-20260921-002` and `outputs/l4/137ba-double-gamma-readiness-20260921/report.md`; L4 remains safe-suspended, with no digitized/pseudo-result.
+- Extended the public-input scan to chiral-pair, octupole and ADO/δ units (`EXT-20260921-003`); published plots/tables do not supply event/response/covariance/code packages, so all remain L3-only.
+
+Current branch / local state:
+`main` contains local commit `Resolve high-spin audit residuals and L4 readiness` (post-commit reconciliation in progress; exact hash is reported in the task receipt). User-provided raw PDFs, reading record, temporary degree directories, protected BibTeX and `PLAN.md` remain untouched and unstaged. Do not stage them.
+
+Verification completed:
+
+- `python3 -m unittest system.tests.test_wiki_lint -v` passes (13 tests).
+- `python3 system/scripts/wiki_lint.py --fail-on error` current measured state: `errors=0`, `warnings=79`, `info=1106`; missing claim locator/kind and raw-hash errors remain zero.
+- QMD refresh/compaction completed: 532 Markdown documents, 2,172 current vectors, zero pending vectors and zero retained orphan chunks.
+- `git diff --check` passes before the next publication gate.
+
+Remaining work:
+
+1. Complete the post-commit publication gate for `Resolve high-spin audit residuals and L4 readiness`; update this handoff and `system/log.md` with the actual remote state.
+2. Keep 76 citation-key residuals and three underdetermined reactions explicit. Do not generate local keys or pretend those reactions are balanced.
+3. L4 may reopen only if a complete public/authorized data, response, covariance and code package appears; otherwise keep the readiness audits as the stopping record.
+
+Scientific status:
+The four L3 units remain self-audited and pair-/method-specific. No page was changed to `human-reviewed`; 1106 claim-level `needs_review` notices remain policy-visible rather than being treated as a user queue.
+
 ## 2026-09-21 high-spin full-reconciliation execution
 
 Current active task:

@@ -1,6 +1,6 @@
 ---
 type: source
-title: "Summary of Bases for Spin and Parity Assignments"
+title: "Summary of Bases for Spin and Parity Assignments (2010 compilation)"
 aliases: [Nuclear Data Sheets spin parity assignment bases]
 created: 2026-09-20
 updated: 2026-09-20

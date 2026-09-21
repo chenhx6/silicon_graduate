@@ -15,6 +15,9 @@ year: 2005
 volume: 54
 pages: "535-613"
 doi: "10.1016/j.ppnp.2004.09.002"
+citation_key: APRAHAMIAN_2005
+citation_key_origin: crossref-content-negotiation
+citation_key_verified: 2026-09-21
 canonical_source: "Aprahamian, Langanke & Wiescher, Prog. Part. Nucl. Phys. 54, 535-613 (2005)"
 library_file: "raw/papers/gpt/high-spin-20260920/nuclear astrophysics/2005_Aprahamian et al_Nuclear structure aspects in nuclear astrophysics.pdf"
 raw_file: "raw/papers/gpt/high-spin-20260920/nuclear astrophysics/2005_Aprahamian et al_Nuclear structure aspects in nuclear astrophysics.pdf"

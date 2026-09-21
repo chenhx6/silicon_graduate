@@ -12,6 +12,7 @@ title_original: "Gamma-Ray Linear Polarization and Angular Distribution Formulas
 authors: ["P. Taras"]
 journal: "Canadian Journal of Physics"
 year: 1971
+citation_key: taras_1971_GammaRay
 volume: 49
 issue: 3
 pages: "328-351"

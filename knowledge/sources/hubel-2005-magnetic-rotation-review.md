@@ -15,6 +15,9 @@ year: 2005
 volume: 54
 pages: "1-69"
 doi: "10.1016/j.ppnp.2004.06.002"
+citation_key: H_bel_2005
+citation_key_origin: crossref-content-negotiation
+citation_key_verified: 2026-09-21
 canonical_source: "Hübel, Prog. Part. Nucl. Phys. 54, 1-69 (2005)"
 library_file: "raw/papers/gpt/high-spin-20260920/review/2005_Hübel_Magnetic rotation in nuclei.pdf"
 raw_file: "raw/papers/gpt/high-spin-20260920/review/2005_Hübel_Magnetic rotation in nuclei.pdf"

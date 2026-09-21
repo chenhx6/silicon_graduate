@@ -12,6 +12,7 @@ title_original: "Angular Distributions of Gamma Rays in Terms of Phase-Defined R
 authors: [H. J. Rose, D. M. Brink]
 journal: "Reviews of Modern Physics"
 year: 1967
+citation_key: rose_1967_Angular
 volume: 39
 pages: "306-347"
 doi: "10.1103/RevModPhys.39.306"

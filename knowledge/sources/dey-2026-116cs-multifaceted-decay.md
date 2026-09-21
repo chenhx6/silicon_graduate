@@ -15,6 +15,9 @@ year: 2026
 volume: 137
 pages: "012501"
 doi: "10.1103/ztcl-lpdf"
+citation_key: Dey_2026
+citation_key_origin: crossref-content-negotiation
+citation_key_verified: 2026-09-21
 canonical_source: "https://doi.org/10.1103/ztcl-lpdf"
 library_file: "raw/papers/gpt/high-spin-20260920/衰变/2026_Dey et al_Multifaceted Decay of Cs 116.pdf"
 raw_file: "raw/papers/gpt/high-spin-20260920/衰变/2026_Dey et al_Multifaceted Decay of Cs 116.pdf"

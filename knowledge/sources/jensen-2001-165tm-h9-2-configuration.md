@@ -16,6 +16,9 @@ volume: 695
 issue: "1-4"
 pages: "3-50"
 doi: "10.1016/S0375-9474(01)01111-3"
+citation_key: Jensen_2001
+citation_key_origin: crossref-content-negotiation
+citation_key_verified: 2026-09-21
 language: en
 canonical_source: "Jensen, H. J. et al. General properties of the πh9/2[541]1/2− configuration and level scheme of 165Tm. Nucl. Phys. A 695, 3-50 (2001)."
 library_file: "raw/papers/gpt/high-spin-20260920/NPA695-Jensen-2001-3.pdf"

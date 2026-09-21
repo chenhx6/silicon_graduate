@@ -15,6 +15,9 @@ year: 2015
 volume: 92
 pages: "044310"
 doi: "10.1103/PhysRevC.92.044310"
+citation_key: Herz__2015
+citation_key_origin: crossref-content-negotiation
+citation_key_verified: 2026-09-21
 canonical_source: "https://doi.org/10.1103/PhysRevC.92.044310"
 library_file: "raw/papers/gpt/high-spin-20260920/纲图/2015_Herzáň et al_Detailed spectroscopy of Bi 193.pdf"
 raw_file: "raw/papers/gpt/high-spin-20260920/纲图/2015_Herzáň et al_Detailed spectroscopy of Bi 193.pdf"

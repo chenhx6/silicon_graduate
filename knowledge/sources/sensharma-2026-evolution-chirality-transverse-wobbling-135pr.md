@@ -19,7 +19,9 @@ arxiv: 2403.10749
 language: en
 canonical_source: "https://doi.org/10.1103/3g4p-ncjn"
 zotero_item_key:
-citation_key:
+citation_key: Sensharma_2026
+citation_key_origin: crossref-content-negotiation
+citation_key_verified: 2026-09-21
 zotero_uri:
 library_file: "raw/papers/gpt/_incoming/20260912-135pr-refresh/sensharma-2026-135pr-chirality-wobbling.pdf"
 raw_file: "raw/papers/gpt/_incoming/20260912-135pr-refresh/sensharma-2026-135pr-chirality-wobbling.pdf"

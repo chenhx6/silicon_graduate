@@ -12,6 +12,7 @@ title_original: "PDCO: Polarizational-directional correlation from oriented nucl
 authors: [Ch. Droste, S. G. Rohoziński, K. Starosta, T. Morek, J. Srebrny, P. Magierski]
 journal: "Nuclear Instruments and Methods in Physics Research A"
 year: 1996
+citation_key: droste_1996_PDCO
 volume: 378
 pages: "518-525"
 pii: "0168-9002(96)00426-3"

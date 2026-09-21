@@ -12,6 +12,7 @@ title_original: "Study of Nuclear Structure by Electromagnetic Excitation with A
 authors: [K. Alder, A. Bohr, T. Huus, B. Mottelson, A. Winther]
 journal: "Reviews of Modern Physics"
 year: 1956
+citation_key: alder_1956_Study
 volume: 28
 pages: "432-542"
 doi: "10.1103/RevModPhys.28.432"

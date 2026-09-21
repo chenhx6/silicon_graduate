@@ -15,6 +15,9 @@ year: 2011
 volume: 83
 pages: "044314"
 doi: "10.1103/PhysRevC.83.044314"
+citation_key: Rees_2011
+citation_key_origin: crossref-content-negotiation
+citation_key_verified: 2026-09-21
 canonical_source: "Rees et al., Phys. Rev. C 83, 044314 (2011)"
 library_file: "raw/papers/gpt/high-spin-20260920/转动/2011_Rees et al_Non-yrast positive-parity structures in the γ -soft nucleus Er 156.pdf"
 raw_file: "raw/papers/gpt/high-spin-20260920/转动/2011_Rees et al_Non-yrast positive-parity structures in the γ -soft nucleus Er 156.pdf"

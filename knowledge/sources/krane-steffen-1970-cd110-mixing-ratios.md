@@ -15,6 +15,9 @@ year: 1970
 volume: 2
 pages: "724-734"
 doi: "10.1103/PhysRevC.2.724"
+citation_key: Krane_1970
+citation_key_origin: crossref-content-negotiation
+citation_key_verified: 2026-09-21
 canonical_source: "Krane & Steffen, Phys. Rev. C 2, 724-734 (1970)"
 library_file: "raw/papers/gpt/high-spin-20260920/multipolarity/mixing ratio/1970_Krane et al_Determination of the E2M1 Multipole Mixing Ratios of the Gamma Transitions in Cd110.pdf"
 raw_file: "raw/papers/gpt/high-spin-20260920/multipolarity/mixing ratio/1970_Krane et al_Determination of the E2M1 Multipole Mixing Ratios of the Gamma Transitions in Cd110.pdf"

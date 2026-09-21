@@ -12,6 +12,7 @@ title_original: "The multipole mixing ratio of 2'+ → 2+ transitions in 194Pt a
 authors: [W. D. Hamilton]
 journal: "Nuclear Physics A"
 year: 1969
+citation_key: hamilton_1969_Multipole
 volume: 136
 pages: "251-264"
 pii: "0375-9474(69)90052-9"

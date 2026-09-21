@@ -19,7 +19,9 @@ arxiv:
 language: zh/en
 canonical_source: "科学通报 66 (2021) 3553–3560"
 zotero_item_key:
-citation_key:
+citation_key: Wu_2021
+citation_key_origin: crossref-content-negotiation
+citation_key_verified: 2026-09-21
 zotero_uri:
 library_file: "raw/papers/degree dissertation/基于数字化的通用获取系统及波形分析算法.pdf"
 raw_file: "raw/papers/degree dissertation/基于数字化的通用获取系统及波形分析算法.pdf"

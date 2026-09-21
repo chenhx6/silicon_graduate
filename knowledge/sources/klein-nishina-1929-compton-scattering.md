@@ -12,6 +12,7 @@ title_original: "Über die Streuung von Strahlung durch freie Elektronen nach de
 authors: [O. Klein, Y. Nishina]
 journal: "Zeitschrift für Physik"
 year: 1929
+citation_key: klein_1929_Ueber
 volume: 52
 pages: "853-868"
 canonical_source: "Klein & Nishina, Z. Phys. 52, 853 (1929)"

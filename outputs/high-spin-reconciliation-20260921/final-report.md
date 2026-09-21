@@ -3,7 +3,7 @@ type: output
 title: "High-spin full knowledge reconciliation report"
 created: 2026-09-21
 updated: 2026-09-21
-status: complete
+status: complete-with-registered-residuals
 review_status: unreviewed
 tags: [high-spin, synthesis, l3, l4, external-research]
 ---
@@ -12,7 +12,7 @@ tags: [high-spin, synthesis, l3, l4, external-research]
 
 ## Corpus and audit state
 
-The source corpus remains 127 ledger rows: 118 valid, 9 user-confirmed exclusions, 110 unique hashes and 8 exact duplicate rows. Source identity and raw hash checks pass. The earlier HS-095 source-slug mismatch was corrected and recorded as an append-only correction event. Four cross-source synthesis pages and four L3 research units were added; no L4 run was started because complete event/response/code inputs were not available.
+The source corpus remains 127 ledger rows: 118 valid, 9 user-confirmed exclusions, 110 unique hashes and 8 exact duplicate rows. Source identity and raw hash checks pass. The earlier HS-095 source-slug mismatch was corrected and recorded as an append-only correction event. Four cross-source synthesis pages and four L3 research units were added. The residual pass also restored 19 local-BibTeX citation keys and 55 DOI-verified Crossref keys; 76 intentionally unmapped keys remain.
 
 ## Main synthesis findings
 
@@ -23,7 +23,7 @@ The source corpus remains 127 ledger rows: 118 valid, 9 user-confirmed exclusion
 
 ## External research
 
-`EXT-20260921-001` was added from the lawful open-access arXiv copy of Bucher et al., PRL 118, 152504 (2017). The six-page paper was read end-to-end, hashed, and linked to the octupole synthesis. It adds direct `146Ba` E3 evidence without changing the original 127-row denominator. The Walz Table 1 OCR transcription was also corrected after visual PDF inspection.
+`EXT-20260921-001` was added from the lawful open-access arXiv copy of Bucher et al., PRL 118, 152504 (2017). The six-page paper was read end-to-end, hashed, and linked to the octupole synthesis. It adds direct `146Ba` E3 evidence without changing the original 127-row denominator. `EXT-20260921-002` checks the public-data route for the `137Ba` re-fit: the cited Mendeley snapshot is currently unavailable, so the L4 readiness audit remains safe-suspended. `EXT-20260921-003` records the corresponding public-input scan for the chiral, octupole and ADO/δ units; all remain L3-only at the checked evidence boundary. The Walz Table 1 OCR transcription was also corrected after visual PDF inspection.
 
 ## L3/L4 status
 
@@ -34,17 +34,17 @@ Completed L3 units:
 - `L3-OCT-E3-E1-003`: direct E3 versus E1/shape evidence ladder;
 - `L3-ADO-DELTA-004`: alignment/δ/detector identifiability.
 
-L4 is `not-started`: no selected question has a complete public event matrix, detector response, covariance and analysis-code package.
+L4 remains `not-started` as an analysis run. A readiness audit was completed for the highest-value `137Ba` candidate, but no complete public event matrix, detector response, covariance and analysis-code package was found. No figure-digitized or synthetic data were promoted as an L4 result.
 
 ## Knowledge-base changes
 
-Updated the global index, overview, research questions, A≈130 and chirality projects, polarization project, octupole concepts, two-photon concept, and four new synthesis pages. QMD collection update indexed 531 knowledge files; 2605 vectors are present, no pending vectors remain, and 441 historical orphan chunks are retained as optional cache cleanup.
+Updated the global index, overview, research questions, A≈130 and chirality projects, polarization project, octupole concepts, two-photon concept, four new synthesis pages, and the explicit source-provenance registry. The formal typed knowledge tree contains 529 pages; including the three root-level navigation pages, QMD indexes 532 Markdown documents with 2,172 current vectors, no pending vectors and no retained orphan chunks after compaction.
 
-The whole `knowledge/` directory was then audited: 528 knowledge pages were scanned for frontmatter, required sections, links, source claim tables and orphan status. Three malformed frontmatter pages and one alias collision were fixed. Residual citation-key, orphan-page and reaction-parser warnings are registered with reasons in [global-audit-20260921.md](global-audit-20260921.md).
+The whole `knowledge/` directory was then audited and re-audited: 529 pages were scanned for frontmatter, required sections, links, source claim tables and orphan status. Three malformed frontmatter pages and one alias collision were fixed; the former 59 graph orphans now have an explicit provenance hub. The element map and exact-channel parser were expanded and regression-tested; only three genuinely underdetermined reaction strings remain warnings. Residual citation-key and reaction warnings are registered with reasons in [global-audit-20260921.md](global-audit-20260921.md), [citation-key-audit.md](citation-key-audit.md), and [citation-key-crossref-registry.json](citation-key-crossref-registry.json).
 
 ## Verification
 
-- Wiki lint: `errors=0`.
+- Wiki lint: `errors=0`, `warnings=79`, `info=1106` (current residual state).
 - Ledger rows/raw hashes: pass (`127 / 118 / 9 / 110`).
 - Protected BibTeX preflight: pass.
 - `git diff --check`: pass before staging.

@@ -12,6 +12,7 @@ title_original: "E0-E2-M1 multipole admixtures of transitions in even-even nucle
 authors: [J. Lange, Krishna Kumar, J. H. Hamilton]
 journal: "Reviews of Modern Physics"
 year: 1982
+citation_key: lange_1982_E0E2M1
 volume: 54
 pages: "119-185"
 doi: "10.1103/RevModPhys.54.119"

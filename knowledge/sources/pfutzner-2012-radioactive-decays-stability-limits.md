@@ -15,6 +15,9 @@ year: 2012
 volume: 84
 pages: "567-613"
 doi: "10.1103/RevModPhys.84.567"
+citation_key: Pf_tzner_2012
+citation_key_origin: crossref-content-negotiation
+citation_key_verified: 2026-09-21
 canonical_source: "Pfützner et al., Rev. Mod. Phys. 84, 567-613 (2012)"
 library_file: "raw/papers/gpt/high-spin-20260920/review/2012_Pfützner et al_Radioactive decays at limits of nuclear stability.pdf"
 raw_file: "raw/papers/gpt/high-spin-20260920/review/2012_Pfützner et al_Radioactive decays at limits of nuclear stability.pdf"

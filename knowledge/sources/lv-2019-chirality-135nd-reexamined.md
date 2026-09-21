@@ -19,7 +19,9 @@ arxiv: 1907.12809
 language: en
 canonical_source: "https://doi.org/10.1103/PhysRevC.100.024314"
 zotero_item_key:
-citation_key:
+citation_key: Lv_2019
+citation_key_origin: crossref-content-negotiation
+citation_key_verified: 2026-09-21
 zotero_uri:
 library_file: "raw/papers/gpt/_incoming/20260912-135nd-crosswalk/lv-2019-135nd-reexamined-arxiv.pdf"
 raw_file: "raw/papers/gpt/_incoming/20260912-135nd-crosswalk/lv-2019-135nd-reexamined-arxiv.pdf"

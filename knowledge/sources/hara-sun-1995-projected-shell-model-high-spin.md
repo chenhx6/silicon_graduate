@@ -16,6 +16,9 @@ volume: 4
 issue: 4
 pages: "637-785"
 doi: "10.1142/S0218301395000250"
+citation_key: HARA_1995
+citation_key_origin: crossref-content-negotiation
+citation_key_verified: 2026-09-21
 language: en
 canonical_source: "Hara, K. & Sun, Y. Projected Shell Model and High-Spin Spectroscopy. Int. J. Mod. Phys. E 4, 637-785 (1995)."
 library_file: "raw/papers/gpt/high-spin-20260920/review/1995_Hara_Sun_PROJECTED SHELL MODEL AND HIGH-SPIN SPECTROSCOPY.pdf"

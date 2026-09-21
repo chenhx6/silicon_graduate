@@ -15,6 +15,9 @@ year: 2018
 volume: 120
 pages: "022502"
 doi: "10.1103/PhysRevLett.120.022502"
+citation_key: Grodner_2018
+citation_key_origin: crossref-content-negotiation
+citation_key_verified: 2026-09-21
 canonical_source: "Grodner et al., Phys. Rev. Lett. 120, 022502 (2018)"
 library_file: "raw/papers/gpt/high-spin-20260920/g-factor/2018_Grodner et al_First Measurement of the g Factor in the Chiral Band.pdf"
 raw_file: "raw/papers/gpt/high-spin-20260920/g-factor/2018_Grodner et al_First Measurement of the g Factor in the Chiral Band.pdf"

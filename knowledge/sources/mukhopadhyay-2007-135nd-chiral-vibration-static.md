@@ -15,6 +15,9 @@ year: 2007
 volume: 99
 pages: "172501"
 doi: "10.1103/PhysRevLett.99.172501"
+citation_key: Mukhopadhyay_2007
+citation_key_origin: crossref-content-negotiation
+citation_key_verified: 2026-09-21
 canonical_source: "Mukhopadhyay et al., Phys. Rev. Lett. 99, 172501 (2007)"
 library_file: "raw/papers/gpt/high-spin-20260920/三轴/手征/2007_Mukhopadhyay et al_From Chiral Vibration to Static Chirality in Nd 135.pdf"
 raw_file: "raw/papers/gpt/high-spin-20260920/三轴/手征/2007_Mukhopadhyay et al_From Chiral Vibration to Static Chirality in Nd 135.pdf"

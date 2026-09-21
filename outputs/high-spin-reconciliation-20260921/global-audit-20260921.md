@@ -15,7 +15,7 @@ The audit scanned every Markdown page under `knowledge/`, not only the high-spin
 
 | Page type | Count |
 |---|---:|
-| source | 243 |
+| source | 244 |
 | nucleus | 59 |
 | band | 61 |
 | experiment | 37 |
@@ -23,9 +23,9 @@ The audit scanned every Markdown page under `knowledge/`, not only the high-spin
 | method | 21 |
 | model | 15 |
 | observable | 20 |
-| project | 10 |
+| project | 11 |
 | synthesis | 11 |
-| total knowledge pages | 528 |
+| total knowledge pages | 529 |
 
 The high-spin ledger remains separately auditable at 127 rows / 118 valid / 9 excluded / 110 unique hashes.
 
@@ -41,17 +41,17 @@ The high-spin ledger remains separately auditable at 127 rows / 118 valid / 9 ex
 
 The two structural frontmatter errors in `131ba-band-2.md` and `133ce-band-2.md` were fixed by quoting aliases containing square brackets. The malformed unquoted journal field in `meng-2010-open-problems-nuclear-chirality.md` was fixed. The duplicate identity warning for the two “Summary of Bases” sources was resolved by making the 1970 title version-specific.
 
-Final lint result: `errors=0`, `warnings=269`, `info=1106`.
+Initial lint result: `errors=0`, `warnings=269`, `info=1106`. After the residual pass, the measured result is `errors=0`, `warnings=79`, `info=1106`.
 
 ## Registered residuals
 
-### Citation keys: 150 warnings
+### Citation keys: 76 warnings remain
 
-Many historical and newly created source pages lack a verified Zotero citation key. The audit records this as a metadata gap rather than inventing keys. A future metadata pass can fill a key only after title/author/year/DOI matching against the protected bibliography or a verified external record.
+The baseline contained 150 missing/empty keys. Nineteen were uniquely matched to the read-only local BibTeX exports; a further 55 were verified through DOI/title/author/year matching against Crossref records and are marked `citation_key_origin: crossref-content-negotiation`. The protected bibliography was not changed. Seventy-six remain intentionally empty because no unique local/external record is available or the arXiv version identity is unresolved. Full mapping is in `citation-key-audit.md` and `citation-key-crossref-registry.json`.
 
-### Orphan pages: 59 warnings
+### Orphan pages: resolved by explicit provenance registry
 
-These are source pages with no inbound link outside `knowledge/index.md`. They fall into three groups:
+The baseline contained 59 source pages with no inbound link outside `knowledge/index.md`. They are now intentionally linked from `[[source-provenance-coverage-map]]`, which records graph ownership without promoting claims:
 
 1. source-only historical or method records intentionally retained for provenance;
 2. recently ingested sources whose domain/project owner has not yet acquired an explicit relation;
@@ -59,9 +59,9 @@ These are source pages with no inbound link outside `knowledge/index.md`. They f
 
 The list is retained in the lint output and is not silently solved by adding meaningless links. The high-spin pages with clear scientific relations were connected during the reconciliation; the remaining source-only pages are a documented follow-up queue.
 
-### Reaction and element warnings: 45 warnings
+### Reaction and element warnings: 3 warnings remain
 
-Complex reaction strings (`xn`, spontaneous fission, mixed products) and several element symbols are outside the current lint parser/configuration. They are parser/configuration warnings, not source identity failures. The original reaction text remains authoritative in each source page.
+The element map and exact `p3n/2pn/1p3n` parser were expanded and regression-tested. The remaining strings (`11B(96Zr,xn)103,104Rh`, `110Pd(28Si,xnyp)`, `110Pd(28Si,xnyalpha)`) are genuinely multi-channel/underdetermined, so they remain warnings rather than being falsely balanced. The original reaction text remains authoritative.
 
 ### Raw working-tree warning
 
@@ -73,4 +73,6 @@ All high-spin source-level reading rows have terminal states. Four cross-source 
 
 ## Decision
 
-The whole `knowledge/` directory has been mechanically and graph-audited, with all structural errors fixed and residual warnings registered with reasons. Scientific completeness is bounded by the source-level review queues, missing citation metadata, orphan ownership decisions and unavailable L4 inputs listed above.
+The whole `knowledge/` directory has been mechanically and graph-audited, with all structural errors fixed and residual warnings registered with reasons. Scientific completeness is bounded by the remaining source-level review queues, 76 unresolved citation identities, three underdetermined reaction strings and unavailable L4 inputs. The `137Ba` public-data check is recorded in `outputs/l4/137ba-double-gamma-readiness-20260921/report.md`; it remains safe-suspended, not a fabricated run.
+
+QMD post-pass state: 532 Markdown documents indexed, 2,172 current vectors, zero pending vectors and zero retained orphan chunks after cache compaction. QMD is a retrieval cache and does not alter evidence status.

@@ -15,17 +15,19 @@ The high-spin corpus has completed source-level reading and is now in full knowl
 |---|---:|---|
 | source / nucleus / band / experiment pages | 244 / 59 / 63 / 37 | Global Wiki counts after the high-spin ingest and one external `146Ba` source; high-spin rows remain separately tracked in the batch ledger. |
 | concept / method / model / observable pages | 48 / 21 / 15 / 20 | Includes high-spin method, octupole, two-photon and drip-line additions. |
-| project / synthesis pages | 10 / 11 | Four new high-spin synthesis pages are self-audited and remain unreviewed. |
+| project / synthesis pages | 11 / 11 | Four new high-spin synthesis pages and the source-provenance registry are self-audited and remain unreviewed. |
 | high-spin ledger | 127 rows / 118 valid / 9 excluded | `102` source-created, `8` reused audits, `7` duplicate audits, `1` attached-material audit. |
 | unique high-spin hashes | 110 | Distinct file content, not independent papers or experiments. |
-| source pages unreviewed | 183 | Global lint governance count; no claims were automatically promoted to `human-reviewed`. |
-| claim-level `needs_review: true` | 1103 | Existing and new paper-use review queue; locator/kind gaps are tracked separately. |
-| automated lint | 0 errors / 278 warnings / 1103 info | Warnings include citation-key/orphan/reaction configuration notices. |
+| source pages unreviewed | 184 | Global lint governance count; no claims were automatically promoted to `human-reviewed`. |
+| claim-level `needs_review: true` | 1106 | Existing and new paper-use review queue; locator/kind gaps are tracked separately. |
+| automated lint | 0 errors / 79 warnings / 1106 info | After the residual pass: 19 local-BibTeX keys and 55 Crossref-verified DOI keys were restored, graph-orphan sources are routed through the provenance registry, and only three channel-underdetermined reactions remain warnings. |
 | QMD | 526 documents indexed | Vector refresh state is recorded separately; QMD remains a retrieval aid, not an evidence gate. |
 
 The current reconciliation is organized around four themes: angular/polarization/mixing-ratio methods; lifetimes/strengths/deformation; chirality/wobbling competition; and octupole/rare electromagnetic decay. External literature may be added when a concrete evidence gap requires it; each external source receives its own identity, hash, locator and independence record.
 
-The whole `knowledge/` directory was audited on 2026-09-21. Structural errors are cleared (`lint errors=0`). Remaining warnings are registered residuals: 150 unverified citation keys, 59 source pages without inbound links outside the index, parser/configuration warnings for complex reactions/elements, and expected local raw-input state. These are metadata or graph-ownership queues; they are not silently converted into scientific conclusions.
+The whole `knowledge/` directory was audited on 2026-09-21. Structural errors are cleared (`lint errors=0`). A residual pass restored 19 citation keys that uniquely match the read-only local BibTeX exports, then restored 55 more from unique Crossref DOI records without modifying the protected bibliography. An explicit source-provenance registry routes the 59 formerly index-only source pages. The remaining 76 citation-key gaps have no unique usable local/external record (or have an unresolved arXiv-version identity); three reaction strings remain channel-underdetermined (`xn`, `xnyp`, `xnyalpha`) and are not falsely balanced. These are metadata/graph/parser boundaries, not scientific conclusions.
+
+The provenance registry is [[source-provenance-coverage-map]]; it is a navigation and ownership record, not a scientific review. QMD was refreshed and compacted after the pass: 532 Markdown documents are indexed, 2,172 current vectors are present, no vectors are pending, and the previous 873 orphan chunks were removed from the cache.
 
 ## Current Snapshot: 2026-09-05 Degree Dissertation Batch
 

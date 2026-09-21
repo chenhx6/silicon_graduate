@@ -16,6 +16,9 @@ volume: 24
 article: 1541001
 pages: "1-38"
 doi: "10.1142/S0218301315410013"
+citation_key: Frauendorf_2015
+citation_key_origin: crossref-content-negotiation
+citation_key_verified: 2026-09-21
 canonical_source: "https://doi.org/10.1142/S0218301315410013"
 library_file: "raw/papers/gpt/high-spin-20260920/三轴/进动/理论/2015_Frauendorf_The low-energy quadrupole mode of nuclei.pdf"
 raw_file: "raw/papers/gpt/high-spin-20260920/三轴/进动/理论/2015_Frauendorf_The low-energy quadrupole mode of nuclei.pdf"

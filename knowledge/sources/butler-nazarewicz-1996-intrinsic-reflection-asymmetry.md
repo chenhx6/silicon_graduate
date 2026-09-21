@@ -15,6 +15,9 @@ year: 1996
 volume: 68
 pages: "349-421"
 doi: "10.1103/RevModPhys.68.349"
+citation_key: Butler_1996
+citation_key_origin: crossref-content-negotiation
+citation_key_verified: 2026-09-21
 canonical_source: "https://doi.org/10.1103/RevModPhys.68.349"
 library_file: "raw/papers/gpt/high-spin-20260920/review/1996_Butler_Nazarewicz_Intrinsic reflection asymmetry in atomic nuclei.pdf"
 raw_file: "raw/papers/gpt/high-spin-20260920/review/1996_Butler_Nazarewicz_Intrinsic reflection asymmetry in atomic nuclei.pdf"

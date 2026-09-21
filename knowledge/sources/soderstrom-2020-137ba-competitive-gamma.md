@@ -15,6 +15,9 @@ year: 2020
 volume: 11
 pages: "3242"
 doi: "10.1038/s41467-020-16787-4"
+citation_key: S_derstr_m_2020
+citation_key_origin: crossref-content-negotiation
+citation_key_verified: 2026-09-21
 canonical_source: "https://doi.org/10.1038/s41467-020-16787-4"
 library_file: "raw/papers/gpt/high-spin-20260920/multipolarity/electromagnetic/2020_Söderström et al_Electromagnetic character of the competitive γγ-γ-decay from 137mBa.pdf"
 raw_file: "raw/papers/gpt/high-spin-20260920/multipolarity/electromagnetic/2020_Söderström et al_Electromagnetic character of the competitive γγ-γ-decay from 137mBa.pdf"
@@ -74,12 +77,12 @@ Söderström *et al.* provide an independent total-branch confirmation and the s
 | SO20-AR-1 | Signal/background chain | Five angular points, time sideband, multiplicity/energy cuts and GEANT4/Gaussian fits jointly support a competitive branch; cosmic-ray and Compton residuals remain systematics. | PDF pp.3–5, Figs.2–4 | self-checking |
 | SO20-AR-2 | Path identifiability | Angular correlation alone is degenerate; energy-sharing breaks the M2E2/E3M1 ambiguity but still leaves sign/ordering branches and model dependence. | PDF pp.4–6, Fig.5, Eq.5 | self-checking |
 | SO20-AR-3 | Cross-paper conflict | The result directly revises Walz's dominant-Aqq interpretation while agreeing on the total branch within errors; it is a same-nucleus independent experiment, not a duplicate PDF. | PDF pp.1, 4–6, Table 1 | self-checking |
-| SO20-AR-4 | Reproducibility | Final data points are deposited at the stated Mendeley DOI, while raw data and sorting/analysis code are available from authors on request. | PDF p.7, Data/Code availability | input-limited-L4 |
+| SO20-AR-4 | Reproducibility | The article points to Mendeley DOI `10.17632/skhmjshxdj` for final points, but the checked DOI/landing endpoint currently has no retrievable snapshot; raw data and sorting/analysis code remain author-request-only. | PDF p.7, Data/Code availability; EXT-20260921-002 | input-limited-L4 |
 
 ## Knowledge Impact and Learning Decision
 
 - Effect: `revises` [[walz-2015-competitive-double-gamma-137ba]], [[two-photon-nuclear-decay]] and the `137Ba` polarizability evidence map; it promotes energy-sharing as the decisive companion observable for virtual-path identification.
-- L3/L4: a public final-data DOI makes a limited re-analysis candidate, but raw detector response and full code are not public; no independent L4 re-fit is claimed here.
+- L3/L4: the cited data DOI was checked and is currently unavailable at its landing endpoint; no independent L4 re-fit is claimed here. Figure digitization is explicitly insufficient for the response/covariance contract.
 - Review state: Codex self-audited; not `human-reviewed`.
 
 ## Human Review Triage

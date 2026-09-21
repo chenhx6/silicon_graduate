@@ -16,6 +16,9 @@ volume: 47
 issue: 1
 pages: "43-64"
 doi: "10.1103/RevModPhys.47.43"
+citation_key: Stephens_1975
+citation_key_origin: crossref-content-negotiation
+citation_key_verified: 2026-09-21
 language: en
 canonical_source: "Stephens, F. S. Coriolis effects and rotation alignment in nuclei. Rev. Mod. Phys. 47, 43-64 (1975)."
 library_file: "raw/papers/gpt/high-spin-20260920/转动/1975_Stephens_Coriolis effects and rotation alignment in nuclei.pdf"

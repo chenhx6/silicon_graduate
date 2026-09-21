@@ -16,6 +16,9 @@ volume: 64
 article: 037302
 pages: "1-3"
 doi: "10.1103/PhysRevC.64.037302"
+citation_key: K_nigshofen_2001
+citation_key_origin: crossref-content-negotiation
+citation_key_verified: 2026-09-21
 canonical_source: "https://doi.org/10.1103/PhysRevC.64.037302"
 library_file: "raw/papers/gpt/high-spin-20260920/纲图/2001_Königshofen et al_Multipole mixing ratios in 130 Ba.pdf"
 raw_file: "raw/papers/gpt/high-spin-20260920/纲图/2001_Königshofen et al_Multipole mixing ratios in 130 Ba.pdf"

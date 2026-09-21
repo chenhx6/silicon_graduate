@@ -1,0 +1,39 @@
+{
+  "id": "EXT-20260921-003",
+  "question_id": ["L3-CHIRAL-PAIR-002", "L3-OCT-E3-E1-003", "L3-ADO-DELTA-004"],
+  "title": "Public input and code availability scan for the remaining high-spin L3 units",
+  "retrieved_at": "2026-09-21",
+  "routes": [
+    "APS/CHORUS accepted manuscripts and article pages",
+    "arXiv and INSPIRE records",
+    "NNDC/ENSDF reference and level-data pages",
+    "Crossref DOI metadata and publisher data/code statements",
+    "Public data-repository search for event, response and covariance packages"
+  ],
+  "findings": {
+    "L3-CHIRAL-PAIR-002": {
+      "available": "Published 135Nd/136Nd spectra, tables and plotted B(M1)/B(E2) values",
+      "missing": ["event matrices", "detector response", "joint covariance", "analysis code"],
+      "decision": "L3-complete-no-L4-input"
+    },
+    "L3-OCT-E3-E1-003": {
+      "available": "Bucher 2016/2017 published GOSIA matrix-element tables and direct-E3 central values",
+      "missing": ["GOSIA input/covariance package", "raw yields and response", "SCCM/GCM executable input and code"],
+      "decision": "L3-complete-no-L4-input"
+    },
+    "L3-ADO-DELTA-004": {
+      "available": "Formula/reference-table literature and published calibration examples",
+      "missing": ["user-specific event data", "array response/efficiency calibration", "background and covariance files"],
+      "decision": "L3-complete-awaiting-data"
+    }
+  },
+  "primary_routes_checked": [
+    "https://journals.aps.org/prc/abstract/10.1103/PhysRevC.78.034311",
+    "https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.116.112503",
+    "https://link.aps.org/accepted/10.1103/PhysRevLett.118.152504",
+    "https://inspirehep.net/literature/1673347",
+    "https://www.nndc.bnl.gov/ensdf/getrefs.jsp?dsid=110PD%2830SI%2C4NG%29&recid=136060005"
+  ],
+  "stop_reason": "No checked route supplied the complete data/response/covariance/code contract. Published plots or manually digitized points are insufficient for a reproducible L4 claim.",
+  "l4_status": "not-ready"
+}

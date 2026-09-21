@@ -15,6 +15,9 @@ year: 2016
 volume: 116
 pages: "112503"
 doi: "10.1103/PhysRevLett.116.112503"
+citation_key: Bucher_2016
+citation_key_origin: crossref-content-negotiation
+citation_key_verified: 2026-09-21
 canonical_source: "https://doi.org/10.1103/PhysRevLett.116.112503"
 library_file: "raw/papers/gpt/high-spin-20260920/形变/2016_Bucher et al_Direct Evidence of Octupole Deformation in Neutron-Rich Ba 144.pdf"
 raw_file: "raw/papers/gpt/high-spin-20260920/形变/2016_Bucher et al_Direct Evidence of Octupole Deformation in Neutron-Rich Ba 144.pdf"

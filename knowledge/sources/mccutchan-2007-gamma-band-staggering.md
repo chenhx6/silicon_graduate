@@ -16,6 +16,9 @@ volume: 76
 article: 024306
 pages: "1-10"
 doi: "10.1103/PhysRevC.76.024306"
+citation_key: McCutchan_2007
+citation_key_origin: crossref-content-negotiation
+citation_key_verified: 2026-09-21
 canonical_source: "https://doi.org/10.1103/PhysRevC.76.024306"
 library_file: "raw/papers/gpt/high-spin-20260920/转动/2007_McCutchan et al_Staggering in γ-band energies and the transition between different structural.pdf"
 raw_file: "raw/papers/gpt/high-spin-20260920/转动/2007_McCutchan et al_Staggering in γ-band energies and the transition between different structural.pdf"

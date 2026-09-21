@@ -12,6 +12,7 @@ title_original: "Tables of Coefficients for Angular Distribution of Gamma Rays f
 authors: [T. Yamazaki]
 journal: "Nuclear Data, Section A"
 year: 1967
+citation_key: yamazaki_1967_Tables
 volume: 3
 pages: "1-23"
 canonical_source: "Yamazaki, Nuclear Data A 3 (1967)"

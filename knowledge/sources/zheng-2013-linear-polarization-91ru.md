@@ -16,6 +16,9 @@ volume: 87
 issue: 4
 pages: "044328"
 doi: "10.1103/PhysRevC.87.044328"
+citation_key: Zheng_2013
+citation_key_origin: crossref-content-negotiation
+citation_key_verified: 2026-09-21
 language: en
 canonical_source: "Zheng, Y. et al. Gamma-ray linear polarization measurement and (g9/2)−3 neutron alignment in 91Ru. Phys. Rev. C 87, 044328 (2013)."
 library_file: "raw/papers/gpt/high-spin-20260920/纲图/2013_Zheng et al_γ -ray linear polarization measurements and ( g 9 - 2 ) − 3 neutron alignment.pdf"

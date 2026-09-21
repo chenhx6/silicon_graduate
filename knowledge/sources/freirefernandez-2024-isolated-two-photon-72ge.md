@@ -16,6 +16,9 @@ volume: 133
 article: 022502
 pages: "1-7"
 doi: "10.1103/PhysRevLett.133.022502"
+citation_key: Freire_Fern_ndez_2024
+citation_key_origin: crossref-content-negotiation
+citation_key_verified: 2026-09-21
 canonical_source: "https://doi.org/10.1103/PhysRevLett.133.022502"
 library_file: "raw/papers/gpt/high-spin-20260920/multipolarity/electromagnetic/2024_Freire-Fernandez et al_Measurement of the Isolated Nuclear Two-Photon Decay in 72 Ge.pdf"
 raw_file: "raw/papers/gpt/high-spin-20260920/multipolarity/electromagnetic/2024_Freire-Fernandez et al_Measurement of the Isolated Nuclear Two-Photon Decay in 72 Ge.pdf"

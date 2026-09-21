@@ -16,6 +16,9 @@ volume: 35
 article: 139
 pages: "1-8"
 doi: "10.1007/s41365-024-01532-z"
+citation_key: Li_2024
+citation_key_origin: crossref-content-negotiation
+citation_key_verified: 2026-09-21
 canonical_source: "https://doi.org/10.1007/s41365-024-01532-z"
 library_file: "raw/papers/gpt/high-spin-20260920/形变/2024_Li et al_Robustness of the octupole collectivity in $${^{144}textrm{Ba}}$$ within the cranking covariant den.pdf"
 raw_file: "raw/papers/gpt/high-spin-20260920/形变/2024_Li et al_Robustness of the octupole collectivity in $${^{144}textrm{Ba}}$$ within the cranking covariant den.pdf"

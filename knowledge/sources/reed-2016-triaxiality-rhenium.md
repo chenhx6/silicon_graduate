@@ -15,6 +15,9 @@ year: 2016
 volume: 752
 pages: "311-316"
 doi: "10.1016/j.physletb.2015.11.056"
+citation_key: Reed_2016
+citation_key_origin: crossref-content-negotiation
+citation_key_verified: 2026-09-21
 canonical_source: "https://doi.org/10.1016/j.physletb.2015.11.056"
 library_file: "raw/papers/gpt/high-spin-20260920/旋称/2016_Reed et al_Impact of triaxiality on the rotational structure of neutron-rich rhenium.pdf"
 raw_file: "raw/papers/gpt/high-spin-20260920/旋称/2016_Reed et al_Impact of triaxiality on the rotational structure of neutron-rich rhenium.pdf"

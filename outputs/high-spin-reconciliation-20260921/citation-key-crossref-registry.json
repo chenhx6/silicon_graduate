@@ -1,0 +1,557 @@
+{
+  "type": "external-citation-key-registry",
+  "generated": "2026-09-21",
+  "protected_bib_modified": false,
+  "entries": [
+    {
+      "source_page": "knowledge/sources/aprahamian-2005-nuclear-astrophysics-structure.md",
+      "citation_key": "APRAHAMIAN_2005",
+      "doi": "10.1016/j.ppnp.2004.09.002",
+      "source_year": "2005",
+      "crossref_year": "2005",
+      "title_token_overlap": 1.0,
+      "verification": "Crossref DOI content negotiation / REST metadata; unique DOI, title and author-year cross-check",
+      "verified": "2026-09-21"
+    },
+    {
+      "source_page": "knowledge/sources/bargholtz-1987-high-spin-gamma-gamma-directional-correlations.md",
+      "citation_key": "Bargholtz_1987",
+      "doi": "10.1016/0168-9002(87)90295-6",
+      "source_year": "1987",
+      "crossref_year": "1987",
+      "title_token_overlap": 1.0,
+      "verification": "Crossref DOI content negotiation / REST metadata; unique DOI, title and author-year cross-check",
+      "verified": "2026-09-21"
+    },
+    {
+      "source_page": "knowledge/sources/bisoi-2014-34cl-high-spin.md",
+      "citation_key": "Bisoi_2014",
+      "doi": "10.1103/PhysRevC.89.024303",
+      "source_year": "2014",
+      "crossref_year": "2014",
+      "title_token_overlap": 0.75,
+      "verification": "Crossref DOI content negotiation / REST metadata; unique DOI, title and author-year cross-check",
+      "verified": "2026-09-21"
+    },
+    {
+      "source_page": "knowledge/sources/bucher-2016-144ba-direct-octupole.md",
+      "citation_key": "Bucher_2016",
+      "doi": "10.1103/PhysRevLett.116.112503",
+      "source_year": "2016",
+      "crossref_year": "2016",
+      "title_token_overlap": 0.86,
+      "verification": "Crossref DOI content negotiation / REST metadata; unique DOI, title and author-year cross-check",
+      "verified": "2026-09-21"
+    },
+    {
+      "source_page": "knowledge/sources/bucher-2017-146ba-direct-octupole.md",
+      "citation_key": "Bucher_2017",
+      "doi": "10.1103/PhysRevLett.118.152504",
+      "source_year": "2017",
+      "crossref_year": "2017",
+      "title_token_overlap": 0.93,
+      "verification": "Crossref DOI content negotiation / REST metadata; unique DOI, title and author-year cross-check",
+      "verified": "2026-09-21"
+    },
+    {
+      "source_page": "knowledge/sources/butler-1973-three-geli-compton-polarimeter.md",
+      "citation_key": "Butler_1973",
+      "doi": "10.1016/0029-554X(73)90530-2",
+      "source_year": "1973",
+      "crossref_year": "1973",
+      "title_token_overlap": 1.0,
+      "verification": "Crossref DOI content negotiation / REST metadata; unique DOI, title and author-year cross-check",
+      "verified": "2026-09-21"
+    },
+    {
+      "source_page": "knowledge/sources/butler-nazarewicz-1996-intrinsic-reflection-asymmetry.md",
+      "citation_key": "Butler_1996",
+      "doi": "10.1103/RevModPhys.68.349",
+      "source_year": "1996",
+      "crossref_year": "1996",
+      "title_token_overlap": 1.0,
+      "verification": "Crossref DOI content negotiation / REST metadata; unique DOI, title and author-year cross-check",
+      "verified": "2026-09-21"
+    },
+    {
+      "source_page": "knowledge/sources/das-2020-37ar-high-spin.md",
+      "citation_key": "Das_2020",
+      "doi": "10.1103/PhysRevC.101.044310",
+      "source_year": "2020",
+      "crossref_year": "2020",
+      "title_token_overlap": 0.75,
+      "verification": "Crossref DOI content negotiation / REST metadata; unique DOI, title and author-year cross-check",
+      "verified": "2026-09-21"
+    },
+    {
+      "source_page": "knowledge/sources/dey-2026-116cs-multifaceted-decay.md",
+      "citation_key": "Dey_2026",
+      "doi": "10.1103/ztcl-lpdf",
+      "source_year": "2026",
+      "crossref_year": "2026",
+      "title_token_overlap": 0.67,
+      "verification": "Crossref DOI content negotiation / REST metadata; unique DOI, title and author-year cross-check",
+      "verified": "2026-09-21"
+    },
+    {
+      "source_page": "knowledge/sources/frauendorf-2015-low-energy-quadrupole-mode.md",
+      "citation_key": "Frauendorf_2015",
+      "doi": "10.1142/S0218301315410013",
+      "source_year": "2015",
+      "crossref_year": "2015",
+      "title_token_overlap": 1.0,
+      "verification": "Crossref DOI content negotiation / REST metadata; unique DOI, title and author-year cross-check",
+      "verified": "2026-09-21"
+    },
+    {
+      "source_page": "knowledge/sources/frauendorf-2018-beyond-unified-model.md",
+      "citation_key": "Frauendorf_2018",
+      "doi": "10.1088/1402-4896/aaa2e9",
+      "source_year": "2018",
+      "crossref_year": "2018",
+      "title_token_overlap": 1.0,
+      "verification": "Crossref DOI content negotiation / REST metadata; unique DOI, title and author-year cross-check",
+      "verified": "2026-09-21"
+    },
+    {
+      "source_page": "knowledge/sources/freirefernandez-2024-isolated-two-photon-72ge.md",
+      "citation_key": "Freire_Fern_ndez_2024",
+      "doi": "10.1103/PhysRevLett.133.022502",
+      "source_year": "2024",
+      "crossref_year": "2024",
+      "title_token_overlap": 0.88,
+      "verification": "Crossref DOI content negotiation / REST metadata; unique DOI, title and author-year cross-check",
+      "verified": "2026-09-21"
+    },
+    {
+      "source_page": "knowledge/sources/gade-2015-gamma-rays-come-in-twos.md",
+      "citation_key": "Gade_2015",
+      "doi": "10.1038/526330a",
+      "source_year": "2015",
+      "crossref_year": "2015",
+      "title_token_overlap": 0.67,
+      "verification": "Crossref DOI content negotiation / REST metadata; unique DOI, title and author-year cross-check",
+      "verified": "2026-09-21"
+    },
+    {
+      "source_page": "knowledge/sources/gade-2025-62cr-shape-coexistence.md",
+      "citation_key": "Gade_2024",
+      "doi": "10.1038/s41567-024-02680-0",
+      "source_year": "2025",
+      "crossref_year": "2025",
+      "title_token_overlap": 1.0,
+      "verification": "Crossref DOI content negotiation / REST metadata; unique DOI, title and author-year cross-check",
+      "verified": "2026-09-21"
+    },
+    {
+      "source_page": "knowledge/sources/gaffney-2013-pear-shaped-rn-ra.md",
+      "citation_key": "Gaffney_2013",
+      "doi": "10.1038/nature12073",
+      "source_year": "2013",
+      "crossref_year": "2013",
+      "title_token_overlap": 1.0,
+      "verification": "Crossref DOI content negotiation / REST metadata; unique DOI, title and author-year cross-check",
+      "verified": "2026-09-21"
+    },
+    {
+      "source_page": "knowledge/sources/garciaraffi-1995-nonorthogonal-compton-polarimeter.md",
+      "citation_key": "Garcia_Raffi_1995",
+      "doi": "10.1016/0168-9002(95)00229-4",
+      "source_year": "1995",
+      "crossref_year": "1995",
+      "title_token_overlap": 1.0,
+      "verification": "Crossref DOI content negotiation / REST metadata; unique DOI, title and author-year cross-check",
+      "verified": "2026-09-21"
+    },
+    {
+      "source_page": "knowledge/sources/garg-2015-135pr-magnetic-rotation.md",
+      "citation_key": "Garg_2015",
+      "doi": "10.1103/PhysRevC.92.054325",
+      "source_year": "2015",
+      "crossref_year": "2015",
+      "title_token_overlap": 0.91,
+      "verification": "Crossref DOI content negotiation / REST metadata; unique DOI, title and author-year cross-check",
+      "verified": "2026-09-21"
+    },
+    {
+      "source_page": "knowledge/sources/grodner-2018-128cs-chiral-g-factor.md",
+      "citation_key": "Grodner_2018",
+      "doi": "10.1103/PhysRevLett.120.022502",
+      "source_year": "2018",
+      "crossref_year": "2018",
+      "title_token_overlap": 0.9,
+      "verification": "Crossref DOI content negotiation / REST metadata; unique DOI, title and author-year cross-check",
+      "verified": "2026-09-21"
+    },
+    {
+      "source_page": "knowledge/sources/hara-sun-1995-projected-shell-model-high-spin.md",
+      "citation_key": "HARA_1995",
+      "doi": "10.1142/S0218301395000250",
+      "source_year": "1995",
+      "crossref_year": "1995",
+      "title_token_overlap": 1.0,
+      "verification": "Crossref DOI content negotiation / REST metadata; unique DOI, title and author-year cross-check",
+      "verified": "2026-09-21"
+    },
+    {
+      "source_page": "knowledge/sources/henderson-2014-98mo-two-photon-upper-limit.md",
+      "citation_key": "Henderson_2014",
+      "doi": "10.1103/PhysRevC.89.064307",
+      "source_year": "2014",
+      "crossref_year": "2014",
+      "title_token_overlap": 0.9,
+      "verification": "Crossref DOI content negotiation / REST metadata; unique DOI, title and author-year cross-check",
+      "verified": "2026-09-21"
+    },
+    {
+      "source_page": "knowledge/sources/herzan-2015-193bi-spectroscopy.md",
+      "citation_key": "Herz__2015",
+      "doi": "10.1103/PhysRevC.92.044310",
+      "source_year": "2015",
+      "crossref_year": "2015",
+      "title_token_overlap": 0.67,
+      "verification": "Crossref DOI content negotiation / REST metadata; unique DOI, title and author-year cross-check",
+      "verified": "2026-09-21"
+    },
+    {
+      "source_page": "knowledge/sources/heyde-wood-2011-shape-coexistence-review.md",
+      "citation_key": "Heyde_2011",
+      "doi": "10.1103/RevModPhys.83.1467",
+      "source_year": "2011",
+      "crossref_year": "2011",
+      "title_token_overlap": 1.0,
+      "verification": "Crossref DOI content negotiation / REST metadata; unique DOI, title and author-year cross-check",
+      "verified": "2026-09-21"
+    },
+    {
+      "source_page": "knowledge/sources/hubel-2005-magnetic-rotation-review.md",
+      "citation_key": "H_bel_2005",
+      "doi": "10.1016/j.ppnp.2004.06.002",
+      "source_year": "2005",
+      "crossref_year": "2005",
+      "title_token_overlap": 1.0,
+      "verification": "Crossref DOI content negotiation / REST metadata; unique DOI, title and author-year cross-check",
+      "verified": "2026-09-21"
+    },
+    {
+      "source_page": "knowledge/sources/ionescu-bujor-1998-static-moments-129-131ce.md",
+      "citation_key": "Ionescu_Bujor_1998",
+      "doi": "10.1016/S0375-9474(98)00157-2",
+      "source_year": "1998",
+      "crossref_year": "1998",
+      "title_token_overlap": 1.0,
+      "verification": "Crossref DOI content negotiation / REST metadata; unique DOI, title and author-year cross-check",
+      "verified": "2026-09-21"
+    },
+    {
+      "source_page": "knowledge/sources/jensen-2001-165tm-h9-2-configuration.md",
+      "citation_key": "Jensen_2001",
+      "doi": "10.1016/S0375-9474(01)01111-3",
+      "source_year": "2001",
+      "crossref_year": "2001",
+      "title_token_overlap": 1.0,
+      "verification": "Crossref DOI content negotiation / REST metadata; unique DOI, title and author-year cross-check",
+      "verified": "2026-09-21"
+    },
+    {
+      "source_page": "knowledge/sources/karthein-2024-electromagnetic-properties-indium-100sn.md",
+      "citation_key": "Karthein_2024",
+      "doi": "10.1038/s41567-024-02612-y",
+      "source_year": "2024",
+      "crossref_year": "2024",
+      "title_token_overlap": 1.0,
+      "verification": "Crossref DOI content negotiation / REST metadata; unique DOI, title and author-year cross-check",
+      "verified": "2026-09-21"
+    },
+    {
+      "source_page": "knowledge/sources/konigshofen-2001-mixing-ratios-130ba.md",
+      "citation_key": "K_nigshofen_2001",
+      "doi": "10.1103/PhysRevC.64.037302",
+      "source_year": "2001",
+      "crossref_year": "2001",
+      "title_token_overlap": 0.75,
+      "verification": "Crossref DOI content negotiation / REST metadata; unique DOI, title and author-year cross-check",
+      "verified": "2026-09-21"
+    },
+    {
+      "source_page": "knowledge/sources/krane-steffen-1970-cd110-mixing-ratios.md",
+      "citation_key": "Krane_1970",
+      "doi": "10.1103/PhysRevC.2.724",
+      "source_year": "1970",
+      "crossref_year": "1970",
+      "title_token_overlap": 0.88,
+      "verification": "Crossref DOI content negotiation / REST metadata; unique DOI, title and author-year cross-check",
+      "verified": "2026-09-21"
+    },
+    {
+      "source_page": "knowledge/sources/li-2024-144ba-octupole-cdf-3d-lattice.md",
+      "citation_key": "Li_2024",
+      "doi": "10.1007/s41365-024-01532-z",
+      "source_year": "2024",
+      "crossref_year": "2024",
+      "title_token_overlap": 0.92,
+      "verification": "Crossref DOI content negotiation / REST metadata; unique DOI, title and author-year cross-check",
+      "verified": "2026-09-21"
+    },
+    {
+      "source_page": "knowledge/sources/lister-butterworth-2013-pear-shaped-nuclei.md",
+      "citation_key": "Lister_2013",
+      "doi": "10.1038/497190a",
+      "source_year": "2013",
+      "crossref_year": "2013",
+      "title_token_overlap": 1.0,
+      "verification": "Crossref DOI content negotiation / REST metadata; unique DOI, title and author-year cross-check",
+      "verified": "2026-09-21"
+    },
+    {
+      "source_page": "knowledge/sources/liu-1996-signature-inversion-a130.md",
+      "citation_key": "Liu_1996",
+      "doi": "10.1103/PhysRevC.54.719",
+      "source_year": "1996",
+      "crossref_year": "1996",
+      "title_token_overlap": 0.8,
+      "verification": "Crossref DOI content negotiation / REST metadata; unique DOI, title and author-year cross-check",
+      "verified": "2026-09-21"
+    },
+    {
+      "source_page": "knowledge/sources/logan-1974-generalized-polarimeter-merit.md",
+      "citation_key": "Logan_1974",
+      "doi": "10.1016/0029-554X(74)90409-1",
+      "source_year": "1974",
+      "crossref_year": "1974",
+      "title_token_overlap": 1.0,
+      "verification": "Crossref DOI content negotiation / REST metadata; unique DOI, title and author-year cross-check",
+      "verified": "2026-09-21"
+    },
+    {
+      "source_page": "knowledge/sources/lv-2019-chirality-135nd-reexamined.md",
+      "citation_key": "Lv_2019",
+      "doi": "10.1103/PhysRevC.100.024314",
+      "source_year": "2019",
+      "crossref_year": "2019",
+      "title_token_overlap": 0.89,
+      "verification": "Crossref DOI content negotiation / REST metadata; unique DOI, title and author-year cross-check",
+      "verified": "2026-09-21"
+    },
+    {
+      "source_page": "knowledge/sources/ma-1990-131ba-competing-alignments.md",
+      "citation_key": "Ma_1990",
+      "doi": "10.1103/PhysRevC.41.717",
+      "source_year": "1990",
+      "crossref_year": "1990",
+      "title_token_overlap": 0.89,
+      "verification": "Crossref DOI content negotiation / REST metadata; unique DOI, title and author-year cross-check",
+      "verified": "2026-09-21"
+    },
+    {
+      "source_page": "knowledge/sources/macchiavelli-2018-erratum-spectroscopic-factors-be.md",
+      "citation_key": "Macchiavelli_2018",
+      "doi": "10.1103/PhysRevC.97.049902",
+      "source_year": "2018",
+      "crossref_year": "2018",
+      "title_token_overlap": 0.83,
+      "verification": "Crossref DOI content negotiation / REST metadata; unique DOI, title and author-year cross-check",
+      "verified": "2026-09-21"
+    },
+    {
+      "source_page": "knowledge/sources/mccutchan-2007-gamma-band-staggering.md",
+      "citation_key": "McCutchan_2007",
+      "doi": "10.1103/PhysRevC.76.024306",
+      "source_year": "2007",
+      "crossref_year": "2007",
+      "title_token_overlap": 1.0,
+      "verification": "Crossref DOI content negotiation / REST metadata; unique DOI, title and author-year cross-check",
+      "verified": "2026-09-21"
+    },
+    {
+      "source_page": "knowledge/sources/meyer-1978-multiparticle-configurations-61ni-67zn.md",
+      "citation_key": "Meyer_1978",
+      "doi": "10.1103/PhysRevC.17.1822",
+      "source_year": "1978",
+      "crossref_year": "1978",
+      "title_token_overlap": 0.64,
+      "verification": "Crossref DOI content negotiation / REST metadata; unique DOI, title and author-year cross-check",
+      "verified": "2026-09-21"
+    },
+    {
+      "source_page": "knowledge/sources/miller-2007-sega-polarization.md",
+      "citation_key": "Miller_2007",
+      "doi": "10.1016/j.nima.2007.07.141",
+      "source_year": "2007",
+      "crossref_year": "2007",
+      "title_token_overlap": 1.0,
+      "verification": "Crossref DOI content negotiation / REST metadata; unique DOI, title and author-year cross-check",
+      "verified": "2026-09-21"
+    },
+    {
+      "source_page": "knowledge/sources/moller-2006-global-axial-asymmetry.md",
+      "citation_key": "M_ller_2006",
+      "doi": "10.1103/PhysRevLett.97.162502",
+      "source_year": "2006",
+      "crossref_year": "2006",
+      "title_token_overlap": 1.0,
+      "verification": "Crossref DOI content negotiation / REST metadata; unique DOI, title and author-year cross-check",
+      "verified": "2026-09-21"
+    },
+    {
+      "source_page": "knowledge/sources/mukhopadhyay-2007-135nd-chiral-vibration-static.md",
+      "citation_key": "Mukhopadhyay_2007",
+      "doi": "10.1103/PhysRevLett.99.172501",
+      "source_year": "2007",
+      "crossref_year": "2007",
+      "title_token_overlap": 0.83,
+      "verification": "Crossref DOI content negotiation / REST metadata; unique DOI, title and author-year cross-check",
+      "verified": "2026-09-21"
+    },
+    {
+      "source_page": "knowledge/sources/mukhopadhyay-2008-136nd-transition-rates.md",
+      "citation_key": "Mukhopadhyay_2008",
+      "doi": "10.1103/PhysRevC.78.034311",
+      "source_year": "2008",
+      "crossref_year": "2008",
+      "title_token_overlap": 0.86,
+      "verification": "Crossref DOI content negotiation / REST metadata; unique DOI, title and author-year cross-check",
+      "verified": "2026-09-21"
+    },
+    {
+      "source_page": "knowledge/sources/petrache-2006-near-degenerate-chiral-misinterpretation.md",
+      "citation_key": "Petrache_2006",
+      "doi": "10.1103/PhysRevLett.96.112502",
+      "source_year": "2006",
+      "crossref_year": "2006",
+      "title_token_overlap": 1.0,
+      "verification": "Crossref DOI content negotiation / REST metadata; unique DOI, title and author-year cross-check",
+      "verified": "2026-09-21"
+    },
+    {
+      "source_page": "knowledge/sources/pfutzner-2012-radioactive-decays-stability-limits.md",
+      "citation_key": "Pf_tzner_2012",
+      "doi": "10.1103/RevModPhys.84.567",
+      "source_year": "2012",
+      "crossref_year": "2012",
+      "title_token_overlap": 1.0,
+      "verification": "Crossref DOI content negotiation / REST metadata; unique DOI, title and author-year cross-check",
+      "verified": "2026-09-21"
+    },
+    {
+      "source_page": "knowledge/sources/rahaman-2024-40k-spectroscopy.md",
+      "citation_key": "Rahaman_2024",
+      "doi": "10.1103/PhysRevC.109.024318",
+      "source_year": "2024",
+      "crossref_year": "2024",
+      "title_token_overlap": 0.67,
+      "verification": "Crossref DOI content negotiation / REST metadata; unique DOI, title and author-year cross-check",
+      "verified": "2026-09-21"
+    },
+    {
+      "source_page": "knowledge/sources/reed-2016-triaxiality-rhenium.md",
+      "citation_key": "Reed_2016",
+      "doi": "10.1016/j.physletb.2015.11.056",
+      "source_year": "2016",
+      "crossref_year": "2016",
+      "title_token_overlap": 1.0,
+      "verification": "Crossref DOI content negotiation / REST metadata; unique DOI, title and author-year cross-check",
+      "verified": "2026-09-21"
+    },
+    {
+      "source_page": "knowledge/sources/rees-2011-156er-nonyrast-gamma-soft.md",
+      "citation_key": "Rees_2011",
+      "doi": "10.1103/PhysRevC.83.044314",
+      "source_year": "2011",
+      "crossref_year": "2011",
+      "title_token_overlap": 0.89,
+      "verification": "Crossref DOI content negotiation / REST metadata; unique DOI, title and author-year cross-check",
+      "verified": "2026-09-21"
+    },
+    {
+      "source_page": "knowledge/sources/samanta-2019-single-particle-configurations-61ni.md",
+      "citation_key": "Samanta_2019",
+      "doi": "10.1103/PhysRevC.99.014315",
+      "source_year": "2019",
+      "crossref_year": "2019",
+      "title_token_overlap": 0.75,
+      "verification": "Crossref DOI content negotiation / REST metadata; unique DOI, title and author-year cross-check",
+      "verified": "2026-09-21"
+    },
+    {
+      "source_page": "knowledge/sources/sensharma-2026-evolution-chirality-transverse-wobbling-135pr.md",
+      "citation_key": "Sensharma_2026",
+      "doi": "10.1103/3g4p-ncjn",
+      "source_year": "2026",
+      "crossref_year": "2026",
+      "title_token_overlap": 0.83,
+      "verification": "Crossref DOI content negotiation / REST metadata; unique DOI, title and author-year cross-check",
+      "verified": "2026-09-21"
+    },
+    {
+      "source_page": "knowledge/sources/simpson-1983-sectored-geli-compton-polarimeter.md",
+      "citation_key": "Simpson_1983",
+      "doi": "10.1016/0167-5087(83)90074-1",
+      "source_year": "1983",
+      "crossref_year": "1983",
+      "title_token_overlap": 1.0,
+      "verification": "Crossref DOI content negotiation / REST metadata; unique DOI, title and author-year cross-check",
+      "verified": "2026-09-21"
+    },
+    {
+      "source_page": "knowledge/sources/soderstrom-2020-137ba-competitive-gamma.md",
+      "citation_key": "S_derstr_m_2020",
+      "doi": "10.1038/s41467-020-16787-4",
+      "source_year": "2020",
+      "crossref_year": "2020",
+      "title_token_overlap": 1.0,
+      "verification": "Crossref DOI content negotiation / REST metadata; unique DOI, title and author-year cross-check",
+      "verified": "2026-09-21"
+    },
+    {
+      "source_page": "knowledge/sources/stephens-1975-coriolis-rotation-alignment.md",
+      "citation_key": "Stephens_1975",
+      "doi": "10.1103/RevModPhys.47.43",
+      "source_year": "1975",
+      "crossref_year": "1975",
+      "title_token_overlap": 1.0,
+      "verification": "Crossref DOI content negotiation / REST metadata; unique DOI, title and author-year cross-check",
+      "verified": "2026-09-21"
+    },
+    {
+      "source_page": "knowledge/sources/taras-1970-particle-gamma-angular-correlations.md",
+      "citation_key": "Taras_1970",
+      "doi": "10.1016/0029-554X(70)90251-X",
+      "source_year": "1970",
+      "crossref_year": "1970",
+      "title_token_overlap": 1.0,
+      "verification": "Crossref DOI content negotiation / REST metadata; unique DOI, title and author-year cross-check",
+      "verified": "2026-09-21"
+    },
+    {
+      "source_page": "knowledge/sources/walz-2015-competitive-double-gamma-137ba.md",
+      "citation_key": "Walz_2015",
+      "doi": "10.1038/nature15543",
+      "source_year": "2015",
+      "crossref_year": "2015",
+      "title_token_overlap": 1.0,
+      "verification": "Crossref DOI content negotiation / REST metadata; unique DOI, title and author-year cross-check",
+      "verified": "2026-09-21"
+    },
+    {
+      "source_page": "knowledge/sources/wu-2021-general-purpose-digital-daq-waveform-analysis.md",
+      "citation_key": "Wu_2021",
+      "doi": "10.1360/TB-2021-0552",
+      "source_year": "2021",
+      "crossref_year": "2021",
+      "title_token_overlap": 0.0,
+      "verification": "Crossref DOI content negotiation / REST metadata; unique DOI, title and author-year cross-check",
+      "verified": "2026-09-21"
+    },
+    {
+      "source_page": "knowledge/sources/zheng-2013-linear-polarization-91ru.md",
+      "citation_key": "Zheng_2013",
+      "doi": "10.1103/PhysRevC.87.044328",
+      "source_year": "2013",
+      "crossref_year": "2013",
+      "title_token_overlap": 0.88,
+      "verification": "Crossref DOI content negotiation / REST metadata; unique DOI, title and author-year cross-check",
+      "verified": "2026-09-21"
+    }
+  ]
+}

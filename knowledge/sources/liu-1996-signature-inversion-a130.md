@@ -15,6 +15,9 @@ year: 1996
 volume: 54
 pages: "719-730"
 doi: "10.1103/PhysRevC.54.719"
+citation_key: Liu_1996
+citation_key_origin: crossref-content-negotiation
+citation_key_verified: 2026-09-21
 canonical_source: "Liu et al., Phys. Rev. C 54, 719-730 (1996)"
 library_file: "raw/papers/gpt/high-spin-20260920/旋称/1996_Liu et al_Systematic study of spin assignments and signature inversion of π h 1 1 - 2 ⊗ν.pdf"
 raw_file: "raw/papers/gpt/high-spin-20260920/旋称/1996_Liu et al_Systematic study of spin assignments and signature inversion of π h 1 1 - 2 ⊗ν.pdf"

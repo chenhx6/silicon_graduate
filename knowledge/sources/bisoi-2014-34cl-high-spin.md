@@ -15,6 +15,9 @@ year: 2014
 volume: 89
 pages: "024303"
 doi: "10.1103/PhysRevC.89.024303"
+citation_key: Bisoi_2014
+citation_key_origin: crossref-content-negotiation
+citation_key_verified: 2026-09-21
 canonical_source: "Bisoi et al., Phys. Rev. C 89, 024303 (2014)"
 library_file: "raw/papers/gpt/high-spin-20260920/纲图/2014_Bisoi et al_High spin spectroscopy in 34 Cl.pdf"
 raw_file: "raw/papers/gpt/high-spin-20260920/纲图/2014_Bisoi et al_High spin spectroscopy in 34 Cl.pdf"

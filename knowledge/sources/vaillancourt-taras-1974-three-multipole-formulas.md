@@ -12,6 +12,7 @@ title_original: "Gamma-ray linear-polarization and angular-distribution formulas
 authors: [R. Vaillancourt, P. Taras]
 journal: "Nuclear Instruments and Methods"
 year: 1974
+citation_key: vaillancourt_1974_Gammaray
 volume: 114
 pages: "333-340"
 pii: "0029-554X(74)90552-7"

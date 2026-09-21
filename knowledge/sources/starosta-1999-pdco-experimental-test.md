@@ -12,6 +12,7 @@ title_original: "Experimental test of the polarization direction correlation met
 authors: [K. Starosta, T. Morek, Ch. Droste, S. G. Rohozinski, J. Srebrny, A. Wierzchucka, M. Bergström, B. Herskind, E. Melby, T. Czosnyka, P. J. Napiorkowski]
 journal: "Nuclear Instruments and Methods in Physics Research A"
 year: 1999
+citation_key: starosta_1999_Experimental
 volume: 423
 pages: "16-26"
 pii: "S0168-9002(98)01220-0"

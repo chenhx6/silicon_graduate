@@ -15,6 +15,9 @@ year: 1987
 volume: 256
 pages: "513-520"
 doi: "10.1016/0168-9002(87)90295-6"
+citation_key: Bargholtz_1987
+citation_key_origin: crossref-content-negotiation
+citation_key_verified: 2026-09-21
 language: en
 canonical_source: "Bargholtz, C. & Tegnér, P.-E. Gamma-gamma directional correlations: simplifications at high spin. Nucl. Instrum. Methods Phys. Res. A 256, 513-520 (1987)."
 library_file: "raw/papers/gpt/high-spin-20260920/multipolarity/angular distribution/DCO/1987_Bargholtz_Tegnér_Gamma-gamma directional correlations.pdf"

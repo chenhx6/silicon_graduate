@@ -15,6 +15,9 @@ year: 1973
 volume: 108
 pages: "497-502"
 doi: "10.1016/0029-554X(73)90530-2"
+citation_key: Butler_1973
+citation_key_origin: crossref-content-negotiation
+citation_key_verified: 2026-09-21
 language: en
 canonical_source: "Butler, P. A. et al. Construction and use of a three Ge(Li) Compton polarimeter. Nucl. Instrum. Methods 108, 497-502 (1973)."
 library_file: "raw/papers/gpt/high-spin-20260920/multipolarity/angular distribution/polarizaiton/1973_Butler et al_Construction and use of a three Ge(Li) Compton polarimeter.pdf"

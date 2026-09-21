@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "run_id": "high-spin-reconciliation-20260921",
-  "status": "complete",
+  "status": "complete-with-registered-residuals",
   "row_source": "outputs/high-spin-learning-20260920/ledger.json",
   "baseline": {
     "original_rows": 127,
@@ -56,14 +56,14 @@
     {"id":"L3-OCT-E3-E1-003","status":"completed-with-model-gap"},
     {"id":"L3-ADO-DELTA-004","status":"completed-method-boundary"}
   ],
-  "l4": {"status":"not-started","reason":"No complete public event, response, covariance and code package identified for the selected units."},
+  "l4": {"status":"not-started-safe-suspended","reason":"Public-input scans found no complete event/response/covariance/code package; 137Ba readiness is recorded separately and no pseudo-result was generated."},
   "external_research": {
     "enabled": true,
     "trigger": "specific unresolved claim or discriminating observable only",
     "source_ids": "EXT-YYYYMMDD-NNN",
     "denominator_policy": "external sources are separate from the original 127 rows",
     "retrieval_policy": "traceable open, institutional or user-supplied full text; record metadata-only blockers",
-    "completed_units": ["EXT-20260921-001"]
+    "completed_units": ["EXT-20260921-001", "EXT-20260921-002", "EXT-20260921-003"]
   },
-  "next_task": "No required task remains; future work is a new research question or optional QMD orphan cleanup."
+  "next_task": "Retain 76 citation-key and 3 underdetermined-reaction residuals explicitly; reopen L4 only when a complete public/authorized data-response-covariance-code package appears."
 }

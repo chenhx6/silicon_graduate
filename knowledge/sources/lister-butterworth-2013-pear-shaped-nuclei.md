@@ -15,6 +15,9 @@ year: 2013
 volume: 497
 pages: "190-191"
 doi: "10.1038/497190a"
+citation_key: Lister_2013
+citation_key_origin: crossref-content-negotiation
+citation_key_verified: 2026-09-21
 canonical_source: "https://doi.org/10.1038/497190a"
 library_file: "raw/papers/gpt/high-spin-20260920/形变/2013_Lister_Butterworth_Exotic pear-shaped nuclei.pdf"
 raw_file: "raw/papers/gpt/high-spin-20260920/形变/2013_Lister_Butterworth_Exotic pear-shaped nuclei.pdf"

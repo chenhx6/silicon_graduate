@@ -12,6 +12,7 @@ title_original: "Directional correlations of gamma radiations emitted from nucle
 authors: [K. S. Krane, R. M. Steffen, R. M. Wheeler]
 journal: "Nuclear Data Tables"
 year: 1973
+citation_key: krane_1973_Directionalcorrelations
 volume: 11
 pages: "351-406"
 pii: "S0092-640X(73)80016-6"

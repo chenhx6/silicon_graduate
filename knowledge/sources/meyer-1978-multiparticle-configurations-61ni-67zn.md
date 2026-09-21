@@ -16,6 +16,9 @@ volume: 17
 issue: 5
 pages: "1822-1830"
 doi: "10.1103/PhysRevC.17.1822"
+citation_key: Meyer_1978
+citation_key_origin: crossref-content-negotiation
+citation_key_verified: 2026-09-21
 language: en
 canonical_source: "Meyer, R. A. et al. Multiparticle configurations in the odd-neutron nuclei 61Ni and 67Zn populated by decay of 61Cu, 67Cu, and 67Ga. Phys. Rev. C 17, 1822-1830 (1978)."
 library_file: "raw/papers/gpt/high-spin-20260920/纲图/1978_Meyer et al_Multiparticle configurations in the odd-neutron nuclei Ni 61 and Zn 67.pdf"

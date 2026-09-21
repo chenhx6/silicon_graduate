@@ -15,6 +15,9 @@ year: 2011
 volume: 83
 pages: "1467-1512"
 doi: "10.1103/RevModPhys.83.1467"
+citation_key: Heyde_2011
+citation_key_origin: crossref-content-negotiation
+citation_key_verified: 2026-09-21
 canonical_source: "https://doi.org/10.1103/RevModPhys.83.1467"
 library_file: "raw/papers/gpt/high-spin-20260920/review/2011_Heyde_Wood_Shape coexistence in atomic nuclei.pdf"
 raw_file: "raw/papers/gpt/high-spin-20260920/review/2011_Heyde_Wood_Shape coexistence in atomic nuclei.pdf"

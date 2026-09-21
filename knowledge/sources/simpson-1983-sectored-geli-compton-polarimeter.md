@@ -15,6 +15,9 @@ year: 1983
 volume: 204
 pages: "463-469"
 doi: "10.1016/0167-5087(83)90074-1"
+citation_key: Simpson_1983
+citation_key_origin: crossref-content-negotiation
+citation_key_verified: 2026-09-21
 language: en
 canonical_source: "Simpson, J., Butler, P. A. & Ekström, L. P. Application of a sectored Ge(Li) detector as a Compton polarimeter. Nucl. Instrum. Methods 204, 463-469 (1983)."
 library_file: "raw/papers/gpt/high-spin-20260920/multipolarity/angular distribution/polarizaiton/1983_Simpson et al_Application of a sectored Ge(Li) detector as a Compton polarimeter.pdf"

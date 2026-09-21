@@ -415,6 +415,7 @@ updated: 2026-09-21
 - [[low-spin-wobbling-controversies]] - `135Pr/187Au` 低自旋 wobbling identification 跨案例证据地图；接入 γ-soft 背景、Lawrie 2020/TiP、`135Nd` reference 与 Nomura 2022 IBFM alternative。
 - [[sigma-over-i-uncertainty-in-pado-mixing-ratio-extraction]] - 支持 NST/P-ADO 写作的 `σ/I` 预设困难、alignment uncertainty 与 feeding dependence evidence map。
 - [[100sn-gamow-teller-independent-evidence]] - 比较 GSI/RIKEN 两条独立 `100Sn` 衰变谱学链的 B(GT)、Q/endpoint 与 `100In` 能级证据边界。
+- [[source-provenance-coverage-map]] - 全库 source 页图谱归属与 provenance registry；明确哪些 source 尚未由领域页承接，不替代科学审核。
 
  - [[gamma-ray-linear-polarization-in-nuclear-spectroscopy]] - P/A/Q formalism、Compton detector technologies、GRETINA relativistic corrections 与 P-ADO bridge 的 evidence map。
 

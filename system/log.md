@@ -1229,3 +1229,17 @@ updated: 2026-07-15
 - Completed the Codex self-audit continuation: 55 degree PDFs (54 unique hashes and one duplicate), 46 degree source mappings, 143/143 source SHA matches, index 428/428, four acquisition manifests, and protected-path checks all passed. L3 remains `55/31/21/3` and L4 remains `0`, with scientific partial/stopped boundaries preserved.
 - The rolling WIP was amended to `Finalize degree dissertation corpus L3/L4 research 20260912`; the package contains the external `135Nd`, `100Sn`, `135Pr` and `187Au` crosswalk updates, governance synchronization, reports, handoff and queue reconciliation. The exact commit hash is kept in the task receipt, not in repository content.
 - Final local gates passed: Wiki lint `errors=0`, 20 system tests `OK`, preflight `ok=true`, staged diff check clean, and the protected Zotero BibTeX SHA matched the baseline. Raw PDFs, OCR artifacts, local plans, temporary reading directories and protected BibTeX remained outside the commit.
+
+## [2026-09-21] continuation | residual citation, graph and L4-input audit
+
+- Corrected the audit boundary: the prior whole-library receipt covered structural integrity, not automatic resolution of every metadata or data-availability residual.
+- Expanded the reaction parser/element map with regression tests; three genuinely underdetermined multi-channel reactions remain warnings. Restored 19 local-BibTeX citation keys and 55 Crossref-verified DOI keys without modifying protected BibTeX; 76 keys remain intentionally unmapped and are listed in the citation-key audit.
+- Added the source-provenance coverage map for 59 former graph orphans, and a public-data readiness audit for the `137Ba` double-γ question. The cited Mendeley snapshot is unavailable at the checked endpoint; no L4 pseudo-result was generated.
+
+## [2026-09-21] maintenance | QMD residual cache refresh
+
+- Re-indexed the knowledge collection and completed CPU embedding for the post-pass tree. QMD now reports 532 Markdown documents, 2,172 current vectors, zero pending vectors and zero retained orphan chunks after compaction. This cache state does not change scientific review status.
+
+## [2026-09-21] git | residual-resolution package committed
+
+- Committed the explicit residual-resolution package as `Resolve high-spin audit residuals and L4 readiness` on `main`. The package contains the parser/tests, Crossref key registry, provenance hub, public-input manifests, readiness audits, reports and handoff/log reconciliation. Protected BibTeX, raw PDFs, local reading records and temporary visual/OCR artifacts remain outside the commit.

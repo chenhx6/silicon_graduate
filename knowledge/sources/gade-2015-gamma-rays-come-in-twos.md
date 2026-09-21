@@ -16,6 +16,9 @@ volume: 526
 issue: 7573
 pages: "330-331"
 doi: "10.1038/526330a"
+citation_key: Gade_2015
+citation_key_origin: crossref-content-negotiation
+citation_key_verified: 2026-09-21
 language: en
 canonical_source: "Gade, A. Nuclear physics: Sometimes γ-rays come in twos. Nature 526, 330-331 (2015)."
 library_file: "raw/papers/gpt/high-spin-20260920/multipolarity/electromagnetic/2015_Gade_Sometimes γ-rays come in twos.pdf"

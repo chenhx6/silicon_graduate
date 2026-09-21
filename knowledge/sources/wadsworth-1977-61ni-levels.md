@@ -12,6 +12,7 @@ title_original: "Gamma ray spectroscopy in 61Ni-levels below 2.2 MeV in excitati
 authors: [R. Wadsworth, A. Kogan, P. R. G. Lornie, M. R. Nixon, H. G. Price, P. J. Twin]
 journal: "Journal of Physics G: Nuclear Physics"
 year: 1977
+citation_key: wadsworth_1977_Gamma
 volume: 3
 pages: "35-53"
 canonical_source: "Wadsworth et al., J. Phys. G 3, 35-53 (1977)"

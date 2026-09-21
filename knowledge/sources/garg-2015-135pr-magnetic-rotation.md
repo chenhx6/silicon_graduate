@@ -15,6 +15,9 @@ year: 2015
 volume: 92
 pages: "054325"
 doi: "10.1103/PhysRevC.92.054325"
+citation_key: Garg_2015
+citation_key_origin: crossref-content-negotiation
+citation_key_verified: 2026-09-21
 canonical_source: "Garg et al., Phys. Rev. C 92, 054325 (2015)"
 library_file: "raw/papers/gpt/high-spin-20260920/纲图/2015_Garg et al_Negative-parity high-spin states and a possible magnetic rotation band in Pr 76.pdf"
 raw_file: "raw/papers/gpt/high-spin-20260920/纲图/2015_Garg et al_Negative-parity high-spin states and a possible magnetic rotation band in Pr 76.pdf"

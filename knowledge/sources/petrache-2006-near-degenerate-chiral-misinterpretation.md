@@ -15,6 +15,9 @@ year: 2006
 volume: 96
 pages: "112502"
 doi: "10.1103/PhysRevLett.96.112502"
+citation_key: Petrache_2006
+citation_key_origin: crossref-content-negotiation
+citation_key_verified: 2026-09-21
 canonical_source: "https://doi.org/10.1103/PhysRevLett.96.112502"
 library_file: "raw/papers/gpt/high-spin-20260920/三轴/手征/2006_Petrache et al_Risk of Misinterpretation of Nearly Degenerate Pair Bands as Chiral Partners in.pdf"
 raw_file: "raw/papers/gpt/high-spin-20260920/三轴/手征/2006_Petrache et al_Risk of Misinterpretation of Nearly Degenerate Pair Bands as Chiral Partners in.pdf"

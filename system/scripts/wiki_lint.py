@@ -27,9 +27,11 @@ WIKILINK_RE = re.compile(r"\[\[([^\]|#]+)")
 HEADING_RE = re.compile(r"^##\s+(.+?)\s*$", re.MULTILINE)
 FIELD_RE = re.compile(r"^([A-Za-z0-9_-]+):(?:\s*(.*))?$")
 REACTION_RE = re.compile(
-    r"^\s*(\d+)([A-Za-z]+)\((\d+)([A-Za-z]+),\s*(\d+)n(?:\s+gamma)?\)(\d+)([A-Za-z]+)\s*$",
+    r"^\s*(\d+)([A-Za-z]+)\((\d+)([A-Za-z]+),\s*([^)]+)\)(\d+)([A-Za-z]+)\s*$",
     re.IGNORECASE,
 )
+EXACT_CHANNEL_RE = re.compile(r"^(?:(\d*)p)?(?:(\d*)n)?(?:\s+gamma)?$", re.IGNORECASE)
+SPONTANEOUS_FISSION_RE = re.compile(r"^\s*(\d+)([A-Za-z]+)\s+spontaneous fission\s*$", re.IGNORECASE)
 
 
 @dataclass(frozen=True)
@@ -420,6 +422,14 @@ def validate_nucleus(page: Page, config: dict[str, Any], issues: list[Issue]) ->
 
 def validate_experiment(page: Page, config: dict[str, Any], issues: list[Issue]) -> None:
     reaction = str(page.meta.get("reaction", ""))
+    element_z = config["element_z"]
+    fission = SPONTANEOUS_FISSION_RE.fullmatch(reaction)
+    if fission:
+        _, parent_element = fission.groups()
+        if parent_element.lower() not in element_z:
+            add(issues, "warning", "REACTION_ELEMENT", page.relative, "fission parent contains unconfigured element")
+        # The product channel is not specified, so conservation cannot be checked here.
+        return
     match = REACTION_RE.fullmatch(reaction)
     if not match:
         add(
@@ -430,14 +440,18 @@ def validate_experiment(page: Page, config: dict[str, Any], issues: list[Issue])
             f"reaction not automatically parsed: {reaction!r}",
         )
         return
-    target_a, target_e, beam_a, beam_e, emitted_n, residual_a, residual_e = match.groups()
-    element_z = config["element_z"]
+    target_a, target_e, beam_a, beam_e, channel, residual_a, residual_e = match.groups()
     symbols = (target_e.lower(), beam_e.lower(), residual_e.lower())
     if any(symbol not in element_z for symbol in symbols):
         add(issues, "warning", "REACTION_ELEMENT", page.relative, "reaction contains unconfigured element")
         return
-    expected_a = int(target_a) + int(beam_a) - int(emitted_n)
-    expected_z = element_z[target_e.lower()] + element_z[beam_e.lower()]
+    exact_channel = EXACT_CHANNEL_RE.fullmatch(channel)
+    if exact_channel is None or not any(group is not None for group in exact_channel.groups()):
+        add(issues, "warning", "REACTION_CHANNEL_UNRESOLVED", page.relative, f"evaporation channel cannot be balanced: {channel!r}")
+        return
+    protons, neutrons = (int(group or 1) if group is not None else 0 for group in exact_channel.groups())
+    expected_a = int(target_a) + int(beam_a) - protons - neutrons
+    expected_z = element_z[target_e.lower()] + element_z[beam_e.lower()] - protons
     if expected_a != int(residual_a) or expected_z != element_z[residual_e.lower()]:
         add(
             issues,

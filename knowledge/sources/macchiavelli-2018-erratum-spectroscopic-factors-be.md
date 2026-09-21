@@ -16,6 +16,9 @@ volume: 97
 article: 049902
 pages: "1"
 doi: "10.1103/PhysRevC.97.049902"
+citation_key: Macchiavelli_2018
+citation_key_origin: crossref-content-negotiation
+citation_key_verified: 2026-09-21
 canonical_source: "https://doi.org/10.1103/PhysRevC.97.049902"
 library_file: "raw/papers/gpt/high-spin-20260920/三轴/进动/实验/2018_Macchiavelli et al_Erratum.pdf"
 raw_file: "raw/papers/gpt/high-spin-20260920/三轴/进动/实验/2018_Macchiavelli et al_Erratum.pdf"

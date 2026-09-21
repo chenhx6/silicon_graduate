@@ -12,6 +12,7 @@ title_original: "Unexpected rapid variations in odd-even level staggering in gam
 authors: [P. M. Gore, E. F. Jones, J. H. Hamilton, A. V. Ramayya, X. Q. Zhang, J. K. Hwang, Y. X. Luo, K. Li, S. J. Zhu, W. C. Ma, J. O. Rasmussen, I. Y. Lee, M. Stoyer, J. D. Cole, A. V. Daniel, G. M. Ter-Akopian, Yu. Ts. Oganessian, R. Donangelo, B. J. Gupta]
 journal: "European Physical Journal A"
 year: 2005
+citation_key: gore_2005_Unexpected
 volume: 25
 pages: "471-472"
 doi: "10.1140/epjad/i2005-06-178-9"

@@ -15,6 +15,9 @@ year: 1990
 volume: 41
 pages: "717-728"
 doi: "10.1103/PhysRevC.41.717"
+citation_key: Ma_1990
+citation_key_origin: crossref-content-negotiation
+citation_key_verified: 2026-09-21
 canonical_source: "Ma et al., Phys. Rev. C 41, 717-728 (1990)"
 library_file: "raw/papers/gpt/high-spin-20260920/形变/1990_Ma et al_Competing proton and neutron rotational alignments.pdf"
 raw_file: "raw/papers/gpt/high-spin-20260920/形变/1990_Ma et al_Competing proton and neutron rotational alignments.pdf"

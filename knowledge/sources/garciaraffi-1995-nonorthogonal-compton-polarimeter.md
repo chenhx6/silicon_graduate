@@ -15,6 +15,9 @@ year: 1995
 volume: 359
 pages: "628-631"
 doi: "10.1016/0168-9002(95)00229-4"
+citation_key: Garcia_Raffi_1995
+citation_key_origin: crossref-content-negotiation
+citation_key_verified: 2026-09-21
 language: en
 canonical_source: "Garcia-Raffi, L. M. et al. Non-orthogonal gamma-ray Compton polarimeters. Nucl. Instrum. Methods Phys. Res. A 359, 628-631 (1995)."
 library_file: "raw/papers/gpt/high-spin-20260920/multipolarity/angular distribution/polarizaiton/1995_Garcia-Raffi et al_Non-orthogonal gamma-ray compton polarimeters.pdf"

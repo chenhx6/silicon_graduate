@@ -12,6 +12,7 @@ title_original: "Polarization and angular correlation measurements following the
 authors: [P. J. Twin, W. C. Olsen, D. M. Sheppard]
 journal: "Nuclear Physics A"
 year: 1970
+citation_key: twin_1970_Polarization
 volume: 143
 pages: "481-496"
 pii: "0375-9474(70)90543-9"

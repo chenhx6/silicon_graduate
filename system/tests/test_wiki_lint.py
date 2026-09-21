@@ -179,6 +179,32 @@ class ScientificGuardrailTests(unittest.TestCase):
         wiki_lint.validate_nucleus(page, config, issues)
         self.assertIn("NUCLIDE_SUM", {issue.code for issue in issues})
 
+    def test_exact_particle_evaporation_channels_check_mass_and_charge(self) -> None:
+        config = wiki_lint.load_config(REPO_ROOT / "system" / "lint-config.json")
+        for reaction in ("116Sn(19F,p3n)131Ce", "106Cd(35Cl,2pn)138Eu", "74Ge(4He,1p3n)74As"):
+            with self.subTest(reaction=reaction):
+                page = wiki_lint.Page(Path("example.md"), "example.md", "example", "experiment", {"reaction": reaction}, "")
+                issues: list[wiki_lint.Issue] = []
+                wiki_lint.validate_experiment(page, config, issues)
+                self.assertEqual(issues, [])
+
+        page = wiki_lint.Page(Path("example.md"), "example.md", "example", "experiment", {"reaction": "116Sn(19F,p3n)132Ce"}, "")
+        issues = []
+        wiki_lint.validate_experiment(page, config, issues)
+        self.assertIn("REACTION_BALANCE", {issue.code for issue in issues})
+
+    def test_unresolved_channel_is_not_treated_as_balanced(self) -> None:
+        config = wiki_lint.load_config(REPO_ROOT / "system" / "lint-config.json")
+        page = wiki_lint.Page(Path("example.md"), "example.md", "example", "experiment", {"reaction": "11B(96Zr,xn)103,104Rh"}, "")
+        issues: list[wiki_lint.Issue] = []
+        wiki_lint.validate_experiment(page, config, issues)
+        self.assertIn("REACTION_PARSE", {issue.code for issue in issues})
+
+        page.meta["reaction"] = "252Cf spontaneous fission"
+        issues = []
+        wiki_lint.validate_experiment(page, config, issues)
+        self.assertEqual(issues, [])
+
     def test_claim_level_governance_metrics_and_issues(self) -> None:
         page = wiki_lint.Page(
             path=Path("knowledge/sources/example.md"),

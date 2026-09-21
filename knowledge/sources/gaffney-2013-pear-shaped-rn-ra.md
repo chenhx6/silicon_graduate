@@ -15,6 +15,9 @@ year: 2013
 volume: 497
 pages: "199-204"
 doi: "10.1038/nature12073"
+citation_key: Gaffney_2013
+citation_key_origin: crossref-content-negotiation
+citation_key_verified: 2026-09-21
 canonical_source: "https://doi.org/10.1038/nature12073"
 library_file: "raw/papers/gpt/high-spin-20260920/形变/2013_Gaffney et al_Studies of pear-shaped nuclei using accelerated radioactive beams.pdf"
 raw_file: "raw/papers/gpt/high-spin-20260920/形变/2013_Gaffney et al_Studies of pear-shaped nuclei using accelerated radioactive beams.pdf"

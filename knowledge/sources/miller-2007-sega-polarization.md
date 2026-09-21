@@ -15,6 +15,9 @@ year: 2007
 volume: 581
 pages: "713-718"
 doi: "10.1016/j.nima.2007.07.141"
+citation_key: Miller_2007
+citation_key_origin: crossref-content-negotiation
+citation_key_verified: 2026-09-21
 canonical_source: "Miller et al., NIM A 581, 713-718 (2007)"
 library_file: "raw/papers/gpt/high-spin-20260920/multipolarity/angular distribution/polarizaiton/2007_Miller et al_Linear polarization sensitivity of SeGA detectors.pdf"
 raw_file: "raw/papers/gpt/high-spin-20260920/multipolarity/angular distribution/polarizaiton/2007_Miller et al_Linear polarization sensitivity of SeGA detectors.pdf"

@@ -16,6 +16,9 @@ volume: 99
 article: 014315
 pages: "1-10"
 doi: "10.1103/PhysRevC.99.014315"
+citation_key: Samanta_2019
+citation_key_origin: crossref-content-negotiation
+citation_key_verified: 2026-09-21
 canonical_source: "https://doi.org/10.1103/PhysRevC.99.014315"
 library_file: "raw/papers/gpt/high-spin-20260920/纲图/2019_Samanta et al_Single particle configurations in 61Ni.pdf"
 raw_file: "raw/papers/gpt/high-spin-20260920/纲图/2019_Samanta et al_Single particle configurations in 61Ni.pdf"

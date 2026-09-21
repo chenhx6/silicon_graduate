@@ -12,6 +12,7 @@ title_original: "Rotations and Vibrations in Deformed Nuclei"
 authors: [J. P. Davidson]
 journal: "Reviews of Modern Physics"
 year: 1965
+citation_key: davidson_1965_Rotations
 volume: 37
 pages: "105-158"
 doi: "10.1103/RevModPhys.37.105"

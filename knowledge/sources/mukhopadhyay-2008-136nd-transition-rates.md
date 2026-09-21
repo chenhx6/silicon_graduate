@@ -15,6 +15,9 @@ year: 2008
 volume: 78
 pages: "034311"
 doi: "10.1103/PhysRevC.78.034311"
+citation_key: Mukhopadhyay_2008
+citation_key_origin: crossref-content-negotiation
+citation_key_verified: 2026-09-21
 canonical_source: "https://doi.org/10.1103/PhysRevC.78.034311"
 library_file: "raw/papers/gpt/high-spin-20260920/三轴/手征/2008_Mukhopadhyay et al_Electromagnetic transition rates in high-spin bands in Nd 136.pdf"
 raw_file: "raw/papers/gpt/high-spin-20260920/三轴/手征/2008_Mukhopadhyay et al_Electromagnetic transition rates in high-spin bands in Nd 136.pdf"

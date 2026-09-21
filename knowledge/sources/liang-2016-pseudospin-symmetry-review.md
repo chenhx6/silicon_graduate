@@ -12,6 +12,7 @@ title_original: "Pseudospin symmetry in nuclear structure and its supersymmetric
 authors: [H. Z. Liang]
 journal: "arXiv:1606.08570v1"
 year: 2016
+citation_key: liang_2016_Pseudospin
 pages: "1-21"
 arxiv: "1606.08570v1"
 canonical_source: "https://arxiv.org/abs/1606.08570"

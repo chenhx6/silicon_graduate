@@ -15,6 +15,9 @@ year: 2024
 volume: 109
 pages: "024318"
 doi: "10.1103/PhysRevC.109.024318"
+citation_key: Rahaman_2024
+citation_key_origin: crossref-content-negotiation
+citation_key_verified: 2026-09-21
 canonical_source: "Rahaman et al., Phys. Rev. C 109, 024318 (2024)"
 library_file: "raw/papers/gpt/high-spin-20260920/纲图/2024_Rahaman et al_Spectroscopic study of K 40.pdf"
 raw_file: "raw/papers/gpt/high-spin-20260920/纲图/2024_Rahaman et al_Spectroscopic study of K 40.pdf"

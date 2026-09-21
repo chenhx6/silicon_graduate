@@ -12,6 +12,7 @@ title_original: "E2/M1 mixing ratios in transitions from the gamma vibrational b
 authors: [J. M. Eldridge, B. Fenker, J. H. Hamilton, C. Goodin, C. J. Zachary, E. Wang, A. V. Ramayya, A. V. Daniel, G. M. Ter-Akopian, Yu. Ts. Oganessian, Yu. X. Luo, J. O. Rasmussen, S. J. Zhu]
 journal: "European Physical Journal A"
 year: 2018
+citation_key: eldridge_2018_E2
 volume: 54
 pages: "15"
 doi: "10.1140/epja/i2018-12426-5"

@@ -15,6 +15,9 @@ year: 2015
 volume: 526
 pages: "406-409"
 doi: "10.1038/nature15543"
+citation_key: Walz_2015
+citation_key_origin: crossref-content-negotiation
+citation_key_verified: 2026-09-21
 canonical_source: "https://doi.org/10.1038/nature15543"
 library_file: "raw/papers/gpt/high-spin-20260920/multipolarity/electromagnetic/2015_Walz et al_Observation of the competitive double-gamma nuclear decay.pdf"
 raw_file: "raw/papers/gpt/high-spin-20260920/multipolarity/electromagnetic/2015_Walz et al_Observation of the competitive double-gamma nuclear decay.pdf"

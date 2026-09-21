@@ -15,6 +15,9 @@ year: 1970
 volume: 85
 pages: "313-323"
 doi: "10.1016/0029-554X(70)90251-X"
+citation_key: Taras_1970
+citation_key_origin: crossref-content-negotiation
+citation_key_verified: 2026-09-21
 language: en
 canonical_source: "Taras, P. Analysis of particle-gamma angular correlations and distributions. Nucl. Instrum. Methods 85, 313-323 (1970)."
 library_file: "raw/papers/gpt/high-spin-20260920/multipolarity/angular distribution/ADO/1970_Taras_Analysis of particle-gamma angular correlations and distributions.pdf"

@@ -12,6 +12,7 @@ title_original: "PPCO: polarization-polarization correlation from oriented nucle
 authors: [Ch. Droste, K. Starosta, A. Wierzchucka, T. Morek, S. G. Rohozinski, J. Srebrny, M. Bergström, B. Herskind, E. Wesolowski]
 journal: "Nuclear Instruments and Methods in Physics Research A"
 year: 1999
+citation_key: droste_1999_PPCO
 volume: 430
 pages: "260-270"
 pii: "S0168-9002(99)00224-7"

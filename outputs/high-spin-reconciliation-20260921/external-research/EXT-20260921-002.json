@@ -1,0 +1,34 @@
+{
+  "id": "EXT-20260921-002",
+  "question_id": "L3-2G-PATH-001",
+  "title": "Public-data availability check for the 137Ba competitive double-gamma re-fit",
+  "linked_source": "soderstrom-2020-137ba-competitive-gamma",
+  "retrieved_at": "2026-09-21",
+  "discovery": {
+    "article": "https://doi.org/10.1038/s41467-020-16787-4",
+    "data_doi": "https://doi.org/10.17632/skhmjshxdj",
+    "data_landing_page": "https://data.mendeley.com/datasets/skhmjshxdj"
+  },
+  "retrieval": {
+    "article_route": "lawful_open_access_publisher_and_pmc",
+    "data_doi_http_status": 404,
+    "data_landing_http_status": 200,
+    "data_landing_embedded_state": "No snapshot for dataset_id: skhmjshxdj, version: n/a found",
+    "code_status": "author-request-only per article Data/Code availability section"
+  },
+  "available": [
+    "Published final points and plotted figures in the open article",
+    "Article-level central values and stated statistical uncertainties"
+  ],
+  "missing_for_l4": [
+    "event-level or complete tabulated energy-sharing/angular data",
+    "detector response and efficiency files",
+    "background/random-window templates",
+    "full sorting/analysis code",
+    "joint covariance and systematic-error model"
+  ],
+  "decision": "not-ready",
+  "l4_status": "safe-suspended-input-limited",
+  "reason": "The cited Mendeley record is not retrievable at the checked DOI/landing endpoint, and the article states that raw data and sorting code are available from authors on request. Digitizing figures would not supply response or covariance and would not justify a reproducible common likelihood.",
+  "next_trigger": "A valid public data snapshot, author-supplied package, or independent raw-data release with response/covariance and code."
+}

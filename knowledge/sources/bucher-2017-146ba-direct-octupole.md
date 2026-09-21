@@ -15,6 +15,9 @@ year: 2017
 volume: 118
 pages: "152504"
 doi: "10.1103/PhysRevLett.118.152504"
+citation_key: Bucher_2017
+citation_key_origin: crossref-content-negotiation
+citation_key_verified: 2026-09-21
 canonical_source: "https://doi.org/10.1103/PhysRevLett.118.152504"
 alternate_source: "https://arxiv.org/abs/1703.05268"
 raw_file: "raw/papers/gpt/high-spin-20260920/external-146ba/PDFs/Direct_Evidence_for_Octupole_Deformation_in_146Ba_and_the_Origin_of_Large_E1_Moment_Variations_in_Reflection-Asymmetric_Nuclei.pdf"

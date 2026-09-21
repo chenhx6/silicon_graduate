@@ -15,6 +15,9 @@ year: 1974
 volume: 117
 pages: "273-275"
 doi: "10.1016/0029-554X(74)90409-1"
+citation_key: Logan_1974
+citation_key_origin: crossref-content-negotiation
+citation_key_verified: 2026-09-21
 language: en
 canonical_source: "Logan, B. A., Jones, R. T. & Ljubičić, A. A generalized figure of merit for gamma-ray polarimeters. Nucl. Instrum. Methods 117, 273-275 (1974)."
 library_file: "raw/papers/gpt/high-spin-20260920/multipolarity/angular distribution/polarizaiton/1974_Logan et al_A generalized figure of merit for gamma-ray polarimeters.pdf"

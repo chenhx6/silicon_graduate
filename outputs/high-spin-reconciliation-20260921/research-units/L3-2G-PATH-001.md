@@ -30,7 +30,7 @@ An experiment with calibrated photon-energy sharing over a wider range and an in
 
 ## L4 readiness and stop
 
-No L4 re-fit is started. Raw event matrices, detector-response files and sorting code are not supplied locally; final reported points alone do not permit a complete common likelihood with shared systematics. The L3 literature comparison is complete at this boundary. Reopen only when a public response/data package or a new independent discriminating measurement appears.
+No L4 re-fit is started. The cited Söderström final-data DOI was checked on 2026-09-21 and has no retrievable Mendeley snapshot; the article states that raw data and sorting code are available from authors on request. Raw event matrices, detector-response files and sorting code are therefore still unavailable, and final reported points alone do not permit a complete common likelihood with shared systematics. The L3 literature comparison is complete at this boundary. Reopen only when a public response/data package or a new independent discriminating measurement appears. See `outputs/l4/137ba-double-gamma-readiness-20260921/report.md`.
 
 ## Sources
 

@@ -12,6 +12,7 @@ title_original: "Polarization Measurements on Nuclear Gamma Rays"
 authors: [Lawrence W. Fagg, Stanley S. Hanna]
 journal: "Reviews of Modern Physics"
 year: 1959
+citation_key: fagg_1959_Polarization
 volume: 31
 pages: "711-756"
 doi: "10.1103/RevModPhys.31.711"

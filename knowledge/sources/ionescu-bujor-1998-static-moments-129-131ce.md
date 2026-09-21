@@ -15,6 +15,9 @@ year: 1998
 volume: 633
 pages: "459-478"
 doi: "10.1016/S0375-9474(98)00157-2"
+citation_key: Ionescu_Bujor_1998
+citation_key_origin: crossref-content-negotiation
+citation_key_verified: 2026-09-21
 language: en
 canonical_source: "Ionescu-Bujor, M. et al. Static electromagnetic moments and nuclear shapes in 129,131Ce. Nucl. Phys. A 633, 459-478 (1998)."
 library_file: "raw/papers/gpt/high-spin-20260920/形变/1998_Ionescu-Bujor et al_Static electromagnetic moments and nuclear shapes in 129,131Ce.pdf"

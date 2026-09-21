@@ -16,6 +16,9 @@ volume: 93
 article: 043003
 pages: "1-80"
 doi: "10.1088/1402-4896/aaa2e9"
+citation_key: Frauendorf_2018
+citation_key_origin: crossref-content-negotiation
+citation_key_verified: 2026-09-21
 canonical_source: "https://doi.org/10.1088/1402-4896/aaa2e9"
 library_file: "raw/papers/gpt/high-spin-20260920/三轴/进动/理论/2018_Frauendorf_Beyond the Unified Model.pdf"
 raw_file: "raw/papers/gpt/high-spin-20260920/三轴/进动/理论/2018_Frauendorf_Beyond the Unified Model.pdf"
