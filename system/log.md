@@ -16,6 +16,10 @@ updated: 2026-07-15
 - Added the Wiki-local daily-learning prompt, runner and six focused runner tests. The runner's real `--dry-run` passed; full system tests passed (28 tests).
 - The runner invokes `codex exec` inside the existing container and records durable receipts; it does not configure Docker or a host/project scheduler. Host scheduling, container lifecycle and `/root/.codex` volume persistence remain explicit external setup items.
 
+## [2026-09-22] tooling | Windows host trigger adapters prepared
+
+- Added optional PowerShell adapters for the confirmed `wiki-dev` container. The host adapter only checks container/mount health and calls the Docker-internal Python runner; the installer registers the 22:00 task without overwriting an existing task. No host task or Docker setting was changed from inside the container.
+
 ## [2026-09-22] git | Docker-hosted runner publication verified
 
 - Published `Prepare Docker-hosted daily learning runner` to Gitee by exact non-force `HEAD:main`. The remote ref matches the local commit; only inherited raw/temporary user paths remain dirty and unstaged. Host/project cron is still not enabled by Codex.
