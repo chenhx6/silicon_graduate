@@ -11,6 +11,11 @@ updated: 2026-07-15
 
 `## [YYYY-MM-DD HH:MM] operation | description`
 
+## [2026-09-22] tooling | move daily learning scheduling into Docker
+
+- Replaced the host Task Scheduler adapters with `system/scripts/run_daily_learning_daemon.py`, a container-local Asia/Shanghai 22:00 loop with a single-instance lock, restart catch-up marker and scheduler JSONL log.
+- Connected the daemon to `/opt/wiki-runtime/scripts/start-wiki.sh` inside the current container; removed the unused PowerShell host adapters. Daemon and runner tests pass, preflight/lint pass, and no real model run has been started.
+
 ## [2026-09-22] tooling | bind daily runner to the one-month task matrix
 
 - Updated `system/prompts/daily-learning.md` so each unattended run reads the local one-month plan and executes the matching daily-task matrix card; a missing matrix now produces a safe-suspended run rather than an invented task.

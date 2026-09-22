@@ -23,7 +23,15 @@ updated: 2026-09-06
 
 ## 调度类型
 
-科研型每周自测的科学深度、L3 升级、L4 手动关口、P0/P1 报告和本地 commit 规则由 `autonomous-research.md` 管理；本文件只管理调度可靠性、回执和恢复。每周自测等待超过一小时且属于独立项目任务，应使用 project cron，不使用 heartbeat。
+科研型每周自测的科学深度、L3 升级、L4 手动关口、P0/P1 报告和本地 commit 规则由 `autonomous-research.md` 管理；本文件只管理调度可靠性、回执和恢复。当前 Wiki Docker 运行环境使用容器内 daemon，不使用 heartbeat、宿主机 cron 或外部 project cron。
+
+### Docker 内每日学习 daemon
+
+对于本 Wiki 的每日学习，`system/scripts/run_daily_learning_daemon.py` 是唯一时钟。
+它在容器内等待 `Asia/Shanghai` 22:00，调用 `run_daily_learning.py`，并把调度
+状态、退出码和重复实例阻止记录在 Wiki 内。容器启动入口负责后台拉起 daemon；
+需要人工检查时只在容器内运行 `--dry-run`。Farmer 只处理 Codex rollout 的允许瞬时
+失败，不负责唤醒 daemon 或安排每日触发。
 
 ### 短时同线程续跑
 

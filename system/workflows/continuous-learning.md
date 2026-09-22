@@ -49,7 +49,23 @@ source 页及其必要关联页至少记录：
 
 ### 调度与启动
 
-每日 22:00（`Asia/Shanghai`）启动独立 project cron。任务开始先读取：`README.md`、涉及选题时的 `PLAN.md`、`system/handoff.md` 的 Active handoff、`profile.md`、`system/memory.md`、`knowledge/index.md`、`system/log.md` 最近 10 条、[`learning queue`](../learning-queue.md)、相关 workflow 和最近学习报告。不得读写 Codex 宿主 automation memory、global state、sandbox state 或 Wiki 外文件。
+每日 22:00（`Asia/Shanghai`）由 Docker 内的
+`system/scripts/run_daily_learning_daemon.py` 触发。它只在 `/workspace/wiki`
+内调用每日 runner，不使用宿主机任务计划、Docker socket、PowerShell 或外部
+project cron。任务开始先读取：`README.md`、涉及选题时的 `PLAN.md`、
+`system/handoff.md` 的 Active handoff、`profile.md`、`system/memory.md`、
+`knowledge/index.md`、`system/log.md` 最近 10 条、[`learning queue`](../learning-queue.md)、
+相关 workflow 和最近学习报告。不得读写 Codex 宿主 automation memory、global state、sandbox state 或 Wiki 外文件。
+
+容器内启动与检查：
+
+```bash
+python3 system/scripts/run_daily_learning_daemon.py --root /workspace/wiki --dry-run
+python3 system/scripts/run_daily_learning_daemon.py --root /workspace/wiki
+```
+
+容器启动入口会在后台拉起同一 daemon；`/tmp/wiki-one-month-daily-learning-daemon.lock`
+防止重复实例，调度状态和简要事件写入 `outputs/learning-milestones/`。
 
 ### 动态学习循环
 

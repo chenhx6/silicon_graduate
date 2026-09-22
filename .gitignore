@@ -46,3 +46,8 @@ raw/notes/comment/**/*.md
 # Local prompt drafts
 prompt/
 docs/
+
+# Docker-local daily-learning runtime state
+tmp/docker-daily-learning-daemon.*
+outputs/learning-milestones/2026-09-one-month-scheduler.jsonl
+outputs/learning-milestones/2026-09-one-month-scheduler-state.json

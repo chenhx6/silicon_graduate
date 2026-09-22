@@ -6,27 +6,25 @@ updated: 2026-09-22
 
 # 跨会话交接
 
-## 2026-09-22 Docker-hosted Codex CLI learning runner
+## 2026-09-22 Docker-internal Codex CLI learning daemon
 
 Current active task:
-Prepare the one-month apprenticeship runner for the user's Docker-hosted Codex CLI. This is a Wiki-local runner only; it does not configure Docker, Docker Desktop, the host scheduler or external cron.
+Run the one-month apprenticeship entirely inside the Docker container. The container-local daemon owns the Asia/Shanghai clock and calls the Wiki runner; no host scheduler, Docker socket, PowerShell or external project cron is part of the active path.
 
 Completed:
 
 - Added `system/prompts/daily-learning.md` with the daily evidence, counter-evidence, L0–L4 and write-boundary contract; the prompt now explicitly loads the one-month plan and the matching `Day {{DAY_INDEX}}` task matrix card, safe-suspending if that matrix is unavailable.
 - Added `system/scripts/run_daily_learning.py`, which verifies the Wiki root, uses `/root/.codex` session persistence, takes a non-overlap lock, computes Asia/Shanghai `day_index`, invokes `codex exec --json` with `workspace-write`, records `run.json/events.jsonl/last-message.md/stderr.log`, runs preflight/lint/diff checks, and advances state only after a verified report.
-- Added optional host adapters `system/scripts/run_daily_learning_host.ps1` and `system/scripts/install_wiki_daily_task.ps1`. They contain no science logic: the first only calls `docker exec wiki-dev`, and the second only registers the Windows 22:00 trigger. They have not been executed inside the container and do not modify Docker or the host scheduler automatically.
-- The host adapter now performs at most four bounded retries for Docker/container startup races and transient `docker exec` failures (60/180/600 seconds). A container-internal preflight or scientific verification failure is not retried and cannot advance `day_index`.
-- Added `system/tests/test_daily_learning_runner.py`; the full system suite currently passes 28 tests. Real model execution was not started; `--dry-run` passed and reports day 1 / baseline phase.
+- Added `system/scripts/run_daily_learning_daemon.py`, which waits for the next 22:00 `Asia/Shanghai` trigger, catches up one missed trigger after a container restart, holds a single-instance lock, and records scheduler state/events under `outputs/learning-milestones/`.
+- Added eight daemon tests and retained the six runner tests; the targeted suites, Python compilation, preflight, Wiki lint and daemon dry-run pass. Real model execution was not started; dry-run resolves to Day 1.
+- Connected the daemon to the container-local `/opt/wiki-runtime/scripts/start-wiki.sh` entrypoint. It starts in the background before the container's keep-alive process; its stdout/stderr is under the ignored `tmp/docker-daily-learning-daemon.log`.
 
-External setup still required from the host/project side:
+Container-local continuation:
 
-1. Keep the current container running or ensure the host scheduler starts it before 22:00 Asia/Shanghai.
-2. Preserve both the `/workspace/wiki` bind mount and `/root/.codex` persistent volume across container recreation.
-3. Run the runner's `--dry-run` from the host via `docker exec`, then schedule the same command daily. The exact container name must be discovered on the host with `docker ps`; it is not visible from this container because the Docker CLI/socket is unavailable here.
-4. Verify the first real `outputs/learning-daily/<date>/run.json` before counting Day 1. No receipt means `not-triggered`.
-
-No host scheduler or Docker configuration has been changed by Codex in this checkpoint.
+1. The current daemon is started inside the container and can be checked with `ps` or `tmp/docker-daily-learning-daemon.log`.
+2. Run `python3 system/scripts/run_daily_learning_daemon.py --root /workspace/wiki --dry-run` inside the container to inspect the next trigger.
+3. Verify the first real `outputs/learning-daily/<date>-run-01/run.json` before counting Day 1. No receipt means `not-triggered`.
+4. Preserve `/workspace/wiki` and `/root/.codex` as container mounts when the container is recreated; no host-side scheduler action is required.
 
 ## 2026-09-21 residual-resolution continuation
 

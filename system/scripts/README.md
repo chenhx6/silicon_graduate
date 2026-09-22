@@ -47,3 +47,22 @@ python3 system/scripts/wiki_farmer.py ensure --root .
 python3 system/scripts/wiki_farmer.py status --root .
 python3 system/scripts/wiki_farmer.py stop --root .
 ```
+
+## Docker 内每日学习调度器
+
+每日学习不依赖宿主机任务计划。容器启动入口会拉起以下常驻进程；需要检查
+下一次触发时间时，在容器内运行：
+
+```bash
+python3 system/scripts/run_daily_learning_daemon.py --root /workspace/wiki --dry-run
+```
+
+正常常驻运行使用：
+
+```bash
+python3 system/scripts/run_daily_learning_daemon.py --root /workspace/wiki
+```
+
+daemon 只调用同一容器内的 `run_daily_learning.py`，默认在
+`Asia/Shanghai` 每日 22:00 触发；不读取 Docker socket、不调用 PowerShell、
+不创建宿主机 scheduler。`--once` 仅用于容器内显式测试，不能替代常驻调度。

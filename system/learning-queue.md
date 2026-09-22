@@ -9,7 +9,7 @@ updated: 2026-09-06
 ## 当前周期
 
 - 周期：2026-09-05–2026-12-03（90 天）
-- 调度：每日 22:00，`Asia/Shanghai`，独立 Wiki project cron
+- 调度：每日 22:00，`Asia/Shanghai`，Docker 内 `run_daily_learning_daemon.py`
 - 主轴：核结构约 80%；相邻核科学约 20%；A≈130 不是边界
 - 当前状态：`active`；第一运行从既有学位论文 corpus 的 graph closure 和跨质量区比较开始
 - 入口规范：[`continuous-learning workflow`](workflows/continuous-learning.md)

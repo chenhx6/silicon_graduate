@@ -44,6 +44,7 @@ updated: 2026-09-10
 - 中文科学页面中专业术语首次出现时保留英文名称或标准缩写；可能指向不同物理对象的简称必须写明具体对象，例如 two-band mixing 必须说明是哪两条带，避免后续查询只按中文词面误配。
 - 讨论多声子 wobbling 的 anharmonicity 时，必须区分能带能量与 successive phonon spacing，并写清参与差分的能带和自旋；不得把“第二声子增量较低”简写成含义不同的“TW2 能量低于 TW1 的两倍”。
 - 2026-08-18 Nature Skills 安装记录保留为历史事实；后续维护以 Python 更新器和 Wiki evidence policy 为准。
+- 2026-09-22 用户明确：每日学习自动化必须完全运行在 Docker 内。使用容器内 `run_daily_learning_daemon.py` 负责 Asia/Shanghai 22:00 调度；不得使用宿主机任务计划、Docker socket、PowerShell 或外部 project cron。
 
 ## 用户纠正记录
 

@@ -294,7 +294,7 @@ qmd.cmd embed -c nuclear-knowledge
 每日 22:00（Asia/Shanghai）的持续学习任务遵循
 [`continuous-learning workflow`](system/workflows/continuous-learning.md)，周期为 90 天、约 80% 核结构与 20% 相邻核科学。2–3 小时只是督促 checkpoint；主题数、来源数和是否切换问题由里程碑、信息增益、证据质量与资源决定。日/周/阶段记录分别写入 `outputs/learning-daily/`、`outputs/learning-weekly/` 和 `outputs/learning-milestones/`，队列在 `system/learning-queue.md`。
 
-每日任务可运行 `system/scripts/wiki_automation_preflight.py` 验证仓库根目录、配置和受保护 BibTeX 基线。Git 发布前确认 dirty baseline、staged 文件、lint 和远端 ancestry；网络或认证失败时保留本地内容并记录 `content-complete / final-not-pushed`。该检查不替代普通摄入、周测和 L4 人工关口。
+Docker 内每日任务由 `system/scripts/run_daily_learning_daemon.py` 在 22:00（Asia/Shanghai）触发；可用 `--dry-run` 检查下一次触发时间和 runner 命令。任务可运行 `system/scripts/wiki_automation_preflight.py` 验证仓库根目录、配置和受保护 BibTeX 基线。Git 发布前确认 dirty baseline、staged 文件、lint 和远端 ancestry；网络或认证失败时保留本地内容并记录 `content-complete / final-not-pushed`。该检查不替代普通摄入、周测和 L4 人工关口。
 
 - 不要使用不加检查的 `git add .`；应显式暂存目标文件；
 - `raw/`、PDF、论文、数据和图片不得被 Agent 误改或误提交；
