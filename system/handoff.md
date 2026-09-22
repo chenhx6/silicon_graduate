@@ -1,7 +1,7 @@
 ---
 type: system-handoff
 graph-excluded: true
-updated: 2026-09-21
+updated: 2026-09-22
 ---
 
 # 跨会话交接
@@ -13,7 +13,7 @@ Prepare the one-month apprenticeship runner for the user's Docker-hosted Codex C
 
 Completed:
 
-- Added `system/prompts/daily-learning.md` with the daily evidence, counter-evidence, L0–L4 and write-boundary contract.
+- Added `system/prompts/daily-learning.md` with the daily evidence, counter-evidence, L0–L4 and write-boundary contract; the prompt now explicitly loads the one-month plan and the matching `Day {{DAY_INDEX}}` task matrix card, safe-suspending if that matrix is unavailable.
 - Added `system/scripts/run_daily_learning.py`, which verifies the Wiki root, uses `/root/.codex` session persistence, takes a non-overlap lock, computes Asia/Shanghai `day_index`, invokes `codex exec --json` with `workspace-write`, records `run.json/events.jsonl/last-message.md/stderr.log`, runs preflight/lint/diff checks, and advances state only after a verified report.
 - Added optional host adapters `system/scripts/run_daily_learning_host.ps1` and `system/scripts/install_wiki_daily_task.ps1`. They contain no science logic: the first only calls `docker exec wiki-dev`, and the second only registers the Windows 22:00 trigger. They have not been executed inside the container and do not modify Docker or the host scheduler automatically.
 - The host adapter now performs at most four bounded retries for Docker/container startup races and transient `docker exec` failures (60/180/600 seconds). A container-internal preflight or scientific verification failure is not retried and cannot advance `day_index`.

@@ -11,6 +11,11 @@ updated: 2026-07-15
 
 `## [YYYY-MM-DD HH:MM] operation | description`
 
+## [2026-09-22] tooling | bind daily runner to the one-month task matrix
+
+- Updated `system/prompts/daily-learning.md` so each unattended run reads the local one-month plan and executes the matching daily-task matrix card; a missing matrix now produces a safe-suspended run rather than an invented task.
+- Preflight passed, Wiki lint reported 0 errors, the 28-test system suite passed, and the runner dry-run still resolves to Day 1. Existing runner/raw/temporary dirty paths remain outside this change.
+
 ## [2026-09-22] tooling | Docker-hosted Codex CLI learning runner prepared
 
 - Added the Wiki-local daily-learning prompt, runner and six focused runner tests. The runner's real `--dry-run` passed; full system tests passed (28 tests).

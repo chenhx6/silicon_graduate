@@ -26,8 +26,12 @@ scientific evidence.
 
 1. Work only inside `/workspace/wiki`.
 2. Read `README.md`, `knowledge/index.md`, `profile.md`, the active section of
-   `system/handoff.md`, `PLAN.md`, the recent learning records and the relevant
-   workflow before selecting evidence.
+   `system/handoff.md`, `PLAN.md`, the recent learning records, the relevant
+   workflow, `docs/plans/2026-09-22-one-month-codex-cli-apprenticeship.md` and
+   `docs/plans/2026-09-22-one-month-daily-task-matrix.md` before selecting evidence.
+   Execute the matching `Day {{DAY_INDEX}}` card from the daily-task matrix. If the
+   matrix is missing or the requested day is not defined, write a safe-suspended
+   run record instead of inventing a substitute task.
 3. Preserve inherited dirty files. Never modify or stage `raw/`, `PLAN.md`,
    `raw/zotero/wiki-inbox.bib`, credentials, OCR/image scratch directories or
    unrelated user changes.
