@@ -11,6 +11,10 @@ updated: 2026-07-15
 
 `## [YYYY-MM-DD HH:MM] operation | description`
 
+## [2026-09-22] research | add thesis-oriented durable knowledge gate
+
+- Extended the one-month learning contract toward the A≈130 triaxial collective-mode dissertation: each run now requires a durable knowledge delta, and Day 1 produced the first thesis evidence matrix covering `127I`, `128I` and the `131Ce` continuity contract.
+
 ## [2026-09-22] reliability | enforce the requested model priority chain
 
 - The Docker daemon now tries `gpt-6-astra` with reasoning `low`, then `gpt-5.6-sol` with `max`, then `gpt-5.6-terra` with `max`. It records each attempt and falls back only for capacity, rate-limit, temporary-service, or model-availability errors.

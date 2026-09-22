@@ -6,6 +6,18 @@ updated: 2026-09-22
 
 # 跨会话交接
 
+## 2026-09-22 Day 1 baseline run 05
+
+Current active task:
+Day 1 baseline-and-research-contract completed in `outputs/learning-daily/2026-09-22.md` for acceptance retry `2026-09-22-day-01-05`. The report preserves the Ding `127/128I` full-line evidence audit, active recall, level-scheme arithmetic, counter-evidence and L0–L2 boundary, and includes the hard durable-delta section. Durable matrix artifact: `outputs/learning-milestones/2026-09-a130-thesis-evidence-matrix.md`.
+
+State:
+No knowledge/source page, raw input, PLAN, protected BibTeX or unrelated dirty file was changed. L3/L4 were not started; missing polarization, lifetimes, absolute strengths and complete response/data packages remain explicit. Final verification is recorded below after the report write.
+Verification: `python3 system/scripts/wiki_lint.py --fail-on error` exit 0 (`errors=0`, `warnings=80`, `info=1106`); `git diff --check` exit 0. Existing raw/temporary dirty paths and system changes remain preserved and unstaged.
+
+Next prompt:
+`继续 Day 2：在不看资料的情况下先回忆球形壳层、形变壳隙与单粒子组态的区别；随后以 [[haxel-jensen-suess-1949-magic-numbers]] 和 [[ragnarsson-nilsson-sheline-1978-shell-structure]] 为主线，做一个“壳隙—轨道—可观测量”对照，并保留模型结果、实验事实和反证边界。`
+
 ## 2026-09-22 Docker-internal Codex CLI learning daemon
 
 Current active task:

@@ -28,7 +28,8 @@ scientific evidence.
 2. Read `README.md`, `knowledge/index.md`, `profile.md`, the active section of
    `system/handoff.md`, `PLAN.md`, the recent learning records, the relevant
    workflow, `docs/plans/2026-09-22-one-month-codex-cli-apprenticeship.md` and
-   `docs/plans/2026-09-22-one-month-daily-task-matrix.md` before selecting evidence.
+   `docs/plans/2026-09-22-one-month-daily-task-matrix.md` and
+   `docs/plans/2026-09-22-a130-triaxial-thesis-pipeline.md` before selecting evidence.
    Execute the matching `Day {{DAY_INDEX}}` card from the daily-task matrix. If the
    matrix is missing or the requested day is not defined, write a safe-suspended
    run record instead of inventing a substitute task.
@@ -72,6 +73,7 @@ It must contain these headings:
 - `## Theory/analysis exercise`
 - `## Counter-evidence and missing companion observables`
 - `## Knowledge Impact and Learning Decision`
+- `## Durable knowledge delta`
 - `## Open questions and belief revision`
 - `## L0–L4 state`
 - `## Verification and continuation`
@@ -79,6 +81,11 @@ It must contain these headings:
 The report must include exact Wiki links and source locators, not only a prose summary.
 Write any source/knowledge-page changes only after checking overlap and preserving the
 existing review status. Update the active handoff only with a concise recoverable state.
+
+`## Durable knowledge delta` is a hard acceptance section. It must name at least one
+concrete artifact path and describe what reusable evidence, matrix row, calculation,
+question revision or verified no-op was produced. For Day 1, the thesis evidence matrix
+path is `outputs/learning-milestones/2026-09-a130-thesis-evidence-matrix.md`.
 
 Before ending:
 

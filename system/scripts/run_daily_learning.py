@@ -55,6 +55,7 @@ REQUIRED_REPORT_HEADINGS = (
     "## Theory/analysis exercise",
     "## Counter-evidence and missing companion observables",
     "## Knowledge Impact and Learning Decision",
+    "## Durable knowledge delta",
     "## Open questions and belief revision",
     "## L0–L4 state",
     "## Verification and continuation",
