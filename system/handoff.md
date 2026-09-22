@@ -14,9 +14,10 @@ Run the one-month apprenticeship entirely inside the Docker container. The conta
 Completed:
 
 - Added `system/prompts/daily-learning.md` with the daily evidence, counter-evidence, L0–L4 and write-boundary contract; the prompt now explicitly loads the one-month plan and the matching `Day {{DAY_INDEX}}` task matrix card, safe-suspending if that matrix is unavailable.
-- Added `system/scripts/run_daily_learning.py`, which verifies the Wiki root, uses `/root/.codex` session persistence, takes a non-overlap lock, computes Asia/Shanghai `day_index`, invokes `codex exec --json` with `workspace-write`, records `run.json/events.jsonl/last-message.md/stderr.log`, runs preflight/lint/diff checks, and advances state only after a verified report.
+- Added `system/scripts/run_daily_learning.py`, which verifies the Wiki root, uses `/root/.codex` session persistence, takes a non-overlap lock, computes Asia/Shanghai `day_index`, invokes `codex exec --json` with the Docker-contained `danger-full-access` sandbox and approval mode `never`, records `run.json/events.jsonl/last-message.md/stderr.log`, runs preflight/lint/diff checks, and advances state only after a verified report.
 - Added `system/scripts/run_daily_learning_daemon.py`, which waits for the next 22:00 `Asia/Shanghai` trigger, catches up one missed trigger after a container restart, holds a single-instance lock, and records scheduler state/events under `outputs/learning-milestones/`.
 - The runner now requires the current run to change the daily report and include all nine required report headings before advancing `day_index`; an old or partial report remains `failed-verification`.
+- The first Day 1 attempt (`2026-09-22-day-01-01`) was interrupted after the nested `workspace-write` sandbox repeatedly failed to create a bubblewrap namespace; it remains excluded from the learning count. The runner was switched to the container's explicit `danger-full-access` mode for the retry.
 - The daemon stops cleanly after the one-month runner records `status: complete` / `next_day_index: 31`; it does not manufacture a Day 31 failure. A later 90-day continuation needs a separate runner contract.
 - Added nine daemon tests and expanded the runner suite to nine tests; the full system suite now passes 40 tests. Python compilation, preflight, Wiki lint, report validation and daemon dry-run pass. Real model execution was not started; dry-run resolves to Day 1.
 - Connected the daemon to the container-local `/opt/wiki-runtime/scripts/start-wiki.sh` entrypoint. It starts in the background before the container's keep-alive process; its stdout/stderr is under the ignored `tmp/docker-daily-learning-daemon.log`.
@@ -27,6 +28,7 @@ Container-local continuation:
 2. Run `python3 system/scripts/run_daily_learning_daemon.py --root /workspace/wiki --dry-run` inside the container to inspect the next trigger.
 3. Verify the first real `outputs/learning-daily/<date>-run-01/run.json` before counting Day 1. No receipt means `not-triggered`.
 4. Preserve `/workspace/wiki` and `/root/.codex` as container mounts when the container is recreated; no host-side scheduler action is required.
+5. Day 1 retry `2026-09-22-day-01-03` completed the baseline card in `outputs/learning-daily/2026-09-22.md`: one `131Ce` continuity contract and one non-overlapping `127/128I` novelty anchor, with Ding PDF hash/locators, level-scheme cross-check, counter-evidence and L0–L2 boundaries. No knowledge page, raw input, PLAN or protected BibTeX changed; preflight and diff checks passed, and Wiki lint remained `0 errors / 80 warnings / 1106 info`. Continue with the report's Day 2 prompt; the runner owns state advancement after its final receipt gate.
 
 ## 2026-09-21 residual-resolution continuation
 

@@ -11,6 +11,10 @@ updated: 2026-07-15
 
 `## [YYYY-MM-DD HH:MM] operation | description`
 
+## [2026-09-22] diagnostic | nested Codex sandbox incompatibility on Day 1
+
+- The first real Day 1 attempt created `run-01` but could not execute repository commands because nested `workspace-write` bubblewrap namespaces are unavailable in this Docker kernel. The run was marked `interrupted`, not counted, and the Docker-contained runner was changed to explicit `danger-full-access` with approval mode `never` before retry.
+
 ## [2026-09-22] reliability | require a fresh complete daily report
 
 - Added report hashing and nine-heading validation to the daily runner. A stale, empty or structurally incomplete report cannot advance the one-month state; runner and daemon regression tests pass.

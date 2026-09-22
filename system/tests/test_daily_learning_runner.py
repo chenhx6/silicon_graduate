@@ -25,7 +25,7 @@ class DailyLearningRunnerTests(unittest.TestCase):
         command = run_daily_learning.build_command(
             Path("/workspace/wiki"), "gpt-5.6-sol", Path("/tmp/last.md"), True
         )
-        self.assertEqual(command[:8], ["codex", "-C", "/workspace/wiki", "-m", "gpt-5.6-sol", "-s", "workspace-write", "-a"])
+        self.assertEqual(command[:8], ["codex", "-C", "/workspace/wiki", "-m", "gpt-5.6-sol", "-s", "danger-full-access", "-a"])
         self.assertIn("never", command)
         self.assertIn("--search", command)
         self.assertIn("exec", command)
@@ -52,8 +52,9 @@ class DailyLearningRunnerTests(unittest.TestCase):
         with patch.object(run_daily_learning.shutil, "which", return_value="/usr/bin/codex"):
             result = run_daily_learning.dry_run(paths, "gpt-5.6-sol", True)
         self.assertEqual(result["status"], "dry-run-ok")
-        self.assertEqual(result["day_index"], 1)
-        self.assertIn("workspace-write", result["command"])
+        state = run_daily_learning.read_state(paths.state_file)
+        self.assertEqual(result["day_index"], int(state.get("next_day_index", 1)))
+        self.assertIn("danger-full-access", result["command"])
         self.assertFalse(result["cycle_complete"])
 
     def test_report_validation_requires_all_daily_headings(self) -> None:

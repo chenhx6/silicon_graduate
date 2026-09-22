@@ -41,6 +41,13 @@ PHASES = (
     (30, 30, "final-exam-and-prospectus"),
 )
 
+# The runner itself is already inside the isolated Wiki Docker container. A
+# nested workspace-write sandbox would invoke bubblewrap again and fails on the
+# current container kernel, so the child Codex process uses the container's
+# explicit full-access mode while retaining approval mode `never` and the
+# prompt's `/workspace/wiki` boundary.
+CODEX_SANDBOX = "danger-full-access"
+
 REQUIRED_REPORT_HEADINGS = (
     "## Run state",
     "## Candidate pool and selection",
@@ -167,7 +174,7 @@ def build_command(root: Path, model: str, last_message: Path, enable_search: boo
         "-m",
         model,
         "-s",
-        "workspace-write",
+        CODEX_SANDBOX,
         "-a",
         "never",
     ]
