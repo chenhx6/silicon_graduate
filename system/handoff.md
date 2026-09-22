@@ -20,7 +20,7 @@ Completed:
 - The first Day 1 attempt (`2026-09-22-day-01-01`) was interrupted after the nested `workspace-write` sandbox repeatedly failed to create a bubblewrap namespace; it remains excluded from the learning count. The runner was switched to the container's explicit `danger-full-access` mode for the retry.
 - The second attempt (`2026-09-22-day-01-02`) reached no report because `gpt-5.6-sol` was at capacity; the successful Day 1 retry used `gpt-5.6-terra`. The Docker daemon now defaults to Terra for subsequent scheduled runs.
 - The daemon stops cleanly after the one-month runner records `status: complete` / `next_day_index: 31`; it does not manufacture a Day 31 failure. A later 90-day continuation needs a separate runner contract.
-- Added nine daemon tests and expanded the runner suite to nine tests; the full system suite now passes 40 tests. Python compilation, preflight, Wiki lint, report validation and daemon dry-run pass. Real model execution was not started; dry-run resolves to Day 1.
+- Added nine daemon tests and expanded the runner suite to nine tests; the full system suite now passes 40 tests. Python compilation, preflight, Wiki lint, report validation and daemon dry-run pass. The first successful real model execution is Day 1 run `2026-09-22-day-01-03`; the next dry-run resolves to Day 2.
 - Connected the daemon to the container-local `/opt/wiki-runtime/scripts/start-wiki.sh` entrypoint. It starts in the background before the container's keep-alive process; its stdout/stderr is under the ignored `tmp/docker-daily-learning-daemon.log`.
 
 Container-local continuation:
