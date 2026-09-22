@@ -18,7 +18,7 @@ Completed:
 - Added `system/scripts/run_daily_learning_daemon.py`, which waits for the next 22:00 `Asia/Shanghai` trigger, catches up one missed trigger after a container restart, holds a single-instance lock, and records scheduler state/events under `outputs/learning-milestones/`.
 - The runner now requires the current run to change the daily report and include all nine required report headings before advancing `day_index`; an old or partial report remains `failed-verification`.
 - The daemon stops cleanly after the one-month runner records `status: complete` / `next_day_index: 31`; it does not manufacture a Day 31 failure. A later 90-day continuation needs a separate runner contract.
-- Added eight daemon tests and retained the six runner tests; the targeted suites, Python compilation, preflight, Wiki lint and daemon dry-run pass. Real model execution was not started; dry-run resolves to Day 1.
+- Added nine daemon tests and expanded the runner suite to nine tests; the full system suite now passes 40 tests. Python compilation, preflight, Wiki lint, report validation and daemon dry-run pass. Real model execution was not started; dry-run resolves to Day 1.
 - Connected the daemon to the container-local `/opt/wiki-runtime/scripts/start-wiki.sh` entrypoint. It starts in the background before the container's keep-alive process; its stdout/stderr is under the ignored `tmp/docker-daily-learning-daemon.log`.
 
 Container-local continuation:
