@@ -54,6 +54,42 @@ class DailyLearningRunnerTests(unittest.TestCase):
         self.assertEqual(result["status"], "dry-run-ok")
         self.assertEqual(result["day_index"], 1)
         self.assertIn("workspace-write", result["command"])
+        self.assertFalse(result["cycle_complete"])
+
+    def test_report_validation_requires_all_daily_headings(self) -> None:
+        with tempfile.TemporaryDirectory() as directory:
+            path = Path(directory) / "daily.md"
+            path.write_text("## Run state\n", encoding="utf-8")
+            result = run_daily_learning.validate_report(path)
+            self.assertFalse(result["valid"])
+            self.assertIn("## Sources and evidence", result["missing_headings"])
+
+    def test_report_signature_changes_when_report_changes(self) -> None:
+        with tempfile.TemporaryDirectory() as directory:
+            path = Path(directory) / "daily.md"
+            self.assertIsNone(run_daily_learning.report_signature(path))
+            path.write_text("first\n", encoding="utf-8")
+            first = run_daily_learning.report_signature(path)
+            path.write_text("second\n", encoding="utf-8")
+            self.assertNotEqual(first, run_daily_learning.report_signature(path))
+
+    def test_completed_state_dry_run_does_not_request_day_31_phase(self) -> None:
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            paths = run_daily_learning.get_paths(root)
+            (root / "README.md").write_text("root\n", encoding="utf-8")
+            (root / "knowledge").mkdir()
+            (root / ".git").mkdir()
+            paths.prompt_file.parent.mkdir(parents=True)
+            paths.prompt_file.write_text("prompt\n", encoding="utf-8")
+            run_daily_learning.write_json_atomic(
+                paths.state_file,
+                {"next_day_index": 31, "status": "complete"},
+            )
+            with patch.object(run_daily_learning.shutil, "which", return_value="/usr/bin/codex"):
+                result = run_daily_learning.dry_run(paths, "gpt-5.6-sol", True)
+            self.assertEqual(result["status"], "cycle-complete")
+            self.assertIsNone(result["phase"])
 
     def test_preflight_result_preserves_exit_and_tail(self) -> None:
         completed = type("Completed", (), {"returncode": 0, "stdout": '{"ok":true}', "stderr": ""})()

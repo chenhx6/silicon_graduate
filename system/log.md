@@ -11,6 +11,10 @@ updated: 2026-07-15
 
 `## [YYYY-MM-DD HH:MM] operation | description`
 
+## [2026-09-22] reliability | require a fresh complete daily report
+
+- Added report hashing and nine-heading validation to the daily runner. A stale, empty or structurally incomplete report cannot advance the one-month state; runner and daemon regression tests pass.
+
 ## [2026-09-22] reliability | stop the one-month daemon at cycle completion
 
 - Added a completion guard for `next_day_index > 30` / `status: complete`, with a `cycle-complete` scheduler event and regression coverage. The daemon now stops after Day 30 instead of invoking an invalid Day 31.

@@ -9,6 +9,7 @@ from __future__ import annotations
 
 import argparse
 import fcntl
+import hashlib
 import json
 import os
 import re
@@ -38,6 +39,18 @@ PHASES = (
     (28, 28, "independent-l3-research"),
     (29, 29, "research-design-defense"),
     (30, 30, "final-exam-and-prospectus"),
+)
+
+REQUIRED_REPORT_HEADINGS = (
+    "## Run state",
+    "## Candidate pool and selection",
+    "## Sources and evidence",
+    "## Theory/analysis exercise",
+    "## Counter-evidence and missing companion observables",
+    "## Knowledge Impact and Learning Decision",
+    "## Open questions and belief revision",
+    "## L0–L4 state",
+    "## Verification and continuation",
 )
 
 
@@ -164,6 +177,26 @@ def build_command(root: Path, model: str, last_message: Path, enable_search: boo
     return command
 
 
+def report_signature(path: Path) -> str | None:
+    if not path.is_file():
+        return None
+    try:
+        return hashlib.sha256(path.read_bytes()).hexdigest()
+    except OSError:
+        return None
+
+
+def validate_report(path: Path) -> dict[str, Any]:
+    if not path.is_file():
+        return {"valid": False, "missing_headings": list(REQUIRED_REPORT_HEADINGS)}
+    try:
+        text = path.read_text(encoding="utf-8")
+    except OSError:
+        return {"valid": False, "missing_headings": list(REQUIRED_REPORT_HEADINGS)}
+    missing = [heading for heading in REQUIRED_REPORT_HEADINGS if heading not in text]
+    return {"valid": bool(text.strip()) and not missing, "missing_headings": missing}
+
+
 def run_preflight(root: Path) -> dict[str, Any]:
     result = subprocess.run(
         [sys.executable, "system/scripts/wiki_automation_preflight.py", "--root", str(root)],
@@ -195,7 +228,11 @@ def render_prompt(paths: Paths, run_id: str, run_date: str, day_index: int) -> s
     return template
 
 
-def run_checks(root: Path, report_path: Path) -> dict[str, Any]:
+def run_checks(
+    root: Path,
+    report_path: Path,
+    report_before: str | None = None,
+) -> dict[str, Any]:
     preflight = run_preflight(root)
     lint = subprocess.run(
         [sys.executable, "system/scripts/wiki_lint.py", "--fail-on", "error", "--no-git"],
@@ -207,9 +244,14 @@ def run_checks(root: Path, report_path: Path) -> dict[str, Any]:
     diff = subprocess.run(
         ["git", "diff", "--check"], cwd=root, text=True, capture_output=True, check=False
     )
+    report_after = report_signature(report_path)
+    report_validation = validate_report(report_path)
     return {
         "preflight": preflight,
         "report_exists": report_path.is_file(),
+        "report_changed": report_after is not None and report_after != report_before,
+        "report_valid": report_validation["valid"],
+        "report_missing_headings": report_validation["missing_headings"],
         "lint_exit": lint.returncode,
         "lint_tail": lint.stdout[-2000:] if lint.stdout else lint.stderr[-2000:],
         "git_diff_check_exit": diff.returncode,
@@ -227,15 +269,17 @@ def dry_run(paths: Paths, model: str, enable_search: bool) -> dict[str, Any]:
     day_index = int(state.get("next_day_index", 1))
     run_date = local_date()
     run_id = f"dry-run-{run_date}-day-{day_index:02d}"
+    cycle_complete = state.get("status") == "complete" or day_index > 30
     return {
-        "status": "dry-run-ok",
+        "status": "cycle-complete" if cycle_complete else "dry-run-ok",
         "root": str(paths.root),
         "codex": shutil.which("codex"),
         "day_index": day_index,
-        "phase": phase_for_day(day_index),
+        "phase": None if cycle_complete else phase_for_day(day_index),
         "command": build_command(paths.root, model, paths.daily_root / "last-message.md", enable_search),
         "state_file": str(paths.state_file),
         "run_id": run_id,
+        "cycle_complete": cycle_complete,
     }
 
 
@@ -259,6 +303,19 @@ def main() -> int:
         validate_root(root)
         state = read_state(paths.state_file)
         day_index = int(state.get("next_day_index", 1)) if args.day_index == "auto" else int(args.day_index)
+        if state.get("status") == "complete" or day_index > 30:
+            print(
+                json.dumps(
+                    {
+                        "status": "cycle-complete",
+                        "cycle": "2026-09-one-month",
+                        "next_day_index": day_index,
+                    },
+                    ensure_ascii=False,
+                    indent=2,
+                )
+            )
+            return 0
         phase = phase_for_day(day_index)
         run_date = local_date()
         run_number = next_run_number(paths.daily_root, run_date)
@@ -266,6 +323,7 @@ def main() -> int:
         run_dir = paths.daily_root / f"{run_date}-run-{run_number:02d}"
         run_dir.mkdir(parents=True, exist_ok=False)
         report_path = paths.daily_root / f"{run_date}.md"
+        report_before = report_signature(report_path)
         events_path = run_dir / "events.jsonl"
         stderr_path = run_dir / "stderr.log"
         last_message = run_dir / "last-message.md"
@@ -316,11 +374,13 @@ def main() -> int:
                     check=False,
                 )
             lines = events_path.read_text(encoding="utf-8", errors="replace").splitlines()
-            checks = run_checks(root, report_path)
+            checks = run_checks(root, report_path, report_before)
             success = (
                 process.returncode == 0
                 and checks["preflight"]["exit"] == 0
                 and checks["report_exists"]
+                and checks["report_changed"]
+                and checks["report_valid"]
                 and checks["lint_exit"] == 0
                 and checks["git_diff_check_exit"] == 0
             )
