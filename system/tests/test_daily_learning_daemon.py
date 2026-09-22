@@ -59,6 +59,17 @@ class DailyLearningDaemonTests(unittest.TestCase):
         marker = {"last_scheduled_date": "2026-09-22", "last_status": "running"}
         self.assertEqual(run_daily_learning_daemon.next_due(now, marker), now)
 
+    def test_learning_cycle_complete_after_day_30(self) -> None:
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            state_path = root / "outputs" / "learning-milestones" / "2026-09-one-month-state.json"
+            state_path.parent.mkdir(parents=True)
+            state_path.write_text(
+                json.dumps({"next_day_index": 31, "status": "complete"}),
+                encoding="utf-8",
+            )
+            self.assertTrue(run_daily_learning_daemon.learning_cycle_complete(root))
+
     def test_build_runner_command_is_docker_local(self) -> None:
         command = run_daily_learning_daemon.build_runner_command(
             Path("/workspace/wiki"), "gpt-5.6-sol", False

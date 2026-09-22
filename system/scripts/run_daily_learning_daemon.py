@@ -143,6 +143,18 @@ def scheduler_default_state() -> dict[str, Any]:
     }
 
 
+def learning_cycle_complete(root: Path) -> bool:
+    """Return whether the one-month runner has no valid day left to execute."""
+
+    path = root / "outputs" / "learning-milestones" / "2026-09-one-month-state.json"
+    state = read_json(path, {"next_day_index": 1, "status": "not-started"})
+    try:
+        next_day = int(state.get("next_day_index", 1))
+    except (TypeError, ValueError) as exc:
+        raise RuntimeError(f"invalid next_day_index in {path}") from exc
+    return state.get("status") == "complete" or next_day > 30
+
+
 def now_local() -> datetime:
     return datetime.now(TIMEZONE)
 
@@ -219,6 +231,7 @@ def dry_run(root: Path, model: str, no_search: bool, hour: int, minute: int) -> 
         "timezone": str(TIMEZONE),
         "now": now.isoformat(),
         "next_due": due.isoformat(),
+        "cycle_complete": learning_cycle_complete(root),
         "command": build_runner_command(root, model, no_search),
         "lock_file": str(DEFAULT_LOCK_FILE),
         "state_file": str(get_state_path(root)),
@@ -242,6 +255,9 @@ def daemon_loop(
     with scheduler_lock(lock_path):
         append_event(log_path, "daemon-started", root=str(root), hour=hour, minute=minute)
         while not stop["requested"]:
+            if learning_cycle_complete(root):
+                append_event(log_path, "cycle-complete", cycle="2026-09-one-month")
+                return 0
             marker = read_json(state_path, scheduler_default_state())
             now = now_local()
             due = next_due(now, marker, hour, minute)
