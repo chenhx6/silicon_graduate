@@ -297,7 +297,7 @@ def daemon_loop(
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--root", type=Path, default=Path.cwd())
-    parser.add_argument("--model", default="gpt-5.6-sol")
+    parser.add_argument("--model", default="gpt-5.6-terra")
     parser.add_argument("--no-search", action="store_true")
     parser.add_argument("--hour", type=int, default=DEFAULT_HOUR)
     parser.add_argument("--minute", type=int, default=DEFAULT_MINUTE)

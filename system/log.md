@@ -11,6 +11,10 @@ updated: 2026-07-15
 
 `## [YYYY-MM-DD HH:MM] operation | description`
 
+## [2026-09-22] reliability | use the verified Terra model for scheduled runs
+
+- `gpt-5.6-sol` returned a capacity error during the first real Day 1 retry; `gpt-5.6-terra` completed the full evidence run. The container daemon default is now Terra so the next scheduled day uses the verified route.
+
 ## [2026-09-22] diagnostic | nested Codex sandbox incompatibility on Day 1
 
 - The first real Day 1 attempt created `run-01` but could not execute repository commands because nested `workspace-write` bubblewrap namespaces are unavailable in this Docker kernel. The run was marked `interrupted`, not counted, and the Docker-contained runner was changed to explicit `danger-full-access` with approval mode `never` before retry.
