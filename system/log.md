@@ -11,6 +11,10 @@ updated: 2026-07-15
 
 `## [YYYY-MM-DD HH:MM] operation | description`
 
+## [2026-09-22] reliability | enforce the requested model priority chain
+
+- The Docker daemon now tries `gpt-6-astra` with reasoning `low`, then `gpt-5.6-sol` with `max`, then `gpt-5.6-terra` with `max`. It records each attempt and falls back only for capacity, rate-limit, temporary-service, or model-availability errors.
+
 ## [2026-09-22] reliability | use the verified Terra model for scheduled runs
 
 - `gpt-5.6-sol` returned a capacity error during the first real Day 1 retry; `gpt-5.6-terra` completed the full evidence run. The container daemon default is now Terra so the next scheduled day uses the verified route.

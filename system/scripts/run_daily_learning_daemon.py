@@ -32,6 +32,11 @@ DEFAULT_POLL_SECONDS = 30
 DEFAULT_LOCK_FILE = Path("/tmp/wiki-one-month-daily-learning-daemon.lock")
 STATE_NAME = "2026-09-one-month-scheduler-state.json"
 LOG_NAME = "2026-09-one-month-scheduler.jsonl"
+MODEL_PRIORITY = (
+    ("gpt-6-astra", "low"),
+    ("gpt-5.6-sol", "max"),
+    ("gpt-5.6-terra", "max"),
+)
 
 
 def get_state_path(root: Path) -> Path:
@@ -85,6 +90,7 @@ def build_runner_command(
     root: Path,
     model: str,
     no_search: bool,
+    reasoning_effort: str | None = None,
 ) -> list[str]:
     command = [
         sys.executable,
@@ -98,6 +104,8 @@ def build_runner_command(
         "--model",
         model,
     ]
+    if reasoning_effort:
+        command += ["--reasoning-effort", reasoning_effort]
     if no_search:
         command.append("--no-search")
     return command
@@ -167,9 +175,50 @@ def append_event(path: Path, event: str, **fields: Any) -> None:
         handle.flush()
 
 
-def run_once(root: Path, model: str, no_search: bool, log_path: Path) -> int:
-    command = build_runner_command(root, model, no_search)
-    append_event(log_path, "runner-started", command=command)
+def is_retryable_model_error(reason: str | None) -> bool:
+    if not reason:
+        return False
+    lowered = reason.lower()
+    markers = (
+        "capacity",
+        "overloaded",
+        "rate limit",
+        "rate_limit",
+        "temporarily unavailable",
+        "service unavailable",
+        "model not found",
+        "model unavailable",
+        "unknown model",
+    )
+    return any(marker in lowered for marker in markers)
+
+
+def _receipt_from_stdout(stdout: str) -> dict[str, Any]:
+    for line in reversed(stdout.splitlines()):
+        try:
+            value = json.loads(line)
+        except json.JSONDecodeError:
+            continue
+        if isinstance(value, dict) and "status" in value:
+            return value
+    return {}
+
+
+def run_once_result(
+    root: Path,
+    model: str,
+    no_search: bool,
+    log_path: Path,
+    reasoning_effort: str | None = None,
+) -> dict[str, Any]:
+    command = build_runner_command(root, model, no_search, reasoning_effort)
+    append_event(
+        log_path,
+        "runner-started",
+        model=model,
+        reasoning_effort=reasoning_effort,
+        command=command,
+    )
     result = subprocess.run(
         command,
         cwd=root,
@@ -180,13 +229,56 @@ def run_once(root: Path, model: str, no_search: bool, log_path: Path) -> int:
     )
     # The runner owns detailed events/stderr.  Keep this scheduler log limited
     # to exit metadata so credentials or source text cannot be duplicated here.
+    receipt = _receipt_from_stdout(result.stdout)
+    reason = receipt.get("failure_reason")
+    if not isinstance(reason, str):
+        reason = result.stderr[-2000:] if result.stderr else None
+    retryable = result.returncode != 0 and is_retryable_model_error(reason)
     append_event(
         log_path,
         "runner-finished",
+        model=model,
+        reasoning_effort=reasoning_effort,
         exit_code=result.returncode,
         status="completed" if result.returncode == 0 else "failed",
+        retryable=retryable,
+        failure_reason=reason,
     )
-    return result.returncode
+    return {
+        "exit_code": result.returncode,
+        "retryable": retryable,
+        "failure_reason": reason,
+        "model": model,
+        "reasoning_effort": reasoning_effort,
+    }
+
+
+def run_once(root: Path, model: str, no_search: bool, log_path: Path) -> int:
+    return int(run_once_result(root, model, no_search, log_path)["exit_code"])
+
+
+def run_profile_chain(
+    root: Path,
+    profiles: tuple[tuple[str, str | None], ...],
+    no_search: bool,
+    log_path: Path,
+) -> dict[str, Any]:
+    last: dict[str, Any] = {"exit_code": 1, "retryable": False}
+    for index, (model, effort) in enumerate(profiles):
+        last = run_once_result(root, model, no_search, log_path, effort)
+        if last["exit_code"] == 0 or not last["retryable"] or index == len(profiles) - 1:
+            return last
+        next_model, next_effort = profiles[index + 1]
+        append_event(
+            log_path,
+            "model-fallback",
+            from_model=model,
+            from_reasoning_effort=effort,
+            to_model=next_model,
+            to_reasoning_effort=next_effort,
+            reason=last.get("failure_reason"),
+        )
+    return last
 
 
 @contextmanager
@@ -220,7 +312,13 @@ def validate_root(root: Path) -> None:
         raise RuntimeError("Wiki root is incomplete: " + ", ".join(missing))
 
 
-def dry_run(root: Path, model: str, no_search: bool, hour: int, minute: int) -> dict[str, Any]:
+def dry_run(
+    root: Path,
+    profiles: tuple[tuple[str, str | None], ...],
+    no_search: bool,
+    hour: int,
+    minute: int,
+) -> dict[str, Any]:
     validate_root(root)
     now = now_local()
     marker = read_json(get_state_path(root), scheduler_default_state())
@@ -232,7 +330,10 @@ def dry_run(root: Path, model: str, no_search: bool, hour: int, minute: int) -> 
         "now": now.isoformat(),
         "next_due": due.isoformat(),
         "cycle_complete": learning_cycle_complete(root),
-        "command": build_runner_command(root, model, no_search),
+        "model_priority": [
+            {"model": model, "reasoning_effort": effort} for model, effort in profiles
+        ],
+        "command": build_runner_command(root, profiles[0][0], no_search, profiles[0][1]),
         "lock_file": str(DEFAULT_LOCK_FILE),
         "state_file": str(get_state_path(root)),
         "log_file": str(get_log_path(root)),
@@ -241,7 +342,7 @@ def dry_run(root: Path, model: str, no_search: bool, hour: int, minute: int) -> 
 
 def daemon_loop(
     root: Path,
-    model: str,
+    profiles: tuple[tuple[str, str | None], ...],
     no_search: bool,
     hour: int,
     minute: int,
@@ -281,11 +382,14 @@ def daemon_loop(
                 }
             )
             write_json_atomic(state_path, marker)
-            exit_code = run_once(root, model, no_search, log_path)
+            result = run_profile_chain(root, profiles, no_search, log_path)
+            exit_code = int(result["exit_code"])
             marker.update(
                 {
                     "last_status": "completed" if exit_code == 0 else "failed",
                     "last_runner_exit": exit_code,
+                    "last_model": result.get("model"),
+                    "last_reasoning_effort": result.get("reasoning_effort"),
                     "updated_at": now_local().isoformat(),
                 }
             )
@@ -297,7 +401,8 @@ def daemon_loop(
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--root", type=Path, default=Path.cwd())
-    parser.add_argument("--model", default="gpt-5.6-terra")
+    parser.add_argument("--model", default=None)
+    parser.add_argument("--reasoning-effort", choices=["low", "medium", "high", "max"], default=None)
     parser.add_argument("--no-search", action="store_true")
     parser.add_argument("--hour", type=int, default=DEFAULT_HOUR)
     parser.add_argument("--minute", type=int, default=DEFAULT_MINUTE)
@@ -316,11 +421,16 @@ def main() -> int:
     root = args.root.resolve()
     state_path = (args.state_file or get_state_path(root)).resolve()
     log_path = (args.log_file or get_log_path(root)).resolve()
+    profiles = (
+        ((args.model, args.reasoning_effort),)
+        if args.model
+        else MODEL_PRIORITY
+    )
     try:
         if args.dry_run:
             print(
                 json.dumps(
-                    dry_run(root, args.model, args.no_search, args.hour, args.minute),
+                    dry_run(root, profiles, args.no_search, args.hour, args.minute),
                     ensure_ascii=False,
                     indent=2,
                 )
@@ -333,10 +443,10 @@ def main() -> int:
             raise ValueError("poll-seconds must be positive")
         if args.once:
             with scheduler_lock(args.lock_file):
-                return run_once(root, args.model, args.no_search, log_path)
+                return int(run_profile_chain(root, profiles, args.no_search, log_path)["exit_code"])
         return daemon_loop(
             root,
-            args.model,
+            profiles,
             args.no_search,
             args.hour,
             args.minute,

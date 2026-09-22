@@ -166,7 +166,32 @@ def extract_session_id(lines: list[str]) -> str | None:
     return None
 
 
-def build_command(root: Path, model: str, last_message: Path, enable_search: bool) -> list[str]:
+def extract_failure_reason(lines: list[str]) -> str | None:
+    messages: list[str] = []
+    for line in lines:
+        try:
+            value = json.loads(line)
+        except json.JSONDecodeError:
+            continue
+        if not isinstance(value, dict) or value.get("type") not in {"error", "turn.failed"}:
+            continue
+        error = value.get("error")
+        if isinstance(error, dict) and isinstance(error.get("message"), str):
+            messages.append(error["message"])
+        elif isinstance(error, str):
+            messages.append(error)
+        if isinstance(value.get("message"), str):
+            messages.append(value["message"])
+    return " | ".join(messages) if messages else None
+
+
+def build_command(
+    root: Path,
+    model: str,
+    last_message: Path,
+    enable_search: bool,
+    reasoning_effort: str | None = None,
+) -> list[str]:
     command = [
         "codex",
         "-C",
@@ -178,6 +203,8 @@ def build_command(root: Path, model: str, last_message: Path, enable_search: boo
         "-a",
         "never",
     ]
+    if reasoning_effort:
+        command += ["-c", f"model_reasoning_effort={reasoning_effort}"]
     if enable_search:
         command.append("--search")
     command += ["exec", "--json", "-o", str(last_message), "-"]
@@ -266,7 +293,12 @@ def run_checks(
     }
 
 
-def dry_run(paths: Paths, model: str, enable_search: bool) -> dict[str, Any]:
+def dry_run(
+    paths: Paths,
+    model: str,
+    enable_search: bool,
+    reasoning_effort: str | None = None,
+) -> dict[str, Any]:
     validate_root(paths.root)
     if shutil.which("codex") is None:
         raise RuntimeError("codex executable was not found in PATH")
@@ -283,7 +315,13 @@ def dry_run(paths: Paths, model: str, enable_search: bool) -> dict[str, Any]:
         "codex": shutil.which("codex"),
         "day_index": day_index,
         "phase": None if cycle_complete else phase_for_day(day_index),
-        "command": build_command(paths.root, model, paths.daily_root / "last-message.md", enable_search),
+        "command": build_command(
+            paths.root,
+            model,
+            paths.daily_root / "last-message.md",
+            enable_search,
+            reasoning_effort,
+        ),
         "state_file": str(paths.state_file),
         "run_id": run_id,
         "cycle_complete": cycle_complete,
@@ -296,6 +334,7 @@ def main() -> int:
     parser.add_argument("--day-index", default="auto")
     parser.add_argument("--mode", choices=["daily-learning"], default="daily-learning")
     parser.add_argument("--model", default="gpt-5.6-sol")
+    parser.add_argument("--reasoning-effort", choices=["low", "medium", "high", "max"], default=None)
     parser.add_argument("--no-search", action="store_true")
     parser.add_argument("--dry-run", action="store_true")
     args = parser.parse_args()
@@ -303,7 +342,7 @@ def main() -> int:
     root = args.root.resolve()
     paths = get_paths(root)
     try:
-        result = dry_run(paths, args.model, not args.no_search)
+        result = dry_run(paths, args.model, not args.no_search, args.reasoning_effort)
         if args.dry_run:
             print(json.dumps(result, ensure_ascii=False, indent=2))
             return 0
@@ -367,7 +406,13 @@ def main() -> int:
                 print(json.dumps(receipt, ensure_ascii=False, indent=2))
                 return 3
             prompt = render_prompt(paths, run_id, run_date, day_index)
-            command = build_command(root, args.model, last_message, not args.no_search)
+            command = build_command(
+                root,
+                args.model,
+                last_message,
+                not args.no_search,
+                args.reasoning_effort,
+            )
             with events_path.open("w", encoding="utf-8") as events, stderr_path.open(
                 "w", encoding="utf-8"
             ) as stderr:
@@ -396,6 +441,7 @@ def main() -> int:
                     "status": "completed" if success else "failed-verification",
                     "exit_code": process.returncode,
                     "session_id": extract_session_id(lines),
+                    "failure_reason": extract_failure_reason(lines),
                     "checks": checks,
                     "finished_at": datetime.now(TIMEZONE).isoformat(),
                 }
