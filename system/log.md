@@ -1333,3 +1333,7 @@ updated: 2026-07-15
 
 - `32ade7d Enforce structured daily knowledge writeback` passed 53 system tests, boundary/preflight/lint and exact non-force refspec publication; `origin/main` matches the local commit.
 - Reconciled Active handoff wording after publication. Existing raw, run receipts, plans, temporary directories and inherited `run_daily_learning.py` change remain outside the published scope.
+
+## [2026-09-23] governance | complete knowledge snapshot coverage
+
+- Extended the writeback validator to compare the entire `knowledge/` snapshot before/after each daily run; every changed page must be listed in the structured block, and `verified-no-op` fails on any knowledge change. Added the unmapped-change regression test.

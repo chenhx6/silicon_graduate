@@ -12,7 +12,7 @@ Current active task: 固化六类目录边界，防止文献摄入、每日学�
 
 Completed: 新增 [`system/path-contract.md`](path-contract.md) 与只读 [`system/scripts/wiki_boundary_check.py`](scripts/wiki_boundary_check.py)；automation preflight 已先执行边界检查；`AGENTS.md`、README、用户指南、ingest/reflect/query/autonomous-research/continuous-learning/scheduled-continuation/lint workflows、daily prompt、memory、checklist 和 WIP queue 已统一到 `outputs/plans/` 与 `knowledge/` durable backwrite 规则。每日 runner 现在还会解析唯一的 `knowledge-writeback` JSON 区块：逐项验证 canonical `knowledge/` 页、页内 anchor、`knowledge/sources/` locator，并用运行前后 knowledge 快照确认 `updated` 真实改变页面；`verified-no-op` 也必须提供 grounded page/locator。已迁移的 A≈130 证据矩阵只存在于 `knowledge/projects/`；QMD collection 仍为 `knowledge/**/*.md`。
 
-Verification: boundary check 通过（六类目录齐全、`docs/plans/` 缺失、outputs 中无 knowledge page type、QMD path/pattern 正确）；preflight 通过且 protected BibTeX SHA 匹配；system tests 53/53 通过；Wiki lint 0 errors / 79 warnings / 1106 info；QMD update/embed/status 完成（534 files, 2247 vectors, 70 historical orphan chunks）。
+Verification: boundary check 通过（六类目录齐全、`docs/plans/` 缺失、outputs 中无 knowledge page type、QMD path/pattern 正确）；preflight 通过且 protected BibTeX SHA 匹配；system tests 54/54 通过；Wiki lint 0 errors / 79 warnings / 1106 info；QMD update/embed/status 完成（534 files, 2247 vectors, 70 historical orphan chunks）。
 
 Preserved: `system/scripts/run_daily_learning.py` 的既有未提交修改、raw/临时目录、未跟踪 daily run receipts 和 `outputs/plans/` 运行计划未纳入本轮 staged scope；本轮不修改 raw、PLAN、protected BibTeX 或宿主机状态。
 

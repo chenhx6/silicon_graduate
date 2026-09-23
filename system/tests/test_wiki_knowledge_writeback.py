@@ -73,6 +73,15 @@ class KnowledgeWritebackTests(unittest.TestCase):
         self.assertTrue(result["valid"], result)
         self.assertEqual(result["mode"], "verified-no-op")
 
+    def test_unmapped_knowledge_change_is_rejected(self) -> None:
+        self.write_report("verified-no-op")
+        before = snapshot_knowledge(self.root)
+        extra = self.root / "knowledge" / "projects" / "unmapped.md"
+        extra.write_text("# accidental change\n", encoding="utf-8")
+        result = validate_writeback(self.report, self.root, before=before)
+        self.assertFalse(result["valid"])
+        self.assertIn("must be listed", result["error"])
+
     def test_bad_locator_is_rejected(self) -> None:
         self.write_report("verified-no-op")
         text = self.report.read_text(encoding="utf-8").replace("SRC-1", "NO-SUCH-LOCATOR")

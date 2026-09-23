@@ -57,6 +57,7 @@ def validate_writeback(
     root: Path,
     *,
     before: dict[str, str] | None = None,
+    after: dict[str, str] | None = None,
     allow_not_applicable: bool = False,
 ) -> dict[str, Any]:
     """Require one knowledge-writeback JSON block in a scoped output report.
@@ -123,9 +124,19 @@ def validate_writeback(
             relative = page.relative_to(root).as_posix()
             if relative not in result["knowledge_paths"]:
                 result["knowledge_paths"].append(relative)
-            if before is not None and before.get(relative) != hashlib.sha256(page.read_bytes()).hexdigest():
-                if relative not in result["changed_paths"]:
-                    result["changed_paths"].append(relative)
+            for reference in sources:
+                source_relative = PurePosixPath(reference["path"]).as_posix()
+                if source_relative not in result["knowledge_paths"]:
+                    result["knowledge_paths"].append(source_relative)
+        if before is not None:
+            after = after if after is not None else snapshot_knowledge(root)
+            result["changed_paths"] = sorted(
+                path for path in (set(before) | set(after)) if before.get(path) != after.get(path)
+            )
+            mapped = set(result["knowledge_paths"])
+            unmapped = sorted(set(result["changed_paths"]) - mapped)
+            if unmapped:
+                raise ValueError("knowledge changes must be listed in writeback items: " + ", ".join(unmapped))
         if before is not None:
             if mode == "updated" and not result["changed_paths"]:
                 raise ValueError("updated claimed, but no mapped knowledge page changed during this run")
