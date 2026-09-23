@@ -45,7 +45,7 @@ A≈130 是当前研究锚点，不是 Wiki 的收录边界。v2 的设计决策
 | 论文级证据门 | [system/paper-evidence-gate.md](system/paper-evidence-gate.md) |
 | 完整人工检查 | [check.md](check.md) |
 
-日常主要浏览 `knowledge/`：它是 Wiki 的长期知识大脑，保存 source、实体、方法、模型、project、synthesis 和可复用研究矩阵。`raw/` 只保存原始材料，`system/` 保存规则与执行交接，`outputs/` 只保存日报、周报、审计、回执和其它过程报告。
+日常主要浏览 `knowledge/`：它是 Wiki 的长期知识大脑，保存 source、实体、方法、模型、project、synthesis 和可复用研究矩阵。六类目录的唯一落点与漂移检查见 [`system/path-contract.md`](system/path-contract.md)。`raw/` 只保存原始材料，`system/` 保存规则与执行交接，`outputs/` 只保存日报、周报、审计、回执、调度状态和 `outputs/plans/` 任务计划书。输出中产生的可复用知识必须同步写入 `knowledge/`，不能只留在日报或计划书里。
 
 推荐流程：
 
@@ -56,7 +56,7 @@ Zotero Wiki Inbox
 → Codex self-audit 与证据回链
 → 用户在后续问答或写作时定向审阅
 → synthesis 跨来源综合
-→ outputs 形成文章、报告或汇报
+→ knowledge 固化可复用知识；outputs 形成文章、报告、计划或汇报
 → lint
 → Git commit/push
 ```
@@ -65,6 +65,7 @@ Zotero Wiki Inbox
 
 ```bash
 python system/scripts/wiki_lint.py --fail-on error
+python system/scripts/wiki_boundary_check.py --root .
 ```
 
 会话 hook 与 farmer 的显式检查命令见

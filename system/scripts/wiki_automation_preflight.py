@@ -17,6 +17,8 @@ import tempfile
 import uuid
 from pathlib import Path
 
+from wiki_boundary_check import scan_boundary
+
 
 def sha256(path: Path) -> str:
     digest = hashlib.sha256()
@@ -67,12 +69,22 @@ def main() -> int:
         "expected_profile": args.expected_profile,
         "actual_profile": os.environ.get("CODEX_PERMISSION_PROFILE"),
         "warnings": [], "write_probes": [], "error": None,
+        "path_boundary": None,
     }
     try:
         root = Path(args.root).expanduser().resolve()
         result["root"] = str(root)
         if not (root / ".git").exists():
             raise ValueError(f"not a repository: {root}")
+        boundary = scan_boundary(root)
+        result["path_boundary"] = boundary
+        result["warnings"].extend(boundary["warnings"])
+        if not boundary["ok"]:
+            details = "; ".join(
+                f"{item['code']} {item['path']}: {item['message']}"
+                for item in boundary["errors"]
+            )
+            raise ValueError(f"path contract failed: {details}")
         default = config_default(root / ".codex" / "config.toml")
         result["config_default"] = default
         if args.expected_profile and default != args.expected_profile:

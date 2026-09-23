@@ -46,6 +46,7 @@ updated: 2026-09-10
 - 2026-08-18 Nature Skills 安装记录保留为历史事实；后续维护以 Python 更新器和 Wiki evidence policy 为准。
 - 2026-09-22 用户明确：每日学习自动化必须完全运行在 Docker 内。使用容器内 `run_daily_learning_daemon.py` 负责 Asia/Shanghai 22:00 调度；不得使用宿主机任务计划、Docker socket、PowerShell 或外部 project cron。
 - 2026-09-23 用户明确：`knowledge/` 是 Wiki 的长期知识大脑；每日学习产生的可复用 source/project/synthesis/question/research-note/matrix 增量写入 `knowledge/`，`outputs/` 只保存日报、周报、审计、回执、调度状态和其它过程交代。
+- 2026-09-23 路径契约固化：`raw/` 原始材料，`knowledge/` 长期知识，`outputs/` 交代性输出与 `outputs/plans/` 任务计划书，`system/` 治理执行，`tools/` 外部工具，`tmp/` 临时数据；`docs/plans/` 禁止重新创建。输出中的可复用知识必须同步回写 `knowledge/`，QMD 仅索引 `knowledge/**/*.md`；`wiki_boundary_check.py` 由 automation preflight 调用。
 
 ## 用户纠正记录
 

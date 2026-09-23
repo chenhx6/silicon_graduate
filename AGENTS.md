@@ -18,7 +18,10 @@ Git 工作树可能包含用户或上一轮留下的修改。写入前先运行 
 ## 任务边界
 
 - 普通问答默认只读；用户明确要求摄入、综合、修复或写作时，才写入相关文件。
-- `knowledge/` 是可维护的知识层；`system/` 是治理和脚本层；`outputs/` 保存报告。
+- 六类目录的唯一落点契约见 [`system/path-contract.md`](system/path-contract.md)：`raw/` 保存原始材料，`knowledge/` 保存长期知识大脑，`outputs/` 保存日报/周报/审计/回执/调度状态和 `outputs/plans/` 任务计划书，`system/` 保存规则/工作流/脚本/测试/交接，`tools/` 保存外部工具，`tmp/` 保存临时运行数据。
+- 任何输出、计划或运行记录中产生的可复用事实、方法、证据矩阵、竞争解释、开放问题或研究设计，都必须同步写入 `knowledge/`；`outputs/` 不是第二知识库，不能成为长期问答或论文事实源。
+- `docs/plans/` 已废止，不得重新创建；根目录 `PLAN.md` 仍由用户维护，不迁移到 `outputs/` 或 `knowledge/`。
+- `knowledge/` 是可维护的知识层；`system/` 是治理和脚本层；`outputs/` 保存交代性输出。QMD 只索引 `knowledge/**/*.md`。
 - `raw/`、`PLAN.md` 默认保持不变；需要修改时必须得到用户明确指令，并逐文件核验。`raw/zotero/wiki-inbox.bib` 是本地 Zotero 输入，不属于公共 Git 跟踪范围。
 - 递归删除、历史重写、force push、覆盖原始证据等不可逆操作必须单独确认。
 - 不使用桌面端 GUI 或 Computer Use 来代替终端操作。浏览器只用于检索和验证，下载应指定到仓库内路径。
@@ -43,6 +46,7 @@ A≈130 是重要研究锚点，不是收录边界。是否建立核素、实验
 - 每日持续学习：`system/workflows/continuous-learning.md`
 - 定时续跑：`system/workflows/scheduled-continuation.md`
 - 健康检查：`system/workflows/lint.md` 和 `check.md`
+- 路径契约与漂移检查：`system/path-contract.md`、`system/scripts/wiki_boundary_check.py`
 
 L0–L4、P0/P1 和每周自测只在 `autonomous-research.md` 维护；其它文件只做路由和任务记录。研究型任务应记录问题、证据缺口、停止原因和下一步，不以论文数量代替信息增益。
 
@@ -69,6 +73,7 @@ Force push、历史重写、已发布标签改写、递归删除、raw 覆盖和
 
 - `system/scripts/clean_knowledge_eol_dirty.py`：检查并清理仅由 LF/CRLF 造成的 tracked knowledge 脏状态；
 - `system/scripts/wiki_automation_preflight.py`：检查仓库根目录、配置和受保护 BibTeX 基线；
+- `system/scripts/wiki_boundary_check.py`：只读检查六类目录、`outputs/` 分类、已迁移知识页和 QMD collection 边界；
 - `system/scripts/update_nature_skills.py`：更新或回退 Nature Skills；
 - `script/git20260905.py`：按 manifest 显式暂存、提交并尝试发布批次内容。
 

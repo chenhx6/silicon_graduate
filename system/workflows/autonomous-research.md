@@ -21,6 +21,8 @@ updated: 2026-08-06
 
 普通问答仍只读。用户要求摄入、固化、reflect、project 或 synthesis，即授权与任务直接相关的 L0-L2 写入；不得因 ordinary Q&A 静默写回。
 
+所有 L0–L4 研究单元遵守 [`system/path-contract.md`](../path-contract.md)：source、project、evidence map、research prospectus、问题修订和可复用研究结论写入 `knowledge/`；`outputs/` 只保存研究报告、审计、readiness、run receipt、调度状态和 `outputs/plans/` 计划书。报告里的 durable knowledge delta 必须能回链到 canonical `knowledge/` 页面；报告不能成为唯一知识副本。
+
 ## Codex self-audit 与后续用户裁决
 
 Codex 默认自主完成普通摄入、locator 复核、低风险纠错、关联固化、L3/L4 研究和候选问题记录。Codex self-audit 必须检查直接来源、locator、claim kind、证据层级、竞争解释、source lineage、适用条件和失败条件，并把判断写入对应报告或 source/project 页面。
@@ -166,7 +168,7 @@ L4 必须同时包含：
 
 核素问题原则上比较至少一个适用同位素和一个同中子素；物理上不适用或没有可靠资料时说明原因，不机械创建页面。L3 可按 Nature-first 路由检索、合法获取、核验 locator、摄入 `raw/papers/gpt/**` 和 `raw/zotero/gpt.bib`；关键数据/方法只在补充信息中时可获取 SI。`raw/zotero/wiki-inbox.bib` 始终只读、不得暂存。无法获得全文时记录 DOI、访问路线和下一次获取路径，不循环登录或把 HTML 当 PDF。
 
-L4 对公开数值或可靠模拟可以在具备数据身份、参数、代码和失败检查后由 Codex 自主执行；用户提供的真实数据仍需用户手动启动。没有完整输入时先生成 readiness audit，输出来源、可复现程度、缺失 observable/locator 和 `ready`/`partial`/`not-ready` 到 `outputs/l4/<issue>-<date>/report.md`。`partial`/`not-ready` 只结束该问题本轮扩展，不停用周测。继续、暂停或升级仍由重要性、证据充分度、信息增益、资源、权限和实质进展决定，避免机械浅尝和无价值无限扩张。
+L4 对公开数值或可靠模拟可以在具备数据身份、参数、代码和失败检查后由 Codex 自主执行；用户提供的真实数据仍需用户手动启动。没有完整输入时先生成 readiness audit，输出来源、可复现程度、缺失 observable/locator 和 `ready`/`partial`/`not-ready` 到 `outputs/l4/<issue>-<date>/report.md`；若 readiness 产生可复用知识或研究设计，必须同步写入 `knowledge/`。`partial`/`not-ready` 只结束该问题本轮扩展，不停用周测。继续、暂停或升级仍由重要性、证据充分度、信息增益、资源、权限和实质进展决定，避免机械浅尝和无价值无限扩张。
 
 ### Git 安全门
 
@@ -183,6 +185,8 @@ L4 对公开数值或可靠模拟可以在具备数据身份、参数、代码�
 ### 审核报告与 checkpoint
 
 每次完成都在任务中形成报告；有实质修改时同时创建 `outputs/self-tests/YYYY-MM-DD-<topic>.md`，依次包含 `Selection audit`、范围、P0、P1、低风险摘要/链接、验证与研究摘要、L3/L4 状态、文件/Git/检查状态。`Selection audit` 必须记录运行类型及是否计入周测、候选覆盖类别、两个槽位的选择结果、核心来源指纹及近期重叠、冷却例外/deferred 原因、本轮新增知识和 belief-revision 结果。
+
+报告、计划和回执属于交代层；新增 source/project/synthesis/evidence-map/question 或其它长期资产必须在同一任务中落到 `knowledge/`，并在报告中列出 canonical 路径。没有新增知识时明确写 `verified no-op`，不以长报告文字替代知识增量。
 
 用户默认可只阅读 P0、P1 和升级状态；Codex 不主动索要审核。低风险内容只提供摘要与可追溯链接；后续问答或论文写作需要用户裁决具体 claim 时，再触发定向审核。
 

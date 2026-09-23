@@ -16,3 +16,5 @@ updated: 2026-09-05
 - Git/权限结果（包括 `content-complete / final-not-pushed`），不记录 token 或宿主凭据。
 
 没有实质变化时只写 verified no-op receipt，不制造空 commit。
+
+日报是运行交代，不是长期知识库。每次日报产生可复用的事实、方法、证据矩阵行、竞争解释、开放问题或研究设计，必须在同一任务中写入 `knowledge/` 的 canonical 页面，并在日报中列出页面路径和 source locator；只有带证据的 `verified no-op` 才可以没有新的知识页。

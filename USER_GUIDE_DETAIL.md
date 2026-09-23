@@ -41,6 +41,10 @@
 | --- | --- |
 | `raw/` | 原始论文、笔记、数据和图片；默认由用户管理，只有 `raw/papers/gpt/**` 与 `raw/zotero/gpt.bib` 是已授权的 Agent 文献入口 |
 | `knowledge/` | 从来源中整理出的可检索、可交叉引用知识层 |
+| `outputs/` | 日报、周报、审计、paper card、L3/L4 报告、运行回执、调度状态和 `outputs/plans/` 任务计划书；不是长期知识层 |
+| `system/` | 规则、workflow、schema、prompt、template、脚本、测试、handoff、log 和 queue |
+| `tools/` | 外部工具和服务适配层 |
+| `tmp/` | 临时运行数据、缓存和 scratch；不保存唯一知识 |
 | source | 记录一篇来源实际报告了什么，并连接 raw 与 citation key |
 | nucleus | 汇总一个核素的结构、相关能带、实验和来源 |
 | band | 记录一条能带或双重带的观测、指认与证据状态 |
@@ -56,6 +60,10 @@
 | `PLAN.md` | 用户维护的阶段计划、好奇点和长期研究方向 |
 
 `PLAN.md` 管“可能去哪里”，handoff 管“上次停在哪里”。PLAN 不是执行日志或 Agent 可自由整理的任务清单。
+
+六类路径的唯一契约见 [`system/path-contract.md`](system/path-contract.md)。`docs/plans/` 已废止；新计划统一写入
+`outputs/plans/`。日报、周报、审计和计划中出现的可复用事实、方法、证据矩阵或开放问题，必须同步提炼到
+`knowledge/` 并列出知识页链接和来源 locator；输出文件只负责交代过程。
 
 ## 5. Evidence vocabulary / 证据术语
 
@@ -292,9 +300,9 @@ qmd.cmd embed -c nuclear-knowledge
 ### 90 天持续学习与发布解耦
 
 每日 22:00（Asia/Shanghai）的持续学习任务遵循
-[`continuous-learning workflow`](system/workflows/continuous-learning.md)，周期为 90 天、约 80% 核结构与 20% 相邻核科学。2–3 小时只是督促 checkpoint；主题数、来源数和是否切换问题由里程碑、信息增益、证据质量与资源决定。日报、周报、审计和运行回执写入 `outputs/`；可复用的 source/project/synthesis/矩阵知识写入 `knowledge/`，队列在 `system/learning-queue.md`。
+[`continuous-learning workflow`](system/workflows/continuous-learning.md)，周期为 90 天、约 80% 核结构与 20% 相邻核科学。2–3 小时只是督促 checkpoint；主题数、来源数和是否切换问题由里程碑、信息增益、证据质量与资源决定。日报、周报、审计、计划和运行回执写入 `outputs/`；可复用的 source/project/synthesis/矩阵知识写入 `knowledge/`，队列在 `system/learning-queue.md`。输出中的知识增量必须能在 `knowledge/` 找到 canonical 页面，否则只能标为未固化的过程记录。
 
-Docker 内每日任务由 `system/scripts/run_daily_learning_daemon.py` 在 22:00（Asia/Shanghai）触发；可用 `--dry-run` 检查下一次触发时间和 runner 命令。任务可运行 `system/scripts/wiki_automation_preflight.py` 验证仓库根目录、配置和受保护 BibTeX 基线。Git 发布前确认 dirty baseline、staged 文件、lint 和远端 ancestry；网络或认证失败时保留本地内容并记录 `content-complete / final-not-pushed`。该检查不替代普通摄入、周测和 L4 人工关口。
+Docker 内每日任务由 `system/scripts/run_daily_learning_daemon.py` 在 22:00（Asia/Shanghai）触发；可用 `--dry-run` 检查下一次触发时间和 runner 命令。任务可运行 `system/scripts/wiki_automation_preflight.py` 验证路径契约、仓库根目录、配置和受保护 BibTeX 基线；也可单独运行 `python3 system/scripts/wiki_boundary_check.py --root .`。Git 发布前确认 dirty baseline、staged 文件、lint 和远端 ancestry；网络或认证失败时保留本地内容并记录 `content-complete / final-not-pushed`。该检查不替代普通摄入、周测和 L4 人工关口。
 
 - 不要使用不加检查的 `git add .`；应显式暂存目标文件；
 - `raw/`、PDF、论文、数据和图片不得被 Agent 误改或误提交；

@@ -13,6 +13,8 @@ updated: 2026-07-06
 
 ```powershell
 python system/scripts/wiki_lint.py --fail-on error
+python3 system/scripts/wiki_boundary_check.py --root .
+python3 system/scripts/wiki_automation_preflight.py --root .
 ```
 
 规则由 `system/lint-config.json` 声明，实现位于 `system/scripts/wiki_lint.py`。脚本只依赖 Python 标准库。
@@ -26,6 +28,8 @@ python -m unittest discover -s system/tests -p "test_*.py" -v
 ```
 
 退出码只表示是否达到 `--fail-on` 阈值。默认 error 阻止提交，warning/info 保留给人工判断。
+
+路径契约检查先于普通 lint：`wiki_boundary_check.py` 只读确认六类目录、`outputs/plans/`、知识迁移状态和 QMD collection；失败时摄入与每日学习 safe-suspend。它不扫描或修改 raw 原始内容。
 
 ## 检查层级
 

@@ -19,6 +19,12 @@ class WikiAutomationPreflightTests(unittest.TestCase):
         self.tmp = Path(tempfile.mkdtemp(prefix="wiki-preflight-", dir=ROOT / "tmp"))
         (self.tmp / ".git").mkdir()
         (self.tmp / ".codex").mkdir()
+        for directory in ("raw", "knowledge", "outputs", "system", "tools", "tmp"):
+            (self.tmp / directory).mkdir()
+        (self.tmp / "knowledge" / "projects").mkdir()
+        (self.tmp / "knowledge" / "projects" / "a130-thesis-evidence-matrix.md").write_text(
+            "---\ntype: project\n---\n# matrix\n", encoding="utf-8"
+        )
         (self.tmp / ".codex" / "config.toml").write_text(
             '# Docker supplies sandboxing\n', encoding="utf-8"
         )

@@ -16,6 +16,8 @@ updated: 2026-07-15
 
 普通 Wiki 问答以直接回答、必要 inline evidence links 和证据边界为目标，不默认执行完整持续学习闭环，不自动追加迁移案例、失效检验、反向检验或研究问题，也不自动创建或默认检索 provisional research reasoning。
 
+路径规则：遵守 [`system/path-contract.md`](../path-contract.md)。问答的长期事实候选只来自 `knowledge/` 及其回链的 `raw/` 原文；`outputs/`、`system/`、`tools/` 和 `tmp/` 中的报告、计划、回执或日志不是长期事实源。若用户要求把输出中的内容用于后续问答或写作，先将可复用内容提炼到 `knowledge/` 并补齐 source/locator。
+
 L0-L4 路由由 `autonomous-research.md` 维护。普通问答保持只读；授权摄入/综合默认进入 L2，高价值问题可进入 L3；L4 必须由用户确认数据后手动启动。不要在本文件复制等级定义。
 
 普通 Q&A 保持 read-only，不因读取或发现旧页面格式而自动写回；可以在回答中报告潜在 migration 需求。需要写入时，必须转入用户已授权的 ingest、reflect、project、synthesis、claim-review-update 或研究写作 workflow，由该 workflow 对实际使用的旧页面做最小 on-touch migration，未触及的历史页面不批量升级。
@@ -125,9 +127,9 @@ qmd.cmd status
 
 ## 5. 持久化判断
 
-只有满足下列任一条件才写入 `outputs/` 或 `knowledge/synthesis/`：
+只有满足下列任一条件才写入 `outputs/` 或 `knowledge/`：
 
-- 回答解决了反复出现的科研问题；
+- 回答解决了反复出现的科研问题；可复用结论写入相应 `knowledge/` 页面，`outputs/` 仅记录本次报告或审计；
 - 建立了新的跨来源证据矩阵；
 - 形成可用于论文、报告或项目决策的内容；
 - 明确暴露了重要证据缺口。

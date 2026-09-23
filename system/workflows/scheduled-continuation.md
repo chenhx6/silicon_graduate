@@ -11,6 +11,8 @@ updated: 2026-09-06
 
 用于配额刷新后继续、延迟复核、定时检查或其他无人值守任务。它管理的是执行可靠性，不替代摄入、查询、综合或 lint 工作流。
 
+路径规则：遵守 [`system/path-contract.md`](../path-contract.md)。定时任务的报告、回执、调度状态和计划书写入 `outputs/`（计划书用 `outputs/plans/`）；可复用知识必须同步写入 `knowledge/`，不得把 `docs/plans/` 重新作为计划目录。
+
 ## 先判断是否应该调度
 
 1. 任务能否现在安全完成？能则不调度。
@@ -61,8 +63,9 @@ updated: 2026-09-06
 The task runner is supplied by the user's local environment. A task may call
 `python3 system/scripts/wiki_automation_preflight.py --root .` before Git
 publication to verify the working tree and protected BibTeX baseline. The
-preflight is a diagnostic convenience, not a second permission system; it does
-not inspect Desktop state, ACLs, or PowerShell markers. Keep task recovery in
+preflight also runs the read-only path-boundary check; it is a diagnostic
+convenience, not a second permission system; it does not inspect Desktop state,
+ACLs, or PowerShell markers. Keep task recovery in
 `system/handoff.md`, reports, and Git files inside the Wiki.
 
 For publication, check the intended files explicitly, run lint, fetch `origin`

@@ -12,8 +12,14 @@
 raw/         原始论文、手稿、笔记、图像和数据；默认由你管理，Agent 仅管理约定的 gpt 文献入口
 knowledge/   Wiki 的长期知识大脑：source、核素/能带、实验、方法、模型、project、synthesis 和可复用研究矩阵
 system/      schema、模板、流程、记忆、日志和交接状态
-outputs/     日报、周报、审计、回执和其它过程报告；不作为长期知识检索层
+outputs/     日报、周报、审计、回执、调度状态和任务计划书（含 outputs/plans/）；不作为长期知识检索层
+tools/       外部工具和服务适配层
+tmp/         临时运行数据、缓存和 scratch；不保存唯一知识
 ```
+
+六类目录的唯一落点、禁止迁移方向和输出知识回写规则见
+[`system/path-contract.md`](system/path-contract.md)。任何输出中出现的可复用知识都必须同步进入
+`knowledge/`；每天的 `Durable knowledge delta` 不能只指向日报。
 
 最重要的入口：
 

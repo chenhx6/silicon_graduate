@@ -12,7 +12,7 @@ This page tracks pending local WIP/review tasks that still need follow-up work. 
 
 ### Unread degree-dissertation corpus: adaptive ingest and full-Wiki closure (2026-09-10)
 - status: final research package on `main`; Codex self-audit and local publication gates complete; explicit partial/stopped L3 boundaries remain for future research
-- plan: `docs/plans/2026-09-10-degree-dissertation-corpus-ingest.md`
+- plan: `outputs/plans/2026-09-10-degree-dissertation-corpus-ingest.md`
 - scope: all PDFs under `raw/papers/degree dissertation`; adaptive coverage, high-value deep reading, full-Wiki bidirectional linking, cross-source review and two independent self-audits
 - completion gate: all files have a truthful reading state; high-value claims have source locators; affected Wiki pages are linked; reports and lint/graph/hash checks pass; remaining scientific gaps are recorded with stop reasons and next routes
 - completed: 55 PDFs / 54 unique hashes / 1 duplicate; 46 raw-to-source mappings; no queued PDF; L3 `31 completed / 21 partially-researched / 3 stopped`; L4 `0`; external `135Nd` parity, `100Sn` context and `135Pr` controversy crosswalks recorded; farmer PID 8571 running with no pending recovery

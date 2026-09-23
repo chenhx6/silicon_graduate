@@ -1311,3 +1311,10 @@ updated: 2026-07-15
 ## [2026-09-21] git | residual-resolution publication verified
 
 - Exact non-force `HEAD:main` publication succeeded on Gitee. Remote `refs/heads/main` matches the local residual-resolution commit; the protected BibTeX SHA remains unchanged and the only dirty paths are user/local raw and temporary reading inputs outside scope.
+
+## [2026-09-23] governance | canonical path contract and durable knowledge backwrite
+
+- 固化 `system/path-contract.md`：`raw/` 原始材料、`knowledge/` 长期知识大脑、`outputs/` 报告/审计/回执/调度状态与 `outputs/plans/` 任务计划书、`system/` 治理执行、`tools/` 外部工具、`tmp/` 临时数据；`docs/plans/` 禁止重新创建。
+- 新增只读 `system/scripts/wiki_boundary_check.py`，并接入 `wiki_automation_preflight.py`；检查六类目录、已迁移知识页、outputs 分类和 QMD `knowledge/**/*.md` 边界。输出中产生的可复用知识必须同步回写 `knowledge/`。
+- 同步 AGENTS、README、用户指南、摄入/反思/查询/自治研究/持续学习/定时续跑/lint workflow、每日 prompt、memory、check、WIP queue 和脚本说明；既有 raw、PLAN、protected BibTeX、临时运行目录和 daily runner 未提交修改保持未暂存。
+- 验证：system tests 46/46；boundary/preflight 通过；Wiki lint 0 errors、79 warnings、1106 info；QMD 534 files、2247 vectors、70 historical orphan chunks。

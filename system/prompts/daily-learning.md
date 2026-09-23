@@ -27,13 +27,15 @@ scientific evidence.
 1. Work only inside `/workspace/wiki`.
 2. Read `README.md`, `knowledge/index.md`, `profile.md`, the active section of
    `system/handoff.md`, `PLAN.md`, the recent learning records, the relevant
-   workflow, `docs/plans/2026-09-22-one-month-codex-cli-apprenticeship.md` and
-   `docs/plans/2026-09-22-one-month-daily-task-matrix.md` and
-   `docs/plans/2026-09-22-a130-triaxial-thesis-pipeline.md` before selecting evidence.
+   workflow, `outputs/plans/2026-09-22-one-month-codex-cli-apprenticeship.md` and
+   `outputs/plans/2026-09-22-one-month-daily-task-matrix.md` and
+   `outputs/plans/2026-09-22-a130-triaxial-thesis-pipeline.md` before selecting evidence.
    Execute the matching `Day {{DAY_INDEX}}` card from the daily-task matrix. If the
    matrix is missing or the requested day is not defined, write a safe-suspended
    run record instead of inventing a substitute task.
-3. Preserve inherited dirty files. Never modify or stage `raw/`, `PLAN.md`,
+3. Before writing, run `python3 system/scripts/wiki_boundary_check.py --root .`.
+   If the path contract fails, safe-suspend without writing scientific content.
+   Preserve inherited dirty files. Never modify or stage `raw/`, `PLAN.md`,
    `raw/zotero/wiki-inbox.bib`, credentials, OCR/image scratch directories or
    unrelated user changes.
 4. Do not set `human-reviewed`, clear claim `needs_review`, or promote a model
@@ -87,7 +89,9 @@ concrete artifact path and describe what reusable evidence, matrix row, calculat
 question revision or verified no-op was produced. For Day 1, the thesis evidence matrix
 path is `knowledge/projects/a130-thesis-evidence-matrix.md`; future durable knowledge
 deltas must be written under the appropriate `knowledge/` source, project, synthesis,
-question or research-note page.
+question, matrix or research-note page. A report, plan or run receipt in `outputs/`
+cannot be the only copy of reusable knowledge; list the canonical `knowledge/` path
+and source locator in the report.
 
 Before ending:
 

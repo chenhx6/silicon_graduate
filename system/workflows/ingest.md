@@ -46,12 +46,13 @@ updated: 2026-08-06
 ## 1. 预检
 
 1. 按 `AGENTS.md` 完成会话启动。
-2. 确认目标位于 `raw/`；若不是，只读分析但不正式摄入。
-3. 计算 SHA-256，记录文件大小和修改时间。
-4. 查找 DOI、题名、作者、期刊、年份和已有 `canonical_source`，避免重复。
-5. 若有 Zotero/BibTeX 元数据，记录 citation key、Zotero item key 和 select URI。
-6. 检查 `system/vocabulary.md`、现有 aliases 和文件 slug。
-7. 判断来源类型，并按 `system/workflows/ingest-strategies.md` 确认 ingest strategy。
+2. 运行 `python3 system/scripts/wiki_boundary_check.py --root .`；路径契约失败时 safe-suspend，不写入 `knowledge/`、`outputs/` 或其它目录。
+3. 确认目标位于 `raw/`；若不是，只读分析但不正式摄入。
+4. 计算 SHA-256，记录文件大小和修改时间。
+5. 查找 DOI、题名、作者、期刊、年份和已有 `canonical_source`，避免重复。
+6. 若有 Zotero/BibTeX 元数据，记录 citation key、Zotero item key 和 select URI。
+7. 检查 `system/vocabulary.md`、现有 aliases 和文件 slug。
+8. 判断来源类型，并按 `system/workflows/ingest-strategies.md` 确认 ingest strategy。
 
 citation key 只可在 DOI、题名或文件名能够唯一匹配 BibTeX 条目时写入；无法唯一匹配则留空并在复盘中列出，不得猜测或改写 `.bib`。
 
@@ -183,6 +184,8 @@ Codex 在 source ingest、L3/L4 和批次综合中自行核对以下内容：
 
 ## 7. 收尾与 WIP lifecycle
 
+- 来源事实、方法、项目关系和可复用研究推理只能写入 `knowledge/`；`outputs/` 只保存本轮报告、审计、回执、调度状态或 `outputs/plans/` 计划书。若输出中出现可复用知识，必须同步建立/更新 canonical `knowledge/` 页面并在输出中回链；不能让输出成为唯一知识副本。
+- `docs/plans/` 已废止。计划书统一写入 `outputs/plans/`；根目录 `PLAN.md` 仍按用户维护边界保留，不由摄入任务迁移或改写。
 - 按本轮新增或修改页面判断是否需要对 `knowledge/index.md` 做必要的最小入口同步；无需时不机械重写。`knowledge/overview.md` 按下述触发条件判断是否 deferred。
 - 普通单篇摄入如果只是新增 source、少量 claims 或最小 project relation，overview update 可以 deferred；最终复盘写明 `overview update deferred`、原因和建议补跑时机。
 - 新建或显著更新 project/synthesis、批量摄入、主题知识地图结构性变化、paper evidence gate 或 major concept map 变化，或用户明确要求时，才更新 overview。

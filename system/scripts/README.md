@@ -22,10 +22,11 @@ python3 system/scripts/update_nature_skills.py --rollback
 ```bash
 python3 system/scripts/clean_knowledge_eol_dirty.py
 python3 system/scripts/clean_knowledge_eol_dirty.py --dry-run
+python3 system/scripts/wiki_boundary_check.py --root .
 python3 system/scripts/wiki_automation_preflight.py --root .
 ```
 
-行尾脚本只处理 `knowledge/**/*.md` 的 LF/CRLF-only 差异；预检检查项目配置、受保护 BibTeX 哈希和仓库根目录/`.git` 的临时写探针。
+行尾脚本只处理 `knowledge/**/*.md` 的 LF/CRLF-only 差异；`wiki_boundary_check.py` 只读检查六类目录、`outputs/plans/` 计划路径、已迁移知识页和 QMD collection。`wiki_automation_preflight.py` 会先运行该边界检查，再检查项目配置、受保护 BibTeX 哈希和仓库根目录/`.git` 的临时写探针；边界失败时不会执行写探针。
 
 ## Agent hook 与 farmer
 

@@ -19,6 +19,7 @@ updated: 2026-09-05
 - Wiki 保存可追溯的本体、实验判据、竞争解释、研究问题和失败经验；通用模型的背景知识不因本任务重复搬运而取代来源证据。
 - 当前入口 corpus 是 15 篇学位论文（丁兵已有、Alwaleedi 复读、13 篇新增）及附加的 `103Pd` 实验报告；批次状态见 [`degree-dissertation-ingest-20260905`](../../outputs/degree-dissertation-ingest-20260905.md) 和 [`learning queue`](../learning-queue.md)。
 - `PLAN.md` 仍由用户维护；每日任务不得改写、重排或机械扩展它。
+- 每日任务遵守 [`system/path-contract.md`](../path-contract.md)：日报、周报、审计、回执、调度状态和任务计划书写入 `outputs/`（计划书用 `outputs/plans/`），可复用知识增量必须写入 `knowledge/`；`docs/plans/` 不得重新创建。
 
 ## 来源阅读闭环
 
@@ -92,13 +93,13 @@ python3 system/scripts/run_daily_learning_daemon.py --root /workspace/wiki
 
 ## 持久化产物
 
-每日记录写入 [`outputs/learning-daily/`](../../outputs/learning-daily/)；实质记录至少包含：运行日期/时区、主题与候选池、每个问题的选择理由、来源指纹与重叠、checkpoint、关键 claim/locator/证据层、支持与反证、链接增量、Knowledge Impact and Learning Decision、开放问题、停止/续跑原因、L0–L4 状态和 Git/权限结果。可复用的知识增量必须写入 `knowledge/` 的 source、project、synthesis、question 或 research-note 页面；outputs 只保存日报、周报、审计、回执和运行状态。无实质新知时写短的 verified no-op receipt，不制造空提交。
+每日记录写入 [`outputs/learning-daily/`](../../outputs/learning-daily/)；实质记录至少包含：运行日期/时区、主题与候选池、每个问题的选择理由、来源指纹与重叠、checkpoint、关键 claim/locator/证据层、支持与反证、链接增量、Knowledge Impact and Learning Decision、开放问题、停止/续跑原因、L0–L4 状态和 Git/权限结果。可复用的知识增量必须写入 `knowledge/` 的 source、project、synthesis、question、research-note 或矩阵页面，并在日报中列出 canonical 路径；outputs 只保存日报、周报、审计、回执、调度状态和计划书。无实质新知时写短的 verified no-op receipt，不制造空提交。
 
 每周写入 [`outputs/learning-weekly/`](../../outputs/learning-weekly/)：覆盖范围、互链缺口、反证、独立性、下一批候选和 belief revision；不以固定论文数达标。阶段报告、调度状态和运行回执写入 `outputs/learning-milestones/`；论文证据矩阵、研究地图和其它可复用知识写入 `knowledge/`。QMD 只在多篇完成、跨来源综合或明确需要时批量刷新；单篇完成可记录 deferred。
 
 ## Git–学习双轨与发布门
 
-每次独立运行可先调用 `python3 system/scripts/wiki_automation_preflight.py --root .`，记录受保护 BibTeX 基线和工作树状态。这是终端 full-access 环境下的轻量诊断，不是额外的权限系统。
+每次独立运行可先调用 `python3 system/scripts/wiki_automation_preflight.py --root .`，它会先执行只读 `wiki_boundary_check.py`，检查六类目录、`outputs/` 分类、知识迁移状态和 QMD collection，再记录受保护 BibTeX 基线和工作树状态。这是终端 full-access 环境下的轻量诊断，不是额外的权限系统；路径契约失败时必须 safe-suspend。
 
 1. **本地检查通过**：按 `check.md` 建立 dirty baseline，显式暂存本轮允许文件，运行 lint/检查，必要时创建或 amend 唯一 rolling WIP。
 2. **发布失败但内容安全**：继续 Wiki 内容和学习记录写回，状态记为 `content-complete / final-not-pushed`；不重复无变化的网络或认证诊断。

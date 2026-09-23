@@ -14,6 +14,8 @@ updated: 2026-08-04
 
 ```bash
 python system/scripts/wiki_lint.py --fail-on error
+python3 system/scripts/wiki_boundary_check.py --root .
+python3 system/scripts/wiki_automation_preflight.py --root .
 ```
 
 - exit code `0`：没有达到失败阈值的问题；
@@ -30,6 +32,8 @@ python -m unittest discover -s system/tests -p "test_*.py" -v
 
 自动 lint 覆盖结构、链接、哈希、字段、A/Z/N、可解析的中子蒸发反应道、Git 边界和 claim-level 治理统计。`GOVERNANCE` 行报告页面/source unreviewed、claim 核验标记、缺 locator/kind、source 缺 raw_file/citation key；涉及科学解释、证据独立性和物理等价性的项目由 Codex self-audit 判断，论文或后续问答再触发用户裁决。
 
+`wiki_boundary_check.py` 是路径契约的只读机器门：检查 `raw/`、`knowledge/`、`outputs/`、`system/`、`tools/`、`tmp/` 存在，拒绝重新创建 `docs/plans/`，确认已迁移知识页不留在 `outputs/`，并核验 QMD `nuclear-knowledge` 只指向 `knowledge/**/*.md`。边界检查失败时，摄入和每日学习必须 safe-suspend；它不读取、修改或批量扫描 raw 内容。
+
 ## A. 会话记忆与治理
 
 - [ ] 已按 `AGENTS.md` 的顺序读取固定启动文件；`README.md` 只作为稳定入口，不因其中链接自动扩展读取；`system/handoff.md` 只读 `Active handoff`，`system/log.md` 只读最近 10 条记录；仅在规定触发条件成立或用户明确要求时额外读取 `PLAN.md`。
@@ -41,6 +45,8 @@ python -m unittest discover -s system/tests -p "test_*.py" -v
 - [ ] `system/memory.md` 只保存稳定规则与用户确认过的偏好，不保存临时聊天摘要。
 - [ ] 已判断本次是否需要更新 `USER_GUIDE.md`；需要时已经同步。
 - [ ] 本次规则修改已同步到 `AGENTS.md`、`check.md` 和相应工作流。
+- [ ] 本轮写入前已通过 `python3 system/scripts/wiki_boundary_check.py --root .`；`docs/plans/` 不存在，任务计划使用 `outputs/plans/`。
+- [ ] 报告、计划、回执或调度状态中的可复用知识已同步到 `knowledge/` canonical 页面，并在输出中列出知识路径与 source locator；没有把 outputs 当作长期事实源。
 - [ ] L0-L4 完整定义只存在于 `system/workflows/autonomous-research.md`；AGENTS/query/reflect/ingest/Skill 仅保留短路由，没有复制漂移或堆积第二套规则。
 - [ ] ordinary Q&A 未误触发写入；授权 ingest/reflect/project/synthesis 默认运行 L2；高价值问题进入 L3 时有明确 scope/milestone；L4 已形成 candidate、safe suspend 并由用户确认数据后手动启动。
 - [ ] 每周自测先分为 `weekly-learning`、`continuation-audit` 或 `maintenance`；只有 `weekly-learning` 计入轮次，定位符/状态/重复核验没有新的决策信息时不得冒充新知周测。

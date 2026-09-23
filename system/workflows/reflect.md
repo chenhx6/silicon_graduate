@@ -9,6 +9,8 @@ updated: 2026-08-06
 
 本 workflow 在授权写入任务中默认承担 L2 研究学习闭环；活跃 L3/L4 的自主选题、假设循环和数据分析状态由 `autonomous-research.md` 负责，本文件只维护证据矩阵、反向检验、research-note 与 project/synthesis 晋升边界。
 
+路径规则：遵守 [`system/path-contract.md`](../path-contract.md)。跨来源的可复用事实、证据矩阵、竞争解释、研究地图和开放问题写入 `knowledge/`；`outputs/` 只保存综合报告、审计或运行交代。若综合先写出报告，收尾前必须把可复用知识提炼到 canonical `knowledge/` 页面，并在报告中列出回链和 locator。
+
 ## Stage 0：反证优先
 
 在形成结论前主动寻找：
@@ -85,7 +87,7 @@ Project 用于承载特定研究问题下的证据组织、候选解释和决策
 
 - 只有单一或非独立来源支持的重要主张；
 
-高价值但当前无法解决的 gap，应以一个简短、可检验的问题写入 `knowledge/questions.md`；只有满足持久化门的复杂假设才创建 research note。活跃 L3/L4 继续自主选择下一步，不因发现 gap 自动停止等待用户逐项指示。
+高价值但当前无法解决的 gap，应以一个简短、可检验的问题写入 `knowledge/questions.md`；只有满足持久化门的复杂假设才创建 research note。活跃 L3/L4 继续自主选择下一步，不因发现 gap 自动停止等待用户逐项指示。不要把 gap、矩阵或研究地图只留在 `outputs/` 报告中。
 - 缺少精确 locator 的关键数值；
 - 缺少寿命、偏振、角关联等区分性观测；
 - 多次出现但尚无独立页面的核素、能带或概念；
