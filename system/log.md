@@ -1328,3 +1328,8 @@ updated: 2026-07-15
 
 - 将日报 durable-delta 验收升级为结构化 `knowledge-writeback` 区块：逐项验证 `knowledge/` canonical 页、页内 anchor、`knowledge/sources/` 及 claim/page/figure locator；`updated` 必须通过运行前后 knowledge 快照证明实际页变更，`verified-no-op` 必须有 grounded page、locator 和无变化理由。
 - 新增只读 `system/scripts/wiki_knowledge_writeback.py` 与 4 个回归测试；Farmer 已在 Docker 内启动并继续只读监督。所有 raw、计划、run receipt 和继承的 `validate_codex_home()` 未提交修改保持隔离。
+
+## [2026-09-23] git | structured knowledge-writeback publication reconciled
+
+- `32ade7d Enforce structured daily knowledge writeback` passed 53 system tests, boundary/preflight/lint and exact non-force refspec publication; `origin/main` matches the local commit.
+- Reconciled Active handoff wording after publication. Existing raw, run receipts, plans, temporary directories and inherited `run_daily_learning.py` change remain outside the published scope.
