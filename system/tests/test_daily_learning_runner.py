@@ -3,6 +3,7 @@ from __future__ import annotations
 import json
 import tempfile
 import unittest
+from datetime import datetime
 from pathlib import Path
 from unittest.mock import patch
 
@@ -29,6 +30,8 @@ class DailyLearningRunnerTests(unittest.TestCase):
         self.assertIn("never", command)
         self.assertIn("--search", command)
         self.assertIn("exec", command)
+        self.assertIn("--thread-source", command)
+        self.assertIn("scheduled", command)
         self.assertNotIn("resume", command)
         self.assertNotIn("--ephemeral", command)
 
@@ -39,6 +42,24 @@ class DailyLearningRunnerTests(unittest.TestCase):
         self.assertIn("never", command)
         with self.assertRaises(ValueError):
             run_daily_learning.build_resume_command(Path("/workspace/wiki"), " ")
+
+    def test_resume_exec_command_and_overnight_deadline(self) -> None:
+        command = run_daily_learning.build_resume_exec_command(
+            Path("/workspace/wiki"),
+            "gpt-6-luna",
+            "session-123",
+            Path("/tmp/continuation.md"),
+            True,
+            "max",
+        )
+        self.assertIn("exec", command)
+        self.assertIn("resume", command)
+        self.assertIn("session-123", command)
+        self.assertIn("--search", command)
+        now = datetime(2026, 9, 24, 22, 0, tzinfo=run_daily_learning.TIMEZONE)
+        deadline = run_daily_learning.parse_deadline("10:00", now)
+        self.assertEqual(deadline.date().isoformat(), "2026-09-25")
+        self.assertEqual(deadline.hour, 10)
 
     def test_session_id_extraction_accepts_common_jsonl_shapes(self) -> None:
         lines = [

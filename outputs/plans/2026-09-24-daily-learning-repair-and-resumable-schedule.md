@@ -1,6 +1,6 @@
 # 每日学习失败修复与可恢复 schedule 启动总计划
 
-**状态:** proposed，等待用户审核；本计划编写阶段不修复代码、不重跑日报、不启动 resume、不改变 Day 1 计数。
+**状态:** 执行中；已完成 atomic locator 修复和 Day 1 acceptance，overnight continuation driver 正在按本计划落地；正式 Day 1 仍未计数。
 
 **目标:** 修复 Day 1 的 durable knowledge locator 验收失败，并把每日任务改造成一个由 `.sh` 明确启动、从 `outputs/` 中的日计划 prompt 读取任务、每次创建新 Codex CLI session、可在同一容器中稳定发现和恢复的 Docker-local schedule。
 
@@ -149,4 +149,12 @@ session 恢复分两级：
 5. 如果 CLI 不支持原生 session name，计划不会伪造 name；改用 Wiki 映射标签和 UUID，并在文档中明确边界。
 6. 没有完整验收的日报不会计入正式 Day 1/Day N，任何失败修复都不覆盖原始失败 receipt。
 
-**当前未执行项:** 本总计划编写阶段没有修改 validator、prompt、runner、`.sh`、resume 工具、日报、knowledge matrix 或 state；没有执行 `codex resume`，没有重跑日报，没有改变 Day 1 计数。
+**执行边界:** 本轮只执行了 locator contract、acceptance mode、`.sh` launcher、prompt snapshot、picker 验证和测试；没有执行正式 substantive Day 1，没有推进 Day 1 state，没有修改 knowledge matrix 的既有未提交内容，也没有进入 acceptance session 的对话。
+
+## 2026-09-24 execution update
+
+- Atomic locator contract 已实现并通过回归测试；D12-1、D12-7、AR-2 的独立 locator 可以通过，原来的复合 locator 会给出明确失败。
+- Day 1 acceptance 已通过新的 `.sh` launcher 运行：session `01a0cf3e-b7f4-7902-a980-ee8fe50f4496`，writeback `verified-no-op`，正式 state 保持 `next_day_index: 1`。
+- CLI picker 已在同一容器通过 `codex resume --include-non-interactive --all` 搜索到该 session；尚未进入该 session 继续对话。
+- 为解决学习强度不足，nightly substantive schedule 现在目标窗口为 `Asia/Shanghai 22:00–10:00`：初始 turn 完成后，在同一 session 内发送 continuation prompt，继续处理高信息增益问题，直到 deadline、硬阻塞或真实证据饱和。Acceptance mode 不启用 overnight continuation。
+- 旧的“单轮完成即结束”逻辑已改为支持 `--until HH:MM`、`--max-continuations` 和 `codex exec resume <session_id>`；正式 schedule 的默认 deadline 为次日 `10:00`。

@@ -17,8 +17,9 @@ import shutil
 import subprocess
 import sys
 import tempfile
+import time
 from dataclasses import dataclass
-from datetime import datetime
+from datetime import datetime, timedelta
 from pathlib import Path
 from typing import Any
 from zoneinfo import ZoneInfo
@@ -73,6 +74,7 @@ class Paths:
     daily_root: Path
     state_file: Path
     prompt_file: Path
+    continuation_prompt_file: Path
     lock_file: Path
 
 
@@ -125,6 +127,7 @@ def get_paths(root: Path) -> Paths:
         daily_root=root / "outputs" / "learning-daily",
         state_file=root / "outputs" / "learning-milestones" / "2026-09-one-month-state.json",
         prompt_file=root / "system" / "prompts" / "daily-learning.md",
+        continuation_prompt_file=root / "system" / "prompts" / "daily-learning-continuation.md",
         lock_file=Path("/tmp/wiki-one-month-daily-learning.lock"),
     )
 
@@ -241,8 +244,75 @@ def build_command(
         command += ["-c", f"model_reasoning_effort={reasoning_effort}"]
     if enable_search:
         command.append("--search")
-    command += ["exec", "--json", "-o", str(last_message), "-"]
+    command += ["--thread-source", "scheduled", "exec", "--json", "-o", str(last_message), "-"]
     return command
+
+
+def build_resume_exec_command(
+    root: Path,
+    model: str,
+    session_id: str,
+    last_message: Path,
+    enable_search: bool,
+    reasoning_effort: str | None = None,
+) -> list[str]:
+    command = [
+        "codex",
+        "-C",
+        str(root),
+        "-m",
+        model,
+        "-s",
+        CODEX_SANDBOX,
+        "-a",
+        "never",
+    ]
+    if reasoning_effort:
+        command += ["-c", f"model_reasoning_effort={reasoning_effort}"]
+    if enable_search:
+        command.append("--search")
+    command += ["exec", "resume", session_id, "--json", "-o", str(last_message), "-"]
+    return command
+
+
+def parse_deadline(value: str, now: datetime | None = None) -> datetime:
+    """Parse an Asia/Shanghai HH:MM deadline, rolling to tomorrow when needed."""
+
+    try:
+        hour_text, minute_text = value.split(":", 1)
+        hour, minute = int(hour_text), int(minute_text)
+    except (ValueError, AttributeError) as exc:
+        raise ValueError("--until must use HH:MM") from exc
+    if not (0 <= hour <= 23 and 0 <= minute <= 59):
+        raise ValueError("--until must use an hour 0..23 and minute 0..59")
+    current = now or datetime.now(TIMEZONE)
+    if current.tzinfo is None:
+        current = current.replace(tzinfo=TIMEZONE)
+    deadline = current.replace(hour=hour, minute=minute, second=0, microsecond=0)
+    if deadline <= current:
+        deadline += timedelta(days=1)
+    return deadline
+
+
+def render_continuation_prompt(
+    paths: Paths,
+    run_id: str,
+    run_date: str,
+    day_index: int,
+    continuation_number: int,
+    deadline: datetime,
+) -> str:
+    template = paths.continuation_prompt_file.read_text(encoding="utf-8")
+    substitutions = {
+        "{{RUN_ID}}": run_id,
+        "{{RUN_DATE}}": run_date,
+        "{{DAY_INDEX}}": str(day_index),
+        "{{CONTINUATION_NUMBER}}": str(continuation_number),
+        "{{DEADLINE}}": deadline.isoformat(),
+    }
+    for old, new in substitutions.items():
+        template = template.replace(old, new)
+    return template
 
 
 def report_signature(path: Path) -> str | None:
@@ -367,6 +437,30 @@ def run_checks(
     }
 
 
+def run_resume_turn(
+    root: Path,
+    command: list[str],
+    prompt: str,
+    events_path: Path,
+    stderr_path: Path,
+) -> tuple[int, list[str]]:
+    events_path.parent.mkdir(parents=True, exist_ok=True)
+    with events_path.open("w", encoding="utf-8") as events, stderr_path.open(
+        "w", encoding="utf-8"
+    ) as stderr:
+        process = subprocess.run(
+            command,
+            cwd=root,
+            input=prompt,
+            text=True,
+            stdout=events,
+            stderr=stderr,
+            check=False,
+        )
+    lines = events_path.read_text(encoding="utf-8", errors="replace").splitlines()
+    return process.returncode, lines
+
+
 def dry_run(
     paths: Paths,
     model: str,
@@ -420,12 +514,17 @@ def main() -> int:
     parser.add_argument("--no-search", action="store_true")
     parser.add_argument("--prompt-file", type=Path, default=None)
     parser.add_argument("--prepare-prompt", type=Path, default=None)
+    parser.add_argument("--until", default=None, help="continue the same session until HH:MM Asia/Shanghai")
+    parser.add_argument("--max-continuations", type=int, default=96)
     parser.add_argument("--dry-run", action="store_true")
     args = parser.parse_args()
 
     root = args.root.resolve()
     paths = get_paths(root)
     try:
+        if args.max_continuations < 0:
+            raise ValueError("--max-continuations must be non-negative")
+        schedule_deadline = parse_deadline(args.until) if args.until else None
         result = dry_run(paths, args.model, not args.no_search, args.reasoning_effort, args.mode)
         if args.dry_run:
             print(json.dumps(result, ensure_ascii=False, indent=2))
@@ -491,6 +590,9 @@ def main() -> int:
             "project_root": str(root),
             "run_kind": run_kind,
             "acceptance_only": args.mode == "acceptance",
+            "overnight_until": schedule_deadline.isoformat() if schedule_deadline else None,
+            "max_continuations": args.max_continuations,
+            "continuation_count": 0,
             "counted_in_substantive_test": False,
             "session_mode": SESSION_MODE,
             "session_reuse": False,
@@ -548,9 +650,72 @@ def main() -> int:
                     check=False,
                 )
             lines = events_path.read_text(encoding="utf-8", errors="replace").splitlines()
+            session_id = extract_session_id(lines)
+            continuation_runs: list[dict[str, Any]] = []
+            final_returncode = process.returncode
+            continuation_count = 0
+            if (
+                schedule_deadline is not None
+                and args.mode == "daily-learning"
+                and final_returncode == 0
+                and session_id
+            ):
+                while (
+                    datetime.now(TIMEZONE) < schedule_deadline
+                    and continuation_count < args.max_continuations
+                ):
+                    continuation_count += 1
+                    continuation_prompt = render_continuation_prompt(
+                        paths,
+                        run_id,
+                        run_date,
+                        day_index,
+                        continuation_count,
+                        schedule_deadline,
+                    )
+                    continuation_events = run_dir / f"continuation-{continuation_count:03d}-events.jsonl"
+                    continuation_stderr = run_dir / f"continuation-{continuation_count:03d}-stderr.log"
+                    continuation_last = run_dir / f"continuation-{continuation_count:03d}-last-message.md"
+                    continuation_command = build_resume_exec_command(
+                        root,
+                        args.model,
+                        session_id,
+                        continuation_last,
+                        not args.no_search,
+                        args.reasoning_effort,
+                    )
+                    continuation_rc, continuation_lines = run_resume_turn(
+                        root,
+                        continuation_command,
+                        continuation_prompt,
+                        continuation_events,
+                        continuation_stderr,
+                    )
+                    lines.extend(continuation_lines)
+                    continuation_runs.append(
+                        {
+                            "number": continuation_count,
+                            "returncode": continuation_rc,
+                            "events": str(continuation_events),
+                            "last_message": str(continuation_last),
+                        }
+                    )
+                    receipt.update(
+                        {
+                            "continuation_count": continuation_count,
+                            "continuation_runs": continuation_runs,
+                            "session_id": session_id,
+                        }
+                    )
+                    write_json_atomic(run_dir / "run.json", receipt)
+                    if continuation_rc != 0:
+                        final_returncode = continuation_rc
+                        break
+                    if datetime.now(TIMEZONE) < schedule_deadline:
+                        time.sleep(2)
             checks = run_checks(root, report_path, report_before, knowledge_before)
             success = (
-                process.returncode == 0
+                final_returncode == 0
                 and checks["preflight"]["exit"] == 0
                 and checks["report_exists"]
                 and checks["report_changed"]
@@ -559,18 +724,19 @@ def main() -> int:
                 and checks["lint_exit"] == 0
                 and checks["git_diff_check_exit"] == 0
             )
-            session_id = extract_session_id(lines)
             if session_id:
                 receipt["resume_command"] = build_resume_command(root, session_id)
             receipt.update(
                 {
                     "status": "completed" if success else "failed-verification",
                     "counted_in_substantive_test": success and args.mode == "daily-learning",
-                    "exit_code": process.returncode,
+                    "exit_code": final_returncode,
                     "session_id": session_id,
                     "failure_reason": extract_failure_reason(lines),
                     "checks": checks,
                     "finished_at": datetime.now(TIMEZONE).isoformat(),
+                    "continuation_count": continuation_count,
+                    "continuation_runs": continuation_runs,
                 }
             )
             if success and args.mode == "daily-learning":

@@ -42,6 +42,12 @@ CLI session 不会自动注册到宿主机 GUI；`run.json` 和 scheduler JSONL 
 schedule 的 canonical session index。用户需要查看某日对话时，在同一容器执行
 该回执中的 `resume_command`；GUI 列表中的 schedule 必须由 GUI/宿主机侧另行创建。
 
+正式 nightly run 的学习窗口为 `Asia/Shanghai 22:00–10:00`。首个 `codex exec`
+完成后，runner 在同一 session 中使用 `codex exec resume` 发送 continuation prompt，
+逐轮切换到下一个高信息增益问题；`--until 10:00` 是默认 deadline，checkpoint 不再
+被当作本次学习的结束。硬阻塞、资源/权限失败或真正证据饱和仍可提前结束，并必须在
+日报中记录原因和下一条 continuation prompt。
+
 ### 短时同线程续跑
 
 - 仅限 1 小时内；

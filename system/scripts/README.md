@@ -73,6 +73,12 @@ session，不复用固定 session。`run.json` 保存 `session_id`、
 不再作为 fallback。
 不读取 Docker socket、不调用 PowerShell、不创建宿主机 scheduler。`--once` 仅用于容器内显式测试，不能替代常驻调度。
 
+正式 `daily-learning` schedule 默认把 `--until 10:00` 传给 runner。首个 `codex exec`
+完成后，runner 在同一 session 内调用 `codex exec resume <session_id>` 发送 continuation
+prompt，继续处理下一个高信息增益问题；receipt 记录 `overnight_until`、
+`continuation_count` 和每个 continuation 的事件文件。`acceptance` 模式不启用 overnight
+续接，也不会推进 substantive day state。
+
 这个 `wiki-daily-learning` 是 Docker 内的 Wiki-local schedule，不会自动出现在
 Codex GUI 的 Scheduled 列表中；GUI schedule 由宿主机/应用侧单独管理。要恢复某次
 运行，进入同一容器执行回执中的 `resume_command`，例如：

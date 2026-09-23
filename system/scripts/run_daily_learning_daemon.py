@@ -265,6 +265,8 @@ def run_once_result(
         retryable=retryable,
         session_id=receipt.get("session_id"),
         resume_command=receipt.get("resume_command"),
+        overnight_until=receipt.get("overnight_until"),
+        continuation_count=receipt.get("continuation_count"),
         failure_reason=reason,
     )
     return {
@@ -275,6 +277,8 @@ def run_once_result(
         "reasoning_effort": reasoning_effort,
         "session_id": receipt.get("session_id"),
         "resume_command": receipt.get("resume_command"),
+        "overnight_until": receipt.get("overnight_until"),
+        "continuation_count": receipt.get("continuation_count"),
     }
 
 

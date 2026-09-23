@@ -80,7 +80,7 @@ python3 system/scripts/run_daily_learning_daemon.py --root /workspace/wiki
 4. 建立 source-to-source 与 source-to-knowledge 双向链接，检查门条件、背景、分辨率、feeding、效率、响应和必要伴随观测。
 5. 写回 source、关联页、问题页、当日记录和可恢复状态；必要时把开放问题去重后写入 `knowledge/questions.md`。
 
-约 2 小时和 3 小时只做 checkpoint：记录已完成内容、剩余证据、当前信息增益、资源/验证余量，然后决定继续、切换或收敛。2–3 小时不是硬性停止时间；若仍有高信息增益且资源允许可继续，若边际收益下降可提前收敛。平台运行上限只允许用 handoff/continuation 分段，不能截断论文主线或把未读内容标成完成。
+约 2 小时和 3 小时只做 checkpoint：记录已完成内容、剩余证据、当前信息增益、资源/验证余量，然后决定继续、切换或收敛。对 22:00–10:00 的 nightly schedule，checkpoint 不是结束信号；runner 会在同一 session 中发送 continuation prompt，继续切换到下一个高信息增益问题，直到 10:00、硬阻塞或证据确实饱和。平台运行上限只允许用 handoff/continuation 分段，不能截断论文主线或把未读内容标成完成。
 
 真正的停止条件是：达到当前主题里程碑；继续阅读的信息增益明显下降；关键来源、数据或 locator 缺失；权限、配额、资源或执行稳定性不足；或下一步需要用户科学判断/真实数据授权。停止时必须留下剩余 gap、依据、下一步和 continuation prompt。
 

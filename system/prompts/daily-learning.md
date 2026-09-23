@@ -61,6 +61,12 @@ scientific evidence.
 
 ## Required learning loop
 
+For a scheduled substantive run with an overnight deadline, completing one report or
+one source is only a checkpoint. The same session will receive continuation turns;
+keep selecting the next high-information problem, source, comparison or quantitative
+exercise until the deadline or a hard blocker. Do not treat a polished first report as
+the end of the scheduled study window.
+
 1. Reconstruct the candidate pool from current Wiki questions, recent source
    fingerprints, mass-region/mechanism/method coverage and expected information gain.
 2. Select at most one continuity problem and one non-overlapping novelty problem.

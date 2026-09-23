@@ -7,6 +7,8 @@ DAY_INDEX="auto"
 MODEL="gpt-6-luna"
 REASONING_EFFORT="max"
 NO_SEARCH=0
+UNTIL=""
+MAX_CONTINUATIONS=96
 
 while (($#)); do
   case "$1" in
@@ -16,6 +18,8 @@ while (($#)); do
     --model) MODEL="$2"; shift 2 ;;
     --reasoning-effort) REASONING_EFFORT="$2"; shift 2 ;;
     --no-search) NO_SEARCH=1; shift ;;
+    --until) UNTIL="$2"; shift 2 ;;
+    --max-continuations) MAX_CONTINUATIONS="$2"; shift 2 ;;
     *) echo "unknown argument: $1" >&2; exit 64 ;;
   esac
 done
@@ -23,6 +27,10 @@ done
 if [[ "$ROOT" != "/workspace/wiki" ]]; then
   echo "daily-learning schedule requires project root /workspace/wiki" >&2
   exit 65
+fi
+
+if [[ "$MODE" == "daily-learning" && -z "$UNTIL" ]]; then
+  UNTIL="10:00"
 fi
 
 RUN_DATE="$(TZ=Asia/Shanghai date +%F)"
@@ -59,7 +67,11 @@ ARGS=(
   --model "$MODEL"
   --reasoning-effort "$REASONING_EFFORT"
   --prompt-file "$PROMPT_FILE"
+  --max-continuations "$MAX_CONTINUATIONS"
 )
+if [[ -n "$UNTIL" ]]; then
+  ARGS+=(--until "$UNTIL")
+fi
 if ((NO_SEARCH)); then
   ARGS+=(--no-search)
 fi
