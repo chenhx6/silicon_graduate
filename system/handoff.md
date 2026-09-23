@@ -6,6 +6,16 @@ updated: 2026-09-23
 
 # 跨会话交接
 
+## 2026-09-23 substantive 30-day reset and per-day session contract
+
+Current active task: 从新的 `day_index: 1` 开始执行 30 个实质成功日。2026-09-22 的 Day 1/Day 2 及其重试均已在对应 `run.json` 标记为 `acceptance-only`，保留作 Docker/runner 实例验收，不计入正式测试。
+
+The daily runner now treats every `codex exec` invocation as a new session and writes `session_id`, `session_mode: new-session-per-run`, `session_reuse: false` and a `resume_command` to the run receipt when the CLI returns an ID. The scheduler forwards the session ID and resume command into its event log, so a user can resume one day's conversation without turning the daemon into a fixed long-lived session.
+
+The substantive state is reset in `outputs/learning-milestones/2026-09-one-month-state.json` with `next_day_index: 1`, cycle `2026-09-30-day-substantive` and an explicit exclusion list. The Docker daily plan is authorized for network use, arXiv/NNDC/ENSDF/Google Scholar/Crossref/publisher searches, `danger-full-access`, and autonomous L1–L4 work; Gitee remains the recovery remote. Evidence provenance, locator, reproducibility and failure boundaries remain recorded.
+
+Next: verify the next real scheduled run's `run.json` and `resume_command`; count it as substantive Day 1 only after the normal report, knowledge-writeback, lint and diff gates pass.
+
 ## 2026-09-23 path contract and knowledge-backwrite boundary
 
 Current active task: 固化六类目录边界，防止文献摄入、每日学习、L3/L4 研究和论文写作发生路径漂移。

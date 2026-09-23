@@ -297,12 +297,12 @@ qmd.cmd embed -c nuclear-knowledge
 `knowledge/overview.md` 是阶段性地图，不需要每篇 source 都更新；source、project 和 synthesis 才是主要知识承载。overview deferred 不代表摄入失败。大型 project/synthesis 可维护 `Agent active summary` 作为导航入口，但 active summary 不是 source，不替代 project/synthesis 主体，也不替代原文 locator。
 ## 13. Git and safety / Git 与安全边界
 
-### 90 天持续学习与发布解耦
+### 30 天实质学习与发布解耦
 
 每日 22:00（Asia/Shanghai）的持续学习任务遵循
-[`continuous-learning workflow`](system/workflows/continuous-learning.md)，周期为 90 天、约 80% 核结构与 20% 相邻核科学。2–3 小时只是督促 checkpoint；主题数、来源数和是否切换问题由里程碑、信息增益、证据质量与资源决定。日报、周报、审计、计划和运行回执写入 `outputs/`；可复用的 source/project/synthesis/矩阵知识写入 `knowledge/`，队列在 `system/learning-queue.md`。输出中的知识增量必须能在 `knowledge/` 找到 canonical 页面，否则只能标为未固化的过程记录。
+[`continuous-learning workflow`](system/workflows/continuous-learning.md)。当前从新的 Day 1 开始计数 30 个实质成功日，之前的 Day 1/Day 2 仅作为实例验收，不计入测试。用户已授权该 Docker 计划联网、`danger-full-access` 和 L1–L4 自主推进；每次运行创建新的 Codex session，回执保存 `session_id` 和 `resume_command`。2–3 小时只是 checkpoint；主题数、来源数和是否切换问题由里程碑、信息增益、证据质量与资源决定。日报、周报、审计、计划和运行回执写入 `outputs/`；可复用的 source/project/synthesis/矩阵知识写入 `knowledge/`，队列在 `system/learning-queue.md`。
 
-Docker 内每日任务由 `system/scripts/run_daily_learning_daemon.py` 在 22:00（Asia/Shanghai）触发；可用 `--dry-run` 检查下一次触发时间和 runner 命令。任务可运行 `system/scripts/wiki_automation_preflight.py` 验证路径契约、仓库根目录、配置和受保护 BibTeX 基线；也可单独运行 `python3 system/scripts/wiki_boundary_check.py --root .`。Git 发布前确认 dirty baseline、staged 文件、lint 和远端 ancestry；网络或认证失败时保留本地内容并记录 `content-complete / final-not-pushed`。该检查不替代普通摄入、周测和 L4 人工关口。
+Docker 内每日任务由 `system/scripts/run_daily_learning_daemon.py` 在 22:00（Asia/Shanghai）触发；可用 `--dry-run` 检查下一次触发时间和 runner 命令。任务可以使用 arXiv、NNDC/ENSDF、Google Scholar、Crossref 以及出版商/机构页面。可运行 `system/scripts/wiki_automation_preflight.py` 验证路径契约、仓库根目录、配置和受保护 BibTeX 基线；也可单独运行 `python3 system/scripts/wiki_boundary_check.py --root .`。每次日报回执都可直接恢复到对应 session 讨论；Gitee 用于容器外恢复 Wiki 数据。
 
 - 不要使用不加检查的 `git add .`；应显式暂存目标文件；
 - `raw/`、PDF、论文、数据和图片不得被 Agent 误改或误提交；

@@ -6,7 +6,7 @@ Wiki 可在不同操作系统和 AI 工具环境中使用。Docker、Obsidian、
 
 ## 当前定位
 
-当前系统是 **Continuous Research-Learning v2（硅基研究生 V2）**：面向低能核结构研究、由 Codex self-audit 驱动的可追溯 research Wiki。它支持 traceable evidence、摄入默认 L2、课题调查型 L3、手动启动且可复现的数据研究型 L4，以及以 P0/P1 为中心的证据核查；ordinary Q&A 保持轻量，后续问答裁决和论文写作再触发针对具体 claim 的用户确认。
+当前系统是 **Continuous Research-Learning v2（硅基研究生 V2）**：面向低能核结构研究、由 Codex self-audit 驱动的可追溯 research Wiki。它支持 traceable evidence、L1/L2 学习、课题调查型 L3 和可复现的数据研究型 L4。用户已为 Docker 内的 30 天 daily-learning 计划授权联网、`danger-full-access` 和 L1–L4 自主推进；正式论文措辞仍回到证据门，ordinary Q&A 保持轻量。
 
 A≈130 是当前研究锚点，不是 Wiki 的收录边界。v2 的设计决策与 `131Ce` pilot 见 [Continuous Research-Learning v2 architecture record](system/architecture-updates/2026-07-l3-autonomy-l4-foundation.md)；完整 L0–L4 状态机只在 [autonomous-research workflow](system/workflows/autonomous-research.md) 维护。Wiki 仍不是最终权威，也不保证文献完整覆盖；论文级结论必须回到 `knowledge/sources/`、`raw/` 原文、精确 locator 和人工复核，并遵循 [system/paper-evidence-gate.md](system/paper-evidence-gate.md)。
 

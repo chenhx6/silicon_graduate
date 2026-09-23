@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "run_id": "2026-09-22-day-01-01",
+  "run_date": "2026-09-22",
+  "day_index": 1,
+  "phase": "baseline-and-research-contract",
+  "status": "interrupted",
+  "started_at": "2026-09-22T17:27:05.216109+08:00",
+  "report": "/workspace/wiki/outputs/learning-daily/2026-09-22.md",
+  "exit_code": 143,
+  "finished_at": "2026-09-22T17:33:42+08:00",
+  "reason": "nested Codex workspace-write sandbox could not create a bwrap namespace in the Docker kernel",
+  "run_kind": "acceptance-only",
+  "counted_in_substantive_test": false,
+  "acceptance_reason": "Manual Docker/runner instance acceptance before the substantive 30-day test reset",
+  "session_mode": "new-session-per-run",
+  "session_reuse": false
+}

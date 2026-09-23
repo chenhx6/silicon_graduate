@@ -2,7 +2,7 @@
 
 这套 Wiki 面向熔合蒸发反应和低能原子核结构研究。Obsidian 是人的浏览、审阅和写作界面；Agent 负责摄入、交叉引用、综合、检查与维护；Markdown 文件是双方共享的长期记忆。
 
-当前系统是 Continuous Research-Learning v2（硅基研究生 V2）：面向低能核结构研究的 Human-in-the-loop research Wiki。授权摄入/综合任务默认运行 L2 研究学习闭环，高价值问题可进入 L3；真实、公开或可靠模拟数据到位并由用户手动启动后，L4 执行可复现的数据—分析—失败—修正闭环。ordinary Q&A 保持轻量。A≈130 是当前研究锚点，不是收录边界。详细架构见 [architecture updates](system/architecture-updates/README.md)。Wiki 不是最终权威，不保证文献完整覆盖，不能替代原文阅读和人工科学判断。
+当前系统是 Continuous Research-Learning v2（硅基研究生 V2）：面向低能核结构研究的 Human-in-the-loop research Wiki。普通授权摄入/综合任务运行 L2 闭环，高价值问题可进入 L3；用户已明确授权 Docker 内 30 天 daily-learning 计划联网、`danger-full-access` 和 L1–L4 自主推进，L4 仍按数据身份、可复现分析和失败检查校准结论。ordinary Q&A 保持轻量。A≈130 是当前研究锚点，不是收录边界。详细架构见 [architecture updates](system/architecture-updates/README.md)。Wiki 不是最终权威，不保证文献完整覆盖，不能替代原文阅读和人工科学判断。
 
 本文件是快速使用指南。需要了解目录层级、证据术语、人工审阅、project、写作准备和可复制提示词时，请查看 [USER_GUIDE_DETAIL.md](USER_GUIDE_DETAIL.md)。
 
@@ -33,9 +33,9 @@ Wiki 可在不同操作系统和 AI 工具环境中使用；`.codex/`、`.obsidi
 
 ### 科研自治入口
 
-完整 L0–L4、每周自测、P0/P1 和人工关口只在 [autonomous-research workflow](system/workflows/autonomous-research.md) 维护。常用触发示例：`摄入 <文献>` 默认完成 L0–L2；`开始 L3 研究：<问题>` 启动课题调查；L4 必须先有数据候选并由你发送 `开始 <项目> L4：数据=<Wiki 内路径>`。`:danger-full-access` 只是终端运行权限，不是科学自治等级。每周自测有实质变化时先建立本地 WIP 和集中 P0/P1 报告，经你审核后才发布。
+完整 L0–L4、每周自测、P0/P1 和人工关口只在 [autonomous-research workflow](system/workflows/autonomous-research.md) 维护。常用触发示例：`摄入 <文献>` 默认完成 L0–L2；`开始 L3 研究：<问题>` 启动课题调查。30 天 daily-learning 是用户明确授权的 L1–L4 例外，可直接使用可访问数据和联网来源；`:danger-full-access` 在该 Docker 计划中是有意启用的运行方式。每周自测有实质变化时先建立本地 WIP 和集中 P0/P1 报告，经你审核后才发布。
 
-90 天持续学习由 [continuous-learning workflow](system/workflows/continuous-learning.md) 和 [learning queue](system/learning-queue.md) 管理。Docker 内 daemon 每日 22:00（Asia/Shanghai）触发独立任务；2–3 小时是 checkpoint，不是硬停止，不限制主题或论文数量；达到里程碑或信息增益下降才收敛。可复用知识增量写入 `knowledge/`，日报和运行交代写入 `outputs/`。若 Git、网络或认证失败，任务仍可写回安全的知识页和学习记录并标为 `content-complete / final-not-pushed`，不会伪造已发布。
+90 天持续学习由 [continuous-learning workflow](system/workflows/continuous-learning.md) 和 [learning queue](system/learning-queue.md) 管理；当前先执行一个重新计数的 30 天实质周期。Docker 内 daemon 每日 22:00（Asia/Shanghai）触发独立新 session；每个回执保存 `session_id` 和 `resume_command`，便于回到某日讨论。2–3 小时是 checkpoint，不是硬停止，不限制主题或论文数量；允许使用 arXiv、NNDC/ENSDF、Google Scholar、Crossref 及出版商/机构页面，达到里程碑或信息增益下降才收敛。可复用知识增量写入 `knowledge/`，日报和运行交代写入 `outputs/`。
 - `system/log.md`：只追加的操作历史；
 - `check.md`：系统与科学质量检查。
 

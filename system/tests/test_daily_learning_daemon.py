@@ -92,6 +92,10 @@ class DailyLearningDaemonTests(unittest.TestCase):
             ),
         )
 
+    def test_substantive_cycle_has_thirty_days(self) -> None:
+        self.assertEqual(run_daily_learning_daemon.TOTAL_DAYS, 30)
+        self.assertEqual(run_daily_learning_daemon.CYCLE_NAME, "2026-09-30-day-substantive")
+
     def test_capacity_error_is_retryable_but_science_failure_is_not(self) -> None:
         self.assertTrue(run_daily_learning_daemon.is_retryable_model_error("model at capacity"))
         self.assertTrue(run_daily_learning_daemon.is_retryable_model_error("service unavailable"))
@@ -151,6 +155,39 @@ class DailyLearningDaemonTests(unittest.TestCase):
             events = [json.loads(line) for line in log_path.read_text().splitlines()]
             self.assertEqual(events[-1]["event"], "runner-finished")
             self.assertEqual(events[-1]["exit_code"], 0)
+
+    def test_run_once_result_exposes_session_and_resume_command(self) -> None:
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            log_path = root / "scheduler.jsonl"
+            stdout = json.dumps(
+                {
+                    "status": "completed",
+                    "session_id": "session-abc",
+                    "resume_command": ["codex", "resume", "session-abc"],
+                }
+            ) + "\n"
+            completed = type("Completed", (), {"returncode": 0, "stdout": stdout, "stderr": ""})()
+            with patch.object(run_daily_learning_daemon.subprocess, "run", return_value=completed):
+                result = run_daily_learning_daemon.run_once_result(
+                    root, "gpt-6-astra", False, log_path, "low"
+                )
+            self.assertEqual(result["exit_code"], 0)
+            events = [json.loads(line) for line in log_path.read_text().splitlines()]
+            self.assertEqual(events[-1]["session_id"], "session-abc")
+            self.assertEqual(events[-1]["resume_command"], ["codex", "resume", "session-abc"])
+
+    def test_receipt_parser_accepts_runner_pretty_json(self) -> None:
+        stdout = json.dumps(
+            {
+                "status": "completed",
+                "session_id": "session-pretty",
+                "resume_command": ["codex", "resume", "session-pretty"],
+            },
+            indent=2,
+        )
+        result = run_daily_learning_daemon._receipt_from_stdout(stdout)
+        self.assertEqual(result["session_id"], "session-pretty")
 
     def test_next_trigger_preserves_timezone(self) -> None:
         now = datetime(2026, 9, 22, 10, 0, tzinfo=TZ)

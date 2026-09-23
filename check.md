@@ -49,13 +49,15 @@ python -m unittest discover -s system/tests -p "test_*.py" -v
 - [ ] 报告、计划、回执或调度状态中的可复用知识已同步到 `knowledge/` canonical 页面，并在输出中列出知识路径与 source locator；没有把 outputs 当作长期事实源。
 - [ ] 每日学习日报包含唯一 `knowledge-writeback` JSON 区块；每个 item 的 knowledge anchor、source path 和 locator/claim ID 在正文中存在，`updated` 有运行前后 knowledge 变更，`verified-no-op` 有 grounded page 与无变化理由。
 - [ ] L0-L4 完整定义只存在于 `system/workflows/autonomous-research.md`；AGENTS/query/reflect/ingest/Skill 仅保留短路由，没有复制漂移或堆积第二套规则。
-- [ ] ordinary Q&A 未误触发写入；授权 ingest/reflect/project/synthesis 默认运行 L2；高价值问题进入 L3 时有明确 scope/milestone；L4 已形成 candidate、safe suspend 并由用户确认数据后手动启动。
+- [ ] ordinary Q&A 未误触发写入；授权 ingest/reflect/project/synthesis 默认运行 L2；高价值问题进入 L3 时有明确 scope/milestone；30 天 Docker daily-learning 例外可自主进入 L1–L4，并保留数据身份、复现和失败检查。
 - [ ] 每周自测先分为 `weekly-learning`、`continuation-audit` 或 `maintenance`；只有 `weekly-learning` 计入轮次，定位符/状态/重复核验没有新的决策信息时不得冒充新知周测。
 - [ ] `weekly-learning` 每次最多主动研究两个满足硬重要性门槛的问题，并在具体取证前完成 Wiki 内全局候选筛选：保留温故槽和新知槽；只要有合格候选，新知槽来自非重叠覆盖区域；无合格候选时不为填槽升级低价值问题。
 - [ ] 选题从最近八次仓库内 `weekly-learning` 报告重建覆盖债务；同一核素/project 不连续占据新知槽，同一核心来源冷却两个学习周期；hard P0、新独立原始证据、实质冲突或用户明确要求的例外已记录，并只在同等级候选间使用可复现随机 tie-break。
 - [ ] 每份实质周测报告有 `Selection audit`，记录运行类型、是否计入轮次、候选覆盖类别、两个槽位、核心来源指纹/重叠、冷却或 deferred 原因、新增知识和 belief revision；其它重要问题写入 `Deferred important issues`。
 - [ ] 核素问题在适用时比较同位素和同中子素；L3 只使用合法、可核验的 Nature-first 获取路径和 Agent 管理的 `raw/papers/gpt/**`、`raw/zotero/gpt.bib`；关键 SI 才下载，`wiki-inbox.bib` 永不修改/暂存。
-- [ ] L4 只生成 `outputs/l4/<issue>-<date>/report.md` readiness（`ready`/`partial`/`not-ready`）；`partial`/`not-ready` 不停用周测，不假定用户已有实验数据。
+- [ ] 一般 L4 只生成 `outputs/l4/<issue>-<date>/report.md` readiness（`ready`/`partial`/`not-ready`）；30 天 Docker daily-learning 可在输入齐全时直接执行 L4，`partial`/`not-ready` 仍如实记录，不生成代理结果。
+- [ ] 每日 runner 每次调用 `codex exec` 创建新 session；`run.json` 含 `session_id`、`session_mode: new-session-per-run` 和 `resume_command`（若 CLI 返回 session ID）。
+- [ ] 当前 Day 1/Day 2 实例验收回执标记为 `acceptance-only`，不计入重新开始的 30 个实质成功日；正式状态从 `next_day_index: 1` 开始。
 - [ ] 未完成用户审核只阻止需要该用户裁决的论文/问答措辞，不阻止全局只读选题、无重叠的新知任务或 Codex self-audit 写回；有实质变化的周测生成 `outputs/self-tests/` 报告和相应 WIP/final 状态，通过 H3/发布检查后按持续授权自动 push；未完成或无实质变化时未制造空 commit。
 - [ ] 检查不依赖 Docker、固定路径、`.codex/`、`.obsidian/` 或特定 AI 工具配置；这些属于本地运行环境。
 - [ ] 本轮只执行与 Wiki 任务相关的命令；未依赖桌面端 GUI 或 Computer Use，浏览器下载已指定到仓库内路径。

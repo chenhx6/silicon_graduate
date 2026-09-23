@@ -26,6 +26,8 @@ from zoneinfo import ZoneInfo
 
 
 TIMEZONE = ZoneInfo("Asia/Shanghai")
+TOTAL_DAYS = 30
+CYCLE_NAME = "2026-09-30-day-substantive"
 DEFAULT_HOUR = 22
 DEFAULT_MINUTE = 0
 DEFAULT_POLL_SECONDS = 30
@@ -143,7 +145,8 @@ def write_json_atomic(path: Path, value: dict[str, Any]) -> None:
 def scheduler_default_state() -> dict[str, Any]:
     return {
         "schema_version": 1,
-        "cycle": "2026-09-one-month",
+        "cycle": CYCLE_NAME,
+        "counting_policy": "30 successful substantive days; acceptance-only runs are excluded",
         "last_scheduled_date": None,
         "last_status": None,
         "last_runner_exit": None,
@@ -152,7 +155,7 @@ def scheduler_default_state() -> dict[str, Any]:
 
 
 def learning_cycle_complete(root: Path) -> bool:
-    """Return whether the one-month runner has no valid day left to execute."""
+    """Return whether the substantive 30-day runner has no day left to execute."""
 
     path = root / "outputs" / "learning-milestones" / "2026-09-one-month-state.json"
     state = read_json(path, {"next_day_index": 1, "status": "not-started"})
@@ -160,7 +163,7 @@ def learning_cycle_complete(root: Path) -> bool:
         next_day = int(state.get("next_day_index", 1))
     except (TypeError, ValueError) as exc:
         raise RuntimeError(f"invalid next_day_index in {path}") from exc
-    return state.get("status") == "complete" or next_day > 30
+    return state.get("status") == "complete" or next_day > TOTAL_DAYS
 
 
 def now_local() -> datetime:
@@ -194,6 +197,12 @@ def is_retryable_model_error(reason: str | None) -> bool:
 
 
 def _receipt_from_stdout(stdout: str) -> dict[str, Any]:
+    try:
+        value = json.loads(stdout.strip())
+    except json.JSONDecodeError:
+        value = None
+    if isinstance(value, dict) and "status" in value:
+        return value
     for line in reversed(stdout.splitlines()):
         try:
             value = json.loads(line)
@@ -242,6 +251,8 @@ def run_once_result(
         exit_code=result.returncode,
         status="completed" if result.returncode == 0 else "failed",
         retryable=retryable,
+        session_id=receipt.get("session_id"),
+        resume_command=receipt.get("resume_command"),
         failure_reason=reason,
     )
     return {
@@ -374,7 +385,8 @@ def daemon_loop(
             marker.update(
                 {
                     "schema_version": 1,
-                    "cycle": "2026-09-one-month",
+                    "cycle": CYCLE_NAME,
+                    "counting_policy": "30 successful substantive days; acceptance-only runs are excluded",
                     "last_scheduled_date": now_local().date().isoformat(),
                     "last_status": "running",
                     "last_runner_exit": None,

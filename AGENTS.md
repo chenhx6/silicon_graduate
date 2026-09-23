@@ -26,6 +26,17 @@ Git 工作树可能包含用户或上一轮留下的修改。写入前先运行 
 - 递归删除、历史重写、force push、覆盖原始证据等不可逆操作必须单独确认。
 - 不使用桌面端 GUI 或 Computer Use 来代替终端操作。浏览器只用于检索和验证，下载应指定到仓库内路径。
 
+### 30 天 Docker 学习计划授权
+
+用户已明确授权 `daily-learning` 模式在 Wiki Docker 容器内使用 Codex
+`danger-full-access`、联网和仓库工具，直接推进 L1/L2/L3/L4 学习、文献检索、
+公开/可访问数据分析及工作流优化；不需要另行等待普通 L4 启动语句。每次日报
+runner 调用都是新的 Codex session，回执必须保存 `session_id` 和可复制的
+`resume_command`，以便用户回到某一日讨论。arXiv、NNDC/ENSDF、Google Scholar、
+Crossref、出版商和机构页面都是该计划的正常检索入口。Docker 与 `/workspace/wiki`
+是执行边界，Gitee 是恢复远端；不得把容器内授权误写成宿主机或其它项目授权。
+证据分层、locator、可复现性和失败记录仍必须保留，模型结果不得冒充实验事实。
+
 ## 科学证据规则
 
 1. 重要事实、数值和引文回链到 `knowledge/sources/`，尽量提供页码、图表号、公式或能级位置。

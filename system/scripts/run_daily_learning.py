@@ -27,6 +27,9 @@ from wiki_knowledge_writeback import snapshot_knowledge, validate_writeback
 
 
 TIMEZONE = ZoneInfo("Asia/Shanghai")
+TOTAL_DAYS = 30
+CYCLE_NAME = "2026-09-30-day-substantive"
+SESSION_MODE = "new-session-per-run"
 PHASES = (
     (1, 1, "baseline-and-research-contract"),
     (2, 10, "nuclear-structure-framework"),
@@ -72,8 +75,8 @@ class Paths:
 
 
 def phase_for_day(day_index: int) -> str:
-    if not 1 <= day_index <= 30:
-        raise ValueError("day_index must be in 1..30")
+    if not 1 <= day_index <= TOTAL_DAYS:
+        raise ValueError(f"day_index must be in 1..{TOTAL_DAYS}")
     for first, last, phase in PHASES:
         if first <= day_index <= last:
             return phase
@@ -85,6 +88,33 @@ def validate_root(root: Path) -> None:
     missing = [str(path) for path in required if not path.exists()]
     if missing:
         raise RuntimeError("Wiki root is incomplete: " + ", ".join(missing))
+
+
+def validate_codex_home() -> Path:
+    codex_home = Path(os.environ.get("CODEX_HOME", str(Path.home() / ".codex"))).expanduser()
+    if not codex_home.is_dir():
+        raise RuntimeError(f"CODEX_HOME is not a directory: {codex_home}")
+    if not os.access(codex_home, os.R_OK | os.W_OK):
+        raise RuntimeError(f"CODEX_HOME is not readable and writable: {codex_home}")
+    return codex_home
+
+
+def build_resume_command(root: Path, session_id: str) -> list[str]:
+    """Build the explicit command for discussing or resuming one daily run."""
+
+    if not session_id.strip():
+        raise ValueError("session_id must be non-empty")
+    return [
+        "codex",
+        "resume",
+        session_id,
+        "-C",
+        str(root),
+        "-s",
+        CODEX_SANDBOX,
+        "-a",
+        "never",
+    ]
 
 
 def get_paths(root: Path) -> Paths:
@@ -105,7 +135,8 @@ def read_state(path: Path) -> dict[str, Any]:
     if not path.exists():
         return {
             "schema_version": 1,
-            "cycle": "2026-09-one-month",
+            "cycle": CYCLE_NAME,
+            "counting_policy": "30 successful substantive days; acceptance-only runs are excluded",
             "next_day_index": 1,
             "last_success": None,
             "last_run_id": None,
@@ -319,6 +350,7 @@ def dry_run(
     reasoning_effort: str | None = None,
 ) -> dict[str, Any]:
     validate_root(paths.root)
+    codex_home = validate_codex_home()
     if shutil.which("codex") is None:
         raise RuntimeError("codex executable was not found in PATH")
     if not paths.prompt_file.is_file():
@@ -327,11 +359,13 @@ def dry_run(
     day_index = int(state.get("next_day_index", 1))
     run_date = local_date()
     run_id = f"dry-run-{run_date}-day-{day_index:02d}"
-    cycle_complete = state.get("status") == "complete" or day_index > 30
+    cycle_complete = state.get("status") == "complete" or day_index > TOTAL_DAYS
     return {
         "status": "cycle-complete" if cycle_complete else "dry-run-ok",
         "root": str(paths.root),
         "codex": shutil.which("codex"),
+        "codex_home": str(codex_home),
+        "session_mode": SESSION_MODE,
         "day_index": day_index,
         "phase": None if cycle_complete else phase_for_day(day_index),
         "command": build_command(
@@ -368,12 +402,13 @@ def main() -> int:
         validate_root(root)
         state = read_state(paths.state_file)
         day_index = int(state.get("next_day_index", 1)) if args.day_index == "auto" else int(args.day_index)
-        if state.get("status") == "complete" or day_index > 30:
+        if state.get("status") == "complete" or day_index > TOTAL_DAYS:
             print(
                 json.dumps(
                     {
                         "status": "cycle-complete",
-                        "cycle": "2026-09-one-month",
+                        "cycle": CYCLE_NAME,
+                        "counting_policy": "30 successful substantive days; acceptance-only runs are excluded",
                         "next_day_index": day_index,
                     },
                     ensure_ascii=False,
@@ -398,6 +433,12 @@ def main() -> int:
             "run_date": run_date,
             "day_index": day_index,
             "phase": phase,
+            "cycle": CYCLE_NAME,
+            "run_kind": "substantive",
+            "counted_in_substantive_test": True,
+            "session_mode": SESSION_MODE,
+            "session_reuse": False,
+            "codex_home": str(validate_codex_home()),
             "status": "running",
             "started_at": datetime.now(TIMEZONE).isoformat(),
             "report": str(report_path),
@@ -457,11 +498,14 @@ def main() -> int:
                 and checks["lint_exit"] == 0
                 and checks["git_diff_check_exit"] == 0
             )
+            session_id = extract_session_id(lines)
+            if session_id:
+                receipt["resume_command"] = build_resume_command(root, session_id)
             receipt.update(
                 {
                     "status": "completed" if success else "failed-verification",
                     "exit_code": process.returncode,
-                    "session_id": extract_session_id(lines),
+                    "session_id": session_id,
                     "failure_reason": extract_failure_reason(lines),
                     "checks": checks,
                     "finished_at": datetime.now(TIMEZONE).isoformat(),
@@ -471,11 +515,12 @@ def main() -> int:
                 state.update(
                     {
                         "schema_version": 1,
-                        "cycle": "2026-09-one-month",
-                        "next_day_index": min(day_index + 1, 31),
+                        "cycle": CYCLE_NAME,
+                        "counting_policy": "30 successful substantive days; acceptance-only runs are excluded",
+                        "next_day_index": min(day_index + 1, TOTAL_DAYS + 1),
                         "last_success": run_date,
                         "last_run_id": run_id,
-                        "status": "complete" if day_index == 30 else "active",
+                        "status": "complete" if day_index == TOTAL_DAYS else "active",
                     }
                 )
                 write_json_atomic(paths.state_file, state)

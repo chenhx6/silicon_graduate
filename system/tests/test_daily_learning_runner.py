@@ -21,7 +21,7 @@ class DailyLearningRunnerTests(unittest.TestCase):
         with self.assertRaises(ValueError):
             run_daily_learning.phase_for_day(31)
 
-    def test_build_command_uses_workspace_write_and_persistent_exec(self) -> None:
+    def test_build_command_uses_full_access_search_and_new_session_exec(self) -> None:
         command = run_daily_learning.build_command(
             Path("/workspace/wiki"), "gpt-5.6-sol", Path("/tmp/last.md"), True
         )
@@ -29,7 +29,16 @@ class DailyLearningRunnerTests(unittest.TestCase):
         self.assertIn("never", command)
         self.assertIn("--search", command)
         self.assertIn("exec", command)
+        self.assertNotIn("resume", command)
         self.assertNotIn("--ephemeral", command)
+
+    def test_build_resume_command_targets_recorded_session(self) -> None:
+        command = run_daily_learning.build_resume_command(Path("/workspace/wiki"), "session-123")
+        self.assertEqual(command[:4], ["codex", "resume", "session-123", "-C"])
+        self.assertIn("danger-full-access", command)
+        self.assertIn("never", command)
+        with self.assertRaises(ValueError):
+            run_daily_learning.build_resume_command(Path("/workspace/wiki"), " ")
 
     def test_session_id_extraction_accepts_common_jsonl_shapes(self) -> None:
         lines = [
@@ -55,6 +64,8 @@ class DailyLearningRunnerTests(unittest.TestCase):
         state = run_daily_learning.read_state(paths.state_file)
         self.assertEqual(result["day_index"], int(state.get("next_day_index", 1)))
         self.assertIn("danger-full-access", result["command"])
+        self.assertEqual(result["session_mode"], "new-session-per-run")
+        self.assertTrue(result["codex_home"])
         self.assertFalse(result["cycle_complete"])
 
     def test_report_validation_requires_all_daily_headings(self) -> None:

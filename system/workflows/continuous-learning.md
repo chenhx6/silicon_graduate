@@ -20,6 +20,7 @@ updated: 2026-09-05
 - 当前入口 corpus 是 15 篇学位论文（丁兵已有、Alwaleedi 复读、13 篇新增）及附加的 `103Pd` 实验报告；批次状态见 [`degree-dissertation-ingest-20260905`](../../outputs/degree-dissertation-ingest-20260905.md) 和 [`learning queue`](../learning-queue.md)。
 - `PLAN.md` 仍由用户维护；每日任务不得改写、重排或机械扩展它。
 - 每日任务遵守 [`system/path-contract.md`](../path-contract.md)：日报、周报、审计、回执、调度状态和任务计划书写入 `outputs/`（计划书用 `outputs/plans/`），可复用知识增量必须写入 `knowledge/`；`docs/plans/` 不得重新创建。
+- 2026-09-23 起，Docker 内的 30 天实质学习周期得到用户明确授权：每日运行可自主推进 L1/L2/L3/L4，启用网络和 `danger-full-access`，并以 Gitee 作为容器外恢复远端。每次 runner 调用创建新的 Codex session；需要讨论或优化某日时，使用该日回执中的 `session_id` 和 `resume_command`。
 
 ## 来源阅读闭环
 
@@ -70,7 +71,7 @@ python3 system/scripts/run_daily_learning_daemon.py --root /workspace/wiki
 
 ### 动态学习循环
 
-一次运行可以继续一个问题、切换问题或交替处理多个来源；不限制主题数量、不要求完成一个主题、不要求每天完成固定篇数。按以下循环推进：
+一次运行可以继续一个问题、切换问题或交替处理多个来源；不限制主题数量、不要求完成一个主题、不要求每天完成固定篇数。每日计划已授权 L1–L4、联网和容器 full-access，按以下循环推进：
 
 1. 在打开大量证据页、下载或写入前，重建候选池：质量区/核素、机制或竞争解释、实验 observable、证据类型、独立性和 human-review 风险。
 2. 选择一个或多个能改变当前判断的高价值问题；连续三篇直接相关来源，或新证据改变解释排序时，执行 thematic REFLECT。
@@ -99,7 +100,7 @@ python3 system/scripts/run_daily_learning_daemon.py --root /workspace/wiki
 
 ## Git–学习双轨与发布门
 
-每次独立运行可先调用 `python3 system/scripts/wiki_automation_preflight.py --root .`，它会先执行只读 `wiki_boundary_check.py`，检查六类目录、`outputs/` 分类、知识迁移状态和 QMD collection，再记录受保护 BibTeX 基线和工作树状态。这是终端 full-access 环境下的轻量诊断，不是额外的权限系统；路径契约失败时必须 safe-suspend。
+每次独立运行可先调用 `python3 system/scripts/wiki_automation_preflight.py --root .`，它会先执行只读 `wiki_boundary_check.py`，检查六类目录、`outputs/` 分类、知识迁移状态和 QMD collection，再记录受保护 BibTeX 基线和工作树状态。这是 Docker full-access 环境下的轻量诊断，不是额外的权限系统；路径契约失败时必须 safe-suspend。网络检索可使用 arXiv、NNDC/ENSDF、Google Scholar、Crossref 及出版商/机构页面，必须把 URL/DOI 和 locator 写入证据记录。
 
 1. **本地检查通过**：按 `check.md` 建立 dirty baseline，显式暂存本轮允许文件，运行 lint/检查，必要时创建或 amend 唯一 rolling WIP。
 2. **发布失败但内容安全**：继续 Wiki 内容和学习记录写回，状态记为 `content-complete / final-not-pushed`；不重复无变化的网络或认证诊断。
@@ -108,6 +109,6 @@ python3 system/scripts/run_daily_learning_daemon.py --root /workspace/wiki
 
 允许写入的文件必须逐个列明；严禁 `git add .`，严禁把 PDF、raw、`raw/zotero/wiki-inbox.bib`、`.codex`、`PLAN.md` 或无关用户修改带入 stage。每日任务的本地 Git 发布仍受 `check.md` 完整清单和仓库现有 WIP/amend 规则约束。
 
-## L0–L4 与人工关口
+## L0–L4 与每日授权
 
-每日学习默认运行 L0–L2；当多个竞争解释、证据缺口或可检验课题满足条件时，可在报告中形成 `active-L3`、milestone、candidate 和 research prospectus。任何涉及真实用户数据、正式论文结论、`confidence: high` 或 L4 的动作都必须按 `autonomous-research` safe-suspend 并等待用户明确启动；自动任务不得越过数据授权关口，也不把自审写成人工审核。
+每日学习可以按证据和信息增益自主运行 L1、L2、L3 或 L4。对本 30 天 Docker 计划，用户已明确授权使用可访问的真实/公开/模拟数据、网络来源、代码和分析工具，不再要求另发 L4 启动语句；L4 仍必须保留数据身份、单位、不确定度、响应/协方差、代码、敏感性和失败检查，输入不足时记录 readiness boundary，不制造代理结果。正式论文措辞仍需回到 paper evidence gate；Codex self-audit 不写成 `human-reviewed`。

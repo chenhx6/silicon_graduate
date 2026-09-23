@@ -1337,3 +1337,9 @@ updated: 2026-07-15
 ## [2026-09-23] governance | complete knowledge snapshot coverage
 
 - Extended the writeback validator to compare the entire `knowledge/` snapshot before/after each daily run; every changed page must be listed in the structured block, and `verified-no-op` fails on any knowledge change. Added the unmapped-change regression test.
+
+## [2026-09-23] daily-learning | reset substantive cycle and expose per-day sessions
+
+- Confirmed that each `codex exec` invocation creates a new session; added `session_mode`, `session_reuse`, `session_id` and a reproducible `resume_command` to daily receipts and scheduler events.
+- Reclassified all 2026-09-22 Day 1/Day 2 runner attempts as `acceptance-only`; reset the substantive state to `next_day_index: 1` for 30 successful substantive days.
+- Authorized the Docker daily plan to use network sources (arXiv, NNDC/ENSDF, Google Scholar, Crossref and publisher/institution pages), `danger-full-access`, and autonomous L1–L4 work; updated the prompt, workflows, guides, checklist and plan.

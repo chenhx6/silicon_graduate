@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "run_id": "2026-09-22-day-01-04",
+  "run_date": "2026-09-22",
+  "day_index": 1,
+  "phase": "baseline-and-research-contract",
+  "status": "failed-verification",
+  "started_at": "2026-09-22T21:05:53.169168+08:00",
+  "report": "/workspace/wiki/outputs/learning-daily/2026-09-22.md",
+  "exit_code": 0,
+  "session_id": "01a0c939-0fe7-7501-83c2-72041d2c4e95",
+  "failure_reason": null,
+  "checks": {
+    "preflight": {
+      "exit": 0,
+      "stdout_tail": "{\"schema_version\":1,\"ok\":true,\"root\":\"/workspace/wiki\",\"expected_profile\":\"\",\"actual_profile\":null,\"warnings\":[],\"write_probes\":[{\"path\":\"/workspace/wiki\",\"created\":true,\"read_back\":true,\"deleted\":true,\"error\":null},{\"path\":\"/workspace/wiki/.git\",\"created\":true,\"read_back\":true,\"deleted\":true,\"error\":null}],\"error\":null,\"config_default\":null,\"protected_bib\":{\"path\":\"/workspace/wiki/raw/zotero/wiki-inbox.bib\",\"baseline_sha256\":\"037EA133DE204270AD36961CA66B3AB36C0913B7D472B45F8FD013C8293BE5BE\",\"actual_sha256\":\"037EA133DE204270AD36961CA66B3AB36C0913B7D472B45F8FD013C8293BE5BE\",\"status\":\"matched\"},\"exit_code\":0}\n",
+      "stderr_tail": ""
+    },
+    "report_exists": true,
+    "report_changed": true,
+    "report_valid": false,
+    "report_missing_headings": [
+      "## Durable knowledge delta"
+    ],
+    "lint_exit": 0,
+    "lint_tail": "waits human review\n[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/zheng-2004-high-spin-145tb-157yb.md - ZY04-11 awaits human review\n[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/zheng-2013-linear-polarization-91ru.md - Z13-5 awaits human review\n[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/zheng-2021-collectivity-shape-119cs-119ba-118cs.md - line 23 awaits human review\n[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/zheng-2021-collectivity-shape-119cs-119ba-118cs.md - line 24 awaits human review\n[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/zheng-2021-collectivity-shape-119cs-119ba-118cs.md - line 25 awaits human review\n[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/zheng-2021-collectivity-shape-119cs-119ba-118cs.md - line 26 awaits human review\n[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/zhou-houbing-2012-101pd-rdt-thesis.md - line 50 awaits human review\n[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/zhou-houbing-2012-101pd-rdt-thesis.md - line 51 awaits human review\n[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/zhou-houbing-2012-101pd-rdt-thesis.md - line 52 awaits human review\n[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/zhou-houbing-2012-101pd-rdt-thesis.md - line 53 awaits human review\n[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/zhou-houbing-2012-101pd-rdt-thesis.md - line 54 awaits human review\n[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/zhou-houbing-2012-101pd-rdt-thesis.md - line 55 awaits human review\n[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/zhou-houbing-2012-101pd-rdt-thesis.md - line 56 awaits human review\n[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/zhou-houbing-2012-101pd-rdt-thesis.md - line 57 awaits human review\nGOVERNANCE page_unreviewed=451 source_unreviewed=184 claims=1775 claim_needs_review=1106 claim_missing_locator=0 claim_missing_kind=0 source_missing_raw_file=0 source_missing_citation_key=76\nSUMMARY pages=529 wikilinks=4814 hashes=244 errors=0 warnings=79 info=1106\n",
+    "git_diff_check_exit": 0,
+    "git_diff_check_tail": ""
+  },
+  "finished_at": "2026-09-22T21:14:58.231170+08:00",
+  "run_kind": "acceptance-only",
+  "counted_in_substantive_test": false,
+  "acceptance_reason": "Manual Docker/runner instance acceptance before the substantive 30-day test reset",
+  "session_mode": "new-session-per-run",
+  "session_reuse": false,
+  "resume_command": [
+    "codex",
+    "resume",
+    "01a0c939-0fe7-7501-83c2-72041d2c4e95",
+    "-C",
+    "/workspace/wiki",
+    "-s",
+    "danger-full-access",
+    "-a",
+    "never"
+  ]
+}

@@ -22,7 +22,7 @@ updated: 2026-09-10
 - 用户在仓库根目录维护 `PLAN.md`，用于宏观阶段计划、个人好奇心备忘和研究方向草稿；它由用户拥有，不是 cite-key 文献清单、执行日志或 Agent 可自由改写的任务列表。
 - `PLAN.md` 按任务条件读取并管理方向与优先级；`system/handoff.md` 管理最近执行事实与交接细节。无法分类的冲突必须询问用户。
 - 执行余量不足且任务无法稳定完成时进入 safe suspend：停止扩大范围、完成 Git 检查、写完整 handoff，并等待用户在额度刷新后发送“继续”；safe suspend 会暂停本轮 commit/push，若大量 diff 或恢复风险符合门槛，可创建本地 WIP checkpoint，但它不等于 review finalization 或科学发布门通过。
-- 当前系统为 Continuous Research-Learning v2（硅基研究生 V2），是面向低能核结构研究的 Human-in-the-loop research Wiki；摄入默认运行 L0–L2，高价值问题可进入 L3，L4 必须由用户确认数据后手动启动并形成可复现分析。完整等级、状态、每周自测和人工关口只由 `system/workflows/autonomous-research.md` 维护；ordinary Q&A 保持轻量，Wiki 不是最终权威，也不保证文献完整性。
+- 当前系统为 Continuous Research-Learning v2（硅基研究生 V2），是面向低能核结构研究的 Human-in-the-loop research Wiki；普通摄入默认运行 L0–L2，高价值问题可进入 L3。用户已明确授权 Docker 内 30 天 daily-learning 计划联网、`danger-full-access` 和 L1–L4 自主推进；L4 仍须按数据身份、可复现分析和失败检查校准结论。完整等级、状态、每周自测和人工关口只由 `system/workflows/autonomous-research.md` 维护；ordinary Q&A 保持轻量，Wiki 不是最终权威，也不保证文献完整性。
 - Review status 是核查元数据，不是检索、可见性、科学价值或知识资格门槛。高相关、高信息增益的未审核内容应主动呈现，并说明其可能贡献、review/source/locator 状态和核查路径；不机械罗列低相关内容。
 - `human-reviewed` 不表示永久正确、完整或已穷尽文献知识；已审核内容仍可被质疑、重新核验、纠正和继续挖掘。页面整体 `unreviewed` 不妨碍针对具体 claim 完成直接来源核验。
 - Paper admission 针对具体 claim、拟用措辞和使用语境，并需要用户明确确认。普通研究和摄入由 Codex self-audit 完成；局部 claim 核验可更新对应证据状态，但不得写成 `human-reviewed`。只有内容实际进入论文写作、关键问答裁决或 paper-level evidence pool 时，才触发 targeted claim review。
@@ -47,6 +47,8 @@ updated: 2026-09-10
 - 2026-09-22 用户明确：每日学习自动化必须完全运行在 Docker 内。使用容器内 `run_daily_learning_daemon.py` 负责 Asia/Shanghai 22:00 调度；不得使用宿主机任务计划、Docker socket、PowerShell 或外部 project cron。
 - 2026-09-23 用户明确：`knowledge/` 是 Wiki 的长期知识大脑；每日学习产生的可复用 source/project/synthesis/question/research-note/matrix 增量写入 `knowledge/`，`outputs/` 只保存日报、周报、审计、回执、调度状态和其它过程交代。
 - 2026-09-23 路径契约固化：`raw/` 原始材料，`knowledge/` 长期知识，`outputs/` 交代性输出与 `outputs/plans/` 任务计划书，`system/` 治理执行，`tools/` 外部工具，`tmp/` 临时数据；`docs/plans/` 禁止重新创建。输出中的可复用知识必须同步回写 `knowledge/`，QMD 仅索引 `knowledge/**/*.md`；`wiki_boundary_check.py` 由 automation preflight 调用。
+- 2026-09-23 用户确认：日报 runner 每次用新的 `codex exec` session，不复用固定 session；`run.json` 必须保存 `session_id`、`session_mode` 和可复制的 `resume_command`，便于按日恢复讨论。2026-09-22 的 Day 1/Day 2 仅作为 Docker/runner 实例验收，全部标记为 `acceptance-only`，不计入新的 30 个实质成功日；状态从 `next_day_index: 1` 重新开始。
+- 2026-09-23 用户确认：30 天 daily-learning 允许联网使用 arXiv、NNDC/ENSDF、Google Scholar、Crossref、出版商和机构页面，并可自主进入 L1/L2/L3/L4；容器内使用 Codex `danger-full-access`，Gitee 作为恢复远端。证据 locator、来源分层和可复现失败检查仍须记录。
 
 ## 用户纠正记录
 
