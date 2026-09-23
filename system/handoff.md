@@ -10,13 +10,13 @@ updated: 2026-09-23
 
 Current active task: 固化六类目录边界，防止文献摄入、每日学习、L3/L4 研究和论文写作发生路径漂移。
 
-Completed: 新增 [`system/path-contract.md`](path-contract.md) 与只读 [`system/scripts/wiki_boundary_check.py`](scripts/wiki_boundary_check.py)；automation preflight 已先执行边界检查；`AGENTS.md`、README、用户指南、ingest/reflect/query/autonomous-research/continuous-learning/scheduled-continuation/lint workflows、daily prompt、memory、checklist 和 WIP queue 已统一到 `outputs/plans/` 与 `knowledge/` durable backwrite 规则。每日 runner 现在还会解析 `Durable knowledge delta`，要求可解析的 `knowledge/` canonical 页面和 locator，或带 locator 的 `verified no-op`，否则不推进 day state。已迁移的 A≈130 证据矩阵只存在于 `knowledge/projects/`；QMD collection 仍为 `knowledge/**/*.md`。
+Completed: 新增 [`system/path-contract.md`](path-contract.md) 与只读 [`system/scripts/wiki_boundary_check.py`](scripts/wiki_boundary_check.py)；automation preflight 已先执行边界检查；`AGENTS.md`、README、用户指南、ingest/reflect/query/autonomous-research/continuous-learning/scheduled-continuation/lint workflows、daily prompt、memory、checklist 和 WIP queue 已统一到 `outputs/plans/` 与 `knowledge/` durable backwrite 规则。每日 runner 现在还会解析唯一的 `knowledge-writeback` JSON 区块：逐项验证 canonical `knowledge/` 页、页内 anchor、`knowledge/sources/` locator，并用运行前后 knowledge 快照确认 `updated` 真实改变页面；`verified-no-op` 也必须提供 grounded page/locator。已迁移的 A≈130 证据矩阵只存在于 `knowledge/projects/`；QMD collection 仍为 `knowledge/**/*.md`。
 
-Verification: boundary check 通过（六类目录齐全、`docs/plans/` 缺失、outputs 中无 knowledge page type、QMD path/pattern 正确）；preflight 通过且 protected BibTeX SHA 匹配；system tests 49/49 通过；Wiki lint 0 errors / 79 warnings / 1106 info；QMD update/embed/status 完成（534 files, 2247 vectors, 70 historical orphan chunks）。
+Verification: boundary check 通过（六类目录齐全、`docs/plans/` 缺失、outputs 中无 knowledge page type、QMD path/pattern 正确）；preflight 通过且 protected BibTeX SHA 匹配；先前路径治理提交的 system tests 49/49 通过；本轮 durable-writeback tests 预计 53 项；Wiki lint 0 errors / 79 warnings / 1106 info；QMD update/embed/status 完成（534 files, 2247 vectors, 70 historical orphan chunks）。
 
 Preserved: `system/scripts/run_daily_learning.py` 的既有未提交修改、raw/临时目录、未跟踪 daily run receipts 和 `outputs/plans/` 运行计划未纳入本轮 staged scope；本轮不修改 raw、PLAN、protected BibTeX 或宿主机状态。
 
-Next: 提交 durable knowledge runner 验收补丁并复查 staged diff 与 Git 发布门；若发布失败保留本地 final 并记录 `final-not-pushed`。每日 daemon 仍只在 Docker 内运行，模型优先级保持 Astra low → Sol max → Terra max。
+Next: 完成 durable knowledge runner 验收补丁的 staged diff、测试和发布门；若发布失败保留本地 final 并记录 `final-not-pushed`。每日 daemon 仍只在 Docker 内运行，模型优先级保持 Astra low → Sol max → Terra max。
 
 ## 2026-09-22 Day 2 shell-gap run 06
 

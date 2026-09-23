@@ -93,6 +93,36 @@ question, matrix or research-note page. A report, plan or run receipt in `output
 cannot be the only copy of reusable knowledge; list the canonical `knowledge/` path
 and source locator in the report.
 
+The section must also contain exactly one machine-readable block. `status: updated`
+requires a page change during this run; `verified-no-op` requires that the mapped
+knowledge and source pages were checked and no durable change was justified. Each item
+must name an exact text `anchor` present in the knowledge page and at least one source
+path plus claim ID/page/figure locator present in that source page:
+
+````markdown
+```knowledge-writeback
+{
+  "status": "updated",
+  "items": [
+    {
+      "knowledge": "knowledge/projects/a130-thesis-evidence-matrix.md",
+      "summary": "Added the Day 1 evidence row.",
+      "anchor": "哪些 A≈130 能级、跃迁和模式解释已经有可复核的观测支撑",
+      "sources": [
+        {
+          "path": "knowledge/sources/ding-2012-phd-thesis-127-128i-high-spin.md",
+          "locator": "DING12-1"
+        }
+      ]
+    }
+  ]
+}
+```
+````
+
+Do not claim `updated` while only editing the report; the runner compares a
+knowledge Markdown snapshot taken before the model turn with the post-run tree.
+
 Before ending:
 
 - do not run `git add .`; leave any staging/commit/push decision to the explicit

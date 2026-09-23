@@ -68,5 +68,5 @@ daemon 只调用同一容器内的 `run_daily_learning.py`，默认在
 `Asia/Shanghai` 每日 22:00 触发；不读取 Docker socket、不调用 PowerShell、
 不创建宿主机 scheduler。`--once` 仅用于容器内显式测试，不能替代常驻调度。
 
-runner 在日报标题检查之外，还验证 `## Durable knowledge delta`：必须解析到
-`knowledge/` 下的 canonical 页面（路径或 Wiki 链接）并在报告中保留 locator，或明确写出带 locator 的 `verified no-op`。该验收失败时不推进 day state，避免“只生成日报、没有知识回写”被计为成功。
+runner 在日报标题检查之外，还验证 `## Durable knowledge delta` 中唯一的
+`knowledge-writeback` JSON 区块：每个 item 必须解析到 `knowledge/` canonical 页面、页内 anchor、`knowledge/sources/` 和 source locator；`updated` 还必须通过运行前后的 knowledge 快照变化检查，`verified-no-op` 必须证明没有变化。该验收失败时不推进 day state，避免“只生成日报、没有知识回写”被计为成功。

@@ -1323,3 +1323,8 @@ updated: 2026-07-15
 
 - 修补每日 runner 的验收缺口：日报只有完整标题仍不足以成功；`## Durable knowledge delta` 现在必须解析到 `knowledge/` canonical 页面（路径或 Wiki 链接）并保留 locator，或明确记录带 locator 的 `verified no-op`，否则不推进 day state。
 - 新增 3 个 runner 回归测试；全系统测试 49/49 通过。既有 `validate_codex_home()` 未提交修改保持未暂存，raw、计划、日报/run receipts 和临时目录仍未纳入范围。
+
+## [2026-09-23] governance | structured knowledge-writeback gate
+
+- 将日报 durable-delta 验收升级为结构化 `knowledge-writeback` 区块：逐项验证 `knowledge/` canonical 页、页内 anchor、`knowledge/sources/` 及 claim/page/figure locator；`updated` 必须通过运行前后 knowledge 快照证明实际页变更，`verified-no-op` 必须有 grounded page、locator 和无变化理由。
+- 新增只读 `system/scripts/wiki_knowledge_writeback.py` 与 4 个回归测试；Farmer 已在 Docker 内启动并继续只读监督。所有 raw、计划、run receipt 和继承的 `validate_codex_home()` 未提交修改保持隔离。

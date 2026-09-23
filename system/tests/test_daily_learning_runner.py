@@ -77,45 +77,67 @@ class DailyLearningRunnerTests(unittest.TestCase):
     def test_durable_knowledge_requires_resolvable_page_and_locator(self) -> None:
         with tempfile.TemporaryDirectory() as directory:
             root = Path(directory)
+            (root / "outputs").mkdir()
             page = root / "knowledge" / "projects" / "example.md"
             page.parent.mkdir(parents=True)
-            page.write_text("# durable\n", encoding="utf-8")
-            report = root / "daily.md"
+            page.write_text("# durable\nAnchor.\n[[source]]\n", encoding="utf-8")
+            source = root / "knowledge" / "sources" / "source.md"
+            source.parent.mkdir(parents=True)
+            source.write_text("SRC-1: PDF p. 4\n", encoding="utf-8")
+            report = root / "outputs" / "daily.md"
             report.write_text(
-                "## Durable knowledge delta\n"
-                "- Canonical page: [[example]]; source locator: PDF p. 4.\n"
-                "## Open questions\n",
+                "## Durable knowledge delta\n\n"
+                "```knowledge-writeback\n"
+                '{"status":"updated","items":[{"knowledge":"knowledge/projects/example.md",'
+                '"summary":"Added row","anchor":"Anchor.","sources":[{"path":"knowledge/sources/source.md",'
+                '"locator":"SRC-1"}]}]}\n'
+                "```\n",
                 encoding="utf-8",
             )
-            result = run_daily_learning.validate_durable_knowledge(report, root)
+            before = run_daily_learning.snapshot_knowledge(root)
+            page.write_text(page.read_text(encoding="utf-8") + "Changed.\n", encoding="utf-8")
+            result = run_daily_learning.validate_durable_knowledge(report, root, before)
             self.assertTrue(result["valid"], result)
-            self.assertEqual(result["knowledge_paths"], ["knowledge/projects/example.md"])
+            self.assertEqual(result["changed_paths"], ["knowledge/projects/example.md"])
 
     def test_durable_knowledge_rejects_output_only_delta(self) -> None:
         with tempfile.TemporaryDirectory() as directory:
             root = Path(directory)
-            report = root / "daily.md"
+            (root / "outputs").mkdir()
+            report = root / "outputs" / "daily.md"
             report.write_text(
-                "## Durable knowledge delta\n"
-                "- Concrete artifact: outputs/learning-daily/2026-09-23.md; locator: PDF p. 4.\n"
-                "## Open questions\n",
+                "## Durable knowledge delta\n\n"
+                "```knowledge-writeback\n"
+                '{"status":"updated","items":[{"knowledge":"outputs/not-knowledge.md",'
+                '"summary":"Wrong layer","anchor":"x","sources":[]}]}\n'
+                "```\n",
                 encoding="utf-8",
             )
             result = run_daily_learning.validate_durable_knowledge(report, root)
             self.assertFalse(result["valid"])
-            self.assertIn("knowledge/", result["error"])
+            self.assertIn("invalid knowledge path", result["error"])
 
     def test_verified_noop_still_requires_locator(self) -> None:
         with tempfile.TemporaryDirectory() as directory:
             root = Path(directory)
-            report = root / "daily.md"
+            (root / "outputs").mkdir()
+            (root / "knowledge" / "projects").mkdir(parents=True)
+            (root / "knowledge" / "sources").mkdir(parents=True)
+            (root / "knowledge" / "projects" / "x.md").write_text("Anchor x.\n[[x-source]]\n", encoding="utf-8")
+            (root / "knowledge" / "sources" / "x-source.md").write_text("SRC-X: PDF p. 1\n", encoding="utf-8")
+            report = root / "outputs" / "daily.md"
             report.write_text(
-                "## Durable knowledge delta\n- verified no-op: no reusable change.\n",
+                "## Durable knowledge delta\n\n"
+                "```knowledge-writeback\n"
+                '{"status":"verified-no-op","reason":"No change","items":[{"knowledge":"knowledge/projects/x.md",'
+                '"summary":"No change after checking x.","anchor":"Anchor x.","sources":[{"path":"knowledge/sources/x-source.md",'
+                '"locator":""}]}]}\n'
+                "```\n",
                 encoding="utf-8",
             )
             result = run_daily_learning.validate_durable_knowledge(report, root)
             self.assertFalse(result["valid"])
-            self.assertIn("locator", result["error"])
+            self.assertIn("source locator", result["error"])
 
     def test_completed_state_dry_run_does_not_request_day_31_phase(self) -> None:
         with tempfile.TemporaryDirectory() as directory:

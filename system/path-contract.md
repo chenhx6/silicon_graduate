@@ -29,7 +29,7 @@ updated: 2026-09-23
 3. 明确区分实验直接报告、作者解释、模型结果和本任务推断；
 4. 若没有可持久化的新知，写出 `verified no-op` 及原因，不把日报本身冒充知识增量。
 
-每日学习的硬验收是 `Durable knowledge delta`；它必须指向 `knowledge/` 页面、知识矩阵/问题修订、可复核计算资产，或明确的带证据 `verified no-op`。仅写一份 `outputs/learning-daily/` 日报不能使当天学习通过。
+每日学习的硬验收是 `Durable knowledge delta`；日报必须包含唯一 `knowledge-writeback` JSON 区块，逐项指向 `knowledge/` 页面、页内锚点、`knowledge/sources/` locator，并由 runner 用运行前后快照确认 `updated` 发生真实页变更；没有新知时用列出 grounded pages 和 locator 的 `verified-no-op`。仅写一份 `outputs/learning-daily/` 日报不能使当天学习通过。
 
 ## 计划书和支持性路径
 

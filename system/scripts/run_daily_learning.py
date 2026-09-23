@@ -23,6 +23,8 @@ from pathlib import Path
 from typing import Any
 from zoneinfo import ZoneInfo
 
+from wiki_knowledge_writeback import snapshot_knowledge, validate_writeback
+
 
 TIMEZONE = ZoneInfo("Asia/Shanghai")
 PHASES = (
@@ -60,11 +62,6 @@ REQUIRED_REPORT_HEADINGS = (
     "## L0–L4 state",
     "## Verification and continuation",
 )
-DURABLE_SECTION = "## Durable knowledge delta"
-KNOWLEDGE_PATH_RE = re.compile(r"(?<![A-Za-z0-9_])knowledge/[A-Za-z0-9_./-]+\.md")
-WIKILINK_RE = re.compile(r"\[\[([A-Za-z0-9][A-Za-z0-9_./-]*)")
-
-
 @dataclass(frozen=True)
 class Paths:
     root: Path
@@ -235,76 +232,19 @@ def validate_report(path: Path) -> dict[str, Any]:
     return {"valid": bool(text.strip()) and not missing, "missing_headings": missing}
 
 
-def validate_durable_knowledge(report_path: Path, root: Path) -> dict[str, Any]:
-    """Require a resolvable knowledge delta or an explicit verified no-op.
+def validate_durable_knowledge(
+    report_path: Path,
+    root: Path,
+    knowledge_before: dict[str, str] | None = None,
+) -> dict[str, Any]:
+    """Validate the structured report-to-knowledge writeback contract."""
 
-    The daily report is an output receipt.  A successful run must point to a
-    durable page under ``knowledge/`` (by path or wikilink) and include source
-    locator language, unless it explicitly records a verified no-op.
-    """
-
-    result: dict[str, Any] = {
-        "valid": False,
-        "mode": None,
-        "knowledge_paths": [],
-        "missing_paths": [],
-        "error": None,
-    }
-    try:
-        text = report_path.read_text(encoding="utf-8")
-    except OSError as exc:
-        result["error"] = f"cannot read report: {exc}"
-        return result
-    start = text.find(DURABLE_SECTION)
-    if start < 0:
-        result["error"] = f"missing {DURABLE_SECTION}"
-        return result
-    end = text.find("\n## ", start + len(DURABLE_SECTION))
-    section = text[start:] if end < 0 else text[start:end]
-
-    candidates: list[Path] = []
-    for raw in KNOWLEDGE_PATH_RE.findall(section):
-        candidates.append(root / raw.rstrip(".,;:)]}"))
-    knowledge_root = root / "knowledge"
-    for slug in WIKILINK_RE.findall(section):
-        if "/" in slug:
-            candidates.append(knowledge_root / f"{slug}.md")
-        else:
-            candidates.extend(knowledge_root.rglob(f"{slug}.md"))
-
-    resolved: list[str] = []
-    missing: list[str] = []
-    for candidate in candidates:
-        try:
-            relative = candidate.resolve().relative_to(root.resolve()).as_posix()
-        except ValueError:
-            missing.append(str(candidate))
-            continue
-        if not candidate.is_file() or not relative.startswith("knowledge/"):
-            missing.append(relative)
-            continue
-        if relative not in resolved:
-            resolved.append(relative)
-
-    result["knowledge_paths"] = resolved
-    result["missing_paths"] = missing
-    if not resolved and re.search(r"verified\s+no[- ]op", section, flags=re.IGNORECASE):
-        if "locator" not in text.lower():
-            result["error"] = "verified no-op must include source locator language"
-            return result
-        result.update({"valid": True, "mode": "verified-no-op"})
-        return result
-    if not resolved:
-        result["error"] = "Durable knowledge delta must name a resolvable knowledge/ page or state verified no-op"
-        return result
-    if "locator" not in text.lower():
-        result["error"] = "durable knowledge report must include source locator language"
-        return result
-    if missing:
-        result["error"] = "one or more durable knowledge references do not resolve"
-        return result
-    result.update({"valid": True, "mode": "knowledge"})
-    return result
+    return validate_writeback(
+        report_path,
+        root,
+        before=knowledge_before,
+        allow_not_applicable=False,
+    )
 
 
 def run_preflight(root: Path) -> dict[str, Any]:
@@ -342,6 +282,7 @@ def run_checks(
     root: Path,
     report_path: Path,
     report_before: str | None = None,
+    knowledge_before: dict[str, str] | None = None,
 ) -> dict[str, Any]:
     preflight = run_preflight(root)
     lint = subprocess.run(
@@ -356,7 +297,7 @@ def run_checks(
     )
     report_after = report_signature(report_path)
     report_validation = validate_report(report_path)
-    durable_knowledge = validate_durable_knowledge(report_path, root)
+    durable_knowledge = validate_durable_knowledge(report_path, root, knowledge_before)
     return {
         "preflight": preflight,
         "report_exists": report_path.is_file(),
@@ -483,6 +424,7 @@ def main() -> int:
                 write_json_atomic(run_dir / "run.json", receipt)
                 print(json.dumps(receipt, ensure_ascii=False, indent=2))
                 return 3
+            knowledge_before = snapshot_knowledge(root)
             prompt = render_prompt(paths, run_id, run_date, day_index)
             command = build_command(
                 root,
@@ -504,7 +446,7 @@ def main() -> int:
                     check=False,
                 )
             lines = events_path.read_text(encoding="utf-8", errors="replace").splitlines()
-            checks = run_checks(root, report_path, report_before)
+            checks = run_checks(root, report_path, report_before, knowledge_before)
             success = (
                 process.returncode == 0
                 and checks["preflight"]["exit"] == 0

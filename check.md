@@ -47,6 +47,7 @@ python -m unittest discover -s system/tests -p "test_*.py" -v
 - [ ] 本次规则修改已同步到 `AGENTS.md`、`check.md` 和相应工作流。
 - [ ] 本轮写入前已通过 `python3 system/scripts/wiki_boundary_check.py --root .`；`docs/plans/` 不存在，任务计划使用 `outputs/plans/`。
 - [ ] 报告、计划、回执或调度状态中的可复用知识已同步到 `knowledge/` canonical 页面，并在输出中列出知识路径与 source locator；没有把 outputs 当作长期事实源。
+- [ ] 每日学习日报包含唯一 `knowledge-writeback` JSON 区块；每个 item 的 knowledge anchor、source path 和 locator/claim ID 在正文中存在，`updated` 有运行前后 knowledge 变更，`verified-no-op` 有 grounded page 与无变化理由。
 - [ ] L0-L4 完整定义只存在于 `system/workflows/autonomous-research.md`；AGENTS/query/reflect/ingest/Skill 仅保留短路由，没有复制漂移或堆积第二套规则。
 - [ ] ordinary Q&A 未误触发写入；授权 ingest/reflect/project/synthesis 默认运行 L2；高价值问题进入 L3 时有明确 scope/milestone；L4 已形成 candidate、safe suspend 并由用户确认数据后手动启动。
 - [ ] 每周自测先分为 `weekly-learning`、`continuation-audit` 或 `maintenance`；只有 `weekly-learning` 计入轮次，定位符/状态/重复核验没有新的决策信息时不得冒充新知周测。
