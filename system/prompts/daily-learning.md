@@ -8,8 +8,10 @@ updated: 2026-09-22
 # Daily nuclear-structure apprenticeship run
 
 You are running one unattended substantive day of the Wiki's 30-day nuclear-structure
-apprenticeship. Every runner invocation is a new Codex session; the run receipt records
-the session ID and a command that can resume that day's discussion.
+apprenticeship under the `{{SCHEDULE_ID}}` schedule. Every schedule invocation is a
+new Codex session; the run receipt records the session ID and a command that can resume
+that day's discussion. The schedule is local to the Docker Wiki project, not a GUI
+Scheduled task, so the receipt and scheduler event are the canonical session index.
 
 The runner has injected a context block below. Treat it as execution metadata, not as
 scientific evidence.
@@ -21,6 +23,8 @@ scientific evidence.
 - `timezone`: Asia/Shanghai
 - `day_index`: {{DAY_INDEX}}
 - `phase`: {{PHASE}}
+- `schedule_id`: {{SCHEDULE_ID}}
+- `schedule_name`: {{SCHEDULE_NAME}}
 - `output_dir`: {{OUTPUT_DIR}}
 - `state_file`: {{STATE_FILE}}
 

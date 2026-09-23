@@ -95,6 +95,11 @@ class DailyLearningDaemonTests(unittest.TestCase):
     def test_substantive_cycle_has_thirty_days(self) -> None:
         self.assertEqual(run_daily_learning_daemon.TOTAL_DAYS, 30)
         self.assertEqual(run_daily_learning_daemon.CYCLE_NAME, "2026-09-30-day-substantive")
+        self.assertEqual(run_daily_learning_daemon.SCHEDULE_ID, "wiki-daily-learning")
+        self.assertEqual(
+            run_daily_learning_daemon.SCHEDULE_NAME,
+            "Wiki 30-day substantive daily learning",
+        )
 
     def test_capacity_error_is_retryable_but_science_failure_is_not(self) -> None:
         self.assertTrue(run_daily_learning_daemon.is_retryable_model_error("model at capacity"))

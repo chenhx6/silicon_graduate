@@ -1348,3 +1348,8 @@ updated: 2026-07-15
 
 - Updated the Docker daemon priority to `gpt-6-luna/max → gpt-6-sol/high → gpt-6-astra/medium`; GPT-5.6 is no longer used for daily-learning fallback.
 - Updated the runner default, plan, script guide, AGENTS model note and regression tests. Historical receipts and reliability entries retain the model that actually ran them.
+
+## [2026-09-23] daily-learning | clarify Docker-local schedule and GUI session boundary
+
+- Confirmed the 22:00 run created a new CLI session `01a0ce91-137f-7360-ba4e-d6f5b295cdb3` in the container, but its report failed verification on the durable locator gate.
+- Documented that `wiki-daily-learning` is a Docker-local schedule; `/root/.codex` sessions are not automatically registered in the host Codex GUI Scheduled list. Run receipts and scheduler JSONL now carry schedule ID, project root, session scope and resume command.

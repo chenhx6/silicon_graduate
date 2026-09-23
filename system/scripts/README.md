@@ -73,5 +73,16 @@ session，不复用固定 session。`run.json` 保存 `session_id`、
 不再作为 fallback。
 不读取 Docker socket、不调用 PowerShell、不创建宿主机 scheduler。`--once` 仅用于容器内显式测试，不能替代常驻调度。
 
+这个 `wiki-daily-learning` 是 Docker 内的 Wiki-local schedule，不会自动出现在
+Codex GUI 的 Scheduled 列表中；GUI schedule 由宿主机/应用侧单独管理。要恢复某次
+运行，进入同一容器执行回执中的 `resume_command`，例如：
+
+```bash
+codex resume <session_id> -C /workspace/wiki -s danger-full-access -a never
+```
+
+每次运行即使最终 `failed-verification`，只要 CLI 返回了 session ID，也会保留该
+session 和 resume 信息，便于查看对话、定位失败并优化工作流。
+
 runner 在日报标题检查之外，还验证 `## Durable knowledge delta` 中唯一的
 `knowledge-writeback` JSON 区块：每个 item 必须解析到 `knowledge/` canonical 页面、页内 anchor、`knowledge/sources/` 和 source locator；`updated` 还必须通过运行前后的 knowledge 快照变化检查，`verified-no-op` 必须证明没有变化。该验收失败时不推进 day state，避免“只生成日报、没有知识回写”被计为成功。

@@ -50,6 +50,7 @@ updated: 2026-09-10
 - 2026-09-23 用户确认：日报 runner 每次用新的 `codex exec` session，不复用固定 session；`run.json` 必须保存 `session_id`、`session_mode` 和可复制的 `resume_command`，便于按日恢复讨论。2026-09-22 的 Day 1/Day 2 仅作为 Docker/runner 实例验收，全部标记为 `acceptance-only`，不计入新的 30 个实质成功日；状态从 `next_day_index: 1` 重新开始。
 - 2026-09-23 用户确认：30 天 daily-learning 允许联网使用 arXiv、NNDC/ENSDF、Google Scholar、Crossref、出版商和机构页面，并可自主进入 L1/L2/L3/L4；容器内使用 Codex `danger-full-access`，Gitee 作为恢复远端。证据 locator、来源分层和可复现失败检查仍须记录。
 - 2026-09-23 用户更新模型偏好：daily daemon 优先使用 `gpt-6-luna` reasoning `max`，失败时回退到 `gpt-6-sol` `high`，再回退到 `gpt-6-astra` `medium`；GPT-5.6 系列从 daily-learning fallback 中废弃。
+- 2026-09-23 用户明确 schedule 语义：每日计划使用固定 `wiki-daily-learning` schedule ID 和 `/workspace/wiki` 项目根目录，每次触发必须新建 session，并可凭 `run.json` 的 `resume_command` 恢复。Docker-local CLI schedule 不会自动出现在宿主机 Codex GUI Scheduled 列表，不能把本地 session 误称为 GUI schedule。
 
 ## 用户纠正记录
 

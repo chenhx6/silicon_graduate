@@ -28,6 +28,8 @@ from zoneinfo import ZoneInfo
 TIMEZONE = ZoneInfo("Asia/Shanghai")
 TOTAL_DAYS = 30
 CYCLE_NAME = "2026-09-30-day-substantive"
+SCHEDULE_ID = "wiki-daily-learning"
+SCHEDULE_NAME = "Wiki 30-day substantive daily learning"
 DEFAULT_HOUR = 22
 DEFAULT_MINUTE = 0
 DEFAULT_POLL_SECONDS = 30
@@ -146,6 +148,9 @@ def scheduler_default_state() -> dict[str, Any]:
     return {
         "schema_version": 1,
         "cycle": CYCLE_NAME,
+        "schedule_id": SCHEDULE_ID,
+        "schedule_name": SCHEDULE_NAME,
+        "project_root": None,
         "counting_policy": "30 successful substantive days; acceptance-only runs are excluded",
         "last_scheduled_date": None,
         "last_status": None,
@@ -224,6 +229,10 @@ def run_once_result(
     append_event(
         log_path,
         "runner-started",
+        schedule_id=SCHEDULE_ID,
+        schedule_name=SCHEDULE_NAME,
+        project_root=str(root),
+        session_scope="one-new-session-for-each-schedule-run",
         model=model,
         reasoning_effort=reasoning_effort,
         command=command,
@@ -246,6 +255,10 @@ def run_once_result(
     append_event(
         log_path,
         "runner-finished",
+        schedule_id=SCHEDULE_ID,
+        schedule_name=SCHEDULE_NAME,
+        project_root=str(root),
+        session_scope="one-new-session-for-each-schedule-run",
         model=model,
         reasoning_effort=reasoning_effort,
         exit_code=result.returncode,
@@ -261,6 +274,8 @@ def run_once_result(
         "failure_reason": reason,
         "model": model,
         "reasoning_effort": reasoning_effort,
+        "session_id": receipt.get("session_id"),
+        "resume_command": receipt.get("resume_command"),
     }
 
 
@@ -337,6 +352,9 @@ def dry_run(
     return {
         "status": "dry-run-ok",
         "root": str(root),
+        "schedule_id": SCHEDULE_ID,
+        "schedule_name": SCHEDULE_NAME,
+        "session_scope": "one-new-session-for-each-schedule-run",
         "timezone": str(TIMEZONE),
         "now": now.isoformat(),
         "next_due": due.isoformat(),
@@ -368,7 +386,14 @@ def daemon_loop(
         append_event(log_path, "daemon-started", root=str(root), hour=hour, minute=minute)
         while not stop["requested"]:
             if learning_cycle_complete(root):
-                append_event(log_path, "cycle-complete", cycle="2026-09-one-month")
+                append_event(
+                    log_path,
+                    "cycle-complete",
+                    cycle=CYCLE_NAME,
+                    schedule_id=SCHEDULE_ID,
+                    schedule_name=SCHEDULE_NAME,
+                    project_root=str(root),
+                )
                 return 0
             marker = read_json(state_path, scheduler_default_state())
             now = now_local()
@@ -386,6 +411,10 @@ def daemon_loop(
                 {
                     "schema_version": 1,
                     "cycle": CYCLE_NAME,
+                    "schedule_id": SCHEDULE_ID,
+                    "schedule_name": SCHEDULE_NAME,
+                    "project_root": str(root),
+                    "session_scope": "one-new-session-for-each-schedule-run",
                     "counting_policy": "30 successful substantive days; acceptance-only runs are excluded",
                     "last_scheduled_date": now_local().date().isoformat(),
                     "last_status": "running",

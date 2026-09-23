@@ -29,6 +29,8 @@ from wiki_knowledge_writeback import snapshot_knowledge, validate_writeback
 TIMEZONE = ZoneInfo("Asia/Shanghai")
 TOTAL_DAYS = 30
 CYCLE_NAME = "2026-09-30-day-substantive"
+SCHEDULE_ID = "wiki-daily-learning"
+SCHEDULE_NAME = "Wiki 30-day substantive daily learning"
 SESSION_MODE = "new-session-per-run"
 PHASES = (
     (1, 1, "baseline-and-research-contract"),
@@ -301,6 +303,8 @@ def render_prompt(paths: Paths, run_id: str, run_date: str, day_index: int) -> s
         "{{RUN_DATE}}": run_date,
         "{{DAY_INDEX}}": str(day_index),
         "{{PHASE}}": phase,
+        "{{SCHEDULE_ID}}": SCHEDULE_ID,
+        "{{SCHEDULE_NAME}}": SCHEDULE_NAME,
         "{{OUTPUT_DIR}}": str(paths.daily_root / f"{run_date}-run-{run_id.rsplit('-', 1)[-1]}"),
         "{{STATE_FILE}}": str(paths.state_file),
     }
@@ -363,6 +367,9 @@ def dry_run(
     return {
         "status": "cycle-complete" if cycle_complete else "dry-run-ok",
         "root": str(paths.root),
+        "schedule_id": SCHEDULE_ID,
+        "schedule_name": SCHEDULE_NAME,
+        "project_root": str(paths.root),
         "codex": shutil.which("codex"),
         "codex_home": str(codex_home),
         "session_mode": SESSION_MODE,
@@ -408,6 +415,9 @@ def main() -> int:
                     {
                         "status": "cycle-complete",
                         "cycle": CYCLE_NAME,
+                        "schedule_id": SCHEDULE_ID,
+                        "schedule_name": SCHEDULE_NAME,
+                        "project_root": str(root),
                         "counting_policy": "30 successful substantive days; acceptance-only runs are excluded",
                         "next_day_index": day_index,
                     },
@@ -434,10 +444,14 @@ def main() -> int:
             "day_index": day_index,
             "phase": phase,
             "cycle": CYCLE_NAME,
+            "schedule_id": SCHEDULE_ID,
+            "schedule_name": SCHEDULE_NAME,
+            "project_root": str(root),
             "run_kind": "substantive",
-            "counted_in_substantive_test": True,
+            "counted_in_substantive_test": False,
             "session_mode": SESSION_MODE,
             "session_reuse": False,
+            "session_scope": "one-new-session-for-each-schedule-run",
             "codex_home": str(validate_codex_home()),
             "status": "running",
             "started_at": datetime.now(TIMEZONE).isoformat(),
@@ -504,6 +518,7 @@ def main() -> int:
             receipt.update(
                 {
                     "status": "completed" if success else "failed-verification",
+                    "counted_in_substantive_test": success,
                     "exit_code": process.returncode,
                     "session_id": session_id,
                     "failure_reason": extract_failure_reason(lines),

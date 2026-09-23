@@ -37,6 +37,7 @@ Crossref、出版商和机构页面都是该计划的正常检索入口。Docker
 是执行边界，Gitee 是恢复远端；不得把容器内授权误写成宿主机或其它项目授权。
 证据分层、locator、可复现性和失败记录仍必须保留，模型结果不得冒充实验事实。
 当前 daily daemon 的模型优先级为 `gpt-6-luna/max → gpt-6-sol/high → gpt-6-astra/medium`；GPT-5.6 不再作为运行 fallback。
+每日 schedule 的稳定标识是 `wiki-daily-learning`，项目根目录为 `/workspace/wiki`；每次触发必须创建新 Codex session，并在 `run.json` 与 scheduler 事件中保存 session ID 和 resume 命令。Docker-local session 不自动等同于宿主机 GUI Scheduled 对象。
 
 ## 科学证据规则
 

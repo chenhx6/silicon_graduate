@@ -36,6 +36,12 @@ updated: 2026-09-06
 需要人工检查时只在容器内运行 `--dry-run`。Farmer 只处理 Codex rollout 的允许瞬时
 失败，不负责唤醒 daemon 或安排每日触发。
 
+该 daemon 提供的是 `wiki-daily-learning` 的 Docker-local schedule，与 Codex GUI
+的 Scheduled 列表不是同一个调度对象。Docker 隔离下，容器内 `/root/.codex` 的
+CLI session 不会自动注册到宿主机 GUI；`run.json` 和 scheduler JSONL 是本地
+schedule 的 canonical session index。用户需要查看某日对话时，在同一容器执行
+该回执中的 `resume_command`；GUI 列表中的 schedule 必须由 GUI/宿主机侧另行创建。
+
 ### 短时同线程续跑
 
 - 仅限 1 小时内；

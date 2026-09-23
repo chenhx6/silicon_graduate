@@ -21,6 +21,7 @@ updated: 2026-09-05
 - `PLAN.md` 仍由用户维护；每日任务不得改写、重排或机械扩展它。
 - 每日任务遵守 [`system/path-contract.md`](../path-contract.md)：日报、周报、审计、回执、调度状态和任务计划书写入 `outputs/`（计划书用 `outputs/plans/`），可复用知识增量必须写入 `knowledge/`；`docs/plans/` 不得重新创建。
 - 2026-09-23 起，Docker 内的 30 天实质学习周期得到用户明确授权：每日运行可自主推进 L1/L2/L3/L4，启用网络和 `danger-full-access`，并以 Gitee 作为容器外恢复远端。每次 runner 调用创建新的 Codex session；需要讨论或优化某日时，使用该日回执中的 `session_id` 和 `resume_command`。
+- 调度对象名为 `wiki-daily-learning`，项目根目录固定为 `/workspace/wiki`。这是 Docker-local schedule，不会自动出现在宿主机 Codex GUI 的 Scheduled 列表；`run.json` 与 scheduler JSONL 记录每次新 session，是本地 schedule 的 canonical session index。
 
 ## 来源阅读闭环
 

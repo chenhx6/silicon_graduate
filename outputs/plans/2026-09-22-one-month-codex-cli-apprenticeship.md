@@ -4,7 +4,7 @@
 
 **运行环境:** Docker 容器内 `/workspace/wiki`；Codex CLI `0.155.1`；Docker daemon 模型优先级 `gpt-6-luna/max → gpt-6-sol/high → gpt-6-astra/medium`；GPT-5.6 已废弃；Codex 状态目录 `/root/.codex`；时区 `Asia/Shanghai`；当前仓库分支 `main`。
 
-**规格来源:** `system/workflows/continuous-learning.md`、`system/workflows/autonomous-research.md`、`system/workflows/scheduled-continuation.md`、`PLAN.md` 和用户已确认的一个月训练设计。每日 runner 每次创建新的 Codex session；对应 `run.json` 保存 `session_id`、`session_mode` 和 `resume_command`。
+**规格来源:** `system/workflows/continuous-learning.md`、`system/workflows/autonomous-research.md`、`system/workflows/scheduled-continuation.md`、`PLAN.md` 和用户已确认的一个月训练设计。每日 schedule ID 为 `wiki-daily-learning`，项目根目录为 `/workspace/wiki`；每次触发创建新的 Codex session，对应 `run.json` 保存 `session_id`、`session_mode`、`schedule_id`、`project_root` 和 `resume_command`。这是 Docker-local schedule，不自动注册为宿主机 Codex GUI Scheduled 任务。
 
 博士论文导向的扩展规格见 [`2026-09-22-a130-triaxial-thesis-pipeline.md`](2026-09-22-a130-triaxial-thesis-pipeline.md)。每日训练同时承担课程能力和 A≈130 证据资产积累。
 

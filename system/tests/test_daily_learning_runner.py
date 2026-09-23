@@ -65,6 +65,8 @@ class DailyLearningRunnerTests(unittest.TestCase):
         self.assertEqual(result["day_index"], int(state.get("next_day_index", 1)))
         self.assertIn("danger-full-access", result["command"])
         self.assertEqual(result["session_mode"], "new-session-per-run")
+        self.assertEqual(result["schedule_id"], "wiki-daily-learning")
+        self.assertEqual(result["project_root"], str(REPO_ROOT))
         self.assertTrue(result["codex_home"])
         self.assertFalse(result["cycle_complete"])
 
