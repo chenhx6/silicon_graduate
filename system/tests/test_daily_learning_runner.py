@@ -23,9 +23,9 @@ class DailyLearningRunnerTests(unittest.TestCase):
 
     def test_build_command_uses_full_access_search_and_new_session_exec(self) -> None:
         command = run_daily_learning.build_command(
-            Path("/workspace/wiki"), "gpt-5.6-sol", Path("/tmp/last.md"), True
+            Path("/workspace/wiki"), "gpt-6-luna", Path("/tmp/last.md"), True
         )
-        self.assertEqual(command[:8], ["codex", "-C", "/workspace/wiki", "-m", "gpt-5.6-sol", "-s", "danger-full-access", "-a"])
+        self.assertEqual(command[:8], ["codex", "-C", "/workspace/wiki", "-m", "gpt-6-luna", "-s", "danger-full-access", "-a"])
         self.assertIn("never", command)
         self.assertIn("--search", command)
         self.assertIn("exec", command)
@@ -59,7 +59,7 @@ class DailyLearningRunnerTests(unittest.TestCase):
     def test_dry_run_checks_root_prompt_and_returns_command(self) -> None:
         paths = run_daily_learning.get_paths(REPO_ROOT)
         with patch.object(run_daily_learning.shutil, "which", return_value="/usr/bin/codex"):
-            result = run_daily_learning.dry_run(paths, "gpt-5.6-sol", True)
+            result = run_daily_learning.dry_run(paths, "gpt-6-luna", True)
         self.assertEqual(result["status"], "dry-run-ok")
         state = run_daily_learning.read_state(paths.state_file)
         self.assertEqual(result["day_index"], int(state.get("next_day_index", 1)))
@@ -164,7 +164,7 @@ class DailyLearningRunnerTests(unittest.TestCase):
                 {"next_day_index": 31, "status": "complete"},
             )
             with patch.object(run_daily_learning.shutil, "which", return_value="/usr/bin/codex"):
-                result = run_daily_learning.dry_run(paths, "gpt-5.6-sol", True)
+                result = run_daily_learning.dry_run(paths, "gpt-6-luna", True)
             self.assertEqual(result["status"], "cycle-complete")
             self.assertIsNone(result["phase"])
 

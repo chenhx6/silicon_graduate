@@ -72,7 +72,7 @@ class DailyLearningDaemonTests(unittest.TestCase):
 
     def test_build_runner_command_is_docker_local(self) -> None:
         command = run_daily_learning_daemon.build_runner_command(
-            Path("/workspace/wiki"), "gpt-5.6-sol", False, "max"
+            Path("/workspace/wiki"), "gpt-6-luna", False, "max"
         )
         self.assertEqual(command[:4], [sys.executable, "/workspace/wiki/system/scripts/run_daily_learning.py", "--root", "/workspace/wiki"])
         self.assertIn("--day-index", command)
@@ -82,13 +82,13 @@ class DailyLearningDaemonTests(unittest.TestCase):
         self.assertNotIn("docker", " ".join(command).lower())
         self.assertNotIn("powershell", " ".join(command).lower())
 
-    def test_model_priority_is_astra_sol_terra(self) -> None:
+    def test_model_priority_is_luna_sol_astra(self) -> None:
         self.assertEqual(
             run_daily_learning_daemon.MODEL_PRIORITY,
             (
-                ("gpt-6-astra", "low"),
-                ("gpt-5.6-sol", "max"),
-                ("gpt-5.6-terra", "max"),
+                ("gpt-6-luna", "max"),
+                ("gpt-6-sol", "high"),
+                ("gpt-6-astra", "medium"),
             ),
         )
 
@@ -129,14 +129,14 @@ class DailyLearningDaemonTests(unittest.TestCase):
             ) as run:
                 result = run_daily_learning_daemon.run_profile_chain(
                     root,
-                    (("gpt-6-astra", "low"), ("gpt-5.6-sol", "max")),
+                    (("gpt-6-luna", "max"), ("gpt-6-sol", "high")),
                     False,
                     log_path,
                 )
             self.assertEqual(result["exit_code"], 0)
             self.assertEqual(run.call_count, 2)
-            self.assertIn("gpt-6-astra", " ".join(run.call_args_list[0].args[0]))
-            self.assertIn("gpt-5.6-sol", " ".join(run.call_args_list[1].args[0]))
+            self.assertIn("gpt-6-luna", " ".join(run.call_args_list[0].args[0]))
+            self.assertIn("gpt-6-sol", " ".join(run.call_args_list[1].args[0]))
             events = [json.loads(line) for line in log_path.read_text().splitlines()]
             self.assertIn("model-fallback", [event["event"] for event in events])
 
@@ -147,7 +147,7 @@ class DailyLearningDaemonTests(unittest.TestCase):
             completed = type("Completed", (), {"returncode": 0, "stdout": "{}\n", "stderr": ""})()
             with patch.object(run_daily_learning_daemon.subprocess, "run", return_value=completed) as run:
                 result = run_daily_learning_daemon.run_once(
-                    root, "gpt-5.6-sol", False, log_path
+                    root, "gpt-6-luna", False, log_path
                 )
             self.assertEqual(result, 0)
             run.assert_called_once()
@@ -170,7 +170,7 @@ class DailyLearningDaemonTests(unittest.TestCase):
             completed = type("Completed", (), {"returncode": 0, "stdout": stdout, "stderr": ""})()
             with patch.object(run_daily_learning_daemon.subprocess, "run", return_value=completed):
                 result = run_daily_learning_daemon.run_once_result(
-                    root, "gpt-6-astra", False, log_path, "low"
+                    root, "gpt-6-astra", False, log_path, "medium"
                 )
             self.assertEqual(result["exit_code"], 0)
             events = [json.loads(line) for line in log_path.read_text().splitlines()]

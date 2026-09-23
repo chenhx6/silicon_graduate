@@ -49,6 +49,7 @@ updated: 2026-09-10
 - 2026-09-23 路径契约固化：`raw/` 原始材料，`knowledge/` 长期知识，`outputs/` 交代性输出与 `outputs/plans/` 任务计划书，`system/` 治理执行，`tools/` 外部工具，`tmp/` 临时数据；`docs/plans/` 禁止重新创建。输出中的可复用知识必须同步回写 `knowledge/`，QMD 仅索引 `knowledge/**/*.md`；`wiki_boundary_check.py` 由 automation preflight 调用。
 - 2026-09-23 用户确认：日报 runner 每次用新的 `codex exec` session，不复用固定 session；`run.json` 必须保存 `session_id`、`session_mode` 和可复制的 `resume_command`，便于按日恢复讨论。2026-09-22 的 Day 1/Day 2 仅作为 Docker/runner 实例验收，全部标记为 `acceptance-only`，不计入新的 30 个实质成功日；状态从 `next_day_index: 1` 重新开始。
 - 2026-09-23 用户确认：30 天 daily-learning 允许联网使用 arXiv、NNDC/ENSDF、Google Scholar、Crossref、出版商和机构页面，并可自主进入 L1/L2/L3/L4；容器内使用 Codex `danger-full-access`，Gitee 作为恢复远端。证据 locator、来源分层和可复现失败检查仍须记录。
+- 2026-09-23 用户更新模型偏好：daily daemon 优先使用 `gpt-6-luna` reasoning `max`，失败时回退到 `gpt-6-sol` `high`，再回退到 `gpt-6-astra` `medium`；GPT-5.6 系列从 daily-learning fallback 中废弃。
 
 ## 用户纠正记录
 

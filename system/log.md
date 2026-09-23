@@ -1343,3 +1343,8 @@ updated: 2026-07-15
 - Confirmed that each `codex exec` invocation creates a new session; added `session_mode`, `session_reuse`, `session_id` and a reproducible `resume_command` to daily receipts and scheduler events.
 - Reclassified all 2026-09-22 Day 1/Day 2 runner attempts as `acceptance-only`; reset the substantive state to `next_day_index: 1` for 30 successful substantive days.
 - Authorized the Docker daily plan to use network sources (arXiv, NNDC/ENSDF, Google Scholar, Crossref and publisher/institution pages), `danger-full-access`, and autonomous L1–L4 work; updated the prompt, workflows, guides, checklist and plan.
+
+## [2026-09-23] daily-learning | migrate model fallback to GPT-6
+
+- Updated the Docker daemon priority to `gpt-6-luna/max → gpt-6-sol/high → gpt-6-astra/medium`; GPT-5.6 is no longer used for daily-learning fallback.
+- Updated the runner default, plan, script guide, AGENTS model note and regression tests. Historical receipts and reliability entries retain the model that actually ran them.

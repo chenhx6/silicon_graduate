@@ -36,6 +36,7 @@ runner 调用都是新的 Codex session，回执必须保存 `session_id` 和可
 Crossref、出版商和机构页面都是该计划的正常检索入口。Docker 与 `/workspace/wiki`
 是执行边界，Gitee 是恢复远端；不得把容器内授权误写成宿主机或其它项目授权。
 证据分层、locator、可复现性和失败记录仍必须保留，模型结果不得冒充实验事实。
+当前 daily daemon 的模型优先级为 `gpt-6-luna/max → gpt-6-sol/high → gpt-6-astra/medium`；GPT-5.6 不再作为运行 fallback。
 
 ## 科学证据规则
 

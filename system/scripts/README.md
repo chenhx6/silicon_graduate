@@ -68,7 +68,9 @@ daemon 只调用同一容器内的 `run_daily_learning.py`，默认在
 `Asia/Shanghai` 每日 22:00 触发；每次 runner 调用都会启动新的 `codex exec`
 session，不复用固定 session。`run.json` 保存 `session_id`、
 `session_mode: new-session-per-run` 和可直接复制的 `resume_command`；scheduler
-事件也记录这些字段。计划已授权网络检索、`danger-full-access` 和 L1–L4 工作。
+事件也记录这些字段。计划已授权网络检索、`danger-full-access` 和 L1–L4 工作；
+模型优先级为 `gpt-6-luna/max → gpt-6-sol/high → gpt-6-astra/medium`，GPT-5.6
+不再作为 fallback。
 不读取 Docker socket、不调用 PowerShell、不创建宿主机 scheduler。`--once` 仅用于容器内显式测试，不能替代常驻调度。
 
 runner 在日报标题检查之外，还验证 `## Durable knowledge delta` 中唯一的

@@ -2,7 +2,7 @@
 
 **目标:** 在 30 次成功的实质每日学习运行中，让硅基研究生形成可检查的核结构研究闭环：理论理解、实验谱学判读、证据审计、反证搜索、可复现小练习和独立研究问题设计。2026-09-22 的 Day 1/Day 2 运行只作 Docker/runner 实例验收，不计入这 30 天；正式周期从新的 `day_index: 1` 开始。
 
-**运行环境:** Docker 容器内 `/workspace/wiki`；Codex CLI `0.155.1`；Docker daemon 模型优先级 `gpt-6-astra/low → gpt-5.6-sol/max → gpt-5.6-terra/max`；Codex 状态目录 `/root/.codex`；时区 `Asia/Shanghai`；当前仓库分支 `main`。
+**运行环境:** Docker 容器内 `/workspace/wiki`；Codex CLI `0.155.1`；Docker daemon 模型优先级 `gpt-6-luna/max → gpt-6-sol/high → gpt-6-astra/medium`；GPT-5.6 已废弃；Codex 状态目录 `/root/.codex`；时区 `Asia/Shanghai`；当前仓库分支 `main`。
 
 **规格来源:** `system/workflows/continuous-learning.md`、`system/workflows/autonomous-research.md`、`system/workflows/scheduled-continuation.md`、`PLAN.md` 和用户已确认的一个月训练设计。每日 runner 每次创建新的 Codex session；对应 `run.json` 保存 `session_id`、`session_mode` 和 `resume_command`。
 
@@ -27,7 +27,8 @@
 cd /workspace/wiki
 codex \
   -C /workspace/wiki \
-  -m gpt-5.6-sol \
+  -m gpt-6-luna \
+  -c model_reasoning_effort=max \
   -s danger-full-access \
   -a never \
   --search \
@@ -60,7 +61,8 @@ RUN_DATE="$(TZ=Asia/Shanghai date +%F)"
 mkdir -p "/workspace/wiki/outputs/learning-daily/$RUN_DATE"
 codex \
   -C /workspace/wiki \
-  -m gpt-5.6-sol \
+  -m gpt-6-luna \
+  -c model_reasoning_effort=max \
   -s danger-full-access \
   -a never \
   --search \

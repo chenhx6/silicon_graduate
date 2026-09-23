@@ -26,7 +26,7 @@ Verification: boundary check 通过（六类目录齐全、`docs/plans/` 缺失�
 
 Preserved: `system/scripts/run_daily_learning.py` 的既有未提交修改、raw/临时目录、未跟踪 daily run receipts 和 `outputs/plans/` 运行计划未纳入本轮 staged scope；本轮不修改 raw、PLAN、protected BibTeX 或宿主机状态。
 
-Next: 路径契约与结构化 durable knowledge gate 已通过发布门；后续每日运行必须生成并通过 `knowledge-writeback` 区块验收。若后续发布失败保留本地 final 并记录 `final-not-pushed`。每日 daemon 仍只在 Docker 内运行，模型优先级保持 Astra low → Sol max → Terra max。
+Next: 路径契约与结构化 durable knowledge gate 已通过发布门；后续每日运行必须生成并通过 `knowledge-writeback` 区块验收。若后续发布失败保留本地 final 并记录 `final-not-pushed`。每日 daemon 仍只在 Docker 内运行，模型优先级为 `gpt-6-luna/max → gpt-6-sol/high → gpt-6-astra/medium`，GPT-5.6 不再作为 fallback。
 
 ## 2026-09-22 Day 2 shell-gap run 06
 
