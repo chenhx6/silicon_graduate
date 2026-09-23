@@ -6,10 +6,16 @@ updated: 2026-09-22
 
 # 跨会话交接
 
+## 2026-09-22 Day 2 shell-gap run 06
+
+Day 2 shell-layer exercise completed in `outputs/learning-daily/2026-09-22.md` for run `2026-09-22-day-02-06`. Anchor sources were Haxel–Jensen–Suess 1949 and Ragnarsson–Nilsson–Sheline 1978; the report preserves active recall, a shell-gap/orbital/observable mapping, a quantitative occupancy cross-check, counter-evidence, and the L0–L2 boundary. Durable artifact: [[a130-shell-gap-orbital-observable]]. No raw inputs, PLAN or protected BibTeX changed.
+
+Next continuation: `继续 Day 3：回忆 mean field、cranked mean field、HFB 与角动量投影的输入输出；再以 [[aberg-flocard-nazarewicz-1990-mean-field-shapes]] 和 [[hara-sun-1995-projected-shell-model-high-spin]] 做一个模型选择卡，明确计算结果不能直接当实验事实。`
+
 ## 2026-09-22 Day 1 baseline run 05
 
 Current active task:
-Day 1 baseline-and-research-contract completed in `outputs/learning-daily/2026-09-22.md` for acceptance retry `2026-09-22-day-01-05`. The report preserves the Ding `127/128I` full-line evidence audit, active recall, level-scheme arithmetic, counter-evidence and L0–L2 boundary, and includes the hard durable-delta section. Durable matrix artifact: `outputs/learning-milestones/2026-09-a130-thesis-evidence-matrix.md`.
+Day 1 baseline-and-research-contract completed in `outputs/learning-daily/2026-09-22.md` for acceptance retry `2026-09-22-day-01-05`. The report preserves the Ding `127/128I` full-line evidence audit, active recall, level-scheme arithmetic, counter-evidence and L0–L2 boundary, and includes the hard durable-delta section. Durable matrix artifact: `knowledge/projects/a130-thesis-evidence-matrix.md`.
 
 State:
 No knowledge/source page, raw input, PLAN, protected BibTeX or unrelated dirty file was changed. L3/L4 were not started; missing polarization, lifetimes, absolute strengths and complete response/data packages remain explicit. Final verification is recorded below after the report write.

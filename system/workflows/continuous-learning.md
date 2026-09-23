@@ -92,9 +92,9 @@ python3 system/scripts/run_daily_learning_daemon.py --root /workspace/wiki
 
 ## 持久化产物
 
-每日记录写入 [`outputs/learning-daily/`](../../outputs/learning-daily/)；实质记录至少包含：运行日期/时区、主题与候选池、每个问题的选择理由、来源指纹与重叠、checkpoint、关键 claim/locator/证据层、支持与反证、链接增量、Knowledge Impact and Learning Decision、开放问题、停止/续跑原因、L0–L4 状态和 Git/权限结果。无实质新知时写短的 verified no-op receipt，不制造空提交。
+每日记录写入 [`outputs/learning-daily/`](../../outputs/learning-daily/)；实质记录至少包含：运行日期/时区、主题与候选池、每个问题的选择理由、来源指纹与重叠、checkpoint、关键 claim/locator/证据层、支持与反证、链接增量、Knowledge Impact and Learning Decision、开放问题、停止/续跑原因、L0–L4 状态和 Git/权限结果。可复用的知识增量必须写入 `knowledge/` 的 source、project、synthesis、question 或 research-note 页面；outputs 只保存日报、周报、审计、回执和运行状态。无实质新知时写短的 verified no-op receipt，不制造空提交。
 
-每周写入 [`outputs/learning-weekly/`](../../outputs/learning-weekly/)：覆盖范围、互链缺口、反证、独立性、下一批候选和 belief revision；不以固定论文数达标。阶段里程碑和矩阵写入 [`outputs/learning-milestones/`](../../outputs/learning-milestones/)。QMD 只在多篇完成、跨来源综合或明确需要时批量刷新；单篇完成可记录 deferred。
+每周写入 [`outputs/learning-weekly/`](../../outputs/learning-weekly/)：覆盖范围、互链缺口、反证、独立性、下一批候选和 belief revision；不以固定论文数达标。阶段报告、调度状态和运行回执写入 `outputs/learning-milestones/`；论文证据矩阵、研究地图和其它可复用知识写入 `knowledge/`。QMD 只在多篇完成、跨来源综合或明确需要时批量刷新；单篇完成可记录 deferred。
 
 ## Git–学习双轨与发布门
 

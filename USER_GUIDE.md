@@ -9,10 +9,10 @@
 ## 1. 目录怎么理解
 
 ```text
-raw/         原始论文、笔记、图像和数据；默认由你管理，Agent 仅管理约定的 gpt 文献入口
-knowledge/   经过证据化整理的科研知识；Agent 维护，你审阅
+raw/         原始论文、手稿、笔记、图像和数据；默认由你管理，Agent 仅管理约定的 gpt 文献入口
+knowledge/   Wiki 的长期知识大脑：source、核素/能带、实验、方法、模型、project、synthesis 和可复用研究矩阵
 system/      schema、模板、流程、记忆、日志和交接状态
-outputs/     审计、报告、文章草稿和演示产物
+outputs/     日报、周报、审计、回执和其它过程报告；不作为长期知识检索层
 ```
 
 最重要的入口：
@@ -29,7 +29,7 @@ Wiki 可在不同操作系统和 AI 工具环境中使用；`.codex/`、`.obsidi
 
 完整 L0–L4、每周自测、P0/P1 和人工关口只在 [autonomous-research workflow](system/workflows/autonomous-research.md) 维护。常用触发示例：`摄入 <文献>` 默认完成 L0–L2；`开始 L3 研究：<问题>` 启动课题调查；L4 必须先有数据候选并由你发送 `开始 <项目> L4：数据=<Wiki 内路径>`。`:danger-full-access` 只是终端运行权限，不是科学自治等级。每周自测有实质变化时先建立本地 WIP 和集中 P0/P1 报告，经你审核后才发布。
 
-90 天持续学习由 [continuous-learning workflow](system/workflows/continuous-learning.md) 和 [learning queue](system/learning-queue.md) 管理。Docker 内 daemon 每日 22:00（Asia/Shanghai）触发独立任务；2–3 小时是 checkpoint，不是硬停止，不限制主题或论文数量；达到里程碑或信息增益下降才收敛。若 Git、网络或认证失败，任务仍可写回安全的知识页和学习记录并标为 `content-complete / final-not-pushed`，不会伪造已发布。
+90 天持续学习由 [continuous-learning workflow](system/workflows/continuous-learning.md) 和 [learning queue](system/learning-queue.md) 管理。Docker 内 daemon 每日 22:00（Asia/Shanghai）触发独立任务；2–3 小时是 checkpoint，不是硬停止，不限制主题或论文数量；达到里程碑或信息增益下降才收敛。可复用知识增量写入 `knowledge/`，日报和运行交代写入 `outputs/`。若 Git、网络或认证失败，任务仍可写回安全的知识页和学习记录并标为 `content-complete / final-not-pushed`，不会伪造已发布。
 - `system/log.md`：只追加的操作历史；
 - `check.md`：系统与科学质量检查。
 

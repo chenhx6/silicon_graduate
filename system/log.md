@@ -11,6 +11,11 @@ updated: 2026-07-15
 
 `## [YYYY-MM-DD HH:MM] operation | description`
 
+## [2026-09-23] architecture | move durable learning knowledge into knowledge
+
+- Migrated the Day 1 thesis evidence matrix and Day 2 shell-gap bridge into `knowledge/projects/`; removed the duplicate matrix from `outputs/learning-milestones/`.
+- Clarified the repository contract: `knowledge/` is the long-term searchable knowledge brain; `outputs/` contains reports, audits, receipts, scheduler state and other process handoffs. QMD now indexes the migrated project pages.
+
 ## [2026-09-22] research | add thesis-oriented durable knowledge gate
 
 - Extended the one-month learning contract toward the A≈130 triaxial collective-mode dissertation: each run now requires a durable knowledge delta, and Day 1 produced the first thesis evidence matrix covering `127I`, `128I` and the `131Ce` continuity contract.

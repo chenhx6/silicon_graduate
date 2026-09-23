@@ -28,7 +28,7 @@ This page tracks pending local WIP/review tasks that still need follow-up work. 
 ### 90-day continuous nuclear-structure learning: 2026-09-05–2026-12-03
 - status: framework-ready; daily 22:00 Asia/Shanghai project automation `wiki` is ACTIVE; content and Git publication are explicitly decoupled
 - scope: four phases, dynamic multi-topic/multi-source reading, graph closure, thematic REFLECT, daily/weekly/milestone records; seed corpus is the 15-dissertation batch
-- files: `system/workflows/continuous-learning.md`, `system/learning-queue.md`, `outputs/learning-daily/`, `outputs/learning-weekly/`, `outputs/learning-milestones/`, README/user-guide/check updates
+- files: `system/workflows/continuous-learning.md`, `system/learning-queue.md`, `knowledge/` durable learning assets, `outputs/learning-daily/`, `outputs/learning-weekly/`, `outputs/learning-milestones/`, README/user-guide/check updates
 - next action: first run starts with dissertation graph closure and cross-mass-region comparison; write a daily record, then select the highest-information-gap problem
 - Git gate: if network or remote publication fails, keep Wiki content write-back and record `content-complete / final-not-pushed`
 

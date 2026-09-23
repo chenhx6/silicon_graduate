@@ -406,6 +406,8 @@ updated: 2026-09-21
 
 ## Projects
 
+- [[a130-thesis-evidence-matrix]] - A≈130 博士论文管线的持久证据矩阵；保存可复用的观测、判据、解释边界、必要伴随观测和 source lineage。
+- [[a130-shell-gap-orbital-observable]] - Day 2 的壳层闭合、形变壳隙、轨道组态与 A≈130 观测量桥接页。
 - [[131ce-collective-mode-discrimination]] - 以 Alwaleedi 纲图为基线，比较 `131Ce/133Ce` 的 configuration coupling、γ-soft core、wobbling、chirality 与 shape coexistence。
 - [[nuclear-chirality-and-multiple-chiral-doublet-bands]] - 连接核手征理论、`133Ce`/`78Br` MχD 实验、shape coexistence 与 octupole correlations 的 evidence map。
 - [[a130-high-spin-collective-modes-evidence-map]] - 连接 A≈130 sources、竞争解释与后续数据处理结果的轻量工作台。

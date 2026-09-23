@@ -85,7 +85,9 @@ existing review status. Update the active handoff only with a concise recoverabl
 `## Durable knowledge delta` is a hard acceptance section. It must name at least one
 concrete artifact path and describe what reusable evidence, matrix row, calculation,
 question revision or verified no-op was produced. For Day 1, the thesis evidence matrix
-path is `outputs/learning-milestones/2026-09-a130-thesis-evidence-matrix.md`.
+path is `knowledge/projects/a130-thesis-evidence-matrix.md`; future durable knowledge
+deltas must be written under the appropriate `knowledge/` source, project, synthesis,
+question or research-note page.
 
 Before ending:
 

@@ -45,7 +45,7 @@ A≈130 是当前研究锚点，不是 Wiki 的收录边界。v2 的设计决策
 | 论文级证据门 | [system/paper-evidence-gate.md](system/paper-evidence-gate.md) |
 | 完整人工检查 | [check.md](check.md) |
 
-日常主要浏览 `knowledge/`。`raw/` 保存原始证据，`system/` 保存规则与执行交接，`outputs/` 保存审计和写作产物。
+日常主要浏览 `knowledge/`：它是 Wiki 的长期知识大脑，保存 source、实体、方法、模型、project、synthesis 和可复用研究矩阵。`raw/` 只保存原始材料，`system/` 保存规则与执行交接，`outputs/` 只保存日报、周报、审计、回执和其它过程报告。
 
 推荐流程：
 

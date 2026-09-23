@@ -14,6 +14,11 @@ tags: [a130, high-spin, evidence-map, data-analysis, project]
 
 # A≈130 High-Spin Collective Modes Evidence Map
 
+## Durable learning assets
+
+- [[a130-thesis-evidence-matrix]] - persistent thesis evidence rows and necessary-observable boundaries.
+- [[a130-shell-gap-orbital-observable]] - shell-gap, orbital-assignment and observable bridge for the dissertation pipeline.
+
 ## 2026 high-spin corpus reconciliation
 
 The expanded corpus adds a method backbone and several counterexamples that sharpen this map. `Mukhopadhyay 2008` and `Petrache 2006` require partner-resolved electromagnetic strengths and crossing checks before near-degenerate A≈130 bands are called chiral. The direct `144Ba` E3 result and the `137Ba` double-γ pair provide cross-mass observables for testing how model labels relate to measured transition amplitudes. Detailed cross-source comparisons are in [[high-spin-lifetime-strength-deformation]], [[chirality-wobbling-competition-evidence]] and [[octupole-and-rare-electromagnetic-decay]].
