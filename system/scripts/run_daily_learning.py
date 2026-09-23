@@ -295,9 +295,17 @@ def run_preflight(root: Path) -> dict[str, Any]:
     }
 
 
-def render_prompt(paths: Paths, run_id: str, run_date: str, day_index: int) -> str:
+def render_prompt(
+    paths: Paths,
+    run_id: str,
+    run_date: str,
+    day_index: int,
+    mode: str = "daily-learning",
+    prompt_file: Path | None = None,
+) -> str:
     phase = phase_for_day(day_index)
-    template = paths.prompt_file.read_text(encoding="utf-8")
+    template_path = prompt_file or paths.prompt_file
+    template = template_path.read_text(encoding="utf-8")
     substitutions = {
         "{{RUN_ID}}": run_id,
         "{{RUN_DATE}}": run_date,
@@ -310,6 +318,18 @@ def render_prompt(paths: Paths, run_id: str, run_date: str, day_index: int) -> s
     }
     for old, new in substitutions.items():
         template = template.replace(old, new)
+    if mode == "acceptance":
+        template += """
+
+## Acceptance-only execution contract
+
+This is a Day 1 instance acceptance run, not a substantive learning day. Do not
+advance the 30-day state, do not claim formal Day 1 completion, and do not create
+duplicate scientific knowledge when the canonical artifact already exists. Prefer a
+grounded `verified-no-op` writeback with one exact atomic locator per source reference
+if the required artifact is already present. The run must still produce all required
+report headings and a resumable session receipt.
+"""
     return template
 
 
@@ -352,6 +372,7 @@ def dry_run(
     model: str,
     enable_search: bool,
     reasoning_effort: str | None = None,
+    mode: str = "daily-learning",
 ) -> dict[str, Any]:
     validate_root(paths.root)
     codex_home = validate_codex_home()
@@ -373,6 +394,7 @@ def dry_run(
         "codex": shutil.which("codex"),
         "codex_home": str(codex_home),
         "session_mode": SESSION_MODE,
+        "mode": mode,
         "day_index": day_index,
         "phase": None if cycle_complete else phase_for_day(day_index),
         "command": build_command(
@@ -392,24 +414,43 @@ def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--root", type=Path, default=Path.cwd())
     parser.add_argument("--day-index", default="auto")
-    parser.add_argument("--mode", choices=["daily-learning"], default="daily-learning")
+    parser.add_argument("--mode", choices=["daily-learning", "acceptance"], default="daily-learning")
     parser.add_argument("--model", default="gpt-6-luna")
     parser.add_argument("--reasoning-effort", choices=["low", "medium", "high", "max"], default="max")
     parser.add_argument("--no-search", action="store_true")
+    parser.add_argument("--prompt-file", type=Path, default=None)
+    parser.add_argument("--prepare-prompt", type=Path, default=None)
     parser.add_argument("--dry-run", action="store_true")
     args = parser.parse_args()
 
     root = args.root.resolve()
     paths = get_paths(root)
     try:
-        result = dry_run(paths, args.model, not args.no_search, args.reasoning_effort)
+        result = dry_run(paths, args.model, not args.no_search, args.reasoning_effort, args.mode)
         if args.dry_run:
             print(json.dumps(result, ensure_ascii=False, indent=2))
             return 0
         validate_root(root)
         state = read_state(paths.state_file)
         day_index = int(state.get("next_day_index", 1)) if args.day_index == "auto" else int(args.day_index)
-        if state.get("status") == "complete" or day_index > TOTAL_DAYS:
+        if args.prepare_prompt is not None:
+            if args.day_index == "auto":
+                day_index = int(state.get("next_day_index", 1))
+            prompt_date = local_date()
+            prompt_run_id = f"prompt-{prompt_date}-day-{day_index:02d}"
+            prompt = render_prompt(paths, prompt_run_id, prompt_date, day_index, args.mode)
+            prompt_path = args.prepare_prompt.resolve()
+            prompt_path.relative_to(root)
+            prompt_path.parent.mkdir(parents=True, exist_ok=True)
+            prompt_path.write_text(prompt, encoding="utf-8")
+            print(json.dumps({
+                "status": "prompt-prepared",
+                "mode": args.mode,
+                "day_index": day_index,
+                "prompt_file": str(prompt_path),
+            }, ensure_ascii=False, indent=2))
+            return 0
+        if args.mode != "acceptance" and (state.get("status") == "complete" or day_index > TOTAL_DAYS):
             print(
                 json.dumps(
                     {
@@ -437,6 +478,7 @@ def main() -> int:
         events_path = run_dir / "events.jsonl"
         stderr_path = run_dir / "stderr.log"
         last_message = run_dir / "last-message.md"
+        run_kind = "acceptance-only" if args.mode == "acceptance" else "substantive"
         receipt = {
             "schema_version": 1,
             "run_id": run_id,
@@ -447,7 +489,8 @@ def main() -> int:
             "schedule_id": SCHEDULE_ID,
             "schedule_name": SCHEDULE_NAME,
             "project_root": str(root),
-            "run_kind": "substantive",
+            "run_kind": run_kind,
+            "acceptance_only": args.mode == "acceptance",
             "counted_in_substantive_test": False,
             "session_mode": SESSION_MODE,
             "session_reuse": False,
@@ -480,7 +523,11 @@ def main() -> int:
                 print(json.dumps(receipt, ensure_ascii=False, indent=2))
                 return 3
             knowledge_before = snapshot_knowledge(root)
-            prompt = render_prompt(paths, run_id, run_date, day_index)
+            prompt = render_prompt(paths, run_id, run_date, day_index, args.mode, args.prompt_file)
+            prompt_path = run_dir / "prompt.md"
+            prompt_path.write_text(prompt, encoding="utf-8")
+            receipt["prompt_file"] = str(prompt_path)
+            write_json_atomic(run_dir / "run.json", receipt)
             command = build_command(
                 root,
                 args.model,
@@ -518,7 +565,7 @@ def main() -> int:
             receipt.update(
                 {
                     "status": "completed" if success else "failed-verification",
-                    "counted_in_substantive_test": success,
+                    "counted_in_substantive_test": success and args.mode == "daily-learning",
                     "exit_code": process.returncode,
                     "session_id": session_id,
                     "failure_reason": extract_failure_reason(lines),
@@ -526,7 +573,7 @@ def main() -> int:
                     "finished_at": datetime.now(TIMEZONE).isoformat(),
                 }
             )
-            if success:
+            if success and args.mode == "daily-learning":
                 state.update(
                     {
                         "schema_version": 1,

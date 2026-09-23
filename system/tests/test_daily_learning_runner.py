@@ -78,6 +78,18 @@ class DailyLearningRunnerTests(unittest.TestCase):
             self.assertFalse(result["valid"])
             self.assertIn("## Sources and evidence", result["missing_headings"])
 
+    def test_acceptance_prompt_marks_run_non_counting_and_atomic(self) -> None:
+        paths = run_daily_learning.get_paths(REPO_ROOT)
+        prompt = run_daily_learning.render_prompt(
+            paths,
+            "2026-09-24-day-01-01",
+            "2026-09-24",
+            1,
+            mode="acceptance",
+        )
+        self.assertIn("Acceptance-only execution contract", prompt)
+        self.assertIn("exact atomic locator", prompt)
+
     def test_report_signature_changes_when_report_changes(self) -> None:
         with tempfile.TemporaryDirectory() as directory:
             path = Path(directory) / "daily.md"

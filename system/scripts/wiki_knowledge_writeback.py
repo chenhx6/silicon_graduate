@@ -114,7 +114,11 @@ def validate_writeback(
                 source = _knowledge_file(root, reference.get("path"), source=True)
                 locator = _text(reference.get("locator"), "source locator/claim ID")
                 if locator not in source.read_text(encoding="utf-8-sig"):
-                    raise ValueError(f"locator/claim ID not found in {reference['path']}: {locator}")
+                    raise ValueError(
+                        f"locator/claim ID not found in {reference['path']}: {locator}; "
+                        "use one exact atomic locator per source reference and keep "
+                        "combined claim IDs or page ranges in summary/note"
+                    )
                 # A source page can be its own durable target. Other targets must
                 # themselves link to this source, not only the output report.
                 linked = re.search(r"\[\[(?:knowledge/)?(?:sources/)?" + re.escape(source.stem)

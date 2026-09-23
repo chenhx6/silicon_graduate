@@ -97,8 +97,7 @@ def build_runner_command(
     reasoning_effort: str | None = None,
 ) -> list[str]:
     command = [
-        sys.executable,
-        str(root / "system" / "scripts" / "run_daily_learning.py"),
+        str(root / "system" / "scripts" / "run_daily_learning_schedule.sh"),
         "--root",
         str(root),
         "--day-index",

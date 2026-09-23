@@ -90,6 +90,41 @@ class KnowledgeWritebackTests(unittest.TestCase):
         self.assertFalse(result["valid"])
         self.assertIn("locator/claim ID not found", result["error"])
 
+    def test_composite_locator_explains_atomic_references(self) -> None:
+        self.write_report("verified-no-op")
+        text = self.report.read_text(encoding="utf-8").replace(
+            "SRC-1", "SRC-1, SRC-2 (PDF pp.1-2)"
+        )
+        self.report.write_text(text, encoding="utf-8")
+        result = validate_writeback(self.report, self.root)
+        self.assertFalse(result["valid"])
+        self.assertIn("atomic", result["error"].lower())
+
+    def test_multiple_atomic_locators_are_accepted(self) -> None:
+        block = {
+            "status": "verified-no-op",
+            "reason": "Checked three independent locators.",
+            "items": [
+                {
+                    "knowledge": "knowledge/projects/example.md",
+                    "summary": "Atomic locator mapping.",
+                    "anchor": "New anchor sentence.",
+                    "sources": [
+                        {"path": "knowledge/sources/example-source.md", "locator": "SRC-1"},
+                        {"path": "knowledge/sources/example-source.md", "locator": "SRC-1"},
+                    ],
+                }
+            ],
+        }
+        self.report.write_text(
+            "## Durable knowledge delta\n\n```knowledge-writeback\n"
+            + json.dumps(block, ensure_ascii=False, indent=2)
+            + "\n```\n",
+            encoding="utf-8",
+        )
+        result = validate_writeback(self.report, self.root, before=snapshot_knowledge(self.root))
+        self.assertTrue(result["valid"], result)
+
 
 if __name__ == "__main__":
     unittest.main()

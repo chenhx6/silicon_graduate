@@ -8,7 +8,7 @@ updated: 2026-09-22
 # Daily nuclear-structure apprenticeship run
 
 You are running one unattended substantive day of the Wiki's 30-day nuclear-structure
-apprenticeship under the `{{SCHEDULE_ID}}` schedule. Every schedule invocation is a
+apprenticeship under the `wiki-daily-learning` schedule. Every schedule invocation is a
 new Codex session; the run receipt records the session ID and a command that can resume
 that day's discussion. The schedule is local to the Docker Wiki project, not a GUI
 Scheduled task, so the receipt and scheduler event are the canonical session index.
@@ -18,15 +18,15 @@ scientific evidence.
 
 ## Run context
 
-- `run_id`: {{RUN_ID}}
-- `run_date`: {{RUN_DATE}}
+- `run_id`: prompt-2026-09-24-day-01
+- `run_date`: 2026-09-24
 - `timezone`: Asia/Shanghai
-- `day_index`: {{DAY_INDEX}}
-- `phase`: {{PHASE}}
-- `schedule_id`: {{SCHEDULE_ID}}
-- `schedule_name`: {{SCHEDULE_NAME}}
-- `output_dir`: {{OUTPUT_DIR}}
-- `state_file`: {{STATE_FILE}}
+- `day_index`: 1
+- `phase`: baseline-and-research-contract
+- `schedule_id`: wiki-daily-learning
+- `schedule_name`: Wiki 30-day substantive daily learning
+- `output_dir`: /workspace/wiki/outputs/learning-daily/2026-09-24-run-01
+- `state_file`: /workspace/wiki/outputs/learning-milestones/2026-09-one-month-state.json
 
 ## Non-negotiable boundaries
 
@@ -36,7 +36,7 @@ scientific evidence.
    workflow, `outputs/plans/2026-09-22-one-month-codex-cli-apprenticeship.md` and
    `outputs/plans/2026-09-22-one-month-daily-task-matrix.md` and
    `outputs/plans/2026-09-22-a130-triaxial-thesis-pipeline.md` before selecting evidence.
-   Execute the matching `Day {{DAY_INDEX}}` card from the daily-task matrix. If the
+   Execute the matching `Day 1` card from the daily-task matrix. If the
    matrix is missing or the requested day is not defined, write a safe-suspended
    run record instead of inventing a substitute task.
 3. The user has explicitly authorized this daily plan to use the Docker container's
@@ -79,7 +79,7 @@ scientific evidence.
 
 Write the substantive daily report to:
 
-`outputs/learning-daily/{{RUN_DATE}}.md`
+`outputs/learning-daily/2026-09-24.md`
 
 It must contain these headings:
 
@@ -155,3 +155,23 @@ Before ending:
 
 If evidence is insufficient, stop explicitly with the missing input, why it matters,
 and the highest-information next route. Do not fill the gap with memory or invented data.
+
+
+## Acceptance-only execution contract
+
+This is a Day 1 instance acceptance run, not a substantive learning day. Do not
+advance the 30-day state, do not claim formal Day 1 completion, and do not create
+duplicate scientific knowledge when the canonical artifact already exists. Prefer a
+grounded `verified-no-op` writeback with one exact atomic locator per source reference
+if the required artifact is already present. The run must still produce all required
+report headings and a resumable session receipt.
+
+
+## Acceptance-only execution contract
+
+This is a Day 1 instance acceptance run, not a substantive learning day. Do not
+advance the 30-day state, do not claim formal Day 1 completion, and do not create
+duplicate scientific knowledge when the canonical artifact already exists. Prefer a
+grounded `verified-no-op` writeback with one exact atomic locator per source reference
+if the required artifact is already present. The run must still produce all required
+report headings and a resumable session receipt.

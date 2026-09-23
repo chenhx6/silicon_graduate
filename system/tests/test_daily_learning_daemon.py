@@ -74,7 +74,7 @@ class DailyLearningDaemonTests(unittest.TestCase):
         command = run_daily_learning_daemon.build_runner_command(
             Path("/workspace/wiki"), "gpt-6-luna", False, "max"
         )
-        self.assertEqual(command[:4], [sys.executable, "/workspace/wiki/system/scripts/run_daily_learning.py", "--root", "/workspace/wiki"])
+        self.assertEqual(command[:3], ["/workspace/wiki/system/scripts/run_daily_learning_schedule.sh", "--root", "/workspace/wiki"])
         self.assertIn("--day-index", command)
         self.assertIn("auto", command)
         self.assertIn("--reasoning-effort", command)
