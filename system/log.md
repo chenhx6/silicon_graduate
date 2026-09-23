@@ -1318,3 +1318,8 @@ updated: 2026-07-15
 - 新增只读 `system/scripts/wiki_boundary_check.py`，并接入 `wiki_automation_preflight.py`；检查六类目录、已迁移知识页、outputs 分类和 QMD `knowledge/**/*.md` 边界。输出中产生的可复用知识必须同步回写 `knowledge/`。
 - 同步 AGENTS、README、用户指南、摄入/反思/查询/自治研究/持续学习/定时续跑/lint workflow、每日 prompt、memory、check、WIP queue 和脚本说明；既有 raw、PLAN、protected BibTeX、临时运行目录和 daily runner 未提交修改保持未暂存。
 - 验证：system tests 46/46；boundary/preflight 通过；Wiki lint 0 errors、79 warnings、1106 info；QMD 534 files、2247 vectors、70 historical orphan chunks。
+
+## [2026-09-23] governance | daily durable-knowledge acceptance gate
+
+- 修补每日 runner 的验收缺口：日报只有完整标题仍不足以成功；`## Durable knowledge delta` 现在必须解析到 `knowledge/` canonical 页面（路径或 Wiki 链接）并保留 locator，或明确记录带 locator 的 `verified no-op`，否则不推进 day state。
+- 新增 3 个 runner 回归测试；全系统测试 49/49 通过。既有 `validate_codex_home()` 未提交修改保持未暂存，raw、计划、日报/run receipts 和临时目录仍未纳入范围。

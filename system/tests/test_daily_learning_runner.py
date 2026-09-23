@@ -74,6 +74,49 @@ class DailyLearningRunnerTests(unittest.TestCase):
             path.write_text("second\n", encoding="utf-8")
             self.assertNotEqual(first, run_daily_learning.report_signature(path))
 
+    def test_durable_knowledge_requires_resolvable_page_and_locator(self) -> None:
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            page = root / "knowledge" / "projects" / "example.md"
+            page.parent.mkdir(parents=True)
+            page.write_text("# durable\n", encoding="utf-8")
+            report = root / "daily.md"
+            report.write_text(
+                "## Durable knowledge delta\n"
+                "- Canonical page: [[example]]; source locator: PDF p. 4.\n"
+                "## Open questions\n",
+                encoding="utf-8",
+            )
+            result = run_daily_learning.validate_durable_knowledge(report, root)
+            self.assertTrue(result["valid"], result)
+            self.assertEqual(result["knowledge_paths"], ["knowledge/projects/example.md"])
+
+    def test_durable_knowledge_rejects_output_only_delta(self) -> None:
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            report = root / "daily.md"
+            report.write_text(
+                "## Durable knowledge delta\n"
+                "- Concrete artifact: outputs/learning-daily/2026-09-23.md; locator: PDF p. 4.\n"
+                "## Open questions\n",
+                encoding="utf-8",
+            )
+            result = run_daily_learning.validate_durable_knowledge(report, root)
+            self.assertFalse(result["valid"])
+            self.assertIn("knowledge/", result["error"])
+
+    def test_verified_noop_still_requires_locator(self) -> None:
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            report = root / "daily.md"
+            report.write_text(
+                "## Durable knowledge delta\n- verified no-op: no reusable change.\n",
+                encoding="utf-8",
+            )
+            result = run_daily_learning.validate_durable_knowledge(report, root)
+            self.assertFalse(result["valid"])
+            self.assertIn("locator", result["error"])
+
     def test_completed_state_dry_run_does_not_request_day_31_phase(self) -> None:
         with tempfile.TemporaryDirectory() as directory:
             root = Path(directory)
