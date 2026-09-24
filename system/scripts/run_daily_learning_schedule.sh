@@ -47,7 +47,13 @@ PY
 )"
 fi
 
-PROMPT_FILE="$ROOT/outputs/learning-daily/prompts/${RUN_DATE}-day-${DAY_INDEX}.md"
+FILE_STEM="$(PYTHONPATH="$ROOT/system/scripts" python3 - "$RUN_DATE" "$DAY_INDEX" <<'PY'
+import sys
+from run_daily_learning import daily_file_stem
+print(daily_file_stem(sys.argv[1], int(sys.argv[2])))
+PY
+)"
+PROMPT_FILE="$ROOT/outputs/learning-daily/prompts/${FILE_STEM}.md"
 mkdir -p "$(dirname "$PROMPT_FILE")"
 
 if [[ ! -s "$PROMPT_FILE" ]]; then

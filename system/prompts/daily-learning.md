@@ -22,6 +22,7 @@ scientific evidence.
 - `run_date`: {{RUN_DATE}}
 - `timezone`: Asia/Shanghai
 - `day_index`: {{DAY_INDEX}}
+- `day_topic`: {{DAY_TOPIC}}
 - `phase`: {{PHASE}}
 - `schedule_id`: {{SCHEDULE_ID}}
 - `schedule_name`: {{SCHEDULE_NAME}}
@@ -85,7 +86,10 @@ the end of the scheduled study window.
 
 Write the substantive daily report to:
 
-`outputs/learning-daily/{{RUN_DATE}}.md`
+`{{REPORT_FILE}}`
+
+除固定的机器验收标题、citation key、公式、代码和实验特殊术语外，日报正文、解释、
+开放问题、续接提示和摘要尽量使用中文，便于后续回访 30 天学习计划的输入与输出。
 
 It must contain these headings:
 

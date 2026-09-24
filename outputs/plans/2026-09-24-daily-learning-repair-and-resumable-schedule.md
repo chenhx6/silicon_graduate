@@ -33,7 +33,7 @@
 ## 目标架构
 
 ```text
-outputs/learning-daily/prompts/YYYY-MM-DD-day-NN.md
+outputs/learning-daily/prompts/YYYYMMDD-DAYn-english-topic-slug.md
         │
         ▼
 system/scripts/run_daily_learning_schedule.sh
@@ -41,8 +41,8 @@ system/scripts/run_daily_learning_schedule.sh
         ▼
 codex exec --json  ──> /root/.codex/sessions/...  (每次新 session)
         │
-        ├── outputs/learning-daily/YYYY-MM-DD-run-NN/run.json
-        ├── outputs/learning-daily/YYYY-MM-DD-run-NN/events.jsonl
+        ├── outputs/learning-daily/YYYYMMDD-DAYn-english-topic-slug-run-NN/run.json
+        ├── outputs/learning-daily/YYYYMMDD-DAYn-english-topic-slug-run-NN/events.jsonl
         └── outputs/learning-milestones/2026-09-one-month-scheduler.jsonl
 ```
 
@@ -107,7 +107,7 @@ session 恢复分两级：
 **Files:** `system/scripts/run_daily_learning_schedule.sh`、`outputs/learning-daily/prompts/`、`system/scripts/run_daily_learning.py`、`system/tests/test_daily_learning_schedule.py`。
 
 - [ ] `.sh` 使用 `set -euo pipefail`，固定 `ROOT=/workspace/wiki`，拒绝从宿主机路径读取 prompt，验证 `CODEX_HOME`、prompt 文件、Git root 和 schedule ID。
-- [ ] `.sh` 接收 `--run-date`、`--day-index`、`--model`、`--reasoning-effort`、`--prompt-file`；默认读取 `outputs/learning-daily/prompts/YYYY-MM-DD-day-NN.md`，禁止空 prompt。
+- [ ] `.sh` 接收 `--run-date`、`--day-index`、`--model`、`--reasoning-effort`、`--prompt-file`；默认读取 `outputs/learning-daily/prompts/YYYYMMDD-DAYn-english-topic-slug.md`，禁止空 prompt；文件名使用 ASCII，正文尽量中文。
 - [ ] `.sh` 以参数数组调用 `codex exec -C /workspace/wiki --json --search -s danger-full-access -a never --thread-source scheduled -o <last-message> - < <prompt-file>`，不使用 `--ephemeral`，不通过 `eval` 或未引用 shell 字符串拼接命令。
 - [ ] runner 在 CLI 启动前生成并保存 prompt snapshot，记录 hash、run ID、day index 和 schedule ID；receipt 记录该文件路径。
 - [ ] 测试只 mock `subprocess.run`，断言 root、prompt path、`--thread-source scheduled`、`--json`、`--search`、sandbox 和 no-ephemeral 参数；不启动真实 Codex。

@@ -92,3 +92,9 @@ session 和 resume 信息，便于查看对话、定位失败并优化工作流�
 
 runner 在日报标题检查之外，还验证 `## Durable knowledge delta` 中唯一的
 `knowledge-writeback` JSON 区块：每个 item 必须解析到 `knowledge/` canonical 页面、页内 anchor、`knowledge/sources/` 和 source locator；`updated` 还必须通过运行前后的 knowledge 快照变化检查，`verified-no-op` 必须证明没有变化。该验收失败时不推进 day state，避免“只生成日报、没有知识回写”被计为成功。
+
+每日 prompt、日报和 run directory 使用可回访命名：
+`YYYYMMDD-DAYn-english-topic-slug.md`，例如
+`20260924-DAY1-baseline-research-contract.md`。文件名使用 ASCII English slug 以
+避免脚本和跨平台路径乱码；prompt、日报正文和解释尽量使用中文，`γ`、`HFB`、
+`ADO/DCO`、`L3/L4` 等特殊术语保留。

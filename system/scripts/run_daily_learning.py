@@ -33,6 +33,70 @@ CYCLE_NAME = "2026-09-30-day-substantive"
 SCHEDULE_ID = "wiki-daily-learning"
 SCHEDULE_NAME = "Wiki 30-day substantive daily learning"
 SESSION_MODE = "new-session-per-run"
+DAY_TITLES = {
+    1: "基线考试与研究契约",
+    2: "壳层-magic-gap-与单粒子轨道",
+    3: "平均场-Nilsson-CSM-HFB-与投影模型",
+    4: "配对-准粒子与组态变化",
+    5: "β-γ-八极自由度与shape-coexistence",
+    6: "转动-振动-alignment与signature",
+    7: "第一次周考-集体运动口试",
+    8: "角动量耦合-选择定则与多极性",
+    9: "B(E2)-B(M1)-约化矩阵元与强度比",
+    10: "电磁比值与集体模式判别",
+    11: "反应布居-蒸发道与高自旋入口",
+    12: "γγ符合-门条件-背景与能级纲图",
+    13: "Doppler-correction-recoil与速度信息",
+    14: "第二次周考-从谱到能级纲图",
+    15: "ADO-角分布系数与几何修正",
+    16: "DCO-RDCO-混合比与符号约定",
+    17: "线偏振-P-A-Q与Compton响应",
+    18: "DSAM-寿命到跃迁强度",
+    19: "RDDS-fast-timing与时间响应",
+    20: "B(E2)-Qt与形变系统学",
+    21: "第三次周考-实验结论边界",
+    22: "wobbling-几何-声子与观测量",
+    23: "signature-partner-低自旋-wobbling与磁转动",
+    24: "chirality-手征振动-静态手征与partner-bands",
+    25: "chirality反例与shape-coexistence",
+    26: "八极关联-E1-E3与磁反磁转动",
+    27: "跨质量区迁移与不适用性",
+    28: "独立-L3研究日与第四次周考",
+    29: "研究设计答辩",
+    30: "综合口试与月度prospectus",
+}
+DAY_FILE_TOPICS = {
+    1: "baseline-research-contract",
+    2: "shell-gap-single-particle",
+    3: "mean-field-nilsson-csm-hfb-projection",
+    4: "pairing-quasiparticle-configuration",
+    5: "beta-gamma-octupole-shape-coexistence",
+    6: "rotation-vibration-alignment-signature",
+    7: "week-one-collective-motion-oral-exam",
+    8: "angular-momentum-selection-rules-multipoles",
+    9: "be2-bm1-reduced-matrix-elements-strengths",
+    10: "electromagnetic-ratios-collective-modes",
+    11: "reaction-population-evaporation-high-spin",
+    12: "gamma-gamma-gating-background-level-scheme",
+    13: "doppler-correction-recoil-velocity",
+    14: "week-two-spectrum-to-level-scheme-exam",
+    15: "ado-angular-distribution-geometry",
+    16: "dco-rdco-mixing-ratio-convention",
+    17: "linear-polarization-paq-compton",
+    18: "dsam-lifetime-transition-strength",
+    19: "rdds-fast-timing-time-response",
+    20: "be2-qt-deformation-systematics",
+    21: "week-three-experimental-boundaries-exam",
+    22: "wobbling-geometry-phonon-observables",
+    23: "signature-partner-low-spin-wobbling-magnetic-rotation",
+    24: "chirality-vibration-static-partner-bands",
+    25: "chirality-counterevidence-shape-coexistence",
+    26: "octupole-e1-e3-magnetic-antimagnetic-rotation",
+    27: "cross-mass-region-transferability",
+    28: "independent-l3-research-week-four-exam",
+    29: "research-design-defense",
+    30: "final-oral-exam-monthly-prospectus",
+}
 PHASES = (
     (1, 1, "baseline-and-research-contract"),
     (2, 10, "nuclear-structure-framework"),
@@ -85,6 +149,19 @@ def phase_for_day(day_index: int) -> str:
         if first <= day_index <= last:
             return phase
     raise AssertionError("phase table does not cover day_index")
+
+
+def day_topic(day_index: int) -> str:
+    if day_index not in DAY_TITLES:
+        raise ValueError(f"day_index must be in 1..{TOTAL_DAYS}")
+    return DAY_TITLES[day_index]
+
+
+def daily_file_stem(run_date: str, day_index: int) -> str:
+    compact_date = run_date.replace("-", "")
+    if day_index not in DAY_FILE_TOPICS:
+        raise ValueError(f"day_index must be in 1..{TOTAL_DAYS}")
+    return f"{compact_date}-DAY{day_index}-{DAY_FILE_TOPICS[day_index]}"
 
 
 def validate_root(root: Path) -> None:
@@ -173,10 +250,11 @@ def write_json_atomic(path: Path, value: dict[str, Any]) -> None:
             pass
 
 
-def next_run_number(daily_root: Path, run_date: str) -> int:
-    pattern = re.compile(rf"^{re.escape(run_date)}-run-(\d+)$")
+def next_run_number(daily_root: Path, run_date: str, day_index: int) -> int:
+    prefix = daily_file_stem(run_date, day_index)
+    pattern = re.compile(rf"^{re.escape(prefix)}-run-(\d+)$")
     numbers = []
-    for child in daily_root.glob(f"{run_date}-run-*"):
+    for child in daily_root.glob(f"{prefix}-run-*"):
         match = pattern.match(child.name)
         if match:
             numbers.append(int(match.group(1)))
@@ -307,6 +385,7 @@ def render_continuation_prompt(
         "{{RUN_ID}}": run_id,
         "{{RUN_DATE}}": run_date,
         "{{DAY_INDEX}}": str(day_index),
+        "{{DAY_TOPIC}}": day_topic(day_index),
         "{{CONTINUATION_NUMBER}}": str(continuation_number),
         "{{DEADLINE}}": deadline.isoformat(),
     }
@@ -383,7 +462,10 @@ def render_prompt(
         "{{PHASE}}": phase,
         "{{SCHEDULE_ID}}": SCHEDULE_ID,
         "{{SCHEDULE_NAME}}": SCHEDULE_NAME,
-        "{{OUTPUT_DIR}}": str(paths.daily_root / f"{run_date}-run-{run_id.rsplit('-', 1)[-1]}"),
+        "{{OUTPUT_DIR}}": str(
+            paths.daily_root / f"{daily_file_stem(run_date, day_index)}-run-{run_id.rsplit('-', 1)[-1]}"
+        ),
+        "{{REPORT_FILE}}": str(paths.daily_root / f"{daily_file_stem(run_date, day_index)}.md"),
         "{{STATE_FILE}}": str(paths.state_file),
     }
     for old, new in substitutions.items():
@@ -568,11 +650,12 @@ def main() -> int:
             return 0
         phase = phase_for_day(day_index)
         run_date = local_date()
-        run_number = next_run_number(paths.daily_root, run_date)
+        file_stem = daily_file_stem(run_date, day_index)
+        run_number = next_run_number(paths.daily_root, run_date, day_index)
         run_id = f"{run_date}-day-{day_index:02d}-{run_number:02d}"
-        run_dir = paths.daily_root / f"{run_date}-run-{run_number:02d}"
+        run_dir = paths.daily_root / f"{file_stem}-run-{run_number:02d}"
         run_dir.mkdir(parents=True, exist_ok=False)
-        report_path = paths.daily_root / f"{run_date}.md"
+        report_path = paths.daily_root / f"{file_stem}.md"
         report_before = report_signature(report_path)
         events_path = run_dir / "events.jsonl"
         stderr_path = run_dir / "stderr.log"

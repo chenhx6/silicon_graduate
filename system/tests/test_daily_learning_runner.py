@@ -22,6 +22,14 @@ class DailyLearningRunnerTests(unittest.TestCase):
         with self.assertRaises(ValueError):
             run_daily_learning.phase_for_day(31)
 
+    def test_daily_file_stem_uses_compact_date_day_and_chinese_topic(self) -> None:
+        self.assertEqual(
+            run_daily_learning.daily_file_stem("2026-09-24", 1),
+            "20260924-DAY1-baseline-research-contract",
+        )
+        self.assertIn("beta-gamma", run_daily_learning.daily_file_stem("2026-09-24", 5))
+        self.assertIn("γ", run_daily_learning.day_topic(5))
+
     def test_build_command_uses_full_access_search_and_new_session_exec(self) -> None:
         command = run_daily_learning.build_command(
             Path("/workspace/wiki"), "gpt-6-luna", Path("/tmp/last.md"), True
