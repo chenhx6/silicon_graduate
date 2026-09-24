@@ -485,6 +485,18 @@ report headings and a resumable session receipt.
     return template
 
 
+def prepare_next_prompt(paths: Paths, next_run_date: str, next_day_index: int) -> Path:
+    """Materialize the next day's ASCII-named prompt after a successful day."""
+
+    path = paths.daily_root / "prompts" / f"{daily_file_stem(next_run_date, next_day_index)}.md"
+    if not path.exists():
+        prompt_run_id = f"prompt-{next_run_date}-day-{next_day_index:02d}"
+        prompt = render_prompt(paths, prompt_run_id, next_run_date, next_day_index, "daily-learning")
+        path.parent.mkdir(parents=True, exist_ok=True)
+        path.write_text(prompt, encoding="utf-8")
+    return path
+
+
 def run_checks(
     root: Path,
     report_path: Path,
@@ -809,6 +821,18 @@ def main() -> int:
             )
             if session_id:
                 receipt["resume_command"] = build_resume_command(root, session_id)
+            next_prompt_file: Path | None = None
+            next_prompt_error: str | None = None
+            if success and args.mode == "daily-learning" and day_index < TOTAL_DAYS:
+                try:
+                    next_prompt_file = prepare_next_prompt(
+                        paths,
+                        datetime.now(TIMEZONE).date().isoformat(),
+                        day_index + 1,
+                    )
+                except Exception as exc:
+                    success = False
+                    next_prompt_error = str(exc)
             receipt.update(
                 {
                     "status": "completed" if success else "failed-verification",
@@ -820,6 +844,8 @@ def main() -> int:
                     "finished_at": datetime.now(TIMEZONE).isoformat(),
                     "continuation_count": continuation_count,
                     "continuation_runs": continuation_runs,
+                    "next_prompt_file": str(next_prompt_file) if next_prompt_file else None,
+                    "next_prompt_error": next_prompt_error,
                 }
             )
             if success and args.mode == "daily-learning":

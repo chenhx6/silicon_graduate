@@ -38,7 +38,7 @@ This page tracks pending local WIP/review tasks that still need follow-up work. 
 - self-audit boundary: all new source claims retain their evidence flags; complete P0/P1 list is in `outputs/degree-dissertation-ingest-20260905.md`; later Q&A/paper use may trigger claim-specific review
 - protected: `raw/zotero/wiki-inbox.bib`, `.codex/config.toml`, `system/lint-config.json`, all raw PDFs and extracted raw images remain unstaged
 - commit target: one explicit-stage commit using `Ingest 15 degree dissertations corpus` (do not use `git add .`)
-- next action: run `python3 script/git20260905.py --dry-run`, then publish only after reviewing the manifest scope
+- next action: run `python3 system/scripts/git/git20260905.py --dry-run`, then publish only after reviewing the manifest scope
 
 ### Review pending: 丁兵 2012 `127,128I` thesis correction
 - status: current HEAD is the existing `WIP ingest: Ding 2012 127I 128I high-spin thesis`; the path correction and batch synchronization remain in the current worktree

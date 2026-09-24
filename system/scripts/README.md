@@ -98,3 +98,6 @@ runner 在日报标题检查之外，还验证 `## Durable knowledge delta` 中�
 `20260924-DAY1-baseline-research-contract.md`。文件名使用 ASCII English slug 以
 避免脚本和跨平台路径乱码；prompt、日报正文和解释尽量使用中文，`γ`、`HFB`、
 `ADO/DCO`、`L3/L4` 等特殊术语保留。
+
+实质 Day N 通过最终验收后，runner 会提前生成 Day N+1 的 ASCII prompt 文件；失败、
+acceptance-only 或未计数运行不会推进或生成下一日正式 prompt。

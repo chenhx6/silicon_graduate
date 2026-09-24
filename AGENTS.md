@@ -88,7 +88,7 @@ Force push、历史重写、已发布标签改写、递归删除、raw 覆盖和
 - `system/scripts/wiki_automation_preflight.py`：检查仓库根目录、配置和受保护 BibTeX 基线；
 - `system/scripts/wiki_boundary_check.py`：只读检查六类目录、`outputs/` 分类、已迁移知识页和 QMD collection 边界；
 - `system/scripts/update_nature_skills.py`：更新或回退 Nature Skills；
-- `script/git20260905.py`：按 manifest 显式暂存、提交并尝试发布批次内容。
+- `system/scripts/git/git20260905.py`：按 manifest 显式暂存、提交并尝试发布批次内容；根目录 `script/` 已废弃并移除。
 
 若提供 `.cmd` 启动器，它只是 Windows 便捷入口；Linux、macOS 和 WSL 可直接运行 `python3 <script>.py`。脚本不得修改用户未授权的 raw、凭据或其它项目。
 

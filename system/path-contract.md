@@ -36,7 +36,7 @@ updated: 2026-09-23
 - `outputs/plans/` 是任务计划书的 canonical 路径。旧的 `docs/plans/` 已清理；不得重新创建 `docs/plans/`，新计划不得写到 `docs/`。
 - 根目录 `PLAN.md` 是用户维护的宏观方向和阶段计划，保留在根目录，不迁入 `outputs/` 或 `knowledge/`。
 - `.qmd/`、`.obsidian/`、`.agents/` 是本地索引、编辑器和 skill 配置/缓存；它们不属于知识层，也不作为长期事实源。
-- `script/` 是历史/兼容启动器；新脚本统一放 `system/scripts/`。`share_message/`、`testdir/` 和其它本地兼容目录不承载长期知识。
+- 根目录 `script/` 已废弃并移除；Git 发布辅助脚本位于 `system/scripts/git/`，其它运行脚本统一放 `system/scripts/`。`share_message/`、`testdir/` 和其它本地兼容目录不承载长期知识。
 - 现有历史文件可以保留在其原路径以便追溯；本契约禁止新增漂移。临时新文件统一写入 `tmp/`，不在根目录或 `outputs/` 外另建 scratch 目录。
 
 ## 检索和晋升边界

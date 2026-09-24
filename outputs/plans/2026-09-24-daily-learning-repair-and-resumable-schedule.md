@@ -157,4 +157,5 @@ session 恢复分两级：
 - Day 1 acceptance 已通过新的 `.sh` launcher 运行：session `01a0cf3e-b7f4-7902-a980-ee8fe50f4496`，writeback `verified-no-op`，正式 state 保持 `next_day_index: 1`。
 - CLI picker 已在同一容器通过 `codex resume --include-non-interactive --all` 搜索到该 session；尚未进入该 session 继续对话。
 - 为解决学习强度不足，nightly substantive schedule 现在目标窗口为 `Asia/Shanghai 22:00–10:00`：初始 turn 完成后，在同一 session 内发送 continuation prompt，继续处理高信息增益问题，直到 deadline、硬阻塞或真实证据饱和。Acceptance mode 不启用 overnight continuation。
+- 实质 Day N 通过最终验收后，runner 会生成 Day N+1 的 `YYYYMMDD-DAYn-english-topic-slug.md` prompt snapshot；失败和 acceptance-only 运行不会生成下一日正式 prompt。
 - 旧的“单轮完成即结束”逻辑已改为支持 `--until HH:MM`、`--max-continuations` 和 `codex exec resume <session_id>`；正式 schedule 的默认 deadline 为次日 `10:00`。
