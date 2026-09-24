@@ -22,7 +22,7 @@ scientific evidence.
 - `run_date`: 2026-09-24
 - `timezone`: Asia/Shanghai
 - `day_index`: 1
-- `day_topic`: {{DAY_TOPIC}}
+- `day_topic`: 基线考试与研究契约
 - `phase`: baseline-and-research-contract
 - `schedule_id`: wiki-daily-learning
 - `schedule_name`: Wiki 30-day substantive daily learning

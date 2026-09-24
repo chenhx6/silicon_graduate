@@ -459,6 +459,7 @@ def render_prompt(
         "{{RUN_ID}}": run_id,
         "{{RUN_DATE}}": run_date,
         "{{DAY_INDEX}}": str(day_index),
+        "{{DAY_TOPIC}}": day_topic(day_index),
         "{{PHASE}}": phase,
         "{{SCHEDULE_ID}}": SCHEDULE_ID,
         "{{SCHEDULE_NAME}}": SCHEDULE_NAME,
