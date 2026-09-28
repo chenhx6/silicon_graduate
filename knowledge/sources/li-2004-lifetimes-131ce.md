@@ -3,7 +3,7 @@ type: source
 title: "Lifetimes of Excited Levels in 131Ce"
 aliases: [Li 2004 131Ce lifetimes, Guang-Sheng Li 2004]
 created: 2026-07-28
-updated: 2026-08-11
+updated: 2026-09-28
 status: active
 review_status: unreviewed
 source_type: journal-article
@@ -66,7 +66,7 @@ Li Guang-Sheng 等，*Chinese Physics Letters* **21**, 461–463 (2004)；citati
 | ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
 |---|---|---|---|---|---|
 | LI04-1 | 负宇称序列的 `19/2−,23/2−,27/2−,31/2−` 分别为 `τ>4.0, 1.44(54), 1.23(23), <1.04 ps`。 | experimental-fact | direct-visual | PDF p.3, Table 1 | false |
-| LI04-2 | 原表相应 `Q_t` 为 `<3.81, 3.55(67), 2.72(26), >2.31 eb`。 | derived-observable | direct-visual | PDF p.3, Table 1 | false |
+| LI04-2 | 原表相应 `Q_t` 为 `<3.81, 3.55(67), 2.72(25), >2.31 eb`。 | derived-observable | direct-visual | PDF p.3, Table 1 | false |
 | LI04-3 | 正宇称序列的 `13/2+,17/2+,21/2+,25/2+` 为 `τ=1.46(56),1.32(10),0.60(26),<2.19 ps`，`Q_t=7.04(135),3.80(14),4.06(88),>3.36 eb`。 | derived-observable | direct-visual | PDF p.3, Table 1 | false |
 | LI04-4 | 作者给出负、正宇称带平均 `Q_t=3.09(61)` 与 `4.56(145) eb`。 | derived-observable | direct-visual | PDF p.3, paragraph below Table 1 | false |
 | LI04-5 | 作者把负宇称带较低集体性与 `[514]9/2− (h11/2)` 的 oblate-driving 倾向、正宇称带与 `[404]7/2+ (g7/2)` 的 prolate-driving 倾向联系。 | author-interpretation | direct-visual | PDF p.3, discussion | true |
@@ -76,6 +76,10 @@ Li Guang-Sheng 等，*Chinese Physics Letters* **21**, 461–463 (2004)；citati
 | LI04-9 | 作者把负宇称带平均 `Q_t=3.09(61) eb` 与 `130Ce` yrast `3.73(105) eb` 比较，并称 unpaired neutron reduces collectivity/changes shape。 | author-interpretation | direct-visual | PDF p.3, first paragraph | true |
 | LI04-10 | `128-131Ce` comparison in Fig.3 is interpreted as a gradual reduction of collectivity/deformation with increasing neutron number。 | author-interpretation | direct-visual | PDF p.3, Fig.3 and Summary | true |
 | LI04-11 | The source measures two opposite-parity rotational sequences, not a same-parity partner doublet, and makes no chirality assignment。 | evidence-boundary | direct-visual | Full paper; Fig.1; Summary | true |
+
+## Source table transcription audit (2026-09-28)
+
+The original PDF was reopened at printed p.463 (PDF p.3), Table 1. The `27/2−` row reports `Q_t=2.72(25) eb`; the prior Wiki transcription `2.72(26)` was an error of the final uncertainty digit and is corrected in LI04-2. The row also gives `B(E2)=1723(322) e²fm⁴`. The local PDF SHA-256 remains `100a06fc1bb6d7061a153552529c9245f123248f213a93f022b202af97dcdcc5`. Page-level `review_status: unreviewed` and LI04-2 `needs_review: false` are unchanged; this correction is a Codex source self-audit, not a new human review.
 
 ## Data Lineage and Band Identity
 

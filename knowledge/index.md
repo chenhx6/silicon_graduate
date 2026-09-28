@@ -2,7 +2,7 @@
 type: system-index
 graph-excluded: true
 created: 2026-07-01
-updated: 2026-09-21
+updated: 2026-09-29
 ---
 
 # Wiki Index
@@ -62,6 +62,17 @@ updated: 2026-09-21
 - [[fagg-hanna-1959-polarization-measurements]] - 48页 RMP 偏振综述；alignment/polarization、Compton/photoelectric analyzers 与 direction–polarization/circular-correlation 历史边界。
 - [[williams-1975-61ni-low-lying-levels]] - `61Ni` 低能级 DSAM、角关联/偏振、mixing ratio 与 shell-model 对照；与 Meyer/Wadsworth/Samanta 保持谱系分层。
 - [[ragnarsson-nilsson-sheline-1978-shell-structure]] - 87页 Physics Reports 壳层结构综述；magic numbers、形状依赖 shell gaps、Strutinsky、高自旋与 superdeformation 边界。
+- [[jones-2010-133sn-single-particle-transfer]] - 132Sn(d,p)133Sn 转移；单粒子强度、角分布和 DWBA 势依赖，保留主文受限与 SI 可读边界。
+- [[ensdf-133sn-transfer-levels]] - ENSDF 133Sn N=83 粒子态、transfer XREF 和可能轨道标记；与 Jones 2010 属同一实验谱系。
+- [[ensdf-131sn-neutron-hole-levels]] - ENSDF 131Sn N=81 空穴侧 adopted levels、S(n) 与赋值来源边界；2006 cutoff 不覆盖 Orlandi 2018。
+- [[orlandi-2018-131sn-neutron-hole-transfer]] - 132Sn(d,t)131Sn neutron-removal；Fig.3 DWBA 空穴强度、未分辨 doublet、光学势变化与3p/2d自旋轨道分裂边界。
+- [[ame2020-sn132-mass-curvature]] - AME2020 `130,132,134Sn` 质量 excess 与 `N=82` 两中子质量曲率的可复核数据行；保留协方差和 pairing 边界。
+- [[iaea-livechart-132sn-134te-levels]] - IAEA/ENSDF `130Sn/132Sn/134Sn` isotope 与 `132Sn/134Te` isotone 的 adopted `2+` 能级及 NuDat `B(E2)` 对照；各数据库接口不算独立实验。
+- [[varner-2005-coulomb-excitation-132-134sn]] - `132Sn`/`134Sn` 首个 `2+` 的初步 Coulomb-excitation `B(E2)`；保留 photon-efficiency calibration、BaF₂ response 与 mixed-beam 边界。
+- [[radford-2005-130sn-coulomb-excitation-126-130sn]] - 126/128/130Sn inverse-kinematics CoulEx；Table 1 的130Sn B(E2)=0.023(5)e²b² 标为preliminary，保留束流与单位边界。
+- [[gray-2021-thesis-electromagnetic-moments-z50]] - Table 3.13 将Radford 130Sn核心B(E2)再列为5.9(1.3) W.u.；标记为同一实验的依赖性重述。
+- [[ensdf-132sn-coulomb-excitation]] - ENSDF `132Sn` Coulomb-excitation 子数据集；将 `2005Ra09` 与 `2005Va31` 标作同一 HRIBF 设施、不同靶反应的报告。
+- [[ensdf-134te-coulomb-excitation]] - ENSDF `134Te` Coulomb-excitation adopted `B(E2)` 与 `2003Ba01` 原文 locator；保留出版商全文访问边界。
 - [[james-twin-butler-1974-angular-correlation-statistics]] - 9页统计方法；alignment/model uncertainty、design-matrix rank、χ²/F test 与 `arctan δ` confidence boundary。
 - [[der-mateosian-sunyar-1974-attenuation-coefficients]] - 16页 `α2/α4` Gaussian alignment attenuation tables；`σ/J`、高自旋 appendix 与 ADO/DCO transfer boundary。
 - [[grodner-2018-128cs-chiral-g-factor]] - `128Cs` TDPAD 首次 g 因子 `+0.59(1)`；核心转动、近平面 bandhead 与 chiral critical-frequency 边界。

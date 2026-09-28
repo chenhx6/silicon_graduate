@@ -3,7 +3,7 @@ type: source
 title: "Lifetime measurements in the yrast band of the gamma-soft nuclei 131Ce and 133Pr"
 aliases: [Singh 2016 131Ce lifetime, Singh 2016 133Pr lifetime]
 created: 2026-07-28
-updated: 2026-08-04
+updated: 2026-09-28
 status: ai-draft
 review_status: unreviewed
 source_type: journal-article-experiment
@@ -70,6 +70,7 @@ R. P. Singh 等，*Pramana – Journal of Physics* **87**, 7 (2016)，DOI `10.10
 | SI16-13 | TRS for `133Pr` stays γ-soft but has minima near prolate (`γ=5°,−2°,−5°`) with `β2≈0.22–0.23`; the authors treat the precise γ minima as numerically uncertain on a flat surface. | model-result | direct | PDF pp.9-10; Fig.12 | true |
 | SI16-14 | The authors interpret high-Ω `νh11/2` in `131Ce` as driving large triaxiality and low-Ω `πh11/2` in `133Pr` as stabilizing near-prolate shape. | author-interpretation | indirect | PDF pp.9-10; Figs.10-12; Summary | true |
 | SI16-15 | The `133Pr` shape-polarization comparison is explicitly restricted to below its `>0.4 MeV/ħ` band crossing; extrapolation beyond the crossing is unsupported. | evidence-boundary | direct | PDF p.10 | true |
+| SI16-16 | The `27/2−`, 827-keV row in Table 1's Ref. [32] column reproduces Li 2004's `τ=1.23(23) ps` but lists a re-derived `Q_t=2.28(21) eb` using the present paper's rotor/Clebsch–Gordan convention. This is dependent reuse of Li's lifetime, not an independent measurement. | derived-observable | direct | PDF p.5, Table 1, Ref. [32] column; Eq. (1)-(3) | true |
 
 ## Data Lineage and Band Identity
 
@@ -103,6 +104,7 @@ For `133Pr`, a marginal `Q_t` decrease is likewise compatible with nearly consta
 
 - SI16-5：作者的 `3→2.5 eb` 目视概括与 Wiki 的 `0.64σ` 有限点重分析必须分层；寿命/`Q_t` 为 E2 集体性和芯响应提供正交约束，但 γ-softness 本身仍主要由 TRS 与作者解释支持。
 - SI16-11/12/15：`133Pr` 的 singles-only statistics、long side feeding 与 pre-crossing validity 必须随数值复用。
+- SI16-16：Table 1 Ref. [32] 以 Eq. (1)–(3) 重算 Li 2004 的同一 `27/2−` 寿命；它是依赖的 `Q_t` 转换值，不得计作额外测量。保留 `needs_review: true` 直到对应的 source-use convention 被复核。
 
 ## Related Knowledge
 

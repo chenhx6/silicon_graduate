@@ -1371,7 +1371,31 @@ updated: 2026-07-15
 - Interruption while waiting leaves the daily scheduler marker unchanged; interruption after runner start records `manual-waiter-interrupted` and marks the scheduled date failed with exit code 130, preventing a stale `running` marker.
 - Updated the foreground-launcher usage guidance and checklist. Python/shell syntax and the date-matching DAY2 dry-run were rechecked; no daily-learning session was started.
 
+## [2026-09-29] daily-learning | recover and continue Day 2 shell-gap run
+
+- Resumed the same Day 2 session after the 18:13 usage-limit exit; preserved the run-01 failure receipt and created a separate run-02 recovery receipt with the same session ID/resume command.
+- Added the AME2020/ENSDF/Varner source records and the A≈130 orbit–gap–observable calculation. Corrected Li 2004 Table 1 `27/2− Q_t` from `2.72(26)` to `2.72(25)`; reproduced Singh's dependent re-conversion using the rotation-aligned `j=11/2` Clebsch–Gordan sum. New raw snapshots were hash-checked and remain unstaged.
+- Boundary check and automation preflight passed; Wiki lint is 0 errors (86 warnings, 1154 info), `git diff --check` passed; the EOL cleaner retained seven substantive knowledge edits with no unsafe/mixed changes. Day 2 was reopened for continuation and is not counted; state_file next_day_index remains 2. The 133Sn transfer SI and 131Sn evaluated hole-side context were added, and the AME2020 adjacent one-neutron difference was recalculated. Orlandi 2018 full text was obtained from a Surrey repository delivery link discovered through OpenAIRE; the doublet and potential/level-systematic limits are recorded.
+
 ## [2026-09-28] daily-learning | reconcile manual DAY2 failure
 
 - The foreground waiter launched DAY2 at 17:45 with session `01a0e767-5b2c-7792-9707-9fd1d49f2eb0`; the runner exited at 18:13 with usage-limit `exit_code=1`, no report and no continuation. It was not a Ctrl-C interruption.
 - The pre-fix waiter then hit `name 'target' is not defined` while finalizing its scheduler state. The current launcher passes the scheduled date explicitly and clears the scheduler marker on both Ctrl-C and unexpected post-launch exceptions; the ignored scheduler state was reconciled to `failed`/`1`.
+
+## [2026-09-29] daily-learning | Day 2 continuation checkpoint
+
+- Added indexed 133Sn particle-transfer sources and a 131Sn ENSDF hole-side context page; the latter's 2006 evaluation cutoff and unresolved isomer excitation remain explicit.
+- Extended the AME2020 source and A≈130 shell-gap project with Δn(82)=4.954639 MeV and 5.688-keV diagonal uncertainty. This remains distinct from δ₂n and is not a microscopic orbital spacing.
+- OpenAIRE surfaced a Surrey direct-delivery URL after the old portal link only returned an Esploro landing page. The CC-BY repository PDF (cover plus journal pp.615–620) and OpenAIRE metadata were hash-verified; all five figures and Eqs.1–3 were inspected. The article contains no data tables; Fig.3 and the discussion report the quantitative DWBA strengths. Day 2 remains in progress pending the scheduled window and final checks.
+
+## [2026-09-29] daily-learning | 130Sn direct B(E2) source found
+
+- Retrieved and hash-verified Radford et al. 2005 EPJ A proceedings PDF through Springer; Table 1 reports preliminary 130Sn B(E2)=0.023(5) e²b² and Fig.1 labels the 1221-keV peak.
+- Added Gray 2021 thesis Table 3.13 as a dependent 5.9(1.3)-W.u. re-tabulation, not independent evidence. Standard Weisskopf conversion and comparison with Varner/NuDat expose an unresolved 132Sn strength-field discrepancy; no averaging was performed.
+- Day 2 remains in progress; the 1981 130Sn primary article and AME covariance are continuation routes.
+
+## [2026-09-29] daily-learning | direct 130Sn CoulEx strength and field-lineage audit
+
+- Read Radford et al. 2005 pp.383–387; Table 1 gives preliminary 130Sn B(E2)=0.023(5) e²b² and Fig.1 labels 1221 keV. Standard W.u. conversion gives 5.88(1.28), matching Gray 2021 Table 3.13’s dependent 5.9(1.3) W.u. restatement.
+- The 132Sn Varner 0.11(3) e²b² and NuDat 5.5(15) W.u./0.11(3) fields remain unresolved because Varner’s photon-efficiency calibration was incomplete and the database fields may have distinct inputs. No averaging was performed.
+- OpenAIRE marks the 1981 130Sn article closed; Crossref text-mining returned HTTP 400. The title/DOI route remains in the source manifest. Day 2 stays in progress.

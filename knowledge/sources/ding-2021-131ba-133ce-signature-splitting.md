@@ -3,7 +3,7 @@ type: source
 title: "Signature splitting of the g7/2[404]7/2+ bands in 131Ba and 133Ce"
 aliases: []
 created: 2026-07-01
-updated: 2026-09-20
+updated: 2026-09-28
 status: active
 review_status: human-reviewed
 source_type: journal-article-experiment-and-model
@@ -86,6 +86,7 @@ configuration-constrained PES、cranked shell model（CSM）和 quasiparticle-pl
 | D21-6 | 衰减 Coriolis 耦合后，γ≤15° 的计算几乎不产生 staggering，而 γ>15° 仍可产生显著劈裂；作者据此认为低-j 混合和非轴性是两个竞争机制。 | model-result | direct | PDF p.12, Figs.8-9 | false |
 | D21-7 | PES 对 7/2+ 候选给出 `131Ba: β2=0.180, γ=9.1°`，`133Ce: β2=0.195, γ=-10.5°`；这些是模型极小值，不是直接实验形变。 | model-result | direct | PDF p.13, Table III | false |
 | D21-8 | 作者把 N=73 `129Ba`、`131Ce`、`133Nd` 的 `νg7/2[404]7/2+` 带作系统比较：首次 up-bending 前的 initial alignment 和 `J^(2)` 相近，且三带分别延伸到 `55/2+`、`51/2+`、`67/2+`，被解释为共同组态的 contextual support；三核旧数据分别引自 refs.46/47/48。 | author-interpretation | contextual | PDF pp.5-6, Figs.4-5 and captions; p.9, Fig.6 and paragraph below; refs.46-48 on pp.14-15 | true |
+| D21-9 | 作者在 Nilsson 图中提出 N=74 的 `νg7/2[404]7/2+` 与 `νh11/2[514]9/2−` 间隙，并用它定性解释 N=73 相对 N=75 同中子数核的激发能与布居差异；这是模型解释，不是直接测得的能隙。 | model-result | direct | PDF p.10, discussion before Sec. III.C; Figs.4-5 | true |
 
 ## Nuclear Structure Information
 
@@ -155,6 +156,7 @@ configuration-constrained PES、cranked shell model（CSM）和 quasiparticle-pl
 ### P1
 
 - `D21-8`, PDF pp.5-6/Figs.4-5, p.9/Fig.6 and refs.46-48 — verify that the compiled `129Ba/131Ce/133Nd` alignment and spin-extension comparison is accurately bounded as contextual support from prior experiments. The exact citation lineage is now explicit, but the three original papers have not been re-read. Risk if skipped: a useful isotone comparison could be miscounted as an independent Ding 2021 measurement or generalized to unrelated `h11/2` bands.
+- `D21-9`, PDF p.10 — the N=74 `νg7/2`–`νh11/2` gap is a Nilsson-model interpretation used to explain the N=73/N=75 systematics; it is not a measured level spacing. This claim was added after the existing human-review scope and remains `needs_review: true`.
 
 ### P2/P3
 
