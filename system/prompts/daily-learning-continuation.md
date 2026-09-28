@@ -2,7 +2,7 @@
 type: system-prompt
 graph-excluded: true
 created: 2026-09-24
-updated: 2026-09-24
+updated: 2026-09-28
 ---
 
 # Daily learning continuation turn
@@ -36,3 +36,11 @@ Do not stop merely because the previous turn produced a report or because one pr
 is complete. Stop only for the deadline, a hard source/data/permission/runtime
 blocker, or genuine evidence saturation after selecting the next viable route. Record
 what was solved, what remains open, and the next continuation prompt.
+
+## Git publication at Day closeout
+
+When a continuation reaches Day closeout, follow the base daily prompt's per-run Git
+publication steps: after required checks pass, Codex explicitly stages, commits and
+pushes the run-owned publishable files through `check.md` H3. Do not defer to the weekly
+gate. Preserve unrelated inherited changes and all protected/raw boundaries. A mid-run
+checkpoint does not publish unless it is also the recorded closeout.

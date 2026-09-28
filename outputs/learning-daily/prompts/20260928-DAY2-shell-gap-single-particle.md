@@ -8,7 +8,7 @@ updated: 2026-09-28
 # Daily nuclear-structure apprenticeship run
 
 You are running one unattended substantive day of the Wiki's 30-day nuclear-structure
-apprenticeship under the `{{SCHEDULE_ID}}` schedule. Every schedule invocation is a
+apprenticeship under the `wiki-daily-learning` schedule. Every schedule invocation is a
 new Codex session; the run receipt records the session ID and a command that can resume
 that day's discussion. The schedule is local to the Docker Wiki project, not a GUI
 Scheduled task, so the receipt and scheduler event are the canonical session index.
@@ -18,16 +18,16 @@ scientific evidence.
 
 ## Run context
 
-- `run_id`: {{RUN_ID}}
-- `run_date`: {{RUN_DATE}}
+- `run_id`: prompt-2026-09-28-day-02
+- `run_date`: 2026-09-28
 - `timezone`: Asia/Shanghai
-- `day_index`: {{DAY_INDEX}}
-- `day_topic`: {{DAY_TOPIC}}
-- `phase`: {{PHASE}}
-- `schedule_id`: {{SCHEDULE_ID}}
-- `schedule_name`: {{SCHEDULE_NAME}}
-- `output_dir`: {{OUTPUT_DIR}}
-- `state_file`: {{STATE_FILE}}
+- `day_index`: 2
+- `day_topic`: 壳层-magic-gap-与单粒子轨道
+- `phase`: nuclear-structure-framework
+- `schedule_id`: wiki-daily-learning
+- `schedule_name`: Wiki 30-day substantive daily learning
+- `output_dir`: /workspace/wiki/outputs/learning-daily/20260928-DAY2-shell-gap-single-particle-run-02
+- `state_file`: /workspace/wiki/outputs/learning-milestones/2026-09-one-month-state.json
 
 ## Non-negotiable boundaries
 
@@ -37,7 +37,7 @@ scientific evidence.
    workflow, `outputs/plans/2026-09-22-one-month-codex-cli-apprenticeship.md` and
    `outputs/plans/2026-09-22-one-month-daily-task-matrix.md` and
    `outputs/plans/2026-09-22-a130-triaxial-thesis-pipeline.md` before selecting evidence.
-   Execute the matching `Day {{DAY_INDEX}}` card from the daily-task matrix. If the
+   Execute the matching `Day 2` card from the daily-task matrix. If the
    matrix is missing or the requested day is not defined, write a safe-suspended
    run record instead of inventing a substitute task.
 3. The user has explicitly authorized this daily plan to use the Docker container's
@@ -86,7 +86,7 @@ the end of the scheduled study window.
 
 Write the substantive daily report to:
 
-`{{REPORT_FILE}}`
+`/workspace/wiki/outputs/learning-daily/20260928-DAY2-shell-gap-single-particle.md`
 
 除固定的机器验收标题、citation key、公式、代码和实验特殊术语外，日报正文、解释、
 开放问题、续接提示和摘要尽量使用中文，便于后续回访 30 天学习计划的输入与输出。

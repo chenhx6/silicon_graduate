@@ -110,6 +110,19 @@ python3 system/scripts/run_daily_learning_daemon.py --root /workspace/wiki
 
 允许写入的文件必须逐个列明；严禁 `git add .`，严禁把 PDF、raw、`raw/zotero/wiki-inbox.bib`、`.codex`、`PLAN.md` 或无关用户修改带入 stage。每日任务的本地 Git 发布仍受 `check.md` 完整清单和仓库现有 WIP/amend 规则约束。
 
+### 30 天学习计划的逐次发布
+
+30 天计划每次 substantive daily-learning run 都按该 run 的文件清单完成本地检查、显式
+暂存、commit 和非 force push；不等待每周报告或周度发布流程。发布范围包括本次 Codex
+实际生成的 canonical `knowledge/` 修改、日报与续接 prompt，以及直接必要的 handoff、log
+和其它已列入本轮交付的文件。只纳入本次运行相对 dirty baseline 的改动。
+
+使用 root `AGENTS.md` 和 `check.md` H3 的精确 Gitee 发布门：检查 staged name-status、
+`git diff --cached --check`、fresh fetch、remote ancestry、dry-run 和相同 refspec 的
+非 force push。不得使用 `git add .`；不纳入继承的无关改动、凭据、临时文件、
+`PLAN.md`、未经单独授权的 raw PDF/用户数据或 `raw/zotero/wiki-inbox.bib`。安全、路径、
+必要验收或远端检查失败时保留本地状态并写明 `final-not-pushed` 原因；scientifically partial/stopped or ordinary `needs_review` 本身不要求等待周度 gate。
+
 ## L0–L4 与每日授权
 
 每日学习可以按证据和信息增益自主运行 L1、L2、L3 或 L4。对本 30 天 Docker 计划，用户已明确授权使用可访问的真实/公开/模拟数据、网络来源、代码和分析工具，不再要求另发 L4 启动语句；L4 仍必须保留数据身份、单位、不确定度、响应/协方差、代码、敏感性和失败检查，输入不足时记录 readiness boundary，不制造代理结果。正式论文措辞仍需回到 paper evidence gate；Codex self-audit 不写成 `human-reviewed`。
