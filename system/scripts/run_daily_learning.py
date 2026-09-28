@@ -322,7 +322,10 @@ def build_command(
         command += ["-c", f"model_reasoning_effort={reasoning_effort}"]
     if enable_search:
         command.append("--search")
-    command += ["--thread-source", "scheduled", "exec", "--json", "-o", str(last_message), "-"]
+    # `--thread-source` belongs to the `exec` subcommand in current Codex CLI.
+    # Placing it before `exec` makes the CLI reject the invocation as an
+    # unexpected global argument and prevents the nightly run from starting.
+    command += ["exec", "--thread-source", "scheduled", "--json", "-o", str(last_message), "-"]
     return command
 
 

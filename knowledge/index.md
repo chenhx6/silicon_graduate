@@ -130,6 +130,8 @@ updated: 2026-09-21
 - [[ayangeakaa-2016-133ce-in-beam]] - `133Ce` 的完整中高自旋谱学地图、CNS 与 TAC-CDFT。
 - [[petrache-2020-137nd-multiple-chiral-bands]] - `137Nd` 两条新伙伴带及多重手征候选解释。
 - [[ding-2021-131ba-133ce-signature-splitting]] - N=75 g7/2 强耦合带与 signature splitting 多机制。
+- [[palacz-1991-high-spin-131ce]] - `131Ce` N=73 高自旋五带纲图、alignment/routhian 与 `g7/2` 作者指认；保留不完整 linking 边界。
+- [[bazzacco-1998-rotational-bands-133nd]] - `133Nd` GASP/DCO 高自旋谱学与 `[404]7/2` alignment contextual source；保留 DCO/模型边界。
 - [[chakraborty-2023-131xe-wobbling-origin]] - `131Xe` 新负宇称序列及 wobbling/signature 判别。
 - [[frauendorf-2024-wobbling-review]] - wobbling 的模型、证据与争议综述。
 - [[de-voigt-dudek-szymanski-1983-high-spin-phenomena]] - 高自旋转动、带交叉、alignment 与谱学方法的 review/background。
@@ -407,6 +409,7 @@ updated: 2026-09-21
 ## Projects
 
 - [[a130-thesis-evidence-matrix]] - A≈130 博士论文管线的持久证据矩阵；保存可复用的观测、判据、解释边界、必要伴随观测和 source lineage。
+- [[a130-model-choice-card]] - Day 3 的 A≈130 高自旋模型选择卡；分开 mean-field/CSM/QTR/投影模型输出与实验 companion observables。
 - [[a130-shell-gap-orbital-observable]] - Day 2 的壳层闭合、形变壳隙、轨道组态与 A≈130 观测量桥接页。
 - [[131ce-collective-mode-discrimination]] - 以 Alwaleedi 纲图为基线，比较 `131Ce/133Ce` 的 configuration coupling、γ-soft core、wobbling、chirality 与 shape coexistence。
 - [[nuclear-chirality-and-multiple-chiral-doublet-bands]] - 连接核手征理论、`133Ce`/`78Br` MχD 实验、shape coexistence 与 octupole correlations 的 evidence map。

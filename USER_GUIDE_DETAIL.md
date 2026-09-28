@@ -297,12 +297,14 @@ qmd.cmd embed -c nuclear-knowledge
 `knowledge/overview.md` 是阶段性地图，不需要每篇 source 都更新；source、project 和 synthesis 才是主要知识承载。overview deferred 不代表摄入失败。大型 project/synthesis 可维护 `Agent active summary` 作为导航入口，但 active summary 不是 source，不替代 project/synthesis 主体，也不替代原文 locator。
 ## 13. Git and safety / Git 与安全边界
 
-### 30 天实质学习与发布解耦
+### 30 天实质学习与逐次发布
 
-每日 22:00（Asia/Shanghai）的持续学习任务遵循
+每日 16:00（Asia/Shanghai）的持续学习任务遵循
 [`continuous-learning workflow`](system/workflows/continuous-learning.md)。当前从新的 Day 1 开始计数 30 个实质成功日，之前的 Day 1/Day 2 仅作为实例验收，不计入测试。用户已授权该 Docker 计划联网、`danger-full-access` 和 L1–L4 自主推进；每次运行创建新的 Codex session，回执保存 `session_id` 和 `resume_command`。2–3 小时只是 checkpoint；主题数、来源数和是否切换问题由里程碑、信息增益、证据质量与资源决定。日报、周报、审计、计划和运行回执写入 `outputs/`；可复用的 source/project/synthesis/矩阵知识写入 `knowledge/`，队列在 `system/learning-queue.md`。
 
-Docker 内每日任务由 `system/scripts/run_daily_learning_daemon.py` 在 22:00（Asia/Shanghai）触发；可用 `--dry-run` 检查下一次触发时间和 runner 命令。任务可以使用 arXiv、NNDC/ENSDF、Google Scholar、Crossref 以及出版商/机构页面。可运行 `system/scripts/wiki_automation_preflight.py` 验证路径契约、仓库根目录、配置和受保护 BibTeX 基线；也可单独运行 `python3 system/scripts/wiki_boundary_check.py --root .`。每次日报回执都可直接恢复到对应 session 讨论；Gitee 用于容器外恢复 Wiki 数据。
+Docker 内每日任务由 `system/scripts/run_daily_learning_daemon.py` 在 16:00（Asia/Shanghai）触发；可用 `--dry-run` 检查下一次触发时间和 runner 命令。任务可以使用 arXiv、NNDC/ENSDF、Google Scholar、Crossref 以及出版商/机构页面。可运行 `system/scripts/wiki_automation_preflight.py` 验证路径契约、仓库根目录、配置和受保护 BibTeX 基线；也可单独运行 `python3 system/scripts/wiki_boundary_check.py --root .`。每次日报回执都可直接恢复到对应 session 讨论；Gitee 用于容器外恢复 Wiki 数据。
+
+每次实质日报完成且 writeback、路径、lint、diff 和 runner 验收均通过后，Codex 自动显式暂存本轮任务文件、commit 并 push 到 Gitee，不等待周报或周度 gate。暂存前建立 dirty baseline，只包含本轮 `knowledge/`、日报/续接 prompt、回执和必要交接文件；不得使用 `git add .`，不得纳入继承改动、raw 原件、受保护 Zotero BibTeX、凭据或临时日志。发布遵循根目录 `AGENTS.md` 与 `check.md` H3 的 ancestry、dry-run 和精确非 force refspec。验证或 Git 发布门失败时保留本地内容并记录 `final-not-pushed` 与原因；科学结论为 partial/stopped 或普通 `needs_review` 不单独阻止已通过检查的发布。
 
 - 不要使用不加检查的 `git add .`；应显式暂存目标文件；
 - `raw/`、PDF、论文、数据和图片不得被 Agent 误改或误提交；

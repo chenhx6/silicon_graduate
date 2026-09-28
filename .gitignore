@@ -51,3 +51,24 @@ docs/
 tmp/docker-daily-learning-daemon.*
 outputs/learning-milestones/2026-09-one-month-scheduler.jsonl
 outputs/learning-milestones/2026-09-one-month-scheduler-state.json
+
+# Local dissertation extraction and visual-QA scratch directories
+/.degree-read-tmp-*/
+/.degree-read-visual-*/
+
+# Local raw reading ledger and acquisition manifest; canonical source metadata lives in knowledge/
+raw/high-spin-reading-record.md
+raw/papers/gpt/high-spin-20260920/external-146ba/manifest.json
+
+# Accidental session-id copy saved under the plans directory
+outputs/plans/2026-09-10-degree-dissertation-corpus-ingest copy.md
+
+# Daily runner telemetry and derivative screenshot crops; keep run.json, prompts and reports
+outputs/learning-daily/*-run-*/events.jsonl
+outputs/learning-daily/*-run-*/continuation-*-events.jsonl
+outputs/learning-daily/*-run-*/stderr.log
+outputs/learning-daily/*-run-*/continuation-*-stderr.log
+outputs/learning-daily/*-run-*/last-message.md
+outputs/learning-daily/*-run-*/continuation-*-last-message.md
+outputs/learning-daily/*-run-*/*.png
+outputs/learning-daily/*-run-*/day*-figures/

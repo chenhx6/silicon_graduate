@@ -1,0 +1,186 @@
+{
+  "schema_version": 1,
+  "run_id": "2026-09-27-day-01-01",
+  "run_date": "2026-09-27",
+  "day_index": 1,
+  "phase": "baseline-and-research-contract",
+  "cycle": "2026-09-30-day-substantive",
+  "schedule_id": "wiki-daily-learning",
+  "schedule_name": "Wiki 30-day substantive daily learning",
+  "project_root": "/workspace/wiki",
+  "run_kind": "substantive",
+  "acceptance_only": false,
+  "overnight_until": "2026-09-28T10:00:00+08:00",
+  "max_continuations": 96,
+  "continuation_count": 14,
+  "counted_in_substantive_test": true,
+  "session_mode": "new-session-per-run",
+  "session_reuse": false,
+  "session_scope": "one-new-session-for-each-schedule-run",
+  "codex_home": "/root/.codex",
+  "status": "completed",
+  "started_at": "2026-09-27T16:00:04.261720+08:00",
+  "report": "/workspace/wiki/outputs/learning-daily/20260927-DAY1-baseline-research-contract.md",
+  "prompt_file": "/workspace/wiki/outputs/learning-daily/20260927-DAY1-baseline-research-contract-run-01/prompt.md",
+  "continuation_runs": [
+    {
+      "number": 1,
+      "returncode": 0,
+      "events": "/workspace/wiki/outputs/learning-daily/20260927-DAY1-baseline-research-contract-run-01/continuation-001-events.jsonl",
+      "last_message": "/workspace/wiki/outputs/learning-daily/20260927-DAY1-baseline-research-contract-run-01/continuation-001-last-message.md"
+    },
+    {
+      "number": 2,
+      "returncode": 0,
+      "events": "/workspace/wiki/outputs/learning-daily/20260927-DAY1-baseline-research-contract-run-01/continuation-002-events.jsonl",
+      "last_message": "/workspace/wiki/outputs/learning-daily/20260927-DAY1-baseline-research-contract-run-01/continuation-002-last-message.md"
+    },
+    {
+      "number": 3,
+      "returncode": 0,
+      "events": "/workspace/wiki/outputs/learning-daily/20260927-DAY1-baseline-research-contract-run-01/continuation-003-events.jsonl",
+      "last_message": "/workspace/wiki/outputs/learning-daily/20260927-DAY1-baseline-research-contract-run-01/continuation-003-last-message.md"
+    },
+    {
+      "number": 4,
+      "returncode": 0,
+      "events": "/workspace/wiki/outputs/learning-daily/20260927-DAY1-baseline-research-contract-run-01/continuation-004-events.jsonl",
+      "last_message": "/workspace/wiki/outputs/learning-daily/20260927-DAY1-baseline-research-contract-run-01/continuation-004-last-message.md"
+    },
+    {
+      "number": 5,
+      "returncode": 0,
+      "events": "/workspace/wiki/outputs/learning-daily/20260927-DAY1-baseline-research-contract-run-01/continuation-005-events.jsonl",
+      "last_message": "/workspace/wiki/outputs/learning-daily/20260927-DAY1-baseline-research-contract-run-01/continuation-005-last-message.md"
+    },
+    {
+      "number": 6,
+      "returncode": 0,
+      "events": "/workspace/wiki/outputs/learning-daily/20260927-DAY1-baseline-research-contract-run-01/continuation-006-events.jsonl",
+      "last_message": "/workspace/wiki/outputs/learning-daily/20260927-DAY1-baseline-research-contract-run-01/continuation-006-last-message.md"
+    },
+    {
+      "number": 7,
+      "returncode": 0,
+      "events": "/workspace/wiki/outputs/learning-daily/20260927-DAY1-baseline-research-contract-run-01/continuation-007-events.jsonl",
+      "last_message": "/workspace/wiki/outputs/learning-daily/20260927-DAY1-baseline-research-contract-run-01/continuation-007-last-message.md"
+    },
+    {
+      "number": 8,
+      "returncode": 0,
+      "events": "/workspace/wiki/outputs/learning-daily/20260927-DAY1-baseline-research-contract-run-01/continuation-008-events.jsonl",
+      "last_message": "/workspace/wiki/outputs/learning-daily/20260927-DAY1-baseline-research-contract-run-01/continuation-008-last-message.md"
+    },
+    {
+      "number": 9,
+      "returncode": 0,
+      "events": "/workspace/wiki/outputs/learning-daily/20260927-DAY1-baseline-research-contract-run-01/continuation-009-events.jsonl",
+      "last_message": "/workspace/wiki/outputs/learning-daily/20260927-DAY1-baseline-research-contract-run-01/continuation-009-last-message.md"
+    },
+    {
+      "number": 10,
+      "returncode": 0,
+      "events": "/workspace/wiki/outputs/learning-daily/20260927-DAY1-baseline-research-contract-run-01/continuation-010-events.jsonl",
+      "last_message": "/workspace/wiki/outputs/learning-daily/20260927-DAY1-baseline-research-contract-run-01/continuation-010-last-message.md"
+    },
+    {
+      "number": 11,
+      "returncode": 0,
+      "events": "/workspace/wiki/outputs/learning-daily/20260927-DAY1-baseline-research-contract-run-01/continuation-011-events.jsonl",
+      "last_message": "/workspace/wiki/outputs/learning-daily/20260927-DAY1-baseline-research-contract-run-01/continuation-011-last-message.md"
+    },
+    {
+      "number": 12,
+      "returncode": 0,
+      "events": "/workspace/wiki/outputs/learning-daily/20260927-DAY1-baseline-research-contract-run-01/continuation-012-events.jsonl",
+      "last_message": "/workspace/wiki/outputs/learning-daily/20260927-DAY1-baseline-research-contract-run-01/continuation-012-last-message.md"
+    },
+    {
+      "number": 13,
+      "returncode": 0,
+      "events": "/workspace/wiki/outputs/learning-daily/20260927-DAY1-baseline-research-contract-run-01/continuation-013-events.jsonl",
+      "last_message": "/workspace/wiki/outputs/learning-daily/20260927-DAY1-baseline-research-contract-run-01/continuation-013-last-message.md"
+    },
+    {
+      "number": 14,
+      "returncode": 1,
+      "events": "/workspace/wiki/outputs/learning-daily/20260927-DAY1-baseline-research-contract-run-01/continuation-014-events.jsonl",
+      "last_message": "/workspace/wiki/outputs/learning-daily/20260927-DAY1-baseline-research-contract-run-01/continuation-014-last-message.md"
+    }
+  ],
+  "session_id": "01a0e1e1-812e-7eb3-a140-cedd5fe10111",
+  "resume_command": [
+    "codex",
+    "resume",
+    "01a0e1e1-812e-7eb3-a140-cedd5fe10111",
+    "-C",
+    "/workspace/wiki",
+    "-s",
+    "danger-full-access",
+    "-a",
+    "never"
+  ],
+  "exit_code": 0,
+  "failure_reason": null,
+  "checks": {
+    "preflight": {
+      "exit": 0,
+      "stdout_tail": "{\"schema_version\":1,\"ok\":true,\"root\":\"/workspace/wiki\",\"expected_profile\":\"\",\"actual_profile\":null,\"warnings\":[],\"write_probes\":[{\"path\":\"/workspace/wiki\",\"created\":true,\"read_back\":true,\"deleted\":true,\"error\":null},{\"path\":\"/workspace/wiki/.git\",\"created\":true,\"read_back\":true,\"deleted\":true,\"error\":null}],\"error\":null,\"path_boundary\":{\"schema_version\":1,\"root\":\"/workspace/wiki\",\"ok\":true,\"errors\":[],\"warnings\":[],\"checks\":{\"required_dirs\":{\"expected\":[\"raw\",\"knowledge\",\"outputs\",\"system\",\"tools\",\"tmp\"],\"missing\":[]},\"forbidden_dirs\":{\"expected_absent\":[\"docs/plans\"],\"present\":[]},\"moved_knowledge\":{\"outputs/learning-milestones/2026-09-a130-thesis-evidence-matrix.md\":{\"old_exists\":false,\"canonical\":\"knowledge/projects/a130-thesis-evidence-matrix.md\",\"canonical_exists\":true}},\"outputs\":{\"allowed_roots\":[\"degree-dissertation\",\"high-spin\",\"l3\",\"l4\",\"learning-daily\",\"learning-milestones\",\"learning-weekly\",\"literature-acquisition\",\"paper-cards\",\"plans\",\"self-tests\"],\"unknown_roots\":[],\"knowledge_page_types_in_outputs\":[]},\"qmd\":{\"checked\":true,\"available\":true,\"command\":[\"/opt/qmd/bin/qmd\",\"collection\",\"show\",\"nuclear-knowledge\"],\"exit\":0,\"path\":\"/workspace/wiki/knowledge\",\"pattern\":\"**/*.md\"}}},\"config_default\":null,\"protected_bib\":{\"path\":\"/workspace/wiki/raw/zotero/wiki-inbox.bib\",\"baseline_sha256\":\"037EA133DE204270AD36961CA66B3AB36C0913B7D472B45F8FD013C8293BE5BE\",\"actual_sha256\":\"037EA133DE204270AD36961CA66B3AB36C0913B7D472B45F8FD013C8293BE5BE\",\"status\":\"matched\"},\"exit_code\":0}\n",
+      "stderr_tail": ""
+    },
+    "report_exists": true,
+    "report_changed": true,
+    "report_valid": true,
+    "report_missing_headings": [],
+    "durable_knowledge": {
+      "valid": true,
+      "mode": "updated",
+      "knowledge_paths": [
+        "knowledge/projects/a130-thesis-evidence-matrix.md",
+        "knowledge/sources/ding-2012-phd-thesis-127-128i-high-spin.md",
+        "knowledge/index.md",
+        "knowledge/sources/aberg-flocard-nazarewicz-1990-mean-field-shapes.md",
+        "knowledge/sources/ding-2021-131ba-133ce-signature-splitting.md",
+        "knowledge/projects/a130-model-choice-card.md",
+        "knowledge/sources/hara-sun-1995-projected-shell-model-high-spin.md",
+        "knowledge/projects/131ce-collective-mode-discrimination.md",
+        "knowledge/sources/alwaleedi-2013-band-structures-131ce.md",
+        "knowledge/sources/singh-2016-lifetime-131ce-133pr.md",
+        "knowledge/sources/li-2004-lifetimes-131ce.md",
+        "knowledge/sources/petrache-1998-highly-deformed-lifetimes-131ce-nd.md",
+        "knowledge/sources/chakraborty-2023-131xe-wobbling-origin.md",
+        "knowledge/sources/matta-2015-transverse-wobbling-135pr.md",
+        "knowledge/sources/lv-2022-evidence-against-wobbling-135pr.md",
+        "knowledge/sources/guo-2021-comment-transverse-wobbling-135pr.md"
+      ],
+      "changed_paths": [
+        "knowledge/projects/131ce-collective-mode-discrimination.md"
+      ],
+      "change_check": "run-snapshot",
+      "error": null
+    },
+    "boundary_exit": 0,
+    "lint_exit": 0,
+    "lint_required_command_exit": 0,
+    "lint_required_command_summary": "SUMMARY pages=534 wikilinks=4857 hashes=246 errors=0 warnings=81 info=1124",
+    "git_diff_check_exit": 0
+  },
+  "finished_at": "2026-09-28T12:04:09.265530+08:00",
+  "next_prompt_file": "/workspace/wiki/outputs/learning-daily/prompts/20260928-DAY2-shell-gap-single-particle.md",
+  "next_prompt_error": null,
+  "original_status": "failed-verification",
+  "original_exit_code": 1,
+  "original_failure_reason": "You’ve hit your usage limit. Upgrade to Plus to continue using Codex (https://chatgpt.com/explore/plus), or try again at Oct 26th, 2026 4:00 PM. | You’ve hit your usage limit. Upgrade to Plus to continue using Codex (https://chatgpt.com/explore/plus), or try again at Oct 26th, 2026 4:00 PM.",
+  "recovery": {
+    "status": "completed",
+    "recovered_at": "2026-09-28T12:04:09.265530+08:00",
+    "authorized_by_user": true,
+    "prior_status": "failed-verification",
+    "prior_exit_code": 1,
+    "prior_failure_reason": "You’ve hit your usage limit. Upgrade to Plus to continue using Codex (https://chatgpt.com/explore/plus), or try again at Oct 26th, 2026 4:00 PM. | You’ve hit your usage limit. Upgrade to Plus to continue using Codex (https://chatgpt.com/explore/plus), or try again at Oct 26th, 2026 4:00 PM.",
+    "resolution": "Matta source backlink repaired; post-recovery report, writeback snapshot, preflight, boundary, lint and diff checks passed; usage-limit state was cleared before this explicit recovery.",
+    "checks_passed": true,
+    "prior_finished_at": "2026-09-27T19:23:15.183695+08:00"
+  },
+  "original_finished_at": "2026-09-27T19:23:15.183695+08:00"
+}

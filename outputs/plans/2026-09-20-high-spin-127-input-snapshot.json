@@ -1,0 +1,1059 @@
+{
+  "schema_version": 1,
+  "plan_status": "active-ingest",
+  "snapshot_date": "2026-09-20",
+  "original_ledger": "raw/high-spin-reading-record.md",
+  "original_ledger_sha256": "56bf57606ef23cb34b2676e9737e455e6147aaea058761fc3b623e9eb75dce37",
+  "external_root_at_snapshot": "/workspace/zotero-reference/高自旋",
+  "counts": {
+    "original_entries": 127,
+    "user_excluded": 9,
+    "remaining_files": 118,
+    "remaining_unique_sha256": 110,
+    "extra_exact_copies": 8
+  },
+  "interpretation": "Hashes identify bytes, not publications. All retained items await source mapping, reading or existing-source review, and post-ingest self-audit. Exclusions were confirmed and deleted by the user, not by Codex.",
+  "exact_duplicate_groups": {
+    "0fde4a838d94fdc23dcd4d4034a945073cb569c47c153e9e3b90676c44838770": [
+      "HS-006",
+      "HS-007"
+    ],
+    "40cb4df52b26f0eabc9c86eba136fb68bc2da99d123a72276583483cc64dfd11": [
+      "HS-032",
+      "HS-033",
+      "HS-034"
+    ],
+    "883850ece784ecf7fcf126859f1a37c59772b42a5fb5aeae575e0aeef6600087": [
+      "HS-070",
+      "HS-071"
+    ],
+    "a244b7e49fb513f057119bce603c0790a5cf381bd7a909f9c2996d033e1439b7": [
+      "HS-085",
+      "HS-086"
+    ],
+    "cfaf97cac087bb39d558b654065005dc7e8177ddd5d851bf8a2f698a3abaa5b4": [
+      "HS-105",
+      "HS-106",
+      "HS-107",
+      "HS-108"
+    ]
+  },
+  "items": [
+    {
+      "item_id": "HS-001",
+      "original_relative_path": "multipolarity/electromagnetic/2015_Gade_Sometimes γ-rays come in twos.pdf",
+      "present": true,
+      "bytes": 302028,
+      "sha256": "01ee9ba3e41b26de54f5a443de73f8bcf036390f6fe33b35057c2b0474f89d81",
+      "identity_status": "pending-content-verification"
+    },
+    {
+      "item_id": "HS-002",
+      "original_relative_path": "multipolarity/angular distribution/ADO/2002_郑 et al_符合模式下的γ射线各向异性度测量.pdf",
+      "present": true,
+      "bytes": 111268,
+      "sha256": "03044180a59fa5be55bcb6c517e9b87285c0991855afe5e1104e9dd03e9a7f23",
+      "identity_status": "pending-content-verification"
+    },
+    {
+      "item_id": "HS-003",
+      "original_relative_path": "振动/2026_Jahangir et al_Microscopic investigation of γ vibrational band structures in odd-mass nuclei.pdf",
+      "present": true,
+      "bytes": 445686,
+      "sha256": "04187f6dd9a77fcdf87b545506c17f021159a4426c6ce358277e4aeb912c49a4",
+      "identity_status": "pending-content-verification"
+    },
+    {
+      "item_id": "HS-004",
+      "original_relative_path": "纲图/2013_Zheng et al_γ -ray linear polarization measurements and ( g 9 - 2 ) − 3 neutron alignment.pdf",
+      "present": true,
+      "bytes": 1028953,
+      "sha256": "0688633ba372e7f3f60b2e9fd69e556d28070b2f5bde62d13d01d1bd9a5483ef",
+      "identity_status": "pending-content-verification"
+    },
+    {
+      "item_id": "HS-005",
+      "original_relative_path": "纲图/1978_Meyer et al_Multiparticle configurations in the odd-neutron nuclei Ni 61 and Zn 67.pdf",
+      "present": true,
+      "bytes": 868439,
+      "sha256": "0e3aeebca53776e3f99ac058563cb40b272425136bd2035ceb778b2aea218b36",
+      "identity_status": "pending-content-verification"
+    },
+    {
+      "item_id": "HS-006",
+      "original_relative_path": "NPA695-Jensen-2001-3.pdf",
+      "present": true,
+      "bytes": 727017,
+      "sha256": "0fde4a838d94fdc23dcd4d4034a945073cb569c47c153e9e3b90676c44838770",
+      "identity_status": "pending-content-verification"
+    },
+    {
+      "item_id": "HS-007",
+      "original_relative_path": "纲图/2001_Jensen et al_General properties of the πh92[541]12− configuration and level scheme of 165Tm.pdf",
+      "present": true,
+      "bytes": 727017,
+      "sha256": "0fde4a838d94fdc23dcd4d4034a945073cb569c47c153e9e3b90676c44838770",
+      "identity_status": "pending-content-verification"
+    },
+    {
+      "item_id": "HS-008",
+      "original_relative_path": "multipolarity/angular distribution/polarizaiton/1983_Simpson et al_Application of a sectored Ge(Li) detector as a Compton polarimeter.pdf",
+      "present": true,
+      "bytes": 506561,
+      "sha256": "1216684723d0b98daef22997446168c628951c1a062d8d9283ef3efc9fafa6d9",
+      "identity_status": "pending-content-verification"
+    },
+    {
+      "item_id": "HS-009",
+      "original_relative_path": "multipolarity/angular distribution/polarizaiton/1995_Garcia-Raffi et al_Non-orthogonal gamma-ray compton polarimeters.pdf",
+      "present": true,
+      "bytes": 394455,
+      "sha256": "129ccca13b7e6ea0153b47e81a37d54832b4979eb6e649cc183822a9b76ff67a",
+      "identity_status": "pending-content-verification"
+    },
+    {
+      "item_id": "HS-010",
+      "original_relative_path": "review/1995_Hara_Sun_PROJECTED SHELL MODEL AND HIGH-SPIN SPECTROSCOPY.pdf",
+      "present": true,
+      "bytes": 6336930,
+      "sha256": "13ca9edbd3092d2d3c4612e9d22b7cb1ff740d07f0f97c5f139ac901a7b26dac",
+      "identity_status": "pending-content-verification"
+    },
+    {
+      "item_id": "HS-011",
+      "original_relative_path": "multipolarity/mixing ratio/1971_Taras_Gamma-Ray Linear Polarization and Angular Distribution Formulas in Terms of Phase-Defined Reduced Ma.pdf",
+      "present": true,
+      "bytes": 1157959,
+      "sha256": "151e8a5274e3f9f510f3884a0e5e20a0ca8c9d883d609fe18ab7b4fb669e8a5d",
+      "identity_status": "pending-content-verification"
+    },
+    {
+      "item_id": "HS-012",
+      "original_relative_path": "三轴/手征/2018_Petrache et al_Evidence of chiral bands in even-even nuclei.pdf",
+      "present": true,
+      "bytes": 1155420,
+      "sha256": "1a67cab9a4088f03260d097e98c7cfb8c0bcd69ee79d74b3dd7df93343743697",
+      "identity_status": "pending-content-verification"
+    },
+    {
+      "item_id": "HS-013",
+      "original_relative_path": "multipolarity/angular distribution/polarizaiton/1974_Logan et al_A generalized figure of merit for gamma-ray polarimeters.pdf",
+      "present": true,
+      "bytes": 226638,
+      "sha256": "1b3e1ad53b79b5128dee32cf63224b7b6f5f6a3d6bc50408814aec681421f364",
+      "identity_status": "pending-content-verification"
+    },
+    {
+      "item_id": "HS-014",
+      "original_relative_path": "multipolarity/angular distribution/ADO/1970_Taras_Analysis of particle-gamma angular correlations and distributions.pdf",
+      "present": true,
+      "bytes": 460506,
+      "sha256": "1bd0ec877718f6cd98ae087ebbc78409694be407b1a66ff778488997a56a8813",
+      "identity_status": "pending-content-verification"
+    },
+    {
+      "item_id": "HS-015",
+      "original_relative_path": "multipolarity/angular distribution/DCO/1987_Bargholtz_Tegnér_Gamma-gamma directional correlations.pdf",
+      "present": true,
+      "bytes": 415748,
+      "sha256": "1be5667433cc44b2c53f67e5f23a0c0721d2e56d6cc6c284d5da807badbcff17",
+      "identity_status": "pending-content-verification"
+    },
+    {
+      "item_id": "HS-016",
+      "original_relative_path": "multipolarity/angular distribution/polarizaiton/1973_Butler et al_Construction and use of a three Ge(Li) Compton polarimeter.pdf",
+      "present": true,
+      "bytes": 578497,
+      "sha256": "1d19589bd41fb0b28230a3cb76cf8c240fc5f7899b1bd50a1c288bcfb8a3e7c2",
+      "identity_status": "pending-content-verification"
+    },
+    {
+      "item_id": "HS-017",
+      "original_relative_path": "三轴/进动/实验/2024_Guo et al_Evidence for Chiral Wobbler in Nuclei 1.pdf",
+      "present": true,
+      "bytes": 87156,
+      "sha256": "1eb2c1af4ff7d1bf6460c154baabacb80e3ca7e63fa1832ca1d1b3d58b5ea9a0",
+      "identity_status": "pending-content-verification"
+    },
+    {
+      "item_id": "HS-018",
+      "original_relative_path": "转动/1975_Stephens_Coriolis effects and rotation alignment in nuclei.pdf",
+      "present": true,
+      "bytes": 2415958,
+      "sha256": "25369cc4420667d6c38c52d5e6e5a489b48431aaa709998c4743f92ab5049ac3",
+      "identity_status": "pending-content-verification"
+    },
+    {
+      "item_id": "HS-019",
+      "original_relative_path": "形变/1998_Ionescu-Bujor et al_Static electromagnetic moments and nuclear shapes in 129,131Ce.pdf",
+      "present": true,
+      "bytes": 984692,
+      "sha256": "2735874b2be1116741f421a114ffa5995be93c99891ed284d962b53f0446484b",
+      "identity_status": "pending-content-verification"
+    },
+    {
+      "item_id": "HS-020",
+      "original_relative_path": "形变/2024_Li et al_Robustness of the octupole collectivity in $${^{144}textrm{Ba}}$$ within the cranking covariant den.pdf",
+      "present": true,
+      "bytes": 1492301,
+      "sha256": "294e1cc6ae9543ab3c6474d47ff91937be220f4cea3332b3a65897fd29f92155",
+      "identity_status": "pending-content-verification"
+    },
+    {
+      "item_id": "HS-021",
+      "original_relative_path": "multipolarity/angular distribution/polarizaiton/1997_García-Raffi et al_Monte Carlo simulation of Compton polarimeters.pdf",
+      "present": true,
+      "bytes": 701800,
+      "sha256": "2b860327fa3d8e0aeeab31e89b8e337ff8278b24f452b4fb456b6bbda4871e31",
+      "identity_status": "pending-content-verification"
+    },
+    {
+      "item_id": "HS-022",
+      "original_relative_path": "三轴/手征/1997_Frauendorf_Jie Meng_Tilted rotation of triaxial nuclei.pdf",
+      "present": true,
+      "bytes": 914264,
+      "sha256": "2bd27510b61b1ca7e9d0eff559f8c0bcde46939249d7c5a720bf8425f7114f81",
+      "identity_status": "pending-content-verification"
+    },
+    {
+      "item_id": "HS-023",
+      "original_relative_path": "multipolarity/electromagnetic/1984_Schirmer et al_Double Gamma Decay in Ca 40 and Zr 90.pdf",
+      "present": true,
+      "bytes": 664733,
+      "sha256": "2e84b4c7bda5077f41edd381e9c225c4e1a898fe988c3c7824e9ecefaaa9adfa",
+      "identity_status": "pending-content-verification"
+    },
+    {
+      "item_id": "HS-024",
+      "original_relative_path": "三轴/进动/理论/1977_Cohen et al_Tachycardia and bradycardia-dependent bundle branch block alternans.pdf",
+      "present": false,
+      "bytes": null,
+      "sha256": null,
+      "identity_status": "excluded-user-confirmed"
+    },
+    {
+      "item_id": "HS-025",
+      "original_relative_path": "三轴/进动/理论/1975_Sandhu et al_Potable water quality in rural Georgetown County.pdf",
+      "present": false,
+      "bytes": null,
+      "sha256": null,
+      "identity_status": "excluded-user-confirmed"
+    },
+    {
+      "item_id": "HS-026",
+      "original_relative_path": "三轴/进动/理论/2018_Frauendorf_Beyond the Unified Model.pdf",
+      "present": true,
+      "bytes": 14860764,
+      "sha256": "327be11cf2e58408fa8f3a3f27ee9cfcd3a9ae3a56ac7dd9658cc0f7245ebfff",
+      "identity_status": "pending-content-verification"
+    },
+    {
+      "item_id": "HS-027",
+      "original_relative_path": "纲图/2001_Königshofen et al_Multipole mixing ratios in 130 Ba.pdf",
+      "present": true,
+      "bytes": 52402,
+      "sha256": "34428af79a8dcc3a7dc27a6a416c3fa556a2d37e763df76cb1218241f370a755",
+      "identity_status": "pending-content-verification"
+    },
+    {
+      "item_id": "HS-028",
+      "original_relative_path": "形变/2013_Gaffney et al_Studies of pear-shaped nuclei using accelerated radioactive beams.pdf",
+      "present": true,
+      "bytes": 588098,
+      "sha256": "3b7975206409de9286df55a82c820783b2ebd371824bf50d69da6c9e916c551b",
+      "identity_status": "pending-content-verification"
+    },
+    {
+      "item_id": "HS-029",
+      "original_relative_path": "三轴/手征/实验/2013_Ayangeakaa et al_Evidence for Multiple Chiral Doublet Bands in Ce 133 1.pdf",
+      "present": true,
+      "bytes": 471531,
+      "sha256": "3c5a3d7c543140ee25f7cb09376d5aeee760c8ac50c76edd466a010d610c2d0f",
+      "identity_status": "pending-content-verification"
+    },
+    {
+      "item_id": "HS-030",
+      "original_relative_path": "multipolarity/electromagnetic/2024_Freire-Fernandez et al_Measurement of the Isolated Nuclear Two-Photon Decay in 72 Ge.pdf",
+      "present": true,
+      "bytes": 787049,
+      "sha256": "3e35af6920c1c22c654fead0e1b9e36fa38ba2a2e39672f02011e65a62ad7dc7",
+      "identity_status": "pending-content-verification"
+    },
+    {
+      "item_id": "HS-031",
+      "original_relative_path": "振动/1966_Greiner_Magnetic properties of even nuclei.pdf",
+      "present": true,
+      "bytes": 699888,
+      "sha256": "3e7aecb21de5329e02419861eed21d3526bc8efbc51c3c9cc432e974d0cdf83f",
+      "identity_status": "pending-content-verification"
+    },
+    {
+      "item_id": "HS-032",
+      "original_relative_path": "multipolarity/angular distribution/polarizaiton/1970_Twin et al_Polarization and angular correlation measurements following the 40Ar(p, nγ)40K reaction.pdf",
+      "present": true,
+      "bytes": 754194,
+      "sha256": "40cb4df52b26f0eabc9c86eba136fb68bc2da99d123a72276583483cc64dfd11",
+      "identity_status": "pending-content-verification"
+    },
+    {
+      "item_id": "HS-033",
+      "original_relative_path": "multipolarity/angular distribution/polarizaiton/1970_Twin et al_Polarization and angular correlation measurements following the 40Ar(p, nγ)40K.pdf",
+      "present": true,
+      "bytes": 754194,
+      "sha256": "40cb4df52b26f0eabc9c86eba136fb68bc2da99d123a72276583483cc64dfd11",
+      "identity_status": "pending-content-verification"
+    },
+    {
+      "item_id": "HS-034",
+      "original_relative_path": "multipolarity/mixing ratio/1970_Twin et al_Polarization and angular correlation measurements following the 40Ar(p, nγ)40K reaction.pdf",
+      "present": true,
+      "bytes": 754194,
+      "sha256": "40cb4df52b26f0eabc9c86eba136fb68bc2da99d123a72276583483cc64dfd11",
+      "identity_status": "pending-content-verification"
+    },
+    {
+      "item_id": "HS-035",
+      "original_relative_path": "review/1996_Butler_Nazarewicz_Intrinsic reflection asymmetry in atomic nuclei.pdf",
+      "present": true,
+      "bytes": 1559285,
+      "sha256": "40e915a556361cb472139fb683146d66c1385c3e87de5aaa16d2bd8628afe090",
+      "identity_status": "pending-content-verification"
+    },
+    {
+      "item_id": "HS-036",
+      "original_relative_path": "multipolarity/electromagnetic/2015_Walz et al_Observation of the competitive double-gamma nuclear decay.pdf",
+      "present": true,
+      "bytes": 405831,
+      "sha256": "4177a89672ef1362d9dc35ff1292c7550c2db477fe34b61abaec4c72475b9c45",
+      "identity_status": "pending-content-verification"
+    },
+    {
+      "item_id": "HS-037",
+      "original_relative_path": "review/2016_Pseudospin symmetry in nuclear structure and its supersymmetric representation.pdf",
+      "present": true,
+      "bytes": 850395,
+      "sha256": "42addac07765e3bcdc15eefd3c72266f254ea8a7ce97a5e9e9ab23dc26eb5f01",
+      "identity_status": "pending-content-verification"
+    },
+    {
+      "item_id": "HS-038",
+      "original_relative_path": "1975_Radiochemical assay of glutathione S-epoxide transferase and its enhancement by phenobarbital in rat.pdf",
+      "present": false,
+      "bytes": null,
+      "sha256": null,
+      "identity_status": "excluded-user-confirmed"
+    },
+    {
+      "item_id": "HS-039",
+      "original_relative_path": "旋称/2021_Ding et al_Signature splitting of the g 7 - 2 [ 404 ] 7 - 2 + bands in Ba 131 and Ce 2.pdf",
+      "present": true,
+      "bytes": 1294375,
+      "sha256": "47451ae95676399c72b907b0efa10bdeb07e82c794a1ed480759ee20bae0c652",
+      "identity_status": "pending-content-verification"
+    },
+    {
+      "item_id": "HS-040",
+      "original_relative_path": "纲图/1977_Wadsworth et al_Gamma ray spectroscopy insup61-sup Ni-levels below 2.pdf",
+      "present": true,
+      "bytes": 889555,
+      "sha256": "47533c460e7af3bdb01b6864790dc1f14aea69f4a1316ea4faf42eb28aec279a",
+      "identity_status": "pending-content-verification"
+    },
+    {
+      "item_id": "HS-041",
+      "original_relative_path": "multipolarity/mixing ratio/1948_Falkoff_Polarization Correlation of Successive Gamma-Ray Quanta.pdf",
+      "present": true,
+      "bytes": 238577,
+      "sha256": "47cf0977334fc9dc8fc27b3d25b46a2eac4272c611df4c10ce69ccdb07d2b589",
+      "identity_status": "pending-content-verification"
+    },
+    {
+      "item_id": "HS-042",
+      "original_relative_path": "review/1956_Alder et al_Study of Nuclear Structure by Electromagnetic Excitation with Accelerated Ions.pdf",
+      "present": true,
+      "bytes": 9694620,
+      "sha256": "48d906a64ef15ced5de1d61bb3ffe87c44498e3b8b4f3bf896ae9f7f8ba403f7",
+      "identity_status": "pending-content-verification"
+    },
+    {
+      "item_id": "HS-043",
+      "original_relative_path": "1975_Atomic models for the polypeptide backbones of myohemerythrin and hemerythrin.pdf",
+      "present": false,
+      "bytes": null,
+      "sha256": null,
+      "identity_status": "excluded-user-confirmed"
+    },
+    {
+      "item_id": "HS-044",
+      "original_relative_path": "multipolarity/angular distribution/polarizaiton/1972_Bass et al_Symmetrical two-crystal compton polarimeter for gamma rays.pdf",
+      "present": true,
+      "bytes": 820544,
+      "sha256": "4f6bfed154b9c2dbe60bae672a2a998f3777b31879746ffeff5bd63040d3994d",
+      "identity_status": "pending-content-verification"
+    },
+    {
+      "item_id": "HS-045",
+      "original_relative_path": "multipolarity/angular distribution/polarizaiton/1929_Über die Streuung von Strahlung durch freie Elektronen nach der neuen relativistischen Quantendynami.pdf",
+      "present": true,
+      "bytes": 692125,
+      "sha256": "5020b8c9480606b29a96496412219cb3f985ba3f522223d5bf016c407565a40d",
+      "identity_status": "pending-content-verification"
+    },
+    {
+      "item_id": "HS-046",
+      "original_relative_path": "multipolarity/angular distribution/polarizaiton/1995_Von Der Werth et al_Two Compton polarimeter constructions for modern standard γ-spectroscopy.pdf",
+      "present": true,
+      "bytes": 839074,
+      "sha256": "54db57f926f99e069186e99a5b373ef5cb79f234eec43cc6ff84c82e80563021",
+      "identity_status": "pending-content-verification"
+    },
+    {
+      "item_id": "HS-047",
+      "original_relative_path": "review/1949_Haxel et al_On the Magic Numbers in Nuclear Structure.pdf",
+      "present": true,
+      "bytes": 238229,
+      "sha256": "55626064ffdeaf2ba8c4a836e425bffa269a2050464064015db09de73a3539a2",
+      "identity_status": "pending-content-verification"
+    },
+    {
+      "item_id": "HS-048",
+      "original_relative_path": "旋称/2016_Reed et al_Impact of triaxiality on the rotational structure of neutron-rich rhenium.pdf",
+      "present": true,
+      "bytes": 628702,
+      "sha256": "5689134f0960028580c4341bc26ae12d78c633cb1f0ee9ba98cc9be28721ea11",
+      "identity_status": "pending-content-verification"
+    },
+    {
+      "item_id": "HS-049",
+      "original_relative_path": "1975_Effect of chloroquine on cultured fibroblasts release of lysosomal hydrolases and inhibition of the.pdf",
+      "present": false,
+      "bytes": null,
+      "sha256": null,
+      "identity_status": "excluded-user-confirmed"
+    },
+    {
+      "item_id": "HS-050",
+      "original_relative_path": "multipolarity/mixing ratio/1968_Hamilton et al_Angular correlation measurements in 192Pt.pdf",
+      "present": true,
+      "bytes": 522643,
+      "sha256": "5a08c45e80c6793456ad892f68e97bf471c86b4ec69f57fe0920d179ec477f77",
+      "identity_status": "pending-content-verification"
+    },
+    {
+      "item_id": "HS-051",
+      "original_relative_path": "纲图/2019_Samanta et al_Single particle configurations in 61Ni.pdf",
+      "present": true,
+      "bytes": 535956,
+      "sha256": "5b0575aeb4d75f13cf239cbe3293875b3c0f62507921568c0dc72749e663c9a5",
+      "identity_status": "pending-content-verification"
+    },
+    {
+      "item_id": "HS-052",
+      "original_relative_path": "review/1979_Nolan_Sharpey-Schafer_The measurement of the lifetimes of excited nuclear states.pdf",
+      "present": true,
+      "bytes": 5480302,
+      "sha256": "5e20f735e995021f4a0eb8c1a937acedeee53509caed3ffa2cd8ddaa794bbc4f",
+      "identity_status": "pending-content-verification"
+    },
+    {
+      "item_id": "HS-053",
+      "original_relative_path": "三轴/手征/实验/2018_Petrache et al_Evidence of chiral bands in even-even nuclei.pdf",
+      "present": true,
+      "bytes": 568727,
+      "sha256": "5e6f1c01501598b5cf765d838d86a2b37a4fcf252039ba9058e631ccc7517f81",
+      "identity_status": "pending-content-verification"
+    },
+    {
+      "item_id": "HS-054",
+      "original_relative_path": "1975_Formate assay in body fluids application in methanol poisoning.pdf",
+      "present": false,
+      "bytes": null,
+      "sha256": null,
+      "identity_status": "excluded-user-confirmed"
+    },
+    {
+      "item_id": "HS-055",
+      "original_relative_path": "奇特原子核/综述/2001_Walker_Dracoulis_Exotic Isomers in Deformed Atomic Nuclei.pdf",
+      "present": true,
+      "bytes": 232859,
+      "sha256": "62cc9071a6101118535d16aeb66f0f192e7ad8904abdfa80b6b56119473c1489",
+      "identity_status": "pending-content-verification"
+    },
+    {
+      "item_id": "HS-056",
+      "original_relative_path": "三轴/进动/理论/2015_Frauendorf_The low-energy quadrupole mode of nuclei.pdf",
+      "present": true,
+      "bytes": 2224585,
+      "sha256": "6503190945574eb2a19dc10555f4abc8866340dc3b84e0ff72068fcb0d9010d5",
+      "identity_status": "pending-content-verification"
+    },
+    {
+      "item_id": "HS-057",
+      "original_relative_path": "振动/2005_Gore et al_Unexpected rapid variations in odd-even level staggering in gamma-vibrational.pdf",
+      "present": true,
+      "bytes": 203654,
+      "sha256": "6571b5a3a5c2b14b13fb9411b08a9cf8f91eadcb26ef22a1c69e62a19ecf67b3",
+      "identity_status": "pending-content-verification"
+    },
+    {
+      "item_id": "HS-058",
+      "original_relative_path": "review/2011_Heyde_Wood_Shape coexistence in atomic nuclei.pdf",
+      "present": true,
+      "bytes": 3400392,
+      "sha256": "660c376e493e638501bfc8596d4eda46f490becb811ba5f30259d6f78c652183",
+      "identity_status": "pending-content-verification"
+    },
+    {
+      "item_id": "HS-059",
+      "original_relative_path": "multipolarity/angular distribution/polarizaiton/1998_Schmid et al_Gamma-ray polarization sensitivity of the Gammasphere segmented germanium.pdf",
+      "present": true,
+      "bytes": 329387,
+      "sha256": "66502edb2f0ff2d09321d3b388767ea98736b83865b90f128fdd1e46921b2a2c",
+      "identity_status": "pending-content-verification"
+    },
+    {
+      "item_id": "HS-060",
+      "original_relative_path": "multipolarity/angular distribution/DCO/1973_Krane et al_Directional correlations of gamma radiations emitted from nuclear states.pdf",
+      "present": true,
+      "bytes": 3264340,
+      "sha256": "66f9b04ad093223c648036063e3e9631317660b532b2b77681089d9d79853848",
+      "identity_status": "pending-content-verification"
+    },
+    {
+      "item_id": "HS-061",
+      "original_relative_path": "review/Summary of Bases for Spin and Parity Assignments.pdf",
+      "present": true,
+      "bytes": 96855,
+      "sha256": "671963d1bf820cd35e03960d70c7c6c0a1b243b872fcd72923049853807a77fa",
+      "identity_status": "pending-content-verification"
+    },
+    {
+      "item_id": "HS-062",
+      "original_relative_path": "形变/2013_Lister_Butterworth_Exotic pear-shaped nuclei.pdf",
+      "present": true,
+      "bytes": 375337,
+      "sha256": "6e88e68b0fd884a606d42d218bd54af75be7bc3344be0f721e9b9039dbf46dc8",
+      "identity_status": "pending-content-verification"
+    },
+    {
+      "item_id": "HS-063",
+      "original_relative_path": "形变/2006_Möller et al_Global Calculations of Ground-State Axial Shape Asymmetry of Nuclei.pdf",
+      "present": true,
+      "bytes": 280701,
+      "sha256": "6f56615cf523369591820f4abac6cece7ce3adee02dd33763346d1dc5fff4ebc",
+      "identity_status": "pending-content-verification"
+    },
+    {
+      "item_id": "HS-064",
+      "original_relative_path": "三轴/手征/2009_孟_原子核是否存在手性.pdf",
+      "present": true,
+      "bytes": 692618,
+      "sha256": "70ac8390928546ee33ac07a793092880a092bfc4984526e094319eea4fc3dec7",
+      "identity_status": "pending-content-verification"
+    },
+    {
+      "item_id": "HS-065",
+      "original_relative_path": "形变/2021_Suzuki_Kimura_Triaxial deformation and the disappearance of the N = 28 shell gap.pdf",
+      "present": true,
+      "bytes": 1087806,
+      "sha256": "7719016e6ae01cbf5b70f4128420c9802d3f4b6054150baad0c443d43b813423",
+      "identity_status": "pending-content-verification"
+    },
+    {
+      "item_id": "HS-066",
+      "original_relative_path": "三轴/进动/实验/2018_Macchiavelli et al_Erratum.pdf",
+      "present": true,
+      "bytes": 96126,
+      "sha256": "772804ce5ddf6817024757cede56cabcff9efbbf10d221b04bac2e1f661f7e84",
+      "identity_status": "pending-content-verification"
+    },
+    {
+      "item_id": "HS-067",
+      "original_relative_path": "multipolarity/mixing ratio/1999_Droste et al_PPCO polarization–polarization correlation from oriented nuclei.pdf",
+      "present": true,
+      "bytes": 277602,
+      "sha256": "7d2a0ecf0805c1ea8d845c3d0f1e36fb873b0ae87e16d5be20152ba8b97773ee",
+      "identity_status": "pending-content-verification"
+    },
+    {
+      "item_id": "HS-068",
+      "original_relative_path": "形变/2025_Gade et al_In-beam spectroscopy reveals competing nuclear shapes in the rare isotope 62Cr.pdf",
+      "present": true,
+      "bytes": 3147645,
+      "sha256": "80ada48de9df6bddc15b9de79ad6e6d77fc4a6822264d8d7ebdf23762c12203e",
+      "identity_status": "pending-content-verification"
+    },
+    {
+      "item_id": "HS-069",
+      "original_relative_path": "转动/2007_McCutchan et al_Staggering in γ-band energies and the transition between different structural.pdf",
+      "present": true,
+      "bytes": 433828,
+      "sha256": "83acbb32d23d0f7bbe726a28d91e298bda1fa06871020fd18c2c6fc05f52d2ed",
+      "identity_status": "pending-content-verification"
+    },
+    {
+      "item_id": "HS-070",
+      "original_relative_path": "形变/2021_Nomura et al_Coupling of pairing and triaxial shape vibrations in collective states of γ.pdf",
+      "present": true,
+      "bytes": 782753,
+      "sha256": "883850ece784ecf7fcf126859f1a37c59772b42a5fb5aeae575e0aeef6600087",
+      "identity_status": "pending-content-verification"
+    },
+    {
+      "item_id": "HS-071",
+      "original_relative_path": "振动/2021_Nomura et al_Coupling of pairing and triaxial shape vibrations in collective states of γ -soft nuclei.pdf",
+      "present": true,
+      "bytes": 782753,
+      "sha256": "883850ece784ecf7fcf126859f1a37c59772b42a5fb5aeae575e0aeef6600087",
+      "identity_status": "pending-content-verification"
+    },
+    {
+      "item_id": "HS-072",
+      "original_relative_path": "multipolarity/mixing ratio/1999_Starosta et al_Experimental test of the polarization direction correlation method (PDCO).pdf",
+      "present": true,
+      "bytes": 187061,
+      "sha256": "883fdd7b08831efefe25f5df610e84b95bb1acbcd7b8e7f684b1a1b31bf8030b",
+      "identity_status": "pending-content-verification"
+    },
+    {
+      "item_id": "HS-073",
+      "original_relative_path": "转动/2011_Rees et al_Non-yrast positive-parity structures in the γ -soft nucleus Er 156.pdf",
+      "present": true,
+      "bytes": 471871,
+      "sha256": "899151b1b93fdd2c323d45f252b7ea840516daae85c8d9016cb75aada775059f",
+      "identity_status": "pending-content-verification"
+    },
+    {
+      "item_id": "HS-074",
+      "original_relative_path": "形变/1975_Cannon et al_N-Isopropyl derivatives of dopamine and 5,6-dihydroxy-2-aminotetralin.pdf",
+      "present": false,
+      "bytes": null,
+      "sha256": null,
+      "identity_status": "excluded-user-confirmed"
+    },
+    {
+      "item_id": "HS-075",
+      "original_relative_path": "review/2005_Hübel_Magnetic rotation in nuclei.pdf",
+      "present": true,
+      "bytes": 3367438,
+      "sha256": "8b1913a7639ccdb4f5fa53348453f604048703c2e7942f40b4b4c793d8be4a77",
+      "identity_status": "pending-content-verification"
+    },
+    {
+      "item_id": "HS-076",
+      "original_relative_path": "multipolarity/mixing ratio/1969_Hamilton_The multipole mixing ratio of 2′+ → 2+ transitions in 194Pt and 196Pt.pdf",
+      "present": true,
+      "bytes": 580665,
+      "sha256": "8b575f5913d054340bb26b03e6ef7270de7e96e26f110420f331f2ff7beeda7a",
+      "identity_status": "pending-content-verification"
+    },
+    {
+      "item_id": "HS-077",
+      "original_relative_path": "multipolarity/angular distribution/polarizaiton/1995_Jones et al_Calibration of the new composite “clover” detector as a Compton polarimeter for.pdf",
+      "present": true,
+      "bytes": 451755,
+      "sha256": "8d2cf5ee101d9f3109f6663269fa62f9d6a829e432e05db2502252bf5b132460",
+      "identity_status": "pending-content-verification"
+    },
+    {
+      "item_id": "HS-078",
+      "original_relative_path": "nuclear astrophysics/2005_Aprahamian et al_Nuclear structure aspects in nuclear astrophysics.pdf",
+      "present": true,
+      "bytes": 3158935,
+      "sha256": "8e2b69c75fc398e1266633011f836b852f9c8e527b16a54868867b6c9fb14d12",
+      "identity_status": "pending-content-verification"
+    },
+    {
+      "item_id": "HS-079",
+      "original_relative_path": "review/2012_Pfützner et al_Radioactive decays at limits of nuclear stability.pdf",
+      "present": true,
+      "bytes": 8772137,
+      "sha256": "8e70ebfb00b61f7288535dc70de5de15b88f81cccde43a412fd9fcae7b4decd2",
+      "identity_status": "pending-content-verification"
+    },
+    {
+      "item_id": "HS-080",
+      "original_relative_path": "multipolarity/mixing ratio/1967_Rose et al_Angular Distributions of Gamma Rays in Terms of Phase-Defined Reduced Matrix Elements.pdf",
+      "present": true,
+      "bytes": 3549789,
+      "sha256": "8f846b61b9320de291ee5600126c5e286a0fe05968df819696816f0dc1ec57dc",
+      "identity_status": "pending-content-verification"
+    },
+    {
+      "item_id": "HS-081",
+      "original_relative_path": "multipolarity/angular distribution/ADO/1974_Der Mateosian_Sunyar_Tables of angular-distribution coefficients for gamma rays of mixed.pdf",
+      "present": true,
+      "bytes": 5348580,
+      "sha256": "90b23807ddc39006a7c17cc05d8dc030139c39802675823c6560f222486d6eeb",
+      "identity_status": "pending-content-verification"
+    },
+    {
+      "item_id": "HS-082",
+      "original_relative_path": "形变/1990_Aberg et al_Nuclear Shapes in Mean Field Theory.pdf",
+      "present": true,
+      "bytes": 2707032,
+      "sha256": "90e3d1324dbf591cc042a3ad3b777a75e00af1463869d9ad557af433469562e6",
+      "identity_status": "pending-content-verification"
+    },
+    {
+      "item_id": "HS-083",
+      "original_relative_path": "三轴/手征/2007_Mukhopadhyay et al_From Chiral Vibration to Static Chirality in Nd 135.pdf",
+      "present": true,
+      "bytes": 211022,
+      "sha256": "9eccc9c2ad02cc10735d1aad0d76eb2fd8af0a4acc814bcaab8099f50e748425",
+      "identity_status": "pending-content-verification"
+    },
+    {
+      "item_id": "HS-084",
+      "original_relative_path": "形变/1990_Ma et al_Competing proton and neutron rotational alignments.pdf",
+      "present": true,
+      "bytes": 685089,
+      "sha256": "a0dbdd4957d1d11af570b5daffc9c44609d9ef5ed570dc3ad32a67388dad90de",
+      "identity_status": "pending-content-verification"
+    },
+    {
+      "item_id": "HS-085",
+      "original_relative_path": "振动/2018_Eldridge et al_E2M1 mixing ratios in transitions from the gamma vibrational bands to the ground state rotational b 1.pdf",
+      "present": true,
+      "bytes": 891348,
+      "sha256": "a244b7e49fb513f057119bce603c0790a5cf381bd7a909f9c2996d033e1439b7",
+      "identity_status": "pending-content-verification"
+    },
+    {
+      "item_id": "HS-086",
+      "original_relative_path": "振动/2018_Eldridge et al_E2M1 mixing ratios in transitions from the gamma vibrational bands to the ground state rotational b.pdf",
+      "present": true,
+      "bytes": 891348,
+      "sha256": "a244b7e49fb513f057119bce603c0790a5cf381bd7a909f9c2996d033e1439b7",
+      "identity_status": "pending-content-verification"
+    },
+    {
+      "item_id": "HS-087",
+      "original_relative_path": "multipolarity/angular distribution/polarizaiton/2007_Miller et al_Linear polarization sensitivity of SeGA detectors.pdf",
+      "present": true,
+      "bytes": 371472,
+      "sha256": "a334ee35a84ded50f6a7937c037ee13d2d06b2f8406b0c68fac1a4245999acf3",
+      "identity_status": "pending-content-verification"
+    },
+    {
+      "item_id": "HS-088",
+      "original_relative_path": "multipolarity/mixing ratio/1970_Krane et al_Determination of the E2M1 Multipole Mixing Ratios of the Gamma Transitions in Cd110.pdf",
+      "present": true,
+      "bytes": 775520,
+      "sha256": "ab82cb483425ba984a8c30b35f118b4713e186d53899fcbbba6a19dd444377f1",
+      "identity_status": "pending-content-verification"
+    },
+    {
+      "item_id": "HS-089",
+      "original_relative_path": "multipolarity/angular distribution/polarizaiton/1975_Aoki et al_Ge(Li) summing spectrometers of special type.pdf",
+      "present": true,
+      "bytes": 535001,
+      "sha256": "b0a36fa350a078021212b8cd9a28fecc389baf1ebbbd8a60f79f025b68cc70a7",
+      "identity_status": "pending-content-verification"
+    },
+    {
+      "item_id": "HS-090",
+      "original_relative_path": "纲图/2024_Rahaman et al_Spectroscopic study of K 40.pdf",
+      "present": true,
+      "bytes": 1503841,
+      "sha256": "b5010c6bb7a48625e01ff56741ad919c70f226ca9dfc487fb40c0201a1c15f05",
+      "identity_status": "pending-content-verification"
+    },
+    {
+      "item_id": "HS-091",
+      "original_relative_path": "纲图/2020_Das et al_High spin states of Ar 37.pdf",
+      "present": true,
+      "bytes": 800278,
+      "sha256": "b7c28e74a0c6a572a9c46642982c2d8b19a4ee643fc9f8f7be03aee8f13b6483",
+      "identity_status": "pending-content-verification"
+    },
+    {
+      "item_id": "HS-092",
+      "original_relative_path": "multipolarity/angular distribution/polarizaiton/1959_Fagg_Hanna_Polarization Measurements on Nuclear Gamma Rays.pdf",
+      "present": true,
+      "bytes": 3924126,
+      "sha256": "bb3571150d4c552dc5acdbd148546acc7eea4f07dce907eaf0d82377191cb2ee",
+      "identity_status": "pending-content-verification"
+    },
+    {
+      "item_id": "HS-093",
+      "original_relative_path": "纲图/2014_Bisoi et al_High spin spectroscopy in 34 Cl.pdf",
+      "present": true,
+      "bytes": 751761,
+      "sha256": "bc0af718ffb496f135abe2a51b82f87d208776fce155926a8604e8c05d126f85",
+      "identity_status": "pending-content-verification"
+    },
+    {
+      "item_id": "HS-094",
+      "original_relative_path": "multipolarity/angular distribution/polarizaiton/1998_Schmid et al_Gamma-ray polarization sensitivity of the Gammasphere segmented germanium2.pdf",
+      "present": true,
+      "bytes": 1189387,
+      "sha256": "bdb397650e5b8cc92f358e386f52703604dd0962184364004eb8985f76998558",
+      "identity_status": "pending-content-verification"
+    },
+    {
+      "item_id": "HS-095",
+      "original_relative_path": "multipolarity/electromagnetic/1987_Kramp et al_Nuclear two-photon decay in 0+→0+ transitions.pdf",
+      "present": true,
+      "bytes": 1792872,
+      "sha256": "be1b792e5b3e47a50e177a3ec48f7fbb605ae4db0d8af8f6ec2c60cdf9388413",
+      "identity_status": "pending-content-verification"
+    },
+    {
+      "item_id": "HS-096",
+      "original_relative_path": "1975_Metal substitutions incarbonic anhydrase a halide ion probe study.pdf",
+      "present": false,
+      "bytes": null,
+      "sha256": null,
+      "identity_status": "excluded-user-confirmed"
+    },
+    {
+      "item_id": "HS-097",
+      "original_relative_path": "纲图/1975_Williams et al_A study of the low-lying levels in 61Ni.pdf",
+      "present": true,
+      "bytes": 686172,
+      "sha256": "bfdcc111891a0f88c3ab01df131c438337497fc0d456e8ca3fa6a09912f0a02e",
+      "identity_status": "pending-content-verification"
+    },
+    {
+      "item_id": "HS-098",
+      "original_relative_path": "review/1978_Ragnarsson et al_Shell structure in nuclei.pdf",
+      "present": true,
+      "bytes": 7487966,
+      "sha256": "c0c83854dec7ca897f640f637252646feb65bc03fde5f45ca77d6c0f206d1153",
+      "identity_status": "pending-content-verification"
+    },
+    {
+      "item_id": "HS-099",
+      "original_relative_path": "multipolarity/angular distribution/DCO/1974_James et al_The statistical analysis of γ-ray angular correlation experiments.pdf",
+      "present": true,
+      "bytes": 836909,
+      "sha256": "c629c42b34570b1a03f450d63feed892f22df864732a47ab02bfa2d9e2a8101a",
+      "identity_status": "pending-content-verification"
+    },
+    {
+      "item_id": "HS-100",
+      "original_relative_path": "g-factor/2018_Grodner et al_First Measurement of the g Factor in the Chiral Band.pdf",
+      "present": true,
+      "bytes": 424830,
+      "sha256": "c71ec59160c444c34ab7f340db5f045c1f26456bc1741197ec62caea7f4efbf2",
+      "identity_status": "pending-content-verification"
+    },
+    {
+      "item_id": "HS-101",
+      "original_relative_path": "纲图/2015_Garg et al_Negative-parity high-spin states and a possible magnetic rotation band in Pr 76.pdf",
+      "present": true,
+      "bytes": 571281,
+      "sha256": "c74e7c12614cf405861c639194e132f3096d5f46d22062b0164fa166282b9e88",
+      "identity_status": "pending-content-verification"
+    },
+    {
+      "item_id": "HS-102",
+      "original_relative_path": "1975_Maturation of the adrenal medulla--IV. Effects of morphine.pdf",
+      "present": false,
+      "bytes": null,
+      "sha256": null,
+      "identity_status": "excluded-user-confirmed"
+    },
+    {
+      "item_id": "HS-103",
+      "original_relative_path": "旋称/1996_Liu et al_Systematic study of spin assignments and signature inversion of π h 1 1 - 2 ⊗ν.pdf",
+      "present": true,
+      "bytes": 295806,
+      "sha256": "ca3e1c1bc834158112dee525fa4c42c3d44596975a506f3a2a1da023580a346f",
+      "identity_status": "pending-content-verification"
+    },
+    {
+      "item_id": "HS-104",
+      "original_relative_path": "multipolarity/electromagnetic/2014_Henderson et al_Upper limit on the two-photon emission branch for the 0 2 + → 0 1 + transition.pdf",
+      "present": true,
+      "bytes": 210571,
+      "sha256": "cc58109417fc373322985f880b6b54f3bb2efbe9a88baa8536fb96a6a015d7cd",
+      "identity_status": "pending-content-verification"
+    },
+    {
+      "item_id": "HS-105",
+      "original_relative_path": "review/1965_Davidson_Rotations and Vibrations in Deformed Nuclei 1.pdf",
+      "present": true,
+      "bytes": 5681348,
+      "sha256": "cfaf97cac087bb39d558b654065005dc7e8177ddd5d851bf8a2f698a3abaa5b4",
+      "identity_status": "pending-content-verification"
+    },
+    {
+      "item_id": "HS-106",
+      "original_relative_path": "review/1965_Davidson_Rotations and Vibrations in Deformed Nuclei.pdf",
+      "present": true,
+      "bytes": 5681348,
+      "sha256": "cfaf97cac087bb39d558b654065005dc7e8177ddd5d851bf8a2f698a3abaa5b4",
+      "identity_status": "pending-content-verification"
+    },
+    {
+      "item_id": "HS-107",
+      "original_relative_path": "形变/1965_Davidson_Rotations and Vibrations in Deformed Nuclei.pdf",
+      "present": true,
+      "bytes": 5681348,
+      "sha256": "cfaf97cac087bb39d558b654065005dc7e8177ddd5d851bf8a2f698a3abaa5b4",
+      "identity_status": "pending-content-verification"
+    },
+    {
+      "item_id": "HS-108",
+      "original_relative_path": "振动/1965_Davidson_Rotations and Vibrations in Deformed Nuclei.pdf",
+      "present": true,
+      "bytes": 5681348,
+      "sha256": "cfaf97cac087bb39d558b654065005dc7e8177ddd5d851bf8a2f698a3abaa5b4",
+      "identity_status": "pending-content-verification"
+    },
+    {
+      "item_id": "HS-109",
+      "original_relative_path": "multipolarity/angular distribution/polarizaiton/1994_Schlitt et al_A sectored Ge-Compton polarimeter for parity assignments in photon scattering.pdf",
+      "present": true,
+      "bytes": 868962,
+      "sha256": "d23380e6a8bea4be9e77c845ba125f3b934765744bad6a1f300a3301aae07684",
+      "identity_status": "pending-content-verification"
+    },
+    {
+      "item_id": "HS-110",
+      "original_relative_path": "multipolarity/angular distribution/ADO/1974_Der Mateosian_Sunyar_Tables of attenuation coefficients for angular distribution of gamma rays from.pdf",
+      "present": true,
+      "bytes": 1309430,
+      "sha256": "d31d778674037b17ec2e47f3e9a2d917e46bf273b6cc6e01c607e3eccb843e90",
+      "identity_status": "pending-content-verification"
+    },
+    {
+      "item_id": "HS-111",
+      "original_relative_path": "review/1970_Summary of bases for spin and parity assignments — 1970.pdf",
+      "present": true,
+      "bytes": 301807,
+      "sha256": "d8386bab5d0b6639354207e7149709c615bf4cf907303e5fc7e61a349a19487e",
+      "identity_status": "pending-content-verification"
+    },
+    {
+      "item_id": "HS-112",
+      "original_relative_path": "multipolarity/mixing ratio/1974_Vaillancourt et al_Gamma-ray linear-polarization and angular-distribution formulas for mixtures of three multipoles.pdf",
+      "present": true,
+      "bytes": 548901,
+      "sha256": "dbdb5bc9bc7aaa99079f2443e4b2e62d3b84e09d4bf1355942dae4e4ce79218f",
+      "identity_status": "pending-content-verification"
+    },
+    {
+      "item_id": "HS-113",
+      "original_relative_path": "multipolarity/mixing ratio/1996_Droste et al_PDCO Polarizational-directional correlation from oriented nuclei.pdf",
+      "present": true,
+      "bytes": 700399,
+      "sha256": "dbfd6796aafc53693b446533c89094a14427e25624321bc16a6edae1b5d84247",
+      "identity_status": "pending-content-verification"
+    },
+    {
+      "item_id": "HS-114",
+      "original_relative_path": "multipolarity/angular distribution/polarizaiton/1969_Ewan et al_Gamma-ray polarization measurements with a single Ge(Li) detector.pdf",
+      "present": true,
+      "bytes": 260960,
+      "sha256": "ded2493ef0e816b3ed74bc5921f61324ec71b1ae34de8be96c988c71fa3e7be5",
+      "identity_status": "pending-content-verification"
+    },
+    {
+      "item_id": "HS-115",
+      "original_relative_path": "review/1999_Afanasjev et al_Termination of rotational bands.pdf",
+      "present": true,
+      "bytes": 3135993,
+      "sha256": "dff5cc076849dbdcc503bd0a9921efb12059f76ccba3fec643c84473f7e02009",
+      "identity_status": "pending-content-verification"
+    },
+    {
+      "item_id": "HS-116",
+      "original_relative_path": "multipolarity/electromagnetic/SUPPLEMENTARY INFORMATION.pdf",
+      "present": true,
+      "bytes": 279756,
+      "sha256": "e02bb09bae8f80252a4dca64fe2d487d2c05f292abda1f3a5249ff614a70e2d9",
+      "identity_status": "pending-content-verification"
+    },
+    {
+      "item_id": "HS-117",
+      "original_relative_path": "multipolarity/angular distribution/ADO/1967_Yamazaki_Tables of coefficients for angular distribution of gamma rays from aligned.pdf",
+      "present": true,
+      "bytes": 1103765,
+      "sha256": "e807782c580a0313ee3763f56df1dd424e5c97925d70e3d30a79a8b534c81f70",
+      "identity_status": "pending-content-verification"
+    },
+    {
+      "item_id": "HS-118",
+      "original_relative_path": "multipolarity/angular distribution/polarizaiton/1959_Suffert et al_Polarization measurements of proton capture gamma rays.pdf",
+      "present": true,
+      "bytes": 630537,
+      "sha256": "ea2742bd196d30497fc919839fb249dfd7e50a88411411831d981604b2016669",
+      "identity_status": "pending-content-verification"
+    },
+    {
+      "item_id": "HS-119",
+      "original_relative_path": "三轴/手征/2008_Mukhopadhyay et al_Electromagnetic transition rates in high-spin bands in Nd 136.pdf",
+      "present": true,
+      "bytes": 171233,
+      "sha256": "ea77d7d033051369d19aad2f82a542e91e262eb490d518b246f7f04c2d0dcd2c",
+      "identity_status": "pending-content-verification"
+    },
+    {
+      "item_id": "HS-120",
+      "original_relative_path": "三轴/手征/2006_Petrache et al_Risk of Misinterpretation of Nearly Degenerate Pair Bands as Chiral Partners in.pdf",
+      "present": true,
+      "bytes": 274213,
+      "sha256": "ec32a76efbeebf1a924a1c95eb9d404a99158fc9226605414b324e982cfe1d4f",
+      "identity_status": "pending-content-verification"
+    },
+    {
+      "item_id": "HS-121",
+      "original_relative_path": "review/1982_Lange et al_E0-E2-M1 multipole admixtures of transitions in even-even nuclei.pdf",
+      "present": true,
+      "bytes": 4188525,
+      "sha256": "ed925a0577a9257903806acd209c1db707529e86a5bfd9a301a83d597bf78ffb",
+      "identity_status": "pending-content-verification"
+    },
+    {
+      "item_id": "HS-122",
+      "original_relative_path": "形变/2016_Bucher et al_Direct Evidence of Octupole Deformation in Neutron-Rich Ba 144.pdf",
+      "present": true,
+      "bytes": 881225,
+      "sha256": "f0da6d0a56cd10d1023633aed1a25d021f88a0ff48787c4569a26031e1b3dc4d",
+      "identity_status": "pending-content-verification"
+    },
+    {
+      "item_id": "HS-123",
+      "original_relative_path": "衰变/2026_Dey et al_Multifaceted Decay of Cs 116.pdf",
+      "present": true,
+      "bytes": 1029438,
+      "sha256": "f44415e0934f0550238adf9853d41760e1bf456f311f30b5c8dba27dbe442563",
+      "identity_status": "pending-content-verification"
+    },
+    {
+      "item_id": "HS-124",
+      "original_relative_path": "multipolarity/mixing ratio/1948_Hamilton_Polarization and Direction of Propagation of Successive Quanta.pdf",
+      "present": true,
+      "bytes": 1326395,
+      "sha256": "f569db64c7e402558fd574839ba5c3da56bc8ecf1b37dab330be706118dc0879",
+      "identity_status": "pending-content-verification"
+    },
+    {
+      "item_id": "HS-125",
+      "original_relative_path": "纲图/2015_Herzáň et al_Detailed spectroscopy of Bi 193.pdf",
+      "present": true,
+      "bytes": 1300051,
+      "sha256": "f727485ad0f52269a66b27272dac75d34d9e67aaf8b073631cfeac5fe81d3aea",
+      "identity_status": "pending-content-verification"
+    },
+    {
+      "item_id": "HS-126",
+      "original_relative_path": "三轴/进动/实验/2024_H. Amro et al_Evidence for Chiral Wobbler in Nuclei.pdf",
+      "present": true,
+      "bytes": 861536,
+      "sha256": "f8ca78604264fc3cf5081d8ddd20c2a8e708e3fe4526d73fa037f1f75c532fe6",
+      "identity_status": "pending-content-verification"
+    },
+    {
+      "item_id": "HS-127",
+      "original_relative_path": "multipolarity/electromagnetic/2020_Söderström et al_Electromagnetic character of the competitive γγ-γ-decay from 137mBa.pdf",
+      "present": true,
+      "bytes": 1046629,
+      "sha256": "fb8bd159bae6e5f1e2b9827e1bf2bce7cd98c126c7fef00f1bd41526154ec12a",
+      "identity_status": "pending-content-verification"
+    }
+  ]
+}

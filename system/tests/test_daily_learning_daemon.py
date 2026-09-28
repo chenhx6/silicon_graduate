@@ -20,22 +20,22 @@ TZ = ZoneInfo("Asia/Shanghai")
 
 class DailyLearningDaemonTests(unittest.TestCase):
     def test_next_trigger_before_target_is_same_day(self) -> None:
-        now = datetime(2026, 9, 22, 21, 59, 30, tzinfo=TZ)
+        now = datetime(2026, 9, 22, 15, 59, 30, tzinfo=TZ)
         self.assertEqual(
             run_daily_learning_daemon.next_trigger(now),
-            datetime(2026, 9, 22, 22, 0, tzinfo=TZ),
+            datetime(2026, 9, 22, 16, 0, tzinfo=TZ),
         )
 
     def test_next_trigger_at_or_after_target_rolls_to_next_day(self) -> None:
-        now = datetime(2026, 9, 22, 22, 0, tzinfo=TZ)
+        now = datetime(2026, 9, 22, 16, 0, tzinfo=TZ)
         self.assertEqual(
             run_daily_learning_daemon.next_trigger(now),
-            datetime(2026, 9, 23, 22, 0, tzinfo=TZ),
+            datetime(2026, 9, 23, 16, 0, tzinfo=TZ),
         )
         later = datetime(2026, 9, 22, 23, 30, tzinfo=TZ)
         self.assertEqual(
             run_daily_learning_daemon.next_trigger(later),
-            datetime(2026, 9, 23, 22, 0, tzinfo=TZ),
+            datetime(2026, 9, 23, 16, 0, tzinfo=TZ),
         )
 
     def test_due_time_catches_up_after_missed_trigger(self) -> None:
@@ -51,8 +51,12 @@ class DailyLearningDaemonTests(unittest.TestCase):
         marker = {"last_scheduled_date": "2026-09-22", "last_status": "failed"}
         self.assertEqual(
             run_daily_learning_daemon.next_due(now, marker),
-            datetime(2026, 9, 23, 22, 0, tzinfo=TZ),
+            datetime(2026, 9, 23, 16, 0, tzinfo=TZ),
         )
+
+    def test_default_trigger_is_four_pm_shanghai(self) -> None:
+        self.assertEqual(run_daily_learning_daemon.DEFAULT_HOUR, 16)
+        self.assertEqual(run_daily_learning_daemon.DEFAULT_MINUTE, 0)
 
     def test_running_marker_is_retryable_after_restart(self) -> None:
         now = datetime(2026, 9, 22, 23, 0, tzinfo=TZ)

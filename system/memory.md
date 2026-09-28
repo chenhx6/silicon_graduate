@@ -45,6 +45,7 @@ updated: 2026-09-10
 - 讨论多声子 wobbling 的 anharmonicity 时，必须区分能带能量与 successive phonon spacing，并写清参与差分的能带和自旋；不得把“第二声子增量较低”简写成含义不同的“TW2 能量低于 TW1 的两倍”。
 - 2026-08-18 Nature Skills 安装记录保留为历史事实；后续维护以 Python 更新器和 Wiki evidence policy 为准。
 - 2026-09-22 用户明确：每日学习自动化必须完全运行在 Docker 内。使用容器内 `run_daily_learning_daemon.py` 负责 Asia/Shanghai 22:00 调度；不得使用宿主机任务计划、Docker socket、PowerShell 或外部 project cron。
+- 2026-09-25 用户将每日学习 daemon 的触发时间从 22:00 调整为 Asia/Shanghai 16:00，以便在当天更早验证自启动和 runner 修复；Docker 内运行边界不变。
 - 2026-09-23 用户明确：`knowledge/` 是 Wiki 的长期知识大脑；每日学习产生的可复用 source/project/synthesis/question/research-note/matrix 增量写入 `knowledge/`，`outputs/` 只保存日报、周报、审计、回执、调度状态和其它过程交代。
 - 2026-09-23 路径契约固化：`raw/` 原始材料，`knowledge/` 长期知识，`outputs/` 交代性输出与 `outputs/plans/` 任务计划书，`system/` 治理执行，`tools/` 外部工具，`tmp/` 临时数据；`docs/plans/` 禁止重新创建。输出中的可复用知识必须同步回写 `knowledge/`，QMD 仅索引 `knowledge/**/*.md`；`wiki_boundary_check.py` 由 automation preflight 调用。
 - 2026-09-23 用户确认：日报 runner 每次用新的 `codex exec` session，不复用固定 session；`run.json` 必须保存 `session_id`、`session_mode` 和可复制的 `resume_command`，便于按日恢复讨论。2026-09-22 的 Day 1/Day 2 仅作为 Docker/runner 实例验收，全部标记为 `acceptance-only`，不计入新的 30 个实质成功日；状态从 `next_day_index: 1` 重新开始。

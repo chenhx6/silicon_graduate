@@ -43,12 +43,12 @@ tags: [magic-numbers, shell-model, spin-orbit, historical-theory]
 ## Key Results
 
 - An isotropic/anharmonic oscillator organizes single-particle levels by `r=n1+n2+n3`; spin-orbit splitting of high-`l` terms produces shell closures.
-- The letter associates magic numbers `2, 8, 20, 28, 50, 82, 126` with marked splitting of the highest-`j` term in each oscillator group and compares predicted `j` assignments with known odd-mass spins/moments.
+- The letter explicitly derives the historical sequence `14, 28, 50, 82, 126` from marked splitting of the highest-`j` term in each oscillator group (PDF p.1766, Table I and letter text). The modern broader sequence `2, 8, 20, 28, 50, 82, 126` is contextual nuclear-structure knowledge and should not be attributed wholesale to this one-page 1949 letter.
 - The authors prefer an anharmonic oscillator over a simple potential-well sequence because nuclear-force range is not much smaller than the nuclear radius.
 
 | ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
 |---|---|---|---|---|---|
-| HJS49-1 | Strong spin-orbit splitting of high-`l` oscillator terms generates the traditional magic-number sequence `2,8,20,28,50,82,126`. | model-result | direct | PDF p.1766, Table I and letter text | true |
+| HJS49-1 | In this letter, strong spin-orbit splitting of high-`l` oscillator terms is used to derive the listed historical closures `14,28,50,82,126`; the modern `2,8,20` context is not a direct claim of this table. | model-result | direct | PDF p.1766, Table I and letter text | true |
 | HJS49-2 | Anharmonic-oscillator grouping is preferred over a simple potential well because the nuclear-force range is not negligible relative to the radius. | author-interpretation | direct | PDF p.1766 | true |
 
 ## Summary
@@ -64,11 +64,11 @@ The argument is schematic and predates realistic Woods–Saxon/EDF, tensor and c
 | ID | 审核项 | Agent 判断 | Evidence / locator | 审核状态 |
 |---|---|---|---|---|
 | HJS49-AR-1 | Identity | Haxel/Jensen/Suess title and Table I are present; other scan-page letters are excluded. | PDF p.1766 | self-checking |
-| HJS49-AR-2 | Model boundary | Magic-number sequence follows schematic oscillator+spin-orbit assumptions; no modern parameter-fit claim. | Table I/letter text | self-checking |
+| HJS49-AR-2 | Model boundary | The table's historical `14,28,50,82,126` sequence must be separated from the modern `2,8,20` context and from quantitative shell-evolution calculations. | Table I/letter text | self-checking |
 
 ## Knowledge Impact and Learning Decision
 
-- Effect: `supports` historical shell-structure background for [[covariant-density-functional-theory]] and high-spin orbital assignments.
+- Effect: `revises` the historical shell-structure background by separating the letter's explicit `14,28,50,82,126` table from the modern `2,8,20,...` context; it still supports [[covariant-density-functional-theory]] and high-spin orbital background.
 - Persistence: source/index only; no new nucleus page.
 - Review state: Codex self-audited; not `human-reviewed`.
 

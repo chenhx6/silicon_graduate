@@ -1,10 +1,66 @@
 ---
 type: system-handoff
 graph-excluded: true
-updated: 2026-09-23
+updated: 2026-09-28
 ---
 
 # 跨会话交接
+
+## 2026-09-27 formal Day 1 baseline run
+
+日报见 `outputs/learning-daily/20260927-DAY1-baseline-research-contract.md`；session `01a0e1e1-812e-7eb3-a140-cedd5fe10111` 可用 `codex resume 01a0e1e1-812e-7eb3-a140-cedd5fe10111 -C /workspace/wiki -s danger-full-access -a never` 恢复。用户明确授权修复验收后，report/writeback、preflight、boundary、lint 与 diff 均通过；原 receipt 已按恢复审计标记为 `completed`、Day 1 已计数，原始 Continuation 14 usage-limit exit `1` 与 Matta backlink 校验错误保留在 recovery 字段，未删除原始历史。milestone `next_day_index=2`，正式次日 prompt：`outputs/learning-daily/prompts/20260928-DAY2-shell-gap-single-particle.md`。没有改 review 状态、raw、PLAN 或受保护 BibTeX。
+
+科学开放项仍是 Matta/Lv 的 branch/response 差异和合法取得 Gizon 1977 全文；这两项不妨碍 Day 1 基线任务卡完成。
+
+## 2026-09-26 formal Day 1 baseline run (continuation 2)
+
+Run `2026-09-26-day-01-01` remains active under `wiki-daily-learning`. The Day 1 report is `outputs/learning-daily/20260926-DAY1-baseline-research-contract.md`. The run read the required plans/workflows, rechecked Ding 2021 `131Ba/133Ce` signature-splitting evidence and the independent Walz/Söderström `137mBa` companion-observable comparison, and added the matrix anchor `131Ba/133Ce νg7/2 signature-splitting mechanism bridge` to `knowledge/projects/a130-thesis-evidence-matrix.md`. Continuation 1 then verified public full text for Palacz 1991 `131Ce` (refs.47) and Bazzacco 1998 `133Nd` (refs.48), created their source pages and added the `N=73 original-source audit (Palacz 1991/Bazzacco 1998)` row to `knowledge/projects/131ce-collective-mode-discrimination.md`; Byrne 1992 `129Ba` (ref.46) remains closed/blocked at full text. The two PDFs were added only under `raw/papers/gpt/_incoming/20260926-day1-n73/`; no existing raw was overwritten. Boundary check passed before writing; final lint/diff and runner receipt/session fields remain to be finalized after continuation turns.
+
+Continuation 2 completed the Day 2 shell-gap/orbital/observable exercise. It visually rechecked HJS49 Table I and corrected the source-local attribution: HJS explicitly lists `14,28,50,82,126`, while the modern `2,8,20,...` context belongs to later background/RS78 and must not be attributed wholesale to the 1949 letter. The existing `knowledge/projects/a130-shell-gap-orbital-observable.md` already contained the occupancy arithmetic and model/observable boundary, so no duplicate bridge row was added. Boundary exit `0`, lint exit `0` (`0/80/1120`), and diff check exit `0` were rerun.
+
+Recoverable next route: refs.47/48 are source-page verified with PAL91/BAZ98 locators; ref.46 Byrne 1992 remains closed/full-text blocked and must not be inferred from Ding captions. The next high-information route is Day 3 mean-field/Nilsson/CSM/HFB model-choice mapping. Keep `S(I)`, `R_ac`, `γ`, `β₂` and low-j Coriolis mixing separated by evidence layer; do not start L4 without event/response/covariance/code inputs.
+
+## 2026-09-25 formal Day 1 baseline run
+
+The substantive Day 1 report is `outputs/learning-daily/20260925-DAY1-baseline-research-contract.md`, run `2026-09-25-day-01-01`, session `01a0d794-6454-7563-bac1-3b5ad970edda`. It completes the Ding 127/128I evidence-contract exercise: active recall, 12-item baseline-error-log, Fig.6.2/Table 6.1 level-scheme arithmetic, ADO boundary, model counter-evidence and missing companion observables. The canonical matrix row `Day 1 evidence contract (transferable baseline)` was checked and recorded as grounded `verified-no-op`; no knowledge page, raw input, PLAN or protected BibTeX was changed.
+
+Write-before boundary check exited 0. Final lint and diff checks are recorded in the report after execution. The runner owns receipt finalization, continuation count and substantive-state advancement; next route is Day 2 shell-gap/orbital recall and comparison.
+
+## 2026-09-25 continuation 1: signature-inversion crosswalk
+
+The same Day 1 session added the Liu 1996 A≈130 signature-inversion crosswalk to `knowledge/projects/a130-thesis-evidence-matrix.md`, with atomic locators LU96-1 through LU96-4. The durable row records that 11 of 13 previously assigned I0 values shift by an odd ΔI and that unresolved Cs anchors make signature/γ-shape interpretation conditional. Report continuation content is in `outputs/learning-daily/20260925-DAY1-baseline-research-contract.md`; the row remains `review_status: unreviewed`. Next route: compare Ma 1990 131Ba alignment/signature data and its cranking/TRS boundaries.
+
+## 2026-09-25 continuation 2: 131Ba competing alignments
+
+The same Day 1 session added the Ma 1990 131Ba alignment bridge to `knowledge/projects/a130-thesis-evidence-matrix.md`, with MA90-1 through MA90-4 atomic locators. The row records Table I angular/DCO/mixing constraints, Table II N=75 crossing and signature trends, and the TRS/CSM model boundary; no human-reviewed state was changed. Report and checks are in `outputs/learning-daily/20260925-DAY1-baseline-research-contract.md`; next route is Alwaleedi 2013 131Ce versus the Ma transition-strength chain.
+
+## 2026-09-25 continuation 3: 131Ce derived-strength boundary
+
+The same Day 1 session added the Alwaleedi 2013 131Ce derived-strength bridge to `knowledge/projects/a130-thesis-evidence-matrix.md`, with AW13-5, AW13-9, AW13-10 and AW13-11 locators. The row preserves the δ=0, g-factor, alignment, Q0 and missing lifetime/absolute-strength boundaries; no human-reviewed state was changed. Report and checks are in `outputs/learning-daily/20260925-DAY1-baseline-research-contract.md`; next route is Ding 2021 131Ba/133Ce signature splitting and low-j Coriolis mixing.
+
+## 2026-09-25 trigger accelerated to 16:00 Asia/Shanghai
+
+The user requested an earlier self-start so the repaired runner can be checked
+before the former 22:00 trigger. `run_daily_learning_daemon.py` now defaults to
+16:00 Asia/Shanghai; active workflow, queue, script README, and user guide
+references were synchronized. The existing daemon process was started with the
+old 22:00 default and must be restarted after this edit so it loads the new
+default. The next trigger is 2026-09-25 16:00 Asia/Shanghai.
+
+## 2026-09-25 nightly runner argument fix
+
+The 2026-09-24 22:00 `wiki-daily-learning` trigger reached the runner but failed
+before creating a Codex session because `--thread-source` was placed before the
+`exec` subcommand. `system/scripts/run_daily_learning.py` now places it after
+`exec`, matching the installed CLI syntax. The targeted runner tests (16/16),
+CLI help acceptance, shell/Python syntax checks, and `git diff --check` pass.
+The daemon remains active and will load the corrected runner on its next trigger.
+
+## 2026-09-24 Day 1 acceptance-only verification
+
+Run `2026-09-24-day-01-01` is finalized as `acceptance-only` in `outputs/learning-daily/2026-09-24-run-01/run.json`; report: `outputs/learning-daily/2026-09-24.md`. The existing `knowledge/projects/a130-thesis-evidence-matrix.md` Day 1 evidence-contract row was verified with atomic source locators `D12-1`, `D12-7`, and `AR-2`; no knowledge Markdown changed and the substantive state remains `next_day_index: 1`.
+
+Boundary check and writeback validation passed; Wiki lint exit `0` with `80` warnings and `1106` info, and `git diff --check` exit `0`. Session ID: `01a0cf3e-b7f4-7902-a980-ee8fe50f4496`; resume with `codex resume 01a0cf3e-b7f4-7902-a980-ee8fe50f4496 -C /workspace/wiki -s danger-full-access -a never`. Next substantive continuation is formal Day 1, not Day 2.
 
 ## 2026-09-23 substantive 30-day reset and per-day session contract
 
@@ -15,6 +71,10 @@ The daily runner now treats every `codex exec` invocation as a new session and w
 The substantive state is reset in `outputs/learning-milestones/2026-09-one-month-state.json` with `next_day_index: 1`, cycle `2026-09-30-day-substantive` and an explicit exclusion list. The Docker daily plan is authorized for network use, arXiv/NNDC/ENSDF/Google Scholar/Crossref/publisher searches, `danger-full-access`, and autonomous L1–L4 work; Gitee remains the recovery remote. Evidence provenance, locator, reproducibility and failure boundaries remain recorded.
 
 Next: verify the next real scheduled run's `run.json` and `resume_command`; count it as substantive Day 1 only after the normal report, knowledge-writeback, lint and diff gates pass.
+
+## 2026-09-23 substantive Day 1 completed
+
+Report: `outputs/learning-daily/2026-09-23.md`; run `2026-09-23-day-01-01`. Added the Day 1 evidence-contract row to `knowledge/projects/a130-thesis-evidence-matrix.md`, grounded in Ding 2012 D12-1/D12-7/AR-2. Boundary check, Wiki lint (exit 0; 80 warnings, 1106 info) and `git diff --check` (exit 0) passed. No staging, commit, push, raw, PLAN or protected BibTeX changes. Continue with Day 2 shell-gap card.
 
 ## 2026-09-23 path contract and knowledge-backwrite boundary
 

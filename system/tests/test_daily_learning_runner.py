@@ -40,6 +40,7 @@ class DailyLearningRunnerTests(unittest.TestCase):
         self.assertIn("exec", command)
         self.assertIn("--thread-source", command)
         self.assertIn("scheduled", command)
+        self.assertLess(command.index("exec"), command.index("--thread-source"))
         self.assertNotIn("resume", command)
         self.assertNotIn("--ephemeral", command)
 

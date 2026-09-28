@@ -1353,3 +1353,9 @@ updated: 2026-07-15
 
 - Confirmed the 22:00 run created a new CLI session `01a0ce91-137f-7360-ba4e-d6f5b295cdb3` in the container, but its report failed verification on the durable locator gate.
 - Documented that `wiki-daily-learning` is a Docker-local schedule; `/root/.codex` sessions are not automatically registered in the host Codex GUI Scheduled list. Run receipts and scheduler JSONL now carry schedule ID, project root, session scope and resume command.
+
+## [2026-09-25] daily-learning | move self-start to 16:00 and reload daemon
+
+- Changed the Docker-local `wiki-daily-learning` default trigger from 22:00 to 16:00 Asia/Shanghai so runner repairs can be checked earlier in the day.
+- Synchronized the active workflow, queue, script guide, user guide and memory entry; historical receipts retain their original 22:00 timestamps.
+- Stopped the old daemon process and started the corrected process. Its scheduler event records `hour: 16`, `minute: 0`; dry-run resolves the next trigger to `2026-09-25T16:00:00+08:00`.

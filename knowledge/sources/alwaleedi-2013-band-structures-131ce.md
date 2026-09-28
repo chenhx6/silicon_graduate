@@ -93,6 +93,10 @@ Mohammed Abdullah Alwaleedi，*Band Structures of 131Ce*，University of Liverpo
 | AW13-11 | 本数据集没有寿命、绝对 B(E2)、线偏振或直接 γ 刚性测量，不能仅凭本论文裁决 wobbling、chirality、shape coexistence 或 γ-soft/γ-rigid。 | analytical-boundary | inferred | Dataset/method inventory across Chapters 3–5 | true |
 | AW13-12 | Table 5.3 排版原文把 Band 5 两个 signature 分量的高自旋端都写成 `e⊗AEFG`：`e⊗AE → e⊗AEFG` 与 `f⊗AE → e⊗AEFG`；180 dpi 页面视觉复核确认这不是文本提取误差。 | observed-fact | direct | Table 5.3, thesis p.80 | false |
 | AW13-13 | 2026-08-11 用户审核决定按 Table 5.3 原文保留上述两条映射，不以 signature 连续性把第二行改写为 `f⊗AEFG`。重复的高自旋 `e⊗AEFG` 标签在物理上如何对应两个低自旋 signature 分量仍未解决，需独立来源或作者勘误才能重映射。 | analytical-boundary | inferred | Table 5.2; Table 5.3; Section 5.2.2 Band 5; user review 2026-08-11 | false |
+| AW13-14 | Table 4.1 的 Band 1 quadrupole row reports `Eγ=507.9 keV`, `Iγ=100`, `R=0.94±0.02`, assigned `15/2−→11/2−` as E2; the table intensity is normalized to the 508-keV Band 1 transition. | experimental-fact | direct | PDF p.63, Table 4.1 | true |
+| AW13-15 | Table 4.2 的 Band 1 dipole row reports `Eγ=137.4 keV`, `Iγ=68.3±3.2`, `R=0.50±0.04`, assigned `11/2−→9/2−` as M1/E2. | experimental-fact | direct | PDF p.64, Table 4.2 | true |
+| AW13-16 | Table 4.4 的 Band 4 dipole row reports `Eγ=611.1 keV`, `Iγ=25.2±1.1`, `R=0.56±0.02`, assigned `17/2−→15/2−` as M1/E2; the text identifies this as a new Band 4→Band 1 feeding/linking transition. | experimental-fact | direct | PDF pp.61, 66, Table 4.4; Fig.4.5 | true |
+| AW13-17 | Table 4.3 的 Band 7 quadrupole row reports `Eγ=950.3 keV`, `Iγ=24.3±1.4`, `R=1.01±0.03`, assigned `29/2−→25/2−` as E2. | experimental-fact | direct | PDF p.65, Table 4.3 | true |
 
 ## Nuclear Structure Information
 
