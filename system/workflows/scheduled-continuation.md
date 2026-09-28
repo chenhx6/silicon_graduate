@@ -29,12 +29,17 @@ updated: 2026-09-06
 
 ### Docker 内每日学习 daemon
 
-对于本 Wiki 的每日学习，`system/scripts/run_daily_learning_daemon.py` 是唯一时钟。
-它在容器内等待 `Asia/Shanghai` 16:00，调用 `run_daily_learning.py`，每次调用
-创建新的 Codex session，并把调度状态、退出码、session ID 和可复制的 resume
-命令记录在 Wiki 内。容器启动入口负责后台拉起 daemon；
-需要人工检查时只在容器内运行 `--dry-run`。Farmer 只处理 Codex rollout 的允许瞬时
-失败，不负责唤醒 daemon 或安排每日触发。
+正常调度由 `system/scripts/run_daily_learning_daemon.py` 负责。它在容器内等待
+`Asia/Shanghai` 16:00，调用 `run_daily_learning.py`，每次调用创建新的 Codex session，
+并把调度状态、退出码、session ID 和可复制的 resume 命令记录在 Wiki 内。容器启动入口
+负责后台拉起 daemon；需要人工检查时只在容器内运行 `--dry-run`。
+
+如果 daemon 已退出，用户可在容器内显式运行
+`system/scripts/run_daily_learning_at.sh --at 'YYYY-MM-DD HH:MM' --prompt-file <prompt> --day-index <N>`
+启动前台单次等待器。它等待指定时刻后调用相同 runner，并持有 daemon 的单实例锁；若 daemon
+正在运行则拒绝启动，避免重复。漏过当天时刻后，只有确认没有同日 runner 后才使用
+`--run-now`。它不能唤醒已休眠的主机/容器；终端与容器必须保持运行。Farmer 只处理 Codex
+rollout 的允许瞬时失败，不负责唤醒 daemon 或安排每日触发。
 
 该 daemon 提供的是 `wiki-daily-learning` 的 Docker-local schedule，与 Codex GUI
 的 Scheduled 列表不是同一个调度对象。Docker 隔离下，容器内 `/root/.codex` 的

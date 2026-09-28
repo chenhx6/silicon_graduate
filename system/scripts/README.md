@@ -90,6 +90,25 @@ codex resume <session_id> -C /workspace/wiki -s danger-full-access -a never
 每次运行即使最终 `failed-verification`，只要 CLI 返回了 session ID，也会保留该
 session 和 resume 信息，便于查看对话、定位失败并优化工作流。
 
+### 手动前台定时启动
+
+若 daemon 没有运行，可在容器内手动启动一个前台单次等待器。它会按
+`Asia/Shanghai` 的指定日期和时间等待，随后调用相同的日学习 runner，并把等待心跳、
+prompt、session ID、resume 命令和退出码追加到
+`outputs/learning-milestones/2026-09-one-month-scheduler.jsonl`：
+
+```bash
+./system/scripts/run_daily_learning_at.sh \
+  --at 'YYYY-MM-DD HH:MM' \
+  --prompt-file outputs/learning-daily/prompts/YYYYMMDD-DAYn-topic.md \
+  --day-index 2
+```
+
+先加 `--dry-run` 可检查 target、prompt 和实际 runner 命令；漏过时间后，只有确认当天
+没有重复运行时才加 `--run-now`。等待器持有和 daemon 相同的单实例锁；若 daemon 仍在运行，
+它会拒绝启动，避免重复任务。等待器在前台运行，因此要保持当前终端和 Docker 容器存活；
+它不能唤醒休眠或停止的主机/容器，也不使用宿主机计划任务。
+
 runner 在日报标题检查之外，还验证 `## Durable knowledge delta` 中唯一的
 `knowledge-writeback` JSON 区块：每个 item 必须解析到 `knowledge/` canonical 页面、页内 anchor、`knowledge/sources/` 和 source locator；`updated` 还必须通过运行前后的 knowledge 快照变化检查，`verified-no-op` 必须证明没有变化。该验收失败时不推进 day state，避免“只生成日报、没有知识回写”被计为成功。
 

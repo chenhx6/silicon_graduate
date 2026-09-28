@@ -6,6 +6,17 @@ updated: 2026-09-28
 
 # 跨会话交接
 
+## 2026-09-28 daily trigger miss and foreground fallback
+
+9 月 28 日 scheduler 在 10:04 记录 daemon 启动并等待 16:00；16:07 核查时没有 daemon、runner 或 Codex 进程，scheduler 中也没有当天 `runner-started` 或 daemon exit 事件。DAY2 prompt 已生成，但当天没有 run receipt。可确认后台等待进程消失；日志不足以判定具体退出原因。
+
+新增 `system/scripts/run_daily_learning_at.sh` 与 Python waiter，供用户在容器前台显式等待一次：参数指定 Asia/Shanghai 时间、已生成的日 prompt 和 day index；等待期间记录 heartbeat；同 daemon 使用 `/tmp/wiki-one-month-daily-learning-daemon.lock`，到点调用现有 daily runner，按 Luna→Sol→Astra 既有瞬时错误 fallback，并把 session ID、resume 命令、结果写入 canonical scheduler JSONL。运行需保持当前终端与容器存活；不会唤醒休眠或停止的主机/容器。没有在本轮实际启动 DAY2。
+
+验证：Python 编译、shell 语法、DAY2 指定 prompt 的 dry-run、Wiki boundary 和 `git diff --check` 均通过。当前 branch `main`；本轮治理/工具包计划以 `Add manual foreground daily-learning launcher` 收口。没有启动实际学习任务。
+
+示例：
+`./system/scripts/run_daily_learning_at.sh --at '2026-09-28 18:00' --prompt-file outputs/learning-daily/prompts/20260928-DAY2-shell-gap-single-particle.md --day-index 2`
+
 ## 2026-09-27 formal Day 1 baseline run
 
 日报见 `outputs/learning-daily/20260927-DAY1-baseline-research-contract.md`；session `01a0e1e1-812e-7eb3-a140-cedd5fe10111` 可用 `codex resume 01a0e1e1-812e-7eb3-a140-cedd5fe10111 -C /workspace/wiki -s danger-full-access -a never` 恢复。用户明确授权修复验收后，report/writeback、preflight、boundary、lint 与 diff 均通过；原 receipt 已按恢复审计标记为 `completed`、Day 1 已计数，原始 Continuation 14 usage-limit exit `1` 与 Matta backlink 校验错误保留在 recovery 字段，未删除原始历史。milestone `next_day_index=2`，正式次日 prompt：`outputs/learning-daily/prompts/20260928-DAY2-shell-gap-single-particle.md`。没有改 review 状态、raw、PLAN 或受保护 BibTeX。

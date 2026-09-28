@@ -69,6 +69,10 @@ python3 system/scripts/run_daily_learning_daemon.py --root /workspace/wiki
 
 容器启动入口会在后台拉起同一 daemon；`/tmp/wiki-one-month-daily-learning-daemon.lock`
 防止重复实例，调度状态和简要事件写入 `outputs/learning-milestones/`。
+如果检查发现 daemon 已退出，可由用户在容器终端显式启动
+[`run_daily_learning_at.sh`](../scripts/README.md)：它以前台进程等待指定的日期/时间，
+使用指定的日 prompt 调用同一个 runner，并持有相同 daemon 锁。只使用一个调度持有者；
+前台等待器不会唤醒休眠的主机或容器，且必须保持终端会话运行。
 
 ### 动态学习循环
 

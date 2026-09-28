@@ -1359,3 +1359,9 @@ updated: 2026-07-15
 - Changed the Docker-local `wiki-daily-learning` default trigger from 22:00 to 16:00 Asia/Shanghai so runner repairs can be checked earlier in the day.
 - Synchronized the active workflow, queue, script guide, user guide and memory entry; historical receipts retain their original 22:00 timestamps.
 - Stopped the old daemon process and started the corrected process. Its scheduler event records `hour: 16`, `minute: 0`; dry-run resolves the next trigger to `2026-09-25T16:00:00+08:00`.
+
+## [2026-09-28] daily-learning | add foreground one-shot recovery launcher
+
+- The 2026-09-28 DAY2 trigger had no `runner-started` event or run receipt. The daemon log ended after `waiting` for 16:00, and no daemon/runner/Codex process remained at 16:07; the exit cause was not recorded.
+- Added `run_daily_learning_at.sh` and its Python waiter. It waits in the foreground for an explicit Asia/Shanghai target and prompt, uses the daemon's single-instance lock, invokes the existing runner/model priority, and records wait heartbeats plus session/resume/exit metadata. Updated the script guide, daily-learning/scheduled-continuation workflows, user guide and checklist. It does not wake a sleeping host/container.
+- Validation: `py_compile`, `bash -n`, matching-prompt dry-run, Wiki boundary check and `git diff --check` passed. No Codex learning run was launched by the launcher during implementation.
