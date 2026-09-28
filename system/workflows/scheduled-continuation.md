@@ -41,6 +41,10 @@ updated: 2026-09-06
 `--run-now`。它不能唤醒已休眠的主机/容器；终端与容器必须保持运行。Farmer 只处理 Codex
 rollout 的允许瞬时失败，不负责唤醒 daemon 或安排每日触发。
 
+等待期间按 `Ctrl+C` 只取消等待。runner 启动后按 `Ctrl+C` 会中断前台进程组；等待器记录
+`manual-waiter-interrupted` 并将当日 scheduler 状态置为 `failed`、退出码 `130`。中断任务
+的日报或回执可能不完整，续跑前先检查该次 `run.json`、事件文件和 session ID。
+
 该 daemon 提供的是 `wiki-daily-learning` 的 Docker-local schedule，与 Codex GUI
 的 Scheduled 列表不是同一个调度对象。Docker 隔离下，容器内 `/root/.codex` 的
 CLI session 不会自动注册到宿主机 GUI；`run.json` 和 scheduler JSONL 是本地

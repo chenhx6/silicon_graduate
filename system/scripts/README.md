@@ -108,6 +108,9 @@ prompt、session ID、resume 命令和退出码追加到
 没有重复运行时才加 `--run-now`。等待器持有和 daemon 相同的单实例锁；若 daemon 仍在运行，
 它会拒绝启动，避免重复任务。等待器在前台运行，因此要保持当前终端和 Docker 容器存活；
 它不能唤醒休眠或停止的主机/容器，也不使用宿主机计划任务。
+等待时按 `Ctrl+C` 会取消等待且不标记 runner 已启动；runner 启动后按 `Ctrl+C` 会中断
+前台 runner，记录 `manual-waiter-interrupted`，并把 scheduler 状态记为 `failed`/退出码 `130`。
+被中断的日报可能只有部分产物；如需继续，先检查当次 `run.json`、事件文件和 session ID。
 
 runner 在日报标题检查之外，还验证 `## Durable knowledge delta` 中唯一的
 `knowledge-writeback` JSON 区块：每个 item 必须解析到 `knowledge/` canonical 页面、页内 anchor、`knowledge/sources/` 和 source locator；`updated` 还必须通过运行前后的 knowledge 快照变化检查，`verified-no-op` 必须证明没有变化。该验收失败时不推进 day state，避免“只生成日报、没有知识回写”被计为成功。

@@ -6,13 +6,19 @@ updated: 2026-09-28
 
 # 跨会话交接
 
+## 2026-09-28 manual DAY2 run
+
+手动前台等待器按指定的 17:45 Asia/Shanghai 到点启动了 DAY2：`outputs/learning-daily/20260928-DAY2-shell-gap-single-particle-run-01/run.json`。Codex session `01a0e767-5b2c-7792-9707-9fd1d49f2eb0` 创建成功，运行在 18:13 因 usage limit 退出，`exit_code=1`、`status=failed-verification`，没有 continuation，也没有生成日报。该次旧版本 waiter 收尾又记录了 `name 'target' is not defined`，已在当前 launcher 中修复；它不是 Ctrl-C 导致的。scheduler 状态已人工对齐为 `failed`/`1`，DAY2 不计入成功日。当前没有 runner/Codex 进程。
+
+可用 resume 命令：`codex resume 01a0e767-5b2c-7792-9707-9fd1d49f2eb0 -C /workspace/wiki -s danger-full-access -a never`。恢复前先确认 usage limit 已解除，并检查该 run 的 `events.jsonl` 与 `run.json`；不要把缺失日报视为完成。
+
 ## 2026-09-28 daily trigger miss and foreground fallback
 
-9 月 28 日 scheduler 在 10:04 记录 daemon 启动并等待 16:00；16:07 核查时没有 daemon、runner 或 Codex 进程，scheduler 中也没有当天 `runner-started` 或 daemon exit 事件。DAY2 prompt 已生成，但当天没有 run receipt。可确认后台等待进程消失；日志不足以判定具体退出原因。
+9 月 28 日 scheduler 在 10:04 记录 daemon 启动并等待 16:00；16:07 核查时没有 daemon、runner 或 Codex 进程，scheduler 中也没有当天自动 `runner-started` 或 daemon exit 事件。DAY2 prompt 已生成，但自动触发没有 run receipt。随后用户使用前台等待器补做了一次，结果见上方记录。可确认后台等待进程消失；日志不足以判定具体退出原因。
 
-新增 `system/scripts/run_daily_learning_at.sh` 与 Python waiter，供用户在容器前台显式等待一次：参数指定 Asia/Shanghai 时间、已生成的日 prompt 和 day index；等待期间记录 heartbeat；同 daemon 使用 `/tmp/wiki-one-month-daily-learning-daemon.lock`，到点调用现有 daily runner，按 Luna→Sol→Astra 既有瞬时错误 fallback，并把 session ID、resume 命令、结果写入 canonical scheduler JSONL。运行需保持当前终端与容器存活；不会唤醒休眠或停止的主机/容器。没有在本轮实际启动 DAY2。
+新增 `system/scripts/run_daily_learning_at.sh` 与 Python waiter，供用户在容器前台显式等待一次：参数指定 Asia/Shanghai 时间、已生成的日 prompt 和 day index；等待期间记录 heartbeat；同 daemon 使用 `/tmp/wiki-one-month-daily-learning-daemon.lock`，到点调用现有 daily runner，按 Luna→Sol→Astra 既有瞬时错误 fallback，并把 session ID、resume 命令、结果写入 canonical scheduler JSONL。等待时 Ctrl+C 不改变 schedule 状态；runner 启动后 Ctrl+C 会记 `failed`/130，日报可能不完整。运行需保持当前终端与容器存活；不会唤醒休眠或停止的主机/容器。没有在本轮实际启动 DAY2。
 
-验证：Python 编译、shell 语法、DAY2 指定 prompt 的 dry-run、Wiki boundary 和 `git diff --check` 均通过。当前 branch `main`；本轮工具包已由 `Add manual foreground daily-learning launcher` 提交并推送。没有启动实际学习任务。
+验证：Python 编译、shell 语法、DAY2 指定 prompt 的 dry-run、Wiki boundary 和 `git diff --check` 均通过。当前 branch `main`；基础工具由 `Add manual foreground daily-learning launcher` 提交并推送，Ctrl+C 收尾与异常状态清理由 `Handle Ctrl-C in manual learning launcher` 收口。DAY2 已实际启动但因 usage limit 失败，不计入成功日。
 
 示例：
 `./system/scripts/run_daily_learning_at.sh --at '2026-09-28 18:00' --prompt-file outputs/learning-daily/prompts/20260928-DAY2-shell-gap-single-particle.md --day-index 2`

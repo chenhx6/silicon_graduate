@@ -1365,3 +1365,13 @@ updated: 2026-07-15
 - The 2026-09-28 DAY2 trigger had no `runner-started` event or run receipt. The daemon log ended after `waiting` for 16:00, and no daemon/runner/Codex process remained at 16:07; the exit cause was not recorded.
 - Added `run_daily_learning_at.sh` and its Python waiter. It waits in the foreground for an explicit Asia/Shanghai target and prompt, uses the daemon's single-instance lock, invokes the existing runner/model priority, and records wait heartbeats plus session/resume/exit metadata. Updated the script guide, daily-learning/scheduled-continuation workflows, user guide and checklist. It does not wake a sleeping host/container.
 - Validation: `py_compile`, `bash -n`, matching-prompt dry-run, Wiki boundary check and `git diff --check` passed. No Codex learning run was launched by the launcher during implementation.
+
+## [2026-09-28] daily-learning | record Ctrl-C handling in foreground launcher
+
+- Interruption while waiting leaves the daily scheduler marker unchanged; interruption after runner start records `manual-waiter-interrupted` and marks the scheduled date failed with exit code 130, preventing a stale `running` marker.
+- Updated the foreground-launcher usage guidance and checklist. Python/shell syntax and the date-matching DAY2 dry-run were rechecked; no daily-learning session was started.
+
+## [2026-09-28] daily-learning | reconcile manual DAY2 failure
+
+- The foreground waiter launched DAY2 at 17:45 with session `01a0e767-5b2c-7792-9707-9fd1d49f2eb0`; the runner exited at 18:13 with usage-limit `exit_code=1`, no report and no continuation. It was not a Ctrl-C interruption.
+- The pre-fix waiter then hit `name 'target' is not defined` while finalizing its scheduler state. The current launcher passes the scheduled date explicitly and clears the scheduler marker on both Ctrl-C and unexpected post-launch exceptions; the ignored scheduler state was reconciled to `failed`/`1`.

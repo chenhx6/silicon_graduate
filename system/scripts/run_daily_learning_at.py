@@ -132,7 +132,7 @@ def set_scheduler_state(root: Path, scheduled_date: str, status: str, exit_code:
     write_json_atomic(path, state)
 
 
-def run_profiles(root: Path, prompt: Path, day: int) -> int:
+def run_profiles(root: Path, prompt: Path, day: int, scheduled_date: str) -> int:
     final_code = 1
     final_model = final_effort = None
     for number, (model, effort) in enumerate(MODEL_PRIORITY, start=1):
@@ -166,11 +166,12 @@ def run_profiles(root: Path, prompt: Path, day: int) -> int:
         next_model, next_effort = MODEL_PRIORITY[number]
         record(root, "model-fallback", from_model=model, from_reasoning_effort=effort,
                to_model=next_model, to_reasoning_effort=next_effort, reason=reason)
-    set_scheduler_state(root, target.date().isoformat(),
+    set_scheduler_state(root, scheduled_date,
                         "completed" if final_code == 0 else "failed",
                         final_code, final_model, final_effort)
     record(root, "manual-waiter-finished", exit_code=final_code,
-           finished_at=local_now().isoformat(), prompt_file=str(prompt), day_index=day)
+           finished_at=local_now().isoformat(), prompt_file=str(prompt), day_index=day,
+           scheduled_date=scheduled_date)
     return final_code
 
 
@@ -229,6 +230,7 @@ def main() -> int:
                target=target.isoformat(), prompt_file=str(prompt), day_index=day)
         print(f"Waiting in foreground for {target.isoformat()} (Asia/Shanghai).", flush=True)
         heartbeat = time.monotonic() + 60
+        runner_started = False
         try:
             while not args.run_now:
                 now = local_now()
@@ -252,12 +254,18 @@ def main() -> int:
             record(root, "manual-waiter-launch-due", started_at=now.isoformat(),
                    target=target.isoformat(), prompt_file=str(prompt), day_index=day)
             set_scheduler_state(root, target.date().isoformat(), "running")
-            return run_profiles(root, prompt, day)
+            runner_started = True
+            return run_profiles(root, prompt, day, target.date().isoformat())
         except KeyboardInterrupt:
-            record(root, "manual-waiter-interrupted", target=target.isoformat())
+            if runner_started:
+                set_scheduler_state(root, target.date().isoformat(), "failed", 130)
+            record(root, "manual-waiter-interrupted", target=target.isoformat(),
+                   phase="runner" if runner_started else "waiting")
             print("manual daily-learning waiter interrupted", file=sys.stderr, flush=True)
             return 130
         except Exception as exc:
+            if runner_started:
+                set_scheduler_state(root, target.date().isoformat(), "failed", 1)
             record(root, "manual-waiter-error", target=target.isoformat(), error=str(exc))
             print(f"manual daily-learning launcher error: {exc}", file=sys.stderr)
             return 2

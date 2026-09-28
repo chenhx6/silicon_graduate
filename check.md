@@ -57,7 +57,7 @@ python -m unittest discover -s system/tests -p "test_*.py" -v
 - [ ] 核素问题在适用时比较同位素和同中子素；L3 只使用合法、可核验的 Nature-first 获取路径和 Agent 管理的 `raw/papers/gpt/**`、`raw/zotero/gpt.bib`；关键 SI 才下载，`wiki-inbox.bib` 永不修改/暂存。
 - [ ] 一般 L4 只生成 `outputs/l4/<issue>-<date>/report.md` readiness（`ready`/`partial`/`not-ready`）；30 天 Docker daily-learning 可在输入齐全时直接执行 L4，`partial`/`not-ready` 仍如实记录，不生成代理结果。
 - [ ] 每日 runner 每次调用 `codex exec` 创建新 session；`run.json` 含 `session_id`、`session_mode: new-session-per-run` 和 `resume_command`（若 CLI 返回 session ID）。
-- [ ] Docker daily-learning 只由 daemon 或用户显式启动的前台等待器之一持有时钟；手动等待器共用 daemon 单实例锁、记录 heartbeat/session/exit receipt，并明确不能唤醒休眠的主机或容器。
+- [ ] Docker daily-learning 只由 daemon 或用户显式启动的前台等待器之一持有时钟；手动等待器共用 daemon 单实例锁、记录 heartbeat/session/exit receipt，并明确不能唤醒休眠的主机或容器；Ctrl+C 在等待阶段不标记 runner 启动，在运行阶段记录失败/130。
 - [ ] 当前 Day 1/Day 2 实例验收回执标记为 `acceptance-only`，不计入重新开始的 30 个实质成功日；正式状态从 `next_day_index: 1` 开始。
 - [ ] 未完成用户审核只阻止需要该用户裁决的论文/问答措辞，不阻止全局只读选题、无重叠的新知任务或 Codex self-audit 写回；有实质变化的周测生成 `outputs/self-tests/` 报告和相应 WIP/final 状态，通过 H3/发布检查后按持续授权自动 push；未完成或无实质变化时未制造空 commit。
 - [ ] 检查不依赖 Docker、固定路径、`.codex/`、`.obsidian/` 或特定 AI 工具配置；这些属于本地运行环境。
