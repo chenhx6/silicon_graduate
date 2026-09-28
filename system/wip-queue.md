@@ -26,7 +26,7 @@ This page tracks pending local WIP/review tasks that still need follow-up work. 
 - Git gate: Docker terminal runtime is available; publication awaits explicit staged-file checks, not advance human review
 
 ### 90-day continuous nuclear-structure learning: 2026-09-05–2026-12-03
-- status: framework-ready; daily 16:00 Asia/Shanghai project automation `wiki` is ACTIVE; content and Git publication are explicitly decoupled
+- status: framework-ready; daily 16:00 Asia/Shanghai project automation `wiki` is ACTIVE; 30-day daily-learning outputs publish per run after H3 checks, while broader research follows the normal task-specific publication gate
 - scope: four phases, dynamic multi-topic/multi-source reading, graph closure, thematic REFLECT, daily/weekly/milestone records; seed corpus is the 15-dissertation batch
 - files: `system/workflows/continuous-learning.md`, `system/learning-queue.md`, `knowledge/` durable learning assets, `outputs/learning-daily/`, `outputs/learning-weekly/`, `outputs/learning-milestones/`, README/user-guide/check updates
 - next action: first run starts with dissertation graph closure and cross-mass-region comparison; write a daily record, then select the highest-information-gap problem
