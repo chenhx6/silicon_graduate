@@ -10,4 +10,4 @@
 
 ## 2026-09-29 continuation checkpoint
 
-Radford et al. 2005 的五页原文已读：Table 1 给纯130Sn束的preliminary B(E2)=0.023(5)e²b²，Fig.1给1221-keV峰；Gray 2021 Table 3.13将同一Radford结果重列为5.9(1.3) W.u.。标准公式支持该换算，但Radford结论写“约1.4 single-particle units”；NuDat对132Sn又同时给5.5(15) W.u.与0.11(3)无单位字段，Varner效率校准未完成。下一轮先回忆W.u.公式、dependent re-tabulation与独立实验的区别，再沿合法机构/作者档案追查1981年130Sn能级/转移概率原文并映射NuDat字段来源；不要重复OpenAIRE closed或Elsevier text-mining 400端点。AME2020 mass covariance、Varner效率/响应边界和2003Ba01仍开放。Day 2 保持in-progress，next_day_index=2。
+Radford et al. 2005 的五页原文已读：Table 1 给纯130Sn束的preliminary B(E2)=0.023(5)e²b²，Fig.1给1221-keV峰；Gray 2021 Table 3.13将同一Radford结果重列为5.9(1.3) W.u.。标准公式支持该换算，但Radford结论写“约1.4 single-particle units”；NuDat对132Sn同时给5.5(15) W.u.与0.11(3)无单位字段；其2.4-fs T1/2注释明确说是由B(E2)值推得，不是独立观测。下一轮先回忆W.u.公式和派生生命周期为何不构成独立确认，再沿合法机构/作者档案追查NuDat 5.5-W.u.底层引用及1981年130Sn能级/转移概率原文；不要重复OpenAIRE closed或Elsevier text-mining 400端点。AME2020 mass covariance、Varner效率/响应边界和2003Ba01仍开放。Day 2 保持in-progress，next_day_index=2。

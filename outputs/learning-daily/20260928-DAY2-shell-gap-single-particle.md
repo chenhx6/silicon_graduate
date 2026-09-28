@@ -51,7 +51,7 @@ session_mode: resumed-existing-session
 | 来源与精确定位 | 证据层 | 本轮用途与边界 |
 |---|---|---|
 | [AME2020 Sn mass records](../../knowledge/sources/ame2020-sn132-mass-curvature.md)：`AME20-130SN-1`、`AME20-132SN-1`、`AME20-134SN-1`；`AME20-RCT1-132SN-1`、`AME20-RCT1-134SN-1`。官方 IAEA `mass_1.mas20.txt` SHA-256 `e8599c6d7f724fac91934e59f1b9de8fb8f63e820f4b39456b790665ed2a3307`；`rct1.mas20.txt` SHA-256 `e6ba1d2256f90053464c48e24d44691828dc49820ce64054aa418d834cc18e90`。 | 质量评估值 | AME2020 文件头明确 `#` 为估算质量标记；三条质量超额行没有该标记。两张表来自同一次 AME2020 评估，不算独立复测；协方差未随检索文件提供。 |
-| [IAEA LiveChart / ENSDF Sn–Te levels](../../knowledge/sources/iaea-livechart-132sn-134te-levels.md)：`LC130SN-1`、`LC132SN-1`、`LC134SN-1`、`LC134TE-1`、`NUDAT132SN-2/3`、`NUDAT134TE-1/2`。 | 评估能级/跃迁记录 | `130Sn` 的 `(2+)` 仍带 tentative parentheses；NuDat 和 LiveChart 是同一 ENSDF 评估的不同界面，不能当作独立实验。`132Sn`/`134Te` adopted `B(E2)` 中心值相近，但 `134Te` 原文尚未取得。 |
+| [IAEA LiveChart / ENSDF Sn–Te levels](../../knowledge/sources/iaea-livechart-132sn-134te-levels.md)：`LC130SN-1`、`LC132SN-1`、`LC134SN-1`、`LC134TE-1`、`NUDAT132SN-2/3/4`、`NUDAT134TE-1/2`。 | 评估能级/跃迁记录 | `130Sn` 的 `(2+)` 仍带 tentative parentheses；NuDat 和 LiveChart 是同一 ENSDF 评估的不同界面，不能当作独立实验。`132Sn`/`134Te` adopted `B(E2)` 中心值相近，但 `134Te` 原文尚未取得。 |
 | [Varner et al. 2005](../../knowledge/sources/varner-2005-coulomb-excitation-132-134sn.md)：`VAR05-1/2/4/6`，PDF pp.391–394，尤其 p.392 Sec.2、p.394 Sec.3/Fig.5。原始 PDF SHA-256 `bf34234243d3a237554fd5be730ff14292b68cf6eb3d5956d847cfc5b854a5f8`。 | 直接 Coulomb-excitation yields 导出的 `B(E2)`；作者解释与响应边界 | `132Sn:0.11±0.03 e²b²`、`134Sn:0.029(5) e²b²`。作者称二者为 preliminary；`132Sn` 的 BaF₂ photon-efficiency calibration 未完成，响应由 simulation 处理；`134Sn` 束流有多种 A=134 污染组分。 |
 | [ENSDF `132Sn` Coulomb-excitation subfile](../../knowledge/sources/ensdf-132sn-coulomb-excitation.md)：`ENSDF132C-1/2/3`，PDF p.1。 | 评估来源谱系 | 同表列出 `2005Va31` 的 `48Ti` 靶和 `2005Ra09` 的 C 靶实验；二者同属 HRIBF-ORNL、不同靶反应和会议论文记录。`2005Va31` 已由 Varner 原文核验；`2005Ra09` 的 DOI 为 `10.1016/j.nuclphysa.2005.02.040`（PII `S0375947405001776`），但 publisher 403 且 OpenAlex 无 repository full text。 |
 | [ENSDF `134Te` Coulomb-excitation subfile](../../knowledge/sources/ensdf-134te-coulomb-excitation.md)：`ENSDF134TE-1/2/3`，PDF p.1。 | 评估 `B(E2)` 记录 | 给出 `134Te(12C,12C′)`、350 MeV、`B(E2)↑=0.13 4`；Crossref/NSR 身份指向 Barton et al. 2003, DOI `10.1016/S0370-2693(02)03066-6`。ScienceDirect 端点返回 403，故该条仍是评估层证据。 |
@@ -101,13 +101,15 @@ session_mode: resumed-existing-session
 
 - NuDat 3 对 132Sn 同一2+→0+跃迁分别显示 gamma-table B(E2)=5.5(15) W.u. 和 adopted-level B(E2)=0.11(3)（后一字段未打印单位）；按标准W.u.换算前者约0.0220(60)e²b²，后一数值又与Varner直接preliminary值相同。需要追踪两字段各自的原始输入和效率处理，不能将其当作同一条测量。
 
+- NuDat 2+ lifetime 2.4 fs 的 level comment 明确标注为 from B(E2) value；它与 gamma-table 5.5(15) W.u. 不是两个独立的观测。Adopted-level 0.11(3) 无单位但带 Coulomb-excitation XREF，与 Varner 直接数值相同；5.5-W.u. 字段的底层输入仍待查。
+
 ## Knowledge Impact and Learning Decision
 
 **Decision: revises（修正证据地图）。** 130Sn B(E2)不再是数据库缺项：Radford et al. 2005公开原文直接给出0.023(5)e²b²，并标为preliminary；标准Weisskopf换算为5.88(1.28)W.u.，Gray 2021 Table 3.13以同一来源重列5.9(1.3)W.u.。这与NuDat 132Sn gamma-table 5.5(15)W.u.相近。
 
-另一方面，Varner 132Sn的preliminary 0.11(3)e²b²约为NuDat gamma-table对应强度的五倍，并与NuDat adopted-level栏的0.11(3)数值吻合；该字段不打印单位，Varner效率校准也未完成。两个值对应不同实验/数据库输入，尚不能把它们视作同一可靠的B(E2)或合并。Radford文中“1.4 single-particle units”和标准换算5.9 W.u.的表述差异也需查清。
+NuDat 的 2+ T1/2=2.4 fs 行明确注明该值由 B(E2) 推得，因此它不是 gamma-table B(E2) 的独立确认。gamma-table 的 5.5(15) W.u. 与 adopted-level 的 0.11(3)（无单位、有 Coulomb-excitation XREF）是不同字段；后者数值与 Varner 直接的 preliminary 0.11(3) e²b² 一致。Varner photon-efficiency calibration 尚未完成，5.5-W.u. 字段的原始输入也未追清，故暂不调和或平均。
 
-N=82 的高E(2+)、AME质量指标、130Sn direct-preliminary B(E2)、Varner 132Sn强度和transfer两侧现有更完整的证据链，但配对/协方差、校准和数据库输入谱系仍限制壳隙定量分解。Orlandi的131Sn空穴证据与Jones的133Sn粒子证据已到全文/SI级，仍不等于直接测出唯一单粒子gap。
+N=82 的高 E(2+)、AME 质量指标、130Sn direct-preliminary B(E2)、Varner 132Sn 强度和 transfer 两侧现在构成更完整的证据链；配对/协方差、校准和数据库输入谱系仍限制壳隙定量分解。Radford 文中“1.4 single-particle units”与标准换算5.9 W.u.的表述差异保留为单位边界。Orlandi 的131Sn空穴证据与Jones的133Sn粒子证据仍不等于直接测出唯一单粒子gap。
 
 ## Durable knowledge delta
 
@@ -195,6 +197,10 @@ N=82 的高E(2+)、AME质量指标、130Sn direct-preliminary B(E2)、Varner 132
         {
           "path": "knowledge/sources/radford-2005-130sn-coulomb-excitation-126-130sn.md",
           "locator": "RAD05-2"
+        },
+        {
+          "path": "knowledge/sources/iaea-livechart-132sn-134te-levels.md",
+          "locator": "NUDAT132SN-4"
         }
       ]
     },
@@ -458,6 +464,10 @@ N=82 的高E(2+)、AME质量指标、130Sn direct-preliminary B(E2)、Varner 132
         {
           "path": "knowledge/sources/iaea-livechart-132sn-134te-levels.md",
           "locator": "NUDAT132SN-3"
+        },
+        {
+          "path": "knowledge/sources/iaea-livechart-132sn-134te-levels.md",
+          "locator": "NUDAT132SN-4"
         }
       ]
     },
@@ -742,6 +752,10 @@ N=82 的高E(2+)、AME质量指标、130Sn direct-preliminary B(E2)、Varner 132
         {
           "path": "knowledge/sources/iaea-livechart-132sn-134te-levels.md",
           "locator": "NUDAT132SN-3"
+        },
+        {
+          "path": "knowledge/sources/iaea-livechart-132sn-134te-levels.md",
+          "locator": "NUDAT132SN-4"
         }
       ]
     },
@@ -842,6 +856,10 @@ N=82 的高E(2+)、AME质量指标、130Sn direct-preliminary B(E2)、Varner 132
         {
           "path": "knowledge/sources/iaea-livechart-132sn-134te-levels.md",
           "locator": "NUDAT132SN-3"
+        },
+        {
+          "path": "knowledge/sources/iaea-livechart-132sn-134te-levels.md",
+          "locator": "NUDAT132SN-4"
         }
       ]
     },
@@ -1029,7 +1047,9 @@ N=82 的高E(2+)、AME质量指标、130Sn direct-preliminary B(E2)、Varner 132
 
 - AME2020 `δ₂n` is a large shell-closure indicator, but the source files lack covariance and the second difference still contains pairing/smooth-surface terms. `130Sn` has only a tentative `(2+)` record in the queried ENSDF page; its `B(E2)` field is absent there. The closed Raman 2001 compilation and the 2003 `134Te` primary source are the highest-information full-text routes if institutional access becomes available.
 - The `132Sn/134Te` isotope/isotone comparison warns against reading a single `E(2+)` as the single-particle gap: the evaluated `B(E2)` values in W.u. are similar within their uncertainties although their first `2+` energies differ substantially.
-- **续接信念修订：** Orlandi 全文把空穴侧证据从“摘要级支持”推进到带条件的定量 DWBA 强度：332-keV s1/2 S=2.4(2)、1654-keV d5/2 S=6.4(1.8)，而 0–65-keV doublet 的 d3/2 结果取决于 h11/2 假设。替代光学势改变 S 约10–20%；作者以 ±150-keV 处理可能未观测态。自旋轨道的约50%归一化分裂降低由同强度 Woods–Saxon 模型归因于径向延展，仍是模型支持而非唯一解释。
+- **续接信念修订：** Radford 130Sn 的直接初级B(E2)已经补上；NuDat gamma-table 5.5 W.u.与T1/2=2.4 fs是B(E2)派生链，而adopted-level 0.11(3)字段与Varner CoulEx数值相同。该字段谱系与Varner效率边界仍未最终解释。
+
+Orlandi 全文把空穴侧证据从“摘要级支持”推进到带条件的定量 DWBA 强度：332-keV s1/2 S=2.4(2)、1654-keV d5/2 S=6.4(1.8)，而 0–65-keV doublet 的 d3/2 结果取决于 h11/2 假设。替代光学势改变 S 约10–20%；作者以 ±150-keV 处理可能未观测态。自旋轨道的约50%归一化分裂降低由同强度 Woods–Saxon 模型归因于径向延展，仍是模型支持而非唯一解释。
 
 **信念修订：** 主动回忆把 `E(2+)`、`B(E2)` 和质量差分视为互补证据；数值练习确认 N=82 的质量曲率很大，但不能将 `6.527 MeV` 直接称作单粒子能隙。另一个原本可能看作 Li/Singh 测量冲突的 `Q_t` 差异，经 `K` / rotational-aligned CG 复算后，改为同一寿命在不同转换约定下的派生值差异。
 
@@ -1048,7 +1068,7 @@ N=82 的高E(2+)、AME质量指标、130Sn direct-preliminary B(E2)、Varner 132
 ## Verification and continuation
 
 - H2 暂存后再次运行 clean_knowledge_eol_dirty.py：exit 1，输出 7 个已暂存修改为 STAGED-NOT-TOUCHED，11 个本轮新增 knowledge Markdown 为 REVIEW-UNSAFE A（该脚本只比较 HEAD 已存在文件，不能对新增路径做换行回滚）。逐个扫描这11个新文件均无 CR 字节且以 LF 换行结束；这些路径均属于本轮新建来源页，没有覆盖入口已有文件。
-- 本次续接检查：wiki_boundary_check.py exit 0；wiki_lint.py --fail-on error exit 0（errors=0、warnings=86、info=1207）；git diff --check exit 0；writeback anchors/locators validator exit 0（10 个固定标题、1 个机器块、29 items、0 错误）。当前 warnings 分类为 CITATION_KEY_MISSING 80、REACTION_PARSE 3、ORPHAN_PAGE 2、RAW_GIT_CHANGE 1；均未触发 fail-on error。17 个公开 raw 快照哈希已复核，source-manifest 30行。run-02 仍 in-progress、未计数，state_file next_day_index=2。
+- 本次续接检查：wiki_boundary_check.py exit 0；wiki_lint.py --fail-on error exit 0（errors=0、warnings=86、info=1208）；git diff --check exit 0；writeback anchors/locators validator exit 0（10 个固定标题、1 个机器块、29 items、0 错误）。本次追加 NUDAT132SN-4 并复验 machine locator。当前 warnings 分类为 CITATION_KEY_MISSING 80、REACTION_PARSE 3、ORPHAN_PAGE 2、RAW_GIT_CHANGE 1；均未触发 fail-on error。17 个公开 raw 快照哈希已复核，source-manifest 30行。run-02 仍 in-progress、未计数，state_file next_day_index=2。
 
 - 写入前和 raw 源文件入库后 `wiki_boundary_check.py --root .` 均 exit `0`。`wiki_automation_preflight.py --root .` exit `0`，受保护 BibTeX 哈希匹配。11 个公开源快照经 SHA-256、PDF `%PDF` 签名、PDF 页数和目标数据行校验后从 `_incoming/20260928-day-02-02/` 晋升到 `raw/papers/gpt/day2-shell-gap-20260928/`；该目录保留本地且未暂存。
 - `clean_knowledge_eol_dirty.py` exit `1`，原因是它按契约保留了 7 个有实质内容修改的 tracked knowledge 页；`refreshed=0`、`restored=0`、`unsafe/mixed=0`。它没有回滚任何研究内容。`knowledge/questions.md` 已按仓库 LF 约定归一化；最终 `git diff --check` exit `0`。

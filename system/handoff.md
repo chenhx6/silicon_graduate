@@ -10,7 +10,7 @@ updated: 2026-09-29
 
 日报：[2026-09-28 Day 2 shell-gap / single-particle run](../outputs/learning-daily/20260928-DAY2-shell-gap-single-particle.md)。同一 session 01a0e767-5b2c-7792-9707-9fd1d49f2eb0 正在续接，run-02 状态 in-progress，Day 2 尚未计数，state_file next_day_index=2。恢复命令：codex resume 01a0e767-5b2c-7792-9707-9fd1d49f2eb0 -C /workspace/wiki -s danger-full-access -a never。
 
-本轮新增 133Sn 粒子 transfer、131Sn 空穴 transfer 全文、Radford 130Sn preliminary B(E2)=0.023(5)e²b²，以及 Gray 对同一数据的依赖性 W.u. 重表。未解决项：Varner/NuDat 132Sn B(E2) 字段差异、Radford 的 single-particle-unit wording、1981 年 130Sn 原文、AME 协方差。L4 not-ready；raw 保持未暂存；当前Day 2仍in-progress且未计数；下一路由见 run-02/continuation-prompt.md。
+本轮新增 133Sn 粒子 transfer、131Sn 空穴 transfer 全文、Radford 130Sn preliminary B(E2)=0.023(5)e²b²，以及 Gray 对同一数据的依赖性 W.u. 重表。已确认NuDat 132Sn 的2.4-fs T1/2注明由B(E2)派生，不是gamma-table 5.5(15) W.u.的独立实验；adopted-level 0.11(3)栏带CoulEx XREF。未解决项是5.5-W.u.底层输入、Radford single-particle-unit wording、1981年130Sn原文和AME协方差。L4 not-ready；raw 保持未暂存；当前Day 2仍in-progress且未计数；下一路由见 run-02/continuation-prompt.md。
 
 ## 2026-09-28 manual DAY2 run
 

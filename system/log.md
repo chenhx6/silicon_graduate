@@ -1399,3 +1399,8 @@ updated: 2026-07-15
 - Read Radford et al. 2005 pp.383–387; Table 1 gives preliminary 130Sn B(E2)=0.023(5) e²b² and Fig.1 labels 1221 keV. Standard W.u. conversion gives 5.88(1.28), matching Gray 2021 Table 3.13’s dependent 5.9(1.3) W.u. restatement.
 - The 132Sn Varner 0.11(3) e²b² and NuDat 5.5(15) W.u./0.11(3) fields remain unresolved because Varner’s photon-efficiency calibration was incomplete and the database fields may have distinct inputs. No averaging was performed.
 - OpenAIRE marks the 1981 130Sn article closed; Crossref text-mining returned HTTP 400. The title/DOI route remains in the source manifest. Day 2 stays in progress.
+
+## [2026-09-29] daily-learning | 132Sn B(E2) lifetime lineage
+
+- Parsed the saved NuDat 132Sn row: the adopted 2.4-fs 2+ lifetime is explicitly annotated “from B(E2) value,” so it is derived and not an independent observation supporting the gamma-table 5.5(15) W.u. value. The adopted-level 0.11(3) field has the Coulomb-excitation XREF and matches Varner’s preliminary result.
+- Added locator NUDAT132SN-4 and updated the project/question distinction; the primary input underlying the 5.5-W.u. field remains to be traced.
