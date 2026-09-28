@@ -12,7 +12,7 @@ updated: 2026-09-28
 
 新增 `system/scripts/run_daily_learning_at.sh` 与 Python waiter，供用户在容器前台显式等待一次：参数指定 Asia/Shanghai 时间、已生成的日 prompt 和 day index；等待期间记录 heartbeat；同 daemon 使用 `/tmp/wiki-one-month-daily-learning-daemon.lock`，到点调用现有 daily runner，按 Luna→Sol→Astra 既有瞬时错误 fallback，并把 session ID、resume 命令、结果写入 canonical scheduler JSONL。运行需保持当前终端与容器存活；不会唤醒休眠或停止的主机/容器。没有在本轮实际启动 DAY2。
 
-验证：Python 编译、shell 语法、DAY2 指定 prompt 的 dry-run、Wiki boundary 和 `git diff --check` 均通过。当前 branch `main`；本轮治理/工具包计划以 `Add manual foreground daily-learning launcher` 收口。没有启动实际学习任务。
+验证：Python 编译、shell 语法、DAY2 指定 prompt 的 dry-run、Wiki boundary 和 `git diff --check` 均通过。当前 branch `main`；本轮工具包已由 `Add manual foreground daily-learning launcher` 提交并推送。没有启动实际学习任务。
 
 示例：
 `./system/scripts/run_daily_learning_at.sh --at '2026-09-28 18:00' --prompt-file outputs/learning-daily/prompts/20260928-DAY2-shell-gap-single-particle.md --day-index 2`
