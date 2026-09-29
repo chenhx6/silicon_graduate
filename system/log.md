@@ -1445,3 +1445,16 @@ updated: 2026-07-15
 
 - Refreshed the Wiki QMD collection after the cross-source update: 16 new, 11 updated, 523 unchanged; embedding completed for 212 chunks across 27 documents. `qmd status` reports 550 documents, 2,459 vectors and 174 orphaned embedding chunks; no cleanup was run.
 - Boundary/writeback/lint checks passed with the report still continuation-pending. The new source PDFs remain local raw evidence and were not staged.
+
+## [2026-09-29] daily-learning | Bhat Ref. 18 OA access boundary
+
+- Crossref confirmed Grodner et al. 2011, `10.1016/j.physletb.2011.07.062`; OpenAlex marks a hybrid OA publisher PDF. Nature Downloader and the OpenAIRE resolver each received HTTP 403, and exact-title arXiv search returned zero results.
+- No source text or claim was imported. Keep the Bhat model comparison's `126Cs` primary evidence as access-unavailable until a new lawful repository or institution-authorized path is available.
+
+## [2026-09-29] daily-learning | Later TPSM coverage of Hara Table 5
+
+- Visual recheck of Hara–Sun Table 5 mapped seven starred nuclei across `N=76–78`; the `133La` and `135Pr` entries are both `N=76`.
+- Retrieved Sheikh, Jehangir & Bhat 2024 from arXiv (`2405.08368v1`; book-chapter DOI `10.1201/9781032691633-12`), verified PDF hash `a7fa3cc75113a1ff2881cbc7edd9d3285a228b429c34b6f0b9b22da4c2b90d22`, and read the TPSM methods plus Table 1/Figs. 11–14 for `133La`/`135Pr`. New source page and model-route writeback keep fixed `γ` inputs and reused experimental data separate from measurements.
+- A newer 2026 IJMPE DOI (`10.1142/S0218301326500448`) remains metadata-only: closed/no repository in OpenAlex, publisher HTTP 403, exact-title arXiv miss, and OA downloader `oa_not_found`. No abstract claim was promoted.
+- Hara source, TPSM model page, A≈130 model-choice card, `131Ce` project, index and 2024 source page updated; review status remains `unreviewed`, and added claims retain `needs_review: true`.
+- `qmd status` reports 550 indexed documents, 2,459 vectors and 174 orphan chunks; the database is outside `/workspace/wiki`, so this continuation did not run `qmd update`, `embed` or `cleanup`.

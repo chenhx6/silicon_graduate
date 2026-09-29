@@ -90,6 +90,7 @@ updated: 2026-09-29
 - [[davidson-1965-rotations-vibrations-deformed-nuclei]] - 54页 RMP 集体模型综述；形变表面振动、转动、奇核粒子-芯耦合与电磁/衰变观测边界。
 - [[hara-sun-1995-projected-shell-model-high-spin]] - PSM 角动量投影、配置混合、band crossing/signature 和高自旋 spectroscopy 的历史综述；A≈130 早期 shape inference 保留 axial-code 边界。
 - [[bhat-2014-tpsm-cs-doublet-bands]] - `124,126,130,132Cs` odd–odd TPSM doublet-band calculations；区分 `126Cs` 已发表绝对跃迁强度比较、`130Cs` 模型绝对强度/已发表比值，以及形变输入的 arXiv-version boundary。
+- [[sheikh-jehangir-bhat-2024-tpsm-wobbling]] - TPSM 对 `133La`、`135Pr` 摇摆带的计算；与 Hara–Sun Table 5 两个 `N=76` 星号候选重叠，固定形变输入与既有实验依赖边界明确。
 - [[simons-2005-130cs-chiral-structures]] - `130Cs` Euroball A/B experiment；保存 DCO/偏振、`S(I)` 与 intensity-derived ratios，保留 band-B null staggering、有限能差、high-spin crossing、lifetime 缺口，以及 Bhat TPSM 同数据依赖边界。
 - [[taras-1971-phase-defined-polarization-formulas]] - Rose-Brink phase-defined matrix elements、统计张量、角分布/线偏振公式与 mixing-ratio 符号一致性；保留多解和 convention 边界。
 - [[butler-1973-three-geli-compton-polarimeter]] - 三 Ge(Li) Compton polarimeter 的 `P/A/Q`、`cosθ`/511-keV 背景控制、Q(E) 标定与 `33S` 自旋歧义示范。

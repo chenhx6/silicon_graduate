@@ -63,7 +63,7 @@ tags: [projected-shell-model, high-spin-spectroscopy, angular-momentum-projectio
 1. 角动量投影把 intrinsic Nilsson+BCS basis 转为 shell-model basis，并在数值上避免球形大空间的爆炸（PDF §§1-2）。
 2. 半经典极限与 particle-rotor model 对应，说明 projected wave function 可提取 decoupling、K、signature 和 rotational alignment 图像（PDF §§2.2-2.3）。
 3. 对 decoupled bands、two-quasiparticle high-K bands 和 band diagrams 的示例显示，PSM 能把 backbending、signature dependence 和 configuration crossing 放到统一的 projected basis 中（PDF §3）。
-4. `A≈130` doubly-odd 应用把实验谱与 shape assumptions 比较，综述将 N=76/78 附近的 prolate→triaxial→oblate 过渡作为候选图景，但明确当时 axial code 无法直接证明 triaxial shape（PDF §5.1，Table 5）。
+4. `A≈130` 应用把实验谱与 shape assumptions 比较。Table 5 中标为“presumably triaxial”的七个单元格是 `133La` (`Z=57,N=76`)、`134La` (`57,77`)、`135Ce` (`58,77`)、`135Pr` (`59,76`)、`136Pr` (`59,77`)、`137Pr` (`59,78`) 和 `137Nd` (`60,77`)。p.713 将 `N=76` 与 `N=78` 描述为形状转变端点，并说 `N=76–78` 中间核素仍待三轴投影代码确认；这些星号是轴对称 PSM 失配后提出的模型候选，不是直接形状测量（PDF §5.1，Table 5，pp.712–713）。
 5. Odd-mass Er/Yb、odd-proton nuclei 和 rare-earth examples 展示 PSM 对 yrast/side bands、g-factors、B(E2)/B(M1)、signature inversion/selfinversion 的应用；高自旋趋势通常比单一低能级更能区分配置（PDF §§4-6）。
 6. Review repeatedly separates successful numerical reproduction from physical interpretation: basis truncation, deformation, pairing, effective charges and omitted multi-quasiparticle configurations can change high-spin conclusions (PDF §§2.4, 4.3-4.4, 6，Appendix)。
 
@@ -84,7 +84,7 @@ Hara 与 Sun 的综述建立了 PSM 的方法链：变形 Nilsson+BCS intrinsic 
 | HS10-1 | PSM 用变形 Nilsson+BCS intrinsic basis、角动量投影和配置混合高效处理重变形核的高自旋谱。 | model-definition | direct | PDF §§1-2，式 (2.40) 及 projection equations | false |
 | HS10-2 | PSM 的半经典极限与 particle-rotor picture 对应，可解释 decoupling、K 和 alignment。 | model-result/interpretation | direct | PDF §§2.2-2.3 | false |
 | HS10-3 | PSM 示例覆盖 band crossing、signature splitting/inversion、two-qp high-K、g-factors、B(E2)/B(M1) 和 odd-mass/doubly-odd spectroscopy。 | review-synthesis | direct | PDF §§3-6 | false |
-| HS10-4 | A≈130 doubly-odd application 曾依据 axial PSM 与实验不一致提出 N=76/78 附近三轴形状候选，但综述明确 axial code 不能直接证明 triaxiality。 | author-interpretation/review-summary | direct | PDF §5.1，Table 5 | true |
+| HS10-4 | A≈130 Table 5 对 `133La` (N=76)、`134La` (N=77)、`135Ce` (N=77)、`135Pr` (N=76)、`136Pr` (N=77)、`137Pr` (N=78) 与 `137Nd` (N=77) 标注“presumably triaxial”；p.713 明确当时程序为轴对称，并要求三轴投影计算确认 N=76–78 中间核素。 | author-interpretation/review-summary | direct | PDF §5.1，Table 5，pp.712–713 | true |
 | HS10-5 | Particle-number projection 可改善部分 band-crossing agreement，但截断空间中的 spurious pair states 需要特别处理。 | method-limitation | direct | PDF §4.3，Figs.26-27 | false |
 
 ## Nuclear Structure Information

@@ -56,13 +56,17 @@ Babra 2019 在交叉前后切换固定形变输入；这种比较支持形变变
 
 [[jahangir-2026-tpsm-gamma-bands-nb-tc]] 提供奇质量 `103,105,107,109Nb` 和 `103,105,107,109Tc` 的 γ1/2γ/γ2/3γ 统一计算案例。对半整数父组态 `K0`，`K0−2` 与 `K0+2` 是不同投影结构；该来源用 `103,105Nb` 第四条观测带的能量、对齐和 `B(E2)` 比较支持 γ2（`K0−2`）解释，但保留其对既有实验标签、Table I 形变和模型截断的依赖，不把 γ2 归类升级为直接实验事实。
 
-[[hara-sun-1995-projected-shell-model-high-spin]] 是 PSM 的历史方法综述，给出变形 Nilsson+BCS 基底、角动量投影、配置混合、Q·Q+配对 Hamiltonian、band-crossing/signature 和 electromagnetic observables 的统一谱系。其 A≈130 doubly-odd shape-transition 表格属于早期 axial-PSM inference；综述自己指出 axial code 不能直接证明 triaxiality，现代使用必须回到原始实验和后续 triaxial calculations。
+[[hara-sun-1995-projected-shell-model-high-spin]] 是 PSM 的历史方法综述，给出变形 Nilsson+BCS 基底、角动量投影、配置混合、Q·Q+配对 Hamiltonian、band-crossing/signature 和 electromagnetic observables 的统一谱系。其 A≈130 Table 5 在 `N=76–78` 的七个核素单元格标为“presumably triaxial”；这属于早期 axial-PSM inference，原文明确说需三轴投影代码确认。
 
 ### Bhat et al. 2014: A≈130 odd–odd transfer boundary
 
-[[bhat-2014-tpsm-cs-doublet-bands]] 用三轴 Nilsson+BCS 基底和多准粒子投影计算 `124,126,130,132Cs`。`130Cs` Fig.3 能量比较与 Fig.8 的 `B(M1)/B(E2)` 比值说明 TPSM 可用于邻近 odd–odd A≈130 候选，但 Fig.8 的绝对 `B(E2)`、`B(M1)` 曲线是模型结果，论文没有给 `130Cs` lifetime/绝对强度测量。它不是 `131Ce` 数据，也不检验 Hara–Sun 的 N=76/78 候选。Table 1/Eq. (3) 对 `130,132Cs` 的输入映射到 `γ≈42°`，与 PDF p.6 的“约 30°”表述不一致，暂留 `needs_review`，未把计算角度当作实验形状。
+[[bhat-2014-tpsm-cs-doublet-bands]] 用三轴 Nilsson+BCS 基底和多准粒子投影计算 `124,126,130,132Cs`。`130Cs` Fig.3 能量比较与 Fig.8 的 `B(M1)/B(E2)` 比值说明 TPSM 可用于邻近 odd–odd A≈130 候选，但 Fig.8 的绝对 `B(E2)`、`B(M1)` 曲线是模型结果，论文没有给 `130Cs` lifetime/绝对强度测量。它不是 `131Ce` 数据，也不检验 Hara–Sun 的 `N=76–78` 候选。Table 1/Eq. (3) 对 `130,132Cs` 的输入映射到 `γ≈42°`，与 PDF p.6 的“约 30°”表述不一致，暂留 `needs_review`，未把计算角度当作实验形状。
 
 [[simons-2005-130cs-chiral-structures]] 是 Bhat 2014 Fig.8 所引 Ref. [32] 的 `130Cs` primary Euroball experiment。它测得能级、DCO/偏振和强度派生 ratios，未给 lifetime/absolute transition strengths；Bhat 是复用该数据的理论比较，不能算第二份实验确认。SIM05 的 `B(M1)/B(E2)` 与 crossing 边界说明，TPSM 相符本身不能消除实验指标内部的限制。
+
+### Hara Table 5 的后续 TPSM 覆盖（2026-09-29）
+
+[[sheikh-jehangir-bhat-2024-tpsm-wobbling]] 对 Table 5 七个星号核素中的 `133La (N=76)` 和 `135Pr (N=76)` 做了后续三轴投影计算。Table 1 采用固定模型输入：`133La` 的 `ε=0.150, ε′=0.110, γ=36°`；`135Pr` 的 `ε=0.160, ε′=0.100, γ=32°`。Figs. 11–14 将计算能级、摇摆频率、对齐角动量和跃迁比与已发表数据比较。该结果将“是否有直接后续 TPSM 应用”从未知修订为至少两例，但不是独立形状测量，也未覆盖 Hara 表中其余五个星号核素；`γ` 参数仍是模型输入。`135Pr` 的 wobbling/TiP 争议见 [[135pr-wobbling-controversy]]。
 
 ## Related Models
 
@@ -77,6 +81,7 @@ Babra 2019 在交叉前后切换固定形变输入；这种比较支持形变变
 - [[jahangir-2026-tpsm-gamma-bands-nb-tc]]
 - [[hara-sun-1995-projected-shell-model-high-spin]]
 - [[bhat-2014-tpsm-cs-doublet-bands]]
+- [[sheikh-jehangir-bhat-2024-tpsm-wobbling]]
 
 ## Evolution Log
 
