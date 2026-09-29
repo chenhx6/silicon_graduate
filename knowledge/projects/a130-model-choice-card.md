@@ -3,7 +3,7 @@ type: project
 title: "A≈130 high-spin model-choice card"
 aliases: [A130 model choice card, A≈130 模型选择卡]
 created: 2026-09-26
-updated: 2026-09-27
+updated: 2026-09-29
 status: active
 review_status: unreviewed
 project_stage: seed
@@ -56,22 +56,36 @@ For `131Ce`, this crosswalk makes the experiment-design order explicit: first se
 
 ## Theory/analysis exercise
 
-For a projected intrinsic state `|Φ_K⟩`, the schematic laboratory energy is
+### Day 3 kernel reconstruction and applicability check (2026-09-29)
 
-`E_I ≈ ⟨Φ| H P^I |Φ⟩ / ⟨Φ| P^I |Φ⟩`,
+Hara–Sun define the angular-momentum projector as
 
-followed by a generalized eigenvalue problem when several projected configurations are mixed. The exercise establishes why a calculated projected band has good `I`, while the intrinsic `β,γ` and configuration weights remain model inputs. For the `131Ba/133Ce` case, the minimum defensible chain is:
+`P̂^I_MK = (2I+1)/(8π²) ∫ dΩ D^{I*}_MK(Ω) R̂(Ω)` (Eq. 2.7, PDF p.642).
+
+For one intrinsic state, the projected Hamiltonian and norm kernels are
+
+`H^I_KK′ = ⟨Φ| Ĥ P̂^I_KK′ |Φ⟩`,  `N^I_KK′ = ⟨Φ| P̂^I_KK′ |Φ⟩`,
+
+and configuration amplitudes solve the non-orthogonal generalized eigenproblem
+
+`Σ_K′ (H^I_KK′ − E_I N^I_KK′) F^I_K′ = 0`,  `Σ_KK′ F^{I*}_K N^I_KK′ F^I_K′ = 1`
+
+(Eqs. 2.19–2.20, PDF p.644). The familiar ratio `⟨Φ|ĤP̂^I|Φ⟩/⟨Φ|P̂^I|Φ⟩` is the one-configuration limit; it should not replace the kernel diagonalization when several projected configurations mix. A triaxial intrinsic state can contribute multiple `K` components to the same `I`, while the axial single-`K` case reduces to the simpler expression (Eq. 2.21).
+
+This derivation separates a cranked mean-field/CSM calculation, which tracks rotating-frame alignments and crossings, from projection, which restores good angular momentum within the chosen intrinsic basis. In the PSM that basis is built from Nilsson+BCS quasiparticles and selected multi-quasiparticle configurations; the Hamiltonian includes quadrupole–quadrupole and pairing terms (Eq. 2.40, PDF p.651). Both the intrinsic deformation and the projected-space truncation remain model inputs.
+
+For the `131Ce` application, the minimum defensible chain is:
 
 `level energies + R_ac + alignment → CSM/QTR sensitivity map → projected/mixed transition prediction → δ/polarization/lifetime/absolute-strength test`.
 
-Removing the final experimental test leaves a model comparison, not a unique shape or collective-mode assignment.
+Alwaleedi's `B(M1)/B(E2)` comparison assumes `δ=0`, and the dataset lacks lifetimes, absolute `B(E2)`, linear polarization and direct shape measurement. Removing the final experimental test therefore leaves a model comparison, not a unique shape or collective-mode assignment.
 
 ## Counter-evidence and missing companion observables
 
 - AFN90-1/AFN90-4: intrinsic minima and `β₂/γ` conventions are model outputs; rotation-axis and higher-multipole conventions can change the interpretation.
 - AFN90-2: alignment, stretching, band termination, intruder polarization and shape coexistence can produce similar high-spin changes.
-- HS10-4: an A≈130 axial PSM mismatch can motivate a triaxial candidate, but the review explicitly does not treat axial-code failure as direct proof of triaxiality.
-- HS10-5: particle-number projection and truncated spaces can introduce spurious pair states or sensitivity to configuration selection.
+- HS10-4: Hara–Sun §5.1, Table 5 (PDF pp.712–713) labels N=76/78 candidates “presumably triaxial” after axial PSM failed to reproduce data; p.713 states that their code assumed axial symmetry and calls for a triaxial projection calculation. This is a model-based inference, not a direct shape measurement, and it does not transfer to `131Ce` (Z=58, N=73), which Table 5 places in the prolate `+0.22` column.
+- HS10-5: in `156Er`, particle-number projection changes the backbending and brings the lowest quasiparticle-pair state closer to yrast (Figs.26–27, PDF pp.700–701). The authors warn that truncation can leave spurious pair-state admixtures, so adding number projection is not automatically a safer result.
 - The required companion set for a mode claim remains transition-level δ/偏振, partner-resolved lifetimes and absolute strengths, and independent linking/identity constraints.
 
 ## Risks and Blockers

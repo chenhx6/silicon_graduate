@@ -1425,3 +1425,8 @@ updated: 2026-07-15
 
 - Corrected the 15:00 policy after the user noted that a manually opened next-day study can start before 15:00. The default cutoff is now fixed to `run_date + 1 day at 15:00`, regardless of the start clock; an early start no longer shortens the window to same-day 15:00.
 - Updated the runner's actual deadline computation and the workflow wording. The Day 3 prompt remains dated for a 2026-09-29 run and displays `2026-09-30T15:00:00+08:00`; its run-specific prompt and receipt will use the same next-day rule.
+
+## [2026-09-29] daily-learning | Day 3 mean-field checkpoint
+
+- Resumed the Day 3 session after a retryable service-overload exit; farmer found no pending recovery action. Preserved the original run-01 failure receipt and saved a continuation receipt for the same session.
+- Verified the Hara–Sun projection kernels and A≈130 axial-code boundary against local PDFs; updated the A≈130 model-choice card and linked the `131Ce` project without changing either page's unreviewed status or its mode ranking. The 15:00 closeout remains pending.

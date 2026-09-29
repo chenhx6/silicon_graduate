@@ -6,11 +6,11 @@ updated: 2026-09-29
 
 # 跨会话交接
 
-## Active handoff — 2026-09-29 Day 2 finalized
+## Active handoff — 2026-09-29 Day 3 checkpoint
 
-日报：[2026-09-28 Day 2 shell-gap / single-particle run](../outputs/learning-daily/20260928-DAY2-shell-gap-single-particle.md)。学习窗口于 2026-09-29 10:00（Asia/Shanghai）结束；同一 session `01a0e767-5b2c-7792-9707-9fd1d49f2eb0` 的 run-02 已结算为 `completed`、计入实质学习，里程碑推进到 `next_day_index=3`。原 run-01 usage-limit 失败及恢复历史保留；未解决的原文、AME covariance 和校准边界不阻止结算。下一任务为 Day 3；提示路径 `outputs/learning-daily/prompts/20260929-DAY3-mean-field-nilsson-csm-hfb-projection.md`，正文已列出计划收束时间 `2026-09-30 15:00 Asia/Shanghai`。日学习收束默认改为 15:00：本次 `run_date` 的次日 15:00 截止，即使在当日 15:00 前手动启动也不缩短到当天；15:00–16:00 用于结算。准确值见 run receipt 的 `overnight_until` 和 continuation prompt。恢复 Day 2 session：`codex resume 01a0e767-5b2c-7792-9707-9fd1d49f2eb0 -C /workspace/wiki -s danger-full-access -a never`。
+日报：[2026-09-29 Day 3 mean-field / Nilsson / CSM / HFB / projection](../outputs/learning-daily/20260929-DAY3-mean-field-nilsson-csm-hfb-projection.md)。当前为 continuation checkpoint，窗口截止 `2026-09-30 15:00 Asia/Shanghai`，尚未结算、未推进 `next_day_index=3`。run-01 首次执行因服务高负载退出；同一 session `01a0eb92-e525-7863-a0c9-af73a53d832b` 已恢复。当前 receipt / continuation 位于 `outputs/learning-daily/20260929-DAY3-mean-field-nilsson-csm-hfb-projection-run-03/`；恢复命令：`codex resume 01a0eb92-e525-7863-a0c9-af73a53d832b -C /workspace/wiki -s danger-full-access -a never`。
 
-本轮新增 133Sn 粒子 transfer、131Sn 空穴 transfer 全文、Radford 130Sn preliminary B(E2)=0.023(5)e²b²，以及 Gray 对同一数据的依赖性 W.u. 重表。已确认 NuDat 132Sn 的 2.4-fs T1/2 注明由 B(E2) 派生，不是 gamma-table 5.5(15) W.u. 的独立实验；adopted-level 0.11(3) 栏带 CoulEx XREF。未解决项是 5.5-W.u. 底层输入、Radford single-particle-unit wording、1981 年 130Sn 原文和 AME 协方差。L4 not-ready；raw 保持未暂存。Day 2 已结算并计入，下一路由为 Day 3；Day 2 开放来源路线见 run-02/continuation-prompt.md。
+已核实 ABFN90 Fig.12、HARA95 投影方程、`156Er` Figs.26–27 与 A≈130 Table 5；模型卡新增投影核广义本征式与 number-projection 反例，并明确历史 `N=76/78` 标签不能转移到 `131Ce (N=73)`。`a130-model-choice-card` 与 `131Ce/133Ce` project 均保留 `unreviewed`，模式排序未变。续接检查点的稳定 Git 指针为 branch `main` + subject `Checkpoint Day 3 mean-field model-choice exercise`；精确 hash 留在任务回执。下一路线：检索一篇现代 A≈130 三轴投影计算，核实其核素、基底及直接比较量；若原文不可得，转为 `131Ce` 的 transition-level `δ`/偏振/绝对强度最小设计。继承的 run-01 失败回执、Day 2 run/raw 未跟踪内容均保留且未暂存。
 
 ## 2026-09-28 manual DAY2 run
 

@@ -3,7 +3,7 @@ type: project
 title: 131Ce/133Ce 集体模式判别
 aliases: [131Ce collective-mode discrimination]
 created: 2026-07-27
-updated: 2026-09-28
+updated: 2026-09-29
 status: active
 review_status: unreviewed
 project_stage: l4-milestone-awaiting-review
@@ -232,6 +232,7 @@ Using the first four Band 1 quadrupole rows in AW13-14 and the first four Band 1
 
 ## Related Sources and Pages
 
+- **Day 3 model-route link (2026-09-29):** [[a130-model-choice-card]] maps model inputs and limits for the existing `131Ce` question; [[hara-sun-1995-projected-shell-model-high-spin]] `HS10-4` is an axial-code historical comparison only. Its `N=76/78` triaxial candidates do not transfer to `131Ce` (`Z=58,N=73`), and this link does not change the current hypothesis ranking.
 - Target baseline: [[alwaleedi-2013-band-structures-131ce]], [[singh-2016-lifetime-131ce-133pr]], [[li-2004-lifetimes-131ce]], [[131ce-negative-parity-yrast-reference-sequence]], [[131ce-positive-parity-reference-sequence]], [[petrache-1998-highly-deformed-lifetimes-131ce-nd]], [[131ce]]
 - Static-moment/shape anchor: [[ionescu-bujor-1998-static-moments-129-131ce]]；其 `131Ce` `J=9−` moments and PTR shape parameters constrain the shape background but do not identify the high-spin collective mode alone.
 - `133Ce`: [[ayangeakaa-2013-evidence-multiple-chiral-doublet-bands-133ce]], [[ayangeakaa-2016-133ce-in-beam]], [[133ce]]
