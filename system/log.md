@@ -1430,3 +1430,18 @@ updated: 2026-07-15
 
 - Resumed the Day 3 session after a retryable service-overload exit; farmer found no pending recovery action. Preserved the original run-01 failure receipt and saved a continuation receipt for the same session.
 - Verified the Hara–Sun projection kernels and A≈130 axial-code boundary against local PDFs; updated the A≈130 model-choice card and linked the `131Ce` project without changing either page's unreviewed status or its mode ranking. The 15:00 closeout remains pending.
+
+## [2026-09-29] daily-learning | TPSM neighbor-source continuation
+
+- Retrieved the lawful arXiv v1 of Bhat et al. 2014 and verified its hash, model inputs, projected-band/energy comparisons, `130Cs` transition-strength figure and conclusion. Added a source note and minimal TPSM/model-choice links.
+- The `130Cs` absolute strength curves are calculations, while the plotted data comparison is an earlier intensity-derived ratio; the source also has an unresolved Table 1/Eq.3 `gamma` mapping mismatch. Neither item changes the `131Ce` project ranking; Day 3 remains open.
+
+## [2026-09-29] daily-learning | 130Cs TPSM lineage audit
+
+- Identified Bhat 2014 Ref. [32] as Simons et al. 2005 from Crossref, then downloaded the publisher OA PDF and checked its reaction, Tables 1–2, level scheme, DCO/polarization links, ratio figures and conclusion.
+- Confirmed one Euroball experiment underlies both the measured ratios and Bhat's TPSM comparison. The band-B ratio and missing lifetimes/absolute strengths remain explicit limits; none of these adjacent-Cs data change the `131Ce` mode ranking.
+
+## [2026-09-29] daily-learning | QMD and Day 3 continuation checks
+
+- Refreshed the Wiki QMD collection after the cross-source update: 16 new, 11 updated, 523 unchanged; embedding completed for 212 chunks across 27 documents. `qmd status` reports 550 documents, 2,459 vectors and 174 orphaned embedding chunks; no cleanup was run.
+- Boundary/writeback/lint checks passed with the report still continuation-pending. The new source PDFs remain local raw evidence and were not staged.

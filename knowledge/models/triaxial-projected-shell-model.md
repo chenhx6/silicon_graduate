@@ -3,7 +3,7 @@ type: model
 title: 三轴投影壳模型
 aliases: [triaxial projected shell model, TPSM]
 created: 2026-07-01
-updated: 2026-09-20
+updated: 2026-09-29
 status: active
 review_status: unreviewed
 model_family: projected-shell-model
@@ -58,6 +58,12 @@ Babra 2019 在交叉前后切换固定形变输入；这种比较支持形变变
 
 [[hara-sun-1995-projected-shell-model-high-spin]] 是 PSM 的历史方法综述，给出变形 Nilsson+BCS 基底、角动量投影、配置混合、Q·Q+配对 Hamiltonian、band-crossing/signature 和 electromagnetic observables 的统一谱系。其 A≈130 doubly-odd shape-transition 表格属于早期 axial-PSM inference；综述自己指出 axial code 不能直接证明 triaxiality，现代使用必须回到原始实验和后续 triaxial calculations。
 
+### Bhat et al. 2014: A≈130 odd–odd transfer boundary
+
+[[bhat-2014-tpsm-cs-doublet-bands]] 用三轴 Nilsson+BCS 基底和多准粒子投影计算 `124,126,130,132Cs`。`130Cs` Fig.3 能量比较与 Fig.8 的 `B(M1)/B(E2)` 比值说明 TPSM 可用于邻近 odd–odd A≈130 候选，但 Fig.8 的绝对 `B(E2)`、`B(M1)` 曲线是模型结果，论文没有给 `130Cs` lifetime/绝对强度测量。它不是 `131Ce` 数据，也不检验 Hara–Sun 的 N=76/78 候选。Table 1/Eq. (3) 对 `130,132Cs` 的输入映射到 `γ≈42°`，与 PDF p.6 的“约 30°”表述不一致，暂留 `needs_review`，未把计算角度当作实验形状。
+
+[[simons-2005-130cs-chiral-structures]] 是 Bhat 2014 Fig.8 所引 Ref. [32] 的 `130Cs` primary Euroball experiment。它测得能级、DCO/偏振和强度派生 ratios，未给 lifetime/absolute transition strengths；Bhat 是复用该数据的理论比较，不能算第二份实验确认。SIM05 的 `B(M1)/B(E2)` 与 crossing 边界说明，TPSM 相符本身不能消除实验指标内部的限制。
+
 ## Related Models
 
 [[triaxial-particle-rotor-model]]、[[random-phase-approximation]]
@@ -70,6 +76,7 @@ Babra 2019 在交叉前后切换固定形变输入；这种比较支持形变变
 - [[babra-2019-deformation-change-136sm]]
 - [[jahangir-2026-tpsm-gamma-bands-nb-tc]]
 - [[hara-sun-1995-projected-shell-model-high-spin]]
+- [[bhat-2014-tpsm-cs-doublet-bands]]
 
 ## Evolution Log
 

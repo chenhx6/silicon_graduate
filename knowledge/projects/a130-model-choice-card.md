@@ -16,6 +16,10 @@ tags: [a130, model-choice, mean-field, cranked-shell-model, hfb, angular-momentu
 
 本页把 Day 3 的模型选择练习固化为可复用决策卡。它用于把实验问题映射到最小理论路线，不把计算的 `β₂/γ`、能级或组态标签写成实验事实。
 
+## Agent active summary
+
+- Day 3 已把 Hara–Sun 的投影核与轴对称迁移边界写入本卡；续接补入 Bhat 2014 `130Cs` TPSM 模型/数据比较作为邻核方法控制。它不改变 `131Ce` project 的模式排序；`130Cs` absolute-strength 曲线和 `ε/ε′→γ` 内部不一致继续保留模型/来源边界。
+
 ## Research Question
 
 面对 `131Ba/133Ce` 的 signature splitting、alignment、band crossing 或 `131Ce` 的竞争集体模式，应该选择哪一种最小模型路线？每条路线能回答什么、不能回答什么，哪些实验 companion observables 才能检验模型？
@@ -51,6 +55,8 @@ tags: [a130, model-choice, mean-field, cranked-shell-model, hfb, angular-momentu
 | Static mean-field/HFB or Nilsson–Strutinsky | [[aberg-flocard-nazarewicz-1990-mean-field-shapes]] AFN90-1, AFN90-4 | intrinsic `β₂/γ/β₃`, pairing and rotating-frame minima; conventions must be fixed | a laboratory claim based only on one minimum, or a change under self-consistency/rotation-axis convention, leaves the result model-only |
 | CSM/QTR sensitivity map | [[ding-2021-131ba-133ce-signature-splitting]] D21-1, D21-4, D21-5, D21-6 | level energies, `R_ac`, alignment, `J^(2)`, `S(I)` and sensitivity to `γ` versus low-`j` Coriolis mixing | the same `S(I)` reproduced by competing attenuation/mixing choices without transition-level `δ`, polarization or strength constraints cannot identify `γ` uniquely |
 | PSM/TPSM or projected configuration mixing | [[hara-sun-1995-projected-shell-model-high-spin]] HS10-1, HS10-3, HS10-4, HS10-5 | projected good-`I` energies, configuration weights, `B(E2)/B(M1)`, g-factors and crossing trends | axial-code mismatch is not direct triaxial evidence; basis truncation, particle-number projection and effective operators must be sensitivity-tested |
+| A≈130 odd–odd TPSM transfer control | [[bhat-2014-tpsm-cs-doublet-bands]] BHA14-1, BHA14-3, BHA14-4, BHA14-5 | `124,126,130,132Cs` projected bands and energy comparison; for `130Cs`, TPSM absolute `B(E2)`, `B(M1)` predictions plus previously published intensity-derived ratios | `130Cs` is `N=75`, not `131Ce N=73` or the historical `N=76/78` candidates; absolute `130Cs` strengths are not measured here, and the Table 1/Eq.3 gamma mapping needs version/parameter clarification |
+| `130Cs` primary experiment behind the TPSM ratios | [[simons-2005-130cs-chiral-structures]] SIM05-1, SIM05-3–SIM05-7; [[bhat-2014-tpsm-cs-doublet-bands]] BHA14-4 | observed band/link scheme, DCO/polarization, smooth `S(I)` and intensity-derived ratio patterns; Bhat Fig.8 reuses the Simons Euroball data | band B lacks `B(M1)/B(E2)` staggering, mid-spin splitting is finite and the high-spin crossing changes structure; no `130Cs` lifetimes/absolute strengths | partner-resolved lifetimes and absolute strengths; do not double-count the theory comparison or transfer to `131Ce` |
 
 For `131Ce`, this crosswalk makes the experiment-design order explicit: first secure band identity and measured connecting-transition `δ`/polarization; then obtain partner-resolved lifetimes and absolute `B(E2)/B(M1)` or `Q_t`; only afterward rank CSM/QTR, projected mixing and γ-soft alternatives on a common observable set. A calculated `γ`, configuration weight or projected band energy without that last comparison remains a model result.
 
@@ -86,6 +92,9 @@ Alwaleedi's `B(M1)/B(E2)` comparison assumes `δ=0`, and the dataset lacks lifet
 - AFN90-2: alignment, stretching, band termination, intruder polarization and shape coexistence can produce similar high-spin changes.
 - HS10-4: Hara–Sun §5.1, Table 5 (PDF pp.712–713) labels N=76/78 candidates “presumably triaxial” after axial PSM failed to reproduce data; p.713 states that their code assumed axial symmetry and calls for a triaxial projection calculation. This is a model-based inference, not a direct shape measurement, and it does not transfer to `131Ce` (Z=58, N=73), which Table 5 places in the prolate `+0.22` column.
 - HS10-5: in `156Er`, particle-number projection changes the backbending and brings the lowest quasiparticle-pair state closer to yrast (Figs.26–27, PDF pp.700–701). The authors warn that truncation can leave spurious pair-state admixtures, so adding number projection is not automatically a safer result.
+- BHA14-4/BHA14-5: `130Cs` TPSM matches published energies and intensity-derived ratios, but the absolute transition-strength curves are predictions; the paper explicitly calls for lifetime measurements. This supports using TPSM to design a comparison, not using neighboring-Cs agreement as `131Ce` evidence.
+- SIM05-3/SIM05-5/SIM05-7: the primary `130Cs` experiment establishes linking-transition multipolarity/polarization and derives ratio trends, but band B lacks `B(M1)/B(E2)` staggering and the paper requests lifetimes. Bhat Ref. [32] reuses this dataset, so the theory/experiment pair is one experimental lineage.
+- BHA14-6: the printed `ε,ε′` and Eq. (3) imply `γ≈42°` for `130,132Cs`, unlike the nearby prose's approximate `30°`; keep the parameter/wording mismatch localized to the arXiv v1 until the journal version and convention are checked.
 - The required companion set for a mode claim remains transition-level δ/偏振, partner-resolved lifetimes and absolute strengths, and independent linking/identity constraints.
 
 ## Risks and Blockers

@@ -10,7 +10,7 @@ updated: 2026-09-29
 
 日报：[2026-09-29 Day 3 mean-field / Nilsson / CSM / HFB / projection](../outputs/learning-daily/20260929-DAY3-mean-field-nilsson-csm-hfb-projection.md)。当前为 continuation checkpoint，窗口截止 `2026-09-30 15:00 Asia/Shanghai`，尚未结算、未推进 `next_day_index=3`。run-01 首次执行因服务高负载退出；同一 session `01a0eb92-e525-7863-a0c9-af73a53d832b` 已恢复。当前 receipt / continuation 位于 `outputs/learning-daily/20260929-DAY3-mean-field-nilsson-csm-hfb-projection-run-03/`；恢复命令：`codex resume 01a0eb92-e525-7863-a0c9-af73a53d832b -C /workspace/wiki -s danger-full-access -a never`。
 
-已核实 ABFN90 Fig.12、HARA95 投影方程、`156Er` Figs.26–27 与 A≈130 Table 5；模型卡新增投影核广义本征式与 number-projection 反例，并明确历史 `N=76/78` 标签不能转移到 `131Ce (N=73)`。`a130-model-choice-card` 与 `131Ce/133Ce` project 均保留 `unreviewed`，模式排序未变。续接检查点的稳定 Git 指针为 branch `main` + subject `Checkpoint Day 3 mean-field model-choice exercise`；精确 hash 留在任务回执。下一路线：检索一篇现代 A≈130 三轴投影计算，核实其核素、基底及直接比较量；若原文不可得，转为 `131Ce` 的 transition-level `δ`/偏振/绝对强度最小设计。继承的 run-01 失败回执、Day 2 run/raw 未跟踪内容均保留且未暂存。
+已核实 ABFN90 Fig.12、HARA95 投影方程/`156Er` Figs.26–27/A≈130 Table 5；续读 Bhat 2014 TPSM，并回到其 Ref.32 原始 Simons 2005 `130Cs` Euroball 数据。`SIM05` 给出相同宇称/组态的 DCO/偏振 links 和强度比，但无 lifetime/绝对强度；Bhat 的 ratio 比较是依赖性模型重用，不是第二实验。Bhat arXiv v1 的 `ε/ε′→γ` 与约30°文字差异仍 `needs_review`。QMD 已更新并嵌入 212 chunks；新增 source/model/card/index 与报告/回执待本续接 commit。未改变 `131Ce/133Ce` 排序或 review status。首个检查点 `main` / `Checkpoint Day 3 mean-field model-choice exercise` 已推送；当前续接 commit target 为 `Add 130Cs primary evidence to Day 3 TPSM comparison`。下一路线：核对 Bhat 发表版与 Ref.18 `126Cs` 数据，或查找直接覆盖 Hara N=76/78 的现代计算；继续保留 `131Ce` 目标跃迁缺口。
 
 ## 2026-09-28 manual DAY2 run
 
