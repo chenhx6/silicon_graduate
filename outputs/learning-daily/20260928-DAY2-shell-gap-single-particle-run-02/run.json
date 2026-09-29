@@ -42,7 +42,7 @@
   "report": "/workspace/wiki/outputs/learning-daily/20260928-DAY2-shell-gap-single-particle.md",
   "continuation_prompt": "/workspace/wiki/outputs/learning-daily/20260928-DAY2-shell-gap-single-particle-run-02/continuation-prompt.md",
   "source_manifest": "/workspace/wiki/outputs/learning-daily/20260928-DAY2-shell-gap-single-particle-run-02/source-manifest.tsv",
-  "git_commit_subject": "Trace 132Sn B(E2) lifetime and Coulomb-excitation fields",
+  "git_commit_subject": "Bound AME covariance sensitivity for N=82 mass indicators",
   "exit_code": null,
   "finished_at": null,
   "stop_reason": null,
@@ -82,8 +82,8 @@
   },
   "verification_completed_at": "2026-09-29T04:06:54+08:00",
   "manual_continuation_count": 3,
-  "checkpoint_at": "2026-09-29T07:43:28+08:00",
-  "continuation_focus": "trace the primary input behind the NuDat 132Sn 5.5-W.u. field and the 1981 130Sn paper; obtain AME covariance if public",
+  "checkpoint_at": "2026-09-29T08:11:26+08:00",
+  "continuation_focus": "1981 130Sn transition-probability primary locator, NuDat 132Sn 5.5-W.u. input lineage, and AME fitted covariance",
   "reopened_at": "2026-09-29T02:34:29+08:00",
   "source_manifest_rows": 30
 }

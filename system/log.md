@@ -1404,3 +1404,8 @@ updated: 2026-07-15
 
 - Parsed the saved NuDat 132Sn row: the adopted 2.4-fs 2+ lifetime is explicitly annotated “from B(E2) value,” so it is derived and not an independent observation supporting the gamma-table 5.5(15) W.u. value. The adopted-level 0.11(3) field has the Coulomb-excitation XREF and matches Varner’s preliminary result.
 - Added locator NUDAT132SN-4 and updated the project/question distinction; the primary input underlying the 5.5-W.u. field remains to be traced.
+
+## [2026-09-29] daily-learning | AME covariance sensitivity bound
+
+- Added a conservative positive-semidefinite covariance bound from the AME marginal mass errors: δ₂n ≤ 8.992 keV and Δn(82) ≤ 9.477 keV, versus diagonal 5.400/5.688 keV. These finite-difference bounds exclude physical pairing/smooth-mass contributions and do not replace the missing fitted covariance.
+- Day 2 remains open; the direct Radford 130Sn result and 132Sn NuDat lifetime lineage remain the current source boundary.

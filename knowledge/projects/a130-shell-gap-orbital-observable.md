@@ -89,6 +89,10 @@ For the hole side, the NuDat 131Sn evaluation lists a 3/2+ ground state, an unre
 
 For spin-orbit splitting, the article uses the 131Sn hole states together with earlier 133Sn particle energies from Jones and related measurements, rather than measuring both sides in one reaction (ORL18-18). The cited 2d binding energies −9.007(4) and −7.353(4) MeV differ by 1.654 MeV; the authors report about 50% lower Δso/(l+1/2) for weakly bound 3p than for well-bound 2d, with ±150-keV average uncertainty due to possible unobserved levels (ORL18-10/11/12). A Woods–Saxon model with fixed spin-orbit strength reproduces the measured trend and attributes it to extended weakly bound radial wavefunctions; calculated 3p radii of 7.48 and 8.29 fm exceed the 2d radii near 5.3 fm (ORL18-13/14/15). These calculations are author model results, not direct measurements, and spin-orbit splitting is not itself the full N=82 particle-hole gap.
 
+With only marginal mass uncertainties and no covariance matrix, a conservative bound follows from the triangle inequality for any positive-semidefinite covariance matrix:
+σ[D] ≤ Σi |ci| σi.
+For δ₂n the maximum is 1.873+2×1.976+3.167=8.992 keV (the diagonal estimate is 5.400 keV); for Δn(82) it is 3.621+2×1.976+1.904=9.477 keV (diagonal 5.688 keV). These are formal uncertainty bounds on the finite differences under arbitrary correlations, not an estimate of the actual AME fit covariance and not a bound on pairing or smooth-mass model contributions. They are tiny relative to the MeV-scale central differences but do not turn either indicator into a microscopic orbital gap.
+
 The AME2020 mass rows permit an adjacent one-neutron separation-energy indicator:
 S_n(132Sn)=ME(131Sn)+ME(n)−ME(132Sn)=7.353293 MeV,
 S_n(133Sn)=ME(132Sn)+ME(n)−ME(133Sn)=2.398654 MeV,

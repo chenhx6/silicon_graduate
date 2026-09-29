@@ -82,6 +82,8 @@ session_mode: resumed-existing-session
 
 **寿命到 `Q_t` 的角动量转换。** 对 `131Ce` `27/2−→23/2−`，原表 `B(E2)=1723(322)e²fm⁴ =0.1723(322)e²b²`。纯 `K=11/2` 转子因子 `C²=|⟨IK20|I−2,K⟩|²=0.233846` 给 `Q_t=sqrt(16πB(E2)/(5C²))=2.7216±0.2543 eb`，重现 Li 原表 `2.72(25)`。用 Singh Eq. (2)–(3) 的 rotation-aligned `j=11/2` 混合，`a_K²=2^{-11} binom(11,11/2+K)`，得到 `C_eff=Σ_K a_K²⟨IK20|I−2,K⟩=0.580021`，同一强度换算为 `Q_t=2.269±0.212 eb`，与其 Ref. [32] 对 Li 同一 `1.23(23) ps` 重新换算的 `2.28(21) eb` 相合。表面上的 `0.44 eb` 差值由角动量转换约定解释；两行共享同一原始寿命，不可算作独立 `Q_t` 测量。
 
+**无协方差时的质量差分敏感性上界。** 对任意满足半正定约束、且对角线等于表列边际质量方差的协方差矩阵，Δ=c·ME 的标准差不超过 Σ|ci|σi。故 δ₂n 的上界为 1.873+2×1.976+3.167=8.992 keV（独立对角估计5.400 keV）；Δn(82) 的上界为3.621+2×1.976+1.904=9.477 keV（对角估计5.688 keV）。这是只依赖边际误差的保守数学界，不是 AME 拟合协方差的估计，也不涵盖配对和平滑质量面物理项。它说明 MeV 级中心差对相关误差尺度不敏感，但不把质量指标升级为单粒子间隔。
+
 **130Sn direct B(E2) 与单位交叉核验。** Radford Table 1 给 B(E2;0+→2+)=0.023(5) e²b²。用标准 Weisskopf E2 表达式 B_W(E2,A)=1/(4π)(3/5)²(1.2A^(1/3))⁴e²，A=130 时 1 W.u.=0.003912 e²b²，因此该值为 5.88(1.28) W.u.；Gray 2021 Table 3.13 的5.9(1.3) W.u.是同一 Radford 数据的再表述。Varner 132Sn 的0.11(3) e²b²与 Radford 130Sn 的中心值之比为4.78±1.67（仅按两项引述误差独立传播）。NuDat gamma row 的132Sn 5.5(15) W.u.换算为约0.0220(60) e²b²，与130Sn强度相近；但NuDat adopted-level row另列0.11(3)且不打印单位，正好对应Varner数值。Varner效率校准未完成；不同实验和字段不作平均。
 
 ## Counter-evidence and missing companion observables
@@ -582,7 +584,7 @@ N=82 的高 E(2+)、AME 质量指标、130Sn direct-preliminary B(E2)、Varner 1
     },
     {
       "knowledge": "knowledge/projects/a130-shell-gap-orbital-observable.md",
-      "summary": "Added Radford’s preliminary direct 130Sn B(E2), standard W.u. conversion and Gray thesis re-tabulation; exposed distinct 132Sn Varner/NuDat strength fields while preserving source/calibration limits.",
+      "summary": "Added the AME one-neutron difference with a conservative arbitrary-covariance bound, 133Sn/131Sn transfer evidence, Orlandi DWBA limits, Radford preliminary 130Sn B(E2), and dependent Gray W.u. cross-check.",
       "anchor": "### N=82 particle-hole sides and one-neutron mass difference",
       "sources": [
         {
