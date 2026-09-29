@@ -16,8 +16,9 @@ Continue the same `wiki-daily-learning` session for Day {{DAY_INDEX}}.
 
 The normal 16:00 schedule reaches its closeout at 15:00 the following day. Stop opening
 new research routes at the deadline and use the remaining 15:00–16:00 buffer for the
-report, canonical writeback, required checks, run receipt, and next-day prompt. If this
-run started manually early or late, the timestamp above is authoritative.
+report, canonical writeback, required checks, run receipt, and next-day prompt. A manual
+start before 15:00 still uses the following day's 15:00; the timestamp above is
+authoritative, and only an explicit `--until` override changes it.
 
 This is a long study block, not a final answer. Continue making decision-relevant
 progress until the schedule deadline or until an explicit hard blocker is reached.

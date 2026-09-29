@@ -1420,3 +1420,8 @@ updated: 2026-07-15
 
 - Changed the daily substantive closeout from 10:00 to 15:00 Asia/Shanghai. The regular 16:00 launch now has a 15:00–16:00 closeout buffer for the report, canonical knowledge, checks, receipt, and next-day prompt; manual early/late starts use the runner-resolved `overnight_until`.
 - Synchronized the runner default, scheduled and foreground entry points, continuation prompt, workflows, script guide, and regenerated the Day 3 prompt with its expected closeout timestamp `2026-09-30T15:00:00+08:00`. The 16:00 trigger is unchanged.
+
+## [2026-09-29] daily-learning | keep next-day deadline for early starts
+
+- Corrected the 15:00 policy after the user noted that a manually opened next-day study can start before 15:00. The default cutoff is now fixed to `run_date + 1 day at 15:00`, regardless of the start clock; an early start no longer shortens the window to same-day 15:00.
+- Updated the runner's actual deadline computation and the workflow wording. The Day 3 prompt remains dated for a 2026-09-29 run and displays `2026-09-30T15:00:00+08:00`; its run-specific prompt and receipt will use the same next-day rule.

@@ -75,7 +75,9 @@ session，不复用固定 session。`run.json` 保存 `session_id`、
 
 正式 `daily-learning` runner 的默认收束时刻是 `15:00`。正常 16:00 启动时，学习窗口
 延续到次日 15:00；15:00 开始收束，并在 15:00–16:00 完成日报、知识回写、验证、回执和
-次日提示词准备。手动提前或延迟启动时，以本次 receipt 的 `overnight_until` 为准。
+次日提示词准备。无论本次在 15:00 前手动提前启动还是延迟启动，默认都固定为本次
+`run_date` 的次日 15:00；只有明确传入 `--until` 才覆盖。receipt 的 `overnight_until`
+记录实际截止。
 首个 `codex exec`
 完成后，runner 在同一 session 内调用 `codex exec resume <session_id>` 发送 continuation
 prompt，继续处理下一个高信息增益问题；receipt 记录 `overnight_until`、

@@ -641,7 +641,7 @@ def main() -> int:
     parser.add_argument(
         "--until",
         default=None,
-        help="override the closeout time (HH:MM Asia/Shanghai; default 15:00)",
+        help="explicitly override the default run-date+1 15:00 closeout (HH:MM Asia/Shanghai)",
     )
     parser.add_argument("--max-continuations", type=int, default=96)
     parser.add_argument("--dry-run", action="store_true")
@@ -711,7 +711,7 @@ def main() -> int:
         phase = phase_for_day(day_index)
         run_date = local_date()
         if schedule_deadline is None and args.mode == "daily-learning":
-            schedule_deadline = parse_deadline(DEFAULT_CLOSEOUT_TIME)
+            schedule_deadline = planned_closeout_for_run_date(run_date)
         file_stem = daily_file_stem(run_date, day_index)
         run_number = next_run_number(paths.daily_root, run_date, day_index)
         run_id = f"{run_date}-day-{day_index:02d}-{run_number:02d}"

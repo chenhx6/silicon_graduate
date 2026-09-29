@@ -54,8 +54,9 @@ schedule 的 canonical session index。用户需要查看某日对话时，在�
 正式 daily run 的计划启动时间为 `Asia/Shanghai 16:00`，默认学习窗口延续到次日
 `15:00`。首个 `codex exec` 完成后，runner 在同一 session 中使用 `codex exec resume`
 发送 continuation prompt，逐轮切换到下一个高信息增益问题；`15:00` 停止新增研究并开始
-收束，`15:00–16:00` 留作日报、知识回写、验证、回执和次日提示词准备。默认截止时间为
-`15:00`；手动提前或延迟启动时，runner 按启动时刻解析实际截止，并把精确值
+收束，`15:00–16:00` 留作日报、知识回写、验证、回执和次日提示词准备。默认截止时间固定为
+本次 `run_date` 的次日 `15:00`；15:00 前手动提前启动也仍截止于次日 15:00。只有显式
+传入 `--until` 才覆盖默认日期。runner 把精确值
 写入 receipt 的 `overnight_until` 和每轮 continuation prompt。报告和提示词应显示本轮
 实际截止时间。checkpoint 不作为学习结束信号。硬阻塞、资源/权限失败或真正证据饱和仍可
 提前结束，并必须在日报中记录原因和下一条 continuation prompt。

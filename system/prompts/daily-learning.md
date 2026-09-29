@@ -38,8 +38,8 @@ knowledge writeback, required checks, run receipt, and next-day prompt. The time
 in Run context is the expected closeout for a normal scheduled start. When the runner
 launches this prompt, it replaces the field with the actual deadline; the same timestamp
 is recorded in the run receipt's `overnight_until` and repeated in each continuation
-prompt. Follow that runtime timestamp if a manual early or delayed start changes the
-calendar date.
+prompt. A manual start before 15:00 still closes on the following day's 15:00; only an
+explicit `--until` overrides that date-based default.
 
 At 15:00, stop opening new research routes and begin closeout. Do not use the closeout
 hour to start another substantive source or problem.
