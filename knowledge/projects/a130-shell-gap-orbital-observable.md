@@ -32,6 +32,11 @@ tags: [a130, shell-effects, orbitals, observables, durable-learning]
 - [[ragnarsson-nilsson-sheline-1978-shell-structure]]：Nilsson/modified-oscillator、Strutinsky shell correction、γ/β3、质量/分离能、`E(2+)`、形变和高自旋稳定性的综述边界；review/model synthesis，不是独立实验复制。
 - [[ame2020-sn132-mass-curvature]]：AME2020 `130,132,134Sn` 质量 excess，允许构造 N=82 的两中子质量曲率指标。
 - [[iaea-livechart-132sn-134te-levels]]：`130Sn/132Sn` isotope 与 `132Sn/134Te` isotone 的 adopted `2+` level-energy 对照；LiveChart/NuDat 都是评估数据库入口。
+- [[ensdf-134te-coulomb-excitation]]：`134Te` 的 ENSDF Coulomb-excitation 子表给出 adopted `B(E2)↑=0.13(4)` 及其派生寿命，并回链 `2003Ba01`；原始论文全文尚不可访问，因此这里保留评估值与 primary-text boundary。
+- [[jones-2010-133sn-single-particle-transfer]]：`132Sn(d,p)133Sn` 的粒子转移截面和 DWBA 比较；谱因子是模型派生反应量，不是直接占据数。
+- [[ensdf-133sn-transfer-levels]]：`133Sn` 的 evaluated transfer-level 和反应引用入口；它与 Jones 原始实验共享数据谱系，不是独立重复。
+- [[ensdf-131sn-neutron-hole-levels]]：`131Sn` 评估空穴侧能级与 unresolved isomer-energy 边界；该评估页不是新的反应测量。
+- [[orlandi-2018-131sn-neutron-hole-transfer]]：`132Sn(d,t)131Sn` 的空穴转移强度、未分辨双重态和光学势/未观测能级系统误差；解释仍受 `d3/2` 假设限制。
 - [[varner-2005-coulomb-excitation-132-134sn]]：直接 Coulomb-excitation `B(E2)`；保留 `132Sn` efficiency-calibration 尚不完整和 `134Sn` mixed-beam 边界。
 - [[radford-2005-130sn-coulomb-excitation-126-130sn]]：纯束流逆运动学 CoulEx 直接给出 126/128/130Sn 的初级 B(E2)，130Sn 结果标为 preliminary。
 - [[gray-2021-thesis-electromagnetic-moments-z50]]：ANU 学位论文 Table 3.13 将 Radford 130Sn 数据转列为 5.9(1.3) W.u.；它是同一数据的再表述，不是新实验。

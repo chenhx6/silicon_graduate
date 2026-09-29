@@ -6,11 +6,11 @@ updated: 2026-09-29
 
 # 跨会话交接
 
-## 2026-09-29 Day 2 continuation in progress
+## Active handoff — 2026-09-29 Day 2 finalized
 
-日报：[2026-09-28 Day 2 shell-gap / single-particle run](../outputs/learning-daily/20260928-DAY2-shell-gap-single-particle.md)。同一 session 01a0e767-5b2c-7792-9707-9fd1d49f2eb0 正在续接，run-02 状态 in-progress，Day 2 尚未计数，state_file next_day_index=2。恢复命令：codex resume 01a0e767-5b2c-7792-9707-9fd1d49f2eb0 -C /workspace/wiki -s danger-full-access -a never。
+日报：[2026-09-28 Day 2 shell-gap / single-particle run](../outputs/learning-daily/20260928-DAY2-shell-gap-single-particle.md)。学习窗口于 2026-09-29 10:00（Asia/Shanghai）结束；同一 session `01a0e767-5b2c-7792-9707-9fd1d49f2eb0` 的 run-02 已结算为 `completed`、计入实质学习，里程碑推进到 `next_day_index=3`。原 run-01 usage-limit 失败及恢复历史保留；未解决的原文、AME covariance 和校准边界不阻止结算。日报、回执与续接路线见上述路径及 `outputs/learning-daily/20260928-DAY2-shell-gap-single-particle-run-02/`。下一任务为 Day 3；提示路径 `outputs/learning-daily/prompts/20260929-DAY3-mean-field-nilsson-csm-hfb-projection.md`。恢复 Day 2 session：`codex resume 01a0e767-5b2c-7792-9707-9fd1d49f2eb0 -C /workspace/wiki -s danger-full-access -a never`。
 
-本轮新增 133Sn 粒子 transfer、131Sn 空穴 transfer 全文、Radford 130Sn preliminary B(E2)=0.023(5)e²b²，以及 Gray 对同一数据的依赖性 W.u. 重表。已确认NuDat 132Sn 的2.4-fs T1/2注明由B(E2)派生，不是gamma-table 5.5(15) W.u.的独立实验；adopted-level 0.11(3)栏带CoulEx XREF。未解决项是5.5-W.u.底层输入、Radford single-particle-unit wording、1981年130Sn原文和AME协方差。L4 not-ready；raw 保持未暂存；当前Day 2仍in-progress且未计数；下一路由见 run-02/continuation-prompt.md。
+本轮新增 133Sn 粒子 transfer、131Sn 空穴 transfer 全文、Radford 130Sn preliminary B(E2)=0.023(5)e²b²，以及 Gray 对同一数据的依赖性 W.u. 重表。已确认 NuDat 132Sn 的 2.4-fs T1/2 注明由 B(E2) 派生，不是 gamma-table 5.5(15) W.u. 的独立实验；adopted-level 0.11(3) 栏带 CoulEx XREF。未解决项是 5.5-W.u. 底层输入、Radford single-particle-unit wording、1981 年 130Sn 原文和 AME 协方差。L4 not-ready；raw 保持未暂存。Day 2 已结算并计入，下一路由为 Day 3；Day 2 开放来源路线见 run-02/continuation-prompt.md。
 
 ## 2026-09-28 manual DAY2 run
 

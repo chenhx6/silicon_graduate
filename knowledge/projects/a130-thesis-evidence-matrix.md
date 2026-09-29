@@ -62,7 +62,7 @@ A new line or energy-sum closure may strengthen placement. It cannot by itself p
 
 ## Next matrix increments
 
-- Day 2 shell-gap/orbital evidence is persisted in [[a130-shell-gap-orbital-observable]] with the `130–134Sn` closure comparison, `131Ce` lifetime-to-`Q_t` reconstruction and `N=75` model counter; add a matrix row only when it maps directly to a thesis candidate/transition, rather than duplicating this bridge page.
+- Day 2 shell-gap/orbital evidence is persisted in [[a130-shell-gap-orbital-observable]] with the `130–134Sn` closure comparison, `131Ce` lifetime-to-`Q_t` reconstruction and `N=75` model counter; source entry points include [[ame2020-sn132-mass-curvature]] and [[li-2004-lifetimes-131ce]]. Add a matrix row only when it maps directly to a thesis candidate/transition, rather than duplicating this bridge page.
 - Add A≈130 source rows only after title/DOI, raw or public-full-text identity, locator and source-independence checks.
 - Link each row to at least one nucleus/band page, one method/model page, and one competing source or project where applicable.
 

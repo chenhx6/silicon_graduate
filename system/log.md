@@ -1409,3 +1409,9 @@ updated: 2026-07-15
 
 - Added a conservative positive-semidefinite covariance bound from the AME marginal mass errors: δ₂n ≤ 8.992 keV and Δn(82) ≤ 9.477 keV, versus diagonal 5.400/5.688 keV. These finite-difference bounds exclude physical pairing/smooth-mass contributions and do not replace the missing fitted covariance.
 - Day 2 remains open; the direct Radford 130Sn result and 132Sn NuDat lifetime lineage remain the current source boundary.
+
+## [2026-09-29] daily-learning | finalize substantive Day 2
+
+- Closed the Day 2 window at 10:00 Asia/Shanghai after the source, analysis, counter-evidence, durable-knowledge, and continuation work was complete; later closeout reconciled state and added source backlinks required by the existing writeback validator, without adding new source evidence.
+- Final receipt records `completed`, `counted_in_substantive_test: true`, the same session/resume command, and `next_day_index: 3`. The original run-01 usage-limit failure and earlier intermediate recovery event remain preserved; a final scheduler event reconciles the timeline.
+- Open source and covariance gaps remain explicit. The Day 3 mean-field/Nilsson/CSM/HFB/projection prompt is generated under `outputs/learning-daily/prompts/`; final boundary, lint, writeback and diff exit codes are in the receipt and report.

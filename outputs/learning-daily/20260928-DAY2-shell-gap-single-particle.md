@@ -21,7 +21,7 @@ session_mode: resumed-existing-session
 # 2026-09-28 Day 2：壳层、magic gap 与单粒子轨道
 
 ## Run state
-- 本续接补入 133Sn 粒子转移 SI、131Sn 空穴侧评估边界及 AME 单中子差分；run-02 保持 in-progress，Day 2 尚未计数，state_file 的 next_day_index 仍为 2。
+- Day 2 学习窗口于 2026-09-29 10:00（Asia/Shanghai）结束。截止后只做状态结算，并按既有 writeback 清单补齐 knowledge 页的来源反链；没有新增来源证据或改变科学判断。run-02 最终记为 `completed`、计入实质学习，`next_day_index` 推进至 3。未解决的原文与协方差缺口仍保留为开放证据边界。
 
 - 本报告记录正式 30 天实质周期的 Day 2。前一轮 `2026-09-28-day-02-01` 于 18:13 因 usage limit 以 exit `1` 结束，调度日志保留原失败事件；21:14 在同一 Codex session 恢复后，本次 recovery segment `2026-09-28-day-02-02` 继续 Day 2。恢复不是新的 schedule session。
 - 当前 session：`01a0e767-5b2c-7792-9707-9fd1d49f2eb0`。可复制续接命令：`codex resume 01a0e767-5b2c-7792-9707-9fd1d49f2eb0 -C /workspace/wiki -s danger-full-access -a never`。上一轮 `run-01` 目录保留为原始失败回执，没有覆盖或暂存。
@@ -29,7 +29,7 @@ session_mode: resumed-existing-session
 - 11 个公开质量表、评估页面与 PDF 在哈希/格式/目标 locator 核验后归档到 `raw/papers/gpt/day2-shell-gap-20260928/`；没有覆盖既有 raw，整包保持未暂存。来源 URL、DOI、SI 状态、SHA-256 和 locator 见 [run-02 source manifest](20260928-DAY2-shell-gap-single-particle-run-02/source-manifest.tsv)。
 - 经 hash、PDF 签名和目标行检查的 11 个公开源快照由 `_incoming/20260928-day-02-02/` 晋升至 [run-scoped raw source bundle](../../raw/papers/gpt/day2-shell-gap-20260928/)；文件只用于本地来源回链，不暂存/发布。URL、DOI、SI 状态、哈希和 locator 汇总在 [source manifest](20260928-DAY2-shell-gap-single-particle-run-02/source-manifest.tsv)。
 - 写入前运行 `python3 system/scripts/wiki_boundary_check.py --root .`，exit `0`；`python3 system/scripts/clean_knowledge_eol_dirty.py` 和 `python3 system/scripts/wiki_automation_preflight.py --root .` 分别 exit `0`。受保护 `raw/zotero/wiki-inbox.bib` 哈希与基线一致。
-- 原 schedule 窗口为 Asia/Shanghai 2026-09-28 16:00 至 2026-09-29 10:00。本 continuation 延续同一 Day 2 学习窗口；报告是 checkpoint，下一条高信息任务见 `run-02/continuation-prompt.md`。
+- 原 schedule 窗口为 Asia/Shanghai 2026-09-28 16:00 至 2026-09-29 10:00。该窗口内完成了同一 Day 2 session 的高信息续读；本报告现为最终记录。Day 2 未闭合的来源路线保存在 `run-02/continuation-prompt.md`，下一张正式任务卡是 Day 3，提示文件由 runner 生成在 `outputs/learning-daily/prompts/`。
 
 ## Candidate pool and selection
 
@@ -1070,7 +1070,7 @@ Orlandi 全文把空穴侧证据从“摘要级支持”推进到带条件的定
 ## Verification and continuation
 
 - H2 暂存后再次运行 clean_knowledge_eol_dirty.py：exit 1，输出 7 个已暂存修改为 STAGED-NOT-TOUCHED，11 个本轮新增 knowledge Markdown 为 REVIEW-UNSAFE A（该脚本只比较 HEAD 已存在文件，不能对新增路径做换行回滚）。逐个扫描这11个新文件均无 CR 字节且以 LF 换行结束；这些路径均属于本轮新建来源页，没有覆盖入口已有文件。
-- 本次续接检查：wiki_boundary_check.py exit 0；wiki_lint.py --fail-on error exit 0（errors=0、warnings=86、info=1208）；git diff --check exit 0；writeback anchors/locators validator exit 0（10 个固定标题、1 个机器块、29 items、0 错误）。本次追加 NUDAT132SN-4 并复验 machine locator。当前 warnings 分类为 CITATION_KEY_MISSING 80、REACTION_PARSE 3、ORPHAN_PAGE 2、RAW_GIT_CHANGE 1；均未触发 fail-on error。17 个公开 raw 快照哈希已复核，source-manifest 30行。run-02 仍 in-progress、未计数，state_file next_day_index=2。
+- 本轮最终检查：`wiki_boundary_check.py --root .` exit `0`；`wiki_lint.py --fail-on error` exit `0`（errors=0、warnings=85、info=1208）；`git diff --check` exit `0`；日报标题校验 exit `0`；knowledge-writeback validator exit `0`（1 个机器块、29 项、anchor/locator 错误 0）。剩余 warnings 为 CITATION_KEY_MISSING 80、REACTION_PARSE 3、ORPHAN_PAGE 1、RAW_GIT_CHANGE 1；均未触发 fail-on error，其中 raw warning 对应本地保留且未暂存的原始证据包。17 个公开 raw 快照哈希已复核，source-manifest 30 行。run-02 已结算为 `completed` 并计入实质学习；state file 的 `next_day_index=3`。原 run-01 usage-limit 失败和较早的中间恢复事件仍保留在历史记录中。
 
 - 写入前和 raw 源文件入库后 `wiki_boundary_check.py --root .` 均 exit `0`。`wiki_automation_preflight.py --root .` exit `0`，受保护 BibTeX 哈希匹配。11 个公开源快照经 SHA-256、PDF `%PDF` 签名、PDF 页数和目标数据行校验后从 `_incoming/20260928-day-02-02/` 晋升到 `raw/papers/gpt/day2-shell-gap-20260928/`；该目录保留本地且未暂存。
 - `clean_knowledge_eol_dirty.py` exit `1`，原因是它按契约保留了 7 个有实质内容修改的 tracked knowledge 页；`refreshed=0`、`restored=0`、`unsafe/mixed=0`。它没有回滚任何研究内容。`knowledge/questions.md` 已按仓库 LF 约定归一化；最终 `git diff --check` exit `0`。
