@@ -29,10 +29,6 @@ if [[ "$ROOT" != "/workspace/wiki" ]]; then
   exit 65
 fi
 
-if [[ "$MODE" == "daily-learning" && -z "$UNTIL" ]]; then
-  UNTIL="10:00"
-fi
-
 RUN_DATE="$(TZ=Asia/Shanghai date +%F)"
 if [[ "$DAY_INDEX" == "auto" ]]; then
   DAY_INDEX="$(python3 - "$ROOT" <<'PY'

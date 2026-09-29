@@ -2,7 +2,7 @@
 type: system-workflow
 graph-excluded: true
 operation: scheduled-continuation
-updated: 2026-09-06
+updated: 2026-09-29
 ---
 
 # SCHEDULED CONTINUATION：定时续跑流程
@@ -51,11 +51,14 @@ CLI session 不会自动注册到宿主机 GUI；`run.json` 和 scheduler JSONL 
 schedule 的 canonical session index。用户需要查看某日对话时，在同一容器执行
 该回执中的 `resume_command`；GUI 列表中的 schedule 必须由 GUI/宿主机侧另行创建。
 
-正式 daily run 的学习窗口为 `Asia/Shanghai 16:00–10:00`。首个 `codex exec`
-完成后，runner 在同一 session 中使用 `codex exec resume` 发送 continuation prompt，
-逐轮切换到下一个高信息增益问题；`--until 10:00` 是默认 deadline，checkpoint 不再
-被当作本次学习的结束。硬阻塞、资源/权限失败或真正证据饱和仍可提前结束，并必须在
-日报中记录原因和下一条 continuation prompt。
+正式 daily run 的计划启动时间为 `Asia/Shanghai 16:00`，默认学习窗口延续到次日
+`15:00`。首个 `codex exec` 完成后，runner 在同一 session 中使用 `codex exec resume`
+发送 continuation prompt，逐轮切换到下一个高信息增益问题；`15:00` 停止新增研究并开始
+收束，`15:00–16:00` 留作日报、知识回写、验证、回执和次日提示词准备。默认截止时间为
+`15:00`；手动提前或延迟启动时，runner 按启动时刻解析实际截止，并把精确值
+写入 receipt 的 `overnight_until` 和每轮 continuation prompt。报告和提示词应显示本轮
+实际截止时间。checkpoint 不作为学习结束信号。硬阻塞、资源/权限失败或真正证据饱和仍可
+提前结束，并必须在日报中记录原因和下一条 continuation prompt。
 
 ### 短时同线程续跑
 

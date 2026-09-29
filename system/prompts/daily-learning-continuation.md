@@ -2,7 +2,7 @@
 type: system-prompt
 graph-excluded: true
 created: 2026-09-24
-updated: 2026-09-28
+updated: 2026-09-29
 ---
 
 # Daily learning continuation turn
@@ -13,6 +13,11 @@ Continue the same `wiki-daily-learning` session for Day {{DAY_INDEX}}.
 - Run date: `{{RUN_DATE}}`
 - Continuation number: `{{CONTINUATION_NUMBER}}`
 - Schedule deadline: `{{DEADLINE}}` (`Asia/Shanghai`)
+
+The normal 16:00 schedule reaches its closeout at 15:00 the following day. Stop opening
+new research routes at the deadline and use the remaining 15:00–16:00 buffer for the
+report, canonical writeback, required checks, run receipt, and next-day prompt. If this
+run started manually early or late, the timestamp above is authoritative.
 
 This is a long study block, not a final answer. Continue making decision-relevant
 progress until the schedule deadline or until an explicit hard blocker is reached.

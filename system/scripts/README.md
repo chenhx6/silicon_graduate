@@ -73,7 +73,10 @@ session，不复用固定 session。`run.json` 保存 `session_id`、
 不再作为 fallback。
 不读取 Docker socket、不调用 PowerShell、不创建宿主机 scheduler。`--once` 仅用于容器内显式测试，不能替代常驻调度。
 
-正式 `daily-learning` schedule 默认把 `--until 10:00` 传给 runner。首个 `codex exec`
+正式 `daily-learning` runner 的默认收束时刻是 `15:00`。正常 16:00 启动时，学习窗口
+延续到次日 15:00；15:00 开始收束，并在 15:00–16:00 完成日报、知识回写、验证、回执和
+次日提示词准备。手动提前或延迟启动时，以本次 receipt 的 `overnight_until` 为准。
+首个 `codex exec`
 完成后，runner 在同一 session 内调用 `codex exec resume <session_id>` 发送 continuation
 prompt，继续处理下一个高信息增益问题；receipt 记录 `overnight_until`、
 `continuation_count` 和每个 continuation 的事件文件。`acceptance` 模式不启用 overnight

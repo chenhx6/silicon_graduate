@@ -2,7 +2,7 @@
 type: system-prompt
 graph-excluded: true
 created: 2026-09-22
-updated: 2026-09-28
+updated: 2026-09-29
 ---
 
 # Daily nuclear-structure apprenticeship run
@@ -26,8 +26,23 @@ scientific evidence.
 - `phase`: {{PHASE}}
 - `schedule_id`: {{SCHEDULE_ID}}
 - `schedule_name`: {{SCHEDULE_NAME}}
+- `window_closeout_at`: {{WINDOW_CLOSEOUT_AT}}
 - `output_dir`: {{OUTPUT_DIR}}
 - `state_file`: {{STATE_FILE}}
+
+## Study window and closeout
+
+The normal schedule starts at 16:00 Asia/Shanghai and plans to stop new research at
+15:00 the following day. Use 15:00–16:00 to finish the daily report, canonical
+knowledge writeback, required checks, run receipt, and next-day prompt. The timestamp
+in Run context is the expected closeout for a normal scheduled start. When the runner
+launches this prompt, it replaces the field with the actual deadline; the same timestamp
+is recorded in the run receipt's `overnight_until` and repeated in each continuation
+prompt. Follow that runtime timestamp if a manual early or delayed start changes the
+calendar date.
+
+At 15:00, stop opening new research routes and begin closeout. Do not use the closeout
+hour to start another substantive source or problem.
 
 ## Non-negotiable boundaries
 

@@ -87,7 +87,7 @@ def command_for(root: Path, prompt: Path, day: int, model: str, effort: str) -> 
         sys.executable, str(root / "system/scripts/run_daily_learning.py"),
         "--root", str(root), "--day-index", str(day), "--mode", "daily-learning",
         "--model", model, "--reasoning-effort", effort, "--prompt-file", str(prompt),
-        "--until", "10:00", "--max-continuations", "96",
+        "--max-continuations", "96",
     ]
 
 

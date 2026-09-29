@@ -19,7 +19,7 @@ import sys
 import tempfile
 import time
 from dataclasses import dataclass
-from datetime import datetime, timedelta
+from datetime import datetime, time, timedelta
 from pathlib import Path
 from typing import Any
 from zoneinfo import ZoneInfo
@@ -30,6 +30,7 @@ from wiki_knowledge_writeback import snapshot_knowledge, validate_writeback
 TIMEZONE = ZoneInfo("Asia/Shanghai")
 TOTAL_DAYS = 30
 CYCLE_NAME = "2026-09-30-day-substantive"
+DEFAULT_CLOSEOUT_TIME = "15:00"
 SCHEDULE_ID = "wiki-daily-learning"
 SCHEDULE_NAME = "Wiki 30-day substantive daily learning"
 SESSION_MODE = "new-session-per-run"
@@ -375,6 +376,14 @@ def parse_deadline(value: str, now: datetime | None = None) -> datetime:
     return deadline
 
 
+def planned_closeout_for_run_date(run_date: str) -> datetime:
+    """Return the scheduled-run preview for the following day's closeout."""
+
+    run_day = datetime.fromisoformat(run_date).date()
+    hour, minute = (int(part) for part in DEFAULT_CLOSEOUT_TIME.split(":"))
+    return datetime.combine(run_day + timedelta(days=1), time(hour, minute), tzinfo=TIMEZONE)
+
+
 def render_continuation_prompt(
     paths: Paths,
     run_id: str,
@@ -454,6 +463,7 @@ def render_prompt(
     day_index: int,
     mode: str = "daily-learning",
     prompt_file: Path | None = None,
+    window_deadline: datetime | None = None,
 ) -> str:
     phase = phase_for_day(day_index)
     template_path = prompt_file or paths.prompt_file
@@ -471,9 +481,18 @@ def render_prompt(
         ),
         "{{REPORT_FILE}}": str(paths.daily_root / f"{daily_file_stem(run_date, day_index)}.md"),
         "{{STATE_FILE}}": str(paths.state_file),
+        "{{WINDOW_CLOSEOUT_AT}}": (
+            window_deadline.isoformat() if window_deadline else "not applicable for acceptance-only runs"
+        ),
     }
     for old, new in substitutions.items():
         template = template.replace(old, new)
+    if mode == "daily-learning" and window_deadline is not None:
+        template = re.sub(
+            r"(?m)^- `window_closeout_at`: .*?$",
+            f"- `window_closeout_at`: {window_deadline.isoformat()}",
+            template,
+        )
     if mode == "acceptance":
         template += """
 
@@ -495,7 +514,14 @@ def prepare_next_prompt(paths: Paths, next_run_date: str, next_day_index: int) -
     path = paths.daily_root / "prompts" / f"{daily_file_stem(next_run_date, next_day_index)}.md"
     if not path.exists():
         prompt_run_id = f"prompt-{next_run_date}-day-{next_day_index:02d}"
-        prompt = render_prompt(paths, prompt_run_id, next_run_date, next_day_index, "daily-learning")
+        prompt = render_prompt(
+            paths,
+            prompt_run_id,
+            next_run_date,
+            next_day_index,
+            "daily-learning",
+            window_deadline=planned_closeout_for_run_date(next_run_date),
+        )
         path.parent.mkdir(parents=True, exist_ok=True)
         path.write_text(prompt, encoding="utf-8")
     return path
@@ -612,7 +638,11 @@ def main() -> int:
     parser.add_argument("--no-search", action="store_true")
     parser.add_argument("--prompt-file", type=Path, default=None)
     parser.add_argument("--prepare-prompt", type=Path, default=None)
-    parser.add_argument("--until", default=None, help="continue the same session until HH:MM Asia/Shanghai")
+    parser.add_argument(
+        "--until",
+        default=None,
+        help="override the closeout time (HH:MM Asia/Shanghai; default 15:00)",
+    )
     parser.add_argument("--max-continuations", type=int, default=96)
     parser.add_argument("--dry-run", action="store_true")
     args = parser.parse_args()
@@ -635,7 +665,21 @@ def main() -> int:
                 day_index = int(state.get("next_day_index", 1))
             prompt_date = local_date()
             prompt_run_id = f"prompt-{prompt_date}-day-{day_index:02d}"
-            prompt = render_prompt(paths, prompt_run_id, prompt_date, day_index, args.mode)
+            prompt_deadline = (
+                schedule_deadline
+                if args.until and schedule_deadline
+                else planned_closeout_for_run_date(prompt_date)
+                if args.mode == "daily-learning"
+                else None
+            )
+            prompt = render_prompt(
+                paths,
+                prompt_run_id,
+                prompt_date,
+                day_index,
+                args.mode,
+                window_deadline=prompt_deadline,
+            )
             prompt_path = args.prepare_prompt.resolve()
             prompt_path.relative_to(root)
             prompt_path.parent.mkdir(parents=True, exist_ok=True)
@@ -666,6 +710,8 @@ def main() -> int:
             return 0
         phase = phase_for_day(day_index)
         run_date = local_date()
+        if schedule_deadline is None and args.mode == "daily-learning":
+            schedule_deadline = parse_deadline(DEFAULT_CLOSEOUT_TIME)
         file_stem = daily_file_stem(run_date, day_index)
         run_number = next_run_number(paths.daily_root, run_date, day_index)
         run_id = f"{run_date}-day-{day_index:02d}-{run_number:02d}"
@@ -724,7 +770,15 @@ def main() -> int:
                 print(json.dumps(receipt, ensure_ascii=False, indent=2))
                 return 3
             knowledge_before = snapshot_knowledge(root)
-            prompt = render_prompt(paths, run_id, run_date, day_index, args.mode, args.prompt_file)
+            prompt = render_prompt(
+                paths,
+                run_id,
+                run_date,
+                day_index,
+                args.mode,
+                args.prompt_file,
+                window_deadline=schedule_deadline,
+            )
             prompt_path = run_dir / "prompt.md"
             prompt_path.write_text(prompt, encoding="utf-8")
             receipt["prompt_file"] = str(prompt_path)

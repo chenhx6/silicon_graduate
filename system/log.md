@@ -1415,3 +1415,8 @@ updated: 2026-07-15
 - Closed the Day 2 window at 10:00 Asia/Shanghai after the source, analysis, counter-evidence, durable-knowledge, and continuation work was complete; later closeout reconciled state and added source backlinks required by the existing writeback validator, without adding new source evidence.
 - Final receipt records `completed`, `counted_in_substantive_test: true`, the same session/resume command, and `next_day_index: 3`. The original run-01 usage-limit failure and earlier intermediate recovery event remain preserved; a final scheduler event reconciles the timeline.
 - Open source and covariance gaps remain explicit. The Day 3 mean-field/Nilsson/CSM/HFB/projection prompt is generated under `outputs/learning-daily/prompts/`; final boundary, lint, writeback and diff exit codes are in the receipt and report.
+
+## [2026-09-29] daily-learning | move closeout to 15:00
+
+- Changed the daily substantive closeout from 10:00 to 15:00 Asia/Shanghai. The regular 16:00 launch now has a 15:00–16:00 closeout buffer for the report, canonical knowledge, checks, receipt, and next-day prompt; manual early/late starts use the runner-resolved `overnight_until`.
+- Synchronized the runner default, scheduled and foreground entry points, continuation prompt, workflows, script guide, and regenerated the Day 3 prompt with its expected closeout timestamp `2026-09-30T15:00:00+08:00`. The 16:00 trigger is unchanged.
