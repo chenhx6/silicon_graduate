@@ -26,7 +26,7 @@ session_mode: resumed-existing-session
 - 本次由原入口 session 恢复，session ID `01a0eb92-e525-7863-a0c9-af73a53d832b`；恢复命令：`codex resume 01a0eb92-e525-7863-a0c9-af73a53d832b -C /workspace/wiki -s danger-full-access -a never`。原 run-01 因服务高负载 exit `1` 的事件保留，当前 session 沿用同一 session，不伪装为新的 schedule session。
 - 入口回执/续接记录位于 [`run-03/run.json`](20260929-DAY3-mean-field-nilsson-csm-hfb-projection-run-03/run.json) 和 [`continuation-prompt.md`](20260929-DAY3-mean-field-nilsson-csm-hfb-projection-run-03/continuation-prompt.md)；正式 Day 4 prompt 生成于 [`20260930-DAY4-pairing-quasiparticle-configuration.md`](prompts/20260930-DAY4-pairing-quasiparticle-configuration.md)。
 - 继承的 Day 2、Day 3 run-01 输出与原始材料保持未修改；本日 Banik 2020 和 Jehangir 2022 PDF、访问 manifest 与渲染图/文本只保存在 Wiki 内 `raw/` / `tmp/`，不进入 Git。`PLAN.md`、受保护 `raw/zotero/wiki-inbox.bib` 和已 human-reviewed 的 `131Xe` 页面未修改。
-- 报告、47 项 writeback、lint、boundary、preflight、diff 与 next-day prompt 检查通过后，run receipt 标记 `completed / counted_in_substantive_test: true`；[30 天状态](../learning-milestones/2026-09-one-month-state.json) 已推进至 `next_day_index: 4`。Git H3 发布结果在 closeout 记录。
+- 报告、48 项 writeback、lint、boundary、preflight、diff 与 next-day prompt 检查通过后，run receipt 标记 `completed / counted_in_substantive_test: true`；[30 天状态](../learning-milestones/2026-09-one-month-state.json) 已推进至 `next_day_index: 4`。Git H3 发布结果在 scheduler event 和最终回顾记录。
 
 ## Candidate pool and selection
 
@@ -347,6 +347,8 @@ Agarwal et al. 的正文公式为 R=0.697·Iγ(M1)·Eγ(E2)^5/[Iγ(E2)·Eγ(M1)^
 - 在 [A≈130 model-choice card](../../knowledge/projects/a130-model-choice-card.md) 的 `131Xe cross-model γ parameter role check (2026-09-30)` 保存 TRS 输出、TPSM 继承输入、TPRM 拟合参数的角色对照及 `3°/4°/7°` pairwise arithmetic；明确不同模型/转频/数据谱系不可平均，不能视作独立 shape confirmation。
 - 更新 [Cranked Shell Model page](../../knowledge/models/cranked-shell-model.md#131xe-woods-saxon-trs-频率演化-2026-09-30) 与 [A≈130 model-choice card](../../knowledge/projects/a130-model-choice-card.md)：加入 Woods–Saxon/Strutinsky `131Xe` TRS 的低频 γ-soft、中频三轴、高频多极小及 `B4/B4(a)` 宽谷例子；把 TRS 能面输出从 CNS、HFB 和投影模型输入中分开。
 - 修订 [knowledge/questions.md](../../knowledge/questions.md) 中既有 `131Xe` “γ-soft 还是稳定 γ 局域”开放问题：写入 TRS/TPSM/TPRM 参数角色、共享 INGA 数据谱系和 g-factor/寿命/绝对跃迁强度缺口；问题继续保持开放。
+- 补充 [knowledge/questions.md](../../knowledge/questions.md) 中既有 `131Xe` yrast `13/2−` 组态问题：BNK20-11 记录 Banik 对 B5 的 decoupled-band 解释，C23-6 记录同数据重分析认为 yrast 起源仍开放、yrare `13/2−` 更适合作 unfavored partner；来源间逐跃迁标签映射仍未决。
+- 同步修订 `knowledge/questions.md` 中既有 `131Xe` yrast `13/2−` 起始组态问题，记录 Banik B5 的 decoupled-band 解释与 C23 同数据重分析的 yrast/yrare 选择差异；精确序列映射和 partner-resolved strengths 仍作为开放问题。
 
 
 - 新建 knowledge/sources/agarwal-2007-137pr-magnetic-rotation-bandcrossing.md 与 knowledge/nuclei/137pr.md；记录新 INGA 能级图、DCO/IPDCO 与 crossover E2、delta-squared≈0 ratio 假设、3qp/5qp TAC 参数、模型偏移和 Hara N=78 映射。
@@ -1713,6 +1715,10 @@ Agarwal et al. 的正文公式为 R=0.697·Iγ(M1)·Eγ(E2)^5/[Iγ(E2)·Eγ(M1)^
         {
           "path": "knowledge/sources/chakraborty-2023-131xe-wobbling-origin.md",
           "locator": "C23-6"
+        },
+        {
+          "path": "knowledge/sources/banik-2020-131xe-multiple-band-structures.md",
+          "locator": "BNK20-11"
         }
       ]
     },
@@ -1854,6 +1860,25 @@ Agarwal et al. 的正文公式为 R=0.697·Iγ(M1)·Eγ(E2)^5/[Iγ(E2)·Eγ(M1)^
           "locator": "BNK20-7"
         }
       ]
+    },
+    {
+      "knowledge": "knowledge/questions.md",
+      "summary": "更新既有 131Xe yrast-13/2 问题：区分 Banik 2020 的 B5 decoupled-band 解释与 C23 对 yrast/yrare 13/2− 的再分析，保留同 acquisition 的 band-label crosswalk 和必要后续观测缺口。",
+      "anchor": "`131Xe` yrast 13/2− 起始序列的组态与集体性质是什么？",
+      "sources": [
+        {
+          "path": "knowledge/sources/banik-2020-131xe-multiple-band-structures.md",
+          "locator": "BNK20-11"
+        },
+        {
+          "path": "knowledge/sources/banik-2020-131xe-multiple-band-structures.md",
+          "locator": "BNK20-10"
+        },
+        {
+          "path": "knowledge/sources/chakraborty-2023-131xe-wobbling-origin.md",
+          "locator": "C23-6"
+        }
+      ]
     }
   ]
 }
@@ -1871,6 +1896,7 @@ Agarwal et al. 的正文公式为 R=0.697·Iγ(M1)·Eγ(E2)^5/[Iγ(E2)·Eγ(M1)^
 - `131Ce`'s measurement design is now anchored to AW13-16's `611.1-keV 17/2−→15/2−` Band-4→Band-1 link. The existing table `R` is not `δ`; AW13's `δ=0` branching ratio sensitivity is large, and SI16/LI04 lifetimes do not give Band-4 partner strengths. Highest-value next route: search alternate lawful sources for the remaining direct-projection cases and keep the `131Ce` transition/lifetime package ready; mode ranking remains unchanged.
 - 2022 TPSM 对 `131Xe` yrare 带的计算仍缺 g-factor、寿命和绝对跃迁强度等实验检验；已识别其 Fig. 7 与 2023 分析共享 Banik 2020 数据谱系，但尚未逐条核对该 2023 重分析与 TPSM 输入的每一条能级/跃迁。Hara N=77 的 134La/135Ce direct-projection 全文仍未取得；下一条最高信息增益路线是等待/搜索合法全文线索后核对是否提供 exact-nucleus 投影计算，不把同中子素方法文章记作覆盖。
 - Banik 2020 full text 确认 `131Xe` acquisition 仅有相对强度、DCO 和偏振；B1(b) 侧带没有足够内部跃迁或 inter/intraband strength ratio，不能定为 γ band。后续高信息观测为 partner-resolved lifetime/绝对 `B(E2)/B(M1)` 与 g-factor；C23 是同一 INGA 数据的重新分析，不增加独立实验样本，也不能填补 `131Ce N=73`。
+- `131Xe` yrast/yrare `13/2−` 起始序列的标签仍待逐跃迁核清：Banik 2020 把约 1046-keV 态放在 B5、称可能为 decoupled band；C23 对同一采集的重分析说 yrast `13/2−` 起源仍开，且觉得 yrare `13/2−` 更适合作 unfavored partner。此为同一数据的能带重标/解释问题，不是独立第二次实验（BNK20-10, BNK20-11; C23-6）。
 - **belief revision:** The projected single-state energy ratio is only the one-configuration limit; multi-configuration mixing needs the nonorthogonal norm kernel. Hara Table 5 stars span `N=76–78` including N=77 rows. The later-model map now distinguishes (i) TPSM on two candidates, (ii) same-nucleus but different-model `137Nd` calculations reusing one dataset, and (iii) title/metadata leads that cannot be counted without text. None of the neighboring-nucleus model outputs transfers to `131Ce (N=73)`; number projection still does not remove spurious truncated-space admixtures automatically.
 
 ## L0–L4 state
@@ -1885,11 +1911,11 @@ Agarwal et al. 的正文公式为 R=0.697·Iγ(M1)·Eγ(E2)^5/[Iγ(E2)·Eγ(M1)^
 ## Verification and continuation
 
 - 写入前、最终 boundary check `python3 system/scripts/wiki_boundary_check.py --root .` 均 exit `0`；六类目录、outputs roots 与 QMD collection contract 无错误。
-- 最终 `python3 system/scripts/wiki_lint.py --fail-on error` exit `0`：`0 errors / 92 warnings / 1280 info`。warning categories：`CITATION_KEY_MISSING=88`、`REACTION_PARSE=3`、`RAW_GIT_CHANGE=1`；缺 citation key 未从空值猜补，raw warning 对应未跟踪原始材料且不会暂存。
+- 最终 `python3 system/scripts/wiki_lint.py --fail-on error` exit `0`：`0 errors / 92 warnings / 1281 info`。warning categories：`CITATION_KEY_MISSING=88`、`REACTION_PARSE=3`、`RAW_GIT_CHANGE=1`；缺 citation key 未从空值猜补，raw warning 对应未跟踪原始材料且不会暂存。
 - Wiki automation preflight exit `0`；受保护 `raw/zotero/wiki-inbox.bib` SHA-256 与基线匹配。`git diff --check` exit `0`。
-- 日报固定标题 10/10 齐全、唯一 `knowledge-writeback` block、JSON 和 run receipt parse 均通过。writeback validator 检查 47 项 anchor/backlink/atomic locator，`valid=true`, `status=updated`；按 Git 规范化差异核对 16 个知识页变更，全部在 block 映射中，`unmapped=0`。相对 HEAD 的 byte-for-byte snapshot 未单独保存，因此另记规范化路径审计，不声称本次静态 validator 执行了 snapshot 比较。
+- 日报固定标题 10/10 齐全、唯一 `knowledge-writeback` block、JSON 和 run receipt parse 均通过。writeback validator 检查 48 项 anchor/backlink/atomic locator，`valid=true`, `status=updated`；按 Git 规范化差异核对 16 个知识页变更，全部在 block 映射中，`unmapped=0`。相对 HEAD 的 byte-for-byte snapshot 未单独保存，因此另记规范化路径审计，不声称本次静态 validator 执行了 snapshot 比较。
 - 日报内 73 个相对链接均可解析，固定标题、run receipt、continuation prompt 与 Day 4 prompt 路径存在。`git diff --check` 当前 exit `0`。
 - Banik 2020 APS PDF 与 Jehangir 2022 arXiv PDF 的本地 SHA-256 均与 manifest/frontmatter 相符；Banik 使用 publisher-direct public URL、非 OA 许可标记，OA-only route 返回 `oa_not_found`。两篇主文均无需 SI 即可复核本日报 claim。
 - Farmer `once --dry-run` exit `0`, `actions=[]`；Wiki preflight 的边界探测 exit `0`。`clean_knowledge_eol_dirty.py --dry-run` exit `1`，把 9 个已核对的 substantive knowledge edits 标为 `KEEP-SUBSTANTIVE`、`unsafe/mixed=0`、`would restore=0`；没有恢复或改写这些内容。
 - `qmd status` exit `0`：550 files、2459 vectors、174 orphan chunks，index reported updated 22h ago。SQLite 位于 `/var/lib/qmd/cache/qmd/wiki.sqlite`，在 `/workspace/wiki` 写入边界外，本轮没有刷新。
-- Milestone 状态推进至 `next_day_index=4`；当日本地完成计数为 Day 3。Task-owned file list 与 Gitee H3 的 commit/push outcome 在 run receipt/handoff 和最终回顾记录；未将 `raw/`、`tmp/`、Day 2/run-01 继承目录或受保护 BibTeX 暂存。
+- Milestone 状态推进至 `next_day_index=4`；当日本地完成计数为 Day 3。Gitee H3 的 commit/push outcome 由 [scheduler event log](../learning-milestones/2026-09-one-month-scheduler.jsonl) 和最终回顾记录；未将 `raw/`、`tmp/`、Day 2/run-01 继承目录或受保护 BibTeX 暂存。

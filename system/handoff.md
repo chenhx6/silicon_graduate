@@ -6,15 +6,13 @@ updated: 2026-09-30
 
 # 跨会话交接
 
-## Active handoff — 2026-09-30 Day 3 closeout
+## Active handoff — 2026-09-30 Day 3 reconciliation
 
-Day 3 study window closed at 2026-09-30 15:00 Asia/Shanghai. Report: `outputs/learning-daily/20260929-DAY3-mean-field-nilsson-csm-hfb-projection.md`. Run receipt: `outputs/learning-daily/20260929-DAY3-mean-field-nilsson-csm-hfb-projection-run-03/run.json`. Session `01a0eb92-e525-7863-a0c9-af73a53d832b`; resume with `codex resume 01a0eb92-e525-7863-a0c9-af73a53d832b -C /workspace/wiki -s danger-full-access -a never`. Day 4 prompt: `outputs/learning-daily/prompts/20260930-DAY4-pairing-quasiparticle-configuration.md`.
+Day 3 scientific run and primary Gitee publication completed. Primary commit subject `Complete Day 3 mean-field and TPSM evidence study` was pushed to `origin HEAD:main`; the scheduler JSONL records that success. Report: `outputs/learning-daily/20260929-DAY3-mean-field-nilsson-csm-hfb-projection.md`. Run receipt: `outputs/learning-daily/20260929-DAY3-mean-field-nilsson-csm-hfb-projection-run-03/run.json`. Session `01a0eb92-e525-7863-a0c9-af73a53d832b`; resume with `codex resume 01a0eb92-e525-7863-a0c9-af73a53d832b -C /workspace/wiki -s danger-full-access -a never`. Day 4 prompt: `outputs/learning-daily/prompts/20260930-DAY4-pairing-quasiparticle-configuration.md`.
 
-本轮新增 Jehangir 2022 odd-neutron TPSM 与 Banik 2020 `131Xe` 原始 INGA 主文知识源；Banik PDF 的 publisher-public URL 返回 PDF，按非 OA publisher-direct 记录，OA-only route 保留 `oa_not_found`，没有下载 SI。已更新 TPSM/CSM 模型入口、A≈130 model-choice card、开放问题和 index。`131Xe` 三篇论文属于同一次 INGA acquisition lineage，仍有 Banik B1(a)/B5 与 C23 低自旋序列的标签 crosswalk 未决；Hara Table 5 direct TPSM 覆盖维持 `2/7`。claims 保持 `needs_review: true`，未修改已 human-reviewed 的 `131Xe` source/nucleus 页；`131Ce` 排序未变，L4 仍 not-ready。
+Post-publication audit found the existing `131Xe` yrast-13/2 question lacked the final BNK20-11/C23-6 distinction, and run.json had stale early-segment counts. The working reconciliation updates the question, report writeback to 48 items, receipt to 16 Git-normalized changed paths, and this handoff. It does not change the primary published commit or any raw evidence. Hara direct TPSM coverage remains 2/7; review statuses are unchanged.
 
-最终 boundary、wiki lint、automation preflight、writeback 与 `git diff --check` 均通过；lint 为 `0 errors / 92 warnings / 1280 info`，writeback 为 47 items，16 个 Git 规范化后的 knowledge changes 全映射。Milestone 已进至 `next_day_index=4`，Day 3 receipt 标记 completed/counted。Day 2 / Day 3 run-01、Day 3 `raw/` PDFs 和 `tmp/` 渲染物均不纳入 Git；受保护 `raw/zotero/wiki-inbox.bib`、`PLAN.md` 与 `knowledge/nuclei/131xe.md` 未修改。剩余为 Gitee H3 显式 stage、commit、fresh-fetch、ancestry、dry-run 与非强制 push。
-
-Final commit：branch `main`，subject `Complete Day 3 mean-field and TPSM evidence study`。Publication result 由最终回顾记录；不把 commit 自身 hash 写入其包含文件。
+Primary publication preserved inherited Day 2 / Day 3 run-01 directories, raw PDFs and `tmp/` renderings as unstaged; `PLAN.md`, protected BibTeX, and the human-reviewed `131Xe` page were not modified. Follow-up reconciliation commit: branch `main`, subject `Reconcile Day 3 131Xe band evidence and receipt`; its publication result is recorded in the final recap and scheduler event log.
 
 ## 2026-09-28 manual DAY2 run
 

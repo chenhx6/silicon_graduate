@@ -69,6 +69,7 @@ R. Banik et al., *Physical Review C* **101**, 044306 (2020), DOI [10.1103/PhysRe
 | BNK20-8 | Table II 的组态标签是基于邻核系统学、能带关系与 TRS 的作者指认；例如 `B4/B4(a)` 为 `π(g7/2 h11/2)⊗νf7/2`，`B3` 上部为五准粒子候选，不是直接轨道占据测量。 | author-interpretation | indirect | Table II; Secs. V–VI; Summary, PDF pp. 11–14 | true |
 | BNK20-9 | `B1(a)` 的实验连接与 signature staggering 支持作者的 signature-partner 指认，但不能单独裁定 wobbling；`B1(b)` 缺少带内连接和可比 inter/intraband strengths。 | synthesis | indirect | Figs. 3, 6–7, 14; Discussion, PDF pp. 4, 7–11 | true |
 | BNK20-10 | Banik 2020 calls high-spin `B1(a)` a signature partner; Chakraborty 2023 says the unfavored partner was not identified in earlier 131Xe work and identifies a `9/2−–21/2−` sequence, favoring the yrare `13/2−` band while leaving the yrast `13/2−` origin open. Because C23 reanalyzes Banik data, this is an unresolved level/band-label crosswalk within one acquisition, not independent experimental evidence. | synthesis | indirect | Fig. 3 and discussion, PDF pp. 4, 7–11; Chakraborty 2023 Introduction/Results/Discussion, PDF pp. 2–6 | true |
+| BNK20-11 | 本文将约 1046-keV 的 13/2− 态作为 B5 序列带头，延伸到约 21/2−，作者称其可能是 `νh11/2` 中子与 `130Xe` core 第二个 `2+` 态的 decoupled band；这是配置解释，不是直接轨道占据测量。 | experimental-fact / author-interpretation | direct | Table I; Discussion, PDF pp. 5–6, 11 | true |
 
 ## Data Lineage and Later Reanalysis
 

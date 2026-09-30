@@ -62,14 +62,14 @@
     "lint_exit": 0,
     "lint_errors": 0,
     "lint_warnings": 92,
-    "lint_info": 1280,
+    "lint_info": 1281,
     "writeback_valid": true,
     "report_heading_check_exit": 0,
     "run_json_parse_exit": 0,
     "git_diff_check_exit": 0,
     "clean_knowledge_eol_exit": 1,
     "clean_knowledge_eol_unsafe": 0,
-    "knowledge_changed_page_count": 11,
+    "knowledge_changed_page_count": 16,
     "open_access_sources_in_local_raw": 5,
     "lint_warning_categories": {
       "CITATION_KEY_MISSING": 88,
@@ -121,7 +121,7 @@
     "pr137_publisher_pdf_signature": true,
     "pr137_si_required": false,
     "publisher_direct_sources_in_local_raw": 2,
-    "writeback_item_count": 47,
+    "writeback_item_count": 48,
     "137pr_2007_fulltext_obtained": true,
     "137pr_2007_pdf_sha256_verified": true,
     "137pr_open_access_route_status": "oa_not_found",
@@ -158,7 +158,9 @@
     "clean_knowledge_eol_dry_run_unsafe": 0,
     "next_prompt_exists": true,
     "next_day_index": 4,
-    "protected_bib_baseline_matched": true
+    "protected_bib_baseline_matched": true,
+    "yrast_13_2_band_question_revised": true,
+    "bnk20_c23_band_label_crosswalk_open": true
   },
   "deferred_source_route": {
     "doi": "10.1016/j.physletb.2011.07.062",
@@ -345,11 +347,11 @@
   "stop_reason": "Study window closed at 2026-09-30 15:00 Asia/Shanghai; bounded research and final report/writeback/required checks completed. Hara direct-projection residuals and 131Xe band-label crosswalk remain documented rather than overstated.",
   "final_state_file_next_day_index": 4,
   "knowledge_writeback_status": "updated",
-  "knowledge_writeback_items": 47,
+  "knowledge_writeback_items": 48,
   "manual_continuation_count": 6,
   "verification_completed_at": "2026-09-30T15:42:41.671070+08:00",
   "continuation_focus": "Closeout after Banik 2020 primary-data lineage and cross-model gamma-role audit; no new research route after 15:00.",
-  "git_commit_subject": "Complete Day 3 mean-field and TPSM evidence study",
+  "git_commit_subject": "Reconcile Day 3 131Xe band evidence and receipt",
   "next_prompt_file": "/workspace/wiki/outputs/learning-daily/prompts/20260930-DAY4-pairing-quasiparticle-configuration.md",
   "next_prompt_error": null,
   "finalization": {
@@ -359,5 +361,10 @@
     "post_window_knowledge_writeback": false,
     "next_prompt_exists": true,
     "next_day_index": 4
-  }
+  },
+  "primary_commit_subject": "Complete Day 3 mean-field and TPSM evidence study",
+  "primary_commit_push_outcome": "pushed",
+  "primary_commit_push_refspec": "HEAD:main",
+  "reconciliation_scope": "Post-publication audit corrected the 131Xe yrast-13/2 question with BNK20-11/C23-6 and corrected receipt writeback counts; H3 primary Gitee push had already succeeded.",
+  "reconciled_at": "2026-09-30T17:06:00+08:00"
 }
