@@ -55,7 +55,8 @@ updated: 2026-09-30
 - [[der-mateosian-sunyar-1974-angular-coefficients]] - 56页 ADNDT 混合多极角分布系数表；高自旋 `A2/A4`、Gaussian alignment、`σ/J`–`δ` 联合解与 sign-convention 警告。
 - [[aberg-flocard-nazarewicz-1990-mean-field-shapes]] - 89页 mean-field 形状综述；HF/HFB、Nilsson–Strutinsky、转动高自旋、八极形变、superdeformation 与 shape coexistence 边界。
 - [[mukhopadhyay-2007-135nd-chiral-vibration-static]] - `135Nd` 双带 DSAM 电磁强度与 TAC+RPA；近简并、`B(M1)/B(E2)` 相似及 chiral vibration→static chirality 边界。
-- [[ma-1990-131ba-competing-alignments]] - `131Ba` 五晶体高自旋谱学；质子/中子 `h11/2` 对齐、signature splitting、DCO/δ 与相反形状驱动边界。
+- [[ma-1990-131ba-competing-alignments]] - `131Ba` 五晶体高自旋谱学；signature-specific crossing 与 Harris alignment 派生、质子/中子形状驱动边界及 `δ`/DCO 限制。
+- [[pai-2012-high-spin-bands-194tl]] - `194Tl` INGA 高自旋能级与约 `0.34 MeV` 派生 alignment crossing；作者的 2qp→4qp 解释、B2 lifetime/parity 歧义与后续 iThemba 谱系边界。
 - [[eldridge-2018-gamma-band-mixing-ratios]] - `Mo/Ru/Pd` 十核素 Gammasphere IPAC；37 个 γ-band→ground-band δ、E2 主导、`110Ru` sign-trend 与 δ-oval 多解边界。
 - [[miller-2007-sega-polarization]] - SeGA 侧入射 Compton 偏振标定；`Q≈0.14(2)`、`FM≈5.9×10^-6` 与 geometry/finite-angle boundary。
 - [[krane-steffen-1970-cd110-mixing-ratios]] - `110Cd` 25 组 Ge(Li) directional-correlation δ；E2/M1 convention mapping、Compton background 与 vibrational/extra-pair 边界。
@@ -69,7 +70,7 @@ updated: 2026-09-30
 - [[ensdf-133sn-transfer-levels]] - ENSDF 133Sn N=83 粒子态、transfer XREF 和可能轨道标记；与 Jones 2010 属同一实验谱系。
 - [[ensdf-131sn-neutron-hole-levels]] - ENSDF 131Sn N=81 空穴侧 adopted levels、S(n) 与赋值来源边界；2006 cutoff 不覆盖 Orlandi 2018。
 - [[orlandi-2018-131sn-neutron-hole-transfer]] - 132Sn(d,t)131Sn neutron-removal；Fig.3 DWBA 空穴强度、未分辨 doublet、光学势变化与3p/2d自旋轨道分裂边界。
-- [[ame2020-sn132-mass-curvature]] - AME2020 `130,132,134Sn` 质量 excess 与 `N=82` 两中子质量曲率的可复核数据行；保留协方差和 pairing 边界。
+- [[ame2020-sn132-mass-curvature]] - AME2020 `130,132,134Sn` 壳闭合质量曲率与 `130–132Ba` 基态奇偶质量 staggering；保留同一评价谱系、协方差缺失和 pairing 边界。
 - [[iaea-livechart-132sn-134te-levels]] - IAEA/ENSDF `130Sn/132Sn/134Sn` isotope 与 `132Sn/134Te` isotone 的 adopted `2+` 能级及 NuDat `B(E2)` 对照；各数据库接口不算独立实验。
 - [[varner-2005-coulomb-excitation-132-134sn]] - `132Sn`/`134Sn` 首个 `2+` 的初步 Coulomb-excitation `B(E2)`；保留 photon-efficiency calibration、BaF₂ response 与 mixed-beam 边界。
 - [[radford-2005-130sn-coulomb-excitation-126-130sn]] - 126/128/130Sn inverse-kinematics CoulEx；Table 1 的130Sn B(E2)=0.023(5)e²b² 标为preliminary，保留束流与单位边界。

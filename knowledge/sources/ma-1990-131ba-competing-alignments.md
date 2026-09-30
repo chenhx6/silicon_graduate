@@ -3,7 +3,7 @@ type: source
 title: "Ma et al. 1990 - Competing proton and neutron rotational alignments in 131Ba"
 aliases: [Ma 1990 131Ba competing alignments]
 created: 2026-09-21
-updated: 2026-09-21
+updated: 2026-09-30
 status: ai-draft
 review_status: unreviewed
 source_type: experiment-and-cranking-model
@@ -55,14 +55,15 @@ tags: [131Ba, proton-alignment, neutron-alignment, signature-splitting, gamma-so
 
 | ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
 |---|---|---|---|---|---|
-| MA90-1 | `131Ba` yrast `νh11/2` signature splitting and angular data establish a triaxial/γ-soft high-spin baseline under the stated cranking interpretation. | experiment-interpretation | mixed | PDF pp.717–725, Table I | true |
-| MA90-2 | Proton and neutron h11/2 alignments occur near `ℏω≈0.43 MeV` and drive opposite near-prolate/near-oblate shape tendencies. | alignment-result | mixed | PDF pp.725–728, Figs.5–7 | true |
+| MA90-1 | The `131Ba` yrast `νh11/2` band shows about `160 keV` low-spin signature splitting; angular data constrain selected transition character and spin assignments. CSM/TRS calculations interpret the splitting as consistent with a triaxial/γ-soft shape, which is not a direct shape measurement. | experiment-interpretation | mixed | PDF p.717 abstract; PDF pp.719, 725–726, Table I and Fig.6(a) | true |
+| MA90-2 | Alignment/Routhian analysis reports proton `h11/2` crossing frequencies of `0.445(3) MeV` for `α=−1/2` and `0.415(3) MeV` for `α=+1/2`; neutron-alignment bands 7/8 are candidate crossings near `0.44` and `0.36 MeV`, respectively. The associated near-prolate/near-oblate shape changes are CSM/TRS interpretations rather than measured deformations. | alignment-result | mixed | PDF pp.725–728, Figs.5–7, Table II | true |
 | MA90-3 | Decoupled `ΔI=2` bands 7/8 are consistent with neutron-aligned configurations but retain assignment uncertainty. | configuration-interpretation | mixed | PDF pp.727–728 | true |
 | MA90-4 | Angular-distribution/DCO/mixing data are detector and alignment specific; bands 3/4 and 10 lack unique multipolarity information. | evidence-boundary | direct | PDF pp.719–725 | false |
+| MA90-5 | The plotted alignment `i_x` is derived from assigned spin and rotational frequency after subtracting the variable Harris reference `ω(J_0+J_1ω²)`; the paper fits `J_0=11.90 ℏ² MeV⁻¹` and `J_1=21.1 ℏ⁴ MeV⁻³` to band 5 over `0.19≤ℏω≤0.47 MeV`. This is a reference-dependent alignment, not a direct pairing-gap measurement. | derived-observable | derived | PDF p.725, Eq.(2) and Fig.5 | true |
 
 ## Summary
 
-Ma *et al.* give a useful A≈130 example in which competing proton and neutron alignments reshape the same soft/triaxial core in opposite directions. The direct level/coincidence and angular data support the band map; the γ values, configuration labels and shape evolution remain cranking/TRS interpretations tied to alignment and convention assumptions.
+Ma *et al.* give a useful A≈130 example in which competing proton and neutron alignments reshape the same soft/triaxial core in opposite directions. The direct level/coincidence and angular data support the band map; crossing frequencies and `i_x` are derived from level energies, spin assignments and a Harris reference, while the γ values, configuration labels and shape evolution remain cranking/TRS interpretations. The reported neutron bands 7/8 do not share one crossing value, and neither crossing nor alignment directly measures a pairing gap.
 
 ## Competing Interpretations and Limitations
 
@@ -83,6 +84,7 @@ Ma *et al.* give a useful A≈130 example in which competing proton and neutron 
 
 - Effect: `supports` [[signature-partner-bands]], [[signature-inversion]], [[angular-distribution]], [[angular-correlation]], [[angular-momentum-alignment]], [[rotating-mean-field]] and the A≈130 collective-mode evidence map.
 - New reusable rule: treat proton/neutron alignment as a shape-driving mechanism and test it with crossing frequency, signature splitting and transition data together; do not infer a fixed shape from one band.
+- Day 4 locator audit: separated the measured band/transition evidence from the derived, reference-dependent alignments; the band-7/8 neutron candidates retain their distinct frequencies and configuration uncertainty.
 - Review state: Codex self-audited; not `human-reviewed`.
 
 ## Human Review Triage

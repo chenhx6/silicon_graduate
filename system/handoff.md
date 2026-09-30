@@ -6,7 +6,13 @@ updated: 2026-09-30
 
 # 跨会话交接
 
-## Active handoff — 2026-09-30 Day 3 reconciliation
+## Active handoff — 2026-09-30 Day 4 closeout
+
+Day 4 `pairing-quasiparticle-configuration` reached an early evidence-saturation closeout at 2026-09-30 22:10 Asia/Shanghai. Report: `outputs/learning-daily/20260930-DAY4-pairing-quasiparticle-configuration.md`; final receipt and continuation prompt: `outputs/learning-daily/20260930-DAY4-pairing-quasiparticle-configuration-run-04/`. Session `01a0f1e5-98fb-7453-aa16-e987dcbd633d`; resume with `codex resume 01a0f1e5-98fb-7453-aa16-e987dcbd633d -C /workspace/wiki -s danger-full-access -a never`. Day 5 prompt: `outputs/learning-daily/prompts/20261001-DAY5-beta-gamma-octupole-shape-coexistence.md`; milestone advanced to `next_day_index=5` after required content checks.
+
+Durable Day 4 changes: MA90 crossing/Harris locators; AME2020 Ba `δ₃,n^odd` rows; `131Ba` pairing/crossing boundary; Pai 2012 direct `194Tl` INGA crossing and B2 lifetime limit; `194Tl` lineage and index updates. New Pai PDF and manifest are local under `raw/papers/gpt/day4-20260930/`, intentionally excluded from publication. Six read-only subagents completed; Wiki farmer watcher remains active, last `once` had no pending recovery actions. Review states remain unchanged. Commit pointer: branch `main`, subject `Complete Day 4 pairing and quasiparticle evidence study`; the push result is recorded in the closeout recap.
+
+## 2026-09-30 Day 3 reconciliation (completed)
 
 Day 3 scientific run and primary Gitee publication completed. Primary commit subject `Complete Day 3 mean-field and TPSM evidence study` was pushed to `origin HEAD:main`; the scheduler JSONL records that success. Report: `outputs/learning-daily/20260929-DAY3-mean-field-nilsson-csm-hfb-projection.md`. Run receipt: `outputs/learning-daily/20260929-DAY3-mean-field-nilsson-csm-hfb-projection-run-03/run.json`. Session `01a0eb92-e525-7863-a0c9-af73a53d832b`; resume with `codex resume 01a0eb92-e525-7863-a0c9-af73a53d832b -C /workspace/wiki -s danger-full-access -a never`. Day 4 prompt: `outputs/learning-daily/prompts/20260930-DAY4-pairing-quasiparticle-configuration.md`.
 

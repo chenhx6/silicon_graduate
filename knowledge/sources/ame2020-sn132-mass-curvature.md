@@ -1,9 +1,9 @@
 ---
 type: source
-title: "AME2020 Sn mass records around N=82"
-aliases: [AME2020 Sn masses, N=82 tin mass curvature]
+title: "AME2020 Sn shell-curvature and Ba odd-even mass records"
+aliases: [AME2020 Sn masses, N=82 tin mass curvature, AME2020 131Ba odd-even staggering]
 created: 2026-09-28
-updated: 2026-09-29
+updated: 2026-09-30
 status: active
 review_status: unreviewed
 source_type: evaluated-nuclear-data
@@ -28,16 +28,16 @@ rct1_url: "https://www-nds.iaea.org/amdc/ame2020/rct1.mas20.txt"
 rct1_sha256: e6ba1d2256f90053464c48e24d44691828dc49820ce64054aa418d834cc18e90
 rct1_bytes: 511515
 related_raw_file: "raw/papers/gpt/day2-shell-gap-20260928/ame2020-rct1.mas20.txt"
-nuclei: [130sn, 131sn, 132sn, 133sn, 134sn]
+nuclei: [130sn, 131sn, 132sn, 133sn, 134sn, 130ba, 131ba, 132ba]
 reactions: []
 experiments: [mass-evaluation]
 models: [atomic-mass-evaluation]
-observables: [mass-excess, one-neutron-separation-energy, two-neutron-separation-energy]
+observables: [mass-excess, one-neutron-separation-energy, two-neutron-separation-energy, odd-even-mass-staggering]
 methods: [least-squares-mass-evaluation]
-tags: [ame2020, tin, n82, shell-closure, mass-curvature]
+tags: [ame2020, tin, barium, n82, n75, shell-closure, mass-curvature, odd-even-staggering]
 ---
 
-# AME2020: `130Sn`, `132Sn` and `134Sn` mass data
+# AME2020: Sn shell curvature and Ba odd-even mass staggering
 
 ## Bibliographic Record
 
@@ -47,7 +47,7 @@ The payloads retrieved on 2026-09-28 were `mass_1` (472,648 bytes; SHA-256 `e859
 
 ## Scope and Reading Depth
 
-This page records only the evaluated ground-state mass excesses for the three Sn isotopes needed for a second-difference check across `N=82`. It does not reproduce the full AME evaluation, its input-reaction network or a mass covariance matrix.
+This page records evaluated ground-state mass excesses for the three Sn isotopes needed for a second-difference check across `N=82`, and three neighboring Ba isotopes used for an odd-neutron three-point mass-staggering exercise at `N=75`. It does not reproduce the full AME evaluation, its input-reaction network or a mass covariance matrix.
 
 ## Summary
 
@@ -68,6 +68,17 @@ The AME2020 `mass_1` mass-excess rows and matching `rct1` two-neutron separation
 | AME20-RCT1-132SN-1 | AME2020 gives `S₂n(132Sn)=12556.9730 ± 2.7224 keV`. | experimental-fact | direct | `rct1.mas20.txt`, `132Sn` row, `S(2n)` and uncertainty columns | true |
 | AME20-RCT1-134SN-1 | AME2020 gives `S₂n(134Sn)=6029.8413 ± 3.7328 keV`. | experimental-fact | direct | `rct1.mas20.txt`, `134Sn` row, `S(2n)` and uncertainty columns | true |
 
+### Ba odd-neutron mass-staggering records
+
+| ID | Evaluated record | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| AME20-130BA-1 | `130Ba` (`Z=56`, `N=74`) mass excess is `−87256.776 ± 0.287 keV`. | evaluated-mass | direct | `mass_1.mas20.txt`, line 1656, `130Ba` mass-excess and uncertainty columns | true |
+| AME20-131BA-1 | `131Ba` (`Z=56`, `N=75`) mass excess is `−86678.958 ± 0.415 keV`; the AME `O` field is `-n` and its meaning is not assigned here. | evaluated-mass | direct | `mass_1.mas20.txt`, line 1674, `131Ba` mass-excess, uncertainty and `O` columns | true |
+| AME20-132BA-1 | `132Ba` (`Z=56`, `N=76`) mass excess is `−88434.903 ± 1.053 keV`. | evaluated-mass | direct | `mass_1.mas20.txt`, line 1691, `132Ba` mass-excess and uncertainty columns | true |
+| AME20-ODD3-BA-1 | Defining the positive odd-neutron three-point indicator as `δ₃,n^odd(56,75)=[2ME(131Ba)−ME(130Ba)−ME(132Ba)]/2` gives `1166.8815 keV`; propagating the three tabulated errors as uncorrelated gives `0.6856 keV`. | derived-mass-indicator | derived | Derived here from `AME20-130BA-1`, `AME20-131BA-1` and `AME20-132BA-1` | true |
+
+The `131Ba` qualifier is retained without interpretation. These three masses are entries in one least-squares evaluation, not three measurements performed by the AME authors. The propagated `0.6856 keV` is conditional on zero covariance; the published table does not provide the fitted-mass covariance. This ground-state mass-staggering indicator contains smooth mass-surface contributions and is not a direct measurement of the high-spin pairing gap or a band-crossing energy.
+
 ## Competing Interpretations and Limitations
 
 These are evaluated masses, not three independent measurements performed by the AME authors. The 2020 evaluation combines the available mass network. The `mass_1` and `rct1` values reproduce one another through the standard finite-difference formula; this is an internal consistency check of one evaluation, not an independent dataset. The retrieved tables do not provide the covariance between these fitted masses or adjacent `S₂n` values; any propagated uncertainty for a finite difference must state its covariance assumption. The `134Sn` mass row has an `x` qualifier in a separate qualifier column; the mass-excess value itself has no `#` estimated-value mark. This page preserves the qualifier without assigning it an unverified meaning.
@@ -77,9 +88,11 @@ The derived `δ₂n` is a mass-curvature indicator across the neutron shell clos
 ## Extracted Pages
 
 - `mass_1.mas20.txt`: `130Sn`, `132Sn`, `134Sn` rows and file legend.
+- `mass_1.mas20.txt`: `130Ba`, `131Ba`, `132Ba` rows and the odd-`N` three-point derived indicator.
 - `rct1.mas20.txt`: `S(2n)` entries for `132Sn` and `134Sn`.
 
 ## Related Knowledge
 
 - [[a130-shell-gap-orbital-observable]]
+- [[131ba]]
 - [[shell-effects-and-deformation]]

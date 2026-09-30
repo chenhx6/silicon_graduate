@@ -2,9 +2,9 @@
   "schema_version": 1,
   "cycle": "2026-09-30-day-substantive",
   "counting_policy": "30 successful substantive days; acceptance-only runs are excluded",
-  "next_day_index": 4,
-  "last_success": "2026-09-29",
-  "last_run_id": "2026-09-29-day-03-03",
+  "next_day_index": 5,
+  "last_success": "2026-09-30",
+  "last_run_id": "2026-09-30-day-04-04",
   "status": "active",
   "acceptance_runs_excluded": [
     "2026-09-22-day-01-01",

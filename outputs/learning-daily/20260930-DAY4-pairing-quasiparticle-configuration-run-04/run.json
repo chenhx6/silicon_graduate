@@ -1,0 +1,153 @@
+{
+  "schema_version": 1,
+  "run_id": "2026-09-30-day-04-04",
+  "prompt_run_id": "prompt-2026-09-30-day-04",
+  "parent_run_id": "2026-09-30-day-04-01",
+  "run_date": "2026-09-30",
+  "timezone": "Asia/Shanghai",
+  "day_index": 4,
+  "phase": "nuclear-structure-framework",
+  "cycle": "2026-09-30-day-substantive",
+  "schedule_id": "wiki-daily-learning",
+  "schedule_name": "Wiki 30-day substantive daily learning",
+  "project_root": "/workspace/wiki",
+  "run_kind": "substantive",
+  "acceptance_only": false,
+  "overnight_until": "2026-10-01T15:00:00+08:00",
+  "max_continuations": 96,
+  "segment_number": 4,
+  "counted_in_substantive_test": true,
+  "session_mode": "resumed-existing-session",
+  "session_reuse": true,
+  "session_scope": "one-new-session-for-each-schedule-run; same session resumed for this continuation",
+  "session_id": "01a0f1e5-98fb-7453-aa16-e987dcbd633d",
+  "resume_command": [
+    "codex",
+    "resume",
+    "01a0f1e5-98fb-7453-aa16-e987dcbd633d",
+    "-C",
+    "/workspace/wiki",
+    "-s",
+    "danger-full-access",
+    "-a",
+    "never"
+  ],
+  "resume_command_copy": "codex resume 01a0f1e5-98fb-7453-aa16-e987dcbd633d -C /workspace/wiki -s danger-full-access -a never",
+  "status": "completed",
+  "reconciled_at": "2026-09-30T21:42:28+08:00",
+  "report": "/workspace/wiki/outputs/learning-daily/20260930-DAY4-pairing-quasiparticle-configuration.md",
+  "output_dir": "/workspace/wiki/outputs/learning-daily/20260930-DAY4-pairing-quasiparticle-configuration-run-04",
+  "prompt_file": "/workspace/wiki/outputs/learning-daily/prompts/20260930-DAY4-pairing-quasiparticle-configuration.md",
+  "previous_attempt_receipt": "/workspace/wiki/outputs/learning-daily/20260930-DAY4-pairing-quasiparticle-configuration-run-01/run.json",
+  "fast_context": {
+    "active": true,
+    "global_rounds_max": 3,
+    "optimization_gain_stop": "<25%",
+    "quality_ratio_min": 0.6,
+    "effective_format": "Markdown",
+    "efficiency_gain": "unverified; no matched no-fast baseline"
+  },
+  "subagent_audits": [
+    {
+      "task": "ma_131ba_audit",
+      "status": "completed",
+      "mode": "read-only"
+    },
+    {
+      "task": "nomura_pairing_audit",
+      "status": "completed",
+      "mode": "read-only"
+    },
+    {
+      "task": "tl194_novelty_route",
+      "status": "completed",
+      "mode": "read-only"
+    },
+    {
+      "task": "ame_ba_pairing_check",
+      "status": "completed",
+      "mode": "read-only"
+    },
+    {
+      "task": "pai194_primary_audit",
+      "status": "completed",
+      "mode": "read-only"
+    },
+    {
+      "task": "day4_selection_review",
+      "status": "completed",
+      "mode": "read-only"
+    }
+  ],
+  "recovery": {
+    "farmer_ensure_exit": 0,
+    "farmer_once_exit": 0,
+    "farmer_actions": 0,
+    "farmer_watcher_pid": 40454,
+    "rollout_state_at_audit": "complete",
+    "codex_resume_process_observed": true,
+    "root_render_artifact_absent": true
+  },
+  "resumed_at": "2026-09-30T21:42:28+08:00",
+  "finished_at": "2026-09-30T22:10:14+08:00",
+  "verification_completed_at": "2026-09-30T22:10:14+08:00",
+  "stop_reason": "Early evidence-saturation closeout after completing the 131Ba continuity and 194Tl novelty routes plus the mass-staggering exercise; Masiteng 2013/2014 primary full text remains access-blocked and no other non-overlapping Day 4 route had higher information gain.",
+  "knowledge_writeback_status": "updated",
+  "knowledge_writeback_items": 7,
+  "knowledge_changed_page_count": 6,
+  "knowledge_changed_paths": [
+    "knowledge/index.md",
+    "knowledge/nuclei/131ba.md",
+    "knowledge/nuclei/194tl.md",
+    "knowledge/sources/ame2020-sn132-mass-curvature.md",
+    "knowledge/sources/ma-1990-131ba-competing-alignments.md",
+    "knowledge/sources/pai-2012-high-spin-bands-194tl.md"
+  ],
+  "checks": {
+    "boundary_before_write_exit": 0,
+    "boundary_after_write_exit": 0,
+    "lint_exit": 0,
+    "lint_errors": 0,
+    "lint_warnings": 92,
+    "lint_info": 1294,
+    "lint_warning_categories": {
+      "CITATION_KEY_MISSING": 88,
+      "REACTION_PARSE": 3,
+      "RAW_GIT_CHANGE": 1
+    },
+    "git_diff_check_exit": 0,
+    "writeback_valid": true,
+    "writeback_change_check": "structural-only; no byte snapshot persisted for manual resumed segment",
+    "report_heading_check_exit": 0,
+    "report_heading_count": 10,
+    "report_relative_link_check_exit": 0,
+    "report_relative_links_checked": 22,
+    "report_broken_relative_links": 0,
+    "ame_online_hash_exit": 0,
+    "pai_pdf_http": 200,
+    "pai_pdf_sha256_verified": true,
+    "farmer_ensure_exit": 0,
+    "farmer_once_exit": 0,
+    "farmer_actions": 0,
+    "session_resume_command_recorded": true,
+    "automation_preflight_exit": 0,
+    "protected_bib_hash_status": "matched",
+    "clean_knowledge_eol_exit": 1,
+    "clean_knowledge_eol_restored": 0,
+    "clean_knowledge_eol_unsafe_or_mixed": 0,
+    "knowledge_snapshot_before_available": false,
+    "knowledge_snapshot_note": "Manual resumed segment has no persisted byte snapshot; semantic paths were audited against initial clean tracked status and git diff."
+  },
+  "finalization": {
+    "planned_closeout_at": "2026-10-01T15:00:00+08:00",
+    "early_stop_at": "2026-09-30T22:10:14+08:00",
+    "stop_reason": "evidence-saturated within selected Day 4 scope; full Masiteng text unavailable",
+    "next_prompt_exists": true,
+    "next_day_index": 5
+  },
+  "git": {
+    "branch": "main",
+    "commit_subject": "Complete Day 4 pairing and quasiparticle evidence study",
+    "push_outcome_recorded_in_closeout_recap": true
+  }
+}
