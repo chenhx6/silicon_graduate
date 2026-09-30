@@ -1,16 +1,20 @@
 ---
 type: system-handoff
 graph-excluded: true
-updated: 2026-09-29
+updated: 2026-09-30
 ---
 
 # 跨会话交接
 
-## Active handoff — 2026-09-29 Day 3 checkpoint
+## Active handoff — 2026-09-30 Day 3 closeout
 
-日报：[2026-09-29 Day 3 mean-field / Nilsson / CSM / HFB / projection](../outputs/learning-daily/20260929-DAY3-mean-field-nilsson-csm-hfb-projection.md)。当前仍为 continuation checkpoint，窗口截止 `2026-09-30 15:00 Asia/Shanghai`，未结算、未推进 `next_day_index=3`。run-01 首次执行因服务高负载退出；同一 session `01a0eb92-e525-7863-a0c9-af73a53d832b` 已恢复。当前 receipt / continuation 位于 `outputs/learning-daily/20260929-DAY3-mean-field-nilsson-csm-hfb-projection-run-03/`；恢复命令：`codex resume 01a0eb92-e525-7863-a0c9-af73a53d832b -C /workspace/wiki -s danger-full-access -a never`。
+Day 3 study window closed at 2026-09-30 15:00 Asia/Shanghai. Report: `outputs/learning-daily/20260929-DAY3-mean-field-nilsson-csm-hfb-projection.md`. Run receipt: `outputs/learning-daily/20260929-DAY3-mean-field-nilsson-csm-hfb-projection-run-03/run.json`. Session `01a0eb92-e525-7863-a0c9-af73a53d832b`; resume with `codex resume 01a0eb92-e525-7863-a0c9-af73a53d832b -C /workspace/wiki -s danger-full-access -a never`. Day 4 prompt: `outputs/learning-daily/prompts/20260930-DAY4-pairing-quasiparticle-configuration.md`.
 
-已核实 ABFN90 Fig.12、HARA95 投影方程/`156Er` Figs.26–27/A≈130 Table 5，并把表中七个星号核素映射为 `133La`、`134La`、`135Ce`、`135Pr`、`136Pr`、`137Pr`、`137Nd`（N=76–78）。新增 Sheikh et al. 2024 TPSM source：开放版 `2405.08368v1` 对 `133La`、`135Pr` 两例使用固定 `γ=36°/32°`；这是模型输出与既有数据比较，不是独立形状测量。`135Pr` 的 wobbling/TiP 争议仍含 Lv 2022 独立实验反证。2026 IJMPE DOI `10.1142/S0218301326500448` 目前 closed/no OA；Crossref/OpenAlex/Semantic Scholar metadata 已核，World Scientific 403、arXiv 0、OA downloader `oa_not_found`，未导入科学 claim。Bhat/Simons lineage、参数映射差异与 Ref.18 access boundary 仍保留。boundary、writeback、lint 与 unstaged `git diff --check` 均通过；lint 为 0 errors/87 warnings。`qmd status` exit 0，报告 550 documents/2,459 vectors/174 orphan chunks，数据库实际路径为 `/var/lib/qmd/cache/qmd/wiki.sqlite`；本轮未执行 update/embed，因为写入目标在 `/workspace/wiki` 之外。新 PDF 留在 Day 3 raw，不暂存。首个检查点与上一续接提交已推送；本日尚未 closeout、未推进 `next_day_index=3`，也未改变 `131Ce/133Ce` 排序或 review status。下一步做 `131Ce` 最小可判别 observable 设计，并检查其余五个星号核素；不重试已失败的 2026 DOI/arXiv/出版社端点。用户已明确常规 OA/SI 范围不需逐次询问；当前 branch/commit subject/push result 由本轮结束回顾记录。
+本轮新增 Jehangir 2022 odd-neutron TPSM 与 Banik 2020 `131Xe` 原始 INGA 主文知识源；Banik PDF 的 publisher-public URL 返回 PDF，按非 OA publisher-direct 记录，OA-only route 保留 `oa_not_found`，没有下载 SI。已更新 TPSM/CSM 模型入口、A≈130 model-choice card、开放问题和 index。`131Xe` 三篇论文属于同一次 INGA acquisition lineage，仍有 Banik B1(a)/B5 与 C23 低自旋序列的标签 crosswalk 未决；Hara Table 5 direct TPSM 覆盖维持 `2/7`。claims 保持 `needs_review: true`，未修改已 human-reviewed 的 `131Xe` source/nucleus 页；`131Ce` 排序未变，L4 仍 not-ready。
+
+最终 boundary、wiki lint、automation preflight、writeback 与 `git diff --check` 均通过；lint 为 `0 errors / 92 warnings / 1280 info`，writeback 为 47 items，16 个 Git 规范化后的 knowledge changes 全映射。Milestone 已进至 `next_day_index=4`，Day 3 receipt 标记 completed/counted。Day 2 / Day 3 run-01、Day 3 `raw/` PDFs 和 `tmp/` 渲染物均不纳入 Git；受保护 `raw/zotero/wiki-inbox.bib`、`PLAN.md` 与 `knowledge/nuclei/131xe.md` 未修改。剩余为 Gitee H3 显式 stage、commit、fresh-fetch、ancestry、dry-run 与非强制 push。
+
+Final commit：branch `main`，subject `Complete Day 3 mean-field and TPSM evidence study`。Publication result 由最终回顾记录；不把 commit 自身 hash 写入其包含文件。
 
 ## 2026-09-28 manual DAY2 run
 

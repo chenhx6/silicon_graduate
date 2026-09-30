@@ -2,12 +2,15 @@
 type: system-index
 graph-excluded: true
 created: 2026-07-01
-updated: 2026-09-29
+updated: 2026-09-30
 ---
 
 # Wiki Index
 
 ## Sources
+
+- [[agarwal-2007-137pr-magnetic-rotation-bandcrossing]] - 137Pr 的 INGA M1 带、弱 crossover E2 与 TAC 3qp/5qp crossing；保留 δ²≈0 强度比假设及高自旋模型偏移。
+- [[lv-2025-136pr-tac-covariant-density-functional]] - 新 JUROGAM II 136Pr 高自旋谱及 PC-PK1 TAC-CDFT/壳模型解释；保存 pairing-collapse、Q1 宇称缺项与 D4/D6 竞争方案。
 
 - [[yamazaki-1967-aligned-angular-coefficients]] - 对齐核角分布 `p_k/B_k/F_k/U_k` 系数表、Gaussian `σ/J` 近似与 angular-distribution/γγ-correlation `δ` 符号边界。
 - [[suffert-1959-proton-capture-polarization]] - 三类质子俘获反应的 NaI Compton 偏振、`P/R/p` 修正与自旋/宇称及 E2/M1 歧义解析。
@@ -91,6 +94,8 @@ updated: 2026-09-29
 - [[hara-sun-1995-projected-shell-model-high-spin]] - PSM 角动量投影、配置混合、band crossing/signature 和高自旋 spectroscopy 的历史综述；A≈130 早期 shape inference 保留 axial-code 边界。
 - [[bhat-2014-tpsm-cs-doublet-bands]] - `124,126,130,132Cs` odd–odd TPSM doublet-band calculations；区分 `126Cs` 已发表绝对跃迁强度比较、`130Cs` 模型绝对强度/已发表比值，以及形变输入的 arXiv-version boundary。
 - [[sheikh-jehangir-bhat-2024-tpsm-wobbling]] - TPSM 对 `133La`、`135Pr` 摇摆带的计算；与 Hara–Sun Table 5 两个 `N=76` 星号候选重叠，固定形变输入与既有实验依赖边界明确。
+- [[jehangir-2022-odd-neutron-tpsm-extension]] - 奇中子 Xe 链 TPSM 的 `3ν/3ν+2π` 高自旋投影基底扩展；`131Xe` yrast/yrare 观测边界、输入形变和非正交振幅限制明确。
+- [[banik-2020-131xe-multiple-band-structures]] - `131Xe` INGA `130Te(α,3n)` 原始数据、72 条扩展跃迁和 DCO/偏振；区分相对强度与绝对寿命/强度缺口、B1(a) signature-partner 指认和 B1(b) γ-band 未决边界。
 - [[simons-2005-130cs-chiral-structures]] - `130Cs` Euroball A/B experiment；保存 DCO/偏振、`S(I)` 与 intensity-derived ratios，保留 band-B null staggering、有限能差、high-spin crossing、lifetime 缺口，以及 Bhat TPSM 同数据依赖边界。
 - [[taras-1971-phase-defined-polarization-formulas]] - Rose-Brink phase-defined matrix elements、统计张量、角分布/线偏振公式与 mixing-ratio 符号一致性；保留多解和 convention 边界。
 - [[butler-1973-three-geli-compton-polarimeter]] - 三 Ge(Li) Compton polarimeter 的 `P/A/Q`、`cosθ`/511-keV 背景控制、Q(E) 标定与 `33S` 自旋歧义示范。
@@ -143,6 +148,8 @@ updated: 2026-09-29
 - [[frauendorf-meng-1997-tilted-rotation-chirality]] - Aplanar TAC 与核转动手征性的奠基理论。
 - [[ayangeakaa-2016-133ce-in-beam]] - `133Ce` 的完整中高自旋谱学地图、CNS 与 TAC-CDFT。
 - [[petrache-2020-137nd-multiple-chiral-bands]] - `137Nd` 两条新伙伴带及多重手征候选解释。
+- [[budaca-budaca-2025-harmonic-chiral-vibration]] - 以 constrained rotor/Harmonic Approximation 描述手征能量劈裂；`137Nd` fit 复用 P20 data，保留 critical-spin、稀疏点和缺失跃迁比边界。
+- [[budaca-budaca-2025-harmonic-chiral-vibration]] - 基于 constrained rotor/HA 的手征能量劈裂模型；含 `137Nd` D5/D6 same-data fit 与 `I_c`/稀疏点/无 strength-validation 边界。
 - [[ding-2021-131ba-133ce-signature-splitting]] - N=75 g7/2 强耦合带与 signature splitting 多机制。
 - [[palacz-1991-high-spin-131ce]] - `131Ce` N=73 高自旋五带纲图、alignment/routhian 与 `g7/2` 作者指认；保留不完整 linking 边界。
 - [[bazzacco-1998-rotational-bands-133nd]] - `133Nd` GASP/DCO 高自旋谱学与 `[404]7/2` alignment contextual source；保留 DCO/模型边界。
@@ -190,6 +197,9 @@ updated: 2026-09-29
  - [[longfellow-2026-gretina-energy-ordering-polarization]] - GRETINA in-beam angular/polarization formalism、energy ordering、Lorentz angle correction 与 Doppler correction 分层。
 
 ## Nuclei
+
+- [[137pr]] - Z=59,N=78 奇质子核；2007 INGA M1 带延伸至 47/2−，含弱 E2 crossover 与 3qp/5qp TAC 解释。
+- [[136pr]] - Z=59,N=77 奇奇核；新 JUROGAM II 高自旋能级图、配置依赖 TAC-CDFT/壳模型解释与 Q1 宇称、D4/D6 竞争解释边界。
 
 - [[127i]] - A≈130 N=74 奇 Z 核；`πh11/2` 退耦带、`πg7/2/πd5/2` 正宇称 `ΔI=1` 转动带与 `15/2+, 23/2+` 三准粒子单粒子-集体激发共存。
 - [[128i]] - A≈130 N=75 奇奇核；`πg7/2/πd5/2 ⊗ νh11/2` 负宇称与 `πh11/2 ⊗ νh11/2` 正宇称多重态，NPA/经验壳模型计算及单粒子运动主导。

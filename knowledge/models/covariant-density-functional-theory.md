@@ -3,7 +3,7 @@ type: model
 title: 协变密度泛函理论
 aliases: [covariant density functional theory, CDFT, constrained CDFT, TAC-CDFT]
 created: 2026-07-01
-updated: 2026-09-20
+updated: 2026-09-30
 status: active
 review_status: unreviewed
 model_family: self-consistent-mean-field
@@ -58,12 +58,15 @@ tags: [mean-field, deformation, chirality, high-spin]
 
 不同泛函、pairing 和组态约束会改变结果；模型 γ 不是直接测量；单一平均场不能自动给出左右手量子隧穿。
 
+Lv et al. 2025 provide a PC-PK1 TAC-CDFT example for 136Pr using a ten-shell basis and Bogoliubov pairing. The calculated deformation and configuration remain model outputs; the work does not restore total angular momentum or particle number, and its D5 TAC-CDFT route fails to identify a matching configuration ([[lv-2025-136pr-tac-covariant-density-functional]] LV25-4, LV25-5, LV25-8).
+
 ## Related Models
 
 [[tilted-axis-cranking]]、[[triaxial-particle-rotor-model]]
 
 ## Sources
 
+- [[lv-2025-136pr-tac-covariant-density-functional]]
 - [[ayangeakaa-2016-133ce-in-beam]]
 - [[ayangeakaa-2013-evidence-multiple-chiral-doublet-bands-133ce]]
 - [[liu-2016-octupole-correlations-multiple-chiral-doublet-bands-78br]]

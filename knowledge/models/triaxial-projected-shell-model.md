@@ -3,7 +3,7 @@ type: model
 title: 三轴投影壳模型
 aliases: [triaxial projected shell model, TPSM]
 created: 2026-07-01
-updated: 2026-09-29
+updated: 2026-09-30
 status: active
 review_status: unreviewed
 model_family: projected-shell-model
@@ -68,6 +68,16 @@ Babra 2019 在交叉前后切换固定形变输入；这种比较支持形变变
 
 [[sheikh-jehangir-bhat-2024-tpsm-wobbling]] 对 Table 5 七个星号核素中的 `133La (N=76)` 和 `135Pr (N=76)` 做了后续三轴投影计算。Table 1 采用固定模型输入：`133La` 的 `ε=0.150, ε′=0.110, γ=36°`；`135Pr` 的 `ε=0.160, ε′=0.100, γ=32°`。Figs. 11–14 将计算能级、摇摆频率、对齐角动量和跃迁比与已发表数据比较。该结果将“是否有直接后续 TPSM 应用”从未知修订为至少两例，但不是独立形状测量，也未覆盖 Hara 表中其余五个星号核素；`γ` 参数仍是模型输入。`135Pr` 的 wobbling/TiP 争议见 [[135pr-wobbling-controversy]]。
 
+### Odd-neutron TPSM basis extension and N=77 transfer boundary (2026-09-30)
+
+[[jehangir-2022-odd-neutron-tpsm-extension]] extends the odd-neutron TPSM basis from `1ν` and `1ν+2π` to `3ν` and `3ν+2π` five-quasiparticle configurations, then mixes the angular-momentum-projected states with a Hill–Wheeler generalized eigenproblem (JN22-1, JN22-2). The calculation uses neutron and proton oscillator shells `N=3,4,5`, quadrupole pairing `GQ=0.16 GM`, and effective charges `1.5e/0.5e` for E2 transitions (JN22-3). This supplies a concrete route for modeling additional alignment and high-spin crossings; proton/neutron crossing assignments remain model interpretations rather than direct occupancy measurements.
+
+The same paper states that the quadrupole–quadrupole strength `χ` is related to `ε` through a self-consistent HFB condition (JN22-13). Its tabulated Xe deformations are nevertheless adopted from earlier studies (JN22-4), so this interaction constraint does not turn the shape inputs into a new measurement or an independently established minimum.
+
+For `131Xe`, Table I uses `ε=0.160`, `ε′=0.090`, and `γ=29°`; the deformation values are inherited inputs, not a shape measurement (JN22-4). The yrast spectrum is compared with published levels, while the `131Xe` yrare sequence and its signature behavior remain predictions because that band was not observed in the paper (JN22-5, JN22-6). The projected-state amplitudes in Figs. 8–10 are not ordinary probabilities because the basis is nonorthogonal (JN22-8); a large plotted amplitude alone cannot establish configuration identity. The authors identify g-factor measurements as a useful future discriminator (JN22-10).
+
+`131Xe` is `Z=54, N=77`, so it is an odd-neutron isotone method control for the Hara Table 5 candidates `134La`, `135Ce`, and `136Pr`, not direct model coverage of any of those nuclei. The primary INGA experiment is Banik et al. 2020 ([[banik-2020-131xe-multiple-band-structures]]): it places 72 new transitions and reports relative intensities, `R_DCO` and `Δ_PDCO`, but no lifetimes or absolute `B(E2)/B(M1)` (BNK20-1, BNK20-2, BNK20-5). Its Figs. 17–20 TRS minima are model outputs, not shape measurements (BNK20-6, BNK20-7). Jehangir et al. 2022 Fig. 7 compares with this published data, and Chakraborty et al. 2023 explicitly reanalyze the same Banik data; these are one experimental lineage, not three independent confirmations (JN22-11, JN22-12, BNK20-9). Banik calls B1(a) a signature partner, while C23 says the unfavored partner had not been identified and favors a low-spin yrare-13/2 interpretation; the exact band-label crosswalk remains unresolved within the same acquisition (BNK20-10, C23-6). The 2023 analysis finds M1-dominated links with little E2 admixture and reports no wobbling signal ([[chakraborty-2023-131xe-wobbling-origin]] C23-2, C23-3, C23-7). None of these `131Xe` results transfers to `131Ce` (`N=73`).
+
 ## Related Models
 
 [[triaxial-particle-rotor-model]]、[[random-phase-approximation]]
@@ -82,6 +92,8 @@ Babra 2019 在交叉前后切换固定形变输入；这种比较支持形变变
 - [[hara-sun-1995-projected-shell-model-high-spin]]
 - [[bhat-2014-tpsm-cs-doublet-bands]]
 - [[sheikh-jehangir-bhat-2024-tpsm-wobbling]]
+- [[jehangir-2022-odd-neutron-tpsm-extension]]
+- [[banik-2020-131xe-multiple-band-structures]]
 
 ## Evolution Log
 
@@ -89,3 +101,4 @@ Babra 2019 在交叉前后切换固定形变输入；这种比较支持形变变
 - 2026-07-03：加入 Sensharma 2019 的 `135Pr` TPSM 参数、模型比较与几何分析缺口。
 - 2026-07-05：加入 `136Sm` 带交叉前后两套 TPSM 形变输入及其解释边界。
 - 2026-09-20：加入奇质量 Nb/Tc γ2（`K0−2`）案例，保留第四带 γ2/3γ/组态混合的实验验证边界。
+- 2026-09-30：加入 odd-neutron TPSM 的 3ν/3ν+2π 基底扩展与 `131Xe` N=77 方法控制；标明输入形变、未观测 yrare 预测、非正交振幅和既有实验数据复用边界。

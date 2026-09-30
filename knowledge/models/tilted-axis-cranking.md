@@ -3,7 +3,7 @@ type: model
 title: 倾斜轴推转
 aliases: [tilted axis cranking, TAC, tilted-axis cranking]
 created: 2026-07-01
-updated: 2026-07-13
+updated: 2026-09-30
 status: active
 review_status: unreviewed
 model_family: rotating-mean-field
@@ -44,6 +44,14 @@ Frauendorf 2001 makes the rotating-frame form explicit as `H-prime = H - omega d
 
 带能量、角动量取向、带内跃迁及 planar/aplanar 几何。
 
+### 2026-09-30 case: 136Pr
+
+Lv et al. 2025 apply PC-PK1 TAC-CDFT to a new JUROGAM II 136Pr dataset and compare calculated energies, alignments and transition-strength ratios. The calculation uses ten harmonic-oscillator shells with Bogoliubov pairing, but does not restore total angular momentum. Pairing collapse produces a jump near rotational frequency 0.35 MeV; particle-number projection is mentioned but not implemented. The D1 and D2 transition-ratio mismatches and the absence of a TAC-CDFT configuration for D5 limit the interpretation ([[lv-2025-136pr-tac-covariant-density-functional]] LV25-4, LV25-6–LV25-8, LV25-13).
+
+### 2007 case: 137Pr magnetic-rotation band crossing
+
+Agarwal et al. compare a 3qp TAC solution, πh11/2⊗ν(h11/2)−2, with a 5qp solution, πh11/2(g7/2)2⊗ν(h11/2)−2, for the 137Pr M1 band. They use a hybrid Woods-Saxon/deformed-oscillator single-particle potential, pairing gaps Δp=1.048 MeV and Δn=0.65 MeV, and magnetic attenuation η=0.6. Both solutions have model gamma≈58°; the 5qp minimum is about 2.2 MeV above 3qp. The crossing explains the broad measured back-bending and B(M1)/B(E2) turnover, but its high-spin energy/spin normalization remains offset ([[agarwal-2007-137pr-magnetic-rotation-bandcrossing]] AG07-5–AG07-9).
+
 ## Strengths
 
 直观揭示 [[chiral-doublet-bands]] 的左右手几何来源。
@@ -70,6 +78,8 @@ Use the symmetry labels explicitly: PAC preserves a signature-like operation; pl
 
 ## Sources
 
+- [[agarwal-2007-137pr-magnetic-rotation-bandcrossing]]
+- [[lv-2025-136pr-tac-covariant-density-functional]]
 - [[frauendorf-meng-1997-tilted-rotation-chirality]]
 - [[ayangeakaa-2016-133ce-in-beam]]
 - [[matta-2015-transverse-wobbling-135pr]]

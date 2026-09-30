@@ -3,7 +3,7 @@ type: model
 title: 推转壳模型
 aliases: [cranked shell model, CSM]
 created: 2026-07-01
-updated: 2026-07-05
+updated: 2026-09-30
 status: active
 review_status: unreviewed
 model_family: rotating-shell-model
@@ -48,6 +48,14 @@ quasiparticle Routhian、alignment、交叉频率与 signature splitting。
 
 单独改变 γ 不能涵盖近邻低-j 轨道混合的全部效应；模型趋势不能把 S(I) 变成 γ 的唯一反演。准粒子交叉频率和 TRS 极小还依赖 Woods-Saxon、配对及宏观-微观能量设置；多个竞争极小存在时，有限寿命数据未必能唯一选形状。
 
+### `131Xe` 的 Woods–Saxon TRS 案例（2026-09-30）
+
+[[banik-2020-131xe-multiple-band-structures]] 使用 Woods–Saxon 单粒子能级与 Strutinsky 壳修正，在 `β₂–γ` 网格计算总 Routhian 面，并逐频率对 `β₄` 极小化（BNK20-6, BNK20-7）。对负宇称 1-qp `B1`，最低点从低频的 γ-soft 区域移动到 `ℏω≈0.21–0.26 MeV` 的三轴区域，再在更高频出现两个极小；对 3-qp `B4/B4(a)`，模型给出宽 γ-soft 区。它说明高自旋形变可随频率和组态变化；`γ` 与 `β₂` 都是 TRS 模型输出，不能当作直接形状测量，也不可与 TPSM/TPRM 的固定输入不加约定地平均。
+
+### `131Xe` Woods–Saxon TRS 频率演化（2026-09-30）
+
+[[banik-2020-131xe-multiple-band-structures]] 用 Woods–Saxon 单粒子势和 Strutinsky 壳修正，在 `β₂–γ` 网格计算 TRS，并逐频率对 `β₄` 极小化（BNK20-6, BNK20-7）。负宇称 1-qp `B1` 的 TRS 极小从低频 γ-soft 区域移到 `ℏω≈0.21–0.26 MeV` 的约 `γ=−26°`，再在更高频出现两个极小；3-qp `B4/B4(a)` 的极小位于宽 γ-soft 区。此例说明 TRS 能描述转频与组态依赖的形状响应；它是 Woods–Saxon/Strutinsky macroscopic-microscopic calculation，不应误标成 Nilsson-only CNS、自洽 HFB 解或直接形状测量。
+
 ## Related Models
 
 [[cranked-nilsson-strutinsky-model]]、[[triaxial-particle-rotor-model]]
@@ -56,6 +64,8 @@ quasiparticle Routhian、alignment、交叉频率与 signature splitting。
 
 - [[ding-2021-131ba-133ce-signature-splitting]]
 - [[babra-2019-deformation-change-136sm]]
+- [[banik-2020-131xe-multiple-band-structures]]
+- [[banik-2020-131xe-multiple-band-structures]]
 - [[frauendorf-2018-beyond-unified-model]]
 
 ## Evolution Log
@@ -63,3 +73,5 @@ quasiparticle Routhian、alignment、交叉频率与 signature splitting。
 - 2026-07-01：由 N=75 g7/2 signature-splitting 分析建立。
 - 2026-07-05：加入 `136Sm` 准粒子交叉与 TRS 多极小的高自旋形变演化用途。
 - 2026-09-20：加入 review-level Routhian/configuration-classification and quantum-mixing boundary。
+- 2026-09-30：加入 `131Xe` Woods–Saxon TRS 的转频依赖与模型输出边界。
+- 2026-09-30：加入 `131Xe` 的 Woods–Saxon/Strutinsky TRS 频率依赖例子，并将能面极小与实验形状测量、固定 TPSM 输入区分。

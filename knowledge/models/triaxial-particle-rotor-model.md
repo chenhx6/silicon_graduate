@@ -3,7 +3,7 @@ type: model
 title: 三轴粒子-转子模型
 aliases: [triaxial particle rotor model, TPRM, quasiparticle triaxial rotor, QTR]
 created: 2026-07-01
-updated: 2026-08-11
+updated: 2026-09-30
 status: active
 review_status: unreviewed
 model_family: core-particle-coupling
@@ -36,6 +36,8 @@ tags: [triaxiality, odd-a, wobbling]
 
 - [[chakraborty-2023-131xe-wobbling-origin]] 最终采用 `ε2=0.13, γ=33°, ξ=1` 描述 `131Xe`；
 - [[petrache-2020-137nd-multiple-chiral-bands]] 为 `137Nd` D2/D3 与 D5/D6 分别采用约 `(β,γ)=(0.20,20.9°)`、`(0.21,23.5°)`；
+- [[budaca-budaca-2025-harmonic-chiral-vibration]] 将 constrained PRM 的平面经典能面在 stationary point 附近作 harmonic expansion，以 `ΔE(I)=ω_I` 拟合 chiral-partner splitting。对 `137Nd` D5/D6 的输入几何为 `j=11/2,j′=10`，输出 `γ=97.5°`（按该文 `120°−γ` sector mapping 为 `22.5°`）；这些 ΔE 数据沿用 Petrache 2020 Ref. [30]，并非独立 shape measurement。
+- [[budaca-budaca-2025-harmonic-chiral-vibration]] 从约束 PRM classical-energy surface 推导 harmonic chiral-vibration frequency；对 `137Nd` D5/D6 (`πh11/2²⊗νh11/2⁻¹`) 以实验 `ΔE(I)` 拟合 paper-sector `γ=97.5°`，在该文 `120°−γ` 映射下为 `22.5°`。Fig.4 的 `137Nd` split 来自 Petrache 2020 Ref. [30] 的同一实验，只有少量拟合点且未对 `137Nd` 做 transition-ratio comparison；这不是独立形状或实验确认。
 - [[ding-2021-131ba-133ce-signature-splitting]] 用 γ=15° 和 10° 分别描述 `131Ba`、`133Ce` 的 S(I)，并扫描 Coriolis attenuation。
 - [[matta-2015-transverse-wobbling-135pr]] 的修改 QTR 用 `J_m,J_s,J_l=7.4,5.6,1.8 ħ²/MeV`、`c=0.116` 拟合 `135Pr` zero-/one-phonon 能量。
 - [[sensharma-2019-two-phonon-wobbling-135pr]] 沿用 `135Pr` 的 `ε=0.16, γ=26°`、上述三个转动惯量和尺度因子，扩展比较逐级 wobbling-phonon energy 与相对 E2 ratios。
@@ -57,6 +59,8 @@ tags: [triaxiality, odd-a, wobbling]
 ## Known Limitations
 
 拟合 γ 不是直接测量；转动惯量和 Coriolis attenuation 可引入模型依赖。
+
+[[budaca-budaca-2025-harmonic-chiral-vibration]] 给出 harmonic approximation 的明确适用边界：低于 planar critical spin `I_c` 的单一 stationary point，并要求 quartic/quadratic correction `R_I` 不大；`R_I` 接近 `I_c` 增长，HA 会失效。其 `137Nd` D5/D6 `γ=97.5°` 来自少量归一化 energy-splitting 点，不能视为 shape measurement。用 Eq. (2)/(7) 与 `j=11/2,j′=10` 复算 `I_c≈17.804ℏ`；Fig.4f 中 `I=17.5ℏ` 的纳入点低于此模型值、`18.5ℏ` open point 高于它，但论文未称该点正是据此排除。 P25 `137Nd` data reuses P20 energy splits and lacks its own `B(M1)/B(E2)` comparison.
 
 QTR 中近邻轨道混合会与 γ 同时改变 S(I)，因此单个最佳 γ 往往不是唯一反演。
 
@@ -93,6 +97,8 @@ Sensharma 2019 的 QTR 给出
 - [[chakraborty-2023-131xe-wobbling-origin]]
 - [[frauendorf-2024-wobbling-review]]
 - [[petrache-2020-137nd-multiple-chiral-bands]]
+- [[budaca-budaca-2025-harmonic-chiral-vibration]]
+- [[budaca-budaca-2025-harmonic-chiral-vibration]]
 - [[ding-2021-131ba-133ce-signature-splitting]]
 - [[matta-2015-transverse-wobbling-135pr]]
 - [[sensharma-2019-two-phonon-wobbling-135pr]]
@@ -119,3 +125,4 @@ Sensharma 2019 的 QTR 给出
 - 2026-07-13：加入 Liu 2016 `78Br` MDC-CDFT-input TPRM、effective-angle geometry 与 orbital-mixing limitation。
 - 2026-08-11：加入 Xiao 2022 `74As` fitted `β2/γ/J`、ratio comparison 和 aplanar/nonideal-neutron geometry。
 - 2026-08-11：加入 Bark 2024 restricted-versus-realistic configuration-space test 与 same-configuration multi-band pairing limitation。
+- 2026-09-30：加入 Budaca & Budaca 2025 harmonic chiral-vibration approximation、critical-spin/anharmonicity 边界与 `137Nd` 的 same-dataset γ fit 迁移限制。

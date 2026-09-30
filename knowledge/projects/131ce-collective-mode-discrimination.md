@@ -3,7 +3,7 @@ type: project
 title: 131Ce/133Ce 集体模式判别
 aliases: [131Ce collective-mode discrimination]
 created: 2026-07-27
-updated: 2026-09-29
+updated: 2026-09-30
 status: active
 review_status: unreviewed
 project_stage: l4-milestone-awaiting-review
@@ -181,6 +181,21 @@ These rows are source-backed manifest seeds, not a claim that the angular ratio 
 
 Using the first four Band 1 quadrupole rows in AW13-14 and the first four Band 1 dipole rows in AW13-15, inverse-variance weighting gives `R_E2=0.976±0.017` and `R_M1/E2=0.516±0.023`; the nominal difference is `0.461±0.028` (statistical-only). The E2 subset has `χ²≈20.6` for 3 degrees of freedom, so feeding, detector geometry and unmodelled covariance are material. This check validates that the table carries separated assignment handles; it is not a universal `R` threshold or an independent multipolarity proof.
 
+### Day 3 follow-up: test the 611.1-keV Band-4→Band-1 link (design-only)
+
+AW13-16 supplies a concrete first target: `611.1 keV`, `17/2−→15/2−`, assigned M1/E2, with reported relative intensity `25.2±1.1` and table ratio `R=0.56±0.02`; the thesis identifies it as a new Band 4→Band 1 link (PDF pp.61, 66, Table 4.4/Fig.4.5). This is an interband identity handle, not a wobbling/chiral assignment, and its table `R` is not a measured mixing ratio `δ`.
+
+| Stage | Minimum observation / analysis | Ranking consequence | Stop/failure check |
+|---|---|---|---|
+| 1. Identity and branch | Reconfirm the 611.1-keV gate and both levels against the full cascade; map all other candidate Band-4→Band-1 `ΔI=1` links with `Eγ`, `Iγ`, `J^π`, feeding and source lineage. | If the link, band parity or common-spin partner identity is not secure, do not fit it as a collective-mode transition. | If parity or band identity does not close across the gated cascades, mark `identity-uncertain`; do not infer a partner from band numbering alone. |
+| 2. Transition character | For each confirmed interband link, obtain angular distributions/DCO plus linear-polarization asymmetry; fit both allowed `δ` branches with a common alignment/response model and report branch/sign and covariance. | A robust E2-rich pattern supports a collective out-of-band test; an M1-dominant result reduces wobbling/chiral priority and fits ordinary signature/configuration linking more readily. | Do not substitute the source-table angular ratio `R` or AW13's fixed `δ=0` for measured `δ`; include polarization magnitude, sign convention, efficiency and gate dependence. |
+| 3. Absolute strength | Measure lifetimes for Band 4 partner states and matched Band 1 states over overlapping spins, with feeding/side-feeding and stopping/response treatment; derive absolute `B(E2)` and `B(M1)` plus `B(E2)_out/B(E2)_in`, `B(M1)_out/B(E2)_in` and `Q_t`. | Compare the same transition matrix across spin before assigning wobbling or chirality. Existing SI16/LI04 Band-1-like lifetimes are controls, not a partner-band lifetime matrix. | Keep finite lifetimes, lower/upper limits and effective lifetimes separate; a branching-only ratio is not an absolute strength. |
+| 4. Shape question | Only if γ-soft/γ-rigid ordering remains decisive, add quadrupole invariants/Coulomb-excitation or a common-input softness scan constrained by measured strengths. | Tests shape dynamics after partner identity and transition character are established. | Fixed TRS/TPSM `γ` inputs are model results, not shape measurements. |
+
+**δ-sensitivity exercise.** AW13-9 gives the branching-derived same-transition correction `B(M1)/B(E2)(δ) = [B(M1)/B(E2)](0)/(1+δ²)`. Hence the fraction of the `δ=0` estimate retained is `1.000`, `0.800`, `0.500`, `0.308` for illustrative `|δ|=0`, `0.5`, `1.0`, `1.5`, respectively. These are sensitivity examples, not fitted values for the 611.1-keV line. At `|δ|=1`, the corrected ratio is half the `δ=0` estimate, showing why direct branch-resolved `δ` matters before using AW13 Fig. 5.5 ratios as mechanism evidence.
+
+**Source-dependence and companion boundary.** The 611.1-keV line and AW13 derived ratios belong to the thesis `100Mo(36S,5n)` data set. Singh 2016 and Li 2004 provide lifetime controls on Band-1-like/parity-specific sequences from separate reactions, but neither supplies a Band-4 partner lifetime; Singh's reproduced Li rows remain dependent. The next experiment should preserve this lineage and measure the candidate partner in a common response/covariance package rather than combine unlike transition tables.
+
 ## Analysis Status
 
 - L3 milestone: completed；用户已完成 parity、δ 假设和数据边界的 claim-level review。
@@ -227,7 +242,7 @@ Using the first four Band 1 quadrupole rows in AW13-14 and the first four Band 1
 ## Next Actions
 
 1. 用户独立 `131Ce` 实验数据本轮不读取、不与公开数据合并；未来先建立独立 manifest、数据身份和 band/transition mapping，再按具体问题启动更深入 L4。
-2. 继续补齐 Figure 5.5 gated inputs、measured δ/偏振、伙伴带 absolute strengths 与 HD–ND linking 等能够改变竞争解释排序的证据。
+2. 继续补齐 Figure 5.5 gated inputs、measured δ/偏振、伙伴带 absolute strengths 与 HD–ND linking 等能够改变竞争解释排序的证据；优先把 AW13-16 的 611.1-keV `Band 4→Band 1` link 纳入共同的 band/transition manifest，但不预设其 wobbling 身份。
 3. 不把本 project 的 provisional conclusion 写入正式论文结论或提升为 high confidence。
 
 ## Related Sources and Pages
