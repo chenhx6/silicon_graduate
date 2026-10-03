@@ -3,7 +3,7 @@ type: source
 title: "Gaffney et al. 2013 - Studies of pear-shaped nuclei using accelerated radioactive beams"
 aliases: [Gaffney 2013 pear-shaped nuclei, 220Rn 224Ra Coulomb excitation]
 created: 2026-09-20
-updated: 2026-09-20
+updated: 2026-10-03
 status: ai-draft
 review_status: unreviewed
 source_type: journal-article-experiment
@@ -41,7 +41,7 @@ tags: [pear-shape, octupole, reflection-asymmetry, Rn, Ra, EDM]
 
 ## Scope and Reading Depth
 
-- PDF pp.199–204 fully read, including abstract/introduction, Figs.1–5, partial level schemes, Table 1 matrix elements, Coulomb-excitation/GOSIA description, shape comparison and Outlook/Methods.
+- journal pp.199–204 (PDF pp.1–6) fully read, including abstract/introduction, Figs.1–5, partial level schemes, Table 1 matrix elements, Coulomb-excitation/GOSIA description, shape comparison and Outlook/Methods.
 - Figure/table audit: MINIBALL spectra and level schemes, `Q2/Q3` versus spin, intrinsic-shape plots, isotope-systematics plot and all Table 1 E1/E2/E3 matrix elements were checked.
 - Not covered: raw GOSIA input/output files, event matrices, full lifetime datasets and later independent measurements.
 
@@ -64,11 +64,12 @@ The experiment asks whether direct electric-octupole transition strengths can di
 
 | ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
 |---|---|---|---|---|---|
-| GA13-1 | Coulomb excitation of radioactive `220Rn` and `224Ra` measures E1/E2/E3 matrix elements with `10%`-level accuracy using MINIBALL and GOSIA. | experimental-result | direct | PDF pp.199–203, Table 1, Methods | true |
-| GA13-2 | `224Ra` exhibits stronger and more coherent octupole collectivity than `220Rn`, with `Q3` and E3 strengths supporting a pear-shaped/static-deformation interpretation. | experimental-result/author-interpretation | mixed | PDF pp.200–203, Figs.3–5, Tables 1–2 | true |
-| GA13-3 | Intrinsic E2/E3 moments are approximately constant across the measured spin range. | experimental-result | direct | PDF p.202, Fig.3 | true |
-| GA13-4 | Mean-field and cluster-model calculations predict different Rn/Ra octupole trends; the data oppose the cluster-model trend and distinguish model families. | model-data-comparison | mixed | PDF pp.202–203, Fig.5, Outlook | true |
-| GA13-5 | Octupole-enhanced EDM candidate ranking favors Ra over the measured Rn isotopes, subject to future spectroscopy. | author-interpretation | indirect | PDF p.203, Outlook | true |
+| GA13-1 | Coulomb excitation of radioactive `220Rn` and `224Ra` measures E1/E2/E3 matrix elements with `10%`-level accuracy using MINIBALL and GOSIA. | experimental-result | direct | journal pp.199–203 (PDF pp.1–5), Table 1, Methods | true |
+| GA13-2 | `224Ra` exhibits stronger and more coherent octupole collectivity than `220Rn`, with `Q3` and E3 strengths supporting a pear-shaped/static-deformation interpretation. | experimental-result/author-interpretation | mixed | journal pp.200–203 (PDF pp.2–5), Figs.3–5, Tables 1–2 | true |
+| GA13-3 | Intrinsic E2/E3 moments are approximately constant across the measured spin range. | experimental-result | direct | journal p.202 (PDF p.4), Fig.3 | true |
+| GA13-4 | Mean-field and cluster-model calculations predict different Rn/Ra octupole trends; the data oppose the cluster-model trend and distinguish model families. | model-data-comparison | mixed | journal pp.202–203 (PDF pp.4–5), Fig.5, Outlook | true |
+| GA13-5 | Octupole-enhanced EDM candidate ranking favors Ra over the measured Rn isotopes, subject to future spectroscopy. | author-interpretation | indirect | journal p.203 (PDF p.5), Outlook | true |
+| GA13-6 | Authors state that the measured E2/E3 matrix elements are consistent with a rotating deformed distribution but do not distinguish parity states projected from a static quadrupole-octupole shape from an octupole oscillation of a quadrupole shape. | interpretation-boundary | direct-to-source | journal p.202 (PDF p.4), text before Table 2 | true |
 
 ## Summary
 
@@ -82,10 +83,10 @@ Constant intrinsic moments support a rotational description but do not by themse
 
 | ID | 审核项 | Agent 判断 | Evidence / locator | 审核状态 |
 |---|---|---|---|---|
-| GA13-AR-1 | Evidence chain | Coulomb-excitation yields → GOSIA matrix elements → Q1/Q2/Q3 → shape/systematics comparison. | PDF pp.200–203, Methods | self-checking |
+| GA13-AR-1 | Evidence chain | Coulomb-excitation yields → GOSIA matrix elements → Q1/Q2/Q3 → shape/systematics comparison. | journal pp.200–203 (PDF pp.2–5), Methods | self-checking |
 | GA13-AR-2 | Direct versus model | E1/E2/E3 matrix elements and Q values are measured/fitted observables; pear/static and EDM implications are author/model interpretations. | Table 1, Figs.3–5 | self-checking |
 | GA13-AR-3 | Transfer condition | Q3 comparison transfers only with matched Coulomb-excitation model, target matrix elements and spin range; not as a universal β3 prior. | PDF Methods/Table 1 | provisional |
-| GA13-AR-4 | Failure condition | Missing raw GOSIA files, target uncertainties, lifetime/branching revisions or soft-vibrational alternatives could change absolute strengths and deformation ranking. | PDF pp.202–203 | active-L3 |
+| GA13-AR-4 | Failure condition | Missing raw GOSIA files, target uncertainties, lifetime/branching revisions or soft-vibrational alternatives could change absolute strengths and deformation ranking. | journal pp.202–203 (PDF pp.4–5) | active-L3 |
 | GA13-AR-5 | Independence | Direct Rn/Ra experiment; cited `226Ra` and other isotope values are historical comparison, not independent new points. | Table 2/Fig.5 | self-checking |
 
 ## Knowledge Impact and Learning Decision
@@ -102,6 +103,7 @@ Constant intrinsic moments support a rotational description but do not by themse
 | supports | [[octupole-correlation]] | E3 moments as direct collective octupole observable, separated from model β3. |
 | methodological-bridge | [[coulomb-excitation]] | Radioactive-beam MINIBALL/GOSIA matrix-element extraction. |
 | candidate-L3 | [[a130-high-spin-collective-modes-evidence-map]] | Non-A≈130 benchmark for parity-sensitive collective-mode inference. |
+| observable-boundary | [[shape-observable-matrix]] | Direct E3 and E2 data do not alone distinguish a static octupole minimum from octupole vibration. |
 
 ## Human Review Triage
 

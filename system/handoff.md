@@ -1,12 +1,22 @@
 ---
 type: system-handoff
 graph-excluded: true
-updated: 2026-09-30
+updated: 2026-10-03
 ---
 
 # 跨会话交接
 
-## Active handoff — 2026-09-30 Day 4 closeout
+## Active handoff — 2026-10-03 Day 5 completed
+
+Day 5 catch-up is complete by evidence saturation and manual runner reconciliation. The scheduled 2026-10-01 trigger was missed; the study ran on 2026-10-03 and still counts as Day 5. Session `01a0ffe6-1332-7ed2-87f0-6a0722bc4a06`; resume with `codex resume 01a0ffe6-1332-7ed2-87f0-6a0722bc4a06 -C /workspace/wiki -s danger-full-access -a never`. Report: `outputs/learning-daily/20261003-DAY5-beta-gamma-octupole-shape-coexistence.md`. Initial run-01 is preserved as `recovered-continuation`; completed manual terminal receipt: `outputs/learning-daily/20261003-DAY5-beta-gamma-octupole-shape-coexistence-run-02/run.json`.
+
+The parent runner disappeared after continuation 1 without `runner-finished`; its exit code remains unknown. The Codex session reached `turn.completed`, Farmer reports `complete`, and manual receipt checks record report/writeback/boundary/lint/diff verification. Milestone state now advances to `next_day_index=6`; Day 6 prompt: `outputs/learning-daily/prompts/20261004-DAY6-rotation-vibration-alignment-signature.md`.
+
+Durable DAY5 result: [[shape-observable-matrix]] and the A≈130 matrices separate shape-sensitive observables. ENSDF maps Petrache’s `131Ce` Q0 to SD-1 and SD2→SD1 links, but does not link normal Bands 1–7 to SD; `131Ba` has direct E1 links but no E3/lifetime/absolute-strength closure. Cross-region E3/E1 and fitted odd-A Ba model boundaries remain explicit. Three public PDFs are hash-verified under `raw/papers/gpt/day5-20261003/` and remain unstaged; inherited Day2/3/4 raw/run directories are untouched.
+
+Stable Git pointer after this closeout: branch `main`, subject `Complete DAY5 beta-gamma octupole shape evidence study`. Exact commit hash and Gitee push outcome are recorded in the local scheduler receipt after H3.
+
+## Previous active handoff — 2026-09-30 Day 4 closeout
 
 Day 4 `pairing-quasiparticle-configuration` reached an early evidence-saturation closeout at 2026-09-30 22:10 Asia/Shanghai. Report: `outputs/learning-daily/20260930-DAY4-pairing-quasiparticle-configuration.md`; final receipt and continuation prompt: `outputs/learning-daily/20260930-DAY4-pairing-quasiparticle-configuration-run-04/`. Session `01a0f1e5-98fb-7453-aa16-e987dcbd633d`; resume with `codex resume 01a0f1e5-98fb-7453-aa16-e987dcbd633d -C /workspace/wiki -s danger-full-access -a never`. Day 5 prompt: `outputs/learning-daily/prompts/20261001-DAY5-beta-gamma-octupole-shape-coexistence.md`; milestone advanced to `next_day_index=5` after required content checks.
 

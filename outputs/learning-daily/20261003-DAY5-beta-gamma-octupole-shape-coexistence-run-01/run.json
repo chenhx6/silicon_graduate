@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "run_id": "2026-10-03-day-05-01",
+  "run_date": "2026-10-03",
+  "day_index": 5,
+  "phase": "nuclear-structure-framework",
+  "cycle": "2026-09-30-day-substantive",
+  "schedule_id": "wiki-daily-learning",
+  "schedule_name": "Wiki 30-day substantive daily learning",
+  "project_root": "/workspace/wiki",
+  "run_kind": "substantive",
+  "acceptance_only": false,
+  "overnight_until": "2026-10-04T15:00:00+08:00",
+  "max_continuations": 96,
+  "continuation_count": 1,
+  "counted_in_substantive_test": false,
+  "session_mode": "new-session-per-run",
+  "session_reuse": false,
+  "session_scope": "one-new-session-for-each-schedule-run",
+  "codex_home": "/root/.codex",
+  "status": "recovered-continuation",
+  "started_at": "2026-10-03T11:54:15.313183+08:00",
+  "report": "/workspace/wiki/outputs/learning-daily/20261003-DAY5-beta-gamma-octupole-shape-coexistence.md",
+  "prompt_file": "/workspace/wiki/outputs/learning-daily/20261003-DAY5-beta-gamma-octupole-shape-coexistence-run-01/prompt.md",
+  "continuation_runs": [
+    {
+      "number": 1,
+      "returncode": 0,
+      "events": "/workspace/wiki/outputs/learning-daily/20261003-DAY5-beta-gamma-octupole-shape-coexistence-run-01/continuation-001-events.jsonl",
+      "last_message": "/workspace/wiki/outputs/learning-daily/20261003-DAY5-beta-gamma-octupole-shape-coexistence-run-01/continuation-001-last-message.md"
+    }
+  ],
+  "session_id": "01a0ffe6-1332-7ed2-87f0-6a0722bc4a06",
+  "resume_command": [
+    "codex",
+    "resume",
+    "01a0ffe6-1332-7ed2-87f0-6a0722bc4a06",
+    "-C",
+    "/workspace/wiki",
+    "-s",
+    "danger-full-access",
+    "-a",
+    "never"
+  ],
+  "resume_command_copy": "codex resume 01a0ffe6-1332-7ed2-87f0-6a0722bc4a06 -C /workspace/wiki -s danger-full-access -a never",
+  "runner_exit_code": null,
+  "runner_terminal_event_missing": true,
+  "recovery_receipt": "/workspace/wiki/outputs/learning-daily/20261003-DAY5-beta-gamma-octupole-shape-coexistence-run-02/run.json",
+  "recovery_method": "Manual terminal reconciliation after parent runner exit without runner-finished event; same Codex session reached turn.completed and passed final checks.",
+  "reconciled_at": "2026-10-03T20:28:03+08:00"
+}

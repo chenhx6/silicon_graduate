@@ -2,7 +2,7 @@
 type: system-questions
 graph-excluded: true
 created: 2026-07-01
-updated: 2026-09-28
+updated: 2026-10-03
 ---
 
 # Research Questions
@@ -30,7 +30,7 @@ updated: 2026-09-28
 - [ ] `137Ba` 双光子衰变中，Walz 的 Aqq 主导解释与 Söderström 的 E3M1/受抑 M2E2 解释，哪些新增能量共享、偏振或响应观测可以区分？（opened 2026-09-21；scope: high-spin/two-photon-decay；project: [[octupole-and-rare-electromagnetic-decay]]）
 - [ ] A≈130 近简并带在什么条件下必须提供 partner-resolved `B(E2)`, `B(M1)` 和 lifetime，才能排除 crossing、configuration mixing 与 shape coexistence？（opened 2026-09-21；scope: high-spin/chirality; project: [[chirality-wobbling-competition-evidence]]）
 - [ ] `A2/A4`、偏振、DCO/ADO、alignment 和 detector `Q(E)` 的协方差，何时会使 mixing-ratio `δ` 不可识别？（opened 2026-09-21；scope: high-spin/angular-polarization; project: [[high-spin-angular-polarization-mixing-ratio]]）
-- [ ] 直接 E3、E1 correlation、PES `β3` 与相反宇称能级系统学如何形成可迁移的 octupole evidence ladder？（opened 2026-09-21；scope: high-spin/octupole; project: [[octupole-and-rare-electromagnetic-decay]]）
+- [ ] 直接 E3、E1 correlation、PES `β3` 与相反宇称能级系统学如何形成可迁移的 octupole evidence ladder？当前对照矩阵：[[shape-observable-matrix]]；[[guo-2020-pseudospin-chiral-quartet-131ba|131Ba Guo 2020]] 有 GU20-10 的 8 条 D7→D3–D6 E1 links，但 GU20-14 的 `β3=0.05` 是 tentative RAT-PRM input，GU20-16 无 lifetime/absolute reduced probabilities；[[bucher-2016-144ba-direct-octupole|144Ba]] 与 [[bucher-2017-146ba-direct-octupole|146Ba]] 有直接 B(E3)，E1 机制仍属模型解释。（opened 2026-09-21；updated 2026-10-03；scope: high-spin/octupole; project: [[octupole-and-rare-electromagnetic-decay]]）
 - [ ] `144Ba` 与 `146Ba` 的相近 `B(E3)` 和显著不同 E1 dipole moment 能否用同一套 occupancy-sensitive microscopic model 定量解释？（opened 2026-09-21；scope: external/146ba/octupole; project: [[octupole-and-rare-electromagnetic-decay]]）
 - [ ] 哪些已发表的后续原始来源或公开数据能改变本批四个主题的证据排序？（opened 2026-09-21；scope: high-spin/external-research; external sources must be separately numbered）
 

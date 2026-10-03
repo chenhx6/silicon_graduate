@@ -3,7 +3,7 @@ type: project
 title: 131Ce/133Ce 集体模式判别
 aliases: [131Ce collective-mode discrimination]
 created: 2026-07-27
-updated: 2026-09-30
+updated: 2026-10-03
 status: active
 review_status: unreviewed
 project_stage: l4-milestone-awaiting-review
@@ -160,9 +160,17 @@ Manifest 的最低完成条件是 `source_lineage + band_level_identity + transi
 | `AW13-Bands1-7` | provisional band identity/linking（AW13-1/AW13-2）、`δ=0` 派生比值（AW13-9）、组态/模型标签 | measured `δ`、偏振、寿命、absolute strengths、response/covariance | `100Mo(36S,5n)` Gammasphere thesis；单一目标核谱系 |
 | `SI16-131Ce-yrast` | 4 个有限寿命和 3 个限值（SI16-1）、部分 `Q_t`（SI16-2） | partner-resolved identity、direct `δ`/偏振、完整 interband matrix；TRS γ 是模型/解释（SI16-7） | `119Sn(16O,4n)` 独立 yrast lifetime experiment；与 Li 行依赖关系显式保留 |
 | `LI04-131Ce-parity-controls` | 正负宇称序列有限/限值寿命和 `Q_t`（LI04-1/LI04-3） | same-parity partner、direct δ/偏振；LI04-11 明确不是 chiral-doublet evidence | `116Sn(19F,p3n)` 独立 DSAM；限值和 finite points 分开 |
-| `PE98-131Ce-HD` | HD `Q0=7.3(4) eb`（PE98-7）和 separate-band scope（PE98-13） | HD–ND linking、共存混合、thesis Bands 1–7 partner mapping | `110Pd(28Si,α3n)` GASP+ISIS；独立 HD 扇区 |
+| `PE98-131Ce-HD` | HD `Q0=7.3(4) eb`（PE98-7）和 separate-band scope（PE98-13） | normal-SD links、Alwaleedi Bands 1–7 映射与 common-response mixing；ENSDF normal 子文件 cutoff 早于该 thesis | `110Pd(28Si,α3n)` GASP+ISIS；独立 HD 扇区 |
 
 Seed-row consistency checks：AW13 的派生 `B(M1)/B(E2)` 不与 SI16/LI04 的 `Q_t` 拼成同一 transition matrix；Singh 转载 Li 的行不重复计权；PE98 HD 不硬映射到 normal-deformed Bands 1–7；缺 response/covariance 时不进入 L4 proxy fit。
+
+### 2026-10-03 ENSDF 131Ce crosswalk audit
+
+[[ensdf-2006-131ce-levels|NNDC/ENSDF A=131 evaluation]] labels the 1998Pe01 high-deformation result as Band A/SD-1 and lists SD-2 separately; [[petrache-1998-highly-deformed-lifetimes-131ce-nd|Petrache 1998]] supplies the high-deformation lifetime/Q0 basis, while 2005Pa30 supplies two SD2→SD1 M1+E2 links (ENS06-2/ENS06-4). The normal high-spin evaluation is a separate file based on 1991Pa07, 1996Gi08, and 2004Li27, with a 17-Jul-2006 literature cutoff (ENS06-5). The two subfiles do not provide a normal-to-SD transition. [[alwaleedi-2013-band-structures-131ce|Alwaleedi 2013]] used Gammasphere at the same 100Mo(36S,5n) channel, while 2005Pa30 used EUROBALL IV; the same reaction does not make their acquisitions or band labels identical. This resolves PE98→SD-1 only; the 2013 Bands 1–7 mapping remains open.
+
+### 2026-10-03 primary-source access boundary
+
+[NNDC NSR key record](https://www.nndc.bnl.gov/nsr/KeyNumberSearchServlet?search-type=keynumber&key=2005Pa30) and Crossref resolve E. S. Paul et al., Physical Review C 71, 054309 (2005), DOI [10.1103/PhysRevC.71.054309](https://doi.org/10.1103/PhysRevC.71.054309). The 2006 evaluation says this paper used EUROBALL IV on 100Mo(36S,5n gamma) at 160/165 MeV and links SD-1/SD-2 (ENS06-4), but this is compiled evidence, not a fresh read of the primary. As checked 2026-10-03, [OpenAlex metadata](https://api.openalex.org/works/https://doi.org/10.1103/physrevc.71.054309) reports closed/no repository full text; the [APS PDF endpoint](https://journals.aps.org/prc/pdf/10.1103/PhysRevC.71.054309) returns 403; [Lund](https://lup.lub.lu.se/search/publication/713187)/[Padua](https://hdl.handle.net/11577/1423926) expose metadata without an accessible PDF, and [HAL](https://in2p3.hal.science/in2p3-00024163) presents a bot check. Do not infer normal-to-SD links from the evaluation. Reopen only if a lawful full-text copy appears; the current ENSDF locator is sufficient for the SD1/SD2 topology but not the Alwaleedi normal-band crosswalk.
 
 ### Public-table transition seed rows (AW13; design-only)
 

@@ -3,7 +3,7 @@ type: project
 title: "A≈130 high-spin collective modes evidence map"
 aliases: [A130 high-spin evidence map, A≈130 高自旋集体模式证据图]
 created: 2026-07-02
-updated: 2026-09-20
+updated: 2026-10-03
 status: active
 review_status: unreviewed
 project_stage: seed
@@ -21,7 +21,7 @@ tags: [a130, high-spin, evidence-map, data-analysis, project]
 
 ## 2026 high-spin corpus reconciliation
 
-The expanded corpus adds a method backbone and several counterexamples that sharpen this map. `Mukhopadhyay 2008` and `Petrache 2006` require partner-resolved electromagnetic strengths and crossing checks before near-degenerate A≈130 bands are called chiral. The direct `144Ba` E3 result and the `137Ba` double-γ pair provide cross-mass observables for testing how model labels relate to measured transition amplitudes. Detailed cross-source comparisons are in [[high-spin-lifetime-strength-deformation]], [[chirality-wobbling-competition-evidence]] and [[octupole-and-rare-electromagnetic-decay]].
+The expanded corpus adds a method backbone and several counterexamples that sharpen this map. `Mukhopadhyay 2008` and `Petrache 2006` require partner-resolved electromagnetic strengths and crossing checks before near-degenerate A≈130 bands are called chiral. The direct `144Ba` E3 result and the `137Ba` double-γ pair provide cross-mass observables for testing how model labels relate to measured transition amplitudes. Detailed cross-source comparisons are in [[high-spin-lifetime-strength-deformation]], [[chirality-wobbling-competition-evidence]] and [[octupole-and-rare-electromagnetic-decay]]. Guo et al. 2020 add a target-region `131Ba` case with eight observed E1 links from D7 to D3-D6; the authors interpret the cross-parity network as octupole correlations, while beta-three remains a tentative RAT-PRM input and no absolute E3 strength is reported. Keep that one acquisition separate from the direct Coulomb-excitation E3 measurements in neutron-rich Ba.
 
 ## Project Purpose
 
@@ -56,6 +56,7 @@ The expanded corpus adds a method backbone and several counterexamples that shar
 | [[ayangeakaa-2016-133ce-in-beam]] | `133Ce` 原始 in-beam 实验与模型比较 |
 | [[petrache-2020-137nd-multiple-chiral-bands]] | `137Nd` 候选多重手征带实验来源 |
 | [[ding-2021-131ba-133ce-signature-splitting]] | `131Ba/133Ce` signature splitting 实验与模型来源 |
+| [[guo-2020-pseudospin-chiral-quartet-131ba]] | `131Ba` D3-D6/D7-D8 band network and eight direct E1 links; octupole-correlation interpretation remains separate from the tentative beta-three input and unresolved quartet grouping |
 | [[chakraborty-2023-131xe-wobbling-origin]] | `131Xe` wobbling/signature 竞争解释实验来源 |
 | [[frauendorf-2024-wobbling-review]] | wobbling 模型、证据与争议的现代综述 |
 | [[de-voigt-dudek-szymanski-1983-high-spin-phenomena]] | 转动带、alignment、backbending 与实验方法的历史背景综述 |
@@ -106,6 +107,9 @@ The expanded corpus adds a method backbone and several counterexamples that shar
 - [[signature-splitting-mechanisms]]
 
 ### Evidence Gaps
+
+`131Ba` supplies direct E1 interband connectivity (GU20-10), but no lifetime/absolute E1/E3 matrix or measured beta-three; static octupole deformation remains unsupported by this source. Keep D3-D6 as a linked four-band manifold because GU20-7 does not select two fixed positive-parity pairs.
+
 
 - 当前来源只覆盖少量核素和问题，不构成系统书目；
 - 多个 wobbling/chiral 候选仍缺寿命、绝对跃迁强度或可靠 mixing ratio；

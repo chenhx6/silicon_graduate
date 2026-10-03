@@ -38,23 +38,23 @@ tags: [rotations, vibrations, deformed-nuclei, collective-model, review]
 
 ## Scope and Reading Depth
 
-- PDF pp.105–158 (54 pages) fully read: hydrodynamic surface model, even–even/odd-A/odd–odd coupling, electromagnetic moments/transitions, alpha/beta decay, photonuclear reactions and conclusion.
+- printed pp.105–158 (54 pages) fully read: hydrodynamic surface model, even–even/odd-A/odd–odd coupling, electromagnetic moments/transitions, alpha/beta decay, photonuclear reactions and conclusion.
 - HS-106–HS-108 are exact same-hash duplicate rows; they reuse this canonical reading and are audited individually without new source count.
 
 ## Key Results
 
-- The collective model represents nuclear surfaces by volume-conserving multipole coordinates; surface vibrations quantize into phonons, while stable deformation yields rotational bands. The transition from vibrational to rotational behavior depends on deformation energy versus zero-point motion (PDF pp.105–114).
-- Even–even nuclei have rotational `K=0` bands and γ/β vibrations; odd-A and odd–odd spectra arise by coupling particles to the deformed/vibrating core, with Coriolis and decoupling effects (PDF pp.129–146).
-- Electromagnetic transition operators and moments connect measured B(Eλ), Mλ, g factors and quadrupole moments to intrinsic deformation under collective-model assumptions (PDF pp.115–146).
-- Alpha/beta decay and photonuclear reactions are discussed as probes of deformation and collective transition densities, while the review keeps model dependence explicit (PDF pp.147–158).
+- The collective model represents nuclear surfaces by volume-conserving multipole coordinates; surface vibrations quantize into phonons, while stable deformation yields rotational bands. The transition from vibrational to rotational behavior depends on deformation energy versus zero-point motion (printed pp.105–114).
+- Even–even nuclei have rotational `K=0` bands and γ/β vibrations; odd-A and odd–odd spectra arise by coupling particles to the deformed/vibrating core, with Coriolis and decoupling effects (printed pp.129–146).
+- Electromagnetic transition operators and moments connect measured B(Eλ), Mλ, g factors and quadrupole moments to intrinsic deformation under collective-model assumptions (printed pp.115–146).
+- Alpha/beta decay and photonuclear reactions are discussed as probes of deformation and collective transition densities, while the review keeps model dependence explicit (printed pp.147–158).
 
 ## Key Results
 
 | ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
 |---|---|---|---|---|---|
-| DV65-1 | Rotational/vibrational spectra and electromagnetic strengths are collective-model probes of deformation, not direct shape images. | review-synthesis | review | PDF pp.105–146 | true |
-| DV65-2 | Odd-particle coupling, Coriolis and decoupling alter band energies/signatures relative to even–even core limits. | model-result | review | PDF pp.129–146 | true |
-| DV65-3 | Decay/photonuclear observables extend deformation probes but inherit collective-model assumptions. | method-boundary | review | PDF pp.147–158 | false |
+| DV65-1 | Rotational/vibrational spectra and electromagnetic strengths are collective-model probes of deformation, not direct shape images. | review-synthesis | review | printed pp.105–146 | true |
+| DV65-2 | Odd-particle coupling, Coriolis and decoupling alter band energies/signatures relative to even–even core limits. | model-result | review | printed pp.129–146 | true |
+| DV65-3 | Decay/photonuclear observables extend deformation probes but inherit collective-model assumptions. | method-boundary | review | printed pp.147–158 | false |
 
 ## Summary
 

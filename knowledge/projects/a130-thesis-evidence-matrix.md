@@ -3,7 +3,7 @@ type: project
 title: "A≈130 thesis evidence matrix"
 aliases: [A130 thesis evidence matrix, A≈130 博士论文证据矩阵]
 created: 2026-09-22
-updated: 2026-09-28
+updated: 2026-10-03
 status: active
 review_status: unreviewed
 project_stage: seed
@@ -44,10 +44,12 @@ tags: [a130, thesis-pipeline, evidence-matrix, collective-modes, durable-learnin
 | `131Ba competing-alignment evidence bridge` | Ten-band γ–γ scheme; low-spin νh11/2 signature splitting, angular-distribution A₂/A₀ and A₄/A₀, DCO ratios, E2/M1 mixing ratios, and N=75 crossing-frequency systematics | Angular distributions/DCO/mixing plus alignment gains and proton/neutron crossing frequencies; labels remain source/model assignments | Proton and neutron alignment can drive opposite near-prolate/near-oblate TRS minima, but Harris reference, pairing, finite-detector correction and unresolved bands leave γ and configuration conditional | independent spin/parity anchors, linking transitions, polarization or precise mixing ratios, lifetimes and absolute B(E2)/B(M1)/Q_t | [[ma-1990-131ba-competing-alignments]]; one 119Sn(12C,4n) experiment; separate from Liu compiled systematics |
 | `131Ba/133Ce νg7/2 signature-splitting mechanism bridge` | Band energies, γ transitions, `R_ac`, alignments and `J^(2)` for the new N=75 bands; N=73 comparison is compiled from cited prior experiments | Strong-coupling patterns, M1+E2 links and N=73/N=75 systematics support the author’s `νg7/2[404]7/2+` assignment; `S(I)` is an energy-derived handle | CSM/QTR show that non-axiality and nearby `s1/2[400]1/2+` Coriolis mixing both affect `S(I)`; fitted `γ` and PES `β₂,γ` are model results, not direct shape measurements | transition-level mixing ratios and polarization, lifetimes with absolute `B(E2)/B(M1)` or `Q_t`, and independent linking/transfer or g-factor constraints | [[ding-2021-131ba-133ce-signature-splitting]]; two reactions/arrays in one paper, with N=73 comparison dependent on refs.46–48 |
 | `131Ce derived-strength and delta-zero evidence bridge` | Bands 1–7 γ energies/intensities, angular-intensity ratios, crossing/alignment and branching-derived B(M1)/B(E2); Table 5.4 g factors and average alignments | Angular ratios plus crossing assignment; Eq. 5.6–5.7 with explicit δ=0 and semi-classical g/alignment/Q0 inputs | B(M1)/B(E2) is a derived ratio, not absolute B(M1) or B(E2); δ=0, model Q0 and configuration mapping limit claims, and agreement with theory does not establish wobbling/chirality or fixed γ | direct δ/mixing, lifetimes, absolute B(E2)/B(M1)/Q_t, polarization and independent linking transitions | [[alwaleedi-2013-band-structures-131ce]]; one 100Mo(36S,5nγ) thesis experiment; compare Ma δ boundary without transferring its value |
+| 131Ce shape-multiplicity boundary | TDPAD: 9− isomer moment magnitude Q=0.92(10) eb and g=−0.189(7); DSAM: high-deformation yrast Q0=7.3(4) eb, retrospectively mapped by ENSDF to Band A/SD-1. ENSDF separately lists SD-2 and SD2→SD1 links. | Qs and Q0 constrain different states and are not directly comparable. ENSDF maps PE98→SD1; it does not map SD1 to Alwaleedi Bands 1–7. SD1/SD2 Q0 values come from cited datasets without common covariance. | Verify any positive normal-to-SD transition and endpoint identities in the post-2006 scheme; compare state-resolved E2/E0 or moments under a common convention. | [[ionescu-bujor-1998-static-moments-129-131ce]] IB98-2/IB98-3; [[petrache-1998-highly-deformed-lifetimes-131ce-nd]] PE98-7/PE98-13; [[ensdf-2006-131ce-levels]] ENS06-2/ENS06-4/ENS06-5; [[alwaleedi-2013-band-structures-131ce]] AW13-1/AW13-16 |
+
 
 ## Evidence Available
 
-当前矩阵行来自 Ding 2012 原始 thesis source、`131Ce` project evidence map 和相关方法页；每行保留直接观测、assignment handle、解释边界、必要观测与 source lineage。矩阵不替代 source/raw locator。
+当前矩阵行来自 Ding 2012 原始 thesis source、`131Ce` project evidence map 和相关方法页；每行保留直接观测、assignment handle、解释边界、必要观测与 source lineage。形状共存的通用证据要求见 [[heyde-wood-2011-shape-coexistence-review]]（HW11-1/HW11-3）；矩阵不替代 source/raw locator。Day 5 的跨机制观测量映射见 [[shape-observable-matrix]]；本页保留 A≈130 核素与能带层面的 source crosswalk。
 
 ## Risks and Blockers
 

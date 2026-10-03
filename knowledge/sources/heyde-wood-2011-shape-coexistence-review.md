@@ -3,7 +3,7 @@ type: source
 title: "Heyde & Wood 2011 - Shape coexistence in atomic nuclei"
 aliases: [Heyde Wood 2011 shape coexistence review]
 created: 2026-09-20
-updated: 2026-09-20
+updated: 2026-10-03
 status: ai-draft
 review_status: unreviewed
 source_type: rmp-review
@@ -13,7 +13,7 @@ authors: [Kris Heyde, John L. Wood]
 journal: "Reviews of Modern Physics"
 year: 2011
 volume: 83
-pages: "1467-1512"
+pages: "1467-1521"
 doi: "10.1103/RevModPhys.83.1467"
 citation_key: Heyde_2011
 citation_key_origin: crossref-content-negotiation
@@ -35,7 +35,7 @@ tags: [shape-coexistence, shell-evolution, E0, E2, review]
 
 ## Bibliographic Record
 
-- K. Heyde and J. L. Wood, *Reviews of Modern Physics* **83**, 1467–1512 (2011), DOI `10.1103/RevModPhys.83.1467`。
+- K. Heyde and J. L. Wood, *Reviews of Modern Physics* **83**, 1467–1521 (2011), DOI `10.1103/RevModPhys.83.1467`。
 - 规范文件：`raw/papers/gpt/high-spin-20260920/review/2011_Heyde_Wood_Shape coexistence in atomic nuclei.pdf`。
 - 55-page RMP; theoretical approaches, systematic examples, spectroscopic fingerprints and outlook read.
 

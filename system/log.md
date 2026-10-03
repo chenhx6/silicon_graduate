@@ -1458,3 +1458,17 @@ updated: 2026-07-15
 - A newer 2026 IJMPE DOI (`10.1142/S0218301326500448`) remains metadata-only: closed/no repository in OpenAlex, publisher HTTP 403, exact-title arXiv miss, and OA downloader `oa_not_found`. No abstract claim was promoted.
 - Hara source, TPSM model page, A≈130 model-choice card, `131Ce` project, index and 2024 source page updated; review status remains `unreviewed`, and added claims retain `needs_review: true`.
 - `qmd status` reports 550 indexed documents, 2,459 vectors and 174 orphan chunks; the database is outside `/workspace/wiki`, so this continuation did not run `qmd update`, `embed` or `cleanup`.
+
+
+## [2026-10-03] daily-learning | finalize missed DAY5 catch-up
+
+- Completed substantive Day 5 on the original day index after the 2026-10-01 trigger was missed. Evidence-saturation stop followed a bounded two-slot review: `131Ce` normal/SD crosswalk and octupole observable ladder.
+- The parent runner disappeared after continuation 1 without a terminal scheduler event or captured runner exit code. Preserved run-01 as `recovered-continuation`; run-02 records manual terminal reconciliation of the same Codex session `01a0ffe6-1332-7ed2-87f0-6a0722bc4a06`. Farmer marks the session complete. The unobserved parent exit remains null.
+- Final checks before publication: preflight/boundary exit 0; Wiki lint exit 0 (0 errors, 92 warnings, 1307 info); knowledge-writeback valid (13 items; all 12 changed/new knowledge paths mapped); report headings/relative links valid; `git diff --check` exit 0. State advanced once to Day 6; prompt is `outputs/learning-daily/prompts/20261004-DAY6-rotation-vibration-alignment-signature.md`.
+- New public source PDFs are hash-verified under `raw/papers/gpt/day5-20261003/`; they remain local and unstaged. Inherited raw/run paths are untouched. Publication uses subject `Complete DAY5 beta-gamma octupole shape evidence study`; exact commit hash and push outcome belong in the local scheduler event.
+
+
+## [2026-10-03] daily-learning | H2 EOL baseline audit for DAY5
+
+- `clean_knowledge_eol_dirty.py` exited `1`: 9 modified knowledge pages were retained as substantive; 3 new task-owned knowledge pages were classified `REVIEW-UNSAFE` because they are additions. `restored=0`, `unsafe/mixed=0`, and no staged path was touched. The three additions were individually checked against the DAY5 prompt, source hashes/locators, canonical links and the validated writeback block.
+- This is a classification result, not an unreviewed user file: the ENSDF evaluation source, Nomura model source and shape-observable synthesis are all required DAY5 artifacts; no raw PDF was staged.

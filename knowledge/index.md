@@ -19,6 +19,7 @@ updated: 2026-09-30
 - [[lange-kumar-hamilton-1982-multipole-admixtures]] - 76页 E0/E2/M1 mixing-ratio RMP、Krane–Steffen sign convention、PPQ/IBM 及历史数据表的质量脚注。
 - [[bucher-2016-144ba-direct-octupole]] - `144Ba` CHICO2+GRETINA GOSIA 直接 E3；`B(E3)=48^{+25}_{−34} W.u.`、`Q3`/`β3` 与 rotor/higher-multipole 边界。
 - [[bucher-2017-146ba-direct-octupole]] - 外部开放获取 `146Ba` 直接 E3；`B(E3)=48(+21/−29) W.u.` 与 `144Ba` 相当，解释 E1 dipole variation 与 octupole strength 的分离。
+- [[nomura-2018-odd-mass-ba-octupole]] - DD-PC1/sdf-IBFM 对 143,145,147Ba 的八极形变和奇质量态依赖预测；保留 axial、拟合与基态自旋偏差边界。
 - [[dey-2026-116cs-multifaceted-decay]] - `116Cs`/`116Xe` 滴线多通道衰变、7.66-MeV 低能等轴八极共振、延迟 2p 与可能 `12C` cluster；数据与代码可得性边界。
 - [[hamilton-1948-successive-quanta-polarization]] - successive-γ direction–polarization formalism；16种 dipole/quadrupole 组合、相对宇称可判定性和探测效率边界。
 - [[herzan-2015-193bi-spectroscopy]] - `193Bi` JUROGAM-II/RITU/GREAT 纲图、`29/2±` 异构体、RDCO/IPDCO 标定和 `1/2[651]` SD 候选。
@@ -113,6 +114,7 @@ updated: 2026-09-30
 - [[singh-2016-lifetime-131ce-133pr]] - `131Ce/133Pr` yrast 带寿命、`Q_t` 与 γ-soft/TRS 解释；2016 当前值与 2004 依赖行分层。
 - [[li-2004-lifetimes-131ce]] - `131Ce` 正负宇称序列的早期 DSAM 寿命与 `Q_t` 原始谱系。
 - [[petrache-1998-highly-deformed-lifetimes-131ce-nd]] - `134Nd` 三带及 `135Nd/131Ce` HD bands 的 shared-systematics DSAM `Q0/Q_sf` 与 cranked-Strutinsky shrinking/polarization 比较。
+- [[ensdf-2006-131ce-levels]] - ENSDF 2006 将 Petrache 131Ce 高形变结果定位为 SD-1，并记录 SD1/SD2 链接及 normal/SD 边界。
 - [[klemme-1999-lifetimes-134nd-neighbors]] - `134Nd` 12-state coincidence-RDDS/DDCM strength map、六邻核通道 lifetimes 与 `135Nd` D1/ASYR 历史基线。
 - [[hecht-2001-chiral-symmetry-breaking-136pm-138eu]] - `136Pm/138Eu` linked yrast/new-band pairs、DCO/selected polarization、共同组态指认与 3D TAC aplanar candidate evidence；结论保持 candidate 层级。
 - [[hecht-2003-chirality-shape-coexistence-140eu]] - `140Eu` five-band scheme、Bands 1/2 与 3/4 candidate pairs，以及 chirality/`γ≈±25°` shape-coexistence 未决竞争。
@@ -426,6 +428,7 @@ updated: 2026-09-30
 - [[octupole-and-rare-electromagnetic-decay]] - 直接 E3、E1 correlation、双光子衰变和滴线稀有衰变的证据梯度。
 - [[sigma-over-i-assumptions-and-mixing-ratio-extraction]] - `sigma/I` 假设、alignment / feeding / deorientation 边界与 P-ADO `delta` 提取动机的小型 writing-support synthesis。
 - [[gamma-soft-vs-gamma-rigid-diagnostics]] - γ-soft 的低能判据、形状相变、配对-三轴耦合、`136Sm` 形变演化与 low-spin 外推边界。
+- [[shape-observable-matrix]] - γ-band staggering、B(E2)、静态矩、带间连接、E0/E3 与形状共存的可支持命题及证据边界。
 - [[low-spin-wobbling-gamma-soft-deformation-and-alternative-interpretations]] - 连接 low-spin wobbling、γ-soft 背景、TiP/IBFM alternatives、共享实验判据与未来数据入口的阶段性综合。
 - [[chiral-rotation-from-aplanar-tac]] - 手征对称性框架与实验限制。
 - [[wobbling-vs-signature-partner]] - 以电磁跃迁优先的判别矩阵。
