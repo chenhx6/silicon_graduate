@@ -10,6 +10,7 @@
 # Raw data and private working material
 raw/zotero/wiki-inbox.bib
 raw/data/*
+raw/personal/.env
 !raw/data/.gitkeep
 raw/figures/*
 !raw/figures/.gitkeep
@@ -17,7 +18,6 @@ raw/personal/*
 !raw/personal/.gitkeep
 raw/papers/gpt/_incoming/*
 !raw/papers/gpt/_incoming/.gitkeep
-
 # Temporary and generated caches
 tmp/
 __pycache__/
