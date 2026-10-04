@@ -141,7 +141,8 @@
 - 边界检查：写前运行 python3 system/scripts/wiki_boundary_check.py --root .，exit 0，errors=0、warnings=0。
 - farmer：wiki_farmer.py status 显示 resumed session 正在运行；once --dry-run exit 0，actions=[]，用户请求停止没有触发自动故障续接。
 - Wiki lint：python3 system/scripts/wiki_lint.py --fail-on error，exit 0，errors=0、warnings=91、info=1309。
-- git diff --check：当前工作树检查 exit 0；暂存后还会对精确文件集重跑。
+- git diff --check：工作树与首个精确暂存文件集检查均 exit 0。
 - 标题、单一 knowledge-writeback 块、3 个 anchor、4 个原子 locator、run-06 continuation prompt 和 Day 7 prompt 均已核验存在；原 run-01 中断回执和事件日志保留。
-- 首轮终态回执暂记 publish-pending，里程碑暂未递增。完成 Gitee 精确 refspec 发布后再将 receipt 置为 completed、counted 并把 next_day_index 推进到 7。
+- primary 发布门已通过：Gitee origin 的 fetch exit 0、origin/main ancestor 检查 exit 0、push dry-run exit 0、实际 HEAD:main push exit 0；branch main，commit subject 为 Complete DAY6 rotation-alignment-signature evidence study。
+- 推送成功后终态回执记为 completed/counted，里程碑推进到 next_day_index=7；原 run-01 中断回执与 scheduler stop 事件保留为历史。
 - Day 6 达到两槽证据饱和后停止。下一日提示：outputs/learning-daily/prompts/20261006-DAY7-collective-motion-oral-exam.md。

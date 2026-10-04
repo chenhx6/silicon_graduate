@@ -6,13 +6,13 @@ updated: 2026-10-05
 
 # 跨会话交接
 
-## Active handoff — 2026-10-05 Day 6 recovered; publication pending
+## Active handoff — 2026-10-05 Day 6 completed after resume
 
 DAY6 was resumed in the original Codex session `01a10816-f550-7003-bb53-8dfafc2c18a2` after a user-requested stop. Resume command: `codex resume 01a10816-f550-7003-bb53-8dfafc2c18a2 -C /workspace/wiki -s danger-full-access -a never`. The original run-01 interruption receipt and events remain preserved; closeout receipt: `outputs/learning-daily/20261005-DAY6-rotation-vibration-alignment-signature-run-06/run.json`.
 
-Report: `outputs/learning-daily/20261005-DAY6-rotation-vibration-alignment-signature.md`. Canonical writeback adds AW13-18 transition-midpoint frequency reconstruction and LU96-5 model-fit dependence, plus the A≈130 evidence-matrix boundary. Boundary exit 0; first Wiki lint exit 0 (0 errors, 91 warnings, 1309 info); first `git diff --check` exit 0. Continuation and DAY7 prompts exist. The milestone remains at `next_day_index=6` until the exact-path Gitee publication succeeds.
+Report: `outputs/learning-daily/20261005-DAY6-rotation-vibration-alignment-signature.md`. Canonical writeback adds AW13-18 transition-midpoint frequency reconstruction and LU96-5 model-fit dependence, plus the A≈130 evidence-matrix boundary. Boundary exit 0; Wiki lint exit 0 (0 errors, 91 warnings, 1309 info); `git diff --check` exit 0. Primary DAY6 content was published to Gitee origin on branch `main` with subject `Complete DAY6 rotation-alignment-signature evidence study`, exact refspec `HEAD:main`, push exit 0. Terminal receipt is `outputs/learning-daily/20261005-DAY6-rotation-vibration-alignment-signature-run-06/run.json`; milestone now advances to `next_day_index=7`.
 
-Pending publication: commit subject `Complete DAY6 rotation-alignment-signature evidence study` on `main`; use the configured Gitee `origin`, fetch `main`, verify ancestry, run push dry-run, then push exact non-force refspec `HEAD:main`. Preserve the inherited run-01 directory, original Day 6 prompt, `tmp/` renders and all raw inputs out of the index.
+Preserved the inherited run-01 directory, original Day 6 prompt, `tmp/` renders and raw inputs outside the staged file set. The closeout receipt and milestone reconciliation use commit subject `Reconcile DAY6 receipt, milestone, and publication status`; its publication outcome is recorded in the final run recap.
 
 ## DAY6 initial stop record — 2026-10-05
 

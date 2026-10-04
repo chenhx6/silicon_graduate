@@ -36,8 +36,8 @@
   "resume_command_copy": "codex resume 01a10816-f550-7003-bb53-8dfafc2c18a2 -C /workspace/wiki -s danger-full-access -a never",
   "started_at": "2026-10-05T02:04:39.749136+08:00",
   "resumed_at": "2026-10-05T03:39:55+08:00",
-  "status": "publish-pending",
-  "counted_in_substantive_test": false,
+  "status": "completed",
+  "counted_in_substantive_test": true,
   "continuation_count": 1,
   "original_run_status": "interrupted",
   "original_runner_exit_code": null,
@@ -53,7 +53,9 @@
     "planned_closeout_at": "2026-10-06T15:00:00+08:00",
     "next_day_index": 7,
     "next_prompt_exists": true,
-    "study_window_ended_early": true
+    "study_window_ended_early": true,
+    "actual_closeout_at": "2026-10-05T03:56:32+08:00",
+    "next_prompt_file": "/workspace/wiki/outputs/learning-daily/prompts/20261006-DAY7-collective-motion-oral-exam.md"
   },
   "checks": {
     "recovered_same_session": true,
@@ -71,12 +73,37 @@
     "next_prompt_exists": true,
     "farmer_dry_run_exit": 0,
     "farmer_recovery_actions": 0,
-    "scientific_audit_passed": true
+    "scientific_audit_passed": true,
+    "git_cached_diff_check_exit": 0,
+    "report_relative_links_valid": true,
+    "primary_publication_passed": true
   },
   "git": {
     "branch": "main",
     "commit_subject": "Complete DAY6 rotation-alignment-signature evidence study",
-    "publication_gate": "pending exact-path staging, fetch, ancestor check, push dry-run and non-force push"
+    "commit_hash": "3d65ae3721bce8d8e687c97105164129b423ca73",
+    "remote": "origin (Gitee)",
+    "push_refspec": "HEAD:main",
+    "fetch_exit": 0,
+    "origin_ancestor_exit": 0,
+    "push_dry_run_exit": 0,
+    "push_exit": 0,
+    "push_outcome": "pushed",
+    "commit_hash_storage": "primary commit hash recorded in this task receipt; no hash embedded in the primary commit"
   },
-  "prepared_at": "2026-10-05T03:39:55+08:00"
+  "prepared_at": "2026-10-05T03:39:55+08:00",
+  "finished_at": "2026-10-05T03:56:32+08:00",
+  "manual_reconciled_at": "2026-10-05T03:56:32+08:00",
+  "exit_code": 0,
+  "failure_reason": null,
+  "manual_reconciliation": {
+    "kind": "terminal receipt reconciliation after user-resumed interrupted scheduled session",
+    "original_run_status": "interrupted",
+    "runner_terminal_event_missing": true,
+    "runner_exit_code_observed": false,
+    "session_id": "01a10816-f550-7003-bb53-8dfafc2c18a2",
+    "session_reuse": true,
+    "reason": "The original session was resumed after a user-requested stop; the two selected candidate slots reached evidence saturation, required checks passed, and primary Gitee publication succeeded."
+  },
+  "reconciliation_commit_subject": "Reconcile DAY6 receipt, milestone, and publication status"
 }
