@@ -3,7 +3,7 @@ type: source
 title: "Liu et al. 1996 - Spin assignments and signature inversion of pi h11/2 times nu h11/2 bands"
 aliases: [Liu 1996 signature inversion A130]
 created: 2026-09-21
-updated: 2026-09-21
+updated: 2026-10-05
 status: ai-draft
 review_status: unreviewed
 source_type: systematics-and-particle-triaxial-rotor-comparison
@@ -58,6 +58,7 @@ tags: [signature-inversion, A130, h11/2, spin-assignment, triaxial-rotor]
 | LU96-2 | Revised assignments make low-spin signature inversion systematic in the discussed `πh11/2⊗νh11/2` bands. | systematics-result | mixed | PDF pp.728–729, Fig.15 | true |
 | LU96-3 | Particle–triaxial-rotor calculations agree with inversion trends only after the revised spin crosswalk. | model-comparison | mixed | PDF pp.729–730 | true |
 | LU96-4 | Cs reference assignments remain mutually incompatible/undetermined. | unresolved-boundary | direct | PDF pp.723–730, Tables II | false |
+| LU96-5 | The agreement of Tajima's Cs inversion-spin calculation with the `124Cs I0=7` reference is not independent validation of that spin anchor: the model parameters were fitted to the same `124Cs` band using `I0=7`. | model-dependence-boundary | direct | PDF p.729, Sec. VI.C | true |
 
 ## Summary
 
@@ -68,6 +69,7 @@ Liu *et al.* show that signature-inversion systematics and spin assignments are 
 - The method assumes smooth level-energy trends and similarity of band structures across isotopic/isotonic chains; this is a model/systematics prior, not an independent spin measurement.
 - Cs chains have insufficient mutually consistent anchors; the paper presents alternatives rather than a final assignment.
 - Particle–triaxial-rotor agreement depends on fitted parameters and the revised spin choices; it does not uniquely establish a triaxial shape.
+- Tajima's calculated `I_inv` values agree with the Cs systematics based on `124Cs I0=7`, but the paper states that the calculation parameters were fitted to that same `124Cs` band and spin assignment (PDF p.729, Sec. VI.C); this agreement is not an independent spin anchor.
 
 ## Analytical Reconstruction and Self-Audit
 

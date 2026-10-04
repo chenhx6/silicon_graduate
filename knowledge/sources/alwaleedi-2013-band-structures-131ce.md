@@ -3,7 +3,7 @@ type: source
 title: Band Structures of 131Ce
 aliases: [Alwaleedi 2013 131Ce thesis]
 created: 2026-07-27
-updated: 2026-09-05
+updated: 2026-10-05
 status: active
 review_status: unreviewed
 source_type: phd-thesis-experiment
@@ -97,6 +97,7 @@ Mohammed Abdullah Alwaleedi，*Band Structures of 131Ce*，University of Liverpo
 | AW13-15 | Table 4.2 的 Band 1 dipole row reports `Eγ=137.4 keV`, `Iγ=68.3±3.2`, `R=0.50±0.04`, assigned `11/2−→9/2−` as M1/E2. | experimental-fact | direct | PDF p.64, Table 4.2 | true |
 | AW13-16 | Table 4.4 的 Band 4 dipole row reports `Eγ=611.1 keV`, `Iγ=25.2±1.1`, `R=0.56±0.02`, assigned `17/2−→15/2−` as M1/E2; the text identifies this as a new Band 4→Band 1 feeding/linking transition. | experimental-fact | direct | PDF pp.61, 66, Table 4.4; Fig.4.5 | true |
 | AW13-17 | Table 4.3 的 Band 7 quadrupole row reports `Eγ=950.3 keV`, `Iγ=24.3±1.4`, `R=1.01±0.03`, assigned `29/2−→25/2−` as E2. | experimental-fact | direct | PDF p.65, Table 4.3 | true |
+| AW13-18 | For a ΔI=2 transition, Eq. (2.25) evaluates the rotational frequency as `ℏω=Eγ/2`; applying it to Band 1 Table 4.1 gives transition-midpoint points `15/2→11/2: 0.25395 MeV`, `19/2→15/2: 0.32060 MeV`, `23/2→19/2: 0.37465 MeV`, `27/2→23/2: 0.41270 MeV`, `31/2→27/2: 0.39030 MeV`, and `35/2→31/2: 0.34570 MeV`. Table 4.1 does not print energy uncertainties for these rows. | derived-observable | derived | Eq. (2.25), thesis p.26; Table 4.1, thesis p.63 | true |
 
 ## Nuclear Structure Information
 

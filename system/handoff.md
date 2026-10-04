@@ -1,12 +1,26 @@
 ---
 type: system-handoff
 graph-excluded: true
-updated: 2026-10-03
+updated: 2026-10-05
 ---
 
 # 跨会话交接
 
-## Active handoff — 2026-10-03 Day 5 completed
+## Active handoff — 2026-10-05 Day 6 recovered; publication pending
+
+DAY6 was resumed in the original Codex session `01a10816-f550-7003-bb53-8dfafc2c18a2` after a user-requested stop. Resume command: `codex resume 01a10816-f550-7003-bb53-8dfafc2c18a2 -C /workspace/wiki -s danger-full-access -a never`. The original run-01 interruption receipt and events remain preserved; closeout receipt: `outputs/learning-daily/20261005-DAY6-rotation-vibration-alignment-signature-run-06/run.json`.
+
+Report: `outputs/learning-daily/20261005-DAY6-rotation-vibration-alignment-signature.md`. Canonical writeback adds AW13-18 transition-midpoint frequency reconstruction and LU96-5 model-fit dependence, plus the A≈130 evidence-matrix boundary. Boundary exit 0; first Wiki lint exit 0 (0 errors, 91 warnings, 1309 info); first `git diff --check` exit 0. Continuation and DAY7 prompts exist. The milestone remains at `next_day_index=6` until the exact-path Gitee publication succeeds.
+
+Pending publication: commit subject `Complete DAY6 rotation-alignment-signature evidence study` on `main`; use the configured Gitee `origin`, fetch `main`, verify ancestry, run push dry-run, then push exact non-force refspec `HEAD:main`. Preserve the inherited run-01 directory, original Day 6 prompt, `tmp/` renders and all raw inputs out of the index.
+
+## DAY6 initial stop record — 2026-10-05
+
+DAY6 run 2026-10-05-day-06-01 was started at 2026-10-05 02:04 Asia/Shanghai, then stopped at the user's request. Codex session 01a10816-f550-7003-bb53-8dfafc2c18a2 is now idle after the stop confirmation; resume command: codex resume 01a10816-f550-7003-bb53-8dfafc2c18a2 -C /workspace/wiki -s danger-full-access -a never. The foreground runner no longer exists and its terminal event was missing, so the receipt and scheduler state were reconciled as interrupted with no observed runner exit code.
+
+DAY6 is not counted: the report, knowledge writeback, required checks and publication did not complete. The session inspected Liu 1996 and started checking the 131Ba Ma 1990 route, but produced no daily report or knowledge-page changes. The date-adjusted prompt and run artifacts remain under outputs/learning-daily/; temporary renderings were left untouched. The substantive milestone remains next_day_index=6. If the user resumes DAY6, inspect the partial events and current artifacts before continuing; do not treat the partial source review as completed evidence.
+
+## Previous active handoff — 2026-10-03 Day 5 completed
 
 Day 5 catch-up is complete by evidence saturation and manual runner reconciliation. The scheduled 2026-10-01 trigger was missed; the study ran on 2026-10-03 and still counts as Day 5. Session `01a0ffe6-1332-7ed2-87f0-6a0722bc4a06`; resume with `codex resume 01a0ffe6-1332-7ed2-87f0-6a0722bc4a06 -C /workspace/wiki -s danger-full-access -a never`. Report: `outputs/learning-daily/20261003-DAY5-beta-gamma-octupole-shape-coexistence.md`. Initial run-01 is preserved as `recovered-continuation`; completed manual terminal receipt: `outputs/learning-daily/20261003-DAY5-beta-gamma-octupole-shape-coexistence-run-02/run.json`.
 
