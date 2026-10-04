@@ -7,17 +7,9 @@
 *.mat
 *.npy
 
-# Raw data and private working material
-raw/zotero/wiki-inbox.bib
-raw/data/*
-raw/personal/.env
-!raw/data/.gitkeep
-raw/figures/*
-!raw/figures/.gitkeep
-raw/personal/*
-!raw/personal/.gitkeep
-raw/papers/gpt/_incoming/*
-!raw/papers/gpt/_incoming/.gitkeep
+# Raw originals stay local; keep one empty root marker for the path contract.
+raw/**
+!raw/.gitkeep
 # Temporary and generated caches
 tmp/
 __pycache__/
@@ -38,11 +30,6 @@ AGENTS.local.md
 .obsidian/cache/
 .obsidian/plugins/
 
-/raw/writing/
-
-# Local paper comment/review Markdown (kept outside Git tracking)
-raw/notes/comment/**/*.md
-
 # Local prompt drafts
 prompt/
 docs/
@@ -55,10 +42,6 @@ outputs/learning-milestones/2026-09-one-month-scheduler-state.json
 # Local dissertation extraction and visual-QA scratch directories
 /.degree-read-tmp-*/
 /.degree-read-visual-*/
-
-# Local raw reading ledger and acquisition manifest; canonical source metadata lives in knowledge/
-raw/high-spin-reading-record.md
-raw/papers/gpt/high-spin-20260920/external-146ba/manifest.json
 
 # Accidental session-id copy saved under the plans directory
 outputs/plans/2026-09-10-degree-dissertation-corpus-ingest copy.md
