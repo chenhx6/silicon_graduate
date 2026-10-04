@@ -1,0 +1,52 @@
+{
+  "version": 2,
+  "generated_at": "2026-09-29T14:41:50.004Z",
+  "request": {
+    "topic": "",
+    "title": "",
+    "dois": [
+      "10.1016/j.nuclphysa.2026.123419"
+    ],
+    "pdf_url": "",
+    "si_requested": false,
+    "language_override": "",
+    "route_override": "open_access",
+    "source_url": "",
+    "api_fallback_web": null,
+    "api_fallback_web_for": [],
+    "no_api_fallback_web_for": []
+  },
+  "summary": {
+    "total": 1,
+    "downloaded": 0,
+    "seconds": 3
+  },
+  "results": [
+    {
+      "doi": "10.1016/j.nuclphysa.2026.123419",
+      "title": "Microscopic investigations of chiral rotation in 128−134La odd-odd nuclei using triaxial projected shell model",
+      "language": "en",
+      "publisher": "Elsevier BV",
+      "route": "open_access",
+      "route_reason": "explicit_override",
+      "si_requested": false,
+      "status": "oa_not_found",
+      "provider": "open_access",
+      "oaAssessment": "confirmed_oa",
+      "oaChecks": {
+        "pmc": {
+          "checked": true,
+          "pmcid": "",
+          "error": ""
+        },
+        "unpaywall": {
+          "checked": false,
+          "error": "",
+          "is_oa": null
+        },
+        "crossref_license": "https://www.elsevier.com/tdm/userlicense/1.0/"
+      },
+      "oaAttempts": []
+    }
+  ]
+}

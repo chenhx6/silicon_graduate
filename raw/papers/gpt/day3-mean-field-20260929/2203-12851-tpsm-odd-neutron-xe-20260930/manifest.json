@@ -1,0 +1,41 @@
+{
+  "version": 2,
+  "generated_at": "2026-09-30T02:24:25.796Z",
+  "request": {
+    "topic": "",
+    "title": "Extended triaxial projected shell model approach for odd-neutron nuclei",
+    "dois": [],
+    "pdf_url": "https://arxiv.org/pdf/2203.12851",
+    "si_requested": false,
+    "language_override": "",
+    "route_override": "",
+    "source_url": "",
+    "api_fallback_web": null,
+    "api_fallback_web_for": [],
+    "no_api_fallback_web_for": []
+  },
+  "summary": {
+    "total": 1,
+    "downloaded": 1,
+    "seconds": 0.8
+  },
+  "results": [
+    {
+      "title": "Extended triaxial projected shell model approach for odd-neutron nuclei",
+      "status": "open_access_downloaded",
+      "provider": "direct_url",
+      "accessMode": "open_access",
+      "ok": true,
+      "file": "raw/papers/gpt/day3-mean-field-20260929/2203-12851-tpsm-odd-neutron-xe-20260930/PDFs/Extended_triaxial_projected_shell_model_approach_for_odd-neutron_nuclei.pdf",
+      "bytes": 790443,
+      "sha256": "2c2d428aa5d82b8951d8f927bc11ccd9d30ed791fd55d488ea9cfcfb6372dea5",
+      "contentType": "application/pdf",
+      "format": "pdf",
+      "source": "https://arxiv.org/pdf/2203.12851",
+      "si_requested": false,
+      "doi": "10.1103/PhysRevC.105.054310",
+      "arxiv": "2203.12851v1",
+      "version_note": "Crossref and OpenAlex metadata verified; arXiv API query timed out, publisher DOI identifies the same article."
+    }
+  ]
+}
