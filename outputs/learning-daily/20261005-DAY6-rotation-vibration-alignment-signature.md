@@ -220,5 +220,6 @@
 - `git diff --check` 和 `git diff --cached --check` 均 exit 0；staged name-status 已复核为 17 个本轮 task-owned paths。继承的 run-01 事件/回执、旧 DAY6 prompt 与 raw/tmp 材料均未暂存。
 - 标题、单一 knowledge-writeback 块、3 个 anchor、4 个原子 locator、run-06 continuation prompt、Day 7 scorecard/REFLECT 和逐卡审计已核验；当前恢复回执与 continuation prompt 见 [run-07 receipt](20261005-DAY6-rotation-vibration-alignment-signature-run-07/run.json) 和 [run-07 continuation](20261005-DAY6-rotation-vibration-alignment-signature-run-07/continuation-prompt.md)。原 run-01 中断回执和事件日志保留。
 - primary 发布门已通过：Gitee origin 的 fetch exit 0、origin/main ancestor 检查 exit 0、push dry-run exit 0、实际 HEAD:main push exit 0；branch main，commit subject 为 Complete DAY6 rotation-alignment-signature evidence study。
+- 本轮通用时间门更新也已通过 Gitee 发布门：branch `main`，commit subject `Apply time-aware daily-learning closeout gate`，fetch/ancestry/dry-run/push 均 exit 0，refspec `HEAD:main`。
 - run-06 的原始 receipt 记有报告、知识写回、lint/diff 和 Gitee 发布通过，但也记有两槽局部饱和后提前停止。用户修订了停止约定后，Day 6/7 卡内容已完成；schedule-level 学习窗口仍开放至 `2026-10-06T15:00:00+08:00`。这不是最终 closeout，也未把 Day 8 提前记为完成。
 - 续接命令仍为 `codex resume 01a10816-f550-7003-bb53-8dfafc2c18a2 -C /workspace/wiki -s danger-full-access -a never`。下一 continuation 应读取 fresh clock snapshot，先重排剩余候选；硬截止到达后才做最终日报/检查/回执/Day 8 prompt 与发布收尾。

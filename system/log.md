@@ -1478,3 +1478,8 @@ updated: 2026-07-15
 - Implemented a schedule-wide clock check for all 30-day cards: continue while useful time remains, check the next eligible card after local saturation, stop new research at the per-run hard deadline, and use the reserved hour for final closeout.
 - Runner now preserves resumability at its continuation cap, persists every fresh continuation prompt/snapshot, validates contiguous completed/partial cards and card audits, and advances only fully completed curriculum cards. Existing Day 7 preview prompt will receive the same shared gate.
 - DAY6 original artifacts, run-01 stop history, and canonical writebacks are preserved; the prior run-06 early-stop record remains historical while the resumed session proceeds under the corrected rule. Verification and Gitee publication are pending.
+
+## [2026-10-05] daily-learning | publish universal closeout gate
+
+- Boundary check exit 0; Wiki lint exit 0 (0 errors, 91 warnings, 1309 info); runner compile exit 0; runner unittest exit 0 (35 tests); report heading/coverage validation and `git diff --check` exit 0.
+- Published branch `main`, subject `Apply time-aware daily-learning closeout gate`, exact refspec `HEAD:main`; fresh fetch, remote-ancestor, dry-run and push all exited 0. Day 6/7 schedule-level closeout remains open until 2026-10-06 15:00 Asia/Shanghai.

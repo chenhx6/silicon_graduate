@@ -59,7 +59,18 @@
     "python_compile_exit": 0,
     "runner_unittests": "35 passed",
     "final_closeout_checks_pending": true,
-    "publication_for_this_continuation": "pending"
+    "publication_for_this_continuation": "pushed"
   },
-  "prepared_prompt_preview": "outputs/learning-daily/prompts/20261006-DAY7-collective-motion-oral-exam.md"
+  "prepared_prompt_preview": "outputs/learning-daily/prompts/20261006-DAY7-collective-motion-oral-exam.md",
+  "policy_publication": {
+    "branch": "main",
+    "commit_subject": "Apply time-aware daily-learning closeout gate",
+    "remote": "origin (Gitee)",
+    "refspec": "HEAD:main",
+    "fetch_exit": 0,
+    "origin_ancestor_exit": 0,
+    "push_dry_run_exit": 0,
+    "push_exit": 0,
+    "push_outcome": "pushed"
+  }
 }
