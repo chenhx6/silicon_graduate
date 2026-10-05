@@ -11,8 +11,9 @@
 - 当前 prompt 和 continuous-learning workflow 已要求 runner 在同一 session 中续跑到截止时间，并将 15:00–16:00 留给日报、写回和验证。
 - run_daily_learning.py 已有按 overnight_until 循环调用 resume 的机制；但 continuation 模板允许以“证据确实饱和”提前收束，没有明确要求先核对剩余时间、继续当前问题或前移下一天任务。
 - 若原 runner/session 中断后由用户直接恢复 Codex session，父 runner 的时间循环不再运行；恢复后的手动回合需要独立执行相同的时间门。
-- DAY6 回执记录原 runner 被用户停止，随后同一 session 手动恢复，03:56（2026-10-05，Asia/Shanghai）完成；回执 overnight_until 是 2026-10-06 15:00，因此当时仍有约 35 小时的计划窗口。当天 scheduler 已记 last_scheduled_date=2026-10-05，daemon 下一次 16:00 触发应为 2026-10-06。
-- 用户举出的“次日 04:00 结束、15:00 收束、16:00 下次开始”是正常前一日 16:00 启动情形：研究余量 11 小时、下一次启动间隔 12 小时。它不同于 DAY6 实际的手动启动日期。本方案所有决策均以 receipt 的 deadline 和 scheduler 的 last_scheduled_date/next_due 为准，不从 run_date 猜算。
+- 按用户校正的口径，Day 6 在 10 月 5 日 02:00 左右启动，原定 10 月 6 日 15:00 收束，约 37 小时；下次 schedule 为 10 月 6 日 16:00，约 38 小时后。
+- 回执精确记录 02:04:39 启动、overnight_until=10 月 6 日 15:00，启动至截止约 36 小时 55 分；同一 session 实际 03:56:32 提前完成，距截止仍约 35 小时 03 分。scheduler 的 last_scheduled_date=2026-10-05，因此 next_due 是 10 月 6 日 16:00。计划统一以 receipt deadline 和 scheduler last_scheduled_date/next_due 为准，不从 run_date 猜算。
+- 计划编写时刻为 10 月 5 日约 14:56；距离原 run deadline 约 24 小时，距离下次 schedule 约 25 小时。DAY6 已是 completed/published；本方案不回开或改计 DAY6，适用于后续 scheduled-learning run。
 - DAY6 实际完成 03:56 时，距回执 deadline（次日15:00）约35小时；离 daemon 的下一次 10月6日16:00 触发约36小时。规划时的当前时间约为10月5日14:56，距该 deadline 约24小时、距下一次 schedule 约25小时。receipt 已 completed/published；本方案只适用于后续运行，不回开或改计 DAY6。
 
 ## 推荐策略
