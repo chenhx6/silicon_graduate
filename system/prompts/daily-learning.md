@@ -44,6 +44,47 @@ explicit `--until` overrides that date-based default.
 At 15:00, stop opening new research routes and begin closeout. Do not use the closeout
 hour to start another substantive source or problem.
 
+<!-- DAILY_LEARNING_TIME_GATE_V1 -->
+## Time-aware continuation and closeout gate
+
+When a problem, source batch, or candidate slot reaches evidence saturation, do not
+finalize the daily run from that fact alone. Read the runner's latest Runtime schedule
+snapshot. In a manual resume without a fresh snapshot, call the current-time tool in
+Asia/Shanghai and compare with the original receipt's overnight_until.
+
+- At least 120 minutes before the hard deadline: continue the current issue; if both
+  selected slots are saturated, inspect the next uncompleted Day card and complete it
+  only when its full deliverables fit the remaining window.
+- 90–119 minutes before the hard deadline: continue the current issue or do one bounded
+  preview from the next card; do not claim a full next-card credit.
+- Under 90 minutes: do not open a new source or full card; finish the current bounded
+  analysis. At the hard deadline, stop research and use the 15:00–16:00 buffer only for
+  closeout.
+- Do not finish early while a next Day card remains eligible and the runtime snapshot
+  shows a substantive window. Candidate-pool saturation is local to a problem; the
+  schedule-level stop also checks the next uncompleted card.
+- A user-requested stop, session cancellation, permission/data boundary, or runtime
+  failure remains an immediate hard stop. Never auto-restart after a user stop.
+
+<!-- DAILY_LEARNING_CURRICULUM_COVERAGE_V1 -->
+For any substantive daily report, include these exact lines under ## Run state:
+
+- completed_day_indices: [N, ...]
+- partial_day_indices: [N, ...]
+
+List completed cards contiguously beginning with the requested day. A partially
+previewed card goes only in partial_day_indices and receives no course credit. One run
+may fully complete its requested card plus the immediately following card. Day 7 credit
+requires a `- Day 7 card audit: complete` line and a `### Day 7 card completion audit`
+table with at least four completed deliverables and exact evidence locators; it also
+requires a six-row scorecard (0–4 in each row) and a non-empty weekly REFLECT;
+when complete, include the audit lines “- Day 7 scorecard: complete” and
+“- Day 7 weekly REFLECT: complete”. Keep the report's single knowledge-writeback block.
+For every other completed card, include `- Day N card audit: complete` under Run state
+and a `### Day N card completion audit` table that maps at least four Day-matrix
+deliverables to evidence/artifacts, with every row marked `complete`. A preview may not
+claim this audit or advance the curriculum state.
+
 ## Non-negotiable boundaries
 
 1. Work only inside `/workspace/wiki`.

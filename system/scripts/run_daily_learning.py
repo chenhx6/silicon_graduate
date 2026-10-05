@@ -31,6 +31,13 @@ TIMEZONE = ZoneInfo("Asia/Shanghai")
 TOTAL_DAYS = 30
 CYCLE_NAME = "2026-09-30-day-substantive"
 DEFAULT_CLOSEOUT_TIME = "15:00"
+DEFAULT_SCHEDULE_START_TIME = "16:00"
+MIN_CURRENT_STUDY_BLOCK_MINUTES = 90
+MIN_FORWARD_CARD_BLOCK_MINUTES = 120
+RUNTIME_SNAPSHOT_START = "<!-- DAILY_LEARNING_RUNTIME_SNAPSHOT_START -->"
+RUNTIME_SNAPSHOT_END = "<!-- DAILY_LEARNING_RUNTIME_SNAPSHOT_END -->"
+CURRICULUM_COVERAGE_MARKER = "<!-- DAILY_LEARNING_CURRICULUM_COVERAGE_V1 -->"
+TIME_GATE_CONTRACT_MARKER = "<!-- DAILY_LEARNING_TIME_GATE_V1 -->"
 SCHEDULE_ID = "wiki-daily-learning"
 SCHEDULE_NAME = "Wiki 30-day substantive daily learning"
 SESSION_MODE = "new-session-per-run"
@@ -384,6 +391,356 @@ def planned_closeout_for_run_date(run_date: str) -> datetime:
     return datetime.combine(run_day + timedelta(days=1), time(hour, minute), tzinfo=TIMEZONE)
 
 
+def next_scheduled_start_for_run_date(run_date: str) -> datetime:
+    """Return the next daily 16:00 trigger after this run's scheduled date."""
+
+    run_day = datetime.fromisoformat(run_date).date()
+    hour, minute = (int(part) for part in DEFAULT_SCHEDULE_START_TIME.split(":"))
+    return datetime.combine(run_day + timedelta(days=1), time(hour, minute), tzinfo=TIMEZONE)
+
+
+def closeout_snapshot(
+    now: datetime,
+    deadline: datetime,
+    next_scheduled_start: datetime,
+    minimum_current_block_minutes: int = MIN_CURRENT_STUDY_BLOCK_MINUTES,
+    minimum_forward_card_block_minutes: int = MIN_FORWARD_CARD_BLOCK_MINUTES,
+) -> dict[str, Any]:
+    """Describe the useful study runway without conflating it with the next trigger."""
+
+    if now.tzinfo is None or deadline.tzinfo is None or next_scheduled_start.tzinfo is None:
+        raise ValueError("now, deadline, and next_scheduled_start must be timezone-aware")
+    if minimum_current_block_minutes < 0 or minimum_forward_card_block_minutes < 0:
+        raise ValueError("minimum study block minutes must be non-negative")
+    current = now.astimezone(TIMEZONE)
+    hard_deadline = deadline.astimezone(TIMEZONE)
+    next_start = next_scheduled_start.astimezone(TIMEZONE)
+    remaining_minutes = int((hard_deadline - current).total_seconds() // 60)
+    next_start_gap_minutes = int((next_start - current).total_seconds() // 60)
+    can_continue_current = current < hard_deadline and remaining_minutes >= minimum_current_block_minutes
+    can_complete_forward_card = (
+        current < hard_deadline and remaining_minutes >= minimum_forward_card_block_minutes
+    )
+    if current >= hard_deadline:
+        decision = "closeout-only"
+    elif can_complete_forward_card:
+        decision = "continue-or-advance"
+    elif can_continue_current:
+        decision = "continue-current-or-partial"
+    else:
+        decision = "finish-current-no-new-unit"
+    return {
+        "now_local": current.isoformat(),
+        "hard_deadline": hard_deadline.isoformat(),
+        "next_scheduled_start": next_start.isoformat(),
+        "minutes_to_deadline": remaining_minutes,
+        "minutes_to_next_start": next_start_gap_minutes,
+        "minimum_current_block_minutes": minimum_current_block_minutes,
+        "minimum_forward_card_block_minutes": minimum_forward_card_block_minutes,
+        "can_continue_current": can_continue_current,
+        "can_complete_forward_card": can_complete_forward_card,
+        "decision": decision,
+    }
+
+
+def format_runtime_schedule_snapshot(
+    snapshot: dict[str, Any],
+    day_index: int,
+    next_day_index: int | None = None,
+) -> str:
+    next_day = (
+        next_day_index
+        if next_day_index is not None
+        else day_index + 1 if day_index < TOTAL_DAYS else None
+    )
+    if next_day is not None and not 1 <= next_day <= TOTAL_DAYS:
+        next_day = None
+    forward_line = (
+        f"- Next card candidate: Day {next_day} ({day_topic(next_day)})."
+        if next_day is not None
+        else "- Next card candidate: none; Day 30 is the final card."
+    )
+    if next_day is not None and next_day > day_index + 1:
+        forward_instruction = (
+            "The requested card and its immediate forward card are already complete. This run may credit only those contiguous cards; do not credit another card. Continue a bounded high-value issue or preview without advancing the curriculum."
+        )
+    else:
+        forward_instruction = (
+            "If closeout_decision is continue-or-advance, continue the current high-value issue; if both selected slots are saturated, inspect the next card and complete it only if its full deliverable fits the window."
+        )
+    return "\n".join(
+        (
+            RUNTIME_SNAPSHOT_START,
+            "## Runtime schedule snapshot",
+            f"- now_local: {snapshot['now_local']}",
+            f"- hard_deadline: {snapshot['hard_deadline']}",
+            f"- next_scheduled_start: {snapshot['next_scheduled_start']}",
+            f"- minutes_to_deadline: {snapshot['minutes_to_deadline']}",
+            f"- minutes_to_next_start: {snapshot['minutes_to_next_start']}",
+            f"- closeout_decision: {snapshot['decision']}",
+            forward_line,
+            forward_instruction,
+            "If closeout_decision is continue-current-or-partial, stay within the current issue or do one bounded preview; do not claim a whole next card.",
+            "If closeout_decision is finish-current-no-new-unit, finish only the current bounded analysis and do not open another source/card. If it is closeout-only, stop research and finalize.",
+            "Before ending early for evidence saturation, refresh the clock and candidate pool; saturation of the two selected slots alone is not schedule-level saturation while a viable next-card route remains.",
+            RUNTIME_SNAPSHOT_END,
+        )
+    )
+
+
+def ensure_curriculum_coverage_contract(prompt: str) -> str:
+    if CURRICULUM_COVERAGE_MARKER in prompt:
+        return prompt
+    contract = "\n".join(
+        (
+            CURRICULUM_COVERAGE_MARKER,
+            "## Curriculum card completion record",
+            "In the report's Run state include exactly these two machine-readable list lines:",
+            "- completed_day_indices: [N, ...]",
+            "- partial_day_indices: [N, ...]",
+            "Count a card only after every deliverable on that Day card is complete. For every completed day, add `- Day N card audit: complete` under Run state and a `### Day N card completion audit` table with at least four Day-matrix deliverables, each linked to an evidence locator/artifact and marked complete. Partial previews go only in partial_day_indices. List cards contiguously from the requested day; at most one next-day card may be advanced in one run.",
+            "For a completed Day 7 card also include these exact audit lines:",
+            "- Day 7 scorecard: complete",
+            "- Day 7 weekly REFLECT: complete",
+            "",
+        )
+    )
+    return prompt.rstrip() + "\n\n" + contract
+
+
+def ensure_schedule_gate_contract(prompt: str) -> str:
+    if TIME_GATE_CONTRACT_MARKER in prompt:
+        return prompt
+    contract = "\n".join(
+        (
+            TIME_GATE_CONTRACT_MARKER,
+            "## 时间判断与学习收束",
+            "候选问题或来源达到局部证据饱和时，先读取最新 Runtime schedule snapshot；手动恢复且没有新快照时，调用当前时间工具，并按 Asia/Shanghai 与回执中的 overnight_until 比较。",
+            "距离硬截止至少 120 分钟：继续当前高信息问题；若当前选定问题已饱和，检查下一张未完成日卡，只有其全部交付项能在剩余时段完成时才整卡前移。",
+            "距离硬截止 90–119 分钟：继续当前问题或做有边界的预览，不给下一日卡完整学分。少于 90 分钟：不打开新来源或新卡，只完成当前分析。硬截止后停止研究，用 15:00–16:00 收束。",
+            "不能仅因两个候选槽位饱和而提前结束；须重建候选池、检查下一张可行日卡，并记录时间快照和决定。用户明确停止、硬证据/数据/权限阻塞或运行故障可提前结束，但必须保留未完成状态和续接命令。",
+            "每次调用生成的新 Runtime snapshot 优先于本文件中的旧快照。课程学分只沿连续完整日卡推进；部分预览不得推进 next_day_index。",
+            "",
+        )
+    )
+    return prompt.rstrip() + "\n\n" + contract
+
+
+def inject_runtime_schedule_snapshot(
+    prompt: str,
+    snapshot: dict[str, Any],
+    day_index: int,
+    next_day_index: int | None = None,
+) -> str:
+    block = format_runtime_schedule_snapshot(snapshot, day_index, next_day_index)
+    pattern = re.compile(
+        re.escape(RUNTIME_SNAPSHOT_START) + r".*?" + re.escape(RUNTIME_SNAPSHOT_END),
+        flags=re.DOTALL,
+    )
+    prompt = pattern.sub("", prompt).rstrip()
+    return prompt + "\n\n" + block + "\n"
+
+
+def continuation_limit_reached(
+    continuation_count: int,
+    max_continuations: int,
+    now: datetime,
+    deadline: datetime,
+) -> bool:
+    """A continuation cap before the hard deadline is not a completed study window."""
+
+    if continuation_count < 0 or max_continuations < 0:
+        raise ValueError("continuation counts must be non-negative")
+    if now.tzinfo is None or deadline.tzinfo is None:
+        raise ValueError("now and deadline must be timezone-aware")
+    return continuation_count >= max_continuations and now.astimezone(TIMEZONE) < deadline.astimezone(TIMEZONE)
+
+
+def closeout_window_end(deadline: datetime) -> datetime:
+    if deadline.tzinfo is None:
+        raise ValueError("deadline must be timezone-aware")
+    return deadline.astimezone(TIMEZONE) + timedelta(hours=1)
+
+
+def should_run_closeout_turn(now: datetime, deadline: datetime) -> bool:
+    """Use the reserved hour after research cutoff for one no-new-research turn."""
+
+    if now.tzinfo is None or deadline.tzinfo is None:
+        raise ValueError("now and deadline must be timezone-aware")
+    current = now.astimezone(TIMEZONE)
+    hard_deadline = deadline.astimezone(TIMEZONE)
+    return hard_deadline <= current < closeout_window_end(hard_deadline)
+
+
+def next_continuation_action(
+    now: datetime,
+    deadline: datetime,
+    continuation_count: int,
+    max_continuations: int,
+    closeout_completed: bool,
+) -> str:
+    """Choose a study turn, roll over a bounded batch, close out, or finalize."""
+
+    if now.tzinfo is None or deadline.tzinfo is None:
+        raise ValueError("now and deadline must be timezone-aware")
+    current = now.astimezone(TIMEZONE)
+    hard_deadline = deadline.astimezone(TIMEZONE)
+    if current < hard_deadline:
+        if continuation_limit_reached(
+            continuation_count, max_continuations, current, hard_deadline
+        ):
+            return "rollover"
+        return "study"
+    return "finalize" if closeout_completed else "closeout"
+
+
+def parse_curriculum_coverage(report_text: str, starting_day_index: int) -> dict[str, Any]:
+    """Parse contiguous completed/partial curriculum cards from the Run state section."""
+
+    if not 1 <= starting_day_index <= TOTAL_DAYS:
+        return {"valid": False, "error": "starting day index is outside the 30-day plan"}
+
+    run_state_match = re.search(
+        r"(?ms)^## Run state\s*\n(.*?)(?=^## |\Z)", report_text
+    )
+    if not run_state_match:
+        return {"valid": False, "error": "curriculum coverage must be recorded under ## Run state"}
+    run_state_text = run_state_match.group(1)
+
+    def parse_list(field: str) -> list[int] | None:
+        match = re.search(rf"(?m)^- {re.escape(field)}: \[([0-9, ]*)\]\s*$", run_state_text)
+        if not match:
+            return None
+        payload = match.group(1).strip()
+        if not payload:
+            return []
+        try:
+            values = [int(value.strip()) for value in payload.split(",")]
+        except ValueError:
+            return None
+        return values
+
+    completed = parse_list("completed_day_indices")
+    partial = parse_list("partial_day_indices")
+    if completed is None or partial is None:
+        return {"valid": False, "error": "Run state must list completed_day_indices and partial_day_indices"}
+    if len(set(completed)) != len(completed) or len(set(partial)) != len(partial):
+        return {"valid": False, "error": "day card indices must not be duplicated"}
+    if any(not 1 <= day <= TOTAL_DAYS for day in completed + partial):
+        return {"valid": False, "error": "day card index is outside the 30-day plan"}
+    expected_completed = list(range(starting_day_index, starting_day_index + len(completed)))
+    if completed != expected_completed:
+        return {"valid": False, "error": "completed day cards must form a contiguous sequence from the requested day"}
+    expected_partial_day = starting_day_index + len(completed)
+    if partial and partial != [expected_partial_day]:
+        return {"valid": False, "error": "at most the first incomplete day card may be marked partial"}
+    if len(completed) > 2:
+        return {"valid": False, "error": "a single run may complete only its requested card and one forward card"}
+    if not completed and partial != [starting_day_index]:
+        return {"valid": False, "error": "the requested day must be completed or explicitly marked partial"}
+    for completed_day in completed:
+        audit_marker = f"- Day {completed_day} card audit: complete"
+        if audit_marker not in run_state_text:
+            return {
+                "valid": False,
+                "error": f"Day {completed_day} credit requires its card audit to be complete under ## Run state",
+            }
+        audit = re.search(
+            rf"(?ms)^### Day {completed_day} card completion audit\s*\n(.*?)(?=^### |^## |\Z)",
+            report_text,
+        )
+        if not audit:
+            return {
+                "valid": False,
+                "error": f"Day {completed_day} credit requires a card completion audit table",
+            }
+        audit_rows = [
+            line
+            for line in audit.group(1).splitlines()
+            if line.startswith("|") and not re.match(r"^\|\s*:?-{3,}", line)
+        ]
+        data_rows = audit_rows[1:] if audit_rows else []
+        if len(data_rows) < 4 or any(
+            len([part.strip() for part in row.strip("|").split("|")]) < 3
+            or not [part.strip() for part in row.strip("|").split("|")][1]
+            or [part.strip() for part in row.strip("|").split("|")][-1].lower() != "complete"
+            for row in data_rows
+        ):
+            return {
+                "valid": False,
+                "error": f"Day {completed_day} card audit needs at least four completed deliverables with evidence locators",
+            }
+    if 7 in completed:
+        required_day7_markers = (
+            "- Day 7 scorecard: complete",
+            "- Day 7 weekly REFLECT: complete",
+            "## Day 7 scorecard",
+            "## Day 7 weekly REFLECT",
+        )
+        if any(marker not in report_text for marker in required_day7_markers):
+            return {"valid": False, "error": "Day 7 credit requires its six-item scorecard and weekly REFLECT"}
+        score_categories = ("理论", "判图", "误差", "证据分层", "反证", "可证伪问题")
+        for category in score_categories:
+            pattern = rf"(?m)^\|\s*{re.escape(category)}\s*\|\s*[0-4]\s*\|"
+            if not re.search(pattern, report_text):
+                return {"valid": False, "error": f"Day 7 scorecard is missing a valid 0–4 row for {category}"}
+        reflect = re.search(
+            r"(?ms)^## Day 7 weekly REFLECT\s*\n(.*?)(?=^## |\Z)",
+            report_text,
+        )
+        if not reflect or not reflect.group(1).strip():
+            return {"valid": False, "error": "Day 7 weekly REFLECT section must contain content"}
+    next_day_index = starting_day_index + len(completed)
+    return {
+        "valid": True,
+        "completed_day_indices": completed,
+        "partial_day_indices": partial,
+        "curriculum_cards_completed": len(completed),
+        "next_day_index": min(next_day_index, TOTAL_DAYS + 1),
+        "error": None,
+    }
+
+
+def validate_curriculum_coverage(path: Path, starting_day_index: int) -> dict[str, Any]:
+    if not path.is_file():
+        return {"valid": False, "error": f"daily report is missing: {path}"}
+    try:
+        text = path.read_text(encoding="utf-8")
+    except OSError as exc:
+        return {"valid": False, "error": f"cannot read daily report: {exc}"}
+    return parse_curriculum_coverage(text, starting_day_index)
+
+
+def update_state_for_curriculum_cards(
+    state: dict[str, Any],
+    run_id: str,
+    run_date: str,
+    coverage: dict[str, Any],
+) -> dict[str, Any]:
+    """Advance only through contiguous, fully completed curriculum cards."""
+
+    if not coverage.get("valid"):
+        raise ValueError(coverage.get("error") or "curriculum coverage is invalid")
+    completed = coverage.get("completed_day_indices", [])
+    updated = dict(state)
+    if not completed:
+        return updated
+    next_day_index = int(coverage["next_day_index"])
+    updated.update(
+        {
+            "schema_version": 1,
+            "cycle": CYCLE_NAME,
+            "counting_policy": "30 fully completed substantive curriculum cards; a run may complete multiple contiguous cards; acceptance-only runs are excluded",
+            "next_day_index": min(next_day_index, TOTAL_DAYS + 1),
+            "completed_day_count": min(next_day_index - 1, TOTAL_DAYS),
+            "last_success": run_date,
+            "last_run_id": run_id,
+            "status": "complete" if next_day_index > TOTAL_DAYS else "active",
+        }
+    )
+    return updated
+
+
 def render_continuation_prompt(
     paths: Paths,
     run_id: str,
@@ -391,8 +748,12 @@ def render_continuation_prompt(
     day_index: int,
     continuation_number: int,
     deadline: datetime,
+    now: datetime | None = None,
 ) -> str:
     template = paths.continuation_prompt_file.read_text(encoding="utf-8")
+    template = ensure_schedule_gate_contract(
+        ensure_curriculum_coverage_contract(template)
+    )
     substitutions = {
         "{{RUN_ID}}": run_id,
         "{{RUN_DATE}}": run_date,
@@ -403,7 +764,20 @@ def render_continuation_prompt(
     }
     for old, new in substitutions.items():
         template = template.replace(old, new)
-    return template
+    current = now or datetime.now(TIMEZONE)
+    snapshot = closeout_snapshot(
+        current,
+        deadline,
+        next_scheduled_start_for_run_date(run_date),
+    )
+    report_path = paths.daily_root / f"{daily_file_stem(run_date, day_index)}.md"
+    coverage = validate_curriculum_coverage(report_path, day_index)
+    next_day_index = (
+        int(coverage["next_day_index"])
+        if coverage.get("valid")
+        else day_index
+    )
+    return inject_runtime_schedule_snapshot(template, snapshot, day_index, next_day_index)
 
 
 def report_signature(path: Path) -> str | None:
@@ -464,6 +838,7 @@ def render_prompt(
     mode: str = "daily-learning",
     prompt_file: Path | None = None,
     window_deadline: datetime | None = None,
+    runtime_now: datetime | None = None,
 ) -> str:
     phase = phase_for_day(day_index)
     template_path = prompt_file or paths.prompt_file
@@ -505,14 +880,44 @@ grounded `verified-no-op` writeback with one exact atomic locator per source ref
 if the required artifact is already present. The run must still produce all required
 report headings and a resumable session receipt.
 """
+    elif mode == "daily-learning":
+        template = ensure_schedule_gate_contract(template)
+        template = ensure_curriculum_coverage_contract(template)
+        if window_deadline is not None and runtime_now is not None:
+            snapshot = closeout_snapshot(
+                runtime_now,
+                window_deadline,
+                next_scheduled_start_for_run_date(run_date),
+            )
+            report_path = paths.daily_root / f"{daily_file_stem(run_date, day_index)}.md"
+            coverage = validate_curriculum_coverage(report_path, day_index)
+            next_day_index = (
+                int(coverage["next_day_index"])
+                if coverage.get("valid")
+                else day_index
+            )
+            template = inject_runtime_schedule_snapshot(
+                template, snapshot, day_index, next_day_index
+            )
     return template
 
 
 def prepare_next_prompt(paths: Paths, next_run_date: str, next_day_index: int) -> Path:
     """Materialize the next day's ASCII-named prompt after a successful day."""
 
-    path = paths.daily_root / "prompts" / f"{daily_file_stem(next_run_date, next_day_index)}.md"
-    if not path.exists():
+    prompt_dir = paths.daily_root / "prompts"
+    canonical_path = prompt_dir / f"{daily_file_stem(next_run_date, next_day_index)}.md"
+    compact_date = next_run_date.replace("-", "")
+    existing = sorted(prompt_dir.glob(f"{compact_date}-DAY{next_day_index}-*.md"))
+    path = canonical_path if canonical_path.exists() else existing[0] if existing else canonical_path
+    if path.exists():
+        existing = path.read_text(encoding="utf-8")
+        updated = ensure_schedule_gate_contract(
+            ensure_curriculum_coverage_contract(existing)
+        )
+        if updated != existing:
+            path.write_text(updated, encoding="utf-8")
+    else:
         prompt_run_id = f"prompt-{next_run_date}-day-{next_day_index:02d}"
         prompt = render_prompt(
             paths,
@@ -532,6 +937,7 @@ def run_checks(
     report_path: Path,
     report_before: str | None = None,
     knowledge_before: dict[str, str] | None = None,
+    day_index: int | None = None,
 ) -> dict[str, Any]:
     preflight = run_preflight(root)
     lint = subprocess.run(
@@ -547,6 +953,11 @@ def run_checks(
     report_after = report_signature(report_path)
     report_validation = validate_report(report_path)
     durable_knowledge = validate_durable_knowledge(report_path, root, knowledge_before)
+    curriculum_coverage = (
+        validate_curriculum_coverage(report_path, day_index)
+        if day_index is not None
+        else None
+    )
     return {
         "preflight": preflight,
         "report_exists": report_path.is_file(),
@@ -554,6 +965,7 @@ def run_checks(
         "report_valid": report_validation["valid"],
         "report_missing_headings": report_validation["missing_headings"],
         "durable_knowledge": durable_knowledge,
+        "curriculum_coverage": curriculum_coverage,
         "lint_exit": lint.returncode,
         "lint_tail": lint.stdout[-2000:] if lint.stdout else lint.stderr[-2000:],
         "git_diff_check_exit": diff.returncode,
@@ -652,6 +1064,8 @@ def main() -> int:
     try:
         if args.max_continuations < 0:
             raise ValueError("--max-continuations must be non-negative")
+        if args.mode == "daily-learning" and args.max_continuations == 0:
+            raise ValueError("daily-learning requires --max-continuations greater than zero")
         schedule_deadline = parse_deadline(args.until) if args.until else None
         result = dry_run(paths, args.model, not args.no_search, args.reasoning_effort, args.mode)
         if args.dry_run:
@@ -659,7 +1073,8 @@ def main() -> int:
             return 0
         validate_root(root)
         state = read_state(paths.state_file)
-        day_index = int(state.get("next_day_index", 1)) if args.day_index == "auto" else int(args.day_index)
+        state_next_day_index = int(state.get("next_day_index", 1))
+        day_index = state_next_day_index if args.day_index == "auto" else int(args.day_index)
         if args.prepare_prompt is not None:
             if args.day_index == "auto":
                 day_index = int(state.get("next_day_index", 1))
@@ -708,6 +1123,10 @@ def main() -> int:
                 )
             )
             return 0
+        if args.mode == "daily-learning" and day_index != state_next_day_index:
+            raise RuntimeError(
+                f"daily-learning must start at next_day_index={state_next_day_index}; requested day_index={day_index}"
+            )
         phase = phase_for_day(day_index)
         run_date = local_date()
         if schedule_deadline is None and args.mode == "daily-learning":
@@ -723,6 +1142,16 @@ def main() -> int:
         stderr_path = run_dir / "stderr.log"
         last_message = run_dir / "last-message.md"
         run_kind = "acceptance-only" if args.mode == "acceptance" else "substantive"
+        run_started_at = datetime.now(TIMEZONE)
+        initial_closeout_snapshot = (
+            closeout_snapshot(
+                run_started_at,
+                schedule_deadline,
+                next_scheduled_start_for_run_date(run_date),
+            )
+            if args.mode == "daily-learning" and schedule_deadline is not None
+            else None
+        )
         receipt = {
             "schema_version": 1,
             "run_id": run_id,
@@ -738,14 +1167,23 @@ def main() -> int:
             "overnight_until": schedule_deadline.isoformat() if schedule_deadline else None,
             "max_continuations": args.max_continuations,
             "continuation_count": 0,
+            "continuation_batch_count": 0,
+            "continuation_batches": 1,
             "counted_in_substantive_test": False,
             "session_mode": SESSION_MODE,
             "session_reuse": False,
             "session_scope": "one-new-session-for-each-schedule-run",
             "codex_home": str(validate_codex_home()),
             "status": "running",
-            "started_at": datetime.now(TIMEZONE).isoformat(),
+            "started_at": run_started_at.isoformat(),
             "report": str(report_path),
+            "completed_day_indices": [],
+            "partial_day_indices": [],
+            "curriculum_cards_completed": 0,
+            "closeout_window_ends_at": (
+                closeout_window_end(schedule_deadline).isoformat() if schedule_deadline else None
+            ),
+            "last_closeout_snapshot": initial_closeout_snapshot,
         }
         write_json_atomic(run_dir / "run.json", receipt)
         with paths.lock_file.open("w", encoding="utf-8") as lock_handle:
@@ -778,6 +1216,7 @@ def main() -> int:
                 args.mode,
                 args.prompt_file,
                 window_deadline=schedule_deadline,
+                runtime_now=run_started_at if args.mode == "daily-learning" else None,
             )
             prompt_path = run_dir / "prompt.md"
             prompt_path.write_text(prompt, encoding="utf-8")
@@ -807,28 +1246,75 @@ def main() -> int:
             continuation_runs: list[dict[str, Any]] = []
             final_returncode = process.returncode
             continuation_count = 0
+            continuation_total = 0
+            continuation_batches = 1
+            turn_number = 0
+            last_continuation_prompt: Path | None = None
+            closeout_turn: dict[str, Any] | None = None
+            closeout_window_missed = False
             if (
                 schedule_deadline is not None
                 and args.mode == "daily-learning"
                 and final_returncode == 0
                 and session_id
             ):
-                while (
-                    datetime.now(TIMEZONE) < schedule_deadline
-                    and continuation_count < args.max_continuations
-                ):
-                    continuation_count += 1
+                while True:
+                    continuation_now = datetime.now(TIMEZONE)
+                    action = next_continuation_action(
+                        continuation_now,
+                        schedule_deadline,
+                        continuation_count,
+                        args.max_continuations,
+                        closeout_completed=closeout_turn is not None,
+                    )
+                    if action == "finalize":
+                        break
+                    if action == "rollover":
+                        continuation_batches += 1
+                        continuation_count = 0
+                        receipt.update(
+                            {
+                                "continuation_batches": continuation_batches,
+                                "continuation_batch_count": 0,
+                                "continuation_count": continuation_total,
+                                "last_closeout_snapshot": closeout_snapshot(
+                                    continuation_now,
+                                    schedule_deadline,
+                                    next_scheduled_start_for_run_date(run_date),
+                                ),
+                            }
+                        )
+                        write_json_atomic(run_dir / "run.json", receipt)
+                        continue
+                    is_closeout = action == "closeout"
+                    if is_closeout:
+                        closeout_window_missed = not should_run_closeout_turn(
+                            continuation_now, schedule_deadline
+                        )
+                    else:
+                        continuation_count += 1
+                        continuation_total += 1
+                    turn_number += 1
+                    turn_snapshot = closeout_snapshot(
+                        continuation_now,
+                        schedule_deadline,
+                        next_scheduled_start_for_run_date(run_date),
+                    )
                     continuation_prompt = render_continuation_prompt(
                         paths,
                         run_id,
                         run_date,
                         day_index,
-                        continuation_count,
+                        turn_number,
                         schedule_deadline,
+                        now=continuation_now,
                     )
-                    continuation_events = run_dir / f"continuation-{continuation_count:03d}-events.jsonl"
-                    continuation_stderr = run_dir / f"continuation-{continuation_count:03d}-stderr.log"
-                    continuation_last = run_dir / f"continuation-{continuation_count:03d}-last-message.md"
+                    continuation_prompt_path = run_dir / f"continuation-{turn_number:03d}-prompt.md"
+                    continuation_prompt_path.write_text(continuation_prompt, encoding="utf-8")
+                    last_continuation_prompt = continuation_prompt_path
+                    continuation_events = run_dir / f"continuation-{turn_number:03d}-events.jsonl"
+                    continuation_stderr = run_dir / f"continuation-{turn_number:03d}-stderr.log"
+                    continuation_last = run_dir / f"continuation-{turn_number:03d}-last-message.md"
                     continuation_command = build_resume_exec_command(
                         root,
                         args.model,
@@ -847,27 +1333,66 @@ def main() -> int:
                     lines.extend(continuation_lines)
                     continuation_runs.append(
                         {
-                            "number": continuation_count,
+                            "number": turn_number,
+                            "study_continuation_number": continuation_total if not is_closeout else None,
+                            "kind": "closeout" if is_closeout else "study",
                             "returncode": continuation_rc,
                             "events": str(continuation_events),
+                            "prompt": str(continuation_prompt_path),
                             "last_message": str(continuation_last),
+                            "time_snapshot": turn_snapshot,
                         }
                     )
+                    if is_closeout:
+                        closeout_turn = {
+                            "number": turn_number,
+                            "returncode": continuation_rc,
+                            "prompt": str(continuation_prompt_path),
+                            "events": str(continuation_events),
+                            "window_missed": closeout_window_missed,
+                            "time_snapshot": turn_snapshot,
+                        }
                     receipt.update(
                         {
-                            "continuation_count": continuation_count,
+                            "continuation_count": continuation_total,
+                            "continuation_batch_count": continuation_count,
+                            "continuation_batches": continuation_batches,
                             "continuation_runs": continuation_runs,
                             "session_id": session_id,
+                            "last_closeout_snapshot": turn_snapshot,
+                            "last_continuation_prompt": str(continuation_prompt_path),
+                            "closeout_turn": closeout_turn,
+                            "closeout_window_missed": closeout_window_missed,
                         }
                     )
                     write_json_atomic(run_dir / "run.json", receipt)
                     if continuation_rc != 0:
                         final_returncode = continuation_rc
                         break
+                    if is_closeout:
+                        break
                     if datetime.now(TIMEZONE) < schedule_deadline:
                         time.sleep(2)
-            checks = run_checks(root, report_path, report_before, knowledge_before)
-            success = (
+
+            checks = run_checks(
+                root,
+                report_path,
+                report_before,
+                knowledge_before,
+                day_index=day_index if args.mode == "daily-learning" else None,
+            )
+            coverage = checks.get("curriculum_coverage") or {}
+            coverage_valid = args.mode != "daily-learning" or bool(coverage.get("valid"))
+            requested_card_complete = (
+                args.mode != "daily-learning"
+                or day_index in coverage.get("completed_day_indices", [])
+            )
+            window_closed = args.mode != "daily-learning" or closeout_turn is not None
+            closeout_on_time = (
+                args.mode != "daily-learning"
+                or (window_closed and not closeout_window_missed)
+            )
+            deliverables_passed = (
                 final_returncode == 0
                 and checks["preflight"]["exit"] == 0
                 and checks["report_exists"]
@@ -876,52 +1401,72 @@ def main() -> int:
                 and checks["durable_knowledge"]["valid"]
                 and checks["lint_exit"] == 0
                 and checks["git_diff_check_exit"] == 0
+                and coverage_valid
+                and window_closed
+                and closeout_on_time
             )
+            success = deliverables_passed and requested_card_complete
             if session_id:
                 receipt["resume_command"] = build_resume_command(root, session_id)
             next_prompt_file: Path | None = None
             next_prompt_error: str | None = None
-            if success and args.mode == "daily-learning" and day_index < TOTAL_DAYS:
+            next_day_index = int(coverage.get("next_day_index", day_index + 1))
+            if deliverables_passed and args.mode == "daily-learning" and next_day_index <= TOTAL_DAYS:
                 try:
                     next_prompt_file = prepare_next_prompt(
                         paths,
                         datetime.now(TIMEZONE).date().isoformat(),
-                        day_index + 1,
+                        next_day_index,
                     )
                 except Exception as exc:
+                    deliverables_passed = False
                     success = False
                     next_prompt_error = str(exc)
+            if next_prompt_error:
+                run_status = "failed-verification"
+            elif success:
+                run_status = "completed"
+            elif deliverables_passed:
+                run_status = "completed-partial"
+            else:
+                run_status = "failed-verification"
             receipt.update(
                 {
-                    "status": "completed" if success else "failed-verification",
+                    "status": run_status,
                     "counted_in_substantive_test": success and args.mode == "daily-learning",
                     "exit_code": final_returncode,
                     "session_id": session_id,
                     "failure_reason": extract_failure_reason(lines),
                     "checks": checks,
                     "finished_at": datetime.now(TIMEZONE).isoformat(),
-                    "continuation_count": continuation_count,
+                    "continuation_count": continuation_total,
+                    "continuation_batch_count": continuation_count,
+                    "continuation_batches": continuation_batches,
                     "continuation_runs": continuation_runs,
+                    "closeout_turn": closeout_turn,
+                    "closeout_window_missed": closeout_window_missed,
+                    "study_window_closed": window_closed,
+                    "closeout_on_time": closeout_on_time,
+                    "completed_day_indices": coverage.get("completed_day_indices", []),
+                    "partial_day_indices": coverage.get("partial_day_indices", []),
+                    "curriculum_cards_completed": coverage.get("curriculum_cards_completed", 0),
+                    "next_day_index": next_day_index,
+                    "deliverables_passed": deliverables_passed,
                     "next_prompt_file": str(next_prompt_file) if next_prompt_file else None,
                     "next_prompt_error": next_prompt_error,
                 }
             )
             if success and args.mode == "daily-learning":
-                state.update(
-                    {
-                        "schema_version": 1,
-                        "cycle": CYCLE_NAME,
-                        "counting_policy": "30 successful substantive days; acceptance-only runs are excluded",
-                        "next_day_index": min(day_index + 1, TOTAL_DAYS + 1),
-                        "last_success": run_date,
-                        "last_run_id": run_id,
-                        "status": "complete" if day_index == TOTAL_DAYS else "active",
-                    }
+                state = update_state_for_curriculum_cards(
+                    state,
+                    run_id,
+                    run_date,
+                    coverage,
                 )
                 write_json_atomic(paths.state_file, state)
             write_json_atomic(run_dir / "run.json", receipt)
             print(json.dumps(receipt, ensure_ascii=False, indent=2))
-            return 0 if success else 1
+            return 0 if deliverables_passed else 1
     except Exception as exc:
         print(json.dumps({"status": "runner-error", "error": str(exc)}, ensure_ascii=False), file=sys.stderr)
         return 2

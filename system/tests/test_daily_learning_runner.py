@@ -3,7 +3,7 @@ from __future__ import annotations
 import json
 import tempfile
 import unittest
-from datetime import datetime
+from datetime import datetime, timedelta
 from pathlib import Path
 from unittest.mock import patch
 
@@ -15,7 +15,317 @@ sys.path.insert(0, str(REPO_ROOT / "system" / "scripts"))
 import run_daily_learning  # noqa: E402
 
 
+def coverage_report(
+    completed: list[int],
+    partial: list[int],
+    *,
+    day7_scorecard: bool = False,
+    day7_reflect: bool = False,
+) -> str:
+    run_state = [
+        "## Run state",
+        f"- completed_day_indices: [{', '.join(str(day) for day in completed)}]",
+        f"- partial_day_indices: [{', '.join(str(day) for day in partial)}]",
+    ]
+    body: list[str] = []
+    for day in completed:
+        run_state.append(f"- Day {day} card audit: complete")
+        body.extend(
+            [
+                f"### Day {day} card completion audit",
+                "| Day-card deliverable | Evidence / artifact | Status |",
+                "| --- | --- | --- |",
+                "| Recall | report section | complete |",
+                "| Anchor source | SRC-1 | complete |",
+                "| Quantitative exercise | Table 1 | complete |",
+                "| Counter-evidence | SRC-2 | complete |",
+            ]
+        )
+    if 7 in completed:
+        if day7_scorecard:
+            run_state.append("- Day 7 scorecard: complete")
+            body.extend(
+                [
+                    "## Day 7 scorecard",
+                    "| 理论 | 3 |",
+                    "| 判图 | 3 |",
+                    "| 误差 | 2 |",
+                    "| 证据分层 | 4 |",
+                    "| 反证 | 3 |",
+                    "| 可证伪问题 | 3 |",
+                ]
+            )
+        if day7_reflect:
+            run_state.append("- Day 7 weekly REFLECT: complete")
+            body.extend(["## Day 7 weekly REFLECT", "Completed weekly reflection."])
+    return "\n".join([*run_state, *body]) + "\n"
+
+
 class DailyLearningRunnerTests(unittest.TestCase):
+    def test_closeout_snapshot_at_0400_preserves_eleven_hour_window(self) -> None:
+        now = datetime(2026, 10, 6, 4, 0, tzinfo=run_daily_learning.TIMEZONE)
+        deadline = datetime(2026, 10, 6, 15, 0, tzinfo=run_daily_learning.TIMEZONE)
+        next_start = datetime(2026, 10, 6, 16, 0, tzinfo=run_daily_learning.TIMEZONE)
+        snapshot = run_daily_learning.closeout_snapshot(now, deadline, next_start)
+        self.assertEqual(snapshot["minutes_to_deadline"], 660)
+        self.assertEqual(snapshot["minutes_to_next_start"], 720)
+        self.assertEqual(snapshot["decision"], "continue-or-advance")
+        self.assertTrue(snapshot["can_complete_forward_card"])
+
+    def test_closeout_snapshot_uses_deadline_not_run_date(self) -> None:
+        now = datetime(2026, 10, 5, 4, 0, tzinfo=run_daily_learning.TIMEZONE)
+        deadline = datetime(2026, 10, 6, 15, 0, tzinfo=run_daily_learning.TIMEZONE)
+        next_start = datetime(2026, 10, 6, 16, 0, tzinfo=run_daily_learning.TIMEZONE)
+        snapshot = run_daily_learning.closeout_snapshot(now, deadline, next_start)
+        self.assertEqual(snapshot["minutes_to_deadline"], 2100)
+        self.assertEqual(snapshot["minutes_to_next_start"], 2160)
+        self.assertEqual(snapshot["decision"], "continue-or-advance")
+
+    def test_closeout_snapshot_keeps_partial_window_for_current_question(self) -> None:
+        deadline = datetime(2026, 10, 6, 15, 0, tzinfo=run_daily_learning.TIMEZONE)
+        next_start = datetime(2026, 10, 6, 16, 0, tzinfo=run_daily_learning.TIMEZONE)
+        now = deadline - timedelta(minutes=90)
+        snapshot = run_daily_learning.closeout_snapshot(now, deadline, next_start)
+        self.assertEqual(snapshot["decision"], "continue-current-or-partial")
+        self.assertTrue(snapshot["can_continue_current"])
+        self.assertFalse(snapshot["can_complete_forward_card"])
+
+    def test_closeout_snapshot_moves_to_closeout_when_window_is_short_or_expired(self) -> None:
+        deadline = datetime(2026, 10, 6, 15, 0, tzinfo=run_daily_learning.TIMEZONE)
+        next_start = datetime(2026, 10, 6, 16, 0, tzinfo=run_daily_learning.TIMEZONE)
+        short = run_daily_learning.closeout_snapshot(
+            deadline - timedelta(minutes=89), deadline, next_start
+        )
+        expired = run_daily_learning.closeout_snapshot(deadline, deadline, next_start)
+        self.assertEqual(short["decision"], "finish-current-no-new-unit")
+        self.assertEqual(expired["decision"], "closeout-only")
+
+    def test_next_schedule_time_is_day_after_run_at_1600(self) -> None:
+        self.assertEqual(
+            run_daily_learning.next_scheduled_start_for_run_date("2026-10-05"),
+            datetime(2026, 10, 6, 16, 0, tzinfo=run_daily_learning.TIMEZONE),
+        )
+
+    def test_render_prompt_injects_fresh_runtime_gate_into_existing_snapshot(self) -> None:
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            paths = run_daily_learning.get_paths(root)
+            snapshot = root / "existing-prompt.md"
+            snapshot.write_text("Existing Day 6 snapshot.\n", encoding="utf-8")
+            now = datetime(2026, 10, 6, 4, 0, tzinfo=run_daily_learning.TIMEZONE)
+            deadline = datetime(2026, 10, 6, 15, 0, tzinfo=run_daily_learning.TIMEZONE)
+            prompt = run_daily_learning.render_prompt(
+                paths,
+                "2026-10-05-day-06-01",
+                "2026-10-05",
+                6,
+                prompt_file=snapshot,
+                window_deadline=deadline,
+                runtime_now=now,
+            )
+        self.assertIn("Runtime schedule snapshot", prompt)
+        self.assertIn("minutes_to_deadline: 660", prompt)
+        self.assertIn("minutes_to_next_start: 720", prompt)
+        self.assertIn("completed_day_indices", prompt)
+        self.assertIn("DAILY_LEARNING_TIME_GATE_V1", prompt)
+
+    def test_render_continuation_prompt_injects_current_clock_snapshot(self) -> None:
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            paths = run_daily_learning.get_paths(root)
+            paths.continuation_prompt_file.parent.mkdir(parents=True)
+            paths.continuation_prompt_file.write_text("Continue Day {{DAY_INDEX}}.\n", encoding="utf-8")
+            now = datetime(2026, 10, 6, 14, 0, tzinfo=run_daily_learning.TIMEZONE)
+            deadline = datetime(2026, 10, 6, 15, 0, tzinfo=run_daily_learning.TIMEZONE)
+            paths.daily_root.mkdir(parents=True, exist_ok=True)
+            report = paths.daily_root / f"{run_daily_learning.daily_file_stem('2026-10-05', 6)}.md"
+            report.write_text(coverage_report([6], [7]), encoding="utf-8")
+            prompt = run_daily_learning.render_continuation_prompt(
+                paths, "run-1", "2026-10-05", 6, 1, deadline, now=now
+            )
+        self.assertIn("minutes_to_deadline: 60", prompt)
+        self.assertIn("finish-current-no-new-unit", prompt)
+        self.assertIn("Next card candidate: Day 7", prompt)
+
+    def test_runtime_snapshot_stops_full_card_credit_after_one_forward_card(self) -> None:
+        snapshot = {
+            "now_local": "2026-10-05T18:00:00+08:00",
+            "hard_deadline": "2026-10-06T15:00:00+08:00",
+            "next_scheduled_start": "2026-10-06T16:00:00+08:00",
+            "minutes_to_deadline": 1260,
+            "minutes_to_next_start": 1320,
+            "decision": "continue-or-advance",
+        }
+        prompt = run_daily_learning.format_runtime_schedule_snapshot(snapshot, 6, 8)
+        self.assertIn("Next card candidate: Day 8", prompt)
+        self.assertIn("do not credit another card", prompt)
+
+    def test_continuation_limit_before_deadline_is_not_window_complete(self) -> None:
+        deadline = datetime(2026, 10, 6, 15, 0, tzinfo=run_daily_learning.TIMEZONE)
+        self.assertTrue(
+            run_daily_learning.continuation_limit_reached(
+                96, 96, deadline - timedelta(minutes=5), deadline
+            )
+        )
+        self.assertFalse(
+            run_daily_learning.continuation_limit_reached(96, 96, deadline, deadline)
+        )
+
+    def test_final_closeout_turn_uses_only_reserved_1500_to_1600_window(self) -> None:
+        deadline = datetime(2026, 10, 6, 15, 0, tzinfo=run_daily_learning.TIMEZONE)
+        self.assertFalse(
+            run_daily_learning.should_run_closeout_turn(
+                deadline - timedelta(seconds=1), deadline
+            )
+        )
+        self.assertTrue(
+            run_daily_learning.should_run_closeout_turn(
+                deadline, deadline
+            )
+        )
+        self.assertTrue(
+            run_daily_learning.should_run_closeout_turn(
+                deadline + timedelta(minutes=59), deadline
+            )
+        )
+        self.assertFalse(
+            run_daily_learning.should_run_closeout_turn(
+                deadline + timedelta(hours=1), deadline
+            )
+        )
+
+    def test_continuation_action_never_confuses_saturation_with_window_close(self) -> None:
+        deadline = datetime(2026, 10, 6, 15, 0, tzinfo=run_daily_learning.TIMEZONE)
+        self.assertEqual(
+            run_daily_learning.next_continuation_action(
+                deadline - timedelta(hours=11), deadline, 0, 96, False
+            ),
+            "study",
+        )
+        self.assertEqual(
+            run_daily_learning.next_continuation_action(
+                deadline - timedelta(minutes=1), deadline, 96, 96, False
+            ),
+            "rollover",
+        )
+        self.assertEqual(
+            run_daily_learning.next_continuation_action(
+                deadline - timedelta(minutes=1), deadline, 0, 96, False
+            ),
+            "study",
+        )
+        self.assertEqual(
+            run_daily_learning.next_continuation_action(
+                deadline, deadline, 96, 96, False
+            ),
+            "closeout",
+        )
+        self.assertEqual(
+            run_daily_learning.next_continuation_action(
+                deadline, deadline, 96, 96, True
+            ),
+            "finalize",
+        )
+
+    def test_curriculum_coverage_advances_only_complete_cards(self) -> None:
+        full = run_daily_learning.parse_curriculum_coverage(
+            coverage_report([6, 7], [], day7_scorecard=True, day7_reflect=True),
+            6,
+        )
+        partial = run_daily_learning.parse_curriculum_coverage(
+            coverage_report([6], [7]),
+            6,
+        )
+        self.assertTrue(full["valid"], full)
+        self.assertEqual(full["next_day_index"], 8)
+        self.assertEqual(full["curriculum_cards_completed"], 2)
+        self.assertTrue(partial["valid"], partial)
+        self.assertEqual(partial["next_day_index"], 7)
+        self.assertEqual(partial["curriculum_cards_completed"], 1)
+
+    def test_curriculum_coverage_rejects_gaps_and_incomplete_day7_exam(self) -> None:
+        skipped = run_daily_learning.parse_curriculum_coverage(
+            coverage_report([6, 8], []),
+            6,
+        )
+        incomplete_exam = run_daily_learning.parse_curriculum_coverage(
+            coverage_report([6, 7], [], day7_scorecard=True), 6
+        )
+        self.assertFalse(skipped["valid"])
+        self.assertFalse(incomplete_exam["valid"])
+
+    def test_curriculum_state_advances_through_completed_forward_card(self) -> None:
+        coverage = run_daily_learning.parse_curriculum_coverage(
+            coverage_report([6, 7], [], day7_scorecard=True, day7_reflect=True),
+            6,
+        )
+        state = {"next_day_index": 6, "completed_day_count": 5, "status": "active"}
+        updated = run_daily_learning.update_state_for_curriculum_cards(
+            state, "run-06", "2026-10-05", coverage
+        )
+        self.assertEqual(updated["next_day_index"], 8)
+        self.assertEqual(updated["completed_day_count"], 7)
+        self.assertEqual(state["next_day_index"], 6)
+
+    def test_partial_forward_card_keeps_it_as_next_day(self) -> None:
+        coverage = run_daily_learning.parse_curriculum_coverage(
+            coverage_report([6], [7]),
+            6,
+        )
+        state = {"next_day_index": 6, "completed_day_count": 5, "status": "active"}
+        updated = run_daily_learning.update_state_for_curriculum_cards(
+            state, "run-06", "2026-10-05", coverage
+        )
+        self.assertEqual(updated["next_day_index"], 7)
+        self.assertEqual(updated["completed_day_count"], 6)
+
+    def test_partial_primary_card_does_not_advance_state(self) -> None:
+        coverage = run_daily_learning.parse_curriculum_coverage(
+            coverage_report([], [6]),
+            6,
+        )
+        state = {"next_day_index": 6, "completed_day_count": 5, "status": "active"}
+        updated = run_daily_learning.update_state_for_curriculum_cards(
+            state, "run-06", "2026-10-05", coverage
+        )
+        self.assertEqual(updated, state)
+
+    def test_next_prompt_can_be_prepared_for_forward_advanced_day(self) -> None:
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            paths = run_daily_learning.get_paths(root)
+            paths.prompt_file.parent.mkdir(parents=True)
+            paths.prompt_file.write_text("DAY {{DAY_INDEX}} {{WINDOW_CLOSEOUT_AT}}\n", encoding="utf-8")
+            prompt_path = run_daily_learning.prepare_next_prompt(paths, "2026-10-06", 8)
+            self.assertIn("DAY8", prompt_path.name)
+            self.assertIn("DAY 8", prompt_path.read_text(encoding="utf-8"))
+
+    def test_existing_prepared_prompt_gets_shared_time_gate_without_losing_notes(self) -> None:
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            paths = run_daily_learning.get_paths(root)
+            path = paths.daily_root / "prompts" / "20261006-DAY7-collective-motion-oral-exam.md"
+            path.parent.mkdir(parents=True)
+            path.write_text("Existing Day 7 prompt.\nUser note: retain this.\n", encoding="utf-8")
+            updated = run_daily_learning.prepare_next_prompt(paths, "2026-10-06", 7)
+            content = updated.read_text(encoding="utf-8")
+            self.assertEqual(updated, path)
+        self.assertIn("Existing Day 7 prompt.", content)
+        self.assertIn("User note: retain this.", content)
+        self.assertIn("DAILY_LEARNING_TIME_GATE_V1", content)
+        self.assertIn("DAILY_LEARNING_CURRICULUM_COVERAGE_V1", content)
+
+    def test_completed_card_requires_an_audited_deliverable_table(self) -> None:
+        invalid = run_daily_learning.parse_curriculum_coverage(
+            "## Run state\n"
+            "- completed_day_indices: [6]\n"
+            "- partial_day_indices: []\n"
+            "- Day 6 card audit: complete\n",
+            6,
+        )
+        self.assertFalse(invalid["valid"])
+        self.assertIn("card completion audit table", invalid["error"])
+
     def test_phase_table_covers_all_days(self) -> None:
         self.assertEqual(run_daily_learning.phase_for_day(1), "baseline-and-research-contract")
         self.assertEqual(run_daily_learning.phase_for_day(30), "final-exam-and-prospectus")

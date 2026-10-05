@@ -5,7 +5,23 @@
 - 计划：Day 6，nuclear-structure-framework；运行标识 2026-10-05-day-06-01；study window 截止 2026-10-06 15:00（Asia/Shanghai）。
 - 恢复：原 session 01a10816-f550-7003-bb53-8dfafc2c18a2 在用户要求停止后留下 interrupted 回执；本轮按用户指令恢复该 session。恢复命令：codex resume 01a10816-f550-7003-bb53-8dfafc2c18a2 -C /workspace/wiki -s danger-full-access -a never。
 - run-01 事件日志显示停止前已读计划和近期记录、完成主动回忆、核读 Liu 1996 全文并检查 Fig. 15；没有日报或知识写回。该中断不计作 Day 6 完成。
-- 本次按两槽候选池完成连续性与新颖性工作，并在两者都达到证据饱和后提前收尾；不延长为第三个问题。学习结论与验收见下文。
+- completed_day_indices: [6, 7]
+- partial_day_indices: []
+- Day 6 card audit: complete
+- Day 7 card audit: complete
+- Day 7 scorecard: complete
+- Day 7 weekly REFLECT: complete
+- **收束状态修订：** run-06 把两槽局部证据饱和当成全日停止条件，这是过早的时间判断。用户要求按原硬截止重新检查。当前运行时快照为 `2026-10-05T18:35:10+08:00`；距硬截止 `2026-10-06T15:00:00+08:00` 还有 1224 分钟，距下次触发 `2026-10-06T16:00:00+08:00` 还有 1284 分钟，决定为 `continue-or-advance`。因此本日报继续收录 Day 7 口试而不在当前时刻最终收束。DAY6 的原报告、AW13/LU96 知识写回、必需检查、DAY7 提示和 run-06 Gitee 发布门已通过；状态文件仍为 `next_day_index=7`，Day 8 的推进只在 15:00 收束、最终检查与发布后写入回执。
+
+### Day 6 card completion audit
+
+| 日卡交付项 | 可复核证据或产物 | 状态 |
+|---|---|---|
+| 回忆 rotational/vibrational band、alignment 与 signature | 本报告“来源前主动回忆”及 Day 7 前六日随机回忆 | complete |
+| 主线来源与关键图表/公式 | [Stephens 1975](../../knowledge/sources/stephens-1975-coriolis-rotation-alignment.md) ST75-1–3；[Liu 1996](../../knowledge/sources/liu-1996-signature-inversion-a130.md) LU96-1–5；[Alwaleedi 2013](../../knowledge/sources/alwaleedi-2013-band-structures-131ce.md) AW13-1–18 | complete |
+| 自旋—频率与 alignment 定量练习 | AW13-18 Eq. (2.25)/Table 4.1；MA90-5 Eq. (2) Harris 参考转子复算 | complete |
+| signature inversion 与 crossing 的反证/替代解释 | LU96-4/5；ST75-2/3；AW13-11；保留自旋锚点、组态混合和 `δ=0` 边界 | complete |
+| alignment/signature 判读卡与带结构图 | 本报告两张重建表及 [A≈130 thesis evidence matrix](../../knowledge/projects/a130-thesis-evidence-matrix.md) crosswalk | complete |
 
 ## Candidate pool and selection
 
@@ -14,6 +30,7 @@
 | 连续性：131Ce Bands 1–7 的 signature/configuration coupling 能否与振动或其它集体模式区分？ | 当前开放问题要求 mixing ratio、偏振、寿命和伙伴带绝对强度；Day 3 已整理 mean-field 与模型适用边界，Day 4 已覆盖 pairing/crossing，Day 5 已覆盖形状观测量。Day 6 的转频重建可把能级证据接到可测的模式判据。 | 选。沿用现有 131Ce 项目与原始 thesis 数据，不新建重复项目。 |
 | 新颖性：A≈130 奇奇 h11/2 带的 signature inversion 对 bandhead spin crosswalk 有多敏感？ | Liu 1996 汇集 La/Pr/Pm/Eu/Cs 多核素，展示奇数 ΔI 重标可改变 signature 顺序；Cs 的相互冲突参考为独立于 131Ce 的系统学边界。 | 选。只研究自旋锚点和系统学，不把不同核素拼成 131Ce 的直接证据。 |
 | Band termination 判据 | Afanasjev 1999 提供固定组态、有限最大自旋和 collectivity 衰减的综述判据。所选 131Ce 带没有本轮可核的 termination 端点。 | 作为练习的边界参照，不另开第三个案例。 |
+| 前移课程卡：[Day 7 集体运动口试](../plans/2026-09-22-one-month-daily-task-matrix.md) | 两个 DAY6 槽位已完成高信息来源与定量复算，且剩余时段远超 120 分钟；用 Day 1–6 已读证据做口试，不把重复阅读当新实验。 | 选；前移已完成，Day 8 未计入本轮课程学分。 |
 
 **来源前主动回忆：** 转动带是同一内禀结构上随角动量增加的能级序列，低自旋时常以 I(I+1) 作为理想参照；振动带对应形变自由度的量子振荡；alignment 是准粒子角动量沿转轴的投影，数值依赖转频和参考转子；signature 是转 π 的离散对称标签，signature inversion 表示两支能量偏好随自旋反转。我记得 131Ce Band 1 的两支 crossing 约为 0.329 和 0.367 MeV/ℏ，但不确定 Table 5.1 的误差，也不确定能否从现有来源得到逐点 i_x(ω) 或 termination 证据。后续核到的表值、定位和误差见下节。
 
@@ -58,6 +75,29 @@
 
 **band termination 判据。** 需要固定组态下可追踪的有限最大 aligned spin，并同时看到转动/能级斜率、alignment、moment of inertia 与 Q_t 或 B(E2) 的相容演化；低强度末端跃迁、能带突然中止或单个 backbend 都不能单独证明 termination。AF99 的例子属于综述系统学和模型解释，不将其外推为 131Ce 的已观测终止带。
 
+**Day 7 口试：前六日主动回忆（先于本轮来源回看）。**
+
+1. Day 1：claim 要有原文 locator；实验事实、作者解释、模型结果和本任务推断分开，重复论文/学位论文不自动成为独立证据。
+2. Day 2：壳隙与单粒子轨道随核素和形变背景而变；转移强度/角分布是轨道占据与结构的观测约束，不能把模型轨道图当作直接观测。
+3. Day 3：Nilsson 描述形变平均场单粒子结构，CSM 加入转动框架与 alignment，HFB 处理平均场配对；投影恢复被近似破坏的对称性。模型谱与实验能带要分层对照。
+4. Day 4：配对、blocking 与准粒子破对会改变 crossing 和 alignment；能谱 backbend 是现象，不唯一指定哪一种准粒子组态。
+5. Day 5：β、γ 和八极自由度须由各自合适的电磁/形变观测量约束；同核存在不同形变带不等于已证明这些带互为 shape-coexisting partners。
+6. Day 6：signature 是离散转动对称标签，signature inversion 是两支能量顺序改变；alignment 依赖频率和参考带，crossing/近简并本身不能证明振动、wobbling 或 chirality。
+
+回看 [Day 1](../20260927-DAY1-baseline-research-contract.md)、[Day 2](../20260928-DAY2-shell-gap-single-particle.md)、[Day 3](../20260929-DAY3-mean-field-nilsson-csm-hfb-projection.md)、[Day 4](../20260930-DAY4-pairing-quasiparticle-configuration.md) 和 [Day 5](../20261003-DAY5-beta-gamma-octupole-shape-coexistence.md) 日报后，未发现足以推翻上述定义的错误；Day 4/5 的实际反例进一步加强了“带标签不能替代伴随观测”和“同一数据集转载不算独立证据”两项检查。
+
+**131Ce 已读案例的完整证据链口述。**
+
+- **壳结构/形变层：** Alwaleedi 2013 用 Woods–Saxon/TRS 与 CSM 讨论粒子组态和形变背景；作者采用的 `β2=0.218, β4=−0.023, γ=0°` 是模型输入/极小值，不是实验直接测形变（AW13-6）。Band 1/4 的负宇称 `νh11/2` 类轨道指认仍属组态解释（AW13-8）。
+- **直接谱学层：** `100Mo(36S,5nγ)`、165 MeV、Gammasphere 数据建立/扩展 Bands 1–7；图 4.1 和表 4.1–4.7 给能级、γ 线、相对强度与角度比。Band 1 的 `507.9 keV, 15/2−→11/2−` E2 行为 AW13-14；Band 4→Band 1 的 `611.1 keV, 17/2−→15/2−` M1/E2 link 为 AW13-16。角度比 `R` 不是 mixing ratio `δ`。
+- **alignment/signature 层：** 对 ΔI=2 行按 AW13-18 的 `ℏω=Eγ/2` 放在跃迁中点，Band 1 的频率先升后降；Table 5.1 的两个 signature crossing 为 `0.329` 与 `0.367 MeV/ℏ`（AW13-5）。跨带比较还依赖 band identity、spin assignment 和参考带，不能把派生量改称独立 alignment 测量。
+- **作者解释/模型层：** CSM/TRS 讨论准粒子 crossing、spin-dependent core polarization 和可能的非轴响应；Band 4 被作者标为 γ-vibration-coupled `e/f` 序列（AW13-4/7）。这些是作者/模型解释，不等于已测得振动声子或 γ-soft 势面。
+- **替代解释与裁决边界：** Coriolis mixing、signature partner、准粒子 alignment、配对/形变演化均可造成 crossing 或相似能谱（ST75-2/3）。论文没有 `δ`、线偏振、寿命、绝对 `B(E2)/B(M1)` 或 partner-resolved 强度闭合链（AW13-9/11）；因此现有最简解释仍是 signature/configuration coupling 主导，振动/摆动/手征不能升级为实验事实。
+
+**未知短能带 20 分钟判读练习（以下描述完全为合成题，不对应核素/实验）：** 两条同宇称短序列各有若干 ΔI=2 γ 线；其中一条的 `Eγ/2` 随中点自旋先升后降，出现一个作者称为“交叉”的斜率变化；只报告一条两带间 ΔI=1 γ 线，multipolarity 未定；没有寿命、直接 `δ`、偏振或绝对强度。可以说：存在两条被指认为同宇称的序列、该条线的能量给出随自旋变化的运动学趋势、并有一个待核的带间连接。不能说：crossing 已由唯一组态解释、短带已终止、第二带必是 γ 振动伙伴，或这两带属于 wobbling/chirality。替代解释至少有 signature partner/准粒子 crossing、Coriolis mixing、配对/形变响应及未知门条件/feeding。停止条件是先核定自旋/宇称/带身份和 crossing reference；若无法取得 direct `δ`/偏振与匹配寿命/绝对强度，就保持 provisional，不对模式命名。
+
+**最可能改变当前排序的证据：** 先对真实 AW13-16 的 `611.1-keV` Band 4→Band 1 link 做直接、带符号/分支的 `δ` 与线偏振测量；若它显示稳健 E2 分量，下一步必须以重叠自旋区间寿命补出绝对 `B(E2)_out/B(E2)_in` 才能提高集体耦合排序。若 link 以 M1 为主，普通组态连接解释更稳。单个 `R=0.56±0.02` 不代替上述观测。
+
 ## Counter-evidence and missing companion observables
 
 - Liu 1996 的结论随 bandhead spin crosswalk 变化：多数有旧自旋指认的 La/Pr/Pm/Eu 带中，11/13 个 I0 被改动且全是奇 ΔI；odd ΔI 会交换偶/奇自旋对应的 signature 标记。作者采用平滑同位素系统学支持改标，但平滑趋势本身是 systematics prior，不是新的直接自旋测量。
@@ -65,10 +105,13 @@
 - 131Ce 的 crossing/alignment 约束作者的准粒子组态解释，却不能单独区分 Coriolis mixing、配对/形变演化与振动响应。Band 4 的 γ-vibrational 标签是作者解释；611.1-keV Band 4→Band 1 link 为 M1/E2 指认，但本 thesis 无逐跃迁测得的 δ、线偏振、寿命或 partner-resolved 绝对 B(E2)/B(M1)。
 - 必要伴随量：可靠自旋/宇称与带身份、完整带间 links、混合比两个分支和偏振、匹配自旋区间的寿命与绝对 B(E2)/B(M1)，以及能支持形状判断的 quadrupole observable。测量后须用同一 transition matrix 区分 signature/configuration coupling 与集体振动；若讨论 wobbling/chirality，还需相应 out-of-band E2、伙伴身份和随自旋模式能量。
 - 源独立性：Alwaleedi 是一套 100Mo(36S,5nγ) Gammasphere acquisition；Liu 是多篇旧谱学的汇编；Tajima 是独立模型路线但模型参数依赖 124Cs 的同一自旋假设；Ma 是 131Ba 的不同反应/实验，仅作 alignment 方法参照。
+- Day 7 口试重复使用 AW13 不是第二份 `131Ce` acquisition；LU96 是既有 A≈130 多核素数据汇编，Tajima 与 `124Cs I0=7` 共用拟合锚点。当天 REFLECT 只改变学习者的证据分层检查，不新增独立实验权重。
 
 ## Knowledge Impact and Learning Decision
 
-**Decision: revises。** 对 A≈130 signature-inversion crosswalk 的知识边界作了窄幅修订：除 I0 重标和 Cs 参考未决外，加入“模型与其拟合锚点共享 124Cs I0=7，因此不能独立验证该锚点”的来源定位。对 131Ce 的排序维持：已有能级、crossing 和作者组态解释支持普通 signature/configuration coupling 为可行基线；尚无寿命/偏振/partner-resolved 绝对强度，不能把带标签升级为振动、wobbling 或 chirality 的实验结论。未改变任何页面的 human-reviewed 状态，也未清除 needs_review。
+**DAY6 decision: revises。** 对 A≈130 signature-inversion crosswalk 的知识边界作了窄幅修订：除 `I0` 重标和 Cs 参考未决外，加入“模型与其拟合锚点共享 `124Cs I0=7`，因此不能独立验证该锚点”的来源定位。对 `131Ce` 的排序维持：已有能级、crossing 和作者组态解释支持普通 signature/configuration coupling 为可行基线；尚无寿命/偏振/partner-resolved 绝对强度，不能把带标签升级为振动、wobbling 或 chirality 的实验结论。
+
+**DAY7 weekly REFLECT decision: no material change。** 对 Day 1–6 定义和 `131Ce` 案例的口试没有发现与已有 source/project 知识冲突的新直接证据；当前排序和下一项必要观测已经写入 `131Ce` mode-discrimination project 与 `AW13-11/16`。没有再复制一行相同矩阵，也没有新增 `human-reviewed` 或清除 `needs_review` 状态。
 
 ## Durable knowledge delta
 
@@ -128,6 +171,37 @@
 2. 哪一项独立自旋/宇称测量能排除 Cs 中不相容的 124Cs/130Cs 参考？若独立测得的 I0 改变偶奇自旋交错，将重排 Liu 图 15 的 favored/unfavored 标记，signature-inversion 结论及其 γ 解释须重新计算。
 3. 是否存在具备固定组态、可达最大自旋和连续 Q_t/B(E2) 数据的 A≈130 候选 termination 带？在这些观测闭合前，本轮只采用 AF99 判据，不作目标核判定。
 
+4. 下一步课程卡转入 Day 8 的选择定则/多极性：如何用独立自旋宇称、ADO/DCO、线偏振和 `δ` 分支共同关闭跃迁赋值，而不是拿一个角强度比充当唯一解？
+
+### Day 7 card completion audit
+
+| 周考交付项 | 可复核证据或产物 | 状态 |
+|---|---|---|
+| Day 1–6 定义主动回忆并对照近期日报 | 本报告“Day 7 口试：前六日主动回忆” | complete |
+| 完整复述 `131Ce` 壳结构至竞争解释链 | 本报告 `AW13-1/4/5/6/8/11/14/16/18`、`ST75-2/3` 分层链 | complete |
+| 完成合成未知能带结构判读 | 本报告合成题；明确非实验输入、替代解释和停止条件 | complete |
+| 识别最可能改变排序的证据 | AW13-16 direct `δ`/polarization→寿命和 absolute-strength 路线 | complete |
+| 周考六项评分与 weekly REFLECT | 下方 Day 7 scorecard 和 REFLECT | complete |
+
+## Day 7 scorecard
+
+| 维度 | 分数（0–4） | 自评依据 |
+|---|---:|---|
+| 理论 | 3 | 能区分转动、准粒子 crossing 与振动解释；非轴集体模还需几何和跃迁强度闭合。 |
+| 判图 | 3 | 能把 `Eγ/2` 放在跃迁中点并区分 band link 和同带线；本轮合成题无真实 level scheme。 |
+| 误差 | 3 | 保留 AW13 Table 4.1 未报误差、crossing 参数协方差缺失及 Harris 参数协方差边界。 |
+| 证据分层 | 4 | 实验 line/link、派生频率、作者的 γ-vibrational 指认和模型形变输入分开。 |
+| 反证 | 3 | 列出 Coriolis、signature/configuration、pairing/shape alternatives；需 direct 电磁测量决胜。 |
+| 可证伪问题 | 3 | 给出 611.1-keV `δ`/偏振与后续 `B(E2)_out/B(E2)_in` 的结果分叉；还需预注册灵敏度/判定阈值。 |
+
+## Day 7 weekly REFLECT
+
+- 本周核心进步不是多给模式贴标签，而是把“观测量→赋值→机制”拆成可检查层，并把来源共享实验、模型拟合锚点和统计不确定度一起写进证据权重。
+- 常见错因：把 crossing 当作唯一组态证明；把 `R` 与 `δ` 混为一谈；把 TRS 的 `γ` 当成测得形状；把同一数据的学位论文/期刊重述当独立复核；把近简并或 signature inversion 当作 collective-mode 充分条件。
+- belief revision：Liu 的 `I0` crosswalk 的来源依赖边界变清楚，`131Ce` signature/configuration baseline 更可复核；但没有新独立 `131Ce` electromagnetic observable，故不改变 `wobbling/chirality` 排名，也不提高 γ-vibration 的实验证据等级。
+- 本日对 [131Ce collective-mode project](../../knowledge/projects/131ce-collective-mode-discrimination.md) 做了逐项 overlap check。AW13-16 的 link、missing `δ`/polarization/lifetime manifest 和失败条件已在现有页明列；新增 oral-exam narrative 不构成新源事实或不同可复用矩阵行，因此不重复写入该页，review 状态保持原样。
+- 下一个候选来自 Day 8 matrix card：选择定则/多极性；须先补独立赋值和 branch-specific response，不沿用本日合成题的虚构描述作实验输入。
+
 ## L0–L4 state
 
 - L0：写前 Wiki boundary check exit 0；保留原始 Liu/Ma/Alwaleedi PDF，不覆盖 raw。
@@ -139,10 +213,12 @@
 ## Verification and continuation
 
 - 边界检查：写前运行 python3 system/scripts/wiki_boundary_check.py --root .，exit 0，errors=0、warnings=0。
-- farmer：wiki_farmer.py status 显示 resumed session 正在运行；once --dry-run exit 0，actions=[]，用户请求停止没有触发自动故障续接。
+- farmer：`wiki_farmer.py status` 显示原 session 有活动记录；`once --dry-run` exit 0，actions=[]。`ps` 确认原 session 的 Codex resume 进程仍在；没有另一个 daily runner，因此不启动重叠学习会话。
 - Wiki lint：python3 system/scripts/wiki_lint.py --fail-on error，exit 0，errors=0、warnings=91、info=1309。
-- git diff --check：工作树与首个精确暂存文件集检查均 exit 0。
-- 标题、单一 knowledge-writeback 块、3 个 anchor、4 个原子 locator、run-06 continuation prompt 和 Day 7 prompt 均已核验存在；原 run-01 中断回执和事件日志保留。
+- runner 语法检查：`python3 -m py_compile system/scripts/run_daily_learning.py system/tests/test_daily_learning_runner.py`，exit 0；`python3 -m unittest system.tests.test_daily_learning_runner -v`，exit 0，35 tests passed。
+- 日报/课程解析：必需标题均存在；课程解析通过，`completed_day_indices=[6,7]`、`partial_day_indices=[]`、计划下一个日卡为 8；状态推进仍等硬截止后的最终 closeout。
+- `git diff --check` 和 `git diff --cached --check` 均 exit 0；staged name-status 已复核为 17 个本轮 task-owned paths。继承的 run-01 事件/回执、旧 DAY6 prompt 与 raw/tmp 材料均未暂存。
+- 标题、单一 knowledge-writeback 块、3 个 anchor、4 个原子 locator、run-06 continuation prompt、Day 7 scorecard/REFLECT 和逐卡审计已核验；当前恢复回执与 continuation prompt 见 [run-07 receipt](20261005-DAY6-rotation-vibration-alignment-signature-run-07/run.json) 和 [run-07 continuation](20261005-DAY6-rotation-vibration-alignment-signature-run-07/continuation-prompt.md)。原 run-01 中断回执和事件日志保留。
 - primary 发布门已通过：Gitee origin 的 fetch exit 0、origin/main ancestor 检查 exit 0、push dry-run exit 0、实际 HEAD:main push exit 0；branch main，commit subject 为 Complete DAY6 rotation-alignment-signature evidence study。
-- 推送成功后终态回执记为 completed/counted，里程碑推进到 next_day_index=7；原 run-01 中断回执与 scheduler stop 事件保留为历史。
-- Day 6 达到两槽证据饱和后停止。下一日提示：outputs/learning-daily/prompts/20261006-DAY7-collective-motion-oral-exam.md。
+- run-06 的原始 receipt 记有报告、知识写回、lint/diff 和 Gitee 发布通过，但也记有两槽局部饱和后提前停止。用户修订了停止约定后，Day 6/7 卡内容已完成；schedule-level 学习窗口仍开放至 `2026-10-06T15:00:00+08:00`。这不是最终 closeout，也未把 Day 8 提前记为完成。
+- 续接命令仍为 `codex resume 01a10816-f550-7003-bb53-8dfafc2c18a2 -C /workspace/wiki -s danger-full-access -a never`。下一 continuation 应读取 fresh clock snapshot，先重排剩余候选；硬截止到达后才做最终日报/检查/回执/Day 8 prompt 与发布收尾。

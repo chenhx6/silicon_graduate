@@ -1472,3 +1472,9 @@ updated: 2026-07-15
 
 - `clean_knowledge_eol_dirty.py` exited `1`: 9 modified knowledge pages were retained as substantive; 3 new task-owned knowledge pages were classified `REVIEW-UNSAFE` because they are additions. `restored=0`, `unsafe/mixed=0`, and no staged path was touched. The three additions were individually checked against the DAY5 prompt, source hashes/locators, canonical links and the validated writeback block.
 - This is a classification result, not an unreviewed user file: the ENSDF evaluation source, Nomura model source and shape-observable synthesis are all required DAY5 artifacts; no raw PDF was staged.
+
+## [2026-10-05] daily-learning | universal time-aware closeout gate
+
+- Implemented a schedule-wide clock check for all 30-day cards: continue while useful time remains, check the next eligible card after local saturation, stop new research at the per-run hard deadline, and use the reserved hour for final closeout.
+- Runner now preserves resumability at its continuation cap, persists every fresh continuation prompt/snapshot, validates contiguous completed/partial cards and card audits, and advances only fully completed curriculum cards. Existing Day 7 preview prompt will receive the same shared gate.
+- DAY6 original artifacts, run-01 stop history, and canonical writebacks are preserved; the prior run-06 early-stop record remains historical while the resumed session proceeds under the corrected rule. Verification and Gitee publication are pending.

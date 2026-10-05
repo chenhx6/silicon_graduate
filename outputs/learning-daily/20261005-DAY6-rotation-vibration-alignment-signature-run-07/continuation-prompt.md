@@ -7,12 +7,12 @@ updated: 2026-09-29
 
 # Daily learning continuation turn
 
-Continue the same `wiki-daily-learning` session for Day {{DAY_INDEX}}.
+Continue the same `wiki-daily-learning` session for Day 6.
 
-- Run ID: `{{RUN_ID}}`
-- Run date: `{{RUN_DATE}}`
-- Continuation number: `{{CONTINUATION_NUMBER}}`
-- Schedule deadline: `{{DEADLINE}}` (`Asia/Shanghai`)
+- Run ID: `2026-10-05-day-06-07`
+- Run date: `2026-10-05`
+- Continuation number: `2`
+- Schedule deadline: `2026-10-06T15:00:00+08:00` (`Asia/Shanghai`)
 
 The normal 16:00 schedule reaches its closeout at 15:00 the following day. Stop opening
 new research routes at the deadline and use the remaining 15:00–16:00 buffer for the
@@ -70,3 +70,36 @@ publication steps: after required checks pass, Codex explicitly stages, commits 
 pushes the run-owned publishable files through `check.md` H3. Do not defer to the weekly
 gate. Preserve unrelated inherited changes and all protected/raw boundaries. A mid-run
 checkpoint does not publish unless it is also the recorded closeout.
+
+<!-- DAILY_LEARNING_CURRICULUM_COVERAGE_V1 -->
+## Curriculum card completion record
+In the report's Run state include exactly these two machine-readable list lines:
+- completed_day_indices: [N, ...]
+- partial_day_indices: [N, ...]
+Count a card only after every deliverable on that Day card is complete. For every completed day, add `- Day N card audit: complete` under Run state and a `### Day N card completion audit` table with at least four Day-matrix deliverables, each linked to an evidence locator/artifact and marked complete. Partial previews go only in partial_day_indices. List cards contiguously from the requested day; at most one next-day card may be advanced in one run.
+For a completed Day 7 card also include these exact audit lines:
+- Day 7 scorecard: complete
+- Day 7 weekly REFLECT: complete
+
+<!-- DAILY_LEARNING_TIME_GATE_V1 -->
+## 时间判断与学习收束
+候选问题或来源达到局部证据饱和时，先读取最新 Runtime schedule snapshot；手动恢复且没有新快照时，调用当前时间工具，并按 Asia/Shanghai 与回执中的 overnight_until 比较。
+距离硬截止至少 120 分钟：继续当前高信息问题；若当前选定问题已饱和，检查下一张未完成日卡，只有其全部交付项能在剩余时段完成时才整卡前移。
+距离硬截止 90–119 分钟：继续当前问题或做有边界的预览，不给下一日卡完整学分。少于 90 分钟：不打开新来源或新卡，只完成当前分析。硬截止后停止研究，用 15:00–16:00 收束。
+不能仅因两个候选槽位饱和而提前结束；须重建候选池、检查下一张可行日卡，并记录时间快照和决定。用户明确停止、硬证据/数据/权限阻塞或运行故障可提前结束，但必须保留未完成状态和续接命令。
+每次调用生成的新 Runtime snapshot 优先于本文件中的旧快照。课程学分只沿连续完整日卡推进；部分预览不得推进 next_day_index。
+
+<!-- DAILY_LEARNING_RUNTIME_SNAPSHOT_START -->
+## Runtime schedule snapshot
+- now_local: 2026-10-05T18:35:10.075391+08:00
+- hard_deadline: 2026-10-06T15:00:00+08:00
+- next_scheduled_start: 2026-10-06T16:00:00+08:00
+- minutes_to_deadline: 1224
+- minutes_to_next_start: 1284
+- closeout_decision: continue-or-advance
+- Next card candidate: Day 8 (角动量耦合-选择定则与多极性).
+The requested card and its immediate forward card are already complete. This run may credit only those contiguous cards; do not credit another card. Continue a bounded high-value issue or preview without advancing the curriculum.
+If closeout_decision is continue-current-or-partial, stay within the current issue or do one bounded preview; do not claim a whole next card.
+If closeout_decision is finish-current-no-new-unit, finish only the current bounded analysis and do not open another source/card. If it is closeout-only, stop research and finalize.
+Before ending early for evidence saturation, refresh the clock and candidate pool; saturation of the two selected slots alone is not schedule-level saturation while a viable next-card route remains.
+<!-- DAILY_LEARNING_RUNTIME_SNAPSHOT_END -->

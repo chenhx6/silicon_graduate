@@ -45,6 +45,7 @@ python -m unittest discover -s system/tests -p "test_*.py" -v
 - [ ] `system/memory.md` 只保存稳定规则与用户确认过的偏好，不保存临时聊天摘要。
 - [ ] 已判断本次是否需要更新 `USER_GUIDE.md`；需要时已经同步。
 - [ ] 本次规则修改已同步到 `AGENTS.md`、`check.md` 和相应工作流。
+- [ ] 每日学习遇到问题/来源局部饱和时，先核对实时钟和硬截止，再检查下一张未完成日卡；15:00 前不把 checkpoint 或局部饱和当作全日收束，15:00–16:00 只做 closeout；逐卡完成审计通过后才推进状态。
 - [ ] 本轮写入前已通过 `python3 system/scripts/wiki_boundary_check.py --root .`；`docs/plans/` 不存在，任务计划使用 `outputs/plans/`。
 - [ ] 报告、计划、回执或调度状态中的可复用知识已同步到 `knowledge/` canonical 页面，并在输出中列出知识路径与 source locator；没有把 outputs 当作长期事实源。
 - [ ] 每日学习日报包含唯一 `knowledge-writeback` JSON 区块；每个 item 的 knowledge anchor、source path 和 locator/claim ID 在正文中存在，`updated` 有运行前后 knowledge 变更，`verified-no-op` 有 grounded page 与无变化理由。

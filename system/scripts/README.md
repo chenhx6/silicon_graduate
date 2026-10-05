@@ -80,9 +80,14 @@ session，不复用固定 session。`run.json` 保存 `session_id`、
 记录实际截止。
 首个 `codex exec`
 完成后，runner 在同一 session 内调用 `codex exec resume <session_id>` 发送 continuation
-prompt，继续处理下一个高信息增益问题；receipt 记录 `overnight_until`、
-`continuation_count` 和每个 continuation 的事件文件。`acceptance` 模式不启用 overnight
-续接，也不会推进 substantive day state。
+prompt，继续处理下一个高信息增益问题；每轮都核对实时钟快照。问题局部饱和不能单独
+结束 schedule：剩余至少 120 分钟时检查当前问题和下一张未完成日卡，完整交付能放入窗口时
+才前移；剩余 90–119 分钟只继续当前问题或做有限预览；不足 90 分钟不再开新来源/日卡。
+硬截止后 runner 发一轮 closeout-only continuation。receipt 记录 `overnight_until`、
+`continuation_count`、每轮 prompt/事件文件、收束时间快照和逐卡完成审计。continuation 上限
+只限制单批计数；达到后 runner 在同一 session 内滚动批次并继续，不因此提前结束。每张完整日卡必须
+附至少四项矩阵交付审计与证据/产物定位，Day 7 另需完整评分表和周度 REFLECT。`acceptance`
+模式不启用 overnight 续接，也不会推进 substantive day state。
 
 这个 `wiki-daily-learning` 是 Docker 内的 Wiki-local schedule，不会自动出现在
 Codex GUI 的 Scheduled 列表中；GUI schedule 由宿主机/应用侧单独管理。要恢复某次

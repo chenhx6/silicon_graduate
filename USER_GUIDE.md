@@ -35,7 +35,7 @@ Wiki 可在不同操作系统和 AI 工具环境中使用；`.codex/`、`.obsidi
 
 完整 L0–L4、每周自测、P0/P1 和人工关口只在 [autonomous-research workflow](system/workflows/autonomous-research.md) 维护。常用触发示例：`摄入 <文献>` 默认完成 L0–L2；`开始 L3 研究：<问题>` 启动课题调查。30 天 daily-learning 是用户明确授权的 L1–L4 例外，可直接使用可访问数据和联网来源；`:danger-full-access` 在该 Docker 计划中是有意启用的运行方式。每周自测有实质变化时先建立本地 WIP 和集中 P0/P1 报告，经你审核后才发布。
 
-90 天持续学习由 [continuous-learning workflow](system/workflows/continuous-learning.md) 和 [learning queue](system/learning-queue.md) 管理；当前先执行一个重新计数的 30 天实质周期。Docker 内 daemon 每日 22:00（Asia/Shanghai）触发独立新 session；每个回执保存 `session_id` 和 `resume_command`，便于回到某日讨论。2–3 小时是 checkpoint，不是硬停止，不限制主题或论文数量；允许使用 arXiv、NNDC/ENSDF、Google Scholar、Crossref 及出版商/机构页面，达到里程碑或信息增益下降才收敛。可复用知识增量写入 `knowledge/`，日报和运行交代写入 `outputs/`。
+90 天持续学习由 [continuous-learning workflow](system/workflows/continuous-learning.md) 和 [learning queue](system/learning-queue.md) 管理；当前先执行一个重新计数的 30 天实质周期。Docker 内 daemon 每日 16:00（Asia/Shanghai）触发独立新 session；每个回执保存 `session_id` 和 `resume_command`，便于回到某日讨论。2–3 小时是 checkpoint，不是硬停止。默认次日 15:00 才停止新增研究，15:00–16:00 收束；若问题局部饱和且仍有较长时段，runner 核对实时时钟和下一张未完成日卡后继续学习。提前结束须留下时间快照、已检查路线和续接命令。可用 arXiv、NNDC/ENSDF、Google Scholar、Crossref 及出版商/机构来源。可复用知识写入 `knowledge/`，日报和运行交代写入 `outputs/`。
 - `system/log.md`：只追加的操作历史；
 - `check.md`：系统与科学质量检查。
 

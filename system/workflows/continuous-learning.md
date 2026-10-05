@@ -84,9 +84,11 @@ python3 system/scripts/run_daily_learning_daemon.py --root /workspace/wiki
 4. 建立 source-to-source 与 source-to-knowledge 双向链接，检查门条件、背景、分辨率、feeding、效率、响应和必要伴随观测。
 5. 写回 source、关联页、问题页、当日记录和可恢复状态；必要时把开放问题去重后写入 `knowledge/questions.md`。
 
-约 2 小时和 3 小时只做 checkpoint：记录已完成内容、剩余证据、当前信息增益、资源/验证余量，然后决定继续、切换或收敛。对 16:00–次日 15:00 的 daily schedule，checkpoint 不是结束信号；runner 会在同一 session 中发送 continuation prompt，继续切换到下一个高信息增益问题，直到次日 15:00、硬阻塞或证据确实饱和。15:00 停止新增研究并开始收束，留出 15:00–16:00 完成日报、知识回写、验证、receipt 和次日提示词。截止日按本次 `run_date` 固定为次日；即使在 15:00 前手动开始也不会缩短到当天 15:00。平台运行上限只允许用 handoff/continuation 分段，不能截断论文主线或把未读内容标成完成。
+约 2 小时和 3 小时只做 checkpoint：记录已完成内容、剩余证据、当前信息增益、资源/验证余量，然后决定继续、切换或收敛。对每日计划，每次 checkpoint、问题完成或来源饱和都先读取最新运行时钟快照。至少还剩 120 分钟时，继续当前高信息问题；若已选问题局部饱和，重建候选池并检查下一张未完成日卡，只有其完整交付项能在剩余时段完成时才整卡前移。还剩 90–119 分钟时继续当前问题或做有边界的预览；不足 90 分钟时不打开新来源或新卡，只完成当前分析。
 
-真正的停止条件是：达到当前主题里程碑；继续阅读的信息增益明显下降；关键来源、数据或 locator 缺失；权限、配额、资源或执行稳定性不足；或下一步需要用户科学判断/真实数据授权。停止时必须留下剩余 gap、依据、下一步和 continuation prompt。
+正常 16:00 启动的硬研究截止是次日 15:00，15:00 停止新增研究，15:00–16:00 用于日报、知识回写、验证、receipt、下一日提示词和发布。局部证据饱和本身不能结束整个学习时段；只有候选池与下一张可行日卡都无高价值路线，或遇到硬来源/数据/权限/运行阻塞，才可提前停止。提前停止必须报告当前时刻、与硬截止的间隔、已检查的候选/课程卡、未完成项及精确 continuation 命令。用户明确停止立即生效。截止日按本次 `run_date` 固定为次日；手动提前启动也不会缩短到当天 15:00。课程卡只按连续、完整且有交付审计的卡推进；预览不计学分。平台运行上限只允许用 handoff/continuation 分段，不能截断论文主线或把未读内容标成完成。
+
+runner 的 continuation 次数上限按批次计数；达到上限时只滚动计数批次，同一 session 继续研究，不能提前收束或推进状态。
 
 ## 选文献、独立性与互链
 
@@ -99,7 +101,7 @@ python3 system/scripts/run_daily_learning_daemon.py --root /workspace/wiki
 
 ## 持久化产物
 
-每日记录写入 [`outputs/learning-daily/`](../../outputs/learning-daily/)，文件名使用 `YYYYMMDD-DAYn-english-topic-slug.md`；实质记录至少包含：运行日期/时区、主题与候选池、每个问题的选择理由、来源指纹与重叠、checkpoint、关键 claim/locator/证据层、支持与反证、链接增量、Knowledge Impact and Learning Decision、开放问题、停止/续跑原因、L0–L4 状态和 Git/权限结果。文件名使用 ASCII English slug 以避免路径乱码；日报正文和解释尽量使用中文。实质日成功完成后，runner 同步生成下一日的 `outputs/learning-daily/prompts/YYYYMMDD-DAYn-english-topic-slug.md` 供预览和下一次 schedule 使用。可复用的知识增量必须写入 `knowledge/` 的 source、project、synthesis、question、research-note 或矩阵页面，并在日报中列出 canonical 路径；outputs 只保存日报、周报、审计、回执、调度状态和计划书。无实质新知时写短的 verified no-op receipt，不制造空提交。
+每日记录写入 [`outputs/learning-daily/`](../../outputs/learning-daily/)，文件名使用 `YYYYMMDD-DAYn-english-topic-slug.md`；实质记录至少包含：运行日期/时区、主题与候选池、每个问题的选择理由、来源指纹与重叠、checkpoint、关键 claim/locator/证据层、支持与反证、链接增量、Knowledge Impact and Learning Decision、开放问题、时间快照、已完成/部分课程卡及交付审计、停止/续跑原因、L0–L4 状态和 Git/权限结果。文件名使用 ASCII English slug 以避免路径乱码；日报正文和解释尽量使用中文。15:00 收束后，runner 按完整课程卡审计推进里程碑，并为下一个未完成日卡生成提示词；部分卡会在下一运行续接，不推进学分。可复用的知识增量必须写入 `knowledge/` 的 source、project、synthesis、question、research-note 或矩阵页面，并在日报中列出 canonical 路径；outputs 只保存日报、周报、审计、回执、调度状态和计划书。无实质新知时写短的 verified no-op receipt，不制造空提交。
 
 每周写入 [`outputs/learning-weekly/`](../../outputs/learning-weekly/)：覆盖范围、互链缺口、反证、独立性、下一批候选和 belief revision；不以固定论文数达标。阶段报告、调度状态和运行回执写入 `outputs/learning-milestones/`；论文证据矩阵、研究地图和其它可复用知识写入 `knowledge/`。QMD 只在多篇完成、跨来源综合或明确需要时批量刷新；单篇完成可记录 deferred。
 
