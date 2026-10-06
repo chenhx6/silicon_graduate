@@ -1,0 +1,81 @@
+{
+  "exercise_kind": "synthetic-L2-algebra",
+  "evidence": "Rose-Brink 1967 printed p.320 / PDF p.15; Eqs.3.28,3.36,3.41",
+  "no_measured_energies_lifetimes_or_detector_response": true,
+  "results": [
+    {
+      "case": "A",
+      "Ji": "3/2",
+      "pi_i": 1,
+      "Jf": "1/2",
+      "pi_f": -1,
+      "delta_J_abs": "1",
+      "Ji_plus_Jf": "2",
+      "allowed_gamma_candidates": [
+        "E1",
+        "M2"
+      ],
+      "allowed_nonphoton_E0": false,
+      "single_gamma_even_K_by_initial_spin": [
+        0,
+        2
+      ]
+    },
+    {
+      "case": "B",
+      "Ji": "2",
+      "pi_i": 1,
+      "Jf": "2",
+      "pi_f": 1,
+      "delta_J_abs": "0",
+      "Ji_plus_Jf": "4",
+      "allowed_gamma_candidates": [
+        "M1",
+        "E2",
+        "M3",
+        "E4"
+      ],
+      "allowed_nonphoton_E0": true,
+      "single_gamma_even_K_by_initial_spin": [
+        0,
+        2,
+        4
+      ]
+    },
+    {
+      "case": "C",
+      "Ji": "3",
+      "pi_i": 1,
+      "Jf": "1",
+      "pi_f": 1,
+      "delta_J_abs": "2",
+      "Ji_plus_Jf": "4",
+      "allowed_gamma_candidates": [
+        "E2",
+        "M3",
+        "E4"
+      ],
+      "allowed_nonphoton_E0": false,
+      "single_gamma_even_K_by_initial_spin": [
+        0,
+        2,
+        4,
+        6
+      ]
+    }
+  ],
+  "negative_controls": {
+    "0plus_to_0plus_gamma": [],
+    "halfplus_to_halfplus_gamma": [
+      "M1"
+    ],
+    "0plus_to_1plus_gamma": [
+      "M1"
+    ],
+    "parity_reversed_A": [
+      "M1",
+      "E2"
+    ]
+  },
+  "checks_passed": true
+}

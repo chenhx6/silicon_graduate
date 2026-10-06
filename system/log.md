@@ -1519,3 +1519,10 @@ The user asked where the Day8 prompt was. The Day7 receipt had next_prompt_file=
 ## 2026-10-06 formal Day8 prompt published
 
 Following the user question about the missing Day8 prompt, the formal Day8 card prompt at outputs/learning-daily/prompts/20261007-DAY8-angular-momentum-selection-rules-multipolarity.md was published for the 2026-10-07 16:00 scheduled run. It uses the existing Day8 matrix card and existing LKH82/RB67 sources; no Day8 run was started and course state remains next_day_index=8, completed_day_count=7. Boundary, lint and diff checks passed; the prompt was pushed to Gitee in commit Add formal Day8 prompt after user follow-up, hash 8aa89338b4150156548016b26673fa388b784a6b.
+
+
+## 2026-10-07 formal DAY8 continuing checkpoint
+
+用户以 farmer/go-on/all/auto 恢复正式Day8并允许subagents。本日新session为01a111fb-370d-7ed1-afe9-881ccc47caf4，receipt使用用户指定multipolarity-run-01；继承的multipoles-run-01/02保留未计卡。独立prompt-primed recall、LKH82/RB67原图约定核对、三条合成gamma全候选和证据依赖表已完成，四个knowledge页实际更新。两个raw哈希匹配，raw、PLAN、既有dirty daemon与review flags不变。日报card audit和runner report/writeback/coverage validators通过，course state仍next=8、completed=7；没有final学习收束。
+
+新同session计时脚本及23项目标测试通过，于01:50 Asia/Shanghai启动并持有daemon/runner双锁。它每2小时向同session排队检查点，10月8日15:00提醒收束，心跳/queue接受/实际执行分开留证。Farmer原watcher保留。原始deadline不因提前手动启动缩短；下一步继续Day8高信息问题并按时间门最多预习一张无学分Day9，15:00–16:00准备DAY9计划prompt、最终检查、state及Gitee发布。当前checkpoint发布状态在本run receipt中对账。

@@ -1,12 +1,26 @@
 ---
 type: system-handoff
 graph-excluded: true
-updated: 2026-10-06
+updated: 2026-10-07
 ---
 
 # 跨会话交接
 
-## Active handoff — DAY7 resumed window closed; Day8 pre-study uncredited
+## Active handoff — 正式 DAY8 持续学习；次日 15:00 收束
+
+当前任务是正式 Day8 的选择定则、多极候选、δ 相位和观测依赖学习。用户调用 farmer/go-on/all/auto 并授权本任务自主执行与 subagents；原生 goal 保持 active。本日卡内容已由新 recall、原图核对、合成练习和五行 card audit 独立完成，学习窗口继续，不提前 final。日报：outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity.md。课程 state 仍 next_day_index=8 / completed_day_count=7；Day9 预习只可 partial/uncredited，不打开 Day10。
+
+硬截止保持 2026-10-08 15:00 Asia/Shanghai，15:00–16:00 收束并生成 DAY9 学习计划与 prompt。当前是用户提前手动恢复的本日新 session 01a111fb-370d-7ed1-afe9-881ccc47caf4；正式 receipt：outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/run.json。Resume：codex resume 01a111fb-370d-7ed1-afe9-881ccc47caf4 -C /workspace/wiki -s danger-full-access -a never。继承的 multipoles-run-01/02 未计卡，保留不覆盖。
+
+本轮实际修正与可复用分析已写回 LKH82/RB67 source、multipole-mixing-ratio observable 和 spin-parity-assignment method 四页：完整带能量归一化的 KS/RB δ、第一/第二 gamma 与 absorption 相位、even-K 条件、angular K/photon L 区分、三题高阶全候选、E0/ICC/lifetime 分支边界与独立性表。Source 原有 review flags 未清除；合成题没有实验/核素身份。两份 raw 哈希匹配，原图与实际本轮阅读覆盖已记录。
+
+运行监督：新 run_learning_session_clock.py 在 01:50 Asia/Shanghai 启动，初始pid 105112，加载Farmer取消控制后重启为pid 110255；实际 PID/心跳以本 run 的 clock-state.json 为准。它持有 daemon/runner 双锁，每两小时向同 session 排队 checkpoint，并于硬截止提醒收束；queue exit 0 只记 accepted/queued，后续 turn 另核执行，不以心跳计研究时长。Farmer pid 87927 在线，身份/实际状态以其 status 为准。计时脚本的35项目标回归通过，新增取消/人工处理停止及Farmer独占恢复控制；原先已queued两条事件去重保留；没有另行启动日 daemon。
+
+继承 dirty system/scripts/run_daily_learning_daemon.py 仍保持原哈希，不纳入本轮 stage。Raw、PLAN 与课程 state 保留；新 baseline 保存 562 页知识哈希和 Git 初态。本检查点已本地提交，稳定Git指针为branch main + subject Checkpoint DAY8 conventions and timed learning；完整 final 及 state 推进留到 15:00 收束。已有日报/report/writeback/card validators 通过，boundary、lint、diff 的首轮检查通过；final closeout 必须用同一 baseline 再验收，不能把早期通过当最终门。
+
+下一步：继续 Day8 的完整多成分识别性、截断/级联相位负例，局部饱和后按实时钟预习恰好一张 Day9。到 15:00 停新研究，完成日报/知识、runner card/writeback 验收与 Gitee 非 force 发布，再按 update_state_for_curriculum_cards 保存仅 Day8 学分、生成明日计划与 prompt。用户停止时停止计时进程并留 receipt，不让后台提示自动重启。当前没有需用户裁决的技术 hard P0；未观测数据/响应/协方差边界由 Codex 继续追踪，不进入伪 L4。
+
+## Previous active handoff — DAY7 resumed window closed; Day8 pre-study uncredited
 
 The first DAY7 closeout was recorded at 2026-10-06 16:35 Asia/Shanghai with 1344 minutes still before the run hard deadline. That stopped at card completion and treated the original prompt's Day8 exclusion as a schedule-level stop. The user challenged the early closeout and clarified that, when substantial time remains, knowledge from exactly the next day's card may be pre-studied while keeping today's day-index and withholding course credit. The run resumed after a 20:33 clock check; this time-gate rule is now persisted in AGENTS.md, the continuous-learning workflow, daily prompt templates, check.md and both user guides.
 

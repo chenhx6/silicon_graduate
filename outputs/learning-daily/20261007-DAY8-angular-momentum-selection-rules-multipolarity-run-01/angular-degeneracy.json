@@ -1,0 +1,275 @@
+{
+  "schema_version": 1,
+  "created_utc": "2026-10-06T20:22:13.337268+00:00",
+  "kind": "synthetic-symbolic-angular-distribution",
+  "learning_level": "L2",
+  "evidence_status": "reproducible exact algebra from source formulas; not experimental evidence or an L4 finding",
+  "question": {
+    "Ji": "3/2",
+    "initial_parity": "+",
+    "Jf": "1/2",
+    "final_parity": "-",
+    "allowed_single_photon_multipoles": [
+      "E1",
+      "M2"
+    ],
+    "helicity_summed_max_even_K": 2
+  },
+  "assumptions": [
+    "Fixed synthetic spins and definite parities; no nuclide or measured transition is assigned.",
+    "Initial bra / final ket: <Ji||T_L^pi||Jf>, using RB interaction multipoles with their energy and phase coefficients.",
+    "pi=0 for electric and pi=1 for magnetic; state parity uses separate signs.",
+    "Real amplitudes under the RB time-reversal/operator conditions; delta=a_M2/a_E1.",
+    "a_Lpi=<Ji||T_L^pi||Jf>/sqrt(2L+1); no KS E2/M1 0.835 coefficient is used.",
+    "Ideal axial population w(+3/2)=w(-3/2)=1/2, w(+1/2)=w(-1/2)=0.",
+    "Photon polarization and final nuclear spin direction are unobserved; no detector attenuation, geometry averaging or background is introduced.",
+    "E1 and M2 exhaust this case's allowed single-photon multipoles because 1<=L<=2; no extra higher-L truncation is needed.",
+    "W has unit angular average and P0 coefficient 1. The probability density normalized over solid angle is W/(4*pi)."
+  ],
+  "source": {
+    "path": "knowledge/sources/rose-brink-1967-phase-defined-angular-distributions.md",
+    "doi": "10.1103/RevModPhys.39.306",
+    "raw_path": "raw/papers/gpt/high-spin-20260920/multipolarity/mixing ratio/1967_Rose et al_Angular Distributions of Gamma Rays in Terms of Phase-Defined Reduced Matrix Elements.pdf",
+    "raw_sha256": "8f846b61b9320de291ee5600126c5e286a0fe05968df819696816f0dc1ec57dc"
+  },
+  "source_locators": {
+    "R_definition": "printed p.319 / PDF p.14, Eq.3.36",
+    "R0_normalization": "printed p.318 / PDF p.13, Eq.3.34",
+    "R_swap_symmetry": "printed p.318 / PDF p.13, paragraph after Eq.3.32",
+    "B_definition": "printed p.317 / PDF p.12, Eq.3.28",
+    "delta_definition": "printed p.319 / PDF p.14, Eq.3.39",
+    "two_multipole_W": "printed p.321 / PDF p.16, Eq.3.47",
+    "operator_and_realness": "printed pp.315-316 / PDF pp.10-11, Eqs.3.20-3.23; printed p.318 / PDF p.13, Eq.3.32 note(v)",
+    "state_time_reversal_phase": "printed p.310 / PDF p.5, Eq.2.23",
+    "single_photon_selection_and_even_K": "printed p.320 / PDF p.15, Eqs.3.40-3.41 and accompanying notes",
+    "folded_population": "printed p.324 / PDF p.19, Eqs.3.62-3.63"
+  },
+  "formulas": {
+    "R_K": "(-1)^(1+Ji-Jf+Lprime-L-K)*sqrt((2Ji+1)(2L+1)(2Lprime+1))*CG(L,Lprime;1,-1|K,0)*W(Ji,Ji,L,Lprime;K,Jf)",
+    "racah_6j_map": "W(a,b,c,d;e,f)=(-1)^(a+b+c+d)*six_j(a,b,e;d,c,f)",
+    "B_K": "sum_M w(M)*(-1)^(Ji-M)*sqrt(2Ji+1)*CG(Ji,Ji;M,-M|K,0)",
+    "a2": "(-delta**2 + 2*sqrt(3)*delta + 1)/(2*(delta**2 + 1))",
+    "a2_difference_from_pure_E1": "-delta*(delta - sqrt(3))/(delta**2 + 1)",
+    "W": "1+a2(delta)*P2(cos(theta))",
+    "P2": "(3*cos(theta)^2-1)/2",
+    "alpha_definition": "alpha=atan(delta), -pi/2<alpha<pi/2, with pure-M2 limits at the endpoints",
+    "a2_alpha": "cos(2*alpha-pi/3)",
+    "equal_distributions": "W(theta,0)=W(theta,sqrt(3))=1+P2(cos(theta))/2 for every theta"
+  },
+  "exact_R": {
+    "0": {
+      "11": "1",
+      "12": "0",
+      "21": "0",
+      "22": "1"
+    },
+    "2": {
+      "11": "1/2",
+      "12": "sqrt(3)/2",
+      "21": "sqrt(3)/2",
+      "22": "-1/2"
+    },
+    "4": {
+      "11": "0",
+      "12": "0",
+      "21": "0",
+      "22": "0"
+    }
+  },
+  "R_clebsch_racah_components": [
+    {
+      "K": 0,
+      "L": 1,
+      "Lprime": 1,
+      "phase": "1",
+      "prefactor": "6",
+      "CG": "sqrt(3)/3",
+      "Racah": "sqrt(3)/6",
+      "R": "1"
+    },
+    {
+      "K": 0,
+      "L": 1,
+      "Lprime": 2,
+      "phase": "-1",
+      "prefactor": "2*sqrt(15)",
+      "CG": "0",
+      "Racah": "0",
+      "R": "0"
+    },
+    {
+      "K": 0,
+      "L": 2,
+      "Lprime": 1,
+      "phase": "-1",
+      "prefactor": "2*sqrt(15)",
+      "CG": "0",
+      "Racah": "0",
+      "R": "0"
+    },
+    {
+      "K": 0,
+      "L": 2,
+      "Lprime": 2,
+      "phase": "1",
+      "prefactor": "10",
+      "CG": "-sqrt(5)/5",
+      "Racah": "-sqrt(5)/10",
+      "R": "1"
+    },
+    {
+      "K": 2,
+      "L": 1,
+      "Lprime": 1,
+      "phase": "1",
+      "prefactor": "6",
+      "CG": "sqrt(6)/6",
+      "Racah": "sqrt(6)/12",
+      "R": "1/2"
+    },
+    {
+      "K": 2,
+      "L": 1,
+      "Lprime": 2,
+      "phase": "-1",
+      "prefactor": "2*sqrt(15)",
+      "CG": "sqrt(2)/2",
+      "Racah": "-sqrt(10)/20",
+      "R": "sqrt(3)/2"
+    },
+    {
+      "K": 2,
+      "L": 2,
+      "Lprime": 1,
+      "phase": "-1",
+      "prefactor": "2*sqrt(15)",
+      "CG": "sqrt(2)/2",
+      "Racah": "-sqrt(10)/20",
+      "R": "sqrt(3)/2"
+    },
+    {
+      "K": 2,
+      "L": 2,
+      "Lprime": 2,
+      "phase": "1",
+      "prefactor": "10",
+      "CG": "sqrt(14)/14",
+      "Racah": "-sqrt(14)/20",
+      "R": "-1/2"
+    }
+  ],
+  "exact_B": {
+    "0": "1",
+    "1": "0",
+    "2": "1",
+    "3": "0",
+    "4": "0"
+  },
+  "root_demonstration": {
+    "synthetic_target_a2": "1/2",
+    "equation": "delta*(sqrt(3)-delta)/(1+delta^2)=0",
+    "real_roots": [
+      "0",
+      "sqrt(3)"
+    ],
+    "branches": [
+      {
+        "delta": "0",
+        "alpha": "0",
+        "E1_radiative_fraction": "1",
+        "M2_radiative_fraction": "0",
+        "a2": "1/2"
+      },
+      {
+        "delta": "sqrt(3)",
+        "alpha": "pi/3",
+        "E1_radiative_fraction": "1/4",
+        "M2_radiative_fraction": "3/4",
+        "a2": "1/2"
+      }
+    ],
+    "scope": "A full ideal normalized angular shape can be degenerate even with exact known alignment. No count data, covariance or statistical confidence is supplied."
+  },
+  "appendix_image_checks": [
+    {
+      "locator": "printed p.339 / PDF p.34, Angular Distribution Coefficients R_k(LLprime J1J2), Ji=3/2 Jf=1/2 row, k=2 LL/LLprime/LprimeLprime columns",
+      "printed_decimals": {
+        "11": "0.5000",
+        "12": "0.8660",
+        "22": "-0.5000"
+      },
+      "symbolic_values": {
+        "11": "1/2",
+        "12": "sqrt(3)/2",
+        "22": "-1/2"
+      },
+      "precision": "matches the printed four decimal rounding; 0.8660 is not used as an exact value",
+      "image": "tmp/day8-20261007/rose-brink/p339-pdf34-table-rotated.png"
+    },
+    {
+      "locator": "printed p.340 / PDF p.35, R_k table footnote a",
+      "definition": "L is the lowest multipolarity allowed by J1 and J2; Lprime=L+1. For this case L=1 and Lprime=2.",
+      "image": "tmp/day8-20261007/rose-brink/p340-pdf35.png"
+    },
+    {
+      "locator": "printed p.347 / PDF p.42, Statistical Tensor Coefficients rho_k(J1M1), J1=3/2 k=2 row",
+      "printed_values": {
+        "M=1/2": "-2.0000",
+        "M=3/2": "2.0000"
+      },
+      "folding_rule": "Eq.3.62 sums nonnegative M with the original full-distribution weight w(M); rho already includes the factor 2. Thus B2=(1/2)*2=1, not 2.",
+      "image": "tmp/day8-20261007/rose-brink/p347-pdf42.png"
+    }
+  ],
+  "limits_and_negative_controls": {
+    "pure_E1_delta_0_a2": "1/2",
+    "pure_M2_abs_delta_infinity_a2": "-1/2",
+    "opposite_sign_delta_minus_sqrt3_a2": "-1",
+    "maximum_a2": {
+      "delta": "1/sqrt(3)",
+      "a2": "1"
+    },
+    "minimum_a2": {
+      "delta": "-sqrt(3)",
+      "a2": "-1"
+    },
+    "physical_a2_range": "[-1,1] from eigenvalues of the symmetric R2 matrix",
+    "isotropic_population": "w(M)=1/4 for all four substates gives B2=0, hence W=1 for every delta",
+    "K4_negative_control": "All R4 pair coefficients and B4 are zero; E1/M2 here cannot supply A4.",
+    "phase_control": "Changing delta sign while holding the RB R coefficients fixed changes the angular shape; convention mapping must transform both."
+  },
+  "exact_checks": {
+    "population_normalization": true,
+    "B0_one": true,
+    "B2_one": true,
+    "B_odd_zero": true,
+    "B4_rank_bound_zero": true,
+    "R0_diagonal_one": true,
+    "R0_cross_zero": true,
+    "R_L_swap_symmetric": true,
+    "R4_zero": true,
+    "P0_coefficient_one": true,
+    "angular_average_one": true,
+    "R2_matrix_squared_identity": true,
+    "exact_target_roots": true,
+    "whole_distribution_identical": true,
+    "opposite_delta_sign_is_not_same_output": true,
+    "pure_M2_limit": true,
+    "isotropic_B2_zero": true,
+    "appendix_R2_matches_four_decimals": true,
+    "appendix_rho2_folded_population_matches_B2": true,
+    "racah_six_j_convention_matches": true
+  },
+  "error_boundary": "Exact SymPy arithmetic for all formulas/roots/checks; decimal evaluation is used only to compare published table rounding. No experimental uncertainty or detector model is claimed.",
+  "reproduction": {
+    "python": "3.12.3",
+    "sympy": "1.14.0",
+    "mpmath": "1.3.0",
+    "isolated_dependencies": "tmp/day8-20261007/rose-brink/python-deps",
+    "dependency_command": "python3 -m pip install --target tmp/day8-20261007/rose-brink/python-deps --no-cache-dir --disable-pip-version-check --index-url https://pypi.org/simple sympy==1.14.0 mpmath==1.3.0",
+    "run_command": "python3 tmp/day8-20261007/rose-brink/angular_degeneracy.py",
+    "script_sha256": "62ed86889c0728e3e16e71778abfd9456bda070eda8f3abea565688139d04b55",
+    "script_source": "#!/usr/bin/env python3\n\"\"\"Exact RB E1/M2 exercise; synthetic inputs, no measured data or fit.\"\"\"\nfrom pathlib import Path\nimport datetime\nimport hashlib\nimport json\nimport platform\nimport sys\n\nROOT = Path('/workspace/wiki')\nTMP = ROOT / 'tmp/day8-20261007/rose-brink'\nsys.path.insert(0, str(TMP / 'python-deps'))\nimport sympy as sp\nimport mpmath\nfrom sympy.physics.wigner import clebsch_gordan, racah, wigner_6j\n\nJI, JF = sp.Rational(3, 2), sp.Rational(1, 2)\nDELTA, X, ALPHA = sp.symbols('delta x alpha', real=True)\nPAIRS = [(1, 1), (1, 2), (2, 1), (2, 2)]\n\n\ndef phase(exponent):\n    return sp.Integer(-1) ** exponent\n\n\ndef R(K, L, LP):\n    \"\"\"Rose-Brink Eq.3.36, initial spin JI on the left.\"\"\"\n    return sp.simplify(\n        phase(1 + JI - JF + LP - L - K)\n        * sp.sqrt((2 * JI + 1) * (2 * L + 1) * (2 * LP + 1))\n        * clebsch_gordan(L, LP, K, 1, -1, 0)\n        * racah(JI, JI, L, LP, K, JF)\n    )\n\n\ndef B(K, weights):\n    \"\"\"Rose-Brink Eq.3.28; weights use the full -JI..+JI sum.\"\"\"\n    return sp.simplify(sum(\n        weight * phase(JI - M) * sp.sqrt(2 * JI + 1)\n        * clebsch_gordan(JI, JI, K, M, -M, 0)\n        for M, weight in weights.items()\n    ))\n\n\nWEIGHTS = {JI: sp.Rational(1, 2), -JI: sp.Rational(1, 2)}\nISOTROPIC = {M: sp.Rational(1, 4) for M in (-JI, -JF, JF, JI)}\nCOEFS = {K: {f'{L}{LP}': R(K, L, LP) for L, LP in PAIRS} for K in (0, 2, 4)}\nBK = {K: B(K, WEIGHTS) for K in range(5)}\nNORM = sp.simplify((COEFS[0]['11'] + 2 * DELTA * COEFS[0]['12']\n                    + DELTA**2 * COEFS[0]['22']) / (1 + DELTA**2))\nA2 = sp.simplify(BK[2] * (COEFS[2]['11'] + 2 * DELTA * COEFS[2]['12']\n                         + DELTA**2 * COEFS[2]['22']) / (1 + DELTA**2))\nTARGET = A2.subs(DELTA, 0)\nDIFFERENCE = sp.factor(sp.together(A2 - TARGET))\nROOTS = sp.solve(sp.together(A2 - TARGET), DELTA)\nP2 = sp.legendre(2, X)\nW = 1 + A2 * P2\nMATRIX = sp.Matrix([[COEFS[2]['11'], COEFS[2]['12']],\n                   [COEFS[2]['21'], COEFS[2]['22']]])\nTABLE_R2 = {'11': '0.5000', '12': '0.8660', '22': '-0.5000'}\n\nCHECKS = {\n    'population_normalization': sum(WEIGHTS.values()) == 1,\n    'B0_one': BK[0] == 1,\n    'B2_one': BK[2] == 1,\n    'B_odd_zero': BK[1] == BK[3] == 0,\n    'B4_rank_bound_zero': BK[4] == 0,\n    'R0_diagonal_one': COEFS[0]['11'] == COEFS[0]['22'] == 1,\n    'R0_cross_zero': COEFS[0]['12'] == COEFS[0]['21'] == 0,\n    'R_L_swap_symmetric': all(COEFS[K]['12'] == COEFS[K]['21'] for K in (0, 2, 4)),\n    'R4_zero': all(value == 0 for value in COEFS[4].values()),\n    'P0_coefficient_one': NORM == 1,\n    'angular_average_one': sp.simplify(sp.integrate(W, (X, -1, 1)) / 2) == 1,\n    'R2_matrix_squared_identity': sp.simplify(MATRIX * MATRIX) == sp.eye(2),\n    'exact_target_roots': set(ROOTS) == {sp.Integer(0), sp.sqrt(3)},\n    'whole_distribution_identical': sp.simplify(W.subs(DELTA, 0) - W.subs(DELTA, sp.sqrt(3))) == 0,\n    'opposite_delta_sign_is_not_same_output': A2.subs(DELTA, -sp.sqrt(3)) == -1,\n    'pure_M2_limit': sp.limit(A2, DELTA, sp.oo) == sp.Rational(-1, 2),\n    'isotropic_B2_zero': B(2, ISOTROPIC) == 0,\n    'appendix_R2_matches_four_decimals': all(f'{float(COEFS[2][pair]):.4f}' == val for pair, val in TABLE_R2.items()),\n    'appendix_rho2_folded_population_matches_B2': sp.Rational(1, 2) * 2 == BK[2],\n    'racah_six_j_convention_matches': all(sp.simplify(\n        racah(JI, JI, L, LP, K, JF)\n        - phase(2 * JI + L + LP) * wigner_6j(JI, JI, K, LP, L, JF)\n    ) == 0 for K in (0, 2, 4) for L, LP in PAIRS),\n}\nfailed = [name for name, ok in CHECKS.items() if not ok]\nif failed:\n    raise RuntimeError(f'Exact algebra checks failed: {failed}')\n\nRAW = ROOT / 'raw/papers/gpt/high-spin-20260920/multipolarity/mixing ratio/1967_Rose et al_Angular Distributions of Gamma Rays in Terms of Phase-Defined Reduced Matrix Elements.pdf'\nOUT = ROOT / 'outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/angular-degeneracy.json'\nscript_source = Path(__file__).read_text(encoding='utf-8')\nresult = {\n    'schema_version': 1,\n    'created_utc': datetime.datetime.now(datetime.timezone.utc).isoformat(),\n    'kind': 'synthetic-symbolic-angular-distribution',\n    'learning_level': 'L2',\n    'evidence_status': 'reproducible exact algebra from source formulas; not experimental evidence or an L4 finding',\n    'question': {'Ji': '3/2', 'initial_parity': '+', 'Jf': '1/2', 'final_parity': '-',\n                 'allowed_single_photon_multipoles': ['E1', 'M2'],\n                 'helicity_summed_max_even_K': 2},\n    'assumptions': [\n        'Fixed synthetic spins and definite parities; no nuclide or measured transition is assigned.',\n        'Initial bra / final ket: <Ji||T_L^pi||Jf>, using RB interaction multipoles with their energy and phase coefficients.',\n        'pi=0 for electric and pi=1 for magnetic; state parity uses separate signs.',\n        'Real amplitudes under the RB time-reversal/operator conditions; delta=a_M2/a_E1.',\n        'a_Lpi=<Ji||T_L^pi||Jf>/sqrt(2L+1); no KS E2/M1 0.835 coefficient is used.',\n        'Ideal axial population w(+3/2)=w(-3/2)=1/2, w(+1/2)=w(-1/2)=0.',\n        'Photon polarization and final nuclear spin direction are unobserved; no detector attenuation, geometry averaging or background is introduced.',\n        'E1 and M2 exhaust this case\\'s allowed single-photon multipoles because 1<=L<=2; no extra higher-L truncation is needed.',\n        'W has unit angular average and P0 coefficient 1. The probability density normalized over solid angle is W/(4*pi).',\n    ],\n    'source': {'path': 'knowledge/sources/rose-brink-1967-phase-defined-angular-distributions.md',\n               'doi': '10.1103/RevModPhys.39.306', 'raw_path': str(RAW.relative_to(ROOT)),\n               'raw_sha256': hashlib.sha256(RAW.read_bytes()).hexdigest()},\n    'source_locators': {\n        'R_definition': 'printed p.319 / PDF p.14, Eq.3.36',\n        'R0_normalization': 'printed p.318 / PDF p.13, Eq.3.34',\n        'R_swap_symmetry': 'printed p.318 / PDF p.13, paragraph after Eq.3.32',\n        'B_definition': 'printed p.317 / PDF p.12, Eq.3.28',\n        'delta_definition': 'printed p.319 / PDF p.14, Eq.3.39',\n        'two_multipole_W': 'printed p.321 / PDF p.16, Eq.3.47',\n        'operator_and_realness': 'printed pp.315-316 / PDF pp.10-11, Eqs.3.20-3.23; printed p.318 / PDF p.13, Eq.3.32 note(v)',\n        'state_time_reversal_phase': 'printed p.310 / PDF p.5, Eq.2.23',\n        'single_photon_selection_and_even_K': 'printed p.320 / PDF p.15, Eqs.3.40-3.41 and accompanying notes',\n        'folded_population': 'printed p.324 / PDF p.19, Eqs.3.62-3.63',\n    },\n    'formulas': {\n        'R_K': '(-1)^(1+Ji-Jf+Lprime-L-K)*sqrt((2Ji+1)(2L+1)(2Lprime+1))*CG(L,Lprime;1,-1|K,0)*W(Ji,Ji,L,Lprime;K,Jf)',\n        'racah_6j_map': 'W(a,b,c,d;e,f)=(-1)^(a+b+c+d)*six_j(a,b,e;d,c,f)',\n        'B_K': 'sum_M w(M)*(-1)^(Ji-M)*sqrt(2Ji+1)*CG(Ji,Ji;M,-M|K,0)',\n        'a2': sp.sstr(A2),\n        'a2_difference_from_pure_E1': sp.sstr(DIFFERENCE),\n        'W': '1+a2(delta)*P2(cos(theta))',\n        'P2': '(3*cos(theta)^2-1)/2',\n        'alpha_definition': 'alpha=atan(delta), -pi/2<alpha<pi/2, with pure-M2 limits at the endpoints',\n        'a2_alpha': 'cos(2*alpha-pi/3)',\n        'equal_distributions': 'W(theta,0)=W(theta,sqrt(3))=1+P2(cos(theta))/2 for every theta',\n    },\n    'exact_R': {str(K): {pair: sp.sstr(value) for pair, value in vals.items()} for K, vals in COEFS.items()},\n    'R_clebsch_racah_components': [\n        {'K': K, 'L': L, 'Lprime': LP,\n         'phase': sp.sstr(phase(1 + JI - JF + LP - L - K)),\n         'prefactor': sp.sstr(sp.sqrt((2 * JI + 1) * (2 * L + 1) * (2 * LP + 1))),\n         'CG': sp.sstr(clebsch_gordan(L, LP, K, 1, -1, 0)),\n         'Racah': sp.sstr(racah(JI, JI, L, LP, K, JF)),\n         'R': sp.sstr(COEFS[K][f'{L}{LP}'])}\n        for K in (0, 2) for L, LP in PAIRS\n    ],\n    'exact_B': {str(K): sp.sstr(value) for K, value in BK.items()},\n    'root_demonstration': {\n        'synthetic_target_a2': '1/2',\n        'equation': 'delta*(sqrt(3)-delta)/(1+delta^2)=0',\n        'real_roots': ['0', 'sqrt(3)'],\n        'branches': [\n            {'delta': '0', 'alpha': '0', 'E1_radiative_fraction': '1', 'M2_radiative_fraction': '0', 'a2': '1/2'},\n            {'delta': 'sqrt(3)', 'alpha': 'pi/3', 'E1_radiative_fraction': '1/4', 'M2_radiative_fraction': '3/4', 'a2': '1/2'},\n        ],\n        'scope': 'A full ideal normalized angular shape can be degenerate even with exact known alignment. No count data, covariance or statistical confidence is supplied.',\n    },\n    'appendix_image_checks': [\n        {'locator': 'printed p.339 / PDF p.34, Angular Distribution Coefficients R_k(LLprime J1J2), Ji=3/2 Jf=1/2 row, k=2 LL/LLprime/LprimeLprime columns',\n         'printed_decimals': TABLE_R2, 'symbolic_values': {'11': '1/2', '12': 'sqrt(3)/2', '22': '-1/2'},\n         'precision': 'matches the printed four decimal rounding; 0.8660 is not used as an exact value',\n         'image': 'tmp/day8-20261007/rose-brink/p339-pdf34-table-rotated.png'},\n        {'locator': 'printed p.340 / PDF p.35, R_k table footnote a',\n         'definition': 'L is the lowest multipolarity allowed by J1 and J2; Lprime=L+1. For this case L=1 and Lprime=2.',\n         'image': 'tmp/day8-20261007/rose-brink/p340-pdf35.png'},\n        {'locator': 'printed p.347 / PDF p.42, Statistical Tensor Coefficients rho_k(J1M1), J1=3/2 k=2 row',\n         'printed_values': {'M=1/2': '-2.0000', 'M=3/2': '2.0000'},\n         'folding_rule': 'Eq.3.62 sums nonnegative M with the original full-distribution weight w(M); rho already includes the factor 2. Thus B2=(1/2)*2=1, not 2.',\n         'image': 'tmp/day8-20261007/rose-brink/p347-pdf42.png'},\n    ],\n    'limits_and_negative_controls': {\n        'pure_E1_delta_0_a2': '1/2', 'pure_M2_abs_delta_infinity_a2': '-1/2',\n        'opposite_sign_delta_minus_sqrt3_a2': '-1',\n        'maximum_a2': {'delta': '1/sqrt(3)', 'a2': '1'},\n        'minimum_a2': {'delta': '-sqrt(3)', 'a2': '-1'},\n        'physical_a2_range': '[-1,1] from eigenvalues of the symmetric R2 matrix',\n        'isotropic_population': 'w(M)=1/4 for all four substates gives B2=0, hence W=1 for every delta',\n        'K4_negative_control': 'All R4 pair coefficients and B4 are zero; E1/M2 here cannot supply A4.',\n        'phase_control': 'Changing delta sign while holding the RB R coefficients fixed changes the angular shape; convention mapping must transform both.',\n    },\n    'exact_checks': CHECKS,\n    'error_boundary': 'Exact SymPy arithmetic for all formulas/roots/checks; decimal evaluation is used only to compare published table rounding. No experimental uncertainty or detector model is claimed.',\n    'reproduction': {'python': platform.python_version(), 'sympy': sp.__version__, 'mpmath': mpmath.__version__,\n                     'isolated_dependencies': 'tmp/day8-20261007/rose-brink/python-deps',\n                     'dependency_command': 'python3 -m pip install --target tmp/day8-20261007/rose-brink/python-deps --no-cache-dir --disable-pip-version-check --index-url https://pypi.org/simple sympy==1.14.0 mpmath==1.3.0',\n                     'run_command': 'python3 tmp/day8-20261007/rose-brink/angular_degeneracy.py',\n                     'script_sha256': hashlib.sha256(script_source.encode('utf-8')).hexdigest(),\n                     'script_source': script_source},\n    'reading_boundary': 'Adds targeted appendix checks of the stated p.339 row, p.340 footnote and p.347 rho row to the earlier core audit; does not claim all appendix tables were read.',\n}\nOUT.write_text(json.dumps(result, ensure_ascii=False, indent=2) + '\\n', encoding='utf-8')\nprint(json.dumps({'output': str(OUT.relative_to(ROOT)), 'R2': result['exact_R']['2'],\n                  'B2': result['exact_B']['2'], 'a2': result['formulas']['a2'],\n                  'roots': result['root_demonstration']['real_roots'],\n                  'exact_checks_passed': len(CHECKS)}, ensure_ascii=False, indent=2))\n"
+  },
+  "reading_boundary": "Adds targeted appendix checks of the stated p.339 row, p.340 footnote and p.347 rho row to the earlier core audit; does not claim all appendix tables were read."
+}

@@ -81,8 +81,9 @@ session，不复用固定 session。`run.json` 保存 `session_id`、
 首个 `codex exec`
 完成后，runner 在同一 session 内调用 `codex exec resume <session_id>` 发送 continuation
 prompt，继续处理下一个高信息增益问题；每轮都核对实时钟快照。问题局部饱和不能单独
-结束 schedule：剩余至少 120 分钟时检查当前问题和下一张未完成日卡，完整交付能放入窗口时
-才前移；剩余 90–119 分钟只继续当前问题或做有限预览；不足 90 分钟不再开新来源/日卡。
+结束 schedule：剩余至少 120 分钟时检查当前问题和下一张未完成日卡，可预习恰好一张
+Day+1 卡的知识；保持今日 day_index，只记 partial，不计该卡学分，不打开 Day+2。
+剩余 90–119 分钟只继续当前问题或做有限预览；不足 90 分钟不再开新来源/日卡。
 硬截止后 runner 发一轮 closeout-only continuation。receipt 记录 `overnight_until`、
 `continuation_count`、每轮 prompt/事件文件、收束时间快照和逐卡完成审计。continuation 上限
 只限制单批计数；达到后 runner 在同一 session 内滚动批次并继续，不因此提前结束。每张完整日卡必须
@@ -99,6 +100,33 @@ codex resume <session_id> -C /workspace/wiki -s danger-full-access -a never
 
 每次运行即使最终 `failed-verification`，只要 CLI 返回了 session ID，也会保留该
 session 和 resume 信息，便于查看对话、定位失败并优化工作流。
+
+### 已有交互式学习会话的计时监督
+
+手动恢复的交互式 session 没有 foreground runner 时，可使用
+`run_learning_session_clock.py` 给**同一 receipt 指定的会话**排队检查点与收束提示：
+
+```bash
+python3 system/scripts/run_learning_session_clock.py \
+  --root /workspace/wiki \
+  --receipt outputs/learning-daily/<name>-run-01/run.json \
+  --thread <receipt.session_id> \
+  --checkpoint-hours 2 \
+  --dry-run
+```
+
+先 dry-run 检查时刻表；实际运行去掉 `--dry-run`。该进程同时持有 daemon/runner
+两把锁，避免另开重复学习 session；只调用 `codex queue`，不创建 session，不修改
+模型、课程 state、run receipt、raw 或 Git。2–3 小时一次检查点，按 receipt 的
+run_date 次日 15:00 提醒停止新增研究，15:45 条件提醒，16:00 最多一次逾时提示后退出。
+它在本 run 保存 clock-state/events 和每分钟心跳，重启按 event ID 去重；queue exit 0
+只证明排队接受，执行需要同会话后续 turn 回执，等待心跳也不计为实际研究时长。
+容器与 Codex app server 必须在线；超时/发送中重启记 acceptance unknown，不盲目重发。
+监督器只读本 Wiki 的 `tmp/farmer/state.json`：首次实际启动后、本线程的新鲜取消或
+人工处理事件会停止排队；Farmer 正在恢复时暂缓提醒，待运行/完成事件恢复后继续。旧、
+过期或损坏快照只记录边界，首次启动时间在重启后保留。前台 Ctrl+C 会停止监督器并
+释放锁；用户停止学习时应同时停止该计时进程。它不会自动启动下一日 daemon，下一日
+仍须经过当前 run 的收束/课程验收及新 session 启动契约。
 
 ### 手动前台定时启动
 

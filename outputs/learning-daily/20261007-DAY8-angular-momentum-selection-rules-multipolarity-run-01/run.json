@@ -1,0 +1,98 @@
+{
+  "schema_version": 1,
+  "run_id": "prompt-2026-10-07-day-08",
+  "run_date": "2026-10-07",
+  "day_index": 8,
+  "day_topic": "角动量耦合、选择定则与多极性",
+  "phase": "nuclear-structure-framework",
+  "schedule_id": "wiki-daily-learning",
+  "schedule_name": "Wiki 30-day substantive daily learning",
+  "project_root": "/workspace/wiki",
+  "status": "running",
+  "run_kind": "substantive",
+  "acceptance_only": false,
+  "session_id": "01a111fb-370d-7ed1-afe9-881ccc47caf4",
+  "session_mode": "new-session-per-run",
+  "session_scope": "one-new-session-for-each-schedule-run",
+  "session_reuse": false,
+  "resume_command": "codex resume 01a111fb-370d-7ed1-afe9-881ccc47caf4 -C /workspace/wiki -s danger-full-access -a never",
+  "manual_resume_after_user_aborted_initial_tool": true,
+  "expected_start": "2026-10-07T16:00:00+08:00",
+  "recorded_at": "2026-10-07T00:22:25.574470+08:00",
+  "started_at": "2026-10-07T00:19:49.569084+08:00",
+  "overnight_until": "2026-10-08T15:00:00+08:00",
+  "closeout_window_ends_at": "2026-10-08T16:00:00+08:00",
+  "report": "/workspace/wiki/outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity.md",
+  "output_dir": "/workspace/wiki/outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01",
+  "prompt_file": "/workspace/wiki/outputs/learning-daily/prompts/20261007-DAY8-angular-momentum-selection-rules-multipolarity.md",
+  "completed_day_indices": [
+    8
+  ],
+  "partial_day_indices": [],
+  "counted_in_substantive_test": false,
+  "course_state_before": {
+    "next_day_index": 8,
+    "completed_day_count": 7
+  },
+  "checks_before_write": {
+    "boundary_exit": 0,
+    "preflight_exit": 0
+  },
+  "last_closeout_snapshot": {
+    "now_local": "2026-10-07T05:29:06.668756+08:00",
+    "hard_deadline": "2026-10-08T15:00:00+08:00",
+    "next_scheduled_start": "2026-10-08T16:00:00+08:00",
+    "minutes_to_deadline": 2010,
+    "minutes_to_next_start": 2070,
+    "minimum_current_block_minutes": 90,
+    "minimum_forward_card_block_minutes": 120,
+    "can_continue_current": true,
+    "can_complete_forward_card": true,
+    "decision": "continue-or-advance"
+  },
+  "baseline_file": "/workspace/wiki/outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/baseline.json",
+  "inherited_unclaimed_run_descriptors": [
+    "outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipoles-run-01/run.json",
+    "outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipoles-run-02/run.json"
+  ],
+  "runtime_owner": "current interactive Codex session; no foreground course runner attached",
+  "runtime_exit_code_observed": false,
+  "clock_supervision": {
+    "pid": 110255,
+    "process_exit": null,
+    "clock_status": "running",
+    "heartbeat_at": "2026-10-07T01:50:21.010205+08:00",
+    "deadline": "2026-10-08T15:00:00+08:00",
+    "command": [
+      "python3",
+      "-B",
+      "/workspace/wiki/system/scripts/run_learning_session_clock.py",
+      "--root",
+      "/workspace/wiki",
+      "--receipt",
+      "/workspace/wiki/outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/run.json",
+      "--thread",
+      "01a111fb-370d-7ed1-afe9-881ccc47caf4",
+      "--checkpoint-hours",
+      "2"
+    ],
+    "queue_delivery_boundary": "scheduled, not yet observed delivery",
+    "control_patch": "Farmer cancellation/manual-attention and single-recovery control",
+    "restarted_at": "2026-10-07T05:11:49.167824+08:00",
+    "first_supervisor_started_at": "2026-10-07T01:50:20.943968+08:00"
+  },
+  "task_checks_so_far": {
+    "boundary_exit": 0,
+    "lint_exit": 0,
+    "diff_exit": 0,
+    "card_valid": true,
+    "writeback_valid": true,
+    "source_hashes_match": true,
+    "session_clock_tests_count": 35,
+    "session_clock_tests_exit": 0,
+    "exact_angular_algebra_checks": 20,
+    "exact_angular_algebra_exit": 0
+  },
+  "card_content_status": "complete",
+  "checkpoint_checks_file": "/workspace/wiki/outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/checkpoint-checks.json"
+}

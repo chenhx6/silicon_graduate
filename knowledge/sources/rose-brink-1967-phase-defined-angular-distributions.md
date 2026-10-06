@@ -3,7 +3,7 @@ type: source
 title: "Rose and Brink 1967 - Angular distributions in phase-defined reduced matrix elements"
 aliases: [Rose-Brink 1967 angular distributions]
 created: 2026-09-21
-updated: 2026-10-06
+updated: 2026-10-07
 status: ai-draft
 review_status: unreviewed
 source_type: theory-method-review
@@ -41,13 +41,16 @@ tags: [Rose-Brink, angular-distribution, phase-convention, mixing-ratio, alignme
 - PDF pp.306–347 (42 pages) fully read: perturbative emission/absorption starting point, time reversal, spherical-tensor phases, electric/magnetic multipole expansion, aligned-state angular distribution, widths, mixing ratios, alignment-production cases, reduced matrix elements, comments and Appendix coefficient tables.
 - Not covered: later software implementations and numerical coefficient tables beyond the printed appendix.
 
+- 2026-10-07 定向复核范围：发射/吸收起点和相位；Secs.III.B–III.E 的 printed pp.314–321；Sec.III.F 的级联 printed pp.321–326；Sec.V 中 printed pp.335–336 的约定讨论。关键公式用原 PDF 图像复核。本轮未逐表重读全部 appendix，不把原有历史全文覆盖声明当成本次新完成的通读。PDF 页号 = printed page − 305（例如 printed p.320 = PDF p.15）；下文旧 `PDF pp.306…` 数字实际指印刷页。
+- 同一学习窗口追加：printed p.339 / PDF p.34 的 R_K 表 `Ji=3/2,Jf=1/2,K=2` 行、printed p.340 / PDF p.35 的 L/L′ 表注，以及 printed p.347 / PDF p.42 的 `ρ2(J=3/2,M)` 行。三页均原图复核，用于解析双解练习；本轮实际原图覆盖累计 26/42 页，仍未逐表重读全 appendix。
+
 ## Key Results
 
 - The derivation starts from first-order perturbation theory and detailed balance/time reversal, then expands a transverse electromagnetic field into electric and magnetic multipoles with explicitly defined phases (PDF pp.306–315, Eqs.2.1–3.23).
 - Interaction multipole operators `T^L_M(λ)` are chosen to share consistent rotation, Hermitian-conjugation and time-reversal properties. This makes reduced matrix elements real under the stated phase convention and gives a reproducible sign for mixed-multipole amplitudes (PDF pp.315–317, Eqs.3.17–3.24).
 - For a cylindrically aligned initial state, the angular distribution is expressed as a sum of Legendre polynomials weighted by statistical tensors `B_K(J_i)`, geometry coefficients `R_K(LL'J_iJ_f)` and products of reduced matrix elements (PDF pp.316–318, Eqs.3.25–3.37).
 - The mixing ratio is defined as a ratio of phase-defined reduced matrix elements of the lowest-order competing multipoles (Eq.3.39). Its magnitude is related to the square root of partial γ widths, but its sign is a physical relative phase only within the common operator/state convention (PDF pp.318–320).
-- For unpolarized γ detection and states of definite parity, odd-rank terms cancel and the usual even-`K` angular-distribution form results (PDF pp.320–324, Eqs.3.40–3.47). If the initial state is polarized or has mixed parity, odd-rank/interference terms require the more general formula.
+- 在初末态宇称确定且不观测 γ 偏振、对 helicity 求和时，Eq.3.41 只含偶 `K`，即使初态有 polarization 也成立。另一条充分条件是 alignment 的 `w(−M)=w(M)`，它使 `B_K(odd)=0`，不依赖是否观测 circular polarization。初态有 polarization 本身不能使 helicity-summed、definite-parity 角分布出现奇数 `K`；需按 Eq.3.32/3.40 的偏振与宇称条件判断（printed p.320 / PDF p.15, Eqs.3.40–3.41 与说明）。
 - The paper treats alignment from resonant capture, particle–particle reactions and γ cascades. A γ–γ angular correlation is a product of a population tensor from the first transition and a response tensor from the second; Eq.3.73 exposes the relative phase factor for the two mixing ratios (PDF pp.321–326, Eqs.3.51–3.73).
 - The authors provide single-particle, two-particle and hole reduced-matrix-element formulas and warn that switching the order of initial/final states or using effective/Siegert operators without phase mapping changes the apparent δ sign (PDF pp.327–336, Secs.IV–V).
 
@@ -58,8 +61,13 @@ tags: [Rose-Brink, angular-distribution, phase-convention, mixing-ratio, alignme
 | RB67-1 | A phase-defined interaction-multipole convention makes the sign of a mixing ratio comparable between measurement and model only after operator and state-order mapping. | formalism-result | direct | PDF pp.306–320, Eqs.3.17–3.39 | true |
 | RB67-2 | Aligned-state γ angular distributions factor into population/alignment tensors, geometry coefficients and reduced transition amplitudes. | formalism-result | direct | PDF pp.316–324, Eqs.3.25–3.47 | false |
 | RB67-3 | γ–γ correlations require the population tensor of the first transition and the response tensor of the second; mixed multipoles carry a convention-dependent relative phase. | formalism-result | direct | PDF pp.321–326, Eq.3.73 | true |
-| RB67-4 | The compact even-`K` formula is not valid without its definite-parity/alignment assumptions. | limitation | direct | PDF pp.320–326 | false |
-| RB67-5 | For definite-parity states, an allowed photon multipole must satisfy `|Ji−Jf|≤L≤Ji+Jf` with `L≥1`; electric and magnetic multipoles carry parity factors `(-1)^L` and `(-1)^(L+1)`, respectively. Thus same-parity transitions admit M1/E2/M3… and opposite-parity transitions E1/M2/E3… where the angular-momentum triangle permits them; `0↔0` gamma decay is excluded. | selection-rule | direct | Sec. III.E, printed p.320, following Eqs.3.40–3.41 | true |
+| RB67-4 | Definite initial/final parity plus unobserved gamma polarization eliminates odd K even for a polarized initial state; independently, alignment `w(−M)=w(M)` eliminates odd `B_K` even in polarization-resolved formulas. | limitation | direct | Sec.III.E, printed p.320 / PDF p.15, Eqs.3.40–3.41 and notes | false |
+| RB67-5 | For definite-parity states, an allowed photon multipole must satisfy `abs(Ji−Jf)≤L≤Ji+Jf` with `L≥1`; electric and magnetic multipoles carry parity factors `(-1)^L` and `(-1)^(L+1)`, respectively. Thus same-parity transitions admit M1/E2/M3… and opposite-parity transitions E1/M2/E3… where the angular-momentum triangle permits them; `0↔0` single-photon gamma decay is excluded. | selection-rule | direct | Sec. III.E, printed p.320, following Eqs.3.40–3.41 | true |
+| RB67-6 | The Eq.3.39 mixing ratio is the higher multipole's phase-defined interaction RME divided by `√(2L+1)`, relative to the lowest multipole normalized in the same way; initial `J1` is on the left in this definition. Its modulus is the square root of the corresponding partial gamma-width ratio. | convention-boundary | direct | Sec.III.E, printed p.319 / PDF p.14, Eq.3.39 and footnote17; printed p.318 / PDF p.13, Eq.3.29 | true |
+| RB67-7 | For an axially symmetric single-gamma distribution, `B_K` limits `K≤2Ji` and `R_K` limits `abs(L−L′)≤K≤L+L′`; a higher allowed photon rank need not create an observable higher angular rank. Cascade formulas use their own population/response tensors. | formalism-result | direct | printed p.317 / PDF p.12, Eq.3.28; printed p.318 / PDF p.13, Eq.3.32 note(iii); printed p.319 / PDF p.14, Eq.3.36; printed p.326 / PDF p.21, Eqs.3.71–3.73 | true |
+| RB67-8 | The integrated gamma-rate relation sums squared normalized multipole amplitudes, while the angular distribution contains interference products; a width/lifetime alone cannot recover the relative sign. | formula-and-limitation | direct | printed p.318 / PDF p.13, Eq.3.29; printed p.319 / PDF p.14, Eqs.3.35–3.39; printed p.320 / PDF p.15, Eqs.3.41–3.43 | true |
+| RB67-9 | The long-wavelength expansion and powers of k can motivate a lower-multipole approximation, while the two-multipole angular-distribution formula explicitly assumes only two components contribute; allowed higher ranks are not exactly forbidden by that approximation. | approximation-boundary | direct | printed pp.313–314 / PDF pp.8–9, Eq.3.12; printed p.318 / PDF p.13, Eq.3.30; printed p.321 / PDF p.16, before Eq.3.47 | true |
+| RB67-10 | For `Ji=3/2→Jf=1/2`, the appendix tabulates K=2 coefficients `R2(11)=0.5000`, `R2(12)=0.8660`, `R2(22)=−0.5000`; for Ji=3/2 the folded population coefficients are `ρ2(M=1/2)=−2.0000`, `ρ2(M=3/2)=2.0000`. These are formalism coefficients, not measured angular data. | tabulated-theory-coefficient | direct | Appendix angular-distribution coefficients, printed p.339 / PDF p.34, Ji=3/2 Jf=1/2 K=2 row; statistical-tensor coefficients, printed p.347 / PDF p.42, Ji=3/2 K=2 row | true |
 
 ## Summary
 
@@ -68,7 +76,7 @@ Rose and Brink supply the phase-consistent foundation that lets angular distribu
 ## Competing Interpretations and Limitations
 
 - Rose–Brink, Biedenharn and later experimental conventions may differ in operator phase and initial/final state order; numerical δ signs cannot be merged by magnitude-only comparison.
-- The standard even-`K` angular-distribution expression assumes cylindrical alignment, definite parity and the stated polarization summation. Particle-reaction or mixed-parity cases require the general tensor expression.
+- Eq.3.41 要求 cylindrical symmetry、确定的初末态宇称与所述 γ 偏振求和；初态可以 aligned 或 polarized。粒子反应布居不自动破坏该式。混合宇称、观测 helicity 或非轴对称条件应回到相应一般式，不按反应类型或 polarized 标签直接判定奇 `K`。
 - Effective electric operators from Siegert's theorem are equivalent only with the continuity/gauge assumptions discussed by the authors; replacing the interaction operator silently can alter phase interpretation.
 - Model reduced matrix elements depend on wave functions, effective charges/g factors and particle/hole phase conventions; the formalism does not make a model assignment unique.
 
@@ -86,6 +94,16 @@ Rose and Brink supply the phase-consistent foundation that lets angular distribu
 - New reusable rule: every stored δ claim must retain the source convention and state order; a sign disagreement is not a scientific conflict until the phase map is closed.
 - Review state: Codex self-audited; not `human-reviewed`.
 
+## Phase and Observable Audit
+
+本文 `J1→J2` 表示跃迁方向，但 Eq.3.39 的 RME 写为 `⟨J1||T_L^π||J2⟩`（初态在左）。它不是去掉 photon-energy 因子后可直接与 BM 核电磁算符之比互换的量。定义：`δ_(L′π′)=[⟨J1||T_(L′)^π′||J2⟩/√(2L′+1)]/[⟨J1||T_(Lbar)^πbar||J2⟩/√(2Lbar+1)]`，`Lbar,πbar` 是本跃迁最低阶成分，其 δ 为 1。本文 multipole label `π=0/1` 表示 E/M，不能与核态的正负宇称混为一符号。定位：printed p.319 / PDF p.14, Eq.3.39。
+
+`T_L^π` 直接定义在 Eq.3.20（printed p.315 / PDF p.10），其相位构造沿 Eqs.3.16–3.23；Eq.3.17 给出 Q/Q′/M/M′ 算符。Eq.3.23、Eq.2.23 和 Eq.3.32 note(v) 陈述 time-reversal 与实矩阵元条件，Eq.3.39 footnote17 讨论 ratio 的实数性和 Lloyd 定理；Eq.3.24 本身是发射振幅的多极展开。共同核态的任意整体相位在比值中抵消，算符与 RME 定义仍须匹配。发射/吸收比较还要回到电算符和状态顺序的映射，不能用一个脱离几何系数的符号替换。[[lange-kumar-hamilton-1982-multipole-admixtures]] printed p.122 / PDF p.4 给出在固定 KS 定义下与 RB/BR 发射级联的显式映射。
+
+线偏振位于 printed p.316 / PDF p.11, Eq.3.24 后的两个 helicity-coherent superpositions 说明；Eq.3.25 的 `P^q(k)` 保持 q 固定，没有对 photon helicity 求和。未测偏振时的非相干求和 `P=P^(+1)+P^(−1)` 在 printed p.319 / PDF p.14, Eq.3.35 之前说明，不能代替线偏振的相干叠加。本文 p.316 没有提供可直接套给任意现代 polarimeter 的单一 `P(θ,δ)` 数值公式；实验符号和幅度需要分析轴、响应和该 setup 的标定。
+
+宽度关系 Eq.3.29（printed p.318 / PDF p.13）在固定 `Ji→Jf`、固定 photon k 下对该跃迁各多极的平方幅度求和，不包含可恢复相对符号的干涉项。多个末态的总 γ 率须逐项用各自 k_f 求和；实验总寿命还须纳入非 γ 通道。级联 Eq.3.73（printed p.326 / PDF p.21）的第一 γ 因子含 `(-1)^(Lbar1−L1)`，其中 Lbar1 是最低阶成分；第二 γ 因子没有此额外 phase。不能让两条 γ 共用未经核对的交叉项符号。该页 Eq.3.73 印刷没有显式列出 K 求和符号；恢复完整 W(θ) 的 K 求和须注明依据 Eqs.3.47、3.71 的上下文。
+
 ## Human Review Triage
 
 ### P0
@@ -95,3 +113,5 @@ Rose and Brink supply the phase-consistent foundation that lets angular distribu
 ## Extracted Pages
 
 - Methods/observables: [[angular-distribution]], [[angular-correlation]], [[multipole-mixing-ratio]]。
+
+- Day8 方法依赖回链：[[spin-parity-assignment]] 保存 spin/parity/multipolarity 的观测与共享输入审计；[[multipole-mixing-ratio]] 保存三例全候选及 convention 边界。

@@ -1,0 +1,20 @@
+{
+  "sources": [
+    {
+      "source": "knowledge/sources/lange-kumar-hamilton-1982-multipole-admixtures.md",
+      "raw_file": "raw/papers/gpt/high-spin-20260920/review/1982_Lange et al_E0-E2-M1 multipole admixtures of transitions in even-even nuclei.pdf",
+      "expected_sha256": "ed925a0577a9257903806acd209c1db707529e86a5bfd9a301a83d597bf78ffb",
+      "actual_sha256": "ed925a0577a9257903806acd209c1db707529e86a5bfd9a301a83d597bf78ffb",
+      "matches": true,
+      "raw_modified_by_this_run": false
+    },
+    {
+      "source": "knowledge/sources/rose-brink-1967-phase-defined-angular-distributions.md",
+      "raw_file": "raw/papers/gpt/high-spin-20260920/multipolarity/mixing ratio/1967_Rose et al_Angular Distributions of Gamma Rays in Terms of Phase-Defined Reduced Matrix Elements.pdf",
+      "expected_sha256": "8f846b61b9320de291ee5600126c5e286a0fe05968df819696816f0dc1ec57dc",
+      "actual_sha256": "8f846b61b9320de291ee5600126c5e286a0fe05968df819696816f0dc1ec57dc",
+      "matches": true,
+      "raw_modified_by_this_run": false
+    }
+  ]
+}
