@@ -107,7 +107,7 @@
     "post_push_head_matches_origin_main": true,
     "status_after_primary_push": "main matches origin/main"
   },
-  "publication_pending": true,
+  "publication_pending": false,
   "initial_closeout_snapshot": {
     "now_local": "2026-10-06T16:35:35+08:00",
     "hard_deadline": "2026-10-07T15:00:00+08:00",
@@ -148,9 +148,18 @@
   "formal_next_day_prompt_created_after_closeout": true,
   "next_prompt_created_by_user_followup": true,
   "prompt_followup_publication": {
-    "status": "pending",
-    "commit_subject": null,
-    "commit_hash": null,
-    "push_outcome": "pending"
+    "status": "pushed",
+    "prompt_file": "/workspace/wiki/outputs/learning-daily/prompts/20261007-DAY8-angular-momentum-selection-rules-multipolarity.md",
+    "commit_subject": "Add formal Day8 prompt after user follow-up",
+    "commit_hash": "8aa89338b4150156548016b26673fa388b784a6b",
+    "remote": "origin (Gitee)",
+    "push_refspec": "HEAD:main",
+    "fetch_exit": 0,
+    "remote_ancestor_exit": 0,
+    "push_dry_run_exit": 0,
+    "push_exit": 0,
+    "push_outcome": "pushed",
+    "post_push_fetch_exit": 0,
+    "post_push_head_matches_origin_main": true
   }
 }

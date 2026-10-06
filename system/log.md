@@ -1514,3 +1514,8 @@ Final time-gate snapshot: 2026-10-06 22:08 Asia/Shanghai, 1012 minutes before ha
 ## 2026-10-06 formal Day8 prompt generated after user follow-up
 
 The user asked where the Day8 prompt was. The Day7 receipt had next_prompt_file=null and no Day8 prompt existed. Generated outputs/learning-daily/prompts/20261007-DAY8-angular-momentum-selection-rules-multipolarity.md from the existing Day8 matrix card and daily-learning contract. It is for the next scheduled run, does not start Day8, does not credit the Day7 pre-study, and leaves next_day_index=8 / completed_day_count=7 unchanged. User-specified pre-study rule and Day8 no-credit boundary are included.
+
+
+## 2026-10-06 formal Day8 prompt published
+
+Following the user question about the missing Day8 prompt, the formal Day8 card prompt at outputs/learning-daily/prompts/20261007-DAY8-angular-momentum-selection-rules-multipolarity.md was published for the 2026-10-07 16:00 scheduled run. It uses the existing Day8 matrix card and existing LKH82/RB67 sources; no Day8 run was started and course state remains next_day_index=8, completed_day_count=7. Boundary, lint and diff checks passed; the prompt was pushed to Gitee in commit Add formal Day8 prompt after user follow-up, hash 8aa89338b4150156548016b26673fa388b784a6b.
