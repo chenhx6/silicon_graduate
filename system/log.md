@@ -1500,3 +1500,12 @@ updated: 2026-07-15
 - Raw thesis audit corrected the AW13 crosswalk: `611.1 keV` is a Band 4 intraband row; Figure 4.5 identifies the `505-keV` Band 1–Band 4 link. Source/project and directly affected historical report locators were reconciled; review states, raw and PLAN remained unchanged.
 - Boundary exit 0; Wiki lint exit 0 (`0` errors, `91` warnings, `1310` info); `git diff --check` exit 0; report/writeback contract validation passed.
 - Published Gitee `main`, subject `Complete DAY7 collective-motion oral exam and correct 131Ce link crosswalk`, refspec `HEAD:main`; fetch, ancestry, dry-run, push and post-push HEAD reconciliation passed. Run receipt: `outputs/learning-daily/20261006-DAY7-week-one-collective-motion-oral-exam-run-01/run.json`.
+
+
+## 2026-10-06 DAY7 resumed learning-window closeout
+
+The user challenged the first closeout at 16:35 Asia/Shanghai, which had occurred with 1344 minutes remaining. The task resumed at 20:33 after the user clarified that one Day+1 card's knowledge may be pre-studied when at least 120 minutes remain, while preserving the current day-index and withholding course credit. This rule is now persisted in AGENTS.md, continuous-learning.md, daily-learning and continuation prompt templates, check.md and the user guides.
+
+The resumed source audit corrected the earlier mistaken demotion of AW13-16 and completed the six-link Band1/Band4/yrast map. It also mapped the Figure 4.5 505-keV peak to Table 4.2's 504.9-keV row/endpoints, added the Figure 4.1/Table 4.4 538.3-keV Band4-to-Band1 branch, and recorded three conditional same-parent E2 out/in calculations plus the 611.1/243.7 gamma-yield ratio. Day8 selection-rule knowledge was pre-studied from existing sources, marked partial/uncredited; Day9 was inspected and deferred. Course state remains next_day_index=8, completed_day_count=7. Raw, PLAN, milestone state and review statuses were untouched.
+
+Final time-gate snapshot: 2026-10-06 22:08 Asia/Shanghai, 1012 minutes before hard deadline. Boundary passed; Wiki lint passed with 0 errors, 91 warnings and 1313 info; report contract passed; diff and staged-diff checks passed. The corrective commit Reconcile DAY7 links and uncredited Day8 pre-study (d9caf842c5db753266bb2701f379605329e9ae46) was pushed to Gitee via HEAD:main; fetch/ancestry/dry-run/push/post-push checks passed.

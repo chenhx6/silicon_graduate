@@ -18,7 +18,7 @@ The permitted Day8 pre-study used only the existing Lange–Kumar–Hamilton 198
 
 Final manual time snapshot: 2026-10-06 22:08 Asia/Shanghai; 1012 minutes remained to the 2026-10-07 15:00 hard deadline. The already-read 131Ce corpus contains no further Band4 partner matrix; the single Day8 knowledge preview is saturated, so no remaining in-scope high-value route was identified. The next scheduled start remains 2026-10-07 16:00 for the formal Day8 run.
 
-Run receipt and resume: outputs/learning-daily/20261006-DAY7-week-one-collective-motion-oral-exam-run-01/run.json; session 01a11015-104a-7101-9051-393e978bf2c0; resume with codex resume 01a11015-104a-7101-9051-393e978bf2c0 -C /workspace/wiki -s danger-full-access -a never. User-specified report path is preserved. raw/, PLAN.md, milestone JSON state and all review flags remain unchanged. The resumed correction will publish as a normal non-force Gitee commit after the required gates.
+Run receipt and resume: outputs/learning-daily/20261006-DAY7-week-one-collective-motion-oral-exam-run-01/run.json; session 01a11015-104a-7101-9051-393e978bf2c0; resume with codex resume 01a11015-104a-7101-9051-393e978bf2c0 -C /workspace/wiki -s danger-full-access -a never. User-specified report path is preserved. raw/, PLAN.md, milestone JSON state and all review flags remain unchanged. The correction is published on Gitee from branch main with subject Reconcile DAY7 links and uncredited Day8 pre-study; the exact hash and push receipt are in run.json.
 
 ## DAY6 initial stop record — 2026-10-05
 

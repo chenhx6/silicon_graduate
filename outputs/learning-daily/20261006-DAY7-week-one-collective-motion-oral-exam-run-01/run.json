@@ -55,7 +55,7 @@
     "-a",
     "never"
   ],
-  "finished_at": "2026-10-06T22:08:07+08:00",
+  "finished_at": "2026-10-06T22:31:49+08:00",
   "next_day_index": 8,
   "day7_preview_not_credited": true,
   "day8_in_scope": true,
@@ -106,7 +106,7 @@
     "post_push_head_matches_origin_main": true,
     "status_after_primary_push": "main matches origin/main"
   },
-  "publication_pending": true,
+  "publication_pending": false,
   "initial_closeout_snapshot": {
     "now_local": "2026-10-06T16:35:35+08:00",
     "hard_deadline": "2026-10-07T15:00:00+08:00",
@@ -126,5 +126,21 @@
   ],
   "day8_work_performed": true,
   "day8_card_completed": false,
-  "day8_credit": false
+  "day8_credit": false,
+  "resumed_publication": {
+    "branch": "main",
+    "commit_subject": "Reconcile DAY7 links and uncredited Day8 pre-study",
+    "commit_hash": "d9caf842c5db753266bb2701f379605329e9ae46",
+    "remote": "origin (Gitee)",
+    "push_refspec": "HEAD:main",
+    "fetch_exit": 0,
+    "remote_ancestor_exit": 0,
+    "push_dry_run_exit": 0,
+    "push_exit": 0,
+    "push_outcome": "pushed",
+    "post_push_fetch_exit": 0,
+    "post_push_head_matches_origin_main": true,
+    "status_after_primary_push": "main matches origin/main",
+    "receipt_reconciliation_subject": "Reconcile DAY7 run receipt and handoff after resumed closeout"
+  }
 }
