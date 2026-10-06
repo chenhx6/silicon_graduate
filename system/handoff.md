@@ -1,18 +1,16 @@
 ---
 type: system-handoff
 graph-excluded: true
-updated: 2026-10-05
+updated: 2026-10-06
 ---
 
 # 跨会话交接
 
-## Active handoff — 2026-10-05 DAY6 time-aware continuation
+## Active handoff — DAY6 closed; DAY7 next
 
-The original DAY6 session `01a10816-f550-7003-bb53-8dfafc2c18a2` was recovered after a user-requested stop and had been closed early after two research slots saturated. The report, three canonical knowledge updates, required checks, Day 7 prompt, and Gitee publication were completed in run-06; its receipt records that early stop. The user then clarified that local evidence saturation is only a checkpoint when substantial scheduled time remains. At 2026-10-05 18:35 Asia/Shanghai the original hard deadline is still 2026-10-06 15:00, about 20 hours 25 minutes away; the same resumed Codex session is active, no separate daily runner is running, and Farmer dry-run found no recovery action.
+用户于 2026-10-06 明确要求提前收束 DAY6、准备正式 DAY7；收束记录时间为 `13:23 Asia/Shanghai`，距原定 15:00 截止约 97 分钟。DAY6 卡完成；DAY7 预演在 [日报](../outputs/learning-daily/20261005-DAY6-rotation-vibration-alignment-signature.md) 中保留为 `partial_day_indices=[7]`，不计 Day7 学分。课程状态保持 `next_day_index=7`；Day8 不在本任务范围。
 
-Current work implements the time-aware closeout for every future daily-learning run: fresh clock snapshots, 120/90-minute work thresholds, next-card eligibility, one closeout-only turn after the hard deadline, rolling continuation batches, and audited contiguous course-state advancement. Day 6/7 evidence remains in [the daily report](../outputs/learning-daily/20261005-DAY6-rotation-vibration-alignment-signature.md), with canonical changes in `knowledge/sources/liu-1996-signature-inversion-a130.md`, `knowledge/sources/alwaleedi-2013-band-structures-131ce.md`, and `knowledge/projects/a130-thesis-evidence-matrix.md`. The original run-01 events/prompt and raw/tmp renderings remain preserved.
-
-Policy implementation passed lint, boundary, 35 runner tests and Git checks. Branch `main`; implementation commit subject `Apply time-aware daily-learning closeout gate` was pushed to Gitee using `HEAD:main` (fetch, ancestry, dry-run, push all exit 0). The report and run-07 continuation receipt include Day 6/7 audits and the fresh 18:35 time snapshot; the study window remains open until 2026-10-06 15:00, and state advancement to Day 8 is deferred until final closeout passes. Resume the same session with `codex resume 01a10816-f550-7003-bb53-8dfafc2c18a2 -C /workspace/wiki -s danger-full-access -a never`; continuation prompt: `outputs/learning-daily/20261005-DAY6-rotation-vibration-alignment-signature-run-07/continuation-prompt.md`. Reconciliation of the receipt and this handoff is being published as `Reconcile DAY6 time-gate publication receipt`.
+DAY7 正式提示已就绪：`outputs/learning-daily/prompts/20261006-DAY7-collective-motion-oral-exam.md`。下一步由 schedule 启动新的 DAY7 session，不恢复 DAY6 旧 session。DAY6 最终回执：`outputs/learning-daily/20261005-DAY6-rotation-vibration-alignment-signature-run-08/run.json`。通用时间门已在 Gitee `main` 发布；继承的 run-01/run-07 历史、旧 DAY6 prompt 和 raw/tmp 材料均保留。
 
 ## DAY6 initial stop record — 2026-10-05
 

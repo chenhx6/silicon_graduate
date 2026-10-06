@@ -1,0 +1,148 @@
+{
+  "schema_version": 1,
+  "run_id": "2026-10-05-day-06-08",
+  "parent_run_id": "2026-10-05-day-06-07",
+  "original_run_id": "2026-10-05-day-06-01",
+  "run_date": "2026-10-05",
+  "closeout_date": "2026-10-06",
+  "timezone": "Asia/Shanghai",
+  "day_index": 6,
+  "phase": "nuclear-structure-framework",
+  "schedule_id": "wiki-daily-learning",
+  "project_root": "/workspace/wiki",
+  "run_kind": "manual-user-directed-closeout",
+  "acceptance_only": false,
+  "session_mode": "resumed-existing-session",
+  "session_id": "01a10816-f550-7003-bb53-8dfafc2c18a2",
+  "resume_command": [
+    "codex",
+    "resume",
+    "01a10816-f550-7003-bb53-8dfafc2c18a2",
+    "-C",
+    "/workspace/wiki",
+    "-s",
+    "danger-full-access",
+    "-a",
+    "never"
+  ],
+  "session_scope": "finalize DAY6 on explicit user request; leave DAY7 as next official card",
+  "started_at": "2026-10-06T13:23:13+08:00",
+  "status": "closeout-verified-pending-publication",
+  "counted_in_substantive_test": false,
+  "user_requested_early_closeout": true,
+  "user_request_received_at_approx": "2026-10-06T12:55:00+08:00",
+  "study_window_closed": true,
+  "overnight_until": "2026-10-06T15:00:00+08:00",
+  "closeout_window_ends_at": "2026-10-06T16:00:00+08:00",
+  "time_snapshot": {
+    "now_local": "2026-10-06T13:23:13+08:00",
+    "hard_deadline": "2026-10-06T15:00:00+08:00",
+    "next_scheduled_start": "2026-10-06T16:00:00+08:00",
+    "minutes_to_deadline": 96,
+    "minutes_to_next_start": 156,
+    "minimum_current_block_minutes": 90,
+    "minimum_forward_card_block_minutes": 120,
+    "can_continue_current": true,
+    "can_complete_forward_card": false,
+    "decision": "continue-current-or-partial"
+  },
+  "stop_reason": "user explicitly requested DAY6 closeout and preparation of DAY7; this overrides the open research runway for this manual closeout",
+  "report": "/workspace/wiki/outputs/learning-daily/20261005-DAY6-rotation-vibration-alignment-signature.md",
+  "next_prompt_file": "/workspace/wiki/outputs/learning-daily/prompts/20261006-DAY7-collective-motion-oral-exam.md",
+  "next_prompt_exists": true,
+  "completed_day_indices": [
+    6
+  ],
+  "partial_day_indices": [
+    7
+  ],
+  "curriculum_cards_completed": 1,
+  "next_day_index": 7,
+  "day7_preview_not_credited": true,
+  "day8_in_scope": false,
+  "state_before_closeout": {
+    "schema_version": 1,
+    "cycle": "2026-09-30-day-substantive",
+    "counting_policy": "30 successful substantive days; acceptance-only runs are excluded",
+    "next_day_index": 7,
+    "last_success": "2026-10-05",
+    "last_run_id": "2026-10-05-day-06-06",
+    "status": "active",
+    "acceptance_runs_excluded": [
+      "2026-09-22-day-01-01",
+      "2026-09-22-day-01-02",
+      "2026-09-22-day-01-03",
+      "2026-09-22-day-01-04",
+      "2026-09-22-day-01-05",
+      "2026-09-22-day-02-06"
+    ],
+    "reset_at": "2026-09-23",
+    "reset_reason": "Manual Docker/runner instance acceptance before the substantive 30-day test reset"
+  },
+  "checks": {
+    "boundary_exit": 0,
+    "report_exists": true,
+    "report_changed": true,
+    "report_valid": true,
+    "report_required_headings": 10,
+    "curriculum_coverage": {
+      "valid": true,
+      "completed_day_indices": [
+        6
+      ],
+      "partial_day_indices": [
+        7
+      ],
+      "curriculum_cards_completed": 1,
+      "next_day_index": 7
+    },
+    "knowledge_writeback_status": "updated",
+    "knowledge_writeback_items": 3,
+    "knowledge_writeback_valid": true,
+    "knowledge_changes_validated_in_original_run06": true,
+    "wiki_lint_exit": 0,
+    "wiki_lint_errors": 0,
+    "wiki_lint_warnings": 91,
+    "wiki_lint_info": 1309,
+    "git_diff_check_exit": 0,
+    "next_prompt_exists": true,
+    "next_prompt": "outputs/learning-daily/prompts/20261006-DAY7-collective-motion-oral-exam.md",
+    "git_publication": "pending"
+  },
+  "finished_at": "2026-10-06T13:54:33.887833+08:00",
+  "exit_code": 0,
+  "failure_reason": null,
+  "closeout_window_missed": false,
+  "closeout_on_time": false,
+  "within_reserved_1500_1600_closeout_hour": false,
+  "finalization": {
+    "kind": "manual-user-requested-closeout",
+    "actual_closeout_at": "2026-10-06T13:23:13+08:00",
+    "planned_closeout_at": "2026-10-06T15:00:00+08:00",
+    "minutes_before_hard_deadline": 96,
+    "stop_reason": "user explicitly requested DAY6 closeout and preparation of the official DAY7 plan",
+    "hard_deadline_reached": false,
+    "next_day_index": 7,
+    "next_prompt_exists": true
+  },
+  "state_after_closeout": {
+    "schema_version": 1,
+    "cycle": "2026-09-30-day-substantive",
+    "counting_policy": "30 fully completed substantive curriculum cards; a run may complete multiple contiguous cards; acceptance-only runs are excluded",
+    "next_day_index": 7,
+    "last_success": "2026-10-05",
+    "last_run_id": "2026-10-05-day-06-08",
+    "status": "active",
+    "acceptance_runs_excluded": [
+      "2026-09-22-day-01-01",
+      "2026-09-22-day-01-02",
+      "2026-09-22-day-01-03",
+      "2026-09-22-day-01-04",
+      "2026-09-22-day-01-05",
+      "2026-09-22-day-02-06"
+    ],
+    "reset_at": "2026-09-23",
+    "reset_reason": "Manual Docker/runner instance acceptance before the substantive 30-day test reset",
+    "completed_day_count": 6
+  }
+}

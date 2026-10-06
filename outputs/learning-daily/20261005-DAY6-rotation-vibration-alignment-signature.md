@@ -5,19 +5,17 @@
 - 计划：Day 6，nuclear-structure-framework；运行标识 2026-10-05-day-06-01；study window 截止 2026-10-06 15:00（Asia/Shanghai）。
 - 恢复：原 session 01a10816-f550-7003-bb53-8dfafc2c18a2 在用户要求停止后留下 interrupted 回执；本轮按用户指令恢复该 session。恢复命令：codex resume 01a10816-f550-7003-bb53-8dfafc2c18a2 -C /workspace/wiki -s danger-full-access -a never。
 - run-01 事件日志显示停止前已读计划和近期记录、完成主动回忆、核读 Liu 1996 全文并检查 Fig. 15；没有日报或知识写回。该中断不计作 Day 6 完成。
-- completed_day_indices: [6, 7]
-- partial_day_indices: []
+- completed_day_indices: [6]
+- partial_day_indices: [7]
 - Day 6 card audit: complete
-- Day 7 card audit: complete
-- Day 7 scorecard: complete
-- Day 7 weekly REFLECT: complete
-- **收束状态修订：** run-06 把两槽局部证据饱和当成全日停止条件，这是过早的时间判断。用户要求按原硬截止重新检查。当前运行时快照为 `2026-10-05T18:35:10+08:00`；距硬截止 `2026-10-06T15:00:00+08:00` 还有 1224 分钟，距下次触发 `2026-10-06T16:00:00+08:00` 还有 1284 分钟，决定为 `continue-or-advance`。因此本日报继续收录 Day 7 口试而不在当前时刻最终收束。DAY6 的原报告、AW13/LU96 知识写回、必需检查、DAY7 提示和 run-06 Gitee 发布门已通过；状态文件仍为 `next_day_index=7`，Day 8 的推进只在 15:00 收束、最终检查与发布后写入回执。
+- Day7 preview 未计入本次完成卡；user decision: closed DAY6 at 2026-10-06 12:55 Asia/Shanghai and retained Day7 as the next official card. Day8 is outside this run's scope.
+- **收束状态修订：** run-06 把两槽局部证据饱和当成全日停止条件，这是过早的时间判断。随后按新时间门检查后，DAY6 续接继续到 Day7 preview。用户约于 `2026-10-06T12:55+08:00` 明确要求现在完成 Day6 收束、Day7 留作下一张正式日卡；本次收束记录时间为 `2026-10-06T13:23:13+08:00`，距原定硬截止 `2026-10-06T15:00:00+08:00` 尚有 97 分钟。下方 Day7 回忆、能带判读和自评分只保留为不计学分的准备材料；本次按用户指示停止学习，不推进或开展 Day8。DAY6 的报告、AW13/LU96 知识写回、必需检查、Day7 提示和 run-06 Gitee 发布门已通过；最终课程状态收在 `next_day_index=7`。
 
 ### Day 6 card completion audit
 
 | 日卡交付项 | 可复核证据或产物 | 状态 |
 |---|---|---|
-| 回忆 rotational/vibrational band、alignment 与 signature | 本报告“来源前主动回忆”及 Day 7 前六日随机回忆 | complete |
+| 回忆 rotational/vibrational band、alignment 与 signature | 本报告“来源前主动回忆”及 Day7 预览回忆 | complete |
 | 主线来源与关键图表/公式 | [Stephens 1975](../../knowledge/sources/stephens-1975-coriolis-rotation-alignment.md) ST75-1–3；[Liu 1996](../../knowledge/sources/liu-1996-signature-inversion-a130.md) LU96-1–5；[Alwaleedi 2013](../../knowledge/sources/alwaleedi-2013-band-structures-131ce.md) AW13-1–18 | complete |
 | 自旋—频率与 alignment 定量练习 | AW13-18 Eq. (2.25)/Table 4.1；MA90-5 Eq. (2) Harris 参考转子复算 | complete |
 | signature inversion 与 crossing 的反证/替代解释 | LU96-4/5；ST75-2/3；AW13-11；保留自旋锚点、组态混合和 `δ=0` 边界 | complete |
@@ -30,7 +28,7 @@
 | 连续性：131Ce Bands 1–7 的 signature/configuration coupling 能否与振动或其它集体模式区分？ | 当前开放问题要求 mixing ratio、偏振、寿命和伙伴带绝对强度；Day 3 已整理 mean-field 与模型适用边界，Day 4 已覆盖 pairing/crossing，Day 5 已覆盖形状观测量。Day 6 的转频重建可把能级证据接到可测的模式判据。 | 选。沿用现有 131Ce 项目与原始 thesis 数据，不新建重复项目。 |
 | 新颖性：A≈130 奇奇 h11/2 带的 signature inversion 对 bandhead spin crosswalk 有多敏感？ | Liu 1996 汇集 La/Pr/Pm/Eu/Cs 多核素，展示奇数 ΔI 重标可改变 signature 顺序；Cs 的相互冲突参考为独立于 131Ce 的系统学边界。 | 选。只研究自旋锚点和系统学，不把不同核素拼成 131Ce 的直接证据。 |
 | Band termination 判据 | Afanasjev 1999 提供固定组态、有限最大自旋和 collectivity 衰减的综述判据。所选 131Ce 带没有本轮可核的 termination 端点。 | 作为练习的边界参照，不另开第三个案例。 |
-| 前移课程卡：[Day 7 集体运动口试](../plans/2026-09-22-one-month-daily-task-matrix.md) | 两个 DAY6 槽位已完成高信息来源与定量复算，且剩余时段远超 120 分钟；用 Day 1–6 已读证据做口试，不把重复阅读当新实验。 | 选；前移已完成，Day 8 未计入本轮课程学分。 |
+| Day 7 准备预览：[集体运动口试](../plans/2026-09-22-one-month-daily-task-matrix.md) | 在较长 DAY6 窗口中预演 Day1–6 回忆与 131Ce 证据链；用户随后明确保留 Day7 作为下一张正式日卡。 | 仅预览；`partial_day_indices=[7]`，不计课程学分。 |
 
 **来源前主动回忆：** 转动带是同一内禀结构上随角动量增加的能级序列，低自旋时常以 I(I+1) 作为理想参照；振动带对应形变自由度的量子振荡；alignment 是准粒子角动量沿转轴的投影，数值依赖转频和参考转子；signature 是转 π 的离散对称标签，signature inversion 表示两支能量偏好随自旋反转。我记得 131Ce Band 1 的两支 crossing 约为 0.329 和 0.367 MeV/ℏ，但不确定 Table 5.1 的误差，也不确定能否从现有来源得到逐点 i_x(ω) 或 termination 证据。后续核到的表值、定位和误差见下节。
 
@@ -111,7 +109,7 @@
 
 **DAY6 decision: revises。** 对 A≈130 signature-inversion crosswalk 的知识边界作了窄幅修订：除 `I0` 重标和 Cs 参考未决外，加入“模型与其拟合锚点共享 `124Cs I0=7`，因此不能独立验证该锚点”的来源定位。对 `131Ce` 的排序维持：已有能级、crossing 和作者组态解释支持普通 signature/configuration coupling 为可行基线；尚无寿命/偏振/partner-resolved 绝对强度，不能把带标签升级为振动、wobbling 或 chirality 的实验结论。
 
-**DAY7 weekly REFLECT decision: no material change。** 对 Day 1–6 定义和 `131Ce` 案例的口试没有发现与已有 source/project 知识冲突的新直接证据；当前排序和下一项必要观测已经写入 `131Ce` mode-discrimination project 与 `AW13-11/16`。没有再复制一行相同矩阵，也没有新增 `human-reviewed` 或清除 `needs_review` 状态。
+**DAY7 preview reflection: provisional no material change。** 这次预演没有发现与已有 source/project 知识冲突的新直接证据；这些反思只作准备材料，不替代正式 Day7 口试、评分和 weekly REFLECT。
 
 ## Durable knowledge delta
 
@@ -171,19 +169,19 @@
 2. 哪一项独立自旋/宇称测量能排除 Cs 中不相容的 124Cs/130Cs 参考？若独立测得的 I0 改变偶奇自旋交错，将重排 Liu 图 15 的 favored/unfavored 标记，signature-inversion 结论及其 γ 解释须重新计算。
 3. 是否存在具备固定组态、可达最大自旋和连续 Q_t/B(E2) 数据的 A≈130 候选 termination 带？在这些观测闭合前，本轮只采用 AF99 判据，不作目标核判定。
 
-4. 下一步课程卡转入 Day 8 的选择定则/多极性：如何用独立自旋宇称、ADO/DCO、线偏振和 `δ` 分支共同关闭跃迁赋值，而不是拿一个角强度比充当唯一解？
+4. 正式 Day7 开始时，能否在不看资料的条件下重新完成 Day1–6 定义回忆，并用 source locators 独立复述 `131Ce` 证据链？本次预览不预支该卡学分。
 
-### Day 7 card completion audit
+### Day 7 preview inventory — not credited
 
-| 周考交付项 | 可复核证据或产物 | 状态 |
+| 正式周考交付项的准备情况 | 可复核预览材料 | 本轮状态 |
 |---|---|---|
-| Day 1–6 定义主动回忆并对照近期日报 | 本报告“Day 7 口试：前六日主动回忆” | complete |
-| 完整复述 `131Ce` 壳结构至竞争解释链 | 本报告 `AW13-1/4/5/6/8/11/14/16/18`、`ST75-2/3` 分层链 | complete |
-| 完成合成未知能带结构判读 | 本报告合成题；明确非实验输入、替代解释和停止条件 | complete |
-| 识别最可能改变排序的证据 | AW13-16 direct `δ`/polarization→寿命和 absolute-strength 路线 | complete |
-| 周考六项评分与 weekly REFLECT | 下方 Day 7 scorecard 和 REFLECT | complete |
+| Day 1–6 定义回忆 | 本报告已写一次回忆草稿；正式 Day7 仍须重新闭卷回答 | preview only |
+| `131Ce` 壳结构至竞争解释链 | 本报告 `AW13-1/4/5/6/8/11/14/16/18`、`ST75-2/3` 草稿 | preview only |
+| 合成未知能带判读 | 本报告合成题；正式 Day7 应独立重做并复核停止条件 | preview only |
+| 可能改变排序的证据 | AW13-16 direct `δ`/polarization→寿命和 absolute-strength 路线草稿 | preview only |
+| 周考六项评分与 weekly REFLECT | 下方分数与反思为草稿，不作为正式评分或周考完成证明 | not credited |
 
-## Day 7 scorecard
+### Day 7 preview self-score — not official
 
 | 维度 | 分数（0–4） | 自评依据 |
 |---|---:|---|
@@ -194,13 +192,13 @@
 | 反证 | 3 | 列出 Coriolis、signature/configuration、pairing/shape alternatives；需 direct 电磁测量决胜。 |
 | 可证伪问题 | 3 | 给出 611.1-keV `δ`/偏振与后续 `B(E2)_out/B(E2)_in` 的结果分叉；还需预注册灵敏度/判定阈值。 |
 
-## Day 7 weekly REFLECT
+### Day 7 preview reflection — not official
 
 - 本周核心进步不是多给模式贴标签，而是把“观测量→赋值→机制”拆成可检查层，并把来源共享实验、模型拟合锚点和统计不确定度一起写进证据权重。
 - 常见错因：把 crossing 当作唯一组态证明；把 `R` 与 `δ` 混为一谈；把 TRS 的 `γ` 当成测得形状；把同一数据的学位论文/期刊重述当独立复核；把近简并或 signature inversion 当作 collective-mode 充分条件。
 - belief revision：Liu 的 `I0` crosswalk 的来源依赖边界变清楚，`131Ce` signature/configuration baseline 更可复核；但没有新独立 `131Ce` electromagnetic observable，故不改变 `wobbling/chirality` 排名，也不提高 γ-vibration 的实验证据等级。
-- 本日对 [131Ce collective-mode project](../../knowledge/projects/131ce-collective-mode-discrimination.md) 做了逐项 overlap check。AW13-16 的 link、missing `δ`/polarization/lifetime manifest 和失败条件已在现有页明列；新增 oral-exam narrative 不构成新源事实或不同可复用矩阵行，因此不重复写入该页，review 状态保持原样。
-- 下一个候选来自 Day 8 matrix card：选择定则/多极性；须先补独立赋值和 branch-specific response，不沿用本日合成题的虚构描述作实验输入。
+- 本日对 [131Ce collective-mode project](../../knowledge/projects/131ce-collective-mode-discrimination.md) 做了逐项 overlap check。AW13-16 的 link、missing `δ`/polarization/lifetime manifest 和失败条件已在现有页明列；预览没有新增源事实或不同可复用矩阵行，因此不重复写入该页，review 状态保持原样。
+- 下一张正式日卡保持 Day 7。以上口试草稿只作准备材料，Day7 运行应按提示词重新完成卡片并单独验收。
 
 ## L0–L4 state
 
@@ -213,13 +211,13 @@
 ## Verification and continuation
 
 - 边界检查：写前运行 python3 system/scripts/wiki_boundary_check.py --root .，exit 0，errors=0、warnings=0。
-- farmer：`wiki_farmer.py status` 显示原 session 有活动记录；`once --dry-run` exit 0，actions=[]。`ps` 确认原 session 的 Codex resume 进程仍在；没有另一个 daily runner，因此不启动重叠学习会话。
+- farmer：`wiki_farmer.py status` 显示原 session 有活动记录；`once --dry-run` exit 0，actions=[]。本次按用户明确指示收束现有 run，不启动重叠的 DAY6 runner。
 - Wiki lint：python3 system/scripts/wiki_lint.py --fail-on error，exit 0，errors=0、warnings=91、info=1309。
 - runner 语法检查：`python3 -m py_compile system/scripts/run_daily_learning.py system/tests/test_daily_learning_runner.py`，exit 0；`python3 -m unittest system.tests.test_daily_learning_runner -v`，exit 0，35 tests passed。
-- 日报/课程解析：必需标题均存在；课程解析通过，`completed_day_indices=[6,7]`、`partial_day_indices=[]`、计划下一个日卡为 8；状态推进仍等硬截止后的最终 closeout。
-- `git diff --check` 和 `git diff --cached --check` 均 exit 0；staged name-status 已复核为 17 个本轮 task-owned paths。继承的 run-01 事件/回执、旧 DAY6 prompt 与 raw/tmp 材料均未暂存。
-- 标题、单一 knowledge-writeback 块、3 个 anchor、4 个原子 locator、run-06 continuation prompt、Day 7 scorecard/REFLECT 和逐卡审计已核验；当前恢复回执与 continuation prompt 见 [run-07 receipt](20261005-DAY6-rotation-vibration-alignment-signature-run-07/run.json) 和 [run-07 continuation](20261005-DAY6-rotation-vibration-alignment-signature-run-07/continuation-prompt.md)。原 run-01 中断回执和事件日志保留。
+- 日报/课程解析：必需标题均存在；最终课程解析通过，`completed_day_indices=[6]`、`partial_day_indices=[7]`、下一个正式日卡为 7；状态文件保持 `next_day_index=7`。
+- `git diff --check` exit 0；继承的 run-01 事件/回执、旧 DAY6 prompt 与 raw/tmp 材料均未暂存。
+- 标题、单一 knowledge-writeback 块、3 个 anchor、4 个原子 locator、DAY7 prompt 和 Day6 逐卡审计已核验；本次用户指定收束回执见 [run-08 receipt](20261005-DAY6-rotation-vibration-alignment-signature-run-08/run.json)。原 run-01/run-07 事件与回执保留。
 - primary 发布门已通过：Gitee origin 的 fetch exit 0、origin/main ancestor 检查 exit 0、push dry-run exit 0、实际 HEAD:main push exit 0；branch main，commit subject 为 Complete DAY6 rotation-alignment-signature evidence study。
 - 本轮通用时间门更新也已通过 Gitee 发布门：branch `main`，commit subject `Apply time-aware daily-learning closeout gate`，fetch/ancestry/dry-run/push 均 exit 0，refspec `HEAD:main`。
-- run-06 的原始 receipt 记有报告、知识写回、lint/diff 和 Gitee 发布通过，但也记有两槽局部饱和后提前停止。用户修订了停止约定后，Day 6/7 卡内容已完成；schedule-level 学习窗口仍开放至 `2026-10-06T15:00:00+08:00`。这不是最终 closeout，也未把 Day 8 提前记为完成。
-- 续接命令仍为 `codex resume 01a10816-f550-7003-bb53-8dfafc2c18a2 -C /workspace/wiki -s danger-full-access -a never`。下一 continuation 应读取 fresh clock snapshot，先重排剩余候选；硬截止到达后才做最终日报/检查/回执/Day 8 prompt 与发布收尾。
+- run-06 的原始 receipt 记有报告、知识写回、lint/diff 和 Gitee 发布通过，但也记有两槽局部饱和后提前停止。按用户 2026-10-06 明确指示，本次在原截止前提前收束 DAY6；完成 `[6]`，将 `[7]` 留作下一张正式日卡。状态保持 `next_day_index=7`，Day8 不在本次范围内。
+- DAY7 正式学习提示已就绪：[2026-10-06 Day7 prompt](prompts/20261006-DAY7-collective-motion-oral-exam.md)。本次没有启动 Day7 学习；由后续 `wiki-daily-learning` 触发创建新 session。

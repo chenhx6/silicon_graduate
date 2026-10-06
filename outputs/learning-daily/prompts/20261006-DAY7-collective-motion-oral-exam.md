@@ -2,7 +2,7 @@
 type: system-prompt
 graph-excluded: true
 created: 2026-10-05
-updated: 2026-10-05
+updated: 2026-10-06
 ---
 
 # DAY7 — 第一次周考：集体运动口试
@@ -23,6 +23,10 @@ updated: 2026-10-05
 ## Study contract
 
 在 /workspace/wiki 内执行。开始前读取 README.md、knowledge/index.md、profile.md、active handoff、PLAN.md、Day 1–6 日报、本学习计划与 daily-task-matrix 的 Day 7 卡，以及 autonomous-research / continuous-learning workflow。写前运行 Wiki boundary check；保留既有 dirty files、raw、PLAN.md 和 review 状态。日报和可复用结论尽量使用中文。不要把模型结果写成实验事实，也不要设置 human-reviewed 或清除 needs_review。
+
+## 当前学习边界
+
+用户明确要求先完成 DAY6 收束，再由本提示词开始正式 DAY7；Day8 不属于当前学习任务范围。DAY6 日报中已有一段 Day7 口试预览、草稿评分和预览反思，但它们的 `partial_day_indices: [7]` 不计 Day7 学分。正式 Day7 session 必须重新完成卡片要求，并在自己的日报中记录完整评分表、weekly REFLECT 与交付审计；不得直接继承预览为已完成结论，也不得前移或完成 Day8。
 
 ## Day 7 card
 

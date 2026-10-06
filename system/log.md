@@ -1483,3 +1483,8 @@ updated: 2026-07-15
 
 - Boundary check exit 0; Wiki lint exit 0 (0 errors, 91 warnings, 1309 info); runner compile exit 0; runner unittest exit 0 (35 tests); report heading/coverage validation and `git diff --check` exit 0.
 - Published branch `main`, subject `Apply time-aware daily-learning closeout gate`, exact refspec `HEAD:main`; fresh fetch, remote-ancestor, dry-run and push all exited 0. Day 6/7 schedule-level closeout remains open until 2026-10-06 15:00 Asia/Shanghai.
+
+## [2026-10-06] daily-learning | user-directed DAY6 closeout; DAY7 next
+
+- User explicitly requested DAY6 closeout and preparation of the official DAY7 plan. Closeout was recorded at 13:23 Asia/Shanghai, before the original 15:00 cutoff; DAY6 card 6 is complete, the previous Day7 preview remains partial/uncredited, and state stays at `next_day_index=7`.
+- Preserved the DAY7 prompt boundary: its official session must complete the card freshly; no Day8 work is queued in this task. The report, state, run-08 receipt and prompt are prepared for final local checks and Gitee publication.
