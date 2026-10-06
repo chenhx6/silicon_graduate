@@ -16,7 +16,7 @@
 | 日卡交付项 | 可复核证据或产物 | 状态 |
 |---|---|---|
 | 回忆 rotational/vibrational band、alignment 与 signature | 本报告“来源前主动回忆”及 Day7 预览回忆 | complete |
-| 主线来源与关键图表/公式 | [Stephens 1975](../../knowledge/sources/stephens-1975-coriolis-rotation-alignment.md) ST75-1–3；[Liu 1996](../../knowledge/sources/liu-1996-signature-inversion-a130.md) LU96-1–5；[Alwaleedi 2013](../../knowledge/sources/alwaleedi-2013-band-structures-131ce.md) AW13-1–18 | complete |
+| 主线来源与关键图表/公式 | [Stephens 1975](../../knowledge/sources/stephens-1975-coriolis-rotation-alignment.md) ST75-1–3；[Liu 1996](../../knowledge/sources/liu-1996-signature-inversion-a130.md) LU96-1–5；[Alwaleedi 2013](../../knowledge/sources/alwaleedi-2013-band-structures-131ce.md) AW13-1–19 | complete |
 | 自旋—频率与 alignment 定量练习 | AW13-18 Eq. (2.25)/Table 4.1；MA90-5 Eq. (2) Harris 参考转子复算 | complete |
 | signature inversion 与 crossing 的反证/替代解释 | LU96-4/5；ST75-2/3；AW13-11；保留自旋锚点、组态混合和 `δ=0` 边界 | complete |
 | alignment/signature 判读卡与带结构图 | 本报告两张重建表及 [A≈130 thesis evidence matrix](../../knowledge/projects/a130-thesis-evidence-matrix.md) crosswalk | complete |
@@ -38,7 +38,7 @@
 |---|---|---|
 | [Davidson 1965](../../knowledge/sources/davidson-1965-rotations-vibrations-deformed-nuclei.md)：DV65-1，printed pp.105–146；DV65-2，printed pp.129–146。DOI [10.1103/RevModPhys.37.105](https://doi.org/10.1103/RevModPhys.37.105)。 | 集体模型综述 | 形变表面坐标量子化为振动 phonon，稳定形变产生转动带；odd-particle、Coriolis 和 decoupling 改变能带系统学。它是理论背景，不是 131Ce 的观测证据。 |
 | [Stephens 1975](../../knowledge/sources/stephens-1975-coriolis-rotation-alignment.md)：ST75-1，PDF pp.43–44 Eq. (1)；ST75-2，Secs. II–III；ST75-3，Sec. IV。DOI [10.1103/RevModPhys.47.43](https://doi.org/10.1103/RevModPhys.47.43)。 | Coriolis 与 alignment 综述 | Coriolis coupling 可混合邻近 K 带并改变 alignment、signature 和 backbending；blocking、配对和形变共同影响 crossing。它没有唯一指定某个 crossing 的组态。 |
-| [Alwaleedi 2013, 131Ce](../../knowledge/sources/alwaleedi-2013-band-structures-131ce.md)：AW13-14，PDF p.63 Table 4.1；AW13-5，Table 5.1；AW13-4，Table 5.3；AW13-9，Eqs. 5.6–5.7；AW13-11，Chapters 3–5 方法盘点；AW13-18，Eq. (2.25), Table 4.1。DOI [10.17638/00015073](https://doi.org/10.17638/00015073)，本地 PDF SHA-256 为 B50C22877418DE560F06002588BB46D34F5BA670C6880E30A89D1509C79AD8C1。 | 实验能级/跃迁；派生 crossing；作者组态解释 | 100Mo(36S,5nγ) 在 165 MeV、Gammasphere 数据建立 Bands 1–7。按原文 Eq. (2.25)，每条 ΔI=2 E2 跃迁用 Eγ/2 给出转频，定位于跃迁中点；Table 4.1 能量误差未列。Table 5.1 将 Band 1 的负宇称两个 signature crossing 列为 0.329±0.002 和 0.367±0.002 MeV/ℏ。作者称其由实验 Routhian 提取，不能由单个 Eγ/2 点直接等同；都不是直接形变或振动测量。 |
+| [Alwaleedi 2013, 131Ce](../../knowledge/sources/alwaleedi-2013-band-structures-131ce.md)：AW13-14，Table 4.1，thesis p.63/PDF p.67；AW13-16，Table 4.4，thesis p.66/PDF p.70；AW13-19，Fig. 4.5，thesis p.59/PDF p.63；AW13-5，Table 5.1；AW13-4，Table 5.3；AW13-9，Eqs. 5.6–5.7；AW13-11，Chapters 3–5 方法盘点；AW13-18，Eq. (2.25), Table 4.1。DOI [10.17638/00015073](https://doi.org/10.17638/00015073)，本地 PDF SHA-256 为 B50C22877418DE560F06002588BB46D34F5BA670C6880E30A89D1509C79AD8C1。 | 实验能级/跃迁；派生 crossing；作者组态解释 | 100Mo(36S,5nγ) 在 165 MeV、Gammasphere 数据建立 Bands 1–7。按原文 Eq. (2.25)，每条 ΔI=2 E2 跃迁用 Eγ/2 给出转频，定位于跃迁中点；Table 4.1 能量误差未列。Table 5.1 将 Band 1 的负宇称两个 signature crossing 列为 0.329±0.002 和 0.367±0.002 MeV/ℏ。作者称其由实验 Routhian 提取，不能由单个 Eγ/2 点直接等同；都不是直接形变或振动测量。Table 4.4 的 `611.1-keV` 行是 Band 4 偶内 M1/E2 跃迁，AW13-16；真正的 Band 1–Band 4 新连接是 Fig. 4.5 标出的 `505-keV` transition，AW13-19；该图没有给出其多极性或端点自旋宇称。 |
 | [Liu et al. 1996](../../knowledge/sources/liu-1996-signature-inversion-a130.md)：LU96-1，Tables I–II；LU96-2，Fig. 15；LU96-3，PDF pp.729–730；LU96-4，Table II；本轮新增 LU96-5，PDF p.729 Sec. VI.C。DOI [10.1103/PhysRevC.54.719](https://doi.org/10.1103/PhysRevC.54.719)；本地原文 SHA-256 为 ca3e1c1bc834158112dee525fa4c42c3d44596975a506f3a2a1da023580a346f。 | 已发表能级的系统学重标；独立模型计算 | Table I 中 13 个已有 bandhead spin 指认有 11 个被修改，且这 11 个改变量都是奇数；Fig. 15 在作者新指认下显示讨论核素的低自旋 signature inversion。Table II 对 Cs 保留不相容方案。Liu 汇编旧实验而非新 acquisition；Tajima 的模型参数拟合过 124Cs、I0=7 的同一参考，不能当作该自旋锚点的独立验证。 |
 | [Ma et al. 1990, 131Ba](../../knowledge/sources/ma-1990-131ba-competing-alignments.md)：MA90-2，PDF pp.725–728 Figs. 5–7/Table II；MA90-5，PDF p.725 Eq. (2)/Fig. 5。DOI [10.1103/PhysRevC.41.717](https://doi.org/10.1103/PhysRevC.41.717)；原文 SHA-256 为 a0dbdd4957d1d11af570b5daffc9c44609d9ef5ed570dc3ad32a67388dad90de。 | 不同核素的直接谱学与派生 alignment | 131Ba 的 crossing 与 Harris alignment 作方法对照。其 119Sn(12C,4n) 实验与 131Ce Gammasphere 谱不同，不能当成 131Ce 的独立验证。 |
 | [Afanasjev et al. 1999](../../knowledge/sources/afanasjev-1999-termination-rotational-bands.md)：AF99-1，PDF pp.4–7、33–39；AF99-2，PDF pp.33–40、43–95。PII S0370-1573(99)00035-6。 | 终止转动综述 | termination 指固定组态的集体转动连续走向该组态有限的最大 aligned spin；须联合能量、alignment、转动惯量和 Q_t/B(E2) 变化，排除 crossing、混合及统计不足。未在本轮 131Ce 序列上判定 termination。 |
@@ -87,20 +87,20 @@
 **131Ce 已读案例的完整证据链口述。**
 
 - **壳结构/形变层：** Alwaleedi 2013 用 Woods–Saxon/TRS 与 CSM 讨论粒子组态和形变背景；作者采用的 `β2=0.218, β4=−0.023, γ=0°` 是模型输入/极小值，不是实验直接测形变（AW13-6）。Band 1/4 的负宇称 `νh11/2` 类轨道指认仍属组态解释（AW13-8）。
-- **直接谱学层：** `100Mo(36S,5nγ)`、165 MeV、Gammasphere 数据建立/扩展 Bands 1–7；图 4.1 和表 4.1–4.7 给能级、γ 线、相对强度与角度比。Band 1 的 `507.9 keV, 15/2−→11/2−` E2 行为 AW13-14；Band 4→Band 1 的 `611.1 keV, 17/2−→15/2−` M1/E2 link 为 AW13-16。角度比 `R` 不是 mixing ratio `δ`。
+- **直接谱学层：** `100Mo(36S,5nγ)`、165 MeV、Gammasphere 数据建立/扩展 Bands 1–7；图 4.1 和表 4.1–4.7 给能级、γ 线、相对强度与角度比。Band 1 的 `507.9 keV, 15/2−→11/2−` E2 行为 AW13-14；Table 4.4 的 `611.1 keV, 17/2−→15/2−` M1/E2 是 Band 4 偶内跃迁（AW13-16）；Figure 4.5 才标出新发现的 `505-keV` Band 1–Band 4 link（AW13-19），其端点自旋宇称和多极性未在该图给出。角度比 `R` 不是 mixing ratio `δ`。
 - **alignment/signature 层：** 对 ΔI=2 行按 AW13-18 的 `ℏω=Eγ/2` 放在跃迁中点，Band 1 的频率先升后降；Table 5.1 的两个 signature crossing 为 `0.329` 与 `0.367 MeV/ℏ`（AW13-5）。跨带比较还依赖 band identity、spin assignment 和参考带，不能把派生量改称独立 alignment 测量。
 - **作者解释/模型层：** CSM/TRS 讨论准粒子 crossing、spin-dependent core polarization 和可能的非轴响应；Band 4 被作者标为 γ-vibration-coupled `e/f` 序列（AW13-4/7）。这些是作者/模型解释，不等于已测得振动声子或 γ-soft 势面。
 - **替代解释与裁决边界：** Coriolis mixing、signature partner、准粒子 alignment、配对/形变演化均可造成 crossing 或相似能谱（ST75-2/3）。论文没有 `δ`、线偏振、寿命、绝对 `B(E2)/B(M1)` 或 partner-resolved 强度闭合链（AW13-9/11）；因此现有最简解释仍是 signature/configuration coupling 主导，振动/摆动/手征不能升级为实验事实。
 
 **未知短能带 20 分钟判读练习（以下描述完全为合成题，不对应核素/实验）：** 两条同宇称短序列各有若干 ΔI=2 γ 线；其中一条的 `Eγ/2` 随中点自旋先升后降，出现一个作者称为“交叉”的斜率变化；只报告一条两带间 ΔI=1 γ 线，multipolarity 未定；没有寿命、直接 `δ`、偏振或绝对强度。可以说：存在两条被指认为同宇称的序列、该条线的能量给出随自旋变化的运动学趋势、并有一个待核的带间连接。不能说：crossing 已由唯一组态解释、短带已终止、第二带必是 γ 振动伙伴，或这两带属于 wobbling/chirality。替代解释至少有 signature partner/准粒子 crossing、Coriolis mixing、配对/形变响应及未知门条件/feeding。停止条件是先核定自旋/宇称/带身份和 crossing reference；若无法取得 direct `δ`/偏振与匹配寿命/绝对强度，就保持 provisional，不对模式命名。
 
-**最可能改变当前排序的证据：** 先对真实 AW13-16 的 `611.1-keV` Band 4→Band 1 link 做直接、带符号/分支的 `δ` 与线偏振测量；若它显示稳健 E2 分量，下一步必须以重叠自旋区间寿命补出绝对 `B(E2)_out/B(E2)_in` 才能提高集体耦合排序。若 link 以 M1 为主，普通组态连接解释更稳。单个 `R=0.56±0.02` 不代替上述观测。
+**最可能改变当前排序的证据：** 对原文确认为跨带连接的 `505-keV` transition（AW13-19）先完成端点自旋宇称和多极性核定，并测得带符号/分支的 `δ` 与线偏振。若它显示稳健 E2 分量，再以重叠自旋区间寿命得到伙伴分辨的绝对 `B(E2)_out/B(E2)_in`，可提高集体耦合解释的排序；若 link 以 M1 为主，普通组态连接解释更合适。Table 4.4 的 `611.1-keV` 行是 Band 4 偶内跃迁，其 `R=0.56±0.02` 不描述 505-keV link，也不代替 `δ`。
 
 ## Counter-evidence and missing companion observables
 
 - Liu 1996 的结论随 bandhead spin crosswalk 变化：多数有旧自旋指认的 La/Pr/Pm/Eu 带中，11/13 个 I0 被改动且全是奇 ΔI；odd ΔI 会交换偶/奇自旋对应的 signature 标记。作者采用平滑同位素系统学支持改标，但平滑趋势本身是 systematics prior，不是新的直接自旋测量。
 - Cs 仍无唯一锚点：文中称 124Cs I0=7 与 130Cs I0=9 无法同时满足平滑曲线，并列出 130Cs I0=11 的另一重建。Tajima 对 124Cs 的计算吻合不能解决此问题，因为模型参数拟合于同一 I0=7 数据。
-- 131Ce 的 crossing/alignment 约束作者的准粒子组态解释，却不能单独区分 Coriolis mixing、配对/形变演化与振动响应。Band 4 的 γ-vibrational 标签是作者解释；611.1-keV Band 4→Band 1 link 为 M1/E2 指认，但本 thesis 无逐跃迁测得的 δ、线偏振、寿命或 partner-resolved 绝对 B(E2)/B(M1)。
+- 131Ce 的 crossing/alignment 约束作者的准粒子组态解释，却不能单独区分 Coriolis mixing、配对/形变演化与振动响应。Band 4 的 γ-vibrational 标签是作者解释；505-keV 是已标示的 Band 1–Band 4 link，但原文该 locator 未给其多极性/端点自旋宇称，且本 thesis 无逐跃迁测得的 δ、线偏振、寿命或 partner-resolved 绝对 B(E2)/B(M1)。611.1-keV 为 Band 4 偶内跃迁，不能填补该 interband 缺口。
 - 必要伴随量：可靠自旋/宇称与带身份、完整带间 links、混合比两个分支和偏振、匹配自旋区间的寿命与绝对 B(E2)/B(M1)，以及能支持形状判断的 quadrupole observable。测量后须用同一 transition matrix 区分 signature/configuration coupling 与集体振动；若讨论 wobbling/chirality，还需相应 out-of-band E2、伙伴身份和随自旋模式能量。
 - 源独立性：Alwaleedi 是一套 100Mo(36S,5nγ) Gammasphere acquisition；Liu 是多篇旧谱学的汇编；Tajima 是独立模型路线但模型参数依赖 124Cs 的同一自旋假设；Ma 是 131Ba 的不同反应/实验，仅作 alignment 方法参照。
 - Day 7 口试重复使用 AW13 不是第二份 `131Ce` acquisition；LU96 是既有 A≈130 多核素数据汇编，Tajima 与 `124Cs I0=7` 共用拟合锚点。当天 REFLECT 只改变学习者的证据分层检查，不新增独立实验权重。
@@ -190,15 +190,19 @@
 | 误差 | 3 | 保留 AW13 Table 4.1 未报误差、crossing 参数协方差缺失及 Harris 参数协方差边界。 |
 | 证据分层 | 4 | 实验 line/link、派生频率、作者的 γ-vibrational 指认和模型形变输入分开。 |
 | 反证 | 3 | 列出 Coriolis、signature/configuration、pairing/shape alternatives；需 direct 电磁测量决胜。 |
-| 可证伪问题 | 3 | 给出 611.1-keV `δ`/偏振与后续 `B(E2)_out/B(E2)_in` 的结果分叉；还需预注册灵敏度/判定阈值。 |
+| 可证伪问题 | 3 | 预览草稿曾以 611.1-keV 作为带间判据；正式 DAY7 原文核对发现它是 Band 4 偶内跃迁，带间候选应改为 505 keV。预览评分不计 Day7，正式评分另行给出。 |
 
 ### Day 7 preview reflection — not official
 
 - 本周核心进步不是多给模式贴标签，而是把“观测量→赋值→机制”拆成可检查层，并把来源共享实验、模型拟合锚点和统计不确定度一起写进证据权重。
 - 常见错因：把 crossing 当作唯一组态证明；把 `R` 与 `δ` 混为一谈；把 TRS 的 `γ` 当成测得形状；把同一数据的学位论文/期刊重述当独立复核；把近简并或 signature inversion 当作 collective-mode 充分条件。
 - belief revision：Liu 的 `I0` crosswalk 的来源依赖边界变清楚，`131Ce` signature/configuration baseline 更可复核；但没有新独立 `131Ce` electromagnetic observable，故不改变 `wobbling/chirality` 排名，也不提高 γ-vibration 的实验证据等级。
-- 本日对 [131Ce collective-mode project](../../knowledge/projects/131ce-collective-mode-discrimination.md) 做了逐项 overlap check。AW13-16 的 link、missing `δ`/polarization/lifetime manifest 和失败条件已在现有页明列；预览没有新增源事实或不同可复用矩阵行，因此不重复写入该页，review 状态保持原样。
+- 预览阶段的 overlap check 没有发现增量，但正式 DAY7 原文审计随后纠正了 AW13-16 的跨带身份；见下方 erratum。该预览错误不计入 Day7 完成结论。
 - 下一张正式日卡保持 Day 7。以上口试草稿只作准备材料，Day7 运行应按提示词重新完成卡片并单独验收。
+
+### Formal DAY7 erratum to this preview — 2026-10-06
+
+The closed-out Day6 preview incorrectly treated the `611.1-keV` AW13-16 Table 4.4 Band 4 intraband transition as a Band 4→Band 1 link. The thesis footer identifies this as thesis p.66 / PDF p.70. Figure 4.5 instead marks a newly found `505-keV` transition linking Band 1 and Band 4 (thesis p.59 / PDF p.63). The current Day7 source and project pages record this correction as AW13-19 and preserve the unknown spin/parity endpoints, multipolarity, intensity, mixing ratio and lifetime. The Day6 preview remains partial/uncredited for Day7; this erratum does not alter its Day6 completion audit.
 
 ## L0–L4 state
 

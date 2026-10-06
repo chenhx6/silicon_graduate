@@ -2,9 +2,9 @@
   "schema_version": 1,
   "cycle": "2026-09-30-day-substantive",
   "counting_policy": "30 fully completed substantive curriculum cards; a run may complete multiple contiguous cards; acceptance-only runs are excluded",
-  "next_day_index": 7,
-  "last_success": "2026-10-05",
-  "last_run_id": "2026-10-05-day-06-08",
+  "next_day_index": 8,
+  "last_success": "2026-10-06",
+  "last_run_id": "2026-10-06-day-07-01",
   "status": "active",
   "acceptance_runs_excluded": [
     "2026-09-22-day-01-01",
@@ -16,5 +16,5 @@
   ],
   "reset_at": "2026-09-23",
   "reset_reason": "Manual Docker/runner instance acceptance before the substantive 30-day test reset",
-  "completed_day_count": 6
+  "completed_day_count": 7
 }

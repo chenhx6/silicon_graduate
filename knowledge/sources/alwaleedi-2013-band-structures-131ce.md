@@ -93,11 +93,12 @@ Mohammed Abdullah Alwaleedi，*Band Structures of 131Ce*，University of Liverpo
 | AW13-11 | 本数据集没有寿命、绝对 B(E2)、线偏振或直接 γ 刚性测量，不能仅凭本论文裁决 wobbling、chirality、shape coexistence 或 γ-soft/γ-rigid。 | analytical-boundary | inferred | Dataset/method inventory across Chapters 3–5 | true |
 | AW13-12 | Table 5.3 排版原文把 Band 5 两个 signature 分量的高自旋端都写成 `e⊗AEFG`：`e⊗AE → e⊗AEFG` 与 `f⊗AE → e⊗AEFG`；180 dpi 页面视觉复核确认这不是文本提取误差。 | observed-fact | direct | Table 5.3, thesis p.80 | false |
 | AW13-13 | 2026-08-11 用户审核决定按 Table 5.3 原文保留上述两条映射，不以 signature 连续性把第二行改写为 `f⊗AEFG`。重复的高自旋 `e⊗AEFG` 标签在物理上如何对应两个低自旋 signature 分量仍未解决，需独立来源或作者勘误才能重映射。 | analytical-boundary | inferred | Table 5.2; Table 5.3; Section 5.2.2 Band 5; user review 2026-08-11 | false |
-| AW13-14 | Table 4.1 的 Band 1 quadrupole row reports `Eγ=507.9 keV`, `Iγ=100`, `R=0.94±0.02`, assigned `15/2−→11/2−` as E2; the table intensity is normalized to the 508-keV Band 1 transition. | experimental-fact | direct | PDF p.63, Table 4.1 | true |
-| AW13-15 | Table 4.2 的 Band 1 dipole row reports `Eγ=137.4 keV`, `Iγ=68.3±3.2`, `R=0.50±0.04`, assigned `11/2−→9/2−` as M1/E2. | experimental-fact | direct | PDF p.64, Table 4.2 | true |
-| AW13-16 | Table 4.4 的 Band 4 dipole row reports `Eγ=611.1 keV`, `Iγ=25.2±1.1`, `R=0.56±0.02`, assigned `17/2−→15/2−` as M1/E2; the text identifies this as a new Band 4→Band 1 feeding/linking transition. | experimental-fact | direct | PDF pp.61, 66, Table 4.4; Fig.4.5 | true |
-| AW13-17 | Table 4.3 的 Band 7 quadrupole row reports `Eγ=950.3 keV`, `Iγ=24.3±1.4`, `R=1.01±0.03`, assigned `29/2−→25/2−` as E2. | experimental-fact | direct | PDF p.65, Table 4.3 | true |
-| AW13-18 | For a ΔI=2 transition, Eq. (2.25) evaluates the rotational frequency as `ℏω=Eγ/2`; applying it to Band 1 Table 4.1 gives transition-midpoint points `15/2→11/2: 0.25395 MeV`, `19/2→15/2: 0.32060 MeV`, `23/2→19/2: 0.37465 MeV`, `27/2→23/2: 0.41270 MeV`, `31/2→27/2: 0.39030 MeV`, and `35/2→31/2: 0.34570 MeV`. Table 4.1 does not print energy uncertainties for these rows. | derived-observable | derived | Eq. (2.25), thesis p.26; Table 4.1, thesis p.63 | true |
+| AW13-14 | Table 4.1 的 Band 1 quadrupole row reports `Eγ=507.9 keV`, `Iγ=100`, `R=0.94±0.02`, assigned `15/2−→11/2−` as E2; the table intensity is normalized to the 508-keV Band 1 transition. | experimental-fact | direct | Table 4.1, thesis p.63 / PDF p.67 | true |
+| AW13-15 | Table 4.2 的 Band 1 dipole row reports `Eγ=137.4 keV`, `Iγ=68.3±3.2`, `R=0.50±0.04`, assigned `11/2−→9/2−` as M1/E2. | experimental-fact | direct | Table 4.2, thesis p.64 / PDF p.68 | true |
+| AW13-16 | Table 4.4 lists a Band 4 dipole transition at `Eγ=611.1 keV`, `Iγ=25.2±1.1`, `R=0.56±0.02`, assigned `17/2−→15/2−` as M1/E2. This is a Band 4 intraband row, not the newly identified Band 1–Band 4 link. | experimental-fact | direct | Table 4.4, thesis p.66 / PDF p.70 | true |
+| AW13-17 | Table 4.3 的 Band 7 quadrupole row reports `Eγ=950.3 keV`, `Iγ=24.3±1.4`, `R=1.01±0.03`, assigned `29/2−→25/2−` as E2. | experimental-fact | direct | Table 4.3, thesis p.65 / PDF p.69 | true |
+| AW13-18 | For a ΔI=2 transition, Eq. (2.25) evaluates the rotational frequency as `ℏω=Eγ/2`; applying it to Band 1 Table 4.1 gives transition-midpoint points `15/2→11/2: 0.25395 MeV`, `19/2→15/2: 0.32060 MeV`, `23/2→19/2: 0.37465 MeV`, `27/2→23/2: 0.41270 MeV`, `31/2→27/2: 0.39030 MeV`, and `35/2→31/2: 0.34570 MeV`. Table 4.1 does not print energy uncertainties for these rows. | derived-observable | derived | Eq. (2.25), thesis p.26; Table 4.1, thesis p.63 / PDF p.67 | true |
+| AW13-19 | Figure 4.5 identifies the newly found `505-keV` transition (shown red in the gated spectrum) as linking Band 1 and Band 4. The figure locator does not specify its spin/parity endpoints, multipolarity, relative intensity, mixing ratio, or lifetime. | experimental-fact | direct | Figure 4.5, thesis p.59 / PDF p.63; gates `756` and `626 keV` | true |
 
 ## Nuclear Structure Information
 
@@ -125,6 +126,7 @@ Mohammed Abdullah Alwaleedi，*Band Structures of 131Ce*，University of Liverpo
 - Band 5 的 Table 5.3 原文给出 `e⊗AE → e⊗AEFG` 与 `f⊗AE → e⊗AEFG`；页面视觉复核已排除 OCR/文本提取误差。2026-08-11 用户审核决定忠实保留这两条映射，不引入 `f⊗AEFG` 修正；重复高自旋标签与 signature 连续性之间的张力保持为未解决来源边界。
 - B(M1)/B(E2) 必须始终携带 δ=0 假设。由 Equations 5.6–5.7，`R(δ)=R(0)/(1+δ²)`；若 `|δ|≤0.5`，δ=0 结果相对真实值最多高估 25%，而两者差值相对 δ=0 结果最多为 20%。δ 的符号不改变这项幅值修正，但仍影响偏振和相位判断。
 - 轴对称 TRS 极小值和高自旋非轴 core polarization 不等价于已经测得 γ-soft 或 rigid-triaxial 势面。
+- Band-link crosswalk: Figure 4.5 identifies the new 505-keV Band 1–Band 4 link (AW13-19). The 611.1-keV row in Table 4.4 is an M1/E2 transition within Band 4 (AW13-16); it must not be used as the interband link or as its mixing-ratio evidence.
 - 近简并、signature splitting 或相似 alignment 可由普通 signature partners、组态混合、粒子—芯耦合及不同集体模式产生，需要额外电磁和形变 observable 区分。
 
 ## Analytical Reconstruction
