@@ -219,5 +219,6 @@
 - 标题、单一 knowledge-writeback 块、3 个 anchor、4 个原子 locator、DAY7 prompt 和 Day6 逐卡审计已核验；本次用户指定收束回执见 [run-08 receipt](20261005-DAY6-rotation-vibration-alignment-signature-run-08/run.json)。原 run-01/run-07 事件与回执保留。
 - primary 发布门已通过：Gitee origin 的 fetch exit 0、origin/main ancestor 检查 exit 0、push dry-run exit 0、实际 HEAD:main push exit 0；branch main，commit subject 为 Complete DAY6 rotation-alignment-signature evidence study。
 - 本轮通用时间门更新也已通过 Gitee 发布门：branch `main`，commit subject `Apply time-aware daily-learning closeout gate`，fetch/ancestry/dry-run/push 均 exit 0，refspec `HEAD:main`。
+- DAY6 用户指定收束文件已发布至 Gitee `main`：commit subject `Finalize DAY6 closeout and prepare DAY7`，fetch/ancestry/dry-run/push 均 exit 0，refspec `HEAD:main`；run-08 最终回执记为 completed/countable，Day7 preview 保持 partial。
 - run-06 的原始 receipt 记有报告、知识写回、lint/diff 和 Gitee 发布通过，但也记有两槽局部饱和后提前停止。按用户 2026-10-06 明确指示，本次在原截止前提前收束 DAY6；完成 `[6]`，将 `[7]` 留作下一张正式日卡。状态保持 `next_day_index=7`，Day8 不在本次范围内。
 - DAY7 正式学习提示已就绪：[2026-10-06 Day7 prompt](prompts/20261006-DAY7-collective-motion-oral-exam.md)。本次没有启动 Day7 学习；由后续 `wiki-daily-learning` 触发创建新 session。

@@ -10,7 +10,7 @@ updated: 2026-10-06
 
 用户于 2026-10-06 明确要求提前收束 DAY6、准备正式 DAY7；收束记录时间为 `13:23 Asia/Shanghai`，距原定 15:00 截止约 97 分钟。DAY6 卡完成；DAY7 预演在 [日报](../outputs/learning-daily/20261005-DAY6-rotation-vibration-alignment-signature.md) 中保留为 `partial_day_indices=[7]`，不计 Day7 学分。课程状态保持 `next_day_index=7`；Day8 不在本任务范围。
 
-DAY7 正式提示已就绪：`outputs/learning-daily/prompts/20261006-DAY7-collective-motion-oral-exam.md`。下一步由 schedule 启动新的 DAY7 session，不恢复 DAY6 旧 session。DAY6 最终回执：`outputs/learning-daily/20261005-DAY6-rotation-vibration-alignment-signature-run-08/run.json`。通用时间门已在 Gitee `main` 发布；继承的 run-01/run-07 历史、旧 DAY6 prompt 和 raw/tmp 材料均保留。
+DAY7 正式提示已就绪：`outputs/learning-daily/prompts/20261006-DAY7-collective-motion-oral-exam.md`。下一步由 schedule 启动新的 DAY7 session，不恢复 DAY6 旧 session。DAY6 最终回执：`outputs/learning-daily/20261005-DAY6-rotation-vibration-alignment-signature-run-08/run.json`。通用时间门与 DAY6 收束分别以提交主题 `Apply time-aware daily-learning closeout gate` 和 `Finalize DAY6 closeout and prepare DAY7` 发布至 Gitee `main`；继承的 run-01/run-07 历史、旧 DAY6 prompt 和 raw/tmp 材料均保留。
 
 ## DAY6 initial stop record — 2026-10-05
 

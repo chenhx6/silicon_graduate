@@ -27,8 +27,8 @@
   ],
   "session_scope": "finalize DAY6 on explicit user request; leave DAY7 as next official card",
   "started_at": "2026-10-06T13:23:13+08:00",
-  "status": "closeout-verified-pending-publication",
-  "counted_in_substantive_test": false,
+  "status": "completed",
+  "counted_in_substantive_test": true,
   "user_requested_early_closeout": true,
   "user_request_received_at_approx": "2026-10-06T12:55:00+08:00",
   "study_window_closed": true,
@@ -107,9 +107,24 @@
     "git_diff_check_exit": 0,
     "next_prompt_exists": true,
     "next_prompt": "outputs/learning-daily/prompts/20261006-DAY7-collective-motion-oral-exam.md",
-    "git_publication": "pending"
+    "git_publication": {
+      "branch": "main",
+      "commit_subject": "Finalize DAY6 closeout and prepare DAY7",
+      "remote": "origin (Gitee)",
+      "refspec": "HEAD:main",
+      "fetch_exit": 0,
+      "origin_ancestor_exit": 0,
+      "push_dry_run_exit": 0,
+      "push_exit": 0,
+      "push_outcome": "pushed"
+    },
+    "publication": "passed",
+    "report_headings_pending": false,
+    "day7_preview_credited": false,
+    "day8_in_scope": false,
+    "publication_pending": false
   },
-  "finished_at": "2026-10-06T13:54:33.887833+08:00",
+  "finished_at": "2026-10-06T14:08:23+08:00",
   "exit_code": 0,
   "failure_reason": null,
   "closeout_window_missed": false,
@@ -123,7 +138,16 @@
     "stop_reason": "user explicitly requested DAY6 closeout and preparation of the official DAY7 plan",
     "hard_deadline_reached": false,
     "next_day_index": 7,
-    "next_prompt_exists": true
+    "next_prompt_exists": true,
+    "finished_at": "2026-10-06T14:00:41+08:00",
+    "publication_passed": true,
+    "counted_day_indices": [
+      6
+    ],
+    "uncredited_partial_day_indices": [
+      7
+    ],
+    "early_closeout_by_user": true
   },
   "state_after_closeout": {
     "schema_version": 1,
@@ -144,5 +168,17 @@
     "reset_at": "2026-09-23",
     "reset_reason": "Manual Docker/runner instance acceptance before the substantive 30-day test reset",
     "completed_day_count": 6
-  }
+  },
+  "git_publication": {
+    "branch": "main",
+    "commit_subject": "Finalize DAY6 closeout and prepare DAY7",
+    "remote": "origin (Gitee)",
+    "refspec": "HEAD:main",
+    "fetch_exit": 0,
+    "origin_ancestor_exit": 0,
+    "push_dry_run_exit": 0,
+    "push_exit": 0,
+    "push_outcome": "pushed"
+  },
+  "publication_pending": false
 }
