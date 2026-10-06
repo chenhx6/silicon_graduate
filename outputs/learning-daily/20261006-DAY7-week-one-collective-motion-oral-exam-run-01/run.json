@@ -59,8 +59,8 @@
   "next_day_index": 8,
   "day7_preview_not_credited": true,
   "day8_in_scope": true,
-  "next_prompt_file": null,
-  "next_prompt_exists": false,
+  "next_prompt_file": "/workspace/wiki/outputs/learning-daily/prompts/20261007-DAY8-angular-momentum-selection-rules-multipolarity.md",
+  "next_prompt_exists": true,
   "weekly_learning_subtype": "weekly-learning",
   "checks": {
     "boundary_exit": 0,
@@ -79,7 +79,8 @@
     "raw_sha256_matched": true,
     "day8_work_performed": true,
     "day8_card_completed": false,
-    "course_state_unchanged_after_day7": true
+    "course_state_unchanged_after_day7": true,
+    "next_prompt_path_checked": true
   },
   "state_before_closeout": {
     "next_day_index": 7,
@@ -106,7 +107,7 @@
     "post_push_head_matches_origin_main": true,
     "status_after_primary_push": "main matches origin/main"
   },
-  "publication_pending": false,
+  "publication_pending": true,
   "initial_closeout_snapshot": {
     "now_local": "2026-10-06T16:35:35+08:00",
     "hard_deadline": "2026-10-07T15:00:00+08:00",
@@ -142,5 +143,14 @@
     "post_push_head_matches_origin_main": true,
     "status_after_primary_push": "main matches origin/main",
     "receipt_reconciliation_subject": "Reconcile DAY7 run receipt and handoff after resumed closeout"
+  },
+  "formal_next_day_prompt_created_at": "2026-10-06T23:23:44+08:00",
+  "formal_next_day_prompt_created_after_closeout": true,
+  "next_prompt_created_by_user_followup": true,
+  "prompt_followup_publication": {
+    "status": "pending",
+    "commit_subject": null,
+    "commit_hash": null,
+    "push_outcome": "pending"
   }
 }

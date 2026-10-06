@@ -1509,3 +1509,8 @@ The user challenged the first closeout at 16:35 Asia/Shanghai, which had occurre
 The resumed source audit corrected the earlier mistaken demotion of AW13-16 and completed the six-link Band1/Band4/yrast map. It also mapped the Figure 4.5 505-keV peak to Table 4.2's 504.9-keV row/endpoints, added the Figure 4.1/Table 4.4 538.3-keV Band4-to-Band1 branch, and recorded three conditional same-parent E2 out/in calculations plus the 611.1/243.7 gamma-yield ratio. Day8 selection-rule knowledge was pre-studied from existing sources, marked partial/uncredited; Day9 was inspected and deferred. Course state remains next_day_index=8, completed_day_count=7. Raw, PLAN, milestone state and review statuses were untouched.
 
 Final time-gate snapshot: 2026-10-06 22:08 Asia/Shanghai, 1012 minutes before hard deadline. Boundary passed; Wiki lint passed with 0 errors, 91 warnings and 1313 info; report contract passed; diff and staged-diff checks passed. The corrective commit Reconcile DAY7 links and uncredited Day8 pre-study (d9caf842c5db753266bb2701f379605329e9ae46) was pushed to Gitee via HEAD:main; fetch/ancestry/dry-run/push/post-push checks passed.
+
+
+## 2026-10-06 formal Day8 prompt generated after user follow-up
+
+The user asked where the Day8 prompt was. The Day7 receipt had next_prompt_file=null and no Day8 prompt existed. Generated outputs/learning-daily/prompts/20261007-DAY8-angular-momentum-selection-rules-multipolarity.md from the existing Day8 matrix card and daily-learning contract. It is for the next scheduled run, does not start Day8, does not credit the Day7 pre-study, and leaves next_day_index=8 / completed_day_count=7 unchanged. User-specified pre-study rule and Day8 no-credit boundary are included.
