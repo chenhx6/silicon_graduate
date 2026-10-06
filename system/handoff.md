@@ -6,11 +6,15 @@ updated: 2026-10-06
 
 # 跨会话交接
 
-## Active handoff — DAY6 closed; DAY7 next
+## Active handoff — DAY7 complete; next card DAY8
 
-用户于 2026-10-06 明确要求提前收束 DAY6、准备正式 DAY7；收束记录时间为 `13:23 Asia/Shanghai`，距原定 15:00 截止约 97 分钟。DAY6 卡完成；DAY7 预演在 [日报](../outputs/learning-daily/20261005-DAY6-rotation-vibration-alignment-signature.md) 中保留为 `partial_day_indices=[7]`，不计 Day7 学分。课程状态保持 `next_day_index=7`；Day8 不在本任务范围。
+正式 DAY7 周考已完成，报告为 [2026-10-06 DAY7](../outputs/learning-daily/20261006-DAY7-collective-motion-oral-exam.md)。Day6 中的 preview 仍不计 Day7 学分；本次重新完成盲回忆、131Ce 证据链、合成题、六项评分和 weekly REFLECT。课程状态已推进为 `next_day_index=8`、`completed_day_count=7`；本轮未开展、预览或计入 Day8。
 
-DAY7 正式提示已就绪：`outputs/learning-daily/prompts/20261006-DAY7-collective-motion-oral-exam.md`。下一步由 schedule 启动新的 DAY7 session，不恢复 DAY6 旧 session。DAY6 最终回执：`outputs/learning-daily/20261005-DAY6-rotation-vibration-alignment-signature-run-08/run.json`。通用时间门与 DAY6 收束分别以提交主题 `Apply time-aware daily-learning closeout gate` 和 `Finalize DAY6 closeout and prepare DAY7` 发布至 Gitee `main`；继承的 run-01/run-07 历史、旧 DAY6 prompt 和 raw/tmp 材料均保留。
+本次原文回核纠正 AW13-16 的链接映射：Table 4.4 的 `611.1-keV` 是 Band 4 偶内跃迁，Figure 4.5 的 `505-keV` 才是 Band 1–Band 4 link。相关 source/project 页以及 Day1/Day3/Day6 历史报告中的精确交叉引用已修正。源 claim 仍保留 `needs_review: true`，未改 review 状态；raw 和 PLAN.md 未修改。
+
+Run `2026-10-06-day-07-01` session 为 `01a11015-104a-7101-9051-393e978bf2c0`；resume：`codex resume 01a11015-104a-7101-9051-393e978bf2c0 -C /workspace/wiki -s danger-full-access -a never`。正式 prompt：`outputs/learning-daily/prompts/20261006-DAY7-collective-motion-oral-exam.md`。实际回执保留在既有 `20261006-DAY7-week-one-collective-motion-oral-exam-run-01/`，其 report 路径已改为用户指定的 canonical 报告路径；没有新建重复 run 目录。
+
+Gitee primary content commit：branch `main`，subject `Complete DAY7 collective-motion oral exam and correct 131Ce link crosswalk`，精确 hash 与 H3 回执见该 run 的 `run.json`。Fetch、祖先检查、dry-run、`HEAD:main` 非 force push 和 post-push HEAD 对账均通过。剩余证据 gap 是 505-keV link 的端点/多极性以及 partner-resolved 强度；这是后续科学问题，不阻止本次完成。下一日学习只能在新 Day8 run 开始时按矩阵卡执行；本次不创建 Day8 prompt。
 
 ## DAY6 initial stop record — 2026-10-05
 

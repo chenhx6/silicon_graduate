@@ -1493,3 +1493,10 @@ updated: 2026-07-15
 
 - Final path boundary, report headings, curriculum coverage and knowledge-writeback validation passed; lint exit 0 (0 errors, 91 warnings, 1309 info) and `git diff --check` exit 0.
 - Published branch `main`, subject `Finalize DAY6 closeout and prepare DAY7`, exact refspec `HEAD:main`; fresh fetch, remote ancestry, dry-run and push all exited 0. State remains `next_day_index=7`; Day7 preview is uncredited and the official Day7 prompt is ready.
+
+## [2026-10-06] daily-learning | complete DAY7 collective-motion oral exam
+
+- Day 7 scorecard and weekly REFLECT completed; state advanced from `next_day_index=7` to `8`. Day8 was not studied, previewed or credited in this run.
+- Raw thesis audit corrected the AW13 crosswalk: `611.1 keV` is a Band 4 intraband row; Figure 4.5 identifies the `505-keV` Band 1–Band 4 link. Source/project and directly affected historical report locators were reconciled; review states, raw and PLAN remained unchanged.
+- Boundary exit 0; Wiki lint exit 0 (`0` errors, `91` warnings, `1310` info); `git diff --check` exit 0; report/writeback contract validation passed.
+- Published Gitee `main`, subject `Complete DAY7 collective-motion oral exam and correct 131Ce link crosswalk`, refspec `HEAD:main`; fetch, ancestry, dry-run, push and post-push HEAD reconciliation passed. Run receipt: `outputs/learning-daily/20261006-DAY7-week-one-collective-motion-oral-exam-run-01/run.json`.
