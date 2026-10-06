@@ -16,7 +16,7 @@
 - Banik 2020 的 APS publisher-direct PDF 已完整阅读，SHA-256：`21e7e1eed7a93ffc3c38f4580fcf93863d02c56e40ffc900b1634df14c7f34e6`；Nature Downloader OA-only route 返回 `oa_not_found`，公开 publisher URL 直接给 PDF；未取 SI。该 38-MeV INGA acquisition 被 2022 TPSM 能谱比较与 2023 重分析复用，不能重复计为三次独立实验。
 - 仍有 band-label 交叉问题：Banik 2020 称高自旋 B1(a) 为 signature partner；C23 对同一数据重分析后偏向低自旋 yrare `13/2−` 序列，并说 yrast `13/2−` 起源未决。不要在没有逐跃迁 crosswalk 时合并 B1(a)、B5 和 C23 标签。
 - Banik TRS 的 `γ≈−26°` 是特定转频能面输出，TPSM `29°` 是固定输入，TPRM `33°` 是模型再现参数；pairwise 差为 `3°/4°/7°`，不求平均、不称独立形状测量。
-- `131Ce` 的跨带候选现按 AW13-19 Figure 4.5 记为 505-keV Band 1–Band 4 link；其端点自旋宇称和多极性仍待核。AW13-16 的 611.1-keV M1/E2 行是 Band 4 偶内跃迁，不是该 link。目标带 `δ`/偏振、partner-resolved lifetime/绝对强度仍未闭合；L4 因目标 event、响应/协方差和模型代码缺失保持 not-ready。
+- 131Ce 当前完整 crosswalk 包含六条带间支路：Band 1→Band 4 的 504.9-keV M1/E2（25/2−→23/2−）和 871.2-keV E2；Band 4→Band 1 的 538.3-keV M1/E2（15/2−→13/2−）和 611.1-keV M1/E2；Band 4→yrast 的 994.3-和 1108-keV E2。Table 4.2/4.4、Figure 4.1/4.5 与 §4.3.1/§5.2.1 共同给出身份和方向。504.9 行端点已知；611.1 是带间线，243.7 才是同自旋变化的 Band 4 带内线。仍缺 branch-resolved measured δ/偏振、伙伴寿命/绝对强度、response/covariance；没有打开新来源批次。
 
 ## canonical 知识入口
 

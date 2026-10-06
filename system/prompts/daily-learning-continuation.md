@@ -2,7 +2,7 @@
 type: system-prompt
 graph-excluded: true
 created: 2026-09-24
-updated: 2026-09-29
+updated: 2026-10-06
 ---
 
 # Daily learning continuation turn
@@ -29,12 +29,15 @@ an experiment-design check, or an L3/L4 question over repeating the previous sum
 
 At the start of this turn, read the fresh Runtime schedule snapshot appended below this
 template. Evidence saturation of one problem is not a reason to stop while useful time
-remains: continue the current slot, then move to the next uncompleted Day card when at
-least 120 minutes remain and its deliverables can fit. With 90–119 minutes, continue
-the current issue or complete a bounded preview without crediting the next card. Under
-90 minutes, do not open a new source/card; finish current analysis. At the deadline,
-switch to closeout-only work. A user cancellation or hard blocker still stops
-immediately.
+remains: continue the current slot and rebuild the candidate pool. With at least 120
+minutes remaining, inspect the next uncompleted Day card; you may pre-study knowledge
+from exactly that next-day card as an uncredited preview. Keep today's `day_index`, put
+the next card only in `partial_day_indices`, do not advance `next_day_index` past it,
+and do not open Day+2. Formal card credit remains tied to that card's own day run, even
+if its knowledge was covered early. With 90–119 minutes, continue the current issue or
+do one bounded preview without crediting the next card. Under 90 minutes, do not open
+a new source/card; finish current analysis. At the deadline, switch to closeout-only
+work. A user cancellation or hard blocker still stops immediately.
 
 Update the Run state card lists as coverage changes. List only fully completed cards in
 completed_day_indices; record partial preview in partial_day_indices. Do not advance

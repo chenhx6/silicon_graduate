@@ -38,7 +38,7 @@ Crossref、出版商和机构页面都是该计划的正常检索入口。Docker
 证据分层、locator、可复现性和失败记录仍必须保留，模型结果不得冒充实验事实。
 当前 daily daemon 的模型优先级为 `gpt-6-luna/max → gpt-6-sol/high → gpt-6-astra/medium`；GPT-5.6 不再作为运行 fallback。
 每日 schedule 的稳定标识是 `wiki-daily-learning`，项目根目录为 `/workspace/wiki`；每次触发必须创建新 Codex session，并在 `run.json` 与 scheduler 事件中保存 session ID 和 resume 命令。Docker-local session 不自动等同于宿主机 GUI Scheduled 对象。
-每日学习正常计划于 Asia/Shanghai 16:00 启动，研究硬截止为本次 `run_date` 次日 15:00；15:00–16:00 专用于收束。checkpoint、单个来源完成或局部证据饱和都不代表整段计划完成：每次准备提前结束前先核对当前时间、原始回执截止、候选池和下一张未完成课程卡；有足够时段时继续当前问题，或在完整交付可完成的前提下前移下一卡。完整规则由 `system/workflows/continuous-learning.md` 和每日 prompt 维护，课程状态仅在逐卡审计、日报、知识写回、检查、续接提示和发布门通过后推进。
+每日学习正常计划于 Asia/Shanghai 16:00 启动，研究硬截止为本次 `run_date` 次日 15:00；15:00–16:00 专用于收束。checkpoint、单个来源完成或局部证据饱和都不代表整段计划完成：每次准备提前结束前先核对当前时间、原始回执截止、重建后的候选池和下一张未完成课程卡；有足够时段时继续当前问题。若当前问题饱和且距离硬截止至少 120 分钟，可预习恰好一张下一日课程卡的知识，但须保持今日 `day_index`、只列入 `partial_day_indices`，不给该卡学分、不将 `next_day_index` 越过该卡、也不打开 Day+2；预习完整知识仍留待该日正式运行后计卡。只有当前问题与这一项下一日预习均无高价值路线，且已检查下一张卡后，才可基于证据饱和提前收束。完整规则由 `system/workflows/continuous-learning.md` 和每日 prompt 维护，课程状态仅在逐卡审计、日报、知识写回、检查、续接提示和发布门通过后推进。
 
 ## 科学证据规则
 

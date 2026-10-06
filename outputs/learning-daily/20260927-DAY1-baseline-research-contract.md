@@ -279,21 +279,25 @@ Gizon 1977 进入 blocked-needs-source 后，继续重复检索的预期信息�
 
 ### 原始表格核验
 
-对 Alwaleedi 原始 PDF 的 Tables 4.1–4.4 做了 Poppler text extraction，并核对表头、assignment 和相邻章节叙述。四条代表性表格行进入 source page 的 claims `AW13-14`–`AW13-17`，均保持 `needs_review: true`；它们提供 `Eγ`、相对强度和角强度比 `R`，不提供 measured `δ`、偏振或寿命。后续 DAY7 原文校正另把 Figure 4.5 的 505-keV link 加入 manifest 为 AW13-19；它不属于 Table 4.1–4.4 的这四条行。
+对 Alwaleedi 原始 PDF 的 Tables 4.1–4.4 做了 Poppler text extraction，并核对表头、assignment 和相邻章节叙述。四条代表性表格行进入 source page 的 claims `AW13-14`–`AW13-17`，均保持 `needs_review: true`；它们提供 `Eγ`、相对强度和角强度比 `R`，不提供 measured `δ`、偏振或寿命。后续 DAY7 原文交叉核对补全了 `504.9-keV` Table 4.2 row (AW13-19) 和 Table 4.4 的 reciprocal E2 links (AW13-20)。
 
 | manifest row | `Eγ` / `Iγ` / `R` | source assignment | 缺失字段 |
 |---|---|---|---|
 | `AW13-B1-E2-507.9` | `507.9 keV / 100 / 0.94±0.02` | `15/2−→11/2−`, E2 | δ、偏振、寿命/absolute strength |
 | `AW13-B1-M1E2-137.4` | `137.4 keV / 68.3±3.2 / 0.50±0.04` | `11/2−→9/2−`, M1/E2 | δ branch/sign、偏振、寿命/absolute strength |
-| `AW13-B4-intraband-611.1` | `611.1 keV / 25.2±1.1 / 0.56±0.02` | Band 4 `17/2−→15/2−`, M1/E2 intraband transition | direct δ/偏振、lifetime/absolute strength |
-| `AW13-B1-B4-link-505` | `505 keV`, identified in Figure 4.5 | Band 1–Band 4 link; endpoint spins/parities and multipolarity are not specified at this locator | endpoint mapping, `Iγ`/`R`, direct δ/偏振、partner matrix、response/covariance |
+| `AW13-B4-B1-link-611.1` | `611.1 keV / 25.2±1.1 / 0.56±0.02` | Band 4→Band 1, `17/2−→15/2−`, M1/E2; §4.3.1 explicitly identifies the new 611-keV dipole feed | direct δ/偏振、lifetime/absolute strength |
+| `AW13-B4-B1-link-538.3` | `538.3 keV / 19.3±0.9 / 0.55±0.03` | Band 4→Band 1, `15/2−→13/2−`, M1/E2; Figure 4.1 arrows place the Table 4.4 branch from the Band 4 bandhead to Band 1 | direct δ/偏振、lifetime/absolute strength |
+| `AW13-B1-B4-link-504.9` | `504.9 keV / 9.2±0.7 / 0.61±0.08` | Band 1→Band 4, `25/2−→23/2−`, M1/E2; text and Figure 4.5 identify the link | direct δ/偏振、lifetime/absolute strength |
+| `AW13-B1-B4-link-871.2` | `871.2 keV / 16.2±0.7 / 0.98±0.03` | Band 1→Band 4, `19/2−→15/2−`, E2 | lifetime/absolute strength |
+| `AW13-B4-B1-link-994.3` | `994.3 keV / 20.3±0.8 / 1.12±0.04` | Band 4→yrast, `19/2−→15/2−`, E2 | lifetime/absolute strength |
+| `AW13-B4-B1-link-1108` | `1108 keV / 10.3±0.4 / 0.90±0.06` | Band 4→yrast, `23/2−→19/2−`, E2 | lifetime/absolute strength |
 | `AW13-B7-E2-950.3` | `950.3 keV / 24.3±1.4 / 1.01±0.03` | `29/2−→25/2−`, E2 | measured δ/偏振、寿命/absolute strength |
 
 ### 交叉检查与边界
 
 - Table 4.1/4.2 的 `R` 是 source-reported angular intensity ratio，在 manifest 中保留为观测字段；它不是跨阵列通用 multipolarity threshold，也不释放 AW13 的 `δ=0` 假设。
-- Table 4.4 的 611.1-keV row 是 Band 4 偶内跃迁，不是带间 link；Figure 4.5 标示的 505-keV line 才是 Band 1–Band 4 连接，见 AW13-16/AW13-19。
-- **2026-10-06 后续原文校正：** Day1 当时的 manifest 把 AW13-16 误当成带间 link。DAY7 按 Table 4.4（thesis p.66 / PDF p.70）与 Figure 4.5（thesis p.59 / PDF p.63）回核后已在 source/project 页修正；505-keV link 的多极性和端点自旋宇称仍未知。
+- Table 4.4 的 611.1-keV row 属于 Band 4 dipoles；§4.3.1 明确说 Band 4 通过它向 Band 1 衰变。相同 `17/2−→15/2−` assignment 的 243.7-keV transition 是另一条 Band 4 intraband line，不能只靠表格组标题判断端点。
+- **2026-10-06 后续原文校正：** DAY7 第一遍审计曾把 AW13-16 误改为偶内跃迁；§4.3.1 确认 611.1 keV 是 Band4→Band1 link。进一步按 Figure 4.1/Table 4.4 扫描完整表格后发现 538.3-keV (`15/2−→13/2−`) 也是 Band4→Band1 link，补入 AW13-21。AW13-19 将 Figure 4.5 的 505-keV 峰与 Table 4.2 的 504.9-keV Band1→Band4 行对应，其 `25/2−→23/2−` 端点来自表格；AW13-20 记录 871.2/994.3/1108-keV E2 links。source/project manifest 现保留六条带间支路；它们没有实测 `δ`、偏振、寿命或绝对强度。
 - 这些 rows 仍使用 global relative intensities；不能把它们当作 Figure 5.5 gated branching inputs。`response_covariance` 和 event-level sorting code 仍 missing。
 
 **Continuation 7 decision: supports manifest concreteness, limits interpretation.** 四条真实 PDF table rows 让 manifest 能开始接收公开数据，但没有新增 measured `δ`/偏振/寿命，不能改变当前 mode ranking，也不进入 L4。

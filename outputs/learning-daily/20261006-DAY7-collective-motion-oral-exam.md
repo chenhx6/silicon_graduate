@@ -15,13 +15,15 @@ updated: 2026-10-06
 - session_id: `01a11015-104a-7101-9051-393e978bf2c0`
 - resume_command: `codex resume 01a11015-104a-7101-9051-393e978bf2c0 -C /workspace/wiki -s danger-full-access -a never`
 - report: `outputs/learning-daily/20261006-DAY7-collective-motion-oral-exam.md`
-- official Day7 prompt: [prompt file](prompts/20261006-DAY7-collective-motion-oral-exam.md); its report path and Day8 boundary were checked and the prompt was not edited.
+- official Day7 prompt: [prompt file](prompts/20261006-DAY7-collective-motion-oral-exam.md). Its original text excludes Day8; the user later authorized studying next-day knowledge early while keeping day-index=7. The prompt is preserved as the run input and was not edited.
 - Runner receipt remains in the already-created `20261006-DAY7-week-one-collective-motion-oral-exam-run-01/` directory. The supplied prompt names `20261006-DAY7-collective-motion-oral-exam-run-01/`; I preserved the active directory, recorded both paths in its receipt, and pointed `report` to the required report path. No duplicate run directory was created.
 - Hard research deadline: `2026-10-07T15:00:00+08:00`; next scheduled start: `2026-10-07T16:00:00+08:00`.
-- Runtime snapshot at closeout (current clock, not the older prompt snapshot): `2026-10-06T16:35:35+08:00`; about `1344` minutes remain to the hard deadline and `1404` minutes to the next scheduled start. The Day7 deliverables are complete; this is scope-based closeout, not a claim that the 131Ce mechanism question is scientifically resolved. The next card is Day8, explicitly outside this run; no Day8 content or credit is included.
+- Initial closeout at 16:35 was superseded when the user clarified the time-window rule and authorized an uncredited Day8 knowledge preview. The session resumed after a current-clock check at 2026-10-06T20:33:17+08:00.
+- Final manual time-gate snapshot: now_local=2026-10-06T22:08:07+08:00; hard_deadline=2026-10-07T15:00:00+08:00; minutes_to_deadline=1012; next_scheduled_start=2026-10-07T16:00:00+08:00. Decision: close after schedule-level candidate-pool audit found no remaining in-scope high-value route.
 - Before this run, the course state was `next_day_index=7`, `completed_day_count=6`; the DAY6 Day7 preview was uncredited. This run repeats the Day7 card. The state advances only after the full card audit and required checks pass.
 - completed_day_indices: [7]
-- partial_day_indices: []
+- partial_day_indices: [8]
+- Time-gate rule: when at least 120 minutes remain and the current issue is saturated, exactly one next-day card may be pre-studied without credit; this clarification was persisted in the daily-learning workflow, prompt templates, check list and user guides.
 - Day 7 card audit: complete
 - Day 7 scorecard: complete
 - Day 7 weekly REFLECT: complete
@@ -31,7 +33,7 @@ updated: 2026-10-06
 | Day-matrix deliverable | Evidence locator or artifact | Status |
 |---|---|---|
 | Random closed-notes definition recall, one item from each of Days 1–6, with post-check differences | Six answers and corrections in [Theory/analysis exercise](#theoryanalysis-exercise); prior reports linked there by day | complete |
-| One case chain from shell/deformation through levels, transitions, alignment/signature, author interpretation, and alternatives | [Alwaleedi 2013 source page](../../knowledge/sources/alwaleedi-2013-band-structures-131ce.md), AW13-6/8/14/16/19 and AW13-5; printed/PDF page crosswalk in [Sources and evidence](#sources-and-evidence) | complete |
+| One case chain from shell/deformation through levels, transitions, alignment/signature, author interpretation, and alternatives | [Alwaleedi 2013 source page](../../knowledge/sources/alwaleedi-2013-band-structures-131ce.md), AW13-6/8/14/16/19/20/21/22 and AW13-5; printed/PDF page crosswalk in [Sources and evidence](#sources-and-evidence) | complete |
 | 20-minute unknown-band structural reading with candidates, required observations, alternatives, and stop conditions | Clearly synthetic sequence and 20-minute reasoning record in [Theory/analysis exercise](#theoryanalysis-exercise) | complete |
 | Identify the evidence most likely to change the ranking and state the revision rule | AW13-19, Figure 4.5, thesis p.59 / PDF p.63; conditional outcomes in [Open questions and belief revision](#open-questions-and-belief-revision) | complete |
 | Six-dimension 0–4 scorecard and weekly REFLECT | Score table and reflection in [Knowledge Impact and Learning Decision](#knowledge-impact-and-learning-decision) | complete |
@@ -45,28 +47,36 @@ This is the first formal `weekly-learning` run in the current 30-day substantive
 | Continue the existing `131Ce` collective-mode discrimination question | Selected; the single continuous question | It connects the Day1–6 concepts to a source-grounded mechanism decision. The raw-source cross-check exposed a transition-identity error that changed the next-measurement target. |
 | Retrieve one definition from each Day1–6 card and apply the reasoning to a synthetic band summary | Selected; the bounded weekly-exam exercise | Required by Day7 and does not require new sources or claim a new result. |
 | New literature/source batch or a different nucleus/project | Deferred | The prompt defines Day7 as a review examination and forbids expanding it into a new literature batch. |
-| Day8 card | Excluded from this run | The user explicitly set Day8 outside the current scope. No Day8 source, exercise, preview, or credit is reported. |
+| Day8 knowledge pre-study | Selected as one uncredited early-learning topic | User later authorized pre-study with day-index fixed at 7; only the existing multipolarity sources were used. |
+| Day9 card: B(E2), B(M1), reduced matrix elements and intensity ratios | Inspected and deferred | It is beyond the single Day+1 preview authorized for this Day7 window; its strength topics remain queued for the formal Day9 run. |
 
-Random prompt selection used `secrets.choice`, one from each day’s topic set. The selected project question is whether the existing `131Ce` evidence distinguishes ordinary signature/configuration coupling from a collective-band interpretation. No second scientific research problem was opened.
+Random prompt selection used secrets.choice, one from each Day1–6 topic set. The continuing scientific question is whether the existing 131Ce evidence distinguishes ordinary signature/configuration coupling from a collective-band interpretation. The early Day8 preview is a separate, bounded method-learning topic; no new literature batch or second scientific case study was opened.
+
+After the 131Ce source audit and Day8 preview saturated, the candidate pool was rebuilt. The next uncompleted card is Day8 and remains partial/uncredited in this run. Day9 was inspected in the daily-task-matrix: its lifetime/strength exercise is relevant to the conditional AW13 branch ratios, but opening it here would go beyond the single next-day pre-study. No additional in-scope source or distinct analysis route remained.
 
 ## Sources and evidence
 
-The raw thesis identity and SHA-256 were checked against the source page. The PDF was read and the critical Table 4.4 row and Figure 4.5 page were visually checked. Its SHA-256 remains `B50C22877418DE560F06002588BB46D34F5BA670C6880E30A89D1509C79AD8C1`; `raw/` was not changed.
+The raw thesis identity and SHA-256 were checked against the source page. Tables 4.2/4.4, Figures 4.1/4.5, §4.3.1 and §5.2.1 were read directly; Figure 4.1, Figure 4.5 and the relevant table pages were visually checked. The SHA-256 remains B50C22877418DE560F06002588BB46D34F5BA670C6880E30A89D1509C79AD8C1; raw/ was not changed.
 
 | Source locator | Evidence class | What it supports and what it does not support |
 |---|---|---|
 | [AW13 source page](../../knowledge/sources/alwaleedi-2013-band-structures-131ce.md), AW13-1/2; Figure 4.1, thesis p.53 / PDF p.57 | Experimental level-scheme construction | The `100Mo(36S,5nγ)` experiment at 165 MeV with Gammasphere established/extended Bands 1–7. The thesis uses one acquisition; its multiple tables and figures are not independent experimental replications. |
 | AW13-6/8; §5.1, thesis p.74 / PDF p.78; Table 5.2, thesis p.77 / PDF p.81 | Model input and author configuration assignment | `β₂=0.218`, `β₄=−0.023`, `γ=0°` are Woods–Saxon/TRS/CSM model context, not directly measured shape. Nilsson orbital and configuration labels are assignments. The author separately discusses spin-dependent core polarization and possible non-axial response; that interpretation is not a direct γ-shape measurement. |
 | AW13-14; Table 4.1, thesis p.63 / PDF p.67 | Experimental transition row | Band 1 lists `507.9 keV`, `15/2−→11/2−`, assigned E2, with `Iγ=100` and angular-intensity ratio `R=0.94±0.02`. This is one table’s normalized intensity, not an absolute transition strength. |
-| AW13-16; Table 4.4, thesis p.66 / PDF p.70 | Experimental transition row and corrected identity | `611.1 keV`, `17/2−→15/2−`, `Iγ=25.2±1.1`, `R=0.56±0.02`, assigned M1/E2, is listed among Band 4 dipoles. It is an intraband Band 4 transition, not the new Band 1–Band 4 link. `R` is not a mixing ratio `δ`. |
-| AW13-19; Figure 4.5, thesis p.59 / PDF p.63, gates `756` and `626 keV` | Experimental link reported in a gated spectrum | The caption labels a newly found `505-keV` transition as linking Band 1 and Band 4. The figure does not specify endpoint spins/parities, multipolarity, relative intensity, `δ`, polarization, or lifetime. These unknowns remain unknown in this report. |
-| AW13-5; Table 5.1, thesis p.75 / PDF p.79; Figure 5.1, PDF p.80 | Derived crossing values / experimental Routhian analysis | Band 1’s two signature crossings are reported at `0.329±0.002` and `0.367±0.002 MeV/ℏ`. These are not direct shape or vibration measurements and are not obtained from one `Eγ/2` point. The table’s negative-parity label for Band 2 conflicts with Figure 4.1, Tables 4.5–4.6, and §5.2.2; that parity cell is not used here. |
-| AW13-18; Eq. (2.25), thesis p.26; Table 4.1, thesis p.63 / PDF p.67 | Derived rotational-frequency proxy | For a `ΔI=2` line, `ℏω=Eγ/2`, placed at the transition’s midpoint spin. The Band 1 values rise through the `27/2→23/2` line and then fall. Table 4.1 does not print energy uncertainties, so these points carry no propagated energy error here. They are not an independent `iₓ` measurement. |
+| AW13-16; Table 4.4, thesis p.66 / PDF p.70; §4.3.1, thesis p.54 / PDF p.58 | Experimental transition and direction | 611.1 keV, 17/2−→15/2−, Iγ=25.2±1.1, R=0.56±0.02, M1/E2; §4.3.1 explicitly identifies Band 4→Band 1. It is interband. The separate 243.7-keV row has the same spin change and is the Band 4 intraband line. R is not δ. |
+| AW13-19; Table 4.2, thesis p.64 / PDF p.68; §4.3.1, thesis p.54 / PDF p.58; Figure 4.5, thesis p.59 / PDF p.63, gates 756 and 626 keV | Experimental transition and link | Figure 4.5 labels a rounded 505-keV Band 1–Band 4 link. It matches the Table 4.2 504.9-keV M1/E2 row, Iγ=9.2±0.7, R=0.61±0.08, assigned 25/2−→23/2−. §4.3.1 gives Band 1→Band 4 direction. The endpoints and table assignment are therefore known; directly measured δ, polarization and lifetime are not reported. |
+| AW13-20; Table 4.4, thesis p.66 / PDF p.70; §4.3.1, thesis p.54 / PDF p.58; Figure 4.1, thesis p.53 / PDF p.57; §5.2.1, thesis p.81 / PDF p.85 | E2 interband rows | 871.2 keV, Iγ=16.2±0.7, R=0.98±0.03, 19/2−→15/2− is Band 1→Band 4; 994.3 keV, Iγ=20.3±0.8, R=1.12±0.04, 19/2−→15/2− and 1108 keV, Iγ=10.3±0.4, R=0.90±0.06, 23/2−→19/2− are Band 4→yrast. R is not δ; transition-specific lifetimes/absolute strengths are absent. |
+| AW13-21; Table 4.4, thesis p.66 / PDF p.70; Figure 4.1, thesis p.53 / PDF p.57 | Experimental transition and level-scheme crosswalk | 538.3 keV, Iγ=19.3±0.9, R=0.55±0.03, assigned 15/2−→13/2− as M1/E2. Figure 4.1 places the arrow from Band 4's 15/2− bandhead to Band 1's 13/2− level. Section 4.3.1 explicitly names 611 keV but omits this additional branch; the 538.3-keV mapping uses the Table 4.4 row and Figure 4.1 arrow. |
+| AW13-22; Tables 4.1/4.4, thesis pp.63/66 / PDF pp.67/70 | Same-parent E2 branch pairs | The in-band E2 controls are 641.2 keV, Iγ=75.5±3.1, 19/2−→15/2− (Band 1); 625.8 keV, 31.8±1.4, same spins (Band 4); and 755.6 keV, 38.5±1.8, 23/2−→19/2− (Band 4). They share initial states with AW13-20 interband E2 rows, enabling conditional relative-strength arithmetic only if Iγ denotes efficiency-corrected photon yields. The source provides no covariance package. |
+| AW13-5; Table 5.1, thesis p.75 / PDF p.79; Figure 5.1, PDF p.80 | Derived crossing values / experimental Routhian analysis | Band 1's two signature crossings are 0.329±0.002 and 0.367±0.002 MeV/ℏ. These are not direct shape or vibration measurements. Table 5.1 labels Band 2 negative parity, conflicting with Figure 4.1, Tables 4.5–4.6 and §5.2.2; that cell is isolated. |
+| AW13-18; Eq. (2.25), thesis p.26; Table 4.1, thesis p.63 / PDF p.67 | Derived rotational-frequency proxy | For a ΔI=2 line, ℏω=Eγ/2, placed at the transition midpoint. Band 1 values rise through 27/2→23/2 and then fall. Table 4.1 does not print energy uncertainties, so these points have no propagated energy error here and are not independent iₓ measurements. |
 | AW13-4/7; Table 5.3, thesis p.80 / PDF p.84; §5.2.1, thesis p.78 / PDF p.82 | Author interpretation and model comparison | Band 4 is discussed as a possible vibrational excitation coupled to occupied `νh11/2`; the table’s configuration map is an author/model assignment. The “possible” interpretation is not an experimentally established phonon. |
 | AW13-9/11; Eqs. (5.6–5.7), §5.3, thesis p.86 / PDF p.90 | Derived strength ratio and dataset boundary | The reported `B(M1)/B(E2)` comparison assumes `δ=0` and is not an absolute `B(M1)` or `B(E2)`. The thesis lacks transition lifetimes, absolute strengths, linear polarization, and direct shape measurement needed for a partner-resolved collective-mode test. |
+| [Lange, Kumar & Hamilton 1982](../../knowledge/sources/lange-kumar-hamilton-1982-multipole-admixtures.md), LKH82-1; Sec. II.A, printed pp.121–123, Eqs.2.1–2.11 | Mixing-ratio definition and convention | δ² is the E2/M1 partial-rate ratio. Sign comparisons require the Krane–Steffen/operator, state-order, alignment and emission/absorption map; this review compiles heterogeneous earlier measurements, not a new experiment. |
+| [Rose & Brink 1967](../../knowledge/sources/rose-brink-1967-phase-defined-angular-distributions.md), RB67-1/2/5; Sec. III.E, p.320; Eqs.3.17–3.47, pp.315–321 | Selection rules and observable response | Gives the angular-momentum/parity filter and a phase-defined angular distribution whose interference term can carry sign information. Alignment/geometry assumptions matter; polarization adds electric/magnetic sensitivity and lifetime constrains total rate but not relative phase. |
 | [Stephens 1975](../../knowledge/sources/stephens-1975-coriolis-rotation-alignment.md), ST75-2/3 | Competing mechanism background | Coriolis mixing, pairing/blocking and configuration changes can alter crossings, alignment and signature patterns. This review provides alternatives, not a new `131Ce` measurement. |
 
-The `131Ce` report, thesis figures/tables, and this oral exam all trace back to the same Alwaleedi acquisition. The correction from `611.1` to `505 keV` is a source-crosswalk correction, not a newly discovered experiment. The source page remains `unreviewed`; AW13-16 and the new AW13-19 retain `needs_review: true`.
+The thesis tables and figures all trace back to the same Alwaleedi acquisition. The initial DAY7 write-up wrongly demoted 611.1 keV to intraband and treated the 505-keV endpoint assignment as unknown; the subsequent full source audit restores 611.1 as Band 4→Band 1, maps Figure 4.5's 505-keV peak to the Table 4.2 504.9-keV row, and adds the 538.3-keV Band 4→Band 1 branch shown by Figure 4.1. The six mapped links add no independent acquisition. Source and new claim rows remain unreviewed/needs_review; no review flag was cleared.
 
 ## Theory/analysis exercise
 
@@ -86,7 +96,7 @@ The six prompts were randomly drawn and answered before reopening the day report
 ### `131Ce` evidence-chain oral answer
 
 1. **Shell structure and deformation context:** `131Ce` has `Z=58`, `N=73`. Alwaleedi uses Woods–Saxon/TRS/CSM orbital and deformation calculations; the cited `β₂=0.218`, `β₄=−0.023`, `γ=0°` belong to that model context. The neutron `νh11/2`-like and other Nilsson labels are configuration assignments, not direct occupancy or measured shape (AW13-6/8; §5.1/Table 5.2).
-2. **Levels and transitions:** `100Mo(36S,5nγ)` at 165 MeV and Gammasphere established/extended Bands 1–7 (Figure 4.1; Tables 4.1–4.7). Band 1’s `507.9-keV` E2 row is `15/2−→11/2−` (AW13-14). The source audit then forced a useful correction: the `611.1-keV` `17/2−→15/2−` M1/E2 row belongs within Band 4 (AW13-16); Figure 4.5 labels a separate `505-keV` transition as the Band 1–Band 4 link (AW13-19). Neither the table `R` nor the gated-spectrum caption gives a measured `δ` for that link.
+2. **Levels and transitions:** The 100Mo(36S,5nγ) experiment at 165 MeV with Gammasphere established/extended Bands 1–7 (Figure 4.1; Tables 4.1–4.7). The six mapped links are Band 1→Band 4 at 504.9-keV M1/E2 (25/2−→23/2−) and 871.2-keV E2; Band 4→Band 1 at 538.3-keV M1/E2 (15/2−→13/2−) and 611.1-keV M1/E2 (17/2−→15/2−); and Band 4→yrast at 994.3/1108-keV E2. Figure 4.5's rounded 505-keV peak is the Table 4.2 504.9-keV row. The separate 243.7-keV line is the Band 4 intraband transition; it shares the 17/2−→15/2− spin assignment with the 611.1-keV link. Table R values are angular-intensity ratios, not measured δ.
 3. **Alignment/signature:** Eq. (2.25) maps each `ΔI=2` Band 1 transition to `ℏω=Eγ/2` at its midpoint. The derived values rise from `0.254` to `0.413 MeV` through `27/2→23/2`, then fall to `0.390` and `0.346 MeV`; no energy errors are printed. Table 5.1 separately reports the two Band 1 signature crossings at `0.329(2)` and `0.367(2) MeV/ℏ` from Routhian analysis. Do not equate these quantities or read an alignment gain from the `Eγ/2` sequence alone.
 4. **Author interpretation:** The author uses crossing/alignment, Nilsson orbitals and calculated Routhians/configurations to explain Bands 1–7. Band 4 is described as a *possible* vibrational excitation coupled to the occupied `νh11/2` configuration. The model’s deformation and that interpretation remain distinct from measured transition observables.
 5. **Competing explanations:** signature/configuration partners, quasiparticle alignment, Coriolis mixing, pairing or shape evolution can account for crossing-like energy behavior. The available thesis spectrum does not provide the partner-resolved `δ`, polarization, lifetime, absolute `B(E2)/B(M1)` and shape-sensitive measurements required to promote a collective-mode label.
@@ -112,49 +122,81 @@ The prompt also contains one unplaced `430-keV` coincidence that may connect A a
 - **Necessary observations:** verify level placements and `Jπ`; confirm the 430-keV link and its multipolarity by gated spectra plus angular distribution/DCO and polarization; determine both allowed `δ` branches; obtain matched lifetimes, feeding/side-feeding and absolute `B(E2)`/`B(M1)` across the two sequences; compare signature-specific alignment against one declared reference and inspect quadrupole observables if shape is claimed.
 - **Alternatives and stop condition:** a misplaced line, gate/feeding bias, ordinary signature partner or avoided crossing can mimic the proposed mode. Stop at “candidate band link; mechanism unresolved” until endpoints and transition character are secure. Do not call a missing strength an upper limit without efficiency, background and sensitivity information; do not name a mode from the turnover alone.
 
+
+### Same-parent E2 branch arithmetic from AW13 (conditional, L2)
+
+Three pairs have the same initial level and Table 4.1/4.4 assigns both branches as E2. If the reported relative Iγ values represent efficiency-corrected photon yields, then the same-parent branching and transition-rate relation gives B(E2)_out/B(E2)_in = [Iγ_out/Iγ_in] × (Eγ_in/Eγ_out)^5.
+
+| Initial level | Out-of-band / in-band inputs | Iγ_out/Iγ_in | Conditional B(E2)_out/B(E2)_in |
+|---|---|---:|---:|
+| Band 1 19/2− | 871.2 keV, 16.2±0.7 / 641.2 keV, 75.5±3.1 | 0.2146±0.0128 | 0.0463±0.0028 |
+| Band 4 19/2− | 994.3 keV, 20.3±0.8 / 625.8 keV, 31.8±1.4 | 0.6384±0.0377 | 0.0631±0.0037 |
+| Band 4 23/2− | 1108 keV, 10.3±0.4 / 755.6 keV, 38.5±1.8 | 0.2675±0.0163 | 0.0395±0.0024 |
+
+The quoted ratio errors propagate only the printed Iγ uncertainties assuming they are independent; transition-energy errors are not printed, and the thesis does not provide response, side-feeding or branch covariance. The common 508-keV normalization cancels in the central ratios, but the result remains conditional on the tabulated Iγ being corrected photon yields and on the E2 assignments. These are relative same-parent estimates, not absolute B(E2) values or new measurements, and they do not change the current mechanism ranking. The two 17/2− M1/E2 lines also give a reported Iγ(611.1)/Iγ(243.7)=4.94±0.36 under independent printed-error propagation; without each line's δ and internal-conversion treatment this cannot be decomposed into E2/M1 strengths.
+
+
+### Day8 early-learning preview: selection rules and multipole mixtures (uncredited)
+
+This preview follows the user's later clarification: next-day knowledge may be studied early while day-index remains 7. It is not an experimental claim or a Day8 card completion. The only sources used are the two existing, already-ingested method sources.
+
+| Synthetic transition | Rule result | Candidate multipoles | Useful discriminants and boundary |
+|---|---|---|---|
+| 3/2+ → 1/2− | ΔJ=1, Ji+Jf=2; parity changes | E1, M2 | Angular distribution with known alignment and linear polarization constrain the mixture; lifetime plus branch fraction constrains total strength, not relative sign. |
+| 2+ → 2+ | ΔJ=0, ranks 1–4; parity conserved | M1, E2, M3, E4 | M1/E2 is a low-rank fit choice, not the exhaustive allowed set. Polarization adds electric/magnetic sensitivity; a fit must state if M3/E4 are neglected. |
+| 3+ → 1+ | ΔJ=2, ranks 2–4; parity conserved | E2, M3, E4 | E2/M3 is a low-rank pair only under truncation. Angular coefficients and polarization test the mixture; lifetime constrains summed rate. |
+
+General filter: L≥1 and |Ji−Jf|≤L≤Ji+Jf; electric radiation changes parity by (−1)^L and magnetic radiation by (−1)^(L+1). Thus E1 changes parity, M1/E2 conserve parity, and 0↔0 gamma transitions are excluded. A forbidden multipole has zero amplitude under exact selection-rule assumptions, but another multipole may still carry the transition. Hindered describes a weak but allowed strength relative to a declared reference and cannot be inferred from a selection rule alone.
+
+Independent-support check: spin, parity and multipolarity are separate claims. An angular-distribution/DCO fit may leave multiple spin/multipole branches; parity inferred from a chosen E/M assignment is not an independent parity measurement. Combine complementary evidence such as a known cascade, calibrated linear polarization or conversion data, and keep alignment/response covariance explicit. A lifetime plus branching constrains total rate but not the relative phase or sign of δ.
+
+Convention and measurement notes: Lange, Kumar & Hamilton 1982, Sec. II.A, printed pp.121–123, Eqs.2.1–2.11 define δ² as the E2/M1 partial-rate ratio and discuss the Krane–Steffen sign convention; operator phase, state order, alignment, and emission/absorption must be mapped before comparing signs. Rose & Brink 1967, Sec. III.E, p.320 after Eqs.3.40–3.41 gives the rank/parity rules; Secs. III.B–III.E, pp.314–321, Eqs.3.17–3.47 defines the phase-aware angular distribution, including a term linear in δ that can carry sign information through interference. Linear polarization is discussed on p.316 after Eq.3.24; total gamma width/lifetime on p.318 Eq.3.29 does not determine relative phase; the cascade phase dependence appears on p.326 Eq.3.73.
+
+Both source pages remain review_status=unreviewed. The two nuclei examples and their values above are synthetic; no new experimental source or result was added.
+
 ## Counter-evidence and missing companion observables
 
-- The original figure/table pairing in the Day6 preview was wrong: Table 4.4’s `611.1-keV` M1/E2 line is within Band 4; Figure 4.5’s `505-keV` transition links Bands 1 and 4. The `611.1` row cannot be used as the `Band 4→Band 1` link, and its `R=0.56±0.02` is not a link mixing ratio. The previous preview’s evidence-design sentence was not carried into this exam as a result; the source and project pages now identify the correct locator.
+- The first formal DAY7 correction misread the Table 4.4 Band 4 grouping and wrongly called 611.1 keV intraband. Section 4.3.1 identifies it as Band 4→Band 1; 243.7 keV is the distinct same-spin intraband line. That correction also left the 538.3-keV Band 4→Band 1 branch out of the manifest.
 - The thesis has an internal parity inconsistency: Table 5.1 labels Band 2 negative parity, while Figure 4.1, Tables 4.5–4.6 and §5.2.2 support positive parity. The disputed cell stays isolated. The Band 1 crossing values can be reported without transferring this Band 2 parity label.
 - Figure 5.2 also has a locator ambiguity: §5.2.1 discusses Band 1 staggering, while the figure caption identifies negative-parity Band 4. I did not use it as an unambiguous Band 1 observable.
-- A measured line or candidate connection is not a collective mode. The `505-keV` link still needs endpoint `Jπ`, transition multipolarity and `δ`/polarization; matched partner lifetimes and absolute strengths; and sensitivity/feeding information. No absent observable is treated as a falsifier because the thesis does not provide the detection sensitivity needed for that inference.
-- The source’s calculated `γ=0°` context and discussion of post-crossing non-axial response do not constitute measured γ-softness or rigid triaxiality. Distinct highly deformed `131Ce` sequences elsewhere also do not establish shape coexistence with Alwaleedi Bands 1–7 unless state identities and connecting evidence are demonstrated.
+- The link identities, spin assignments and source multipole labels are mapped for all six branches. Three same-parent E2 pairs yield conditional relative out/in values near 0.04–0.06 from the reported Iγ rows; the mixed 611.1/243.7 comparison yields only a gamma-intensity ratio without δ decomposition. The thesis still lacks measured δ, polarization, lifetimes and complete response/covariance for an absolute strength matrix. No missing strength is treated as a null result without sensitivity.
+- Distinct highly deformed 131Ce sequences elsewhere do not establish shape coexistence with Alwaleedi Bands 1–7 unless state identities and connecting evidence are demonstrated.
 - The thesis is one `100Mo(36S,5nγ)` Gammasphere acquisition. Table/figure repetition is not independent corroboration. Other `131Ce` lifetime sources have different band and parity coverage and do not supply a Band 4 partner-strength matrix.
 
-Missing discriminants are therefore: endpoint spin/parity and complete interband placements; direct mixing ratio with both branches/sign convention and polarization; lifetimes and branching sufficient for partner-resolved absolute strengths; feeding/response/covariance and calibrated upper limits; and quadrupole observables if a shape claim is made.
+The remaining discriminants are direct δ with stated sign convention, polarization, matched Band 1/Band 4 lifetimes and branches sufficient for absolute strengths, feeding/response/covariance and calibrated sensitivity. Quadrupole observables remain necessary for a shape claim.
 
 ## Knowledge Impact and Learning Decision
 
-**Learning decision: revises the evidence crosswalk; the physical ranking stays the same.** The direct source audit corrected the identity of the proposed Band 1–Band 4 link from `611.1` to `505 keV`. This changes which transition should be measured next, but the Figure 4.5 caption alone does not add transition multipolarity or strength and therefore does not move `131Ce` toward a collective-mode conclusion. The working order remains ordinary signature/configuration coupling first, with γ-soft core response as model-assisted background; a γ-vibrational interpretation remains possible but unestablished, and wobbling/chirality lack the target-band companion chain.
+**Learning decision: the link manifest is corrected and expanded; the physical ranking stays the same.** The source audit identifies six interband branches and resolves Table 4.2/4.4 spin endpoints, source assignments and directions through the tables, level scheme and prose. Three same-parent E2 pairs permit conditional out/in estimates from reported intensities, but they are not absolute strengths and depend on the efficiency/covariance assumptions stated above. The thesis still lacks measured δ/polarization and an absolute strength matrix, so connectivity and conditional ratios do not move 131Ce to a collective-mode conclusion. Signature/configuration coupling remains the leading account; γ-soft core response is model-assisted background; the author's γ-vibrational interpretation remains possible but unestablished; wobbling/chirality still lack a target-band electromagnetic pattern.
 
-The durable learning delta is procedural and source-specific: verify the exact level endpoints and within-band/interband status at the raw table/figure before designing a discriminating measurement. A prior preview error was caught before it became a Day7 result. No source independence was added, no new experiment was found, and no page-level or claim-level review status was changed.
+The durable error pattern was repeated crosswalk correction based on a single table grouping or caption before reading the complete table, level scheme and prose together. The corrected workflow is to cross-check every row's spin assignment, band endpoint and arrow, then distinguish the angular-intensity ratio R from δ and preserve same-acquisition dependence. This changes the measurement matrix, not the mechanism ranking.
 
 ### Day 7 scorecard
 
 | Dimension | Score (0–4) | Basis |
 |---|---:|---|
 | 理论 | 3 | Separates rotational, vibrational and quasiparticle explanations; still needs mode-specific predictions rather than relying on idealized energy patterns. |
-| 判图 | 2 | Raw figure/table review corrected the material `611.1` vs `505 keV` identity error; this is a significant locator-to-level-scheme miss. |
-| 误差 | 2 | Frequency errors and crossing covariance were kept bounded, but the earlier preview attached the wrong transition to the proposed measurement and exposed a weak source crosswalk check. |
+| 判图 | 1 | Two successive source-crosswalk passes made material mistakes: 611.1 keV was wrongly demoted, 538.3 keV was omitted, and the 504.9-keV endpoints were treated as unknown despite Table 4.2. The complete table/figure/prose audit corrected them. |
+| 误差 | 2 | The audit now separates printed intensities and R from δ and absolute strengths, but the repeated row/endpoint misread shows that source-crosswalk uncertainty was initially underweighted. |
 | 证据分层 | 3 | Experimental line/link, derived `Eγ/2`/crossing, author interpretation and model deformation were separated; recall was partly primed by the prior preview. |
 | 反证 | 3 | Coriolis, configuration, pairing and shape alternatives were considered; no sensitivity supports treating absent strength as a null result. |
-| 可证伪问题 | 3 | The 505-keV link now has a result-dependent test, but a quantitative strength threshold and detector sensitivity are not available from this source. |
-| **Total** | **16/24** | Self-assessment after raw-source correction; not an external grade. |
+| 可证伪问题 | 3 | The six-link map makes a result-dependent test concrete, but the source lacks quantitative lifetime/strength thresholds and measured sensitivity. |
+| **Total** | **15/24** | Self-assessment after the full raw-source correction; not an external grade. |
 
 ### Weekly REFLECT
 
 1. **What changed this week:** Day1–6 concepts can be combined into an evidence order—identity and observable first, derived trends next, mechanism last. The source-lineage and missing-companion checks prevent repeated plots or labels from silently multiplying evidence.
-2. **Most consequential error pattern:** an apparently familiar table row was assigned the identity of a nearby figure link. The energy, angular ratio and spin values were internally consistent, which made the cross-reference mistake easy to miss. The correction required returning to the actual Table 4.4 and Figure 4.5, not merely rereading the summary claim.
-3. **How the reasoning changed:** `611.1-keV` moved from “interband discriminator” to “Band 4 intraband control”; `505-keV` moved into the link manifest with unknown multipolarity/endpoints. This revises the measurement plan, not the current mode ranking.
-4. **What remains provisional:** a gated-spectrum link establishes connectivity in the author’s scheme, not its multipolarity or collective character. The 0.329/0.367 MeV crossings constrain configuration interpretation but do not uniquely imply vibration, wobbling or chirality.
-5. **Next-step boundary:** the single continuing question is which directly measured `505-keV` transition properties and matched partner strengths would separate ordinary coupling from collective excitation. No independent new question or literature batch was opened; Day8 remains outside this run.
+2. **Most consequential error pattern:** The source crosswalk was corrected too early from a table heading and one gated figure. The full table contained 504.9-keV endpoints, the level scheme exposed the additional 538.3-keV Band 4→Band 1 branch, and §4.3.1 restored 611.1-keV as an interband link. Review the complete connected evidence before declaring a correction complete.
+3. **How the reasoning changed:** 611.1 keV remains a Band 4→Band 1 M1/E2 link, not intraband; the separate 243.7-keV row is intraband. Figure 4.5's 505-keV peak is the Table 4.2 504.9-keV Band 1→Band 4 row with 25/2−→23/2− endpoints, and Figure 4.1/Table 4.4 add 538.3 keV as another Band 4→Band 1 link. The six-link network is more complete, but the mechanism ranking is unchanged.
+4. **What remains provisional:** The table and scheme map link identity, endpoint spins and source multipole assignments; measured δ/polarization, absolute strength and collective character remain unresolved. The 0.329/0.367 MeV crossings constrain configuration interpretation but do not uniquely imply vibration, wobbling or chirality.
+5. **Next-step boundary:** The continuing 131Ce question is whether direct δ/polarization and partner-resolved absolute strengths across the six mapped branches distinguish ordinary coupling from a collective interpretation. No new literature batch was opened. Day8 selection-rule content was studied as an uncredited preview under the user's later clarification; day-index remains 7 and Day8 receives no course credit.
 
 ## Durable knowledge delta
 
-- [Alwaleedi 2013 source page](../../knowledge/sources/alwaleedi-2013-band-structures-131ce.md): AW13-16 now identifies the `611.1-keV` Band 4 intraband row at Table 4.4, thesis p.66 / PDF p.70; new AW13-19 records the `505-keV` Band 1–Band 4 link at Figure 4.5, thesis p.59 / PDF p.63. The thesis-footer vs PDF-viewer page convention is explicit.
-- [131Ce collective-mode project](../../knowledge/projects/131ce-collective-mode-discrimination.md): manifest row, link-test plan, active summary and next action now target the actual 505-keV link while retaining 611.1 keV as a separate intraband transition. The current hypothesis order and all review statuses remain unchanged.
-- Historical references were also reconciled in the [Day1 report](../20260927-DAY1-baseline-research-contract.md), [Day3 report](../20260929-DAY3-mean-field-nilsson-csm-hfb-projection.md) and its [continuation prompt](20260929-DAY3-mean-field-nilsson-csm-hfb-projection-run-03/continuation-prompt.md); only the AW13 link identity, its manifest/design wording, and the affected writeback anchor were corrected.
-- [DAY6 report erratum](../20261005-DAY6-rotation-vibration-alignment-signature.md): historical preview references were corrected and the post-closeout erratum keeps the preview explicitly uncredited for Day7.
+- [Alwaleedi 2013 source page](../../knowledge/sources/alwaleedi-2013-band-structures-131ce.md): AW13-16/19/20/21 map the six interband branches; AW13-22 records same-parent in-band E2 controls. Figure 4.5's 505-keV peak matches Table 4.2's 504.9-keV Band 1→Band 4 row and its 25/2−→23/2− assignment.
+- [131Ce collective-mode project](../../knowledge/projects/131ce-collective-mode-discrimination.md): the six-link manifest, three conditional same-parent E2 out/in estimates, the 611.1/243.7 mixed-branch Iγ ratio, and the follow-up δ/polarization/absolute-strength design are recorded. Source review states remain unchanged.
+- Historical references were reconciled in the [Day1 report](../20260927-DAY1-baseline-research-contract.md), [Day3 report](../20260929-DAY3-mean-field-nilsson-csm-hfb-projection.md) and its [continuation prompt](20260929-DAY3-mean-field-nilsson-csm-hfb-projection-run-03/continuation-prompt.md), and the [Day6 report](../20261005-DAY6-rotation-vibration-alignment-signature.md). They now describe the same six-link matrix and preserve the erroneous first DAY7 correction as a superseded audit event.
+- [Day8 early-learning writeback](../../knowledge/observables/multipole-mixing-ratio.md): adds angular-momentum/parity filters, forbidden-versus-hindered distinction, and the source-boundary rule for signed δ, angular distributions, polarization and lifetime. The source pages remain unreviewed.
 
 ```knowledge-writeback
 {
@@ -162,31 +204,58 @@ The durable learning delta is procedural and source-specific: verify the exact l
   "items": [
     {
       "knowledge": "knowledge/sources/alwaleedi-2013-band-structures-131ce.md",
-      "summary": "Corrected AW13-16 to the Band 4 intraband 611.1-keV row and added AW13-19 for the distinct 505-keV Band 1–Band 4 link, with thesis-footer and PDF page numbers separated.",
-      "anchor": "AW13-19",
+      "summary": "Restored AW13-16 as the 611.1-keV Band 4-to-Band 1 link, mapped Figure 4.5's 505-keV peak to the Table 4.2 504.9-keV row and endpoints, added the Figure 4.1/Table 4.4 538.3-keV link, and recorded the same-parent in-band E2 rows used for conditional ratios.",
+      "anchor": "AW13-22",
       "sources": [
         {
           "path": "knowledge/sources/alwaleedi-2013-band-structures-131ce.md",
-          "locator": "AW13-16; Table 4.4, thesis p.66 / PDF p.70"
+          "locator": "AW13-16; Table 4.4, thesis p.66 / PDF p.70; §4.3.1, thesis p.54 / PDF p.58"
         },
         {
           "path": "knowledge/sources/alwaleedi-2013-band-structures-131ce.md",
-          "locator": "AW13-19; Figure 4.5, thesis p.59 / PDF p.63"
+          "locator": "AW13-19; Table 4.2, thesis p.64 / PDF p.68; Figure 4.5, thesis p.59 / PDF p.63"
+        },
+        {
+          "path": "knowledge/sources/alwaleedi-2013-band-structures-131ce.md",
+          "locator": "AW13-20; Table 4.4, thesis p.66 / PDF p.70; §5.2.1, thesis p.81 / PDF p.85"
+        },
+        {
+          "path": "knowledge/sources/alwaleedi-2013-band-structures-131ce.md",
+          "locator": "AW13-21; Table 4.4, thesis p.66 / PDF p.70; Figure 4.1, thesis p.53 / PDF p.57"
+        },
+        {
+          "path": "knowledge/sources/alwaleedi-2013-band-structures-131ce.md",
+          "locator": "AW13-22; Table 4.1, thesis p.63 / PDF p.67; Table 4.4, thesis p.66 / PDF p.70"
         }
       ]
     },
     {
       "knowledge": "knowledge/projects/131ce-collective-mode-discrimination.md",
-      "summary": "Corrected the transition manifest and next-measurement design so 505 keV is the interband link and 611.1 keV remains an intraband Band 4 transition.",
-      "anchor": "Day 7 source-crosswalk correction and updated link test",
+      "summary": "Records the six-branch transition manifest, three conditional same-parent E2 out/in estimates, the 17/2− mixed-branch gamma-yield ratio and revised δ/polarization/absolute-strength design; the physical ranking is unchanged.",
+      "anchor": "Same-parent E2 branch-strength cross-check (conditional)",
       "sources": [
         {
           "path": "knowledge/sources/alwaleedi-2013-band-structures-131ce.md",
-          "locator": "AW13-16; Table 4.4, thesis p.66 / PDF p.70"
+          "locator": "AW13-20; Table 4.4, thesis p.66 / PDF p.70"
         },
         {
           "path": "knowledge/sources/alwaleedi-2013-band-structures-131ce.md",
-          "locator": "AW13-19; Figure 4.5, thesis p.59 / PDF p.63"
+          "locator": "AW13-22; Table 4.1, thesis p.63 / PDF p.67; Table 4.4, thesis p.66 / PDF p.70"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/observables/multipole-mixing-ratio.md",
+      "summary": "Adds the general L and parity selection rules, the low-rank E1/M1/E2 table, forbidden-versus-hindered distinction, and convention-aware roles of angular distribution, polarization and lifetime.",
+      "anchor": "Angular-Momentum and Parity Filters",
+      "sources": [
+        {
+          "path": "knowledge/sources/rose-brink-1967-phase-defined-angular-distributions.md",
+          "locator": "RB67-5; Sec. III.E, printed p.320, following Eqs.3.40–3.41"
+        },
+        {
+          "path": "knowledge/sources/lange-kumar-hamilton-1982-multipole-admixtures.md",
+          "locator": "LKH82-1; Sec. II.A, printed pp.121–123, Eqs.2.1–2.11"
         }
       ]
     }
@@ -196,27 +265,27 @@ The durable learning delta is procedural and source-specific: verify the exact l
 
 ## Open questions and belief revision
 
-1. **505-keV link:** What are its endpoint spins/parities and measured multipolarity? An E2-rich result with matched-spin lifetime-derived `B(E2)_out/B(E2)_in` would raise the priority of a collective coupled-band interpretation; an M1-dominated result would favor ordinary signature/configuration linking. Neither result alone proves wobbling, chirality or γ vibration.
+1. **Six-link electromagnetic matrix:** Can direct δ/polarization plus calibrated same-parent branching confirm the conditional E2 out/in estimates and separate them from M1 admixtures? An E2-rich, spin-coherent pattern with quantified sensitivity raises collective-coupling priority; calibrated weak E2 strength favors ordinary signature/configuration linking. Neither outcome alone proves a named mode.
 2. **Band 4 partner strengths:** Do partner-resolved lifetimes, branch-complete `δ` and polarization produce a consistent spin-dependent transition matrix after feeding/response and covariance are included? Until then the missing pattern is unknown, not negative evidence.
 3. **Crossing robustness:** Does the Band 1 crossing ordering survive a common band-identity/reference reconstruction with covariance? The table supplies individual uncertainties but not the covariance needed to infer a precise crossing difference.
-4. **Belief revision:** Current mode ranking: no material change. Measurement priority: revised from the incorrectly identified 611.1-keV line to the 505-keV link, whose transition properties remain unreported by Figure 4.5.
+4. **Belief revision:** No change to mechanism ranking. The source crosswalk is now six links rather than a single 505-keV candidate; the known endpoint assignments make the next gap electromagnetic character and absolute strength, not link identity.
 
 ## L0–L4 state
 
-- **L0 — bounded source re-audit complete:** the Alwaleedi PDF hash matches the source page; Table 4.4 and Figure 4.5 were checked directly and visually. No new source was ingested and no raw material was altered.
-- **L1 — complete for this case:** the corrected source-to-transition-to-interpretation chain, locator boundary, source lineage, and competing mechanisms are recorded in the source/project pages.
-- **L2 — complete for the weekly-learning card:** Days 1–6 were recalled and checked; the evidence crosswalk correction and week-level reflection are durable.
+- **L0 — source re-audit complete:** the Alwaleedi PDF hash matches the source page; Tables 4.1/4.2/4.4, Figures 4.1/4.5 and §§4.3.1/5.2.1 were checked. The six links and three conditional same-parent E2 calculations are recorded. No new source was ingested and raw material was not altered.
+- **L1 — complete for this case:** the six-link source-to-transition map, locators, source lineage, missing electromagnetic properties and competing mechanisms are recorded in canonical source/project pages; Day8 selection-rule and convention knowledge is recorded in the existing multipole-mixing-ratio observable page.
+- **L2 — complete for Day7; Day8 preview uncredited:** closed-notes recall, 131Ce evidence chain, synthetic oral exercise, six-dimension scorecard and weekly REFLECT are complete. The AW13 table exercise derives three conditional same-parent E2 ratios and one mixed-branch Iγ ratio with uncertainty assumptions explicit. Day8 preview compares E1/M1/E2 rules, multipole candidates and observables but does not complete or credit the Day8 card.
 - **L3 — no new milestone:** the existing `131Ce/133Ce` collective-mode question remains at its previous project state; this exam corrects its transition manifest but does not start a new project or claim to solve the mode.
-- **L4 — not entered:** no event-level counts, common detector response, covariance package or analysis code is present for the 505-keV link. No proxy fit or model output is presented as experimental evidence.
+- **L4 — not entered:** no event-level counts, common detector response, covariance package or analysis code is present for the six-link matrix. No proxy fit or model output is presented as experimental evidence.
 
 ## Verification and continuation
 
 - **Write-entry baseline:** initial `git status --short --branch` showed only the pre-existing Day6 run-01 directory, current runner-created Day7 `week-one` run directory, and old Day6 prompt as untracked. These were preserved. Before edits, `clean_knowledge_eol_dirty.py` exited 0 with zero files refreshed/restored/kept/unsafe; `wiki_automation_preflight.py --root .` exited 0, boundary passed, and protected BibTeX hash matched.
-- **Prompt and scope:** the official Day7 prompt at `outputs/learning-daily/prompts/20261006-DAY7-collective-motion-oral-exam.md` was checked against this report. The supplied `output_dir` differs from the already-created active run-directory name; the receipt retains the existing directory in `output_dir`, records the supplied path in `requested_output_dir`, and points `report` to this required report. No Day8 prompt or Day8 study is included.
-- **Time-gate closeout:** the final clock/pool check occurred at `16:35 Asia/Shanghai`, with about `1344` minutes to the hard deadline. The selected `131Ce` question was completed to the card’s current-source boundary; the remaining discriminator requires new transition properties or partner-resolved data, and the task forbids opening a new literature batch. Day8 remains excluded, so only receipt and release reconciliation remain.
-- **Curriculum state:** after the full Day7 audit and writeback, `next_day_index` advanced from 7 to 8 and `completed_day_count` from 6 to 7. This pointer identifies the next uncompleted card; no Day8 study, preview, prompt, or credit was produced in this run.
-- **Required gates:** `python3 system/scripts/wiki_boundary_check.py --root .` exited 0 with no errors/warnings; `python3 system/scripts/wiki_lint.py --fail-on error` exited 0 (`errors=0`, `warnings=91`, `info=1310`); `git diff --check` exited 0. The report-contract check exited 0: all 11 required headings, five Day7 audit lines, one valid writeback block with two canonical knowledge items, and five complete audit rows were present. The lint info count includes the new AW13-19 claim with `needs_review: true`; no review state was cleared.
-- **Publication scope:** only this run’s report, the AW13 source/project corrections, directly affected Day1/Day3/Day6 report and prompt errata, course state, and necessary receipt/handoff/log changes are eligible for explicit staging. The current run’s `run.json` receipt is staged separately; other existing run artifacts and the Day6 prompt remain unstaged.
-- **Session index:** the current `session_id` and `resume_command` are saved in the run receipt and a `manual-reconciliation-checks-passed` / `publication-reconciled` entry was appended to `outputs/learning-milestones/2026-09-one-month-scheduler.jsonl`. That scheduler JSONL is Git-ignored by the repository, so it remains local; the run receipt is the published session record.
-- **Gitee publication:** content commit subject `Complete DAY7 collective-motion oral exam and correct 131Ce link crosswalk` was pushed to `origin HEAD:main`. Fresh `git fetch origin main`, `git merge-base --is-ancestor origin/main HEAD`, `git push --dry-run origin HEAD:main` and `git push origin HEAD:main` all exited 0. The task receipt records the exact commit hash and session resume command.
-- **Continuation:** Day7 is complete after the card audit and all three required checks pass. The substantive state now points to the next uncompleted card; that pointer does not represent Day8 work or credit. Resume this session with the command in Run state if discussion of this exam is needed.
+- **Prompt and scope:** The official Day7 prompt at outputs/learning-daily/prompts/20261006-DAY7-collective-motion-oral-exam.md was checked and preserved unchanged. The user subsequently authorized an uncredited Day8 knowledge preview with day-index=7. The supplied output_dir differs from the already-created active run-directory name; the receipt retains both paths and the report points to the required path. No Day8 prompt was created.
+- **Time-gate closeout:** At 22:08 Asia/Shanghai, 1012 minutes remained. After the six-link/raw-table audit and conditional same-parent intensity analysis, the already-ingested 131Ce sources offered no further partner-resolved observable; Day8 selection-rule knowledge was pre-studied as the single uncredited Day+1 preview. The matrix Day9 card was inspected and deferred as beyond this run's single next-day scope. Day7 remains the only credited card; the Day8 pointer stays next_day_index=8.
+- **Curriculum state:** Day7 is complete; the Day8 method preview is partial and receives no credit. State remains next_day_index=8 and completed_day_count=7; no state update to Day9 was made.
+- **Required gates:** Boundary check passed (errors=0, warnings=0); Wiki lint passed (errors=0, warnings=91, info=1313); git diff --check passed; report-contract validation passed (10 required headings, 5 Day7 audit rows, 3 grounded writeback items); and git diff --cached --check passed after explicit task-file staging. No review status was cleared.
+- **Publication scope:** Explicitly stage this run's report/receipt, AW13 source/project corrections, the multipole-mixing-ratio and source-index updates, directly affected Day1/Day3/Day6 errata, and the persisted time-gate rule in AGENTS.md, workflow/prompt templates, check.md and user guides, plus handoff/log. Preserve and leave unstaged inherited run directories and prompt artifacts. Do not modify state.json, raw/, PLAN.md or review flags.
+- **Session index:** The session ID and resume command remain in the run receipt. A local scheduler JSONL event for the resumed closeout and publication will be appended after final verification; that JSONL is Git-ignored and will not be staged.
+- **Gitee publication:** The two earlier DAY7 commits remain in history. This resumed session will publish a corrective non-force commit only after the required checks and explicit-file staging; final branch, commit subject/hash and push result will be recorded after publication.
+- **Continuation:** Day7 remains the only completed card. Day8 knowledge was previewed without completing the card; next_day_index remains 8. The final time-gate decision below records whether any in-scope learning route remains.

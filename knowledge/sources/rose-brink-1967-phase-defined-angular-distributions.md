@@ -3,7 +3,7 @@ type: source
 title: "Rose and Brink 1967 - Angular distributions in phase-defined reduced matrix elements"
 aliases: [Rose-Brink 1967 angular distributions]
 created: 2026-09-21
-updated: 2026-09-21
+updated: 2026-10-06
 status: ai-draft
 review_status: unreviewed
 source_type: theory-method-review
@@ -59,6 +59,7 @@ tags: [Rose-Brink, angular-distribution, phase-convention, mixing-ratio, alignme
 | RB67-2 | Aligned-state γ angular distributions factor into population/alignment tensors, geometry coefficients and reduced transition amplitudes. | formalism-result | direct | PDF pp.316–324, Eqs.3.25–3.47 | false |
 | RB67-3 | γ–γ correlations require the population tensor of the first transition and the response tensor of the second; mixed multipoles carry a convention-dependent relative phase. | formalism-result | direct | PDF pp.321–326, Eq.3.73 | true |
 | RB67-4 | The compact even-`K` formula is not valid without its definite-parity/alignment assumptions. | limitation | direct | PDF pp.320–326 | false |
+| RB67-5 | For definite-parity states, an allowed photon multipole must satisfy `|Ji−Jf|≤L≤Ji+Jf` with `L≥1`; electric and magnetic multipoles carry parity factors `(-1)^L` and `(-1)^(L+1)`, respectively. Thus same-parity transitions admit M1/E2/M3… and opposite-parity transitions E1/M2/E3… where the angular-momentum triangle permits them; `0↔0` gamma decay is excluded. | selection-rule | direct | Sec. III.E, printed p.320, following Eqs.3.40–3.41 | true |
 
 ## Summary
 

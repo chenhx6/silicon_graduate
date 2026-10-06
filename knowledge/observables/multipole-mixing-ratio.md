@@ -3,7 +3,7 @@ type: observable
 title: 多极混合比
 aliases: [multipole mixing ratio, E2/M1 mixing ratio, mixing ratio, δ]
 created: 2026-07-01
-updated: 2026-07-12
+updated: 2026-10-06
 status: active
 review_status: unreviewed
 observable_kind: electromagnetic-transition-observable
@@ -22,9 +22,25 @@ tags: [gamma-transition, multipolarity, wobbling]
 
 δ 的符号与相位约定必须沿用原文；只比较绝对值时也要说明。
 
+## Angular-Momentum and Parity Filters
+
+For a gamma photon of multipole rank `L`, the angular-momentum triangle requires `|Ji−Jf|≤L≤Ji+Jf`, with `L≥1`. Electric and magnetic radiation change parity by `(-1)^L` and `(-1)^(L+1)`, respectively. For definite-parity states, the commonly used low-rank cases are:
+
+| Multipole | Nuclear parity | Angular momentum |
+|---|---|---|
+| E1 | Changes | `ΔJ=0, ±1`, except `0↔0` |
+| M1 | Conserves | `ΔJ=0, ±1`, except `0↔0` |
+| E2 | Conserves | `ΔJ=0, ±1, ±2`, except `0↔0` |
+
+These are the leading low-rank candidates, not an exhaustive list. The triangle rule also permits higher ranks when `L≤Ji+Jf`; same-parity transitions can contain M3/E4… components, and opposite-parity transitions E1/M2/E3… components, subject to the same rank bound. State the low-rank truncation when using an E1, M1, or E2-only fit. Rose–Brink gives the general rule in Sec. III.E, printed p.320, after Eqs.3.40–3.41; the discussion assumes definite parities and gives broader conditions on pp.320–324.
+
+“Forbidden” means that a specific multipole amplitude violates an exact angular-momentum or parity rule under the stated assumptions. It does not mean every other multipole is forbidden. “Hindered” means an allowed transition has unusually small strength relative to a named reference or expected scale; a selection rule alone cannot establish hindrance.
+
 ## How It Is Obtained
 
 可由角分布、角关联/DCO、线偏振和内转换系数与理论响应比较得到。
+
+Spin, parity and multipolarity are separate assignment claims. An angular-distribution or DCO fit can retain multiple spin/multipole branches, and a parity label inferred from a chosen E/M multipole is not an independent parity measurement. Use complementary handles such as a known cascade, calibrated polarization or conversion data, and state the shared alignment/response assumptions; do not count one fitted angular ratio twice as independent support for spin, parity and multipolarity. Rose–Brink's tensor formulas make the alignment, geometry and phase dependencies explicit (Sec. III.B–III.E, pp.314–324).
 
 Diamond 1966 gives an early alignment-dependent route: if a pure transition from the same initial state calibrates the magnetic-substate alignment, a mixed E2/M1 angular distribution can constrain the amplitude mixing ratio. Without that calibration, the paper recommends a probable range rather than a unique value.
 
@@ -73,6 +89,8 @@ ICC-based `delta` extraction 也可能带来明显非对称误差；当 experime
 [[hamilton-1969-mixing-ratios-pt194-196]] is a high-resolution cascade-separation example: `194Pt` gives `δ=−(30^{+39}_{−19})` and `196Pt` gives `δ=+4.03(12)` under the Biedenharn convention. The source demonstrates that convention mapping, contaminant correction and unresolved feeding (the 759-keV warning) are part of the observable identity, not post-processing details.
 
 [[rose-brink-1967-phase-defined-angular-distributions]] defines δ as a ratio of phase-defined reduced interaction-multipole matrix elements. Its sign is physical only after operator phase, initial/final state order, time-reversal convention and parity/alignment assumptions are mapped; the magnitude is related to partial-width ratios but does not remove these convention boundaries.
+
+[[lange-kumar-hamilton-1982-multipole-admixtures]] relates δ² to E2/M1 partial rates and documents the Krane–Steffen sign convention and its operator/state-order boundaries. [[rose-brink-1967-phase-defined-angular-distributions]] gives the angular-momentum/parity rules, the linear interference term in the angular distribution, and the distinction between total lifetime information and relative phase. The simple E1/M1/E2 table above is a low-rank shorthand; do not infer that higher allowed multipoles are exactly forbidden.
 
 [[eldridge-2018-gamma-band-mixing-ratios]] demonstrates the uncertainty topology in practice: IPAC `A2/A4` ovals for 37 Mo/Ru/Pd γ-band links can admit pure-E2 `δ=±∞`, finite positive/negative branches or very large alternatives. Retain all branches within the stated `(A2,A4)` uncertainty before using a shape-systematics interpretation.
 

@@ -2,7 +2,7 @@
 type: system-index
 graph-excluded: true
 created: 2026-07-01
-updated: 2026-09-30
+updated: 2026-10-06
 ---
 
 # Wiki Index
@@ -110,7 +110,7 @@ updated: 2026-09-30
 - [[hubel-2005-magnetic-rotation-review]] - 69页磁转动综述；整合 Pb/轻质量区 M1/E2、寿命、g 因子、TAC、shears 与 antimagnetic-rotation 证据边界。
 - [[tidal-wave]] - 弱形变 yrast 潮汐波的转动框架、`B(E2)/J` 与相干性边界。
 - [[ionescu-bujor-1998-static-moments-129-131ce]] - `129,131Ce` TDPAD 静态电磁矩、`J=9−` isomer assignments 和 PTR 形状演化；`ε2/γ/ε4` 保留模型边界。
-- [[alwaleedi-2013-band-structures-131ce]] - `131Ce` Bands 1–7 的 Gammasphere 纲图、crossing/alignment、组态图与带 `δ=0` 假设的 `B(M1)/B(E2)` 基线。
+- [[alwaleedi-2013-band-structures-131ce]] - `131Ce` Bands 1–7 的 Gammasphere 纲图、crossing/alignment、组态图与带 `δ=0` 假设的 `B(M1)/B(E2)` 基线；DAY7 原文审计映射六条 Band1/Band4/yrast link，并标明缺失的 measured `δ`、偏振和寿命。
 - [[singh-2016-lifetime-131ce-133pr]] - `131Ce/133Pr` yrast 带寿命、`Q_t` 与 γ-soft/TRS 解释；2016 当前值与 2004 依赖行分层。
 - [[li-2004-lifetimes-131ce]] - `131Ce` 正负宇称序列的早期 DSAM 寿命与 `Q_t` 原始谱系。
 - [[petrache-1998-highly-deformed-lifetimes-131ce-nd]] - `134Nd` 三带及 `135Nd/131Ce` HD bands 的 shared-systematics DSAM `Q0/Q_sf` 与 cranked-Strutinsky shrinking/polarization 比较。
@@ -386,7 +386,7 @@ updated: 2026-09-30
 
 - [[gamma-band-energy-staggering]] - `S(J,J-1,J-2)` 与 γ 势判别。
 - [[signature-splitting]] - 奇 A 伙伴带能量劈裂。
-- [[multipole-mixing-ratio]] - ΔI=1 E2/M1 混合。
+- [[multipole-mixing-ratio]] - 多极角动量/宇称选择规则、E2/M1 混合比相位约定，以及角分布、偏振和寿命的信息边界。
 - [[bm1-be2-ratio]] - 组态和带关系约束。
 - [[wobbling-energy]] - 候选 wobbling 带相对激发能。
 - [[interband-transition-strengths]] / [[interband-e2-strengths]] - 手征与 wobbling 的带间电磁证据。

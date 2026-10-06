@@ -6,15 +6,19 @@ updated: 2026-10-06
 
 # 跨会话交接
 
-## Active handoff — DAY7 complete; next card DAY8
+## Active handoff — DAY7 resumed window closed; Day8 pre-study uncredited
 
-正式 DAY7 周考已完成，报告为 [2026-10-06 DAY7](../outputs/learning-daily/20261006-DAY7-collective-motion-oral-exam.md)。Day6 中的 preview 仍不计 Day7 学分；本次重新完成盲回忆、131Ce 证据链、合成题、六项评分和 weekly REFLECT。课程状态已推进为 `next_day_index=8`、`completed_day_count=7`；本轮未开展、预览或计入 Day8。
+The first DAY7 closeout was recorded at 2026-10-06 16:35 Asia/Shanghai with 1344 minutes still before the run hard deadline. That stopped at card completion and treated the original prompt's Day8 exclusion as a schedule-level stop. The user challenged the early closeout and clarified that, when substantial time remains, knowledge from exactly the next day's card may be pre-studied while keeping today's day-index and withholding course credit. The run resumed after a 20:33 clock check; this time-gate rule is now persisted in AGENTS.md, the continuous-learning workflow, daily prompt templates, check.md and both user guides.
 
-本次原文回核纠正 AW13-16 的链接映射：Table 4.4 的 `611.1-keV` 是 Band 4 偶内跃迁，Figure 4.5 的 `505-keV` 才是 Band 1–Band 4 link。相关 source/project 页以及 Day1/Day3/Day6 历史报告中的精确交叉引用已修正。源 claim 仍保留 `needs_review: true`，未改 review 状态；raw 和 PLAN.md 未修改。
+Formal Day7 remains complete with self-score 15/24. The DAY7 report at outputs/learning-daily/20261006-DAY7-collective-motion-oral-exam.md records completed_day_indices: [7] and partial_day_indices: [8]. Course state is still next_day_index=8, completed_day_count=7; Day8 receives no credit and no Day9 prompt/card was opened.
 
-Run `2026-10-06-day-07-01` session 为 `01a11015-104a-7101-9051-393e978bf2c0`；resume：`codex resume 01a11015-104a-7101-9051-393e978bf2c0 -C /workspace/wiki -s danger-full-access -a never`。正式 prompt：`outputs/learning-daily/prompts/20261006-DAY7-collective-motion-oral-exam.md`。实际回执保留在既有 `20261006-DAY7-week-one-collective-motion-oral-exam-run-01/`，其 report 路径已改为用户指定的 canonical 报告路径；没有新建重复 run 目录。
+The raw Alwaleedi audit now maps six interband branches: Band1→Band4 at 504.9 keV M1/E2 (25/2−→23/2−) and 871.2 keV E2; Band4→Band1 at 538.3 keV M1/E2 (15/2−→13/2−) and 611.1 keV M1/E2 (17/2−→15/2−); and Band4→yrast at 994.3 and 1108 keV E2. Figure 4.5's rounded 505-keV peak matches Table 4.2's 504.9-keV row. The separate 243.7-keV row is intraband, though it shares a spin change with the 611.1-keV link. Same-parent table arithmetic gives three conditional E2 out/in ratios around 0.046, 0.063 and 0.039, assuming efficiency-corrected Iγ values; the reported covariance/response package is insufficient for a complete uncertainty or absolute-strength claim. The 611.1/243.7 Iγ ratio is 4.94±0.36 under independent quoted-error propagation but cannot be decomposed without δ. No mechanism ranking changed; no direct δ/polarization/lifetime matrix exists, so L4 was not entered.
 
-Gitee primary content commit：branch `main`，subject `Complete DAY7 collective-motion oral exam and correct 131Ce link crosswalk`，精确 hash 与 H3 回执见该 run 的 `run.json`。Fetch、祖先检查、dry-run、`HEAD:main` 非 force push 和 post-push HEAD 对账均通过。剩余证据 gap 是 505-keV link 的端点/多极性以及 partner-resolved 强度；这是后续科学问题，不阻止本次完成。下一日学习只能在新 Day8 run 开始时按矩阵卡执行；本次不创建 Day8 prompt。
+The permitted Day8 pre-study used only the existing Lange–Kumar–Hamilton 1982 and Rose–Brink 1967 sources. It records angular-momentum/parity rules, forbidden versus hindered, phase/sign conventions, three synthetic transition cases and the limits of angular distribution, polarization and lifetime. Day9 was inspected in the matrix and deferred as beyond this run's one Day+1 pre-study.
+
+Final manual time snapshot: 2026-10-06 22:08 Asia/Shanghai; 1012 minutes remained to the 2026-10-07 15:00 hard deadline. The already-read 131Ce corpus contains no further Band4 partner matrix; the single Day8 knowledge preview is saturated, so no remaining in-scope high-value route was identified. The next scheduled start remains 2026-10-07 16:00 for the formal Day8 run.
+
+Run receipt and resume: outputs/learning-daily/20261006-DAY7-week-one-collective-motion-oral-exam-run-01/run.json; session 01a11015-104a-7101-9051-393e978bf2c0; resume with codex resume 01a11015-104a-7101-9051-393e978bf2c0 -C /workspace/wiki -s danger-full-access -a never. User-specified report path is preserved. raw/, PLAN.md, milestone JSON state and all review flags remain unchanged. The resumed correction will publish as a normal non-force Gitee commit after the required gates.
 
 ## DAY6 initial stop record — 2026-10-05
 

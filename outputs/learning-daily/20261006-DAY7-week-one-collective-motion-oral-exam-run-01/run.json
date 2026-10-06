@@ -26,17 +26,19 @@
   "completed_day_indices": [
     7
   ],
-  "partial_day_indices": [],
+  "partial_day_indices": [
+    8
+  ],
   "curriculum_cards_completed": 1,
   "closeout_window_ends_at": "2026-10-07T16:00:00+08:00",
   "last_closeout_snapshot": {
-    "now_local": "2026-10-06T16:35:35+08:00",
+    "now_local": "2026-10-06T22:08:07+08:00",
     "hard_deadline": "2026-10-07T15:00:00+08:00",
     "next_scheduled_start": "2026-10-07T16:00:00+08:00",
-    "minutes_to_deadline": 1344,
-    "minutes_to_next_start": 1404,
-    "decision": "closeout-only",
-    "reason": "Day7 complete; Day8 explicitly excluded."
+    "minutes_to_deadline": 1012,
+    "minutes_to_next_start": 1072,
+    "decision": "early-close-after-candidate-pool-saturation",
+    "reason": "The current 131Ce source issue was saturated after mapping six links and conditional same-parent branch ratios; one Day8 knowledge pre-study was completed uncredited; Day9 was inspected and deferred as beyond the single next-day scope. day-index remains 7."
   },
   "prompt_file": "/workspace/wiki/outputs/learning-daily/20261006-DAY7-week-one-collective-motion-oral-exam-run-01/prompt.md",
   "output_dir": "/workspace/wiki/outputs/learning-daily/20261006-DAY7-week-one-collective-motion-oral-exam-run-01",
@@ -53,10 +55,10 @@
     "-a",
     "never"
   ],
-  "finished_at": "2026-10-06T16:45:54+08:00",
+  "finished_at": "2026-10-06T22:08:07+08:00",
   "next_day_index": 8,
   "day7_preview_not_credited": true,
-  "day8_in_scope": false,
+  "day8_in_scope": true,
   "next_prompt_file": null,
   "next_prompt_exists": false,
   "weekly_learning_subtype": "weekly-learning",
@@ -65,17 +67,19 @@
     "wiki_lint_exit": 0,
     "wiki_lint_errors": 0,
     "wiki_lint_warnings": 91,
-    "wiki_lint_info": 1310,
+    "wiki_lint_info": 1313,
     "git_diff_check_exit": 0,
     "git_cached_diff_check_exit": 0,
     "report_contract_exit": 0,
     "knowledge_writeback_valid": true,
-    "knowledge_writeback_items": 2,
+    "knowledge_writeback_items": 3,
     "report_required_headings": 10,
     "day7_card_audit_rows": 5,
     "prompt_path_checked": true,
     "raw_sha256_matched": true,
-    "day8_work_performed": false
+    "day8_work_performed": true,
+    "day8_card_completed": false,
+    "course_state_unchanged_after_day7": true
   },
   "state_before_closeout": {
     "next_day_index": 7,
@@ -85,7 +89,7 @@
     "next_day_index": 8,
     "completed_day_count": 7
   },
-  "stop_reason": "Day 7 card and required verification completed; Day 8 remains outside this run per user scope.",
+  "stop_reason": "The first closeout at 16:35 was premature. After resuming, the six-branch 131Ce crosswalk and same-parent E2 intensity arithmetic were audited; Day8 knowledge was pre-studied uncredited; Day9 was inspected and deferred. No further high-value route remained within the one-continuous-question plus one-Day+1-preview scope, so the learning window closed at 22:08 with 1012 minutes left.",
   "exit_code": 0,
   "git_publication": {
     "branch": "main",
@@ -102,5 +106,25 @@
     "post_push_head_matches_origin_main": true,
     "status_after_primary_push": "main matches origin/main"
   },
-  "publication_pending": false
+  "publication_pending": true,
+  "initial_closeout_snapshot": {
+    "now_local": "2026-10-06T16:35:35+08:00",
+    "hard_deadline": "2026-10-07T15:00:00+08:00",
+    "next_scheduled_start": "2026-10-07T16:00:00+08:00",
+    "minutes_to_deadline": 1344,
+    "minutes_to_next_start": 1404,
+    "decision": "closeout-only",
+    "reason": "Day7 complete; Day8 explicitly excluded."
+  },
+  "initial_stop_reason": "Day 7 card and required verification completed; Day 8 remains outside this run per user scope.",
+  "manual_resume_count": 1,
+  "manual_resume_events": [
+    {
+      "at": "2026-10-06T20:33:17+08:00",
+      "reason": "User clarified that next-day knowledge may be studied early when far from the hard deadline while keeping today's day-index and withholding course credit."
+    }
+  ],
+  "day8_work_performed": true,
+  "day8_card_completed": false,
+  "day8_credit": false
 }

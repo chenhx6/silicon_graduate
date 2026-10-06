@@ -2,7 +2,7 @@
 type: system-prompt
 graph-excluded: true
 created: 2026-09-22
-updated: 2026-09-29
+updated: 2026-10-06
 ---
 
 # Daily nuclear-structure apprenticeship run
@@ -52,17 +52,22 @@ finalize the daily run from that fact alone. Read the runner's latest Runtime sc
 snapshot. In a manual resume without a fresh snapshot, call the current-time tool in
 Asia/Shanghai and compare with the original receipt's overnight_until.
 
-- At least 120 minutes before the hard deadline: continue the current issue; if both
-  selected slots are saturated, inspect the next uncompleted Day card and complete it
-  only when its full deliverables fit the remaining window.
+- At least 120 minutes before the hard deadline: continue the current issue; if it is
+  saturated, rebuild the candidate pool and inspect the next uncompleted Day card.
+  You may pre-study knowledge from exactly that next-day card as an uncredited preview.
+  Keep today's `day_index`; record the next card only in `partial_day_indices`; do not
+  list it as completed, advance the course `next_day_index` past it, or open Day+2.
+  Formal card credit remains tied to that card's own day run, even if its knowledge
+  deliverables were covered early.
 - 90–119 minutes before the hard deadline: continue the current issue or do one bounded
   preview from the next card; do not claim a full next-card credit.
 - Under 90 minutes: do not open a new source or full card; finish the current bounded
   analysis. At the hard deadline, stop research and use the 15:00–16:00 buffer only for
   closeout.
-- Do not finish early while a next Day card remains eligible and the runtime snapshot
-  shows a substantive window. Candidate-pool saturation is local to a problem; the
-  schedule-level stop also checks the next uncompleted card.
+- Do not finish early while a useful current issue or the permitted Day+1 knowledge
+  preview remains and the runtime snapshot shows a substantive window. Candidate-pool
+  saturation is local to a problem; the schedule-level stop rebuilds the pool and checks
+  the next uncompleted card before deciding to stop.
 - A user-requested stop, session cancellation, permission/data boundary, or runtime
   failure remains an immediate hard stop. Never auto-restart after a user stop.
 

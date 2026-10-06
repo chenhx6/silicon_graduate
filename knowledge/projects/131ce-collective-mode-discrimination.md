@@ -23,7 +23,7 @@ tags: [l3, a130, collective-modes, evidence-map, candidate-l4, n73-isotones]
 - 2026-09-26 continuation audit 已取得并全文核对 refs.47/48：Palacz 1991 `131Ce` 原始高自旋谱学与 Bazzacco 1998 `133Nd` GASP/DCO 谱学；Byrne 1992 `129Ba` 仍为 closed/full-text blocked。两篇新 source 页只加强 contextual configuration continuity，不增加 `131Ce` target-nucleus electromagnetic evidence。
 - 下一决定性步骤仍是 `131Ce` 连接跃迁的 measured `δ`/偏振、多带寿命和 absolute strengths。
 - 2026-09-27 electromagnetic-manifest audit：Alwaleedi 2013 只有 `δ=0` 派生 `B(M1)/B(E2)`，Singh 2016 与 Li 2004 提供独立但带/宇称范围不同的寿命与 `Q_t`，Petrache 1998 的 `Q0=7.3(4) eb` 属于独立 HD 带；这些来源没有形成 Bands 1–7 的 measured `δ`、偏振和 partner-resolved strength matrix。Crossref/Semantic Scholar 只核验 Gizon 1977 `131Ce/129Ce` 论文身份（DOI `10.1016/0375-9474(77)90679-0`）；OpenAlex 标为 `is_oa=false` 且无 PDF/repository copy，Unpaywall 为 `oa_status=closed` 且无 locations，Semantic Scholar 为 `CLOSED` 且无 abstract；ScienceDirect/CORE 公开请求返回 403。全文与 locator 仍 blocked，暂不纳入科学证据。
-- 2026-10-06 原文交叉核对修正 AW13 link crosswalk：Table 4.4 的 `611.1-keV` M1/E2 行是 Band 4 偶内跃迁（AW13-16）；Figure 4.5 标出的新 `505-keV` transition 才连接 Band 1 与 Band 4（AW13-19）。后者的图示没有给出端点自旋宇称、多极性、相对强度、`δ` 或寿命，故只改变下一步测量对象，不改变当前集体模式排序。
+- 2026-10-06 continued raw-source audit maps six AW13 interband branches: Band 1→Band 4 at `504.9 keV` M1/E2 (`25/2−→23/2−`) and `871.2 keV` E2 (`19/2−→15/2−`); Band 4→Band 1 at `538.3 keV` M1/E2 (`15/2−→13/2−`) and `611.1 keV` M1/E2 (`17/2−→15/2−`); and Band 4→yrast at `994.3 keV` E2 (`19/2−→15/2−`) and `1108 keV` E2 (`23/2−→19/2−`). The rounded Figure 4.5 `505-keV` link matches the Table 4.2 `504.9-keV` row; its spin endpoints come from Table 4.2 and the direction from §4.3.1. Figure 4.1 plus Table 4.4 identify the 538.3-keV branch, which §4.3.1 omits. Table group headings alone do not encode endpoints: 243.7 and 611.1 keV share `17/2−→15/2−`, but Figure 4.1 and §4.3.1 identify only the latter as interband. The first formal Day7 correction wrongly reclassified 611.1 keV as intraband; this has been superseded by the full table/figure/prose crosswalk. The thesis still lacks measured `δ`/polarization, lifetimes, and absolute strengths for this network; the mode ranking remains unchanged.
 
 ## Research Question
 
@@ -175,14 +175,18 @@ Seed-row consistency checks：AW13 的派生 `B(M1)/B(E2)` 不与 SI16/LI04 的 
 
 ### Public-table transition seed rows (AW13; design-only)
 
-以下四行来自 AW13 原始 PDF 的 Tables 4.1–4.4；它们把 `Eγ`、相对强度和角强度比 `R` 接入 manifest，但仍保留 source assignment、δ、偏振和寿命边界。
+以下 manifest 将 AW13 Tables 4.1–4.4 的 transition rows 与 §4.3.1 / Figure 4.5 的跨带连接交叉核对；`R` 是角强度比，不替代 `δ`、线偏振或 lifetime。
 
 | row | `Eγ` / `Iγ` / `R` | source assignment | fields still missing | locator |
 |---|---|---|---|---|
 | `AW13-B1-E2-507.9` | `507.9 keV / 100 / 0.94±0.02` | `15/2−→11/2−`, E2 | measured `δ`, polarization, lifetime/absolute strength | AW13-14; PDF p.63 Table 4.1 |
 | `AW13-B1-M1E2-137.4` | `137.4 keV / 68.3±3.2 / 0.50±0.04` | `11/2−→9/2−`, M1/E2 | δ branch/sign, polarization, lifetime/absolute strength | AW13-15; PDF p.64 Table 4.2 |
-| `AW13-B4-intraband-611.1` | `611.1 keV / 25.2±1.1 / 0.56±0.02` | Band 4 `17/2−→15/2−`, M1/E2 intraband transition | direct `δ`/polarization and lifetime/absolute strength | AW13-16; Table 4.4, thesis p.66 / PDF p.70 |
-| `AW13-B1-B4-link-505` | `505 keV`; Figure 4.5 shows the new line in a double-gated spectrum | Band 1–Band 4 link; this locator does not state endpoint `J^π` or multipolarity | endpoint mapping, `Iγ`, `R`, measured `δ`, polarization, lifetime/absolute strength | AW13-19; Figure 4.5, thesis p.59 / PDF p.63; gates `756` and `626 keV` |
+| `AW13-B4-B1-link-611.1` | `611.1 keV / 25.2±1.1 / 0.56±0.02` | Band 4→Band 1 new M1/E2 dipole, `17/2−→15/2−` | directly measured `δ`/polarization; lifetime/absolute strength | AW13-16; Table 4.4, thesis p.66 / PDF p.70; §4.3.1, thesis p.54 / PDF p.58 |
+| `AW13-B4-B1-link-538.3` | `538.3 keV / 19.3±0.9 / 0.55±0.03` | Band 4→Band 1 M1/E2 dipole, `15/2−→13/2−` | directly measured `δ`/polarization; lifetime/absolute strength | AW13-21; Table 4.4, thesis p.66 / PDF p.70; Figure 4.1, thesis p.53 / PDF p.57 |
+| `AW13-B1-B4-link-504.9` | `504.9 keV / 9.2±0.7 / 0.61±0.08` | Band 1→Band 4 M1/E2 link, `25/2−→23/2−` | directly measured `δ`/polarization; lifetime/absolute strength | AW13-19; Table 4.2, thesis p.64 / PDF p.68; §4.3.1, thesis p.54 / PDF p.58; Figure 4.5, thesis p.59 / PDF p.63 |
+| `AW13-B1-B4-link-871.2` | `871.2 keV / 16.2±0.7 / 0.98±0.03` | Band 1→Band 4 E2, `19/2−→15/2−` | transition-specific lifetime/absolute strength and common-response covariance | AW13-20; Table 4.4, thesis p.66 / PDF p.70; §4.3.1, thesis p.54 / PDF p.58 |
+| `AW13-B4-B1-link-994.3` | `994.3 keV / 20.3±0.8 / 1.12±0.04` | Band 4→yrast E2, `19/2−→15/2−` | transition-specific lifetime/absolute strength and common-response covariance | AW13-20; Table 4.4, thesis p.66 / PDF p.70; §5.2.1, thesis p.81 / PDF p.85 |
+| `AW13-B4-B1-link-1108` | `1108 keV / 10.3±0.4 / 0.90±0.06` | Band 4→yrast E2, `23/2−→19/2−` | transition-specific lifetime/absolute strength and common-response covariance | AW13-20; Table 4.4, thesis p.66 / PDF p.70; §5.2.1, thesis p.81 / PDF p.85 |
 | `AW13-B7-E2-950.3` | `950.3 keV / 24.3±1.4 / 1.01±0.03` | `29/2−→25/2−`, E2 | measured δ/polarization, lifetime/absolute strength | AW13-17; PDF p.65 Table 4.3 |
 
 These rows are source-backed manifest seeds, not a claim that the angular ratio `R` fixes multipolarity or that the source assignment is final.
@@ -191,20 +195,36 @@ These rows are source-backed manifest seeds, not a claim that the angular ratio 
 
 Using the first four Band 1 quadrupole rows in AW13-14 and the first four Band 1 dipole rows in AW13-15, inverse-variance weighting gives `R_E2=0.976±0.017` and `R_M1/E2=0.516±0.023`; the nominal difference is `0.461±0.028` (statistical-only). The E2 subset has `χ²≈20.6` for 3 degrees of freedom, so feeding, detector geometry and unmodelled covariance are material. This check validates that the table carries separated assignment handles; it is not a universal `R` threshold or an independent multipolarity proof.
 
-### Day 7 source-crosswalk correction and updated link test (design-only)
+### Same-parent E2 branch-strength cross-check (conditional)
 
-The raw-source audit corrects the earlier matrix mapping: AW13-16 is the `611.1-keV`, `17/2−→15/2−`, M1/E2 row within Band 4 (Table 4.4, thesis p.66 / PDF p.70). Figure 4.5 instead labels the newly found `505-keV` transition as the Band 1–Band 4 link (thesis p.59 / PDF p.63; gates `756` and `626 keV`). The figure does not give its endpoint spins/parities, multipolarity, relative intensity, measured `δ`, polarization, or lifetime. Do not transfer the `611.1-keV` row's `R=0.56±0.02` or `Iγ=25.2±1.1` to the 505-keV link.
+Three pairs of Table 4.1/4.4 rows share the same initial level and are assigned E2. If the tabulated `Iγ` values represent efficiency-corrected photon yields, then for two E2 branches from the same initial level:
+
+`B(E2)_out/B(E2)_in = [Iγ_out/Iγ_in] × (Eγ_in/Eγ_out)^5`.
+
+The same-parent selection cancels the total lifetime and the shared 508-keV normalization. Using the central table values gives:
+
+| Initial level | Out-of-band branch | In-band branch | Reported `Iγ_out/Iγ_in` | Conditional `B(E2)_out/B(E2)_in` |
+|---|---|---|---:|---:|
+| Band 1 `19/2−` | `871.2 keV`, `16.2±0.7` | `641.2 keV`, `75.5±3.1` | `0.2146±0.0128` | `0.0463±0.0028` |
+| Band 4 `19/2−` | `994.3 keV`, `20.3±0.8` | `625.8 keV`, `31.8±1.4` | `0.6384±0.0377` | `0.0631±0.0037` |
+| Band 4 `23/2−` | `1108 keV`, `10.3±0.4` | `755.6 keV`, `38.5±1.8` | `0.2675±0.0163` | `0.0395±0.0024` |
+
+Quoted ratio uncertainties propagate only the tabulated intensity errors as independent; the thesis does not provide the shared-normalization, efficiency, feeding or branch covariance needed for a complete interval, and it does not print transition-energy uncertainties. These are conditional relative-strength estimates, not absolute `B(E2)` values or new experimental results. They do not change the current mode ranking because no model-calibrated discriminator threshold is available. The mixed 17/2− branches give a separate reported yield ratio `Iγ(611.1)/Iγ(243.7)=4.94±0.36` under the same independent-error assumption, but both are M1/E2 and the unknown `δ` values prevent decomposition into E2 or M1 strengths.
+
+### Day 7 continued source audit: reciprocal Band-1/Band-4 links (design-only)
+
+The formal Day7 report initially over-read the Table 4.4 “Band 4” grouping and wrongly reclassified AW13-16 as intraband. The full raw-source audit resolves six branches: Band 1 feeds Band 4 through `871.2-keV` E2 and `504.9-keV` M1/E2 links; Band 4 feeds Band 1 through `538.3-keV` and `611.1-keV` M1/E2 links; Band 4 also feeds the yrast Band 1 through `994.3-keV` and `1108-keV` E2 links. Section 4.3.1 explicitly names 611, 871 and 505; Figure 4.1 plus Table 4.4 reveal the additional 538 branch, and §5.2.1 names 994/1108. The rounded Figure 4.5 505-keV peak corresponds to the Table 4.2 504.9-keV row (`25/2−→23/2−`); the direction is stated in §4.3.1. Table rows give relative `Iγ/R`, but `R` is not `δ`; the table group alone does not encode endpoints, as shown by the 243.7-keV Band 4 intraband and 611.1-keV interband dipoles sharing `17/2−→15/2−`. All six links lack measured `δ`/polarization and absolute strengths. The three same-parent E2 pairs provide conditional table-based relative-strength estimates above, but the missing response/covariance boundary prevents treating them as a complete strength matrix.
 
 | Stage | Minimum observation / analysis | Ranking consequence | Stop/failure check |
 |---|---|---|---|
-| 1. Identity and branch | Reconfirm the 505-keV coincidence, calibrated energy and both level endpoints against the full cascade; map any other reported Band-4/Band-1 links with `Eγ`, `Iγ`, `J^π`, feeding and source lineage. | If the endpoints, band parity or common-spin partner identity are not secure, do not fit the line as a collective-mode transition. | If the gated cascades do not close the endpoint identity, mark `identity-uncertain`; do not infer a partner from band numbering alone. |
-| 2. Transition character | For the confirmed 505-keV interband line, obtain angular distributions/DCO plus linear-polarization asymmetry; fit both allowed `δ` branches with a common alignment/response model and report branch/sign and covariance. | An E2-rich pattern raises the priority of a collective out-of-band strength test; an M1-dominant result favors ordinary signature/configuration linking. Neither result alone names a mode. | Do not substitute the 611.1-keV intraband `R` or AW13's fixed `δ=0` for a measured link `δ`; include polarization magnitude, sign convention, efficiency and gate dependence. |
+| 1. Identity and branch | Cross-check Figure 4.1, §4.3.1/§5.2.1 and Tables 4.2/4.4 for the six mapped links: 504.9, 871.2, 538.3, 611.1, 994.3 and 1108 keV. | A coherent link network gives the band-identity basis for a partner-strength test, not a collective-mode assignment. | If a gate/cascade does not close or an arrow direction remains ambiguous, mark that row `identity-uncertain`; do not infer identity from the table group heading alone. |
+| 2. Transition character | For the 504.9-, 538.3- and 611.1-keV M1/E2 links, measure angular distributions/DCO plus linear-polarization asymmetry and fit both allowed `δ` branches with a common response/covariance model. Preserve the 871.2/994.3/1108-keV E2 links as separate branches. | A partner-resolved E2-rich matrix raises collective-coupling priority; M1-dominated mixed links with ordinary in-band behavior favor signature/configuration coupling. Neither result alone names a mode. | Do not substitute any source-table `R` for measured `δ`; include sign convention, polarization magnitude, efficiency and gate dependence. |
 | 3. Absolute strength | Measure lifetimes for Band 4 partner states and matched Band 1 states over overlapping spins, with feeding/side-feeding and stopping/response treatment; derive absolute `B(E2)` and `B(M1)` plus `B(E2)_out/B(E2)_in`, `B(M1)_out/B(E2)_in` and `Q_t`. | Compare the same transition matrix across spin before assigning wobbling or chirality. Existing SI16/LI04 Band-1-like lifetimes are controls, not a partner-band lifetime matrix. | Keep finite lifetimes, lower/upper limits and effective lifetimes separate; a branching-only ratio is not an absolute strength. |
 | 4. Shape question | Only if γ-soft/γ-rigid ordering remains decisive, add quadrupole invariants/Coulomb-excitation or a common-input softness scan constrained by measured strengths. | Tests shape dynamics after partner identity and transition character are established. | Fixed TRS/TPSM `γ` inputs are model results, not shape measurements. |
 
-**δ-sensitivity exercise.** AW13-9 gives the branching-derived same-transition correction `B(M1)/B(E2)(δ) = [B(M1)/B(E2)](0)/(1+δ²)`. Hence the fraction of the `δ=0` estimate retained is `1.000`, `0.800`, `0.500`, `0.308` for illustrative `|δ|=0`, `0.5`, `1.0`, `1.5`, respectively. These are sensitivity examples, not measured or fitted values for either the 505-keV link or the 611.1-keV intraband line. The latter's `R=0.56±0.02` is an angular-intensity ratio, not `δ`. At `|δ|=1`, the corrected ratio is half the `δ=0` estimate, showing why direct branch-resolved `δ` matters before using AW13 Fig. 5.5 ratios as mechanism evidence.
+**δ-sensitivity exercise.** AW13-9 gives the branching-derived same-transition correction `B(M1)/B(E2)(δ) = [B(M1)/B(E2)](0)/(1+δ²)`. Hence the fraction of the `δ=0` estimate retained is `1.000`, `0.800`, `0.500`, `0.308` for illustrative `|δ|=0`, `0.5`, `1.0`, `1.5`, respectively. These are sensitivity examples, not measured or fitted values for either M1/E2 link. The table `R` values do not substitute for `δ`. At `|δ|=1`, the corrected ratio is half the `δ=0` estimate, showing why direct branch-resolved `δ` matters before using AW13 Fig. 5.5 ratios as mechanism evidence.
 
-**Source-dependence and companion boundary.** The 505-keV interband link, 611.1-keV Band 4 intraband line and AW13 derived ratios all belong to the thesis `100Mo(36S,5n)` data set. Singh 2016 and Li 2004 provide lifetime controls on Band-1-like/parity-specific sequences from separate reactions, but neither supplies a Band-4 partner lifetime; Singh's reproduced Li rows remain dependent. A follow-up should preserve this lineage and measure the actual link and matched partner states in a common response/covariance package rather than combine unlike transition tables.
+**Source-dependence and companion boundary.** The 504.9-, 538.3-, 611.1-, 871.2-, 994.3- and 1108-keV links and AW13-derived ratios all belong to the thesis `100Mo(36S,5n)` data set. Singh 2016 and Li 2004 provide lifetime controls on Band-1-like/parity-specific sequences from separate reactions, but neither supplies a partner-resolved Band 4 matrix; Singh's reproduced Li rows remain dependent. A follow-up should measure branch-resolved `δ`/polarization and matched lifetimes/absolute strengths for the full mapped link network under a common response/covariance package rather than combine unlike transition tables.
 
 ## Analysis Status
 
@@ -252,7 +272,7 @@ The raw-source audit corrects the earlier matrix mapping: AW13-16 is the `611.1-
 ## Next Actions
 
 1. 用户独立 `131Ce` 实验数据本轮不读取、不与公开数据合并；未来先建立独立 manifest、数据身份和 band/transition mapping，再按具体问题启动更深入 L4。
-2. 继续补齐 Figure 5.5 gated inputs、measured δ/偏振、伙伴带 absolute strengths 与 HD–ND linking 等能够改变竞争解释排序的证据；先将 AW13-19 的 505-keV Band 1–Band 4 link 纳入共同 manifest 并核定其端点/多极性。保留 AW13-16 的 611.1-keV Band 4 偶内跃迁为独立控制量，不预设任何 link 的 wobbling 身份。
+2. 继续补齐 Figure 5.5 gated inputs、measured δ/偏振、伙伴带 absolute strengths 与 HD–ND linking 等能够改变竞争解释排序的证据；对 AW13-16/19/20/21/22 的 504.9/538.3/611.1/871.2/994.3/1108-keV link network 补 branch-resolved electromagnetic properties，并验证三个 conditional same-parent E2 ratio 的 intensity-response covariance，不预设任何 link 的 wobbling 身份。
 3. 不把本 project 的 provisional conclusion 写入正式论文结论或提升为 high confidence。
 
 ## Related Sources and Pages
