@@ -3,7 +3,7 @@ type: source
 title: "Lange, Kumar & Hamilton 1982 - E0-E2-M1 multipole admixtures in even-even nuclei"
 aliases: [Lange Kumar Hamilton 1982 mixing-ratio review]
 created: 2026-09-21
-updated: 2026-10-07
+updated: 2026-10-08
 status: ai-draft
 review_status: unreviewed
 source_type: review-and-data-compilation
@@ -88,6 +88,9 @@ The adopted data table is a critical survey through January 1980, not a homogene
 | LKH82-9 | n=1→0 的直接算符修正与波函数混合必须按同一小振幅阶次保留；首阶 derivative 为零不保证所有阶次为零。ΔK 的使用还需此算符、K purity 和近轴对称条件。 | source-model-result | direct | printed pp.126–127 / PDF pp.8–9 Eqs.3.21–3.24; pp.128–129 / PDF pp.10–11 Eqs.3.31–3.40、152Sm 例及 footnote 3 | true |
 | LKH82-10 | PPQ 在投影五维集体空间内处理 rot-vib/K mixing，不消除 adiabatic、interaction、basis、pairing 和直接 quasiparticle coupling 的限制；Table V theory δ 使用实测 Eγ，是条件性模型比较。 | model-and-input-boundary | direct | printed p.131 / PDF p.13 Sec.III.D.2–3; p.133 / PDF p.15 spin/Pauli 限制; p.178 / PDF p.60 Table V caption | true |
 | LKH82-11 | 大 δ 仅固定 E2/M1 部分光子率比，不能给绝对 E2 增强；允许 M3/E4 时还不固定全部辐射的 E2 份额。DF shape-factor 消去式只在共同率非零时定义比值，零率点是极限。 | our-inference-with-model-premise | indirect | printed p.121 / PDF p.3 Eqs.2.1–2.6; p.125 / PDF p.7 Eqs.3.10–3.13; low-order scope p.119 / PDF p.1 | true |
+| LKH82-12 | p.169 明给 M1 penetration 的线性/二次修正式，原叙述为增强 IC；没有本题系数或允许参数域。未知修正下 E0 的非负率排除需指定 reference model/允许域；固定独立 t 与未修正 E2、非负 M1 时仍有 E2 floor。δ sign 与 penetration 参数的符号信息不同。 | source-formula-and-our-inference | indirect | printed p.169 / PDF p.51 Eq.4.1 下方修正式与叙述；p.123 / PDF p.5 Eq.2.12；KB08 printed pp.207–208 / PDF pp.6–7 Eq.24、NP/SC 比较 | true |
+| LKH82-13 | 同一物理Hermitian核多极、标准BM归一时，反向RME须复共轭且B反向带初态自旋简并比。该方向变换是推导，不增加独立测量；RB同算符归一须换bra-spin因子，不能代替photon-T的adjoint/发射吸收映射。 | our-inference-with-definition-premise | indirect | printed121/PDF3 Eq2.3a–c；printed122/PDF4 Eqs2.10–2.11与state-reversal段；RB67 printed316/PDF11 Eq3.22的不同adjoint | true |
+| LKH82-14 | 同electric type/energy/transition，在所用长波核电算符率公式内，E4/E2率比=(5/23814)(qR)^4|χ|²，χ=M4/(R²M2)需M2非零。小qR必须结合独立矩阵元界才支持此率截断；不单独控制干涉角分布误差或证明真实核素高阶不存在。 | our-inference-with-formula-premise | indirect | printed121/PDF3 Eqs2.2/2.3a–b；RB67 printed313–314/PDF8–9 Eq3.12与footnote9、p318/PDF13 Eqs3.29–3.30与footnote12；46-check hierarchy | true |
 
 ## Collective M1 Zero, Perturbation Order and Transfer Conditions
 
@@ -220,6 +223,84 @@ z=0的普通两gamma式是纯系数的convex combination：`αobs=αM1/(1+t)+t �
 一个额外shell/total分布 `h_s=α_s/αobs` 仅当d_s≠0且uncertainty/response能分辨时可排除该对；两个shell/total观测测试两个contrasts，但纯two-shell分布仅一个独立shape degree。shell/shell比需正分母，并在 `d_s α_t,b−d_t α_s,b≠0` 时有判别力；同比例变化可能使比值盲。若全部 `κ_s,b−κ_s,a=η_s(κ_b−κ_a)`，整个shell向量仍退化，增加重复统计量不能补出信息。
 
 统计独立与functionally independent约束分别核验。以primitive counts传播joint Jacobian，`α_s=αtotal·h_s` 是派生关系；不能将total、shell fractions和derived partial ICCs当三套独立输入。在理想independent-Poisson计数的一阶控制中，shell fractions之间负cov、shared gamma denominator使partial ICCs正cov，而totalα与shell fraction可零cross-cov；共同数据不意味着每一对cov都非零。真实background/efficiency/gates会改变该特例，需要actual covariance。
+
+## Penetration, Reference Models and Conditional ICC Exclusions
+
+printed p.169 / PDF p.51 的 Eq.4.1 下方明确写出
+
+\[
+\alpha_K(M1,\lambda_{pen})=\alpha_K^{ref}(M1)
+\bigl[1+B_1(M1)\lambda_{pen}+B_2(M1)\lambda_{pen}^{2}\bigr].
+\]
+
+λ_pen 与 penetration/gamma 矩阵元之比相关；不是 photon rank 或 λ_γ 发射率。本文段落称 B1/B2 为 small expansion terms，却没有本题的数值、符号、完整参数归一化或允许 λ 域。作者描述额外 IC 而非 γ 发射、因此增大转换系数，尤其在 γ 高度受抑时；该来源叙述保留，不能把任意有符号多项式都当成作者认证的真实修正。小 B 也不单独约束未知的 B1λ/B2λ²。作者在此没有观察到 E2 penetration 的历史陈述，不是排除一切 E2 核结构修正的定理。
+
+限定 M1/E2 γ、λ_γ=Tγ(M1)+Tγ(E2)>0，并令独立固定的 t=δ²。给定同一 reference model 下的修正后 M1 系数和未修正 E2 系数：
+
+\[
+\kappa_K(\lambda_{pen})=
+\frac{\alpha_K^{ref}(M1)P(\lambda_{pen})+t\alpha_K(E2)}{1+t},
+\quad
+T_K(E0)=\lambda_\gamma[\alpha_{K,obs}-\kappa_K(\lambda_{pen})].
+\]
+
+这里 P 是上式括号，T_K(E0)≥0 当且仅当指定参数的 α_K,obs≥κ_K。未知 penetration 时，在物理允许域 Λ 内存在 κ_K≤α_K,obs 才可完成；只有所有允许参数都使 κ_K>α_K,obs 才能排除。若采用并独立验证“同一基线上的修正仅增强”，κ_K≥κ_K,ref，则原 fixed-baseline 低侧排除仍成立。更弱率模型中降低正 κ 的 toy 不是实证，也不证明实际 penetration 能降低系数。若使用 inf κ，下侧可排除；恰等于 inf 的端点还需最小值确实能取到。
+
+一个不需要 M1 修正数值的条件性下界是
+
+\[
+\kappa_K(\lambda_{pen})\ge
+\frac{t}{1+t}\alpha_K(E2).
+\]
+
+这只用修正后 M1 系数非负，还要求 t 独立固定、E2 系数不修正、M1/E2 截断。低于该 E2 floor 的数据排除此条件包；未知 t 可含 t=0，或 E2 也修正时，不能沿用正下界。固定 t 本身也未解决未知 penetration 与 E0 的分配。
+
+[[kibedi-2008-evaluation-theoretical-conversion-coefficients-bricc]] printed pp.207–208 / PDF pp.6–7, Eq.24 与 Sec.4.1.2 区分 NP 和 SC：HsIcc/RpIcc 使用 no-penetration，新的 DF 使用已近似纳入 penetration 的 surface-current 模型。现代 DF/FO 不能自动作 NP 的 λ=0 基线后再乘 Hager 修正；先核 reference mapping，避免重复计入。FO/NH 描述 atomic vacancy，独立于 NP/SC 的核流近似，No Hole 不等于 no penetration。本页固定 ordinary ICC 的构造是条件性输入，不许可任意调 κ；没有改变 MU08 的五个 FO 数值。
+
+固定 penetration 参数时 Eq.4.1 对 δ→−δ、qK→−qK 不变，不能给 E2/M1 或 E0/E2 的相对符号。B1λ 是线性项，在已知系数/其它率/允许域下可对 penetration 参数符号敏感；不要将“不给 δ sign”扩大为“不含任何核矩阵元相位信息”。K-shell α 也不能代替所有壳层和分支的 total-lifetime inventory。M1 γ reference 为零时有限 α(M1,λ) 坐标失效，可能的 electron rate 要直接处理，不能默认 `0×∞=0`；E2 或 total γ reference 为零的端点同理。
+
+本节35项符号检查经主代理复现，是既有来源定义与本任务率推导的 L2 边界；没有原子/核素数值拟合、物理 λ 域认证或新实验。
+
+## Reverse Strength and Physical Operator Normalization
+
+对同一对核态与物理核多极 `M_Lμ†=(−1)^μ M_L,−μ`，采用末态bra的标准BM/Wigner–3j归一，令 `Rfi=⟨Jf||M_L||Ji⟩`。由 spherical adjoint 与3j对称性得到本任务重构：
+
+\[
+R_{if}=(-1)^{J_i-J_f}R_{fi}^{*},\qquad
+B_{f\to i}=\frac{2J_i+1}{2J_f+1}B_{i\to f}.
+\]
+
+E2的B单位保持e²b²，M1保持μ_N²；此式不要求RME是实数，B不确定其sign/phase。核强度的upward转换不是反向自发γ寿命，激发过程另需其运动学/反应响应。Already rate-derived B已包含Eq2.3a的初态spin除数，不能再除一次。
+
+Eq2.11对**同一物理算符**的normalization-only映射为 `Rfi,RB=Rfi,BM/√(2Jf+1)`，因此 `B_i→f=(2Jf+1)/(2Ji+1)|Rfi,RB|²`；反向bra改为Ji，`Rif,RB=(−1)^(Ji−Jf)√[(2Jf+1)/(2Ji+1)]Rfi,RB*`。RB photon interaction T另有 Eq3.22 `T_Lμ†=(−1)^(L−μ+1)T_L,−μ` 与本页Eqs2.10的operator/发射吸收因子，不能用physical-M adjoint替它。
+
+[[mukhopadhyay-2008-136nd-transition-rates]] 的18−→16−、quotedB(E2)=0.14(2)e²b²给派生reverse16−→18−值约0.157±0.022e²b²（statistical only），BM magnitude≈2.276eb。两方向确定性变换共享输入，不是新的excitation experiment；feeding/branch/ICC与未含stopping systematic原边界保留。190项实质代数/身份检查和247项phase-domain控制经主代理复现，归属唯一Day9无学分预习的L2。
+
+## Electric Rank Hierarchy and Truncation Premises
+
+从p.121 Eq.2.2 的 `C_L=8π(L+1)/{L[(2L+1)!!]²}` 得C2=4π/75、C4=2π/178605、C4/C2=5/23814。同一initial/final pair、Eγ和electric type下，物理BM核算符RME定义 `M4=R²χM2`，q=Eγ/(ℏc)为inverse length、R为指定physical length参照、χ无量纲，M2需非零：
+
+\[
+\frac{T_\gamma(E4)}{T_\gamma(E2)}
+=\frac5{23814}(qR)^4|\chi|^2,
+\qquad \frac{B(E4)}{B(E2)}=R^4|\chi|^2.
+\]
+
+同pair的spin因子抵消。R只是参照，不自动是wavefunction hard-support半径；R→sR会令χ→χ/s²，而rate expression不变。Source Gaussian约定 `[e²]=energy×length` 使两式率均为time⁻¹，不能裸混SI charge或RB Eq3.30的不同G_L normalization。
+
+独立justify `|χ|≤X`、指定rate toleranceη>0时，`(5/23814)(qR)^4 X²≤η`才是这一个partial-rate截断的充分条件。χ=M4/(R²M2)没有选律给的普遍上界；M2很小时可大、M2=0时ratio chart失效。Fixed finiteχ的qR→0给率比趋零；χ随qR⁻²增长的代数控制可以阻止该极限，未构造真实核wavefunction。
+
+RB67-19 原理想seed的E4/E2 photon比为1/4，需要 `|χ|=(63√30/10)/(qR)²≈34.5065/(qR)²`；第二认证分支比≈2.12584759，需要≈100.6230/(qR)²。只在合成qR=.01/.1及另加`|χ|≤1` prior时，这些formal分支不满足该prior。没有真实Eγ/R或独立χ界，不能据此称真实核不可能、确证低阶模型或比较两个分支的实际prior可信度。
+
+RB pp.313–314 的Bessel长波近似与footnote9要求一致charge/current，p.318 footnote12另有残余electric energy dependence。以上系数/algebra限所采approximation，不保证finite-q/current余项的统一相对误差。小被省partial-rate也不单独给uniform angular/polarization-error bound：干涉按被省振幅的√rate尺度进入，还依赖population/response与归一分母。46项检查经parent复现；是L2模型迁移/量纲审计，不是新核素计算或L4。
+
+### 额外hard-support假设下的条件范数界
+
+下面是本任务推导，LKH82/RB没有直接报告该bound。对Eq2.3b的point-charge乘法算符，另要求normalized初末态、orthonormal final multiplet、固定charge sector `Qabs=Σk|ek|`、相关wavefunction配置严格满足每个rk≤R，以及standardY和无未控effective-charge/current/finite-q项。球谐addition identity与component-vector triangle给各配置的范数≤`Qabs R^L√[(2L+1)/(4π)]`；归一initialstate后投影到chosen final multiplet只会减小平方和。Eq2.3a的fixed-Mi和已含spin归一，故
+
+`B(EL;i→f)≤Qabs²R^(2L)(2L+1)/(4π)`，不用再乘/除2Ji+1。
+
+E4上界为`9Qabs²R^8/(4π)`；只有另有独立strict-positive `B(E2)≥B2min`，才得 `|χ|²≤9Qabs²R^4/(4πB2min)`。绝对E4上界本身不给普遍χ界；B2min→0会发散。TypicalR并不建立compact support，真实tails或projected-space moments需独立控制。独立source审计12项no-op、17项Fraction事实与10个fixed-Mi Racah求和确认系数/归一与复数χ模，未增加核素实现或experimental evidence。
 
 ## Human Review Triage
 

@@ -3,7 +3,7 @@ type: method
 title: Spin/parity assignment
 aliases: [spin parity assignment, spin assignment, parity assignment, Jpi assignment, J^pi assignment]
 created: 2026-07-09
-updated: 2026-10-07
+updated: 2026-10-08
 status: ai-draft
 review_status: unreviewed
 method_type: level-assignment
@@ -88,3 +88,13 @@ RB67-14补充一个已知非等权布居的精确global pair：U保留S与所有
 RB67-15的合成3+→1+完整模型在指定内点为6×5 rank5，可局部联合约束relative amplitudes与population；这不等于Jπ标签或观测彼此独立，也不证明global唯一。PureE2恒K6零，isotropy/cancellation也能隐藏K6；数据/响应/全部候选和covariance须分别核验。
 
 RB67-16 further给CaseC两个local rank5但global同观测分支；一个higher mixture甚至在B6非零时与pureE2同全部curve、A6/C6均0。Full-model/global branches与观测灵敏度要在local parameter rank之外核验。合成证书不可作为实际spin/parity或measured higher-multipole结果。
+
+## Cascade Constraints, Coherence and Normalization
+
+RB67-17 的同一合成2+→2+→0+/pureE2末支证明，单γ相同可在离轴、已知非等权布居和保持中间态相干时被joint intensity区分；沿axis、random初态或理想dephasing对该U pair均盲。此判别依赖independent gate/ordering、population/axis、response、feeding与lifetime/time-window/deorientation，不能只列“又测了级联”就当无条件独立支持。Odd Q相干可位于even K tensor，不能混成odd K/parity mixing。
+
+RB67-18原内域seed的四shape/五unknown映射加入一个normalizedW12后rank4→5，只给固定Jπ/real-amplitude/diagonal-population模型的局部逆；已知布居的rank3→3仍可增进global-branch判别。Isotropic控制仅补一个组合，未完整反演。ConditionalW12/W1与W12是等价替代行，不能双计；未知coincidence normalization是额外nuisance，需独立处理统计covariance和calibration。详见[[rose-brink-1967-phase-defined-angular-distributions]]与[[multipole-mixing-ratio]]，无真实spin/parity赋值或L4结果。
+
+LKH82-12/KB08-D8-4进一步限定ICC证据：penetration修正要对相容reference model/允许参数域，FO/NH空穴与NP/SC核流近似不同。固定δ时标量ICC不给其sign，并不排除linear penetration参数的信息；一个K-shell系数不是完整total-lifetime输入。旧人审记录不扩展到本次新附录。
+
+RB67-19的计算区间证书还给同五idealoutputs的另一正布居/不同fractions分支，两点均localrank5；结论限unknown-population模型，不能移用到独立fixed-population切片。盒中唯一只限该盒，参数admissible不证明真实核可实现或同等modelprior。RB67-20的预定secondary角点比值可分该pair，但需要同一选样/时间窗和独立relative efficiency/acceptance标定；没有真实计数、响应或finite-count significance。局部rank、全局branch、模型迁移与校准的独立性分别核验。

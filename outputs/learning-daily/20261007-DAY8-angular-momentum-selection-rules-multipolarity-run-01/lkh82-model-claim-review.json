@@ -1,0 +1,536 @@
+{
+  "schema_version": 1,
+  "audit_id": "DAY8-LKH82-parent-source-claim-review",
+  "created_at": "2026-10-07T18:53:12.950066+08:00",
+  "status": "source-claim-review-complete-grounded-no-op",
+  "research_level": "L2",
+  "run_day_index": 8,
+  "session_id": "01a111fb-370d-7ed1-afe9-881ccc47caf4",
+  "review_actor": "Codex child day8_runtime_audit",
+  "review_kind": "direct-source-and-claim-self-audit-of-parent-canonical-integration",
+  "human_review": false,
+  "paper_admission": false,
+  "scope": {
+    "canonical_page": "knowledge/sources/lange-kumar-hamilton-1982-multipole-admixtures.md",
+    "canonical_sha256_at_receipt_creation": "542921848580c4d3cfe552893b148caee0bc75b996e8949c3c8da310dff49582",
+    "section_title": "Collective M1 Zero, Perturbation Order and Transfer Conditions",
+    "section_line_start": 92,
+    "section_line_end": 147,
+    "section_sha256": "4726e7a82a49ac097d8b4138c5b8f3e0e0bf946d161f0fd4c1eda1ae0a25291e",
+    "claim_ids": [
+      "LKH82-8",
+      "LKH82-9",
+      "LKH82-10",
+      "LKH82-11"
+    ],
+    "reviewed_excerpt_sha256": "b24a6df94d37de8dc8b998105ecb552385295f80a647fc0729dfb3c74722b613"
+  },
+  "source": {
+    "doi": "10.1103/RevModPhys.54.119",
+    "citation_key": "lange_1982_E0E2M1",
+    "raw_path": "raw/papers/gpt/high-spin-20260920/review/1982_Lange et al_E0-E2-M1 multipole admixtures of transitions in even-even nuclei.pdf",
+    "raw_sha256": "ed925a0577a9257903806acd209c1db707529e86a5bfd9a301a83d597bf78ffb",
+    "printed_to_pdf_page_rule": "printed minus118",
+    "source_type": "review-and-data-compilation"
+  },
+  "method": {
+    "original_images_directly_inspected": 12,
+    "required_image_pages": [
+      125,
+      126,
+      127,
+      128,
+      129,
+      131,
+      132,
+      133,
+      178,
+      179,
+      183
+    ],
+    "extra_supporting_image_pages": [
+      121
+    ],
+    "supporting_extracted_text_only_pages": [
+      119,
+      124
+    ],
+    "algebra_code_or_tests_run": false,
+    "mathematical_review": "commutator/multiplicity reasoning; coefficient/cancellation/scale checks by reading and algebra",
+    "new_sources_or_cards": false,
+    "historical_tables_rows_recertified": false,
+    "independent_experimental_evidence_added": false
+  },
+  "summary": {
+    "new_claims_reviewed": 4,
+    "grounded_no_op_claims": 4,
+    "checks_reviewed": 16,
+    "grounded_no_op_checks": 16,
+    "material_problem_count": 0,
+    "required_canonical_changes": 0,
+    "missing_locator_claims_in_scope": 0,
+    "missing_claim_kind_claims_in_scope": 0,
+    "page_review_status_observed": "unreviewed",
+    "claim_needs_review_true_in_scope": 4,
+    "missing_source_identity_or_citation_key_in_scope": 0
+  },
+  "findings": [],
+  "checks": [
+    {
+      "id": "SCR-1",
+      "claim_id": "LKH82-8",
+      "topic": "Eq.3.9 order and operator identity",
+      "assessment": "grounded-no-op",
+      "canonical_line_anchors": [
+        96,
+        103
+      ],
+      "source_locators": [
+        "printed125/PDF7 Eq3.9",
+        "printed127/PDF9 SecIII.C.3 opening paragraph",
+        "printed128/PDF10 last paragraph"
+      ],
+      "grounding": "The first term is muN*gR*sqrt(3/(4pi))*J; the alpha*J term is also retained at first surface-deformation order. The source zero is explicitly restricted to the deformation-independent zeroth-order piece.",
+      "retained_boundary": "No extension of this zero to the complete first-order M1 operator.",
+      "required_canonical_change": false
+    },
+    {
+      "id": "SCR-2",
+      "claim_id": "LKH82-8",
+      "topic": "Conserved generator and distinct energy",
+      "assessment": "grounded-no-op",
+      "canonical_line_anchors": [
+        105,
+        109
+      ],
+      "source_locators": [
+        "printed124/PDF6 Eq3.5 and rotational-invariance footnote",
+        "printed127/PDF9 good-J statement"
+      ],
+      "grounding": "For exact energy eigenstates, <f|[H,Jq]|i>=(Ef-Ei)<f|Jq|i>. With rotationally invariant H and Ef!=Ei the generator matrix element is zero. The section attributes this derivation to the task.",
+      "retained_boundary": "External fields or a nonconserved/nonconstant gyromagnetic operator require a different calculation.",
+      "required_canonical_change": false
+    },
+    {
+      "id": "SCR-3",
+      "claim_id": "LKH82-8",
+      "topic": "Internal multiplicity versus M substates",
+      "assessment": "grounded-no-op",
+      "canonical_line_anchors": [
+        112,
+        120
+      ],
+      "source_locators": [
+        "printed127/PDF9 good-J premise",
+        "new section representation argument, task derivation"
+      ],
+      "grounding": "The stated identity-on-internal-space representation gives delta_JfJi*delta_nufnui*sqrt(Ji(Ji+1)(2Ji+1)). J+/- within one spin multiplet changes M and can be nonzero; source line120 explicitly preserves that exception.",
+      "retained_boundary": "Zero means distinct energy/internal multiplets, not every matrix entry off the M diagonal. Degenerate orthogonal internal copies are still distinct from M substates.",
+      "required_canonical_change": false
+    },
+    {
+      "id": "SCR-4",
+      "claim_id": "LKH82-8",
+      "topic": "Generic rank1 and toy-current attribution",
+      "assessment": "grounded-no-op",
+      "canonical_line_anchors": [
+        122
+      ],
+      "source_locators": [
+        "printed121/PDF3 Eq2.3c"
+      ],
+      "grounding": "Eq2.3c has separate orbital/spin weights. A rank1 tensor can carry off-diagonal multiplicity factors; sigma_x internal tensor Jq is a mathematical example. Its physical realization is not asserted.",
+      "retained_boundary": "Triangle/parity permission does not establish measured M1 strength or hindrance.",
+      "required_canonical_change": false
+    },
+    {
+      "id": "SCR-5",
+      "claim_id": "LKH82-9",
+      "topic": "Same-order expansion and vanishing coefficients",
+      "assessment": "grounded-no-op",
+      "canonical_line_anchors": [
+        126
+      ],
+      "source_locators": [
+        "printed126/PDF8 Eqs3.21–3.24 and alpha*f(J) paragraph",
+        "printed127/PDF9 continuation rejecting zeroth/first terminology",
+        "printed127/PDF9 beta-to-g cancellation",
+        "printed128/PDF10 last paragraph generator-only M1 cancellation"
+      ],
+      "grounding": "Operator fluctuation and state mixing arise from the same small-amplitude expansion parameter. Eq3.24 has both at first amplitude order. In the beta same-J treatment, the M0 combination can cancel; for M0 proportional J the M1 band-mixing term vanishes. The canonical text states order, not that all such terms are nonzero.",
+      "retained_boundary": "A term may have a zero coefficient without changing its order assignment. This is not a theorem of nonzero transitions for all J/K or all models.",
+      "required_canonical_change": false
+    },
+    {
+      "id": "SCR-6",
+      "claim_id": "LKH82-9",
+      "topic": "Harmonic/small-fluctuation and axial prerequisites",
+      "assessment": "grounded-no-op",
+      "canonical_line_anchors": [
+        126,
+        128
+      ],
+      "source_locators": [
+        "printed125/PDF7 SecIII.C.1 small equilibrium fluctuations",
+        "printed126/PDF8 Eqs3.18–3.23: phonon basis, gamma0=0, good K",
+        "printed128/PDF10 gamma-to-g additional J dependence",
+        "printed129/PDF11 discussion of closed shells and anharmonicity"
+      ],
+      "grounding": "The n1-to-n0 and n0-to-n0 statements are source-model counting under the given phonon/small-fluctuation perturbation. Near-axial K structure and the spin/band geometry determine which reduced moments occur. LKH82-9 and the section identify the model/operator context.",
+      "retained_boundary": "Do not export these formulas unchanged to strongly anharmonic, quasiparticle, high-spin or arbitrary K-mixed states.",
+      "required_canonical_change": false
+    },
+    {
+      "id": "SCR-7",
+      "claim_id": "LKH82-9",
+      "topic": "Derivative zero and higher orders",
+      "assessment": "grounded-no-op",
+      "canonical_line_anchors": [
+        127
+      ],
+      "source_locators": [
+        "printed128/PDF10 upper-right paragraph: 152Sm local maximum"
+      ],
+      "grounding": "The source states that the first g+ derivative vanishes in 152Sm while small nonzero M1 moments come from second and higher terms; it expressly says this is not known to be general. Both qualifications are preserved.",
+      "retained_boundary": "This is not proof that a quadratic displacement has a nonzero harmonic <0|x^2|1> element.",
+      "required_canonical_change": false
+    },
+    {
+      "id": "SCR-8",
+      "claim_id": "LKH82-9",
+      "topic": "Units of slopes",
+      "assessment": "grounded-no-op",
+      "canonical_line_anchors": [
+        127
+      ],
+      "source_locators": [
+        "printed128/PDF10 Eq3.31 and Eq3.34a",
+        "printed129/PDF11 Eq3.40"
+      ],
+      "grounding": "Eq3.31 displays muN, whereas reported slope units are n.m. and n.m./rad. Gnu=muN*gnu is a consistent dimensionful convention; beta is dimensionless and gamma is in rad.",
+      "retained_boundary": "Do not multiply a numerical slope already reported in n.m. by muN a second time.",
+      "required_canonical_change": false
+    },
+    {
+      "id": "SCR-9",
+      "claim_id": "LKH82-9",
+      "topic": "Delta K=2 footnote scope",
+      "assessment": "grounded-no-op",
+      "canonical_line_anchors": [
+        128
+      ],
+      "source_locators": [
+        "printed129/PDF11 footnote3 attached to the g-minus M1 expression"
+      ],
+      "grounding": "The footnote says the angular-momentum part can change K by one and the D-function part by one additional unit, so this M1 operator can connect DeltaK2. The canonical statement is restricted to this operator/wave-function approximation.",
+      "retained_boundary": "It does not invalidate all strict-K selection rules for independently specified axial states and intrinsic tensors, or prove all DeltaK2 M1 transitions are unhindered.",
+      "required_canonical_change": false
+    },
+    {
+      "id": "SCR-10",
+      "claim_id": "LKH82-10",
+      "topic": "PPQ projected-space exact treatment",
+      "assessment": "grounded-no-op",
+      "canonical_line_anchors": [
+        129
+      ],
+      "source_locators": [
+        "printed131/PDF13 SecIII.D.2 steps3–4, continuing upper-right"
+      ],
+      "grounding": "The source explicitly projects the microscopic 3A-dimensional problem into a five-dimensional collective quadrupole Hamiltonian after retaining time derivatives through second order. Rot-vib and K mixing are treated exactly within that space; the collective equation is solved numerically.",
+      "retained_boundary": "Full-nucleus exactness, exact arbitrary quasiparticle coupling and model-independent currents are not claimed.",
+      "required_canonical_change": false
+    },
+    {
+      "id": "SCR-11",
+      "claim_id": "LKH82-10",
+      "topic": "PPQ approximation list, spin and Pauli",
+      "assessment": "grounded-no-op",
+      "canonical_line_anchors": [
+        129
+      ],
+      "source_locators": [
+        "printed131/PDF13 list(a)–(d) and SecIII.D.3 opening paragraph",
+        "printed133/PDF15 spin-contribution and core-particle discussion"
+      ],
+      "grounding": "PPQ interaction, oscillator radial functions, neglected Coriolis antipairing/pairing reduction and direct two-or-more-quasiparticle coupling match the original list. The source discussion gives approximately +/-15% spin contributions, and cautions about nonorthogonality/Pauli violations in naive collective/few-nucleon combinations.",
+      "retained_boundary": "The +/-15% is not a universal correction factor; PPQ, dynamic-deformation and shell/core treatments retain distinct assumptions.",
+      "required_canonical_change": false
+    },
+    {
+      "id": "SCR-12",
+      "claim_id": "LKH82-11",
+      "topic": "Delta scale and additional multipoles",
+      "assessment": "grounded-no-op",
+      "canonical_line_anchors": [
+        133
+      ],
+      "source_locators": [
+        "printed121/PDF3 Eqs2.1–2.6"
+      ],
+      "grounding": "delta^2 is the E2/M1 photon-rate ratio. The two explicitly synthetic shared-unit examples both have delta100 and E2 rates differing by10000. Extra gamma components leave delta pairwise; no absolute E2 strength or total E2 fraction is inferred.",
+      "retained_boundary": "Signed delta still carries convention-dependent relative-sign information, preserved in LKH82-1. M1=0 has no ordinary finite reference ratio; both components zero gives0/0.",
+      "required_canonical_change": false
+    },
+    {
+      "id": "SCR-13",
+      "claim_id": "LKH82-11",
+      "topic": "DF cancellation, charge and mass exponent",
+      "assessment": "grounded-no-op",
+      "canonical_line_anchors": [
+        135,
+        142
+      ],
+      "source_locators": [
+        "printed125/PDF7 Eqs3.10–3.13"
+      ],
+      "grounding": "The E2/M1 B-ratio is (7/80)*(Ze*R0^2/(gR*muN))^2; multiplying by3q^2/100 gives the section formula. Substituting R0 proportional A^(1/3) and gR=Z/A gives amplitude proportional A^(5/3), matching source3.56e-3*Eg[MeV]. Charge e is retained.",
+      "retained_boundary": "The common beta0^2*sin^2(3gamma0)/(9-8sin^2(3gamma0)) factor is cancelable only off its zero set. On the zero set, both retained rates vanish and the reduced ratio is a limit.",
+      "required_canonical_change": false
+    },
+    {
+      "id": "SCR-14",
+      "claim_id": "LKH82-10",
+      "topic": "Table V measured-energy shared input",
+      "assessment": "grounded-no-op",
+      "canonical_line_anchors": [
+        146
+      ],
+      "source_locators": [
+        "printed178/PDF60 TableV caption"
+      ],
+      "grounding": "The caption says the experimental gamma-ray energy in column3 has been used for all the theory values. The canonical statement correctly calls the model comparison conditional and the energy a shared input.",
+      "retained_boundary": "This comparison does not separately validate predicted excitation/gamma energies.",
+      "required_canonical_change": false
+    },
+    {
+      "id": "SCR-15",
+      "claim_id": "context LKH82-2",
+      "topic": "Historical magnitude/sign baseline",
+      "assessment": "grounded-no-op",
+      "canonical_line_anchors": [
+        146
+      ],
+      "source_locators": [
+        "printed179/PDF61 TableV discussion, left column"
+      ],
+      "grounding": "The source says IBM agrees better with magnitudes and PPQ with signs;8 shared cases have IBM3 and PPQ1 wrong signs; larger PPQ comparison has8/46 wrong signs and W disagreement. The new section defers to the correctly bounded LKH82-2.",
+      "retained_boundary": "These are author-reported counts from heterogeneous compiled data, not a fresh row-by-row certification or universal model ranking.",
+      "required_canonical_change": false
+    },
+    {
+      "id": "SCR-16",
+      "claim_id": "transfer boundary",
+      "topic": "Missing degrees of freedom and observable completeness",
+      "assessment": "grounded-no-op",
+      "canonical_line_anchors": [
+        144
+      ],
+      "source_locators": [
+        "printed183/PDF65 giant-monopole/seniority discussion and closing Tl example",
+        "printed119/PDF1 low-order approximation, existing extracted text",
+        "printed121/PDF3 Eq2.2"
+      ],
+      "grounding": "The source retains model-space/symmetry-breaking limitations and asks for gamma mixing-ratio measurement when large K conversion can still fit M1. The canonical transfer list appropriately requires common states/current, absolute rates, non-gamma inventory and response checks. Long-wave/rank factors alone do not make every higher allowed component identically zero.",
+      "retained_boundary": "No quantitative M3/E4 upper bound or physical realization of the free-amplitude seeds was supplied by this review.",
+      "required_canonical_change": false
+    }
+  ],
+  "claims": [
+    {
+      "assessment": "grounded-no-op",
+      "checked_items": [
+        "SCR-1",
+        "SCR-2",
+        "SCR-3",
+        "SCR-4"
+      ],
+      "attribution": "model zero plus explicitly attributed task commutator/multiplicity proof; indirect matches reconstructed portion",
+      "id": "LKH82-8",
+      "canonical_line": 87,
+      "reviewed_row": "| LKH82-8 | Eq.3.9 的形变无关零阶项是常数乘总 J，不能连接不同能量态；完整一阶算符另含 αJ 修正。通用 rank-1 张量不必等于 J；零值限于该模型项。交换子及 internal-multiplet 证明是本任务推导。 | model-boundary-and-our-inference | indirect | printed pp.124–125 / PDF pp.6–7 Eqs.3.5/3.9; p.127 / PDF p.9 Sec.III.C.3; p.128 / PDF p.10 末段; generic M1 Eq.2.3c p.121 | true |",
+      "needs_review_observed": true,
+      "needs_review_changed": false
+    },
+    {
+      "assessment": "grounded-no-op",
+      "checked_items": [
+        "SCR-5",
+        "SCR-6",
+        "SCR-7",
+        "SCR-8",
+        "SCR-9"
+      ],
+      "attribution": "source-model expansion and derivative example, with operator/K/small-amplitude applicability conditions",
+      "id": "LKH82-9",
+      "canonical_line": 88,
+      "reviewed_row": "| LKH82-9 | n=1→0 的直接算符修正与波函数混合必须按同一小振幅阶次保留；首阶 derivative 为零不保证所有阶次为零。ΔK 的使用还需此算符、K purity 和近轴对称条件。 | source-model-result | direct | printed pp.126–127 / PDF pp.8–9 Eqs.3.21–3.24; pp.128–129 / PDF pp.10–11 Eqs.3.31–3.40、152Sm 例及 footnote 3 | true |",
+      "needs_review_observed": true,
+      "needs_review_changed": false
+    },
+    {
+      "assessment": "grounded-no-op",
+      "checked_items": [
+        "SCR-10",
+        "SCR-11",
+        "SCR-14"
+      ],
+      "attribution": "direct source model assumptions and measured-energy caption; conditional comparison",
+      "id": "LKH82-10",
+      "canonical_line": 89,
+      "reviewed_row": "| LKH82-10 | PPQ 在投影五维集体空间内处理 rot-vib/K mixing，不消除 adiabatic、interaction、basis、pairing 和直接 quasiparticle coupling 的限制；Table V theory δ 使用实测 Eγ，是条件性模型比较。 | model-and-input-boundary | direct | printed p.131 / PDF p.13 Sec.III.D.2–3; p.133 / PDF p.15 spin/Pauli 限制; p.178 / PDF p.60 Table V caption | true |",
+      "needs_review_observed": true,
+      "needs_review_changed": false
+    },
+    {
+      "assessment": "grounded-no-op",
+      "checked_items": [
+        "SCR-12",
+        "SCR-13",
+        "SCR-16"
+      ],
+      "attribution": "source-defined rate ratio and DF formulas plus explicitly synthetic task scale/transfer reasoning; indirect appropriate",
+      "id": "LKH82-11",
+      "canonical_line": 90,
+      "reviewed_row": "| LKH82-11 | 大 δ 仅固定 E2/M1 部分光子率比，不能给绝对 E2 增强；允许 M3/E4 时还不固定全部辐射的 E2 份额。DF shape-factor 消去式只在共同率非零时定义比值，零率点是极限。 | our-inference-with-model-premise | indirect | printed p.121 / PDF p.3 Eqs.2.1–2.6; p.125 / PDF p.7 Eqs.3.10–3.13; low-order scope p.119 / PDF p.1 | true |",
+      "needs_review_observed": true,
+      "needs_review_changed": false
+    }
+  ],
+  "reuse_boundaries": [
+    {
+      "topic": "same-order versus nonzero coefficient",
+      "disposition": "retain existing statement; no mandatory edit",
+      "locator": "printed126/PDF8 Eq3.24; printed127/PDF9 beta cancellation; printed128/PDF10 generator-only M1 cancellation",
+      "boundary": "Count both contributions at the same amplitude order when applying the source expansion; their J/K/operator-specific coefficient may still vanish."
+    },
+    {
+      "topic": "DeltaK2 footnote versus independent strict-K criterion",
+      "disposition": "retain existing operator-specific statement; no mandatory edit",
+      "locator": "printed129/PDF11 footnote3",
+      "boundary": "The footnote concerns this collective operator including its angular-momentum and D-function factors. It is not a blanket repeal of axial intrinsic-state/tensor K selection conditions."
+    }
+  ],
+  "images": [
+    {
+      "path": "tmp/day8-20261007/lange-kumar/model-boundary/p125-pdf7.png",
+      "printed_page": 125,
+      "pdf_page": 7,
+      "sha256": "2e64dc9ffbada0df272a739f3e77c76f1706e1a43f52ea058141461c3d7d1cd2",
+      "inspection": "original-image-directly-inspected-for-this-review"
+    },
+    {
+      "path": "tmp/day8-20261007/lange-kumar/model-boundary/p126-pdf8.png",
+      "printed_page": 126,
+      "pdf_page": 8,
+      "sha256": "57ada9148a7acd9d07edb2d597cb93e52e119d1a06b503496b7eec84d2b5cea0",
+      "inspection": "original-image-directly-inspected-for-this-review"
+    },
+    {
+      "path": "tmp/day8-20261007/lange-kumar/model-boundary/p127-pdf9.png",
+      "printed_page": 127,
+      "pdf_page": 9,
+      "sha256": "3e4ac2a7d0382a0bdfa1926cee0e75a0b546e537de736e039ae6a9483ce9d40c",
+      "inspection": "original-image-directly-inspected-for-this-review"
+    },
+    {
+      "path": "tmp/day8-20261007/lange-kumar/model-boundary/p128-pdf10.png",
+      "printed_page": 128,
+      "pdf_page": 10,
+      "sha256": "e768f8b56408e120c1cd50a1471bc175d08c7b1a16556a40e43dbbdd957d654c",
+      "inspection": "original-image-directly-inspected-for-this-review"
+    },
+    {
+      "path": "tmp/day8-20261007/lange-kumar/model-boundary/p129-pdf11.png",
+      "printed_page": 129,
+      "pdf_page": 11,
+      "sha256": "d791d5214b2c2f174c87f85487c819c105317c21e049249e27c15faefa282fbd",
+      "inspection": "original-image-directly-inspected-for-this-review"
+    },
+    {
+      "path": "tmp/day8-20261007/lange-kumar/model-boundary/p131-pdf13.png",
+      "printed_page": 131,
+      "pdf_page": 13,
+      "sha256": "fd4caf9f7aed8c25c20a7e4b1eb3bcfe27ee0d436839b03fd4fafa3b1ee295bb",
+      "inspection": "original-image-directly-inspected-for-this-review"
+    },
+    {
+      "path": "tmp/day8-20261007/lange-kumar/model-boundary/p132-pdf14.png",
+      "printed_page": 132,
+      "pdf_page": 14,
+      "sha256": "dab65db3332f468cbf93c098c69f68ad6513ddaa6efe9ba61fe2a12371153188",
+      "inspection": "original-image-directly-inspected-for-this-review"
+    },
+    {
+      "path": "tmp/day8-20261007/lange-kumar/model-boundary/p133-pdf15.png",
+      "printed_page": 133,
+      "pdf_page": 15,
+      "sha256": "9c9d15f1b14de75f08fc5627fb3c1b2fb3c0c2ca53e20e1c4e8c7488575d4d4d",
+      "inspection": "original-image-directly-inspected-for-this-review"
+    },
+    {
+      "path": "tmp/day8-20261007/lange-kumar/model-boundary/p178-pdf60.png",
+      "printed_page": 178,
+      "pdf_page": 60,
+      "sha256": "46dacfdc9e7ad878b4acf2d1d978e11d1e0ac9df1d6490bd756fc1aa33b424ab",
+      "inspection": "original-image-directly-inspected-for-this-review"
+    },
+    {
+      "path": "tmp/day8-20261007/lange-kumar/model-boundary/p179-pdf61.png",
+      "printed_page": 179,
+      "pdf_page": 61,
+      "sha256": "6a78b161fbbcfbbb31ce1de60c6cc92bdbfe34821613f800ec0dabc8e90edcef",
+      "inspection": "original-image-directly-inspected-for-this-review"
+    },
+    {
+      "path": "tmp/day8-20261007/lange-kumar/model-boundary/p183-pdf65.png",
+      "printed_page": 183,
+      "pdf_page": 65,
+      "sha256": "def9e9178736b1ea21911b09980df922e28503751420f20f0c17f12cb513c746",
+      "inspection": "original-image-directly-inspected-for-this-review"
+    },
+    {
+      "path": "tmp/day8-20261007/lange-kumar/pdf-page-03.png",
+      "printed_page": 121,
+      "pdf_page": 3,
+      "sha256": "ef4fa4b3e9336aac408b3d2f76a28b0b3021983682ae80185561f79908f7e9ad",
+      "inspection": "supporting-definition-original-image-directly-inspected-for-this-review"
+    }
+  ],
+  "artifacts": [
+    {
+      "path": "tmp/day8-20261007/lange-kumar/model-boundary/parent-source-review/README.md",
+      "sha256": "3f367325ca30dd519c9412433e6e5b392b1e9b82a94b4b7f5dd90610cc0b318f",
+      "bytes": 4827
+    },
+    {
+      "path": "tmp/day8-20261007/lange-kumar/model-boundary/parent-source-review/canonical-excerpt.md",
+      "sha256": "3de977ab658ded9f95d7660bb88b671f28993653d90f78aaa7aeaab20ae3bdf9",
+      "bytes": 6729
+    }
+  ],
+  "mutations": {
+    "canonical_changed": false,
+    "report_changed": false,
+    "run_or_course_state_changed": false,
+    "handoff_changed": false,
+    "raw_or_PLAN_changed": false,
+    "review_flags_changed": false,
+    "Git_changed": false,
+    "clock_process_changed": false,
+    "allowed_writes_only": [
+      "tmp/day8-20261007/lange-kumar/model-boundary/parent-source-review/",
+      "outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/lkh82-model-claim-review.json"
+    ]
+  },
+  "stop_reason": "Finite assigned source/claim review completed; no material contradiction or overclaim in the scoped current text.",
+  "parent_reconciliation": {
+    "child_reviewed_epoch_reconstructed": true,
+    "only_delta_since_child_review": "Explicit standard Wigner–3j RME final-bra normalization caveat added by parent; source/claims/proof otherwise unchanged.",
+    "current_page_sha256": "395bcfc6a8c40f69b5bda01f063cd50ee73eb4432ea103f00ba8b273316f16ff",
+    "child_grounded_checks": 16,
+    "images_artifact_hashes_parent_checked": true,
+    "human_review": false,
+    "canonical_changes_from_child_audit": 0
+  }
+}

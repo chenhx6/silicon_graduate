@@ -3,7 +3,7 @@ type: source
 title: "Evaluation of Theoretical Conversion Coefficients Using BrIcc"
 aliases: [Kibedi 2008 BrIcc, BrIcc theoretical conversion coefficients, Kibedi 2008 ICC uncertainties]
 created: 2026-07-12
-updated: 2026-10-07
+updated: 2026-10-08
 status: ai-draft
 review_status: human-reviewed
 source_type: method-review-article
@@ -220,7 +220,63 @@ Navigation only: use this source with [[rezynkina-2017-graphical-extraction-mult
 | KB08-D8-1 | 1.4%已包括interpolation contribution；约0.3% interpolation accuracy不能再次独立叠加。默认table全局覆盖须保留N6等subshell例外及atomic/radius条件。 | our-inference | indirect | printed206 / PDF5 Table2 footnote; printed208 / PDF7 Sec.4.1.4; printed213 / PDF12 Sec.5.1; printed221 / PDF20 TableB.1 | true |
 | KB08-D8-2 | 2026-10-07官方FO查询的五个program Tot/K记录及两点N6缺项是独立理论输入；保留实际web v2.3(2011)、未用local v2.3d(2022)、data hash与质量边界，不作为实验ICC或Mu08所用处理的证据。 | model-result | direct | official https://bricc.anu.edu.au/ five Z60/E/pure-multipole response hashes in Supplement table; theory context printed206–208 / PDF5–7 | true |
 | KB08-D8-3 | 相同branch numbers作为photon或total fractions时，五条pure-mode forward γ-rate可不同；B2 382-keV差约−13.964%只度量条件敏感性，不识别作者实际定义或机制。 | our-inference | indirect | premises printed203 / PDF2 Eq.(3); Mu08 printed034311-3/PDF3 TableI B1I18/B2I15; Supplement forward table | true |
+| KB08-D8-4 | HsIcc/RpIcc 的 NP 与新的 DF/SC 已近似含 penetration 是不同 reference models；FO/NH vacancy 与 NP/SC 核流选择分别记录。将现代 DF/FO 自动作 NP 基线再乘 Hager 修正可能重复计入；没有改变本附录五个 FO inputs 或旧人审行。 | reference-model-boundary | direct | printed pp.207–208 / PDF pp.6–7 Sec.4.1.1–4.1.2、Eq.24 及 p.208 左栏开头 | true |
+| KB08-D8-5 | 原五能量各一次官方NH查询认证了actual BrIccNH/v2.3(2011)输入；打印Tot下FO/NH的nominal强度敏感性很小但有舍入/coverage界。共5POST/0重试/0新FO查询，spread不是独立1σ或实验，未识别MU08实际处理。 | model-result-and-our-inference | indirect | official https://bricc.anu.edu.au/五NH response hashes及本附录表；p207/PDF6 Sec4.1.1、p206/PDF5 Table2 footnote、p208/PDF7 N6条件；MU08 TableI/II | true |
+
+### FO/NH vacancy 的有界敏感性（2026-10-07 self-audit）
+
+本轮唯一 Day9 无学分预习对相同五个 Z60 energy/mode 各作一次 official ANU NH 查询：程序实际返回 `Data Sets: BrIccNH`、`BrIccS v2.3 (9-Dec-2011)` 与所选 Z/E/mode 列，非仅参数 echo。5 次 POST、0 retry、0新FO请求。已存精确response压缩档/hash并由主代理离线 replay，0新增网络请求。原 FO 五点及其receipt保持不变。
+
+| Eγ/题设mode | FO Tot α | NH Tot α | FO K α | NH K α | NH response SHA256 |
+|---|---|---|---|---|---|
+| 401.2 keV M1 | .0320(5) | .0320(5) | .0274(4) | .0274(4) | `1f5a09ae24c4661b0208a63e9054e9fcb0d767a1ad490e39a38725665ea07121` |
+| 389.6 keV M1 | .0345(5) | .0345(5) | .0295(5) | .0295(5) | `435980f6c2ab13dea11c0994695d28df88c1c6cf20b8c906f40cfd10f0c97c04` |
+| 757.4 keV E2 | .00416(6) | .00416(6) | .00351(5) | .00351(5) | `d4697b0465608cc9d659ec7e6f179acc49adb9fc58c03b04e9596802072c9503` |
+| 199.6 keV M1 | .204(3) | .204(3) | .1739(25) | .1736(25) | `4b12470e0c293118d3de71e416a5bb89fc51024c23a588996bacaf2cc4be083f` |
+| 382.0 keV E2 | .0251(4) | .0250(4) | .0204(3) | .0203(3) | `6b3da9d0e7006465278e9a3b639f3a6224895e5e50c398793a5f873983da11a9` |
+
+401.2与757.4的NH仍有N6 blank/above398-keV警告，未补零；报出的Tot与rounded-shell sums分开，不能冒称严格all-shell闭合。B1三个分支的Dg两model均1.0257934；B2 Dg,FO=1.191477、Dg,NH=1.191470。分别以原数字作photon g或total β，固定E/mode/τ时的rate/B敏感性为：B1均0（打印精度）；B2 photon两支共同 NH/FO−1≈+0.000588%；total β时199.6支0、382.0支≈+0.009756%。K系数199.6、382.0的中心差约−0.173%、−0.490%，不把K差直接作total-rate差。
+
+计算多位小数只表示rounded input的算术精度，0不证明未舍入理论值相等。FO/NH共享atomic方法，spread是确定性模型敏感性，不能作为独立1σ或与已含interp的1.4%随意叠加。未取得逐点data-file/radius hash或136Nd专属finite-size重算，未从作者quoted B识别vacancy、branch convention或penetration。Source p207的vacancy说明与本附录NP/SC区别共同使用；没有实验/机制排序或Day9学分改变。
+
+### Penetration reference 与 vacancy 的区分（2026-10-07 self-audit）
+
+p.207 Eq.24 分开电子系数与核 penetration 参数，p.208 左栏明确 HsIcc/RpIcc 使用 Rose 的 no-penetration（NP），新的 DF 则使用近似纳入 penetration 的 Sliv surface-current（SC）。核结构修正必须针对相容的 reference model；不能将本附录的 modern DF/FO 数值未经映射直接再乘 NP 修正式。FO/NH 描述电子空穴处理，不是 NP/SC 的同义词；No Hole 不表示零 penetration。Source 的100-keV M1、Z50–120量级例不迁移成本次 Z60/五能量的逐点界。
+
+[[lange-kumar-hamilton-1982-multipole-admixtures]] LKH82-12 保存其 p.169 明示修正式、作者增强叙述与未知允许域的条件性 E0 下界。固定 photon mixing 下的标量 α 对 δ sign 不敏感，不等于 penetration 参数没有线性符号敏感性。此新增解释没有核素修正 fit 或新 coefficients，旧 review_status、KB08-1–8 与原 AR 人审记录保留；KB08-D8-4 属本次自审，needs_review=true。
 
 ### 新附录E0 electronic-factor locator（self-audit, needs_review）
 
 printed204 / PDF3 Sec3.1 Eqs6–7/11给ρ无量纲、Ω单位s⁻¹及T_s(E0)=ρ²Ω_s，并允许将K-shell式按Ω推广到其它shell。E0与singleγ不同，same-spin/parity方可使用；electron ΣΩ与pair Ω分别盘点。本日合成四γ+E0补全在[[lange-kumar-hamilton-1982-multipole-admixtures]]的LKH82-7，不把本页Mu08/FO lookup数字转给synthetic，也不改原人审状态。
+
+### NH subshell记录（同次查询，不补缺项）
+
+以下是provider原打印α/uncertainty，与Tot分开，不由rounded sums覆盖Tot。N6空白保留为缺项；每点均为BrIccNH/v2.3(2011)、Z60，source定位p207 vacancy与上述exactresponsehash。
+
+| Shell | 401.2 M1 | 389.6 M1 | 757.4 E2 | 199.6 M1 | 382.0 E2 |
+|---|---|---|---|---|---|
+| Tot | 0.0320 (5) | 0.0345 (5) | 0.00416 (6) | 0.204 (3) | 0.0250 (4) |
+| K | 0.0274 (4) | 0.0295 (5) | 0.00351 (5) | 0.1736 (25) | 0.0203 (3) |
+| L1 | 0.00344 (5) | 0.00371 (6) | 0.000419 (6) | 0.0220 (3) | 0.00232 (4) |
+| L2 | 0.000203 (3) | 0.000221 (3) | 5.76E-5 (8) | 0.001554 (22) | 0.000831 (12) |
+| L3 | 4.03E-5 (6) | 4.37E-5 (7) | 3.26E-5 (5) | 0.000302 (5) | 0.000570 (8) |
+| L-tot | 0.00368 (6) | 0.00398 (6) | 0.000509 (8) | 0.0239 (4) | 0.00372 (6) |
+| M1 | 0.000723 (11) | 0.000780 (11) | 8.75E-5 (13) | 0.00464 (7) | 0.000482 (7) |
+| M2 | 4.68E-5 (7) | 5.09E-5 (8) | 1.331E-5 (19) | 0.000357 (5) | 0.000191 (3) |
+| M3 | 9.38E-6 (14) | 1.018E-5 (15) | 7.67E-6 (11) | 6.98E-5 (10) | 0.0001339 (19) |
+| M4 | 7.62E-8 (11) | 8.52E-8 (12) | 3.01E-8 (5) | 1.101E-6 (16) | 6.97E-7 (10) |
+| M5 | 7.76E-8 (11) | 8.58E-8 (12) | 3.00E-8 (5) | 9.15E-7 (13) | 6.17E-7 (9) |
+| M-tot | 0.000779 (11) | 0.000841 (12) | 0.0001085 (16) | 0.00507 (7) | 0.000808 (12) |
+| N1 | 0.0001624 (23) | 0.0001752 (25) | 1.96E-5 (3) | 0.001043 (15) | 0.0001080 (16) |
+| N2 | 1.010E-5 (15) | 1.100E-5 (16) | 2.87E-6 (4) | 7.70E-5 (11) | 4.13E-5 (6) |
+| N3 | 2.02E-6 (3) | 2.19E-6 (3) | 1.656E-6 (24) | 1.502E-5 (21) | 2.89E-5 (4) |
+| N4 | 1.611E-8 (23) | 1.80E-8 (3) | 6.38E-9 (9) | 2.32E-7 (4) | 1.473E-7 (21) |
+| N5 | 1.621E-8 (23) | 1.79E-8 (3) | 6.27E-9 (9) | 1.90E-7 (3) | 1.286E-7 (18) |
+| N6 | missing / warning | 5.46E-12 (8) | missing / warning | 1.278E-10 (18) | 4.14E-11 (6) |
+| N-tot | 0.0001745 (25) | 0.000188 (3) | 2.42E-5 (4) | 0.001135 (16) | 0.0001785 (25) |
+| O1 | 2.50E-5 (4) | 2.70E-5 (4) | 3.02E-6 (5) | 0.0001607 (23) | 1.663E-5 (24) |
+| O2 | 1.323E-6 (19) | 1.440E-6 (21) | 3.77E-7 (6) | 1.009E-5 (15) | 5.41E-6 (8) |
+| O3 | 2.47E-7 (4) | 2.68E-7 (4) | 2.02E-7 (3) | 1.83E-6 (3) | 3.53E-6 (5) |
+| O-tot | 2.66E-5 (4) | 2.87E-5 (4) | 3.60E-6 (5) | 0.0001726 (25) | 2.56E-5 (4) |
+| P1 | 1.748E-6 (25) | 1.89E-6 (3) | 2.11E-7 (3) | 1.122E-5 (16) | 1.161E-6 (17) |
+| P-tot | 1.748E-6 (25) | 1.89E-6 (3) | 2.11E-7 (3) | 1.122E-5 (16) | 1.161E-6 (17) |

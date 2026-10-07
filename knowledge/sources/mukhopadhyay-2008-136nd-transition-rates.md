@@ -3,7 +3,7 @@ type: source
 title: "Mukhopadhyay et al. 2008 - Electromagnetic transition rates in high-spin bands in 136Nd"
 aliases: [Mukhopadhyay 2008 136Nd transition rates]
 created: 2026-09-21
-updated: 2026-10-07
+updated: 2026-10-08
 status: ai-draft
 review_status: unreviewed
 source_type: experiment-and-model
@@ -138,6 +138,8 @@ The different `B(E2)` patterns contradict treating the two near-degenerate bands
 | MU08-4 | Table II Band 2 E2 strengths are 0.54(8), 0.51(7), 0.44(6), 0.04(1), 0.05(1) e²b² at I=15–19, respectively. The 18− Band 1 lifetime is 0.56(8) ps, with a 757.4-keV 18−→16− branch of 0.24(2) in Table I. | experimental-fact | direct | printed 034311-3 / PDF p.3, Table I, Ex=6711.4-keV group; printed 034311-4 / PDF p.4, Table II, Band 1 I=18 and Band 2 I=15–19 rows | true |
 | MU08-5 | Quoted errors omit stopping-power systematics up to 15%, and the absolute B(M1) extraction assumes pure M1 for ΔI=1 transitions. A branch-normalized, gamma-only B(E2) recalculation remains conditional on the branch/IC definition and covariance; it is not independent confirmation of the lifetime or mixing ratio. | our-inference | indirect | direct premises: printed 034311-3 / PDF p.3, paragraph above TAC formalism and Table I; printed 034311-5 / PDF p.5, Fig.4 caption; reconstruction: LKH82 printed p.121, Eqs.2.2–2.3a | true |
 | MU08-6 | Gamma-only recalculations under the stated pure-M1/E2 extraction assumptions reproduce the selected Band1 high-energy E2 center closely but give 5.2371 μN² for Band2 I15 199.6-keV M1 versus the reported 4.4(3). This conditional arithmetic does not validate the full branch/IC ledger, establish an independent discrepancy, or identify hidden ICC/covariance inputs. | our-inference | indirect | inputs: printed034311-3 / PDF3 Table I Band1 I18 and Band2 I15 groups; printed034311-4 / PDF4 Table II matching rows; rates: LKH82 p121 Eqs.2.2–2.3a | true |
+| MU08-7 | 在作者原two-parent branch数字和pure-mode条件下，独立FO/NH理论inputs给很小的nominal rate/B变化；打印相同不证明未舍入模型相同，也不识别本文实际vacancy/branch处理。没有用quoted B反解inputs或新增独立实验。 | our-inference | indirect | 原输入printed034311-3/PDF3 TableI；KB08 p207/PDF6 Sec4.1.1及dated supplement KB08-D8-5；rates由fixedE/mode/τ按现有input formulas重构 | true |
+| MU08-8 | Band1 I18→I16 quotedB(E2)=0.14(2)e²b²在同physicaloperator/固定spin下派生reverseB≈0.157±0.022e²b²、BM magnitude≈2.276eb。两方向误差确定性相关(rank1)，不是新upward测量或反向γ寿命，未含systematic与原extraction依赖保留。 | our-inference | indirect | printed034311-4/PDF4 TableII Band1I18及caption；p3 TableI 757.4/Ex6711.4 group与stopping段；LKH82 p121 Eq2.3a–c、p122 Eq2.11 | true |
 
 ## Summary
 
@@ -176,5 +178,9 @@ The `136Nd` lifetime study is a direct electromagnetic-strength counterexample t
 - Methods/models: [[doppler-shift-attenuation-method]], [[tilted-axis-cranking]], [[random-phase-approximation]]。
 
 ## Independent ICC Input Boundary
+
+Reverse-strength的Day9无学分审计不增加新实验：同18−/16−pair的B向上用spinfactor37/33由quoted0.14(2)转为约0.157±0.022e²b²，只统计。两输出B_down、B_up=cB_down共享rank1 covariance，stopping-power最高15%原未含、feeding/branch/ICC依赖继承；不能给upward寿命/phase或把它独立计证。物理Hermitian M/BM与RB normalization-only/photonT区别见[[high-spin-lifetime-strength-deformation]]和[[lange-kumar-hamilton-1982-multipole-admixtures]] LKH82-13。
+
+2026-10-07追加vacancy敏感性：相同五能量/mode已从officialANU认证NH/v2.3(2011)，原FO不改。相同printedbranch数字分别作g/β时，B1 nominal变化0（打印精度），B2 photon两branch约+0.000588%、total β的382.0branch约+0.009756%。这是[[kibedi-2008-evaluation-theoretical-conversion-coefficients-bricc]] KB08-D8-5的理论forward假设对照，非本文作者采用NH/FO的证据；未补N6、radius/136Nd、energy/branch covariance和feeding/stopping。没有反解quotedB或改变mode ranking，Day9仅无学分。
 
 2026-10-07的五个现代official FO lookup和条件forward ledger见[[kibedi-2008-evaluation-theoretical-conversion-coefficients-bricc]]的dated supplement、[[high-spin-lifetime-strength-deformation]]。它们不识别本文实际使用的表/branch定义；两点N6缺项、defaultNd144/actual136Nd radius、模型与shared covariance边界保留。原文所称process出处确为printed034311-6 / PDF6 Ref.[16]：C.J.Chiara et al., Phys.Rev.C64,054314(2001)，本次没有新文献批次或该source的full text；repository raw/knowledge查找未命中，不补写其方法。原作者B、Qt、Jπ和review flags保持原样。

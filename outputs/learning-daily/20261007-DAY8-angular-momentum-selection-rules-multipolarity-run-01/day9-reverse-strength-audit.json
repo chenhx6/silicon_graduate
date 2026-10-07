@@ -1,0 +1,469 @@
+{
+  "schema_version": 1,
+  "artifact_kind": "Day9-uncredited-preview-L2-reverse-strength-and-RME-normalization-audit",
+  "created_at_utc": "2026-10-07T15:26:08.832206+00:00",
+  "parent_session_id": "01a111fb-370d-7ed1-afe9-881ccc47caf4",
+  "parent_day_index": 8,
+  "day_index": 8,
+  "preview_day_index": 9,
+  "partial_day_indices": [
+    9
+  ],
+  "course_credit_awarded": false,
+  "run_closed": false,
+  "L4_result": false,
+  "audit_status": "source-grounded-self-audit-with-explicit-assumptions; not human-reviewed",
+  "prior_unit_coverage": {
+    "read_only_receipt": "outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/day9-strength-unit-audit.json",
+    "sha256": "0913dc388d5852c1d95bdf6fdc4007602748eed97504fda903fef911a6295a1d",
+    "already_covered": {
+      "BM_B_normalization": "B(XL;Ji->Jf)=abs(<Jf||M(XL)||Ji>)^2/(2Ji+1); use the BM tensor/operator normalization",
+      "avoid_second_spin_division": "The K_L to B_L conversion already uses B=RME^2/(2Ji+1); do not divide a rate-derived B by (2Ji+1) a second time."
+    },
+    "new_gap_addressed": "Reverse/downward-upward strength, complex-RME adjoint, bra-dependent RB normalization, and covariance of a deterministically converted pair were absent from the substantive prior receipt.",
+    "search_scope": "Top-level substantive fields and their values, excluding the embedded reproduction code; searched upward, reverse strength, B(Jf->Ji).",
+    "prior_file_modified": false
+  },
+  "sources": {
+    "LKH82": {
+      "raw": "raw/papers/gpt/high-spin-20260920/review/1982_Lange et al_E0-E2-M1 multipole admixtures of transitions in even-even nuclei.pdf",
+      "sha256": "ed925a0577a9257903806acd209c1db707529e86a5bfd9a301a83d597bf78ffb",
+      "knowledge_source": "knowledge/sources/lange-kumar-hamilton-1982-multipole-admixtures.md",
+      "direct_locators": [
+        "printed p121 / PDF p3, Eq.2.3a: BM B normalization; Eqs.2.3b/c: physical nuclear operators",
+        "printed p122 / PDF p4, Eq.2.11: RB/BM normalization for the same operator",
+        "printed p122 / PDF p4, Eqs.2.10b/c and paragraph below Eq.2.11: photon-operator phases and emission/absorption boundary",
+        "printed p122 / PDF p4, right-column state-reversal paragraph: common (-1)^(Ji-Jf) factor in the authors' stated convention"
+      ],
+      "images_visually_checked": [
+        "tmp/day8-20261007/lange-kumar/pdf-page-03.png",
+        "tmp/day8-20261007/lange-kumar/pdf-page-04.png"
+      ],
+      "actual_raw_sha256": "ed925a0577a9257903806acd209c1db707529e86a5bfd9a301a83d597bf78ffb",
+      "image_sha256": {
+        "tmp/day8-20261007/lange-kumar/pdf-page-03.png": "ef4fa4b3e9336aac408b3d2f76a28b0b3021983682ae80185561f79908f7e9ad",
+        "tmp/day8-20261007/lange-kumar/pdf-page-04.png": "22821576657f2f2978d7fe6f1a72da94a6502978fd767fd56732d9604ba18a82"
+      },
+      "knowledge_source_review_flags_modified": false
+    },
+    "MU08": {
+      "raw": "raw/papers/gpt/high-spin-20260920/三轴/手征/2008_Mukhopadhyay et al_Electromagnetic transition rates in high-spin bands in Nd 136.pdf",
+      "sha256": "ea77d7d033051369d19aad2f82a542e91e262eb490d518b246f7f04c2d0dcd2c",
+      "knowledge_source": "knowledge/sources/mukhopadhyay-2008-136nd-transition-rates.md",
+      "direct_locators": [
+        "printed 034311-4 / PDF p4, Table II Band 1 I=18 row and caption: B(E2)=0.14(2) e^2 b^2; stopping systematic excluded",
+        "printed 034311-3 / PDF p3, Table I Ex=6711.4-keV group: 757.4-keV 18- -> 16- transition identity (parent-audited input)",
+        "printed 034311-3 / PDF p3, left-column uncertainty paragraph: quoted errors omit stopping-power systematics up to 15%"
+      ],
+      "images_visually_checked": [
+        "tmp/day8-20261007/day9-preview/mukhopadhyay/table-II-and-caption.png",
+        "tmp/day8-20261007/day9-preview/mukhopadhyay/stopping-and-pure-M1.png"
+      ],
+      "actual_raw_sha256": "ea77d7d033051369d19aad2f82a542e91e262eb490d518b246f7f04c2d0dcd2c",
+      "image_sha256": {
+        "tmp/day8-20261007/day9-preview/mukhopadhyay/table-II-and-caption.png": "08009fa76cea870f8e813db666eb804961bd9da9d7a202fb73b0a5fd183cfc4b",
+        "tmp/day8-20261007/day9-preview/mukhopadhyay/stopping-and-pure-M1.png": "9d7c653a8bdf6c9028d82ccafed9c119e5a15537a5729ff96830e5aa54a48067"
+      },
+      "knowledge_source_review_flags_modified": false
+    },
+    "RB67": {
+      "raw": "raw/papers/gpt/high-spin-20260920/multipolarity/mixing ratio/1967_Rose et al_Angular Distributions of Gamma Rays in Terms of Phase-Defined Reduced Matrix Elements.pdf",
+      "sha256": "8f846b61b9320de291ee5600126c5e286a0fe05968df819696816f0dc1ec57dc",
+      "knowledge_source": "knowledge/sources/rose-brink-1967-phase-defined-angular-distributions.md",
+      "direct_locators": [
+        "printed p316 / PDF p11, Eq.3.22: photon interaction T_Lmu^dagger=(-1)^(L-mu+1) T_L,-mu, a different adjoint from physical nuclear M"
+      ],
+      "images_visually_checked": [
+        "tmp/day8-20261007/rose-brink/p316-pdf11.png"
+      ],
+      "actual_raw_sha256": "8f846b61b9320de291ee5600126c5e286a0fe05968df819696816f0dc1ec57dc",
+      "image_sha256": {
+        "tmp/day8-20261007/rose-brink/p316-pdf11.png": "8b6191298c81a731bba7e04be14ae1c4d6b0e1681f11bb98b34dd69e90255401"
+      },
+      "knowledge_source_review_flags_modified": false
+    }
+  },
+  "evidence_layers": {
+    "source_direct": "LKH82 Eq.2.3a defines B and Eqs.2.3b/c define the BM physical nuclear multipoles; Eq.2.11 defines same-operator RB/BM RME normalization. MU08 supplies the quoted downward B and uncertainty boundary. RB67 Eq.3.22 supplies the separate photon-T adjoint boundary.",
+    "our_reconstruction": "Explicit complex-conjugate RME reversal, reverse B spin factor, normalization-only RB reversal and B mapping, exact synthetic CG/3j sums, MU08 upward conversion, and shared statistical covariance.",
+    "not_extra_experimental_evidence": "Converted strengths and reconstructed RME magnitudes remain outputs of the same MU08 measurement/extraction chain. LKH82 and RB67 provide conventions, not independent MU08 lifetime/strength measurements."
+  },
+  "physical_BM_derivation": {
+    "premise": "For the same physical Hermitian nuclear electromagnetic multipole, M_Lmu^dagger=(-1)^mu*M_L,-mu; use consistent state phases and BM Wigner-Eckart normalization. Ji-Jf is an integer for an electromagnetic transition within one nucleus.",
+    "WE_definition": "<Jf Mf|M_Lmu|Ji Mi>=(-1)^(Jf-Mf)*3j(Jf,L,Ji;-Mf,mu,Mi)*R_fi; R_fi=<Jf||M_L||Ji>_BM.",
+    "component_adjoint": "[<Jf Mf|M_Lmu|Ji Mi>]^*=(-1)^mu*<Ji Mi|M_L,-mu|Jf Mf>.",
+    "RME_reversal": "R_if=(-1)^(Ji-Jf)*R_fi^*; therefore |R_if|^2=|R_fi|^2.",
+    "B_definition": "B(Ji->Jf)=|R_fi|^2/(2Ji+1); equivalently average over Mi and sum over Mf,mu. Each fixed Mi sum is the same B.",
+    "reverse_strength": "B(Jf->Ji)=[(2Ji+1)/(2Jf+1)]*B(Ji->Jf).",
+    "derivation_steps": [
+      "Insert the BM Wigner-Eckart expansion into the spherical-component adjoint and use the real 3j symmetries to obtain the conjugated RME phase relation.",
+      "The phase factor has unit modulus, so the two BM RME magnitudes are equal without requiring a real RME.",
+      "Divide that shared squared magnitude by the initial-state degeneracy in each direction; the degeneracy ratio is the entire B conversion."
+    ],
+    "phase_boundary": "Hermiticity and rotational tensor normalization suffice for magnitude equality. A choice making RMEs real or an additional time-reversal argument is not required here. An individual RME sign/phase is not determined by B.",
+    "rate_boundary": "B is a nuclear strength. An upward excitation strength is not an upward spontaneous gamma lifetime; a radiative-decay rate formula requires an energetically allowed emitting initial state and positive emitted E_gamma. Excitation observables require their own process/kinematic factors.",
+    "units": "The degeneracy ratio is dimensionless. B(E2) remains e^2 b^2 and BM |RME(E2)| remains e*b; B(M1) remains mu_N^2 and BM |RME(M1)| remains mu_N."
+  },
+  "RB_BM_normalization_boundary": {
+    "source": "LKH82 printed p122 / PDF p4, Eq.2.11.",
+    "same_operator_map": "R_fi,RB=R_fi,BM/sqrt(2Jf+1), where Jf is the bra spin. The same-operator map can be applied to physical M without substituting the RB photon interaction T.",
+    "B_from_RB_RME_of_same_physical_operator": "B(Ji->Jf)=[(2Jf+1)/(2Ji+1)]*|R_fi,RB|^2.",
+    "reverse_RB_RME_of_same_physical_operator": "R_if,RB=(-1)^(Ji-Jf)*sqrt[(2Jf+1)/(2Ji+1)]*R_fi,RB^*.",
+    "why_bra_matters": "The bra becomes Ji after reversal; do not reuse the forward sqrt(2Jf+1) normalization. RB-normalized RME magnitudes generally differ even though BM magnitudes agree.",
+    "photon_operator_boundary": "RB67 printed p316 / PDF p11 Eq.3.22 gives T_Lmu^dagger=(-1)^(L-mu+1)*T_L,-mu. LKH82 Eqs.2.10b/c also carry q, i^L, and electric emission/absorption signs. Those are additional operator maps, not the physical-M adjoint used in this audit.",
+    "rate_derived_B_warning": "A B already obtained using the rate-to-B formula has its initial-spin normalization built in. Do not divide by (2Ji+1) again. Recover a BM RME magnitude using sqrt[(2Ji+1)*B] only after specifying the direction."
+  },
+  "synthetic_exact_controls": [
+    {
+      "label": "synthetic_2plus_to_0plus_E2",
+      "boundary": "Synthetic complex RME r+i*s, real r,s; no measured strengths, nuclide, model fit or L4 result.",
+      "Ji": "2",
+      "Jf": "0",
+      "rank": "2",
+      "RME_BM_down": "r + I*s",
+      "RME_BM_up": "r - I*s",
+      "B_down": "r**2/5 + s**2/5",
+      "B_up": "r**2 + s**2",
+      "B_up_over_B_down": "5",
+      "fixed_M_down_sums": [
+        {
+          "Mi": "-2",
+          "sum_abs_matrix_elements_squared": "r**2/5 + s**2/5"
+        },
+        {
+          "Mi": "-1",
+          "sum_abs_matrix_elements_squared": "r**2/5 + s**2/5"
+        },
+        {
+          "Mi": "0",
+          "sum_abs_matrix_elements_squared": "r**2/5 + s**2/5"
+        },
+        {
+          "Mi": "1",
+          "sum_abs_matrix_elements_squared": "r**2/5 + s**2/5"
+        },
+        {
+          "Mi": "2",
+          "sum_abs_matrix_elements_squared": "r**2/5 + s**2/5"
+        }
+      ],
+      "fixed_M_up_sums": [
+        {
+          "Mi": "0",
+          "sum_abs_matrix_elements_squared": "r**2 + s**2"
+        }
+      ],
+      "all_nonzero_down_components": [
+        {
+          "Mi": "-2",
+          "Mf": "0",
+          "mu": "2",
+          "matrix_element": "sqrt(5)*(r + I*s)/5"
+        },
+        {
+          "Mi": "-1",
+          "Mf": "0",
+          "mu": "1",
+          "matrix_element": "sqrt(5)*(-r - I*s)/5"
+        },
+        {
+          "Mi": "0",
+          "Mf": "0",
+          "mu": "0",
+          "matrix_element": "sqrt(5)*(r + I*s)/5"
+        },
+        {
+          "Mi": "1",
+          "Mf": "0",
+          "mu": "-1",
+          "matrix_element": "sqrt(5)*(-r - I*s)/5"
+        },
+        {
+          "Mi": "2",
+          "Mf": "0",
+          "mu": "-2",
+          "matrix_element": "sqrt(5)*(r + I*s)/5"
+        }
+      ],
+      "all_nonzero_up_components": [
+        {
+          "Mi": "0",
+          "Mf": "-2",
+          "mu": "-2",
+          "matrix_element": "sqrt(5)*(r - I*s)/5"
+        },
+        {
+          "Mi": "0",
+          "Mf": "-1",
+          "mu": "-1",
+          "matrix_element": "sqrt(5)*(r - I*s)/5"
+        },
+        {
+          "Mi": "0",
+          "Mf": "0",
+          "mu": "0",
+          "matrix_element": "sqrt(5)*(r - I*s)/5"
+        },
+        {
+          "Mi": "0",
+          "Mf": "1",
+          "mu": "1",
+          "matrix_element": "sqrt(5)*(r - I*s)/5"
+        },
+        {
+          "Mi": "0",
+          "Mf": "2",
+          "mu": "2",
+          "matrix_element": "sqrt(5)*(r - I*s)/5"
+        }
+      ],
+      "RME_RB_normalization_only_down": "r + I*s",
+      "RME_RB_normalization_only_up": "sqrt(5)*(r - I*s)/5",
+      "units": "r,s carry e*b for E2 and mu_N for M1; B carries the square of that unit."
+    },
+    {
+      "label": "synthetic_3halfplus_to_1halfplus_M1",
+      "boundary": "Synthetic complex RME r+i*s, real r,s; no measured strengths, nuclide, model fit or L4 result.",
+      "Ji": "3/2",
+      "Jf": "1/2",
+      "rank": "1",
+      "RME_BM_down": "r + I*s",
+      "RME_BM_up": "-r + I*s",
+      "B_down": "r**2/4 + s**2/4",
+      "B_up": "r**2/2 + s**2/2",
+      "B_up_over_B_down": "2",
+      "fixed_M_down_sums": [
+        {
+          "Mi": "-3/2",
+          "sum_abs_matrix_elements_squared": "r**2/4 + s**2/4"
+        },
+        {
+          "Mi": "-1/2",
+          "sum_abs_matrix_elements_squared": "r**2/4 + s**2/4"
+        },
+        {
+          "Mi": "1/2",
+          "sum_abs_matrix_elements_squared": "r**2/4 + s**2/4"
+        },
+        {
+          "Mi": "3/2",
+          "sum_abs_matrix_elements_squared": "r**2/4 + s**2/4"
+        }
+      ],
+      "fixed_M_up_sums": [
+        {
+          "Mi": "-1/2",
+          "sum_abs_matrix_elements_squared": "r**2/2 + s**2/2"
+        },
+        {
+          "Mi": "1/2",
+          "sum_abs_matrix_elements_squared": "r**2/2 + s**2/2"
+        }
+      ],
+      "all_nonzero_down_components": [
+        {
+          "Mi": "-3/2",
+          "Mf": "-1/2",
+          "mu": "1",
+          "matrix_element": "r/2 + I*s/2"
+        },
+        {
+          "Mi": "-1/2",
+          "Mf": "-1/2",
+          "mu": "0",
+          "matrix_element": "sqrt(6)*(-r - I*s)/6"
+        },
+        {
+          "Mi": "-1/2",
+          "Mf": "1/2",
+          "mu": "1",
+          "matrix_element": "sqrt(3)*(r + I*s)/6"
+        },
+        {
+          "Mi": "1/2",
+          "Mf": "-1/2",
+          "mu": "-1",
+          "matrix_element": "sqrt(3)*(r + I*s)/6"
+        },
+        {
+          "Mi": "1/2",
+          "Mf": "1/2",
+          "mu": "0",
+          "matrix_element": "sqrt(6)*(-r - I*s)/6"
+        },
+        {
+          "Mi": "3/2",
+          "Mf": "1/2",
+          "mu": "-1",
+          "matrix_element": "r/2 + I*s/2"
+        }
+      ],
+      "all_nonzero_up_components": [
+        {
+          "Mi": "-1/2",
+          "Mf": "-3/2",
+          "mu": "-1",
+          "matrix_element": "-r/2 + I*s/2"
+        },
+        {
+          "Mi": "-1/2",
+          "Mf": "-1/2",
+          "mu": "0",
+          "matrix_element": "sqrt(6)*(-r + I*s)/6"
+        },
+        {
+          "Mi": "-1/2",
+          "Mf": "1/2",
+          "mu": "1",
+          "matrix_element": "sqrt(3)*(-r + I*s)/6"
+        },
+        {
+          "Mi": "1/2",
+          "Mf": "-1/2",
+          "mu": "-1",
+          "matrix_element": "sqrt(3)*(-r + I*s)/6"
+        },
+        {
+          "Mi": "1/2",
+          "Mf": "1/2",
+          "mu": "0",
+          "matrix_element": "sqrt(6)*(-r + I*s)/6"
+        },
+        {
+          "Mi": "1/2",
+          "Mf": "3/2",
+          "mu": "1",
+          "matrix_element": "-r/2 + I*s/2"
+        }
+      ],
+      "RME_RB_normalization_only_down": "sqrt(2)*(r + I*s)/2",
+      "RME_RB_normalization_only_up": "-r/2 + I*s/2",
+      "units": "r,s carry e*b for E2 and mu_N for M1; B carries the square of that unit."
+    }
+  ],
+  "MU08_derived_example": {
+    "nuclide": "136Nd",
+    "band_identity": "Band 1 as labeled in MU08; no later-band renaming",
+    "downward_transition": "18- -> 16-, E_gamma=757.4 keV, parent Ex=6711.4 keV",
+    "upward_transition": "16- -> 18- between those same levels",
+    "direct_input": {
+      "B_down": "0.14(2)",
+      "unit": "e^2 b^2",
+      "classification": "MU08 author-reported DSAM-derived strength; not a newly fitted value"
+    },
+    "conversion": {
+      "factor_exact": "37/33",
+      "factor_decimal": 1.121212121212121,
+      "B_up_exact": "259/1650",
+      "B_up_decimal": 0.15696969696969698,
+      "statistical_error_up_exact": "37/1650",
+      "statistical_error_up_decimal": 0.022424242424242423,
+      "display_statistical_only": "0.157 +/- 0.022 e^2 b^2 (derived)",
+      "unit": "e^2 b^2",
+      "precision_boundary": "Long decimals and exact fractions reproduce the operation on the printed 0.14 and 0.02 inputs; they do not add experimental precision."
+    },
+    "BM_RME_magnitude": {
+      "squared_exact": "259/50",
+      "squared_unit": "e^2 b^2",
+      "magnitude_exact": "sqrt(518)/10",
+      "magnitude_decimal": 2.2759613353482084,
+      "unit": "e*b",
+      "boundary": "Same BM magnitude in both directions; no RME sign/phase or additional excitation experiment inferred."
+    },
+    "statistical_covariance": {
+      "output_order": [
+        "B_down",
+        "B_up"
+      ],
+      "map": "(B_down,B_up)=(X,cX), c=37/33; transformed Jacobian=(1,c)^T.",
+      "formula": "Sigma=Var(X)*[[1,c],[c,c^2]]. This covariance transform is exact for a deterministic linear map and any finite-variance distribution; it does not supply missing source uncertainty models.",
+      "matrix_exact": [
+        [
+          "1/2500",
+          "37/82500"
+        ],
+        [
+          "37/82500",
+          "1369/2722500"
+        ]
+      ],
+      "matrix_decimal": [
+        [
+          0.0004,
+          0.0004484848484848485
+        ],
+        [
+          0.0004484848484848485,
+          0.0005028466483011938
+        ]
+      ],
+      "unit": "(e^2 b^2)^2",
+      "variance_input": "Use (0.02 e^2 b^2)^2 for the quoted statistical error only.",
+      "rank": 1,
+      "correlation": 1,
+      "null_contrast": "Var[B_up-(37/33)*B_down]=0 for this converted pair.",
+      "independence_boundary": "Do not treat the two directions as independent measurements, average them as independent inputs, or form a discrepancy significance from them."
+    },
+    "systematic_boundary": "MU08 quoted errors exclude stopping-power modeling systematics that may be as large as 15%; feeding and branch/ICC assumptions remain inherited. The converted upward value inherits those dependencies. The quoted 15% is not promoted to an independently measured 1-sigma error or combined in quadrature here.",
+    "shared_systematic_transform": "If a systematic changes X by DeltaX, its upward change is c*DeltaX for fixed spin assignment. Any quantified variance contribution from that same X maps with the same outer-product matrix; its distribution and magnitude have not been supplied.",
+    "no_lifetime_conversion": "No upward lifetime, reverse spontaneous decay rate, new ICC or new mixing ratio was calculated."
+  },
+  "applicability_and_open_boundaries": [
+    "Use the same physical Hermitian electromagnetic operator and the same pair of nuclear states; effective non-Hermitian, differently phase-scaled, or differently normalized operators require their own adjoint/map.",
+    "The spin-factor conversion is conditional on the Ji,Jf assignments. Alternative assignments require separate factors, not a silently added Gaussian error.",
+    "This transformation does not repair the original extraction's missing systematic, feeding, photon/total-branch or ICC information.",
+    "An independently measured excitation strength would be separate experimental evidence; this algebraic upward conversion is not such a measurement."
+  ],
+  "checks": {
+    "passed_by_group": {
+      "BM_reverse_RME_magnitude": 2,
+      "CG_3j_same_physical_matrix_element": 98,
+      "MU08_BM_RME_squared_down": 1,
+      "MU08_BM_RME_squared_up": 1,
+      "MU08_reverse_statistical_error_exact": 1,
+      "MU08_reverse_strength_exact": 1,
+      "RB_magnitudes_not_equal_for_unequal_spins": 2,
+      "RB_reverse_RME_same_operator": 2,
+      "RB_strength_forward_mapping": 2,
+      "RB_strength_reverse_mapping": 2,
+      "deterministic_reverse_difference_variance_zero": 1,
+      "equal_spin_reverse_B_limit": 1,
+      "fixed_initial_M_strength_sum": 12,
+      "integer_phase_exponent": 247,
+      "prior_BM_normalization_already_present": 1,
+      "prior_double_spin_division_warning_already_present": 1,
+      "prior_reverse_strength_gap": 1,
+      "prior_unit_receipt_identity": 1,
+      "raw_source_identity": 3,
+      "reverse_B_spin_factor": 2,
+      "same_spin_pair_M1_E2_B_ratio_invariant": 1,
+      "spherical_component_Hermitian_adjoint": 49,
+      "transformed_correlation_plus_one": 1,
+      "transformed_covariance_determinant": 1,
+      "transformed_covariance_rank_one": 1,
+      "transformed_covariance_symmetric": 1,
+      "transformed_covariance_up_variance": 1
+    },
+    "substantive_algebra_and_input_checks_passed": 190,
+    "phase_domain_checks_passed": 247,
+    "total_assertions_passed": 437,
+    "failures": 0
+  },
+  "actual_changed_paths": [
+    "tmp/day8-20261007/day9-preview/reverse-strength/reverse_strength_audit.py",
+    "outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/day9-reverse-strength-audit.json"
+  ],
+  "reproducibility": {
+    "code": "tmp/day8-20261007/day9-preview/reverse-strength/reverse_strength_audit.py",
+    "script_sha256": "1820275645cee18b8266d2b10de27a5a803d0b747e792812cccc121d4ddc8aa7",
+    "source_code": "#!/usr/bin/env python3\n\"\"\"Offline Day9 uncredited L2 reverse-strength and RME-normalization audit.\n\nThe physical BM nuclear tensor is Hermitian in the spherical-component sense.\nThe complex RME examples are synthetic, never additional nuclear measurements.\nThe default only reads inputs and prints results. --write-receipt uses exclusive\ncreation for the single authorized JSON; no course state or prior file is edited.\n\"\"\"\n\nfrom __future__ import annotations\n\nimport argparse\nfrom collections import Counter\nfrom datetime import datetime, timezone\nimport hashlib\nimport json\nfrom pathlib import Path\nimport sys\n\nsys.dont_write_bytecode = True\n\nCODE_REL = \"tmp/day8-20261007/day9-preview/reverse-strength/reverse_strength_audit.py\"\nRUN_REL = \"outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01\"\nRECEIPT_REL = RUN_REL + \"/day9-reverse-strength-audit.json\"\nPRIOR_REL = RUN_REL + \"/day9-strength-unit-audit.json\"\nPRIOR_SHA = \"0913dc388d5852c1d95bdf6fdc4007602748eed97504fda903fef911a6295a1d\"\n\nRAW_SOURCES = {\n    \"LKH82\": {\n        \"raw\": \"raw/papers/gpt/high-spin-20260920/review/1982_Lange et al_E0-E2-M1 multipole admixtures of transitions in even-even nuclei.pdf\",\n        \"sha256\": \"ed925a0577a9257903806acd209c1db707529e86a5bfd9a301a83d597bf78ffb\",\n        \"knowledge_source\": \"knowledge/sources/lange-kumar-hamilton-1982-multipole-admixtures.md\",\n        \"direct_locators\": [\n            \"printed p121 / PDF p3, Eq.2.3a: BM B normalization; Eqs.2.3b/c: physical nuclear operators\",\n            \"printed p122 / PDF p4, Eq.2.11: RB/BM normalization for the same operator\",\n            \"printed p122 / PDF p4, Eqs.2.10b/c and paragraph below Eq.2.11: photon-operator phases and emission/absorption boundary\",\n            \"printed p122 / PDF p4, right-column state-reversal paragraph: common (-1)^(Ji-Jf) factor in the authors' stated convention\",\n        ],\n        \"images_visually_checked\": [\n            \"tmp/day8-20261007/lange-kumar/pdf-page-03.png\",\n            \"tmp/day8-20261007/lange-kumar/pdf-page-04.png\",\n        ],\n    },\n    \"MU08\": {\n        \"raw\": \"raw/papers/gpt/high-spin-20260920/三轴/手征/2008_Mukhopadhyay et al_Electromagnetic transition rates in high-spin bands in Nd 136.pdf\",\n        \"sha256\": \"ea77d7d033051369d19aad2f82a542e91e262eb490d518b246f7f04c2d0dcd2c\",\n        \"knowledge_source\": \"knowledge/sources/mukhopadhyay-2008-136nd-transition-rates.md\",\n        \"direct_locators\": [\n            \"printed 034311-4 / PDF p4, Table II Band 1 I=18 row and caption: B(E2)=0.14(2) e^2 b^2; stopping systematic excluded\",\n            \"printed 034311-3 / PDF p3, Table I Ex=6711.4-keV group: 757.4-keV 18- -> 16- transition identity (parent-audited input)\",\n            \"printed 034311-3 / PDF p3, left-column uncertainty paragraph: quoted errors omit stopping-power systematics up to 15%\",\n        ],\n        \"images_visually_checked\": [\n            \"tmp/day8-20261007/day9-preview/mukhopadhyay/table-II-and-caption.png\",\n            \"tmp/day8-20261007/day9-preview/mukhopadhyay/stopping-and-pure-M1.png\",\n        ],\n    },\n    \"RB67\": {\n        \"raw\": \"raw/papers/gpt/high-spin-20260920/multipolarity/mixing ratio/1967_Rose et al_Angular Distributions of Gamma Rays in Terms of Phase-Defined Reduced Matrix Elements.pdf\",\n        \"sha256\": \"8f846b61b9320de291ee5600126c5e286a0fe05968df819696816f0dc1ec57dc\",\n        \"knowledge_source\": \"knowledge/sources/rose-brink-1967-phase-defined-angular-distributions.md\",\n        \"direct_locators\": [\n            \"printed p316 / PDF p11, Eq.3.22: photon interaction T_Lmu^dagger=(-1)^(L-mu+1) T_L,-mu, a different adjoint from physical nuclear M\"\n        ],\n        \"images_visually_checked\": [\"tmp/day8-20261007/rose-brink/p316-pdf11.png\"],\n    },\n}\n\n\ndef digest(path: Path) -> str:\n    return hashlib.sha256(path.read_bytes()).hexdigest()\n\n\ndef build_receipt(root: Path) -> dict:\n    # Reuse the existing local package directory without installing or importing\n    # any old audit script; bytecode generation is disabled before this import.\n    dep_rel = \"tmp/day8-20261007/rose-brink/python-deps\"\n    sys.path.insert(0, str(root / dep_rel))\n    import sympy as sp\n    from sympy.physics.wigner import clebsch_gordan, wigner_3j\n\n    counts: Counter[str] = Counter()\n\n    def check(name: str, condition: bool) -> None:\n        if not bool(condition):\n            raise AssertionError(name)\n        counts[name] += 1\n\n    def eq(name: str, left, right) -> None:\n        check(name, sp.simplify(left - right) == 0)\n\n    def exact(value) -> str:\n        return str(sp.simplify(value))\n\n    def ms(j):\n        return [(-j + n) for n in range(int(2 * j + 1))]\n\n    def phase(power):\n        check(\"integer_phase_exponent\", sp.sympify(power).is_integer is True)\n        return sp.Integer(-1) ** power\n\n    def matrix(jf, mf, rank, mu, ji, mi, rme):\n        return sp.simplify(\n            phase(jf - mf) * wigner_3j(jf, rank, ji, -mf, mu, mi) * rme\n        )\n\n    prior_path = root / PRIOR_REL\n    check(\"prior_unit_receipt_identity\", digest(prior_path) == PRIOR_SHA)\n    prior = json.loads(prior_path.read_text(encoding=\"utf-8\"))\n    normalization = prior[\"source_formulas\"][\"Eq2_3a\"]\n    spin_warning = prior[\"mixed_gamma_absolute_strengths\"][\"spin_normalization\"]\n    check(\"prior_BM_normalization_already_present\", \"(2Ji+1)\" in normalization)\n    check(\"prior_double_spin_division_warning_already_present\", \"second time\" in spin_warning)\n    substantive_prior = {k: v for k, v in prior.items() if k != \"reproducibility\"}\n    prior_text = json.dumps(substantive_prior, ensure_ascii=False).lower()\n    check(\"prior_reverse_strength_gap\", all(\n        term not in prior_text for term in [\"upward\", \"reverse strength\", \"b(jf->ji)\"]\n    ))\n\n    source_records = {}\n    for key, source in RAW_SOURCES.items():\n        record = dict(source)\n        record[\"actual_raw_sha256\"] = digest(root / source[\"raw\"])\n        check(\"raw_source_identity\", record[\"actual_raw_sha256\"] == source[\"sha256\"])\n        record[\"image_sha256\"] = {\n            rel: digest(root / rel) for rel in source[\"images_visually_checked\"]\n        }\n        record[\"knowledge_source_review_flags_modified\"] = False\n        source_records[key] = record\n\n    r, s = sp.symbols(\"r s\", real=True)\n    rd = r + sp.I * s\n    magnitude_sq = r**2 + s**2\n    controls = []\n    # The second fixture makes the state-reversal sign and half-integer spin\n    # handling visible; both fixtures have synthetic equal-parity multiplets.\n    for label, ji, jf, rank in [\n        (\"synthetic_2plus_to_0plus_E2\", sp.Integer(2), sp.Integer(0), sp.Integer(2)),\n        (\"synthetic_3halfplus_to_1halfplus_M1\", sp.Rational(3, 2), sp.Rational(1, 2), sp.Integer(1)),\n    ]:\n        di, df = 2 * ji + 1, 2 * jf + 1\n        reverse_phase = phase(ji - jf)\n        ru = reverse_phase * sp.conjugate(rd)\n        eq(\"BM_reverse_RME_magnitude\", sp.conjugate(ru) * ru, magnitude_sq)\n        down_by_m, up_by_m, nonzero_down, nonzero_up = [], [], [], []\n        for direction, ini, fin, rme, sums, entries in [\n            (\"down\", ji, jf, rd, down_by_m, nonzero_down),\n            (\"up\", jf, ji, ru, up_by_m, nonzero_up),\n        ]:\n            for mi in ms(ini):\n                strength_sum = sp.Integer(0)\n                for mf in ms(fin):\n                    for mu in ms(rank):\n                        amplitude = matrix(fin, mf, rank, mu, ini, mi, rme)\n                        cg_amplitude = clebsch_gordan(ini, rank, fin, mi, mu, mf) * rme / sp.sqrt(2 * fin + 1)\n                        eq(\"CG_3j_same_physical_matrix_element\", amplitude, cg_amplitude)\n                        strength_sum += sp.conjugate(amplitude) * amplitude\n                        if amplitude != 0:\n                            entries.append({\"Mi\": exact(mi), \"Mf\": exact(mf), \"mu\": exact(mu), \"matrix_element\": exact(amplitude)})\n                strength_sum = sp.simplify(strength_sum)\n                eq(\"fixed_initial_M_strength_sum\", strength_sum, magnitude_sq / (2 * ini + 1))\n                sums.append({\"Mi\": exact(mi), \"sum_abs_matrix_elements_squared\": exact(strength_sum)})\n        for mi in ms(ji):\n            for mf in ms(jf):\n                for mu in ms(rank):\n                    a_down = matrix(jf, mf, rank, mu, ji, mi, rd)\n                    a_up = matrix(ji, mi, rank, -mu, jf, mf, ru)\n                    eq(\"spherical_component_Hermitian_adjoint\", sp.conjugate(a_down), phase(mu) * a_up)\n        bd, bu, c = magnitude_sq / di, magnitude_sq / df, di / df\n        eq(\"reverse_B_spin_factor\", bu, c * bd)\n        rd_rb, ru_rb = rd / sp.sqrt(df), ru / sp.sqrt(di)\n        eq(\"RB_reverse_RME_same_operator\", ru_rb, reverse_phase * sp.sqrt(df / di) * sp.conjugate(rd_rb))\n        eq(\"RB_strength_forward_mapping\", df / di * sp.conjugate(rd_rb) * rd_rb, bd)\n        eq(\"RB_strength_reverse_mapping\", di / df * sp.conjugate(ru_rb) * ru_rb, bu)\n        check(\"RB_magnitudes_not_equal_for_unequal_spins\", sp.simplify(\n            sp.conjugate(rd_rb) * rd_rb - sp.conjugate(ru_rb) * ru_rb\n        ) != 0)\n        controls.append({\n            \"label\": label,\n            \"boundary\": \"Synthetic complex RME r+i*s, real r,s; no measured strengths, nuclide, model fit or L4 result.\",\n            \"Ji\": exact(ji), \"Jf\": exact(jf), \"rank\": exact(rank),\n            \"RME_BM_down\": exact(rd), \"RME_BM_up\": exact(ru),\n            \"B_down\": exact(bd), \"B_up\": exact(bu), \"B_up_over_B_down\": exact(c),\n            \"fixed_M_down_sums\": down_by_m, \"fixed_M_up_sums\": up_by_m,\n            \"all_nonzero_down_components\": nonzero_down,\n            \"all_nonzero_up_components\": nonzero_up,\n            \"RME_RB_normalization_only_down\": exact(rd_rb),\n            \"RME_RB_normalization_only_up\": exact(ru_rb),\n            \"units\": \"r,s carry e*b for E2 and mu_N for M1; B carries the square of that unit.\",\n        })\n\n    # General limits and a same-spin-pair component-ratio control.\n    eq(\"equal_spin_reverse_B_limit\", (2 * sp.Integer(2) + 1) / (2 * sp.Integer(2) + 1), 1)\n    u, v = sp.symbols(\"u v\", positive=True)\n    c = sp.Rational(37, 33)\n    eq(\"same_spin_pair_M1_E2_B_ratio_invariant\", (c * u) / (c * v), u / v)\n\n    bd, sigma_d = sp.Rational(7, 50), sp.Rational(1, 50)\n    bu, sigma_u = c * bd, c * sigma_d\n    rme_sq, rme_magnitude = 37 * bd, sp.sqrt(37 * bd)\n    eq(\"MU08_reverse_strength_exact\", bu, sp.Rational(259, 1650))\n    eq(\"MU08_reverse_statistical_error_exact\", sigma_u, sp.Rational(37, 1650))\n    eq(\"MU08_BM_RME_squared_down\", rme_sq, sp.Rational(259, 50))\n    eq(\"MU08_BM_RME_squared_up\", 33 * bu, rme_sq)\n    transform = sp.Matrix([1, c])\n    covariance = sigma_d**2 * transform * transform.T\n    eq(\"transformed_covariance_symmetric\", covariance[0, 1], covariance[1, 0])\n    eq(\"transformed_covariance_up_variance\", covariance[1, 1], sigma_u**2)\n    eq(\"transformed_covariance_determinant\", covariance.det(), 0)\n    check(\"transformed_covariance_rank_one\", covariance.rank() == 1)\n    eq(\"transformed_correlation_plus_one\", covariance[0, 1] / (sigma_d * sigma_u), 1)\n    contrast = sp.Matrix([-c, 1])\n    eq(\"deterministic_reverse_difference_variance_zero\", (contrast.T * covariance * contrast)[0], 0)\n\n    code_path = Path(__file__).resolve()\n    return {\n        \"schema_version\": 1,\n        \"artifact_kind\": \"Day9-uncredited-preview-L2-reverse-strength-and-RME-normalization-audit\",\n        \"created_at_utc\": datetime.now(timezone.utc).isoformat(),\n        \"parent_session_id\": prior[\"parent_session_id\"],\n        \"parent_day_index\": 8,\n        \"day_index\": 8,\n        \"preview_day_index\": 9,\n        \"partial_day_indices\": [9],\n        \"course_credit_awarded\": False,\n        \"run_closed\": False,\n        \"L4_result\": False,\n        \"audit_status\": \"source-grounded-self-audit-with-explicit-assumptions; not human-reviewed\",\n        \"prior_unit_coverage\": {\n            \"read_only_receipt\": PRIOR_REL,\n            \"sha256\": PRIOR_SHA,\n            \"already_covered\": {\"BM_B_normalization\": normalization, \"avoid_second_spin_division\": spin_warning},\n            \"new_gap_addressed\": \"Reverse/downward-upward strength, complex-RME adjoint, bra-dependent RB normalization, and covariance of a deterministically converted pair were absent from the substantive prior receipt.\",\n            \"search_scope\": \"Top-level substantive fields and their values, excluding the embedded reproduction code; searched upward, reverse strength, B(Jf->Ji).\",\n            \"prior_file_modified\": False,\n        },\n        \"sources\": source_records,\n        \"evidence_layers\": {\n            \"source_direct\": \"LKH82 Eq.2.3a defines B and Eqs.2.3b/c define the BM physical nuclear multipoles; Eq.2.11 defines same-operator RB/BM RME normalization. MU08 supplies the quoted downward B and uncertainty boundary. RB67 Eq.3.22 supplies the separate photon-T adjoint boundary.\",\n            \"our_reconstruction\": \"Explicit complex-conjugate RME reversal, reverse B spin factor, normalization-only RB reversal and B mapping, exact synthetic CG/3j sums, MU08 upward conversion, and shared statistical covariance.\",\n            \"not_extra_experimental_evidence\": \"Converted strengths and reconstructed RME magnitudes remain outputs of the same MU08 measurement/extraction chain. LKH82 and RB67 provide conventions, not independent MU08 lifetime/strength measurements.\",\n        },\n        \"physical_BM_derivation\": {\n            \"premise\": \"For the same physical Hermitian nuclear electromagnetic multipole, M_Lmu^dagger=(-1)^mu*M_L,-mu; use consistent state phases and BM Wigner-Eckart normalization. Ji-Jf is an integer for an electromagnetic transition within one nucleus.\",\n            \"WE_definition\": \"<Jf Mf|M_Lmu|Ji Mi>=(-1)^(Jf-Mf)*3j(Jf,L,Ji;-Mf,mu,Mi)*R_fi; R_fi=<Jf||M_L||Ji>_BM.\",\n            \"component_adjoint\": \"[<Jf Mf|M_Lmu|Ji Mi>]^*=(-1)^mu*<Ji Mi|M_L,-mu|Jf Mf>.\",\n            \"RME_reversal\": \"R_if=(-1)^(Ji-Jf)*R_fi^*; therefore |R_if|^2=|R_fi|^2.\",\n            \"B_definition\": \"B(Ji->Jf)=|R_fi|^2/(2Ji+1); equivalently average over Mi and sum over Mf,mu. Each fixed Mi sum is the same B.\",\n            \"reverse_strength\": \"B(Jf->Ji)=[(2Ji+1)/(2Jf+1)]*B(Ji->Jf).\",\n            \"derivation_steps\": [\n                \"Insert the BM Wigner-Eckart expansion into the spherical-component adjoint and use the real 3j symmetries to obtain the conjugated RME phase relation.\",\n                \"The phase factor has unit modulus, so the two BM RME magnitudes are equal without requiring a real RME.\",\n                \"Divide that shared squared magnitude by the initial-state degeneracy in each direction; the degeneracy ratio is the entire B conversion.\",\n            ],\n            \"phase_boundary\": \"Hermiticity and rotational tensor normalization suffice for magnitude equality. A choice making RMEs real or an additional time-reversal argument is not required here. An individual RME sign/phase is not determined by B.\",\n            \"rate_boundary\": \"B is a nuclear strength. An upward excitation strength is not an upward spontaneous gamma lifetime; a radiative-decay rate formula requires an energetically allowed emitting initial state and positive emitted E_gamma. Excitation observables require their own process/kinematic factors.\",\n            \"units\": \"The degeneracy ratio is dimensionless. B(E2) remains e^2 b^2 and BM |RME(E2)| remains e*b; B(M1) remains mu_N^2 and BM |RME(M1)| remains mu_N.\",\n        },\n        \"RB_BM_normalization_boundary\": {\n            \"source\": \"LKH82 printed p122 / PDF p4, Eq.2.11.\",\n            \"same_operator_map\": \"R_fi,RB=R_fi,BM/sqrt(2Jf+1), where Jf is the bra spin. The same-operator map can be applied to physical M without substituting the RB photon interaction T.\",\n            \"B_from_RB_RME_of_same_physical_operator\": \"B(Ji->Jf)=[(2Jf+1)/(2Ji+1)]*|R_fi,RB|^2.\",\n            \"reverse_RB_RME_of_same_physical_operator\": \"R_if,RB=(-1)^(Ji-Jf)*sqrt[(2Jf+1)/(2Ji+1)]*R_fi,RB^*.\",\n            \"why_bra_matters\": \"The bra becomes Ji after reversal; do not reuse the forward sqrt(2Jf+1) normalization. RB-normalized RME magnitudes generally differ even though BM magnitudes agree.\",\n            \"photon_operator_boundary\": \"RB67 printed p316 / PDF p11 Eq.3.22 gives T_Lmu^dagger=(-1)^(L-mu+1)*T_L,-mu. LKH82 Eqs.2.10b/c also carry q, i^L, and electric emission/absorption signs. Those are additional operator maps, not the physical-M adjoint used in this audit.\",\n            \"rate_derived_B_warning\": \"A B already obtained using the rate-to-B formula has its initial-spin normalization built in. Do not divide by (2Ji+1) again. Recover a BM RME magnitude using sqrt[(2Ji+1)*B] only after specifying the direction.\",\n        },\n        \"synthetic_exact_controls\": controls,\n        \"MU08_derived_example\": {\n            \"nuclide\": \"136Nd\",\n            \"band_identity\": \"Band 1 as labeled in MU08; no later-band renaming\",\n            \"downward_transition\": \"18- -> 16-, E_gamma=757.4 keV, parent Ex=6711.4 keV\",\n            \"upward_transition\": \"16- -> 18- between those same levels\",\n            \"direct_input\": {\"B_down\": \"0.14(2)\", \"unit\": \"e^2 b^2\", \"classification\": \"MU08 author-reported DSAM-derived strength; not a newly fitted value\"},\n            \"conversion\": {\"factor_exact\": exact(c), \"factor_decimal\": float(c), \"B_up_exact\": exact(bu), \"B_up_decimal\": float(bu), \"statistical_error_up_exact\": exact(sigma_u), \"statistical_error_up_decimal\": float(sigma_u), \"display_statistical_only\": \"0.157 +/- 0.022 e^2 b^2 (derived)\", \"unit\": \"e^2 b^2\", \"precision_boundary\": \"Long decimals and exact fractions reproduce the operation on the printed 0.14 and 0.02 inputs; they do not add experimental precision.\"},\n            \"BM_RME_magnitude\": {\"squared_exact\": exact(rme_sq), \"squared_unit\": \"e^2 b^2\", \"magnitude_exact\": exact(rme_magnitude), \"magnitude_decimal\": float(rme_magnitude), \"unit\": \"e*b\", \"boundary\": \"Same BM magnitude in both directions; no RME sign/phase or additional excitation experiment inferred.\"},\n            \"statistical_covariance\": {\n                \"output_order\": [\"B_down\", \"B_up\"],\n                \"map\": \"(B_down,B_up)=(X,cX), c=37/33; transformed Jacobian=(1,c)^T.\",\n                \"formula\": \"Sigma=Var(X)*[[1,c],[c,c^2]]. This covariance transform is exact for a deterministic linear map and any finite-variance distribution; it does not supply missing source uncertainty models.\",\n                \"matrix_exact\": [[exact(covariance[i,j]) for j in range(2)] for i in range(2)],\n                \"matrix_decimal\": [[float(covariance[i,j]) for j in range(2)] for i in range(2)],\n                \"unit\": \"(e^2 b^2)^2\",\n                \"variance_input\": \"Use (0.02 e^2 b^2)^2 for the quoted statistical error only.\",\n                \"rank\": 1, \"correlation\": 1,\n                \"null_contrast\": \"Var[B_up-(37/33)*B_down]=0 for this converted pair.\",\n                \"independence_boundary\": \"Do not treat the two directions as independent measurements, average them as independent inputs, or form a discrepancy significance from them.\",\n            },\n            \"systematic_boundary\": \"MU08 quoted errors exclude stopping-power modeling systematics that may be as large as 15%; feeding and branch/ICC assumptions remain inherited. The converted upward value inherits those dependencies. The quoted 15% is not promoted to an independently measured 1-sigma error or combined in quadrature here.\",\n            \"shared_systematic_transform\": \"If a systematic changes X by DeltaX, its upward change is c*DeltaX for fixed spin assignment. Any quantified variance contribution from that same X maps with the same outer-product matrix; its distribution and magnitude have not been supplied.\",\n            \"no_lifetime_conversion\": \"No upward lifetime, reverse spontaneous decay rate, new ICC or new mixing ratio was calculated.\",\n        },\n        \"applicability_and_open_boundaries\": [\n            \"Use the same physical Hermitian electromagnetic operator and the same pair of nuclear states; effective non-Hermitian, differently phase-scaled, or differently normalized operators require their own adjoint/map.\",\n            \"The spin-factor conversion is conditional on the Ji,Jf assignments. Alternative assignments require separate factors, not a silently added Gaussian error.\",\n            \"This transformation does not repair the original extraction's missing systematic, feeding, photon/total-branch or ICC information.\",\n            \"An independently measured excitation strength would be separate experimental evidence; this algebraic upward conversion is not such a measurement.\",\n        ],\n        \"checks\": {\n            \"passed_by_group\": dict(sorted(counts.items())),\n            \"substantive_algebra_and_input_checks_passed\": sum(counts.values()) - counts[\"integer_phase_exponent\"],\n            \"phase_domain_checks_passed\": counts[\"integer_phase_exponent\"],\n            \"total_assertions_passed\": sum(counts.values()),\n            \"failures\": 0,\n        },\n        \"actual_changed_paths\": [CODE_REL, RECEIPT_REL],\n        \"reproducibility\": {\n            \"code\": CODE_REL,\n            \"script_sha256\": digest(code_path),\n            \"source_code\": code_path.read_text(encoding=\"utf-8\"),\n            \"python_version\": sys.version.split()[0],\n            \"sympy_version\": sp.__version__,\n            \"dependency_path\": dep_rel,\n            \"network_requests\": 0,\n            \"default_command\": \"python3 \" + CODE_REL,\n            \"exclusive_creation_command\": \"python3 \" + CODE_REL + \" --write-receipt\",\n            \"embedded_code_replay\": \"Save source_code to a temporary Python file, then run python3 <file> --root /workspace/wiki. Default execution is offline and read-only; do not pass --write-receipt when replaying an existing receipt.\",\n            \"write_policy\": \"Only exclusive creation of the authorized JSON; no prior receipt, raw, canonical knowledge, report, run/state, PLAN, system, Git or review-flag mutation.\",\n        },\n    }\n\n\ndef main() -> None:\n    parser = argparse.ArgumentParser(description=__doc__)\n    parser.add_argument(\"--root\", type=Path, default=Path(__file__).resolve().parents[4])\n    parser.add_argument(\"--write-receipt\", action=\"store_true\")\n    parser.add_argument(\"--print-receipt\", action=\"store_true\")\n    args = parser.parse_args()\n    root = args.root.resolve()\n    receipt = build_receipt(root)\n    if args.write_receipt:\n        with (root / RECEIPT_REL).open(\"x\", encoding=\"utf-8\", newline=\"\\n\") as stream:\n            json.dump(receipt, stream, ensure_ascii=False, indent=2)\n            stream.write(\"\\n\")\n    if args.print_receipt:\n        print(json.dumps(receipt, ensure_ascii=False, indent=2))\n    else:\n        print(json.dumps({\n            \"artifact\": RECEIPT_REL if args.write_receipt else None,\n            \"checks\": receipt[\"checks\"],\n            \"MU08_conversion\": receipt[\"MU08_derived_example\"][\"conversion\"],\n            \"MU08_RME_magnitude\": receipt[\"MU08_derived_example\"][\"BM_RME_magnitude\"],\n            \"course_credit_awarded\": False, \"run_closed\": False,\n            \"network_requests\": 0,\n        }, ensure_ascii=False, indent=2))\n\n\nif __name__ == \"__main__\":\n    main()\n",
+    "python_version": "3.12.3",
+    "sympy_version": "1.14.0",
+    "dependency_path": "tmp/day8-20261007/rose-brink/python-deps",
+    "network_requests": 0,
+    "default_command": "python3 tmp/day8-20261007/day9-preview/reverse-strength/reverse_strength_audit.py",
+    "exclusive_creation_command": "python3 tmp/day8-20261007/day9-preview/reverse-strength/reverse_strength_audit.py --write-receipt",
+    "embedded_code_replay": "Save source_code to a temporary Python file, then run python3 <file> --root /workspace/wiki. Default execution is offline and read-only; do not pass --write-receipt when replaying an existing receipt.",
+    "write_policy": "Only exclusive creation of the authorized JSON; no prior receipt, raw, canonical knowledge, report, run/state, PLAN, system, Git or review-flag mutation."
+  }
+}

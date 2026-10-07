@@ -1,0 +1,423 @@
+{
+  "schema_version": 1,
+  "created_at_utc": "2026-10-07T15:40:50.810043+00:00",
+  "artifact_kind": "bounded-Day8-L2-electric-E4-E2-dimensionless-rate-hierarchy",
+  "status": "exact_electric_hierarchy_and_conditional_matrix_element_requirements",
+  "day_index": 8,
+  "run_closed": false,
+  "new_source_or_course_card": false,
+  "new_session_or_goal": false,
+  "experimental_data_fit": false,
+  "L4": false,
+  "evidence_class": "Direct source rate/operator premises plus our exact same-electric-type ratio derivation, conditional norm bound and certified-box arithmetic.",
+  "inputs": [
+    {
+      "path": "outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/cascade-global-branch.json",
+      "sha256": "c42abfdaaba9ce60cfe038ae1a6141756be77f8760101e7c4f447973e393e06f"
+    },
+    {
+      "path": "outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/cascade-ratio-design.json",
+      "sha256": "637648362cff4da1938f79eefa0eeef39c796ba3656b7e8e5f28ae706d1155e3"
+    },
+    {
+      "path": "outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/lkh82-model-truncation-audit.json",
+      "sha256": "f3de1131a57ef392f16de3815b97c38df14ade5e8015402b2c6bc127ab2663e7"
+    },
+    {
+      "path": "outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/lkh82-model-claim-review.json",
+      "sha256": "7b8259b2cb0b7932662a5ff73abfb7d5484cafa9fc8951a799e97ea3ea9260ba"
+    }
+  ],
+  "sources": [
+    {
+      "page": "knowledge/sources/lange-kumar-hamilton-1982-multipole-admixtures.md",
+      "raw_path": "raw/papers/gpt/high-spin-20260920/review/1982_Lange et al_E0-E2-M1 multipole admixtures of transitions in even-even nuclei.pdf",
+      "raw_sha256": "ed925a0577a9257903806acd209c1db707529e86a5bfd9a301a83d597bf78ffb",
+      "locators": [
+        "printed121/PDF3 Eq2.2 photon rate",
+        "printed121/PDF3 Eq2.3a B and final-bra RME",
+        "printed121/PDF3 Eq2.3b point-charge electric operator"
+      ]
+    },
+    {
+      "page": "knowledge/sources/rose-brink-1967-phase-defined-angular-distributions.md",
+      "raw_path": "raw/papers/gpt/high-spin-20260920/multipolarity/mixing ratio/1967_Rose et al_Angular Distributions of Gamma Rays in Terms of Phase-Defined Reduced Matrix Elements.pdf",
+      "raw_sha256": "8f846b61b9320de291ee5600126c5e286a0fe05968df819696816f0dc1ec57dc",
+      "locators": [
+        "printed313/PDF8 Eq3.3 and long-wave line below",
+        "printed314/PDF9 Eq3.12 and footnote9",
+        "printed318/PDF13 Eqs3.29,3.30 and footnote12"
+      ]
+    }
+  ],
+  "visually_audited_existing_images": [
+    {
+      "locator": "LKH82 printed121/PDF3 Eqs2.2,2.3a,2.3b",
+      "path": "tmp/day8-20261007/lange-kumar/pdf-page-03.png",
+      "sha256": "ef4fa4b3e9336aac408b3d2f76a28b0b3021983682ae80185561f79908f7e9ad"
+    },
+    {
+      "locator": "RB67 printed313/PDF8 Eq3.3 and below",
+      "path": "tmp/day8-20261007/rose-brink/p313-pdf8.png",
+      "sha256": "8375f130440250a66e3972eb9f9409f8c673cca8e346dc2fb8f08590c230f545"
+    },
+    {
+      "locator": "RB67 printed314/PDF9 Eq3.12 and footnote9",
+      "path": "tmp/day8-20261007/rose-brink/p314-pdf9.png",
+      "sha256": "25b5175e380be36598a75ef42680f1d033ee7567e6e7cc98bbc086f2cc076e16"
+    },
+    {
+      "locator": "RB67 printed318/PDF13 Eqs3.29,3.30 and footnote12",
+      "path": "tmp/day8-20261007/rose-brink/p318-pdf13.png",
+      "sha256": "49c59a6adcbf462409716870a8aa4c192ec22a0079eee97e5deaf03ef772cb10"
+    }
+  ],
+  "source_formulas": {
+    "LKH82_Eq2_2": "Tgamma(EL;Ji->Jf)=C_L*q^(2L+1)*B(EL)/hbar; C_L=8pi(L+1)/(L[(2L+1)!!]^2)",
+    "LKH82_Eq2_3a": "B(EL)=|<Jf||M(EL)||Ji>|^2/(2Ji+1), also sum_(mu,Mf)|<JfMf|M(EL,mu)|JiMi>|^2 for fixed Mi",
+    "LKH82_Eq2_3b": "M(EL,mu)=sum_k e[1/2-t_z(k)] r_k^L Y_Lmu(Omega_k); t_z=+1/2 neutron, -1/2 proton",
+    "RB67_long_wave": "j_L(qr) approximately (qr)^L/(2L+1)!! when qr<<1; Eq3.12 inserts this approximation into the multipole fields",
+    "RB67_Eq3_29_use": "For fixed photon energy, normalized RB a_L=<Ji||T_L||Jf>/sqrt(2L+1) has partial photon rate proportional to |a_L|^2; fraction_E4/fraction_E2=Tgamma(E4)/Tgamma(E2)",
+    "RB67_Eq3_30_use": "The source Weisskopf rate retains k^(2L+1) with G_L in its own RME/spherical-harmonic convention. Its (2L-1)!! and extra 1/(2L+1) must not be substituted into the LKH bare M definition.",
+    "current_and_retardation_boundary": "RB314 footnote9 requires consistent charge/current continuity and interaction; RB318 footnote12 retains an energy-dependent electric Qprime contribution, described as usually small. It is not asserted identically zero."
+  },
+  "definitions_and_units": {
+    "fixed_transition": "Same Ji,Jf, photon energy and electric type for E2/E4; here the first ideal 2+->2+ transition",
+    "q": "E_gamma/(hbar*c), units inverse length",
+    "R": "A specified physical length reference for the transition matrix elements. R is not dimensionless and is not automatically a hard support radius.",
+    "epsilon": "qR, dimensionless",
+    "M_E2": "<Jf||M(E2)||Ji>, units charge*length^2 in the common source convention",
+    "M_E4": "<Jf||M(E4)||Ji>, units charge*length^4",
+    "chi": "M_E4/(R^2*M_E2), dimensionless, defined only if M_E2!=0; rate extraction determines |chi| only",
+    "B_ratio": "B(E4)/B(E2)=R^4*|chi|^2, units length^4",
+    "Gaussian_unit_check": "[e^2]=energy*length, [B(EL)]=energy*length^(2L+1), [q^(2L+1)B/hbar]=time^-1. This is not a numerical SI conversion.",
+    "reference_rescaling": "R->sR gives chi->chi/s^2; (qR)^4|chi|^2 is invariant. A natural-size statement needs a physically justified fixed reference and operator/state model.",
+    "RB_chart_mapping": "The fitted a_E4/a_E2 already contains energy and multipole coefficients. It is not the bare charge-operator ratio M_E4/M_E2 or chi."
+  },
+  "exact_hierarchy": {
+    "five_double_factorial": "15",
+    "nine_double_factorial": "945",
+    "C2": "4*pi/75",
+    "C4": "2*pi/178605",
+    "C4_over_C2": "5/23814",
+    "coefficient_derivation": "(5/4)/(3/2) * (5!!/9!!)^2 = (5/6)*(15/945)^2 = 5/23814",
+    "rate_ratio": "Tgamma(E4)/Tgamma(E2)=(5/23814)*(qR)^4*|chi|^2",
+    "required_chi": "|chi|=63*sqrt(6*r42/5)/(qR)^2, r42=Tgamma(E4)/Tgamma(E2)",
+    "truncation_condition": "For a selected rate-ratio tolerance eta>0 and an independently justified |chi|<=X, C*(qR)^4*X^2<=eta is a sufficient bound on this one photon-rate ratio.",
+    "inverse_tolerance": "|chi|<=sqrt(eta/C)/(qR)^2 iff r42<=eta, with C=5/23814",
+    "approximation_status": "The coefficient and algebra are exact within the quoted long-wavelength electric charge-operator rate description. Finite-q/current corrections and a uniform relative error bound require additional operator/state control."
+  },
+  "ideal_pair_requirements": {
+    "original_seed": {
+      "amplitude_chart": [
+        "1",
+        "1/2",
+        "1/3",
+        "1/4"
+      ],
+      "E4_over_E2_photon_rate_ratio_exact": "1/4",
+      "abs_chi_prefactor_exact": "63*sqrt(30)/10",
+      "abs_chi_function": "(63*sqrt(30)/10)/(qR)^2"
+    },
+    "certified_alternative": {
+      "parameters_source": "outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/cascade-global-branch.json",
+      "same_certified_box_verified": true,
+      "box_endpoint_exact_finite_decimals": [
+        [
+          "1.641815150899098332400951054967367010315483763075187560733568078606911619731882511304412771771361575",
+          "1.641815150899098332400951054969367010315483763075187560733568078606911619731882511304412771771361575"
+        ],
+        [
+          "1.20434111669321570473415308868445642363579263679128710412476152784990457993274583517882475444222747",
+          "1.20434111669321570473415308868645642363579263679128710412476152784990457993274583517882475444222747"
+        ],
+        [
+          "2.39381355523641819129978452205219090252019546678353582328951740168183143091927770708299040071873672",
+          "2.39381355523641819129978452205419090252019546678353582328951740168183143091927770708299040071873672"
+        ],
+        [
+          "0.2624042483036110750852966927507959332209418644618781130502517328767502629576299588714339718457060639",
+          "0.2624042483036110750852966927527959332209418644618781130502517328767502629576299588714339718457060639"
+        ],
+        [
+          "0.2331907820271430430025204173356306855874857574058417603002508387173471482454382243877609530587275339",
+          "0.2331907820271430430025204173376306855874857574058417603002508387173471482454382243877609530587275339"
+        ]
+      ],
+      "E4_over_E2_photon_rate_ratio_interval": {
+        "raw_dyadic_endpoints": [
+          {
+            "sign": 0,
+            "mantissa": "37198093501004162440180897778248509100512907477687001995120627777280290943223161957201354719219356617",
+            "exponent2": -333,
+            "bit_count": 335
+          },
+          {
+            "sign": 0,
+            "mantissa": "74396187002008324880361795556802585792010785986788992575714476453913508556557839180943767044165433591",
+            "exponent2": -334,
+            "bit_count": 336
+          }
+        ],
+        "numeric_display_only": [
+          "2.12584759256934473445497807300828101285115",
+          "2.12584759256934473445497807301701251044316"
+        ]
+      },
+      "abs_chi_prefactor_interval": {
+        "raw_dyadic_endpoints": [
+          {
+            "sign": 0,
+            "mantissa": "110043858236678965554544899034032852791692513425793850777420362082431578693691426836212142436418557007",
+            "exponent2": -329,
+            "bit_count": 336
+          },
+          {
+            "sign": 0,
+            "mantissa": "27510964559169741388636224758564711114716844417932531632960549370623697322311531412597019933895321985",
+            "exponent2": -327,
+            "bit_count": 334
+          }
+        ],
+        "numeric_display_only": [
+          "100.622993962062543576386322624380736155035",
+          "100.622993962062543576386322624587380655928"
+        ]
+      },
+      "abs_chi_function": "sqrt(r42/C)/(qR)^2; r42=(z/x)^2 within the certified parameter box"
+    },
+    "synthetic_controls": [
+      {
+        "synthetic_dimensionless_qR": "1/100",
+        "original_required_abs_chi": {
+          "raw_dyadic_endpoints": [
+            {
+              "sign": 0,
+              "mantissa": "5758240763522362447961611302746672030854956590551227995213680438460191993680716956691205788833058761",
+              "exponent2": -313,
+              "bit_count": 332
+            },
+            {
+              "sign": 0,
+              "mantissa": "92131852216357799167385780843946752493679305448819647923418887015363071898891471307059292621328940183",
+              "exponent2": -317,
+              "bit_count": 336
+            }
+          ],
+          "numeric_display_only": [
+            "345065.211228254651477890963164505344390229",
+            "345065.211228254651477890963164505344390229"
+          ]
+        },
+        "alternative_required_abs_chi": {
+          "raw_dyadic_endpoints": [
+            {
+              "sign": 0,
+              "mantissa": "67165440818285501437100158101826692377742012588985504624890357716327867855036271262336512717540623171",
+              "exponent2": -315,
+              "bit_count": 335
+            },
+            {
+              "sign": 0,
+              "mantissa": "134330881636571002874200316203929253489828341884436189614065182473748522081599274475571386395973251881",
+              "exponent2": -316,
+              "bit_count": 336
+            }
+          ],
+          "numeric_display_only": [
+            "1006229.93962062543576386322624380736155035",
+            "1006229.93962062543576386322624587380655928"
+          ]
+        },
+        "hypothetical_prior_abs_chi_le1_rate_ratio_upper": {
+          "raw_dyadic_endpoints": [
+            {
+              "sign": 0,
+              "mantissa": "80789707055023271197071575749131808718659576050461729994264414373023668152090670903059638006080562757",
+              "exponent2": -374,
+              "bit_count": 336
+            },
+            {
+              "sign": 0,
+              "mantissa": "80789707055023271197071575749131808718659576050461729994264414373023668152090670903059638006080562763",
+              "exponent2": -374,
+              "bit_count": 336
+            }
+          ],
+          "numeric_display_only": [
+            "0.00000000000209960527420844881162341479801797262114722",
+            "0.00000000000209960527420844881162341479801797262114722"
+          ]
+        },
+        "interpretation": "Teaching control only. No photon energy, radius, nucleus or universal chi prior has been supplied."
+      },
+      {
+        "synthetic_dimensionless_qR": "1/10",
+        "original_required_abs_chi": {
+          "raw_dyadic_endpoints": [
+            {
+              "sign": 0,
+              "mantissa": "29482192709234495733563449870062960797977377743622287335494043844916183007645270818258973638825260857",
+              "exponent2": -322,
+              "bit_count": 334
+            },
+            {
+              "sign": 0,
+              "mantissa": "29482192709234495733563449870062960797977377743622287335494043844916183007645270818258973638825260859",
+              "exponent2": -322,
+              "bit_count": 334
+            }
+          ],
+          "numeric_display_only": [
+            "3450.65211228254651477890963164505344390229",
+            "3450.65211228254651477890963164505344390229"
+          ]
+        },
+        "alternative_required_abs_chi": {
+          "raw_dyadic_endpoints": [
+            {
+              "sign": 0,
+              "mantissa": "21492941061851360459872050592584541560877444028475361479964914469224917713611606803947684069612999415",
+              "exponent2": -320,
+              "bit_count": 334
+            },
+            {
+              "sign": 0,
+              "mantissa": "42985882123702720919744101185257361116745069403019580676500858391599527066111767832182843646711440603",
+              "exponent2": -321,
+              "bit_count": 335
+            }
+          ],
+          "numeric_display_only": [
+            "10062.2993962062543576386322624380736155035",
+            "10062.2993962062543576386322624587380655928"
+          ]
+        },
+        "hypothetical_prior_abs_chi_le1_rate_ratio_upper": {
+          "raw_dyadic_endpoints": [
+            {
+              "sign": 0,
+              "mantissa": "98620247869901454097987763365639414939769990295973791496904802701444907412220057254711472175391311957",
+              "exponent2": -361,
+              "bit_count": 336
+            },
+            {
+              "sign": 0,
+              "mantissa": "98620247869901454097987763365639414939769990295973791496904802701444907412220057254711472175391311963",
+              "exponent2": -361,
+              "bit_count": 336
+            }
+          ],
+          "numeric_display_only": [
+            "0.0000000209960527420844881162341479801797262114722",
+            "0.0000000209960527420844881162341479801797262114722"
+          ]
+        },
+        "interpretation": "Teaching control only. No photon energy, radius, nucleus or universal chi prior has been supplied."
+      }
+    ],
+    "interpretation": "The ideal inverse branches do not carry identical implied charge-matrix-element ratios at a chosen qR. Their required |chi| can be compared with an independently supported state/current/strength prior. No universal |chi| bound, actual energy/radius, or nuclear exclusion is obtained here."
+  },
+  "optional_conditional_operator_norm_bound": {
+    "source_operator": "LKH82 Eq2.3b only, the long-wavelength point-charge multiplication operator",
+    "added_assumptions": [
+      "normalized initial/final many-body states and an orthonormal final multiplet",
+      "fixed finite particle/charge sector, Q_abs=sum_k|e_k|>0",
+      "all relevant wavefunction support satisfies r_k<=R about the same specified origin",
+      "standard normalized Y_Lmu with sum_mu|Y_Lmu|^2=(2L+1)/(4pi)",
+      "no uncontrolled effective-charge, exchange/current, finite-q or support-tail terms outside the adopted operator"
+    ],
+    "our_proof": "At each configuration, the vector of multipole components has Euclidean norm <=Q_abs*R^L*sqrt((2L+1)/(4pi)) by the triangle inequality and the spherical-harmonic addition identity. Initial-state normalization bounds sum_mu||M_Lmu|i>||^2. Projection on the chosen final multiplet can only reduce this sum; Eq2.3a gives B(EL).",
+    "absolute_strength_bound": "B(EL;i->f)<=Q_abs^2*R^(2L)*(2L+1)/(4pi)",
+    "E4_bound": "B(E4)<=9*Q_abs^2*R^8/(4pi)",
+    "required_independent_lower_bound": "If B(E2)>=B2_min>0, then |chi|^2<=9*Q_abs^2*R^4/(4pi*B2_min). In terms of beta2_min=B2_min/(Q_abs^2*R^4), the bound is 9/(4pi*beta2_min).",
+    "no_universal_ratio_bound": "No B2_min, wavefunctions, charge/current model or strict support has been supplied. The absolute upper bound alone gives no finite universal |chi| bound; it diverges as B2_min->0.",
+    "support_boundary": "A typical physical radius does not imply compact wavefunction support. Real support tails or a projected-space moment bound require their own controlled estimates.",
+    "attribution": "This norm inequality is our conditional mathematical derivation, not a bound reported by LKH82 or RB67 and not a selection rule."
+  },
+  "failure_boundaries": {
+    "E2_zero": "If M_E2=0 and M_E4!=0, both chi and Tgamma(E4)/Tgamma(E2) cease to be finite ratio coordinates; small qR does not restore that chart. If both vanish, the ratio is 0/0.",
+    "E2_hindrance": "A very small lower matrix element can make |chi| large. The rate hierarchy cannot be judged from qR alone.",
+    "natural_size_prior": "A hypothesis such as |chi|<=1 is a separately added prior. Selection rules permit ranks; they do not provide that upper bound or a nonzero E2 floor.",
+    "nonuniform_long_wave_limit": "For fixed finite chi, r42 goes to zero as (qR)^4. An illustrative family chi=(qR)^-2 instead keeps r42=C; this is an algebraic counter-control, not a constructed nuclear wavefunction.",
+    "angular_truncation": "A small omitted partial rate is not itself a uniform angular/polarization-error bound: interference enters at the omitted amplitude scale sqrt(r42), with response/population and denominator conditions. This route bounds only E4 relative to E2 photon rates.",
+    "other_units_or_channels": "No magnetic hierarchy, E/M unit comparison, total transition rate, internal conversion, lifetime or other-branch truncation is derived.",
+    "not_proved": [
+      "microscopic realizability of either ideal branch",
+      "a universal bound on chi",
+      "an actual E_gamma or nuclear radius",
+      "a detector-level model-error tolerance",
+      "all higher multipoles negligible"
+    ]
+  },
+  "termination": "The source-defined coefficient, conditional hierarchy, two ideal-seed requirements and failure boundaries are complete. No new source, nucleus, model fit or hierarchy route is opened.",
+  "checks": {
+    "results": {
+      "cascade-global-branch_identity_before": true,
+      "cascade-ratio-design_identity_before": true,
+      "lkh82-model-truncation-audit_identity_before": true,
+      "lkh82-model-claim-review_identity_before": true,
+      "1982_Lange et al_E0-E2-M1 multipole admixtures of transitions in even-even nuclei_raw_identity_before": true,
+      "1967_Rose et al_Angular Distributions of Gamma Rays in Terms of Phase-Defined Reduced Matrix Elements_raw_identity_before": true,
+      "alternative_ideal_parameter_root_is_certified": true,
+      "common_same_transition_spin_chart": true,
+      "five_double_factorial_is_15": true,
+      "nine_double_factorial_is_945": true,
+      "C2_exact": true,
+      "C4_exact": true,
+      "C4_over_C2_exact": true,
+      "double_factorial_coefficient_independent_derivation": true,
+      "B4_over_B2_exact_same_spin_factor": true,
+      "E4_over_E2_rate_hierarchy_exact_within_source_operator_approximation": true,
+      "common_hbar_and_electric_charge_units_cancel": true,
+      "EL2_source_Gaussian_rate_dimension_is_inverse_time": true,
+      "EL4_source_Gaussian_rate_dimension_is_inverse_time": true,
+      "inverse_hierarchy_prefactor_exact": true,
+      "rate_small_q_limit_needs_fixed_finite_chi": true,
+      "chi_scaling_epsilon_minus2_can_prevent_power_suppression": true,
+      "original_photon_E4_over_E2_ratio_is_one_quarter": true,
+      "original_chi_prefactor_exact": true,
+      "propagated_box_equals_certified_dyadic_box_param0": true,
+      "propagated_box_equals_certified_dyadic_box_param1": true,
+      "propagated_box_equals_certified_dyadic_box_param2": true,
+      "propagated_box_equals_certified_dyadic_box_param3": true,
+      "propagated_box_equals_certified_dyadic_box_param4": true,
+      "alternative_E2_chart_component_nonzero": true,
+      "alternative_E4_chart_component_nonzero": true,
+      "alternative_rate_ratio_strictly_exceeds_original": true,
+      "alternative_chi_requirement_strictly_exceeds_original": true,
+      "synthetic_qR_1/100_original_chi_back_substitution": true,
+      "synthetic_qR_1/100_conditional_prior_chi_le1_excludes_both_ratios": true,
+      "synthetic_qR_1/10_original_chi_back_substitution": true,
+      "synthetic_qR_1/10_conditional_prior_chi_le1_excludes_both_ratios": true,
+      "conditional_support_norm_bound_algebra": true,
+      "no_uniform_chi_bound_without_positive_B2_floor": true,
+      "E2_zero_leaves_E2_rate_zero": true,
+      "cascade-global-branch_bytes_unchanged_after": true,
+      "cascade-ratio-design_bytes_unchanged_after": true,
+      "lkh82-model-truncation-audit_bytes_unchanged_after": true,
+      "lkh82-model-claim-review_bytes_unchanged_after": true,
+      "1982_Lange et al_E0-E2-M1 multipole admixtures of transitions in even-even nuclei_raw_identity_after": true,
+      "1967_Rose et al_Angular Distributions of Gamma Rays in Terms of Phase-Defined Reduced Matrix Elements_raw_identity_after": true
+    },
+    "passed": 46,
+    "failures": 0,
+    "elapsed_seconds": 9.92295209900476
+  },
+  "changed_paths": [
+    "tmp/day8-20261007/lange-kumar/electric-rank-hierarchy/electric_rank_hierarchy.py",
+    "outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/electric-rank-hierarchy.json"
+  ],
+  "reproducibility": {
+    "script_path": "tmp/day8-20261007/lange-kumar/electric-rank-hierarchy/electric_rank_hierarchy.py",
+    "script_sha256": "9118b48f0e31db91a28e9e39c06da991b3e4fbcf27c7372da97eee35b5762e50",
+    "source_code": "#!/usr/bin/env python3\n\"\"\"Day8 L2: E4/E2 electric-rate hierarchy, exact coefficient and conditional priors.\n\nUses existing LKH82/RB67 pages and the already certified ideal global pair.\nDefault checks only; --write-receipt exclusively creates one new owned JSON.\nqR=1/100 and 1/10 are dimensionless teaching controls, not nuclear inputs.\n\"\"\"\nfrom __future__ import annotations\n\nimport argparse\nfrom datetime import datetime, timezone\nfrom fractions import Fraction\nimport hashlib\nimport json\nfrom pathlib import Path\nimport platform\nimport sys\nimport time\n\nsys.dont_write_bytecode = True\nROOT = Path(__file__).resolve().parents[4]\nDEPS = ROOT / 'tmp/day8-20261007/rose-brink/python-deps'\nsys.path.insert(0, str(DEPS))\nimport sympy as sp\nimport mpmath as mp\n\nRUN = ROOT / 'outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01'\nGLOBAL = RUN / 'cascade-global-branch.json'\nRATIO = RUN / 'cascade-ratio-design.json'\nLKH_AUDIT = RUN / 'lkh82-model-truncation-audit.json'\nLKH_REVIEW = RUN / 'lkh82-model-claim-review.json'\nOUT = RUN / 'electric-rank-hierarchy.json'\nINPUT_HASHES = {\n    GLOBAL: 'c42abfdaaba9ce60cfe038ae1a6141756be77f8760101e7c4f447973e393e06f',\n    RATIO: '637648362cff4da1938f79eefa0eeef39c796ba3656b7e8e5f28ae706d1155e3',\n    LKH_AUDIT: 'f3de1131a57ef392f16de3815b97c38df14ade5e8015402b2c6bc127ab2663e7',\n    LKH_REVIEW: '7b8259b2cb0b7932662a5ff73abfb7d5484cafa9fc8951a799e97ea3ea9260ba',\n}\nLKH_RAW = ROOT / 'raw/papers/gpt/high-spin-20260920/review/1982_Lange et al_E0-E2-M1 multipole admixtures of transitions in even-even nuclei.pdf'\nRB_RAW = ROOT / 'raw/papers/gpt/high-spin-20260920/multipolarity/mixing ratio/1967_Rose et al_Angular Distributions of Gamma Rays in Terms of Phase-Defined Reduced Matrix Elements.pdf'\nRAW_HASHES = {LKH_RAW: 'ed925a0577a9257903806acd209c1db707529e86a5bfd9a301a83d597bf78ffb',\n              RB_RAW: '8f846b61b9320de291ee5600126c5e286a0fe05968df819696816f0dc1ec57dc'}\nIMAGES = {\n    'LKH82 printed121/PDF3 Eqs2.2,2.3a,2.3b': ROOT / 'tmp/day8-20261007/lange-kumar/pdf-page-03.png',\n    'RB67 printed313/PDF8 Eq3.3 and below': ROOT / 'tmp/day8-20261007/rose-brink/p313-pdf8.png',\n    'RB67 printed314/PDF9 Eq3.12 and footnote9': ROOT / 'tmp/day8-20261007/rose-brink/p314-pdf9.png',\n    'RB67 printed318/PDF13 Eqs3.29,3.30 and footnote12': ROOT / 'tmp/day8-20261007/rose-brink/p318-pdf13.png',\n}\n\n\ndef txt(value):\n    return sp.sstr(value)\n\n\ndef C(L):\n    \"\"\"LKH Eq2.2 dimensionless factor; Tgamma=C_L*q^(2L+1)*B(EL)/hbar.\"\"\"\n    return 8 * sp.pi * (L + 1) / (L * sp.factorial2(2 * L + 1) ** 2)\n\n\ndef endpoint_fraction(raw):\n    sign, mantissa, exponent, bit_count = raw\n    del bit_count\n    value = Fraction((-1 if sign else 1) * mantissa)\n    return value * 2 ** exponent if exponent >= 0 else value / 2 ** (-exponent)\n\n\ndef bounds(interval):\n    return tuple(endpoint_fraction(endpoint) for endpoint in interval._mpi_)\n\n\ndef serial_interval(interval):\n    return {'raw_dyadic_endpoints': [\n                {'sign': int(sign), 'mantissa': str(mantissa), 'exponent2': int(exponent), 'bit_count': int(bit_count)}\n                for sign, mantissa, exponent, bit_count in interval._mpi_],\n            'numeric_display_only': [mp.nstr(mp.mp.make_mpf(endpoint), 42) for endpoint in interval._mpi_]}\n\n\ndef gaussian_rate_dimension(L):\n    # Dimension vector is (energy, length, time). In the source's Gaussian\n    # electromagnetic convention [e^2]=energy*length, [hbar]=energy*time.\n    dim_B = (1, 2 * L + 1, 0)\n    dim_q_power = (0, -(2 * L + 1), 0)\n    dim_inverse_hbar = (-1, 0, -1)\n    return tuple(sum(values) for values in zip(dim_B, dim_q_power, dim_inverse_hbar))\n\n\ndef main_result():\n    started = time.monotonic()\n    checks = {}\n\n    def check(name, condition):\n        checks[name] = bool(condition)\n        if not checks[name]:\n            raise AssertionError(name)\n\n    input_bytes = {path: path.read_bytes() for path in INPUT_HASHES}\n    for path, expected in INPUT_HASHES.items():\n        check(f'{path.stem}_identity_before', hashlib.sha256(input_bytes[path]).hexdigest() == expected)\n    for path, expected in RAW_HASHES.items():\n        check(f'{path.stem}_raw_identity_before', hashlib.sha256(path.read_bytes()).hexdigest() == expected)\n    global_pair = json.loads(input_bytes[GLOBAL])\n    cert = global_pair['interval_certificate']\n    check('alternative_ideal_parameter_root_is_certified', cert['proved'] and all(cert['strict_inclusion_each_coordinate']) and cert['contraction_less_than_one'])\n    check('common_same_transition_spin_chart', global_pair['scope']['cascade'] == '2+ -> 2+ -> 0+'\n          and global_pair['scope']['relative_amplitude_chart'].startswith('(a_M1,a_E2,a_M3,a_E4)=(1,x,y,z)'))\n\n    c2, c4 = sp.simplify(C(2)), sp.simplify(C(4))\n    coefficient = sp.simplify(c4 / c2)\n    check('five_double_factorial_is_15', sp.factorial2(5) == 15)\n    check('nine_double_factorial_is_945', sp.factorial2(9) == 945)\n    check('C2_exact', c2 == 4 * sp.pi / 75)\n    check('C4_exact', c4 == 2 * sp.pi / 178605)\n    check('C4_over_C2_exact', coefficient == sp.Rational(5, 23814))\n    check('double_factorial_coefficient_independent_derivation', coefficient == sp.Rational(5, 6) * sp.Rational(15, 945) ** 2)\n    q, radius, chi_abs, M2_abs, hbar, spin_factor, eta = sp.symbols('q R chi_abs M2_abs hbar twoJi_plus_one eta', positive=True)\n    M4_abs = radius ** 2 * chi_abs * M2_abs\n    B2 = M2_abs ** 2 / spin_factor\n    B4 = M4_abs ** 2 / spin_factor\n    T2 = c2 * q ** 5 * B2 / hbar\n    T4 = c4 * q ** 9 * B4 / hbar\n    hierarchy = coefficient * (q * radius) ** 4 * chi_abs ** 2\n    check('B4_over_B2_exact_same_spin_factor', sp.simplify(B4 / B2 - radius ** 4 * chi_abs ** 2) == 0)\n    check('E4_over_E2_rate_hierarchy_exact_within_source_operator_approximation', sp.simplify(T4 / T2 - hierarchy) == 0)\n    check('common_hbar_and_electric_charge_units_cancel', not sp.simplify(T4 / T2).has(hbar, M2_abs, spin_factor))\n    for L in (2, 4):\n        check(f'EL{L}_source_Gaussian_rate_dimension_is_inverse_time', gaussian_rate_dimension(L) == (0, 0, -1))\n    epsilon = sp.symbols('epsilon', positive=True)\n    required_prefactor = 63 * sp.sqrt(sp.Rational(6, 5))\n    check('inverse_hierarchy_prefactor_exact', sp.simplify(required_prefactor ** 2 * coefficient - 1) == 0)\n    check('rate_small_q_limit_needs_fixed_finite_chi', sp.limit(coefficient * epsilon ** 4 * chi_abs ** 2, epsilon, 0, dir='+') == 0)\n    check('chi_scaling_epsilon_minus2_can_prevent_power_suppression', sp.simplify((coefficient * epsilon ** 4 * chi_abs ** 2).subs(chi_abs, epsilon ** -2)) == coefficient)\n\n    target = global_pair['scope']['target_seed']\n    x0, z0 = sp.sympify(target['x']), sp.sympify(target['z'])\n    original_rate_ratio = sp.simplify(z0 ** 2 / x0 ** 2)\n    original_chi_prefactor = sp.simplify(required_prefactor * sp.sqrt(original_rate_ratio))\n    check('original_photon_E4_over_E2_ratio_is_one_quarter', original_rate_ratio == sp.Rational(1, 4))\n    check('original_chi_prefactor_exact', sp.simplify(original_chi_prefactor - 63 * sp.sqrt(30) / 10) == 0)\n\n    mp.mp.dps = 160\n    mp.iv.dps = cert['interval_decimal_precision']\n    box = [mp.iv.mpf(endpoints) for endpoints in cert['box_endpoint_exact_finite_decimals']]\n    for i, interval in enumerate(box):\n        stored = cert['box_intervals'][i]['raw_dyadic_endpoints']\n        raw = tuple((value['sign'], int(value['mantissa']), value['exponent2'], value['bit_count']) for value in stored)\n        check(f'propagated_box_equals_certified_dyadic_box_param{i}', interval._mpi_ == raw)\n    check('alternative_E2_chart_component_nonzero', bounds(box[0])[0] > 0)\n    check('alternative_E4_chart_component_nonzero', bounds(box[2])[0] > 0)\n    alternative_rate_ratio = box[2] ** 2 / box[0] ** 2\n    coefficient_iv = mp.iv.mpf(5) / mp.iv.mpf(23814)\n    original_ratio_iv = mp.iv.mpf(1) / 4\n    original_prefactor_iv = mp.iv.sqrt(original_ratio_iv / coefficient_iv)\n    alternative_prefactor_iv = mp.iv.sqrt(alternative_rate_ratio / coefficient_iv)\n    check('alternative_rate_ratio_strictly_exceeds_original', bounds(alternative_rate_ratio)[0] > Fraction(1, 4))\n    check('alternative_chi_requirement_strictly_exceeds_original', bounds(alternative_prefactor_iv)[0] > bounds(original_prefactor_iv)[1])\n    controls = []\n    for epsilon_q in (Fraction(1, 100), Fraction(1, 10)):\n        epsilon_iv = mp.iv.mpf(epsilon_q.numerator) / mp.iv.mpf(epsilon_q.denominator)\n        original_chi = original_prefactor_iv / epsilon_iv ** 2\n        alternative_chi = alternative_prefactor_iv / epsilon_iv ** 2\n        hypothetical_natural_size_upper = coefficient_iv * epsilon_iv ** 4\n        check(f'synthetic_qR_{epsilon_q}_original_chi_back_substitution',\n              bounds(coefficient_iv * epsilon_iv ** 4 * original_chi ** 2)[0] <= Fraction(1, 4)\n              <= bounds(coefficient_iv * epsilon_iv ** 4 * original_chi ** 2)[1])\n        check(f'synthetic_qR_{epsilon_q}_conditional_prior_chi_le1_excludes_both_ratios',\n              bounds(hypothetical_natural_size_upper)[1] < Fraction(1, 4)\n              and bounds(hypothetical_natural_size_upper)[1] < bounds(alternative_rate_ratio)[0])\n        controls.append({'synthetic_dimensionless_qR': str(epsilon_q),\n                         'original_required_abs_chi': serial_interval(original_chi),\n                         'alternative_required_abs_chi': serial_interval(alternative_chi),\n                         'hypothetical_prior_abs_chi_le1_rate_ratio_upper': serial_interval(hypothetical_natural_size_upper),\n                         'interpretation': 'Teaching control only. No photon energy, radius, nucleus or universal chi prior has been supplied.'})\n\n    Qabs, B2min = sp.symbols('Q_abs B2_min', positive=True)\n    B4_upper = Qabs ** 2 * radius ** 8 * 9 / (4 * sp.pi)\n    conditional_chi_squared_upper = sp.simplify(B4_upper / (radius ** 4 * B2min))\n    check('conditional_support_norm_bound_algebra', conditional_chi_squared_upper == 9 * Qabs ** 2 * radius ** 4 / (4 * sp.pi * B2min))\n    check('no_uniform_chi_bound_without_positive_B2_floor', sp.limit(conditional_chi_squared_upper, B2min, 0, dir='+') == sp.oo)\n    # The source rate formula remains defined when M2=0; the ratio chart does not.\n    check('E2_zero_leaves_E2_rate_zero', T2.subs(M2_abs, 0) == 0)\n    for path, before in input_bytes.items():\n        check(f'{path.stem}_bytes_unchanged_after', path.read_bytes() == before)\n    for path, expected in RAW_HASHES.items():\n        check(f'{path.stem}_raw_identity_after', hashlib.sha256(path.read_bytes()).hexdigest() == expected)\n    code_bytes = Path(__file__).read_bytes()\n    return {\n        'schema_version': 1, 'created_at_utc': datetime.now(timezone.utc).isoformat(),\n        'artifact_kind': 'bounded-Day8-L2-electric-E4-E2-dimensionless-rate-hierarchy',\n        'status': 'exact_electric_hierarchy_and_conditional_matrix_element_requirements',\n        'day_index': 8, 'run_closed': False, 'new_source_or_course_card': False, 'new_session_or_goal': False,\n        'experimental_data_fit': False, 'L4': False,\n        'evidence_class': 'Direct source rate/operator premises plus our exact same-electric-type ratio derivation, conditional norm bound and certified-box arithmetic.',\n        'inputs': [{'path': str(path.relative_to(ROOT)), 'sha256': expected} for path, expected in INPUT_HASHES.items()],\n        'sources': [{'page': 'knowledge/sources/lange-kumar-hamilton-1982-multipole-admixtures.md',\n                     'raw_path': str(LKH_RAW.relative_to(ROOT)), 'raw_sha256': RAW_HASHES[LKH_RAW],\n                     'locators': ['printed121/PDF3 Eq2.2 photon rate', 'printed121/PDF3 Eq2.3a B and final-bra RME',\n                                  'printed121/PDF3 Eq2.3b point-charge electric operator']},\n                    {'page': 'knowledge/sources/rose-brink-1967-phase-defined-angular-distributions.md',\n                     'raw_path': str(RB_RAW.relative_to(ROOT)), 'raw_sha256': RAW_HASHES[RB_RAW],\n                     'locators': ['printed313/PDF8 Eq3.3 and long-wave line below', 'printed314/PDF9 Eq3.12 and footnote9',\n                                  'printed318/PDF13 Eqs3.29,3.30 and footnote12']}],\n        'visually_audited_existing_images': [{'locator': locator, 'path': str(path.relative_to(ROOT)),\n                                              'sha256': hashlib.sha256(path.read_bytes()).hexdigest()} for locator, path in IMAGES.items()],\n        'source_formulas': {'LKH82_Eq2_2': 'Tgamma(EL;Ji->Jf)=C_L*q^(2L+1)*B(EL)/hbar; C_L=8pi(L+1)/(L[(2L+1)!!]^2)',\n                            'LKH82_Eq2_3a': 'B(EL)=|<Jf||M(EL)||Ji>|^2/(2Ji+1), also sum_(mu,Mf)|<JfMf|M(EL,mu)|JiMi>|^2 for fixed Mi',\n                            'LKH82_Eq2_3b': 'M(EL,mu)=sum_k e[1/2-t_z(k)] r_k^L Y_Lmu(Omega_k); t_z=+1/2 neutron, -1/2 proton',\n                            'RB67_long_wave': 'j_L(qr) approximately (qr)^L/(2L+1)!! when qr<<1; Eq3.12 inserts this approximation into the multipole fields',\n                            'RB67_Eq3_29_use': 'For fixed photon energy, normalized RB a_L=<Ji||T_L||Jf>/sqrt(2L+1) has partial photon rate proportional to |a_L|^2; fraction_E4/fraction_E2=Tgamma(E4)/Tgamma(E2)',\n                            'RB67_Eq3_30_use': 'The source Weisskopf rate retains k^(2L+1) with G_L in its own RME/spherical-harmonic convention. Its (2L-1)!! and extra 1/(2L+1) must not be substituted into the LKH bare M definition.',\n                            'current_and_retardation_boundary': 'RB314 footnote9 requires consistent charge/current continuity and interaction; RB318 footnote12 retains an energy-dependent electric Qprime contribution, described as usually small. It is not asserted identically zero.'},\n        'definitions_and_units': {'fixed_transition': 'Same Ji,Jf, photon energy and electric type for E2/E4; here the first ideal 2+->2+ transition',\n                                  'q': 'E_gamma/(hbar*c), units inverse length',\n                                  'R': 'A specified physical length reference for the transition matrix elements. R is not dimensionless and is not automatically a hard support radius.',\n                                  'epsilon': 'qR, dimensionless',\n                                  'M_E2': '<Jf||M(E2)||Ji>, units charge*length^2 in the common source convention',\n                                  'M_E4': '<Jf||M(E4)||Ji>, units charge*length^4',\n                                  'chi': 'M_E4/(R^2*M_E2), dimensionless, defined only if M_E2!=0; rate extraction determines |chi| only',\n                                  'B_ratio': 'B(E4)/B(E2)=R^4*|chi|^2, units length^4',\n                                  'Gaussian_unit_check': '[e^2]=energy*length, [B(EL)]=energy*length^(2L+1), [q^(2L+1)B/hbar]=time^-1. This is not a numerical SI conversion.',\n                                  'reference_rescaling': 'R->sR gives chi->chi/s^2; (qR)^4|chi|^2 is invariant. A natural-size statement needs a physically justified fixed reference and operator/state model.',\n                                  'RB_chart_mapping': 'The fitted a_E4/a_E2 already contains energy and multipole coefficients. It is not the bare charge-operator ratio M_E4/M_E2 or chi.'},\n        'exact_hierarchy': {'five_double_factorial': '15', 'nine_double_factorial': '945',\n                            'C2': txt(c2), 'C4': txt(c4), 'C4_over_C2': txt(coefficient),\n                            'coefficient_derivation': '(5/4)/(3/2) * (5!!/9!!)^2 = (5/6)*(15/945)^2 = 5/23814',\n                            'rate_ratio': 'Tgamma(E4)/Tgamma(E2)=(5/23814)*(qR)^4*|chi|^2',\n                            'required_chi': '|chi|=63*sqrt(6*r42/5)/(qR)^2, r42=Tgamma(E4)/Tgamma(E2)',\n                            'truncation_condition': 'For a selected rate-ratio tolerance eta>0 and an independently justified |chi|<=X, C*(qR)^4*X^2<=eta is a sufficient bound on this one photon-rate ratio.',\n                            'inverse_tolerance': '|chi|<=sqrt(eta/C)/(qR)^2 iff r42<=eta, with C=5/23814',\n                            'approximation_status': 'The coefficient and algebra are exact within the quoted long-wavelength electric charge-operator rate description. Finite-q/current corrections and a uniform relative error bound require additional operator/state control.'},\n        'ideal_pair_requirements': {\n            'original_seed': {'amplitude_chart': ['1', '1/2', '1/3', '1/4'], 'E4_over_E2_photon_rate_ratio_exact': txt(original_rate_ratio),\n                              'abs_chi_prefactor_exact': txt(original_chi_prefactor),\n                              'abs_chi_function': f'({txt(original_chi_prefactor)})/(qR)^2'},\n            'certified_alternative': {'parameters_source': str(GLOBAL.relative_to(ROOT)), 'same_certified_box_verified': True,\n                                      'box_endpoint_exact_finite_decimals': cert['box_endpoint_exact_finite_decimals'],\n                                      'E4_over_E2_photon_rate_ratio_interval': serial_interval(alternative_rate_ratio),\n                                      'abs_chi_prefactor_interval': serial_interval(alternative_prefactor_iv),\n                                      'abs_chi_function': 'sqrt(r42/C)/(qR)^2; r42=(z/x)^2 within the certified parameter box'},\n            'synthetic_controls': controls,\n            'interpretation': 'The ideal inverse branches do not carry identical implied charge-matrix-element ratios at a chosen qR. Their required |chi| can be compared with an independently supported state/current/strength prior. No universal |chi| bound, actual energy/radius, or nuclear exclusion is obtained here.'},\n        'optional_conditional_operator_norm_bound': {\n            'source_operator': 'LKH82 Eq2.3b only, the long-wavelength point-charge multiplication operator',\n            'added_assumptions': ['normalized initial/final many-body states and an orthonormal final multiplet',\n                                  'fixed finite particle/charge sector, Q_abs=sum_k|e_k|>0',\n                                  'all relevant wavefunction support satisfies r_k<=R about the same specified origin',\n                                  'standard normalized Y_Lmu with sum_mu|Y_Lmu|^2=(2L+1)/(4pi)',\n                                  'no uncontrolled effective-charge, exchange/current, finite-q or support-tail terms outside the adopted operator'],\n            'our_proof': 'At each configuration, the vector of multipole components has Euclidean norm <=Q_abs*R^L*sqrt((2L+1)/(4pi)) by the triangle inequality and the spherical-harmonic addition identity. Initial-state normalization bounds sum_mu||M_Lmu|i>||^2. Projection on the chosen final multiplet can only reduce this sum; Eq2.3a gives B(EL).',\n            'absolute_strength_bound': 'B(EL;i->f)<=Q_abs^2*R^(2L)*(2L+1)/(4pi)',\n            'E4_bound': 'B(E4)<=9*Q_abs^2*R^8/(4pi)',\n            'required_independent_lower_bound': 'If B(E2)>=B2_min>0, then |chi|^2<=9*Q_abs^2*R^4/(4pi*B2_min). In terms of beta2_min=B2_min/(Q_abs^2*R^4), the bound is 9/(4pi*beta2_min).',\n            'no_universal_ratio_bound': 'No B2_min, wavefunctions, charge/current model or strict support has been supplied. The absolute upper bound alone gives no finite universal |chi| bound; it diverges as B2_min->0.',\n            'support_boundary': 'A typical physical radius does not imply compact wavefunction support. Real support tails or a projected-space moment bound require their own controlled estimates.',\n            'attribution': 'This norm inequality is our conditional mathematical derivation, not a bound reported by LKH82 or RB67 and not a selection rule.'},\n        'failure_boundaries': {'E2_zero': 'If M_E2=0 and M_E4!=0, both chi and Tgamma(E4)/Tgamma(E2) cease to be finite ratio coordinates; small qR does not restore that chart. If both vanish, the ratio is 0/0.',\n                               'E2_hindrance': 'A very small lower matrix element can make |chi| large. The rate hierarchy cannot be judged from qR alone.',\n                               'natural_size_prior': 'A hypothesis such as |chi|<=1 is a separately added prior. Selection rules permit ranks; they do not provide that upper bound or a nonzero E2 floor.',\n                               'nonuniform_long_wave_limit': 'For fixed finite chi, r42 goes to zero as (qR)^4. An illustrative family chi=(qR)^-2 instead keeps r42=C; this is an algebraic counter-control, not a constructed nuclear wavefunction.',\n                               'angular_truncation': 'A small omitted partial rate is not itself a uniform angular/polarization-error bound: interference enters at the omitted amplitude scale sqrt(r42), with response/population and denominator conditions. This route bounds only E4 relative to E2 photon rates.',\n                               'other_units_or_channels': 'No magnetic hierarchy, E/M unit comparison, total transition rate, internal conversion, lifetime or other-branch truncation is derived.',\n                               'not_proved': ['microscopic realizability of either ideal branch', 'a universal bound on chi', 'an actual E_gamma or nuclear radius',\n                                              'a detector-level model-error tolerance', 'all higher multipoles negligible']},\n        'termination': 'The source-defined coefficient, conditional hierarchy, two ideal-seed requirements and failure boundaries are complete. No new source, nucleus, model fit or hierarchy route is opened.',\n        'checks': {'results': checks, 'passed': sum(checks.values()), 'failures': 0, 'elapsed_seconds': time.monotonic() - started},\n        'changed_paths': [str(Path(__file__).relative_to(ROOT)), str(OUT.relative_to(ROOT))],\n        'reproducibility': {'script_path': str(Path(__file__).relative_to(ROOT)), 'script_sha256': hashlib.sha256(code_bytes).hexdigest(),\n                            'source_code': code_bytes.decode('utf-8'), 'python': platform.python_version(), 'sympy': sp.__version__,\n                            'mpmath': mp.__version__, 'dependencies': str(DEPS.relative_to(ROOT)),\n                            'check_command': 'python3 tmp/day8-20261007/lange-kumar/electric-rank-hierarchy/electric_rank_hierarchy.py',\n                            'write_command': 'python3 tmp/day8-20261007/lange-kumar/electric-rank-hierarchy/electric_rank_hierarchy.py --write-receipt',\n                            'write_policy': 'Exclusive owned receipt only; existing global/ratio/LKH inputs, raw, source images, canonical/report/run/state/PLAN/Git unchanged.'},\n    }\n\n\ndef main():\n    parser = argparse.ArgumentParser(description=__doc__)\n    parser.add_argument('--write-receipt', action='store_true')\n    args = parser.parse_args()\n    result = main_result()\n    if args.write_receipt:\n        with OUT.open('x', encoding='utf-8', newline='\\n') as stream:\n            json.dump(result, stream, ensure_ascii=False, indent=2)\n            stream.write('\\n')\n    print(json.dumps({'artifact': str(OUT.relative_to(ROOT)) if args.write_receipt else None,\n                      'status': result['status'], 'C4_over_C2': result['exact_hierarchy']['C4_over_C2'],\n                      'original_chi_prefactor': result['ideal_pair_requirements']['original_seed']['abs_chi_prefactor_exact'],\n                      'alternative_rate_ratio_display_interval': result['ideal_pair_requirements']['certified_alternative']['E4_over_E2_photon_rate_ratio_interval']['numeric_display_only'],\n                      'alternative_chi_prefactor_display_interval': result['ideal_pair_requirements']['certified_alternative']['abs_chi_prefactor_interval']['numeric_display_only'],\n                      'synthetic_controls': [{'qR': row['synthetic_dimensionless_qR'],\n                                             'original_chi_display': row['original_required_abs_chi']['numeric_display_only'],\n                                             'alternative_chi_display': row['alternative_required_abs_chi']['numeric_display_only']} for row in result['ideal_pair_requirements']['synthetic_controls']],\n                      'checks': result['checks']['passed'], 'elapsed_seconds': result['checks']['elapsed_seconds'],\n                      'run_closed': False}, ensure_ascii=False, indent=2))\n\n\nif __name__ == '__main__':\n    main()\n",
+    "python": "3.12.3",
+    "sympy": "1.14.0",
+    "mpmath": "1.3.0",
+    "dependencies": "tmp/day8-20261007/rose-brink/python-deps",
+    "check_command": "python3 tmp/day8-20261007/lange-kumar/electric-rank-hierarchy/electric_rank_hierarchy.py",
+    "write_command": "python3 tmp/day8-20261007/lange-kumar/electric-rank-hierarchy/electric_rank_hierarchy.py --write-receipt",
+    "write_policy": "Exclusive owned receipt only; existing global/ratio/LKH inputs, raw, source images, canonical/report/run/state/PLAN/Git unchanged."
+  }
+}

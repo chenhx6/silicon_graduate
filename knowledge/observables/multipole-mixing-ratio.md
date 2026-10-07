@@ -3,7 +3,7 @@ type: observable
 title: 多极混合比
 aliases: [multipole mixing ratio, E2/M1 mixing ratio, mixing ratio, δ]
 created: 2026-07-01
-updated: 2026-10-07
+updated: 2026-10-08
 status: active
 review_status: unreviewed
 observable_kind: electromagnetic-transition-observable
@@ -188,6 +188,42 @@ pureE2也映为三成分非零的(5/21,2√14/21,2√10/7)，fractions=(25/441,8
 LKH82-7将RB67-14 pair与selection-allowed E0相连。在明确no-penetration/no-pair/complete inventory模型，κ_j=Σf_L,jα_e,total,L，若αobs≥maxκ且λγ、Ω_e,total>0，取T_j(E0)=λγ(αobs−κ_j)，两不同fractions同时有same photon curves/gamma scale、total ICC与τ^-1=λγ(1+αobs)。α低于某κ的非负约束可以排除此model；λγ/τ一致性失败不能靠E0任意修复。
 
 额外shell contrast d_s=η_s(κ_b−κ_a)−(κ_s,b−κ_s,a)，η_s=Ω_s/ΣΩ；d_s可测时shell/total提供新约束，全部δκ_s=η_sδκtot时仍无法分开。shell/shell比可能盲于同比例差异，counts共用的统计covariance与独立信息数要分别记录。详细47-check、单位、reference-zero/closed-shell边界与Poisson特例在[[lange-kumar-hamilton-1982-multipole-admixtures]]；没有赋原子数值或实际核素。
+
+### penetration 的基线与 E0 排除条件
+
+[[lange-kumar-hamilton-1982-multipole-admixtures]] LKH82-12（p.169/PDF51）明给 `αM1(λpen)=αM1,ref[1+B1λpen+B2λpen²]`，作者叙述为增强 IC；本题没有系数或允许 λ 域。固定基线 κ 下非负 E0 要求 αobs≥κ；未知修正时应核物理允许域中的 lower bound，不能任意改 κ 或忽略作者的增强条件。独立固定 t=δ²、M1/E2 截断、E2 不修正且修正 M1 系数非负时，仍有 `κK≥t αK(E2)/(1+t)` 的条件下界。未知 t 或 electric correction 可使该下界失效。
+
+KB08 p.207–208 Eq.24/NP–SC 比较表明，现代 DF/FO 已近似含 SC penetration，不可未经 reference mapping 再乘 NP/Hager 修正。FO/NH 是 vacancy 选择，No Hole 不意味着 no penetration。固定 λ 时 scalar ICC 仍不给 δ 的符号；线性 B1λ 可含 penetration 参数自身的符号信息，需与 photon mixing phase 分开。完整零参考率、E0/penetration 分配和 K/total 寿命边界见 LKH82 source；35项符号推导不作为真实核修正或实验结果。
+
+### 级联对单 γ 多解的判别依赖几何与相干
+
+[[rose-brink-1967-phase-defined-angular-distributions]] RB67-17 扩展原2+→2+ U pair为一条合成2+→2+→0+、独立pureE2末支。第一 γ 沿初始alignment轴时，两支整个中间态 R 相等，任何固定次级分析器都盲；只把第一 γ 改至θ1=π/3、第二保持θ2=π/4（φ均0）后，pure边界ΔW12=45/256、full-support ΔW12≈0.02288275。Δ为归一强度差，不是实验DCO阈值或全局唯一证明。
+
+该对的判别来自第一 γ 坐标系内 off-diagonal spin coherence；random初态或理想该轴dephasing使差异归零。Odd Q可存在于even K张量，不能混同。R的trace是W1，conditional density才是R/W1；W12/W1与joint W12的统计信息还需共享计数/归一协方差。末支、多极截断、布居/响应与中间寿命/deorientation必须独立取证。原Eq3.73 random-source/two-component条件及148项相位/完整Ω归一核验见source，不向真实核素外推。
+
+### 同一个级联观测可补局部约束，但不增加重复信息
+
+RB67-18 在旧 `(x,y,z,p0,p1)=(1/2,1/3,1/4,1/4,1/4)`、相同2+→2+→0+/pureE2/离轴角点，加一个 normalized W12 使 unknown-population rank4→5；旧核导数及5×5行列式都经56项精确核验。它给该模型/seed附近的局部逆，不证明所有振幅、Jπ和布居候选全局唯一。独立已知布居的rank3→3仍可增进离散branch判别，rank与global ambiguity须分开。
+
+等布居仅使固定population的amplitude rank0→1（unknown p时rank2→3），不够完整反演；“随机初态对该U pair盲”不等于“级联对所有amplitudes都盲”。`W12/W1` 与W12通过已知形状确定的正W1作可逆行变换，只能作为等价替代信息，需要共享 covariance。未标定的coincidence-yield尺度是额外nuisance，不在五变量满秩证明内。精确证书、source/归一条件见[[rose-brink-1967-phase-defined-angular-distributions]] Local Rank with One Cascade Coordinate。
+
+### 加一个级联约束后，局部inverse仍可有全局分支
+
+RB67-19 在RB67-18同一五normalized outputs下，用可复现interval contraction认证第二个正布居、不同fractions解。原exactseed和新盒中的zero各自local rank5，仍映到同四shapes+一个W12；conditionalW12/W1也随之相同。盒中“唯一”仅为该邻域，不是全局所有roots唯一。证明用exacttarget/radical多项式、positive S清分母和严格端点/收缩界，非只靠数值residual。
+
+第二分支改变了布居，结论只给unknown-population模型，不能反证independently fixed-population切片的唯一性。两chartγ份额不同不等于真实核可实现/同等可信；共同many-body current、long-wave/absolute-rate约束和response须另核。27-check parent复现与58-check独立审计及两组参数到[[rose-brink-1967-phase-defined-angular-distributions]]；不作核素实验结论或L4。
+
+### 配对反证可设计消产额比值，需独立标定
+
+RB67-20 对认证global pair仅加预定secondaryθ2=0、保留firstθ1π/3，以旧θ2π/4为分母，新/旧理想W12为约0.42419270与0.37276339，interval差严格排除0。`μj=c εj Wtilde_j`中的共同c能被比值消去，前提是same selected population/cascade/ordering/时间窗及独立relative-efficiency/acceptance标定。不同选择留下ca/cb，counts/ε不能自动纠正finite acceptance；这不是通用DCO数值或所有候选全局唯一证明。
+
+28-check及原box传播到[[rose-brink-1967-phase-defined-angular-distributions]]，无counts/covariance或finite-count separability。Shared gate/calibration与derived ratio需joint传播，零观测分母另处理；不能把理论pair差直接写成实验排除。
+
+### 用长波与矩阵元约束说明率截断
+
+LKH82-14 用同pair的E4/E2 physical electric RME定义 `χ=M4/(R²M2)`，在所用long-wave rate近似内给 `r42=(5/23814)(qR)^4|χ|²`。小qR还需独立|χ|界或absolute-strength/matrix-element约束；选择定则不提供χ自然尺度，lower M2 hindered/zero尤其需要另核。RB normalized辐射振幅已经含energy/multipole因素，不能将aE4/aE2直接当χ。
+
+Formal global pair分别需约34.5065和100.6230除(qR)²的|χ|；未给真实E/R/current，不据此排除真实核模型。一个partial-rate小也不意味着角分布/偏振误差同样小，interference按振幅尺度进入。系数、单位和ratio端点46项核验及source current/retardation条件见[[lange-kumar-hamilton-1982-multipole-admixtures]]，不外推M3/M1或所有高阶都可忽略。
 
 ## How It Is Obtained
 

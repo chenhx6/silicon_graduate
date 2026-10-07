@@ -1,0 +1,3556 @@
+{
+  "schema_version": 1,
+  "created_at_utc": "2026-10-07T13:35:31.378350+00:00",
+  "artifact_kind": "bounded-Day8-L2-five-observable-global-branch-counterexample",
+  "status": "second_physical_branch_exists_by_interval_contraction_certificate",
+  "day_index": 8,
+  "run_closed": false,
+  "new_source_or_course_card": false,
+  "new_session_or_goal": false,
+  "experimental_data_fit": false,
+  "L4": false,
+  "evidence_class": "Our synthetic normalized inverse problem, high-precision root search and interval self-audit; not a source-authored experiment.",
+  "inputs": [
+    {
+      "path": "outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/cascade-local-rank.json",
+      "sha256": "0a89fe75b014987ba7ed3cb1d3525dfc593a63ed35e0d207318b436ae30591ac"
+    },
+    {
+      "path": "outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/cascade-companion-discriminant.json",
+      "sha256": "d4370e9e1b616fa229a3443289758c033ce24cab3603b3d33c6ae8a790edf9a0"
+    },
+    {
+      "path": "outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/four-multipole-observable-rank.json",
+      "sha256": "42b7c697dc6522fa384e0934fc545a0010a614ff2af3cfcbf767729242bf5f48"
+    },
+    {
+      "path": "outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/four-multipole-fixed-population-pair.json",
+      "sha256": "b5a7ea2f727264b9d3ff56f4fec25302d326baab1ec67fd9774dea3d2522b8fd"
+    }
+  ],
+  "source": {
+    "page": "knowledge/sources/rose-brink-1967-phase-defined-angular-distributions.md",
+    "raw_path": "raw/papers/gpt/high-spin-20260920/multipolarity/mixing ratio/1967_Rose et al_Angular Distributions of Gamma Rays in Terms of Phase-Defined Reduced Matrix Elements.pdf",
+    "raw_sha256": "8f846b61b9320de291ee5600126c5e286a0fe05968df819696816f0dc1ec57dc",
+    "locators": [
+      "RB67 printed p312/PDF7 footnote7: rotation sign",
+      "printed p316/PDF11 Eq3.24, coherent sums and WE relation after Eq3.25",
+      "printed p317/PDF12 Eq3.28; printed p318/PDF13 Eq3.29; printed p319/PDF14 Eqs3.36,3.39",
+      "printed p325/PDF20 SecIII.F.3 random initial restriction; printed p326/PDF21 Eqs3.71-3.73 cascade phase",
+      "printed p335/PDF30: noncylindrical density-matrix treatment"
+    ],
+    "boundary": "Full coherent amplitudes and previous exact joint Gram matrices underlie the aligned four-multipole cascade. Compact random-initial Eq3.73 is not substituted into this five-variable problem."
+  },
+  "scope": {
+    "cascade": "2+ -> 2+ -> 0+",
+    "second_gate": "independently pure E2",
+    "fixed_geometry": {
+      "theta1": "pi/3",
+      "theta2": "pi/4",
+      "phi1_phi2": [
+        "0",
+        "0"
+      ]
+    },
+    "output_order": [
+      "A2",
+      "A4",
+      "L2",
+      "L4",
+      "W12"
+    ],
+    "input_order": [
+      "x",
+      "y",
+      "z",
+      "p0",
+      "p1"
+    ],
+    "relative_amplitude_chart": "(a_M1,a_E2,a_M3,a_E4)=(1,x,y,z), real RB amplitudes",
+    "population": "w0=p0,w(+/-1)=p1/2,w(+/-2)=p2/2,p2=1-p0-p1; positive unknown axial aligned populations",
+    "scale": "S=1+x^2+y^2+z^2 is relative-chart normalization. Neither common amplitude scale nor absolute width/yield is an observable in this map.",
+    "target_seed": {
+      "x": "1/2",
+      "y": "1/3",
+      "z": "1/4",
+      "p0": "1/4",
+      "p1": "1/4"
+    },
+    "target_outputs_exact": [
+      "-7617/160720 + 24*sqrt(70)/10045 + 213*sqrt(6)/10045 + 141*sqrt(105)/20090",
+      "-213*sqrt(6)/10045 - 18*sqrt(105)/10045 - 607/40180 + 186*sqrt(70)/10045",
+      "-3371/160720 - 13*sqrt(105)/10045 + sqrt(6)/980 + 6*sqrt(70)/10045",
+      "-83*sqrt(6)/40180 - 53*sqrt(70)/100450 + 2*sqrt(105)/50225 + 283/120540",
+      "-3195*sqrt(2)/73472 + 1647*sqrt(6)/73472 + 1605*sqrt(105)/293888 + 163145*sqrt(3)/2351104 + 10449*sqrt(35)/293888 + 543*sqrt(210)/36736 + 15*sqrt(70)/574 + 2300929/2351104"
+    ],
+    "target_relative_chart_S": "205/144",
+    "target_local_rank": 5,
+    "target_local_determinant_exact": "-146983437783690849*sqrt(210)/1788304044318108800000 - 2054206767675548529*sqrt(3)/3576608088636217600000 - 198640028741277897*sqrt(70)/1788304044318108800000 - 3219835137996676347/3576608088636217600000 + 55910920854362733*sqrt(105)/894152022159054400000 + 153965344674898719*sqrt(6)/510944012662316800000 + 36488454003954927*sqrt(35)/223538005539763600000 + 411243526226892699*sqrt(2)/510944012662316800000",
+    "assumptions": [
+      "known spin/parity sequence and alignment axis",
+      "real relative RMEs",
+      "identified photon ordering",
+      "isolated coherent intermediate spin without deorientation in the model",
+      "unobserved photon polarizations",
+      "normalized joint intensity with ideal point geometry"
+    ]
+  },
+  "polynomial_system": {
+    "definition": "F_i(v)=N_i(v)-target_i*S(v); S>=1 in the real chart, so zeros are exactly equal normalized outputs.",
+    "exact_equations": [
+      "-15*p0*x**2/49 - 16*sqrt(70)*p0*x*y/49 - 40*sqrt(6)*p0*x*z/49 - 2*sqrt(105)*p0*x/7 + 3*p0*y**2/7 - 10*sqrt(105)*p0*y*z/49 - 8*sqrt(6)*p0*y/7 + 85*p0*z**2/49 + p0 - 45*p1*x**2/196 - 12*sqrt(70)*p1*x*y/49 - 30*sqrt(6)*p1*x*z/49 - 3*sqrt(105)*p1*x/14 + 9*p1*y**2/28 - 15*sqrt(105)*p1*y*z/98 - 6*sqrt(6)*p1*y/7 + 255*p1*z**2/196 + 3*p1/4 - 141*sqrt(105)*x**2/20090 - 213*sqrt(6)*x**2/10045 - 24*sqrt(70)*x**2/10045 + 32217*x**2/160720 + 8*sqrt(70)*x*y/49 + 20*sqrt(6)*x*z/49 + sqrt(105)*x/7 - 26823*y**2/160720 - 141*sqrt(105)*y**2/20090 - 213*sqrt(6)*y**2/10045 - 24*sqrt(70)*y**2/10045 + 5*sqrt(105)*y*z/49 + 4*sqrt(6)*y/7 - 131783*z**2/160720 - 141*sqrt(105)*z**2/20090 - 213*sqrt(6)*z**2/10045 - 24*sqrt(70)*z**2/10045 - 72743/160720 - 141*sqrt(105)/20090 - 213*sqrt(6)/10045 - 24*sqrt(70)/10045",
+      "-20*p0*x**2/49 + 25*sqrt(70)*p0*x*y/98 - 25*sqrt(6)*p0*x*z/98 - 5*p0*y**2/28 - 15*sqrt(105)*p0*y*z/98 - 5*sqrt(6)*p0*y/14 + 45*p0*z**2/196 + 5*sqrt(70)*p0*z/14 + 20*p1*x**2/49 - 25*sqrt(70)*p1*x*y/98 + 25*sqrt(6)*p1*x*z/98 + 5*p1*y**2/28 + 15*sqrt(105)*p1*y*z/98 + 5*sqrt(6)*p1*y/14 - 45*p1*z**2/196 - 5*sqrt(70)*p1*z/14 - 186*sqrt(70)*x**2/10045 - 2673*x**2/40180 + 18*sqrt(105)*x**2/10045 + 213*sqrt(6)*x**2/10045 + 5*sqrt(70)*x*y/98 - 5*sqrt(6)*x*z/98 - 186*sqrt(70)*y**2/10045 - 207*y**2/10045 + 18*sqrt(105)*y**2/10045 + 213*sqrt(6)*y**2/10045 - 3*sqrt(105)*y*z/98 - sqrt(6)*y/14 - 186*sqrt(70)*z**2/10045 + 18*sqrt(105)*z**2/10045 + 213*sqrt(6)*z**2/10045 + 613*z**2/10045 + sqrt(70)*z/14 - 186*sqrt(70)/10045 + 607/40180 + 18*sqrt(105)/10045 + 213*sqrt(6)/10045",
+      "-15*p0*x**2/98 - 4*sqrt(70)*p0*x*y/49 + 10*sqrt(6)*p0*x*z/147 + sqrt(105)*p0*x/21 - p0*y**2/7 + 10*sqrt(105)*p0*y*z/147 - 2*sqrt(6)*p0*y/21 + 25*p0*z**2/49 + p0/2 - 45*p1*x**2/392 - 3*sqrt(70)*p1*x*y/49 + 5*sqrt(6)*p1*x*z/98 + sqrt(105)*p1*x/28 - 3*p1*y**2/28 + 5*sqrt(105)*p1*y*z/98 - sqrt(6)*p1*y/14 + 75*p1*z**2/196 + 3*p1/8 - 6*sqrt(70)*x**2/10045 - sqrt(6)*x**2/980 + 13*sqrt(105)*x**2/10045 + 15671*x**2/160720 + 2*sqrt(70)*x*y/49 - 5*sqrt(6)*x*z/147 - sqrt(105)*x/42 - 6*sqrt(70)*y**2/10045 - sqrt(6)*y**2/980 + 13*sqrt(105)*y**2/10045 + 14851*y**2/160720 - 5*sqrt(105)*y*z/147 + sqrt(6)*y/21 - 37629*z**2/160720 - 6*sqrt(70)*z**2/10045 - sqrt(6)*z**2/980 + 13*sqrt(105)*z**2/10045 - 36809/160720 - 6*sqrt(70)/10045 - sqrt(6)/980 + 13*sqrt(105)/10045",
+      "5*p0*x**2/147 + 5*sqrt(70)*p0*x*y/1176 - 15*sqrt(6)*p0*x*z/392 + 5*p0*y**2/84 + sqrt(105)*p0*y*z/294 - 5*sqrt(6)*p0*y/168 + 5*p0*z**2/196 - sqrt(70)*p0*z/56 - 5*p1*x**2/147 - 5*sqrt(70)*p1*x*y/1176 + 15*sqrt(6)*p1*x*z/392 - 5*p1*y**2/84 - sqrt(105)*p1*y*z/294 + 5*sqrt(6)*p1*y/168 - 5*p1*z**2/196 + sqrt(70)*p1*z/56 - 2*sqrt(105)*x**2/50225 + 53*sqrt(70)*x**2/100450 + 179*x**2/40180 + 83*sqrt(6)*x**2/40180 + sqrt(70)*x*y/1176 - 3*sqrt(6)*x*z/392 - 2*sqrt(105)*y**2/50225 + 53*sqrt(70)*y**2/100450 + 83*sqrt(6)*y**2/40180 + 96*y**2/10045 + sqrt(105)*y*z/1470 - sqrt(6)*y/168 - 2*sqrt(105)*z**2/50225 + 83*z**2/30135 + 53*sqrt(70)*z**2/100450 + 83*sqrt(6)*z**2/40180 - sqrt(70)*z/280 - 283/120540 - 2*sqrt(105)/50225 + 53*sqrt(70)/100450 + 83*sqrt(6)/40180",
+      "-325*p0*x**2/896 - 25*sqrt(3)*p0*x**2/448 + 235*sqrt(70)*p0*x*y/7168 + 275*sqrt(210)*p0*x*y/7168 - 2325*sqrt(2)*p0*x*z/7168 + 7125*sqrt(6)*p0*x*z/7168 - 5*sqrt(105)*p0*x/64 + 295*p0*y**2/4096 + 1555*sqrt(3)*p0*y**2/8192 + 855*sqrt(35)*p0*y*z/28672 + 3295*sqrt(105)*p0*y*z/14336 + 195*sqrt(6)*p0*y/1024 + 345*sqrt(2)*p0*y/1024 - 15875*sqrt(3)*p0*z**2/57344 + 2875*p0*z**2/28672 - 55*sqrt(210)*p0*z/1024 - 95*sqrt(70)*p0*z/1024 - 85*p0/128 - 5*sqrt(3)*p0/32 - 75*p1*x**2/128 + 225*sqrt(3)*p1*x**2/448 + 345*sqrt(210)*p1*x*y/7168 + 825*sqrt(70)*p1*x*y/7168 - 2175*sqrt(2)*p1*x*z/7168 + 425*sqrt(6)*p1*x*z/1024 - 15*sqrt(35)*p1*x/112 - 25*sqrt(105)*p1*x/448 + 765*sqrt(3)*p1*y**2/8192 + 2235*p1*y**2/4096 - 615*sqrt(35)*p1*y*z/28672 + 1355*sqrt(105)*p1*y*z/14336 - 215*sqrt(6)*p1*y/1024 - 165*sqrt(2)*p1*y/1024 - 875*p1*z**2/4096 - 6925*sqrt(3)*p1*z**2/57344 - 195*sqrt(210)*p1*z/7168 + 1165*sqrt(70)*p1*z/7168 - 5*sqrt(3)*p1/64 + 95*p1/128 - 79535*sqrt(3)*x**2/335872 - 15*sqrt(70)*x**2/574 - 543*sqrt(210)*x**2/36736 - 10449*sqrt(35)*x**2/293888 - 1605*sqrt(105)*x**2/293888 - 1647*sqrt(6)*x**2/73472 + 3195*sqrt(2)*x**2/73472 + 1044671*x**2/2351104 + 375*sqrt(70)*x*y/7168 + 255*sqrt(210)*x*y/7168 - 2375*sqrt(6)*x*z/7168 + 375*sqrt(2)*x*z/7168 + 25*sqrt(105)*x/448 + 15*sqrt(35)*x/112 - 15*sqrt(70)*y**2/574 - 543*sqrt(210)*y**2/36736 - 10449*sqrt(35)*y**2/293888 - 755*sqrt(3)*y**2/9184 - 294799*y**2/2351104 - 1605*sqrt(105)*y**2/293888 - 1647*sqrt(6)*y**2/73472 + 3195*sqrt(2)*y**2/73472 - 1745*sqrt(105)*y*z/14336 + 75*sqrt(35)*y*z/28672 - 195*sqrt(2)*y/1024 + 95*sqrt(6)*y/1024 - 15*sqrt(70)*z**2/574 - 543*sqrt(210)*z**2/36736 - 10449*sqrt(35)*z**2/293888 - 1605*sqrt(105)*z**2/293888 - 1647*sqrt(6)*z**2/73472 + 3195*sqrt(2)*z**2/73472 + 40003*z**2/335872 + 49435*sqrt(3)*z**2/293888 + 515*sqrt(70)*z/7168 + 475*sqrt(210)*z/7168 - 15*sqrt(70)/574 - 543*sqrt(210)/36736 - 10449*sqrt(35)/293888 - 188609/2351104 - 1605*sqrt(105)/293888 - 1647*sqrt(6)/73472 + 3195*sqrt(2)/73472 + 204215*sqrt(3)/2351104"
+    ],
+    "coefficient_terms": [
+      [
+        {
+          "powers": [
+            2,
+            0,
+            0,
+            1,
+            0
+          ],
+          "radical_components": [
+            [
+              1,
+              -15,
+              49
+            ]
+          ]
+        },
+        {
+          "powers": [
+            2,
+            0,
+            0,
+            0,
+            1
+          ],
+          "radical_components": [
+            [
+              1,
+              -45,
+              196
+            ]
+          ]
+        },
+        {
+          "powers": [
+            2,
+            0,
+            0,
+            0,
+            0
+          ],
+          "radical_components": [
+            [
+              1,
+              32217,
+              160720
+            ],
+            [
+              6,
+              -213,
+              10045
+            ],
+            [
+              70,
+              -24,
+              10045
+            ],
+            [
+              105,
+              -141,
+              20090
+            ]
+          ]
+        },
+        {
+          "powers": [
+            1,
+            1,
+            0,
+            1,
+            0
+          ],
+          "radical_components": [
+            [
+              70,
+              -16,
+              49
+            ]
+          ]
+        },
+        {
+          "powers": [
+            1,
+            1,
+            0,
+            0,
+            1
+          ],
+          "radical_components": [
+            [
+              70,
+              -12,
+              49
+            ]
+          ]
+        },
+        {
+          "powers": [
+            1,
+            1,
+            0,
+            0,
+            0
+          ],
+          "radical_components": [
+            [
+              70,
+              8,
+              49
+            ]
+          ]
+        },
+        {
+          "powers": [
+            1,
+            0,
+            1,
+            1,
+            0
+          ],
+          "radical_components": [
+            [
+              6,
+              -40,
+              49
+            ]
+          ]
+        },
+        {
+          "powers": [
+            1,
+            0,
+            1,
+            0,
+            1
+          ],
+          "radical_components": [
+            [
+              6,
+              -30,
+              49
+            ]
+          ]
+        },
+        {
+          "powers": [
+            1,
+            0,
+            1,
+            0,
+            0
+          ],
+          "radical_components": [
+            [
+              6,
+              20,
+              49
+            ]
+          ]
+        },
+        {
+          "powers": [
+            1,
+            0,
+            0,
+            1,
+            0
+          ],
+          "radical_components": [
+            [
+              105,
+              -2,
+              7
+            ]
+          ]
+        },
+        {
+          "powers": [
+            1,
+            0,
+            0,
+            0,
+            1
+          ],
+          "radical_components": [
+            [
+              105,
+              -3,
+              14
+            ]
+          ]
+        },
+        {
+          "powers": [
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          "radical_components": [
+            [
+              105,
+              1,
+              7
+            ]
+          ]
+        },
+        {
+          "powers": [
+            0,
+            2,
+            0,
+            1,
+            0
+          ],
+          "radical_components": [
+            [
+              1,
+              3,
+              7
+            ]
+          ]
+        },
+        {
+          "powers": [
+            0,
+            2,
+            0,
+            0,
+            1
+          ],
+          "radical_components": [
+            [
+              1,
+              9,
+              28
+            ]
+          ]
+        },
+        {
+          "powers": [
+            0,
+            2,
+            0,
+            0,
+            0
+          ],
+          "radical_components": [
+            [
+              1,
+              -26823,
+              160720
+            ],
+            [
+              6,
+              -213,
+              10045
+            ],
+            [
+              70,
+              -24,
+              10045
+            ],
+            [
+              105,
+              -141,
+              20090
+            ]
+          ]
+        },
+        {
+          "powers": [
+            0,
+            1,
+            1,
+            1,
+            0
+          ],
+          "radical_components": [
+            [
+              105,
+              -10,
+              49
+            ]
+          ]
+        },
+        {
+          "powers": [
+            0,
+            1,
+            1,
+            0,
+            1
+          ],
+          "radical_components": [
+            [
+              105,
+              -15,
+              98
+            ]
+          ]
+        },
+        {
+          "powers": [
+            0,
+            1,
+            1,
+            0,
+            0
+          ],
+          "radical_components": [
+            [
+              105,
+              5,
+              49
+            ]
+          ]
+        },
+        {
+          "powers": [
+            0,
+            1,
+            0,
+            1,
+            0
+          ],
+          "radical_components": [
+            [
+              6,
+              -8,
+              7
+            ]
+          ]
+        },
+        {
+          "powers": [
+            0,
+            1,
+            0,
+            0,
+            1
+          ],
+          "radical_components": [
+            [
+              6,
+              -6,
+              7
+            ]
+          ]
+        },
+        {
+          "powers": [
+            0,
+            1,
+            0,
+            0,
+            0
+          ],
+          "radical_components": [
+            [
+              6,
+              4,
+              7
+            ]
+          ]
+        },
+        {
+          "powers": [
+            0,
+            0,
+            2,
+            1,
+            0
+          ],
+          "radical_components": [
+            [
+              1,
+              85,
+              49
+            ]
+          ]
+        },
+        {
+          "powers": [
+            0,
+            0,
+            2,
+            0,
+            1
+          ],
+          "radical_components": [
+            [
+              1,
+              255,
+              196
+            ]
+          ]
+        },
+        {
+          "powers": [
+            0,
+            0,
+            2,
+            0,
+            0
+          ],
+          "radical_components": [
+            [
+              1,
+              -131783,
+              160720
+            ],
+            [
+              6,
+              -213,
+              10045
+            ],
+            [
+              70,
+              -24,
+              10045
+            ],
+            [
+              105,
+              -141,
+              20090
+            ]
+          ]
+        },
+        {
+          "powers": [
+            0,
+            0,
+            0,
+            1,
+            0
+          ],
+          "radical_components": [
+            [
+              1,
+              1,
+              1
+            ]
+          ]
+        },
+        {
+          "powers": [
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "radical_components": [
+            [
+              1,
+              3,
+              4
+            ]
+          ]
+        },
+        {
+          "powers": [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "radical_components": [
+            [
+              1,
+              -72743,
+              160720
+            ],
+            [
+              6,
+              -213,
+              10045
+            ],
+            [
+              70,
+              -24,
+              10045
+            ],
+            [
+              105,
+              -141,
+              20090
+            ]
+          ]
+        }
+      ],
+      [
+        {
+          "powers": [
+            2,
+            0,
+            0,
+            1,
+            0
+          ],
+          "radical_components": [
+            [
+              1,
+              -20,
+              49
+            ]
+          ]
+        },
+        {
+          "powers": [
+            2,
+            0,
+            0,
+            0,
+            1
+          ],
+          "radical_components": [
+            [
+              1,
+              20,
+              49
+            ]
+          ]
+        },
+        {
+          "powers": [
+            2,
+            0,
+            0,
+            0,
+            0
+          ],
+          "radical_components": [
+            [
+              1,
+              -2673,
+              40180
+            ],
+            [
+              6,
+              213,
+              10045
+            ],
+            [
+              70,
+              -186,
+              10045
+            ],
+            [
+              105,
+              18,
+              10045
+            ]
+          ]
+        },
+        {
+          "powers": [
+            1,
+            1,
+            0,
+            1,
+            0
+          ],
+          "radical_components": [
+            [
+              70,
+              25,
+              98
+            ]
+          ]
+        },
+        {
+          "powers": [
+            1,
+            1,
+            0,
+            0,
+            1
+          ],
+          "radical_components": [
+            [
+              70,
+              -25,
+              98
+            ]
+          ]
+        },
+        {
+          "powers": [
+            1,
+            1,
+            0,
+            0,
+            0
+          ],
+          "radical_components": [
+            [
+              70,
+              5,
+              98
+            ]
+          ]
+        },
+        {
+          "powers": [
+            1,
+            0,
+            1,
+            1,
+            0
+          ],
+          "radical_components": [
+            [
+              6,
+              -25,
+              98
+            ]
+          ]
+        },
+        {
+          "powers": [
+            1,
+            0,
+            1,
+            0,
+            1
+          ],
+          "radical_components": [
+            [
+              6,
+              25,
+              98
+            ]
+          ]
+        },
+        {
+          "powers": [
+            1,
+            0,
+            1,
+            0,
+            0
+          ],
+          "radical_components": [
+            [
+              6,
+              -5,
+              98
+            ]
+          ]
+        },
+        {
+          "powers": [
+            0,
+            2,
+            0,
+            1,
+            0
+          ],
+          "radical_components": [
+            [
+              1,
+              -5,
+              28
+            ]
+          ]
+        },
+        {
+          "powers": [
+            0,
+            2,
+            0,
+            0,
+            1
+          ],
+          "radical_components": [
+            [
+              1,
+              5,
+              28
+            ]
+          ]
+        },
+        {
+          "powers": [
+            0,
+            2,
+            0,
+            0,
+            0
+          ],
+          "radical_components": [
+            [
+              1,
+              -207,
+              10045
+            ],
+            [
+              6,
+              213,
+              10045
+            ],
+            [
+              70,
+              -186,
+              10045
+            ],
+            [
+              105,
+              18,
+              10045
+            ]
+          ]
+        },
+        {
+          "powers": [
+            0,
+            1,
+            1,
+            1,
+            0
+          ],
+          "radical_components": [
+            [
+              105,
+              -15,
+              98
+            ]
+          ]
+        },
+        {
+          "powers": [
+            0,
+            1,
+            1,
+            0,
+            1
+          ],
+          "radical_components": [
+            [
+              105,
+              15,
+              98
+            ]
+          ]
+        },
+        {
+          "powers": [
+            0,
+            1,
+            1,
+            0,
+            0
+          ],
+          "radical_components": [
+            [
+              105,
+              -3,
+              98
+            ]
+          ]
+        },
+        {
+          "powers": [
+            0,
+            1,
+            0,
+            1,
+            0
+          ],
+          "radical_components": [
+            [
+              6,
+              -5,
+              14
+            ]
+          ]
+        },
+        {
+          "powers": [
+            0,
+            1,
+            0,
+            0,
+            1
+          ],
+          "radical_components": [
+            [
+              6,
+              5,
+              14
+            ]
+          ]
+        },
+        {
+          "powers": [
+            0,
+            1,
+            0,
+            0,
+            0
+          ],
+          "radical_components": [
+            [
+              6,
+              -1,
+              14
+            ]
+          ]
+        },
+        {
+          "powers": [
+            0,
+            0,
+            2,
+            1,
+            0
+          ],
+          "radical_components": [
+            [
+              1,
+              45,
+              196
+            ]
+          ]
+        },
+        {
+          "powers": [
+            0,
+            0,
+            2,
+            0,
+            1
+          ],
+          "radical_components": [
+            [
+              1,
+              -45,
+              196
+            ]
+          ]
+        },
+        {
+          "powers": [
+            0,
+            0,
+            2,
+            0,
+            0
+          ],
+          "radical_components": [
+            [
+              1,
+              613,
+              10045
+            ],
+            [
+              6,
+              213,
+              10045
+            ],
+            [
+              70,
+              -186,
+              10045
+            ],
+            [
+              105,
+              18,
+              10045
+            ]
+          ]
+        },
+        {
+          "powers": [
+            0,
+            0,
+            1,
+            1,
+            0
+          ],
+          "radical_components": [
+            [
+              70,
+              5,
+              14
+            ]
+          ]
+        },
+        {
+          "powers": [
+            0,
+            0,
+            1,
+            0,
+            1
+          ],
+          "radical_components": [
+            [
+              70,
+              -5,
+              14
+            ]
+          ]
+        },
+        {
+          "powers": [
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "radical_components": [
+            [
+              70,
+              1,
+              14
+            ]
+          ]
+        },
+        {
+          "powers": [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "radical_components": [
+            [
+              1,
+              607,
+              40180
+            ],
+            [
+              6,
+              213,
+              10045
+            ],
+            [
+              70,
+              -186,
+              10045
+            ],
+            [
+              105,
+              18,
+              10045
+            ]
+          ]
+        }
+      ],
+      [
+        {
+          "powers": [
+            2,
+            0,
+            0,
+            1,
+            0
+          ],
+          "radical_components": [
+            [
+              1,
+              -15,
+              98
+            ]
+          ]
+        },
+        {
+          "powers": [
+            2,
+            0,
+            0,
+            0,
+            1
+          ],
+          "radical_components": [
+            [
+              1,
+              -45,
+              392
+            ]
+          ]
+        },
+        {
+          "powers": [
+            2,
+            0,
+            0,
+            0,
+            0
+          ],
+          "radical_components": [
+            [
+              1,
+              15671,
+              160720
+            ],
+            [
+              6,
+              -1,
+              980
+            ],
+            [
+              70,
+              -6,
+              10045
+            ],
+            [
+              105,
+              13,
+              10045
+            ]
+          ]
+        },
+        {
+          "powers": [
+            1,
+            1,
+            0,
+            1,
+            0
+          ],
+          "radical_components": [
+            [
+              70,
+              -4,
+              49
+            ]
+          ]
+        },
+        {
+          "powers": [
+            1,
+            1,
+            0,
+            0,
+            1
+          ],
+          "radical_components": [
+            [
+              70,
+              -3,
+              49
+            ]
+          ]
+        },
+        {
+          "powers": [
+            1,
+            1,
+            0,
+            0,
+            0
+          ],
+          "radical_components": [
+            [
+              70,
+              2,
+              49
+            ]
+          ]
+        },
+        {
+          "powers": [
+            1,
+            0,
+            1,
+            1,
+            0
+          ],
+          "radical_components": [
+            [
+              6,
+              10,
+              147
+            ]
+          ]
+        },
+        {
+          "powers": [
+            1,
+            0,
+            1,
+            0,
+            1
+          ],
+          "radical_components": [
+            [
+              6,
+              5,
+              98
+            ]
+          ]
+        },
+        {
+          "powers": [
+            1,
+            0,
+            1,
+            0,
+            0
+          ],
+          "radical_components": [
+            [
+              6,
+              -5,
+              147
+            ]
+          ]
+        },
+        {
+          "powers": [
+            1,
+            0,
+            0,
+            1,
+            0
+          ],
+          "radical_components": [
+            [
+              105,
+              1,
+              21
+            ]
+          ]
+        },
+        {
+          "powers": [
+            1,
+            0,
+            0,
+            0,
+            1
+          ],
+          "radical_components": [
+            [
+              105,
+              1,
+              28
+            ]
+          ]
+        },
+        {
+          "powers": [
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          "radical_components": [
+            [
+              105,
+              -1,
+              42
+            ]
+          ]
+        },
+        {
+          "powers": [
+            0,
+            2,
+            0,
+            1,
+            0
+          ],
+          "radical_components": [
+            [
+              1,
+              -1,
+              7
+            ]
+          ]
+        },
+        {
+          "powers": [
+            0,
+            2,
+            0,
+            0,
+            1
+          ],
+          "radical_components": [
+            [
+              1,
+              -3,
+              28
+            ]
+          ]
+        },
+        {
+          "powers": [
+            0,
+            2,
+            0,
+            0,
+            0
+          ],
+          "radical_components": [
+            [
+              1,
+              14851,
+              160720
+            ],
+            [
+              6,
+              -1,
+              980
+            ],
+            [
+              70,
+              -6,
+              10045
+            ],
+            [
+              105,
+              13,
+              10045
+            ]
+          ]
+        },
+        {
+          "powers": [
+            0,
+            1,
+            1,
+            1,
+            0
+          ],
+          "radical_components": [
+            [
+              105,
+              10,
+              147
+            ]
+          ]
+        },
+        {
+          "powers": [
+            0,
+            1,
+            1,
+            0,
+            1
+          ],
+          "radical_components": [
+            [
+              105,
+              5,
+              98
+            ]
+          ]
+        },
+        {
+          "powers": [
+            0,
+            1,
+            1,
+            0,
+            0
+          ],
+          "radical_components": [
+            [
+              105,
+              -5,
+              147
+            ]
+          ]
+        },
+        {
+          "powers": [
+            0,
+            1,
+            0,
+            1,
+            0
+          ],
+          "radical_components": [
+            [
+              6,
+              -2,
+              21
+            ]
+          ]
+        },
+        {
+          "powers": [
+            0,
+            1,
+            0,
+            0,
+            1
+          ],
+          "radical_components": [
+            [
+              6,
+              -1,
+              14
+            ]
+          ]
+        },
+        {
+          "powers": [
+            0,
+            1,
+            0,
+            0,
+            0
+          ],
+          "radical_components": [
+            [
+              6,
+              1,
+              21
+            ]
+          ]
+        },
+        {
+          "powers": [
+            0,
+            0,
+            2,
+            1,
+            0
+          ],
+          "radical_components": [
+            [
+              1,
+              25,
+              49
+            ]
+          ]
+        },
+        {
+          "powers": [
+            0,
+            0,
+            2,
+            0,
+            1
+          ],
+          "radical_components": [
+            [
+              1,
+              75,
+              196
+            ]
+          ]
+        },
+        {
+          "powers": [
+            0,
+            0,
+            2,
+            0,
+            0
+          ],
+          "radical_components": [
+            [
+              1,
+              -37629,
+              160720
+            ],
+            [
+              6,
+              -1,
+              980
+            ],
+            [
+              70,
+              -6,
+              10045
+            ],
+            [
+              105,
+              13,
+              10045
+            ]
+          ]
+        },
+        {
+          "powers": [
+            0,
+            0,
+            0,
+            1,
+            0
+          ],
+          "radical_components": [
+            [
+              1,
+              1,
+              2
+            ]
+          ]
+        },
+        {
+          "powers": [
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "radical_components": [
+            [
+              1,
+              3,
+              8
+            ]
+          ]
+        },
+        {
+          "powers": [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "radical_components": [
+            [
+              1,
+              -36809,
+              160720
+            ],
+            [
+              6,
+              -1,
+              980
+            ],
+            [
+              70,
+              -6,
+              10045
+            ],
+            [
+              105,
+              13,
+              10045
+            ]
+          ]
+        }
+      ],
+      [
+        {
+          "powers": [
+            2,
+            0,
+            0,
+            1,
+            0
+          ],
+          "radical_components": [
+            [
+              1,
+              5,
+              147
+            ]
+          ]
+        },
+        {
+          "powers": [
+            2,
+            0,
+            0,
+            0,
+            1
+          ],
+          "radical_components": [
+            [
+              1,
+              -5,
+              147
+            ]
+          ]
+        },
+        {
+          "powers": [
+            2,
+            0,
+            0,
+            0,
+            0
+          ],
+          "radical_components": [
+            [
+              1,
+              179,
+              40180
+            ],
+            [
+              6,
+              83,
+              40180
+            ],
+            [
+              70,
+              53,
+              100450
+            ],
+            [
+              105,
+              -2,
+              50225
+            ]
+          ]
+        },
+        {
+          "powers": [
+            1,
+            1,
+            0,
+            1,
+            0
+          ],
+          "radical_components": [
+            [
+              70,
+              5,
+              1176
+            ]
+          ]
+        },
+        {
+          "powers": [
+            1,
+            1,
+            0,
+            0,
+            1
+          ],
+          "radical_components": [
+            [
+              70,
+              -5,
+              1176
+            ]
+          ]
+        },
+        {
+          "powers": [
+            1,
+            1,
+            0,
+            0,
+            0
+          ],
+          "radical_components": [
+            [
+              70,
+              1,
+              1176
+            ]
+          ]
+        },
+        {
+          "powers": [
+            1,
+            0,
+            1,
+            1,
+            0
+          ],
+          "radical_components": [
+            [
+              6,
+              -15,
+              392
+            ]
+          ]
+        },
+        {
+          "powers": [
+            1,
+            0,
+            1,
+            0,
+            1
+          ],
+          "radical_components": [
+            [
+              6,
+              15,
+              392
+            ]
+          ]
+        },
+        {
+          "powers": [
+            1,
+            0,
+            1,
+            0,
+            0
+          ],
+          "radical_components": [
+            [
+              6,
+              -3,
+              392
+            ]
+          ]
+        },
+        {
+          "powers": [
+            0,
+            2,
+            0,
+            1,
+            0
+          ],
+          "radical_components": [
+            [
+              1,
+              5,
+              84
+            ]
+          ]
+        },
+        {
+          "powers": [
+            0,
+            2,
+            0,
+            0,
+            1
+          ],
+          "radical_components": [
+            [
+              1,
+              -5,
+              84
+            ]
+          ]
+        },
+        {
+          "powers": [
+            0,
+            2,
+            0,
+            0,
+            0
+          ],
+          "radical_components": [
+            [
+              1,
+              96,
+              10045
+            ],
+            [
+              6,
+              83,
+              40180
+            ],
+            [
+              70,
+              53,
+              100450
+            ],
+            [
+              105,
+              -2,
+              50225
+            ]
+          ]
+        },
+        {
+          "powers": [
+            0,
+            1,
+            1,
+            1,
+            0
+          ],
+          "radical_components": [
+            [
+              105,
+              1,
+              294
+            ]
+          ]
+        },
+        {
+          "powers": [
+            0,
+            1,
+            1,
+            0,
+            1
+          ],
+          "radical_components": [
+            [
+              105,
+              -1,
+              294
+            ]
+          ]
+        },
+        {
+          "powers": [
+            0,
+            1,
+            1,
+            0,
+            0
+          ],
+          "radical_components": [
+            [
+              105,
+              1,
+              1470
+            ]
+          ]
+        },
+        {
+          "powers": [
+            0,
+            1,
+            0,
+            1,
+            0
+          ],
+          "radical_components": [
+            [
+              6,
+              -5,
+              168
+            ]
+          ]
+        },
+        {
+          "powers": [
+            0,
+            1,
+            0,
+            0,
+            1
+          ],
+          "radical_components": [
+            [
+              6,
+              5,
+              168
+            ]
+          ]
+        },
+        {
+          "powers": [
+            0,
+            1,
+            0,
+            0,
+            0
+          ],
+          "radical_components": [
+            [
+              6,
+              -1,
+              168
+            ]
+          ]
+        },
+        {
+          "powers": [
+            0,
+            0,
+            2,
+            1,
+            0
+          ],
+          "radical_components": [
+            [
+              1,
+              5,
+              196
+            ]
+          ]
+        },
+        {
+          "powers": [
+            0,
+            0,
+            2,
+            0,
+            1
+          ],
+          "radical_components": [
+            [
+              1,
+              -5,
+              196
+            ]
+          ]
+        },
+        {
+          "powers": [
+            0,
+            0,
+            2,
+            0,
+            0
+          ],
+          "radical_components": [
+            [
+              1,
+              83,
+              30135
+            ],
+            [
+              6,
+              83,
+              40180
+            ],
+            [
+              70,
+              53,
+              100450
+            ],
+            [
+              105,
+              -2,
+              50225
+            ]
+          ]
+        },
+        {
+          "powers": [
+            0,
+            0,
+            1,
+            1,
+            0
+          ],
+          "radical_components": [
+            [
+              70,
+              -1,
+              56
+            ]
+          ]
+        },
+        {
+          "powers": [
+            0,
+            0,
+            1,
+            0,
+            1
+          ],
+          "radical_components": [
+            [
+              70,
+              1,
+              56
+            ]
+          ]
+        },
+        {
+          "powers": [
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "radical_components": [
+            [
+              70,
+              -1,
+              280
+            ]
+          ]
+        },
+        {
+          "powers": [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "radical_components": [
+            [
+              1,
+              -283,
+              120540
+            ],
+            [
+              6,
+              83,
+              40180
+            ],
+            [
+              70,
+              53,
+              100450
+            ],
+            [
+              105,
+              -2,
+              50225
+            ]
+          ]
+        }
+      ],
+      [
+        {
+          "powers": [
+            2,
+            0,
+            0,
+            1,
+            0
+          ],
+          "radical_components": [
+            [
+              1,
+              -325,
+              896
+            ],
+            [
+              3,
+              -25,
+              448
+            ]
+          ]
+        },
+        {
+          "powers": [
+            2,
+            0,
+            0,
+            0,
+            1
+          ],
+          "radical_components": [
+            [
+              1,
+              -75,
+              128
+            ],
+            [
+              3,
+              225,
+              448
+            ]
+          ]
+        },
+        {
+          "powers": [
+            2,
+            0,
+            0,
+            0,
+            0
+          ],
+          "radical_components": [
+            [
+              1,
+              1044671,
+              2351104
+            ],
+            [
+              2,
+              3195,
+              73472
+            ],
+            [
+              3,
+              -79535,
+              335872
+            ],
+            [
+              6,
+              -1647,
+              73472
+            ],
+            [
+              35,
+              -10449,
+              293888
+            ],
+            [
+              70,
+              -15,
+              574
+            ],
+            [
+              105,
+              -1605,
+              293888
+            ],
+            [
+              210,
+              -543,
+              36736
+            ]
+          ]
+        },
+        {
+          "powers": [
+            1,
+            1,
+            0,
+            1,
+            0
+          ],
+          "radical_components": [
+            [
+              70,
+              235,
+              7168
+            ],
+            [
+              210,
+              275,
+              7168
+            ]
+          ]
+        },
+        {
+          "powers": [
+            1,
+            1,
+            0,
+            0,
+            1
+          ],
+          "radical_components": [
+            [
+              70,
+              825,
+              7168
+            ],
+            [
+              210,
+              345,
+              7168
+            ]
+          ]
+        },
+        {
+          "powers": [
+            1,
+            1,
+            0,
+            0,
+            0
+          ],
+          "radical_components": [
+            [
+              70,
+              375,
+              7168
+            ],
+            [
+              210,
+              255,
+              7168
+            ]
+          ]
+        },
+        {
+          "powers": [
+            1,
+            0,
+            1,
+            1,
+            0
+          ],
+          "radical_components": [
+            [
+              2,
+              -2325,
+              7168
+            ],
+            [
+              6,
+              7125,
+              7168
+            ]
+          ]
+        },
+        {
+          "powers": [
+            1,
+            0,
+            1,
+            0,
+            1
+          ],
+          "radical_components": [
+            [
+              2,
+              -2175,
+              7168
+            ],
+            [
+              6,
+              425,
+              1024
+            ]
+          ]
+        },
+        {
+          "powers": [
+            1,
+            0,
+            1,
+            0,
+            0
+          ],
+          "radical_components": [
+            [
+              2,
+              375,
+              7168
+            ],
+            [
+              6,
+              -2375,
+              7168
+            ]
+          ]
+        },
+        {
+          "powers": [
+            1,
+            0,
+            0,
+            1,
+            0
+          ],
+          "radical_components": [
+            [
+              105,
+              -5,
+              64
+            ]
+          ]
+        },
+        {
+          "powers": [
+            1,
+            0,
+            0,
+            0,
+            1
+          ],
+          "radical_components": [
+            [
+              35,
+              -15,
+              112
+            ],
+            [
+              105,
+              -25,
+              448
+            ]
+          ]
+        },
+        {
+          "powers": [
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          "radical_components": [
+            [
+              35,
+              15,
+              112
+            ],
+            [
+              105,
+              25,
+              448
+            ]
+          ]
+        },
+        {
+          "powers": [
+            0,
+            2,
+            0,
+            1,
+            0
+          ],
+          "radical_components": [
+            [
+              1,
+              295,
+              4096
+            ],
+            [
+              3,
+              1555,
+              8192
+            ]
+          ]
+        },
+        {
+          "powers": [
+            0,
+            2,
+            0,
+            0,
+            1
+          ],
+          "radical_components": [
+            [
+              1,
+              2235,
+              4096
+            ],
+            [
+              3,
+              765,
+              8192
+            ]
+          ]
+        },
+        {
+          "powers": [
+            0,
+            2,
+            0,
+            0,
+            0
+          ],
+          "radical_components": [
+            [
+              1,
+              -294799,
+              2351104
+            ],
+            [
+              2,
+              3195,
+              73472
+            ],
+            [
+              3,
+              -755,
+              9184
+            ],
+            [
+              6,
+              -1647,
+              73472
+            ],
+            [
+              35,
+              -10449,
+              293888
+            ],
+            [
+              70,
+              -15,
+              574
+            ],
+            [
+              105,
+              -1605,
+              293888
+            ],
+            [
+              210,
+              -543,
+              36736
+            ]
+          ]
+        },
+        {
+          "powers": [
+            0,
+            1,
+            1,
+            1,
+            0
+          ],
+          "radical_components": [
+            [
+              35,
+              855,
+              28672
+            ],
+            [
+              105,
+              3295,
+              14336
+            ]
+          ]
+        },
+        {
+          "powers": [
+            0,
+            1,
+            1,
+            0,
+            1
+          ],
+          "radical_components": [
+            [
+              35,
+              -615,
+              28672
+            ],
+            [
+              105,
+              1355,
+              14336
+            ]
+          ]
+        },
+        {
+          "powers": [
+            0,
+            1,
+            1,
+            0,
+            0
+          ],
+          "radical_components": [
+            [
+              35,
+              75,
+              28672
+            ],
+            [
+              105,
+              -1745,
+              14336
+            ]
+          ]
+        },
+        {
+          "powers": [
+            0,
+            1,
+            0,
+            1,
+            0
+          ],
+          "radical_components": [
+            [
+              2,
+              345,
+              1024
+            ],
+            [
+              6,
+              195,
+              1024
+            ]
+          ]
+        },
+        {
+          "powers": [
+            0,
+            1,
+            0,
+            0,
+            1
+          ],
+          "radical_components": [
+            [
+              2,
+              -165,
+              1024
+            ],
+            [
+              6,
+              -215,
+              1024
+            ]
+          ]
+        },
+        {
+          "powers": [
+            0,
+            1,
+            0,
+            0,
+            0
+          ],
+          "radical_components": [
+            [
+              2,
+              -195,
+              1024
+            ],
+            [
+              6,
+              95,
+              1024
+            ]
+          ]
+        },
+        {
+          "powers": [
+            0,
+            0,
+            2,
+            1,
+            0
+          ],
+          "radical_components": [
+            [
+              1,
+              2875,
+              28672
+            ],
+            [
+              3,
+              -15875,
+              57344
+            ]
+          ]
+        },
+        {
+          "powers": [
+            0,
+            0,
+            2,
+            0,
+            1
+          ],
+          "radical_components": [
+            [
+              1,
+              -875,
+              4096
+            ],
+            [
+              3,
+              -6925,
+              57344
+            ]
+          ]
+        },
+        {
+          "powers": [
+            0,
+            0,
+            2,
+            0,
+            0
+          ],
+          "radical_components": [
+            [
+              1,
+              40003,
+              335872
+            ],
+            [
+              2,
+              3195,
+              73472
+            ],
+            [
+              3,
+              49435,
+              293888
+            ],
+            [
+              6,
+              -1647,
+              73472
+            ],
+            [
+              35,
+              -10449,
+              293888
+            ],
+            [
+              70,
+              -15,
+              574
+            ],
+            [
+              105,
+              -1605,
+              293888
+            ],
+            [
+              210,
+              -543,
+              36736
+            ]
+          ]
+        },
+        {
+          "powers": [
+            0,
+            0,
+            1,
+            1,
+            0
+          ],
+          "radical_components": [
+            [
+              70,
+              -95,
+              1024
+            ],
+            [
+              210,
+              -55,
+              1024
+            ]
+          ]
+        },
+        {
+          "powers": [
+            0,
+            0,
+            1,
+            0,
+            1
+          ],
+          "radical_components": [
+            [
+              70,
+              1165,
+              7168
+            ],
+            [
+              210,
+              -195,
+              7168
+            ]
+          ]
+        },
+        {
+          "powers": [
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "radical_components": [
+            [
+              70,
+              515,
+              7168
+            ],
+            [
+              210,
+              475,
+              7168
+            ]
+          ]
+        },
+        {
+          "powers": [
+            0,
+            0,
+            0,
+            1,
+            0
+          ],
+          "radical_components": [
+            [
+              1,
+              -85,
+              128
+            ],
+            [
+              3,
+              -5,
+              32
+            ]
+          ]
+        },
+        {
+          "powers": [
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "radical_components": [
+            [
+              1,
+              95,
+              128
+            ],
+            [
+              3,
+              -5,
+              64
+            ]
+          ]
+        },
+        {
+          "powers": [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "radical_components": [
+            [
+              1,
+              -188609,
+              2351104
+            ],
+            [
+              2,
+              3195,
+              73472
+            ],
+            [
+              3,
+              204215,
+              2351104
+            ],
+            [
+              6,
+              -1647,
+              73472
+            ],
+            [
+              35,
+              -10449,
+              293888
+            ],
+            [
+              70,
+              -15,
+              574
+            ],
+            [
+              105,
+              -1605,
+              293888
+            ],
+            [
+              210,
+              -543,
+              36736
+            ]
+          ]
+        }
+      ]
+    ],
+    "evaluation": "Each coefficient is evaluated as (integer numerator)/(integer denominator)*sqrt(positive integer). Interval evaluation uses directed rational arithmetic and sqrt; no floating coefficient literals."
+  },
+  "bounded_search": {
+    "starting_branch": "Known U*a, regauged by its positive M1 component; p0=p1=1/4",
+    "exact_start_chart": [
+      "(6*sqrt(3) + 8*sqrt(2))/(3*sqrt(3) + 6*sqrt(2))",
+      "(-sqrt(3) + 8*sqrt(2))/(2*sqrt(3) + 4*sqrt(2))",
+      "(-2*sqrt(3) + 24*sqrt(2))/(3*sqrt(3) + 6*sqrt(2))",
+      "1/4",
+      "1/4"
+    ],
+    "planned_starts": [
+      {
+        "start_index": 1,
+        "offset_in_x_y_z_p0_p1": [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ]
+      },
+      {
+        "start_index": 2,
+        "offset_in_x_y_z_p0_p1": [
+          "0",
+          "0",
+          "0",
+          "1/100",
+          "-1/200"
+        ]
+      },
+      {
+        "start_index": 3,
+        "offset_in_x_y_z_p0_p1": [
+          "0",
+          "0",
+          "0",
+          "-1/100",
+          "1/200"
+        ]
+      },
+      {
+        "start_index": 4,
+        "offset_in_x_y_z_p0_p1": [
+          "1/20",
+          "-1/40",
+          "1/20",
+          "0",
+          "0"
+        ]
+      },
+      {
+        "start_index": 5,
+        "offset_in_x_y_z_p0_p1": [
+          "-1/20",
+          "1/40",
+          "-1/20",
+          "0",
+          "0"
+        ]
+      },
+      {
+        "start_index": 6,
+        "offset_in_x_y_z_p0_p1": [
+          "0",
+          "0",
+          "1/50",
+          "-1/100",
+          "3/200"
+        ]
+      }
+    ],
+    "executed_starts": [
+      {
+        "start_index": 1,
+        "decimal_precision": 80,
+        "start": [
+          "1.5865305980755141595192757532549043711909193281751120342487180179335894339886173",
+          "1.050510257216821901802715925294108608034052519343329871567307432749039622542685",
+          "2.227619146804734216698403060549002734996898036107549093592307207798207295413012",
+          "0.25",
+          "0.25"
+        ],
+        "offset": [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        "tolerance": "1e-60",
+        "maxsteps": 50,
+        "converged": true,
+        "root": [
+          "1.6418151508990983324009510549683670103154837630751875607335681254054761857822181",
+          "1.2043411166932157047341530886854564236357926367912871041247616097293846767280065",
+          "2.393813555236418191299784522053190902520195466783535823289517539609956465610589",
+          "0.26240424830361107508529669275179593322094186446187811305025173330363047772526551",
+          "0.23319078202714304300252041733663068558748575740584176030025083865834550244768265"
+        ],
+        "max_polynomial_residual": "1.922886601633993016755712426674020789018519767770541353864393210139028165180287e-61",
+        "physical_positive_population": true,
+        "distinct_from_target_chart": true,
+        "distance_from_target_infinity_norm": "2.143813555236418191299784522053190902520195466783535823289517539609956465610589",
+        "accepted": true
+      }
+    ],
+    "precision_refinements_same_accepted_branch": [
+      {
+        "decimal_precision": 120,
+        "tolerance": "1e-100",
+        "maxsteps": 40,
+        "root": [
+          "1.64181515089909833240095105496836701031548376307518756073356807860691161973188251130441277177136157527016190231241249045",
+          "1.20434111669321570473415308868545642363579263679128710412476152784990457993274583517882475444222747011779055935806873328",
+          "2.39381355523641819129978452205319090252019546678353582328951740168183143091927770708299040071873672003163131112297004646",
+          "0.262404248303611075085296692751795933220941864461878113050251732876750262957629958871433971845706063899872255616670670022",
+          "0.233190782027143043002520417336630685587485757405841760300250838717347148245438224387760953058727533908839113542340819952"
+        ],
+        "max_polynomial_residual": "4.84073989356164784102253829160793980946277399006098858185970367668052043512210745607835279284626824613507192813444308442e-121",
+        "max_change_from_prior_precision": "1.37928125034691311248959497791364787803597816531608841730004838213859575192994927344708129240106783481891199236281436812e-61",
+        "stable_threshold": "1e-60",
+        "stable": true,
+        "converged": true
+      },
+      {
+        "decimal_precision": 180,
+        "tolerance": "1e-150",
+        "maxsteps": 40,
+        "root": [
+          "1.64181515089909833240095105496836701031548376307518756073356807860691161973188251130441277177136157527016190231241249045000888236972759580496738495378397587603519760013146839796575",
+          "1.20434111669321570473415308868545642363579263679128710412476152784990457993274583517882475444222747011779055935806873327541718807504992550274936011986141591901406117918749289595804",
+          "2.39381355523641819129978452205319090252019546678353582328951740168183143091927770708299040071873672003163131112297004646070298925788311192355268912918709952816108197343038351913588",
+          "0.262404248303611075085296692751795933220941864461878113050251732876750262957629958871433971845706063899872255616670670022472348733360677601479230711359963927759247768780402316383038",
+          "0.233190782027143043002520417336630685587485757405841760300250838717347148245438224387760953058727533908839113542340819951868444989624836388454446637348423886120935169259694013578527"
+        ],
+        "max_polynomial_residual": "1.08446393929629785298333751562062902139395222952945408732363498972146173378711746686405671896293678550686046754796563060603728214324689796167783668984066904390017644689341050317929e-180",
+        "max_change_from_prior_precision": "7.44669957124338715103263435474111515876386144548893905396818649222631167212584358205100044708506913550576527334601965179866173552158404922695617296020746613608574386557447279975915e-121",
+        "stable_threshold": "1e-100",
+        "stable": true,
+        "converged": true
+      }
+    ],
+    "maximum_distinct_search_starts": 6,
+    "compute_cap_seconds": 1800,
+    "elapsed_seconds": 1.246897930977866,
+    "termination": "First accepted physical nontrivial candidate, then two precision refinements and one interval box; no additional starts after acceptance."
+  },
+  "numerical_candidate": {
+    "parameters": {
+      "x": "1.64181515089909833240095105496836701031548376307518756073356807860691161973188251130441277177136157527016190231241249045000888236972759580496738495378397587603519760013146839796575",
+      "y": "1.20434111669321570473415308868545642363579263679128710412476152784990457993274583517882475444222747011779055935806873327541718807504992550274936011986141591901406117918749289595804",
+      "z": "2.39381355523641819129978452205319090252019546678353582328951740168183143091927770708299040071873672003163131112297004646070298925788311192355268912918709952816108197343038351913588",
+      "p0": "0.262404248303611075085296692751795933220941864461878113050251732876750262957629958871433971845706063899872255616670670022472348733360677601479230711359963927759247768780402316383038",
+      "p1": "0.233190782027143043002520417336630685587485757405841760300250838717347148245438224387760953058727533908839113542340819951868444989624836388454446637348423886120935169259694013578527"
+    },
+    "p2": "0.504404969669245881912182889911573381191572378132280126649497428405902588796931816740805075095566402191288630840988510025659206277014486010066322651291612186119817061959903670038435",
+    "relative_chart_S": "10.876337852313311002196581361929625308407156412032509474415114067245420722669393741361967866112313589447838469129882135511496714164334390040406418278775049844022016277620208602161",
+    "radiative_fractions_M1_E2_M3_E4": [
+      "0.0919427121130949341093688623407037948253579775904280234356116024085345065162211499301728589045355185897034930216845370290682198309168026189227460580623786048646359895145217448277074",
+      "0.247836820290434926553180985786289226393143217939339301820591083888255610306115825899496330858527552081435581876321026308824948881126469587189128448320053488486390014275440287993169",
+      "0.133357159832007721455249698378983718623075543983946850488898792515964042793338361466754881511994940970379601190160355884696965891423249723147262259796616417803682607093876969307377",
+      "0.526863307764462417882200453494023260158423260486285824254898521187245840384324662703575928724941988358481323911834080777409865396533478070740863233820951488845291389116160997871746"
+    ],
+    "five_outputs": [
+      "0.0964546790026029619161638647165290223285059536869206358231517144256868689709578541716033270207629948881379394245218566422872604835814662449222801203160515194030653656455254370631593",
+      "0.0695123166105814647511597574712508639072831444075134456506617362177300241796242074982215167439231106009059157563024717847338084704947619005643245355669500818642083696983344179609861",
+      "-0.0267387743655453131504889018948658078395555540856407792213976236037259386350993631992206639384471332009550497210398094914288076561397283855850278736182820479001851202277884042820734",
+      "-0.00671854454249276026817471509320263107929171512172625836235155777206870584889224622789756465767834387865971437339460356978569317831667205532121339332917884755214069923156604556800937",
+      "1.79140062533913412601609558349335776552283185493237776909882970544989318611067662568623621887064423566004125766546750468984467031488512331727029347045606017936631986291839542308967"
+    ],
+    "normalized_residuals": [
+      "0.0",
+      "-2.7696821046597881644935205948708169795844793892381093863333377362356340282119878100970931251055501732822474504103963121361853099570815281181340062634394960165458927540455463110649e-183",
+      "-2.7696821046597881644935205948708169795844793892381093863333377362356340282119878100970931251055501732822474504103963121361853099570815281181340062634394960165458927540455463110649e-183",
+      "9.52078223476802181544647704486843336732164790050600101552084846830999197197870809720875761755032872065772561078573732296813700297746775290608564653057326755687650634203156544428561e-184",
+      "-9.97085557677523739217667414153494112650412580125719379080001585044828250156315611634953525037998062381609082147742672369026711584549350122528242254838218565956521391456396671983365e-182"
+    ],
+    "max_normalized_residual": "9.97085557677523739217667414153494112650412580125719379080001585044828250156315611634953525037998062381609082147742672369026711584549350122528242254838218565956521391456396671983365e-182",
+    "normalized_observable_Jacobian_determinant_numeric": "-0.0000071312865400030180910284993890403120584299900277001443869026590631711210087180679418437545846871824485030870733116984627226935852338162047870663692416816993543166890985235026538713",
+    "decimal_precision": 180,
+    "stable_multi_precision_recovery": true
+  },
+  "interval_certificate": {
+    "proved": true,
+    "method": "outward interval Krawczyk enclosure and exact endpoint contraction comparisons",
+    "interval_decimal_precision": 100,
+    "center_exact_finite_decimals": [
+      "1.641815150899098332400951054968367010315483763075187560733568078606911619731882511304412771771361575",
+      "1.20434111669321570473415308868545642363579263679128710412476152784990457993274583517882475444222747",
+      "2.39381355523641819129978452205319090252019546678353582328951740168183143091927770708299040071873672",
+      "0.2624042483036110750852966927517959332209418644618781130502517328767502629576299588714339718457060639",
+      "0.2331907820271430430025204173366306855874857574058417603002508387173471482454382243877609530587275339"
+    ],
+    "radius_exact": "1e-30",
+    "box_endpoint_exact_finite_decimals": [
+      [
+        "1.641815150899098332400951054967367010315483763075187560733568078606911619731882511304412771771361575",
+        "1.641815150899098332400951054969367010315483763075187560733568078606911619731882511304412771771361575"
+      ],
+      [
+        "1.20434111669321570473415308868445642363579263679128710412476152784990457993274583517882475444222747",
+        "1.20434111669321570473415308868645642363579263679128710412476152784990457993274583517882475444222747"
+      ],
+      [
+        "2.39381355523641819129978452205219090252019546678353582328951740168183143091927770708299040071873672",
+        "2.39381355523641819129978452205419090252019546678353582328951740168183143091927770708299040071873672"
+      ],
+      [
+        "0.2624042483036110750852966927507959332209418644618781130502517328767502629576299588714339718457060639",
+        "0.2624042483036110750852966927527959332209418644618781130502517328767502629576299588714339718457060639"
+      ],
+      [
+        "0.2331907820271430430025204173356306855874857574058417603002508387173471482454382243877609530587275339",
+        "0.2331907820271430430025204173376306855874857574058417603002508387173471482454382243877609530587275339"
+      ]
+    ],
+    "preconditioner_C_exact_rationals": [
+      [
+        {
+          "numerator": "4803207966313204260400433191962742989769458463516105021501437010004125753998141993282452672023782637",
+          "denominator": "10000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "numerator": "-1273748956500061891318574158904869000866285150268719591656193630811379913225694062799152921152430847",
+          "denominator": "500000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "numerator": "1098736332465069490966979049509325971887937047577069499369240722644691618375574636707974599939229447",
+          "denominator": "500000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "numerator": "-2619429840940548589614826120082415201304473779278647902608863118404191804298201839322947980654042027",
+          "denominator": "100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "numerator": "-581711479540069242256203524685751367243797930343415798512223863901765477811777468227103280961216531",
+          "denominator": "2500000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        }
+      ],
+      [
+        {
+          "numerator": "7003657334499274802758816232733559021727230106781202609402164185363871156329773830358702034278032001",
+          "denominator": "10000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "numerator": "43769611324525226446631992285279439127509899526614543891958358026839794220967799924001457866468703",
+          "denominator": "15625000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "numerator": "3812301012778679260840457601478740581348997533169942533783021338247996217193624329603975127732556759",
+          "denominator": "1000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "numerator": "588671418597211540279690708785778168464401610114591758007015918185558327714802988872441269346494169",
+          "denominator": "20000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "numerator": "-6437061142570533105348514397584619010137791914560809363178274440638915528251985983554395289435756231",
+          "denominator": "10000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        }
+      ],
+      [
+        {
+          "numerator": "-9519282138177636646289948834840066485490252910496955277806079187689479285264889564856378378970150827",
+          "denominator": "100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "numerator": "-1814083708325264985202096667830797217100108329196313463508803459233421981322752898672945223356659563",
+          "denominator": "10000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "numerator": "1022121169240442147516164361142880865441058663395046909650362466415777652126253999330416604917858353",
+          "denominator": "1000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "numerator": "-1398145284734889448978338386540914395154532050504257821612547436603827288362144387990296067453911043",
+          "denominator": "1000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "numerator": "-6835714866139685146639553100455923228231788022955417785014319764930195011243585385231849539267757781",
+          "denominator": "10000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        }
+      ],
+      [
+        {
+          "numerator": "640914619059635227234837747235624060950834514898096973069630763717355887771363603920405571868126689",
+          "denominator": "12500000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "numerator": "2345928462538941576861934451992012590003911880842130593406910942767569244856044250153297706997533553",
+          "denominator": "10000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "numerator": "4233913706083716316114524383703116678711617479136948855926305090301014659907253795497546403822677147",
+          "denominator": "10000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "numerator": "561624477201319508716537617911880452914335927410228651647368846291796334057597948193542593455480087",
+          "denominator": "500000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "numerator": "-288419920316474458529505333040069434058955820023373914827353339205072281053724345530407388475928951",
+          "denominator": "5000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        }
+      ],
+      [
+        {
+          "numerator": "-40090976508699176920590064391429888354557751361400745402827511206068557795745133230563419302261219",
+          "denominator": "400000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "numerator": "-2866975568205874291826840896510296040914986629835304684206623501176544971128372080958689200106134683",
+          "denominator": "10000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "numerator": "-1973134343418008827280568043914684165619180358946626051197513859607946977171537032741805196435583979",
+          "denominator": "5000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "numerator": "-245725009281100512589790215029974449691141442210842313811328733046571509890528339718648517435281731",
+          "denominator": "200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "numerator": "3911685290798736089117816094879803384026443406596103243093443380891356467255937862428836756819190421",
+          "denominator": "50000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        }
+      ]
+    ],
+    "box_intervals": [
+      {
+        "raw_dyadic_endpoints": [
+          {
+            "sign": 0,
+            "mantissa": "28728491030110263354084847748878121883869579997217269741457417534429686745454758645721549519484903011",
+            "exponent2": -333,
+            "bit_count": 334
+          },
+          {
+            "sign": 0,
+            "mantissa": "114913964120441053416339390995652471581864432752028919108365197905101349825396200178817447396749849037",
+            "exponent2": -335,
+            "bit_count": 336
+          }
+        ],
+        "numeric_display_only": [
+          "1.64181515089909833240095105496736701031548376",
+          "1.64181515089909833240095105496936701031548376"
+        ]
+      },
+      {
+        "raw_dyadic_endpoints": [
+          {
+            "sign": 0,
+            "mantissa": "10536783921492871965803318662561458443705841052035313312495346450566294185231552380528792007642212409",
+            "exponent2": -332,
+            "bit_count": 333
+          },
+          {
+            "sign": 0,
+            "mantissa": "84294271371942975726426549300631651596032841179442346642498299371912956325429584640161585379947936265",
+            "exponent2": -335,
+            "bit_count": 336
+          }
+        ],
+        "numeric_display_only": [
+          "1.20434111669321570473415308868445642363579264",
+          "1.20434111669321570473415308868645642363579264"
+        ]
+      },
+      {
+        "raw_dyadic_endpoints": [
+          {
+            "sign": 0,
+            "mantissa": "83773926938980067816989970565932956212021301148237251985031751206242833923360529125127806254081611115",
+            "exponent2": -334,
+            "bit_count": 336
+          },
+          {
+            "sign": 0,
+            "mantissa": "20943481734745016954247492641500737058803589382454293014074878772483533836287277980773357728371682403",
+            "exponent2": -332,
+            "bit_count": 334
+          }
+        ],
+        "numeric_display_only": [
+          "2.39381355523641819129978452205219090252019547",
+          "2.39381355523641819129978452205419090252019547"
+        ]
+      },
+      {
+        "raw_dyadic_endpoints": [
+          {
+            "sign": 0,
+            "mantissa": "143485970572053687805615990980612756896619595583065459354335118344837095595398470008033803546811267",
+            "exponent2": -328,
+            "bit_count": 327
+          },
+          {
+            "sign": 0,
+            "mantissa": "73464816932891488156475387382633667716613683991168875759561691662087004319152679027838304691208316673",
+            "exponent2": -337,
+            "bit_count": 336
+          }
+        ],
+        "numeric_display_only": [
+          "0.262404248303611075085296692750795933220941864",
+          "0.262404248303611075085296692752795933220941864"
+        ]
+      },
+      {
+        "raw_dyadic_endpoints": [
+          {
+            "sign": 0,
+            "mantissa": "16321494624050751086074492691685414176348839510965865332016837211678188635664340189168712858943666061",
+            "exponent2": -335,
+            "bit_count": 333
+          },
+          {
+            "sign": 0,
+            "mantissa": "130571956992406008688595941534603185781879618193005643796418919832486331833932046280799697422031224425",
+            "exponent2": -338,
+            "bit_count": 336
+          }
+        ],
+        "numeric_display_only": [
+          "0.233190782027143043002520417335630685587485757",
+          "0.233190782027143043002520417337630685587485757"
+        ]
+      }
+    ],
+    "F_at_center_intervals": [
+      {
+        "raw_dyadic_endpoints": [
+          {
+            "sign": 1,
+            "mantissa": "7",
+            "exponent2": -331,
+            "bit_count": 3
+          },
+          {
+            "sign": 0,
+            "mantissa": "99",
+            "exponent2": -335,
+            "bit_count": 7
+          }
+        ],
+        "numeric_display_only": [
+          "-1.60018234779518497510209696762747734323267399e-99",
+          "1.41444689671181529049203214102785943732173862e-99"
+        ]
+      },
+      {
+        "raw_dyadic_endpoints": [
+          {
+            "sign": 1,
+            "mantissa": "591",
+            "exponent2": -339,
+            "bit_count": 10
+          },
+          {
+            "sign": 0,
+            "mantissa": "511",
+            "exponent2": -338,
+            "bit_count": 9
+          }
+        ],
+        "numeric_display_only": [
+          "-5.27738709568612901944943810194106646121936568e-100",
+          "9.12603995226941431112914676850045672312384386e-100"
+        ]
+      },
+      {
+        "raw_dyadic_endpoints": [
+          {
+            "sign": 1,
+            "mantissa": "15",
+            "exponent2": -334,
+            "bit_count": 4
+          },
+          {
+            "sign": 0,
+            "mantissa": "79",
+            "exponent2": -337,
+            "bit_count": 7
+          }
+        ],
+        "numeric_display_only": [
+          "-4.28620271730853118330918830614502859794466248e-100",
+          "2.8217501222281163623452156348788104936469028e-100"
+        ]
+      },
+      {
+        "raw_dyadic_endpoints": [
+          {
+            "sign": 1,
+            "mantissa": "249",
+            "exponent2": -341,
+            "bit_count": 8
+          },
+          {
+            "sign": 0,
+            "mantissa": "517",
+            "exponent2": -343,
+            "bit_count": 10
+          }
+        ],
+        "numeric_display_only": [
+          "-5.55866914900950137835410358453183396295948415e-101",
+          "2.88537344381316487209746139879815076189764388e-101"
+        ]
+      },
+      {
+        "raw_dyadic_endpoints": [
+          {
+            "sign": 1,
+            "mantissa": "207",
+            "exponent2": -336,
+            "bit_count": 8
+          },
+          {
+            "sign": 0,
+            "mantissa": "109",
+            "exponent2": -335,
+            "bit_count": 7
+          }
+        ],
+        "numeric_display_only": [
+          "-1.47873993747144325824166996562003486629090856e-99",
+          "1.55732032062209966326900508456602705725322737e-99"
+        ]
+      }
+    ],
+    "Krawczyk_intervals": [
+      {
+        "raw_dyadic_endpoints": [
+          {
+            "sign": 0,
+            "mantissa": "57456982060220526708169695497791239779335688185224499518529491521803760220668651471702899073051828401",
+            "exponent2": -334,
+            "bit_count": 335
+          },
+          {
+            "sign": 0,
+            "mantissa": "14364245515055131677042423874447809944833922046306124879641985624901572045734741477287230916073225541",
+            "exponent2": -332,
+            "bit_count": 333
+          }
+        ],
+        "numeric_display_only": [
+          "1.64181515089909833240095105496836701031548376",
+          "1.64181515089909833240095105496836701031548376"
+        ]
+      },
+      {
+        "raw_dyadic_endpoints": [
+          {
+            "sign": 0,
+            "mantissa": "10536783921492871965803318662570207446604973099732803321397467111941272275528801044432344056464155959",
+            "exponent2": -332,
+            "bit_count": 333
+          },
+          {
+            "sign": 0,
+            "mantissa": "10536783921492871965803318662570207446604973099732803321410166760114141450381449416116646123671548487",
+            "exponent2": -332,
+            "bit_count": 333
+          }
+        ],
+        "numeric_display_only": [
+          "1.20434111669321570473415308868545642363579264",
+          "1.20434111669321570473415308868545642363579264"
+        ]
+      },
+      {
+        "raw_dyadic_endpoints": [
+          {
+            "sign": 0,
+            "mantissa": "83773926938980067816989970565967952223617829339027212020660463377824306474589314054052578825309438591",
+            "exponent2": -334,
+            "bit_count": 336
+          },
+          {
+            "sign": 0,
+            "mantissa": "654483804210781779820234145046624626747014291711150093911490647799630178077502554641942643298897673",
+            "exponent2": -327,
+            "bit_count": 329
+          }
+        ],
+        "numeric_display_only": [
+          "2.39381355523641819129978452205319090252019547",
+          "2.39381355523641819129978452205319090252019547"
+        ]
+      },
+      {
+        "raw_dyadic_endpoints": [
+          {
+            "sign": 0,
+            "mantissa": "36732408466445744078237693691176849811920729232424597737237370311409108038918384825313906379854226829",
+            "exponent2": -336,
+            "bit_count": 335
+          },
+          {
+            "sign": 0,
+            "mantissa": "18366204233222872039118846845588424905960364616212298868626632907956345296539981505330949836866807931",
+            "exponent2": -335,
+            "bit_count": 334
+          }
+        ],
+        "numeric_display_only": [
+          "0.262404248303611075085296692751795933220941864",
+          "0.262404248303611075085296692751795933220941864"
+        ]
+      },
+      {
+        "raw_dyadic_endpoints": [
+          {
+            "sign": 0,
+            "mantissa": "130571956992406008688595941534043249596335167140366283226237157113465509572551542709519835305199241655",
+            "exponent2": -338,
+            "bit_count": 336
+          },
+          {
+            "sign": 0,
+            "mantissa": "130571956992406008688595941534043249596335167140366283226316460412446331346695225084629564988381311255",
+            "exponent2": -338,
+            "bit_count": 336
+          }
+        ],
+        "numeric_display_only": [
+          "0.233190782027143043002520417336630685587485757",
+          "0.233190782027143043002520417336630685587485757"
+        ]
+      }
+    ],
+    "strict_inclusion_each_coordinate": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "infinity_norm_I_minus_CJ_upper_bound_exact": {
+      "numerator": "812777483063627190569495787795332301273114330442425730146978142480460776299",
+      "denominator": "1119872371088902105278721140284222139060822748617324767449994550481895935590080472690438746635803557888"
+    },
+    "infinity_norm_I_minus_CJ_upper_bound_numeric_display_only": "7.25776886765522405564736307835e-28",
+    "contraction_less_than_one": true,
+    "population_p2_interval": {
+      "raw_dyadic_endpoints": [
+        {
+          "sign": 0,
+          "mantissa": "17652162167891379227363365865140034269706524258332436775590935755267976707675177000546441657090870073",
+          "exponent2": -334,
+          "bit_count": 334
+        },
+        {
+          "sign": 0,
+          "mantissa": "35304324335782758454726731730560036632185274042984553836252927045301159102504685192955381951802214131",
+          "exponent2": -335,
+          "bit_count": 335
+        }
+      ],
+      "numeric_display_only": [
+        "0.504404969669245881912182889909573381191572378",
+        "0.504404969669245881912182889913573381191572378"
+      ]
+    },
+    "strictly_positive_population_throughout_box": true,
+    "three_relative_amplitudes_nonzero_throughout_box": [
+      true,
+      true,
+      true
+    ],
+    "x_box_excludes_target_half": true,
+    "M1_fraction_interval": {
+      "raw_dyadic_endpoints": [
+        {
+          "sign": 0,
+          "mantissa": "51482051509217972340518598225551166196710741167701205678943485245233329556808560497465293790864908141",
+          "exponent2": -338,
+          "bit_count": 335
+        },
+        {
+          "sign": 0,
+          "mantissa": "51482051509217972340518598225650377677629657202501465558940521870105937749883972019445090140802322707",
+          "exponent2": -338,
+          "bit_count": 335
+        }
+      ],
+      "numeric_display_only": [
+        "0.0919427121130949341093688623406152030505448815",
+        "0.0919427121130949341093688623407923866001710737"
+      ]
+    },
+    "M1_fraction_excludes_target_144_over_205": true,
+    "S_interval": {
+      "raw_dyadic_endpoints": [
+        {
+          "sign": 0,
+          "mantissa": "95157111401828787185027886982773061175987857801571751050842526112537438691040969673042308672407756889",
+          "exponent2": -332,
+          "bit_count": 336
+        },
+        {
+          "sign": 0,
+          "mantissa": "95157111401828787185027886982956439220673029883960123991556566134326812100964152597867138290310661229",
+          "exponent2": -332,
+          "bit_count": 336
+        }
+      ],
+      "numeric_display_only": [
+        "10.8763378523133110021965813619191453687614989",
+        "10.8763378523133110021965813619401052480528139"
+      ]
+    },
+    "theorem": "For the exact polynomial F and fixed rational C, the interval operator encloses T(X), T(t)=t-CF(t). Strict K(X) subset interior(X) gives a fixed point; the certified infinity-norm bound <1 makes T a contraction. I-CJ norm<1 also implies C and J are nonsingular, so the unique fixed point is a zero of F and the local Jacobian has rank5. S>0 makes these polynomial zeros exactly the prescribed normalized five-observable solutions.",
+    "software_boundary": "This is a reproducible numerical interval certificate using mpmath1.3 directed interval arithmetic and exact rational endpoint comparisons, not a formal proof-assistant derivation."
+  },
+  "inference": {
+    "rigorous_global_second_branch_existence_proved": true,
+    "consequence": "The exact target root and a distinct physical root inside the certified box have the same five normalized outputs. Local rank5 at both roots therefore does not make this map globally injective.",
+    "candidate_local_rank": 5,
+    "candidate_local_rank_certificate": "||I-CJ_F(X)||_infinity<1 proves the polynomial Jacobian nonsingular at every point of the certified box. At its exact zero, J_observables=J_F/S and S>0, hence rank5.",
+    "conditional_coordinate": "Equal A2,A4 fix W1 at theta1. Equal normalized W12 therefore also gives equal W12/W1; it is not a sixth independent observable.",
+    "gauge_distinction": "Both roots have a_M1=1. The certified x interval excludes target x=1/2, and its M1 radiative-fraction interval excludes 144/205, so this is not a common-scale/sign representation of the original root.",
+    "not_proved": [
+      "classification or count of all global branches",
+      "identifiability for other seeds or geometries",
+      "an experimental fit or assignment",
+      "finite-count or response-folded separability",
+      "absolute amplitude scale, gamma strength or lifetime",
+      "complex amplitudes or nonaxial populations",
+      "robustness to feeding, gate uncertainty or intermediate deorientation"
+    ],
+    "review_state": "computational source/claim self-audit; not human-reviewed"
+  },
+  "checks": {
+    "results": {
+      "cascade-local-rank_identity_before": true,
+      "cascade-companion-discriminant_identity_before": true,
+      "four-multipole-observable-rank_identity_before": true,
+      "four-multipole-fixed-population-pair_identity_before": true,
+      "source_raw_identity_before": true,
+      "prior_56_and_148_receipts_passed": true,
+      "same_five_output_order": true,
+      "same_single_expanded_geometry": true,
+      "reused_joint_matrix_matches_polynomial": true,
+      "original_target_is_exact_polynomial_root_0": true,
+      "original_target_is_exact_polynomial_root_1": true,
+      "original_target_is_exact_polynomial_root_2": true,
+      "original_target_is_exact_polynomial_root_3": true,
+      "original_target_is_exact_polynomial_root_4": true,
+      "starting_b_is_exact_Ua": true,
+      "strict_interval_Krawczyk_inclusion_all_five_coordinates": true,
+      "interval_contraction_bound_less_than_one": true,
+      "interval_population_positive_and_amplitudes_nonzero": true,
+      "interval_new_branch_excludes_original_chart_and_fraction": true,
+      "candidate_satisfies_high_precision_residual_test": true,
+      "no_more_than_six_deterministic_near_U_search_starts": true,
+      "no_more_than_two_same_branch_precision_refinements": true,
+      "cascade-local-rank_bytes_unchanged_after": true,
+      "cascade-companion-discriminant_bytes_unchanged_after": true,
+      "four-multipole-observable-rank_bytes_unchanged_after": true,
+      "four-multipole-fixed-population-pair_bytes_unchanged_after": true,
+      "source_raw_hash_unchanged_after": true
+    },
+    "passed": 27,
+    "failures": 0,
+    "elapsed_seconds": 1.2469027490005828
+  },
+  "changed_paths": [
+    "tmp/day8-20261007/rose-brink/cascade-global-branch/cascade_global_branch.py",
+    "outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/cascade-global-branch.json"
+  ],
+  "reproducibility": {
+    "script_path": "tmp/day8-20261007/rose-brink/cascade-global-branch/cascade_global_branch.py",
+    "script_sha256": "82b7bae9d6c8c23f21a5b781aaf4a94ec800bc7c24482af010d1aab3242b2967",
+    "source_code": "#!/usr/bin/env python3\n\"\"\"Bounded Day8 L2 second branch of the same five normalized observables.\n\nSix planned near-U starts at most, one fixed photon geometry, 30-minute\ncompute cap. Default checks only; --write-receipt creates one new owned JSON.\nPolynomial coefficients and interval inputs are evaluated as exact rationals\nand positive square roots, never through binary-float coefficient literals.\n\"\"\"\nfrom __future__ import annotations\n\nimport argparse\nfrom datetime import datetime, timezone\nfrom fractions import Fraction\nimport hashlib\nimport json\nfrom pathlib import Path\nimport platform\nimport sys\nimport time\n\nsys.dont_write_bytecode = True\nROOT = Path(__file__).resolve().parents[4]\nDEPS = ROOT / 'tmp/day8-20261007/rose-brink/python-deps'\nsys.path.insert(0, str(DEPS))\nimport sympy as sp\nimport mpmath as mp\n\nRUN = ROOT / 'outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01'\nLOCAL = RUN / 'cascade-local-rank.json'\nCOMPANION = RUN / 'cascade-companion-discriminant.json'\nOLD_RANK = RUN / 'four-multipole-observable-rank.json'\nPAIR = RUN / 'four-multipole-fixed-population-pair.json'\nOUTPUT = RUN / 'cascade-global-branch.json'\nRAW = ROOT / 'raw/papers/gpt/high-spin-20260920/multipolarity/mixing ratio/1967_Rose et al_Angular Distributions of Gamma Rays in Terms of Phase-Defined Reduced Matrix Elements.pdf'\nINPUT_HASHES = {\n    LOCAL: '0a89fe75b014987ba7ed3cb1d3525dfc593a63ed35e0d207318b436ae30591ac',\n    COMPANION: 'd4370e9e1b616fa229a3443289758c033ce24cab3603b3d33c6ae8a790edf9a0',\n    OLD_RANK: '42b7c697dc6522fa384e0934fc545a0010a614ff2af3cfcbf767729242bf5f48',\n    PAIR: 'b5a7ea2f727264b9d3ff56f4fec25302d326baab1ec67fd9774dea3d2522b8fd',\n}\nRAW_SHA = '8f846b61b9320de291ee5600126c5e286a0fe05968df819696816f0dc1ec57dc'\nx, y, z, p0, p1 = sp.symbols('x y z p0 p1', real=True)\nV = (x, y, z, p0, p1)\nNAMES = ('x', 'y', 'z', 'p0', 'p1')\nLOCALS = dict(zip(NAMES, V))\nS = 1 + x ** 2 + y ** 2 + z ** 2\nA = sp.Matrix([1, x, y, z])\nCOMPUTE_CAP_SECONDS = 1800\n# No randomized starts; offsets are exact rationals and all near the U chart.\nOFFSETS = (\n    ('0', '0', '0', '0', '0'),\n    ('0', '0', '0', '1/100', '-1/200'),\n    ('0', '0', '0', '-1/100', '1/200'),\n    ('1/20', '-1/40', '1/20', '0', '0'),\n    ('-1/20', '1/40', '-1/20', '0', '0'),\n    ('0', '0', '1/50', '-1/100', '3/200'),\n)\n\n\ndef ex(value):\n    return sp.expand(value)\n\n\ndef txt(value):\n    return sp.sstr(value)\n\n\ndef components(expression):\n    \"\"\"Exact coefficient representation: sum (num/den)*sqrt(radicand).\"\"\"\n    out = []\n    for root, coefficient in ex(expression).as_coefficients_dict().items():\n        if coefficient.is_Rational is not True:\n            raise AssertionError('Non-rational radical coefficient')\n        radicand = 1\n        if root != 1:\n            if not (root.is_Pow and root.exp == sp.Rational(1, 2) and root.base.is_Integer and root.base > 0):\n                raise AssertionError(f'Unexpected radical {root}')\n            radicand = int(root.base)\n        out.append((radicand, int(coefficient.p), int(coefficient.q)))\n    return tuple(sorted(out))\n\n\ndef terms(expression):\n    return tuple((powers, components(coefficient)) for powers, coefficient in sp.Poly(ex(expression), *V).terms())\n\n\ndef differentiated(polynomial, variable_index):\n    out = []\n    for powers, coefficient in polynomial:\n        power = powers[variable_index]\n        if power:\n            new_powers = list(powers)\n            new_powers[variable_index] -= 1\n            out.append((tuple(new_powers), tuple((radicand, numerator * power, denominator)\n                                                for radicand, numerator, denominator in coefficient)))\n    return tuple(out)\n\n\ndef numeric_coefficient(coefficient):\n    return sum((mp.mpf(numerator) / mp.mpf(denominator) * mp.sqrt(radicand)\n                for radicand, numerator, denominator in coefficient), mp.mpf(0))\n\n\ndef prepare_mp(polynomial):\n    return tuple((powers, numeric_coefficient(coefficient)) for powers, coefficient in polynomial)\n\n\ndef eval_mp(prepared, point):\n    result = mp.mpf(0)\n    for powers, coefficient in prepared:\n        monomial = coefficient\n        for coordinate, power in zip(point, powers):\n            if power:\n                monomial *= coordinate ** power\n        result += monomial\n    return result\n\n\ndef numeric_string(value, digits=None):\n    return mp.nstr(value, mp.mp.dps if digits is None else digits)\n\n\ndef finite_decimal(rational):\n    q = Fraction(rational)\n    denominator = q.denominator\n    twos = fives = 0\n    while denominator % 2 == 0:\n        denominator //= 2\n        twos += 1\n    while denominator % 5 == 0:\n        denominator //= 5\n        fives += 1\n    if denominator != 1:\n        raise ValueError('Nonterminating decimal requested')\n    places = max(twos, fives)\n    scaled = q.numerator * (10 ** places // q.denominator)\n    sign = '-' if scaled < 0 else ''\n    digits = str(abs(scaled)).zfill(places + 1)\n    return sign + (digits if places == 0 else digits[:-places] + '.' + digits[-places:])\n\n\ndef iv_fraction(numerator, denominator=1):\n    return mp.iv.mpf(numerator) / mp.iv.mpf(denominator)\n\n\ndef iv_coefficient(coefficient):\n    result = mp.iv.mpf(0)\n    for radicand, numerator, denominator in coefficient:\n        result += iv_fraction(numerator, denominator) * mp.iv.sqrt(mp.iv.mpf(radicand))\n    return result\n\n\ndef eval_iv(polynomial, point):\n    result = mp.iv.mpf(0)\n    for powers, coefficient in polynomial:\n        monomial = iv_coefficient(coefficient)\n        for coordinate, power in zip(point, powers):\n            if power:\n                monomial *= coordinate ** power\n        result += monomial\n    return result\n\n\ndef endpoint_fraction(raw):\n    sign, mantissa, exponent, bit_count = raw\n    del bit_count\n    value = Fraction((-1 if sign else 1) * mantissa)\n    return value * 2 ** exponent if exponent >= 0 else value / 2 ** (-exponent)\n\n\ndef bounds(interval):\n    return tuple(endpoint_fraction(endpoint) for endpoint in interval._mpi_)\n\n\ndef serial_interval(interval):\n    return {'raw_dyadic_endpoints': [\n                {'sign': int(sign), 'mantissa': str(mantissa), 'exponent2': int(exponent), 'bit_count': int(bit_count)}\n                for sign, mantissa, exponent, bit_count in interval._mpi_],\n            'numeric_display_only': [mp.nstr(mp.mp.make_mpf(endpoint), 45) for endpoint in interval._mpi_]}\n\n\ndef fraction_record(value):\n    return {'numerator': str(value.numerator), 'denominator': str(value.denominator)}\n\n\ndef interval_certificate(polynomials, jacobian_terms, root, budget):\n    \"\"\"Krawczyk enclosure + a checked infinity-norm contraction bound.\n\n    C and x0 are exact finite-decimal rational constants. mpmath.iv encloses\n    rational operations, positive sqrt and integer powers. All final strict\n    comparisons use exact Fractions extracted from the binary endpoints.\n    \"\"\"\n    budget()\n    mp.mp.dps = 180\n    mp.iv.dps = 100\n    center_strings = [numeric_string(coordinate, 100) for coordinate in root]\n    center_fractions = [Fraction(value) for value in center_strings]\n    radius = Fraction('1e-30')\n    box_strings = [[finite_decimal(center - radius), finite_decimal(center + radius)] for center in center_fractions]\n    box = [mp.iv.mpf(endpoints) for endpoints in box_strings]\n    center_iv = [iv_fraction(value.numerator, value.denominator) for value in center_fractions]\n    center_mp = [mp.mpf(value.numerator) / mp.mpf(value.denominator) for value in center_fractions]\n    jac_center = mp.matrix([[eval_mp(prepare_mp(jacobian_terms[i][j]), center_mp) for j in range(5)] for i in range(5)])\n    inverse = mp.inverse(jac_center)\n    # Quantize once. This defines a particular exact rational C, rather than\n    # claiming a floating inverse is exact.\n    rational_C = [[Fraction(numeric_string(inverse[i, j], 100)) for j in range(5)] for i in range(5)]\n    C = [[iv_fraction(value.numerator, value.denominator) for value in row] for row in rational_C]\n    f_center = [eval_iv(polynomial, center_iv) for polynomial in polynomials]\n    J_box = [[eval_iv(jacobian_terms[i][j], box) for j in range(5)] for i in range(5)]\n    E = [[mp.iv.mpf(1 if i == j else 0) - sum((C[i][k] * J_box[k][j] for k in range(5)), mp.iv.mpf(0))\n          for j in range(5)] for i in range(5)]\n    delta = [box[j] - center_iv[j] for j in range(5)]\n    krawczyk = [center_iv[i] - sum((C[i][j] * f_center[j] for j in range(5)), mp.iv.mpf(0))\n                + sum((E[i][j] * delta[j] for j in range(5)), mp.iv.mpf(0)) for i in range(5)]\n    inclusion = [bounds(box[i])[0] < bounds(krawczyk[i])[0]\n                 and bounds(krawczyk[i])[1] < bounds(box[i])[1] for i in range(5)]\n    row_norm_bounds = [sum(max(abs(lower), abs(upper)) for lower, upper in (bounds(E[i][j]) for j in range(5)))\n                       for i in range(5)]\n    contraction_bound = max(row_norm_bounds)\n    contraction = contraction_bound < Fraction(1)\n    p2 = mp.iv.mpf(1) - box[3] - box[4]\n    amplitudes_nonzero = [not (bounds(coordinate)[0] <= 0 <= bounds(coordinate)[1]) for coordinate in box[:3]]\n    population_positive = bounds(box[3])[0] > 0 and bounds(box[4])[0] > 0 and bounds(p2)[0] > 0\n    # Distinction is in the fixed a_M1=1 chart, and also in a normalized fraction.\n    distinct_x = not (bounds(box[0])[0] <= Fraction(1, 2) <= bounds(box[0])[1])\n    S_box = mp.iv.mpf(1) + sum((coordinate ** 2 for coordinate in box[:3]), mp.iv.mpf(0))\n    M1_fraction = mp.iv.mpf(1) / S_box\n    distinct_M1_fraction = not (bounds(M1_fraction)[0] <= Fraction(144, 205) <= bounds(M1_fraction)[1])\n    success = all(inclusion) and contraction and all(amplitudes_nonzero) and population_positive and distinct_x and distinct_M1_fraction\n    budget()\n    return {'proved': success, 'method': 'outward interval Krawczyk enclosure and exact endpoint contraction comparisons',\n            'interval_decimal_precision': mp.iv.dps, 'center_exact_finite_decimals': center_strings,\n            'radius_exact': '1e-30', 'box_endpoint_exact_finite_decimals': box_strings,\n            'preconditioner_C_exact_rationals': [[fraction_record(value) for value in row] for row in rational_C],\n            'box_intervals': [serial_interval(value) for value in box],\n            'F_at_center_intervals': [serial_interval(value) for value in f_center],\n            'Krawczyk_intervals': [serial_interval(value) for value in krawczyk],\n            'strict_inclusion_each_coordinate': inclusion,\n            'infinity_norm_I_minus_CJ_upper_bound_exact': fraction_record(contraction_bound),\n            'infinity_norm_I_minus_CJ_upper_bound_numeric_display_only': numeric_string(mp.mpf(contraction_bound.numerator) / mp.mpf(contraction_bound.denominator), 30),\n            'contraction_less_than_one': contraction,\n            'population_p2_interval': serial_interval(p2), 'strictly_positive_population_throughout_box': population_positive,\n            'three_relative_amplitudes_nonzero_throughout_box': amplitudes_nonzero,\n            'x_box_excludes_target_half': distinct_x,\n            'M1_fraction_interval': serial_interval(M1_fraction), 'M1_fraction_excludes_target_144_over_205': distinct_M1_fraction,\n            'S_interval': serial_interval(S_box),\n            'theorem': 'For the exact polynomial F and fixed rational C, the interval operator encloses T(X), T(t)=t-CF(t). Strict K(X) subset interior(X) gives a fixed point; the certified infinity-norm bound <1 makes T a contraction. I-CJ norm<1 also implies C and J are nonsingular, so the unique fixed point is a zero of F and the local Jacobian has rank5. S>0 makes these polynomial zeros exactly the prescribed normalized five-observable solutions.',\n            'software_boundary': 'This is a reproducible numerical interval certificate using mpmath1.3 directed interval arithmetic and exact rational endpoint comparisons, not a formal proof-assistant derivation.'}\n\n\ndef main_result():\n    started = time.monotonic()\n    checks = {}\n\n    def budget():\n        if time.monotonic() - started > COMPUTE_CAP_SECONDS:\n            raise TimeoutError('30-minute bounded computation cap')\n\n    def check(name, condition):\n        checks[name] = bool(condition)\n        if not checks[name]:\n            raise AssertionError(name)\n\n    input_bytes = {path: path.read_bytes() for path in INPUT_HASHES}\n    for path, expected in INPUT_HASHES.items():\n        check(f'{path.stem}_identity_before', hashlib.sha256(input_bytes[path]).hexdigest() == expected)\n    local, companion, old_rank, pair = (json.loads(input_bytes[path]) for path in (LOCAL, COMPANION, OLD_RANK, PAIR))\n    check('source_raw_identity_before', hashlib.sha256(RAW.read_bytes()).hexdigest() == RAW_SHA)\n    check('prior_56_and_148_receipts_passed', local['checks']['passed'] == 56 and local['checks']['failures'] == 0\n          and companion['checks']['passed'] == 148 and companion['checks']['failures'] == 0)\n    check('same_five_output_order', local['scope']['new_output_order'] == ['A2', 'A4', 'L2', 'L4', 'W12'])\n    check('same_single_expanded_geometry', local['scope']['fixed_geometry'] == {'theta1': 'pi/3', 'theta2': 'pi/4', 'phi1_phi2': ['0', '0']})\n    shapes = [sp.sympify(function, locals=LOCALS) for function in local['construction']['shape_functions']]\n    numerators = [ex(sp.cancel(function * S)) for function in shapes]\n    joint_N = sp.sympify(local['construction']['joint_numerator'], locals=LOCALS)\n    numerators.append(joint_N)\n    G0, G1, G2 = [sp.Matrix([[sp.sympify(value) for value in row] for row in local['construction'][key]])\n                  for key in ('G0_M0', 'G1_average_Mplusminus1', 'G2_average_Mplusminus2')]\n    check('reused_joint_matrix_matches_polynomial', ex((A.T * (p0 * G0 + p1 * G1 + (1 - p0 - p1) * G2) * A)[0] - joint_N) == 0)\n    target_point = {variable: sp.sympify(local['seed']['parameters'][name]) for name, variable in zip(NAMES, V)}\n    target_outputs = [sp.sympify(value) for value in local['seed']['shape_values']] + [sp.sympify(local['seed']['W12'])]\n    equations = [ex(numerator - target * S) for numerator, target in zip(numerators, target_outputs)]\n    for i, equation in enumerate(equations):\n        check(f'original_target_is_exact_polynomial_root_{i}', ex(equation.subs(target_point)) == 0)\n    polynomials = tuple(terms(equation) for equation in equations)\n    jacobian_terms = tuple(tuple(differentiated(polynomial, j) for j in range(5)) for polynomial in polynomials)\n    numerator_terms = tuple(terms(numerator) for numerator in numerators)\n    b = [sp.sympify(value) for value in pair['exact_pair']['b']]\n    U = sp.Matrix([[sp.sympify(value) for value in row] for row in pair['involution']['U']])\n    check('starting_b_is_exact_Ua', (U * sp.Matrix([sp.sympify(value) for value in pair['exact_pair']['a']]) - sp.Matrix(b)).applyfunc(ex) == sp.zeros(4, 1))\n    b_components = [components(value) for value in b]\n    exact_start = [txt(sp.cancel(b[i] / b[0])) for i in (1, 2, 3)] + ['1/4', '1/4']\n    planned_starts = [{'start_index': i + 1, 'offset_in_x_y_z_p0_p1': list(offset)} for i, offset in enumerate(OFFSETS)]\n    attempts, refinements = [], []\n    accepted = None\n\n    def prepared_context(dps):\n        mp.mp.dps = dps\n        funcs = tuple(prepare_mp(polynomial) for polynomial in polynomials)\n        jacs = tuple(tuple(prepare_mp(polynomial) for polynomial in row) for row in jacobian_terms)\n\n        def function(*point):\n            budget()\n            return tuple(eval_mp(polynomial, point) for polynomial in funcs)\n\n        def jacobian(*point):\n            budget()\n            return mp.matrix([[eval_mp(polynomial, point) for polynomial in row] for row in jacs])\n\n        return function, jacobian\n\n    mp.mp.dps = 80\n    target_numeric = [mp.mpf(value.p) / mp.mpf(value.q) for value in target_point.values()]\n    for start_index, offset in enumerate(OFFSETS, 1):\n        budget()\n        function, jacobian = prepared_context(80)\n        b_numeric = [numeric_coefficient(value) for value in b_components]\n        base = [b_numeric[i] / b_numeric[0] for i in (1, 2, 3)] + [mp.mpf(1) / 4, mp.mpf(1) / 4]\n        offset_q = [sp.Rational(value) for value in offset]\n        start = tuple(base[i] + mp.mpf(offset_q[i].p) / mp.mpf(offset_q[i].q) for i in range(5))\n        record = {'start_index': start_index, 'decimal_precision': 80, 'start': [numeric_string(value) for value in start],\n                  'offset': list(offset), 'tolerance': '1e-60', 'maxsteps': 50}\n        try:\n            root = tuple(mp.findroot(function, start, J=jacobian, solver='mdnewton', tol=mp.mpf('1e-60'), maxsteps=50, verify=True))\n            residual = max(abs(value) for value in function(*root))\n            distance = max(abs(root[i] - target_numeric[i]) for i in range(5))\n            physical = root[3] > 0 and root[4] > 0 and 1 - root[3] - root[4] > 0 and all(abs(value) > mp.mpf('1e-12') for value in root[:3])\n            distinct = distance > mp.mpf('1e-8')\n            valid = physical and distinct and residual < mp.mpf('1e-50')\n            record.update({'converged': True, 'root': [numeric_string(value) for value in root],\n                           'max_polynomial_residual': numeric_string(residual), 'physical_positive_population': bool(physical),\n                           'distinct_from_target_chart': bool(distinct), 'distance_from_target_infinity_norm': numeric_string(distance), 'accepted': bool(valid)})\n            attempts.append(record)\n            print(json.dumps({'stage': 'near_U_search', 'start_index': start_index, 'accepted': bool(valid),\n                              'root_display': [numeric_string(value, 18) for value in root],\n                              'max_polynomial_residual': numeric_string(residual, 10)}, ensure_ascii=False), flush=True)\n            if valid:\n                accepted = root\n                break\n        except Exception as error:\n            record.update({'converged': False, 'accepted': False, 'error_type': type(error).__name__, 'error': str(error)})\n            attempts.append(record)\n            if isinstance(error, TimeoutError):\n                break\n\n    certificate = None\n    numerical_candidate = None\n    stable = False\n    if accepted is not None:\n        current = accepted\n        for dps, tolerance, stability_tolerance in ((120, '1e-100', '1e-60'), (180, '1e-150', '1e-100')):\n            budget()\n            function, jacobian = prepared_context(dps)\n            before = tuple(current)\n            try:\n                current = tuple(mp.findroot(function, before, J=jacobian, solver='mdnewton', tol=mp.mpf(tolerance), maxsteps=40, verify=True))\n                residual = max(abs(value) for value in function(*current))\n                difference = max(abs(current[i] - before[i]) for i in range(5))\n                refined_stably = difference < mp.mpf(stability_tolerance)\n                refinements.append({'decimal_precision': dps, 'tolerance': tolerance, 'maxsteps': 40,\n                                    'root': [numeric_string(value) for value in current], 'max_polynomial_residual': numeric_string(residual),\n                                    'max_change_from_prior_precision': numeric_string(difference), 'stable_threshold': stability_tolerance,\n                                    'stable': bool(refined_stably), 'converged': True})\n            except Exception as error:\n                refinements.append({'decimal_precision': dps, 'converged': False, 'error_type': type(error).__name__, 'error': str(error)})\n                break\n        stable = len(refinements) == 2 and all(record.get('stable', False) for record in refinements)\n        mp.mp.dps = 180\n        funcs = tuple(prepare_mp(poly) for poly in polynomials)\n        prepared_numerators = tuple(prepare_mp(poly) for poly in numerator_terms)\n        root_S = 1 + sum(value ** 2 for value in current[:3])\n        outputs = [eval_mp(polynomial, current) / root_S for polynomial in prepared_numerators]\n        residuals = [eval_mp(poly, current) / root_S for poly in funcs]\n        # Derivatives of normalized observables, not just the polynomial system.\n        dN = [[prepare_mp(differentiated(poly, j)) for j in range(5)] for poly in numerator_terms]\n        dS = [2 * current[0], 2 * current[1], 2 * current[2], mp.mpf(0), mp.mpf(0)]\n        J_candidate = mp.matrix([[eval_mp(dN[i][j], current) / root_S - outputs[i] * dS[j] / root_S for j in range(5)] for i in range(5)])\n        candidate_det = mp.det(J_candidate)\n        fractions = [1 / root_S] + [value ** 2 / root_S for value in current[:3]]\n        numerical_candidate = {'parameters': {name: numeric_string(value) for name, value in zip(NAMES, current)},\n                               'p2': numeric_string(1 - current[3] - current[4]), 'relative_chart_S': numeric_string(root_S),\n                               'radiative_fractions_M1_E2_M3_E4': [numeric_string(value) for value in fractions],\n                               'five_outputs': [numeric_string(value) for value in outputs],\n                               'normalized_residuals': [numeric_string(value) for value in residuals],\n                               'max_normalized_residual': numeric_string(max(abs(value) for value in residuals)),\n                               'normalized_observable_Jacobian_determinant_numeric': numeric_string(candidate_det),\n                               'decimal_precision': 180, 'stable_multi_precision_recovery': stable}\n        print(json.dumps({'stage': 'precision_refinement', 'stable': stable,\n                          'max_normalized_residual': numerical_candidate['max_normalized_residual'],\n                          'candidate_local_determinant_display': numeric_string(candidate_det, 20)}, ensure_ascii=False), flush=True)\n        try:\n            certificate = interval_certificate(polynomials, jacobian_terms, current, budget)\n        except Exception as error:\n            certificate = {'proved': False, 'error_type': type(error).__name__, 'error': str(error)}\n\n    interval_proved = certificate is not None and certificate.get('proved', False)\n    if interval_proved:\n        check('strict_interval_Krawczyk_inclusion_all_five_coordinates', all(certificate['strict_inclusion_each_coordinate']))\n        check('interval_contraction_bound_less_than_one', certificate['contraction_less_than_one'])\n        check('interval_population_positive_and_amplitudes_nonzero', certificate['strictly_positive_population_throughout_box']\n              and all(certificate['three_relative_amplitudes_nonzero_throughout_box']))\n        check('interval_new_branch_excludes_original_chart_and_fraction', certificate['x_box_excludes_target_half']\n              and certificate['M1_fraction_excludes_target_144_over_205'])\n    if accepted is not None:\n        check('candidate_satisfies_high_precision_residual_test', Fraction(numerical_candidate['max_normalized_residual']) < Fraction('1e-50'))\n    check('no_more_than_six_deterministic_near_U_search_starts', len(attempts) <= 6)\n    check('no_more_than_two_same_branch_precision_refinements', len(refinements) <= 2)\n    for path, before in input_bytes.items():\n        check(f'{path.stem}_bytes_unchanged_after', path.read_bytes() == before)\n    check('source_raw_hash_unchanged_after', hashlib.sha256(RAW.read_bytes()).hexdigest() == RAW_SHA)\n    code_bytes = Path(__file__).read_bytes()\n    if interval_proved:\n        status = 'second_physical_branch_exists_by_interval_contraction_certificate'\n    elif accepted is not None and stable:\n        status = 'stable_high_precision_second_branch_candidate_no_rigorous_existence_proof'\n    elif accepted is not None:\n        status = 'numerical_candidate_without_complete_stability_or_interval_certificate'\n    else:\n        status = 'bounded_search_no_valid_nontrivial_physical_candidate'\n    return {\n        'schema_version': 1, 'created_at_utc': datetime.now(timezone.utc).isoformat(),\n        'artifact_kind': 'bounded-Day8-L2-five-observable-global-branch-counterexample', 'status': status,\n        'day_index': 8, 'run_closed': False, 'new_source_or_course_card': False, 'new_session_or_goal': False,\n        'experimental_data_fit': False, 'L4': False,\n        'evidence_class': 'Our synthetic normalized inverse problem, high-precision root search and interval self-audit; not a source-authored experiment.',\n        'inputs': [{'path': str(path.relative_to(ROOT)), 'sha256': expected} for path, expected in INPUT_HASHES.items()],\n        'source': {'page': 'knowledge/sources/rose-brink-1967-phase-defined-angular-distributions.md',\n                   'raw_path': str(RAW.relative_to(ROOT)), 'raw_sha256': RAW_SHA,\n                   'locators': ['RB67 printed p312/PDF7 footnote7: rotation sign',\n                                'printed p316/PDF11 Eq3.24, coherent sums and WE relation after Eq3.25',\n                                'printed p317/PDF12 Eq3.28; printed p318/PDF13 Eq3.29; printed p319/PDF14 Eqs3.36,3.39',\n                                'printed p325/PDF20 SecIII.F.3 random initial restriction; printed p326/PDF21 Eqs3.71-3.73 cascade phase',\n                                'printed p335/PDF30: noncylindrical density-matrix treatment'],\n                   'boundary': 'Full coherent amplitudes and previous exact joint Gram matrices underlie the aligned four-multipole cascade. Compact random-initial Eq3.73 is not substituted into this five-variable problem.'},\n        'scope': {'cascade': '2+ -> 2+ -> 0+', 'second_gate': 'independently pure E2',\n                  'fixed_geometry': {'theta1': 'pi/3', 'theta2': 'pi/4', 'phi1_phi2': ['0', '0']},\n                  'output_order': ['A2', 'A4', 'L2', 'L4', 'W12'], 'input_order': list(NAMES),\n                  'relative_amplitude_chart': '(a_M1,a_E2,a_M3,a_E4)=(1,x,y,z), real RB amplitudes',\n                  'population': 'w0=p0,w(+/-1)=p1/2,w(+/-2)=p2/2,p2=1-p0-p1; positive unknown axial aligned populations',\n                  'scale': 'S=1+x^2+y^2+z^2 is relative-chart normalization. Neither common amplitude scale nor absolute width/yield is an observable in this map.',\n                  'target_seed': {name: txt(target_point[variable]) for name, variable in zip(NAMES, V)},\n                  'target_outputs_exact': [txt(value) for value in target_outputs],\n                  'target_relative_chart_S': '205/144',\n                  'target_local_rank': 5, 'target_local_determinant_exact': local['augmented_map']['five_by_five_minor']['exact'],\n                  'assumptions': ['known spin/parity sequence and alignment axis', 'real relative RMEs', 'identified photon ordering',\n                                  'isolated coherent intermediate spin without deorientation in the model',\n                                  'unobserved photon polarizations', 'normalized joint intensity with ideal point geometry']},\n        'polynomial_system': {'definition': 'F_i(v)=N_i(v)-target_i*S(v); S>=1 in the real chart, so zeros are exactly equal normalized outputs.',\n                              'exact_equations': [txt(equation) for equation in equations],\n                              'coefficient_terms': [[{'powers': list(powers), 'radical_components': [list(item) for item in coefficient]}\n                                                     for powers, coefficient in polynomial] for polynomial in polynomials],\n                              'evaluation': 'Each coefficient is evaluated as (integer numerator)/(integer denominator)*sqrt(positive integer). Interval evaluation uses directed rational arithmetic and sqrt; no floating coefficient literals.'},\n        'bounded_search': {'starting_branch': 'Known U*a, regauged by its positive M1 component; p0=p1=1/4',\n                           'exact_start_chart': exact_start, 'planned_starts': planned_starts, 'executed_starts': attempts,\n                           'precision_refinements_same_accepted_branch': refinements, 'maximum_distinct_search_starts': 6,\n                           'compute_cap_seconds': COMPUTE_CAP_SECONDS, 'elapsed_seconds': time.monotonic() - started,\n                           'termination': 'First accepted physical nontrivial candidate, then two precision refinements and one interval box; no additional starts after acceptance.' if accepted is not None else 'All allowed attempted starts failed or the compute cap was reached; no further search.'},\n        'numerical_candidate': numerical_candidate, 'interval_certificate': certificate,\n        'inference': {'rigorous_global_second_branch_existence_proved': bool(interval_proved),\n                      'consequence': 'The exact target root and a distinct physical root inside the certified box have the same five normalized outputs. Local rank5 at both roots therefore does not make this map globally injective.' if interval_proved else 'A numerical candidate is not by itself a rigorous global existence theorem; use the recorded stability and residual boundaries.' if accepted is not None else 'The bounded route did not find a valid second physical branch; this failure does not prove global uniqueness.',\n                      'candidate_local_rank': 5 if interval_proved else 'numerical nonsingularity only' if numerical_candidate is not None else None,\n                      'candidate_local_rank_certificate': '||I-CJ_F(X)||_infinity<1 proves the polynomial Jacobian nonsingular at every point of the certified box. At its exact zero, J_observables=J_F/S and S>0, hence rank5.' if interval_proved else None,\n                      'conditional_coordinate': 'Equal A2,A4 fix W1 at theta1. Equal normalized W12 therefore also gives equal W12/W1; it is not a sixth independent observable.',\n                      'gauge_distinction': 'Both roots have a_M1=1. The certified x interval excludes target x=1/2, and its M1 radiative-fraction interval excludes 144/205, so this is not a common-scale/sign representation of the original root.' if interval_proved else 'Numerical distance alone rejects the trivial chart point during search; strict distinction requires the interval certificate.',\n                      'not_proved': ['classification or count of all global branches', 'identifiability for other seeds or geometries',\n                                     'an experimental fit or assignment', 'finite-count or response-folded separability',\n                                     'absolute amplitude scale, gamma strength or lifetime', 'complex amplitudes or nonaxial populations',\n                                     'robustness to feeding, gate uncertainty or intermediate deorientation'],\n                      'review_state': 'computational source/claim self-audit; not human-reviewed'},\n        'checks': {'results': checks, 'passed': sum(checks.values()), 'failures': 0, 'elapsed_seconds': time.monotonic() - started},\n        'changed_paths': [str(Path(__file__).relative_to(ROOT)), str(OUTPUT.relative_to(ROOT))],\n        'reproducibility': {'script_path': str(Path(__file__).relative_to(ROOT)), 'script_sha256': hashlib.sha256(code_bytes).hexdigest(),\n                            'source_code': code_bytes.decode('utf-8'), 'python': platform.python_version(), 'sympy': sp.__version__,\n                            'mpmath': mp.__version__, 'dependencies': str(DEPS.relative_to(ROOT)),\n                            'check_command': 'python3 tmp/day8-20261007/rose-brink/cascade-global-branch/cascade_global_branch.py',\n                            'write_command': 'python3 tmp/day8-20261007/rose-brink/cascade-global-branch/cascade_global_branch.py --write-receipt',\n                            'write_policy': 'Exclusive new owned receipt after bounded work/checks; prior 148/56 receipts and all inputs/raw/canonical/report/run/state/PLAN/Git unchanged.'},\n    }\n\n\ndef main():\n    parser = argparse.ArgumentParser(description=__doc__)\n    parser.add_argument('--write-receipt', action='store_true')\n    args = parser.parse_args()\n    result = main_result()\n    if args.write_receipt:\n        with OUTPUT.open('x', encoding='utf-8', newline='\\n') as stream:\n            json.dump(result, stream, ensure_ascii=False, indent=2)\n            stream.write('\\n')\n    candidate, certificate = result['numerical_candidate'], result['interval_certificate']\n    print(json.dumps({'artifact': str(OUTPUT.relative_to(ROOT)) if args.write_receipt else None,\n                      'status': result['status'], 'search_starts': len(result['bounded_search']['executed_starts']),\n                      'precision_refinements': len(result['bounded_search']['precision_refinements_same_accepted_branch']),\n                      'parameters': None if candidate is None else candidate['parameters'],\n                      'max_normalized_residual': None if candidate is None else candidate['max_normalized_residual'],\n                      'interval_proved': result['inference']['rigorous_global_second_branch_existence_proved'],\n                      'contraction_upper_bound_numeric': None if certificate is None else certificate.get('infinity_norm_I_minus_CJ_upper_bound_numeric_display_only'),\n                      'checks': result['checks']['passed'], 'elapsed_seconds': result['checks']['elapsed_seconds'],\n                      'run_closed': False}, ensure_ascii=False, indent=2))\n\n\nif __name__ == '__main__':\n    main()\n",
+    "python": "3.12.3",
+    "sympy": "1.14.0",
+    "mpmath": "1.3.0",
+    "dependencies": "tmp/day8-20261007/rose-brink/python-deps",
+    "check_command": "python3 tmp/day8-20261007/rose-brink/cascade-global-branch/cascade_global_branch.py",
+    "write_command": "python3 tmp/day8-20261007/rose-brink/cascade-global-branch/cascade_global_branch.py --write-receipt",
+    "write_policy": "Exclusive new owned receipt after bounded work/checks; prior 148/56 receipts and all inputs/raw/canonical/report/run/state/PLAN/Git unchanged."
+  }
+}

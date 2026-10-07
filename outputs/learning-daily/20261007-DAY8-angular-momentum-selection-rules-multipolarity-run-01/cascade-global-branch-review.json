@@ -1,0 +1,300 @@
+{
+  "schema_version": 1,
+  "audit_id": "DAY8-five-observable-cascade-global-branch-independent-review",
+  "created_at": "2026-10-07T22:42:39.888430+08:00",
+  "status": "independent-mathematical-certificate-supported-with-scientific-reuse-boundary",
+  "research_level": "L2",
+  "day_index": 8,
+  "session_id": "01a111fb-370d-7ed1-afe9-881ccc47caf4",
+  "review_actor": "Codex child day8_runtime_audit",
+  "human_review": false,
+  "paper_admission": false,
+  "scope": {
+    "reviewed_receipt": "outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/cascade-global-branch.json",
+    "reviewed_receipt_sha256": "c42abfdaaba9ce60cfe038ae1a6141756be77f8760101e7c4f447973e393e06f",
+    "receipt_sha256_matches_arithmetic_epoch": true,
+    "producer_path": "tmp/day8-20261007/rose-brink/cascade-global-branch/cascade_global_branch.py",
+    "producer_sha256": "82b7bae9d6c8c23f21a5b781aaf4a94ec800bc7c24482af010d1aab3242b2967",
+    "producer_sha256_matches_embedded_epoch": true,
+    "reviewed_global_roots": "known exact target and one certified X root; no all-root classification",
+    "domain": "real chart aM1=1, unknown positive axial populations, fixed pure-E2 cascade/point geometry"
+  },
+  "immutable_inputs": [
+    {
+      "path": "outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/cascade-local-rank.json",
+      "expected_sha256": "0a89fe75b014987ba7ed3cb1d3525dfc593a63ed35e0d207318b436ae30591ac",
+      "sha256_at_arithmetic_audit": "0a89fe75b014987ba7ed3cb1d3525dfc593a63ed35e0d207318b436ae30591ac",
+      "sha256_at_review_close": "0a89fe75b014987ba7ed3cb1d3525dfc593a63ed35e0d207318b436ae30591ac",
+      "unchanged": true
+    },
+    {
+      "path": "outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/cascade-companion-discriminant.json",
+      "expected_sha256": "d4370e9e1b616fa229a3443289758c033ce24cab3603b3d33c6ae8a790edf9a0",
+      "sha256_at_arithmetic_audit": "d4370e9e1b616fa229a3443289758c033ce24cab3603b3d33c6ae8a790edf9a0",
+      "sha256_at_review_close": "d4370e9e1b616fa229a3443289758c033ce24cab3603b3d33c6ae8a790edf9a0",
+      "unchanged": true
+    },
+    {
+      "path": "outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/four-multipole-observable-rank.json",
+      "expected_sha256": "42b7c697dc6522fa384e0934fc545a0010a614ff2af3cfcbf767729242bf5f48",
+      "sha256_at_arithmetic_audit": "42b7c697dc6522fa384e0934fc545a0010a614ff2af3cfcbf767729242bf5f48",
+      "sha256_at_review_close": "42b7c697dc6522fa384e0934fc545a0010a614ff2af3cfcbf767729242bf5f48",
+      "unchanged": true
+    },
+    {
+      "path": "outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/four-multipole-fixed-population-pair.json",
+      "expected_sha256": "b5a7ea2f727264b9d3ff56f4fec25302d326baab1ec67fd9774dea3d2522b8fd",
+      "sha256_at_arithmetic_audit": "b5a7ea2f727264b9d3ff56f4fec25302d326baab1ec67fd9774dea3d2522b8fd",
+      "sha256_at_review_close": "b5a7ea2f727264b9d3ff56f4fec25302d326baab1ec67fd9774dea3d2522b8fd",
+      "unchanged": true
+    }
+  ],
+  "source": {
+    "page": "knowledge/sources/rose-brink-1967-phase-defined-angular-distributions.md",
+    "raw_path": "raw/papers/gpt/high-spin-20260920/multipolarity/mixing ratio/1967_Rose et al_Angular Distributions of Gamma Rays in Terms of Phase-Defined Reduced Matrix Elements.pdf",
+    "expected_raw_sha256": "8f846b61b9320de291ee5600126c5e286a0fe05968df819696816f0dc1ec57dc",
+    "observed_raw_sha256": "8f846b61b9320de291ee5600126c5e286a0fe05968df819696816f0dc1ec57dc",
+    "raw_identity_matches": true,
+    "locators": [
+      "RB67 printed p312/PDF7 footnote7: rotation sign",
+      "printed p316/PDF11 Eq3.24, coherent sums and WE relation after Eq3.25",
+      "printed p317/PDF12 Eq3.28; printed p318/PDF13 Eq3.29; printed p319/PDF14 Eqs3.36,3.39",
+      "printed p325/PDF20 SecIII.F.3 random initial restriction; printed p326/PDF21 Eqs3.71-3.73 cascade phase",
+      "printed p335/PDF30: noncylindrical density-matrix treatment"
+    ],
+    "new_source_added": false,
+    "source_controls_rereviewed": "56/148 receipts assumptions, exact construction and normalization/phase boundaries; not a rerun of all controls"
+  },
+  "independent_method": {
+    "producer_executed": false,
+    "SymPy_or_mpmath_executed": false,
+    "software_tests_run": false,
+    "calculation": "Bounded standard-library Fraction/AST/isqrt polynomial and interval arithmetic, no new root search",
+    "sqrt_decimal_places": 120,
+    "mpmath_interval_implementation_read": true,
+    "rational_arithmetic_facts_all_true": true,
+    "rational_fact_items": 58,
+    "arithmetic_artifact": "tmp/day8-20261007/rose-brink/cascade-global-branch/independent-review/arithmetic-evidence.json"
+  },
+  "summary": {
+    "certificate_supported": true,
+    "material_mathematical_failures": 0,
+    "scientific_reuse_findings": 1,
+    "review_items": 12,
+    "hard_P0": 0,
+    "scientific_results": "one new admissible root exists and is unique in X; exact target and X root each rank5; their equality of five outputs proves global noninjectivity for this domain",
+    "not_all_roots_unique": true
+  },
+  "numerical_display_only": {
+    "new_x": "1.6418151508990983",
+    "new_y": "1.2043411166932157",
+    "new_z": "2.3938135552364182",
+    "new_p0": "0.2624042483036111",
+    "new_p1": "0.2331907820271430",
+    "new_p2": "0.5044049696692459",
+    "new_M1_fraction": "0.09194271211309493",
+    "independent_contraction_upper_bound": "7.2577688676552240556473630783480089E-28",
+    "target_normalized_determinant": [
+      "-0.00053264750668388141426425611288714062",
+      "-0.00053264750668388141426425611288714062"
+    ],
+    "new_normalized_determinant_proof": "rank5 from interval norm; producer determinant decimal alone is not the proof"
+  },
+  "proof_steps": [
+    "Exact coefficients and target define F=N-target*S. S>=1, so F zeros are exactly the prescribed normalized outputs.",
+    "The fixed rational center lies in convex compact X. The mean-value derivative gives T(X) subset K(X) for T(v)=v-CF(v).",
+    "Strict K inside X gives a self-map; uniform infinity-norm(I-CJ_F)<1 gives contraction. Banach ensures a unique fixed point in X.",
+    "Norm<1 implies CJ_F and hence square C and J_F are nonsingular. A fixed point is exactly a zero of F; all F zeros in X are fixed points.",
+    "At a zero J_observables=J_F/S, hence local rank5. Independent exact target derivative intervals also give rank5.",
+    "Strict positive populations/nonzero amplitudes put the X root in the ideal admissible domain. Its x and M1 fraction exclude the target chart/gauge.",
+    "The exact target and certified X root share all five outputs, so the unknown-population map is noninjective; there may be additional roots."
+  ],
+  "checks": [
+    {
+      "id": "CGB-R1",
+      "topic": "Exact coefficient/target provenance",
+      "assessment": "grounded-no-op",
+      "locators": [
+        "producer lines274–287",
+        "global polynomial_system.coefficient_terms/exact_equations",
+        "local construction.shape_functions/joint_numerator and seed"
+      ],
+      "grounding_and_boundary": "Independent Fraction expansion exactly matches all five stored equations and input N-target*S; every radical coefficient of F(target) is zero. Numeric display/search values are not used as target coefficients."
+    },
+    {
+      "id": "CGB-R2",
+      "topic": "Denominator/domain equivalence",
+      "assessment": "grounded-no-op",
+      "locators": [
+        "producer lines46,275,283,449",
+        "global polynomial_system.definition"
+      ],
+      "grounding_and_boundary": "S=1+x^2+y^2+z^2>=1 on the real fixed-M1 chart. Clearing S preserves exactly the five normalized output equations; no zero-denominator roots are introduced."
+    },
+    {
+      "id": "CGB-R3",
+      "topic": "Exact center and fixed C",
+      "assessment": "grounded-no-op",
+      "locators": [
+        "producer lines194–208",
+        "global interval_certificate.center_exact_finite_decimals/preconditioner_C_exact_rationals"
+      ],
+      "grounding_and_boundary": "Approximate search/inverse values are quantized once to terminating exact rational constants. C need not be an exact inverse. Independent center/C and box-radius facts are true."
+    },
+    {
+      "id": "CGB-R4",
+      "topic": "Outward interval operations and strict endpoints",
+      "assessment": "grounded-no-op",
+      "locators": [
+        "producer lines142–179,200–229",
+        "mpmath ctx_iv.py lines30–34,413–444",
+        "mpmath libmpi.py lines64–77,131–268,292–297,305–340"
+      ],
+      "grounding_and_boundary": "Int/string conversion and rational division/sqrt/powers use directed enclosures. Saved endpoints are raw dyadics; strict comparisons decode them into exact Fractions. Independent Fraction/isqrt arithmetic supports and is enclosed by saved K."
+    },
+    {
+      "id": "CGB-R5",
+      "topic": "Existence and boxed uniqueness",
+      "assessment": "grounded-no-op",
+      "locators": [
+        "producer lines211–221,248",
+        "global interval_certificate.theorem"
+      ],
+      "grounding_and_boundary": "K encloses T(X), with exact x0 in convex X. K strictly inside X and norm<1 give a self-map contraction and one fixed point. Norm also gives nonsingular C, so that fixed point is exactly a zero of F. Uniqueness is only in X."
+    },
+    {
+      "id": "CGB-R6",
+      "topic": "Local rank5",
+      "assessment": "grounded-no-op",
+      "locators": [
+        "producer lines248,445,463",
+        "global inference.candidate_local_rank_certificate"
+      ],
+      "grounding_and_boundary": "Norm<1 implies J_F nonsingular throughout X. At the exact zero, J_obs=J_F/S has rank5. Independent target normalized determinant also excludes zero. Do not assert the normalized derivative identity away from a zero."
+    },
+    {
+      "id": "CGB-R7",
+      "topic": "Positive density and nonzero support",
+      "assessment": "grounded-no-op",
+      "locators": [
+        "producer lines222–230",
+        "global scope.population and interval_certificate"
+      ],
+      "grounding_and_boundary": "Exact interval bounds show p0,p1,p2 positive everywhere in X and x,y,z exclude0; fixed aM1=1. This proves admissibility in the stated ideal density/amplitude domain."
+    },
+    {
+      "id": "CGB-R8",
+      "topic": "Gauge distinction/global noninjectivity",
+      "assessment": "grounded-no-op",
+      "locators": [
+        "producer lines225–229,461,465",
+        "global interval_certificate.x_box_excludes_target_half/M1_fraction_excludes_target_144_over_205"
+      ],
+      "grounding_and_boundary": "One exact target and one exact root in a distinct box share the same five outputs. x and invariant M1 fraction exclusions prove they are not common scale/sign copies. This proves the five-variable map is globally noninjective, not classification/count of all roots."
+    },
+    {
+      "id": "CGB-R9",
+      "topic": "Unknown-population slice restriction",
+      "assessment": "grounded-no-op-with-required-reuse-boundary",
+      "locators": [
+        "producer lines439–440",
+        "global scope.population",
+        "global numerical_candidate.parameters"
+      ],
+      "grounding_and_boundary": "New p0/p1 differ from target1/4,1/4. The counterexample is for jointly unknown population and amplitudes; it does not transfer to a population-known three-variable slice."
+    },
+    {
+      "id": "CGB-R10",
+      "topic": "Conditional-coordinate denominator",
+      "assessment": "grounded-no-op",
+      "locators": [
+        "producer line464",
+        "local seed.W1",
+        "global inference.conditional_coordinate"
+      ],
+      "grounding_and_boundary": "Equal A2,A4 give the same W1 at theta1. Independent exact sqrt bounds show this target W1>0, so equality of W12 also gives equal W12/W1 here without adding a sixth independent datum."
+    },
+    {
+      "id": "CGB-R11",
+      "topic": "RB source/model boundary",
+      "assessment": "grounded-no-op",
+      "locators": [
+        "global source.boundary",
+        "local source.compact_formula_boundary",
+        "companion source.phase_and_general_geometry_audit and model"
+      ],
+      "grounding_and_boundary": "Current exact expressions reuse full coherent/density Gram matrices for aligned populations; random-initial compact Eq3.73 is not directly substituted. This audit does not duplicate every old source phase/normalization calculation."
+    },
+    {
+      "id": "CGB-R12",
+      "topic": "Real-nucleus transfer language",
+      "assessment": "reuse-boundary-finding",
+      "locators": [
+        "producer lines328–333,414,461,466–469",
+        "global status/inference.consequence/inference.not_proved",
+        "companion assumptions_and_experimental_boundary.not_proved"
+      ],
+      "grounding_and_boundary": "The mathematical certificate supports an ideal-domain admissible root. Physical terminology must not imply that one real nucleus, common many-body states/current or natural long-wave matrix-element hierarchy realizes these free amplitudes. The global not_proved list does not explicitly repeat this older source boundary."
+    }
+  ],
+  "findings": [
+    {
+      "id": "CGB-P1-1",
+      "priority": "P1-for-scientific-reuse",
+      "kind": "wording-and-model-transfer-boundary",
+      "mathematical_certificate_failure": false,
+      "locations": [
+        "global status=second_physical_branch_exists_by_interval_contraction_certificate",
+        "global inference.consequence",
+        "producer lines328–333,414,461,466–469"
+      ],
+      "finding": "physical denotes the positive-population/nonzero-amplitude ideal parameter domain; the global receipt does not explicitly list real-nucleus/many-body realization among not_proved, although its synthetic evidence_class and prior companion boundary support that reading.",
+      "required_reuse_boundary": "State ideal-domain admissibility explicitly. Do not claim common many-body states/current, long-wave hierarchy, a real nucleus realizing the amplitude fractions, or equal physical prior plausibility. Also retain boxed uniqueness and unknown-population scope.",
+      "recommended_disposition": "Preserve immutable producer/global receipt and all prior hashes. Add the limit in the downstream claim or a separate parent note; no recalculation or software repair required.",
+      "existing_supporting_boundary": "companion assumptions_and_experimental_boundary.not_proved includes a nucleus realizing these amplitude fractions.",
+      "human_review_required_for_this_self_audit": false
+    }
+  ],
+  "required_reuse_boundaries": [
+    "Uniqueness only inside the certified box X; at least two roots exist for this target. No global root count/classification.",
+    "Map includes unknown p0,p1. New populations differ from target; no conclusion for a population-known slice.",
+    "Model-domain admissibility is not real-nucleus/many-body/current/long-wave realization or equal prior plausibility.",
+    "Same specified real-amplitude chart, ordering, pure second E2 gate, coherent middle spin, ideal geometry and population model.",
+    "No absolute width/lifetime, finite-count or folded-response inference; no general seeds/geometries, complex amplitudes/nonaxial densities or feeding/deorientation robustness.",
+    "Approximate root/center/determinant displays are not exact roots or proofs; exact coefficients and strict interval inequalities carry the result.",
+    "Scientific source/claim self-audit, not source-authored experimental evidence, Human review or paper admission."
+  ],
+  "artifacts": [
+    {
+      "path": "tmp/day8-20261007/rose-brink/cascade-global-branch/independent-review/README.md",
+      "sha256": "d29f48e634f1feb6d8dd4cdc07a66dad03010bbcbbf307a36d70aa6f8d0e5ace",
+      "bytes": 7457
+    },
+    {
+      "path": "tmp/day8-20261007/rose-brink/cascade-global-branch/independent-review/arithmetic-evidence.json",
+      "sha256": "1025ec4f12ba0b29639a67533e054522ad228ce0cad23fde616a3fbebfe13bb3",
+      "bytes": 27221
+    },
+    {
+      "path": "tmp/day8-20261007/rose-brink/cascade-global-branch/independent-review/fraction_certificate_audit.py",
+      "sha256": "fca1df4cb385b36da2bb5654eb04e9609cae129d00d9c82b476bca5702c9a267",
+      "bytes": 16642
+    }
+  ],
+  "mutations": {
+    "input_receipts_changed": false,
+    "global_receipt_or_producer_changed": false,
+    "canonical_changed": false,
+    "report_changed": false,
+    "run_or_course_state_changed": false,
+    "raw_or_PLAN_changed": false,
+    "Git_changed": false,
+    "clock_process_changed": false,
+    "subagents_spawned": false,
+    "allowed_writes_only": [
+      "tmp/day8-20261007/rose-brink/cascade-global-branch/independent-review/",
+      "outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/cascade-global-branch-review.json"
+    ]
+  },
+  "stop_reason": "Assigned bounded independent audit complete; mathematical certificate supported and physical-transfer wording isolated for downstream reuse."
+}

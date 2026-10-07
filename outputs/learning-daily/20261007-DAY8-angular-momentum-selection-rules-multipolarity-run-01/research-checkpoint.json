@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "event": "LKH82-model-integrated-and-candidate-pool-rebuilt",
+  "event": "cross-midnight-same-run-recoverable",
   "run_id": "prompt-2026-10-07-day-08",
   "session_id": "01a111fb-370d-7ed1-afe9-881ccc47caf4",
   "resume_command": "codex resume 01a111fb-370d-7ed1-afe9-881ccc47caf4 -C /workspace/wiki -s danger-full-access -a never",
@@ -13,14 +13,15 @@
   ],
   "course_state_updated": false,
   "runtime_snapshot": {
-    "now_local": "2026-10-07T18:22:53+08:00",
+    "now_local": "2026-10-08T00:13:32.630593+08:00",
+    "clock_tool_checkpoint_utc": "2026-10-07 16:08:24 UTC",
     "hard_deadline": "2026-10-08T15:00:00+08:00",
     "next_scheduled_start": "2026-10-08T16:00:00+08:00",
-    "minutes_to_deadline": 1237,
-    "minutes_to_next_start": 1297,
+    "minutes_to_deadline": 886,
+    "minutes_to_next_start": 946,
     "decision": "continue-or-advance",
-    "permitted_next_card": "Day9 preview only; no credit",
-    "day_index": 8
+    "day_index": 8,
+    "permitted_next_card": "Day9 uncredited only"
   },
   "candidate_pool": [
     {
@@ -51,8 +52,8 @@
     },
     {
       "id": "day8-gamma-cascade-expansion",
-      "decision": "selected-single-explicit-synthetic-companion",
-      "next_gain": "test information lost by tracing final spin using one independently assumed pureE2 secondary; no full inversion"
+      "decision": "bounded-route-complete",
+      "next_gain": "148-check pair-specific geometry/coherence certificates and source-phase controls written back; no global uniqueness"
     },
     {
       "id": "day9-strength-input-chain",
@@ -87,8 +88,43 @@
     },
     {
       "id": "day8-penetration-ICC-boundary",
-      "decision": "selected-existing-source-bounded-L2",
-      "next_gain": "test how unknown nuclear penetration affects fixed ICC/E0 exclusions without inventing atomic coefficients"
+      "decision": "bounded-route-complete",
+      "next_gain": "35-check fixed-reference/admissible-domain/E2-floor and NP/SC vs FO/NH distinction written back"
+    },
+    {
+      "id": "day8-cascade-local-rank",
+      "decision": "bounded-route-complete",
+      "next_gain": "56-check rank4→5 at original seed; normalized yield and covariance premises; isotropic partial improvement"
+    },
+    {
+      "id": "day8-five-observable-global-branch",
+      "decision": "bounded-route-complete",
+      "next_gain": "27-check computational interval existence, independent58-check audit; real nuclear/prior feasibility unproved"
+    },
+    {
+      "id": "day9-vacancy-sensitivity",
+      "decision": "preview-bounded-route-complete",
+      "next_gain": "5 NH actualinputs/offline replay and rounded-input forward controls; no experimental/covariance identity added"
+    },
+    {
+      "id": "day8-global-pair-calibrated-ratio",
+      "decision": "bounded-route-complete",
+      "next_gain": "28-check interval pair discrimination with one prescribed theta2=0; calibration/selection/covariance premises"
+    },
+    {
+      "id": "day8-electric-rank-hierarchy",
+      "decision": "bounded-primary-and-independent-review-complete",
+      "next_gain": "46-check E4/E2 coefficient/χ and limits canonicalized; no actualE/R or universalnaturalness bound"
+    },
+    {
+      "id": "day9-reverse-strength-normalization",
+      "decision": "bounded-preview-complete-uncredited",
+      "next_gain": "190 substantive/247phase-domain reverse-strength checks; no independentupwardmeasurement or cardcredit"
+    },
+    {
+      "id": "day8-truncation-observable-bound",
+      "decision": "selected-bounded-existing-source-L2",
+      "next_gain": "test sqrt-rate interference/finitebin probability bounds and conditionalpostselection caveats"
     }
   ],
   "evidence_gaps": [
@@ -112,14 +148,22 @@
     {
       "knowledge": "knowledge/sources/rose-brink-1967-phase-defined-angular-distributions.md",
       "locator": "pp.325–326 Eqs.3.65–3.73 cascade; original fixed-population U certificate RB67-14"
+    },
+    {
+      "knowledge": "knowledge/sources/rose-brink-1967-phase-defined-angular-distributions.md",
+      "locator": "pp.325–326 random-source and Eq3.73; p.335 density extension; RB67-17/18 ourL2 reconstructions"
+    },
+    {
+      "knowledge": "knowledge/sources/kibedi-2008-evaluation-theoretical-conversion-coefficients-bricc.md",
+      "locator": "pp.207–208 Sec4.1.1–4.1.2 Eq24 and NP/SC continuation; KB08-D8-4"
     }
   ],
   "next_actions": [
-    "Day8 one synthetic cascade companion discriminant, existing RB67 only",
-    "Day8 LKH82 penetration dependence and ICC/E0 exclusion boundary",
-    "2026-10-08 15:00 closeout, formal DAY9 plan/prompt and normal gated state update"
+    "Day8 rate-truncation omittedfraction versus finite-acceptance observable error; current RB formalism only",
+    "Independent source/current/hard-support audit of electric rank hierarchy",
+    "2026-10-08 15:00 finalcloseout; originalbaseline runner/state and formalDAY9 plan/prompt"
   ],
-  "latest_verification": "checkpoint-E0-globalC-checks.json",
+  "latest_verification": "checkpoint-cascade-strength-checks.json",
   "checkpoint_verified": true,
   "latest_completed_route": {
     "id": "day8-fixed-population-global-pair",
@@ -137,14 +181,14 @@
   },
   "knowledge_writeback_pages": 7,
   "ongoing_routes": [
-    "Day8 one synthetic cascade companion discriminant, existing RB67 only",
-    "Day8 LKH82 penetration dependence and ICC/E0 exclusion boundary"
+    "Day8 rate-truncation omittedfraction versus finite-acceptance observable error; current RB formalism only",
+    "Independent source/current/hard-support audit of electric rank hierarchy"
   ],
   "latest_publication": {
     "branch": "main",
-    "subject": "Add global multipole pair and independent ICC input audit",
+    "subject": "Clarify model zeros and companion observable limits for DAY8",
     "H3_passed": true,
-    "files": 16
+    "files": 17
   },
   "FO_status": "5 model points, 2 N6-warning points; offline parent replay0 new queries",
   "handover_pending": [],
@@ -153,11 +197,34 @@
   "new_parent_verified": {
     "caseC_global": 29,
     "E0_gamma_ICC_tau": 47,
-    "LKH82_model": 27
+    "LKH82_model": 27,
+    "cascade_companion": 148,
+    "cascade_local_rank": 56,
+    "penetration_boundary": 35,
+    "model_claim_review": 16,
+    "global_interval": 27,
+    "global_independent_facts": 58,
+    "ratio_design": 28,
+    "NH_inputs": 5,
+    "electric_hierarchy": 46,
+    "reverse_substantive": 190,
+    "reverse_phase_domain": 247,
+    "electric_hierarchy_independent_facts": 27
   },
   "new_canonical_claims": [
     "RB67-16",
-    "LKH82-7"
+    "LKH82-7",
+    "RB67-17",
+    "RB67-18",
+    "LKH82-12",
+    "KB08-D8-4",
+    "RB67-19",
+    "RB67-20",
+    "KB08-D8-5",
+    "MU08-7",
+    "LKH82-13",
+    "LKH82-14",
+    "MU08-8"
   ],
   "report_and_writeback_updated": true,
   "native_goal_active": true,
@@ -171,7 +238,7 @@
     "LKH82-7:E0/all-shell ICC/τ47-check",
     "LKH82-2:p179 IBM magnitudes/PPQ signs corrected by parent"
   ],
-  "next_action": "parent verify cascade and penetration receipts; continuing checkpoint publication after checks",
+  "next_action": "explicit 26-file checkpoint06 checks/publication; verify pending truncation-probability proof",
   "run_finalized": false,
   "latest_clock_execution": {
     "clock_event_id": "checkpoint-003",
@@ -183,8 +250,8 @@
   },
   "latest_local_checkpoint": {
     "branch": "main",
-    "subject": "Clarify model zeros and companion observable limits for DAY8",
-    "owned_files": 17,
+    "subject": "Extend DAY8 cascade evidence and strength normalization",
+    "files": 26,
     "publication_kind": "continuing-checkpoint",
     "run_finalized": false
   }

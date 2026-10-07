@@ -1,0 +1,605 @@
+{
+  "schema_version": 1,
+  "created_at_utc": "2026-10-07T14:56:06.516222+00:00",
+  "artifact_kind": "bounded-Day8-L2-one-secondary-direction-calibrated-cascade-ratio-design",
+  "status": "certified_pair_separated_by_predetermined_secondary_ratio",
+  "day_index": 8,
+  "run_closed": false,
+  "new_source_or_course_card": false,
+  "new_session_or_goal": false,
+  "experimental_data_fit": false,
+  "L4": false,
+  "evidence_class": "Our pair-specific ideal-model coherent cascade calculation and outward interval propagation from an already certified root box.",
+  "inputs": [
+    {
+      "path": "outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/cascade-global-branch.json",
+      "sha256": "c42abfdaaba9ce60cfe038ae1a6141756be77f8760101e7c4f447973e393e06f"
+    },
+    {
+      "path": "outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/cascade-local-rank.json",
+      "sha256": "0a89fe75b014987ba7ed3cb1d3525dfc593a63ed35e0d207318b436ae30591ac"
+    },
+    {
+      "path": "outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/cascade-companion-discriminant.json",
+      "sha256": "d4370e9e1b616fa229a3443289758c033ce24cab3603b3d33c6ae8a790edf9a0"
+    }
+  ],
+  "source": {
+    "page": "knowledge/sources/rose-brink-1967-phase-defined-angular-distributions.md",
+    "raw_path": "raw/papers/gpt/high-spin-20260920/multipolarity/mixing ratio/1967_Rose et al_Angular Distributions of Gamma Rays in Terms of Phase-Defined Reduced Matrix Elements.pdf",
+    "raw_sha256": "8f846b61b9320de291ee5600126c5e286a0fe05968df819696816f0dc1ec57dc",
+    "locators": [
+      "RB67 printed p312/PDF7 footnote7: rotation sign",
+      "printed p316/PDF11 Eq3.24, coherent sums and WE relation after Eq3.25",
+      "printed p317/PDF12 Eq3.28; printed p318/PDF13 Eq3.29; printed p319/PDF14 Eqs3.36,3.39",
+      "printed p325/PDF20 SecIII.F.3 random-initial restriction; printed p326/PDF21 Eqs3.71-3.73 cascade phase",
+      "printed p335/PDF30: density-matrix extension to noncylindrical geometry"
+    ],
+    "boundary": "Full amplitudes retain intermediate magnetic-state coherence. Compact random-initial Eq3.73 is not directly applied to the aligned four-multipole model."
+  },
+  "scope": {
+    "cascade": "2+ -> 2+ -> 0+",
+    "first_multipoles": [
+      "M1",
+      "E2",
+      "M3",
+      "E4"
+    ],
+    "secondary": "independently pure E2",
+    "theta1": "pi/3",
+    "new_numerator_theta2": "0",
+    "old_denominator_theta2": "pi/4",
+    "all_phi": "0",
+    "new_geometry_limit": "Exactly the predetermined theta2=0; no angle search or automatic expansion after a blind result.",
+    "amplitude_chart": "(1,x,y,z), real RB initial-bra/final-ket interaction RMEs",
+    "population": "w0=p0,w(+/-1)=p1/2,w(+/-2)=(1-p0-p1)/2; unknown positive aligned diagonal populations",
+    "parameter_feasibility_boundary": "Both hypotheses meet the ideal parameter constraints. This is not evidence that an actual nuclear level realizes either amplitude/population set.",
+    "other_fixed_conditions": [
+      "same first alignment axis",
+      "identified cascade and photon ordering",
+      "isolated coherent intermediate state in the main calculation",
+      "unobserved photon polarizations",
+      "ideal point detector directions"
+    ]
+  },
+  "construction": {
+    "first_amplitude": "sum_L q^pi_L sqrt(2L+1) a_L CG(2,L,2;m,i-m,i) d^L_(i-m,q)(theta1)",
+    "second_full_CG_amplitude": "sqrt5 CG(0,2,2;0,m,m) d^2_(m,q)(theta2)",
+    "joint_normalization": "W12=Tr(R F2)=a^T[p0G0+p1G1+p2G2]a/S1, S1=1+x^2+y^2+z^2, S2=1",
+    "coherence": "For each initial i and photon helicity pair, sum the intermediate m amplitudes before taking the square; sum unobserved i,q1,q2 incoherently.",
+    "new_secondary_F2": [
+      [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "5/2",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0",
+        "5/2",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    ],
+    "independent_spin_check": "F2(n)=(5/6)J_n^2(4I-J_n^2); at theta2=0, n=z",
+    "new_joint_numerator_exact": "-25*p0*x**2/56 + 155*sqrt(70)*p0*x*y/3584 - 825*sqrt(6)*p0*x*z/3584 + 5*sqrt(105)*p0*x/56 - 6325*p0*y**2/8192 - 3775*sqrt(105)*p0*y*z/28672 + 375*sqrt(6)*p0*y/512 - 10975*p0*z**2/57344 - 925*sqrt(70)*p0*z/3584 + 25*p0/16 + 375*p1*x**2/448 + 465*sqrt(70)*p1*x*y/3584 - 575*sqrt(6)*p1*x*z/3584 + 5*sqrt(105)*p1*x/112 - 14415*p1*y**2/8192 - 2645*sqrt(105)*p1*y*z/28672 + 65*sqrt(6)*p1*y/512 + 15875*p1*z**2/57344 + 185*sqrt(70)*p1*z/3584 - 5*p1/16 + 75*x**2/112 - 465*sqrt(70)*x*y/3584 + 275*sqrt(6)*x*z/3584 - 5*sqrt(105)*x/112 + 14775*y**2/8192 + 2645*sqrt(105)*y*z/28672 - 125*sqrt(6)*y/512 + 53125*z**2/57344 - 185*sqrt(70)*z/3584 + 25/32",
+    "new_G0_M0": [
+      [
+        "75/32",
+        "5*sqrt(105)/224",
+        "125*sqrt(6)/512",
+        "-555*sqrt(70)/3584"
+      ],
+      [
+        "5*sqrt(105)/224",
+        "25/112",
+        "-155*sqrt(70)/3584",
+        "-275*sqrt(6)/3584"
+      ],
+      [
+        "125*sqrt(6)/512",
+        "-155*sqrt(70)/3584",
+        "4225/4096",
+        "-565*sqrt(105)/28672"
+      ],
+      [
+        "-555*sqrt(70)/3584",
+        "-275*sqrt(6)/3584",
+        "-565*sqrt(105)/28672",
+        "21075/28672"
+      ]
+    ],
+    "new_G1_average_Mplusminus1": [
+      [
+        "15/32",
+        "0",
+        "-15*sqrt(6)/256",
+        "0"
+      ],
+      [
+        "0",
+        "675/448",
+        "0",
+        "-75*sqrt(6)/1792"
+      ],
+      [
+        "-15*sqrt(6)/256",
+        "0",
+        "45/1024",
+        "0"
+      ],
+      [
+        "0",
+        "-75*sqrt(6)/1792",
+        "0",
+        "8625/7168"
+      ]
+    ],
+    "new_G2_average_Mplusminus2": [
+      [
+        "25/32",
+        "-5*sqrt(105)/224",
+        "-125*sqrt(6)/1024",
+        "-185*sqrt(70)/7168"
+      ],
+      [
+        "-5*sqrt(105)/224",
+        "75/112",
+        "-465*sqrt(70)/7168",
+        "275*sqrt(6)/7168"
+      ],
+      [
+        "-125*sqrt(6)/1024",
+        "-465*sqrt(70)/7168",
+        "14775/8192",
+        "2645*sqrt(105)/57344"
+      ],
+      [
+        "-185*sqrt(70)/7168",
+        "275*sqrt(6)/7168",
+        "2645*sqrt(105)/57344",
+        "53125/57344"
+      ]
+    ],
+    "old_joint_numerator_recomputed_exact": "-325*p0*x**2/896 - 25*sqrt(3)*p0*x**2/448 + 235*sqrt(70)*p0*x*y/7168 + 275*sqrt(210)*p0*x*y/7168 - 2325*sqrt(2)*p0*x*z/7168 + 7125*sqrt(6)*p0*x*z/7168 - 5*sqrt(105)*p0*x/64 + 295*p0*y**2/4096 + 1555*sqrt(3)*p0*y**2/8192 + 855*sqrt(35)*p0*y*z/28672 + 3295*sqrt(105)*p0*y*z/14336 + 195*sqrt(6)*p0*y/1024 + 345*sqrt(2)*p0*y/1024 - 15875*sqrt(3)*p0*z**2/57344 + 2875*p0*z**2/28672 - 55*sqrt(210)*p0*z/1024 - 95*sqrt(70)*p0*z/1024 - 85*p0/128 - 5*sqrt(3)*p0/32 - 75*p1*x**2/128 + 225*sqrt(3)*p1*x**2/448 + 345*sqrt(210)*p1*x*y/7168 + 825*sqrt(70)*p1*x*y/7168 - 2175*sqrt(2)*p1*x*z/7168 + 425*sqrt(6)*p1*x*z/1024 - 15*sqrt(35)*p1*x/112 - 25*sqrt(105)*p1*x/448 + 765*sqrt(3)*p1*y**2/8192 + 2235*p1*y**2/4096 - 615*sqrt(35)*p1*y*z/28672 + 1355*sqrt(105)*p1*y*z/14336 - 215*sqrt(6)*p1*y/1024 - 165*sqrt(2)*p1*y/1024 - 875*p1*z**2/4096 - 6925*sqrt(3)*p1*z**2/57344 - 195*sqrt(210)*p1*z/7168 + 1165*sqrt(70)*p1*z/7168 - 5*sqrt(3)*p1/64 + 95*p1/128 - 75*sqrt(3)*x**2/448 + 1275*x**2/896 + 375*sqrt(70)*x*y/7168 + 255*sqrt(210)*x*y/7168 - 2375*sqrt(6)*x*z/7168 + 375*sqrt(2)*x*z/7168 + 25*sqrt(105)*x/448 + 15*sqrt(35)*x/112 - 105*sqrt(3)*y**2/8192 + 3495*y**2/4096 - 1745*sqrt(105)*y*z/14336 + 75*sqrt(35)*y*z/28672 - 195*sqrt(2)*y/1024 + 95*sqrt(6)*y/1024 + 13625*sqrt(3)*z**2/57344 + 31475*z**2/28672 + 515*sqrt(70)*z/7168 + 475*sqrt(210)*z/7168 + 5*sqrt(3)/32 + 115/128"
+  },
+  "interval_inputs": {
+    "decimal_precision": 100,
+    "certified_root_source": "outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/cascade-global-branch.json",
+    "exact_same_box_verified": true,
+    "box_endpoint_exact_finite_decimals": [
+      [
+        "1.641815150899098332400951054967367010315483763075187560733568078606911619731882511304412771771361575",
+        "1.641815150899098332400951054969367010315483763075187560733568078606911619731882511304412771771361575"
+      ],
+      [
+        "1.20434111669321570473415308868445642363579263679128710412476152784990457993274583517882475444222747",
+        "1.20434111669321570473415308868645642363579263679128710412476152784990457993274583517882475444222747"
+      ],
+      [
+        "2.39381355523641819129978452205219090252019546678353582328951740168183143091927770708299040071873672",
+        "2.39381355523641819129978452205419090252019546678353582328951740168183143091927770708299040071873672"
+      ],
+      [
+        "0.2624042483036110750852966927507959332209418644618781130502517328767502629576299588714339718457060639",
+        "0.2624042483036110750852966927527959332209418644618781130502517328767502629576299588714339718457060639"
+      ],
+      [
+        "0.2331907820271430430025204173356306855874857574058417603002508387173471482454382243877609530587275339",
+        "0.2331907820271430430025204173376306855874857574058417603002508387173471482454382243877609530587275339"
+      ]
+    ],
+    "box_raw_dyadic_intervals": [
+      {
+        "raw_dyadic_endpoints": [
+          {
+            "sign": 0,
+            "mantissa": "28728491030110263354084847748878121883869579997217269741457417534429686745454758645721549519484903011",
+            "exponent2": -333,
+            "bit_count": 334
+          },
+          {
+            "sign": 0,
+            "mantissa": "114913964120441053416339390995652471581864432752028919108365197905101349825396200178817447396749849037",
+            "exponent2": -335,
+            "bit_count": 336
+          }
+        ],
+        "numeric_display_only": [
+          "1.64181515089909833240095105496736701031548376",
+          "1.64181515089909833240095105496936701031548376"
+        ]
+      },
+      {
+        "raw_dyadic_endpoints": [
+          {
+            "sign": 0,
+            "mantissa": "10536783921492871965803318662561458443705841052035313312495346450566294185231552380528792007642212409",
+            "exponent2": -332,
+            "bit_count": 333
+          },
+          {
+            "sign": 0,
+            "mantissa": "84294271371942975726426549300631651596032841179442346642498299371912956325429584640161585379947936265",
+            "exponent2": -335,
+            "bit_count": 336
+          }
+        ],
+        "numeric_display_only": [
+          "1.20434111669321570473415308868445642363579264",
+          "1.20434111669321570473415308868645642363579264"
+        ]
+      },
+      {
+        "raw_dyadic_endpoints": [
+          {
+            "sign": 0,
+            "mantissa": "83773926938980067816989970565932956212021301148237251985031751206242833923360529125127806254081611115",
+            "exponent2": -334,
+            "bit_count": 336
+          },
+          {
+            "sign": 0,
+            "mantissa": "20943481734745016954247492641500737058803589382454293014074878772483533836287277980773357728371682403",
+            "exponent2": -332,
+            "bit_count": 334
+          }
+        ],
+        "numeric_display_only": [
+          "2.39381355523641819129978452205219090252019547",
+          "2.39381355523641819129978452205419090252019547"
+        ]
+      },
+      {
+        "raw_dyadic_endpoints": [
+          {
+            "sign": 0,
+            "mantissa": "143485970572053687805615990980612756896619595583065459354335118344837095595398470008033803546811267",
+            "exponent2": -328,
+            "bit_count": 327
+          },
+          {
+            "sign": 0,
+            "mantissa": "73464816932891488156475387382633667716613683991168875759561691662087004319152679027838304691208316673",
+            "exponent2": -337,
+            "bit_count": 336
+          }
+        ],
+        "numeric_display_only": [
+          "0.262404248303611075085296692750795933220941864",
+          "0.262404248303611075085296692752795933220941864"
+        ]
+      },
+      {
+        "raw_dyadic_endpoints": [
+          {
+            "sign": 0,
+            "mantissa": "16321494624050751086074492691685414176348839510965865332016837211678188635664340189168712858943666061",
+            "exponent2": -335,
+            "bit_count": 333
+          },
+          {
+            "sign": 0,
+            "mantissa": "130571956992406008688595941534603185781879618193005643796418919832486331833932046280799697422031224425",
+            "exponent2": -338,
+            "bit_count": 336
+          }
+        ],
+        "numeric_display_only": [
+          "0.233190782027143043002520417335630685587485757",
+          "0.233190782027143043002520417337630685587485757"
+        ]
+      }
+    ],
+    "coefficient_evaluation": "Each rational numerator/denominator is enclosed with directed interval operations; every positive square root is enclosed independently. Final comparisons use exact Fraction values of raw dyadic endpoints.",
+    "common_denominator_reason": "The exact alternative root lies in the certified box and satisfies the five original equal-output equations. Its old W12 equals the exact original D, not merely a rounded numerical residual."
+  },
+  "exact_original": {
+    "parameters": {
+      "x": "1/2",
+      "y": "1/3",
+      "z": "1/4",
+      "p0": "1/4",
+      "p1": "1/4"
+    },
+    "new_W12": "-519*sqrt(70)/18368 - 639*sqrt(6)/73472 - 33*sqrt(105)/18368 + 1217891/1175552",
+    "old_common_D": "-3195*sqrt(2)/73472 + 1647*sqrt(6)/73472 + 1605*sqrt(105)/293888 + 163145*sqrt(3)/2351104 + 10449*sqrt(35)/293888 + 543*sqrt(210)/36736 + 15*sqrt(70)/574 + 2300929/2351104",
+    "ratio": "(-519*sqrt(70)/18368 - 639*sqrt(6)/73472 - 33*sqrt(105)/18368 + 1217891/1175552)/(-3195*sqrt(2)/73472 + 1647*sqrt(6)/73472 + 1605*sqrt(105)/293888 + 163145*sqrt(3)/2351104 + 10449*sqrt(35)/293888 + 543*sqrt(210)/36736 + 15*sqrt(70)/574 + 2300929/2351104)"
+  },
+  "results": {
+    "new_original_W12_interval": {
+      "raw_dyadic_endpoints": [
+        {
+          "sign": 0,
+          "mantissa": "53186872790122538846821760031825529195537307069077102715517820440725119738553534534141353086802368245",
+          "exponent2": -335,
+          "bit_count": 335
+        },
+        {
+          "sign": 0,
+          "mantissa": "6648359098765317355852720003978191149442163383634637839439727555090639967319191816767669135850296031",
+          "exponent2": -332,
+          "bit_count": 332
+        }
+      ],
+      "numeric_display_only": [
+        "0.75989906226055468522212417131878354009638894",
+        "0.75989906226055468522212417131878354009638894"
+      ]
+    },
+    "new_alternative_W12_interval": {
+      "raw_dyadic_endpoints": [
+        {
+          "sign": 0,
+          "mantissa": "93476947631403716178025718795852333916748707462116948784789200500450796867460557262790793614678727507",
+          "exponent2": -336,
+          "bit_count": 336
+        },
+        {
+          "sign": 0,
+          "mantissa": "93476947631403716178025718797686768243913157555760989891782342970827488736726726893851731819936098805",
+          "exponent2": -336,
+          "bit_count": 336
+        }
+      ],
+      "numeric_display_only": [
+        "0.667768578239049793451664512005706689419311506",
+        "0.667768578239049793451664512018811285082338694"
+      ]
+    },
+    "difference_new_W12_alternative_minus_original": {
+      "raw_dyadic_endpoints": [
+        {
+          "sign": 1,
+          "mantissa": "12896797948841361515617801267798724474325906676037256646246440380999442609646511805491912558926008989",
+          "exponent2": -336,
+          "bit_count": 333
+        },
+        {
+          "sign": 1,
+          "mantissa": "12896797948841361515617801265964290147161456582393215539253297910622750740380342174430974353668637685",
+          "exponent2": -336,
+          "bit_count": 333
+        }
+      ],
+      "numeric_display_only": [
+        "-0.0921304840215048917704596593130768506770774338",
+        "-0.0921304840215048917704596592999722550140502454"
+      ]
+    },
+    "old_common_D_interval": {
+      "raw_dyadic_endpoints": [
+        {
+          "sign": 0,
+          "mantissa": "62691877058396190618091385404059164148311642308839711010887019187986104309510993085441345692914050765",
+          "exponent2": -334,
+          "bit_count": 335
+        },
+        {
+          "sign": 0,
+          "mantissa": "62691877058396190618091385404059164148311642308839711010887019187986104309510993085441345692914050769",
+          "exponent2": -334,
+          "bit_count": 335
+        }
+      ],
+      "numeric_display_only": [
+        "1.79140062533913412601609558349335776552283185",
+        "1.79140062533913412601609558349335776552283185"
+      ]
+    },
+    "ratio_original": {
+      "raw_dyadic_endpoints": [
+        {
+          "sign": 0,
+          "mantissa": "118760420282991943273052266865198174758842387677910339410473650968534908408684817739868601517039626611",
+          "exponent2": -337,
+          "bit_count": 336
+        },
+        {
+          "sign": 0,
+          "mantissa": "59380210141495971636526133432599087379421193838955169705236825484267454204342408869934300758519813313",
+          "exponent2": -336,
+          "bit_count": 335
+        }
+      ],
+      "numeric_display_only": [
+        "0.424192696771386057621895442785412645090622216",
+        "0.424192696771386057621895442785412645090622216"
+      ]
+    },
+    "ratio_alternative": {
+      "raw_dyadic_endpoints": [
+        {
+          "sign": 0,
+          "mantissa": "26090464162282901586004964221505659334542752886639102323324020288959536468917528250655347156091597085",
+          "exponent2": -335,
+          "bit_count": 334
+        },
+        {
+          "sign": 0,
+          "mantissa": "52180928324565803172009928444035341046445773334688172527369502750057940583969517791818183797557393487",
+          "exponent2": -336,
+          "bit_count": 335
+        }
+      ],
+      "numeric_display_only": [
+        "0.372763394627392744938844002831939525323501049",
+        "0.372763394627392744938844002839254804484211584"
+      ]
+    },
+    "ratio_difference_alternative_minus_original": {
+      "raw_dyadic_endpoints": [
+        {
+          "sign": 1,
+          "mantissa": "57594254535441347716129639916702149682685504525415720468710279250787050132058818948988851570692953115",
+          "exponent2": -339,
+          "bit_count": 335
+        },
+        {
+          "sign": 1,
+          "mantissa": "28797127267720673858064819954254985331901682017067988711469290936838054481491564312464467843849679289",
+          "exponent2": -338,
+          "bit_count": 334
+        }
+      ],
+      "numeric_display_only": [
+        "-0.0514293021439933126830514399534731197671211671",
+        "-0.0514293021439933126830514399461578406064106322"
+      ]
+    },
+    "old_alternative_W12_direct_box_propagation": {
+      "raw_dyadic_endpoints": [
+        {
+          "sign": 0,
+          "mantissa": "125383754116792381236182770807460906191792813040264373500293778609672968901310688800781589540176208649",
+          "exponent2": -335,
+          "bit_count": 336
+        },
+        {
+          "sign": 0,
+          "mantissa": "125383754116792381236182770808775750401453756195094470543255880321504635114341039450738503864456537569",
+          "exponent2": -335,
+          "bit_count": 336
+        }
+      ],
+      "numeric_display_only": [
+        "1.79140062533913412601609558348396495081568832",
+        "1.79140062533913412601609558350275058022997539"
+      ]
+    },
+    "old_matched_angle_difference_interval": {
+      "raw_dyadic_endpoints": [
+        {
+          "sign": 1,
+          "mantissa": "657422104830471577415048521480259766299239717711297370101101845651892889",
+          "exponent2": -335,
+          "bit_count": 239
+        },
+        {
+          "sign": 0,
+          "mantissa": "657422104830471577415048521481841945532426495319053279855812478628436039",
+          "exponent2": -335,
+          "bit_count": 239
+        }
+      ],
+      "numeric_display_only": [
+        "-9.39281470714353773148206482232698734945263564e-30",
+        "9.39281470714353773148206482234959248588114996e-30"
+      ]
+    },
+    "old_matched_angle_zero_contained": true,
+    "new_W12_difference_zero_excluded": true,
+    "ratio_difference_zero_excluded": true
+  },
+  "calibration_and_common_yield": {
+    "expected_counts_model": "mu_a=c*eps_a*Wtilde_a, mu_b=c*eps_b*Wtilde_b, with c>0 common selected-cascade exposure/yield, eps_a,eps_b>0 independently calibrated relative coincidence efficiencies, and Wtilde the intensity folded with a calibrated normalized acceptance response.",
+    "calibrated_expected_ratio": "(eps_b/eps_a)*(mu_a/mu_b)=Wtilde_a/Wtilde_b; unknown common c cancels exactly.",
+    "point_model_connection": "In the point-acceptance limit, or after a justified acceptance correction, Wtilde_j equals the model W12 at the specified direction. A finite detector requires forward folding with its independently calibrated response; dividing counts by an efficiency scalar alone does not remove angular acceptance.",
+    "same_selection_required": [
+      "same prepared/selected nuclear population and alignment",
+      "same identified cascade branch and ordering",
+      "same feeding/background treatment",
+      "same lifetime/coincidence time window and spin-deorientation selection",
+      "common exposure/yield or independently corrected relative live time/normalization"
+    ],
+    "independent_calibration_required": [
+      "relative full-energy coincidence efficiency eps_b/eps_a",
+      "angular acceptance and detector response kernels",
+      "selection and exposure corrections independent of the chosen desired multipole branch"
+    ],
+    "failure_of_cancellation": "If the two settings select different populations, branches or time windows, mu_a=c_a*eps_a*Wtilde_a and mu_b=c_b*eps_b*Wtilde_b; the ratio retains c_a/c_b. Uncalibrated detector counts do not equal the computed theory ratio.",
+    "source_scale_and_amplitude_scale": "The nuisance c is an experimental selected-cascade yield/exposure. It is not the relative chart S1 and does not determine an absolute interaction RME. The normalized theoretical ratio also cancels a common amplitude scaling."
+  },
+  "statistical_boundary": {
+    "shared_covariance": "Counts, the common first-photon gate, fitted population and efficiency/acceptance calibration can share uncertainty. The two rates and their ratio must be analyzed with their joint covariance rather than treated as independent new observations.",
+    "first_order_ratio_variance": "For A=N_a/eps_a, B=N_b/eps_b and B>0 away from zero: Var(A/B)≈Var(A)/B^2+A^2 Var(B)/B^4-2A Cov(A,B)/B^3. Efficiency and response uncertainty must enter A,B or a full joint Jacobian/likelihood.",
+    "zero_denominator": "The theory D is certified positive for this pair. A zero observed denominator count, zero efficiency or c=0 still makes the empirical ratio undefined or uninformative; no arbitrary replacement or Gaussian ratio claim is justified.",
+    "precision_limit": "No measured counts, calibration covariance, background estimates or deorientation data exist. The interval difference is a theoretical pair discriminant, not experimental significance or finite-count separability."
+  },
+  "inference": {
+    "pair_separated": true,
+    "consequence": "The additional predetermined secondary direction gives a rigorously nonzero joint-intensity and calibrated-ratio difference for this certified ideal-model pair.",
+    "not_proved": [
+      "global uniqueness among all five-variable hypotheses",
+      "a complete inverse-branch classification",
+      "detector-folded or finite-count separability",
+      "actual nuclear realizability",
+      "robustness to uncalibrated responses, feeding, uncertain gate multipolarity or deorientation"
+    ],
+    "review_state": "computational source/claim self-audit; not human-reviewed"
+  },
+  "checks": {
+    "results": {
+      "cascade-global-branch_identity_before": true,
+      "cascade-local-rank_identity_before": true,
+      "cascade-companion-discriminant_identity_before": true,
+      "source_raw_identity_before": true,
+      "global_second_root_has_interval_certificate": true,
+      "same_original_five_outputs": true,
+      "same_original_geometry": true,
+      "old_joint_polynomial_recomputed_matches_56_receipt": true,
+      "old_E2_analyzer_matches_148_receipt": true,
+      "new_full_CG_E2_analyzer_matches_spin_polynomial": true,
+      "new_theta2_zero_analyzer_is_expected_projector": true,
+      "old_exact_target_denominator_recomputed": true,
+      "new_original_coherent_path_Gram_matches_density_trace": true,
+      "new_original_intensity_uses_only_middle_Mplusminus1": true,
+      "propagated_box_is_exactly_same_certified_dyadic_box_param0": true,
+      "propagated_box_is_exactly_same_certified_dyadic_box_param1": true,
+      "propagated_box_is_exactly_same_certified_dyadic_box_param2": true,
+      "propagated_box_is_exactly_same_certified_dyadic_box_param3": true,
+      "propagated_box_is_exactly_same_certified_dyadic_box_param4": true,
+      "relative_chart_denominator_positive_over_certified_box": true,
+      "old_common_joint_denominator_strictly_positive": true,
+      "old_matched_angle_difference_interval_contains_zero": true,
+      "ratio_nonzero_difference_agrees_with_joint_nonzero_difference": true,
+      "common_yield_cancels_in_calibrated_expected_ratio": true,
+      "cascade-global-branch_bytes_unchanged_after": true,
+      "cascade-local-rank_bytes_unchanged_after": true,
+      "cascade-companion-discriminant_bytes_unchanged_after": true,
+      "source_raw_hash_unchanged_after": true
+    },
+    "passed": 28,
+    "failures": 0,
+    "elapsed_seconds": 1.7061694959993474
+  },
+  "changed_paths": [
+    "tmp/day8-20261007/rose-brink/cascade-ratio-design/cascade_ratio_design.py",
+    "outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/cascade-ratio-design.json"
+  ],
+  "reproducibility": {
+    "script_path": "tmp/day8-20261007/rose-brink/cascade-ratio-design/cascade_ratio_design.py",
+    "script_sha256": "15b557a5205a920430d529116f109073d7b0e7b84096a895df968c3e418a67c6",
+    "source_code": "#!/usr/bin/env python3\n\"\"\"Day8 L2: one predetermined secondary direction and a calibrated ratio.\n\ntheta1=pi/3 is retained; new theta2=0, old theta2=pi/4 is the denominator.\nDefault checks only; --write-receipt creates one new owned JSON exclusively.\nNo new root, angle search, source, course card or experimental fit is attempted.\n\"\"\"\nfrom __future__ import annotations\n\nimport argparse\nfrom datetime import datetime, timezone\nfrom fractions import Fraction\nfrom functools import lru_cache\nimport hashlib\nimport json\nfrom pathlib import Path\nimport platform\nimport sys\nimport time\n\nsys.dont_write_bytecode = True\nROOT = Path(__file__).resolve().parents[4]\nDEPS = ROOT / 'tmp/day8-20261007/rose-brink/python-deps'\nsys.path.insert(0, str(DEPS))\nimport sympy as sp\nimport mpmath as mp\nfrom sympy.physics.wigner import clebsch_gordan, wigner_d_small\n\nRUN = ROOT / 'outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01'\nGLOBAL = RUN / 'cascade-global-branch.json'\nLOCAL = RUN / 'cascade-local-rank.json'\nCOMPANION = RUN / 'cascade-companion-discriminant.json'\nOUT = RUN / 'cascade-ratio-design.json'\nINPUT_HASHES = {\n    GLOBAL: 'c42abfdaaba9ce60cfe038ae1a6141756be77f8760101e7c4f447973e393e06f',\n    LOCAL: '0a89fe75b014987ba7ed3cb1d3525dfc593a63ed35e0d207318b436ae30591ac',\n    COMPANION: 'd4370e9e1b616fa229a3443289758c033ce24cab3603b3d33c6ae8a790edf9a0',\n}\nRAW = ROOT / 'raw/papers/gpt/high-spin-20260920/multipolarity/mixing ratio/1967_Rose et al_Angular Distributions of Gamma Rays in Terms of Phase-Defined Reduced Matrix Elements.pdf'\nRAW_SHA = '8f846b61b9320de291ee5600126c5e286a0fe05968df819696816f0dc1ec57dc'\nx, y, z, p0, p1 = sp.symbols('x y z p0 p1', real=True)\nV = (x, y, z, p0, p1)\nNAMES = ('x', 'y', 'z', 'p0', 'p1')\nSYMBOLS = dict(zip(NAMES, V))\nA = sp.Matrix([1, x, y, z])\nS = 1 + x ** 2 + y ** 2 + z ** 2\nM = tuple(range(-2, 3))\nQ = (-1, 1)\nPI = (1, 0, 1, 0)\nTHETA1, NEW_THETA2, OLD_THETA2 = sp.pi / 3, sp.Integer(0), sp.pi / 4\n\n\ndef ex(value):\n    return sp.expand(value)\n\n\ndef mx(matrix):\n    return matrix.applyfunc(ex)\n\n\ndef txt(value):\n    return sp.sstr(value)\n\n\ndef sm(matrix):\n    return [[txt(matrix[i, j]) for j in range(matrix.cols)] for i in range(matrix.rows)]\n\n\n@lru_cache(None)\ndef d_at(L, theta):\n    # RB exp(-i theta Jy): negative SymPy argument; integer half-angle\n    # monomials reduce via sin(theta)/2 when both powers are odd.\n    t = sp.symbols('template_theta', real=True)\n    hs, hc = sp.symbols('half_s half_c', real=True)\n\n    def convert(entry):\n        polynomial = sp.Poly(ex(entry.xreplace({sp.sin(t / 2): hs, sp.cos(t / 2): hc})), hs, hc)\n        result = 0\n        for (ps, pc), coefficient in polynomial.terms():\n            if ps % 2 != pc % 2:\n                raise AssertionError('Unexpected half-angle parity')\n            result += coefficient * ((1 - sp.cos(theta)) / 2) ** (ps // 2) * ((1 + sp.cos(theta)) / 2) ** (pc // 2) * (sp.sin(theta) / 2 if ps % 2 else 1)\n        return ex(result)\n\n    return wigner_d_small(L, -t).applyfunc(convert)\n\n\ndef first_basis():\n    ds = {L: d_at(L, THETA1) for L in range(1, 5)}\n    return {(L, q): sp.Matrix(5, 5, lambda ii, mm: ex(\n        sp.Integer(q) ** PI[L - 1] * sp.sqrt(2 * L + 1)\n        * clebsch_gordan(2, L, 2, M[mm], M[ii] - M[mm], M[ii])\n        * ds[L][L - (M[ii] - M[mm]), L - q]) if abs(M[ii] - M[mm]) <= L else 0)\n        for L in range(1, 5) for q in Q}\n\n\ndef second_vectors(theta):\n    d = d_at(2, theta)\n    # Initial-bra WE for Jmiddle=2 -> Jfinal=0, with the full CG retained.\n    return {q: sp.Matrix([sp.sqrt(5) * clebsch_gordan(0, 2, 2, 0, m, m) * d[2 - m, 2 - q] for m in M]) for q in Q}\n\n\ndef joint_model(basis, theta):\n    vectors = second_vectors(theta)\n    analyzer = mx(sum((vectors[q] * vectors[q].T for q in Q), sp.zeros(5)) / 2)\n    gram_i = []\n    for ii in range(5):\n        gram = sp.zeros(4)\n        for q1 in Q:\n            for q2 in Q:\n                path = sp.Matrix([ex((basis[L, q1] * vectors[q2])[ii]) for L in range(1, 5)])\n                gram += path * path.T / 4\n        gram_i.append(mx(gram))\n    G0, G1, G2 = gram_i[2], mx((gram_i[1] + gram_i[3]) / 2), mx((gram_i[0] + gram_i[4]) / 2)\n    numerator = ex((A.T * (p0 * G0 + p1 * G1 + (1 - p0 - p1) * G2) * A)[0])\n    return numerator, analyzer, (G0, G1, G2)\n\n\ndef radical_components(expression):\n    result = []\n    for root, coefficient in ex(expression).as_coefficients_dict().items():\n        if coefficient.is_Rational is not True:\n            raise AssertionError('Non-rational radical coefficient')\n        radicand = 1\n        if root != 1:\n            if not (root.is_Pow and root.exp == sp.Rational(1, 2) and root.base.is_Integer and root.base > 0):\n                raise AssertionError(f'Unexpected coefficient {root}')\n            radicand = int(root.base)\n        result.append((radicand, int(coefficient.p), int(coefficient.q)))\n    return result\n\n\ndef iv_constant(expression):\n    result = mp.iv.mpf(0)\n    for radicand, numerator, denominator in radical_components(expression):\n        result += mp.iv.mpf(numerator) / mp.iv.mpf(denominator) * mp.iv.sqrt(mp.iv.mpf(radicand))\n    return result\n\n\ndef eval_iv(expression, box):\n    result = mp.iv.mpf(0)\n    for powers, coefficient in sp.Poly(ex(expression), *V).terms():\n        term = iv_constant(coefficient)\n        for coordinate, power in zip(box, powers):\n            if power:\n                term *= coordinate ** power\n        result += term\n    return result\n\n\ndef endpoint_fraction(raw):\n    sign, mantissa, exponent, bit_count = raw\n    del bit_count\n    value = Fraction((-1 if sign else 1) * mantissa)\n    return value * 2 ** exponent if exponent >= 0 else value / 2 ** (-exponent)\n\n\ndef bounds(interval):\n    return tuple(endpoint_fraction(endpoint) for endpoint in interval._mpi_)\n\n\ndef zero_in(interval):\n    lower, upper = bounds(interval)\n    return lower <= 0 <= upper\n\n\ndef serial_interval(interval):\n    return {'raw_dyadic_endpoints': [\n                {'sign': int(sign), 'mantissa': str(mantissa), 'exponent2': int(exponent), 'bit_count': int(bit_count)}\n                for sign, mantissa, exponent, bit_count in interval._mpi_],\n            'numeric_display_only': [mp.nstr(mp.mp.make_mpf(endpoint), 45) for endpoint in interval._mpi_]}\n\n\ndef main_result():\n    started = time.monotonic()\n    checks = {}\n\n    def check(name, condition):\n        checks[name] = bool(condition)\n        if not checks[name]:\n            raise AssertionError(name)\n\n    input_bytes = {path: path.read_bytes() for path in INPUT_HASHES}\n    for path, expected in INPUT_HASHES.items():\n        check(f'{path.stem}_identity_before', hashlib.sha256(input_bytes[path]).hexdigest() == expected)\n    global_result, local, companion = (json.loads(input_bytes[path]) for path in (GLOBAL, LOCAL, COMPANION))\n    check('source_raw_identity_before', hashlib.sha256(RAW.read_bytes()).hexdigest() == RAW_SHA)\n    certificate = global_result['interval_certificate']\n    check('global_second_root_has_interval_certificate', certificate['proved'] and all(certificate['strict_inclusion_each_coordinate'])\n          and certificate['contraction_less_than_one'])\n    check('same_original_five_outputs', global_result['scope']['output_order'] == ['A2', 'A4', 'L2', 'L4', 'W12'])\n    check('same_original_geometry', global_result['scope']['fixed_geometry'] == {'theta1': 'pi/3', 'theta2': 'pi/4', 'phi1_phi2': ['0', '0']})\n    point = {variable: sp.sympify(global_result['scope']['target_seed'][name]) for name, variable in zip(NAMES, V)}\n    basis = first_basis()\n    N_new, F_new, new_grams = joint_model(basis, NEW_THETA2)\n    N_old, F_old, old_grams = joint_model(basis, OLD_THETA2)\n    check('old_joint_polynomial_recomputed_matches_56_receipt', ex(N_old - sp.sympify(local['construction']['joint_numerator'], locals=SYMBOLS)) == 0)\n    check('old_E2_analyzer_matches_148_receipt', F_old == sp.Matrix([[sp.sympify(value) for value in row] for row in companion['model']['secondary_analyzer_exact']]))\n    Jz = sp.diag(*M)\n    F_independent = sp.Rational(5, 6) * Jz ** 2 * (4 * sp.eye(5) - Jz ** 2)\n    check('new_full_CG_E2_analyzer_matches_spin_polynomial', F_new == F_independent)\n    check('new_theta2_zero_analyzer_is_expected_projector', F_new == sp.diag(0, sp.Rational(5, 2), 0, sp.Rational(5, 2), 0))\n    seed_S = ex(S.subs(point))\n    original_new = ex(N_new.subs(point) / seed_S)\n    denominator = sp.sympify(global_result['scope']['target_outputs_exact'][-1])\n    check('old_exact_target_denominator_recomputed', ex(N_old.subs(point) / seed_S - denominator) == 0)\n\n    # Independent density trace at the exact original root.\n    a_seed = A.subs(point)\n    amplitudes = {q: mx(sum((a_seed[L - 1] * basis[L, q] for L in range(1, 5)), sp.zeros(5))) for q in Q}\n    p0_seed, p1_seed = point[p0], point[p1]\n    weights = ((1 - p0_seed - p1_seed) / 2, p1_seed / 2, p0_seed, p1_seed / 2, (1 - p0_seed - p1_seed) / 2)\n    R = mx(sum((amplitudes[q].T * sp.diag(*weights) * amplitudes[q] for q in Q), sp.zeros(5)) / (2 * seed_S))\n    check('new_original_coherent_path_Gram_matches_density_trace', ex(sp.trace(R * F_new) - original_new) == 0)\n    check('new_original_intensity_uses_only_middle_Mplusminus1', ex(original_new - sp.Rational(5, 2) * (R[1, 1] + R[3, 3])) == 0)\n\n    mp.mp.dps = 160\n    mp.iv.dps = certificate['interval_decimal_precision']\n    box = [mp.iv.mpf(endpoints) for endpoints in certificate['box_endpoint_exact_finite_decimals']]\n    for i, value in enumerate(box):\n        stored = certificate['box_intervals'][i]['raw_dyadic_endpoints']\n        stored_raw = tuple((endpoint['sign'], int(endpoint['mantissa']), endpoint['exponent2'], endpoint['bit_count']) for endpoint in stored)\n        check(f'propagated_box_is_exactly_same_certified_dyadic_box_param{i}', value._mpi_ == stored_raw)\n    S_box = eval_iv(S, box)\n    check('relative_chart_denominator_positive_over_certified_box', bounds(S_box)[0] > 0)\n    D_iv = iv_constant(denominator)\n    check('old_common_joint_denominator_strictly_positive', bounds(D_iv)[0] > 0)\n    new_original_iv = iv_constant(original_new)\n    new_alternative_iv = eval_iv(N_new, box) / S_box\n    old_alternative_iv = eval_iv(N_old, box) / S_box\n    old_difference_iv = old_alternative_iv - D_iv\n    check('old_matched_angle_difference_interval_contains_zero', zero_in(old_difference_iv))\n    difference_iv = new_alternative_iv - new_original_iv\n    original_ratio_iv = new_original_iv / D_iv\n    alternative_ratio_iv = new_alternative_iv / D_iv\n    ratio_difference_iv = difference_iv / D_iv\n    separates = not zero_in(difference_iv)\n    check('ratio_nonzero_difference_agrees_with_joint_nonzero_difference', separates == (not zero_in(ratio_difference_iv)))\n    # If the new direction is blind, retain that bounded result, not a new angle.\n\n    c, eps_a, eps_b, Wa, Wb = sp.symbols('c eps_a eps_b W_a W_b', positive=True)\n    corrected_expected_ratio = (eps_b / eps_a) * (c * eps_a * Wa) / (c * eps_b * Wb)\n    check('common_yield_cancels_in_calibrated_expected_ratio', sp.cancel(corrected_expected_ratio - Wa / Wb) == 0)\n    for path, before in input_bytes.items():\n        check(f'{path.stem}_bytes_unchanged_after', path.read_bytes() == before)\n    check('source_raw_hash_unchanged_after', hashlib.sha256(RAW.read_bytes()).hexdigest() == RAW_SHA)\n    code_bytes = Path(__file__).read_bytes()\n    return {\n        'schema_version': 1, 'created_at_utc': datetime.now(timezone.utc).isoformat(),\n        'artifact_kind': 'bounded-Day8-L2-one-secondary-direction-calibrated-cascade-ratio-design',\n        'status': 'certified_pair_separated_by_predetermined_secondary_ratio' if separates else 'predetermined_direction_not_certified_to_separate_pair',\n        'day_index': 8, 'run_closed': False, 'new_source_or_course_card': False, 'new_session_or_goal': False,\n        'experimental_data_fit': False, 'L4': False,\n        'evidence_class': 'Our pair-specific ideal-model coherent cascade calculation and outward interval propagation from an already certified root box.',\n        'inputs': [{'path': str(path.relative_to(ROOT)), 'sha256': expected} for path, expected in INPUT_HASHES.items()],\n        'source': {'page': 'knowledge/sources/rose-brink-1967-phase-defined-angular-distributions.md',\n                   'raw_path': str(RAW.relative_to(ROOT)), 'raw_sha256': RAW_SHA,\n                   'locators': ['RB67 printed p312/PDF7 footnote7: rotation sign',\n                                'printed p316/PDF11 Eq3.24, coherent sums and WE relation after Eq3.25',\n                                'printed p317/PDF12 Eq3.28; printed p318/PDF13 Eq3.29; printed p319/PDF14 Eqs3.36,3.39',\n                                'printed p325/PDF20 SecIII.F.3 random-initial restriction; printed p326/PDF21 Eqs3.71-3.73 cascade phase',\n                                'printed p335/PDF30: density-matrix extension to noncylindrical geometry'],\n                   'boundary': 'Full amplitudes retain intermediate magnetic-state coherence. Compact random-initial Eq3.73 is not directly applied to the aligned four-multipole model.'},\n        'scope': {'cascade': '2+ -> 2+ -> 0+', 'first_multipoles': ['M1', 'E2', 'M3', 'E4'], 'secondary': 'independently pure E2',\n                  'theta1': 'pi/3', 'new_numerator_theta2': '0', 'old_denominator_theta2': 'pi/4', 'all_phi': '0',\n                  'new_geometry_limit': 'Exactly the predetermined theta2=0; no angle search or automatic expansion after a blind result.',\n                  'amplitude_chart': '(1,x,y,z), real RB initial-bra/final-ket interaction RMEs',\n                  'population': 'w0=p0,w(+/-1)=p1/2,w(+/-2)=(1-p0-p1)/2; unknown positive aligned diagonal populations',\n                  'parameter_feasibility_boundary': 'Both hypotheses meet the ideal parameter constraints. This is not evidence that an actual nuclear level realizes either amplitude/population set.',\n                  'other_fixed_conditions': ['same first alignment axis', 'identified cascade and photon ordering', 'isolated coherent intermediate state in the main calculation',\n                                             'unobserved photon polarizations', 'ideal point detector directions']},\n        'construction': {'first_amplitude': 'sum_L q^pi_L sqrt(2L+1) a_L CG(2,L,2;m,i-m,i) d^L_(i-m,q)(theta1)',\n                         'second_full_CG_amplitude': 'sqrt5 CG(0,2,2;0,m,m) d^2_(m,q)(theta2)',\n                         'joint_normalization': 'W12=Tr(R F2)=a^T[p0G0+p1G1+p2G2]a/S1, S1=1+x^2+y^2+z^2, S2=1',\n                         'coherence': 'For each initial i and photon helicity pair, sum the intermediate m amplitudes before taking the square; sum unobserved i,q1,q2 incoherently.',\n                         'new_secondary_F2': sm(F_new), 'independent_spin_check': 'F2(n)=(5/6)J_n^2(4I-J_n^2); at theta2=0, n=z',\n                         'new_joint_numerator_exact': txt(N_new),\n                         'new_G0_M0': sm(new_grams[0]), 'new_G1_average_Mplusminus1': sm(new_grams[1]), 'new_G2_average_Mplusminus2': sm(new_grams[2]),\n                         'old_joint_numerator_recomputed_exact': txt(N_old)},\n        'interval_inputs': {'decimal_precision': mp.iv.dps,\n                            'certified_root_source': str(GLOBAL.relative_to(ROOT)), 'exact_same_box_verified': True,\n                            'box_endpoint_exact_finite_decimals': certificate['box_endpoint_exact_finite_decimals'],\n                            'box_raw_dyadic_intervals': [serial_interval(value) for value in box],\n                            'coefficient_evaluation': 'Each rational numerator/denominator is enclosed with directed interval operations; every positive square root is enclosed independently. Final comparisons use exact Fraction values of raw dyadic endpoints.',\n                            'common_denominator_reason': 'The exact alternative root lies in the certified box and satisfies the five original equal-output equations. Its old W12 equals the exact original D, not merely a rounded numerical residual.'},\n        'exact_original': {'parameters': global_result['scope']['target_seed'], 'new_W12': txt(original_new),\n                           'old_common_D': txt(denominator), 'ratio': txt(original_new / denominator)},\n        'results': {'new_original_W12_interval': serial_interval(new_original_iv),\n                    'new_alternative_W12_interval': serial_interval(new_alternative_iv),\n                    'difference_new_W12_alternative_minus_original': serial_interval(difference_iv),\n                    'old_common_D_interval': serial_interval(D_iv),\n                    'ratio_original': serial_interval(original_ratio_iv), 'ratio_alternative': serial_interval(alternative_ratio_iv),\n                    'ratio_difference_alternative_minus_original': serial_interval(ratio_difference_iv),\n                    'old_alternative_W12_direct_box_propagation': serial_interval(old_alternative_iv),\n                    'old_matched_angle_difference_interval': serial_interval(old_difference_iv),\n                    'old_matched_angle_zero_contained': True,\n                    'new_W12_difference_zero_excluded': separates, 'ratio_difference_zero_excluded': not zero_in(ratio_difference_iv)},\n        'calibration_and_common_yield': {\n            'expected_counts_model': 'mu_a=c*eps_a*Wtilde_a, mu_b=c*eps_b*Wtilde_b, with c>0 common selected-cascade exposure/yield, eps_a,eps_b>0 independently calibrated relative coincidence efficiencies, and Wtilde the intensity folded with a calibrated normalized acceptance response.',\n            'calibrated_expected_ratio': '(eps_b/eps_a)*(mu_a/mu_b)=Wtilde_a/Wtilde_b; unknown common c cancels exactly.',\n            'point_model_connection': 'In the point-acceptance limit, or after a justified acceptance correction, Wtilde_j equals the model W12 at the specified direction. A finite detector requires forward folding with its independently calibrated response; dividing counts by an efficiency scalar alone does not remove angular acceptance.',\n            'same_selection_required': ['same prepared/selected nuclear population and alignment', 'same identified cascade branch and ordering',\n                                        'same feeding/background treatment', 'same lifetime/coincidence time window and spin-deorientation selection',\n                                        'common exposure/yield or independently corrected relative live time/normalization'],\n            'independent_calibration_required': ['relative full-energy coincidence efficiency eps_b/eps_a', 'angular acceptance and detector response kernels',\n                                                 'selection and exposure corrections independent of the chosen desired multipole branch'],\n            'failure_of_cancellation': 'If the two settings select different populations, branches or time windows, mu_a=c_a*eps_a*Wtilde_a and mu_b=c_b*eps_b*Wtilde_b; the ratio retains c_a/c_b. Uncalibrated detector counts do not equal the computed theory ratio.',\n            'source_scale_and_amplitude_scale': 'The nuisance c is an experimental selected-cascade yield/exposure. It is not the relative chart S1 and does not determine an absolute interaction RME. The normalized theoretical ratio also cancels a common amplitude scaling.'},\n        'statistical_boundary': {\n            'shared_covariance': 'Counts, the common first-photon gate, fitted population and efficiency/acceptance calibration can share uncertainty. The two rates and their ratio must be analyzed with their joint covariance rather than treated as independent new observations.',\n            'first_order_ratio_variance': 'For A=N_a/eps_a, B=N_b/eps_b and B>0 away from zero: Var(A/B)≈Var(A)/B^2+A^2 Var(B)/B^4-2A Cov(A,B)/B^3. Efficiency and response uncertainty must enter A,B or a full joint Jacobian/likelihood.',\n            'zero_denominator': 'The theory D is certified positive for this pair. A zero observed denominator count, zero efficiency or c=0 still makes the empirical ratio undefined or uninformative; no arbitrary replacement or Gaussian ratio claim is justified.',\n            'precision_limit': 'No measured counts, calibration covariance, background estimates or deorientation data exist. The interval difference is a theoretical pair discriminant, not experimental significance or finite-count separability.'},\n        'inference': {'pair_separated': separates,\n                      'consequence': 'The additional predetermined secondary direction gives a rigorously nonzero joint-intensity and calibrated-ratio difference for this certified ideal-model pair.' if separates else 'The chosen direction is not certified to distinguish this pair; the bounded design stops here.',\n                      'not_proved': ['global uniqueness among all five-variable hypotheses', 'a complete inverse-branch classification',\n                                     'detector-folded or finite-count separability', 'actual nuclear realizability',\n                                     'robustness to uncalibrated responses, feeding, uncertain gate multipolarity or deorientation'],\n                      'review_state': 'computational source/claim self-audit; not human-reviewed'},\n        'checks': {'results': checks, 'passed': sum(checks.values()), 'failures': 0, 'elapsed_seconds': time.monotonic() - started},\n        'changed_paths': [str(Path(__file__).relative_to(ROOT)), str(OUT.relative_to(ROOT))],\n        'reproducibility': {'script_path': str(Path(__file__).relative_to(ROOT)), 'script_sha256': hashlib.sha256(code_bytes).hexdigest(),\n                            'source_code': code_bytes.decode('utf-8'), 'python': platform.python_version(), 'sympy': sp.__version__,\n                            'mpmath': mp.__version__, 'dependencies': str(DEPS.relative_to(ROOT)),\n                            'check_command': 'python3 tmp/day8-20261007/rose-brink/cascade-ratio-design/cascade_ratio_design.py',\n                            'write_command': 'python3 tmp/day8-20261007/rose-brink/cascade-ratio-design/cascade_ratio_design.py --write-receipt',\n                            'write_policy': 'Exclusive owned receipt only; old global/56/148 receipts and all inputs/raw/canonical/report/run/state/PLAN/Git unchanged.'},\n    }\n\n\ndef main():\n    parser = argparse.ArgumentParser(description=__doc__)\n    parser.add_argument('--write-receipt', action='store_true')\n    args = parser.parse_args()\n    result = main_result()\n    if args.write_receipt:\n        with OUT.open('x', encoding='utf-8', newline='\\n') as stream:\n            json.dump(result, stream, ensure_ascii=False, indent=2)\n            stream.write('\\n')\n    print(json.dumps({'artifact': str(OUT.relative_to(ROOT)) if args.write_receipt else None,\n                      'status': result['status'], 'checks': result['checks']['passed'], 'elapsed_seconds': result['checks']['elapsed_seconds'],\n                      'numeric_interval_display_only': {key: result['results'][key]['numeric_display_only'] for key in\n                          ('new_original_W12_interval', 'new_alternative_W12_interval', 'difference_new_W12_alternative_minus_original',\n                           'ratio_original', 'ratio_alternative', 'ratio_difference_alternative_minus_original', 'old_matched_angle_difference_interval')},\n                      'run_closed': False}, ensure_ascii=False, indent=2))\n\n\nif __name__ == '__main__':\n    main()\n",
+    "python": "3.12.3",
+    "sympy": "1.14.0",
+    "mpmath": "1.3.0",
+    "dependencies": "tmp/day8-20261007/rose-brink/python-deps",
+    "check_command": "python3 tmp/day8-20261007/rose-brink/cascade-ratio-design/cascade_ratio_design.py",
+    "write_command": "python3 tmp/day8-20261007/rose-brink/cascade-ratio-design/cascade_ratio_design.py --write-receipt",
+    "write_policy": "Exclusive owned receipt only; old global/56/148 receipts and all inputs/raw/canonical/report/run/state/PLAN/Git unchanged."
+  }
+}

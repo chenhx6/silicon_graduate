@@ -1,0 +1,1897 @@
+{
+  "schema_version": 1,
+  "created_at_utc": "2026-10-07T12:22:10.389460+00:00",
+  "artifact_kind": "bounded-Day8-L2-coherent-cascade-companion-discriminant",
+  "status": "success_this_pair_separated_in_one_expanded_geometry",
+  "day_index": 8,
+  "run_closed": false,
+  "new_source_or_course_card": false,
+  "new_session_or_goal": false,
+  "experimental_data_fit": false,
+  "evidence_class": "Our exact synthetic finite-amplitude/density calculation under existing RB conventions, not a source-authored experimental result.",
+  "source": {
+    "existing_pair": "outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/four-multipole-fixed-population-pair.json",
+    "existing_pair_sha256": "b5a7ea2f727264b9d3ff56f4fec25302d326baab1ec67fd9774dea3d2522b8fd",
+    "source_page": "knowledge/sources/rose-brink-1967-phase-defined-angular-distributions.md",
+    "raw_path": "raw/papers/gpt/high-spin-20260920/multipolarity/mixing ratio/1967_Rose et al_Angular Distributions of Gamma Rays in Terms of Phase-Defined Reduced Matrix Elements.pdf",
+    "raw_sha256": "8f846b61b9320de291ee5600126c5e286a0fe05968df819696816f0dc1ec57dc",
+    "locators": [
+      "RB67 printed p312/PDF7 footnote7: rotation sign",
+      "printed p316/PDF11 Eq3.24, coherent sums and WE relation after Eq3.25",
+      "printed p317/PDF12 Eq3.28 and printed p318/PDF13 Eq3.29",
+      "printed p325/PDF20 SecIII.F.3: random initial state and no other preselected axis",
+      "printed p326/PDF21 Eqs3.71-3.73: first gamma phase and random-initial correlation",
+      "printed p335/PDF30: noncylindrical geometry needs density-matrix treatment starting Eq3.24"
+    ],
+    "phase_and_general_geometry_audit": "Compact Eq3.73 is not applied directly to the main nonuniform aligned initial population with four first multipoles. Full amplitudes and the intermediate density are used."
+  },
+  "model": {
+    "cascade": "2+ -> 2+ -> 0+",
+    "first_multipole_order": [
+      "M1",
+      "E2",
+      "M3",
+      "E4"
+    ],
+    "first_magnetic_pi": [
+      1,
+      0,
+      1,
+      0
+    ],
+    "known_initial_M_order": [
+      -2,
+      -1,
+      0,
+      1,
+      2
+    ],
+    "known_initial_weights": [
+      "1/4",
+      "1/8",
+      "1/4",
+      "1/8",
+      "1/4"
+    ],
+    "second_gate": "independently pure E2, a2=1, S2=1",
+    "U": [
+      [
+        "0",
+        "sqrt(105)/35",
+        "0",
+        "4*sqrt(70)/35"
+      ],
+      [
+        "sqrt(105)/35",
+        "0",
+        "4*sqrt(70)/35",
+        "0"
+      ],
+      [
+        "0",
+        "4*sqrt(70)/35",
+        "0",
+        "-sqrt(105)/35"
+      ],
+      [
+        "4*sqrt(70)/35",
+        "0",
+        "-sqrt(105)/35",
+        "0"
+      ]
+    ],
+    "rme_order": "initial bra / final ket: a_L = <Ji||T_L||Jf>/sqrt(2L+1), real RB interaction RMEs",
+    "first_amplitude": "A1_q(i,m) = sum_L q^pi_L sqrt(2L+1) a_L CG(2,L,2;m,i-m,i) d^L_(i-m,q)(theta1)",
+    "second_amplitude": "A2_q(m) = sqrt5 d^2_(m,q)(theta2)",
+    "middle_density": "R_mn = sum_(i,q1) w_i A1_q1(i,m) A1_q1(i,n)^* / (2 S1); Tr R = W1",
+    "secondary_analyzer": "F2 = sum_q2 A2_q2 A2_q2^dagger / (2 S2)",
+    "secondary_analyzer_exact": [
+      [
+        "15/16",
+        "5/8",
+        "-5*sqrt(6)/16",
+        "5/8",
+        "-5/16"
+      ],
+      [
+        "5/8",
+        "5/8",
+        "0",
+        "5/8",
+        "-5/8"
+      ],
+      [
+        "-5*sqrt(6)/16",
+        "0",
+        "15/8",
+        "0",
+        "-5*sqrt(6)/16"
+      ],
+      [
+        "5/8",
+        "5/8",
+        "0",
+        "5/8",
+        "-5/8"
+      ],
+      [
+        "-5/16",
+        "-5/8",
+        "-5*sqrt(6)/16",
+        "-5/8",
+        "15/16"
+      ]
+    ],
+    "joint_intensity": "W12 = Tr(R F2) = sum_(i,q1,q2) w_i |sum_m A1_q1(i,m) A2_q2(m)|^2 / (4 S1 S2)",
+    "coherence": "Intermediate m is summed coherently within each photon-helicity path, then squared. Initial i and unobserved q1,q2 are summed incoherently.",
+    "complex_conjugation_boundary": "The source emission interaction amplitudes are conjugate to physical transition amplitudes; the selected meridian amplitudes are real, so coherent product probabilities agree.",
+    "rotation": "SymPy1.14 wigner_d_small(L,-theta), then descending-to-ascending M conversion",
+    "geometry": "Both phi=0 relative to a fixed initial alignment z axis; first photon and second photon polarizations unobserved.",
+    "positivity": "R and F2 are weighted Gram matrices; W12 is a sum of nonnegative squared coherent amplitudes.",
+    "normalization": "W1 and W12 are dimensionless synthetic intensities with full angular averages as specified below."
+  },
+  "bounded_protocol": {
+    "baseline": "theta1=0, theta2=pi/4",
+    "one_causal_expansion": "theta1=pi/3, retain theta2=pi/4; no further angles or success search",
+    "reason": "At theta1=0 the entire intermediate density is identical. Move gamma1 away from the initial alignment axis to permit conditional spin coherences in its frame.",
+    "termination": "An exact pair-specific nonzero discriminant was found and random/dephasing/phase controls completed; no inverse classification or real DCO threshold is attempted."
+  },
+  "baseline": {
+    "pure_boundary": {
+      "a": [
+        "1",
+        "0",
+        "0",
+        "0"
+      ],
+      "b_Ua": [
+        "0",
+        "sqrt(105)/35",
+        "0",
+        "4*sqrt(70)/35"
+      ],
+      "S1": "1",
+      "S2": "1",
+      "theta1_radians": "0",
+      "theta2_radians": "pi/4",
+      "phi1_phi2_radians": [
+        "0",
+        "0"
+      ],
+      "angle_between_photons_radians": "pi/4",
+      "intermediate_M_order": [
+        -2,
+        -1,
+        0,
+        1,
+        2
+      ],
+      "R_a": [
+        [
+          "1/16",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "5/16",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "3/16",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "5/16",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "1/16"
+        ]
+      ],
+      "R_b": [
+        [
+          "1/16",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "5/16",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "3/16",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "5/16",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "1/16"
+        ]
+      ],
+      "R_a_gamma1_frame": [
+        [
+          "1/16",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "5/16",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "3/16",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "5/16",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "1/16"
+        ]
+      ],
+      "R_b_gamma1_frame": [
+        [
+          "1/16",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "5/16",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "3/16",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "5/16",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "1/16"
+        ]
+      ],
+      "Z_lab": [
+        [
+          "1",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "-1",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "-1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "W1_a": "15/16",
+      "W1_b": "15/16",
+      "W12_a": "55/64",
+      "W12_b": "55/64",
+      "difference_W12_b_minus_a": "0",
+      "conditional_W2_a": "11/12",
+      "conditional_W2_b": "11/12",
+      "difference_conditional_W2_b_minus_a": "0",
+      "numeric_display_only": {
+        "W1": "0.93750000000000",
+        "W12_a": "0.85937500000000",
+        "W12_b": "0.85937500000000",
+        "difference_W12": "0",
+        "conditional_W2_a": "0.91666666666667",
+        "conditional_W2_b": "0.91666666666667",
+        "difference_conditional_W2": "0"
+      },
+      "arbitrary_secondary_analyzer_certificate": "R_a = R_b exactly; Tr(R_a F_any) = Tr(R_b F_any) for every fixed secondary analyzer, direction or polarization in this baseline.",
+      "linear_first_tag_control": {
+        "xprime": {
+          "R_tag_a_equals_R_tag_b": true,
+          "R_tag_common": [
+            [
+              "1/32",
+              "0",
+              "-sqrt(6)/64",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "5/32",
+              "0",
+              "-3/32",
+              "0"
+            ],
+            [
+              "-sqrt(6)/64",
+              "0",
+              "3/32",
+              "0",
+              "-sqrt(6)/64"
+            ],
+            [
+              "0",
+              "-3/32",
+              "0",
+              "5/32",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "-sqrt(6)/64",
+              "0",
+              "1/32"
+            ]
+          ],
+          "secondary_joint_intensity_common": "55/128"
+        },
+        "yprime": {
+          "R_tag_a_equals_R_tag_b": true,
+          "R_tag_common": [
+            [
+              "1/32",
+              "0",
+              "sqrt(6)/64",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "5/32",
+              "0",
+              "3/32",
+              "0"
+            ],
+            [
+              "sqrt(6)/64",
+              "0",
+              "3/32",
+              "0",
+              "sqrt(6)/64"
+            ],
+            [
+              "0",
+              "3/32",
+              "0",
+              "5/32",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "sqrt(6)/64",
+              "0",
+              "1/32"
+            ]
+          ],
+          "secondary_joint_intensity_common": "55/128"
+        }
+      }
+    },
+    "full_support": {
+      "a": [
+        "1",
+        "1/2",
+        "1/3",
+        "1/4"
+      ],
+      "b_Ua": [
+        "sqrt(105)/70 + sqrt(70)/35",
+        "sqrt(105)/35 + 4*sqrt(70)/105",
+        "-sqrt(105)/140 + 2*sqrt(70)/35",
+        "-sqrt(105)/105 + 4*sqrt(70)/35"
+      ],
+      "S1": "205/144",
+      "S2": "1",
+      "theta1_radians": "0",
+      "theta2_radians": "pi/4",
+      "phi1_phi2_radians": [
+        "0",
+        "0"
+      ],
+      "angle_between_photons_radians": "pi/4",
+      "intermediate_M_order": [
+        -2,
+        -1,
+        0,
+        1,
+        2
+      ],
+      "R_a": [
+        [
+          "-39*sqrt(105)/5740 - 27*sqrt(70)/5740 + 213*sqrt(6)/11480 + 3477/45920",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "3*sqrt(105)/574 + 6*sqrt(70)/287 + 5/16",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "-33*sqrt(70)/2870 - 213*sqrt(6)/5740 + 12*sqrt(105)/1435 + 1849/11480",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "3*sqrt(105)/574 + 6*sqrt(70)/287 + 5/16",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "-39*sqrt(105)/5740 - 27*sqrt(70)/5740 + 213*sqrt(6)/11480 + 3477/45920"
+        ]
+      ],
+      "R_b": [
+        [
+          "-39*sqrt(105)/5740 - 27*sqrt(70)/5740 + 213*sqrt(6)/11480 + 3477/45920",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "3*sqrt(105)/574 + 6*sqrt(70)/287 + 5/16",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "-33*sqrt(70)/2870 - 213*sqrt(6)/5740 + 12*sqrt(105)/1435 + 1849/11480",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "3*sqrt(105)/574 + 6*sqrt(70)/287 + 5/16",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "-39*sqrt(105)/5740 - 27*sqrt(70)/5740 + 213*sqrt(6)/11480 + 3477/45920"
+        ]
+      ],
+      "R_a_gamma1_frame": [
+        [
+          "-39*sqrt(105)/5740 - 27*sqrt(70)/5740 + 213*sqrt(6)/11480 + 3477/45920",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "3*sqrt(105)/574 + 6*sqrt(70)/287 + 5/16",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "-33*sqrt(70)/2870 - 213*sqrt(6)/5740 + 12*sqrt(105)/1435 + 1849/11480",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "3*sqrt(105)/574 + 6*sqrt(70)/287 + 5/16",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "-39*sqrt(105)/5740 - 27*sqrt(70)/5740 + 213*sqrt(6)/11480 + 3477/45920"
+        ]
+      ],
+      "R_b_gamma1_frame": [
+        [
+          "-39*sqrt(105)/5740 - 27*sqrt(70)/5740 + 213*sqrt(6)/11480 + 3477/45920",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "3*sqrt(105)/574 + 6*sqrt(70)/287 + 5/16",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "-33*sqrt(70)/2870 - 213*sqrt(6)/5740 + 12*sqrt(105)/1435 + 1849/11480",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "3*sqrt(105)/574 + 6*sqrt(70)/287 + 5/16",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "-39*sqrt(105)/5740 - 27*sqrt(70)/5740 + 213*sqrt(6)/11480 + 3477/45920"
+        ]
+      ],
+      "Z_lab": [
+        [
+          "1",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "-1",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "-1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "W1_a": "3*sqrt(105)/574 + 6*sqrt(70)/287 + 15/16",
+      "W1_b": "3*sqrt(105)/574 + 6*sqrt(70)/287 + 15/16",
+      "W12_a": "-639*sqrt(6)/18368 - 39*sqrt(70)/9184 + 87*sqrt(105)/9184 + 61319/73472",
+      "W12_b": "-639*sqrt(6)/18368 - 39*sqrt(70)/9184 + 87*sqrt(105)/9184 + 61319/73472",
+      "difference_W12_b_minus_a": "0",
+      "conditional_W2_a": "(-639*sqrt(6)/18368 - 39*sqrt(70)/9184 + 87*sqrt(105)/9184 + 61319/73472)/(3*sqrt(105)/574 + 6*sqrt(70)/287 + 15/16)",
+      "conditional_W2_b": "(-639*sqrt(6)/18368 - 39*sqrt(70)/9184 + 87*sqrt(105)/9184 + 61319/73472)/(3*sqrt(105)/574 + 6*sqrt(70)/287 + 15/16)",
+      "difference_conditional_W2_b_minus_a": "0",
+      "numeric_display_only": {
+        "W1": "1.1659669956132",
+        "W12_a": "0.81091575930651",
+        "W12_b": "0.81091575930651",
+        "difference_W12": "0",
+        "conditional_W2_a": "0.69548774738692",
+        "conditional_W2_b": "0.69548774738692",
+        "difference_conditional_W2": "0"
+      },
+      "arbitrary_secondary_analyzer_certificate": "R_a = R_b exactly; Tr(R_a F_any) = Tr(R_b F_any) for every fixed secondary analyzer, direction or polarization in this baseline.",
+      "linear_first_tag_control": {
+        "xprime": {
+          "R_tag_a_equals_R_tag_b": true,
+          "R_tag_common": [
+            [
+              "-39*sqrt(105)/11480 - 27*sqrt(70)/11480 + 213*sqrt(6)/22960 + 3477/91840",
+              "0",
+              "-761*sqrt(6)/91840 - 393/45920 + 9*sqrt(105)/22960 + 3*sqrt(70)/1640",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "3*sqrt(105)/1148 + 3*sqrt(70)/287 + 5/32",
+              "0",
+              "-1849/22960 - 33*sqrt(70)/5740 + 6*sqrt(105)/1435 + 213*sqrt(6)/11480",
+              "0"
+            ],
+            [
+              "-761*sqrt(6)/91840 - 393/45920 + 9*sqrt(105)/22960 + 3*sqrt(70)/1640",
+              "0",
+              "-33*sqrt(70)/5740 - 213*sqrt(6)/11480 + 6*sqrt(105)/1435 + 1849/22960",
+              "0",
+              "-761*sqrt(6)/91840 - 393/45920 + 9*sqrt(105)/22960 + 3*sqrt(70)/1640"
+            ],
+            [
+              "0",
+              "-1849/22960 - 33*sqrt(70)/5740 + 6*sqrt(105)/1435 + 213*sqrt(6)/11480",
+              "0",
+              "3*sqrt(105)/1148 + 3*sqrt(70)/287 + 5/32",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "-761*sqrt(6)/91840 - 393/45920 + 9*sqrt(105)/22960 + 3*sqrt(70)/1640",
+              "0",
+              "-39*sqrt(105)/11480 - 27*sqrt(70)/11480 + 213*sqrt(6)/22960 + 3477/91840"
+            ]
+          ],
+          "secondary_joint_intensity_common": "-99*sqrt(70)/9184 + 303*sqrt(6)/18368 + 99*sqrt(105)/18368 + 55659/146944"
+        },
+        "yprime": {
+          "R_tag_a_equals_R_tag_b": true,
+          "R_tag_common": [
+            [
+              "-39*sqrt(105)/11480 - 27*sqrt(70)/11480 + 213*sqrt(6)/22960 + 3477/91840",
+              "0",
+              "-3*sqrt(70)/1640 - 9*sqrt(105)/22960 + 393/45920 + 761*sqrt(6)/91840",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "3*sqrt(105)/1148 + 3*sqrt(70)/287 + 5/32",
+              "0",
+              "-213*sqrt(6)/11480 - 6*sqrt(105)/1435 + 33*sqrt(70)/5740 + 1849/22960",
+              "0"
+            ],
+            [
+              "-3*sqrt(70)/1640 - 9*sqrt(105)/22960 + 393/45920 + 761*sqrt(6)/91840",
+              "0",
+              "-33*sqrt(70)/5740 - 213*sqrt(6)/11480 + 6*sqrt(105)/1435 + 1849/22960",
+              "0",
+              "-3*sqrt(70)/1640 - 9*sqrt(105)/22960 + 393/45920 + 761*sqrt(6)/91840"
+            ],
+            [
+              "0",
+              "-213*sqrt(6)/11480 - 6*sqrt(105)/1435 + 33*sqrt(70)/5740 + 1849/22960",
+              "0",
+              "3*sqrt(105)/1148 + 3*sqrt(70)/287 + 5/32",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "-3*sqrt(70)/1640 - 9*sqrt(105)/22960 + 393/45920 + 761*sqrt(6)/91840",
+              "0",
+              "-39*sqrt(105)/11480 - 27*sqrt(70)/11480 + 213*sqrt(6)/22960 + 3477/91840"
+            ]
+          ],
+          "secondary_joint_intensity_common": "-471*sqrt(6)/9184 + 75*sqrt(105)/18368 + 15*sqrt(70)/2296 + 66979/146944"
+        }
+      }
+    }
+  },
+  "expanded_once": {
+    "pure_boundary": {
+      "a": [
+        "1",
+        "0",
+        "0",
+        "0"
+      ],
+      "b_Ua": [
+        "0",
+        "sqrt(105)/35",
+        "0",
+        "4*sqrt(70)/35"
+      ],
+      "S1": "1",
+      "S2": "1",
+      "theta1_radians": "pi/3",
+      "theta2_radians": "pi/4",
+      "phi1_phi2_radians": [
+        "0",
+        "0"
+      ],
+      "angle_between_photons_radians": "pi/12",
+      "intermediate_M_order": [
+        -2,
+        -1,
+        0,
+        1,
+        2
+      ],
+      "R_a": [
+        [
+          "29/128",
+          "5*sqrt(3)/128",
+          "-3*sqrt(6)/256",
+          "0",
+          "0"
+        ],
+        [
+          "5*sqrt(3)/128",
+          "7/32",
+          "3*sqrt(2)/256",
+          "-9/128",
+          "0"
+        ],
+        [
+          "-3*sqrt(6)/256",
+          "3*sqrt(2)/256",
+          "15/128",
+          "-3*sqrt(2)/256",
+          "-3*sqrt(6)/256"
+        ],
+        [
+          "0",
+          "-9/128",
+          "-3*sqrt(2)/256",
+          "7/32",
+          "-5*sqrt(3)/128"
+        ],
+        [
+          "0",
+          "0",
+          "-3*sqrt(6)/256",
+          "-5*sqrt(3)/128",
+          "29/128"
+        ]
+      ],
+      "R_b": [
+        [
+          "223/1024",
+          "13*sqrt(3)/256",
+          "-15*sqrt(6)/1024",
+          "-3*sqrt(3)/256",
+          "-9/1024"
+        ],
+        [
+          "13*sqrt(3)/256",
+          "47/256",
+          "0",
+          "-9/256",
+          "3*sqrt(3)/256"
+        ],
+        [
+          "-15*sqrt(6)/1024",
+          "0",
+          "105/512",
+          "0",
+          "-15*sqrt(6)/1024"
+        ],
+        [
+          "-3*sqrt(3)/256",
+          "-9/256",
+          "0",
+          "47/256",
+          "-13*sqrt(3)/256"
+        ],
+        [
+          "-9/1024",
+          "3*sqrt(3)/256",
+          "-15*sqrt(6)/1024",
+          "-13*sqrt(3)/256",
+          "223/1024"
+        ]
+      ],
+      "R_a_gamma1_frame": [
+        [
+          "7/64",
+          "3*sqrt(3)/256",
+          "0",
+          "-3*sqrt(3)/256",
+          "0"
+        ],
+        [
+          "3*sqrt(3)/256",
+          "59/256",
+          "-3*sqrt(2)/256",
+          "9/256",
+          "3*sqrt(3)/256"
+        ],
+        [
+          "0",
+          "-3*sqrt(2)/256",
+          "21/64",
+          "3*sqrt(2)/256",
+          "0"
+        ],
+        [
+          "-3*sqrt(3)/256",
+          "9/256",
+          "3*sqrt(2)/256",
+          "59/256",
+          "-3*sqrt(3)/256"
+        ],
+        [
+          "0",
+          "3*sqrt(3)/256",
+          "0",
+          "-3*sqrt(3)/256",
+          "7/64"
+        ]
+      ],
+      "R_b_gamma1_frame": [
+        [
+          "7/64",
+          "-3*sqrt(3)/256",
+          "0",
+          "3*sqrt(3)/256",
+          "0"
+        ],
+        [
+          "-3*sqrt(3)/256",
+          "59/256",
+          "3*sqrt(2)/256",
+          "9/256",
+          "-3*sqrt(3)/256"
+        ],
+        [
+          "0",
+          "3*sqrt(2)/256",
+          "21/64",
+          "-3*sqrt(2)/256",
+          "0"
+        ],
+        [
+          "3*sqrt(3)/256",
+          "9/256",
+          "-3*sqrt(2)/256",
+          "59/256",
+          "3*sqrt(3)/256"
+        ],
+        [
+          "0",
+          "-3*sqrt(3)/256",
+          "0",
+          "3*sqrt(3)/256",
+          "7/64"
+        ]
+      ],
+      "Z_lab": [
+        [
+          "1/16",
+          "-sqrt(3)/8",
+          "3*sqrt(6)/16",
+          "-3*sqrt(3)/8",
+          "9/16"
+        ],
+        [
+          "-sqrt(3)/8",
+          "1/2",
+          "-3*sqrt(2)/8",
+          "0",
+          "3*sqrt(3)/8"
+        ],
+        [
+          "3*sqrt(6)/16",
+          "-3*sqrt(2)/8",
+          "-1/8",
+          "3*sqrt(2)/8",
+          "3*sqrt(6)/16"
+        ],
+        [
+          "-3*sqrt(3)/8",
+          "0",
+          "3*sqrt(2)/8",
+          "1/2",
+          "sqrt(3)/8"
+        ],
+        [
+          "9/16",
+          "3*sqrt(3)/8",
+          "3*sqrt(6)/16",
+          "sqrt(3)/8",
+          "1/16"
+        ]
+      ],
+      "W1_a": "129/128",
+      "W1_b": "129/128",
+      "W12_a": "25*sqrt(3)/256 + 235/256",
+      "W12_b": "25*sqrt(3)/256 + 35/32",
+      "difference_W12_b_minus_a": "45/256",
+      "conditional_W2_a": "25*sqrt(3)/258 + 235/258",
+      "conditional_W2_b": "25*sqrt(3)/258 + 140/129",
+      "difference_conditional_W2_b_minus_a": "15/86",
+      "numeric_display_only": {
+        "W1": "1.0078125000000",
+        "W12_a": "1.0871143366766",
+        "W12_b": "1.2628955866766",
+        "difference_W12": "0.17578125000000",
+        "conditional_W2_a": "1.0786870937567",
+        "conditional_W2_b": "1.2531056984078",
+        "difference_conditional_W2": "0.17441860465116"
+      },
+      "nonzero_difference_certificate": {
+        "basis_coefficients": [
+          {
+            "basis": "1",
+            "rational_coefficient": "45/256"
+          }
+        ],
+        "nonzero": true,
+        "proof": "Distinct positive square-free square roots, together with 1, are linearly independent over Q; at least one rational coefficient is nonzero."
+      }
+    },
+    "full_support": {
+      "a": [
+        "1",
+        "1/2",
+        "1/3",
+        "1/4"
+      ],
+      "b_Ua": [
+        "sqrt(105)/70 + sqrt(70)/35",
+        "sqrt(105)/35 + 4*sqrt(70)/105",
+        "-sqrt(105)/140 + 2*sqrt(70)/35",
+        "-sqrt(105)/105 + 4*sqrt(70)/35"
+      ],
+      "S1": "205/144",
+      "S2": "1",
+      "theta1_radians": "pi/3",
+      "theta2_radians": "pi/4",
+      "phi1_phi2_radians": [
+        "0",
+        "0"
+      ],
+      "angle_between_photons_radians": "pi/12",
+      "intermediate_M_order": [
+        -2,
+        -1,
+        0,
+        1,
+        2
+      ],
+      "R_a": [
+        [
+          "-1833*sqrt(6)/1469440 + 531*sqrt(70)/734720 + 933*sqrt(105)/839680 + 10370679/47022080",
+          "-26343*sqrt(2)/587776 - 339*sqrt(210)/1469440 + 124555*sqrt(3)/4702208 + 47007*sqrt(35)/2938880",
+          "-36333*sqrt(70)/5877760 - 99*sqrt(105)/26240 - 67557*sqrt(6)/6717440 + 9/320",
+          "-5211*sqrt(35)/2938880 + 5961*sqrt(3)/4702208 + 16119*sqrt(2)/587776 + 9027*sqrt(210)/1469440",
+          "-999*sqrt(70)/104960 - 2889*sqrt(6)/293888 - 51309/9404416 + 621*sqrt(105)/839680"
+        ],
+        [
+          "-26343*sqrt(2)/587776 - 339*sqrt(210)/1469440 + 124555*sqrt(3)/4702208 + 47007*sqrt(35)/2938880",
+          "-519*sqrt(70)/91840 - 639*sqrt(6)/367360 - 33*sqrt(105)/91840 + 1217891/5877760",
+          "-8121*sqrt(3)/1469440 + 275337*sqrt(2)/23511040 + 4083*sqrt(210)/2938880 + 7317*sqrt(35)/734720",
+          "-4509*sqrt(105)/734720 - 3609/71680 + 81*sqrt(70)/26240 + 351*sqrt(6)/11480",
+          "-9027*sqrt(210)/1469440 - 16119*sqrt(2)/587776 - 5961*sqrt(3)/4702208 + 5211*sqrt(35)/2938880"
+        ],
+        [
+          "-36333*sqrt(70)/5877760 - 99*sqrt(105)/26240 - 67557*sqrt(6)/6717440 + 9/320",
+          "-8121*sqrt(3)/1469440 + 275337*sqrt(2)/23511040 + 4083*sqrt(210)/2938880 + 7317*sqrt(35)/734720",
+          "-1095*sqrt(105)/587776 + 1389*sqrt(6)/146944 + 309*sqrt(70)/73472 + 727837/4702208",
+          "-7317*sqrt(35)/734720 - 4083*sqrt(210)/2938880 - 275337*sqrt(2)/23511040 + 8121*sqrt(3)/1469440",
+          "-36333*sqrt(70)/5877760 - 99*sqrt(105)/26240 - 67557*sqrt(6)/6717440 + 9/320"
+        ],
+        [
+          "-5211*sqrt(35)/2938880 + 5961*sqrt(3)/4702208 + 16119*sqrt(2)/587776 + 9027*sqrt(210)/1469440",
+          "-4509*sqrt(105)/734720 - 3609/71680 + 81*sqrt(70)/26240 + 351*sqrt(6)/11480",
+          "-7317*sqrt(35)/734720 - 4083*sqrt(210)/2938880 - 275337*sqrt(2)/23511040 + 8121*sqrt(3)/1469440",
+          "-519*sqrt(70)/91840 - 639*sqrt(6)/367360 - 33*sqrt(105)/91840 + 1217891/5877760",
+          "-47007*sqrt(35)/2938880 - 124555*sqrt(3)/4702208 + 339*sqrt(210)/1469440 + 26343*sqrt(2)/587776"
+        ],
+        [
+          "-999*sqrt(70)/104960 - 2889*sqrt(6)/293888 - 51309/9404416 + 621*sqrt(105)/839680",
+          "-9027*sqrt(210)/1469440 - 16119*sqrt(2)/587776 - 5961*sqrt(3)/4702208 + 5211*sqrt(35)/2938880",
+          "-36333*sqrt(70)/5877760 - 99*sqrt(105)/26240 - 67557*sqrt(6)/6717440 + 9/320",
+          "-47007*sqrt(35)/2938880 - 124555*sqrt(3)/4702208 + 339*sqrt(210)/1469440 + 26343*sqrt(2)/587776",
+          "-1833*sqrt(6)/1469440 + 531*sqrt(70)/734720 + 933*sqrt(105)/839680 + 10370679/47022080"
+        ]
+      ],
+      "R_b": [
+        [
+          "-5619*sqrt(6)/2938880 + 387*sqrt(70)/1469440 + 13731*sqrt(105)/5877760 + 9919851/47022080",
+          "-133083*sqrt(2)/2938880 + 3*sqrt(210)/209920 + 820727*sqrt(3)/23511040 + 41247*sqrt(35)/2938880",
+          "-34893*sqrt(70)/5877760 - 2817*sqrt(105)/734720 - 113307*sqrt(6)/9404416 + 11007/293888",
+          "-5211*sqrt(35)/2938880 - 87987*sqrt(3)/23511040 + 62883*sqrt(2)/2938880 + 9027*sqrt(210)/1469440",
+          "-13581*sqrt(70)/1469440 - 49923*sqrt(6)/2938880 - 226413/47022080 + 27*sqrt(105)/5877760"
+        ],
+        [
+          "-133083*sqrt(2)/2938880 + 3*sqrt(210)/209920 + 820727*sqrt(3)/23511040 + 41247*sqrt(35)/2938880",
+          "-519*sqrt(70)/91840 - 639*sqrt(6)/183680 - 33*sqrt(105)/91840 + 1125137/5877760",
+          "-489*sqrt(3)/293888 + 21141*sqrt(2)/4702208 + 123*sqrt(210)/71680 + 7137*sqrt(35)/734720",
+          "-5949*sqrt(105)/734720 - 17883/734720 + 351*sqrt(70)/91840 + 4743*sqrt(6)/183680",
+          "-9027*sqrt(210)/1469440 - 62883*sqrt(2)/2938880 + 87987*sqrt(3)/23511040 + 5211*sqrt(35)/2938880"
+        ],
+        [
+          "-34893*sqrt(70)/5877760 - 2817*sqrt(105)/734720 - 113307*sqrt(6)/9404416 + 11007/293888",
+          "-489*sqrt(3)/293888 + 21141*sqrt(2)/4702208 + 123*sqrt(210)/71680 + 7137*sqrt(35)/734720",
+          "-2535*sqrt(105)/587776 + 4191*sqrt(6)/293888 + 753*sqrt(70)/146944 + 966409/4702208",
+          "-7137*sqrt(35)/734720 - 123*sqrt(210)/71680 - 21141*sqrt(2)/4702208 + 489*sqrt(3)/293888",
+          "-34893*sqrt(70)/5877760 - 2817*sqrt(105)/734720 - 113307*sqrt(6)/9404416 + 11007/293888"
+        ],
+        [
+          "-5211*sqrt(35)/2938880 - 87987*sqrt(3)/23511040 + 62883*sqrt(2)/2938880 + 9027*sqrt(210)/1469440",
+          "-5949*sqrt(105)/734720 - 17883/734720 + 351*sqrt(70)/91840 + 4743*sqrt(6)/183680",
+          "-7137*sqrt(35)/734720 - 123*sqrt(210)/71680 - 21141*sqrt(2)/4702208 + 489*sqrt(3)/293888",
+          "-519*sqrt(70)/91840 - 639*sqrt(6)/183680 - 33*sqrt(105)/91840 + 1125137/5877760",
+          "-41247*sqrt(35)/2938880 - 820727*sqrt(3)/23511040 - 3*sqrt(210)/209920 + 133083*sqrt(2)/2938880"
+        ],
+        [
+          "-13581*sqrt(70)/1469440 - 49923*sqrt(6)/2938880 - 226413/47022080 + 27*sqrt(105)/5877760",
+          "-9027*sqrt(210)/1469440 - 62883*sqrt(2)/2938880 + 87987*sqrt(3)/23511040 + 5211*sqrt(35)/2938880",
+          "-34893*sqrt(70)/5877760 - 2817*sqrt(105)/734720 - 113307*sqrt(6)/9404416 + 11007/293888",
+          "-41247*sqrt(35)/2938880 - 820727*sqrt(3)/23511040 - 3*sqrt(210)/209920 + 133083*sqrt(2)/2938880",
+          "-5619*sqrt(6)/2938880 + 387*sqrt(70)/1469440 + 13731*sqrt(105)/5877760 + 9919851/47022080"
+        ]
+      ],
+      "R_a_gamma1_frame": [
+        [
+          "-39*sqrt(105)/3280 - 27*sqrt(70)/3280 + 213*sqrt(6)/6560 + 3477/26240",
+          "-9*sqrt(35)/4592 - 171*sqrt(2)/367360 + 9*sqrt(210)/36736 + 3093*sqrt(3)/367360",
+          "0",
+          "-3681*sqrt(3)/734720 - 27*sqrt(2)/4480",
+          "0"
+        ],
+        [
+          "-9*sqrt(35)/4592 - 171*sqrt(2)/367360 + 9*sqrt(210)/36736 + 3093*sqrt(3)/367360",
+          "639*sqrt(6)/367360 + 807*sqrt(105)/183680 + 2841*sqrt(70)/183680 + 340481/1469440",
+          "-5301*sqrt(2)/734720 - 9*sqrt(35)/36736 + 3*sqrt(210)/9184 + 1419*sqrt(3)/367360",
+          "81*sqrt(70)/183680 + 1179*sqrt(6)/367360 + 9*sqrt(105)/6560 + 6849/367360",
+          "27*sqrt(2)/4480 + 3681*sqrt(3)/734720"
+        ],
+        [
+          "0",
+          "-5301*sqrt(2)/734720 - 9*sqrt(35)/36736 + 3*sqrt(210)/9184 + 1419*sqrt(3)/367360",
+          "-33*sqrt(70)/1640 - 213*sqrt(6)/3280 + 3*sqrt(105)/205 + 1849/6560",
+          "-1419*sqrt(3)/367360 - 3*sqrt(210)/9184 + 9*sqrt(35)/36736 + 5301*sqrt(2)/734720",
+          "0"
+        ],
+        [
+          "-3681*sqrt(3)/734720 - 27*sqrt(2)/4480",
+          "81*sqrt(70)/183680 + 1179*sqrt(6)/367360 + 9*sqrt(105)/6560 + 6849/367360",
+          "-1419*sqrt(3)/367360 - 3*sqrt(210)/9184 + 9*sqrt(35)/36736 + 5301*sqrt(2)/734720",
+          "639*sqrt(6)/367360 + 807*sqrt(105)/183680 + 2841*sqrt(70)/183680 + 340481/1469440",
+          "-3093*sqrt(3)/367360 - 9*sqrt(210)/36736 + 171*sqrt(2)/367360 + 9*sqrt(35)/4592"
+        ],
+        [
+          "0",
+          "27*sqrt(2)/4480 + 3681*sqrt(3)/734720",
+          "0",
+          "-3093*sqrt(3)/367360 - 9*sqrt(210)/36736 + 171*sqrt(2)/367360 + 9*sqrt(35)/4592",
+          "-39*sqrt(105)/3280 - 27*sqrt(70)/3280 + 213*sqrt(6)/6560 + 3477/26240"
+        ]
+      ],
+      "R_b_gamma1_frame": [
+        [
+          "-39*sqrt(105)/3280 - 27*sqrt(70)/3280 + 213*sqrt(6)/6560 + 3477/26240",
+          "-3093*sqrt(3)/367360 - 9*sqrt(210)/36736 + 171*sqrt(2)/367360 + 9*sqrt(35)/4592",
+          "0",
+          "27*sqrt(2)/4480 + 3681*sqrt(3)/734720",
+          "0"
+        ],
+        [
+          "-3093*sqrt(3)/367360 - 9*sqrt(210)/36736 + 171*sqrt(2)/367360 + 9*sqrt(35)/4592",
+          "639*sqrt(6)/367360 + 807*sqrt(105)/183680 + 2841*sqrt(70)/183680 + 340481/1469440",
+          "-1419*sqrt(3)/367360 - 3*sqrt(210)/9184 + 9*sqrt(35)/36736 + 5301*sqrt(2)/734720",
+          "81*sqrt(70)/183680 + 1179*sqrt(6)/367360 + 9*sqrt(105)/6560 + 6849/367360",
+          "-3681*sqrt(3)/734720 - 27*sqrt(2)/4480"
+        ],
+        [
+          "0",
+          "-1419*sqrt(3)/367360 - 3*sqrt(210)/9184 + 9*sqrt(35)/36736 + 5301*sqrt(2)/734720",
+          "-33*sqrt(70)/1640 - 213*sqrt(6)/3280 + 3*sqrt(105)/205 + 1849/6560",
+          "-5301*sqrt(2)/734720 - 9*sqrt(35)/36736 + 3*sqrt(210)/9184 + 1419*sqrt(3)/367360",
+          "0"
+        ],
+        [
+          "27*sqrt(2)/4480 + 3681*sqrt(3)/734720",
+          "81*sqrt(70)/183680 + 1179*sqrt(6)/367360 + 9*sqrt(105)/6560 + 6849/367360",
+          "-5301*sqrt(2)/734720 - 9*sqrt(35)/36736 + 3*sqrt(210)/9184 + 1419*sqrt(3)/367360",
+          "639*sqrt(6)/367360 + 807*sqrt(105)/183680 + 2841*sqrt(70)/183680 + 340481/1469440",
+          "-9*sqrt(35)/4592 - 171*sqrt(2)/367360 + 9*sqrt(210)/36736 + 3093*sqrt(3)/367360"
+        ],
+        [
+          "0",
+          "-3681*sqrt(3)/734720 - 27*sqrt(2)/4480",
+          "0",
+          "-9*sqrt(35)/4592 - 171*sqrt(2)/367360 + 9*sqrt(210)/36736 + 3093*sqrt(3)/367360",
+          "-39*sqrt(105)/3280 - 27*sqrt(70)/3280 + 213*sqrt(6)/6560 + 3477/26240"
+        ]
+      ],
+      "Z_lab": [
+        [
+          "1/16",
+          "-sqrt(3)/8",
+          "3*sqrt(6)/16",
+          "-3*sqrt(3)/8",
+          "9/16"
+        ],
+        [
+          "-sqrt(3)/8",
+          "1/2",
+          "-3*sqrt(2)/8",
+          "0",
+          "3*sqrt(3)/8"
+        ],
+        [
+          "3*sqrt(6)/16",
+          "-3*sqrt(2)/8",
+          "-1/8",
+          "3*sqrt(2)/8",
+          "3*sqrt(6)/16"
+        ],
+        [
+          "-3*sqrt(3)/8",
+          "0",
+          "3*sqrt(2)/8",
+          "1/2",
+          "sqrt(3)/8"
+        ],
+        [
+          "9/16",
+          "3*sqrt(3)/8",
+          "3*sqrt(6)/16",
+          "sqrt(3)/8",
+          "1/16"
+        ]
+      ],
+      "W1_a": "-519*sqrt(70)/91840 - 33*sqrt(105)/91840 + 639*sqrt(6)/183680 + 742281/734720",
+      "W1_b": "-519*sqrt(70)/91840 - 33*sqrt(105)/91840 + 639*sqrt(6)/183680 + 742281/734720",
+      "W12_a": "-3195*sqrt(2)/73472 + 1647*sqrt(6)/73472 + 1605*sqrt(105)/293888 + 163145*sqrt(3)/2351104 + 10449*sqrt(35)/293888 + 543*sqrt(210)/36736 + 15*sqrt(70)/574 + 2300929/2351104",
+      "W12_b": "-8775*sqrt(2)/146944 + 165*sqrt(105)/293888 + 2187*sqrt(6)/146944 + 183185*sqrt(3)/2351104 + 1287*sqrt(35)/41984 + 1131*sqrt(210)/73472 + 2055*sqrt(70)/73472 + 2546557/2351104",
+      "difference_W12_b_minus_a": "-45*sqrt(105)/9184 - 45*sqrt(35)/9184 - 2385*sqrt(2)/146944 - 27*sqrt(6)/3584 + 45*sqrt(210)/73472 + 2505*sqrt(3)/293888 + 135*sqrt(70)/73472 + 61407/587776",
+      "conditional_W2_a": "(-3195*sqrt(2)/73472 + 1647*sqrt(6)/73472 + 1605*sqrt(105)/293888 + 163145*sqrt(3)/2351104 + 10449*sqrt(35)/293888 + 543*sqrt(210)/36736 + 15*sqrt(70)/574 + 2300929/2351104)/(-519*sqrt(70)/91840 - 33*sqrt(105)/91840 + 639*sqrt(6)/183680 + 742281/734720)",
+      "conditional_W2_b": "(-8775*sqrt(2)/146944 + 165*sqrt(105)/293888 + 2187*sqrt(6)/146944 + 183185*sqrt(3)/2351104 + 1287*sqrt(35)/41984 + 1131*sqrt(210)/73472 + 2055*sqrt(70)/73472 + 2546557/2351104)/(-519*sqrt(70)/91840 - 33*sqrt(105)/91840 + 639*sqrt(6)/183680 + 742281/734720)",
+      "difference_conditional_W2_b_minus_a": "(-45*sqrt(105)/9184 - 45*sqrt(35)/9184 - 2385*sqrt(2)/146944 - 27*sqrt(6)/3584 + 45*sqrt(210)/73472 + 2505*sqrt(3)/293888 + 135*sqrt(70)/73472 + 61407/587776)/(-519*sqrt(70)/91840 - 33*sqrt(105)/91840 + 639*sqrt(6)/183680 + 742281/734720)",
+      "numeric_display_only": {
+        "W1": "0.96784976110443",
+        "W12_a": "1.7914006253391",
+        "W12_b": "1.8142833774654",
+        "difference_W12": "0.022882752126222",
+        "conditional_W2_a": "1.8509077517309",
+        "conditional_W2_b": "1.8745506279766",
+        "difference_conditional_W2": "0.023642876245700"
+      },
+      "nonzero_difference_certificate": {
+        "basis_coefficients": [
+          {
+            "basis": "1",
+            "rational_coefficient": "61407/587776"
+          },
+          {
+            "basis": "sqrt(105)",
+            "rational_coefficient": "-45/9184"
+          },
+          {
+            "basis": "sqrt(2)",
+            "rational_coefficient": "-2385/146944"
+          },
+          {
+            "basis": "sqrt(210)",
+            "rational_coefficient": "45/73472"
+          },
+          {
+            "basis": "sqrt(3)",
+            "rational_coefficient": "2505/293888"
+          },
+          {
+            "basis": "sqrt(35)",
+            "rational_coefficient": "-45/9184"
+          },
+          {
+            "basis": "sqrt(6)",
+            "rational_coefficient": "-27/3584"
+          },
+          {
+            "basis": "sqrt(70)",
+            "rational_coefficient": "135/73472"
+          }
+        ],
+        "nonzero": true,
+        "proof": "Distinct positive square-free square roots, together with 1, are linearly independent over Q; at least one rational coefficient is nonzero."
+      }
+    }
+  },
+  "causal_controls": {
+    "pure_boundary": {
+      "ideal_dephasing": {
+        "definition": "Rotate R into the gamma1 spin frame, discard every offdiagonal element, and rotate back. This is an ideal diagnostic map, not an experimental deorientation model.",
+        "dephased_R_a_equals_R_b": true,
+        "common_dephased_R_lab": [
+          [
+            "1739/8192",
+            "157*sqrt(3)/4096",
+            "-135*sqrt(6)/8192",
+            "-33*sqrt(3)/4096",
+            "99/8192"
+          ],
+          [
+            "157*sqrt(3)/4096",
+            "103/512",
+            "51*sqrt(2)/4096",
+            "-63/1024",
+            "33*sqrt(3)/4096"
+          ],
+          [
+            "-135*sqrt(6)/8192",
+            "51*sqrt(2)/4096",
+            "741/4096",
+            "-51*sqrt(2)/4096",
+            "-135*sqrt(6)/8192"
+          ],
+          [
+            "-33*sqrt(3)/4096",
+            "-63/1024",
+            "-51*sqrt(2)/4096",
+            "103/512",
+            "-157*sqrt(3)/4096"
+          ],
+          [
+            "99/8192",
+            "33*sqrt(3)/4096",
+            "-135*sqrt(6)/8192",
+            "-157*sqrt(3)/4096",
+            "1739/8192"
+          ]
+        ],
+        "common_W12": "155*sqrt(3)/2048 + 2105/2048",
+        "difference_W12": "0"
+      },
+      "random_initial": {
+        "weights": [
+          "1/5",
+          "1/5",
+          "1/5",
+          "1/5",
+          "1/5"
+        ],
+        "R_a_equals_R_b": true,
+        "common_R_lab": [
+          [
+            "17/80",
+            "3*sqrt(3)/80",
+            "-3*sqrt(6)/160",
+            "0",
+            "0"
+          ],
+          [
+            "3*sqrt(3)/80",
+            "31/160",
+            "3*sqrt(2)/160",
+            "-9/160",
+            "0"
+          ],
+          [
+            "-3*sqrt(6)/160",
+            "3*sqrt(2)/160",
+            "3/16",
+            "-3*sqrt(2)/160",
+            "-3*sqrt(6)/160"
+          ],
+          [
+            "0",
+            "-9/160",
+            "-3*sqrt(2)/160",
+            "31/160",
+            "-3*sqrt(3)/80"
+          ],
+          [
+            "0",
+            "0",
+            "-3*sqrt(6)/160",
+            "-3*sqrt(3)/80",
+            "17/80"
+          ]
+        ],
+        "common_R_gamma1_frame": [
+          [
+            "1/10",
+            "0",
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "1/4",
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "3/10",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "0",
+            "1/4",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "0",
+            "0",
+            "1/10"
+          ]
+        ],
+        "common_W1": "1",
+        "common_W12": "3*sqrt(3)/32 + 17/16",
+        "difference_W12": "0"
+      }
+    },
+    "full_support": {
+      "ideal_dephasing": {
+        "definition": "Rotate R into the gamma1 spin frame, discard every offdiagonal element, and rotate back. This is an ideal diagnostic map, not an experimental deorientation model.",
+        "dephased_R_a_equals_R_b": true,
+        "common_dephased_R_lab": [
+          [
+            "-29181*sqrt(6)/11755520 + 2169*sqrt(70)/5877760 + 7863*sqrt(105)/5877760 + 9898701/47022080",
+            "-275409*sqrt(2)/5877760 - 561*sqrt(210)/2938880 + 639563*sqrt(3)/23511040 + 41859*sqrt(35)/2938880",
+            "-37881*sqrt(70)/5877760 - 11421*sqrt(105)/2938880 - 120381*sqrt(6)/9404416 + 36423/1175552",
+            "-5967*sqrt(35)/2938880 - 56487*sqrt(3)/23511040 + 139941*sqrt(2)/5877760 + 17973*sqrt(210)/2938880",
+            "-53919*sqrt(70)/5877760 - 139941*sqrt(6)/11755520 + 169461/47022080 + 5967*sqrt(105)/5877760"
+          ],
+          [
+            "-275409*sqrt(2)/5877760 - 561*sqrt(210)/2938880 + 639563*sqrt(3)/23511040 + 41859*sqrt(35)/2938880",
+            "-519*sqrt(70)/91840 - 1917*sqrt(6)/734720 - 33*sqrt(105)/91840 + 585757/2938880",
+            "-7029*sqrt(3)/2938880 + 272709*sqrt(2)/23511040 + 5319*sqrt(210)/2938880 + 14697*sqrt(35)/1469440",
+            "-783*sqrt(105)/104960 - 35271/839680 + 351*sqrt(70)/104960 + 5751*sqrt(6)/209920",
+            "-17973*sqrt(210)/2938880 - 139941*sqrt(2)/5877760 + 56487*sqrt(3)/23511040 + 5967*sqrt(35)/2938880"
+          ],
+          [
+            "-37881*sqrt(70)/5877760 - 11421*sqrt(105)/2938880 - 120381*sqrt(6)/9404416 + 36423/1175552",
+            "-7029*sqrt(3)/2938880 + 272709*sqrt(2)/23511040 + 5319*sqrt(210)/2938880 + 14697*sqrt(35)/1469440",
+            "-6807*sqrt(105)/2938880 + 80301*sqrt(6)/5877760 + 14439*sqrt(70)/2938880 + 4482179/23511040",
+            "-14697*sqrt(35)/1469440 - 5319*sqrt(210)/2938880 - 272709*sqrt(2)/23511040 + 7029*sqrt(3)/2938880",
+            "-37881*sqrt(70)/5877760 - 11421*sqrt(105)/2938880 - 120381*sqrt(6)/9404416 + 36423/1175552"
+          ],
+          [
+            "-5967*sqrt(35)/2938880 - 56487*sqrt(3)/23511040 + 139941*sqrt(2)/5877760 + 17973*sqrt(210)/2938880",
+            "-783*sqrt(105)/104960 - 35271/839680 + 351*sqrt(70)/104960 + 5751*sqrt(6)/209920",
+            "-14697*sqrt(35)/1469440 - 5319*sqrt(210)/2938880 - 272709*sqrt(2)/23511040 + 7029*sqrt(3)/2938880",
+            "-519*sqrt(70)/91840 - 1917*sqrt(6)/734720 - 33*sqrt(105)/91840 + 585757/2938880",
+            "-41859*sqrt(35)/2938880 - 639563*sqrt(3)/23511040 + 561*sqrt(210)/2938880 + 275409*sqrt(2)/5877760"
+          ],
+          [
+            "-53919*sqrt(70)/5877760 - 139941*sqrt(6)/11755520 + 169461/47022080 + 5967*sqrt(105)/5877760",
+            "-17973*sqrt(210)/2938880 - 139941*sqrt(2)/5877760 + 56487*sqrt(3)/23511040 + 5967*sqrt(35)/2938880",
+            "-37881*sqrt(70)/5877760 - 11421*sqrt(105)/2938880 - 120381*sqrt(6)/9404416 + 36423/1175552",
+            "-41859*sqrt(35)/2938880 - 639563*sqrt(3)/23511040 + 561*sqrt(210)/2938880 + 275409*sqrt(2)/5877760",
+            "-29181*sqrt(6)/11755520 + 2169*sqrt(70)/5877760 + 7863*sqrt(105)/5877760 + 9898701/47022080"
+          ]
+        ],
+        "common_W12": "-33867*sqrt(2)/587776 + 1137*sqrt(105)/293888 + 12141*sqrt(6)/587776 + 145769*sqrt(3)/2351104 + 8973*sqrt(35)/293888 + 4353*sqrt(210)/293888 + 8031*sqrt(70)/293888 + 2451139/2351104",
+        "difference_W12": "0"
+      },
+      "random_initial": {
+        "weights": [
+          "1/5",
+          "1/5",
+          "1/5",
+          "1/5",
+          "1/5"
+        ],
+        "R_a_equals_R_b": true,
+        "common_R_lab": [
+          [
+            "-2769*sqrt(6)/918400 + 711*sqrt(70)/459200 + 597*sqrt(105)/459200 + 772749/3673600",
+            "-19809*sqrt(2)/459200 - 3*sqrt(210)/229600 + 50063*sqrt(3)/1836800 + 2997*sqrt(35)/229600",
+            "-2727*sqrt(70)/459200 - 927*sqrt(105)/229600 - 8019*sqrt(6)/524800 + 1917/65600",
+            "-81*sqrt(35)/45920 + 1821*sqrt(3)/367360 + 1917*sqrt(2)/91840 + 279*sqrt(210)/45920",
+            "-837*sqrt(70)/91840 - 1917*sqrt(6)/183680 - 5463/734720 + 81*sqrt(105)/91840"
+          ],
+          [
+            "-19809*sqrt(2)/459200 - 3*sqrt(210)/229600 + 50063*sqrt(3)/1836800 + 2997*sqrt(35)/229600",
+            "-519*sqrt(70)/114800 - 639*sqrt(6)/229600 - 33*sqrt(105)/114800 + 176119/918400",
+            "-639*sqrt(3)/229600 + 387*sqrt(210)/229600 + 32619*sqrt(2)/1836800 + 1161*sqrt(35)/114800",
+            "-783*sqrt(105)/114800 - 35271/918400 + 351*sqrt(70)/114800 + 5751*sqrt(6)/229600",
+            "-279*sqrt(210)/45920 - 1917*sqrt(2)/91840 - 1821*sqrt(3)/367360 + 81*sqrt(35)/45920"
+          ],
+          [
+            "-2727*sqrt(70)/459200 - 927*sqrt(105)/229600 - 8019*sqrt(6)/524800 + 1917/65600",
+            "-639*sqrt(3)/229600 + 387*sqrt(210)/229600 + 32619*sqrt(2)/1836800 + 1161*sqrt(35)/114800",
+            "-93*sqrt(105)/45920 + 213*sqrt(6)/18368 + 39*sqrt(70)/6560 + 14383/73472",
+            "-1161*sqrt(35)/114800 - 32619*sqrt(2)/1836800 - 387*sqrt(210)/229600 + 639*sqrt(3)/229600",
+            "-2727*sqrt(70)/459200 - 927*sqrt(105)/229600 - 8019*sqrt(6)/524800 + 1917/65600"
+          ],
+          [
+            "-81*sqrt(35)/45920 + 1821*sqrt(3)/367360 + 1917*sqrt(2)/91840 + 279*sqrt(210)/45920",
+            "-783*sqrt(105)/114800 - 35271/918400 + 351*sqrt(70)/114800 + 5751*sqrt(6)/229600",
+            "-1161*sqrt(35)/114800 - 32619*sqrt(2)/1836800 - 387*sqrt(210)/229600 + 639*sqrt(3)/229600",
+            "-519*sqrt(70)/114800 - 639*sqrt(6)/229600 - 33*sqrt(105)/114800 + 176119/918400",
+            "-2997*sqrt(35)/229600 - 50063*sqrt(3)/1836800 + 3*sqrt(210)/229600 + 19809*sqrt(2)/459200"
+          ],
+          [
+            "-837*sqrt(70)/91840 - 1917*sqrt(6)/183680 - 5463/734720 + 81*sqrt(105)/91840",
+            "-279*sqrt(210)/45920 - 1917*sqrt(2)/91840 - 1821*sqrt(3)/367360 + 81*sqrt(35)/45920",
+            "-2727*sqrt(70)/459200 - 927*sqrt(105)/229600 - 8019*sqrt(6)/524800 + 1917/65600",
+            "-2997*sqrt(35)/229600 - 50063*sqrt(3)/1836800 + 3*sqrt(210)/229600 + 19809*sqrt(2)/459200",
+            "-2769*sqrt(6)/918400 + 711*sqrt(70)/459200 + 597*sqrt(105)/459200 + 772749/3673600"
+          ]
+        ],
+        "common_R_gamma1_frame": [
+          [
+            "-78*sqrt(105)/7175 - 54*sqrt(70)/7175 + 213*sqrt(6)/7175 + 3477/28700",
+            "0",
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "6*sqrt(105)/1435 + 24*sqrt(70)/1435 + 1/4",
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "-132*sqrt(70)/7175 - 426*sqrt(6)/7175 + 96*sqrt(105)/7175 + 1849/7175",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "0",
+            "6*sqrt(105)/1435 + 24*sqrt(70)/1435 + 1/4",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "0",
+            "0",
+            "-78*sqrt(105)/7175 - 54*sqrt(70)/7175 + 213*sqrt(6)/7175 + 3477/28700"
+          ]
+        ],
+        "common_W1": "1",
+        "common_W12": "-639*sqrt(2)/11480 + 639*sqrt(6)/45920 + 93*sqrt(105)/22960 + 1849*sqrt(3)/22960 + 81*sqrt(35)/2870 + 87*sqrt(210)/5740 + 759*sqrt(70)/22960 + 196981/183680",
+        "difference_W12": "0"
+      }
+    }
+  },
+  "spin_tensor_mechanism": {
+    "pure_boundary": {
+      "definition": "T_KQ(R) = sqrt5 sum_mn R_mn (-1)^(2-n) CG(2,2,K;m,-n,Q). These tensors use the intensity R; divide by W1 for normalized conditional statistical tensors.",
+      "all_odd_K_values_zero": true,
+      "nonzero_odd_Q_in_even_K": {
+        "K2_Q-1": "-3*sqrt(35)/448",
+        "K2_Q1": "3*sqrt(35)/448",
+        "K4_Q-3": "3*sqrt(30)/256",
+        "K4_Q-1": "-9*sqrt(210)/1792",
+        "K4_Q1": "9*sqrt(210)/1792",
+        "K4_Q3": "-3*sqrt(30)/256"
+      },
+      "mechanism": "In the gamma1 frame Z0 flips odd magnetic-projection coherences, equivalently odd Q components within even K tensors. It preserves diagonal populations and even Q. Odd Q is not an odd K tensor."
+    },
+    "full_support": {
+      "definition": "T_KQ(R) = sqrt5 sum_mn R_mn (-1)^(2-n) CG(2,2,K;m,-n,Q). These tensors use the intensity R; divide by W1 for normalized conditional statistical tensors.",
+      "all_odd_K_values_zero": true,
+      "nonzero_odd_Q_in_even_K": {
+        "K2_Q-1": "-13257*sqrt(35)/2571520 - 225*sqrt(2)/36736 - 1077*sqrt(210)/2571520 + 75*sqrt(3)/4592",
+        "K2_Q1": "-75*sqrt(3)/4592 + 1077*sqrt(210)/2571520 + 225*sqrt(2)/36736 + 13257*sqrt(35)/2571520",
+        "K4_Q-3": "27*sqrt(5)/2240 + 3681*sqrt(30)/734720",
+        "K4_Q-1": "-4197*sqrt(210)/1285760 - 45*sqrt(3)/9184 + 27*sqrt(35)/7840 + 45*sqrt(2)/2296",
+        "K4_Q1": "-45*sqrt(2)/2296 - 27*sqrt(35)/7840 + 45*sqrt(3)/9184 + 4197*sqrt(210)/1285760",
+        "K4_Q3": "-3681*sqrt(30)/734720 - 27*sqrt(5)/2240"
+      },
+      "mechanism": "In the gamma1 frame Z0 flips odd magnetic-projection coherences, equivalently odd Q components within even K tensors. It preserves diagonal populations and even Q. Odd Q is not an odd K tensor."
+    }
+  },
+  "RB_cascade_phase_control": {
+    "applicability": "Random isotropic Ji=2 initial population and no other preselected axis; gamma1 = M1/E2 with delta1=1/2, gamma2 independently pure E2. Compact Eq3.73 is used only here.",
+    "delta1_RB": "1/2",
+    "first_interference": "-2*delta1*R_K(12;J2=2,J1=2)",
+    "phase_factor": "(-1)^(Lbar1-L1) = (-1)^(1-2) = -1",
+    "K_records": {
+      "K0": {
+        "B_direct": "1",
+        "B_RB_correct_minus_2delta": "1",
+        "B_incorrect_plus_2delta": "1",
+        "R11": "1",
+        "R12": "0",
+        "R22": "1",
+        "second_pure_E2_RK": "1"
+      },
+      "K2": {
+        "B_direct": "-sqrt(6)/5 - 181*sqrt(70)/4900",
+        "B_RB_correct_minus_2delta": "-sqrt(6)/5 - 181*sqrt(70)/4900",
+        "B_incorrect_plus_2delta": "-181*sqrt(70)/4900 + sqrt(6)/5",
+        "R11": "-sqrt(70)/20",
+        "R12": "sqrt(6)/4",
+        "R22": "3*sqrt(70)/196",
+        "second_pure_E2_RK": "-sqrt(70)/14"
+      },
+      "K4": {
+        "B_direct": "-4*sqrt(14)/245",
+        "B_RB_correct_minus_2delta": "-4*sqrt(14)/245",
+        "B_incorrect_plus_2delta": "-4*sqrt(14)/245",
+        "R11": "0",
+        "R12": "0",
+        "R22": "-4*sqrt(14)/49",
+        "second_pure_E2_RK": "-2*sqrt(14)/7"
+      }
+    },
+    "W12_full_amplitudes": "sqrt(105)/140 + 571/560",
+    "W12_RB3_73_correct_sign": "sqrt(105)/140 + 571/560",
+    "W12_incorrect_plus_sign": "571/560 - sqrt(105)/140",
+    "wrong_minus_correct": "-sqrt(105)/70",
+    "boundary": "The full cascade amplitudes already contain the source phases. No additional interference sign is inserted into them. The printed Eq3.73 lacks an explicit sum over K; the sum is restored from adjacent Eqs3.47 and 3.71."
+  },
+  "normalization": {
+    "first_full_angular_polynomials_in_cos_theta": {
+      "pure_boundary": {
+        "a": "33/32 - 3*cos_theta**2/32",
+        "b": "33/32 - 3*cos_theta**2/32"
+      },
+      "full_support": {
+        "a": "-213*sqrt(6)*cos_theta**4/2296 - 9*sqrt(105)*cos_theta**4/1148 - 607*cos_theta**4/9184 + 93*sqrt(70)*cos_theta**4/1148 - 27*sqrt(70)*cos_theta**2/410 - 663*cos_theta**2/45920 + 99*sqrt(105)*cos_theta**2/5740 + 639*sqrt(6)*cos_theta**2/5740 - 213*sqrt(6)/11480 - 6*sqrt(105)/1435 + 33*sqrt(70)/5740 + 11687/11480",
+        "b": "-213*sqrt(6)*cos_theta**4/2296 - 9*sqrt(105)*cos_theta**4/1148 - 607*cos_theta**4/9184 + 93*sqrt(70)*cos_theta**4/1148 - 27*sqrt(70)*cos_theta**2/410 - 663*cos_theta**2/45920 + 99*sqrt(105)*cos_theta**2/5740 + 639*sqrt(6)*cos_theta**2/5740 - 213*sqrt(6)/11480 - 6*sqrt(105)/1435 + 33*sqrt(70)/5740 + 11687/11480"
+      }
+    },
+    "first_FULL_solid_angle_average": "1 for each tested branch",
+    "secondary_FULL_solid_angle_analyzer_average": [
+      [
+        "1",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "1",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "1",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0",
+        "1",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0",
+        "0",
+        "1"
+      ]
+    ],
+    "independent_analyzer_identity": "F2(k) = (5/6) J_k^2 (4I-J_k^2), units hbar=1",
+    "full_azimuth_included": true,
+    "sphere_moments_used": "<nx^a ny^b nz^c>=0 if any exponent is odd, else (a-1)!!(b-1)!!(c-1)!!/(a+b+c+1)!!",
+    "integrate_secondary_FULL_solid_angle": "Average_Omega2 W12 = W1 for arbitrary fixed first direction",
+    "double_FULL_angular_average": "1",
+    "meridian_boundary": "No normalization claim is made for a theta-only meridian double integral. The full secondary azimuth is essential."
+  },
+  "active_relation_and_passive_gauge": {
+    "exact_relation": "A_q(Ua,theta1) = -A_q(a,theta1) Z(theta1); R_b = Z R_a Z^T",
+    "Z": "Z(theta1)=D^J2(theta1) diag((-1)^M) D^J2(theta1)^T: a pi spin rotation about the gamma1 direction",
+    "hypothesis_comparison": "The nuclear basis and secondary E2 analyzer F2 are held fixed. The two amplitude hypotheses can give different conditional intermediate densities and different Tr(R F2). This is an active state relation between hypotheses; no physical rotation pulse is asserted.",
+    "passive_basis_change": "Rotating both R and F2 by the same orthogonal Z leaves Tr(R F2) invariant, as checked exactly. A passive change of nuclear basis therefore cannot produce discrimination."
+  },
+  "conclusion": {
+    "baseline": "For BOTH tested pairs R_a=R_b exactly, so every fixed secondary analyzer is blind at theta1=0. Linear first-photon xprime/yprime tags remain blind in this baseline.",
+    "expanded_pure_boundary": "W1=129/128, W12_a=(235+25sqrt3)/256, W12_b=(280+25sqrt3)/256; Delta W12=45/256 and Delta conditional W2=15/86.",
+    "expanded_full_support": "The supplied full-support pair also has an exact nonzero W12 difference at the single expanded geometry; the radical-basis certificate is stored above.",
+    "mechanism": "Nonuniform initial alignment permits offdiagonal middle-spin coherences in the gamma1 frame. U flips their odd magnetic-projection components. The fixed second E2 analyzer probes them; ideal gamma1-axis dephasing or a random initial state removes the difference.",
+    "inverse_boundary": "This separates this pair under the specified conditional model. It does not prove global uniqueness among all amplitudes, populations, spins, parities or cascade candidates."
+  },
+  "assumptions_and_experimental_boundary": {
+    "required": [
+      "known stated initial population and alignment axis",
+      "independently pure E2 second transition",
+      "isolated coherent cascade with identified photon ordering",
+      "no intervening spin deorientation in the main model",
+      "real interaction amplitudes in the common RB convention",
+      "ideal point detector geometry and unobserved photon polarization"
+    ],
+    "experimental_inputs_absent": [
+      "photon energies",
+      "branching ratios",
+      "counts",
+      "detector response or acceptance",
+      "background and feeding estimates",
+      "covariance",
+      "intermediate lifetime and coincidence time window",
+      "spin-deorientation model or data"
+    ],
+    "before_experimental_discrimination": [
+      "fold detector response and acceptance",
+      "control backgrounds and feeding",
+      "establish gate multipolarity and ordering",
+      "evaluate lifetime/time-window-dependent deorientation",
+      "compare candidate likelihoods with actual counts and covariance"
+    ],
+    "DCO_boundary": "All reported intensities and ratios are synthetic normalized quantities, not measured DCO values. No detector-specific DCO cutoff or significance is invented.",
+    "not_proved": [
+      "global inverse uniqueness",
+      "a nucleus realizing these amplitude fractions",
+      "statistical separability at finite counts",
+      "complete photon-state equality or discrimination",
+      "extension to other spins or complex amplitudes"
+    ]
+  },
+  "checks": {
+    "exact": {
+      "existing_pair_identity_before": true,
+      "existing_raw_identity_before": true,
+      "known_initial_weights_normalized": true,
+      "known_initial_weights_positive_and_aligned": true,
+      "U_orthogonal_and_involutory": true,
+      "full_support_input_b_matches_Ua": true,
+      "pure_boundary_input_b_matches_Ua": true,
+      "spin2_commutators": true,
+      "pure_E2_secondary_analyzer_matches_independent_spin_polynomial": true,
+      "secondary_trace_is_five": true,
+      "secondary_FULL_solid_angle_average_is_identity": true,
+      "RB_R0_formula_matches_existing_coefficient_interface": true,
+      "RB_R2_formula_matches_existing_coefficient_interface": true,
+      "RB_R4_formula_matches_existing_coefficient_interface": true,
+      "pure_boundary_same_positive_strength": true,
+      "pure_boundary_a_FULL_theta_first_intensity_matches_RB_coefficients": true,
+      "pure_boundary_a_FULL_first_angular_average_is_one": true,
+      "pure_boundary_a_first_intensity_has_no_odd_or_higher_than_K4": true,
+      "pure_boundary_b_FULL_theta_first_intensity_matches_RB_coefficients": true,
+      "pure_boundary_b_FULL_first_angular_average_is_one": true,
+      "pure_boundary_b_first_intensity_has_no_odd_or_higher_than_K4": true,
+      "baseline_spin_rotation_axes_pure_boundary": true,
+      "baseline_Z_orthogonal_involutory_pure_boundary": true,
+      "baseline_pure_boundary_amplitude_covariance_q-1": true,
+      "baseline_pure_boundary_amplitude_covariance_q1": true,
+      "baseline_pure_boundary_conditional_spin_rotation_identity": true,
+      "baseline_pure_boundary_single_photon_FULL_polarization_density_equal": true,
+      "baseline_pure_boundary_first_intensities_equal": true,
+      "baseline_pure_boundary_a_trace_agrees_with_COHERENT_path_sum": true,
+      "baseline_pure_boundary_b_trace_agrees_with_COHERENT_path_sum": true,
+      "baseline_pure_boundary_PASSIVE_basis_rotation_leaves_probability_invariant": true,
+      "baseline_pure_boundary_gamma1_frame_parity_relation": true,
+      "baseline_pure_boundary_full_secondary_average_recovers_first_intensity": true,
+      "baseline_pure_boundary_EXACT_middle_density_equal": true,
+      "baseline_pure_boundary_joint_intensities_equal": true,
+      "baseline_pure_boundary_linear_xprime_tag_middle_density_equal": true,
+      "baseline_pure_boundary_linear_yprime_tag_middle_density_equal": true,
+      "baseline_pure_boundary_two_linear_tags_sum_to_unobserved_R": true,
+      "expanded_once_spin_rotation_axes_pure_boundary": true,
+      "expanded_once_Z_orthogonal_involutory_pure_boundary": true,
+      "expanded_once_pure_boundary_amplitude_covariance_q-1": true,
+      "expanded_once_pure_boundary_amplitude_covariance_q1": true,
+      "expanded_once_pure_boundary_conditional_spin_rotation_identity": true,
+      "expanded_once_pure_boundary_single_photon_FULL_polarization_density_equal": true,
+      "expanded_once_pure_boundary_first_intensities_equal": true,
+      "expanded_once_pure_boundary_a_trace_agrees_with_COHERENT_path_sum": true,
+      "expanded_once_pure_boundary_b_trace_agrees_with_COHERENT_path_sum": true,
+      "expanded_once_pure_boundary_PASSIVE_basis_rotation_leaves_probability_invariant": true,
+      "expanded_once_pure_boundary_gamma1_frame_parity_relation": true,
+      "expanded_once_pure_boundary_full_secondary_average_recovers_first_intensity": true,
+      "expanded_once_pure_boundary_EXACT_nonzero_joint_discriminant": true,
+      "expanded_once_pure_boundary_different_middle_densities": true,
+      "expanded_once_pure_boundary_gamma1_frame_trace_agrees": true,
+      "expanded_once_pure_boundary_IDEAL_gamma1_axis_dephasing_removes_difference": true,
+      "expanded_once_pure_boundary_RANDOM_initial_middle_densities_equal": true,
+      "expanded_once_pure_boundary_RANDOM_initial_gamma1_frame_is_diagonal": true,
+      "expanded_once_pure_boundary_RANDOM_initial_first_intensity_one": true,
+      "expanded_once_pure_boundary_unobserved_first_polarization_has_no_odd_K": true,
+      "expanded_once_pure_boundary_even_K_tensors_carry_nonzero_odd_Q": true,
+      "expanded_once_pure_boundary_tensor_pi_rotation_K0_Q0": true,
+      "expanded_once_pure_boundary_tensor_pi_rotation_K2_Q-2": true,
+      "expanded_once_pure_boundary_tensor_pi_rotation_K2_Q-1": true,
+      "expanded_once_pure_boundary_tensor_pi_rotation_K2_Q0": true,
+      "expanded_once_pure_boundary_tensor_pi_rotation_K2_Q1": true,
+      "expanded_once_pure_boundary_tensor_pi_rotation_K2_Q2": true,
+      "expanded_once_pure_boundary_tensor_pi_rotation_K4_Q-4": true,
+      "expanded_once_pure_boundary_tensor_pi_rotation_K4_Q-3": true,
+      "expanded_once_pure_boundary_tensor_pi_rotation_K4_Q-2": true,
+      "expanded_once_pure_boundary_tensor_pi_rotation_K4_Q-1": true,
+      "expanded_once_pure_boundary_tensor_pi_rotation_K4_Q0": true,
+      "expanded_once_pure_boundary_tensor_pi_rotation_K4_Q1": true,
+      "expanded_once_pure_boundary_tensor_pi_rotation_K4_Q2": true,
+      "expanded_once_pure_boundary_tensor_pi_rotation_K4_Q3": true,
+      "expanded_once_pure_boundary_tensor_pi_rotation_K4_Q4": true,
+      "full_support_same_positive_strength": true,
+      "full_support_a_FULL_theta_first_intensity_matches_RB_coefficients": true,
+      "full_support_a_FULL_first_angular_average_is_one": true,
+      "full_support_a_first_intensity_has_no_odd_or_higher_than_K4": true,
+      "full_support_b_FULL_theta_first_intensity_matches_RB_coefficients": true,
+      "full_support_b_FULL_first_angular_average_is_one": true,
+      "full_support_b_first_intensity_has_no_odd_or_higher_than_K4": true,
+      "baseline_spin_rotation_axes_full_support": true,
+      "baseline_Z_orthogonal_involutory_full_support": true,
+      "baseline_full_support_amplitude_covariance_q-1": true,
+      "baseline_full_support_amplitude_covariance_q1": true,
+      "baseline_full_support_conditional_spin_rotation_identity": true,
+      "baseline_full_support_single_photon_FULL_polarization_density_equal": true,
+      "baseline_full_support_first_intensities_equal": true,
+      "baseline_full_support_a_trace_agrees_with_COHERENT_path_sum": true,
+      "baseline_full_support_b_trace_agrees_with_COHERENT_path_sum": true,
+      "baseline_full_support_PASSIVE_basis_rotation_leaves_probability_invariant": true,
+      "baseline_full_support_gamma1_frame_parity_relation": true,
+      "baseline_full_support_full_secondary_average_recovers_first_intensity": true,
+      "baseline_full_support_EXACT_middle_density_equal": true,
+      "baseline_full_support_joint_intensities_equal": true,
+      "baseline_full_support_linear_xprime_tag_middle_density_equal": true,
+      "baseline_full_support_linear_yprime_tag_middle_density_equal": true,
+      "baseline_full_support_two_linear_tags_sum_to_unobserved_R": true,
+      "expanded_once_spin_rotation_axes_full_support": true,
+      "expanded_once_Z_orthogonal_involutory_full_support": true,
+      "expanded_once_full_support_amplitude_covariance_q-1": true,
+      "expanded_once_full_support_amplitude_covariance_q1": true,
+      "expanded_once_full_support_conditional_spin_rotation_identity": true,
+      "expanded_once_full_support_single_photon_FULL_polarization_density_equal": true,
+      "expanded_once_full_support_first_intensities_equal": true,
+      "expanded_once_full_support_a_trace_agrees_with_COHERENT_path_sum": true,
+      "expanded_once_full_support_b_trace_agrees_with_COHERENT_path_sum": true,
+      "expanded_once_full_support_PASSIVE_basis_rotation_leaves_probability_invariant": true,
+      "expanded_once_full_support_gamma1_frame_parity_relation": true,
+      "expanded_once_full_support_full_secondary_average_recovers_first_intensity": true,
+      "expanded_once_full_support_EXACT_nonzero_joint_discriminant": true,
+      "expanded_once_full_support_different_middle_densities": true,
+      "expanded_once_full_support_gamma1_frame_trace_agrees": true,
+      "expanded_once_full_support_IDEAL_gamma1_axis_dephasing_removes_difference": true,
+      "expanded_once_full_support_RANDOM_initial_middle_densities_equal": true,
+      "expanded_once_full_support_RANDOM_initial_gamma1_frame_is_diagonal": true,
+      "expanded_once_full_support_RANDOM_initial_first_intensity_one": true,
+      "expanded_once_full_support_unobserved_first_polarization_has_no_odd_K": true,
+      "expanded_once_full_support_even_K_tensors_carry_nonzero_odd_Q": true,
+      "expanded_once_full_support_tensor_pi_rotation_K0_Q0": true,
+      "expanded_once_full_support_tensor_pi_rotation_K2_Q-2": true,
+      "expanded_once_full_support_tensor_pi_rotation_K2_Q-1": true,
+      "expanded_once_full_support_tensor_pi_rotation_K2_Q0": true,
+      "expanded_once_full_support_tensor_pi_rotation_K2_Q1": true,
+      "expanded_once_full_support_tensor_pi_rotation_K2_Q2": true,
+      "expanded_once_full_support_tensor_pi_rotation_K4_Q-4": true,
+      "expanded_once_full_support_tensor_pi_rotation_K4_Q-3": true,
+      "expanded_once_full_support_tensor_pi_rotation_K4_Q-2": true,
+      "expanded_once_full_support_tensor_pi_rotation_K4_Q-1": true,
+      "expanded_once_full_support_tensor_pi_rotation_K4_Q0": true,
+      "expanded_once_full_support_tensor_pi_rotation_K4_Q1": true,
+      "expanded_once_full_support_tensor_pi_rotation_K4_Q2": true,
+      "expanded_once_full_support_tensor_pi_rotation_K4_Q3": true,
+      "expanded_once_full_support_tensor_pi_rotation_K4_Q4": true,
+      "pure_baseline_R_is_explicit_diagonal_certificate": true,
+      "pure_baseline_intensity_values": true,
+      "pure_expanded_W1_129_over_128": true,
+      "pure_expanded_difference_45_over_256": true,
+      "pure_expanded_conditional_difference_15_over_86": true,
+      "phase_control_random_initial_first_intensity_one": true,
+      "phase_control_gamma1_axis_middle_density_diagonal": true,
+      "phase_control_K0_DIRECT_amplitude_matches_RB_minus_2delta": true,
+      "phase_control_K2_DIRECT_amplitude_matches_RB_minus_2delta": true,
+      "phase_control_K4_DIRECT_amplitude_matches_RB_minus_2delta": true,
+      "phase_control_RB3_73_matches_full_COHERENT_cascade": true,
+      "phase_control_wrong_plus_interference_fails_nonzero_control": true,
+      "existing_pair_bytes_unchanged_after": true,
+      "existing_raw_hash_unchanged_after": true
+    },
+    "passed": 148,
+    "failures": 0,
+    "elapsed_seconds": 6.232203682011459
+  },
+  "changed_paths": [
+    "tmp/day8-20261007/rose-brink/cascade-companion/cascade_companion.py",
+    "outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/cascade-companion-discriminant.json"
+  ],
+  "reproducibility": {
+    "script_path": "tmp/day8-20261007/rose-brink/cascade-companion/cascade_companion.py",
+    "script_sha256": "44279dec9584b1ac81ec4551b6d1cf192f83560dfe077e68ea82634e8f3e52e7",
+    "source_code": "#!/usr/bin/env python3\n\"\"\"Bounded Day8 L2 coherent 2+ -> 2+ -> 0+ cascade, using existing RB input.\n\nDefault: run exact checks and print a compact result.  --write-receipt creates\none new owned JSON exclusively; it never updates prior artifacts or Wiki state.\n\"\"\"\nfrom __future__ import annotations\n\nimport argparse\nfrom datetime import datetime, timezone\nfrom functools import lru_cache\nimport hashlib\nimport json\nfrom pathlib import Path\nimport platform\nimport sys\nimport time\n\nsys.dont_write_bytecode = True\nROOT = Path(__file__).resolve().parents[4]\nDEPS = ROOT / 'tmp/day8-20261007/rose-brink/python-deps'\nsys.path.insert(0, str(DEPS))\nimport sympy as sp\nfrom sympy.physics.wigner import clebsch_gordan, racah, wigner_d_small\n\nRUN = ROOT / 'outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01'\nINPUT = RUN / 'four-multipole-fixed-population-pair.json'\nOUTPUT = RUN / 'cascade-companion-discriminant.json'\nSOURCE = ROOT / 'knowledge/sources/rose-brink-1967-phase-defined-angular-distributions.md'\nRAW = ROOT / 'raw/papers/gpt/high-spin-20260920/multipolarity/mixing ratio/1967_Rose et al_Angular Distributions of Gamma Rays in Terms of Phase-Defined Reduced Matrix Elements.pdf'\nINPUT_SHA = 'b5a7ea2f727264b9d3ff56f4fec25302d326baab1ec67fd9774dea3d2522b8fd'\nRAW_SHA = '8f846b61b9320de291ee5600126c5e286a0fe05968df819696816f0dc1ec57dc'\nM = tuple(range(-2, 3))\nQ = (-1, 1)\nPI = (1, 0, 1, 0)\nWEIGHTS = (sp.Rational(1, 4), sp.Rational(1, 8), sp.Rational(1, 4), sp.Rational(1, 8), sp.Rational(1, 4))\nRANDOM = (sp.Rational(1, 5),) * 5\nX, Y = sp.symbols('cos_theta sin_theta', real=True)\n\n\ndef ex(value):\n    \"\"\"Expand real square-root expressions without using numerical tolerances.\"\"\"\n    return sp.expand(value)\n\n\ndef mx(matrix):\n    return matrix.applyfunc(ex)\n\n\ndef is_zero_matrix(matrix):\n    return mx(matrix) == sp.zeros(matrix.rows, matrix.cols)\n\n\ndef text_scalar(value):\n    return sp.sstr(value)\n\n\ndef serial_matrix(matrix):\n    return [[text_scalar(matrix[i, j]) for j in range(matrix.cols)] for i in range(matrix.rows)]\n\n\ndef serial_vector(vector):\n    return [text_scalar(value) for value in vector]\n\n\ndef display(value):\n    return str(sp.N(value, 14))\n\n\n@lru_cache(None)\ndef cg(L, i, m):\n    return clebsch_gordan(2, L, 2, m, i - m, i)\n\n\n@lru_cache(None)\ndef d_xy(L):\n    \"\"\"RB exp(-i theta Jy): SymPy uses the opposite sign for its argument.\n\n    Integer-spin half-angle monomials have both exponents even or both odd.\n    For odd exponents the remaining factor is sin(theta)/2, NOT sin(theta/2).\n    This keeps theta = pi/4 free of nested half-angle radicals.\n    \"\"\"\n    t = sp.symbols('theta_template', real=True)\n    s, c = sp.symbols('half_s half_c', real=True)\n    template = wigner_d_small(L, -t)\n\n    def convert(entry):\n        polynomial = sp.Poly(ex(entry.xreplace({sp.sin(t / 2): s, sp.cos(t / 2): c})), s, c)\n        result = 0\n        for (ps, pc), coefficient in polynomial.terms():\n            if ps % 2 != pc % 2:\n                raise AssertionError('Unexpected integer-spin half-angle parity')\n            result += coefficient * ((1 - X) / 2) ** (ps // 2) * ((1 + X) / 2) ** (pc // 2) * (Y / 2 if ps % 2 else 1)\n        return ex(result)\n\n    return template.applyfunc(convert)\n\n\n@lru_cache(None)\ndef d_at(L, theta):\n    return mx(d_xy(L).xreplace({X: sp.cos(theta), Y: sp.sin(theta)}))\n\n\ndef rotation(theta):\n    descending = d_at(2, theta)\n    return sp.Matrix(5, 5, lambda i, j: descending[2 - M[i], 2 - M[j]])\n\n\ndef first_amplitudes(a, theta=None):\n    d = {L: d_xy(L) if theta is None else d_at(L, theta) for L in range(1, 5)}\n    return {\n        q: sp.Matrix(5, 5, lambda ii, mm: ex(sum(\n            sp.Integer(q) ** PI[L - 1] * sp.sqrt(2 * L + 1) * a[L - 1]\n            * cg(L, M[ii], M[mm]) * d[L][L - (M[ii] - M[mm]), L - q]\n            for L in range(1, 5) if abs(M[ii] - M[mm]) <= L)))\n        for q in Q\n    }\n\n\ndef strength(a):\n    return ex((a.T * a)[0])\n\n\ndef middle_density(amplitudes, weights, S):\n    diagonal = sp.diag(*weights)\n    return mx(sum((amplitudes[q].T * diagonal * amplitudes[q] for q in Q), sp.zeros(5)) / (2 * S))\n\n\ndef photon_density(amplitudes, weights, S):\n    return sp.Matrix(2, 2, lambda aa, bb: ex(sum(\n        weights[ii] * amplitudes[Q[aa]][ii, mm] * amplitudes[Q[bb]][ii, mm]\n        for ii in range(5) for mm in range(5)) / (2 * S)))\n\n\ndef linear_middle_density(amplitudes, weights, S, analyzer):\n    # RB p316: xprime = (A_minus - A_plus)/sqrt(2),\n    # yprime = (A_minus + A_plus)/sqrt(2), up to an irrelevant common phase.\n    vector_amplitude = (amplitudes[-1] + analyzer * amplitudes[1]) / sp.sqrt(2)\n    return mx(vector_amplitude.T * sp.diag(*weights) * vector_amplitude / (2 * S))\n\n\ndef second_vectors(theta):\n    d = d_at(2, theta)\n    return {q: sp.Matrix([sp.sqrt(5) * d[2 - m, 2 - q] for m in M]) for q in Q}\n\n\ndef second_analyzer(vectors):\n    return mx(sum((vectors[q] * vectors[q].T for q in Q), sp.zeros(5)) / 2)\n\n\ndef coherent_probability(amplitudes, vectors, weights, S):\n    # Sum over the intermediate m BEFORE taking the squared amplitude.\n    result = 0\n    for q1 in Q:\n        for q2 in Q:\n            path = amplitudes[q1] * vectors[q2]\n            result += sum(weights[ii] * path[ii] ** 2 for ii in range(5))\n    return ex(result / (4 * S))\n\n\ndef population_tensor(K, weights):\n    return ex(sum(weights[ii] * sp.Integer(-1) ** (2 - m) * sp.sqrt(5)\n                  * clebsch_gordan(2, 2, K, m, -m, 0) for ii, m in enumerate(M)))\n\n\ndef density_tensor(K, q, density):\n    return ex(sum(density[ii, jj] * sp.Integer(-1) ** (2 - n) * sp.sqrt(5)\n                  * clebsch_gordan(2, 2, K, m, -n, q)\n                  for ii, m in enumerate(M) for jj, n in enumerate(M)))\n\n\ndef response(K, L, LP, Ji, Jf):\n    # RB Eq3.36; Ji is the initial bra spin in the interaction RME.\n    return ex(sp.Integer(-1) ** (1 + Ji - Jf + LP - L - K)\n              * sp.sqrt((2 * Ji + 1) * (2 * L + 1) * (2 * LP + 1))\n              * clebsch_gordan(L, LP, K, 1, -1, 0) * racah(Ji, Ji, L, LP, K, Jf))\n\n\ndef reduce_direction_polynomial(expression):\n    polynomial = sp.Poly(ex(expression), Y)\n    return ex(sum(coefficient * Y ** (power[0] % 2) * (1 - X ** 2) ** (power[0] // 2)\n                  for power, coefficient in polynomial.terms()))\n\n\ndef spin_matrices():\n    plus = sp.zeros(5)\n    for ii, m in enumerate(M[:-1]):\n        plus[ii + 1, ii] = sp.sqrt(6 - m * (m + 1))\n    minus = plus.T\n    return (plus + minus) / 2, (plus - minus) / (2 * sp.I), sp.diag(*M)\n\n\ndef spherical_moment(a, b, c):\n    if any(power % 2 for power in (a, b, c)):\n        return sp.Integer(0)\n    return sp.factorial2(a - 1) * sp.factorial2(b - 1) * sp.factorial2(c - 1) / sp.factorial2(a + b + c + 1)\n\n\ndef spherical_average(matrix, xyz):\n    def average(entry):\n        return ex(sum(coefficient * spherical_moment(*powers)\n                      for powers, coefficient in sp.Poly(ex(entry), *xyz).terms()))\n    return matrix.applyfunc(average)\n\n\ndef squarefree_certificate(expression):\n    \"\"\"Distinct positive square-free roots and 1 are Q-linearly independent.\"\"\"\n    coefficients = ex(expression).as_coefficients_dict()\n    basis = []\n    for root, coefficient in coefficients.items():\n        if coefficient.is_Rational is not True:\n            raise AssertionError('Non-rational root coefficient')\n        if root != 1:\n            if not (root.is_Pow and root.exp == sp.Rational(1, 2) and root.base.is_Integer and root.base > 0):\n                raise AssertionError(f'Unexpected root basis {root}')\n            if any(power != 1 for power in sp.factorint(root.base).values()):\n                raise AssertionError('Root is not square-free')\n        basis.append({'basis': text_scalar(root), 'rational_coefficient': text_scalar(coefficient)})\n    return {'basis_coefficients': sorted(basis, key=lambda item: item['basis']),\n            'nonzero': any(coefficient != 0 for coefficient in coefficients.values()),\n            'proof': 'Distinct positive square-free square roots, together with 1, are linearly independent over Q; at least one rational coefficient is nonzero.'}\n\n\ndef main_result():\n    started = time.monotonic()\n    checks = {}\n\n    def check(name, condition):\n        checks[name] = bool(condition)\n        if not checks[name]:\n            raise AssertionError(name)\n\n    input_bytes = INPUT.read_bytes()\n    prior = json.loads(input_bytes)\n    raw_hash = hashlib.sha256(RAW.read_bytes()).hexdigest()\n    check('existing_pair_identity_before', hashlib.sha256(input_bytes).hexdigest() == INPUT_SHA)\n    check('existing_raw_identity_before', raw_hash == RAW_SHA)\n    check('known_initial_weights_normalized', sum(WEIGHTS) == 1)\n    check('known_initial_weights_positive_and_aligned', all(w > 0 for w in WEIGHTS) and WEIGHTS == WEIGHTS[::-1])\n\n    U = sp.Matrix([[sp.sympify(value) for value in row] for row in prior['involution']['U']])\n    a0 = sp.Matrix([sp.sympify(value) for value in prior['minimal_boundary_pair']['a']])\n    a1 = sp.Matrix([sp.sympify(value) for value in prior['exact_pair']['a']])\n    pairs = {'pure_boundary': a0, 'full_support': a1}\n    check('U_orthogonal_and_involutory', is_zero_matrix(U.T * U - sp.eye(4)) and is_zero_matrix(U * U - sp.eye(4)))\n    check('full_support_input_b_matches_Ua', is_zero_matrix(U * a1 - sp.Matrix([sp.sympify(value) for value in prior['exact_pair']['b']])))\n    check('pure_boundary_input_b_matches_Ua', is_zero_matrix(U * a0 - sp.Matrix([sp.sympify(value) for value in prior['minimal_boundary_pair']['b']])))\n\n    Jx, Jy, Jz = spin_matrices()\n    check('spin2_commutators', is_zero_matrix(Jx * Jy - Jy * Jx - sp.I * Jz))\n    theta2 = sp.pi / 4\n    vectors = second_vectors(theta2)\n    F = second_analyzer(vectors)\n    Jk = sp.sin(theta2) * Jx + sp.cos(theta2) * Jz\n    F_independent = mx(sp.Rational(5, 6) * Jk ** 2 * (4 * sp.eye(5) - Jk ** 2))\n    check('pure_E2_secondary_analyzer_matches_independent_spin_polynomial', is_zero_matrix(F - F_independent))\n    check('secondary_trace_is_five', sp.trace(F) == 5)\n\n    nx, ny, nz = sp.symbols('nx ny nz', real=True)\n    Jn = nx * Jx + ny * Jy + nz * Jz\n    F_sphere = sp.Rational(5, 6) * Jn ** 2 * (4 * sp.eye(5) - Jn ** 2)\n    F_average = spherical_average(F_sphere, (nx, ny, nz))\n    check('secondary_FULL_solid_angle_average_is_identity', F_average == sp.eye(5))\n\n    coefficient_matrices = {K: sp.Matrix([[sp.sympify(value) for value in row]\n                                        for row in prior['source']['validated_exact_response_matrices'][f'R{K}']])\n                            for K in (2, 4)}\n    for K in (0, 2, 4):\n        from_source_formula = sp.Matrix(4, 4, lambda i, j: response(K, i + 1, j + 1, 2, 2))\n        check(f'RB_R{K}_formula_matches_existing_coefficient_interface',\n              is_zero_matrix(from_source_formula - (sp.eye(4) if K == 0 else coefficient_matrices[K])))\n    angular_normalization = {}\n    baseline = {}\n    expanded = {}\n    controls = {}\n    tensors = {}\n    Z0 = sp.diag(*[sp.Integer(-1) ** m for m in M])\n\n    for name, a in pairs.items():\n        b = mx(U * a)\n        S = strength(a)\n        check(f'{name}_same_positive_strength', S == strength(b) and S > 0)\n\n        angular_records = {}\n        for branch, amplitude in (('a', a), ('b', b)):\n            generic_A = first_amplitudes(amplitude)\n            full_angular_W = reduce_direction_polynomial(sum(\n                WEIGHTS[ii] * generic_A[q][ii, mm] ** 2 for ii in range(5) for mm in range(5) for q in Q) / (2 * S))\n            predicted = 1 + sum(population_tensor(K, WEIGHTS)\n                                * (amplitude.T * coefficient_matrices[K] * amplitude)[0] / S * sp.legendre(K, X)\n                                for K in (2, 4))\n            check(f'{name}_{branch}_FULL_theta_first_intensity_matches_RB_coefficients', ex(full_angular_W - predicted) == 0)\n            check(f'{name}_{branch}_FULL_first_angular_average_is_one', sp.integrate(full_angular_W, (X, -1, 1)) / 2 == 1)\n            check(f'{name}_{branch}_first_intensity_has_no_odd_or_higher_than_K4',\n                  not full_angular_W.has(Y) and sp.degree(full_angular_W, X) <= 4 and ex(full_angular_W - full_angular_W.xreplace({X: -X})) == 0)\n            angular_records[branch] = text_scalar(full_angular_W)\n        angular_normalization[name] = angular_records\n\n        for geometry, theta1, destination in (('baseline', sp.Integer(0), baseline), ('expanded_once', sp.pi / 3, expanded)):\n            D = rotation(theta1)\n            Z = mx(D * Z0 * D.T)\n            check(f'{geometry}_spin_rotation_axes_{name}', is_zero_matrix(D * Jz * D.T - sp.sin(theta1) * Jx - sp.cos(theta1) * Jz))\n            check(f'{geometry}_Z_orthogonal_involutory_{name}', is_zero_matrix(Z.T * Z - sp.eye(5)) and is_zero_matrix(Z * Z - sp.eye(5)))\n            amplitudes_a, amplitudes_b = first_amplitudes(a, theta1), first_amplitudes(b, theta1)\n            for q in Q:\n                check(f'{geometry}_{name}_amplitude_covariance_q{q}', is_zero_matrix(amplitudes_b[q] + amplitudes_a[q] * Z))\n            Ra = middle_density(amplitudes_a, WEIGHTS, S)\n            Rb = middle_density(amplitudes_b, WEIGHTS, S)\n            check(f'{geometry}_{name}_conditional_spin_rotation_identity', is_zero_matrix(Rb - Z * Ra * Z.T))\n            check(f'{geometry}_{name}_single_photon_FULL_polarization_density_equal',\n                  is_zero_matrix(photon_density(amplitudes_a, WEIGHTS, S) - photon_density(amplitudes_b, WEIGHTS, S)))\n            W1a, W1b = ex(sp.trace(Ra)), ex(sp.trace(Rb))\n            Wa, Wb = ex(sp.trace(Ra * F)), ex(sp.trace(Rb * F))\n            difference = ex(Wb - Wa)\n            check(f'{geometry}_{name}_first_intensities_equal', W1a == W1b)\n            for branch, amplitudes, W in (('a', amplitudes_a, Wa), ('b', amplitudes_b, Wb)):\n                check(f'{geometry}_{name}_{branch}_trace_agrees_with_COHERENT_path_sum',\n                      ex(W - coherent_probability(amplitudes, vectors, WEIGHTS, S)) == 0)\n            check(f'{geometry}_{name}_PASSIVE_basis_rotation_leaves_probability_invariant',\n                  ex(sp.trace((Z * Ra * Z.T) * (Z * F * Z.T)) - Wa) == 0)\n            frame_a, frame_b = mx(D.T * Ra * D), mx(D.T * Rb * D)\n            check(f'{geometry}_{name}_gamma1_frame_parity_relation', is_zero_matrix(frame_b - Z0 * frame_a * Z0))\n            check(f'{geometry}_{name}_full_secondary_average_recovers_first_intensity',\n                  ex(sp.trace(Ra * F_average) - W1a) == 0 and ex(sp.trace(Rb * F_average) - W1b) == 0)\n            record = {\n                'a': serial_vector(a), 'b_Ua': serial_vector(b), 'S1': text_scalar(S), 'S2': '1',\n                'theta1_radians': text_scalar(theta1), 'theta2_radians': 'pi/4', 'phi1_phi2_radians': ['0', '0'],\n                'angle_between_photons_radians': text_scalar(abs(theta1 - theta2)),\n                'intermediate_M_order': list(M), 'R_a': serial_matrix(Ra), 'R_b': serial_matrix(Rb),\n                'R_a_gamma1_frame': serial_matrix(frame_a), 'R_b_gamma1_frame': serial_matrix(frame_b),\n                'Z_lab': serial_matrix(Z), 'W1_a': text_scalar(W1a), 'W1_b': text_scalar(W1b),\n                'W12_a': text_scalar(Wa), 'W12_b': text_scalar(Wb), 'difference_W12_b_minus_a': text_scalar(difference),\n                'conditional_W2_a': text_scalar(Wa / W1a), 'conditional_W2_b': text_scalar(Wb / W1b),\n                'difference_conditional_W2_b_minus_a': text_scalar(difference / W1a),\n                'numeric_display_only': {'W1': display(W1a), 'W12_a': display(Wa), 'W12_b': display(Wb),\n                                         'difference_W12': display(difference), 'conditional_W2_a': display(Wa / W1a),\n                                         'conditional_W2_b': display(Wb / W1b), 'difference_conditional_W2': display(difference / W1a)},\n            }\n            destination[name] = record\n\n            if geometry == 'baseline':\n                check(f'baseline_{name}_EXACT_middle_density_equal', Ra == Rb)\n                check(f'baseline_{name}_joint_intensities_equal', difference == 0)\n                linear = {}\n                for axis, sign in (('xprime', -1), ('yprime', 1)):\n                    tag_a = linear_middle_density(amplitudes_a, WEIGHTS, S, sign)\n                    tag_b = linear_middle_density(amplitudes_b, WEIGHTS, S, sign)\n                    check(f'baseline_{name}_linear_{axis}_tag_middle_density_equal', tag_a == tag_b)\n                    linear[axis] = {'R_tag_a_equals_R_tag_b': True, 'R_tag_common': serial_matrix(tag_a),\n                                    'secondary_joint_intensity_common': text_scalar(ex(sp.trace(tag_a * F)))}\n                check(f'baseline_{name}_two_linear_tags_sum_to_unobserved_R',\n                      is_zero_matrix(linear_middle_density(amplitudes_a, WEIGHTS, S, -1)\n                                     + linear_middle_density(amplitudes_a, WEIGHTS, S, 1) - Ra))\n                record['arbitrary_secondary_analyzer_certificate'] = 'R_a = R_b exactly; Tr(R_a F_any) = Tr(R_b F_any) for every fixed secondary analyzer, direction or polarization in this baseline.'\n                record['linear_first_tag_control'] = linear\n            else:\n                certificate = squarefree_certificate(difference)\n                check(f'expanded_once_{name}_EXACT_nonzero_joint_discriminant', certificate['nonzero'])\n                check(f'expanded_once_{name}_different_middle_densities', not is_zero_matrix(Rb - Ra))\n                record['nonzero_difference_certificate'] = certificate\n                F_frame = mx(D.T * F * D)\n                check(f'expanded_once_{name}_gamma1_frame_trace_agrees', ex(sp.trace(frame_a * F_frame) - Wa) == 0)\n\n                diagonal_a = sp.diag(*[frame_a[ii, ii] for ii in range(5)])\n                diagonal_b = sp.diag(*[frame_b[ii, ii] for ii in range(5)])\n                dephased_a, dephased_b = mx(D * diagonal_a * D.T), mx(D * diagonal_b * D.T)\n                check(f'expanded_once_{name}_IDEAL_gamma1_axis_dephasing_removes_difference', dephased_a == dephased_b)\n                random_a, random_b = middle_density(amplitudes_a, RANDOM, S), middle_density(amplitudes_b, RANDOM, S)\n                random_frame = mx(D.T * random_a * D)\n                check(f'expanded_once_{name}_RANDOM_initial_middle_densities_equal', random_a == random_b)\n                check(f'expanded_once_{name}_RANDOM_initial_gamma1_frame_is_diagonal',\n                      random_frame == sp.diag(*[random_frame[ii, ii] for ii in range(5)]))\n                check(f'expanded_once_{name}_RANDOM_initial_first_intensity_one', ex(sp.trace(random_a)) == 1)\n                controls[name] = {\n                    'ideal_dephasing': {'definition': 'Rotate R into the gamma1 spin frame, discard every offdiagonal element, and rotate back. This is an ideal diagnostic map, not an experimental deorientation model.',\n                                        'dephased_R_a_equals_R_b': True, 'common_dephased_R_lab': serial_matrix(dephased_a),\n                                        'common_W12': text_scalar(ex(sp.trace(dephased_a * F))), 'difference_W12': '0'},\n                    'random_initial': {'weights': ['1/5'] * 5, 'R_a_equals_R_b': True, 'common_R_lab': serial_matrix(random_a),\n                                       'common_R_gamma1_frame': serial_matrix(random_frame), 'common_W1': '1',\n                                       'common_W12': text_scalar(ex(sp.trace(random_a * F))), 'difference_W12': '0'},\n                }\n\n                odd_K = {f'K{K}_Q{q}': density_tensor(K, q, frame_a)\n                         for K in (1, 3) for q in range(-K, K + 1)}\n                check(f'expanded_once_{name}_unobserved_first_polarization_has_no_odd_K', all(value == 0 for value in odd_K.values()))\n                even_K = {f'K{K}_Q{q}': density_tensor(K, q, frame_a)\n                          for K in (0, 2, 4) for q in range(-K, K + 1)}\n                nonzero_odd_Q = {key: value for key, value in even_K.items()\n                                 if int(key.split('_Q')[1]) % 2 and value != 0}\n                check(f'expanded_once_{name}_even_K_tensors_carry_nonzero_odd_Q', bool(nonzero_odd_Q))\n                for K in (0, 2, 4):\n                    for q in range(-K, K + 1):\n                        check(f'expanded_once_{name}_tensor_pi_rotation_K{K}_Q{q}',\n                              ex(density_tensor(K, q, frame_b) - sp.Integer(-1) ** q * even_K[f'K{K}_Q{q}']) == 0)\n                tensors[name] = {'definition': 'T_KQ(R) = sqrt5 sum_mn R_mn (-1)^(2-n) CG(2,2,K;m,-n,Q). These tensors use the intensity R; divide by W1 for normalized conditional statistical tensors.',\n                                 'all_odd_K_values_zero': True,\n                                 'nonzero_odd_Q_in_even_K': {key: text_scalar(value) for key, value in nonzero_odd_Q.items()},\n                                 'mechanism': 'In the gamma1 frame Z0 flips odd magnetic-projection coherences, equivalently odd Q components within even K tensors. It preserves diagonal populations and even Q. Odd Q is not an odd K tensor.'}\n\n    pure_base = baseline['pure_boundary']\n    expected_baseline_R = sp.diag(1, 5, 3, 5, 1) / 16\n    check('pure_baseline_R_is_explicit_diagonal_certificate',\n          pure_base['R_a'] == serial_matrix(expected_baseline_R))\n    check('pure_baseline_intensity_values', pure_base['W1_a'] == '15/16' and pure_base['W12_a'] == '55/64')\n    pure_expanded = expanded['pure_boundary']\n    check('pure_expanded_W1_129_over_128', pure_expanded['W1_a'] == '129/128')\n    check('pure_expanded_difference_45_over_256', pure_expanded['difference_W12_b_minus_a'] == '45/256')\n    check('pure_expanded_conditional_difference_15_over_86', pure_expanded['difference_conditional_W2_b_minus_a'] == '15/86')\n\n    # Independent phase audit where compact RB3.73 actually applies:\n    # random initial state, no other selected axis, M1/E2 first gamma.\n    delta = sp.Rational(1, 2)\n    phase_a = sp.Matrix([1, delta, 0, 0])\n    phase_A = first_amplitudes(phase_a, sp.Integer(0))\n    phase_R = middle_density(phase_A, RANDOM, strength(phase_a))\n    check('phase_control_random_initial_first_intensity_one', sp.trace(phase_R) == 1)\n    check('phase_control_gamma1_axis_middle_density_diagonal', phase_R == sp.diag(*[phase_R[ii, ii] for ii in range(5)]))\n    phase_records = {}\n    phase_W, wrong_W = 0, 0\n    for K in (0, 2, 4):\n        direct_B = population_tensor(K, tuple(phase_R[ii, ii] for ii in range(5)))\n        R11, R12, R22 = (response(K, L, LP, 2, 2) for L, LP in ((1, 1), (1, 2), (2, 2)))\n        correct_B = ex((R11 - 2 * delta * R12 + delta ** 2 * R22) / (1 + delta ** 2))\n        incorrect_B = ex((R11 + 2 * delta * R12 + delta ** 2 * R22) / (1 + delta ** 2))\n        check(f'phase_control_K{K}_DIRECT_amplitude_matches_RB_minus_2delta', direct_B == correct_B)\n        second_R = response(K, 2, 2, 2, 0)\n        phase_W += correct_B * second_R * sp.legendre(K, sp.cos(theta2))\n        wrong_W += incorrect_B * second_R * sp.legendre(K, sp.cos(theta2))\n        phase_records[f'K{K}'] = {'B_direct': text_scalar(direct_B), 'B_RB_correct_minus_2delta': text_scalar(correct_B),\n                                 'B_incorrect_plus_2delta': text_scalar(incorrect_B), 'R11': text_scalar(R11),\n                                 'R12': text_scalar(R12), 'R22': text_scalar(R22), 'second_pure_E2_RK': text_scalar(second_R)}\n    phase_W, wrong_W = ex(phase_W), ex(wrong_W)\n    direct_phase_W = ex(sp.trace(phase_R * F))\n    check('phase_control_RB3_73_matches_full_COHERENT_cascade', phase_W == direct_phase_W)\n    check('phase_control_wrong_plus_interference_fails_nonzero_control', wrong_W != direct_phase_W)\n    phase_control = {'applicability': 'Random isotropic Ji=2 initial population and no other preselected axis; gamma1 = M1/E2 with delta1=1/2, gamma2 independently pure E2. Compact Eq3.73 is used only here.',\n                     'delta1_RB': '1/2', 'first_interference': '-2*delta1*R_K(12;J2=2,J1=2)',\n                     'phase_factor': '(-1)^(Lbar1-L1) = (-1)^(1-2) = -1',\n                     'K_records': phase_records, 'W12_full_amplitudes': text_scalar(direct_phase_W),\n                     'W12_RB3_73_correct_sign': text_scalar(phase_W), 'W12_incorrect_plus_sign': text_scalar(wrong_W),\n                     'wrong_minus_correct': text_scalar(ex(wrong_W - phase_W)),\n                     'boundary': 'The full cascade amplitudes already contain the source phases. No additional interference sign is inserted into them. The printed Eq3.73 lacks an explicit sum over K; the sum is restored from adjacent Eqs3.47 and 3.71.'}\n\n    check('existing_pair_bytes_unchanged_after', INPUT.read_bytes() == input_bytes)\n    check('existing_raw_hash_unchanged_after', hashlib.sha256(RAW.read_bytes()).hexdigest() == RAW_SHA)\n    code_bytes = Path(__file__).read_bytes()\n    return {\n        'schema_version': 1, 'created_at_utc': datetime.now(timezone.utc).isoformat(),\n        'artifact_kind': 'bounded-Day8-L2-coherent-cascade-companion-discriminant',\n        'status': 'success_this_pair_separated_in_one_expanded_geometry',\n        'day_index': 8, 'run_closed': False, 'new_source_or_course_card': False,\n        'new_session_or_goal': False, 'experimental_data_fit': False,\n        'evidence_class': 'Our exact synthetic finite-amplitude/density calculation under existing RB conventions, not a source-authored experimental result.',\n        'source': {'existing_pair': str(INPUT.relative_to(ROOT)), 'existing_pair_sha256': INPUT_SHA,\n                   'source_page': str(SOURCE.relative_to(ROOT)), 'raw_path': str(RAW.relative_to(ROOT)), 'raw_sha256': raw_hash,\n                   'locators': ['RB67 printed p312/PDF7 footnote7: rotation sign',\n                                'printed p316/PDF11 Eq3.24, coherent sums and WE relation after Eq3.25',\n                                'printed p317/PDF12 Eq3.28 and printed p318/PDF13 Eq3.29',\n                                'printed p325/PDF20 SecIII.F.3: random initial state and no other preselected axis',\n                                'printed p326/PDF21 Eqs3.71-3.73: first gamma phase and random-initial correlation',\n                                'printed p335/PDF30: noncylindrical geometry needs density-matrix treatment starting Eq3.24'],\n                   'phase_and_general_geometry_audit': 'Compact Eq3.73 is not applied directly to the main nonuniform aligned initial population with four first multipoles. Full amplitudes and the intermediate density are used.'},\n        'model': {'cascade': '2+ -> 2+ -> 0+', 'first_multipole_order': ['M1', 'E2', 'M3', 'E4'],\n                  'first_magnetic_pi': list(PI), 'known_initial_M_order': list(M), 'known_initial_weights': serial_vector(WEIGHTS),\n                  'second_gate': 'independently pure E2, a2=1, S2=1', 'U': serial_matrix(U),\n                  'rme_order': 'initial bra / final ket: a_L = <Ji||T_L||Jf>/sqrt(2L+1), real RB interaction RMEs',\n                  'first_amplitude': 'A1_q(i,m) = sum_L q^pi_L sqrt(2L+1) a_L CG(2,L,2;m,i-m,i) d^L_(i-m,q)(theta1)',\n                  'second_amplitude': 'A2_q(m) = sqrt5 d^2_(m,q)(theta2)',\n                  'middle_density': 'R_mn = sum_(i,q1) w_i A1_q1(i,m) A1_q1(i,n)^* / (2 S1); Tr R = W1',\n                  'secondary_analyzer': 'F2 = sum_q2 A2_q2 A2_q2^dagger / (2 S2)',\n                  'secondary_analyzer_exact': serial_matrix(F),\n                  'joint_intensity': 'W12 = Tr(R F2) = sum_(i,q1,q2) w_i |sum_m A1_q1(i,m) A2_q2(m)|^2 / (4 S1 S2)',\n                  'coherence': 'Intermediate m is summed coherently within each photon-helicity path, then squared. Initial i and unobserved q1,q2 are summed incoherently.',\n                  'complex_conjugation_boundary': 'The source emission interaction amplitudes are conjugate to physical transition amplitudes; the selected meridian amplitudes are real, so coherent product probabilities agree.',\n                  'rotation': 'SymPy1.14 wigner_d_small(L,-theta), then descending-to-ascending M conversion',\n                  'geometry': 'Both phi=0 relative to a fixed initial alignment z axis; first photon and second photon polarizations unobserved.',\n                  'positivity': 'R and F2 are weighted Gram matrices; W12 is a sum of nonnegative squared coherent amplitudes.',\n                  'normalization': 'W1 and W12 are dimensionless synthetic intensities with full angular averages as specified below.'},\n        'bounded_protocol': {'baseline': 'theta1=0, theta2=pi/4',\n                             'one_causal_expansion': 'theta1=pi/3, retain theta2=pi/4; no further angles or success search',\n                             'reason': 'At theta1=0 the entire intermediate density is identical. Move gamma1 away from the initial alignment axis to permit conditional spin coherences in its frame.',\n                             'termination': 'An exact pair-specific nonzero discriminant was found and random/dephasing/phase controls completed; no inverse classification or real DCO threshold is attempted.'},\n        'baseline': baseline, 'expanded_once': expanded, 'causal_controls': controls,\n        'spin_tensor_mechanism': tensors, 'RB_cascade_phase_control': phase_control,\n        'normalization': {'first_full_angular_polynomials_in_cos_theta': angular_normalization,\n                          'first_FULL_solid_angle_average': '1 for each tested branch',\n                          'secondary_FULL_solid_angle_analyzer_average': serial_matrix(F_average),\n                          'independent_analyzer_identity': 'F2(k) = (5/6) J_k^2 (4I-J_k^2), units hbar=1',\n                          'full_azimuth_included': True,\n                          'sphere_moments_used': '<nx^a ny^b nz^c>=0 if any exponent is odd, else (a-1)!!(b-1)!!(c-1)!!/(a+b+c+1)!!',\n                          'integrate_secondary_FULL_solid_angle': 'Average_Omega2 W12 = W1 for arbitrary fixed first direction',\n                          'double_FULL_angular_average': '1',\n                          'meridian_boundary': 'No normalization claim is made for a theta-only meridian double integral. The full secondary azimuth is essential.'},\n        'active_relation_and_passive_gauge': {\n            'exact_relation': 'A_q(Ua,theta1) = -A_q(a,theta1) Z(theta1); R_b = Z R_a Z^T',\n            'Z': 'Z(theta1)=D^J2(theta1) diag((-1)^M) D^J2(theta1)^T: a pi spin rotation about the gamma1 direction',\n            'hypothesis_comparison': 'The nuclear basis and secondary E2 analyzer F2 are held fixed. The two amplitude hypotheses can give different conditional intermediate densities and different Tr(R F2). This is an active state relation between hypotheses; no physical rotation pulse is asserted.',\n            'passive_basis_change': 'Rotating both R and F2 by the same orthogonal Z leaves Tr(R F2) invariant, as checked exactly. A passive change of nuclear basis therefore cannot produce discrimination.'},\n        'conclusion': {\n            'baseline': 'For BOTH tested pairs R_a=R_b exactly, so every fixed secondary analyzer is blind at theta1=0. Linear first-photon xprime/yprime tags remain blind in this baseline.',\n            'expanded_pure_boundary': 'W1=129/128, W12_a=(235+25sqrt3)/256, W12_b=(280+25sqrt3)/256; Delta W12=45/256 and Delta conditional W2=15/86.',\n            'expanded_full_support': 'The supplied full-support pair also has an exact nonzero W12 difference at the single expanded geometry; the radical-basis certificate is stored above.',\n            'mechanism': 'Nonuniform initial alignment permits offdiagonal middle-spin coherences in the gamma1 frame. U flips their odd magnetic-projection components. The fixed second E2 analyzer probes them; ideal gamma1-axis dephasing or a random initial state removes the difference.',\n            'inverse_boundary': 'This separates this pair under the specified conditional model. It does not prove global uniqueness among all amplitudes, populations, spins, parities or cascade candidates.'},\n        'assumptions_and_experimental_boundary': {\n            'required': ['known stated initial population and alignment axis', 'independently pure E2 second transition',\n                         'isolated coherent cascade with identified photon ordering', 'no intervening spin deorientation in the main model',\n                         'real interaction amplitudes in the common RB convention', 'ideal point detector geometry and unobserved photon polarization'],\n            'experimental_inputs_absent': ['photon energies', 'branching ratios', 'counts', 'detector response or acceptance',\n                                          'background and feeding estimates', 'covariance', 'intermediate lifetime and coincidence time window',\n                                          'spin-deorientation model or data'],\n            'before_experimental_discrimination': ['fold detector response and acceptance', 'control backgrounds and feeding',\n                                                  'establish gate multipolarity and ordering', 'evaluate lifetime/time-window-dependent deorientation',\n                                                  'compare candidate likelihoods with actual counts and covariance'],\n            'DCO_boundary': 'All reported intensities and ratios are synthetic normalized quantities, not measured DCO values. No detector-specific DCO cutoff or significance is invented.',\n            'not_proved': ['global inverse uniqueness', 'a nucleus realizing these amplitude fractions', 'statistical separability at finite counts',\n                           'complete photon-state equality or discrimination', 'extension to other spins or complex amplitudes']},\n        'checks': {'exact': checks, 'passed': sum(checks.values()), 'failures': 0, 'elapsed_seconds': time.monotonic() - started},\n        'changed_paths': [str(Path(__file__).relative_to(ROOT)), str(OUTPUT.relative_to(ROOT))],\n        'reproducibility': {'script_path': str(Path(__file__).relative_to(ROOT)),\n                            'script_sha256': hashlib.sha256(code_bytes).hexdigest(), 'source_code': code_bytes.decode('utf-8'),\n                            'python': platform.python_version(), 'sympy': sp.__version__, 'dependencies': str(DEPS.relative_to(ROOT)),\n                            'check_command': 'python3 tmp/day8-20261007/rose-brink/cascade-companion/cascade_companion.py',\n                            'write_command': 'python3 tmp/day8-20261007/rose-brink/cascade-companion/cascade_companion.py --write-receipt',\n                            'write_policy': 'Default checks only; --write-receipt exclusively creates this one owned JSON after all checks. Prior pair, raw, canonical knowledge, report, handoff, run/state, PLAN and Git are untouched.'},\n    }\n\n\ndef main():\n    parser = argparse.ArgumentParser(description=__doc__)\n    parser.add_argument('--write-receipt', action='store_true')\n    args = parser.parse_args()\n    result = main_result()\n    if args.write_receipt:\n        with OUTPUT.open('x', encoding='utf-8', newline='\\n') as stream:\n            json.dump(result, stream, ensure_ascii=False, indent=2)\n            stream.write('\\n')\n    print(json.dumps({'artifact': str(OUTPUT.relative_to(ROOT)) if args.write_receipt else None,\n                      'status': result['status'], 'exact_checks_passed': result['checks']['passed'],\n                      'elapsed_seconds': result['checks']['elapsed_seconds'],\n                      'expanded_pure_boundary': result['expanded_once']['pure_boundary']['numeric_display_only'],\n                      'expanded_full_support': result['expanded_once']['full_support']['numeric_display_only'],\n                      'phase_control': {key: result['RB_cascade_phase_control'][key]\n                                        for key in ('W12_full_amplitudes', 'W12_RB3_73_correct_sign', 'W12_incorrect_plus_sign')},\n                      'run_closed': False}, ensure_ascii=False, indent=2))\n\n\nif __name__ == '__main__':\n    main()\n",
+    "python": "3.12.3",
+    "sympy": "1.14.0",
+    "dependencies": "tmp/day8-20261007/rose-brink/python-deps",
+    "check_command": "python3 tmp/day8-20261007/rose-brink/cascade-companion/cascade_companion.py",
+    "write_command": "python3 tmp/day8-20261007/rose-brink/cascade-companion/cascade_companion.py --write-receipt",
+    "write_policy": "Default checks only; --write-receipt exclusively creates this one owned JSON after all checks. Prior pair, raw, canonical knowledge, report, handoff, run/state, PLAN and Git are untouched."
+  }
+}

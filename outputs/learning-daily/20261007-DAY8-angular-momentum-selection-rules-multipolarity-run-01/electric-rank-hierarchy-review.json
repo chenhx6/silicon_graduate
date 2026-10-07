@@ -1,0 +1,367 @@
+{
+  "schema_version": 1,
+  "audit_id": "DAY8-electric-E4-E2-hierarchy-independent-review",
+  "created_at": "2026-10-08T00:28:09.546299+08:00",
+  "status": "independent-source-and-mathematical-review-complete-grounded-no-op",
+  "research_level": "L2",
+  "day_index": 8,
+  "session_id": "01a111fb-370d-7ed1-afe9-881ccc47caf4",
+  "review_actor": "Codex child day8_runtime_audit",
+  "review_kind": "source-grounded mathematics and conditional bound self-audit",
+  "human_review": false,
+  "paper_admission": false,
+  "scope": {
+    "reviewed_receipt": "outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/electric-rank-hierarchy.json",
+    "reviewed_receipt_sha256": "efb7ccca5fd3a0d8d9a05e1283a152a862cc8773ef016791ce0de9234281d134",
+    "receipt_matches_arithmetic_epoch": true,
+    "primary_sections": [
+      "exact_hierarchy",
+      "optional_conditional_operator_norm_bound"
+    ],
+    "producer_path": "tmp/day8-20261007/lange-kumar/electric-rank-hierarchy/electric_rank_hierarchy.py",
+    "producer_sha256": "9118b48f0e31db91a28e9e39c06da991b3e4fbcf27c7372da97eee35b5762e50",
+    "producer_matches_embedded_epoch": true,
+    "current_canonical_premises": [
+      {
+        "path": "knowledge/sources/lange-kumar-hamilton-1982-multipole-admixtures.md",
+        "sha256_at_review_close": "31eb6deb23ea9452f653135870ff0cfc2cd5137349d66b583c1e3550c96bd57d",
+        "premises_read": [
+          {
+            "line": 54,
+            "text": "末态在左、初态在右，算符和约化矩阵元采用 Bohr–Mottelson 约定，E2 算符没有加入 Coulomb-excitation 分析中常见的 `i^λ` 因子。Eq.2.6 写成常用单位为 `δKS=0.835 Eγ(MeV) × RME(E2)[eb]/RME(M1)[μN]`。原文 “positive root” 表示 Eq.2.5 的比例系数取正，矩阵元之比仍有正负；它不要求所有 δ 非负，也不等于裸矩阵元或裸 B 值之比。定位：printed p.121 / PDF p.3, Eqs.2.1–2.6。"
+          },
+          {
+            "line": 56,
+            "text": "同页 Eq.2.2 给出 `Tγ(XL)=8π(L+1)/{L[(2L+1)!!]²ℏ} qγ^(2L+1)B(XL)`，Eq.2.3a 给出 `B=|⟨J2||M(XL)||J1⟩|²/(2J1+1)`。该电磁约定与 Eq.2.3c 中 `eℏ/(2Mc)` 的磁算符一致；不能直接混入 SI charge/moment。[[high-spin-lifetime-strength-deformation]] 保存从这些定义到现代 E2/M1 单位系数、mean/partial lifetime、total/photon branching、IC 和误差的重构。现代绝对寿命系数不是本页直接印出的数值，须与作者 quoted B 分开。"
+          }
+        ],
+        "scope": "existing rate/RME/operator convention premise only; no new hierarchy claim assessed or written"
+      },
+      {
+        "path": "knowledge/sources/rose-brink-1967-phase-defined-angular-distributions.md",
+        "sha256_at_review_close": "46f14e05c8c3063c42f89e9fbc5c3e7c56d736bbc680b2aa06d8f066e2e3f6a4",
+        "premises_read": [
+          {
+            "line": 109,
+            "text": "本文 `J1→J2` 表示跃迁方向，但 Eq.3.39 的 RME 写为 `⟨J1||T_L^π||J2⟩`（初态在左）。它不是去掉 photon-energy 因子后可直接与 BM 核电磁算符之比互换的量。定义：`δ_(L′π′)=[⟨J1||T_(L′)^π′||J2⟩/√(2L′+1)]/[⟨J1||T_(Lbar)^πbar||J2⟩/√(2Lbar+1)]`，`Lbar,πbar` 是本跃迁最低阶成分，其 δ 为 1。本文 multipole label `π=0/1` 表示 E/M，不能与核态的正负宇称混为一符号。定位：printed p.319 / PDF p.14, Eq.3.39。"
+          },
+          {
+            "line": 111,
+            "text": "`T_L^π` 直接定义在 Eq.3.20（printed p.315 / PDF p.10），其相位构造沿 Eqs.3.16–3.23；Eq.3.17 给出 Q/Q′/M/M′ 算符。Eq.3.23、Eq.2.23 和 Eq.3.32 note(v) 陈述 time-reversal 与实矩阵元条件，Eq.3.39 footnote17 讨论 ratio 的实数性和 Lloyd 定理；Eq.3.24 本身是发射振幅的多极展开。共同核态的任意整体相位在比值中抵消，算符与 RME 定义仍须匹配。发射/吸收比较还要回到电算符和状态顺序的映射，不能用一个脱离几何系数的符号替换。[[lange-kumar-hamilton-1982-multipole-admixtures]] printed p.122 / PDF p.4 给出在固定 KS 定义下与 RB/BR 发射级联的显式映射。"
+          }
+        ],
+        "scope": "existing rate/RME/operator convention premise only; no new hierarchy claim assessed or written"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "page": "knowledge/sources/lange-kumar-hamilton-1982-multipole-admixtures.md",
+      "raw_path": "raw/papers/gpt/high-spin-20260920/review/1982_Lange et al_E0-E2-M1 multipole admixtures of transitions in even-even nuclei.pdf",
+      "raw_sha256": "ed925a0577a9257903806acd209c1db707529e86a5bfd9a301a83d597bf78ffb",
+      "locators": [
+        "printed121/PDF3 Eq2.2 photon rate",
+        "printed121/PDF3 Eq2.3a B and final-bra RME",
+        "printed121/PDF3 Eq2.3b point-charge electric operator"
+      ],
+      "observed_raw_sha256": "ed925a0577a9257903806acd209c1db707529e86a5bfd9a301a83d597bf78ffb",
+      "raw_identity_matches": true
+    },
+    {
+      "page": "knowledge/sources/rose-brink-1967-phase-defined-angular-distributions.md",
+      "raw_path": "raw/papers/gpt/high-spin-20260920/multipolarity/mixing ratio/1967_Rose et al_Angular Distributions of Gamma Rays in Terms of Phase-Defined Reduced Matrix Elements.pdf",
+      "raw_sha256": "8f846b61b9320de291ee5600126c5e286a0fe05968df819696816f0dc1ec57dc",
+      "locators": [
+        "printed313/PDF8 Eq3.3 and long-wave line below",
+        "printed314/PDF9 Eq3.12 and footnote9",
+        "printed318/PDF13 Eqs3.29,3.30 and footnote12"
+      ],
+      "observed_raw_sha256": "8f846b61b9320de291ee5600126c5e286a0fe05968df819696816f0dc1ec57dc",
+      "raw_identity_matches": true
+    }
+  ],
+  "images": [
+    {
+      "locator": "LKH82 printed121/PDF3 Eqs2.2,2.3a,2.3b",
+      "path": "tmp/day8-20261007/lange-kumar/pdf-page-03.png",
+      "sha256": "ef4fa4b3e9336aac408b3d2f76a28b0b3021983682ae80185561f79908f7e9ad",
+      "observed_sha256": "ef4fa4b3e9336aac408b3d2f76a28b0b3021983682ae80185561f79908f7e9ad",
+      "identity_matches": true,
+      "inspection": "original-image-directly-inspected-in-this-independent-review"
+    },
+    {
+      "locator": "RB67 printed313/PDF8 Eq3.3 and below",
+      "path": "tmp/day8-20261007/rose-brink/p313-pdf8.png",
+      "sha256": "8375f130440250a66e3972eb9f9409f8c673cca8e346dc2fb8f08590c230f545",
+      "observed_sha256": "8375f130440250a66e3972eb9f9409f8c673cca8e346dc2fb8f08590c230f545",
+      "identity_matches": true,
+      "inspection": "original-image-directly-inspected-in-this-independent-review"
+    },
+    {
+      "locator": "RB67 printed314/PDF9 Eq3.12 and footnote9",
+      "path": "tmp/day8-20261007/rose-brink/p314-pdf9.png",
+      "sha256": "25b5175e380be36598a75ef42680f1d033ee7567e6e7cc98bbc086f2cc076e16",
+      "observed_sha256": "25b5175e380be36598a75ef42680f1d033ee7567e6e7cc98bbc086f2cc076e16",
+      "identity_matches": true,
+      "inspection": "original-image-directly-inspected-in-this-independent-review"
+    },
+    {
+      "locator": "RB67 printed318/PDF13 Eqs3.29,3.30 and footnote12",
+      "path": "tmp/day8-20261007/rose-brink/p318-pdf13.png",
+      "sha256": "49c59a6adcbf462409716870a8aa4c192ec22a0079eee97e5deaf03ef772cb10",
+      "observed_sha256": "49c59a6adcbf462409716870a8aa4c192ec22a0079eee97e5deaf03ef772cb10",
+      "identity_matches": true,
+      "inspection": "original-image-directly-inspected-in-this-independent-review"
+    }
+  ],
+  "immutable_inputs": [
+    {
+      "path": "outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/cascade-global-branch.json",
+      "expected_sha256": "c42abfdaaba9ce60cfe038ae1a6141756be77f8760101e7c4f447973e393e06f",
+      "observed_sha256_at_arithmetic_audit": "c42abfdaaba9ce60cfe038ae1a6141756be77f8760101e7c4f447973e393e06f",
+      "observed_sha256_at_review_close": "c42abfdaaba9ce60cfe038ae1a6141756be77f8760101e7c4f447973e393e06f",
+      "unchanged": true
+    },
+    {
+      "path": "outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/cascade-ratio-design.json",
+      "expected_sha256": "637648362cff4da1938f79eefa0eeef39c796ba3656b7e8e5f28ae706d1155e3",
+      "observed_sha256_at_arithmetic_audit": "637648362cff4da1938f79eefa0eeef39c796ba3656b7e8e5f28ae706d1155e3",
+      "observed_sha256_at_review_close": "637648362cff4da1938f79eefa0eeef39c796ba3656b7e8e5f28ae706d1155e3",
+      "unchanged": true
+    },
+    {
+      "path": "outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/lkh82-model-truncation-audit.json",
+      "expected_sha256": "f3de1131a57ef392f16de3815b97c38df14ade5e8015402b2c6bc127ab2663e7",
+      "observed_sha256_at_arithmetic_audit": "f3de1131a57ef392f16de3815b97c38df14ade5e8015402b2c6bc127ab2663e7",
+      "observed_sha256_at_review_close": "f3de1131a57ef392f16de3815b97c38df14ade5e8015402b2c6bc127ab2663e7",
+      "unchanged": true
+    },
+    {
+      "path": "outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/lkh82-model-claim-review.json",
+      "expected_sha256": "7b8259b2cb0b7932662a5ff73abfb7d5484cafa9fc8951a799e97ea3ea9260ba",
+      "observed_sha256_at_arithmetic_audit": "7b8259b2cb0b7932662a5ff73abfb7d5484cafa9fc8951a799e97ea3ea9260ba",
+      "observed_sha256_at_review_close": "7b8259b2cb0b7932662a5ff73abfb7d5484cafa9fc8951a799e97ea3ea9260ba",
+      "unchanged": true
+    }
+  ],
+  "independent_method": {
+    "producer_executed": false,
+    "SymPy_or_mpmath_executed": false,
+    "software_tests_run": false,
+    "calculation": "Standard-library Fraction/double-factorial/Racah-factorial/dyadic arithmetic plus source-grounded Hilbert norm/projection proof",
+    "arithmetic_facts": 17,
+    "all_arithmetic_facts_supported": true,
+    "fixed_Mi_spin_sums": 10,
+    "all_fixed_Mi_spin_sums_equal_inverse2Ji_plus1": true,
+    "complex_RME_identity_audited": true,
+    "conditional_support_bound_proof": "README Section3: pointwise vector norm, normalized-state integral, orthogonal projection, source fixedMi B identity"
+  },
+  "summary": {
+    "review_items": 12,
+    "grounded_no_op_items": 12,
+    "material_scientific_or_mathematical_findings": 0,
+    "required_changes": 0,
+    "hard_P0": 0,
+    "new_sources_or_course_cards": 0,
+    "new_nucleus_or_physical_fit": false,
+    "operator_norm_bound_is_new_task_derivation": true,
+    "not_a_source_authored_bound": true
+  },
+  "checks": [
+    {
+      "id": "ERH-R1",
+      "topic": "same-transition C4/C2 coefficient",
+      "assessment": "grounded-no-op",
+      "locators": [
+        "LKH82 printed121/PDF3 Eq2.2",
+        "producer lines55–57,107–114",
+        "receipt exact_hierarchy"
+      ],
+      "grounding_and_retained_boundary": "C2=4pi/75, C4=2pi/178605 and C4/C2=5/23814 follow from15/945 double factorials. q, hbar and the electric-type conventions are common; numerator ranks2/4 alone change the coefficient.",
+      "required_change": false
+    },
+    {
+      "id": "ERH-R2",
+      "topic": "units and shared spin normalization",
+      "assessment": "grounded-no-op",
+      "locators": [
+        "LKH82 printed121/PDF3 Eq2.3a/b",
+        "producer lines115–126",
+        "receipt definitions_and_units"
+      ],
+      "grounding_and_retained_boundary": "M2 and M4 have charge*length2 and charge*length4; B4/B2 has length4 and q4 cancels it. Same Ji factor1/(2Ji+1) cancels. Gaussian dimensions give an inverse-time rate and are not an SI substitution.",
+      "required_change": false
+    },
+    {
+      "id": "ERH-R3",
+      "topic": "complex chi and unmeasured phase",
+      "assessment": "grounded-no-op",
+      "locators": [
+        "LKH82 printed121/PDF3 Eq2.3a",
+        "receipt definitions_and_units.chi/exact_hierarchy"
+      ],
+      "grounding_and_retained_boundary": "With R>0 real and M2!=0, chi=M4/(R2*M2) holds for complex RMEs. The rate ratio fixes |chi| only. An independent exact complex-rational example has different phases with identical rate.",
+      "required_change": false
+    },
+    {
+      "id": "ERH-R4",
+      "topic": "zero chart and reference dependence",
+      "assessment": "grounded-no-op",
+      "locators": [
+        "receipt failure_boundaries.E2_zero",
+        "receipt definitions_and_units.reference_rescaling",
+        "producer lines217–220,255"
+      ],
+      "grounding_and_retained_boundary": "M2=0 is not in the finite chi/ratio chart; both zero gives0/0. Scaling R changes chi but preserves(qR)4|chi|2, so a natural-size prior requires a justified fixed radius/operator model.",
+      "required_change": false
+    },
+    {
+      "id": "ERH-R5",
+      "topic": "component-vector support bound",
+      "assessment": "grounded-no-op",
+      "locators": [
+        "LKH82 printed121/PDF3 Eq2.3b",
+        "RB67 printed313/PDF8 Eq3.4 harmonic conventions",
+        "producer lines241–249",
+        "receipt optional_conditional_operator_norm_bound"
+      ],
+      "grounding_and_retained_boundary": "At each supported configuration, the component vector has norm bounded by sum|ek|rk^L*sqrt((2L+1)/(4pi)). Addition identity appears once; the triangle inequality handles signs/complex components. Strict support and finite charge sector are explicit added assumptions.",
+      "required_change": false
+    },
+    {
+      "id": "ERH-R6",
+      "topic": "normalized state, projection and fixed Mi",
+      "assessment": "grounded-no-op",
+      "locators": [
+        "LKH82 printed121/PDF3 Eq2.3a",
+        "producer line248",
+        "independent README Section3"
+      ],
+      "grounding_and_retained_boundary": "Integrating component norm squared against normalized initial state and projecting onto the orthonormal final multiplet gives Bupper=Qabs2R2L(2L+1)/(4pi). No additional2Ji+1 factor is required. Independent Ji=Jf2, L2/4, allMi Racah sums give1/5 in10 cases.",
+      "required_change": false
+    },
+    {
+      "id": "ERH-R7",
+      "topic": "absolute E4 upper bound and independent E2 floor",
+      "assessment": "grounded-no-op",
+      "locators": [
+        "producer lines174–178,250–252",
+        "receipt optional_conditional_operator_norm_bound.required_independent_lower_bound"
+      ],
+      "grounding_and_retained_boundary": "B4upper=9Qabs2R8/(4pi); dividing byR4B2min yields|chi|2<=9Qabs2R4/(4piB2min). Beta2min is dimensionless. The absolute upper bound alone supplies no finite uniform ratio bound; B2 floor must concern this transition and consistent operator approximation.",
+      "required_change": false
+    },
+    {
+      "id": "ERH-R8",
+      "topic": "typical radius versus compact support/operator domain",
+      "assessment": "grounded-no-op",
+      "locators": [
+        "producer lines243–247,253–254",
+        "receipt definitions_and_units.R/optional_conditional_operator_norm_bound.support_boundary"
+      ],
+      "grounding_and_retained_boundary": "The proof bounds the multiplication operator on the assumed supported states, not unbounded coordinate space. Typical/rms radius does not imply r<=R; tails or high-order moment estimates and effective/current terms need separate control.",
+      "required_change": false
+    },
+    {
+      "id": "ERH-R9",
+      "topic": "RB normalized interaction amplitudes versus bare charge RMEs",
+      "assessment": "grounded-no-op",
+      "locators": [
+        "RB67 printed313/PDF8 Eq3.4",
+        "RB67 printed318/PDF13 Eqs3.29/3.30 and footnote14",
+        "receipt source_formulas.RB67_Eq3_29_use/RB67_Eq3_30_use"
+      ],
+      "grounding_and_retained_boundary": "For one photon energy, partial RB rates share the prefactor and are proportional to|aL|2, so r42=|aE4/aE2|2. RB energy-dependent TL and modified CLM normalization cannot be replaced by LKH bare charge M; the different double-factorial/spin expressions must not be mixed.",
+      "required_change": false
+    },
+    {
+      "id": "ERH-R10",
+      "topic": "same long-wave and current/retardation description",
+      "assessment": "grounded-no-op",
+      "locators": [
+        "RB67 printed313/PDF8 line belowEq3.3",
+        "RB67 printed314/PDF9 Eq3.12 and footnote9",
+        "RB67 printed318/PDF13 footnote12",
+        "receipt exact_hierarchy.approximation_status"
+      ],
+      "grounding_and_retained_boundary": "Exact coefficient algebra is inside the adopted long-wave point-charge description. Continuity/interaction consistency and usually small but nonzero energy-dependent Qprime terms are explicit source boundaries. Hindered leading E2 can have large relative corrections; real rate-to-bare-chi interpretation needs consistent control for both ranks.",
+      "required_change": false
+    },
+    {
+      "id": "ERH-R11",
+      "topic": "certified-box propagation and synthetic qR priors",
+      "assessment": "grounded-no-op",
+      "locators": [
+        "producer lines133–172",
+        "receipt ideal_pair_requirements",
+        "independent arithmetic-evidence.json"
+      ],
+      "grounding_and_retained_boundary": "Exact Fraction/dyadic propagation supports the original1/4 rate ratio, alternative box rate ratio and prefactor. qR1/100 and1/10 controls are teaching inputs; conditionalchi<=1 prior would exclude them at those qR values but that prior has not been supplied by experiment/model.",
+      "required_change": false
+    },
+    {
+      "id": "ERH-R12",
+      "topic": "no automatic real-nucleus or angular-truncation conclusion",
+      "assessment": "grounded-no-op",
+      "locators": [
+        "receipt ideal_pair_requirements.interpretation/failure_boundaries",
+        "producer lines240,255–262"
+      ],
+      "grounding_and_retained_boundary": "Large required chi alone does not prove real-nucleus impossibility or make the model roots physical. A bound on E4/E2 partial photon rates alone is not a uniform angular/polarization error or all-rank truncation bound. Current text preserves these limits.",
+      "required_change": false
+    }
+  ],
+  "findings": [],
+  "supported_relations": {
+    "coefficient": "C4/C2=5/23814",
+    "hierarchy": "r42=(5/23814)(qR)^4|chi|^2",
+    "chi_definition": "M4=R^2chiM2 for complex RMEs; R>0 real andM2!=0",
+    "bound": "B(EL)<=Qabs^2R^(2L)(2L+1)/(4pi)",
+    "fixedMi_normalization": "No extra spin average aftersum(mu,Mf); bareRMEupper=(2Ji+1)Bupper",
+    "chi_floor_bound": "If same-operatorB2>=B2min>0,|chi|^2<=9Qabs^2R^4/(4piB2min)"
+  },
+  "required_reuse_boundaries": [
+    "Same Ji/Jf, photon energy, electric type and consistent bare charge-operator/RME convention; do not substitute RB interaction amplitudes into bare M ratio.",
+    "Phase of complex chi is not obtained from partial rate ratios; finite chi requires nonzero E2 RME and a specified positive real reference length.",
+    "Support proof requires normalized good-spin initial state, an orthonormal final multiplet, finite charge sector, same origin, strict rk<=R and standardY normalization.",
+    "Typical/rms nuclear radius is not a hard support bound. Tails/high-order moments, effective charges and exchange/current terms require independent control.",
+    "An absolute E4 upper bound alone does not bound chi. This support-bound route needs a positive lower bound on E2 for the same transition/operator approximation.",
+    "Exact coefficient/chi algebra is within adopted long-wave electric charge description; finiteq, continuity/current and energy-dependentQprime corrections require consistent control for both E2 andE4, especially under hindrance.",
+    "Synthetic qR controls do not supply a real photon energy/radius or universal natural-size prior; large chi alone does not exclude a real nucleus.",
+    "One E4/E2 photon-rate bound does not prove angular/polarization error, all-rank negligible, magnetic hierarchy, total width, ICC/lifetime or microscopic realization.",
+    "This is scientific self-audit, not Human review, an experiment, source-authored operator bound or paper admission."
+  ],
+  "artifacts": [
+    {
+      "path": "tmp/day8-20261007/lange-kumar/electric-rank-hierarchy/independent-review/README.md",
+      "sha256": "078453bbd1232a5693e9afe36b3c9fd93f57f1d3315042eb901af7d4c69fb2a0",
+      "bytes": 8040
+    },
+    {
+      "path": "tmp/day8-20261007/lange-kumar/electric-rank-hierarchy/independent-review/arithmetic-evidence.json",
+      "sha256": "77f291e58d589c49d9ca809f0fd556ff192a185b276b08d3355fea2cc626af8e",
+      "bytes": 6590
+    },
+    {
+      "path": "tmp/day8-20261007/lange-kumar/electric-rank-hierarchy/independent-review/fraction_hierarchy_audit.py",
+      "sha256": "9043cbd7db966c31f349a3fd14af2fb5afbcc5945af074a353c41034022f5045",
+      "bytes": 9406
+    }
+  ],
+  "mutations": {
+    "hierarchy_or_other_receipts_changed": false,
+    "producer_changed": false,
+    "canonical_changed": false,
+    "report_changed": false,
+    "run_or_course_state_changed": false,
+    "raw_or_PLAN_changed": false,
+    "Git_changed": false,
+    "clock_process_changed": false,
+    "subagents_spawned": false,
+    "allowed_writes_only": [
+      "tmp/day8-20261007/lange-kumar/electric-rank-hierarchy/independent-review/",
+      "outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/electric-rank-hierarchy-review.json"
+    ]
+  },
+  "stop_reason": "Assigned finite source/mathematics audit complete; exact relations and conditional operator bound supported with explicit reuse boundaries."
+}

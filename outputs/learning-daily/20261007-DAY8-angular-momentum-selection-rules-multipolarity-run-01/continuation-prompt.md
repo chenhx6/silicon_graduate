@@ -42,3 +42,19 @@ Day8原始baseline继续使用；卡完整但学习窗口未结束。第五持�
 C-global29-check、E0/totalICC/τ47-check与LKH82模型27-check已parent复现并canonical/report/writeback；新增LKH82-8–11限定generator-only零值、same-order展开、PPQ投影与δ尺度/DF零分母；p179的IBM magnitudes/PPQ signs纠错已原图确认。全部七页writeback保留review边界和旧KB08人审记录。course仍8/7，completed=[8]、partial=[9]，不打开Day10。
 
 两个新独立Day8有界路线分别由既有代理执行：cascade-companion-discriminant.json（唯一合成2+→2+→0+，secondary pureE2仅题设，检验joint intensity是否区分U pair）；icc-penetration-boundary.json（仅原Eq4.1、未知penetration下baseline/非负E0排除条件）。两者尚未完成，parent须核代码/原图/证书再写claim。当前无新card/source batch，没有L4数据输入。次日15:00停止研究，按上方runner/state契约生成正式DAY9计划prompt。
+
+## 当前整合与两个续研问题
+
+148-check cascade、56-check局部rank和35-check penetration经parent复现，source/method/observable/report到RB67-17/18、LKH82-12、KB08-D8-4，七页writeback仍一个block。第一γ沿轴与random/dephased对指定U pair盲，离轴有差；同seed五输出localrank5不证明global唯一。FO/NH vacancy和NP/SC penetration不得混同；现代DF/FO不可未经mapping再叠加NP修正。16-check model审计为no-op，旧KB人审记录不扩展。
+
+目前root选择：cascade-global-branch.json（同五idealoutputs、unknown positive population，最多6邻近starts/30min计算；可只numericalcandidate或失败，不声称exact/global分类）；day9-vacancy-sensitivity.json（原五能量NH vs历史FO、有限officialqueries/forward敏感性，仅partial9）。旧148/56 receipts保持immutable input hashes，parent验证只记run/checkpoint。不要因为card或这两个slot局部完成就自动final；先freshclock/完整候选池。次日15:00停研究，15:00–16:00正式Day8发布/state和DAY9计划prompt。
+
+## 最新global/ratio/NH整合
+
+Global27-check parent复现+独立58事实检查支持第二个positive-population理想解；RB67-19明确boxed uniqueness/unknown-population/非realnuclear realization。旧producer status的physical不应外推，旧receipt作为immutable input保留。Ratio28-check在仅预定secondaryθ2=0区分该pair；commonyield仅same selection/timewindow和relativeefficiency/acceptance校准后取消。NH5inputs实际成功、parent离线0新requests；printed0差不证明底层相同、spread不作1σ，KB08原人审记录保留。知识到RB67-19/20、KB08-D8-5/MU08-7及相关页，仍7页一个writeback。下一两个限定route是electric-rank-hierarchy.json、day9-reverse-strength-audit.json；state8/7，15:00才final/正式DAY9准备。
+
+## 跨午夜仍是原Day8
+
+北京时间10-08 00:08 refreshedclock距固定15:00约892分钟，run_date仍10-07/dayindex8，卡完成不结束窗口。46-check hierarchy和190实质/247phase-domain reverse strength均parent复现到LKH82-13/14、MU08-8及synthesis/observable。optional norm/sourcehierarchy独立audit待收；新truncation-observable-bound.json route只现有RB、有限acceptance的probabilitybound与postselection界，不是真实data/L4。State8/7、partial9原样，15:00正式收束/Day9 planprompt尚未做。知识/报告updated日期可10-08，run_date不随午夜重置。
+
+当前第六26-file检查点已在本地提交：main + Extend DAY8 cascade evidence and strength normalization；source/report/card/flag检查通过，pendingtruncation证据另核；exacthash和publication仅runreceipt。

@@ -41,14 +41,15 @@
     "preflight_exit": 0
   },
   "last_closeout_snapshot": {
-    "now_local": "2026-10-07T18:22:53+08:00",
+    "now_local": "2026-10-08T00:13:32.630593+08:00",
+    "clock_tool_checkpoint_utc": "2026-10-07 16:08:24 UTC",
     "hard_deadline": "2026-10-08T15:00:00+08:00",
     "next_scheduled_start": "2026-10-08T16:00:00+08:00",
-    "minutes_to_deadline": 1237,
-    "minutes_to_next_start": 1297,
+    "minutes_to_deadline": 886,
+    "minutes_to_next_start": 946,
     "decision": "continue-or-advance",
-    "permitted_next_card": "Day9 preview only; no credit",
-    "day_index": 8
+    "day_index": 8,
+    "permitted_next_card": "Day9 uncredited only"
   },
   "baseline_file": "/workspace/wiki/outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/baseline.json",
   "inherited_unclaimed_run_descriptors": [
@@ -123,6 +124,75 @@
       "hash_checks": 39,
       "exit": 0,
       "artifact": "lkh82-model-truncation-audit.json"
+    },
+    "cascade_companion_parent": {
+      "checks": 148,
+      "exit": 0,
+      "elapsed_seconds": 6.274881334975362,
+      "artifact": "cascade-companion-discriminant.json"
+    },
+    "cascade_local_rank_parent": {
+      "checks": 56,
+      "exit": 0,
+      "elapsed_seconds": 121.60778880899306,
+      "artifact": "cascade-local-rank.json"
+    },
+    "penetration_parent": {
+      "checks": 35,
+      "exit": 0,
+      "elapsed_seconds": 4.405147139041219,
+      "artifact": "icc-penetration-boundary.json"
+    },
+    "model_claim_review": {
+      "checks": 16,
+      "grounded_no_op": true,
+      "scope": "LKH82-8–11 before normalization caveat; no human review",
+      "artifact": "lkh82-model-claim-review.json"
+    },
+    "cascade_global_parent": {
+      "checks": 27,
+      "exit": 0,
+      "elapsed_seconds": 1.1410297739785165,
+      "interval_certificate": true,
+      "artifact": "cascade-global-branch.json"
+    },
+    "cascade_global_independent": {
+      "fact_checks": 58,
+      "review_items": 12,
+      "mathematical_failures": 0,
+      "scientific_P1": "physical means ideal-domain admissible, isolated inRB67-19",
+      "artifact": "cascade-global-branch-review.json"
+    },
+    "cascade_ratio_parent": {
+      "checks": 28,
+      "exit": 0,
+      "elapsed_seconds": 2.1297646980383433,
+      "artifact": "cascade-ratio-design.json"
+    },
+    "NH_vacancy_parent": {
+      "offline_replay_exit": 0,
+      "new_requests": 0,
+      "NH_inputs": 5,
+      "artifact": "day9-vacancy-sensitivity.json"
+    },
+    "electric_hierarchy_parent": {
+      "checks": 46,
+      "exit": 0,
+      "elapsed_seconds": 10.543488001974765,
+      "artifact": "electric-rank-hierarchy.json"
+    },
+    "reverse_strength_parent": {
+      "substantive_checks": 190,
+      "phase_domain_checks": 247,
+      "exit": 0,
+      "artifact": "day9-reverse-strength-audit.json"
+    },
+    "electric_hierarchy_independent": {
+      "review_items": 12,
+      "fraction_facts": 17,
+      "fixed_Mi_sums": 10,
+      "material_findings": 0,
+      "artifact": "electric-rank-hierarchy-review.json"
     }
   },
   "card_content_status": "complete",
@@ -190,15 +260,33 @@
       "published_at": "2026-10-07T16:46:53.543592+08:00",
       "publication_kind": "continuing-checkpoint",
       "run_finalized": false
+    },
+    {
+      "branch": "main",
+      "commit_subject": "Clarify model zeros and companion observable limits for DAY8",
+      "commit_hash": "831be17444bf7069949db4b035e3be752e869698",
+      "remote": "origin (Gitee)",
+      "refspec": "HEAD:main",
+      "fetch_exit": 0,
+      "remote_ancestor_exit": 0,
+      "dry_run_exit": 0,
+      "push_exit": 0,
+      "post_push_head_matches_remote_main": true,
+      "post_commit_files_match_manifest": true,
+      "published_at": "2026-10-07T19:39:32+08:00",
+      "publication_kind": "continuing-checkpoint",
+      "run_finalized": false,
+      "H3_passed": true,
+      "files": 17
     }
   ],
   "continuation_prompt_file": "/workspace/wiki/outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/continuation-prompt.md",
   "pending_research": [
-    "Day8 one synthetic cascade companion discriminant, existing RB67 only",
-    "Day8 LKH82 penetration dependence and ICC/E0 exclusion boundary",
-    "2026-10-08 15:00 closeout, formal DAY9 plan/prompt and normal gated state update"
+    "Day8 rate-truncation omittedfraction versus finite-acceptance observable error; current RB formalism only",
+    "Independent source/current/hard-support audit of electric rank hierarchy",
+    "2026-10-08 15:00 finalcloseout; originalbaseline runner/state and formalDAY9 plan/prompt"
   ],
-  "pending_clock_delivery_count": 6,
+  "pending_clock_delivery_count": 9,
   "observed_clock_executions": [
     {
       "timestamp": "2026-10-07T07:18:39.583689+08:00",
@@ -312,5 +400,10 @@
     ],
     "raw_unchanged": true,
     "classification": "L2; our commutator/representation/scale proofs separated from author model results"
+  },
+  "latest_publication_pointer": {
+    "branch": "main",
+    "subject": "Clarify model zeros and companion observable limits for DAY8",
+    "H3_passed": true
   }
 }

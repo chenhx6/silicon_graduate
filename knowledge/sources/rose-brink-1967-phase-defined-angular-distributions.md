@@ -3,7 +3,7 @@ type: source
 title: "Rose and Brink 1967 - Angular distributions in phase-defined reduced matrix elements"
 aliases: [Rose-Brink 1967 angular distributions]
 created: 2026-09-21
-updated: 2026-10-07
+updated: 2026-10-08
 status: ai-draft
 review_status: unreviewed
 source_type: theory-method-review
@@ -74,6 +74,10 @@ tags: [Rose-Brink, angular-distribution, phase-convention, mixing-ratio, alignme
 | RB67-14 | 在固定RB约定、完整M1/E2/M3/E4模型内，正交involution U保持S及四个方向/偏振二次型；给定严格正、非等权且已知布居，两个四成分全非零、分别局部rank3的向量仍有相同pointwise强度而不同γ份额。此为73-check精确全局pair与未观测final-channel unitary解释，不是作者实验结果或所有global branches的分类。 | our-inference | indirect | premises: printed p316 / PDF11 Eq3.24 and WE ordering; p317 / PDF12 Eq3.28; p318 / PDF13 Eq3.29; p319 / PDF14 Eqs3.35–3.39; construction in Four-Multipole Direction and Polarization Reconstruction | true |
 | RB67-15 | 合成3+→1+的完整E2/M3/E4、aligned population模型有六个normalized W/Δ系数；一个严格内域的6×5 Jacobian为rank5并给局部逆解。PureE2恒A6=C6=0，但isotropy或higher-response干涉可使K6消失。该41-check重构不证明全局唯一或实际spin/multipolarity赋值。 | our-inference | indirect | premises printed316/PDF11 Eq3.24; printed317/PDF12 Eq3.28; printed318/PDF13 Eq3.32 note(iii); printed319/PDF14 Eq3.36; synthetic reconstruction and exact minor in Supplement | true |
 | RB67-16 | 原合成3+→1+的六个方向/偏振二次型在一个正交link reflection下不变；两个三成分非零、五输入局部rank5的点仍有相同六coefficients而不同γ份额。pureE2的higher-mixture映像在B6非零时仍A6=C6=0。此29-check证书只给一组global ambiguity，不作实验/全局分类。 | our-inference | indirect | premises printed316/PDF11 Eq3.24/WE; printed317/PDF12 Eq3.28; printed319/PDF14 Eq3.36; synthetic link reflection in Case C Supplement | true |
+| RB67-17 | 合成2+→2+→0+、固定非等权初始布居与独立pureE2末支中，RB67-14两对U解在θ1=0有相同整个中间态强度矩阵，任何固定次级分析器均盲；唯一离轴θ1=π/3、θ2=π/4可条件性区分。随机初态或理想退相干令该对差异归零；不证明全局唯一或真实DCO阈值。 | our-inference | indirect | premises printed316/PDF11 Eq3.24; pp.325–326/PDF20–21 Eqs3.65–3.73与random-source条件; p.335/PDF30非轴对称density说明；148-check Cascade Companion Supplement | true |
+| RB67-18 | 原四多极/未知布居内域seed加入同一角点的normalized W12后，五变量Jacobian rank4→5；已知布居rank3→3。等布居控制未知p的rank2→3、固定p的amplitude rank0→1，均不形成完整反演。conditional W12/W1是等价替代行，不是第二份信息；局部逆不证明全局唯一。 | our-inference | indirect | premises printed316/PDF11 Eq3.24; p.317/PDF12 Eq3.28; pp.318–319/PDF13–14 Eqs3.29/3.36/3.39; p.335/PDF30 density extension; RB67-13/17与56-check Local Rank Supplement | true |
+| RB67-19 | 同一五normalized outputs在unknown-positive-population模型中仍非单射：原exactseed外另有区间收缩认证的解，布居与γ份额不同、两解各自local rank5。区间内唯一不等于所有解唯一；参数域admissible不证明真实核可实现或同等物理先验。 | our-inference | indirect | premises RB67-13/17/18；printed316/PDF11 Eq3.24、p317/PDF12 Eq3.28、pp318–319/PDF13–14 Eqs3.29/3.36/3.39；27-check Global Branch与58-check独立Fraction/isqrt审计 | true |
+| RB67-20 | 同一global pair加预定次级θ2=0、保留θ1=π/3，可使新/旧W12比值有严格非零区间差；共同yield仅在一致选样和独立relative efficiency/acceptance标定时抵消。仅pair-specific理论设计，不证全局唯一、核素实现或统计可分辨性。 | our-inference | indirect | premises RB67-17–19；printed316/PDF11 Eq3.24、p335/PDF30 density extension；28-check Ratio Design、已认证global box | true |
 
 ## Summary
 
@@ -260,6 +264,98 @@ u=1/2时two real nonzero E4 roots为 `v=16√10−7√35/2±2√(750−140√14)
 更简的pureE2 a=(1,0,0)映为(5/21,2√14/21,2√10/7)，alternative fractions=(25/441,8/63,40/49)。在same nonisotropic population、B6=−5√33/132≠0下，所有六coefficients同pureE2，A6=C6同时为0；两点special-map rank均4。因此即使两种K6都未出现，也不能单凭此删掉完整higher-candidate模型。主pair保留三成分全非零、两个regular rank5点，global多解结论没有仅靠这个special example。
 
 29项由主代理复现（约5.8s）。这里给一个projected-link reflection certificate，保留局部inverse的分支条件，没有分类全部global branches或外推其它spin、cascade、cross-direction coherence、complete photon quantum state。原文premises与前段相同：p316 Eq3.24/WE、p317 Eq3.28和p319 radiation coefficients；反射/matrix/pair是本任务推导，非作者实验。
+
+## Cascade Companion Supplement
+
+本节仅扩展原合成 B 为 `2+→2+→0+`。第一支为全部 M1/E2/M3/E4 自由实 RB 振幅、固定 RB67-14 U pair；末支 pure E2 是独立题设，不从待判第一支反推。初态 M=−2,−1,0,1,2 的权重为 `(1/4,1/8,1/4,1/8,1/4)`。θ1/θ2 都相对初始 alignment z 轴，φ1=φ2=0；无实际能量、核素、计数或响应。
+
+用 p.316 Eq.3.24 逐步求振幅，再构造未归一化中间态强度矩阵 R 与次级 E2 分析器 F2。初始 M 和未测 helicity 非相干求和，同一条 photon-helicity path 内的中间 M 必须先相干求和再平方。在所选实数子午面约定下：
+
+\[
+W_{12}=\operatorname{Tr}(RF_2),\qquad
+\operatorname{Tr}R=W_1,\qquad
+\rho_2=R/W_1\quad(W_1>0).
+\]
+
+R 不是 trace=1 的 conditional density；full-solid-angle 平均 F2=I，故平均第二 γ 方向后 W12=W1，双完整立体角平均为1。此归一包括 azimuth，不是 θ-only 子午面积分。一般复数或不同 emission convention 需重新映射，不能从实子午面例无条件推广。
+
+取 pure 边界 `a=(1,0,0,0)` 与 `Ua=(0,√105/35,0,4√70/35)`，以及四成分非零 `a=(1,1/2,1/3,1/4)` 与 Ua。θ1=0 时两支的 R 全矩阵分别相等；pure 边界有 `R=diag(1,5,3,5,1)/16`、W1=15/16、θ2=π/4 的 W12=55/64、conditional W2=11/12。因为整个 R 相等，任意固定次级方向/偏振分析器都不能区分；所核第一 γ 的 x′/y′ tags 也保持盲性。
+
+只作一次有因果依据的展开：θ1=π/3、θ2仍π/4，二 γ 夹角为π/12。下表差值均为 b−a，维数为归一强度，不是 measured DCO。
+
+| 原U pair | W1（两支相同） | ΔW12 | Δ(W12/W1) |
+|---|---|---|---|
+| pure boundary | 129/128 | 45/256 | 15/86 |
+| four nonzero components | ≈0.9678497611 | ≈0.0228827521 | ≈0.0236428762 |
+
+full-support 的非零值由精确 square-free radical 证书确认，数值仅显示。相同单 γ 强度不保证相同 joint intensity。离轴已知 alignment 允许第一 γ 坐标系内的中间态 off-diagonal coherences；U 对应该坐标系的 `Z0=diag((-1)^M)`，在 lab 中是 `Z=D Z0 Dᵀ`，满足 Rb=ZRaZᵀ。固定 F2 可对这些差异敏感。比较两种条件态与固定分析器是 active hypothesis relation，没有施加实际 rotation pulse；同时换基 R 和 F2 的 passive rotation 不改变 Tr(RF2)。
+
+该例的非零 odd-Q 分量在 even K=2,4 的统计张量内，所核 odd K 均为零。Q（磁投影/相干指标）不是 K（张量阶），不能拿 odd Q 宣布 odd-K 或 parity mixing。随机初态及在第一 γ 坐标系完全删除 off-diagonals 的理想 dephasing control 都使此 U pair 的 R/强度差异为零；这个诊断不代表实际 deorientation 模型，也不表示随机初态的级联对所有其它振幅均无信息。
+
+p.325 的 source-case 是 random initial、没有其它预选轴；p.326 Eq.3.73 还采用两成分写法。因此 main aligned four-component calculation 不直接套 Eq.3.73。另作 random initial M1/E2、δ1=1/2、末支pureE2的相位控制：full amplitudes 与第一 γ `−2δ1R12` 均给 `571/560+√105/140`，错用加号给 `571/560−√105/140`。Eq.3.73 未显式印 ΣK，恢复该和依据邻近Eqs.3.47/3.71；full amplitudes 内已有相位，不再额外插入负号。p.335 明确非轴对称情况可从 Eq.3.24 与 density formalism 处理。
+
+这148项精确检查经主代理复现，仅区分指定条件下的这一对解。实验使用还需 gate多极与顺序、实际布居/轴、接受度与偏振响应、背景/feeding/covariance，以及中间寿命、time window 和 deorientation。未证明任意候选全局唯一、有限计数可分辨或真实核可实现这些高阶份额；没有新增核素/实验/L4结果。
+
+## Local Rank with One Cascade Coordinate
+
+沿用 RB67-13 的原内域：相对振幅 `(1,x,y,z)=(1,1/2,1/3,1/4)`，p0=p1=1/4、p2=1−p0−p1；w0=p0、w±1=p1/2、w±2=p2/2。变量为 `(x,y,z,p0,p1)`。旧四输出 `(A2,A4,C2,C4)` 的 code 别名为 `(A2,A4,L2,L4)`；这里 L2/L4 是旧 receipt 的偏振系数名，不是 photon rank。没有给 Jπ 或末支 E2 新实验身份。
+
+添加 RB67-17 唯一展开角点的 **normalized joint W12**。先检验旧 rank4 核向量（固定 dp1=1）的方向导数，再算增广行列式：
+
+| 证书 | 数值显示 | 精确核验 |
+|---|---|---|
+| dW12·v_old_kernel | ≈1.9951675838621 | square-free radical 的有理基系数非零 |
+| det J(A2,A4,C2,C4,W12) | ≈−0.00053264750668388 | algebraic-field determinant、旧4×4余子式Laplace展开、old_minor_omit_p1×kernel_derivative 三者相符 |
+
+因此同一 strict-interior seed 的五变量映射 rank5，有光滑**局部**逆；未证明所有实参数的全局解唯一。固定独立已知布居时，三振幅 chart 的 rank3→3；新观测仍可辨别 RB67-17 那个离散 U pair，rank 数并不度量所有全局判别能力。
+
+唯一 isotropic control 保持相同振幅和角点，仅 p0=1/5、p1=2/5、p2=2/5。若 p0/p1 仍是未知坐标，rank2→3；若布居已独立固定为 isotropic，amplitude chart rank0→1。随机初态对 RB67-17 那一对盲，不意味着级联对全部振幅都无信息；一条级联强度组合仍不够反演三个相对振幅或全部五未知量。
+
+W1 可由旧 A2/A4 在 θ1 确定，故
+
+\[
+d(W_{12}/W_1)=dW_{12}/W_1-W_{12}dW_1/W_1^2,
+\qquad \det J_{conditional}=\det J_{joint}/W_1.
+\]
+
+该 seed 的正布居给 W1≥5/8，行变换可逆。conditional W2 可替代 joint W12，不能将两者双计；共享事件、归一和形状 fit 还需 joint covariance。单靠满秩不建立精度或统计独立性。
+
+这一五变量证明固定了归一/接受度和 gate 模型，且丢失共同 amplitude scale。实际 coincidence yield 若另有未知正 normalization，便增加一个未约束 nuisance parameter；一个未标定计数不能自动当作所需 normalized W12。仍需源核 spin/gate、多极截断、匹配布居/轴、效率与背景、feeding、中间寿命/time window/deorientation。56项精确检查经主代理复现；是原合成问题的 L2 识别性推导，没有真实拟合、统计显著性或 L4。
+
+## Global Branch after Adding the Cascade Coordinate
+
+局部满秩没有终结 RB67-18 的五输出逆问题。保持同一 spin/parity、real amplitudes、positive aligned population、pure E2末支和唯一离轴角点，求原exactseed的四形状与 normalized W12。near-U 第一个确定性起点得到另一候选，120/180位重解稳定；随后用 **可复现计算区间证书**认证一个精确解存在。
+
+| 参数/份额 | 原exactseed | 第二解的数值显示 |
+|---|---|---|
+| `(aM1,aE2,aM3,aE4)` 相对chart | `(1,1/2,1/3,1/4)` | `(1,1.64181515,1.20434112,2.39381356)` |
+| `(p0,p1,p2)`，p1/p2分别分给±M | `(1/4,1/4,1/2)` | `(0.26240425,0.23319078,0.50440497)` |
+| γ fractions M1/E2/M3/E4 | `(144,36,16,9)/205` | `(0.09194271,0.24783682,0.13335716,0.52686331)` |
+| 五输出局部rank | 5（exact minor） | 5（certified box的Jacobian非奇异） |
+
+精确方程以 `F_i=N_i−target_i S`、`S=1+x²+y²+z²≥1` 构造，清除正分母与原normalized方程等价。全部系数/target由旧receipt的有理数与平方根恢复；没有将小残差或浮点舍入目标当作存在证明。固定 finite-decimal rational center/C、半径10⁻³⁰盒 X，定向区间算术得 K(X) 严格落在 X 内，`||I−C J_F(X)||∞≤约7.25777×10⁻²⁸<1`。因此 `T=t−CF(t)` 在该盒自映且收缩，盒内有唯一零点；此唯一只限 X，原target是另一个零点。区间内所有布居为正、三相对振幅非零，x和M1 fraction的区间排除原target，故不是同一common-scale/sign表示。
+
+主代理复现27项producer检查；独立代理以 Fraction/isqrt 做58项系数、target、端点、Krawczyk和domain检查，未发现数学失败。该证书依赖所声明的区间实现，是 self-audit 的计算认证，非 proof-assistant形式验证或人工审核。零点处 J_observable=J_F/S，区间非奇异支持第二解local rank5；不靠两解的det数值作结论。
+
+此反例只针对**布居也未知**的五变量模型；第二解布居已改变，不能移用到独立固定布居的切片。两解还有相同W1，conditionalW12/W1也相同，但它仍是派生信息。共同absolute scale丢失；relative chart的S不同不表示实测gamma强度或寿命不同。
+
+“admissible”只表示满足理想参数域/选择定则。共同many-body states/current、long-wave高阶层级、真实核素可实现性、相同物理先验或finite-count/response-folded可分辨性均未证明。未分类全部roots，未新增角点/来源/核素/实验/L4；实际spin/parity/branch判断仍需独立population、响应和companion证据。
+
+## A Calibrated Ratio for the Certified Pair
+
+为 RB67-19 这一对理想解仅加一个预定次级方向 θ2=0，保留 θ1=π/3 与 φ1=φ2=0；旧 θ2=π/4 作为分母。Full-CG 的 pure E2 analyzer 与 `F2=(5/6)Jz²(4I−Jz²)=diag(0,5/2,0,5/2,0)` 独立对照一致。使用原认证box的同一 dyadic endpoints 传播，旧matched角点差区间包含0，新差与ratio差严格小于0：
+
+| 同一模型解 | 新W12（θ2=0） | 新/旧W12 |
+|---|---|---|
+| 原exactseed | ≈0.7598990623 | ≈0.4241926968 |
+| 第二认证分支 | ≈0.6677685782 | ≈0.3727633946 |
+| 第二−第一 | ≈−0.0921304840 | ≈−0.0514293021 |
+
+旧共同分母 D≈1.7914006253 严格为正；区间外推没有把数值匹配残差当作新信号。28项检查经主代理复现，仍只区分这对解，不分类所有branch。
+
+若期望计数为 `μj=c εj Wtilde_j`，c是共同selected-cascade yield/exposure、εj为独立标定的relative coincidence efficiency，Wtilde为已标定normalizedacceptance kernel折叠后的强度，则 `(εb/εa)μa/μb=Wtilde_a/Wtilde_b` 可消c。不同population/branch/ordering、feeding、time window/deorientation或未校正live time会留下ca/cb；calibration不能用待选multipole分支倒推。有限接受度需forward fold，单纯counts/ε并不移除角接受度；表中点探测器比值不能直接当实测DCO。
+
+令A=Na/εa、B=Nb/εb且B>0，一阶传播有 `Var(A/B)≈Var(A)/B²+A²Var(B)/B⁴−2A Cov(A,B)/B³`。shared gate、population fit和calibration误差需joint covariance；不将原计数、derived ratio当作重复独立证据。观测分母0、效率0或c=0需另处理，没有counts/response/covariance便不能给finite-count significance。该L2实验设计保留unknown-current/真实核实现、spin/gate、long-wave及deorientation边界。
 
 ## Human Review Triage
 
