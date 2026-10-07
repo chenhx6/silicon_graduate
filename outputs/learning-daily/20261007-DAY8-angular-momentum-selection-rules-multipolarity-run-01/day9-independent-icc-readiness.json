@@ -1,0 +1,1522 @@
+{
+  "schema_version": 1,
+  "audit_id": "DAY8-uncredited-Day9-independent-ICC-readiness",
+  "created_at": "2026-10-07T15:00:59.740824+08:00",
+  "status": "conditional-input-ready-with-N6-coverage-warnings",
+  "research_level": "L2",
+  "run_day_index": 8,
+  "preview_day_index": 9,
+  "course_credit_changed": false,
+  "experimental_fit_performed": false,
+  "mode_ranking_changed": false,
+  "question": "Independent all-shell ICC inputs for the five parent-supplied MU08 mother-state controls, under pure-M1/E2 extraction hypotheses; no inversion from quoted B.",
+  "source": {
+    "page": "knowledge/sources/kibedi-2008-evaluation-theoretical-conversion-coefficients-bricc.md",
+    "method": "knowledge/methods/internal-conversion-analysis.md",
+    "doi": "10.1016/j.nima.2008.02.051",
+    "raw_file": "raw/papers/2008_Kibédi et al_Evaluation of theoretical conversion coefficients using BrIcc.pdf",
+    "sha256": "5a7b25491864acd4d2fea7a599136657da336a03f902009b423c6c450926cc34",
+    "pages": 28,
+    "original_review_flags_changed": false
+  },
+  "reading_coverage": {
+    "mainline": "Sections1–6, printed202–214/PDF1–13 via full text: motivation,ENSDFinputs,formulas,uncertainties,atomic models,data coverage,interpolation,implementation,summary",
+    "slave_interface": "AppendixA printed215/PDF14 and official v2.3 manual slave API",
+    "key_original_images": [
+      "printed203/PDF2 Eqs1–5",
+      "printed206/PDF5 Table2 and uncertainty footnote",
+      "printed207/PDF6 FO/NH and Eq24",
+      "printed213/PDF12 Sec5.1 interpolation/total sum"
+    ],
+    "appendix_B": "table purpose skimmed; Z60 Nd144 row printed221/PDF20 inspected; not all rows reread",
+    "reference_scope": "bibliographic/program provenance only; no new paper batch"
+  },
+  "input_hypotheses": {
+    "Z": 60,
+    "point_count": 5,
+    "pure_M1": "parent-supplied MU08 extraction assumption, not measured delta=0",
+    "pure_E2": "conditional use of author E2 assignments; higher multipoles not newly ruled out",
+    "energy_uncertainty": "not supplied; calculator field blank, not asserted physically zero",
+    "lifetime_values": {
+      "B1-I18": "0.56",
+      "B2-I15": "1.27"
+    },
+    "lifetime_units": "not inferred here; forward output uses dimensionless tau*T_gamma",
+    "inventory": "conditional complete listed branches/no extra decay channels"
+  },
+  "lookup_statistics": {
+    "distinct_energy_multipolarity_points": 5,
+    "FO_tables_with_reported_totals": 5,
+    "returned_tables_without_coverage_warning": 3,
+    "tables_with_unavailable_N6": 2,
+    "POST_attempts": 6,
+    "initial_All_empty_attempts": 1,
+    "FO_only_control_authorized_by_parent": true,
+    "remaining_distinct_FO_queries": 4,
+    "NH_new_queries": 0,
+    "local_ICC_computations": 0,
+    "local_help_probes": 1
+  },
+  "model_identity": {
+    "provider_url": "https://bricc.anu.edu.au/",
+    "actual_web_backend": "BrIccS v2.3 (9-Dec-2011)",
+    "web_dataset": "BrIccFO",
+    "local_downloaded_binary": "BrIccS v2.3d (13-Sep-2022)",
+    "local_binary_sha256": "b65ab8765abb8212b6f66ba682f01fcfe778c920c16871b9d7ae143b23a666e3",
+    "local_is_web_backend": "not established; versions differ",
+    "remote_binary_and_data_file_hashes": "not published/obtained; archived raw responses provide retrieval reproducibility",
+    "missing_local_files": [
+      "BrIccFOV22.idx",
+      "BrIccFOV22.icc",
+      "BrIccNHV22.idx",
+      "BrIccNHV22.icc"
+    ],
+    "local_probe_environment": "BrIccHome set only for subprocess to this temporary directory; no global environment or PATH modification"
+  },
+  "uncertainty_boundary": {
+    "FO_NH_adopted_theory_plus_interpolation_relative": 0.014,
+    "interpolation_accuracy_source_bound": 0.003,
+    "double_count_interpolation": false,
+    "source_locator": "KB08 printed206/PDF5 Table2 footnote; printed213/PDF12 Sec5.1; ANU docs calculations and interpolation 1.4%",
+    "reported_uncertainties": "NuclearDataSheets trailing-digit errors retained; 1.4% budget rounded by backend",
+    "energy_uncertainty_not_propagated": true,
+    "delta_uncertainty": "pure hypothesis, no mixed-delta fit",
+    "shared_table_covariance": "not supplied; five theory outputs are not five independent experimental observations",
+    "FO_NH_numeric_spread": "not evaluated; initial All comparison returned no coefficients",
+    "additional_not_quantified": [
+      "unavailable N6 tail for two points",
+      "actual charge-state/chemical environment",
+      "nuclear finite-size/radius and penetration effects",
+      "lifetime/branch-fraction errors and covariance"
+    ]
+  },
+  "mass_radius_transfer": {
+    "source_table_default": "KB08 TableB.1 printed221/PDF20 lists60-Nd-144; K binding43.5689keV",
+    "target_context": "MU08 136Nd, Z60",
+    "current_backend_radius_audit": "not directly exposed by response/data files; no 136Nd-specific recomputation",
+    "alpha_rescaling": "none; not inferred from A or quoted B"
+  },
+  "all_shell_boundary": {
+    "definition": "alpha_T_IC=sum occupied-subshell electron conversion rates/T_gamma; alpha_K is distinct",
+    "pair_channel": "all queried energies below1022keV, so no pair contribution in these comparisons",
+    "warning_text": "ICC could not be calculated for EG above 398.000 keV",
+    "affected_points": [
+      "B1-I18-401p2",
+      "B1-I18-757p4"
+    ],
+    "unwarned_points": [
+      "B1-I18-389p6",
+      "B2-I15-199p6",
+      "B2-I15-382p0"
+    ],
+    "missing_row": "N6",
+    "missing_value_filled_with_zero": false,
+    "source_context": "KB08 printed208/PDF7 Sec4.1.4: N6 Z59–75 cutoff about400keV; neglected outer-shell contribution typically less than1e-9, not a rigorous point-specific bound",
+    "forward_usage": "B1 uses program-reported approximate totals with warnings; not strict subshell-complete reconstruction"
+  },
+  "lookups": [
+    {
+      "id": "B1-I18-401p2",
+      "Z": 60,
+      "energy_keV": "401.2",
+      "pure_multipolarity_assumption": "M1",
+      "dataset": "BrIccFO",
+      "backend_version": "BrIccS v2.3 (9-Dec-2011)",
+      "alpha_T_reported": {
+        "electron_energy_keV": null,
+        "reported": "0.0320 (5)",
+        "value": "0.0320",
+        "uncertainty_abs": "0.0005"
+      },
+      "alpha_K": {
+        "electron_energy_keV": "357.63",
+        "reported": "0.0274 (4)",
+        "value": "0.0274",
+        "uncertainty_abs": "0.0004"
+      },
+      "subshells_and_major_sums": {
+        "Tot": {
+          "electron_energy_keV": null,
+          "reported": "0.0320 (5)",
+          "value": "0.0320",
+          "uncertainty_abs": "0.0005"
+        },
+        "K": {
+          "electron_energy_keV": "357.63",
+          "reported": "0.0274 (4)",
+          "value": "0.0274",
+          "uncertainty_abs": "0.0004"
+        },
+        "L1": {
+          "electron_energy_keV": "394.07",
+          "reported": "0.00344 (5)",
+          "value": "0.00344",
+          "uncertainty_abs": "0.00005"
+        },
+        "L2": {
+          "electron_energy_keV": "394.48",
+          "reported": "0.000203 (3)",
+          "value": "0.000203",
+          "uncertainty_abs": "0.000003"
+        },
+        "L3": {
+          "electron_energy_keV": "394.99",
+          "reported": "4.02E-5 (6)",
+          "value": "0.0000402",
+          "uncertainty_abs": "6E-7"
+        },
+        "L-tot": {
+          "electron_energy_keV": "394.11",
+          "reported": "0.00368 (6)",
+          "value": "0.00368",
+          "uncertainty_abs": "0.00006"
+        },
+        "M1": {
+          "electron_energy_keV": "399.62",
+          "reported": "0.000723 (11)",
+          "value": "0.000723",
+          "uncertainty_abs": "0.000011"
+        },
+        "M2": {
+          "electron_energy_keV": "399.80",
+          "reported": "4.68E-5 (7)",
+          "value": "0.0000468",
+          "uncertainty_abs": "7E-7"
+        },
+        "M3": {
+          "electron_energy_keV": "399.90",
+          "reported": "9.37E-6 (14)",
+          "value": "0.00000937",
+          "uncertainty_abs": "1.4E-7"
+        },
+        "M4": {
+          "electron_energy_keV": "400.20",
+          "reported": "7.61E-8 (11)",
+          "value": "7.61E-8",
+          "uncertainty_abs": "1.1E-9"
+        },
+        "M5": {
+          "electron_energy_keV": "400.22",
+          "reported": "7.75E-8 (11)",
+          "value": "7.75E-8",
+          "uncertainty_abs": "1.1E-9"
+        },
+        "M-tot": {
+          "electron_energy_keV": "399.64",
+          "reported": "0.000779 (11)",
+          "value": "0.000779",
+          "uncertainty_abs": "0.000011"
+        },
+        "N1": {
+          "electron_energy_keV": "400.88",
+          "reported": "0.0001624 (23)",
+          "value": "0.0001624",
+          "uncertainty_abs": "0.0000023"
+        },
+        "N2": {
+          "electron_energy_keV": "400.96",
+          "reported": "1.010E-5 (15)",
+          "value": "0.00001010",
+          "uncertainty_abs": "1.5E-7"
+        },
+        "N3": {
+          "electron_energy_keV": "400.98",
+          "reported": "2.02E-6 (3)",
+          "value": "0.00000202",
+          "uncertainty_abs": "3E-8"
+        },
+        "N4": {
+          "electron_energy_keV": "401.08",
+          "reported": "1.610E-8 (23)",
+          "value": "1.610E-8",
+          "uncertainty_abs": "2.3E-10"
+        },
+        "N5": {
+          "electron_energy_keV": "401.09",
+          "reported": "1.620E-8 (23)",
+          "value": "1.620E-8",
+          "uncertainty_abs": "2.3E-10"
+        },
+        "N6": {
+          "electron_energy_keV": "401.20",
+          "reported": "",
+          "value": null,
+          "uncertainty_abs": null
+        },
+        "N-tot": {
+          "electron_energy_keV": "400.89",
+          "reported": "0.0001745 (25)",
+          "value": "0.0001745",
+          "uncertainty_abs": "0.0000025"
+        },
+        "O1": {
+          "electron_energy_keV": "401.16",
+          "reported": "2.50E-5 (4)",
+          "value": "0.0000250",
+          "uncertainty_abs": "4E-7"
+        },
+        "O2": {
+          "electron_energy_keV": "401.18",
+          "reported": "1.323E-6 (19)",
+          "value": "0.000001323",
+          "uncertainty_abs": "1.9E-8"
+        },
+        "O3": {
+          "electron_energy_keV": "401.18",
+          "reported": "2.47E-7 (4)",
+          "value": "2.47E-7",
+          "uncertainty_abs": "4E-9"
+        },
+        "O-tot": {
+          "electron_energy_keV": "401.16",
+          "reported": "2.66E-5 (4)",
+          "value": "0.0000266",
+          "uncertainty_abs": "4E-7"
+        },
+        "P1": {
+          "electron_energy_keV": "401.20",
+          "reported": "1.748E-6 (25)",
+          "value": "0.000001748",
+          "uncertainty_abs": "2.5E-8"
+        },
+        "P-tot": {
+          "electron_energy_keV": "401.20",
+          "reported": "1.748E-6 (25)",
+          "value": "0.000001748",
+          "uncertainty_abs": "2.5E-8"
+        }
+      },
+      "warnings": [
+        "ICC could not be calculated for EG above 398.000 keV"
+      ],
+      "unavailable_subshell_rows": [
+        "N6"
+      ],
+      "shell_complete_in_returned_table": false,
+      "status": "reported-total-with-coverage-warning",
+      "major_shell_sum": "0.032061848",
+      "reported_total_minus_major_sum": "-0.000061848",
+      "html_path": "/workspace/wiki/tmp/day8-20261007/day9-preview/icc-readiness/probe-fo-401p2-M1.html",
+      "html_sha256": "2a4ef98e8af1d30d54a0a3662d8857ba04d41a5b6d64f5a8aa5bf2a66abf4b4f"
+    },
+    {
+      "id": "B1-I18-389p6",
+      "Z": 60,
+      "energy_keV": "389.6",
+      "pure_multipolarity_assumption": "M1",
+      "dataset": "BrIccFO",
+      "backend_version": "BrIccS v2.3 (9-Dec-2011)",
+      "alpha_T_reported": {
+        "electron_energy_keV": null,
+        "reported": "0.0345 (5)",
+        "value": "0.0345",
+        "uncertainty_abs": "0.0005"
+      },
+      "alpha_K": {
+        "electron_energy_keV": "346.03",
+        "reported": "0.0295 (5)",
+        "value": "0.0295",
+        "uncertainty_abs": "0.0005"
+      },
+      "subshells_and_major_sums": {
+        "Tot": {
+          "electron_energy_keV": null,
+          "reported": "0.0345 (5)",
+          "value": "0.0345",
+          "uncertainty_abs": "0.0005"
+        },
+        "K": {
+          "electron_energy_keV": "346.03",
+          "reported": "0.0295 (5)",
+          "value": "0.0295",
+          "uncertainty_abs": "0.0005"
+        },
+        "L1": {
+          "electron_energy_keV": "382.47",
+          "reported": "0.00371 (6)",
+          "value": "0.00371",
+          "uncertainty_abs": "0.00006"
+        },
+        "L2": {
+          "electron_energy_keV": "382.88",
+          "reported": "0.000221 (3)",
+          "value": "0.000221",
+          "uncertainty_abs": "0.000003"
+        },
+        "L3": {
+          "electron_energy_keV": "383.39",
+          "reported": "4.36E-5 (7)",
+          "value": "0.0000436",
+          "uncertainty_abs": "7E-7"
+        },
+        "L-tot": {
+          "electron_energy_keV": "382.51",
+          "reported": "0.00398 (6)",
+          "value": "0.00398",
+          "uncertainty_abs": "0.00006"
+        },
+        "M1": {
+          "electron_energy_keV": "388.02",
+          "reported": "0.000780 (11)",
+          "value": "0.000780",
+          "uncertainty_abs": "0.000011"
+        },
+        "M2": {
+          "electron_energy_keV": "388.20",
+          "reported": "5.09E-5 (8)",
+          "value": "0.0000509",
+          "uncertainty_abs": "8E-7"
+        },
+        "M3": {
+          "electron_energy_keV": "388.30",
+          "reported": "1.018E-5 (15)",
+          "value": "0.00001018",
+          "uncertainty_abs": "1.5E-7"
+        },
+        "M4": {
+          "electron_energy_keV": "388.60",
+          "reported": "8.51E-8 (12)",
+          "value": "8.51E-8",
+          "uncertainty_abs": "1.2E-9"
+        },
+        "M5": {
+          "electron_energy_keV": "388.62",
+          "reported": "8.56E-8 (12)",
+          "value": "8.56E-8",
+          "uncertainty_abs": "1.2E-9"
+        },
+        "M-tot": {
+          "electron_energy_keV": "388.04",
+          "reported": "0.000841 (12)",
+          "value": "0.000841",
+          "uncertainty_abs": "0.000012"
+        },
+        "N1": {
+          "electron_energy_keV": "389.28",
+          "reported": "0.0001752 (25)",
+          "value": "0.0001752",
+          "uncertainty_abs": "0.0000025"
+        },
+        "N2": {
+          "electron_energy_keV": "389.36",
+          "reported": "1.099E-5 (16)",
+          "value": "0.00001099",
+          "uncertainty_abs": "1.6E-7"
+        },
+        "N3": {
+          "electron_energy_keV": "389.38",
+          "reported": "2.19E-6 (3)",
+          "value": "0.00000219",
+          "uncertainty_abs": "3E-8"
+        },
+        "N4": {
+          "electron_energy_keV": "389.48",
+          "reported": "1.80E-8 (3)",
+          "value": "1.80E-8",
+          "uncertainty_abs": "3E-10"
+        },
+        "N5": {
+          "electron_energy_keV": "389.49",
+          "reported": "1.79E-8 (3)",
+          "value": "1.79E-8",
+          "uncertainty_abs": "3E-10"
+        },
+        "N6": {
+          "electron_energy_keV": "389.60",
+          "reported": "5.46E-12 (8)",
+          "value": "5.46E-12",
+          "uncertainty_abs": "8E-14"
+        },
+        "N-tot": {
+          "electron_energy_keV": "389.29",
+          "reported": "0.000188 (3)",
+          "value": "0.000188",
+          "uncertainty_abs": "0.000003"
+        },
+        "O1": {
+          "electron_energy_keV": "389.56",
+          "reported": "2.70E-5 (4)",
+          "value": "0.0000270",
+          "uncertainty_abs": "4E-7"
+        },
+        "O2": {
+          "electron_energy_keV": "389.58",
+          "reported": "1.440E-6 (21)",
+          "value": "0.000001440",
+          "uncertainty_abs": "2.1E-8"
+        },
+        "O3": {
+          "electron_energy_keV": "389.58",
+          "reported": "2.68E-7 (4)",
+          "value": "2.68E-7",
+          "uncertainty_abs": "4E-9"
+        },
+        "O-tot": {
+          "electron_energy_keV": "389.56",
+          "reported": "2.87E-5 (4)",
+          "value": "0.0000287",
+          "uncertainty_abs": "4E-7"
+        },
+        "P1": {
+          "electron_energy_keV": "389.60",
+          "reported": "1.89E-6 (3)",
+          "value": "0.00000189",
+          "uncertainty_abs": "3E-8"
+        },
+        "P-tot": {
+          "electron_energy_keV": "389.60",
+          "reported": "1.89E-6 (3)",
+          "value": "0.00000189",
+          "uncertainty_abs": "3E-8"
+        }
+      },
+      "warnings": [],
+      "unavailable_subshell_rows": [],
+      "shell_complete_in_returned_table": true,
+      "status": "reported-total-no-coverage-warning",
+      "major_shell_sum": "0.03453959",
+      "reported_total_minus_major_sum": "-0.00003959",
+      "html_path": "/workspace/wiki/tmp/day8-20261007/day9-preview/icc-readiness/query-02-389p6-M1.html",
+      "html_sha256": "341496d6b99cb792d653ab9ee028b4b5fbeee5723c75ce319d40e54fb5b1ff50"
+    },
+    {
+      "id": "B1-I18-757p4",
+      "Z": 60,
+      "energy_keV": "757.4",
+      "pure_multipolarity_assumption": "E2",
+      "dataset": "BrIccFO",
+      "backend_version": "BrIccS v2.3 (9-Dec-2011)",
+      "alpha_T_reported": {
+        "electron_energy_keV": null,
+        "reported": "0.00416 (6)",
+        "value": "0.00416",
+        "uncertainty_abs": "0.00006"
+      },
+      "alpha_K": {
+        "electron_energy_keV": "713.83",
+        "reported": "0.00351 (5)",
+        "value": "0.00351",
+        "uncertainty_abs": "0.00005"
+      },
+      "subshells_and_major_sums": {
+        "Tot": {
+          "electron_energy_keV": null,
+          "reported": "0.00416 (6)",
+          "value": "0.00416",
+          "uncertainty_abs": "0.00006"
+        },
+        "K": {
+          "electron_energy_keV": "713.83",
+          "reported": "0.00351 (5)",
+          "value": "0.00351",
+          "uncertainty_abs": "0.00005"
+        },
+        "L1": {
+          "electron_energy_keV": "750.27",
+          "reported": "0.000419 (6)",
+          "value": "0.000419",
+          "uncertainty_abs": "0.000006"
+        },
+        "L2": {
+          "electron_energy_keV": "750.68",
+          "reported": "5.76E-5 (8)",
+          "value": "0.0000576",
+          "uncertainty_abs": "8E-7"
+        },
+        "L3": {
+          "electron_energy_keV": "751.19",
+          "reported": "3.26E-5 (5)",
+          "value": "0.0000326",
+          "uncertainty_abs": "5E-7"
+        },
+        "L-tot": {
+          "electron_energy_keV": "750.38",
+          "reported": "0.000509 (8)",
+          "value": "0.000509",
+          "uncertainty_abs": "0.000008"
+        },
+        "M1": {
+          "electron_energy_keV": "755.82",
+          "reported": "8.75E-5 (13)",
+          "value": "0.0000875",
+          "uncertainty_abs": "0.0000013"
+        },
+        "M2": {
+          "electron_energy_keV": "756.00",
+          "reported": "1.331E-5 (19)",
+          "value": "0.00001331",
+          "uncertainty_abs": "1.9E-7"
+        },
+        "M3": {
+          "electron_energy_keV": "756.10",
+          "reported": "7.66E-6 (11)",
+          "value": "0.00000766",
+          "uncertainty_abs": "1.1E-7"
+        },
+        "M4": {
+          "electron_energy_keV": "756.40",
+          "reported": "3.01E-8 (5)",
+          "value": "3.01E-8",
+          "uncertainty_abs": "5E-10"
+        },
+        "M5": {
+          "electron_energy_keV": "756.42",
+          "reported": "2.99E-8 (5)",
+          "value": "2.99E-8",
+          "uncertainty_abs": "5E-10"
+        },
+        "M-tot": {
+          "electron_energy_keV": "755.87",
+          "reported": "0.0001085 (16)",
+          "value": "0.0001085",
+          "uncertainty_abs": "0.0000016"
+        },
+        "N1": {
+          "electron_energy_keV": "757.08",
+          "reported": "1.96E-5 (3)",
+          "value": "0.0000196",
+          "uncertainty_abs": "3E-7"
+        },
+        "N2": {
+          "electron_energy_keV": "757.16",
+          "reported": "2.87E-6 (4)",
+          "value": "0.00000287",
+          "uncertainty_abs": "4E-8"
+        },
+        "N3": {
+          "electron_energy_keV": "757.18",
+          "reported": "1.655E-6 (24)",
+          "value": "0.000001655",
+          "uncertainty_abs": "2.4E-8"
+        },
+        "N4": {
+          "electron_energy_keV": "757.28",
+          "reported": "6.38E-9 (9)",
+          "value": "6.38E-9",
+          "uncertainty_abs": "9E-11"
+        },
+        "N5": {
+          "electron_energy_keV": "757.29",
+          "reported": "6.26E-9 (9)",
+          "value": "6.26E-9",
+          "uncertainty_abs": "9E-11"
+        },
+        "N6": {
+          "electron_energy_keV": "757.40",
+          "reported": "",
+          "value": null,
+          "uncertainty_abs": null
+        },
+        "N-tot": {
+          "electron_energy_keV": "757.10",
+          "reported": "2.42E-5 (4)",
+          "value": "0.0000242",
+          "uncertainty_abs": "4E-7"
+        },
+        "O1": {
+          "electron_energy_keV": "757.36",
+          "reported": "3.02E-6 (5)",
+          "value": "0.00000302",
+          "uncertainty_abs": "5E-8"
+        },
+        "O2": {
+          "electron_energy_keV": "757.38",
+          "reported": "3.77E-7 (6)",
+          "value": "3.77E-7",
+          "uncertainty_abs": "6E-9"
+        },
+        "O3": {
+          "electron_energy_keV": "757.38",
+          "reported": "2.02E-7 (3)",
+          "value": "2.02E-7",
+          "uncertainty_abs": "3E-9"
+        },
+        "O-tot": {
+          "electron_energy_keV": "757.36",
+          "reported": "3.60E-6 (5)",
+          "value": "0.00000360",
+          "uncertainty_abs": "5E-8"
+        },
+        "P1": {
+          "electron_energy_keV": "757.40",
+          "reported": "2.11E-7 (3)",
+          "value": "2.11E-7",
+          "uncertainty_abs": "3E-9"
+        },
+        "P-tot": {
+          "electron_energy_keV": "757.40",
+          "reported": "2.11E-7 (3)",
+          "value": "2.11E-7",
+          "uncertainty_abs": "3E-9"
+        }
+      },
+      "warnings": [
+        "ICC could not be calculated for EG above 398.000 keV"
+      ],
+      "unavailable_subshell_rows": [
+        "N6"
+      ],
+      "shell_complete_in_returned_table": false,
+      "status": "reported-total-with-coverage-warning",
+      "major_shell_sum": "0.004155511",
+      "reported_total_minus_major_sum": "0.000004489",
+      "html_path": "/workspace/wiki/tmp/day8-20261007/day9-preview/icc-readiness/query-03-757p4-E2.html",
+      "html_sha256": "d39a0ef24a2865ade42d17a79bd3f73cb191a0b166481c92b09f6485d3f9a7cf"
+    },
+    {
+      "id": "B2-I15-199p6",
+      "Z": 60,
+      "energy_keV": "199.6",
+      "pure_multipolarity_assumption": "M1",
+      "dataset": "BrIccFO",
+      "backend_version": "BrIccS v2.3 (9-Dec-2011)",
+      "alpha_T_reported": {
+        "electron_energy_keV": null,
+        "reported": "0.204 (3)",
+        "value": "0.204",
+        "uncertainty_abs": "0.003"
+      },
+      "alpha_K": {
+        "electron_energy_keV": "156.03",
+        "reported": "0.1739 (25)",
+        "value": "0.1739",
+        "uncertainty_abs": "0.0025"
+      },
+      "subshells_and_major_sums": {
+        "Tot": {
+          "electron_energy_keV": null,
+          "reported": "0.204 (3)",
+          "value": "0.204",
+          "uncertainty_abs": "0.003"
+        },
+        "K": {
+          "electron_energy_keV": "156.03",
+          "reported": "0.1739 (25)",
+          "value": "0.1739",
+          "uncertainty_abs": "0.0025"
+        },
+        "L1": {
+          "electron_energy_keV": "192.47",
+          "reported": "0.0221 (3)",
+          "value": "0.0221",
+          "uncertainty_abs": "0.0003"
+        },
+        "L2": {
+          "electron_energy_keV": "192.88",
+          "reported": "0.001554 (22)",
+          "value": "0.001554",
+          "uncertainty_abs": "0.000022"
+        },
+        "L3": {
+          "electron_energy_keV": "193.39",
+          "reported": "0.000301 (5)",
+          "value": "0.000301",
+          "uncertainty_abs": "0.000005"
+        },
+        "L-tot": {
+          "electron_energy_keV": "192.51",
+          "reported": "0.0239 (4)",
+          "value": "0.0239",
+          "uncertainty_abs": "0.0004"
+        },
+        "M1": {
+          "electron_energy_keV": "198.02",
+          "reported": "0.00464 (7)",
+          "value": "0.00464",
+          "uncertainty_abs": "0.00007"
+        },
+        "M2": {
+          "electron_energy_keV": "198.20",
+          "reported": "0.000357 (5)",
+          "value": "0.000357",
+          "uncertainty_abs": "0.000005"
+        },
+        "M3": {
+          "electron_energy_keV": "198.30",
+          "reported": "6.97E-5 (10)",
+          "value": "0.0000697",
+          "uncertainty_abs": "0.0000010"
+        },
+        "M4": {
+          "electron_energy_keV": "198.60",
+          "reported": "1.100E-6 (16)",
+          "value": "0.000001100",
+          "uncertainty_abs": "1.6E-8"
+        },
+        "M5": {
+          "electron_energy_keV": "198.62",
+          "reported": "9.13E-7 (13)",
+          "value": "9.13E-7",
+          "uncertainty_abs": "1.3E-8"
+        },
+        "M-tot": {
+          "electron_energy_keV": "198.04",
+          "reported": "0.00507 (7)",
+          "value": "0.00507",
+          "uncertainty_abs": "0.00007"
+        },
+        "N1": {
+          "electron_energy_keV": "199.28",
+          "reported": "0.001043 (15)",
+          "value": "0.001043",
+          "uncertainty_abs": "0.000015"
+        },
+        "N2": {
+          "electron_energy_keV": "199.36",
+          "reported": "7.70E-5 (11)",
+          "value": "0.0000770",
+          "uncertainty_abs": "0.0000011"
+        },
+        "N3": {
+          "electron_energy_keV": "199.38",
+          "reported": "1.501E-5 (21)",
+          "value": "0.00001501",
+          "uncertainty_abs": "2.1E-7"
+        },
+        "N4": {
+          "electron_energy_keV": "199.48",
+          "reported": "2.32E-7 (4)",
+          "value": "2.32E-7",
+          "uncertainty_abs": "4E-9"
+        },
+        "N5": {
+          "electron_energy_keV": "199.49",
+          "reported": "1.90E-7 (3)",
+          "value": "1.90E-7",
+          "uncertainty_abs": "3E-9"
+        },
+        "N6": {
+          "electron_energy_keV": "199.60",
+          "reported": "1.278E-10 (18)",
+          "value": "1.278E-10",
+          "uncertainty_abs": "1.8E-12"
+        },
+        "N-tot": {
+          "electron_energy_keV": "199.29",
+          "reported": "0.001135 (16)",
+          "value": "0.001135",
+          "uncertainty_abs": "0.000016"
+        },
+        "O1": {
+          "electron_energy_keV": "199.56",
+          "reported": "0.0001607 (23)",
+          "value": "0.0001607",
+          "uncertainty_abs": "0.0000023"
+        },
+        "O2": {
+          "electron_energy_keV": "199.58",
+          "reported": "1.009E-5 (15)",
+          "value": "0.00001009",
+          "uncertainty_abs": "1.5E-7"
+        },
+        "O3": {
+          "electron_energy_keV": "199.58",
+          "reported": "1.83E-6 (3)",
+          "value": "0.00000183",
+          "uncertainty_abs": "3E-8"
+        },
+        "O-tot": {
+          "electron_energy_keV": "199.56",
+          "reported": "0.0001726 (25)",
+          "value": "0.0001726",
+          "uncertainty_abs": "0.0000025"
+        },
+        "P1": {
+          "electron_energy_keV": "199.60",
+          "reported": "1.122E-5 (16)",
+          "value": "0.00001122",
+          "uncertainty_abs": "1.6E-7"
+        },
+        "P-tot": {
+          "electron_energy_keV": "199.60",
+          "reported": "1.122E-5 (16)",
+          "value": "0.00001122",
+          "uncertainty_abs": "1.6E-7"
+        }
+      },
+      "warnings": [],
+      "unavailable_subshell_rows": [],
+      "shell_complete_in_returned_table": true,
+      "status": "reported-total-no-coverage-warning",
+      "major_shell_sum": "0.20418882",
+      "reported_total_minus_major_sum": "-0.00018882",
+      "html_path": "/workspace/wiki/tmp/day8-20261007/day9-preview/icc-readiness/query-04-199p6-M1.html",
+      "html_sha256": "1930f8c41229d9f26b695a2e71659d3a5935eb549ddd23733d08cceef5046659"
+    },
+    {
+      "id": "B2-I15-382p0",
+      "Z": 60,
+      "energy_keV": "382.0",
+      "pure_multipolarity_assumption": "E2",
+      "dataset": "BrIccFO",
+      "backend_version": "BrIccS v2.3 (9-Dec-2011)",
+      "alpha_T_reported": {
+        "electron_energy_keV": null,
+        "reported": "0.0251 (4)",
+        "value": "0.0251",
+        "uncertainty_abs": "0.0004"
+      },
+      "alpha_K": {
+        "electron_energy_keV": "338.43",
+        "reported": "0.0204 (3)",
+        "value": "0.0204",
+        "uncertainty_abs": "0.0003"
+      },
+      "subshells_and_major_sums": {
+        "Tot": {
+          "electron_energy_keV": null,
+          "reported": "0.0251 (4)",
+          "value": "0.0251",
+          "uncertainty_abs": "0.0004"
+        },
+        "K": {
+          "electron_energy_keV": "338.43",
+          "reported": "0.0204 (3)",
+          "value": "0.0204",
+          "uncertainty_abs": "0.0003"
+        },
+        "L1": {
+          "electron_energy_keV": "374.87",
+          "reported": "0.00232 (4)",
+          "value": "0.00232",
+          "uncertainty_abs": "0.00004"
+        },
+        "L2": {
+          "electron_energy_keV": "375.28",
+          "reported": "0.000831 (12)",
+          "value": "0.000831",
+          "uncertainty_abs": "0.000012"
+        },
+        "L3": {
+          "electron_energy_keV": "375.79",
+          "reported": "0.000570 (8)",
+          "value": "0.000570",
+          "uncertainty_abs": "0.000008"
+        },
+        "L-tot": {
+          "electron_energy_keV": "375.10",
+          "reported": "0.00372 (6)",
+          "value": "0.00372",
+          "uncertainty_abs": "0.00006"
+        },
+        "M1": {
+          "electron_energy_keV": "380.42",
+          "reported": "0.000482 (7)",
+          "value": "0.000482",
+          "uncertainty_abs": "0.000007"
+        },
+        "M2": {
+          "electron_energy_keV": "380.60",
+          "reported": "0.000191 (3)",
+          "value": "0.000191",
+          "uncertainty_abs": "0.000003"
+        },
+        "M3": {
+          "electron_energy_keV": "380.70",
+          "reported": "0.0001339 (19)",
+          "value": "0.0001339",
+          "uncertainty_abs": "0.0000019"
+        },
+        "M4": {
+          "electron_energy_keV": "381.00",
+          "reported": "6.97E-7 (10)",
+          "value": "6.97E-7",
+          "uncertainty_abs": "1.0E-8"
+        },
+        "M5": {
+          "electron_energy_keV": "381.02",
+          "reported": "6.16E-7 (9)",
+          "value": "6.16E-7",
+          "uncertainty_abs": "9E-9"
+        },
+        "M-tot": {
+          "electron_energy_keV": "380.51",
+          "reported": "0.000809 (12)",
+          "value": "0.000809",
+          "uncertainty_abs": "0.000012"
+        },
+        "N1": {
+          "electron_energy_keV": "381.68",
+          "reported": "0.0001080 (16)",
+          "value": "0.0001080",
+          "uncertainty_abs": "0.0000016"
+        },
+        "N2": {
+          "electron_energy_keV": "381.76",
+          "reported": "4.13E-5 (6)",
+          "value": "0.0000413",
+          "uncertainty_abs": "6E-7"
+        },
+        "N3": {
+          "electron_energy_keV": "381.78",
+          "reported": "2.89E-5 (4)",
+          "value": "0.0000289",
+          "uncertainty_abs": "4E-7"
+        },
+        "N4": {
+          "electron_energy_keV": "381.88",
+          "reported": "1.473E-7 (21)",
+          "value": "1.473E-7",
+          "uncertainty_abs": "2.1E-9"
+        },
+        "N5": {
+          "electron_energy_keV": "381.89",
+          "reported": "1.286E-7 (18)",
+          "value": "1.286E-7",
+          "uncertainty_abs": "1.8E-9"
+        },
+        "N6": {
+          "electron_energy_keV": "382.00",
+          "reported": "4.14E-11 (6)",
+          "value": "4.14E-11",
+          "uncertainty_abs": "6E-13"
+        },
+        "N-tot": {
+          "electron_energy_keV": "381.72",
+          "reported": "0.0001785 (25)",
+          "value": "0.0001785",
+          "uncertainty_abs": "0.0000025"
+        },
+        "O1": {
+          "electron_energy_keV": "381.96",
+          "reported": "1.663E-5 (24)",
+          "value": "0.00001663",
+          "uncertainty_abs": "2.4E-7"
+        },
+        "O2": {
+          "electron_energy_keV": "381.98",
+          "reported": "5.41E-6 (8)",
+          "value": "0.00000541",
+          "uncertainty_abs": "8E-8"
+        },
+        "O3": {
+          "electron_energy_keV": "381.98",
+          "reported": "3.53E-6 (5)",
+          "value": "0.00000353",
+          "uncertainty_abs": "5E-8"
+        },
+        "O-tot": {
+          "electron_energy_keV": "381.97",
+          "reported": "2.56E-5 (4)",
+          "value": "0.0000256",
+          "uncertainty_abs": "4E-7"
+        },
+        "P1": {
+          "electron_energy_keV": "382.00",
+          "reported": "1.161E-6 (17)",
+          "value": "0.000001161",
+          "uncertainty_abs": "1.7E-8"
+        },
+        "P-tot": {
+          "electron_energy_keV": "382.00",
+          "reported": "1.161E-6 (17)",
+          "value": "0.000001161",
+          "uncertainty_abs": "1.7E-8"
+        }
+      },
+      "warnings": [],
+      "unavailable_subshell_rows": [],
+      "shell_complete_in_returned_table": true,
+      "status": "reported-total-no-coverage-warning",
+      "major_shell_sum": "0.025134261",
+      "reported_total_minus_major_sum": "-0.000034261",
+      "html_path": "/workspace/wiki/tmp/day8-20261007/day9-preview/icc-readiness/query-05-382p0-E2.html",
+      "html_sha256": "fa6dc37e4fd21a935a7beb5d1aeaebfe2285460958bc4592a63f634f220284ae"
+    }
+  ],
+  "requests": [
+    {
+      "file": "tmp/day8-20261007/day9-preview/icc-readiness/probe-fo-401p2-M1-request.json",
+      "url": "https://bricc.anu.edu.au/",
+      "method": "POST",
+      "params": {
+        "atomic": "60",
+        "energy": "401.2",
+        "eerror": "",
+        "multipole": "M1",
+        "delta": "",
+        "derror": "",
+        "subshells": "on",
+        "dataset": "BrIccFO",
+        "calculate": "Calculate"
+      },
+      "probe": "FO-only control of prior All-dataset empty result",
+      "distinct_energy_index": 1,
+      "transport_attempt": 2,
+      "timestamp_utc": "2026-10-07T06:01:09.044728+00:00",
+      "no_retries": true
+    },
+    {
+      "file": "tmp/day8-20261007/day9-preview/icc-readiness/query-01-401p2-M1-request.json",
+      "url": "https://bricc.anu.edu.au/",
+      "method": "POST",
+      "params": {
+        "atomic": "60",
+        "energy": "401.2",
+        "eerror": "",
+        "multipole": "M1",
+        "delta": "",
+        "derror": "",
+        "subshells": "on",
+        "dataset": "All",
+        "calculate": "Calculate"
+      },
+      "calculation_index": 1,
+      "timestamp_utc": "2026-10-07T05:13:50.636071+00:00",
+      "no_retries": true
+    },
+    {
+      "file": "tmp/day8-20261007/day9-preview/icc-readiness/query-02-389p6-M1-request.json",
+      "url": "https://bricc.anu.edu.au/",
+      "method": "POST",
+      "params": {
+        "atomic": "60",
+        "energy": "389.6",
+        "eerror": "",
+        "multipole": "M1",
+        "delta": "",
+        "derror": "",
+        "subshells": "on",
+        "dataset": "BrIccFO",
+        "calculate": "Calculate"
+      },
+      "distinct_energy_index": 2,
+      "timestamp_utc": "2026-10-07T06:22:59.456675+00:00",
+      "no_retries": true
+    },
+    {
+      "file": "tmp/day8-20261007/day9-preview/icc-readiness/query-03-757p4-E2-request.json",
+      "url": "https://bricc.anu.edu.au/",
+      "method": "POST",
+      "params": {
+        "atomic": "60",
+        "energy": "757.4",
+        "eerror": "",
+        "multipole": "E2",
+        "delta": "",
+        "derror": "",
+        "subshells": "on",
+        "dataset": "BrIccFO",
+        "calculate": "Calculate"
+      },
+      "distinct_energy_index": 3,
+      "timestamp_utc": "2026-10-07T06:22:59.457066+00:00",
+      "no_retries": true
+    },
+    {
+      "file": "tmp/day8-20261007/day9-preview/icc-readiness/query-04-199p6-M1-request.json",
+      "url": "https://bricc.anu.edu.au/",
+      "method": "POST",
+      "params": {
+        "atomic": "60",
+        "energy": "199.6",
+        "eerror": "",
+        "multipole": "M1",
+        "delta": "",
+        "derror": "",
+        "subshells": "on",
+        "dataset": "BrIccFO",
+        "calculate": "Calculate"
+      },
+      "distinct_energy_index": 4,
+      "timestamp_utc": "2026-10-07T06:23:01.114914+00:00",
+      "no_retries": true
+    },
+    {
+      "file": "tmp/day8-20261007/day9-preview/icc-readiness/query-05-382p0-E2-request.json",
+      "url": "https://bricc.anu.edu.au/",
+      "method": "POST",
+      "params": {
+        "atomic": "60",
+        "energy": "382.0",
+        "eerror": "",
+        "multipole": "E2",
+        "delta": "",
+        "derror": "",
+        "subshells": "on",
+        "dataset": "BrIccFO",
+        "calculate": "Calculate"
+      },
+      "distinct_energy_index": 5,
+      "timestamp_utc": "2026-10-07T06:23:01.118382+00:00",
+      "no_retries": true
+    }
+  ],
+  "failures_and_limits": [
+    {
+      "route": "https://bricc.anu.edu.au/",
+      "params": "401.2/M1,dataset=All,complete submit fields",
+      "http": 200,
+      "outcome": "input echoed; no coefficient table or backend version in response",
+      "stored": "tmp/day8-20261007/day9-preview/icc-readiness/query-01-401p2-M1.html"
+    },
+    {
+      "route": "https://www.nndc.bnl.gov/BrIcc/",
+      "http": 404,
+      "purpose": "distribution discovery; no ICC query"
+    },
+    {
+      "route": "https://www.nndc.bnl.gov/nndcscr/ensdf_pgm/analysis/BrIcc/",
+      "http": 404,
+      "stored": "tmp/day8-20261007/day9-preview/icc-readiness/nndc-canonical-distribution-http.json"
+    },
+    {
+      "route": "https://www-nds.iaea.org/public/ensdf_pgm/",
+      "http": 403,
+      "purpose": "ANU-linked official distribution discovery; no credential/config change"
+    },
+    {
+      "route": "local BrIccS",
+      "outcome": "help/version runnable; required coefficient files absent; no local ICC computation"
+    }
+  ],
+  "forward_formula": {
+    "photon_fraction": "T_gamma_i=g_i/[tau*sum_j g_j*(1+alpha_j)]",
+    "total_decay_fraction": "T_gamma_i=beta_i/[tau*(1+alpha_i)]",
+    "same_number_two_hypotheses_ratio": "T_gamma_photon/T_gamma_total=(1+alpha_i)/D_g",
+    "rate_unit_output": "tau*T_gamma only",
+    "all_alpha_equal_limit": "two formulas exactly agree",
+    "normalization": "fractions in each listed mother sum to1",
+    "attribution": "task-derived forward algebra from KB08 Eq3 and total decay-rate sum, not author-reported MU08 processing"
+  },
+  "forward_comparison": {
+    "B1-I18": {
+      "tau_given": "0.56",
+      "rate_output_convention": "dimensionless tau*T_gamma; no lifetime-unit conversion",
+      "D_photon": "1.0257934",
+      "rows": [
+        {
+          "lookup_id": "B1-I18-401p2",
+          "fraction_as_given": "0.57",
+          "tau_times_gamma_rate_if_photon_fraction": "0.555667447265696971729395022428",
+          "tau_times_gamma_rate_if_total_fraction": "0.552325581395348837209302325581",
+          "photon_formula_over_total_formula": "1.00605053610210399092058888271",
+          "difference_percent": "0.60505361021039909205888827100",
+          "ICC_coverage_status": "reported-total-with-coverage-warning"
+        },
+        {
+          "lookup_id": "B1-I18-757p4",
+          "fraction_as_given": "0.24",
+          "tau_times_gamma_rate_if_photon_fraction": "0.233965240953977672307113693654",
+          "tau_times_gamma_rate_if_total_fraction": "0.239005736137667304015296367113",
+          "photon_formula_over_total_formula": "0.978910568151442580932963694248",
+          "difference_percent": "-2.10894318485574190670363057520",
+          "ICC_coverage_status": "reported-total-with-coverage-warning"
+        },
+        {
+          "lookup_id": "B1-I18-389p6",
+          "fraction_as_given": "0.19",
+          "tau_times_gamma_rate_if_photon_fraction": "0.185222482421898990576465007476",
+          "tau_times_gamma_rate_if_total_fraction": "0.183663605606573223779603673272",
+          "photon_formula_over_total_formula": "1.00848767402870792500712131702",
+          "difference_percent": "0.84876740287079250071213170200",
+          "ICC_coverage_status": "reported-total-no-coverage-warning"
+        }
+      ],
+      "coverage_warning_in_any_branch": true,
+      "interpretation": "conditional modern-FO forward comparison, not MU08 method identification or an experimental fit"
+    },
+    "B2-I15": {
+      "tau_given": "1.27",
+      "rate_output_convention": "dimensionless tau*T_gamma; no lifetime-unit conversion",
+      "D_photon": "1.191477",
+      "rows": [
+        {
+          "lookup_id": "B2-I15-199p6",
+          "fraction_as_given": "0.93",
+          "tau_times_gamma_rate_if_photon_fraction": "0.780543812427768223809607738966",
+          "tau_times_gamma_rate_if_total_fraction": "0.772425249169435215946843853821",
+          "photon_formula_over_total_formula": "1.01051048404627198007179324485",
+          "difference_percent": "1.05104840462719800717932448500",
+          "ICC_coverage_status": "reported-total-no-coverage-warning"
+        },
+        {
+          "lookup_id": "B2-I15-382p0",
+          "fraction_as_given": "0.07",
+          "tau_times_gamma_rate_if_photon_fraction": "0.0587506095375739523297554212125",
+          "tau_times_gamma_rate_if_total_fraction": "0.0682860208760120963808408935714",
+          "photon_formula_over_total_formula": "0.860360711956672264760461175499",
+          "difference_percent": "-13.9639288043327735239538824501",
+          "ICC_coverage_status": "reported-total-no-coverage-warning"
+        }
+      ],
+      "coverage_warning_in_any_branch": false,
+      "interpretation": "conditional modern-FO forward comparison, not MU08 method identification or an experimental fit"
+    }
+  },
+  "reproducibility": {
+    "script": "tmp/day8-20261007/day9-preview/icc-readiness/reproduce_icc_readiness.py",
+    "offline_command": "python3 -B tmp/day8-20261007/day9-preview/icc-readiness/reproduce_icc_readiness.py",
+    "offline_execution_new_queries": 0,
+    "validation": [
+      "version,Z,energy,multipolarity,dataset identity",
+      "NDSh uncertainty parsing",
+      "Tot>alphaK",
+      "major-shell sum agreement within printed Tot uncertainty",
+      "five cached tables and expected two warning points"
+    ],
+    "current_execution_exit": 0,
+    "source_code": "#!/usr/bin/env python3\n\"\"\"Parse the five saved FO tables and reproduce the conditional branching comparison.\n\nDefault execution is offline. --requery-fo requests the same five fixed physical\npoints once each and saves a separate replay; it is never needed for offline\nverification. No lifetime unit or experimental B value is inferred here.\n\"\"\"\nfrom __future__ import annotations\n\nimport argparse\nimport datetime as dt\nimport hashlib\nimport json\nimport re\nfrom decimal import Decimal, getcontext\nfrom html.parser import HTMLParser\nfrom pathlib import Path\nfrom urllib.parse import urlencode\nfrom urllib.request import Request, urlopen\n\ngetcontext().prec = 30\nHERE = Path(__file__).resolve().parent\nURL = \"https://bricc.anu.edu.au/\"\nCASES = (\n    (\"B1-I18-401p2\", \"401.2\", \"M1\", \"probe-fo-401p2-M1\"),\n    (\"B1-I18-389p6\", \"389.6\", \"M1\", \"query-02-389p6-M1\"),\n    (\"B1-I18-757p4\", \"757.4\", \"E2\", \"query-03-757p4-E2\"),\n    (\"B2-I15-199p6\", \"199.6\", \"M1\", \"query-04-199p6-M1\"),\n    (\"B2-I15-382p0\", \"382.0\", \"E2\", \"query-05-382p0-E2\"),\n)\nMOTHERS = {\n    \"B1-I18\": {\"tau_given\": \"0.56\", \"branches\": ((\"B1-I18-401p2\", \"0.57\"), (\"B1-I18-757p4\", \"0.24\"), (\"B1-I18-389p6\", \"0.19\"))},\n    \"B2-I15\": {\"tau_given\": \"1.27\", \"branches\": ((\"B2-I15-199p6\", \"0.93\"), (\"B2-I15-382p0\", \"0.07\"))},\n}\n\n\nclass Tables(HTMLParser):\n    def __init__(self):\n        super().__init__()\n        self.skip = 0\n        self.incell = False\n        self.cell = []\n        self.row = []\n        self.rows = []\n        self.text = []\n\n    def handle_starttag(self, tag, attrs):\n        if tag in (\"script\", \"style\"):\n            self.skip += 1\n        if tag == \"tr\":\n            self.row = []\n        if tag in (\"td\", \"th\"):\n            self.incell, self.cell = True, []\n\n    def handle_endtag(self, tag):\n        if tag in (\"script\", \"style\"):\n            self.skip = max(0, self.skip - 1)\n        if tag in (\"td\", \"th\"):\n            self.incell = False\n            self.row.append(\" \".join(self.cell))\n        if tag == \"tr\" and self.row:\n            self.rows.append(self.row)\n\n    def handle_data(self, data):\n        if not self.skip and data.strip():\n            self.text.append(data.strip())\n            if self.incell:\n                self.cell.append(data.strip())\n\n\ndef nds_value(parts):\n    text = \" \".join(parts).strip()\n    if not text:\n        return {\"reported\": \"\", \"value\": None, \"uncertainty_abs\": None}\n    match = re.fullmatch(r\"([0-9]+(?:\\.[0-9]+)?(?:E[+-]?[0-9]+)?)\\s*(?:\\(([0-9]+)\\))?\", text, re.I)\n    if not match:\n        raise ValueError(f\"unsupported ICC value: {text}\")\n    value = Decimal(match[1])\n    uncertainty = Decimal(match[2]) * Decimal(10) ** value.as_tuple().exponent if match[2] else None\n    return {\"reported\": text, \"value\": str(value), \"uncertainty_abs\": str(uncertainty) if uncertainty is not None else None}\n\n\ndef parse_case(case, folder=HERE):\n    case_id, energy, multipole, stem = case\n    path = folder / (stem + \".html\")\n    body = path.read_bytes()\n    parser = Tables()\n    parser.feed(body.decode(\"utf-8\"))\n    text = \"\\n\".join(parser.text)\n    version = next((row[0] for row in parser.rows if row and row[0].startswith(\"BrIccS v\")), None)\n    if not version or not re.search(r\"Z=60\\b\", text) or not re.search(r\"Data Sets:\\s*BrIccFO\\b\", text):\n        raise ValueError(f\"missing version/Z/table identity: {path}\")\n    returned_energy = re.search(r\"γ-energy:\\s*([0-9.]+)\\s*keV\", text)\n    if not returned_energy or Decimal(returned_energy[1]) != Decimal(energy):\n        raise ValueError(f\"energy identity mismatch: {path}\")\n    if [\"Shell\", \"E(ce)\", multipole] not in parser.rows:\n        raise ValueError(f\"multipolarity identity mismatch: {path}\")\n    shells = {}\n    for row in parser.rows:\n        if len(row) >= 3 and re.fullmatch(r\"Tot|K|[LMNOPQ](?:[1-9]|-tot)\", row[0]):\n            shells[row[0]] = {\"electron_energy_keV\": row[1] or None, **nds_value(row[2:])}\n    if \"Tot\" not in shells or shells[\"Tot\"][\"value\"] is None or \"K\" not in shells:\n        raise ValueError(f\"no usable reported total/K coefficient: {path}\")\n    warnings = [line for line in parser.text if \"could not\" in line]\n    missing = [name for name, record in shells.items() if record[\"value\"] is None]\n    major_names = [name for name in shells if name == \"K\" or name.endswith(\"-tot\")]\n    major_sum = sum(Decimal(shells[name][\"value\"]) for name in major_names if shells[name][\"value\"] is not None)\n    total = Decimal(shells[\"Tot\"][\"value\"])\n    assert total >= Decimal(shells[\"K\"][\"value\"]) > 0\n    rounding_residual = total - major_sum\n    assert abs(rounding_residual) <= Decimal(shells[\"Tot\"][\"uncertainty_abs\"])\n    return {\"id\": case_id, \"Z\": 60, \"energy_keV\": energy, \"pure_multipolarity_assumption\": multipole,\n            \"dataset\": \"BrIccFO\", \"backend_version\": version,\n            \"alpha_T_reported\": shells[\"Tot\"], \"alpha_K\": shells[\"K\"], \"subshells_and_major_sums\": shells,\n            \"warnings\": warnings, \"unavailable_subshell_rows\": missing,\n            \"shell_complete_in_returned_table\": not (warnings or missing),\n            \"status\": \"reported-total-with-coverage-warning\" if warnings or missing else \"reported-total-no-coverage-warning\",\n            \"major_shell_sum\": str(major_sum), \"reported_total_minus_major_sum\": str(rounding_residual),\n            \"html_path\": str(path), \"html_sha256\": hashlib.sha256(body).hexdigest()}\n\n\ndef compare(lookups):\n    by_id = {record[\"id\"]: record for record in lookups}\n    comparisons = {}\n    for mother, control in MOTHERS.items():\n        branches = [(by_id[key], Decimal(fraction)) for key, fraction in control[\"branches\"]]\n        assert sum(fraction for _, fraction in branches) == 1\n        denominator = sum(fraction * (1 + Decimal(record[\"alpha_T_reported\"][\"value\"])) for record, fraction in branches)\n        rows = []\n        for record, fraction in branches:\n            alpha = Decimal(record[\"alpha_T_reported\"][\"value\"])\n            photon = fraction / denominator\n            total = fraction / (1 + alpha)\n            ratio = photon / total\n            rows.append({\"lookup_id\": record[\"id\"], \"fraction_as_given\": str(fraction),\n                         \"tau_times_gamma_rate_if_photon_fraction\": str(photon),\n                         \"tau_times_gamma_rate_if_total_fraction\": str(total),\n                         \"photon_formula_over_total_formula\": str(ratio), \"difference_percent\": str(100 * (ratio - 1)),\n                         \"ICC_coverage_status\": record[\"status\"]})\n        comparisons[mother] = {\"tau_given\": control[\"tau_given\"],\n                               \"rate_output_convention\": \"dimensionless tau*T_gamma; no lifetime-unit conversion\",\n                               \"D_photon\": str(denominator), \"rows\": rows,\n                               \"coverage_warning_in_any_branch\": any(record[\"warnings\"] for record, _ in branches),\n                               \"interpretation\": \"conditional modern-FO forward comparison, not MU08 method identification or an experimental fit\"}\n    return comparisons\n\n\ndef replay_queries():\n    folder = HERE / (\"replay-\" + dt.datetime.now(dt.timezone.utc).strftime(\"%Y%m%dT%H%M%SZ\"))\n    folder.mkdir(exist_ok=False)\n    for case_id, energy, multipole, stem in CASES:\n        params = {\"atomic\": \"60\", \"energy\": energy, \"eerror\": \"\", \"multipole\": multipole,\n                  \"delta\": \"\", \"derror\": \"\", \"subshells\": \"on\", \"dataset\": \"BrIccFO\", \"calculate\": \"Calculate\"}\n        (folder / (stem + \"-request.json\")).write_text(json.dumps({\"url\": URL, \"params\": params, \"retries\": 0}, indent=2) + \"\\n\")\n        try:\n            with urlopen(Request(URL, data=urlencode(params).encode(), headers={\"User-Agent\": \"Mozilla/5.0\", \"Content-Type\": \"application/x-www-form-urlencoded\"}), timeout=30) as response:\n                body = response.read(2_000_001)\n            if len(body) > 2_000_000:\n                raise ValueError(\"bounded response limit exceeded\")\n            (folder / (stem + \".html\")).write_bytes(body)\n        except Exception as exc:\n            (folder / (stem + \"-failure.json\")).write_text(json.dumps({\"error\": str(exc)}, indent=2) + \"\\n\")\n    return folder\n\n\ndef main():\n    parser = argparse.ArgumentParser(description=__doc__)\n    parser.add_argument(\"--requery-fo\", action=\"store_true\", help=\"opt in to a separate five-point FO replay; default is offline\")\n    args = parser.parse_args()\n    folder = replay_queries() if args.requery_fo else HERE\n    lookups = [parse_case(case, folder) for case in CASES]\n    result = {\"status\": \"five-reported-FO-totals; two-have-N6-coverage-warning\", \"lookups\": lookups,\n              \"forward_comparison\": compare(lookups), \"lookup_replay_performed\": args.requery_fo,\n              \"new_queries_in_this_execution\": 5 if args.requery_fo else 0}\n    (folder / \"parsed-results-and-forward.json\").write_text(json.dumps(result, indent=2, ensure_ascii=False) + \"\\n\")\n    print(json.dumps({\"status\": result[\"status\"], \"new_queries\": result[\"new_queries_in_this_execution\"]}, ensure_ascii=False))\n    for record in lookups:\n        print(record[\"id\"], record[\"alpha_T_reported\"], record[\"status\"])\n    for mother, comparison in result[\"forward_comparison\"].items():\n        print(mother, \"D=\", comparison[\"D_photon\"])\n        for row in comparison[\"rows\"]:\n            print(row[\"lookup_id\"], \"photon-vs-total difference%\", row[\"difference_percent\"])\n\n\nif __name__ == \"__main__\":\n    main()\n",
+    "script_sha256": "debf123369c8dc1cbaa49365812d8001782c07c6d30a65387b1f55b240f1388e",
+    "baseline_sha256": "ac73898f4f4e970a15d9fa9b6f3a6e876903bac44f9740c261a395cb4e0adc09",
+    "parent_offline_replay": {
+      "exit": 0,
+      "new_queries": 0,
+      "lookups": 5,
+      "coverage_warning_points": 2,
+      "forward_denominators": [
+        "1.0257934",
+        "1.191477"
+      ]
+    }
+  },
+  "interpretation_boundary": "Independent theoretical FO inputs with specified transfer/coverage limitations. No inference of MU08 actual atomic theory, branching definition, delta, penetration parameter, B strengths or mechanism ranking; compare nominal forward sensitivity only.",
+  "artifacts": [
+    {
+      "path": "tmp/day8-20261007/day9-preview/icc-readiness/BrIccV2.3Manual.pdf",
+      "bytes": 1450463,
+      "sha256": "3e9199b886bb458d25da2d41bbfa3471156e4475232cff374893fbe27df572e6"
+    },
+    {
+      "path": "tmp/day8-20261007/day9-preview/icc-readiness/BrIccV2.3Manual.pdf-http.json",
+      "bytes": 947,
+      "sha256": "c28eb6f84cbb0965ed15199e023d9ea9173c55a9d1438132026c07b12a7ad192"
+    },
+    {
+      "path": "tmp/day8-20261007/day9-preview/icc-readiness/README.md",
+      "bytes": 9554,
+      "sha256": "c3372268754ab1b496bbdca27609d382636da829aa39c42cf568d6e2eb7f465b"
+    },
+    {
+      "path": "tmp/day8-20261007/day9-preview/icc-readiness/anu-docs-http.json",
+      "bytes": 754,
+      "sha256": "5e0b3764fa29bf22070acf6f8ed2c3b9f45b781c5f1e397d65b1ad9e489cd55b"
+    },
+    {
+      "path": "tmp/day8-20261007/day9-preview/icc-readiness/anu-docs.html",
+      "bytes": 22886,
+      "sha256": "0b92e4f08a12c73f91bab948413eaaa94092e3c3a7bf4ad08bebef626f1b629f"
+    },
+    {
+      "path": "tmp/day8-20261007/day9-preview/icc-readiness/anu-download-http.json",
+      "bytes": 754,
+      "sha256": "82a5fc370ad243dc767f964920ec29ab3ede08d2174d74474c0dc7ece40a207d"
+    },
+    {
+      "path": "tmp/day8-20261007/day9-preview/icc-readiness/anu-download.html",
+      "bytes": 12613,
+      "sha256": "1138e07db1b1be6e5d81f8a576eb98c7509db754824f23305f5ed8531958fc45"
+    },
+    {
+      "path": "tmp/day8-20261007/day9-preview/icc-readiness/anu-home-http.json",
+      "bytes": 726,
+      "sha256": "ac0376f47f65912afe5c604a34ac7f255e1257eec11a4a4e2cd3fa1e17c0cee2"
+    },
+    {
+      "path": "tmp/day8-20261007/day9-preview/icc-readiness/anu-home.html",
+      "bytes": 14828,
+      "sha256": "90fef8792c111ee21240088e00f2416ba3f0e6b9a9476521fe8f85a45532b368"
+    },
+    {
+      "path": "tmp/day8-20261007/day9-preview/icc-readiness/anu-index-neutral-http.json",
+      "bytes": 200,
+      "sha256": "ecfc153eb0483c5dbc34557288cbd3e4e46bc130417e4ad79805e73c385911a3"
+    },
+    {
+      "path": "tmp/day8-20261007/day9-preview/icc-readiness/anu-index-neutral.html",
+      "bytes": 14828,
+      "sha256": "90fef8792c111ee21240088e00f2416ba3f0e6b9a9476521fe8f85a45532b368"
+    },
+    {
+      "path": "tmp/day8-20261007/day9-preview/icc-readiness/bricc-v2.3-manual.txt",
+      "bytes": 68755,
+      "sha256": "a55ab2aaa7c74f6798f34b7564584e29e4ba6e4c95135c4b48e48bd9128d3a27"
+    },
+    {
+      "path": "tmp/day8-20261007/day9-preview/icc-readiness/briccs-help.json",
+      "bytes": 207,
+      "sha256": "c75ce57e610a9555af20db7e3ed7aaa011e8eff8a92ed27f306955b9cdc98103"
+    },
+    {
+      "path": "tmp/day8-20261007/day9-preview/icc-readiness/briccs-help.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "tmp/day8-20261007/day9-preview/icc-readiness/briccs-help.stdout.txt",
+      "bytes": 5727,
+      "sha256": "9afc1698cd11ad14a288c161fe550fdc2e97178fa814808d9606f5f71c40a9c8"
+    },
+    {
+      "path": "tmp/day8-20261007/day9-preview/icc-readiness/briccs-linux",
+      "bytes": 3060768,
+      "sha256": "b65ab8765abb8212b6f66ba682f01fcfe778c920c16871b9d7ae143b23a666e3"
+    },
+    {
+      "path": "tmp/day8-20261007/day9-preview/icc-readiness/briccs-linux-http.json",
+      "bytes": 960,
+      "sha256": "e06d8c8d5ac1bfb4c928cc5ee9863a684e66ece95ae01869ce2deefb4a9ff927"
+    },
+    {
+      "path": "tmp/day8-20261007/day9-preview/icc-readiness/kb08-p203-pdf2.png",
+      "bytes": 345617,
+      "sha256": "5aec51fe0823d0293298005853b351c4ab4a0b9bc451acaad8a3f4b5fb4da3b5"
+    },
+    {
+      "path": "tmp/day8-20261007/day9-preview/icc-readiness/kb08-p206-pdf5.png",
+      "bytes": 234626,
+      "sha256": "82e1e7f67f4fb3a180224237b9eb4982913a19b433cfa7e3d32b546a68db16b5"
+    },
+    {
+      "path": "tmp/day8-20261007/day9-preview/icc-readiness/kb08-p207-pdf6.png",
+      "bytes": 400538,
+      "sha256": "2446c8bc75f6acc930f505d14476b3fa67f1dbc8c431c85cc6728ab44b5e0a62"
+    },
+    {
+      "path": "tmp/day8-20261007/day9-preview/icc-readiness/kb08-p213-pdf12.png",
+      "bytes": 385551,
+      "sha256": "84a61802fcd6de62a7455863ec525fccc28935030ec242d1410d0ebb40757390"
+    },
+    {
+      "path": "tmp/day8-20261007/day9-preview/icc-readiness/kibedi-2008-fulltext.txt",
+      "bytes": 187031,
+      "sha256": "71fe4e783371cd57f1c44271d0fc9168c5b8cf96a965b9915ac62a355cd73614"
+    },
+    {
+      "path": "tmp/day8-20261007/day9-preview/icc-readiness/nndc-canonical-distribution-http.json",
+      "bytes": 197,
+      "sha256": "bba5e428b6b08c073c71505a8eff0b71db3c5283b9d9fc7b74512aecec36dec1"
+    },
+    {
+      "path": "tmp/day8-20261007/day9-preview/icc-readiness/parsed-results-and-forward.json",
+      "bytes": 30984,
+      "sha256": "3c92ddc29ade6fe660fa58ba438a67dcc7238dd0d3654784cf05a047d2f33679"
+    },
+    {
+      "path": "tmp/day8-20261007/day9-preview/icc-readiness/probe-fo-401p2-M1-http.json",
+      "bytes": 618,
+      "sha256": "a7537b1595d02c03f539b4bd94f05fbb3895977bb2fefa834cadadb257ac1870"
+    },
+    {
+      "path": "tmp/day8-20261007/day9-preview/icc-readiness/probe-fo-401p2-M1-request.json",
+      "bytes": 474,
+      "sha256": "fe2f38d88fdb6a891bd584f925cb157e52d6bdc1bdb931b686320226f2fed87a"
+    },
+    {
+      "path": "tmp/day8-20261007/day9-preview/icc-readiness/probe-fo-401p2-M1.html",
+      "bytes": 20956,
+      "sha256": "2a4ef98e8af1d30d54a0a3662d8857ba04d41a5b6d64f5a8aa5bf2a66abf4b4f"
+    },
+    {
+      "path": "tmp/day8-20261007/day9-preview/icc-readiness/probe-fo-401p2-M1.txt",
+      "bytes": 2277,
+      "sha256": "db538fe0404211f49c51e9d65f583526c50e27c961d65d016e681021d399c048"
+    },
+    {
+      "path": "tmp/day8-20261007/day9-preview/icc-readiness/query-01-401p2-M1-http.json",
+      "bytes": 618,
+      "sha256": "464e961fc4831a5515d25a3782ad12a29977a084b41a89a3f5982c60b4ba4db1"
+    },
+    {
+      "path": "tmp/day8-20261007/day9-preview/icc-readiness/query-01-401p2-M1-request.json",
+      "bytes": 376,
+      "sha256": "06cfd51742341e3d42deb73d0836f2104690687f58b57fdd773c7935a01644ac"
+    },
+    {
+      "path": "tmp/day8-20261007/day9-preview/icc-readiness/query-01-401p2-M1.html",
+      "bytes": 14853,
+      "sha256": "204ec473f5c2797d09e6cf88a40e53eecaa10a4e5d88d5402b15a79a845157e9"
+    },
+    {
+      "path": "tmp/day8-20261007/day9-preview/icc-readiness/query-01-401p2-M1.txt",
+      "bytes": 1468,
+      "sha256": "424f4e626ea3215602bec3d80d9246e29e074c513da20507320cd7048be17704"
+    },
+    {
+      "path": "tmp/day8-20261007/day9-preview/icc-readiness/query-02-389p6-M1-http.json",
+      "bytes": 618,
+      "sha256": "2418f6c568080b4e588e8f1df367a0ba1c49edd85510c1643c1f58b4ea06fa0a"
+    },
+    {
+      "path": "tmp/day8-20261007/day9-preview/icc-readiness/query-02-389p6-M1-request.json",
+      "bytes": 384,
+      "sha256": "5b3d1ae8ee59cc468f8bc276ea3a03b28058c833b6283309e3ade576dd5bed1c"
+    },
+    {
+      "path": "tmp/day8-20261007/day9-preview/icc-readiness/query-02-389p6-M1.html",
+      "bytes": 20834,
+      "sha256": "341496d6b99cb792d653ab9ee028b4b5fbeee5723c75ce319d40e54fb5b1ff50"
+    },
+    {
+      "path": "tmp/day8-20261007/day9-preview/icc-readiness/query-02-389p6-M1.txt",
+      "bytes": 2220,
+      "sha256": "123aa10132fad8cfa1dd6e920e19933fe93c461c8e7cc5e6af29a8f24e793471"
+    },
+    {
+      "path": "tmp/day8-20261007/day9-preview/icc-readiness/query-03-757p4-E2-http.json",
+      "bytes": 618,
+      "sha256": "f06fcd5f8f2d309de2974a22902bcb259edcd8dc6ec597aaa1ecaa71e585090c"
+    },
+    {
+      "path": "tmp/day8-20261007/day9-preview/icc-readiness/query-03-757p4-E2-request.json",
+      "bytes": 384,
+      "sha256": "32e852df211d1d68824c1c38231ef6369436fd2df54385a24b55aadd64f3d5f6"
+    },
+    {
+      "path": "tmp/day8-20261007/day9-preview/icc-readiness/query-03-757p4-E2.html",
+      "bytes": 20948,
+      "sha256": "d39a0ef24a2865ade42d17a79bd3f73cb191a0b166481c92b09f6485d3f9a7cf"
+    },
+    {
+      "path": "tmp/day8-20261007/day9-preview/icc-readiness/query-03-757p4-E2.txt",
+      "bytes": 2264,
+      "sha256": "ea6c1e76b80a71e62692a429364ee30ffb803e276609b4a99051382ddc154bea"
+    },
+    {
+      "path": "tmp/day8-20261007/day9-preview/icc-readiness/query-04-199p6-M1-http.json",
+      "bytes": 618,
+      "sha256": "98f2432108973e67fe77a366841aa035ce8b73b454cba5e575dcaa64a6d037ce"
+    },
+    {
+      "path": "tmp/day8-20261007/day9-preview/icc-readiness/query-04-199p6-M1-request.json",
+      "bytes": 384,
+      "sha256": "b38fc32a1b9eb1a8e7652f409327d68603730ef393dd18a2ad70fd910f0100d1"
+    },
+    {
+      "path": "tmp/day8-20261007/day9-preview/icc-readiness/query-04-199p6-M1.html",
+      "bytes": 20841,
+      "sha256": "1930f8c41229d9f26b695a2e71659d3a5935eb549ddd23733d08cceef5046659"
+    },
+    {
+      "path": "tmp/day8-20261007/day9-preview/icc-readiness/query-04-199p6-M1.txt",
+      "bytes": 2230,
+      "sha256": "1cfa5b1277ee737157c9d83cbdddfd6bfc23d2fb8e44d854e6646f0121654b5b"
+    },
+    {
+      "path": "tmp/day8-20261007/day9-preview/icc-readiness/query-05-382p0-E2-http.json",
+      "bytes": 618,
+      "sha256": "29efc44a5c5b1a4fa8069badf6ed16a2d4e1a2d922bc58e59b1f033bf40f6027"
+    },
+    {
+      "path": "tmp/day8-20261007/day9-preview/icc-readiness/query-05-382p0-E2-request.json",
+      "bytes": 384,
+      "sha256": "b23734689396145f835f1da355a9175665f6e64ace3f0fdb025c5884021f8960"
+    },
+    {
+      "path": "tmp/day8-20261007/day9-preview/icc-readiness/query-05-382p0-E2.html",
+      "bytes": 20837,
+      "sha256": "fa6dc37e4fd21a935a7beb5d1aeaebfe2285460958bc4592a63f634f220284ae"
+    },
+    {
+      "path": "tmp/day8-20261007/day9-preview/icc-readiness/query-05-382p0-E2.txt",
+      "bytes": 2230,
+      "sha256": "f795b4e824ce6b9b31f0bf4811f5f5520d64daeedd86a49983943405738bf1d1"
+    },
+    {
+      "path": "tmp/day8-20261007/day9-preview/icc-readiness/reproduce_icc_readiness.py",
+      "bytes": 9378,
+      "sha256": "debf123369c8dc1cbaa49365812d8001782c07c6d30a65387b1f55b240f1388e"
+    }
+  ],
+  "readme": "tmp/day8-20261007/day9-preview/icc-readiness/README.md"
+}

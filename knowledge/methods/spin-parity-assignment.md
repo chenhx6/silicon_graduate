@@ -78,3 +78,7 @@ No single rule is universal across detector geometry, reaction mechanism, and fe
 ### Four-Multipole Local Identifiability
 
 合成2+→2+在固定Jπ、完整M1/E2/M3/E4、未知aligned布居下，完整单γ方向与线偏振仅有四个normalized形状系数。RB67-13的exact内域seed证明五变量映射rank4、存在改变multipole fractions的一维同观测解族；独立固定布居后同点rank3只是局部改进，isotropic点仍不唯一。多个观测通道须列明共享布居与模型先验；Gaussian或低阶截断不增加独立证据。未给定的same-parent2+→0+ pure-E2参考设计可校准B2/B4，须匹配gate/feeding/axis/response；详见[[rose-brink-1967-phase-defined-angular-distributions]]与[[multipole-mixing-ratio]]。这不是实测spin/parity赋值或L4结果。
+
+RB67-14补充一个已知非等权布居的精确global pair：U保留S与所有normalized单γ方向/偏振二次型，四个γ份额不同而两个解各自local rank3。独立calibration与局部拟合的满秩不能单独排除离散global branch；完整候选、multi-start/global certificates及额外observable要按setup核验。此处数据为合成theory，73-check证书与fixed-convention/final-channel解释见[[rose-brink-1967-phase-defined-angular-distributions]]。
+
+RB67-15的合成3+→1+完整模型在指定内点为6×5 rank5，可局部联合约束relative amplitudes与population；这不等于Jπ标签或观测彼此独立，也不证明global唯一。PureE2恒K6零，isotropy/cancellation也能隐藏K6；数据/响应/全部候选和covariance须分别核验。

@@ -1,0 +1,1365 @@
+{
+  "schema_version": 1,
+  "created_at_utc": "2026-10-07T06:05:30.364723+00:00",
+  "artifact_kind": "bounded-Day8-L2-exact-fixed-population-global-pair",
+  "status": "success_exact_full_support_fraction_changing_pair",
+  "day_index": 8,
+  "run_closed": false,
+  "new_source_or_course_card": false,
+  "experimental_data_fit": false,
+  "evidence_class": "our exact finite matrix-algebra certificate under the existing RB amplitude model; not a source-authored experimental claim",
+  "source": {
+    "prior_matrix_artifact": "outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/four-multipole-representation-audit.json",
+    "prior_matrix_artifact_sha256": "6a6f44d8005e64d28b011a17d3bd3ce50ab2c11396c4cbdc7d53965491831a24",
+    "raw_path": "raw/papers/gpt/high-spin-20260920/multipolarity/mixing ratio/1967_Rose et al_Angular Distributions of Gamma Rays in Terms of Phase-Defined Reduced Matrix Elements.pdf",
+    "raw_sha256": "8f846b61b9320de291ee5600126c5e286a0fe05968df819696816f0dc1ec57dc",
+    "locators": [
+      "RB67 printed p312/PDF7 footnote7",
+      "printed p316/PDF11 Eq3.24, coherent-linear paragraph and WE relation after Eq3.25",
+      "printed p317/PDF12 Eq3.28",
+      "printed p319/PDF14 Eqs3.35-3.39",
+      "printed p320/PDF15 Eqs3.40-3.43"
+    ],
+    "validated_exact_response_matrices": {
+      "R2": [
+        [
+          "-sqrt(70)/20",
+          "sqrt(6)/4",
+          "2*sqrt(105)/35",
+          "0"
+        ],
+        [
+          "sqrt(6)/4",
+          "3*sqrt(70)/196",
+          "4/7",
+          "2*sqrt(105)/49"
+        ],
+        [
+          "2*sqrt(105)/35",
+          "4/7",
+          "-3*sqrt(70)/140",
+          "5*sqrt(6)/28"
+        ],
+        [
+          "0",
+          "2*sqrt(105)/49",
+          "5*sqrt(6)/28",
+          "-17*sqrt(70)/196"
+        ]
+      ],
+      "T2": [
+        [
+          "-sqrt(70)/40",
+          "-sqrt(6)/24",
+          "sqrt(105)/210",
+          "0"
+        ],
+        [
+          "-sqrt(6)/24",
+          "3*sqrt(70)/392",
+          "1/7",
+          "-sqrt(105)/294"
+        ],
+        [
+          "sqrt(105)/210",
+          "1/7",
+          "sqrt(70)/140",
+          "-5*sqrt(6)/84"
+        ],
+        [
+          "0",
+          "-sqrt(105)/294",
+          "-5*sqrt(6)/84",
+          "-5*sqrt(70)/196"
+        ]
+      ],
+      "R4": [
+        [
+          "0",
+          "0",
+          "-sqrt(21)/14",
+          "sqrt(5)/2"
+        ],
+        [
+          "0",
+          "-4*sqrt(14)/49",
+          "5*sqrt(5)/14",
+          "-5*sqrt(21)/98"
+        ],
+        [
+          "-sqrt(21)/14",
+          "5*sqrt(5)/14",
+          "-sqrt(14)/28",
+          "-3*sqrt(30)/28"
+        ],
+        [
+          "sqrt(5)/2",
+          "-5*sqrt(21)/98",
+          "-3*sqrt(30)/28",
+          "9*sqrt(14)/196"
+        ]
+      ],
+      "T4": [
+        [
+          "0",
+          "0",
+          "-sqrt(21)/168",
+          "-sqrt(5)/40"
+        ],
+        [
+          "0",
+          "sqrt(14)/147",
+          "sqrt(5)/168",
+          "-3*sqrt(21)/392"
+        ],
+        [
+          "-sqrt(21)/168",
+          "sqrt(5)/168",
+          "sqrt(14)/84",
+          "sqrt(30)/420"
+        ],
+        [
+          "-sqrt(5)/40",
+          "-3*sqrt(21)/392",
+          "sqrt(30)/420",
+          "sqrt(14)/196"
+        ]
+      ]
+    },
+    "matrix_formula_provenance": {
+      "amplitude_order": [
+        "a_M1",
+        "a_E2",
+        "a_M3",
+        "a_E4"
+      ],
+      "A_K": "B_K*(a.T*R_K*a)/S",
+      "C_K": "B_K*(a.T*T_K*a)/S",
+      "F_K": "(-1)^(1+L-Lprime-K)*sqrt(5*(2L+1)*(2Lprime+1))*racah(2,2,L,Lprime,K,2)",
+      "R_K": "F_K*CG(L,Lprime,K,1,-1,0)",
+      "T_K": "-(-1)^pi_L*F_K*CG(L,Lprime,K,-1,-1,-2)*sqrt((K-2)!/(K+2)!)",
+      "exact_matrices": {
+        "R2": [
+          [
+            "-sqrt(70)/20",
+            "sqrt(6)/4",
+            "2*sqrt(105)/35",
+            "0"
+          ],
+          [
+            "sqrt(6)/4",
+            "3*sqrt(70)/196",
+            "4/7",
+            "2*sqrt(105)/49"
+          ],
+          [
+            "2*sqrt(105)/35",
+            "4/7",
+            "-3*sqrt(70)/140",
+            "5*sqrt(6)/28"
+          ],
+          [
+            "0",
+            "2*sqrt(105)/49",
+            "5*sqrt(6)/28",
+            "-17*sqrt(70)/196"
+          ]
+        ],
+        "T2": [
+          [
+            "-sqrt(70)/40",
+            "-sqrt(6)/24",
+            "sqrt(105)/210",
+            "0"
+          ],
+          [
+            "-sqrt(6)/24",
+            "3*sqrt(70)/392",
+            "1/7",
+            "-sqrt(105)/294"
+          ],
+          [
+            "sqrt(105)/210",
+            "1/7",
+            "sqrt(70)/140",
+            "-5*sqrt(6)/84"
+          ],
+          [
+            "0",
+            "-sqrt(105)/294",
+            "-5*sqrt(6)/84",
+            "-5*sqrt(70)/196"
+          ]
+        ],
+        "R4": [
+          [
+            "0",
+            "0",
+            "-sqrt(21)/14",
+            "sqrt(5)/2"
+          ],
+          [
+            "0",
+            "-4*sqrt(14)/49",
+            "5*sqrt(5)/14",
+            "-5*sqrt(21)/98"
+          ],
+          [
+            "-sqrt(21)/14",
+            "5*sqrt(5)/14",
+            "-sqrt(14)/28",
+            "-3*sqrt(30)/28"
+          ],
+          [
+            "sqrt(5)/2",
+            "-5*sqrt(21)/98",
+            "-3*sqrt(30)/28",
+            "9*sqrt(14)/196"
+          ]
+        ],
+        "T4": [
+          [
+            "0",
+            "0",
+            "-sqrt(21)/168",
+            "-sqrt(5)/40"
+          ],
+          [
+            "0",
+            "sqrt(14)/147",
+            "sqrt(5)/168",
+            "-3*sqrt(21)/392"
+          ],
+          [
+            "-sqrt(21)/168",
+            "sqrt(5)/168",
+            "sqrt(14)/84",
+            "sqrt(30)/420"
+          ],
+          [
+            "-sqrt(5)/40",
+            "-3*sqrt(21)/392",
+            "sqrt(30)/420",
+            "sqrt(14)/196"
+          ]
+        ]
+      }
+    }
+  },
+  "scope": {
+    "amplitude_order": [
+      "M1",
+      "E2",
+      "M3",
+      "E4"
+    ],
+    "known_population": {
+      "p0": "1/4",
+      "p1": "1/4",
+      "w0": "1/4",
+      "w_plus_minus_1_each": "1/8",
+      "w_plus_minus_2_each": "1/4"
+    },
+    "known_population_tensors": {
+      "B2": "sqrt(70)/56",
+      "B4": "sqrt(14)/14"
+    },
+    "assumptions": [
+      "Ji=Jf=2, same definite parity",
+      "real RB normalized interaction amplitudes with magnetic q^pi retained",
+      "diagonal aligned axial nuclear population, final nuclear orientation unobserved",
+      "all M1/E2/M3/E4 allowed; no two-multipole truncation",
+      "common fixed photon energy and amplitude-scale convention; no measured energy or strength supplied"
+    ],
+    "observable_scope": "same S and identical full pointwise normalized W and Delta; consequently identical local photon intensity matrix H=1/2[[W,-Delta],[-Delta,W]] and all same-direction polarization observables",
+    "excluded": [
+      "photon coherence between different directions",
+      "gamma-gamma cascade or final-state spin observations",
+      "ICC/pair/E0 channels",
+      "total level lifetime",
+      "complex amplitudes or nonaxial/polarized population",
+      "microscopic realizability or high-multipole strength bounds"
+    ]
+  },
+  "linear_kernel": {
+    "requested_map": "Sym4 -> [TrD,Tr(R2D),Tr(T2D),Tr(R4D),Tr(T4D)]",
+    "coordinate_order": [
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        3,
+        3
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        2,
+        3
+      ]
+    ],
+    "offdiagonal_convention": "coordinate d_ij multiplies E_ij+E_ji, so each trace row contains 2*M_ij for offdiagonal columns",
+    "requested_exact_linear_map": [
+      [
+        "1",
+        "1",
+        "1",
+        "1",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "-sqrt(70)/20",
+        "3*sqrt(70)/196",
+        "-3*sqrt(70)/140",
+        "-17*sqrt(70)/196",
+        "sqrt(6)/2",
+        "4*sqrt(105)/35",
+        "0",
+        "8/7",
+        "4*sqrt(105)/49",
+        "5*sqrt(6)/14"
+      ],
+      [
+        "-sqrt(70)/40",
+        "3*sqrt(70)/392",
+        "sqrt(70)/140",
+        "-5*sqrt(70)/196",
+        "-sqrt(6)/12",
+        "sqrt(105)/105",
+        "0",
+        "2/7",
+        "-sqrt(105)/147",
+        "-5*sqrt(6)/42"
+      ],
+      [
+        "0",
+        "-4*sqrt(14)/49",
+        "-sqrt(14)/28",
+        "9*sqrt(14)/196",
+        "0",
+        "-sqrt(21)/7",
+        "sqrt(5)",
+        "5*sqrt(5)/7",
+        "-5*sqrt(21)/49",
+        "-3*sqrt(30)/14"
+      ],
+      [
+        "0",
+        "sqrt(14)/147",
+        "sqrt(14)/84",
+        "sqrt(14)/196",
+        "0",
+        "-sqrt(21)/84",
+        "-sqrt(5)/20",
+        "sqrt(5)/84",
+        "-3*sqrt(21)/196",
+        "sqrt(30)/210"
+      ]
+    ],
+    "equivalent_row_scaled_map": [
+      [
+        "1",
+        "1",
+        "1",
+        "1",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "-1/16",
+        "15/784",
+        "-3/112",
+        "-85/784",
+        "sqrt(105)/56",
+        "sqrt(6)/14",
+        "0",
+        "sqrt(70)/49",
+        "5*sqrt(6)/98",
+        "5*sqrt(105)/392"
+      ],
+      [
+        "-1/32",
+        "15/1568",
+        "1/112",
+        "-25/784",
+        "-sqrt(105)/336",
+        "sqrt(6)/168",
+        "0",
+        "sqrt(70)/196",
+        "-5*sqrt(6)/1176",
+        "-5*sqrt(105)/1176"
+      ],
+      [
+        "0",
+        "-4/49",
+        "-1/28",
+        "9/196",
+        "0",
+        "-sqrt(6)/14",
+        "sqrt(70)/14",
+        "5*sqrt(70)/98",
+        "-5*sqrt(6)/98",
+        "-3*sqrt(105)/98"
+      ],
+      [
+        "0",
+        "1/147",
+        "1/84",
+        "1/196",
+        "0",
+        "-sqrt(6)/168",
+        "-sqrt(70)/280",
+        "sqrt(70)/1176",
+        "-3*sqrt(6)/392",
+        "sqrt(105)/1470"
+      ]
+    ],
+    "row_scalings": [
+      "1",
+      "sqrt(70)/56",
+      "sqrt(70)/56",
+      "sqrt(14)/14",
+      "sqrt(14)/14"
+    ],
+    "row_scaling_reason": "known B2 and B4 are nonzero; scaling improves the exact algebraic field and leaves the requested kernel unchanged",
+    "rank": 5,
+    "kernel_dimension": 5,
+    "algebraic_field": "QQ<sqrt(6) + sqrt(105)>",
+    "basis": [
+      {
+        "coordinate_vector": [
+          "1",
+          "-1",
+          "1",
+          "-1",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        "matrix": [
+          [
+            "1",
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "-1",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "1",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "0",
+            "-1"
+          ]
+        ],
+        "trace_residuals": [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ]
+      },
+      {
+        "coordinate_vector": [
+          "1",
+          "-35/3",
+          "32/3",
+          "0",
+          "0",
+          "4*sqrt(6)/3",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        "matrix": [
+          [
+            "1",
+            "0",
+            "4*sqrt(6)/3",
+            "0"
+          ],
+          [
+            "0",
+            "-35/3",
+            "0",
+            "0"
+          ],
+          [
+            "4*sqrt(6)/3",
+            "0",
+            "32/3",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "0",
+            "0"
+          ]
+        ],
+        "trace_residuals": [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ]
+      },
+      {
+        "coordinate_vector": [
+          "1",
+          "7/9",
+          "-16/9",
+          "0",
+          "-16*sqrt(105)/315",
+          "0",
+          "-sqrt(70)/21",
+          "sqrt(70)/15",
+          "0",
+          "0"
+        ],
+        "matrix": [
+          [
+            "1",
+            "-16*sqrt(105)/315",
+            "0",
+            "-sqrt(70)/21"
+          ],
+          [
+            "-16*sqrt(105)/315",
+            "7/9",
+            "sqrt(70)/15",
+            "0"
+          ],
+          [
+            "0",
+            "sqrt(70)/15",
+            "-16/9",
+            "0"
+          ],
+          [
+            "-sqrt(70)/21",
+            "0",
+            "0",
+            "0"
+          ]
+        ],
+        "trace_residuals": [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ]
+      },
+      {
+        "coordinate_vector": [
+          "1",
+          "29/3",
+          "-32/3",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "-4*sqrt(6)/3",
+          "0"
+        ],
+        "matrix": [
+          [
+            "1",
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "29/3",
+            "0",
+            "-4*sqrt(6)/3"
+          ],
+          [
+            "0",
+            "0",
+            "-32/3",
+            "0"
+          ],
+          [
+            "0",
+            "-4*sqrt(6)/3",
+            "0",
+            "0"
+          ]
+        ],
+        "trace_residuals": [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ]
+      },
+      {
+        "coordinate_vector": [
+          "1",
+          "7/9",
+          "-16/9",
+          "0",
+          "8*sqrt(105)/63",
+          "0",
+          "-4*sqrt(70)/35",
+          "0",
+          "0",
+          "-8*sqrt(105)/45"
+        ],
+        "matrix": [
+          [
+            "1",
+            "8*sqrt(105)/63",
+            "0",
+            "-4*sqrt(70)/35"
+          ],
+          [
+            "8*sqrt(105)/63",
+            "7/9",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "-16/9",
+            "-8*sqrt(105)/45"
+          ],
+          [
+            "-4*sqrt(70)/35",
+            "0",
+            "-8*sqrt(105)/45",
+            "0"
+          ]
+        ],
+        "trace_residuals": [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ]
+      }
+    ]
+  },
+  "bounded_probe": {
+    "principal_three_coordinate_supports": [
+      {
+        "support_indices": [
+          0,
+          1,
+          2
+        ],
+        "support_labels": [
+          "M1",
+          "E2",
+          "M3"
+        ],
+        "restricted_map_rank": 5,
+        "kernel_dimension": 1,
+        "candidates": [
+          {
+            "D": [
+              [
+                "1",
+                "0",
+                "4*sqrt(6)/3",
+                "0"
+              ],
+              [
+                "0",
+                "-35/3",
+                "0",
+                "0"
+              ],
+              [
+                "4*sqrt(6)/3",
+                "0",
+                "32/3",
+                "0"
+              ],
+              [
+                "0",
+                "0",
+                "0",
+                "0"
+              ]
+            ],
+            "rank": 2,
+            "diagonal": [
+              "1",
+              "-35/3",
+              "32/3",
+              "0"
+            ],
+            "fraction_changing_rank2_certificate": true,
+            "residuals": [
+              "0",
+              "0",
+              "0",
+              "0",
+              "0"
+            ]
+          }
+        ]
+      },
+      {
+        "support_indices": [
+          0,
+          1,
+          3
+        ],
+        "support_labels": [
+          "M1",
+          "E2",
+          "E4"
+        ],
+        "restricted_map_rank": 5,
+        "kernel_dimension": 1,
+        "candidates": [
+          {
+            "D": [
+              [
+                "1",
+                "0",
+                "0",
+                "0"
+              ],
+              [
+                "0",
+                "-3/35",
+                "0",
+                "-4*sqrt(6)/35"
+              ],
+              [
+                "0",
+                "0",
+                "0",
+                "0"
+              ],
+              [
+                "0",
+                "-4*sqrt(6)/35",
+                "0",
+                "-32/35"
+              ]
+            ],
+            "rank": 2,
+            "diagonal": [
+              "1",
+              "-3/35",
+              "0",
+              "-32/35"
+            ],
+            "fraction_changing_rank2_certificate": true,
+            "residuals": [
+              "0",
+              "0",
+              "0",
+              "0",
+              "0"
+            ]
+          }
+        ]
+      },
+      {
+        "support_indices": [
+          0,
+          2,
+          3
+        ],
+        "support_labels": [
+          "M1",
+          "M3",
+          "E4"
+        ],
+        "restricted_map_rank": 5,
+        "kernel_dimension": 1,
+        "candidates": [
+          {
+            "D": [
+              [
+                "1",
+                "0",
+                "-sqrt(6)/8",
+                "0"
+              ],
+              [
+                "0",
+                "0",
+                "0",
+                "0"
+              ],
+              [
+                "-sqrt(6)/8",
+                "0",
+                "3/32",
+                "0"
+              ],
+              [
+                "0",
+                "0",
+                "0",
+                "-35/32"
+              ]
+            ],
+            "rank": 2,
+            "diagonal": [
+              "1",
+              "0",
+              "3/32",
+              "-35/32"
+            ],
+            "fraction_changing_rank2_certificate": true,
+            "residuals": [
+              "0",
+              "0",
+              "0",
+              "0",
+              "0"
+            ]
+          }
+        ]
+      },
+      {
+        "support_indices": [
+          1,
+          2,
+          3
+        ],
+        "support_labels": [
+          "E2",
+          "M3",
+          "E4"
+        ],
+        "restricted_map_rank": 5,
+        "kernel_dimension": 1,
+        "candidates": [
+          {
+            "D": [
+              [
+                "0",
+                "0",
+                "0",
+                "0"
+              ],
+              [
+                "0",
+                "1",
+                "0",
+                "-sqrt(6)/8"
+              ],
+              [
+                "0",
+                "0",
+                "-35/32",
+                "0"
+              ],
+              [
+                "0",
+                "-sqrt(6)/8",
+                "0",
+                "3/32"
+              ]
+            ],
+            "rank": 2,
+            "diagonal": [
+              "0",
+              "1",
+              "-35/32",
+              "3/32"
+            ],
+            "fraction_changing_rank2_certificate": true,
+            "residuals": [
+              "0",
+              "0",
+              "0",
+              "0",
+              "0"
+            ]
+          }
+        ]
+      }
+    ],
+    "search_limit": "four principal three-coordinate restrictions, their kernel basis vectors only, and one resulting explicit involution; no grid, optimization or global inverse search",
+    "no_remaining_search_needed": "an exact full-support pair is already certified; no claim of complete branch classification"
+  },
+  "involution": {
+    "alpha": "sqrt(105)/35",
+    "beta": "4*sqrt(70)/35",
+    "U": [
+      [
+        "0",
+        "sqrt(105)/35",
+        "0",
+        "4*sqrt(70)/35"
+      ],
+      [
+        "sqrt(105)/35",
+        "0",
+        "4*sqrt(70)/35",
+        "0"
+      ],
+      [
+        "0",
+        "4*sqrt(70)/35",
+        "0",
+        "-sqrt(105)/35"
+      ],
+      [
+        "4*sqrt(70)/35",
+        "0",
+        "-sqrt(105)/35",
+        "0"
+      ]
+    ],
+    "verified": "U^T=U, U^2=I, U^T*U=I, U^T*R2*U=R2, U^T*T2*U=T2, U^T*R4*U=R4, U^T*T4*U=T4",
+    "consequence": "for any real amplitude vector, a and U*a have the same norm and these four quadratic responses. This exhibits a symmetry, not a proof that it exhausts all inverse branches."
+  },
+  "minimal_boundary_pair": {
+    "a": [
+      "1",
+      "0",
+      "0",
+      "0"
+    ],
+    "b": [
+      "0",
+      "sqrt(105)/35",
+      "0",
+      "4*sqrt(70)/35"
+    ],
+    "same_S": "1",
+    "radiative_fractions_a": [
+      "1",
+      "0",
+      "0",
+      "0"
+    ],
+    "radiative_fractions_b": [
+      "0",
+      "3/35",
+      "0",
+      "32/35"
+    ],
+    "meaning": "Pure M1 and the specified E2/E4 coherent combination have equal responses. This boundary example is supplementary; the full-support pair below avoids a boundary-only argument."
+  },
+  "theta0_link_explanation": {
+    "source_locator": "RB67 printed p316/PDF11 Eq3.24 and WE after Eq3.25; rotation convention printed p312/PDF7 footnote7",
+    "link_m_order": [
+      -1,
+      0,
+      1,
+      2
+    ],
+    "link_definition": "e_m=sum_L sqrt(2L+1)*a_L*CG(2,L;Mf=m-1,q=1|2,m)",
+    "E_matrix": [
+      [
+        "-1",
+        "sqrt(105)/7",
+        "-sqrt(6)/2",
+        "sqrt(70)/14"
+      ],
+      [
+        "-sqrt(6)/2",
+        "sqrt(70)/14",
+        "1",
+        "-sqrt(105)/7"
+      ],
+      [
+        "-sqrt(6)/2",
+        "-sqrt(70)/14",
+        "1",
+        "sqrt(105)/7"
+      ],
+      [
+        "-1",
+        "-sqrt(105)/7",
+        "-sqrt(6)/2",
+        "-sqrt(70)/14"
+      ]
+    ],
+    "E_TE": "5I",
+    "E_U_E_inverse": [
+      [
+        "-1",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "1",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "-1",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0",
+        "1"
+      ]
+    ],
+    "q_minus_reflection": "With pi_L=L mod2, the q=-1 link at initial m is the q=+1 link at initial -m; magnetic q^pi is essential.",
+    "exact_theta0_operator_identity": "A_q(Ua,zaxis)=-A_q(a,zaxis)*Z_f for q=+/-1, Z_f=diag((-1)^Mf) on Mf=-2..2",
+    "interpretation": "At theta=0 the same U is a common final-channel unitary phase for both helicities. Tensor rotation carries it to a common direction-dependent final-spin unitary Z_f(R); the same-direction photon Gram trace over unobserved final spin is unchanged. This explains the explicitly verified response symmetry within this J_i=J_f=2 model.",
+    "boundary": "The theta=0 link/operator identities are checked exactly; the covariant extension uses the source tensor-rotation law. No claim about other spins or cross-direction coherence is made: Z_f(R) need not cancel between two different directions."
+  },
+  "exact_pair": {
+    "a": [
+      "1",
+      "1/2",
+      "1/3",
+      "1/4"
+    ],
+    "b": [
+      "sqrt(105)/70 + sqrt(70)/35",
+      "sqrt(105)/35 + 4*sqrt(70)/105",
+      "-sqrt(105)/140 + 2*sqrt(70)/35",
+      "-sqrt(105)/105 + 4*sqrt(70)/35"
+    ],
+    "a_numeric_display_only": [
+      "1.00000000000",
+      "0.500000000000",
+      "0.333333333333",
+      "0.250000000000"
+    ],
+    "b_numeric_display_only": [
+      "0.385430732809",
+      "0.611497651040",
+      "0.404898938263",
+      "0.858592880173"
+    ],
+    "S_a": "205/144",
+    "S_b": "205/144",
+    "all_four_amplitudes_strict_positive": true,
+    "positivity_proof": "b0,b1 are positive sums; b2=(8sqrt70-sqrt105)/140>0 because 64*70>105; b3=(12sqrt70-sqrt105)/105>0 because 144*70>105.",
+    "Gram_A": [
+      [
+        "1",
+        "1/2",
+        "1/3",
+        "1/4"
+      ],
+      [
+        "1/2",
+        "1/4",
+        "1/6",
+        "1/8"
+      ],
+      [
+        "1/3",
+        "1/6",
+        "1/9",
+        "1/12"
+      ],
+      [
+        "1/4",
+        "1/8",
+        "1/12",
+        "1/16"
+      ]
+    ],
+    "Gram_B": [
+      [
+        "sqrt(6)/35 + 11/140",
+        "sqrt(6)/21 + 5/42",
+        "3*sqrt(6)/140 + 29/280",
+        "sqrt(6)/21 + 3/14"
+      ],
+      [
+        "sqrt(6)/21 + 5/42",
+        "8*sqrt(6)/105 + 59/315",
+        "sqrt(6)/21 + 11/84",
+        "32*sqrt(6)/315 + 29/105"
+      ],
+      [
+        "3*sqrt(6)/140 + 29/280",
+        "sqrt(6)/21 + 11/84",
+        "131/560 - sqrt(6)/35",
+        "13/28 - sqrt(6)/21"
+      ],
+      [
+        "sqrt(6)/21 + 3/14",
+        "32*sqrt(6)/315 + 29/105",
+        "13/28 - sqrt(6)/21",
+        "97/105 - 8*sqrt(6)/105"
+      ]
+    ],
+    "PSD_rank1_proof": "A=a*a^T and B=b*b^T are real positive-semidefinite rank1 matrices with the same positive trace S=205/144.",
+    "D": [
+      [
+        "129/140 - sqrt(6)/35",
+        "8/21 - sqrt(6)/21",
+        "193/840 - 3*sqrt(6)/140",
+        "1/28 - sqrt(6)/21"
+      ],
+      [
+        "8/21 - sqrt(6)/21",
+        "79/1260 - 8*sqrt(6)/105",
+        "1/28 - sqrt(6)/21",
+        "-32*sqrt(6)/315 - 127/840"
+      ],
+      [
+        "193/840 - 3*sqrt(6)/140",
+        "1/28 - sqrt(6)/21",
+        "-619/5040 + sqrt(6)/35",
+        "-8/21 + sqrt(6)/21"
+      ],
+      [
+        "1/28 - sqrt(6)/21",
+        "-32*sqrt(6)/315 - 127/840",
+        "-8/21 + sqrt(6)/21",
+        "-1447/1680 + 8*sqrt(6)/105"
+      ]
+    ],
+    "D_rank": 2,
+    "D_trace": "0",
+    "requested_trace_residuals": [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    "D_spectrum": [
+      "sqrt(c)",
+      "-sqrt(c)",
+      "0",
+      "0"
+    ],
+    "c": "27625/20736 - 10*sqrt(6)/63",
+    "c_positive_bound": "sqrt6<5/2 implies c=(193375-23040sqrt6)/145152 >135775/145152>0",
+    "D_characteristic_polynomial": "lambda^2*(lambda^2-c)",
+    "radiative_fractions_a": {
+      "M1": "144/205",
+      "E2": "36/205",
+      "M3": "16/205",
+      "E4": "9/205"
+    },
+    "radiative_fractions_b": {
+      "M1": "144*sqrt(6)/7175 + 396/7175",
+      "E2": "384*sqrt(6)/7175 + 944/7175",
+      "M3": "1179/7175 - 144*sqrt(6)/7175",
+      "E4": "4656/7175 - 384*sqrt(6)/7175"
+    },
+    "radiative_fractions_b_numeric_display_only": {
+      "M1": "0.104352128636",
+      "E2": "0.262662586931",
+      "M3": "0.115160066486",
+      "E4": "0.517825217947"
+    },
+    "fraction_differences_a_minus_b": {
+      "M1": "4644/7175 - 144*sqrt(6)/7175",
+      "E2": "316/7175 - 384*sqrt(6)/7175",
+      "M3": "-619/7175 + 144*sqrt(6)/7175",
+      "E4": "-4341/7175 + 384*sqrt(6)/7175"
+    },
+    "coefficient_order": [
+      "A2",
+      "C2",
+      "A4",
+      "C4"
+    ],
+    "coefficient_values_a": [
+      "-7617/160720 + 24*sqrt(70)/10045 + 213*sqrt(6)/10045 + 141*sqrt(105)/20090",
+      "-3371/160720 - 13*sqrt(105)/10045 + sqrt(6)/980 + 6*sqrt(70)/10045",
+      "-213*sqrt(6)/10045 - 18*sqrt(105)/10045 - 607/40180 + 186*sqrt(70)/10045",
+      "-83*sqrt(6)/40180 - 53*sqrt(70)/100450 + 2*sqrt(105)/50225 + 283/120540"
+    ],
+    "coefficient_values_b": [
+      "-7617/160720 + 24*sqrt(70)/10045 + 213*sqrt(6)/10045 + 141*sqrt(105)/20090",
+      "-3371/160720 - 13*sqrt(105)/10045 + sqrt(6)/980 + 6*sqrt(70)/10045",
+      "-213*sqrt(6)/10045 - 18*sqrt(105)/10045 - 607/40180 + 186*sqrt(70)/10045",
+      "-83*sqrt(6)/40180 - 53*sqrt(70)/100450 + 2*sqrt(105)/50225 + 283/120540"
+    ],
+    "full_coefficient_residuals": [
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    "equality_boundary": "Equal coefficients and S certify the specified same-direction photon observables exactly; no finite-step approximation or floating residual enters the certificate."
+  },
+  "local_vs_global": {
+    "M1_gauge_chart_a": [
+      "1",
+      "1/2",
+      "1/3",
+      "1/4"
+    ],
+    "M1_gauge_chart_b": [
+      "1",
+      "(4*sqrt(6) + 14)/15",
+      "(7 - 2*sqrt(6))/2",
+      "(102 - 28*sqrt(6))/15"
+    ],
+    "amplitude_Jacobian_rank_a": 3,
+    "amplitude_Jacobian_rank_b": 3,
+    "meaning": "Both points have local rank3 in the fixed-population amplitude chart, yet they are distinct non-gauge global equal-observable branches with different fractions. Local identifiability therefore does not imply global uniqueness.",
+    "absolute_scale_caution": "The original a,b above have equal S; their separate a_M1=1 charts only describe projective coordinates, not equal absolute amplitude scales."
+  },
+  "not_proved": [
+    "classification of all global branches",
+    "uniqueness after quotienting by this U and global sign",
+    "stability/confidence intervals with measured data",
+    "whether an actual nucleus can realize or exclude the large higher-multipole fractions",
+    "which uncomputed companion channel separates this pair"
+  ],
+  "checks": {
+    "exact": {
+      "all_response_matrices_real_symmetric": true,
+      "known_population_normalized": true,
+      "known_population_strict_positive": true,
+      "known_population_B2_B4_nonzero": true,
+      "row_scaling_preserves_requested_map": true,
+      "linear_map_rank5": true,
+      "linear_kernel_dimension5": true,
+      "full_kernel_basis_0_requested_map_zero": true,
+      "full_kernel_basis_1_requested_map_zero": true,
+      "full_kernel_basis_2_requested_map_zero": true,
+      "full_kernel_basis_3_requested_map_zero": true,
+      "full_kernel_basis_4_requested_map_zero": true,
+      "support_(0, 1, 2)_candidate_0_kernel": true,
+      "support_(0, 1, 2)_candidate_0_trace_zero": true,
+      "support_(0, 1, 3)_candidate_0_kernel": true,
+      "support_(0, 1, 3)_candidate_0_trace_zero": true,
+      "support_(0, 2, 3)_candidate_0_kernel": true,
+      "support_(0, 2, 3)_candidate_0_trace_zero": true,
+      "support_(1, 2, 3)_candidate_0_kernel": true,
+      "support_(1, 2, 3)_candidate_0_trace_zero": true,
+      "U_real_symmetric": true,
+      "U_orthogonal": true,
+      "U_involution": true,
+      "U_preserves_R2": true,
+      "U_preserves_T2": true,
+      "U_preserves_R4": true,
+      "U_preserves_T4": true,
+      "minimal_pair_same_S": true,
+      "minimal_pair_R2_equal": true,
+      "minimal_pair_T2_equal": true,
+      "minimal_pair_R4_equal": true,
+      "minimal_pair_T4_equal": true,
+      "theta0_link_basis_scaled_orthogonal": true,
+      "U_is_exact_theta0_link_sign_flip": true,
+      "magnetic_q_phase_reflection_m-2_L1": true,
+      "magnetic_q_phase_reflection_m-2_L2": true,
+      "magnetic_q_phase_reflection_m-2_L3": true,
+      "magnetic_q_phase_reflection_m-2_L4": true,
+      "magnetic_q_phase_reflection_m-1_L1": true,
+      "magnetic_q_phase_reflection_m-1_L2": true,
+      "magnetic_q_phase_reflection_m-1_L3": true,
+      "magnetic_q_phase_reflection_m-1_L4": true,
+      "magnetic_q_phase_reflection_m0_L1": true,
+      "magnetic_q_phase_reflection_m0_L2": true,
+      "magnetic_q_phase_reflection_m0_L3": true,
+      "magnetic_q_phase_reflection_m0_L4": true,
+      "magnetic_q_phase_reflection_m1_L1": true,
+      "magnetic_q_phase_reflection_m1_L2": true,
+      "magnetic_q_phase_reflection_m1_L3": true,
+      "magnetic_q_phase_reflection_m1_L4": true,
+      "theta0_common_final_channel_unitary_q-1": true,
+      "theta0_common_final_channel_unitary_q1": true,
+      "pair_all_amplitudes_a_strict_positive": true,
+      "pair_all_amplitudes_b_strict_positive": true,
+      "same_positive_radiative_scale": true,
+      "rank1_positive_Gram_A": true,
+      "rank1_positive_Gram_B": true,
+      "D_symmetric_trace_zero": true,
+      "D_exact_rank2": true,
+      "D_full_requested_map_zero": true,
+      "D_belongs_to_computed_linear_kernel": true,
+      "D_spectral_scale_exact": true,
+      "D_spectral_scale_positive_bound": true,
+      "D_cube_equals_cD": true,
+      "D_exact_characteristic_polynomial": true,
+      "fractions_each_normalized": true,
+      "all_four_fractions_differ": true,
+      "pair_not_global_plus_or_minus": true,
+      "all_four_normalized_coefficients_equal": true,
+      "locally_regular_amplitude_rank3_at_a": true,
+      "locally_regular_amplitude_rank3_at_b": true,
+      "input_artifact_unchanged": true,
+      "source_raw_identity": true
+    },
+    "passed": 73,
+    "failures": 0,
+    "elapsed_seconds": 4.521182179974858
+  },
+  "reproducibility": {
+    "script_path": "tmp/day8-20261007/four-multipoles/global-pair/fixed_population_pair.py",
+    "script_sha256": "23eb31ffbe37a57e7a53d54d755b49096005fe2fabbac0f35033a27292353e2d",
+    "source_code": "#!/usr/bin/env python3\n\"\"\"Finite Day8 L2 exact fixed-population four-multipole pair certificate.\n\nSearch scope: the four principal three-coordinate supports, followed by one\nsimple orthogonal involution suggested by those certificates.  No numerical\noptimization, data fitting, global classification, new source, or course card.\n\"\"\"\nfrom __future__ import annotations\n\nimport argparse\nimport hashlib\nimport itertools\nimport json\nimport platform\nimport sys\nimport time\nfrom datetime import datetime, timezone\nfrom pathlib import Path\n\nsys.dont_write_bytecode = True\nROOT = Path(__file__).resolve().parents[4]\nDEPS = ROOT / 'tmp/day8-20261007/rose-brink/python-deps'\nsys.path.insert(0, str(DEPS))\nimport sympy as sp\nfrom sympy.polys.matrices import DomainMatrix\nfrom sympy.physics.wigner import clebsch_gordan\n\nRUN = ROOT / 'outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01'\nINPUT = RUN / 'four-multipole-representation-audit.json'\nOUT = RUN / 'four-multipole-fixed-population-pair.json'\nLABELS = ('M1','E2','M3','E4')\n\n\ndef serial_matrix(matrix):\n    return [[sp.sstr(value) for value in row] for row in matrix.tolist()]\n\n\ndef main_result():\n    started = time.monotonic()\n    input_bytes = INPUT.read_bytes()\n    prior = json.loads(input_bytes.decode('utf-8'))\n    matrices = {name:sp.Matrix([[sp.sympify(value) for value in row] for row in values])\n                for name,values in prior['coefficient_interface']['exact_matrices'].items()}\n    names = ('R2','T2','R4','T4')\n    B2,B4 = sp.sqrt(70)/56,sp.sqrt(14)/14  # p0=p1=1/4, known aligned population\n    row_scalings = (sp.Integer(1),B2,B2,B4,B4)\n    raw_measurement_matrices = [sp.eye(4)]+[matrices[name] for name in names]\n    measurement_matrices = [(scale*matrix).applyfunc(sp.simplify)\n                            for scale,matrix in zip(row_scalings,raw_measurement_matrices)]\n    coords = [(i,i) for i in range(4)]+list(itertools.combinations(range(4),2))\n    sym_basis = []\n    for i,j in coords:\n        matrix=sp.zeros(4)\n        matrix[i,j]=matrix[j,i]=1\n        sym_basis.append(matrix)\n    raw_map = sp.Matrix([[sp.trace(matrix*basis) for basis in sym_basis]\n                        for matrix in raw_measurement_matrices])\n    linear_map = sp.Matrix([[sp.trace(matrix*basis) for basis in sym_basis]\n                           for matrix in measurement_matrices])\n    dm = DomainMatrix.from_Matrix(linear_map,extension=True)\n    rank = len(dm.rref()[1])\n    kernel_rows = dm.nullspace().to_Matrix()\n    checks={}\n\n    def check(name, condition):\n        checks[name]=bool(condition)\n        if not checks[name]:\n            raise AssertionError(name)\n\n    def exact_rank(matrix):\n        return len(DomainMatrix.from_Matrix(matrix,extension=True).rref()[1])\n\n    def trace_residuals(matrix):\n        return [sp.simplify(sp.trace(measurement*matrix)) for measurement in raw_measurement_matrices]\n\n    check('all_response_matrices_real_symmetric',all(matrix==matrix.T and matrix==sp.conjugate(matrix) for matrix in raw_measurement_matrices))\n    check('known_population_normalized',sp.Rational(1,4)+2*sp.Rational(1,8)+2*sp.Rational(1,4)==1)\n    check('known_population_strict_positive',all(value>0 for value in [sp.Rational(1,4),sp.Rational(1,8),sp.Rational(1,4)]))\n    check('known_population_B2_B4_nonzero',B2!=0 and B4!=0)\n    check('row_scaling_preserves_requested_map',all(sp.simplify(linear_map[i,j]-row_scalings[i]*raw_map[i,j])==0 for i in range(5) for j in range(10)))\n    check('linear_map_rank5',rank==5)\n    check('linear_kernel_dimension5',kernel_rows.rows==5)\n    full_kernel_basis=[]\n    for row_index,row in enumerate(kernel_rows.tolist()):\n        nonzero_index=next(i for i,value in enumerate(row) if value!=0)\n        scalar=row[nonzero_index]\n        coefficients=[sp.simplify(value/scalar) for value in row]\n        matrix=sum((value*basis for value,basis in zip(coefficients,sym_basis)),sp.zeros(4))\n        residuals=trace_residuals(matrix)\n        check(f'full_kernel_basis_{row_index}_requested_map_zero',all(value==0 for value in residuals))\n        full_kernel_basis.append({'coordinate_vector':[sp.sstr(value) for value in coefficients],\n                                  'matrix':serial_matrix(matrix),'trace_residuals':[sp.sstr(value) for value in residuals]})\n\n    principal_supports=[]\n    print('linear kernel rank5/dimension5 verified; probing exactly four 3-coordinate supports',flush=True)\n    for support in itertools.combinations(range(4),3):\n        column_indices=[k for k,(i,j) in enumerate(coords) if i in support and j in support]\n        restricted=dm.extract(list(range(5)),column_indices)\n        restricted_kernel=restricted.nullspace().to_Matrix()\n        record={'support_indices':list(support),'support_labels':[LABELS[i] for i in support],\n                'restricted_map_rank':len(restricted.rref()[1]),'kernel_dimension':restricted_kernel.rows,'candidates':[]}\n        # Inspect kernel basis vectors only, not a continuous parameter search.\n        for candidate_index,row in enumerate(restricted_kernel.tolist()):\n            scalar=next(value for value in row if value!=0)\n            coefficients=[sp.simplify(value/scalar) for value in row]\n            matrix=sum((coefficients[k]*sym_basis[j] for k,j in enumerate(column_indices)),sp.zeros(4))\n            d_rank=exact_rank(matrix.extract(support,support))\n            residuals=trace_residuals(matrix)\n            nonzero_diagonal=any(matrix[i,i]!=0 for i in range(4))\n            check(f'support_{support}_candidate_{candidate_index}_kernel',all(value==0 for value in residuals))\n            check(f'support_{support}_candidate_{candidate_index}_trace_zero',sp.trace(matrix)==0)\n            record['candidates'].append({'D':serial_matrix(matrix),'rank':d_rank,\n                                         'diagonal':[sp.sstr(matrix[i,i]) for i in range(4)],\n                                         'fraction_changing_rank2_certificate':d_rank==2 and nonzero_diagonal,\n                                         'residuals':[sp.sstr(value) for value in residuals]})\n        principal_supports.append(record)\n\n    # The support certificates have diagonal ratios 3/35 and 32/35. Test the\n    # resulting one explicit involution directly, rather than assuming it works.\n    alpha,beta=sp.sqrt(sp.Rational(3,35)),sp.sqrt(sp.Rational(32,35))\n    U=sp.Matrix([[0,alpha,0,beta],[alpha,0,beta,0],\n                 [0,beta,0,-alpha],[beta,0,-alpha,0]])\n    check('U_real_symmetric',U==U.T and U==sp.conjugate(U))\n    check('U_orthogonal', (U.T*U).applyfunc(sp.simplify)==sp.eye(4))\n    check('U_involution', (U*U).applyfunc(sp.simplify)==sp.eye(4))\n    for name in names:\n        check(f'U_preserves_{name}',(U.T*matrices[name]*U-matrices[name]).applyfunc(sp.simplify)==sp.zeros(4))\n\n    # Minimal boundary pair is included alongside the strictly nonzero pair.\n    minimal_a=sp.Matrix([1,0,0,0])\n    minimal_b=(U*minimal_a).applyfunc(sp.simplify)\n    check('minimal_pair_same_S',(minimal_a.T*minimal_a)[0]==sp.simplify((minimal_b.T*minimal_b)[0])==1)\n    for name in names:\n        check(f'minimal_pair_{name}_equal',sp.simplify((minimal_a.T*matrices[name]*minimal_a)[0]-(minimal_b.T*matrices[name]*minimal_b)[0])==0)\n\n    # One cheap explanation in the source WE/phase convention: theta=0 links.\n    link_m=(-1,0,1,2)\n    E=sp.Matrix([[sp.sqrt(2*L+1)*clebsch_gordan(2,L,2,m-1,1,m)\n                  for L in range(1,5)] for m in link_m])\n    check('theta0_link_basis_scaled_orthogonal',(E.T*E).applyfunc(sp.simplify)==5*sp.eye(4))\n    link_transform=(E*U*E.T/5).applyfunc(sp.simplify)\n    expected_link_signs=sp.diag(*[sp.Integer(-1)**m for m in link_m])\n    check('U_is_exact_theta0_link_sign_flip',link_transform==expected_link_signs)\n    for m in (-2,-1,0,1):\n        for L in range(1,5):\n            minus_link=sp.Integer(-1)**(L%2)*sp.sqrt(2*L+1)*clebsch_gordan(2,L,2,m+1,-1,m)\n            plus_reflected=sp.sqrt(2*L+1)*clebsch_gordan(2,L,2,-m-1,1,-m)\n            check(f'magnetic_q_phase_reflection_m{m}_L{L}',sp.simplify(minus_link-plus_reflected)==0)\n    generic_amplitudes=sp.Matrix(sp.symbols('a0:4',real=True))\n    transformed_generic=U*generic_amplitudes\n    magnetic_pi={1:1,2:0,3:1,4:0}\n    m_states=tuple(range(-2,3))\n    final_Z=sp.diag(*[sp.Integer(-1)**mf for mf in m_states])\n    for q in (-1,1):\n        def theta0_operator(amplitude_vector):\n            return sp.Matrix(5,5,lambda i,j:\n                sum(sp.Integer(q)**magnetic_pi[L]*sp.sqrt(2*L+1)*amplitude_vector[L-1]\n                    *clebsch_gordan(2,L,2,m_states[j],q,m_states[i]) for L in range(1,5))\n                if m_states[i]-m_states[j]==q else 0)\n        original=theta0_operator(generic_amplitudes)\n        transformed=theta0_operator(transformed_generic)\n        check(f'theta0_common_final_channel_unitary_q{q}',(transformed+original*final_Z).applyfunc(sp.simplify)==sp.zeros(5))\n\n    a=sp.Matrix([1,sp.Rational(1,2),sp.Rational(1,3),sp.Rational(1,4)])\n    b=(U*a).applyfunc(sp.simplify)\n    S=sp.simplify((a.T*a)[0])\n    Sb=sp.simplify((b.T*b)[0])\n    A=a*a.T\n    B=(b*b.T).applyfunc(sp.simplify)\n    D=(A-B).applyfunc(sp.simplify)\n    check('pair_all_amplitudes_a_strict_positive',all(value>0 for value in a))\n    # Positive b0/b1 are sums. b2/b3 positivity uses squared integer inequalities,\n    # never a floating-point sign or residual test.\n    check('pair_all_amplitudes_b_strict_positive',\n          b[0].is_positive is True and b[1].is_positive is True\n          and 8**2*70>105 and 12**2*70>105\n          and sp.simplify(b[2]-(8*sp.sqrt(70)-sp.sqrt(105))/140)==0\n          and sp.simplify(b[3]-(12*sp.sqrt(70)-sp.sqrt(105))/105)==0)\n    check('same_positive_radiative_scale',S==Sb==sp.Rational(205,144))\n    check('rank1_positive_Gram_A',exact_rank(A)==1 and S>0)\n    check('rank1_positive_Gram_B',exact_rank(B)==1 and Sb>0)\n    check('D_symmetric_trace_zero',D==D.T and sp.trace(D)==0)\n    check('D_exact_rank2',exact_rank(D)==2)\n    residuals=trace_residuals(D)\n    check('D_full_requested_map_zero',all(value==0 for value in residuals))\n    coords_D=sp.Matrix([D[i,j] for i,j in coords])\n    check('D_belongs_to_computed_linear_kernel',(linear_map*coords_D).applyfunc(sp.simplify)==sp.zeros(5,1))\n    c=sp.simplify(sp.trace(D*D)/2)\n    c_formula=(sp.Integer(193375)-23040*sp.sqrt(6))/145152\n    check('D_spectral_scale_exact',sp.simplify(c-c_formula)==0)\n    check('D_spectral_scale_positive_bound',sp.Integer(6)<sp.Rational(25,4) and 193375-23040*sp.Rational(5,2)>0)\n    check('D_cube_equals_cD',(D**3-c*D).applyfunc(sp.simplify)==sp.zeros(4))\n    characteristic=D.charpoly()\n    charvar=characteristic.gen\n    check('D_exact_characteristic_polynomial',sp.simplify(characteristic.as_expr()-charvar**2*(charvar**2-c))==0)\n    f_a=[sp.simplify(value**2/S) for value in a]\n    f_b=[sp.simplify(value**2/S) for value in b]\n    differences=[sp.simplify(left-right) for left,right in zip(f_a,f_b)]\n    check('fractions_each_normalized',sum(f_a)==1 and sp.simplify(sum(f_b)-1)==0)\n    check('all_four_fractions_differ',all(value!=0 for value in differences))\n    check('pair_not_global_plus_or_minus',a!=b and a!=-b)\n    coefficient_a=[sp.simplify((a.T*matrix*a)[0]/S) for matrix in measurement_matrices[1:]]\n    coefficient_b=[sp.simplify((b.T*matrix*b)[0]/S) for matrix in measurement_matrices[1:]]\n    check('all_four_normalized_coefficients_equal',all(sp.simplify(left-right)==0 for left,right in zip(coefficient_a,coefficient_b)))\n\n    def amplitude_only_jacobian(vector):\n        gauge=(vector/vector[0]).applyfunc(lambda value:sp.radsimp(sp.simplify(value)))\n        gauge_S=sp.simplify((gauge.T*gauge)[0])\n        rows=[]\n        for matrix in measurement_matrices[1:]:\n            product=matrix*gauge\n            numerator=sp.simplify((gauge.T*product)[0])\n            rows.append([sp.simplify(2*(product[j]*gauge_S-numerator*gauge[j])/gauge_S**2) for j in (1,2,3)])\n        return gauge,sp.Matrix(rows)\n    gauge_a,jac_a=amplitude_only_jacobian(a)\n    gauge_b,jac_b=amplitude_only_jacobian(b)\n    rank_a,rank_b=exact_rank(jac_a),exact_rank(jac_b)\n    check('locally_regular_amplitude_rank3_at_a',rank_a==3)\n    check('locally_regular_amplitude_rank3_at_b',rank_b==3)\n    check('input_artifact_unchanged',INPUT.read_bytes()==input_bytes)\n    raw_path=ROOT/prior['source']['raw_file']\n    raw_hash=hashlib.sha256(raw_path.read_bytes()).hexdigest()\n    check('source_raw_identity',raw_hash==prior['source']['sha256'])\n    code=Path(__file__).read_text(encoding='utf-8')\n    elapsed=time.monotonic()-started\n    return {\n        'schema_version':1,'created_at_utc':datetime.now(timezone.utc).isoformat(),\n        'artifact_kind':'bounded-Day8-L2-exact-fixed-population-global-pair',\n        'status':'success_exact_full_support_fraction_changing_pair',\n        'day_index':8,'run_closed':False,'new_source_or_course_card':False,'experimental_data_fit':False,\n        'evidence_class':'our exact finite matrix-algebra certificate under the existing RB amplitude model; not a source-authored experimental claim',\n        'source':{'prior_matrix_artifact':str(INPUT.relative_to(ROOT)),\n                  'prior_matrix_artifact_sha256':hashlib.sha256(input_bytes).hexdigest(),\n                  'raw_path':str(raw_path.relative_to(ROOT)),'raw_sha256':raw_hash,\n                  'locators':['RB67 printed p312/PDF7 footnote7','printed p316/PDF11 Eq3.24, coherent-linear paragraph and WE relation after Eq3.25',\n                              'printed p317/PDF12 Eq3.28','printed p319/PDF14 Eqs3.35-3.39',\n                              'printed p320/PDF15 Eqs3.40-3.43'],\n                  'validated_exact_response_matrices':prior['coefficient_interface']['exact_matrices'],\n                  'matrix_formula_provenance':prior['coefficient_interface']},\n        'scope':{'amplitude_order':list(LABELS),'known_population':{'p0':'1/4','p1':'1/4','w0':'1/4','w_plus_minus_1_each':'1/8','w_plus_minus_2_each':'1/4'},\n                 'known_population_tensors':{'B2':sp.sstr(B2),'B4':sp.sstr(B4)},\n                 'assumptions':['Ji=Jf=2, same definite parity','real RB normalized interaction amplitudes with magnetic q^pi retained',\n                                'diagonal aligned axial nuclear population, final nuclear orientation unobserved',\n                                'all M1/E2/M3/E4 allowed; no two-multipole truncation',\n                                'common fixed photon energy and amplitude-scale convention; no measured energy or strength supplied'],\n                 'observable_scope':'same S and identical full pointwise normalized W and Delta; consequently identical local photon intensity matrix H=1/2[[W,-Delta],[-Delta,W]] and all same-direction polarization observables',\n                 'excluded':['photon coherence between different directions','gamma-gamma cascade or final-state spin observations','ICC/pair/E0 channels','total level lifetime','complex amplitudes or nonaxial/polarized population','microscopic realizability or high-multipole strength bounds']},\n        'linear_kernel':{'requested_map':'Sym4 -> [TrD,Tr(R2D),Tr(T2D),Tr(R4D),Tr(T4D)]',\n                         'coordinate_order':[list(pair) for pair in coords],\n                         'offdiagonal_convention':'coordinate d_ij multiplies E_ij+E_ji, so each trace row contains 2*M_ij for offdiagonal columns',\n                         'requested_exact_linear_map':serial_matrix(raw_map),\n                         'equivalent_row_scaled_map':serial_matrix(linear_map),\n                         'row_scalings':[sp.sstr(value) for value in row_scalings],\n                         'row_scaling_reason':'known B2 and B4 are nonzero; scaling improves the exact algebraic field and leaves the requested kernel unchanged',\n                         'rank':rank,'kernel_dimension':kernel_rows.rows,'algebraic_field':str(dm.domain),'basis':full_kernel_basis},\n        'bounded_probe':{'principal_three_coordinate_supports':principal_supports,\n                         'search_limit':'four principal three-coordinate restrictions, their kernel basis vectors only, and one resulting explicit involution; no grid, optimization or global inverse search',\n                         'no_remaining_search_needed':'an exact full-support pair is already certified; no claim of complete branch classification'},\n        'involution':{'alpha':sp.sstr(alpha),'beta':sp.sstr(beta),'U':serial_matrix(U),\n                      'verified':'U^T=U, U^2=I, U^T*U=I, U^T*R2*U=R2, U^T*T2*U=T2, U^T*R4*U=R4, U^T*T4*U=T4',\n                      'consequence':'for any real amplitude vector, a and U*a have the same norm and these four quadratic responses. This exhibits a symmetry, not a proof that it exhausts all inverse branches.'},\n        'minimal_boundary_pair':{'a':[sp.sstr(value) for value in minimal_a],\n                                 'b':[sp.sstr(value) for value in minimal_b],'same_S':'1',\n                                 'radiative_fractions_a':['1','0','0','0'],\n                                 'radiative_fractions_b':['0','3/35','0','32/35'],\n                                 'meaning':'Pure M1 and the specified E2/E4 coherent combination have equal responses. This boundary example is supplementary; the full-support pair below avoids a boundary-only argument.'},\n        'theta0_link_explanation':{'source_locator':'RB67 printed p316/PDF11 Eq3.24 and WE after Eq3.25; rotation convention printed p312/PDF7 footnote7',\n                                   'link_m_order':list(link_m),\n                                   'link_definition':'e_m=sum_L sqrt(2L+1)*a_L*CG(2,L;Mf=m-1,q=1|2,m)',\n                                   'E_matrix':serial_matrix(E),'E_TE':'5I',\n                                   'E_U_E_inverse':serial_matrix(link_transform),\n                                   'q_minus_reflection':'With pi_L=L mod2, the q=-1 link at initial m is the q=+1 link at initial -m; magnetic q^pi is essential.',\n                                   'exact_theta0_operator_identity':'A_q(Ua,zaxis)=-A_q(a,zaxis)*Z_f for q=+/-1, Z_f=diag((-1)^Mf) on Mf=-2..2',\n                                   'interpretation':'At theta=0 the same U is a common final-channel unitary phase for both helicities. Tensor rotation carries it to a common direction-dependent final-spin unitary Z_f(R); the same-direction photon Gram trace over unobserved final spin is unchanged. This explains the explicitly verified response symmetry within this J_i=J_f=2 model.',\n                                   'boundary':'The theta=0 link/operator identities are checked exactly; the covariant extension uses the source tensor-rotation law. No claim about other spins or cross-direction coherence is made: Z_f(R) need not cancel between two different directions.'},\n        'exact_pair':{'a':[sp.sstr(value) for value in a],'b':[sp.sstr(value) for value in b],\n                      'a_numeric_display_only':[str(sp.N(value,12)) for value in a],\n                      'b_numeric_display_only':[str(sp.N(value,12)) for value in b],\n                      'S_a':sp.sstr(S),'S_b':sp.sstr(Sb),\n                      'all_four_amplitudes_strict_positive':True,\n                      'positivity_proof':'b0,b1 are positive sums; b2=(8sqrt70-sqrt105)/140>0 because 64*70>105; b3=(12sqrt70-sqrt105)/105>0 because 144*70>105.',\n                      'Gram_A':serial_matrix(A),'Gram_B':serial_matrix(B),\n                      'PSD_rank1_proof':'A=a*a^T and B=b*b^T are real positive-semidefinite rank1 matrices with the same positive trace S=205/144.',\n                      'D':serial_matrix(D),'D_rank':2,'D_trace':'0',\n                      'requested_trace_residuals':[sp.sstr(value) for value in residuals],\n                      'D_spectrum':['sqrt(c)','-sqrt(c)','0','0'],\n                      'c':sp.sstr(c),'c_positive_bound':'sqrt6<5/2 implies c=(193375-23040sqrt6)/145152 >135775/145152>0',\n                      'D_characteristic_polynomial':'lambda^2*(lambda^2-c)',\n                      'radiative_fractions_a':dict(zip(LABELS,[sp.sstr(value) for value in f_a])),\n                      'radiative_fractions_b':dict(zip(LABELS,[sp.sstr(value) for value in f_b])),\n                      'radiative_fractions_b_numeric_display_only':dict(zip(LABELS,[str(sp.N(value,12)) for value in f_b])),\n                      'fraction_differences_a_minus_b':dict(zip(LABELS,[sp.sstr(value) for value in differences])),\n                      'coefficient_order':['A2','C2','A4','C4'],\n                      'coefficient_values_a':[sp.sstr(value) for value in coefficient_a],\n                      'coefficient_values_b':[sp.sstr(value) for value in coefficient_b],\n                      'full_coefficient_residuals':['0','0','0','0'],\n                      'equality_boundary':'Equal coefficients and S certify the specified same-direction photon observables exactly; no finite-step approximation or floating residual enters the certificate.'},\n        'local_vs_global':{'M1_gauge_chart_a':[sp.sstr(value) for value in gauge_a],\n                           'M1_gauge_chart_b':[sp.sstr(value) for value in gauge_b],\n                           'amplitude_Jacobian_rank_a':rank_a,'amplitude_Jacobian_rank_b':rank_b,\n                           'meaning':'Both points have local rank3 in the fixed-population amplitude chart, yet they are distinct non-gauge global equal-observable branches with different fractions. Local identifiability therefore does not imply global uniqueness.',\n                           'absolute_scale_caution':'The original a,b above have equal S; their separate a_M1=1 charts only describe projective coordinates, not equal absolute amplitude scales.'},\n        'not_proved':['classification of all global branches','uniqueness after quotienting by this U and global sign','stability/confidence intervals with measured data',\n                      'whether an actual nucleus can realize or exclude the large higher-multipole fractions','which uncomputed companion channel separates this pair'],\n        'checks':{'exact':checks,'passed':sum(checks.values()),'failures':0,'elapsed_seconds':elapsed},\n        'reproducibility':{'script_path':str(Path(__file__).relative_to(ROOT)),\n                           'script_sha256':hashlib.sha256(code.encode('utf-8')).hexdigest(),'source_code':code,\n                           'python':platform.python_version(),'sympy':sp.__version__,'dependencies':str(DEPS.relative_to(ROOT)),\n                           'baseline_path':str((RUN/'baseline.json').relative_to(ROOT)),\n                           'baseline_sha256':hashlib.sha256((RUN/'baseline.json').read_bytes()).hexdigest(),\n                           'check_command':'python3 tmp/day8-20261007/four-multipoles/global-pair/fixed_population_pair.py',\n                           'write_command':'python3 tmp/day8-20261007/four-multipoles/global-pair/fixed_population_pair.py --write-receipt',\n                           'write_policy':'exclusive new owned JSON creation only; prior artifact/raw/canonical/report/state/Git unchanged'},\n    }\n\n\ndef main():\n    parser=argparse.ArgumentParser(description=__doc__)\n    parser.add_argument('--write-receipt',action='store_true')\n    args=parser.parse_args()\n    result=main_result()\n    if args.write_receipt:\n        with OUT.open('x',encoding='utf-8',newline='\\n') as stream:\n            json.dump(result,stream,ensure_ascii=False,indent=2)\n            stream.write('\\n')\n    print(json.dumps({'artifact':str(OUT.relative_to(ROOT)) if args.write_receipt else None,\n                      'status':result['status'],'kernel_dimension':result['linear_kernel']['kernel_dimension'],\n                      'a':result['exact_pair']['a'],'b':result['exact_pair']['b'],\n                      'S':result['exact_pair']['S_a'],'fraction_b':result['exact_pair']['radiative_fractions_b_numeric_display_only'],\n                      'local_ranks':[result['local_vs_global']['amplitude_Jacobian_rank_a'],result['local_vs_global']['amplitude_Jacobian_rank_b']],\n                      'checks':result['checks']['passed'],'elapsed_seconds':result['checks']['elapsed_seconds'],\n                      'run_closed':False},ensure_ascii=False,indent=2))\n\n\nif __name__=='__main__':\n    main()\n",
+    "python": "3.12.3",
+    "sympy": "1.14.0",
+    "dependencies": "tmp/day8-20261007/rose-brink/python-deps",
+    "baseline_path": "outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/baseline.json",
+    "baseline_sha256": "ac73898f4f4e970a15d9fa9b6f3a6e876903bac44f9740c261a395cb4e0adc09",
+    "check_command": "python3 tmp/day8-20261007/four-multipoles/global-pair/fixed_population_pair.py",
+    "write_command": "python3 tmp/day8-20261007/four-multipoles/global-pair/fixed_population_pair.py --write-receipt",
+    "write_policy": "exclusive new owned JSON creation only; prior artifact/raw/canonical/report/state/Git unchanged"
+  }
+}

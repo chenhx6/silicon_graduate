@@ -71,6 +71,8 @@ tags: [Rose-Brink, angular-distribution, phase-convention, mixing-ratio, alignme
 | RB67-11 | Linear x′/y′ intensities use coherent differences/sums of the two helicity amplitudes; the CG ordering, rotation exponent and magnetic `q^π` factor are part of the amplitude identity and cannot be replaced by a helicity-summed angular response alone. | experimental-criterion | direct | printed p.316 / PDF p.11, Eq.3.24, intervening polarization paragraph and unnumbered WE relation after Eq.3.25; printed p.312 / PDF p.7, footnote7 | true |
 | RB67-12 | In the explicitly synthetic Ji=3/2→Jf=1/2 reconstruction, fixed high-M population lets ideal linear polarization separate the RB δ=0/√3 angular branches; alternatively, pure E1/high-M and pure M2/low-M give identical pointwise direction/polarization intensity matrices. These are task-derived conditional counterexamples, not author-reported experiments or a statement about complete photon states. | our-inference | indirect | Premises: printed p.316 / PDF p.11, Eqs.3.24–3.25; printed p.317 / PDF p.12, Eq.3.28; printed p.318 / PDF p.13, Eq.3.29; printed p.347 / PDF p.42, ρ2 table | true |
 | RB67-13 | For the explicitly synthetic 2+→2+ case with all M1/E2/M3/E4 retained and unknown aligned diagonal populations, the complete normalized pointwise direction/polarization matrix has four shape coefficients. An exact interior seed gives rank4 for five inputs and a fraction-changing local one-dimensional equal-observable family; fixed population gives local rank3 but no global uniqueness. These are our reconstruction and IFT application. | our-inference | indirect | premises: printed p.316 / PDF11 Eq.3.24 and polarization/WE paragraph; p.317 / PDF12 Eq.3.28 and rotation-product identity; p.319 / PDF14 Eq.3.36; p.324 / PDF19 Eqs.3.62–3.63 and same-initial-state companion paragraph | true |
+| RB67-14 | 在固定RB约定、完整M1/E2/M3/E4模型内，正交involution U保持S及四个方向/偏振二次型；给定严格正、非等权且已知布居，两个四成分全非零、分别局部rank3的向量仍有相同pointwise强度而不同γ份额。此为73-check精确全局pair与未观测final-channel unitary解释，不是作者实验结果或所有global branches的分类。 | our-inference | indirect | premises: printed p316 / PDF11 Eq3.24 and WE ordering; p317 / PDF12 Eq3.28; p318 / PDF13 Eq3.29; p319 / PDF14 Eqs3.35–3.39; construction in Four-Multipole Direction and Polarization Reconstruction | true |
+| RB67-15 | 合成3+→1+的完整E2/M3/E4、aligned population模型有六个normalized W/Δ系数；一个严格内域的6×5 Jacobian为rank5并给局部逆解。PureE2恒A6=C6=0，但isotropy或higher-response干涉可使K6消失。该41-check重构不证明全局唯一或实际spin/multipolarity赋值。 | our-inference | indirect | premises printed316/PDF11 Eq3.24; printed317/PDF12 Eq3.28; printed318/PDF13 Eq3.32 note(iii); printed319/PDF14 Eq3.36; synthetic reconstruction and exact minor in Supplement | true |
 
 ## Summary
 
@@ -181,6 +183,66 @@ rank4使系数映射为局部submersion；隐函数定理给同一四系数的�
 固定已知p0/p1时，同一点4×3 amplitude-only Jacobian为rank3，选择非零minor可局部逆解；没有证明global唯一。在isotropic p0=1/5,p1=2/5处B2=B4=0，所有同S混合都W=1、Δ=0，直接反证“校准布居即保证所有点唯一”。若另加Gaussian布居或低阶混合ansatz，变量维数会变，但这是额外模型条件，不能冒充独立测量或普遍选律。
 
 新增合成companion设计：假定同一2+初态另有到独立已知0+的γ branch；triangle/parity使该branch是唯一L2、pure E2。Eq.3.36给 `R2c=−√70/14`、`R4c=−2√14/7`，均非零。其两角系数可解 `B2=A2c/R2c,B4=A4c/R4c`，继而 `p0=1/5+2A2c/5−3A4c/10`、`p1=2/5+2(A2c+A4c)/5`。这是未给定、未实测的设计条件，要求相同event/gate/feeding布居、axis、响应/有限角度修正、覆盖与covariance；从未知mixed目标fit出的布居仍是共享假设。原文同初态多branch思路定位p.324右栏末段。
+
+### 已知非等权布居下的精确全局多解
+
+进一步在固定RB convention与上述完整四γ自由振幅模型内，找到实正交involution。令 `rU=√(3/35),sU=√(32/35)`，次序仍为M1/E2/M3/E4：
+
+| U row / column | M1 | E2 | M3 | E4 |
+|---|---|---|---|---|
+| M1 | 0 | rU | 0 | sU |
+| E2 | rU | 0 | sU | 0 |
+| M3 | 0 | sU | 0 | −rU |
+| E4 | sU | 0 | −rU | 0 |
+
+exact检查 `Uᵀ=U,U²=I` 和 `Uᵀ M U=M`，M依次为I、R2、T2、R4、T4。因此a与b=Ua保持同S和四个radiation二次型；任意共同的aligned布居给同一W/Δ。它在固定算符约定内改变multipole amplitudes与fractions，并不依靠修改population或有限直线步。
+
+主证书取 `a=(1,1/2,1/3,1/4)`、`b=(rU/2+sU/4,rU+sU/3,sU/2−rU/4,sU−rU/3)`。两向量四分量均严格正且非零，S=205/144；已知非等权布居仍为p0=p1=1/4，B2、B4非零，两解各自的projective amplitude Jacobian都为rank3。
+
+| γ multipole | Fraction for a | Fraction for b (exact) | b approximate display |
+|---|---|---|---|
+| M1 | 144/205 | `(396+144√6)/7175` | 0.104352 |
+| E2 | 36/205 | `(944+384√6)/7175` | 0.262663 |
+| M3 | 16/205 | `(1179−144√6)/7175` | 0.115160 |
+| E4 | 9/205 | `(4656−384√6)/7175` | 0.517825 |
+
+lifted证书 `D=aaᵀ−bbᵀ` 为非零rank2、trace0，并满足 `Tr(R2D)=Tr(T2D)=Tr(R4D)=Tr(T4D)=0`。两个Gram矩阵均positive rank1；四个normalized coefficient residuals exact为0。主代理复现73项检查，零失败。故已知非isotropic population、两个局部rank3解仍能有离散全局多解；这里只给该involution与pair，不分类所有global branches。
+
+补充简例：纯M1 `a=(1,0,0,0)` 映为 `b=(0,rU,0,sU)`，即E2/E4 coherent组合，份额3/35和32/35；sameS与全部R/T同样保持。此简例便于读图，主证书的四成分全非零使论证不只依靠边界。
+
+物理解释从p316 Eq3.24/WE得到θ=0的q+ projected links：`e_m=ΣL √(2L+1)a_L CG(2,L;Mf=m−1,q=1|2,m)`，m=(−1,0,1,2)。其link矩阵满足 `C_linkᵀ C_link=5I`，`C_link U C_link^−1=diag(−1,+1,−1,+1)`。保留magnetic q^π后，q− links遵循m→−m reflection；两个helicity的initial-row/final-column矩阵均满足 `Aq(Ua,z)=−Aq(a,z) Zf`，`Zf=diag[(-1)^Mf]`。共同final-channel unitary在同方向求和未观测Mf时消去；tensor旋转将它携至方向相关Zf(R)。不同方向的Zf不必相同，因此没有全光子态/cross-direction coherence等价声明。
+
+在共同k/辐射尺度下同S给同目标γ宽度（p318 Eq3.29）；ICC、E0、其它branches和total lifetime未被证为相同。较高多极的long-wave、strength上限或微观模型可增加条件，这些信息没有由合成题给出。本例不证明实际核素中高阶显著，不建立新level/transition或L4。
+
+### 合成C：六个角/偏振系数的局部逆解与零点边界
+
+本节仍是本任务L2重构，非RB67作者直接列出的实验。对题设 `3+→1+` 保留全部E2/M3/E4，实RB amplitudes `a=(1,u,v)`；已知轴、aligned diagonal布居 `w0=p0,w±1=p1/2,w±2=p2/2,w±3=(1−p0−p1−p2)/2`。初态与末态Mf遍历完整，M3保留q^π。来源premises为p316 Eq3.24/WE、p317 Eq3.28/rotation product、p318 rank/real-amplitude规则、p319 Eq3.36。
+
+完整求和后W/Δ均为六次even多项式，没有预删K8：`W=1+A2P2+A4P4+A6P6`、`Δ=C2P2^(m=2)+C4P4^(m=2)+C6P6^(m=2)`。关联Legendre定义和meridian分析轴沿前文，normalized P=Δ/W。B2=`√3(−9p0−8p1−5p2+5)/6`，B4=`√22(3p0−2p1−10p2+3)/22`，B6=`√33(−21p0+14p1−7p2+1)/66`，三个population coordinates独立。
+
+为使结果不只留在临时code，本节给六个exact forward functions（S=1+u²+v²），次序与输入(u,v,p0,p1,p2)一致：
+
+`A2 = (9*p0 + 8*p1 + 5*p2 - 5)*(63*u**2 - 10*sqrt(35)*u*v - 24*sqrt(14)*u + 85*v**2 - 8*sqrt(10)*v + 48)/(336*(u**2 + v**2 + 1))`
+
+`A4 = (3*p0 - 2*p1 - 10*p2 + 3)*(7*u**2 - 54*sqrt(35)*u*v - 110*sqrt(14)*u + 81*v**2 - 18*sqrt(10)*v - 88)/(924*(u**2 + v**2 + 1))`
+
+`A6 = (21*p0 - 14*p1 + 7*p2 - 1)*(45*u**2 - 14*sqrt(35)*u*v - v**2 + 32*sqrt(10)*v)/(528*(u**2 + v**2 + 1))`
+
+`C2 = -(9*p0 + 8*p1 + 5*p2 - 5)*(63*u**2 - 10*sqrt(35)*u*v + 18*sqrt(14)*u - 75*v**2 - 2*sqrt(10)*v - 72)/(1008*(u**2 + v**2 + 1))`
+
+`C4 = -(3*p0 - 2*p1 - 10*p2 + 3)*(70*u**2 - 36*sqrt(35)*u*v + 55*sqrt(14)*u - 270*v**2 + 81*sqrt(10)*v - 220)/(27720*(u**2 + v**2 + 1))`
+
+`C6 = (21*p0 - 14*p1 + 7*p2 - 1)*(45*u**2 + 2*sqrt(35)*u*v + 15*v**2 - 32*sqrt(10)*v)/(15840*(u**2 + v**2 + 1))`
+
+seed `(u,v,p0,p1,p2)=(1/2,1/3,1/4,1/4,1/4)` 的所有w严格正、三成分非零，S=49/36，B2=−√3/12、B4=3√22/88、B6=−5√33/132均非零。6×5 Jacobian在`QQ<√10+√14>` exact rank5；rows(A2,A4,A6,C2,C4)的minor为
+
+`-9*(-23338289430*sqrt(14) - 5244034414*sqrt(35) + 14018306057*sqrt(10) + 62121460520)/699996265041920`，exact非零（approx1.52959×10⁻⁴仅展示）。因此这个5-output子映射有smooth local inverse，全部六coefficients在模型内可局部约束两个relative amplitudes与三个population变量。没有从determinant大小推断实验精度，没有证明global唯一；仍需响应/统计covariance与discrete Jπ/模型候选比较。41项由主代理复现（约5.50s）。
+
+边界控制：pureE2 u=v=0时A6=C6恒0，所有population下成立，因L2+L2<6；此点full-map rank4。给定calibrated响应下nonzero K6可排除pureE2，但zero K6不是逆命题。isotropic p0=1/7,p1=p2=2/7、u=1/2,v=1/3仍有higher amplitudes，却W1/Δ0，此点rank3。B6非零也可由R6 response干涉抵消A6：
+
+`A6/B6=−√33[45u²−14√35uv−v²+32√10v]/[264(1+u²+v²)]`。
+
+u=1/2时two real nonzero E4 roots为 `v=16√10−7√35/2±2√(750−140√14)`，A6 exact为0，C6不必为0。仅未见A6不能删M3/E4；population消失与response cancellation要分开。该spin组合的local rank结论校准前例2+→2+的五参数/四coefficients连续解：它们各自依赖给定的Ji/Jf与模型条件，不推广为所有spin组合的统一排解结论。
 
 ## Human Review Triage
 

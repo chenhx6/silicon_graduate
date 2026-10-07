@@ -157,6 +157,18 @@ M1参考chart `a=(1,u,v,z)`，seed `(u,v,z,p0,p1)=(1/2,1/3,1/4,1/4,1/4)` 严格�
 
 独立已知p0/p1后同一点amplitude-only Jacobian为rank3，局部识别性改善；isotropic B2=B4=0时任意混合仍W=1、Δ=0，所以不能推广为global唯一。新增的合成same-parent2+→0+ pure-E2参考branch可因R2/R4皆非零同时校准两个B_K，但该branch不是题设或测量。需要spin/parity独立锚点与gate/feeding/axis/response匹配、角覆盖和covariance；Gaussian布居或低阶截断只是额外模型条件。
 
+### 校准布居后仍可有全局多解：精确U对
+
+RB67-14在相同四成分模型给出正交U，保留S及R2/T2/R4/T4全部二次型。a=(1,1/2,1/3,1/4)与b=Ua均四分量非零/正，固定p0=p1=1/4，两个解各自local rank3，却具有相同全部W、Δ和pointwise photon matrix。a的fractions为(144,36,16,9)/205，b约为(0.10435,0.26266,0.11516,0.51783)。精确U、向量、fractions与rank2 trace-zero lifted证书在[[rose-brink-1967-phase-defined-angular-distributions]]保存，73项由主代理复现。
+
+较简的pure-M1向量也映为E2/E4组合，fractions=3/35、32/35，相同photon响应；它没有说明实际核素具有显著E4。给定photon ranks/low-order truncation或额外strength/ICC/核末态信息可以改变判断，须各自给证据。U在固定convention内改变multipole内容，同方向核末态trace隐藏某些projected channel phases；没有声称跨方向coherence、cascade或total τ同一。这里证明的是一组global pair，不是完整反演分类。
+
+### Case C 的局部满秩与K6消失条件
+
+合成3+→1+保留E2/M3/E4和三个unknown aligned population参数时，完整W/Δ含K2/4/6六shape coefficients。RB67-15在三amplitudes非零、所有w正的seed给6×5 exact rank5；所选五coefficients有局部inverse。前例2+→2+的连续联合解不能直接套到这个spin组合，rank也不证明global唯一。全部forward expressions/41-check/minor在[[rose-brink-1967-phase-defined-angular-distributions]]保存。
+
+PureE2因L2+L2<6使A6=C6恒零；properly calibrated nonzero K6可排除此pure-mode模型。Zero A6可来自isotropic B6=0或higher amplitudes的R6干涉抵消，即使B6≠0。u=1/2时v=16√10−7√35/2±2√(750−140√14)给two非零M3/E4组合的A6=0，C6不必为0。需同时对照population、完整angular/polarization curve、response与covariance，不按未见K6删除所有higher candidates。
+
 ## How It Is Obtained
 
 可由角分布、角关联/DCO、线偏振和内转换系数与理论响应比较得到。

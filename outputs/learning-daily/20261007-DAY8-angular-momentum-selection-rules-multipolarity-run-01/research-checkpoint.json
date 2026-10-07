@@ -13,11 +13,11 @@
   ],
   "course_state_updated": false,
   "runtime_snapshot": {
-    "now_local": "2026-10-07T12:17:11+08:00",
+    "now_local": "2026-10-07T16:01:45+08:00",
     "hard_deadline": "2026-10-08T15:00:00+08:00",
     "next_scheduled_start": "2026-10-08T16:00:00+08:00",
-    "minutes_to_deadline": 1602,
-    "minutes_to_next_start": 1662,
+    "minutes_to_deadline": 1378,
+    "minutes_to_next_start": 1438,
     "minimum_current_block_minutes": 90,
     "minimum_forward_card_block_minutes": 120,
     "can_continue_current": true,
@@ -46,6 +46,12 @@
       "next_gain": "rank4/IFT local joint family and fixed-population rank3 checked; global/cascade/ICC inversion remains outside this bounded exercise"
     },
     {
+      "id": "day8-fixed-population-global-pair",
+      "decision": "bounded-route-complete",
+      "next_gain": "exact orthogonal U and full-support fraction-changing pair verified; local rank3 at both; no exhaustive global classification attempted",
+      "scope": "existing RB matrices; limited structural kernel cases, exact certificate or failure boundary, no full global inversion"
+    },
+    {
       "id": "day8-gamma-cascade-expansion",
       "decision": "deferred",
       "next_gain": "no cascade spins/gate supplied; extra synthetic cases would not change current exclusion boundary"
@@ -57,14 +63,29 @@
     },
     {
       "id": "day9-independent-icc-input-readiness",
-      "decision": "selected-readonly-readiness",
+      "decision": "bounded-route-complete-with-coverage-boundaries",
       "scope": "existing BrICC source/tool or independent atomic-data input only; no new literature batch, no new card",
-      "next_gain": "check whether photon/total-branch alternatives can be forward-compared using independent theoretical ICC inputs, rather than reverse-solving coefficients from quoted B"
+      "next_gain": "5 independent FO points and forward definitions checked; no author processing identity or NH/radius/covariance resolution"
     },
     {
       "id": "day10-card",
       "decision": "out-of-scope-not-opened",
       "next_gain": "single Day+1 authorization only"
+    },
+    {
+      "id": "day8-caseC-complete-rank",
+      "decision": "bounded-local-route-complete; global pair in progress",
+      "next_gain": "positive local rank5 versus global ambiguity distinction"
+    },
+    {
+      "id": "day8-U-E0-companion-completeness",
+      "decision": "selected-bounded-L2",
+      "next_gain": "test whether one total ICC and tau exclude calibrated-photon U pair when E0 is allowed"
+    },
+    {
+      "id": "day8-LKH82-model-operator-boundary",
+      "decision": "selected-existing-source-reread",
+      "next_gain": "formal leading-M1 model zero, matrix-element suppression and high-multipole hierarchy conditions"
     }
   ],
   "evidence_gaps": [
@@ -83,23 +104,36 @@
     }
   ],
   "next_actions": [
-    "Day9 uncredited two-parent/four-branch gamma-only negative controls",
-    "Day9 independent theoretical ICC input availability/source-provenance audit for the two-parent controls",
-    "refresh clock and candidate pool after the complete four-multipole bounded route",
-    "2026-10-08 15:00 closeout, Day9 plan/prompt and gated course state update"
+    "Case C global projected-link involution certificate",
+    "Day8 U-pair plus E0/total ICC/lifetime and shell companion-completeness algebra",
+    "LKH82 collective M1/operator and model/data-quality truncation boundary focused reread",
+    "2026-10-08 15:00 closeout, Day9 plan/prompt and gated state update"
   ],
-  "latest_verification": "/workspace/wiki/outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/checkpoint-preview-checks.json",
+  "latest_verification": "checkpoint-FO-caseC-checks.json",
   "checkpoint_verified": true,
   "latest_completed_route": {
-    "id": "day8-four-multipole-full-polarization-rank",
-    "parent_exact_checks": 43,
-    "rank": 4,
-    "fixed_population_rank": 3,
-    "source_claim": "RB67-13"
+    "id": "day8-fixed-population-global-pair",
+    "parent_exact_checks": 73,
+    "local_ranks": [
+      3,
+      3
+    ],
+    "source_claim": "RB67-14",
+    "global_equal_observable_pair": true
   },
   "uncredited_preview": {
     "day": 9,
     "status": "controls complete numerically; source/atomic input readiness in progress"
   },
-  "knowledge_writeback_pages": 6
+  "knowledge_writeback_pages": 7,
+  "ongoing_routes": [
+    "case-C complete six angular/polarization coefficients and exact local rank",
+    "Day9 five official FO theoretical ICC values and conditional forward ledger; no author-processing identification"
+  ],
+  "latest_publication": {
+    "branch": "main",
+    "subject": "Verify DAY8 four-multipole ambiguity and DAY9 rate controls",
+    "H3_passed": true
+  },
+  "FO_status": "5 model points, 2 N6-warning points; offline parent replay0 new queries"
 }

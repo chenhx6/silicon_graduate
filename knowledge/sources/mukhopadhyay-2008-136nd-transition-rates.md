@@ -174,3 +174,7 @@ The `136Nd` lifetime study is a direct electromagnetic-strength counterexample t
 
 - Nucleus/project: `136Nd`, [[nuclear-chirality-and-multiple-chiral-doublet-bands]]。
 - Methods/models: [[doppler-shift-attenuation-method]], [[tilted-axis-cranking]], [[random-phase-approximation]]。
+
+## Independent ICC Input Boundary
+
+2026-10-07的五个现代official FO lookup和条件forward ledger见[[kibedi-2008-evaluation-theoretical-conversion-coefficients-bricc]]的dated supplement、[[high-spin-lifetime-strength-deformation]]。它们不识别本文实际使用的表/branch定义；两点N6缺项、defaultNd144/actual136Nd radius、模型与shared covariance边界保留。原文所称process出处确为printed034311-6 / PDF6 Ref.[16]：C.J.Chiara et al., Phys.Rev.C64,054314(2001)，本次没有新文献批次或该source的full text；repository raw/knowledge查找未命中，不补写其方法。原作者B、Qt、Jπ和review flags保持原样。

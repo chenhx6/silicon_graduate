@@ -3,7 +3,7 @@ type: source
 title: "Evaluation of Theoretical Conversion Coefficients Using BrIcc"
 aliases: [Kibedi 2008 BrIcc, BrIcc theoretical conversion coefficients, Kibedi 2008 ICC uncertainties]
 created: 2026-07-12
-updated: 2026-07-15
+updated: 2026-10-07
 status: ai-draft
 review_status: human-reviewed
 source_type: method-review-article
@@ -133,3 +133,90 @@ This source is not a nucleus-specific structure paper. The many listed nuclei or
 ## Personal Notes
 
 Navigation only: use this source with [[rezynkina-2017-graphical-extraction-multipole-mixing-ratios]] and [[internal-conversion-analysis]] for future ICC/mixing-ratio work. Scientific reconstruction is owned by the table above; no additional provisional reasoning is stored here.
+
+## 2026-10-07 Supplement — Codex self-audit, needs_review
+
+本附录为2026-10-07的新学习/查询，**未经人工审核**。原page `review_status`、KB08-1–8的false标记和AR-KB08-1–6的human-reviewed记录原样保留；它们对应2026-07-15历史审核，不能延伸覆盖本附录。以下新claim均needs_review=true。
+
+### 新阅读覆盖与直接来源定位
+
+本次读Sections1–6的问题、ENSDF/ICC、误差、FO/NH、数值/物理边界、插值、实现和Summary；读Appendix A接口、按用途浏览Appendix B，定向核Z60 row（printed221 / PDF20）。原图核p203/PDF2 Eqs.(1)–(5)、p206/PDF5 Table2/脚注、p207/PDF6 FO/NH和Eq.(24)、p213/PDF12 interpolation。未宣称逐行重读全Appendix；raw SHA与原记录一致。
+
+- p206/PDF5 Table2脚注的1.4% **已包括插值贡献**；p213/PDF12的约0.3%是插值精度界，不能再独立quadrature加入。原KB08-6的总体覆盖摘要须连同各subshell边界使用。
+- p208/PDF7 Sec.4.1.4：Z59–75的N6在约400keV有数值截断；作者说被省的高能外壳贡献typically less than10⁻⁹，这不是对某一具体缺项点的严格upper bound。
+- p221/PDF20 TableB.1列60-Nd-144默认mass/radius与K binding43.5689keV；用于Mu08的136Nd时，Z相同不等于已对A136作新的finite-size计算。当前web未暴露逐点radius/datafile hash，不按A幂改α。
+- p208/PDF7的surface-current/penetration、neutral free atom与chemical/ionization条件保留。BrIcc理论不增加独立核谱实验，也不给δ sign。
+
+### 五个独立理论查询点
+
+官方入口 https://bricc.anu.edu.au/ ，检索日期2026-10-07，实际返回 **BrIccS v2.3 (9-Dec-2011) / BrIccFO**。输入Z60、给定E和pure M1/E2；未向server提交寿命、branch或B。标记沿Mu08提取假设：ΔI1 pure M1是作者假设，ΔI2沿其E2赋值；没有新measured δ。五个点共6次POST（初始All空响应、授权FO-only同点control、其余4点）。NH数值没有查得。
+
+| Eγ (keV), pure hypothesis | Program-reported Tot α | αK | Returned coverage |
+|---|---|---|---|
+| 401.2 M1 | 0.0320(5) | 0.0274(4) | N6 missing; warning retained |
+| 389.6 M1 | 0.0345(5) | 0.0295(5) | no returned-table warning |
+| 757.4 E2 | 0.00416(6) | 0.00351(5) | N6 missing; warning retained |
+| 199.6 M1 | 0.204(3) | 0.1739(25) | no returned-table warning |
+| 382.0 E2 | 0.0251(4) | 0.0204(3) | no returned-table warning |
+
+括号是NDSh尾位误差，α无量纲；Tot与K不同。401.2与757.4两点的warning均为 `ICC could not be calculated for EG above 398.000 keV`，N6为空，未补零或外推。其它三点只表示返回表无coverage warning；不能据此保证实际原子/实验decay inventory完全闭合。主要壳层之和在打印Tot误差内；保留原Tot，避免重舍入或对Total作手工插值。
+
+下面保存本次实际返回的所有subshell与major sums，shell行M1/M2/M3表示电子壳层，表头M1/E2表示核γ的假设多极性，二者分开。所有数据都是该FO模型lookup，不是Mu08测得的conversion coefficients。
+
+| Subshell / major sum | 401.2 M1 | 389.6 M1 | 757.4 E2 | 199.6 M1 | 382.0 E2 |
+|---|---|---|---|---|---|
+| Tot | 0.0320(5) | 0.0345(5) | 0.00416(6) | 0.204(3) | 0.0251(4) |
+| K | 0.0274(4) | 0.0295(5) | 0.00351(5) | 0.1739(25) | 0.0204(3) |
+| L1 | 0.00344(5) | 0.00371(6) | 0.000419(6) | 0.0221(3) | 0.00232(4) |
+| L2 | 0.000203(3) | 0.000221(3) | 5.76E-5(8) | 0.001554(22) | 0.000831(12) |
+| L3 | 4.02E-5(6) | 4.36E-5(7) | 3.26E-5(5) | 0.000301(5) | 0.000570(8) |
+| L-tot | 0.00368(6) | 0.00398(6) | 0.000509(8) | 0.0239(4) | 0.00372(6) |
+| M1 | 0.000723(11) | 0.000780(11) | 8.75E-5(13) | 0.00464(7) | 0.000482(7) |
+| M2 | 4.68E-5(7) | 5.09E-5(8) | 1.331E-5(19) | 0.000357(5) | 0.000191(3) |
+| M3 | 9.37E-6(14) | 1.018E-5(15) | 7.66E-6(11) | 6.97E-5(10) | 0.0001339(19) |
+| M4 | 7.61E-8(11) | 8.51E-8(12) | 3.01E-8(5) | 1.100E-6(16) | 6.97E-7(10) |
+| M5 | 7.75E-8(11) | 8.56E-8(12) | 2.99E-8(5) | 9.13E-7(13) | 6.16E-7(9) |
+| M-tot | 0.000779(11) | 0.000841(12) | 0.0001085(16) | 0.00507(7) | 0.000809(12) |
+| N1 | 0.0001624(23) | 0.0001752(25) | 1.96E-5(3) | 0.001043(15) | 0.0001080(16) |
+| N2 | 1.010E-5(15) | 1.099E-5(16) | 2.87E-6(4) | 7.70E-5(11) | 4.13E-5(6) |
+| N3 | 2.02E-6(3) | 2.19E-6(3) | 1.655E-6(24) | 1.501E-5(21) | 2.89E-5(4) |
+| N4 | 1.610E-8(23) | 1.80E-8(3) | 6.38E-9(9) | 2.32E-7(4) | 1.473E-7(21) |
+| N5 | 1.620E-8(23) | 1.79E-8(3) | 6.26E-9(9) | 1.90E-7(3) | 1.286E-7(18) |
+| N6 | 未返回（coverage warning） | 5.46E-12(8) | 未返回（coverage warning） | 1.278E-10(18) | 4.14E-11(6) |
+| N-tot | 0.0001745(25) | 0.000188(3) | 2.42E-5(4) | 0.001135(16) | 0.0001785(25) |
+| O1 | 2.50E-5(4) | 2.70E-5(4) | 3.02E-6(5) | 0.0001607(23) | 1.663E-5(24) |
+| O2 | 1.323E-6(19) | 1.440E-6(21) | 3.77E-7(6) | 1.009E-5(15) | 5.41E-6(8) |
+| O3 | 2.47E-7(4) | 2.68E-7(4) | 2.02E-7(3) | 1.83E-6(3) | 3.53E-6(5) |
+| O-tot | 2.66E-5(4) | 2.87E-5(4) | 3.60E-6(5) | 0.0001726(25) | 2.56E-5(4) |
+| P1 | 1.748E-6(25) | 1.89E-6(3) | 2.11E-7(3) | 1.122E-5(16) | 1.161E-6(17) |
+| P-tot | 1.748E-6(25) | 1.89E-6(3) | 2.11E-7(3) | 1.122E-5(16) | 1.161E-6(17) |
+
+各响应的URL、physics参数、返回版本、原始HTML SHA与warning记录在对应查询回执；在此按能量定位原始响应：
+
+- 401.2 M1：response SHA256 `2a4ef98e8af1d30d54a0a3662d8857ba04d41a5b6d64f5a8aa5bf2a66abf4b4f`。
+- 389.6 M1：response SHA256 `341496d6b99cb792d653ab9ee028b4b5fbeee5723c75ce319d40e54fb5b1ff50`。
+- 757.4 E2：response SHA256 `d39a0ef24a2865ade42d17a79bd3f73cb191a0b166481c92b09f6485d3f9a7cf`。
+- 199.6 M1：response SHA256 `1930f8c41229d9f26b695a2e71659d3a5935eb549ddd23733d08cceef5046659`。
+- 382.0 E2：response SHA256 `fa6dc37e4fd21a935a7beb5d1aeaebfe2285460958bc4592a63f634f220284ae`。
+
+官方Linux binary只作help/provenance probe，实报v2.3d(13-Sep-2022)，未作本地ICC计算；本地BrIccFOV22/NHV22 .idx/.icc缺失，与实际web2011 backend分开。NNDC旧入口404、IAEA分发403、All空响应均为保存的失败。HTTP200/参数echo本身不是numerical lookup成功。没有修改global环境、raw或凭据。
+
+### Branch-definition 的条件forward检验
+
+从p203/PDF2 Eq.(3) `α=Tic/Tγ`和rate inventory推出：若g_i是完整相对photon fraction，`Dg=Σ g_j(1+α_j)`、`τTγ,i=g_i/Dg`；若β_i是total-decay fraction，`τTγ,i=β_i/(1+α_i)`。这些简式额外假定所列branches齐全、无未计extra decays。以相同Mu08印出数字分别作为g或β、使用上述FO报告Tot，得到：
+
+| Parent / branch | Dg | Photon-formula / total-formula − 1 |
+|---|---|---|
+| B1-I18 / 401p2 | 1.0257934 | +0.605% |
+| B1-I18 / 757p4 | 1.0257934 | -2.109% |
+| B1-I18 / 389p6 | 1.0257934 | +0.849% |
+| B2-I15 / 199p6 | 1.191477 | +1.051% |
+| B2-I15 / 382p0 | 1.191477 | -13.964% |
+
+约−13.964%的B2 382-keV分支差异是nominal forward sensitivity，没有选择Mu08实际branch convention或用哪个结果接近quoted B来倒解α/δ/ρ。B1含两条N6警告input，是带覆盖边界的比较。各α共用理论/表来源；无energy uncertainty、NH spread、atomic/radius correction、shared covariance或完整feeding/stopping预算，不能生成完整B confidence interval。Raw实验inputs与单位链分别见[[mukhopadhyay-2008-136nd-transition-rates]]和[[high-spin-lifetime-strength-deformation]]；未进行L4或mode ranking。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| KB08-D8-1 | 1.4%已包括interpolation contribution；约0.3% interpolation accuracy不能再次独立叠加。默认table全局覆盖须保留N6等subshell例外及atomic/radius条件。 | our-inference | indirect | printed206 / PDF5 Table2 footnote; printed208 / PDF7 Sec.4.1.4; printed213 / PDF12 Sec.5.1; printed221 / PDF20 TableB.1 | true |
+| KB08-D8-2 | 2026-10-07官方FO查询的五个program Tot/K记录及两点N6缺项是独立理论输入；保留实际web v2.3(2011)、未用local v2.3d(2022)、data hash与质量边界，不作为实验ICC或Mu08所用处理的证据。 | model-result | direct | official https://bricc.anu.edu.au/ five Z60/E/pure-multipole response hashes in Supplement table; theory context printed206–208 / PDF5–7 | true |
+| KB08-D8-3 | 相同branch numbers作为photon或total fractions时，五条pure-mode forward γ-rate可不同；B2 382-keV差约−13.964%只度量条件敏感性，不识别作者实际定义或机制。 | our-inference | indirect | premises printed203 / PDF2 Eq.(3); Mu08 printed034311-3/PDF3 TableI B1I18/B2I15; Supplement forward table | true |

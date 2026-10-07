@@ -41,11 +41,11 @@
     "preflight_exit": 0
   },
   "last_closeout_snapshot": {
-    "now_local": "2026-10-07T12:17:11+08:00",
+    "now_local": "2026-10-07T16:01:45+08:00",
     "hard_deadline": "2026-10-08T15:00:00+08:00",
     "next_scheduled_start": "2026-10-08T16:00:00+08:00",
-    "minutes_to_deadline": 1602,
-    "minutes_to_next_start": 1662,
+    "minutes_to_deadline": 1378,
+    "minutes_to_next_start": 1438,
     "minimum_current_block_minutes": 90,
     "minimum_forward_card_block_minutes": 120,
     "can_continue_current": true,
@@ -63,7 +63,7 @@
     "pid": 110255,
     "process_exit": null,
     "clock_status": "running",
-    "heartbeat_at": "2026-10-07T11:02:46.613030+08:00",
+    "heartbeat_at": "2026-10-07T16:13:39.444467+08:00",
     "deadline": "2026-10-08T15:00:00+08:00",
     "command": [
       "python3",
@@ -102,13 +102,20 @@
     "icc_e0_algebra_exit": 0,
     "day9_unit_normalization_checks": 62,
     "day9_unit_normalization_exit": 0,
-    "changed_knowledge_pages": 6,
+    "changed_knowledge_pages": 7,
     "four_multipole_exact_checks": 43,
     "four_multipole_exact_exit": 0,
     "day9_source_packet_checks": 24,
     "day9_source_packet_exit": 0,
     "day9_gamma_only_controls_checks": 22,
-    "day9_gamma_only_controls_exit": 0
+    "day9_gamma_only_controls_exit": 0,
+    "fixed_population_pair_exact_checks": 73,
+    "fixed_population_pair_exact_exit": 0,
+    "case_C_exact_checks": 41,
+    "case_C_exact_exit": 0,
+    "BrIcc_FO_distinct_lookup_points": 5,
+    "BrIcc_offline_replay_exit": 0,
+    "BrIcc_unavailable_N6_points": 2
   },
   "card_content_status": "complete",
   "checkpoint_checks_file": "/workspace/wiki/outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/checkpoint-checks.json",
@@ -143,15 +150,32 @@
       "published_at": "2026-10-07T11:48:55.651273+08:00",
       "publication_kind": "continuing-checkpoint",
       "run_finalized": false
+    },
+    {
+      "branch": "main",
+      "commit_subject": "Verify DAY8 four-multipole ambiguity and DAY9 rate controls",
+      "commit_hash": "4e7ac762134f8f10962b3383a604dfec4956a515",
+      "remote": "origin (Gitee)",
+      "refspec": "HEAD:main",
+      "fetch_exit": 0,
+      "remote_ancestor_exit": 0,
+      "dry_run_exit": 0,
+      "push_exit": 0,
+      "post_push_head_matches_origin_main": true,
+      "post_commit_files_match_manifest": true,
+      "published_at": "2026-10-07T13:59:39.553543+08:00",
+      "publication_kind": "continuing-checkpoint",
+      "run_finalized": false
     }
   ],
   "continuation_prompt_file": "/workspace/wiki/outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/continuation-prompt.md",
   "pending_research": [
-    "Day8 fixed anisotropic population exact global-pair kernel certificate search",
-    "Day9 independent official BrIcc total ICC queries and conditional forward ledger",
-    "2026-10-08 15:00 closeout, Day9 plan/prompt and gated course state update"
+    "Case C global projected-link involution certificate",
+    "Day8 U-pair plus E0/total ICC/lifetime and shell companion-completeness algebra",
+    "LKH82 collective M1/operator and model/data-quality truncation boundary focused reread",
+    "2026-10-08 15:00 closeout, Day9 plan/prompt and gated state update"
   ],
-  "pending_clock_delivery_count": 4,
+  "pending_clock_delivery_count": 6,
   "observed_clock_executions": [
     {
       "timestamp": "2026-10-07T07:18:39.583689+08:00",
@@ -189,8 +213,8 @@
     },
     {
       "id": "day8-fixed-population-global-pair",
-      "decision": "selected-bounded-exact-search",
-      "next_gain": "rank3 gives local inversion only; test whether an exact fraction-changing pair with same known anisotropic population exists using the completed four radiation quadratic forms",
+      "decision": "bounded-route-complete",
+      "next_gain": "exact orthogonal U and full-support fraction-changing pair verified; local rank3 at both; no exhaustive global classification attempted",
       "scope": "existing RB matrices; limited structural kernel cases, exact certificate or failure boundary, no full global inversion"
     },
     {
@@ -205,17 +229,33 @@
     },
     {
       "id": "day9-independent-icc-input-readiness",
-      "decision": "selected-readonly-readiness",
+      "decision": "bounded-route-complete-with-coverage-boundaries",
       "scope": "existing BrICC source/tool or independent atomic-data input only; no new literature batch, no new card",
-      "next_gain": "check whether photon/total-branch alternatives can be forward-compared using independent theoretical ICC inputs, rather than reverse-solving coefficients from quoted B"
+      "next_gain": "5 independent FO points and forward definitions checked; no author processing identity or NH/radius/covariance resolution"
     },
     {
       "id": "day10-card",
       "decision": "out-of-scope-not-opened",
       "next_gain": "single Day+1 authorization only"
+    },
+    {
+      "id": "day8-caseC-complete-rank",
+      "decision": "bounded-local-route-complete; global pair in progress",
+      "next_gain": "positive local rank5 versus global ambiguity distinction"
+    },
+    {
+      "id": "day8-U-E0-companion-completeness",
+      "decision": "selected-bounded-L2",
+      "next_gain": "test whether one total ICC and tau exclude calibrated-photon U pair when E0 is allowed"
+    },
+    {
+      "id": "day8-LKH82-model-operator-boundary",
+      "decision": "selected-existing-source-reread",
+      "next_gain": "formal leading-M1 model zero, matrix-element suppression and high-multipole hierarchy conditions"
     }
   ],
   "last_recoverable_checkpoint": "research-checkpoint.json",
   "preview_checkpoint_checks_file": "/workspace/wiki/outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/checkpoint-preview-checks.json",
-  "rank_controls_checkpoint_checks_file": "/workspace/wiki/outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/checkpoint-rank-controls-checks.json"
+  "rank_controls_checkpoint_checks_file": "/workspace/wiki/outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/checkpoint-rank-controls-checks.json",
+  "FO_caseC_checks_file": "/workspace/wiki/outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/checkpoint-FO-caseC-checks.json"
 }

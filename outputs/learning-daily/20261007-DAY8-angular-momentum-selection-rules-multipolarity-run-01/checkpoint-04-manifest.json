@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "run_id": "prompt-2026-10-07-day-08",
+  "session_id": "01a111fb-370d-7ed1-afe9-881ccc47caf4",
+  "day_index": 8,
+  "publication_kind": "continuing-checkpoint",
+  "branch": "main",
+  "commit_subject": "Add global multipole pair and independent ICC input audit",
+  "owned_files": [
+    "knowledge/methods/spin-parity-assignment.md",
+    "knowledge/observables/multipole-mixing-ratio.md",
+    "knowledge/sources/kibedi-2008-evaluation-theoretical-conversion-coefficients-bricc.md",
+    "knowledge/sources/mukhopadhyay-2008-136nd-transition-rates.md",
+    "knowledge/sources/rose-brink-1967-phase-defined-angular-distributions.md",
+    "knowledge/synthesis/high-spin-lifetime-strength-deformation.md",
+    "outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity.md",
+    "system/handoff.md",
+    "outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/run.json",
+    "outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/progress.jsonl",
+    "outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/research-checkpoint.json",
+    "outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/checkpoint-FO-caseC-checks.json",
+    "outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/four-multipole-fixed-population-pair.json",
+    "outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/case-c-angular-polarization-rank.json",
+    "outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/day9-independent-icc-readiness.json",
+    "outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/checkpoint-04-manifest.json"
+  ],
+  "protected_baseline": "baseline.json",
+  "prior_human_review_preserved": true,
+  "new_KB_supplement_self_audit_only": true,
+  "state_updated": false,
+  "active_research": [
+    "Case C global projected-link involution certificate",
+    "Day8 U-pair plus E0/total ICC/lifetime and shell companion-completeness algebra",
+    "LKH82 collective M1/operator and model/data-quality truncation boundary focused reread",
+    "2026-10-08 15:00 closeout, Day9 plan/prompt and gated state update"
+  ]
+}
