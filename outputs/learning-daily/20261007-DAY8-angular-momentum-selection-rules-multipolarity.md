@@ -52,7 +52,7 @@ updated: 2026-10-07
 | 三题的观测可识别性和循环赋值 | 每题列出允许高阶、测量需求与共享假设，不造实验结果 | 本轮已完成；后续检查点继续用负例检验 |
 | 已有争议核素、独立实验或 event-level L4 | 可改变具体机制判断，但本题没有事件、response/covariance 数据，且无需扩展批次 | deferred；不作为本日模拟结果 |
 | 下一未完成卡 Day9：B(E2)/B(M1)、寿命/分支输入链 | 已产生MU08转录纠正和有条件B/RME重算，62-check单位核验通过 | 无学分预习已写回；branch/IC/covariance边界保留 |
-| Day8 B：四gamma成分与未知布居的完整单γ偏振识别性 | 原二维angular计数尚未回答full polarization能否唯一排解；现有RB振幅可低成本核验 | 重新选入；验证正确角函数基底与局部Jacobian，不预设结果 |
+| Day8 B：四gamma成分与未知布居的完整单γ偏振识别性 | 43-check实际rank4、fraction-changing tangent与IFT给出连续联合解；独立表示论及calibration通过 | 有界路线完成；等待下轮候选池/clock重建 |
 
 下一阶段先检查本日多成分可识别性、截断敏感性和级联相位是否仍有信息增益；局部饱和后按实时钟进入有边界的 Day9 预习。Day8 内容交付完成没有结束学习窗口。
 
@@ -165,11 +165,33 @@ Forbidden/hindered 的教学区别保留为一般背景：前者是在明确守�
 
 普通z=0 ICC是两纯系数的convex combination，所以r在min(a,1)与max(a,1)之间。高侧越界可与E0相容，但还要查M1 penetration、允许高阶、响应/背景或assignment；低侧越界连非负E0也解释不了这个假设包。这个判据检验模型条件，不独证E0，更不提供δ sign。前提见LKH82 printed p123/PDF5 Eq.2.12与p169/PDF51 Eq.4.1；所有不等式和端点属于本轮解析重构，已到source LKH82-6和observable的ICC边界。
 
+### 四γ成分的完整偏振矩阵与局部连续联合解
+
+在合成B `2+→2+` 中保留全部M1/E2/M3/E4；设RB实辐射振幅 `a=(1,u,v,z)`、aligned diagonal布居 `w0=p0,w±1=p1/2,w±2=(1−p0−p1)/2`、已知对称轴、Mf未观测。不是已测population或高阶fraction。
+
+[独立表示审核](20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/four-multipole-representation-audit.json) 与 [43-check完整振幅/Jacobian回执](20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/four-multipole-observable-rank.json) 分别用factorial-d/CG-Racah与完整振幅求和交叉核验。主代理另复现后者43項（exit0、约6.96s计算主体）。所有高阶同时保留后，归一方向与线偏振差为
+
+`W=1+A2P2+A4P4`，`Δ=Ix′−Iy′=C2P2^(m=2)+C4P4^(m=2)`，`H=matrix((W,−Δ);(−Δ,W))/2`。
+
+`P_K^(m=2)`是关联Legendre，不是P_K平方。初态J2、axisymmetry和aligned布居只留K0/2/4，所以M3/E4不产生K6/8。在meridian轴U=V=0；已知轴旋转混Q/U而不增独立transition/population系数。因scalar角函数跨通道可有重叠，正确计数使用matrix-valued基底；normalized W固定constant项，剩四个形状系数，Q=Δ/W一般为有理函数。所有等式只关逐方向强度，不比较跨方向field coherence、γγ correlation或完整光子态。
+
+| Actual bounded check | Result | 判断及边界 |
+|---|---|---|
+| seed `(u,v,z,p0,p1)=(1/2,1/3,1/4,1/4,1/4)` | w0=w±2=1/4、w±1=1/8；fractions=(144,36,16,9)/205 | 严格内域、四成分非零；没有用isotropic或zero-amplitude端点造generic结论 |
+| 五输入→四shape coefficients | exact Jacobian rank4，非零4×4minor | 不只是参数计数；exact代数判零与核检验已保存 |
+| kernel的radiative-fraction tangent | 约(−0.30699,−1.11783,+0.63941,+0.78541) | 非零；IFT给一维精确fixed-observable level set，附近fractions不同 |
+| 同一kernel的有限直线步 | 只保证一阶不变 | 没有把它冒充精确第二解；精确曲线存在来自IFT |
+| independently fixed p0/p1 | 同点4×3 amplitude-only rank3 | 仅局部逆解/识别性改善；不宣称global唯一 |
+| isotropic p0=1/5,p1=2/5 | 任意mixing W1、Δ0 | 直接反证“校准布居就必然所有点唯一” |
+| 新增合成same-parent2+→0+ E2参考设计 | R2c=−√70/14、R4c=−2√14/7，均非零 | 可同时校准B2/B4；该branch不是题设或实测，须independent Jπ与gate/feeding/axis/response匹配 |
+
+选择Gaussian布居或M1/E2截断可以减少自由变量，但这是追加模型条件。多个measurement channels共享未知布居时，完整理想单γ方向/偏振也不保证multipole assignment唯一。完整B_K、四二次型matrix entries、非零minor、IFT证明和companion inversion已写回[[rose-brink-1967-phase-defined-angular-distributions]]的RB67-13，并到multipole-mixing-ratio和spin-parity method。原文premises：p316 Eq3.24/线偏振段，p317 Eq3.28/rotation-product identity，p319 Eq3.36，p324 folded population/同初态branch段；rank/seed/IFT属于本任务重构，不是作者直接报告的实验。没有新L4。
+
 ### Day9 无学分预习：输入—公式—输出—误差
 
 已读该卡的 existing lifetime synthesis 和 MU08 source 后整理本节；没有来源前 Day9 recall，也没有正式 Day9 card audit。所有知识预习仅列 partial=[9]，即使覆盖知识交付也留到 Day9 新 session 独立完成后计卡。
 
-MU08 六页全文主线由同线程代理图读，主代理图核 PDF pp.3–5；raw SHA 与现有 source 一致。Table II 的 Band2 B(E2) 五项应对应 I=15–19，已修正旧知识页的错行/漏行。Fig.2 的464.8-keV与Table I的465.5-keV标签差异保留，不猜哪处是排版错误，不用于本次输入组。来源身份与分支边界将保存于本run的 day9-strength-input-packet.json；[62-check 单位/归一化回执](20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/day9-strength-unit-audit.json) 已由主代理复现，保存完整代码、常数和原baseline指针。
+MU08 六页全文主线由同线程代理图读，主代理图核 PDF pp.3–5；raw SHA 与现有 source 一致。Table II 的 Band2 B(E2) 五项应对应 I=15–19，已修正旧知识页的错行/漏行。Fig.2 的464.8-keV与Table I的465.5-keV标签差异保留，不猜哪处是排版错误，不用于本次输入组。来源身份与分支边界保存在[24-check来源输入回执](20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/day9-strength-input-packet.json)；[62-check 单位/归一化回执](20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/day9-strength-unit-audit.json) 已由主代理复现，保存完整代码、常数和原baseline指针。
 
 LKH82 p.121 / PDF p.3 的 Eqs.2.2–2.3a 给出 `Tγ(XL)∝Eγ^(2L+1)B(XL)` 与 `B=|RME|²/(2Ji+1)`。现代CODATA 2022下，E(MeV)、τ(ps)的系数为 C_E2=0.0816202120、C_M1=0.0568709756；这是单位重构，不能归成作者直接印出的绝对寿命常数。历史0.0816与舍入相容；0.05697不由该页直接支持。
 
@@ -188,6 +210,19 @@ LKH82 p.121 / PDF p.3 的 Eqs.2.2–2.3a 给出 `Tγ(XL)∝Eγ^(2L+1)B(XL)` 与 
 Counter-evidence：MU08 PDF3明确quoted errors未含可达15%的stopping-power systematic；15%不是已量化的side-feeding误差，未给其概率分布/covariance，不能自动按独立1σ求和。Pure M1是ΔI1 absolute B(M1)提取假设，未测δ。Table I、Table II、Fig.4、Qt和本轮重算来自同一输入链，中心值一致不增加实验独立性。漏枝、feeding、IC或branch definition未补全时保留条件，不把视觉峰高当B，也不对具体集体机制重新排序。
 
 全部可复用公式、单位、输入表与误差边界已同步至[寿命强度综合](../../knowledge/synthesis/high-spin-lifetime-strength-deformation.md)；原表、错行纠正、假设和标签差异至[MU08 source](../../knowledge/sources/mukhopadhyay-2008-136nd-transition-rates.md)。没有event/line-shape、response、feeding可执行输入或covariance，不进入L4。
+
+### Day9 无学分预习：两母态四branch负例
+
+[22-check控制回执](20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/day9-gamma-only-chain-controls.json) 保存完整code/hash和封存source packet引用；主代理独立复算四个中心值。Gamma-only、沿作者pure-M1/E2赋值的输出为：
+
+| Parent | Eγ (keV), pure extraction assumption | τ (ps), printed b | Gamma-only B | Author B | Descriptive center difference |
+|---|---|---|---|---|---|
+| Band 1, 18− | 401.2, M1 | 0.56(8), 0.57(6) | 0.89638532 μN² | 0.9(2) μN² | -0.402% |
+| Band 1, 18− | 757.4, E2 | 0.56(8), 0.24(2) | 0.14034419 e²b² | 0.14(2) e²b² | +0.246% |
+| Band 2, 15− | 199.6, M1 | 1.27(6), 0.93(5) | 5.237069 μN² | 4.4(3) μN² | +19.024% |
+| Band 2, 15− | 382.0, E2 | 1.27(6), 0.07(1) | 0.55306379 e²b² | 0.54(8) e²b² | +2.419% |
+
+Band1原b0.57/0.24保留第三branch0.19，不将选中两行归一到1。19.02%仅是低能M1与作者rounded center的描述性差值，没有计算显著性或从quoted B倒解ICC、δ、ρ/branch basis。单条高能E2吻合不验证整条ledger；shared inputs、IC、未印能量误差、covariance和stopping/feeding均保留。源数据/公式见MU08-4/5/6、LKH82 p121 Eq2.2/2.3a；数值与判断已写回MU08 source及lifetime synthesis。正在核验独立理论α的可用性，结果只用于明确假设的forward比较。仍partial9，不是正式Day9卡或L4。
 
 ## Counter-evidence and missing companion observables
 
@@ -251,7 +286,7 @@ Counter-evidence：MU08 PDF3明确quoted errors未含可达15%的stopping-power 
     {
       "knowledge": "knowledge/sources/rose-brink-1967-phase-defined-angular-distributions.md",
       "anchor": "Phase and Observable Audit",
-      "summary": "修正polarized初态与even-K条件，明确相位定义RME/归一化、线偏振coherence、photon L与angular K、宽度与级联相位的边界；补充phase-aware helicity/coherent polarization重构，以及未知布居下pointwise方向/偏振强度联合解的边界。",
+      "summary": "修正polarized初态与even-K条件，明确相位定义RME/归一化、线偏振coherence、photon L与angular K、宽度与级联相位的边界；补充phase-aware helicity/coherent polarization重构，以及未知布居下pointwise方向/偏振强度联合解的边界。；补充完整四γ/未知布居的pointwise方向-偏振基底、43-check局部rank/IFT多解与同初态校准的局部/全局边界。",
       "sources": [
         {
           "path": "knowledge/sources/rose-brink-1967-phase-defined-angular-distributions.md",
@@ -280,13 +315,17 @@ Counter-evidence：MU08 PDF3明确quoted errors未含可达15%的stopping-power 
         {
           "path": "knowledge/sources/rose-brink-1967-phase-defined-angular-distributions.md",
           "locator": "RB67-12"
+        },
+        {
+          "path": "knowledge/sources/rose-brink-1967-phase-defined-angular-distributions.md",
+          "locator": "RB67-13"
         }
       ]
     },
     {
       "knowledge": "knowledge/observables/multipole-mixing-ratio.md",
       "anchor": "三条合成跃迁的完整候选",
-      "summary": "完整triangle/parity过滤、三例全候选与高阶截断、归一振幅/符号约定、各观测的排解条件、K上限与E0/ICC寿命分支边界；补充phase-aware helicity/coherent polarization重构，以及未知布居下pointwise方向/偏振强度联合解的边界；补充K-shell ICC/E0可行解分类、零参考率重参量化和高/低侧越界的模型边界。",
+      "summary": "完整triangle/parity过滤、三例全候选与高阶截断、归一振幅/符号约定、各观测的排解条件、K上限与E0/ICC寿命分支边界；补充phase-aware helicity/coherent polarization重构，以及未知布居下pointwise方向/偏振强度联合解的边界；补充K-shell ICC/E0可行解分类、零参考率重参量化和高/低侧越界的模型边界。；补充完整四γ/未知布居的pointwise方向-偏振基底、43-check局部rank/IFT多解与同初态校准的局部/全局边界。",
       "sources": [
         {
           "path": "knowledge/sources/rose-brink-1967-phase-defined-angular-distributions.md",
@@ -319,13 +358,17 @@ Counter-evidence：MU08 PDF3明确quoted errors未含可达15%的stopping-power 
         {
           "path": "knowledge/sources/lange-kumar-hamilton-1982-multipole-admixtures.md",
           "locator": "LKH82-6"
+        },
+        {
+          "path": "knowledge/sources/rose-brink-1967-phase-defined-angular-distributions.md",
+          "locator": "RB67-13"
         }
       ]
     },
     {
       "knowledge": "knowledge/methods/spin-parity-assignment.md",
       "anchor": "Assignment Evidence Dependencies",
-      "summary": "逐项区分spin、parity、photon multipolarity、δ sign与absolute strength的观测、固定输入、共享假设和循环推断；补充phase-aware helicity/coherent polarization重构，以及未知布居下pointwise方向/偏振强度联合解的边界。",
+      "summary": "逐项区分spin、parity、photon multipolarity、δ sign与absolute strength的观测、固定输入、共享假设和循环推断；补充phase-aware helicity/coherent polarization重构，以及未知布居下pointwise方向/偏振强度联合解的边界。；补充完整四γ/未知布居的pointwise方向-偏振基底、43-check局部rank/IFT多解与同初态校准的局部/全局边界。",
       "sources": [
         {
           "path": "knowledge/sources/rose-brink-1967-phase-defined-angular-distributions.md",
@@ -350,13 +393,17 @@ Counter-evidence：MU08 PDF3明确quoted errors未含可达15%的stopping-power 
         {
           "path": "knowledge/sources/rose-brink-1967-phase-defined-angular-distributions.md",
           "locator": "RB67-12"
+        },
+        {
+          "path": "knowledge/sources/rose-brink-1967-phase-defined-angular-distributions.md",
+          "locator": "RB67-13"
         }
       ]
     },
     {
       "knowledge": "knowledge/sources/mukhopadhyay-2008-136nd-transition-rates.md",
       "anchor": "Lifetime and Branching Input Audit",
-      "summary": "据原图修正Band2的I15–19/B(E2)映射和遗漏值；保存I18寿命及三枝input ledger、pure-M1与quoted systematic条件、branch定义和464.8/465.5标签边界。",
+      "summary": "据原图修正Band2的I15–19/B(E2)映射和遗漏值；保存I18寿命及三枝input ledger、pure-M1与quoted systematic条件、branch定义和464.8/465.5标签边界。；将全部26条Table I分支与10行Table II输入/输出固化到canonical source。；追加两母态四branch的gamma-only负例，保留未重归一化的0.19分支和描述性残差/共享数据边界。",
       "sources": [
         {
           "path": "knowledge/sources/mukhopadhyay-2008-136nd-transition-rates.md",
@@ -365,13 +412,17 @@ Counter-evidence：MU08 PDF3明确quoted errors未含可达15%的stopping-power 
         {
           "path": "knowledge/sources/mukhopadhyay-2008-136nd-transition-rates.md",
           "locator": "MU08-5"
+        },
+        {
+          "path": "knowledge/sources/mukhopadhyay-2008-136nd-transition-rates.md",
+          "locator": "MU08-6"
         }
       ]
     },
     {
       "knowledge": "knowledge/synthesis/high-spin-lifetime-strength-deformation.md",
       "anchor": "从寿命、分支到约化强度",
-      "summary": "写回Gaussian/SI与现代E2/M1单位推导、mean/partial lifetime和total/photon branching、mixing/IC及共享误差，保留MU08的条件性B/RME重算与原作者输出。",
+      "summary": "写回Gaussian/SI与现代E2/M1单位推导、mean/partial lifetime和total/photon branching、mixing/IC及共享误差，保留MU08的条件性B/RME重算与原作者输出。；追加两母态四branch的gamma-only负例，保留未重归一化的0.19分支和描述性残差/共享数据边界。",
       "sources": [
         {
           "path": "knowledge/sources/lange-kumar-hamilton-1982-multipole-admixtures.md",
@@ -388,6 +439,10 @@ Counter-evidence：MU08 PDF3明确quoted errors未含可达15%的stopping-power 
         {
           "path": "knowledge/sources/mukhopadhyay-2008-136nd-transition-rates.md",
           "locator": "MU08-5"
+        },
+        {
+          "path": "knowledge/sources/mukhopadhyay-2008-136nd-transition-rates.md",
+          "locator": "MU08-6"
         }
       ]
     }
@@ -442,3 +497,11 @@ D8的rank/phase、理想偏振/共享布居和E0/ICC零参考率三个有界路�
 ### 可恢复检查点 — 2026-10-07 09:49 Asia/Shanghai
 
 当前真实时钟距硬截止1750分钟，保持Day8/[8]与Day9/[9]无学分预习。rank/phase、pointwise偏振/布居联合解和E0/ICC零参照边界三个Day8有界路线已经闭合；再补真实赋值需要独立布居、响应或Z/E输入。重建候选池后继续MU08原表与rate-to-strength输入链：查Table I/II的spin/value映射、branch是否含IC、quoted统计误差与未含的stopping systematic。来源定位和下一步保存在[research-checkpoint.json](20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/research-checkpoint.json)。正在等待同一线程已有两个代理的定向核验；没有新建主session或重启daemon。计时监督的心跳、排队与实际执行分别记录，不作为研究时长。
+
+### 持续学习检查点 2 — 知识预习与识别性续研
+
+当前branch `main` + subject `Extend DAY8 observable bounds and uncredited DAY9 strength inputs` 已按18-file显式manifest提交并通过Gitee fetch、ancestry、dry-run、`HEAD:main`非force push与H3文件/远端对账。精确hash只进入本run receipt。六页writeback/card validators、boundary、lint（0 errors/91 warnings）与diff通过；PLAN、dirty daemon、课程state原哈希匹配，三份raw SHA与review flags保留。课程state仍8/7，本日没有final。新增来源packet的24项检查与全Table I/II事实已经同步source，待随下一次实质增量发布。Day8四gamma/未知布居的完整单γ偏振局部识别性已由parent43-check复现并写回；Day9低能branch条件性负例保持无学分。
+
+### 最新候选池和时间门 — 2026-10-07 12:17 Asia/Shanghai
+
+距硬截止1602分钟。四γ/未知布居路线已43-check闭合；full global/cascade/ICC反演超出该有界证明，未强行扩展。Day9继续两个母态四branch的gamma-only负例，已显示单条E2吻合不能验证整条输入链。重建候选池后，选择existing BrICC source/local or public atomic-data input的readiness核验：若可得到独立理论all-shell ICC，才forward比较photon/total branching两种假设；不得从quoted B倒解α、ρ或δ、不得冒充MU08实际采用的处理。此项仍属唯一Day9无学分预习，未开Day10或新文献批次。当前readiness没有实际α值或新增claim；结果/失败待核验后写回。继续命令与恢复点在research-checkpoint.json，课程state仍8/7。

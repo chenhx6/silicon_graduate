@@ -1,0 +1,298 @@
+{
+  "schema_version": 1,
+  "created_at_utc": "2026-10-07T03:50:38.663679+00:00",
+  "kind": "bounded-Day8-L2-four-multipole-observable-rank",
+  "day_index": 8,
+  "run_closed": false,
+  "new_course_card_opened": false,
+  "evidence_class": "synthetic exact symbolic reconstruction and local identifiability proof; no observed data, fit or L4",
+  "status": "basis_and_regular_local_fiber_proved",
+  "source": {
+    "raw_path": "raw/papers/gpt/high-spin-20260920/multipolarity/mixing ratio/1967_Rose et al_Angular Distributions of Gamma Rays in Terms of Phase-Defined Reduced Matrix Elements.pdf",
+    "raw_sha256": "8f846b61b9320de291ee5600126c5e286a0fe05968df819696816f0dc1ec57dc",
+    "phase_script_path": "tmp/day8-20261007/rose-brink/population_multipolarity_degeneracy.py",
+    "phase_script_sha256": "8879f084d556d823689d98e7d919db33077826f9f7f1d7ebdffe588a27a7d3c3",
+    "prior_script_executed": false,
+    "locators": {
+      "D_rotation": "printed p312 / PDF p7, footnote7",
+      "amplitude_WE_linear_coherence": "printed p316 / PDF p11, Eq3.24, linear polarization paragraph, WE relation after Eq3.25",
+      "population_tensor": "printed p317 / PDF p12, Eq3.28",
+      "radiative_amplitude_ratios": "printed p319 / PDF p14, Eq3.39 and preceding width interpretation",
+      "parity_and_rank": "printed p320 / PDF p15, Eqs3.40-3.43 and notes",
+      "explicit_two_component_truncation": "printed p321 / PDF p16, text before Eq3.47"
+    }
+  },
+  "fixed_assumptions": {
+    "Ji": "2",
+    "Jf": "2",
+    "initial_final_parity": "+,+",
+    "allowed_retained_gamma_components": [
+      "M1",
+      "E2",
+      "M3",
+      "E4"
+    ],
+    "real_normalized_interaction_amplitudes": [
+      "1",
+      "u",
+      "v",
+      "z"
+    ],
+    "gauge": "a_M1=1 fixes relative radiative amplitude scale; no absolute width/yield supplied",
+    "population": "w0=p0,w(+/-1)=p1/2,w(+/-2)=(1-p0-p1)/2; diagonal and axially symmetric",
+    "physical_open_domain": "p0>0,p1>0,p0+p1<1; u,v,z nonzero near the seed",
+    "photon_geometry": "phi=0, d(L,-theta)=<LM|exp(-i theta Jy/hbar)|Lq>; q=-1,+1",
+    "magnetic_helicity": "pi=1 for M1/M3, pi=0 for E2/E4; retain q^pi",
+    "CG_order": "CG(Jf,L;Mf,Mi-Mf|Ji,Mi), as in RB initial-bra WE convention",
+    "linear_axes": "xprime in meridian plane, yprime normal to it; Ix from Aminus-Aplus, Iy from Aminus+Aplus",
+    "scope": "ideal normalized direction and linear-polarization curves, final nuclear orientation unobserved; no detector response, conversion/pair/E0, cascade or absolute-scale constraint"
+  },
+  "observable_construction": {
+    "Atilde": "sum_L q^pi*sqrt(2L+1)*a_L*CG(Jf,L;Mf,Mi-Mf|Ji,Mi)*d_L(Mi-Mf,q)",
+    "S": "u**2 + v**2 + z**2 + 1",
+    "intensity_matrix": "I_qqprime=sum_Mi,Mf w_Mi*Atilde_q*Atilde_qprime/(2S); Hermitian positive Gram matrix",
+    "density": "rho_photon=I/trace(I)=I/W; trace rho=1",
+    "W": "(-400*p0*u**2*x**4 + 240*p0*u**2*x**2 + 250*sqrt(70)*p0*u*v*x**4 - 324*sqrt(70)*p0*u*v*x**2 + 58*sqrt(70)*p0*u*v - 250*sqrt(6)*p0*u*x**4*z - 60*sqrt(6)*p0*u*x**2*z - 96*sqrt(105)*p0*u*x**2 + 70*sqrt(6)*p0*u*z + 32*sqrt(105)*p0*u - 175*p0*v**2*x**4 + 294*p0*v**2*x**2 - 63*p0*v**2 - 150*sqrt(105)*p0*v*x**4*z - 350*sqrt(6)*p0*v*x**4 + 60*sqrt(105)*p0*v*x**2*z - 84*sqrt(6)*p0*v*x**2 + 10*sqrt(105)*p0*v*z + 98*sqrt(6)*p0*v + 225*p0*x**4*z**2 + 350*sqrt(70)*p0*x**4*z + 390*p0*x**2*z**2 - 300*sqrt(70)*p0*x**2*z + 336*p0*x**2 - 175*p0*z**2 + 30*sqrt(70)*p0*z - 112*p0 + 400*p1*u**2*x**4 - 420*p1*u**2*x**2 + 60*p1*u**2 - 250*sqrt(70)*p1*u*v*x**4 + 132*sqrt(70)*p1*u*v*x**2 + 6*sqrt(70)*p1*u*v + 250*sqrt(6)*p1*u*x**4*z - 420*sqrt(6)*p1*u*x**2*z - 72*sqrt(105)*p1*u*x**2 + 90*sqrt(6)*p1*u*z + 24*sqrt(105)*p1*u + 175*p1*v**2*x**4 - 42*p1*v**2*x**2 - 21*p1*v**2 + 150*sqrt(105)*p1*v*x**4*z + 350*sqrt(6)*p1*v*x**4 - 180*sqrt(105)*p1*v*x**2*z - 588*sqrt(6)*p1*v*x**2 + 30*sqrt(105)*p1*v*z + 126*sqrt(6)*p1*v - 225*p1*x**4*z**2 - 350*sqrt(70)*p1*x**4*z + 630*p1*x**2*z**2 + 300*sqrt(70)*p1*x**2*z + 252*p1*x**2 - 165*p1*z**2 - 30*sqrt(70)*p1*z - 84*p1 - 80*u**2*x**4 + 120*u**2*x**2 + 200*u**2 + 50*sqrt(70)*u*v*x**4 + 12*sqrt(70)*u*v*x**2 - 14*sqrt(70)*u*v - 50*sqrt(6)*u*x**4*z + 180*sqrt(6)*u*x**2*z + 48*sqrt(105)*u*x**2 - 50*sqrt(6)*u*z - 16*sqrt(105)*u - 35*v**2*x**4 - 42*v**2*x**2 + 245*v**2 - 30*sqrt(105)*v*x**4*z - 70*sqrt(6)*v*x**4 + 60*sqrt(105)*v*x**2*z + 252*sqrt(6)*v*x**2 - 14*sqrt(105)*v*z - 70*sqrt(6)*v + 45*x**4*z**2 + 70*sqrt(70)*x**4*z - 330*x**2*z**2 - 60*sqrt(70)*x**2*z - 168*x**2 + 325*z**2 + 6*sqrt(70)*z + 280)/(224*(u**2 + v**2 + z**2 + 1))",
+    "N_linear_Ix_minus_Iy": "-(x - 1)*(x + 1)*(200*p0*u**2*x**2 - 80*p0*u**2 + 25*sqrt(70)*p0*u*v*x**2 - 31*sqrt(70)*p0*u*v - 225*sqrt(6)*p0*u*x**2*z + 55*sqrt(6)*p0*u*z + 16*sqrt(105)*p0*u + 350*p0*v**2*x**2 - 98*p0*v**2 + 20*sqrt(105)*p0*v*x**2*z - 175*sqrt(6)*p0*v*x**2 + 20*sqrt(105)*p0*v*z - 7*sqrt(6)*p0*v + 150*p0*x**2*z**2 - 105*sqrt(70)*p0*x**2*z + 150*p0*z**2 + 15*sqrt(70)*p0*z + 168*p0 - 200*p1*u**2*x**2 - 10*p1*u**2 - 25*sqrt(70)*p1*u*v*x**2 - 17*sqrt(70)*p1*u*v + 225*sqrt(6)*p1*u*x**2*z - 15*sqrt(6)*p1*u*z + 12*sqrt(105)*p1*u - 350*p1*v**2*x**2 + 14*p1*v**2 - 20*sqrt(105)*p1*v*x**2*z + 175*sqrt(6)*p1*v*x**2 + 20*sqrt(105)*p1*v*z - 49*sqrt(6)*p1*v - 150*p1*x**2*z**2 + 105*sqrt(70)*p1*x**2*z + 150*p1*z**2 - 15*sqrt(70)*p1*z + 126*p1 + 40*u**2*x**2 + 20*u**2 + 5*sqrt(70)*u*v*x**2 + 13*sqrt(70)*u*v - 45*sqrt(6)*u*x**2*z - 5*sqrt(6)*u*z - 8*sqrt(105)*u + 70*v**2*x**2 + 14*v**2 + 4*sqrt(105)*v*x**2*z - 35*sqrt(6)*v*x**2 - 12*sqrt(105)*v*z + 21*sqrt(6)*v + 30*x**2*z**2 - 21*sqrt(70)*x**2*z - 90*z**2 + 3*sqrt(70)*z - 84)/(112*(u**2 + v**2 + z**2 + 1))",
+    "Ix": "-(800*p0*u**2*x**4 - 800*p0*u**2*x**2 + 160*p0*u**2 - 200*sqrt(70)*p0*u*v*x**4 + 212*sqrt(70)*p0*u*v*x**2 + 4*sqrt(70)*p0*u*v - 200*sqrt(6)*p0*u*x**4*z + 620*sqrt(6)*p0*u*x**2*z + 128*sqrt(105)*p0*u*x**2 - 180*sqrt(6)*p0*u*z - 64*sqrt(105)*p0*u + 875*p0*v**2*x**4 - 1190*p0*v**2*x**2 + 259*p0*v**2 + 190*sqrt(105)*p0*v*x**4*z - 60*sqrt(105)*p0*v*x**2*z + 420*sqrt(6)*p0*v*x**2 - 50*sqrt(105)*p0*v*z - 84*sqrt(6)*p0*v + 75*p0*x**4*z**2 - 560*sqrt(70)*p0*x**4*z - 390*p0*x**2*z**2 + 540*sqrt(70)*p0*x**2*z - 125*p0*z**2 - 60*sqrt(70)*p0*z - 224*p0 - 800*p1*u**2*x**4 + 800*p1*u**2*x**2 - 40*p1*u**2 + 200*sqrt(70)*p1*u*v*x**4 - 116*sqrt(70)*p1*u*v*x**2 + 28*sqrt(70)*p1*u*v + 200*sqrt(6)*p1*u*x**4*z - 60*sqrt(6)*p1*u*x**2*z + 96*sqrt(105)*p1*u*x**2 - 60*sqrt(6)*p1*u*z - 48*sqrt(105)*p1*u - 875*p1*v**2*x**4 + 770*p1*v**2*x**2 - 7*p1*v**2 - 190*sqrt(105)*p1*v*x**4*z + 260*sqrt(105)*p1*v*x**2*z + 140*sqrt(6)*p1*v*x**2 - 70*sqrt(105)*p1*v*z - 28*sqrt(6)*p1*v - 75*p1*x**4*z**2 + 560*sqrt(70)*p1*x**4*z - 30*p1*x**2*z**2 - 540*sqrt(70)*p1*x**2*z - 135*p1*z**2 + 60*sqrt(70)*p1*z - 168*p1 + 160*u**2*x**4 - 160*u**2*x**2 - 240*u**2 - 40*sqrt(70)*u*v*x**4 + 4*sqrt(70)*u*v*x**2 - 12*sqrt(70)*u*v - 40*sqrt(6)*u*x**4*z - 100*sqrt(6)*u*x**2*z - 64*sqrt(105)*u*x**2 + 60*sqrt(6)*u*z + 32*sqrt(105)*u + 175*v**2*x**4 - 70*v**2*x**2 - 273*v**2 + 38*sqrt(105)*v*x**4*z - 92*sqrt(105)*v*x**2*z - 140*sqrt(6)*v*x**2 + 38*sqrt(105)*v*z + 28*sqrt(6)*v + 15*x**4*z**2 - 112*sqrt(70)*x**4*z + 90*x**2*z**2 + 108*sqrt(70)*x**2*z - 145*z**2 - 12*sqrt(70)*z - 112)/(448*(u**2 + v**2 + z**2 + 1))",
+    "Iy": "(-320*p0*u**2*x**2 + 160*p0*u**2 + 300*sqrt(70)*p0*u*v*x**4 - 436*sqrt(70)*p0*u*v*x**2 + 120*sqrt(70)*p0*u*v - 700*sqrt(6)*p0*u*x**4*z + 500*sqrt(6)*p0*u*x**2*z - 64*sqrt(105)*p0*u*x**2 - 40*sqrt(6)*p0*u*z + 525*p0*v**2*x**4 - 602*p0*v**2*x**2 + 133*p0*v**2 - 110*sqrt(105)*p0*v*x**4*z - 700*sqrt(6)*p0*v*x**4 + 60*sqrt(105)*p0*v*x**2*z + 252*sqrt(6)*p0*v*x**2 - 30*sqrt(105)*p0*v*z + 112*sqrt(6)*p0*v + 525*p0*x**4*z**2 + 140*sqrt(70)*p0*x**4*z + 390*p0*x**2*z**2 - 60*sqrt(70)*p0*x**2*z + 672*p0*x**2 - 475*p0*z**2 - 448*p0 - 40*p1*u**2*x**2 + 80*p1*u**2 - 300*sqrt(70)*p1*u*v*x**4 + 148*sqrt(70)*p1*u*v*x**2 + 40*sqrt(70)*p1*u*v + 700*sqrt(6)*p1*u*x**4*z - 900*sqrt(6)*p1*u*x**2*z - 48*sqrt(105)*p1*u*x**2 + 120*sqrt(6)*p1*u*z - 525*p1*v**2*x**4 + 686*p1*v**2*x**2 - 49*p1*v**2 + 110*sqrt(105)*p1*v*x**4*z + 700*sqrt(6)*p1*v*x**4 - 100*sqrt(105)*p1*v*x**2*z - 1036*sqrt(6)*p1*v*x**2 - 10*sqrt(105)*p1*v*z + 224*sqrt(6)*p1*v - 525*p1*x**4*z**2 - 140*sqrt(70)*p1*x**4*z + 1230*p1*x**2*z**2 + 60*sqrt(70)*p1*x**2*z + 504*p1*x**2 - 465*p1*z**2 - 336*p1 + 80*u**2*x**2 + 160*u**2 + 60*sqrt(70)*u*v*x**4 + 28*sqrt(70)*u*v*x**2 - 40*sqrt(70)*u*v - 140*sqrt(6)*u*x**4*z + 260*sqrt(6)*u*x**2*z + 32*sqrt(105)*u*x**2 - 40*sqrt(6)*u*z + 105*v**2*x**4 - 154*v**2*x**2 + 217*v**2 - 22*sqrt(105)*v*x**4*z - 140*sqrt(6)*v*x**4 + 28*sqrt(105)*v*x**2*z + 364*sqrt(6)*v*x**2 + 10*sqrt(105)*v*z - 112*sqrt(6)*v + 105*x**4*z**2 + 28*sqrt(70)*x**4*z - 570*x**2*z**2 - 12*sqrt(70)*x**2*z - 336*x**2 + 505*z**2 + 448)/(448*(u**2 + v**2 + z**2 + 1))",
+    "fractional_linear_polarization": "P=(Ix-Iy)/(Ix+Iy)=N/W, a rational angular function, not a truncated Legendre polynomial",
+    "derived_complete_function_bases": {
+      "W": "1+A2*P2(x)+A4*P4(x)",
+      "N_linear": "L2*P2^2(x)+L4*P4^2(x)",
+      "associated_basis": "P2^2=3(1-x^2); P4^2=(15/2)(1-x^2)(7x^2-1)"
+    },
+    "observed_polynomial_degrees_after_full_sum": {
+      "W": 4,
+      "N_linear": 4
+    },
+    "V_and_U": "V=Iplusplus-Iminusminus=0; U=0 because offdiagonal is real in these meridian axes. A rotated analyzer mixes Q/U but introduces no new independent coefficient.",
+    "angular_average": "(1/2) integral_-1^1 W dx=1; raw helicity intensity average=2S",
+    "positivity": "All intensities are weighted sums of squared amplitudes. Isotropic w=1/5 gives W=1, Ix=Iy=1/2. For strictly positive populations, W>=5*min(w)>0, so N/W and rho are globally defined. At seed min(w)=1/8 hence W>=5/8."
+  },
+  "population_tensors": {
+    "0": "1",
+    "1": "0",
+    "2": "sqrt(70)*(-4*p0 - 3*p1 + 2)/14",
+    "3": "0",
+    "4": "sqrt(14)*(5*p0 - 5*p1 + 1)/14",
+    "5": "0",
+    "6": "0",
+    "7": "0",
+    "8": "0"
+  },
+  "coefficient_map": {
+    "input_order": [
+      "u",
+      "v",
+      "z",
+      "p0",
+      "p1"
+    ],
+    "output_order": [
+      "A2",
+      "A4",
+      "L2",
+      "L4"
+    ],
+    "exact_functions": [
+      "(4*p0 + 3*p1 - 2)*(-15*u**2 - 16*sqrt(70)*u*v - 40*sqrt(6)*u*z - 14*sqrt(105)*u + 21*v**2 - 10*sqrt(105)*v*z - 56*sqrt(6)*v + 85*z**2 + 49)/(196*(u**2 + v**2 + z**2 + 1))",
+      "(5*p0 - 5*p1 + 1)*(-16*u**2 + 10*sqrt(70)*u*v - 10*sqrt(6)*u*z - 7*v**2 - 6*sqrt(105)*v*z - 14*sqrt(6)*v + 9*z**2 + 14*sqrt(70)*z)/(196*(u**2 + v**2 + z**2 + 1))",
+      "(4*p0 + 3*p1 - 2)*(-45*u**2 - 24*sqrt(70)*u*v + 20*sqrt(6)*u*z + 14*sqrt(105)*u - 42*v**2 + 20*sqrt(105)*v*z - 28*sqrt(6)*v + 150*z**2 + 147)/(1176*(u**2 + v**2 + z**2 + 1))",
+      "(5*p0 - 5*p1 + 1)*(40*u**2 + 5*sqrt(70)*u*v - 45*sqrt(6)*u*z + 70*v**2 + 4*sqrt(105)*v*z - 35*sqrt(6)*v + 30*z**2 - 21*sqrt(70)*z)/(5880*(u**2 + v**2 + z**2 + 1))"
+    ]
+  },
+  "seed": {
+    "parameters": {
+      "u": "1/2",
+      "v": "1/3",
+      "z": "1/4",
+      "p0": "1/4",
+      "p1": "1/4"
+    },
+    "population": {
+      "0": "1/4",
+      "-1": "1/8",
+      "1": "1/8",
+      "-2": "1/4",
+      "2": "1/4"
+    },
+    "S": "205/144",
+    "coefficient_values": [
+      "-7617/160720 + 24*sqrt(70)/10045 + 213*sqrt(6)/10045 + 141*sqrt(105)/20090",
+      "-213*sqrt(6)/10045 - 18*sqrt(105)/10045 - 607/40180 + 186*sqrt(70)/10045",
+      "-3371/160720 - 13*sqrt(105)/10045 + sqrt(6)/980 + 6*sqrt(70)/10045",
+      "-83*sqrt(6)/40180 - 53*sqrt(70)/100450 + 2*sqrt(105)/50225 + 283/120540"
+    ],
+    "radiative_fractions": {
+      "M1": "144/205",
+      "E2": "36/205",
+      "M3": "16/205",
+      "E4": "9/205"
+    }
+  },
+  "exact_Jacobian": {
+    "matrix": [
+      [
+        "-1746*sqrt(6)/294175 + 912*sqrt(70)/294175 + 96228/2059225 + 15678*sqrt(105)/2059225",
+        "-4311*sqrt(105)/4118450 + 19872/2059225 + 12456*sqrt(70)/2059225 + 82872*sqrt(6)/2059225",
+        "-44136/2059225 - 1728*sqrt(70)/2059225 + 1074*sqrt(105)/2059225 + 21564*sqrt(6)/2059225",
+        "-1128*sqrt(105)/10045 - 3408*sqrt(6)/10045 - 384*sqrt(70)/10045 + 7617/10045",
+        "-846*sqrt(105)/10045 - 2556*sqrt(6)/10045 - 288*sqrt(70)/10045 + 22851/40180"
+      ],
+      [
+        "-96228/2059225 - 312*sqrt(70)/294175 + 2592*sqrt(105)/2059225 + 1746*sqrt(6)/294175",
+        "-82872*sqrt(6)/2059225 - 9342*sqrt(105)/2059225 - 19872/2059225 + 19044*sqrt(70)/2059225",
+        "-13464*sqrt(105)/2059225 - 21564*sqrt(6)/2059225 + 44136/2059225 + 89928*sqrt(70)/2059225",
+        "-213*sqrt(6)/2009 - 18*sqrt(105)/2009 - 607/8036 + 186*sqrt(70)/2009",
+        "-186*sqrt(70)/2009 + 607/8036 + 18*sqrt(105)/2009 + 213*sqrt(6)/2009"
+      ],
+      [
+        "-2433*sqrt(105)/2059225 - 3*sqrt(6)/2050 + 228*sqrt(70)/294175 + 88353/4118450",
+        "-579*sqrt(105)/4118450 + 186*sqrt(6)/50225 + 3114*sqrt(70)/2059225 + 28836/2059225",
+        "-1114*sqrt(105)/2059225 - 93*sqrt(6)/50225 - 7893/2059225 - 432*sqrt(70)/2059225",
+        "-96*sqrt(70)/10045 - 4*sqrt(6)/245 + 208*sqrt(105)/10045 + 3371/10045",
+        "-72*sqrt(70)/10045 - 3*sqrt(6)/245 + 156*sqrt(105)/10045 + 10113/40180"
+      ],
+      [
+        "-288*sqrt(105)/10296125 + 9*sqrt(6)/84050 + 6444/2059225 + 838*sqrt(70)/1470875",
+        "-6618*sqrt(6)/2059225 + 1038*sqrt(105)/10296125 + 9216/2059225 + 5619*sqrt(70)/10296125",
+        "-23922*sqrt(70)/10296125 - 4041*sqrt(6)/2059225 + 1992/2059225 + 1496*sqrt(105)/10296125",
+        "-83*sqrt(6)/8036 - 53*sqrt(70)/20090 + 2*sqrt(105)/10045 + 283/24108",
+        "-283/24108 - 2*sqrt(105)/10045 + 53*sqrt(70)/20090 + 83*sqrt(6)/8036"
+      ]
+    ],
+    "algebraic_field": "QQ<sqrt(6) + sqrt(105)>",
+    "rank": 4,
+    "rref_pivot_columns": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "four_by_four_minors_by_omitted_column": {
+      "0": "-3418780851*sqrt(105)/47492565127000 - 1872418203*sqrt(6)/23746282563500 + 2541658338/5936570640875 + 728462241*sqrt(70)/6784652161000",
+      "1": "-4739923953*sqrt(105)/47492565127000 - 1307472303*sqrt(6)/3392326080500 + 4165502751*sqrt(70)/47492565127000 + 195895809/121154502875",
+      "2": "-3545608599/4749256512700 - 4993017957*sqrt(70)/94985130254000 + 213157827*sqrt(6)/9498513025400 + 4818400281*sqrt(105)/94985130254000",
+      "3": "-6838891937271/24339939627587500 - 54297155169*sqrt(70)/2433993962758750 + 895717580319*sqrt(6)/24339939627587500 + 21401457066*sqrt(105)/1216996981379375",
+      "4": "-9527662382013/24339939627587500 - 87678121707*sqrt(70)/2433993962758750 + 1700102168757*sqrt(6)/24339939627587500 + 30257551998*sqrt(105)/1216996981379375"
+    },
+    "kernel_normalization_component_index": 4,
+    "kernel": [
+      "-13555116558768696460911763044548355947633*sqrt(70)/2800557203248953393062567601133118749421 - 136171746705802250758088323162981559680628*sqrt(6)/8401671609746860179187702803399356248263 + 108509478636336534641801330931068822039416/2800557203248953393062567601133118749421 + 21847248618440800901186416294183309676927*sqrt(105)/5601114406497906786125135202266237498842",
+      "-10563386315134358374883376762509211828410*sqrt(70)/2800557203248953393062567601133118749421 - 316104059705110894631266586825651459683000*sqrt(6)/25205014829240580537563108410198068744789 + 48390357707148332565844649094897076715045*sqrt(105)/16803343219493720358375405606798712496526 + 95797870646523820995700023575798084427200/2800557203248953393062567601133118749421",
+      "-23352861440855689393988214850811591461319*sqrt(105)/33606686438987440716750811213597424993052 - 11517678941893147289958991788052367608597/2800557203248953393062567601133118749421 + 4047035124468433933278807828962579850767*sqrt(70)/5601114406497906786125135202266237498842 + 25651888310813042583831054583160827528526*sqrt(6)/8401671609746860179187702803399356248263",
+      "-5820009808360685955656565682807/7437853681406355634105473189821 - 357293567579776880056217976000*sqrt(6)/7437853681406355634105473189821 + 56635543152305973884294357952*sqrt(105)/7437853681406355634105473189821 + 73946914520990123155297824384*sqrt(70)/7437853681406355634105473189821",
+      "1"
+    ],
+    "kernel_numeric_display_only": [
+      "-1.48209373406",
+      "1.43824262351",
+      "2.29085159845",
+      "-0.738945813644",
+      "1.00000000000"
+    ],
+    "radiative_fraction_tangent": {
+      "M1": "-16853400085614983086217827791414384710073216/574114226666035445577826358232289343631305 - 7562802749514923648751957597183443294688*sqrt(105)/2800557203248953393062567601133118749421 + 159203096125566402882071605285820983063296*sqrt(6)/14002786016244766965312838005665593747105 + 9663945729870331909047871007051517889344*sqrt(70)/2800557203248953393062567601133118749421",
+      "E2": "-35528282092849701952014402178135925966592*sqrt(70)/14002786016244766965312838005665593747105 - 23923961495568060521204905159236340430592*sqrt(6)/2800557203248953393062567601133118749421 + 2282402980445743043372986941244062839231520/114822845333207089115565271646457868726261 + 28912396575977995802119125520135288485024*sqrt(105)/14002786016244766965312838005665593747105",
+      "M3": "-3872984770543451270755785347621895854976*sqrt(70)/2800557203248953393062567601133118749421 - 64549221654586513188175220917463088953856*sqrt(6)/14002786016244766965312838005665593747105 + 2936496989798807881565028814223616895152*sqrt(105)/2800557203248953393062567601133118749421 + 7323995572553510917118554730897240026114176/574114226666035445577826358232289343631305",
+      "E4": "-5780867777397416966184481605336156487344*sqrt(105)/14002786016244766965312838005665593747105 - 376522077833448609553132329140633902439712/114822845333207089115565271646457868726261 + 6573477296215298760553973880987815794752*sqrt(70)/14002786016244766965312838005665593747105 + 4993186601372082582425628285564761608704*sqrt(6)/2800557203248953393062567601133118749421"
+    },
+    "radiative_fraction_tangent_numeric_display_only": {
+      "M1": "-0.306986787166",
+      "E2": "-1.11782717340",
+      "M3": "0.639408853843",
+      "E4": "0.785405106721"
+    }
+  },
+  "conditional_companion": {
+    "fixed_population_amplitude_only_rank_at_seed": 3,
+    "fixed_population_meaning": "Known p0,p1 remove the population degrees of freedom; the 4x3 amplitude-only Jacobian has rank3 at this seed, giving a local embedding/inverse of a selected three-observable submap. This is not global uniqueness.",
+    "hypothetical_reference": "If an independently assigned 2+->0+ E2 photon branch from the same parent level is available, triangle/parity restrict it to pure E2. This is a possible companion design, not an added observed branch or a claim that the given synthetic level has it.",
+    "reference_W": "-5*(5*p0*x**4 - 6*p0*x**2 + p0 - 5*p1*x**4 + 3*p1*x**2 + x**4 - 1)/4",
+    "reference_A2": "5*(4*p0 + 3*p1 - 2)/14",
+    "reference_A4": "-2*(5*p0 - 5*p1 + 1)/7",
+    "reference_R2": "-sqrt(70)/14",
+    "reference_R4": "-2*sqrt(14)/7",
+    "reference_geometry_locator": "RB67 printed p319 / PDF p14 Eq3.36; exact reference amplitudes independently reproduce A_K=B_K R_K",
+    "population_inverse": "p0=1/5+(2/5)A2_ref-(3/10)A4_ref; p1=2/5+(2/5)(A2_ref+A4_ref)",
+    "measurement_dependencies": "Reference spin/parity/multipole must be independently established; match event/gate/feeding selection and symmetry axis, correct finite-angle/efficiency/response attenuation, and retain covariance. Fitting the population from the unknown mixed target under a chosen multipole remains circular.",
+    "global_counterboundary": "For isotropic p0=1/5,p1=2/5, the complete target W=1 and N=0 for every amplitude vector; calibrated population alone therefore cannot guarantee global identifiability."
+  },
+  "inference": {
+    "information_gain": "The full amplitude sum, including magnetic q^pi, derives four independent angular-function coordinates rather than presupposing four measurements. Exact rank and fraction-changing tangent distinguish an actual local joint degeneracy from dimension counting alone.",
+    "IFT_claim": "At this strict-interior seed, rank4 makes the coefficient map a submersion. Its exact fixed-observable level set is locally a smooth one-dimensional manifold, tangent to ker J. A nonzero radiative-fraction derivative along ker J proves nearby exact-equality solutions change multipole fractions; positivity and nonzero amplitudes persist locally by continuity.",
+    "full_curve_equality": "Equal four coefficients give identical pointwise normalized W and N; therefore identical Ix,Iy and fractional linear polarization wherever W>0.",
+    "kernel_is_only_a_tangent": "The straight line x_seed+s*kernel generally preserves the observables only to first order. No finite point on that line is asserted to be an exact second solution; the exact local level-set existence is justified by the implicit-function theorem.",
+    "not_proved": [
+      "global inverse uniqueness/nonuniqueness for every input point",
+      "global continuation length or all discrete branches",
+      "a numerical fit to measured counts",
+      "identifiability with independently known population, absolute width/scale, gamma-gamma correlation or ICC information",
+      "complex multipole amplitudes or nonaxial nuclear density matrices"
+    ],
+    "source_attribution": "The basis derivation, seed Jacobian, kernel and IFT application are our L2 analytic reconstruction, not a theorem directly claimed by RB67 for this five-parameter example."
+  },
+  "checks": {
+    "exact_checks": {
+      "population_normalized": true,
+      "population_aligned": true,
+      "seed_strict_positive_population": true,
+      "seed_all_four_nonzero_amplitudes": true,
+      "helicities_equal_V_zero": true,
+      "intensity_matrix_real_and_symmetric": true,
+      "density_trace_one": true,
+      "linear_intensities_sum_W": true,
+      "linear_difference_equals_negative_twice_cross": true,
+      "raw_angular_average_2S": true,
+      "normalized_angular_average_one": true,
+      "each_helicity_angular_average_half": true,
+      "W_even_x": true,
+      "linear_numerator_even_x": true,
+      "linear_numerator_vanishes_on_axis": true,
+      "full_W_has_no_K6_K8_or_odd_powers": true,
+      "full_linear_numerator_has_no_degree_above_four_or_odd_powers": true,
+      "W_full_P0_P2_P4_reconstruction": true,
+      "linear_full_associated_P2_P4_reconstruction": true,
+      "isotropic_population_W_one": true,
+      "isotropic_population_linear_zero": true,
+      "B0_one": true,
+      "odd_statistical_tensors_zero": true,
+      "statistical_tensor_K_gt_4_zero": true,
+      "two_population_parameters_independent": true,
+      "d_L1_theta_zero_identity": true,
+      "d_L2_theta_zero_identity": true,
+      "d_L3_theta_zero_identity": true,
+      "d_L4_theta_zero_identity": true,
+      "fixed_population_amplitude_Jacobian_rank3_at_seed": true,
+      "pure_E2_reference_R2_nonzero": true,
+      "pure_E2_reference_R4_nonzero": true,
+      "pure_E2_reference_A2_equals_B2_R2": true,
+      "pure_E2_reference_A4_equals_B4_R4": true,
+      "pure_E2_reference_population_inverse_p0": true,
+      "pure_E2_reference_population_inverse_p1": true,
+      "exact_J_kernel_zero": true,
+      "nonzero_kernel": true,
+      "one_dimensional_tangent_kernel": true,
+      "kernel_changes_radiative_fractions": true,
+      "sum_radiative_fraction_tangent_zero": true,
+      "prior_phase_script_unchanged": true,
+      "RB_raw_hash_identity": true
+    },
+    "passed": 43,
+    "failures": 0,
+    "elapsed_seconds": 6.79101189202629
+  },
+  "reproducibility": {
+    "script_path": "tmp/day8-20261007/four-multipoles/observable_rank.py",
+    "script_sha256": "6e77594f665b30c8094cc90fab7e02625cecab4fd8d9c853653156b5352756f6",
+    "source_code": "#!/usr/bin/env python3\n\"\"\"Bounded Day8 L2 exact four-multipole/population observable-rank audit.\n\nNo measured counts, fit, energy, ICC lookup, new source, course credit or L4.\nExisting phase code is read, never imported/executed because it writes an old\nartifact on import.  All new computations use its image-locked conventions.\n\"\"\"\nfrom __future__ import annotations\n\nimport argparse\nimport hashlib\nimport json\nimport platform\nimport sys\nimport time\nfrom datetime import datetime, timezone\nfrom pathlib import Path\n\nsys.dont_write_bytecode = True\nROOT = Path(__file__).resolve().parents[3]\nDEPS = ROOT / 'tmp/day8-20261007/rose-brink/python-deps'\nsys.path.insert(0, str(DEPS))\nimport sympy as sp\nfrom sympy.physics.wigner import clebsch_gordan, racah, wigner_d_small\nfrom sympy.polys.matrices import DomainMatrix\n\nRUN = ROOT / 'outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01'\nOUT = RUN / 'four-multipole-observable-rank.json'\nPRIOR_CODE = ROOT / 'tmp/day8-20261007/rose-brink/population_multipolarity_degeneracy.py'\nRAW = ROOT / 'raw/papers/gpt/high-spin-20260920/multipolarity/mixing ratio/1967_Rose et al_Angular Distributions of Gamma Rays in Terms of Phase-Defined Reduced Matrix Elements.pdf'\nJI = JF = sp.Integer(2)\nTHETA, X, S, C = sp.symbols('theta x s c', real=True)\nu, v, z, p0, p1 = sp.symbols('u v z p0 p1', real=True)\nVARIABLES = (u, v, z, p0, p1)\nPOINT = dict(zip(VARIABLES, (sp.Rational(1, 2), sp.Rational(1, 3), sp.Rational(1, 4), sp.Rational(1, 4), sp.Rational(1, 4))))\nMI_VALUES = MF_VALUES = tuple(range(-2, 3))\nQ_VALUES = (-1, 1)\nAMPLITUDE_LABELS = ('M1', 'E2', 'M3', 'E4')\nCOMPONENTS = ((1, 1, sp.Integer(1)), (2, 0, u), (3, 1, v), (4, 0, z))\nSTRENGTH = 1 + u*u + v*v + z*z\nWEIGHTS = {0: p0, -1: p1/2, 1: p1/2, -2: (1-p0-p1)/2, 2: (1-p0-p1)/2}\n\n\ndef progress(message: str) -> None:\n    print(message, flush=True)\n\n\ndef as_x_even_half_angles(expr):\n    \"\"\"Derive full polynomials; do not truncate their degree a priori.\"\"\"\n    result = 0\n    for (ps, pc), coefficient in sp.Poly(sp.expand(expr), S, C).terms():\n        if ps % 2 or pc % 2:\n            raise ValueError(f'Unresolved odd half-angle power {(ps,pc)}')\n        result += coefficient * ((1-X)/2)**(ps//2) * ((1+X)/2)**(pc//2)\n    return sp.factor(sp.expand(result))\n\n\ndef statistical_tensor(K):\n    return sp.simplify(sum(weight * sp.Integer(-1)**(JI-mi) * sp.sqrt(2*JI+1)\n                           * clebsch_gordan(JI, JI, K, mi, -mi, 0)\n                           for mi, weight in WEIGHTS.items()))\n\n\ndef reconstruct():\n    started = time.monotonic()\n    prior_hash = hashlib.sha256(PRIOR_CODE.read_bytes()).hexdigest()\n    progress('constructing d(L,-theta), exact CG amplitudes, q^pi for L=1..4')\n    ds = {L: wigner_d_small(L, -THETA).subs({sp.sin(THETA/2): S, sp.cos(THETA/2): C}) for L in range(1,5)}\n    amplitudes = {}\n    for mi in MI_VALUES:\n        for mf in MF_VALUES:\n            M = mi-mf\n            for q in Q_VALUES:\n                value = 0\n                for L, pi, amplitude in COMPONENTS:\n                    if abs(M)>L:\n                        continue\n                    # Source initial-bra WE: CG(Jf,L;Mf,Mi-Mf|Ji,Mi).\n                    value += (sp.Integer(q)**pi * sp.Integer(-1)**(2*L)\n                              * sp.sqrt(2*L+1) * amplitude\n                              * clebsch_gordan(JF,L,JI,mf,M,mi)\n                              * ds[L][L-M,L-q])\n                amplitudes[mi,mf,q] = sp.expand(value)\n    raw_minus = sum(WEIGHTS[mi]*amplitudes[mi,mf,-1]**2 for mi in MI_VALUES for mf in MF_VALUES)\n    raw_plus = sum(WEIGHTS[mi]*amplitudes[mi,mf,1]**2 for mi in MI_VALUES for mf in MF_VALUES)\n    raw_cross = sum(WEIGHTS[mi]*amplitudes[mi,mf,-1]*amplitudes[mi,mf,1] for mi in MI_VALUES for mf in MF_VALUES)\n    progress('deriving helicity intensity matrix and complete x polynomials')\n    hm = as_x_even_half_angles(raw_minus)/(2*STRENGTH)\n    hp = as_x_even_half_angles(raw_plus)/(2*STRENGTH)\n    cross = as_x_even_half_angles(raw_cross)/(2*STRENGTH)\n    W = sp.factor(hm+hp)\n    N = sp.factor(-2*cross)  # Ix-Iy; fractional linear Stokes parameter is N/W.\n    Ix, Iy = sp.factor((W+N)/2), sp.factor((W-N)/2)\n    intensity_matrix = sp.Matrix([[hm,cross],[cross,hp]])\n    photon_density = intensity_matrix/W\n    checks = {}\n\n    def check(name, condition):\n        checks[name] = bool(condition)\n        if not checks[name]:\n            raise AssertionError(name)\n\n    check('population_normalized', sp.simplify(sum(WEIGHTS.values())-1)==0)\n    check('population_aligned', WEIGHTS[-1]==WEIGHTS[1] and WEIGHTS[-2]==WEIGHTS[2])\n    check('seed_strict_positive_population', all(weight.subs(POINT)>0 for weight in WEIGHTS.values()))\n    check('seed_all_four_nonzero_amplitudes', all(amplitude.subs(POINT)!=0 for _,_,amplitude in COMPONENTS))\n    check('helicities_equal_V_zero', sp.simplify(hm-hp)==0)\n    check('intensity_matrix_real_and_symmetric', intensity_matrix==intensity_matrix.T and sp.simplify(intensity_matrix-sp.conjugate(intensity_matrix))==sp.zeros(2))\n    check('density_trace_one', sp.simplify(sp.trace(photon_density)-1)==0)\n    check('linear_intensities_sum_W', sp.simplify(Ix+Iy-W)==0)\n    check('linear_difference_equals_negative_twice_cross', sp.simplify(Ix-Iy+2*cross)==0)\n    check('raw_angular_average_2S', sp.simplify(sp.integrate(W*2*STRENGTH,(X,-1,1))/2-2*STRENGTH)==0)\n    check('normalized_angular_average_one', sp.simplify(sp.integrate(W,(X,-1,1))/2-1)==0)\n    check('each_helicity_angular_average_half', sp.simplify(sp.integrate(hm,(X,-1,1))/2-sp.Rational(1,2))==0)\n    check('W_even_x', sp.simplify(W-W.subs(X,-X))==0)\n    check('linear_numerator_even_x', sp.simplify(N-N.subs(X,-X))==0)\n    check('linear_numerator_vanishes_on_axis', sp.simplify(N.subs(X,1))==sp.simplify(N.subs(X,-1))==0)\n    # The following degrees are measured after summing all M,Mf and multipoles.\n    w_poly, n_poly = sp.Poly(W,X), sp.Poly(N,X)\n    observed_degrees = {'W':w_poly.degree(),'N_linear':n_poly.degree()}\n    check('full_W_has_no_K6_K8_or_odd_powers', observed_degrees['W']<=4 and all(w_poly.nth(k)==0 for k in (1,3,5,6,7,8)))\n    check('full_linear_numerator_has_no_degree_above_four_or_odd_powers', observed_degrees['N_linear']<=4 and all(n_poly.nth(k)==0 for k in (1,3,5,6,7,8)))\n    P2,P4 = sp.legendre(2,X),sp.legendre(4,X)\n    P22,P42 = sp.assoc_legendre(2,2,X),sp.assoc_legendre(4,2,X)\n    A4 = sp.factor(sp.Rational(8,35)*w_poly.nth(4))\n    A2 = sp.factor(sp.Rational(2,3)*(w_poly.nth(2)+sp.Rational(15,4)*A4))\n    L4 = sp.factor(-sp.Rational(2,105)*n_poly.nth(4))\n    L2 = sp.factor((n_poly.nth(0)+sp.Rational(15,2)*L4)/3)\n    check('W_full_P0_P2_P4_reconstruction', sp.simplify(W-(1+A2*P2+A4*P4))==0)\n    check('linear_full_associated_P2_P4_reconstruction', sp.simplify(N-(L2*P22+L4*P42))==0)\n    check('isotropic_population_W_one', sp.simplify(W.subs({p0:sp.Rational(1,5),p1:sp.Rational(2,5)})-1)==0)\n    check('isotropic_population_linear_zero', sp.simplify(N.subs({p0:sp.Rational(1,5),p1:sp.Rational(2,5)}))==0)\n    tensors = {K:statistical_tensor(K) for K in range(9)}\n    check('B0_one', tensors[0]==1)\n    check('odd_statistical_tensors_zero', all(tensors[K]==0 for K in (1,3,5,7)))\n    check('statistical_tensor_K_gt_4_zero', all(tensors[K]==0 for K in (5,6,7,8)))\n    pop_jac = sp.Matrix([tensors[2],tensors[4]]).jacobian((p0,p1))\n    check('two_population_parameters_independent', sp.simplify(pop_jac.det())!=0)\n    for L in range(1,5):\n        check(f'd_L{L}_theta_zero_identity', ds[L].subs({S:0,C:1})==sp.eye(2*L+1))\n\n    functions = sp.Matrix([A2,A4,L2,L4])\n    progress('basis derived; computing exact 4x5 Jacobian at the strict interior seed')\n    jac = functions.jacobian(VARIABLES)\n    jac_point = jac.subs(POINT).applyfunc(sp.simplify)\n    field_jac = DomainMatrix.from_Matrix(jac_point,extension=True)\n    progress(f'exact Jacobian domain: {field_jac.domain}')\n    rref,pivots = field_jac.rref()\n    rank = len(pivots)\n    amplitude_jac = field_jac.extract(list(range(4)),[0,1,2])\n    amplitude_pivots = amplitude_jac.rref()[1]\n    amplitude_rank = len(amplitude_pivots)\n    check('fixed_population_amplitude_Jacobian_rank3_at_seed',amplitude_rank==3)\n    # Cheap conditional companion: an independently established 2+->0+ branch,\n    # if available under the same parent population, has only L=2 E radiation.\n    reference_raw = sum(WEIGHTS[mi]*5*clebsch_gordan(0,2,2,0,mi,mi)**2\n                        * ds[2][2-mi,2-q]**2 for mi in MI_VALUES for q in Q_VALUES)\n    reference_W = as_x_even_half_angles(reference_raw)/2\n    ref_poly = sp.Poly(reference_W,X)\n    reference_A4 = sp.factor(sp.Rational(8,35)*ref_poly.nth(4))\n    reference_A2 = sp.factor(sp.Rational(2,3)*(ref_poly.nth(2)+sp.Rational(15,4)*reference_A4))\n    reference_R = {K:sp.simplify(sp.Integer(-1)**(1+2-0-K)\n                                *sp.sqrt((2*2+1)*(2*2+1)**2)\n                                *clebsch_gordan(2,2,K,1,-1,0)\n                                *racah(2,2,2,2,K,0)) for K in (2,4)}\n    check('pure_E2_reference_R2_nonzero',reference_R[2]!=0)\n    check('pure_E2_reference_R4_nonzero',reference_R[4]!=0)\n    check('pure_E2_reference_A2_equals_B2_R2',sp.simplify(reference_A2-tensors[2]*reference_R[2])==0)\n    check('pure_E2_reference_A4_equals_B4_R4',sp.simplify(reference_A4-tensors[4]*reference_R[4])==0)\n    check('pure_E2_reference_population_inverse_p0',sp.simplify(sp.Rational(1,5)+sp.Rational(2,5)*reference_A2-sp.Rational(3,10)*reference_A4-p0)==0)\n    check('pure_E2_reference_population_inverse_p1',sp.simplify(sp.Rational(2,5)+sp.Rational(2,5)*(reference_A2+reference_A4)-p1)==0)\n    kernel = None\n    radiative_tangent = None\n    minor_strings = {}\n    fractions = sp.Matrix([1,u*u,v*v,z*z])/STRENGTH\n    fractions_point = fractions.subs(POINT)\n    if rank==4:\n        domain = field_jac.domain\n        raw_kernel = []\n        for omitted in range(5):\n            cols = [j for j in range(5) if j!=omitted]\n            minor = field_jac.extract(list(range(4)),cols).det()\n            raw_kernel.append((-1 if omitted%2 else 1)*minor)\n            minor_strings[str(omitted)] = sp.sstr(domain.to_sympy(minor))\n        nonzero = [j for j,value in enumerate(raw_kernel) if value!=domain.zero]\n        normalization_index = nonzero[-1]\n        scalar = raw_kernel[normalization_index]\n        kernel_values = [domain.exquo(value,scalar) for value in raw_kernel]\n        kernel = sp.Matrix([domain.to_sympy(value) for value in kernel_values])\n        dm_kernel = DomainMatrix.from_Matrix(kernel).convert_to(domain)\n        check('exact_J_kernel_zero', (field_jac*dm_kernel).is_zero_matrix)\n        check('nonzero_kernel', len(nonzero)>0)\n        check('one_dimensional_tangent_kernel', 5-rank==1)\n        d_fraction_point = fractions.jacobian(VARIABLES).subs(POINT)\n        dm_df = DomainMatrix.from_Matrix(d_fraction_point).convert_to(domain)\n        dm_tangent = dm_df*dm_kernel\n        radiative_tangent = dm_tangent.to_Matrix()\n        check('kernel_changes_radiative_fractions', not dm_tangent.is_zero_matrix)\n        check('sum_radiative_fraction_tangent_zero', sum(dm_tangent.to_list()[j][0] for j in range(4))==domain.zero)\n    else:\n        normalization_index = None\n\n    check('prior_phase_script_unchanged', hashlib.sha256(PRIOR_CODE.read_bytes()).hexdigest()==prior_hash)\n    raw_hash = hashlib.sha256(RAW.read_bytes()).hexdigest()\n    check('RB_raw_hash_identity', raw_hash=='8f846b61b9320de291ee5600126c5e286a0fe05968df819696816f0dc1ec57dc')\n    code = Path(__file__).read_text(encoding='utf-8')\n    elapsed = time.monotonic()-started\n    result = {\n        'schema_version':1,'created_at_utc':datetime.now(timezone.utc).isoformat(),\n        'kind':'bounded-Day8-L2-four-multipole-observable-rank',\n        'day_index':8,'run_closed':False,'new_course_card_opened':False,\n        'evidence_class':'synthetic exact symbolic reconstruction and local identifiability proof; no observed data, fit or L4',\n        'status':'basis_and_regular_local_fiber_proved' if rank==4 and radiative_tangent is not None else 'basis_proved_rank_boundary_requires_review',\n        'source':{'raw_path':str(RAW.relative_to(ROOT)),'raw_sha256':raw_hash,\n                  'phase_script_path':str(PRIOR_CODE.relative_to(ROOT)), 'phase_script_sha256':prior_hash,\n                  'prior_script_executed':False,\n                  'locators':{'D_rotation':'printed p312 / PDF p7, footnote7',\n                              'amplitude_WE_linear_coherence':'printed p316 / PDF p11, Eq3.24, linear polarization paragraph, WE relation after Eq3.25',\n                              'population_tensor':'printed p317 / PDF p12, Eq3.28',\n                              'radiative_amplitude_ratios':'printed p319 / PDF p14, Eq3.39 and preceding width interpretation',\n                              'parity_and_rank':'printed p320 / PDF p15, Eqs3.40-3.43 and notes',\n                              'explicit_two_component_truncation':'printed p321 / PDF p16, text before Eq3.47'}},\n        'fixed_assumptions':{'Ji':'2','Jf':'2','initial_final_parity':'+,+',\n                             'allowed_retained_gamma_components':list(AMPLITUDE_LABELS),\n                             'real_normalized_interaction_amplitudes':['1','u','v','z'],\n                             'gauge':'a_M1=1 fixes relative radiative amplitude scale; no absolute width/yield supplied',\n                             'population':'w0=p0,w(+/-1)=p1/2,w(+/-2)=(1-p0-p1)/2; diagonal and axially symmetric',\n                             'physical_open_domain':'p0>0,p1>0,p0+p1<1; u,v,z nonzero near the seed',\n                             'photon_geometry':'phi=0, d(L,-theta)=<LM|exp(-i theta Jy/hbar)|Lq>; q=-1,+1',\n                             'magnetic_helicity':'pi=1 for M1/M3, pi=0 for E2/E4; retain q^pi',\n                             'CG_order':'CG(Jf,L;Mf,Mi-Mf|Ji,Mi), as in RB initial-bra WE convention',\n                             'linear_axes':'xprime in meridian plane, yprime normal to it; Ix from Aminus-Aplus, Iy from Aminus+Aplus',\n                             'scope':'ideal normalized direction and linear-polarization curves, final nuclear orientation unobserved; no detector response, conversion/pair/E0, cascade or absolute-scale constraint'},\n        'observable_construction':{\n            'Atilde':'sum_L q^pi*sqrt(2L+1)*a_L*CG(Jf,L;Mf,Mi-Mf|Ji,Mi)*d_L(Mi-Mf,q)',\n            'S':sp.sstr(STRENGTH),\n            'intensity_matrix':'I_qqprime=sum_Mi,Mf w_Mi*Atilde_q*Atilde_qprime/(2S); Hermitian positive Gram matrix',\n            'density':'rho_photon=I/trace(I)=I/W; trace rho=1',\n            'W':sp.sstr(W),'N_linear_Ix_minus_Iy':sp.sstr(N),\n            'Ix':sp.sstr(Ix),'Iy':sp.sstr(Iy),\n            'fractional_linear_polarization':'P=(Ix-Iy)/(Ix+Iy)=N/W, a rational angular function, not a truncated Legendre polynomial',\n            'derived_complete_function_bases':{'W':'1+A2*P2(x)+A4*P4(x)',\n                                              'N_linear':'L2*P2^2(x)+L4*P4^2(x)',\n                                              'associated_basis':'P2^2=3(1-x^2); P4^2=(15/2)(1-x^2)(7x^2-1)'},\n            'observed_polynomial_degrees_after_full_sum':observed_degrees,\n            'V_and_U':'V=Iplusplus-Iminusminus=0; U=0 because offdiagonal is real in these meridian axes. A rotated analyzer mixes Q/U but introduces no new independent coefficient.',\n            'angular_average':'(1/2) integral_-1^1 W dx=1; raw helicity intensity average=2S',\n            'positivity':'All intensities are weighted sums of squared amplitudes. Isotropic w=1/5 gives W=1, Ix=Iy=1/2. For strictly positive populations, W>=5*min(w)>0, so N/W and rho are globally defined. At seed min(w)=1/8 hence W>=5/8.'},\n        'population_tensors':{str(K):sp.sstr(value) for K,value in tensors.items()},\n        'coefficient_map':{'input_order':[str(variable) for variable in VARIABLES],\n                           'output_order':['A2','A4','L2','L4'],\n                           'exact_functions':[sp.sstr(function) for function in functions]},\n        'seed':{'parameters':{str(variable):sp.sstr(value) for variable,value in POINT.items()},\n                'population':{str(mi):sp.sstr(weight.subs(POINT)) for mi,weight in WEIGHTS.items()},\n                'S':sp.sstr(STRENGTH.subs(POINT)),\n                'coefficient_values':[sp.sstr(sp.simplify(function.subs(POINT))) for function in functions],\n                'radiative_fractions':dict(zip(AMPLITUDE_LABELS,[sp.sstr(value) for value in fractions_point]))},\n        'exact_Jacobian':{'matrix':[[sp.sstr(value) for value in row] for row in jac_point.tolist()],\n                          'algebraic_field':str(field_jac.domain),'rank':rank,'rref_pivot_columns':list(pivots),\n                          'four_by_four_minors_by_omitted_column':minor_strings,\n                          'kernel_normalization_component_index':normalization_index,\n                          'kernel':None if kernel is None else [sp.sstr(value) for value in kernel],\n                          'kernel_numeric_display_only':None if kernel is None else [str(sp.N(value,12)) for value in kernel],\n                          'radiative_fraction_tangent':None if radiative_tangent is None else dict(zip(AMPLITUDE_LABELS,[sp.sstr(value) for value in radiative_tangent])),\n                          'radiative_fraction_tangent_numeric_display_only':None if radiative_tangent is None else dict(zip(AMPLITUDE_LABELS,[str(sp.N(value,12)) for value in radiative_tangent]))},\n        'conditional_companion':{\n            'fixed_population_amplitude_only_rank_at_seed':amplitude_rank,\n            'fixed_population_meaning':'Known p0,p1 remove the population degrees of freedom; the 4x3 amplitude-only Jacobian has rank3 at this seed, giving a local embedding/inverse of a selected three-observable submap. This is not global uniqueness.',\n            'hypothetical_reference':'If an independently assigned 2+->0+ E2 photon branch from the same parent level is available, triangle/parity restrict it to pure E2. This is a possible companion design, not an added observed branch or a claim that the given synthetic level has it.',\n            'reference_W':sp.sstr(reference_W),'reference_A2':sp.sstr(reference_A2),'reference_A4':sp.sstr(reference_A4),\n            'reference_R2':sp.sstr(reference_R[2]),'reference_R4':sp.sstr(reference_R[4]),\n            'reference_geometry_locator':'RB67 printed p319 / PDF p14 Eq3.36; exact reference amplitudes independently reproduce A_K=B_K R_K',\n            'population_inverse':'p0=1/5+(2/5)A2_ref-(3/10)A4_ref; p1=2/5+(2/5)(A2_ref+A4_ref)',\n            'measurement_dependencies':'Reference spin/parity/multipole must be independently established; match event/gate/feeding selection and symmetry axis, correct finite-angle/efficiency/response attenuation, and retain covariance. Fitting the population from the unknown mixed target under a chosen multipole remains circular.',\n            'global_counterboundary':'For isotropic p0=1/5,p1=2/5, the complete target W=1 and N=0 for every amplitude vector; calibrated population alone therefore cannot guarantee global identifiability.'},\n        'inference':{\n            'information_gain':'The full amplitude sum, including magnetic q^pi, derives four independent angular-function coordinates rather than presupposing four measurements. Exact rank and fraction-changing tangent distinguish an actual local joint degeneracy from dimension counting alone.',\n            'IFT_claim':'At this strict-interior seed, rank4 makes the coefficient map a submersion. Its exact fixed-observable level set is locally a smooth one-dimensional manifold, tangent to ker J. A nonzero radiative-fraction derivative along ker J proves nearby exact-equality solutions change multipole fractions; positivity and nonzero amplitudes persist locally by continuity.' if rank==4 else 'No regular-fiber claim made because rank4 was not established.',\n            'full_curve_equality':'Equal four coefficients give identical pointwise normalized W and N; therefore identical Ix,Iy and fractional linear polarization wherever W>0.',\n            'kernel_is_only_a_tangent':'The straight line x_seed+s*kernel generally preserves the observables only to first order. No finite point on that line is asserted to be an exact second solution; the exact local level-set existence is justified by the implicit-function theorem.',\n            'not_proved':['global inverse uniqueness/nonuniqueness for every input point','global continuation length or all discrete branches','a numerical fit to measured counts','identifiability with independently known population, absolute width/scale, gamma-gamma correlation or ICC information','complex multipole amplitudes or nonaxial nuclear density matrices'],\n            'source_attribution':'The basis derivation, seed Jacobian, kernel and IFT application are our L2 analytic reconstruction, not a theorem directly claimed by RB67 for this five-parameter example.'},\n        'checks':{'exact_checks':checks,'passed':sum(checks.values()),'failures':0,'elapsed_seconds':elapsed},\n        'reproducibility':{'script_path':str(Path(__file__).relative_to(ROOT)),\n                           'script_sha256':hashlib.sha256(code.encode('utf-8')).hexdigest(),'source_code':code,\n                           'python':platform.python_version(),'sympy':sp.__version__,'dependencies':str(DEPS.relative_to(ROOT)),\n                           'baseline_path':str((RUN/'baseline.json').relative_to(ROOT)),\n                           'baseline_sha256':hashlib.sha256((RUN/'baseline.json').read_bytes()).hexdigest(),\n                           'command':'python3 tmp/day8-20261007/four-multipoles/observable_rank.py --write-receipt',\n                           'write_policy':'only exclusive new owned receipt; never execute or overwrite prior phase code/artifacts, source, raw, report, state or Git'},\n    }\n    return result\n\n\ndef main():\n    parser=argparse.ArgumentParser(description=__doc__)\n    parser.add_argument('--write-receipt',action='store_true')\n    args=parser.parse_args()\n    result=reconstruct()\n    if args.write_receipt:\n        with OUT.open('x',encoding='utf-8',newline='\\n') as stream:\n            json.dump(result,stream,ensure_ascii=False,indent=2)\n            stream.write('\\n')\n    print(json.dumps({'output':str(OUT.relative_to(ROOT)) if args.write_receipt else None,\n                      'status':result['status'],'degrees':result['observable_construction']['observed_polynomial_degrees_after_full_sum'],\n                      'rank':result['exact_Jacobian']['rank'],'kernel_numeric':result['exact_Jacobian']['kernel_numeric_display_only'],\n                      'fraction_tangent_numeric':result['exact_Jacobian']['radiative_fraction_tangent_numeric_display_only'],\n                      'checks_passed':result['checks']['passed'],'elapsed_seconds':result['checks']['elapsed_seconds'],\n                      'run_closed':False},ensure_ascii=False,indent=2))\n\n\nif __name__=='__main__':\n    main()\n",
+    "python": "3.12.3",
+    "sympy": "1.14.0",
+    "dependencies": "tmp/day8-20261007/rose-brink/python-deps",
+    "baseline_path": "outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/baseline.json",
+    "baseline_sha256": "ac73898f4f4e970a15d9fa9b6f3a6e876903bac44f9740c261a395cb4e0adc09",
+    "command": "python3 tmp/day8-20261007/four-multipoles/observable_rank.py --write-receipt",
+    "write_policy": "only exclusive new owned receipt; never execute or overwrite prior phase code/artifacts, source, raw, report, state or Git"
+  }
+}

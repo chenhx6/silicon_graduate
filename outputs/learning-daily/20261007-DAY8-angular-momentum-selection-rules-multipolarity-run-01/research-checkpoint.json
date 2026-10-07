@@ -13,11 +13,11 @@
   ],
   "course_state_updated": false,
   "runtime_snapshot": {
-    "now_local": "2026-10-07T10:57:34+08:00",
+    "now_local": "2026-10-07T12:17:11+08:00",
     "hard_deadline": "2026-10-08T15:00:00+08:00",
     "next_scheduled_start": "2026-10-08T16:00:00+08:00",
-    "minutes_to_deadline": 1682,
-    "minutes_to_next_start": 1742,
+    "minutes_to_deadline": 1602,
+    "minutes_to_next_start": 1662,
     "minimum_current_block_minutes": 90,
     "minimum_forward_card_block_minutes": 120,
     "can_continue_current": true,
@@ -42,8 +42,8 @@
     },
     {
       "id": "day8-four-multipole-full-polarization-rank",
-      "decision": "selected-bounded-L2",
-      "next_gain": "derive actual full single-gamma polarization basis, then test whether unknown aligned population plus four nonzero amplitudes can retain local joint solutions"
+      "decision": "bounded-route-complete",
+      "next_gain": "rank4/IFT local joint family and fixed-population rank3 checked; global/cascade/ICC inversion remains outside this bounded exercise"
     },
     {
       "id": "day8-gamma-cascade-expansion",
@@ -54,6 +54,12 @@
       "id": "day9-strength-input-chain",
       "decision": "preview-knowledge-written-uncredited",
       "next_gain": "source packet reconciliation and conditional input checks; no independent formal Day9 recall/audit or credit"
+    },
+    {
+      "id": "day9-independent-icc-input-readiness",
+      "decision": "selected-readonly-readiness",
+      "scope": "existing BrICC source/tool or independent atomic-data input only; no new literature batch, no new card",
+      "next_gain": "check whether photon/total-branch alternatives can be forward-compared using independent theoretical ICC inputs, rather than reverse-solving coefficients from quoted B"
     },
     {
       "id": "day10-card",
@@ -77,10 +83,23 @@
     }
   ],
   "next_actions": [
-    "Day8 synthetic B full four-multipole/polarization/population representation and exact local rank audit",
-    "Day9 uncredited preview packet reconciliation; branching/IC/covariance remain conditional",
+    "Day9 uncredited two-parent/four-branch gamma-only negative controls",
+    "Day9 independent theoretical ICC input availability/source-provenance audit for the two-parent controls",
+    "refresh clock and candidate pool after the complete four-multipole bounded route",
     "2026-10-08 15:00 closeout, Day9 plan/prompt and gated course state update"
   ],
   "latest_verification": "/workspace/wiki/outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/checkpoint-preview-checks.json",
-  "checkpoint_verified": true
+  "checkpoint_verified": true,
+  "latest_completed_route": {
+    "id": "day8-four-multipole-full-polarization-rank",
+    "parent_exact_checks": 43,
+    "rank": 4,
+    "fixed_population_rank": 3,
+    "source_claim": "RB67-13"
+  },
+  "uncredited_preview": {
+    "day": 9,
+    "status": "controls complete numerically; source/atomic input readiness in progress"
+  },
+  "knowledge_writeback_pages": 6
 }

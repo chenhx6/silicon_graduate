@@ -1,0 +1,290 @@
+{
+  "schema_version": 1,
+  "created_utc": "2026-10-07T04:33:13.048755+00:00",
+  "kind": "four-branch-gamma-only-input-chain-controls",
+  "learning_level": "L2",
+  "run_day_index": 8,
+  "preview_card_index": 9,
+  "preview_credit": false,
+  "source": {
+    "citation_key": "Mukhopadhyay_2008",
+    "doi": "10.1103/PhysRevC.78.034311",
+    "nucleus": "136Nd",
+    "article_pages": "034311-1 through 034311-6",
+    "pdf_pages": 6,
+    "source_page": "knowledge/sources/mukhopadhyay-2008-136nd-transition-rates.md",
+    "raw_file": "raw/papers/gpt/high-spin-20260920/三轴/手征/2008_Mukhopadhyay et al_Electromagnetic transition rates in high-spin bands in Nd 136.pdf",
+    "source_raw_sha256": "ea77d7d033051369d19aad2f82a542e91e262eb490d518b246f7f04c2d0dcd2c",
+    "actual_raw_sha256": "ea77d7d033051369d19aad2f82a542e91e262eb490d518b246f7f04c2d0dcd2c",
+    "matches": true
+  },
+  "inputs": {
+    "packet": "outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/day9-strength-input-packet.json",
+    "packet_sha256": "756d1b98bd4affc98a6a6e64b2a6843b5773997b16b909fe092cbed867375a90",
+    "modern_unit_audit": "outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/day9-strength-unit-audit.json",
+    "unit_audit_sha256": "0913dc388d5852c1d95bdf6fdc4007602748eed97504fda903fef911a6295a1d"
+  },
+  "modern_coefficient_provenance": {
+    "constants": {
+      "M1": "0.056870975643539275",
+      "E2": "0.08162021200779666"
+    },
+    "registry": {
+      "provider": "installed scipy.constants registry",
+      "scipy_version": "1.18.1",
+      "CODATA_version": "CODATA 2022",
+      "local_registry": "/opt/venv/lib/python3.12/site-packages/scipy/constants/_codata.py",
+      "not_LKH82_values": true
+    },
+    "boundary": "These are the parent unit-audit modern coefficients, not identified historic MU08 coefficients. Numeric digits document normalization, not experimental precision."
+  },
+  "common_conditions": [
+    "All four results are gamma-only conditional arithmetic: zero conversion and extra non-gamma/unobserved decay rates are imposed for the calculation, not inferred for the experiment.",
+    "Reported parent Lifetime(ps) is used as mean tau under standard DSAM interpretation; no half-life conversion is applied.",
+    "Reported Table I b values are used as usable parent photon fractions under this closure, without selecting a real-world branch-normalization convention.",
+    "The author explicitly assumes pure M1 for DeltaI=1 absolute B(M1); the DeltaI=2 crossover branches are treated as pure E2 for the quoted extraction. Neither is a new measured mixing-ratio determination.",
+    "Published B values are outputs used only for comparison. No residual is inverted into an ICC, delta, density/population parameter or branching convention.",
+    "The rate-to-B coefficient already implements B=RME^2/(2Ji+1); no second spin-normalization division is performed."
+  ],
+  "four_branch_results": [
+    {
+      "parent": {
+        "nucleus": "136Nd",
+        "band_2008": 1,
+        "Ji_parity": "18-",
+        "Ex_keV": "6711.4"
+      },
+      "transition": {
+        "E_gamma_keV": "401.2",
+        "E_gamma_MeV": "0.4012",
+        "Jf_parity": "17-",
+        "daughter_Ex_keV_by_subtraction": "6310.2",
+        "assigned_pure_mode_for_this_arithmetic": "M1"
+      },
+      "mean_tau_ps": {
+        "quoted": "0.56(8)",
+        "value": "0.56",
+        "quoted_uncertainty": "0.08"
+      },
+      "reported_branch": {
+        "quoted": "0.57(6)",
+        "value": "0.57",
+        "quoted_uncertainty": "0.06"
+      },
+      "gamma_only_formula": "B(M1)=C_M1*b/[tau_ps*E_MeV^3]",
+      "modern_C": "0.056870975643539275",
+      "C_unit": "mu_N^2 ps MeV^3",
+      "conditional_photon_rate_per_s": "1017857142857.142857142857142857142857143",
+      "gamma_only_B": "0.8963853177225005305757462700182530817949",
+      "B_unit": "mu_N^2",
+      "independent_quoted_error_approx": "0.1590635573923808189477063457932542328044",
+      "published_B_output_reference": {
+        "quoted": "0.9(2)",
+        "value": "0.9",
+        "quoted_uncertainty": "0.2"
+      },
+      "computed_minus_published_center": "-0.0036146822774994694242537299817469182051",
+      "descriptive_relative_difference_percent": "-0.4016313641666077138059699979718798005700",
+      "source_locators": {
+        "branch": "printed 034311-3 / PDF p.3, Table I selected parent row",
+        "lifetime_and_output": "printed 034311-4 / PDF p.4, Table II selected spin row",
+        "level_scheme": "printed 034311-2 / PDF p.2, Fig.1",
+        "pure_M1_assumption": "printed 034311-3 / PDF p.3, paragraph before TAC formalism"
+      }
+    },
+    {
+      "parent": {
+        "nucleus": "136Nd",
+        "band_2008": 1,
+        "Ji_parity": "18-",
+        "Ex_keV": "6711.4"
+      },
+      "transition": {
+        "E_gamma_keV": "757.4",
+        "E_gamma_MeV": "0.7574",
+        "Jf_parity": "16-",
+        "daughter_Ex_keV_by_subtraction": "5954.0",
+        "assigned_pure_mode_for_this_arithmetic": "E2"
+      },
+      "mean_tau_ps": {
+        "quoted": "0.56(8)",
+        "value": "0.56",
+        "quoted_uncertainty": "0.08"
+      },
+      "reported_branch": {
+        "quoted": "0.24(2)",
+        "value": "0.24",
+        "quoted_uncertainty": "0.02"
+      },
+      "gamma_only_formula": "B(E2)=C_E2*b/[tau_ps*E_MeV^5]",
+      "modern_C": "0.08162021200779666",
+      "C_unit": "e^2 b^2 ps MeV^5",
+      "conditional_photon_rate_per_s": "428571428571.4285714285714285714285714286",
+      "gamma_only_B": "0.1403441870829618452045862365146778097504",
+      "B_unit": "e^2 b^2",
+      "independent_quoted_error_approx": "0.02321099712255847831917880485135454923366",
+      "published_B_output_reference": {
+        "quoted": "0.14(2)",
+        "value": "0.14",
+        "quoted_uncertainty": "0.02"
+      },
+      "computed_minus_published_center": "0.0003441870829618452045862365146778097504",
+      "descriptive_relative_difference_percent": "0.245847916401318003275883224769864107400",
+      "source_locators": {
+        "branch": "printed 034311-3 / PDF p.3, Table I selected parent row",
+        "lifetime_and_output": "printed 034311-4 / PDF p.4, Table II selected spin row",
+        "level_scheme": "printed 034311-2 / PDF p.2, Fig.1",
+        "pure_M1_assumption": "printed 034311-3 / PDF p.3, paragraph before TAC formalism"
+      }
+    },
+    {
+      "parent": {
+        "nucleus": "136Nd",
+        "band_2008": 2,
+        "Ji_parity": "15-",
+        "Ex_keV": "5729.3"
+      },
+      "transition": {
+        "E_gamma_keV": "199.6",
+        "E_gamma_MeV": "0.1996",
+        "Jf_parity": "14-",
+        "daughter_Ex_keV_by_subtraction": "5529.7",
+        "assigned_pure_mode_for_this_arithmetic": "M1"
+      },
+      "mean_tau_ps": {
+        "quoted": "1.27(6)",
+        "value": "1.27",
+        "quoted_uncertainty": "0.06"
+      },
+      "reported_branch": {
+        "quoted": "0.93(5)",
+        "value": "0.93",
+        "quoted_uncertainty": "0.05"
+      },
+      "gamma_only_formula": "B(M1)=C_M1*b/[tau_ps*E_MeV^3]",
+      "modern_C": "0.056870975643539275",
+      "C_unit": "mu_N^2 ps MeV^3",
+      "conditional_photon_rate_per_s": "732283464566.9291338582677165354330708661",
+      "gamma_only_B": "5.237068995737073371283200855729874816555",
+      "B_unit": "mu_N^2",
+      "independent_quoted_error_approx": "0.3748260699323782812871861936175137428487",
+      "published_B_output_reference": {
+        "quoted": "4.4(3)",
+        "value": "4.4",
+        "quoted_uncertainty": "0.3"
+      },
+      "computed_minus_published_center": "0.837068995737073371283200855729874816555",
+      "descriptive_relative_difference_percent": "19.02429535766075843825456490295170037620",
+      "source_locators": {
+        "branch": "printed 034311-3 / PDF p.3, Table I selected parent row",
+        "lifetime_and_output": "printed 034311-4 / PDF p.4, Table II selected spin row",
+        "level_scheme": "printed 034311-2 / PDF p.2, Fig.1",
+        "pure_M1_assumption": "printed 034311-3 / PDF p.3, paragraph before TAC formalism"
+      }
+    },
+    {
+      "parent": {
+        "nucleus": "136Nd",
+        "band_2008": 2,
+        "Ji_parity": "15-",
+        "Ex_keV": "5729.3"
+      },
+      "transition": {
+        "E_gamma_keV": "382.0",
+        "E_gamma_MeV": "0.382",
+        "Jf_parity": "13-",
+        "daughter_Ex_keV_by_subtraction": "5347.3",
+        "assigned_pure_mode_for_this_arithmetic": "E2"
+      },
+      "mean_tau_ps": {
+        "quoted": "1.27(6)",
+        "value": "1.27",
+        "quoted_uncertainty": "0.06"
+      },
+      "reported_branch": {
+        "quoted": "0.07(1)",
+        "value": "0.07",
+        "quoted_uncertainty": "0.01"
+      },
+      "gamma_only_formula": "B(E2)=C_E2*b/[tau_ps*E_MeV^5]",
+      "modern_C": "0.08162021200779666",
+      "C_unit": "e^2 b^2 ps MeV^5",
+      "conditional_photon_rate_per_s": "55118110236.22047244094488188976377952756",
+      "gamma_only_B": "0.5530637869333412888719991655470671488640",
+      "B_unit": "e^2 b^2",
+      "independent_quoted_error_approx": "0.08321757249337299107791412482198755999988",
+      "published_B_output_reference": {
+        "quoted": "0.54(8)",
+        "value": "0.54",
+        "quoted_uncertainty": "0.08"
+      },
+      "computed_minus_published_center": "0.0130637869333412888719991655470671488640",
+      "descriptive_relative_difference_percent": "2.419219802470609050370215842049472011900",
+      "source_locators": {
+        "branch": "printed 034311-3 / PDF p.3, Table I selected parent row",
+        "lifetime_and_output": "printed 034311-4 / PDF p.4, Table II selected spin row",
+        "level_scheme": "printed 034311-2 / PDF p.2, Fig.1",
+        "pure_M1_assumption": "printed 034311-3 / PDF p.3, paragraph before TAC formalism"
+      }
+    }
+  ],
+  "normalization_context": {
+    "Band1_I18": "The two selected Table I b centers sum to 0.81. A third reported branch has b=0.19 and remains in the original normalization; its strength is not computed here. Do not divide 0.57 or 0.24 by 0.81.",
+    "Band2_I15": "The two reported/selected branch centers sum to 1.00. This reported normalization does not prove closure against conversion or unobserved channels."
+  },
+  "uncertainty_boundary": {
+    "approximation_used": "The displayed quoted-error approximation is B*sqrt((sigma_b/b)^2+(sigma_tau/tau)^2), assuming independent quoted errors and fixed energy/coefficient.",
+    "correct_general_rule": "Sigma_B=J Sigma_input J^T with log derivatives (b,tau,E,C)=(1/b,-1/tau,-n/E,1/C), n=3 or 5.",
+    "covariance": "The two strengths from each parent share tau and branch normalization; branch/branch and branch/tau covariance are unavailable. They are not independent derived observations.",
+    "energy": "No E_gamma uncertainties are supplied by Table I; last printed digits are not assigned a measurement error.",
+    "systematic": "MU08 stopping-power modeling uncertainties may be as large as 15% and are omitted from the quoted errors; this is not a specified Gaussian sigma or a separate side-feeding 15% error.",
+    "feeding": "Five-transition side-feeding model, varied quadrupole moments and global lifetime fit remain method dependencies; no new DSAM fit is performed.",
+    "constant_and_rounding": "Modern versus unstated historic constants, quoted central-value/error rounding and statistical conventions remain boundaries. The coefficient audit distinguishes 0.05697 from its modern M1 value.",
+    "no_significance": "No z score, p value, independent-measurement discrepancy or confidence-level exclusion is calculated."
+  },
+  "chain_test_conclusion": {
+    "descriptive_result": "The selected high-energy E2 centers lie near the quoted outputs, while the gamma-only 199.6-keV M1 center is about 19% higher than its quoted center.",
+    "logical_boundary": "Agreement for one high-energy E2 branch cannot certify the full lifetime/branch/multipolarity/ICC/unit/error chain. The four-branch control retains, rather than identifies, missing normalization inputs.",
+    "not_inferred": [
+      "ICC values or treatment",
+      "density/population parameters",
+      "delta values",
+      "photon versus total-transition branch basis",
+      "a cause of any residual"
+    ],
+    "mechanism_scope": "No band/chirality mechanism ranking or author-result replacement is made; no new course card, source batch or L4 result is created."
+  },
+  "checks": {
+    "Band1_I18-_401.2_M1_rate_roundtrip": true,
+    "Band1_I18-_401.2_M1_energy_MeV_conversion": true,
+    "Band1_I18-_401.2_M1_author_pure_mode_spin_step": true,
+    "Band1_I18-_401.2_M1_positive_rate_and_strength": true,
+    "Band1_I18-_757.4_E2_rate_roundtrip": true,
+    "Band1_I18-_757.4_E2_energy_MeV_conversion": true,
+    "Band1_I18-_757.4_E2_author_pure_mode_spin_step": true,
+    "Band1_I18-_757.4_E2_positive_rate_and_strength": true,
+    "Band2_I15-_199.6_M1_rate_roundtrip": true,
+    "Band2_I15-_199.6_M1_energy_MeV_conversion": true,
+    "Band2_I15-_199.6_M1_author_pure_mode_spin_step": true,
+    "Band2_I15-_199.6_M1_positive_rate_and_strength": true,
+    "Band2_I15-_382.0_E2_rate_roundtrip": true,
+    "Band2_I15-_382.0_E2_energy_MeV_conversion": true,
+    "Band2_I15-_382.0_E2_author_pure_mode_spin_step": true,
+    "Band2_I15-_382.0_E2_positive_rate_and_strength": true,
+    "exactly_four_targets": true,
+    "exactly_two_parents": true,
+    "Band1_original_selected_b_sum_0_81_not_renormalized": true,
+    "Band2_reported_selected_b_sum_one": true,
+    "modern_C_M1_K_reciprocal": true,
+    "modern_C_E2_K_reciprocal": true
+  },
+  "actual_source_coverage": "Uses the existing six-page MU08 visual audit and its Table I/II packet plus the existing modern unit-audit receipt. No additional article, full-table calculation or raw-data analysis is performed.",
+  "reproduction": {
+    "python": "3.12.3",
+    "arithmetic": "Python Decimal with precision 40; coefficient inputs retain parent-audit digits",
+    "command": "python3 tmp/day8-20261007/day9-preview/controls/gamma_only_chain_controls.py",
+    "script_sha256": "64bae9bcafd7b182e5f5d313ee781e366fdc6ba7a43aa6cb27bf448b17540023",
+    "script_source": "#!/usr/bin/env python3\n\"\"\"Four MU08 gamma-only branch controls; output comparison, no latent fit.\"\"\"\nfrom pathlib import Path\nfrom decimal import Decimal, getcontext\nimport datetime\nimport hashlib\nimport json\nimport platform\n\ngetcontext().prec = 40\nROOT = Path('/workspace/wiki')\nRUN = ROOT / 'outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01'\nPACKET_FILE = RUN / 'day9-strength-input-packet.json'\nUNIT_FILE = RUN / 'day9-strength-unit-audit.json'\nOUT = RUN / 'day9-gamma-only-chain-controls.json'\npacket = json.loads(PACKET_FILE.read_text(encoding='utf-8'))\nunit_audit = json.loads(UNIT_FILE.read_text(encoding='utf-8'))\nconstants = unit_audit['units_and_constants']['derived_constants_and_coefficients']\nRAW = ROOT / packet['source_identity']['raw_file']\nraw_hash = hashlib.sha256(RAW.read_bytes()).hexdigest()\nif raw_hash != packet['source_identity']['source_raw_sha256']:\n    raise RuntimeError('MU08 source/raw identity mismatch.')\n\nSPECIFICATIONS = [(1, '18-', '401.2', 'M1'), (1, '18-', '757.4', 'E2'),\n                  (2, '15-', '199.6', 'M1'), (2, '15-', '382.0', 'E2')]\nCOEFFICIENTS = {multi: Decimal(str(constants[f'C_{multi}_for_tau_ps'])) for multi in ('M1', 'E2')}\nK_COEFFICIENTS = {multi: Decimal(str(constants[f'K_{multi}_Gaussian'])) for multi in ('M1', 'E2')}\nCHECKS = {}\nrows = []\nfor band, spin, energy_keV, multi in SPECIFICATIONS:\n    group = next(row for row in packet['Table_I_reported_branch_groups']\n                 if row['band_2008'] == band and row['parent_spin_parity'] == spin)\n    branch = next(row for row in group['branches'] if row['E_gamma_keV'] == energy_keV)\n    lifetime_row = next(row for row in packet['Table_II_reported_rows']\n                        if row['band_2008'] == band and row['spin_parity'] == spin)\n    tau = Decimal(lifetime_row['lifetime_ps']['value'])\n    tau_error = Decimal(lifetime_row['lifetime_ps']['quoted_uncertainty'])\n    beta = Decimal(branch['branching_ratio']['value'])\n    beta_error = Decimal(branch['branching_ratio']['quoted_uncertainty'])\n    E = Decimal(energy_keV) / 1000\n    exponent = 3 if multi == 'M1' else 5\n    C = COEFFICIENTS[multi]\n    computed = C * beta / (tau * E**exponent)\n    diagonal_error = computed * ((tau_error / tau)**2 + (beta_error / beta)**2).sqrt()\n    quoted_key = 'B_M1_muN2_published_output' if multi == 'M1' else 'B_E2_e2b2_published_output'\n    published = lifetime_row[quoted_key]\n    published_center = Decimal(published['value'])\n    photon_rate = beta / (tau * Decimal('1e-12'))\n    rate_from_B = K_COEFFICIENTS[multi] * E**exponent * computed\n    key = f'Band{band}_I{spin}_{energy_keV}_{multi}'\n    CHECKS[f'{key}_rate_roundtrip'] = abs(rate_from_B / photon_rate - 1) < Decimal('1e-14')\n    CHECKS[f'{key}_energy_MeV_conversion'] = E * 1000 == Decimal(energy_keV)\n    CHECKS[f'{key}_author_pure_mode_spin_step'] = (int(spin[:-1]) - int(branch['Jf_parity'][:-1])) == (1 if multi == 'M1' else 2)\n    CHECKS[f'{key}_positive_rate_and_strength'] = photon_rate > 0 and computed > 0\n    rows.append({\n        'parent': {'nucleus': '136Nd', 'band_2008': band, 'Ji_parity': spin, 'Ex_keV': group['parent_Ex_keV']},\n        'transition': {'E_gamma_keV': energy_keV, 'E_gamma_MeV': str(E), 'Jf_parity': branch['Jf_parity'],\n                       'daughter_Ex_keV_by_subtraction': branch['daughter_Ex_keV_by_subtraction'],\n                       'assigned_pure_mode_for_this_arithmetic': multi},\n        'mean_tau_ps': lifetime_row['lifetime_ps'], 'reported_branch': branch['branching_ratio'],\n        'gamma_only_formula': f'B({multi})=C_{multi}*b/[tau_ps*E_MeV^{exponent}]',\n        'modern_C': str(C), 'C_unit': 'mu_N^2 ps MeV^3' if multi == 'M1' else 'e^2 b^2 ps MeV^5',\n        'conditional_photon_rate_per_s': str(photon_rate),\n        'gamma_only_B': str(computed), 'B_unit': 'mu_N^2' if multi == 'M1' else 'e^2 b^2',\n        'independent_quoted_error_approx': str(diagonal_error),\n        'published_B_output_reference': published,\n        'computed_minus_published_center': str(computed - published_center),\n        'descriptive_relative_difference_percent': str(100 * (computed / published_center - 1)),\n        'source_locators': {'branch': 'printed 034311-3 / PDF p.3, Table I selected parent row',\n                            'lifetime_and_output': 'printed 034311-4 / PDF p.4, Table II selected spin row',\n                            'level_scheme': 'printed 034311-2 / PDF p.2, Fig.1',\n                            'pure_M1_assumption': 'printed 034311-3 / PDF p.3, paragraph before TAC formalism'},\n    })\n\nCHECKS['exactly_four_targets'] = len(rows) == 4\nCHECKS['exactly_two_parents'] = len({(row['parent']['band_2008'], row['parent']['Ji_parity']) for row in rows}) == 2\nband1_selected_sum = sum(Decimal(row['reported_branch']['value']) for row in rows if row['parent']['band_2008'] == 1)\nband2_selected_sum = sum(Decimal(row['reported_branch']['value']) for row in rows if row['parent']['band_2008'] == 2)\nCHECKS['Band1_original_selected_b_sum_0_81_not_renormalized'] = band1_selected_sum == Decimal('0.81')\nCHECKS['Band2_reported_selected_b_sum_one'] = band2_selected_sum == 1\nCHECKS['modern_C_M1_K_reciprocal'] = abs(COEFFICIENTS['M1'] * K_COEFFICIENTS['M1'] / Decimal('1e12') - 1) < Decimal('1e-14')\nCHECKS['modern_C_E2_K_reciprocal'] = abs(COEFFICIENTS['E2'] * K_COEFFICIENTS['E2'] / Decimal('1e12') - 1) < Decimal('1e-14')\nfailed = [name for name, ok in CHECKS.items() if not ok]\nif failed:\n    raise RuntimeError(f'Unit/identity control failure: {failed}')\n\ncode = Path(__file__).read_text(encoding='utf-8')\nresult = {\n    'schema_version': 1, 'created_utc': datetime.datetime.now(datetime.timezone.utc).isoformat(),\n    'kind': 'four-branch-gamma-only-input-chain-controls', 'learning_level': 'L2',\n    'run_day_index': 8, 'preview_card_index': 9, 'preview_credit': False,\n    'source': packet['source_identity'],\n    'inputs': {'packet': str(PACKET_FILE.relative_to(ROOT)), 'packet_sha256': hashlib.sha256(PACKET_FILE.read_bytes()).hexdigest(),\n               'modern_unit_audit': str(UNIT_FILE.relative_to(ROOT)), 'unit_audit_sha256': hashlib.sha256(UNIT_FILE.read_bytes()).hexdigest()},\n    'modern_coefficient_provenance': {'constants': {key: str(value) for key, value in COEFFICIENTS.items()},\n                                     'registry': unit_audit['units_and_constants']['constant_provenance'],\n                                     'boundary': 'These are the parent unit-audit modern coefficients, not identified historic MU08 coefficients. Numeric digits document normalization, not experimental precision.'},\n    'common_conditions': [\n        'All four results are gamma-only conditional arithmetic: zero conversion and extra non-gamma/unobserved decay rates are imposed for the calculation, not inferred for the experiment.',\n        'Reported parent Lifetime(ps) is used as mean tau under standard DSAM interpretation; no half-life conversion is applied.',\n        'Reported Table I b values are used as usable parent photon fractions under this closure, without selecting a real-world branch-normalization convention.',\n        'The author explicitly assumes pure M1 for DeltaI=1 absolute B(M1); the DeltaI=2 crossover branches are treated as pure E2 for the quoted extraction. Neither is a new measured mixing-ratio determination.',\n        'Published B values are outputs used only for comparison. No residual is inverted into an ICC, delta, density/population parameter or branching convention.',\n        'The rate-to-B coefficient already implements B=RME^2/(2Ji+1); no second spin-normalization division is performed.',\n    ],\n    'four_branch_results': rows,\n    'normalization_context': {\n        'Band1_I18': 'The two selected Table I b centers sum to 0.81. A third reported branch has b=0.19 and remains in the original normalization; its strength is not computed here. Do not divide 0.57 or 0.24 by 0.81.',\n        'Band2_I15': 'The two reported/selected branch centers sum to 1.00. This reported normalization does not prove closure against conversion or unobserved channels.',\n    },\n    'uncertainty_boundary': {\n        'approximation_used': 'The displayed quoted-error approximation is B*sqrt((sigma_b/b)^2+(sigma_tau/tau)^2), assuming independent quoted errors and fixed energy/coefficient.',\n        'correct_general_rule': 'Sigma_B=J Sigma_input J^T with log derivatives (b,tau,E,C)=(1/b,-1/tau,-n/E,1/C), n=3 or 5.',\n        'covariance': 'The two strengths from each parent share tau and branch normalization; branch/branch and branch/tau covariance are unavailable. They are not independent derived observations.',\n        'energy': 'No E_gamma uncertainties are supplied by Table I; last printed digits are not assigned a measurement error.',\n        'systematic': 'MU08 stopping-power modeling uncertainties may be as large as 15% and are omitted from the quoted errors; this is not a specified Gaussian sigma or a separate side-feeding 15% error.',\n        'feeding': 'Five-transition side-feeding model, varied quadrupole moments and global lifetime fit remain method dependencies; no new DSAM fit is performed.',\n        'constant_and_rounding': 'Modern versus unstated historic constants, quoted central-value/error rounding and statistical conventions remain boundaries. The coefficient audit distinguishes 0.05697 from its modern M1 value.',\n        'no_significance': 'No z score, p value, independent-measurement discrepancy or confidence-level exclusion is calculated.',\n    },\n    'chain_test_conclusion': {\n        'descriptive_result': 'The selected high-energy E2 centers lie near the quoted outputs, while the gamma-only 199.6-keV M1 center is about 19% higher than its quoted center.',\n        'logical_boundary': 'Agreement for one high-energy E2 branch cannot certify the full lifetime/branch/multipolarity/ICC/unit/error chain. The four-branch control retains, rather than identifies, missing normalization inputs.',\n        'not_inferred': ['ICC values or treatment', 'density/population parameters', 'delta values', 'photon versus total-transition branch basis', 'a cause of any residual'],\n        'mechanism_scope': 'No band/chirality mechanism ranking or author-result replacement is made; no new course card, source batch or L4 result is created.',\n    },\n    'checks': CHECKS,\n    'actual_source_coverage': 'Uses the existing six-page MU08 visual audit and its Table I/II packet plus the existing modern unit-audit receipt. No additional article, full-table calculation or raw-data analysis is performed.',\n    'reproduction': {'python': platform.python_version(), 'arithmetic': 'Python Decimal with precision 40; coefficient inputs retain parent-audit digits',\n                     'command': 'python3 tmp/day8-20261007/day9-preview/controls/gamma_only_chain_controls.py',\n                     'script_sha256': hashlib.sha256(code.encode('utf-8')).hexdigest(), 'script_source': code},\n    'write_scope': 'Only this new owned controls JSON and its owned tmp script are written. Existing artifacts/raw/knowledge/report/state/Git are not changed.',\n}\nOUT.write_text(json.dumps(result, ensure_ascii=False, indent=2) + '\\n', encoding='utf-8')\nprint(json.dumps({'output': str(OUT.relative_to(ROOT)), 'checks_passed': len(CHECKS),\n                  'four_results': [{key: row[key] for key in ('gamma_only_B', 'B_unit', 'published_B_output_reference', 'descriptive_relative_difference_percent')}\n                                    for row in rows]}, ensure_ascii=False, indent=2))\n"
+  },
+  "write_scope": "Only this new owned controls JSON and its owned tmp script are written. Existing artifacts/raw/knowledge/report/state/Git are not changed."
+}

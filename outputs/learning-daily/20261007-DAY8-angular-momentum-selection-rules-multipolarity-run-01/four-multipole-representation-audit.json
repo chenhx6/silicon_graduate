@@ -1,0 +1,361 @@
+{
+  "schema_version": 1,
+  "audit_id": "DAY8-four-multipole-representation",
+  "created_at": "2026-10-07T11:19:37.322301+08:00",
+  "status": "source-and-exact-representation-self-audit-complete",
+  "research_level": "L2",
+  "experimental_data_fit": false,
+  "human_review": false,
+  "curriculum_credit_changed": false,
+  "source": {
+    "page": "knowledge/sources/rose-brink-1967-phase-defined-angular-distributions.md",
+    "raw_file": "raw/papers/gpt/high-spin-20260920/multipolarity/mixing ratio/1967_Rose et al_Angular Distributions of Gamma Rays in Terms of Phase-Defined Reduced Matrix Elements.pdf",
+    "sha256": "8f846b61b9320de291ee5600126c5e286a0fe05968df819696816f0dc1ec57dc",
+    "images": [
+      {
+        "printed_page": 312,
+        "pdf_page": 7,
+        "path": "tmp/day8-20261007/rose-brink/p312-pdf7.png",
+        "sha256": "403d17e12b4f6bcd3f64c644f1a7a127ca83b3f7d7dfabe50d0963abd6aeb34e",
+        "locator": "footnote7; Eq2.31",
+        "verification": "original-image-inspected"
+      },
+      {
+        "printed_page": 316,
+        "pdf_page": 11,
+        "path": "tmp/day8-20261007/rose-brink/p316-pdf11.png",
+        "sha256": "8b6191298c81a731bba7e04be14ae1c4d6b0e1681f11bb98b34dd69e90255401",
+        "locator": "Eqs3.22–3.25 and intervening coherent-linear-polarization paragraph",
+        "verification": "original-image-inspected"
+      },
+      {
+        "printed_page": 317,
+        "pdf_page": 12,
+        "path": "tmp/day8-20261007/rose-brink/p317-pdf12.png",
+        "sha256": "fab86494fcfaa448f23dcc00c32fd833858dd10e8747d34e7ea214100071c5a6",
+        "locator": "rotation-product reduction; Eqs3.26–3.28",
+        "verification": "original-image-inspected"
+      },
+      {
+        "printed_page": 318,
+        "pdf_page": 13,
+        "path": "tmp/day8-20261007/rose-brink/p318-pdf13.png",
+        "sha256": "49c59a6adcbf462409716870a8aa4c192ec22a0079eee97e5deaf03ef772cb10",
+        "locator": "Eqs3.29,3.31–3.34; notes(iii),(v)",
+        "verification": "original-image-inspected"
+      },
+      {
+        "printed_page": 319,
+        "pdf_page": 14,
+        "path": "tmp/day8-20261007/rose-brink/p319-pdf14.png",
+        "sha256": "d2d050c1680179fd6f1912e29922cc3bfd538f49d79c9a81b3533b0915dfdf14",
+        "locator": "Eqs3.35–3.39; helicity sum",
+        "verification": "original-image-inspected"
+      },
+      {
+        "printed_page": 320,
+        "pdf_page": 15,
+        "path": "tmp/day8-20261007/rose-brink/p320-pdf15.png",
+        "sha256": "43e43be10e45104870d9049dda91805848175e97cdc6d16af20f5892a2ab1414",
+        "locator": "Eqs3.40–3.43; alignment and same-parity multipoles",
+        "verification": "original-image-inspected"
+      },
+      {
+        "printed_page": 321,
+        "pdf_page": 16,
+        "path": "tmp/day8-20261007/rose-brink/p321-pdf16.png",
+        "sha256": "82be86deff35a01ec1fbffae9ffa62bbc744aa9e7ca68f57861cc8bfcbd1d506",
+        "locator": "before Eq3.47: only two multipoles; Eq3.28 restated",
+        "verification": "original-image-inspected"
+      },
+      {
+        "printed_page": 324,
+        "pdf_page": 19,
+        "path": "tmp/day8-20261007/rose-brink/p324-pdf19.png",
+        "sha256": "99d6de6d43ed2804cba844abdaafe1489dc9edf6a4df0406ac8964268a4ac6b2",
+        "locator": "Eqs3.62–3.63; unknown aligned population parameters",
+        "verification": "original-image-inspected"
+      }
+    ],
+    "lineage": "one direct theory source; source page and extracted images are dependent representations"
+  },
+  "assumptions": {
+    "Ji": 2,
+    "Jf": 2,
+    "parity": "both positive and definite",
+    "multipoles": [
+      "M1",
+      "E2",
+      "M3",
+      "E4"
+    ],
+    "final_spin_observation": "all Mf traced out",
+    "initial_density": "axisymmetric diagonal in known z axis; w_m=w_-m",
+    "population": "w0=p0,w±1=p1/2,w±2=(1-p0-p1)/2; p0>=0,p1>=0,p0+p1<=1",
+    "amplitudes": "real phase-defined initial-bra interaction RMEs divided by sqrt(2L+1)",
+    "normalization": "S=sum(a_L^2)>0; angular average W=1; physical unnormalized intensity has a further overall scale",
+    "observed_kernel": "pointwise H(q,k;qprime,k), not coherence across distinct directions"
+  },
+  "convention": {
+    "operator_pi": "E=0,M=1; pi_L=L mod 2",
+    "magnetic_helicity_factor": "q^pi_L",
+    "CG_order": "CG(Jf,L;Mf,Mi-Mf|Ji,Mi)",
+    "rotation": "exp(-i phi Jz) exp(-i theta Jy); Euler(phi,theta,0)",
+    "axes": "xprime=e_theta, yprime=e_phi, xprime cross yprime=khat",
+    "helicity_order": [
+      -1,
+      1
+    ],
+    "linear_difference": "Delta=Ixprime-Iyprime=-2 Re H[-,+]",
+    "U": "proportional to Im H[-,+]; sign depends on stated circular/linear phase convention; zero in meridian axes",
+    "V": "H[+,+]-H[-,-]"
+  },
+  "population_tensors": {
+    "0": "1",
+    "1": "0",
+    "2": "sqrt(70)*(-4*p0 - 3*p1 + 2)/14",
+    "3": "0",
+    "4": "sqrt(14)*(5*p0 - 5*p1 + 1)/14"
+  },
+  "population_jacobian_determinant": "5*sqrt(5)/2",
+  "representation": {
+    "W": "1+A2*P2(x)+A4*P4(x)",
+    "Delta": "C2*P2^2(x)+C4*P4^2(x); associated Legendre order m=2",
+    "H": "1/2 [[W,-Delta],[-Delta,W]]",
+    "matrix_valued_basis": [
+      "P0*I",
+      "P2*I",
+      "P4*I",
+      "P2^2*sigma_x",
+      "P4^2*sigma_x"
+    ],
+    "fixed_coefficient": "P0*I coefficient=1/2",
+    "free_normalized_shape_coefficients": [
+      "A2",
+      "A4",
+      "C2",
+      "C4"
+    ],
+    "scalar_basis_caution": [
+      "P2^2=2-2*P2",
+      "P4^2=2+10*P2-12*P4"
+    ],
+    "population_rank_maximum": 4,
+    "nonzero_population_ranks": [
+      0,
+      2,
+      4
+    ],
+    "linear_offdiagonal_right_index": [
+      -2,
+      2
+    ],
+    "U_and_V_zero_in_natural_axes": true,
+    "known_axis_rotation": "Qpsi=Q cos(2psi), Upsi=-Q sin(2psi); no new intrinsic coefficient when psi is known"
+  },
+  "coefficient_interface": {
+    "amplitude_order": [
+      "a_M1",
+      "a_E2",
+      "a_M3",
+      "a_E4"
+    ],
+    "A_K": "B_K*(a.T*R_K*a)/S",
+    "C_K": "B_K*(a.T*T_K*a)/S",
+    "F_K": "(-1)^(1+L-Lprime-K)*sqrt(5*(2L+1)*(2Lprime+1))*racah(2,2,L,Lprime,K,2)",
+    "R_K": "F_K*CG(L,Lprime,K,1,-1,0)",
+    "T_K": "-(-1)^pi_L*F_K*CG(L,Lprime,K,-1,-1,-2)*sqrt((K-2)!/(K+2)!)",
+    "exact_matrices": {
+      "R2": [
+        [
+          "-sqrt(70)/20",
+          "sqrt(6)/4",
+          "2*sqrt(105)/35",
+          "0"
+        ],
+        [
+          "sqrt(6)/4",
+          "3*sqrt(70)/196",
+          "4/7",
+          "2*sqrt(105)/49"
+        ],
+        [
+          "2*sqrt(105)/35",
+          "4/7",
+          "-3*sqrt(70)/140",
+          "5*sqrt(6)/28"
+        ],
+        [
+          "0",
+          "2*sqrt(105)/49",
+          "5*sqrt(6)/28",
+          "-17*sqrt(70)/196"
+        ]
+      ],
+      "T2": [
+        [
+          "-sqrt(70)/40",
+          "-sqrt(6)/24",
+          "sqrt(105)/210",
+          "0"
+        ],
+        [
+          "-sqrt(6)/24",
+          "3*sqrt(70)/392",
+          "1/7",
+          "-sqrt(105)/294"
+        ],
+        [
+          "sqrt(105)/210",
+          "1/7",
+          "sqrt(70)/140",
+          "-5*sqrt(6)/84"
+        ],
+        [
+          "0",
+          "-sqrt(105)/294",
+          "-5*sqrt(6)/84",
+          "-5*sqrt(70)/196"
+        ]
+      ],
+      "R4": [
+        [
+          "0",
+          "0",
+          "-sqrt(21)/14",
+          "sqrt(5)/2"
+        ],
+        [
+          "0",
+          "-4*sqrt(14)/49",
+          "5*sqrt(5)/14",
+          "-5*sqrt(21)/98"
+        ],
+        [
+          "-sqrt(21)/14",
+          "5*sqrt(5)/14",
+          "-sqrt(14)/28",
+          "-3*sqrt(30)/28"
+        ],
+        [
+          "sqrt(5)/2",
+          "-5*sqrt(21)/98",
+          "-3*sqrt(30)/28",
+          "9*sqrt(14)/196"
+        ]
+      ],
+      "T4": [
+        [
+          "0",
+          "0",
+          "-sqrt(21)/168",
+          "-sqrt(5)/40"
+        ],
+        [
+          "0",
+          "sqrt(14)/147",
+          "sqrt(5)/168",
+          "-3*sqrt(21)/392"
+        ],
+        [
+          "-sqrt(21)/168",
+          "sqrt(5)/168",
+          "sqrt(14)/84",
+          "sqrt(30)/420"
+        ],
+        [
+          "-sqrt(5)/40",
+          "-3*sqrt(21)/392",
+          "sqrt(30)/420",
+          "sqrt(14)/196"
+        ]
+      ]
+    }
+  },
+  "exact_verification": {
+    "engine": "SymPy 1.14.0",
+    "method": "independent finite-factorial small-d expansion, symbolic a1..a4,p0,p1, exact half-angle polynomial substitution into cos(theta); all four multipoles retained",
+    "stored_python_file_created": false,
+    "R0_identity": true,
+    "degrees_of_density_numerators": {
+      "--": 4,
+      "-+": 4,
+      "++": 4
+    },
+    "identity_residuals": {
+      "trace": "0",
+      "linear_difference": "0",
+      "helicity_diagonal_difference": "0"
+    },
+    "Delta_pole_values": [
+      "0",
+      "0"
+    ],
+    "core_elapsed_seconds": 1.88,
+    "exit_code": 0,
+    "tolerance": "none; symbolic identities"
+  },
+  "jacobian_boundary": {
+    "five_parameter_chart": "a=(1,r2,r3,r4),p0,p1, only when M1 amplitude nonzero",
+    "generic_rank": "not computed in this independent representation audit",
+    "dimension_conclusion": "at most four normalized shape outputs; rank=4 and local fiber dimension require separate exact-Jacobian proof",
+    "boundary_conditions": [
+      "isotropic population",
+      "B2=0 or B4=0",
+      "pure multipoles and amplitude-zero charts",
+      "physical Gram-matrix positivity W>=abs(Delta)"
+    ]
+  },
+  "attribution_boundary": "RB directly supplies amplitude/operator/population/rotation/selection-rule premises; the complete four-multipole helicity basis, offdiagonal T_K and exact identities are this task-derived synthetic mathematics.",
+  "scope_exclusions": [
+    "new sources",
+    "Day10",
+    "L4",
+    "detector-response or experimental-data fits",
+    "canonical edits",
+    "raw edits",
+    "clock/process/state/Git operations"
+  ],
+  "markdown_audit": "tmp/day8-20261007/four-multipoles/representation-audit.md",
+  "hypothetical_companion_calibration": {
+    "status": "synthetic design only; no branch is given or observed",
+    "Ji": 2,
+    "Jf": 0,
+    "multipole": "pure E2, uniquely selected by spin/parity triangle",
+    "shared_initial_state": "exactly the primary initial level and matched conditional population",
+    "source_premises": [
+      "RB67 printed p.319 / PDF14 Eq3.36",
+      "RB67 printed p.324 / PDF19: additional decay modes can constrain population"
+    ],
+    "exact_R": {
+      "2": "-sqrt(70)/14",
+      "4": "-2*sqrt(14)/7"
+    },
+    "both_nonzero": true,
+    "inversion": {
+      "B2": "A2c/R2",
+      "B4": "A4c/R4",
+      "p0": "1/5+2*A2c/5-3*A4c/10",
+      "p1": "2/5+2*(A2c+A4c)/5"
+    },
+    "pure_m0_control": {
+      "W": "-15*x**4/2 + 15*x**2/2",
+      "direct_d_matrix_residual": "0",
+      "angular_average": 1
+    },
+    "matching_requirements": [
+      "same initial level and population ensemble",
+      "feeding, coincidence gates, time windows, deorientation and event selection matched or corrected",
+      "same alignment axis and angular coordinates",
+      "energy-dependent efficiency, finite acceptance, background, Doppler/response and coefficient covariance",
+      "independent spin/parity and calibration branch identity; no circular calibration from the target transition"
+    ],
+    "instrument_rank_boundary": "Nonzero theoretical R2/R4 is not a proof that a finite detector response/design matrix identifies both angular coefficients.",
+    "global_uniqueness_boundary": {
+      "guaranteed": "ideal full-angle companion constrains B2 and B4; physical p0,p1 then fixed",
+      "not_guaranteed": "global uniqueness of primary radiation amplitudes",
+      "exact_counterexample": "calibrated p0=1/5,p1=2/5 gives B2=B4=0; all primary real amplitude vectors at fixed S have W=1,Delta=0,H=I/2"
+    },
+    "coefficient_attribution": "R2/R4 values and algebraic inversion are this audit's Eq3.36 computations, not author-reported branch measurements."
+  }
+}

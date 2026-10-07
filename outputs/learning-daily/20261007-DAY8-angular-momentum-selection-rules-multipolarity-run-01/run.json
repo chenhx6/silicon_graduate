@@ -41,11 +41,11 @@
     "preflight_exit": 0
   },
   "last_closeout_snapshot": {
-    "now_local": "2026-10-07T10:57:34+08:00",
+    "now_local": "2026-10-07T12:17:11+08:00",
     "hard_deadline": "2026-10-08T15:00:00+08:00",
     "next_scheduled_start": "2026-10-08T16:00:00+08:00",
-    "minutes_to_deadline": 1682,
-    "minutes_to_next_start": 1742,
+    "minutes_to_deadline": 1602,
+    "minutes_to_next_start": 1662,
     "minimum_current_block_minutes": 90,
     "minimum_forward_card_block_minutes": 120,
     "can_continue_current": true,
@@ -102,7 +102,13 @@
     "icc_e0_algebra_exit": 0,
     "day9_unit_normalization_checks": 62,
     "day9_unit_normalization_exit": 0,
-    "changed_knowledge_pages": 6
+    "changed_knowledge_pages": 6,
+    "four_multipole_exact_checks": 43,
+    "four_multipole_exact_exit": 0,
+    "day9_source_packet_checks": 24,
+    "day9_source_packet_exit": 0,
+    "day9_gamma_only_controls_checks": 22,
+    "day9_gamma_only_controls_exit": 0
   },
   "card_content_status": "complete",
   "checkpoint_checks_file": "/workspace/wiki/outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/checkpoint-checks.json",
@@ -121,12 +127,28 @@
       "published_at": "2026-10-07T06:54:42.675274+08:00",
       "publication_kind": "continuing-checkpoint",
       "run_finalized": false
+    },
+    {
+      "branch": "main",
+      "commit_subject": "Extend DAY8 observable bounds and uncredited DAY9 strength inputs",
+      "commit_hash": "ea749e0081c8f505f1afc84cf928faf631fa3af0",
+      "remote": "origin (Gitee)",
+      "refspec": "HEAD:main",
+      "fetch_exit": 0,
+      "remote_ancestor_exit": 0,
+      "dry_run_exit": 0,
+      "push_exit": 0,
+      "post_push_head_matches_origin_main": true,
+      "post_commit_files_match_manifest": true,
+      "published_at": "2026-10-07T11:48:55.651273+08:00",
+      "publication_kind": "continuing-checkpoint",
+      "run_finalized": false
     }
   ],
   "continuation_prompt_file": "/workspace/wiki/outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/continuation-prompt.md",
   "pending_research": [
-    "Day8 synthetic B full four-multipole/polarization/population representation and exact local rank audit",
-    "Day9 uncredited preview packet reconciliation; branching/IC/covariance remain conditional",
+    "Day8 fixed anisotropic population exact global-pair kernel certificate search",
+    "Day9 independent official BrIcc total ICC queries and conditional forward ledger",
     "2026-10-08 15:00 closeout, Day9 plan/prompt and gated course state update"
   ],
   "pending_clock_delivery_count": 4,
@@ -162,8 +184,14 @@
     },
     {
       "id": "day8-four-multipole-full-polarization-rank",
-      "decision": "selected-bounded-L2",
-      "next_gain": "derive actual full single-gamma polarization basis, then test whether unknown aligned population plus four nonzero amplitudes can retain local joint solutions"
+      "decision": "bounded-route-complete",
+      "next_gain": "rank4/IFT local joint family and fixed-population rank3 checked; global/cascade/ICC inversion remains outside this bounded exercise"
+    },
+    {
+      "id": "day8-fixed-population-global-pair",
+      "decision": "selected-bounded-exact-search",
+      "next_gain": "rank3 gives local inversion only; test whether an exact fraction-changing pair with same known anisotropic population exists using the completed four radiation quadratic forms",
+      "scope": "existing RB matrices; limited structural kernel cases, exact certificate or failure boundary, no full global inversion"
     },
     {
       "id": "day8-gamma-cascade-expansion",
@@ -176,6 +204,12 @@
       "next_gain": "source packet reconciliation and conditional input checks; no independent formal Day9 recall/audit or credit"
     },
     {
+      "id": "day9-independent-icc-input-readiness",
+      "decision": "selected-readonly-readiness",
+      "scope": "existing BrICC source/tool or independent atomic-data input only; no new literature batch, no new card",
+      "next_gain": "check whether photon/total-branch alternatives can be forward-compared using independent theoretical ICC inputs, rather than reverse-solving coefficients from quoted B"
+    },
+    {
       "id": "day10-card",
       "decision": "out-of-scope-not-opened",
       "next_gain": "single Day+1 authorization only"
@@ -183,11 +217,5 @@
   ],
   "last_recoverable_checkpoint": "research-checkpoint.json",
   "preview_checkpoint_checks_file": "/workspace/wiki/outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/checkpoint-preview-checks.json",
-  "checkpoint_publication_pending": {
-    "branch": "main",
-    "commit_subject": "Extend DAY8 observable bounds and uncredited DAY9 strength inputs",
-    "publication_kind": "continuing-checkpoint",
-    "run_finalized": false,
-    "course_state_updated": false
-  }
+  "rank_controls_checkpoint_checks_file": "/workspace/wiki/outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/checkpoint-rank-controls-checks.json"
 }

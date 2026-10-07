@@ -1,0 +1,1042 @@
+{
+  "schema_version": 1,
+  "created_utc": "2026-10-07T03:09:13.831529+00:00",
+  "kind": "source-input-audit-and-conditional-strength-arithmetic",
+  "run_day_index": 8,
+  "preview_card_index": 9,
+  "preview_credit": false,
+  "research_level": "L2 source audit and arithmetic; no event-level DSAM refit or L4",
+  "source_identity": {
+    "citation_key": "Mukhopadhyay_2008",
+    "doi": "10.1103/PhysRevC.78.034311",
+    "nucleus": "136Nd",
+    "article_pages": "034311-1 through 034311-6",
+    "pdf_pages": 6,
+    "source_page": "knowledge/sources/mukhopadhyay-2008-136nd-transition-rates.md",
+    "raw_file": "raw/papers/gpt/high-spin-20260920/三轴/手征/2008_Mukhopadhyay et al_Electromagnetic transition rates in high-spin bands in Nd 136.pdf",
+    "source_raw_sha256": "ea77d7d033051369d19aad2f82a542e91e262eb490d518b246f7f04c2d0dcd2c",
+    "actual_raw_sha256": "ea77d7d033051369d19aad2f82a542e91e262eb490d518b246f7f04c2d0dcd2c",
+    "matches": true
+  },
+  "actual_reading": {
+    "coverage": "All six PDF pages inspected visually and read; Table I, Table II/caption and uncertainty/multipolarity paragraph additionally inspected in enlarged crops.",
+    "source_batch_expansion": false,
+    "other_course_card_opened": false,
+    "page_crosswalk": {
+      "034311-1": "PDF p.1",
+      "034311-2": "PDF p.2",
+      "034311-3": "PDF p.3",
+      "034311-4": "PDF p.4",
+      "034311-5": "PDF p.5",
+      "034311-6": "PDF p.6"
+    }
+  },
+  "paper_mainline": [
+    {
+      "locator": "034311-1 / PDF p.1",
+      "content": "Motivation: distinguish an earlier chiral-pair suggestion from different-configuration crossing; ATLAS 100Mo(40Ar,4n) at 175 MeV, backed target and Gammasphere acquisition."
+    },
+    {
+      "locator": "034311-2 / PDF p.2, Fig.1 and methods",
+      "content": "Partial 136Nd level scheme of this paper's Band 1 and Band 2; DSAM angle-by-angle double gating, full stopped/shifted peak gates, background subtraction and five-step side feeding."
+    },
+    {
+      "locator": "034311-3 / PDF p.3, Fig.2, Table I and text",
+      "content": "Representative line-shape fits, same-parent branching ratios, lifetime error treatment, stopping systematics and pure-M1 assumption; start of QQ TAC Hamiltonian."
+    },
+    {
+      "locator": "034311-4 / PDF p.4, Table II, Eqs.2-3, Fig.3",
+      "content": "Published fitted lifetimes and derived B/Qt outputs; TAC/RPA assumptions and comparison of energies."
+    },
+    {
+      "locator": "034311-5 / PDF p.5, Figs.4-5 and conclusion",
+      "content": "Different derived strengths; calculations omit band mixing; RPA chiral-vibrational predictions and fragmentation; author interpretation of distinct configurations undergoing mixing."
+    },
+    {
+      "locator": "034311-6 / PDF p.6",
+      "content": "References; referenced Chiara branching method and earlier band reports were not retrieved or independently audited."
+    }
+  ],
+  "Table_I_reported_branch_groups": [
+    {
+      "band_2008": 1,
+      "parent_spin_parity": "15-",
+      "parent_Ex_keV": "5645.3",
+      "branches": [
+        {
+          "E_gamma_keV": "229.3",
+          "E_gamma_uncertainty": null,
+          "Ji_parity": "15-",
+          "Jf_parity": "14-",
+          "branching_ratio": {
+            "quoted": "0.60(3)",
+            "value": "0.60",
+            "quoted_uncertainty": "0.03"
+          },
+          "daughter_Ex_keV_by_subtraction": "5416.0",
+          "daughter_identity_matching_TableI_level": null
+        },
+        {
+          "E_gamma_keV": "274.0",
+          "E_gamma_uncertainty": null,
+          "Ji_parity": "15-",
+          "Jf_parity": "14-",
+          "branching_ratio": {
+            "quoted": "0.14(2)",
+            "value": "0.14",
+            "quoted_uncertainty": "0.02"
+          },
+          "daughter_Ex_keV_by_subtraction": "5371.3",
+          "daughter_identity_matching_TableI_level": null
+        },
+        {
+          "E_gamma_keV": "338.0",
+          "E_gamma_uncertainty": null,
+          "Ji_parity": "15-",
+          "Jf_parity": "14-",
+          "branching_ratio": {
+            "quoted": "0.26(3)",
+            "value": "0.26",
+            "quoted_uncertainty": "0.03"
+          },
+          "daughter_Ex_keV_by_subtraction": "5307.3",
+          "daughter_identity_matching_TableI_level": null
+        }
+      ],
+      "sum_reported_branch_centers": "1.00",
+      "locator": "printed 034311-3 / PDF p.3, Table I"
+    },
+    {
+      "band_2008": 1,
+      "parent_spin_parity": "16-",
+      "parent_Ex_keV": "5954.0",
+      "branches": [
+        {
+          "E_gamma_keV": "308.7",
+          "E_gamma_uncertainty": null,
+          "Ji_parity": "16-",
+          "Jf_parity": "15-",
+          "branching_ratio": {
+            "quoted": "0.82(4)",
+            "value": "0.82",
+            "quoted_uncertainty": "0.04"
+          },
+          "daughter_Ex_keV_by_subtraction": "5645.3",
+          "daughter_identity_matching_TableI_level": {
+            "band_2008": 1,
+            "spin_parity": "15-"
+          }
+        },
+        {
+          "E_gamma_keV": "538.0",
+          "E_gamma_uncertainty": null,
+          "Ji_parity": "16-",
+          "Jf_parity": "14-",
+          "branching_ratio": {
+            "quoted": "0.13(1)",
+            "value": "0.13",
+            "quoted_uncertainty": "0.01"
+          },
+          "daughter_Ex_keV_by_subtraction": "5416.0",
+          "daughter_identity_matching_TableI_level": null
+        },
+        {
+          "E_gamma_keV": "224.7",
+          "E_gamma_uncertainty": null,
+          "Ji_parity": "16-",
+          "Jf_parity": "15-",
+          "branching_ratio": {
+            "quoted": "0.05(1)",
+            "value": "0.05",
+            "quoted_uncertainty": "0.01"
+          },
+          "daughter_Ex_keV_by_subtraction": "5729.3",
+          "daughter_identity_matching_TableI_level": {
+            "band_2008": 2,
+            "spin_parity": "15-"
+          }
+        }
+      ],
+      "sum_reported_branch_centers": "1.00",
+      "locator": "printed 034311-3 / PDF p.3, Table I"
+    },
+    {
+      "band_2008": 1,
+      "parent_spin_parity": "17-",
+      "parent_Ex_keV": "6310.2",
+      "branches": [
+        {
+          "E_gamma_keV": "356.2",
+          "E_gamma_uncertainty": null,
+          "Ji_parity": "17-",
+          "Jf_parity": "16-",
+          "branching_ratio": {
+            "quoted": "0.62(3)",
+            "value": "0.62",
+            "quoted_uncertainty": "0.03"
+          },
+          "daughter_Ex_keV_by_subtraction": "5954.0",
+          "daughter_identity_matching_TableI_level": {
+            "band_2008": 1,
+            "spin_parity": "16-"
+          }
+        },
+        {
+          "E_gamma_keV": "664.9",
+          "E_gamma_uncertainty": null,
+          "Ji_parity": "17-",
+          "Jf_parity": "15-",
+          "branching_ratio": {
+            "quoted": "0.09(1)",
+            "value": "0.09",
+            "quoted_uncertainty": "0.01"
+          },
+          "daughter_Ex_keV_by_subtraction": "5645.3",
+          "daughter_identity_matching_TableI_level": {
+            "band_2008": 1,
+            "spin_parity": "15-"
+          }
+        },
+        {
+          "E_gamma_keV": "332.8",
+          "E_gamma_uncertainty": null,
+          "Ji_parity": "17-",
+          "Jf_parity": "16-",
+          "branching_ratio": {
+            "quoted": "0.29(3)",
+            "value": "0.29",
+            "quoted_uncertainty": "0.03"
+          },
+          "daughter_Ex_keV_by_subtraction": "5977.4",
+          "daughter_identity_matching_TableI_level": {
+            "band_2008": 2,
+            "spin_parity": "16-"
+          }
+        }
+      ],
+      "sum_reported_branch_centers": "1.00",
+      "locator": "printed 034311-3 / PDF p.3, Table I"
+    },
+    {
+      "band_2008": 1,
+      "parent_spin_parity": "18-",
+      "parent_Ex_keV": "6711.4",
+      "branches": [
+        {
+          "E_gamma_keV": "401.2",
+          "E_gamma_uncertainty": null,
+          "Ji_parity": "18-",
+          "Jf_parity": "17-",
+          "branching_ratio": {
+            "quoted": "0.57(6)",
+            "value": "0.57",
+            "quoted_uncertainty": "0.06"
+          },
+          "daughter_Ex_keV_by_subtraction": "6310.2",
+          "daughter_identity_matching_TableI_level": {
+            "band_2008": 1,
+            "spin_parity": "17-"
+          }
+        },
+        {
+          "E_gamma_keV": "757.4",
+          "E_gamma_uncertainty": null,
+          "Ji_parity": "18-",
+          "Jf_parity": "16-",
+          "branching_ratio": {
+            "quoted": "0.24(2)",
+            "value": "0.24",
+            "quoted_uncertainty": "0.02"
+          },
+          "daughter_Ex_keV_by_subtraction": "5954.0",
+          "daughter_identity_matching_TableI_level": {
+            "band_2008": 1,
+            "spin_parity": "16-"
+          }
+        },
+        {
+          "E_gamma_keV": "389.6",
+          "E_gamma_uncertainty": null,
+          "Ji_parity": "18-",
+          "Jf_parity": "17-",
+          "branching_ratio": {
+            "quoted": "0.19(2)",
+            "value": "0.19",
+            "quoted_uncertainty": "0.02"
+          },
+          "daughter_Ex_keV_by_subtraction": "6321.8",
+          "daughter_identity_matching_TableI_level": {
+            "band_2008": 2,
+            "spin_parity": "17-"
+          }
+        }
+      ],
+      "sum_reported_branch_centers": "1.00",
+      "locator": "printed 034311-3 / PDF p.3, Table I"
+    },
+    {
+      "band_2008": 1,
+      "parent_spin_parity": "19-",
+      "parent_Ex_keV": "7147.2",
+      "branches": [
+        {
+          "E_gamma_keV": "435.8",
+          "E_gamma_uncertainty": null,
+          "Ji_parity": "19-",
+          "Jf_parity": "18-",
+          "branching_ratio": {
+            "quoted": "0.83(8)",
+            "value": "0.83",
+            "quoted_uncertainty": "0.08"
+          },
+          "daughter_Ex_keV_by_subtraction": "6711.4",
+          "daughter_identity_matching_TableI_level": {
+            "band_2008": 1,
+            "spin_parity": "18-"
+          }
+        },
+        {
+          "E_gamma_keV": "837.0",
+          "E_gamma_uncertainty": null,
+          "Ji_parity": "19-",
+          "Jf_parity": "17-",
+          "branching_ratio": {
+            "quoted": "0.17(2)",
+            "value": "0.17",
+            "quoted_uncertainty": "0.02"
+          },
+          "daughter_Ex_keV_by_subtraction": "6310.2",
+          "daughter_identity_matching_TableI_level": {
+            "band_2008": 1,
+            "spin_parity": "17-"
+          }
+        }
+      ],
+      "sum_reported_branch_centers": "1.00",
+      "locator": "printed 034311-3 / PDF p.3, Table I"
+    },
+    {
+      "band_2008": 2,
+      "parent_spin_parity": "15-",
+      "parent_Ex_keV": "5729.3",
+      "branches": [
+        {
+          "E_gamma_keV": "199.6",
+          "E_gamma_uncertainty": null,
+          "Ji_parity": "15-",
+          "Jf_parity": "14-",
+          "branching_ratio": {
+            "quoted": "0.93(5)",
+            "value": "0.93",
+            "quoted_uncertainty": "0.05"
+          },
+          "daughter_Ex_keV_by_subtraction": "5529.7",
+          "daughter_identity_matching_TableI_level": null
+        },
+        {
+          "E_gamma_keV": "382.0",
+          "E_gamma_uncertainty": null,
+          "Ji_parity": "15-",
+          "Jf_parity": "13-",
+          "branching_ratio": {
+            "quoted": "0.07(1)",
+            "value": "0.07",
+            "quoted_uncertainty": "0.01"
+          },
+          "daughter_Ex_keV_by_subtraction": "5347.3",
+          "daughter_identity_matching_TableI_level": null
+        }
+      ],
+      "sum_reported_branch_centers": "1.00",
+      "locator": "printed 034311-3 / PDF p.3, Table I"
+    },
+    {
+      "band_2008": 2,
+      "parent_spin_parity": "16-",
+      "parent_Ex_keV": "5977.4",
+      "branches": [
+        {
+          "E_gamma_keV": "248.1",
+          "E_gamma_uncertainty": null,
+          "Ji_parity": "16-",
+          "Jf_parity": "15-",
+          "branching_ratio": {
+            "quoted": "0.90(3)",
+            "value": "0.90",
+            "quoted_uncertainty": "0.03"
+          },
+          "daughter_Ex_keV_by_subtraction": "5729.3",
+          "daughter_identity_matching_TableI_level": {
+            "band_2008": 2,
+            "spin_parity": "15-"
+          }
+        },
+        {
+          "E_gamma_keV": "447.7",
+          "E_gamma_uncertainty": null,
+          "Ji_parity": "16-",
+          "Jf_parity": "14-",
+          "branching_ratio": {
+            "quoted": "0.10(1)",
+            "value": "0.10",
+            "quoted_uncertainty": "0.01"
+          },
+          "daughter_Ex_keV_by_subtraction": "5529.7",
+          "daughter_identity_matching_TableI_level": null
+        }
+      ],
+      "sum_reported_branch_centers": "1.00",
+      "locator": "printed 034311-3 / PDF p.3, Table I"
+    },
+    {
+      "band_2008": 2,
+      "parent_spin_parity": "17-",
+      "parent_Ex_keV": "6321.8",
+      "branches": [
+        {
+          "E_gamma_keV": "344.4",
+          "E_gamma_uncertainty": null,
+          "Ji_parity": "17-",
+          "Jf_parity": "16-",
+          "branching_ratio": {
+            "quoted": "0.66(4)",
+            "value": "0.66",
+            "quoted_uncertainty": "0.04"
+          },
+          "daughter_Ex_keV_by_subtraction": "5977.4",
+          "daughter_identity_matching_TableI_level": {
+            "band_2008": 2,
+            "spin_parity": "16-"
+          }
+        },
+        {
+          "E_gamma_keV": "592.5",
+          "E_gamma_uncertainty": null,
+          "Ji_parity": "17-",
+          "Jf_parity": "15-",
+          "branching_ratio": {
+            "quoted": "0.24(2)",
+            "value": "0.24",
+            "quoted_uncertainty": "0.02"
+          },
+          "daughter_Ex_keV_by_subtraction": "5729.3",
+          "daughter_identity_matching_TableI_level": {
+            "band_2008": 2,
+            "spin_parity": "15-"
+          }
+        },
+        {
+          "E_gamma_keV": "367.8",
+          "E_gamma_uncertainty": null,
+          "Ji_parity": "17-",
+          "Jf_parity": "16-",
+          "branching_ratio": {
+            "quoted": "0.10(1)",
+            "value": "0.10",
+            "quoted_uncertainty": "0.01"
+          },
+          "daughter_Ex_keV_by_subtraction": "5954.0",
+          "daughter_identity_matching_TableI_level": {
+            "band_2008": 1,
+            "spin_parity": "16-"
+          }
+        }
+      ],
+      "sum_reported_branch_centers": "1.00",
+      "locator": "printed 034311-3 / PDF p.3, Table I"
+    },
+    {
+      "band_2008": 2,
+      "parent_spin_parity": "18-",
+      "parent_Ex_keV": "6756.0",
+      "branches": [
+        {
+          "E_gamma_keV": "434.2",
+          "E_gamma_uncertainty": null,
+          "Ji_parity": "18-",
+          "Jf_parity": "17-",
+          "branching_ratio": {
+            "quoted": "0.73(7)",
+            "value": "0.73",
+            "quoted_uncertainty": "0.07"
+          },
+          "daughter_Ex_keV_by_subtraction": "6321.8",
+          "daughter_identity_matching_TableI_level": {
+            "band_2008": 2,
+            "spin_parity": "17-"
+          }
+        },
+        {
+          "E_gamma_keV": "778.6",
+          "E_gamma_uncertainty": null,
+          "Ji_parity": "18-",
+          "Jf_parity": "16-",
+          "branching_ratio": {
+            "quoted": "0.08(1)",
+            "value": "0.08",
+            "quoted_uncertainty": "0.01"
+          },
+          "daughter_Ex_keV_by_subtraction": "5977.4",
+          "daughter_identity_matching_TableI_level": {
+            "band_2008": 2,
+            "spin_parity": "16-"
+          }
+        },
+        {
+          "E_gamma_keV": "445.8",
+          "E_gamma_uncertainty": null,
+          "Ji_parity": "18-",
+          "Jf_parity": "17-",
+          "branching_ratio": {
+            "quoted": "0.19(2)",
+            "value": "0.19",
+            "quoted_uncertainty": "0.02"
+          },
+          "daughter_Ex_keV_by_subtraction": "6310.2",
+          "daughter_identity_matching_TableI_level": {
+            "band_2008": 1,
+            "spin_parity": "17-"
+          }
+        }
+      ],
+      "sum_reported_branch_centers": "1.00",
+      "locator": "printed 034311-3 / PDF p.3, Table I"
+    },
+    {
+      "band_2008": 2,
+      "parent_spin_parity": "19-",
+      "parent_Ex_keV": "7221.5",
+      "branches": [
+        {
+          "E_gamma_keV": "465.5",
+          "E_gamma_uncertainty": null,
+          "Ji_parity": "19-",
+          "Jf_parity": "18-",
+          "branching_ratio": {
+            "quoted": "0.88(9)",
+            "value": "0.88",
+            "quoted_uncertainty": "0.09"
+          },
+          "daughter_Ex_keV_by_subtraction": "6756.0",
+          "daughter_identity_matching_TableI_level": {
+            "band_2008": 2,
+            "spin_parity": "18-"
+          }
+        },
+        {
+          "E_gamma_keV": "899.7",
+          "E_gamma_uncertainty": null,
+          "Ji_parity": "19-",
+          "Jf_parity": "17-",
+          "branching_ratio": {
+            "quoted": "0.12(2)",
+            "value": "0.12",
+            "quoted_uncertainty": "0.02"
+          },
+          "daughter_Ex_keV_by_subtraction": "6321.8",
+          "daughter_identity_matching_TableI_level": {
+            "band_2008": 2,
+            "spin_parity": "17-"
+          }
+        }
+      ],
+      "sum_reported_branch_centers": "1.00",
+      "locator": "printed 034311-3 / PDF p.3, Table I"
+    }
+  ],
+  "Table_II_reported_rows": [
+    {
+      "band_2008": 1,
+      "spin_parity": "15-",
+      "lifetime_ps": {
+        "quoted": "0.93(9)",
+        "value": "0.93",
+        "quoted_uncertainty": "0.09"
+      },
+      "B_M1_muN2_published_output": {
+        "quoted": "2.7(3)",
+        "value": "2.7",
+        "quoted_uncertainty": "0.3"
+      },
+      "B_E2_e2b2_published_output": null,
+      "Qt_eb_published_output": null,
+      "locator": "printed 034311-4 / PDF p.4, Table II"
+    },
+    {
+      "band_2008": 1,
+      "spin_parity": "16-",
+      "lifetime_ps": {
+        "quoted": "0.88(10)",
+        "value": "0.88",
+        "quoted_uncertainty": "0.10"
+      },
+      "B_M1_muN2_published_output": {
+        "quoted": "1.7(2)",
+        "value": "1.7",
+        "quoted_uncertainty": "0.2"
+      },
+      "B_E2_e2b2_published_output": {
+        "quoted": "0.26(3)",
+        "value": "0.26",
+        "quoted_uncertainty": "0.03"
+      },
+      "Qt_eb_published_output": {
+        "quoted": "1.73(10)",
+        "value": "1.73",
+        "quoted_uncertainty": "0.10"
+      },
+      "locator": "printed 034311-4 / PDF p.4, Table II"
+    },
+    {
+      "band_2008": 1,
+      "spin_parity": "17-",
+      "lifetime_ps": {
+        "quoted": "0.71(6)",
+        "value": "0.71",
+        "quoted_uncertainty": "0.06"
+      },
+      "B_M1_muN2_published_output": {
+        "quoted": "1.1(1)",
+        "value": "1.1",
+        "quoted_uncertainty": "0.1"
+      },
+      "B_E2_e2b2_published_output": {
+        "quoted": "0.08(1)",
+        "value": "0.08",
+        "quoted_uncertainty": "0.01"
+      },
+      "Qt_eb_published_output": {
+        "quoted": "0.95(6)",
+        "value": "0.95",
+        "quoted_uncertainty": "0.06"
+      },
+      "locator": "printed 034311-4 / PDF p.4, Table II"
+    },
+    {
+      "band_2008": 1,
+      "spin_parity": "18-",
+      "lifetime_ps": {
+        "quoted": "0.56(8)",
+        "value": "0.56",
+        "quoted_uncertainty": "0.08"
+      },
+      "B_M1_muN2_published_output": {
+        "quoted": "0.9(2)",
+        "value": "0.9",
+        "quoted_uncertainty": "0.2"
+      },
+      "B_E2_e2b2_published_output": {
+        "quoted": "0.14(2)",
+        "value": "0.14",
+        "quoted_uncertainty": "0.02"
+      },
+      "Qt_eb_published_output": {
+        "quoted": "1.26(9)",
+        "value": "1.26",
+        "quoted_uncertainty": "0.09"
+      },
+      "locator": "printed 034311-4 / PDF p.4, Table II"
+    },
+    {
+      "band_2008": 1,
+      "spin_parity": "19-",
+      "lifetime_ps": {
+        "quoted": "0.32(5)",
+        "value": "0.32",
+        "quoted_uncertainty": "0.05"
+      },
+      "B_M1_muN2_published_output": {
+        "quoted": "1.7(3)",
+        "value": "1.7",
+        "quoted_uncertainty": "0.3"
+      },
+      "B_E2_e2b2_published_output": {
+        "quoted": "0.11(2)",
+        "value": "0.11",
+        "quoted_uncertainty": "0.02"
+      },
+      "Qt_eb_published_output": {
+        "quoted": "1.11(10)",
+        "value": "1.11",
+        "quoted_uncertainty": "0.10"
+      },
+      "locator": "printed 034311-4 / PDF p.4, Table II"
+    },
+    {
+      "band_2008": 2,
+      "spin_parity": "15-",
+      "lifetime_ps": {
+        "quoted": "1.27(6)",
+        "value": "1.27",
+        "quoted_uncertainty": "0.06"
+      },
+      "B_M1_muN2_published_output": {
+        "quoted": "4.4(3)",
+        "value": "4.4",
+        "quoted_uncertainty": "0.3"
+      },
+      "B_E2_e2b2_published_output": {
+        "quoted": "0.54(8)",
+        "value": "0.54",
+        "quoted_uncertainty": "0.08"
+      },
+      "Qt_eb_published_output": {
+        "quoted": "2.50(19)",
+        "value": "2.50",
+        "quoted_uncertainty": "0.19"
+      },
+      "locator": "printed 034311-4 / PDF p.4, Table II"
+    },
+    {
+      "band_2008": 2,
+      "spin_parity": "16-",
+      "lifetime_ps": {
+        "quoted": "0.87(8)",
+        "value": "0.87",
+        "quoted_uncertainty": "0.08"
+      },
+      "B_M1_muN2_published_output": {
+        "quoted": "3.5(3)",
+        "value": "3.5",
+        "quoted_uncertainty": "0.3"
+      },
+      "B_E2_e2b2_published_output": {
+        "quoted": "0.51(7)",
+        "value": "0.51",
+        "quoted_uncertainty": "0.07"
+      },
+      "Qt_eb_published_output": {
+        "quoted": "2.42(17)",
+        "value": "2.42",
+        "quoted_uncertainty": "0.17"
+      },
+      "locator": "printed 034311-4 / PDF p.4, Table II"
+    },
+    {
+      "band_2008": 2,
+      "spin_parity": "17-",
+      "lifetime_ps": {
+        "quoted": "0.61(7)",
+        "value": "0.61",
+        "quoted_uncertainty": "0.07"
+      },
+      "B_M1_muN2_published_output": {
+        "quoted": "1.4(2)",
+        "value": "1.4",
+        "quoted_uncertainty": "0.2"
+      },
+      "B_E2_e2b2_published_output": {
+        "quoted": "0.44(6)",
+        "value": "0.44",
+        "quoted_uncertainty": "0.06"
+      },
+      "Qt_eb_published_output": {
+        "quoted": "2.24(15)",
+        "value": "2.24",
+        "quoted_uncertainty": "0.15"
+      },
+      "locator": "printed 034311-4 / PDF p.4, Table II"
+    },
+    {
+      "band_2008": 2,
+      "spin_parity": "18-",
+      "lifetime_ps": {
+        "quoted": "0.51(7)",
+        "value": "0.51",
+        "quoted_uncertainty": "0.07"
+      },
+      "B_M1_muN2_published_output": {
+        "quoted": "1.0(2)",
+        "value": "1.0",
+        "quoted_uncertainty": "0.2"
+      },
+      "B_E2_e2b2_published_output": {
+        "quoted": "0.04(1)",
+        "value": "0.04",
+        "quoted_uncertainty": "0.01"
+      },
+      "Qt_eb_published_output": {
+        "quoted": "0.67(8)",
+        "value": "0.67",
+        "quoted_uncertainty": "0.08"
+      },
+      "locator": "printed 034311-4 / PDF p.4, Table II"
+    },
+    {
+      "band_2008": 2,
+      "spin_parity": "19-",
+      "lifetime_ps": {
+        "quoted": "0.31(5)",
+        "value": "0.31",
+        "quoted_uncertainty": "0.05"
+      },
+      "B_M1_muN2_published_output": {
+        "quoted": "1.6(3)",
+        "value": "1.6",
+        "quoted_uncertainty": "0.3"
+      },
+      "B_E2_e2b2_published_output": {
+        "quoted": "0.05(1)",
+        "value": "0.05",
+        "quoted_uncertainty": "0.01"
+      },
+      "Qt_eb_published_output": {
+        "quoted": "0.75(8)",
+        "value": "0.75",
+        "quoted_uncertainty": "0.08"
+      },
+      "locator": "printed 034311-4 / PDF p.4, Table II"
+    }
+  ],
+  "measurement_and_derivation_layers": {
+    "source_experimental_inputs": "Reported gamma energies/spin labels and branching fractions; DSAM lifetimes are experimental fit results with stopping/feeding assumptions.",
+    "published_B_and_Qt": "Derived experimental outputs, not independent input measurements. Fig.4 and Table II show the same strength results, not independent replications.",
+    "TAC_RPA": "Model calculations and author interpretation, distinct from the reported DSAM input quantities and derived strengths."
+  },
+  "selected_input_packet": {
+    "status": "ready for conditional gamma-only arithmetic; partial for source-faithful publication reproduction",
+    "identity": {
+      "nucleus": "136Nd",
+      "band": "Band 1 of this 2008 paper",
+      "parent_Ex_keV": "6711.4",
+      "Ji_parity": "18-",
+      "target_E_gamma_keV": "757.4",
+      "target_E_gamma_MeV": "0.7574",
+      "Jf_parity": "16-",
+      "daughter": "Band 1, Ex=5954.0 keV, 16-"
+    },
+    "lifetime": {
+      "reported": {
+        "quoted": "0.56(8)",
+        "value": "0.56",
+        "quoted_uncertainty": "0.08"
+      },
+      "unit": "ps",
+      "quantity_used": "parent mean lifetime tau under standard DSAM convention",
+      "article_label": "Lifetime (ps); article does not explicitly print tau/T1/2 or a half-life conversion definition",
+      "half_life_conversion_applied": false,
+      "explicit_confidence_level": null,
+      "locator": "034311-4 / PDF p.4, Table II Band 1 I=18 row"
+    },
+    "all_reported_same_parent_branches": {
+      "band_2008": 1,
+      "parent_spin_parity": "18-",
+      "parent_Ex_keV": "6711.4",
+      "branches": [
+        {
+          "E_gamma_keV": "401.2",
+          "E_gamma_uncertainty": null,
+          "Ji_parity": "18-",
+          "Jf_parity": "17-",
+          "branching_ratio": {
+            "quoted": "0.57(6)",
+            "value": "0.57",
+            "quoted_uncertainty": "0.06"
+          },
+          "daughter_Ex_keV_by_subtraction": "6310.2",
+          "daughter_identity_matching_TableI_level": {
+            "band_2008": 1,
+            "spin_parity": "17-"
+          }
+        },
+        {
+          "E_gamma_keV": "757.4",
+          "E_gamma_uncertainty": null,
+          "Ji_parity": "18-",
+          "Jf_parity": "16-",
+          "branching_ratio": {
+            "quoted": "0.24(2)",
+            "value": "0.24",
+            "quoted_uncertainty": "0.02"
+          },
+          "daughter_Ex_keV_by_subtraction": "5954.0",
+          "daughter_identity_matching_TableI_level": {
+            "band_2008": 1,
+            "spin_parity": "16-"
+          }
+        },
+        {
+          "E_gamma_keV": "389.6",
+          "E_gamma_uncertainty": null,
+          "Ji_parity": "18-",
+          "Jf_parity": "17-",
+          "branching_ratio": {
+            "quoted": "0.19(2)",
+            "value": "0.19",
+            "quoted_uncertainty": "0.02"
+          },
+          "daughter_Ex_keV_by_subtraction": "6321.8",
+          "daughter_identity_matching_TableI_level": {
+            "band_2008": 2,
+            "spin_parity": "17-"
+          }
+        }
+      ],
+      "sum_reported_branch_centers": "1.00",
+      "locator": "printed 034311-3 / PDF p.3, Table I"
+    },
+    "target_branch": {
+      "E_gamma_keV": "757.4",
+      "E_gamma_uncertainty": null,
+      "Ji_parity": "18-",
+      "Jf_parity": "16-",
+      "branching_ratio": {
+        "quoted": "0.24(2)",
+        "value": "0.24",
+        "quoted_uncertainty": "0.02"
+      },
+      "daughter_Ex_keV_by_subtraction": "5954.0",
+      "daughter_identity_matching_TableI_level": {
+        "band_2008": 1,
+        "spin_parity": "16-"
+      }
+    },
+    "branch_basis": "Table I says branching ratios and refers to Chiara et al. [16]; this article does not explicitly state photon-intensity normalization versus ICC-corrected total-transition normalization.",
+    "branch_completeness": "All three branches reported for this parent in Table I and Fig.1 are retained, including the 389.6-keV interband branch. Their reported central fractions sum to 1. This is not a measured upper limit on unobserved branches or proof of all-channel closure.",
+    "published_output_reference_only": {
+      "B_E2": {
+        "quoted": "0.14(2)",
+        "value": "0.14",
+        "quoted_uncertainty": "0.02"
+      },
+      "unit": "e^2 b^2",
+      "B_M1_inband": {
+        "quoted": "0.9(2)",
+        "value": "0.9",
+        "quoted_uncertainty": "0.2"
+      },
+      "M1_unit": "mu_N^2",
+      "Qt": {
+        "quoted": "1.26(9)",
+        "value": "1.26",
+        "quoted_uncertainty": "0.09"
+      },
+      "Qt_unit": "eb"
+    },
+    "multipolarity": "757.4-keV DeltaI=2 branch is treated as E2 for this extraction; higher allowed multipole fractions are not supplied. The two DeltaI=1 branches admit M1/E2, and the author explicitly assumes pure M1 to derive absolute B(M1).",
+    "delta": {
+      "DeltaI1_pure_M1_assumption": "delta(E2/M1)=0 in the quoted B(M1) extraction, not a measured mixing ratio",
+      "target_higher_multipole_ratios": null
+    },
+    "ICC": {
+      "numeric_coefficients": null,
+      "uncertainties": null,
+      "stated_zero_or_included": "not explicitly specified in the six-page article"
+    },
+    "missing_reproduction_inputs": [
+      "precise branching-ratio normalization convention",
+      "ICC values/treatment for all retained branches",
+      "limits on unobserved decay channels",
+      "energy uncertainties",
+      "branch/branch and branch/lifetime covariance",
+      "exact rate-conversion constants/conventions used by the authors"
+    ]
+  },
+  "conditional_E2_arithmetic": {
+    "formula": "B(E2)[e^2 b^2]=C_E2*b/(tau[ps]*E_gamma[MeV]^5)",
+    "C_E2": "0.081620",
+    "C_E2_unit": "e^2 b^2 ps MeV^5",
+    "constant_provenance": "Parent-provided modern illustrative rate-conversion constant; not printed in MU08.",
+    "conditions": [
+      "treat lifetime as mean tau",
+      "treat the reported target b as a usable radiative fraction under gamma-only closure",
+      "neglect ICC and unobserved non-gamma/other channels",
+      "target radiation is pure E2",
+      "energy fixed at its quoted central value"
+    ],
+    "result_e2b2": "0.1403438225401464619836134499385868195396",
+    "independent_quoted_error_approx_e2b2": "0.02321093683219366322706051052197297292593",
+    "relative_quoted_error_approx": "0.1653862379696405298622922266789113622538",
+    "error_conditions": "Quadrature of quoted branch and lifetime errors only, assuming independence. Energy errors, covariance, unknown confidence convention and stopping systematics are omitted; this is not the exact published uncertainty.",
+    "comparison_to_published_output": {
+      "quoted": "0.14(2)",
+      "computed_minus_published_center": "0.0003438225401464619836134499385868195396",
+      "meaning": "Conditional arithmetic is compatible with the rounded published value; this cannot identify ICC or branch-basis choices."
+    },
+    "partial_gamma_lifetime_conditional_ps": "2.333333333333333333333333333333333333333",
+    "negative_controls": {
+      "omit_branch_b_equals_one_B": "0.5847659272506102582650560414107784147485",
+      "keV_misread_as_MeV_B": "1.403438225401464619836134499385868195396E-16",
+      "reported_mean_lifetime_wrongly_treated_as_half_life_B": "0.09727892490270782204795829540764898025757"
+    }
+  },
+  "branch_basis_alternatives": {
+    "photon_fraction_case": "If b_j=I_gamma_j/sum_observed I_gamma, D=sum_j b_j*(1+alpha_j), f_missing=lambda_unobserved/lambda_total, then lambda_gamma_target=b_target*(1-f_missing)/(tau*D). Multiply gamma-only B by (1-f_missing)/D.",
+    "total_transition_fraction_case": "If b_target is an all-channel parent branching fraction for the target transition, lambda_gamma_target=b_target/[tau*(1+alpha_target)]. A normalized observed-only total-transition fraction additionally needs the missing fraction.",
+    "resolution": "Neither alternative is selected from the quoted B(E2); no alpha values are inferred backward from the output."
+  },
+  "DSAM_and_uncertainty_boundary": {
+    "stopping": "5000 recoil histories, 0.002-ps time steps, electronic stopping from SRIM, target/backing and detector geometry; 034311-2 / PDF p.2.",
+    "side_feeding": "Five-transition cascade with in-band-like moment of inertia; variable side-feeding quadrupole moments act as effective feeding-time parameters; progressively then globally fitted lifetimes. No separate 15% side-feeding error is quoted.",
+    "quoted_errors": "Lifetime uncertainties from chi-square behavior near the minimum; Fig.4 calls strength bars statistical only. Full covariance, exact confidence threshold and fit data are not supplied.",
+    "15_percent": "Potential systematic uncertainty specifically from modeling stopping powers, omitted from the quoted errors; stated as may be as large as 15%, not a defined independent Gaussian 1-sigma error.",
+    "correlation": "No stopping-systematic covariance across levels/bands is supplied. Do not independently add a fixed 15% to every branch/Qt/B column or rename it a side-feeding uncertainty.",
+    "DSAM_refit_readiness": "Not ready: event spectra, gate definitions/weights, fit residual/covariance packages and stopping/feeding inputs required for a new fit are absent."
+  },
+  "model_and_Qt_boundary": {
+    "model_numbers": {
+      "kappa0_MeV": "0.036",
+      "Hamiltonian_quenching_B": "0.5",
+      "epsilon2_range": "0.23-0.25",
+      "gamma_degrees": "25-30",
+      "collective_RPA_phonon_keV": "typically 100-400",
+      "fragmentation_example_hbaromega_MeV": "0.35"
+    },
+    "model_provenance": "034311-4/5: QQ parameters previously used for 135Nd are applied to 136Nd; 135Nd is model calibration/background, not this packet's nucleus.",
+    "pairing_and_crossing": "Pairing is ignored for high-spin four-quasiparticle configurations. The calculations do not reproduce the crossing details, and band mixing is explicitly not included.",
+    "interpretation": "Different derived strengths support the author's distinct-configuration/mixing interpretation for this 2008 pair; predicted chiral vibrations are not new observed bands or a conclusion about later 136Nd pairs.",
+    "Qt": "Qt values are published derived outputs. The six-page article does not supply its Qt conversion formula/CG convention; no body-fixed K=0 rotor, beta deformation or intrinsic shape is reconstructed here."
+  },
+  "specific_identity_and_source_issues": [
+    {
+      "item": "Band2 B(E2) spin mapping",
+      "verified": "I=15,16,17,18,19 map to 0.54(8),0.51(7),0.44(6),0.04(1),0.05(1), respectively; 034311-4 / PDF p.4 Table II"
+    },
+    {
+      "item": "Band2 upper-M1 energy-label discrepancy",
+      "verified": "Fig.2 labels a Band2 fit peak 464.8 keV; Table I Band2 I=19 gives 465.5 keV; Fig.1 uses approximately 465.",
+      "locator": "034311-3 / PDF p.3 Fig.2 and Table I; 034311-2 / PDF p.2 Fig.1",
+      "boundary": "Unresolved label discrepancy; do not silently select a typo correction. The selected Band1 I18 packet is unaffected."
+    }
+  ],
+  "source_images": [
+    "tmp/day8-20261007/day9-preview/mukhopadhyay/table-I.png",
+    "tmp/day8-20261007/day9-preview/mukhopadhyay/table-II-and-caption.png",
+    "tmp/day8-20261007/day9-preview/mukhopadhyay/stopping-and-pure-M1.png",
+    "tmp/day8-20261007/day9-preview/mukhopadhyay/fig2-band2-4648-label.png"
+  ],
+  "exact_identity_and_arithmetic_checks": {
+    "raw_sha_matches_source": true,
+    "ten_TableI_parent_groups": true,
+    "twenty_six_reported_TableI_branches": true,
+    "ten_TableII_lifetime_rows": true,
+    "selected_tau_quote_parsed_as_0_56_plus_minus_0_08": true,
+    "keV_to_MeV_757_4_to_0_7574": true,
+    "selected_three_observed_branches_sum_one": true,
+    "selected_target_daughter_is_Band1_16minus_5954": true,
+    "selected_401_2_daughter_is_Band1_17minus": true,
+    "selected_389_6_daughter_is_Band2_17minus": true,
+    "conditional_value_rounds_to_published_0_14": true,
+    "missing_branch_factor_control_is_1_over_b": true,
+    "energy_unit_control_is_10_to_minus15": true,
+    "Band2_spin_19_E2_is_0_05_not_0_04": true,
+    "Band1_I15-_reported_centers_sum_one": true,
+    "Band1_I16-_reported_centers_sum_one": true,
+    "Band1_I17-_reported_centers_sum_one": true,
+    "Band1_I18-_reported_centers_sum_one": true,
+    "Band1_I19-_reported_centers_sum_one": true,
+    "Band2_I15-_reported_centers_sum_one": true,
+    "Band2_I16-_reported_centers_sum_one": true,
+    "Band2_I17-_reported_centers_sum_one": true,
+    "Band2_I18-_reported_centers_sum_one": true,
+    "Band2_I19-_reported_centers_sum_one": true
+  },
+  "reproduction": {
+    "python": "3.12.3",
+    "arithmetic": "Python Decimal, precision 40; no experimental fit or inferred missing input",
+    "command": "python3 tmp/day8-20261007/day9-preview/mukhopadhyay/source_input_audit.py",
+    "script_sha256": "785fcad459826d9f75b7acee3fbe7a08a88253966308b398d3c15aa5a6d26f56",
+    "script_source": "#!/usr/bin/env python3\n\"\"\"MU08 source packet audit and conditional arithmetic; no DSAM refit.\"\"\"\nfrom pathlib import Path\nfrom decimal import Decimal, getcontext\nimport datetime\nimport hashlib\nimport json\nimport platform\nimport re\n\ngetcontext().prec = 40\nROOT = Path('/workspace/wiki')\nSOURCE = ROOT / 'knowledge/sources/mukhopadhyay-2008-136nd-transition-rates.md'\nRAW = ROOT / 'raw/papers/gpt/high-spin-20260920/三轴/手征/2008_Mukhopadhyay et al_Electromagnetic transition rates in high-spin bands in Nd 136.pdf'\nOUT = ROOT / 'outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/day9-strength-input-packet.json'\nsource_text = SOURCE.read_text(encoding='utf-8-sig')\nexpected_sha = re.search(r'^raw_sha256:\\s*\"([0-9a-f]{64})\"', source_text, re.M).group(1)\nactual_sha = hashlib.sha256(RAW.read_bytes()).hexdigest()\nif actual_sha != expected_sha:\n    raise RuntimeError('Source-record/raw identity mismatch; no output published.')\n\n\ndef quoted(text):\n    if text is None:\n        return None\n    match = re.fullmatch(r'(\\d+(?:\\.\\d+)?)\\((\\d+)\\)', text)\n    number, uncertainty_digits = match.groups()\n    decimal_places = len(number.partition('.')[2])\n    return {'quoted': text, 'value': str(Decimal(number)),\n            'quoted_uncertainty': str(Decimal(uncertainty_digits) * Decimal(10)**(-decimal_places))}\n\n\nTABLE_I_INPUT = [\n    (1, 15, '5645.3', [('229.3', 14, '0.60(3)'), ('274.0', 14, '0.14(2)'), ('338.0', 14, '0.26(3)')]),\n    (1, 16, '5954.0', [('308.7', 15, '0.82(4)'), ('538.0', 14, '0.13(1)'), ('224.7', 15, '0.05(1)')]),\n    (1, 17, '6310.2', [('356.2', 16, '0.62(3)'), ('664.9', 15, '0.09(1)'), ('332.8', 16, '0.29(3)')]),\n    (1, 18, '6711.4', [('401.2', 17, '0.57(6)'), ('757.4', 16, '0.24(2)'), ('389.6', 17, '0.19(2)')]),\n    (1, 19, '7147.2', [('435.8', 18, '0.83(8)'), ('837.0', 17, '0.17(2)')]),\n    (2, 15, '5729.3', [('199.6', 14, '0.93(5)'), ('382.0', 13, '0.07(1)')]),\n    (2, 16, '5977.4', [('248.1', 15, '0.90(3)'), ('447.7', 14, '0.10(1)')]),\n    (2, 17, '6321.8', [('344.4', 16, '0.66(4)'), ('592.5', 15, '0.24(2)'), ('367.8', 16, '0.10(1)')]),\n    (2, 18, '6756.0', [('434.2', 17, '0.73(7)'), ('778.6', 16, '0.08(1)'), ('445.8', 17, '0.19(2)')]),\n    (2, 19, '7221.5', [('465.5', 18, '0.88(9)'), ('899.7', 17, '0.12(2)')]),\n]\nTABLE_II_INPUT = [\n    (1, 15, '0.93(9)', '2.7(3)', None, None),\n    (1, 16, '0.88(10)', '1.7(2)', '0.26(3)', '1.73(10)'),\n    (1, 17, '0.71(6)', '1.1(1)', '0.08(1)', '0.95(6)'),\n    (1, 18, '0.56(8)', '0.9(2)', '0.14(2)', '1.26(9)'),\n    (1, 19, '0.32(5)', '1.7(3)', '0.11(2)', '1.11(10)'),\n    (2, 15, '1.27(6)', '4.4(3)', '0.54(8)', '2.50(19)'),\n    (2, 16, '0.87(8)', '3.5(3)', '0.51(7)', '2.42(17)'),\n    (2, 17, '0.61(7)', '1.4(2)', '0.44(6)', '2.24(15)'),\n    (2, 18, '0.51(7)', '1.0(2)', '0.04(1)', '0.67(8)'),\n    (2, 19, '0.31(5)', '1.6(3)', '0.05(1)', '0.75(8)'),\n]\nLEVELS = {Decimal(ex): {'band_2008': band, 'spin_parity': f'{spin}-'}\n          for band, spin, ex, _ in TABLE_I_INPUT}\ntable_i = []\nfor band, spin, ex, entries in TABLE_I_INPUT:\n    branches = []\n    for energy, final_spin, fraction in entries:\n        daughter_ex = Decimal(ex) - Decimal(energy)\n        daughter_identity = LEVELS.get(daughter_ex)\n        branches.append({'E_gamma_keV': energy, 'E_gamma_uncertainty': None,\n                         'Ji_parity': f'{spin}-', 'Jf_parity': f'{final_spin}-',\n                         'branching_ratio': quoted(fraction),\n                         'daughter_Ex_keV_by_subtraction': str(daughter_ex),\n                         'daughter_identity_matching_TableI_level': daughter_identity})\n    table_i.append({'band_2008': band, 'parent_spin_parity': f'{spin}-', 'parent_Ex_keV': ex,\n                    'branches': branches,\n                    'sum_reported_branch_centers': str(sum(Decimal(quoted(b)['value']) for _, _, b in entries)),\n                    'locator': 'printed 034311-3 / PDF p.3, Table I'})\ntable_ii = [{'band_2008': band, 'spin_parity': f'{spin}-', 'lifetime_ps': quoted(tau),\n             'B_M1_muN2_published_output': quoted(bm1), 'B_E2_e2b2_published_output': quoted(be2),\n             'Qt_eb_published_output': quoted(qt), 'locator': 'printed 034311-4 / PDF p.4, Table II'}\n            for band, spin, tau, bm1, be2, qt in TABLE_II_INPUT]\npacket_i = next(row for row in table_i if row['band_2008'] == 1 and row['parent_spin_parity'] == '18-')\npacket_ii = next(row for row in table_ii if row['band_2008'] == 1 and row['spin_parity'] == '18-')\ntarget = next(branch for branch in packet_i['branches'] if branch['E_gamma_keV'] == '757.4')\n\n# Calculation inputs are only tau, the selected Table I branch, E_gamma and C.\n# Published B(E2) is an output reference and is not used to infer any input/ICC.\nTAU = Decimal(packet_ii['lifetime_ps']['value'])\nTAU_ERROR = Decimal(packet_ii['lifetime_ps']['quoted_uncertainty'])\nENERGY = Decimal(target['E_gamma_keV']) / 1000\nBRANCH = Decimal(target['branching_ratio']['value'])\nBRANCH_ERROR = Decimal(target['branching_ratio']['quoted_uncertainty'])\nC_E2 = Decimal('0.081620')\n\n\ndef conditional_E2(tau_ps, b, energy_MeV, C):\n    return C * b / (tau_ps * energy_MeV**5)\n\n\nB_E2 = conditional_E2(TAU, BRANCH, ENERGY, C_E2)\nRELATIVE_ERROR = ((BRANCH_ERROR / BRANCH)**2 + (TAU_ERROR / TAU)**2).sqrt()\nQUOTED_ERROR_APPROX = B_E2 * RELATIVE_ERROR\nPUBLISHED_B = Decimal(packet_ii['B_E2_e2b2_published_output']['value'])\nCHECKS = {'raw_sha_matches_source': actual_sha == expected_sha,\n          'ten_TableI_parent_groups': len(table_i) == 10,\n          'twenty_six_reported_TableI_branches': sum(len(row['branches']) for row in table_i) == 26,\n          'ten_TableII_lifetime_rows': len(table_ii) == 10,\n          'selected_tau_quote_parsed_as_0_56_plus_minus_0_08': TAU == Decimal('0.56') and TAU_ERROR == Decimal('0.08'),\n          'keV_to_MeV_757_4_to_0_7574': ENERGY == Decimal('0.7574'),\n          'selected_three_observed_branches_sum_one': Decimal(packet_i['sum_reported_branch_centers']) == 1,\n          'selected_target_daughter_is_Band1_16minus_5954': target['daughter_identity_matching_TableI_level'] == {'band_2008': 1, 'spin_parity': '16-'} and target['daughter_Ex_keV_by_subtraction'] == '5954.0',\n          'selected_401_2_daughter_is_Band1_17minus': packet_i['branches'][0]['daughter_identity_matching_TableI_level'] == {'band_2008': 1, 'spin_parity': '17-'},\n          'selected_389_6_daughter_is_Band2_17minus': packet_i['branches'][2]['daughter_identity_matching_TableI_level'] == {'band_2008': 2, 'spin_parity': '17-'},\n          'conditional_value_rounds_to_published_0_14': B_E2.quantize(Decimal('0.01')) == PUBLISHED_B,\n          'missing_branch_factor_control_is_1_over_b': abs(conditional_E2(TAU, 1, ENERGY, C_E2) / B_E2 - 1 / BRANCH) < Decimal('1e-36'),\n          'energy_unit_control_is_10_to_minus15': abs(conditional_E2(TAU, BRANCH, ENERGY * 1000, C_E2) / B_E2 - Decimal('1e-15')) < Decimal('1e-50'),\n          'Band2_spin_19_E2_is_0_05_not_0_04': next(row for row in table_ii if row['band_2008'] == 2 and row['spin_parity'] == '19-')['B_E2_e2b2_published_output']['value'] == '0.05'}\nfor row in table_i:\n    CHECKS[f\"Band{row['band_2008']}_I{row['parent_spin_parity']}_reported_centers_sum_one\"] = Decimal(row['sum_reported_branch_centers']) == 1\nfailed = [name for name, ok in CHECKS.items() if not ok]\nif failed:\n    raise RuntimeError(f'Audit arithmetic/identity controls failed: {failed}')\n\ncode = Path(__file__).read_text(encoding='utf-8')\nresult = {\n    'schema_version': 1, 'created_utc': datetime.datetime.now(datetime.timezone.utc).isoformat(),\n    'kind': 'source-input-audit-and-conditional-strength-arithmetic',\n    'run_day_index': 8, 'preview_card_index': 9, 'preview_credit': False,\n    'research_level': 'L2 source audit and arithmetic; no event-level DSAM refit or L4',\n    'source_identity': {'citation_key': 'Mukhopadhyay_2008', 'doi': '10.1103/PhysRevC.78.034311',\n                        'nucleus': '136Nd', 'article_pages': '034311-1 through 034311-6', 'pdf_pages': 6,\n                        'source_page': str(SOURCE.relative_to(ROOT)), 'raw_file': str(RAW.relative_to(ROOT)),\n                        'source_raw_sha256': expected_sha, 'actual_raw_sha256': actual_sha, 'matches': True},\n    'actual_reading': {'coverage': 'All six PDF pages inspected visually and read; Table I, Table II/caption and uncertainty/multipolarity paragraph additionally inspected in enlarged crops.',\n                       'source_batch_expansion': False, 'other_course_card_opened': False,\n                       'page_crosswalk': {f'034311-{n}': f'PDF p.{n}' for n in range(1, 7)}},\n    'paper_mainline': [\n        {'locator': '034311-1 / PDF p.1', 'content': 'Motivation: distinguish an earlier chiral-pair suggestion from different-configuration crossing; ATLAS 100Mo(40Ar,4n) at 175 MeV, backed target and Gammasphere acquisition.'},\n        {'locator': '034311-2 / PDF p.2, Fig.1 and methods', 'content': 'Partial 136Nd level scheme of this paper\\'s Band 1 and Band 2; DSAM angle-by-angle double gating, full stopped/shifted peak gates, background subtraction and five-step side feeding.'},\n        {'locator': '034311-3 / PDF p.3, Fig.2, Table I and text', 'content': 'Representative line-shape fits, same-parent branching ratios, lifetime error treatment, stopping systematics and pure-M1 assumption; start of QQ TAC Hamiltonian.'},\n        {'locator': '034311-4 / PDF p.4, Table II, Eqs.2-3, Fig.3', 'content': 'Published fitted lifetimes and derived B/Qt outputs; TAC/RPA assumptions and comparison of energies.'},\n        {'locator': '034311-5 / PDF p.5, Figs.4-5 and conclusion', 'content': 'Different derived strengths; calculations omit band mixing; RPA chiral-vibrational predictions and fragmentation; author interpretation of distinct configurations undergoing mixing.'},\n        {'locator': '034311-6 / PDF p.6', 'content': 'References; referenced Chiara branching method and earlier band reports were not retrieved or independently audited.'},\n    ],\n    'Table_I_reported_branch_groups': table_i,\n    'Table_II_reported_rows': table_ii,\n    'measurement_and_derivation_layers': {\n        'source_experimental_inputs': 'Reported gamma energies/spin labels and branching fractions; DSAM lifetimes are experimental fit results with stopping/feeding assumptions.',\n        'published_B_and_Qt': 'Derived experimental outputs, not independent input measurements. Fig.4 and Table II show the same strength results, not independent replications.',\n        'TAC_RPA': 'Model calculations and author interpretation, distinct from the reported DSAM input quantities and derived strengths.',\n    },\n    'selected_input_packet': {\n        'status': 'ready for conditional gamma-only arithmetic; partial for source-faithful publication reproduction',\n        'identity': {'nucleus': '136Nd', 'band': 'Band 1 of this 2008 paper', 'parent_Ex_keV': '6711.4', 'Ji_parity': '18-',\n                     'target_E_gamma_keV': '757.4', 'target_E_gamma_MeV': str(ENERGY), 'Jf_parity': '16-',\n                     'daughter': 'Band 1, Ex=5954.0 keV, 16-'},\n        'lifetime': {'reported': packet_ii['lifetime_ps'], 'unit': 'ps', 'quantity_used': 'parent mean lifetime tau under standard DSAM convention',\n                     'article_label': 'Lifetime (ps); article does not explicitly print tau/T1/2 or a half-life conversion definition',\n                     'half_life_conversion_applied': False, 'explicit_confidence_level': None,\n                     'locator': '034311-4 / PDF p.4, Table II Band 1 I=18 row'},\n        'all_reported_same_parent_branches': packet_i,\n        'target_branch': target,\n        'branch_basis': 'Table I says branching ratios and refers to Chiara et al. [16]; this article does not explicitly state photon-intensity normalization versus ICC-corrected total-transition normalization.',\n        'branch_completeness': 'All three branches reported for this parent in Table I and Fig.1 are retained, including the 389.6-keV interband branch. Their reported central fractions sum to 1. This is not a measured upper limit on unobserved branches or proof of all-channel closure.',\n        'published_output_reference_only': {'B_E2': packet_ii['B_E2_e2b2_published_output'], 'unit': 'e^2 b^2',\n                                            'B_M1_inband': packet_ii['B_M1_muN2_published_output'], 'M1_unit': 'mu_N^2',\n                                            'Qt': packet_ii['Qt_eb_published_output'], 'Qt_unit': 'eb'},\n        'multipolarity': '757.4-keV DeltaI=2 branch is treated as E2 for this extraction; higher allowed multipole fractions are not supplied. The two DeltaI=1 branches admit M1/E2, and the author explicitly assumes pure M1 to derive absolute B(M1).',\n        'delta': {'DeltaI1_pure_M1_assumption': 'delta(E2/M1)=0 in the quoted B(M1) extraction, not a measured mixing ratio',\n                  'target_higher_multipole_ratios': None},\n        'ICC': {'numeric_coefficients': None, 'uncertainties': None, 'stated_zero_or_included': 'not explicitly specified in the six-page article'},\n        'missing_reproduction_inputs': ['precise branching-ratio normalization convention', 'ICC values/treatment for all retained branches',\n                                        'limits on unobserved decay channels', 'energy uncertainties', 'branch/branch and branch/lifetime covariance',\n                                        'exact rate-conversion constants/conventions used by the authors'],\n    },\n    'conditional_E2_arithmetic': {\n        'formula': 'B(E2)[e^2 b^2]=C_E2*b/(tau[ps]*E_gamma[MeV]^5)',\n        'C_E2': str(C_E2), 'C_E2_unit': 'e^2 b^2 ps MeV^5',\n        'constant_provenance': 'Parent-provided modern illustrative rate-conversion constant; not printed in MU08.',\n        'conditions': ['treat lifetime as mean tau', 'treat the reported target b as a usable radiative fraction under gamma-only closure',\n                       'neglect ICC and unobserved non-gamma/other channels', 'target radiation is pure E2', 'energy fixed at its quoted central value'],\n        'result_e2b2': str(B_E2), 'independent_quoted_error_approx_e2b2': str(QUOTED_ERROR_APPROX),\n        'relative_quoted_error_approx': str(RELATIVE_ERROR),\n        'error_conditions': 'Quadrature of quoted branch and lifetime errors only, assuming independence. Energy errors, covariance, unknown confidence convention and stopping systematics are omitted; this is not the exact published uncertainty.',\n        'comparison_to_published_output': {'quoted': packet_ii['B_E2_e2b2_published_output']['quoted'],\n                                            'computed_minus_published_center': str(B_E2 - PUBLISHED_B),\n                                            'meaning': 'Conditional arithmetic is compatible with the rounded published value; this cannot identify ICC or branch-basis choices.'},\n        'partial_gamma_lifetime_conditional_ps': str(TAU / BRANCH),\n        'negative_controls': {'omit_branch_b_equals_one_B': str(conditional_E2(TAU, 1, ENERGY, C_E2)),\n                              'keV_misread_as_MeV_B': str(conditional_E2(TAU, BRANCH, ENERGY * 1000, C_E2)),\n                              'reported_mean_lifetime_wrongly_treated_as_half_life_B': str(B_E2 * Decimal(2).ln())},\n    },\n    'branch_basis_alternatives': {\n        'photon_fraction_case': 'If b_j=I_gamma_j/sum_observed I_gamma, D=sum_j b_j*(1+alpha_j), f_missing=lambda_unobserved/lambda_total, then lambda_gamma_target=b_target*(1-f_missing)/(tau*D). Multiply gamma-only B by (1-f_missing)/D.',\n        'total_transition_fraction_case': 'If b_target is an all-channel parent branching fraction for the target transition, lambda_gamma_target=b_target/[tau*(1+alpha_target)]. A normalized observed-only total-transition fraction additionally needs the missing fraction.',\n        'resolution': 'Neither alternative is selected from the quoted B(E2); no alpha values are inferred backward from the output.',\n    },\n    'DSAM_and_uncertainty_boundary': {\n        'stopping': '5000 recoil histories, 0.002-ps time steps, electronic stopping from SRIM, target/backing and detector geometry; 034311-2 / PDF p.2.',\n        'side_feeding': 'Five-transition cascade with in-band-like moment of inertia; variable side-feeding quadrupole moments act as effective feeding-time parameters; progressively then globally fitted lifetimes. No separate 15% side-feeding error is quoted.',\n        'quoted_errors': 'Lifetime uncertainties from chi-square behavior near the minimum; Fig.4 calls strength bars statistical only. Full covariance, exact confidence threshold and fit data are not supplied.',\n        '15_percent': 'Potential systematic uncertainty specifically from modeling stopping powers, omitted from the quoted errors; stated as may be as large as 15%, not a defined independent Gaussian 1-sigma error.',\n        'correlation': 'No stopping-systematic covariance across levels/bands is supplied. Do not independently add a fixed 15% to every branch/Qt/B column or rename it a side-feeding uncertainty.',\n        'DSAM_refit_readiness': 'Not ready: event spectra, gate definitions/weights, fit residual/covariance packages and stopping/feeding inputs required for a new fit are absent.',\n    },\n    'model_and_Qt_boundary': {\n        'model_numbers': {'kappa0_MeV': '0.036', 'Hamiltonian_quenching_B': '0.5', 'epsilon2_range': '0.23-0.25', 'gamma_degrees': '25-30',\n                          'collective_RPA_phonon_keV': 'typically 100-400', 'fragmentation_example_hbaromega_MeV': '0.35'},\n        'model_provenance': '034311-4/5: QQ parameters previously used for 135Nd are applied to 136Nd; 135Nd is model calibration/background, not this packet\\'s nucleus.',\n        'pairing_and_crossing': 'Pairing is ignored for high-spin four-quasiparticle configurations. The calculations do not reproduce the crossing details, and band mixing is explicitly not included.',\n        'interpretation': 'Different derived strengths support the author\\'s distinct-configuration/mixing interpretation for this 2008 pair; predicted chiral vibrations are not new observed bands or a conclusion about later 136Nd pairs.',\n        'Qt': 'Qt values are published derived outputs. The six-page article does not supply its Qt conversion formula/CG convention; no body-fixed K=0 rotor, beta deformation or intrinsic shape is reconstructed here.',\n    },\n    'specific_identity_and_source_issues': [\n        {'item': 'Band2 B(E2) spin mapping', 'verified': 'I=15,16,17,18,19 map to 0.54(8),0.51(7),0.44(6),0.04(1),0.05(1), respectively; 034311-4 / PDF p.4 Table II'},\n        {'item': 'Band2 upper-M1 energy-label discrepancy', 'verified': 'Fig.2 labels a Band2 fit peak 464.8 keV; Table I Band2 I=19 gives 465.5 keV; Fig.1 uses approximately 465.',\n         'locator': '034311-3 / PDF p.3 Fig.2 and Table I; 034311-2 / PDF p.2 Fig.1',\n         'boundary': 'Unresolved label discrepancy; do not silently select a typo correction. The selected Band1 I18 packet is unaffected.'},\n    ],\n    'source_images': ['tmp/day8-20261007/day9-preview/mukhopadhyay/table-I.png',\n                       'tmp/day8-20261007/day9-preview/mukhopadhyay/table-II-and-caption.png',\n                       'tmp/day8-20261007/day9-preview/mukhopadhyay/stopping-and-pure-M1.png',\n                       'tmp/day8-20261007/day9-preview/mukhopadhyay/fig2-band2-4648-label.png'],\n    'exact_identity_and_arithmetic_checks': CHECKS,\n    'reproduction': {'python': platform.python_version(), 'arithmetic': 'Python Decimal, precision 40; no experimental fit or inferred missing input',\n                     'command': 'python3 tmp/day8-20261007/day9-preview/mukhopadhyay/source_input_audit.py',\n                     'script_sha256': hashlib.sha256(code.encode('utf-8')).hexdigest(), 'script_source': code},\n    'write_boundary': 'Only this owned JSON and the owned tmp directory were written; raw, knowledge, report, state and Git are not mutated by this script.',\n}\nOUT.write_text(json.dumps(result, ensure_ascii=False, indent=2) + '\\n', encoding='utf-8')\nprint(json.dumps({'output': str(OUT.relative_to(ROOT)), 'raw_sha_match': True,\n                  'packet': 'Band1 I18- Ex6711.4; E2 757.4keV -> I16- Ex5954.0',\n                  'conditional_B_E2_e2b2': str(B_E2), 'conditional_quoted_error_approx': str(QUOTED_ERROR_APPROX),\n                  'checks_passed': len(CHECKS), 'publication_reproduction_status': 'partial/conditional'}, ensure_ascii=False, indent=2))\n"
+  },
+  "write_boundary": "Only this owned JSON and the owned tmp directory were written; raw, knowledge, report, state and Git are not mutated by this script."
+}

@@ -34,3 +34,9 @@ Resume：`codex resume 01a111fb-370d-7ed1-afe9-881ccc47caf4 -C /workspace/wiki -
 checkpoint-001的02:19快照直到07:18才在本session实际执行；后续bot提醒必须刷新当前clock，不按排队时间推断剩余时段。30-check理想偏振和50-check布居/多极性反例已由parent复现并同步knowledge（pointwise方向/偏振强度，不比较跨方向场相干或完整光子态）。E0/ICC联合未知量与零参考gamma成分路线已通过1311项检查闭合。唯一Day9无学分预习已经写回MU08 source/lifetime synthesis，单位/branch/covariance重构62项检查通过，原表branch定义等边界保留。当前新选Day8路线是合成2+→2+全M1/E2/M3/E4与未知布居的完整单γpolarization基底和局部识别性，两个既有代理在做独立representation与exact-Jacobian核验；未证结果不提前写claim。
 
 如果当前消息是旧的[Wiki clock] bot提示，且clock/run记有其后发生的真实用户取消/停止或manual-attention，遵守该记录；旧队列消息不能被当作真实用户重新go-on。不得自动复活被用户停止的clock或研究。已有clock running时的旧stopped_at/stop_reason仅是重载历史，不据此伪造当前停止；以status和时间/事件链判断。
+
+## 已完成和当前两个有界问题（12:37后的续研）
+
+完整四γ表示与局部rank/IFT路线已完成，43-check parent复现；new RB67-13保存四个R/T二次型和nonzero minor、same-parent参考校准。Day9 source packet24-check、two-parent four-branch控制22-check已整合；低能M1 gamma-only中心5.2371与作者4.4(3)的描述差不构成独立显著性或隐藏输入。第二检查点18-file已非force发布，后续只新增本轮own增量，不amend已发布提交。
+
+当前Day8路线：fixed已知非isotropic positive population下，用Sym4 lifted kernel寻找rank2 trace0的精确global pair；可以失败，不宣称全球唯一。当前Day9路线：existing KB08 source与official ANU BrIcc v2.3S，五能量各pure M1/E2 query，保留FO/NH和1.4%（已含插值）unc，forward比较total/photon branch；现代α不证明MU08实际处理。两个agent的新receipt分别是four-multipole-fixed-population-pair.json、day9-independent-icc-readiness.json。不打开其它卡或新文献批次；课程state仍8/7，Day9只有partial。

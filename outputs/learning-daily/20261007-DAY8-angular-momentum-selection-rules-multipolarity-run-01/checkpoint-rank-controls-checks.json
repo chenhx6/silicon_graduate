@@ -1,0 +1,62 @@
+{
+  "preflight": {
+    "exit": 0,
+    "stdout_tail": "{\"schema_version\":1,\"ok\":true,\"root\":\"/workspace/wiki\",\"expected_profile\":\"\",\"actual_profile\":null,\"warnings\":[],\"write_probes\":[{\"path\":\"/workspace/wiki\",\"created\":true,\"read_back\":true,\"deleted\":true,\"error\":null},{\"path\":\"/workspace/wiki/.git\",\"created\":true,\"read_back\":true,\"deleted\":true,\"error\":null}],\"error\":null,\"path_boundary\":{\"schema_version\":1,\"root\":\"/workspace/wiki\",\"ok\":true,\"errors\":[],\"warnings\":[],\"checks\":{\"required_dirs\":{\"expected\":[\"raw\",\"knowledge\",\"outputs\",\"system\",\"tools\",\"tmp\"],\"missing\":[]},\"forbidden_dirs\":{\"expected_absent\":[\"docs/plans\"],\"present\":[]},\"moved_knowledge\":{\"outputs/learning-milestones/2026-09-a130-thesis-evidence-matrix.md\":{\"old_exists\":false,\"canonical\":\"knowledge/projects/a130-thesis-evidence-matrix.md\",\"canonical_exists\":true}},\"outputs\":{\"allowed_roots\":[\"degree-dissertation\",\"high-spin\",\"l3\",\"l4\",\"learning-daily\",\"learning-milestones\",\"learning-weekly\",\"literature-acquisition\",\"paper-cards\",\"plans\",\"self-tests\"],\"unknown_roots\":[],\"knowledge_page_types_in_outputs\":[]},\"qmd\":{\"checked\":true,\"available\":true,\"command\":[\"/opt/qmd/bin/qmd\",\"collection\",\"show\",\"nuclear-knowledge\"],\"exit\":0,\"path\":\"/workspace/wiki/knowledge\",\"pattern\":\"**/*.md\"}}},\"config_default\":null,\"protected_bib\":{\"path\":\"/workspace/wiki/raw/zotero/wiki-inbox.bib\",\"baseline_sha256\":\"037EA133DE204270AD36961CA66B3AB36C0913B7D472B45F8FD013C8293BE5BE\",\"actual_sha256\":\"037EA133DE204270AD36961CA66B3AB36C0913B7D472B45F8FD013C8293BE5BE\",\"status\":\"matched\"},\"exit_code\":0}\n",
+    "stderr_tail": ""
+  },
+  "report_exists": true,
+  "report_changed": true,
+  "report_valid": true,
+  "report_missing_headings": [],
+  "durable_knowledge": {
+    "valid": true,
+    "mode": "updated",
+    "knowledge_paths": [
+      "knowledge/sources/lange-kumar-hamilton-1982-multipole-admixtures.md",
+      "knowledge/sources/rose-brink-1967-phase-defined-angular-distributions.md",
+      "knowledge/observables/multipole-mixing-ratio.md",
+      "knowledge/methods/spin-parity-assignment.md",
+      "knowledge/sources/mukhopadhyay-2008-136nd-transition-rates.md",
+      "knowledge/synthesis/high-spin-lifetime-strength-deformation.md"
+    ],
+    "changed_paths": [
+      "knowledge/methods/spin-parity-assignment.md",
+      "knowledge/observables/multipole-mixing-ratio.md",
+      "knowledge/sources/lange-kumar-hamilton-1982-multipole-admixtures.md",
+      "knowledge/sources/mukhopadhyay-2008-136nd-transition-rates.md",
+      "knowledge/sources/rose-brink-1967-phase-defined-angular-distributions.md",
+      "knowledge/synthesis/high-spin-lifetime-strength-deformation.md"
+    ],
+    "change_check": "run-snapshot",
+    "error": null
+  },
+  "curriculum_coverage": {
+    "valid": true,
+    "completed_day_indices": [
+      8
+    ],
+    "partial_day_indices": [
+      9
+    ],
+    "curriculum_cards_completed": 1,
+    "next_day_index": 9,
+    "error": null
+  },
+  "lint_exit": 0,
+  "lint_tail": "waits human review\n[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/zheng-2004-high-spin-145tb-157yb.md - ZY04-11 awaits human review\n[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/zheng-2013-linear-polarization-91ru.md - Z13-5 awaits human review\n[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/zheng-2021-collectivity-shape-119cs-119ba-118cs.md - line 23 awaits human review\n[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/zheng-2021-collectivity-shape-119cs-119ba-118cs.md - line 24 awaits human review\n[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/zheng-2021-collectivity-shape-119cs-119ba-118cs.md - line 25 awaits human review\n[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/zheng-2021-collectivity-shape-119cs-119ba-118cs.md - line 26 awaits human review\n[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/zhou-houbing-2012-101pd-rdt-thesis.md - line 50 awaits human review\n[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/zhou-houbing-2012-101pd-rdt-thesis.md - line 51 awaits human review\n[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/zhou-houbing-2012-101pd-rdt-thesis.md - line 52 awaits human review\n[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/zhou-houbing-2012-101pd-rdt-thesis.md - line 53 awaits human review\n[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/zhou-houbing-2012-101pd-rdt-thesis.md - line 54 awaits human review\n[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/zhou-houbing-2012-101pd-rdt-thesis.md - line 55 awaits human review\n[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/zhou-houbing-2012-101pd-rdt-thesis.md - line 56 awaits human review\n[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/zhou-houbing-2012-101pd-rdt-thesis.md - line 57 awaits human review\nGOVERNANCE page_unreviewed=481 source_unreviewed=208 claims=2000 claim_needs_review=1328 claim_missing_locator=0 claim_missing_kind=0 source_missing_raw_file=0 source_missing_citation_key=88\nSUMMARY pages=559 wikilinks=5187 hashes=268 errors=0 warnings=91 info=1328\n",
+  "git_diff_check_exit": 0,
+  "git_diff_check_tail": "warning: in the working copy of 'knowledge/methods/spin-parity-assignment.md', CRLF will be replaced by LF the next time Git touches it\n",
+  "day_index": 8,
+  "run_finalized": false,
+  "course_state_updated": false,
+  "checked_at": "2026-10-07T13:06:14.638823+08:00",
+  "four_multipole_exact_checks": 43,
+  "day9_source_checks": 24,
+  "day9_control_checks": 22,
+  "protected_baseline_preserved": {
+    "PLAN.md": true,
+    "system/scripts/run_daily_learning_daemon.py": true,
+    "outputs/learning-milestones/2026-09-one-month-state.json": true
+  },
+  "checkpoint_passed": true
+}

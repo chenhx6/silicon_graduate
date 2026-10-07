@@ -74,3 +74,7 @@ No single rule is universal across detector geometry, reaction mechanism, and fe
 - [[chiara-2012-cu65-cu67-core-coupled-protons]]
 - [[rose-brink-1967-phase-defined-angular-distributions]]
 - [[lange-kumar-hamilton-1982-multipole-admixtures]]
+
+### Four-Multipole Local Identifiability
+
+合成2+→2+在固定Jπ、完整M1/E2/M3/E4、未知aligned布居下，完整单γ方向与线偏振仅有四个normalized形状系数。RB67-13的exact内域seed证明五变量映射rank4、存在改变multipole fractions的一维同观测解族；独立固定布居后同点rank3只是局部改进，isotropic点仍不唯一。多个观测通道须列明共享布居与模型先验；Gaussian或低阶截断不增加独立证据。未给定的same-parent2+→0+ pure-E2参考设计可校准B2/B4，须匹配gate/feeding/axis/response；详见[[rose-brink-1967-phase-defined-angular-distributions]]与[[multipole-mixing-ratio]]。这不是实测spin/parity赋值或L4结果。

@@ -70,6 +70,7 @@ tags: [Rose-Brink, angular-distribution, phase-convention, mixing-ratio, alignme
 | RB67-10 | For `Ji=3/2→Jf=1/2`, the appendix tabulates K=2 coefficients `R2(11)=0.5000`, `R2(12)=0.8660`, `R2(22)=−0.5000`; for Ji=3/2 the folded population coefficients are `ρ2(M=1/2)=−2.0000`, `ρ2(M=3/2)=2.0000`. These are formalism coefficients, not measured angular data. | tabulated-theory-coefficient | direct | Appendix angular-distribution coefficients, printed p.339 / PDF p.34, Ji=3/2 Jf=1/2 K=2 row; statistical-tensor coefficients, printed p.347 / PDF p.42, Ji=3/2 K=2 row | true |
 | RB67-11 | Linear x′/y′ intensities use coherent differences/sums of the two helicity amplitudes; the CG ordering, rotation exponent and magnetic `q^π` factor are part of the amplitude identity and cannot be replaced by a helicity-summed angular response alone. | experimental-criterion | direct | printed p.316 / PDF p.11, Eq.3.24, intervening polarization paragraph and unnumbered WE relation after Eq.3.25; printed p.312 / PDF p.7, footnote7 | true |
 | RB67-12 | In the explicitly synthetic Ji=3/2→Jf=1/2 reconstruction, fixed high-M population lets ideal linear polarization separate the RB δ=0/√3 angular branches; alternatively, pure E1/high-M and pure M2/low-M give identical pointwise direction/polarization intensity matrices. These are task-derived conditional counterexamples, not author-reported experiments or a statement about complete photon states. | our-inference | indirect | Premises: printed p.316 / PDF p.11, Eqs.3.24–3.25; printed p.317 / PDF p.12, Eq.3.28; printed p.318 / PDF p.13, Eq.3.29; printed p.347 / PDF p.42, ρ2 table | true |
+| RB67-13 | For the explicitly synthetic 2+→2+ case with all M1/E2/M3/E4 retained and unknown aligned diagonal populations, the complete normalized pointwise direction/polarization matrix has four shape coefficients. An exact interior seed gives rank4 for five inputs and a fraction-changing local one-dimensional equal-observable family; fixed population gives local rank3 but no global uniqueness. These are our reconstruction and IFT application. | our-inference | indirect | premises: printed p.316 / PDF11 Eq.3.24 and polarization/WE paragraph; p.317 / PDF12 Eq.3.28 and rotation-product identity; p.319 / PDF14 Eq.3.36; p.324 / PDF19 Eqs.3.62–3.63 and same-initial-state companion paragraph | true |
 
 ## Summary
 
@@ -131,6 +132,55 @@ Rose and Brink supply the phase-consistent foundation that lets angular distribu
 再比较 `(a_E1,a_M2)=(1,0), w(±3/2)=1/2` 与 `(0,1), w(±1/2)=1/2`。Eq.3.28/ρ表分别给 B2=+1/−1；直接振幅计算都得到 `W=3(1+x²)/4, Ix′=3x²/4, Iy′=3/4`。在每个 θ，其 (−,+) helicity 强度矩阵都为 `(3/8) matrix((1+x²,1−x²);(1−x²,1+x²))`，trace=W；固定方向的归一偏振矩阵需再除以 W。这证明本例的 pointwise direction/polarization 数据可能具有 population/multipolarity 联合解，不证明不同方向的场相干、γγ 关联、核末态或完整光子量子态均相同。
 
 共同 photon k 与辐射振幅单位 A0 下两例 Sγ=1，目标 γ branch 宽度相同；实验 total lifetime 另受各 multipole 的 ICC、其它分支和非 γ 通道影响。独立同初态/已知 R2 的校准线可以检验 B2 的符号与不确定度；积分转换数据需给 Z/E/壳层与理论/实测区间。都不能由待判跃迁自身含 multipole 假设的拟合重复充当独立证据。这些条件设计和 RB67-12 的数值/矩阵等式是本轮解析推论，书中原图提供的是公式与统计系数。
+
+## Four-Multipole Direction and Polarization Reconstruction
+
+本节从原文振幅/统计张量重构合成 `2+→2+`，不是 RB67 直接报告的实验或该五参数实例。全部单γ候选为M1/E2/M3/E4，不截断高阶；末态Mf全部求和。固定已知对称轴，初态密度在Mi基底对角且aligned：`w0=p0,w±1=p1/2,w±2=(1−p0−p1)/2`，p0≥0、p1≥0、p0+p1≤1。四个interaction amplitudes取实数，`a=(aM1,aE2,aM3,aE4)`、`S=aᵀa>0`；M1/M3的πL=1、E2/E4的πL=0，仍保留Eq.3.24的magnetic q^π。
+
+原文前提的locators：printed p.312 / PDF7 footnote7旋转指数；p.316 / PDF11 Eq.3.24、线偏振段及WE ordering；p.317 / PDF12 Eq.3.28和rotation-product identity；p.318 / PDF13 Eq.3.29及3.32 note(iii)/(v)；p.319 / PDF14 Eq.3.36；p.320 / PDF15 alignment规则；p.324 / PDF19 Eqs.3.62–3.63与同初态其它branch校准段。
+
+Eq.3.28给 `B0=1,B1=B3=0`，`B2=√70(2−4p0−3p1)/14`、`B4=√14(1+5p0−5p1)/14`；两布居坐标的Jacobian determinant是 `5√5/2≠0`。初态J=2限制K≤4；axisymmetry只留N=0，alignment消odd K。对角helicity products的右磁数为0，offdiagonal为±2，故normalized全方向强度恰有
+
+`W=1+A2 P2(x)+A4 P4(x)`，`Δ=Ix′−Iy′=C2 P2^(m=2)(x)+C4 P4^(m=2)(x)`，`x=cosθ`。
+
+这里关联Legendre `P_K^(m=2)=(1−x²)d²P_K/dx²`，不是 `[P_K]²`。`P2^(m=2)=2−2P2`，`P4^(m=2)=2+10P2−12P4`；计数须用矩阵值基底 `{P0 I,P2 I,P4 I,P2^(m=2)σx,P4^(m=2)σx}`，不能称这五个标量函数跨通道独立。归一化角平均W=1固定constant项，剩四个形状系数。
+
+在meridian分析轴 `x′=eθ,y′=eφ`，helicity强度矩阵为 `H=matrix((W,−Δ);(−Δ,W))/2`；U=V=0。已知分析轴旋转生成的U由原Q和旋角决定，不新增独立系数。normalized Stokes Q=Δ/W一般是有理角函数，不是同一有限Legendre多项式。原矩阵是 `H(q,k;q′,k)`；没有比较跨方向场相干、γγ关联或核末态观测。绝对未归一矩阵还有整体尺度S。
+
+### 完整四成分二次型
+
+从CG/Racah与rotation-product reduction得到 `A_K=B_K(aᵀR_Ka)/S`、`C_K=B_K(aᵀT_Ka)/S`，K=2,4。下表按amplitude次序(M1,E2,M3,E4)；R_K、T_K均实对称，T_K是本任务的线偏振差系数定义，不是原文直接印出的独立T表。全部matrix entries由独立factorial-d展开与CG/Racah式核对，trace、Δ和helicity对角元差的符号残差均为0。
+
+| (L,L′), symmetric lower triangle implied | R2 | T2 | R4 | T4 |
+|---|---|---|---|---|
+| (1,1) | `-sqrt(70)/20` | `-sqrt(70)/40` | `0` | `0` |
+| (1,2) | `sqrt(6)/4` | `-sqrt(6)/24` | `0` | `0` |
+| (1,3) | `2*sqrt(105)/35` | `sqrt(105)/210` | `-sqrt(21)/14` | `-sqrt(21)/168` |
+| (1,4) | `0` | `0` | `sqrt(5)/2` | `-sqrt(5)/40` |
+| (2,2) | `3*sqrt(70)/196` | `3*sqrt(70)/392` | `-4*sqrt(14)/49` | `sqrt(14)/147` |
+| (2,3) | `4/7` | `1/7` | `5*sqrt(5)/14` | `sqrt(5)/168` |
+| (2,4) | `2*sqrt(105)/49` | `-sqrt(105)/294` | `-5*sqrt(21)/98` | `-3*sqrt(21)/392` |
+| (3,3) | `-3*sqrt(70)/140` | `sqrt(70)/140` | `-sqrt(14)/28` | `sqrt(14)/84` |
+| (3,4) | `5*sqrt(6)/28` | `-5*sqrt(6)/84` | `-3*sqrt(30)/28` | `sqrt(30)/420` |
+| (4,4) | `-17*sqrt(70)/196` | `-5*sqrt(70)/196` | `9*sqrt(14)/196` | `sqrt(14)/196` |
+
+其中 `F_K(LL′)=(−1)^(1+L−L′−K)√[5(2L+1)(2L′+1)] W(2,2,L,L′;K,2)`，末尾W是Racah coefficient。`R_K(LL′)=F_K CG(L,L′;1,−1|K,0)`；`T_K(LL′)=−(−1)^πL F_K CG(L,L′;−1,−1|K,−2)√[(K−2)!/(K+2)!]`。R来自Eq.3.36及相同normalization，T与表格是coherent-polarization重构；所有符号以本段分析轴为准。
+
+### 实际局部联合解及校准边界
+
+在M1非零chart取 `a=(1,u,v,z)`，输入顺序(u,v,z,p0,p1)，输出(A2,A4,C2,C4)。种子 `(1/2,1/3,1/4,1/4,1/4)` 的w0=1/4、w±1=1/8、w±2=1/4均严格正；四成分均非零，S=205/144，γ份额为(144,36,16,9)/205。直接完整振幅重构后两强度多项式最高次均为4，没有先删K6/8。
+
+该点4×5 Jacobian在代数域 `QQ<√6+√105>` 的exact rank=4。例如删除p1列后的4×4 minor为
+
+`-9527662382013/24339939627587500 - 87678121707*sqrt(70)/2433993962758750 + 1700102168757*sqrt(6)/24339939627587500 + 30257551998*sqrt(105)/1216996981379375`，exact非零。
+
+将kernel的p1分量归一到1，其约略显示为 `(-1.48209373406,1.43824262351,2.29085159845,−0.738945813644,1)`；对应四个γ份额的导数约为 `(−0.306986787166,−1.11782717340,0.639408853843,0.785405106721)`。这些小数仅展示方向，判零、rank、kernel和份额导数使用exact代数。
+
+rank4使系数映射为局部submersion；隐函数定理给同一四系数的局部一维smooth level set。其tangent改变γ份额，且内域布居/非零振幅由连续性保持，所以附近存在完整pointwise方向/偏振强度相同、multipole fractions不同的精确解。沿kernel直线走有限步通常只一阶不变，不能把该直线上的点称为精确第二解。整体辐射幅度可另归一到相同S以保持相同目标γ宽度；这不自动约束ICC、其它branches或total lifetime。43项检查由主代理复现，属L2重构，不是L4数据拟合。
+
+固定已知p0/p1时，同一点4×3 amplitude-only Jacobian为rank3，选择非零minor可局部逆解；没有证明global唯一。在isotropic p0=1/5,p1=2/5处B2=B4=0，所有同S混合都W=1、Δ=0，直接反证“校准布居即保证所有点唯一”。若另加Gaussian布居或低阶混合ansatz，变量维数会变，但这是额外模型条件，不能冒充独立测量或普遍选律。
+
+新增合成companion设计：假定同一2+初态另有到独立已知0+的γ branch；triangle/parity使该branch是唯一L2、pure E2。Eq.3.36给 `R2c=−√70/14`、`R4c=−2√14/7`，均非零。其两角系数可解 `B2=A2c/R2c,B4=A4c/R4c`，继而 `p0=1/5+2A2c/5−3A4c/10`、`p1=2/5+2(A2c+A4c)/5`。这是未给定、未实测的设计条件，要求相同event/gate/feeding布居、axis、响应/有限角度修正、覆盖与covariance；从未知mixed目标fit出的布居仍是共享假设。原文同初态多branch思路定位p.324右栏末段。
 
 ## Human Review Triage
 

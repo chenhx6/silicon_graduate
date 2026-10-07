@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "run_id": "prompt-2026-10-07-day-08",
+  "session_id": "01a111fb-370d-7ed1-afe9-881ccc47caf4",
+  "day_index": 8,
+  "publication_kind": "continuing-checkpoint",
+  "branch": "main",
+  "commit_subject": "Verify DAY8 four-multipole ambiguity and DAY9 rate controls",
+  "owned_files": [
+    "knowledge/methods/spin-parity-assignment.md",
+    "knowledge/observables/multipole-mixing-ratio.md",
+    "knowledge/sources/mukhopadhyay-2008-136nd-transition-rates.md",
+    "knowledge/sources/rose-brink-1967-phase-defined-angular-distributions.md",
+    "knowledge/synthesis/high-spin-lifetime-strength-deformation.md",
+    "outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity.md",
+    "system/handoff.md",
+    "outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/continuation-prompt.md",
+    "outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/run.json",
+    "outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/progress.jsonl",
+    "outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/research-checkpoint.json",
+    "outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/checkpoint-rank-controls-checks.json",
+    "outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/day9-strength-input-packet.json",
+    "outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/day9-gamma-only-chain-controls.json",
+    "outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/four-multipole-representation-audit.json",
+    "outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/four-multipole-observable-rank.json",
+    "outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/checkpoint-03-manifest.json"
+  ],
+  "protected_baseline": "baseline.json",
+  "review_flags_preserved": true,
+  "state_updated": false,
+  "active_research": [
+    "Day8 fixed anisotropic population exact global-pair kernel certificate search",
+    "Day9 independent official BrIcc total ICC queries and conditional forward ledger",
+    "2026-10-08 15:00 closeout, Day9 plan/prompt and gated course state update"
+  ]
+}

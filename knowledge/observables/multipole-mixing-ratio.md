@@ -147,6 +147,16 @@ r大于1时，若a>r，需t≥(a−r)/(r−1)，否则任意t>0可行；r=1时�
 
 这说明radiative δ=0只表明E2 gamma率为零，不能据此删除选律允许的E0转换。该式只含δ²，sign仍需干涉与convention；total τ要另计总壳层转换、其它branch和非γ通道。前提来自LKH82 printed p.123/PDF5 Eq.2.12及p.169/PDF51 Eq.4.1，所有不等式和参考零点为本轮L2解析重构，没有新ICC数据或L4。
 
+### 四γ成分与未知布居：完整线偏振仍可有连续联合解
+
+对合成2+→2+保留完整M1/E2/M3/E4，已知轴、aligned diagonal布居 `w0=p0,w±1=p1/2,w±2=(1−p0−p1)/2` 和实RB amplitudes。[[rose-brink-1967-phase-defined-angular-distributions]] 的RB67-13保存完整B_K、R_K/T_K二次型、seed Jacobian和source locators（pp.316–319、324），属于本任务L2重构。
+
+全点对点normalized矩阵可写 `H=matrix((W,−Δ);(−Δ,W))/2`，`W=1+A2P2+A4P4`、`Δ=Ix′−Iy′=C2P2^(m=2)+C4P4^(m=2)`。关联Legendre不是P_K的平方；meridian轴U=V=0，轴旋转不新增独立coefficients。完整四shape coefficients使用矩阵值函数基底计数，不能跨通道将五个相关scalar函数当独立。M3/E4允许且非零，也不产生本问题的K6/8。
+
+M1参考chart `a=(1,u,v,z)`，seed `(u,v,z,p0,p1)=(1/2,1/3,1/4,1/4,1/4)` 严格内域且四成分非零；份额为(144,36,16,9)/205。主代理43项exact检查复现了五输入→四coefficients的rank4与改变radiative fractions的kernel。IFT据此证明附近存在一维精确同观测解族；kernel是tangent，不能把沿它的有限直线步称为精确第二解。相同四coefficients意味着全部理想角分布、线偏振强度及Q=Δ/W相同；没有声称跨方向光子相干、γγ关联、ICC或total τ相同。
+
+独立已知p0/p1后同一点amplitude-only Jacobian为rank3，局部识别性改善；isotropic B2=B4=0时任意混合仍W=1、Δ=0，所以不能推广为global唯一。新增的合成same-parent2+→0+ pure-E2参考branch可因R2/R4皆非零同时校准两个B_K，但该branch不是题设或测量。需要spin/parity独立锚点与gate/feeding/axis/response匹配、角覆盖和covariance；Gaussian布居或低阶截断只是额外模型条件。
+
 ## How It Is Obtained
 
 可由角分布、角关联/DCO、线偏振和内转换系数与理论响应比较得到。
