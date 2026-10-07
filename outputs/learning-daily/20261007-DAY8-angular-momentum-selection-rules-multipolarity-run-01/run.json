@@ -41,16 +41,14 @@
     "preflight_exit": 0
   },
   "last_closeout_snapshot": {
-    "now_local": "2026-10-07T16:01:45+08:00",
+    "now_local": "2026-10-07T18:22:53+08:00",
     "hard_deadline": "2026-10-08T15:00:00+08:00",
     "next_scheduled_start": "2026-10-08T16:00:00+08:00",
-    "minutes_to_deadline": 1378,
-    "minutes_to_next_start": 1438,
-    "minimum_current_block_minutes": 90,
-    "minimum_forward_card_block_minutes": 120,
-    "can_continue_current": true,
-    "can_complete_forward_card": true,
-    "decision": "continue-or-advance"
+    "minutes_to_deadline": 1237,
+    "minutes_to_next_start": 1297,
+    "decision": "continue-or-advance",
+    "permitted_next_card": "Day9 preview only; no credit",
+    "day_index": 8
   },
   "baseline_file": "/workspace/wiki/outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/baseline.json",
   "inherited_unclaimed_run_descriptors": [
@@ -115,7 +113,17 @@
     "case_C_exact_exit": 0,
     "BrIcc_FO_distinct_lookup_points": 5,
     "BrIcc_offline_replay_exit": 0,
-    "BrIcc_unavailable_N6_points": 2
+    "BrIcc_unavailable_N6_points": 2,
+    "case_C_global_pair_checks": 29,
+    "case_C_global_pair_exit": 0,
+    "E0_full_companion_checks": 47,
+    "E0_full_companion_exit": 0,
+    "LKH82_model_algebra": {
+      "exact_checks": 27,
+      "hash_checks": 39,
+      "exit": 0,
+      "artifact": "lkh82-model-truncation-audit.json"
+    }
   },
   "card_content_status": "complete",
   "checkpoint_checks_file": "/workspace/wiki/outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/checkpoint-checks.json",
@@ -166,14 +174,29 @@
       "published_at": "2026-10-07T13:59:39.553543+08:00",
       "publication_kind": "continuing-checkpoint",
       "run_finalized": false
+    },
+    {
+      "branch": "main",
+      "commit_subject": "Add global multipole pair and independent ICC input audit",
+      "commit_hash": "7a309022e94cfe1ca201e6520a0865b98883c002",
+      "remote": "origin (Gitee)",
+      "refspec": "HEAD:main",
+      "fetch_exit": 0,
+      "remote_ancestor_exit": 0,
+      "dry_run_exit": 0,
+      "push_exit": 0,
+      "post_push_head_matches_origin_main": true,
+      "post_commit_files_match_manifest": true,
+      "published_at": "2026-10-07T16:46:53.543592+08:00",
+      "publication_kind": "continuing-checkpoint",
+      "run_finalized": false
     }
   ],
   "continuation_prompt_file": "/workspace/wiki/outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/continuation-prompt.md",
   "pending_research": [
-    "Case C global projected-link involution certificate",
-    "Day8 U-pair plus E0/total ICC/lifetime and shell companion-completeness algebra",
-    "LKH82 collective M1/operator and model/data-quality truncation boundary focused reread",
-    "2026-10-08 15:00 closeout, Day9 plan/prompt and gated state update"
+    "Day8 one synthetic cascade companion discriminant, existing RB67 only",
+    "Day8 LKH82 penetration dependence and ICC/E0 exclusion boundary",
+    "2026-10-08 15:00 closeout, formal DAY9 plan/prompt and normal gated state update"
   ],
   "pending_clock_delivery_count": 6,
   "observed_clock_executions": [
@@ -186,6 +209,22 @@
       "same_session_id": "01a111fb-370d-7ed1-afe9-881ccc47caf4",
       "day_index": 8,
       "run_status": "running",
+      "course_credit_updated": false
+    },
+    {
+      "clock_event_id": "checkpoint-002",
+      "queued_snapshot_at": "2026-10-07T04:19:49.569628+08:00",
+      "processing_now": "2026-10-07T17:01:35+08:00",
+      "same_session_id": "01a111fb-370d-7ed1-afe9-881ccc47caf4",
+      "day_index": 8,
+      "course_credit_updated": false
+    },
+    {
+      "clock_event_id": "checkpoint-003",
+      "queued_snapshot_at": "2026-10-07T06:19:49.569386+08:00",
+      "processing_now": "2026-10-07T17:41:46+08:00",
+      "same_session_id": "01a111fb-370d-7ed1-afe9-881ccc47caf4",
+      "day_index": 8,
       "course_credit_updated": false
     }
   ],
@@ -257,5 +296,21 @@
   "last_recoverable_checkpoint": "research-checkpoint.json",
   "preview_checkpoint_checks_file": "/workspace/wiki/outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/checkpoint-preview-checks.json",
   "rank_controls_checkpoint_checks_file": "/workspace/wiki/outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/checkpoint-rank-controls-checks.json",
-  "FO_caseC_checks_file": "/workspace/wiki/outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/checkpoint-FO-caseC-checks.json"
+  "FO_caseC_checks_file": "/workspace/wiki/outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/checkpoint-FO-caseC-checks.json",
+  "model_boundary_parent_verification": {
+    "at_local": "2026-10-07T18:22:53+08:00",
+    "exact_algebra_exit": 0,
+    "checks_passed": 27,
+    "hash_checks_passed": 39,
+    "original_images_inspected": [
+      125,
+      126,
+      127,
+      128,
+      131,
+      179
+    ],
+    "raw_unchanged": true,
+    "classification": "L2; our commutator/representation/scale proofs separated from author model results"
+  }
 }

@@ -35,8 +35,10 @@ checkpoint-001的02:19快照直到07:18才在本session实际执行；后续bot�
 
 如果当前消息是旧的[Wiki clock] bot提示，且clock/run记有其后发生的真实用户取消/停止或manual-attention，遵守该记录；旧队列消息不能被当作真实用户重新go-on。不得自动复活被用户停止的clock或研究。已有clock running时的旧stopped_at/stop_reason仅是重载历史，不据此伪造当前停止；以status和时间/事件链判断。
 
-## 已完成和当前两个有界问题（12:37后的续研）
+## 最新恢复点 — 2026-10-07 18:22 Asia/Shanghai
 
-完整四γ表示与局部rank/IFT路线已完成，43-check parent复现；new RB67-13保存四个R/T二次型和nonzero minor、same-parent参考校准。Day9 source packet24-check、two-parent four-branch控制22-check已整合；低能M1 gamma-only中心5.2371与作者4.4(3)的描述差不构成独立显著性或隐藏输入。第二检查点18-file已非force发布，后续只新增本轮own增量，不amend已发布提交。
+Day8原始baseline继续使用；卡完整但学习窗口未结束。第五持续检查点已在本地提交：main + Clarify model zeros and companion observable limits for DAY8；publication结果及fullhash仅run receipt。不amend已发布的四次检查点。
 
-当前Day8路线：fixed已知非isotropic positive population下，用Sym4 lifted kernel寻找rank2 trace0的精确global pair；可以失败，不宣称全球唯一。当前Day9路线：existing KB08 source与official ANU BrIcc v2.3S，五能量各pure M1/E2 query，保留FO/NH和1.4%（已含插值）unc，forward比较total/photon branch；现代α不证明MU08实际处理。两个agent的新receipt分别是four-multipole-fixed-population-pair.json、day9-independent-icc-readiness.json。不打开其它卡或新文献批次；课程state仍8/7，Day9只有partial。
+C-global29-check、E0/totalICC/τ47-check与LKH82模型27-check已parent复现并canonical/report/writeback；新增LKH82-8–11限定generator-only零值、same-order展开、PPQ投影与δ尺度/DF零分母；p179的IBM magnitudes/PPQ signs纠错已原图确认。全部七页writeback保留review边界和旧KB08人审记录。course仍8/7，completed=[8]、partial=[9]，不打开Day10。
+
+两个新独立Day8有界路线分别由既有代理执行：cascade-companion-discriminant.json（唯一合成2+→2+→0+，secondary pureE2仅题设，检验joint intensity是否区分U pair）；icc-penetration-boundary.json（仅原Eq4.1、未知penetration下baseline/非负E0排除条件）。两者尚未完成，parent须核代码/原图/证书再写claim。当前无新card/source batch，没有L4数据输入。次日15:00停止研究，按上方runner/state契约生成正式DAY9计划prompt。

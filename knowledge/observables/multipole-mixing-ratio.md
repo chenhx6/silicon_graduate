@@ -50,6 +50,14 @@ These are the leading low-rank candidates, not an exhaustive list. The triangle 
 
 上述术语区分是一般理论教学定义；RB67-5 直接支持角动量/宇称过滤，LKH82 printed p.120 / PDF p.2 则讨论特定最简集体模型的 leading M1 被禁止或受抑，不能把该模型规则升级成普遍守恒定则。近似对称性下的 K-forbidden 等标签也需另写近似和对称性破缺条件。
 
+### 模型项为零、受抑与大 δ 的尺度边界
+
+[[lange-kumar-hamilton-1982-multipole-admixtures]] LKH82-8–11（printed pp.125–129, Eqs.3.9/3.21–3.24/3.31–3.40）限定 `μ_N g_R J` 的形变无关零阶项；它对 rotationally invariant H 有 `[H,Jq]=0`，故不同能量态之间为零。完整一阶算符含 αJ 修正，microscopic M1 又有独立 orbital/spin 权重。通用 rank-1 张量并不必须等于 J；模型零值不能代替普遍 triangle/parity 禁止，也不能作为 measured hindrance。
+
+直接算符修正与 wave-function band mixing 在 n=1→0 小振幅展开中同阶，需共同保留；首阶导数为零不保证所有阶次为零。PPQ 的空间内 mixing 处理保留 projection、adiabatic、pairing、basis 和 quasiparticle truncation 条件（p.131），不能外推完整 high-spin nuclear current。
+
+大 δ 仅给 E2/M1 光子率比，不能确定 absolute E2 enhancement。同能量的两个任意 √rate 振幅 `(1/100,1)` 与 `(1/10000,1/100)` 均 δ=100，E2 率相差10⁴；不是 eb/μ_N 裸 RME 数值。判断增强/受抑需 partial rate/B 与指定参考。允许 M3/E4 时，`δ²/(1+δ²)` 也只表示 M1/E2 子集中的份额。自由振幅多解迁移到真实核还需共同 states/current、long-wave/natural-size 条件、高阶上限和实验响应，不能将形式反例直接当成同等可信的核素模型。
+
 ### 三条合成跃迁的完整候选
 
 以下是选律演绎练习，不对应任何核素、实验跃迁或新测量。`Ji,πi,Jf,πf` 是题设，尚无独立观测来支持这些标签。
@@ -168,6 +176,18 @@ RB67-14在相同四成分模型给出正交U，保留S及R2/T2/R4/T4全部二次
 合成3+→1+保留E2/M3/E4和三个unknown aligned population参数时，完整W/Δ含K2/4/6六shape coefficients。RB67-15在三amplitudes非零、所有w正的seed给6×5 exact rank5；所选五coefficients有局部inverse。前例2+→2+的连续联合解不能直接套到这个spin组合，rank也不证明global唯一。全部forward expressions/41-check/minor在[[rose-brink-1967-phase-defined-angular-distributions]]保存。
 
 PureE2因L2+L2<6使A6=C6恒零；properly calibrated nonzero K6可排除此pure-mode模型。Zero A6可来自isotropic B6=0或higher amplitudes的R6干涉抵消，即使B6≠0。u=1/2时v=16√10−7√35/2±2√(750−140√14)给two非零M3/E4组合的A6=0，C6不必为0。需同时对照population、完整angular/polarization curve、response与covariance，不按未见K6删除所有higher candidates。
+
+### Case C：局部inverse的全局分支与双K6零点
+
+RB67-16给E2/M3/E4的精确U_C reflection。a=(1,1/2,1/3)与U_Ca同physical S、六个完整W/Δ coefficients，两个five-input点都local rank5，却有不同fractions；新的b fractions约(0.37816,0.29360,0.32824)。所以更多角系数和一个local inverse仍要检查global branch。详细矩阵、exact vectors和29-check在[[rose-brink-1967-phase-defined-angular-distributions]]保存。
+
+pureE2也映为三成分非零的(5/21,2√14/21,2√10/7)，fractions=(25/441,8/63,40/49)，B6≠0但A6=C6均0且完整curve同pureE2。它提供response cancellation的联合零点，不能把未见两个K6视作higher amplitudes为零；独立higher-strength界/模型条件仍要明示。此证书不扩到cascade/ICC/total τ或其它spin。
+
+### 加入total ICC与τ后，E0仍可能完成不同γ解
+
+LKH82-7将RB67-14 pair与selection-allowed E0相连。在明确no-penetration/no-pair/complete inventory模型，κ_j=Σf_L,jα_e,total,L，若αobs≥maxκ且λγ、Ω_e,total>0，取T_j(E0)=λγ(αobs−κ_j)，两不同fractions同时有same photon curves/gamma scale、total ICC与τ^-1=λγ(1+αobs)。α低于某κ的非负约束可以排除此model；λγ/τ一致性失败不能靠E0任意修复。
+
+额外shell contrast d_s=η_s(κ_b−κ_a)−(κ_s,b−κ_s,a)，η_s=Ω_s/ΣΩ；d_s可测时shell/total提供新约束，全部δκ_s=η_sδκtot时仍无法分开。shell/shell比可能盲于同比例差异，counts共用的统计covariance与独立信息数要分别记录。详细47-check、单位、reference-zero/closed-shell边界与Poisson特例在[[lange-kumar-hamilton-1982-multipole-admixtures]]；没有赋原子数值或实际核素。
 
 ## How It Is Obtained
 

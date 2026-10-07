@@ -1,0 +1,548 @@
+{
+  "schema_version": 1,
+  "audit_id": "DAY8-LKH82-model-truncation",
+  "created_at": "2026-10-07T17:57:41.832912+08:00",
+  "status": "source-model-boundary-and-exact-algebra-audit-complete",
+  "research_level": "L2",
+  "run_day_index": 8,
+  "course_state_changed": false,
+  "real_nucleus_calculation_or_fit": false,
+  "review_flags_changed": false,
+  "physical_mode_ranking_changed": false,
+  "source": {
+    "canonical_page": "knowledge/sources/lange-kumar-hamilton-1982-multipole-admixtures.md",
+    "doi": "10.1103/RevModPhys.54.119",
+    "raw_file": "raw/papers/gpt/high-spin-20260920/review/1982_Lange et al_E0-E2-M1 multipole admixtures of transitions in even-even nuclei.pdf",
+    "sha256": "ed925a0577a9257903806acd209c1db707529e86a5bfd9a301a83d597bf78ffb",
+    "printed_pages": [
+      119,
+      194
+    ],
+    "pdf_pages": 76,
+    "pdf_page_rule": "printed_page minus118"
+  },
+  "actual_toc": {
+    "III": "Collective and Microscopic Model Predictions,123–133",
+    "III_A": "single-particle123–124",
+    "III_B": "rotational124–125",
+    "III_C": "rotation-vibration125–130",
+    "III_D": "microscopic130–132",
+    "III_E": "IBM132",
+    "III_F": "mixing-ratio signs132–133",
+    "IV_A_2": "data analysis167–169",
+    "V_A": "systematics174–176",
+    "V_B": "angular-momentum dependence176",
+    "V_C": "M1/E2 model comparison176–180",
+    "V_D": "monopole comparison180–184",
+    "standalone_summary_section": false,
+    "closing": "In conclusion paragraph183 continued184 beforeAcknowledgments/Refs"
+  },
+  "reading_coverage": {
+    "model_mainline": "all SecIII123–133 via existing full-extracted text with key original-image checks",
+    "discussion_conclusion_mainline": "all SecV174–184 narrative; table captions/roles skimmed, no per-row new certification",
+    "definitions": "Intro119–120 and121 Eqs2.1–2.6 reread;123 scope boundary",
+    "data_quality": "133 compiled-scope and167–169 procedures/covariance/error/sign treatment;169 E0/penetration prerequisite",
+    "excluded": "not a new full76-page/table-by-table or bibliography audit; no new sources/cards"
+  },
+  "leading_operator": {
+    "source_locator": "printed125/PDF7 Eq3.9, first term",
+    "source_expression": "muN*gR*sqrt(3/(4*pi))*J_mu",
+    "order": "zeroth-order deformation-independent part of the operator; Eq3.9 as a whole retains first deformation correction",
+    "first_correction": "(5*sqrt(6)/(7*pi))*muN*gR*sum_nu CG(2,1,1;mu-nu,nu,mu)*alpha_(mu-nu)^star*J_nu, in source coordinate convention",
+    "model": "simplest low-energy even-even collective quadrupole vibration/rotation with uniform charge/magnetic-moment density; isolated good-J states",
+    "gR_assumption": "Z/A for uniformly charged nucleus; dimensionless",
+    "dimensionally_explicit_rewrite": "muN*gR*sqrt(3/(4*pi))*(J_q/hbar)",
+    "not_universal_M1": "Eq2.3c contains separate orbital/spin gyromagnetic weights; no generic proportionality to totalJ"
+  },
+  "proof_boundary": {
+    "energy_condition": "[H,J_q]=0 implies (Ef-Ei)<f|J_q|i>=0",
+    "representation": "J_q identity on internal multiplicity space tensor spin-J generator",
+    "RME": "<nu_f J_f||J/hbar||nu_i J_i>=delta_JfJi*delta_nufnui*sqrt(J_i*(J_i+1)*(2J_i+1))",
+    "nonzero_generator_elements": "different M substates within the same degenerate multiplet; static/reorientation, not finite-energy structural gamma transitions",
+    "failures": [
+      "nonconstant/nonisotropic shape-dependent gyromagnetic operator",
+      "microscopic proton/neutron orbital/spin currents not parallel to totalJ",
+      "nonorthogonal approximate state treatment",
+      "external-field Hamiltonian not commuting with Jq"
+    ],
+    "source_or_inference": "commutator/multiplicity proof is our derivation from source model premise"
+  },
+  "unit_conditions": {
+    "J": "spin operators represented in hbar units; explicit barJ=J/hbar for dimensional formulas",
+    "muN": "nuclear magneton",
+    "alpha_beta": "dimensionless shape coordinates",
+    "gamma": "rad",
+    "gR": "dimensionless in Eq3.9",
+    "shape_g_slopes": "Eq3.31 retainsmuN; Eq3.34/3.40 report slopes in n.m./n.m.rad^-1. Our G_nu=muN*g_nu avoids absorbingmuN twice.",
+    "delta_KS": "0.835*Eg[MeV]*RME(E2)[eb]/RME(M1)[muN], final state on left; no bare-unit ratio substitution"
+  },
+  "perturbation": {
+    "source": "Eqs3.21–3.24 printed126, continuation127",
+    "same_order": true,
+    "n0_n0": "first-order fluctuation corrections vanish under harmonic selection conditions",
+    "n1_n0": "direct operator and wave-function mixing must both be counted at first amplitude order",
+    "beta_conditions": "axial equilibrium, K0 beta→g, sameJ>0 and small fluctuations",
+    "gamma_conditions": "K2 gamma→g with appropriate geometric factors and E2 band-mixing correction; gminus zero at axial equilibrium, derivative can be finite",
+    "derivative_zero_example": "source152Sm local max ofgplus at equilibrium: first derivative zero yet higher orders give small nonzero M1; not generalized to all nuclei"
+  },
+  "microscopic_and_model_transfer": {
+    "PPQ_space": "adiabatic time-derivative expansion through second order, projected5D quadrupole space",
+    "retained_exactly": "rot-vib/K mixing within projected model Hamiltonian",
+    "neglected_or_approximate": [
+      "PPQ interaction",
+      "harmonic-oscillator radial basis",
+      "Coriolis antipairing/spin-dependent pairing reduction",
+      "direct two-or-more-quasiparticle coupling",
+      "large configuration-space/core-valence limitations"
+    ],
+    "spin_sensitivity": "authorp133: ±15% spin contribution may be minor in static moment but crucial in small transitionM1; not a universal correction",
+    "IBM": "p132 unnumbered operator: m1 term proportionalangularmomentum produces no transition; tilde_m1 term carries transitions; not all IBM variants universally excluded",
+    "two_fluid": "p129–130 proton orbitalangularmomentum doesnot commute totalH; effectiveoperator not parallelJ; unknown constants fitted, further tests required",
+    "Pauli_boundary": "p133 warns collective and few-nucleon wave functions generally not orthogonal; naive core-particle combination can violatePauli"
+  },
+  "delta_and_scale": {
+    "absolute_strength_unique_from_delta": false,
+    "positive_delta_examples": [
+      {
+        "a_M1": "1/100",
+        "a_E2": "1",
+        "delta": "100",
+        "E2_rate_in_shared_arbitrary_units": "1",
+        "M1_rate_in_shared_arbitrary_units": "1/10000",
+        "pair_gamma_rate_in_shared_arbitrary_units": "10001/10000"
+      },
+      {
+        "a_M1": "1/10000",
+        "a_E2": "1/100",
+        "delta": "100",
+        "E2_rate_in_shared_arbitrary_units": "1/10000",
+        "M1_rate_in_shared_arbitrary_units": "1/100000000",
+        "pair_gamma_rate_in_shared_arbitrary_units": "10001/100000000"
+      }
+    ],
+    "same_energy_and_rate_units": true,
+    "rate_scale_ratio": 10000,
+    "M1_zero": "reference-amplitude ratio has no ordinary finite value/sign",
+    "both_zero": "0/0",
+    "M3_E4": "delta remains pairwise E2/M1; does not prove full radiation E2 dominance without justified truncation",
+    "DF_shape_cancellation": "21*R0**4*Z**2*e**2*q**2/(8000*gR**2*muN**2)",
+    "DF_scalar_limit": "3.56e-3*Eg[MeV]*A^(5/3) with sourceR0=1.2*A^(1/3)fm,gR=Z/A",
+    "DF_zero_boundary": "beta=0 or sin(3gamma)=0 makes both retained B values zero; canceled ratio is a limit, not an observed mixing ratio there",
+    "delta_sign_not_universal_shape": "p132 Eq3.46 relates derivative ofQ with respect tog undermodel conditions; not a universal prolate/oblate marker"
+  },
+  "long_wave_boundary": {
+    "source": "Intro119 lowest-observable-order approximation; Eq2.2 printed121 q^(2L+1)/double-factorial dependence; Eq2.3 operators",
+    "our_power_counting_condition": "higher-rank suppression requires long wavelength plus natural matrix-element/current scales and non-hindered lower components",
+    "no_quantitative_M3_E4_bound_certified": true,
+    "migration_statement": "formal general-current counterexamples need not occupy the actual model manifold or have equal physical prior plausibility; model priors require independent validation"
+  },
+  "historical_comparison": {
+    "source": "printed179/PDF61 SecV.C",
+    "IBM": "better reported magnitudes in common subset",
+    "PPQ": "better reported signs; larger coverage",
+    "common_cases": 8,
+    "wrong_signs_common": {
+      "IBM": 3,
+      "PPQ": 1
+    },
+    "PPQ_larger_cases": 46,
+    "PPQ_wrong_signs_larger": 8,
+    "W_disagreement_retained": true,
+    "counts_recomputed_by_this_audit": false,
+    "experimental_Eg_shared_input": "TableV caption printed178 says experimentalgamma energies used in all theorydelta values"
+  },
+  "claims": [
+    {
+      "id": "LKH82-MOD-1",
+      "kind": "source-model-result",
+      "claim": "The leading term is Eq3.9 deformation-independent constant gR*J; only this retained term produces zero finite-energy M1 transitions, not the complete first-order operator.",
+      "locator": "printed125/PDF7 Eq3.9; printed127/PDF9 SecIII.C.3; printed128/PDF10 final paragraph"
+    },
+    {
+      "id": "LKH82-MOD-2",
+      "kind": "our-representation-proof",
+      "claim": "For rotationally invariant H and orthogonal energy/multiplet eigenstates, a constant times total J cannot connect distinct energies or internal multiplets; generic rotational rank1 need not be J.",
+      "premise_locators": [
+        "printed124/PDF6 Eq3.5",
+        "printed127/PDF9 good-J statement",
+        "printed121/PDF3 Eq2.3c"
+      ],
+      "proof": "commutator plus Wigner–Eckart multiplicity; exact two-J2-multiplet matrix check"
+    },
+    {
+      "id": "LKH82-MOD-3",
+      "kind": "source-order-boundary",
+      "claim": "Direct first operator term and wave-function band mixing in n1→n0 transition moments have the same small-amplitude order; the historical zeroth/first labeling is explicitly criticized.",
+      "locator": "printed126/PDF8 Eqs3.21–3.24 and continuation printed127/PDF9"
+    },
+    {
+      "id": "LKH82-MOD-4",
+      "kind": "source-model-result",
+      "claim": "Shape-dependent intrinsic gyromagnetic slopes provide beta/gamma transition M1; a vanishing first derivative may require higher-order terms rather than imply all-orders zero.",
+      "locator": "printed128/PDF10 Eqs3.31–3.34 and152Sm warning; printed129/PDF11 Eqs3.38–3.40"
+    },
+    {
+      "id": "LKH82-MOD-5",
+      "kind": "our-rate-scale-proof",
+      "claim": "Large positive delta constrains an E2/M1 photon-rate ratio, not absolute E2 enhancement; same delta100 examples have E2 absolute rates differing by10000.",
+      "premise_locators": [
+        "printed121/PDF3 Eqs2.1–2.6"
+      ],
+      "reference_zero_boundary": "M1=0 has no ordinary finite delta or relative sign; both components0 gives0/0; pure E2 interpretation requires two-component gamma truncation"
+    },
+    {
+      "id": "LKH82-MOD-6",
+      "kind": "source-model-comparison",
+      "claim": "In the reported common comparison, IBM matches magnitudes better and PPQ signs better; 8 common cases have3/1 wrong signs, while larger PPQ comparison has8 wrong signs of46; W disagreement retained.",
+      "locator": "printed179/PDF61 SecV.C; TableV caption printed178/PDF60 states observed Eg used in all theory delta values",
+      "statistics_attribution": "author-reported; not row-by-row recomputed here"
+    },
+    {
+      "id": "LKH82-MOD-7",
+      "kind": "source-model-limitation",
+      "claim": "Exact rot-vib/K mixing in the projected5D collective PPQ treatment retains adiabatic/interaction/basis limitations and neglects Coriolis antipairing and direct two-or-more-quasiparticle coupling.",
+      "locator": "printed131/PDF13 SecIII.D.2–3"
+    },
+    {
+      "id": "LKH82-MOD-8",
+      "kind": "source-data-quality-boundary",
+      "claim": "A2/A4 covariance, nonlinear inversion, alignment/population, inconsistent experiments and delta intervals extending to infinity limit numerical and sign inference.",
+      "locator": "printed167–169/PDF49–51 SecIV.A.2"
+    },
+    {
+      "id": "LKH82-MOD-9",
+      "kind": "our-experimental-migration-boundary",
+      "claim": "General M1/E2/M3/E4 amplitude counterexamples are formal inverse-problem statements; applicability to specific nuclei requires consistent microscopic operators/states, justified long-wave/truncation bounds, absolute rates, non-gamma inventory and response/population checks.",
+      "premise_locators": [
+        "printed119/PDF1 Intro lowest-order observation approximation",
+        "printed121/PDF3 Eq2.2 rank/energy dependence",
+        "printed124–133/PDF6–15 collective/microscopic assumptions",
+        "printed169/PDF51 Eq4.1 penetration/E0",
+        "printed183/PDF65 omitted-seniority/symmetry-breaking limitations"
+      ]
+    },
+    {
+      "id": "LKH82-MOD-10",
+      "kind": "source-operator-boundary",
+      "claim": "The M1 operator used in the rot-vib treatment can connect deltaK2, with body-J and D-function parts each changingK by one; no universal deltaK-based M1 exclusion is inferred.",
+      "locator": "printed129/PDF11 footnote3"
+    }
+  ],
+  "exact_algebra": {
+    "status": "exact-algebra-passed",
+    "research_level": "L2",
+    "engine": "SymPy 1.14.0",
+    "model_premises": "two orthogonal internal J=2 positive-parity multiplets; scalar Hamiltonian with positive energy gap; J in hbar units",
+    "generator_M1": "constant * identity_on_internal_space tensor Jq",
+    "other_rank1_tensor": "sigma_x_on_internal_space tensor Jq; legitimate rotational rank1 with finite internal-state transition",
+    "interpretation": "proof of model-specific generator zero and counterexample to inferring universal M1 prohibition; no real-nucleus matrix element assigned",
+    "checks": {
+      "commutator_H_J_-1": true,
+      "generator_inter_multiplet_zero_-1": true,
+      "same_multiplet_generator_nonzero_-1": true,
+      "other_tensor_connects_multiplets_-1": true,
+      "other_tensor_not_conserved_-1": true,
+      "rank1_z_rule_-1": true,
+      "rank1_ladder_rule_1_-1": true,
+      "rank1_ladder_rule_-1_-1": true,
+      "commutator_H_J_0": true,
+      "generator_inter_multiplet_zero_0": true,
+      "same_multiplet_generator_nonzero_0": true,
+      "other_tensor_connects_multiplets_0": true,
+      "other_tensor_not_conserved_0": true,
+      "rank1_z_rule_0": true,
+      "rank1_ladder_rule_1_0": true,
+      "rank1_ladder_rule_-1_0": true,
+      "commutator_H_J_1": true,
+      "generator_inter_multiplet_zero_1": true,
+      "same_multiplet_generator_nonzero_1": true,
+      "other_tensor_connects_multiplets_1": true,
+      "other_tensor_not_conserved_1": true,
+      "rank1_z_rule_1": true,
+      "rank1_ladder_rule_1_1": true,
+      "rank1_ladder_rule_-1_1": true,
+      "DF_shape_common_factor_cancel": true,
+      "equal_large_delta_examples": true,
+      "E2_absolute_rate_differs_by_10000": true
+    },
+    "check_count": 27,
+    "DF_delta_square_after_cancellation": "21*R0**4*Z**2*e**2*q**2/(8000*gR**2*muN**2)",
+    "DF_zero_boundary": "beta=0 or sin(3gamma)=0 makes both retained B values zero; canceled ratio is a limit, not an observed mixing ratio there",
+    "large_delta_examples": [
+      {
+        "a_M1": "1/100",
+        "a_E2": "1",
+        "delta": "100",
+        "E2_rate_in_shared_arbitrary_units": "1",
+        "M1_rate_in_shared_arbitrary_units": "1/10000",
+        "pair_gamma_rate_in_shared_arbitrary_units": "10001/10000"
+      },
+      {
+        "a_M1": "1/10000",
+        "a_E2": "1/100",
+        "delta": "100",
+        "E2_rate_in_shared_arbitrary_units": "1/10000",
+        "M1_rate_in_shared_arbitrary_units": "1/100000000",
+        "pair_gamma_rate_in_shared_arbitrary_units": "10001/100000000"
+      }
+    ],
+    "scale_boundary": "same photon energy and component-rate convention; arbitrary amplitude units, not eb/muN RMEs or a measured nuclear result"
+  },
+  "images": [
+    {
+      "path": "tmp/day8-20261007/lange-kumar/model-boundary/p125-pdf7.png",
+      "printed_page": 125,
+      "pdf_page": 7,
+      "sha256": "2e64dc9ffbada0df272a739f3e77c76f1706e1a43f52ea058141461c3d7d1cd2",
+      "coverage": "original-image-inspected"
+    },
+    {
+      "path": "tmp/day8-20261007/lange-kumar/model-boundary/p126-pdf8.png",
+      "printed_page": 126,
+      "pdf_page": 8,
+      "sha256": "57ada9148a7acd9d07edb2d597cb93e52e119d1a06b503496b7eec84d2b5cea0",
+      "coverage": "original-image-inspected"
+    },
+    {
+      "path": "tmp/day8-20261007/lange-kumar/model-boundary/p127-pdf9.png",
+      "printed_page": 127,
+      "pdf_page": 9,
+      "sha256": "3e4ac2a7d0382a0bdfa1926cee0e75a0b546e537de736e039ae6a9483ce9d40c",
+      "coverage": "original-image-inspected"
+    },
+    {
+      "path": "tmp/day8-20261007/lange-kumar/model-boundary/p128-pdf10.png",
+      "printed_page": 128,
+      "pdf_page": 10,
+      "sha256": "e768f8b56408e120c1cd50a1471bc175d08c7b1a16556a40e43dbbdd957d654c",
+      "coverage": "original-image-inspected"
+    },
+    {
+      "path": "tmp/day8-20261007/lange-kumar/model-boundary/p129-pdf11.png",
+      "printed_page": 129,
+      "pdf_page": 11,
+      "sha256": "d791d5214b2c2f174c87f85487c819c105317c21e049249e27c15faefa282fbd",
+      "coverage": "original-image-inspected"
+    },
+    {
+      "path": "tmp/day8-20261007/lange-kumar/model-boundary/p130-pdf12.png",
+      "printed_page": 130,
+      "pdf_page": 12,
+      "sha256": "653b1fa160bacb9c3e68f74f42253f445585c29dc341204d175c00d2cb371192",
+      "coverage": "rendered-for-locator; no new row-wise data certification"
+    },
+    {
+      "path": "tmp/day8-20261007/lange-kumar/model-boundary/p131-pdf13.png",
+      "printed_page": 131,
+      "pdf_page": 13,
+      "sha256": "fd4caf9f7aed8c25c20a7e4b1eb3bcfe27ee0d436839b03fd4fafa3b1ee295bb",
+      "coverage": "original-image-inspected"
+    },
+    {
+      "path": "tmp/day8-20261007/lange-kumar/model-boundary/p132-pdf14.png",
+      "printed_page": 132,
+      "pdf_page": 14,
+      "sha256": "dab65db3332f468cbf93c098c69f68ad6513ddaa6efe9ba61fe2a12371153188",
+      "coverage": "original-image-inspected"
+    },
+    {
+      "path": "tmp/day8-20261007/lange-kumar/model-boundary/p133-pdf15.png",
+      "printed_page": 133,
+      "pdf_page": 15,
+      "sha256": "9c9d15f1b14de75f08fc5627fb3c1b2fb3c0c2ca53e20e1c4e8c7488575d4d4d",
+      "coverage": "original-image-inspected"
+    },
+    {
+      "path": "tmp/day8-20261007/lange-kumar/model-boundary/p177-pdf59.png",
+      "printed_page": 177,
+      "pdf_page": 59,
+      "sha256": "ac3af963b1d8b2d89e2da4faef75761158d4d63536cf2d52738ecbb57e2607b8",
+      "coverage": "rendered-for-locator; no new row-wise data certification"
+    },
+    {
+      "path": "tmp/day8-20261007/lange-kumar/model-boundary/p178-pdf60.png",
+      "printed_page": 178,
+      "pdf_page": 60,
+      "sha256": "46dacfdc9e7ad878b4acf2d1d978e11d1e0ac9df1d6490bd756fc1aa33b424ab",
+      "coverage": "original-image-inspected"
+    },
+    {
+      "path": "tmp/day8-20261007/lange-kumar/model-boundary/p179-pdf61.png",
+      "printed_page": 179,
+      "pdf_page": 61,
+      "sha256": "6a78b161fbbcfbbb31ce1de60c6cc92bdbfe34821613f800ec0dabc8e90edcef",
+      "coverage": "original-image-inspected"
+    },
+    {
+      "path": "tmp/day8-20261007/lange-kumar/model-boundary/p180-pdf62.png",
+      "printed_page": 180,
+      "pdf_page": 62,
+      "sha256": "507deb842142bb63b58fd683de3fba2d2c45851a8dc0242db600b00f224444ee",
+      "coverage": "rendered-for-locator; no new row-wise data certification"
+    },
+    {
+      "path": "tmp/day8-20261007/lange-kumar/model-boundary/p181-pdf63.png",
+      "printed_page": 181,
+      "pdf_page": 63,
+      "sha256": "6b902e2ce9a2e70929e036a991d998f9df112e1b4f845e55a1f9d360284c3fc5",
+      "coverage": "rendered-for-locator; no new row-wise data certification"
+    },
+    {
+      "path": "tmp/day8-20261007/lange-kumar/model-boundary/p182-pdf64.png",
+      "printed_page": 182,
+      "pdf_page": 64,
+      "sha256": "6a25295448db127e8e667904589775093cd74f1130f2da0f15ee98246c0e0dd3",
+      "coverage": "rendered-for-locator; no new row-wise data certification"
+    },
+    {
+      "path": "tmp/day8-20261007/lange-kumar/model-boundary/p183-pdf65.png",
+      "printed_page": 183,
+      "pdf_page": 65,
+      "sha256": "def9e9178736b1ea21911b09980df922e28503751420f20f0c17f12cb513c746",
+      "coverage": "original-image-inspected"
+    },
+    {
+      "path": "tmp/day8-20261007/lange-kumar/model-boundary/p184-pdf66.png",
+      "printed_page": 184,
+      "pdf_page": 66,
+      "sha256": "13c31989d38e9e3d0bff76e80ee7ffab1f790ea7d9816d2a2c5dd5a63aeaeea2",
+      "coverage": "rendered-for-locator; no new row-wise data certification"
+    },
+    {
+      "path": "tmp/day8-20261007/lange-kumar/pdf-page-03.png",
+      "printed_page": 121,
+      "pdf_page": 3,
+      "sha256": "ef4fa4b3e9336aac408b3d2f76a28b0b3021983682ae80185561f79908f7e9ad",
+      "coverage": "original-image-inspected Eqs2.1–2.6"
+    }
+  ],
+  "artifacts": [
+    {
+      "path": "tmp/day8-20261007/lange-kumar/model-boundary/README.md",
+      "sha256": "535aef9f446ce2cb2defa925d3eea7b44605c6d174d1c6f5eab7a1f4b5be28a7",
+      "bytes": 14808
+    },
+    {
+      "path": "tmp/day8-20261007/lange-kumar/model-boundary/exact-model-algebra.json",
+      "sha256": "303c94949ed56553a86552f6d2c3e19c73c3fd221c201a61411eac4c455a83d0",
+      "bytes": 2626
+    },
+    {
+      "path": "tmp/day8-20261007/lange-kumar/model-boundary/p125-pdf7.png",
+      "sha256": "2e64dc9ffbada0df272a739f3e77c76f1706e1a43f52ea058141461c3d7d1cd2",
+      "bytes": 403064
+    },
+    {
+      "path": "tmp/day8-20261007/lange-kumar/model-boundary/p126-pdf8.png",
+      "sha256": "57ada9148a7acd9d07edb2d597cb93e52e119d1a06b503496b7eec84d2b5cea0",
+      "bytes": 421071
+    },
+    {
+      "path": "tmp/day8-20261007/lange-kumar/model-boundary/p127-pdf9.png",
+      "sha256": "3e4ac2a7d0382a0bdfa1926cee0e75a0b546e537de736e039ae6a9483ce9d40c",
+      "bytes": 456138
+    },
+    {
+      "path": "tmp/day8-20261007/lange-kumar/model-boundary/p128-pdf10.png",
+      "sha256": "e768f8b56408e120c1cd50a1471bc175d08c7b1a16556a40e43dbbdd957d654c",
+      "bytes": 379196
+    },
+    {
+      "path": "tmp/day8-20261007/lange-kumar/model-boundary/p129-pdf11.png",
+      "sha256": "d791d5214b2c2f174c87f85487c819c105317c21e049249e27c15faefa282fbd",
+      "bytes": 389557
+    },
+    {
+      "path": "tmp/day8-20261007/lange-kumar/model-boundary/p130-pdf12.png",
+      "sha256": "653b1fa160bacb9c3e68f74f42253f445585c29dc341204d175c00d2cb371192",
+      "bytes": 461936
+    },
+    {
+      "path": "tmp/day8-20261007/lange-kumar/model-boundary/p131-pdf13.png",
+      "sha256": "fd4caf9f7aed8c25c20a7e4b1eb3bcfe27ee0d436839b03fd4fafa3b1ee295bb",
+      "bytes": 501298
+    },
+    {
+      "path": "tmp/day8-20261007/lange-kumar/model-boundary/p132-pdf14.png",
+      "sha256": "dab65db3332f468cbf93c098c69f68ad6513ddaa6efe9ba61fe2a12371153188",
+      "bytes": 465685
+    },
+    {
+      "path": "tmp/day8-20261007/lange-kumar/model-boundary/p133-pdf15.png",
+      "sha256": "9c9d15f1b14de75f08fc5627fb3c1b2fb3c0c2ca53e20e1c4e8c7488575d4d4d",
+      "bytes": 500016
+    },
+    {
+      "path": "tmp/day8-20261007/lange-kumar/model-boundary/p177-pdf59.png",
+      "sha256": "ac3af963b1d8b2d89e2da4faef75761158d4d63536cf2d52738ecbb57e2607b8",
+      "bytes": 120872
+    },
+    {
+      "path": "tmp/day8-20261007/lange-kumar/model-boundary/p178-pdf60.png",
+      "sha256": "46dacfdc9e7ad878b4acf2d1d978e11d1e0ac9df1d6490bd756fc1aa33b424ab",
+      "bytes": 147899
+    },
+    {
+      "path": "tmp/day8-20261007/lange-kumar/model-boundary/p179-pdf61.png",
+      "sha256": "6a78b161fbbcfbbb31ce1de60c6cc92bdbfe34821613f800ec0dabc8e90edcef",
+      "bytes": 363695
+    },
+    {
+      "path": "tmp/day8-20261007/lange-kumar/model-boundary/p180-pdf62.png",
+      "sha256": "507deb842142bb63b58fd683de3fba2d2c45851a8dc0242db600b00f224444ee",
+      "bytes": 336303
+    },
+    {
+      "path": "tmp/day8-20261007/lange-kumar/model-boundary/p181-pdf63.png",
+      "sha256": "6b902e2ce9a2e70929e036a991d998f9df112e1b4f845e55a1f9d360284c3fc5",
+      "bytes": 211364
+    },
+    {
+      "path": "tmp/day8-20261007/lange-kumar/model-boundary/p182-pdf64.png",
+      "sha256": "6a25295448db127e8e667904589775093cd74f1130f2da0f15ee98246c0e0dd3",
+      "bytes": 239722
+    },
+    {
+      "path": "tmp/day8-20261007/lange-kumar/model-boundary/p183-pdf65.png",
+      "sha256": "def9e9178736b1ea21911b09980df922e28503751420f20f0c17f12cb513c746",
+      "bytes": 528147
+    },
+    {
+      "path": "tmp/day8-20261007/lange-kumar/model-boundary/p184-pdf66.png",
+      "sha256": "13c31989d38e9e3d0bff76e80ee7ffab1f790ea7d9816d2a2c5dd5a63aeaeea2",
+      "bytes": 434583
+    },
+    {
+      "path": "tmp/day8-20261007/lange-kumar/model-boundary/reproduce_model_algebra.py",
+      "sha256": "0a242aaad28f5f13eb403148fff995660d9e3ad1f5f036944db3fb9e833e1047",
+      "bytes": 5243
+    }
+  ],
+  "reproduce_command": "python3 -B tmp/day8-20261007/lange-kumar/model-boundary/reproduce_model_algebra.py",
+  "audit_readme": "tmp/day8-20261007/lange-kumar/model-boundary/README.md",
+  "source_or_scope_boundary": "Model predictions, historical author interpretations and task-derived exact algebra are separated; no new data/source batch, no L4, no canonical/report/raw/PLAN/state/review/Git mutation.",
+  "reproducibility": {
+    "script_path": "tmp/day8-20261007/lange-kumar/model-boundary/reproduce_model_algebra.py",
+    "script_source": "#!/usr/bin/env python3\n\"\"\"Exact L2 checks of a generator-only M1 model and the scale loss in delta.\n\nThese are synthetic representation/algebra checks, not a nuclear calculation.\nThey use only the existing isolated SymPy install and write into this directory.\n\"\"\"\nfrom pathlib import Path\nimport json\nimport sys\n\nHERE = Path(__file__).resolve().parent\nROOT = HERE.parents[3]\nsys.path.insert(0, str(ROOT / \"tmp/day8-20261007/rose-brink/python-deps\"))\nimport sympy as sp\n\n\ndef spin_operators(j):\n    m_values = list(range(-j, j + 1))\n    dimension = len(m_values)\n    jz = sp.diag(*m_values)\n    jp = sp.zeros(dimension)\n    for column, m in enumerate(m_values[:-1]):\n        jp[column + 1, column] = sp.sqrt(j * (j + 1) - m * (m + 1))\n    jm = jp.T\n    return jz, jp, jm, {-1: jm / sp.sqrt(2), 0: jz, 1: -jp / sp.sqrt(2)}\n\n\ndef main():\n    j = 2\n    jz, jp, jm, components = spin_operators(j)\n    identity = sp.eye(2 * j + 1)\n    gap = sp.symbols(\"DeltaE\", positive=True)\n    hamiltonian = sp.kronecker_product(sp.diag(0, gap), identity)\n    generator = {q: sp.kronecker_product(sp.eye(2), op) for q, op in components.items()}\n    other_rank1 = {q: sp.kronecker_product(sp.Matrix([[0, 1], [1, 0]]), op) for q, op in components.items()}\n    total_jz = sp.kronecker_product(sp.eye(2), jz)\n    total_jp = sp.kronecker_product(sp.eye(2), jp)\n    total_jm = sp.kronecker_product(sp.eye(2), jm)\n    dimension = 2 * j + 1\n    checks = {}\n    for q in (-1, 0, 1):\n        op, counter = generator[q], other_rank1[q]\n        checks[f\"commutator_H_J_{q}\"] = hamiltonian * op - op * hamiltonian == sp.zeros(2 * dimension)\n        checks[f\"generator_inter_multiplet_zero_{q}\"] = op[:dimension, dimension:] == sp.zeros(dimension)\n        checks[f\"same_multiplet_generator_nonzero_{q}\"] = op[:dimension, :dimension] != sp.zeros(dimension)\n        checks[f\"other_tensor_connects_multiplets_{q}\"] = counter[:dimension, dimension:] != sp.zeros(dimension)\n        checks[f\"other_tensor_not_conserved_{q}\"] = hamiltonian * counter - counter * hamiltonian != sp.zeros(2 * dimension)\n        checks[f\"rank1_z_rule_{q}\"] = total_jz * counter - counter * total_jz == q * counter\n        for sign, ladder in ((1, total_jp), (-1, total_jm)):\n            right = sp.sqrt((1 - sign * q) * (2 + sign * q)) * other_rank1[q + sign] if -1 <= q + sign <= 1 else sp.zeros(2 * dimension)\n            checks[f\"rank1_ladder_rule_{sign}_{q}\"] = ladder * counter - counter * ladder == right\n    q_photon, beta, gamma = sp.symbols(\"q beta gamma\", positive=True, real=True)\n    z, charge, radius, gyr, magneton = sp.symbols(\"Z e R0 gR muN\", positive=True)\n    common = beta**2 * sp.sin(3 * gamma)**2 / (9 - 8 * sp.sin(3 * gamma)**2)\n    b_e2 = 9 * z**2 * charge**2 * radius**4 * common / (56 * sp.pi**2)\n    b_m1 = 90 * magneton**2 * gyr**2 * common / (49 * sp.pi**2)\n    df_delta2 = sp.Rational(3, 100) * q_photon**2 * b_e2 / b_m1\n    expected = sp.Rational(3, 100) * q_photon**2 * sp.Rational(7, 80) * (z * charge * radius**2 / (gyr * magneton))**2\n    checks[\"DF_shape_common_factor_cancel\"] = sp.simplify(df_delta2 - expected) == 0\n    examples = ((sp.Rational(1, 100), sp.Integer(1)), (sp.Rational(1, 10000), sp.Rational(1, 100)))\n    amplitudes = []\n    for m1, e2 in examples:\n        amplitudes.append({\"a_M1\": str(m1), \"a_E2\": str(e2), \"delta\": str(e2 / m1),\n                           \"E2_rate_in_shared_arbitrary_units\": str(e2**2),\n                           \"M1_rate_in_shared_arbitrary_units\": str(m1**2),\n                           \"pair_gamma_rate_in_shared_arbitrary_units\": str(e2**2 + m1**2)})\n    checks[\"equal_large_delta_examples\"] = examples[0][1] / examples[0][0] == examples[1][1] / examples[1][0]\n    checks[\"E2_absolute_rate_differs_by_10000\"] = examples[0][1]**2 / examples[1][1]**2 == 10000\n    assert all(checks.values()), checks\n    result = {\"status\": \"exact-algebra-passed\", \"research_level\": \"L2\", \"engine\": \"SymPy \" + sp.__version__,\n              \"model_premises\": \"two orthogonal internal J=2 positive-parity multiplets; scalar Hamiltonian with positive energy gap; J in hbar units\",\n              \"generator_M1\": \"constant * identity_on_internal_space tensor Jq\",\n              \"other_rank1_tensor\": \"sigma_x_on_internal_space tensor Jq; legitimate rotational rank1 with finite internal-state transition\",\n              \"interpretation\": \"proof of model-specific generator zero and counterexample to inferring universal M1 prohibition; no real-nucleus matrix element assigned\",\n              \"checks\": checks, \"check_count\": len(checks),\n              \"DF_delta_square_after_cancellation\": str(expected),\n              \"DF_zero_boundary\": \"beta=0 or sin(3gamma)=0 makes both retained B values zero; canceled ratio is a limit, not an observed mixing ratio there\",\n              \"large_delta_examples\": amplitudes,\n              \"scale_boundary\": \"same photon energy and component-rate convention; arbitrary amplitude units, not eb/muN RMEs or a measured nuclear result\"}\n    (HERE / \"exact-model-algebra.json\").write_text(json.dumps(result, ensure_ascii=False, indent=2) + \"\\n\")\n    print(json.dumps({\"status\": result[\"status\"], \"checks_passed\": len(checks), \"large_delta\": \"100; E2 rate differs by10000\"}))\n\n\nif __name__ == \"__main__\":\n    main()\n",
+    "script_sha256": "0a242aaad28f5f13eb403148fff995660d9e3ad1f5f036944db3fb9e833e1047",
+    "command": "python3 -B tmp/day8-20261007/lange-kumar/model-boundary/reproduce_model_algebra.py",
+    "dependencies": "Python3; SymPy1.14.0, installed in tmp/day8-20261007/rose-brink/python-deps; script can use an equivalent installed SymPy if the local path is absent",
+    "restore_note": "Restore script to recorded script_path before running; original temporary outputs are evidence artifacts, not canonical reusable knowledge."
+  },
+  "parent_verification": {
+    "at_local": "2026-10-07T18:22:53+08:00",
+    "exact_algebra_exit": 0,
+    "checks_passed": 27,
+    "hash_checks_passed": 39,
+    "original_images_inspected": [
+      125,
+      126,
+      127,
+      128,
+      131,
+      179
+    ],
+    "raw_unchanged": true,
+    "classification": "L2; our commutator/representation/scale proofs separated from author model results"
+  }
+}

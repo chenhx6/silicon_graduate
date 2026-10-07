@@ -1,0 +1,240 @@
+{
+  "schema_version": 1,
+  "created_at_utc": "2026-10-07T08:40:12.524606+00:00",
+  "artifact_kind": "bounded-Day8-L2-gamma-ICC-lifetime-E0-completion",
+  "status": "symbolic_rate_completion_proved_shell_discrimination_conditional",
+  "day_index": 8,
+  "run_closed": false,
+  "experimental_data_fit": false,
+  "new_source_or_course_card": false,
+  "source": {
+    "U_pair_artifact": "outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/four-multipole-fixed-population-pair.json",
+    "U_pair_sha256": "b5a7ea2f727264b9d3ff56f4fec25302d326baab1ec67fd9774dea3d2522b8fd",
+    "raw_hashes": {
+      "LKH82": "ed925a0577a9257903806acd209c1db707529e86a5bfd9a301a83d597bf78ffb",
+      "KB08": "5a7b25491864acd4d2fea7a599136657da336a03f902009b423c6c450926cc34"
+    },
+    "locators": [
+      "LKH82 printed p123/PDF5 Eqs2.12-2.13; printed p169/PDF51 Eq4.1 and E0-extraction conditions",
+      "KB08 printed p203/PDF2 Eqs3-4 ICC definition and ordinary two-multipole formula",
+      "KB08 printed p204/PDF3 Sec3.1 Eqs6-7,10-11,14-15 E0 rates, electronic factors and shell extension"
+    ],
+    "original_image_checked": "tmp/day8-20261007/four-multipoles/e0-completion/kb08-p204-pdf3.png",
+    "attribution_boundary": "Source definitions support the inventory; its extension to four gamma components, the compensating E0 rates, shell contrast and count Jacobians are our analytic reconstruction, not a BrIcc software calculation or a source-authored completeness claim."
+  },
+  "fixed_assumptions": {
+    "synthetic_transition": "original 2+->2+ U pair; same known strictly positive aligned population",
+    "amplitude_order": [
+      "M1",
+      "E2",
+      "M3",
+      "E4"
+    ],
+    "fractions_a": [
+      "144/205",
+      "36/205",
+      "16/205",
+      "9/205"
+    ],
+    "fractions_b": [
+      "144*sqrt(6)/7175 + 396/7175",
+      "384*sqrt(6)/7175 + 944/7175",
+      "1179/7175 - 144*sqrt(6)/7175",
+      "4656/7175 - 384*sqrt(6)/7175"
+    ],
+    "gamma_rate": "lambda_gamma>0 is common; no nuclear Z/E, measured coefficient or rate assigned",
+    "normal_ICC": "angularly integrated, all electron shells, common pure-multipole alpha_s,L inputs; no penetration",
+    "E0": "selection-allowed, electron conversion only; Omega_e,total=sum_s Omega_s>0; rho_j^2>=0 is adjustable in this rate model",
+    "excluded_channels": [
+      "pair conversion or pair creation",
+      "E0 two-photon higher-order decay",
+      "extra gamma or non-gamma branches"
+    ],
+    "atomic_input_boundary": "All alpha and Omega inputs remain symbolic; no lookup or Mu08 Z/E/ICC transfer. A common atomic prescription is assumed for the two alternatives."
+  },
+  "total_rate_certificate": {
+    "kappa_a": "(36*alpha_tot_E2 + 9*alpha_tot_E4 + 144*alpha_tot_M1 + 16*alpha_tot_M3)/205",
+    "kappa_b": "(384*sqrt(6)*alpha_tot_E2 + 944*alpha_tot_E2 - 384*sqrt(6)*alpha_tot_E4 + 4656*alpha_tot_E4 + 144*sqrt(6)*alpha_tot_M1 + 396*alpha_tot_M1 - 144*sqrt(6)*alpha_tot_M3 + 1179*alpha_tot_M3)/7175",
+    "definitions": "kappa_j=sum_L f_j,L alpha_tot,L; alpha_tot,L=sum_s alpha_s,L; these are ordinary gamma-conversion contributions before E0",
+    "domain": "lambda_gamma>0; alpha_obs>=max(kappa_a,kappa_b); Omega_e,total>0",
+    "E0_rates": "T_a(E0)=lambda_gamma*(alpha_obs-kappa_a); T_b(E0)=lambda_gamma*(alpha_obs-kappa_b)",
+    "E0_strengths": "rho_j^2=T_j(E0)/Omega_e,total >=0; Omega has s^-1 units and rho^2 is dimensionless",
+    "total_ICC": "[lambda_gamma*kappa_j+T_j(E0)]/lambda_gamma=alpha_obs",
+    "mean_lifetime": "tau_total^-1=lambda_gamma+lambda_gamma*kappa_j+T_j(E0)=lambda_gamma*(1+alpha_obs)",
+    "rate_difference": "T_a(E0)-T_b(E0)=lambda_gamma*(kappa_b-kappa_a); E0 rates differ only if the ordinary total kappas differ",
+    "photon_fraction_per_level_decay": "lambda_gamma*tau_total=1/(1+alpha_obs), the same in both completed models",
+    "gamma_shape_unchanged": "E0 adds no single-photon amplitude; the already equal normalized W/Delta and common gamma scale remain unchanged in this fixed-population model",
+    "measurement_consistency": "If an independently known lambda_gamma and measured tau do not satisfy tau^-1=lambda_gamma*(1+alpha_obs), neither completion fits under the no-extra-channel inventory. If lambda_gamma is inferred from tau and alpha_obs, it is not a new independent input."
+  },
+  "nonnegative_rate_cases": [
+    {
+      "condition": "alpha_obs<min(kappa_a,kappa_b)",
+      "result": "both alternatives require negative E0 and fail"
+    },
+    {
+      "condition": "min(kappa_a,kappa_b)<=alpha_obs<max(kappa_a,kappa_b)",
+      "result": "only the lower-kappa alternative can have nonnegative E0"
+    },
+    {
+      "condition": "alpha_obs=max(kappa_a,kappa_b), kappas unequal",
+      "result": "both fit; the higher-kappa alternative has zero E0, the lower has positive E0"
+    },
+    {
+      "condition": "alpha_obs>max(kappa_a,kappa_b)",
+      "result": "both have positive E0"
+    },
+    {
+      "condition": "kappa_a=kappa_b",
+      "result": "the threshold is common and completed E0 rates are equal, though gamma fractions remain different"
+    }
+  ],
+  "denominator_and_reference_boundaries": {
+    "lambda_gamma_zero": "Integrated electron/gamma ICC and normalized photon observables are undefined. E0 electron decay may still exist; the finite-alpha completion formula must not be used to exclude it.",
+    "radiative_strength_zero": "If S=0 there is no retained photon amplitude or normalized W/Delta; the inherited U pair has S=205/144>0.",
+    "Omega_e_total_zero": "No electron E0 rate can be generated from rho^2 in the stipulated model. Both alternatives then need alpha_obs=kappa_a=kappa_b; eta_s is undefined. Pair channels remain excluded.",
+    "alpha_obs_zero": "Only zero ordinary conversion and zero E0 are compatible; electron-shell/total ratios are undefined because the total electron denominator is zero.",
+    "zero_shell_denominator": "A shell-to-shell ratio requires both comparison denominators positive; zero/closed shell data need a rate/limit likelihood, not formal division.",
+    "E0_partial_vs_total_lifetime": "KB08 tau(E0) in Eq6 is the E0 partial mean life, not the total level tau used above.",
+    "no_pure_alpha_E0": "There is no ordinary pure-E0 electron/single-gamma ICC because E0 has no single-photon denominator."
+  },
+  "shell_certificate": {
+    "eta": "eta_s=Omega_s/Omega_e,total>=0, sum_s eta_s=1; Omega_e,total here excludes Omega_pair",
+    "ordinary_partial": "kappa_s,j=sum_L f_j,L alpha_s,L",
+    "completed_partial": "alpha_s,obs^(j)=kappa_s,j+eta_s*(alpha_obs-kappa_j)",
+    "a_minus_b": "d_s=eta_s*(kappa_b-kappa_a)-(kappa_s,b-kappa_s,a)",
+    "sum_rule": "sum_s d_s=0 after matching the total",
+    "one_shell_total_condition": "For alpha_obs>0, h_s^(a)-h_s^(b)=d_s/alpha_obs. A nonzero known contrast can separate this pair if measured and theoretical uncertainties resolve it; d_s=0 provides no separation in that shell.",
+    "two_shell_vector_condition": "Measuring two partial shell/total fractions tests (d_s,d_t). At least one nonzero resolved component can reject a member; two zeros do not establish that all unmeasured shells coincide.",
+    "two_shell_ratio_only_condition": "alpha_s^(a)/alpha_t^(a)-alpha_s^(b)/alpha_t^(b)=[d_s alpha_t^(b)-d_t alpha_s^(b)]/[alpha_t^(a)alpha_t^(b)]. A shell-to-shell ratio alone can be blind even when individual shell/total fractions differ.",
+    "all_shell_nondiscrimination": "All shells remain equal iff delta_kappa_s=eta_s*delta_kappa_total for every shell; the ordinary-conversion difference then has the E0 shell pattern.",
+    "purely_symbolic_control": "alpha_s,L=eta_s*A_L is an algebraic example of that nondiscriminating condition. It is not an assigned atomic table or a claim that real coefficients have this factorization.",
+    "theory_dependency": "alpha_s,L and eta_s must be fixed consistently from the common atomic model, with uncertainties. Estimating eta_s by forcing the same shell counts is circular."
+  },
+  "information_and_covariance": {
+    "primitive_counts": "response-corrected N_gamma,N_s,N_t,N_rest; N_e=N_s+N_t+N_rest",
+    "ratio_order": [
+      "alpha_obs=N_e/N_gamma",
+      "h_s=N_s/N_e",
+      "h_t=N_t/N_e",
+      "alpha_s=N_s/N_gamma",
+      "alpha_t=N_t/N_gamma"
+    ],
+    "count_Jacobian": [
+      [
+        "-(N_rest + N_s + N_t)/N_gamma**2",
+        "1/N_gamma",
+        "1/N_gamma",
+        "1/N_gamma"
+      ],
+      [
+        "0",
+        "-N_s/(N_rest + N_s + N_t)**2 + 1/(N_rest + N_s + N_t)",
+        "-N_s/(N_rest + N_s + N_t)**2",
+        "-N_s/(N_rest + N_s + N_t)**2"
+      ],
+      [
+        "0",
+        "-N_t/(N_rest + N_s + N_t)**2",
+        "-N_t/(N_rest + N_s + N_t)**2 + 1/(N_rest + N_s + N_t)",
+        "-N_t/(N_rest + N_s + N_t)**2"
+      ],
+      [
+        "-N_s/N_gamma**2",
+        "1/N_gamma",
+        "0",
+        "0"
+      ],
+      [
+        "-N_t/N_gamma**2",
+        "0",
+        "1/N_gamma",
+        "0"
+      ]
+    ],
+    "independent_ratio_rank": "Three shell groups give rank3 ratio information: total alpha plus two shell-shape contrasts. The 3x3 minor is -N_rest/[N_gamma^2*N_e^2]. The two partial ICCs are derived alpha_obs*h_s and alpha_obs*h_t, not two further independent constraints.",
+    "two_shell_only_rank": "If only two electron shells/groups exist, h_s+h_t=1 and the corresponding ratio Jacobian has rank2: one total ICC plus one independent shell-shape contrast.",
+    "general_propagation": "Sigma_ratios=J_counts*Sigma_counts*J_counts^T. Include common gamma normalization, total-electron normalization, response/efficiency, background and theoretical alpha/Omega correlations; repeated ratios from one event sample are not independent experiments.",
+    "ideal_Poisson_controls": {
+      "assumption": "Only an illustrative first-order model of disjoint independent raw Poisson count means, not actual corrected data.",
+      "Cov_hs_ht": "-h_s*h_t/N_e",
+      "Cov_partial_alpha_s_alpha_t": "N_s*N_t/N_gamma^3 from the common photon denominator",
+      "Cov_total_alpha_hs": "0 in this special ideal model; shared counts do not justify asserting every covariance is necessarily nonzero"
+    },
+    "useful_information_despite_shared_statistics": "Shell partitioning can add genuine information even within the same electron sample; its likelihood must use the joint covariance or primitive counts. It is not an independent replication.",
+    "near_zero_boundary": "First-order ratio covariance requires nonzero denominators and adequate count likelihoods; do not assign zero uncertainty from absent/zero counts."
+  },
+  "not_proved": [
+    "microscopic realizability of arbitrary gamma and E0 matrix elements",
+    "actual coefficients or E0 factors for this synthetic transition",
+    "that one or two shell measurements always resolve the pair",
+    "classification of all global inverse branches",
+    "discrimination through uncomputed cascade, photon cross-direction coherence, electron angular correlations or other channels"
+  ],
+  "checks": {
+    "exact": {
+      "U_pair_prior_certificate_success": true,
+      "gamma_scale_same": true,
+      "gamma_shape_prior_residuals_exact_zero": true,
+      "fractions_normalized": true,
+      "fractions_distinct": true,
+      "each_completed_total_ICC_a": true,
+      "each_completed_total_ICC_b": true,
+      "same_total_decay_rate_a": true,
+      "same_total_decay_rate_b": true,
+      "E0_rate_difference": true,
+      "E0_nuclear_electronic_factorization_a": true,
+      "E0_nuclear_electronic_factorization_b": true,
+      "decay_inventory_fraction_closure_a": true,
+      "decay_inventory_fraction_closure_b": true,
+      "a_low_E0_nonnegative_a": true,
+      "a_low_E0_nonnegative_b": true,
+      "b_low_E0_nonnegative_a": true,
+      "b_low_E0_nonnegative_b": true,
+      "strict_above_max_both_rates_positive": true,
+      "endpoint_high_kappa_E0_zero": true,
+      "below_high_kappa_requires_negative_E0": true,
+      "equal_kappa_equal_E0_rates": true,
+      "equal_pure_coefficients_give_equal_kappa": true,
+      "source_K_shell_M1_E2_E0_relation_recovered": true,
+      "shell_difference_s": true,
+      "shell_difference_t": true,
+      "shell_total_fraction_difference": true,
+      "shell_shell_ratio_discrimination_determinant": true,
+      "shell_contrasts_sum_zero": true,
+      "completed_shell_inventory_a_sums_total": true,
+      "completed_shell_inventory_b_sums_total": true,
+      "factorized_shell_pattern_can_leave_all_shells_degenerate": true,
+      "closed_selected_shell_has_no_E0_contribution": true,
+      "three_group_count_ratio_minor": true,
+      "overall_count_scale_null_direction": true,
+      "partial_s_ratio_is_derived_product": true,
+      "partial_t_ratio_is_derived_product": true,
+      "partial_s_Jacobian_is_derived_row": true,
+      "partial_t_Jacobian_is_derived_row": true,
+      "ideal_Poisson_shell_fraction_covariance": true,
+      "ideal_Poisson_partial_ICCs_share_gamma_denominator": true,
+      "ideal_Poisson_total_ICC_shell_fraction_cross_cov_can_vanish": true,
+      "two_shell_fraction_closure": true,
+      "two_shell_information_rank2": true,
+      "U_pair_input_unchanged": true,
+      "LKH82_raw_identity": true,
+      "KB08_raw_identity": true
+    },
+    "passed": 47,
+    "failures": 0,
+    "elapsed_seconds": 6.913017432991182
+  },
+  "reproducibility": {
+    "script_path": "tmp/day8-20261007/four-multipoles/e0-completion/e0_completion.py",
+    "script_sha256": "720241a2c41fdcd05ca30d3f249655a144ffc162f54fd1ab5adad998bb446b77",
+    "source_code": "#!/usr/bin/env python3\n\"\"\"Bounded Day8 L2 gamma/ICC/mean-lifetime E0-completion certificate.\n\nAtomic coefficients, electronic factors, rates and count means remain symbolic.\nNo Z/E/nuclide transfer, atomic lookup, fit, microscopic-realizability claim,\nnew course card or L4. The default checks only; writing is exclusive creation.\n\"\"\"\nfrom __future__ import annotations\n\nimport argparse\nimport hashlib\nimport json\nimport platform\nimport sys\nimport time\nfrom datetime import datetime, timezone\nfrom pathlib import Path\n\nsys.dont_write_bytecode=True\nROOT=Path(__file__).resolve().parents[4]\nDEPS=ROOT/'tmp/day8-20261007/rose-brink/python-deps'\nsys.path.insert(0,str(DEPS))\nimport sympy as sp\n\nRUN=ROOT/'outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01'\nPAIR=RUN/'four-multipole-fixed-population-pair.json'\nOUT=RUN/'gamma-icc-lifetime-e0-completion.json'\nLABELS=('M1','E2','M3','E4')\n\n\ndef matrix_strings(matrix):\n    return [[sp.sstr(value) for value in row] for row in matrix.tolist()]\n\n\ndef build():\n    started=time.monotonic()\n    pair_bytes=PAIR.read_bytes()\n    pair=json.loads(pair_bytes.decode('utf-8'))\n    f_a=sp.Matrix([sp.sympify(pair['exact_pair']['radiative_fractions_a'][label]) for label in LABELS])\n    f_b=sp.Matrix([sp.sympify(pair['exact_pair']['radiative_fractions_b'][label]) for label in LABELS])\n    lam=sp.symbols('lambda_gamma',positive=True)\n    alpha_obs,k_a,k_b=sp.symbols('alpha_obs kappa_a kappa_b',nonnegative=True)\n    omega_total=sp.symbols('Omega_e_total',positive=True)\n    atomic_tot=sp.Matrix(sp.symbols('alpha_tot_M1 alpha_tot_E2 alpha_tot_M3 alpha_tot_E4',nonnegative=True))\n    kappa_a=sp.factor((f_a.T*atomic_tot)[0])\n    kappa_b=sp.factor((f_b.T*atomic_tot)[0])\n    e0_a=lam*(alpha_obs-k_a)\n    e0_b=lam*(alpha_obs-k_b)\n    rho2_a=e0_a/omega_total\n    rho2_b=e0_b/omega_total\n    checks={}\n\n    def check(name,condition):\n        checks[name]=bool(condition)\n        if not checks[name]: raise AssertionError(name)\n\n    check('U_pair_prior_certificate_success',pair['status']=='success_exact_full_support_fraction_changing_pair' and pair['checks']['failures']==0)\n    check('gamma_scale_same',pair['exact_pair']['S_a']==pair['exact_pair']['S_b'])\n    check('gamma_shape_prior_residuals_exact_zero',pair['exact_pair']['full_coefficient_residuals']==['0','0','0','0'])\n    check('fractions_normalized',sp.simplify(sum(f_a)-1)==0 and sp.simplify(sum(f_b)-1)==0)\n    check('fractions_distinct',f_a!=f_b)\n    check('each_completed_total_ICC_a',sp.simplify((lam*k_a+e0_a)/lam-alpha_obs)==0)\n    check('each_completed_total_ICC_b',sp.simplify((lam*k_b+e0_b)/lam-alpha_obs)==0)\n    check('same_total_decay_rate_a',sp.simplify(lam+lam*k_a+e0_a-lam*(1+alpha_obs))==0)\n    check('same_total_decay_rate_b',sp.simplify(lam+lam*k_b+e0_b-lam*(1+alpha_obs))==0)\n    check('E0_rate_difference',sp.simplify(e0_a-e0_b-lam*(k_b-k_a))==0)\n    check('E0_nuclear_electronic_factorization_a',sp.simplify(omega_total*rho2_a-e0_a)==0)\n    check('E0_nuclear_electronic_factorization_b',sp.simplify(omega_total*rho2_b-e0_b)==0)\n    check('decay_inventory_fraction_closure_a',sp.simplify((1+k_a+alpha_obs-k_a)/(1+alpha_obs)-1)==0)\n    check('decay_inventory_fraction_closure_b',sp.simplify((1+k_b+alpha_obs-k_b)/(1+alpha_obs)-1)==0)\n    # Exhaust the two possible orderings symbolically, rather than assigning ICC numbers.\n    k0,d,x=sp.symbols('k0 d x',nonnegative=True)\n    xp,epsilon=sp.symbols('x_positive epsilon',positive=True)\n    for name,lo,hi in [('a_low',k0,k0+d),('b_low',k0+d,k0)]:\n        aa=k0+d+x\n        ta=sp.factor(lam*(aa-lo));tb=sp.factor(lam*(aa-hi))\n        check(f'{name}_E0_nonnegative_a',ta.is_nonnegative is True)\n        check(f'{name}_E0_nonnegative_b',tb.is_nonnegative is True)\n    check('strict_above_max_both_rates_positive', (lam*xp).is_positive is True and (lam*(d+xp)).is_positive is True)\n    check('endpoint_high_kappa_E0_zero',sp.simplify(lam*((k0+d)-(k0+d)))==0)\n    check('below_high_kappa_requires_negative_E0',(-lam*epsilon).is_negative is True)\n    check('equal_kappa_equal_E0_rates',sp.simplify((e0_a-e0_b).subs(k_b,k_a))==0)\n    common_alpha=sp.symbols('common_atomic_coefficient',nonnegative=True)\n    check('equal_pure_coefficients_give_equal_kappa',sp.simplify((kappa_b-kappa_a).subs(dict(zip(atomic_tot,[common_alpha]*4))))==0)\n\n    # LKH82/KB08 two-gamma expression is an exact limiting form of the rate inventory.\n    t,q2,a_m1,a_e2=sp.symbols('t q2 alpha_M1 alpha_E2',nonnegative=True)\n    ordinary=(a_m1+t*a_e2)/(1+t)\n    e0_k_relative=t*q2*a_e2/(1+t)\n    source_mixed=(a_m1+t*(1+q2)*a_e2)/(1+t)\n    check('source_K_shell_M1_E2_E0_relation_recovered',sp.simplify(ordinary+e0_k_relative-source_mixed)==0)\n\n    eta_s,eta_t=sp.symbols('eta_s eta_t',nonnegative=True)\n    eta_r=1-eta_s-eta_t\n    kas,kbs,kat,kbt=sp.symbols('kappa_s_a kappa_s_b kappa_t_a kappa_t_b',nonnegative=True)\n    completed_s_a=kas+eta_s*(alpha_obs-k_a)\n    completed_s_b=kbs+eta_s*(alpha_obs-k_b)\n    completed_t_a=kat+eta_t*(alpha_obs-k_a)\n    completed_t_b=kbt+eta_t*(alpha_obs-k_b)\n    difference_s=eta_s*(k_b-k_a)-(kbs-kas)\n    difference_t=eta_t*(k_b-k_a)-(kbt-kat)\n    check('shell_difference_s',sp.simplify(completed_s_a-completed_s_b-difference_s)==0)\n    check('shell_difference_t',sp.simplify(completed_t_a-completed_t_b-difference_t)==0)\n    check('shell_total_fraction_difference',sp.simplify(completed_s_a/alpha_obs-completed_s_b/alpha_obs-difference_s/alpha_obs)==0)\n    check('shell_shell_ratio_discrimination_determinant',sp.simplify(completed_s_a/completed_t_a-completed_s_b/completed_t_b\n          -(difference_s*completed_t_b-difference_t*completed_s_b)/(completed_t_a*completed_t_b))==0)\n\n    # Three symbolic shell groups stand for s,t,and all remaining shells; no real shell values.\n    shell_alpha=sp.Matrix(3,4,lambda i,j:sp.symbols(f'alpha_group{i}_{LABELS[j]}',nonnegative=True))\n    eta=sp.Matrix([eta_s,eta_t,eta_r])\n    k_shell_a=shell_alpha*f_a\n    k_shell_b=shell_alpha*f_b\n    k_total_a=sum(k_shell_a)\n    k_total_b=sum(k_shell_b)\n    d_shell=eta*(k_total_b-k_total_a)-(k_shell_b-k_shell_a)\n    check('shell_contrasts_sum_zero',sp.simplify(sum(d_shell))==0)\n    comp_shell_a=k_shell_a+eta*(alpha_obs-k_total_a)\n    comp_shell_b=k_shell_b+eta*(alpha_obs-k_total_b)\n    check('completed_shell_inventory_a_sums_total',sp.simplify(sum(comp_shell_a)-alpha_obs)==0)\n    check('completed_shell_inventory_b_sums_total',sp.simplify(sum(comp_shell_b)-alpha_obs)==0)\n    # A purely symbolic nondiscriminating pattern, not a claim about atomic tables.\n    factorized={shell_alpha[i,j]:eta[i]*atomic_tot[j] for i in range(3) for j in range(4)}\n    check('factorized_shell_pattern_can_leave_all_shells_degenerate',all(sp.simplify(value.subs(factorized))==0 for value in d_shell))\n    check('closed_selected_shell_has_no_E0_contribution',sp.simplify(completed_s_a.subs(eta_s,0)-kas)==0)\n\n    # Shared counts: show the information rank and the correlations without data or count values.\n    ng,ns,nt,nr=sp.symbols('N_gamma N_s N_t N_rest',positive=True)\n    ne=ns+nt+nr\n    outputs=sp.Matrix([ne/ng,ns/ne,nt/ne,ns/ng,nt/ng])\n    counts=sp.Matrix([ng,ns,nt,nr])\n    jac=outputs.jacobian(counts)\n    minor=sp.factor(jac[:3,:3].det())\n    check('three_group_count_ratio_minor',sp.simplify(minor+nr/(ng**2*ne**2))==0)\n    check('overall_count_scale_null_direction',(jac*counts).applyfunc(sp.simplify)==sp.zeros(5,1))\n    check('partial_s_ratio_is_derived_product',sp.simplify(outputs[3]-outputs[0]*outputs[1])==0)\n    check('partial_t_ratio_is_derived_product',sp.simplify(outputs[4]-outputs[0]*outputs[2])==0)\n    check('partial_s_Jacobian_is_derived_row',(jac[3,:]-outputs[1]*jac[0,:]-outputs[0]*jac[1,:]).applyfunc(sp.simplify)==sp.zeros(1,4))\n    check('partial_t_Jacobian_is_derived_row',(jac[4,:]-outputs[2]*jac[0,:]-outputs[0]*jac[2,:]).applyfunc(sp.simplify)==sp.zeros(1,4))\n    poisson_cov=(jac*sp.diag(ng,ns,nt,nr)*jac.T).applyfunc(sp.factor)\n    check('ideal_Poisson_shell_fraction_covariance',sp.simplify(poisson_cov[1,2]+ns*nt/ne**3)==0)\n    check('ideal_Poisson_partial_ICCs_share_gamma_denominator',sp.simplify(poisson_cov[3,4]-ns*nt/ng**3)==0)\n    check('ideal_Poisson_total_ICC_shell_fraction_cross_cov_can_vanish',poisson_cov[0,1]==poisson_cov[0,2]==0)\n    two_shell_outputs=outputs.subs(nr,0)\n    two_shell_jac=two_shell_outputs.jacobian((ng,ns,nt))\n    check('two_shell_fraction_closure',sp.simplify(two_shell_outputs[1]+two_shell_outputs[2]-1)==0)\n    check('two_shell_information_rank2',two_shell_jac.rank()==2)\n    check('U_pair_input_unchanged',PAIR.read_bytes()==pair_bytes)\n    raw_files={\n        'LKH82':('raw/papers/gpt/high-spin-20260920/review/1982_Lange et al_E0-E2-M1 multipole admixtures of transitions in even-even nuclei.pdf','ed925a0577a9257903806acd209c1db707529e86a5bfd9a301a83d597bf78ffb'),\n        'KB08':('raw/papers/2008_Kibédi et al_Evaluation of theoretical conversion coefficients using BrIcc.pdf','5a7b25491864acd4d2fea7a599136657da336a03f902009b423c6c450926cc34')}\n    hashes={name:hashlib.sha256((ROOT/path).read_bytes()).hexdigest() for name,(path,expected) in raw_files.items()}\n    for name,(path,expected) in raw_files.items(): check(f'{name}_raw_identity',hashes[name]==expected)\n    code=Path(__file__).read_text(encoding='utf-8')\n    return {\n        'schema_version':1,'created_at_utc':datetime.now(timezone.utc).isoformat(),\n        'artifact_kind':'bounded-Day8-L2-gamma-ICC-lifetime-E0-completion',\n        'status':'symbolic_rate_completion_proved_shell_discrimination_conditional',\n        'day_index':8,'run_closed':False,'experimental_data_fit':False,'new_source_or_course_card':False,\n        'source':{'U_pair_artifact':str(PAIR.relative_to(ROOT)),'U_pair_sha256':hashlib.sha256(pair_bytes).hexdigest(),\n                  'raw_hashes':hashes,\n                  'locators':['LKH82 printed p123/PDF5 Eqs2.12-2.13; printed p169/PDF51 Eq4.1 and E0-extraction conditions',\n                              'KB08 printed p203/PDF2 Eqs3-4 ICC definition and ordinary two-multipole formula',\n                              'KB08 printed p204/PDF3 Sec3.1 Eqs6-7,10-11,14-15 E0 rates, electronic factors and shell extension'],\n                  'original_image_checked':'tmp/day8-20261007/four-multipoles/e0-completion/kb08-p204-pdf3.png',\n                  'attribution_boundary':'Source definitions support the inventory; its extension to four gamma components, the compensating E0 rates, shell contrast and count Jacobians are our analytic reconstruction, not a BrIcc software calculation or a source-authored completeness claim.'},\n        'fixed_assumptions':{'synthetic_transition':'original 2+->2+ U pair; same known strictly positive aligned population',\n                             'amplitude_order':list(LABELS),'fractions_a':[sp.sstr(value) for value in f_a],\n                             'fractions_b':[sp.sstr(value) for value in f_b],\n                             'gamma_rate':'lambda_gamma>0 is common; no nuclear Z/E, measured coefficient or rate assigned',\n                             'normal_ICC':'angularly integrated, all electron shells, common pure-multipole alpha_s,L inputs; no penetration',\n                             'E0':'selection-allowed, electron conversion only; Omega_e,total=sum_s Omega_s>0; rho_j^2>=0 is adjustable in this rate model',\n                             'excluded_channels':['pair conversion or pair creation','E0 two-photon higher-order decay','extra gamma or non-gamma branches'],\n                             'atomic_input_boundary':'All alpha and Omega inputs remain symbolic; no lookup or Mu08 Z/E/ICC transfer. A common atomic prescription is assumed for the two alternatives.'},\n        'total_rate_certificate':{\n            'kappa_a':sp.sstr(kappa_a),'kappa_b':sp.sstr(kappa_b),\n            'definitions':'kappa_j=sum_L f_j,L alpha_tot,L; alpha_tot,L=sum_s alpha_s,L; these are ordinary gamma-conversion contributions before E0',\n            'domain':'lambda_gamma>0; alpha_obs>=max(kappa_a,kappa_b); Omega_e,total>0',\n            'E0_rates':'T_a(E0)=lambda_gamma*(alpha_obs-kappa_a); T_b(E0)=lambda_gamma*(alpha_obs-kappa_b)',\n            'E0_strengths':'rho_j^2=T_j(E0)/Omega_e,total >=0; Omega has s^-1 units and rho^2 is dimensionless',\n            'total_ICC':'[lambda_gamma*kappa_j+T_j(E0)]/lambda_gamma=alpha_obs',\n            'mean_lifetime':'tau_total^-1=lambda_gamma+lambda_gamma*kappa_j+T_j(E0)=lambda_gamma*(1+alpha_obs)',\n            'rate_difference':'T_a(E0)-T_b(E0)=lambda_gamma*(kappa_b-kappa_a); E0 rates differ only if the ordinary total kappas differ',\n            'photon_fraction_per_level_decay':'lambda_gamma*tau_total=1/(1+alpha_obs), the same in both completed models',\n            'gamma_shape_unchanged':'E0 adds no single-photon amplitude; the already equal normalized W/Delta and common gamma scale remain unchanged in this fixed-population model',\n            'measurement_consistency':'If an independently known lambda_gamma and measured tau do not satisfy tau^-1=lambda_gamma*(1+alpha_obs), neither completion fits under the no-extra-channel inventory. If lambda_gamma is inferred from tau and alpha_obs, it is not a new independent input.'},\n        'nonnegative_rate_cases':[\n            {'condition':'alpha_obs<min(kappa_a,kappa_b)','result':'both alternatives require negative E0 and fail'},\n            {'condition':'min(kappa_a,kappa_b)<=alpha_obs<max(kappa_a,kappa_b)','result':'only the lower-kappa alternative can have nonnegative E0'},\n            {'condition':'alpha_obs=max(kappa_a,kappa_b), kappas unequal','result':'both fit; the higher-kappa alternative has zero E0, the lower has positive E0'},\n            {'condition':'alpha_obs>max(kappa_a,kappa_b)','result':'both have positive E0'},\n            {'condition':'kappa_a=kappa_b','result':'the threshold is common and completed E0 rates are equal, though gamma fractions remain different'}],\n        'denominator_and_reference_boundaries':{\n            'lambda_gamma_zero':'Integrated electron/gamma ICC and normalized photon observables are undefined. E0 electron decay may still exist; the finite-alpha completion formula must not be used to exclude it.',\n            'radiative_strength_zero':'If S=0 there is no retained photon amplitude or normalized W/Delta; the inherited U pair has S=205/144>0.',\n            'Omega_e_total_zero':'No electron E0 rate can be generated from rho^2 in the stipulated model. Both alternatives then need alpha_obs=kappa_a=kappa_b; eta_s is undefined. Pair channels remain excluded.',\n            'alpha_obs_zero':'Only zero ordinary conversion and zero E0 are compatible; electron-shell/total ratios are undefined because the total electron denominator is zero.',\n            'zero_shell_denominator':'A shell-to-shell ratio requires both comparison denominators positive; zero/closed shell data need a rate/limit likelihood, not formal division.',\n            'E0_partial_vs_total_lifetime':'KB08 tau(E0) in Eq6 is the E0 partial mean life, not the total level tau used above.',\n            'no_pure_alpha_E0':'There is no ordinary pure-E0 electron/single-gamma ICC because E0 has no single-photon denominator.'},\n        'shell_certificate':{\n            'eta':'eta_s=Omega_s/Omega_e,total>=0, sum_s eta_s=1; Omega_e,total here excludes Omega_pair',\n            'ordinary_partial':'kappa_s,j=sum_L f_j,L alpha_s,L',\n            'completed_partial':'alpha_s,obs^(j)=kappa_s,j+eta_s*(alpha_obs-kappa_j)',\n            'a_minus_b':'d_s=eta_s*(kappa_b-kappa_a)-(kappa_s,b-kappa_s,a)',\n            'sum_rule':'sum_s d_s=0 after matching the total',\n            'one_shell_total_condition':'For alpha_obs>0, h_s^(a)-h_s^(b)=d_s/alpha_obs. A nonzero known contrast can separate this pair if measured and theoretical uncertainties resolve it; d_s=0 provides no separation in that shell.',\n            'two_shell_vector_condition':'Measuring two partial shell/total fractions tests (d_s,d_t). At least one nonzero resolved component can reject a member; two zeros do not establish that all unmeasured shells coincide.',\n            'two_shell_ratio_only_condition':'alpha_s^(a)/alpha_t^(a)-alpha_s^(b)/alpha_t^(b)=[d_s alpha_t^(b)-d_t alpha_s^(b)]/[alpha_t^(a)alpha_t^(b)]. A shell-to-shell ratio alone can be blind even when individual shell/total fractions differ.',\n            'all_shell_nondiscrimination':'All shells remain equal iff delta_kappa_s=eta_s*delta_kappa_total for every shell; the ordinary-conversion difference then has the E0 shell pattern.',\n            'purely_symbolic_control':'alpha_s,L=eta_s*A_L is an algebraic example of that nondiscriminating condition. It is not an assigned atomic table or a claim that real coefficients have this factorization.',\n            'theory_dependency':'alpha_s,L and eta_s must be fixed consistently from the common atomic model, with uncertainties. Estimating eta_s by forcing the same shell counts is circular.'},\n        'information_and_covariance':{\n            'primitive_counts':'response-corrected N_gamma,N_s,N_t,N_rest; N_e=N_s+N_t+N_rest',\n            'ratio_order':['alpha_obs=N_e/N_gamma','h_s=N_s/N_e','h_t=N_t/N_e','alpha_s=N_s/N_gamma','alpha_t=N_t/N_gamma'],\n            'count_Jacobian':matrix_strings(jac),\n            'independent_ratio_rank':'Three shell groups give rank3 ratio information: total alpha plus two shell-shape contrasts. The 3x3 minor is -N_rest/[N_gamma^2*N_e^2]. The two partial ICCs are derived alpha_obs*h_s and alpha_obs*h_t, not two further independent constraints.',\n            'two_shell_only_rank':'If only two electron shells/groups exist, h_s+h_t=1 and the corresponding ratio Jacobian has rank2: one total ICC plus one independent shell-shape contrast.',\n            'general_propagation':'Sigma_ratios=J_counts*Sigma_counts*J_counts^T. Include common gamma normalization, total-electron normalization, response/efficiency, background and theoretical alpha/Omega correlations; repeated ratios from one event sample are not independent experiments.',\n            'ideal_Poisson_controls':{'assumption':'Only an illustrative first-order model of disjoint independent raw Poisson count means, not actual corrected data.',\n                                      'Cov_hs_ht':'-h_s*h_t/N_e',\n                                      'Cov_partial_alpha_s_alpha_t':'N_s*N_t/N_gamma^3 from the common photon denominator',\n                                      'Cov_total_alpha_hs':'0 in this special ideal model; shared counts do not justify asserting every covariance is necessarily nonzero'},\n            'useful_information_despite_shared_statistics':'Shell partitioning can add genuine information even within the same electron sample; its likelihood must use the joint covariance or primitive counts. It is not an independent replication.',\n            'near_zero_boundary':'First-order ratio covariance requires nonzero denominators and adequate count likelihoods; do not assign zero uncertainty from absent/zero counts.'},\n        'not_proved':['microscopic realizability of arbitrary gamma and E0 matrix elements','actual coefficients or E0 factors for this synthetic transition','that one or two shell measurements always resolve the pair',\n                      'classification of all global inverse branches','discrimination through uncomputed cascade, photon cross-direction coherence, electron angular correlations or other channels'],\n        'checks':{'exact':checks,'passed':sum(checks.values()),'failures':0,'elapsed_seconds':time.monotonic()-started},\n        'reproducibility':{'script_path':str(Path(__file__).relative_to(ROOT)),\n                           'script_sha256':hashlib.sha256(code.encode('utf-8')).hexdigest(),'source_code':code,\n                           'python':platform.python_version(),'sympy':sp.__version__,'dependencies':str(DEPS.relative_to(ROOT)),\n                           'baseline_path':str((RUN/'baseline.json').relative_to(ROOT)),\n                           'baseline_sha256':hashlib.sha256((RUN/'baseline.json').read_bytes()).hexdigest(),\n                           'check_command':'python3 tmp/day8-20261007/four-multipoles/e0-completion/e0_completion.py',\n                           'write_command':'python3 tmp/day8-20261007/four-multipoles/e0-completion/e0_completion.py --write-receipt',\n                           'write_policy':'exclusive owned JSON creation; no changes to old artifact/canonical/report/raw/state/Git'},\n    }\n\n\ndef main():\n    parser=argparse.ArgumentParser(description=__doc__)\n    parser.add_argument('--write-receipt',action='store_true')\n    args=parser.parse_args()\n    result=build()\n    if args.write_receipt:\n        with OUT.open('x',encoding='utf-8',newline='\\n') as stream:\n            json.dump(result,stream,ensure_ascii=False,indent=2)\n            stream.write('\\n')\n    print(json.dumps({'artifact':str(OUT.relative_to(ROOT)) if args.write_receipt else None,\n                      'status':result['status'],'passed':result['checks']['passed'],'failures':0,\n                      'elapsed_seconds':result['checks']['elapsed_seconds'],\n                      'numeric_atomic_values_assigned':False,'run_closed':False},ensure_ascii=False,indent=2))\n\n\nif __name__=='__main__': main()\n",
+    "python": "3.12.3",
+    "sympy": "1.14.0",
+    "dependencies": "tmp/day8-20261007/rose-brink/python-deps",
+    "baseline_path": "outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/baseline.json",
+    "baseline_sha256": "ac73898f4f4e970a15d9fa9b6f3a6e876903bac44f9740c261a395cb4e0adc09",
+    "check_command": "python3 tmp/day8-20261007/four-multipoles/e0-completion/e0_completion.py",
+    "write_command": "python3 tmp/day8-20261007/four-multipoles/e0-completion/e0_completion.py --write-receipt",
+    "write_policy": "exclusive owned JSON creation; no changes to old artifact/canonical/report/raw/state/Git"
+  }
+}

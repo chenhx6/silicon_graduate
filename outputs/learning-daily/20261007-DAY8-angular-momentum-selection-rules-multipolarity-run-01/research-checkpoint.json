@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "event": "same-session-context-continuation",
+  "event": "LKH82-model-integrated-and-candidate-pool-rebuilt",
   "run_id": "prompt-2026-10-07-day-08",
   "session_id": "01a111fb-370d-7ed1-afe9-881ccc47caf4",
   "resume_command": "codex resume 01a111fb-370d-7ed1-afe9-881ccc47caf4 -C /workspace/wiki -s danger-full-access -a never",
@@ -13,16 +13,14 @@
   ],
   "course_state_updated": false,
   "runtime_snapshot": {
-    "now_local": "2026-10-07T16:01:45+08:00",
+    "now_local": "2026-10-07T18:22:53+08:00",
     "hard_deadline": "2026-10-08T15:00:00+08:00",
     "next_scheduled_start": "2026-10-08T16:00:00+08:00",
-    "minutes_to_deadline": 1378,
-    "minutes_to_next_start": 1438,
-    "minimum_current_block_minutes": 90,
-    "minimum_forward_card_block_minutes": 120,
-    "can_continue_current": true,
-    "can_complete_forward_card": true,
-    "decision": "continue-or-advance"
+    "minutes_to_deadline": 1237,
+    "minutes_to_next_start": 1297,
+    "decision": "continue-or-advance",
+    "permitted_next_card": "Day9 preview only; no credit",
+    "day_index": 8
   },
   "candidate_pool": [
     {
@@ -53,8 +51,8 @@
     },
     {
       "id": "day8-gamma-cascade-expansion",
-      "decision": "deferred",
-      "next_gain": "no cascade spins/gate supplied; extra synthetic cases would not change current exclusion boundary"
+      "decision": "selected-single-explicit-synthetic-companion",
+      "next_gain": "test information lost by tracing final spin using one independently assumed pureE2 secondary; no full inversion"
     },
     {
       "id": "day9-strength-input-chain",
@@ -74,18 +72,23 @@
     },
     {
       "id": "day8-caseC-complete-rank",
-      "decision": "bounded-local-route-complete; global pair in progress",
-      "next_gain": "positive local rank5 versus global ambiguity distinction"
+      "decision": "bounded-local-and-global-routes-complete",
+      "next_gain": "41-check local rank5 and 29-check global pair independently verified and written back"
     },
     {
       "id": "day8-U-E0-companion-completeness",
-      "decision": "selected-bounded-L2",
-      "next_gain": "test whether one total ICC and tau exclude calibrated-photon U pair when E0 is allowed"
+      "decision": "bounded-route-complete",
+      "next_gain": "47-check conditional completion; no-penetration baseline premise explicit"
     },
     {
       "id": "day8-LKH82-model-operator-boundary",
-      "decision": "selected-existing-source-reread",
-      "next_gain": "formal leading-M1 model zero, matrix-element suppression and high-multipole hierarchy conditions"
+      "decision": "bounded-route-complete",
+      "next_gain": "27-check generator-specific zero, same-order corrections, strength-scale loss and transfer assumptions canonicalized"
+    },
+    {
+      "id": "day8-penetration-ICC-boundary",
+      "decision": "selected-existing-source-bounded-L2",
+      "next_gain": "test how unknown nuclear penetration affects fixed ICC/E0 exclusions without inventing atomic coefficients"
     }
   ],
   "evidence_gaps": [
@@ -101,15 +104,22 @@
     {
       "knowledge": "knowledge/sources/lange-kumar-hamilton-1982-multipole-admixtures.md",
       "locator": "printed p.121 / PDF3 Eqs.2.2,2.3,2.5"
+    },
+    {
+      "knowledge": "knowledge/sources/lange-kumar-hamilton-1982-multipole-admixtures.md",
+      "locator": "pp.125–129 Eqs.3.9/3.21–3.24/3.31–3.40; p.131 model projection; pp.178–179 TableV/IBM-PPQ comparison"
+    },
+    {
+      "knowledge": "knowledge/sources/rose-brink-1967-phase-defined-angular-distributions.md",
+      "locator": "pp.325–326 Eqs.3.65–3.73 cascade; original fixed-population U certificate RB67-14"
     }
   ],
   "next_actions": [
-    "Case C global projected-link involution certificate",
-    "Day8 U-pair plus E0/total ICC/lifetime and shell companion-completeness algebra",
-    "LKH82 collective M1/operator and model/data-quality truncation boundary focused reread",
-    "2026-10-08 15:00 closeout, Day9 plan/prompt and gated state update"
+    "Day8 one synthetic cascade companion discriminant, existing RB67 only",
+    "Day8 LKH82 penetration dependence and ICC/E0 exclusion boundary",
+    "2026-10-08 15:00 closeout, formal DAY9 plan/prompt and normal gated state update"
   ],
-  "latest_verification": "checkpoint-FO-caseC-checks.json",
+  "latest_verification": "checkpoint-E0-globalC-checks.json",
   "checkpoint_verified": true,
   "latest_completed_route": {
     "id": "day8-fixed-population-global-pair",
@@ -123,17 +133,59 @@
   },
   "uncredited_preview": {
     "day": 9,
-    "status": "controls complete numerically; source/atomic input readiness in progress"
+    "status": "bounded preview input checks completed; author processing/coverage/covariance boundaries remain"
   },
   "knowledge_writeback_pages": 7,
   "ongoing_routes": [
-    "case-C complete six angular/polarization coefficients and exact local rank",
-    "Day9 five official FO theoretical ICC values and conditional forward ledger; no author-processing identification"
+    "Day8 one synthetic cascade companion discriminant, existing RB67 only",
+    "Day8 LKH82 penetration dependence and ICC/E0 exclusion boundary"
   ],
   "latest_publication": {
     "branch": "main",
-    "subject": "Verify DAY8 four-multipole ambiguity and DAY9 rate controls",
-    "H3_passed": true
+    "subject": "Add global multipole pair and independent ICC input audit",
+    "H3_passed": true,
+    "files": 16
   },
-  "FO_status": "5 model points, 2 N6-warning points; offline parent replay0 new queries"
+  "FO_status": "5 model points, 2 N6-warning points; offline parent replay0 new queries",
+  "handover_pending": [],
+  "learning_window_closed": false,
+  "continue_same_goal": true,
+  "new_parent_verified": {
+    "caseC_global": 29,
+    "E0_gamma_ICC_tau": 47,
+    "LKH82_model": 27
+  },
+  "new_canonical_claims": [
+    "RB67-16",
+    "LKH82-7"
+  ],
+  "report_and_writeback_updated": true,
+  "native_goal_active": true,
+  "checkpoint_002_observed": {
+    "queued_snapshot": "2026-10-07T04:19:49.569628+08:00",
+    "actual_processing": "2026-10-07T17:01:35+08:00",
+    "same_session": true
+  },
+  "completed_new_writeback": [
+    "RB67-16:Case C global29-check",
+    "LKH82-7:E0/all-shell ICC/τ47-check",
+    "LKH82-2:p179 IBM magnitudes/PPQ signs corrected by parent"
+  ],
+  "next_action": "parent verify cascade and penetration receipts; continuing checkpoint publication after checks",
+  "run_finalized": false,
+  "latest_clock_execution": {
+    "clock_event_id": "checkpoint-003",
+    "queued_snapshot_at": "2026-10-07T06:19:49.569386+08:00",
+    "processing_now": "2026-10-07T17:41:46+08:00",
+    "same_session_id": "01a111fb-370d-7ed1-afe9-881ccc47caf4",
+    "day_index": 8,
+    "course_credit_updated": false
+  },
+  "latest_local_checkpoint": {
+    "branch": "main",
+    "subject": "Clarify model zeros and companion observable limits for DAY8",
+    "owned_files": 17,
+    "publication_kind": "continuing-checkpoint",
+    "run_finalized": false
+  }
 }

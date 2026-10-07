@@ -73,6 +73,7 @@ tags: [Rose-Brink, angular-distribution, phase-convention, mixing-ratio, alignme
 | RB67-13 | For the explicitly synthetic 2+→2+ case with all M1/E2/M3/E4 retained and unknown aligned diagonal populations, the complete normalized pointwise direction/polarization matrix has four shape coefficients. An exact interior seed gives rank4 for five inputs and a fraction-changing local one-dimensional equal-observable family; fixed population gives local rank3 but no global uniqueness. These are our reconstruction and IFT application. | our-inference | indirect | premises: printed p.316 / PDF11 Eq.3.24 and polarization/WE paragraph; p.317 / PDF12 Eq.3.28 and rotation-product identity; p.319 / PDF14 Eq.3.36; p.324 / PDF19 Eqs.3.62–3.63 and same-initial-state companion paragraph | true |
 | RB67-14 | 在固定RB约定、完整M1/E2/M3/E4模型内，正交involution U保持S及四个方向/偏振二次型；给定严格正、非等权且已知布居，两个四成分全非零、分别局部rank3的向量仍有相同pointwise强度而不同γ份额。此为73-check精确全局pair与未观测final-channel unitary解释，不是作者实验结果或所有global branches的分类。 | our-inference | indirect | premises: printed p316 / PDF11 Eq3.24 and WE ordering; p317 / PDF12 Eq3.28; p318 / PDF13 Eq3.29; p319 / PDF14 Eqs3.35–3.39; construction in Four-Multipole Direction and Polarization Reconstruction | true |
 | RB67-15 | 合成3+→1+的完整E2/M3/E4、aligned population模型有六个normalized W/Δ系数；一个严格内域的6×5 Jacobian为rank5并给局部逆解。PureE2恒A6=C6=0，但isotropy或higher-response干涉可使K6消失。该41-check重构不证明全局唯一或实际spin/multipolarity赋值。 | our-inference | indirect | premises printed316/PDF11 Eq3.24; printed317/PDF12 Eq3.28; printed318/PDF13 Eq3.32 note(iii); printed319/PDF14 Eq3.36; synthetic reconstruction and exact minor in Supplement | true |
+| RB67-16 | 原合成3+→1+的六个方向/偏振二次型在一个正交link reflection下不变；两个三成分非零、五输入局部rank5的点仍有相同六coefficients而不同γ份额。pureE2的higher-mixture映像在B6非零时仍A6=C6=0。此29-check证书只给一组global ambiguity，不作实验/全局分类。 | our-inference | indirect | premises printed316/PDF11 Eq3.24/WE; printed317/PDF12 Eq3.28; printed319/PDF14 Eq3.36; synthetic link reflection in Case C Supplement | true |
 
 ## Summary
 
@@ -243,6 +244,22 @@ seed `(u,v,p0,p1,p2)=(1/2,1/3,1/4,1/4,1/4)` 的所有w严格正、三成分非�
 `A6/B6=−√33[45u²−14√35uv−v²+32√10v]/[264(1+u²+v²)]`。
 
 u=1/2时two real nonzero E4 roots为 `v=16√10−7√35/2±2√(750−140√14)`，A6 exact为0，C6不必为0。仅未见A6不能删M3/E4；population消失与response cancellation要分开。该spin组合的local rank结论校准前例2+→2+的五参数/四coefficients连续解：它们各自依赖给定的Ji/Jf与模型条件，不推广为所有spin组合的统一排解结论。
+
+### 合成C的全局反射：两个局部rank5分支
+
+进一步从θ0、q+ projected links `C_link` 独立构造 `C_linkᵀC_link=7I`。按(E2,M3,E4)次序，`U_C=C_link^−1 diag(1,−1,1) C_link`，即
+
+| U_C row / column | E2 | M3 | E4 |
+|---|---|---|---|
+| E2 | 5/21 | 2√14/21 | 2√10/7 |
+| M3 | 2√14/21 | 5/6 | −√35/14 |
+| E4 | 2√10/7 | −√35/14 | −1/14 |
+
+`U_C²=U_CᵀU_C=I`，六个完整homogeneous radiation quadratic forms均在此反射下exact不变。取a=(1,1/2,1/3)、b=U_Ca，保持physical S=49/36；b回到E2-reference chart约为(1,0.881128864,0.931661221)。三γ fractions从(36,9,4)/49变为约(0.378160375,0.293599206,0.328240419)，六coefficients的differences全0，两个full five-input Jacobians均rank5。Regauge只换relative-amplitude坐标；sameS指未除b_E2前的physical vectors。
+
+更简的pureE2 a=(1,0,0)映为(5/21,2√14/21,2√10/7)，alternative fractions=(25/441,8/63,40/49)。在same nonisotropic population、B6=−5√33/132≠0下，所有六coefficients同pureE2，A6=C6同时为0；两点special-map rank均4。因此即使两种K6都未出现，也不能单凭此删掉完整higher-candidate模型。主pair保留三成分全非零、两个regular rank5点，global多解结论没有仅靠这个special example。
+
+29项由主代理复现（约5.8s）。这里给一个projected-link reflection certificate，保留局部inverse的分支条件，没有分类全部global branches或外推其它spin、cascade、cross-direction coherence、complete photon quantum state。原文premises与前段相同：p316 Eq3.24/WE、p317 Eq3.28和p319 radiation coefficients；反射/matrix/pair是本任务推导，非作者实验。
 
 ## Human Review Triage
 

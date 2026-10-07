@@ -220,3 +220,7 @@ Navigation only: use this source with [[rezynkina-2017-graphical-extraction-mult
 | KB08-D8-1 | 1.4%已包括interpolation contribution；约0.3% interpolation accuracy不能再次独立叠加。默认table全局覆盖须保留N6等subshell例外及atomic/radius条件。 | our-inference | indirect | printed206 / PDF5 Table2 footnote; printed208 / PDF7 Sec.4.1.4; printed213 / PDF12 Sec.5.1; printed221 / PDF20 TableB.1 | true |
 | KB08-D8-2 | 2026-10-07官方FO查询的五个program Tot/K记录及两点N6缺项是独立理论输入；保留实际web v2.3(2011)、未用local v2.3d(2022)、data hash与质量边界，不作为实验ICC或Mu08所用处理的证据。 | model-result | direct | official https://bricc.anu.edu.au/ five Z60/E/pure-multipole response hashes in Supplement table; theory context printed206–208 / PDF5–7 | true |
 | KB08-D8-3 | 相同branch numbers作为photon或total fractions时，五条pure-mode forward γ-rate可不同；B2 382-keV差约−13.964%只度量条件敏感性，不识别作者实际定义或机制。 | our-inference | indirect | premises printed203 / PDF2 Eq.(3); Mu08 printed034311-3/PDF3 TableI B1I18/B2I15; Supplement forward table | true |
+
+### 新附录E0 electronic-factor locator（self-audit, needs_review）
+
+printed204 / PDF3 Sec3.1 Eqs6–7/11给ρ无量纲、Ω单位s⁻¹及T_s(E0)=ρ²Ω_s，并允许将K-shell式按Ω推广到其它shell。E0与singleγ不同，same-spin/parity方可使用；electron ΣΩ与pair Ω分别盘点。本日合成四γ+E0补全在[[lange-kumar-hamilton-1982-multipole-admixtures]]的LKH82-7，不把本页Mu08/FO lookup数字转给synthetic，也不改原人审状态。

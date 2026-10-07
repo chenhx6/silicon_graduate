@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "run_id": "prompt-2026-10-07-day-08",
+  "session_id": "01a111fb-370d-7ed1-afe9-881ccc47caf4",
+  "day_index": 8,
+  "publication_kind": "continuing-checkpoint",
+  "branch": "main",
+  "commit_subject": "Clarify model zeros and companion observable limits for DAY8",
+  "owned_files": [
+    "knowledge/methods/spin-parity-assignment.md",
+    "knowledge/observables/multipole-mixing-ratio.md",
+    "knowledge/sources/kibedi-2008-evaluation-theoretical-conversion-coefficients-bricc.md",
+    "knowledge/sources/lange-kumar-hamilton-1982-multipole-admixtures.md",
+    "knowledge/sources/rose-brink-1967-phase-defined-angular-distributions.md",
+    "outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity.md",
+    "system/handoff.md",
+    "outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/continuation-prompt.md",
+    "outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/run.json",
+    "outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/progress.jsonl",
+    "outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/research-checkpoint.json",
+    "outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/case-c-global-polarization-pair.json",
+    "outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/gamma-icc-lifetime-e0-completion.json",
+    "outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/lkh82-model-truncation-audit.json",
+    "outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/checkpoint-E0-globalC-checks.json",
+    "outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/checkpoint-model-checks.json",
+    "outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/checkpoint-05-manifest.json"
+  ],
+  "protected_baseline": "baseline.json",
+  "state_updated": false,
+  "run_finalized": false,
+  "active_research": [
+    "one synthetic cascade companion, existing RB67",
+    "penetration/ICC/E0 fixed-baseline assumptions",
+    "next-day15:00 closeout and formalDAY9 preparation"
+  ]
+}

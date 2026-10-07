@@ -60,6 +60,10 @@ No single rule is universal across detector geometry, reaction mechanism, and fe
 
 实际依赖反例见 [[multipole-mixing-ratio]] 的“布居未知时，角分布和偏振可以共享多极歧义”：在固定题设Jπ但布居分别为high-M/low-M时，pure E1/pure M2能给相同pointwise方向/偏振强度。因此增加一个measurement channel不自动消除共用population的条件推断；该L2反例不声明所有γ观测或真实核素都相同。独立布居校准须来自另一个已建立的约束，不能重用待判multipole拟合。依据 [[rose-brink-1967-phase-defined-angular-distributions]] RB67-10/11/12；实际实验还需响应、背景、gate/feeding与协方差。
 
+## Selection Exclusions and Model Zeros
+
+[[lange-kumar-hamilton-1982-multipole-admixtures]] LKH82-8–11 区分普遍 triangle/parity 过滤与 generator-only 模型零值。常数乘 total J 在 rotationally invariant H 中不连不同能量态，完整 M1 current 却不必与 J 成比例；模型项为零不能当作 measured forbidden/hindered 标签。指定模型还需同阶 operator 与 wave-function corrections，以及 long-wave、projection、pairing、configuration-space 条件。大 δ 丢失绝对尺度，不能取代 partial rate/B 与参考强度。自由振幅反例证明观测存在形式多解，真实核中的可实现性和先验可信度仍需独立模型与数据核验。
+
 ## Related Pages
 
 - [[angular-distribution]]
@@ -82,3 +86,5 @@ No single rule is universal across detector geometry, reaction mechanism, and fe
 RB67-14补充一个已知非等权布居的精确global pair：U保留S与所有normalized单γ方向/偏振二次型，四个γ份额不同而两个解各自local rank3。独立calibration与局部拟合的满秩不能单独排除离散global branch；完整候选、multi-start/global certificates及额外observable要按setup核验。此处数据为合成theory，73-check证书与fixed-convention/final-channel解释见[[rose-brink-1967-phase-defined-angular-distributions]]。
 
 RB67-15的合成3+→1+完整模型在指定内点为6×5 rank5，可局部联合约束relative amplitudes与population；这不等于Jπ标签或观测彼此独立，也不证明global唯一。PureE2恒K6零，isotropy/cancellation也能隐藏K6；数据/响应/全部候选和covariance须分别核验。
+
+RB67-16 further给CaseC两个local rank5但global同观测分支；一个higher mixture甚至在B6非零时与pureE2同全部curve、A6/C6均0。Full-model/global branches与观测灵敏度要在local parameter rank之外核验。合成证书不可作为实际spin/parity或measured higher-multipole结果。
