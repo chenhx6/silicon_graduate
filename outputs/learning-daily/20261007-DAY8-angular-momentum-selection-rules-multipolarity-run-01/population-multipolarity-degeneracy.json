@@ -1,0 +1,971 @@
+{
+  "schema_version": 1,
+  "created_utc": "2026-10-06T23:42:56.165520+00:00",
+  "kind": "synthetic-symbolic-population-multipolarity-degeneracy",
+  "learning_level": "L2",
+  "day_index": 8,
+  "evidence_status": "exact mathematical counterexample under explicit synthetic assumptions; no measured counts, fits, ICC values or L4 finding",
+  "source": {
+    "path": "knowledge/sources/rose-brink-1967-phase-defined-angular-distributions.md",
+    "doi": "10.1103/RevModPhys.39.306",
+    "raw_path": "raw/papers/gpt/high-spin-20260920/multipolarity/mixing ratio/1967_Rose et al_Angular Distributions of Gamma Rays in Terms of Phase-Defined Reduced Matrix Elements.pdf",
+    "raw_sha256": "8f846b61b9320de291ee5600126c5e286a0fe05968df819696816f0dc1ec57dc"
+  },
+  "fixed_common_inputs": {
+    "Ji": "3/2",
+    "initial_parity": "+",
+    "Jf": "1/2",
+    "final_parity": "-",
+    "allowed_photon_multipoles": [
+      "E1",
+      "M2"
+    ],
+    "photon_energy": "common fixed k, left symbolic; no measured energy is supplied"
+  },
+  "conventions": [
+    "RB initial-bra/final-ket interaction RME; a_Lpi=<Ji||T_Lpi||Jf>/sqrt(2L+1).",
+    "E1: pi=0; M2: pi=1; retain q^pi in Eq.3.24.",
+    "CG order is (Jf,L;Mf,Mi-Mf|Ji,Mi), including (-1)^(2L)=1 for L=1,2.",
+    "D=exp(-i*theta*Jy/hbar), computed as SymPy wigner_d_small(L,-theta).",
+    "Euler angles (0,theta,0); k=(sin(theta),0,cos(theta)), xprime=(cos(theta),0,-sin(theta)), yprime=(0,1,0).",
+    "Linear xprime uses A_minus-A_plus, yprime uses A_minus+A_plus; a common analyzer phase does not affect intensity.",
+    "The pure M2 case is constructed explicitly with (a_E1,a_M2)=(0,1), never using a finite delta or a delta limit.",
+    "A common radiative-amplitude unit A0 may multiply both case vectors; it is a hypothesis, not a measured strength."
+  ],
+  "source_locators": {
+    "amplitude": "printed p.316 / PDF p.11, Eq.3.24",
+    "WE_and_CG_order": "printed p.316 / PDF p.11, unnumbered Wigner-Eckart relation after Eq.3.25",
+    "linear_coherence": "printed p.316 / PDF p.11, paragraph between Eqs.3.24-3.25",
+    "D_rotation": "printed p.312 / PDF p.7, footnote7",
+    "B_definition": "printed p.317 / PDF p.12, Eq.3.28",
+    "rho_folded_population": "printed p.324 / PDF p.19, Eqs.3.62-3.63",
+    "rho_table": "printed p.347 / PDF p.42, J1=3/2 k=2 row, M1=1/2 and 3/2 columns",
+    "R0_and_gamma_rate": "printed p.318 / PDF p.13, Eqs.3.29 and 3.34",
+    "R2_geometry": "printed p.319 / PDF p.14, Eq.3.36; appendix printed p.339 / PDF p.34, Ji=3/2 Jf=1/2 row",
+    "same_initial_state_population_companion": "printed p.324 / PDF p.19, right-column paragraph beginning Sometimes the state J1 shows further decay modes"
+  },
+  "formulas": {
+    "amplitude": "Atilde_q=sum_L q^pi*sqrt(2L+1)*a_L*CG(Jf,L;Mf,Mi-Mf|Ji,Mi)*d_L(Mi-Mf,q)",
+    "normalization": "W=sum w|Atilde_q|^2/[2S], Ix=sum w|Atilde_minus-Atilde_plus|^2/[4S], Iy=sum w|Atilde_minus+Atilde_plus|^2/[4S]; S=sum|a_L|^2",
+    "x": "x=cos(theta); s=sin(theta/2), c=cos(theta/2), s^2+c^2=1",
+    "Q_Stokes": "(Ix-Iy)/(Ix+Iy), defined for these analysis axes, not detector sensitivity",
+    "matrix": "photon intensity matrix I_qqprime=sum w Atilde_q Atilde_qprime*/[2S]; its trace is W. This is distinct from the appendix statistical-tensor coefficient rho_K."
+  },
+  "cases": [
+    {
+      "name": "pure_E1_high_M",
+      "a_E1": "1",
+      "a_M2": "0",
+      "population": {
+        "-3/2": "1/2",
+        "3/2": "1/2"
+      },
+      "B": {
+        "0": "1",
+        "1": "0",
+        "2": "1",
+        "3": "0",
+        "4": "0"
+      },
+      "W": "3*(x**2 + 1)/4",
+      "Ix": "3*x**2/4",
+      "Iy": "3/4",
+      "Q_Stokes": "(x - 1)*(x + 1)/(x**2 + 1)",
+      "strength": "1",
+      "angular_average_W": "1",
+      "angular_average_raw_helicity_sum": "2",
+      "a2_from_amplitudes": "1/2",
+      "helicity_intensities": {
+        "-1": "3*(x**2 + 1)/8",
+        "1": "3*(x**2 + 1)/8"
+      },
+      "photon_intensity_matrix_minus_plus_basis": [
+        [
+          "3*(x**2 + 1)/8",
+          "-3*(x - 1)*(x + 1)/8"
+        ],
+        [
+          "-3*(x - 1)*(x + 1)/8",
+          "3*(x**2 + 1)/8"
+        ]
+      ],
+      "reduced_amplitudes": [
+        {
+          "Mi": "-3/2",
+          "Mf": "-1/2",
+          "q": -1,
+          "Atilde": "sqrt(3)*c**2"
+        },
+        {
+          "Mi": "-3/2",
+          "Mf": "-1/2",
+          "q": 1,
+          "Atilde": "sqrt(3)*s**2"
+        },
+        {
+          "Mi": "-3/2",
+          "Mf": "1/2",
+          "q": -1,
+          "Atilde": "0"
+        },
+        {
+          "Mi": "-3/2",
+          "Mf": "1/2",
+          "q": 1,
+          "Atilde": "0"
+        },
+        {
+          "Mi": "3/2",
+          "Mf": "-1/2",
+          "q": -1,
+          "Atilde": "0"
+        },
+        {
+          "Mi": "3/2",
+          "Mf": "-1/2",
+          "q": 1,
+          "Atilde": "0"
+        },
+        {
+          "Mi": "3/2",
+          "Mf": "1/2",
+          "q": -1,
+          "Atilde": "sqrt(3)*s**2"
+        },
+        {
+          "Mi": "3/2",
+          "Mf": "1/2",
+          "q": 1,
+          "Atilde": "sqrt(3)*c**2"
+        }
+      ],
+      "angle_controls": [
+        {
+          "theta_degrees": "0",
+          "W": "3/2",
+          "Ix": "3/4",
+          "Iy": "3/4",
+          "Q_Stokes": "0"
+        },
+        {
+          "theta_degrees": "90",
+          "W": "3/4",
+          "Ix": "0",
+          "Iy": "3/4",
+          "Q_Stokes": "-1"
+        },
+        {
+          "theta_degrees": "180",
+          "W": "3/2",
+          "Ix": "3/4",
+          "Iy": "3/4",
+          "Q_Stokes": "0"
+        }
+      ]
+    },
+    {
+      "name": "pure_M2_low_M",
+      "a_E1": "0",
+      "a_M2": "1",
+      "population": {
+        "-1/2": "1/2",
+        "1/2": "1/2"
+      },
+      "B": {
+        "0": "1",
+        "1": "0",
+        "2": "-1",
+        "3": "0",
+        "4": "0"
+      },
+      "W": "3*(x**2 + 1)/4",
+      "Ix": "3*x**2/4",
+      "Iy": "3/4",
+      "Q_Stokes": "(x - 1)*(x + 1)/(x**2 + 1)",
+      "strength": "1",
+      "angular_average_W": "1",
+      "angular_average_raw_helicity_sum": "2",
+      "a2_from_amplitudes": "1/2",
+      "helicity_intensities": {
+        "-1": "3*(x**2 + 1)/8",
+        "1": "3*(x**2 + 1)/8"
+      },
+      "photon_intensity_matrix_minus_plus_basis": [
+        [
+          "3*(x**2 + 1)/8",
+          "-3*(x - 1)*(x + 1)/8"
+        ],
+        [
+          "-3*(x - 1)*(x + 1)/8",
+          "3*(x**2 + 1)/8"
+        ]
+      ],
+      "reduced_amplitudes": [
+        {
+          "Mi": "-1/2",
+          "Mf": "-1/2",
+          "q": -1,
+          "Atilde": "-2*sqrt(3)*c**3*s + 2*sqrt(3)*c*s**3"
+        },
+        {
+          "Mi": "-1/2",
+          "Mf": "-1/2",
+          "q": 1,
+          "Atilde": "-2*sqrt(3)*c**3*s + 2*sqrt(3)*c*s**3"
+        },
+        {
+          "Mi": "-1/2",
+          "Mf": "1/2",
+          "q": -1,
+          "Atilde": "-sqrt(3)*c**4 + 3*sqrt(3)*c**2*s**2"
+        },
+        {
+          "Mi": "-1/2",
+          "Mf": "1/2",
+          "q": 1,
+          "Atilde": "3*sqrt(3)*c**2*s**2 - sqrt(3)*s**4"
+        },
+        {
+          "Mi": "1/2",
+          "Mf": "-1/2",
+          "q": -1,
+          "Atilde": "3*sqrt(3)*c**2*s**2 - sqrt(3)*s**4"
+        },
+        {
+          "Mi": "1/2",
+          "Mf": "-1/2",
+          "q": 1,
+          "Atilde": "-sqrt(3)*c**4 + 3*sqrt(3)*c**2*s**2"
+        },
+        {
+          "Mi": "1/2",
+          "Mf": "1/2",
+          "q": -1,
+          "Atilde": "2*sqrt(3)*c**3*s - 2*sqrt(3)*c*s**3"
+        },
+        {
+          "Mi": "1/2",
+          "Mf": "1/2",
+          "q": 1,
+          "Atilde": "2*sqrt(3)*c**3*s - 2*sqrt(3)*c*s**3"
+        }
+      ],
+      "angle_controls": [
+        {
+          "theta_degrees": "0",
+          "W": "3/2",
+          "Ix": "3/4",
+          "Iy": "3/4",
+          "Q_Stokes": "0"
+        },
+        {
+          "theta_degrees": "90",
+          "W": "3/4",
+          "Ix": "0",
+          "Iy": "3/4",
+          "Q_Stokes": "-1"
+        },
+        {
+          "theta_degrees": "180",
+          "W": "3/2",
+          "Ix": "3/4",
+          "Iy": "3/4",
+          "Q_Stokes": "0"
+        }
+      ]
+    }
+  ],
+  "comparison": {
+    "outcome": "identical_pointwise_direction_and_polarization_intensities",
+    "scope": "Equality is pointwise in theta for W, Ix, Iy and the local 2x2 helicity intensity matrix. Coherence between different photon directions, gamma-gamma correlations and nuclear final-state observables are outside this calculation.",
+    "differences": {
+      "W": "0",
+      "Ix": "0",
+      "Iy": "0"
+    },
+    "photon_intensity_matrix_difference": [
+      [
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0"
+      ]
+    ],
+    "radiative_strengths_equal": true
+  },
+  "B2_table_check": {
+    "printed_values": {
+      "rho2_M_half": "-2.0000",
+      "rho2_M_three_halves": "2.0000"
+    },
+    "exact_values": {
+      "rho2_M_half": "-2",
+      "rho2_M_three_halves": "2"
+    },
+    "folded_calculation": "B2_E1=(1/2)*(+2)=+1; B2_M2=(1/2)*(-2)=-1. The appendix rho already includes the factor 2.",
+    "image": "tmp/day8-20261007/rose-brink/p347-pdf42.png",
+    "R2_values": {
+      "E1": "1/2",
+      "M2": "-1/2"
+    },
+    "a2_product": "B2*R2=+1/2 in both cases; direct amplitudes independently reproduce the product"
+  },
+  "gamma_width_and_lifetime": {
+    "each_normalized_angular_average_W": "1",
+    "each_raw_helicity_angular_average": "2",
+    "Gamma_gamma": "4*k*|A0|^2*S, S=1 in both cases, for this same fixed-energy final-state branch",
+    "lambda_gamma": "Gamma_gamma/hbar; equality assumes the common amplitude unit A0 and common k",
+    "not_a_strength_measurement": "Choosing S=1 sets a common radiative scale. Bare E1 and M2 nuclear RMEs have different physical units and energy factors; no B-value or observed width is supplied.",
+    "total_lifetime_boundary": "lambda_total=lambda_gamma_target*(1+alpha_target)+lambda_other_decays; other gamma branches, conversion, pair/E0 or other channels require their own conditions.",
+    "one_branch_gamma_conversion_only": "tau_E1=hbar/[Gamma_gamma*(1+alpha_E1)], tau_M2=hbar/[Gamma_gamma*(1+alpha_M2)]. Equal gamma widths do not imply equal total lifetimes.",
+    "E0_for_this_target": "Forbidden for this specified 3/2->1/2 branch; other same-spin final-state branches can still affect the parent total lifetime.",
+    "ICC_provenance": "These lifetime/ICC companion conditions are general background; no E1/M2 numerical ICC lookup or atomic-coefficient table audit was performed."
+  },
+  "assumptions_versus_observables": {
+    "assumed": [
+      "Ji/Jf/parities",
+      "pure E1 versus pure M2",
+      "each alternative magnetic-substate population",
+      "common radiative amplitude scale and photon k",
+      "ideal geometry and source-defined polarization axes"
+    ],
+    "calculated_not_measured": [
+      "all W/Ix/Iy curves",
+      "B2=+1 or -1",
+      "gamma-width equality at the chosen scale",
+      "Q_Stokes"
+    ],
+    "inverse_problem_boundary": "An observed agreement with these gamma curves would constrain population and multipolarity jointly. It would not independently identify either pure multipole or either population."
+  },
+  "possible_independent_companions": {
+    "alignment": "Determine B2, including its sign and uncertainty, from a separately established transition from the same initial level with known nonzero R2, matching event/gate/feeding selection. Then compare A2_ref=B2*R2_ref.",
+    "alignment_limits": "Fitting B2 from the very E1/M2 branch after assuming its multipole is circular. A Gaussian sigma prescription or reaction-model prior alone is an additional assumption, not an independent measured alignment.",
+    "ICC": "Measure a response/geometry-corrected electron-to-gamma conversion coefficient for a specified shell (or shell-summed total), with known Z and transition energy, and compare E1/M2 predictions with uncertainties and any relevant atomic/penetration conditions.",
+    "ICC_limits": "It can separate the two specified branches only if the theoretical and measured intervals discriminate them. No Z, energy, coefficient or measured electron intensity is supplied here.",
+    "lifetime": "Lifetime becomes a companion only with complete branches and conversion accounting or independent strength/ICC constraints; a total lifetime alone does not uniquely choose a multipole.",
+    "scope": "These are candidate designs for this Day8 inverse-problem boundary, not new data, a new source batch, another course card or a general guarantee of unique assignment."
+  },
+  "negative_and_phase_controls": {
+    "M2_with_fixed_high_population": {
+      "name": "pure_M2_high_M_population_control",
+      "a_E1": "0",
+      "a_M2": "1",
+      "population": {
+        "-3/2": "1/2",
+        "3/2": "1/2"
+      },
+      "B": {
+        "0": "1",
+        "1": "0",
+        "2": "1",
+        "3": "0",
+        "4": "0"
+      },
+      "W": "-(3*x**2 - 5)/4",
+      "Ix": "-(3*x**2 - 4)/4",
+      "Iy": "1/4",
+      "Q_Stokes": "3*(x - 1)*(x + 1)/(3*x**2 - 5)",
+      "strength": "1",
+      "angular_average_W": "1",
+      "angular_average_raw_helicity_sum": "2",
+      "a2_from_amplitudes": "-1/2",
+      "helicity_intensities": {
+        "-1": "-(3*x**2 - 5)/8",
+        "1": "-(3*x**2 - 5)/8"
+      },
+      "photon_intensity_matrix_minus_plus_basis": [
+        [
+          "-(3*x**2 - 5)/8",
+          "3*(x - 1)*(x + 1)/8"
+        ],
+        [
+          "3*(x - 1)*(x + 1)/8",
+          "-(3*x**2 - 5)/8"
+        ]
+      ],
+      "reduced_amplitudes": [
+        {
+          "Mi": "-3/2",
+          "Mf": "-1/2",
+          "q": -1,
+          "Atilde": "c**4 - 3*c**2*s**2"
+        },
+        {
+          "Mi": "-3/2",
+          "Mf": "-1/2",
+          "q": 1,
+          "Atilde": "-3*c**2*s**2 + s**4"
+        },
+        {
+          "Mi": "-3/2",
+          "Mf": "1/2",
+          "q": -1,
+          "Atilde": "-4*c**3*s"
+        },
+        {
+          "Mi": "-3/2",
+          "Mf": "1/2",
+          "q": 1,
+          "Atilde": "4*c*s**3"
+        },
+        {
+          "Mi": "3/2",
+          "Mf": "-1/2",
+          "q": -1,
+          "Atilde": "-4*c*s**3"
+        },
+        {
+          "Mi": "3/2",
+          "Mf": "-1/2",
+          "q": 1,
+          "Atilde": "4*c**3*s"
+        },
+        {
+          "Mi": "3/2",
+          "Mf": "1/2",
+          "q": -1,
+          "Atilde": "-3*c**2*s**2 + s**4"
+        },
+        {
+          "Mi": "3/2",
+          "Mf": "1/2",
+          "q": 1,
+          "Atilde": "c**4 - 3*c**2*s**2"
+        }
+      ],
+      "angle_controls": [
+        {
+          "theta_degrees": "0",
+          "W": "1/2",
+          "Ix": "1/4",
+          "Iy": "1/4",
+          "Q_Stokes": "0"
+        },
+        {
+          "theta_degrees": "90",
+          "W": "5/4",
+          "Ix": "1",
+          "Iy": "1/4",
+          "Q_Stokes": "3/5"
+        },
+        {
+          "theta_degrees": "180",
+          "W": "1/2",
+          "Ix": "1/4",
+          "Iy": "1/4",
+          "Q_Stokes": "0"
+        }
+      ]
+    },
+    "E1_with_fixed_low_population": {
+      "name": "pure_E1_low_M_population_control",
+      "a_E1": "1",
+      "a_M2": "0",
+      "population": {
+        "-1/2": "1/2",
+        "1/2": "1/2"
+      },
+      "B": {
+        "0": "1",
+        "1": "0",
+        "2": "-1",
+        "3": "0",
+        "4": "0"
+      },
+      "W": "-(3*x**2 - 5)/4",
+      "Ix": "-(3*x**2 - 4)/4",
+      "Iy": "1/4",
+      "Q_Stokes": "3*(x - 1)*(x + 1)/(3*x**2 - 5)",
+      "strength": "1",
+      "angular_average_W": "1",
+      "angular_average_raw_helicity_sum": "2",
+      "a2_from_amplitudes": "-1/2",
+      "helicity_intensities": {
+        "-1": "-(3*x**2 - 5)/8",
+        "1": "-(3*x**2 - 5)/8"
+      },
+      "photon_intensity_matrix_minus_plus_basis": [
+        [
+          "-(3*x**2 - 5)/8",
+          "3*(x - 1)*(x + 1)/8"
+        ],
+        [
+          "3*(x - 1)*(x + 1)/8",
+          "-(3*x**2 - 5)/8"
+        ]
+      ],
+      "reduced_amplitudes": [
+        {
+          "Mi": "-1/2",
+          "Mf": "-1/2",
+          "q": -1,
+          "Atilde": "-2*c*s"
+        },
+        {
+          "Mi": "-1/2",
+          "Mf": "-1/2",
+          "q": 1,
+          "Atilde": "2*c*s"
+        },
+        {
+          "Mi": "-1/2",
+          "Mf": "1/2",
+          "q": -1,
+          "Atilde": "c**2"
+        },
+        {
+          "Mi": "-1/2",
+          "Mf": "1/2",
+          "q": 1,
+          "Atilde": "s**2"
+        },
+        {
+          "Mi": "1/2",
+          "Mf": "-1/2",
+          "q": -1,
+          "Atilde": "s**2"
+        },
+        {
+          "Mi": "1/2",
+          "Mf": "-1/2",
+          "q": 1,
+          "Atilde": "c**2"
+        },
+        {
+          "Mi": "1/2",
+          "Mf": "1/2",
+          "q": -1,
+          "Atilde": "-2*c*s"
+        },
+        {
+          "Mi": "1/2",
+          "Mf": "1/2",
+          "q": 1,
+          "Atilde": "2*c*s"
+        }
+      ],
+      "angle_controls": [
+        {
+          "theta_degrees": "0",
+          "W": "1/2",
+          "Ix": "1/4",
+          "Iy": "1/4",
+          "Q_Stokes": "0"
+        },
+        {
+          "theta_degrees": "90",
+          "W": "5/4",
+          "Ix": "1",
+          "Iy": "1/4",
+          "Q_Stokes": "3/5"
+        },
+        {
+          "theta_degrees": "180",
+          "W": "1/2",
+          "Ix": "1/4",
+          "Iy": "1/4",
+          "Q_Stokes": "0"
+        }
+      ]
+    },
+    "isotropic_E1": {
+      "name": "pure_E1_isotropic",
+      "a_E1": "1",
+      "a_M2": "0",
+      "population": {
+        "-3/2": "1/4",
+        "-1/2": "1/4",
+        "1/2": "1/4",
+        "3/2": "1/4"
+      },
+      "B": {
+        "0": "1",
+        "1": "0",
+        "2": "0",
+        "3": "0",
+        "4": "0"
+      },
+      "W": "1",
+      "Ix": "1/2",
+      "Iy": "1/2",
+      "Q_Stokes": "0",
+      "strength": "1",
+      "angular_average_W": "1",
+      "angular_average_raw_helicity_sum": "2",
+      "a2_from_amplitudes": "0",
+      "helicity_intensities": {
+        "-1": "1/2",
+        "1": "1/2"
+      },
+      "photon_intensity_matrix_minus_plus_basis": [
+        [
+          "1/2",
+          "0"
+        ],
+        [
+          "0",
+          "1/2"
+        ]
+      ],
+      "reduced_amplitudes": [
+        {
+          "Mi": "-3/2",
+          "Mf": "-1/2",
+          "q": -1,
+          "Atilde": "sqrt(3)*c**2"
+        },
+        {
+          "Mi": "-3/2",
+          "Mf": "-1/2",
+          "q": 1,
+          "Atilde": "sqrt(3)*s**2"
+        },
+        {
+          "Mi": "-3/2",
+          "Mf": "1/2",
+          "q": -1,
+          "Atilde": "0"
+        },
+        {
+          "Mi": "-3/2",
+          "Mf": "1/2",
+          "q": 1,
+          "Atilde": "0"
+        },
+        {
+          "Mi": "-1/2",
+          "Mf": "-1/2",
+          "q": -1,
+          "Atilde": "-2*c*s"
+        },
+        {
+          "Mi": "-1/2",
+          "Mf": "-1/2",
+          "q": 1,
+          "Atilde": "2*c*s"
+        },
+        {
+          "Mi": "-1/2",
+          "Mf": "1/2",
+          "q": -1,
+          "Atilde": "c**2"
+        },
+        {
+          "Mi": "-1/2",
+          "Mf": "1/2",
+          "q": 1,
+          "Atilde": "s**2"
+        },
+        {
+          "Mi": "1/2",
+          "Mf": "-1/2",
+          "q": -1,
+          "Atilde": "s**2"
+        },
+        {
+          "Mi": "1/2",
+          "Mf": "-1/2",
+          "q": 1,
+          "Atilde": "c**2"
+        },
+        {
+          "Mi": "1/2",
+          "Mf": "1/2",
+          "q": -1,
+          "Atilde": "-2*c*s"
+        },
+        {
+          "Mi": "1/2",
+          "Mf": "1/2",
+          "q": 1,
+          "Atilde": "2*c*s"
+        },
+        {
+          "Mi": "3/2",
+          "Mf": "-1/2",
+          "q": -1,
+          "Atilde": "0"
+        },
+        {
+          "Mi": "3/2",
+          "Mf": "-1/2",
+          "q": 1,
+          "Atilde": "0"
+        },
+        {
+          "Mi": "3/2",
+          "Mf": "1/2",
+          "q": -1,
+          "Atilde": "sqrt(3)*s**2"
+        },
+        {
+          "Mi": "3/2",
+          "Mf": "1/2",
+          "q": 1,
+          "Atilde": "sqrt(3)*c**2"
+        }
+      ],
+      "angle_controls": [
+        {
+          "theta_degrees": "0",
+          "W": "1",
+          "Ix": "1/2",
+          "Iy": "1/2",
+          "Q_Stokes": "0"
+        },
+        {
+          "theta_degrees": "90",
+          "W": "1",
+          "Ix": "1/2",
+          "Iy": "1/2",
+          "Q_Stokes": "0"
+        },
+        {
+          "theta_degrees": "180",
+          "W": "1",
+          "Ix": "1/2",
+          "Iy": "1/2",
+          "Q_Stokes": "0"
+        }
+      ]
+    },
+    "isotropic_M2": {
+      "name": "pure_M2_isotropic",
+      "a_E1": "0",
+      "a_M2": "1",
+      "population": {
+        "-3/2": "1/4",
+        "-1/2": "1/4",
+        "1/2": "1/4",
+        "3/2": "1/4"
+      },
+      "B": {
+        "0": "1",
+        "1": "0",
+        "2": "0",
+        "3": "0",
+        "4": "0"
+      },
+      "W": "1",
+      "Ix": "1/2",
+      "Iy": "1/2",
+      "Q_Stokes": "0",
+      "strength": "1",
+      "angular_average_W": "1",
+      "angular_average_raw_helicity_sum": "2",
+      "a2_from_amplitudes": "0",
+      "helicity_intensities": {
+        "-1": "1/2",
+        "1": "1/2"
+      },
+      "photon_intensity_matrix_minus_plus_basis": [
+        [
+          "1/2",
+          "0"
+        ],
+        [
+          "0",
+          "1/2"
+        ]
+      ],
+      "reduced_amplitudes": [
+        {
+          "Mi": "-3/2",
+          "Mf": "-1/2",
+          "q": -1,
+          "Atilde": "c**4 - 3*c**2*s**2"
+        },
+        {
+          "Mi": "-3/2",
+          "Mf": "-1/2",
+          "q": 1,
+          "Atilde": "-3*c**2*s**2 + s**4"
+        },
+        {
+          "Mi": "-3/2",
+          "Mf": "1/2",
+          "q": -1,
+          "Atilde": "-4*c**3*s"
+        },
+        {
+          "Mi": "-3/2",
+          "Mf": "1/2",
+          "q": 1,
+          "Atilde": "4*c*s**3"
+        },
+        {
+          "Mi": "-1/2",
+          "Mf": "-1/2",
+          "q": -1,
+          "Atilde": "-2*sqrt(3)*c**3*s + 2*sqrt(3)*c*s**3"
+        },
+        {
+          "Mi": "-1/2",
+          "Mf": "-1/2",
+          "q": 1,
+          "Atilde": "-2*sqrt(3)*c**3*s + 2*sqrt(3)*c*s**3"
+        },
+        {
+          "Mi": "-1/2",
+          "Mf": "1/2",
+          "q": -1,
+          "Atilde": "-sqrt(3)*c**4 + 3*sqrt(3)*c**2*s**2"
+        },
+        {
+          "Mi": "-1/2",
+          "Mf": "1/2",
+          "q": 1,
+          "Atilde": "3*sqrt(3)*c**2*s**2 - sqrt(3)*s**4"
+        },
+        {
+          "Mi": "1/2",
+          "Mf": "-1/2",
+          "q": -1,
+          "Atilde": "3*sqrt(3)*c**2*s**2 - sqrt(3)*s**4"
+        },
+        {
+          "Mi": "1/2",
+          "Mf": "-1/2",
+          "q": 1,
+          "Atilde": "-sqrt(3)*c**4 + 3*sqrt(3)*c**2*s**2"
+        },
+        {
+          "Mi": "1/2",
+          "Mf": "1/2",
+          "q": -1,
+          "Atilde": "2*sqrt(3)*c**3*s - 2*sqrt(3)*c*s**3"
+        },
+        {
+          "Mi": "1/2",
+          "Mf": "1/2",
+          "q": 1,
+          "Atilde": "2*sqrt(3)*c**3*s - 2*sqrt(3)*c*s**3"
+        },
+        {
+          "Mi": "3/2",
+          "Mf": "-1/2",
+          "q": -1,
+          "Atilde": "-4*c*s**3"
+        },
+        {
+          "Mi": "3/2",
+          "Mf": "-1/2",
+          "q": 1,
+          "Atilde": "4*c**3*s"
+        },
+        {
+          "Mi": "3/2",
+          "Mf": "1/2",
+          "q": -1,
+          "Atilde": "-3*c**2*s**2 + s**4"
+        },
+        {
+          "Mi": "3/2",
+          "Mf": "1/2",
+          "q": 1,
+          "Atilde": "c**4 - 3*c**2*s**2"
+        }
+      ],
+      "angle_controls": [
+        {
+          "theta_degrees": "0",
+          "W": "1",
+          "Ix": "1/2",
+          "Iy": "1/2",
+          "Q_Stokes": "0"
+        },
+        {
+          "theta_degrees": "90",
+          "W": "1",
+          "Ix": "1/2",
+          "Iy": "1/2",
+          "Q_Stokes": "0"
+        },
+        {
+          "theta_degrees": "180",
+          "W": "1",
+          "Ix": "1/2",
+          "Iy": "1/2",
+          "Q_Stokes": "0"
+        }
+      ]
+    },
+    "global_M2_amplitude_sign": "a_M2=+1 -> -1 leaves its full photon intensity matrix unchanged; a pure amplitude global phase is unobservable.",
+    "invalid_M2_q_phase": {
+      "W": "3*(x**2 + 1)/4",
+      "Ix": "3/4",
+      "Iy": "3*x**2/4",
+      "meaning": "Deliberately erasing q^pi preserves helicity-summed W but changes linear polarization. This is an invalid implementation for the specified parity, not another allowed physical multipole."
+    }
+  },
+  "exact_checks": {
+    "E1_high_population_normalized": true,
+    "E1_high_B0_one": true,
+    "E1_high_odd_B_zero": true,
+    "E1_high_B4_zero": true,
+    "E1_high_pure_strength_one": true,
+    "E1_high_R0_one": true,
+    "E1_high_amplitude_a2_equals_B2_R2": true,
+    "E1_high_W_has_only_P0_P2": true,
+    "E1_high_W_angular_average_one": true,
+    "E1_high_raw_helicity_average_2_strength": true,
+    "E1_high_linear_sum_equals_helicity_sum": true,
+    "E1_high_photon_matrix_trace_equals_W": true,
+    "E1_high_photon_matrix_symmetric": true,
+    "E1_high_helicities_equal": true,
+    "E1_high_theta_0_normalization": true,
+    "E1_high_theta_90_normalization": true,
+    "E1_high_theta_180_normalization": true,
+    "M2_low_population_normalized": true,
+    "M2_low_B0_one": true,
+    "M2_low_odd_B_zero": true,
+    "M2_low_B4_zero": true,
+    "M2_low_pure_strength_one": true,
+    "M2_low_R0_one": true,
+    "M2_low_amplitude_a2_equals_B2_R2": true,
+    "M2_low_W_has_only_P0_P2": true,
+    "M2_low_W_angular_average_one": true,
+    "M2_low_raw_helicity_average_2_strength": true,
+    "M2_low_linear_sum_equals_helicity_sum": true,
+    "M2_low_photon_matrix_trace_equals_W": true,
+    "M2_low_photon_matrix_symmetric": true,
+    "M2_low_helicities_equal": true,
+    "M2_low_theta_0_normalization": true,
+    "M2_low_theta_90_normalization": true,
+    "M2_low_theta_180_normalization": true,
+    "E1_high_B2_from_Eq3_28_one": true,
+    "M2_low_B2_from_Eq3_28_minus_one": true,
+    "rho2_table_M_half_minus_two": true,
+    "rho2_table_M_three_halves_plus_two": true,
+    "folded_table_matches_E1_B2": true,
+    "folded_table_matches_M2_B2": true,
+    "isotropic_E1_W_one_Ix_Iy_half": true,
+    "isotropic_M2_W_one_Ix_Iy_half": true,
+    "fixed_high_population_switch_multipole_changes_W": true,
+    "fixed_low_population_switch_multipole_changes_W": true,
+    "pure_global_sign_has_no_photon_effect": true,
+    "invalid_magnetic_q_phase_leaves_W": true,
+    "invalid_magnetic_q_phase_changes_linear_intensities": true,
+    "d_spin1_theta0_identity": true,
+    "d_spin2_theta0_identity": true,
+    "protected_30_check_artifact_bytes_unchanged": true
+  },
+  "coverage_increment": "Rechecked the p.347 J1=3/2 k=2 two-column row and p.324 Eqs.3.62-3.63 plus the same-parent decay-mode paragraph; applies previously image-locked Eq.3.24/WE/d conventions. No new source, full appendix read or new card is claimed.",
+  "prior_30_check_artifact": {
+    "path": "outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/polarization-branches.json",
+    "sha256_start": "099300006d0bd892c4b63f00d5b9b3f9ffd6d004fb3da34a4dc2aa78b8c3e5ab",
+    "sha256_end": "099300006d0bd892c4b63f00d5b9b3f9ffd6d004fb3da34a4dc2aa78b8c3e5ab",
+    "modified_by_this_task": false
+  },
+  "reproduction": {
+    "python": "3.12.3",
+    "sympy": "1.14.0",
+    "mpmath": "1.3.0",
+    "dependencies": "Existing isolated tmp/day8-20261007/rose-brink/python-deps",
+    "run_command": "python3 tmp/day8-20261007/rose-brink/population_multipolarity_degeneracy.py",
+    "script_sha256": "8879f084d556d823689d98e7d919db33077826f9f7f1d7ebdffe588a27a7d3c3",
+    "script_source": "#!/usr/bin/env python3\n\"\"\"Independent pure E1/high-M and pure M2/low-M RB amplitude reconstruction.\"\"\"\nfrom pathlib import Path\nimport datetime\nimport hashlib\nimport json\nimport platform\nimport sys\n\nROOT = Path('/workspace/wiki')\nTMP = ROOT / 'tmp/day8-20261007/rose-brink'\nsys.path.insert(0, str(TMP / 'python-deps'))\nimport sympy as sp\nimport mpmath\nfrom sympy.physics.wigner import clebsch_gordan, racah, wigner_d_small\n\nJI, JF = sp.Rational(3, 2), sp.Rational(1, 2)\nTHETA, X, S, C = sp.symbols('theta x s c', real=True)\nMI_VALUES, MF_VALUES, Q_VALUES = (-JI, -JF, JF, JI), (-JF, JF), (-1, 1)\nHIGH = {-JI: sp.Rational(1, 2), JI: sp.Rational(1, 2)}\nLOW = {-JF: sp.Rational(1, 2), JF: sp.Rational(1, 2)}\nISO = {mi: sp.Rational(1, 4) for mi in MI_VALUES}\nDX = {L: wigner_d_small(L, -THETA) for L in (1, 2)}\nD = {L: matrix.subs({sp.sin(THETA / 2): S, sp.cos(THETA / 2): C}) for L, matrix in DX.items()}\nRUN = ROOT / 'outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01'\nPROTECTED = RUN / 'polarization-branches.json'\nPROTECTED_HASH_START = hashlib.sha256(PROTECTED.read_bytes()).hexdigest()\n\n\ndef reduce_circle(expr):\n    numerator, denominator = sp.together(expr).as_numer_denom()\n    remainder = sp.reduced(sp.expand(numerator), [S**2 + C**2 - 1], S, C, extension=True)[1]\n    return sp.factor(remainder / denominator)\n\n\ndef as_x(expr):\n    numerator, denominator = sp.together(reduce_circle(expr)).as_numer_denom()\n    if numerator.has(S) or denominator.has(S, C):\n        raise ValueError('Cannot rewrite this expression using cos(theta).')\n    result = 0\n    for (power,), coefficient in sp.Poly(numerator, C).terms():\n        if power % 2:\n            raise ValueError('Odd half-angle cosine power remains.')\n        result += coefficient * ((1 + X) / 2)**(power // 2)\n    return sp.factor(result / denominator)\n\n\ndef B(K, weights):\n    return sp.simplify(sum(weight * sp.Integer(-1)**(JI - mi) * sp.sqrt(2 * JI + 1)\n                          * clebsch_gordan(JI, JI, K, mi, -mi, 0)\n                          for mi, weight in weights.items()))\n\n\ndef rho(K, mi):\n    return sp.simplify((2 - (1 if mi == 0 else 0)) * sp.Integer(-1)**(JI - mi)\n                       * sp.sqrt(2 * JI + 1) * clebsch_gordan(JI, JI, K, mi, -mi, 0))\n\n\ndef R(K, L):\n    return sp.simplify(sp.Integer(-1)**(1 + JI - JF - K)\n                       * sp.sqrt((2 * JI + 1) * (2 * L + 1)**2)\n                       * clebsch_gordan(L, L, K, 1, -1, 0)\n                       * racah(JI, JI, L, L, K, JF))\n\n\ndef build_case(name, a_E1, a_M2, weights, invalid_magnetic_helicity=False):\n    \"\"\"Both pure cases use explicit amplitude vectors; no delta or limit.\"\"\"\n    coefficients = [(1, 0, sp.sympify(a_E1)), (2, 1, sp.sympify(a_M2))]\n    strength = sp.simplify(a_E1**2 + a_M2**2)\n    if strength == 0:\n        raise ValueError('No radiation amplitude.')\n    amplitudes = {}\n    for mi in weights:\n        for mf in MF_VALUES:\n            M = mi - mf\n            for q in Q_VALUES:\n                value = 0\n                for L, pi, amplitude in coefficients:\n                    if amplitude == 0 or abs(M) > L:\n                        continue\n                    effective_pi = 0 if invalid_magnetic_helicity else pi\n                    value += (sp.Integer(q)**effective_pi * sp.Integer(-1)**(2 * L)\n                              * sp.sqrt(2 * L + 1) * amplitude\n                              * clebsch_gordan(JF, L, JI, mf, M, mi)\n                              * D[L][int(L - M), int(L - q)])\n                amplitudes[mi, mf, q] = sp.expand(value)\n    raw_helicity = {q: sum(weight * amplitudes[mi, mf, q]**2\n                           for mi, weight in weights.items() for mf in MF_VALUES) for q in Q_VALUES}\n    helicity = {q: as_x(value / (2 * strength)) for q, value in raw_helicity.items()}\n    W = sp.factor(helicity[-1] + helicity[1])\n    Ix = as_x(sum(weight * (amplitudes[mi, mf, -1] - amplitudes[mi, mf, 1])**2\n                  for mi, weight in weights.items() for mf in MF_VALUES) / (4 * strength))\n    Iy = as_x(sum(weight * (amplitudes[mi, mf, -1] + amplitudes[mi, mf, 1])**2\n                  for mi, weight in weights.items() for mf in MF_VALUES) / (4 * strength))\n    intensity_matrix = sp.Matrix(2, 2, lambda i, j: as_x(\n        sum(weight * amplitudes[mi, mf, Q_VALUES[i]] * amplitudes[mi, mf, Q_VALUES[j]]\n            for mi, weight in weights.items() for mf in MF_VALUES) / (2 * strength)))\n    raw_average = sp.simplify(sp.integrate(as_x(raw_helicity[-1] + raw_helicity[1]), (X, -1, 1)) / 2)\n    return {'name': name, 'a_E1': a_E1, 'a_M2': a_M2, 'weights': weights,\n            'strength': strength, 'B': {K: B(K, weights) for K in range(5)},\n            'amplitudes': amplitudes, 'helicity': helicity, 'W': W, 'Ix': Ix, 'Iy': Iy,\n            'Q_Stokes': sp.factor((Ix - Iy) / W), 'intensity_matrix': intensity_matrix,\n            'angular_average_W': sp.simplify(sp.integrate(W, (X, -1, 1)) / 2),\n            'angular_average_raw_helicity_sum': raw_average,\n            'a2_from_amplitudes': sp.simplify(sp.Rational(5, 2) * sp.integrate(W * sp.legendre(2, X), (X, -1, 1)))}\n\n\nCASE_E = build_case('pure_E1_high_M', sp.Integer(1), sp.Integer(0), HIGH)\nCASE_M = build_case('pure_M2_low_M', sp.Integer(0), sp.Integer(1), LOW)\nM_HIGH = build_case('pure_M2_high_M_population_control', sp.Integer(0), sp.Integer(1), HIGH)\nE_LOW = build_case('pure_E1_low_M_population_control', sp.Integer(1), sp.Integer(0), LOW)\nE_ISO = build_case('pure_E1_isotropic', sp.Integer(1), sp.Integer(0), ISO)\nM_ISO = build_case('pure_M2_isotropic', sp.Integer(0), sp.Integer(1), ISO)\nM_SIGN = build_case('pure_M2_global_amplitude_sign_control', sp.Integer(0), sp.Integer(-1), LOW)\nM_BAD_Q = build_case('invalid_M2_helicity_phase_implementation', sp.Integer(0), sp.Integer(1), LOW,\n                     invalid_magnetic_helicity=True)\n\n# The conjectured equality is evaluated, not asserted as a prerequisite.\nDIFFERENCES = {key: sp.simplify(CASE_E[key] - CASE_M[key]) for key in ('W', 'Ix', 'Iy')}\nMATRIX_DIFF = sp.simplify(CASE_E['intensity_matrix'] - CASE_M['intensity_matrix'])\nIDENTICAL = all(value == 0 for value in DIFFERENCES.values()) and MATRIX_DIFF == sp.zeros(2)\nCHECKS = {}\nfor name, case, L in (('E1_high', CASE_E, 1), ('M2_low', CASE_M, 2)):\n    CHECKS[f'{name}_population_normalized'] = sum(case['weights'].values()) == 1\n    CHECKS[f'{name}_B0_one'] = case['B'][0] == 1\n    CHECKS[f'{name}_odd_B_zero'] = case['B'][1] == case['B'][3] == 0\n    CHECKS[f'{name}_B4_zero'] = case['B'][4] == 0\n    CHECKS[f'{name}_pure_strength_one'] = case['strength'] == 1\n    CHECKS[f'{name}_R0_one'] = R(0, L) == 1\n    CHECKS[f'{name}_amplitude_a2_equals_B2_R2'] = sp.simplify(case['a2_from_amplitudes'] - case['B'][2] * R(2, L)) == 0\n    CHECKS[f'{name}_W_has_only_P0_P2'] = sp.simplify(case['W'] - 1 - case['a2_from_amplitudes'] * sp.legendre(2, X)) == 0\n    CHECKS[f'{name}_W_angular_average_one'] = case['angular_average_W'] == 1\n    CHECKS[f'{name}_raw_helicity_average_2_strength'] = case['angular_average_raw_helicity_sum'] == 2 * case['strength']\n    CHECKS[f'{name}_linear_sum_equals_helicity_sum'] = sp.simplify(case['Ix'] + case['Iy'] - case['W']) == 0\n    CHECKS[f'{name}_photon_matrix_trace_equals_W'] = sp.simplify(sp.trace(case['intensity_matrix']) - case['W']) == 0\n    CHECKS[f'{name}_photon_matrix_symmetric'] = case['intensity_matrix'] == case['intensity_matrix'].T\n    CHECKS[f'{name}_helicities_equal'] = sp.simplify(case['helicity'][1] - case['helicity'][-1]) == 0\n    for angle, label in ((0, '0'), (sp.pi / 2, '90'), (sp.pi, '180')):\n        CHECKS[f'{name}_theta_{label}_normalization'] = sp.simplify(\n            (case['Ix'] + case['Iy'] - case['W']).subs(X, sp.cos(angle))) == 0\nCHECKS.update({\n    'E1_high_B2_from_Eq3_28_one': CASE_E['B'][2] == 1,\n    'M2_low_B2_from_Eq3_28_minus_one': CASE_M['B'][2] == -1,\n    'rho2_table_M_half_minus_two': rho(2, JF) == -2,\n    'rho2_table_M_three_halves_plus_two': rho(2, JI) == 2,\n    'folded_table_matches_E1_B2': sp.Rational(1, 2) * rho(2, JI) == CASE_E['B'][2],\n    'folded_table_matches_M2_B2': sp.Rational(1, 2) * rho(2, JF) == CASE_M['B'][2],\n    'isotropic_E1_W_one_Ix_Iy_half': E_ISO['W'] == 1 and E_ISO['Ix'] == E_ISO['Iy'] == sp.Rational(1, 2),\n    'isotropic_M2_W_one_Ix_Iy_half': M_ISO['W'] == 1 and M_ISO['Ix'] == M_ISO['Iy'] == sp.Rational(1, 2),\n    'fixed_high_population_switch_multipole_changes_W': sp.simplify(CASE_E['W'] - M_HIGH['W']) != 0,\n    'fixed_low_population_switch_multipole_changes_W': sp.simplify(E_LOW['W'] - CASE_M['W']) != 0,\n    'pure_global_sign_has_no_photon_effect': sp.simplify(M_SIGN['intensity_matrix'] - CASE_M['intensity_matrix']) == sp.zeros(2),\n    'invalid_magnetic_q_phase_leaves_W': sp.simplify(M_BAD_Q['W'] - CASE_M['W']) == 0,\n    'invalid_magnetic_q_phase_changes_linear_intensities': sp.simplify(M_BAD_Q['Ix'] - CASE_M['Ix']) != 0,\n    'd_spin1_theta0_identity': DX[1].subs(THETA, 0) == sp.eye(3),\n    'd_spin2_theta0_identity': DX[2].subs(THETA, 0) == sp.eye(5),\n    'protected_30_check_artifact_bytes_unchanged': hashlib.sha256(PROTECTED.read_bytes()).hexdigest() == PROTECTED_HASH_START,\n})\nfailed = [name for name, ok in CHECKS.items() if not ok]\nif failed:\n    raise RuntimeError(f'Source identity or control checks failed: {failed}')\n\n\ndef serialize_case(case):\n    samples = []\n    for angle, label in ((0, '0'), (sp.pi / 2, '90'), (sp.pi, '180')):\n        samples.append({'theta_degrees': label,\n                        **{key: sp.sstr(sp.simplify(case[key].subs(X, sp.cos(angle))))\n                           for key in ('W', 'Ix', 'Iy', 'Q_Stokes')}})\n    return {'name': case['name'], 'a_E1': sp.sstr(case['a_E1']), 'a_M2': sp.sstr(case['a_M2']),\n            'population': {sp.sstr(mi): sp.sstr(weight) for mi, weight in case['weights'].items()},\n            'B': {str(K): sp.sstr(value) for K, value in case['B'].items()},\n            **{key: sp.sstr(case[key]) for key in ('W', 'Ix', 'Iy', 'Q_Stokes', 'strength',\n                'angular_average_W', 'angular_average_raw_helicity_sum', 'a2_from_amplitudes')},\n            'helicity_intensities': {str(q): sp.sstr(value) for q, value in case['helicity'].items()},\n            'photon_intensity_matrix_minus_plus_basis': [[sp.sstr(entry) for entry in row]\n                                                        for row in case['intensity_matrix'].tolist()],\n            'reduced_amplitudes': [{'Mi': sp.sstr(mi), 'Mf': sp.sstr(mf), 'q': q, 'Atilde': sp.sstr(value)}\n                                    for (mi, mf, q), value in case['amplitudes'].items()],\n            'angle_controls': samples}\n\n\nRAW = ROOT / 'raw/papers/gpt/high-spin-20260920/multipolarity/mixing ratio/1967_Rose et al_Angular Distributions of Gamma Rays in Terms of Phase-Defined Reduced Matrix Elements.pdf'\nOUT = RUN / 'population-multipolarity-degeneracy.json'\ncode = Path(__file__).read_text(encoding='utf-8')\nresult = {\n    'schema_version': 1, 'created_utc': datetime.datetime.now(datetime.timezone.utc).isoformat(),\n    'kind': 'synthetic-symbolic-population-multipolarity-degeneracy', 'learning_level': 'L2', 'day_index': 8,\n    'evidence_status': 'exact mathematical counterexample under explicit synthetic assumptions; no measured counts, fits, ICC values or L4 finding',\n    'source': {'path': 'knowledge/sources/rose-brink-1967-phase-defined-angular-distributions.md',\n               'doi': '10.1103/RevModPhys.39.306', 'raw_path': str(RAW.relative_to(ROOT)),\n               'raw_sha256': hashlib.sha256(RAW.read_bytes()).hexdigest()},\n    'fixed_common_inputs': {'Ji': '3/2', 'initial_parity': '+', 'Jf': '1/2', 'final_parity': '-',\n                            'allowed_photon_multipoles': ['E1', 'M2'],\n                            'photon_energy': 'common fixed k, left symbolic; no measured energy is supplied'},\n    'conventions': [\n        'RB initial-bra/final-ket interaction RME; a_Lpi=<Ji||T_Lpi||Jf>/sqrt(2L+1).',\n        'E1: pi=0; M2: pi=1; retain q^pi in Eq.3.24.',\n        'CG order is (Jf,L;Mf,Mi-Mf|Ji,Mi), including (-1)^(2L)=1 for L=1,2.',\n        'D=exp(-i*theta*Jy/hbar), computed as SymPy wigner_d_small(L,-theta).',\n        'Euler angles (0,theta,0); k=(sin(theta),0,cos(theta)), xprime=(cos(theta),0,-sin(theta)), yprime=(0,1,0).',\n        'Linear xprime uses A_minus-A_plus, yprime uses A_minus+A_plus; a common analyzer phase does not affect intensity.',\n        'The pure M2 case is constructed explicitly with (a_E1,a_M2)=(0,1), never using a finite delta or a delta limit.',\n        'A common radiative-amplitude unit A0 may multiply both case vectors; it is a hypothesis, not a measured strength.',\n    ],\n    'source_locators': {\n        'amplitude': 'printed p.316 / PDF p.11, Eq.3.24',\n        'WE_and_CG_order': 'printed p.316 / PDF p.11, unnumbered Wigner-Eckart relation after Eq.3.25',\n        'linear_coherence': 'printed p.316 / PDF p.11, paragraph between Eqs.3.24-3.25',\n        'D_rotation': 'printed p.312 / PDF p.7, footnote7',\n        'B_definition': 'printed p.317 / PDF p.12, Eq.3.28',\n        'rho_folded_population': 'printed p.324 / PDF p.19, Eqs.3.62-3.63',\n        'rho_table': 'printed p.347 / PDF p.42, J1=3/2 k=2 row, M1=1/2 and 3/2 columns',\n        'R0_and_gamma_rate': 'printed p.318 / PDF p.13, Eqs.3.29 and 3.34',\n        'R2_geometry': 'printed p.319 / PDF p.14, Eq.3.36; appendix printed p.339 / PDF p.34, Ji=3/2 Jf=1/2 row',\n        'same_initial_state_population_companion': 'printed p.324 / PDF p.19, right-column paragraph beginning Sometimes the state J1 shows further decay modes',\n    },\n    'formulas': {\n        'amplitude': 'Atilde_q=sum_L q^pi*sqrt(2L+1)*a_L*CG(Jf,L;Mf,Mi-Mf|Ji,Mi)*d_L(Mi-Mf,q)',\n        'normalization': 'W=sum w|Atilde_q|^2/[2S], Ix=sum w|Atilde_minus-Atilde_plus|^2/[4S], Iy=sum w|Atilde_minus+Atilde_plus|^2/[4S]; S=sum|a_L|^2',\n        'x': 'x=cos(theta); s=sin(theta/2), c=cos(theta/2), s^2+c^2=1',\n        'Q_Stokes': '(Ix-Iy)/(Ix+Iy), defined for these analysis axes, not detector sensitivity',\n        'matrix': 'photon intensity matrix I_qqprime=sum w Atilde_q Atilde_qprime*/[2S]; its trace is W. This is distinct from the appendix statistical-tensor coefficient rho_K.',\n    },\n    'cases': [serialize_case(CASE_E), serialize_case(CASE_M)],\n    'comparison': {'outcome': 'identical_pointwise_direction_and_polarization_intensities' if IDENTICAL else 'nonidentical_counterexample_to_initial_conjecture',\n                    'scope': 'Equality is pointwise in theta for W, Ix, Iy and the local 2x2 helicity intensity matrix. Coherence between different photon directions, gamma-gamma correlations and nuclear final-state observables are outside this calculation.',\n                    'differences': {key: sp.sstr(value) for key, value in DIFFERENCES.items()},\n                    'photon_intensity_matrix_difference': [[sp.sstr(entry) for entry in row] for row in MATRIX_DIFF.tolist()],\n                    'radiative_strengths_equal': CASE_E['strength'] == CASE_M['strength']},\n    'B2_table_check': {'printed_values': {'rho2_M_half': '-2.0000', 'rho2_M_three_halves': '2.0000'},\n                       'exact_values': {'rho2_M_half': sp.sstr(rho(2, JF)), 'rho2_M_three_halves': sp.sstr(rho(2, JI))},\n                       'folded_calculation': 'B2_E1=(1/2)*(+2)=+1; B2_M2=(1/2)*(-2)=-1. The appendix rho already includes the factor 2.',\n                       'image': 'tmp/day8-20261007/rose-brink/p347-pdf42.png',\n                       'R2_values': {'E1': sp.sstr(R(2, 1)), 'M2': sp.sstr(R(2, 2))},\n                       'a2_product': 'B2*R2=+1/2 in both cases; direct amplitudes independently reproduce the product'},\n    'gamma_width_and_lifetime': {\n        'each_normalized_angular_average_W': '1', 'each_raw_helicity_angular_average': '2',\n        'Gamma_gamma': '4*k*|A0|^2*S, S=1 in both cases, for this same fixed-energy final-state branch',\n        'lambda_gamma': 'Gamma_gamma/hbar; equality assumes the common amplitude unit A0 and common k',\n        'not_a_strength_measurement': 'Choosing S=1 sets a common radiative scale. Bare E1 and M2 nuclear RMEs have different physical units and energy factors; no B-value or observed width is supplied.',\n        'total_lifetime_boundary': 'lambda_total=lambda_gamma_target*(1+alpha_target)+lambda_other_decays; other gamma branches, conversion, pair/E0 or other channels require their own conditions.',\n        'one_branch_gamma_conversion_only': 'tau_E1=hbar/[Gamma_gamma*(1+alpha_E1)], tau_M2=hbar/[Gamma_gamma*(1+alpha_M2)]. Equal gamma widths do not imply equal total lifetimes.',\n        'E0_for_this_target': 'Forbidden for this specified 3/2->1/2 branch; other same-spin final-state branches can still affect the parent total lifetime.',\n        'ICC_provenance': 'These lifetime/ICC companion conditions are general background; no E1/M2 numerical ICC lookup or atomic-coefficient table audit was performed.',\n    },\n    'assumptions_versus_observables': {\n        'assumed': ['Ji/Jf/parities', 'pure E1 versus pure M2', 'each alternative magnetic-substate population',\n                    'common radiative amplitude scale and photon k', 'ideal geometry and source-defined polarization axes'],\n        'calculated_not_measured': ['all W/Ix/Iy curves', 'B2=+1 or -1', 'gamma-width equality at the chosen scale', 'Q_Stokes'],\n        'inverse_problem_boundary': 'An observed agreement with these gamma curves would constrain population and multipolarity jointly. It would not independently identify either pure multipole or either population.',\n    },\n    'possible_independent_companions': {\n        'alignment': 'Determine B2, including its sign and uncertainty, from a separately established transition from the same initial level with known nonzero R2, matching event/gate/feeding selection. Then compare A2_ref=B2*R2_ref.',\n        'alignment_limits': 'Fitting B2 from the very E1/M2 branch after assuming its multipole is circular. A Gaussian sigma prescription or reaction-model prior alone is an additional assumption, not an independent measured alignment.',\n        'ICC': 'Measure a response/geometry-corrected electron-to-gamma conversion coefficient for a specified shell (or shell-summed total), with known Z and transition energy, and compare E1/M2 predictions with uncertainties and any relevant atomic/penetration conditions.',\n        'ICC_limits': 'It can separate the two specified branches only if the theoretical and measured intervals discriminate them. No Z, energy, coefficient or measured electron intensity is supplied here.',\n        'lifetime': 'Lifetime becomes a companion only with complete branches and conversion accounting or independent strength/ICC constraints; a total lifetime alone does not uniquely choose a multipole.',\n        'scope': 'These are candidate designs for this Day8 inverse-problem boundary, not new data, a new source batch, another course card or a general guarantee of unique assignment.',\n    },\n    'negative_and_phase_controls': {\n        'M2_with_fixed_high_population': serialize_case(M_HIGH),\n        'E1_with_fixed_low_population': serialize_case(E_LOW),\n        'isotropic_E1': serialize_case(E_ISO), 'isotropic_M2': serialize_case(M_ISO),\n        'global_M2_amplitude_sign': 'a_M2=+1 -> -1 leaves its full photon intensity matrix unchanged; a pure amplitude global phase is unobservable.',\n        'invalid_M2_q_phase': {'W': sp.sstr(M_BAD_Q['W']), 'Ix': sp.sstr(M_BAD_Q['Ix']), 'Iy': sp.sstr(M_BAD_Q['Iy']),\n                                'meaning': 'Deliberately erasing q^pi preserves helicity-summed W but changes linear polarization. This is an invalid implementation for the specified parity, not another allowed physical multipole.'},\n    },\n    'exact_checks': CHECKS,\n    'coverage_increment': 'Rechecked the p.347 J1=3/2 k=2 two-column row and p.324 Eqs.3.62-3.63 plus the same-parent decay-mode paragraph; applies previously image-locked Eq.3.24/WE/d conventions. No new source, full appendix read or new card is claimed.',\n    'prior_30_check_artifact': {'path': str(PROTECTED.relative_to(ROOT)), 'sha256_start': PROTECTED_HASH_START,\n                               'sha256_end': hashlib.sha256(PROTECTED.read_bytes()).hexdigest(), 'modified_by_this_task': False},\n    'reproduction': {'python': platform.python_version(), 'sympy': sp.__version__, 'mpmath': mpmath.__version__,\n                     'dependencies': 'Existing isolated tmp/day8-20261007/rose-brink/python-deps',\n                     'run_command': 'python3 tmp/day8-20261007/rose-brink/population_multipolarity_degeneracy.py',\n                     'script_sha256': hashlib.sha256(code.encode('utf-8')).hexdigest(), 'script_source': code},\n}\nOUT.write_text(json.dumps(result, ensure_ascii=False, indent=2) + '\\n', encoding='utf-8')\nprint(json.dumps({'output': str(OUT.relative_to(ROOT)), 'outcome': result['comparison']['outcome'],\n                  'W': sp.sstr(CASE_E['W']), 'Ix': sp.sstr(CASE_E['Ix']), 'Iy': sp.sstr(CASE_E['Iy']),\n                  'B2': [sp.sstr(CASE_E['B'][2]), sp.sstr(CASE_M['B'][2])],\n                  'raw_helicity_averages': [sp.sstr(CASE_E['angular_average_raw_helicity_sum']), sp.sstr(CASE_M['angular_average_raw_helicity_sum'])],\n                  'exact_checks_passed': len(CHECKS)}, ensure_ascii=False, indent=2))\n"
+  }
+}

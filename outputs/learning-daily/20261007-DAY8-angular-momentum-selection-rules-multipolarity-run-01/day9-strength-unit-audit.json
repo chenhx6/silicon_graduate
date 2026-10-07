@@ -1,0 +1,229 @@
+{
+  "schema_version": 1,
+  "artifact_kind": "Day9-uncredited-preview-L2-unit-and-normalization-audit",
+  "parent_day_index": 8,
+  "preview_day_index": 9,
+  "course_credit_awarded": false,
+  "run_closed": false,
+  "created_at_utc": "2026-10-07T02:07:48.945637+00:00",
+  "parent_session_id": "01a111fb-370d-7ed1-afe9-881ccc47caf4",
+  "source_scope": {
+    "direct_source": "LKH82 printed p121 / PDF p3, Eqs.2.2-2.6; raw image previously independently checked",
+    "source_image": "tmp/day8-20261007/day9-preview/units/lkh82-printed121-pdf3.png",
+    "raw_sha256": "ed925a0577a9257903806acd209c1db707529e86a5bfd9a301a83d597bf78ffb",
+    "read_Wiki_context": [
+      "knowledge/synthesis/high-spin-lifetime-strength-deformation.md",
+      "knowledge/observables/lifetime.md",
+      "knowledge/observables/bm1-be2-ratio.md",
+      "knowledge/methods/internal-conversion-analysis.md"
+    ],
+    "provenance_boundary": "Rate/RME definitions and 0.835 are source-direct; SI conversion, modern absolute coefficients, lifetime/branching algebra and Jacobians are our reconstruction. No new literature or ICC database was used."
+  },
+  "source_formulas": {
+    "Eq2_2_Gaussian": "T_gamma(XL)=8*pi*(L+1)/[L*((2L+1)!!)^2*hbar] * [E_gamma/(hbar*c)]^(2L+1) * B_Gaussian(XL)",
+    "Eq2_3a": "B(XL;Ji->Jf)=abs(<Jf||M(XL)||Ji>)^2/(2Ji+1); use the BM tensor/operator normalization",
+    "Eq2_3bc_operator_units": "Electric M(E L) contains e*r^L*Y_L; magnetic M(M L) has e*hbar/(2Mc). The chosen modern mu_N uses the physical proton mass mp; the original p121 does not specify the numeric mass/constants behind a historic lifetime coefficient.",
+    "Eq2_4": "delta^2=(3/100)*q_gamma^2*B_Gaussian(E2)/B_Gaussian(M1)",
+    "Eq2_6_source_direct": "delta=0.835 E_gamma(MeV)*RME(E2)[eb]/RME(M1)[mu_N]"
+  },
+  "units_and_constants": {
+    "source_system": "Gaussian electromagnetic convention, recognizable from the identical electric/magnetic Eq2.2 prefactor and e*hbar/(2Mc) in the magnetic operator. Do not insert SI charge or moment into that formula without conversion factors.",
+    "SI_electric_factor": "B_G(E L) -> B_SI(E L)/(4*pi*epsilon_0)",
+    "SI_magnetic_factor": "B_G(M L) -> mu_0*B_SI(M L)/(4*pi)",
+    "length_units": "1 fm=1e-15 m; 1 b=1e-28 m^2=100 fm^2; 1 b^2=1e4 fm^4",
+    "strength_units": "B(E2): e^2 b^2, equivalent to charge^2*length^4; B(M1): mu_N^2; mu_N_SI=e*hbar/(2mp), mu_N_Gaussian=e*hbar/(2mp*c)",
+    "energy_and_rate_units": "E_gamma in MeV; T_gamma in s^-1; Gamma_gamma=hbar*T_gamma in energy units; tau is mean level lifetime. The reported lifetime coefficients below require tau in ps.",
+    "constant_provenance": {
+      "provider": "installed scipy.constants registry",
+      "scipy_version": "1.18.1",
+      "CODATA_version": "CODATA 2022",
+      "local_registry": "/opt/venv/lib/python3.12/site-packages/scipy/constants/_codata.py",
+      "not_LKH82_values": true
+    },
+    "constant_inputs": {
+      "fine-structure constant": {
+        "value": 0.0072973525643,
+        "unit": "",
+        "standard_uncertainty": 1.1e-12
+      },
+      "Planck constant": {
+        "value": 6.62607015e-34,
+        "unit": "J Hz^-1",
+        "standard_uncertainty": 0.0
+      },
+      "reduced Planck constant": {
+        "value": 1.0545718176461565e-34,
+        "unit": "J s",
+        "standard_uncertainty": 0.0
+      },
+      "speed of light in vacuum": {
+        "value": 299792458.0,
+        "unit": "m s^-1",
+        "standard_uncertainty": 0.0
+      },
+      "elementary charge": {
+        "value": 1.602176634e-19,
+        "unit": "C",
+        "standard_uncertainty": 0.0
+      },
+      "electric constant": {
+        "value": 8.8541878188e-12,
+        "unit": "F m^-1",
+        "standard_uncertainty": 1.4e-21
+      },
+      "mag. constant": {
+        "value": 1.25663706127e-06,
+        "unit": "N A^-2",
+        "standard_uncertainty": 2e-16
+      },
+      "proton mass": {
+        "value": 1.67262192595e-27,
+        "unit": "kg",
+        "standard_uncertainty": 5.2e-37
+      },
+      "electron volt": {
+        "value": 1.602176634e-19,
+        "unit": "J",
+        "standard_uncertainty": 0.0
+      },
+      "nuclear magneton": {
+        "value": 5.0507837393e-27,
+        "unit": "J T^-1",
+        "standard_uncertainty": 1.6e-36
+      }
+    },
+    "derived_constants_and_coefficients": {
+      "hbar_MeV_s": 6.582119569509067e-22,
+      "hbarc_MeV_fm": 197.3269804593025,
+      "proton_rest_energy_MeV": 938.2720894282575,
+      "nuclear_magneton_SI_J_per_T": 5.050783739271898e-27,
+      "K_E2_Gaussian": 12251867220149.787,
+      "K_M1_Gaussian": 17583661765676.13,
+      "K_E2_SI": 12251867220205.205,
+      "K_M1_SI": 17583661765776.672,
+      "C_E2_for_tau_ps": 0.08162021200779666,
+      "C_M1_for_tau_ps": 0.056870975643539275,
+      "delta_RME_energy_coefficient_per_MeV": 0.8347308801434243
+    },
+    "K_E2_derivation": "K_E2=(4*pi/75)*alpha_fine*1e4/[hbar_MeV_s*(hbar_c_MeV_fm)^4]",
+    "K_M1_derivation": "K_M1=(4*pi/9)*alpha_fine/[hbar_MeV_s*(mp*c^2 in MeV)^2]",
+    "coefficient_definitions": "T_gamma(E2)=K_E2*E_MeV^5*B(E2)[e^2b^2]; T_gamma(M1)=K_M1*E_MeV^3*B(M1)[mu_N^2]; C_L(ps)=1e12/K_L",
+    "precision": "Numeric digits document the chosen constant system, not experimental precision. SI/Gaussian agreement is limited by rounded correlated CODATA entries.",
+    "legacy_comparison": {
+      "0_0816_relative_difference": 0.00024769617397857324,
+      "0_05697_relative_difference": -0.0017381842454050611,
+      "interpretation": "0.0816 is compatible with rounding of this reconstruction; 0.05697 is not its simple rounding. LKH82 p121 does not give those absolute lifetime coefficients or their underlying historic constants. Retain a paper's original coefficient and quoted B, and label modern recalculation separately rather than silently replacing an experimental result."
+    }
+  },
+  "lifetime_and_branching": {
+    "mean_vs_half_life": "T_total=1/tau; T_1/2=tau*ln(2). If T_1/2 is supplied, tau=T_1/2/ln(2). Substituting T_1/2 as tau overestimates inferred B by 1/ln(2).",
+    "definitions": "b_total,b=T_total,b/T_total; p_gamma,b=T_gamma,b/T_total; beta_gamma,b=I_gamma,b/sum(I_gamma) counts only the relative fraction of photons and generally is not p_gamma,b or b_total,b.",
+    "total_branch_known_no_extra_E0": "p_gamma,b=b_total,b/(1+alpha_total,mix,b), only when the ordinary all-shell electron conversion accounts for all non-gamma rates of that branch; an additional E0/pair term must be zero or explicitly included through an effective full non-gamma coefficient",
+    "corrected_photon_intensities": "D=sum_j I_gamma,j*(1+alpha_total,j); p_gamma,b=(1-b_extra)*I_gamma,b/D. b_extra is the fraction of all additional non-gamma decays not already counted by alpha_total,j; all gamma branches must be included.",
+    "E0_boundary": "Unobserved E0 can occur on the specified same-spin transition or another same-spin branch of the parent level. It reduces the available photon fraction. If it is already included in an effective total non-gamma coefficient, do not add it twice.",
+    "K_vs_total": "A K-shell ICC alone is not alpha_total; lifetime normalization needs all available conversion shells and any separately relevant pair or other non-gamma branch. No numerical ICC or pair rate was supplied or computed."
+  },
+  "mixed_gamma_absolute_strengths": {
+    "assumptions": "Only M1 and E2 contribute to the retained gamma rate; delta magnitude/branch is known; E_gamma, mean tau, parent-level photon fraction and their dependencies are known. Allowed M3/E4 are an explicit truncation for the synthetic 2+->2+ case.",
+    "fractions": "t=delta^2; f_M1=1/(1+t); f_E2=t/(1+t); these are gamma-rate fractions, not total-decay fractions",
+    "photon_fraction_route": "B(M1)[mu_N^2]=C_M1*p_gamma/[tau_ps*E_MeV^3*(1+t)]; B(E2)[e^2b^2]=C_E2*p_gamma*t/[tau_ps*E_MeV^5*(1+t)]",
+    "known_total_branch_route": "D_mix=1+alpha_total(M1)+t*(1+alpha_total(E2)); B(M1)=C_M1*b_total/[tau_ps*E_MeV^3*D_mix]; B(E2)=C_E2*b_total*t/[tau_ps*E_MeV^5*D_mix]. This route excludes uncounted E0/pair terms.",
+    "same_gamma_B_ratio": "B(M1)/B(E2)=(K_E2/K_M1)*E_MeV^2/t in mu_N^2/(e^2b^2); mean tau and photon fraction cancel for these two components of the same gamma transition",
+    "spin_normalization": "The K_L to B_L conversion already uses B=RME^2/(2Ji+1); do not divide a rate-derived B by (2Ji+1) a second time.",
+    "sign": "Absolute widths and these strengths depend on t, not the relative delta sign."
+  },
+  "input_formula_output_error_chain": [
+    {
+      "inputs": "level/transition identity, Ji,Jf, multipolarity and E_gamma",
+      "formula": "triangle/parity filter; source Eq2.2-2.3a",
+      "output": "allowed tensor and correctly defined B unit",
+      "uncertainty": "assignment alternatives and energy uncertainty; a D/Q label is insufficient for a unique absolute B"
+    },
+    {
+      "inputs": "time/line-shape data and prompt/stopping/feeding model",
+      "formula": "method-specific fit plus tau=T_1/2/ln(2) where needed",
+      "output": "mean level tau",
+      "uncertainty": "statistical fit plus stopping, feeding, response and shared systematics; a quoted B derived from this tau is not a second measurement"
+    },
+    {
+      "inputs": "all corrected photon intensities, total ICCs, extra non-gamma fractions",
+      "formula": "p_gamma,b=(1-b_extra)*I_b/sum_j [I_j*(1+alpha_j)]",
+      "output": "photon rate fraction per level decay",
+      "uncertainty": "intensity normalization couples branches; common efficiency/background and alpha(E,t) dependencies create covariance"
+    },
+    {
+      "inputs": "p_gamma, mean tau, E_gamma and t",
+      "formula": "T_gamma,L=p_gamma*f_L/tau; B_L=T_gamma,L/(K_L*E_gamma^(2L+1))",
+      "output": "absolute B(M1),B(E2)",
+      "uncertainty": "shared tau/branch and anti-correlated mixing fractions must be propagated jointly"
+    },
+    {
+      "inputs": "B(E2) plus a specified rotor/K/triaxial model",
+      "formula": "model-dependent conversion to Qt or intrinsic-shape parameters",
+      "output": "derived transition moment or model interpretation",
+      "uncertainty": "Qt is not a direct intrinsic-shape measurement; do not conflate it with an independent B or lifetime input"
+    }
+  ],
+  "covariance": {
+    "rule": "Sigma_B=J*Sigma_inputs*J^T; include common inputs and their cross-covariances. Near bounds or non-Gaussian/multiple t branches, first-order propagation is conditional and the branch distribution must be retained.",
+    "photon_fraction_route_log_J": "For inputs (tau,E,p,t), ln B_M1 derivatives=(-1/tau,-3/E,1/p,-1/(1+t)); ln B_E2=(-1/tau,-5/E,1/p,1/[t*(1+t)]), for t>0.",
+    "total_branch_route_log_J": "D=1+alpha_M1+t*(1+alpha_E2); derivatives for (tau,E,b,t,alpha_M1,alpha_E2), at t>0, are (-1/tau,-3/E,1/b,-(1+alpha_E2)/D,-1/D,-t/D) for M1 and (-1/tau,-5/E,1/b,1/t-(1+alpha_E2)/D,-1/D,-t/D) for E2. At t=0, ln B_E2 is undefined; use the actual B Jacobian or one-sided/branch limits.",
+    "intensity_normalization_log_J": "d ln p_b/d I_j=delta_bj/I_b-(1+alpha_j)/D; d ln p_b/d alpha_j=-I_j/D; d ln p_b/d b_extra=-1/(1-b_extra). Chain alpha_j(E_j,t_j) instead of treating it as an unrelated input.",
+    "covariance_directions": "shared tau and branch normalization generally induce positive B_M1/B_E2 covariance; varying t transfers gamma fraction between the components and induces negative covariance. These components must be combined, not assumed independent."
+  },
+  "conditional_not_ready": [
+    "No mean tau or only an unclear tau/T_1/2 label: no absolute B.",
+    "No complete branching/total-shell ICC/extra E0 closure: photon fraction remains conditional.",
+    "Unknown or multiple t branches: do not set delta=0 silently; partial M1/E2 strengths remain branch-conditional.",
+    "Missing E_gamma/unit, multipolarity/operator normalization or transition identity: the exponent/unit conversion is not ready.",
+    "No covariance or systematic model: central-value arithmetic may be possible, but a complete confidence interval is not justified.",
+    "Quoted B and Qt are outputs of the same chain; they are not new independent inputs or direct shape observations."
+  ],
+  "numeric_example_boundary": "All numerical rates, intensities, ICC-like weights, lifetimes, strengths and derivative points in the code are explicitly synthetic algebra examples. They are not atomic coefficients, nuclides, measured data, or L4 results.",
+  "checks": {
+    "passed_by_group": {
+      "C_E2_legacy_rounding_compatible": 1,
+      "C_M1_not_a_rounding_of_0_05697": 1,
+      "E2_energy_fifth_power": 3,
+      "Eq2_6_three_significant_figure_match": 1,
+      "Gaussian_SI_E2_agreement": 1,
+      "Gaussian_SI_M1_agreement": 1,
+      "M1_energy_third_power": 3,
+      "absolute_B_E2_roundtrip": 3,
+      "absolute_B_M1_roundtrip": 3,
+      "branch_mixing_ICC_Jacobian": 12,
+      "corrected_intensity_normalization_Jacobian": 5,
+      "extra_E0_normalization": 1,
+      "half_life_misuse_factor": 1,
+      "mean_lifetime_half_life_conversion": 1,
+      "mixed_E2_total_branch_formula": 4,
+      "mixed_M1_total_branch_formula": 4,
+      "mixed_gamma_fractions_sum_to_one": 4,
+      "mixing_anticovariance_direction": 1,
+      "nuclear_magneton_definition": 1,
+      "photon_branch_fraction_not_total_decay_fraction": 1,
+      "photon_vs_total_branch_relation": 1,
+      "proton_mass_unit_conversion": 1,
+      "rate_mixing_vs_Eq2_4_unit_conversion": 3,
+      "raw_identity": 1,
+      "shared_branch_positive_covariance_direction": 1,
+      "shared_tau_positive_covariance_direction": 1,
+      "total_branch_normalization": 1,
+      "unobserved_extra_branch_is_not_zero": 1
+    },
+    "total_passed": 62,
+    "failures": 0,
+    "Gaussian_SI_relative_E2": -4.523270646927813e-12,
+    "Gaussian_SI_relative_M1": -5.717870621424481e-12
+  },
+  "reproducibility": {
+    "code": "tmp/day8-20261007/day9-preview/units/strength_unit_audit.py",
+    "script_sha256": "80950f55685207deb519cd98fc69d17467450f6639c99a862f1e948029f2d42e",
+    "source_code": "#!/usr/bin/env python3\n\"\"\"L2 unit/normalization audit from LKH82 p121, using explicit local constants.\n\nAll branching, mixing and rate examples are synthetic algebra, never measured\nICC, nuclear data, or an independent input reconstructed from quoted B values.\nThe default performs checks only. --write-receipt exclusively creates the\nsingle authorized JSON artifact and never changes course state.\n\"\"\"\n\nfrom __future__ import annotations\n\nimport argparse\nimport hashlib\nimport json\nimport math\nfrom collections import Counter\nfrom datetime import datetime, timezone\nfrom fractions import Fraction as F\nfrom pathlib import Path\n\nimport scipy\nfrom scipy import constants as sc\nfrom scipy.constants import _codata\n\n\nROOT = Path(__file__).resolve().parents[4]\nRECEIPT = ROOT / (\n    \"outputs/learning-daily/\"\n    \"20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/\"\n    \"day9-strength-unit-audit.json\"\n)\nRAW = ROOT / (\n    \"raw/papers/gpt/high-spin-20260920/review/\"\n    \"1982_Lange et al_E0-E2-M1 multipole admixtures of transitions in even-even nuclei.pdf\"\n)\nEXPECTED_SHA = \"ed925a0577a9257903806acd209c1db707529e86a5bfd9a301a83d597bf78ffb\"\n\n\ndef coefficients() -> dict:\n    mev_j = 1e6 * sc.electron_volt\n    hbar_mev_s = sc.hbar / mev_j\n    hbarc_mev_fm = sc.hbar * sc.c / mev_j * 1e15\n    mass_p = sc.physical_constants[\"proton mass\"][0]\n    mpc2_mev = mass_p * sc.c**2 / mev_j\n    alpha = sc.physical_constants[\"fine-structure constant\"][0]\n    mu_n_si = sc.e * sc.hbar / (2 * mass_p)\n    k_e2_g = (4 * math.pi / 75) * alpha * 1e4 / (hbar_mev_s * hbarc_mev_fm**4)\n    k_m1_g = (4 * math.pi / 9) * alpha / (hbar_mev_s * mpc2_mev**2)\n    q_per_mev_si = mev_j / (sc.hbar * sc.c)\n    k_e2_si = (8 * math.pi * 3 / (2 * 15**2)) / (4 * math.pi * sc.epsilon_0 * sc.hbar) * q_per_mev_si**5 * sc.e**2 * (1e-28)**2\n    k_m1_si = (16 * math.pi / 9) * sc.mu_0 / (4 * math.pi * sc.hbar) * q_per_mev_si**3 * mu_n_si**2\n    return {\n        \"hbar_MeV_s\": hbar_mev_s,\n        \"hbarc_MeV_fm\": hbarc_mev_fm,\n        \"proton_rest_energy_MeV\": mpc2_mev,\n        \"nuclear_magneton_SI_J_per_T\": mu_n_si,\n        \"K_E2_Gaussian\": k_e2_g,\n        \"K_M1_Gaussian\": k_m1_g,\n        \"K_E2_SI\": k_e2_si,\n        \"K_M1_SI\": k_m1_si,\n        \"C_E2_for_tau_ps\": 1e12 / k_e2_g,\n        \"C_M1_for_tau_ps\": 1e12 / k_m1_g,\n        \"delta_RME_energy_coefficient_per_MeV\": math.sqrt(k_e2_g / k_m1_g),\n    }\n\n\ndef from_total_branch(x: list[float], c: dict) -> list[float]:\n    \"\"\"Synthetic input: mean tau_ps,E_MeV,b_total,t,alpha_M1_total,alpha_E2_total.\"\"\"\n    tau, energy, branch, t, a_m1, a_e2 = x\n    d = 1 + a_m1 + t * (1 + a_e2)\n    return [c[\"C_M1_for_tau_ps\"] * branch / (tau * energy**3 * d),\n            c[\"C_E2_for_tau_ps\"] * branch * t / (tau * energy**5 * d)]\n\n\ndef jacobian_total_branch(x: list[float], c: dict) -> list[list[float]]:\n    tau, energy, branch, t, a_m1, a_e2 = x\n    b_m1, b_e2 = from_total_branch(x, c)\n    d = 1 + a_m1 + t * (1 + a_e2)\n    return [\n        [b_m1 * value for value in [-1 / tau, -3 / energy, 1 / branch,\n                                   -(1 + a_e2) / d, -1 / d, -t / d]],\n        [b_e2 * value for value in [-1 / tau, -5 / energy, 1 / branch,\n                                   1 / t - (1 + a_e2) / d, -1 / d, -t / d]],\n    ]\n\n\ndef photon_fraction(x: list[float]) -> float:\n    \"\"\"Synthetic I1,I2,alpha1_total,alpha2_total,b_extra; target branch=1.\"\"\"\n    i1, i2, a1, a2, extra = x\n    return (1 - extra) * i1 / (i1 * (1 + a1) + i2 * (1 + a2))\n\n\ndef build_receipt() -> dict:\n    c = coefficients()\n    counts: Counter[str] = Counter()\n\n    def check(name: str, condition: bool) -> None:\n        if not condition:\n            raise AssertionError(name)\n        counts[name] += 1\n\n    check(\"Gaussian_SI_E2_agreement\", math.isclose(c[\"K_E2_Gaussian\"], c[\"K_E2_SI\"], rel_tol=1e-10))\n    check(\"Gaussian_SI_M1_agreement\", math.isclose(c[\"K_M1_Gaussian\"], c[\"K_M1_SI\"], rel_tol=1e-10))\n    check(\"nuclear_magneton_definition\", math.isclose(c[\"nuclear_magneton_SI_J_per_T\"], sc.physical_constants[\"nuclear magneton\"][0], rel_tol=1e-10))\n    check(\"proton_mass_unit_conversion\", math.isclose(c[\"proton_rest_energy_MeV\"], sc.physical_constants[\"proton mass energy equivalent in MeV\"][0], rel_tol=1e-10))\n    check(\"Eq2_6_three_significant_figure_match\", float(format(c[\"delta_RME_energy_coefficient_per_MeV\"], \".3g\")) == 0.835)\n    check(\"C_E2_legacy_rounding_compatible\", float(format(c[\"C_E2_for_tau_ps\"], \".3g\")) == 0.0816)\n    check(\"C_M1_not_a_rounding_of_0_05697\", float(format(c[\"C_M1_for_tau_ps\"], \".4g\")) != 0.05697)\n\n    for energy, b2, b1 in [(0.5, 0.1, 0.2), (1.0, 0.25, 0.125), (1.5, 0.05, 0.4)]:\n        rate2 = c[\"K_E2_Gaussian\"] * energy**5 * b2\n        rate1 = c[\"K_M1_Gaussian\"] * energy**3 * b1\n        check(\"absolute_B_E2_roundtrip\", math.isclose(rate2 / (c[\"K_E2_Gaussian\"] * energy**5), b2, rel_tol=1e-14))\n        check(\"absolute_B_M1_roundtrip\", math.isclose(rate1 / (c[\"K_M1_Gaussian\"] * energy**3), b1, rel_tol=1e-14))\n        check(\"rate_mixing_vs_Eq2_4_unit_conversion\", math.isclose(rate2 / rate1, c[\"delta_RME_energy_coefficient_per_MeV\"]**2 * energy**2 * b2 / b1, rel_tol=1e-14))\n        check(\"E2_energy_fifth_power\", math.isclose(c[\"K_E2_Gaussian\"] * (2 * energy)**5 * b2 / rate2, 32.0, rel_tol=1e-14))\n        check(\"M1_energy_third_power\", math.isclose(c[\"K_M1_Gaussian\"] * (2 * energy)**3 * b1 / rate1, 8.0, rel_tol=1e-14))\n\n    tau = 2.0\n    half = tau * math.log(2)\n    check(\"mean_lifetime_half_life_conversion\", math.isclose(half / math.log(2), tau, rel_tol=1e-15))\n    check(\"half_life_misuse_factor\", math.isclose((1 / half) / (1 / tau), 1 / math.log(2), rel_tol=1e-15))\n\n    i = [F(3), F(2)]\n    alphas = [F(1, 10), F(1, 5)]\n    d_i = sum(intensity * (1 + alpha) for intensity, alpha in zip(i, alphas))\n    p_gamma = [intensity / d_i for intensity in i]\n    b_total = [intensity * (1 + alpha) / d_i for intensity, alpha in zip(i, alphas)]\n    check(\"total_branch_normalization\", sum(b_total) == 1)\n    check(\"photon_vs_total_branch_relation\", all(p == b / (1 + a) for p, b, a in zip(p_gamma, b_total, alphas)))\n    check(\"photon_branch_fraction_not_total_decay_fraction\", i[0] / sum(i) != p_gamma[0])\n    extra = F(1, 4)\n    p_with_extra = [(1 - extra) * p for p in p_gamma]\n    check(\"extra_E0_normalization\", sum(p * (1 + a) for p, a in zip(p_with_extra, alphas)) + extra == 1)\n    check(\"unobserved_extra_branch_is_not_zero\", p_with_extra[0] != p_gamma[0])\n\n    for t in [F(0), F(1, 4), F(1), F(4)]:\n        f1, f2 = 1 / (1 + t), t / (1 + t)\n        check(\"mixed_gamma_fractions_sum_to_one\", f1 + f2 == 1)\n        a1, a2 = F(1, 10), F(1, 5)\n        a_mix = f1 * a1 + f2 * a2\n        d = 1 + a1 + t * (1 + a2)\n        check(\"mixed_M1_total_branch_formula\", f1 / (1 + a_mix) == 1 / d)\n        check(\"mixed_E2_total_branch_formula\", f2 / (1 + a_mix) == t / d)\n\n    x = [2.0, 0.6, 0.4, 0.5, 0.1, 0.2]\n    jac = jacobian_total_branch(x, c)\n    for k in range(6):\n        step = 1e-6 * max(1.0, abs(x[k]))\n        plus, minus = x[:], x[:]\n        plus[k] += step\n        minus[k] -= step\n        bp, bm = from_total_branch(plus, c), from_total_branch(minus, c)\n        for row in range(2):\n            numerical = (bp[row] - bm[row]) / (2 * step)\n            check(\"branch_mixing_ICC_Jacobian\", math.isclose(numerical, jac[row][k], rel_tol=2e-8, abs_tol=1e-12))\n    check(\"shared_tau_positive_covariance_direction\", jac[0][0] * jac[1][0] > 0)\n    check(\"shared_branch_positive_covariance_direction\", jac[0][2] * jac[1][2] > 0)\n    check(\"mixing_anticovariance_direction\", jac[0][3] * jac[1][3] < 0)\n\n    v = [3.0, 2.0, 0.1, 0.2, 0.25]\n    p = photon_fraction(v)\n    d = v[0] * (1 + v[2]) + v[1] * (1 + v[3])\n    log_derivatives = [1 / v[0] - (1 + v[2]) / d,\n                       -(1 + v[3]) / d, -v[0] / d, -v[1] / d,\n                       -1 / (1 - v[4])]\n    for k in range(5):\n        step = 1e-6 * max(1.0, abs(v[k]))\n        plus, minus = v[:], v[:]\n        plus[k] += step\n        minus[k] -= step\n        numerical = (photon_fraction(plus) - photon_fraction(minus)) / (2 * step)\n        check(\"corrected_intensity_normalization_Jacobian\", math.isclose(numerical, p * log_derivatives[k], rel_tol=2e-8, abs_tol=1e-12))\n\n    raw_sha = hashlib.sha256(RAW.read_bytes()).hexdigest()\n    check(\"raw_identity\", raw_sha == EXPECTED_SHA)\n    constant_keys = [\"fine-structure constant\", \"Planck constant\", \"reduced Planck constant\",\n                     \"speed of light in vacuum\", \"elementary charge\", \"electric constant\",\n                     \"mag. constant\", \"proton mass\", \"electron volt\", \"nuclear magneton\"]\n    constants = {key: {\"value\": sc.physical_constants[key][0], \"unit\": sc.physical_constants[key][1],\n                       \"standard_uncertainty\": sc.physical_constants[key][2]} for key in constant_keys}\n    return {\n        \"schema_version\": 1,\n        \"artifact_kind\": \"Day9-uncredited-preview-L2-unit-and-normalization-audit\",\n        \"parent_day_index\": 8,\n        \"preview_day_index\": 9,\n        \"course_credit_awarded\": False,\n        \"run_closed\": False,\n        \"created_at_utc\": datetime.now(timezone.utc).isoformat(),\n        \"parent_session_id\": \"01a111fb-370d-7ed1-afe9-881ccc47caf4\",\n        \"source_scope\": {\n            \"direct_source\": \"LKH82 printed p121 / PDF p3, Eqs.2.2-2.6; raw image previously independently checked\",\n            \"source_image\": \"tmp/day8-20261007/day9-preview/units/lkh82-printed121-pdf3.png\",\n            \"raw_sha256\": raw_sha,\n            \"read_Wiki_context\": [\"knowledge/synthesis/high-spin-lifetime-strength-deformation.md\", \"knowledge/observables/lifetime.md\", \"knowledge/observables/bm1-be2-ratio.md\", \"knowledge/methods/internal-conversion-analysis.md\"],\n            \"provenance_boundary\": \"Rate/RME definitions and 0.835 are source-direct; SI conversion, modern absolute coefficients, lifetime/branching algebra and Jacobians are our reconstruction. No new literature or ICC database was used.\",\n        },\n        \"source_formulas\": {\n            \"Eq2_2_Gaussian\": \"T_gamma(XL)=8*pi*(L+1)/[L*((2L+1)!!)^2*hbar] * [E_gamma/(hbar*c)]^(2L+1) * B_Gaussian(XL)\",\n            \"Eq2_3a\": \"B(XL;Ji->Jf)=abs(<Jf||M(XL)||Ji>)^2/(2Ji+1); use the BM tensor/operator normalization\",\n            \"Eq2_3bc_operator_units\": \"Electric M(E L) contains e*r^L*Y_L; magnetic M(M L) has e*hbar/(2Mc). The chosen modern mu_N uses the physical proton mass mp; the original p121 does not specify the numeric mass/constants behind a historic lifetime coefficient.\",\n            \"Eq2_4\": \"delta^2=(3/100)*q_gamma^2*B_Gaussian(E2)/B_Gaussian(M1)\",\n            \"Eq2_6_source_direct\": \"delta=0.835 E_gamma(MeV)*RME(E2)[eb]/RME(M1)[mu_N]\",\n        },\n        \"units_and_constants\": {\n            \"source_system\": \"Gaussian electromagnetic convention, recognizable from the identical electric/magnetic Eq2.2 prefactor and e*hbar/(2Mc) in the magnetic operator. Do not insert SI charge or moment into that formula without conversion factors.\",\n            \"SI_electric_factor\": \"B_G(E L) -> B_SI(E L)/(4*pi*epsilon_0)\",\n            \"SI_magnetic_factor\": \"B_G(M L) -> mu_0*B_SI(M L)/(4*pi)\",\n            \"length_units\": \"1 fm=1e-15 m; 1 b=1e-28 m^2=100 fm^2; 1 b^2=1e4 fm^4\",\n            \"strength_units\": \"B(E2): e^2 b^2, equivalent to charge^2*length^4; B(M1): mu_N^2; mu_N_SI=e*hbar/(2mp), mu_N_Gaussian=e*hbar/(2mp*c)\",\n            \"energy_and_rate_units\": \"E_gamma in MeV; T_gamma in s^-1; Gamma_gamma=hbar*T_gamma in energy units; tau is mean level lifetime. The reported lifetime coefficients below require tau in ps.\",\n            \"constant_provenance\": {\"provider\": \"installed scipy.constants registry\", \"scipy_version\": scipy.__version__, \"CODATA_version\": _codata._current_codata, \"local_registry\": _codata.__file__, \"not_LKH82_values\": True},\n            \"constant_inputs\": constants,\n            \"derived_constants_and_coefficients\": c,\n            \"K_E2_derivation\": \"K_E2=(4*pi/75)*alpha_fine*1e4/[hbar_MeV_s*(hbar_c_MeV_fm)^4]\",\n            \"K_M1_derivation\": \"K_M1=(4*pi/9)*alpha_fine/[hbar_MeV_s*(mp*c^2 in MeV)^2]\",\n            \"coefficient_definitions\": \"T_gamma(E2)=K_E2*E_MeV^5*B(E2)[e^2b^2]; T_gamma(M1)=K_M1*E_MeV^3*B(M1)[mu_N^2]; C_L(ps)=1e12/K_L\",\n            \"precision\": \"Numeric digits document the chosen constant system, not experimental precision. SI/Gaussian agreement is limited by rounded correlated CODATA entries.\",\n            \"legacy_comparison\": {\n                \"0_0816_relative_difference\": c[\"C_E2_for_tau_ps\"] / 0.0816 - 1,\n                \"0_05697_relative_difference\": c[\"C_M1_for_tau_ps\"] / 0.05697 - 1,\n                \"interpretation\": \"0.0816 is compatible with rounding of this reconstruction; 0.05697 is not its simple rounding. LKH82 p121 does not give those absolute lifetime coefficients or their underlying historic constants. Retain a paper's original coefficient and quoted B, and label modern recalculation separately rather than silently replacing an experimental result.\",\n            },\n        },\n        \"lifetime_and_branching\": {\n            \"mean_vs_half_life\": \"T_total=1/tau; T_1/2=tau*ln(2). If T_1/2 is supplied, tau=T_1/2/ln(2). Substituting T_1/2 as tau overestimates inferred B by 1/ln(2).\",\n            \"definitions\": \"b_total,b=T_total,b/T_total; p_gamma,b=T_gamma,b/T_total; beta_gamma,b=I_gamma,b/sum(I_gamma) counts only the relative fraction of photons and generally is not p_gamma,b or b_total,b.\",\n            \"total_branch_known_no_extra_E0\": \"p_gamma,b=b_total,b/(1+alpha_total,mix,b), only when the ordinary all-shell electron conversion accounts for all non-gamma rates of that branch; an additional E0/pair term must be zero or explicitly included through an effective full non-gamma coefficient\",\n            \"corrected_photon_intensities\": \"D=sum_j I_gamma,j*(1+alpha_total,j); p_gamma,b=(1-b_extra)*I_gamma,b/D. b_extra is the fraction of all additional non-gamma decays not already counted by alpha_total,j; all gamma branches must be included.\",\n            \"E0_boundary\": \"Unobserved E0 can occur on the specified same-spin transition or another same-spin branch of the parent level. It reduces the available photon fraction. If it is already included in an effective total non-gamma coefficient, do not add it twice.\",\n            \"K_vs_total\": \"A K-shell ICC alone is not alpha_total; lifetime normalization needs all available conversion shells and any separately relevant pair or other non-gamma branch. No numerical ICC or pair rate was supplied or computed.\",\n        },\n        \"mixed_gamma_absolute_strengths\": {\n            \"assumptions\": \"Only M1 and E2 contribute to the retained gamma rate; delta magnitude/branch is known; E_gamma, mean tau, parent-level photon fraction and their dependencies are known. Allowed M3/E4 are an explicit truncation for the synthetic 2+->2+ case.\",\n            \"fractions\": \"t=delta^2; f_M1=1/(1+t); f_E2=t/(1+t); these are gamma-rate fractions, not total-decay fractions\",\n            \"photon_fraction_route\": \"B(M1)[mu_N^2]=C_M1*p_gamma/[tau_ps*E_MeV^3*(1+t)]; B(E2)[e^2b^2]=C_E2*p_gamma*t/[tau_ps*E_MeV^5*(1+t)]\",\n            \"known_total_branch_route\": \"D_mix=1+alpha_total(M1)+t*(1+alpha_total(E2)); B(M1)=C_M1*b_total/[tau_ps*E_MeV^3*D_mix]; B(E2)=C_E2*b_total*t/[tau_ps*E_MeV^5*D_mix]. This route excludes uncounted E0/pair terms.\",\n            \"same_gamma_B_ratio\": \"B(M1)/B(E2)=(K_E2/K_M1)*E_MeV^2/t in mu_N^2/(e^2b^2); mean tau and photon fraction cancel for these two components of the same gamma transition\",\n            \"spin_normalization\": \"The K_L to B_L conversion already uses B=RME^2/(2Ji+1); do not divide a rate-derived B by (2Ji+1) a second time.\",\n            \"sign\": \"Absolute widths and these strengths depend on t, not the relative delta sign.\",\n        },\n        \"input_formula_output_error_chain\": [\n            {\"inputs\": \"level/transition identity, Ji,Jf, multipolarity and E_gamma\", \"formula\": \"triangle/parity filter; source Eq2.2-2.3a\", \"output\": \"allowed tensor and correctly defined B unit\", \"uncertainty\": \"assignment alternatives and energy uncertainty; a D/Q label is insufficient for a unique absolute B\"},\n            {\"inputs\": \"time/line-shape data and prompt/stopping/feeding model\", \"formula\": \"method-specific fit plus tau=T_1/2/ln(2) where needed\", \"output\": \"mean level tau\", \"uncertainty\": \"statistical fit plus stopping, feeding, response and shared systematics; a quoted B derived from this tau is not a second measurement\"},\n            {\"inputs\": \"all corrected photon intensities, total ICCs, extra non-gamma fractions\", \"formula\": \"p_gamma,b=(1-b_extra)*I_b/sum_j [I_j*(1+alpha_j)]\", \"output\": \"photon rate fraction per level decay\", \"uncertainty\": \"intensity normalization couples branches; common efficiency/background and alpha(E,t) dependencies create covariance\"},\n            {\"inputs\": \"p_gamma, mean tau, E_gamma and t\", \"formula\": \"T_gamma,L=p_gamma*f_L/tau; B_L=T_gamma,L/(K_L*E_gamma^(2L+1))\", \"output\": \"absolute B(M1),B(E2)\", \"uncertainty\": \"shared tau/branch and anti-correlated mixing fractions must be propagated jointly\"},\n            {\"inputs\": \"B(E2) plus a specified rotor/K/triaxial model\", \"formula\": \"model-dependent conversion to Qt or intrinsic-shape parameters\", \"output\": \"derived transition moment or model interpretation\", \"uncertainty\": \"Qt is not a direct intrinsic-shape measurement; do not conflate it with an independent B or lifetime input\"},\n        ],\n        \"covariance\": {\n            \"rule\": \"Sigma_B=J*Sigma_inputs*J^T; include common inputs and their cross-covariances. Near bounds or non-Gaussian/multiple t branches, first-order propagation is conditional and the branch distribution must be retained.\",\n            \"photon_fraction_route_log_J\": \"For inputs (tau,E,p,t), ln B_M1 derivatives=(-1/tau,-3/E,1/p,-1/(1+t)); ln B_E2=(-1/tau,-5/E,1/p,1/[t*(1+t)]), for t>0.\",\n            \"total_branch_route_log_J\": \"D=1+alpha_M1+t*(1+alpha_E2); derivatives for (tau,E,b,t,alpha_M1,alpha_E2), at t>0, are (-1/tau,-3/E,1/b,-(1+alpha_E2)/D,-1/D,-t/D) for M1 and (-1/tau,-5/E,1/b,1/t-(1+alpha_E2)/D,-1/D,-t/D) for E2. At t=0, ln B_E2 is undefined; use the actual B Jacobian or one-sided/branch limits.\",\n            \"intensity_normalization_log_J\": \"d ln p_b/d I_j=delta_bj/I_b-(1+alpha_j)/D; d ln p_b/d alpha_j=-I_j/D; d ln p_b/d b_extra=-1/(1-b_extra). Chain alpha_j(E_j,t_j) instead of treating it as an unrelated input.\",\n            \"covariance_directions\": \"shared tau and branch normalization generally induce positive B_M1/B_E2 covariance; varying t transfers gamma fraction between the components and induces negative covariance. These components must be combined, not assumed independent.\",\n        },\n        \"conditional_not_ready\": [\n            \"No mean tau or only an unclear tau/T_1/2 label: no absolute B.\",\n            \"No complete branching/total-shell ICC/extra E0 closure: photon fraction remains conditional.\",\n            \"Unknown or multiple t branches: do not set delta=0 silently; partial M1/E2 strengths remain branch-conditional.\",\n            \"Missing E_gamma/unit, multipolarity/operator normalization or transition identity: the exponent/unit conversion is not ready.\",\n            \"No covariance or systematic model: central-value arithmetic may be possible, but a complete confidence interval is not justified.\",\n            \"Quoted B and Qt are outputs of the same chain; they are not new independent inputs or direct shape observations.\",\n        ],\n        \"numeric_example_boundary\": \"All numerical rates, intensities, ICC-like weights, lifetimes, strengths and derivative points in the code are explicitly synthetic algebra examples. They are not atomic coefficients, nuclides, measured data, or L4 results.\",\n        \"checks\": {\"passed_by_group\": dict(sorted(counts.items())), \"total_passed\": sum(counts.values()), \"failures\": 0,\n                   \"Gaussian_SI_relative_E2\": c[\"K_E2_Gaussian\"] / c[\"K_E2_SI\"] - 1,\n                   \"Gaussian_SI_relative_M1\": c[\"K_M1_Gaussian\"] / c[\"K_M1_SI\"] - 1},\n        \"reproducibility\": {\"code\": \"tmp/day8-20261007/day9-preview/units/strength_unit_audit.py\",\n                            \"script_sha256\": hashlib.sha256(Path(__file__).read_bytes()).hexdigest(),\n                            \"source_code\": Path(__file__).read_text(encoding=\"utf-8\"),\n                            \"baseline_reference\": \"outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/baseline.json\",\n                            \"baseline_sha256\": hashlib.sha256((RECEIPT.parent / \"baseline.json\").read_bytes()).hexdigest(),\n                            \"check_command\": \"python3 tmp/day8-20261007/day9-preview/units/strength_unit_audit.py\",\n                            \"write_command\": \"python3 tmp/day8-20261007/day9-preview/units/strength_unit_audit.py --write-receipt\",\n                            \"write_policy\": \"exclusive receipt creation; no knowledge/report/raw/system/state/Git mutations\"},\n    }\n\n\ndef main() -> None:\n    parser = argparse.ArgumentParser(description=__doc__)\n    parser.add_argument(\"--write-receipt\", action=\"store_true\")\n    parser.add_argument(\"--print-receipt\", action=\"store_true\")\n    args = parser.parse_args()\n    receipt = build_receipt()\n    if args.write_receipt:\n        with RECEIPT.open(\"x\", encoding=\"utf-8\", newline=\"\\n\") as stream:\n            json.dump(receipt, stream, ensure_ascii=False, indent=2)\n            stream.write(\"\\n\")\n    if args.print_receipt:\n        print(json.dumps(receipt, ensure_ascii=False, indent=2))\n    else:\n        print(json.dumps({\"artifact\": str(RECEIPT.relative_to(ROOT)) if args.write_receipt else None,\n                          \"coefficients\": receipt[\"units_and_constants\"][\"derived_constants_and_coefficients\"],\n                          \"checks\": receipt[\"checks\"], \"course_credit_awarded\": False, \"run_closed\": False},\n                         ensure_ascii=False, indent=2))\n\n\nif __name__ == \"__main__\":\n    main()\n",
+    "baseline_reference": "outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/baseline.json",
+    "baseline_sha256": "ac73898f4f4e970a15d9fa9b6f3a6e876903bac44f9740c261a395cb4e0adc09",
+    "check_command": "python3 tmp/day8-20261007/day9-preview/units/strength_unit_audit.py",
+    "write_command": "python3 tmp/day8-20261007/day9-preview/units/strength_unit_audit.py --write-receipt",
+    "write_policy": "exclusive receipt creation; no knowledge/report/raw/system/state/Git mutations"
+  }
+}

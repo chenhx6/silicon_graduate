@@ -68,6 +68,8 @@ tags: [Rose-Brink, angular-distribution, phase-convention, mixing-ratio, alignme
 | RB67-8 | The integrated gamma-rate relation sums squared normalized multipole amplitudes, while the angular distribution contains interference products; a width/lifetime alone cannot recover the relative sign. | formula-and-limitation | direct | printed p.318 / PDF p.13, Eq.3.29; printed p.319 / PDF p.14, Eqs.3.35–3.39; printed p.320 / PDF p.15, Eqs.3.41–3.43 | true |
 | RB67-9 | The long-wavelength expansion and powers of k can motivate a lower-multipole approximation, while the two-multipole angular-distribution formula explicitly assumes only two components contribute; allowed higher ranks are not exactly forbidden by that approximation. | approximation-boundary | direct | printed pp.313–314 / PDF pp.8–9, Eq.3.12; printed p.318 / PDF p.13, Eq.3.30; printed p.321 / PDF p.16, before Eq.3.47 | true |
 | RB67-10 | For `Ji=3/2→Jf=1/2`, the appendix tabulates K=2 coefficients `R2(11)=0.5000`, `R2(12)=0.8660`, `R2(22)=−0.5000`; for Ji=3/2 the folded population coefficients are `ρ2(M=1/2)=−2.0000`, `ρ2(M=3/2)=2.0000`. These are formalism coefficients, not measured angular data. | tabulated-theory-coefficient | direct | Appendix angular-distribution coefficients, printed p.339 / PDF p.34, Ji=3/2 Jf=1/2 K=2 row; statistical-tensor coefficients, printed p.347 / PDF p.42, Ji=3/2 K=2 row | true |
+| RB67-11 | Linear x′/y′ intensities use coherent differences/sums of the two helicity amplitudes; the CG ordering, rotation exponent and magnetic `q^π` factor are part of the amplitude identity and cannot be replaced by a helicity-summed angular response alone. | experimental-criterion | direct | printed p.316 / PDF p.11, Eq.3.24, intervening polarization paragraph and unnumbered WE relation after Eq.3.25; printed p.312 / PDF p.7, footnote7 | true |
+| RB67-12 | In the explicitly synthetic Ji=3/2→Jf=1/2 reconstruction, fixed high-M population lets ideal linear polarization separate the RB δ=0/√3 angular branches; alternatively, pure E1/high-M and pure M2/low-M give identical pointwise direction/polarization intensity matrices. These are task-derived conditional counterexamples, not author-reported experiments or a statement about complete photon states. | our-inference | indirect | Premises: printed p.316 / PDF p.11, Eqs.3.24–3.25; printed p.317 / PDF p.12, Eq.3.28; printed p.318 / PDF p.13, Eq.3.29; printed p.347 / PDF p.42, ρ2 table | true |
 
 ## Summary
 
@@ -103,6 +105,32 @@ Rose and Brink supply the phase-consistent foundation that lets angular distribu
 线偏振位于 printed p.316 / PDF p.11, Eq.3.24 后的两个 helicity-coherent superpositions 说明；Eq.3.25 的 `P^q(k)` 保持 q 固定，没有对 photon helicity 求和。未测偏振时的非相干求和 `P=P^(+1)+P^(−1)` 在 printed p.319 / PDF p.14, Eq.3.35 之前说明，不能代替线偏振的相干叠加。本文 p.316 没有提供可直接套给任意现代 polarimeter 的单一 `P(θ,δ)` 数值公式；实验符号和幅度需要分析轴、响应和该 setup 的标定。
 
 宽度关系 Eq.3.29（printed p.318 / PDF p.13）在固定 `Ji→Jf`、固定 photon k 下对该跃迁各多极的平方幅度求和，不包含可恢复相对符号的干涉项。多个末态的总 γ 率须逐项用各自 k_f 求和；实验总寿命还须纳入非 γ 通道。级联 Eq.3.73（printed p.326 / PDF p.21）的第一 γ 因子含 `(-1)^(Lbar1−L1)`，其中 Lbar1 是最低阶成分；第二 γ 因子没有此额外 phase。不能让两条 γ 共用未经核对的交叉项符号。该页 Eq.3.73 印刷没有显式列出 K 求和符号；恢复完整 W(θ) 的 K 求和须注明依据 Eqs.3.47、3.71 的上下文。
+
+## Amplitude Reconstruction for Direction and Linear Polarization
+
+以下是把本篇规范落实为可复现计算的公式记录。`L` 是 photon multipole rank，`q=±1` 是 helicity，两者分开；核态宇称另记正/负，算符标签 π=0/1 记 E/M。
+
+取 `a_Lπ=⟨Ji‖T_L^π‖Jf⟩/√(2L+1)`，忽略所有成分共有的 Eq.3.24 因子 `−√[k/(2πℏ)]`，由该页未编号 WE 关系得到：
+
+`Atilde_(Mi Mf)^q = Σ_(Lπ) q^π √(2L+1) a_Lπ CG(Jf,L;Mf,Mi−Mf|Ji,Mi) d^L_(Mi−Mf,q)(θ)`。
+
+这里整数 L 的 WE phase `(−1)^(2L)=1`；调换 CG 输入次序时仍须加对应 permutation phase，不能只交换库参数。采用 Euler `(0,θ,0)`，`khat=(sinθ,0,cosθ)`、`x′=(cosθ,0,−sinθ)`、`y′=(0,1,0)`。p.312 footnote7 定义 `d=exp(−iθJy/ℏ)`；本轮 SymPy 1.14.0 实现的指数号相反，因此使用 `wigner_d_small(L,−θ)`，并检查生成元和完整 angular response。定位：RB67-11。
+
+令 `Sγ=Σ|a_Lπ|²`，初态 axisymmetric weights 的全 Mi 求和归一为 1。维数已归一、角平均为1的方向强度为 `W=Σ_(Mi Mf q) w(Mi)|Atilde^q|²/(2Sγ)`；线偏振强度为 `Ix′=Σw|Atilde^-−Atilde^+|²/(4Sγ)`、`Iy′=Σw|Atilde^-+Atilde^+|²/(4Sγ)`，满足 `Ix′+Iy′=W`。`W/(4π)` 才是归一单位立体角概率密度。分母由 Eqs.3.24/3.29 的共同因子与 γ 宽度相消重构，不是额外 detector response。
+
+本轮定义 `Q_s=(Ix′−Iy′)/(Ix′+Iy′)` 作为该轴下 normalized Stokes 分量；detector analyzing power 和实验 asymmetry 需要另做响应/轴映射。`Q_s` 不能借用其它阵列的 electric-positive 标签；强度为零时该比值未定义。
+
+### Conditional Synthetic Counterexamples
+
+题设 `3/2+→1/2−`，RB δ=M2/E1，实振幅且高-M aligned weights `w(±3/2)=1/2`。由上述 amplitude 独立复现 Eq.3.47 后，令 `x=cosθ`：
+
+`Ix′=[4δ²+(3+2√3δ−3δ²)x²]/[4(1+δ²)]`；`Iy′=[(δ−√3)²+4√3δx²]/[4(1+δ²)]`。
+
+在 δ=0 与 √3 两根，Ix′/Iy′ 的曲线互换，90° 的 Q_s 分别 −1/+1；在此指定布居与理想分析轴下，偏振提供本对角分布解的区分信息。纯 M2/high-M 的 90° 极限为 Q_s=3/5，等权 Mi 则两种线偏振均1/2；不能把本例的符号推广为所有 E/M 的通用实验规则。
+
+再比较 `(a_E1,a_M2)=(1,0), w(±3/2)=1/2` 与 `(0,1), w(±1/2)=1/2`。Eq.3.28/ρ表分别给 B2=+1/−1；直接振幅计算都得到 `W=3(1+x²)/4, Ix′=3x²/4, Iy′=3/4`。在每个 θ，其 (−,+) helicity 强度矩阵都为 `(3/8) matrix((1+x²,1−x²);(1−x²,1+x²))`，trace=W；固定方向的归一偏振矩阵需再除以 W。这证明本例的 pointwise direction/polarization 数据可能具有 population/multipolarity 联合解，不证明不同方向的场相干、γγ 关联、核末态或完整光子量子态均相同。
+
+共同 photon k 与辐射振幅单位 A0 下两例 Sγ=1，目标 γ branch 宽度相同；实验 total lifetime 另受各 multipole 的 ICC、其它分支和非 γ 通道影响。独立同初态/已知 R2 的校准线可以检验 B2 的符号与不确定度；积分转换数据需给 Z/E/壳层与理论/实测区间。都不能由待判跃迁自身含 multipole 假设的拟合重复充当独立证据。这些条件设计和 RB67-12 的数值/矩阵等式是本轮解析推论，书中原图提供的是公式与统计系数。
 
 ## Human Review Triage
 

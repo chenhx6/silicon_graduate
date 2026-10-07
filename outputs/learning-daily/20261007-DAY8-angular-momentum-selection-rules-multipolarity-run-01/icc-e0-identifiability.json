@@ -1,0 +1,217 @@
+{
+  "schema_version": 1,
+  "artifact_kind": "bounded-L2-symbolic-identifiability-check",
+  "day_index": 8,
+  "run_status": "study-window-open; this artifact does not close the run or advance course state",
+  "parent_session_id": "01a111fb-370d-7ed1-afe9-881ccc47caf4",
+  "created_at_utc": "2026-10-07T00:19:42.156372+00:00",
+  "research_deadline": "2026-10-08T15:00:00+08:00",
+  "evidence_class": "our analytic reconstruction from direct source rate definitions; no experimental or atomic dataset",
+  "source": {
+    "citation_key": "lange_1982_E0E2M1",
+    "raw_sha256": "ed925a0577a9257903806acd209c1db707529e86a5bfd9a301a83d597bf78ffb",
+    "locators": [
+      "Sec.II.B, printed p.123 / PDF p.5, Eq.2.12",
+      "Sec.IV.B, printed p.169 / PDF p.51, Eq.4.1 and the first paragraph of IV.B"
+    ],
+    "source_direct_statement": "Only when the E2/M1 admixture is known can a definite value for an E0/E2 admixture be extracted.",
+    "source_boundary": "The specified passages do not explicitly discuss t=0, alpha_K(E2)=0, or the 2+->2+ pure-M1/pure-E2 singular parameterization boundaries. Those results below are our analytic reconstruction. The p.123 0+->0+ E0-only remark concerns a distinct case/reference transition."
+  },
+  "scope_and_assumptions": {
+    "synthetic_transition": "2+ -> 2+; no nuclide, Z, energy, atomic coefficients, or measured ICC assigned",
+    "complete_single_gamma_candidates": [
+      "M1",
+      "E2",
+      "M3",
+      "E4"
+    ],
+    "extra_gamma_truncation": "retain M1/E2 only; omit the allowed M3/E4 amplitudes explicitly",
+    "penetration": "ignored for this derivation; Eq.4.1 includes alpha_K(M1,lambda_pen)",
+    "shell": "K-shell only; no assertion about total-shell conversion or pair rates",
+    "normalization_domain": "alpha_K(E2)>0; a>0,r>0; finite t>0 requires both retained gamma rates positive",
+    "measurement_conditions": "r would require correctly calibrated electron/gamma rates and the correct transition assignment; none are supplied here",
+    "units": "T_gamma and T_K are rates in s^-1; Gamma_gamma=hbar*T_gamma has energy units. a,r,t,z,y and every ICC are dimensionless."
+  },
+  "definitions": {
+    "t": "T_gamma(E2)/T_gamma(M1)=delta^2",
+    "z": "q_K^2=T_K(E0)/[alpha_K(E2)*T_gamma(E2)] >= 0; requires nonzero E2 gamma rate",
+    "a": "alpha_K(M1)/alpha_K(E2) > 0",
+    "r": "alpha_K,obs/alpha_K(E2) > 0",
+    "y": "t*z=T_K(E0)/[alpha_K(E2)*T_gamma(M1)] >= 0; requires nonzero M1 gamma rate"
+  },
+  "equations": {
+    "finite_t_model": "r=[a+t*(1+z)]/(1+t)",
+    "solve_for_z": "z=(r-a)/t+r-1",
+    "solve_for_y": "y=(r-a)+(r-1)*t",
+    "y_model": "r=(a+t+y)/(1+t)",
+    "feasibility_equivalents": "z>=0 <=> y>=0 <=> (r-1)*t>=a-r <=> r>=(a+t)/(1+t), for finite t>0"
+  },
+  "finite_positive_t_classification": [
+    {
+      "condition": "r>1 and a<=r",
+      "allowed_t": "all t>0"
+    },
+    {
+      "condition": "r>1 and a>r",
+      "allowed_t": "t>=(a-r)/(r-1)>0",
+      "boundary": "equality gives z=0"
+    },
+    {
+      "condition": "r=1 and a<1",
+      "allowed_t": "all t>0",
+      "z": "(1-a)/t>0"
+    },
+    {
+      "condition": "r=1 and a=1",
+      "allowed_t": "all t>0",
+      "z": "0; r contains no t information"
+    },
+    {
+      "condition": "r=1 and a>1",
+      "allowed_t": "none at finite t>0"
+    },
+    {
+      "condition": "0<r<1 and a<r",
+      "allowed_t": "0<t<=(r-a)/(1-r)",
+      "boundary": "equality gives z=0"
+    },
+    {
+      "condition": "0<r<1 and a>=r",
+      "allowed_t": "none"
+    }
+  ],
+  "boundaries": {
+    "a_equal_one": "r=1+t*z/(1+t)>=1. For r=1, z=0 and t arbitrary; for r>1, z=(r-1)*(1+1/t)>0; r<1 is infeasible.",
+    "r_equal_one": "finite t>0 requires a<=1 and z=(1-a)/t. If a>1 no finite solution; pure-E2 z=0 is a separate endpoint.",
+    "t_zero_finite_z_formal_extension": "r=a, but z uses a zero E2-rate denominator. Keeping z finite as t->0 forces y=t*z->0 and excludes finite E0 only along that path.",
+    "pure_M1_with_possible_E0": "use y: t=0 gives r=a+y with y=r-a>=0; z is undefined. Pure M1 gamma plus E0 electrons is allowed.",
+    "fixed_z_vs_fixed_y_path": "t->0 at fixed finite z gives r->a. At fixed finite y, z=y/t may diverge and r->a+y. These are distinct paths.",
+    "pure_E2_with_possible_E0": "T_gamma(M1)=0 makes t and y singular. Reference the nonzero E2 rate directly: r=1+z>=1.",
+    "finite_z_t_infinity_identity": "r-(1+z)=[a-(1+z)]/(1+t), so t->infinity at fixed finite z gives r->1+z.",
+    "closed_K_shell": "if alpha_K(E2)=0, a,r,z and these normalized bounds are undefined; this does not exclude other-shell E0 or pair channels",
+    "both_retained_gamma_rates_zero": "under the M1/E2 truncation, electron/gamma ICC has zero gamma denominator and is undefined; the omitted allowed gamma components must not be silently assumed absent in the full physical candidate set"
+  },
+  "ordinary_two_gamma_convex_combination": {
+    "equation": "alpha_K,obs=w_M1*alpha_K(M1)+w_E2*alpha_K(E2), with w_M1=1/(1+t), w_E2=t/(1+t), w_M1+w_E2=1",
+    "normalized_range": "min(a,1)<=r<=max(a,1); strictly inside at finite t>0 if a!=1",
+    "ordinary_inverse": "if z=0 and a!=1 and r is strictly between a and 1, t=(a-r)/(r-1)>0. If a=r=1, all t have the same ICC.",
+    "upper_outlier": "r>max(a,1) rejects ordinary z=0; positive E0 can fit within the restricted model but is not uniquely demonstrated",
+    "lower_outlier": "r<min(a,1) is impossible even after adding nonnegative E0 in this no-penetration two-gamma model; E0 only raises the ICC",
+    "competing_hypotheses": [
+      "M1 penetration changes the conversion response; p.169 explicitly discusses enhanced electron conversion without enhanced gamma emission",
+      "allowed M3/E4 gamma amplitudes change the retained-component coefficient hull, conditionally on their true pure ICCs",
+      "incorrect electron/gamma response, background or calibration",
+      "incorrect transition or multipolarity/level assignment"
+    ],
+    "inference_boundary": "An ICC outside the ordinary two-component hull rejects that assumption package; it alone does not independently prove E0."
+  },
+  "identifiability": {
+    "one_observation": "one r supplies one equation for t and z (or t and y); feasible sets above generally contain a continuum of solutions",
+    "delta_sign": "t=delta^2 makes the ICC invariant under delta -> -delta; it gives no relative E2/M1 sign",
+    "additional_inputs": "an independently constrained radiative mixing magnitude can fix z within the stated source/response model; sign needs interference-sensitive information and a convention map"
+  },
+  "synthetic_examples": [
+    {
+      "kind": "synthetic algebra, not atomic coefficients",
+      "a": "4",
+      "r": "2",
+      "solutions": [
+        {
+          "t": "2",
+          "z": "0"
+        },
+        {
+          "t": "4",
+          "z": "1/2"
+        }
+      ],
+      "point": "same r does not distinguish ordinary M1/E2 from M1/E2 plus E0"
+    },
+    {
+      "kind": "synthetic algebra, not atomic coefficients",
+      "a": "4",
+      "r": "2",
+      "t": "1",
+      "z": "-1",
+      "point": "fails z>=0; valid t must be at least 2"
+    },
+    {
+      "kind": "synthetic algebra, not atomic coefficients",
+      "a": "4",
+      "r": "1/2",
+      "point": "below the [1,4] hull; no t>0 yields nonnegative E0"
+    },
+    {
+      "kind": "synthetic algebra, not atomic coefficients",
+      "a": "4",
+      "r": "5",
+      "t": "1",
+      "z": "5",
+      "point": "upper outlier is compatible with E0 in the restricted model, not independent E0 evidence"
+    },
+    {
+      "kind": "synthetic arbitrary rates, not experiment",
+      "pure_M1_normalization": {
+        "a": "4",
+        "r": "5",
+        "t": "0",
+        "z": null,
+        "y": "1"
+      },
+      "point": "t=0 still permits E0; z is undefined"
+    },
+    {
+      "kind": "synthetic arbitrary rates, not experiment",
+      "pure_E2_normalization": {
+        "a": "4",
+        "r": "3/2",
+        "t": null,
+        "z": "1/2",
+        "y": null
+      },
+      "point": "reference E2 directly; t and y are undefined"
+    }
+  ],
+  "actual_checks": {
+    "arithmetic": "Python standard-library Fraction exact rational checks; no floating rounding",
+    "grid_kind": "synthetic algebra inputs only; finite checks complement the analytic proof rather than replacing it",
+    "finite_domain_grid_points": 125,
+    "passed_by_group": {
+      "E0_only_raises_integrated_ICC": 75,
+      "a_equals_one_condition": 125,
+      "a_one_degenerate_example": 1,
+      "both_gamma_rates_zero_rejected": 1,
+      "closed_K_shell_normalization_rejected": 1,
+      "delta_sign_invariance": 225,
+      "fixed_y_boundary_path": 5,
+      "fixed_y_pure_M1_limit_identity": 5,
+      "fixed_z_pure_M1_limit_identity": 75,
+      "formal_t_zero_finite_z": 15,
+      "low_outlier_not_explained_by_nonnegative_E0": 1,
+      "negative_z_example": 1,
+      "nonunique_t_z_example": 1,
+      "ordinary_convex_hull": 25,
+      "ordinary_envelope_equivalence": 125,
+      "ordinary_strict_interior_or_degenerate": 25,
+      "piecewise_feasibility": 125,
+      "positive_weights_sum_to_one": 25,
+      "pure_E2_limit_identity": 75,
+      "pure_E2_plus_E0_boundary": 1,
+      "pure_M1_plus_E0_boundary": 1,
+      "r_equals_one_condition": 125,
+      "r_one_positive_E0_example": 1,
+      "rearrangement_identity": 125,
+      "source_hash_identity": 1,
+      "upper_outlier_E0_example": 1,
+      "y_equals_t_z": 125
+    },
+    "total_passed": 1311,
+    "failures": 0
+  },
+  "reproducibility": {
+    "code": "tmp/day8-20261007/lange-kumar/icc_e0_identifiability.py",
+    "check_command": "python3 tmp/day8-20261007/lange-kumar/icc_e0_identifiability.py",
+    "first_creation_command": "python3 tmp/day8-20261007/lange-kumar/icc_e0_identifiability.py --write-receipt",
+    "write_policy": "exclusive JSON creation; no edits to knowledge/report/system/raw/state/Git; durable reuse belongs to parent knowledge writeback"
+  }
+}

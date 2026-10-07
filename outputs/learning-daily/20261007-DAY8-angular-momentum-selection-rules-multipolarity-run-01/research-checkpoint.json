@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "event": "same-session-context-continuation",
+  "run_id": "prompt-2026-10-07-day-08",
+  "session_id": "01a111fb-370d-7ed1-afe9-881ccc47caf4",
+  "resume_command": "codex resume 01a111fb-370d-7ed1-afe9-881ccc47caf4 -C /workspace/wiki -s danger-full-access -a never",
+  "day_index": 8,
+  "completed_day_indices": [
+    8
+  ],
+  "partial_day_indices": [
+    9
+  ],
+  "course_state_updated": false,
+  "runtime_snapshot": {
+    "now_local": "2026-10-07T10:57:34+08:00",
+    "hard_deadline": "2026-10-08T15:00:00+08:00",
+    "next_scheduled_start": "2026-10-08T16:00:00+08:00",
+    "minutes_to_deadline": 1682,
+    "minutes_to_next_start": 1742,
+    "minimum_current_block_minutes": 90,
+    "minimum_forward_card_block_minutes": 120,
+    "can_continue_current": true,
+    "can_complete_forward_card": true,
+    "decision": "continue-or-advance"
+  },
+  "candidate_pool": [
+    {
+      "id": "day8-rank-phase",
+      "decision": "completed-in-scope",
+      "next_gain": "no unresolved convention/triangle claim remains under supplied assumptions"
+    },
+    {
+      "id": "day8-angular-polarization-population",
+      "decision": "bounded-route-complete",
+      "next_gain": "real assignment needs independent population/response data; no synthetic experimental fit added"
+    },
+    {
+      "id": "day8-e0-icc",
+      "decision": "bounded-route-complete",
+      "next_gain": "1311 exact checks and singular chart proof; Z/E/atomic coefficients absent so no further numeric ICC route"
+    },
+    {
+      "id": "day8-four-multipole-full-polarization-rank",
+      "decision": "selected-bounded-L2",
+      "next_gain": "derive actual full single-gamma polarization basis, then test whether unknown aligned population plus four nonzero amplitudes can retain local joint solutions"
+    },
+    {
+      "id": "day8-gamma-cascade-expansion",
+      "decision": "deferred",
+      "next_gain": "no cascade spins/gate supplied; extra synthetic cases would not change current exclusion boundary"
+    },
+    {
+      "id": "day9-strength-input-chain",
+      "decision": "preview-knowledge-written-uncredited",
+      "next_gain": "source packet reconciliation and conditional input checks; no independent formal Day9 recall/audit or credit"
+    },
+    {
+      "id": "day10-card",
+      "decision": "out-of-scope-not-opened",
+      "next_gain": "single Day+1 authorization only"
+    }
+  ],
+  "evidence_gaps": [
+    "MU08 Table I branching not explicitly identified as photon fraction versus total fraction in current reading",
+    "MU08 stopping-power systematic and tau/branch covariance not in quoted statistical errors",
+    "event/response/feeding/covariance package absent; no L4"
+  ],
+  "source_locators": [
+    {
+      "knowledge": "knowledge/sources/mukhopadhyay-2008-136nd-transition-rates.md",
+      "locator": "034311-3 / PDF3 Table I and statistical/systematic paragraph; 034311-4 / PDF4 Table II"
+    },
+    {
+      "knowledge": "knowledge/sources/lange-kumar-hamilton-1982-multipole-admixtures.md",
+      "locator": "printed p.121 / PDF3 Eqs.2.2,2.3,2.5"
+    }
+  ],
+  "next_actions": [
+    "Day8 synthetic B full four-multipole/polarization/population representation and exact local rank audit",
+    "Day9 uncredited preview packet reconciliation; branching/IC/covariance remain conditional",
+    "2026-10-08 15:00 closeout, Day9 plan/prompt and gated course state update"
+  ],
+  "latest_verification": "/workspace/wiki/outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/checkpoint-preview-checks.json",
+  "checkpoint_verified": true
+}

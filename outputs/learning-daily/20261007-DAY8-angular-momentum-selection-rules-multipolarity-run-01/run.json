@@ -28,7 +28,9 @@
   "completed_day_indices": [
     8
   ],
-  "partial_day_indices": [],
+  "partial_day_indices": [
+    9
+  ],
   "counted_in_substantive_test": false,
   "course_state_before": {
     "next_day_index": 8,
@@ -39,11 +41,11 @@
     "preflight_exit": 0
   },
   "last_closeout_snapshot": {
-    "now_local": "2026-10-07T05:29:06.668756+08:00",
+    "now_local": "2026-10-07T10:57:34+08:00",
     "hard_deadline": "2026-10-08T15:00:00+08:00",
     "next_scheduled_start": "2026-10-08T16:00:00+08:00",
-    "minutes_to_deadline": 2010,
-    "minutes_to_next_start": 2070,
+    "minutes_to_deadline": 1682,
+    "minutes_to_next_start": 1742,
     "minimum_current_block_minutes": 90,
     "minimum_forward_card_block_minutes": 120,
     "can_continue_current": true,
@@ -61,7 +63,7 @@
     "pid": 110255,
     "process_exit": null,
     "clock_status": "running",
-    "heartbeat_at": "2026-10-07T01:50:21.010205+08:00",
+    "heartbeat_at": "2026-10-07T11:02:46.613030+08:00",
     "deadline": "2026-10-08T15:00:00+08:00",
     "command": [
       "python3",
@@ -76,7 +78,7 @@
       "--checkpoint-hours",
       "2"
     ],
-    "queue_delivery_boundary": "scheduled, not yet observed delivery",
+    "queue_delivery_boundary": "checkpoint-001 execution observed at 07:18; later queued messages not yet observed executed",
     "control_patch": "Farmer cancellation/manual-attention and single-recovery control",
     "restarted_at": "2026-10-07T05:11:49.167824+08:00",
     "first_supervisor_started_at": "2026-10-07T01:50:20.943968+08:00"
@@ -91,8 +93,101 @@
     "session_clock_tests_count": 35,
     "session_clock_tests_exit": 0,
     "exact_angular_algebra_checks": 20,
-    "exact_angular_algebra_exit": 0
+    "exact_angular_algebra_exit": 0,
+    "ideal_polarization_checks": 30,
+    "ideal_polarization_exit": 0,
+    "population_multipolarity_checks": 50,
+    "population_multipolarity_exit": 0,
+    "icc_e0_algebra_checks": 1311,
+    "icc_e0_algebra_exit": 0,
+    "day9_unit_normalization_checks": 62,
+    "day9_unit_normalization_exit": 0,
+    "changed_knowledge_pages": 6
   },
   "card_content_status": "complete",
-  "checkpoint_checks_file": "/workspace/wiki/outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/checkpoint-checks.json"
+  "checkpoint_checks_file": "/workspace/wiki/outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/checkpoint-checks.json",
+  "checkpoint_publications": [
+    {
+      "branch": "main",
+      "commit_subject": "Checkpoint DAY8 conventions and timed learning",
+      "commit_hash": "ae5ee434c7f6a1ffb7e03ba83df544886e19ac3b",
+      "remote": "origin (Gitee)",
+      "refspec": "HEAD:main",
+      "fetch_exit": 0,
+      "remote_ancestor_exit": 0,
+      "dry_run_exit": 0,
+      "push_exit": 0,
+      "post_push_head_matches_origin_main": true,
+      "published_at": "2026-10-07T06:54:42.675274+08:00",
+      "publication_kind": "continuing-checkpoint",
+      "run_finalized": false
+    }
+  ],
+  "continuation_prompt_file": "/workspace/wiki/outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/continuation-prompt.md",
+  "pending_research": [
+    "Day8 synthetic B full four-multipole/polarization/population representation and exact local rank audit",
+    "Day9 uncredited preview packet reconciliation; branching/IC/covariance remain conditional",
+    "2026-10-08 15:00 closeout, Day9 plan/prompt and gated course state update"
+  ],
+  "pending_clock_delivery_count": 4,
+  "observed_clock_executions": [
+    {
+      "timestamp": "2026-10-07T07:18:39.583689+08:00",
+      "event": "clock-checkpoint-execution-observed",
+      "clock_event_id": "checkpoint-001",
+      "queued_snapshot_at": "2026-10-07T02:19:49.775878+08:00",
+      "processing_now": "2026-10-07T07:18:39.583689+08:00",
+      "same_session_id": "01a111fb-370d-7ed1-afe9-881ccc47caf4",
+      "day_index": 8,
+      "run_status": "running",
+      "course_credit_updated": false
+    }
+  ],
+  "counterexample_scope": "pointwise direction/polarization intensity matrices; no cross-direction coherence, cascade or complete photon-state equivalence claimed",
+  "last_candidate_pool": [
+    {
+      "id": "day8-rank-phase",
+      "decision": "completed-in-scope",
+      "next_gain": "no unresolved convention/triangle claim remains under supplied assumptions"
+    },
+    {
+      "id": "day8-angular-polarization-population",
+      "decision": "bounded-route-complete",
+      "next_gain": "real assignment needs independent population/response data; no synthetic experimental fit added"
+    },
+    {
+      "id": "day8-e0-icc",
+      "decision": "bounded-route-complete",
+      "next_gain": "1311 exact checks and singular chart proof; Z/E/atomic coefficients absent so no further numeric ICC route"
+    },
+    {
+      "id": "day8-four-multipole-full-polarization-rank",
+      "decision": "selected-bounded-L2",
+      "next_gain": "derive actual full single-gamma polarization basis, then test whether unknown aligned population plus four nonzero amplitudes can retain local joint solutions"
+    },
+    {
+      "id": "day8-gamma-cascade-expansion",
+      "decision": "deferred",
+      "next_gain": "no cascade spins/gate supplied; extra synthetic cases would not change current exclusion boundary"
+    },
+    {
+      "id": "day9-strength-input-chain",
+      "decision": "preview-knowledge-written-uncredited",
+      "next_gain": "source packet reconciliation and conditional input checks; no independent formal Day9 recall/audit or credit"
+    },
+    {
+      "id": "day10-card",
+      "decision": "out-of-scope-not-opened",
+      "next_gain": "single Day+1 authorization only"
+    }
+  ],
+  "last_recoverable_checkpoint": "research-checkpoint.json",
+  "preview_checkpoint_checks_file": "/workspace/wiki/outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/checkpoint-preview-checks.json",
+  "checkpoint_publication_pending": {
+    "branch": "main",
+    "commit_subject": "Extend DAY8 observable bounds and uncredited DAY9 strength inputs",
+    "publication_kind": "continuing-checkpoint",
+    "run_finalized": false,
+    "course_state_updated": false
+  }
 }

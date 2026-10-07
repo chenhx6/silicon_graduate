@@ -102,6 +102,51 @@ These are the leading low-rank candidates, not an exhaustive list. The triangle 
 
 本负例的 source locators 是 [[rose-brink-1967-phase-defined-angular-distributions]] RB67-6/7/8/10：printed pp.317–321 / PDF pp.12–16 的 Eqs.3.28/3.29/3.36/3.39/3.47 与 pp.339/347 附表。精确根、归一宽度一致性均为本轮 L2 数学推论，未建立事件/模拟数据集或进入 L4。
 
+### 固定布居时，用理想线偏振区分角分布双解
+
+继续上述合成 A：指定高-M aligned 布居 `w(±3/2)=1/2`，保持 RB δ=M2/E1、initial-bra interaction operators 和 real amplitudes。取 `khat=(sinθ,0,cosθ)`，右手 transverse axes `x′=(cosθ,0,−sinθ)`、`y′=(0,1,0)`。`x′` 在 z–k 平面内，`y′` 垂直该平面。用 RB67-11 的 q^π 因子、WE 次序与 `d=exp(−iθJy/ℏ)`，先复现完整 unpolarized W，再构造两种 helicity 的 coherent sums。
+
+令 `x=cosθ`，归一线偏振强度为：
+
+`Ix′=[4δ²+(3+2√3δ−3δ²)x²]/[4(1+δ²)]`，
+`Iy′=[(δ−√3)²+4√3δx²]/[4(1+δ²)]`，`Ix′+Iy′=W`。
+
+定义本例的 normalized Stokes `Q_s=(Ix′−Iy′)/(Ix′+Iy′)`；detector sensitivity `Q(E)` 和 measured asymmetry 另需响应标定与轴映射。90° 时 `Q_s=[3δ²+2√3δ−3]/[5δ²−2√3δ+3]`。
+
+| 本例 RB δ | Ix′ | Iy′ | Q_s(90°) |
+|---|---|---|---|
+| 0：pure E1 | `3cos²θ/4` | `3/4` | −1 |
+| √3：E1/M2 angular branch | `3/4` | `3cos²θ/4` | +1 |
+
+因此指定布居和理想分析轴下，本对 full-angular 双解的线偏振不同；真实实验只有在布居、响应/geometry、有限接受角、背景和误差足够约束时才能据此排解。控制：两根在0/180°均 Q_s=0；pure M2/high-M 在90° Q_s=3/5；等权 Mi 时 Ix′=Iy′=1/2。δ=−√3 在0/180°强度为零，Stokes比未定义。省略 magnetic q^π 能保留同一 unpolarized W 却改变 linear intensities，所以复现 W 不能单独认证偏振实现。定位：[[rose-brink-1967-phase-defined-angular-distributions]] RB67-11/12，p.316 Eqs.3.24–3.25 与 p.312 footnote7；数值是本轮 L2 重构。
+
+### 布居未知时，角分布和偏振可以共享多极歧义
+
+放松前一例的独立布居约束，比较两组**题设假设**，两者仍是 `3/2+→1/2−`、同一 photon k：
+
+| Hypothesis | 辐射振幅 (E1,M2) | w(M) | B2 |
+|---|---|---|---|
+| pure E1 / high-M | `(1,0)` | `w(±3/2)=1/2` | +1 |
+| pure M2 / low-M | `(0,1)` | `w(±1/2)=1/2` | −1 |
+
+第二例直接用 a_E1=0,a_M2=1 构造，没有把无限δ当有限参数。ρ2 表给 `ρ2(3/2)=+2`、`ρ2(1/2)=−2`，与 Eq.3.28 的 full-M 求和一致。独立从 Eq.3.24 振幅算得两者每个 θ 都有：
+
+`W=3(1+x²)/4`，`Ix′=3x²/4`，`Iy′=3/4`，`Q_s=(x²−1)/(x²+1)`。
+
+更具体地，两者在固定方向的 (−,+) helicity 强度矩阵同为 `(3/8) matrix((1+x²,1−x²);(1−x²,1+x²))`，trace=W；对应 conditional polarization matrix 再除以 W。这是 **pointwise direction/polarization intensities** 的联合歧义，不涉及不同方向的场相干、γγ correlations、核末态观测或完整光子量子态的等价。真实反应可以对布居施加额外约束；这里没有实测布居，也不把这种理想构造当典型fusion-evaporation σ/I。
+
+共同A0与k、Sγ=1给相同目标γ宽度；总寿命仍需ICC/其它通道。若要区别这两组，优先独立检验 B2 的符号和区间，例如同一初态另一个已建立multipole、非零R2的branch，并匹配gate/feeding/response；不从待定跃迁的含假设拟合再给自己校准。指定Z/E/壳层的转换测量和理论区间可能提供另一约束，但只有区间确实有分辨力才排解，未查询本题数值ICC。source前提见 RB67-2/7/10/11；矩阵等式与研究设计是 RB67-12 的解析推论。
+
+### 一个积分ICC不能拆开γ混合与E0：含零参考成分的边界
+
+对合成B 2+→2+，先声明只保留M1/E2 gamma、忽略penetration、高阶M3/E4，并要求αK(E2)>0。取 `t=δ²`、`z=qK²`、`a=αK(M1)/αK(E2)`、`r=αK,obs/αK(E2)`。LKH82-5的式子给 `z=(r−a)/t+r−1`；有限t>0时 z≥0等价于 `(r−1)t≥a−r`。完整分型见 [[lange-kumar-hamilton-1982-multipole-admixtures]] 的 LKH82-6 和 ICC/E0 Identifiability 段。
+
+r大于1时，若a>r，需t≥(a−r)/(r−1)，否则任意t>0可行；r=1时有限解需a≤1；r小于1时需a<r且0<t≤(r−a)/(1−r)。普通z=0式只给pure ICCs的convex hull；高侧越界不独证E0，低側越界连加入非负E0也不能解释该无penetration的两gamma模型。纯代数输入a=4,r=2既可(t,z)=(2,0)，也可(4,1/2)，数字不是atomic coefficients或测量。
+
+参考成分为零时优先用率本身：`y=tz=T_K(E0)/[αK(E2)Tγ(M1)]`，`r=(a+t+y)/(1+t)`。t=0给r=a+y，仍容许E0 electrons；z的E2-rate分母为零而未定义。pure E2则用E2参照r=1+z，t/y未定义。αK(E2)=0或两保留gamma rates均零时对应ICC归一化失效，不作新的选律排除；其它壳层、pair与高阶候选要检查各自条件。
+
+这说明radiative δ=0只表明E2 gamma率为零，不能据此删除选律允许的E0转换。该式只含δ²，sign仍需干涉与convention；total τ要另计总壳层转换、其它branch和非γ通道。前提来自LKH82 printed p.123/PDF5 Eq.2.12及p.169/PDF51 Eq.4.1，所有不等式和参考零点为本轮L2解析重构，没有新ICC数据或L4。
+
 ## How It Is Obtained
 
 可由角分布、角关联/DCO、线偏振和内转换系数与理论响应比较得到。

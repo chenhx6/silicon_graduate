@@ -1,0 +1,455 @@
+{
+  "schema_version": 1,
+  "created_utc": "2026-10-06T23:26:07.768803+00:00",
+  "kind": "synthetic-symbolic-linear-polarization",
+  "learning_level": "L2",
+  "evidence_status": "exact mathematical reconstruction under explicit ideal conditions; not counts, a data fit, an experiment or an L4 finding",
+  "synthetic_case": {
+    "Ji": "3/2",
+    "initial_parity": "+",
+    "Jf": "1/2",
+    "final_parity": "-",
+    "multipoles": [
+      "E1",
+      "M2"
+    ],
+    "RB_delta": "a_M2/a_E1",
+    "population": {
+      "M=-3/2": "1/2",
+      "M=-1/2": "0",
+      "M=1/2": "0",
+      "M=3/2": "1/2"
+    }
+  },
+  "source": {
+    "path": "knowledge/sources/rose-brink-1967-phase-defined-angular-distributions.md",
+    "doi": "10.1103/RevModPhys.39.306",
+    "raw_path": "raw/papers/gpt/high-spin-20260920/multipolarity/mixing ratio/1967_Rose et al_Angular Distributions of Gamma Rays in Terms of Phase-Defined Reduced Matrix Elements.pdf",
+    "raw_sha256": "8f846b61b9320de291ee5600126c5e286a0fe05968df819696816f0dc1ec57dc"
+  },
+  "locators": {
+    "emission_amplitude": "printed p.316 / PDF p.11, Eq.3.24",
+    "Wigner_Eckart_order": "printed p.316 / PDF p.11, unnumbered Wigner-Eckart formula at page bottom after Eq.3.25",
+    "linear_coherent_sums": "printed p.316 / PDF p.11, paragraph between Eqs.3.24 and 3.25",
+    "D_matrix_exponents": "printed p.312 / PDF p.7, footnote7 to Eq.2.32",
+    "right_handed_photon_axes": "printed p.314 / PDF p.9, text after Eq.3.11",
+    "circular_basis": "printed p.308 / PDF p.3, Eq.2.8",
+    "rate_normalization": "printed p.318 / PDF p.13, Eq.3.29",
+    "independent_angular_reference": "printed p.321 / PDF p.16, Eq.3.47; p.319 / PDF p.14, Eq.3.36"
+  },
+  "axis_and_operator_conventions": [
+    "Initial state is the bra in <Ji||T_L^pi||Jf>; interaction operator phases and real-RME conditions are those of RB Eqs.3.20-3.23 and Eq.2.23.",
+    "pi=0 for E1 and pi=1 for M2. The helicity multiplier q^pi must remain in the amplitude.",
+    "Use Euler angles (alpha,beta,gamma)=(0,theta,0), photon k_hat=(sin(theta),0,cos(theta)).",
+    "Right-handed transverse axes: xprime=(cos(theta),0,-sin(theta)), yprime=(0,1,0); xprime cross yprime=k_hat.",
+    "xprime lies in the original z-k plane, yprime is perpendicular to that plane; at 90 degrees xprime=-z and k_hat=+x.",
+    "D_Mq=<LM|exp(-i*theta*Jy/hbar)|Lq>, rows/columns ordered m=L,L-1,...,-L.",
+    "SymPy wigner_d_small uses exp(+i*beta*Jy/hbar); hence call wigner_d_small(L,-theta). Negative-i generator and orthogonality are checked.",
+    "The unnumbered RB WE relation uses CG(Jf,L;Mf,M|Ji,Mi) times (-1)^(2L), equal to +1 for these integer multipoles.",
+    "Reduced E1/M2 amplitudes use a_E1=1 and a_M2=delta, with a_L=<Ji||T_L||Jf>/sqrt(2L+1); arbitrary common amplitude scale cancels.",
+    "xprime uses (A_minus-A_plus)/sqrt(2), yprime uses (A_minus+A_plus)/sqrt(2), following p.316. An overall phase on either analyzer amplitude has no effect on its intensity.",
+    "Q_Stokes=(I_xprime-I_yprime)/(I_xprime+I_yprime) is defined here and is not detector sensitivity Q or a universal electric-positive convention."
+  ],
+  "normalization": {
+    "physical_prefactor_removed": "-sqrt(k/(2*pi*hbar)) is common to all Eq.3.24 amplitudes and cancels in normalized intensity ratios",
+    "reference_strength": "sum_L |a_L|^2=1+delta^2; this is for one fixed-energy Ji->Jf branch",
+    "dimensionless_helicity_intensity": "I_q=sum_Mi,Mf w(Mi)|Atilde_q|^2/[2(1+delta^2)]",
+    "dimensionless_linear_intensities": "I_xprime=sum w|Atilde_minus-Atilde_plus|^2/[4(1+delta^2)]; I_yprime=sum w|Atilde_minus+Atilde_plus|^2/[4(1+delta^2)]",
+    "W": "I_plus+I_minus=I_xprime+I_yprime=W; angular average of W is 1, probability density per solid angle is W/(4*pi)",
+    "one_half_derivation": "4*pi*[k/(2*pi*hbar)]/[4*k*(1+delta^2)/hbar]=1/[2(1+delta^2)] from Eqs.3.24 and 3.29"
+  },
+  "formulas": {
+    "reduced_amplitude": "Atilde_q(Mi,Mf)=sum_L q^pi*(-1)^(2L)*sqrt(2L+1)*a_L*CG(Jf,L;Mf,Mi-Mf|Ji,Mi)*d^L_(Mi-Mf,q)(theta)",
+    "half_angle_symbols": "s=sin(theta/2), c=cos(theta/2), s^2+c^2=1; x=cos(theta)=c^2-s^2",
+    "a2_reference": "(-delta**2 + 2*sqrt(3)*delta + 1)/(2*delta**2 + 2)",
+    "W_from_helicities": "-(3*delta**2*x**2 - 5*delta**2 - 6*sqrt(3)*delta*x**2 + 2*sqrt(3)*delta - 3*x**2 - 3)/(4*(delta**2 + 1))",
+    "full_theta_W_residual": "0",
+    "I_xprime": "-(3*delta**2*x**2 - 4*delta**2 - 2*sqrt(3)*delta*x**2 - 3*x**2)/(4*(delta**2 + 1))",
+    "I_yprime": "(delta**2 + 4*sqrt(3)*delta*x**2 - 2*sqrt(3)*delta + 3)/(4*(delta**2 + 1))",
+    "linear_difference": "-(x - 1)*(x + 1)*(3*delta**2 + 2*sqrt(3)*delta - 3)/(4*(delta**2 + 1))",
+    "Q_Stokes": "(x - 1)*(x + 1)*(3*delta**2 + 2*sqrt(3)*delta - 3)/(3*delta**2*x**2 - 5*delta**2 - 6*sqrt(3)*delta*x**2 + 2*sqrt(3)*delta - 3*x**2 - 3)",
+    "I_xprime_90": "delta**2/(delta**2 + 1)",
+    "I_yprime_90": "(delta**2 - 2*sqrt(3)*delta + 3)/(4*(delta**2 + 1))",
+    "Q_Stokes_90": "(3*delta**2 + 2*sqrt(3)*delta - 3)/(5*delta**2 - 2*sqrt(3)*delta + 3)"
+  },
+  "validation_order": [
+    "Construct exact CG/d amplitudes",
+    "Prove full-theta helicity-summed W agrees with previously checked Eq.3.47",
+    "Verify reconstructed W angular average is 1",
+    "Then construct coherent xprime/yprime intensities",
+    "Compare 90-degree branches and apply endpoint, pure-M2, isotropic, orientation and phase controls"
+  ],
+  "exact_d_matrices": {
+    "1": [
+      [
+        "c**2",
+        "-sqrt(2)*c*s",
+        "s**2"
+      ],
+      [
+        "sqrt(2)*c*s",
+        "c**2 - s**2",
+        "-sqrt(2)*c*s"
+      ],
+      [
+        "s**2",
+        "sqrt(2)*c*s",
+        "c**2"
+      ]
+    ],
+    "2": [
+      [
+        "c**4",
+        "-2*c**3*s",
+        "sqrt(6)*c**2*s**2",
+        "-2*c*s**3",
+        "s**4"
+      ],
+      [
+        "2*c**3*s",
+        "c**4 - 3*c**2*s**2",
+        "sqrt(6)*(-2*c**3*s + 2*c*s**3)/2",
+        "3*c**2*s**2 - s**4",
+        "-2*c*s**3"
+      ],
+      [
+        "sqrt(6)*c**2*s**2",
+        "sqrt(6)*(3*c**3*s - 3*c*s**3)/3",
+        "c**4 - 4*c**2*s**2 + s**4",
+        "sqrt(6)*(-3*c**3*s + 3*c*s**3)/3",
+        "sqrt(6)*c**2*s**2"
+      ],
+      [
+        "2*c*s**3",
+        "3*c**2*s**2 - s**4",
+        "sqrt(6)*(2*c**3*s - 2*c*s**3)/2",
+        "c**4 - 3*c**2*s**2",
+        "-2*c**3*s"
+      ],
+      [
+        "s**4",
+        "2*c*s**3",
+        "sqrt(6)*c**2*s**2",
+        "2*c**3*s",
+        "c**4"
+      ]
+    ]
+  },
+  "exact_CG_components": [
+    {
+      "Mi": "-3/2",
+      "Mf": "-1/2",
+      "L": 1,
+      "M": "-1",
+      "CG_Jf_L_to_Ji": "1"
+    },
+    {
+      "Mi": "-3/2",
+      "Mf": "-1/2",
+      "L": 2,
+      "M": "-1",
+      "CG_Jf_L_to_Ji": "-sqrt(5)/5"
+    },
+    {
+      "Mi": "-3/2",
+      "Mf": "1/2",
+      "L": 2,
+      "M": "-2",
+      "CG_Jf_L_to_Ji": "2*sqrt(5)/5"
+    },
+    {
+      "Mi": "-1/2",
+      "Mf": "-1/2",
+      "L": 1,
+      "M": "0",
+      "CG_Jf_L_to_Ji": "sqrt(6)/3"
+    },
+    {
+      "Mi": "-1/2",
+      "Mf": "-1/2",
+      "L": 2,
+      "M": "0",
+      "CG_Jf_L_to_Ji": "-sqrt(10)/5"
+    },
+    {
+      "Mi": "-1/2",
+      "Mf": "1/2",
+      "L": 1,
+      "M": "-1",
+      "CG_Jf_L_to_Ji": "sqrt(3)/3"
+    },
+    {
+      "Mi": "-1/2",
+      "Mf": "1/2",
+      "L": 2,
+      "M": "-1",
+      "CG_Jf_L_to_Ji": "sqrt(15)/5"
+    },
+    {
+      "Mi": "1/2",
+      "Mf": "-1/2",
+      "L": 1,
+      "M": "1",
+      "CG_Jf_L_to_Ji": "sqrt(3)/3"
+    },
+    {
+      "Mi": "1/2",
+      "Mf": "-1/2",
+      "L": 2,
+      "M": "1",
+      "CG_Jf_L_to_Ji": "-sqrt(15)/5"
+    },
+    {
+      "Mi": "1/2",
+      "Mf": "1/2",
+      "L": 1,
+      "M": "0",
+      "CG_Jf_L_to_Ji": "sqrt(6)/3"
+    },
+    {
+      "Mi": "1/2",
+      "Mf": "1/2",
+      "L": 2,
+      "M": "0",
+      "CG_Jf_L_to_Ji": "sqrt(10)/5"
+    },
+    {
+      "Mi": "3/2",
+      "Mf": "-1/2",
+      "L": 2,
+      "M": "2",
+      "CG_Jf_L_to_Ji": "-2*sqrt(5)/5"
+    },
+    {
+      "Mi": "3/2",
+      "Mf": "1/2",
+      "L": 1,
+      "M": "1",
+      "CG_Jf_L_to_Ji": "1"
+    },
+    {
+      "Mi": "3/2",
+      "Mf": "1/2",
+      "L": 2,
+      "M": "1",
+      "CG_Jf_L_to_Ji": "sqrt(5)/5"
+    }
+  ],
+  "aligned_reduced_amplitudes": [
+    {
+      "Mi": "-3/2",
+      "Mf": "-1/2",
+      "q": -1,
+      "Atilde": "c**4*delta - 3*c**2*delta*s**2 + sqrt(3)*c**2"
+    },
+    {
+      "Mi": "-3/2",
+      "Mf": "-1/2",
+      "q": 1,
+      "Atilde": "-3*c**2*delta*s**2 + delta*s**4 + sqrt(3)*s**2"
+    },
+    {
+      "Mi": "-3/2",
+      "Mf": "1/2",
+      "q": -1,
+      "Atilde": "-4*c**3*delta*s"
+    },
+    {
+      "Mi": "-3/2",
+      "Mf": "1/2",
+      "q": 1,
+      "Atilde": "4*c*delta*s**3"
+    },
+    {
+      "Mi": "3/2",
+      "Mf": "-1/2",
+      "q": -1,
+      "Atilde": "-4*c*delta*s**3"
+    },
+    {
+      "Mi": "3/2",
+      "Mf": "-1/2",
+      "q": 1,
+      "Atilde": "4*c**3*delta*s"
+    },
+    {
+      "Mi": "3/2",
+      "Mf": "1/2",
+      "q": -1,
+      "Atilde": "-3*c**2*delta*s**2 + delta*s**4 + sqrt(3)*s**2"
+    },
+    {
+      "Mi": "3/2",
+      "Mf": "1/2",
+      "q": 1,
+      "Atilde": "c**4*delta - 3*c**2*delta*s**2 + sqrt(3)*c**2"
+    }
+  ],
+  "branches": [
+    {
+      "label": "pure_E1",
+      "RB_delta": "0",
+      "I_xprime_full_theta": "3*x**2/4",
+      "I_yprime_full_theta": "3/4",
+      "Q_Stokes_full_theta": "(x**2 - 1)/(x**2 + 1)",
+      "angle_checks": [
+        {
+          "theta_degrees": "0",
+          "I_xprime": "3/4",
+          "I_yprime": "3/4",
+          "total_W": "3/2",
+          "Q_Stokes": "0"
+        },
+        {
+          "theta_degrees": "90",
+          "I_xprime": "0",
+          "I_yprime": "3/4",
+          "total_W": "3/4",
+          "Q_Stokes": "-1"
+        },
+        {
+          "theta_degrees": "180",
+          "I_xprime": "3/4",
+          "I_yprime": "3/4",
+          "total_W": "3/2",
+          "Q_Stokes": "0"
+        }
+      ]
+    },
+    {
+      "label": "angular_degenerate_E1_M2",
+      "RB_delta": "sqrt(3)",
+      "I_xprime_full_theta": "3/4",
+      "I_yprime_full_theta": "3*x**2/4",
+      "Q_Stokes_full_theta": "(1 - x**2)/(x**2 + 1)",
+      "angle_checks": [
+        {
+          "theta_degrees": "0",
+          "I_xprime": "3/4",
+          "I_yprime": "3/4",
+          "total_W": "3/2",
+          "Q_Stokes": "0"
+        },
+        {
+          "theta_degrees": "90",
+          "I_xprime": "3/4",
+          "I_yprime": "0",
+          "total_W": "3/4",
+          "Q_Stokes": "1"
+        },
+        {
+          "theta_degrees": "180",
+          "I_xprime": "3/4",
+          "I_yprime": "3/4",
+          "total_W": "3/2",
+          "Q_Stokes": "0"
+        }
+      ]
+    }
+  ],
+  "controls": {
+    "pure_M2_90_limit": {
+      "I_xprime": "1",
+      "I_yprime": "1/4",
+      "total_W": "5/4",
+      "Q_Stokes": "3/5"
+    },
+    "isotropic_population": {
+      "weights": "1/4 in all four Mi substates",
+      "I_xprime_all_theta_delta": "1/2",
+      "I_yprime_all_theta_delta": "1/2",
+      "Q_Stokes": "0"
+    },
+    "oriented_population": {
+      "weights": "w(+3/2)=1",
+      "helicity_summed_W": "same as aligned example for all theta",
+      "I_qplus_at_theta0": "(delta**2 + 2*sqrt(3)*delta + 3)/(2*(delta**2 + 1))",
+      "I_qminus_at_theta0": "0",
+      "meaning": "Orientation can change circular-helicity observables while leaving the definite-parity helicity-summed distribution unchanged."
+    },
+    "CG_swap_without_phase": {
+      "W": "-(3*delta**2*x**2 - 5*delta**2 + 6*sqrt(3)*delta*x**2 - 2*sqrt(3)*delta - 3*x**2 - 3)/(4*(delta**2 + 1))",
+      "effect": "Equals the correct W with delta replaced by -delta; this is an intentionally wrong implementation, not a second physical candidate."
+    },
+    "dark_axis": {
+      "delta": "-sqrt(3)",
+      "theta": "0 or pi",
+      "total_W": "0",
+      "Q_Stokes": "undefined: there is zero intensity, so a normalized Stokes ratio is 0/0"
+    }
+  },
+  "interpretation": {
+    "mathematical_result": "The two exact angular-distribution branches have opposite ideal linear polarizations at 90 degrees for the fixed stated population and axes.",
+    "no_experimental_exclusion": "No measured polarization, response, count data or covariance is supplied; neither branch is experimentally excluded by this exercise.",
+    "measurement_requirements": [
+      "Independent population/alignment information and compatible spin/parity/transition convention.",
+      "Explicit mapping of the instrument analyzer axes to xprime in the z-k plane and yprime perpendicular to it.",
+      "Photon energy and calibrated energy/angle-dependent analyzing response, efficiencies and uncertainty.",
+      "Finite-angle/azimuth acceptance integration of intensities and detector response; do not substitute Q_Stokes at a nominal angle for that integral.",
+      "Background, scattering/gate selection and correlations with angular-data inputs in a joint branch comparison."
+    ],
+    "limits": "The +/-1 values use point observation at 90 degrees and the ideal Mi=+/-3/2 population. Isotropic population gives zero polarization; the beam-axis endpoints do not separate these branches."
+  },
+  "exact_checks": {
+    "full_theta_helicity_W_matches_RB_Eq3_47": true,
+    "helicity_reconstruction_angular_average_one": true,
+    "linear_sum_equals_helicity_sum_full_theta": true,
+    "aligned_equal_populations_equal_circular_helicities": true,
+    "E1_root_Ix90_zero": true,
+    "E1_root_Iy90_three_quarters": true,
+    "mixed_root_Ix90_three_quarters": true,
+    "mixed_root_Iy90_zero": true,
+    "E1_Q90_minus_one": true,
+    "mixed_Q90_plus_one": true,
+    "two_roots_identical_W_all_theta": true,
+    "two_roots_interchanged_linear_axes_all_theta": true,
+    "theta_zero_linear_axes_equal": true,
+    "theta_pi_linear_axes_equal": true,
+    "pure_M2_Ix90_one": true,
+    "pure_M2_Iy90_one_quarter": true,
+    "pure_M2_Q90_three_fifths": true,
+    "isotropic_linear_Ix_half": true,
+    "isotropic_linear_Iy_half": true,
+    "oriented_initial_same_helicity_sum_W": true,
+    "oriented_initial_axis_only_q_plus": true,
+    "CG_swap_without_phase_changes_delta_sign": true,
+    "CG_swap_without_phase_is_not_the_canonical_W": true,
+    "zero_intensity_control_at_delta_minus_sqrt3_axis": true,
+    "spin_1_d_theta_zero_identity": true,
+    "spin_1_d_negative_i_generator": true,
+    "spin_1_d_orthogonal_full_theta": true,
+    "spin_2_d_theta_zero_identity": true,
+    "spin_2_d_negative_i_generator": true,
+    "spin_2_d_orthogonal_full_theta": true
+  },
+  "provenance_boundary": "Source directly supplies amplitude, state-order, rotation and coherent-sum definitions. The explicit branch intensities and polarization contrast are this task's exact mathematical derivation, not a quoted RB experimental result.",
+  "source_image_review": {
+    "pages_rechecked": [
+      "printed p.308 / PDF p.3, Eq.2.8 circular basis",
+      "printed p.312 / PDF p.7, footnote7",
+      "printed p.314 / PDF p.9, right-handed photon axes after Eq.3.11",
+      "printed p.316 / PDF p.11, Eq.3.24, coherent-sum paragraph and unnumbered WE formula"
+    ],
+    "images": [
+      "tmp/day8-20261007/rose-brink/p308-pdf3.png",
+      "tmp/day8-20261007/rose-brink/p312-pdf7.png",
+      "tmp/day8-20261007/rose-brink/p314-pdf9.png",
+      "tmp/day8-20261007/rose-brink/p316-pdf11.png"
+    ],
+    "coverage_increment": "Additional formula-level review on four already-read core pages; no additional paper/source, full appendix pass or course card is claimed."
+  },
+  "prior_angular_artifact": {
+    "path": "outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/angular-degeneracy.json",
+    "sha256": "0b633e74a96925cbaced95073407523f441cd6ed89554c15f87b84758e89f334",
+    "modified": false
+  },
+  "reproduction": {
+    "python": "3.12.3",
+    "sympy": "1.14.0",
+    "mpmath": "1.3.0",
+    "dependencies": "Existing isolated tmp/day8-20261007/rose-brink/python-deps (sympy 1.14.0, mpmath 1.3.0)",
+    "run_command": "python3 tmp/day8-20261007/rose-brink/polarization_branches.py",
+    "script_sha256": "903947703253cbf652a43bb874c0c70f6626ae8d536be38e8d1b4efbb7b52b93",
+    "script_source": "#!/usr/bin/env python3\n\"\"\"Ideal RB E1/M2 polarization: exact algebra, synthetic population, no data fit.\"\"\"\nfrom pathlib import Path\nimport datetime\nimport hashlib\nimport json\nimport platform\nimport sys\n\nROOT = Path('/workspace/wiki')\nTMP = ROOT / 'tmp/day8-20261007/rose-brink'\nsys.path.insert(0, str(TMP / 'python-deps'))\nimport sympy as sp\nimport mpmath\nfrom sympy.physics.wigner import clebsch_gordan, wigner_d_small\n\nJI, JF = sp.Rational(3, 2), sp.Rational(1, 2)\nTHETA, DELTA, X = sp.symbols('theta delta x', real=True)\nS, C = sp.symbols('s c', real=True)\nMI_VALUES = (-JI, -JF, JF, JI)\nMF_VALUES = (-JF, JF)\nHELICITIES = (-1, 1)\nWEIGHTS = {-JI: sp.Rational(1, 2), JI: sp.Rational(1, 2)}\nISOTROPIC = {mi: sp.Rational(1, 4) for mi in MI_VALUES}\nORIENTED = {JI: sp.Integer(1)}\nDX = {L: wigner_d_small(L, -THETA) for L in (1, 2)}\nD = {L: mat.subs({sp.sin(THETA / 2): S, sp.cos(THETA / 2): C}) for L, mat in DX.items()}\n\n\ndef circle_reduce(expr):\n    \"\"\"Exact polynomial reduction on sin(theta/2)^2+cos(theta/2)^2=1.\"\"\"\n    num, den = sp.together(expr).as_numer_denom()\n    rem = sp.reduced(sp.expand(num), [S**2 + C**2 - 1], S, C, DELTA, extension=True)[1]\n    return sp.factor(rem / den)\n\n\ndef as_x(expr):\n    reduced = circle_reduce(expr)\n    num, den = sp.together(reduced).as_numer_denom()\n    if num.has(S) or den.has(S, C):\n        raise ValueError('Expression is not a polynomial in cos(theta/2) over a theta-independent denominator.')\n    result = 0\n    for (power,), coefficient in sp.Poly(num, C).terms():\n        if power % 2:\n            raise ValueError('Odd cos(theta/2) power cannot be rewritten as a polynomial in cos(theta).')\n        result += coefficient * ((1 + X) / 2)**(power // 2)\n    return sp.factor(result / den)\n\n\ndef amplitude(mi, mf, q, swapped_CG_without_phase=False):\n    \"\"\"Eq.3.24 with Eq.3.25's following WE relation; common factor removed.\"\"\"\n    M = mi - mf\n    result = 0\n    for L, pi, a in ((1, 0, sp.Integer(1)), (2, 1, DELTA)):\n        if abs(M) > L:\n            continue\n        if swapped_CG_without_phase:\n            cg = clebsch_gordan(L, JF, JI, M, mf, mi)\n        else:\n            cg = clebsch_gordan(JF, L, JI, mf, M, mi)\n        result += (sp.Integer(q)**pi * sp.Integer(-1)**(2 * L)\n                   * sp.sqrt(2 * L + 1) * a * cg * D[L][int(L - M), int(L - q)])\n    return sp.expand(result)\n\n\nAMP = {(mi, mf, q): amplitude(mi, mf, q)\n       for mi in MI_VALUES for mf in MF_VALUES for q in HELICITIES}\n\n\ndef helicity_intensity(q, weights, amplitudes=AMP):\n    return sum(weight * amplitudes[mi, mf, q]**2\n               for mi, weight in weights.items() for mf in MF_VALUES) / (2 * (1 + DELTA**2))\n\n\nH = {q: helicity_intensity(q, WEIGHTS) for q in HELICITIES}\nW_FROM_HELICITIES = H[-1] + H[1]\nA2 = (1 + 2 * sp.sqrt(3) * DELTA - DELTA**2) / (2 * (1 + DELTA**2))\nW_EXPECTED = 1 + A2 * sp.legendre(2, C**2 - S**2)\nFULL_THETA_RESIDUAL = circle_reduce(W_FROM_HELICITIES - W_EXPECTED)\nif FULL_THETA_RESIDUAL != 0:\n    raise RuntimeError('CG/rotation/operator phases did not reproduce the independently verified full-theta W.')\nWX = as_x(W_FROM_HELICITIES)\nif sp.simplify(sp.integrate(WX, (X, -1, 1)) / 2) != 1:\n    raise RuntimeError('The helicity reconstruction has the wrong angular-average normalization.')\n\n# Linear observables are derived only after both full-theta checks above pass.\ndef linear_intensity(sign, weights):\n    \"\"\"sign=-1 gives xprime difference; sign=+1 gives yprime sum.\"\"\"\n    return sum(weight * (AMP[mi, mf, -1] + sign * AMP[mi, mf, 1])**2\n               for mi, weight in weights.items() for mf in MF_VALUES) / (4 * (1 + DELTA**2))\n\n\nIX = as_x(linear_intensity(-1, WEIGHTS))\nIY = as_x(linear_intensity(1, WEIGHTS))\nQ_STOKES = sp.factor((IX - IY) / (IX + IY))\nIX90, IY90 = sp.simplify(IX.subs(X, 0)), sp.simplify(IY.subs(X, 0))\nQ90 = sp.factor(Q_STOKES.subs(X, 0))\nISO_X, ISO_Y = as_x(linear_intensity(-1, ISOTROPIC)), as_x(linear_intensity(1, ISOTROPIC))\nORIENTED_H = {q: as_x(helicity_intensity(q, ORIENTED)) for q in HELICITIES}\nBAD_AMP = {(mi, mf, q): amplitude(mi, mf, q, swapped_CG_without_phase=True)\n           for mi in MI_VALUES for mf in MF_VALUES for q in HELICITIES}\nBAD_W = as_x(sum(helicity_intensity(q, WEIGHTS, BAD_AMP) for q in HELICITIES))\n\n\ndef axis_value(expr, theta):\n    return sp.simplify(expr.subs(X, sp.cos(theta)))\n\n\ndef generator(L):\n    plus = sp.zeros(2 * L + 1)\n    for m in range(-L, L):\n        plus[L - (m + 1), L - m] = sp.sqrt((L - m) * (L + m + 1))\n    return (plus - plus.T) / (2 * sp.I)\n\n\nCHECKS = {\n    'full_theta_helicity_W_matches_RB_Eq3_47': FULL_THETA_RESIDUAL == 0,\n    'helicity_reconstruction_angular_average_one': sp.simplify(sp.integrate(WX, (X, -1, 1)) / 2) == 1,\n    'linear_sum_equals_helicity_sum_full_theta': sp.simplify(IX + IY - WX) == 0,\n    'aligned_equal_populations_equal_circular_helicities': circle_reduce(H[1] - H[-1]) == 0,\n    'E1_root_Ix90_zero': IX90.subs(DELTA, 0) == 0,\n    'E1_root_Iy90_three_quarters': IY90.subs(DELTA, 0) == sp.Rational(3, 4),\n    'mixed_root_Ix90_three_quarters': sp.simplify(IX90.subs(DELTA, sp.sqrt(3))) == sp.Rational(3, 4),\n    'mixed_root_Iy90_zero': sp.simplify(IY90.subs(DELTA, sp.sqrt(3))) == 0,\n    'E1_Q90_minus_one': Q90.subs(DELTA, 0) == -1,\n    'mixed_Q90_plus_one': sp.simplify(Q90.subs(DELTA, sp.sqrt(3))) == 1,\n    'two_roots_identical_W_all_theta': sp.simplify(WX.subs(DELTA, 0) - WX.subs(DELTA, sp.sqrt(3))) == 0,\n    'two_roots_interchanged_linear_axes_all_theta': sp.simplify(IX.subs(DELTA, 0) - IY.subs(DELTA, sp.sqrt(3))) == 0 and sp.simplify(IY.subs(DELTA, 0) - IX.subs(DELTA, sp.sqrt(3))) == 0,\n    'theta_zero_linear_axes_equal': sp.simplify(axis_value(IX - IY, 0)) == 0,\n    'theta_pi_linear_axes_equal': sp.simplify(axis_value(IX - IY, sp.pi)) == 0,\n    'pure_M2_Ix90_one': sp.limit(IX90, DELTA, sp.oo) == 1,\n    'pure_M2_Iy90_one_quarter': sp.limit(IY90, DELTA, sp.oo) == sp.Rational(1, 4),\n    'pure_M2_Q90_three_fifths': sp.limit(Q90, DELTA, sp.oo) == sp.Rational(3, 5),\n    'isotropic_linear_Ix_half': ISO_X == sp.Rational(1, 2),\n    'isotropic_linear_Iy_half': ISO_Y == sp.Rational(1, 2),\n    'oriented_initial_same_helicity_sum_W': sp.simplify(ORIENTED_H[1] + ORIENTED_H[-1] - WX) == 0,\n    'oriented_initial_axis_only_q_plus': axis_value(ORIENTED_H[-1], 0) == 0,\n    'CG_swap_without_phase_changes_delta_sign': sp.simplify(BAD_W - WX.subs(DELTA, -DELTA)) == 0,\n    'CG_swap_without_phase_is_not_the_canonical_W': sp.simplify(BAD_W - WX) != 0,\n    'zero_intensity_control_at_delta_minus_sqrt3_axis': sp.simplify(axis_value(WX, 0).subs(DELTA, -sp.sqrt(3))) == 0,\n}\nfor L in (1, 2):\n    CHECKS[f'spin_{L}_d_theta_zero_identity'] = DX[L].subs(THETA, 0) == sp.eye(2 * L + 1)\n    CHECKS[f'spin_{L}_d_negative_i_generator'] = sp.simplify(sp.diff(DX[L], THETA).subs(THETA, 0) + sp.I * generator(L)) == sp.zeros(2 * L + 1)\n    orthogonal = D[L].T * D[L] - sp.eye(2 * L + 1)\n    CHECKS[f'spin_{L}_d_orthogonal_full_theta'] = all(circle_reduce(entry) == 0 for entry in orthogonal)\nfailed = [name for name, ok in CHECKS.items() if not ok]\nif failed:\n    raise RuntimeError(f'Exact polarization checks failed: {failed}')\n\nBRANCHES = []\nfor delta_value, label in ((sp.Integer(0), 'pure_E1'), (sp.sqrt(3), 'angular_degenerate_E1_M2')):\n    rows = []\n    for angle, name in ((sp.Integer(0), '0'), (sp.pi / 2, '90'), (sp.pi, '180')):\n        ix = sp.simplify(axis_value(IX, angle).subs(DELTA, delta_value))\n        iy = sp.simplify(axis_value(IY, angle).subs(DELTA, delta_value))\n        rows.append({'theta_degrees': name, 'I_xprime': sp.sstr(ix), 'I_yprime': sp.sstr(iy),\n                     'total_W': sp.sstr(ix + iy), 'Q_Stokes': sp.sstr(sp.simplify((ix - iy) / (ix + iy)))})\n    BRANCHES.append({'label': label, 'RB_delta': sp.sstr(delta_value),\n                     'I_xprime_full_theta': sp.sstr(sp.simplify(IX.subs(DELTA, delta_value))),\n                     'I_yprime_full_theta': sp.sstr(sp.simplify(IY.subs(DELTA, delta_value))),\n                     'Q_Stokes_full_theta': sp.sstr(sp.simplify(Q_STOKES.subs(DELTA, delta_value))),\n                     'angle_checks': rows})\n\nRAW = ROOT / 'raw/papers/gpt/high-spin-20260920/multipolarity/mixing ratio/1967_Rose et al_Angular Distributions of Gamma Rays in Terms of Phase-Defined Reduced Matrix Elements.pdf'\nPRIOR = ROOT / 'outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/angular-degeneracy.json'\nOUT = ROOT / 'outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/polarization-branches.json'\ncode = Path(__file__).read_text(encoding='utf-8')\nresult = {\n    'schema_version': 1, 'created_utc': datetime.datetime.now(datetime.timezone.utc).isoformat(),\n    'kind': 'synthetic-symbolic-linear-polarization', 'learning_level': 'L2',\n    'evidence_status': 'exact mathematical reconstruction under explicit ideal conditions; not counts, a data fit, an experiment or an L4 finding',\n    'synthetic_case': {'Ji': '3/2', 'initial_parity': '+', 'Jf': '1/2', 'final_parity': '-',\n                       'multipoles': ['E1', 'M2'], 'RB_delta': 'a_M2/a_E1',\n                       'population': {'M=-3/2': '1/2', 'M=-1/2': '0', 'M=1/2': '0', 'M=3/2': '1/2'}},\n    'source': {'path': 'knowledge/sources/rose-brink-1967-phase-defined-angular-distributions.md',\n               'doi': '10.1103/RevModPhys.39.306', 'raw_path': str(RAW.relative_to(ROOT)),\n               'raw_sha256': hashlib.sha256(RAW.read_bytes()).hexdigest()},\n    'locators': {\n        'emission_amplitude': 'printed p.316 / PDF p.11, Eq.3.24',\n        'Wigner_Eckart_order': 'printed p.316 / PDF p.11, unnumbered Wigner-Eckart formula at page bottom after Eq.3.25',\n        'linear_coherent_sums': 'printed p.316 / PDF p.11, paragraph between Eqs.3.24 and 3.25',\n        'D_matrix_exponents': 'printed p.312 / PDF p.7, footnote7 to Eq.2.32',\n        'right_handed_photon_axes': 'printed p.314 / PDF p.9, text after Eq.3.11',\n        'circular_basis': 'printed p.308 / PDF p.3, Eq.2.8',\n        'rate_normalization': 'printed p.318 / PDF p.13, Eq.3.29',\n        'independent_angular_reference': 'printed p.321 / PDF p.16, Eq.3.47; p.319 / PDF p.14, Eq.3.36',\n    },\n    'axis_and_operator_conventions': [\n        'Initial state is the bra in <Ji||T_L^pi||Jf>; interaction operator phases and real-RME conditions are those of RB Eqs.3.20-3.23 and Eq.2.23.',\n        'pi=0 for E1 and pi=1 for M2. The helicity multiplier q^pi must remain in the amplitude.',\n        'Use Euler angles (alpha,beta,gamma)=(0,theta,0), photon k_hat=(sin(theta),0,cos(theta)).',\n        'Right-handed transverse axes: xprime=(cos(theta),0,-sin(theta)), yprime=(0,1,0); xprime cross yprime=k_hat.',\n        'xprime lies in the original z-k plane, yprime is perpendicular to that plane; at 90 degrees xprime=-z and k_hat=+x.',\n        'D_Mq=<LM|exp(-i*theta*Jy/hbar)|Lq>, rows/columns ordered m=L,L-1,...,-L.',\n        'SymPy wigner_d_small uses exp(+i*beta*Jy/hbar); hence call wigner_d_small(L,-theta). Negative-i generator and orthogonality are checked.',\n        'The unnumbered RB WE relation uses CG(Jf,L;Mf,M|Ji,Mi) times (-1)^(2L), equal to +1 for these integer multipoles.',\n        'Reduced E1/M2 amplitudes use a_E1=1 and a_M2=delta, with a_L=<Ji||T_L||Jf>/sqrt(2L+1); arbitrary common amplitude scale cancels.',\n        'xprime uses (A_minus-A_plus)/sqrt(2), yprime uses (A_minus+A_plus)/sqrt(2), following p.316. An overall phase on either analyzer amplitude has no effect on its intensity.',\n        'Q_Stokes=(I_xprime-I_yprime)/(I_xprime+I_yprime) is defined here and is not detector sensitivity Q or a universal electric-positive convention.',\n    ],\n    'normalization': {\n        'physical_prefactor_removed': '-sqrt(k/(2*pi*hbar)) is common to all Eq.3.24 amplitudes and cancels in normalized intensity ratios',\n        'reference_strength': 'sum_L |a_L|^2=1+delta^2; this is for one fixed-energy Ji->Jf branch',\n        'dimensionless_helicity_intensity': 'I_q=sum_Mi,Mf w(Mi)|Atilde_q|^2/[2(1+delta^2)]',\n        'dimensionless_linear_intensities': 'I_xprime=sum w|Atilde_minus-Atilde_plus|^2/[4(1+delta^2)]; I_yprime=sum w|Atilde_minus+Atilde_plus|^2/[4(1+delta^2)]',\n        'W': 'I_plus+I_minus=I_xprime+I_yprime=W; angular average of W is 1, probability density per solid angle is W/(4*pi)',\n        'one_half_derivation': '4*pi*[k/(2*pi*hbar)]/[4*k*(1+delta^2)/hbar]=1/[2(1+delta^2)] from Eqs.3.24 and 3.29',\n    },\n    'formulas': {\n        'reduced_amplitude': 'Atilde_q(Mi,Mf)=sum_L q^pi*(-1)^(2L)*sqrt(2L+1)*a_L*CG(Jf,L;Mf,Mi-Mf|Ji,Mi)*d^L_(Mi-Mf,q)(theta)',\n        'half_angle_symbols': 's=sin(theta/2), c=cos(theta/2), s^2+c^2=1; x=cos(theta)=c^2-s^2',\n        'a2_reference': sp.sstr(A2), 'W_from_helicities': sp.sstr(WX),\n        'full_theta_W_residual': sp.sstr(FULL_THETA_RESIDUAL),\n        'I_xprime': sp.sstr(IX), 'I_yprime': sp.sstr(IY),\n        'linear_difference': sp.sstr(sp.factor(IX - IY)), 'Q_Stokes': sp.sstr(Q_STOKES),\n        'I_xprime_90': sp.sstr(IX90), 'I_yprime_90': sp.sstr(IY90), 'Q_Stokes_90': sp.sstr(Q90),\n    },\n    'validation_order': ['Construct exact CG/d amplitudes', 'Prove full-theta helicity-summed W agrees with previously checked Eq.3.47',\n                          'Verify reconstructed W angular average is 1', 'Then construct coherent xprime/yprime intensities',\n                          'Compare 90-degree branches and apply endpoint, pure-M2, isotropic, orientation and phase controls'],\n    'exact_d_matrices': {str(L): [[sp.sstr(entry) for entry in row] for row in D[L].tolist()] for L in (1, 2)},\n    'exact_CG_components': [\n        {'Mi': sp.sstr(mi), 'Mf': sp.sstr(mf), 'L': L, 'M': sp.sstr(mi - mf),\n         'CG_Jf_L_to_Ji': sp.sstr(clebsch_gordan(JF, L, JI, mf, mi - mf, mi))}\n        for mi in MI_VALUES for mf in MF_VALUES for L in (1, 2) if abs(mi - mf) <= L\n    ],\n    'aligned_reduced_amplitudes': [\n        {'Mi': sp.sstr(mi), 'Mf': sp.sstr(mf), 'q': q, 'Atilde': sp.sstr(AMP[mi, mf, q])}\n        for mi in WEIGHTS for mf in MF_VALUES for q in HELICITIES\n    ],\n    'branches': BRANCHES,\n    'controls': {\n        'pure_M2_90_limit': {'I_xprime': '1', 'I_yprime': '1/4', 'total_W': '5/4', 'Q_Stokes': '3/5'},\n        'isotropic_population': {'weights': '1/4 in all four Mi substates', 'I_xprime_all_theta_delta': sp.sstr(ISO_X),\n                                 'I_yprime_all_theta_delta': sp.sstr(ISO_Y), 'Q_Stokes': '0'},\n        'oriented_population': {'weights': 'w(+3/2)=1', 'helicity_summed_W': 'same as aligned example for all theta',\n                                'I_qplus_at_theta0': sp.sstr(axis_value(ORIENTED_H[1], 0)),\n                                'I_qminus_at_theta0': sp.sstr(axis_value(ORIENTED_H[-1], 0)),\n                                'meaning': 'Orientation can change circular-helicity observables while leaving the definite-parity helicity-summed distribution unchanged.'},\n        'CG_swap_without_phase': {'W': sp.sstr(BAD_W), 'effect': 'Equals the correct W with delta replaced by -delta; this is an intentionally wrong implementation, not a second physical candidate.'},\n        'dark_axis': {'delta': '-sqrt(3)', 'theta': '0 or pi', 'total_W': '0',\n                      'Q_Stokes': 'undefined: there is zero intensity, so a normalized Stokes ratio is 0/0'},\n    },\n    'interpretation': {\n        'mathematical_result': 'The two exact angular-distribution branches have opposite ideal linear polarizations at 90 degrees for the fixed stated population and axes.',\n        'no_experimental_exclusion': 'No measured polarization, response, count data or covariance is supplied; neither branch is experimentally excluded by this exercise.',\n        'measurement_requirements': [\n            'Independent population/alignment information and compatible spin/parity/transition convention.',\n            'Explicit mapping of the instrument analyzer axes to xprime in the z-k plane and yprime perpendicular to it.',\n            'Photon energy and calibrated energy/angle-dependent analyzing response, efficiencies and uncertainty.',\n            'Finite-angle/azimuth acceptance integration of intensities and detector response; do not substitute Q_Stokes at a nominal angle for that integral.',\n            'Background, scattering/gate selection and correlations with angular-data inputs in a joint branch comparison.',\n        ],\n        'limits': 'The +/-1 values use point observation at 90 degrees and the ideal Mi=+/-3/2 population. Isotropic population gives zero polarization; the beam-axis endpoints do not separate these branches.',\n    },\n    'exact_checks': CHECKS,\n    'provenance_boundary': 'Source directly supplies amplitude, state-order, rotation and coherent-sum definitions. The explicit branch intensities and polarization contrast are this task\\'s exact mathematical derivation, not a quoted RB experimental result.',\n    'source_image_review': {\n        'pages_rechecked': ['printed p.308 / PDF p.3, Eq.2.8 circular basis', 'printed p.312 / PDF p.7, footnote7', 'printed p.314 / PDF p.9, right-handed photon axes after Eq.3.11', 'printed p.316 / PDF p.11, Eq.3.24, coherent-sum paragraph and unnumbered WE formula'],\n        'images': ['tmp/day8-20261007/rose-brink/p308-pdf3.png', 'tmp/day8-20261007/rose-brink/p312-pdf7.png', 'tmp/day8-20261007/rose-brink/p314-pdf9.png', 'tmp/day8-20261007/rose-brink/p316-pdf11.png'],\n        'coverage_increment': 'Additional formula-level review on four already-read core pages; no additional paper/source, full appendix pass or course card is claimed.',\n    },\n    'prior_angular_artifact': {'path': str(PRIOR.relative_to(ROOT)), 'sha256': hashlib.sha256(PRIOR.read_bytes()).hexdigest(), 'modified': False},\n    'reproduction': {'python': platform.python_version(), 'sympy': sp.__version__, 'mpmath': mpmath.__version__,\n                     'dependencies': 'Existing isolated tmp/day8-20261007/rose-brink/python-deps (sympy 1.14.0, mpmath 1.3.0)',\n                     'run_command': 'python3 tmp/day8-20261007/rose-brink/polarization_branches.py',\n                     'script_sha256': hashlib.sha256(code.encode('utf-8')).hexdigest(), 'script_source': code},\n}\nOUT.write_text(json.dumps(result, ensure_ascii=False, indent=2) + '\\n', encoding='utf-8')\nprint(json.dumps({'output': str(OUT.relative_to(ROOT)), 'full_theta_W_residual': result['formulas']['full_theta_W_residual'],\n                  'I_xprime_90': result['formulas']['I_xprime_90'], 'I_yprime_90': result['formulas']['I_yprime_90'],\n                  'Q_Stokes_90': result['formulas']['Q_Stokes_90'], 'exact_checks_passed': len(CHECKS),\n                  'branches': BRANCHES}, ensure_ascii=False, indent=2))\n"
+  }
+}

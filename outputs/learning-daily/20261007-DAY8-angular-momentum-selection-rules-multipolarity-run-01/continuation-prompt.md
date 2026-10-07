@@ -28,3 +28,9 @@ Resume：`codex resume 01a111fb-370d-7ed1-afe9-881ccc47caf4 -C /workspace/wiki -
 生成明日prompt用`prepare_next_prompt(get_paths(root), "2026-10-08", 9)`，不要使用会取当前local_date的`--prepare-prompt`快捷参数；生成后核Day9自己的run-01路径，改掉模板中旧的“下一卡完整前移计学分”句，注明Day8的Day9预习不计卡、正式Day9需独立record/audit，Day9最多预习无学分Day10。直到本Day8收束才处理该下一日prompt。
 
 恢复日调度前先核Day8最终完成、state next=9、正式Day9计划prompt存在、clock/helper锁已释放；计时器不会自行启动daemon。继承dirty daemon含xhigh，而runner不接受该参数，保留文件不修改。若按AGENTS当前授权的模型链恢复daemon，应使用其`daemon_loop`显式profiles `(("gpt-6-luna","max"),("gpt-6-sol","high"),("gpt-6-astra","medium"))`，Asia/Shanghai16:00、poll30、既有daemon lock/state/log路径；不要无核对导入dirty默认priority或在锁持有时开启重复runner。用户后续明确模型指令优先。
+
+## 本轮续研与延迟消息核对
+
+checkpoint-001的02:19快照直到07:18才在本session实际执行；后续bot提醒必须刷新当前clock，不按排队时间推断剩余时段。30-check理想偏振和50-check布居/多极性反例已由parent复现并同步knowledge（pointwise方向/偏振强度，不比较跨方向场相干或完整光子态）。E0/ICC联合未知量与零参考gamma成分路线已通过1311项检查闭合。唯一Day9无学分预习已经写回MU08 source/lifetime synthesis，单位/branch/covariance重构62项检查通过，原表branch定义等边界保留。当前新选Day8路线是合成2+→2+全M1/E2/M3/E4与未知布居的完整单γpolarization基底和局部识别性，两个既有代理在做独立representation与exact-Jacobian核验；未证结果不提前写claim。
+
+如果当前消息是旧的[Wiki clock] bot提示，且clock/run记有其后发生的真实用户取消/停止或manual-attention，遵守该记录；旧队列消息不能被当作真实用户重新go-on。不得自动复活被用户停止的clock或研究。已有clock running时的旧stopped_at/stop_reason仅是重载历史，不据此伪造当前停止；以status和时间/事件链判断。

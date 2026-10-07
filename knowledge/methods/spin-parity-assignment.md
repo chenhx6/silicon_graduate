@@ -57,6 +57,9 @@ No single rule is universal across detector geometry, reaction mechanism, and fe
 
 [[rose-brink-1967-phase-defined-angular-distributions]] 的 RB67-2/3/4/7/8 分开 population、geometry、polarization、interference 与 integrated width；[[lange-kumar-hamilton-1982-multipole-admixtures]] 的 LKH82-1/4/5 分开 γ 振幅约定、级联相位和 E0/ICC。这张表是基于这些 formalism 的分析性证据审计，不是新实验。三条合成跃迁及所有允许高阶候选见 [[multipole-mixing-ratio]]；题设 Jπ 标签不具有实测证据。
 
+
+实际依赖反例见 [[multipole-mixing-ratio]] 的“布居未知时，角分布和偏振可以共享多极歧义”：在固定题设Jπ但布居分别为high-M/low-M时，pure E1/pure M2能给相同pointwise方向/偏振强度。因此增加一个measurement channel不自动消除共用population的条件推断；该L2反例不声明所有γ观测或真实核素都相同。独立布居校准须来自另一个已建立的约束，不能重用待判multipole拟合。依据 [[rose-brink-1967-phase-defined-angular-distributions]] RB67-10/11/12；实际实验还需响应、背景、gate/feeding与协方差。
+
 ## Related Pages
 
 - [[angular-distribution]]
