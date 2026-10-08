@@ -324,6 +324,12 @@ class LearningSessionClockTests(unittest.TestCase):
         self.assertEqual(restarted.state["sent_event_ids"], ["checkpoint-001"])
         self.now.advance(2 * 3600)
         restarted.tick()
+        self.assertEqual(len(self.queue.calls), 1)
+        self.assertEqual(self.event_status(restarted, "checkpoint-002"), "skipped")
+        self.document["observed_clock_executions"] = [{"clock_event_id": "checkpoint-001"}]
+        self.write_receipt()
+        self.now.advance(2 * 3600)
+        restarted.tick()
         self.assertEqual(len(self.queue.calls), 2)
 
     def test_missed_checkpoints_make_one_latest_reminder_without_a_burst(self) -> None:
@@ -334,20 +340,19 @@ class LearningSessionClockTests(unittest.TestCase):
         self.assertEqual(supervisor.state["sent_event_ids"], ["checkpoint-005"])
         self.assertEqual(self.event_status(supervisor, "checkpoint-001"), "skipped")
 
-    def test_card_or_receipt_completion_does_not_end_the_study_window(self) -> None:
-        self.document["status"] = "completed"
+    def test_card_completion_keeps_running_but_final_receipt_completion_stops(self) -> None:
+        self.document["card_content_status"] = "complete"
         self.write_receipt()
         supervisor = self.supervisor()
         self.assertTrue(supervisor.tick())
         self.assertEqual(supervisor.state["status"], "running")
-        self.now.now = self.spec.deadline
-        self.assertTrue(supervisor.tick())
-        self.assertEqual(self.event_status(supervisor, "closeout"), "queued")
-        self.now.now = self.spec.deadline + timedelta(minutes=45)
-        supervisor.tick()
-        self.assertEqual(self.event_status(supervisor, "closeout-reminder"), "skipped")
-        self.now.now = self.spec.closeout_end
+        self.document["status"] = "completed"
+        self.write_receipt()
         self.assertFalse(supervisor.tick())
+        self.assertEqual(supervisor.state["status"], "completed")
+        self.assertEqual(self.queue.calls, [])
+        self.assertEqual(self.event_status(supervisor, "closeout"), "skipped")
+        self.assertEqual(self.event_status(supervisor, "closeout-reminder"), "skipped")
         self.assertEqual(self.event_status(supervisor, "overdue"), "skipped")
 
     def test_closeout_reminder_and_overdue_are_once_and_receipt_is_untouched(self) -> None:

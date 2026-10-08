@@ -1,0 +1,56 @@
+{
+  "schema_version": 1,
+  "operation": "clock-reminder-backlog-prevention",
+  "recorded_at": "2026-10-08T17:44:38.593548+08:00",
+  "root_cause": "Accepted codexqueue messages accumulated while one long-running session was busy; sender did not await checkpoint acknowledgement and did not terminate on finalcompletedreceipt.",
+  "Day8_observed": {
+    "stopped_at": "2026-10-08T15:33:59.570297+08:00",
+    "clock_status": "interrupted",
+    "closeout_send_attempts": 1,
+    "sent_checkpoints": 19,
+    "closeout_messages": 1,
+    "pending_delivery_count": 0
+  },
+  "Day9_observed": {
+    "started_at": "2026-10-08T16:00:01.836897+08:00",
+    "session_id": "01a11a87-45cf-7781-a014-f992aafb49e2",
+    "runner_pid": 165941,
+    "codex_pid": 165980,
+    "own_recall_and_input_chain_present": true,
+    "latest_observed_artifact_at": "2026-10-08T17:06:04.099114+08:00"
+  },
+  "changes": [
+    "completedrun stopsdelivery immediately; card_contentcomplete/statusrunning continues",
+    "at most one unacknowledged checkpoint; latercheckpoints coalesced",
+    "deadline closeout unaffected by checkpointbacklog",
+    "queued snapshot named explicitly; recipient readscompletion/actualclock first",
+    "existingassertions updated; no new testcase added"
+  ],
+  "checks": {
+    "python_ast_syntax": true,
+    "dry_run_exit": 0,
+    "rendered_utf8_bytes": {
+      "checkpoint": 753,
+      "closeout": 730,
+      "closeout_reminder": 652,
+      "overdue": 647
+    },
+    "wiki_boundary_exit": 0,
+    "wiki_lint_exit": 0,
+    "wiki_lint_errors": 0,
+    "wiki_lint_existing_warnings": 91,
+    "unit_tests_run": false
+  },
+  "scientific_or_course_state_changed_by_fix": false,
+  "daemon_source_changed_by_fix": false,
+  "Day9_process_restarted_or_interrupted": false,
+  "Codex_queue_or_clock_process_started_by_fix": false,
+  "protected_active_Day9_files": [
+    "knowledge/sources/mukhopadhyay-2008-136nd-transition-rates.md",
+    "system/handoff.md",
+    "system/log.md",
+    "Day9run/report"
+  ],
+  "official_reference": "https://developers.openai.com/codex/app-server/",
+  "official_reference_scope": "App-server active-turn steering is distinct from starting a turn; queue lifecycle evidence for this incident comes from actual CLIhelp and clocklogs, not an assumed undocumented deletion API."
+}

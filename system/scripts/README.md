@@ -121,6 +121,14 @@ python3 system/scripts/run_learning_session_clock.py \
 run_date 次日 15:00 提醒停止新增研究，15:45 条件提醒，16:00 最多一次逾时提示后退出。
 它在本 run 保存 clock-state/events 和每分钟心跳，重启按 event ID 去重；queue exit 0
 只证明排队接受，执行需要同会话后续 turn 回执，等待心跳也不计为实际研究时长。
+普通 checkpoint 最多保留一条未确认消息：会话处理提示后在本 run 的
+`run.json.observed_clock_executions` 记录 `clock_event_id` 和实际处理时刻；未确认期间
+后续 checkpoint 合并为 skipped，不继续堆进忙碌会话。15:00 hard-cutoff 提醒独立保留。
+消息中的 `queued_snapshot_at` 是入队时间，收到后必须重新核实际时钟。
+最终 `status: completed` 会立即停止监督并释放锁；卡内容完成时保持 `status: running`，
+不能把卡完成当作整轮关闭。已被 Codex 接受的旧消息不因停止进程自动撤回；收到时若
+receipt 已完成，只记录送达，不能重开研究、重复计卡或重启调度。
+
 容器与 Codex app server 必须在线；超时/发送中重启记 acceptance unknown，不盲目重发。
 监督器只读本 Wiki 的 `tmp/farmer/state.json`：首次实际启动后、本线程的新鲜取消或
 人工处理事件会停止排队；Farmer 正在恢复时暂缓提醒，待运行/完成事件恢复后继续。旧、

@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "branch": "main",
+  "commit_subject": "Stop completed Wiki clocks and coalesce pending checkpoints",
+  "owned_files": [
+    "system/scripts/run_learning_session_clock.py",
+    "system/tests/test_learning_session_clock.py",
+    "system/scripts/README.md",
+    "check.md",
+    "outputs/learning-daily/20261008-clock-reminder-delivery-fix-run-01/repair-receipt.json",
+    "outputs/learning-daily/20261008-clock-reminder-delivery-fix-run-01/manifest.json"
+  ],
+  "source_and_course_changes": false,
+  "active_Day9_files_excluded": true
+}

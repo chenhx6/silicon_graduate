@@ -175,8 +175,10 @@ def plan_events(spec: SessionSpec) -> list[ClockEvent]:
 
 def message_for(spec: SessionSpec, event: ClockEvent, now: datetime) -> str:
     prefix = (f"[Wiki clock {event.event_id}] Day {spec.day_index}; "
-              f"now={now.astimezone(TIMEZONE).isoformat()}; "
+              f"queued_snapshot_at={now.astimezone(TIMEZONE).isoformat()}; "
               f"research cutoff={spec.deadline.isoformat()}. ")
+    delivery = ("Read run.json first; if completed, record delivery only. "
+                "Ack this ID in observed_clock_executions; refresh actual time. ")
     boundary = (f"Keep day_index={spec.day_index}. "
                 f"Day {spec.day_index + 1} may only be an uncredited preview in partial_day_indices; "
                 f"do not credit it or open Day {spec.day_index + 2}. "
@@ -199,7 +201,7 @@ def message_for(spec: SessionSpec, event: ClockEvent, now: datetime) -> str:
         action = ("The reserved closeout hour has ended and the run receipt remains incomplete. "
                   "Record the overdue/partial state and exact resume command; do not invent completion "
                   "or advance the course. This clock will release its locks and stop. ")
-    message = prefix + action + boundary + "Do not create a new session or restart a daemon from this reminder."
+    message = prefix + delivery + action + boundary + "Do not create a new session or restart a daemon from this reminder."
     if len(message.encode("utf-8")) >= 1000:
         raise ValueError("clock message must be under 1000 UTF-8 bytes")
     return message
@@ -406,6 +408,39 @@ class Supervisor:
             self.save()
             self.log("reminder-skipped", event_id=event.event_id, reason=reason)
 
+    def completed_receipt(self, current: SessionSpec) -> bool:
+        """Final run completion ends delivery; card completion stays running."""
+        if current.receipt_status != "completed":
+            return False
+        self.heartbeat(self.clock().astimezone(TIMEZONE), current.receipt_status)
+        for event in self.events:
+            self.skip(event, "run receipt completed; no new queued messages")
+        self.finish("completed", "run receipt completed; reminder delivery stopped")
+        return True
+
+    def pending_checkpoints(self) -> list[str]:
+        """Keep at most one unacknowledged routine reminder in the broker."""
+        entries = read_object(self.spec.receipt).get("observed_clock_executions", [])
+        acknowledged: set[str] = set()
+        if isinstance(entries, list):
+            for entry in entries:
+                if (isinstance(entry, dict)
+                        and isinstance(entry.get("clock_event_id"), str)
+                        and entry.get("same_session_id", self.spec.thread) == self.spec.thread):
+                    acknowledged.add(entry["clock_event_id"])
+        pending = []
+        for event in self.events:
+            if event.kind != "checkpoint":
+                continue
+            record = self.state["events"][event.event_id]
+            if event.event_id in acknowledged:
+                record["delivery_observed"] = True
+            elif record["status"] in {"queued", "unknown"}:
+                pending.append(event.event_id)
+        self.state["pending_checkpoint_ids"] = pending
+        self.save()
+        return pending
+
     def attempt(self, event: ClockEvent, now: datetime, receipt_status: str) -> None:
         record = self.state["events"][event.event_id]
         if record["status"] in TERMINAL_EVENT_STATUSES:
@@ -420,6 +455,17 @@ class Supervisor:
         if self.farmer_control(self.clock().astimezone(TIMEZONE)) != "continue":
             self.save()
             return
+        current = load_spec(self.spec.root, self.spec.receipt, self.spec.thread, self.spec.checkpoint_hours)
+        if identity(current) != identity(self.spec):
+            raise ValueError("receipt timing or identity changed before queue call")
+        if self.completed_receipt(current):
+            return
+        if event.kind == "checkpoint":
+            pending = self.pending_checkpoints()
+            if pending:
+                self.skip(event, "unacknowledged checkpoint already queued; coalesced")
+                self.log("checkpoint-coalesced", event_id=event.event_id, pending_event_ids=pending)
+                return
         command = queue_command(self.spec, message_for(self.spec, event, now))
         record.update(status="in-flight", attempts=record["attempts"] + 1, attempted_at=now.isoformat())
         self.save()
@@ -448,6 +494,8 @@ class Supervisor:
         current = load_spec(self.spec.root, self.spec.receipt, self.spec.thread, self.spec.checkpoint_hours)
         if identity(current) != identity(self.spec):
             raise ValueError("receipt timing or identity changed while the clock was running")
+        if self.completed_receipt(current):
+            return False
         if current.receipt_status in {"stopped", "cancelled", "interrupted"}:
             self.heartbeat(now, current.receipt_status)
             self.finish("interrupted", f"run receipt records {current.receipt_status}; no automatic restart")
@@ -516,6 +564,8 @@ class Supervisor:
             if stop["signal"]:
                 break
             if not keep_running:
+                if self.state["status"] == "completed":
+                    return 0
                 if self.state["status"] == "interrupted":
                     return 130
                 if self.state["status"] == "manual-attention-required":
