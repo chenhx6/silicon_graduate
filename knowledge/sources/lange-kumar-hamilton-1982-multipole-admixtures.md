@@ -94,6 +94,7 @@ The adopted data table is a critical survey through January 1980, not a homogene
 | LKH82-15 | Eq2.3c的orbital l是作用于态的导数；hard radius/归一和small totalJ不能直接继承electric multiplication范数界。固定2→1的two-orbital形式反例可有增长RME，物理域需另控orbital/kinetic moments与nonrel/current有效性，不预测真实低能强度无界。 | our-inference-with-operator-premise | indirect | printed121/PDF3 Eqs2.3a/c；p125/PDF7 Eq3.9、p127/PDF9 generator-only scope；54-check magnetic domain/CG/6j/Racah重构 | true |
 | LKH82-16 | 对同一 2+→2+ 的 M1/E2 截断，独立 hard-support、磁 moment/domain 与正 E2 floor 可条件性界定完整 M3+E4 被省 photon-rate 份额及绝对测量误差；未给实际先验，不认定真实截断已有效。 | our-inference-with-operator-premise | indirect | printed p.121/PDF3 Eqs.2.2–2.3c；72-check conjugated M3 gradient Gram、B/units/rate budget；RB67-21/22 的条件误差界 | true |
 | LKH82-17 | 同一 pair 的独立总 photon-width floor 与完整 omitted-width ceiling 可替代 E2 floor；严格 Γγmin>Uom 才自动保证 retained 归一态。真正 absolute radiative branch 与 meanτ 可条件给 floor，total branch/photon-relative intensity 不直接提供它；联合宽度域可更强。 | our-inference-with-rate-premise | indirect | printed p.121/PDF3 Eqs.2.2–2.3、p.123/PDF5 Eq.2.12、p.169/PDF51 Eq.4.1；RB67 p.318/PDF13 Eq.3.29；44-check primary/independent joint-width proof | true |
+| LKH82-18 | 完整 same-pair photon/linked/extra 非负库存加独立总 pair-width 下限、有限 linked ratio ceiling 与 extra absolute ceiling，给条件 photon floor max(0,(Pmin−Uextra)/(1+Amax))。ICC截断值不自动认证这些域；零γ处用直接率不等式。 | our-inference-with-inventory-premise | indirect | p.121/PDF3 Eqs.2.2–2.3；p.123/PDF5 Eq.2.12、p.169/PDF51 Eq.4.1；RB67 p.318/PDF13 Eq.3.29；23-check primary/9-group independent inequality proof | true |
 
 ## Collective M1 Zero, Perturbation Order and Transfer Conditions
 
@@ -375,6 +376,40 @@ LKH82-16 的 numerator 条件仍要成立，但 retained floor 可从另一独�
 失败也不依赖普通 IC 被置零：取 photon fractions f=(1/4,3/4)、total branches b=(3/5,2/5)、纯教学 conversion factors α=(1/5,3/10)。令 Γγ,i/Γref=x fi、ΓIC,i=αiΓγ,i、extra_i/Γref=bi−(1+αi)x fi，0<x≤16/39。所有 rates 非负、parent width1、photon-relative fractions f 不变，**每条** target 的 b_rad,i=x fi→0，而 parent 全 photon fraction 是 x。Same-pair Γγ,i=hbar x fi/τref；sum hbar x/τref 不能换作某条 target 的宽度。α 数值没有任何实际原子来源，extra 未被任意赋作允许 E0；只证明粗输入不认证 photon floor 的 formal inventory 边界。
 
 44 项 primary 与1,184项独立审计已 parent 复现；primary 无需修正。父代理在独立补充 positive-IC ledger 发现 b_rad 字段表示 parent 全 photon fraction 的命名漂移，canonical 已按上式区分 per-pair 与 sum，独立72项范围澄清已 parent 复现并另留 immutable receipt；不把检查数当作该别名已经验证。没有实际 photon floor、omitted-current ceiling 或完整 branching/confidence data，仍是 L2 条件知识。
+
+## Bounding the Non-Gamma Inventory to Establish a Photon Floor
+
+LKH82-17 所需 photon floor 可由另一组**独立**库存界得到，不能只把普通 ICC 标签当作保证。固定同一 2+→2+ pair 与 full M1/E2/M3/E4 photon model，定义完整、互不双计、具有有效正率分组的库存
+
+\[
+\Gamma_{\rm pair}=\Gamma_\gamma+\Gamma_{\rm linked}+\Gamma_{\rm extra},\qquad
+\Gamma_j\ge0.
+\]
+
+Linked 只包括已经在 complete mode/current/atomic domain 中独立支持 Γlinked≤Amax Γγ 的通道；Amax≥0 有限且无量纲。Extra 收纳所有未获此比值界的正率通道，包括允许的 E0 或未控制的整个 conversion/current channel，Γextra≤Uextra≥0。若一个 channel 含 coherent interfering contributions，不能把 ordinary/correction 两项未证为正就分别入账，须有 validated partition 或把整个通道计入 extra。
+
+同单位能量宽度的 Γpair≥Pmin≥0 给
+
+\[
+P_{\min}\le(1+A_{\max})\Gamma_\gamma+U_{\rm extra},\qquad
+\Gamma_\gamma\ge G=\max\!\left(0,\frac{P_{\min}-U_{\rm extra}}{1+A_{\max}}\right).
+\]
+
+Pmin>Uextra 且 Amax 有限才认证 positive G。在 Γγ=0 处，**直接** linked inequality 强制 Γlinked=0；不定义 ICC 的0/0 chart。Pmin≤Uextra 时 photon/linked0、extra=Pmin 是合法零γ账本；Amax 缺失/无限，或 extra 未界定，也容许 γ→0。若 complete total nonγ 自身有 finite ratio ceiling，则 Uextra=0 是特例；这额外要求覆盖 E0，不能默认为它不存在。
+
+一个充分 mapping 是全部相关模式的 integrated Γlinked=ΣλαλΓγ,λ，且每 αλ 在所有 shells、allowed multipoles、atomic state 与 current/penetration 域内都≤Amax。这个 mapping 与范围本身是物理先验。普通 truncated M1/E2 BrIcc maximum、K-shell 数值、单个 fittedδ 或未验证 ionization/current 域不自动支持它。p.169 penetration 与 p.123/169 E0 使遗漏电子通道尤其需要另控。本节没有查询新 atomic data 或给实际 Amax。
+
+若输入 true absolute total pair branch b_total（包含该 pair 的全部 photon/linked/extra）与 intrinsic exponential parent meanτ，则 Γpair=hbar b_total/τ。独立 jointly feasible region 中的 inf(b_total/τ) 才提供 Pmin；photon-relative intensity 或定义不明 branch 不提供它。Half-life、feeding/time mixtures 和 model covariance 须与 rate model 一致，实际 joint confidence coverage 涵盖 b、τ、A、extra 与 model priors；当前未给。
+
+再另给 complete omitted-photon ceiling Uom，只有 Uom<G，即
+
+\[
+(1+A_{\max})U_{\rm om}+U_{\rm extra}<P_{\min},
+\]
+
+才自动保证 retained>0、ε≤Uom/G<1，接 RB67-21/22 的共同初态与 retained-projection 概率/有限密度界。Inventory 不单独界定 omitted photons，也不确定 initialρ、W node、δ sign、非零 M1 denominator 或参数唯一性；nonγ 信息作为 floor 输入，没有被纳入 electron/time 的误差结论。
+
+合成可行 control 取 Pmin=1/2、Amax=1、Uextra=1/4，饱和账本 (γ,linked,extra)=(1/8,1/8,1/4)；Uom=1/100 给 ε≤2/25、retained≥23/200。原 LKH82-17 t-family 的 extra=1/2−t≥49/100 会被**新增且独立成立**的 Uextra=1/4 排除；没有该 ceiling 时原反例保持。数值只有 reference-width 理想身份，没有 microscopic realization。23项 primary 与9组独立审计经父代理复现，0实质问题；旧44/72/95/329数学回执不变，仍L2。
 
 ## Human Review Triage
 

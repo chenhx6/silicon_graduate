@@ -85,6 +85,7 @@ tags: [Rose-Brink, angular-distribution, phase-convention, mixing-ratio, alignme
 | RB67-25 | 确定核态宇称与 alignment 是 odd-K 消失的充分条件，不能逆推；放松核态确定宇称的 J=1/2 E1/M1 控制可角分布 isotropic 但 circular polarization 非零。响应也可制造 odd accepted shape。 | our-inference | indirect | printed p.320/PDF15 Eqs.3.40–3.41 的不同假设；p.316/PDF11 Eq.3.24、p.318/PDF13 Eq.3.29；60-check CG/Jones/null-converse reconstruction | true |
 | RB67-26 | J=3 symmetric-diagonal 母态的 pure-E2 参考存在 rank6 population 盲区；两不同PSD布居可有完全相同 reference photon marginal，目标完整 E2/M3/E4 却有沿轴节点。仅 positivity 或该参考不能认证统一谱下限，不推论所有目标有节点。 | our-inference | indirect | printed p.316/PDF11 Eq.3.24、p.317/PDF12 Eq.3.28、p.318/PDF13 Eq.3.29、p.319/PDF14 Eqs.3.36–3.37 的 rank cap；75-check CG/reference nullspace/target node | true |
 | RB67-27 | 一般同-rank E/M coherent extension 的 fullΩ helicity fractions 为 (S+2qReX)/(2S)，X=ΣL aEL aML*；per-q equality 当且仅当 ReX=0。Definite parity 是充分条件，integrated orientation 不决定它；总 Γγ=4kS 保留。 | our-inference | indirect | p.316/PDF11 Eq.3.24、p.318/PDF13 Eqs.3.29/3.32/3.34、p.320/PDF15 Eqs.3.40–3.41；44-check independent fullΩ/CG/rho proof | true |
+| RB67-28 | Definite-parity one-copy/rank 的 isotropic 初态给 photon rank-block fL I/(2L+1)，trace finalspin后 Dph=ε；任意同初态有 abstract omitted-rank effect给 ε≤Dph≤√ε。Point方向/偏振盲不等于全 photon state等价，rank analyzer/环境与旧jointκ须另核。 | our-inference | indirect | p.316/PDF11 Eq.3.24、p.317/PDF12 Eq.3.28、p.318/PDF13 Eq.3.29、p.320/PDF15 parity条件；32-check CG/Schur/copy/trace-distance proof | true |
 
 ## Summary
 
@@ -524,6 +525,27 @@ T_{\gamma}=\frac{4k}{\hbar}S,\quad\Gamma_{\gamma}=4kS.
 据此，p.318 Eq.3.29 旁文的 integrated per-q independence 在这个明确 coherent extension 中需要 zero-real-cross 条件；通常 definite-parity 用法满足它。限定该旁文的应用不等于否定总率 formalism。Eq.3.29 helicity-summed width 保持，寿命不恢复 cross phase/sign。
 
 Bra/ket 翻转须连同 source adjoint/phase map；一致复共轭两 amplitude 保持 ReX，任意单独重相位一个 type 却固定 operator/q factor 会改变模型。Different energy、distinguishable final state、different current ensemble 或 gated/incomplete-angle measurement 须重建 coherence/response，不能直接沿用 inclusive f_q。本节未假设 unspecified Hamiltonian 的 time reversal，未推 PNC、EM parity violation 或真实 parity mixing。44项独立 fullΩ/CG/operator-scalar/single-control checks经父代理复现；原60 producer没有重执行或重写，仍L2。
+
+## The Complete Photon State and Direction-Local Measurements
+
+以下仅用原三题的 coherent source emission model，固定Ji/Jf、初末确定宇称、共同正Eγ/radial mode与source origin，trace完整final nuclear-spin multiplet。每个rank L只一个allowed E/M type π(L)，uL为source normalized radiative amplitudes，Σ|uL|²=1，非bare nuclear RME。
+
+同初態ρi=I/(2Ji+1)，CG partial-trace kernel给 δLL′δmm′/(2L+1)，也可由covariance与Schur证明。Photon rank basis的type-copy向量 χπ(q)=q^π/√2，q=±1；它是rank-basis multiplicity，不是普通方向局部polarization。因此
+
+\[
+\rho_{\rm ph}=\bigoplus_L\frac{f_L}{2L+1}I_m^{(L)}\otimes|\chi_{\pi(L)}\rangle\langle\chi_{\pi(L)}|,
+\qquad f_L=|u_L|^2.
+\]
+
+这里每L的opposite parity copy为零，不能换成full两-helicity identity；在仅occupiedcopy的坐标可简写 fL I/(2L+1)。不同rank的相位在这个marginal消失，fractions仍保留；phase可以留在未trace的photon–finalspin joint correlations，级联/tag是否利用它需原geometry/instrument条件，不保证globalphase恢复。
+
+与同full model的自身renormalized retained projection比较，0≤ε<1、SR>0，retained blocks的差总trace为−ε，omitted为+ε，故 Dph=ε。旧RB67-21含finalspin的full emitted distance仍为√ε。对任意共同PSD/trace1初态，抽象ΠO=Σomitted-ranks ΠL满足 V†(ΠO⊗If)V=εIi，full与retained概率分别ε、0，于是 ε≤Dph≤√ε。ε=1无归一retained，S=0无发射态；零端点各自处理。
+
+Scalar m块与Σm Dmq Dmq′*=δqq′给每方向局部H=I2/2，normalized W=1、local Stokes0，方向局部bins不能识别这组fractions。不同fractions却给不同完整formal photon state，ideal angular-mode rank POVM在数学上可辨；没有普通detector实现或实际photonstate tomography。旧U pair fractions不同，因此其完整formal photon marginals也不同，即使pointwiseW/Δ同；此前限制在point-observable的等价叙述保持。
+
+若sameL两E/M types同时coherent，Schur只令m块为identity，保留multiplicity matrix CL；isotropy不自动消E/Mcoherence或Pc，RB67-25/27仍适用。上述ΠO按ranks分区；省去sameL的一type时不能拿它作typeprojector。FurtherCPTP/CM/recoil/sourceposition/temporal/detector averaging可能混rank并失ε lower bound；upper contraction保留，但须有output-mode/effect或pullbackprojector审计。
+
+旧κ2/5/7压缩在含finalspin的jointHemit，不能把较小Dph直接套同κ；这里没有另算photon-onlypointnorm或实现coherentdetector。32项originalA/B/C CG/blocks与copycontrols及独立12项focusedCG/3项actualcase comparisons经parent复现，7项scope审计groundedno-op，0实质问题；source locators是p.316Eq.3.24、p.317Eq.3.28、p.318Eq.3.29与p.320parity条件。结论是L2 theory，无实际实验多极赋值、coherent apparatus或nuclearrealization。
 
 ## Human Review Triage
 

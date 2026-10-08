@@ -1,0 +1,346 @@
+{
+  "schema_version": 1,
+  "created_at_utc": "2026-10-08T04:22:46.606975+00:00",
+  "artifact_kind": "Day9-uncredited-preview-L2-one-parent-cross-branch-strength-ratio-and-shared-covariance",
+  "status": "bounded-exact-algebra-specialization; physical-input-ledger-and-covariance-remain-conditional",
+  "parent_day_index": 8,
+  "day_index": 8,
+  "preview_day_index": 9,
+  "partial_day_indices": [
+    9
+  ],
+  "course_credit_awarded": false,
+  "Day10_opened": false,
+  "run_closed": false,
+  "new_session_or_goal": false,
+  "new_source_or_nucleus": false,
+  "L4": false,
+  "experimental_data_fit": false,
+  "actual_covariance_supplied": false,
+  "session_id": "01a111fb-370d-7ed1-afe9-881ccc47caf4",
+  "resume_command": "codex resume 01a111fb-370d-7ed1-afe9-881ccc47caf4 -C /workspace/wiki -s danger-full-access -a never",
+  "prior_coverage": {
+    "unit_receipt": {
+      "path": "outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/day9-strength-unit-audit.json",
+      "sha256": "0913dc388d5852c1d95bdf6fdc4007602748eed97504fda903fef911a6295a1d"
+    },
+    "read_existing_pages": [
+      "knowledge/synthesis/high-spin-lifetime-strength-deformation.md",
+      "knowledge/observables/bm1-be2-ratio.md",
+      "knowledge/sources/mukhopadhyay-2008-136nd-transition-rates.md"
+    ],
+    "already_explicit": "Generic photon/total branching, absolute-strength normalization, single-gamma M1/E2 cancellation and J Sigma J^T were already recorded. The observable page already preserves unknown mixing fractions as an extraction assumption.",
+    "bounded_specialization": "This packet spells out the different-energy, different-final-state ratio for exactly the current common parent, its exact log contrast, two branching bases, nuisance-path conditions and conditional joint-SD consistency. It is not a new experimental conclusion.",
+    "not_same_gamma_mixing_ratio": "B(M1)/B(E2)=(K_E2/K_M1)*E_MeV^2/t in mu_N^2/(e^2b^2); mean tau and photon fraction cancel for these two components of the same gamma transition"
+  },
+  "sources": {
+    "LKH82": {
+      "knowledge_source": "knowledge/sources/lange-kumar-hamilton-1982-multipole-admixtures.md",
+      "raw": "raw/papers/gpt/high-spin-20260920/review/1982_Lange et al_E0-E2-M1 multipole admixtures of transitions in even-even nuclei.pdf",
+      "sha256": "ed925a0577a9257903806acd209c1db707529e86a5bfd9a301a83d597bf78ffb",
+      "locator": "printed p121/PDF3 Eqs2.2-2.3: gamma rate, physical BM B, adopted operator normalization"
+    },
+    "MU08": {
+      "knowledge_source": "knowledge/sources/mukhopadhyay-2008-136nd-transition-rates.md",
+      "raw": "raw/papers/gpt/high-spin-20260920/三轴/手征/2008_Mukhopadhyay et al_Electromagnetic transition rates in high-spin bands in Nd 136.pdf",
+      "sha256": "ea77d7d033051369d19aad2f82a542e91e262eb490d518b246f7f04c2d0dcd2c",
+      "locators": [
+        "printed034311-3/PDF3 TableI Ex6711.4-keV Band1 I18 three branches",
+        "printed034311-4/PDF4 TableII Band1 I18 lifetime and derived Bs, caption systematic boundary",
+        "printed034311-3/PDF3 left-column uncertainty/pure-M1 paragraph"
+      ],
+      "checked_images": [
+        "tmp/day8-20261007/day9-preview/mukhopadhyay/table-I.png",
+        "tmp/day8-20261007/day9-preview/mukhopadhyay/table-II-and-caption.png",
+        "tmp/day8-20261007/day9-preview/mukhopadhyay/stopping-and-pure-M1.png"
+      ]
+    },
+    "review_flags_changed": false
+  },
+  "one_current_parent": {
+    "nuclide": "136Nd, already existing MU08 case",
+    "band": "Band1 as labeled by MU08",
+    "parent_Ex_keV": "6711.4",
+    "Ji": "18-",
+    "all_three_printed_branches": [
+      {
+        "id": "a",
+        "E_keV": "401.2",
+        "spin": "18- ->17-",
+        "printed_branch": "0.57(6)",
+        "selected_component": "M1"
+      },
+      {
+        "id": "b",
+        "E_keV": "757.4",
+        "spin": "18- ->16-",
+        "printed_branch": "0.24(2)",
+        "selected_component": "E2"
+      },
+      {
+        "id": "c",
+        "E_keV": "389.6",
+        "spin": "18- ->17-",
+        "printed_branch": "0.19(2)",
+        "selected_component": "not included in the ratio; retained in the common normalization"
+      }
+    ],
+    "branch_identity": "The401.2 and389.6 lines are distinct transitions despite equal final-spin labels. Only401.2 is the numerator here.",
+    "author_reports_retained": {
+      "tau_ps": "0.56(8)",
+      "B_M1": "0.9(2) mu_N^2",
+      "B_E2": "0.14(2) e^2 b^2",
+      "role": "Tau is a DSAM result and an input to absolute Bs, but its numerical value is unnecessary for this common-parent ratio. The reported Bs are derived outputs. None is used to backsolve ICC, branch basis, mixing, covariance or calibration input."
+    },
+    "extraction_prior": "Author explicitly assumes pure M1 for DeltaI1 when extracting absolute M1 strengths. f_Ma=f_Eb=1 is conditional use of that M1 prior and the author's E2 assignment; no measured delta or proof that all allowed higher amplitudes vanish is added.",
+    "printed_basis_unknown": "TableI does not identify photon-relative versus total-level/pair branching or the full IC handling. The two interpretations below are alternatives, not a decision about the authors' actual algorithm."
+  },
+  "definitions_and_units": {
+    "rates": "lambda_gamma_a is the entire401.2-keV photon line; fa=lambda_gamma_M1,a/lambda_gamma_a. fb=lambda_gamma_E2,b/lambda_gamma_b. They are radiative rate fractions, not total-decay branch fractions.",
+    "source_unit_equations": "lambda_gamma_M1=K_M1 E_a(MeV)^3 B_M1[mu_N^2]; lambda_gamma_E2=K_E2 E_b(MeV)^5 B_E2[e^2b^2]. The K conventions are the already audited modern-unit realization of LKH82 Eq2.2.",
+    "reported_ratio_unit": "mu_N^2/(e^2 b^2); this is not a dimensionless strength ratio. The photon partial-rate ratio is dimensionless. Fixed-unit numerical values can be logged by dividing by their respective reference units.",
+    "common_parent_tau": "tau is one common mean level lifetime, positive; no second parent or fitted lifetime is introduced.",
+    "photon_intensities": "Ia,Ib,Ic must be proportional to the same-parent physical photon rates after efficiency, angular/gate/feeding/contamination corrections under the same preparation. Their overall arbitrary scale cancels.",
+    "alpha": "alpha_j is an effective full pair non-gamma/photon factor only when the corresponding ledger is closed. Ordinary all-shell total ICC can serve this role if it accounts for every relevant pair non-gamma contribution; alpha_K alone cannot.",
+    "positive_chart": "Ia,Ib,Ea,Eb,Ks,tau,s,D>0,0<fa,fb<=1,0<=b_extra<1. At a zero selected component log derivatives/ratios require endpoint treatment."
+  },
+  "photon_relative_route": {
+    "absolute_common_factor": "D=sum_all photonI_j(1+alpha_j), including any missing photon contributions represented by D_missing; Z=s(1-b_extra)/(tau D). BM=Z Ia fa/(KM Ea^3), BE=Z Ib fb/(KE Eb^5).",
+    "ratio": "R=BM/BE=(KE/KM)*(Eb^5/Ea^3)*(Ia/Ib)*(fa/fb).",
+    "current_input_expression": "R=(KE/KM)*(0.7574^5/0.4012^3)*(0.57/0.24)*(f_Ma/f_Eb), in mu_N^2/(e^2 b^2), if those printed fractions are photon-relative inputs with the stated corrections.",
+    "exact_cancellation": "Common tau, strength scale s, photon/total normalization D, third/missing branches that enter only D, global extra non-gamma fraction and all ICC dependence confined to that shared D cancel exactly. A ratio may be usable when an absolute-strength normalization is not closed, provided the selected corrected photon-rate ratio and fractions are independently valid.",
+    "missing_branch_boundary": "This does not excuse unresolved contamination, gate/feeding biases or missing contributions to the selected line intensities. Those modify Ia/Ib rather than only D. An extra already included in alpha_j must not also be added as b_extra.",
+    "selected_two_renormalization": "Dividing both selected intensities by0.81 leaves their ratio unchanged. It gives an incorrect absolute normalization if it discards the0.19 line. Ratio agreement cannot validate the absolute B ledger or detect every shared bias."
+  },
+  "true_total_pair_route": {
+    "definition": "beta_j=lambda_pair,j/lambda_level_total, where the pair includes its full gamma plus non-gamma rates. For true total branches, gamma fraction is beta_j/(1+alpha_j); do not apply an extra global missing fraction a second time.",
+    "ratio": "R_total=(KE/KM)*(Eb^5/Ea^3)*(beta_a/beta_b)*(fa/fb)*(1+alpha_b)/(1+alpha_a).",
+    "same_numbers_comparison": "Interpreting the same printed0.57/0.24 numbers as true total pairs changes the photon-basis ratio by h_b/h_a, where h_j=1+alpha_j. This is a forward conditional comparison, not an inferred source input.",
+    "consistent_conversion": "If beta_j=(1-b_extra)Ij h_j/D is actually converted from the same photon ledger, beta_a/beta_b=(Ia/Ib)h_a/h_b and the two physical formulas agree.",
+    "what_does_not_cancel": "Branch-specific h_a/h_b remains. A common multiplicative factor in both h values cancels; a shared additive change of both alphas generally leaves sensitivity1/h_b-1/h_a. Correlation alone does not make unequal response coefficients cancel."
+  },
+  "exact_log_Jacobians": {
+    "photon_coordinate_order": [
+      "ln s",
+      "ln tau",
+      "ln Ia",
+      "ln Ib",
+      "ln Ic",
+      "b_extra",
+      "alpha_a",
+      "alpha_b",
+      "alpha_c",
+      "ln fa",
+      "ln fb",
+      "ln Ea",
+      "ln Eb",
+      "D_missing"
+    ],
+    "log_BM_row": [
+      "1",
+      "-1",
+      "(D_missing + I_b*alpha_b + I_b + I_c*alpha_c + I_c)/(D_missing + I_a*alpha_a + I_a + I_b*alpha_b + I_b + I_c*alpha_c + I_c)",
+      "-I_b*(alpha_b + 1)/(D_missing + I_a*alpha_a + I_a + I_b*alpha_b + I_b + I_c*alpha_c + I_c)",
+      "-I_c*(alpha_c + 1)/(D_missing + I_a*alpha_a + I_a + I_b*alpha_b + I_b + I_c*alpha_c + I_c)",
+      "1/(b_extra - 1)",
+      "-I_a/(D_missing + I_a*alpha_a + I_a + I_b*alpha_b + I_b + I_c*alpha_c + I_c)",
+      "-I_b/(D_missing + I_a*alpha_a + I_a + I_b*alpha_b + I_b + I_c*alpha_c + I_c)",
+      "-I_c/(D_missing + I_a*alpha_a + I_a + I_b*alpha_b + I_b + I_c*alpha_c + I_c)",
+      "1",
+      "0",
+      "-3",
+      "0",
+      "-1/(D_missing + I_a*alpha_a + I_a + I_b*alpha_b + I_b + I_c*alpha_c + I_c)"
+    ],
+    "log_BE_row": [
+      "1",
+      "-1",
+      "-I_a*(alpha_a + 1)/(D_missing + I_a*alpha_a + I_a + I_b*alpha_b + I_b + I_c*alpha_c + I_c)",
+      "(D_missing + I_a*alpha_a + I_a + I_c*alpha_c + I_c)/(D_missing + I_a*alpha_a + I_a + I_b*alpha_b + I_b + I_c*alpha_c + I_c)",
+      "-I_c*(alpha_c + 1)/(D_missing + I_a*alpha_a + I_a + I_b*alpha_b + I_b + I_c*alpha_c + I_c)",
+      "1/(b_extra - 1)",
+      "-I_a/(D_missing + I_a*alpha_a + I_a + I_b*alpha_b + I_b + I_c*alpha_c + I_c)",
+      "-I_b/(D_missing + I_a*alpha_a + I_a + I_b*alpha_b + I_b + I_c*alpha_c + I_c)",
+      "-I_c/(D_missing + I_a*alpha_a + I_a + I_b*alpha_b + I_b + I_c*alpha_c + I_c)",
+      "0",
+      "1",
+      "0",
+      "-5",
+      "-1/(D_missing + I_a*alpha_a + I_a + I_b*alpha_b + I_b + I_c*alpha_c + I_c)"
+    ],
+    "log_ratio_row": [
+      "0",
+      "0",
+      "1",
+      "-1",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "1",
+      "-1",
+      "-3",
+      "5",
+      "0"
+    ],
+    "total_pair_coordinate_order": [
+      "ln s",
+      "ln tau",
+      "ln beta_a",
+      "ln beta_b",
+      "ln fa",
+      "ln fb",
+      "ln Ea",
+      "ln Eb",
+      "alpha_a",
+      "alpha_b"
+    ],
+    "total_pair_log_ratio_row": [
+      "0",
+      "0",
+      "1",
+      "-1",
+      "1",
+      "-1",
+      "-3",
+      "5",
+      "-1/(alpha_a + 1)",
+      "1/(alpha_b + 1)"
+    ],
+    "energy_scale": "For the photon-I route at fixed corrected intensity ratio, radiative fractions and specified K/unit chart, a physical common gain error Ea->u Ea,Eb->u Eb gives R->u^2 R, explicit log sensitivity+2. It is not a common fractional B error. Changing MeV to keV with consistent K conversion is a unit change and preserves the physical reported ratio.",
+    "total_pair_energy_response": "For the true total-pair route at fixed beta ratio/fractions/Ks, if alpha is recomputed with calibrated energy, dlnR/dlnu=2+dln(1+alpha_b)/dlnu-dln(1+alpha_a)/dlnu. For each alpha depending on its own line energy, this is2+Eb alpha_b'(Eb)/(1+alpha_b)-Ea alpha_a'(Ea)/(1+alpha_a). The symbolic check chooses no atomic response function or numerical derivative.",
+    "upstream_chain_rule": "The zero explicit tau/ICC-normalizer columns hold at fixed selected corrected intensities/fractions. If a stopping/feeding/mixing/calibration nuisance also changes Ia,Ib,fa,fb or energy, chain those dependencies into the same primitive-input Jacobian; they need not cancel."
+  },
+  "covariance_and_no_double_count": {
+    "exact_log_coordinate_law": "For actual y=(ln Z,ln Ia,ln Ib,ln fa,ln fb,ln Ea,ln Eb) with finite covariance, ln B is affine with matrix A below. Thus Cov(ln B)=A Sigma_y A^T and Var(ln R)=h Sigma_y h^T are exact; no Gaussianity is required.",
+    "A": [
+      [
+        "1",
+        "1",
+        "0",
+        "1",
+        "0",
+        "-3",
+        "0"
+      ],
+      [
+        "1",
+        "0",
+        "1",
+        "0",
+        "1",
+        "0",
+        "-5"
+      ]
+    ],
+    "h_ratio": [
+      "0",
+      "1",
+      "-1",
+      "1",
+      "-1",
+      "-3",
+      "5"
+    ],
+    "common_factor": "If an uncertainty acts only as the same multiplicative s on both Bs, its log covariance component is var(ln s)*[[1,1],[1,1]]. The contrast(1,-1) annihilates it. Cross-covariances of the common log Z also disappear from this log ratio.",
+    "raw_input_covariance": "For covariance specified in raw intensities, energies, alphas or nonlinearly derived Z, use the exact derivatives with J Sigma_raw J^T as a local delta-method approximation, or propagate the full joint distribution. Published raw-unit error bars are not an actual log-coordinate covariance. Var(R) or a confidence interval is not fixed by Var(ln R) alone.",
+    "total_alpha_coordinates": "The total-pair log formula is affine if using ln h_a,ln h_b; its coefficients are-1,+1. In raw alpha coordinates the exact derivatives are-1/h_a,+1/h_b and covariance conversion is nonlinear.",
+    "primitive_input_policy": "Use one shared tau/normalization/fit nuisance once, with its cross-covariances. Do not independently add the two derived B errors, then add the same common factor again. If alpha_mix or angular efficiency is derived from the same mixing parameter, chain it rather than treating those errors as unrelated inputs.",
+    "actual_covariance": "None supplied or constructed. The symbolic covariance identities and common-factor matrix are algebra, not estimates from MU08 or from a15% stopping label."
+  },
+  "conditional_errorbar_consistency": {
+    "premises": "Suppose the three quantities are one random vector, their sum is exactly1 for every sample, all have finite second moments, and0.06/0.02/0.02 are their true joint marginal standard deviations.",
+    "distribution_free_proof": "For centered variables Xa+Xb+Xc=0, Xa=-(Xb+Xc). The L2 norm triangle gives sigma_a<=sigma_b+sigma_c, with no Gaussian or first-order assumption.",
+    "printed_scales_check": "0.06>0.02+0.02=0.04, so that specific simultaneous marginal-SD interpretation is inconsistent.",
+    "optional_rounding_condition": "If each SD was rounded to nearest0.01 with half-unit ranges, sigma_a>=0.055 while sigma_b+sigma_c<=0.025+0.025=0.05; that particular rounding model alone would not remove the inconsistency. No such reporting model is asserted as fact.",
+    "inference_boundary": "This is not author error, an inferred negative/actual covariance, or proof of hidden branches. The source does not supply the estimator/coverage/normalization/covariance definition needed to decide which premise fails. Center sums1 alone do not establish per-sample normalization. Quoted values and their review flags remain unchanged."
+  },
+  "existing_FO_forward_control": {
+    "receipt": "outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/day9-vacancy-sensitivity.json",
+    "sha256": "a4969d02768572343d2917b3fba16e29310b7e8d5b2a2bceac229c2ee6ec3613",
+    "new_atomic_queries": 0,
+    "alpha_total_401p2_M1": "0.0320",
+    "alpha_total_757p4_E2": "0.00416",
+    "same_numbers_total_over_photon_ratio_modifier": "1046/1075",
+    "program_model": "BrIccFO",
+    "program_version": "BrIccS v2.3 (9-Dec-2011)",
+    "coverage_warnings": {
+      "401p2": [
+        "ICC could not be calculated for EG above 398.000 keV"
+      ],
+      "757p4": [
+        "ICC could not be calculated for EG above 398.000 keV"
+      ]
+    },
+    "boundary": "Pure-mode, already recorded theoretical Tot values at their fixed energies only; modifier1046/1075 uses their printed digits. Not the authors' actual ICC choice, no radius/N6 repair, no new measurement, no assigned theory correlation, energy-response derivative or confidence interval."
+  },
+  "stopping_feeding_and_independence": {
+    "same_parent_tau_only": "Any error confined to the single common lifetime/strength scale cancels in the ideal ratio. This does not remove effects of the same nuisance on branch intensities, efficiencies, selected gates or radiative fractions.",
+    "source15percent": "MU08 p3 and TableII caption omit stopping-power systematics that may reach15%; no common-mode distribution/covariance is given. Do not promote that label to an independent1-sigma input or assume complete stopping/feeding cancellation across bands.",
+    "between_bands": "Different-parent absolute-strength comparisons have no guaranteed common tau. Even if each within-parent ratio removes its own tau, residual branch/gate/feeding/mixing paths may remain; no inter-band systematic covariance is established here.",
+    "derived_not_independent": "The same-parent ratio and both strengths are outputs of the same selected intensities/lifetime/extraction chain. They are not three independent observations or independent experimental confirmation.",
+    "conditional_inputs": "Unknown branch basis, relative efficiency/gate/background correction, radiative fractions, assignment or covariance keeps physical application conditional. No independent chi, nuclear-current or deformation model is added."
+  },
+  "source_vs_reconstruction": {
+    "source_direct": "MU08 printed energies/branch centers/error labels/lifetime, pure-M1 extraction and stopping boundary; LKH rate/B definitions.",
+    "our_reconstruction": "Same-parent cross-branch ratios, exact log Jacobians, conditional covariance/cancellation laws, distribution-free joint-SD interpretation check and inherited FO forward factor.",
+    "not_proved": "The actual MU08 branch basis, full uncertainty/covariance, pure fractions as measurements, source algorithm, global stopping cancellation or a new physical strength/lifetime fit."
+  },
+  "checks": {
+    "passed_by_group": {
+      "common_energy_calibration_has_plus_two": 1,
+      "common_energy_scale_covariance_survives": 1,
+      "common_intensity_scale_cancels_each_B": 1,
+      "common_log_normalizer_all_covariances_cancel": 1,
+      "common_multiplicative_h_factor_cancels": 1,
+      "common_strength_scale_cancels_ratio": 1,
+      "conditional_joint_SD_normalization_triangle_fails": 1,
+      "consistent_photon_total_basis_conversion_agrees": 1,
+      "exact_affine_log_covariance_contrast": 1,
+      "exact_photon_log_J_contrast": 1,
+      "exact_total_pair_log_J": 1,
+      "existing_FO_total_pair_modifier": 1,
+      "immutable_input_after": 4,
+      "immutable_input_before": 4,
+      "parent_day8_preserved": 1,
+      "photon_ratio_exact": 1,
+      "radiative_fractions_not_implicitly_one": 1,
+      "rank_one_common_strength_covariance_annihilates": 1,
+      "ratio_log_J_matches_direct": 1,
+      "same_numbers_two_bases_have_ICC_factor": 1,
+      "shared_additive_alpha_not_generally_cancelled": 1,
+      "single_parent_centers_and_selected_intensity_ratio": 1,
+      "substantive_budget_at_most_40": 1,
+      "total_pair_energy_chain_includes_atomic_response": 1,
+      "total_pair_ratio_exact": 1,
+      "wrong_shared_absolute_normalizer_hidden_by_ratio": 1,
+      "zero_component_log_edges": 1
+    },
+    "total_passed": 33,
+    "failures": 0,
+    "maximum_authorized": 40,
+    "grid_used": false
+  },
+  "changed_paths": [
+    "tmp/day8-20261007/lange-kumar/day9-same-parent-strength-ratio/same_parent_strength_ratio.py",
+    "outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/day9-same-parent-strength-ratio.json"
+  ],
+  "actual_commands": [
+    "python3 tmp/day8-20261007/lange-kumar/day9-same-parent-strength-ratio/same_parent_strength_ratio.py",
+    "python3 tmp/day8-20261007/lange-kumar/day9-same-parent-strength-ratio/same_parent_strength_ratio.py --write-receipt"
+  ],
+  "reproducibility": {
+    "code": "tmp/day8-20261007/lange-kumar/day9-same-parent-strength-ratio/same_parent_strength_ratio.py",
+    "script_sha256": "8880c52bfc94233748e8ba3c6b33d20fe137576e0e53199abd865cc746a7fd0c",
+    "source_code": "#!/usr/bin/env python3\n\"\"\"Offline bounded Day9 uncredited preview: one same-parent strength ratio.\n\nExact algebra/log derivatives and symbolic covariance identities only. One\nMU08 I18 parent, no new atomic request, source, nucleus, course credit or L4.\nNo quoted B value is used to recover an input or an actual covariance matrix.\nDefault reads only; --write-receipt exclusively creates one authorized JSON.\n\"\"\"\n\nfrom __future__ import annotations\n\nimport argparse\nfrom collections import Counter\nfrom datetime import datetime, timezone\nfrom fractions import Fraction as F\nimport hashlib\nimport json\nfrom pathlib import Path\nimport sys\n\nsys.dont_write_bytecode=True\nCODE_REL=\"tmp/day8-20261007/lange-kumar/day9-same-parent-strength-ratio/same_parent_strength_ratio.py\"\nRUN_REL=\"outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01\"\nOUT_REL=RUN_REL+\"/day9-same-parent-strength-ratio.json\"\nUNIT_REL=RUN_REL+\"/day9-strength-unit-audit.json\"\nUNIT_SHA=\"0913dc388d5852c1d95bdf6fdc4007602748eed97504fda903fef911a6295a1d\"\nFO_REL=RUN_REL+\"/day9-vacancy-sensitivity.json\"\nFO_SHA=\"a4969d02768572343d2917b3fba16e29310b7e8d5b2a2bceac229c2ee6ec3613\"\nRAW={\n    \"LKH82\":(\"raw/papers/gpt/high-spin-20260920/review/1982_Lange et al_E0-E2-M1 multipole admixtures of transitions in even-even nuclei.pdf\",\"ed925a0577a9257903806acd209c1db707529e86a5bfd9a301a83d597bf78ffb\"),\n    \"MU08\":(\"raw/papers/gpt/high-spin-20260920/三轴/手征/2008_Mukhopadhyay et al_Electromagnetic transition rates in high-spin bands in Nd 136.pdf\",\"ea77d7d033051369d19aad2f82a542e91e262eb490d518b246f7f04c2d0dcd2c\"),\n}\n\n\ndef digest(path):return hashlib.sha256(path.read_bytes()).hexdigest()\n\n\ndef build_receipt(root):\n    deps=\"tmp/day8-20261007/rose-brink/python-deps\"\n    sys.path.insert(0,str(root/deps))\n    import sympy as sp\n    counts=Counter()\n    def check(name,condition):\n        if not bool(condition):raise AssertionError(name)\n        counts[name]+=1\n    def eq(a,b):return sp.simplify(a-b)==0\n    def st(e):return str(sp.factor(sp.simplify(e)))\n    def sm(m):return [[st(m[i,j]) for j in range(m.cols)] for i in range(m.rows)]\n\n    protected={UNIT_REL:UNIT_SHA,FO_REL:FO_SHA}\n    protected.update({rel:sha for rel,sha in RAW.values()})\n    for rel,sha in protected.items():check(\"immutable_input_before\",digest(root/rel)==sha)\n    prior=json.loads((root/UNIT_REL).read_text(encoding=\"utf-8\"))\n    oldFO=json.loads((root/FO_REL).read_text(encoding=\"utf-8\"))\n    run=json.loads((root/RUN_REL/\"run.json\").read_text(encoding=\"utf-8\"))\n    check(\"parent_day8_preserved\",run[\"day_index\"]==8)\n\n    Ia,Ib,Ic,s,tau,Ea,Eb,fa,fb,KM,KE=sp.symbols(\"I_a I_b I_c s tau E_a E_b f_Ma f_Eb K_M1 K_E2\",positive=True)\n    aa,ab,ac,missing=sp.symbols(\"alpha_a alpha_b alpha_c D_missing\",nonnegative=True)\n    extra=sp.symbols(\"b_extra\",nonnegative=True)\n    ha,hb,hc=1+aa,1+ab,1+ac\n    D=Ia*ha+Ib*hb+Ic*hc+missing\n    common=s*(1-extra)/(tau*D)\n    BM=common*Ia*fa/(KM*Ea**3)\n    BE=common*Ib*fb/(KE*Eb**5)\n    Rphot=sp.cancel(BM/BE)\n    expected=KE/KM*Eb**5/Ea**3*Ia/Ib*fa/fb\n    check(\"photon_ratio_exact\",eq(Rphot,expected))\n    variables=[s,tau,Ia,Ib,Ic,extra,aa,ab,ac,fa,fb,Ea,Eb,missing]\n    log_coordinate=[True,True,True,True,True,False,False,False,False,True,True,True,True,False]\n    def log_jac(expr):return sp.Matrix([[sp.simplify((var if logflag else 1)*sp.diff(expr,var)/expr) for var,logflag in zip(variables,log_coordinate)]])\n    JM,JE=log_jac(BM),log_jac(BE)\n    H=JM-JE\n    expected_H=sp.Matrix([[0,0,1,-1,0,0,0,0,0,1,-1,-3,5,0]])\n    check(\"exact_photon_log_J_contrast\",all(eq(a,b) for a,b in zip(H,expected_H)))\n    check(\"ratio_log_J_matches_direct\",all(eq(a,b) for a,b in zip(H,log_jac(Rphot))))\n    vscale=sp.symbols(\"v_scale\",positive=True)\n    check(\"common_intensity_scale_cancels_each_B\",eq(BM.subs({Ia:vscale*Ia,Ib:vscale*Ib,Ic:vscale*Ic,missing:vscale*missing},simultaneous=True),BM)\n        and eq(BE.subs({Ia:vscale*Ia,Ib:vscale*Ib,Ic:vscale*Ic,missing:vscale*missing},simultaneous=True),BE))\n    check(\"common_strength_scale_cancels_ratio\",eq((vscale*BM)/(vscale*BE),Rphot))\n    check(\"common_energy_calibration_has_plus_two\",eq(Rphot.subs({Ea:vscale*Ea,Eb:vscale*Eb},simultaneous=True),vscale**2*Rphot))\n    check(\"wrong_shared_absolute_normalizer_hidden_by_ratio\",eq((BM/sp.Rational(81,100))/(BE/sp.Rational(81,100)),Rphot))\n\n    ba,bb=sp.symbols(\"beta_total_a beta_total_b\",positive=True)\n    BMtot=s*ba*fa/(tau*KM*Ea**3*ha)\n    BEtot=s*bb*fb/(tau*KE*Eb**5*hb)\n    Rtot=sp.cancel(BMtot/BEtot)\n    check(\"total_pair_ratio_exact\",eq(Rtot,KE/KM*Eb**5/Ea**3*ba/bb*fa/fb*hb/ha))\n    total_vars=[s,tau,ba,bb,fa,fb,Ea,Eb,aa,ab]\n    total_log=[True]*8+[False,False]\n    Htot=sp.Matrix([[sp.simplify((x if l else 1)*sp.diff(Rtot,x)/Rtot) for x,l in zip(total_vars,total_log)]])\n    check(\"exact_total_pair_log_J\",all(eq(a,b) for a,b in zip(Htot,sp.Matrix([[0,0,1,-1,1,-1,-3,5,-1/ha,1/hb]]))))\n    a_of_E=sp.Function(\"alpha_a_of_E\")(Ea)\n    b_of_E=sp.Function(\"alpha_b_of_E\")(Eb)\n    Rtot_energy=Rtot.subs({aa:a_of_E,ab:b_of_E})\n    energy_chain=sp.simplify(Ea*sp.diff(Rtot_energy,Ea)/Rtot_energy+Eb*sp.diff(Rtot_energy,Eb)/Rtot_energy)\n    expected_energy_chain=2-Ea*sp.diff(a_of_E,Ea)/(1+a_of_E)+Eb*sp.diff(b_of_E,Eb)/(1+b_of_E)\n    check(\"total_pair_energy_chain_includes_atomic_response\",eq(energy_chain,expected_energy_chain))\n    check(\"same_numbers_two_bases_have_ICC_factor\",eq(Rtot.subs({ba:Ia,bb:Ib})/Rphot,hb/ha))\n    ba_from_phot=(1-extra)*Ia*ha/D\n    bb_from_phot=(1-extra)*Ib*hb/D\n    check(\"consistent_photon_total_basis_conversion_agrees\",eq(Rtot.subs({ba:ba_from_phot,bb:bb_from_phot}),Rphot))\n    check(\"shared_additive_alpha_not_generally_cancelled\",eq(sp.diff(sp.log(hb/ha),aa)+sp.diff(sp.log(hb/ha),ab),1/hb-1/ha))\n    hA,hB=sp.symbols(\"h_a h_b\",positive=True)\n    check(\"common_multiplicative_h_factor_cancels\",eq((vscale*hB)/(vscale*hA),hB/hA))\n\n    # Exact affine law in actual log-coordinate random inputs, not actual\n    # covariance inferred from published marginal errors.\n    # y=(ln Z,ln Ia,ln Ib,ln fa,ln fb,ln Ea,ln Eb), Z=s(1-extra)/(tau D).\n    A=sp.Matrix([[1,1,0,1,0,-3,0],[1,0,1,0,1,0,-5]])\n    contrast=sp.Matrix([[1,-1]])\n    h=contrast*A\n    Sigma=sp.zeros(7)\n    for i in range(7):\n        for j in range(i,7):\n            value=sp.symbols(f\"cov_y_{i}_{j}\",real=True)\n            Sigma[i,j]=Sigma[j,i]=value\n    SigmaB=A*Sigma*A.T\n    variance=sp.expand((contrast*SigmaB*contrast.T)[0])\n    check(\"exact_affine_log_covariance_contrast\",eq(variance,(h*Sigma*h.T)[0]))\n    check(\"common_log_normalizer_all_covariances_cancel\",all(Sigma[0,j] not in variance.free_symbols for j in range(7)))\n    vs=sp.symbols(\"var_log_common_strength\",nonnegative=True)\n    common_cov=vs*sp.ones(2)\n    check(\"rank_one_common_strength_covariance_annihilates\",(contrast*common_cov*contrast.T)[0]==0)\n    ve=sp.symbols(\"var_log_common_energy_scale\",nonnegative=True)\n    energy_response=sp.Matrix([-3,-5])\n    check(\"common_energy_scale_covariance_survives\",(contrast*(ve*energy_response*energy_response.T)*contrast.T)[0]==4*ve)\n\n    ga,gb,gc=sp.Rational(57,100),sp.Rational(24,100),sp.Rational(19,100)\n    check(\"single_parent_centers_and_selected_intensity_ratio\",ga+gb+gc==1 and ga/gb==sp.Rational(19,8))\n    check(\"radiative_fractions_not_implicitly_one\",eq(Rphot/ Rphot.subs({fa:1,fb:1}),fa/fb))\n    check(\"zero_component_log_edges\",Rphot.subs(fa,0)==0 and sp.limit(Rphot,fb,0,dir=\"+\")==sp.oo)\n    foa=oldFO[\"FO_baseline\"][\"B1-I18-401p2\"]\n    fob=oldFO[\"FO_baseline\"][\"B1-I18-757p4\"]\n    alpha_fo_a=F(foa[\"alpha_T\"][\"value\"]);alpha_fo_b=F(fob[\"alpha_T\"][\"value\"])\n    factor=(1+alpha_fo_b)/(1+alpha_fo_a)\n    check(\"existing_FO_total_pair_modifier\",factor==F(1046,1075))\n    sigma_a,sigma_b,sigma_c=F(6,100),F(2,100),F(2,100)\n    check(\"conditional_joint_SD_normalization_triangle_fails\",sigma_a>sigma_b+sigma_c)\n    for rel,sha in protected.items():check(\"immutable_input_after\",digest(root/rel)==sha)\n    check(\"substantive_budget_at_most_40\",sum(counts.values())<40)\n\n    codepath=Path(__file__).resolve()\n    return {\n        \"schema_version\":1,\"created_at_utc\":datetime.now(timezone.utc).isoformat(),\n        \"artifact_kind\":\"Day9-uncredited-preview-L2-one-parent-cross-branch-strength-ratio-and-shared-covariance\",\n        \"status\":\"bounded-exact-algebra-specialization; physical-input-ledger-and-covariance-remain-conditional\",\n        \"parent_day_index\":8,\"day_index\":8,\"preview_day_index\":9,\"partial_day_indices\":[9],\n        \"course_credit_awarded\":False,\"Day10_opened\":False,\"run_closed\":False,\"new_session_or_goal\":False,\n        \"new_source_or_nucleus\":False,\"L4\":False,\"experimental_data_fit\":False,\"actual_covariance_supplied\":False,\n        \"session_id\":run[\"session_id\"],\"resume_command\":run[\"resume_command\"],\n        \"prior_coverage\":{\n            \"unit_receipt\":{\"path\":UNIT_REL,\"sha256\":UNIT_SHA},\n            \"read_existing_pages\":[\"knowledge/synthesis/high-spin-lifetime-strength-deformation.md\",\"knowledge/observables/bm1-be2-ratio.md\",\"knowledge/sources/mukhopadhyay-2008-136nd-transition-rates.md\"],\n            \"already_explicit\":\"Generic photon/total branching, absolute-strength normalization, single-gamma M1/E2 cancellation and J Sigma J^T were already recorded. The observable page already preserves unknown mixing fractions as an extraction assumption.\",\n            \"bounded_specialization\":\"This packet spells out the different-energy, different-final-state ratio for exactly the current common parent, its exact log contrast, two branching bases, nuisance-path conditions and conditional joint-SD consistency. It is not a new experimental conclusion.\",\n            \"not_same_gamma_mixing_ratio\":prior[\"mixed_gamma_absolute_strengths\"][\"same_gamma_B_ratio\"],\n        },\n        \"sources\":{\n            \"LKH82\":{\"knowledge_source\":\"knowledge/sources/lange-kumar-hamilton-1982-multipole-admixtures.md\",\"raw\":RAW[\"LKH82\"][0],\"sha256\":RAW[\"LKH82\"][1],\"locator\":\"printed p121/PDF3 Eqs2.2-2.3: gamma rate, physical BM B, adopted operator normalization\"},\n            \"MU08\":{\"knowledge_source\":\"knowledge/sources/mukhopadhyay-2008-136nd-transition-rates.md\",\"raw\":RAW[\"MU08\"][0],\"sha256\":RAW[\"MU08\"][1],\"locators\":[\"printed034311-3/PDF3 TableI Ex6711.4-keV Band1 I18 three branches\",\"printed034311-4/PDF4 TableII Band1 I18 lifetime and derived Bs, caption systematic boundary\",\"printed034311-3/PDF3 left-column uncertainty/pure-M1 paragraph\"],\n                \"checked_images\":[\"tmp/day8-20261007/day9-preview/mukhopadhyay/table-I.png\",\"tmp/day8-20261007/day9-preview/mukhopadhyay/table-II-and-caption.png\",\"tmp/day8-20261007/day9-preview/mukhopadhyay/stopping-and-pure-M1.png\"]},\n            \"review_flags_changed\":False,\n        },\n        \"one_current_parent\":{\n            \"nuclide\":\"136Nd, already existing MU08 case\",\"band\":\"Band1 as labeled by MU08\",\"parent_Ex_keV\":\"6711.4\",\"Ji\":\"18-\",\n            \"all_three_printed_branches\":[{\"id\":\"a\",\"E_keV\":\"401.2\",\"spin\":\"18- ->17-\",\"printed_branch\":\"0.57(6)\",\"selected_component\":\"M1\"},{\"id\":\"b\",\"E_keV\":\"757.4\",\"spin\":\"18- ->16-\",\"printed_branch\":\"0.24(2)\",\"selected_component\":\"E2\"},{\"id\":\"c\",\"E_keV\":\"389.6\",\"spin\":\"18- ->17-\",\"printed_branch\":\"0.19(2)\",\"selected_component\":\"not included in the ratio; retained in the common normalization\"}],\n            \"branch_identity\":\"The401.2 and389.6 lines are distinct transitions despite equal final-spin labels. Only401.2 is the numerator here.\",\n            \"author_reports_retained\":{\"tau_ps\":\"0.56(8)\",\"B_M1\":\"0.9(2) mu_N^2\",\"B_E2\":\"0.14(2) e^2 b^2\",\"role\":\"Tau is a DSAM result and an input to absolute Bs, but its numerical value is unnecessary for this common-parent ratio. The reported Bs are derived outputs. None is used to backsolve ICC, branch basis, mixing, covariance or calibration input.\"},\n            \"extraction_prior\":\"Author explicitly assumes pure M1 for DeltaI1 when extracting absolute M1 strengths. f_Ma=f_Eb=1 is conditional use of that M1 prior and the author's E2 assignment; no measured delta or proof that all allowed higher amplitudes vanish is added.\",\n            \"printed_basis_unknown\":\"TableI does not identify photon-relative versus total-level/pair branching or the full IC handling. The two interpretations below are alternatives, not a decision about the authors' actual algorithm.\",\n        },\n        \"definitions_and_units\":{\n            \"rates\":\"lambda_gamma_a is the entire401.2-keV photon line; fa=lambda_gamma_M1,a/lambda_gamma_a. fb=lambda_gamma_E2,b/lambda_gamma_b. They are radiative rate fractions, not total-decay branch fractions.\",\n            \"source_unit_equations\":\"lambda_gamma_M1=K_M1 E_a(MeV)^3 B_M1[mu_N^2]; lambda_gamma_E2=K_E2 E_b(MeV)^5 B_E2[e^2b^2]. The K conventions are the already audited modern-unit realization of LKH82 Eq2.2.\",\n            \"reported_ratio_unit\":\"mu_N^2/(e^2 b^2); this is not a dimensionless strength ratio. The photon partial-rate ratio is dimensionless. Fixed-unit numerical values can be logged by dividing by their respective reference units.\",\n            \"common_parent_tau\":\"tau is one common mean level lifetime, positive; no second parent or fitted lifetime is introduced.\",\n            \"photon_intensities\":\"Ia,Ib,Ic must be proportional to the same-parent physical photon rates after efficiency, angular/gate/feeding/contamination corrections under the same preparation. Their overall arbitrary scale cancels.\",\n            \"alpha\":\"alpha_j is an effective full pair non-gamma/photon factor only when the corresponding ledger is closed. Ordinary all-shell total ICC can serve this role if it accounts for every relevant pair non-gamma contribution; alpha_K alone cannot.\",\n            \"positive_chart\":\"Ia,Ib,Ea,Eb,Ks,tau,s,D>0,0<fa,fb<=1,0<=b_extra<1. At a zero selected component log derivatives/ratios require endpoint treatment.\",\n        },\n        \"photon_relative_route\":{\n            \"absolute_common_factor\":\"D=sum_all photonI_j(1+alpha_j), including any missing photon contributions represented by D_missing; Z=s(1-b_extra)/(tau D). BM=Z Ia fa/(KM Ea^3), BE=Z Ib fb/(KE Eb^5).\",\n            \"ratio\":\"R=BM/BE=(KE/KM)*(Eb^5/Ea^3)*(Ia/Ib)*(fa/fb).\",\n            \"current_input_expression\":\"R=(KE/KM)*(0.7574^5/0.4012^3)*(0.57/0.24)*(f_Ma/f_Eb), in mu_N^2/(e^2 b^2), if those printed fractions are photon-relative inputs with the stated corrections.\",\n            \"exact_cancellation\":\"Common tau, strength scale s, photon/total normalization D, third/missing branches that enter only D, global extra non-gamma fraction and all ICC dependence confined to that shared D cancel exactly. A ratio may be usable when an absolute-strength normalization is not closed, provided the selected corrected photon-rate ratio and fractions are independently valid.\",\n            \"missing_branch_boundary\":\"This does not excuse unresolved contamination, gate/feeding biases or missing contributions to the selected line intensities. Those modify Ia/Ib rather than only D. An extra already included in alpha_j must not also be added as b_extra.\",\n            \"selected_two_renormalization\":\"Dividing both selected intensities by0.81 leaves their ratio unchanged. It gives an incorrect absolute normalization if it discards the0.19 line. Ratio agreement cannot validate the absolute B ledger or detect every shared bias.\",\n        },\n        \"true_total_pair_route\":{\n            \"definition\":\"beta_j=lambda_pair,j/lambda_level_total, where the pair includes its full gamma plus non-gamma rates. For true total branches, gamma fraction is beta_j/(1+alpha_j); do not apply an extra global missing fraction a second time.\",\n            \"ratio\":\"R_total=(KE/KM)*(Eb^5/Ea^3)*(beta_a/beta_b)*(fa/fb)*(1+alpha_b)/(1+alpha_a).\",\n            \"same_numbers_comparison\":\"Interpreting the same printed0.57/0.24 numbers as true total pairs changes the photon-basis ratio by h_b/h_a, where h_j=1+alpha_j. This is a forward conditional comparison, not an inferred source input.\",\n            \"consistent_conversion\":\"If beta_j=(1-b_extra)Ij h_j/D is actually converted from the same photon ledger, beta_a/beta_b=(Ia/Ib)h_a/h_b and the two physical formulas agree.\",\n            \"what_does_not_cancel\":\"Branch-specific h_a/h_b remains. A common multiplicative factor in both h values cancels; a shared additive change of both alphas generally leaves sensitivity1/h_b-1/h_a. Correlation alone does not make unequal response coefficients cancel.\",\n        },\n        \"exact_log_Jacobians\":{\n            \"photon_coordinate_order\":[\"ln s\",\"ln tau\",\"ln Ia\",\"ln Ib\",\"ln Ic\",\"b_extra\",\"alpha_a\",\"alpha_b\",\"alpha_c\",\"ln fa\",\"ln fb\",\"ln Ea\",\"ln Eb\",\"D_missing\"],\n            \"log_BM_row\":sm(JM)[0],\"log_BE_row\":sm(JE)[0],\"log_ratio_row\":sm(H)[0],\n            \"total_pair_coordinate_order\":[\"ln s\",\"ln tau\",\"ln beta_a\",\"ln beta_b\",\"ln fa\",\"ln fb\",\"ln Ea\",\"ln Eb\",\"alpha_a\",\"alpha_b\"],\"total_pair_log_ratio_row\":sm(Htot)[0],\n            \"energy_scale\":\"For the photon-I route at fixed corrected intensity ratio, radiative fractions and specified K/unit chart, a physical common gain error Ea->u Ea,Eb->u Eb gives R->u^2 R, explicit log sensitivity+2. It is not a common fractional B error. Changing MeV to keV with consistent K conversion is a unit change and preserves the physical reported ratio.\",\n            \"total_pair_energy_response\":\"For the true total-pair route at fixed beta ratio/fractions/Ks, if alpha is recomputed with calibrated energy, dlnR/dlnu=2+dln(1+alpha_b)/dlnu-dln(1+alpha_a)/dlnu. For each alpha depending on its own line energy, this is2+Eb alpha_b'(Eb)/(1+alpha_b)-Ea alpha_a'(Ea)/(1+alpha_a). The symbolic check chooses no atomic response function or numerical derivative.\",\n            \"upstream_chain_rule\":\"The zero explicit tau/ICC-normalizer columns hold at fixed selected corrected intensities/fractions. If a stopping/feeding/mixing/calibration nuisance also changes Ia,Ib,fa,fb or energy, chain those dependencies into the same primitive-input Jacobian; they need not cancel.\",\n        },\n        \"covariance_and_no_double_count\":{\n            \"exact_log_coordinate_law\":\"For actual y=(ln Z,ln Ia,ln Ib,ln fa,ln fb,ln Ea,ln Eb) with finite covariance, ln B is affine with matrix A below. Thus Cov(ln B)=A Sigma_y A^T and Var(ln R)=h Sigma_y h^T are exact; no Gaussianity is required.\",\n            \"A\":sm(A),\"h_ratio\":sm(h)[0],\n            \"common_factor\":\"If an uncertainty acts only as the same multiplicative s on both Bs, its log covariance component is var(ln s)*[[1,1],[1,1]]. The contrast(1,-1) annihilates it. Cross-covariances of the common log Z also disappear from this log ratio.\",\n            \"raw_input_covariance\":\"For covariance specified in raw intensities, energies, alphas or nonlinearly derived Z, use the exact derivatives with J Sigma_raw J^T as a local delta-method approximation, or propagate the full joint distribution. Published raw-unit error bars are not an actual log-coordinate covariance. Var(R) or a confidence interval is not fixed by Var(ln R) alone.\",\n            \"total_alpha_coordinates\":\"The total-pair log formula is affine if using ln h_a,ln h_b; its coefficients are-1,+1. In raw alpha coordinates the exact derivatives are-1/h_a,+1/h_b and covariance conversion is nonlinear.\",\n            \"primitive_input_policy\":\"Use one shared tau/normalization/fit nuisance once, with its cross-covariances. Do not independently add the two derived B errors, then add the same common factor again. If alpha_mix or angular efficiency is derived from the same mixing parameter, chain it rather than treating those errors as unrelated inputs.\",\n            \"actual_covariance\":\"None supplied or constructed. The symbolic covariance identities and common-factor matrix are algebra, not estimates from MU08 or from a15% stopping label.\",\n        },\n        \"conditional_errorbar_consistency\":{\n            \"premises\":\"Suppose the three quantities are one random vector, their sum is exactly1 for every sample, all have finite second moments, and0.06/0.02/0.02 are their true joint marginal standard deviations.\",\n            \"distribution_free_proof\":\"For centered variables Xa+Xb+Xc=0, Xa=-(Xb+Xc). The L2 norm triangle gives sigma_a<=sigma_b+sigma_c, with no Gaussian or first-order assumption.\",\n            \"printed_scales_check\":\"0.06>0.02+0.02=0.04, so that specific simultaneous marginal-SD interpretation is inconsistent.\",\n            \"optional_rounding_condition\":\"If each SD was rounded to nearest0.01 with half-unit ranges, sigma_a>=0.055 while sigma_b+sigma_c<=0.025+0.025=0.05; that particular rounding model alone would not remove the inconsistency. No such reporting model is asserted as fact.\",\n            \"inference_boundary\":\"This is not author error, an inferred negative/actual covariance, or proof of hidden branches. The source does not supply the estimator/coverage/normalization/covariance definition needed to decide which premise fails. Center sums1 alone do not establish per-sample normalization. Quoted values and their review flags remain unchanged.\",\n        },\n        \"existing_FO_forward_control\":{\n            \"receipt\":FO_REL,\"sha256\":FO_SHA,\"new_atomic_queries\":0,\n            \"alpha_total_401p2_M1\":foa[\"alpha_T\"][\"value\"],\"alpha_total_757p4_E2\":fob[\"alpha_T\"][\"value\"],\n            \"same_numbers_total_over_photon_ratio_modifier\":str(factor),\n            \"program_model\":foa[\"program_model\"],\"program_version\":foa[\"program_version\"],\n            \"coverage_warnings\":{\"401p2\":foa.get(\"warnings\",[]),\"757p4\":fob.get(\"warnings\",[])},\n            \"boundary\":\"Pure-mode, already recorded theoretical Tot values at their fixed energies only; modifier1046/1075 uses their printed digits. Not the authors' actual ICC choice, no radius/N6 repair, no new measurement, no assigned theory correlation, energy-response derivative or confidence interval.\",\n        },\n        \"stopping_feeding_and_independence\":{\n            \"same_parent_tau_only\":\"Any error confined to the single common lifetime/strength scale cancels in the ideal ratio. This does not remove effects of the same nuisance on branch intensities, efficiencies, selected gates or radiative fractions.\",\n            \"source15percent\":\"MU08 p3 and TableII caption omit stopping-power systematics that may reach15%; no common-mode distribution/covariance is given. Do not promote that label to an independent1-sigma input or assume complete stopping/feeding cancellation across bands.\",\n            \"between_bands\":\"Different-parent absolute-strength comparisons have no guaranteed common tau. Even if each within-parent ratio removes its own tau, residual branch/gate/feeding/mixing paths may remain; no inter-band systematic covariance is established here.\",\n            \"derived_not_independent\":\"The same-parent ratio and both strengths are outputs of the same selected intensities/lifetime/extraction chain. They are not three independent observations or independent experimental confirmation.\",\n            \"conditional_inputs\":\"Unknown branch basis, relative efficiency/gate/background correction, radiative fractions, assignment or covariance keeps physical application conditional. No independent chi, nuclear-current or deformation model is added.\",\n        },\n        \"source_vs_reconstruction\":{\"source_direct\":\"MU08 printed energies/branch centers/error labels/lifetime, pure-M1 extraction and stopping boundary; LKH rate/B definitions.\",\"our_reconstruction\":\"Same-parent cross-branch ratios, exact log Jacobians, conditional covariance/cancellation laws, distribution-free joint-SD interpretation check and inherited FO forward factor.\",\"not_proved\":\"The actual MU08 branch basis, full uncertainty/covariance, pure fractions as measurements, source algorithm, global stopping cancellation or a new physical strength/lifetime fit.\"},\n        \"checks\":{\"passed_by_group\":dict(sorted(counts.items())),\"total_passed\":sum(counts.values()),\"failures\":0,\"maximum_authorized\":40,\"grid_used\":False},\n        \"changed_paths\":[CODE_REL,OUT_REL],\n        \"actual_commands\":[\"python3 \"+CODE_REL,\"python3 \"+CODE_REL+\" --write-receipt\"],\n        \"reproducibility\":{\"code\":CODE_REL,\"script_sha256\":digest(codepath),\"source_code\":codepath.read_text(encoding=\"utf-8\"),\"python_version\":sys.version.split()[0],\"sympy_version\":sp.__version__,\"dependency_path\":deps,\"network_requests\":0,\"default_command\":\"python3 \"+CODE_REL,\"exclusive_creation_command\":\"python3 \"+CODE_REL+\" --write-receipt\",\"embedded_replay\":\"Save source_code under a temporary Python file and run python3 <file> --root /workspace/wiki. Default reads only; no earlier audit script is imported or executed.\",\"write_policy\":\"Only owned day9-same-parent-strength-ratio tmp and exclusive authorized JSON creation. Knowledge/report/run/state/raw/PLAN/Git, old receipts and review flags remain unchanged.\"},\n    }\n\n\ndef main():\n    parser=argparse.ArgumentParser(description=__doc__)\n    parser.add_argument(\"--root\",type=Path)\n    parser.add_argument(\"--write-receipt\",action=\"store_true\")\n    args=parser.parse_args();root=args.root.resolve() if args.root is not None else Path(__file__).resolve().parents[4]\n    r=build_receipt(root)\n    if args.write_receipt:\n        with (root/OUT_REL).open(\"x\",encoding=\"utf-8\",newline=\"\\n\") as stream:\n            json.dump(r,stream,ensure_ascii=False,indent=2);stream.write(\"\\n\")\n    print(json.dumps({\"receipt\":OUT_REL if args.write_receipt else None,\"checks\":r[\"checks\"],\"photon_ratio\":r[\"photon_relative_route\"][\"ratio\"],\"total_ratio\":r[\"true_total_pair_route\"][\"ratio\"],\"photon_log_J\":r[\"exact_log_Jacobians\"][\"log_ratio_row\"],\"FO_modifier\":r[\"existing_FO_forward_control\"][\"same_numbers_total_over_photon_ratio_modifier\"],\"conditional_SD_boundary\":r[\"conditional_errorbar_consistency\"][\"printed_scales_check\"],\"day_index\":8,\"course_credit_awarded\":False,\"run_closed\":False,\"network_requests\":0},ensure_ascii=False,indent=2))\n\n\nif __name__==\"__main__\":main()\n",
+    "python_version": "3.12.3",
+    "sympy_version": "1.14.0",
+    "dependency_path": "tmp/day8-20261007/rose-brink/python-deps",
+    "network_requests": 0,
+    "default_command": "python3 tmp/day8-20261007/lange-kumar/day9-same-parent-strength-ratio/same_parent_strength_ratio.py",
+    "exclusive_creation_command": "python3 tmp/day8-20261007/lange-kumar/day9-same-parent-strength-ratio/same_parent_strength_ratio.py --write-receipt",
+    "embedded_replay": "Save source_code under a temporary Python file and run python3 <file> --root /workspace/wiki. Default reads only; no earlier audit script is imported or executed.",
+    "write_policy": "Only owned day9-same-parent-strength-ratio tmp and exclusive authorized JSON creation. Knowledge/report/run/state/raw/PLAN/Git, old receipts and review flags remain unchanged."
+  }
+}

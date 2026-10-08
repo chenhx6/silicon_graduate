@@ -1,0 +1,280 @@
+{
+  "schema_version": 1,
+  "created_at_utc": "2026-10-08T06:57:31.726530+00:00",
+  "audit_id": "isotropic-photon-rank-state-independent-review",
+  "status": "supported-with-declared-space-and-source-conditions",
+  "day_index": 8,
+  "run_closed": false,
+  "human_review": false,
+  "L4": false,
+  "target": {
+    "path": "outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/isotropic-photon-rank-state.json",
+    "sha256": "200d30db90842898794f0dba094079969a12a994084d0cef576a0b4d033b29d3",
+    "script": "tmp/day8-20261007/runtime/isotropic-photon-rank-state/isotropic_photon_rank_state.py",
+    "script_sha256": "8110056f66cec9b2a4283b499b18b7fc585686b637243ed95f198525c1836eeb"
+  },
+  "summary": {
+    "material_findings": 0,
+    "required_changes": 0,
+    "hard_P0": 0,
+    "grounded_no_op_items": 7,
+    "focused_CG_controls": 12,
+    "original_case_comparisons": 3
+  },
+  "findings": [],
+  "grounded_no_op_items": [
+    {
+      "id": "IPREV-01",
+      "topic": "Scalar rank blocks",
+      "code_line": 172,
+      "outcome": "grounded-no-op",
+      "evidence": "Schur and the independent12 CG traces give delta_LLprime delta_m_mprime/(2L+1). Original seed weights and all reported block eigenvalues/normalizations match."
+    },
+    {
+      "id": "IPREV-02",
+      "topic": "Occupied physical parity/helicity copy",
+      "code_line": 168,
+      "outcome": "grounded-no-op",
+      "evidence": "In the rank/helicity-copy representation the block is wL I_m/dL tensor|chi_pi><chi_pi|. The opposite copy is zero, not a fictitious extra type flag or a mixed I2 block."
+    },
+    {
+      "id": "IPREV-03",
+      "topic": "Photon versus joint distance",
+      "code_line": 178,
+      "outcome": "grounded-no-op",
+      "evidence": "The block spectrum gives Dph=epsilon for all three existing retained projections. Old95 joint D=sqrt(epsilon) includes final spin. Both identities require the own retained projection and nonempty retained sector."
+    },
+    {
+      "id": "IPREV-04",
+      "topic": "Arbitrary input lower bound and extra channels",
+      "code_line": 181,
+      "outcome": "grounded-no-op",
+      "evidence": "Mode isometries imply Vdagger(Pom tensor Ifinal)V=epsilon Iinitial for any trace-one rho. The ideal rank effect yields lower epsilon; contractivity yields upper sqrt epsilon. Further rank-erasing channels need not preserve the lower bound."
+    },
+    {
+      "id": "IPREV-05",
+      "topic": "Local data and full photon state",
+      "code_line": 187,
+      "outcome": "grounded-no-op",
+      "evidence": "Unitary D columns give the local H=I2/2, W1 and local Stokes0; rank probabilities still contain wL. The ideal global angular-mode POVM is not an ordinary local detector implementation or a data-derived measurement capability."
+    },
+    {
+      "id": "IPREV-06",
+      "topic": "Multiplicity/coherence scope",
+      "code_line": 194,
+      "outcome": "grounded-no-op",
+      "evidence": "One E/M type per rank is essential to the scalar-copy result. When both types at one L are admitted, Schur leaves a multiplicity matrix and E/M coherence may survive. The rank projector is not an omitted-type projector."
+    },
+    {
+      "id": "IPREV-07",
+      "topic": "Joint-space kappa and input scope",
+      "code_line": 200,
+      "outcome": "grounded-no-op",
+      "evidence": "Packet correctly forbids replacing joint D with photon-only D under old329 kappa2/5/7. Complete final-spin trace, fixed energy/radial/current model and given isotropic rho are retained; local isotropy alone does not certify the input rho."
+    }
+  ],
+  "focused_CG_controls": [
+    {
+      "case": "A_3half_to_half",
+      "L": 1,
+      "Lprime": 1,
+      "mu": 0,
+      "independent_value": "1/3",
+      "packet_match": true
+    },
+    {
+      "case": "A_3half_to_half",
+      "L": 2,
+      "Lprime": 2,
+      "mu": 0,
+      "independent_value": "1/5",
+      "packet_match": true
+    },
+    {
+      "case": "A_3half_to_half",
+      "L": 2,
+      "Lprime": 2,
+      "mu": 2,
+      "independent_value": "1/5",
+      "packet_match": true
+    },
+    {
+      "case": "A_3half_to_half",
+      "L": 1,
+      "Lprime": 2,
+      "mu": 0,
+      "independent_value": "0",
+      "packet_match": true
+    },
+    {
+      "case": "B_2_to_2",
+      "L": 1,
+      "Lprime": 1,
+      "mu": 0,
+      "independent_value": "1/3",
+      "packet_match": true
+    },
+    {
+      "case": "B_2_to_2",
+      "L": 4,
+      "Lprime": 4,
+      "mu": 0,
+      "independent_value": "1/9",
+      "packet_match": true
+    },
+    {
+      "case": "B_2_to_2",
+      "L": 4,
+      "Lprime": 4,
+      "mu": 4,
+      "independent_value": "1/9",
+      "packet_match": true
+    },
+    {
+      "case": "B_2_to_2",
+      "L": 1,
+      "Lprime": 4,
+      "mu": 0,
+      "independent_value": "0",
+      "packet_match": true
+    },
+    {
+      "case": "C_3_to_1",
+      "L": 2,
+      "Lprime": 2,
+      "mu": 0,
+      "independent_value": "1/5",
+      "packet_match": true
+    },
+    {
+      "case": "C_3_to_1",
+      "L": 4,
+      "Lprime": 4,
+      "mu": 0,
+      "independent_value": "1/9",
+      "packet_match": true
+    },
+    {
+      "case": "C_3_to_1",
+      "L": 4,
+      "Lprime": 4,
+      "mu": 4,
+      "independent_value": "1/9",
+      "packet_match": true
+    },
+    {
+      "case": "C_3_to_1",
+      "L": 2,
+      "Lprime": 4,
+      "mu": 0,
+      "independent_value": "0",
+      "packet_match": true
+    }
+  ],
+  "actual_case_comparisons": [
+    {
+      "case": "A_3half_to_half",
+      "original_weights_match": true,
+      "epsilon": "3/4",
+      "D_photon": "3/4",
+      "joint_D_squared": "3/4",
+      "state_spectrum_and_normalization_match": true
+    },
+    {
+      "case": "B_2_to_2",
+      "original_weights_match": true,
+      "epsilon": "5/41",
+      "D_photon": "5/41",
+      "joint_D_squared": "5/41",
+      "state_spectrum_and_normalization_match": true
+    },
+    {
+      "case": "C_3_to_1",
+      "original_weights_match": true,
+      "epsilon": "13/49",
+      "D_photon": "13/49",
+      "joint_D_squared": "13/49",
+      "state_spectrum_and_normalization_match": true
+    }
+  ],
+  "independent_proofs": {
+    "state": "rho_i=I/d and covariant emission make the photon partial trace invariant. Schur kills cross-L blocks and fixes identity on m. Complete CG normalization fixes wL/dL. It fixes no arbitrary multiplicity matrix when opposite types shareL.",
+    "distance": "For isotropic input, rho_ph_full=(1-epsilon)rho_ph_ret+epsilon rho_ph_om with orthogonal rank supports, so half trace norm isepsilon. Joint emission retains the old95 coherent two-sector difference with D=sqrt epsilon. For arbitrary common rho, the omitted photon-rank effect has probabilitiesepsilon and0; trace-distance duality and final-spin trace contractivity give epsilon<=Dph<=sqrt epsilon.",
+    "local": "The basis functions |L,m,q> use q-dependent spin-weighted D_mq angular sections. Summingm gives delta_qqprime pointwise, so a pure chi in the isotypic copy factor does not imply ordinary local plane-wave polarization. The copy coherence can reside across directions; local H remainsI2/2.",
+    "scope": "The isotropic input is a given model condition, not inferred from W1/P0. Further environment/recoil/translation/detector reductions require effect/support audit; ordinary gamma-mode implementation, physical preparation and statistical distinguishability are not certified."
+  },
+  "source_locators": [
+    "RB67 printed316/PDF11 Eq3.24 and WE relation after3.25",
+    "printed317/PDF12 Eq3.28 and CG/rotation products",
+    "printed318/PDF13 Eq3.29 interaction amplitude rate normalization",
+    "printed320/PDF15 definite-parity type restriction",
+    "old95 trace distance and old329 joint-space effect domain; existing RB25/27 multiplicity boundary"
+  ],
+  "checks": {
+    "independent_focused_CG_passed": 12,
+    "actual_original_case_comparisons_passed": 3,
+    "helicity_copy_projectors_supported": true,
+    "protected_bytes_unchanged": true,
+    "producer_executed": false,
+    "parameter_or_angle_grid": false
+  },
+  "immutable_inputs": [
+    {
+      "path": "outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/isotropic-photon-rank-state.json",
+      "sha256": "200d30db90842898794f0dba094079969a12a994084d0cef576a0b4d033b29d3"
+    },
+    {
+      "path": "tmp/day8-20261007/runtime/isotropic-photon-rank-state/isotropic_photon_rank_state.py",
+      "sha256": "8110056f66cec9b2a4283b499b18b7fc585686b637243ed95f198525c1836eeb"
+    },
+    {
+      "path": "outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/angular-degeneracy.json",
+      "sha256": "0b633e74a96925cbaced95073407523f441cd6ed89554c15f87b84758e89f334"
+    },
+    {
+      "path": "outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/four-multipole-observable-rank.json",
+      "sha256": "42b7c697dc6522fa384e0934fc545a0010a614ff2af3cfcbf767729242bf5f48"
+    },
+    {
+      "path": "outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/case-c-angular-polarization-rank.json",
+      "sha256": "15599129f0079603cf26b4d5a909bb3799b605c55bdc248d570502c164e77bb1"
+    },
+    {
+      "path": "outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/truncation-observable-bound.json",
+      "sha256": "8d836c358937581ae05b9923c2f222938d56cce493c4cb5056299ed550f3cec9"
+    },
+    {
+      "path": "outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/finite-rank-density-bound.json",
+      "sha256": "2636cac3929b3b28bb5b29badf5bc9df7e74d7d16378db42cb726d0bbdfe8538"
+    },
+    {
+      "path": "outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/nondefinite-parity-control.json",
+      "sha256": "bc74eed5b62673fb8fb3b4ef2fb862cceb85870f36d36e58d8721027e1a620bb"
+    },
+    {
+      "path": "raw/papers/gpt/high-spin-20260920/multipolarity/mixing ratio/1967_Rose et al_Angular Distributions of Gamma Rays in Terms of Phase-Defined Reduced Matrix Elements.pdf",
+      "sha256": "8f846b61b9320de291ee5600126c5e286a0fe05968df819696816f0dc1ec57dc"
+    }
+  ],
+  "changed_paths": [
+    "tmp/day8-20261007/lange-kumar/isotropic-photon-rank-state-review/isotropic_photon_review.py",
+    "outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/isotropic-photon-rank-state-review.json"
+  ],
+  "actual_commands": [
+    "python3 tmp/day8-20261007/lange-kumar/isotropic-photon-rank-state-review/isotropic_photon_review.py",
+    "python3 tmp/day8-20261007/lange-kumar/isotropic-photon-rank-state-review/isotropic_photon_review.py --write-review",
+    "git diff --check -- tmp/day8-20261007/lange-kumar/isotropic-photon-rank-state-review/isotropic_photon_review.py outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/isotropic-photon-rank-state-review.json"
+  ],
+  "reproducibility": {
+    "code": "tmp/day8-20261007/lange-kumar/isotropic-photon-rank-state-review/isotropic_photon_review.py",
+    "script_sha256": "e0679c3f05f279722a999708cf79ec72ca524695457d16f4f0bd564f03e36b10",
+    "source_code": "#!/usr/bin/env python3\n\"\"\"Bounded independent review: original A/B/C and12 focused CG controls only.\nDefault reads only. --write-review exclusively creates the new review JSON.\nNo producer/helper execution, new angle/parameter grid, source, card or case.\n\"\"\"\nfrom __future__ import annotations\nimport argparse\nfrom datetime import datetime, timezone\nfrom fractions import Fraction as F\nimport hashlib\nimport json\nfrom pathlib import Path\nimport sys\nsys.dont_write_bytecode=True\n\nRUN=\"outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01\"\nTARGET=RUN+\"/isotropic-photon-rank-state.json\"\nEXPECTED=\"200d30db90842898794f0dba094079969a12a994084d0cef576a0b4d033b29d3\"\nOUT=RUN+\"/isotropic-photon-rank-state-review.json\"\nCODE=\"tmp/day8-20261007/lange-kumar/isotropic-photon-rank-state-review/isotropic_photon_review.py\"\n\ndef digest(path):return hashlib.sha256(path.read_bytes()).hexdigest()\n\ndef build_review(root):\n    sys.path.insert(0,str(root/\"tmp/day8-20261007/rose-brink/python-deps\"))\n    import sympy as sp\n    from sympy.physics.wigner import clebsch_gordan\n    target=json.loads((root/TARGET).read_text(encoding=\"utf-8\"))\n    if digest(root/TARGET)!=EXPECTED:raise AssertionError(\"target identity\")\n    script_rel=target[\"reproducibility\"][\"code\"]\n    script_sha=target[\"reproducibility\"][\"script_sha256\"]\n    if digest(root/script_rel)!=script_sha or hashlib.sha256(target[\"reproducibility\"][\"source_code\"].encode()).hexdigest()!=script_sha:raise AssertionError(\"embedded/disk identity\")\n    protected={TARGET:EXPECTED,script_rel:script_sha}\n    protected.update({v[\"path\"]:v[\"sha256\"] for v in target[\"immutable_inputs\"].values()})\n    protected[target[\"raw_source\"][\"path\"]]=target[\"raw_source\"][\"sha256\"]\n    for p,h in protected.items():\n        if digest(root/p)!=h:raise AssertionError(\"protected input before: \"+p)\n    controls=[]; comparisons=[]\n    for label,Ji,Jf,low,high in [(\"A_3half_to_half\",sp.Rational(3,2),sp.Rational(1,2),1,2),(\"B_2_to_2\",sp.Integer(2),sp.Integer(2),1,4),(\"C_3_to_1\",sp.Integer(3),sp.Integer(1),2,4)]:\n        case=target[\"exact_original_case_controls\"][label]\n        if sp.Rational(case[\"Ji\"])!=Ji or sp.Rational(case[\"Jf\"])!=Jf:raise AssertionError(\"original spin anchors\")\n        initial=[-Ji+n for n in range(int(2*Ji+1))]\n        final=[-Jf+n for n in range(int(2*Jf+1))]\n        for L,m,Lp,mp in [(low,0,low,0),(high,0,high,0),(high,high,high,high),(low,0,high,0)]:\n            value=sp.simplify(sum(clebsch_gordan(Jf,L,Ji,f,m,i)*clebsch_gordan(Jf,Lp,Ji,f,mp,i) for i in initial for f in final)/(2*Ji+1))\n            expected=sp.Rational(1,2*L+1) if L==Lp and m==mp else 0\n            rows=[r for r in case[\"partial_trace_common_m_coefficients\"] if (r[\"L\"],r[\"Lprime\"],r[\"m\"])==(L,Lp,m)]\n            if value!=expected or len(rows)!=1 or sp.Rational(rows[0][\"partial_final_spin_kernel\"])!=value:raise AssertionError(\"focused CG/packet comparison\")\n            controls.append({\"case\":label,\"L\":L,\"Lprime\":Lp,\"mu\":m,\"independent_value\":str(value),\"packet_match\":True})\n        weights={int(L):F(w) for L,w in case[\"weights\"].items()}\n        retained=set(case[\"retained_ranks\"])\n        old=json.loads((root/target[\"immutable_inputs\"][label[0]][\"path\"]).read_text())\n        if label.startswith(\"A\"):\n            b=old[\"root_demonstration\"][\"branches\"][1]\n            original={1:F(b[\"E1_radiative_fraction\"]),2:F(b[\"M2_radiative_fraction\"])}\n        elif label.startswith(\"B\"):\n            original={L:F(old[\"seed\"][\"radiative_fractions\"][mode]) for L,mode in [(1,\"M1\"),(2,\"E2\"),(3,\"M3\"),(4,\"E4\")]}\n        else:\n            u,v=F(old[\"seed\"][\"parameters\"][\"u\"]),F(old[\"seed\"][\"parameters\"][\"v\"])\n            total=1+u*u+v*v;original={2:1/total,3:u*u/total,4:v*v/total}\n        epsilon=sum(w for L,w in weights.items() if L not in retained)\n        ret={L:w/(1-epsilon) for L,w in weights.items() if L in retained}\n        # Spectrum of the occupied rank blocks: dL copies wL/dL.\n        trace_norm=sum(abs(w-ret.get(L,F(0))) for L,w in weights.items())\n        blocks=case[\"block_eigenvalue_and_multiplicity\"]\n        checks=[weights==original,sum(weights.values())==1,sum(ret.values())==1,\n            F(case[\"epsilon\"])==epsilon,F(case[\"D_photon_exact\"])==trace_norm/2==epsilon,\n            F(case[\"full_joint_D_squared_exact\"])==epsilon,\n            all(F(b[\"eigenvalue\"])==weights[b[\"L\"]]/(2*b[\"L\"]+1) and b[\"multiplicity_m\"]==2*b[\"L\"]+1 for b in blocks),\n            {int(L):F(w) for L,w in case[\"retained_weights\"].items()}==ret,\n            case[\"occupied_parity_copy_photon_dimension\"]==sum(2*L+1 for L in weights),\n            case[\"source_joint_emitted_dimension\"]==int(2*Ji+1)*len(weights),\n            case[\"local_W\"]==\"1\",case[\"local_helicity_density\"]==\"I2/2\"]\n        if not all(checks):raise AssertionError(\"original case state/spectrum comparison\")\n        comparisons.append({\"case\":label,\"original_weights_match\":True,\"epsilon\":str(epsilon),\"D_photon\":str(trace_norm/2),\"joint_D_squared\":str(epsilon),\"state_spectrum_and_normalization_match\":True})\n    chi0=sp.Matrix([1,1])/sp.sqrt(2);chi1=sp.Matrix([-1,1])/sp.sqrt(2)\n    if (chi0.H*chi0)[0]!=1 or (chi1.H*chi1)[0]!=1 or (chi0.H*chi1)[0]!=0:raise AssertionError(\"helicity copies\")\n    copy_projectors=[chi0*chi0.H,chi1*chi1.H]\n    if not all(P*P==P and sp.trace(P)==1 and P!=sp.eye(2)/2 for P in copy_projectors):raise AssertionError(\"pure occupied copy\")\n    for p,h in protected.items():\n        if digest(root/p)!=h:raise AssertionError(\"protected input after: \"+p)\n    noops=[\n        {\"id\":\"IPREV-01\",\"topic\":\"Scalar rank blocks\",\"code_line\":172,\"outcome\":\"grounded-no-op\",\"evidence\":\"Schur and the independent12 CG traces give delta_LLprime delta_m_mprime/(2L+1). Original seed weights and all reported block eigenvalues/normalizations match.\"},\n        {\"id\":\"IPREV-02\",\"topic\":\"Occupied physical parity/helicity copy\",\"code_line\":168,\"outcome\":\"grounded-no-op\",\"evidence\":\"In the rank/helicity-copy representation the block is wL I_m/dL tensor|chi_pi><chi_pi|. The opposite copy is zero, not a fictitious extra type flag or a mixed I2 block.\"},\n        {\"id\":\"IPREV-03\",\"topic\":\"Photon versus joint distance\",\"code_line\":178,\"outcome\":\"grounded-no-op\",\"evidence\":\"The block spectrum gives Dph=epsilon for all three existing retained projections. Old95 joint D=sqrt(epsilon) includes final spin. Both identities require the own retained projection and nonempty retained sector.\"},\n        {\"id\":\"IPREV-04\",\"topic\":\"Arbitrary input lower bound and extra channels\",\"code_line\":181,\"outcome\":\"grounded-no-op\",\"evidence\":\"Mode isometries imply Vdagger(Pom tensor Ifinal)V=epsilon Iinitial for any trace-one rho. The ideal rank effect yields lower epsilon; contractivity yields upper sqrt epsilon. Further rank-erasing channels need not preserve the lower bound.\"},\n        {\"id\":\"IPREV-05\",\"topic\":\"Local data and full photon state\",\"code_line\":187,\"outcome\":\"grounded-no-op\",\"evidence\":\"Unitary D columns give the local H=I2/2, W1 and local Stokes0; rank probabilities still contain wL. The ideal global angular-mode POVM is not an ordinary local detector implementation or a data-derived measurement capability.\"},\n        {\"id\":\"IPREV-06\",\"topic\":\"Multiplicity/coherence scope\",\"code_line\":194,\"outcome\":\"grounded-no-op\",\"evidence\":\"One E/M type per rank is essential to the scalar-copy result. When both types at one L are admitted, Schur leaves a multiplicity matrix and E/M coherence may survive. The rank projector is not an omitted-type projector.\"},\n        {\"id\":\"IPREV-07\",\"topic\":\"Joint-space kappa and input scope\",\"code_line\":200,\"outcome\":\"grounded-no-op\",\"evidence\":\"Packet correctly forbids replacing joint D with photon-only D under old329 kappa2/5/7. Complete final-spin trace, fixed energy/radial/current model and given isotropic rho are retained; local isotropy alone does not certify the input rho.\"},\n    ]\n    path=Path(__file__).resolve()\n    return {\"schema_version\":1,\"created_at_utc\":datetime.now(timezone.utc).isoformat(),\"audit_id\":\"isotropic-photon-rank-state-independent-review\",\n        \"status\":\"supported-with-declared-space-and-source-conditions\",\"day_index\":8,\"run_closed\":False,\"human_review\":False,\"L4\":False,\n        \"target\":{\"path\":TARGET,\"sha256\":EXPECTED,\"script\":script_rel,\"script_sha256\":script_sha},\n        \"summary\":{\"material_findings\":0,\"required_changes\":0,\"hard_P0\":0,\"grounded_no_op_items\":7,\"focused_CG_controls\":12,\"original_case_comparisons\":3},\n        \"findings\":[],\"grounded_no_op_items\":noops,\n        \"focused_CG_controls\":controls,\"actual_case_comparisons\":comparisons,\n        \"independent_proofs\":{\"state\":\"rho_i=I/d and covariant emission make the photon partial trace invariant. Schur kills cross-L blocks and fixes identity on m. Complete CG normalization fixes wL/dL. It fixes no arbitrary multiplicity matrix when opposite types shareL.\",\n            \"distance\":\"For isotropic input, rho_ph_full=(1-epsilon)rho_ph_ret+epsilon rho_ph_om with orthogonal rank supports, so half trace norm isepsilon. Joint emission retains the old95 coherent two-sector difference with D=sqrt epsilon. For arbitrary common rho, the omitted photon-rank effect has probabilitiesepsilon and0; trace-distance duality and final-spin trace contractivity give epsilon<=Dph<=sqrt epsilon.\",\n            \"local\":\"The basis functions |L,m,q> use q-dependent spin-weighted D_mq angular sections. Summingm gives delta_qqprime pointwise, so a pure chi in the isotypic copy factor does not imply ordinary local plane-wave polarization. The copy coherence can reside across directions; local H remainsI2/2.\",\n            \"scope\":\"The isotropic input is a given model condition, not inferred from W1/P0. Further environment/recoil/translation/detector reductions require effect/support audit; ordinary gamma-mode implementation, physical preparation and statistical distinguishability are not certified.\"},\n        \"source_locators\":[\"RB67 printed316/PDF11 Eq3.24 and WE relation after3.25\",\"printed317/PDF12 Eq3.28 and CG/rotation products\",\"printed318/PDF13 Eq3.29 interaction amplitude rate normalization\",\"printed320/PDF15 definite-parity type restriction\",\"old95 trace distance and old329 joint-space effect domain; existing RB25/27 multiplicity boundary\"],\n        \"checks\":{\"independent_focused_CG_passed\":12,\"actual_original_case_comparisons_passed\":3,\"helicity_copy_projectors_supported\":True,\"protected_bytes_unchanged\":True,\"producer_executed\":False,\"parameter_or_angle_grid\":False},\n        \"immutable_inputs\":[{\"path\":p,\"sha256\":h} for p,h in protected.items()],\n        \"changed_paths\":[CODE,OUT],\"actual_commands\":[\"python3 \"+CODE,\"python3 \"+CODE+\" --write-review\",\"git diff --check -- \"+CODE+\" \"+OUT],\n        \"reproducibility\":{\"code\":CODE,\"script_sha256\":digest(path),\"source_code\":path.read_text(encoding=\"utf-8\"),\"sympy_version\":sp.__version__,\"network_requests\":0,\"read_only_command\":\"python3 \"+CODE,\"exclusive_write_command\":\"python3 \"+CODE+\" --write-review\",\"embedded_replay\":\"Save source_code to a temporary file and pass --root /workspace/wiki; default reads only and never executes the producer/helper.\",\"write_policy\":\"Exclusive new review JSON and owned tmp code only; old receipts/raw/knowledge/report/state/PLAN/Git unchanged.\"},\n        \"attribution\":\"This independent CG/Schur and norm audit is mathematical self-review, not author-reported quantum-information bounds, Human review or a detector design.\"}\n\ndef main():\n    p=argparse.ArgumentParser(description=__doc__);p.add_argument(\"--root\",type=Path);p.add_argument(\"--write-review\",action=\"store_true\")\n    args=p.parse_args();root=args.root.resolve() if args.root else Path(__file__).resolve().parents[4]\n    r=build_review(root)\n    if args.write_review:\n        with (root/OUT).open(\"x\",encoding=\"utf-8\",newline=\"\\n\") as f:json.dump(r,f,ensure_ascii=False,indent=2);f.write(\"\\n\")\n    print(json.dumps({\"review\":OUT if args.write_review else None,\"summary\":r[\"summary\"],\"case_comparisons\":r[\"actual_case_comparisons\"],\"checks\":r[\"checks\"]},ensure_ascii=False,indent=2))\nif __name__==\"__main__\":main()\n",
+    "sympy_version": "1.14.0",
+    "network_requests": 0,
+    "read_only_command": "python3 tmp/day8-20261007/lange-kumar/isotropic-photon-rank-state-review/isotropic_photon_review.py",
+    "exclusive_write_command": "python3 tmp/day8-20261007/lange-kumar/isotropic-photon-rank-state-review/isotropic_photon_review.py --write-review",
+    "embedded_replay": "Save source_code to a temporary file and pass --root /workspace/wiki; default reads only and never executes the producer/helper.",
+    "write_policy": "Exclusive new review JSON and owned tmp code only; old receipts/raw/knowledge/report/state/PLAN/Git unchanged."
+  },
+  "attribution": "This independent CG/Schur and norm audit is mathematical self-review, not author-reported quantum-information bounds, Human review or a detector design."
+}

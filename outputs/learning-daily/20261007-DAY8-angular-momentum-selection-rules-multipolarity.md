@@ -15,7 +15,7 @@ updated: 2026-10-08
 - session_id: `01a111fb-370d-7ed1-afe9-881ccc47caf4`
 - resume_command: `codex resume 01a111fb-370d-7ed1-afe9-881ccc47caf4 -C /workspace/wiki -s danger-full-access -a never`
 - session mode: 本日新建会话；起始工具调用被用户中断后在同一本日会话继续，未复用 Day7 会话。
-- status: `running / Day8 card content complete / study-window open`。本文是持续更新的实质日报，不是提前结束本日的回执；课程 state 仍为 `next_day_index=8 / completed_day_count=7`，收束时经正常 runner 验收与发布门后才保存学分。
+- status: `content-complete / closing-out`。研究已按15:00硬截止停止；正式Day8内容与五项audit完整，最终runner/state和发布门在收束中执行。
 - completed_day_indices: [8]
 - partial_day_indices: [9]
 - Day 8 card audit: complete
@@ -37,7 +37,7 @@ updated: 2026-10-08
 | 分开 spin/parity/multipolarity 的观测和依赖，检查是否循环使用一个拟合 | 下文依赖审计；[spin-parity 方法页](../../knowledge/methods/spin-parity-assignment.md) 的 Assignment Evidence Dependencies | complete |
 | 交付可回链的选择定则、多解/测量表、全部 convention locators，并保存 durable knowledge | [多极混合比知识页](../../knowledge/observables/multipole-mixing-ratio.md)；本日报唯一 writeback block；[来源身份哈希核对](20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/source-identity.json) | complete |
 
-上述 complete 表示本次独立完成卡的内容交付；尚未发生本日 15:00 收束、课程状态推进或 final publication。DAY9 若后续预习，只添加到 partial 列表，保持今日 day_index=8，不计 DAY9，不打开 Day10。
+上述complete来自本次Day8独立交付；Day9始终仅partial预习。下文checkpoint保留历史状态，最终收束/课程/发布以Runstate、末尾验收与run receipt为准；未开展Day10研究。
 
 ## Candidate pool and selection
 
@@ -56,9 +56,9 @@ updated: 2026-10-08
 | Day8 penetration/ICC baseline | 重读Eq4.1检验固定κ下的E0排除如何随未知penetration变化 | 有界路线完成；LKH82-12，不补原文未给的数值界 |
 | 下一未完成卡 Day9：B(E2)/B(M1)、寿命/分支输入链 | 已产生MU08转录纠正和有条件B/RME重算，62-check单位核验通过 | 无学分预习已写回；branch/IC/covariance边界保留 |
 | Day8 B：四gamma成分与未知布居的完整单γ偏振识别性 | 43-check实际rank4、fraction-changing tangent与IFT给出连续联合解；独立表示论及calibration通过 | 有界路线完成；等待下轮候选池/clock重建 |
-| Day8 完整高阶截断与测量误差 | 95/329/54/72 parent 及独立审计确认条件性误差预算；缺实际先验 | 有界路线完成，待补 total-photon-width 替代 floor |
-| Day8 独立参考布居与高自旋盲区 | J2 inverse/spectral floor 已核验；J3 reference nullspace/node 控制待复现 | selected；不由参考拟合自身认证 purity 或 fullρ |
-| Day8 parity-null 逆命题与 source helicity 归一 | 60-check 放松模型已复现；per-q normalization 条件另做独立审计 | selected bounded audit；无真实 parity mixing 推断 |
+| Day8 完整高阶截断与测量误差 | 95/329/54/72 parent 及独立审计确认条件性误差预算；缺实际先验 | 有界路线与替代floor均完成；实际priors未给 |
+| Day8 独立参考布居与高自旋盲区 | J2 inverse/spectral floor 已核验；J3 reference nullspace/node 控制待复现 | 有界分析完成；不由参考拟合自身认证 purity 或 fullρ |
+| Day8 parity-null 逆命题与 source helicity 归一 | 60-check 放松模型已复现；per-q normalization 条件另做独立审计 | 有界审计完成；无真实 parity mixing 推断 |
 
 下一阶段先检查本日多成分可识别性、截断敏感性和级联相位是否仍有信息增益；局部饱和后按实时钟进入有边界的 Day9 预习。Day8 内容交付完成没有结束学习窗口。
 
@@ -349,6 +349,26 @@ Joint width set 比独立 marginal ceilings 可更强：g∈[1,2]、o=g−1/4 �
 [nondefinite-parity-control-review.json](20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/nondefinite-parity-control-review.json) 的44项独立检查已 parent 复现，不重跑60producer。FullΩ D/CG closure 对任意 fixed-Ji 初态ρ给 Tq=(2k/hbar)(S+2qReX)，X=ΣL aEL aML*，fq=(S+2qReX)/(2S)。同-rank E/M cross term 不由 angular orthogonality 消除；两 per-q rate 相同恰需 ReX=0，definite parity 是充分条件，isotropicρ单独不是。Total photon Γ=4kS 保留。RB67-27 记录 inclusive/gated、energy/channel/phase 与 no-real-parity-inference 边界；补全源旁文适用条件，没有否定总率 formalism。
 
 
+### Nonγ 库存的有条件补全
+
+[nongamma-inventory-floor.json](20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/nongamma-inventory-floor.json) 的23项检查与[独立9组审计](20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/nongamma-inventory-floor-review.json) 已 parent 复现。Complete pair inventory 的独立界 Pmin、finite Amax、Uextra 给 photon floor G=max(0,(Pmin−Uextra)/(1+Amax))；零γ处用 Γlinked≤AmaxΓγ 的直接 inequality，不能延拓undefinedICC ratio。再有 Uom<G 才保证 normalized retained，并接 existing √ε 界。
+
+普通 M1/E2 ICCmax 不自动覆盖 full M1/E2/M3/E4/current/penetration/atomic域；未控制的 whole channel 应入 extra，不把 coherent corrections 未证为正就分别账列。真实 total-pair branching/meanτ 的 joint domain可给Pmin，实际coverage和全部priors仍未提供。LKH82-18、lifetime synthesis与observable已写回；23/9是条件方法核验，不是新增实验事实，当前无L4。后段primed retrieval的库存答案因此闭合为条件式。
+
+
+### Day9无学分：同母态ratio和共同误差抵消的条件
+
+[day9-same-parent-strength-ratio.json](20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/day9-same-parent-strength-ratio.json) 的33项检查已 parent复现，TableI原图再次确认当前I18母态401.2/757.4/389.6三支路。Photon-I route给 R=(KE/KM)(Eb⁵/Ea³)(Ia/Ib)(fa/fb)，µN²/(e²b²)，不是无量纲；共同τ/normalizer抵消，true-total-pair route还留逐支h_b/h_a。Existing FO条件modifier为1046/1075，非作者actualICC或新data。Common B factor与commonenergygain不同，后者fixedchart有+2及可能atomic energy chain term。
+
+Cov(logB)的affinecontrast精确，无Gaussian前提，rawerrors传播仍需delta-method/jointdata。若三个fraction逐样本严格和1且quoted.06/.02/.02是truejoint marginalSD，L2 triangle必需.06≤.02+.02而不满足；这是额外解释的不相容，不判作者错误或actualnegativecovariance。Source未给定义与covariance，quoted values保留。Stopping15%未给共模covariance，不保证跨带feeding/stopping抵消。知识到MU08-9与lifetime synthesis，formalDay9仍需新session自己的record/audit，无学分。
+
+
+### 最后一项有界分析：photon marginal 与局部观测
+
+[isotropic-photon-rank-state.json](20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/isotropic-photon-rank-state.json) 的32项checks经parent复现。Definite parity每rank只一个E/M copy，isotropic initialρ给 photon blocks fL/(2L+1)I_m⊗|chiπ><chiπ|，不是两-helicityfullidentity。跨rankphase在photonmarginal消失，fractions保留；Dph=ε versus Dfull=√ε，任意initialρ有abstract rankeffect给ε≤Dph≤√ε。普通direction-localH=I2/2/W1/P0可对fractions盲，fullformal photonstate却不同；oldU pair也只有pointwise等价。
+
+额外environment/CM/recoil/sourceposition/temporal/detectorchannel可能失lowerbound，actualrankanalyzer没有实现；parity-relaxed same-L E/M保留multiplicitycoherence，不套scalaronecopy。Old329 jointκ不能直接搭smallerDph。知识到RB67-28/observable；独立scope审计仍待收，当前只完成已选分析、不新source/card，15:00停newresearch。
+
 ## Counter-evidence and missing companion observables
 
 | 待定标签/判断 | 当前支持是什么 | 反证或循环依赖检查 | 需要的 companion |
@@ -405,7 +425,7 @@ RB67提供相位一致的photon/density formalism；LKH82将δ与model-specific 
     {
       "knowledge": "knowledge/sources/lange-kumar-hamilton-1982-multipole-admixtures.md",
       "anchor": "LKH82-5",
-      "summary": "修正实际页范围、完整有符号KS辐射振幅定义、发射级联与吸收映射、K-shell E0/ICC条件和本轮定向阅读覆盖；补充K-shell ICC/E0可行解分类、零参考率重参量化和高/低侧越界的模型边界；据parent图核p179纠正IBM幅度/PPQ符号的历史8/46样本比较，未更改review状态；追加47-check fullγ+E0下total ICC/τ补全、shell contrasts与统计/函数依赖边界；写回generator-only M1零值、同阶算符/态展开、大δ绝对尺度与真实核高阶/模型迁移条件。；写回cascade的几何/相干与局部rank、conditional归一和penetration reference/允许域边界，保持合成/模型身份。；追加physicaloperator的reverse-B/spin归一及E4/E2长波/χ条件，不将derived结果计独立测量。 补充 magnetic domain 与独立 M3/E4 完整率截断先验和单位边界。 补充 same-pair photon-width floor、joint width region 与真实 absolute radiative branch 的截断条件和库存失败边界。",
+      "summary": "修正实际页范围、完整有符号KS辐射振幅定义、发射级联与吸收映射、K-shell E0/ICC条件和本轮定向阅读覆盖；补充K-shell ICC/E0可行解分类、零参考率重参量化和高/低侧越界的模型边界；据parent图核p179纠正IBM幅度/PPQ符号的历史8/46样本比较，未更改review状态；追加47-check fullγ+E0下total ICC/τ补全、shell contrasts与统计/函数依赖边界；写回generator-only M1零值、同阶算符/态展开、大δ绝对尺度与真实核高阶/模型迁移条件。；写回cascade的几何/相干与局部rank、conditional归一和penetration reference/允许域边界，保持合成/模型身份。；追加physicaloperator的reverse-B/spin归一及E4/E2长波/χ条件，不将derived结果计独立测量。 补充 magnetic domain 与独立 M3/E4 完整率截断先验和单位边界。 补充 same-pair photon-width floor、joint width region 与真实 absolute radiative branch 的截断条件和库存失败边界。 补充 complete linked/extra nonγ 库存建立 photon floor 的独立条件、零γ域及两阶段strictthreshold。",
       "sources": [
         {
           "path": "knowledge/sources/lange-kumar-hamilton-1982-multipole-admixtures.md",
@@ -470,13 +490,17 @@ RB67提供相位一致的photon/density formalism；LKH82将δ与model-specific 
         {
           "path": "knowledge/sources/lange-kumar-hamilton-1982-multipole-admixtures.md",
           "locator": "LKH82-17"
+        },
+        {
+          "path": "knowledge/sources/lange-kumar-hamilton-1982-multipole-admixtures.md",
+          "locator": "LKH82-18"
         }
       ]
     },
     {
       "knowledge": "knowledge/sources/rose-brink-1967-phase-defined-angular-distributions.md",
       "anchor": "Phase and Observable Audit",
-      "summary": "修正polarized初态与even-K条件，明确相位定义RME/归一化、线偏振coherence、photon L与angular K、宽度与级联相位的边界；补充phase-aware helicity/coherent polarization重构，以及未知布居下pointwise方向/偏振强度联合解的边界；补充完整四γ/未知布居的pointwise方向-偏振基底、43-check局部rank/IFT多解与同初态校准的局部/全局边界；追加已知非等权布居、四成分全非零的exact U global pair，local rank3/global多解与final-channel trace解释；追加caseC完整六coefficient/five-input局部rank5、pure/isotropic rank和K6 zero/cancellation控制；追加caseC的29-check exact global reflection/两个rank5分支与B6非零的A6=C6联合抵消。；写回cascade的几何/相干与局部rank、conditional归一和penetration reference/允许域边界，保持合成/模型身份。；追加five-output区间global反例/校准ratio或NH/FO打印精度与vacancy敏感性，保持ideal/理论身份和无学分边界。 补充概率/有限密度误差界、γ极化证据归属、条件参考布居与 odd-null 逆命题。 补充高自旋 pure-E2 参考的 rank6 盲区、完整单参考 photon 等价与目标 node/floor 边界。 补齐一般 coherent extension 的 per-helicity 积分率相等条件，保持总率与inclusive/phase边界。",
+      "summary": "修正polarized初态与even-K条件，明确相位定义RME/归一化、线偏振coherence、photon L与angular K、宽度与级联相位的边界；补充phase-aware helicity/coherent polarization重构，以及未知布居下pointwise方向/偏振强度联合解的边界；补充完整四γ/未知布居的pointwise方向-偏振基底、43-check局部rank/IFT多解与同初态校准的局部/全局边界；追加已知非等权布居、四成分全非零的exact U global pair，local rank3/global多解与final-channel trace解释；追加caseC完整六coefficient/five-input局部rank5、pure/isotropic rank和K6 zero/cancellation控制；追加caseC的29-check exact global reflection/两个rank5分支与B6非零的A6=C6联合抵消。；写回cascade的几何/相干与局部rank、conditional归一和penetration reference/允许域边界，保持合成/模型身份。；追加five-output区间global反例/校准ratio或NH/FO打印精度与vacancy敏感性，保持ideal/理论身份和无学分边界。 补充概率/有限密度误差界、γ极化证据归属、条件参考布居与 odd-null 逆命题。 补充高自旋 pure-E2 参考的 rank6 盲区、完整单参考 photon 等价与目标 node/floor 边界。 补齐一般 coherent extension 的 per-helicity 积分率相等条件，保持总率与inclusive/phase边界。 补充isotropic reduced-photon rankstate、allowedparitycopy与Dph/Drad、local/global measurement及environment边界。",
       "sources": [
         {
           "path": "knowledge/sources/rose-brink-1967-phase-defined-angular-distributions.md",
@@ -565,13 +589,17 @@ RB67提供相位一致的photon/density formalism；LKH82将δ与model-specific 
         {
           "path": "knowledge/sources/rose-brink-1967-phase-defined-angular-distributions.md",
           "locator": "RB67-27"
+        },
+        {
+          "path": "knowledge/sources/rose-brink-1967-phase-defined-angular-distributions.md",
+          "locator": "RB67-28"
         }
       ]
     },
     {
       "knowledge": "knowledge/observables/multipole-mixing-ratio.md",
       "anchor": "三条合成跃迁的完整候选",
-      "summary": "完整triangle/parity过滤、三例全候选与高阶截断、归一振幅/符号约定、各观测的排解条件、K上限与E0/ICC寿命分支边界；补充phase-aware helicity/coherent polarization重构，以及未知布居下pointwise方向/偏振强度联合解的边界；补充K-shell ICC/E0可行解分类、零参考率重参量化和高/低侧越界的模型边界；补充完整四γ/未知布居的pointwise方向-偏振基底、43-check局部rank/IFT多解与同初态校准的局部/全局边界；追加已知非等权布居、四成分全非零的exact U global pair，local rank3/global多解与final-channel trace解释；追加caseC完整六coefficient/five-input局部rank5、pure/isotropic rank和K6 zero/cancellation控制；追加caseC的29-check exact global reflection/两个rank5分支与B6非零的A6=C6联合抵消；追加47-check fullγ+E0下total ICC/τ补全、shell contrasts与统计/函数依赖边界；写回generator-only M1零值、同阶算符/态展开、大δ绝对尺度与真实核高阶/模型迁移条件。；写回cascade的几何/相干与局部rank、conditional归一和penetration reference/允许域边界，保持合成/模型身份。；追加five-output区间global反例/校准ratio或NH/FO打印精度与vacancy敏感性，保持ideal/理论身份和无学分边界。；追加physicaloperator的reverse-B/spin归一及E4/E2长波/χ条件，不将derived结果计独立测量。 同步误差界、独立参考与 parity-null 条件。 补充高自旋 pure-E2 参考的 rank6 盲区、完整单参考 photon 等价与目标 node/floor 边界。 补充 same-pair photon-width floor、joint width region 与真实 absolute radiative branch 的截断条件和库存失败边界。 补齐一般 coherent extension 的 per-helicity 积分率相等条件，保持总率与inclusive/phase边界。",
+      "summary": "完整triangle/parity过滤、三例全候选与高阶截断、归一振幅/符号约定、各观测的排解条件、K上限与E0/ICC寿命分支边界；补充phase-aware helicity/coherent polarization重构，以及未知布居下pointwise方向/偏振强度联合解的边界；补充K-shell ICC/E0可行解分类、零参考率重参量化和高/低侧越界的模型边界；补充完整四γ/未知布居的pointwise方向-偏振基底、43-check局部rank/IFT多解与同初态校准的局部/全局边界；追加已知非等权布居、四成分全非零的exact U global pair，local rank3/global多解与final-channel trace解释；追加caseC完整六coefficient/five-input局部rank5、pure/isotropic rank和K6 zero/cancellation控制；追加caseC的29-check exact global reflection/两个rank5分支与B6非零的A6=C6联合抵消；追加47-check fullγ+E0下total ICC/τ补全、shell contrasts与统计/函数依赖边界；写回generator-only M1零值、同阶算符/态展开、大δ绝对尺度与真实核高阶/模型迁移条件。；写回cascade的几何/相干与局部rank、conditional归一和penetration reference/允许域边界，保持合成/模型身份。；追加five-output区间global反例/校准ratio或NH/FO打印精度与vacancy敏感性，保持ideal/理论身份和无学分边界。；追加physicaloperator的reverse-B/spin归一及E4/E2长波/χ条件，不将derived结果计独立测量。 同步误差界、独立参考与 parity-null 条件。 补充高自旋 pure-E2 参考的 rank6 盲区、完整单参考 photon 等价与目标 node/floor 边界。 补充 same-pair photon-width floor、joint width region 与真实 absolute radiative branch 的截断条件和库存失败边界。 补齐一般 coherent extension 的 per-helicity 积分率相等条件，保持总率与inclusive/phase边界。 补充 complete linked/extra nonγ 库存建立 photon floor 的独立条件、零γ域及两阶段strictthreshold。 补充isotropic reduced-photon rankstate、allowedparitycopy与Dph/Drad、local/global measurement及environment边界。",
       "sources": [
         {
           "path": "knowledge/sources/rose-brink-1967-phase-defined-angular-distributions.md",
@@ -708,13 +736,21 @@ RB67提供相位一致的photon/density formalism；LKH82将δ与model-specific 
         {
           "path": "knowledge/sources/rose-brink-1967-phase-defined-angular-distributions.md",
           "locator": "RB67-27"
+        },
+        {
+          "path": "knowledge/sources/lange-kumar-hamilton-1982-multipole-admixtures.md",
+          "locator": "LKH82-18"
+        },
+        {
+          "path": "knowledge/sources/rose-brink-1967-phase-defined-angular-distributions.md",
+          "locator": "RB67-28"
         }
       ]
     },
     {
       "knowledge": "knowledge/methods/spin-parity-assignment.md",
       "anchor": "Assignment Evidence Dependencies",
-      "summary": "逐项区分spin、parity、photon multipolarity、δ sign与absolute strength的观测、固定输入、共享假设和循环推断；补充phase-aware helicity/coherent polarization重构，以及未知布居下pointwise方向/偏振强度联合解的边界；补充完整四γ/未知布居的pointwise方向-偏振基底、43-check局部rank/IFT多解与同初态校准的局部/全局边界；追加已知非等权布居、四成分全非零的exact U global pair，local rank3/global多解与final-channel trace解释；追加caseC完整六coefficient/five-input局部rank5、pure/isotropic rank和K6 zero/cancellation控制；追加caseC的29-check exact global reflection/两个rank5分支与B6非零的A6=C6联合抵消；写回generator-only M1零值、同阶算符/态展开、大δ绝对尺度与真实核高阶/模型迁移条件。；写回cascade的几何/相干与局部rank、conditional归一和penetration reference/允许域边界，保持合成/模型身份。；追加five-output区间global反例/校准ratio或NH/FO打印精度与vacancy敏感性，保持ideal/理论身份和无学分边界。 补齐校准/极化归属与 parity-null 的独立性依赖。 补充高自旋 pure-E2 参考的 rank6 盲区、完整单参考 photon 等价与目标 node/floor 边界。",
+      "summary": "逐项区分spin、parity、photon multipolarity、δ sign与absolute strength的观测、固定输入、共享假设和循环推断；补充phase-aware helicity/coherent polarization重构，以及未知布居下pointwise方向/偏振强度联合解的边界；补充完整四γ/未知布居的pointwise方向-偏振基底、43-check局部rank/IFT多解与同初态校准的局部/全局边界；追加已知非等权布居、四成分全非零的exact U global pair，local rank3/global多解与final-channel trace解释；追加caseC完整六coefficient/five-input局部rank5、pure/isotropic rank和K6 zero/cancellation控制；追加caseC的29-check exact global reflection/两个rank5分支与B6非零的A6=C6联合抵消；写回generator-only M1零值、同阶算符/态展开、大δ绝对尺度与真实核高阶/模型迁移条件。；写回cascade的几何/相干与局部rank、conditional归一和penetration reference/允许域边界，保持合成/模型身份。；追加five-output区间global反例/校准ratio或NH/FO打印精度与vacancy敏感性，保持ideal/理论身份和无学分边界。 补齐校准/极化归属与 parity-null 的独立性依赖。 补充高自旋 pure-E2 参考的 rank6 盲区、完整单参考 photon 等价与目标 node/floor 边界。 补充complete photonstate与direction-local实测范围的独立性边界。",
       "sources": [
         {
           "path": "knowledge/sources/rose-brink-1967-phase-defined-angular-distributions.md",
@@ -815,13 +851,17 @@ RB67提供相位一致的photon/density formalism；LKH82将δ与model-specific 
         {
           "path": "knowledge/sources/rose-brink-1967-phase-defined-angular-distributions.md",
           "locator": "RB67-26"
+        },
+        {
+          "path": "knowledge/sources/rose-brink-1967-phase-defined-angular-distributions.md",
+          "locator": "RB67-28"
         }
       ]
     },
     {
       "knowledge": "knowledge/sources/mukhopadhyay-2008-136nd-transition-rates.md",
       "anchor": "Lifetime and Branching Input Audit",
-      "summary": "据原图修正Band2的I15–19/B(E2)映射和遗漏值；保存I18寿命及三枝input ledger、pure-M1与quoted systematic条件、branch定义和464.8/465.5标签边界；将全部26条Table I分支与10行Table II输入/输出固化到canonical source；追加两母态四branch的gamma-only负例，保留未重归一化的0.19分支和描述性残差/共享数据边界；补入独立FO inputs/forward branch敏感性及未识别原processing的边界。；追加five-output区间global反例/校准ratio或NH/FO打印精度与vacancy敏感性，保持ideal/理论身份和无学分边界。；追加physicaloperator的reverse-B/spin归一及E4/E2长波/χ条件，不将derived结果计独立测量。",
+      "summary": "据原图修正Band2的I15–19/B(E2)映射和遗漏值；保存I18寿命及三枝input ledger、pure-M1与quoted systematic条件、branch定义和464.8/465.5标签边界；将全部26条Table I分支与10行Table II输入/输出固化到canonical source；追加两母态四branch的gamma-only负例，保留未重归一化的0.19分支和描述性残差/共享数据边界；补入独立FO inputs/forward branch敏感性及未识别原processing的边界。；追加five-output区间global反例/校准ratio或NH/FO打印精度与vacancy敏感性，保持ideal/理论身份和无学分边界。；追加physicaloperator的reverse-B/spin归一及E4/E2长波/χ条件，不将derived结果计独立测量。 补充同母态cross-branch ratio、共同与逐支nuisance/covariance路径及quoted errors的条件归一不相容边界。",
       "sources": [
         {
           "path": "knowledge/sources/mukhopadhyay-2008-136nd-transition-rates.md",
@@ -854,13 +894,17 @@ RB67提供相位一致的photon/density formalism；LKH82将δ与model-specific 
         {
           "path": "knowledge/sources/lange-kumar-hamilton-1982-multipole-admixtures.md",
           "locator": "LKH82-13"
+        },
+        {
+          "path": "knowledge/sources/mukhopadhyay-2008-136nd-transition-rates.md",
+          "locator": "MU08-9"
         }
       ]
     },
     {
       "knowledge": "knowledge/synthesis/high-spin-lifetime-strength-deformation.md",
       "anchor": "从寿命、分支到约化强度",
-      "summary": "写回Gaussian/SI与现代E2/M1单位推导、mean/partial lifetime和total/photon branching、mixing/IC及共享误差，保留MU08的条件性B/RME重算与原作者输出；追加两母态四branch的gamma-only负例，保留未重归一化的0.19分支和描述性残差/共享数据边界；补入独立FO inputs/forward branch敏感性及未识别原processing的边界。；追加five-output区间global反例/校准ratio或NH/FO打印精度与vacancy敏感性，保持ideal/理论身份和无学分边界。；追加physicaloperator的reverse-B/spin归一及E4/E2长波/χ条件，不将derived结果计独立测量。 补充 same-pair photon-width floor、joint width region 与真实 absolute radiative branch 的截断条件和库存失败边界。",
+      "summary": "写回Gaussian/SI与现代E2/M1单位推导、mean/partial lifetime和total/photon branching、mixing/IC及共享误差，保留MU08的条件性B/RME重算与原作者输出；追加两母态四branch的gamma-only负例，保留未重归一化的0.19分支和描述性残差/共享数据边界；补入独立FO inputs/forward branch敏感性及未识别原processing的边界。；追加five-output区间global反例/校准ratio或NH/FO打印精度与vacancy敏感性，保持ideal/理论身份和无学分边界。；追加physicaloperator的reverse-B/spin归一及E4/E2长波/χ条件，不将derived结果计独立测量。 补充 same-pair photon-width floor、joint width region 与真实 absolute radiative branch 的截断条件和库存失败边界。 补充 complete linked/extra nonγ 库存建立 photon floor 的独立条件、零γ域及两阶段strictthreshold。 补充同母态cross-branch ratio、共同与逐支nuisance/covariance路径及quoted errors的条件归一不相容边界。",
       "sources": [
         {
           "path": "knowledge/sources/lange-kumar-hamilton-1982-multipole-admixtures.md",
@@ -905,6 +949,14 @@ RB67提供相位一致的photon/density formalism；LKH82将δ与model-specific 
         {
           "path": "knowledge/sources/lange-kumar-hamilton-1982-multipole-admixtures.md",
           "locator": "LKH82-17"
+        },
+        {
+          "path": "knowledge/sources/lange-kumar-hamilton-1982-multipole-admixtures.md",
+          "locator": "LKH82-18"
+        },
+        {
+          "path": "knowledge/sources/mukhopadhyay-2008-136nd-transition-rates.md",
+          "locator": "MU08-9"
         }
       ]
     },
@@ -1042,3 +1094,27 @@ run_date仍2026-10-07/day_index8，硬截止固定10-08 15:00，当前距截止8
 ### 第八检查点范围
 
 本次窗口内检查点采用 main + Audit DAY8 reference coverage and photon width bounds，纳入 parent 已复现的75/54/44/44/1184/72增量、后段primed retrieval、原baseline验收和恢复记录；pending库存补全/同母态ratio不纳入已完成结论。Material supplementary alias 已纠正并保留旧审计。此检查点不推进课程 state，不生成正式DAY9计划prompt，15:00继续转最终收束。
+
+### 最新恢复点 — 库存条件闭合，强度比与 photon state 继续
+
+2026-10-08 11:48 Asia/Shanghai，距15:00硬截止191分钟。第八21-file检查点已非forceGitee/H3发布，stable main + Audit DAY8 reference coverage and photon width bounds，hash仅run.json。23/9库存条件经parent核验写到LKH82-18，未给实际priors。当前尚在同一来源范围内核验无学分Day9 same-parent ratio/covariance与Day8 isotropic reduced-photon state；后者将明确allowed E/M parity copy，不把普通point-observable等价写成complete-photon等价。原baseline、课程state8/7、review和raw/PLAN/继承daemon保护不变。
+
+### 同母态比值的独立审计结果
+
+[独立review](20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/day9-same-parent-strength-ratio-review.json)的7组Fraction core与8组producer comparison已parent复现，0实质producer问题。任何带负eigenvalue的covariance矩阵只作为“不相容额外假设”的reductio，未用于物理误差传播，不构造actualcovariance或宣告authorerror。MU08-9的scope与quoted数值保留，preview_day9无学分。
+
+### 15:00 hard research cutoff and closeout
+
+本次固定研究截止为2026-10-08 15:00 Asia/Shanghai；于15:02:22开始closeout-only，不开新研究/source/card。已选有界分析的复现/审计、文件校正与检查属于收束。仅Day8可计卡，Day9为预习，状态通过正常runner函数后才推进到9/count8。
+
+### 最后独立 scope 审计与关闭决定
+
+[isotropic-photon-rank-state-review.json](20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/isotropic-photon-rank-state-review.json)的12项focusedCG、3项originalcase comparisons已parent只读复现，7项groundedno-op、0实质问题。32项primary与copy/partialtrace/measurement范围保持。所有当前高信息路线已完成有界分析；realpriors、作者branch/误差定义、event/response/covariance与coherentapparatus未给，下一步需相应证据，不以追加合成case充数。Day9预习完成知识核验但仍partial、无学分。
+
+关闭依据是实际15:00研究截止和完整候选池，而非两个槽位或卡内容完成。15:00后只做审计重放、文件校正、计划生成与发布；没有新source/card/research。Daemon恢复须在本日state/plan/prompt/发布门通过并释放clock锁后执行，固定16:00，explicit授权profiles不改继承dirty源码；未来session尚未启动。
+
+### 最终收束验收与发布指针
+
+研究已固定于2026-10-08 15:00停止；Day8自己recall/原文/三题/依赖/知识与五行card audit完整，Day9仅partial。最后12/3独立scope重放通过；四组raw身份、原review状态、PLAN、BibTeX与继承daemon保护由final-protection-audit.json核验。实际执行boundary、wiki_lint --fail-on error、gitdiff --check全部exit0，lint0errors/91existingwarnings；original562-page baseline runner/writeback/card验证通过。课程state仅在fresh publication dryrun门后用正常update_state_for_curriculum_cards原子保存。
+
+本次final commit message为 Complete DAY8 learning and prepare formal DAY9，branch main；precisehash及真实Gitee push/H3结果仅run receipt，正文采用该稳定指针。正式DAY9plan/prompt在15:02生成，normalrunner placeholders已验证绑定到actualrun-01，未创建Day9session/学分。Clock锁完成关闭后恢复既有16:00调度，explicit Luna/max→Sol/high→Astra/medium，不改继承dirty源码；实际runtime/result以receipt为准。

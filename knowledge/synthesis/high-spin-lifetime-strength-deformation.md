@@ -152,6 +152,20 @@ The batch does not contain a complete common raw-data and response package for a
 
 保留 joint region 可比 marginal extremes 更强；unknown E0/nonγ 可在固定 parent τ、total branches、photon-relative fractions 下使每条 photon width 趋零。即使 αi>0，extra_i=bi−(1+αi)x fi≥0 的 formal family 仍有同样边界；per-branch b_rad,i=x fi 与 all-photon sum x 不能混用。Source p.121 Eqs.2.2–2.3、p.123 Eq.2.12、p.169 Eq.4.1 与 RB67 p.318 Eq.3.29 是公式/库存前提；截断不等式和 family 是本任务 L2 推导，没有新的实测 lifetime/ICC 或 physical prior。Rate 下限不确定 δ 的相对符号或 initial population，也不把有限时波包变化包含进角分布误差界。
 
+## A Total Pair Branch Needs a Non-Gamma Ceiling
+
+[[lange-kumar-hamilton-1982-multipole-admixtures]] LKH82-18 给一个库存桥梁：若完整同-pair分解 Γpair=Γγ+Γlinked+Γextra 为合法非负通道，独立 Γpair≥Pmin、Γlinked≤AmaxΓγ（finite Amax≥0）、Γextra≤Uextra，则 Γγ≥max(0,(Pmin−Uextra)/(1+Amax))。True absolute total-pair branch/meanτ 可条件给 Pmin，仍不能将 photon-normalized intensity 直接当 total branch。ICC ceiling 必须覆盖全 multipoles/shells/current/penetration/atomic domain，extra 无界时 photon width 可趋零。
+
+Photon floor 与 omitted upper 同时满足 (1+Amax)Uom+Uextra<Pmin 才自动认证非空 retained；这不确定 phase/sign、initialρ、方向节点或时间波包。公式前提为 LKH82 p.121 Eqs.2.2–2.3、p.123 Eq.2.12、p.169 Eq.4.1 与 RB67 p.318 Eq.3.29；库存 theorem 是本任务 L2 条件推导。新 ceiling 排除旧 family 是 prior-domain membership，不是新的实验反证或实际核无E0证明。
+
+## A Same-Parent Cross-Branch Strength Ratio
+
+[[mukhopadhyay-2008-136nd-transition-rates]] MU08-9 的 a=401.2 M1、b=757.4 E2、c=389.6 第三支都取I18同母态。正确 photon intensities 下 R=(KE/KM)(Eb⁵/Ea³)(Ia/Ib)(fa/fb)，单位µN²/(e²b²)；common meanτ/normalizer/只进该分母的遗漏或IC项消掉，但selected line/efficiency/gate/mixing bias不消掉。True total branches β 则另乘(1+αeff,b)/(1+αeff,a)，不能用 branch定义未明数据决定哪一式是作者处理。
+
+参考单位下 log R contrast=(0,1,−1,1,−1,−3,5)作用于(lnZ,lnIa,lnIb,lnfa,lnfb,lnEa,lnEb)；有限 log covariance 的传播精确，raw covariance 需local Jacobian或完整joint分布。共同strength factor的rank1 covariance消掉，但共同energy gain有+2，在totalbranch且energy-dependent α中另有chain terms。Ratio吻合可以隐藏共同absolute normalization error，B和ratio不能重复计独立证据。
+
+若把同母态三quoted分支SD0.06/0.02/0.02解释为逐样本精确归一的finite-variance vector，会违反distribution-freeσa≤σb+σc。那只是该额外joint解释的反证，不推actualcovariance或authorerror；TablesI–II/原error段没给这些定义。Source locators是MU08 p.3/TableI/pureM1与systematic段、p.4/TableII，以及LKH82 p.121 Eqs.2.2–2.3。33项L2specialization属于无学分Day9预习；完整covariance、branchbasis和stopping/feeding包仍缺。
+
 ## Sources
 
 - [[mukhopadhyay-2007-135nd-chiral-vibration-static]], [[mukhopadhyay-2008-136nd-transition-rates]]

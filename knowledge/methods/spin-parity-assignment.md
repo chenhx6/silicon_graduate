@@ -110,3 +110,7 @@ RB67-18原内域seed的四shape/五unknown映射加入一个normalizedW12后rank
 LKH82-12/KB08-D8-4进一步限定ICC证据：penetration修正要对相容reference model/允许参数域，FO/NH空穴与NP/SC核流近似不同。固定δ时标量ICC不给其sign，并不排除linear penetration参数的信息；一个K-shell系数不是完整total-lifetime输入。旧人审记录不扩展到本次新附录。
 
 RB67-19的计算区间证书还给同五idealoutputs的另一正布居/不同fractions分支，两点均localrank5；结论限unknown-population模型，不能移用到独立fixed-population切片。盒中唯一只限该盒，参数admissible不证明真实核可实现或同等modelprior。RB67-20的预定secondary角点比值可分该pair，但需要同一选样/时间窗和独立relative efficiency/acceptance标定；没有真实计数、响应或finite-count significance。局部rank、全局branch、模型迁移与校准的独立性分别核验。
+
+## Complete Photon State Is Not a Direction-Local Observation
+
+[[rose-brink-1967-phase-defined-angular-distributions]] RB67-28区分normalized pointwise方向/偏振等价与完整formal photonstate等价。原U pair的fractions不同，不能宣称任意photonmeasurement均同；idealrankeffect又没有被实现为普通detector。Same-source origin/radial/coherence、final-spin trace、环境和测量channel须列明。Photon-onlydistance不能直接换入oldjointκ；这些theorycontrols不是实际多极、spin或parity观测，仍需真实setup/response与独立输入。

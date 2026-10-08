@@ -6,21 +6,19 @@ updated: 2026-10-08
 
 # 跨会话交接
 
-## Active handoff — 正式 DAY8 持续学习；10 月 8 日 15:00 收束
+## Active handoff — 正式 DAY8 研究已结束；最终收束与 DAY9
 
-当前任务是正式 Day8；card content 已以 prompt-primed recall、两 source 原图/约定核对、三题完整多极和观测依赖独立通过，学习窗口仍开放，原生 goal active。Day8 日报：outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity.md；正式 run：同名 multipolarity-run-01。保留原始 baseline.json 的 562 页哈希。课程 state 仍 next=8/count=7，completed=[8]、partial=[9]；Day9 仅知识预习，未开展 Day10。
+2026-10-08 15:00 Asia/Shanghai已停止Day8新研究；卡以本session prompt-primed recall、两主source原图、三题完整gamma候选、observables依赖和五行audit独立完成。Day9预习只有partial/无学分，未开展Day10。Final report：outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity.md；receipt在同名multipolarity-run-01/run.json。原562-page baseline继续用于final验收，不重建。
 
-当前 branch main；已发布稳定指针是 Bound DAY8 truncation and independent calibration（第七26-file检查点，Gitee非force/H3通过，hash只在run.json）。本次第八检查点的 commit subject 为 Audit DAY8 reference coverage and photon width bounds。15:00正式收束、最终state推进和DAY9 plan/prompt尚未进行；不得把窗口内commit当作课程final。
+Branch main，final commit message：Complete DAY8 learning and prepare formal DAY9。最近窗口checkpoint为Audit DAY8 reference coverage and photon width bounds，Gitee非force/H3已通过；本次final实际结果/hash以run receipt为准，不amend已发布checkpoints。当前finalchecks/state/publication在收束，source/claim review flags未清、无human-review event，所有新增theory controls仍L2/noL4。
 
-最新科学增量：95/329 truncation probability/finite-density bounds、54 magnetic domain、99 parity-duality cascade、96 independent J2 reference floor、72 complete M3/E4 omission、60 parity-null-converse均parent复现，知识已写到RB67-21–25/LKH82-15–16及observable/method，日报唯一七页writeback已同步。Independent controlled-budget/reference reviews已parent复现；J3 pure-E2 reference高阶盲区75、helicity-scope44、photonfloor44/1184及material supplement-scope72都已writeback到RB67-26/27、LKH82-17。当前selected是nonγ inventory floor与Day9同母态ratio/covariance的唯一无学分路线。参数/模型条件、no microscopic realization和旧review flags保持；缺实际response/covariance/priors，不进入L4。
+Durable delta在LKH82-15–18、RB67-21–28、MU08-9及mixing/spinmethod/lifetime synthesis；旧KB08人审不覆盖dated supplement。主与独立math/CG/covariance审计已parent复现。Independent photonwidth supplement1个per-pair/sum label drift已用72-check补充澄清，冻结旧receipt；无未隔离technicalhardP0。实际Gamma/ICC/branchbasis、covariance、event/response/currentpriors/CMcoherence缺口由Codex保留，不补实验事实。
 
-硬截止2026-10-08T15:00:00+08:00，15:00–16:00收束并生成正式DAY9。Clock PID110255/Farmer87927仍用既有进程；以clock-state和Farmer state核实际在线/取消，queued不等于executed。旧checkpoint-003已在10-07 17:41实执行，不沿用其06:19快照。最新10:33 fresh clock还有约267分钟，clock已queue17条、observed execution3条；等待不计研究时长。无用户停止记录，不新建session或从提醒重启daemon。
+正式DAY9plan：outputs/plans/2026-10-08-DAY9-be2-bm1-reduced-matrix-elements-strengths.md；prompt：outputs/learning-daily/prompts/20261008-DAY9-be2-bm1-reduced-matrix-elements-strengths.md，15:02生成，RUN_ID/OUTPUT_DIR由normalrunner绑定。正式Day9新session需自己的primedrecall/evidence/audit；16:00计划开始，10-09 15:00研究截止。课程仅Day8通过normalstatefunction后next9/count8，Day9不提前credit。
 
-保护：raw、PLAN、受保护BibTeX、继承dirty daemon、旧run目录与全部review状态不变。独占数学receipt immutable，source_code/replay的input SHA不得因加metadata漂移。P0技术阻塞无；科学missing priors、branch定义/feeding/covariance和physical realization由Codex跟踪，不转成泛化用户待办。
+保护raw/PLAN/BibTeX/继承dirtydaemon/旧run和review flags；ownmathreceipts immutable。Clock110255/Farmer87927以实际PID/状态为准；closeout释放clock双锁后仅按原daily授权恢复16:00schedule，explicitprofiles Luna/max→Sol/high→Astra/medium，不使用inheritxhigh默认。实际进程与nextdue核验见receipt；不因旧queued bot提示重开已完成Day8、重计学分或新建主session。
 
-续接先读run.json/research-checkpoint/continuation-prompt并刷新clock。15:00停止新研究；用原baseline对用户明确日报路径调用run_checks，要求唯一[8]complete/[9]partial及五行audit，通过boundary/lint/diff和Gitee非force/H3后才以update_state_for_curriculum_cards原子保存next9/count8。prepare_next_prompt(get_paths(root),"2026-10-08",9)生成正式DAY9，并修旧模板越卡credit措辞；预习不计正式Day9 recall/evidence/audit。继承daemon含不兼容xhigh保持不改，当前不启动；结束前核下日调度与锁、授权model链。
-
-Session：01a111fb-370d-7ed1-afe9-881ccc47caf4。Resume：codex resume 01a111fb-370d-7ed1-afe9-881ccc47caf4 -C /workspace/wiki -s danger-full-access -a never。用户已授权farmer/go-on/all/auto、subagents和Wiki范围正常commit/push；不可逆操作仍单独受限。
+Session01a111fb-370d-7ed1-afe9-881ccc47caf4；resume：codex resume 01a111fb-370d-7ed1-afe9-881ccc47caf4 -C /workspace/wiki -s danger-full-access -a never。若receipt已completed，旧Day8提醒仅核对完成状态；真实用户的新指令才开启后续工作。正常Gitee非force发布已由用户持续授权，危险/不可逆动作仍不在本轮范围。
 
 ## Previous active handoff — DAY7 resumed window closed; Day8 pre-study uncredited
 

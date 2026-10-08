@@ -17,7 +17,7 @@ updated: 2026-10-08
 | 沿轴方向W=0，是selection forbidden或总强度hindered的证据吗？ | 不能。方向干涉/布居零点不意味着全角宽度零；同固定非零幅度的两ρ可有相同正integratedwidth。 | RB67 p.318 Eq.3.29；RB67-26 |
 | γ2 polarization 是否直接证明 γ1 E/M type？ | 对已direction-tagged但first-pol未测的E/Mduality，middleρ相同，γ2任意fixedeffect仍相同；直接证据归于实际测的γ/gate。链式宇称推断还需独立anchors。 | RB67-23 |
 | 无odd K与两inclusive helicity相等是否证明definite parity？ | 都不能逆推。各有多个充分条件；general coherent E/M的per-q equality只要求ReX=0。 | RB67-25/27 |
-| 已有total parentτ和一条总分支，能否给same-pair photon width floor？ | 需证明分支inventory与absolute radiative probability；E0/IC和遗漏通道可让photonwidth趋0。若complete非γ有独立上界，才另推conditionalfloor。 | LKH82-17；库存补全route尚待核验 |
+| 已有total parentτ和一条总分支，能否给same-pair photon width floor？ | 需证明分支inventory与absolute radiative probability；E0/IC和遗漏通道可让photonwidth趋0。若complete非γ有独立上界，才另推conditionalfloor。 | LKH82-17；LKH82-18库存条件已核验；实际priors未提供 |
 | B、Qt、reverseB以及同母态比值是否各算独立观测？ | 它们可能共享τ/branch/mixing/model，reverseB更是确定性转换；应保留函数依赖、covariance和inputprior，不能重复计证。 | LKH82-13；MU08-5/8；lifetime synthesis |
 
 以上答案已在对应知识页可复述；本记录不计入额外日卡或 L4，后续条件补全须按其实际核验更新。

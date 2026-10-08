@@ -8,7 +8,7 @@
   "schedule_id": "wiki-daily-learning",
   "schedule_name": "Wiki 30-day substantive daily learning",
   "project_root": "/workspace/wiki",
-  "status": "running",
+  "status": "closing-out",
   "run_kind": "substantive",
   "acceptance_only": false,
   "session_id": "01a111fb-370d-7ed1-afe9-881ccc47caf4",
@@ -41,10 +41,10 @@
     "preflight_exit": 0
   },
   "last_closeout_snapshot": {
-    "now_local": "2026-10-08T10:21:01.928801+08:00",
-    "clock_tool_checkpoint_utc": "2026-10-08 02:18:13 UTC",
+    "now_local": "2026-10-08T11:48:01.418745+08:00",
+    "clock_tool_checkpoint_utc": "2026-10-08 03:43:10 UTC",
     "hard_deadline": "2026-10-08T15:00:00+08:00",
-    "minutes_to_deadline": 278,
+    "minutes_to_deadline": 191,
     "decision": "continue-current-high-information",
     "day_index": 8,
     "permitted_next_card": "Day9 uncredited only"
@@ -332,16 +332,29 @@
       "run_finalized": false,
       "H3_passed": true,
       "files": 26
+    },
+    {
+      "branch": "main",
+      "commit_subject": "Audit DAY8 reference coverage and photon width bounds",
+      "commit_hash": "667fb05b886c17b9621b52841d2e73b83094fb8e",
+      "remote": "origin (Gitee)",
+      "refspec": "HEAD:main",
+      "fetch_exit": 0,
+      "remote_ancestor_exit": 0,
+      "dry_run_exit": 0,
+      "push_exit": 0,
+      "post_push_head_matches_remote_main": true,
+      "post_commit_files_match_manifest": true,
+      "published_at": "2026-10-08T10:56:40.432971+08:00",
+      "publication_kind": "continuing-checkpoint",
+      "run_finalized": false,
+      "H3_passed": true,
+      "files": 21
     }
   ],
   "continuation_prompt_file": "/workspace/wiki/outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/continuation-prompt.md",
-  "pending_research": [
-    "Day8 non-gamma inventory floor plus independent audit",
-    "Day9 same-parent ratio/covariance uncredited preview",
-    "nextcheckpoint08",
-    "15:00closeout"
-  ],
-  "pending_clock_delivery_count": 13,
+  "pending_research": [],
+  "pending_clock_delivery_count": 14,
   "observed_clock_executions": [
     {
       "timestamp": "2026-10-07T07:18:39.583689+08:00",
@@ -512,13 +525,28 @@
     },
     {
       "id": "day8-nongamma-inventory-floor",
-      "decision": "selected-bounded-primary-and-independent-audit",
-      "next_gain": "conditional bridge from total pair width plus independently bounded linked/extra non-gamma channels to positive same-pair photon width"
+      "decision": "bounded-primary-and-independent-review-complete",
+      "next_gain": "23primary/9independentgroups parentreplayed and LKH82-18 canonicalized; actualpriorinputs absent"
     },
     {
       "id": "day9-same-parent-strength-ratio",
       "decision": "selected-uncredited-preview-only",
       "next_gain": "exact cancellation versus branch-specific corrections and covariance; sameMU08I18parent only"
+    },
+    {
+      "id": "day8-isotropic-reduced-photon-rank-state",
+      "decision": "selected-bounded-existing-source-L2",
+      "next_gain": "single-photon pointobservables versus complete photon state; isotopefree original3cases only; calibrated trace-distance scope, no realcoherent detector"
+    },
+    {
+      "id": "day8-more-coherent-detector-engineering",
+      "decision": "rejected-outside-bounded-exercise",
+      "next_gain": "No source-position/recoil/response input; abstractrankprojector is not detectorimplementation, no new unit opened"
+    },
+    {
+      "id": "day9-additional-parent-or-atomic-inputs",
+      "decision": "deferred-preview-saturation",
+      "next_gain": "Same-parent33+7/8review sourcebasiscov gap traced; newcases/queries do not resolve authorinputidentity/coverage without missingpackage"
     }
   ],
   "last_recoverable_checkpoint": "research-checkpoint.json",
@@ -543,17 +571,16 @@
   },
   "latest_publication_pointer": {
     "branch": "main",
-    "subject": "Bound DAY8 truncation and independent calibration",
+    "subject": "Audit DAY8 reference coverage and photon width bounds",
     "H3_passed": true
   },
   "latest_runtime_snapshot": {
-    "now_local": "2026-10-08T10:21:01.928801+08:00",
-    "clock_tool_checkpoint_utc": "2026-10-08 02:18:13 UTC",
+    "now_local": "2026-10-08T15:02:22.237010+08:00",
     "hard_deadline": "2026-10-08T15:00:00+08:00",
-    "minutes_to_deadline": 278,
-    "decision": "continue-current-high-information",
-    "day_index": 8,
-    "permitted_next_card": "Day9 uncredited only"
+    "minutes_to_deadline": 0,
+    "next_scheduled_start": "2026-10-08T16:00:00+08:00",
+    "decision": "closeout-only",
+    "day_index": 8
   },
   "runtime_snapshots": [
     {
@@ -592,6 +619,68 @@
       "decision": "continue-current-high-information",
       "day_index": 8,
       "permitted_next_card": "Day9 uncredited only"
+    },
+    {
+      "now_local": "2026-10-08T11:25:09.636184+08:00",
+      "clock_tool_checkpoint_utc": "2026-10-08 03:09:21 UTC",
+      "hard_deadline": "2026-10-08T15:00:00+08:00",
+      "minutes_to_deadline": 214,
+      "decision": "continue-current-high-information",
+      "day_index": 8,
+      "permitted_next_card": "Day9 uncredited only"
+    },
+    {
+      "now_local": "2026-10-08T11:48:01.418745+08:00",
+      "clock_tool_checkpoint_utc": "2026-10-08 03:43:10 UTC",
+      "hard_deadline": "2026-10-08T15:00:00+08:00",
+      "minutes_to_deadline": 191,
+      "decision": "continue-current-high-information",
+      "day_index": 8,
+      "permitted_next_card": "Day9 uncredited only"
+    },
+    {
+      "now_local": "2026-10-08T11:58:49.093973+08:00",
+      "clock_tool_checkpoint_utc": "2026-10-08 03:56:09 UTC",
+      "hard_deadline": "2026-10-08T15:00:00+08:00",
+      "minutes_to_deadline": 181,
+      "decision": "continue-current-high-information",
+      "day_index": 8,
+      "permitted_next_card": "Day9 uncredited only"
+    },
+    {
+      "now_local": "2026-10-08T13:19:25.529744+08:00",
+      "clock_tool_checkpoint_utc": "2026-10-08 05:16:44 UTC",
+      "hard_deadline": "2026-10-08T15:00:00+08:00",
+      "minutes_to_deadline": 100,
+      "decision": "continue-current-bounded-only",
+      "day_index": 8,
+      "permitted_next_card": "Day9 already-previewed no additionalcredit"
+    },
+    {
+      "now_local": "2026-10-08T13:43:42.355025+08:00",
+      "clock_tool_checkpoint_utc": "2026-10-08 05:39:12 UTC",
+      "hard_deadline": "2026-10-08T15:00:00+08:00",
+      "minutes_to_deadline": 76,
+      "decision": "finish-current-no-new-unit",
+      "day_index": 8,
+      "new_sources_cards_allowed": false,
+      "permitted_next_card": "Day9 already-previewed uncredited"
+    },
+    {
+      "now_local": "2026-10-08T14:17:12.869531+08:00",
+      "hard_deadline": "2026-10-08T15:00:00+08:00",
+      "minutes_to_deadline": 42,
+      "decision": "finish-current-no-new-unit",
+      "day_index": 8,
+      "new_sources_cards_allowed": false
+    },
+    {
+      "now_local": "2026-10-08T15:02:22.237010+08:00",
+      "hard_deadline": "2026-10-08T15:00:00+08:00",
+      "minutes_to_deadline": 0,
+      "next_scheduled_start": "2026-10-08T16:00:00+08:00",
+      "decision": "closeout-only",
+      "day_index": 8
     }
   ],
   "parent_verified_latest": {
@@ -601,6 +690,35 @@
     "parity_duality": 99,
     "population_calibration": 96,
     "controlled_four_mode": 72,
-    "nondefinite_parity": 60
-  }
+    "nondefinite_parity": 60,
+    "nongamma_inventory": 23,
+    "day9_same_parent_ratio": 33,
+    "isotropic_photon_rank": 32
+  },
+  "research_window_closed": true,
+  "research_cutoff_at": "2026-10-08T15:00:00+08:00",
+  "closeout_started_at": "2026-10-08T15:02:22.237010+08:00",
+  "run_finalized": false,
+  "course_state_updated": false,
+  "next_prompt_file": "/workspace/wiki/outputs/learning-daily/prompts/20261008-DAY9-be2-bm1-reduced-matrix-elements-strengths.md",
+  "next_learning_plan_file": "/workspace/wiki/outputs/plans/2026-10-08-DAY9-be2-bm1-reduced-matrix-elements-strengths.md",
+  "next_formal_day_index": 9,
+  "next_formal_day_credit_awarded": false,
+  "new_research_allowed": false,
+  "final_independent_scientific_audits_complete": true,
+  "final_physics_status": "complete-Day8-deliverables-and-bounded-audits",
+  "final_independent_review": {
+    "material_findings": 0,
+    "focused_CG": 12,
+    "original_case_comparisons": 3,
+    "parent_replay_exit": 0
+  },
+  "final_required_command_exits": {
+    "boundary": 0,
+    "lint": 0,
+    "git_diff_check": 0,
+    "lint_errors": 0,
+    "lint_existing_warnings": 91
+  },
+  "final_commit_subject": "Complete DAY8 learning and prepare formal DAY9"
 }

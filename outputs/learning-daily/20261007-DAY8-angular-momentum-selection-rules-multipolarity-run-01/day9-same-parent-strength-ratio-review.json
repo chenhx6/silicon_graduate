@@ -1,0 +1,222 @@
+{
+  "schema_version": 1,
+  "artifact_kind": "Day9-uncredited-independent-same-parent-strength-ratio-covariance-review",
+  "status": "passed-independent-ratio-derivative-and-conditional-SD-audit; actual-covariance-not-supplied",
+  "day_index": 8,
+  "parent_day_index": 8,
+  "preview_day_index": 9,
+  "partial_day_indices": [
+    9
+  ],
+  "course_credit_awarded": false,
+  "Day10_opened": false,
+  "run_closed": false,
+  "L4": false,
+  "new_source_or_nucleus": false,
+  "experimental_data_fit": false,
+  "actual_covariance_supplied": false,
+  "input": {
+    "path": "outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/day9-same-parent-strength-ratio.json",
+    "sha256": "c29c7fdc17bc4e3fd44b4d40c43a1bef975089302c6ec25eeacbdd9c37a6fe93",
+    "producer_reported_checks": 33,
+    "producer_or_prior_code_executed_or_imported": false
+  },
+  "protected_input_sha256": {
+    "outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/day9-same-parent-strength-ratio.json": "c29c7fdc17bc4e3fd44b4d40c43a1bef975089302c6ec25eeacbdd9c37a6fe93",
+    "outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/day9-strength-unit-audit.json": "0913dc388d5852c1d95bdf6fdc4007602748eed97504fda903fef911a6295a1d",
+    "outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/day9-strength-input-packet.json": "756d1b98bd4affc98a6a6e64b2a6843b5773997b16b909fe092cbed867375a90",
+    "outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/day9-vacancy-sensitivity.json": "a4969d02768572343d2917b3fba16e29310b7e8d5b2a2bceac229c2ee6ec3613",
+    "raw/papers/gpt/high-spin-20260920/review/1982_Lange et al_E0-E2-M1 multipole admixtures of transitions in even-even nuclei.pdf": "ed925a0577a9257903806acd209c1db707529e86a5bfd9a301a83d597bf78ffb",
+    "raw/papers/gpt/high-spin-20260920/三轴/手征/2008_Mukhopadhyay et al_Electromagnetic transition rates in high-spin bands in Nd 136.pdf": "ea77d7d033051369d19aad2f82a542e91e262eb490d518b246f7f04c2d0dcd2c",
+    "tmp/day8-20261007/day9-preview/mukhopadhyay/table-I.png": "103c94c5e2310c686daf3fb92d2cb070cf1628382c5fc0d3d21126b0edd54ca0",
+    "tmp/day8-20261007/lange-kumar/day9-same-parent-strength-ratio/same_parent_strength_ratio.py": "8880c52bfc94233748e8ba3c6b33d20fe137576e0e53199abd865cc746a7fd0c"
+  },
+  "independent_core": {
+    "status": "independent-mathematical-controls-only; producer-comparisons-recorded-separately",
+    "input_SHA": {
+      "outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/day9-strength-unit-audit.json": "0913dc388d5852c1d95bdf6fdc4007602748eed97504fda903fef911a6295a1d",
+      "outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/day9-strength-input-packet.json": "756d1b98bd4affc98a6a6e64b2a6843b5773997b16b909fe092cbed867375a90"
+    },
+    "source_centers": [
+      "57/100",
+      "6/25",
+      "19/100"
+    ],
+    "source_quoted_errors": [
+      "3/50",
+      "1/50",
+      "1/50"
+    ],
+    "energies_MeV": [
+      "1003/2500",
+      "3787/5000",
+      "487/1250"
+    ],
+    "conditional_photon_strength_ratio": "33665168822622005314862910317986243/5270847991381552938261108480000000",
+    "ratio_decimal_display": 6.387049840494064,
+    "ratio_units": "mu_N^2/(e^2 b^2)",
+    "ratio_numeric_boundary": "Arithmetic of frozen decimal coefficients/source centers under pure M1/E2 and corrected photon-intensity assumptions; not measurement precision.",
+    "conditional_hypothesis": "Samplewise Fa+Fb+Fc=1, finite variances, all three quoted errors literally marginal SDs of one joint distribution. This hypothesis is impossible; no Gaussian premise is used.",
+    "inconsistent_hypothesis_reductio_matrix": [
+      [
+        "9/2500",
+        "-9/5000",
+        "-9/5000"
+      ],
+      [
+        "-9/5000",
+        "1/2500",
+        "7/5000"
+      ],
+      [
+        "-9/5000",
+        "7/5000",
+        "1/2500"
+      ]
+    ],
+    "reductio_matrix_eigenvalues": [
+      "0",
+      "-1/1000",
+      "27/5000"
+    ],
+    "reductio_contrast_variance": "-1/500",
+    "reductio_boundary": "Not a source covariance estimate; never use this indefinite matrix to propagate a physical error or declare author error.",
+    "nuisance_logB_covariance_coefficient_matrices": {
+      "common_B": [
+        [
+          "1",
+          "1"
+        ],
+        [
+          "1",
+          "1"
+        ]
+      ],
+      "common_energy": [
+        [
+          "9",
+          "15"
+        ],
+        [
+          "15",
+          "25"
+        ]
+      ]
+    },
+    "nuisance_variance_contraction_coefficients": {
+      "common_B": "0",
+      "common_energy": "4"
+    },
+    "calibration_scope": "Energy +2 is the photon-I route at fixed corrected intensities and coefficient convention. True total-branch alpha(E) derivatives remain additional terms; actual covariance is not supplied.",
+    "checks": {
+      "only_original_I18_three_branches": true,
+      "source_centers_normalize_and_photon_pair_ratio": true,
+      "literal_joint_SD_hypothesis_violates_distribution_free_triangle": true,
+      "hypothesis_only_matrix_has_exact_eigenwitnesses": true,
+      "hypothesis_only_negative_contrast_variance": true,
+      "common_B_and_energy_nuisance_coefficients_differ": true,
+      "MeV_coefficient_chart_keV_error_power": true
+    }
+  },
+  "recomputed_forward_control": {
+    "three_original_photon_intensities": [
+      "57/100",
+      "6/25",
+      "19/100"
+    ],
+    "inherited_FO_alpha": [
+      "4/125",
+      "13/3125",
+      "69/2000"
+    ],
+    "shared_D": "5128967/5000000",
+    "photon_strength_ratio_pure_prior": "33665168822622005314862910317986243/5270847991381552938261108480000000",
+    "same_numbers_true_total_route_modifier": "1046/1075",
+    "same_numbers_total_route_ratio_pure_prior": "17606883294231308779673302096306805089/2833080795367584704315345808000000000",
+    "consistent_basis_conversion_reproduces_photon_ratio": "33665168822622005314862910317986243/5270847991381552938261108480000000"
+  },
+  "conditional_source_interpretation_finding": {
+    "same_joint_normalized_SD_hypothesis_rejected": true,
+    "source_author_error_declared": false,
+    "actual_covariance_reconstructed": false,
+    "inference": "Exact samplewise three-fraction normalization and quoted errors as simultaneous finite-variance joint marginal SDs cannot coexist. Source definitions/estimator/coverage remain unresolved; source quotes, branches and review flags are unchanged."
+  },
+  "manual_semantic_and_source_audit": {
+    "scope_and_purity": "PASS: only one existing parent/two selected lines/original third branch. Unknown selected component fractions remain in the general ratio; pure M1/E2 is an extraction prior, not a measured delta or proof that higher multipoles vanish. This cross-branch ratio is not a same-gamma mixing ratio.",
+    "units": "PASS: lambda is a photon rate; physical B definitions already include spin normalization. KE/KM with Eb^5/Ea^3 produces mu_N^2/(e^2b^2), not a dimensionless ratio. Reference unit choices permit logs; consistent MeV/keV coefficient conversion preserves the physical ratio.",
+    "energy_and_covariance": "PASS: common energy+2 is fixed photon-I/radiative fraction/K chart. True total branches keep individual h factors and alpha(E) derivatives. Common log-normalizer cancellation includes its cross-covariances; actual log covariance needs finite log second moments. Raw errorbar propagation is local unless the full joint law is propagated.",
+    "source_statistics": "PASS: the L2 SD triangle is distribution-free under its explicit conditional hypothesis. Neither negative reductio moment matrix nor published marginal errors supplies an actual covariance, standard error, confidence interval or author-error conclusion.",
+    "source_reading": "Independently visually confirmed only MU08 TableI I18 row and same-source TableII I18 row/caption plus pure-M1/stopping paragraph. No full-source reread or new source is claimed. LKH82 p121 rate/B and existing frozen modern coefficients are reused.",
+    "systematics": "PASS: stopping/feeding or calibration that changes selected intensities/fractions/energy follows upstream chain rules. No blanket inter-band cancellation, assignment of15% as1-sigma, actual FO radius/tail/penetration repair or independent confirmation by derived outputs is claimed."
+  },
+  "material_producer_findings": [],
+  "required_corrections": [],
+  "independent_checks": {
+    "core": {
+      "only_original_I18_three_branches": true,
+      "source_centers_normalize_and_photon_pair_ratio": true,
+      "literal_joint_SD_hypothesis_violates_distribution_free_triangle": true,
+      "hypothesis_only_matrix_has_exact_eigenwitnesses": true,
+      "hypothesis_only_negative_contrast_variance": true,
+      "common_B_and_energy_nuisance_coefficients_differ": true,
+      "MeV_coefficient_chart_keV_error_power": true
+    },
+    "producer_comparisons": {
+      "same_parent_photon_common_inventory_cancels": {
+        "passed": true,
+        "detail": "The one inherited FO parent ledger includes all three original intensities. Its common D cancels exactly from the selected photon rate ratio; common tau and positive strength scale do likewise."
+      },
+      "total_branch_individual_factors_and_consistent_conversion": {
+        "passed": true,
+        "detail": "True total pair inputs retain h_b/h_a. Converting the same photon ledger consistently reproduces the photon route. Holding the same printed numbers but changing their basis instead multiplies by1046/1075."
+      },
+      "only_inherited_FO_point_and_warnings_retained": {
+        "passed": true,
+        "detail": "No new lookup or tail/radius/penetration repair. These fixed-energy approximate theoretical Tot values cannot identify the authors' ICC or serve as an actual uncertainty/complete-current prior."
+      },
+      "photon_Jacobians_and_exact_common_log_contrast": {
+        "passed": true,
+        "detail": "Each supplied arithmetic row is checked at the one inherited parent fixture with an arithmetic-only AST reader. The independent derivative contrast has zero common s/tau/IC/extra/missing-normalizer columns and retains selected component fractions."
+      },
+      "total_branch_Jacobian_residual_conversion": {
+        "passed": true,
+        "detail": "In raw alpha coordinates residual derivatives are-1/(1+alpha_a),+1/(1+alpha_b). A shared additive alpha shift generally survives; pure multiplicative h changes cancel."
+      },
+      "exact_affine_log_covariance_is_not_raw_delta_method": {
+        "passed": true,
+        "detail": "For actual finite log-coordinate covariance, affine log B implies exact A Sigma A^T and exact contrast h Sigma h^T. Raw-coordinate J Sigma J^T is local delta-method propagation; neither an actual Sigma nor Var(R)/CI is inferred here."
+      },
+      "source_quotes_and_positive_fraction_chart_preserved": {
+        "passed": true,
+        "detail": "TableI quotes and original third line are retained. The primary supports unknown selected radiative fractions, distinguishes them from total branches, and declares no actual covariance."
+      },
+      "conditional_SD_triangle_scope_and_optional_rounding": {
+        "passed": true,
+        "detail": "The samplewise-normalized/joint-marginal-SD hypothesis is impossible without Gaussian assumptions. The optional nearest.01 SD rounding model is also insufficient, but is not asserted to be the source's reporting model."
+      }
+    },
+    "all_passed": true,
+    "method": "Small exact Fraction/covariance coefficient comparisons at the original parent; no grid or cumulative check score."
+  },
+  "integrity": {
+    "frozen_inputs_before_after_match": true,
+    "producer_source_embedded_hash_matches": true,
+    "producer_default_writer_statically_read_only_and_exclusive": true,
+    "producer33_metadata_consistent": true
+  },
+  "evidence_class": "Independent mathematical/source-semantic self-audit, not human-reviewed; no actual covariance/precision or new experimental conclusion",
+  "reproducibility": {
+    "script": "tmp/day8-20261007/rose-brink/day9-same-parent-strength-ratio-review/review_same_parent_ratio.py",
+    "script_sha256": "63928b4b4a8a52d766cd01d100f87f03fa84a700fe5d103e8b0ff783c481e6cd",
+    "source_code": "#!/usr/bin/env python3\n\"\"\"Independent read-only one-parent ratio/domain audit; no producer execution.\"\"\"\nimport sys\nsys.dont_write_bytecode = True\n\nimport argparse\nimport ast\nfrom fractions import Fraction as F\nimport hashlib\nimport json\nfrom pathlib import Path\n\nfrom ratio_covariance_core import build_core, encoded, matvec\n\nROOT = Path(__file__).resolve().parents[4]\nRUN = Path(\"outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01\")\nPRODUCER = RUN / \"day9-same-parent-strength-ratio.json\"\nOUT = RUN / \"day9-same-parent-strength-ratio-review.json\"\nEXPECTED = {\n    str(PRODUCER): \"c29c7fdc17bc4e3fd44b4d40c43a1bef975089302c6ec25eeacbdd9c37a6fe93\",\n    str(RUN / \"day9-strength-unit-audit.json\"): \"0913dc388d5852c1d95bdf6fdc4007602748eed97504fda903fef911a6295a1d\",\n    str(RUN / \"day9-strength-input-packet.json\"): \"756d1b98bd4affc98a6a6e64b2a6843b5773997b16b909fe092cbed867375a90\",\n    str(RUN / \"day9-vacancy-sensitivity.json\"): \"a4969d02768572343d2917b3fba16e29310b7e8d5b2a2bceac229c2ee6ec3613\",\n    \"raw/papers/gpt/high-spin-20260920/review/1982_Lange et al_E0-E2-M1 multipole admixtures of transitions in even-even nuclei.pdf\": \"ed925a0577a9257903806acd209c1db707529e86a5bfd9a301a83d597bf78ffb\",\n    \"raw/papers/gpt/high-spin-20260920/三轴/手征/2008_Mukhopadhyay et al_Electromagnetic transition rates in high-spin bands in Nd 136.pdf\": \"ea77d7d033051369d19aad2f82a542e91e262eb490d518b246f7f04c2d0dcd2c\",\n    \"tmp/day8-20261007/day9-preview/mukhopadhyay/table-I.png\": \"103c94c5e2310c686daf3fb92d2cb070cf1628382c5fc0d3d21126b0edd54ca0\",\n}\n\n\ndef sha(data):\n    return hashlib.sha256(data).hexdigest()\n\n\ndef expression_value(source, values):\n    \"\"\"Evaluate arithmetic data only, with no functions/attributes/Python eval.\"\"\"\n    def visit(node):\n        if isinstance(node, ast.Expression):\n            return visit(node.body)\n        if isinstance(node, ast.Constant) and isinstance(node.value, int):\n            return F(node.value)\n        if isinstance(node, ast.Name):\n            return values[node.id]\n        if isinstance(node, ast.UnaryOp) and isinstance(node.op, ast.USub):\n            return -visit(node.operand)\n        if isinstance(node, ast.BinOp):\n            a, b = visit(node.left), visit(node.right)\n            if isinstance(node.op, ast.Add):\n                return a + b\n            if isinstance(node.op, ast.Sub):\n                return a - b\n            if isinstance(node.op, ast.Mult):\n                return a * b\n            if isinstance(node.op, ast.Div):\n                return a / b\n        raise ValueError(\"Non-arithmetic expression data rejected\")\n    return visit(ast.parse(source, mode=\"eval\"))\n\n\ndef build():\n    records, protected, inputs = {}, {}, {}\n\n    def check(name, condition, detail):\n        records[name] = {\"passed\": bool(condition), \"detail\": detail}\n        if not condition:\n            raise AssertionError(name)\n\n    for path, expected in EXPECTED.items():\n        data = (ROOT / path).read_bytes()\n        if sha(data) != expected:\n            raise AssertionError(\"Frozen input SHA changed: \" + path)\n        protected[path] = expected\n        if path.endswith(\".json\"):\n            inputs[path] = json.loads(data)\n    core = build_core()\n    core[\"status\"] = \"independent-mathematical-controls-only; producer-comparisons-recorded-separately\"\n    d = inputs[str(PRODUCER)]\n    fo = inputs[str(RUN / \"day9-vacancy-sensitivity.json\")][\"FO_baseline\"]\n    ids = [\"B1-I18-401p2\", \"B1-I18-757p4\", \"B1-I18-389p6\"]\n    alphas = [F(fo[key][\"alpha_T\"][\"value\"]) for key in ids]\n    I = core[\"source_centers\"]\n    E = core[\"energies_MeV\"]\n    h = [1 + value for value in alphas]\n    D = sum(I[i] * h[i] for i in range(3))\n    photon_rate_normalized = [I[i] / D for i in range(3)]\n    factor = h[1] / h[0]\n    R = core[\"conditional_photon_strength_ratio\"]\n    total_as_same_numbers = R * factor\n    beta_from_same_photons = [I[i] * h[i] / D for i in range(3)]\n    converted_R = R / (I[0] / I[1]) * beta_from_same_photons[0] / beta_from_same_photons[1] * factor\n    check(\"same_parent_photon_common_inventory_cancels\",\n          photon_rate_normalized[0] / photon_rate_normalized[1] == I[0] / I[1]\n          and D == F(\"1.0257934\"),\n          \"The one inherited FO parent ledger includes all three original intensities. Its common D cancels exactly from the selected photon rate ratio; common tau and positive strength scale do likewise.\")\n    check(\"total_branch_individual_factors_and_consistent_conversion\",\n          factor == F(1046, 1075) == F(d[\"existing_FO_forward_control\"][\"same_numbers_total_over_photon_ratio_modifier\"])\n          and converted_R == R and total_as_same_numbers / R == factor,\n          \"True total pair inputs retain h_b/h_a. Converting the same photon ledger consistently reproduces the photon route. Holding the same printed numbers but changing their basis instead multiplies by1046/1075.\")\n    check(\"only_inherited_FO_point_and_warnings_retained\",\n          F(d[\"existing_FO_forward_control\"][\"alpha_total_401p2_M1\"]) == alphas[0]\n          and F(d[\"existing_FO_forward_control\"][\"alpha_total_757p4_E2\"]) == alphas[1]\n          and d[\"existing_FO_forward_control\"][\"new_atomic_queries\"] == 0\n          and d[\"existing_FO_forward_control\"][\"coverage_warnings\"][\"401p2\"] == fo[ids[0]][\"warnings\"]\n          and d[\"existing_FO_forward_control\"][\"coverage_warnings\"][\"757p4\"] == fo[ids[1]][\"warnings\"],\n          \"No new lookup or tail/radius/penetration repair. These fixed-energy approximate theoretical Tot values cannot identify the authors' ICC or serve as an actual uncertainty/complete-current prior.\")\n    values = {\"I_a\": I[0], \"I_b\": I[1], \"I_c\": I[2], \"alpha_a\": alphas[0],\n              \"alpha_b\": alphas[1], \"alpha_c\": alphas[2], \"D_missing\": F(0), \"b_extra\": F(0)}\n    j = d[\"exact_log_Jacobians\"]\n    JM = list(map(lambda text: expression_value(text, values), j[\"log_BM_row\"]))\n    JE = list(map(lambda text: expression_value(text, values), j[\"log_BE_row\"]))\n    base = [1, -1, -I[0]*h[0]/D, -I[1]*h[1]/D, -I[2]*h[2]/D, -1,\n            -I[0]/D, -I[1]/D, -I[2]/D, 0, 0, 0, 0, -1/D]\n    expected_M, expected_E = list(map(F, base)), list(map(F, base))\n    expected_M[2] += 1\n    expected_M[9], expected_M[11] = F(1), F(-3)\n    expected_E[3] += 1\n    expected_E[10], expected_E[12] = F(1), F(-5)\n    contrast = [F(0), F(0), F(1), F(-1), F(0), F(0), F(0), F(0), F(0), F(1), F(-1), F(-3), F(5), F(0)]\n    check(\"photon_Jacobians_and_exact_common_log_contrast\",\n          JM == expected_M and JE == expected_E and [a-b for a,b in zip(JM, JE)] == contrast\n          and list(map(F, j[\"log_ratio_row\"])) == contrast,\n          \"Each supplied arithmetic row is checked at the one inherited parent fixture with an arithmetic-only AST reader. The independent derivative contrast has zero common s/tau/IC/extra/missing-normalizer columns and retains selected component fractions.\")\n    expected_total = [F(0), F(0), F(1), F(-1), F(1), F(-1), F(-3), F(5), -1/h[0], 1/h[1]]\n    check(\"total_branch_Jacobian_residual_conversion\",\n          [expression_value(text, values) for text in j[\"total_pair_log_ratio_row\"]] == expected_total,\n          \"In raw alpha coordinates residual derivatives are-1/(1+alpha_a),+1/(1+alpha_b). A shared additive alpha shift generally survives; pure multiplicative h changes cancel.\")\n    A = [[F(value) for value in row] for row in d[\"covariance_and_no_double_count\"][\"A\"]]\n    affine_h = [A[0][i] - A[1][i] for i in range(7)]\n    check(\"exact_affine_log_covariance_is_not_raw_delta_method\",\n          A == [[F(1),F(1),F(0),F(1),F(0),F(-3),F(0)], [F(1),F(0),F(1),F(0),F(1),F(0),F(-5)]]\n          and affine_h == list(map(F, d[\"covariance_and_no_double_count\"][\"h_ratio\"]))\n          == [F(0),F(1),F(-1),F(1),F(-1),F(-3),F(5)],\n          \"For actual finite log-coordinate covariance, affine log B implies exact A Sigma A^T and exact contrast h Sigma h^T. Raw-coordinate J Sigma J^T is local delta-method propagation; neither an actual Sigma nor Var(R)/CI is inferred here.\")\n    branches = d[\"one_current_parent\"][\"all_three_printed_branches\"]\n    check(\"source_quotes_and_positive_fraction_chart_preserved\",\n          [row[\"printed_branch\"] for row in branches] == [\"0.57(6)\",\"0.24(2)\",\"0.19(2)\"]\n          and [row[\"E_keV\"] for row in branches] == [\"401.2\",\"757.4\",\"389.6\"]\n          and d[\"actual_covariance_supplied\"] is False,\n          \"TableI quotes and original third line are retained. The primary supports unknown selected radiative fractions, distinguishes them from total branches, and declares no actual covariance.\")\n    check(\"conditional_SD_triangle_scope_and_optional_rounding\",\n          core[\"source_quoted_errors\"][0] > sum(core[\"source_quoted_errors\"][1:])\n          and F(55,1000) > F(25,1000) + F(25,1000),\n          \"The samplewise-normalized/joint-marginal-SD hypothesis is impossible without Gaussian assumptions. The optional nearest.01 SD rounding model is also insufficient, but is not asserted to be the source's reporting model.\")\n\n    rep = d[\"reproducibility\"]\n    producer_code = (ROOT / rep[\"code\"]).read_bytes()\n    if producer_code != rep[\"source_code\"].encode() or sha(producer_code) != rep[\"script_sha256\"]:\n        raise AssertionError(\"Producer complete source SHA mismatch\")\n    protected[rep[\"code\"]] = sha(producer_code)\n    parsed = ast.parse(producer_code)\n    main = next(node for node in parsed.body if isinstance(node, ast.FunctionDef) and node.name == \"main\")\n    writers = [node for node in ast.walk(parsed) if isinstance(node, ast.Call) and isinstance(node.func, ast.Attribute) and node.func.attr == \"open\"]\n    guards = [node for node in ast.walk(main) if isinstance(node, ast.If) and isinstance(node.test, ast.Attribute) and node.test.attr == \"write_receipt\"]\n    guarded = [node for guard in guards for node in ast.walk(guard) if isinstance(node, ast.Call) and isinstance(node.func, ast.Attribute) and node.func.attr == \"open\"]\n    if not (len(writers) == len(guarded) == 1 and writers[0] is guarded[0] and writers[0].args[0].value == \"x\"):\n        raise AssertionError(\"Producer write is not exclusive and explicitly guarded\")\n    if sum(d[\"checks\"][\"passed_by_group\"].values()) != 33 or d[\"checks\"][\"total_passed\"] != 33 or d[\"checks\"][\"failures\"] != 0 or d[\"checks\"][\"grid_used\"]:\n        raise AssertionError(\"Producer33 check metadata changed\")\n    if not (d[\"day_index\"] == d[\"parent_day_index\"] == 8 and d[\"preview_day_index\"] == 9 and d[\"partial_day_indices\"] == [9]\n            and not any(d[key] for key in [\"course_credit_awarded\",\"Day10_opened\",\"run_closed\",\"new_session_or_goal\",\"new_source_or_nucleus\",\"L4\",\"experimental_data_fit\"])):\n        raise AssertionError(\"Course/scientific scope changed\")\n    for path, expected in protected.items():\n        if sha((ROOT/path).read_bytes()) != expected:\n            raise AssertionError(\"Protected input changed during audit: \" + path)\n    code_path = Path(__file__)\n    helper_path = code_path.with_name(\"ratio_covariance_core.py\")\n    notes_path = code_path.with_name(\"independent-proof.md\")\n    code, helper = code_path.read_bytes(), helper_path.read_bytes()\n    return {\n        \"schema_version\":1,\"artifact_kind\":\"Day9-uncredited-independent-same-parent-strength-ratio-covariance-review\",\n        \"status\":\"passed-independent-ratio-derivative-and-conditional-SD-audit; actual-covariance-not-supplied\",\n        \"day_index\":8,\"parent_day_index\":8,\"preview_day_index\":9,\"partial_day_indices\":[9],\n        \"course_credit_awarded\":False,\"Day10_opened\":False,\"run_closed\":False,\"L4\":False,\n        \"new_source_or_nucleus\":False,\"experimental_data_fit\":False,\"actual_covariance_supplied\":False,\n        \"input\":{\"path\":str(PRODUCER),\"sha256\":EXPECTED[str(PRODUCER)],\"producer_reported_checks\":33,\"producer_or_prior_code_executed_or_imported\":False},\n        \"protected_input_sha256\":protected,\"independent_core\":core,\n        \"recomputed_forward_control\":{\"three_original_photon_intensities\":I,\"inherited_FO_alpha\":alphas,\"shared_D\":D,\n            \"photon_strength_ratio_pure_prior\":R,\"same_numbers_true_total_route_modifier\":factor,\n            \"same_numbers_total_route_ratio_pure_prior\":total_as_same_numbers,\"consistent_basis_conversion_reproduces_photon_ratio\":converted_R},\n        \"conditional_source_interpretation_finding\":{\"same_joint_normalized_SD_hypothesis_rejected\":True,\n            \"source_author_error_declared\":False,\"actual_covariance_reconstructed\":False,\n            \"inference\":\"Exact samplewise three-fraction normalization and quoted errors as simultaneous finite-variance joint marginal SDs cannot coexist. Source definitions/estimator/coverage remain unresolved; source quotes, branches and review flags are unchanged.\"},\n        \"manual_semantic_and_source_audit\":{\n            \"scope_and_purity\":\"PASS: only one existing parent/two selected lines/original third branch. Unknown selected component fractions remain in the general ratio; pure M1/E2 is an extraction prior, not a measured delta or proof that higher multipoles vanish. This cross-branch ratio is not a same-gamma mixing ratio.\",\n            \"units\":\"PASS: lambda is a photon rate; physical B definitions already include spin normalization. KE/KM with Eb^5/Ea^3 produces mu_N^2/(e^2b^2), not a dimensionless ratio. Reference unit choices permit logs; consistent MeV/keV coefficient conversion preserves the physical ratio.\",\n            \"energy_and_covariance\":\"PASS: common energy+2 is fixed photon-I/radiative fraction/K chart. True total branches keep individual h factors and alpha(E) derivatives. Common log-normalizer cancellation includes its cross-covariances; actual log covariance needs finite log second moments. Raw errorbar propagation is local unless the full joint law is propagated.\",\n            \"source_statistics\":\"PASS: the L2 SD triangle is distribution-free under its explicit conditional hypothesis. Neither negative reductio moment matrix nor published marginal errors supplies an actual covariance, standard error, confidence interval or author-error conclusion.\",\n            \"source_reading\":\"Independently visually confirmed only MU08 TableI I18 row and same-source TableII I18 row/caption plus pure-M1/stopping paragraph. No full-source reread or new source is claimed. LKH82 p121 rate/B and existing frozen modern coefficients are reused.\",\n            \"systematics\":\"PASS: stopping/feeding or calibration that changes selected intensities/fractions/energy follows upstream chain rules. No blanket inter-band cancellation, assignment of15% as1-sigma, actual FO radius/tail/penetration repair or independent confirmation by derived outputs is claimed.\"},\n        \"material_producer_findings\":[],\"required_corrections\":[],\n        \"independent_checks\":{\"core\":core[\"checks\"],\"producer_comparisons\":records,\n            \"all_passed\":all(core[\"checks\"].values()) and all(row[\"passed\"] for row in records.values()),\n            \"method\":\"Small exact Fraction/covariance coefficient comparisons at the original parent; no grid or cumulative check score.\"},\n        \"integrity\":{\"frozen_inputs_before_after_match\":True,\"producer_source_embedded_hash_matches\":True,\n            \"producer_default_writer_statically_read_only_and_exclusive\":True,\"producer33_metadata_consistent\":True},\n        \"evidence_class\":\"Independent mathematical/source-semantic self-audit, not human-reviewed; no actual covariance/precision or new experimental conclusion\",\n        \"reproducibility\":{\"script\":str(code_path.relative_to(ROOT)),\"script_sha256\":sha(code),\"source_code\":code.decode(),\n            \"helper\":str(helper_path.relative_to(ROOT)),\"helper_sha256\":sha(helper),\"helper_source_code\":helper.decode(),\n            \"proof_notes\":str(notes_path.relative_to(ROOT)),\"proof_notes_sha256\":sha(notes_path.read_bytes()),\n            \"default_read_only\":True,\"read_only_replay_command\":\"python3 \"+str(code_path.relative_to(ROOT)),\n            \"exclusive_creation_command\":\"python3 \"+str(code_path.relative_to(ROOT))+\" --write-receipt\",\n            \"dependencies\":\"Python3 standard library only. Own independent helper is imported with bytecode disabled; producer/prior code never executes.\"},\n    }\n\n\ndef main():\n    parser=argparse.ArgumentParser(description=__doc__)\n    parser.add_argument(\"--write-receipt\",action=\"store_true\")\n    parser.add_argument(\"--verify-saved\",action=\"store_true\")\n    args=parser.parse_args()\n    if args.write_receipt and args.verify_saved:\n        parser.error(\"Creation and verification are separate operations\")\n    report=build()\n    if args.verify_saved:\n        saved=json.loads((ROOT/OUT).read_bytes())\n        current=json.loads(json.dumps(report,ensure_ascii=False,default=encoded))\n        if saved!=current:raise AssertionError(\"Replayed review differs from saved receipt\")\n    if args.write_receipt:\n        with (ROOT/OUT).open(\"x\",encoding=\"utf-8\",newline=\"\\n\") as stream:\n            json.dump(report,stream,ensure_ascii=False,indent=2,default=encoded)\n            stream.write(\"\\n\")\n    print(json.dumps(report,ensure_ascii=False,indent=2,default=encoded))\n\n\nif __name__==\"__main__\":\n    main()\n",
+    "helper": "tmp/day8-20261007/rose-brink/day9-same-parent-strength-ratio-review/ratio_covariance_core.py",
+    "helper_sha256": "93c183da9caf0bf2a2ea6806738b24670906572c2e10027ea0eaa5ca251d8c76",
+    "helper_source_code": "#!/usr/bin/env python3\n\"\"\"Independent Fraction arithmetic; source covariance is not estimated here.\"\"\"\nimport sys\nsys.dont_write_bytecode = True\n\nfrom fractions import Fraction as F\nimport hashlib\nimport json\nfrom pathlib import Path\n\nROOT = Path(__file__).resolve().parents[4]\nRUN = Path(\"outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01\")\nINPUTS = {\n    str(RUN / \"day9-strength-unit-audit.json\"): \"0913dc388d5852c1d95bdf6fdc4007602748eed97504fda903fef911a6295a1d\",\n    str(RUN / \"day9-strength-input-packet.json\"): \"756d1b98bd4affc98a6a6e64b2a6843b5773997b16b909fe092cbed867375a90\",\n}\n\n\ndef digest(data):\n    return hashlib.sha256(data).hexdigest()\n\n\ndef encoded(value):\n    if isinstance(value, F):\n        return str(value)\n    raise TypeError(type(value).__name__)\n\n\ndef matvec(matrix, vector):\n    return [sum(a * b for a, b in zip(row, vector)) for row in matrix]\n\n\ndef quadratic(matrix, vector):\n    return sum(a * b for a, b in zip(vector, matvec(matrix, vector)))\n\n\ndef build_core():\n    inputs, hashes = {}, {}\n    for name, expected in INPUTS.items():\n        data = (ROOT / name).read_bytes()\n        hashes[name] = digest(data)\n        if hashes[name] != expected:\n            raise AssertionError(\"Frozen input SHA changed: \" + name)\n        inputs[name] = json.loads(data)\n    unit = inputs[str(RUN / \"day9-strength-unit-audit.json\")]\n    packet = inputs[str(RUN / \"day9-strength-input-packet.json\")]\n    rows = packet[\"selected_input_packet\"][\"all_reported_same_parent_branches\"][\"branches\"]\n    f = [F(row[\"branching_ratio\"][\"value\"]) for row in rows]\n    quoted = [F(row[\"branching_ratio\"][\"quoted_uncertainty\"]) for row in rows]\n    energies = [F(row[\"E_gamma_keV\"]) / 1000 for row in rows]\n    coeff = unit[\"units_and_constants\"][\"derived_constants_and_coefficients\"]\n    cm1 = F(str(coeff[\"C_M1_for_tau_ps\"]))\n    ce2 = F(str(coeff[\"C_E2_for_tau_ps\"]))\n    ratio = cm1 / ce2 * f[0] / f[1] * energies[1]**5 / energies[0]**3\n\n    # This matrix is derived only inside an inconsistent hypothesis: exact\n    # samplewise normalization and all quoted errors being joint marginal SDs.\n    # It is a reductio witness, never a reconstructed source covariance.\n    variances = [value**2 for value in quoted]\n    va, vb, vc = variances\n    cab, cac, cbc = (vc - va - vb) / 2, (vb - va - vc) / 2, (va - vb - vc) / 2\n    impossible = [[va, cab, cac], [cab, vb, cbc], [cac, cbc, vc]]\n    eigenvalues = [F(0), F(-1, 1000), F(27, 5000)]\n    eigenvectors = [[F(1), F(1), F(1)], [F(0), F(1), F(-1)], [F(-2), F(1), F(1)]]\n    common_B = [[F(1), F(1)], [F(1), F(1)]]\n    common_energy = [[F(9), F(15)], [F(15), F(25)]]\n    q = [F(1), F(-1)]\n    checks = {\n        \"only_original_I18_three_branches\": f == [F(57, 100), F(24, 100), F(19, 100)]\n            and energies == [F(4012, 10000), F(7574, 10000), F(3896, 10000)]\n            and quoted == [F(6, 100), F(2, 100), F(2, 100)],\n        \"source_centers_normalize_and_photon_pair_ratio\": sum(f) == 1 and f[0] / f[1] == F(19, 8),\n        \"literal_joint_SD_hypothesis_violates_distribution_free_triangle\": quoted[0] > quoted[1] + quoted[2],\n        \"hypothesis_only_matrix_has_exact_eigenwitnesses\": all(\n            matvec(impossible, vector) == [ev * value for value in vector]\n            for ev, vector in zip(eigenvalues, eigenvectors)),\n        \"hypothesis_only_negative_contrast_variance\": quadratic(impossible, eigenvectors[1]) == F(-1, 500),\n        \"common_B_and_energy_nuisance_coefficients_differ\": quadratic(common_B, q) == 0\n            and quadratic(common_energy, q) == 4 and (-3) - (-5) == 2,\n        \"MeV_coefficient_chart_keV_error_power\": (energies[1]*1000)**5 / (energies[0]*1000)**3\n            == 1000**2 * (energies[1]**5 / energies[0]**3),\n    }\n    if not all(checks.values()):\n        raise AssertionError(checks)\n    for name, expected in hashes.items():\n        if digest((ROOT / name).read_bytes()) != expected:\n            raise AssertionError(\"Frozen input changed during independent arithmetic\")\n    return {\n        \"status\": \"independent-mathematical-controls; producer-comparison-not-yet-bound\",\n        \"input_SHA\": hashes, \"source_centers\": f, \"source_quoted_errors\": quoted,\n        \"energies_MeV\": energies,\n        \"conditional_photon_strength_ratio\": ratio,\n        \"ratio_decimal_display\": float(ratio), \"ratio_units\": \"mu_N^2/(e^2 b^2)\",\n        \"ratio_numeric_boundary\": \"Arithmetic of frozen decimal coefficients/source centers under pure M1/E2 and corrected photon-intensity assumptions; not measurement precision.\",\n        \"conditional_hypothesis\": \"Samplewise Fa+Fb+Fc=1, finite variances, all three quoted errors literally marginal SDs of one joint distribution. This hypothesis is impossible; no Gaussian premise is used.\",\n        \"inconsistent_hypothesis_reductio_matrix\": impossible,\n        \"reductio_matrix_eigenvalues\": eigenvalues,\n        \"reductio_contrast_variance\": F(-1, 500),\n        \"reductio_boundary\": \"Not a source covariance estimate; never use this indefinite matrix to propagate a physical error or declare author error.\",\n        \"nuisance_logB_covariance_coefficient_matrices\": {\"common_B\": common_B, \"common_energy\": common_energy},\n        \"nuisance_variance_contraction_coefficients\": {\"common_B\": F(0), \"common_energy\": F(4)},\n        \"calibration_scope\": \"Energy +2 is the photon-I route at fixed corrected intensities and coefficient convention. True total-branch alpha(E) derivatives remain additional terms; actual covariance is not supplied.\",\n        \"checks\": checks,\n    }\n\n\nif __name__ == \"__main__\":\n    print(json.dumps(build_core(), ensure_ascii=False, indent=2, default=encoded))\n",
+    "proof_notes": "tmp/day8-20261007/rose-brink/day9-same-parent-strength-ratio-review/independent-proof.md",
+    "proof_notes_sha256": "c086eed6b35048d4a9c0765ef5290b858675ee153df0b9833417086e6b705847",
+    "default_read_only": true,
+    "read_only_replay_command": "python3 tmp/day8-20261007/rose-brink/day9-same-parent-strength-ratio-review/review_same_parent_ratio.py",
+    "exclusive_creation_command": "python3 tmp/day8-20261007/rose-brink/day9-same-parent-strength-ratio-review/review_same_parent_ratio.py --write-receipt",
+    "dependencies": "Python3 standard library only. Own independent helper is imported with bytecode disabled; producer/prior code never executes."
+  }
+}

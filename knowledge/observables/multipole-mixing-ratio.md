@@ -257,6 +257,14 @@ LKH82-17 给另一条件路线：同-pair 总 photon width 独立下限 gmin 与
 
 RB67-27 从 fullΩ/complete final-spin 积分给任意初态ρ的 fq=(S+2qReX)/(2S)，X=ΣL aEL aML*。两 inclusive helicity 相等 iff ReX=0；确定宇称限制通常保证它，isotropic布居单独不保证，零差也不能逆推宇称。Total width 仍是4kS，不恢复 phase/sign。Amplitudes 是 source photon-interaction quantities，不能将 E1/M1 coherent control 写作核 E2/M1 的0.835 ratio。详见 [[rose-brink-1967-phase-defined-angular-distributions]] 的相位、inclusive与gated范围说明。
 
+### 完整 nonγ 库存如何支持截断条件
+
+LKH82-18 从 total pair-width、complete linked ratio ceiling 与 extra absolute ceiling 条件建立 positive photon floor。只有实际独立 Γpair/extra/ICC-current 域成立，才能接 omitted photon 上界；普通低阶 ICC 拟合和分支中心值归一不认证它。零γ处应用直接率不等式，不延拓0/0 ratio chart。该输入路线也不确定 δ sign、布居、M1 chart reference 或消除方向节点；详见 [[lange-kumar-hamilton-1982-multipole-admixtures]]，当前没有真实 floor/prior认证。
+
+### Point数据相同与完整photon state相同是不同命题
+
+RB67-28 的definite-parity/isotropic source model在每个allowed E/M paritycopy内给fL/(2L+1)identity，跨rankphase消失、fractions保留。Full与自身retained photon-only distance为ε，joint emitted含finalspin为√ε；任意initialρ的abstract omittedrankeffect给ε≤Dph≤√ε。普通方向局部W1/P0不等于fullformal photonstate相同，也不证明普通detector能实现rankprojector。Environment/sourceposition/coherence与paritymultiplicity条件、oldjointκ不能直套较小Dph的边界详见 [[rose-brink-1967-phase-defined-angular-distributions]]，无真实apparatus/state赋值。
+
 ## How It Is Obtained
 
 可由角分布、角关联/DCO、线偏振和内转换系数与理论响应比较得到。

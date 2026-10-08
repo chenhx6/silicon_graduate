@@ -1531,3 +1531,8 @@ Following the user question about the missing Day8 prompt, the formal Day8 card 
 
 - 在同一 Day8 session 保留原截止与562页baseline；同步率截断/有限密度、磁算符域、极化归属、独立参考floor与parity-null边界到RB67-21–25/LKH82-15–16。所有模型结果仍L2，review/raw/state/PLAN和继承daemon保留。
 - 95/329/54/99/96/72/60 parent核验有回执，独立审计与J3参考nullspace继续；仅Day8计卡候选、Day9无学分。Checkpoint不是课程final，15:00收束与DAY9计划prompt待做。
+
+## [2026-10-08 15:00] learning | DAY8 按硬截止收束并生成正式DAY9
+
+- 同session保留原day8/run_date与562页baseline；15:00停止新研究，仅credit8候选，partial9不credit。新增32/12/3 photonstate与33/7/8同母态ratio及23/9库存条件已canonical/report写回，review/raw/PLAN/继承daemon保留。
+- 正式DAY9plan/prompt在15:02通过normalprepare接口生成，runtime占位绑定已只读核验，未开新学习session。Final subject为Complete DAY8 learning and prepare formal DAY9；正常课程state和Gitee/H3实际结果在receipt保存。

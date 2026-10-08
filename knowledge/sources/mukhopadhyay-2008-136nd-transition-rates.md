@@ -140,6 +140,7 @@ The different `B(E2)` patterns contradict treating the two near-degenerate bands
 | MU08-6 | Gamma-only recalculations under the stated pure-M1/E2 extraction assumptions reproduce the selected Band1 high-energy E2 center closely but give 5.2371 μN² for Band2 I15 199.6-keV M1 versus the reported 4.4(3). This conditional arithmetic does not validate the full branch/IC ledger, establish an independent discrepancy, or identify hidden ICC/covariance inputs. | our-inference | indirect | inputs: printed034311-3 / PDF3 Table I Band1 I18 and Band2 I15 groups; printed034311-4 / PDF4 Table II matching rows; rates: LKH82 p121 Eqs.2.2–2.3a | true |
 | MU08-7 | 在作者原two-parent branch数字和pure-mode条件下，独立FO/NH理论inputs给很小的nominal rate/B变化；打印相同不证明未舍入模型相同，也不识别本文实际vacancy/branch处理。没有用quoted B反解inputs或新增独立实验。 | our-inference | indirect | 原输入printed034311-3/PDF3 TableI；KB08 p207/PDF6 Sec4.1.1及dated supplement KB08-D8-5；rates由fixedE/mode/τ按现有input formulas重构 | true |
 | MU08-8 | Band1 I18→I16 quotedB(E2)=0.14(2)e²b²在同physicaloperator/固定spin下派生reverseB≈0.157±0.022e²b²、BM magnitude≈2.276eb。两方向误差确定性相关(rank1)，不是新upward测量或反向γ寿命，未含systematic与原extraction依赖保留。 | our-inference | indirect | printed034311-4/PDF4 TableII Band1I18及caption；p3 TableI 757.4/Ex6711.4 group与stopping段；LKH82 p121 Eq2.3a–c、p122 Eq2.11 | true |
+| MU08-9 | 同I18母态401.2/757.4不同支路的条件强度比可消共同τ/归一因子，true totalbranch仍有逐支非γfactor；由同输入派生的ratio不是独立确认。原三分支quoted误差不自动定义normalized joint covariance。 | our-inference | indirect | printed034311-3/PDF3 TableI Ex6711.4与pureM1/15%systematic段；printed034311-4/PDF4 TableII I18；LKH82 p121 Eqs2.2–2.3；33-check exact log/ratio specialization | true |
 
 ## Summary
 
@@ -165,6 +166,30 @@ The `136Nd` lifetime study is a direct electromagnetic-strength counterexample t
 - 本次 `revises` Band 2 的 spin/value 转录；`limits` 把 branch、B(M1)、B(E2) 或 Qt 当作彼此独立数据的用法。[[high-spin-lifetime-strength-deformation]] 保存可复用的率、单位、分支归一化和误差链；不因条件性算术一致而升级实验结论。
 - L3 unit: compare this lifetime-strength counterexample with the later D5-strengthened `136Nd` pair; retain chronological model revision rather than a single “136Nd chirality” label.
 - Review state: Codex self-audited; not `human-reviewed`.
+
+## Same-Parent Cross-Branch Ratio and Covariance Boundary
+
+本节只复用 Ex=6711.4、I=18− 的原三支路；a=401.2-keV 18−→17−、b=757.4-keV 18−→16−，c=389.6-keV 是另一个18−→17−，不能把相同 final-spin 标签当同一 transition。父代理再次复看 TableI 原图确认0.57(6)、0.24(2)、0.19(2)。a 的 pure-M1 是作者 p.3 提取假设，b 沿其 E2 assignment；本节不增加 measuredδ 或高阶零振幅。
+
+λγ,M1=KM Ea³ BM、λγ,E2=KE Eb⁵ BE，E采用MeV、BM用µN²、BE用e²b²；K为 LKH82 p.121 Eqs.2.2–2.3 已审单位系数。若 Ia/Ib 是同母态、同选样、已修效率/gate/feeding/contamination的 photon-rate 比，fa/fb 是所选 radiative component fractions，则
+
+\[
+R=\frac{B(M1)_a}{B(E2)_b}
+=\frac{K_E}{K_M}\frac{E_b^5}{E_a^3}\frac{I_a}{I_b}\frac{f_a}{f_b},
+\qquad [R]=\mu_N^2/(e^2b^2).
+\]
+
+共用的 τ、全 photon/IC normalizer、全局额外非γ fraction 及只进入这个共同分母的第三/遗漏支路精确抵消；改变 selected line Ia/Ib、fa/fb 的 bias 不抵消。选两枝另归一到0.81不改 ratio，却会把 absolute B 的库存弄错，所以 ratio 吻合不验证 absolute ledger。
+
+若同数字实际是 true total-pair branches βa/βb，定义 hj=1+αeff,j 为完整 pair 非γ/photon 因子，则多一个 hb/ha；β若由同一完整 photon ledger 正确转换，两个公式反而一致。普通IC可作 αeff 的前提仍需 inventory 闭合；K-shell、未计 E0 或定义未明支路不能自动替代。已有 FO Tot 的0.0320/0.00416只给 same-number 条件modifier1046/1075，无新query、无作者使用此法的判断，两点N6 warning/136Nd radius/current边界保持。
+
+在 positive chart，使用 reference单位后的 log coordinates y=(lnZ,lnIa,lnIb,lnfa,lnfb,lnEa,lnEb)，两logB是仿射式，其contrast h=(0,1,−1,1,−1,−3,5)。因此 Cov(logB)=AΣyAᵀ、Var(logR)=hΣyhᵀ 在有限 log covariance 下精确，不需Gaussian；raw error bars 的 JΣrawJᵀ 则只是local delta-method，不能把两者混用。Common logZ 的 variance/cross-covariance被contrast消去；相同乘法strength nuisance的rank1 covariance亦消去，不能再双计。
+
+共同 energy gain 在 fixed corrected photon-I/fraction/K chart 下 Ea,Eb→u Ea,u Eb 给 R→u²R，log sensitivity +2；它不是common B factor。True-total-branch chart 若 α随energy重算，还须加 Eb αb′/(1+αb)−Ea αa′/(1+αa)。Shared additive α variation通常也不消掉。Stopping/feeding若只改变commonτ可抵消；若同时改变 intensity/gates/fractions，需其upstream chain rule。原15%stopping label没有共模分布/covariance，不能断言跨带抵消或当独立1σ。
+
+条件反证只针对一种额外解释：若三个 quoted quantities 是同一finite-variance random vector且每次样本严格和1，中心化 Xa=−(Xb+Xc) 的 L2 triangle 必有σa≤σb+σc，不需Gaussian。把0.06/0.02/0.02同时当其true marginalSD会给0.06>0.04而不相容。Source未给 estimator/coverage/逐样本normalization/covariance，故这不判作者错误、隐藏分支或actual negative covariance，quoted数值保持。Nearest0.01 SD rounding的额外假设也不能替代其实际报告定义。
+
+33项source-grounded exact checks与独立7组core/8组comparison已parent复现，0实质producer问题；独立审计另保存。Same-parent R 与两个B都派生于同一输入，不增加独立experiment或模式判别；仍为Day9无学分L2预习，未改变Day8 index或review flags。
 
 ## Human Review Triage
 

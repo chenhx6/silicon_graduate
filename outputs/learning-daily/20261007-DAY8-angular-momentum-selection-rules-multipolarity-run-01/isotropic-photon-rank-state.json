@@ -1,0 +1,1383 @@
+{
+  "schema_version": 1,
+  "created_at_utc": "2026-10-08T05:46:32.709439+00:00",
+  "artifact_kind": "Day8-L2-isotropic-reduced-photon-rank-state-boundary",
+  "status": "isotropic-photon-rank-state-and-distance-theorems-complete; ideal-mode-measurement-only",
+  "day_index": 8,
+  "run_closed": false,
+  "new_source_or_course_card": false,
+  "new_nucleus_or_energy": false,
+  "experimental_data_fit": false,
+  "numerical_experiment": false,
+  "L4": false,
+  "session_id": "01a111fb-370d-7ed1-afe9-881ccc47caf4",
+  "resume_command": "codex resume 01a111fb-370d-7ed1-afe9-881ccc47caf4 -C /workspace/wiki -s danger-full-access -a never",
+  "evidence_class": "Existing RB source amplitude/rotation/normalization premises plus our Schur/CG partial trace, rank-projector and exact state-distance reconstruction; scientific self-audit, not human-reviewed.",
+  "immutable_inputs": {
+    "A": {
+      "path": "outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/angular-degeneracy.json",
+      "sha256": "0b633e74a96925cbaced95073407523f441cd6ed89554c15f87b84758e89f334"
+    },
+    "B": {
+      "path": "outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/four-multipole-observable-rank.json",
+      "sha256": "42b7c697dc6522fa384e0934fc545a0010a614ff2af3cfcbf767729242bf5f48"
+    },
+    "C": {
+      "path": "outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/case-c-angular-polarization-rank.json",
+      "sha256": "15599129f0079603cf26b4d5a909bb3799b605c55bdc248d570502c164e77bb1"
+    },
+    "old95": {
+      "path": "outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/truncation-observable-bound.json",
+      "sha256": "8d836c358937581ae05b9923c2f222938d56cce493c4cb5056299ed550f3cec9"
+    },
+    "old329": {
+      "path": "outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/finite-rank-density-bound.json",
+      "sha256": "2636cac3929b3b28bb5b29badf5bc9df7e74d7d16378db42cb726d0bbdfe8538"
+    },
+    "parity25": {
+      "path": "outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/nondefinite-parity-control.json",
+      "sha256": "bc74eed5b62673fb8fb3b4ef2fb862cceb85870f36d36e58d8721027e1a620bb"
+    }
+  },
+  "raw_source": {
+    "path": "raw/papers/gpt/high-spin-20260920/multipolarity/mixing ratio/1967_Rose et al_Angular Distributions of Gamma Rays in Terms of Phase-Defined Reduced Matrix Elements.pdf",
+    "sha256": "8f846b61b9320de291ee5600126c5e286a0fe05968df819696816f0dc1ec57dc"
+  },
+  "source_locators": [
+    "RB67 printed316/PDF11 Eq3.24 coherent emission and WE relation afterEq3.25",
+    "printed317/PDF12 Eq3.28 random initial density and rotation tensors",
+    "printed318/PDF13 Eq3.29 integrated photon rate/interaction-amplitude normalization",
+    "printed320/PDF15 definite-parity condition",
+    "existing RB67-25 andRB67-27 scope: isotropy doesnot eliminate same-L E/M multiplicity coherence"
+  ],
+  "common_space_and_assumptions": {
+    "source_model": "Fixedgood Ji/Jf and definite nuclear parities with one allowed E/M type pi(L) per photon rank L. Same energy/normalized radial mode or angular-shell model and the full source emission isometry.",
+    "initial_state": "rho_i=I/(2Ji+1) for the isotropic scalar-block theorem. The retained state is the same full state projected onto retained ranks and renormalized; 0<=epsilon<1 and S_R>0.",
+    "trace": "Trace the complete FINAL NUCLEAR SPIN multiplet, not an unspecified additional recoil/source-position/environment or detector channel.",
+    "photon_basis": "Physical basis |L,m,q>, q=-1,+1. For each allowed type, chi_pi(q)=q^pi/sqrt2. The occupied copy |L,m,pi> uses that helicity vector; it is not an independent fictitious type flag.",
+    "amplitude_convention": "u_L is the common normalized emission coefficient (possibly conjugate to RB interaction coefficient), sum|u_L|^2=1. The source photon fraction is |u_L|^2, not a bare nuclear electric/magnetic RME squared."
+  },
+  "isotropic_reduced_state_theorem": {
+    "copy_label_formula": "rho_photon=directsum_L [w_L/(2L+1)] I_m^(L,pi(L)), w_L=|u_L|^2.",
+    "full_two_helicity_formula": "rho_photon=directsum_L [w_L/(2L+1)] I_m^(L) tensor |chi_pi(L)><chi_pi(L)|. The unused opposite parity copy is zero. It is not w_L I_(2(2L+1))/(2L+1) or a fully mixed helicity-copy block.",
+    "CG_kernel": "(1/(2Ji+1))sum_Mi,Mf C(Jf,L,Ji;Mf,m,Mi) C(Jf,Lprime,Ji;Mf,mprime,Mi)^*=delta_LLprime delta_mmprime/(2L+1).",
+    "proof": "The invariant input and covariant emission yield an invariant photon state after the final-spin partial trace. Different L irreps have no rotational intertwiner by Schur. A single occupied E/M copy perL leaves a scalar I_m block; trace V_L rho_i V_L_dagger=1 fixes1/(2L+1). ExactCG kernels independently verify the original A/B/C representations.",
+    "phase_scope": "All different-rank phases disappear in this isotropic reduced state, while weights/fractions remain. Equal weights give the same photon-only state even if phases differ; phase information may still reside in photon/final-spin correlations before tracing."
+  },
+  "trace_distances_and_projector": {
+    "isotropic_distance": "For the full state and its renormalized retained projection, D_photon=epsilon. Retained blocks have total negative difference trace-epsilon and omitted blocks positive trace+epsilon.",
+    "full_joint_distance": "The old95 full emitted state INCLUDING final spin has exactD_full=sqrt(epsilon) for the same initialrho. Partial trace can reduce that distance; the two spaces must not be conflated.",
+    "arbitrary_common_initial_density": "For any PSD trace-one initialrho under the same emission model, P_O=sum_omitted ranksP_L is an abstract photon effect. V_dagger(P_O tensor I_final)V=epsilon I_initial, so full probabilityepsilon, retained probability0.",
+    "general_bounds": "The variational effect characterization and contractive final-spin trace give epsilon<=D_photon<=sqrt(epsilon), whenever the retained reference exists. Isotropic input attains the lower value; no all-case upper sharpness is asserted.",
+    "not_phase_measurement": "The rank projector probabilities only contain w_L and do not recover phase/sign. In the isotropic definite-parity theorem the whole photon-only state is already phase-blind.",
+    "extra_channels": "A further arbitrary CPTP/environment/detector channel can erase or mix ranks. It retains an upper distance contraction but need not preserve the epsilon lower bound or rank-projector probabilities without a corresponding effect/support audit.",
+    "endpoints": "epsilon0 gives identical states directly, without defining a zero omitted isometry. epsilon1/S_R0 has no normalized retained reference; S0 has no emitted state."
+  },
+  "local_observable_vs_global_state": {
+    "point_helicity_matrix": "For any directionn, sum_m D_mq D_mqprime^*=delta_qqprime. Each scalar rank block gives local H_qqprime=delta_qqprime/2; sumw=1 givesW=1 and all normalized local Stokes components0.",
+    "measurement_class": "Normalized direction-local linear/circular/unpolarized photon bins with the same bounded response therefore do not identify fractions in this isotropic case. This does not assert equal absolute photon widths, unnormalized yields, lifetime/ICC data or all experimental companions.",
+    "global_projector": "The ideal whole angular-mode rank projector is a valid abstract photon POVM and can distinguish different fraction vectors. It is not a direction-local detector effect and no ordinary gamma detector implementation or new experimental companion is claimed.",
+    "quantum_state_boundary": "Equal normalized local W/polarization distributions are not equality of the full formal photon density operator. Different w_L give different rank-block states, even when all local point data are the same.",
+    "existing_joint_and_U_pair_interpretation": "The isotropic photon marginal removes cross-L phases, not necessarily the rotationally invariant photon-plus-final-spin joint copies. Existing tagged/cascade observables may access such correlations only under their declared source geometry/instrument conditions, without guaranteed global phase recovery or uniqueness. The old U pair has different fractions, so its formal photon marginals cannot be identical: Tr(P_L rho_photon)=w_L for any initialrho. No old global/cascade matrices are rerun."
+  },
+  "parity_multiplicity_scope": {
+    "required_one_copy": "Definite initial/final parities select one E/M type perL. Schur fixes the identity on m, not on an arbitrary multiplicity space.",
+    "relaxed_general_form": "If coherent E/M types of the same L are both allowed, rotational invariance only gives I_m/(2L+1) tensor C_L, with a positive multiplicity matrix C_L that can retain E/M coherence. This is not the scalar one-copy theorem.",
+    "existing25_27_boundary": "Prior RB67-25 has an isotropic nondefinite-parity spin-half control with circular polarization, and RB67-27 retains f_q=(S+2q ReX)/(2S), X=sum a_E,L a_M,L^*. Isotropic initialspin alone doesnot forceReX0 orPc0.",
+    "rank_partition": "The omitted effect above partitions ranks. If a relaxed problem omits one E/M type but retains another at the sameL, a rank-only projector is not that type projector; its probability need not be the omitted-type fraction."
+  },
+  "kappa_and_reuse_boundaries": {
+    "old329_space": "The old2/5/7 point constants are compressed on the joint H_emit INCLUDING final spin. Do not replace its full distance with this smaller photon-only D while keeping the samekappa; photon support/effect compression needs its own audit.",
+    "no_added_kappa_or_design": "No new photon-only point norm, detector design, nuclear state realization or statistical separation is derived.",
+    "common_model": "Keep the same retained amplitudes/initialrho, energy/radial mode, source origin and final-spin trace. Uncontrolled extra environment/recoil/source-position reductions or refits are outside the exact state identities.",
+    "no_real_beam_tomography": "No center-of-mass/recoil/translation/source-position/temporal response is modeled, and no actual in-beam photon-state tomography or global-rank analyzer is claimed. Additional averaging needs an output-mode/effect or projector-pullback audit; it can remove the epsilon lower bound.",
+    "physical_scope": "All original A/B/C amplitudes and new isotropic condition are ideal source-model parameters. No actual prior, coherent apparatus, quantum state preparation, measured fraction or real nucleus is certified."
+  },
+  "exact_original_case_controls": {
+    "A_3half_to_half": {
+      "Ji": "3/2",
+      "Jf": "1/2",
+      "initial_density": "I_4/4",
+      "modes": [
+        {
+          "L": 1,
+          "pi": 0,
+          "label": "E1"
+        },
+        {
+          "L": 2,
+          "pi": 1,
+          "label": "M2"
+        }
+      ],
+      "retained_ranks": [
+        1
+      ],
+      "weights": {
+        "1": "1/4",
+        "2": "3/4"
+      },
+      "retained_weights": {
+        "1": "1"
+      },
+      "occupied_parity_copy_photon_dimension": 8,
+      "source_joint_emitted_dimension": 8,
+      "block_eigenvalue_and_multiplicity": [
+        {
+          "L": 1,
+          "pi": 0,
+          "eigenvalue": "1/12",
+          "multiplicity_m": 3
+        },
+        {
+          "L": 2,
+          "pi": 1,
+          "eigenvalue": "3/20",
+          "multiplicity_m": 5
+        }
+      ],
+      "epsilon": "3/4",
+      "D_photon_exact": "3/4",
+      "full_joint_D_squared_exact": "3/4",
+      "local_W": "1",
+      "local_helicity_density": "I2/2",
+      "local_normalized_Stokes": {
+        "Q": "0",
+        "U": "0",
+        "V_circular": "0"
+      },
+      "CG_norm_control_count": 8,
+      "partial_trace_common_m_coefficients": [
+        {
+          "L": 1,
+          "Lprime": 1,
+          "m": -1,
+          "partial_final_spin_kernel": "1/3",
+          "matches_delta_L_Lprime_over_2Lplus1": true
+        },
+        {
+          "L": 1,
+          "Lprime": 1,
+          "m": 0,
+          "partial_final_spin_kernel": "1/3",
+          "matches_delta_L_Lprime_over_2Lplus1": true
+        },
+        {
+          "L": 1,
+          "Lprime": 1,
+          "m": 1,
+          "partial_final_spin_kernel": "1/3",
+          "matches_delta_L_Lprime_over_2Lplus1": true
+        },
+        {
+          "L": 1,
+          "Lprime": 2,
+          "m": -1,
+          "partial_final_spin_kernel": "0",
+          "matches_delta_L_Lprime_over_2Lplus1": true
+        },
+        {
+          "L": 1,
+          "Lprime": 2,
+          "m": 0,
+          "partial_final_spin_kernel": "0",
+          "matches_delta_L_Lprime_over_2Lplus1": true
+        },
+        {
+          "L": 1,
+          "Lprime": 2,
+          "m": 1,
+          "partial_final_spin_kernel": "0",
+          "matches_delta_L_Lprime_over_2Lplus1": true
+        },
+        {
+          "L": 2,
+          "Lprime": 1,
+          "m": -1,
+          "partial_final_spin_kernel": "0",
+          "matches_delta_L_Lprime_over_2Lplus1": true
+        },
+        {
+          "L": 2,
+          "Lprime": 1,
+          "m": 0,
+          "partial_final_spin_kernel": "0",
+          "matches_delta_L_Lprime_over_2Lplus1": true
+        },
+        {
+          "L": 2,
+          "Lprime": 1,
+          "m": 1,
+          "partial_final_spin_kernel": "0",
+          "matches_delta_L_Lprime_over_2Lplus1": true
+        },
+        {
+          "L": 2,
+          "Lprime": 2,
+          "m": -2,
+          "partial_final_spin_kernel": "1/5",
+          "matches_delta_L_Lprime_over_2Lplus1": true
+        },
+        {
+          "L": 2,
+          "Lprime": 2,
+          "m": -1,
+          "partial_final_spin_kernel": "1/5",
+          "matches_delta_L_Lprime_over_2Lplus1": true
+        },
+        {
+          "L": 2,
+          "Lprime": 2,
+          "m": 0,
+          "partial_final_spin_kernel": "1/5",
+          "matches_delta_L_Lprime_over_2Lplus1": true
+        },
+        {
+          "L": 2,
+          "Lprime": 2,
+          "m": 1,
+          "partial_final_spin_kernel": "1/5",
+          "matches_delta_L_Lprime_over_2Lplus1": true
+        },
+        {
+          "L": 2,
+          "Lprime": 2,
+          "m": 2,
+          "partial_final_spin_kernel": "1/5",
+          "matches_delta_L_Lprime_over_2Lplus1": true
+        }
+      ],
+      "control_boundary": "Only original source A/B/C spins and existing nontrivial amplitude weights, with the explicitly requested isotropic initial density. No new nucleus, phase seed, angle or detector model."
+    },
+    "B_2_to_2": {
+      "Ji": "2",
+      "Jf": "2",
+      "initial_density": "I_5/5",
+      "modes": [
+        {
+          "L": 1,
+          "pi": 1,
+          "label": "M1"
+        },
+        {
+          "L": 2,
+          "pi": 0,
+          "label": "E2"
+        },
+        {
+          "L": 3,
+          "pi": 1,
+          "label": "M3"
+        },
+        {
+          "L": 4,
+          "pi": 0,
+          "label": "E4"
+        }
+      ],
+      "retained_ranks": [
+        1,
+        2
+      ],
+      "weights": {
+        "1": "144/205",
+        "2": "36/205",
+        "3": "16/205",
+        "4": "9/205"
+      },
+      "retained_weights": {
+        "1": "4/5",
+        "2": "1/5"
+      },
+      "occupied_parity_copy_photon_dimension": 24,
+      "source_joint_emitted_dimension": 20,
+      "block_eigenvalue_and_multiplicity": [
+        {
+          "L": 1,
+          "pi": 1,
+          "eigenvalue": "48/205",
+          "multiplicity_m": 3
+        },
+        {
+          "L": 2,
+          "pi": 0,
+          "eigenvalue": "36/1025",
+          "multiplicity_m": 5
+        },
+        {
+          "L": 3,
+          "pi": 1,
+          "eigenvalue": "16/1435",
+          "multiplicity_m": 7
+        },
+        {
+          "L": 4,
+          "pi": 0,
+          "eigenvalue": "1/205",
+          "multiplicity_m": 9
+        }
+      ],
+      "epsilon": "5/41",
+      "D_photon_exact": "5/41",
+      "full_joint_D_squared_exact": "5/41",
+      "local_W": "1",
+      "local_helicity_density": "I2/2",
+      "local_normalized_Stokes": {
+        "Q": "0",
+        "U": "0",
+        "V_circular": "0"
+      },
+      "CG_norm_control_count": 20,
+      "partial_trace_common_m_coefficients": [
+        {
+          "L": 1,
+          "Lprime": 1,
+          "m": -1,
+          "partial_final_spin_kernel": "1/3",
+          "matches_delta_L_Lprime_over_2Lplus1": true
+        },
+        {
+          "L": 1,
+          "Lprime": 1,
+          "m": 0,
+          "partial_final_spin_kernel": "1/3",
+          "matches_delta_L_Lprime_over_2Lplus1": true
+        },
+        {
+          "L": 1,
+          "Lprime": 1,
+          "m": 1,
+          "partial_final_spin_kernel": "1/3",
+          "matches_delta_L_Lprime_over_2Lplus1": true
+        },
+        {
+          "L": 1,
+          "Lprime": 2,
+          "m": -1,
+          "partial_final_spin_kernel": "0",
+          "matches_delta_L_Lprime_over_2Lplus1": true
+        },
+        {
+          "L": 1,
+          "Lprime": 2,
+          "m": 0,
+          "partial_final_spin_kernel": "0",
+          "matches_delta_L_Lprime_over_2Lplus1": true
+        },
+        {
+          "L": 1,
+          "Lprime": 2,
+          "m": 1,
+          "partial_final_spin_kernel": "0",
+          "matches_delta_L_Lprime_over_2Lplus1": true
+        },
+        {
+          "L": 1,
+          "Lprime": 3,
+          "m": -1,
+          "partial_final_spin_kernel": "0",
+          "matches_delta_L_Lprime_over_2Lplus1": true
+        },
+        {
+          "L": 1,
+          "Lprime": 3,
+          "m": 0,
+          "partial_final_spin_kernel": "0",
+          "matches_delta_L_Lprime_over_2Lplus1": true
+        },
+        {
+          "L": 1,
+          "Lprime": 3,
+          "m": 1,
+          "partial_final_spin_kernel": "0",
+          "matches_delta_L_Lprime_over_2Lplus1": true
+        },
+        {
+          "L": 1,
+          "Lprime": 4,
+          "m": -1,
+          "partial_final_spin_kernel": "0",
+          "matches_delta_L_Lprime_over_2Lplus1": true
+        },
+        {
+          "L": 1,
+          "Lprime": 4,
+          "m": 0,
+          "partial_final_spin_kernel": "0",
+          "matches_delta_L_Lprime_over_2Lplus1": true
+        },
+        {
+          "L": 1,
+          "Lprime": 4,
+          "m": 1,
+          "partial_final_spin_kernel": "0",
+          "matches_delta_L_Lprime_over_2Lplus1": true
+        },
+        {
+          "L": 2,
+          "Lprime": 1,
+          "m": -1,
+          "partial_final_spin_kernel": "0",
+          "matches_delta_L_Lprime_over_2Lplus1": true
+        },
+        {
+          "L": 2,
+          "Lprime": 1,
+          "m": 0,
+          "partial_final_spin_kernel": "0",
+          "matches_delta_L_Lprime_over_2Lplus1": true
+        },
+        {
+          "L": 2,
+          "Lprime": 1,
+          "m": 1,
+          "partial_final_spin_kernel": "0",
+          "matches_delta_L_Lprime_over_2Lplus1": true
+        },
+        {
+          "L": 2,
+          "Lprime": 2,
+          "m": -2,
+          "partial_final_spin_kernel": "1/5",
+          "matches_delta_L_Lprime_over_2Lplus1": true
+        },
+        {
+          "L": 2,
+          "Lprime": 2,
+          "m": -1,
+          "partial_final_spin_kernel": "1/5",
+          "matches_delta_L_Lprime_over_2Lplus1": true
+        },
+        {
+          "L": 2,
+          "Lprime": 2,
+          "m": 0,
+          "partial_final_spin_kernel": "1/5",
+          "matches_delta_L_Lprime_over_2Lplus1": true
+        },
+        {
+          "L": 2,
+          "Lprime": 2,
+          "m": 1,
+          "partial_final_spin_kernel": "1/5",
+          "matches_delta_L_Lprime_over_2Lplus1": true
+        },
+        {
+          "L": 2,
+          "Lprime": 2,
+          "m": 2,
+          "partial_final_spin_kernel": "1/5",
+          "matches_delta_L_Lprime_over_2Lplus1": true
+        },
+        {
+          "L": 2,
+          "Lprime": 3,
+          "m": -2,
+          "partial_final_spin_kernel": "0",
+          "matches_delta_L_Lprime_over_2Lplus1": true
+        },
+        {
+          "L": 2,
+          "Lprime": 3,
+          "m": -1,
+          "partial_final_spin_kernel": "0",
+          "matches_delta_L_Lprime_over_2Lplus1": true
+        },
+        {
+          "L": 2,
+          "Lprime": 3,
+          "m": 0,
+          "partial_final_spin_kernel": "0",
+          "matches_delta_L_Lprime_over_2Lplus1": true
+        },
+        {
+          "L": 2,
+          "Lprime": 3,
+          "m": 1,
+          "partial_final_spin_kernel": "0",
+          "matches_delta_L_Lprime_over_2Lplus1": true
+        },
+        {
+          "L": 2,
+          "Lprime": 3,
+          "m": 2,
+          "partial_final_spin_kernel": "0",
+          "matches_delta_L_Lprime_over_2Lplus1": true
+        },
+        {
+          "L": 2,
+          "Lprime": 4,
+          "m": -2,
+          "partial_final_spin_kernel": "0",
+          "matches_delta_L_Lprime_over_2Lplus1": true
+        },
+        {
+          "L": 2,
+          "Lprime": 4,
+          "m": -1,
+          "partial_final_spin_kernel": "0",
+          "matches_delta_L_Lprime_over_2Lplus1": true
+        },
+        {
+          "L": 2,
+          "Lprime": 4,
+          "m": 0,
+          "partial_final_spin_kernel": "0",
+          "matches_delta_L_Lprime_over_2Lplus1": true
+        },
+        {
+          "L": 2,
+          "Lprime": 4,
+          "m": 1,
+          "partial_final_spin_kernel": "0",
+          "matches_delta_L_Lprime_over_2Lplus1": true
+        },
+        {
+          "L": 2,
+          "Lprime": 4,
+          "m": 2,
+          "partial_final_spin_kernel": "0",
+          "matches_delta_L_Lprime_over_2Lplus1": true
+        },
+        {
+          "L": 3,
+          "Lprime": 1,
+          "m": -1,
+          "partial_final_spin_kernel": "0",
+          "matches_delta_L_Lprime_over_2Lplus1": true
+        },
+        {
+          "L": 3,
+          "Lprime": 1,
+          "m": 0,
+          "partial_final_spin_kernel": "0",
+          "matches_delta_L_Lprime_over_2Lplus1": true
+        },
+        {
+          "L": 3,
+          "Lprime": 1,
+          "m": 1,
+          "partial_final_spin_kernel": "0",
+          "matches_delta_L_Lprime_over_2Lplus1": true
+        },
+        {
+          "L": 3,
+          "Lprime": 2,
+          "m": -2,
+          "partial_final_spin_kernel": "0",
+          "matches_delta_L_Lprime_over_2Lplus1": true
+        },
+        {
+          "L": 3,
+          "Lprime": 2,
+          "m": -1,
+          "partial_final_spin_kernel": "0",
+          "matches_delta_L_Lprime_over_2Lplus1": true
+        },
+        {
+          "L": 3,
+          "Lprime": 2,
+          "m": 0,
+          "partial_final_spin_kernel": "0",
+          "matches_delta_L_Lprime_over_2Lplus1": true
+        },
+        {
+          "L": 3,
+          "Lprime": 2,
+          "m": 1,
+          "partial_final_spin_kernel": "0",
+          "matches_delta_L_Lprime_over_2Lplus1": true
+        },
+        {
+          "L": 3,
+          "Lprime": 2,
+          "m": 2,
+          "partial_final_spin_kernel": "0",
+          "matches_delta_L_Lprime_over_2Lplus1": true
+        },
+        {
+          "L": 3,
+          "Lprime": 3,
+          "m": -3,
+          "partial_final_spin_kernel": "1/7",
+          "matches_delta_L_Lprime_over_2Lplus1": true
+        },
+        {
+          "L": 3,
+          "Lprime": 3,
+          "m": -2,
+          "partial_final_spin_kernel": "1/7",
+          "matches_delta_L_Lprime_over_2Lplus1": true
+        },
+        {
+          "L": 3,
+          "Lprime": 3,
+          "m": -1,
+          "partial_final_spin_kernel": "1/7",
+          "matches_delta_L_Lprime_over_2Lplus1": true
+        },
+        {
+          "L": 3,
+          "Lprime": 3,
+          "m": 0,
+          "partial_final_spin_kernel": "1/7",
+          "matches_delta_L_Lprime_over_2Lplus1": true
+        },
+        {
+          "L": 3,
+          "Lprime": 3,
+          "m": 1,
+          "partial_final_spin_kernel": "1/7",
+          "matches_delta_L_Lprime_over_2Lplus1": true
+        },
+        {
+          "L": 3,
+          "Lprime": 3,
+          "m": 2,
+          "partial_final_spin_kernel": "1/7",
+          "matches_delta_L_Lprime_over_2Lplus1": true
+        },
+        {
+          "L": 3,
+          "Lprime": 3,
+          "m": 3,
+          "partial_final_spin_kernel": "1/7",
+          "matches_delta_L_Lprime_over_2Lplus1": true
+        },
+        {
+          "L": 3,
+          "Lprime": 4,
+          "m": -3,
+          "partial_final_spin_kernel": "0",
+          "matches_delta_L_Lprime_over_2Lplus1": true
+        },
+        {
+          "L": 3,
+          "Lprime": 4,
+          "m": -2,
+          "partial_final_spin_kernel": "0",
+          "matches_delta_L_Lprime_over_2Lplus1": true
+        },
+        {
+          "L": 3,
+          "Lprime": 4,
+          "m": -1,
+          "partial_final_spin_kernel": "0",
+          "matches_delta_L_Lprime_over_2Lplus1": true
+        },
+        {
+          "L": 3,
+          "Lprime": 4,
+          "m": 0,
+          "partial_final_spin_kernel": "0",
+          "matches_delta_L_Lprime_over_2Lplus1": true
+        },
+        {
+          "L": 3,
+          "Lprime": 4,
+          "m": 1,
+          "partial_final_spin_kernel": "0",
+          "matches_delta_L_Lprime_over_2Lplus1": true
+        },
+        {
+          "L": 3,
+          "Lprime": 4,
+          "m": 2,
+          "partial_final_spin_kernel": "0",
+          "matches_delta_L_Lprime_over_2Lplus1": true
+        },
+        {
+          "L": 3,
+          "Lprime": 4,
+          "m": 3,
+          "partial_final_spin_kernel": "0",
+          "matches_delta_L_Lprime_over_2Lplus1": true
+        },
+        {
+          "L": 4,
+          "Lprime": 1,
+          "m": -1,
+          "partial_final_spin_kernel": "0",
+          "matches_delta_L_Lprime_over_2Lplus1": true
+        },
+        {
+          "L": 4,
+          "Lprime": 1,
+          "m": 0,
+          "partial_final_spin_kernel": "0",
+          "matches_delta_L_Lprime_over_2Lplus1": true
+        },
+        {
+          "L": 4,
+          "Lprime": 1,
+          "m": 1,
+          "partial_final_spin_kernel": "0",
+          "matches_delta_L_Lprime_over_2Lplus1": true
+        },
+        {
+          "L": 4,
+          "Lprime": 2,
+          "m": -2,
+          "partial_final_spin_kernel": "0",
+          "matches_delta_L_Lprime_over_2Lplus1": true
+        },
+        {
+          "L": 4,
+          "Lprime": 2,
+          "m": -1,
+          "partial_final_spin_kernel": "0",
+          "matches_delta_L_Lprime_over_2Lplus1": true
+        },
+        {
+          "L": 4,
+          "Lprime": 2,
+          "m": 0,
+          "partial_final_spin_kernel": "0",
+          "matches_delta_L_Lprime_over_2Lplus1": true
+        },
+        {
+          "L": 4,
+          "Lprime": 2,
+          "m": 1,
+          "partial_final_spin_kernel": "0",
+          "matches_delta_L_Lprime_over_2Lplus1": true
+        },
+        {
+          "L": 4,
+          "Lprime": 2,
+          "m": 2,
+          "partial_final_spin_kernel": "0",
+          "matches_delta_L_Lprime_over_2Lplus1": true
+        },
+        {
+          "L": 4,
+          "Lprime": 3,
+          "m": -3,
+          "partial_final_spin_kernel": "0",
+          "matches_delta_L_Lprime_over_2Lplus1": true
+        },
+        {
+          "L": 4,
+          "Lprime": 3,
+          "m": -2,
+          "partial_final_spin_kernel": "0",
+          "matches_delta_L_Lprime_over_2Lplus1": true
+        },
+        {
+          "L": 4,
+          "Lprime": 3,
+          "m": -1,
+          "partial_final_spin_kernel": "0",
+          "matches_delta_L_Lprime_over_2Lplus1": true
+        },
+        {
+          "L": 4,
+          "Lprime": 3,
+          "m": 0,
+          "partial_final_spin_kernel": "0",
+          "matches_delta_L_Lprime_over_2Lplus1": true
+        },
+        {
+          "L": 4,
+          "Lprime": 3,
+          "m": 1,
+          "partial_final_spin_kernel": "0",
+          "matches_delta_L_Lprime_over_2Lplus1": true
+        },
+        {
+          "L": 4,
+          "Lprime": 3,
+          "m": 2,
+          "partial_final_spin_kernel": "0",
+          "matches_delta_L_Lprime_over_2Lplus1": true
+        },
+        {
+          "L": 4,
+          "Lprime": 3,
+          "m": 3,
+          "partial_final_spin_kernel": "0",
+          "matches_delta_L_Lprime_over_2Lplus1": true
+        },
+        {
+          "L": 4,
+          "Lprime": 4,
+          "m": -4,
+          "partial_final_spin_kernel": "1/9",
+          "matches_delta_L_Lprime_over_2Lplus1": true
+        },
+        {
+          "L": 4,
+          "Lprime": 4,
+          "m": -3,
+          "partial_final_spin_kernel": "1/9",
+          "matches_delta_L_Lprime_over_2Lplus1": true
+        },
+        {
+          "L": 4,
+          "Lprime": 4,
+          "m": -2,
+          "partial_final_spin_kernel": "1/9",
+          "matches_delta_L_Lprime_over_2Lplus1": true
+        },
+        {
+          "L": 4,
+          "Lprime": 4,
+          "m": -1,
+          "partial_final_spin_kernel": "1/9",
+          "matches_delta_L_Lprime_over_2Lplus1": true
+        },
+        {
+          "L": 4,
+          "Lprime": 4,
+          "m": 0,
+          "partial_final_spin_kernel": "1/9",
+          "matches_delta_L_Lprime_over_2Lplus1": true
+        },
+        {
+          "L": 4,
+          "Lprime": 4,
+          "m": 1,
+          "partial_final_spin_kernel": "1/9",
+          "matches_delta_L_Lprime_over_2Lplus1": true
+        },
+        {
+          "L": 4,
+          "Lprime": 4,
+          "m": 2,
+          "partial_final_spin_kernel": "1/9",
+          "matches_delta_L_Lprime_over_2Lplus1": true
+        },
+        {
+          "L": 4,
+          "Lprime": 4,
+          "m": 3,
+          "partial_final_spin_kernel": "1/9",
+          "matches_delta_L_Lprime_over_2Lplus1": true
+        },
+        {
+          "L": 4,
+          "Lprime": 4,
+          "m": 4,
+          "partial_final_spin_kernel": "1/9",
+          "matches_delta_L_Lprime_over_2Lplus1": true
+        }
+      ],
+      "control_boundary": "Only original source A/B/C spins and existing nontrivial amplitude weights, with the explicitly requested isotropic initial density. No new nucleus, phase seed, angle or detector model."
+    },
+    "C_3_to_1": {
+      "Ji": "3",
+      "Jf": "1",
+      "initial_density": "I_7/7",
+      "modes": [
+        {
+          "L": 2,
+          "pi": 0,
+          "label": "E2"
+        },
+        {
+          "L": 3,
+          "pi": 1,
+          "label": "M3"
+        },
+        {
+          "L": 4,
+          "pi": 0,
+          "label": "E4"
+        }
+      ],
+      "retained_ranks": [
+        2
+      ],
+      "weights": {
+        "2": "36/49",
+        "3": "9/49",
+        "4": "4/49"
+      },
+      "retained_weights": {
+        "2": "1"
+      },
+      "occupied_parity_copy_photon_dimension": 21,
+      "source_joint_emitted_dimension": 21,
+      "block_eigenvalue_and_multiplicity": [
+        {
+          "L": 2,
+          "pi": 0,
+          "eigenvalue": "36/245",
+          "multiplicity_m": 5
+        },
+        {
+          "L": 3,
+          "pi": 1,
+          "eigenvalue": "9/343",
+          "multiplicity_m": 7
+        },
+        {
+          "L": 4,
+          "pi": 0,
+          "eigenvalue": "4/441",
+          "multiplicity_m": 9
+        }
+      ],
+      "epsilon": "13/49",
+      "D_photon_exact": "13/49",
+      "full_joint_D_squared_exact": "13/49",
+      "local_W": "1",
+      "local_helicity_density": "I2/2",
+      "local_normalized_Stokes": {
+        "Q": "0",
+        "U": "0",
+        "V_circular": "0"
+      },
+      "CG_norm_control_count": 21,
+      "partial_trace_common_m_coefficients": [
+        {
+          "L": 2,
+          "Lprime": 2,
+          "m": -2,
+          "partial_final_spin_kernel": "1/5",
+          "matches_delta_L_Lprime_over_2Lplus1": true
+        },
+        {
+          "L": 2,
+          "Lprime": 2,
+          "m": -1,
+          "partial_final_spin_kernel": "1/5",
+          "matches_delta_L_Lprime_over_2Lplus1": true
+        },
+        {
+          "L": 2,
+          "Lprime": 2,
+          "m": 0,
+          "partial_final_spin_kernel": "1/5",
+          "matches_delta_L_Lprime_over_2Lplus1": true
+        },
+        {
+          "L": 2,
+          "Lprime": 2,
+          "m": 1,
+          "partial_final_spin_kernel": "1/5",
+          "matches_delta_L_Lprime_over_2Lplus1": true
+        },
+        {
+          "L": 2,
+          "Lprime": 2,
+          "m": 2,
+          "partial_final_spin_kernel": "1/5",
+          "matches_delta_L_Lprime_over_2Lplus1": true
+        },
+        {
+          "L": 2,
+          "Lprime": 3,
+          "m": -2,
+          "partial_final_spin_kernel": "0",
+          "matches_delta_L_Lprime_over_2Lplus1": true
+        },
+        {
+          "L": 2,
+          "Lprime": 3,
+          "m": -1,
+          "partial_final_spin_kernel": "0",
+          "matches_delta_L_Lprime_over_2Lplus1": true
+        },
+        {
+          "L": 2,
+          "Lprime": 3,
+          "m": 0,
+          "partial_final_spin_kernel": "0",
+          "matches_delta_L_Lprime_over_2Lplus1": true
+        },
+        {
+          "L": 2,
+          "Lprime": 3,
+          "m": 1,
+          "partial_final_spin_kernel": "0",
+          "matches_delta_L_Lprime_over_2Lplus1": true
+        },
+        {
+          "L": 2,
+          "Lprime": 3,
+          "m": 2,
+          "partial_final_spin_kernel": "0",
+          "matches_delta_L_Lprime_over_2Lplus1": true
+        },
+        {
+          "L": 2,
+          "Lprime": 4,
+          "m": -2,
+          "partial_final_spin_kernel": "0",
+          "matches_delta_L_Lprime_over_2Lplus1": true
+        },
+        {
+          "L": 2,
+          "Lprime": 4,
+          "m": -1,
+          "partial_final_spin_kernel": "0",
+          "matches_delta_L_Lprime_over_2Lplus1": true
+        },
+        {
+          "L": 2,
+          "Lprime": 4,
+          "m": 0,
+          "partial_final_spin_kernel": "0",
+          "matches_delta_L_Lprime_over_2Lplus1": true
+        },
+        {
+          "L": 2,
+          "Lprime": 4,
+          "m": 1,
+          "partial_final_spin_kernel": "0",
+          "matches_delta_L_Lprime_over_2Lplus1": true
+        },
+        {
+          "L": 2,
+          "Lprime": 4,
+          "m": 2,
+          "partial_final_spin_kernel": "0",
+          "matches_delta_L_Lprime_over_2Lplus1": true
+        },
+        {
+          "L": 3,
+          "Lprime": 2,
+          "m": -2,
+          "partial_final_spin_kernel": "0",
+          "matches_delta_L_Lprime_over_2Lplus1": true
+        },
+        {
+          "L": 3,
+          "Lprime": 2,
+          "m": -1,
+          "partial_final_spin_kernel": "0",
+          "matches_delta_L_Lprime_over_2Lplus1": true
+        },
+        {
+          "L": 3,
+          "Lprime": 2,
+          "m": 0,
+          "partial_final_spin_kernel": "0",
+          "matches_delta_L_Lprime_over_2Lplus1": true
+        },
+        {
+          "L": 3,
+          "Lprime": 2,
+          "m": 1,
+          "partial_final_spin_kernel": "0",
+          "matches_delta_L_Lprime_over_2Lplus1": true
+        },
+        {
+          "L": 3,
+          "Lprime": 2,
+          "m": 2,
+          "partial_final_spin_kernel": "0",
+          "matches_delta_L_Lprime_over_2Lplus1": true
+        },
+        {
+          "L": 3,
+          "Lprime": 3,
+          "m": -3,
+          "partial_final_spin_kernel": "1/7",
+          "matches_delta_L_Lprime_over_2Lplus1": true
+        },
+        {
+          "L": 3,
+          "Lprime": 3,
+          "m": -2,
+          "partial_final_spin_kernel": "1/7",
+          "matches_delta_L_Lprime_over_2Lplus1": true
+        },
+        {
+          "L": 3,
+          "Lprime": 3,
+          "m": -1,
+          "partial_final_spin_kernel": "1/7",
+          "matches_delta_L_Lprime_over_2Lplus1": true
+        },
+        {
+          "L": 3,
+          "Lprime": 3,
+          "m": 0,
+          "partial_final_spin_kernel": "1/7",
+          "matches_delta_L_Lprime_over_2Lplus1": true
+        },
+        {
+          "L": 3,
+          "Lprime": 3,
+          "m": 1,
+          "partial_final_spin_kernel": "1/7",
+          "matches_delta_L_Lprime_over_2Lplus1": true
+        },
+        {
+          "L": 3,
+          "Lprime": 3,
+          "m": 2,
+          "partial_final_spin_kernel": "1/7",
+          "matches_delta_L_Lprime_over_2Lplus1": true
+        },
+        {
+          "L": 3,
+          "Lprime": 3,
+          "m": 3,
+          "partial_final_spin_kernel": "1/7",
+          "matches_delta_L_Lprime_over_2Lplus1": true
+        },
+        {
+          "L": 3,
+          "Lprime": 4,
+          "m": -3,
+          "partial_final_spin_kernel": "0",
+          "matches_delta_L_Lprime_over_2Lplus1": true
+        },
+        {
+          "L": 3,
+          "Lprime": 4,
+          "m": -2,
+          "partial_final_spin_kernel": "0",
+          "matches_delta_L_Lprime_over_2Lplus1": true
+        },
+        {
+          "L": 3,
+          "Lprime": 4,
+          "m": -1,
+          "partial_final_spin_kernel": "0",
+          "matches_delta_L_Lprime_over_2Lplus1": true
+        },
+        {
+          "L": 3,
+          "Lprime": 4,
+          "m": 0,
+          "partial_final_spin_kernel": "0",
+          "matches_delta_L_Lprime_over_2Lplus1": true
+        },
+        {
+          "L": 3,
+          "Lprime": 4,
+          "m": 1,
+          "partial_final_spin_kernel": "0",
+          "matches_delta_L_Lprime_over_2Lplus1": true
+        },
+        {
+          "L": 3,
+          "Lprime": 4,
+          "m": 2,
+          "partial_final_spin_kernel": "0",
+          "matches_delta_L_Lprime_over_2Lplus1": true
+        },
+        {
+          "L": 3,
+          "Lprime": 4,
+          "m": 3,
+          "partial_final_spin_kernel": "0",
+          "matches_delta_L_Lprime_over_2Lplus1": true
+        },
+        {
+          "L": 4,
+          "Lprime": 2,
+          "m": -2,
+          "partial_final_spin_kernel": "0",
+          "matches_delta_L_Lprime_over_2Lplus1": true
+        },
+        {
+          "L": 4,
+          "Lprime": 2,
+          "m": -1,
+          "partial_final_spin_kernel": "0",
+          "matches_delta_L_Lprime_over_2Lplus1": true
+        },
+        {
+          "L": 4,
+          "Lprime": 2,
+          "m": 0,
+          "partial_final_spin_kernel": "0",
+          "matches_delta_L_Lprime_over_2Lplus1": true
+        },
+        {
+          "L": 4,
+          "Lprime": 2,
+          "m": 1,
+          "partial_final_spin_kernel": "0",
+          "matches_delta_L_Lprime_over_2Lplus1": true
+        },
+        {
+          "L": 4,
+          "Lprime": 2,
+          "m": 2,
+          "partial_final_spin_kernel": "0",
+          "matches_delta_L_Lprime_over_2Lplus1": true
+        },
+        {
+          "L": 4,
+          "Lprime": 3,
+          "m": -3,
+          "partial_final_spin_kernel": "0",
+          "matches_delta_L_Lprime_over_2Lplus1": true
+        },
+        {
+          "L": 4,
+          "Lprime": 3,
+          "m": -2,
+          "partial_final_spin_kernel": "0",
+          "matches_delta_L_Lprime_over_2Lplus1": true
+        },
+        {
+          "L": 4,
+          "Lprime": 3,
+          "m": -1,
+          "partial_final_spin_kernel": "0",
+          "matches_delta_L_Lprime_over_2Lplus1": true
+        },
+        {
+          "L": 4,
+          "Lprime": 3,
+          "m": 0,
+          "partial_final_spin_kernel": "0",
+          "matches_delta_L_Lprime_over_2Lplus1": true
+        },
+        {
+          "L": 4,
+          "Lprime": 3,
+          "m": 1,
+          "partial_final_spin_kernel": "0",
+          "matches_delta_L_Lprime_over_2Lplus1": true
+        },
+        {
+          "L": 4,
+          "Lprime": 3,
+          "m": 2,
+          "partial_final_spin_kernel": "0",
+          "matches_delta_L_Lprime_over_2Lplus1": true
+        },
+        {
+          "L": 4,
+          "Lprime": 3,
+          "m": 3,
+          "partial_final_spin_kernel": "0",
+          "matches_delta_L_Lprime_over_2Lplus1": true
+        },
+        {
+          "L": 4,
+          "Lprime": 4,
+          "m": -4,
+          "partial_final_spin_kernel": "1/9",
+          "matches_delta_L_Lprime_over_2Lplus1": true
+        },
+        {
+          "L": 4,
+          "Lprime": 4,
+          "m": -3,
+          "partial_final_spin_kernel": "1/9",
+          "matches_delta_L_Lprime_over_2Lplus1": true
+        },
+        {
+          "L": 4,
+          "Lprime": 4,
+          "m": -2,
+          "partial_final_spin_kernel": "1/9",
+          "matches_delta_L_Lprime_over_2Lplus1": true
+        },
+        {
+          "L": 4,
+          "Lprime": 4,
+          "m": -1,
+          "partial_final_spin_kernel": "1/9",
+          "matches_delta_L_Lprime_over_2Lplus1": true
+        },
+        {
+          "L": 4,
+          "Lprime": 4,
+          "m": 0,
+          "partial_final_spin_kernel": "1/9",
+          "matches_delta_L_Lprime_over_2Lplus1": true
+        },
+        {
+          "L": 4,
+          "Lprime": 4,
+          "m": 1,
+          "partial_final_spin_kernel": "1/9",
+          "matches_delta_L_Lprime_over_2Lplus1": true
+        },
+        {
+          "L": 4,
+          "Lprime": 4,
+          "m": 2,
+          "partial_final_spin_kernel": "1/9",
+          "matches_delta_L_Lprime_over_2Lplus1": true
+        },
+        {
+          "L": 4,
+          "Lprime": 4,
+          "m": 3,
+          "partial_final_spin_kernel": "1/9",
+          "matches_delta_L_Lprime_over_2Lplus1": true
+        },
+        {
+          "L": 4,
+          "Lprime": 4,
+          "m": 4,
+          "partial_final_spin_kernel": "1/9",
+          "matches_delta_L_Lprime_over_2Lplus1": true
+        }
+      ],
+      "control_boundary": "Only original source A/B/C spins and existing nontrivial amplitude weights, with the explicitly requested isotropic initial density. No new nucleus, phase seed, angle or detector model."
+    }
+  },
+  "mathematical_checks": {
+    "results": {
+      "A_3half_to_half_all_initial_CG_norms_one": true,
+      "A_3half_to_half_isotropic_partial_trace_scalar_rank_blocks": true,
+      "A_3half_to_half_cross_rank_phases_are_removed": true,
+      "A_3half_to_half_normalized_full_weight_trace_one": true,
+      "A_3half_to_half_existing_seed_omission_fraction_exact": true,
+      "A_3half_to_half_retained_trace_one": true,
+      "A_3half_to_half_photon_trace_distance_equals_omitted_fraction": true,
+      "A_3half_to_half_omitted_rank_projector_probability_full_epsilon_retained_zero": true,
+      "A_3half_to_half_epsilon_between_zero_and_square_root_upper": true,
+      "A_3half_to_half_isotropic_local_helicity_half_half": true,
+      "B_2_to_2_all_initial_CG_norms_one": true,
+      "B_2_to_2_isotropic_partial_trace_scalar_rank_blocks": true,
+      "B_2_to_2_cross_rank_phases_are_removed": true,
+      "B_2_to_2_normalized_full_weight_trace_one": true,
+      "B_2_to_2_existing_seed_omission_fraction_exact": true,
+      "B_2_to_2_retained_trace_one": true,
+      "B_2_to_2_photon_trace_distance_equals_omitted_fraction": true,
+      "B_2_to_2_omitted_rank_projector_probability_full_epsilon_retained_zero": true,
+      "B_2_to_2_epsilon_between_zero_and_square_root_upper": true,
+      "B_2_to_2_isotropic_local_helicity_half_half": true,
+      "C_3_to_1_all_initial_CG_norms_one": true,
+      "C_3_to_1_isotropic_partial_trace_scalar_rank_blocks": true,
+      "C_3_to_1_cross_rank_phases_are_removed": true,
+      "C_3_to_1_normalized_full_weight_trace_one": true,
+      "C_3_to_1_existing_seed_omission_fraction_exact": true,
+      "C_3_to_1_retained_trace_one": true,
+      "C_3_to_1_photon_trace_distance_equals_omitted_fraction": true,
+      "C_3_to_1_omitted_rank_projector_probability_full_epsilon_retained_zero": true,
+      "C_3_to_1_epsilon_between_zero_and_square_root_upper": true,
+      "C_3_to_1_isotropic_local_helicity_half_half": true,
+      "physical_helicity_parity_copies_are_normalized_and_orthogonal": true,
+      "copy_projector_trace_one_not_helicity_identity_trace_two": true
+    },
+    "total_passed": 32,
+    "failures": 0,
+    "method": "ExactCG structural partial traces and small scalar blocks only; no parameter/angle grid or software tests. Component coefficients are recorded separately, not counted as grid checks."
+  },
+  "reproducibility": {
+    "code": "tmp/day8-20261007/runtime/isotropic-photon-rank-state/isotropic_photon_rank_state.py",
+    "script_sha256": "8110056f66cec9b2a4283b499b18b7fc585686b637243ed95f198525c1836eeb",
+    "source_code": "#!/usr/bin/env python3\n\"\"\"Day8 L2 photon-rank state after isotropic emission/final-spin trace.\n\nOnly the existing A/B/C spins/mode sets/seeds are used. Default execution is\nread-only; --write-receipt exclusively creates the one owned JSON. No producer\nor test suite is executed and no parameter/angle grid is opened.\n\"\"\"\nfrom __future__ import annotations\n\nimport sys\nsys.dont_write_bytecode = True\n\nimport argparse\nfrom datetime import datetime, timezone\nfrom fractions import Fraction as Q\nfrom functools import lru_cache\nimport hashlib\nimport importlib.util\nimport json\nfrom pathlib import Path\n\n\nRUN_REL = 'outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01'\nCODE_REL = 'tmp/day8-20261007/runtime/isotropic-photon-rank-state/isotropic_photon_rank_state.py'\nREADME_REL = 'tmp/day8-20261007/runtime/isotropic-photon-rank-state/README.md'\nOUT_REL = RUN_REL + '/isotropic-photon-rank-state.json'\nHELPER_REL = 'tmp/day8-20261007/rose-brink/truncation-observable-bound/independent-review/fraction_radiation_audit.py'\nHELPER_SHA = 'c464bd0f553f906f0f134fda39621c33cc40919d4f8eeb986546b47d43e883da'\nPRIORS = {\n    'A': ('angular-degeneracy.json', '0b633e74a96925cbaced95073407523f441cd6ed89554c15f87b84758e89f334'),\n    'B': ('four-multipole-observable-rank.json', '42b7c697dc6522fa384e0934fc545a0010a614ff2af3cfcbf767729242bf5f48'),\n    'C': ('case-c-angular-polarization-rank.json', '15599129f0079603cf26b4d5a909bb3799b605c55bdc248d570502c164e77bb1'),\n    'old95': ('truncation-observable-bound.json', '8d836c358937581ae05b9923c2f222938d56cce493c4cb5056299ed550f3cec9'),\n    'old329': ('finite-rank-density-bound.json', '2636cac3929b3b28bb5b29badf5bc9df7e74d7d16378db42cb726d0bbdfe8538'),\n    'parity25': ('nondefinite-parity-control.json', 'bc74eed5b62673fb8fb3b4ef2fb862cceb85870f36d36e58d8721027e1a620bb'),\n}\nRAW_REL = 'raw/papers/gpt/high-spin-20260920/multipolarity/mixing ratio/1967_Rose et al_Angular Distributions of Gamma Rays in Terms of Phase-Defined Reduced Matrix Elements.pdf'\nRAW_SHA = '8f846b61b9320de291ee5600126c5e286a0fe05968df819696816f0dc1ec57dc'\n\n\ndef digest(value):\n    return hashlib.sha256(value).hexdigest()\n\n\ndef projections(J):\n    return [-J + i for i in range(int(2 * J + 1))]\n\n\ndef build_receipt(root):\n    mathematical = {}\n\n    def check(name, value):\n        mathematical[name] = bool(value)\n        if not mathematical[name]:\n            raise RuntimeError('Exact state control failed: ' + name)\n\n    tracked, prior, records = {}, {}, {}\n    for name, (filename, expected) in PRIORS.items():\n        path = root / RUN_REL / filename\n        content = path.read_bytes()\n        if digest(content) != expected:\n            raise RuntimeError('Frozen prior identity changed: ' + name)\n        tracked[path] = content\n        prior[name] = json.loads(content)\n        records[name] = {'path': RUN_REL + '/' + filename, 'sha256': expected}\n    raw = (root / RAW_REL).read_bytes()\n    if digest(raw) != RAW_SHA:\n        raise RuntimeError('Raw identity changed')\n    tracked[root / RAW_REL] = raw\n    helper_path = root / HELPER_REL\n    helper = helper_path.read_bytes()\n    if digest(helper) != HELPER_SHA:\n        raise RuntimeError('Independent Fraction helper identity changed')\n    tracked[helper_path] = helper\n    spec = importlib.util.spec_from_file_location('isotropic_independent_fraction_helper', helper_path)\n    h = importlib.util.module_from_spec(spec)\n    spec.loader.exec_module(h)\n\n    @lru_cache(None)\n    def cg(Jf, L, Ji, Mf, m, Mi):\n        return h.cg(Jf, L, Ji, Mf, m, Mi)\n\n    A_branch = prior['A']['root_demonstration']['branches'][1]\n    weightsA = {1: Q(A_branch['E1_radiative_fraction']), 2: Q(A_branch['M2_radiative_fraction'])}\n    fractionsB = prior['B']['seed']['radiative_fractions']\n    weightsB = {L: Q(fractionsB[label]) for L, label in ((1, 'M1'), (2, 'E2'), (3, 'M3'), (4, 'E4'))}\n    parametersC = prior['C']['seed']['parameters']\n    u, v = Q(parametersC['u']), Q(parametersC['v'])\n    S_C = 1 + u ** 2 + v ** 2\n    weightsC = {2: 1 / S_C, 3: u ** 2 / S_C, 4: v ** 2 / S_C}\n    cases = (\n        ('A_3half_to_half', Q(3, 2), Q(1, 2), ((1, 0), (2, 1)), weightsA, (1,), Q(3, 4)),\n        ('B_2_to_2', Q(2), Q(2), ((1, 1), (2, 0), (3, 1), (4, 0)), weightsB, (1, 2), Q(5, 41)),\n        ('C_3_to_1', Q(3), Q(1), ((2, 0), (3, 1), (4, 0)), weightsC, (2,), Q(13, 49)),\n    )\n    results = {}\n    for name, Ji, Jf, modes, weights, retained, expected_e in cases:\n        Ni = int(2 * Ji + 1)\n        initial, final = projections(Ji), projections(Jf)\n        cg_norms = []\n        for L, pi in modes:\n            for Mi in initial:\n                norm = h.sum_scalar(h.mul(h.conj(cg(Jf, L, Ji, Mf, Mi - Mf, Mi)), cg(Jf, L, Ji, Mf, Mi - Mf, Mi)) for Mf in final)\n                cg_norms.append(norm == h.scalar(1))\n        check(name + '_all_initial_CG_norms_one', all(cg_norms))\n        kernel = []\n        for L, pi in modes:\n            for LP, pip in modes:\n                for m in range(-min(L, LP), min(L, LP) + 1):\n                    # With rho_initial=I/Ni, same final Mf and initial Mi force\n                    # m=mprime. Other m/mprime entries vanish by CG selection.\n                    value = h.sum_scalar(h.mul(cg(Jf, L, Ji, Mf, m, Mf + m), h.conj(cg(Jf, LP, Ji, Mf, m, Mf + m))) for Mf in final)\n                    value = h.scale(value, Q(1, Ni))\n                    expected = h.scalar(Q(1, 2 * L + 1) if L == LP else 0)\n                    kernel.append({'L': L, 'Lprime': LP, 'm': m, 'partial_final_spin_kernel': str(value.get((1, 0), Q(0))) if not value or set(value) == {(1, 0)} else 'nonrational',\n                                   'matches_delta_L_Lprime_over_2Lplus1': value == expected})\n        check(name + '_isotropic_partial_trace_scalar_rank_blocks', all(item['matches_delta_L_Lprime_over_2Lplus1'] for item in kernel))\n        check(name + '_cross_rank_phases_are_removed', all(item['partial_final_spin_kernel'] == '0' for item in kernel if item['L'] != item['Lprime']))\n        check(name + '_normalized_full_weight_trace_one', sum(weights.values(), Q(0)) == 1 and all(value >= 0 for value in weights.values()))\n        epsilon = sum((value for L, value in weights.items() if L not in retained), Q(0))\n        check(name + '_existing_seed_omission_fraction_exact', epsilon == expected_e and epsilon < 1)\n        ret_weights = {L: value / (1 - epsilon) for L, value in weights.items() if L in retained}\n        check(name + '_retained_trace_one', sum(ret_weights.values(), Q(0)) == 1)\n        trace_norm = sum((abs(value - ret_weights.get(L, Q(0))) for L, value in weights.items()), Q(0))\n        D_photon = trace_norm / 2\n        check(name + '_photon_trace_distance_equals_omitted_fraction', D_photon == epsilon)\n        check(name + '_omitted_rank_projector_probability_full_epsilon_retained_zero', sum((weights[L] for L in weights if L not in retained), Q(0)) == epsilon and sum((ret_weights.get(L, Q(0)) for L in weights if L not in retained), Q(0)) == 0)\n        check(name + '_epsilon_between_zero_and_square_root_upper', 0 <= epsilon and epsilon ** 2 <= epsilon)\n        check(name + '_isotropic_local_helicity_half_half', sum(weights.values(), Q(0)) / 2 == Q(1, 2))\n        results[name] = {\n            'Ji': str(Ji), 'Jf': str(Jf), 'initial_density': 'I_' + str(Ni) + '/' + str(Ni),\n            'modes': [{'L': L, 'pi': pi, 'label': ('E' if pi == 0 else 'M') + str(L)} for L, pi in modes],\n            'retained_ranks': list(retained), 'weights': {str(L): str(value) for L, value in weights.items()},\n            'retained_weights': {str(L): str(value) for L, value in ret_weights.items()},\n            'occupied_parity_copy_photon_dimension': sum(2 * L + 1 for L, _ in modes),\n            'source_joint_emitted_dimension': Ni * len(modes),\n            'block_eigenvalue_and_multiplicity': [{'L': L, 'pi': pi, 'eigenvalue': str(weights[L] / (2 * L + 1)), 'multiplicity_m': 2 * L + 1} for L, pi in modes],\n            'epsilon': str(epsilon), 'D_photon_exact': str(D_photon), 'full_joint_D_squared_exact': str(epsilon),\n            'local_W': '1', 'local_helicity_density': 'I2/2', 'local_normalized_Stokes': {'Q': '0', 'U': '0', 'V_circular': '0'},\n            'CG_norm_control_count': len(cg_norms), 'partial_trace_common_m_coefficients': kernel,\n            'control_boundary': 'Only original source A/B/C spins and existing nontrivial amplitude weights, with the explicitly requested isotropic initial density. No new nucleus, phase seed, angle or detector model.',\n        }\n    chi0 = [[h.scale(h.radical(2), Q(1, 2))], [h.scale(h.radical(2), Q(1, 2))]]\n    chi1 = [[h.scale(h.radical(2), Q(-1, 2))], [h.scale(h.radical(2), Q(1, 2))]]\n    check('physical_helicity_parity_copies_are_normalized_and_orthogonal', h.mm(h.adjoint(chi0), chi0) == [[h.scalar(1)]] and h.mm(h.adjoint(chi1), chi1) == [[h.scalar(1)]] and h.mm(h.adjoint(chi0), chi1) == [[{}]])\n    check('copy_projector_trace_one_not_helicity_identity_trace_two', h.trace(h.mm(chi0, h.adjoint(chi0))) == h.scalar(1) and h.trace(h.eye(2)) == h.scalar(2))\n    for path, content in tracked.items():\n        if path.read_bytes() != content:\n            raise RuntimeError('Read-only input changed during arithmetic: ' + str(path))\n    code = Path(__file__).read_bytes()\n    readme_path = root / README_REL\n    readme = readme_path.read_bytes() if readme_path.exists() else None\n    return {\n        'schema_version': 1, 'created_at_utc': datetime.now(timezone.utc).isoformat(),\n        'artifact_kind': 'Day8-L2-isotropic-reduced-photon-rank-state-boundary',\n        'status': 'isotropic-photon-rank-state-and-distance-theorems-complete; ideal-mode-measurement-only',\n        'day_index': 8, 'run_closed': False, 'new_source_or_course_card': False, 'new_nucleus_or_energy': False,\n        'experimental_data_fit': False, 'numerical_experiment': False, 'L4': False,\n        'session_id': '01a111fb-370d-7ed1-afe9-881ccc47caf4',\n        'resume_command': 'codex resume 01a111fb-370d-7ed1-afe9-881ccc47caf4 -C /workspace/wiki -s danger-full-access -a never',\n        'evidence_class': 'Existing RB source amplitude/rotation/normalization premises plus our Schur/CG partial trace, rank-projector and exact state-distance reconstruction; scientific self-audit, not human-reviewed.',\n        'immutable_inputs': records, 'raw_source': {'path': RAW_REL, 'sha256': RAW_SHA},\n        'source_locators': ['RB67 printed316/PDF11 Eq3.24 coherent emission and WE relation afterEq3.25', 'printed317/PDF12 Eq3.28 random initial density and rotation tensors', 'printed318/PDF13 Eq3.29 integrated photon rate/interaction-amplitude normalization', 'printed320/PDF15 definite-parity condition', 'existing RB67-25 andRB67-27 scope: isotropy doesnot eliminate same-L E/M multiplicity coherence'],\n        'common_space_and_assumptions': {\n            'source_model': 'Fixedgood Ji/Jf and definite nuclear parities with one allowed E/M type pi(L) per photon rank L. Same energy/normalized radial mode or angular-shell model and the full source emission isometry.',\n            'initial_state': 'rho_i=I/(2Ji+1) for the isotropic scalar-block theorem. The retained state is the same full state projected onto retained ranks and renormalized; 0<=epsilon<1 and S_R>0.',\n            'trace': 'Trace the complete FINAL NUCLEAR SPIN multiplet, not an unspecified additional recoil/source-position/environment or detector channel.',\n            'photon_basis': 'Physical basis |L,m,q>, q=-1,+1. For each allowed type, chi_pi(q)=q^pi/sqrt2. The occupied copy |L,m,pi> uses that helicity vector; it is not an independent fictitious type flag.',\n            'amplitude_convention': 'u_L is the common normalized emission coefficient (possibly conjugate to RB interaction coefficient), sum|u_L|^2=1. The source photon fraction is |u_L|^2, not a bare nuclear electric/magnetic RME squared.',\n        },\n        'isotropic_reduced_state_theorem': {\n            'copy_label_formula': 'rho_photon=directsum_L [w_L/(2L+1)] I_m^(L,pi(L)), w_L=|u_L|^2.',\n            'full_two_helicity_formula': 'rho_photon=directsum_L [w_L/(2L+1)] I_m^(L) tensor |chi_pi(L)><chi_pi(L)|. The unused opposite parity copy is zero. It is not w_L I_(2(2L+1))/(2L+1) or a fully mixed helicity-copy block.',\n            'CG_kernel': '(1/(2Ji+1))sum_Mi,Mf C(Jf,L,Ji;Mf,m,Mi) C(Jf,Lprime,Ji;Mf,mprime,Mi)^*=delta_LLprime delta_mmprime/(2L+1).',\n            'proof': 'The invariant input and covariant emission yield an invariant photon state after the final-spin partial trace. Different L irreps have no rotational intertwiner by Schur. A single occupied E/M copy perL leaves a scalar I_m block; trace V_L rho_i V_L_dagger=1 fixes1/(2L+1). ExactCG kernels independently verify the original A/B/C representations.',\n            'phase_scope': 'All different-rank phases disappear in this isotropic reduced state, while weights/fractions remain. Equal weights give the same photon-only state even if phases differ; phase information may still reside in photon/final-spin correlations before tracing.',\n        },\n        'trace_distances_and_projector': {\n            'isotropic_distance': 'For the full state and its renormalized retained projection, D_photon=epsilon. Retained blocks have total negative difference trace-epsilon and omitted blocks positive trace+epsilon.',\n            'full_joint_distance': 'The old95 full emitted state INCLUDING final spin has exactD_full=sqrt(epsilon) for the same initialrho. Partial trace can reduce that distance; the two spaces must not be conflated.',\n            'arbitrary_common_initial_density': 'For any PSD trace-one initialrho under the same emission model, P_O=sum_omitted ranksP_L is an abstract photon effect. V_dagger(P_O tensor I_final)V=epsilon I_initial, so full probabilityepsilon, retained probability0.',\n            'general_bounds': 'The variational effect characterization and contractive final-spin trace give epsilon<=D_photon<=sqrt(epsilon), whenever the retained reference exists. Isotropic input attains the lower value; no all-case upper sharpness is asserted.',\n            'not_phase_measurement': 'The rank projector probabilities only contain w_L and do not recover phase/sign. In the isotropic definite-parity theorem the whole photon-only state is already phase-blind.',\n            'extra_channels': 'A further arbitrary CPTP/environment/detector channel can erase or mix ranks. It retains an upper distance contraction but need not preserve the epsilon lower bound or rank-projector probabilities without a corresponding effect/support audit.',\n            'endpoints': 'epsilon0 gives identical states directly, without defining a zero omitted isometry. epsilon1/S_R0 has no normalized retained reference; S0 has no emitted state.',\n        },\n        'local_observable_vs_global_state': {\n            'point_helicity_matrix': 'For any directionn, sum_m D_mq D_mqprime^*=delta_qqprime. Each scalar rank block gives local H_qqprime=delta_qqprime/2; sumw=1 givesW=1 and all normalized local Stokes components0.',\n            'measurement_class': 'Normalized direction-local linear/circular/unpolarized photon bins with the same bounded response therefore do not identify fractions in this isotropic case. This does not assert equal absolute photon widths, unnormalized yields, lifetime/ICC data or all experimental companions.',\n            'global_projector': 'The ideal whole angular-mode rank projector is a valid abstract photon POVM and can distinguish different fraction vectors. It is not a direction-local detector effect and no ordinary gamma detector implementation or new experimental companion is claimed.',\n            'quantum_state_boundary': 'Equal normalized local W/polarization distributions are not equality of the full formal photon density operator. Different w_L give different rank-block states, even when all local point data are the same.',\n            'existing_joint_and_U_pair_interpretation': 'The isotropic photon marginal removes cross-L phases, not necessarily the rotationally invariant photon-plus-final-spin joint copies. Existing tagged/cascade observables may access such correlations only under their declared source geometry/instrument conditions, without guaranteed global phase recovery or uniqueness. The old U pair has different fractions, so its formal photon marginals cannot be identical: Tr(P_L rho_photon)=w_L for any initialrho. No old global/cascade matrices are rerun.',\n        },\n        'parity_multiplicity_scope': {\n            'required_one_copy': 'Definite initial/final parities select one E/M type perL. Schur fixes the identity on m, not on an arbitrary multiplicity space.',\n            'relaxed_general_form': 'If coherent E/M types of the same L are both allowed, rotational invariance only gives I_m/(2L+1) tensor C_L, with a positive multiplicity matrix C_L that can retain E/M coherence. This is not the scalar one-copy theorem.',\n            'existing25_27_boundary': 'Prior RB67-25 has an isotropic nondefinite-parity spin-half control with circular polarization, and RB67-27 retains f_q=(S+2q ReX)/(2S), X=sum a_E,L a_M,L^*. Isotropic initialspin alone doesnot forceReX0 orPc0.',\n            'rank_partition': 'The omitted effect above partitions ranks. If a relaxed problem omits one E/M type but retains another at the sameL, a rank-only projector is not that type projector; its probability need not be the omitted-type fraction.',\n        },\n        'kappa_and_reuse_boundaries': {\n            'old329_space': 'The old2/5/7 point constants are compressed on the joint H_emit INCLUDING final spin. Do not replace its full distance with this smaller photon-only D while keeping the samekappa; photon support/effect compression needs its own audit.',\n            'no_added_kappa_or_design': 'No new photon-only point norm, detector design, nuclear state realization or statistical separation is derived.',\n            'common_model': 'Keep the same retained amplitudes/initialrho, energy/radial mode, source origin and final-spin trace. Uncontrolled extra environment/recoil/source-position reductions or refits are outside the exact state identities.',\n            'no_real_beam_tomography': 'No center-of-mass/recoil/translation/source-position/temporal response is modeled, and no actual in-beam photon-state tomography or global-rank analyzer is claimed. Additional averaging needs an output-mode/effect or projector-pullback audit; it can remove the epsilon lower bound.',\n            'physical_scope': 'All original A/B/C amplitudes and new isotropic condition are ideal source-model parameters. No actual prior, coherent apparatus, quantum state preparation, measured fraction or real nucleus is certified.',\n        },\n        'exact_original_case_controls': results,\n        'mathematical_checks': {'results': mathematical, 'total_passed': sum(mathematical.values()), 'failures': 0,\n                                'method': 'ExactCG structural partial traces and small scalar blocks only; no parameter/angle grid or software tests. Component coefficients are recorded separately, not counted as grid checks.'},\n        'reproducibility': {'code': CODE_REL, 'script_sha256': digest(code), 'source_code': code.decode(),\n                            'independent_helper_path': HELPER_REL, 'independent_helper_sha256': HELPER_SHA, 'independent_helper_source_code': helper.decode(),\n                            'README': README_REL, 'README_sha256': digest(readme) if readme is not None else None,\n                            'read_only_replay_command': 'python3 ' + CODE_REL,\n                            'exclusive_creation_command': 'python3 ' + CODE_REL + ' --write-receipt', 'default_replay_writes_no_files': True},\n        'mutations': {'old_receipts_or_raw_changed': False, 'canonical_report_state_PLAN_Git_changed': False, 'new_agent_source_card_case': False,\n                      'only_allowed_new_receipt': OUT_REL, 'owned_code_and_document_dir': str(Path(CODE_REL).parent)},\n        'attribution': 'Source supplies amplitude/CG/rotation/rate premises. Schur state blocks, photon distance and projector analysis are our mathematical reconstruction and self-audit, not source-authored quantum-information bounds, Human review, physical detector realization or paper admission.',\n        'stop_reason': 'The bounded original-three-case state/observable distinction is complete with parity-copy, trace-space and abstract-effect scope retained; no further cases or detector engineering opened.',\n    }\n\n\ndef main():\n    parser = argparse.ArgumentParser(description=__doc__)\n    parser.add_argument('--root', type=Path, default=Path(__file__).resolve().parents[4])\n    parser.add_argument('--write-receipt', action='store_true')\n    args = parser.parse_args()\n    receipt = build_receipt(args.root)\n    if args.write_receipt:\n        with (args.root / OUT_REL).open('x', encoding='utf-8', newline='\\n') as stream:\n            json.dump(receipt, stream, ensure_ascii=False, indent=2)\n            stream.write('\\n')\n    print(json.dumps({'artifact': OUT_REL if args.write_receipt else None, 'status': receipt['status'],\n                      'mathematical_checks': receipt['mathematical_checks']['total_passed'],\n                      'case_distances': {name: {'epsilon': item['epsilon'], 'D_photon': item['D_photon_exact'], 'D_full_squared': item['full_joint_D_squared_exact']}\n                                         for name, item in receipt['exact_original_case_controls'].items()},\n                      'default_replay_writes_no_files': True, 'run_closed': False}, ensure_ascii=False, indent=2))\n\n\nif __name__ == '__main__':\n    main()\n",
+    "independent_helper_path": "tmp/day8-20261007/rose-brink/truncation-observable-bound/independent-review/fraction_radiation_audit.py",
+    "independent_helper_sha256": "c464bd0f553f906f0f134fda39621c33cc40919d4f8eeb986546b47d43e883da",
+    "independent_helper_source_code": "#!/usr/bin/env python3\n\"\"\"Independent source-space mathematics, no producer/SymPy/test execution.\n\nUses factorial Wigner-d integrals, exact radical matrices and Fraction block\nalgebra. Only writes arithmetic-evidence.json in this owned audit directory.\n\"\"\"\nimport ast\nfrom datetime import datetime, timezone\nfrom fractions import Fraction as Q\nimport hashlib\nimport json\nfrom math import factorial, gcd\nfrom pathlib import Path\n\n\nHERE = Path(__file__).resolve().parent\nROOT = HERE.parents[4]\nRUN = ROOT / 'outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01'\nRECEIPT = RUN / 'truncation-observable-bound.json'\n\n\ndef scalar(value):\n    return {} if not value else {(1, 0): Q(value)}\n\n\ndef radical(n):\n    factor, prime = 1, 2\n    while prime * prime <= n:\n        while n % (prime * prime) == 0:\n            n //= prime * prime\n            factor *= prime\n        prime += 1\n    return {(n, 0): Q(factor)}\n\n\ndef add(a, b):\n    out = dict(a)\n    for key, value in b.items():\n        out[key] = out.get(key, Q(0)) + value\n    return {key: value for key, value in out.items() if value}\n\n\ndef scale(a, value):\n    return {key: coefficient * value for key, coefficient in a.items() if value}\n\n\ndef mul(a, b):\n    out = {}\n    for (na, ia), va in a.items():\n        for (nb, ib), vb in b.items():\n            common = gcd(na, nb)\n            key = ((na // common) * (nb // common), (ia + ib) % 2)\n            value = va * vb * common * (-1 if ia + ib == 2 else 1)\n            out = add(out, {key: value})\n    return out\n\n\ndef conj(a):\n    return {(n, i): value * (-1 if i else 1) for (n, i), value in a.items()}\n\n\ndef parse_node(node):\n    if isinstance(node, ast.Constant) and type(node.value) is int:\n        return scalar(node.value)\n    if isinstance(node, ast.Name) and node.id == 'I':\n        return {(1, 1): Q(1)}\n    if isinstance(node, ast.UnaryOp) and isinstance(node.op, (ast.UAdd, ast.USub)):\n        return scale(parse_node(node.operand), -1 if isinstance(node.op, ast.USub) else 1)\n    if isinstance(node, ast.Call) and isinstance(node.func, ast.Name) and node.func.id == 'sqrt':\n        if len(node.args) != 1 or node.keywords or not isinstance(node.args[0], ast.Constant):\n            raise ValueError('Unexpected sqrt')\n        return radical(node.args[0].value)\n    if not isinstance(node, ast.BinOp):\n        raise ValueError('Outside exact scalar grammar')\n    a, b = parse_node(node.left), parse_node(node.right)\n    if isinstance(node.op, ast.Add):\n        return add(a, b)\n    if isinstance(node.op, ast.Sub):\n        return add(a, scale(b, -1))\n    if isinstance(node.op, ast.Mult):\n        return mul(a, b)\n    if isinstance(node.op, ast.Div) and set(b) == {(1, 0)}:\n        return scale(a, 1 / b[(1, 0)])\n    raise ValueError('Unexpected scalar operation')\n\n\ndef parse(value):\n    return parse_node(ast.parse(value, mode='eval').body)\n\n\ndef mm(a, b):\n    return [[sum_scalar(mul(a[i][k], b[k][j]) for k in range(len(b)))\n             for j in range(len(b[0]))] for i in range(len(a))]\n\n\ndef sum_scalar(values):\n    out = {}\n    for value in values:\n        out = add(out, value)\n    return out\n\n\ndef adjoint(a):\n    return [[conj(a[i][j]) for i in range(len(a))] for j in range(len(a[0]))]\n\n\ndef eye(n):\n    return [[scalar(int(i == j)) for j in range(n)] for i in range(n)]\n\n\ndef zeros(n, m):\n    return [[{} for _ in range(m)] for _ in range(n)]\n\n\ndef ms(a, value):\n    return [[scale(entry, value) for entry in row] for row in a]\n\n\ndef ma(a, b):\n    return [[add(a[i][j], b[i][j]) for j in range(len(a[0]))] for i in range(len(a))]\n\n\ndef trace(a):\n    return sum_scalar(a[i][i] for i in range(len(a)))\n\n\ndef tensor(a, b):\n    return [[mul(a[i // len(b)][j // len(b[0])], b[i % len(b)][j % len(b[0])])\n             for j in range(len(a[0]) * len(b[0]))] for i in range(len(a) * len(b))]\n\n\ndef ff(value):\n    value = Q(value)\n    if value.denominator != 1 or value < 0:\n        raise ValueError('Invalid factorial argument')\n    return factorial(value.numerator)\n\n\ndef cg(j1, j2, J, m1, m2, M):\n    if m1 + m2 != M or abs(m1) > j1 or abs(m2) > j2 or abs(M) > J:\n        return {}\n    triangle = Q(ff(j1 + j2 - J) * ff(j1 - j2 + J) * ff(-j1 + j2 + J), ff(j1 + j2 + J + 1))\n    norm_square = Q(2 * J + 1) * triangle\n    for j, m in ((j1, m1), (j2, m2), (J, -M)):\n        norm_square *= ff(j + m) * ff(j - m)\n    lower = int(max(0, j2 - J - m1, j1 + m2 - J))\n    upper = int(min(j1 + j2 - J, j1 - m1, j2 + m2))\n    summation = Q(0)\n    for index in range(lower, upper + 1):\n        denominator = ff(index) * ff(j1 + j2 - J - index) * ff(j1 - m1 - index)\n        denominator *= ff(j2 + m2 - index) * ff(J - j2 + m1 + index) * ff(J - j1 - m2 + index)\n        summation += Q((-1) ** index, denominator)\n    return scale(radical(norm_square.numerator * norm_square.denominator), summation / norm_square.denominator)\n\n\ndef d_terms(L, m, q):\n    # Independent factorial formula; a theta sign convention multiplies each\n    # d_Lmq by the same (-1)^(m-q), leaving all Gram products unchanged.\n    norm = ff(L + q) * ff(L - q) * ff(L + m) * ff(L - m)\n    out = []\n    for index in range(max(0, q - m), min(L + q, L - m) + 1):\n        ps, pc = m - q + 2 * index, 2 * L + q - m - 2 * index\n        denominator = ff(L + q - index) * ff(index) * ff(m - q + index) * ff(L - m - index)\n        out.append((ps, pc, Q((-1) ** (m - q + index), denominator)))\n    return norm, out\n\n\ndef d_inner(L, LP, m, q):\n    na, a = d_terms(L, m, q)\n    nb, b = d_terms(LP, m, q)\n    total = Q(0)\n    for sa, ca, va in a:\n        for sb, cb, vb in b:\n            sh, ch = (sa + sb) // 2, (ca + cb) // 2\n            if (sa + sb) % 2 or (ca + cb) % 2:\n                raise ValueError('Unexpected odd product power')\n            total += va * vb * Q(ff(sh) * ff(ch), ff(sh + ch + 1))\n    return scale(radical(na * nb), total)\n\n\ndef main():\n    before = RECEIPT.read_bytes()\n    data = json.loads(before)\n    tracked = {RECEIPT: before}\n    inputs = []\n    for item in data['inputs']:\n        path = ROOT / item['path']\n        content = path.read_bytes()\n        tracked[path] = content\n        digest = hashlib.sha256(content).hexdigest()\n        inputs.append({**item, 'observed_sha256': digest, 'matches': digest == item['sha256']})\n    control = data['source_isometry_construction']['explicit_control']\n    angular = []\n    for L in (1, 2):\n        for LP in (1, 2):\n            for m in range(-min(L, LP), min(L, LP) + 1):\n                for q in (-1, 1):\n                    result = d_inner(L, LP, m, q)\n                    expected = scalar(Q(1, 2 * L + 1) if L == LP else 0)\n                    key = f'L{L}_LP{LP}_m{m}_q{q}'\n                    angular.append({'key': key, 'independent_factorial_integral_matches': result == expected,\n                                    'matches_saved_exact_value': result == parse(control['full_sphere_d_integrals'][key])})\n    VR = [[parse(value) for value in row] for row in control['V_R_E1']]\n    VO = [[parse(value) for value in row] for row in control['V_O_M2']]\n    initial = [Q(value) for value in control['initial_M_order']]\n    final = Q(-1, 2), Q(1, 2)\n    source_norm = []\n    for L in (1, 2):\n        for Mi in initial:\n            value = sum_scalar(mul(cg(Q(1, 2), L, Q(3, 2), Mf, Mi - Mf, Mi),\n                                  cg(Q(1, 2), L, Q(3, 2), Mf, Mi - Mf, Mi)) for Mf in final)\n            source_norm.append({'L': L, 'Mi': str(Mi), 'norm_is_one': value == scalar(1)})\n    rho = [[parse(value) for value in row] for row in control['complex_PSD_initial_density_control']]\n    psi = [scalar(1), {(1, 1): Q(1)}, scalar(Q(1, 2)), {(1, 1): Q(-1, 3)}]\n    pure = [[scale(mul(a, conj(b)), Q(36, 85)) for b in psi] for a in psi]\n    rho_constructed = ma(ms(pure, Q(2, 3)), ms(eye(4), Q(1, 12)))\n    e, t = Q(9, 25), Q(12, 25)\n    K = [[scalar(-e), scalar(t)], [scalar(t), scalar(e)]]\n    K_complex = [[scalar(-e), {(1, 1): t}], [{(1, 1): -t}, scalar(e)]]\n    delta = tensor(K, rho)\n    absolute_delta = ms(tensor(eye(2), rho), Q(3, 5))\n    point_links = {L: mul(radical(2 * L + 1), cg(2, L, 2, 1, 1, 2)) for L in (1, 2, 3)}\n    cancel = scale(radical(105), Q(-1, 15))\n    p = e ** 2 * (1 - e) + e\n    q = e ** 2\n    conditional_D_squared = e / p\n    code_path = ROOT / data['reproducibility']['script_path']\n    code = code_path.read_bytes()\n    tracked[code_path] = code\n    facts = {\n        'immutable_inputs_match': all(item['matches'] for item in inputs),\n        'producer_sha_and_embedded_code_match': hashlib.sha256(code).hexdigest() == data['reproducibility']['script_sha256'] and code.decode() == data['reproducibility']['source_code'],\n        'independent_angular_integrals_all_match': all(item['independent_factorial_integral_matches'] and item['matches_saved_exact_value'] for item in angular),\n        'all_CG_coupled_source_norms_one': all(item['norm_is_one'] for item in source_norm),\n        'saved_VR_gram_identity': mm(adjoint(VR), VR) == eye(4),\n        'saved_VO_gram_identity': mm(adjoint(VO), VO) == eye(4),\n        'saved_cross_gram_zero': mm(adjoint(VR), VO) == zeros(4, 4),\n        'same_rank_EM_helicity_sum_zero': sum(Q(helicity, 2) for helicity in (-1, 1)) == 0,\n        'complex_rho_matches_PSD_constructed_matrix': rho == rho_constructed,\n        'rho_Hermitian_trace_one': rho == adjoint(rho) and trace(rho) == scalar(1),\n        'real_and_complex_sector_K_square_eI': mm(K, K) == ms(eye(2), e) and mm(K_complex, K_complex) == ms(eye(2), e),\n        'tensor_absolute_square_matches': mm(absolute_delta, absolute_delta) == mm(adjoint(delta), delta),\n        'positive_absolute_trace_gives_sqrt_e': trace(absolute_delta) == scalar(Q(6, 5)),\n        'cap_P2_integral_exact_three_over32': ((Q(1) ** 3 - Q(1)) - (Q(1, 2) ** 3 - Q(1, 2))) / 4 == Q(3, 32),\n        'cap_retained_probability_is19_over64': Q(1, 4) + Q(1, 2) * Q(3, 32) == Q(19, 64),\n        'point_node_M1_plus_E2_cancels': add(point_links[1], mul(cancel, point_links[2])) == {},\n        'point_node_M3_intensity_is_three_over4': scale(mul(point_links[3], point_links[3]), Q(1, 2)) == scalar(Q(3, 4)),\n        'rare_filter_success_and_conditional_distance_square': p == e * (1 + e - e ** 2) and q == e ** 2 and conditional_D_squared == 1 / (1 + e - e ** 2),\n        'all_read_input_bytes_unchanged': all(path.read_bytes() == content for path, content in tracked.items()),\n    }\n    result = {\n        'status': 'independent-radiation-arithmetic-supported' if all(facts.values()) else 'independent-radiation-arithmetic-needs-attention',\n        'created_at_utc': datetime.now(timezone.utc).isoformat(), 'reviewed_receipt_sha256': hashlib.sha256(before).hexdigest(),\n        'method': 'Independent factorial Wigner-d beta integrals; Racah CG coefficients; exact radical/complex Fraction matrix algebra; analytical channel/conditional proof in README. No producer or software tests.',\n        'facts': facts, 'input_hashes': inputs, 'angular_integrals': angular, 'source_CG_norms': source_norm,\n        'tensor_control': {'epsilon_exact': str(e), 'sector_coherence_exact': str(t), 'full_D_exact': '3/5', 'rho_PSD_spectrum': ['3/4', '1/12', '1/12', '1/12'],\n                           'boundary': 'An exact rational control of the general symbolic proof, not a numerical experiment or all-parameter test.'},\n        'rare_filter_control': {'epsilon_exact': str(e), 'full_success': str(p), 'retained_success': str(q), 'conditional_D_squared': str(conditional_D_squared),\n                                'all_parameter_limit': 'p=e(1+e-e^2),q=e^2,Dconditional^2=1/(1+e-e^2)->1; proved by algebra in README.'},\n        'analytic_proofs_not_replaced_by_arithmetic_control': ['all initial coherence operator Gram', 'arbitrary PSD rho trace distance', 'CPTP reduction/effect bound', 'postselection d/max(p,q)', 'different-initial-state triangle'],\n        'producer_executed': False, 'software_tests_run': False,\n    }\n    (HERE / 'arithmetic-evidence.json').write_text(json.dumps(result, ensure_ascii=False, indent=2) + '\\n')\n    print(json.dumps({'status': result['status'], 'facts': facts, 'independent_integrals': len(angular), 'source_CG_norms': len(source_norm)}, ensure_ascii=False, indent=2))\n\n\nif __name__ == '__main__':\n    main()\n",
+    "README": "tmp/day8-20261007/runtime/isotropic-photon-rank-state/README.md",
+    "README_sha256": "9d7b7ef42baa1fadeb6cb92b92ecdbffa9e8753f1ea7b2405205c213100a9e37",
+    "read_only_replay_command": "python3 tmp/day8-20261007/runtime/isotropic-photon-rank-state/isotropic_photon_rank_state.py",
+    "exclusive_creation_command": "python3 tmp/day8-20261007/runtime/isotropic-photon-rank-state/isotropic_photon_rank_state.py --write-receipt",
+    "default_replay_writes_no_files": true
+  },
+  "mutations": {
+    "old_receipts_or_raw_changed": false,
+    "canonical_report_state_PLAN_Git_changed": false,
+    "new_agent_source_card_case": false,
+    "only_allowed_new_receipt": "outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/isotropic-photon-rank-state.json",
+    "owned_code_and_document_dir": "tmp/day8-20261007/runtime/isotropic-photon-rank-state"
+  },
+  "attribution": "Source supplies amplitude/CG/rotation/rate premises. Schur state blocks, photon distance and projector analysis are our mathematical reconstruction and self-audit, not source-authored quantum-information bounds, Human review, physical detector realization or paper admission.",
+  "stop_reason": "The bounded original-three-case state/observable distinction is complete with parity-copy, trace-space and abstract-effect scope retained; no further cases or detector engineering opened."
+}
