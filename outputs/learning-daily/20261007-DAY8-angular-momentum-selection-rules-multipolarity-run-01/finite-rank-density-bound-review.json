@@ -1,0 +1,365 @@
+{
+  "schema_version": 1,
+  "audit_id": "DAY8-finite-rank-density-bound-independent-review",
+  "created_at": "2026-10-08T04:03:11.594213+08:00",
+  "status": "independent-source-and-mathematical-review-complete-grounded-no-op",
+  "research_level": "L2",
+  "day_index": 8,
+  "session_id": "01a111fb-370d-7ed1-afe9-881ccc47caf4",
+  "review_actor": "Codex child day8_runtime_audit",
+  "review_kind": "finite emitted-space point operator, CG closure, spectra, covariance and trace-distance density bound self-audit",
+  "human_review": false,
+  "paper_admission": false,
+  "scope": {
+    "reviewed_receipt": "outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/finite-rank-density-bound.json",
+    "receipt_sha256": "2636cac3929b3b28bb5b29badf5bc9df7e74d7d16378db42cb726d0bbdfe8538",
+    "receipt_matches_arithmetic_epoch": true,
+    "producer_path": "tmp/day8-20261007/rose-brink/finite-rank-density-bound/finite_rank_density_bound.py",
+    "producer_sha256": "a346c929719f2e9629b54e9633dac208576fe83261c03822aeba82c88bae82f8",
+    "producer_matches_embedded_epoch": true,
+    "space": "Common finite H_emit in full direction+helicity+final-spin radiation space at fixed transition energy/radial mode; no arbitrary photon L2 or generic output-space substitution."
+  },
+  "source": {
+    "page": "knowledge/sources/rose-brink-1967-phase-defined-angular-distributions.md",
+    "raw_path": "raw/papers/gpt/high-spin-20260920/multipolarity/mixing ratio/1967_Rose et al_Angular Distributions of Gamma Rays in Terms of Phase-Defined Reduced Matrix Elements.pdf",
+    "raw_sha256": "8f846b61b9320de291ee5600126c5e286a0fe05968df819696816f0dc1ec57dc",
+    "locators": [
+      "printed316/PDF11 Eq3.24 coherent multipoles and WE relation after Eq3.25",
+      "printed318/PDF13 Eq3.29 integrated normalization and Eq3.32 note(iv) triangle rules",
+      "printed319-320/PDF14-15 definite-parity mode restriction",
+      "printed312/PDF7 footnote7 tensor rotation convention"
+    ],
+    "attribution": "The closure, compressed point operator, kappa constants and trace-distance density bound are our derivations, not a source-authored error theorem.",
+    "observed_raw_sha256": "8f846b61b9320de291ee5600126c5e286a0fe05968df819696816f0dc1ec57dc",
+    "raw_identity_matches": true,
+    "printed_to_pdf_page_rule": "printed minus305"
+  },
+  "images": [
+    {
+      "path": "tmp/day8-20261007/rose-brink/p319-pdf14.png",
+      "printed_page": 319,
+      "pdf_page": 14,
+      "sha256": "d2d050c1680179fd6f1912e29922cc3bfd538f49d79c9a81b3533b0915dfdf14",
+      "inspection": "original image directly inspected in this review"
+    },
+    {
+      "path": "tmp/day8-20261007/rose-brink/p320-pdf15.png",
+      "printed_page": 320,
+      "pdf_page": 15,
+      "sha256": "43e43be10e45104870d9049dda91805848175e97cdc6d16af20f5892a2ab1414",
+      "inspection": "original image directly inspected in this review"
+    },
+    {
+      "path": "tmp/day8-20261007/rose-brink/p312-pdf7.png",
+      "printed_page": 312,
+      "pdf_page": 7,
+      "sha256": "403d17e12b4f6bcd3f64c644f1a7a127ca83b3f7d7dfabe50d0963abd6aeb34e",
+      "matches_preceding_inspection_epoch": true,
+      "inspection": "original image directly inspected by this same agent in the preceding truncation source audit; not counted as fresh image coverage"
+    },
+    {
+      "path": "tmp/day8-20261007/rose-brink/p316-pdf11.png",
+      "printed_page": 316,
+      "pdf_page": 11,
+      "sha256": "8b6191298c81a731bba7e04be14ae1c4d6b0e1681f11bb98b34dd69e90255401",
+      "matches_preceding_inspection_epoch": true,
+      "inspection": "original image directly inspected by this same agent in the preceding truncation source audit; not counted as fresh image coverage"
+    },
+    {
+      "path": "tmp/day8-20261007/rose-brink/p317-pdf12.png",
+      "printed_page": 317,
+      "pdf_page": 12,
+      "sha256": "fab86494fcfaa448f23dcc00c32fd833858dd10e8747d34e7ea214100071c5a6",
+      "matches_preceding_inspection_epoch": true,
+      "inspection": "original image directly inspected by this same agent in the preceding truncation source audit; not counted as fresh image coverage"
+    },
+    {
+      "path": "tmp/day8-20261007/rose-brink/p318-pdf13.png",
+      "printed_page": 318,
+      "pdf_page": 13,
+      "sha256": "49c59a6adcbf462409716870a8aa4c192ec22a0079eee97e5deaf03ef772cb10",
+      "matches_preceding_inspection_epoch": true,
+      "inspection": "original image directly inspected by this same agent in the preceding truncation source audit; not counted as fresh image coverage"
+    }
+  ],
+  "immutable_inputs": [
+    {
+      "path": "outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/truncation-observable-bound.json",
+      "expected_sha256": "8d836c358937581ae05b9923c2f222938d56cce493c4cb5056299ed550f3cec9",
+      "sha256_at_arithmetic_audit": "8d836c358937581ae05b9923c2f222938d56cce493c4cb5056299ed550f3cec9",
+      "sha256_at_review_close": "8d836c358937581ae05b9923c2f222938d56cce493c4cb5056299ed550f3cec9",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/day8-20261007/rose-brink/truncation-observable-bound/independent-review/fraction_radiation_audit.py",
+      "sha256_at_arithmetic_audit": "c464bd0f553f906f0f134fda39621c33cc40919d4f8eeb986546b47d43e883da",
+      "sha256_at_review_close": "c464bd0f553f906f0f134fda39621c33cc40919d4f8eeb986546b47d43e883da",
+      "unchanged": true,
+      "role": "earlier independent standard-library Fraction/Racah helper; definitions imported only, not a producer"
+    }
+  ],
+  "independent_method": {
+    "producer_executed": false,
+    "SymPy_or_mpmath_executed": false,
+    "software_tests_run": false,
+    "calculation": "Independent standard-library Racah/factorial and exact radical Fraction matrices using read-only earlier independent helper. Rebuild B/Q, row spectra, source witnesses, polarization Gram and positive theta covariance. General proofs in README.",
+    "source_CG_norms": 49,
+    "recoupled_controls": 84,
+    "arithmetic_summary_facts": 6,
+    "all_arithmetic_facts_supported": true,
+    "positive_theta_rotation_facts": {
+      "source_positive_theta_pi_over3_U_matches": true,
+      "direct_sampling_Etheta_matches": true,
+      "U_is_exactly_unitary": true,
+      "source_covariance_Etheta_equals_UE0Udagger": true
+    },
+    "general_proofs": [
+      "Finite image point compression",
+      "Recoupled CG closure with L0 exclusion",
+      "All-direction rotation covariance",
+      "Positive polarization operator order",
+      "kappa D via effect and trace-zero difference",
+      "Common emitted-state distance space",
+      "Convex angular averages versus generic channel support"
+    ]
+  },
+  "summary": {
+    "review_items": 14,
+    "grounded_no_op_items": 14,
+    "material_scientific_or_mathematical_findings": 0,
+    "required_changes": 0,
+    "hard_P0": 0,
+    "sharp_case_kappas": {
+      "A_3half_to_half": "2",
+      "B_2_to_2": "5",
+      "C_3_to_1": "7"
+    },
+    "new_sources_cards_nuclei_orL4": false
+  },
+  "checks": [
+    {
+      "id": "FRD-R1",
+      "topic": "compressed source image versus arbitrary photon L2",
+      "assessment": "grounded-no-op-with-retained-conditions",
+      "locators": [
+        "producer lines262–271,290",
+        "receipt finite_support_conditions/limits.full_L2_point_evaluation",
+        "independent README Section1"
+      ],
+      "grounding_and_retained_boundary": "H_emit is the finite span of orthonormal V_lambda|Ji M> including final spin. It is a source-coupled image with fixed energy/radial mode, not arbitrary photon L2 or every independent angular harmonic. Sampling is bounded on its canonical finite harmonic representatives only.",
+      "required_change": false
+    },
+    {
+      "id": "FRD-R2",
+      "topic": "all integer ranks, parity and L0",
+      "assessment": "grounded-no-op-with-retained-conditions",
+      "locators": [
+        "RB67 printed318/PDF13 Eq3.32 note(iv)",
+        "printed320/PDF15 Eq3.41 notes(i)–(ii) and parity discussion",
+        "producer lines67–70,125–126,140–148"
+      ],
+      "grounding_and_retained_boundary": "For fixed compatible good spins and definite parities, every allowed integer photon rank has one E/M type. Complete triangle coupling includes L0 only where possible, but projection -q=+/-1 makes its CG zero; dropping it preserves the closure. The discussed photon space is nonempty.",
+      "required_change": false
+    },
+    {
+      "id": "FRD-R3",
+      "topic": "axis Q_M and recoupled closure",
+      "assessment": "grounded-no-op-with-retained-conditions",
+      "locators": [
+        "RB67 printed316/PDF11 Eq3.24 and WE premise",
+        "producer lines90–99,135–157,272–276",
+        "independent arithmetic-evidence.json"
+      ],
+      "grounding_and_retained_boundary": "At theta0 m=q and a sampled final M_f fixes initial M=M_f+q, giving no cross-M blocks. The squared 3j recoupling and product-state completeness give weighted CG sum 2Ji+1 for each valid q. Trace Q_M=(2Ji+1)n_valid_q/2; phases q^pi do not change this norm.",
+      "required_change": false
+    },
+    {
+      "id": "FRD-R4",
+      "topic": "three sharp spectra and source witnesses",
+      "assessment": "grounded-no-op-with-retained-conditions",
+      "locators": [
+        "producer lines159–187,222–232",
+        "receipt exact_cases.theta0_blocks/sharp_source_state_witness",
+        "independent arithmetic-evidence.json"
+      ],
+      "grounding_and_retained_boundary": "Independent B/Q and two-row spectra reproduce kappa2,5,7. A has one valid-helicity peak block; B/C peak at M0 with parallel helicity rows. All recorded source amplitude witnesses are normalized eigenvectors and reach W=kappa. Sharpness is on complete H_emit, not every fixed preparation or real nucleus.",
+      "required_change": false
+    },
+    {
+      "id": "FRD-R5",
+      "topic": "all-direction covariance and positive theta",
+      "assessment": "grounded-no-op-with-retained-conditions",
+      "locators": [
+        "RB67 printed312/PDF7 footnote7",
+        "producer lines61–64,210–221,278",
+        "independent README Section4"
+      ],
+      "grounding_and_retained_boundary": "CG coupling intertwines each emitted image with spin Ji. H_emit is rotation invariant and output helicity-gauge/final-spin factors are unitary, so E_Rn=U_emit E_n U_emit_dagger. Independent positive theta pi/3 factorial sampling exactly matches saved Etheta, U and covariance. The all-direction theorem is representation-based, not inferred from one check.",
+      "required_change": false
+    },
+    {
+      "id": "FRD-R6",
+      "topic": "positive polarization intensity order",
+      "assessment": "grounded-no-op-with-retained-conditions",
+      "locators": [
+        "RB67 printed316/PDF11 linear polarization paragraph",
+        "producer lines200–208,279",
+        "receipt point_operator_construction.polarization_effects"
+      ],
+      "grounding_and_retained_boundary": "For any helicity effect 0<=P<=I, E_P=B_dagger(P tensor I_final)B is between0 and E_unpol. Source x/y Gram effects match and sum to E_unpol. This controls positive partial intensities; signed Stokes differences or normalized ratios require their own width/denominator argument.",
+      "required_change": false
+    },
+    {
+      "id": "FRD-R7",
+      "topic": "kappa D without factor2",
+      "assessment": "grounded-no-op-with-retained-conditions",
+      "locators": [
+        "producer lines237–242,284–285",
+        "receipt absolute_density_error.proof_without_factor_two",
+        "independent README Section5"
+      ],
+      "grounding_and_retained_boundary": "Normalized state differences have trace0. E_density/kappa is an effect, so trace-distance variational characterization gives |Tr E Delta|<=kappa D. Equivalently center E by(kappa/2)I before the Holder bound. Unnormalized rate/state differences do not share this premise.",
+      "required_change": false
+    },
+    {
+      "id": "FRD-R8",
+      "topic": "W average1 versus density per steradian",
+      "assessment": "grounded-no-op-with-retained-conditions",
+      "locators": [
+        "RB67 printed320/PDF15 Eq3.40 normalization paragraph",
+        "producer line282",
+        "receipt absolute_density_error.units_and_normalization"
+      ],
+      "grounding_and_retained_boundary": "Integrated Gram gives integral E dOmega/(4pi)=I. W is dimensionless with angular average1, while probability density per steradian is W/(4pi); its error constant is kappa/(4pi). Polar intensities share the W convention and sum to W.",
+      "required_change": false
+    },
+    {
+      "id": "FRD-R9",
+      "topic": "distance space and partial trace restriction",
+      "assessment": "grounded-no-op-with-retained-conditions",
+      "locators": [
+        "producer lines265–266,283",
+        "receipt absolute_density_error.trace_distance_space",
+        "independent README Section6"
+      ],
+      "grounding_and_retained_boundary": "The compression norm is in common H_emit including final spin. D must be taken there or after retaining a common purifier. A smaller photon-only D cannot be substituted without a new point-operator/support compression audit in that output space.",
+      "required_change": false
+    },
+    {
+      "id": "FRD-R10",
+      "topic": "retained normalization and changed initial density",
+      "assessment": "grounded-no-op-with-retained-conditions",
+      "locators": [
+        "producer lines267,284,288",
+        "old95 assumptions/general_bound/epsilon_one_or_zero_rate",
+        "receipt absolute_density_error.different_initial_density"
+      ],
+      "grounding_and_retained_boundary": "Same initial rho with S>0 and S_R>0 permits old95 D<=sqrt(e). At e0 use V=V_R directly; e1 has no normalized retained reference. A changed fitted rho adds D_initial and caps the sum at1. e is a total omitted photon-rate fraction, not qR or a pair ratio.",
+      "required_change": false
+    },
+    {
+      "id": "FRD-R11",
+      "topic": "positive normalized angular fold",
+      "assessment": "grounded-no-op-with-retained-conditions",
+      "locators": [
+        "producer line289",
+        "receipt absolute_density_error.positive_normalized_angular_average",
+        "independent README Section6"
+      ],
+      "grounding_and_retained_boundary": "The same independently calibrated nonnegative kernel, with integral1 in the stated angular measure, forms a convex mixture of0<=E_n<=kappa I and retains the bound. A model-dependent acceptance renormalization is postselection rather than this fixed mixture.",
+      "required_change": false
+    },
+    {
+      "id": "FRD-R12",
+      "topic": "generic channel and inverse response",
+      "assessment": "grounded-no-op-with-retained-conditions",
+      "locators": [
+        "producer lines294–295",
+        "receipt limits.response_support/inverse_response",
+        "independent README Section6"
+      ],
+      "grounding_and_retained_boundary": "CPTP decreases distance but may leave H_emit, change angular support or modes. An output point-density norm or pullback requires its own audit. The old95 bounded-bin effect bound remains valid separately. Signed/ill-conditioned unfolding and noisy efficiency correction are not controlled by this theorem.",
+      "required_change": false
+    },
+    {
+      "id": "FRD-R13",
+      "topic": "old nodes, conditional ratios and unknown spins",
+      "assessment": "grounded-no-op-with-retained-conditions",
+      "locators": [
+        "producer lines243,291–293,297–298",
+        "receipt limits.unchanged_node_reference",
+        "old95 rare_filter_control"
+      ],
+      "grounding_and_retained_boundary": "A finite absolute kappa does not establish a retained density or success floor. The old node and rare-postselection counterexamples remain. Constants depend on fixed spin/subspace; a finite independent candidate set can take its audited maximum, while unbounded unknown spins cannot use2/5/7 universally.",
+      "required_change": false
+    },
+    {
+      "id": "FRD-R14",
+      "topic": "attribution and realization scope",
+      "assessment": "grounded-no-op-with-retained-conditions",
+      "locators": [
+        "producer lines253,261,232,296",
+        "receipt evidence_class/source.attribution/limits.model_realization"
+      ],
+      "grounding_and_retained_boundary": "RB provides coherent amplitude/phase/normalization/triangle premises. The finite-space closure, spectra, kappa and density-error theorem are task derivations. Ideal allowed-amplitude sharpness is not nuclear realization, equal physical prior, detector performance, finite-count separability, Human review or paper admission.",
+      "required_change": false
+    }
+  ],
+  "findings": [],
+  "supported_relations": {
+    "closure": "sum_allowed_L(2L+1)|CG|^2=2Ji+1 for each valid helicity; L0 contributes zero at projection +/-1.",
+    "trace_bound": "Tr Q_M=(2Ji+1)n_valid_q/2; norm E_density=max_M norm Q_M<=max_M TrQ_M.",
+    "case_kappa": "2 for3/2->1/2,5 for2->2,7 for3->1 with the specified parity-mode spaces.",
+    "uniform_absolute_bound": "|Delta W(n)|<=kappa D_full<=kappa sqrt(e) under common normalized initial-state truncation assumptions.",
+    "per_steradian": "|Delta p_density(n)|<=kappa D_full/(4pi).",
+    "polar_intensity": "0<=E_P(n)<=E_unpol(n)<=kappa I for a positive bounded helicity analyzer."
+  },
+  "required_reuse_boundaries": [
+    "Fix compatible Ji/Jf, definite parities, one E/M type for every allowed integer rank, nonempty photon space and common energy/radial mode. L0 is not a photon mode.",
+    "Point evaluation is bounded only after compression to the specified finite source-emitted image; arbitrary photon L2 remains outside.",
+    "Sharp constants are operator norms on complete H_emit and have ideal source witnesses. They do not guarantee saturation for every fixed preparation or microscopic nuclear realization.",
+    "Use D in the common emitted space including final spin, or retain a common purifier. Do not substitute an unaudited smaller photon-only D with the same kappa.",
+    "kappa D requires positive E/kappa<=I and normalized trace-zero state difference. W has angular average1; per-steradian density divides the bound by4pi.",
+    "Positive partial polarization intensities inherit kappa. Signed Stokes differences and normalized polarization ratios are separate observables and need their spectral-width or denominator controls.",
+    "The old sqrt(e) replacement needs the same initial rho and positive S_R; a changed rho adds D_initial. Zero/complete-omission endpoints need the old explicit handling.",
+    "A common nonnegative angular kernel normalized to integral1 in the same measure gives a convex average and retains kappa. Model-dependent acceptance renormalization does not fit that argument.",
+    "A generic CPTP channel may leave H_emit. Output point operators or pullbacks need new support/norm audits even though state distance contracts. Signed inverse/unfolding and statistical errors are not supplied by this bound.",
+    "Old relative-density nodes and rare conditional-filter counterexamples remain; absolute error creates no nonzero probability floor.",
+    "Unknown/unbounded spin candidates do not share the constants2,5,7. Ideal spectral witnesses do not establish physical prior, nuclear realization, actual detector performance or finite-count significance.",
+    "Scientific self-audit and our mathematical derivation, not source-authored error theorem, experiment, Human review or paper admission."
+  ],
+  "artifacts": [
+    {
+      "path": "tmp/day8-20261007/rose-brink/finite-rank-density-bound/independent-review/README.md",
+      "sha256": "996b67719bf89f5e94a6b640d806fce2e93d14c9b24989411edd5b02aa827587",
+      "bytes": 9750
+    },
+    {
+      "path": "tmp/day8-20261007/rose-brink/finite-rank-density-bound/independent-review/arithmetic-evidence.json",
+      "sha256": "c7d138d3f72d178a4b02983a21928b1045c10eed512084df6e6e585076a982fa",
+      "bytes": 26802
+    },
+    {
+      "path": "tmp/day8-20261007/rose-brink/finite-rank-density-bound/independent-review/fraction_point_density_audit.py",
+      "sha256": "3bd0fd941f1ad3f825cb9b2f2ce68414d3fa0f72acedf22a8531e1cd52975202",
+      "bytes": 12468
+    }
+  ],
+  "mutations": {
+    "original329_or95_receipts_changed": false,
+    "producer_changed": false,
+    "hierarchy_or_other_receipts_changed": false,
+    "canonical_changed": false,
+    "report_changed": false,
+    "run_or_course_state_changed": false,
+    "raw_or_PLAN_changed": false,
+    "Git_changed": false,
+    "clock_process_changed": false,
+    "subagents_spawned": false,
+    "allowed_writes_only": [
+      "tmp/day8-20261007/rose-brink/finite-rank-density-bound/independent-review/",
+      "outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/finite-rank-density-bound-review.json"
+    ]
+  },
+  "stop_reason": "Assigned independent finite source/mathematics audit complete; three sharp operator norms and absolute-density proof supported with explicit domain, normalization, channel and relative-error boundaries."
+}

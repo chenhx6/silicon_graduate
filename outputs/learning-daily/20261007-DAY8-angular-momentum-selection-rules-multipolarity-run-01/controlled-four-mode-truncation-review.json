@@ -1,0 +1,392 @@
+{
+  "schema_version": 1,
+  "audit_id": "DAY8-controlled-four-mode-truncation-independent-review",
+  "created_at": "2026-10-08T07:58:46.515925+08:00",
+  "status": "independent-source-and-mathematical-review-complete-grounded-no-op",
+  "research_level": "L2",
+  "day_index": 8,
+  "session_id": "01a111fb-370d-7ed1-afe9-881ccc47caf4",
+  "review_actor": "Codex child day8_runtime_audit",
+  "review_kind": "M3 solid-harmonic gradient Gram, mixed-state moment, common-unit rate and radiation-error budget mathematical self-audit",
+  "human_review": false,
+  "paper_admission": false,
+  "scope": {
+    "reviewed_receipt": "outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/controlled-four-mode-truncation.json",
+    "receipt_sha256": "0ba57d1ebd21294ecbcbccd365fa3e984215116542cb6b8676a57f6b7e527aae",
+    "receipt_matches_arithmetic_epoch": true,
+    "producer_path": "tmp/day8-20261007/lange-kumar/controlled-four-mode-truncation/controlled_four_mode_truncation.py",
+    "producer_sha256": "2dfbdcb6d91afa214114b57a290c4c314771c5308a00b700920b22d4095c2c5d",
+    "producer_matches_embedded_epoch": true,
+    "fixed_case": "Same2+->2+ initial/final multiplets, fullM1/E2/M3/E4 photon model and its M1/E2 projection; common normalized rho, positive photon energy/radial mode and adopted operator/state approximation."
+  },
+  "source": {
+    "knowledge_source": "knowledge/sources/lange-kumar-hamilton-1982-multipole-admixtures.md",
+    "raw_file": "raw/papers/gpt/high-spin-20260920/review/1982_Lange et al_E0-E2-M1 multipole admixtures of transitions in even-even nuclei.pdf",
+    "raw_sha256": "ed925a0577a9257903806acd209c1db707529e86a5bfd9a301a83d597bf78ffb",
+    "direct_locators": [
+      "printed p121 / PDF p3, Eq.2.2: T_gamma(XL)=(C_L/hbar)*q^(2L+1)*B(XL)",
+      "printed p121 / PDF p3, Eq.2.3a: physical BM B and fixed-initial-M sum; no second spin division",
+      "printed p121 / PDF p3, Eq.2.3b: adopted point-charge electric operator",
+      "printed p121 / PDF p3, Eq.2.3c: adopted nonrel one-body magnetic moment operator and gradient"
+    ],
+    "existing_image": "tmp/day8-20261007/lange-kumar/pdf-page-03.png",
+    "existing_image_sha256": "ef4fa4b3e9336aac408b3d2f76a28b0b3021983682ae80185561f79908f7e9ad",
+    "source_or_review_flags_modified": false,
+    "attribution": "LKH82 supplies rate/B/operator conventions. The Gram bound, moment inequalities, combined error budget and statistical/model boundaries here are our reconstruction, not a source-authored truncation theorem.",
+    "observed_raw_sha256": "ed925a0577a9257903806acd209c1db707529e86a5bfd9a301a83d597bf78ffb",
+    "raw_identity_matches": true,
+    "observed_image_sha256": "ef4fa4b3e9336aac408b3d2f76a28b0b3021983682ae80185561f79908f7e9ad",
+    "image_identity_matches": true,
+    "image_inspection_basis": "Directly inspected by this same agent in the preceding magnetic operator-domain audit; same image/raw identity, no extra source coverage claimed.",
+    "printed_to_pdf_page_rule": "printed minus118"
+  },
+  "immutable_inputs": [
+    {
+      "name": "electric_hierarchy_and_norm",
+      "path": "outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/electric-rank-hierarchy.json",
+      "expected_sha256": "efb7ccca5fd3a0d8d9a05e1283a152a862cc8773ef016791ce0de9234281d134",
+      "observed_sha256": "efb7ccca5fd3a0d8d9a05e1283a152a862cc8773ef016791ce0de9234281d134",
+      "matches": true,
+      "sha256_at_review_close": "efb7ccca5fd3a0d8d9a05e1283a152a862cc8773ef016791ce0de9234281d134",
+      "unchanged": true
+    },
+    {
+      "name": "magnetic_domain",
+      "path": "outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/magnetic-operator-domain.json",
+      "expected_sha256": "6c2b02e16344a8283c3ec8c0a6d901a6d6c669601ef380fcef153a3b541e7ba9",
+      "observed_sha256": "6c2b02e16344a8283c3ec8c0a6d901a6d6c669601ef380fcef153a3b541e7ba9",
+      "matches": true,
+      "sha256_at_review_close": "6c2b02e16344a8283c3ec8c0a6d901a6d6c669601ef380fcef153a3b541e7ba9",
+      "unchanged": true
+    },
+    {
+      "name": "probability_95",
+      "path": "outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/truncation-observable-bound.json",
+      "expected_sha256": "8d836c358937581ae05b9923c2f222938d56cce493c4cb5056299ed550f3cec9",
+      "observed_sha256": "8d836c358937581ae05b9923c2f222938d56cce493c4cb5056299ed550f3cec9",
+      "matches": true,
+      "sha256_at_review_close": "8d836c358937581ae05b9923c2f222938d56cce493c4cb5056299ed550f3cec9",
+      "unchanged": true
+    },
+    {
+      "name": "point_density_329",
+      "path": "outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/finite-rank-density-bound.json",
+      "expected_sha256": "2636cac3929b3b28bb5b29badf5bc9df7e74d7d16378db42cb726d0bbdfe8538",
+      "observed_sha256": "2636cac3929b3b28bb5b29badf5bc9df7e74d7d16378db42cb726d0bbdfe8538",
+      "matches": true,
+      "sha256_at_review_close": "2636cac3929b3b28bb5b29badf5bc9df7e74d7d16378db42cb726d0bbdfe8538",
+      "unchanged": true
+    },
+    {
+      "name": "independent_scalar_helper",
+      "path": "tmp/day8-20261007/rose-brink/truncation-observable-bound/independent-review/fraction_radiation_audit.py",
+      "expected_sha256": "c464bd0f553f906f0f134fda39621c33cc40919d4f8eeb986546b47d43e883da",
+      "sha256_at_review_close": "c464bd0f553f906f0f134fda39621c33cc40919d4f8eeb986546b47d43e883da",
+      "unchanged": true,
+      "role": "Read-only definitions from the previous independent standard-library Fraction/Racah audit; not a producer."
+    }
+  ],
+  "independent_method": {
+    "producer_executed": false,
+    "SymPy_or_mpmath_executed": false,
+    "software_tests_run": false,
+    "calculation": "Independent highest-weight orbital lowering and exact complex radical Fraction polynomials; all seven standard-Y harmonics, all9 Gram entries, cross-product PSD identity, three direction controls, rank3 BM scalar response and rational rate/budget coefficients. General proofs in README.",
+    "arithmetic_summary_facts": 18,
+    "all_arithmetic_facts_supported": true,
+    "harmonics_independently_generated": 7,
+    "direction_controls": 3,
+    "BM_fixed_spin_response": "Independent unit-RME rank3 matrix has A_dagger A=I5/5 for Ji=Jf=2. This verifies fixedMi B and its density/coherence extension without adding another divisor.",
+    "general_proofs": [
+      "Common smooth-domain orbital-gradient ordering",
+      "Local spectral bound for internal/ancillary Hilbert vectors",
+      "Pure and mixed-state moment triangles and final projection",
+      "Same-pair independent E2 floor and Gaussian units",
+      "Retained-rate floor and omission fraction monotonicity",
+      "Common radiation projection and kappa5 domain",
+      "q0, external-prior and statistical/model-error boundaries"
+    ]
+  },
+  "summary": {
+    "review_items": 17,
+    "grounded_no_op_items": 17,
+    "material_scientific_or_mathematical_findings": 0,
+    "required_changes": 0,
+    "hard_P0": 0,
+    "new_sources_cards_nuclei_orL4": false,
+    "physical_priors_supplied": false,
+    "actual_M1_E2_truncation_validated": false
+  },
+  "checks": [
+    {
+      "id": "CFM-R1",
+      "topic": "seven complex standard-Y harmonics",
+      "assessment": "grounded-no-op-with-retained-conditions",
+      "locators": [
+        "producer lines73–93",
+        "receipt M3_gradient_Gram_proof.scaled_solid_harmonics",
+        "independent arithmetic-evidence.json"
+      ],
+      "grounding_and_retained_boundary": "Independent generation starts from h33=-sqrt(35)(x+iy)^3/4 and uses the orbital lowering operator, then h_minusm=(-1)^m conjugate(h_m). All seven polynomials, degree 3, harmonicity, lz eigenvalues and addition identity match. This preserves the negative-m/conjugation signs.",
+      "required_change": false
+    },
+    {
+      "id": "CFM-R2",
+      "topic": "full conjugated Cartesian Gram",
+      "assessment": "grounded-no-op-with-retained-conditions",
+      "locators": [
+        "producer lines94–110",
+        "receipt M3_gradient_Gram_proof",
+        "independent README Section1"
+      ],
+      "grounding_and_retained_boundary": "All nine independent polynomial entries give 4pi G=21r^2(2r^2 I+rr^T). G is Hermitian positive. Omitting conjugation would not establish the required Gram. Spectral slack is21r^2 C(r)_dagger C(r).",
+      "required_change": false
+    },
+    {
+      "id": "CFM-R3",
+      "topic": "spectral63 versus Frobenius147",
+      "assessment": "grounded-no-op-with-retained-conditions",
+      "locators": [
+        "producer lines102,113–120",
+        "receipt M3_gradient_Gram_proof.coefficient_boundary/Frobenius_alternative"
+      ],
+      "grounding_and_retained_boundary": "The local spectrum is42,42,63 timesr^4/(4pi), with63 reached by a parallel local vector and trace 147. Coefficient63 is sharp only for this gradient map; many-body moment/projection inequalities are conservative and no nuclear transition saturation is claimed.",
+      "required_change": false
+    },
+    {
+      "id": "CFM-R4",
+      "topic": "contracted ordering and fixed g coefficients",
+      "assessment": "grounded-no-op-with-retained-conditions",
+      "locators": [
+        "LKH82 printed121/PDF3 Eq2.3c",
+        "producer lines121–125,232,252–253",
+        "prior magnetic-domain ordering proof"
+      ],
+      "grounding_and_retained_boundary": "Common smooth-domain Hessian contraction permits l dot F=F dot l; l remains a derivative. For L3 the orbital coefficient is g_l/2. Fixed bounded particle g coefficients are assumed; uncontrolled coordinate/velocity-dependent operators or currents are outside this argument.",
+      "required_change": false
+    },
+    {
+      "id": "CFM-R5",
+      "topic": "pure-state M3 moment triangle",
+      "assessment": "grounded-no-op-with-retained-conditions",
+      "locators": [
+        "producer lines254–260",
+        "receipt M3_operator_bound.local_to_global_steps",
+        "independent README Section2"
+      ],
+      "grounding_and_retained_boundary": "The local PSD matrix bounds the direct sum over all seven magnetic components by 63R^4/(4pi) times the vector norm. Particle and spin/orbital triangle inequalities yield A3=sum|g_s|sqrt(S_k)+(1/2)sum|g_l|sqrt(L_k), and BM3max=63mu(M)^2R^4A3^2/(4pi).",
+      "required_change": false
+    },
+    {
+      "id": "CFM-R6",
+      "topic": "mixed density and ancillary norms",
+      "assessment": "grounded-no-op-with-retained-conditions",
+      "locators": [
+        "producer line257",
+        "receipt M3_operator_bound.state_scope",
+        "independent README Section2"
+      ],
+      "grounding_and_retained_boundary": "Purification or Hilbert-Schmidt operator vectors extend the local spectral inequality to mixed rho. Component norms are Tr(rho s_k^2) and Tr(rho l_k^2) on the same controlled domain. The initial density must belong to the same good-spin multiplet and preserve the common-rho comparison.",
+      "required_change": false
+    },
+    {
+      "id": "CFM-R7",
+      "topic": "fixed-Mi B and no second spin divisor",
+      "assessment": "grounded-no-op-with-retained-conditions",
+      "locators": [
+        "LKH82 printed121/PDF3 Eq2.3a",
+        "producer lines258,272",
+        "independent arithmetic-evidence.json.BM_fixed_spin_response"
+      ],
+      "grounding_and_retained_boundary": "Final-multiplet projection can only reduce the squared component norm. The complete response is scalar on a fixed initial irreducible multiplet, so a normalized density gives the same B. Independent rank3 Ji=Jf=2 unit-BM-RME response has A_dagger A=I5/5. Inputs are B bounds and must not be divided by 5 again.",
+      "required_change": false
+    },
+    {
+      "id": "CFM-R8",
+      "topic": "external support/current/moment hypotheses",
+      "assessment": "grounded-no-op-with-retained-conditions",
+      "locators": [
+        "producer lines230–236,300,305–306",
+        "receipt independent_priors_required",
+        "independent README Sections2–3"
+      ],
+      "grounding_and_retained_boundary": "Hard common support, normalized states/density, finite particle sector, fixed charges/g, common smooth or validated form domain and independent orbital/spin ceilings are required. Typical/rms radius, high unbounded orbital moments or unestimated finite-q/current/tail corrections cannot supply these inputs.",
+      "required_change": false
+    },
+    {
+      "id": "CFM-R9",
+      "topic": "electric E4 support upper bound",
+      "assessment": "grounded-no-op-with-retained-conditions",
+      "locators": [
+        "LKH82 printed121/PDF3 Eq2.3b",
+        "prior electric hierarchy conditional norm proof",
+        "producer lines136,268"
+      ],
+      "grounding_and_retained_boundary": "The previous point-charge support theorem gives BE4max=9Qabs^2R^8/(4pi) under its own assumptions. It remains a conditional numerator bound and does not establish an E2 lower bound or microscopic realizability.",
+      "required_change": false
+    },
+    {
+      "id": "CFM-R10",
+      "topic": "same-pair E2 floor and joint feasibility",
+      "assessment": "grounded-no-op-with-retained-conditions",
+      "locators": [
+        "producer lines234–236,299,303",
+        "receipt independent_priors_required.positive_E2_floor/independence",
+        "independent README Section3"
+      ],
+      "grounding_and_retained_boundary": "B2min>0 must bound the full-model E2 strength of this exact initial/final pair independently. A different reference branch or target-truncation-dependent fit does not supply it without an additional verified relation. B2min<=5Qabs^2R^4/(4pi) is necessary for compatible support priors but does not prove the whole prior set is physically realized.",
+      "required_change": false
+    },
+    {
+      "id": "CFM-R11",
+      "topic": "rate coefficients and cross magnetic/electric units",
+      "assessment": "grounded-no-op-with-retained-conditions",
+      "locators": [
+        "LKH82 printed121/PDF3 Eqs2.2/2.3b–c",
+        "producer lines127–146,263–274",
+        "receipt rate_budget_and_units"
+      ],
+      "grounding_and_retained_boundary": "Independent Fraction factors give C3/C2=8/441 and C4/C2=5/23814. In the common Gaussian system mu(M) has charge*length, so BM3/BE2 has length^2 and q^2 cancels it. Bare numerical mu_N^2 b^2/e^2 b^2 is not unitless. All gamma widths have energy units.",
+      "required_change": false
+    },
+    {
+      "id": "CFM-R12",
+      "topic": "complete M3+E4 rate budget",
+      "assessment": "grounded-no-op-with-retained-conditions",
+      "locators": [
+        "producer lines131–141,223–228,271",
+        "receipt fixed_case_and_common_model/rate_budget_and_units.combined_proof"
+      ],
+      "grounding_and_retained_boundary": "For fixed 2+->2+, M1/E2/M3/E4 exhaust allowed real-photon modes. Complete radiation integration adds their nonnegative widths. Positive q and the same-pair B2floor give Gamma_ret>=C2q^5B2min>0; upper numerators yieldr_rate<=u3+u4. Relative phases remain relevant for directional interference.",
+      "required_change": false
+    },
+    {
+      "id": "CFM-R13",
+      "topic": "epsilon monotonicity and edge cases",
+      "assessment": "grounded-no-op-with-retained-conditions",
+      "locators": [
+        "producer lines158–168,278,299–304",
+        "receipt failure_edges_and_open_inputs",
+        "independent README Section5"
+      ],
+      "grounding_and_retained_boundary": "Forr>=0, r/(1+r) is increasing, henceepsilon<=u/(1+u). Fixed valid priors give u->0 asq->0+, but at q=0 all photon widths vanish and normalized fractions/states are undefined. Missingfloors/moments and movingpriors do not inherit that limit; A3zero removes only theM3 budget.",
+      "required_change": false
+    },
+    {
+      "id": "CFM-R14",
+      "topic": "common retained projection and state distance",
+      "assessment": "grounded-no-op-with-retained-conditions",
+      "locators": [
+        "producer lines226–228,279–281",
+        "prior95 source/isometry and prior329 H_emit proof",
+        "receipt observable_error_connection"
+      ],
+      "grounding_and_retained_boundary": "The error comparison is the same full model and its retained radiation projection, renormalized with the same initial rho/amplitudes/current and energy/radial mode. Old 95 D<=sqrt(epsilon) and old 329 kappa 5 apply in the common full radiation-plus-final-spin emitted space. Changing fittedrho or amplitudes requires an additional comparison.",
+      "required_change": false
+    },
+    {
+      "id": "CFM-R15",
+      "topic": "density/effect response and excluded inference",
+      "assessment": "grounded-no-op-with-retained-conditions",
+      "locators": [
+        "producer lines280–285",
+        "receipt observable_error_connection/failure_edges_and_open_inputs.missing_current_error",
+        "independent README Section6"
+      ],
+      "grounding_and_retained_boundary": "Bounded effects give an absolute normalized radiation-event probability bound; W has angular average1 and per-steradian density divides by4pi. Generic output-support changes/inverse response need a new norm audit. The theorem does not control recomputed time modes, IC/non-gamma/other branches, normalized conditional ratios at zero floors, parameter confidence intervals or finite-count uncertainty.",
+      "required_change": false
+    },
+    {
+      "id": "CFM-R16",
+      "topic": "dimensionless chart and exact teaching control",
+      "assessment": "grounded-no-op-with-retained-conditions",
+      "locators": [
+        "producer lines148–181,288–296",
+        "receipt dimensionless_chart_and_one_synthetic_control",
+        "independent arithmetic-evidence.json"
+      ],
+      "grounding_and_retained_boundary": "The rescaled budgets are2m3^2zeta^2/(7pi beta2) and5zeta^4/(10584pi beta2). Independent Fractions confirmu3=1/8750,u4=1/5292000,u=3029/26460000,epsilon_max=3029/26463029 and the exact error square. These are conditional teaching numbers, not physical priors or statistical precision.",
+      "required_change": false
+    },
+    {
+      "id": "CFM-R17",
+      "topic": "attribution, unresolved priors and actual-use boundary",
+      "assessment": "grounded-no-op-with-retained-conditions",
+      "locators": [
+        "producer lines210,236,283,307,309–312",
+        "receipt source_vs_inference/status",
+        "independent README conclusion"
+      ],
+      "grounding_and_retained_boundary": "Source direct evidence is the printed rate/B/electric/magnetic convention. Gradient Gram, moment and combined error theorem are task reconstructions. No real independent floor/support/moment/current inputs or actual tolerance satisfaction have been established; this is scientific self-audit, not a validated real truncation, source-authored result, experiment, Human review or paper admission.",
+      "required_change": false
+    }
+  ],
+  "findings": [],
+  "supported_relations": {
+    "M3_Gram": "4pi G=21r^2(2r^2 I+rr^T), eigenvalues42,42,63 timesr^4.",
+    "M3_bound": "BM3max=63mu(M)^2R^4A3^2/(4pi), A3=sum|g_s|sqrt(S_k)+(1/2)sum|g_l|sqrt(L_k).",
+    "rate_coefficients": {
+      "C3_over_C2": "8/441",
+      "C4_over_C2": "5/23814"
+    },
+    "combined_budget": "u=(8/441)q^2BM3max/B2min+(5/23814)q^4BE4max/B2min; r_rate<=u andepsilon<=u/(1+u).",
+    "probability_error": "Absolute normalized radiation-event probability error <=sqrt[u/(1+u)] for a common effect.",
+    "density_error": "Within the full four-mode emitted space for2->2, |DeltaW|<=5sqrt[u/(1+u)]; per-steradian density divides by4pi."
+  },
+  "exact_teaching_control": {
+    "C3_over_C2": "8/441",
+    "C4_over_C2": "5/23814",
+    "u3": "1/8750",
+    "u4": "1/5292000",
+    "u": "3029/26460000",
+    "epsilon_max": "3029/26463029",
+    "interpretation": "Conditional dimensionless teaching values only; no real support, energy, moments or strength floor supplied."
+  },
+  "required_reuse_boundaries": [
+    "Keep all seven complex standard-Y harmonics and conjugated gradient Gram. Coefficient63 is sharp for the local map, not necessarily a physical transition or the many-body bound.",
+    "Use fixed bounded particle g coefficients, common smooth or justified form domains and the adopted nonrel/long-wave polynomial currents across allfour modes. Uncontrolled coordinate/velocity-dependent g operators and extra currents need separate audits.",
+    "Support, charges, spin/orbital moments and current validity are external hypotheses. Typical/rms radius or normalization alone does not establish them; large moments may leave the nonrel regime.",
+    "The mixed-state argument requires the same initial good-spin multiplet and final orthonormal multiplet. Physical B already includes the initial-spin normalization; do not divide by5 again.",
+    "An independent positive E2 floor must concern this exact pair in the full adopted model. Other-branch reference strengths or target-truncation-dependent fits do not automatically supply it. Priors must be jointly feasible.",
+    "Use one common Gaussian charge/moment/length system. mu(M) has charge*length; bare numerical mu_N^2 b^2/e^2 b^2 is not dimensionless. No physical conversion constants or energies/radii were inserted here.",
+    "Retained photon width is at least the same-pair E2 width at positive q. The budget controls allM3+E4 rates for this fixed spin/parity link, not parent-level total branching, IC or other decay channels.",
+    "The old sqrt(epsilon) andkappa5 connections compare a full model with its unchanged retained-amplitude projection using the same rho/current/energy/radial mode. Arbitrary refits or recomputed time/lifetime modes need additional comparisons.",
+    "Use the common full radiation-plus-final-spin emitted-space distance, not an unaudited smaller photon-only distance with the samekappa. Generic response-support changes or inverse weighting need separate bounds.",
+    "q->0+ with fixed priors is only a controlled limit; q0 has no normalized emitted-photon chart. A missing/shrinking floor or growing moment ceiling can invalidate a small-q argument.",
+    "The resulting errors are expected forward-model absolute probability/density bounds. They do not provide parameter confidence intervals, inverse stability, finite-count significance, relative node accuracy or conditional polarization bounds without denominator floors.",
+    "Dimensionless teaching numbers are not independently realized physical priors. No real truncation validity, microscopic realization, source-authored theorem, experiment, Human review or paper admission is claimed."
+  ],
+  "artifacts": [
+    {
+      "path": "tmp/day8-20261007/lange-kumar/controlled-four-mode-truncation/independent-review/README.md",
+      "sha256": "1b61d9f60d5004008f37846e8a12abb73ffd1b32d30904e07f2b06ea08579ab4",
+      "bytes": 9755
+    },
+    {
+      "path": "tmp/day8-20261007/lange-kumar/controlled-four-mode-truncation/independent-review/arithmetic-evidence.json",
+      "sha256": "a346eb174267bf8fa0a96b687680b0e0cd7228ae7af6b58fabe29871273a3492",
+      "bytes": 5811
+    },
+    {
+      "path": "tmp/day8-20261007/lange-kumar/controlled-four-mode-truncation/independent-review/fraction_four_mode_audit.py",
+      "sha256": "f6ffa74d23a109811ad5c3ce762763864477e84cc4ab69cdc8f236d64d42d60b",
+      "bytes": 13434
+    }
+  ],
+  "mutations": {
+    "original72_receipt_or_producer_changed": false,
+    "prior_or_other_receipts_changed": false,
+    "canonical_changed": false,
+    "report_changed": false,
+    "run_or_course_state_changed": false,
+    "raw_or_PLAN_changed": false,
+    "Git_changed": false,
+    "review_flags_changed": false,
+    "clock_process_changed": false,
+    "subagents_spawned": false,
+    "allowed_writes_only": [
+      "tmp/day8-20261007/lange-kumar/controlled-four-mode-truncation/independent-review/",
+      "outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/controlled-four-mode-truncation-review.json"
+    ]
+  },
+  "stop_reason": "Assigned independent conditional four-mode audit complete; M3 Gram, moment/current assumptions, same-pair common-unit rate ceiling and observable-error synthesis supported with explicit physical/statistical reuse conditions."
+}

@@ -1,0 +1,641 @@
+{
+  "schema_version": 1,
+  "created_at_utc": "2026-10-07T19:37:52.430632+00:00",
+  "artifact_kind": "Day8-L2-adopted-magnetic-operator-domain-audit",
+  "status": "complete-bounded-source-and-formal-algebra-audit",
+  "day_index": 8,
+  "run_closed": false,
+  "new_source_or_course_card": false,
+  "new_session_or_goal": false,
+  "experimental_data_fit": false,
+  "numerical_experiment": false,
+  "L4": false,
+  "session_id": "01a111fb-370d-7ed1-afe9-881ccc47caf4",
+  "resume_command": "codex resume 01a111fb-370d-7ed1-afe9-881ccc47caf4 -C /workspace/wiki -s danger-full-access -a never",
+  "evidence_class": "source-grounded definitions plus our exact formal operator-domain reconstruction; not human-reviewed",
+  "question": "Can the adopted Eq.2.3c magnetic operator inherit the electric point-charge hard-support norm bound from radius support and normalization alone?",
+  "answer": "No. Bounded solid-harmonic/gradient coefficients do not bound the orbital differential operator on all normalized compact-support states. Additional orbital/current domain and moment bounds are required; the formal failure is not a prediction of unlimited real low-energy nuclear strength.",
+  "source": {
+    "knowledge_source": "knowledge/sources/lange-kumar-hamilton-1982-multipole-admixtures.md",
+    "raw_file": "raw/papers/gpt/high-spin-20260920/review/1982_Lange et al_E0-E2-M1 multipole admixtures of transitions in even-even nuclei.pdf",
+    "raw_sha256": "ed925a0577a9257903806acd209c1db707529e86a5bfd9a301a83d597bf78ffb",
+    "direct_locators": [
+      "printed p121 / PDF p3, Eq.2.3b: point-charge electric multiplication operator",
+      "printed p121 / PDF p3, Eq.2.3c: magnetic spin/orbital vector dotted with gradient of the bracketed solid harmonic",
+      "printed p121 / PDF p3, Eq.2.3a: fixed-Mi B sum and BM initial-spin normalization",
+      "printed p125 / PDF p7, Eq.3.9 and paragraph below: mu_N*g_R*sqrt(3/(4pi))*J_q zero-deformation model piece; full expression also contains alpha*J",
+      "printed p127 / PDF p9, Sec.III.C.3 first paragraph: only zeroth-order deformation-independent M1 piece is stated to vanish for the discussed transitions"
+    ],
+    "visually_checked_images": {
+      "tmp/day8-20261007/lange-kumar/pdf-page-03.png": "ef4fa4b3e9336aac408b3d2f76a28b0b3021983682ae80185561f79908f7e9ad",
+      "tmp/day8-20261007/lange-kumar/model-boundary/p125-pdf7.png": "2e64dc9ffbada0df272a739f3e77c76f1706e1a43f52ea058141461c3d7d1cd2",
+      "tmp/day8-20261007/lange-kumar/model-boundary/p127-pdf9.png": "3e4ac2a7d0382a0bdfa1926cee0e75a0b546e537de736e039ae6a9483ce9d40c"
+    },
+    "source_or_review_flags_modified": false,
+    "source_scope_boundary": "Only these existing LKH82 pages supply direct scientific source evidence. No new paper, card, nucleus, source download, original table edit or review-state upgrade."
+  },
+  "adopted_operator_and_ordering": {
+    "source_Eq2_3c": "M(M L,mu)=mu(M)*sum_k [g_s(k)*s_k+2*g_l(k)/(L+1)*l_k] dot grad_k[r_k^L*Y_Lmu(Omega_k)].",
+    "moment_unit": "mu(M)=e*hbar/(2*M*c) in the source Gaussian electromagnetic convention; it is modern mu_N=e*hbar/(2*m_p*c) when M=m_p is adopted. The source p121 does not print a numerical mass/constants specification.",
+    "angular_momentum_units": "Use dimensionless s=S/hbar and l=L_orb/hbar=-i*r cross grad, and dimensionless J=J_physical/hbar. Thus the printed prefactor already supplies hbar: do not multiply these operators by another hbar or divide a BM B by its initial spin twice. g_s,g_l,g_R are dimensionless.",
+    "gradient_scope": "The explicitly bracketed grad differentiates r^L Y_Lmu; it is a vector multiplication coefficient after that derivative. It is not an extra unbracketed gradient on the state. The orbital l itself is a differential operator on the state.",
+    "ordering_identity": "Let F=grad f for smooth scalar f and l_a=-i*epsilon_abc*r_b*partial_c. Then sum_a[l_a,F_a]=-i*epsilon_abc*r_b*partial_c*partial_a f=0. Hence l dot F=F dot l on a common smooth operator domain. Individual components need not commute; this identity only removes the contracted ordering term, not l acting on the wavefunction.",
+    "symbolic_ordering_check": "0",
+    "spin_ordering": "Spin acts on internal degrees and commutes with the coordinate coefficient in this adopted one-body operator.",
+    "M1_reduction": "Since r*Y_1mu=sqrt(3/(4pi))*r_mu, M(M1,mu)=sqrt(3/(4pi))*mu(M)*sum_k[g_l(k)*l_k,mu+g_s(k)*s_k,mu]. The source 2*g_l/(L+1) becomes g_l at L=1.",
+    "M1_cartesian_gradient_controls": [
+      {
+        "mu": -1,
+        "rY_1mu": "sqrt(6)*(x - I*y)/(4*sqrt(pi))",
+        "cartesian_gradient": [
+          "sqrt(6)/(4*sqrt(pi))",
+          "-sqrt(6)*I/(4*sqrt(pi))",
+          "0"
+        ]
+      },
+      {
+        "mu": 0,
+        "rY_1mu": "sqrt(3)*z/(2*sqrt(pi))",
+        "cartesian_gradient": [
+          "0",
+          "0",
+          "sqrt(3)/(2*sqrt(pi))"
+        ]
+      },
+      {
+        "mu": 1,
+        "rY_1mu": "sqrt(6)*(-x - I*y)/(4*sqrt(pi))",
+        "cartesian_gradient": [
+          "-sqrt(6)/(4*sqrt(pi))",
+          "-sqrt(6)*I/(4*sqrt(pi))",
+          "0"
+        ]
+      }
+    ],
+    "units": "M(E L): charge*length^L. Adopted M(M L): magnetic_moment*length^(L-1), so B(M L) has magnetic_moment^2*length^(2L-2). M1 RME is in mu(M), B(M1) in mu(M)^2 (mu_N or mu_N^2 when that moment unit is adopted). Do not insert SI moments into the Gaussian source rate normalization.",
+    "validity_scope": "Only the adopted nonrel one-body polynomial moment operator is audited. Full relativistic, finite-q or additional effective/exchange-current terms are not assigned this domain control."
+  },
+  "electric_bound_failure_boundary": {
+    "electric_reason": "For fixed charges and hard r_k<=R, Eq.2.3b is a bounded coordinate multiplication operator. Its component-vector norm argument uses normalized states and final-multiplet projection.",
+    "magnetic_missing_step": "At fixed L and R, grad(r^L Y_Lmu) is bounded, but multiplication by that coefficient followed by unbounded l is not bounded by normalization and R alone. g factors, spin/current normalization and orbital derivative moments are not supplied by the electric charge bound.",
+    "no_change_to_old_electric_bound": "The earlier electric hard-support theorem is retained under its own assumptions; no old norm/reverse receipt or canonical page was edited.",
+    "total_J_is_insufficient": "Fixed small total J does not bound individual l_k: two equal l may couple to J=1 or 2 for every integer l>=1 while each l_k^2=l(l+1) grows."
+  },
+  "two_orbital_formal_counterexample": {
+    "Hilbert_space": "Two distinguishable orbital degrees V_l tensor V_l, l>=1 integer; no fermionic Pauli sector or real proton/neutron assignment is asserted.",
+    "states": "|(l l)J M>=sum_m1,m2 CG(l,m1;l,m2|J,M)|l,m1>|l,m2>, with Ji=2 and Jf=1. Combined orbital parity is (+) for both, since (-1)^(2l)=+1.",
+    "shared_radial_support": "Choose one normalized u in C_c^infinity((a,R)), 0<a<R, with integral|u(r)|^2 dr=1. Use u(r1)u(r2)/(r1*r2) times the coupled angular state for every l. These full states are normalized, have the same hard support, and each finite-l state lies in the smooth orbital domain. R is symbolic; no physical/numerical radius is assigned.",
+    "operator": "O_mu=g1*l1_mu+g2*l2_mu=g2*Jtot_mu+(g1-g2)*l1_mu, with real fixed dimensionless g1,g2 and g1!=g2 for the failure sequence.",
+    "generator_zero_proof": "[Jtot^2,Jtot_mu]=0 implies (Jf(Jf+1)-Ji(Ji+1))*<Jf|Jtot_mu|Ji>=0; for 1 versus 2 the difference is -4, hence every component vanishes. The complete direct CG checks also give l2=-l1 on this transition.",
+    "BM_WE_convention": "<Jf Mf|l1_mu|Ji Mi>=(-1)^(Jf-Mf)*3j(Jf,1,Ji;-Mf,mu,Mi)*<Jf||l1||Ji>_BM.",
+    "sixj_reduction": "<(l l)1||l1||(l l)2>_BM=(-1)^(2l+3)*sqrt(15)*{l,1,l;2,l,1}*sqrt[l(l+1)(2l+1)].",
+    "general_squared_RME": "|<(l l)1||l1||(l l)2>|^2=[(2l+1)^2-4]/2=2l(l+1)-3/2.",
+    "general_weighted_squared_RME": "|RME_O|^2=(g1-g2)^2*[2l(l+1)-3/2].",
+    "formal_B_from_adopted_M1": "B(M1;2->1)=3/(20*pi)*mu(M)^2*(g1-g2)^2*[2l(l+1)-3/2]. The initial-spin divisor is 5 and is already included.",
+    "g_equal_limit": "At g1=g2 the operator reduces to a multiple of Jtot and this transition is zero. Weighted orbital M1 with unequal g is a different operator from the generator-only model piece.",
+    "phase_boundary": "Negative RME values in the controls use the stated standard CG basis. The squared formula and the failed radius-only bound do not require a universal RME sign.",
+    "formal_limit": "For fixed nonzero g1-g2, the formal squared RME grows as 2*l^2; there is no uniform bound from support, state normalization and fixed total J alone on this unrestricted angular Hilbert space.",
+    "not_physical_infinity": "This is an operator-domain counterexample, not a real-nucleus construction or a prediction that low-energy nuclear M1 strengths can grow without limit. No Hamiltonian, emitting energy, measured B or low-energy spectral realization is supplied."
+  },
+  "single_term_Racah_general_proof": {
+    "domain": "l>=1 integer",
+    "symbol": "{a,b,c;d,e,f}={l,1,l;2,l,1}",
+    "z_lower_upper": "max(2l+1,2l+1,4,2l+2)=2l+2=min(2l+3,2l+3,2l+2). Thus the Racah sum has exactly z=2l+2, with positive (-1)^z.",
+    "Delta_l_1_l_squared": "1/[4l(l+1)(2l+1)]",
+    "Delta_2_1_1_squared": "1/30",
+    "Delta_2_l_l_squared": "4/P5, P5=(2l-1)(2l)(2l+1)(2l+2)(2l+3)",
+    "Racah_sum_term": "(2l+3)!/(2l-2)!=P5; the other factorial denominators are 0! or 1!.",
+    "sixj_squared": "(2l-1)(2l+3)/[30*l(l+1)(2l+1)]",
+    "RME_squared_after_prefactor": "(2*ell - 1)*(2*ell + 3)/2",
+    "method_boundary": "Our Racah reconstruction, not a formula directly printed by LKH82. It proves all integer l>=1 rather than extrapolating from the four controls."
+  },
+  "exact_controls": [
+    {
+      "ell1": 1,
+      "ell2": 1,
+      "initial_J": 2,
+      "final_J": 1,
+      "all_8_angular_state_norms": [
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "same_M_different_J_overlaps": [
+        "0",
+        "0",
+        "0"
+      ],
+      "complete_tensor_components_checked": 45,
+      "all_nonzero_l1_components": [
+        {
+          "Mi": -2,
+          "Mf": -1,
+          "mu": 1,
+          "l1_matrix_element": "-sqrt(2)/2",
+          "l2_matrix_element": "sqrt(2)/2",
+          "g1l1_plus_g2l2_matrix_element": "sqrt(2)*(-g1 + g2)/2"
+        },
+        {
+          "Mi": -1,
+          "Mf": -1,
+          "mu": 0,
+          "l1_matrix_element": "1/2",
+          "l2_matrix_element": "-1/2",
+          "g1l1_plus_g2l2_matrix_element": "g1/2 - g2/2"
+        },
+        {
+          "Mi": -1,
+          "Mf": 0,
+          "mu": 1,
+          "l1_matrix_element": "-1/2",
+          "l2_matrix_element": "1/2",
+          "g1l1_plus_g2l2_matrix_element": "-g1/2 + g2/2"
+        },
+        {
+          "Mi": 0,
+          "Mf": -1,
+          "mu": -1,
+          "l1_matrix_element": "-sqrt(3)/6",
+          "l2_matrix_element": "sqrt(3)/6",
+          "g1l1_plus_g2l2_matrix_element": "sqrt(3)*(-g1 + g2)/6"
+        },
+        {
+          "Mi": 0,
+          "Mf": 0,
+          "mu": 0,
+          "l1_matrix_element": "sqrt(3)/3",
+          "l2_matrix_element": "-sqrt(3)/3",
+          "g1l1_plus_g2l2_matrix_element": "sqrt(3)*(g1 - g2)/3"
+        },
+        {
+          "Mi": 0,
+          "Mf": 1,
+          "mu": 1,
+          "l1_matrix_element": "-sqrt(3)/6",
+          "l2_matrix_element": "sqrt(3)/6",
+          "g1l1_plus_g2l2_matrix_element": "sqrt(3)*(-g1 + g2)/6"
+        },
+        {
+          "Mi": 1,
+          "Mf": 0,
+          "mu": -1,
+          "l1_matrix_element": "-1/2",
+          "l2_matrix_element": "1/2",
+          "g1l1_plus_g2l2_matrix_element": "-g1/2 + g2/2"
+        },
+        {
+          "Mi": 1,
+          "Mf": 1,
+          "mu": 0,
+          "l1_matrix_element": "1/2",
+          "l2_matrix_element": "-1/2",
+          "g1l1_plus_g2l2_matrix_element": "g1/2 - g2/2"
+        },
+        {
+          "Mi": 2,
+          "Mf": 1,
+          "mu": -1,
+          "l1_matrix_element": "-sqrt(2)/2",
+          "l2_matrix_element": "sqrt(2)/2",
+          "g1l1_plus_g2l2_matrix_element": "sqrt(2)*(-g1 + g2)/2"
+        }
+      ],
+      "sixj": "1/6",
+      "RME_l1_BM": "-sqrt(10)/2",
+      "RME_l1_BM_squared": "5/2",
+      "RME_l2_BM": "sqrt(10)/2",
+      "RME_Jtot_BM": "0",
+      "RME_weighted_BM": "sqrt(10)*(-g1 + g2)/2",
+      "B_dimensionless_weighted_orbital": "(g1 - g2)**2/2",
+      "B_M1_divided_by_mu_M_squared": "3*(g1 - g2)**2/(8*pi)",
+      "all_fixed_Mi_l1_strengths": {
+        "-2": "1/2",
+        "-1": "1/2",
+        "0": "1/2",
+        "1": "1/2",
+        "2": "1/2"
+      },
+      "individual_orbital_Casimir": 2,
+      "total_J_Casimir_initial": 6,
+      "total_J_Casimir_final": 2,
+      "state_and_strength_boundary": "Exact formal angular controls with a shared symbolic compact-support normalized radial factor. No measured strength, energy, numerical radius, Hamiltonian or real-particle g assignment."
+    },
+    {
+      "ell1": 2,
+      "ell2": 2,
+      "initial_J": 2,
+      "final_J": 1,
+      "all_8_angular_state_norms": [
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "same_M_different_J_overlaps": [
+        "0",
+        "0",
+        "0"
+      ],
+      "complete_tensor_components_checked": 45,
+      "all_nonzero_l1_components": [
+        {
+          "Mi": -2,
+          "Mf": -1,
+          "mu": 1,
+          "l1_matrix_element": "-sqrt(210)/10",
+          "l2_matrix_element": "sqrt(210)/10",
+          "g1l1_plus_g2l2_matrix_element": "sqrt(210)*(-g1 + g2)/10"
+        },
+        {
+          "Mi": -1,
+          "Mf": -1,
+          "mu": 0,
+          "l1_matrix_element": "sqrt(105)/10",
+          "l2_matrix_element": "-sqrt(105)/10",
+          "g1l1_plus_g2l2_matrix_element": "sqrt(105)*(g1 - g2)/10"
+        },
+        {
+          "Mi": -1,
+          "Mf": 0,
+          "mu": 1,
+          "l1_matrix_element": "-sqrt(105)/10",
+          "l2_matrix_element": "sqrt(105)/10",
+          "g1l1_plus_g2l2_matrix_element": "sqrt(105)*(-g1 + g2)/10"
+        },
+        {
+          "Mi": 0,
+          "Mf": -1,
+          "mu": -1,
+          "l1_matrix_element": "-sqrt(35)/10",
+          "l2_matrix_element": "sqrt(35)/10",
+          "g1l1_plus_g2l2_matrix_element": "sqrt(35)*(-g1 + g2)/10"
+        },
+        {
+          "Mi": 0,
+          "Mf": 0,
+          "mu": 0,
+          "l1_matrix_element": "sqrt(35)/5",
+          "l2_matrix_element": "-sqrt(35)/5",
+          "g1l1_plus_g2l2_matrix_element": "sqrt(35)*(g1 - g2)/5"
+        },
+        {
+          "Mi": 0,
+          "Mf": 1,
+          "mu": 1,
+          "l1_matrix_element": "-sqrt(35)/10",
+          "l2_matrix_element": "sqrt(35)/10",
+          "g1l1_plus_g2l2_matrix_element": "sqrt(35)*(-g1 + g2)/10"
+        },
+        {
+          "Mi": 1,
+          "Mf": 0,
+          "mu": -1,
+          "l1_matrix_element": "-sqrt(105)/10",
+          "l2_matrix_element": "sqrt(105)/10",
+          "g1l1_plus_g2l2_matrix_element": "sqrt(105)*(-g1 + g2)/10"
+        },
+        {
+          "Mi": 1,
+          "Mf": 1,
+          "mu": 0,
+          "l1_matrix_element": "sqrt(105)/10",
+          "l2_matrix_element": "-sqrt(105)/10",
+          "g1l1_plus_g2l2_matrix_element": "sqrt(105)*(g1 - g2)/10"
+        },
+        {
+          "Mi": 2,
+          "Mf": 1,
+          "mu": -1,
+          "l1_matrix_element": "-sqrt(210)/10",
+          "l2_matrix_element": "sqrt(210)/10",
+          "g1l1_plus_g2l2_matrix_element": "sqrt(210)*(-g1 + g2)/10"
+        }
+      ],
+      "sixj": "sqrt(21)/30",
+      "RME_l1_BM": "-sqrt(42)/2",
+      "RME_l1_BM_squared": "21/2",
+      "RME_l2_BM": "sqrt(42)/2",
+      "RME_Jtot_BM": "0",
+      "RME_weighted_BM": "sqrt(42)*(-g1 + g2)/2",
+      "B_dimensionless_weighted_orbital": "21*(g1 - g2)**2/10",
+      "B_M1_divided_by_mu_M_squared": "63*(g1 - g2)**2/(40*pi)",
+      "all_fixed_Mi_l1_strengths": {
+        "-2": "21/10",
+        "-1": "21/10",
+        "0": "21/10",
+        "1": "21/10",
+        "2": "21/10"
+      },
+      "individual_orbital_Casimir": 6,
+      "total_J_Casimir_initial": 6,
+      "total_J_Casimir_final": 2,
+      "state_and_strength_boundary": "Exact formal angular controls with a shared symbolic compact-support normalized radial factor. No measured strength, energy, numerical radius, Hamiltonian or real-particle g assignment."
+    },
+    {
+      "ell1": 3,
+      "ell2": 3,
+      "initial_J": 2,
+      "final_J": 1,
+      "all_8_angular_state_norms": [
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "same_M_different_J_overlaps": [
+        "0",
+        "0",
+        "0"
+      ],
+      "complete_tensor_components_checked": 45,
+      "all_nonzero_l1_components": [
+        {
+          "Mi": -2,
+          "Mf": -1,
+          "mu": 1,
+          "l1_matrix_element": "-3*sqrt(2)/2",
+          "l2_matrix_element": "3*sqrt(2)/2",
+          "g1l1_plus_g2l2_matrix_element": "3*sqrt(2)*(-g1 + g2)/2"
+        },
+        {
+          "Mi": -1,
+          "Mf": -1,
+          "mu": 0,
+          "l1_matrix_element": "3/2",
+          "l2_matrix_element": "-3/2",
+          "g1l1_plus_g2l2_matrix_element": "3*g1/2 - 3*g2/2"
+        },
+        {
+          "Mi": -1,
+          "Mf": 0,
+          "mu": 1,
+          "l1_matrix_element": "-3/2",
+          "l2_matrix_element": "3/2",
+          "g1l1_plus_g2l2_matrix_element": "-3*g1/2 + 3*g2/2"
+        },
+        {
+          "Mi": 0,
+          "Mf": -1,
+          "mu": -1,
+          "l1_matrix_element": "-sqrt(3)/2",
+          "l2_matrix_element": "sqrt(3)/2",
+          "g1l1_plus_g2l2_matrix_element": "sqrt(3)*(-g1 + g2)/2"
+        },
+        {
+          "Mi": 0,
+          "Mf": 0,
+          "mu": 0,
+          "l1_matrix_element": "sqrt(3)",
+          "l2_matrix_element": "-sqrt(3)",
+          "g1l1_plus_g2l2_matrix_element": "sqrt(3)*(g1 - g2)"
+        },
+        {
+          "Mi": 0,
+          "Mf": 1,
+          "mu": 1,
+          "l1_matrix_element": "-sqrt(3)/2",
+          "l2_matrix_element": "sqrt(3)/2",
+          "g1l1_plus_g2l2_matrix_element": "sqrt(3)*(-g1 + g2)/2"
+        },
+        {
+          "Mi": 1,
+          "Mf": 0,
+          "mu": -1,
+          "l1_matrix_element": "-3/2",
+          "l2_matrix_element": "3/2",
+          "g1l1_plus_g2l2_matrix_element": "-3*g1/2 + 3*g2/2"
+        },
+        {
+          "Mi": 1,
+          "Mf": 1,
+          "mu": 0,
+          "l1_matrix_element": "3/2",
+          "l2_matrix_element": "-3/2",
+          "g1l1_plus_g2l2_matrix_element": "3*g1/2 - 3*g2/2"
+        },
+        {
+          "Mi": 2,
+          "Mf": 1,
+          "mu": -1,
+          "l1_matrix_element": "-3*sqrt(2)/2",
+          "l2_matrix_element": "3*sqrt(2)/2",
+          "g1l1_plus_g2l2_matrix_element": "3*sqrt(2)*(-g1 + g2)/2"
+        }
+      ],
+      "sixj": "sqrt(14)/28",
+      "RME_l1_BM": "-3*sqrt(10)/2",
+      "RME_l1_BM_squared": "45/2",
+      "RME_l2_BM": "3*sqrt(10)/2",
+      "RME_Jtot_BM": "0",
+      "RME_weighted_BM": "3*sqrt(10)*(-g1 + g2)/2",
+      "B_dimensionless_weighted_orbital": "9*(g1 - g2)**2/2",
+      "B_M1_divided_by_mu_M_squared": "27*(g1 - g2)**2/(8*pi)",
+      "all_fixed_Mi_l1_strengths": {
+        "-2": "9/2",
+        "-1": "9/2",
+        "0": "9/2",
+        "1": "9/2",
+        "2": "9/2"
+      },
+      "individual_orbital_Casimir": 12,
+      "total_J_Casimir_initial": 6,
+      "total_J_Casimir_final": 2,
+      "state_and_strength_boundary": "Exact formal angular controls with a shared symbolic compact-support normalized radial factor. No measured strength, energy, numerical radius, Hamiltonian or real-particle g assignment."
+    },
+    {
+      "ell1": 5,
+      "ell2": 5,
+      "initial_J": 2,
+      "final_J": 1,
+      "all_8_angular_state_norms": [
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "same_M_different_J_overlaps": [
+        "0",
+        "0",
+        "0"
+      ],
+      "complete_tensor_components_checked": 45,
+      "all_nonzero_l1_components": [
+        {
+          "Mi": -2,
+          "Mf": -1,
+          "mu": 1,
+          "l1_matrix_element": "-3*sqrt(130)/10",
+          "l2_matrix_element": "3*sqrt(130)/10",
+          "g1l1_plus_g2l2_matrix_element": "3*sqrt(130)*(-g1 + g2)/10"
+        },
+        {
+          "Mi": -1,
+          "Mf": -1,
+          "mu": 0,
+          "l1_matrix_element": "3*sqrt(65)/10",
+          "l2_matrix_element": "-3*sqrt(65)/10",
+          "g1l1_plus_g2l2_matrix_element": "3*sqrt(65)*(g1 - g2)/10"
+        },
+        {
+          "Mi": -1,
+          "Mf": 0,
+          "mu": 1,
+          "l1_matrix_element": "-3*sqrt(65)/10",
+          "l2_matrix_element": "3*sqrt(65)/10",
+          "g1l1_plus_g2l2_matrix_element": "3*sqrt(65)*(-g1 + g2)/10"
+        },
+        {
+          "Mi": 0,
+          "Mf": -1,
+          "mu": -1,
+          "l1_matrix_element": "-sqrt(195)/10",
+          "l2_matrix_element": "sqrt(195)/10",
+          "g1l1_plus_g2l2_matrix_element": "sqrt(195)*(-g1 + g2)/10"
+        },
+        {
+          "Mi": 0,
+          "Mf": 0,
+          "mu": 0,
+          "l1_matrix_element": "sqrt(195)/5",
+          "l2_matrix_element": "-sqrt(195)/5",
+          "g1l1_plus_g2l2_matrix_element": "sqrt(195)*(g1 - g2)/5"
+        },
+        {
+          "Mi": 0,
+          "Mf": 1,
+          "mu": 1,
+          "l1_matrix_element": "-sqrt(195)/10",
+          "l2_matrix_element": "sqrt(195)/10",
+          "g1l1_plus_g2l2_matrix_element": "sqrt(195)*(-g1 + g2)/10"
+        },
+        {
+          "Mi": 1,
+          "Mf": 0,
+          "mu": -1,
+          "l1_matrix_element": "-3*sqrt(65)/10",
+          "l2_matrix_element": "3*sqrt(65)/10",
+          "g1l1_plus_g2l2_matrix_element": "3*sqrt(65)*(-g1 + g2)/10"
+        },
+        {
+          "Mi": 1,
+          "Mf": 1,
+          "mu": 0,
+          "l1_matrix_element": "3*sqrt(65)/10",
+          "l2_matrix_element": "-3*sqrt(65)/10",
+          "g1l1_plus_g2l2_matrix_element": "3*sqrt(65)*(g1 - g2)/10"
+        },
+        {
+          "Mi": 2,
+          "Mf": 1,
+          "mu": -1,
+          "l1_matrix_element": "-3*sqrt(130)/10",
+          "l2_matrix_element": "3*sqrt(130)/10",
+          "g1l1_plus_g2l2_matrix_element": "3*sqrt(130)*(-g1 + g2)/10"
+        }
+      ],
+      "sixj": "sqrt(143)/110",
+      "RME_l1_BM": "-3*sqrt(26)/2",
+      "RME_l1_BM_squared": "117/2",
+      "RME_l2_BM": "3*sqrt(26)/2",
+      "RME_Jtot_BM": "0",
+      "RME_weighted_BM": "3*sqrt(26)*(-g1 + g2)/2",
+      "B_dimensionless_weighted_orbital": "117*(g1 - g2)**2/10",
+      "B_M1_divided_by_mu_M_squared": "351*(g1 - g2)**2/(40*pi)",
+      "all_fixed_Mi_l1_strengths": {
+        "-2": "117/10",
+        "-1": "117/10",
+        "0": "117/10",
+        "1": "117/10",
+        "2": "117/10"
+      },
+      "individual_orbital_Casimir": 30,
+      "total_J_Casimir_initial": 6,
+      "total_J_Casimir_final": 2,
+      "state_and_strength_boundary": "Exact formal angular controls with a shared symbolic compact-support normalized radial factor. No measured strength, energy, numerical radius, Hamiltonian or real-particle g assignment."
+    }
+  ],
+  "required_domain_and_moment_conditions": {
+    "norm_argument_domain": "To use ||M psi|| and final-projection contractivity, the initial state must be in a suitable common domain with finite magnetic component norms. For a uniform bound over states, uniform relevant derivative/orbital/current moments or a validated finite-space cutoff are needed. Normalization plus compact support does not furnish them.",
+    "one_sufficient_M1_bound": "For normalized psi, finite N, bounded real g factors and finite orbital/spin quadratic moments: B(M1;i->f)<=3/(4pi)*mu(M)^2*[sum_k |g_l(k)|*sqrt(<l_k^2>_psi)+sum_k |g_s(k)|*sqrt(<s_k^2>_psi)]^2.",
+    "bound_proof": "First project the M1 component-vector M psi onto the chosen final multiplet. Projection cannot increase its squared norm. Apply the triangle inequality in the direct sum over spherical components and use sum_mu||l_k,mu psi||^2=<l_k^2>, similarly for s. This is a conservative sufficient bound, not an extra source-direct theorem.",
+    "spin_vs_orbital": "For a fixed finite collection of spin-1/2 nucleon degrees, s_k^2=3/4 is bounded. The orbital l_k^2 has no analogous uniform bound without an additional moment or cutoff assumption.",
+    "kinematic_route": "On smooth states with r_k<=R and p_k=-i*hbar*grad_k, <l_k^2><=R^2*<p_k^2>/hbar^2. Thus a separately justified uniform momentum/kinetic-moment bound can close this part; support alone cannot.",
+    "Hamiltonian_route_boundary": "A specified Hamiltonian and energy/kinetic control can restrict the allowed state sector. A small total J or a bare total-energy label without a potential/domain bound does not automatically bound individual orbital or kinetic moments.",
+    "high_l_nonrel_boundary": "For the common radial factor, each particle's <p^2> contains hbar^2*l(l+1)*integral|u(r)|^2/r^2 dr >= hbar^2*l(l+1)/R^2. Letting l tend to infinity at fixed support eventually escapes any fixed nonrel momentum/velocity or kinetic-energy regime. Nonrel current validity and any additional current terms must be controlled before applying this toy to physics.",
+    "general_L_boundary": "For fixed L and R, the smooth gradient coefficient scales as R^(L-1), while the orbital operator still requires derivative/angular moments. This audit does not assert a universal numerical magnetic bound or reuse the electric Qabs prefactor."
+  },
+  "collective_model_scope": {
+    "source_zero_piece": "LKH82 p125 Eq.3.9: M0(M1,q)=sqrt(3/(4pi))*mu_N*g_R*J_q, with J expressed in hbar units. The full first-order expression also has alpha*J corrections.",
+    "source_p127_scope": "Sec.III.C.3 discusses vanishing B(M1) when only the zeroth-order deformation-independent piece is retained for the described collective transitions. It is not a zero theorem for the generic weighted spin/orbital Eq.2.3c.",
+    "toy_relation": "The toy shares the generator selection property but tests a distinct weighted orbital operator. It neither identifies a real collective configuration nor revises the author's first-order model prediction."
+  },
+  "evidence_and_reuse_boundaries": {
+    "source_direct": "Printed operator, BM B normalization and the limited generator model piece.",
+    "our_reconstruction": "Gradient ordering identity, formal two-orbital construction, complete CG/6j checks, general Racah proof and sufficient moment/domain bounds.",
+    "experimental_claims": "None. No real-nucleus strengths, low-energy spectrum, current realization, isospin/Pauli model or new experimental inference.",
+    "open_boundary": "A physical magnetic bound requires the actual allowed state/current sector and an independently justified moment, cutoff or Hamiltonian/kinematic constraint; this audit does not choose those for a nucleus."
+  },
+  "checks": {
+    "passed_by_group": {
+      "M1_cartesian_to_spherical_normalization": 3,
+      "M1_constant_gradient": 3,
+      "M1_orbital_g_factor": 1,
+      "RME_squared_candidate_control": 4,
+      "all_fixed_Mi_strengths_match_BM_spin_normalization": 4,
+      "all_fixed_Mi_weighted_strengths": 4,
+      "conditional_moment_bound_control": 4,
+      "coupled_angular_states_normalized": 4,
+      "different_J_coupled_states_orthogonal": 4,
+      "full_CG_components_match_sixj_BM_RME": 4,
+      "full_Jtot_components_do_not_connect_J2_to_J1": 4,
+      "full_weighted_orbital_components_g_difference": 4,
+      "general_RME_candidate_equivalent": 1,
+      "general_RME_squared": 1,
+      "general_Racah_sixj_squared": 1,
+      "general_formal_quadratic_growth": 1,
+      "gradient_orbital_contracted_ordering": 1,
+      "parent_day_index_retained": 1,
+      "raw_identity": 1,
+      "sixj_Racah_closed_form_control": 4
+    },
+    "total_passed": 54,
+    "failures": 0,
+    "CG_component_comparisons": 180,
+    "angular_state_norms_checked": 32,
+    "same_M_orthogonality_controls": 12
+  },
+  "changed_paths": [
+    "tmp/day8-20261007/lange-kumar/magnetic-operator-domain/magnetic_operator_domain.py",
+    "outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/magnetic-operator-domain.json"
+  ],
+  "reproducibility": {
+    "code": "tmp/day8-20261007/lange-kumar/magnetic-operator-domain/magnetic_operator_domain.py",
+    "script_sha256": "73882769d3336752154011e4505005a788b1bf44a59c2b463071a4032e063060",
+    "source_code": "#!/usr/bin/env python3\n\"\"\"Offline Day8 L2 audit of the adopted magnetic multipole's operator domain.\n\nAll two-orbital controls are exact, distinguishable-degree angular algebra.\nNo nucleus, measured strength, transition energy, numerical radius, Hamiltonian,\nor physically arbitrarily large low-energy M1 strength is assigned to the toy.\nDefault execution is read-only. --write-receipt exclusively creates one JSON.\n\"\"\"\n\nfrom __future__ import annotations\n\nimport argparse\nfrom collections import Counter\nfrom datetime import datetime, timezone\nfrom functools import lru_cache\nimport hashlib\nimport json\nfrom pathlib import Path\nimport sys\n\nsys.dont_write_bytecode = True\n\nCODE_REL = \"tmp/day8-20261007/lange-kumar/magnetic-operator-domain/magnetic_operator_domain.py\"\nRUN_REL = \"outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01\"\nRECEIPT_REL = RUN_REL + \"/magnetic-operator-domain.json\"\nRAW_REL = \"raw/papers/gpt/high-spin-20260920/review/1982_Lange et al_E0-E2-M1 multipole admixtures of transitions in even-even nuclei.pdf\"\nRAW_SHA = \"ed925a0577a9257903806acd209c1db707529e86a5bfd9a301a83d597bf78ffb\"\nIMAGES = [\n    \"tmp/day8-20261007/lange-kumar/pdf-page-03.png\",\n    \"tmp/day8-20261007/lange-kumar/model-boundary/p125-pdf7.png\",\n    \"tmp/day8-20261007/lange-kumar/model-boundary/p127-pdf9.png\",\n]\n\n\ndef digest(path: Path) -> str:\n    return hashlib.sha256(path.read_bytes()).hexdigest()\n\n\ndef build_receipt(root: Path) -> dict:\n    dep_rel = \"tmp/day8-20261007/rose-brink/python-deps\"\n    sys.path.insert(0, str(root / dep_rel))\n    import sympy as sp\n    from sympy.physics.wigner import clebsch_gordan, wigner_3j, wigner_6j\n\n    counts: Counter[str] = Counter()\n\n    def check(name: str, condition) -> None:\n        if not bool(condition):\n            raise AssertionError(name)\n        counts[name] += 1\n\n    def equals(left, right) -> bool:\n        return sp.simplify(left - right) == 0\n\n    def exact(value) -> str:\n        return str(sp.simplify(value))\n\n    check(\"raw_identity\", digest(root / RAW_REL) == RAW_SHA)\n    run = json.loads((root / RUN_REL / \"run.json\").read_text(encoding=\"utf-8\"))\n    check(\"parent_day_index_retained\", run[\"day_index\"] == 8)\n\n    # The gradient in Eq.2.3c differentiates the bracketed solid harmonic.\n    # Orbital l remains -i r x grad on the state. Its contracted ordering\n    # difference vanishes on a common smooth domain by Hessian symmetry.\n    x, y, z = sp.symbols(\"x y z\", real=True)\n    xyz = [x, y, z]\n    f = sp.Function(\"f\")(x, y, z)\n    contracted_commutator = sp.simplify(sum(\n        -sp.I * sp.LeviCivita(a, b, c) * xyz[b] * sp.diff(f, xyz[c], xyz[a])\n        for a in range(3) for b in range(3) for c in range(3)\n    ))\n    check(\"gradient_orbital_contracted_ordering\", contracted_commutator == 0)\n    coef = sp.sqrt(sp.Rational(3, 4) / sp.pi)\n    solid_harmonics_M1 = {\n        -1: coef * (x - sp.I * y) / sp.sqrt(2),\n        0: coef * z,\n        1: -coef * (x + sp.I * y) / sp.sqrt(2),\n    }\n    vx, vy, vz = sp.symbols(\"vx vy vz\")\n    vec = [vx, vy, vz]\n    vector_components = {-1: (vx - sp.I * vy) / sp.sqrt(2), 0: vz, 1: -(vx + sp.I * vy) / sp.sqrt(2)}\n    gradient_records = []\n    for q, solid in solid_harmonics_M1.items():\n        gradient = [sp.diff(solid, coordinate) for coordinate in xyz]\n        check(\"M1_constant_gradient\", all(sp.diff(g, coordinate) == 0 for g in gradient for coordinate in xyz))\n        check(\"M1_cartesian_to_spherical_normalization\", equals(sum(v * g for v, g in zip(vec, gradient)), coef * vector_components[q]))\n        gradient_records.append({\"mu\": q, \"rY_1mu\": exact(solid), \"cartesian_gradient\": [exact(g) for g in gradient]})\n    gl = sp.symbols(\"g_l\", real=True)\n    check(\"M1_orbital_g_factor\", equals(2 * gl / (sp.Integer(1) + 1), gl))\n\n    # Single-term Racah evaluation for {ell,1,ell;2,ell,1}, ell>=1 integer.\n    ell = sp.symbols(\"ell\", integer=True, positive=True)\n    d = 4 * ell * (ell + 1) * (2 * ell + 1)\n    p5 = (2 * ell - 1) * (2 * ell) * (2 * ell + 1) * (2 * ell + 2) * (2 * ell + 3)\n    sixj_squared_from_racah = sp.simplify((1 / d)**2 * sp.Rational(1, 30) * (4 / p5) * p5**2)\n    sixj_squared_closed = (2 * ell - 1) * (2 * ell + 3) / (30 * ell * (ell + 1) * (2 * ell + 1))\n    rme_squared_closed = ((2 * ell + 1)**2 - 4) / 2\n    check(\"general_Racah_sixj_squared\", equals(sixj_squared_from_racah, sixj_squared_closed))\n    check(\"general_RME_squared\", equals(15 * ell * (ell + 1) * (2 * ell + 1) * sixj_squared_from_racah, rme_squared_closed))\n    check(\"general_RME_candidate_equivalent\", equals(rme_squared_closed, 2 * ell * (ell + 1) - sp.Rational(3, 2)))\n    check(\"general_formal_quadratic_growth\", sp.limit(rme_squared_closed / ell**2, ell, sp.oo) == 2)\n\n    @lru_cache(maxsize=None)\n    def cg(l: int, j: int, m1: int, m2: int, m: int):\n        if not (-l <= m1 <= l and -l <= m2 <= l and m1 + m2 == m):\n            return sp.Integer(0)\n        return clebsch_gordan(l, l, j, m1, m2, m)\n\n    def ladder(l: int, m: int, q: int):\n        if not (-l <= m <= l and -l <= m + q <= l):\n            return sp.Integer(0)\n        if q == 0:\n            return sp.Integer(m)\n        if q == 1:\n            return -sp.sqrt(sp.Rational((l - m) * (l + m + 1), 2))\n        return sp.sqrt(sp.Rational((l + m) * (l - m + 1), 2))\n\n    def direct_component(l: int, which: int, mi: int, mf: int, q: int):\n        if mf != mi + q:\n            return sp.Integer(0)\n        total = sp.Integer(0)\n        for m1 in range(-l, l + 1):\n            m2 = mi - m1\n            if not -l <= m2 <= l:\n                continue\n            if which == 1:\n                m1f, m2f, amp = m1 + q, m2, ladder(l, m1, q)\n            else:\n                m1f, m2f, amp = m1, m2 + q, ladder(l, m2, q)\n            total += cg(l, 1, m1f, m2f, mf) * amp * cg(l, 2, m1, m2, mi)\n        return sp.simplify(total)\n\n    g1, g2 = sp.symbols(\"g1 g2\", real=True)\n    controls = []\n    for l in [1, 2, 3, 5]:\n        norms = []\n        for j in [1, 2]:\n            for m in range(-j, j + 1):\n                norm = sp.simplify(sum(cg(l, j, m1, m - m1, m)**2 for m1 in range(-l, l + 1)))\n                norms.append(norm)\n        check(\"coupled_angular_states_normalized\", all(n == 1 for n in norms))\n        overlaps = [sp.simplify(sum(cg(l, 1, m1, m - m1, m) * cg(l, 2, m1, m - m1, m) for m1 in range(-l, l + 1))) for m in [-1, 0, 1]]\n        check(\"different_J_coupled_states_orthogonal\", all(o == 0 for o in overlaps))\n        sixj = wigner_6j(l, 1, l, 2, l, 1)\n        rme = sp.simplify((-1)**(2 * l + 3) * sp.sqrt(15 * l * (l + 1) * (2 * l + 1)) * sixj)\n        expected_squared = sp.Rational((2 * l + 1)**2 - 4, 2)\n        check(\"sixj_Racah_closed_form_control\", equals(sixj**2, sixj_squared_closed.subs(ell, l)))\n        check(\"RME_squared_candidate_control\", equals(rme**2, expected_squared))\n        components, cg_match, generator_zero, weighted_match = [], [], [], []\n        strengths = {mi: sp.Integer(0) for mi in range(-2, 3)}\n        weighted_strengths = {mi: sp.Integer(0) for mi in range(-2, 3)}\n        for mi in range(-2, 3):\n            for mf in range(-1, 2):\n                for q in [-1, 0, 1]:\n                    a1 = direct_component(l, 1, mi, mf, q)\n                    a2 = direct_component(l, 2, mi, mf, q)\n                    we = (-1)**(1 - mf) * wigner_3j(1, 1, 2, -mf, q, mi) * rme\n                    cg_match.append(equals(a1, we))\n                    generator_zero.append(equals(a1 + a2, 0))\n                    weighted = sp.simplify(g1 * a1 + g2 * a2)\n                    weighted_match.append(equals(weighted, (g1 - g2) * a1))\n                    strengths[mi] += a1**2\n                    weighted_strengths[mi] += weighted**2\n                    if a1 != 0:\n                        components.append({\"Mi\": mi, \"Mf\": mf, \"mu\": q, \"l1_matrix_element\": exact(a1), \"l2_matrix_element\": exact(a2), \"g1l1_plus_g2l2_matrix_element\": exact(weighted)})\n        check(\"full_CG_components_match_sixj_BM_RME\", all(cg_match))\n        check(\"full_Jtot_components_do_not_connect_J2_to_J1\", all(generator_zero))\n        check(\"full_weighted_orbital_components_g_difference\", all(weighted_match))\n        check(\"all_fixed_Mi_strengths_match_BM_spin_normalization\", all(equals(value, expected_squared / 5) for value in strengths.values()))\n        check(\"all_fixed_Mi_weighted_strengths\", all(equals(value, (g1 - g2)**2 * expected_squared / 5) for value in weighted_strengths.values()))\n        # Unit g1=1,g2=0 is an algebra control, not a particle assignment.\n        check(\"conditional_moment_bound_control\", expected_squared / 5 <= l * (l + 1))\n        controls.append({\n            \"ell1\": l, \"ell2\": l,\n            \"initial_J\": 2, \"final_J\": 1,\n            \"all_8_angular_state_norms\": [exact(n) for n in norms],\n            \"same_M_different_J_overlaps\": [exact(o) for o in overlaps],\n            \"complete_tensor_components_checked\": 45,\n            \"all_nonzero_l1_components\": components,\n            \"sixj\": exact(sixj),\n            \"RME_l1_BM\": exact(rme), \"RME_l1_BM_squared\": exact(expected_squared),\n            \"RME_l2_BM\": exact(-rme), \"RME_Jtot_BM\": \"0\",\n            \"RME_weighted_BM\": exact((g1 - g2) * rme),\n            \"B_dimensionless_weighted_orbital\": exact((g1 - g2)**2 * expected_squared / 5),\n            \"B_M1_divided_by_mu_M_squared\": exact(sp.Rational(3, 4) / sp.pi * (g1 - g2)**2 * expected_squared / 5),\n            \"all_fixed_Mi_l1_strengths\": {str(mi): exact(value) for mi, value in strengths.items()},\n            \"individual_orbital_Casimir\": l * (l + 1),\n            \"total_J_Casimir_initial\": 6, \"total_J_Casimir_final\": 2,\n            \"state_and_strength_boundary\": \"Exact formal angular controls with a shared symbolic compact-support normalized radial factor. No measured strength, energy, numerical radius, Hamiltonian or real-particle g assignment.\",\n        })\n\n    code_path = Path(__file__).resolve()\n    return {\n        \"schema_version\": 1,\n        \"created_at_utc\": datetime.now(timezone.utc).isoformat(),\n        \"artifact_kind\": \"Day8-L2-adopted-magnetic-operator-domain-audit\",\n        \"status\": \"complete-bounded-source-and-formal-algebra-audit\",\n        \"day_index\": 8, \"run_closed\": False,\n        \"new_source_or_course_card\": False, \"new_session_or_goal\": False,\n        \"experimental_data_fit\": False, \"numerical_experiment\": False, \"L4\": False,\n        \"session_id\": run[\"session_id\"], \"resume_command\": run[\"resume_command\"],\n        \"evidence_class\": \"source-grounded definitions plus our exact formal operator-domain reconstruction; not human-reviewed\",\n        \"question\": \"Can the adopted Eq.2.3c magnetic operator inherit the electric point-charge hard-support norm bound from radius support and normalization alone?\",\n        \"answer\": \"No. Bounded solid-harmonic/gradient coefficients do not bound the orbital differential operator on all normalized compact-support states. Additional orbital/current domain and moment bounds are required; the formal failure is not a prediction of unlimited real low-energy nuclear strength.\",\n        \"source\": {\n            \"knowledge_source\": \"knowledge/sources/lange-kumar-hamilton-1982-multipole-admixtures.md\",\n            \"raw_file\": RAW_REL, \"raw_sha256\": RAW_SHA,\n            \"direct_locators\": [\n                \"printed p121 / PDF p3, Eq.2.3b: point-charge electric multiplication operator\",\n                \"printed p121 / PDF p3, Eq.2.3c: magnetic spin/orbital vector dotted with gradient of the bracketed solid harmonic\",\n                \"printed p121 / PDF p3, Eq.2.3a: fixed-Mi B sum and BM initial-spin normalization\",\n                \"printed p125 / PDF p7, Eq.3.9 and paragraph below: mu_N*g_R*sqrt(3/(4pi))*J_q zero-deformation model piece; full expression also contains alpha*J\",\n                \"printed p127 / PDF p9, Sec.III.C.3 first paragraph: only zeroth-order deformation-independent M1 piece is stated to vanish for the discussed transitions\",\n            ],\n            \"visually_checked_images\": {rel: digest(root / rel) for rel in IMAGES},\n            \"source_or_review_flags_modified\": False,\n            \"source_scope_boundary\": \"Only these existing LKH82 pages supply direct scientific source evidence. No new paper, card, nucleus, source download, original table edit or review-state upgrade.\",\n        },\n        \"adopted_operator_and_ordering\": {\n            \"source_Eq2_3c\": \"M(M L,mu)=mu(M)*sum_k [g_s(k)*s_k+2*g_l(k)/(L+1)*l_k] dot grad_k[r_k^L*Y_Lmu(Omega_k)].\",\n            \"moment_unit\": \"mu(M)=e*hbar/(2*M*c) in the source Gaussian electromagnetic convention; it is modern mu_N=e*hbar/(2*m_p*c) when M=m_p is adopted. The source p121 does not print a numerical mass/constants specification.\",\n            \"angular_momentum_units\": \"Use dimensionless s=S/hbar and l=L_orb/hbar=-i*r cross grad, and dimensionless J=J_physical/hbar. Thus the printed prefactor already supplies hbar: do not multiply these operators by another hbar or divide a BM B by its initial spin twice. g_s,g_l,g_R are dimensionless.\",\n            \"gradient_scope\": \"The explicitly bracketed grad differentiates r^L Y_Lmu; it is a vector multiplication coefficient after that derivative. It is not an extra unbracketed gradient on the state. The orbital l itself is a differential operator on the state.\",\n            \"ordering_identity\": \"Let F=grad f for smooth scalar f and l_a=-i*epsilon_abc*r_b*partial_c. Then sum_a[l_a,F_a]=-i*epsilon_abc*r_b*partial_c*partial_a f=0. Hence l dot F=F dot l on a common smooth operator domain. Individual components need not commute; this identity only removes the contracted ordering term, not l acting on the wavefunction.\",\n            \"symbolic_ordering_check\": exact(contracted_commutator),\n            \"spin_ordering\": \"Spin acts on internal degrees and commutes with the coordinate coefficient in this adopted one-body operator.\",\n            \"M1_reduction\": \"Since r*Y_1mu=sqrt(3/(4pi))*r_mu, M(M1,mu)=sqrt(3/(4pi))*mu(M)*sum_k[g_l(k)*l_k,mu+g_s(k)*s_k,mu]. The source 2*g_l/(L+1) becomes g_l at L=1.\",\n            \"M1_cartesian_gradient_controls\": gradient_records,\n            \"units\": \"M(E L): charge*length^L. Adopted M(M L): magnetic_moment*length^(L-1), so B(M L) has magnetic_moment^2*length^(2L-2). M1 RME is in mu(M), B(M1) in mu(M)^2 (mu_N or mu_N^2 when that moment unit is adopted). Do not insert SI moments into the Gaussian source rate normalization.\",\n            \"validity_scope\": \"Only the adopted nonrel one-body polynomial moment operator is audited. Full relativistic, finite-q or additional effective/exchange-current terms are not assigned this domain control.\",\n        },\n        \"electric_bound_failure_boundary\": {\n            \"electric_reason\": \"For fixed charges and hard r_k<=R, Eq.2.3b is a bounded coordinate multiplication operator. Its component-vector norm argument uses normalized states and final-multiplet projection.\",\n            \"magnetic_missing_step\": \"At fixed L and R, grad(r^L Y_Lmu) is bounded, but multiplication by that coefficient followed by unbounded l is not bounded by normalization and R alone. g factors, spin/current normalization and orbital derivative moments are not supplied by the electric charge bound.\",\n            \"no_change_to_old_electric_bound\": \"The earlier electric hard-support theorem is retained under its own assumptions; no old norm/reverse receipt or canonical page was edited.\",\n            \"total_J_is_insufficient\": \"Fixed small total J does not bound individual l_k: two equal l may couple to J=1 or 2 for every integer l>=1 while each l_k^2=l(l+1) grows.\",\n        },\n        \"two_orbital_formal_counterexample\": {\n            \"Hilbert_space\": \"Two distinguishable orbital degrees V_l tensor V_l, l>=1 integer; no fermionic Pauli sector or real proton/neutron assignment is asserted.\",\n            \"states\": \"|(l l)J M>=sum_m1,m2 CG(l,m1;l,m2|J,M)|l,m1>|l,m2>, with Ji=2 and Jf=1. Combined orbital parity is (+) for both, since (-1)^(2l)=+1.\",\n            \"shared_radial_support\": \"Choose one normalized u in C_c^infinity((a,R)), 0<a<R, with integral|u(r)|^2 dr=1. Use u(r1)u(r2)/(r1*r2) times the coupled angular state for every l. These full states are normalized, have the same hard support, and each finite-l state lies in the smooth orbital domain. R is symbolic; no physical/numerical radius is assigned.\",\n            \"operator\": \"O_mu=g1*l1_mu+g2*l2_mu=g2*Jtot_mu+(g1-g2)*l1_mu, with real fixed dimensionless g1,g2 and g1!=g2 for the failure sequence.\",\n            \"generator_zero_proof\": \"[Jtot^2,Jtot_mu]=0 implies (Jf(Jf+1)-Ji(Ji+1))*<Jf|Jtot_mu|Ji>=0; for 1 versus 2 the difference is -4, hence every component vanishes. The complete direct CG checks also give l2=-l1 on this transition.\",\n            \"BM_WE_convention\": \"<Jf Mf|l1_mu|Ji Mi>=(-1)^(Jf-Mf)*3j(Jf,1,Ji;-Mf,mu,Mi)*<Jf||l1||Ji>_BM.\",\n            \"sixj_reduction\": \"<(l l)1||l1||(l l)2>_BM=(-1)^(2l+3)*sqrt(15)*{l,1,l;2,l,1}*sqrt[l(l+1)(2l+1)].\",\n            \"general_squared_RME\": \"|<(l l)1||l1||(l l)2>|^2=[(2l+1)^2-4]/2=2l(l+1)-3/2.\",\n            \"general_weighted_squared_RME\": \"|RME_O|^2=(g1-g2)^2*[2l(l+1)-3/2].\",\n            \"formal_B_from_adopted_M1\": \"B(M1;2->1)=3/(20*pi)*mu(M)^2*(g1-g2)^2*[2l(l+1)-3/2]. The initial-spin divisor is 5 and is already included.\",\n            \"g_equal_limit\": \"At g1=g2 the operator reduces to a multiple of Jtot and this transition is zero. Weighted orbital M1 with unequal g is a different operator from the generator-only model piece.\",\n            \"phase_boundary\": \"Negative RME values in the controls use the stated standard CG basis. The squared formula and the failed radius-only bound do not require a universal RME sign.\",\n            \"formal_limit\": \"For fixed nonzero g1-g2, the formal squared RME grows as 2*l^2; there is no uniform bound from support, state normalization and fixed total J alone on this unrestricted angular Hilbert space.\",\n            \"not_physical_infinity\": \"This is an operator-domain counterexample, not a real-nucleus construction or a prediction that low-energy nuclear M1 strengths can grow without limit. No Hamiltonian, emitting energy, measured B or low-energy spectral realization is supplied.\",\n        },\n        \"single_term_Racah_general_proof\": {\n            \"domain\": \"l>=1 integer\",\n            \"symbol\": \"{a,b,c;d,e,f}={l,1,l;2,l,1}\",\n            \"z_lower_upper\": \"max(2l+1,2l+1,4,2l+2)=2l+2=min(2l+3,2l+3,2l+2). Thus the Racah sum has exactly z=2l+2, with positive (-1)^z.\",\n            \"Delta_l_1_l_squared\": \"1/[4l(l+1)(2l+1)]\",\n            \"Delta_2_1_1_squared\": \"1/30\",\n            \"Delta_2_l_l_squared\": \"4/P5, P5=(2l-1)(2l)(2l+1)(2l+2)(2l+3)\",\n            \"Racah_sum_term\": \"(2l+3)!/(2l-2)!=P5; the other factorial denominators are 0! or 1!.\",\n            \"sixj_squared\": \"(2l-1)(2l+3)/[30*l(l+1)(2l+1)]\",\n            \"RME_squared_after_prefactor\": exact(sp.factor(15 * ell * (ell + 1) * (2 * ell + 1) * sixj_squared_from_racah)),\n            \"method_boundary\": \"Our Racah reconstruction, not a formula directly printed by LKH82. It proves all integer l>=1 rather than extrapolating from the four controls.\",\n        },\n        \"exact_controls\": controls,\n        \"required_domain_and_moment_conditions\": {\n            \"norm_argument_domain\": \"To use ||M psi|| and final-projection contractivity, the initial state must be in a suitable common domain with finite magnetic component norms. For a uniform bound over states, uniform relevant derivative/orbital/current moments or a validated finite-space cutoff are needed. Normalization plus compact support does not furnish them.\",\n            \"one_sufficient_M1_bound\": \"For normalized psi, finite N, bounded real g factors and finite orbital/spin quadratic moments: B(M1;i->f)<=3/(4pi)*mu(M)^2*[sum_k |g_l(k)|*sqrt(<l_k^2>_psi)+sum_k |g_s(k)|*sqrt(<s_k^2>_psi)]^2.\",\n            \"bound_proof\": \"First project the M1 component-vector M psi onto the chosen final multiplet. Projection cannot increase its squared norm. Apply the triangle inequality in the direct sum over spherical components and use sum_mu||l_k,mu psi||^2=<l_k^2>, similarly for s. This is a conservative sufficient bound, not an extra source-direct theorem.\",\n            \"spin_vs_orbital\": \"For a fixed finite collection of spin-1/2 nucleon degrees, s_k^2=3/4 is bounded. The orbital l_k^2 has no analogous uniform bound without an additional moment or cutoff assumption.\",\n            \"kinematic_route\": \"On smooth states with r_k<=R and p_k=-i*hbar*grad_k, <l_k^2><=R^2*<p_k^2>/hbar^2. Thus a separately justified uniform momentum/kinetic-moment bound can close this part; support alone cannot.\",\n            \"Hamiltonian_route_boundary\": \"A specified Hamiltonian and energy/kinetic control can restrict the allowed state sector. A small total J or a bare total-energy label without a potential/domain bound does not automatically bound individual orbital or kinetic moments.\",\n            \"high_l_nonrel_boundary\": \"For the common radial factor, each particle's <p^2> contains hbar^2*l(l+1)*integral|u(r)|^2/r^2 dr >= hbar^2*l(l+1)/R^2. Letting l tend to infinity at fixed support eventually escapes any fixed nonrel momentum/velocity or kinetic-energy regime. Nonrel current validity and any additional current terms must be controlled before applying this toy to physics.\",\n            \"general_L_boundary\": \"For fixed L and R, the smooth gradient coefficient scales as R^(L-1), while the orbital operator still requires derivative/angular moments. This audit does not assert a universal numerical magnetic bound or reuse the electric Qabs prefactor.\",\n        },\n        \"collective_model_scope\": {\n            \"source_zero_piece\": \"LKH82 p125 Eq.3.9: M0(M1,q)=sqrt(3/(4pi))*mu_N*g_R*J_q, with J expressed in hbar units. The full first-order expression also has alpha*J corrections.\",\n            \"source_p127_scope\": \"Sec.III.C.3 discusses vanishing B(M1) when only the zeroth-order deformation-independent piece is retained for the described collective transitions. It is not a zero theorem for the generic weighted spin/orbital Eq.2.3c.\",\n            \"toy_relation\": \"The toy shares the generator selection property but tests a distinct weighted orbital operator. It neither identifies a real collective configuration nor revises the author's first-order model prediction.\",\n        },\n        \"evidence_and_reuse_boundaries\": {\n            \"source_direct\": \"Printed operator, BM B normalization and the limited generator model piece.\",\n            \"our_reconstruction\": \"Gradient ordering identity, formal two-orbital construction, complete CG/6j checks, general Racah proof and sufficient moment/domain bounds.\",\n            \"experimental_claims\": \"None. No real-nucleus strengths, low-energy spectrum, current realization, isospin/Pauli model or new experimental inference.\",\n            \"open_boundary\": \"A physical magnetic bound requires the actual allowed state/current sector and an independently justified moment, cutoff or Hamiltonian/kinematic constraint; this audit does not choose those for a nucleus.\",\n        },\n        \"checks\": {\"passed_by_group\": dict(sorted(counts.items())), \"total_passed\": sum(counts.values()), \"failures\": 0, \"CG_component_comparisons\": 180, \"angular_state_norms_checked\": 32, \"same_M_orthogonality_controls\": 12},\n        \"changed_paths\": [CODE_REL, RECEIPT_REL],\n        \"reproducibility\": {\n            \"code\": CODE_REL, \"script_sha256\": digest(code_path),\n            \"source_code\": code_path.read_text(encoding=\"utf-8\"),\n            \"python_version\": sys.version.split()[0], \"sympy_version\": sp.__version__,\n            \"dependency_path\": dep_rel, \"network_requests\": 0,\n            \"default_command\": \"python3 \" + CODE_REL,\n            \"exclusive_creation_command\": \"python3 \" + CODE_REL + \" --write-receipt\",\n            \"embedded_replay\": \"Save source_code to a temporary Python file and run python3 <file> --root /workspace/wiki. Default execution reads only and uses the already available local SymPy directory; do not pass --write-receipt for an existing artifact.\",\n            \"write_policy\": \"Only this script's owned tmp directory and exclusive authorized JSON creation. No old norm/reverse receipts, raw, PLAN, canonical/report, run/state, system, Git or review flags edited.\",\n        },\n    }\n\n\ndef main() -> None:\n    parser = argparse.ArgumentParser(description=__doc__)\n    parser.add_argument(\"--root\", type=Path, default=Path(__file__).resolve().parents[4])\n    parser.add_argument(\"--write-receipt\", action=\"store_true\")\n    parser.add_argument(\"--print-receipt\", action=\"store_true\")\n    args = parser.parse_args()\n    root = args.root.resolve()\n    receipt = build_receipt(root)\n    if args.write_receipt:\n        with (root / RECEIPT_REL).open(\"x\", encoding=\"utf-8\", newline=\"\\n\") as stream:\n            json.dump(receipt, stream, ensure_ascii=False, indent=2)\n            stream.write(\"\\n\")\n    if args.print_receipt:\n        print(json.dumps(receipt, ensure_ascii=False, indent=2))\n    else:\n        print(json.dumps({\n            \"artifact\": RECEIPT_REL if args.write_receipt else None,\n            \"checks\": receipt[\"checks\"],\n            \"exact_RME_squared_controls\": {str(c[\"ell1\"]): c[\"RME_l1_BM_squared\"] for c in receipt[\"exact_controls\"]},\n            \"general_RME_squared\": receipt[\"two_orbital_formal_counterexample\"][\"general_squared_RME\"],\n            \"answer\": receipt[\"answer\"],\n            \"day_index\": 8, \"run_closed\": False, \"network_requests\": 0,\n        }, ensure_ascii=False, indent=2))\n\n\nif __name__ == \"__main__\":\n    main()\n",
+    "python_version": "3.12.3",
+    "sympy_version": "1.14.0",
+    "dependency_path": "tmp/day8-20261007/rose-brink/python-deps",
+    "network_requests": 0,
+    "default_command": "python3 tmp/day8-20261007/lange-kumar/magnetic-operator-domain/magnetic_operator_domain.py",
+    "exclusive_creation_command": "python3 tmp/day8-20261007/lange-kumar/magnetic-operator-domain/magnetic_operator_domain.py --write-receipt",
+    "embedded_replay": "Save source_code to a temporary Python file and run python3 <file> --root /workspace/wiki. Default execution reads only and uses the already available local SymPy directory; do not pass --write-receipt for an existing artifact.",
+    "write_policy": "Only this script's owned tmp directory and exclusive authorized JSON creation. No old norm/reverse receipts, raw, PLAN, canonical/report, run/state, system, Git or review flags edited."
+  }
+}

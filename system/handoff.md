@@ -6,33 +6,21 @@ updated: 2026-10-08
 
 # 跨会话交接
 
-## Active handoff — 正式 DAY8 持续学习；次日 15:00 收束
+## Active handoff — 正式 DAY8 持续学习；10 月 8 日 15:00 收束
 
-当前任务是正式 Day8 的选择定则、多极候选、δ 相位和观测依赖学习。用户调用 farmer/go-on/all/auto 并授权本任务自主执行与 subagents；原生 goal 保持 active。本日卡内容已由新 recall、原图核对、合成练习和五行 card audit 独立完成，学习窗口继续，不提前 final。日报：outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity.md。课程 state 仍 next_day_index=8 / completed_day_count=7；Day9 预习只可 partial/uncredited，不打开 Day10。
+当前任务是正式 Day8；card content 已以 prompt-primed recall、两 source 原图/约定核对、三题完整多极和观测依赖独立通过，学习窗口仍开放，原生 goal active。Day8 日报：outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity.md；正式 run：同名 multipolarity-run-01。保留原始 baseline.json 的 562 页哈希。课程 state 仍 next=8/count=7，completed=[8]、partial=[9]；Day9 仅知识预习，未开展 Day10。
 
-硬截止保持 2026-10-08 15:00 Asia/Shanghai，15:00–16:00 收束并生成 DAY9 学习计划与 prompt。当前是用户提前手动恢复的本日新 session 01a111fb-370d-7ed1-afe9-881ccc47caf4；正式 receipt：outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/run.json。Resume：codex resume 01a111fb-370d-7ed1-afe9-881ccc47caf4 -C /workspace/wiki -s danger-full-access -a never。继承的 multipoles-run-01/02 未计卡，保留不覆盖。
+当前 branch main；已发布稳定指针是 Extend DAY8 cascade evidence and strength normalization（第六26-file检查点，Gitee非force/H3通过，hash只在run.json）。本次第七检查点的 commit subject 为 Bound DAY8 truncation and independent calibration。15:00正式收束、最终state推进和DAY9 plan/prompt尚未进行；不得把窗口内commit当作课程final。
 
-本轮实际修正与可复用分析已写回 LKH82/RB67 source、multipole-mixing-ratio observable、spin-parity-assignment method、MU08 source 和 lifetime synthesis 七页（另含KB08 dated supplement）：完整带能量归一化的 KS/RB δ、第一/第二 gamma 与 absorption 相位、even-K 条件、angular K/photon L 区分、三题高阶全候选、E0/ICC/lifetime 分支边界与独立性表。Source 原有 review flags 未清除；合成题没有实验/核素身份。两份 raw 哈希匹配，原图与实际本轮阅读覆盖已记录。
+最新科学增量：95/329 truncation probability/finite-density bounds、54 magnetic domain、99 parity-duality cascade、96 independent J2 reference floor、72 complete M3/E4 omission、60 parity-null-converse均parent复现，知识已写到RB67-21–25/LKH82-15–16及observable/method，日报唯一七页writeback已同步。Independent controlled-budget/reference reviews仍需收receipt；唯一新selected route为J3 pure-E2 reference的高阶population nullspace。参数/模型条件、no microscopic realization和旧review flags保持；缺实际response/covariance/priors，不进入L4。
 
-运行监督：新 run_learning_session_clock.py 在 01:50 Asia/Shanghai 启动，初始pid 105112，加载Farmer取消控制后重启为pid 110255；实际 PID/心跳以本 run 的 clock-state.json 为准。它持有 daemon/runner 双锁，每两小时向同 session 排队 checkpoint，并于硬截止提醒收束；queue exit 0 只记 accepted/queued，后续 turn 另核执行，不以心跳计研究时长。Farmer pid 87927 在线，身份/实际状态以其 status 为准。计时脚本的35项目标回归通过，新增取消/人工处理停止及Farmer独占恢复控制；原先已queued两条事件去重保留；没有另行启动日 daemon。
+硬截止2026-10-08T15:00:00+08:00，15:00–16:00收束并生成正式DAY9。Clock PID110255/Farmer87927仍用既有进程；以clock-state和Farmer state核实际在线/取消，queued不等于executed。旧checkpoint-003已在10-07 17:41实执行，不沿用其06:19快照。当前07:47 fresh clock还有约433分钟。无用户停止记录，不新建session或从提醒重启daemon。
 
-继承 dirty system/scripts/run_daily_learning_daemon.py 仍保持原哈希，不纳入本轮 stage。Raw、PLAN 与课程 state 保留；新 baseline 保存 562 页知识哈希和 Git 初态。最近本地检查点稳定指针为branch main + subject Extend DAY8 cascade evidence and strength normalization；完整 final 及 state 推进留到 15:00 收束。已有四页阶段日报/report/writeback/card validators 通过；新增六页写回需再按原baseline验收，当前boundary、lint、diff exit0；final closeout 必须用同一 baseline 再验收，不能把早期通过当最终门。
+保护：raw、PLAN、受保护BibTeX、继承dirty daemon、旧run目录与全部review状态不变。独占数学receipt immutable，source_code/replay的input SHA不得因加metadata漂移。P0技术阻塞无；科学missing priors、branch定义/feeding/covariance和physical realization由Codex跟踪，不转成泛化用户待办。
 
-续研已整合30-check理想偏振与50-check布居/多极性反例，raw/source identity和review状态保留；旧queued checkpoint-001于07:18同session实际执行，不能用其02:19时间替代当前时钟。E0/ICC逆问题与零参考率边界已通过1311项精确检查闭合。Day9已进行无学分预习，MU08 Band2错行/漏行修正，B1 I18的757.4keV/0.56(8)ps/b0.24(2)条件性B=0.14034±0.02321，62项单位/分支检查通过。原表branch的photon/total/IC定义、shared covariance和stopping/feeding package未齐，不由quoted B反推α。新的Day8高信息路线是合成2+→2+四gamma成分与未知对齐布居的完整单γpolarization基底/Jacobian，使用现有RB source，仅L2。到 15:00 停新研究，完成日报/知识、runner card/writeback 验收与 Gitee 非 force 发布，再按 update_state_for_curriculum_cards 保存仅 Day8 学分、生成明日计划与 prompt。用户停止时停止计时进程并留 receipt，不让后台提示自动重启。处理旧clock排队消息时，先查run/clock取消记录；若记录了后来的真实用户停止，旧bot提醒不等于用户重新授权go-on，不恢复研究或clock。当前没有需用户裁决的技术 hard P0；未观测数据/响应/协方差边界由 Codex 继续追踪，不进入伪 L4。
+续接先读run.json/research-checkpoint/continuation-prompt并刷新clock。15:00停止新研究；用原baseline对用户明确日报路径调用run_checks，要求唯一[8]complete/[9]partial及五行audit，通过boundary/lint/diff和Gitee非force/H3后才以update_state_for_curriculum_cards原子保存next9/count8。prepare_next_prompt(get_paths(root),"2026-10-08",9)生成正式DAY9，并修旧模板越卡credit措辞；预习不计正式Day9 recall/evidence/audit。继承daemon含不兼容xhigh保持不改，当前不启动；结束前核下日调度与锁、授权model链。
 
-第二持续检查点已发布：branch main + subject Extend DAY8 observable bounds and uncredited DAY9 strength inputs，18-file manifest与Gitee HEAD:main/H3对账通过，hash只在run receipt。六页writeback与Day8卡有效，state仍8/7。Day9 source packet24-check已到，全26 Table I branches与10 Table II rows在MU08 source固化。Day8 exact-Jacobian rank4、fraction-changing IFT解族及fixed-population rank3已由parent43-check复现，完整R/T矩阵和calibration边界在RB67-13/mixing/method写回；Day9两母态四branch的gamma-only负例22-check完成，已到MU08-6和lifetime synthesis。当前两有界路线：Day8 fixed-positive anisotropic population下的exact global pair/kernel证书；Day9 official ANU BrIcc v2.3S独立总ICC查询/forward ledger，最多五能量，不从quoted B反解输入，不认定作者采用的具体IC处理。
-
-最新同session恢复点为2026-10-07 18:22 Asia/Shanghai，距硬截止1237分钟。C-global29、E0-totalICC/τ47和LKH82 model27项已parent复现并写回；LKH82-2已原图修正IBM magnitudes/PPQ signs，新8–11限定generator-only M1零值、同阶展开、投影/long-wave条件与δ绝对尺度。当前两项独立Day8续研是唯一合成2+→2+→0+ cascade companion与Eq4.1未知penetration的ICC排除边界，结果尚待parent验证；精确恢复以research-checkpoint.json为准。state8/7、partial9、无Day10；继续检查点发布与15:00最终收束尚未完成。
-
-本地检查点稳定指针：branch `main` + subject `Clarify model zeros and companion observable limits for DAY8`，17-file manifest仅含已核验增量；此为持续窗口内检查点，研究继续，课程状态未推进。
-
-最新整合 2026-10-07 21:30 Asia/Shanghai：第五17-file检查点已非force Gitee/H3发布；148-check cascade、56-check rank4→5和35-check penetration已parent复现写回RB67-17/18、LKH82-12、KB08-D8-4。16项model-claim审计no-op、review/raw/PLAN/state保留。当前两route为同五idealoutputs的unknown-population单个global branch有界反证，以及唯一Day9预习原五能量NH/FO敏感性；不加角点/卡/文献批次。state仍8/7，15:00最后收束/正式DAY9准备未完成。
-
-最新 2026-10-07 23:28 Asia/Shanghai：global27/independent58和ratio28已parent核验，NH5inputs离线replay0新requests，知识到RB67-19/20、KB08-D8-5/MU08-7。Global反例限unknownpopulation ideal-domain；boxed唯一不等于global唯一，未证明核素实现。当前selected为E4/E2长波/矩阵元hierarchy与Day9反向B/RME normalization；checkpoint06未发布，15:00final/state/DAY9planprompt未做。state8/7、partial9，noDay10。
-
-跨午夜 2026-10-08 00:13 Asia/Shanghai仍原Day8/run_date10-07，硬截止10-08 15:00不改。Hierarchy46与reverse190/247已parent复现写回LKH82-13/14、MU08-8；当前route为finite-bin probability/truncation误差界，另收hierarchy独立norm审计。七页知识updated日期10-08不重置run；checkpoint06待检查发布，state8/7、partial9、noDay10，final/DAY9planprompt未完成。
-
-本地检查点稳定指针：branch `main` + subject `Extend DAY8 cascade evidence and strength normalization`，26-file显式manifest纳入已verified scientific增量和checks；pending truncation95 proof与其review不在此batch，studywindow继续。
+Session：01a111fb-370d-7ed1-afe9-881ccc47caf4。Resume：codex resume 01a111fb-370d-7ed1-afe9-881ccc47caf4 -C /workspace/wiki -s danger-full-access -a never。用户已授权farmer/go-on/all/auto、subagents和Wiki范围正常commit/push；不可逆操作仍单独受限。
 
 ## Previous active handoff — DAY7 resumed window closed; Day8 pre-study uncredited
 

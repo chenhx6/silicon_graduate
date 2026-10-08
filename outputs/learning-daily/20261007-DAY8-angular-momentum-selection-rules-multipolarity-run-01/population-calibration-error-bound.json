@@ -1,0 +1,958 @@
+{
+  "schema_version": 1,
+  "created_at_utc": "2026-10-07T22:23:10.528742+00:00",
+  "artifact_kind": "bounded-Day8-L2-hypothetical-population-calibration-and-local-observable-error-refinement",
+  "status": "affine_reference_inverse_and_conditional_spectral_range_bounds",
+  "day_index": 8,
+  "run_closed": false,
+  "new_source_or_course_card": false,
+  "new_session_or_goal": false,
+  "experimental_data_fit": false,
+  "numerical_experiment": false,
+  "L4": false,
+  "evidence_class": "Our exact CG/reference inversion, affine covariance and mode-kernel order analysis. The profile is given benchmark input, not an independently measured population.",
+  "inputs": [
+    {
+      "path": "outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/finite-rank-density-bound.json",
+      "sha256": "2636cac3929b3b28bb5b29badf5bc9df7e74d7d16378db42cb726d0bbdfe8538"
+    },
+    {
+      "path": "outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/parity-duality-cascade.json",
+      "sha256": "2c5bf89474f88af122873d3f71bdabbf562408e514fa36207d5f60b4ecfceda3"
+    }
+  ],
+  "source": {
+    "page": "knowledge/sources/rose-brink-1967-phase-defined-angular-distributions.md",
+    "raw_path": "raw/papers/gpt/high-spin-20260920/multipolarity/mixing ratio/1967_Rose et al_Angular Distributions of Gamma Rays in Terms of Phase-Defined Reduced Matrix Elements.pdf",
+    "raw_sha256": "8f846b61b9320de291ee5600126c5e286a0fe05968df819696816f0dc1ec57dc",
+    "locators": [
+      "printed316/PDF11 Eq3.24 and WE ordering",
+      "printed317/PDF12 Eq3.28 initial population tensors",
+      "printed318/PDF13 Eq3.29 gamma normalization and triangle rules",
+      "printed319/PDF14 Eq3.36 response coefficients"
+    ],
+    "attribution": "Reference polynomial/inverse, covariance triangle and spectral error inequalities are our derivations from source premises."
+  },
+  "hypothetical_reference": {
+    "branch": "Same prepared Ji=2 parent -> independently anchored Jref=0, no actual branch added",
+    "spin_independence": "Pure photon L=2 follows from independent Ji/Jref spin anchors and triangle rules; fitting this profile cannot independently re-prove those anchors.",
+    "E_M_independence": "The unpolarized profile is identical for pureE2 orM2 in the same radiative normalization; parity and bare-RME scale are not obtained from this fit.",
+    "population_model": "rho=diag(p2/2,p1/2,p0,p1/2,p2/2),p2=1-p0-p1, along the same verified symmetry axis",
+    "CG_amplitude": "q^pi*sqrt5*CG(0,2,2;0,Mi,Mi)*d^2_(Mi,q)(theta); coherent source response, unobservedq sum",
+    "W_reference": "-25*cos_theta**4*p0/4 + 25*cos_theta**4*p1/4 - 5*cos_theta**4/4 + 15*cos_theta**2*p0/2 - 15*cos_theta**2*p1/4 - 5*p0/4 + 5/4",
+    "A2": "10*p0/7 + 15*p1/14 - 5/7",
+    "A4": "-10*p0/7 + 10*p1/7 - 2/7",
+    "B2": "-2*sqrt(70)*p0/7 - 3*sqrt(70)*p1/14 + sqrt(70)/7",
+    "B4": "5*sqrt(14)*p0/14 - 5*sqrt(14)*p1/14 + sqrt(14)/14",
+    "R2_pure_L2": "-sqrt(70)/14",
+    "R4_pure_L2": "-2*sqrt(14)/7",
+    "inverse_p0_p1_p2": [
+      "2*A2_ref/5 - 3*A4_ref/10 + 1/5",
+      "2*A2_ref/5 + 2*A4_ref/5 + 2/5",
+      "-4*A2_ref/5 - A4_ref/10 + 2/5"
+    ],
+    "simplex_triangle_inequalities": [
+      "4*A2-3*A4>=-2",
+      "A2+A4>=-1",
+      "8*A2+A4<=4"
+    ],
+    "strict_interior": "All three inequalities strict iff p0,p1,p2>0 in the stated symmetric-diagonal model",
+    "simplex_vertices": [
+      {
+        "population_vertex": "p0=1",
+        "A2": "5/7",
+        "A4": "-12/7"
+      },
+      {
+        "population_vertex": "p1=1",
+        "A2": "5/14",
+        "A4": "8/7"
+      },
+      {
+        "population_vertex": "p2=1",
+        "A2": "-5/7",
+        "A4": "-2/7"
+      }
+    ],
+    "Jacobian_p_from_A": [
+      [
+        "2/5",
+        "-3/10"
+      ],
+      [
+        "2/5",
+        "2/5"
+      ],
+      [
+        "-4/5",
+        "-1/10"
+      ]
+    ],
+    "Jacobian_A_from_p0_p1": [
+      [
+        "10/7",
+        "15/14"
+      ],
+      [
+        "-10/7",
+        "10/7"
+      ]
+    ]
+  },
+  "covariance": {
+    "coefficient_order": [
+      "A2",
+      "A4"
+    ],
+    "Sigma_A_symbolic": [
+      [
+        "var_A2",
+        "cov_A2_A4"
+      ],
+      [
+        "cov_A2_A4",
+        "var_A4"
+      ]
+    ],
+    "population_order": [
+      "p0",
+      "p1",
+      "p2"
+    ],
+    "Sigma_p_symbolic": [
+      [
+        "-6*cov_A2_A4/25 + 4*var_A2/25 + 9*var_A4/100",
+        "cov_A2_A4/25 + 4*var_A2/25 - 3*var_A4/25",
+        "cov_A2_A4/5 - 8*var_A2/25 + 3*var_A4/100"
+      ],
+      [
+        "cov_A2_A4/25 + 4*var_A2/25 - 3*var_A4/25",
+        "8*cov_A2_A4/25 + 4*var_A2/25 + 4*var_A4/25",
+        "-9*cov_A2_A4/25 - 8*var_A2/25 - var_A4/25"
+      ],
+      [
+        "cov_A2_A4/5 - 8*var_A2/25 + 3*var_A4/100",
+        "-9*cov_A2_A4/25 - 8*var_A2/25 - var_A4/25",
+        "4*cov_A2_A4/25 + 16*var_A2/25 + var_A4/100"
+      ]
+    ],
+    "substate_M_order": [
+      -2,
+      -1,
+      0,
+      1,
+      2
+    ],
+    "Sigma_w_symbolic": [
+      [
+        "cov_A2_A4/25 + 4*var_A2/25 + var_A4/400",
+        "-9*cov_A2_A4/100 - 2*var_A2/25 - var_A4/100",
+        "cov_A2_A4/10 - 4*var_A2/25 + 3*var_A4/200",
+        "-9*cov_A2_A4/100 - 2*var_A2/25 - var_A4/100",
+        "cov_A2_A4/25 + 4*var_A2/25 + var_A4/400"
+      ],
+      [
+        "-9*cov_A2_A4/100 - 2*var_A2/25 - var_A4/100",
+        "2*cov_A2_A4/25 + var_A2/25 + var_A4/25",
+        "cov_A2_A4/50 + 2*var_A2/25 - 3*var_A4/50",
+        "2*cov_A2_A4/25 + var_A2/25 + var_A4/25",
+        "-9*cov_A2_A4/100 - 2*var_A2/25 - var_A4/100"
+      ],
+      [
+        "cov_A2_A4/10 - 4*var_A2/25 + 3*var_A4/200",
+        "cov_A2_A4/50 + 2*var_A2/25 - 3*var_A4/50",
+        "-6*cov_A2_A4/25 + 4*var_A2/25 + 9*var_A4/100",
+        "cov_A2_A4/50 + 2*var_A2/25 - 3*var_A4/50",
+        "cov_A2_A4/10 - 4*var_A2/25 + 3*var_A4/200"
+      ],
+      [
+        "-9*cov_A2_A4/100 - 2*var_A2/25 - var_A4/100",
+        "2*cov_A2_A4/25 + var_A2/25 + var_A4/25",
+        "cov_A2_A4/50 + 2*var_A2/25 - 3*var_A4/50",
+        "2*cov_A2_A4/25 + var_A2/25 + var_A4/25",
+        "-9*cov_A2_A4/100 - 2*var_A2/25 - var_A4/100"
+      ],
+      [
+        "cov_A2_A4/25 + 4*var_A2/25 + var_A4/400",
+        "-9*cov_A2_A4/100 - 2*var_A2/25 - var_A4/100",
+        "cov_A2_A4/10 - 4*var_A2/25 + 3*var_A4/200",
+        "-9*cov_A2_A4/100 - 2*var_A2/25 - var_A4/100",
+        "cov_A2_A4/25 + 4*var_A2/25 + var_A4/400"
+      ]
+    ],
+    "law": "Sigma_p=Jp*Sigma_A*Jp^T. This is exact for any finite-covariance coefficient estimator transformed by the affine inverse; Gaussianity is not required.",
+    "normalization": "Sigma_p andSigma_w have the all-ones null direction; p2 is not an independent third population parameter.",
+    "nonlinear_boundaries": "Clipping/projection, nonlinear regularization or model change require propagation of the actual joint estimator distribution. A Gaussian prior is not an independent measurement.",
+    "spectral_floor_uncertainty": "Map a joint reference-fit region with statistical and response/gate/systematic uncertainty to the physical simplex. Use rmin_lower=inf_region min(p0,p1/2,p2/2) and rmax_upper=sup_region max(...). A relative bound needs rmin_lower>0. Covariance or a positive central value alone does not certify this floor."
+  },
+  "mode_kernel_theorem": {
+    "state_class": "A fixed transition has common normalized physical emission-mode vectoru=a/sqrt(S) and the same independent prepared initialspin densityrho. Its emitted state is the isometric image of |u><u| tensor rho.",
+    "conjugation": "Physical emission coefficients may be conjugates of RB initial-bra interaction coefficients. Use one consistent convention; |a|^2, pure-mode overlap and the spectral inequalities are unchanged.",
+    "G_definition": "G_rho(lambda,lambda_prime;n)=(1/2)sum_q Tr[rho*T_lambda,q(n)^dagger*T_lambdaprime,q(n)], with T initial->final physical emission operators",
+    "W_definition": "W(n)=u^dagger G_rho(n)u",
+    "positive_map": "For any positiveDelta_rho, u^dagger G_(Delta_rho)u=(1/2)sum_q Tr[Delta_rho*T_u,q^dagger*T_u,q]>=0. The linear maprho->G preserves positive order; a CP claim for that dual spin-to-mode map is not needed.",
+    "isotropic_CG_proof": "Spin tensor trace orthogonality gives sum_(Mi,Mf)CG_L(m)CG_Lprime(mprime)=(2Ji+1)/(2L+1)*delta_LLprime*delta_mmprime. Summing m with the unitary D columns gives the isotropic helicity mode kerneldelta_qqprime*I/2.",
+    "definite_parity_requirement": "One E/M type per allowedL makes the mode label unique; coherent same-L E/M parity mixing is outside the polarization scalar assertion.",
+    "isotropic_unpolarized": "G_(I/d)(n)=I for every direction",
+    "isotropic_polarization": "G_(P,I/d)(n)=Tr(P)*I/2 for every fixed0<=P<=I2 in the photon Jones space",
+    "spectral_order": "If independentlyrmin I<=rho<=rmax I, then d*rmin I<=G_rho(n)<=d*rmax I, uniformly in direction.",
+    "trace_zero_mode_bound": "Retained renormalization gives modepure states with overlap sqrt(1-epsilon_rate), D_mode=sqrt(epsilon_rate). Shift alphaI out of G because the mode-density difference has trace0: |DeltaW|<=d*(rmax-rmin)*sqrt(epsilon_rate).",
+    "positive_floor_and_relative": "W_retained>=d*rmin. Forrmin>0, |DeltaW|/W_retained<=((rmax-rmin)/rmin)*sqrt(epsilon_rate). This concerns normalized local intensity, not an amplitude/fit-parameter error.",
+    "rank1_positive_polar_components": "ForTrP=1, d*rmin*I/2<=G_P,rho<=d*rmax*I/2. Positivecomponent absolute error<=d*(rmax-rmin)*sqrt(epsilon)/2 and relativecomponent error has the samefactor(rmax-rmin)/rmin.",
+    "signed_Stokes": "Fororthogonalx/y components, signedN=Ix-Iy has |DeltaN|<=d*(rmax-rmin)*sqrt(epsilon). N or normalizedP=N/W can be0, so relativeN/P error has no uniform guarantee.",
+    "optional_absolute_P_floor_bound": "With the same W floor and |P_retained|<=1, |DeltaP|<=min(2,2*(rmax-rmin)/rmin*sqrt(epsilon)) follows by the ratio triangle inequality. It does not bound relativeP at P_retained=0.",
+    "not_arbitrary_emitted_density": "The fixed-u tensor same-rho state class is essential. An arbitrary mode/spin-correlated density on the full emitted subspace does not inherit this spectral-range refinement from a spin marginal alone.",
+    "not_different_rho": "A reference or target fit that changesrho between full/truncated hypotheses requires a separate population-uncertainty term; the present bound holds for commonrho.",
+    "epsilon_input": "epsilon_rate is the total omitted target photon-rate fraction. Reference calibration and selection rules alone do not supply that rate bound."
+  },
+  "benchmark": {
+    "given_not_measured": true,
+    "p0": "1/4",
+    "p1": "1/4",
+    "p2": "1/2",
+    "rho": [
+      [
+        "1/4",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "1/8",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "1/4",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0",
+        "1/8",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0",
+        "0",
+        "1/4"
+      ]
+    ],
+    "A2_reference": "-5/56",
+    "A4_reference": "-2/7",
+    "rmin": "1/8",
+    "rmax": "1/4",
+    "d": 5,
+    "unpolarized_floor_alpha": "5/8",
+    "unpolarized_ceiling_beta": "5/4",
+    "unpolarized_range_width": "5/8",
+    "absolute_W_error": "<= (5/8)*sqrt(epsilon_rate)",
+    "relative_W_error": "<= sqrt(epsilon_rate)",
+    "rank1_component_floor": "5/16",
+    "rank1_component_range_width": "5/16",
+    "matrices_and_exact_eigen_controls": {
+      "axis": {
+        "theta": "0",
+        "phi": "0",
+        "G_rho": [
+          [
+            "15/16",
+            "sqrt(105)/112",
+            "0",
+            "sqrt(70)/28"
+          ],
+          [
+            "sqrt(105)/112",
+            "15/16",
+            "sqrt(70)/28",
+            "0"
+          ],
+          [
+            "0",
+            "sqrt(70)/28",
+            "15/16",
+            "-sqrt(105)/112"
+          ],
+          [
+            "sqrt(70)/28",
+            "0",
+            "-sqrt(105)/112",
+            "15/16"
+          ]
+        ],
+        "eigenvalues": [
+          {
+            "value": "5/8",
+            "multiplicity": 2
+          },
+          {
+            "value": "5/4",
+            "multiplicity": 2
+          }
+        ],
+        "G_iso": [
+          [
+            "1",
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "1",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "1",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "0",
+            "1"
+          ]
+        ],
+        "lower_positive_Gram": [
+          [
+            "5/16",
+            "sqrt(105)/112",
+            "0",
+            "sqrt(70)/28"
+          ],
+          [
+            "sqrt(105)/112",
+            "5/16",
+            "sqrt(70)/28",
+            "0"
+          ],
+          [
+            "0",
+            "sqrt(70)/28",
+            "5/16",
+            "-sqrt(105)/112"
+          ],
+          [
+            "sqrt(70)/28",
+            "0",
+            "-sqrt(105)/112",
+            "5/16"
+          ]
+        ],
+        "upper_positive_Gram": [
+          [
+            "5/16",
+            "-sqrt(105)/112",
+            "0",
+            "-sqrt(70)/28"
+          ],
+          [
+            "-sqrt(105)/112",
+            "5/16",
+            "-sqrt(70)/28",
+            "0"
+          ],
+          [
+            "0",
+            "-sqrt(70)/28",
+            "5/16",
+            "sqrt(105)/112"
+          ],
+          [
+            "-sqrt(70)/28",
+            "0",
+            "sqrt(105)/112",
+            "5/16"
+          ]
+        ],
+        "rank1_polar_kernels": {
+          "x": [
+            [
+              "15/32",
+              "sqrt(105)/224",
+              "0",
+              "sqrt(70)/56"
+            ],
+            [
+              "sqrt(105)/224",
+              "15/32",
+              "sqrt(70)/56",
+              "0"
+            ],
+            [
+              "0",
+              "sqrt(70)/56",
+              "15/32",
+              "-sqrt(105)/224"
+            ],
+            [
+              "sqrt(70)/56",
+              "0",
+              "-sqrt(105)/224",
+              "15/32"
+            ]
+          ],
+          "y": [
+            [
+              "15/32",
+              "sqrt(105)/224",
+              "0",
+              "sqrt(70)/56"
+            ],
+            [
+              "sqrt(105)/224",
+              "15/32",
+              "sqrt(70)/56",
+              "0"
+            ],
+            [
+              "0",
+              "sqrt(70)/56",
+              "15/32",
+              "-sqrt(105)/224"
+            ],
+            [
+              "sqrt(70)/56",
+              "0",
+              "-sqrt(105)/224",
+              "15/32"
+            ]
+          ],
+          "circular_minus": [
+            [
+              "15/32",
+              "sqrt(105)/224",
+              "0",
+              "sqrt(70)/56"
+            ],
+            [
+              "sqrt(105)/224",
+              "15/32",
+              "sqrt(70)/56",
+              "0"
+            ],
+            [
+              "0",
+              "sqrt(70)/56",
+              "15/32",
+              "-sqrt(105)/224"
+            ],
+            [
+              "sqrt(70)/56",
+              "0",
+              "-sqrt(105)/224",
+              "15/32"
+            ]
+          ],
+          "circular_plus": [
+            [
+              "15/32",
+              "sqrt(105)/224",
+              "0",
+              "sqrt(70)/56"
+            ],
+            [
+              "sqrt(105)/224",
+              "15/32",
+              "sqrt(70)/56",
+              "0"
+            ],
+            [
+              "0",
+              "sqrt(70)/56",
+              "15/32",
+              "-sqrt(105)/224"
+            ],
+            [
+              "sqrt(70)/56",
+              "0",
+              "-sqrt(105)/224",
+              "15/32"
+            ]
+          ],
+          "phase_control": [
+            [
+              "15/32",
+              "sqrt(105)/224",
+              "0",
+              "sqrt(70)/56"
+            ],
+            [
+              "sqrt(105)/224",
+              "15/32",
+              "sqrt(70)/56",
+              "0"
+            ],
+            [
+              "0",
+              "sqrt(70)/56",
+              "15/32",
+              "-sqrt(105)/224"
+            ],
+            [
+              "sqrt(70)/56",
+              "0",
+              "-sqrt(105)/224",
+              "15/32"
+            ]
+          ]
+        }
+      },
+      "rotated_once": {
+        "theta": "pi/3",
+        "phi": "0",
+        "G_rho": [
+          [
+            "129/128",
+            "-sqrt(105)/896",
+            "3*sqrt(6)/512",
+            "-37*sqrt(70)/3584"
+          ],
+          [
+            "-sqrt(105)/896",
+            "915/896",
+            "-31*sqrt(70)/3584",
+            "15*sqrt(6)/3584"
+          ],
+          [
+            "3*sqrt(6)/512",
+            "-31*sqrt(70)/3584",
+            "519/512",
+            "13*sqrt(105)/3584"
+          ],
+          [
+            "-37*sqrt(70)/3584",
+            "15*sqrt(6)/3584",
+            "13*sqrt(105)/3584",
+            "3585/3584"
+          ]
+        ],
+        "eigenvalues": [
+          {
+            "value": "115/128",
+            "multiplicity": 1
+          },
+          {
+            "value": "245/256",
+            "multiplicity": 1
+          },
+          {
+            "value": "35/32",
+            "multiplicity": 2
+          }
+        ],
+        "G_iso": [
+          [
+            "1",
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "1",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "1",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "0",
+            "1"
+          ]
+        ],
+        "lower_positive_Gram": [
+          [
+            "49/128",
+            "-sqrt(105)/896",
+            "3*sqrt(6)/512",
+            "-37*sqrt(70)/3584"
+          ],
+          [
+            "-sqrt(105)/896",
+            "355/896",
+            "-31*sqrt(70)/3584",
+            "15*sqrt(6)/3584"
+          ],
+          [
+            "3*sqrt(6)/512",
+            "-31*sqrt(70)/3584",
+            "199/512",
+            "13*sqrt(105)/3584"
+          ],
+          [
+            "-37*sqrt(70)/3584",
+            "15*sqrt(6)/3584",
+            "13*sqrt(105)/3584",
+            "1345/3584"
+          ]
+        ],
+        "upper_positive_Gram": [
+          [
+            "31/128",
+            "sqrt(105)/896",
+            "-3*sqrt(6)/512",
+            "37*sqrt(70)/3584"
+          ],
+          [
+            "sqrt(105)/896",
+            "205/896",
+            "31*sqrt(70)/3584",
+            "-15*sqrt(6)/3584"
+          ],
+          [
+            "-3*sqrt(6)/512",
+            "31*sqrt(70)/3584",
+            "121/512",
+            "-13*sqrt(105)/3584"
+          ],
+          [
+            "37*sqrt(70)/3584",
+            "-15*sqrt(6)/3584",
+            "-13*sqrt(105)/3584",
+            "895/3584"
+          ]
+        ],
+        "rank1_polar_kernels": {
+          "x": [
+            [
+              "15/32",
+              "-sqrt(105)/448",
+              "0",
+              "-sqrt(70)/112"
+            ],
+            [
+              "-sqrt(105)/448",
+              "15/28",
+              "-sqrt(70)/1792",
+              "-15*sqrt(6)/1792"
+            ],
+            [
+              "0",
+              "-sqrt(70)/1792",
+              "555/1024",
+              "sqrt(105)/7168"
+            ],
+            [
+              "-sqrt(70)/112",
+              "-15*sqrt(6)/1792",
+              "sqrt(105)/7168",
+              "3405/7168"
+            ]
+          ],
+          "y": [
+            [
+              "69/128",
+              "sqrt(105)/896",
+              "3*sqrt(6)/512",
+              "-5*sqrt(70)/3584"
+            ],
+            [
+              "sqrt(105)/896",
+              "435/896",
+              "-29*sqrt(70)/3584",
+              "45*sqrt(6)/3584"
+            ],
+            [
+              "3*sqrt(6)/512",
+              "-29*sqrt(70)/3584",
+              "483/1024",
+              "25*sqrt(105)/7168"
+            ],
+            [
+              "-5*sqrt(70)/3584",
+              "45*sqrt(6)/3584",
+              "25*sqrt(105)/7168",
+              "3765/7168"
+            ]
+          ],
+          "circular_minus": [
+            [
+              "129/256",
+              "-sqrt(105)/1792",
+              "3*sqrt(6)/1024",
+              "-37*sqrt(70)/7168"
+            ],
+            [
+              "-sqrt(105)/1792",
+              "915/1792",
+              "-31*sqrt(70)/7168",
+              "15*sqrt(6)/7168"
+            ],
+            [
+              "3*sqrt(6)/1024",
+              "-31*sqrt(70)/7168",
+              "519/1024",
+              "13*sqrt(105)/7168"
+            ],
+            [
+              "-37*sqrt(70)/7168",
+              "15*sqrt(6)/7168",
+              "13*sqrt(105)/7168",
+              "3585/7168"
+            ]
+          ],
+          "circular_plus": [
+            [
+              "129/256",
+              "-sqrt(105)/1792",
+              "3*sqrt(6)/1024",
+              "-37*sqrt(70)/7168"
+            ],
+            [
+              "-sqrt(105)/1792",
+              "915/1792",
+              "-31*sqrt(70)/7168",
+              "15*sqrt(6)/7168"
+            ],
+            [
+              "3*sqrt(6)/1024",
+              "-31*sqrt(70)/7168",
+              "519/1024",
+              "13*sqrt(105)/7168"
+            ],
+            [
+              "-37*sqrt(70)/7168",
+              "15*sqrt(6)/7168",
+              "13*sqrt(105)/7168",
+              "3585/7168"
+            ]
+          ],
+          "phase_control": [
+            [
+              "129/256",
+              "-sqrt(105)/1792",
+              "3*sqrt(6)/1024",
+              "-37*sqrt(70)/7168"
+            ],
+            [
+              "-sqrt(105)/1792",
+              "915/1792",
+              "-31*sqrt(70)/7168",
+              "15*sqrt(6)/7168"
+            ],
+            [
+              "3*sqrt(6)/1024",
+              "-31*sqrt(70)/7168",
+              "519/1024",
+              "13*sqrt(105)/7168"
+            ],
+            [
+              "-37*sqrt(70)/7168",
+              "15*sqrt(6)/7168",
+              "13*sqrt(105)/7168",
+              "3585/7168"
+            ]
+          ]
+        },
+        "rotated_initial_density": [
+          [
+            "49/256",
+            "sqrt(3)/128",
+            "3*sqrt(6)/256",
+            "3*sqrt(3)/128",
+            "9/256"
+          ],
+          [
+            "sqrt(3)/128",
+            "7/32",
+            "3*sqrt(2)/128",
+            "0",
+            "-3*sqrt(3)/128"
+          ],
+          [
+            "3*sqrt(6)/256",
+            "3*sqrt(2)/128",
+            "23/128",
+            "-3*sqrt(2)/128",
+            "3*sqrt(6)/256"
+          ],
+          [
+            "3*sqrt(3)/128",
+            "0",
+            "-3*sqrt(2)/128",
+            "7/32",
+            "-sqrt(3)/128"
+          ],
+          [
+            "9/256",
+            "-3*sqrt(3)/128",
+            "3*sqrt(6)/256",
+            "-sqrt(3)/128",
+            "49/256"
+          ]
+        ],
+        "covariance": "G_rho(theta)=G_(D_Ji(theta)^dagger*rho*D_Ji(theta))(z)"
+      }
+    },
+    "sharpness_boundary": "The actual axis kernel attains the spectral endpoints. No global sharpness of every error constant, every retained subset or every response is asserted."
+  },
+  "experimental_independence": {
+    "required_same_selection": [
+      "same prepared parent level and upstream event gate",
+      "same feeding inventory and symmetry axis",
+      "same time window/deorientation population treatment",
+      "independently calibrated relative efficiency/angular response including polarization sensitivity"
+    ],
+    "different_gates": "Different downstream directional/polarization gates can select different effective populations or change the observable to a full cascade response. Do not transplant the reference rho or the local G_iso=I rule into that observable without an explicit matching calculation.",
+    "symmetry_validation": "The reference inverse assumes diagonal, axially symmetric AND unoriented w(+M)=w(-M). Axial symmetry alone does not impose that reflection equality. An unpolarized reference curve constrains its even population tensors and cannot by itself exclude hidden orientation/coherences or certify a full-density eigenvalue floor.",
+    "spin_anchor_no_circularity": "Spin and gate/multipolarity anchors must be independent of the same coefficient fit. Target multipole assumptions must not be reused to manufacture a reference population constraint.",
+    "energy_response": "The reference branch may have a different photon energy/absolute strength; only its normalized geometric profile is transferred to the same prepared population. Response calibration must cover the separate branches independently.",
+    "uncertainty_and_shared_covariance": "Referencefit covariance, shared event/exposure and calibration nuisance correlations with the target must be retained. An arbitrary Gaussian modelprior or the present benchmark is not an independent measuredrho.",
+    "isotropic_scope": "rmax=rmin=1/d makes all normalized single-photon localW and polarization blind to mode amplitudes. It does not erase whole-radiation/cascade information; the old99 first-linear-tag plus secondarydirection contrast persists.",
+    "old99_counter_information": {
+      "receipt": "outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/parity-duality-cascade.json",
+      "primary_local_H": "I2/2",
+      "primary_conditional_P_given_secondary_direction": [
+        "3/17",
+        "-3/17"
+      ]
+    },
+    "boundary_rmin_zero": "If the calibrated allowed region reachesrmin=0, no uniform relativeW/component floor follows; the old node/postselection caveats remain.",
+    "not_proved": [
+      "an actually measured reference branch/population",
+      "spectral confidence coverage from unspecified covariance",
+      "relative signed polarization precision",
+      "delta or other inferred-parameter errors",
+      "global amplitude uniqueness",
+      "a cascade-specific refinement from this single-photon kernel",
+      "finite-count separability"
+    ]
+  },
+  "checks": {
+    "results": {
+      "finite-rank-density-bound_hash_before": true,
+      "parity-duality-cascade_hash_before": true,
+      "raw_hash_before": true,
+      "unpolarized_reference_E2_M2_same": true,
+      "reference_normalized_full_solid_angle": true,
+      "reference_even_degree4": true,
+      "reference_W_legendre_reconstruction": true,
+      "A2_candidate_verified": true,
+      "A4_candidate_verified": true,
+      "reference_B2_R2_source_crosscheck": true,
+      "reference_B4_R4_source_crosscheck": true,
+      "assumed_unoriented_population_odd_B_zero": true,
+      "all_three_inverse_candidates_verified": true,
+      "inverse_sum_population_one": true,
+      "population_affine_Jacobian_exact": true,
+      "two_coordinate_forward_inverse_Jacobians": true,
+      "forward_Jacobian_nonzero_det": true,
+      "simplex_vertex_roundtrip_p0=1": true,
+      "simplex_vertex_roundtrip_p1=1": true,
+      "simplex_vertex_roundtrip_p2=1": true,
+      "population_covariance_normalization_null_vector": true,
+      "magnetic_substate_covariance_normalization_null_vector": true,
+      "benchmark_A2_minus5over56": true,
+      "benchmark_A4_minus2over7": true,
+      "benchmark_inverse_recovers_profile": true,
+      "benchmark_spectral_endpoints": true,
+      "benchmark_floor_and_width_5over8": true,
+      "benchmark_relative_W_bound_factor_one": true,
+      "axis_G_unpolarized_isotropic_identity": true,
+      "axis_isotropic_helicity_kernel_-1_-1": true,
+      "axis_isotropic_helicity_kernel_-1_1": true,
+      "axis_isotropic_helicity_kernel_1_-1": true,
+      "axis_isotropic_helicity_kernel_1_1": true,
+      "axis_unpolarized_lower_Gram_certificate": true,
+      "axis_unpolarized_upper_Gram_certificate": true,
+      "axis_spin_spectral_Gram_weights_positive": true,
+      "axis_x_Jones_norm_one": true,
+      "axis_x_isotropic_rank1_pol_half_identity": true,
+      "axis_x_pol_lower_Gram": true,
+      "axis_x_pol_upper_Gram": true,
+      "axis_y_Jones_norm_one": true,
+      "axis_y_isotropic_rank1_pol_half_identity": true,
+      "axis_y_pol_lower_Gram": true,
+      "axis_y_pol_upper_Gram": true,
+      "axis_circular_minus_Jones_norm_one": true,
+      "axis_circular_minus_isotropic_rank1_pol_half_identity": true,
+      "axis_circular_minus_pol_lower_Gram": true,
+      "axis_circular_minus_pol_upper_Gram": true,
+      "axis_circular_plus_Jones_norm_one": true,
+      "axis_circular_plus_isotropic_rank1_pol_half_identity": true,
+      "axis_circular_plus_pol_lower_Gram": true,
+      "axis_circular_plus_pol_upper_Gram": true,
+      "axis_phase_control_Jones_norm_one": true,
+      "axis_phase_control_isotropic_rank1_pol_half_identity": true,
+      "axis_phase_control_pol_lower_Gram": true,
+      "axis_phase_control_pol_upper_Gram": true,
+      "axis_positive_linear_components_sum_to_unpolarized": true,
+      "axis_exact_mode_eigen_spectrum": true,
+      "rotated_once_G_unpolarized_isotropic_identity": true,
+      "rotated_once_isotropic_helicity_kernel_-1_-1": true,
+      "rotated_once_isotropic_helicity_kernel_-1_1": true,
+      "rotated_once_isotropic_helicity_kernel_1_-1": true,
+      "rotated_once_isotropic_helicity_kernel_1_1": true,
+      "rotated_once_unpolarized_lower_Gram_certificate": true,
+      "rotated_once_unpolarized_upper_Gram_certificate": true,
+      "rotated_once_spin_spectral_Gram_weights_positive": true,
+      "rotated_once_x_Jones_norm_one": true,
+      "rotated_once_x_isotropic_rank1_pol_half_identity": true,
+      "rotated_once_x_pol_lower_Gram": true,
+      "rotated_once_x_pol_upper_Gram": true,
+      "rotated_once_y_Jones_norm_one": true,
+      "rotated_once_y_isotropic_rank1_pol_half_identity": true,
+      "rotated_once_y_pol_lower_Gram": true,
+      "rotated_once_y_pol_upper_Gram": true,
+      "rotated_once_circular_minus_Jones_norm_one": true,
+      "rotated_once_circular_minus_isotropic_rank1_pol_half_identity": true,
+      "rotated_once_circular_minus_pol_lower_Gram": true,
+      "rotated_once_circular_minus_pol_upper_Gram": true,
+      "rotated_once_circular_plus_Jones_norm_one": true,
+      "rotated_once_circular_plus_isotropic_rank1_pol_half_identity": true,
+      "rotated_once_circular_plus_pol_lower_Gram": true,
+      "rotated_once_circular_plus_pol_upper_Gram": true,
+      "rotated_once_phase_control_Jones_norm_one": true,
+      "rotated_once_phase_control_isotropic_rank1_pol_half_identity": true,
+      "rotated_once_phase_control_pol_lower_Gram": true,
+      "rotated_once_phase_control_pol_upper_Gram": true,
+      "rotated_once_positive_linear_components_sum_to_unpolarized": true,
+      "one_direction_spin_rotation_unitary": true,
+      "one_direction_mode_kernel_covariance": true,
+      "pure_mode_trace_distance_sector_square": true,
+      "pure_mode_difference_trace_zero": true,
+      "old99_isotropic_single_photon_blind": true,
+      "old99_isotropic_cascade_information_retained": true,
+      "finite-rank-density-bound_bytes_unchanged_after": true,
+      "parity-duality-cascade_bytes_unchanged_after": true,
+      "raw_hash_after": true
+    },
+    "passed": 96,
+    "failures": 0,
+    "elapsed_seconds": 4.35027567401994
+  },
+  "changed_paths": [
+    "tmp/day8-20261007/rose-brink/population-calibration-error-bound/population_calibration_error_bound.py",
+    "outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/population-calibration-error-bound.json"
+  ],
+  "reproducibility": {
+    "script_path": "tmp/day8-20261007/rose-brink/population-calibration-error-bound/population_calibration_error_bound.py",
+    "script_sha256": "37e33b00dbb5b16c61067301375f2b41b214bb2be1103d48d9216ce6e9450dfb",
+    "source_code": "#!/usr/bin/env python3\n\"\"\"Day8 L2: hypothetical independent population calibration and conditional error bounds.\nNo measured reference is invented. Only the given p0=p1=1/4 benchmark is used.\nDefault checks only; --write-receipt exclusively creates one owned JSON.\n\"\"\"\nfrom __future__ import annotations\nimport argparse\nfrom datetime import datetime, timezone\nimport hashlib\nimport json\nfrom pathlib import Path\nimport platform\nimport sys\nimport time\nsys.dont_write_bytecode=True\nROOT=Path(__file__).resolve().parents[4]\nDEPS=ROOT/'tmp/day8-20261007/rose-brink/python-deps'\nsys.path.insert(0,str(DEPS))\nimport sympy as sp\nfrom sympy.physics.wigner import clebsch_gordan, racah, wigner_d_small\n\nRUN=ROOT/'outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01'\nOUT=RUN/'population-calibration-error-bound.json'\nINPUT_HASHES={\n    RUN/'finite-rank-density-bound.json':'2636cac3929b3b28bb5b29badf5bc9df7e74d7d16378db42cb726d0bbdfe8538',\n    RUN/'parity-duality-cascade.json':'2c5bf89474f88af122873d3f71bdabbf562408e514fa36207d5f60b4ecfceda3',\n}\nRAW=ROOT/'raw/papers/gpt/high-spin-20260920/multipolarity/mixing ratio/1967_Rose et al_Angular Distributions of Gamma Rays in Terms of Phase-Defined Reduced Matrix Elements.pdf'\nRAW_SHA='8f846b61b9320de291ee5600126c5e286a0fe05968df819696816f0dc1ec57dc'\nM,Q=tuple(range(-2,3)),(-1,1)\nMODES=((1,1),(2,0),(3,1),(4,0))\nX,Y=sp.symbols('cos_theta sin_theta',real=True)\np0,p1=sp.symbols('p0 p1',real=True)\np2=1-p0-p1\nWEIGHTS=(p2/2,p1/2,p0,p1/2,p2/2)\nA2,A4=sp.symbols('A2_ref A4_ref',real=True)\n\ndef ex(v):return sp.expand(v)\ndef mx(v):return v.applyfunc(ex)\ndef txt(v):return sp.sstr(v)\ndef sm(v):return [[txt(v[i,j]) for j in range(v.cols)] for i in range(v.rows)]\n\ndef dxy(L):\n    th=sp.symbols('template_theta',real=True)\n    hs,hc=sp.symbols('half_s half_c',real=True)\n    def convert(entry):\n        out=0\n        for (ps,pc),co in sp.Poly(ex(entry.xreplace({sp.sin(th/2):hs,sp.cos(th/2):hc})),hs,hc).terms():\n            if ps%2!=pc%2:raise AssertionError('half-angle parity')\n            out+=co*((1-X)/2)**(ps//2)*((1+X)/2)**(pc//2)*(Y/2 if ps%2 else 1)\n        return ex(out)\n    return wigner_d_small(L,-th).applyfunc(convert)\n\ndef sphere(expr):\n    return ex(sum(co*Y**(power[0]%2)*(1-X**2)**(power[0]//2) for power,co in sp.Poly(ex(expr),Y).terms()))\n\ndef ref_W(pi):\n    d=dxy(2)\n    return sphere(sum(WEIGHTS[i]*(sp.Integer(q)**pi*sp.sqrt(5)*clebsch_gordan(0,2,2,0,m,m)*d[2-m,2-q])**2/2\n                      for i,m in enumerate(M) for q in Q))\n\ndef B(K):\n    return ex(sum(WEIGHTS[i]*sp.Integer(-1)**(2-m)*sp.sqrt(5)*clebsch_gordan(2,2,K,m,-m,0) for i,m in enumerate(M)))\n\ndef R(K):\n    # Source Eq3.36, Ji2 -> Jf0, L=Lprime2.\n    return sp.simplify(sp.Integer(-1)**(3-K)*sp.sqrt(5*5*5)\n                       *clebsch_gordan(2,2,K,1,-1,0)*racah(2,2,2,2,K,0))\n\ndef emission(theta):\n    ds={L:mx(wigner_d_small(L,-theta)) for L,_ in MODES}\n    out={}\n    for L,pi in MODES:\n        source= {q:sp.Matrix(5,5,lambda i,f:ex(sp.Integer(q)**pi*sp.sqrt(2*L+1)\n                            *clebsch_gordan(2,L,2,M[f],M[i]-M[f],M[i])\n                            *ds[L][L-(M[i]-M[f]),L-q]) if abs(M[i]-M[f])<=L else 0) for q in Q}\n        # Physical emission map initial->final. These meridian basis amplitudes\n        # are real; consistent conjugation of RB initial-bra coefficients does\n        # not change norms, spectra or the mode trace-distance statement.\n        for q in Q:out[L,q]=source[q].H\n    return out\n\ndef kernel(T,rho,jones=None):\n    ops={L:[T[L,q] for q in Q] if jones is None else\n           [sum((sp.conjugate(jones[i])*T[L,Q[i]] for i in range(2)),sp.zeros(5))] for L,_ in MODES}\n    return sp.Matrix(4,4,lambda i,j:ex(sum(sp.trace(rho*left.H*right) for left,right in zip(ops[MODES[i][0]],ops[MODES[j][0]]))/2))\n\ndef helicity_kernel(T,rho,q,qp):\n    return sp.Matrix(4,4,lambda i,j:ex(sp.trace(rho*T[MODES[i][0],q].H*T[MODES[j][0],qp])/2))\n\ndef eigen_record(G):\n    return [{'value':txt(sp.simplify(v)),'multiplicity':n} for v,n in sorted(G.eigenvals().items(),key=lambda item:sp.N(item[0]))]\n\ndef result():\n    started=time.monotonic(); checks={}\n    def check(name,ok):\n        checks[name]=bool(ok)\n        if not checks[name]:raise AssertionError(name)\n    old={p:p.read_bytes() for p in INPUT_HASHES}\n    for p,sha in INPUT_HASHES.items():check(p.stem+'_hash_before',hashlib.sha256(old[p]).hexdigest()==sha)\n    check('raw_hash_before',hashlib.sha256(RAW.read_bytes()).hexdigest()==RAW_SHA)\n    prior99=json.loads(old[RUN/'parity-duality-cascade.json'])\n    W=ref_W(0)\n    check('unpolarized_reference_E2_M2_same',W==ref_W(1))\n    check('reference_normalized_full_solid_angle',sp.simplify(sp.integrate(W,(X,-1,1))/2)==1)\n    check('reference_even_degree4',sp.degree(W,X)==4 and ex(W-W.xreplace({X:-X}))==0)\n    derived_A4=sp.simplify(W.coeff(X,4)*sp.Rational(8,35))\n    derived_A2=sp.simplify(sp.Rational(2,3)*(W.coeff(X,2)+sp.Rational(15,4)*derived_A4))\n    check('reference_W_legendre_reconstruction',ex(W-1-derived_A2*sp.legendre(2,X)-derived_A4*sp.legendre(4,X))==0)\n    check('A2_candidate_verified',sp.simplify(derived_A2-5*(4*p0+3*p1-2)/14)==0)\n    check('A4_candidate_verified',sp.simplify(derived_A4+2*(5*p0-5*p1+1)/7)==0)\n    for K,A in ((2,derived_A2),(4,derived_A4)):\n        check(f'reference_B{K}_R{K}_source_crosscheck',sp.simplify(A-B(K)*R(K))==0)\n    check('assumed_unoriented_population_odd_B_zero',B(1)==B(3)==0)\n    inv=sp.Matrix([sp.Rational(1,5)+2*A2/5-3*A4/10,\n                   sp.Rational(2,5)+2*(A2+A4)/5,\n                   sp.Rational(2,5)-4*A2/5-A4/10])\n    check('all_three_inverse_candidates_verified',mx(inv.subs({A2:derived_A2,A4:derived_A4})-sp.Matrix([p0,p1,p2]))==sp.zeros(3,1))\n    check('inverse_sum_population_one',sp.simplify(sum(inv))==1)\n    J=inv.jacobian((A2,A4))\n    forward=sp.Matrix([derived_A2,derived_A4]).jacobian((p0,p1))\n    check('population_affine_Jacobian_exact',J==sp.Matrix([[sp.Rational(2,5),-sp.Rational(3,10)],\n                                                        [sp.Rational(2,5),sp.Rational(2,5)],\n                                                        [-sp.Rational(4,5),-sp.Rational(1,10)]]))\n    check('two_coordinate_forward_inverse_Jacobians',mx(J[:2,:]*forward)==sp.eye(2))\n    check('forward_Jacobian_nonzero_det',forward.det()==sp.Rational(25,7))\n    vertices=[]\n    for pp,lab in [({p0:1,p1:0},'p0=1'),({p0:0,p1:1},'p1=1'),({p0:0,p1:0},'p2=1')]:\n        vals=(sp.simplify(derived_A2.subs(pp)),sp.simplify(derived_A4.subs(pp)))\n        check('simplex_vertex_roundtrip_'+lab,mx(inv.subs({A2:vals[0],A4:vals[1]}))==sp.Matrix([pp[p0],pp[p1],1-pp[p0]-pp[p1]]))\n        vertices.append({'population_vertex':lab,'A2':txt(vals[0]),'A4':txt(vals[1])})\n    v22,c24,v44=sp.symbols('var_A2 cov_A2_A4 var_A4',real=True)\n    SigmaA=sp.Matrix([[v22,c24],[c24,v44]])\n    SigmaP=mx(J*SigmaA*J.T)\n    check('population_covariance_normalization_null_vector',SigmaP*sp.ones(3,1)==sp.zeros(3,1))\n    Jw=sp.Matrix([[0,0,sp.Rational(1,2)],[0,sp.Rational(1,2),0],[1,0,0],\n                  [0,sp.Rational(1,2),0],[0,0,sp.Rational(1,2)]])\n    SigmaW=mx(Jw*SigmaP*Jw.T)\n    check('magnetic_substate_covariance_normalization_null_vector',SigmaW*sp.ones(5,1)==sp.zeros(5,1))\n    point={p0:sp.Rational(1,4),p1:sp.Rational(1,4)}\n    weights=tuple(w.subs(point) for w in WEIGHTS)\n    rho=sp.diag(*weights); d=5\n    rmin,rmax=min(weights),max(weights)\n    alpha,beta=d*rmin,d*rmax\n    width=beta-alpha\n    check('benchmark_A2_minus5over56',derived_A2.subs(point)==-sp.Rational(5,56))\n    check('benchmark_A4_minus2over7',derived_A4.subs(point)==-sp.Rational(2,7))\n    check('benchmark_inverse_recovers_profile',mx(inv.subs({A2:-sp.Rational(5,56),A4:-sp.Rational(2,7)}))==sp.Matrix([sp.Rational(1,4),sp.Rational(1,4),sp.Rational(1,2)]))\n    check('benchmark_spectral_endpoints',rmin==sp.Rational(1,8) and rmax==sp.Rational(1,4))\n    check('benchmark_floor_and_width_5over8',alpha==width==sp.Rational(5,8) and beta==sp.Rational(5,4))\n    check('benchmark_relative_W_bound_factor_one',sp.simplify(width/alpha)==1)\n    jones={'x':sp.Matrix([1,-1])/sp.sqrt(2),'y':sp.Matrix([1,1])/sp.sqrt(2),\n           'circular_minus':sp.Matrix([1,0]),'circular_plus':sp.Matrix([0,1]),\n           'phase_control':sp.Matrix([1,sp.I])/sp.sqrt(2)}\n    matrices={}\n    for label,theta in [('axis',sp.Integer(0)),('rotated_once',sp.pi/3)]:\n        T=emission(theta); iso=sp.eye(5)/5\n        Gi=kernel(T,iso); G=kernel(T,rho)\n        check(label+'_G_unpolarized_isotropic_identity',Gi==sp.eye(4))\n        for q in Q:\n            for qp in Q:\n                expected=sp.eye(4)/2 if q==qp else sp.zeros(4)\n                check(f'{label}_isotropic_helicity_kernel_{q}_{qp}',helicity_kernel(T,iso,q,qp)==expected)\n        lower=kernel(T,rho-rmin*sp.eye(5))\n        upper=kernel(T,rmax*sp.eye(5)-rho)\n        check(label+'_unpolarized_lower_Gram_certificate',mx(G-alpha*sp.eye(4)-lower)==sp.zeros(4))\n        check(label+'_unpolarized_upper_Gram_certificate',mx(beta*sp.eye(4)-G-upper)==sp.zeros(4))\n        check(label+'_spin_spectral_Gram_weights_positive',all(w-rmin>=0 and rmax-w>=0 for w in weights))\n        polar={}\n        for name,j in jones.items():\n            check(label+'_'+name+'_Jones_norm_one',(j.H*j)[0]==1)\n            GPi=kernel(T,iso,j); GP=kernel(T,rho,j)\n            check(label+'_'+name+'_isotropic_rank1_pol_half_identity',GPi==sp.eye(4)/2)\n            check(label+'_'+name+'_pol_lower_Gram',mx(GP-alpha*sp.eye(4)/2-kernel(T,rho-rmin*sp.eye(5),j))==sp.zeros(4))\n            check(label+'_'+name+'_pol_upper_Gram',mx(beta*sp.eye(4)/2-GP-kernel(T,rmax*sp.eye(5)-rho,j))==sp.zeros(4))\n            polar[name]=sm(GP)\n        check(label+'_positive_linear_components_sum_to_unpolarized',mx(sp.Matrix([[sp.sympify(v) for v in row] for row in polar['x']])\n                    +sp.Matrix([[sp.sympify(v) for v in row] for row in polar['y']])-G)==sp.zeros(4))\n        matrices[label]={'theta':txt(theta),'phi':'0','G_rho':sm(G),'eigenvalues':eigen_record(G),\n                         'G_iso':sm(Gi),'lower_positive_Gram':sm(lower),'upper_positive_Gram':sm(upper),\n                         'rank1_polar_kernels':polar}\n        if label=='axis':\n            check('axis_exact_mode_eigen_spectrum',sp.factor(G.charpoly().as_expr())==sp.factor((G.charpoly().gen-sp.Rational(5,8))**2*(G.charpoly().gen-sp.Rational(5,4))**2))\n            Gaxis=G\n        else:\n            DD=mx(wigner_d_small(2,-theta))\n            Dasc=sp.Matrix(5,5,lambda i,j:DD[2-M[i],2-M[j]])\n            rotated_rho=mx(Dasc.H*rho*Dasc)\n            check('one_direction_spin_rotation_unitary',mx(Dasc.H*Dasc)==sp.eye(5))\n            check('one_direction_mode_kernel_covariance',G==kernel(emission(0),rotated_rho))\n            matrices[label]['rotated_initial_density']=sm(rotated_rho)\n            matrices[label]['covariance']='G_rho(theta)=G_(D_Ji(theta)^dagger*rho*D_Ji(theta))(z)'\n    er,tr=sp.symbols('epsilon_rate sector_coherence',positive=True)\n    K=sp.Matrix([[-er,tr],[tr,er]])\n    check('pure_mode_trace_distance_sector_square',mx(K*K).subs(tr**2,er*(1-er)).applyfunc(sp.simplify)==er*sp.eye(2))\n    check('pure_mode_difference_trace_zero',sp.trace(K)==0)\n    check('old99_isotropic_single_photon_blind',prior99['exact_cases']['pure_L1']['primary_H_standalone_same']==[['1/2','0'],['0','1/2']])\n    check('old99_isotropic_cascade_information_retained',prior99['exact_cases']['pure_L1']['primary_linear_tags']['first_M_types_initial_plus']['normalized_primary_P_given_secondary_direction']=='3/17'\n          and prior99['exact_cases']['pure_L1']['primary_linear_tags']['first_dual_E_types_initial_minus']['normalized_primary_P_given_secondary_direction']=='-3/17')\n    for p,before in old.items():check(p.stem+'_bytes_unchanged_after',p.read_bytes()==before)\n    check('raw_hash_after',hashlib.sha256(RAW.read_bytes()).hexdigest()==RAW_SHA)\n    code=Path(__file__).read_bytes()\n    return {\n        'schema_version':1,'created_at_utc':datetime.now(timezone.utc).isoformat(),\n        'artifact_kind':'bounded-Day8-L2-hypothetical-population-calibration-and-local-observable-error-refinement',\n        'status':'affine_reference_inverse_and_conditional_spectral_range_bounds',\n        'day_index':8,'run_closed':False,'new_source_or_course_card':False,'new_session_or_goal':False,\n        'experimental_data_fit':False,'numerical_experiment':False,'L4':False,\n        'evidence_class':'Our exact CG/reference inversion, affine covariance and mode-kernel order analysis. The profile is given benchmark input, not an independently measured population.',\n        'inputs':[{'path':str(p.relative_to(ROOT)),'sha256':sha} for p,sha in INPUT_HASHES.items()],\n        'source':{'page':'knowledge/sources/rose-brink-1967-phase-defined-angular-distributions.md',\n                  'raw_path':str(RAW.relative_to(ROOT)),'raw_sha256':RAW_SHA,\n                  'locators':['printed316/PDF11 Eq3.24 and WE ordering',\n                              'printed317/PDF12 Eq3.28 initial population tensors',\n                              'printed318/PDF13 Eq3.29 gamma normalization and triangle rules',\n                              'printed319/PDF14 Eq3.36 response coefficients'],\n                  'attribution':'Reference polynomial/inverse, covariance triangle and spectral error inequalities are our derivations from source premises.'},\n        'hypothetical_reference':{\n            'branch':'Same prepared Ji=2 parent -> independently anchored Jref=0, no actual branch added',\n            'spin_independence':'Pure photon L=2 follows from independent Ji/Jref spin anchors and triangle rules; fitting this profile cannot independently re-prove those anchors.',\n            'E_M_independence':'The unpolarized profile is identical for pureE2 orM2 in the same radiative normalization; parity and bare-RME scale are not obtained from this fit.',\n            'population_model':'rho=diag(p2/2,p1/2,p0,p1/2,p2/2),p2=1-p0-p1, along the same verified symmetry axis',\n            'CG_amplitude':'q^pi*sqrt5*CG(0,2,2;0,Mi,Mi)*d^2_(Mi,q)(theta); coherent source response, unobservedq sum',\n            'W_reference':txt(W),'A2':txt(derived_A2),'A4':txt(derived_A4),\n            'B2':txt(B(2)),'B4':txt(B(4)),'R2_pure_L2':txt(R(2)),'R4_pure_L2':txt(R(4)),\n            'inverse_p0_p1_p2':[txt(v) for v in inv],\n            'simplex_triangle_inequalities':['4*A2-3*A4>=-2','A2+A4>=-1','8*A2+A4<=4'],\n            'strict_interior':'All three inequalities strict iff p0,p1,p2>0 in the stated symmetric-diagonal model',\n            'simplex_vertices':vertices,'Jacobian_p_from_A':sm(J),'Jacobian_A_from_p0_p1':sm(forward)},\n        'covariance':{\n            'coefficient_order':['A2','A4'],'Sigma_A_symbolic':sm(SigmaA),\n            'population_order':['p0','p1','p2'],'Sigma_p_symbolic':sm(SigmaP),\n            'substate_M_order':list(M),'Sigma_w_symbolic':sm(SigmaW),\n            'law':'Sigma_p=Jp*Sigma_A*Jp^T. This is exact for any finite-covariance coefficient estimator transformed by the affine inverse; Gaussianity is not required.',\n            'normalization':'Sigma_p andSigma_w have the all-ones null direction; p2 is not an independent third population parameter.',\n            'nonlinear_boundaries':'Clipping/projection, nonlinear regularization or model change require propagation of the actual joint estimator distribution. A Gaussian prior is not an independent measurement.',\n            'spectral_floor_uncertainty':'Map a joint reference-fit region with statistical and response/gate/systematic uncertainty to the physical simplex. Use rmin_lower=inf_region min(p0,p1/2,p2/2) and rmax_upper=sup_region max(...). A relative bound needs rmin_lower>0. Covariance or a positive central value alone does not certify this floor.'},\n        'mode_kernel_theorem':{\n            'state_class':'A fixed transition has common normalized physical emission-mode vectoru=a/sqrt(S) and the same independent prepared initialspin densityrho. Its emitted state is the isometric image of |u><u| tensor rho.',\n            'conjugation':'Physical emission coefficients may be conjugates of RB initial-bra interaction coefficients. Use one consistent convention; |a|^2, pure-mode overlap and the spectral inequalities are unchanged.',\n            'G_definition':'G_rho(lambda,lambda_prime;n)=(1/2)sum_q Tr[rho*T_lambda,q(n)^dagger*T_lambdaprime,q(n)], with T initial->final physical emission operators',\n            'W_definition':'W(n)=u^dagger G_rho(n)u',\n            'positive_map':'For any positiveDelta_rho, u^dagger G_(Delta_rho)u=(1/2)sum_q Tr[Delta_rho*T_u,q^dagger*T_u,q]>=0. The linear maprho->G preserves positive order; a CP claim for that dual spin-to-mode map is not needed.',\n            'isotropic_CG_proof':'Spin tensor trace orthogonality gives sum_(Mi,Mf)CG_L(m)CG_Lprime(mprime)=(2Ji+1)/(2L+1)*delta_LLprime*delta_mmprime. Summing m with the unitary D columns gives the isotropic helicity mode kerneldelta_qqprime*I/2.',\n            'definite_parity_requirement':'One E/M type per allowedL makes the mode label unique; coherent same-L E/M parity mixing is outside the polarization scalar assertion.',\n            'isotropic_unpolarized':'G_(I/d)(n)=I for every direction',\n            'isotropic_polarization':'G_(P,I/d)(n)=Tr(P)*I/2 for every fixed0<=P<=I2 in the photon Jones space',\n            'spectral_order':'If independentlyrmin I<=rho<=rmax I, then d*rmin I<=G_rho(n)<=d*rmax I, uniformly in direction.',\n            'trace_zero_mode_bound':'Retained renormalization gives modepure states with overlap sqrt(1-epsilon_rate), D_mode=sqrt(epsilon_rate). Shift alphaI out of G because the mode-density difference has trace0: |DeltaW|<=d*(rmax-rmin)*sqrt(epsilon_rate).',\n            'positive_floor_and_relative':'W_retained>=d*rmin. Forrmin>0, |DeltaW|/W_retained<=((rmax-rmin)/rmin)*sqrt(epsilon_rate). This concerns normalized local intensity, not an amplitude/fit-parameter error.',\n            'rank1_positive_polar_components':'ForTrP=1, d*rmin*I/2<=G_P,rho<=d*rmax*I/2. Positivecomponent absolute error<=d*(rmax-rmin)*sqrt(epsilon)/2 and relativecomponent error has the samefactor(rmax-rmin)/rmin.',\n            'signed_Stokes':'Fororthogonalx/y components, signedN=Ix-Iy has |DeltaN|<=d*(rmax-rmin)*sqrt(epsilon). N or normalizedP=N/W can be0, so relativeN/P error has no uniform guarantee.',\n            'optional_absolute_P_floor_bound':'With the same W floor and |P_retained|<=1, |DeltaP|<=min(2,2*(rmax-rmin)/rmin*sqrt(epsilon)) follows by the ratio triangle inequality. It does not bound relativeP at P_retained=0.',\n            'not_arbitrary_emitted_density':'The fixed-u tensor same-rho state class is essential. An arbitrary mode/spin-correlated density on the full emitted subspace does not inherit this spectral-range refinement from a spin marginal alone.',\n            'not_different_rho':'A reference or target fit that changesrho between full/truncated hypotheses requires a separate population-uncertainty term; the present bound holds for commonrho.',\n            'epsilon_input':'epsilon_rate is the total omitted target photon-rate fraction. Reference calibration and selection rules alone do not supply that rate bound.'},\n        'benchmark':{\n            'given_not_measured':True,'p0':'1/4','p1':'1/4','p2':'1/2','rho':sm(rho),\n            'A2_reference':'-5/56','A4_reference':'-2/7','rmin':txt(rmin),'rmax':txt(rmax),'d':5,\n            'unpolarized_floor_alpha':txt(alpha),'unpolarized_ceiling_beta':txt(beta),'unpolarized_range_width':txt(width),\n            'absolute_W_error':'<= (5/8)*sqrt(epsilon_rate)','relative_W_error':'<= sqrt(epsilon_rate)',\n            'rank1_component_floor':'5/16','rank1_component_range_width':'5/16',\n            'matrices_and_exact_eigen_controls':matrices,\n            'sharpness_boundary':'The actual axis kernel attains the spectral endpoints. No global sharpness of every error constant, every retained subset or every response is asserted.'},\n        'experimental_independence':{\n            'required_same_selection':['same prepared parent level and upstream event gate','same feeding inventory and symmetry axis',\n                                       'same time window/deorientation population treatment','independently calibrated relative efficiency/angular response including polarization sensitivity'],\n            'different_gates':'Different downstream directional/polarization gates can select different effective populations or change the observable to a full cascade response. Do not transplant the reference rho or the local G_iso=I rule into that observable without an explicit matching calculation.',\n            'symmetry_validation':'The reference inverse assumes diagonal, axially symmetric AND unoriented w(+M)=w(-M). Axial symmetry alone does not impose that reflection equality. An unpolarized reference curve constrains its even population tensors and cannot by itself exclude hidden orientation/coherences or certify a full-density eigenvalue floor.',\n            'spin_anchor_no_circularity':'Spin and gate/multipolarity anchors must be independent of the same coefficient fit. Target multipole assumptions must not be reused to manufacture a reference population constraint.',\n            'energy_response':'The reference branch may have a different photon energy/absolute strength; only its normalized geometric profile is transferred to the same prepared population. Response calibration must cover the separate branches independently.',\n            'uncertainty_and_shared_covariance':'Referencefit covariance, shared event/exposure and calibration nuisance correlations with the target must be retained. An arbitrary Gaussian modelprior or the present benchmark is not an independent measuredrho.',\n            'isotropic_scope':'rmax=rmin=1/d makes all normalized single-photon localW and polarization blind to mode amplitudes. It does not erase whole-radiation/cascade information; the old99 first-linear-tag plus secondarydirection contrast persists.',\n            'old99_counter_information':{'receipt':str((RUN/'parity-duality-cascade.json').relative_to(ROOT)),'primary_local_H':'I2/2',\n                                         'primary_conditional_P_given_secondary_direction':['3/17','-3/17']},\n            'boundary_rmin_zero':'If the calibrated allowed region reachesrmin=0, no uniform relativeW/component floor follows; the old node/postselection caveats remain.',\n            'not_proved':['an actually measured reference branch/population','spectral confidence coverage from unspecified covariance',\n                          'relative signed polarization precision','delta or other inferred-parameter errors','global amplitude uniqueness',\n                          'a cascade-specific refinement from this single-photon kernel','finite-count separability']},\n        'checks':{'results':checks,'passed':sum(checks.values()),'failures':0,'elapsed_seconds':time.monotonic()-started},\n        'changed_paths':[str(Path(__file__).relative_to(ROOT)),str(OUT.relative_to(ROOT))],\n        'reproducibility':{'script_path':str(Path(__file__).relative_to(ROOT)),'script_sha256':hashlib.sha256(code).hexdigest(),\n                           'source_code':code.decode(),'python':platform.python_version(),'sympy':sp.__version__,\n                           'dependencies':str(DEPS.relative_to(ROOT)),\n                           'check_command':'python3 tmp/day8-20261007/rose-brink/population-calibration-error-bound/population_calibration_error_bound.py',\n                           'write_command':'python3 tmp/day8-20261007/rose-brink/population-calibration-error-bound/population_calibration_error_bound.py --write-receipt',\n                           'write_policy':'Exclusive new owned receipt only; old329/99/other receipts,raw,canonical,report,run/state,PLAN,Git unchanged.'}\n    }\n\ndef main():\n    parser=argparse.ArgumentParser(description=__doc__);parser.add_argument('--write-receipt',action='store_true')\n    args=parser.parse_args();r=result()\n    if args.write_receipt:\n        with OUT.open('x',encoding='utf-8',newline='\\n') as f:json.dump(r,f,ensure_ascii=False,indent=2);f.write('\\n')\n    print(json.dumps({'artifact':str(OUT.relative_to(ROOT)) if args.write_receipt else None,\n                      'status':r['status'],'checks':r['checks']['passed'],'elapsed_seconds':r['checks']['elapsed_seconds'],\n                      'reference_A2_A4':[r['hypothetical_reference']['A2'],r['hypothetical_reference']['A4']],\n                      'inverse':r['hypothetical_reference']['inverse_p0_p1_p2'],\n                      'benchmark_bounds':{k:r['benchmark'][k] for k in ['rmin','rmax','unpolarized_floor_alpha','unpolarized_range_width','absolute_W_error','relative_W_error']},\n                      'mode_eigen_controls':{k:v['eigenvalues'] for k,v in r['benchmark']['matrices_and_exact_eigen_controls'].items()},\n                      'run_closed':False},ensure_ascii=False,indent=2))\nif __name__=='__main__':main()\n",
+    "python": "3.12.3",
+    "sympy": "1.14.0",
+    "dependencies": "tmp/day8-20261007/rose-brink/python-deps",
+    "check_command": "python3 tmp/day8-20261007/rose-brink/population-calibration-error-bound/population_calibration_error_bound.py",
+    "write_command": "python3 tmp/day8-20261007/rose-brink/population-calibration-error-bound/population_calibration_error_bound.py --write-receipt",
+    "write_policy": "Exclusive new owned receipt only; old329/99/other receipts,raw,canonical,report,run/state,PLAN,Git unchanged."
+  }
+}

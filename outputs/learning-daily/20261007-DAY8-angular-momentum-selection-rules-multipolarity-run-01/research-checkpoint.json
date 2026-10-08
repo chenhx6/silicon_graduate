@@ -13,13 +13,11 @@
   ],
   "course_state_updated": false,
   "runtime_snapshot": {
-    "now_local": "2026-10-08T00:13:32.630593+08:00",
-    "clock_tool_checkpoint_utc": "2026-10-07 16:08:24 UTC",
+    "now_local": "2026-10-08T08:30:38.771124+08:00",
+    "clock_tool_checkpoint_utc": "2026-10-08 00:27:24 UTC",
     "hard_deadline": "2026-10-08T15:00:00+08:00",
-    "next_scheduled_start": "2026-10-08T16:00:00+08:00",
-    "minutes_to_deadline": 886,
-    "minutes_to_next_start": 946,
-    "decision": "continue-or-advance",
+    "minutes_to_deadline": 389,
+    "decision": "continue-current-high-information",
     "day_index": 8,
     "permitted_next_card": "Day9 uncredited only"
   },
@@ -65,11 +63,6 @@
       "decision": "bounded-route-complete-with-coverage-boundaries",
       "scope": "existing BrICC source/tool or independent atomic-data input only; no new literature batch, no new card",
       "next_gain": "5 independent FO points and forward definitions checked; no author processing identity or NH/radius/covariance resolution"
-    },
-    {
-      "id": "day10-card",
-      "decision": "out-of-scope-not-opened",
-      "next_gain": "single Day+1 authorization only"
     },
     {
       "id": "day8-caseC-complete-rank",
@@ -123,14 +116,37 @@
     },
     {
       "id": "day8-truncation-observable-bound",
+      "decision": "bounded-primary-and-independent-review-complete",
+      "next_gain": "95/329 bounds canonicalized; physical priors remain independent"
+    },
+    {
+      "id": "day8-controlled-complete-omission",
+      "decision": "bounded-primary-complete-independent-audit-pending",
+      "information_gain": "connect complete M3/E4 rate fraction with independently stated support/moment/B2-floor priors"
+    },
+    {
+      "id": "day8-population-spectral-floor",
+      "decision": "bounded-primary-complete-independent-audit-pending",
+      "information_gain": "J2 exact reference inverse and conditional relative-W bounds; symmetry/selection/data prerequisites"
+    },
+    {
+      "id": "day8-high-spin-reference-nullspace",
       "decision": "selected-bounded-existing-source-L2",
-      "next_gain": "test sqrt-rate interference/finitebin probability bounds and conditionalpostselection caveats"
+      "information_gain": "test whether A2/A4 calibration may miss high-spin density modes and fail to certify rmin"
+    },
+    {
+      "id": "day8-parity-null-converse",
+      "decision": "bounded-primary-complete",
+      "information_gain": "one-way source conditions and valid-response control, no physical-parity diagnosis"
     }
   ],
   "evidence_gaps": [
     "MU08 Table I branching not explicitly identified as photon fraction versus total fraction in current reading",
     "MU08 stopping-power systematic and tau/branch covariance not in quoted statistical errors",
-    "event/response/feeding/covariance package absent; no L4"
+    "event/response/feeding/covariance package absent; no L4",
+    "No independent physical support/current/moment/B2-floor priors for the synthetic M1/E2 truncation",
+    "Population spectrum floor requires independent symmetric-diagonal/same-selection/joint-uncertainty controls; not certified by target fit",
+    "Parity-relaxed toy has no Hamiltonian, microscopic preparation or experimental identity"
   ],
   "source_locators": [
     {
@@ -159,9 +175,12 @@
     }
   ],
   "next_actions": [
-    "Day8 rate-truncation omittedfraction versus finite-acceptance observable error; current RB formalism only",
-    "Independent source/current/hard-support audit of electric rank hierarchy",
-    "2026-10-08 15:00 finalcloseout; originalbaseline runner/state and formalDAY9 plan/prompt"
+    "collect J3 nullspace/node receipt and parent replay",
+    "collect reference17-item independent review",
+    "collect per-helicity general normalization review",
+    "collect same-pair total-photon-width floor alternative",
+    "checkpoint07 explicitmanifest/runner checks/Gitee publication",
+    "15:00 closeout and formalDAY9planprompt"
   ],
   "latest_verification": "checkpoint-cascade-strength-checks.json",
   "checkpoint_verified": true,
@@ -181,17 +200,35 @@
   },
   "knowledge_writeback_pages": 7,
   "ongoing_routes": [
-    "Day8 rate-truncation omittedfraction versus finite-acceptance observable error; current RB formalism only",
-    "Independent source/current/hard-support audit of electric rank hierarchy"
+    "J3 reference nullspace/node",
+    "source helicity-normalization independent review",
+    "total-photon-width independent floor route"
   ],
   "latest_publication": {
     "branch": "main",
-    "subject": "Clarify model zeros and companion observable limits for DAY8",
+    "subject": "Extend DAY8 cascade evidence and strength normalization",
     "H3_passed": true,
-    "files": 17
+    "files": 26
   },
   "FO_status": "5 model points, 2 N6-warning points; offline parent replay0 new queries",
-  "handover_pending": [],
+  "handover_pending": [
+    {
+      "artifact": "population-calibration-error-bound-review.json",
+      "needs": "collect independent review"
+    },
+    {
+      "artifact": "high-spin-reference-nullspace.json",
+      "needs": "parent replay and canonical writeback"
+    },
+    {
+      "artifact": "nondefinite-parity-control-review.json",
+      "needs": "independent source-scope audit"
+    },
+    {
+      "artifact": "total-gamma-width-truncation.json",
+      "needs": "collect, parent replay and canonical writeback"
+    }
+  ],
   "learning_window_closed": false,
   "continue_same_goal": true,
   "new_parent_verified": {
@@ -209,22 +246,36 @@
     "electric_hierarchy": 46,
     "reverse_substantive": 190,
     "reverse_phase_domain": 247,
-    "electric_hierarchy_independent_facts": 27
+    "electric_hierarchy_independent_facts": 27,
+    "truncation_bound": 95,
+    "finite_density_bound": 329,
+    "magnetic_domain": 54,
+    "parity_duality": 99,
+    "population_calibration": 96,
+    "controlled_four_mode": 72,
+    "nondefinite_parity": 60
   },
   "new_canonical_claims": [
-    "RB67-16",
-    "LKH82-7",
-    "RB67-17",
-    "RB67-18",
-    "LKH82-12",
     "KB08-D8-4",
-    "RB67-19",
-    "RB67-20",
     "KB08-D8-5",
-    "MU08-7",
+    "LKH82-12",
     "LKH82-13",
     "LKH82-14",
-    "MU08-8"
+    "LKH82-15",
+    "LKH82-16",
+    "LKH82-7",
+    "MU08-7",
+    "MU08-8",
+    "RB67-16",
+    "RB67-17",
+    "RB67-18",
+    "RB67-19",
+    "RB67-20",
+    "RB67-21",
+    "RB67-22",
+    "RB67-23",
+    "RB67-24",
+    "RB67-25"
   ],
   "report_and_writeback_updated": true,
   "native_goal_active": true,
@@ -238,7 +289,7 @@
     "LKH82-7:E0/all-shell ICC/τ47-check",
     "LKH82-2:p179 IBM magnitudes/PPQ signs corrected by parent"
   ],
-  "next_action": "explicit 26-file checkpoint06 checks/publication; verify pending truncation-probability proof",
+  "next_action": "collect independent reviews; bounded J3 reference calibration route; original-baseline checkpoint07 validation/publication; 15:00 closeout",
   "run_finalized": false,
   "latest_clock_execution": {
     "clock_event_id": "checkpoint-003",
@@ -254,5 +305,14 @@
     "files": 26,
     "publication_kind": "continuing-checkpoint",
     "run_finalized": false
+  },
+  "controlled_budget_independent_review": {
+    "items": 17,
+    "grounded_no_op": 17,
+    "material_findings": 0,
+    "independent_facts": 18,
+    "parent_replay_exit": 0,
+    "tmp_evidence_timestamp_regenerated": true,
+    "original_math_receipts_unchanged": true
   }
 }

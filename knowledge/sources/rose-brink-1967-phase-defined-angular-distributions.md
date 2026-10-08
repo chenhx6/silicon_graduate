@@ -78,6 +78,11 @@ tags: [Rose-Brink, angular-distribution, phase-convention, mixing-ratio, alignme
 | RB67-18 | 原四多极/未知布居内域seed加入同一角点的normalized W12后，五变量Jacobian rank4→5；已知布居rank3→3。等布居控制未知p的rank2→3、固定p的amplitude rank0→1，均不形成完整反演。conditional W12/W1是等价替代行，不是第二份信息；局部逆不证明全局唯一。 | our-inference | indirect | premises printed316/PDF11 Eq3.24; p.317/PDF12 Eq3.28; pp.318–319/PDF13–14 Eqs3.29/3.36/3.39; p.335/PDF30 density extension; RB67-13/17与56-check Local Rank Supplement | true |
 | RB67-19 | 同一五normalized outputs在unknown-positive-population模型中仍非单射：原exactseed外另有区间收缩认证的解，布居与γ份额不同、两解各自local rank5。区间内唯一不等于所有解唯一；参数域admissible不证明真实核可实现或同等物理先验。 | our-inference | indirect | premises RB67-13/17/18；printed316/PDF11 Eq3.24、p317/PDF12 Eq3.28、pp318–319/PDF13–14 Eqs3.29/3.36/3.39；27-check Global Branch与58-check独立Fraction/isqrt审计 | true |
 | RB67-20 | 同一global pair加预定次级θ2=0、保留θ1=π/3，可使新/旧W12比值有严格非零区间差；共同yield仅在一致选样和独立relative efficiency/acceptance标定时抵消。仅pair-specific理论设计，不证全局唯一、核素实现或统计可分辨性。 | our-inference | indirect | premises RB67-17–19；printed316/PDF11 Eq3.24、p335/PDF30 density extension；28-check Ratio Design、已认证global box | true |
+| RB67-21 | 同固定transition/energy/radial mode与同initialρ，遗漏总photon-rate fraction ε<1和非空retainedsector给归一radiation-state距离√ε；同bounded finite-bin测量的概率误差≤√ε。条件化、改ρ、time/nonγ或inverse response须另控，干涉可达O√ε。 | our-inference | indirect | premises printed316/PDF11 Eq3.24 coherent multipoles、p318/PDF13 Eq3.29；95-check radiation-isometry/trace-distance推导及14-item独立审计 | true |
+| RB67-22 | 固定Ji/Jf/parity有限emitted subspace内，point-density compression有全方向κ上界；三题sharp κ=2/5/7，归一W绝对误差≤κ√ε。此支持条件加强概率界，未给节点relative误差、unknownJ或任意channel/unfolding统一界。 | our-inference | indirect | premises printed316/PDF11 Eq3.24、p318/PDF13 Eq3.29、p320/PDF15选律；329-check CGclosure/Q谱/rotation proof | true |
+| RB67-23 | First-transition E/M全体duality使A′q=qAq；first方向已tag而其pol未测/只circ-selected时，middleR和任意fixed photon2 measurement同。Firstlinear tag可交换joint信息；不能把γ2pol直接计作γ1E/M独立证据或用普适polsign赋宇称。 | our-inference | indirect | premises printed316/PDF11 Eq3.24 q^π/Jones、p318/PDF13 Eq3.29、pp325–326/PDF20–21 Eqs3.65–3.73 first-population/secondary-response；99-check parity/cascade控制 | true |
+| RB67-24 | 同选样、同初态密度的独立参考线可在指定 J=2 symmetric-diagonal 模型中校准布居；独立谱界给 W 的下限和截断误差界。参考拟合自身不认证未知 orientation/coherence、响应或下游条件态。 | our-inference | indirect | printed p.316/PDF11 Eq.3.24、p.317/PDF12 Eq.3.28、p.318/PDF13 Eq.3.29、p.319/PDF14 Eq.3.36；96-check affine inverse/CG/spectral reconstruction | true |
+| RB67-25 | 确定核态宇称与 alignment 是 odd-K 消失的充分条件，不能逆推；放松核态确定宇称的 J=1/2 E1/M1 控制可角分布 isotropic 但 circular polarization 非零。响应也可制造 odd accepted shape。 | our-inference | indirect | printed p.320/PDF15 Eqs.3.40–3.41 的不同假设；p.316/PDF11 Eq.3.24、p.318/PDF13 Eq.3.29；60-check CG/Jones/null-converse reconstruction | true |
 
 ## Summary
 
@@ -356,6 +361,96 @@ d(W_{12}/W_1)=dW_{12}/W_1-W_{12}dW_1/W_1^2,
 若期望计数为 `μj=c εj Wtilde_j`，c是共同selected-cascade yield/exposure、εj为独立标定的relative coincidence efficiency，Wtilde为已标定normalizedacceptance kernel折叠后的强度，则 `(εb/εa)μa/μb=Wtilde_a/Wtilde_b` 可消c。不同population/branch/ordering、feeding、time window/deorientation或未校正live time会留下ca/cb；calibration不能用待选multipole分支倒推。有限接受度需forward fold，单纯counts/ε并不移除角接受度；表中点探测器比值不能直接当实测DCO。
 
 令A=Na/εa、B=Nb/εb且B>0，一阶传播有 `Var(A/B)≈Var(A)/B²+A²Var(B)/B⁴−2A Cov(A,B)/B³`。shared gate、population fit和calibration误差需joint covariance；不将原计数、derived ratio当作重复独立证据。观测分母0、效率0或c=0需另处理，没有counts/response/covariance便不能给finite-count significance。该L2实验设计保留unknown-current/真实核实现、spin/gate、long-wave及deorientation边界。
+
+## Photon-Rate Truncation and Observable Error
+
+以下 trace-distance/测量界是本任务从 Eq.3.24、Eq.3.29 推导的 L2 数学。固定同一核跃迁、共同Eγ/radial模式，以 full-Ω/helicity/final-spin 与CG正交建立各mode isometry Vλ†Vλ′=δλλ′I。对同一个PSD、trace1初态ρ，retained/omitted两sector的coherent normalized maps分别为VR、VO；S>0、SR>0，ε=Σomitted|aλ|²/Σall|aλ|²<1 是总photon-rate份额，不是qR。
+
+ε>0时 Vfull=√(1−ε)VR+√εVO。在共同 emitted radiation Hilbert space（含final nuclear spin）两复制空间内，full减renormalized-retained state为K⊗ρ，K的对角为−ε、ε，交叉为√[ε(1−ε)]，K²=εI。于是trace distance D=(1/2)norm1(ρfull−ρR)=√ε，同一CPTP reduction/forward detector channel后仅能减小。
+
+同一有限接受度方向/偏振bin的物理effect满足0≤E≤I，则absolute ΔP_bin≤D≤√ε；ε≤η²足以使此模型条件下absoluteprobability误差≤η。原合成A的full-azimuth cap cosθ∈[1/2,1]、same high-M initialρ给 P_R=19/64，ΔP=(3/32)[−ε+√3√(ε(1−ε))]，leading为√ε。抽象tight coherent-sector effect也可达到√ε，未声称普通γ探测器实现该effect。
+
+ε=0单独给相同states，不以零omittednorm定义VO；ε=1没有normalizedretained参考。共同energy/radial条件不控制重算totalwidth引起的temporal波包变化、nonγ通道或absoluteyield。fit初始ρ若也改，需另加D(ρinitial,ρinitial0)；ε0而两初态正交仍可distance1。
+
+同一accepted-event CP instrument的success p,q均>0时，conditionaldistance≤min(1,d/max(p,q))，d为未条件化distance。由failureflag补成CPTP与normalizationtriangle可证；小success概率可使conditional误差趋近1。偏振P=(px−py)/(px+py)是条件归一的signedexpectation，差至多2Dconditional，需要successfloor。源合成2+→2+ retained M1/E2=(1,−√105/15)、w±2=1/2在θ0有WR=0，少量M3使Wfull=3ε/4，pointwise relative分母失效。
+
+一般photonL²的点密度不是unit-bounded概率effect，bin概率除角面积会改变界。效率加权/反卷积另需effectiveoperatornorm与noise/calibration控制。已知scalar efficiency Eactual=ηP、noiseless expectation/η回到effectP时概率界可保留，统计/标定误差仍放大。95项producer经parent复现，独立14-item审计、19事实/28角积分/8CGnorm支持；无真实计数、nucleus realization或L4。
+
+## Finite Emitted Subspace and Absolute Point Density
+
+固定Ji/Jf、definiteparity及全部选律允许的real-photon L，每L只一个E/Mtype，额外限定共同Hemit=span{Vλ|JiM⟩}。它含final nuclearspin，与任意完整photonL²不同。在此有限空间，direction sampling Bn给 Edensity(n)=Bn†Bn、W(n)=Tr(Edensityρrad)。W full angular average为1，per-steradian density为W/(4π)。
+
+θ0时Mi=Mf+q，Edensity按initialM分Q块。Recouple-CG square identity与完整Lclosure给 ΣL(2L+1)|CG(Jf,L,Ji;Mf,q,M)|²=2Ji+1，L0在q±1处为0。故TrQ_M=(2Ji+1)n_valid_q(M)/2；PSD让norm≤trace。CGintertwiner说明全方向rotationunitary保留谱，三题exact最大值及sharp idealwitness为：
+
+| 原合成跃迁 | κ=norm Edensity | sharp initialM |
+|---|---|---|
+| 3/2→1/2，E1/M2 | 2 | ±3/2 |
+| 2→2，M1/E2/M3/E4 | 5 | 0 |
+| 3→1，E2/M3/E4 | 7 | 0 |
+
+同finite-space normalizedstates有traceΔρ=0、0≤Edensity/κ≤I，因而 absolute ΔW(n)≤κD_full≤κ√ε，不额外乘2。Per-steradian界相应除4π。Dfull属于共同 emittedspace含finalspin/必要purifier，不能随意换成更小的reduced-photonD保留同κ。正polanalyzer P给0≤B†(P⊗I_f)B≤Edensity，individualpositivepolintensity也有κ界；signedStokes另需operatorrange，不直接当positivecomponent。
+
+独立标定、nonnegative且积分1的angularaveragekernel可继承κ。Genericchannel若离开Hemit、unknown/unboundedJi或signed/unbounded unfolding，需另审支持与effectivenorm。绝对density界没有创造节点relative/conditional保证，也不是finite-count误差条。329项CGclosure/谱/covariance检查经parent复现；sharp自由amplitudewitness未证明微观核实现，仍L2。
+
+## Which Photon's Polarization Supports Which Parity Claim
+
+固定spins、相同normalized interaction amplitudes和同initialρ，first-transition各L的E/M类型同时交换πλ→1−πλ，改变该跃迁的nuclear parity relation；q=±1给q^(1−π)=q q^π，因此A′q=qAq。**第一γ方向已选定/探测，但其极化未测**时，R=Σq A_q†ρA_q/(2S)完全相同；每一circ-tag Rq也相同。任何相同secondary effect或middlechannel都无法直接区分这对first E/Mhypotheses。Firstpolar selection若实际含隐藏linearsensitivity，已经改变该条件，需纳入response。
+
+First photon H′=ZHZ、Z=diag(−1,+1)，只改变helicityoffdiagonal。固定physical x/y axes下linear tags交换；passive换helicitybasis要同时变analyzer，不产生这种差异。该比较匹配radiativea/S，不等同physical BM电/磁RME或物理prior。
+
+唯一合成2?→2+→0+、独立E2末支、randominitialI5/5、θ1=0、θ2=π/4、φ0：first pureM1对应initial+，pureE1对应initial−；其它allowedhigher modes置0是控制模型。First standaloneH=I2/2，P1=0，两hyp均盲。First direction-tagged、pol-unobserved的middleR=diag(2,5,6,5,2)/20，W12=17/16，secondarypositiveIx2=5/8、Iy2=7/16、P2=+3/17两hyp都同。
+
+| Firsthypothesis | First x tag + secondarydirection | First y tag + secondarydirection | P1 conditioned on secondarydirection |
+|---|---|---|---|
+| M1 | 5/8 | 7/16 | +3/17 |
+| E1 | 7/16 | 5/8 | −3/17 |
+
+在photon2的x/y列进一步分开，two-photonpositivecomponents依次为M1的(1/2,1/8;1/8,5/16)，E1交换firstrows。FirstlocalP0不代表jointtags无信息；photon2自身P2相同仍不直接支持firsthypothesis。中间R_x=J_y²/20、R_y=J_x²/20中的J仅表示两个spin2 copies间CG angular maps，完整current不被等同于守恒totalJ，故不违反LKH82的generator-only零值。
+
+Photon2极化可以约束它自身E/M和对应levels的parity relation，经独立level-parity anchors可作链式推断。γ1/γ2、directiontag、linear/circulartag与各自gate、坐标、校准、feeding/time/deorientation须分别列明。线性firsttag形成非轴对称coherences，本例用full Eq3.24/Jones，不直接套Eq3.73 diagonalpopulation。该geometry的M1 conditionalP为正，本例不提供universal positive=electric阈值。99项检查经parent复现，无真实counts/initialparity赋值或微观realization；仍L2。
+
+## Independent Population Calibration and a Spectral Floor
+
+本节是从 Eqs.3.24、3.28、3.29、3.36 推导的条件性方法。取同一 J=2 母态的独立 pure-E2 参考支 2→0，初态只允许轴对称、对角且 w(+M)=w(−M)。组布居 p=(p0,p1,p2) 对应 w0=p0、w±1=p1/2、w±2=p2/2；p 非负且和为1。参考 W 的角平均为1，W=1+A2 P2+A4 P4，完整 CG 推导给
+
+\[
+p_0=\frac15+\frac25A_2-\frac3{10}A_4,\qquad
+p_1=\frac25+\frac25(A_2+A_4),\qquad
+p_2=\frac25-\frac45A_2-\frac1{10}A_4.
+\]
+
+这三式把物理 simplex 映成 A2/A4 平面上的三角形，不等于任意测得的系数都可接受。令 Jp 为上式 3×2 常数 Jacobian，若参考系数有联合协方差 ΣA，则 Σp=Jp ΣA Jpᵀ，精确保持 Σp 的归一零模；传播协方差不需要 Gaussian，但协方差本身不定义 confidence region。要认证严格正谱下限，必须使独立联合不确定域中的全部合法布居都满足 rmin>0。
+
+固定同一跃迁、共同初态 ρ，d=2Ji+1；各归一多极振幅 u 产生 W=u†Gρ(n)u。若独立控制 rmin I≤ρ≤rmax I，则完整允许模式中的 CG/isotropy closure 给 d rmin I≤Gρ(n)≤d rmax I。比较 full u 与其自身非空 retained projection，二者 mode-state 的距离为 √ε；移动 G 的谱中心并用 trace-zero 差得到
+
+\[
+W_R(n)\ge d r_{\min},\qquad
+|W_{\rm full}(n)-W_R(n)|\le d(r_{\max}-r_{\min})\sqrt\varepsilon,
+\qquad
+\frac{|\Delta W(n)|}{W_R(n)}\le\frac{r_{\max}-r_{\min}}{r_{\min}}\sqrt\varepsilon.
+\]
+
+合成 benchmark p=(1/4,1/4,1/2) 给 A2=−5/56、A4=−2/7、ρ 谱区间 [1/8,1/4]；因而 W_R≥5/8，绝对误差≤(5/8)√ε，相对误差≤√ε。各常数是理想模型的保守界，没有测量误差条或核素身份。ρ=I/d 时范围宽度为0，所有该类单γ W 都是1；这不消除级联中的信息。
+
+轴对称本身不保证 w(+M)=w(−M)，unpolarized definite-parity 参考线不能独自排除隐藏 orientation；coherence、axis、feeding、gate、时间窗与 response 均需独立支持。同一 prepared 母态谱界不自动适用于 γ1 选样后的中间条件态，后者可有 coherence 或较小 success probability。96 项精确核验已由父代理复现，结论归为 L2；独立审计回执另保存，不扩展 human review。
+
+## Odd-K Null Conditions and Their Converse
+
+原图 p.320 左列 Eq.3.40 要求 definite Ji 和已知对称轴，允许初态不具确定宇称；右列 Eq.3.41 另加初末态确定宇称并对 photon helicity 求和，才消掉 odd K。另一个独立充分条件是 w(−M)=w(M)，由 p.317 Eq.3.28 直接令 odd BK 为零。上述条件的逆命题均未成立。
+
+只放松核态具有确定宇称的假设，保留 EM 的 E/M parity transformation 和 Eq.3.24 的 q^π 因子。唯一形式控制为 Ji=Jf=1/2，同一 photon energy/radial/final channel，aE1=a0、aM1=a0η，η 为复数且 a0 非零。ρ 的对角布居为 w±=(1±p)/2，|p|≤1；η 是 normalized photon-interaction amplitude 比，不能套 E2/M1 的 0.835 常数。定义 v=2Reη/(1+|η|²)，完整 CG 和 source rotation 约定给
+
+\[
+I_q(\theta)=\tfrac12(1+qv)(1+qp\cos\theta),\quad
+W=1+pv\cos\theta,\quad
+P_{\rm circ}=\frac{v+p\cos\theta}{1+pv\cos\theta},\quad q=\pm1.
+\]
+
+线偏振为0仅在 W>0 处有定义。p=0、η=1/2 时 W=1 但 Pcirc=4/5；η=i 时干涉实部为零，即使 oriented 也无 odd W。pure E1/M1 两端点同样可以 odd-null。因此没有 odd K 不能证明确定宇称；仅 orientation 也不保证 odd unpolarized W。复数相位控制没有指定 Hamiltonian/time-reversal 核态条件，不是 T violation 证据。
+
+全角与 helicity 求和后总率仍正比 |a0|²(1+|η|²)，不含相对干涉项；但各 helicity 的积分份额为 (1+qv)/2。p.318 Eq.3.29 旁文所述 per-q equality 没有在该明确放松模型中沿用，helicity-summed total-width 关系保留。原文关于 continuum overlapping opposite-parity resonances 的 footnote13 是适用范围提示，本控制未构造这类核态。
+
+合法响应 e_det(c)=(1/2)[1+(2/5)c]，c=cosθ，可把健康 Wtrue=1 的 normalized accepted profile 变成 1+(2/5)c，效率在 [3/10,7/10]。这只匹配未分偏振角形状，没有匹配 circular 数据或完整 photon state。观测到 odd counts 仍需独立 response、axis/population 与 coherent-amplitude 条件；没有据此诊断实际 parity mixing、PNC 或 EM parity violation。60 项精确检查经父代理复现，并定向复看 p.318/320 原图；仍为 L2。
 
 ## Human Review Triage
 

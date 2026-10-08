@@ -1,0 +1,347 @@
+{
+  "schema_version": 1,
+  "created_at_utc": "2026-10-07T21:30:26.926048+00:00",
+  "artifact_kind": "Day8-L2-conditional-controlled-four-mode-photon-truncation",
+  "status": "complete-bounded-conditional-budget; physical-priors-not-supplied",
+  "day_index": 8,
+  "run_closed": false,
+  "new_source_or_course_card": false,
+  "new_session_or_goal": false,
+  "experimental_data_fit": false,
+  "numerical_experiment": false,
+  "L4": false,
+  "session_id": "01a111fb-370d-7ed1-afe9-881ccc47caf4",
+  "resume_command": "codex resume 01a111fb-370d-7ed1-afe9-881ccc47caf4 -C /workspace/wiki -s danger-full-access -a never",
+  "evidence_class": "source-grounded conventions plus conditional mathematical synthesis/self-audit; not human-reviewed",
+  "question": "Under which independent operator/state inputs can the complete M3+E4 omission in an M1/E2 photon truncation be bounded?",
+  "source": {
+    "knowledge_source": "knowledge/sources/lange-kumar-hamilton-1982-multipole-admixtures.md",
+    "raw_file": "raw/papers/gpt/high-spin-20260920/review/1982_Lange et al_E0-E2-M1 multipole admixtures of transitions in even-even nuclei.pdf",
+    "raw_sha256": "ed925a0577a9257903806acd209c1db707529e86a5bfd9a301a83d597bf78ffb",
+    "direct_locators": [
+      "printed p121 / PDF p3, Eq.2.2: T_gamma(XL)=(C_L/hbar)*q^(2L+1)*B(XL)",
+      "printed p121 / PDF p3, Eq.2.3a: physical BM B and fixed-initial-M sum; no second spin division",
+      "printed p121 / PDF p3, Eq.2.3b: adopted point-charge electric operator",
+      "printed p121 / PDF p3, Eq.2.3c: adopted nonrel one-body magnetic moment operator and gradient"
+    ],
+    "existing_image": "tmp/day8-20261007/lange-kumar/pdf-page-03.png",
+    "existing_image_sha256": "ef4fa4b3e9336aac408b3d2f76a28b0b3021983682ae80185561f79908f7e9ad",
+    "source_or_review_flags_modified": false,
+    "attribution": "LKH82 supplies rate/B/operator conventions. The Gram bound, moment inequalities, combined error budget and statistical/model boundaries here are our reconstruction, not a source-authored truncation theorem."
+  },
+  "immutable_prior_receipts": {
+    "electric_hierarchy_and_norm": {
+      "path": "outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/electric-rank-hierarchy.json",
+      "sha256": "efb7ccca5fd3a0d8d9a05e1283a152a862cc8773ef016791ce0de9234281d134",
+      "modified": false
+    },
+    "magnetic_domain": {
+      "path": "outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/magnetic-operator-domain.json",
+      "sha256": "6c2b02e16344a8283c3ec8c0a6d901a6d6c669601ef380fcef153a3b541e7ba9",
+      "modified": false
+    },
+    "probability_95": {
+      "path": "outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/truncation-observable-bound.json",
+      "sha256": "8d836c358937581ae05b9923c2f222938d56cce493c4cb5056299ed550f3cec9",
+      "modified": false
+    },
+    "point_density_329": {
+      "path": "outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/finite-rank-density-bound.json",
+      "sha256": "2636cac3929b3b28bb5b29badf5bc9df7e74d7d16378db42cb726d0bbdfe8538",
+      "modified": false
+    }
+  },
+  "prior_theorems_reused": {
+    "electric": "Existing conditional B(EL)<=Qabs^2*R^(2L)*(2L+1)/(4pi), hence B(E4)<=9Qabs^2 R^8/(4pi).",
+    "magnetic_domain": "Existing gradient-scope/contracted-ordering identity and the need for finite controlled orbital/spin moments; radius and normalization alone do not bound orbital l.",
+    "probability_95": "For any fixed effect0<=E<=I, |Tr[E(rho_full-rho_R)]|<=D<=sqrt(epsilon_rate). A finite-acceptance direction/polarization bin with detection efficiency in[0,1] is such an effect.",
+    "point_density_329": "|W_full(n)-W_retained(n)|<=kappa*D<=kappa*sqrt(epsilon_rate) for the same initialdensity and S_R>0",
+    "fixed_case_kappa": 5,
+    "reuse_attribution": "The prior 95/329 error theorems are existing Wiki derivations using the source radiation-space construction. Their code was not imported or executed, and their files remain immutable."
+  },
+  "fixed_case_and_common_model": {
+    "transition": "Synthetic 2+ -> 2+ between distinct nuclear-state labels; no nucleus or energy assigned.",
+    "full_real_photon_modes": [
+      "M1",
+      "E2",
+      "M3",
+      "E4"
+    ],
+    "retained": [
+      "M1",
+      "E2"
+    ],
+    "omitted": [
+      "M3",
+      "E4"
+    ],
+    "selection_reason": "Triangle gives 1<=L<=4 and same parity gives magnetic odd/electric even. L=0 is not a photon mode, so these are all allowed real-photon modes for this fixed pair.",
+    "common_inputs": "Same initial normalized density rho on the Ji=2 multiplet, same chosen Jf=2 final multiplet, same positive emitted E_gamma and q=E_gamma/(hbar*c), same adopted charge/current/state model and origin. Retained radiation amplitudes are the full model's M1/E2 projection, renormalized within that subspace.",
+    "rate_additivity": "Distinct multipoles are orthogonal after full radiation integration, so their photon rates/widths add. Relative phases remain in angular interference and need not be assumed zero.",
+    "not_arbitrary_refit": "A fit that changes initial rho, retained amplitudes or the current/state model requires a separate error bound; the omission budget compares the common full model with its retained projection."
+  },
+  "independent_priors_required": {
+    "support": "Normalized state/density with a controlled common smooth domain (or justified closure/form-domain extension), an orthonormal final multiplet, finite particle/charge sector, and every relevant configuration satisfying r_k<=R. A typical/rms radius does not establish hard support; tails need independent bounds.",
+    "charges_and_moment_unit": "Qabs=sum_k|e_k|, fixed bounded real dimensionless particle coefficients g_s,g_l, and mu(M)=e*hbar/(2*M*c) in common Gaussian units. The printed g coefficients are not uncontrolled coordinate-dependent operators. mu_N is adopted only with the corresponding proton-mass moment convention.",
+    "quadratic_moments": "Independent finite upper bounds S_k>=Tr(rho s_k^2), L_k>=Tr(rho l_k^2), within the same operator/state domain. A3=sum_k|g_s,k|sqrt(S_k)+(1/2)sum_k|g_l,k|sqrt(L_k). Uniform sector bounds may replace known rho-specific moments.",
+    "positive_E2_floor": "B(E2;this same pair)>=B2min>0, independently justified for the full adopted model. The support-bound route also requires jointly feasible priors; B2min cannot exceed 5Qabs^2 R^4/(4pi) under the same electric support assumptions.",
+    "operator_validity": "The same adopted nonrel/long-wave one-body polynomial moments must be valid across all four modes. No uncontrolled finite-q, relativistic, effective-charge, exchange-current or additional current terms are assigned these bounds.",
+    "independence": "Inferring B2min, rho or the moment ceilings by assuming the target M1/E2 truncation in its own fit does not independently justify that truncation. An explicit independently controlled model/state or external constraint may supply priors; none is supplied here for a real process."
+  },
+  "M3_gradient_Gram_proof": {
+    "definition": "f_mu=r^3 Y_3mu; G_ab=sum_mu (partial_a f_mu)^* (partial_b f_mu). The complex conjugate is necessary for the positive Gram operator.",
+    "standard_Y_construction": "P3(t)=(5t^3-3t)/2; h_m=sqrt(4pi)f_m=(-1)^m sqrt[7(3-m)!/(3+m)!]*(x+i y)^m*r^(3-m)*P3^(m)(z/r), h_-m=(-1)^m h_m^*. Code expands all seven polynomials with r^2=x^2+y^2+z^2.",
+    "scaled_solid_harmonics": {
+      "-3": "sqrt(35)*(x**3 - 3*I*x**2*y - 3*x*y**2 + I*y**3)/4",
+      "-2": "sqrt(210)*z*(x**2 - 2*I*x*y - y**2)/4",
+      "-1": "sqrt(21)*(-x**3 + I*x**2*y - x*y**2 + 4*x*z**2 + I*y**3 - 4*I*y*z**2)/4",
+      "0": "sqrt(7)*z*(-3*x**2 - 3*y**2 + 2*z**2)/2",
+      "1": "sqrt(21)*(x**3 + I*x**2*y + x*y**2 - 4*x*z**2 + I*y**3 - 4*I*y*z**2)/4",
+      "2": "sqrt(210)*z*(x**2 + 2*I*x*y - y**2)/4",
+      "3": "sqrt(35)*(-x**3 - 3*I*x**2*y + 3*x*y**2 + I*y**3)/4"
+    },
+    "addition_identity": "sum_mu|h_mu|^2=7r^6; each h is harmonic, homogeneous degree3 and has l_z eigenvalue mu.",
+    "global_Cartesian_identity": "4pi G=21*r^2*(2*r^2 I+r_vector*r_vector^T).",
+    "at_n_z": "G=r^4/(4pi)*diag(42,42,63). Parallel eigenvalue63r^4/(4pi), two perpendicular eigenvalues42r^4/(4pi).",
+    "general_L_identity_context": "The corresponding rotational identity is lambda_parallel=L^2(2L+1)r^(2L-2)/(4pi), lambda_perp=L(L+1)(2L+1)r^(2L-2)/(8pi). This audit uses the directly proved L=3 specialization, not an assumed general coefficient.",
+    "spectral_PSD_proof": "63r^4|v|^2-v^dagger(4pi G)v=21r^2|r cross v|^2>=0 for complex v; the coefficient63 is attained by a local parallel vector. This also bounds vector entries in an internal/ancillary Hilbert space.",
+    "coefficient_boundary": "63 is optimal for the local gradient map. The subsequent many-body triangle/projection inequality is conservative; no claim that the final B(M3) bound is attained by a nuclear transition.",
+    "Frobenius_alternative": "Tr G=147r^4/(4pi) gives a weaker coefficient147 on the same controlled domain. Neither coefficient supplies missing orbital moments or a valid operator domain.",
+    "exact_direction_controls": [
+      {
+        "dimensionless_unit_direction": [
+          "0",
+          "0",
+          "1"
+        ],
+        "4pi_G_divided_by_r4": [
+          [
+            "42",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "42",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "63"
+          ]
+        ],
+        "eigenvalues": [
+          42,
+          42,
+          63
+        ]
+      },
+      {
+        "dimensionless_unit_direction": [
+          "1",
+          "0",
+          "0"
+        ],
+        "4pi_G_divided_by_r4": [
+          [
+            "63",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "42",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "42"
+          ]
+        ],
+        "eigenvalues": [
+          42,
+          42,
+          63
+        ]
+      },
+      {
+        "dimensionless_unit_direction": [
+          "1/3",
+          "2/3",
+          "2/3"
+        ],
+        "4pi_G_divided_by_r4": [
+          [
+            "133/3",
+            "14/3",
+            "14/3"
+          ],
+          [
+            "14/3",
+            "154/3",
+            "28/3"
+          ],
+          [
+            "14/3",
+            "28/3",
+            "154/3"
+          ]
+        ],
+        "eigenvalues": [
+          42,
+          42,
+          63
+        ]
+      }
+    ]
+  },
+  "M3_operator_bound": {
+    "ordering": "Eq.2.3c contracts l with grad f. On a common smooth domain, sum_a[l_a,partial_a f]=-i epsilon_abc r_b partial_c partial_a f=0; thus its action can be written as F_mu dot l acting on the state. Spin commutes with F. l is dimensionless and still differential.",
+    "M3_source_action": "M(M3,mu)psi=mu(M)*sum_k F_mu(r_k) dot [g_s,k s_k+(1/2)g_l,k l_k]psi.",
+    "local_to_global_steps": [
+      "The pointwise spectral Gram inequality gives sum_mu||F_mu(r_k) dot v_k||^2 <=63R^4/(4pi)*sum_a||v_k,a||^2 on hard support.",
+      "Use the triangle inequality in the Hilbert direct sum over mu, first across particles and then across spin/orbital pieces. The latter norms are sqrt(<s_k^2>) and sqrt(<l_k^2>).",
+      "For mixed rho, apply the same argument to a purification or Hilbert-Schmidt operator sqrt(rho); component norms become Tr(rho s_k^2), Tr(rho l_k^2).",
+      "Projection onto the chosen final multiplet cannot increase this squared component norm. Eq.2.3a's fixed-Mi sum equals B, already including the BM spin normalization."
+    ],
+    "result": "B(M3)<=BM3max=63*mu(M)^2*R^4*A3^2/(4pi).",
+    "state_scope": "Use moment bounds for the same good-spin transition/initial sector. Scalar orbital/spin moments can be uniform on that multiplet; a rho-specific calculation must preserve the common-rho comparison."
+  },
+  "rate_budget_and_units": {
+    "source_rate": "T_gamma(XL)=(C_L/hbar)q^(2L+1)B(XL); Gamma_gamma= hbar*T_gamma=C_L q^(2L+1)B(XL).",
+    "C_definition": "C_L=8pi(L+1)/{L[(2L+1)!!]^2}, dimensionless.",
+    "coefficients": {
+      "1": "16*pi/9",
+      "2": "4*pi/75",
+      "3": "32*pi/33075",
+      "4": "2*pi/178605"
+    },
+    "ratios": {
+      "C4_over_C2": "5/23814",
+      "C3_over_C2": "8/441"
+    },
+    "electric_E4_bound": "BE4max=9Qabs^2 R^8/(4pi).",
+    "u4": "u4=(5/23814)*q^4*BE4max/B2min.",
+    "u3": "u3=(8/441)*q^2*BM3max/B2min.",
+    "combined_proof": "Gamma_ret=Gamma_M1+Gamma_E2>=C2 q^5 B2min>0. Gamma_om=Gamma_M3+Gamma_E4<=C3 q^7 BM3max+C4 q^9 BE4max. Therefore r_rate=Gamma_om/Gamma_ret<=u3+u4=u.",
+    "spin_normalization": "These inputs are B bounds, not bare RME bounds. No extra divisor 2Ji+1=5 is applied. The original same-pair source rate formulas already use Eq.2.3a.",
+    "Gaussian_dimensions": "[Qabs^2]=energy*length, [mu(M)]=charge*length, [B(E2)]=charge^2 length^4=energy length^5, [B(M3)]=moment^2 length^4=charge^2 length^6=energy length^7, [B(E4)]=charge^2 length^8=energy length^9. All widths above have energy units and u3/u4 are dimensionless.",
+    "conventional_unit_warning": "Do not divide bare numerical mu_N^2 b^2 by e^2 b^2 as though the ratio were unitless. In Gaussian units (mu_N/e)^2=(hbar/(2m_p c))^2 is a length^2; length/charge/moment conversions must share one unit system before multiplying by q^2. No actual numeric mu_N/e or E/R is inserted here.",
+    "photon_only": "Gamma denotes this pair's photon width; IC, E0/nonradiative channels, parent-level total branching, lifetime and elapsed-time errors are outside this budget."
+  },
+  "observable_error_connection": {
+    "omitted_fraction": "epsilon=Gamma_om/(Gamma_ret+Gamma_om)=r_rate/(1+r_rate)<=u/(1+u)=epsilon_max.",
+    "probability": "For the prior common-rho radiation construction and any fixed effect 0<=E<=I: |P_full-P_M1E2|<=sqrt(epsilon)<=sqrt[u/(1+u)]. This is an absolute expected event-probability/model bound.",
+    "density_fixed_2_to_2": "Within the prior common full emitted four-mode subspace H_emit, kappa=5: |W_full(n)-W_M1E2(n)|<=5sqrt[u/(1+u)]. W has angular average1; density per steradian is W/(4pi), whose bound is divided by4pi.",
+    "density_trace_distance_space": "Use the prior full radiation-plus-final-spin emitted-space trace distance (or retained purifier), not an arbitrarily smaller reduced-photon trace distance while keeping kappa5.",
+    "bounded_response": "Probability effects may include a common bounded finite acceptance/efficiency response. A point density after a channel leaving H_emit requires a new output-support/operator bound; inverse/unfolded weights are not automatically bounded effects.",
+    "tolerance_rule": "For absolute probability tolerance0<etaP<1, u<=etaP^2/(1-etaP^2) is sufficient. For fixed-case W tolerance0<etaW<5, replace etaP by etaW/5. No actual tolerance or independent physical prior is claimed satisfied.",
+    "not_relative_or_conditional": "No uniform relative W error at a zero/node and no conditional polarization-ratio guarantee without an independently positive success/denominator floor.",
+    "not_statistical_precision": "These are expected-model bounds, not confidence intervals, finite-count separation, experimental error bars or a guarantee for fitted parameters."
+  },
+  "dimensionless_chart_and_one_synthetic_control": {
+    "definitions": "zeta=qR; beta2=B2min/(Qabs^2 R^4)>0; m3budget=mu(M)*A3/(Qabs R)>=0.",
+    "u3_exact": "2*m3budget**2*zeta**2/(7*pi*beta2)",
+    "u4_exact": "5*zeta**4/(10584*pi*beta2)",
+    "chosen_inputs": {
+      "zeta": "1/10",
+      "m3budget": "1/10",
+      "beta2": "1/(4pi)"
+    },
+    "u3": "1/8750",
+    "u4": "1/5292000",
+    "u": "3029/26460000",
+    "epsilon_ceiling": "3029/26463029",
+    "probability_error_ceiling": "sqrt(80156514841)/26463029",
+    "probability_error_ceiling_decimal": 0.010698671684292026,
+    "W_error_ceiling": "5*sqrt(80156514841)/26463029",
+    "W_error_ceiling_decimal": 0.053493358421460135,
+    "boundary": "Only conditional dimensionless arithmetic. No absolute energy/radius, measured B, particle/current model, actual rho, physical realization or independent support/moment/floor evidence is assigned. Long decimals do not represent experimental precision."
+  },
+  "failure_edges_and_open_inputs": {
+    "B2_zero_or_no_floor": "If B(E2)=0 or no independent B2min>0 exists, this denominator route does not control u. As beta2->0+ at fixed nonzero zeta, the upper budget diverges and epsilon_max tends to1. A different retained-rate-floor route would need its own independent premise.",
+    "no_moment_or_domain": "Without a common domain and finite controlled orbital/spin/current moments, the M3 numerator bound is unavailable. Radius and normalization alone do not repair it; the weaker Frobenius coefficient147 also needs those moments.",
+    "A3_zero": "A3=0 sets this M3 upper budget to0 but does not remove E4; no division by A3 is used in the dimensionless chart.",
+    "q_zero": "For fixed valid priors and q->0+ the algebraic u tends to0. At q=0 all emitting widths vanish, so normalized emitted-state fractions/ratios are not defined; no exactly-zero-energy photon prediction is made.",
+    "incompatible_priors": "Qabs=0 cannot support an independent positive E2 floor in this adopted point-charge model. Any floor/support/moment set must be independently valid and jointly feasible.",
+    "changing_priors_limit": "Small qR alone is insufficient if the E2 floor shrinks or the magnetic moment ceiling grows with q; the controlled fixed-prior limit must be checked.",
+    "physical_domain": "High orbital moments can leave the nonrel momentum/velocity domain. Existing magnetic-domain bounds and any actual Hamiltonian/kinematic constraints must be retained before applying this mathematical budget to physics.",
+    "missing_current_error": "Finite-q/current/relativistic/effective operator and support-tail errors are additional errors, not automatically absorbed into u. This conditional four-mode budget does not establish their smallness.",
+    "current_stop_boundary": "No actual independent prior inputs were supplied. The gap is closed as a conditional theorem and reproduction artifact; no real M1/E2 truncation is declared valid."
+  },
+  "source_vs_inference": {
+    "direct_source": "Printed rate, B and electric/magnetic operator conventions in LKH82 p121.",
+    "existing_Wiki_derivations": "Electric hard-support theorem, magnetic-domain boundary, 95-check probability and329-check finite emitted-space density theorems.",
+    "new_reconstruction": "Explicit M3 gradient Gram/spectral inequality, moment bound, common-unit M3+E4 rate ceiling and their conditional error-budget synthesis.",
+    "experimental_evidence": "None added; no new paper/nucleus/card, physical data, source-authored bound, manuscript admission, human-review status or L4 result."
+  },
+  "checks": {
+    "passed_by_group": {
+      "B2_floor_missing_limit": 1,
+      "M3_orbital_factor_one_half": 1,
+      "all_source_widths_same_Gaussian_dimension": 1,
+      "contracted_orbital_gradient_ordering": 1,
+      "fixed_2plus_2plus_all_photon_modes": 1,
+      "fixed_prior_positive_q_longwave_limit": 1,
+      "full_cartesian_gradient_Gram_identity": 1,
+      "full_omitted_over_retained_budget": 1,
+      "gradient_Frobenius_squared_trace": 1,
+      "gradient_Gram_Hermitian": 1,
+      "gradient_control_unit_direction": 3,
+      "gradient_spectrum_control": 3,
+      "immutable_prior_identity": 4,
+      "immutable_prior_identity_after": 4,
+      "magnetic_moment_missing_uniform_bound_limit": 1,
+      "omitted_fraction_monotonicity": 1,
+      "parallel_local_map_attains_63": 1,
+      "parent_day_index_retained": 1,
+      "pointwise_spectral_bound_PSD_identity": 1,
+      "prior_density_329_admitted": 1,
+      "prior_fixed_2_to_2_kappa": 1,
+      "prior_probability_95_admitted": 1,
+      "solid_harmonic_Laplacian_zero": 7,
+      "solid_harmonic_degree_three": 7,
+      "solid_harmonic_lz_eigenvalue": 7,
+      "source_C3_over_C2": 1,
+      "source_C4_over_C2": 1,
+      "source_raw_identity": 1,
+      "standard_Y_addition_identity": 1,
+      "synthetic_combined_u_exact": 1,
+      "synthetic_epsilon_ceiling_exact": 1,
+      "synthetic_floor_not_above_E2_support_ceiling": 1,
+      "synthetic_u3_exact": 1,
+      "synthetic_u4_exact": 1,
+      "two_sector_trace_difference_Hermitian": 1,
+      "two_sector_trace_difference_squared": 1,
+      "two_sector_trace_difference_trace_zero": 1,
+      "u3_coefficient_simplified": 1,
+      "u3_dimensionless": 1,
+      "u3_rescaled_dimensionless_chart": 1,
+      "u4_coefficient_simplified": 1,
+      "u4_dimensionless": 1,
+      "u4_rescaled_dimensionless_chart": 1,
+      "zero_A3_removes_only_M3_budget": 1
+    },
+    "total_passed": 72,
+    "failures": 0
+  },
+  "changed_paths": [
+    "tmp/day8-20261007/lange-kumar/controlled-four-mode-truncation/controlled_four_mode_truncation.py",
+    "outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/controlled-four-mode-truncation.json"
+  ],
+  "reproducibility": {
+    "code": "tmp/day8-20261007/lange-kumar/controlled-four-mode-truncation/controlled_four_mode_truncation.py",
+    "script_sha256": "2dfbdcb6d91afa214114b57a290c4c314771c5308a00b700920b22d4095c2c5d",
+    "source_code": "#!/usr/bin/env python3\n\"\"\"Offline conditional four-mode photon truncation budget for synthetic 2+->2+.\n\nThis is exact L2 operator/units/error algebra. No experimental input, real nucleus,\nabsolute E/R value, physical wavefunction realization, current correction or L4\nresult is supplied. Prior receipts are read and hashed, never imported/executed.\nDefault execution is read-only; --write-receipt exclusively creates one JSON.\n\"\"\"\n\nfrom __future__ import annotations\n\nimport argparse\nfrom collections import Counter\nfrom datetime import datetime, timezone\nimport hashlib\nimport json\nfrom pathlib import Path\nimport sys\n\nsys.dont_write_bytecode = True\n\nCODE_REL = \"tmp/day8-20261007/lange-kumar/controlled-four-mode-truncation/controlled_four_mode_truncation.py\"\nRUN_REL = \"outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01\"\nRECEIPT_REL = RUN_REL + \"/controlled-four-mode-truncation.json\"\nRAW_REL = \"raw/papers/gpt/high-spin-20260920/review/1982_Lange et al_E0-E2-M1 multipole admixtures of transitions in even-even nuclei.pdf\"\nRAW_SHA = \"ed925a0577a9257903806acd209c1db707529e86a5bfd9a301a83d597bf78ffb\"\nPRIOR_SPECS = {\n    \"electric_hierarchy_and_norm\": (\"electric-rank-hierarchy.json\", \"efb7ccca5fd3a0d8d9a05e1283a152a862cc8773ef016791ce0de9234281d134\"),\n    \"magnetic_domain\": (\"magnetic-operator-domain.json\", \"6c2b02e16344a8283c3ec8c0a6d901a6d6c669601ef380fcef153a3b541e7ba9\"),\n    \"probability_95\": (\"truncation-observable-bound.json\", \"8d836c358937581ae05b9923c2f222938d56cce493c4cb5056299ed550f3cec9\"),\n    \"point_density_329\": (\"finite-rank-density-bound.json\", \"2636cac3929b3b28bb5b29badf5bc9df7e74d7d16378db42cb726d0bbdfe8538\"),\n}\n\n\ndef digest(path: Path) -> str:\n    return hashlib.sha256(path.read_bytes()).hexdigest()\n\n\ndef build_receipt(root: Path) -> dict:\n    dep_rel = \"tmp/day8-20261007/rose-brink/python-deps\"\n    sys.path.insert(0, str(root / dep_rel))\n    import sympy as sp\n\n    counts: Counter[str] = Counter()\n\n    def check(name: str, condition) -> None:\n        if not bool(condition):\n            raise AssertionError(name)\n        counts[name] += 1\n\n    def equals(a, b) -> bool:\n        return sp.simplify(a - b) == 0\n\n    def exact(value) -> str:\n        return str(sp.simplify(value))\n\n    def matrix_text(value) -> list[list[str]]:\n        return [[exact(value[i, j]) for j in range(value.cols)] for i in range(value.rows)]\n\n    check(\"source_raw_identity\", digest(root / RAW_REL) == RAW_SHA)\n    prior, prior_records = {}, {}\n    for key, (name, expected_sha) in PRIOR_SPECS.items():\n        path = root / RUN_REL / name\n        check(\"immutable_prior_identity\", digest(path) == expected_sha)\n        prior[key] = json.loads(path.read_text(encoding=\"utf-8\"))\n        prior_records[key] = {\"path\": RUN_REL + \"/\" + name, \"sha256\": expected_sha, \"modified\": False}\n    check(\"prior_probability_95_admitted\", prior[\"probability_95\"][\"checks\"][\"passed\"] == 95 and prior[\"probability_95\"][\"checks\"][\"failures\"] == 0)\n    check(\"prior_density_329_admitted\", prior[\"point_density_329\"][\"checks\"][\"passed\"] == 329 and prior[\"point_density_329\"][\"checks\"][\"failures\"] == 0)\n    check(\"prior_fixed_2_to_2_kappa\", prior[\"point_density_329\"][\"absolute_density_error\"][\"case_constants\"][\"B_2_to_2\"] == \"5\")\n    run = json.loads((root / RUN_REL / \"run.json\").read_text(encoding=\"utf-8\"))\n    check(\"parent_day_index_retained\", run[\"day_index\"] == 8)\n\n    # Explicit standard-Y solid harmonics, scaled h_mu=sqrt(4*pi)*r^3*Y_3mu.\n    # Associated Legendre derivatives determine all positive-m polynomials;\n    # negative m follows the Condon-Shortley conjugation relation.\n    x, y, z, t = sp.symbols(\"x y z t\", real=True)\n    radius_aux = sp.symbols(\"radius_aux\", positive=True)\n    coordinates = [x, y, z]\n    rv = sp.Matrix(coordinates)\n    r2 = x**2 + y**2 + z**2\n    P3 = sp.legendre(3, t)\n    harmonics = {}\n    for m in range(4):\n        normalization = sp.sqrt(7 * sp.factorial(3 - m) / sp.factorial(3 + m))\n        poly = sp.expand((-1)**m * normalization * (x + sp.I*y)**m * radius_aux**(3-m) * sp.diff(P3, t, m).subs(t, z/radius_aux))\n        harmonics[m] = sp.expand(poly.subs(radius_aux**2, r2))\n        if m:\n            harmonics[-m] = sp.expand((-1)**m * sp.conjugate(harmonics[m]))\n    for m, h in harmonics.items():\n        check(\"solid_harmonic_degree_three\", equals(sum(c * sp.diff(h, c) for c in coordinates), 3*h))\n        check(\"solid_harmonic_Laplacian_zero\", equals(sum(sp.diff(h, c, 2) for c in coordinates), 0))\n        check(\"solid_harmonic_lz_eigenvalue\", equals(-sp.I*(x*sp.diff(h, y)-y*sp.diff(h, x)), m*h))\n    check(\"standard_Y_addition_identity\", equals(sum(sp.conjugate(h)*h for h in harmonics.values()), 7*r2**3))\n    gradients = {m: sp.Matrix([sp.diff(h, c) for c in coordinates]) for m, h in harmonics.items()}\n    scaled_gram = sp.zeros(3)\n    for grad in gradients.values():\n        scaled_gram += sp.conjugate(grad)*grad.T\n    scaled_gram = scaled_gram.applyfunc(sp.simplify)\n    expected_gram = 21*r2*(2*r2*sp.eye(3)+rv*rv.T)\n    check(\"full_cartesian_gradient_Gram_identity\", all(equals(a, b) for a, b in zip(scaled_gram, expected_gram)))\n    check(\"gradient_Gram_Hermitian\", scaled_gram == scaled_gram.conjugate().T)\n    check(\"gradient_Frobenius_squared_trace\", equals(sp.trace(scaled_gram), 147*r2**2))\n\n    # The local map bound applies also to internal/ancillary Hilbert vectors:\n    # 63*r^4 |v|^2-v^dagger(4pi G)v =21*r^2 |r cross v|^2>=0.\n    a0, a1, a2, b0, b1, b2 = sp.symbols(\"a0 a1 a2 b0 b1 b2\", real=True)\n    vv = sp.Matrix([a0+sp.I*b0, a1+sp.I*b1, a2+sp.I*b2])\n    cross = rv.cross(vv)\n    slack = 63*r2**2*(vv.conjugate().T*vv)[0]-(vv.conjugate().T*scaled_gram*vv)[0]\n    check(\"pointwise_spectral_bound_PSD_identity\", equals(slack, 21*r2*(cross.conjugate().T*cross)[0]))\n    directions = [(0, 0, 1), (1, 0, 0), (sp.Rational(1,3), sp.Rational(2,3), sp.Rational(2,3))]\n    radius = sp.symbols(\"r\", positive=True)\n    eigen_controls = []\n    lam = sp.symbols(\"lambda\")\n    for direction in directions:\n        check(\"gradient_control_unit_direction\", sum(c*c for c in direction) == 1)\n        gram_here = (scaled_gram.subs(dict(zip(coordinates, [radius*c for c in direction])))/radius**4).applyfunc(sp.simplify)\n        check(\"gradient_spectrum_control\", equals(gram_here.charpoly(lam).as_expr(), (lam-42)**2*(lam-63)))\n        eigen_controls.append({\"dimensionless_unit_direction\": [exact(c) for c in direction], \"4pi_G_divided_by_r4\": matrix_text(gram_here), \"eigenvalues\": [42, 42, 63]})\n    check(\"parallel_local_map_attains_63\", equals((rv.T*scaled_gram*rv)[0], 63*r2**3))\n    f_general = sp.Function(\"f\")(x, y, z)\n    ordering = sp.simplify(sum(-sp.I*sp.LeviCivita(a,b,c)*coordinates[b]*sp.diff(f_general, coordinates[c], coordinates[a]) for a in range(3) for b in range(3) for c in range(3)))\n    check(\"contracted_orbital_gradient_ordering\", ordering == 0)\n    gl = sp.symbols(\"g_l\", real=True)\n    check(\"M3_orbital_factor_one_half\", equals(2*gl/(sp.Integer(3)+1), gl/2))\n\n    C = {L: sp.simplify(8*sp.pi*(L+1)/(L*sp.factorial2(2*L+1)**2)) for L in [1,2,3,4]}\n    c42, c32 = sp.simplify(C[4]/C[2]), sp.simplify(C[3]/C[2])\n    check(\"source_C4_over_C2\", c42 == sp.Rational(5,23814))\n    check(\"source_C3_over_C2\", c32 == sp.Rational(8,441))\n    allowed_modes = [(L, \"E\" if L % 2 == 0 else \"M\") for L in range(1,5)]\n    check(\"fixed_2plus_2plus_all_photon_modes\", allowed_modes == [(1,\"M\"),(2,\"E\"),(3,\"M\"),(4,\"E\")])\n\n    q, R, Q, mu, B2floor = sp.symbols(\"q R Qabs mu_M B2min\", positive=True)\n    A3 = sp.symbols(\"A3\", nonnegative=True)\n    BE4max = 9*Q**2*R**8/(4*sp.pi)\n    BM3max = 63*mu**2*R**4*A3**2/(4*sp.pi)\n    retained_width_floor = C[2]*q**5*B2floor\n    omitted_width_bound = C[3]*q**7*BM3max+C[4]*q**9*BE4max\n    u3, u4 = c32*q**2*BM3max/B2floor, c42*q**4*BE4max/B2floor\n    check(\"full_omitted_over_retained_budget\", equals(omitted_width_bound/retained_width_floor, u3+u4))\n    # Bookkeeping in common Gaussian charge/length units: mu_M has Q*L.\n    dim_B2, dim_M3, dim_E4 = (2,4), (2,6), (2,8)\n    check(\"u3_dimensionless\", (dim_M3[0]-dim_B2[0], dim_M3[1]-dim_B2[1]-2) == (0,0))\n    check(\"u4_dimensionless\", (dim_E4[0]-dim_B2[0], dim_E4[1]-dim_B2[1]-4) == (0,0))\n    check(\"all_source_widths_same_Gaussian_dimension\", [dim_B2[1]+1-5, dim_M3[1]+1-7, dim_E4[1]+1-9] == [0,0,0])\n\n    zeta, beta2 = sp.symbols(\"zeta beta2\", positive=True)\n    m3budget = sp.symbols(\"m3budget\", nonnegative=True)\n    u3_dimensionless = c32*63/(4*sp.pi)*zeta**2*m3budget**2/beta2\n    u4_dimensionless = c42*9/(4*sp.pi)*zeta**4/beta2\n    definitions = {zeta:q*R, m3budget:mu*A3/(Q*R), beta2:B2floor/(Q**2*R**4)}\n    check(\"u3_rescaled_dimensionless_chart\", equals(u3_dimensionless.subs(definitions),u3))\n    check(\"u4_rescaled_dimensionless_chart\", equals(u4_dimensionless.subs(definitions),u4))\n    check(\"u3_coefficient_simplified\", equals(u3_dimensionless, 2*zeta**2*m3budget**2/(7*sp.pi*beta2)))\n    check(\"u4_coefficient_simplified\", equals(u4_dimensionless, 5*zeta**4/(10584*sp.pi*beta2)))\n\n    rrate = sp.symbols(\"r_rate\", nonnegative=True)\n    epsilon = rrate/(1+rrate)\n    check(\"omitted_fraction_monotonicity\", equals(sp.diff(epsilon,rrate),1/(1+rrate)**2))\n    K = sp.Matrix([[-rrate,sp.sqrt(rrate)],[sp.sqrt(rrate),rrate]])/(1+rrate)\n    check(\"two_sector_trace_difference_Hermitian\", K == K.conjugate().T)\n    check(\"two_sector_trace_difference_trace_zero\", sp.trace(K)==0)\n    check(\"two_sector_trace_difference_squared\", all(equals(a,b) for a,b in zip(K*K,epsilon*sp.eye(2))))\n    check(\"B2_floor_missing_limit\", sp.limit(u3_dimensionless+u4_dimensionless,beta2,0,dir=\"+\") == sp.oo)\n    check(\"magnetic_moment_missing_uniform_bound_limit\", sp.limit(u3,A3,sp.oo) == sp.oo)\n    check(\"fixed_prior_positive_q_longwave_limit\", sp.limit(u3+u4,q,0,dir=\"+\")==0)\n    check(\"zero_A3_removes_only_M3_budget\", u3.subs(A3,0)==0 and u4!=0)\n\n    # One purely dimensionless conditional arithmetic control; no independent\n    # prior is claimed to hold for a real state or process.\n    synthetic_inputs = {zeta:sp.Rational(1,10), m3budget:sp.Rational(1,10), beta2:1/(4*sp.pi)}\n    u3s = sp.simplify(u3_dimensionless.subs(synthetic_inputs))\n    u4s = sp.simplify(u4_dimensionless.subs(synthetic_inputs))\n    us = sp.simplify(u3s+u4s)\n    epsmax = sp.simplify(us/(1+us))\n    check(\"synthetic_u3_exact\",u3s==sp.Rational(1,8750))\n    check(\"synthetic_u4_exact\",u4s==sp.Rational(1,5292000))\n    check(\"synthetic_combined_u_exact\",us==sp.Rational(3029,26460000))\n    check(\"synthetic_epsilon_ceiling_exact\",epsmax==sp.Rational(3029,26463029))\n    check(\"synthetic_floor_not_above_E2_support_ceiling\",synthetic_inputs[beta2]<=5/(4*sp.pi))\n\n    # Assert the old receipts are still identical after all read-only arithmetic.\n    for _, (name, expected_sha) in PRIOR_SPECS.items():\n        check(\"immutable_prior_identity_after\",digest(root/RUN_REL/name)==expected_sha)\n    code_path=Path(__file__).resolve()\n    return {\n        \"schema_version\":1,\n        \"created_at_utc\":datetime.now(timezone.utc).isoformat(),\n        \"artifact_kind\":\"Day8-L2-conditional-controlled-four-mode-photon-truncation\",\n        \"status\":\"complete-bounded-conditional-budget; physical-priors-not-supplied\",\n        \"day_index\":8,\"run_closed\":False,\n        \"new_source_or_course_card\":False,\"new_session_or_goal\":False,\n        \"experimental_data_fit\":False,\"numerical_experiment\":False,\"L4\":False,\n        \"session_id\":run[\"session_id\"],\"resume_command\":run[\"resume_command\"],\n        \"evidence_class\":\"source-grounded conventions plus conditional mathematical synthesis/self-audit; not human-reviewed\",\n        \"question\":\"Under which independent operator/state inputs can the complete M3+E4 omission in an M1/E2 photon truncation be bounded?\",\n        \"source\":{\n            \"knowledge_source\":\"knowledge/sources/lange-kumar-hamilton-1982-multipole-admixtures.md\",\n            \"raw_file\":RAW_REL,\"raw_sha256\":RAW_SHA,\n            \"direct_locators\":[\n                \"printed p121 / PDF p3, Eq.2.2: T_gamma(XL)=(C_L/hbar)*q^(2L+1)*B(XL)\",\n                \"printed p121 / PDF p3, Eq.2.3a: physical BM B and fixed-initial-M sum; no second spin division\",\n                \"printed p121 / PDF p3, Eq.2.3b: adopted point-charge electric operator\",\n                \"printed p121 / PDF p3, Eq.2.3c: adopted nonrel one-body magnetic moment operator and gradient\",\n            ],\n            \"existing_image\":\"tmp/day8-20261007/lange-kumar/pdf-page-03.png\",\n            \"existing_image_sha256\":digest(root/\"tmp/day8-20261007/lange-kumar/pdf-page-03.png\"),\n            \"source_or_review_flags_modified\":False,\n            \"attribution\":\"LKH82 supplies rate/B/operator conventions. The Gram bound, moment inequalities, combined error budget and statistical/model boundaries here are our reconstruction, not a source-authored truncation theorem.\",\n        },\n        \"immutable_prior_receipts\":prior_records,\n        \"prior_theorems_reused\":{\n            \"electric\":\"Existing conditional B(EL)<=Qabs^2*R^(2L)*(2L+1)/(4pi), hence B(E4)<=9Qabs^2 R^8/(4pi).\",\n            \"magnetic_domain\":\"Existing gradient-scope/contracted-ordering identity and the need for finite controlled orbital/spin moments; radius and normalization alone do not bound orbital l.\",\n            \"probability_95\":prior[\"probability_95\"][\"general_bound\"][\"measurement_probability\"],\n            \"point_density_329\":prior[\"point_density_329\"][\"absolute_density_error\"][\"bound\"],\n            \"fixed_case_kappa\":5,\n            \"reuse_attribution\":\"The prior 95/329 error theorems are existing Wiki derivations using the source radiation-space construction. Their code was not imported or executed, and their files remain immutable.\",\n        },\n        \"fixed_case_and_common_model\":{\n            \"transition\":\"Synthetic 2+ -> 2+ between distinct nuclear-state labels; no nucleus or energy assigned.\",\n            \"full_real_photon_modes\":[\"M1\",\"E2\",\"M3\",\"E4\"],\n            \"retained\":[\"M1\",\"E2\"],\"omitted\":[\"M3\",\"E4\"],\n            \"selection_reason\":\"Triangle gives 1<=L<=4 and same parity gives magnetic odd/electric even. L=0 is not a photon mode, so these are all allowed real-photon modes for this fixed pair.\",\n            \"common_inputs\":\"Same initial normalized density rho on the Ji=2 multiplet, same chosen Jf=2 final multiplet, same positive emitted E_gamma and q=E_gamma/(hbar*c), same adopted charge/current/state model and origin. Retained radiation amplitudes are the full model's M1/E2 projection, renormalized within that subspace.\",\n            \"rate_additivity\":\"Distinct multipoles are orthogonal after full radiation integration, so their photon rates/widths add. Relative phases remain in angular interference and need not be assumed zero.\",\n            \"not_arbitrary_refit\":\"A fit that changes initial rho, retained amplitudes or the current/state model requires a separate error bound; the omission budget compares the common full model with its retained projection.\",\n        },\n        \"independent_priors_required\":{\n            \"support\":\"Normalized state/density with a controlled common smooth domain (or justified closure/form-domain extension), an orthonormal final multiplet, finite particle/charge sector, and every relevant configuration satisfying r_k<=R. A typical/rms radius does not establish hard support; tails need independent bounds.\",\n            \"charges_and_moment_unit\":\"Qabs=sum_k|e_k|, fixed bounded real dimensionless particle coefficients g_s,g_l, and mu(M)=e*hbar/(2*M*c) in common Gaussian units. The printed g coefficients are not uncontrolled coordinate-dependent operators. mu_N is adopted only with the corresponding proton-mass moment convention.\",\n            \"quadratic_moments\":\"Independent finite upper bounds S_k>=Tr(rho s_k^2), L_k>=Tr(rho l_k^2), within the same operator/state domain. A3=sum_k|g_s,k|sqrt(S_k)+(1/2)sum_k|g_l,k|sqrt(L_k). Uniform sector bounds may replace known rho-specific moments.\",\n            \"positive_E2_floor\":\"B(E2;this same pair)>=B2min>0, independently justified for the full adopted model. The support-bound route also requires jointly feasible priors; B2min cannot exceed 5Qabs^2 R^4/(4pi) under the same electric support assumptions.\",\n            \"operator_validity\":\"The same adopted nonrel/long-wave one-body polynomial moments must be valid across all four modes. No uncontrolled finite-q, relativistic, effective-charge, exchange-current or additional current terms are assigned these bounds.\",\n            \"independence\":\"Inferring B2min, rho or the moment ceilings by assuming the target M1/E2 truncation in its own fit does not independently justify that truncation. An explicit independently controlled model/state or external constraint may supply priors; none is supplied here for a real process.\",\n        },\n        \"M3_gradient_Gram_proof\":{\n            \"definition\":\"f_mu=r^3 Y_3mu; G_ab=sum_mu (partial_a f_mu)^* (partial_b f_mu). The complex conjugate is necessary for the positive Gram operator.\",\n            \"standard_Y_construction\":\"P3(t)=(5t^3-3t)/2; h_m=sqrt(4pi)f_m=(-1)^m sqrt[7(3-m)!/(3+m)!]*(x+i y)^m*r^(3-m)*P3^(m)(z/r), h_-m=(-1)^m h_m^*. Code expands all seven polynomials with r^2=x^2+y^2+z^2.\",\n            \"scaled_solid_harmonics\":{str(m):exact(harmonics[m]) for m in sorted(harmonics)},\n            \"addition_identity\":\"sum_mu|h_mu|^2=7r^6; each h is harmonic, homogeneous degree3 and has l_z eigenvalue mu.\",\n            \"global_Cartesian_identity\":\"4pi G=21*r^2*(2*r^2 I+r_vector*r_vector^T).\",\n            \"at_n_z\":\"G=r^4/(4pi)*diag(42,42,63). Parallel eigenvalue63r^4/(4pi), two perpendicular eigenvalues42r^4/(4pi).\",\n            \"general_L_identity_context\":\"The corresponding rotational identity is lambda_parallel=L^2(2L+1)r^(2L-2)/(4pi), lambda_perp=L(L+1)(2L+1)r^(2L-2)/(8pi). This audit uses the directly proved L=3 specialization, not an assumed general coefficient.\",\n            \"spectral_PSD_proof\":\"63r^4|v|^2-v^dagger(4pi G)v=21r^2|r cross v|^2>=0 for complex v; the coefficient63 is attained by a local parallel vector. This also bounds vector entries in an internal/ancillary Hilbert space.\",\n            \"coefficient_boundary\":\"63 is optimal for the local gradient map. The subsequent many-body triangle/projection inequality is conservative; no claim that the final B(M3) bound is attained by a nuclear transition.\",\n            \"Frobenius_alternative\":\"Tr G=147r^4/(4pi) gives a weaker coefficient147 on the same controlled domain. Neither coefficient supplies missing orbital moments or a valid operator domain.\",\n            \"exact_direction_controls\":eigen_controls,\n        },\n        \"M3_operator_bound\":{\n            \"ordering\":\"Eq.2.3c contracts l with grad f. On a common smooth domain, sum_a[l_a,partial_a f]=-i epsilon_abc r_b partial_c partial_a f=0; thus its action can be written as F_mu dot l acting on the state. Spin commutes with F. l is dimensionless and still differential.\",\n            \"M3_source_action\":\"M(M3,mu)psi=mu(M)*sum_k F_mu(r_k) dot [g_s,k s_k+(1/2)g_l,k l_k]psi.\",\n            \"local_to_global_steps\":[\n                \"The pointwise spectral Gram inequality gives sum_mu||F_mu(r_k) dot v_k||^2 <=63R^4/(4pi)*sum_a||v_k,a||^2 on hard support.\",\n                \"Use the triangle inequality in the Hilbert direct sum over mu, first across particles and then across spin/orbital pieces. The latter norms are sqrt(<s_k^2>) and sqrt(<l_k^2>).\",\n                \"For mixed rho, apply the same argument to a purification or Hilbert-Schmidt operator sqrt(rho); component norms become Tr(rho s_k^2), Tr(rho l_k^2).\",\n                \"Projection onto the chosen final multiplet cannot increase this squared component norm. Eq.2.3a's fixed-Mi sum equals B, already including the BM spin normalization.\",\n            ],\n            \"result\":\"B(M3)<=BM3max=63*mu(M)^2*R^4*A3^2/(4pi).\",\n            \"state_scope\":\"Use moment bounds for the same good-spin transition/initial sector. Scalar orbital/spin moments can be uniform on that multiplet; a rho-specific calculation must preserve the common-rho comparison.\",\n        },\n        \"rate_budget_and_units\":{\n            \"source_rate\":\"T_gamma(XL)=(C_L/hbar)q^(2L+1)B(XL); Gamma_gamma= hbar*T_gamma=C_L q^(2L+1)B(XL).\",\n            \"C_definition\":\"C_L=8pi(L+1)/{L[(2L+1)!!]^2}, dimensionless.\",\n            \"coefficients\":{str(L):exact(value) for L,value in C.items()},\n            \"ratios\":{\"C4_over_C2\":exact(c42),\"C3_over_C2\":exact(c32)},\n            \"electric_E4_bound\":\"BE4max=9Qabs^2 R^8/(4pi).\",\n            \"u4\":\"u4=(5/23814)*q^4*BE4max/B2min.\",\n            \"u3\":\"u3=(8/441)*q^2*BM3max/B2min.\",\n            \"combined_proof\":\"Gamma_ret=Gamma_M1+Gamma_E2>=C2 q^5 B2min>0. Gamma_om=Gamma_M3+Gamma_E4<=C3 q^7 BM3max+C4 q^9 BE4max. Therefore r_rate=Gamma_om/Gamma_ret<=u3+u4=u.\",\n            \"spin_normalization\":\"These inputs are B bounds, not bare RME bounds. No extra divisor 2Ji+1=5 is applied. The original same-pair source rate formulas already use Eq.2.3a.\",\n            \"Gaussian_dimensions\":\"[Qabs^2]=energy*length, [mu(M)]=charge*length, [B(E2)]=charge^2 length^4=energy length^5, [B(M3)]=moment^2 length^4=charge^2 length^6=energy length^7, [B(E4)]=charge^2 length^8=energy length^9. All widths above have energy units and u3/u4 are dimensionless.\",\n            \"conventional_unit_warning\":\"Do not divide bare numerical mu_N^2 b^2 by e^2 b^2 as though the ratio were unitless. In Gaussian units (mu_N/e)^2=(hbar/(2m_p c))^2 is a length^2; length/charge/moment conversions must share one unit system before multiplying by q^2. No actual numeric mu_N/e or E/R is inserted here.\",\n            \"photon_only\":\"Gamma denotes this pair's photon width; IC, E0/nonradiative channels, parent-level total branching, lifetime and elapsed-time errors are outside this budget.\",\n        },\n        \"observable_error_connection\":{\n            \"omitted_fraction\":\"epsilon=Gamma_om/(Gamma_ret+Gamma_om)=r_rate/(1+r_rate)<=u/(1+u)=epsilon_max.\",\n            \"probability\":\"For the prior common-rho radiation construction and any fixed effect 0<=E<=I: |P_full-P_M1E2|<=sqrt(epsilon)<=sqrt[u/(1+u)]. This is an absolute expected event-probability/model bound.\",\n            \"density_fixed_2_to_2\":\"Within the prior common full emitted four-mode subspace H_emit, kappa=5: |W_full(n)-W_M1E2(n)|<=5sqrt[u/(1+u)]. W has angular average1; density per steradian is W/(4pi), whose bound is divided by4pi.\",\n            \"density_trace_distance_space\":\"Use the prior full radiation-plus-final-spin emitted-space trace distance (or retained purifier), not an arbitrarily smaller reduced-photon trace distance while keeping kappa5.\",\n            \"bounded_response\":\"Probability effects may include a common bounded finite acceptance/efficiency response. A point density after a channel leaving H_emit requires a new output-support/operator bound; inverse/unfolded weights are not automatically bounded effects.\",\n            \"tolerance_rule\":\"For absolute probability tolerance0<etaP<1, u<=etaP^2/(1-etaP^2) is sufficient. For fixed-case W tolerance0<etaW<5, replace etaP by etaW/5. No actual tolerance or independent physical prior is claimed satisfied.\",\n            \"not_relative_or_conditional\":\"No uniform relative W error at a zero/node and no conditional polarization-ratio guarantee without an independently positive success/denominator floor.\",\n            \"not_statistical_precision\":\"These are expected-model bounds, not confidence intervals, finite-count separation, experimental error bars or a guarantee for fitted parameters.\",\n        },\n        \"dimensionless_chart_and_one_synthetic_control\":{\n            \"definitions\":\"zeta=qR; beta2=B2min/(Qabs^2 R^4)>0; m3budget=mu(M)*A3/(Qabs R)>=0.\",\n            \"u3_exact\":exact(u3_dimensionless),\"u4_exact\":exact(u4_dimensionless),\n            \"chosen_inputs\":{\"zeta\":\"1/10\",\"m3budget\":\"1/10\",\"beta2\":\"1/(4pi)\"},\n            \"u3\":exact(u3s),\"u4\":exact(u4s),\"u\":exact(us),\"epsilon_ceiling\":exact(epsmax),\n            \"probability_error_ceiling\":exact(sp.sqrt(epsmax)),\n            \"probability_error_ceiling_decimal\":float(sp.sqrt(epsmax)),\n            \"W_error_ceiling\":exact(5*sp.sqrt(epsmax)),\n            \"W_error_ceiling_decimal\":float(5*sp.sqrt(epsmax)),\n            \"boundary\":\"Only conditional dimensionless arithmetic. No absolute energy/radius, measured B, particle/current model, actual rho, physical realization or independent support/moment/floor evidence is assigned. Long decimals do not represent experimental precision.\",\n        },\n        \"failure_edges_and_open_inputs\":{\n            \"B2_zero_or_no_floor\":\"If B(E2)=0 or no independent B2min>0 exists, this denominator route does not control u. As beta2->0+ at fixed nonzero zeta, the upper budget diverges and epsilon_max tends to1. A different retained-rate-floor route would need its own independent premise.\",\n            \"no_moment_or_domain\":\"Without a common domain and finite controlled orbital/spin/current moments, the M3 numerator bound is unavailable. Radius and normalization alone do not repair it; the weaker Frobenius coefficient147 also needs those moments.\",\n            \"A3_zero\":\"A3=0 sets this M3 upper budget to0 but does not remove E4; no division by A3 is used in the dimensionless chart.\",\n            \"q_zero\":\"For fixed valid priors and q->0+ the algebraic u tends to0. At q=0 all emitting widths vanish, so normalized emitted-state fractions/ratios are not defined; no exactly-zero-energy photon prediction is made.\",\n            \"incompatible_priors\":\"Qabs=0 cannot support an independent positive E2 floor in this adopted point-charge model. Any floor/support/moment set must be independently valid and jointly feasible.\",\n            \"changing_priors_limit\":\"Small qR alone is insufficient if the E2 floor shrinks or the magnetic moment ceiling grows with q; the controlled fixed-prior limit must be checked.\",\n            \"physical_domain\":\"High orbital moments can leave the nonrel momentum/velocity domain. Existing magnetic-domain bounds and any actual Hamiltonian/kinematic constraints must be retained before applying this mathematical budget to physics.\",\n            \"missing_current_error\":\"Finite-q/current/relativistic/effective operator and support-tail errors are additional errors, not automatically absorbed into u. This conditional four-mode budget does not establish their smallness.\",\n            \"current_stop_boundary\":\"No actual independent prior inputs were supplied. The gap is closed as a conditional theorem and reproduction artifact; no real M1/E2 truncation is declared valid.\",\n        },\n        \"source_vs_inference\":{\n            \"direct_source\":\"Printed rate, B and electric/magnetic operator conventions in LKH82 p121.\",\n            \"existing_Wiki_derivations\":\"Electric hard-support theorem, magnetic-domain boundary, 95-check probability and329-check finite emitted-space density theorems.\",\n            \"new_reconstruction\":\"Explicit M3 gradient Gram/spectral inequality, moment bound, common-unit M3+E4 rate ceiling and their conditional error-budget synthesis.\",\n            \"experimental_evidence\":\"None added; no new paper/nucleus/card, physical data, source-authored bound, manuscript admission, human-review status or L4 result.\",\n        },\n        \"checks\":{\"passed_by_group\":dict(sorted(counts.items())),\"total_passed\":sum(counts.values()),\"failures\":0},\n        \"changed_paths\":[CODE_REL,RECEIPT_REL],\n        \"reproducibility\":{\n            \"code\":CODE_REL,\"script_sha256\":digest(code_path),\"source_code\":code_path.read_text(encoding=\"utf-8\"),\n            \"python_version\":sys.version.split()[0],\"sympy_version\":sp.__version__,\"dependency_path\":dep_rel,\n            \"network_requests\":0,\"default_command\":\"python3 \"+CODE_REL,\n            \"exclusive_creation_command\":\"python3 \"+CODE_REL+\" --write-receipt\",\n            \"embedded_replay\":\"Save source_code to a temporary Python file and run python3 <file> --root /workspace/wiki. Default execution is offline/read-only; prior scripts are never executed. Do not use --write-receipt to replay an existing artifact.\",\n            \"write_policy\":\"Only the owned controlled-four-mode-truncation tmp directory and exclusive authorized JSON creation. Old receipts, canonical/report, run/state, raw/PLAN, system/Git and review flags remain unmodified.\",\n        },\n    }\n\n\ndef main() -> None:\n    parser=argparse.ArgumentParser(description=__doc__)\n    parser.add_argument(\"--root\",type=Path,default=Path(__file__).resolve().parents[4])\n    parser.add_argument(\"--write-receipt\",action=\"store_true\")\n    parser.add_argument(\"--print-receipt\",action=\"store_true\")\n    args=parser.parse_args()\n    root=args.root.resolve()\n    receipt=build_receipt(root)\n    if args.write_receipt:\n        with (root/RECEIPT_REL).open(\"x\",encoding=\"utf-8\",newline=\"\\n\") as stream:\n            json.dump(receipt,stream,ensure_ascii=False,indent=2)\n            stream.write(\"\\n\")\n    if args.print_receipt:\n        print(json.dumps(receipt,ensure_ascii=False,indent=2))\n    else:\n        print(json.dumps({\n            \"artifact\":RECEIPT_REL if args.write_receipt else None,\n            \"checks\":receipt[\"checks\"],\n            \"M3_Gram\":receipt[\"M3_gradient_Gram_proof\"][\"at_n_z\"],\n            \"M3_bound\":receipt[\"M3_operator_bound\"][\"result\"],\n            \"source_coefficient_ratios\":receipt[\"rate_budget_and_units\"][\"ratios\"],\n            \"synthetic_control\":receipt[\"dimensionless_chart_and_one_synthetic_control\"],\n            \"day_index\":8,\"run_closed\":False,\"network_requests\":0,\n        },ensure_ascii=False,indent=2))\n\n\nif __name__==\"__main__\":\n    main()\n",
+    "python_version": "3.12.3",
+    "sympy_version": "1.14.0",
+    "dependency_path": "tmp/day8-20261007/rose-brink/python-deps",
+    "network_requests": 0,
+    "default_command": "python3 tmp/day8-20261007/lange-kumar/controlled-four-mode-truncation/controlled_four_mode_truncation.py",
+    "exclusive_creation_command": "python3 tmp/day8-20261007/lange-kumar/controlled-four-mode-truncation/controlled_four_mode_truncation.py --write-receipt",
+    "embedded_replay": "Save source_code to a temporary Python file and run python3 <file> --root /workspace/wiki. Default execution is offline/read-only; prior scripts are never executed. Do not use --write-receipt to replay an existing artifact.",
+    "write_policy": "Only the owned controlled-four-mode-truncation tmp directory and exclusive authorized JSON creation. Old receipts, canonical/report, run/state, raw/PLAN, system/Git and review flags remain unmodified."
+  }
+}

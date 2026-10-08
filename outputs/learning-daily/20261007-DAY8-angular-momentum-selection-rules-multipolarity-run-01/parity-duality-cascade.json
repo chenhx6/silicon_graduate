@@ -1,0 +1,1002 @@
+{
+  "schema_version": 1,
+  "created_at_utc": "2026-10-07T20:33:09.330459+00:00",
+  "artifact_kind": "bounded-Day8-L2-primary-parity-duality-and-ordered-cascade-tags",
+  "status": "secondary_only_invariant_primary_linear_joint_tags_swap",
+  "day_index": 8,
+  "run_closed": false,
+  "new_source_or_course_card": false,
+  "new_session_or_goal": false,
+  "experimental_data_fit": false,
+  "L4": false,
+  "evidence_class": "Our exact RB-phase/CG/Jones/density reconstruction; a conditional ideal comparison, not a measured parity assignment.",
+  "inputs": [
+    {
+      "path": "outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/truncation-observable-bound.json",
+      "sha256": "8d836c358937581ae05b9923c2f222938d56cce493c4cb5056299ed550f3cec9"
+    },
+    {
+      "path": "outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/finite-rank-density-bound.json",
+      "sha256": "2636cac3929b3b28bb5b29badf5bc9df7e74d7d16378db42cb726d0bbdfe8538"
+    },
+    {
+      "path": "outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/cascade-companion-discriminant.json",
+      "sha256": "d4370e9e1b616fa229a3443289758c033ce24cab3603b3d33c6ae8a790edf9a0"
+    },
+    {
+      "path": "outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/cascade-local-rank.json",
+      "sha256": "0a89fe75b014987ba7ed3cb1d3525dfc593a63ed35e0d207318b436ae30591ac"
+    }
+  ],
+  "source": {
+    "page": "knowledge/sources/rose-brink-1967-phase-defined-angular-distributions.md",
+    "raw_path": "raw/papers/gpt/high-spin-20260920/multipolarity/mixing ratio/1967_Rose et al_Angular Distributions of Gamma Rays in Terms of Phase-Defined Reduced Matrix Elements.pdf",
+    "raw_sha256": "8f846b61b9320de291ee5600126c5e286a0fe05968df819696816f0dc1ec57dc",
+    "locators": [
+      "printed316/PDF11 Eq3.24 q^pi/coherent multipoles, linear-polarization paragraph and WE ordering",
+      "printed318/PDF13 Eq3.29 integrated photon width",
+      "printed325/PDF20 Eqs3.65-3.68 first-circular-tag middle population",
+      "printed326/PDF21 Eqs3.69-3.73 first-population/secondary-response factorization",
+      "printed312/PDF7 footnote7 rotation sign"
+    ],
+    "linear_tag_boundary": "Primary linear selection creates offdiagonal middle coherences. Use full Eq3.24/Jones R, not a diagonal-population shortcut in compact Eq3.73.",
+    "source_pattern": "RB separates first-created middle population from the observed secondary response. Our duality cancels in the first circular/unobserved sums; it does not identify photon1 E/M from photon2 polarization."
+  },
+  "setup": {
+    "cascade": "2? -> 2+ -> 0+",
+    "primary_base": "initial2+, pureM1 -> middle2+",
+    "primary_dual": "initial2-, pureE1 -> middle2+",
+    "base_modes": [
+      "M1",
+      "E2",
+      "M3",
+      "E4"
+    ],
+    "dual_modes": [
+      "E1",
+      "M2",
+      "E3",
+      "M4"
+    ],
+    "pi_base": [
+      1,
+      0,
+      1,
+      0
+    ],
+    "pi_dual": [
+      0,
+      1,
+      0,
+      1
+    ],
+    "rho_initial": "I5/5",
+    "geometry": {
+      "theta1": "0",
+      "theta2": "pi/4",
+      "phi1_phi2": [
+        "0",
+        "0"
+      ]
+    },
+    "secondary": "independently pureE2, a2=1,S2=1; middle2+/final0+ parity anchors given",
+    "bounded_controls": "PureL1 plus only mixeda=(1,1/2,1/3,1/4) identity check at the original geometry. No angle search.",
+    "width_matching": "Same source-normalized interaction a_L=<Ji||T_L^pi||Jf>/sqrt(2L+1), photon energy and S1 give equal partial-photon width. This is a chosen radiative condition, not equal bare BM electric/magnetic RMEs or equal physical priors.",
+    "units": "Positive component intensities are dimensionless normalized angular/joint densities, not raw counts or finite-bin probabilities."
+  },
+  "general_proof": {
+    "identity": "q^(1-pi)=q*q^pi forq=+/-1, so Adual_q=q*Abase_q at every direction when spinCG and radiativea are matched.",
+    "unobserved_and_circular_middle": "R=sum_q A_q^dagger rho A_q/(2S1) is identical, as is each circular R_q. Any primary selection diagonal in helicity preserves it.",
+    "secondary_any_measurement": "For any fixed secondary effectF, Tr(Rdual F)=Tr(Rbase F), also after a common middle-state channel. Secondary direction or linear/circular polarization alone cannot distinguish this matched primary pair.",
+    "primary_photon_matrix": "Hdual=Z Hbase Z, Z=diag(-1,+1) in helicity(-,+) order. Trace and circular diagonals are unchanged; offdiagonal linear Stokes terms reverse.",
+    "linear_swap": "Ax=(Aminus-Aplus)/sqrt2,Ay=(Aminus+Aplus)/sqrt2. Dual Ax=-Ay_base,Ay=-Ax_base, so middleRx/Ry and subsequent joint intensities swap.",
+    "fixed_axes_vs_gauge": "The physical analyzers remain fixed. A passive helicity-basis rephasing would transform analyzers as well and preserve all probabilities; that is not this source-hypothesis comparison.",
+    "rho_scope": "The same arbitrary normalized initial spin density may be unknown. Changing amplitudes, feeding/population selection, transition identity or downstream channel is outside this equality."
+  },
+  "CG_Jones_conventions": {
+    "first_source_amplitude": "sum_L q^pi_L sqrt(2L+1) a_L CG(2,L,2;Mf,Mi-Mf,Mi) d^L_(Mi-Mf,q)(theta1)",
+    "first_density": "R=sum_q A_q^dagger rho_initial A_q/(2S1); primaryH_qqprime=Tr(A_q^dagger rho_initial A_qprime)/(2S1)",
+    "second_full_CG": "A2_q(m)=sqrt5 CG(0,2,2;0,m,m) d^2_(m,q)(pi/4)",
+    "rotation": "SymPy wigner_d_small(2,-pi/4); descending m indexing is converted explicitly",
+    "helicity_order": [
+      "-1",
+      "+1"
+    ],
+    "Z": [
+      [
+        "-1",
+        "0"
+      ],
+      [
+        "0",
+        "1"
+      ]
+    ],
+    "Jones_x": [
+      [
+        "sqrt(2)/2"
+      ],
+      [
+        "-sqrt(2)/2"
+      ]
+    ],
+    "Jones_y": [
+      [
+        "sqrt(2)/2"
+      ],
+      [
+        "sqrt(2)/2"
+      ]
+    ],
+    "first_axes": "x1=globalx in gamma1/gamma2(xz) plane, y1=globaly normal to it",
+    "second_axes": "x2=(cos(theta2),0,-sin(theta2)), y2=(0,1,0)",
+    "coherence": "The intermediate m sum is taken before modulus squaring; first/second helicity or Jones paths are then summed when unobserved.",
+    "positive_and_signed": "Ix,Iy and two-photon components are positive Gram intensities. SignedN=Ix-Iy. NormalizedP=N/(Ix+Iy) refers to its stated marginal or selected event.",
+    "no_sign_threshold": "No universal positive=electric/negative=magnetic threshold; axis and analyzer calibration can reverse a signed Stokes convention."
+  },
+  "secondary_effects": {
+    "unpolarized": [
+      [
+        "15/16",
+        "5*sqrt(2)*sqrt(1/2 - sqrt(2)/4)*sqrt(sqrt(2)/4 + 1/2)/4",
+        "-5*sqrt(6)/16",
+        "5*sqrt(2)*sqrt(1/2 - sqrt(2)/4)*sqrt(sqrt(2)/4 + 1/2)/4",
+        "-5/16"
+      ],
+      [
+        "5*sqrt(2)*sqrt(1/2 - sqrt(2)/4)*sqrt(sqrt(2)/4 + 1/2)/4",
+        "5/8",
+        "0",
+        "5/8",
+        "-5*sqrt(2)*sqrt(1/2 - sqrt(2)/4)*sqrt(sqrt(2)/4 + 1/2)/4"
+      ],
+      [
+        "-5*sqrt(6)/16",
+        "0",
+        "15/8",
+        "0",
+        "-5*sqrt(6)/16"
+      ],
+      [
+        "5*sqrt(2)*sqrt(1/2 - sqrt(2)/4)*sqrt(sqrt(2)/4 + 1/2)/4",
+        "5/8",
+        "0",
+        "5/8",
+        "-5*sqrt(2)*sqrt(1/2 - sqrt(2)/4)*sqrt(sqrt(2)/4 + 1/2)/4"
+      ],
+      [
+        "-5/16",
+        "-5*sqrt(2)*sqrt(1/2 - sqrt(2)/4)*sqrt(sqrt(2)/4 + 1/2)/4",
+        "-5*sqrt(6)/16",
+        "-5*sqrt(2)*sqrt(1/2 - sqrt(2)/4)*sqrt(sqrt(2)/4 + 1/2)/4",
+        "15/16"
+      ]
+    ],
+    "x": [
+      [
+        "5/16",
+        "0",
+        "-5*sqrt(6)/16",
+        "0",
+        "5/16"
+      ],
+      [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "-5*sqrt(6)/16",
+        "0",
+        "15/8",
+        "0",
+        "-5*sqrt(6)/16"
+      ],
+      [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "5/16",
+        "0",
+        "-5*sqrt(6)/16",
+        "0",
+        "5/16"
+      ]
+    ],
+    "y": [
+      [
+        "5/8",
+        "5*sqrt(2)*sqrt(1/2 - sqrt(2)/4)*sqrt(sqrt(2)/4 + 1/2)/4",
+        "0",
+        "5*sqrt(2)*sqrt(1/2 - sqrt(2)/4)*sqrt(sqrt(2)/4 + 1/2)/4",
+        "-5/8"
+      ],
+      [
+        "5*sqrt(2)*sqrt(1/2 - sqrt(2)/4)*sqrt(sqrt(2)/4 + 1/2)/4",
+        "5/8",
+        "0",
+        "5/8",
+        "-5*sqrt(2)*sqrt(1/2 - sqrt(2)/4)*sqrt(sqrt(2)/4 + 1/2)/4"
+      ],
+      [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "5*sqrt(2)*sqrt(1/2 - sqrt(2)/4)*sqrt(sqrt(2)/4 + 1/2)/4",
+        "5/8",
+        "0",
+        "5/8",
+        "-5*sqrt(2)*sqrt(1/2 - sqrt(2)/4)*sqrt(sqrt(2)/4 + 1/2)/4"
+      ],
+      [
+        "-5/8",
+        "-5*sqrt(2)*sqrt(1/2 - sqrt(2)/4)*sqrt(sqrt(2)/4 + 1/2)/4",
+        "0",
+        "-5*sqrt(2)*sqrt(1/2 - sqrt(2)/4)*sqrt(sqrt(2)/4 + 1/2)/4",
+        "5/8"
+      ]
+    ]
+  },
+  "exact_cases": {
+    "pure_L1": {
+      "radiative_a_L1_to4": [
+        "1",
+        "0",
+        "0",
+        "0"
+      ],
+      "S1_same": "1",
+      "primary_H_standalone_same": [
+        [
+          "1/2",
+          "0"
+        ],
+        [
+          "0",
+          "1/2"
+        ]
+      ],
+      "primary_standalone_N": "0",
+      "primary_standalone_P": "0",
+      "middle_R_unobserved_primary_same": [
+        [
+          "1/10",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1/4",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "3/10",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "1/4",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "1/10"
+        ]
+      ],
+      "secondary_H_unobserved_primary_same": [
+        [
+          "17/32",
+          "-3/32"
+        ],
+        [
+          "-3/32",
+          "17/32"
+        ]
+      ],
+      "W12_unpolarized_same": "17/16",
+      "secondary_only_linear_components_same": {
+        "x": "5/8",
+        "y": "7/16"
+      },
+      "secondary_only_signed_N_same": "3/16",
+      "secondary_only_normalized_P_same": "3/17",
+      "primary_linear_tags": {
+        "first_M_types_initial_plus": {
+          "tags": {
+            "x": {
+              "middle_R": [
+                [
+                  "1/20",
+                  "0",
+                  "-sqrt(6)/40",
+                  "0",
+                  "0"
+                ],
+                [
+                  "0",
+                  "1/8",
+                  "0",
+                  "-3/40",
+                  "0"
+                ],
+                [
+                  "-sqrt(6)/40",
+                  "0",
+                  "3/20",
+                  "0",
+                  "-sqrt(6)/40"
+                ],
+                [
+                  "0",
+                  "-3/40",
+                  "0",
+                  "1/8",
+                  "0"
+                ],
+                [
+                  "0",
+                  "0",
+                  "-sqrt(6)/40",
+                  "0",
+                  "1/20"
+                ]
+              ],
+              "primary_standalone_intensity": "1/2",
+              "joint_secondary_unpolarized": "5/8",
+              "conditional_secondary_W": "5/4",
+              "secondary_linear_joint_components": {
+                "x": "1/2",
+                "y": "1/8"
+              },
+              "secondary_signed_N_given_primary_tag": "3/8",
+              "secondary_normalized_P_given_primary_tag": "3/5"
+            },
+            "y": {
+              "middle_R": [
+                [
+                  "1/20",
+                  "0",
+                  "sqrt(6)/40",
+                  "0",
+                  "0"
+                ],
+                [
+                  "0",
+                  "1/8",
+                  "0",
+                  "3/40",
+                  "0"
+                ],
+                [
+                  "sqrt(6)/40",
+                  "0",
+                  "3/20",
+                  "0",
+                  "sqrt(6)/40"
+                ],
+                [
+                  "0",
+                  "3/40",
+                  "0",
+                  "1/8",
+                  "0"
+                ],
+                [
+                  "0",
+                  "0",
+                  "sqrt(6)/40",
+                  "0",
+                  "1/20"
+                ]
+              ],
+              "primary_standalone_intensity": "1/2",
+              "joint_secondary_unpolarized": "7/16",
+              "conditional_secondary_W": "7/8",
+              "secondary_linear_joint_components": {
+                "x": "1/8",
+                "y": "5/16"
+              },
+              "secondary_signed_N_given_primary_tag": "-3/16",
+              "secondary_normalized_P_given_primary_tag": "-3/7"
+            }
+          },
+          "signed_primary_joint_N": "3/16",
+          "normalized_primary_P_given_secondary_direction": "3/17"
+        },
+        "first_dual_E_types_initial_minus": {
+          "tags": {
+            "x": {
+              "middle_R": [
+                [
+                  "1/20",
+                  "0",
+                  "sqrt(6)/40",
+                  "0",
+                  "0"
+                ],
+                [
+                  "0",
+                  "1/8",
+                  "0",
+                  "3/40",
+                  "0"
+                ],
+                [
+                  "sqrt(6)/40",
+                  "0",
+                  "3/20",
+                  "0",
+                  "sqrt(6)/40"
+                ],
+                [
+                  "0",
+                  "3/40",
+                  "0",
+                  "1/8",
+                  "0"
+                ],
+                [
+                  "0",
+                  "0",
+                  "sqrt(6)/40",
+                  "0",
+                  "1/20"
+                ]
+              ],
+              "primary_standalone_intensity": "1/2",
+              "joint_secondary_unpolarized": "7/16",
+              "conditional_secondary_W": "7/8",
+              "secondary_linear_joint_components": {
+                "x": "1/8",
+                "y": "5/16"
+              },
+              "secondary_signed_N_given_primary_tag": "-3/16",
+              "secondary_normalized_P_given_primary_tag": "-3/7"
+            },
+            "y": {
+              "middle_R": [
+                [
+                  "1/20",
+                  "0",
+                  "-sqrt(6)/40",
+                  "0",
+                  "0"
+                ],
+                [
+                  "0",
+                  "1/8",
+                  "0",
+                  "-3/40",
+                  "0"
+                ],
+                [
+                  "-sqrt(6)/40",
+                  "0",
+                  "3/20",
+                  "0",
+                  "-sqrt(6)/40"
+                ],
+                [
+                  "0",
+                  "-3/40",
+                  "0",
+                  "1/8",
+                  "0"
+                ],
+                [
+                  "0",
+                  "0",
+                  "-sqrt(6)/40",
+                  "0",
+                  "1/20"
+                ]
+              ],
+              "primary_standalone_intensity": "1/2",
+              "joint_secondary_unpolarized": "5/8",
+              "conditional_secondary_W": "5/4",
+              "secondary_linear_joint_components": {
+                "x": "1/2",
+                "y": "1/8"
+              },
+              "secondary_signed_N_given_primary_tag": "3/8",
+              "secondary_normalized_P_given_primary_tag": "3/5"
+            }
+          },
+          "signed_primary_joint_N": "-3/16",
+          "normalized_primary_P_given_secondary_direction": "-3/17"
+        }
+      },
+      "joint_component_tables": {
+        "first_M_types_initial_plus": [
+          [
+            "1/2",
+            "1/8"
+          ],
+          [
+            "1/8",
+            "5/16"
+          ]
+        ],
+        "first_dual_E_types_initial_minus": [
+          [
+            "1/8",
+            "5/16"
+          ],
+          [
+            "1/2",
+            "1/8"
+          ]
+        ]
+      },
+      "table_order": "rows=primaryx,primaryy; columns=secondaryx,secondaryy"
+    },
+    "mixed_identity_control": {
+      "radiative_a_L1_to4": [
+        "1",
+        "1/2",
+        "1/3",
+        "1/4"
+      ],
+      "S1_same": "205/144",
+      "primary_H_standalone_same": [
+        [
+          "1/2",
+          "0"
+        ],
+        [
+          "0",
+          "1/2"
+        ]
+      ],
+      "primary_standalone_N": "0",
+      "primary_standalone_P": "0",
+      "middle_R_unobserved_primary_same": [
+        [
+          "-78*sqrt(105)/7175 - 54*sqrt(70)/7175 + 213*sqrt(6)/7175 + 3477/28700",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "6*sqrt(105)/1435 + 24*sqrt(70)/1435 + 1/4",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "-132*sqrt(70)/7175 - 426*sqrt(6)/7175 + 96*sqrt(105)/7175 + 1849/7175",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "6*sqrt(105)/1435 + 24*sqrt(70)/1435 + 1/4",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "-78*sqrt(105)/7175 - 54*sqrt(70)/7175 + 213*sqrt(6)/7175 + 3477/28700"
+        ]
+      ],
+      "secondary_H_unobserved_primary_same": [
+        [
+          "-159*sqrt(70)/11480 - 639*sqrt(6)/22960 + 57*sqrt(105)/11480 + 46969/91840",
+          "-153*sqrt(105)/11480 - 623/13120 + 213*sqrt(6)/3280 + 291*sqrt(70)/11480"
+        ],
+        [
+          "-153*sqrt(105)/11480 - 623/13120 + 213*sqrt(6)/3280 + 291*sqrt(70)/11480",
+          "-159*sqrt(70)/11480 - 639*sqrt(6)/22960 + 57*sqrt(105)/11480 + 46969/91840"
+        ]
+      ],
+      "W12_unpolarized_same": "-159*sqrt(70)/5740 - 639*sqrt(6)/11480 + 57*sqrt(105)/5740 + 46969/45920",
+      "secondary_only_linear_components_same": {
+        "x": "-45*sqrt(70)/1148 - 213*sqrt(6)/2296 + 3*sqrt(105)/164 + 5133/9184",
+        "y": "-12*sqrt(105)/1435 + 213*sqrt(6)/5740 + 33*sqrt(70)/2870 + 2663/5740"
+      },
+      "secondary_only_signed_N_same": "-291*sqrt(70)/5740 - 213*sqrt(6)/1640 + 623/6560 + 153*sqrt(105)/5740",
+      "secondary_only_normalized_P_same": "(-291*sqrt(70)/5740 - 213*sqrt(6)/1640 + 623/6560 + 153*sqrt(105)/5740)/(-159*sqrt(70)/5740 - 639*sqrt(6)/11480 + 57*sqrt(105)/5740 + 46969/45920)",
+      "primary_linear_tags": {
+        "first_M_types_initial_plus": {
+          "tags": {
+            "x": {
+              "middle_R": [
+                [
+                  "-39*sqrt(105)/7175 - 27*sqrt(70)/7175 + 213*sqrt(6)/14350 + 3477/57400",
+                  "0",
+                  "-761*sqrt(6)/57400 - 393/28700 + 9*sqrt(105)/14350 + 3*sqrt(70)/1025",
+                  "0",
+                  "0"
+                ],
+                [
+                  "0",
+                  "3*sqrt(105)/1435 + 12*sqrt(70)/1435 + 1/8",
+                  "0",
+                  "-1849/28700 - 33*sqrt(70)/7175 + 24*sqrt(105)/7175 + 213*sqrt(6)/14350",
+                  "0"
+                ],
+                [
+                  "-761*sqrt(6)/57400 - 393/28700 + 9*sqrt(105)/14350 + 3*sqrt(70)/1025",
+                  "0",
+                  "-66*sqrt(70)/7175 - 213*sqrt(6)/7175 + 48*sqrt(105)/7175 + 1849/14350",
+                  "0",
+                  "-761*sqrt(6)/57400 - 393/28700 + 9*sqrt(105)/14350 + 3*sqrt(70)/1025"
+                ],
+                [
+                  "0",
+                  "-1849/28700 - 33*sqrt(70)/7175 + 24*sqrt(105)/7175 + 213*sqrt(6)/14350",
+                  "0",
+                  "3*sqrt(105)/1435 + 12*sqrt(70)/1435 + 1/8",
+                  "0"
+                ],
+                [
+                  "0",
+                  "0",
+                  "-761*sqrt(6)/57400 - 393/28700 + 9*sqrt(105)/14350 + 3*sqrt(70)/1025",
+                  "0",
+                  "-39*sqrt(105)/7175 - 27*sqrt(70)/7175 + 213*sqrt(6)/14350 + 3477/57400"
+                ]
+              ],
+              "primary_standalone_intensity": "1/2",
+              "joint_secondary_unpolarized": "-9*sqrt(70)/410 + 3*sqrt(105)/1640 + 9*sqrt(6)/1148 + 9741/18368",
+              "conditional_secondary_W": "-9*sqrt(70)/205 + 3*sqrt(105)/820 + 9*sqrt(6)/574 + 9741/9184",
+              "secondary_linear_joint_components": {
+                "x": "-9*sqrt(70)/410 - 6*sqrt(6)/205 + 3*sqrt(105)/1640 + 4971/13120",
+                "y": "213*sqrt(6)/5740 + 3477/22960"
+              },
+              "secondary_signed_N_given_primary_tag": "-9*sqrt(70)/410 - 381*sqrt(6)/5740 + 3*sqrt(105)/1640 + 20889/91840",
+              "secondary_normalized_P_given_primary_tag": "(-9*sqrt(70)/410 - 381*sqrt(6)/5740 + 3*sqrt(105)/1640 + 20889/91840)/(-9*sqrt(70)/410 + 3*sqrt(105)/1640 + 9*sqrt(6)/1148 + 9741/18368)"
+            },
+            "y": {
+              "middle_R": [
+                [
+                  "-39*sqrt(105)/7175 - 27*sqrt(70)/7175 + 213*sqrt(6)/14350 + 3477/57400",
+                  "0",
+                  "-3*sqrt(70)/1025 - 9*sqrt(105)/14350 + 393/28700 + 761*sqrt(6)/57400",
+                  "0",
+                  "0"
+                ],
+                [
+                  "0",
+                  "3*sqrt(105)/1435 + 12*sqrt(70)/1435 + 1/8",
+                  "0",
+                  "-213*sqrt(6)/14350 - 24*sqrt(105)/7175 + 33*sqrt(70)/7175 + 1849/28700",
+                  "0"
+                ],
+                [
+                  "-3*sqrt(70)/1025 - 9*sqrt(105)/14350 + 393/28700 + 761*sqrt(6)/57400",
+                  "0",
+                  "-66*sqrt(70)/7175 - 213*sqrt(6)/7175 + 48*sqrt(105)/7175 + 1849/14350",
+                  "0",
+                  "-3*sqrt(70)/1025 - 9*sqrt(105)/14350 + 393/28700 + 761*sqrt(6)/57400"
+                ],
+                [
+                  "0",
+                  "-213*sqrt(6)/14350 - 24*sqrt(105)/7175 + 33*sqrt(70)/7175 + 1849/28700",
+                  "0",
+                  "3*sqrt(105)/1435 + 12*sqrt(70)/1435 + 1/8",
+                  "0"
+                ],
+                [
+                  "0",
+                  "0",
+                  "-3*sqrt(70)/1025 - 9*sqrt(105)/14350 + 393/28700 + 761*sqrt(6)/57400",
+                  "0",
+                  "-39*sqrt(105)/7175 - 27*sqrt(70)/7175 + 213*sqrt(6)/14350 + 3477/57400"
+                ]
+              ],
+              "primary_standalone_intensity": "1/2",
+              "joint_secondary_unpolarized": "-729*sqrt(6)/11480 - 33*sqrt(70)/5740 + 93*sqrt(105)/11480 + 45233/91840",
+              "conditional_secondary_W": "-729*sqrt(6)/5740 - 33*sqrt(70)/2870 + 93*sqrt(105)/5740 + 45233/45920",
+              "secondary_linear_joint_components": {
+                "x": "-729*sqrt(6)/11480 - 99*sqrt(70)/5740 + 27*sqrt(105)/1640 + 16533/91840",
+                "y": "-12*sqrt(105)/1435 + 33*sqrt(70)/2870 + 5/16"
+              },
+              "secondary_signed_N_given_primary_tag": "-33*sqrt(70)/1148 - 729*sqrt(6)/11480 - 12167/91840 + 57*sqrt(105)/2296",
+              "secondary_normalized_P_given_primary_tag": "(-33*sqrt(70)/1148 - 729*sqrt(6)/11480 - 12167/91840 + 57*sqrt(105)/2296)/(-729*sqrt(6)/11480 - 33*sqrt(70)/5740 + 93*sqrt(105)/11480 + 45233/91840)"
+            }
+          },
+          "signed_primary_joint_N": "-93*sqrt(70)/5740 - 9*sqrt(105)/1435 + 31/820 + 117*sqrt(6)/1640",
+          "normalized_primary_P_given_secondary_direction": "(-93*sqrt(70)/5740 - 9*sqrt(105)/1435 + 31/820 + 117*sqrt(6)/1640)/(-159*sqrt(70)/5740 - 639*sqrt(6)/11480 + 57*sqrt(105)/5740 + 46969/45920)"
+        },
+        "first_dual_E_types_initial_minus": {
+          "tags": {
+            "x": {
+              "middle_R": [
+                [
+                  "-39*sqrt(105)/7175 - 27*sqrt(70)/7175 + 213*sqrt(6)/14350 + 3477/57400",
+                  "0",
+                  "-3*sqrt(70)/1025 - 9*sqrt(105)/14350 + 393/28700 + 761*sqrt(6)/57400",
+                  "0",
+                  "0"
+                ],
+                [
+                  "0",
+                  "3*sqrt(105)/1435 + 12*sqrt(70)/1435 + 1/8",
+                  "0",
+                  "-213*sqrt(6)/14350 - 24*sqrt(105)/7175 + 33*sqrt(70)/7175 + 1849/28700",
+                  "0"
+                ],
+                [
+                  "-3*sqrt(70)/1025 - 9*sqrt(105)/14350 + 393/28700 + 761*sqrt(6)/57400",
+                  "0",
+                  "-66*sqrt(70)/7175 - 213*sqrt(6)/7175 + 48*sqrt(105)/7175 + 1849/14350",
+                  "0",
+                  "-3*sqrt(70)/1025 - 9*sqrt(105)/14350 + 393/28700 + 761*sqrt(6)/57400"
+                ],
+                [
+                  "0",
+                  "-213*sqrt(6)/14350 - 24*sqrt(105)/7175 + 33*sqrt(70)/7175 + 1849/28700",
+                  "0",
+                  "3*sqrt(105)/1435 + 12*sqrt(70)/1435 + 1/8",
+                  "0"
+                ],
+                [
+                  "0",
+                  "0",
+                  "-3*sqrt(70)/1025 - 9*sqrt(105)/14350 + 393/28700 + 761*sqrt(6)/57400",
+                  "0",
+                  "-39*sqrt(105)/7175 - 27*sqrt(70)/7175 + 213*sqrt(6)/14350 + 3477/57400"
+                ]
+              ],
+              "primary_standalone_intensity": "1/2",
+              "joint_secondary_unpolarized": "-729*sqrt(6)/11480 - 33*sqrt(70)/5740 + 93*sqrt(105)/11480 + 45233/91840",
+              "conditional_secondary_W": "-729*sqrt(6)/5740 - 33*sqrt(70)/2870 + 93*sqrt(105)/5740 + 45233/45920",
+              "secondary_linear_joint_components": {
+                "x": "-729*sqrt(6)/11480 - 99*sqrt(70)/5740 + 27*sqrt(105)/1640 + 16533/91840",
+                "y": "-12*sqrt(105)/1435 + 33*sqrt(70)/2870 + 5/16"
+              },
+              "secondary_signed_N_given_primary_tag": "-33*sqrt(70)/1148 - 729*sqrt(6)/11480 - 12167/91840 + 57*sqrt(105)/2296",
+              "secondary_normalized_P_given_primary_tag": "(-33*sqrt(70)/1148 - 729*sqrt(6)/11480 - 12167/91840 + 57*sqrt(105)/2296)/(-729*sqrt(6)/11480 - 33*sqrt(70)/5740 + 93*sqrt(105)/11480 + 45233/91840)"
+            },
+            "y": {
+              "middle_R": [
+                [
+                  "-39*sqrt(105)/7175 - 27*sqrt(70)/7175 + 213*sqrt(6)/14350 + 3477/57400",
+                  "0",
+                  "-761*sqrt(6)/57400 - 393/28700 + 9*sqrt(105)/14350 + 3*sqrt(70)/1025",
+                  "0",
+                  "0"
+                ],
+                [
+                  "0",
+                  "3*sqrt(105)/1435 + 12*sqrt(70)/1435 + 1/8",
+                  "0",
+                  "-1849/28700 - 33*sqrt(70)/7175 + 24*sqrt(105)/7175 + 213*sqrt(6)/14350",
+                  "0"
+                ],
+                [
+                  "-761*sqrt(6)/57400 - 393/28700 + 9*sqrt(105)/14350 + 3*sqrt(70)/1025",
+                  "0",
+                  "-66*sqrt(70)/7175 - 213*sqrt(6)/7175 + 48*sqrt(105)/7175 + 1849/14350",
+                  "0",
+                  "-761*sqrt(6)/57400 - 393/28700 + 9*sqrt(105)/14350 + 3*sqrt(70)/1025"
+                ],
+                [
+                  "0",
+                  "-1849/28700 - 33*sqrt(70)/7175 + 24*sqrt(105)/7175 + 213*sqrt(6)/14350",
+                  "0",
+                  "3*sqrt(105)/1435 + 12*sqrt(70)/1435 + 1/8",
+                  "0"
+                ],
+                [
+                  "0",
+                  "0",
+                  "-761*sqrt(6)/57400 - 393/28700 + 9*sqrt(105)/14350 + 3*sqrt(70)/1025",
+                  "0",
+                  "-39*sqrt(105)/7175 - 27*sqrt(70)/7175 + 213*sqrt(6)/14350 + 3477/57400"
+                ]
+              ],
+              "primary_standalone_intensity": "1/2",
+              "joint_secondary_unpolarized": "-9*sqrt(70)/410 + 3*sqrt(105)/1640 + 9*sqrt(6)/1148 + 9741/18368",
+              "conditional_secondary_W": "-9*sqrt(70)/205 + 3*sqrt(105)/820 + 9*sqrt(6)/574 + 9741/9184",
+              "secondary_linear_joint_components": {
+                "x": "-9*sqrt(70)/410 - 6*sqrt(6)/205 + 3*sqrt(105)/1640 + 4971/13120",
+                "y": "213*sqrt(6)/5740 + 3477/22960"
+              },
+              "secondary_signed_N_given_primary_tag": "-9*sqrt(70)/410 - 381*sqrt(6)/5740 + 3*sqrt(105)/1640 + 20889/91840",
+              "secondary_normalized_P_given_primary_tag": "(-9*sqrt(70)/410 - 381*sqrt(6)/5740 + 3*sqrt(105)/1640 + 20889/91840)/(-9*sqrt(70)/410 + 3*sqrt(105)/1640 + 9*sqrt(6)/1148 + 9741/18368)"
+            }
+          },
+          "signed_primary_joint_N": "-117*sqrt(6)/1640 - 31/820 + 9*sqrt(105)/1435 + 93*sqrt(70)/5740",
+          "normalized_primary_P_given_secondary_direction": "(-117*sqrt(6)/1640 - 31/820 + 9*sqrt(105)/1435 + 93*sqrt(70)/5740)/(-159*sqrt(70)/5740 - 639*sqrt(6)/11480 + 57*sqrt(105)/5740 + 46969/45920)"
+        }
+      },
+      "joint_component_tables": {
+        "first_M_types_initial_plus": [
+          [
+            "-9*sqrt(70)/410 - 6*sqrt(6)/205 + 3*sqrt(105)/1640 + 4971/13120",
+            "213*sqrt(6)/5740 + 3477/22960"
+          ],
+          [
+            "-729*sqrt(6)/11480 - 99*sqrt(70)/5740 + 27*sqrt(105)/1640 + 16533/91840",
+            "-12*sqrt(105)/1435 + 33*sqrt(70)/2870 + 5/16"
+          ]
+        ],
+        "first_dual_E_types_initial_minus": [
+          [
+            "-729*sqrt(6)/11480 - 99*sqrt(70)/5740 + 27*sqrt(105)/1640 + 16533/91840",
+            "-12*sqrt(105)/1435 + 33*sqrt(70)/2870 + 5/16"
+          ],
+          [
+            "-9*sqrt(70)/410 - 6*sqrt(6)/205 + 3*sqrt(105)/1640 + 4971/13120",
+            "213*sqrt(6)/5740 + 3477/22960"
+          ]
+        ]
+      },
+      "table_order": "rows=primaryx,primaryy; columns=secondaryx,secondaryy"
+    }
+  },
+  "interpretation": {
+    "primary_standalone": "Random initialrho gives H1=I2/2,P1=0 for both hypotheses. Standalone primary linear polarization is blind here.",
+    "primary_joint_selection": "Primarylinear tag plus secondarydirection gives(5/8,7/16) forM1 and the swapped pair forE1; primaryP conditioned on secondarydirection is+3/17,-3/17.",
+    "secondary_only": "Unobserved primary gives identicalR/H2; secondaryIx2=5/8,Iy2=7/16,P2=+3/17 forBOTH hypotheses. Equality of these numbers to one primary-tag pair is particular to this example and does not equate their roles.",
+    "parity_anchors": "Photon2 polarization can constrain photon2 multipolarity and the parity relation of its own levels. Independent level-parity anchors or first-transition constraints may enable an indirect chain inference; it is not direct photon1 E/M evidence.",
+    "needed_for_assignment": [
+      "independent spin/parity/gate anchors",
+      "tested lower/higher primary candidates and common initial population",
+      "identified ordering and common feeding/timewindow/deorientation",
+      "fixed axes and independently calibrated analysis power/acceptance/efficiency"
+    ],
+    "primary_response": "Secondary-only invariance assumes a polarization-blind or helicity-diagonal primary selection. Hidden primary linear sensitivity is already a primary polarization selection and needs modeling.",
+    "absent_inputs": "No measured counts/calibration, independent initial parity, microscopic current or higher-rank exclusion supplied. No experimental parity is assigned.",
+    "not_proved": [
+      "global amplitude/population uniqueness",
+      "nuclear realizability of matched radiative hypotheses",
+      "finite-count separability",
+      "universal signed-polarization type threshold",
+      "equality of bare BM E/M matrix elements"
+    ]
+  },
+  "checks": {
+    "results": {
+      "truncation-observable-bound_hash_before": true,
+      "finite-rank-density-bound_hash_before": true,
+      "cascade-companion-discriminant_hash_before": true,
+      "cascade-local-rank_hash_before": true,
+      "raw_hash_before": true,
+      "general_q_phase_identity_-1_0": true,
+      "general_q_phase_identity_-1_1": true,
+      "general_q_phase_identity_1_0": true,
+      "general_q_phase_identity_1_1": true,
+      "Jones_duality_swap_x": true,
+      "Jones_duality_swap_y": true,
+      "secondary_positive_Jones_components_sum": true,
+      "pure_L1_Adual_-1_equals_qAbase": true,
+      "pure_L1_circular_R_-1_unchanged": true,
+      "pure_L1_Adual_1_equals_qAbase": true,
+      "pure_L1_circular_R_1_unchanged": true,
+      "pure_L1_unobserved_middle_R_unchanged": true,
+      "pure_L1_primary_H_Zconjugation": true,
+      "pure_L1_standalone_primary_I2_over2": true,
+      "pure_L1_primary_W_one": true,
+      "pure_L1_secondary_entire_Jones_H_unchanged": true,
+      "pure_L1_joint_W_coherent_path_match": true,
+      "pure_L1_first_M_types_initial_plus_x_standalone_half": true,
+      "pure_L1_first_M_types_initial_plus_x_joint_path": true,
+      "pure_L1_first_M_types_initial_plus_xx_joint_Jones_path": true,
+      "pure_L1_first_M_types_initial_plus_xy_joint_Jones_path": true,
+      "pure_L1_first_M_types_initial_plus_x_secondary_component_sum": true,
+      "pure_L1_first_M_types_initial_plus_y_standalone_half": true,
+      "pure_L1_first_M_types_initial_plus_y_joint_path": true,
+      "pure_L1_first_M_types_initial_plus_yx_joint_Jones_path": true,
+      "pure_L1_first_M_types_initial_plus_yy_joint_Jones_path": true,
+      "pure_L1_first_M_types_initial_plus_y_secondary_component_sum": true,
+      "pure_L1_first_M_types_initial_plus_primary_component_sum": true,
+      "pure_L1_first_dual_E_types_initial_minus_x_standalone_half": true,
+      "pure_L1_first_dual_E_types_initial_minus_x_joint_path": true,
+      "pure_L1_first_dual_E_types_initial_minus_xx_joint_Jones_path": true,
+      "pure_L1_first_dual_E_types_initial_minus_xy_joint_Jones_path": true,
+      "pure_L1_first_dual_E_types_initial_minus_x_secondary_component_sum": true,
+      "pure_L1_first_dual_E_types_initial_minus_y_standalone_half": true,
+      "pure_L1_first_dual_E_types_initial_minus_y_joint_path": true,
+      "pure_L1_first_dual_E_types_initial_minus_yx_joint_Jones_path": true,
+      "pure_L1_first_dual_E_types_initial_minus_yy_joint_Jones_path": true,
+      "pure_L1_first_dual_E_types_initial_minus_y_secondary_component_sum": true,
+      "pure_L1_first_dual_E_types_initial_minus_primary_component_sum": true,
+      "pure_L1_middle_linear_R_swap_x": true,
+      "pure_L1_middle_linear_R_swap_y": true,
+      "pure_L1_joint_linear_table_rows_swap": true,
+      "pure_L1_secondary_only_x_unchanged": true,
+      "pure_L1_secondary_only_y_unchanged": true,
+      "mixed_identity_control_Adual_-1_equals_qAbase": true,
+      "mixed_identity_control_circular_R_-1_unchanged": true,
+      "mixed_identity_control_Adual_1_equals_qAbase": true,
+      "mixed_identity_control_circular_R_1_unchanged": true,
+      "mixed_identity_control_unobserved_middle_R_unchanged": true,
+      "mixed_identity_control_primary_H_Zconjugation": true,
+      "mixed_identity_control_standalone_primary_I2_over2": true,
+      "mixed_identity_control_primary_W_one": true,
+      "mixed_identity_control_secondary_entire_Jones_H_unchanged": true,
+      "mixed_identity_control_joint_W_coherent_path_match": true,
+      "mixed_identity_control_first_M_types_initial_plus_x_standalone_half": true,
+      "mixed_identity_control_first_M_types_initial_plus_x_joint_path": true,
+      "mixed_identity_control_first_M_types_initial_plus_xx_joint_Jones_path": true,
+      "mixed_identity_control_first_M_types_initial_plus_xy_joint_Jones_path": true,
+      "mixed_identity_control_first_M_types_initial_plus_x_secondary_component_sum": true,
+      "mixed_identity_control_first_M_types_initial_plus_y_standalone_half": true,
+      "mixed_identity_control_first_M_types_initial_plus_y_joint_path": true,
+      "mixed_identity_control_first_M_types_initial_plus_yx_joint_Jones_path": true,
+      "mixed_identity_control_first_M_types_initial_plus_yy_joint_Jones_path": true,
+      "mixed_identity_control_first_M_types_initial_plus_y_secondary_component_sum": true,
+      "mixed_identity_control_first_M_types_initial_plus_primary_component_sum": true,
+      "mixed_identity_control_first_dual_E_types_initial_minus_x_standalone_half": true,
+      "mixed_identity_control_first_dual_E_types_initial_minus_x_joint_path": true,
+      "mixed_identity_control_first_dual_E_types_initial_minus_xx_joint_Jones_path": true,
+      "mixed_identity_control_first_dual_E_types_initial_minus_xy_joint_Jones_path": true,
+      "mixed_identity_control_first_dual_E_types_initial_minus_x_secondary_component_sum": true,
+      "mixed_identity_control_first_dual_E_types_initial_minus_y_standalone_half": true,
+      "mixed_identity_control_first_dual_E_types_initial_minus_y_joint_path": true,
+      "mixed_identity_control_first_dual_E_types_initial_minus_yx_joint_Jones_path": true,
+      "mixed_identity_control_first_dual_E_types_initial_minus_yy_joint_Jones_path": true,
+      "mixed_identity_control_first_dual_E_types_initial_minus_y_secondary_component_sum": true,
+      "mixed_identity_control_first_dual_E_types_initial_minus_primary_component_sum": true,
+      "mixed_identity_control_middle_linear_R_swap_x": true,
+      "mixed_identity_control_middle_linear_R_swap_y": true,
+      "mixed_identity_control_joint_linear_table_rows_swap": true,
+      "mixed_identity_control_secondary_only_x_unchanged": true,
+      "mixed_identity_control_secondary_only_y_unchanged": true,
+      "pure_common_middle_R_explicit": true,
+      "pure_M1_primary_tags_5over8_7over16": true,
+      "pure_E1_primary_tags_swap": true,
+      "pure_joint_W17over16": true,
+      "pure_secondary_only_same_components": true,
+      "pure_secondary_only_P3over17_both": true,
+      "pure_primary_conditional_P_plusminus3over17": true,
+      "pure_positive_component_table_exact": true,
+      "truncation-observable-bound_bytes_unchanged_after": true,
+      "finite-rank-density-bound_bytes_unchanged_after": true,
+      "cascade-companion-discriminant_bytes_unchanged_after": true,
+      "cascade-local-rank_bytes_unchanged_after": true,
+      "raw_hash_after": true
+    },
+    "passed": 99,
+    "failures": 0,
+    "elapsed_seconds": 1.4977105000289157
+  },
+  "changed_paths": [
+    "tmp/day8-20261007/rose-brink/parity-duality-and-cascade-tags/parity_duality_cascade.py",
+    "outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/parity-duality-cascade.json"
+  ],
+  "reproducibility": {
+    "script_path": "tmp/day8-20261007/rose-brink/parity-duality-and-cascade-tags/parity_duality_cascade.py",
+    "script_sha256": "94eef687318b7143051b16894ec7a3833196f6f02bb6eb5ce814dd684f601327",
+    "source_code": "#!/usr/bin/env python3\n\"\"\"Day8 L2: first-photon parity duality and ordered cascade Jones tags.\nOne fixed geometry and two amplitude controls. Default checks only.\n--write-receipt exclusively creates one new owned JSON.\n\"\"\"\nfrom __future__ import annotations\nimport argparse\nfrom datetime import datetime, timezone\nimport hashlib\nimport json\nfrom pathlib import Path\nimport platform\nimport sys\nimport time\n\nsys.dont_write_bytecode = True\nROOT = Path(__file__).resolve().parents[4]\nDEPS = ROOT / 'tmp/day8-20261007/rose-brink/python-deps'\nsys.path.insert(0, str(DEPS))\nimport sympy as sp\nfrom sympy.physics.wigner import clebsch_gordan, wigner_d_small\n\nRUN = ROOT / 'outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01'\nOUT = RUN / 'parity-duality-cascade.json'\nINPUT_HASHES = {\n    RUN / 'truncation-observable-bound.json': '8d836c358937581ae05b9923c2f222938d56cce493c4cb5056299ed550f3cec9',\n    RUN / 'finite-rank-density-bound.json': '2636cac3929b3b28bb5b29badf5bc9df7e74d7d16378db42cb726d0bbdfe8538',\n    RUN / 'cascade-companion-discriminant.json': 'd4370e9e1b616fa229a3443289758c033ce24cab3603b3d33c6ae8a790edf9a0',\n    RUN / 'cascade-local-rank.json': '0a89fe75b014987ba7ed3cb1d3525dfc593a63ed35e0d207318b436ae30591ac',\n}\nRAW = ROOT / 'raw/papers/gpt/high-spin-20260920/multipolarity/mixing ratio/1967_Rose et al_Angular Distributions of Gamma Rays in Terms of Phase-Defined Reduced Matrix Elements.pdf'\nRAW_SHA = '8f846b61b9320de291ee5600126c5e286a0fe05968df819696816f0dc1ec57dc'\nM, Q = tuple(range(-2, 3)), (-1, 1)\nPI_BASE, PI_DUAL = (1, 0, 1, 0), (0, 1, 0, 1)\nRHO = sp.eye(5) / 5\nZ = sp.diag(-1, 1)\nJONES = {'x': sp.Matrix([1, -1]) / sp.sqrt(2), 'y': sp.Matrix([1, 1]) / sp.sqrt(2)}\n\ndef ex(v):\n    return sp.expand(v)\n\ndef mx(v):\n    return v.applyfunc(ex)\n\ndef txt(v):\n    return sp.sstr(v)\n\ndef sm(v):\n    return [[txt(v[i, j]) for j in range(v.cols)] for i in range(v.rows)]\n\ndef first(a, pis):\n    # Source initial-bra/final-ket CG; theta1=0 sets Mi-Mf=q.\n    return {q: sp.Matrix(5, 5, lambda i, f: ex(sum(\n        sp.Integer(q)**pis[L-1] * sp.sqrt(2*L+1) * a[L-1]\n        * clebsch_gordan(2, L, 2, M[f], q, M[i]) for L in range(1, 5)))\n        if M[i]-M[f] == q else 0) for q in Q}\n\ndef middle(A, S, j=None, q=None):\n    amps = [sum((j[i]*A[Q[i]] for i in range(2)), sp.zeros(5))] if j is not None else [A[q]] if q is not None else [A[h] for h in Q]\n    return mx(sum((v.H*RHO*v for v in amps), sp.zeros(5))/(2*S))\n\ndef H1(A, S):\n    return sp.Matrix(2, 2, lambda i, j: ex(sp.trace(A[Q[i]].H*RHO*A[Q[j]])/(2*S)))\n\ndef secondary():\n    # RB d=exp(-i theta Jy); SymPy has opposite argument sign.\n    d = wigner_d_small(2, -sp.pi/4)\n    return {q: mx(sp.Matrix([sp.sqrt(5)*clebsch_gordan(0, 2, 2, 0, m, m)*d[2-m, 2-q] for m in M])) for q in Q}\n\ndef F2(V, j=None):\n    vecs = [sum((j[i]*V[Q[i]] for i in range(2)), sp.zeros(5, 1))] if j is not None else [V[q] for q in Q]\n    return mx(sum((v*v.H for v in vecs), sp.zeros(5))/2)\n\ndef H2(R, V):\n    return sp.Matrix(2, 2, lambda i, j: ex((V[Q[i]].H*R*V[Q[j]])[0]/2))\n\ndef path_intensity(A, S, V, j1=None, j2=None):\n    aa = [sum((j1[i]*A[Q[i]] for i in range(2)), sp.zeros(5))] if j1 is not None else [A[q] for q in Q]\n    vv = [sum((j2[i]*V[Q[i]] for i in range(2)), sp.zeros(5, 1))] if j2 is not None else [V[q] for q in Q]\n    total = 0\n    for a in aa:\n        for v in vv:\n            path = a*v  # Coherent intermediate m sum, THEN modulus squared.\n            total += sum(path[i]*sp.conjugate(path[i]) for i in range(5))/5\n    return ex(total/(4*S))\n\ndef result():\n    started = time.monotonic()\n    checks = {}\n    def check(name, condition):\n        checks[name] = bool(condition)\n        if not checks[name]:\n            raise AssertionError(name)\n    old = {p: p.read_bytes() for p in INPUT_HASHES}\n    for p, sha in INPUT_HASHES.items():\n        check(p.stem+'_hash_before', hashlib.sha256(old[p]).hexdigest()==sha)\n    check('raw_hash_before', hashlib.sha256(RAW.read_bytes()).hexdigest()==RAW_SHA)\n    for q in Q:\n        for pi in (0, 1):\n            check(f'general_q_phase_identity_{q}_{pi}', sp.Integer(q)**(1-pi)==q*sp.Integer(q)**pi)\n    for axis in JONES:\n        other = 'y' if axis=='x' else 'x'\n        check('Jones_duality_swap_'+axis, Z*JONES[axis]==-JONES[other])\n    V = secondary()\n    F = F2(V)\n    FP = {axis: F2(V, j) for axis, j in JONES.items()}\n    check('secondary_positive_Jones_components_sum', mx(FP['x']+FP['y'])==F)\n    cases = {}\n    for name, a in [('pure_L1', sp.Matrix([1, 0, 0, 0])),\n                    ('mixed_identity_control', sp.Matrix([1, sp.Rational(1,2), sp.Rational(1,3), sp.Rational(1,4)]))]:\n        S = ex((a.H*a)[0])\n        base, dual = first(a, PI_BASE), first(a, PI_DUAL)\n        for q in Q:\n            check(f'{name}_Adual_{q}_equals_qAbase', dual[q]==q*base[q])\n            check(f'{name}_circular_R_{q}_unchanged', middle(base,S,q=q)==middle(dual,S,q=q))\n        Rb, Rd = middle(base,S), middle(dual,S)\n        check(name+'_unobserved_middle_R_unchanged', Rb==Rd)\n        Hb, Hd = H1(base,S), H1(dual,S)\n        check(name+'_primary_H_Zconjugation', Hd==Z*Hb*Z)\n        check(name+'_standalone_primary_I2_over2', Hb==Hd==sp.eye(2)/2)\n        check(name+'_primary_W_one', sp.trace(Rb)==sp.trace(Hb)==1)\n        check(name+'_secondary_entire_Jones_H_unchanged', H2(Rb,V)==H2(Rd,V))\n        W = ex(sp.trace(Rb*F))\n        check(name+'_joint_W_coherent_path_match', W==path_intensity(base,S,V))\n        tags, tables = {}, {}\n        for hyp, AA in [('first_M_types_initial_plus',base),('first_dual_E_types_initial_minus',dual)]:\n            tt, tab = {}, []\n            for axis1, j1 in JONES.items():\n                RR = middle(AA,S,j=j1)\n                W1tag = ex(sp.trace(RR))\n                WW = ex(sp.trace(RR*F))\n                check(f'{name}_{hyp}_{axis1}_standalone_half', W1tag==sp.Rational(1,2))\n                check(f'{name}_{hyp}_{axis1}_joint_path', WW==path_intensity(AA,S,V,j1))\n                row = []\n                for axis2, j2 in JONES.items():\n                    w = ex(sp.trace(RR*FP[axis2]))\n                    check(f'{name}_{hyp}_{axis1}{axis2}_joint_Jones_path', w==path_intensity(AA,S,V,j1,j2))\n                    row.append(w)\n                check(f'{name}_{hyp}_{axis1}_secondary_component_sum', ex(sum(row)-WW)==0)\n                tt[axis1] = {'middle_R':sm(RR),'primary_standalone_intensity':txt(W1tag),\n                             'joint_secondary_unpolarized':txt(WW),'conditional_secondary_W':txt(WW/W1tag),\n                             'secondary_linear_joint_components':{'x':txt(row[0]),'y':txt(row[1])},\n                             'secondary_signed_N_given_primary_tag':txt(ex(row[0]-row[1])),\n                             'secondary_normalized_P_given_primary_tag':txt((row[0]-row[1])/WW)}\n                tab.append(row)\n            wx, wy = (sp.sympify(tt[axis]['joint_secondary_unpolarized']) for axis in ('x','y'))\n            check(f'{name}_{hyp}_primary_component_sum', ex(wx+wy-W)==0)\n            tags[hyp] = {'tags':tt,'signed_primary_joint_N':txt(ex(wx-wy)),\n                         'normalized_primary_P_given_secondary_direction':txt((wx-wy)/W)}\n            tables[hyp] = tab\n        for axis, j in JONES.items():\n            other = 'y' if axis=='x' else 'x'\n            check(name+'_middle_linear_R_swap_'+axis, middle(dual,S,j=j)==middle(base,S,j=JONES[other]))\n        check(name+'_joint_linear_table_rows_swap', tables['first_dual_E_types_initial_minus']==tables['first_M_types_initial_plus'][::-1])\n        sec = {axis:ex(sp.trace(Rb*FP[axis])) for axis in JONES}\n        for axis in JONES:\n            check(name+'_secondary_only_'+axis+'_unchanged', sec[axis]==ex(sp.trace(Rd*FP[axis])))\n        cases[name] = {\n            'radiative_a_L1_to4': [txt(v) for v in a], 'S1_same':txt(S),\n            'primary_H_standalone_same':sm(Hb),'primary_standalone_N':'0','primary_standalone_P':'0',\n            'middle_R_unobserved_primary_same':sm(Rb), 'secondary_H_unobserved_primary_same':sm(H2(Rb,V)),\n            'W12_unpolarized_same':txt(W),'secondary_only_linear_components_same':{k:txt(v) for k,v in sec.items()},\n            'secondary_only_signed_N_same':txt(ex(sec['x']-sec['y'])),\n            'secondary_only_normalized_P_same':txt((sec['x']-sec['y'])/W),\n            'primary_linear_tags':tags,'joint_component_tables':{k:sm(sp.Matrix(v)) for k,v in tables.items()},\n            'table_order':'rows=primaryx,primaryy; columns=secondaryx,secondaryy'}\n    pure = cases['pure_L1']\n    b = pure['primary_linear_tags']['first_M_types_initial_plus']\n    d = pure['primary_linear_tags']['first_dual_E_types_initial_minus']\n    check('pure_common_middle_R_explicit', pure['middle_R_unobserved_primary_same']==sm(sp.diag(2,5,6,5,2)/20))\n    check('pure_M1_primary_tags_5over8_7over16', b['tags']['x']['joint_secondary_unpolarized']=='5/8' and b['tags']['y']['joint_secondary_unpolarized']=='7/16')\n    check('pure_E1_primary_tags_swap', d['tags']['x']['joint_secondary_unpolarized']=='7/16' and d['tags']['y']['joint_secondary_unpolarized']=='5/8')\n    check('pure_joint_W17over16', pure['W12_unpolarized_same']=='17/16')\n    check('pure_secondary_only_same_components', pure['secondary_only_linear_components_same']=={'x':'5/8','y':'7/16'})\n    check('pure_secondary_only_P3over17_both', pure['secondary_only_normalized_P_same']=='3/17')\n    check('pure_primary_conditional_P_plusminus3over17', b['normalized_primary_P_given_secondary_direction']=='3/17' and d['normalized_primary_P_given_secondary_direction']=='-3/17')\n    check('pure_positive_component_table_exact', pure['joint_component_tables']['first_M_types_initial_plus']==[['1/2','1/8'],['1/8','5/16']])\n    for p, before in old.items():\n        check(p.stem+'_bytes_unchanged_after', p.read_bytes()==before)\n    check('raw_hash_after', hashlib.sha256(RAW.read_bytes()).hexdigest()==RAW_SHA)\n    code = Path(__file__).read_bytes()\n    return {\n        'schema_version':1,'created_at_utc':datetime.now(timezone.utc).isoformat(),\n        'artifact_kind':'bounded-Day8-L2-primary-parity-duality-and-ordered-cascade-tags',\n        'status':'secondary_only_invariant_primary_linear_joint_tags_swap',\n        'day_index':8,'run_closed':False,'new_source_or_course_card':False,'new_session_or_goal':False,\n        'experimental_data_fit':False,'L4':False,\n        'evidence_class':'Our exact RB-phase/CG/Jones/density reconstruction; a conditional ideal comparison, not a measured parity assignment.',\n        'inputs':[{'path':str(p.relative_to(ROOT)),'sha256':sha} for p,sha in INPUT_HASHES.items()],\n        'source':{'page':'knowledge/sources/rose-brink-1967-phase-defined-angular-distributions.md',\n                  'raw_path':str(RAW.relative_to(ROOT)),'raw_sha256':RAW_SHA,\n                  'locators':['printed316/PDF11 Eq3.24 q^pi/coherent multipoles, linear-polarization paragraph and WE ordering',\n                              'printed318/PDF13 Eq3.29 integrated photon width',\n                              'printed325/PDF20 Eqs3.65-3.68 first-circular-tag middle population',\n                              'printed326/PDF21 Eqs3.69-3.73 first-population/secondary-response factorization',\n                              'printed312/PDF7 footnote7 rotation sign'],\n                  'linear_tag_boundary':'Primary linear selection creates offdiagonal middle coherences. Use full Eq3.24/Jones R, not a diagonal-population shortcut in compact Eq3.73.',\n                  'source_pattern':'RB separates first-created middle population from the observed secondary response. Our duality cancels in the first circular/unobserved sums; it does not identify photon1 E/M from photon2 polarization.'},\n        'setup':{'cascade':'2? -> 2+ -> 0+','primary_base':'initial2+, pureM1 -> middle2+',\n                 'primary_dual':'initial2-, pureE1 -> middle2+',\n                 'base_modes':['M1','E2','M3','E4'],'dual_modes':['E1','M2','E3','M4'],\n                 'pi_base':list(PI_BASE),'pi_dual':list(PI_DUAL),'rho_initial':'I5/5',\n                 'geometry':{'theta1':'0','theta2':'pi/4','phi1_phi2':['0','0']},\n                 'secondary':'independently pureE2, a2=1,S2=1; middle2+/final0+ parity anchors given',\n                 'bounded_controls':'PureL1 plus only mixeda=(1,1/2,1/3,1/4) identity check at the original geometry. No angle search.',\n                 'width_matching':'Same source-normalized interaction a_L=<Ji||T_L^pi||Jf>/sqrt(2L+1), photon energy and S1 give equal partial-photon width. This is a chosen radiative condition, not equal bare BM electric/magnetic RMEs or equal physical priors.',\n                 'units':'Positive component intensities are dimensionless normalized angular/joint densities, not raw counts or finite-bin probabilities.'},\n        'general_proof':{\n            'identity':'q^(1-pi)=q*q^pi forq=+/-1, so Adual_q=q*Abase_q at every direction when spinCG and radiativea are matched.',\n            'unobserved_and_circular_middle':'R=sum_q A_q^dagger rho A_q/(2S1) is identical, as is each circular R_q. Any primary selection diagonal in helicity preserves it.',\n            'secondary_any_measurement':'For any fixed secondary effectF, Tr(Rdual F)=Tr(Rbase F), also after a common middle-state channel. Secondary direction or linear/circular polarization alone cannot distinguish this matched primary pair.',\n            'primary_photon_matrix':'Hdual=Z Hbase Z, Z=diag(-1,+1) in helicity(-,+) order. Trace and circular diagonals are unchanged; offdiagonal linear Stokes terms reverse.',\n            'linear_swap':'Ax=(Aminus-Aplus)/sqrt2,Ay=(Aminus+Aplus)/sqrt2. Dual Ax=-Ay_base,Ay=-Ax_base, so middleRx/Ry and subsequent joint intensities swap.',\n            'fixed_axes_vs_gauge':'The physical analyzers remain fixed. A passive helicity-basis rephasing would transform analyzers as well and preserve all probabilities; that is not this source-hypothesis comparison.',\n            'rho_scope':'The same arbitrary normalized initial spin density may be unknown. Changing amplitudes, feeding/population selection, transition identity or downstream channel is outside this equality.'},\n        'CG_Jones_conventions':{\n            'first_source_amplitude':'sum_L q^pi_L sqrt(2L+1) a_L CG(2,L,2;Mf,Mi-Mf,Mi) d^L_(Mi-Mf,q)(theta1)',\n            'first_density':'R=sum_q A_q^dagger rho_initial A_q/(2S1); primaryH_qqprime=Tr(A_q^dagger rho_initial A_qprime)/(2S1)',\n            'second_full_CG':'A2_q(m)=sqrt5 CG(0,2,2;0,m,m) d^2_(m,q)(pi/4)',\n            'rotation':'SymPy wigner_d_small(2,-pi/4); descending m indexing is converted explicitly',\n            'helicity_order':['-1','+1'],'Z':sm(Z),'Jones_x':sm(JONES['x']),'Jones_y':sm(JONES['y']),\n            'first_axes':'x1=globalx in gamma1/gamma2(xz) plane, y1=globaly normal to it',\n            'second_axes':'x2=(cos(theta2),0,-sin(theta2)), y2=(0,1,0)',\n            'coherence':'The intermediate m sum is taken before modulus squaring; first/second helicity or Jones paths are then summed when unobserved.',\n            'positive_and_signed':'Ix,Iy and two-photon components are positive Gram intensities. SignedN=Ix-Iy. NormalizedP=N/(Ix+Iy) refers to its stated marginal or selected event.',\n            'no_sign_threshold':'No universal positive=electric/negative=magnetic threshold; axis and analyzer calibration can reverse a signed Stokes convention.'},\n        'secondary_effects':{'unpolarized':sm(F),'x':sm(FP['x']),'y':sm(FP['y'])},\n        'exact_cases':cases,\n        'interpretation':{\n            'primary_standalone':'Random initialrho gives H1=I2/2,P1=0 for both hypotheses. Standalone primary linear polarization is blind here.',\n            'primary_joint_selection':'Primarylinear tag plus secondarydirection gives(5/8,7/16) forM1 and the swapped pair forE1; primaryP conditioned on secondarydirection is+3/17,-3/17.',\n            'secondary_only':'Unobserved primary gives identicalR/H2; secondaryIx2=5/8,Iy2=7/16,P2=+3/17 forBOTH hypotheses. Equality of these numbers to one primary-tag pair is particular to this example and does not equate their roles.',\n            'parity_anchors':'Photon2 polarization can constrain photon2 multipolarity and the parity relation of its own levels. Independent level-parity anchors or first-transition constraints may enable an indirect chain inference; it is not direct photon1 E/M evidence.',\n            'needed_for_assignment':['independent spin/parity/gate anchors','tested lower/higher primary candidates and common initial population',\n                                     'identified ordering and common feeding/timewindow/deorientation','fixed axes and independently calibrated analysis power/acceptance/efficiency'],\n            'primary_response':'Secondary-only invariance assumes a polarization-blind or helicity-diagonal primary selection. Hidden primary linear sensitivity is already a primary polarization selection and needs modeling.',\n            'absent_inputs':'No measured counts/calibration, independent initial parity, microscopic current or higher-rank exclusion supplied. No experimental parity is assigned.',\n            'not_proved':['global amplitude/population uniqueness','nuclear realizability of matched radiative hypotheses','finite-count separability',\n                          'universal signed-polarization type threshold','equality of bare BM E/M matrix elements']},\n        'checks':{'results':checks,'passed':sum(checks.values()),'failures':0,'elapsed_seconds':time.monotonic()-started},\n        'changed_paths':[str(Path(__file__).relative_to(ROOT)),str(OUT.relative_to(ROOT))],\n        'reproducibility':{'script_path':str(Path(__file__).relative_to(ROOT)),'script_sha256':hashlib.sha256(code).hexdigest(),\n                           'source_code':code.decode(),'python':platform.python_version(),'sympy':sp.__version__,'dependencies':str(DEPS.relative_to(ROOT)),\n                           'check_command':'python3 tmp/day8-20261007/rose-brink/parity-duality-and-cascade-tags/parity_duality_cascade.py',\n                           'write_command':'python3 tmp/day8-20261007/rose-brink/parity-duality-and-cascade-tags/parity_duality_cascade.py --write-receipt',\n                           'write_policy':'Exclusive owned receipt only; all old95/329/cascade/other receipts,raw,canonical,report,run/state,PLAN,Git unchanged.'}\n    }\n\ndef main():\n    parser=argparse.ArgumentParser(description=__doc__)\n    parser.add_argument('--write-receipt',action='store_true')\n    args=parser.parse_args()\n    r=result()\n    if args.write_receipt:\n        with OUT.open('x',encoding='utf-8',newline='\\n') as f:\n            json.dump(r,f,ensure_ascii=False,indent=2)\n            f.write('\\n')\n    p=r['exact_cases']['pure_L1']\n    print(json.dumps({'artifact':str(OUT.relative_to(ROOT)) if args.write_receipt else None,\n                      'status':r['status'],'checks':r['checks']['passed'],'elapsed_seconds':r['checks']['elapsed_seconds'],\n                      'primary_standalone_H':p['primary_H_standalone_same'],\n                      'primary_P_given_secondary':{k:v['normalized_primary_P_given_secondary_direction'] for k,v in p['primary_linear_tags'].items()},\n                      'secondary_only_P_both':p['secondary_only_normalized_P_same'],\n                      'joint_component_tables':p['joint_component_tables'],'run_closed':False},ensure_ascii=False,indent=2))\nif __name__=='__main__':\n    main()\n",
+    "python": "3.12.3",
+    "sympy": "1.14.0",
+    "dependencies": "tmp/day8-20261007/rose-brink/python-deps",
+    "check_command": "python3 tmp/day8-20261007/rose-brink/parity-duality-and-cascade-tags/parity_duality_cascade.py",
+    "write_command": "python3 tmp/day8-20261007/rose-brink/parity-duality-and-cascade-tags/parity_duality_cascade.py --write-receipt",
+    "write_policy": "Exclusive owned receipt only; all old95/329/cascade/other receipts,raw,canonical,report,run/state,PLAN,Git unchanged."
+  }
+}

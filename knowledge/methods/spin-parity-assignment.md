@@ -64,6 +64,14 @@ No single rule is universal across detector geometry, reaction mechanism, and fe
 
 [[lange-kumar-hamilton-1982-multipole-admixtures]] LKH82-8–11 区分普遍 triangle/parity 过滤与 generator-only 模型零值。常数乘 total J 在 rotationally invariant H 中不连不同能量态，完整 M1 current 却不必与 J 成比例；模型项为零不能当作 measured forbidden/hindered 标签。指定模型还需同阶 operator 与 wave-function corrections，以及 long-wave、projection、pairing、configuration-space 条件。大 δ 丢失绝对尺度，不能取代 partial rate/B 与参考强度。自由振幅反例证明观测存在形式多解，真实核中的可实现性和先验可信度仍需独立模型与数据核验。
 
+## Independent Calibration and Parity Null Tests
+
+依据 [[rose-brink-1967-phase-defined-angular-distributions]] RB67-23，须把极化证据归于实际测量的那条 γ 与其 gate。γ1 的 E/M 全体 duality 在 first-direction tag 且 first-pol 未测时产生相同中间密度，γ2 polarization 不直接区分 γ1 type；first-linear tag 可能增加 joint 信息。已知能级宇称可支持链式推断，但不能把共享推断重复计为独立观测。
+
+RB67-24 的 J=2 参考线只在事先支持的 symmetric-diagonal 模型中校准 full population；joint covariance/uncertainty、same selection、orientation/coherence 与 response 是额外证据。母态谱 floor 不自动迁移到下游条件态。LKH82-15/16 的高阶截断先验也须独立于目标低阶拟合。
+
+RB67-25 的 null-converse 控制说明，odd-K absence 不能证明确定宇称；odd accepted shape 须先验证响应和 population/axis 条件。本轮没有核素 parity assignment 或新实验事实，所有模型和校准条件都保留在证据依赖链中。
+
 ## Related Pages
 
 - [[angular-distribution]]

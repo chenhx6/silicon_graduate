@@ -1,0 +1,331 @@
+{
+  "schema_version": 1,
+  "audit_id": "DAY8-adopted-magnetic-operator-domain-independent-review",
+  "created_at": "2026-10-08T05:28:14.962160+08:00",
+  "status": "independent-source-and-mathematical-review-complete-grounded-no-op",
+  "research_level": "L2",
+  "day_index": 8,
+  "session_id": "01a111fb-370d-7ed1-afe9-881ccc47caf4",
+  "review_actor": "Codex child day8_runtime_audit",
+  "review_kind": "source operator ordering, angular momentum/Racah, moment/domain and kinematic-bound mathematical self-audit",
+  "human_review": false,
+  "paper_admission": false,
+  "scope": {
+    "reviewed_receipt": "outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/magnetic-operator-domain.json",
+    "receipt_sha256": "6c2b02e16344a8283c3ec8c0a6d901a6d6c669601ef380fcef153a3b541e7ba9",
+    "receipt_matches_arithmetic_epoch": true,
+    "producer_path": "tmp/day8-20261007/lange-kumar/magnetic-operator-domain/magnetic_operator_domain.py",
+    "producer_sha256": "73882769d3336752154011e4505005a788b1bf44a59c2b463071a4032e063060",
+    "producer_matches_embedded_epoch": true,
+    "operator": "Adopted nonrel one-body Eq2.3c polynomial moment operator only; formal distinguishable orbital pair is not a physical nuclear assignment."
+  },
+  "source": {
+    "knowledge_source": "knowledge/sources/lange-kumar-hamilton-1982-multipole-admixtures.md",
+    "raw_file": "raw/papers/gpt/high-spin-20260920/review/1982_Lange et al_E0-E2-M1 multipole admixtures of transitions in even-even nuclei.pdf",
+    "raw_sha256": "ed925a0577a9257903806acd209c1db707529e86a5bfd9a301a83d597bf78ffb",
+    "direct_locators": [
+      "printed p121 / PDF p3, Eq.2.3b: point-charge electric multiplication operator",
+      "printed p121 / PDF p3, Eq.2.3c: magnetic spin/orbital vector dotted with gradient of the bracketed solid harmonic",
+      "printed p121 / PDF p3, Eq.2.3a: fixed-Mi B sum and BM initial-spin normalization",
+      "printed p125 / PDF p7, Eq.3.9 and paragraph below: mu_N*g_R*sqrt(3/(4pi))*J_q zero-deformation model piece; full expression also contains alpha*J",
+      "printed p127 / PDF p9, Sec.III.C.3 first paragraph: only zeroth-order deformation-independent M1 piece is stated to vanish for the discussed transitions"
+    ],
+    "visually_checked_images": {
+      "tmp/day8-20261007/lange-kumar/pdf-page-03.png": "ef4fa4b3e9336aac408b3d2f76a28b0b3021983682ae80185561f79908f7e9ad",
+      "tmp/day8-20261007/lange-kumar/model-boundary/p125-pdf7.png": "2e64dc9ffbada0df272a739f3e77c76f1706e1a43f52ea058141461c3d7d1cd2",
+      "tmp/day8-20261007/lange-kumar/model-boundary/p127-pdf9.png": "3e4ac2a7d0382a0bdfa1926cee0e75a0b546e537de736e039ae6a9483ce9d40c"
+    },
+    "source_or_review_flags_modified": false,
+    "source_scope_boundary": "Only these existing LKH82 pages supply direct scientific source evidence. No new paper, card, nucleus, source download, original table edit or review-state upgrade.",
+    "observed_raw_sha256": "ed925a0577a9257903806acd209c1db707529e86a5bfd9a301a83d597bf78ffb",
+    "raw_identity_matches": true,
+    "printed_to_pdf_page_rule": "printed minus118"
+  },
+  "images": [
+    {
+      "path": "tmp/day8-20261007/lange-kumar/pdf-page-03.png",
+      "expected_sha256": "ef4fa4b3e9336aac408b3d2f76a28b0b3021983682ae80185561f79908f7e9ad",
+      "sha256": "ef4fa4b3e9336aac408b3d2f76a28b0b3021983682ae80185561f79908f7e9ad",
+      "identity_matches": true,
+      "inspection": "original image directly inspected in this review"
+    },
+    {
+      "path": "tmp/day8-20261007/lange-kumar/model-boundary/p125-pdf7.png",
+      "expected_sha256": "2e64dc9ffbada0df272a739f3e77c76f1706e1a43f52ea058141461c3d7d1cd2",
+      "sha256": "2e64dc9ffbada0df272a739f3e77c76f1706e1a43f52ea058141461c3d7d1cd2",
+      "identity_matches": true,
+      "inspection": "original image directly inspected earlier by this same agent in the LKH82 model/source audits; no new coverage claimed"
+    },
+    {
+      "path": "tmp/day8-20261007/lange-kumar/model-boundary/p127-pdf9.png",
+      "expected_sha256": "3e4ac2a7d0382a0bdfa1926cee0e75a0b546e537de736e039ae6a9483ce9d40c",
+      "sha256": "3e4ac2a7d0382a0bdfa1926cee0e75a0b546e537de736e039ae6a9483ce9d40c",
+      "identity_matches": true,
+      "inspection": "original image directly inspected earlier by this same agent in the LKH82 model/source audits; no new coverage claimed"
+    }
+  ],
+  "immutable_inputs": [
+    {
+      "path": "outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/magnetic-operator-domain.json",
+      "expected_arithmetic_epoch_sha256": "6c2b02e16344a8283c3ec8c0a6d901a6d6c669601ef380fcef153a3b541e7ba9",
+      "sha256_at_review_close": "6c2b02e16344a8283c3ec8c0a6d901a6d6c669601ef380fcef153a3b541e7ba9",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/day8-20261007/rose-brink/truncation-observable-bound/independent-review/fraction_radiation_audit.py",
+      "expected_arithmetic_epoch_sha256": "c464bd0f553f906f0f134fda39621c33cc40919d4f8eeb986546b47d43e883da",
+      "sha256_at_review_close": "c464bd0f553f906f0f134fda39621c33cc40919d4f8eeb986546b47d43e883da",
+      "unchanged": true,
+      "role": "Earlier independent standard-library Fraction/Racah helper; definitions imported only."
+    }
+  ],
+  "independent_method": {
+    "producer_executed": false,
+    "SymPy_or_mpmath_executed": false,
+    "software_tests_run": false,
+    "calculation": "Independent standard-library exact Racah/factorial CG states, spherical ladder contractions, six-j sum and complex/radical Fraction algebra. General source/domain proofs in README.",
+    "CG_components": 180,
+    "angular_norms": 32,
+    "same_M_overlaps": 12,
+    "fixed_Mi_strengths": 20,
+    "arithmetic_summary_facts": 9,
+    "all_arithmetic_facts_supported": true,
+    "general_proofs": [
+      "Contracted Hessian ordering on a common smooth domain",
+      "All-integer-ell single-term Racah reduction",
+      "Projection and vector moment sufficient bound",
+      "Support-plus-momentum quadratic-form inequality",
+      "Hamiltonian potential/domain and nonrel applicability boundaries"
+    ]
+  },
+  "summary": {
+    "review_items": 13,
+    "grounded_no_op_items": 13,
+    "material_scientific_or_mathematical_findings": 0,
+    "required_changes": 0,
+    "hard_P0": 0,
+    "RME_squared_controls": {
+      "1": "5/2",
+      "2": "21/2",
+      "3": "45/2",
+      "5": "117/2"
+    },
+    "new_sources_cards_nuclei_orL4": false
+  },
+  "checks": [
+    {
+      "id": "MOD-R1",
+      "topic": "source operator and units",
+      "assessment": "grounded-no-op-with-retained-conditions",
+      "locators": [
+        "LKH82 printed121/PDF3 Eq2.3c",
+        "producer lines219–230",
+        "receipt adopted_operator_and_ordering"
+      ],
+      "grounding_and_retained_boundary": "The gradient is bracketed around the solid harmonic. Angular momenta use hbar units and mu(M)=e*hbar/(2Mc) supplies the moment unit. For M1 the orbital coefficient becomes g_l, giving sqrt(3/(4pi))*mu(M)*(g_l*l+g_s*s). No extra hbar or spin divisor is inserted.",
+      "required_change": false
+    },
+    {
+      "id": "MOD-R2",
+      "topic": "contracted ordering identity and domain",
+      "assessment": "grounded-no-op-with-retained-conditions",
+      "locators": [
+        "producer lines62–72,223–226",
+        "receipt adopted_operator_and_ordering.ordering_identity",
+        "independent README Section1"
+      ],
+      "grounding_and_retained_boundary": "On a common smooth domain, sum_a[l_a,partial_a f] vanishes by Hessian symmetry and Levi-Civita antisymmetry. This holds for complex smooth f, not each separate component. The orbital operator still differentiates the state and is not bounded multiplication.",
+      "required_change": false
+    },
+    {
+      "id": "MOD-R3",
+      "topic": "two-orbital states and hard support",
+      "assessment": "grounded-no-op-with-retained-conditions",
+      "locators": [
+        "producer lines238–241",
+        "receipt two_orbital_formal_counterexample.shared_radial_support",
+        "independent README Section2"
+      ],
+      "grounding_and_retained_boundary": "The same normalized annular C_c_infinity radial factor and coupled angular states have fixed hard support for every finite integer ell. Each state belongs to the smooth domain, while derivative moments grow across the family. No identical-fermion Pauli or real-particle sector is assigned.",
+      "required_change": false
+    },
+    {
+      "id": "MOD-R4",
+      "topic": "fixed total J and generator zero",
+      "assessment": "grounded-no-op-with-retained-conditions",
+      "locators": [
+        "producer lines236,242–244",
+        "receipt two_orbital_formal_counterexample.generator_zero_proof",
+        "independent arithmetic-evidence.json"
+      ],
+      "grounding_and_retained_boundary": "Two equal orbital angular momenta can couple to J=2 and J=1 for every integer ell>=1. The total-J Casimir changes from 6 to 2, but [Jtot^2,Jtot_q]=0. Independent components show l2=-l1 on the transition, giving (g1-g2)l1 and zero at equal g.",
+      "required_change": false
+    },
+    {
+      "id": "MOD-R5",
+      "topic": "general Racah squared RME",
+      "assessment": "grounded-no-op-with-retained-conditions",
+      "locators": [
+        "producer lines91–101,245–246,255–264",
+        "receipt single_term_Racah_general_proof",
+        "independent README Section4"
+      ],
+      "grounding_and_retained_boundary": "The four Racah triangles and unique z=2ell+2 yield sixj^2=(2ell-1)(2ell+3)/(30ell(ell+1)(2ell+1)). The BM prefactor gives ((2ell+1)^2-4)/2. This is an all-integer algebraic proof rather than extrapolation from four controls.",
+      "required_change": false
+    },
+    {
+      "id": "MOD-R6",
+      "topic": "BM B normalization and weighted moments",
+      "assessment": "grounded-no-op-with-retained-conditions",
+      "locators": [
+        "LKH82 printed121/PDF3 Eq2.3a",
+        "producer lines145–172,247–250",
+        "receipt exact_controls",
+        "independent arithmetic-evidence.json"
+      ],
+      "grounding_and_retained_boundary": "The BM RME uses a final bra and the standard 3j convention. All 20 fixed-Mi strengths equal RME^2/5; all 180 complete components match saved values and generator cancellation. M1 B includes the multipole coefficient 3/(4pi)*mu(M)^2 and the initial-spin divisor 5 once.",
+      "required_change": false
+    },
+    {
+      "id": "MOD-R7",
+      "topic": "sufficient vector moment bound",
+      "assessment": "grounded-no-op-with-retained-conditions",
+      "locators": [
+        "producer lines267–271",
+        "receipt required_domain_and_moment_conditions.one_sufficient_M1_bound/bound_proof",
+        "independent README Section5"
+      ],
+      "grounding_and_retained_boundary": "Projection onto the orthonormal final multiplet cannot increase the fixed-Mi component-vector norm. Direct-sum triangle and unitary spherical components give the stated moment sum squared with prefactor 3 mu(M)^2/(4pi), without another factor 3 or 2Ji+1.",
+      "required_change": false
+    },
+    {
+      "id": "MOD-R8",
+      "topic": "spin versus orbital uniform control",
+      "assessment": "grounded-no-op-with-retained-conditions",
+      "locators": [
+        "producer lines268–271,275",
+        "receipt required_domain_and_moment_conditions.spin_vs_orbital",
+        "independent README Sections2/5"
+      ],
+      "grounding_and_retained_boundary": "A finite spin 1/2 sector has s_k^2=3/4. Orbital control needs a cutoff or uniform quadratic moment/current-domain bound; normalization and support do not supply it. The sufficient inequality is conservative and can miss cancellations.",
+      "required_change": false
+    },
+    {
+      "id": "MOD-R9",
+      "topic": "support plus momentum inequality and boundary domain",
+      "assessment": "grounded-no-op-with-retained-conditions",
+      "locators": [
+        "producer line272",
+        "receipt required_domain_and_moment_conditions.kinematic_route",
+        "independent README Section6"
+      ],
+      "grounding_and_retained_boundary": "On the stated smooth or validated quadratic-form domain, |r cross grad(psi)|^2<=R^2|grad(psi)|^2 gives <l_k^2><=R^2<p_k^2>/hbar^2. Operator expectations also require vanishing boundary terms. An unaudited hard-wall realization or typical radius does not establish this premise.",
+      "required_change": false
+    },
+    {
+      "id": "MOD-R10",
+      "topic": "energy control needs potential/form assumptions",
+      "assessment": "grounded-no-op-with-retained-conditions",
+      "locators": [
+        "producer line273",
+        "receipt required_domain_and_moment_conditions.Hamiltonian_route_boundary",
+        "independent README Section6"
+      ],
+      "grounding_and_retained_boundary": "A small total-energy or excitation label alone does not bound kinetic moments without a Hamiltonian, domain and potential form bound. For example H=T+V, V>=-V0 and <H><=Emax imply <T><=Emax+V0; V>=-aT-b with a<1 also suffices. No such nuclear Hamiltonian is supplied here.",
+      "required_change": false
+    },
+    {
+      "id": "MOD-R11",
+      "topic": "large orbital sequence and nonrel limit",
+      "assessment": "grounded-no-op-with-retained-conditions",
+      "locators": [
+        "producer lines251–252,274",
+        "receipt two_orbital_formal_counterexample.not_physical_infinity",
+        "independent README Section7"
+      ],
+      "grounding_and_retained_boundary": "The common radial support has <p^2>>=hbar^2*ell(ell+1)/R^2. Thus ell->infinity cannot remain in a fixed nonrel momentum, velocity or kinetic-energy regime. The sequence refutes radius-only boundedness of the unrestricted adopted polynomial operator, not a real low-energy unlimited M1 prediction.",
+      "required_change": false
+    },
+    {
+      "id": "MOD-R12",
+      "topic": "collective generator scope and external current terms",
+      "assessment": "grounded-no-op-with-retained-conditions",
+      "locators": [
+        "LKH82 printed125/PDF7 Eq3.9",
+        "printed127/PDF9 SecIII.C.3 first paragraph",
+        "producer lines278–280",
+        "receipt adopted_operator_and_ordering.validity_scope/collective_model_scope"
+      ],
+      "grounding_and_retained_boundary": "Constant g_R J is only the deformation-independent collective model piece; the full first-order expression also contains alpha J. Generic weighted spin/orbital current is different. Finite-q, relativistic, effective and exchange-current terms need their own domains.",
+      "required_change": false
+    },
+    {
+      "id": "MOD-R13",
+      "topic": "source attribution and physical realizability",
+      "assessment": "grounded-no-op-with-retained-conditions",
+      "locators": [
+        "producer lines202,282–286",
+        "receipt evidence_and_reuse_boundaries",
+        "independent README conclusion"
+      ],
+      "grounding_and_retained_boundary": "Direct source evidence is the printed magnetic operator, BM strength normalization and limited collective generator term. Ordering, orbital pair, Racah and moment/domain bounds are task reconstructions. No nucleus, physical Pauli/isospin sector, Hamiltonian, measured strength, current realization, Human review or paper admission is claimed.",
+      "required_change": false
+    }
+  ],
+  "findings": [],
+  "supported_relations": {
+    "ordering": "sum_a[l_a,partial_a f]=0 on a common smooth domain; l remains a differential operator.",
+    "M1": "M1_q=sqrt(3/(4pi))*mu(M)*sum_k(g_l*l_kq+g_s*s_kq), using hbar units for angular momenta.",
+    "pair_RME_square": "|(ell ell)1||l1||(ell ell)2|^2=((2ell+1)^2-4)/2.",
+    "weighted_B": "B(M1;2->1)=3mu(M)^2(g1-g2)^2/(20pi) times the angular squared RME.",
+    "moment_bound": "B(M1)<=3mu(M)^2/(4pi)[sum|g_l|sqrt(<l_k^2>)+sum|g_s|sqrt(<s_k^2>)]^2.",
+    "kinematic_bound": "<l_k^2><=R^2<p_k^2>/hbar^2 on the specified smooth/form domain."
+  },
+  "required_reuse_boundaries": [
+    "Use the adopted bracketed gradient and angular momenta in hbar units. Contracted ordering equality is a smooth-domain identity, not separate-component commutation or bounded multiplication.",
+    "The hard-radius counterfamily uses distinguishable orbital degrees with a normalized common annular smooth radial factor. No real Pauli/isospin/nuclear sector or low-energy Hamiltonian is supplied.",
+    "Weighted orbital current with unequal g is different from a constant total-J generator. Good small total J does not bound individual orbital moments.",
+    "BM uses the final-bra convention and divides a squared RME by the initial factor5 once for this pair. The multipole M1 coefficient supplies3/(4pi) and the source moment unit.",
+    "The sufficient strength bound needs normalized states, an orthonormal final multiplet, finite particle sector, bounded adopted g coefficients and finite relevant component/quadratic moments in a common domain.",
+    "Treat l^2 and p^2 moments as validated quadratic forms or ensure operator domains and vanishing boundary terms. Typical radius or an unaudited hard-wall boundary is insufficient.",
+    "A momentum/kinetic cutoff closes the orbital moment route only when independently justified. A total-energy label needs Hamiltonian and potential/form-domain control; negative potentials cannot be ignored.",
+    "The formal ell->infinity family grows in momentum and leaves fixed nonrel/kinematic validity. It is not a prediction of unlimited real low-energy magnetic strengths.",
+    "Full finite-q, relativistic, effective/exchange-current operators need separate domain/continuity/state constraints. The electric charge Qabs support prefactor is not a universal magnetic bound.",
+    "Only the source deformation-independent constant g_R J model term has the stated generator zero; the full first-order term and generic Eq2.3c operator are not all forbidden.",
+    "These are source-grounded task reconstructions and scientific self-audit, not author-reported bounds, experiment, physical nuclear realization, Human review or paper admission."
+  ],
+  "artifacts": [
+    {
+      "path": "tmp/day8-20261007/lange-kumar/magnetic-operator-domain/independent-review/README.md",
+      "sha256": "b2f6e172e5c10fc68076ead7610669a13864de6def76f870b9395c6f350fa5f1",
+      "bytes": 9640
+    },
+    {
+      "path": "tmp/day8-20261007/lange-kumar/magnetic-operator-domain/independent-review/arithmetic-evidence.json",
+      "sha256": "a3c181f3e689afa393016d5a2b3dcb410b4c3188b79c0c02cc5db05b6ff59285",
+      "bytes": 3613
+    },
+    {
+      "path": "tmp/day8-20261007/lange-kumar/magnetic-operator-domain/independent-review/fraction_magnetic_audit.py",
+      "sha256": "1b3b10b8fa5550eccd220430d02cfa496165c3197bfed026c2c960e3eddf5feb",
+      "bytes": 9519
+    }
+  ],
+  "mutations": {
+    "original54_receipt_or_producer_changed": false,
+    "old_norm_reverse_or_other_receipts_changed": false,
+    "canonical_changed": false,
+    "report_changed": false,
+    "run_or_course_state_changed": false,
+    "raw_or_PLAN_changed": false,
+    "Git_changed": false,
+    "review_flags_changed": false,
+    "clock_process_changed": false,
+    "subagents_spawned": false,
+    "allowed_writes_only": [
+      "tmp/day8-20261007/lange-kumar/magnetic-operator-domain/independent-review/",
+      "outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/magnetic-operator-domain-review.json"
+    ]
+  },
+  "stop_reason": "Assigned independent source and magnetic-domain audit complete; ordering, BM angular algebra and sufficient moment/kinematic reasoning are supported with their formal and physical applicability conditions."
+}

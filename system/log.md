@@ -1526,3 +1526,8 @@ Following the user question about the missing Day8 prompt, the formal Day8 card 
 用户以 farmer/go-on/all/auto 恢复正式Day8并允许subagents。本日新session为01a111fb-370d-7ed1-afe9-881ccc47caf4，receipt使用用户指定multipolarity-run-01；继承的multipoles-run-01/02保留未计卡。独立prompt-primed recall、LKH82/RB67原图约定核对、三条合成gamma全候选和证据依赖表已完成，四个knowledge页实际更新。两个raw哈希匹配，raw、PLAN、既有dirty daemon与review flags不变。日报card audit和runner report/writeback/coverage validators通过，course state仍next=8、completed=7；没有final学习收束。
 
 新同session计时脚本及23项目标测试通过，于01:50 Asia/Shanghai启动并持有daemon/runner双锁。它每2小时向同session排队检查点，10月8日15:00提醒收束，心跳/queue接受/实际执行分开留证。Farmer原watcher保留。原始deadline不因提前手动启动缩短；下一步继续Day8高信息问题并按时间门最多预习一张无学分Day9，15:00–16:00准备DAY9计划prompt、最终检查、state及Gitee发布。当前checkpoint发布状态在本run receipt中对账。
+
+## [2026-10-08 07:47] learning | DAY8 第七持续检查点知识同步
+
+- 在同一 Day8 session 保留原截止与562页baseline；同步率截断/有限密度、磁算符域、极化归属、独立参考floor与parity-null边界到RB67-21–25/LKH82-15–16。所有模型结果仍L2，review/raw/state/PLAN和继承daemon保留。
+- 95/329/54/99/96/72/60 parent核验有回执，独立审计与J3参考nullspace继续；仅Day8计卡候选、Day9无学分。Checkpoint不是课程final，15:00收束与DAY9计划prompt待做。

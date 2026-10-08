@@ -1,0 +1,342 @@
+{
+  "schema_version": 1,
+  "audit_id": "DAY8-truncation-observable-bound-independent-review",
+  "created_at": "2026-10-08T01:47:29.730395+08:00",
+  "status": "independent-source-and-mathematical-review-complete-grounded-no-op",
+  "research_level": "L2",
+  "day_index": 8,
+  "session_id": "01a111fb-370d-7ed1-afe9-881ccc47caf4",
+  "review_actor": "Codex child day8_runtime_audit",
+  "review_kind": "source/operator-Gram/trace-distance/conditional-bound mathematical self-audit",
+  "human_review": false,
+  "paper_admission": false,
+  "scope": {
+    "reviewed_receipt": "outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/truncation-observable-bound.json",
+    "receipt_sha256": "8d836c358937581ae05b9923c2f222938d56cce493c4cb5056299ed550f3cec9",
+    "receipt_matches_arithmetic_epoch": true,
+    "producer_path": "tmp/day8-20261007/rose-brink/truncation-observable-bound/truncation_observable_bound.py",
+    "producer_sha256": "a7424b7d31a62058e2ed451e23d1a6538ff4653800a4440449998d82e5f9a802",
+    "producer_matches_embedded_epoch": true,
+    "radiation_space": "Full direction, helicity and final spin at one fixed transition energy, with a common normalized radial/time wavepacket or angular-shell space; no arbitrary temporal or non-gamma state changes."
+  },
+  "source": {
+    "page": "knowledge/sources/rose-brink-1967-phase-defined-angular-distributions.md",
+    "raw_path": "raw/papers/gpt/high-spin-20260920/multipolarity/mixing ratio/1967_Rose et al_Angular Distributions of Gamma Rays in Terms of Phase-Defined Reduced Matrix Elements.pdf",
+    "raw_sha256": "8f846b61b9320de291ee5600126c5e286a0fe05968df819696816f0dc1ec57dc",
+    "locators": [
+      "printed316/PDF11 Eq3.24 coherent multipoles and WE relation after Eq3.25",
+      "printed318/PDF13 Eq3.29 integrated partial gamma normalization",
+      "rotation convention printed312/PDF7 footnote7; angular D product context printed317/PDF12"
+    ],
+    "attribution_boundary": "RB supplies amplitudes, phase definitions and integrated normalization. The radiation-space construction, trace-distance inequality, conditional-state bound and controls below are our derived mathematics.",
+    "observed_raw_sha256": "8f846b61b9320de291ee5600126c5e286a0fe05968df819696816f0dc1ec57dc",
+    "raw_identity_matches": true,
+    "printed_to_pdf_page_rule": "printed minus305"
+  },
+  "images": [
+    {
+      "path": "tmp/day8-20261007/rose-brink/p312-pdf7.png",
+      "printed_page": 312,
+      "pdf_page": 7,
+      "sha256": "403d17e12b4f6bcd3f64c644f1a7a127ca83b3f7d7dfabe50d0963abd6aeb34e",
+      "inspection": "original-image-directly-inspected-in-this-review"
+    },
+    {
+      "path": "tmp/day8-20261007/rose-brink/p316-pdf11.png",
+      "printed_page": 316,
+      "pdf_page": 11,
+      "sha256": "8b6191298c81a731bba7e04be14ae1c4d6b0e1681f11bb98b34dd69e90255401",
+      "inspection": "original-image-directly-inspected-in-this-review"
+    },
+    {
+      "path": "tmp/day8-20261007/rose-brink/p317-pdf12.png",
+      "printed_page": 317,
+      "pdf_page": 12,
+      "sha256": "fab86494fcfaa448f23dcc00c32fd833858dd10e8747d34e7ea214100071c5a6",
+      "inspection": "original-image-directly-inspected-in-this-review"
+    },
+    {
+      "path": "tmp/day8-20261007/rose-brink/p318-pdf13.png",
+      "printed_page": 318,
+      "pdf_page": 13,
+      "sha256": "49c59a6adcbf462409716870a8aa4c192ec22a0079eee97e5deaf03ef772cb10",
+      "inspection": "original-image-directly-inspected-in-this-review"
+    }
+  ],
+  "immutable_inputs": [
+    {
+      "path": "outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/electric-rank-hierarchy.json",
+      "expected_sha256": "efb7ccca5fd3a0d8d9a05e1283a152a862cc8773ef016791ce0de9234281d134",
+      "sha256_at_arithmetic_audit": "efb7ccca5fd3a0d8d9a05e1283a152a862cc8773ef016791ce0de9234281d134",
+      "sha256_at_review_close": "efb7ccca5fd3a0d8d9a05e1283a152a862cc8773ef016791ce0de9234281d134",
+      "unchanged": true
+    },
+    {
+      "path": "outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/angular-degeneracy.json",
+      "expected_sha256": "0b633e74a96925cbaced95073407523f441cd6ed89554c15f87b84758e89f334",
+      "sha256_at_arithmetic_audit": "0b633e74a96925cbaced95073407523f441cd6ed89554c15f87b84758e89f334",
+      "sha256_at_review_close": "0b633e74a96925cbaced95073407523f441cd6ed89554c15f87b84758e89f334",
+      "unchanged": true
+    },
+    {
+      "path": "outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/polarization-branches.json",
+      "expected_sha256": "099300006d0bd892c4b63f00d5b9b3f9ffd6d004fb3da34a4dc2aa78b8c3e5ab",
+      "sha256_at_arithmetic_audit": "099300006d0bd892c4b63f00d5b9b3f9ffd6d004fb3da34a4dc2aa78b8c3e5ab",
+      "sha256_at_review_close": "099300006d0bd892c4b63f00d5b9b3f9ffd6d004fb3da34a4dc2aa78b8c3e5ab",
+      "unchanged": true
+    },
+    {
+      "path": "outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/population-multipolarity-degeneracy.json",
+      "expected_sha256": "6773e3834bebf36bec41866aa9f86491d575321a76019e76ea8d48171c799b8b",
+      "sha256_at_arithmetic_audit": "6773e3834bebf36bec41866aa9f86491d575321a76019e76ea8d48171c799b8b",
+      "sha256_at_review_close": "6773e3834bebf36bec41866aa9f86491d575321a76019e76ea8d48171c799b8b",
+      "unchanged": true
+    }
+  ],
+  "independent_method": {
+    "producer_executed": false,
+    "SymPy_or_mpmath_executed": false,
+    "software_tests_run": false,
+    "calculation": "Standard-library Fraction and exact radical/complex matrix algebra, independent factorial/Beta rotation integrals and Racah coefficients; general proofs are in README.",
+    "arithmetic_summary_facts": 19,
+    "all_arithmetic_facts_supported": true,
+    "independent_angular_integrals": 28,
+    "source_CG_norms": 8,
+    "general_theorems_independently_reviewed": [
+      "Operator Gram for off-diagonal initial coherence",
+      "Exact distance for arbitrary common positive trace-one rho",
+      "Effect bound and CPTP contractivity",
+      "Fixed failure-flag completion",
+      "Conditional d/max(p,q) bound",
+      "Different initial-density triangle bound"
+    ]
+  },
+  "summary": {
+    "review_items": 14,
+    "grounded_no_op_items": 14,
+    "material_scientific_or_mathematical_findings": 0,
+    "required_changes": 0,
+    "hard_P0": 0,
+    "source_images_inspected": 4,
+    "new_source_card_nucleus_orL4": false
+  },
+  "checks": [
+    {
+      "id": "TOB-R1",
+      "topic": "source phase/amplitude and fixed radiation space",
+      "assessment": "grounded-no-op-with-retained-conditions",
+      "locators": [
+        "RB67 printed312/PDF7 footnotes6/7",
+        "printed316/PDF11 Eq3.24 and WE relation after Eq3.25",
+        "producer lines125–130,300–302"
+      ],
+      "grounding_and_retained_boundary": "The source emission/conjugation and rotation choices are consistent. The compared Hilbert space contains direction, helicity and final spin for one fixed transition energy and one common normalized radial/energy mode, or angular-shell space. It does not bound arbitrary temporal or non-gamma changes.",
+      "required_producer_or_receipt_change": false
+    },
+    {
+      "id": "TOB-R2",
+      "topic": "full-direction helicity/final-spin Gram",
+      "assessment": "grounded-no-op-with-retained-conditions",
+      "locators": [
+        "printed316/PDF11 Eq3.24",
+        "printed317/PDF12 D-product context",
+        "producer lines99–122,313–318"
+      ],
+      "grounding_and_retained_boundary": "Full phi integration gives m=m_prime. The same final M_f then forces M_i=M_i_prime. Full-sphere D orthogonality and CG normalization give V_lambda_dagger V_lambda_prime = delta_lambda_lambda_prime I. This controls every initial off-diagonal matrix element, including coherence.",
+      "required_producer_or_receipt_change": false
+    },
+    {
+      "id": "TOB-R3",
+      "topic": "same-L E/M orthogonality",
+      "assessment": "grounded-no-op-with-retained-conditions",
+      "locators": [
+        "producer lines162–164,317",
+        "independent README Section 1"
+      ],
+      "grounding_and_retained_boundary": "For the same L and opposite E/M pi, one half of the sum over q of q^(pi+pi_prime) vanishes in the physical helicity basis. No fictitious E/M flag is used. This kinematic statement does not allow both same-L types in a definite-parity link, and does not remove fixed-direction interference.",
+      "required_producer_or_receipt_change": false
+    },
+    {
+      "id": "TOB-R4",
+      "topic": "normalized retained projection and endpoints",
+      "assessment": "grounded-no-op-with-retained-conditions",
+      "locators": [
+        "printed318/PDF13 Eq3.29",
+        "producer lines301–310,365–366",
+        "receipt assumptions/definitions"
+      ],
+      "grounding_and_retained_boundary": "S is the common integrated photon-rate factor for every M_i. Positive S and S_R, with e=S_O/S<1, define V_R. V_O requires S_O>0; when e=0 use V=V_R directly. At e=1 or S=0 the corresponding normalized reference is undefined.",
+      "required_producer_or_receipt_change": false
+    },
+    {
+      "id": "TOB-R5",
+      "topic": "exact full trace distance for arbitrary same density",
+      "assessment": "grounded-no-op-with-retained-conditions",
+      "locators": [
+        "producer lines186–210,328–331",
+        "receipt general_bound",
+        "independent README Section 3"
+      ],
+      "grounding_and_retained_boundary": "U=[V_R,V_O] is isometric and embeds K(e) tensor rho. K^2=e I and positive trace-one rho give absolute difference sqrt(e) I_2 tensor rho and exact D=sqrt(e) before reduction. Complex sector phases and initial coherence do not change the proof.",
+      "required_producer_or_receipt_change": false
+    },
+    {
+      "id": "TOB-R6",
+      "topic": "common CPTP reduction and effect bound",
+      "assessment": "grounded-no-op-with-retained-conditions",
+      "locators": [
+        "producer lines212–216,331–335",
+        "receipt general_bound.variational_contractivity_proof"
+      ],
+      "grounding_and_retained_boundary": "A CPTP dual is positive and unital, so it maps effects to effects. The same reduction/channel or finite-bin effect therefore gives absolute event-probability error <=sqrt(e). This normalized state comparison does not supply width, yield or lifetime errors.",
+      "required_producer_or_receipt_change": false
+    },
+    {
+      "id": "TOB-R7",
+      "topic": "finite-cap interference and abstract tightness",
+      "assessment": "grounded-no-op-with-retained-conditions",
+      "locators": [
+        "producer lines218–250",
+        "receipt tight_and_source_interference_controls",
+        "independent README Section 4"
+      ],
+      "grounding_and_retained_boundary": "The source finite cap has retained probability 19/64 and difference (3/32)(-e+sqrt(3)*sqrt(e(1-e))), with leading order sqrt(e). An abstract coherent-sector Helstrom effect saturates the distance, but ordinary-bin implementation is not asserted. This particular cap is blind at e=3/4.",
+      "required_producer_or_receipt_change": false
+    },
+    {
+      "id": "TOB-R8",
+      "topic": "postselection d/max(p,q) proof",
+      "assessment": "grounded-no-op-with-retained-conditions",
+      "locators": [
+        "producer lines357–358",
+        "receipt pointwise_and_postselection_boundaries.postselection_proof",
+        "independent README Section 5"
+      ],
+      "grounding_and_retained_boundary": "For the same trace-nonincreasing CP accepted map and p,q>0, a fixed failure flag completes a CPTP map and gives (||A-B||_1+|p-q|)/2<=d. The normalization triangle gives both d/p and d/q, hence min(1,d/max(p,q)) without another factor 2. Zero success leaves a normalized state undefined.",
+      "required_producer_or_receipt_change": false
+    },
+    {
+      "id": "TOB-R9",
+      "topic": "rare filtering and polarization denominator",
+      "assessment": "grounded-no-op-with-retained-conditions",
+      "locators": [
+        "producer lines263–277,359–364",
+        "receipt rare_filter_control/linear_polarization_ratio"
+      ],
+      "grounding_and_retained_boundary": "F=diag(e,1) is a valid filter for 0<e<1. Its success probabilities are p=e(1+e-e^2), q=e^2, and conditional D^2=1/(1+e-e^2), which tends to 1. This is a mathematical family of filters, not a fixed detector. Polarization requires accepted-event normalization and its expectation difference is bounded by 2 D_cond.",
+      "required_producer_or_receipt_change": false
+    },
+    {
+      "id": "TOB-R10",
+      "topic": "point densities and source cancellation",
+      "assessment": "grounded-no-op-with-retained-conditions",
+      "locators": [
+        "producer lines252–261,350–356",
+        "receipt source_node_control",
+        "independent arithmetic-evidence.json"
+      ],
+      "grounding_and_retained_boundary": "Point-density evaluation is not an effect bounded by I. A finite-bin density average divides the probability bound by its angular measure. Independent CG signs confirm the retained M1/E2 node at ratio -sqrt(105)/15; the full M3 node intensity is (3/4)e. The retained zero has no finite relative-error denominator.",
+      "required_producer_or_receipt_change": false
+    },
+    {
+      "id": "TOB-R11",
+      "topic": "detector forward versus inverse/efficiency",
+      "assessment": "grounded-no-op-with-retained-conditions",
+      "locators": [
+        "producer lines367–373",
+        "receipt detector_and_inverse_response_boundary",
+        "independent README Section 6"
+      ],
+      "grounding_and_retained_boundary": "The same bounded forward response and physical efficiency in [0,1] give an effect. Inverse weighting or unfolding can exceed unit operator norm and requires conditioning/noise control. Known scalar E_actual=eta P recovers the effect mean after division by eta, while sample and calibration errors can still be amplified.",
+      "required_producer_or_receipt_change": false
+    },
+    {
+      "id": "TOB-R12",
+      "topic": "changed initial state",
+      "assessment": "grounded-no-op-with-retained-conditions",
+      "locators": [
+        "producer lines278–280,365",
+        "receipt different_initial_densities",
+        "independent README Section 6"
+      ],
+      "grounding_and_retained_boundary": "Unknown but common rho is allowed. Different initial densities require min(1,sqrt(e)+D(rho,rho_0)) by the triangle inequality and V_R isometry. At e=0 orthogonal initial M states can still have full radiation distance 1; common partial traces can only reduce it.",
+      "required_producer_or_receipt_change": false
+    },
+    {
+      "id": "TOB-R13",
+      "topic": "sum omitted rate and model/channel limitations",
+      "assessment": "grounded-no-op-with-retained-conditions",
+      "locators": [
+        "producer lines307–308,335,371–373",
+        "receipt definitions.epsilon_rate/not_long_wave_parameter",
+        "independent README Section 7"
+      ],
+      "grounding_and_retained_boundary": "e is the sum of omitted photon rates divided by all photon rates for one fixed link. An E4/E2 pair ratio, selection rules or qR alone do not establish e. Changing widths, time modes or non-gamma branches lies outside the common energy/radial-mode theorem.",
+      "required_producer_or_receipt_change": false
+    },
+    {
+      "id": "TOB-R14",
+      "topic": "attribution and source-audit scope",
+      "assessment": "grounded-no-op-with-retained-conditions",
+      "locators": [
+        "producer lines292,296–299",
+        "receipt evidence_class/source.attribution_boundary"
+      ],
+      "grounding_and_retained_boundary": "Source amplitude, phase and integrated-rate premises are directly grounded. The radiation-space, trace-distance and conditional analysis are explicitly our derivation. No source-authored quantum-information theorem, experiment, real-nucleus realization or Human review is claimed.",
+      "required_producer_or_receipt_change": false
+    }
+  ],
+  "findings": [],
+  "supported_relations": {
+    "operator_Gram": "V_lambda_dagger V_lambda_prime = delta_lambda_lambda_prime I_initial after full Ω, q and final M_f summation.",
+    "full_D": "D(V rho V_dagger,V_R rho V_R_dagger)=sqrt(e) for the same positive trace-one initial rho.",
+    "reduced_and_effect": "The same CPTP reduction gives D<=sqrt(e); the same effect 0<=E<=I gives absolute probability error <=sqrt(e).",
+    "conditional": "For the same trace-nonincreasing accepted CP map with p,q>0, D(A/p,B/q)<=min(1,d/max(p,q)).",
+    "changed_initial": "The comparison is bounded by min(1,sqrt(e)+D_initial) if the initial density changes."
+  },
+  "required_reuse_boundaries": [
+    "Use the full sphere, both helicities and final spin for the Gram identity; do not infer absence of fixed-direction interference. Same-L E/M kinematic orthogonality does not override parity selection.",
+    "Keep one fixed good-spin transition and photon energy with the same normalized radial/time mode or angular-shell space. Recomputed widths, lifetimes, arrival-time modes, non-gamma decay and other branches are not bounded here.",
+    "Use the same positive trace-one initial density and the same effect, channel or instrument. A changed fitted density adds D_initial; different responses require a separate comparison.",
+    "Require S>0, S_R>0 and e<1. Define V_O only when S_O>0. At e=0 use V=V_R; at e=1 or S=0 there is no corresponding normalized reference.",
+    "Bound the sum of all omitted photon rates, not one E4/E2 pair ratio or qR. Integrated rate loss and renormalized probability error are distinct quantities.",
+    "The universal sqrt(e) bound concerns absolute bounded-event probability or CPTP state distance. It is not a relative point-density, normalized polarization or noisy unfolded-estimate bound.",
+    "Conditional states require p,q>0 and a useful success floor. The CPTP completion uses one fixed failure state. The rare filter is a mathematical family, not a measured device.",
+    "Point-density evaluation is not an effect bounded by I. Inverse efficiency/unfolding needs operator-norm, conditioning and statistical control. A known scalar noiseless efficiency correction is an explicit exception.",
+    "The optimal coherent-sector POVM is not claimed achievable by ordinary gamma bins. Finite-count significance, actual detector statistics and real-nucleus realization remain outside the result.",
+    "This is scientific self-audit and our mathematical derivation, not a source-authored quantum-information result, experiment, Human review or paper admission."
+  ],
+  "artifacts": [
+    {
+      "path": "tmp/day8-20261007/rose-brink/truncation-observable-bound/independent-review/README.md",
+      "sha256": "b6a1f8c919e7f9124dc98765a541f824b423a41529e06bb7d7f066d4eff4d1e3",
+      "bytes": 11242
+    },
+    {
+      "path": "tmp/day8-20261007/rose-brink/truncation-observable-bound/independent-review/arithmetic-evidence.json",
+      "sha256": "32cb33df33690bb4c93257511b773a7ca8da82b27d07749bfed083214ae07a86",
+      "bytes": 8132
+    },
+    {
+      "path": "tmp/day8-20261007/rose-brink/truncation-observable-bound/independent-review/fraction_radiation_audit.py",
+      "sha256": "c464bd0f553f906f0f134fda39621c33cc40919d4f8eeb986546b47d43e883da",
+      "bytes": 12208
+    }
+  ],
+  "mutations": {
+    "original95_receipt_or_producer_changed": false,
+    "hierarchy_or_other_receipts_changed": false,
+    "canonical_changed": false,
+    "report_changed": false,
+    "run_or_course_state_changed": false,
+    "raw_or_PLAN_changed": false,
+    "Git_changed": false,
+    "clock_process_changed": false,
+    "subagents_spawned": false,
+    "allowed_writes_only": [
+      "tmp/day8-20261007/rose-brink/truncation-observable-bound/independent-review/",
+      "outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/truncation-observable-bound-review.json"
+    ]
+  },
+  "stop_reason": "The assigned independent source/mathematics audit is complete. The general Gram, trace-distance and conditional proofs and exact controls are supported, with scope conditions retained."
+}

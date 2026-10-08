@@ -41,13 +41,11 @@
     "preflight_exit": 0
   },
   "last_closeout_snapshot": {
-    "now_local": "2026-10-08T00:13:32.630593+08:00",
-    "clock_tool_checkpoint_utc": "2026-10-07 16:08:24 UTC",
+    "now_local": "2026-10-08T08:30:38.771124+08:00",
+    "clock_tool_checkpoint_utc": "2026-10-08 00:27:24 UTC",
     "hard_deadline": "2026-10-08T15:00:00+08:00",
-    "next_scheduled_start": "2026-10-08T16:00:00+08:00",
-    "minutes_to_deadline": 886,
-    "minutes_to_next_start": 946,
-    "decision": "continue-or-advance",
+    "minutes_to_deadline": 389,
+    "decision": "continue-current-high-information",
     "day_index": 8,
     "permitted_next_card": "Day9 uncredited only"
   },
@@ -193,6 +191,26 @@
       "fixed_Mi_sums": 10,
       "material_findings": 0,
       "artifact": "electric-rank-hierarchy-review.json"
+    },
+    "truncation_bound_parent": {
+      "checks": 95,
+      "exit": 0,
+      "elapsed_seconds": 2.9933146949624643,
+      "artifact": "truncation-observable-bound.json"
+    },
+    "truncation_independent": {
+      "review_items": 14,
+      "facts": 19,
+      "integrals": 28,
+      "CG_norms": 8,
+      "material_findings": 0,
+      "artifact": "truncation-observable-bound-review.json"
+    },
+    "finite_density_parent": {
+      "checks": 329,
+      "exit": 0,
+      "elapsed_seconds": 1.316540508007165,
+      "artifact": "finite-rank-density-bound.json"
     }
   },
   "card_content_status": "complete",
@@ -278,15 +296,36 @@
       "run_finalized": false,
       "H3_passed": true,
       "files": 17
+    },
+    {
+      "branch": "main",
+      "commit_subject": "Extend DAY8 cascade evidence and strength normalization",
+      "commit_hash": "661577cd08c473f349910ef7267077ac5022c061",
+      "remote": "origin (Gitee)",
+      "refspec": "HEAD:main",
+      "fetch_exit": 0,
+      "remote_ancestor_exit": 0,
+      "dry_run_exit": 0,
+      "push_exit": 0,
+      "post_push_head_matches_remote_main": true,
+      "post_commit_files_match_manifest": true,
+      "published_at": "2026-10-08T02:45:35.627677+08:00",
+      "publication_kind": "continuing-checkpoint",
+      "run_finalized": false,
+      "H3_passed": true,
+      "files": 26
     }
   ],
   "continuation_prompt_file": "/workspace/wiki/outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/continuation-prompt.md",
   "pending_research": [
-    "Day8 rate-truncation omittedfraction versus finite-acceptance observable error; current RB formalism only",
-    "Independent source/current/hard-support audit of electric rank hierarchy",
-    "2026-10-08 15:00 finalcloseout; originalbaseline runner/state and formalDAY9 plan/prompt"
+    "collect J3 nullspace/node receipt and parent replay",
+    "collect reference17-item independent review",
+    "collect per-helicity general normalization review",
+    "collect same-pair total-photon-width floor alternative",
+    "checkpoint07 explicitmanifest/runner checks/Gitee publication",
+    "15:00 closeout and formalDAY9planprompt"
   ],
-  "pending_clock_delivery_count": 9,
+  "pending_clock_delivery_count": 13,
   "observed_clock_executions": [
     {
       "timestamp": "2026-10-07T07:18:39.583689+08:00",
@@ -346,8 +385,8 @@
     },
     {
       "id": "day8-gamma-cascade-expansion",
-      "decision": "deferred",
-      "next_gain": "no cascade spins/gate supplied; extra synthetic cases would not change current exclusion boundary"
+      "decision": "bounded-route-complete",
+      "next_gain": "148-check pair-specific geometry/coherence certificates and source-phase controls written back; no global uniqueness"
     },
     {
       "id": "day9-strength-input-chain",
@@ -361,24 +400,79 @@
       "next_gain": "5 independent FO points and forward definitions checked; no author processing identity or NH/radius/covariance resolution"
     },
     {
-      "id": "day10-card",
-      "decision": "out-of-scope-not-opened",
-      "next_gain": "single Day+1 authorization only"
-    },
-    {
       "id": "day8-caseC-complete-rank",
-      "decision": "bounded-local-route-complete; global pair in progress",
-      "next_gain": "positive local rank5 versus global ambiguity distinction"
+      "decision": "bounded-local-and-global-routes-complete",
+      "next_gain": "41-check local rank5 and 29-check global pair independently verified and written back"
     },
     {
       "id": "day8-U-E0-companion-completeness",
-      "decision": "selected-bounded-L2",
-      "next_gain": "test whether one total ICC and tau exclude calibrated-photon U pair when E0 is allowed"
+      "decision": "bounded-route-complete",
+      "next_gain": "47-check conditional completion; no-penetration baseline premise explicit"
     },
     {
       "id": "day8-LKH82-model-operator-boundary",
-      "decision": "selected-existing-source-reread",
-      "next_gain": "formal leading-M1 model zero, matrix-element suppression and high-multipole hierarchy conditions"
+      "decision": "bounded-route-complete",
+      "next_gain": "27-check generator-specific zero, same-order corrections, strength-scale loss and transfer assumptions canonicalized"
+    },
+    {
+      "id": "day8-penetration-ICC-boundary",
+      "decision": "bounded-route-complete",
+      "next_gain": "35-check fixed-reference/admissible-domain/E2-floor and NP/SC vs FO/NH distinction written back"
+    },
+    {
+      "id": "day8-cascade-local-rank",
+      "decision": "bounded-route-complete",
+      "next_gain": "56-check rank4→5 at original seed; normalized yield and covariance premises; isotropic partial improvement"
+    },
+    {
+      "id": "day8-five-observable-global-branch",
+      "decision": "bounded-route-complete",
+      "next_gain": "27-check computational interval existence, independent58-check audit; real nuclear/prior feasibility unproved"
+    },
+    {
+      "id": "day9-vacancy-sensitivity",
+      "decision": "preview-bounded-route-complete",
+      "next_gain": "5 NH actualinputs/offline replay and rounded-input forward controls; no experimental/covariance identity added"
+    },
+    {
+      "id": "day8-global-pair-calibrated-ratio",
+      "decision": "bounded-route-complete",
+      "next_gain": "28-check interval pair discrimination with one prescribed theta2=0; calibration/selection/covariance premises"
+    },
+    {
+      "id": "day8-electric-rank-hierarchy",
+      "decision": "bounded-primary-and-independent-review-complete",
+      "next_gain": "46-check E4/E2 coefficient/χ and limits canonicalized; no actualE/R or universalnaturalness bound"
+    },
+    {
+      "id": "day9-reverse-strength-normalization",
+      "decision": "bounded-preview-complete-uncredited",
+      "next_gain": "190 substantive/247phase-domain reverse-strength checks; no independentupwardmeasurement or cardcredit"
+    },
+    {
+      "id": "day8-truncation-observable-bound",
+      "decision": "bounded-primary-and-independent-review-complete",
+      "next_gain": "95/329 bounds canonicalized; physical priors remain independent"
+    },
+    {
+      "id": "day8-controlled-complete-omission",
+      "decision": "bounded-primary-complete-independent-audit-pending",
+      "information_gain": "connect complete M3/E4 rate fraction with independently stated support/moment/B2-floor priors"
+    },
+    {
+      "id": "day8-population-spectral-floor",
+      "decision": "bounded-primary-complete-independent-audit-pending",
+      "information_gain": "J2 exact reference inverse and conditional relative-W bounds; symmetry/selection/data prerequisites"
+    },
+    {
+      "id": "day8-high-spin-reference-nullspace",
+      "decision": "selected-bounded-existing-source-L2",
+      "information_gain": "test whether A2/A4 calibration may miss high-spin density modes and fail to certify rmin"
+    },
+    {
+      "id": "day8-parity-null-converse",
+      "decision": "bounded-primary-complete",
+      "information_gain": "one-way source conditions and valid-response control, no physical-parity diagnosis"
     }
   ],
   "last_recoverable_checkpoint": "research-checkpoint.json",
@@ -403,7 +497,46 @@
   },
   "latest_publication_pointer": {
     "branch": "main",
-    "subject": "Clarify model zeros and companion observable limits for DAY8",
+    "subject": "Extend DAY8 cascade evidence and strength normalization",
     "H3_passed": true
+  },
+  "latest_runtime_snapshot": {
+    "now_local": "2026-10-08T08:30:38.771124+08:00",
+    "clock_tool_checkpoint_utc": "2026-10-08 00:27:24 UTC",
+    "hard_deadline": "2026-10-08T15:00:00+08:00",
+    "minutes_to_deadline": 389,
+    "decision": "continue-current-high-information",
+    "day_index": 8,
+    "permitted_next_card": "Day9 uncredited only"
+  },
+  "runtime_snapshots": [
+    {
+      "now_local": "2026-10-08T07:46:39.712204+08:00",
+      "clock_tool_checkpoint_utc": "2026-10-07 23:40:45 UTC",
+      "hard_deadline": "2026-10-08T15:00:00+08:00",
+      "minutes_to_deadline": 433,
+      "next_scheduled_start": "2026-10-08T16:00:00+08:00",
+      "decision": "continue-current-high-information",
+      "day_index": 8,
+      "permitted_next_card": "Day9 uncredited only"
+    },
+    {
+      "now_local": "2026-10-08T08:30:38.771124+08:00",
+      "clock_tool_checkpoint_utc": "2026-10-08 00:27:24 UTC",
+      "hard_deadline": "2026-10-08T15:00:00+08:00",
+      "minutes_to_deadline": 389,
+      "decision": "continue-current-high-information",
+      "day_index": 8,
+      "permitted_next_card": "Day9 uncredited only"
+    }
+  ],
+  "parent_verified_latest": {
+    "truncation_bound": 95,
+    "finite_density_bound": 329,
+    "magnetic_domain": 54,
+    "parity_duality": 99,
+    "population_calibration": 96,
+    "controlled_four_mode": 72,
+    "nondefinite_parity": 60
   }
 }

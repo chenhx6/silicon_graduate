@@ -225,6 +225,26 @@ LKH82-14 用同pair的E4/E2 physical electric RME定义 `χ=M4/(R²M2)`，在所
 
 Formal global pair分别需约34.5065和100.6230除(qR)²的|χ|；未给真实E/R/current，不据此排除真实核模型。一个partial-rate小也不意味着角分布/偏振误差同样小，interference按振幅尺度进入。系数、单位和ratio端点46项核验及source current/retardation条件见[[lange-kumar-hamilton-1982-multipole-admixtures]]，不外推M3/M1或所有高阶都可忽略。
 
+### 从被省率到测量误差：归一与支持条件
+
+RB67-21以同initialρ、transition/E/radialmode与SR>0重构：省略totalphoton-rate份额ε时，full与renormalized-retained radiation-state距离为√ε，同boundedfinite-bin effect的absoluteprobability差≤√ε。干涉control可达O√ε；不能直接用ε作angular/polarizationerror。改fitρ、time/nonγ或measurementchannel需另控，postselection小success概率会放大。
+
+RB67-22另加fixedJi/Jf/parity有限Hemit支持，三原题κ2/5/7使角平均1的W满足absolutepoint-bound κ√ε；positivepol强度也成立。它使用full emittedspace D含finalspin，不把arbitraryreducedD套同κ。节点relative、signedStokes、polarizationratio、unknownJ和unboundedunfolding各有额外条件。FullΩ/isometry、CP/filter、CG谱与locators见[[rose-brink-1967-phase-defined-angular-distributions]]；95/329项parent核验均为L2理论，未提供实际omittedfraction或experimentalerrors。
+
+### 标清极化属于哪条γ和哪种选样
+
+RB67-23给firstE/Mduality控制：第一γ方向已tag但pol未测/只circularselected时，A′q=qAq使middleR完全同，photon2任意fixedmeasurement也同。Firstlinear tag可以交换jointintensities；source初态random时firstlocalP0仍可有joint信息。合成2?→2+→0+的γ2P=3/17对M1/E1firsthyp都同，firstlinear-tag + secondarydirection才给相反±3/17。
+
+γ2polar证据直接归于γ2的E/M/levelparityrelation，firstparity可经independentanchors链式推断，不能重复计作directγ1measurement。坐标/Jones/response、tag与ordering明确后比较，不把positivepolsign作通用type阈值。99项source-phase/CG控制与全部boundary见[[rose-brink-1967-phase-defined-angular-distributions]]，不产生实验宇称赋值。
+
+### 截断先验、布居下限与 parity null 的依赖
+
+同一 2+→2+ 的 M3/E4 被省率可在独立 hard-support、磁 moments/domain 与正 B(E2) floor 下条件性上界；小 qR 或目标 M1/E2 拟合本身不提供这些先验。LKH82-15/16 写明单位、gradient 系数、rate ceiling 与 failure edges，不能用参数拟合精度代替 model-error bound。
+
+RB67-24 的独立同母态 pure-E2 reference 只在 J=2 symmetric-diagonal 模型中把 A2/A4 映为完整组布居。独立 rmin>0 与 rmax 给 W_R≥(2Ji+1)rmin 和相对误差≤[(rmax−rmin)/rmin]√ε；需联合不确定域、选样与响应核验。未控 orientation/coherence 或换成 cascade-conditioned 中间态后，不能沿用该 floor。
+
+RB67-25 区分 odd-K 消失的充分条件与逆命题。放松核态确定宇称的同 rank E1/M1 形式控制可 W isotropic 而 circular polarization 非零；accepted odd counts 又可由合法响应制造。没有 odd K 不证明 parity，odd counts 也不独自证明 parity mixing。来源条件、η 的 interaction-amplitude 单位/相位和未作实验推断的边界见 [[rose-brink-1967-phase-defined-angular-distributions]]。以上均为 L2 自审知识。
+
 ## How It Is Obtained
 
 可由角分布、角关联/DCO、线偏振和内转换系数与理论响应比较得到。

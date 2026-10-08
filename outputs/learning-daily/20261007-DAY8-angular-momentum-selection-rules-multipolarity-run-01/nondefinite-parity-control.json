@@ -1,0 +1,267 @@
+{
+  "schema_version": 1,
+  "created_at_utc": "2026-10-07T22:58:20.437199+00:00",
+  "artifact_kind": "Day8-L2-nondefinite-parity-E1-M1-null-converse-control",
+  "status": "complete-closed-formal-hypothesis-check; no-physical-parity-mixing-inference",
+  "day_index": 8,
+  "run_closed": false,
+  "new_source_or_course_card": false,
+  "new_session_or_goal": false,
+  "experimental_data_fit": false,
+  "numerical_experiment": false,
+  "L4": false,
+  "session_id": "01a111fb-370d-7ed1-afe9-881ccc47caf4",
+  "resume_command": "codex resume 01a111fb-370d-7ed1-afe9-881ccc47caf4 -C /workspace/wiki -s danger-full-access -a never",
+  "evidence_class": "source-grounded scope audit plus our exact synthetic amplitude/Jones reconstruction; not human-reviewed",
+  "sources": {
+    "RB67": {
+      "knowledge_source": "knowledge/sources/rose-brink-1967-phase-defined-angular-distributions.md",
+      "raw": "raw/papers/gpt/high-spin-20260920/multipolarity/mixing ratio/1967_Rose et al_Angular Distributions of Gamma Rays in Terms of Phase-Defined Reduced Matrix Elements.pdf",
+      "raw_sha256": "8f846b61b9320de291ee5600126c5e286a0fe05968df819696816f0dc1ec57dc",
+      "direct_locators": [
+        "printed p320 / PDF p15, Eq.3.40 and left-column conditions: definite Ji, axial symmetry, initial parity need not be definite; alignment eliminates odd B_K",
+        "printed p320 / PDF p15, Eq.3.41 and notes(i)-(iii): definite initial/final parities plus unobserved photon polarization eliminate odd K, including polarized initial states",
+        "printed p321 / PDF p16, Sec.III.F repeats Eq.3.28 and population normalization; cascade/two-multipole reduction retains preceding restrictions",
+        "printed p316 / PDF p11, Eq.3.24 and WE/Jones paragraph: q^pi, initial-bra/final-ket CG and linear amplitude difference/sum",
+        "printed p317 / PDF p12, Eq.3.28 and realness paragraph: population tensors and conditional time-reversal/phase statement",
+        "printed p318 / PDF p13, Eq.3.29 total width and Eq.3.32 notes(i)-(v): general parity-unrestricted sums, triangle rules and conditional real RMEs",
+        "printed p312 / PDF p7, footnote7: rotation D=exp(-i alpha Jz)exp(-i beta Jy)exp(-i gamma Jz)"
+      ],
+      "visually_checked_images": {
+        "tmp/day8-20261007/rose-brink/p312-pdf7.png": "403d17e12b4f6bcd3f64c644f1a7a127ca83b3f7d7dfabe50d0963abd6aeb34e",
+        "tmp/day8-20261007/rose-brink/p316-pdf11.png": "8b6191298c81a731bba7e04be14ae1c4d6b0e1681f11bb98b34dd69e90255401",
+        "tmp/day8-20261007/rose-brink/p317-pdf12.png": "fab86494fcfaa448f23dcc00c32fd833858dd10e8747d34e7ea214100071c5a6",
+        "tmp/day8-20261007/rose-brink/p318-pdf13.png": "49c59a6adcbf462409716870a8aa4c192ec22a0079eee97e5deaf03ef772cb10",
+        "tmp/day8-20261007/rose-brink/p320-pdf15.png": "43e43be10e45104870d9049dda91805848175e97cdc6d16af20f5892a2ab1414",
+        "tmp/day8-20261007/rose-brink/p321-pdf16.png": "82be86deff35a01ec1fbffae9ffa62bbc744aa9e7ca68f57861cc8bfcbd1d506"
+      }
+    },
+    "LKH82": {
+      "knowledge_source": "knowledge/sources/lange-kumar-hamilton-1982-multipole-admixtures.md",
+      "raw": "raw/papers/gpt/high-spin-20260920/review/1982_Lange et al_E0-E2-M1 multipole admixtures of transitions in even-even nuclei.pdf",
+      "raw_sha256": "ed925a0577a9257903806acd209c1db707529e86a5bfd9a301a83d597bf78ffb",
+      "locator": "printed p121 / PDF p3, Eqs.2.1-2.6: photon rate ratio and specialized BM E2/M1 mixing convention; not the E1/M1 photon interaction-amplitude chart used here"
+    }
+  },
+  "source_condition_audit": {
+    "Eq3_40": "Unpolarized/helicity-summed W, fixed Ji and cylindrical symmetry about the known axis; the initial state need not have definite parity. Source products are written real after the conditional realness convention; this complex control instead uses Eq.3.24 with explicit conjugation.",
+    "Eq3_41": "With the source's parity-conserving electromagnetic interaction, additional definite parities of initial and final states restrict L/pi and enforce L+L'+pi+pi' even, so the helicity-summed selector removes odd K. Initial orientation alone does not undo this condition.",
+    "independent_alignment_condition": "w(-M)=w(M) makes every odd B_K zero directly from Eq.3.28, independently of whether photon circular polarization is observed and independently of definite parity.",
+    "one_way_logic": "These are sufficient odd-K null conditions. The null does not prove definite nuclear parity or establish which sufficient condition caused it.",
+    "selector_for_same_L1": {
+      "0": {
+        "EE": 2,
+        "MM": 2,
+        "EM": 0,
+        "ME": 0
+      },
+      "1": {
+        "EE": 0,
+        "MM": 0,
+        "EM": 2,
+        "ME": 2
+      }
+    },
+    "realness_boundary": "RB p317 and p318 note(v) condition real RMEs on specified state/operator time-reversal and phase properties. No Hamiltonian or those transformation properties are assigned to the complex toy. Complex eta is a mathematical phase control; it is not evidence of time-reversal violation."
+  },
+  "single_closed_model": {
+    "spins": "Ji=Jf=1/2; no definite nuclear-parity labels assigned",
+    "photon_modes": "Same common positive photon energy/radial mode and same final nuclear-state channel; L=1 is the only allowed photon rank. Definite nuclear parities are explicitly relaxed so E1 and M1 can be coherently present.",
+    "electromagnetic_symmetry_scope": "The usual E/M parity transformation laws and source electromagnetic interaction convention are retained. Relaxing definite nuclear-state parity does not introduce electromagnetic parity violation.",
+    "initial_density": "Diagonal in Mi=(-1/2,+1/2), w_-=(1-p)/2,w_+=(1+p)/2, -1<=p<=1; p=2<Ji_z> in hbar units. Axisymmetry is retained.",
+    "relative_amplitudes": "aE=1,aM=eta=a+i b; a,b real. These are dimensionless relative coefficients with a common nonzero interaction-amplitude scale a0 removed. The pure M endpoint uses aE=0,aM=1, outside the eta=aM/aE chart but within the same two-mode model.",
+    "source_type_factors": "pi_E=0,pi_M=1, hence aE*q^0+aM*q^1=1+q*eta for q=+-1.",
+    "source_amplitude": "A_(Mi,Mf)^q=sqrt[3/(2S)]*(1+q*eta)*CG(Jf,Mf;1,Mi-Mf|Ji,Mi)*d^1_(Mi-Mf,q)(theta), S=1+|eta|^2. Global common source scale removed so angular average W=1.",
+    "source_rotation_and_sign": "d=exp(-i theta Jy)=SymPy wigner_d_small(1,-theta), descending spin1 indices. Helicity matrix order is(-1,+1). At theta=0, q+ links Mi+1/2 to Mf-1/2; this anchors the plus sign in the formula. Actual detector helicity labels require their own calibration.",
+    "CG_amplitude_paths": [
+      {
+        "Mi": "-1/2",
+        "Mf": "-1/2",
+        "m": "0",
+        "amplitudes_before_common_sqrt_S_division": [
+          "-st*(a + I*b - 1)/2",
+          "-st*(a + I*b + 1)/2"
+        ]
+      },
+      {
+        "Mi": "-1/2",
+        "Mf": "1/2",
+        "m": "-1",
+        "amplitudes_before_common_sqrt_S_division": [
+          "-(c + 1)*(a + I*b - 1)/2",
+          "-(c - 1)*(a + I*b + 1)/2"
+        ]
+      },
+      {
+        "Mi": "1/2",
+        "Mf": "-1/2",
+        "m": "1",
+        "amplitudes_before_common_sqrt_S_division": [
+          "-(c - 1)*(a + I*b - 1)/2",
+          "-(c + 1)*(a + I*b + 1)/2"
+        ]
+      },
+      {
+        "Mi": "1/2",
+        "Mf": "1/2",
+        "m": "0",
+        "amplitudes_before_common_sqrt_S_division": [
+          "st*(a + I*b - 1)/2",
+          "st*(a + I*b + 1)/2"
+        ]
+      }
+    ],
+    "population_tensors": {
+      "B0": "1",
+      "B1": "p",
+      "rank_cap": "K<=2Ji=1; no rank2 linear response is available in this closed model"
+    },
+    "no_microscopic_realization": "No Hamiltonian, parity admixture angle, weak interaction, continuum preparation, nucleus, absolute photon energy or physical interaction matrix element is constructed."
+  },
+  "derived_formulas": {
+    "S": "1+|eta|^2",
+    "v": "2Re(eta)/(1+|eta|^2), |v|<=1",
+    "helicity_intensity": "I_q(c)=1/2*(1+q v)*(1+q p c), c=cos(theta), q=+-1",
+    "unpolarized": "W(c)=I_++I_-=1+A1 c; A1=p v=2p Re(eta)/(1+|eta|^2).",
+    "helicity_matrix_minus_plus": [
+      [
+        "-(c*p - 1)*(a**2 - 2*a + b**2 + 1)/(2*(a**2 + b**2 + 1))",
+        "0"
+      ],
+      [
+        "0",
+        "(c*p + 1)*(a**2 + 2*a + b**2 + 1)/(2*(a**2 + b**2 + 1))"
+      ]
+    ],
+    "Jones_linear": "Ax=(Aminus-Aplus)/sqrt2, Ay=(Aminus+Aplus)/sqrt2; Ix=Iy=W/2 and Plinear=0 wherever W>0. Offdiagonal helicity intensity is zero after complete Mi/Mf sum; all linear analyzer directions are blind in this model.",
+    "circular": "Pcircle=(I_+-I_-)/W=(v+p c)/(1+v p c), only where W>0.",
+    "normalization": "(1/2)integral_-1^1 W(c) dc=1; (1/2)integral I_q dc=(1+q v)/2.",
+    "positivity_proof": "I_q factors are nonnegative for |p|,|c|,|v|<=1. S^2-4a^2=[(a-1)^2+b^2][(a+1)^2+b^2]>=0 proves |v|<=1. W^2-(v+p c)^2=(1-v^2)(1-p^2 c^2)>=0 proves |Pcircle|<=1 wherever W>0.",
+    "zero_intensity_boundary": "At p=1,eta=1,c=-1, W and the circular numerator vanish; normalized circular and linear ratios are undefined there, not assigned0."
+  },
+  "total_width_and_convention_boundary": {
+    "integrated_total": "After integration and helicity sum, the E1/M1 cross term cancels: |1+eta|^2+|1-eta|^2=2S. Total photon width depends only on the common scale |a0|^2 S; p and Re(eta) are not separately recovered from it.",
+    "source_absolute_relation": "With physical RB a_lambda=<Ji||T_L^pi||Jf>/sqrt(2L+1), Eq.3.29 gives Tgamma=(4k/hbar)sum|a_lambda|^2 and Gamma_gamma=4k sum|a_lambda|^2. Here sum|a_lambda|^2=|a0|^2 S; no absolute k/a0 or lifetime is supplied.",
+    "per_q_scope_warning": "The sentence following source Eq.3.29 describes integrated P^q as independent of q. That intermediate equality is not assumed after explicitly admitting coherent same-L opposite-type amplitudes here: our exact result has fractions(1+qv)/2. The helicity-summed Eq.3.29 normalization remains valid. This is a scope boundary for this formal extension, not a claimed new source measurement.",
+    "not_BM_0_835": "eta is a same-L E1/M1 ratio of photon interaction RMEs normalized by sqrt(2L+1), including the source energy/operator phases. It is not a bare electric/magnetic nuclear RME ratio and not the LKH82 specialized0.835 E_gamma E2/M1 convention. No bare e versus mu_N numerical ratio is substituted.",
+    "complex_scope": "Explicit conjugation was retained in the amplitude-density calculation. The source's conditional real-RME convention is not used to infer an interaction symmetry from an arbitrary complex eta."
+  },
+  "positive_and_null_controls": {
+    "positive": {
+      "p": "1/2",
+      "eta": "1/2",
+      "v": "4/5",
+      "A1": "2/5",
+      "W": "(2*c + 5)/5",
+      "Pcircle": "(5*c + 8)/(2*(2*c + 5))",
+      "Plinear": "0 where W>0"
+    },
+    "pure_E": "aE=1,aM=0: W=1 for every p; Pcircle=p c. This can satisfy a definite-parity hypothesis.",
+    "pure_M": "aE=0,aM=1: same W=1 and same helicity matrix; eta chart is not used at aE=0.",
+    "alignment_nonzero_coherence": "p=0,eta=1/2: W=1 despite coherent E1/M1, while Pcircle=4/5. Odd-K absence does not prove definite parity.",
+    "quadrature_phase": "eta=i: W=1 for any p and Pcircle=p c; Re(eta)=0 removes the relevant interference term despite nonzero E/M amplitudes.",
+    "sign_controls": "Changing p alone or eta alone reverses A1. Simultaneously changing p->-p,eta->-eta leaves W/A1 unchanged, swaps circular intensities and reverses Pcircle. Conjugating eta leaves these point intensities unchanged in this model.",
+    "specific_necessity": "Only in this stated closed model, odd unpolarized K=1 requires both p!=0 and Re(aE* aM)!=0. Orientation alone with a definite-parity single mode does not produce odd W."
+  },
+  "detector_response_negative_control": {
+    "underlying_source": "Use healthy Wtrue=1 from this same spin-half pure-mode model; no additional nuclear case or actual detector data.",
+    "response": "e_det(c)=e0(1+b_det c), |b_det|<=1, 0<e0<=1/(1+|b_det|). This ensures0<=e_det<=1 and is a valid bounded acceptance efficiency.",
+    "positivity_proof": "For |c|<=1, e0(1-|b_det|)<=e_det(c)<=e0(1+|b_det|). The assumed constraints place both endpoints in[0,1].",
+    "normalization": "The mean acceptance is e0 and the normalized accepted angular profile is1+b_det c. Taking b_det=A1 produces the same unpolarized shape as the coherent toy.",
+    "one_exact_control": {
+      "b_det": "2/5",
+      "e0": "1/2",
+      "efficiency_at_c_minus1": "3/10",
+      "efficiency_at_c_plus1": "7/10",
+      "normalized_profile": "1+(2/5)c"
+    },
+    "comparison_scope": "Only the unpolarized accepted angular profile is matched; no equality of circular/linear data or complete photon states is claimed.",
+    "missing_calibration": "This is a mathematical counter-control, not an inferred real response. Geometry, finite acceptance, response/helicity calibration, background handling and covariance need independent experimental control before observed odd counts are interpreted as source parity information."
+  },
+  "evidence_and_inference_boundary": {
+    "direct_source": "RB amplitude/CG/Jones convention, population tensors, definite-parity and alignment sufficient null conditions; LKH specialized mixing definitions.",
+    "our_reconstruction": "The single parity-relaxed E1/M1 closed model, complex controls, exact coefficient/circular/linear formulas, null-converse counterexamples and accepted-response counter-control.",
+    "no_discovery_claim": "Both-mode coherence is permitted as a mathematical hypothesis. Parity mixing could depend on an unspecified state preparation or Hamiltonian, including weak or continuum mechanisms; none is assigned here. No electromagnetic parity violation, nuclide PNC finding or time-reversal violation is inferred.",
+    "inference_stop": "Odd counts alone do not establish parity mixing. Even a source-level odd coefficient needs independently justified spin/axis/population, coherent amplitude/phase and response assumptions. The absence of odd coefficients does not prove definite parity."
+  },
+  "protected_old_budget": {
+    "path": "outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/controlled-four-mode-truncation.json",
+    "sha256": "0ba57d1ebd21294ecbcbccd365fa3e984215116542cb6b8676a57f6b7e527aae",
+    "modified": false,
+    "executed": false
+  },
+  "checks": {
+    "passed_by_group": {
+      "CG_coupled_norm_each_initial_M": 1,
+      "Jy_Hermitian": 1,
+      "Jy_minimal_polynomial": 1,
+      "LKH_raw_identity": 1,
+      "RB_raw_identity": 1,
+      "alignment_p0_circular_can_be_nonzero": 1,
+      "alignment_p0_nonzero_mix_W_isotropic": 1,
+      "angular_average_one": 1,
+      "circular_P_bounded_where_W_positive": 1,
+      "circular_P_closed_form": 1,
+      "day_index_retained": 1,
+      "eta_conjugation_blind_in_this_model": 1,
+      "eta_sign_flip_reverses_A1": 1,
+      "full_helicity_matrix_Hermitian": 1,
+      "helicity_offdiagonal_zero": 1,
+      "integrated_helicity_fraction": 2,
+      "linear_difference_zero": 1,
+      "node_W_zero": 1,
+      "node_circular_numerator_also_zero": 1,
+      "odd_K_coefficient": 1,
+      "old_budget_immutable_after": 1,
+      "old_budget_immutable_before": 1,
+      "p_sign_flip_reverses_A1": 1,
+      "population_trace_one": 1,
+      "positive_control_A1_two_fifths": 1,
+      "pure_E_and_M_same_Jhalf_helicity_matrix": 1,
+      "pure_E_odd_null_for_any_p": 1,
+      "pure_M_odd_null_for_any_p": 1,
+      "quadrature_complex_phase_circular_orientation": 1,
+      "quadrature_complex_phase_odd_null": 1,
+      "raw_E_M_cross_cancels_after_helicity_sum": 1,
+      "raw_total_width_only_S": 1,
+      "response_acceptance_mean_e0": 1,
+      "response_control_positive_lower_endpoint": 1,
+      "response_control_profile_matches_coherent_control": 1,
+      "response_control_upper_endpoint_below_one": 1,
+      "response_mimics_odd_shape": 1,
+      "response_profile_normalization": 1,
+      "simultaneous_p_eta_sign_flip_reverses_Pcircle": 1,
+      "simultaneous_p_eta_sign_flip_same_W": 1,
+      "source_B0": 1,
+      "source_B1_orientation": 1,
+      "source_Jones_x_intensity": 1,
+      "source_Jones_y_intensity": 1,
+      "source_even_odd_selector": 8,
+      "source_helicity_intensity_sign": 2,
+      "source_qminus_axis_anchor": 1,
+      "source_qplus_axis_anchor": 1,
+      "source_rotation_matches_SymPy_minus_theta": 1,
+      "unpolarized_W_closed_form": 1,
+      "v_absolute_value_at_most_one_SOS": 1
+    },
+    "total_passed": 60,
+    "failures": 0
+  },
+  "changed_paths": [
+    "tmp/day8-20261007/rose-brink/nondefinite-parity-control/nondefinite_parity_control.py",
+    "outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/nondefinite-parity-control.json"
+  ],
+  "reproducibility": {
+    "code": "tmp/day8-20261007/rose-brink/nondefinite-parity-control/nondefinite_parity_control.py",
+    "script_sha256": "c3bd7175dec4f5a85436971e5cdc45f592aced6aafd53b1a5e4fdd7455562bf3",
+    "source_code": "#!/usr/bin/env python3\n\"\"\"Offline Day8 closed E1/M1 control with definite nuclear parity relaxed.\n\nOnly synthetic Ji=Jf=1/2, one common photon mode/energy, diagonal initial rho.\nNo Hamiltonian, nucleus, parity-violating interaction, physical energy or data\nis assigned. Source amplitudes retain conjugation for complex controls.\nDefault is read-only; --write-receipt exclusively creates one authorized JSON.\n\"\"\"\n\nfrom __future__ import annotations\n\nimport argparse\nfrom collections import Counter\nfrom datetime import datetime, timezone\nimport hashlib\nimport json\nfrom pathlib import Path\nimport sys\n\nsys.dont_write_bytecode = True\nCODE_REL = \"tmp/day8-20261007/rose-brink/nondefinite-parity-control/nondefinite_parity_control.py\"\nRUN_REL = \"outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01\"\nRECEIPT_REL = RUN_REL + \"/nondefinite-parity-control.json\"\nOLD_BUDGET_REL = RUN_REL + \"/controlled-four-mode-truncation.json\"\nOLD_BUDGET_SHA = \"0ba57d1ebd21294ecbcbccd365fa3e984215116542cb6b8676a57f6b7e527aae\"\nRB_RAW = \"raw/papers/gpt/high-spin-20260920/multipolarity/mixing ratio/1967_Rose et al_Angular Distributions of Gamma Rays in Terms of Phase-Defined Reduced Matrix Elements.pdf\"\nRB_SHA = \"8f846b61b9320de291ee5600126c5e286a0fe05968df819696816f0dc1ec57dc\"\nLKH_RAW = \"raw/papers/gpt/high-spin-20260920/review/1982_Lange et al_E0-E2-M1 multipole admixtures of transitions in even-even nuclei.pdf\"\nLKH_SHA = \"ed925a0577a9257903806acd209c1db707529e86a5bfd9a301a83d597bf78ffb\"\nRB_IMAGES = [\n    \"tmp/day8-20261007/rose-brink/p312-pdf7.png\",\n    \"tmp/day8-20261007/rose-brink/p316-pdf11.png\",\n    \"tmp/day8-20261007/rose-brink/p317-pdf12.png\",\n    \"tmp/day8-20261007/rose-brink/p318-pdf13.png\",\n    \"tmp/day8-20261007/rose-brink/p320-pdf15.png\",\n    \"tmp/day8-20261007/rose-brink/p321-pdf16.png\",\n]\n\n\ndef digest(path: Path) -> str:\n    return hashlib.sha256(path.read_bytes()).hexdigest()\n\n\ndef build_receipt(root: Path) -> dict:\n    dep_rel = \"tmp/day8-20261007/rose-brink/python-deps\"\n    sys.path.insert(0, str(root/dep_rel))\n    import sympy as sp\n    from sympy.physics.wigner import clebsch_gordan, wigner_d_small\n    counts: Counter[str] = Counter()\n\n    def check(name, condition):\n        if not bool(condition):\n            raise AssertionError(name)\n        counts[name] += 1\n\n    def eq(a, b):\n        return sp.simplify(a-b) == 0\n\n    def exact(e):\n        return str(sp.factor(sp.simplify(e)))\n\n    def matrix_text(m):\n        return [[exact(m[i,j]) for j in range(m.cols)] for i in range(m.rows)]\n\n    check(\"RB_raw_identity\", digest(root/RB_RAW)==RB_SHA)\n    check(\"LKH_raw_identity\", digest(root/LKH_RAW)==LKH_SHA)\n    check(\"old_budget_immutable_before\", digest(root/OLD_BUDGET_REL)==OLD_BUDGET_SHA)\n    run=json.loads((root/RUN_REL/\"run.json\").read_text(encoding=\"utf-8\"))\n    check(\"day_index_retained\", run[\"day_index\"]==8)\n\n    c, st, p, a, b = sp.symbols(\"c st p a b\", real=True)\n    theta=sp.symbols(\"theta\", real=True)\n    j=sp.Rational(1,2)\n    eta=a+sp.I*b\n    S=1+a*a+b*b\n    v=2*a/S\n    Ms=[-j,j]\n    qs=[-1,1]\n    weights={m:(1+2*m*p)/2 for m in Ms}\n    B={K:sp.simplify(sum(weights[m]*(-1)**(j-m)*sp.sqrt(2)*clebsch_gordan(j,j,K,m,-m,0) for m in Ms)) for K in [0,1]}\n    check(\"source_B0\",B[0]==1)\n    check(\"source_B1_orientation\",B[1]==p)\n    check(\"population_trace_one\",sum(weights.values())==1)\n    check(\"CG_coupled_norm_each_initial_M\",all(sum(clebsch_gordan(j,1,j,mf,mi-mf,mi)**2 for mf in Ms)==1 for mi in Ms))\n\n    # Source footnote7 uses exp(-i theta Jy). Rodrigues follows Jy^3=Jy.\n    Jy=sp.Matrix([[0,-sp.I/sp.sqrt(2),0],[sp.I/sp.sqrt(2),0,-sp.I/sp.sqrt(2)],[0,sp.I/sp.sqrt(2),0]])\n    d=sp.simplify(sp.eye(3)-sp.I*st*Jy+(c-1)*Jy*Jy)\n    check(\"Jy_Hermitian\",Jy==Jy.conjugate().T)\n    check(\"Jy_minimal_polynomial\",Jy**3==Jy)\n    ds=wigner_d_small(1,-theta)\n    dtrig=d.subs({c:sp.cos(theta),st:sp.sin(theta)})\n    check(\"source_rotation_matches_SymPy_minus_theta\",all(sp.trigsimp(sp.expand_trig(x-y))==0 for x,y in zip(ds,dtrig)))\n\n    def reduce_angle(expr):\n        return sp.factor(sp.expand(expr).subs(st**2,1-c*c))\n\n    def source_H(aE,aM):\n        scale=sp.simplify(sp.conjugate(aE)*aE+sp.conjugate(aM)*aM)\n        if scale==0:\n            raise ValueError(\"empty photon model\")\n        Hraw=sp.zeros(2)\n        paths=[]\n        for mi in Ms:\n            for mf in Ms:\n                m=mi-mf\n                row=sp.Matrix([sp.sqrt(sp.Rational(3,2))*(aE+q*aM)*clebsch_gordan(j,1,j,mf,m,mi)*d[1-m,1-q] for q in qs])\n                Hraw+=weights[mi]*row*row.conjugate().T\n                paths.append({\"Mi\":exact(mi),\"Mf\":exact(mf),\"m\":exact(m),\"amplitudes_before_common_sqrt_S_division\":[exact(e) for e in row]})\n        return (Hraw/scale).applyfunc(reduce_angle),paths\n\n    H,paths=source_H(sp.Integer(1),eta)\n    I={q:H[i,i] for i,q in enumerate(qs)}\n    W=sp.simplify(sp.trace(H))\n    check(\"full_helicity_matrix_Hermitian\",H==H.conjugate().T)\n    for q in qs:\n        check(\"source_helicity_intensity_sign\",eq(I[q],(1+q*v)*(1+q*p*c)/2))\n    check(\"source_qplus_axis_anchor\",eq(H[1,1].subs({c:1}),weights[j]*(1+v)))\n    check(\"source_qminus_axis_anchor\",eq(H[0,0].subs({c:1}),weights[-j]*(1-v)))\n    check(\"helicity_offdiagonal_zero\",H[0,1]==0 and H[1,0]==0)\n    check(\"unpolarized_W_closed_form\",eq(W,1+p*v*c))\n    check(\"odd_K_coefficient\",eq(sp.diff(W,c),2*p*a/S))\n    check(\"angular_average_one\",eq(sp.integrate(W,(c,-1,1))/2,1))\n    integrated={q:sp.simplify(sp.integrate(I[q],(c,-1,1))/2) for q in qs}\n    for q in qs:\n        check(\"integrated_helicity_fraction\",eq(integrated[q],(1+q*v)/2))\n    check(\"raw_total_width_only_S\",eq(sp.integrate(S*W,(c,-1,1))/2,S))\n    check(\"raw_E_M_cross_cancels_after_helicity_sum\",eq((1+eta)*(1+sp.conjugate(eta))+(1-eta)*(1-sp.conjugate(eta)),2*S))\n    check(\"v_absolute_value_at_most_one_SOS\",eq(S*S-4*a*a,((a-1)**2+b*b)*((a+1)**2+b*b)))\n\n    jx=sp.Matrix([1,-1])/sp.sqrt(2)\n    jy=sp.Matrix([1,1])/sp.sqrt(2)\n    Ix=sp.simplify((jx.conjugate().T*H*jx)[0])\n    Iy=sp.simplify((jy.conjugate().T*H*jy)[0])\n    check(\"source_Jones_x_intensity\",eq(Ix,W/2))\n    check(\"source_Jones_y_intensity\",eq(Iy,W/2))\n    check(\"linear_difference_zero\",Ix-Iy==0)\n    Pcircle=sp.cancel((I[1]-I[-1])/W)\n    check(\"circular_P_closed_form\",eq(Pcircle,(v+p*c)/(1+v*p*c)))\n    check(\"circular_P_bounded_where_W_positive\",eq((1+v*p*c)**2-(v+p*c)**2,(1-v*v)*(1-p*p*c*c)))\n\n    # General helicity-sum selector in Eq3.40: diagonals have even K, cross E/M\n    # has odd K for the same L. The complex extension is obtained via A A^dagger.\n    selector={}\n    for K in [0,1]:\n        selector[str(K)]={}\n        for label,pi,pip in [(\"EE\",0,0),(\"MM\",1,1),(\"EM\",0,1),(\"ME\",1,0)]:\n            val=1+(-1)**(2+pi+pip-K)\n            selector[str(K)][label]=val\n            expected=2 if (K==0 and pi==pip) or (K==1 and pi!=pip) else 0\n            check(\"source_even_odd_selector\",val==expected)\n\n    pureE,_=source_H(sp.Integer(1),sp.Integer(0))\n    pureM,_=source_H(sp.Integer(0),sp.Integer(1))\n    check(\"pure_E_odd_null_for_any_p\",eq(sp.trace(pureE),1))\n    check(\"pure_M_odd_null_for_any_p\",eq(sp.trace(pureM),1))\n    check(\"pure_E_and_M_same_Jhalf_helicity_matrix\",pureE==pureM)\n    check(\"alignment_p0_nonzero_mix_W_isotropic\",W.subs(p,0)==1)\n    check(\"alignment_p0_circular_can_be_nonzero\",eq(Pcircle.subs({p:0,a:sp.Rational(1,2),b:0}),sp.Rational(4,5)))\n    check(\"quadrature_complex_phase_odd_null\",W.subs(a,0)==1)\n    check(\"quadrature_complex_phase_circular_orientation\",eq(Pcircle.subs(a,0),p*c))\n    check(\"p_sign_flip_reverses_A1\",eq(W.subs(p,-p),1-p*v*c))\n    check(\"eta_sign_flip_reverses_A1\",eq(W.subs({a:-a,b:-b}),1-p*v*c))\n    check(\"simultaneous_p_eta_sign_flip_same_W\",eq(W.subs({p:-p,a:-a,b:-b},simultaneous=True),W))\n    check(\"simultaneous_p_eta_sign_flip_reverses_Pcircle\",eq(Pcircle.subs({p:-p,a:-a,b:-b},simultaneous=True),-Pcircle))\n    check(\"eta_conjugation_blind_in_this_model\",H.subs(b,-b)==H)\n\n    positive={p:sp.Rational(1,2),a:sp.Rational(1,2),b:0}\n    Wpositive=sp.simplify(W.subs(positive))\n    check(\"positive_control_A1_two_fifths\",eq(Wpositive,1+sp.Rational(2,5)*c))\n    check(\"node_W_zero\",W.subs({p:1,a:1,b:0,c:-1})==0)\n    check(\"node_circular_numerator_also_zero\",(I[1]-I[-1]).subs({p:1,a:1,b:0,c:-1})==0)\n\n    # A legitimate response on the same healthy isotropic source can mimic only\n    # the unpolarized profile. No actual response/data or new nuclear case.\n    bdet,e0=sp.symbols(\"b_det e0\",real=True)\n    efficiency=e0*(1+bdet*c)\n    accepted_mean=sp.integrate(efficiency,(c,-1,1))/2\n    accepted_profile=sp.cancel(efficiency/accepted_mean)\n    check(\"response_acceptance_mean_e0\",accepted_mean==e0)\n    check(\"response_profile_normalization\",sp.integrate(accepted_profile,(c,-1,1))/2==1)\n    check(\"response_mimics_odd_shape\",accepted_profile==1+bdet*c)\n    control_eff=efficiency.subs({bdet:sp.Rational(2,5),e0:sp.Rational(1,2)})\n    check(\"response_control_positive_lower_endpoint\",control_eff.subs(c,-1)==sp.Rational(3,10))\n    check(\"response_control_upper_endpoint_below_one\",control_eff.subs(c,1)==sp.Rational(7,10))\n    check(\"response_control_profile_matches_coherent_control\",eq(accepted_profile.subs(bdet,sp.Rational(2,5)),Wpositive))\n    check(\"old_budget_immutable_after\",digest(root/OLD_BUDGET_REL)==OLD_BUDGET_SHA)\n\n    codepath=Path(__file__).resolve()\n    return {\n        \"schema_version\":1,\"created_at_utc\":datetime.now(timezone.utc).isoformat(),\n        \"artifact_kind\":\"Day8-L2-nondefinite-parity-E1-M1-null-converse-control\",\n        \"status\":\"complete-closed-formal-hypothesis-check; no-physical-parity-mixing-inference\",\n        \"day_index\":8,\"run_closed\":False,\"new_source_or_course_card\":False,\"new_session_or_goal\":False,\n        \"experimental_data_fit\":False,\"numerical_experiment\":False,\"L4\":False,\n        \"session_id\":run[\"session_id\"],\"resume_command\":run[\"resume_command\"],\n        \"evidence_class\":\"source-grounded scope audit plus our exact synthetic amplitude/Jones reconstruction; not human-reviewed\",\n        \"sources\":{\n            \"RB67\":{\"knowledge_source\":\"knowledge/sources/rose-brink-1967-phase-defined-angular-distributions.md\",\"raw\":RB_RAW,\"raw_sha256\":RB_SHA,\n                \"direct_locators\":[\n                    \"printed p320 / PDF p15, Eq.3.40 and left-column conditions: definite Ji, axial symmetry, initial parity need not be definite; alignment eliminates odd B_K\",\n                    \"printed p320 / PDF p15, Eq.3.41 and notes(i)-(iii): definite initial/final parities plus unobserved photon polarization eliminate odd K, including polarized initial states\",\n                    \"printed p321 / PDF p16, Sec.III.F repeats Eq.3.28 and population normalization; cascade/two-multipole reduction retains preceding restrictions\",\n                    \"printed p316 / PDF p11, Eq.3.24 and WE/Jones paragraph: q^pi, initial-bra/final-ket CG and linear amplitude difference/sum\",\n                    \"printed p317 / PDF p12, Eq.3.28 and realness paragraph: population tensors and conditional time-reversal/phase statement\",\n                    \"printed p318 / PDF p13, Eq.3.29 total width and Eq.3.32 notes(i)-(v): general parity-unrestricted sums, triangle rules and conditional real RMEs\",\n                    \"printed p312 / PDF p7, footnote7: rotation D=exp(-i alpha Jz)exp(-i beta Jy)exp(-i gamma Jz)\",\n                ],\"visually_checked_images\":{rel:digest(root/rel) for rel in RB_IMAGES}},\n            \"LKH82\":{\"knowledge_source\":\"knowledge/sources/lange-kumar-hamilton-1982-multipole-admixtures.md\",\"raw\":LKH_RAW,\"raw_sha256\":LKH_SHA,\n                \"locator\":\"printed p121 / PDF p3, Eqs.2.1-2.6: photon rate ratio and specialized BM E2/M1 mixing convention; not the E1/M1 photon interaction-amplitude chart used here\"},\n        },\n        \"source_condition_audit\":{\n            \"Eq3_40\":\"Unpolarized/helicity-summed W, fixed Ji and cylindrical symmetry about the known axis; the initial state need not have definite parity. Source products are written real after the conditional realness convention; this complex control instead uses Eq.3.24 with explicit conjugation.\",\n            \"Eq3_41\":\"With the source's parity-conserving electromagnetic interaction, additional definite parities of initial and final states restrict L/pi and enforce L+L'+pi+pi' even, so the helicity-summed selector removes odd K. Initial orientation alone does not undo this condition.\",\n            \"independent_alignment_condition\":\"w(-M)=w(M) makes every odd B_K zero directly from Eq.3.28, independently of whether photon circular polarization is observed and independently of definite parity.\",\n            \"one_way_logic\":\"These are sufficient odd-K null conditions. The null does not prove definite nuclear parity or establish which sufficient condition caused it.\",\n            \"selector_for_same_L1\":selector,\n            \"realness_boundary\":\"RB p317 and p318 note(v) condition real RMEs on specified state/operator time-reversal and phase properties. No Hamiltonian or those transformation properties are assigned to the complex toy. Complex eta is a mathematical phase control; it is not evidence of time-reversal violation.\",\n        },\n        \"single_closed_model\":{\n            \"spins\":\"Ji=Jf=1/2; no definite nuclear-parity labels assigned\",\n            \"photon_modes\":\"Same common positive photon energy/radial mode and same final nuclear-state channel; L=1 is the only allowed photon rank. Definite nuclear parities are explicitly relaxed so E1 and M1 can be coherently present.\",\n            \"electromagnetic_symmetry_scope\":\"The usual E/M parity transformation laws and source electromagnetic interaction convention are retained. Relaxing definite nuclear-state parity does not introduce electromagnetic parity violation.\",\n            \"initial_density\":\"Diagonal in Mi=(-1/2,+1/2), w_-=(1-p)/2,w_+=(1+p)/2, -1<=p<=1; p=2<Ji_z> in hbar units. Axisymmetry is retained.\",\n            \"relative_amplitudes\":\"aE=1,aM=eta=a+i b; a,b real. These are dimensionless relative coefficients with a common nonzero interaction-amplitude scale a0 removed. The pure M endpoint uses aE=0,aM=1, outside the eta=aM/aE chart but within the same two-mode model.\",\n            \"source_type_factors\":\"pi_E=0,pi_M=1, hence aE*q^0+aM*q^1=1+q*eta for q=+-1.\",\n            \"source_amplitude\":\"A_(Mi,Mf)^q=sqrt[3/(2S)]*(1+q*eta)*CG(Jf,Mf;1,Mi-Mf|Ji,Mi)*d^1_(Mi-Mf,q)(theta), S=1+|eta|^2. Global common source scale removed so angular average W=1.\",\n            \"source_rotation_and_sign\":\"d=exp(-i theta Jy)=SymPy wigner_d_small(1,-theta), descending spin1 indices. Helicity matrix order is(-1,+1). At theta=0, q+ links Mi+1/2 to Mf-1/2; this anchors the plus sign in the formula. Actual detector helicity labels require their own calibration.\",\n            \"CG_amplitude_paths\":paths,\n            \"population_tensors\":{\"B0\":exact(B[0]),\"B1\":exact(B[1]),\"rank_cap\":\"K<=2Ji=1; no rank2 linear response is available in this closed model\"},\n            \"no_microscopic_realization\":\"No Hamiltonian, parity admixture angle, weak interaction, continuum preparation, nucleus, absolute photon energy or physical interaction matrix element is constructed.\",\n        },\n        \"derived_formulas\":{\n            \"S\":\"1+|eta|^2\",\"v\":\"2Re(eta)/(1+|eta|^2), |v|<=1\",\n            \"helicity_intensity\":\"I_q(c)=1/2*(1+q v)*(1+q p c), c=cos(theta), q=+-1\",\n            \"unpolarized\":\"W(c)=I_++I_-=1+A1 c; A1=p v=2p Re(eta)/(1+|eta|^2).\",\n            \"helicity_matrix_minus_plus\":matrix_text(H),\n            \"Jones_linear\":\"Ax=(Aminus-Aplus)/sqrt2, Ay=(Aminus+Aplus)/sqrt2; Ix=Iy=W/2 and Plinear=0 wherever W>0. Offdiagonal helicity intensity is zero after complete Mi/Mf sum; all linear analyzer directions are blind in this model.\",\n            \"circular\":\"Pcircle=(I_+-I_-)/W=(v+p c)/(1+v p c), only where W>0.\",\n            \"normalization\":\"(1/2)integral_-1^1 W(c) dc=1; (1/2)integral I_q dc=(1+q v)/2.\",\n            \"positivity_proof\":\"I_q factors are nonnegative for |p|,|c|,|v|<=1. S^2-4a^2=[(a-1)^2+b^2][(a+1)^2+b^2]>=0 proves |v|<=1. W^2-(v+p c)^2=(1-v^2)(1-p^2 c^2)>=0 proves |Pcircle|<=1 wherever W>0.\",\n            \"zero_intensity_boundary\":\"At p=1,eta=1,c=-1, W and the circular numerator vanish; normalized circular and linear ratios are undefined there, not assigned0.\",\n        },\n        \"total_width_and_convention_boundary\":{\n            \"integrated_total\":\"After integration and helicity sum, the E1/M1 cross term cancels: |1+eta|^2+|1-eta|^2=2S. Total photon width depends only on the common scale |a0|^2 S; p and Re(eta) are not separately recovered from it.\",\n            \"source_absolute_relation\":\"With physical RB a_lambda=<Ji||T_L^pi||Jf>/sqrt(2L+1), Eq.3.29 gives Tgamma=(4k/hbar)sum|a_lambda|^2 and Gamma_gamma=4k sum|a_lambda|^2. Here sum|a_lambda|^2=|a0|^2 S; no absolute k/a0 or lifetime is supplied.\",\n            \"per_q_scope_warning\":\"The sentence following source Eq.3.29 describes integrated P^q as independent of q. That intermediate equality is not assumed after explicitly admitting coherent same-L opposite-type amplitudes here: our exact result has fractions(1+qv)/2. The helicity-summed Eq.3.29 normalization remains valid. This is a scope boundary for this formal extension, not a claimed new source measurement.\",\n            \"not_BM_0_835\":\"eta is a same-L E1/M1 ratio of photon interaction RMEs normalized by sqrt(2L+1), including the source energy/operator phases. It is not a bare electric/magnetic nuclear RME ratio and not the LKH82 specialized0.835 E_gamma E2/M1 convention. No bare e versus mu_N numerical ratio is substituted.\",\n            \"complex_scope\":\"Explicit conjugation was retained in the amplitude-density calculation. The source's conditional real-RME convention is not used to infer an interaction symmetry from an arbitrary complex eta.\",\n        },\n        \"positive_and_null_controls\":{\n            \"positive\":{\"p\":\"1/2\",\"eta\":\"1/2\",\"v\":\"4/5\",\"A1\":\"2/5\",\"W\":exact(Wpositive),\"Pcircle\":exact(Pcircle.subs(positive)),\"Plinear\":\"0 where W>0\"},\n            \"pure_E\":\"aE=1,aM=0: W=1 for every p; Pcircle=p c. This can satisfy a definite-parity hypothesis.\",\n            \"pure_M\":\"aE=0,aM=1: same W=1 and same helicity matrix; eta chart is not used at aE=0.\",\n            \"alignment_nonzero_coherence\":\"p=0,eta=1/2: W=1 despite coherent E1/M1, while Pcircle=4/5. Odd-K absence does not prove definite parity.\",\n            \"quadrature_phase\":\"eta=i: W=1 for any p and Pcircle=p c; Re(eta)=0 removes the relevant interference term despite nonzero E/M amplitudes.\",\n            \"sign_controls\":\"Changing p alone or eta alone reverses A1. Simultaneously changing p->-p,eta->-eta leaves W/A1 unchanged, swaps circular intensities and reverses Pcircle. Conjugating eta leaves these point intensities unchanged in this model.\",\n            \"specific_necessity\":\"Only in this stated closed model, odd unpolarized K=1 requires both p!=0 and Re(aE* aM)!=0. Orientation alone with a definite-parity single mode does not produce odd W.\",\n        },\n        \"detector_response_negative_control\":{\n            \"underlying_source\":\"Use healthy Wtrue=1 from this same spin-half pure-mode model; no additional nuclear case or actual detector data.\",\n            \"response\":\"e_det(c)=e0(1+b_det c), |b_det|<=1, 0<e0<=1/(1+|b_det|). This ensures0<=e_det<=1 and is a valid bounded acceptance efficiency.\",\n            \"positivity_proof\":\"For |c|<=1, e0(1-|b_det|)<=e_det(c)<=e0(1+|b_det|). The assumed constraints place both endpoints in[0,1].\",\n            \"normalization\":\"The mean acceptance is e0 and the normalized accepted angular profile is1+b_det c. Taking b_det=A1 produces the same unpolarized shape as the coherent toy.\",\n            \"one_exact_control\":{\"b_det\":\"2/5\",\"e0\":\"1/2\",\"efficiency_at_c_minus1\":\"3/10\",\"efficiency_at_c_plus1\":\"7/10\",\"normalized_profile\":\"1+(2/5)c\"},\n            \"comparison_scope\":\"Only the unpolarized accepted angular profile is matched; no equality of circular/linear data or complete photon states is claimed.\",\n            \"missing_calibration\":\"This is a mathematical counter-control, not an inferred real response. Geometry, finite acceptance, response/helicity calibration, background handling and covariance need independent experimental control before observed odd counts are interpreted as source parity information.\",\n        },\n        \"evidence_and_inference_boundary\":{\n            \"direct_source\":\"RB amplitude/CG/Jones convention, population tensors, definite-parity and alignment sufficient null conditions; LKH specialized mixing definitions.\",\n            \"our_reconstruction\":\"The single parity-relaxed E1/M1 closed model, complex controls, exact coefficient/circular/linear formulas, null-converse counterexamples and accepted-response counter-control.\",\n            \"no_discovery_claim\":\"Both-mode coherence is permitted as a mathematical hypothesis. Parity mixing could depend on an unspecified state preparation or Hamiltonian, including weak or continuum mechanisms; none is assigned here. No electromagnetic parity violation, nuclide PNC finding or time-reversal violation is inferred.\",\n            \"inference_stop\":\"Odd counts alone do not establish parity mixing. Even a source-level odd coefficient needs independently justified spin/axis/population, coherent amplitude/phase and response assumptions. The absence of odd coefficients does not prove definite parity.\",\n        },\n        \"protected_old_budget\":{\"path\":OLD_BUDGET_REL,\"sha256\":OLD_BUDGET_SHA,\"modified\":False,\"executed\":False},\n        \"checks\":{\"passed_by_group\":dict(sorted(counts.items())),\"total_passed\":sum(counts.values()),\"failures\":0},\n        \"changed_paths\":[CODE_REL,RECEIPT_REL],\n        \"reproducibility\":{\"code\":CODE_REL,\"script_sha256\":digest(codepath),\"source_code\":codepath.read_text(encoding=\"utf-8\"),\"python_version\":sys.version.split()[0],\"sympy_version\":sp.__version__,\"dependency_path\":dep_rel,\"network_requests\":0,\n            \"default_command\":\"python3 \"+CODE_REL,\"exclusive_creation_command\":\"python3 \"+CODE_REL+\" --write-receipt\",\n            \"embedded_replay\":\"Save source_code to a temporary Python file and run python3 <file> --root /workspace/wiki. Default execution is offline/read-only. Do not pass --write-receipt for an existing receipt.\",\n            \"write_policy\":\"Only owned nondefinite-parity-control tmp and exclusive authorized JSON creation. Old budget/other receipts, canonical/report, run/state, raw/PLAN, system/Git and review flags remain unchanged.\"},\n    }\n\n\ndef main():\n    parser=argparse.ArgumentParser(description=__doc__)\n    parser.add_argument(\"--root\",type=Path,default=Path(__file__).resolve().parents[4])\n    parser.add_argument(\"--write-receipt\",action=\"store_true\")\n    parser.add_argument(\"--print-receipt\",action=\"store_true\")\n    args=parser.parse_args();root=args.root.resolve();receipt=build_receipt(root)\n    if args.write_receipt:\n        with (root/RECEIPT_REL).open(\"x\",encoding=\"utf-8\",newline=\"\\n\") as stream:\n            json.dump(receipt,stream,ensure_ascii=False,indent=2);stream.write(\"\\n\")\n    if args.print_receipt:\n        print(json.dumps(receipt,ensure_ascii=False,indent=2))\n    else:\n        print(json.dumps({\"artifact\":RECEIPT_REL if args.write_receipt else None,\"checks\":receipt[\"checks\"],\"derived_formulas\":{k:v for k,v in receipt[\"derived_formulas\"].items() if k in [\"helicity_intensity\",\"unpolarized\",\"circular\",\"Jones_linear\",\"normalization\"]},\"positive_control\":receipt[\"positive_and_null_controls\"][\"positive\"],\"detector_control\":receipt[\"detector_response_negative_control\"][\"one_exact_control\"],\"day_index\":8,\"run_closed\":False,\"network_requests\":0},ensure_ascii=False,indent=2))\n\n\nif __name__==\"__main__\":\n    main()\n",
+    "python_version": "3.12.3",
+    "sympy_version": "1.14.0",
+    "dependency_path": "tmp/day8-20261007/rose-brink/python-deps",
+    "network_requests": 0,
+    "default_command": "python3 tmp/day8-20261007/rose-brink/nondefinite-parity-control/nondefinite_parity_control.py",
+    "exclusive_creation_command": "python3 tmp/day8-20261007/rose-brink/nondefinite-parity-control/nondefinite_parity_control.py --write-receipt",
+    "embedded_replay": "Save source_code to a temporary Python file and run python3 <file> --root /workspace/wiki. Default execution is offline/read-only. Do not pass --write-receipt for an existing receipt.",
+    "write_policy": "Only owned nondefinite-parity-control tmp and exclusive authorized JSON creation. Old budget/other receipts, canonical/report, run/state, raw/PLAN, system/Git and review flags remain unchanged."
+  }
+}

@@ -1,0 +1,1019 @@
+{
+  "schema_version": 1,
+  "created_at_utc": "2026-10-07T16:41:51.622158+00:00",
+  "artifact_kind": "bounded-Day8-L2-total-photon-rate-truncation-observable-bound",
+  "status": "sqrt_omitted_rate_probability_bound_with_tight_and_failure_controls",
+  "day_index": 8,
+  "run_closed": false,
+  "new_source_or_course_card": false,
+  "new_session_or_goal": false,
+  "experimental_data_fit": false,
+  "numerical_experiment": false,
+  "L4": false,
+  "evidence_class": "Our Hilbert-space/isometry, trace-distance and Cauchy/measurement analysis derived from existing RB amplitude and full-sphere normalization premises, not an author-reported quantum-information bound.",
+  "inputs": [
+    {
+      "path": "outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/electric-rank-hierarchy.json",
+      "sha256": "efb7ccca5fd3a0d8d9a05e1283a152a862cc8773ef016791ce0de9234281d134"
+    },
+    {
+      "path": "outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/angular-degeneracy.json",
+      "sha256": "0b633e74a96925cbaced95073407523f441cd6ed89554c15f87b84758e89f334"
+    },
+    {
+      "path": "outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/polarization-branches.json",
+      "sha256": "099300006d0bd892c4b63f00d5b9b3f9ffd6d004fb3da34a4dc2aa78b8c3e5ab"
+    },
+    {
+      "path": "outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/population-multipolarity-degeneracy.json",
+      "sha256": "6773e3834bebf36bec41866aa9f86491d575321a76019e76ea8d48171c799b8b"
+    }
+  ],
+  "source": {
+    "page": "knowledge/sources/rose-brink-1967-phase-defined-angular-distributions.md",
+    "raw_path": "raw/papers/gpt/high-spin-20260920/multipolarity/mixing ratio/1967_Rose et al_Angular Distributions of Gamma Rays in Terms of Phase-Defined Reduced Matrix Elements.pdf",
+    "raw_sha256": "8f846b61b9320de291ee5600126c5e286a0fe05968df819696816f0dc1ec57dc",
+    "locators": [
+      "printed316/PDF11 Eq3.24 coherent multipoles and WE relation after Eq3.25",
+      "printed318/PDF13 Eq3.29 integrated partial gamma normalization",
+      "rotation convention printed312/PDF7 footnote7; angular D product context printed317/PDF12"
+    ],
+    "attribution_boundary": "RB supplies amplitudes, phase definitions and integrated normalization. The radiation-space construction, trace-distance inequality, conditional-state bound and controls below are our derived mathematics."
+  },
+  "assumptions": [
+    "one fixed transition between good Ji/Jf multiplets and one common photon energy/radial mode",
+    "the same initial PSD trace-one density in full and truncated models; its values may be unknown",
+    "a common normalized energy/radial wavepacket or the angular shell Hilbert space, so monochromatic delta normalization is not mistaken for a normalizable full photon state",
+    "all initial magnetic substates have the same integrated S=sum_lambda|a_lambda|^2, verified below for the source control and established generally by D/CG orthogonality",
+    "partition the allowed electric/magnetic modes coherently; do not dephase retained and omitted sectors before comparing the actual radiation states",
+    "S>0 and retained S_R>0; hence 0<=epsilon_rate<1",
+    "the same trace-preserving reduction/channel or the same bounded measurement effect is used on both models"
+  ],
+  "definitions": {
+    "epsilon_rate": "S_O/S=sum_omitted|a_lambda|^2/sum_all|a_lambda|^2, the omitted fraction of the total photon rate for this transition",
+    "not_long_wave_parameter": "epsilon_rate is not qR from the preceding hierarchy route. A prior must bound the SUM of all omitted photon rates before this error bound applies.",
+    "retained_normalization": "V_R=sum_retained a_lambda V_lambda/sqrt(S_R); V_O=sum_omitted a_lambda V_lambda/sqrt(S_O)",
+    "full_normalization": "V=sqrt(1-epsilon_rate)*V_R+sqrt(epsilon_rate)*V_O",
+    "trace_distance": "D(rho,sigma)=(1/2)||rho-sigma||_1",
+    "direction_probability": "Use dOmega/(4pi) for the angular Hilbert-space measure; W has full angular average1 and p_bin=integral_bin W dOmega/(4pi)."
+  },
+  "source_isometry_construction": {
+    "angular_mode": "u_Lmq(Omega)=sqrt(2L+1) D^L_mq(phi,theta,0), or its emission conjugate, with one consistently fixed helicity gauge",
+    "angular_inner_product": "integral u_Lmq^* u_Lprime,mprime,q dOmega/(4pi)=delta_LLprime delta_mmprime; q basis is separately orthogonal",
+    "mode_isometry": "V_(L,pi)|JiMi>=(1/sqrt2)sum_(q,Mf)q^pi CG(Jf,L,Ji;Mf,Mi-Mf,Mi)|L,q,m=Mi-Mf,Mf>",
+    "operator_Gram": "V_lambda^dagger V_lambdaprime=delta_lambda,lambdaprime I_initial. For same L and different E/M pi, the helicity sum (1/2)sum_q q^(pi+piprime) vanishes.",
+    "every_initial_M_norm": "Each allowed CG-coupled state has sum_Mf |CG|^2=1; the q sum supplies2 and the 1/sqrt2 normalization cancels it. Thus totalnorm S is the same for every initial M, and cross-M inner products vanish after the full phi integral.",
+    "source_amplitude_conjugation": "Initial-bra interaction coefficients can be conjugates of physical emission coefficients. Consistently conjugating the emission basis/amplitudes leaves all Gram identities, |a|^2 fractions and the bound unchanged.",
+    "not_a_passive_pointwise_argument": "The orthogonality is in the complete direction+helicity+final-spin space. It is not a same-direction phase cancellation and does not assert independent multipole probabilities at a fixed direction.",
+    "explicit_control": {
+      "transition": "synthetic3/2+->1/2-, retainedE1 pi0, omittedM2 pi1",
+      "initial_M_order": [
+        "-3/2",
+        "-1/2",
+        "1/2",
+        "3/2"
+      ],
+      "full_sphere_d_integrals": {
+        "L1_LP1_m-1_q-1": "1/3",
+        "L1_LP1_m-1_q1": "1/3",
+        "L1_LP1_m0_q-1": "1/3",
+        "L1_LP1_m0_q1": "1/3",
+        "L1_LP1_m1_q-1": "1/3",
+        "L1_LP1_m1_q1": "1/3",
+        "L1_LP2_m-1_q-1": "0",
+        "L1_LP2_m-1_q1": "0",
+        "L1_LP2_m0_q-1": "0",
+        "L1_LP2_m0_q1": "0",
+        "L1_LP2_m1_q-1": "0",
+        "L1_LP2_m1_q1": "0",
+        "L2_LP1_m-1_q-1": "0",
+        "L2_LP1_m-1_q1": "0",
+        "L2_LP1_m0_q-1": "0",
+        "L2_LP1_m0_q1": "0",
+        "L2_LP1_m1_q-1": "0",
+        "L2_LP1_m1_q1": "0",
+        "L2_LP2_m-2_q-1": "1/5",
+        "L2_LP2_m-2_q1": "1/5",
+        "L2_LP2_m-1_q-1": "1/5",
+        "L2_LP2_m-1_q1": "1/5",
+        "L2_LP2_m0_q-1": "1/5",
+        "L2_LP2_m0_q1": "1/5",
+        "L2_LP2_m1_q-1": "1/5",
+        "L2_LP2_m1_q1": "1/5",
+        "L2_LP2_m2_q-1": "1/5",
+        "L2_LP2_m2_q1": "1/5"
+      },
+      "integrated_Gram_matrices": {
+        "10_10": [
+          [
+            "1",
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "1",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "1",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "0",
+            "1"
+          ]
+        ],
+        "21_21": [
+          [
+            "1",
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "1",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "1",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "0",
+            "1"
+          ]
+        ],
+        "10_21": [
+          [
+            "0",
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "0",
+            "0"
+          ]
+        ],
+        "21_10": [
+          [
+            "0",
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "0",
+            "0"
+          ]
+        ]
+      },
+      "radiation_basis": [
+        [
+          "1",
+          "-1",
+          "-1",
+          "-1/2"
+        ],
+        [
+          "1",
+          "-1",
+          "-1",
+          "1/2"
+        ],
+        [
+          "1",
+          "-1",
+          "0",
+          "-1/2"
+        ],
+        [
+          "1",
+          "-1",
+          "0",
+          "1/2"
+        ],
+        [
+          "1",
+          "-1",
+          "1",
+          "-1/2"
+        ],
+        [
+          "1",
+          "-1",
+          "1",
+          "1/2"
+        ],
+        [
+          "1",
+          "1",
+          "-1",
+          "-1/2"
+        ],
+        [
+          "1",
+          "1",
+          "-1",
+          "1/2"
+        ],
+        [
+          "1",
+          "1",
+          "0",
+          "-1/2"
+        ],
+        [
+          "1",
+          "1",
+          "0",
+          "1/2"
+        ],
+        [
+          "1",
+          "1",
+          "1",
+          "-1/2"
+        ],
+        [
+          "1",
+          "1",
+          "1",
+          "1/2"
+        ],
+        [
+          "2",
+          "-1",
+          "-2",
+          "-1/2"
+        ],
+        [
+          "2",
+          "-1",
+          "-2",
+          "1/2"
+        ],
+        [
+          "2",
+          "-1",
+          "-1",
+          "-1/2"
+        ],
+        [
+          "2",
+          "-1",
+          "-1",
+          "1/2"
+        ],
+        [
+          "2",
+          "-1",
+          "0",
+          "-1/2"
+        ],
+        [
+          "2",
+          "-1",
+          "0",
+          "1/2"
+        ],
+        [
+          "2",
+          "-1",
+          "1",
+          "-1/2"
+        ],
+        [
+          "2",
+          "-1",
+          "1",
+          "1/2"
+        ],
+        [
+          "2",
+          "-1",
+          "2",
+          "-1/2"
+        ],
+        [
+          "2",
+          "-1",
+          "2",
+          "1/2"
+        ],
+        [
+          "2",
+          "1",
+          "-2",
+          "-1/2"
+        ],
+        [
+          "2",
+          "1",
+          "-2",
+          "1/2"
+        ],
+        [
+          "2",
+          "1",
+          "-1",
+          "-1/2"
+        ],
+        [
+          "2",
+          "1",
+          "-1",
+          "1/2"
+        ],
+        [
+          "2",
+          "1",
+          "0",
+          "-1/2"
+        ],
+        [
+          "2",
+          "1",
+          "0",
+          "1/2"
+        ],
+        [
+          "2",
+          "1",
+          "1",
+          "-1/2"
+        ],
+        [
+          "2",
+          "1",
+          "1",
+          "1/2"
+        ],
+        [
+          "2",
+          "1",
+          "2",
+          "-1/2"
+        ],
+        [
+          "2",
+          "1",
+          "2",
+          "1/2"
+        ]
+      ],
+      "V_R_E1": [
+        [
+          "sqrt(2)/2",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "sqrt(6)/6",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "sqrt(3)/3",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "sqrt(3)/3",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "sqrt(6)/6",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "sqrt(2)/2"
+        ],
+        [
+          "sqrt(2)/2",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "sqrt(6)/6",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "sqrt(3)/3",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "sqrt(3)/3",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "sqrt(6)/6",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "sqrt(2)/2"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0"
+        ]
+      ],
+      "V_O_M2": [
+        [
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "-sqrt(10)/5",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "sqrt(10)/10",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "-sqrt(30)/10",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "sqrt(5)/5",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "-sqrt(5)/5",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "sqrt(30)/10",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "-sqrt(10)/10"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "sqrt(10)/5"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "sqrt(10)/5",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "-sqrt(10)/10",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "sqrt(30)/10",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "-sqrt(5)/5",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "sqrt(5)/5",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "-sqrt(30)/10",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "sqrt(10)/10"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "-sqrt(10)/5"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0"
+        ]
+      ],
+      "complex_PSD_initial_density_control": [
+        [
+          "373/1020",
+          "-24*I/85",
+          "12/85",
+          "8*I/85"
+        ],
+        [
+          "24*I/85",
+          "373/1020",
+          "12*I/85",
+          "-8/85"
+        ],
+        [
+          "12/85",
+          "-12*I/85",
+          "157/1020",
+          "4*I/85"
+        ],
+        [
+          "-8*I/85",
+          "-8/85",
+          "-4*I/85",
+          "39/340"
+        ]
+      ],
+      "initial_density_PSD_certificate": "rho=(2/3)|psi><psi|+I4/12, normalizedpsi=(1,i,1/2,-i/3)/sqrt(85/36); rho>=I4/12 and Tr rho=1"
+    }
+  },
+  "general_bound": {
+    "full_state_result": "In the orthogonal retained/omitted copies, rho_full-rho_R=K(epsilon) tensor rho_initial, K=[[-epsilon,sqrt(epsilon(1-epsilon))],[sqrt(epsilon(1-epsilon)),epsilon]], up to a harmless sector phase. K^2=epsilon I.",
+    "trace_norm_proof": "rho_initial>=0,Tr rho_initial=1 implies |K tensor rho_initial|=sqrt(epsilon) I2 tensor rho_initial. Therefore (1/2)Tr|difference|=sqrt(epsilon), exactly before unobserved freedoms are traced out.",
+    "purification_proof": "For any purification |Phi> of the same initial density, <Psi_R|Psi_full>=sqrt(1-epsilon) because V_R^dagger V_O=0. Pure-state trace distance is sqrt(epsilon); tracing the purifier and unobserved degrees cannot increase it.",
+    "reduced_state_result": "D(reduced_full,reduced_R)<=sqrt(epsilon_rate) under the same CPTP reduction, including final spin, unknown initial classical flag/purifier or detector channel.",
+    "measurement_probability": "For any fixed effect0<=E<=I, |Tr[E(rho_full-rho_R)]|<=D<=sqrt(epsilon_rate). A finite-acceptance direction/polarization bin with detection efficiency in[0,1] is such an effect.",
+    "variational_contractivity_proof": "D=sup_(0<=E<=I)|Tr E difference|. The dual of a CPTP channel is positive and unital, so it sends each output effect to an input effect in[0,I]. This establishes reduction and measurement bounds.",
+    "probability_tolerance": "epsilon_rate<=eta_probability^2 is sufficient for an absolute event-probability error<=eta_probability under these conditions.",
+    "total_photon_rate_distinction": "Keeping the original retained amplitudes removes exactly an epsilon_rate fraction of this integrated photon rate. Renormalized angular/state probabilities can nevertheless change at order sqrt(epsilon_rate) through interference."
+  },
+  "tight_and_source_interference_controls": {
+    "abstract_tight_effect": {
+      "E_optimal": [
+        [
+          "1/2 - sqrt(epsilon_rate)/2",
+          "sector_coherence/(2*sqrt(epsilon_rate))"
+        ],
+        [
+          "sector_coherence/(2*sqrt(epsilon_rate))",
+          "sqrt(epsilon_rate)/2 + 1/2"
+        ]
+      ],
+      "full_probability": "sqrt(epsilon_rate)/2 + 1/2",
+      "retained_probability": "1/2 - sqrt(epsilon_rate)/2",
+      "difference": "sqrt(epsilon_rate)",
+      "boundary": "This effect coherently probes retained/omitted radiation sectors. It is an abstract allowed POVM, not an assertion that an ordinary gamma direction bin implements the optimal measurement."
+    },
+    "actual_source_finite_cap": {
+      "transition": "same prior synthetic3/2+->1/2- E1/M2",
+      "initial_weights": "w(+/-3/2)=1/2, others0",
+      "amplitudes": "(a_E1,a_M2)=(1,delta), delta>0, epsilon_rate=delta^2/(1+delta^2)",
+      "W_full": "(3*cos_theta**2/2 - 1/2)*(-delta_M2_over_E1**2/2 + sqrt(3)*delta_M2_over_E1 + 1/2)/(delta_M2_over_E1**2 + 1) + 1",
+      "bin": "complete azimuth, cos(theta) in[1/2,1]; normalized dOmega/(4pi) measure",
+      "retained_cap_probability": "19/64",
+      "full_cap_probability_delta": "(13*delta_M2_over_E1**2 + 6*sqrt(3)*delta_M2_over_E1 + 19)/(64*(delta_M2_over_E1**2 + 1))",
+      "probability_difference": "(3/32)[-epsilon_rate+sqrt3*sqrt(epsilon_rate*(1-epsilon_rate))]",
+      "leading_difference_over_sqrt_epsilon": "3*sqrt(3)/32",
+      "consequence": "A real finite direction-bin probability has an O(sqrt(epsilon_rate)) interference correction. A universal O(epsilon_rate) probability bound is therefore false.",
+      "blind_control": "At epsilon_rate=3/4 (delta=sqrt3), the cap difference is exactly0 despite nonzero omitted fraction; the upper bound need not be saturated by that bin."
+    }
+  },
+  "pointwise_and_postselection_boundaries": {
+    "pointwise_intensity": "A direction point has zero angular measure; its density evaluation is not a probability effect with operator bound1. Dividing a bin probability by its angular measure changes the bound to sqrt(epsilon)/measure(bin). No universal pointwise relative error follows.",
+    "source_node_control": {
+      "transition": "synthetic2+->2+, initialw(+/-2)=1/2",
+      "retained": "M1/E2 amplitudes proportional to (1,-sqrt(105)/15), renormalized within retainedspace",
+      "omitted": "pure M3 sector with total-rate weight epsilon_rate",
+      "direction": "theta=0 along the initial axis",
+      "retained_W": "0",
+      "full_W": "(3/4)*epsilon_rate",
+      "interpretation": "All retained theta0 helicity/final-spin links cancel, while M3 is nonzero. The pointwise relative-error denominator vanishes for arbitrarily small positive epsilon_rate."
+    },
+    "generic_postselection_bound": "For the same trace-nonincreasing CP accepted-event instrument, A=K(rho),B=K(sigma), success probabilities p,q>0: D(A/p,B/q)<=min(1,D(rho,sigma)/max(p,q)). Thus <=min(1,sqrt(epsilon)/max(p,q)); a strictly positive success floor is needed for a useful uniform conditional bound.",
+    "postselection_proof": "Add a fixed failure flag to make the accepted-event instrument CPTP. Its trace distance is (||A-B||_1+|p-q|)/2<=d. The normalization triangle inequality gives D(A/p,B/q)<=(||A-B||_1+|p-q|)/(2p)<=d/p, and symmetrically d/q.",
+    "rare_filter_control": {
+      "filter": "K_filter=diag(epsilon_rate,1) in the retained/omitted two-sector basis",
+      "full_success": "epsilon_rate**2*(1 - epsilon_rate) + epsilon_rate",
+      "retained_success": "epsilon_rate**2",
+      "conditional_trace_distance_squared": "-1/(epsilon_rate*(epsilon_rate - 1) - 1)",
+      "unconditional_limit": "D=sqrt(epsilon_rate)->0",
+      "conditional_limit": "D_conditional->1 as epsilon_rate->0+",
+      "boundary": "An exact mathematical family of rare accepted-event filters, not a detector or measured cascade. It demonstrates the lack of a probability-independent conditional error bound."
+    },
+    "linear_polarization_ratio": "For accepted-bin polarization P=(p_x-p_y)/(p_x+p_y), the denominator is a postselection success probability. Its normalized expectation difference is bounded by2D_conditional, so it need not be O(sqrt(epsilon)) without a success floor. A zero denominator leaves P undefined.",
+    "different_initial_densities": "Unknown but common initialrho is allowed. If truncation also changes the fitted initialdensity, the triangle bound is sqrt(epsilon)+D(rho_initial,rho_initial0), capped at1. At epsilon=0, distinct orthogonal initialM states can still have total-radiation distance1.",
+    "epsilon_one_or_zero_rate": "epsilon=0 gives identical normalized states. epsilon=1 leaves no retained amplitude and no normalized retained reference. S=0 means there is no emitted-photon state to normalize."
+  },
+  "detector_and_inverse_response_boundary": {
+    "bounded_forward_response": "The same physically calibrated detector bin, efficiency, polarization analyzer or CPTP response with effect in[0,I] obeys the absolute probability bound, even after tracing final spin.",
+    "inverse_or_weighted_observable": "Efficiency weighting, angular-density normalization or general unfolding can produce an effective observable whose operator norm exceeds1 or is unbounded. The universal probability bound then does not apply unchanged; the operator norm/conditioning and uncertainty must be controlled separately.",
+    "uniform_efficiency_exception": "If a known scalar efficiency satisfies E_actual=eta*P with P itself an effect, dividing the noiseless expectation byeta recovers P and the state-probability bound still holds. Statistical/calibration errors are nevertheless amplified by1/eta; no bound on such noisy estimates is supplied here.",
+    "not_proved": [
+      "a uniform relative pointwiseW error",
+      "a uniform normalized polarization/postselection error without a success floor",
+      "an error bound for arbitrary unbounded inverse response",
+      "a total-rate fraction from selection rules or qR alone",
+      "finite-count significance, actual detector statistics or physical nucleus realizability"
+    ]
+  },
+  "checks": {
+    "results": {
+      "electric-rank-hierarchy_identity_before": true,
+      "angular-degeneracy_identity_before": true,
+      "polarization-branches_identity_before": true,
+      "population-multipolarity-degeneracy_identity_before": true,
+      "source_raw_identity_before": true,
+      "full_sphere_D_orthogonality_L1_LP1_m-1_q-1": true,
+      "full_sphere_D_orthogonality_L1_LP1_m-1_q1": true,
+      "full_sphere_D_orthogonality_L1_LP1_m0_q-1": true,
+      "full_sphere_D_orthogonality_L1_LP1_m0_q1": true,
+      "full_sphere_D_orthogonality_L1_LP1_m1_q-1": true,
+      "full_sphere_D_orthogonality_L1_LP1_m1_q1": true,
+      "full_sphere_D_orthogonality_L1_LP2_m-1_q-1": true,
+      "full_sphere_D_orthogonality_L1_LP2_m-1_q1": true,
+      "full_sphere_D_orthogonality_L1_LP2_m0_q-1": true,
+      "full_sphere_D_orthogonality_L1_LP2_m0_q1": true,
+      "full_sphere_D_orthogonality_L1_LP2_m1_q-1": true,
+      "full_sphere_D_orthogonality_L1_LP2_m1_q1": true,
+      "full_sphere_D_orthogonality_L2_LP1_m-1_q-1": true,
+      "full_sphere_D_orthogonality_L2_LP1_m-1_q1": true,
+      "full_sphere_D_orthogonality_L2_LP1_m0_q-1": true,
+      "full_sphere_D_orthogonality_L2_LP1_m0_q1": true,
+      "full_sphere_D_orthogonality_L2_LP1_m1_q-1": true,
+      "full_sphere_D_orthogonality_L2_LP1_m1_q1": true,
+      "full_sphere_D_orthogonality_L2_LP2_m-2_q-1": true,
+      "full_sphere_D_orthogonality_L2_LP2_m-2_q1": true,
+      "full_sphere_D_orthogonality_L2_LP2_m-1_q-1": true,
+      "full_sphere_D_orthogonality_L2_LP2_m-1_q1": true,
+      "full_sphere_D_orthogonality_L2_LP2_m0_q-1": true,
+      "full_sphere_D_orthogonality_L2_LP2_m0_q1": true,
+      "full_sphere_D_orthogonality_L2_LP2_m1_q-1": true,
+      "full_sphere_D_orthogonality_L2_LP2_m1_q1": true,
+      "full_sphere_D_orthogonality_L2_LP2_m2_q-1": true,
+      "full_sphere_D_orthogonality_L2_LP2_m2_q1": true,
+      "source_integrated_operator_gram_10_10": true,
+      "source_integrated_operator_gram_21_21": true,
+      "source_integrated_operator_gram_10_21": true,
+      "source_integrated_operator_gram_21_10": true,
+      "same_L_opposite_E_M_helicity_sectors_orthogonal": true,
+      "CG_coupled_state_norm_L1_Mi-3/2": true,
+      "CG_coupled_state_norm_L1_Mi-1/2": true,
+      "CG_coupled_state_norm_L1_Mi1/2": true,
+      "CG_coupled_state_norm_L1_Mi3/2": true,
+      "CG_coupled_state_norm_L2_Mi-3/2": true,
+      "CG_coupled_state_norm_L2_Mi-1/2": true,
+      "CG_coupled_state_norm_L2_Mi1/2": true,
+      "CG_coupled_state_norm_L2_Mi3/2": true,
+      "retained_E1_isometry_all_initial_M": true,
+      "omitted_M2_isometry_all_initial_M": true,
+      "retained_omitted_ranges_orthogonal": true,
+      "two_copy_radiation_embedding_isometric": true,
+      "complex_initial_density_trace_one": true,
+      "complex_initial_density_Hermitian": true,
+      "complex_initial_density_positive_construction": true,
+      "complex_initial_density_has_nonzero_coherence": true,
+      "real_phase_sector_difference_Hermitian_trace_zero": true,
+      "real_phase_sector_difference_square_epsilon_I": true,
+      "real_phase_positive_absolute_difference_square_matches": true,
+      "real_phase_absolute_difference_trace_two_sqrt_epsilon": true,
+      "complex_phase_sector_difference_Hermitian_trace_zero": true,
+      "complex_phase_sector_difference_square_epsilon_I": true,
+      "complex_phase_positive_absolute_difference_square_matches": true,
+      "complex_phase_absolute_difference_trace_two_sqrt_epsilon": true,
+      "pure_two_sector_state_normalized": true,
+      "pure_two_sector_state_rank_one": true,
+      "full_minus_retained_is_K": true,
+      "unobserved_final_spin_trace_is_CPTP": true,
+      "tight_effect_is_projector": true,
+      "tight_effect_rank_one": true,
+      "tight_effect_probability_difference_sqrt_epsilon": true,
+      "tight_full_probability_exact": true,
+      "tight_retained_probability_exact": true,
+      "source_E1_M2_full_W_matches_existing_synthetic_formula": true,
+      "source_E1_M2_full_solid_angle_normalization": true,
+      "finite_acceptance_retained_cap_probability_19_over_64": true,
+      "finite_cap_difference_exact_sector_conversion": true,
+      "finite_acceptance_probability_error_is_O_sqrt_epsilon": true,
+      "finite_cap_can_be_blind_at_epsilon_three_quarters": true,
+      "source_node_retained_M1_E2_cancels_theta_zero": true,
+      "source_node_aligned_reflection_phase_L1": true,
+      "source_node_aligned_reflection_phase_L2": true,
+      "source_node_aligned_reflection_phase_L3": true,
+      "source_node_omitted_M3_intensity_positive": true,
+      "rare_filter_full_success_probability": true,
+      "rare_filter_retained_success_probability": true,
+      "rare_filter_postselected_state_trace_one": true,
+      "rare_filter_postselected_state_pure": true,
+      "rare_filter_conditional_distance_formula": true,
+      "rare_filter_conditional_distance_does_not_go_to_zero": true,
+      "unconditional_trace_distance_goes_to_zero": true,
+      "different_initial_states_not_controlled_by_omitted_fraction": true,
+      "electric-rank-hierarchy_bytes_unchanged_after": true,
+      "angular-degeneracy_bytes_unchanged_after": true,
+      "polarization-branches_bytes_unchanged_after": true,
+      "population-multipolarity-degeneracy_bytes_unchanged_after": true,
+      "source_raw_identity_after": true
+    },
+    "passed": 95,
+    "failures": 0,
+    "elapsed_seconds": 3.466536623018328
+  },
+  "changed_paths": [
+    "tmp/day8-20261007/rose-brink/truncation-observable-bound/truncation_observable_bound.py",
+    "outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/truncation-observable-bound.json"
+  ],
+  "reproducibility": {
+    "script_path": "tmp/day8-20261007/rose-brink/truncation-observable-bound/truncation_observable_bound.py",
+    "script_sha256": "a7424b7d31a62058e2ed451e23d1a6538ff4653800a4440449998d82e5f9a802",
+    "source_code": "#!/usr/bin/env python3\n\"\"\"Day8 L2: omitted photon-rate fraction and bounded measurement errors.\n\nSource: existing RB coherent amplitudes and integrated normalization. Exact\nsymbolic controls only, no measured data or numerical experiment. Default\nchecks only; --write-receipt exclusively creates one new owned JSON.\n\"\"\"\nfrom __future__ import annotations\n\nimport argparse\nfrom datetime import datetime, timezone\nfrom functools import lru_cache\nimport hashlib\nimport json\nfrom pathlib import Path\nimport platform\nimport sys\nimport time\n\nsys.dont_write_bytecode = True\nROOT = Path(__file__).resolve().parents[4]\nDEPS = ROOT / 'tmp/day8-20261007/rose-brink/python-deps'\nsys.path.insert(0, str(DEPS))\nimport sympy as sp\nfrom sympy.physics.wigner import clebsch_gordan, wigner_d_small\n\nRUN = ROOT / 'outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01'\nHIERARCHY = RUN / 'electric-rank-hierarchy.json'\nANGULAR = RUN / 'angular-degeneracy.json'\nPOLARIZATION = RUN / 'polarization-branches.json'\nPOPULATION = RUN / 'population-multipolarity-degeneracy.json'\nOUT = RUN / 'truncation-observable-bound.json'\nINPUT_HASHES = {\n    HIERARCHY: 'efb7ccca5fd3a0d8d9a05e1283a152a862cc8773ef016791ce0de9234281d134',\n    ANGULAR: '0b633e74a96925cbaced95073407523f441cd6ed89554c15f87b84758e89f334',\n    POLARIZATION: '099300006d0bd892c4b63f00d5b9b3f9ffd6d004fb3da34a4dc2aa78b8c3e5ab',\n    POPULATION: '6773e3834bebf36bec41866aa9f86491d575321a76019e76ea8d48171c799b8b',\n}\nRAW = ROOT / 'raw/papers/gpt/high-spin-20260920/multipolarity/mixing ratio/1967_Rose et al_Angular Distributions of Gamma Rays in Terms of Phase-Defined Reduced Matrix Elements.pdf'\nRAW_SHA = '8f846b61b9320de291ee5600126c5e286a0fe05968df819696816f0dc1ec57dc'\ne = sp.symbols('epsilon_rate', positive=True)\nt = sp.symbols('sector_coherence', real=True)\nX, Y = sp.symbols('cos_theta sin_theta', real=True)\nDELTA = sp.symbols('delta_M2_over_E1', positive=True)\nJI, JF = sp.Rational(3, 2), sp.Rational(1, 2)\nMI = (sp.Rational(-3, 2), sp.Rational(-1, 2), sp.Rational(1, 2), sp.Rational(3, 2))\nMF = (sp.Rational(-1, 2), sp.Rational(1, 2))\nQ = (-1, 1)\n\n\ndef ex(value):\n    return sp.expand(value)\n\n\ndef mx(matrix):\n    return matrix.applyfunc(ex)\n\n\ndef txt(value):\n    return sp.sstr(value)\n\n\ndef sm(matrix):\n    return [[txt(matrix[i, j]) for j in range(matrix.cols)] for i in range(matrix.rows)]\n\n\ndef reduce_sector(expression):\n    return sp.simplify(ex(expression).subs(t ** 2, e * (1 - e)))\n\n\ndef sector_matrix(matrix):\n    return matrix.applyfunc(reduce_sector)\n\n\ndef reduce_sphere(expression):\n    polynomial = sp.Poly(ex(expression), Y)\n    return ex(sum(coefficient * Y ** (powers[0] % 2) * (1 - X ** 2) ** (powers[0] // 2)\n                  for powers, coefficient in polynomial.terms()))\n\n\n@lru_cache(None)\ndef d_xy(L):\n    theta = sp.symbols('template_theta', real=True)\n    hs, hc = sp.symbols('half_s half_c', real=True)\n\n    def convert(entry):\n        polynomial = sp.Poly(ex(entry.xreplace({sp.sin(theta / 2): hs, sp.cos(theta / 2): hc})), hs, hc)\n        result = 0\n        for (ps, pc), coefficient in polynomial.terms():\n            if ps % 2 != pc % 2:\n                raise AssertionError('Unexpected integer-spin half-angle parity')\n            result += coefficient * ((1 - X) / 2) ** (ps // 2) * ((1 + X) / 2) ** (pc // 2) * (Y / 2 if ps % 2 else 1)\n        return ex(result)\n\n    return wigner_d_small(L, -theta).applyfunc(convert)\n\n\n@lru_cache(None)\ndef d_integral(L, LP, m, q):\n    # Integral over phi first gives delta_m,mprime. For common m and q,\n    # the integer d functions have matching odd/even half-angle parity.\n    product = d_xy(L)[L - m, L - q] * d_xy(LP)[LP - m, LP - q]\n    polynomial = reduce_sphere(product)\n    if polynomial.has(Y):\n        raise AssertionError('Unresolved meridian sine in full-sphere inner product')\n    return sp.simplify(sp.integrate(polynomial, (X, -1, 1)) / 2)\n\n\ndef physical_integrated_gram(L, pi, LP, pip):\n    def element(ii, jj):\n        result = 0\n        for mf in MF:\n            m, mp = MI[ii] - mf, MI[jj] - mf\n            # The full azimuthal integral, not a theta-only meridian integral.\n            if m != mp or abs(m) > L or abs(mp) > LP:\n                continue\n            for q in Q:\n                result += (sp.Integer(q) ** (pi + pip) * sp.sqrt((2 * L + 1) * (2 * LP + 1))\n                           * clebsch_gordan(JF, L, JI, mf, m, MI[ii])\n                           * clebsch_gordan(JF, LP, JI, mf, mp, MI[jj]) * d_integral(L, LP, int(m), q) / 2)\n        return sp.simplify(result)\n    return sp.Matrix(4, 4, element)\n\n\ndef source_meridian_amplitude(L, pi, mi, mf, q):\n    m = mi - mf\n    if abs(m) > L:\n        return sp.Integer(0)\n    return ex(sp.Integer(q) ** pi * sp.sqrt(2 * L + 1)\n              * clebsch_gordan(JF, L, JI, mf, m, mi) * d_xy(L)[L - m, L - q])\n\n\ndef main_result():\n    started = time.monotonic()\n    checks = {}\n\n    def check(name, condition):\n        checks[name] = bool(condition)\n        if not checks[name]:\n            raise AssertionError(name)\n\n    input_bytes = {path: path.read_bytes() for path in INPUT_HASHES}\n    for path, expected in INPUT_HASHES.items():\n        check(f'{path.stem}_identity_before', hashlib.sha256(input_bytes[path]).hexdigest() == expected)\n    check('source_raw_identity_before', hashlib.sha256(RAW.read_bytes()).hexdigest() == RAW_SHA)\n\n    angular_integrals = {}\n    for L in (1, 2):\n        for LP in (1, 2):\n            for m in range(-min(L, LP), min(L, LP) + 1):\n                for q in Q:\n                    value = d_integral(L, LP, m, q)\n                    expected = sp.Rational(1, 2 * L + 1) if L == LP else 0\n                    check(f'full_sphere_D_orthogonality_L{L}_LP{LP}_m{m}_q{q}', value == expected)\n                    angular_integrals[f'L{L}_LP{LP}_m{m}_q{q}'] = txt(value)\n    integrated_grams = {}\n    for L, pi, LP, pip in ((1, 0, 1, 0), (2, 1, 2, 1), (1, 0, 2, 1), (2, 1, 1, 0)):\n        gram = physical_integrated_gram(L, pi, LP, pip)\n        expected = sp.eye(4) if (L, pi) == (LP, pip) else sp.zeros(4)\n        check(f'source_integrated_operator_gram_{L}{pi}_{LP}{pip}', gram == expected)\n        integrated_grams[f'{L}{pi}_{LP}{pip}'] = sm(gram)\n    # This kinematic E/M orthogonality check does not assert that both same-L\n    # modes are simultaneously allowed by definite nuclear parities.\n    check('same_L_opposite_E_M_helicity_sectors_orthogonal', physical_integrated_gram(1, 0, 1, 1) == sp.zeros(4))\n    for L in (1, 2):\n        for mi in MI:\n            norm = sum(clebsch_gordan(JF, L, JI, mf, mi - mf, mi) ** 2 for mf in MF)\n            check(f'CG_coupled_state_norm_L{L}_Mi{mi}', norm == 1)\n\n    # The actual angular basis retains L,q,m and the final spin, without a\n    # fictitious E/M flag. Its basis orthogonality was checked above.\n    basis = tuple((L, q, m, mf) for L in (1, 2) for q in Q for m in range(-L, L + 1) for mf in MF)\n\n    def isometry(L, pi):\n        return sp.Matrix(len(basis), 4, lambda rr, ii:\n            sp.Integer(basis[rr][1]) ** pi * clebsch_gordan(JF, L, JI, basis[rr][3], basis[rr][2], MI[ii]) / sp.sqrt(2)\n            if basis[rr][0] == L and basis[rr][2] == MI[ii] - basis[rr][3] else 0)\n\n    VR, VO = isometry(1, 0), isometry(2, 1)\n    U = VR.row_join(VO)\n    check('retained_E1_isometry_all_initial_M', mx(VR.H * VR) == sp.eye(4))\n    check('omitted_M2_isometry_all_initial_M', mx(VO.H * VO) == sp.eye(4))\n    check('retained_omitted_ranges_orthogonal', mx(VR.H * VO) == sp.zeros(4))\n    check('two_copy_radiation_embedding_isometric', mx(U.H * U) == sp.eye(8))\n\n    # Same arbitrary initial density. A nonaxial complex PSD example verifies\n    # that the block algebra is not restricted to classical diagonal weights.\n    psi = sp.Matrix([1, sp.I, sp.Rational(1, 2), -sp.I / 3])\n    psi = psi / sp.sqrt((psi.H * psi)[0])\n    rho_initial = mx(sp.Rational(2, 3) * psi * psi.H + sp.eye(4) / 12)\n    check('complex_initial_density_trace_one', sp.trace(rho_initial) == 1)\n    check('complex_initial_density_Hermitian', rho_initial == rho_initial.H)\n    check('complex_initial_density_positive_construction', mx(rho_initial - sp.eye(4) / 12) == mx(sp.Rational(2, 3) * psi * psi.H))\n    check('complex_initial_density_has_nonzero_coherence', rho_initial[0, 1] != 0)\n    K_real = sp.Matrix([[-e, t], [t, e]])\n    K_complex = sp.Matrix([[-e, sp.I * t], [-sp.I * t, e]])\n    for label, K in (('real_phase', K_real), ('complex_phase', K_complex)):\n        check(f'{label}_sector_difference_Hermitian_trace_zero', K == K.H and sp.trace(K) == 0)\n        check(f'{label}_sector_difference_square_epsilon_I', sector_matrix(K ** 2) == e * sp.eye(2))\n        difference = sp.kronecker_product(K, rho_initial)\n        absolute_difference = sp.sqrt(e) * sp.kronecker_product(sp.eye(2), rho_initial)\n        check(f'{label}_positive_absolute_difference_square_matches', sector_matrix(absolute_difference ** 2 - difference.H * difference) == sp.zeros(8))\n        check(f'{label}_absolute_difference_trace_two_sqrt_epsilon', sp.simplify(sp.trace(absolute_difference) - 2 * sp.sqrt(e)) == 0)\n    # |difference| is positive because rho_initial>=I/12; the same derivation\n    # holds for any PSD normalized rho and establishes D=sqrt(epsilon).\n    full_two = sp.Matrix([[1 - e, t], [t, e]])\n    retained_two = sp.diag(1, 0)\n    check('pure_two_sector_state_normalized', sp.trace(full_two) == 1)\n    check('pure_two_sector_state_rank_one', reduce_sector(full_two.det()) == 0)\n    check('full_minus_retained_is_K', full_two - retained_two == K_real)\n\n    # Kraus partial trace of final nuclear spin in the explicit source basis.\n    photon_basis = tuple((L, q, m) for L in (1, 2) for q in Q for m in range(-L, L + 1))\n    partial_trace_kraus = [sp.Matrix(len(photon_basis), len(basis), lambda rr, cc:\n        1 if basis[cc][:3] == photon_basis[rr] and basis[cc][3] == mf else 0) for mf in MF]\n    check('unobserved_final_spin_trace_is_CPTP', sum((K.H * K for K in partial_trace_kraus), sp.zeros(len(basis))) == sp.eye(len(basis)))\n\n    # Tight abstract effect on the coherent two-sector space. This is not a\n    # claim that a standard direction-bin detector implements that effect.\n    E_optimal = (sp.eye(2) + K_real / sp.sqrt(e)) / 2\n    check('tight_effect_is_projector', sector_matrix(E_optimal ** 2 - E_optimal) == sp.zeros(2))\n    check('tight_effect_rank_one', sp.simplify(sp.trace(E_optimal)) == 1)\n    check('tight_effect_probability_difference_sqrt_epsilon', reduce_sector(sp.trace(E_optimal * K_real) - sp.sqrt(e)) == 0)\n    p_opt_full = reduce_sector(sp.trace(E_optimal * full_two))\n    p_opt_retained = reduce_sector(sp.trace(E_optimal * retained_two))\n    check('tight_full_probability_exact', sp.simplify(p_opt_full - (1 + sp.sqrt(e)) / 2) == 0)\n    check('tight_retained_probability_exact', sp.simplify(p_opt_retained - (1 - sp.sqrt(e)) / 2) == 0)\n\n    # Source E1/M2 control: same high-M aligned population, same radiation\n    # Hilbert space, full angular interference retained before integration.\n    raw_W = 0\n    for mi in (MI[0], MI[-1]):\n        for mf in MF:\n            for q in Q:\n                amplitude = source_meridian_amplitude(1, 0, mi, mf, q) + DELTA * source_meridian_amplitude(2, 1, mi, mf, q)\n                raw_W += amplitude ** 2 / 2\n    W = reduce_sphere(raw_W) / (2 * (1 + DELTA ** 2))\n    expected_W = 1 + ((1 - DELTA ** 2) / 2 + sp.sqrt(3) * DELTA) / (1 + DELTA ** 2) * sp.legendre(2, X)\n    check('source_E1_M2_full_W_matches_existing_synthetic_formula', sp.simplify(W - expected_W) == 0)\n    check('source_E1_M2_full_solid_angle_normalization', sp.simplify(sp.integrate(W, (X, -1, 1)) / 2) == 1)\n    cap_full = sp.simplify(sp.integrate(W, (X, sp.Rational(1, 2), 1)) / 2)\n    cap_retained = sp.simplify(cap_full.subs(DELTA, 0))\n    cap_difference_delta = sp.simplify(cap_full - cap_retained)\n    cap_difference_sector = sp.Rational(3, 32) * (-e + sp.sqrt(3) * t)\n    check('finite_acceptance_retained_cap_probability_19_over_64', cap_retained == sp.Rational(19, 64))\n    check('finite_cap_difference_exact_sector_conversion', sp.simplify(cap_difference_sector.subs({e: DELTA ** 2 / (1 + DELTA ** 2), t: DELTA / (1 + DELTA ** 2)}) - cap_difference_delta) == 0)\n    cap_difference_e = cap_difference_sector.subs(t, sp.sqrt(e * (1 - e)))\n    cap_leading = sp.limit(cap_difference_e / sp.sqrt(e), e, 0, dir='+')\n    check('finite_acceptance_probability_error_is_O_sqrt_epsilon', cap_leading == 3 * sp.sqrt(3) / 32)\n    check('finite_cap_can_be_blind_at_epsilon_three_quarters', sp.simplify(cap_difference_e.subs(e, sp.Rational(3, 4))) == 0)\n\n    # One source-derived pointwise node: retained M1/E2 cancellation in an\n    # aligned 2+->2+ transition, omitted pure M3. No nucleus is asserted.\n    links = {L: sp.sqrt(2 * L + 1) * clebsch_gordan(2, L, 2, 1, 1, 2) for L in (1, 2, 3)}\n    cancel_E2 = sp.simplify(-links[1] / links[2])\n    check('source_node_retained_M1_E2_cancels_theta_zero', sp.simplify(links[1] + cancel_E2 * links[2]) == 0)\n    for L in (1, 2, 3):\n        reflected = sp.Integer(-1) ** (L % 2) * sp.sqrt(2 * L + 1) * clebsch_gordan(2, L, 2, -1, -1, -2)\n        check(f'source_node_aligned_reflection_phase_L{L}', sp.simplify(reflected - links[L]) == 0)\n    node_omitted_coefficient = sp.simplify(links[3] ** 2 / 2)\n    check('source_node_omitted_M3_intensity_positive', node_omitted_coefficient > 0)\n\n    # Rare accepted-event filter, an exact abstract counter-control for a\n    # uniform conditional-state error. For each e, the effect lies in [0,I].\n    F_rare = sp.diag(e, 1)\n    accepted_full = F_rare * full_two * F_rare.H\n    accepted_retained = F_rare * retained_two * F_rare.H\n    success_full, success_retained = sp.trace(accepted_full), sp.trace(accepted_retained)\n    check('rare_filter_full_success_probability', sp.simplify(success_full - e * (1 + e - e ** 2)) == 0)\n    check('rare_filter_retained_success_probability', success_retained == e ** 2)\n    post_full = accepted_full / success_full\n    check('rare_filter_postselected_state_trace_one', sp.simplify(sp.trace(post_full)) == 1)\n    check('rare_filter_postselected_state_pure', reduce_sector(post_full.det()) == 0)\n    conditional_D_squared = sp.simplify(1 - post_full[0, 0])\n    check('rare_filter_conditional_distance_formula', sp.simplify(conditional_D_squared - 1 / (1 + e - e ** 2)) == 0)\n    check('rare_filter_conditional_distance_does_not_go_to_zero', sp.limit(sp.sqrt(conditional_D_squared), e, 0, dir='+') == 1)\n    check('unconditional_trace_distance_goes_to_zero', sp.limit(sp.sqrt(e), e, 0, dir='+') == 0)\n    # At epsilon=0, changing the initial state alone invalidates a zero error\n    # claim: different source initial M states have orthogonal images.\n    check('different_initial_states_not_controlled_by_omitted_fraction', (VR[:, 0].H * VR[:, 1])[0] == 0)\n\n    for path, before in input_bytes.items():\n        check(f'{path.stem}_bytes_unchanged_after', path.read_bytes() == before)\n    check('source_raw_identity_after', hashlib.sha256(RAW.read_bytes()).hexdigest() == RAW_SHA)\n    code_bytes = Path(__file__).read_bytes()\n    return {\n        'schema_version': 1, 'created_at_utc': datetime.now(timezone.utc).isoformat(),\n        'artifact_kind': 'bounded-Day8-L2-total-photon-rate-truncation-observable-bound',\n        'status': 'sqrt_omitted_rate_probability_bound_with_tight_and_failure_controls',\n        'day_index': 8, 'run_closed': False, 'new_source_or_course_card': False, 'new_session_or_goal': False,\n        'experimental_data_fit': False, 'numerical_experiment': False, 'L4': False,\n        'evidence_class': 'Our Hilbert-space/isometry, trace-distance and Cauchy/measurement analysis derived from existing RB amplitude and full-sphere normalization premises, not an author-reported quantum-information bound.',\n        'inputs': [{'path': str(path.relative_to(ROOT)), 'sha256': expected} for path, expected in INPUT_HASHES.items()],\n        'source': {'page': 'knowledge/sources/rose-brink-1967-phase-defined-angular-distributions.md',\n                   'raw_path': str(RAW.relative_to(ROOT)), 'raw_sha256': RAW_SHA,\n                   'locators': ['printed316/PDF11 Eq3.24 coherent multipoles and WE relation after Eq3.25',\n                                'printed318/PDF13 Eq3.29 integrated partial gamma normalization',\n                                'rotation convention printed312/PDF7 footnote7; angular D product context printed317/PDF12'],\n                   'attribution_boundary': 'RB supplies amplitudes, phase definitions and integrated normalization. The radiation-space construction, trace-distance inequality, conditional-state bound and controls below are our derived mathematics.'},\n        'assumptions': ['one fixed transition between good Ji/Jf multiplets and one common photon energy/radial mode',\n                        'the same initial PSD trace-one density in full and truncated models; its values may be unknown',\n                        'a common normalized energy/radial wavepacket or the angular shell Hilbert space, so monochromatic delta normalization is not mistaken for a normalizable full photon state',\n                        'all initial magnetic substates have the same integrated S=sum_lambda|a_lambda|^2, verified below for the source control and established generally by D/CG orthogonality',\n                        'partition the allowed electric/magnetic modes coherently; do not dephase retained and omitted sectors before comparing the actual radiation states',\n                        'S>0 and retained S_R>0; hence 0<=epsilon_rate<1',\n                        'the same trace-preserving reduction/channel or the same bounded measurement effect is used on both models'],\n        'definitions': {'epsilon_rate': 'S_O/S=sum_omitted|a_lambda|^2/sum_all|a_lambda|^2, the omitted fraction of the total photon rate for this transition',\n                        'not_long_wave_parameter': 'epsilon_rate is not qR from the preceding hierarchy route. A prior must bound the SUM of all omitted photon rates before this error bound applies.',\n                        'retained_normalization': 'V_R=sum_retained a_lambda V_lambda/sqrt(S_R); V_O=sum_omitted a_lambda V_lambda/sqrt(S_O)',\n                        'full_normalization': 'V=sqrt(1-epsilon_rate)*V_R+sqrt(epsilon_rate)*V_O',\n                        'trace_distance': 'D(rho,sigma)=(1/2)||rho-sigma||_1',\n                        'direction_probability': 'Use dOmega/(4pi) for the angular Hilbert-space measure; W has full angular average1 and p_bin=integral_bin W dOmega/(4pi).'},\n        'source_isometry_construction': {\n            'angular_mode': 'u_Lmq(Omega)=sqrt(2L+1) D^L_mq(phi,theta,0), or its emission conjugate, with one consistently fixed helicity gauge',\n            'angular_inner_product': 'integral u_Lmq^* u_Lprime,mprime,q dOmega/(4pi)=delta_LLprime delta_mmprime; q basis is separately orthogonal',\n            'mode_isometry': 'V_(L,pi)|JiMi>=(1/sqrt2)sum_(q,Mf)q^pi CG(Jf,L,Ji;Mf,Mi-Mf,Mi)|L,q,m=Mi-Mf,Mf>',\n            'operator_Gram': 'V_lambda^dagger V_lambdaprime=delta_lambda,lambdaprime I_initial. For same L and different E/M pi, the helicity sum (1/2)sum_q q^(pi+piprime) vanishes.',\n            'every_initial_M_norm': 'Each allowed CG-coupled state has sum_Mf |CG|^2=1; the q sum supplies2 and the 1/sqrt2 normalization cancels it. Thus totalnorm S is the same for every initial M, and cross-M inner products vanish after the full phi integral.',\n            'source_amplitude_conjugation': 'Initial-bra interaction coefficients can be conjugates of physical emission coefficients. Consistently conjugating the emission basis/amplitudes leaves all Gram identities, |a|^2 fractions and the bound unchanged.',\n            'not_a_passive_pointwise_argument': 'The orthogonality is in the complete direction+helicity+final-spin space. It is not a same-direction phase cancellation and does not assert independent multipole probabilities at a fixed direction.',\n            'explicit_control': {'transition': 'synthetic3/2+->1/2-, retainedE1 pi0, omittedM2 pi1',\n                                 'initial_M_order': [txt(value) for value in MI],\n                                 'full_sphere_d_integrals': angular_integrals, 'integrated_Gram_matrices': integrated_grams,\n                                 'radiation_basis': [[txt(value) for value in label] for label in basis],\n                                 'V_R_E1': sm(VR), 'V_O_M2': sm(VO), 'complex_PSD_initial_density_control': sm(rho_initial),\n                                 'initial_density_PSD_certificate': 'rho=(2/3)|psi><psi|+I4/12, normalizedpsi=(1,i,1/2,-i/3)/sqrt(85/36); rho>=I4/12 and Tr rho=1'}},\n        'general_bound': {\n            'full_state_result': 'In the orthogonal retained/omitted copies, rho_full-rho_R=K(epsilon) tensor rho_initial, K=[[-epsilon,sqrt(epsilon(1-epsilon))],[sqrt(epsilon(1-epsilon)),epsilon]], up to a harmless sector phase. K^2=epsilon I.',\n            'trace_norm_proof': 'rho_initial>=0,Tr rho_initial=1 implies |K tensor rho_initial|=sqrt(epsilon) I2 tensor rho_initial. Therefore (1/2)Tr|difference|=sqrt(epsilon), exactly before unobserved freedoms are traced out.',\n            'purification_proof': 'For any purification |Phi> of the same initial density, <Psi_R|Psi_full>=sqrt(1-epsilon) because V_R^dagger V_O=0. Pure-state trace distance is sqrt(epsilon); tracing the purifier and unobserved degrees cannot increase it.',\n            'reduced_state_result': 'D(reduced_full,reduced_R)<=sqrt(epsilon_rate) under the same CPTP reduction, including final spin, unknown initial classical flag/purifier or detector channel.',\n            'measurement_probability': 'For any fixed effect0<=E<=I, |Tr[E(rho_full-rho_R)]|<=D<=sqrt(epsilon_rate). A finite-acceptance direction/polarization bin with detection efficiency in[0,1] is such an effect.',\n            'variational_contractivity_proof': 'D=sup_(0<=E<=I)|Tr E difference|. The dual of a CPTP channel is positive and unital, so it sends each output effect to an input effect in[0,I]. This establishes reduction and measurement bounds.',\n            'probability_tolerance': 'epsilon_rate<=eta_probability^2 is sufficient for an absolute event-probability error<=eta_probability under these conditions.',\n            'total_photon_rate_distinction': 'Keeping the original retained amplitudes removes exactly an epsilon_rate fraction of this integrated photon rate. Renormalized angular/state probabilities can nevertheless change at order sqrt(epsilon_rate) through interference.'},\n        'tight_and_source_interference_controls': {\n            'abstract_tight_effect': {'E_optimal': sm(E_optimal), 'full_probability': txt(p_opt_full), 'retained_probability': txt(p_opt_retained),\n                                      'difference': 'sqrt(epsilon_rate)',\n                                      'boundary': 'This effect coherently probes retained/omitted radiation sectors. It is an abstract allowed POVM, not an assertion that an ordinary gamma direction bin implements the optimal measurement.'},\n            'actual_source_finite_cap': {'transition': 'same prior synthetic3/2+->1/2- E1/M2', 'initial_weights': 'w(+/-3/2)=1/2, others0',\n                                       'amplitudes': '(a_E1,a_M2)=(1,delta), delta>0, epsilon_rate=delta^2/(1+delta^2)',\n                                       'W_full': txt(expected_W),\n                                       'bin': 'complete azimuth, cos(theta) in[1/2,1]; normalized dOmega/(4pi) measure',\n                                       'retained_cap_probability': txt(cap_retained), 'full_cap_probability_delta': txt(cap_full),\n                                       'probability_difference': '(3/32)[-epsilon_rate+sqrt3*sqrt(epsilon_rate*(1-epsilon_rate))]',\n                                       'leading_difference_over_sqrt_epsilon': txt(cap_leading),\n                                       'consequence': 'A real finite direction-bin probability has an O(sqrt(epsilon_rate)) interference correction. A universal O(epsilon_rate) probability bound is therefore false.',\n                                       'blind_control': 'At epsilon_rate=3/4 (delta=sqrt3), the cap difference is exactly0 despite nonzero omitted fraction; the upper bound need not be saturated by that bin.'}},\n        'pointwise_and_postselection_boundaries': {\n            'pointwise_intensity': 'A direction point has zero angular measure; its density evaluation is not a probability effect with operator bound1. Dividing a bin probability by its angular measure changes the bound to sqrt(epsilon)/measure(bin). No universal pointwise relative error follows.',\n            'source_node_control': {'transition': 'synthetic2+->2+, initialw(+/-2)=1/2',\n                                    'retained': f'M1/E2 amplitudes proportional to (1,{txt(cancel_E2)}), renormalized within retainedspace',\n                                    'omitted': 'pure M3 sector with total-rate weight epsilon_rate',\n                                    'direction': 'theta=0 along the initial axis', 'retained_W': '0',\n                                    'full_W': f'({txt(node_omitted_coefficient)})*epsilon_rate',\n                                    'interpretation': 'All retained theta0 helicity/final-spin links cancel, while M3 is nonzero. The pointwise relative-error denominator vanishes for arbitrarily small positive epsilon_rate.'},\n            'generic_postselection_bound': 'For the same trace-nonincreasing CP accepted-event instrument, A=K(rho),B=K(sigma), success probabilities p,q>0: D(A/p,B/q)<=min(1,D(rho,sigma)/max(p,q)). Thus <=min(1,sqrt(epsilon)/max(p,q)); a strictly positive success floor is needed for a useful uniform conditional bound.',\n            'postselection_proof': 'Add a fixed failure flag to make the accepted-event instrument CPTP. Its trace distance is (||A-B||_1+|p-q|)/2<=d. The normalization triangle inequality gives D(A/p,B/q)<=(||A-B||_1+|p-q|)/(2p)<=d/p, and symmetrically d/q.',\n            'rare_filter_control': {'filter': 'K_filter=diag(epsilon_rate,1) in the retained/omitted two-sector basis',\n                                    'full_success': txt(success_full), 'retained_success': txt(success_retained),\n                                    'conditional_trace_distance_squared': txt(conditional_D_squared),\n                                    'unconditional_limit': 'D=sqrt(epsilon_rate)->0', 'conditional_limit': 'D_conditional->1 as epsilon_rate->0+',\n                                    'boundary': 'An exact mathematical family of rare accepted-event filters, not a detector or measured cascade. It demonstrates the lack of a probability-independent conditional error bound.'},\n            'linear_polarization_ratio': 'For accepted-bin polarization P=(p_x-p_y)/(p_x+p_y), the denominator is a postselection success probability. Its normalized expectation difference is bounded by2D_conditional, so it need not be O(sqrt(epsilon)) without a success floor. A zero denominator leaves P undefined.',\n            'different_initial_densities': 'Unknown but common initialrho is allowed. If truncation also changes the fitted initialdensity, the triangle bound is sqrt(epsilon)+D(rho_initial,rho_initial0), capped at1. At epsilon=0, distinct orthogonal initialM states can still have total-radiation distance1.',\n            'epsilon_one_or_zero_rate': 'epsilon=0 gives identical normalized states. epsilon=1 leaves no retained amplitude and no normalized retained reference. S=0 means there is no emitted-photon state to normalize.'},\n        'detector_and_inverse_response_boundary': {\n            'bounded_forward_response': 'The same physically calibrated detector bin, efficiency, polarization analyzer or CPTP response with effect in[0,I] obeys the absolute probability bound, even after tracing final spin.',\n            'inverse_or_weighted_observable': 'Efficiency weighting, angular-density normalization or general unfolding can produce an effective observable whose operator norm exceeds1 or is unbounded. The universal probability bound then does not apply unchanged; the operator norm/conditioning and uncertainty must be controlled separately.',\n            'uniform_efficiency_exception': 'If a known scalar efficiency satisfies E_actual=eta*P with P itself an effect, dividing the noiseless expectation byeta recovers P and the state-probability bound still holds. Statistical/calibration errors are nevertheless amplified by1/eta; no bound on such noisy estimates is supplied here.',\n            'not_proved': ['a uniform relative pointwiseW error', 'a uniform normalized polarization/postselection error without a success floor',\n                           'an error bound for arbitrary unbounded inverse response', 'a total-rate fraction from selection rules or qR alone',\n                           'finite-count significance, actual detector statistics or physical nucleus realizability']},\n        'checks': {'results': checks, 'passed': sum(checks.values()), 'failures': 0, 'elapsed_seconds': time.monotonic() - started},\n        'changed_paths': [str(Path(__file__).relative_to(ROOT)), str(OUT.relative_to(ROOT))],\n        'reproducibility': {'script_path': str(Path(__file__).relative_to(ROOT)), 'script_sha256': hashlib.sha256(code_bytes).hexdigest(),\n                            'source_code': code_bytes.decode('utf-8'), 'python': platform.python_version(), 'sympy': sp.__version__,\n                            'dependencies': str(DEPS.relative_to(ROOT)),\n                            'check_command': 'python3 tmp/day8-20261007/rose-brink/truncation-observable-bound/truncation_observable_bound.py',\n                            'write_command': 'python3 tmp/day8-20261007/rose-brink/truncation-observable-bound/truncation_observable_bound.py --write-receipt',\n                            'write_policy': 'Exclusive new owned receipt only; all old receipts/raw/canonical/report/run/state/PLAN/Git unchanged.'},\n    }\n\n\ndef main():\n    parser = argparse.ArgumentParser(description=__doc__)\n    parser.add_argument('--write-receipt', action='store_true')\n    args = parser.parse_args()\n    result = main_result()\n    if args.write_receipt:\n        with OUT.open('x', encoding='utf-8', newline='\\n') as stream:\n            json.dump(result, stream, ensure_ascii=False, indent=2)\n            stream.write('\\n')\n    print(json.dumps({'artifact': str(OUT.relative_to(ROOT)) if args.write_receipt else None,\n                      'status': result['status'], 'checks': result['checks']['passed'], 'elapsed_seconds': result['checks']['elapsed_seconds'],\n                      'full_state_D': 'sqrt(epsilon_rate)', 'bounded_probability_error': '<=sqrt(epsilon_rate)',\n                      'source_cap_delta': result['tight_and_source_interference_controls']['actual_source_finite_cap']['probability_difference'],\n                      'source_pointwise_node': result['pointwise_and_postselection_boundaries']['source_node_control'],\n                      'rare_filter_conditional_limit': '1', 'run_closed': False}, ensure_ascii=False, indent=2))\n\n\nif __name__ == '__main__':\n    main()\n",
+    "python": "3.12.3",
+    "sympy": "1.14.0",
+    "dependencies": "tmp/day8-20261007/rose-brink/python-deps",
+    "check_command": "python3 tmp/day8-20261007/rose-brink/truncation-observable-bound/truncation_observable_bound.py",
+    "write_command": "python3 tmp/day8-20261007/rose-brink/truncation-observable-bound/truncation_observable_bound.py --write-receipt",
+    "write_policy": "Exclusive new owned receipt only; all old receipts/raw/canonical/report/run/state/PLAN/Git unchanged."
+  }
+}

@@ -91,6 +91,8 @@ The adopted data table is a critical survey through January 1980, not a homogene
 | LKH82-12 | p.169 明给 M1 penetration 的线性/二次修正式，原叙述为增强 IC；没有本题系数或允许参数域。未知修正下 E0 的非负率排除需指定 reference model/允许域；固定独立 t 与未修正 E2、非负 M1 时仍有 E2 floor。δ sign 与 penetration 参数的符号信息不同。 | source-formula-and-our-inference | indirect | printed p.169 / PDF p.51 Eq.4.1 下方修正式与叙述；p.123 / PDF p.5 Eq.2.12；KB08 printed pp.207–208 / PDF pp.6–7 Eq.24、NP/SC 比较 | true |
 | LKH82-13 | 同一物理Hermitian核多极、标准BM归一时，反向RME须复共轭且B反向带初态自旋简并比。该方向变换是推导，不增加独立测量；RB同算符归一须换bra-spin因子，不能代替photon-T的adjoint/发射吸收映射。 | our-inference-with-definition-premise | indirect | printed121/PDF3 Eq2.3a–c；printed122/PDF4 Eqs2.10–2.11与state-reversal段；RB67 printed316/PDF11 Eq3.22的不同adjoint | true |
 | LKH82-14 | 同electric type/energy/transition，在所用长波核电算符率公式内，E4/E2率比=(5/23814)(qR)^4|χ|²，χ=M4/(R²M2)需M2非零。小qR必须结合独立矩阵元界才支持此率截断；不单独控制干涉角分布误差或证明真实核素高阶不存在。 | our-inference-with-formula-premise | indirect | printed121/PDF3 Eqs2.2/2.3a–b；RB67 printed313–314/PDF8–9 Eq3.12与footnote9、p318/PDF13 Eqs3.29–3.30与footnote12；46-check hierarchy | true |
+| LKH82-15 | Eq2.3c的orbital l是作用于态的导数；hard radius/归一和small totalJ不能直接继承electric multiplication范数界。固定2→1的two-orbital形式反例可有增长RME，物理域需另控orbital/kinetic moments与nonrel/current有效性，不预测真实低能强度无界。 | our-inference-with-operator-premise | indirect | printed121/PDF3 Eqs2.3a/c；p125/PDF7 Eq3.9、p127/PDF9 generator-only scope；54-check magnetic domain/CG/6j/Racah重构 | true |
+| LKH82-16 | 对同一 2+→2+ 的 M1/E2 截断，独立 hard-support、磁 moment/domain 与正 E2 floor 可条件性界定完整 M3+E4 被省 photon-rate 份额及绝对测量误差；未给实际先验，不认定真实截断已有效。 | our-inference-with-operator-premise | indirect | printed p.121/PDF3 Eqs.2.2–2.3c；72-check conjugated M3 gradient Gram、B/units/rate budget；RB67-21/22 的条件误差界 | true |
 
 ## Collective M1 Zero, Perturbation Order and Transfer Conditions
 
@@ -301,6 +303,54 @@ RB pp.313–314 的Bessel长波近似与footnote9要求一致charge/current，p.
 `B(EL;i→f)≤Qabs²R^(2L)(2L+1)/(4π)`，不用再乘/除2Ji+1。
 
 E4上界为`9Qabs²R^8/(4π)`；只有另有独立strict-positive `B(E2)≥B2min`，才得 `|χ|²≤9Qabs²R^4/(4πB2min)`。绝对E4上界本身不给普遍χ界；B2min→0会发散。TypicalR并不建立compact support，真实tails或projected-space moments需独立控制。独立source审计12项no-op、17项Fraction事实与10个fixed-Mi Racah求和确认系数/归一与复数χ模，未增加核素实现或experimental evidence。
+
+## Magnetic Operator Domain and Radius-Only Bounds
+
+p121 Eq2.3c采用非相对论one-body magnetic moment operator：µ(M)Σk[g_s s+2g_l l/(L+1)]·∇[r^L Y_Lµ]，µ(M)=eℏ/(2Mc)。括号gradient只微分solid harmonic，随后是vector乘法系数；dimensionless l=−i r×∇仍作用于wavefunction，s/g也无量纲。光滑共同domain上，Σa[l_a,∂a f]=−iεabc r_b∂c∂a f=0可移除contracted ordering差，不消除导数或证明boundedness。L=1给 √[3/(4π)]µ(M)Σ(g_l l_µ+g_s s_µ)，单位是moment；M=m_p时才采用µ_N，不能额外乘ℏ或混SI单位。
+
+形式控制只取two distinguishable orbitaldegrees，不赋实际核素/Pauli sector：ℓ1=ℓ2=ℓ≥1，same normalized smooth radialfactor支持于a<r<R，couple到Ji=2、Jf=1。两state parity均+；weighted O=g1l1+g2l2=g2Jtot+(g1−g2)l1。Jtot不连接不同J，完整CG与独立6j/Racah给
+
+|⟨(ℓℓ)1||l1||(ℓℓ)2⟩|²=[(2ℓ+1)²−4]/2=2ℓ(ℓ+1)−3/2。
+
+ℓ=1,2,3,5分别为5/2、21/2、45/2、117/2；weighted RME乘g1−g2。物理M1 normalization下 B(M1;2→1)=(3/(20π))µ(M)²(g1−g2)²[2ℓ(ℓ+1)−3/2]，初态除数5已含。g1=g2回到generator-only zero；g不同是另一算符。这个共同R/fixedsmallJ的序列说明formal orbitaldomain没有radius-only uniformnorm，未给Hamiltonian、emissionenergy、低能谱或真实nuclear realization。
+
+Uniform磁bound还需moment/domain或validated finite-space限制。对normalizedψ、固定有限N和boundedg，一个充分保守界是 B(M1)≤(3/(4π))µ(M)²[Σ|g_l,k|√⟨l_k²⟩+Σ|g_s,k|√⟨s_k²⟩]²，由component-vector triangle和finalprojection得出。Spin1/2的s²=3/4固定，orbitalmoments需另外输入。共同smooth support/domain有 ⟨l²⟩≤R²⟨p²⟩/ℏ²；support单独不提供momentum上界。Hamiltonian/energy路线需独立potential/domain控制，不能只用总能量标签。
+
+相同radialfactor的⟨p²⟩含ℏ²ℓ(ℓ+1)∫|u|²/r²dr≥ℏ²ℓ(ℓ+1)/R²，因此ℓ∞最终超出任一固定nonrelmomentum/velocity域。此operator-domain反例不宣称实际低能M1强度无穷；finite-q、relativistic/effective/exchangecurrent需另核。54项parent核验含180component、32norm、12orthogonalitycontrols，仍L2；未修改既有electric条件界或推全部magnetic hierarchy。
+
+## Conditional Budget for the Complete M3 and E4 Omission
+
+选择定则允许的 M1/E2/M3/E4 全部保留作 full model，retained 取其自身 M1/E2 projection。以下是本任务的条件推导，原文 p.121 提供 rate、B 与算符约定。要求同一 2+→2+ pair、同正 Eγ 和初态ρ；相关态在共同光滑算符域中，归一且每个粒子严格 rk≤R，charge sector 固定，g 为有界实常数。磁算符另需独立有限 moments Sk≥Trρ sk²、Lk≥Trρ lk²；典型/rms 半径单独不给这些条件。定义
+
+\[
+A_3=\sum_k|g_{s,k}|\sqrt{S_k}+\frac12\sum_k|g_{l,k}|\sqrt{L_k}.
+\]
+
+fμ=r³Y3μ 的 complex-conjugated gradient Gram 为 G_ab=Σμ(∂a fμ)*∂b fμ。七个 solid harmonics 的直接 Cartesian 求和给
+
+\[
+4\pi G=21r^2(2r^2 I+\mathbf r\mathbf r^{\mathsf T}),\qquad
+\operatorname{spec}G=\frac{r^4}{4\pi}(42,42,63).
+\]
+
+PSD 差等于 21r²|r×v|²；63 是局部 gradient map 的最优系数，随后 many-body triangle/final projection 的界保守。Eq.2.3c 对 M3 的 orbital 系数为1/2；contracted ordering identity 可把 gradient 放左，但 l 仍微分态。用 component-vector triangle、mixedρ purification 和 Eq.2.3a 的 fixed-Mi 求和，得到
+
+\[
+B(M3)\le B_{M3}^{\max}=\frac{63}{4\pi}\mu(M)^2R^4 A_3^2,
+\qquad B(E4)\le B_{E4}^{\max}=\frac9{4\pi}Q_{\rm abs}^2R^8.
+\]
+
+两式已含 B 的 spin normalization，不再除5。µ(M)=eℏ/(2Mc)，统一 Gaussian 单位下是 charge×length；因此 BM3/BE2 带 length²。不得把 µN²b²/e²b² 的裸数字直接当无量纲。需独立同一 pair 的 B(E2)≥B2min>0，并使先验共同可行；由 C3/C2=8/441、C4/C2=5/23814，q=Eγ/(ℏc)>0，定义
+
+\[
+u_3=\frac8{441}q^2\frac{B_{M3}^{\max}}{B_{2\min}},\qquad
+u_4=\frac5{23814}q^4\frac{B_{E4}^{\max}}{B_{2\min}},\qquad
+u=u_3+u_4,\qquad\varepsilon\le\frac{u}{1+u}.
+\]
+
+因为 Γret≥C2 q⁵B2min、Γom≤C3 q⁷BM3max+C4 q⁹BE4max，此 ε 是全部被省 photon-rate 份额。按 [[rose-brink-1967-phase-defined-angular-distributions]] RB67-21/22，同一 bounded probability effect 的绝对误差≤√[u/(1+u)]；同有限 emitted subspace 的 angular-average-one W 绝对误差≤5√[u/(1+u)]。它不保证 refitted δ/ρ 的参数误差、节点相对误差、条件偏振比、total lifetime 或 nonγ channel。
+
+B2min 缺失/趋零、orbital moment/domain 未控或 support-tail/current 修正未界定时，这条证明不能认证截断。固定有效先验下 q→0+ 是代数极限；q=0 没有归一发射态。由目标截断拟合倒推自身 E2 floor 或布居，不能充当独立 prior。72 项 parent 复现已通过；原先验 receipts 保持 immutable，独立审计另留证。此处没有实际 E/R/current/strength 输入或真实核截断结论，仍为 L2。
 
 ## Human Review Triage
 
