@@ -11,9 +11,9 @@ updated: 2026-10-08
 
 ## 完成与待办
 
-正式 Day8 recall 是 prompt-primed；新 convention/source audit、三题全候选/观测依赖和五行 card audit已完成。课程 state仍next8/count7；日报仅completed=[8]、partial=[9]，Day9预习无学分，未开展Day10。第六26-file checkpoint已非forceGitee/H3发布，稳定指针main + Extend DAY8 cascade evidence and strength normalization；full hash只在run.json，不amend已发布提交。
+正式 Day8 recall 是 prompt-primed；新 convention/source audit、三题全候选/观测依赖和五行 card audit已完成。课程 state仍next8/count7；日报仅completed=[8]、partial=[9]，Day9预习无学分，未开展Day10。第七26-file checkpoint已非forceGitee/H3发布，稳定指针main + Bound DAY8 truncation and independent calibration；full hash只在run.json，不amend已发布提交。
 
-新95/329/54/99/96/72/60项parent核验已经canonical/report/唯一七页writeback同步到RB67-21–25、LKH82-15–16和observable/method。当前收独立controlled-four-mode-truncation-review、population-calibration-error-bound-review；selected的唯一新问题是J3 pure-E2 reference A2/A4是否漏掉population rank6，high-spin-reference-nullspace.json待parent核验。准确未完成项以research-checkpoint最新字段为准，不重跑所有既有工作。
+新95/329/54/99/96/72/60项parent核验已经canonical/report/唯一七页writeback同步到RB67-21–25、LKH82-15–16和observable/method。后续75-check J3 reference/node、54-check independent reference、44-check general helicity、44/1184 photon-floor、72-check material supplement alias clarification已parent核验/writeback到RB67-26/27、LKH82-17。独立review有per-branch与sum b_rad命名漂移，冻结旧receipt，canonical与clarification正确分开；不要只凭check数说无文档问题。当前selected：nongamma-inventory-floor.json（含独立review）与day9-same-parent-strength-ratio.json，仍待parent核验/writeback。准确未完成项以research-checkpoint最新字段为准，不重跑所有既有工作。
 
 所有数学receipt有下游input SHA，保持immutable，不为加metadata重写。每个复用结论必须到knowledge；run/report不作唯一知识源。保留raw、PLAN、旧run目录、受保护BibTeX、inherit dirty system/scripts/run_daily_learning_daemon.py和review flags。KB08历史人审不覆盖新的dated supplement，self-audit不写human-reviewed。合成例/自由模型没有核素或实验身份；缺response/covariance和独立priors，不计L4。
 

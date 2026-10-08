@@ -1,0 +1,315 @@
+{
+  "schema_version": 1,
+  "created_at_utc": "2026-10-08T01:34:19.437301+00:00",
+  "artifact_kind": "Day8-L2-conditional-same-pair-total-photon-width-floor-truncation",
+  "status": "conditional-total-photon-width-floor-route-complete; physical-priors-not-supplied",
+  "day_index": 8,
+  "run_closed": false,
+  "new_source_or_course_card": false,
+  "new_nucleus_or_energy": false,
+  "experimental_data_fit": false,
+  "numerical_experiment": false,
+  "L4": false,
+  "session_id": "01a111fb-370d-7ed1-afe9-881ccc47caf4",
+  "resume_command": "codex resume 01a111fb-370d-7ed1-afe9-881ccc47caf4 -C /workspace/wiki -s danger-full-access -a never",
+  "evidence_class": "Existing source photon rate/normalization plus our conditional width inequalities and branch/lifetime inventory reconstruction; scientific self-audit, not human-reviewed.",
+  "substantive_increment": "A positive same-pair total photon-width floor and complete omitted-width ceiling can replace the positive E2-strength floor. The route can certify retained existence even when E2=0; no actual independent physical priors are supplied.",
+  "immutable_prior_receipts": {
+    "controlled_four_mode": {
+      "path": "outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/controlled-four-mode-truncation.json",
+      "sha256": "0ba57d1ebd21294ecbcbccd365fa3e984215116542cb6b8676a57f6b7e527aae"
+    },
+    "probability_95": {
+      "path": "outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/truncation-observable-bound.json",
+      "sha256": "8d836c358937581ae05b9923c2f222938d56cce493c4cb5056299ed550f3cec9"
+    },
+    "density_329": {
+      "path": "outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/finite-rank-density-bound.json",
+      "sha256": "2636cac3929b3b28bb5b29badf5bc9df7e74d7d16378db42cb726d0bbdfe8538"
+    }
+  },
+  "raw_sources": [
+    {
+      "source": "LKH82",
+      "raw_path": "raw/papers/gpt/high-spin-20260920/review/1982_Lange et al_E0-E2-M1 multipole admixtures of transitions in even-even nuclei.pdf",
+      "raw_sha256": "ed925a0577a9257903806acd209c1db707529e86a5bfd9a301a83d597bf78ffb"
+    },
+    {
+      "source": "RB67",
+      "raw_path": "raw/papers/gpt/high-spin-20260920/multipolarity/mixing ratio/1967_Rose et al_Angular Distributions of Gamma Rays in Terms of Phase-Defined Reduced Matrix Elements.pdf",
+      "raw_sha256": "8f846b61b9320de291ee5600126c5e286a0fe05968df819696816f0dc1ec57dc"
+    }
+  ],
+  "source_locators": {
+    "LKH82": [
+      "printed121/PDF3 Eqs2.2–2.3c: partial photon rate/B/operator conventions",
+      "printed123/PDF5 Eq2.12 and printed169/PDF51 Eq4.1: same-spin/parity E0 electrons and gamma/electron inventory are different"
+    ],
+    "RB67": [
+      "printed318/PDF13 Eq3.29: integrated partial photon normalization and Gamma=hbar times photon rate"
+    ],
+    "boundary": "The tau in a one-transition radiative formula is not automatically the total parent mean lifetime when other photon and non-gamma branches exist. The absolute branch bookkeeping below is our definition-based reconstruction."
+  },
+  "same_pair_definitions": {
+    "case": "Fixed2+->2+ initial/final multiplets; full photon modes M1/E2/M3/E4, retained M1/E2 and omitted M3/E4.",
+    "Gamma_gamma": "Integrated TOTAL PHOTON width for this one pair, Gamma_ret+Gamma_om; it is not total parent width, total pair deexcitation width including IC/E0, or the sum of photon widths to other final states.",
+    "independent_floor": "Gamma_gamma>=Gamma_gamma_min>0 in the same full adopted model, independently established; no target-truncation-dependent fit may be used as its own premise.",
+    "independent_omission_ceiling": "0<=Gamma_om<=U_om<infinity for every omitted photon mode. One sufficient numerator from the earlier controlled route is U_om=C3 q^7 BM3max+C4 q^9 BE4max; its support/current/moment and operator-validity conditions remain.",
+    "units": "Gamma and U are energy widths. T_gamma is inverse time and Gamma=hbar*T_gamma. Both floor and ceiling must use the same width convention/units."
+  },
+  "theorem": {
+    "fraction": "epsilon=Gamma_om/Gamma_gamma<=min(1,U_om/Gamma_gamma_min).",
+    "retained_floor": "Gamma_ret=Gamma_gamma-Gamma_om>=max(0,Gamma_gamma_min-U_om).",
+    "strict_threshold": "If U_om<Gamma_gamma_min then Gamma_ret>0, so the normalized retained reference exists without an additional E2 floor.",
+    "retained_ratio": "Under that strict threshold, Gamma_om/Gamma_ret<=U_om/(Gamma_gamma_min-U_om).",
+    "equality_or_excess": "At U_om>=Gamma_gamma_min the fraction ceiling is1 and retained positivity is not guaranteed. If a retained state exists from other information the old error bound is at best trivial; if Gamma_ret=0 it is undefined.",
+    "proof": "Nonnegative widths, positive full-width floor and division by that floor give the fraction bound. Subtracting the omission ceiling gives the retained floor. Strict inequality supplies positive S_R.",
+    "zero_edges": "U_om=0 gives epsilon0 and identical retained/full states. A zero/negative photon-width floor or negative omission ceiling is not an input to this theorem. Gamma_gamma=0 has no emitted-photon normalization; q0 with finite adopted moments cannot meet a positive photon-width floor."
+  },
+  "observable_connection": {
+    "strict_regime": "For U_om<Gamma_gamma_min, common-rho full radiation and its unchanged retained projection have D<=sqrt(U_om/Gamma_gamma_min).",
+    "probability": "Any same fixed effect0<=E<=I in the common normalized emitted-radiation comparison has absolute probability error<=sqrt(U_om/Gamma_gamma_min). This is not a per-parent-decay unnormalized yield bound.",
+    "density": "In the fixed2->2 common full four-mode H_emit including final spin, |DeltaW(n)|<=5sqrt(U_om/Gamma_gamma_min). W has angular average1; per-steradian density divides the bound by4pi.",
+    "tolerance": "For0<etaP<1, U_om<=etaP^2*Gamma_gamma_min is sufficient and implies strict retained positivity. For0<etaW<5 use U_om<=(etaW/5)^2*Gamma_gamma_min.",
+    "required_model_conditions": "Keep identical initial rho, retained amplitudes, current/state model, positive transition energy and common normalized radial/time mode or angular-shell space. Do not refit amplitudes/rho or recompute physical time/line-shape/IC channels and claim the same state bound.",
+    "limits": "Different rho requires an additional D_initial; generic output-support or inverse response requires its own operator audit. Relative nodes, conditional polarization denominators, fitted-parameter confidence intervals and finite-count significance are not controlled."
+  },
+  "absolute_radiative_branch_lifetime_route": {
+    "identity": "For an isolated parent with intrinsic exponential mean lifetime tau and complete decay rate inventory: b_rad=T_pair,gamma/T_parent,total is the absolute probability of THIS photon transition per parent decay. Gamma_pair,gamma=hbar*b_rad/tau.",
+    "parent_vs_partial": "tau refers to all parent decay channels, not just this pair. The photon partial lifetime is tau_gamma=tau/b_rad when b_rad>0. A half-life must first be converted to mean tau=T_half/log(2).",
+    "joint_domain": "An independently supported jointly feasible set F in0<=b_rad<=1,tau>0 gives Gamma_gamma_min<=hbar*inf_F(b_rad/tau). The infimum must be positive for this route; preserve covariance/constraints rather than assuming marginal extrema are jointly attained.",
+    "rectangle_enclosure": "If F is enclosed by b_rad>=b_min>0 andtau<=tau_max<infinity, hbar*b_min/tau_max is a conservative positive floor. It is sharp only if that corner belongs to F.",
+    "rectangle_control": {
+      "absolute_b_rad_interval": [
+        "1/10",
+        "3/10"
+      ],
+      "mean_tau_over_tau_ref_interval": [
+        "2",
+        "5"
+      ],
+      "Gamma_over_Gamma_ref_interval": [
+        "1/50",
+        "3/20"
+      ],
+      "reference_units": "Gamma_ref=hbar/tau_ref; no physical hbar or time value assigned."
+    },
+    "correlated_control": {
+      "domain": "b_rad=tau/(4tau_ref), tau/tau_ref in[1,3]; thus b_rad in[1/4,3/4].",
+      "Gamma_over_Gamma_ref_exact": "1/4",
+      "marginal_rectangle_floor": "1/12",
+      "sample_exact_points": [
+        {
+          "tau": "1",
+          "absolute_b_rad": "1/4",
+          "gamma_width_ratio": "1/4"
+        },
+        {
+          "tau": "2",
+          "absolute_b_rad": "1/2",
+          "gamma_width_ratio": "1/4"
+        },
+        {
+          "tau": "3",
+          "absolute_b_rad": "3/4",
+          "gamma_width_ratio": "1/4"
+        }
+      ],
+      "meaning": "Exact joint constraints can give a stronger floor than an enclosing rectangle; these are teaching constraints, not data confidence sets."
+    },
+    "not_a_floor": "A total parent lifetime alone, total deexcitation branch including conversion/E0, or intensity normalized only among observed parent photons does not supply b_rad. Absolute calibration, complete branch inventory and photon/non-gamma decomposition are additional inputs.",
+    "E0_IC_boundary": "For this same-spin/parity pair E0 electrons can contribute without a photon, and IC from allowed photon multipoles also contributes to total branching. No atomic coefficients or energies are looked up; no measured decomposition is claimed.",
+    "independence": "An inferred radiative branch using the target M1/E2 truncation or unvalidated ICC/model assumptions is not an independent premise. Model/operator errors must be reconciled with any measured width floor."
+  },
+  "exact_threshold_controls": {
+    "E2_zero_strict": {
+      "Gamma_gamma_min": "1",
+      "U_om": "1/5",
+      "widths_M1_E2_M3_E4": {
+        "M1": "4/5",
+        "E2": "0",
+        "M3": "1/5",
+        "E4": "0"
+      },
+      "epsilon_upper": "1/5",
+      "retained_lower": "4/5",
+      "retained_reference_guaranteed": true,
+      "omitted_over_retained_upper": "1/4"
+    },
+    "equality": {
+      "Gamma_gamma_min": "1",
+      "U_om": "1",
+      "possible_widths": "Gamma_ret=0,Gamma_om=Gamma_gamma=1",
+      "epsilon_upper": "1",
+      "retained_lower": "0",
+      "retained_reference_guaranteed": false,
+      "omitted_over_retained_upper": null
+    },
+    "excess": {
+      "Gamma_gamma_min": "1",
+      "U_om": "2",
+      "possible_widths": "Gamma_ret=0,Gamma_om=Gamma_gamma=1",
+      "epsilon_upper": "1",
+      "retained_lower": "0",
+      "retained_reference_guaranteed": false,
+      "omitted_over_retained_upper": null
+    },
+    "zero_omission": {
+      "Gamma_gamma_min": "1",
+      "U_om": "0",
+      "epsilon_upper": "0",
+      "retained_lower": "1",
+      "retained_reference_guaranteed": true,
+      "omitted_over_retained_upper": "0"
+    },
+    "small_conditional_error": {
+      "Gamma_gamma_min": "1",
+      "U_om": "1/100",
+      "probability_ceiling": "1/10",
+      "W_ceiling": "1/2",
+      "epsilon_upper": "1/100",
+      "retained_lower": "99/100",
+      "retained_reference_guaranteed": true,
+      "omitted_over_retained_upper": "1/99"
+    },
+    "boundary": "All widths are abstract nonnegative conditional assignments in common reference units; no nuclear wavefunctions/current realizing them or actual physical priors are provided."
+  },
+  "unknown_E0_failure_family": {
+    "fixed_inputs": "Mean tau=tau_ref, total pair deexcitation branch1/2 and normalized parent-photon intensity1/2. The true omitted-photon ceiling U_om/Gamma_ref=1/100 holds for all controls.",
+    "symbolic_family": "For0<t<=1/100, Gamma_pair,gamma/Gamma_ref=t, Gamma_pair,E0/Gamma_ref=1/2-t, Gamma_other,gamma/Gamma_ref=t, Gamma_other,nongamma/Gamma_ref=1/2-t. Retained M1 and omitted M3 each carryt/2; E2=E4=0. Parent total width1 is fixed, target photon fractiont tends to0 and omitted fraction stays1/2.",
+    "false_inference": "Treating total pair branch1/2 as b_rad would give false Gamma_gamma_min/Gamma_ref=1/2 and falseepsilon_upper=1/50, while actualepsilon=1/2. The missing photon/E0 decomposition is the failure, not a violation of the valid theorem.",
+    "exact_controls": [
+      {
+        "Gamma_pair_gamma": "1/100",
+        "Gamma_pair_E0_electrons": "49/100",
+        "Gamma_other_gamma": "1/100",
+        "Gamma_other_nongamma": "49/100",
+        "parent_mean_tau_over_tau_ref": "1",
+        "absolute_total_pair_branch": "1/2",
+        "normalized_parent_photon_intensity_pair": "1/2",
+        "retained_pair_gamma": "1/200",
+        "omitted_pair_gamma": "1/200",
+        "epsilon_actual": "1/2",
+        "wrong_epsilon_bound_from_total_branch": "1/50"
+      },
+      {
+        "Gamma_pair_gamma": "1/200",
+        "Gamma_pair_E0_electrons": "99/200",
+        "Gamma_other_gamma": "1/200",
+        "Gamma_other_nongamma": "99/200",
+        "parent_mean_tau_over_tau_ref": "1",
+        "absolute_total_pair_branch": "1/2",
+        "normalized_parent_photon_intensity_pair": "1/2",
+        "retained_pair_gamma": "1/400",
+        "omitted_pair_gamma": "1/400",
+        "epsilon_actual": "1/2",
+        "wrong_epsilon_bound_from_total_branch": "1/50"
+      },
+      {
+        "Gamma_pair_gamma": "1/1000",
+        "Gamma_pair_E0_electrons": "499/1000",
+        "Gamma_other_gamma": "1/1000",
+        "Gamma_other_nongamma": "499/1000",
+        "parent_mean_tau_over_tau_ref": "1",
+        "absolute_total_pair_branch": "1/2",
+        "normalized_parent_photon_intensity_pair": "1/2",
+        "retained_pair_gamma": "1/2000",
+        "omitted_pair_gamma": "1/2000",
+        "epsilon_actual": "1/2",
+        "wrong_epsilon_bound_from_total_branch": "1/50"
+      },
+      {
+        "Gamma_pair_gamma": "1/10000",
+        "Gamma_pair_E0_electrons": "4999/10000",
+        "Gamma_other_gamma": "1/10000",
+        "Gamma_other_nongamma": "4999/10000",
+        "parent_mean_tau_over_tau_ref": "1",
+        "absolute_total_pair_branch": "1/2",
+        "normalized_parent_photon_intensity_pair": "1/2",
+        "retained_pair_gamma": "1/20000",
+        "omitted_pair_gamma": "1/20000",
+        "epsilon_actual": "1/2",
+        "wrong_epsilon_bound_from_total_branch": "1/50"
+      }
+    ],
+    "physical_boundary": "This is a rate-inventory counterfamily compatible with the coarse lifetime/branch/photon-relative information, not a real isotope, atomic E0 coefficient, nuclear current or experimental fit."
+  },
+  "physical_inputs_not_supplied": [
+    "same-pair independent positive photon-width floor",
+    "a real complete omitted-current/strength width upper bound",
+    "actual energy/radius/state/current/moment priors",
+    "absolute radiative branching and intrinsic mean lifetime joint feasible domain",
+    "detector counts/calibration/covariance or confidence coverage"
+  ],
+  "attribution": "Source-authored premises are rates, magnetic/electric operators and integrated photon normalization. The width-floor theorem, lifetime/branch inventory, joint-domain envelope and failure family are our conditional reconstruction. No actual truncation, nucleus realization, Human review or paper admission is claimed.",
+  "checks": {
+    "results": {
+      "controlled_four_mode_immutable_input_identity": true,
+      "probability_95_immutable_input_identity": true,
+      "density_329_immutable_input_identity": true,
+      "LKH82_raw_identity": true,
+      "RB67_raw_identity": true,
+      "same_fixed_2_to_2_four_photon_modes": true,
+      "same_case_emitted_space_kappa5": true,
+      "strict_floor_guarantees_positive_retained": true,
+      "strict_epsilon_and_retained_ratio_ceilings": true,
+      "E2_zero_control_has_gamma_floor_and_retained_M1": true,
+      "E2_zero_control_saturates_fraction_ceiling": true,
+      "equality_does_not_guarantee_retained_reference": true,
+      "above_threshold_does_not_guarantee_retained_reference": true,
+      "pure_omitted_width_fits_equality_and_excess": true,
+      "zero_omission_has_identical_normalized_reference": true,
+      "zero_gamma_floor_not_a_valid_theorem_input": true,
+      "negative_gamma_floor_not_a_valid_theorem_input": true,
+      "negative_omission_ceiling_not_a_valid_theorem_input": true,
+      "small_budget_probability_square_ceiling": true,
+      "small_budget_probability_point_error_controls": true,
+      "absolute_probability_tolerance_sufficiency": true,
+      "radiative_branch_mean_tau_rectangle_gamma_bounds": true,
+      "rectangle_lower_corner_is_feasible_for_the_control": true,
+      "joint_correlation_preserves_stronger_width_floor": true,
+      "joint_floor_does_not_assume_independent_extrema": true,
+      "zero_radiative_branch_lower_envelope_supplies_no_positive_floor": true,
+      "unknown_E0_1/100_nonnegative_and_parent_lifetime_fixed": true,
+      "unknown_E0_1/100_branch_and_photon_intensity_fixed": true,
+      "unknown_E0_1/100_omission_ceiling_true_but_false_floor_fails": true,
+      "unknown_E0_1/200_nonnegative_and_parent_lifetime_fixed": true,
+      "unknown_E0_1/200_branch_and_photon_intensity_fixed": true,
+      "unknown_E0_1/200_omission_ceiling_true_but_false_floor_fails": true,
+      "unknown_E0_1/1000_nonnegative_and_parent_lifetime_fixed": true,
+      "unknown_E0_1/1000_branch_and_photon_intensity_fixed": true,
+      "unknown_E0_1/1000_omission_ceiling_true_but_false_floor_fails": true,
+      "unknown_E0_1/10000_nonnegative_and_parent_lifetime_fixed": true,
+      "unknown_E0_1/10000_branch_and_photon_intensity_fixed": true,
+      "unknown_E0_1/10000_omission_ceiling_true_but_false_floor_fails": true,
+      "unknown_E0_family_controls_have_decreasing_photon_width": true,
+      "controlled-four-mode-truncation.json_bytes_unchanged_after": true,
+      "truncation-observable-bound.json_bytes_unchanged_after": true,
+      "finite-rank-density-bound.json_bytes_unchanged_after": true,
+      "1982_Lange et al_E0-E2-M1 multipole admixtures of transitions in even-even nuclei.pdf_bytes_unchanged_after": true,
+      "1967_Rose et al_Angular Distributions of Gamma Rays in Terms of Phase-Defined Reduced Matrix Elements.pdf_bytes_unchanged_after": true
+    },
+    "total_passed": 44,
+    "failures": 0,
+    "method": "Exact standard-library Fraction controls plus explicit analytical inequalities; no software test suite."
+  },
+  "reproducibility": {
+    "code": "tmp/day8-20261007/runtime/total-gamma-width-truncation/total_gamma_width_truncation.py",
+    "script_sha256": "9dd0e4c6111bc03dac84ce459e2b466054cb633860ad158f50d66299b5088000",
+    "source_code": "#!/usr/bin/env python3\n\"\"\"Bounded Day8 L2 alternative using a same-pair total photon-width floor.\n\nDefault replay is read-only, including this owned tmp directory. The explicit\n--write-receipt flag exclusively creates one new JSON; old receipts and raw\nsources are never changed. All controls are exact conditional rate arithmetic,\nnot an experiment, software test suite or independent physical-prior evidence.\n\"\"\"\nfrom __future__ import annotations\n\nimport sys\nsys.dont_write_bytecode = True\n\nimport argparse\nfrom datetime import datetime, timezone\nfrom fractions import Fraction as Q\nimport hashlib\nimport json\nfrom pathlib import Path\n\n\nRUN_REL = 'outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01'\nCODE_REL = 'tmp/day8-20261007/runtime/total-gamma-width-truncation/total_gamma_width_truncation.py'\nREADME_REL = 'tmp/day8-20261007/runtime/total-gamma-width-truncation/README.md'\nOUT_REL = RUN_REL + '/total-gamma-width-truncation.json'\nPRIORS = {\n    'controlled_four_mode': ('controlled-four-mode-truncation.json', '0ba57d1ebd21294ecbcbccd365fa3e984215116542cb6b8676a57f6b7e527aae'),\n    'probability_95': ('truncation-observable-bound.json', '8d836c358937581ae05b9923c2f222938d56cce493c4cb5056299ed550f3cec9'),\n    'density_329': ('finite-rank-density-bound.json', '2636cac3929b3b28bb5b29badf5bc9df7e74d7d16378db42cb726d0bbdfe8538'),\n}\nRAW = {\n    'LKH82': ('raw/papers/gpt/high-spin-20260920/review/1982_Lange et al_E0-E2-M1 multipole admixtures of transitions in even-even nuclei.pdf', 'ed925a0577a9257903806acd209c1db707529e86a5bfd9a301a83d597bf78ffb'),\n    'RB67': ('raw/papers/gpt/high-spin-20260920/multipolarity/mixing ratio/1967_Rose et al_Angular Distributions of Gamma Rays in Terms of Phase-Defined Reduced Matrix Elements.pdf', '8f846b61b9320de291ee5600126c5e286a0fe05968df819696816f0dc1ec57dc'),\n}\n\n\ndef digest(content):\n    return hashlib.sha256(content).hexdigest()\n\n\ndef width_budget(gamma_min, omitted_upper):\n    gamma_min, omitted_upper = Q(gamma_min), Q(omitted_upper)\n    if gamma_min <= 0 or omitted_upper < 0:\n        raise ValueError('A positive photon-width floor and nonnegative omission ceiling are required')\n    strict = omitted_upper < gamma_min\n    return {\n        'epsilon_upper': min(Q(1), omitted_upper / gamma_min),\n        'retained_lower': max(Q(0), gamma_min - omitted_upper),\n        'retained_reference_guaranteed': strict,\n        'omitted_over_retained_upper': omitted_upper / (gamma_min - omitted_upper) if strict else None,\n    }\n\n\ndef rectangle_gamma_domain(b_lower, b_upper, tau_lower, tau_upper, hbar=Q(1)):\n    b_lower, b_upper, tau_lower, tau_upper, hbar = map(Q, (b_lower, b_upper, tau_lower, tau_upper, hbar))\n    if not 0 <= b_lower <= b_upper <= 1 or not 0 < tau_lower <= tau_upper or hbar <= 0:\n        raise ValueError('Invalid absolute radiative-branch/mean-lifetime feasible rectangle')\n    return hbar * b_lower / tau_upper, hbar * b_upper / tau_lower\n\n\ndef text_budget(value):\n    return {key: (str(item) if isinstance(item, Q) else item) for key, item in value.items()}\n\n\ndef build_receipt(root):\n    checks = {}\n\n    def check(name, value):\n        checks[name] = bool(value)\n        if not checks[name]:\n            raise RuntimeError('Mathematical self-audit failed: ' + name)\n\n    tracked, prior, prior_refs = {}, {}, {}\n    for name, (filename, expected) in PRIORS.items():\n        path = root / RUN_REL / filename\n        content = path.read_bytes()\n        tracked[path] = content\n        check(name + '_immutable_input_identity', digest(content) == expected)\n        prior[name] = json.loads(content)\n        prior_refs[name] = {'path': RUN_REL + '/' + filename, 'sha256': expected}\n    source_refs = []\n    for name, (relative, expected) in RAW.items():\n        path = root / relative\n        content = path.read_bytes()\n        tracked[path] = content\n        check(name + '_raw_identity', digest(content) == expected)\n        source_refs.append({'source': name, 'raw_path': relative, 'raw_sha256': expected})\n    check('same_fixed_2_to_2_four_photon_modes', prior['controlled_four_mode']['fixed_case_and_common_model']['full_real_photon_modes'] == ['M1', 'E2', 'M3', 'E4'])\n    check('same_case_emitted_space_kappa5', prior['density_329']['absolute_density_error']['case_constants']['B_2_to_2'] == '5')\n\n    strict = width_budget(1, Q(1, 5))\n    check('strict_floor_guarantees_positive_retained', strict['retained_reference_guaranteed'] and strict['retained_lower'] == Q(4, 5))\n    check('strict_epsilon_and_retained_ratio_ceilings', strict['epsilon_upper'] == Q(1, 5) and strict['omitted_over_retained_upper'] == Q(1, 4))\n    # An exact nonnegative width assignment with E2=0, not a nuclear realization.\n    widths = {'M1': Q(4, 5), 'E2': Q(0), 'M3': Q(1, 5), 'E4': Q(0)}\n    gamma = sum(widths.values(), Q(0))\n    omitted = widths['M3'] + widths['E4']\n    check('E2_zero_control_has_gamma_floor_and_retained_M1', gamma == 1 and widths['E2'] == 0 and widths['M1'] > 0)\n    check('E2_zero_control_saturates_fraction_ceiling', omitted / gamma == strict['epsilon_upper'])\n    equality, excess, zero = width_budget(1, 1), width_budget(1, 2), width_budget(1, 0)\n    check('equality_does_not_guarantee_retained_reference', equality['epsilon_upper'] == 1 and equality['retained_lower'] == 0 and not equality['retained_reference_guaranteed'])\n    check('above_threshold_does_not_guarantee_retained_reference', excess['epsilon_upper'] == 1 and not excess['retained_reference_guaranteed'])\n    check('pure_omitted_width_fits_equality_and_excess', Q(1) >= 1 and Q(1) <= 1 and Q(1) <= 2)\n    check('zero_omission_has_identical_normalized_reference', zero['epsilon_upper'] == 0 and zero['retained_lower'] == 1 and zero['retained_reference_guaranteed'])\n    for label, arguments in (('zero_gamma_floor', (0, 1)), ('negative_gamma_floor', (-1, 1)), ('negative_omission_ceiling', (1, -1))):\n        try:\n            width_budget(*arguments)\n        except ValueError:\n            rejected = True\n        else:\n            rejected = False\n        check(label + '_not_a_valid_theorem_input', rejected)\n\n    small = width_budget(1, Q(1, 100))\n    check('small_budget_probability_square_ceiling', small['epsilon_upper'] == Q(1, 100))\n    check('small_budget_probability_point_error_controls', Q(1, 10) ** 2 == small['epsilon_upper'] and Q(1, 2) ** 2 == 25 * small['epsilon_upper'])\n    eta = Q(1, 10)\n    check('absolute_probability_tolerance_sufficiency', Q(1, 100) <= eta ** 2 * Q(1) and small['retained_reference_guaranteed'])\n    low, high = rectangle_gamma_domain(Q(1, 10), Q(3, 10), 2, 5)\n    check('radiative_branch_mean_tau_rectangle_gamma_bounds', low == Q(1, 50) and high == Q(3, 20))\n    check('rectangle_lower_corner_is_feasible_for_the_control', Q(1, 10) / 5 == low)\n    correlated = [{'tau': str(tau), 'absolute_b_rad': str(tau / 4), 'gamma_width_ratio': str((tau / 4) / tau)} for tau in (Q(1), Q(2), Q(3))]\n    envelope_low, _ = rectangle_gamma_domain(Q(1, 4), Q(3, 4), 1, 3)\n    check('joint_correlation_preserves_stronger_width_floor', all(Q(item['gamma_width_ratio']) == Q(1, 4) for item in correlated) and envelope_low == Q(1, 12))\n    check('joint_floor_does_not_assume_independent_extrema', envelope_low < Q(1, 4))\n    no_floor, _ = rectangle_gamma_domain(0, Q(3, 10), 2, 5)\n    check('zero_radiative_branch_lower_envelope_supplies_no_positive_floor', no_floor == 0)\n\n    # Photon-relative intensity and total deexcitation branching stay fixed\n    # while unknown non-gamma/E0 weight makes same-pair photon width arbitrarily\n    # small. All widths use Gamma_ref=hbar/tau_ref; no physical constants/data.\n    family = []\n    U_fixed = Q(1, 100)\n    for t in (Q(1, 100), Q(1, 200), Q(1, 1000), Q(1, 10000)):\n        gamma_pair = t\n        electron_E0_pair = Q(1, 2) - t\n        gamma_other = t\n        nongamma_other = Q(1, 2) - t\n        parent_total = gamma_pair + electron_E0_pair + gamma_other + nongamma_other\n        retained_pair = t / 2\n        omitted_pair = t / 2\n        epsilon_actual = omitted_pair / gamma_pair\n        false_gamma_floor = Q(1, 2)  # incorrectly assigns total pair branch to photons\n        wrong_bound = width_budget(false_gamma_floor, U_fixed)['epsilon_upper']\n        control = {\n            'Gamma_pair_gamma': str(gamma_pair), 'Gamma_pair_E0_electrons': str(electron_E0_pair),\n            'Gamma_other_gamma': str(gamma_other), 'Gamma_other_nongamma': str(nongamma_other),\n            'parent_mean_tau_over_tau_ref': '1', 'absolute_total_pair_branch': '1/2',\n            'normalized_parent_photon_intensity_pair': '1/2', 'retained_pair_gamma': str(retained_pair),\n            'omitted_pair_gamma': str(omitted_pair), 'epsilon_actual': str(epsilon_actual),\n            'wrong_epsilon_bound_from_total_branch': str(wrong_bound),\n        }\n        family.append(control)\n        check('unknown_E0_' + str(t) + '_nonnegative_and_parent_lifetime_fixed', min(gamma_pair, electron_E0_pair, gamma_other, nongamma_other) >= 0 and parent_total == 1)\n        check('unknown_E0_' + str(t) + '_branch_and_photon_intensity_fixed', gamma_pair + electron_E0_pair == Q(1, 2) and gamma_pair / (gamma_pair + gamma_other) == Q(1, 2))\n        check('unknown_E0_' + str(t) + '_omission_ceiling_true_but_false_floor_fails', omitted_pair <= U_fixed and retained_pair > 0 and gamma_pair < false_gamma_floor and epsilon_actual > wrong_bound)\n    check('unknown_E0_family_controls_have_decreasing_photon_width', Q(family[-1]['Gamma_pair_gamma']) < Q(family[0]['Gamma_pair_gamma']))\n\n    for path, content in tracked.items():\n        check(path.name + '_bytes_unchanged_after', path.read_bytes() == content)\n    code_path = Path(__file__).resolve()\n    code = code_path.read_bytes()\n    readme_path = root / README_REL\n    readme = readme_path.read_bytes() if readme_path.exists() else None\n    return {\n        'schema_version': 1, 'created_at_utc': datetime.now(timezone.utc).isoformat(),\n        'artifact_kind': 'Day8-L2-conditional-same-pair-total-photon-width-floor-truncation',\n        'status': 'conditional-total-photon-width-floor-route-complete; physical-priors-not-supplied',\n        'day_index': 8, 'run_closed': False, 'new_source_or_course_card': False,\n        'new_nucleus_or_energy': False, 'experimental_data_fit': False, 'numerical_experiment': False, 'L4': False,\n        'session_id': '01a111fb-370d-7ed1-afe9-881ccc47caf4',\n        'resume_command': 'codex resume 01a111fb-370d-7ed1-afe9-881ccc47caf4 -C /workspace/wiki -s danger-full-access -a never',\n        'evidence_class': 'Existing source photon rate/normalization plus our conditional width inequalities and branch/lifetime inventory reconstruction; scientific self-audit, not human-reviewed.',\n        'substantive_increment': 'A positive same-pair total photon-width floor and complete omitted-width ceiling can replace the positive E2-strength floor. The route can certify retained existence even when E2=0; no actual independent physical priors are supplied.',\n        'immutable_prior_receipts': prior_refs, 'raw_sources': source_refs,\n        'source_locators': {\n            'LKH82': ['printed121/PDF3 Eqs2.2–2.3c: partial photon rate/B/operator conventions', 'printed123/PDF5 Eq2.12 and printed169/PDF51 Eq4.1: same-spin/parity E0 electrons and gamma/electron inventory are different'],\n            'RB67': ['printed318/PDF13 Eq3.29: integrated partial photon normalization and Gamma=hbar times photon rate'],\n            'boundary': 'The tau in a one-transition radiative formula is not automatically the total parent mean lifetime when other photon and non-gamma branches exist. The absolute branch bookkeeping below is our definition-based reconstruction.',\n        },\n        'same_pair_definitions': {\n            'case': 'Fixed2+->2+ initial/final multiplets; full photon modes M1/E2/M3/E4, retained M1/E2 and omitted M3/E4.',\n            'Gamma_gamma': 'Integrated TOTAL PHOTON width for this one pair, Gamma_ret+Gamma_om; it is not total parent width, total pair deexcitation width including IC/E0, or the sum of photon widths to other final states.',\n            'independent_floor': 'Gamma_gamma>=Gamma_gamma_min>0 in the same full adopted model, independently established; no target-truncation-dependent fit may be used as its own premise.',\n            'independent_omission_ceiling': '0<=Gamma_om<=U_om<infinity for every omitted photon mode. One sufficient numerator from the earlier controlled route is U_om=C3 q^7 BM3max+C4 q^9 BE4max; its support/current/moment and operator-validity conditions remain.',\n            'units': 'Gamma and U are energy widths. T_gamma is inverse time and Gamma=hbar*T_gamma. Both floor and ceiling must use the same width convention/units.',\n        },\n        'theorem': {\n            'fraction': 'epsilon=Gamma_om/Gamma_gamma<=min(1,U_om/Gamma_gamma_min).',\n            'retained_floor': 'Gamma_ret=Gamma_gamma-Gamma_om>=max(0,Gamma_gamma_min-U_om).',\n            'strict_threshold': 'If U_om<Gamma_gamma_min then Gamma_ret>0, so the normalized retained reference exists without an additional E2 floor.',\n            'retained_ratio': 'Under that strict threshold, Gamma_om/Gamma_ret<=U_om/(Gamma_gamma_min-U_om).',\n            'equality_or_excess': 'At U_om>=Gamma_gamma_min the fraction ceiling is1 and retained positivity is not guaranteed. If a retained state exists from other information the old error bound is at best trivial; if Gamma_ret=0 it is undefined.',\n            'proof': 'Nonnegative widths, positive full-width floor and division by that floor give the fraction bound. Subtracting the omission ceiling gives the retained floor. Strict inequality supplies positive S_R.',\n            'zero_edges': 'U_om=0 gives epsilon0 and identical retained/full states. A zero/negative photon-width floor or negative omission ceiling is not an input to this theorem. Gamma_gamma=0 has no emitted-photon normalization; q0 with finite adopted moments cannot meet a positive photon-width floor.',\n        },\n        'observable_connection': {\n            'strict_regime': 'For U_om<Gamma_gamma_min, common-rho full radiation and its unchanged retained projection have D<=sqrt(U_om/Gamma_gamma_min).',\n            'probability': 'Any same fixed effect0<=E<=I in the common normalized emitted-radiation comparison has absolute probability error<=sqrt(U_om/Gamma_gamma_min). This is not a per-parent-decay unnormalized yield bound.',\n            'density': 'In the fixed2->2 common full four-mode H_emit including final spin, |DeltaW(n)|<=5sqrt(U_om/Gamma_gamma_min). W has angular average1; per-steradian density divides the bound by4pi.',\n            'tolerance': 'For0<etaP<1, U_om<=etaP^2*Gamma_gamma_min is sufficient and implies strict retained positivity. For0<etaW<5 use U_om<=(etaW/5)^2*Gamma_gamma_min.',\n            'required_model_conditions': 'Keep identical initial rho, retained amplitudes, current/state model, positive transition energy and common normalized radial/time mode or angular-shell space. Do not refit amplitudes/rho or recompute physical time/line-shape/IC channels and claim the same state bound.',\n            'limits': 'Different rho requires an additional D_initial; generic output-support or inverse response requires its own operator audit. Relative nodes, conditional polarization denominators, fitted-parameter confidence intervals and finite-count significance are not controlled.',\n        },\n        'absolute_radiative_branch_lifetime_route': {\n            'identity': 'For an isolated parent with intrinsic exponential mean lifetime tau and complete decay rate inventory: b_rad=T_pair,gamma/T_parent,total is the absolute probability of THIS photon transition per parent decay. Gamma_pair,gamma=hbar*b_rad/tau.',\n            'parent_vs_partial': 'tau refers to all parent decay channels, not just this pair. The photon partial lifetime is tau_gamma=tau/b_rad when b_rad>0. A half-life must first be converted to mean tau=T_half/log(2).',\n            'joint_domain': 'An independently supported jointly feasible set F in0<=b_rad<=1,tau>0 gives Gamma_gamma_min<=hbar*inf_F(b_rad/tau). The infimum must be positive for this route; preserve covariance/constraints rather than assuming marginal extrema are jointly attained.',\n            'rectangle_enclosure': 'If F is enclosed by b_rad>=b_min>0 andtau<=tau_max<infinity, hbar*b_min/tau_max is a conservative positive floor. It is sharp only if that corner belongs to F.',\n            'rectangle_control': {'absolute_b_rad_interval': ['1/10', '3/10'], 'mean_tau_over_tau_ref_interval': ['2', '5'], 'Gamma_over_Gamma_ref_interval': [str(low), str(high)], 'reference_units': 'Gamma_ref=hbar/tau_ref; no physical hbar or time value assigned.'},\n            'correlated_control': {'domain': 'b_rad=tau/(4tau_ref), tau/tau_ref in[1,3]; thus b_rad in[1/4,3/4].', 'Gamma_over_Gamma_ref_exact': '1/4', 'marginal_rectangle_floor': str(envelope_low), 'sample_exact_points': correlated, 'meaning': 'Exact joint constraints can give a stronger floor than an enclosing rectangle; these are teaching constraints, not data confidence sets.'},\n            'not_a_floor': 'A total parent lifetime alone, total deexcitation branch including conversion/E0, or intensity normalized only among observed parent photons does not supply b_rad. Absolute calibration, complete branch inventory and photon/non-gamma decomposition are additional inputs.',\n            'E0_IC_boundary': 'For this same-spin/parity pair E0 electrons can contribute without a photon, and IC from allowed photon multipoles also contributes to total branching. No atomic coefficients or energies are looked up; no measured decomposition is claimed.',\n            'independence': 'An inferred radiative branch using the target M1/E2 truncation or unvalidated ICC/model assumptions is not an independent premise. Model/operator errors must be reconciled with any measured width floor.',\n        },\n        'exact_threshold_controls': {\n            'E2_zero_strict': {'Gamma_gamma_min': '1', 'U_om': '1/5', 'widths_M1_E2_M3_E4': {key: str(value) for key, value in widths.items()}, **text_budget(strict)},\n            'equality': {'Gamma_gamma_min': '1', 'U_om': '1', 'possible_widths': 'Gamma_ret=0,Gamma_om=Gamma_gamma=1', **text_budget(equality)},\n            'excess': {'Gamma_gamma_min': '1', 'U_om': '2', 'possible_widths': 'Gamma_ret=0,Gamma_om=Gamma_gamma=1', **text_budget(excess)},\n            'zero_omission': {'Gamma_gamma_min': '1', 'U_om': '0', **text_budget(zero)},\n            'small_conditional_error': {'Gamma_gamma_min': '1', 'U_om': '1/100', 'probability_ceiling': '1/10', 'W_ceiling': '1/2', **text_budget(small)},\n            'boundary': 'All widths are abstract nonnegative conditional assignments in common reference units; no nuclear wavefunctions/current realizing them or actual physical priors are provided.',\n        },\n        'unknown_E0_failure_family': {\n            'fixed_inputs': 'Mean tau=tau_ref, total pair deexcitation branch1/2 and normalized parent-photon intensity1/2. The true omitted-photon ceiling U_om/Gamma_ref=1/100 holds for all controls.',\n            'symbolic_family': 'For0<t<=1/100, Gamma_pair,gamma/Gamma_ref=t, Gamma_pair,E0/Gamma_ref=1/2-t, Gamma_other,gamma/Gamma_ref=t, Gamma_other,nongamma/Gamma_ref=1/2-t. Retained M1 and omitted M3 each carryt/2; E2=E4=0. Parent total width1 is fixed, target photon fractiont tends to0 and omitted fraction stays1/2.',\n            'false_inference': 'Treating total pair branch1/2 as b_rad would give false Gamma_gamma_min/Gamma_ref=1/2 and falseepsilon_upper=1/50, while actualepsilon=1/2. The missing photon/E0 decomposition is the failure, not a violation of the valid theorem.',\n            'exact_controls': family,\n            'physical_boundary': 'This is a rate-inventory counterfamily compatible with the coarse lifetime/branch/photon-relative information, not a real isotope, atomic E0 coefficient, nuclear current or experimental fit.',\n        },\n        'physical_inputs_not_supplied': ['same-pair independent positive photon-width floor', 'a real complete omitted-current/strength width upper bound', 'actual energy/radius/state/current/moment priors', 'absolute radiative branching and intrinsic mean lifetime joint feasible domain', 'detector counts/calibration/covariance or confidence coverage'],\n        'attribution': 'Source-authored premises are rates, magnetic/electric operators and integrated photon normalization. The width-floor theorem, lifetime/branch inventory, joint-domain envelope and failure family are our conditional reconstruction. No actual truncation, nucleus realization, Human review or paper admission is claimed.',\n        'checks': {'results': checks, 'total_passed': sum(checks.values()), 'failures': 0, 'method': 'Exact standard-library Fraction controls plus explicit analytical inequalities; no software test suite.'},\n        'reproducibility': {'code': CODE_REL, 'script_sha256': digest(code), 'source_code': code.decode(), 'read_only_replay_command': 'python3 ' + CODE_REL,\n                            'exclusive_creation_command': 'python3 ' + CODE_REL + ' --write-receipt', 'default_replay_writes_no_files': True,\n                            'README': README_REL, 'README_sha256': digest(readme) if readme is not None else None,\n                            'write_policy': 'Explicit --write-receipt uses exclusive open x for the one new owned output. Default replay changes no files, including tmp audit outputs.'},\n        'mutations': {'old_receipts_changed': False, 'canonical_report_state_raw_PLAN_Git_changed': False, 'new_source_or_card': False,\n                      'only_allowed_new_receipt': OUT_REL, 'owned_code_and_document_dir': str(Path(CODE_REL).parent)},\n        'stop_reason': 'Bounded alternative route complete: new conditional information gain is a photon-width floor that does not require E2 positive. No actual independent physical prior has been certified.',\n    }\n\n\ndef main():\n    parser = argparse.ArgumentParser(description=__doc__)\n    parser.add_argument('--root', type=Path, default=Path(__file__).resolve().parents[4])\n    parser.add_argument('--write-receipt', action='store_true')\n    args = parser.parse_args()\n    receipt = build_receipt(args.root)\n    if args.write_receipt:\n        with (args.root / OUT_REL).open('x', encoding='utf-8', newline='\\n') as stream:\n            json.dump(receipt, stream, ensure_ascii=False, indent=2)\n            stream.write('\\n')\n    print(json.dumps({'artifact': OUT_REL if args.write_receipt else None, 'status': receipt['status'],\n                      'checks': receipt['checks']['total_passed'], 'strict_example': receipt['exact_threshold_controls']['E2_zero_strict'],\n                      'Gamma_rectangle_floor': receipt['absolute_radiative_branch_lifetime_route']['rectangle_control']['Gamma_over_Gamma_ref_interval'][0],\n                      'unknown_E0_false_floor_counterexample': {'actual_epsilon': '1/2', 'wrong_bound': '1/50'},\n                      'default_replay_writes_no_files': True, 'physical_priors_supplied': False, 'run_closed': False}, ensure_ascii=False, indent=2))\n\n\nif __name__ == '__main__':\n    main()\n",
+    "read_only_replay_command": "python3 tmp/day8-20261007/runtime/total-gamma-width-truncation/total_gamma_width_truncation.py",
+    "exclusive_creation_command": "python3 tmp/day8-20261007/runtime/total-gamma-width-truncation/total_gamma_width_truncation.py --write-receipt",
+    "default_replay_writes_no_files": true,
+    "README": "tmp/day8-20261007/runtime/total-gamma-width-truncation/README.md",
+    "README_sha256": "a33c8bc1040b7f71fa45d31f742893e6afb080d1a83f7840b27b1acdde398f11",
+    "write_policy": "Explicit --write-receipt uses exclusive open x for the one new owned output. Default replay changes no files, including tmp audit outputs."
+  },
+  "mutations": {
+    "old_receipts_changed": false,
+    "canonical_report_state_raw_PLAN_Git_changed": false,
+    "new_source_or_card": false,
+    "only_allowed_new_receipt": "outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/total-gamma-width-truncation.json",
+    "owned_code_and_document_dir": "tmp/day8-20261007/runtime/total-gamma-width-truncation"
+  },
+  "stop_reason": "Bounded alternative route complete: new conditional information gain is a photon-width floor that does not require E2 positive. No actual independent physical prior has been certified."
+}

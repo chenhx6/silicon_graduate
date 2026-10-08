@@ -1,0 +1,415 @@
+{
+  "schema_version": 1,
+  "audit_id": "population-calibration-error-bound-independent-review",
+  "created_at_utc": "2026-10-08T00:52:05.628133+00:00",
+  "status": "reviewed-no-material-findings; conditional-reuse-boundaries-retained",
+  "research_level": "L2",
+  "day_index": 8,
+  "run_closed": false,
+  "human_review": false,
+  "paper_admission": false,
+  "review_actor": "independent lange_kumar_audit subagent; no further delegation",
+  "scope": "One immutable population-calibration packet and existing source/original truncation-density receipts; no new literature, card, nucleus, experiment or L4.",
+  "target": {
+    "path": "outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/population-calibration-error-bound.json",
+    "sha256": "4d2960c1c7f739f9fc1dabb99e00cbd3eb2d56a314195f39b1e9174bdb607015",
+    "script": "tmp/day8-20261007/rose-brink/population-calibration-error-bound/population_calibration_error_bound.py",
+    "script_sha256": "37e33b00dbb5b16c61067301375f2b41b214bb2be1103d48d9216ce6e9450dfb"
+  },
+  "source_locators": [
+    "RB67 printed p316/PDF11 Eq3.24, initial-bra WE ordering and Jones difference/sum: independent CG kernels",
+    "printed p317/PDF12 Eq3.28: population tensors and normalization",
+    "printed p318/PDF13 Eq3.29/3.32: radiative normalization and spin triangle",
+    "printed p319/PDF14 Eq3.36: reference response coefficients; footnote16: measured coefficients need efficiency/attenuation corrections",
+    "printed p320/PDF15 alignment definition and Eq3.41: axial symmetry and reflection equality are distinct assumptions",
+    "printed p321/PDF16 Eqs3.44-3.46: daughter populations differ through the preceding branch",
+    "printed p324/PDF19 particle-particle preparation conditions and final paragraph: population constraints from other branches of the same parent"
+  ],
+  "immutable_inputs": [
+    {
+      "path": "outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/population-calibration-error-bound.json",
+      "sha256": "4d2960c1c7f739f9fc1dabb99e00cbd3eb2d56a314195f39b1e9174bdb607015",
+      "modified": false
+    },
+    {
+      "path": "tmp/day8-20261007/rose-brink/population-calibration-error-bound/population_calibration_error_bound.py",
+      "sha256": "37e33b00dbb5b16c61067301375f2b41b214bb2be1103d48d9216ce6e9450dfb",
+      "modified": false
+    },
+    {
+      "path": "outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/truncation-observable-bound.json",
+      "sha256": "8d836c358937581ae05b9923c2f222938d56cce493c4cb5056299ed550f3cec9",
+      "modified": false
+    },
+    {
+      "path": "outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/finite-rank-density-bound.json",
+      "sha256": "2636cac3929b3b28bb5b29badf5bc9df7e74d7d16378db42cb726d0bbdfe8538",
+      "modified": false
+    },
+    {
+      "path": "outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/parity-duality-cascade.json",
+      "sha256": "2c5bf89474f88af122873d3f71bdabbf562408e514fa36207d5f60b4ecfceda3",
+      "modified": false
+    },
+    {
+      "path": "raw/papers/gpt/high-spin-20260920/multipolarity/mixing ratio/1967_Rose et al_Angular Distributions of Gamma Rays in Terms of Phase-Defined Reduced Matrix Elements.pdf",
+      "sha256": "8f846b61b9320de291ee5600126c5e286a0fe05968df819696816f0dc1ec57dc",
+      "modified": false
+    }
+  ],
+  "summary": {
+    "material_findings": 0,
+    "required_changes": 0,
+    "hard_P0": 0,
+    "grounded_no_op_items": 12,
+    "potential_clarifications": 3,
+    "judgment_basis": "Independent derivations and explicit boundary checks, not producer check count."
+  },
+  "findings": [],
+  "grounded_no_op_items": [
+    {
+      "id": "PCREV-01",
+      "classification": "grounded-no-op",
+      "severity": "none",
+      "topic": "Reproduction and immutability",
+      "producer_json_path": "reproducibility",
+      "producer_code_line": 282,
+      "evidence": "Embedded and disk code bytes/hash agree; inspected result() replay matches stable scientific fields. Default producer reads only. Check counts alone are not the review criterion."
+    },
+    {
+      "id": "PCREV-02",
+      "classification": "grounded-no-op",
+      "severity": "none",
+      "topic": "Reference forward response",
+      "producer_json_path": "hypothetical_reference",
+      "producer_code_line": 218,
+      "evidence": "Independent spin-generator projectors and hand polynomials reproduce W, normalization and the three population vertices. A pureE2 orM2 profile is the same; spin/parity anchors are not inferred from this curve."
+    },
+    {
+      "id": "PCREV-03",
+      "classification": "grounded-no-op",
+      "severity": "none",
+      "topic": "Affine inverse and physical simplex",
+      "producer_json_path": "hypothetical_reference.inverse_p0_p1_p2",
+      "producer_code_line": 115,
+      "evidence": "All three inverse expressions and Jacobian/triangle inequalities are correct within the symmetric-diagonal population model."
+    },
+    {
+      "id": "PCREV-04",
+      "classification": "grounded-no-op",
+      "severity": "none",
+      "topic": "Full covariance propagation",
+      "producer_json_path": "covariance",
+      "producer_code_line": 132,
+      "evidence": "J Sigma_A J^T including A2/A4 covariance is correct, exact for the affine estimator, and has the normalization null direction. Population estimates after clipping are a different estimator."
+    },
+    {
+      "id": "PCREV-05",
+      "classification": "grounded-no-op",
+      "severity": "none",
+      "topic": "Unpolarized versus Jones normalization",
+      "producer_json_path": "mode_kernel_theorem",
+      "producer_code_line": 241,
+      "evidence": "Source CG tensor traces imply G_I/d=I and normalized rank1 Jones G=I/2. Components sum to W; W has sphere average1 and per-steradian density W/(4pi). Components are not each renormalized to unit total."
+    },
+    {
+      "id": "PCREV-06",
+      "classification": "grounded-no-op",
+      "severity": "none",
+      "topic": "Spectral range and trace-zero bound",
+      "producer_json_path": "mode_kernel_theorem.trace_zero_mode_bound",
+      "producer_code_line": 248,
+      "evidence": "Positive-order preservation with independently bounded rho gives alphaI<=G<=betaI. Shifting alphaI gives range*(trace distance), without an extra factor2; the exact2x2 witness verifies it."
+    },
+    {
+      "id": "PCREV-07",
+      "classification": "grounded-no-op",
+      "severity": "none",
+      "topic": "Relative and signed-polarization ratios",
+      "producer_json_path": "mode_kernel_theorem",
+      "producer_code_line": 250,
+      "evidence": "A positive rmin supplies W/component denominators. The optional absoluteP triangle bound and min2 are valid. No relative signedN/P bound follows at a zero."
+    },
+    {
+      "id": "PCREV-08",
+      "classification": "grounded-no-op",
+      "severity": "none",
+      "topic": "Benchmark spectral endpoints",
+      "producer_json_path": "benchmark",
+      "producer_code_line": 140,
+      "evidence": "Independent axis CG kernel matches the packet; (G-15I/16)^2=25I/256 proves eigenvalues5/8,5/4. Independent spin rotation reconstructs the second kernel. No unsupported global sharpness claim is made."
+    },
+    {
+      "id": "PCREV-09",
+      "classification": "grounded-no-op",
+      "severity": "none",
+      "topic": "Axisymmetry and hidden orientation",
+      "producer_json_path": "experimental_independence.symmetry_validation",
+      "producer_code_line": 269,
+      "evidence": "The explicit oriented diagonal density(0,0,1/4,1/4,1/2) in ascending M has the same reference curve but rmin=0. This verifies the packet's existing caveat, not a newly found flaw."
+    },
+    {
+      "id": "PCREV-10",
+      "classification": "grounded-no-op",
+      "severity": "none",
+      "topic": "Confidence floor is conditional",
+      "producer_json_path": "covariance.spectral_floor_uncertainty",
+      "producer_code_line": 237,
+      "evidence": "Covariance, marginal standard errors or a positive central rho do not by themselves give a confidence-certified spectral floor. A covered joint region and independently valid population model are needed; the packet states this."
+    },
+    {
+      "id": "PCREV-11",
+      "classification": "grounded-no-op",
+      "severity": "none",
+      "topic": "Same rho and selection",
+      "producer_json_path": "experimental_independence",
+      "producer_code_line": 265,
+      "evidence": "A common prepared parent/feeding/time/axis/response and the fixed-u tensor rho state class are essential. Downstream gates produce conditional daughter/cascade states; the reference rho and isotropic single-photon rule cannot be transplanted without a matching calculation."
+    },
+    {
+      "id": "PCREV-12",
+      "classification": "grounded-no-op",
+      "severity": "none",
+      "topic": "Scope and independent epsilon input",
+      "producer_json_path": "mode_kernel_theorem.epsilon_input",
+      "producer_code_line": 245,
+      "evidence": "The polarized scalar assertion excludes same-L coherent E/M parity mixing. Reference geometry does not bound omitted target rate or establish amplitude uniqueness, actual calibrated data or finite-count precision."
+    }
+  ],
+  "potential_clarifications": [
+    {
+      "id": "PCREV-C1",
+      "classification": "optional-clarification; no required change",
+      "producer_code_line": 249,
+      "topic": "Repeat the inherited epsilon domain",
+      "detail": "S>0 and retained S_R>0, hence0<=epsilon<1, are explicit in original95 and implicit in retained renormalization here. Repeating them in the new theorem block would prevent applying it at an empty retained projection."
+    },
+    {
+      "id": "PCREV-C2",
+      "classification": "optional-clarification; already qualified",
+      "producer_code_line": 236,
+      "topic": "Joint region intersection versus projection",
+      "detail": "Form the affine image of a region with known simultaneous coverage and intersect with the independently justified physical model. Projecting/clipping only the estimate is not a replacement and needs its own distribution/coverage. Existing nonlinear and confidence caveats already avoid an unsupported floor."
+    },
+    {
+      "id": "PCREV-C3",
+      "classification": "outside-current-common-rho theorem; no required change",
+      "producer_code_line": 255,
+      "topic": "Prediction using rho_hat",
+      "detail": "Applying a central reference estimate to target predictions introduces an additional population-estimation/model term if true rho differs. The packet explicitly requires a separate term and does not quantify it. The current common-rho truncation theorem remains valid."
+    }
+  ],
+  "independent_method": "Fraction hand profiles, inverse and covariance; spin2 Jy spectral-projector rotation instead of producer half-angle conversion; source-CG angular tensor trace Gram; exact centered-range witness; explicit orientation and joint-region controls.",
+  "hand_checkable_controls": {
+    "three_reference_vertex_profiles": {
+      "p0=1": "15(c^2-c^4)/2",
+      "p1=1": "5c^4-15c^2/4+5/4",
+      "p2=1": "5(1-c^4)/4"
+    },
+    "vertex_A2_A4": [
+      [
+        "5/7",
+        "-12/7"
+      ],
+      [
+        "5/14",
+        "8/7"
+      ],
+      [
+        "-5/7",
+        "-2/7"
+      ]
+    ],
+    "covariance_control": {
+      "Sigma_A": [
+        [
+          "1/100",
+          "1/200"
+        ],
+        [
+          "1/200",
+          "1/100"
+        ]
+      ],
+      "Sigma_p": [
+        [
+          "13/10000",
+          "3/5000",
+          "-19/10000"
+        ],
+        [
+          "3/5000",
+          "3/625",
+          "-27/5000"
+        ],
+        [
+          "-19/10000",
+          "-27/5000",
+          "73/10000"
+        ]
+      ],
+      "equivalent_integer_matrix": "(1/10000)*[[13,6,-19],[6,48,-54],[-19,-54,73]]",
+      "negative_correlation_population_variances": [
+        "37/10000",
+        "1/625",
+        "57/10000"
+      ],
+      "boundary": "Synthetic algebra inputs, not experimental uncertainties or a confidence certificate."
+    },
+    "source_axis_Gram": [
+      [
+        "15/16",
+        "sqrt(105)/112",
+        "0",
+        "sqrt(70)/28"
+      ],
+      [
+        "sqrt(105)/112",
+        "15/16",
+        "sqrt(70)/28",
+        "0"
+      ],
+      [
+        "0",
+        "sqrt(70)/28",
+        "15/16",
+        "-sqrt(105)/112"
+      ],
+      [
+        "sqrt(70)/28",
+        "0",
+        "-sqrt(105)/112",
+        "15/16"
+      ]
+    ],
+    "source_tensor_scalar_trace_controls": 576,
+    "range_witness": {
+      "kind": "Abstract2x2 operator/mode-density identity check; no new nuclear case or physically attainable-kernel claim",
+      "epsilon": "1/4",
+      "D_mode": "1/2",
+      "alpha": "5/8",
+      "beta": "5/4",
+      "DeltaW": "5/16",
+      "W_retained": "25/32",
+      "W_full": "35/32",
+      "relative_actual": "2/5",
+      "relative_ceiling": "1/2"
+    },
+    "orientation_countercontrol": {
+      "M_order": [
+        -2,
+        -1,
+        0,
+        1,
+        2
+      ],
+      "rho_diagonal": [
+        "0",
+        "0",
+        "1/4",
+        "1/4",
+        "1/2"
+      ],
+      "reference_A2": "-5/56",
+      "reference_A4": "-2/7",
+      "rmin": "0",
+      "interpretation": "Same even reference coefficients and axisymmetric diagonal form do not independently prove reflection symmetry or a positive full-density floor."
+    },
+    "covered_rectangle_if_supplied": {
+      "center_A2": "-5/56",
+      "center_A4": "-2/7",
+      "halfwidth": "1/16",
+      "rmin_lower": "1/10",
+      "rmax_upper": "47/160",
+      "boundary_halfwidth": "5/16",
+      "physical_boundary_population": [
+        "7/32",
+        "0",
+        "25/32"
+      ],
+      "boundary_rmin_lower": "0",
+      "coverage_boundary": "A hypothetical simultaneous bounded region. Ordinary error bars or covariance do not provide its coverage. Known marginal coverage could support a conservative union-bound joint region, but that is additional coverage information not supplied here."
+    }
+  },
+  "proof_and_reuse_notes": {
+    "range_proof": "Given alphaI<=G<=betaI and trace-zero mode differenceDelta, E=(G-alphaI)/(beta-alpha) is an effect. |Tr G Delta|=(beta-alpha)|Tr E Delta|<=(beta-alpha)D_mode; D_mode=sqrt(epsilon) for coherent nonempty retained projection.",
+    "rho_order_proof": "For positiveDelta_rho, Tr[Delta_rho Tu^dagger Tu]>=0. Together with G_I/d=I this gives drminI<=G_rho<=drmaxI. No complete-positivity assertion for the spin-to-mode dual map is required.",
+    "polarization": "A fixed trace-one Jones projector has isotropic kernelI/2 and half range/floor. Ix+Iy=W, so the signed numerator has the full range bound. Positive denominators give the stated absoluteP triangle bound; no relative bound exists at signed zero.",
+    "confidence": "A certified floor requires actual simultaneous parameter/nuisance coverage and independent validity of the symmetric-diagonal density model. A positive reference-fit center, arbitraryGaussian prior or marginal standard-error display does not establish these premises.",
+    "same_selection": "Same prepared parent is not enough if downstream angle/polarization/decay-time gates condition on a different daughter state or cascade observable. The theorem compares one fixed-u product state and the same rho.",
+    "inference_layer": "All controls and inequalities here are our reviewer algebra. The source supplies amplitudes/tensors/normalization and preparation context; it does not directly report these confidence or spectral error theorems."
+  },
+  "producer_replay": {
+    "embedded_semantic_match": true,
+    "checks_returned": 96,
+    "failures": 0,
+    "count_not_review_criterion": true
+  },
+  "checks": {
+    "passed_by_group": {
+      "Fraction_benchmark_inverse": 1,
+      "Fraction_covariance_null_direction": 1,
+      "Fraction_covariance_offdiagonal_matters": 1,
+      "Fraction_covariance_positive_correlation": 1,
+      "Fraction_inverse_vertex_roundtrips": 1,
+      "Fraction_three_reference_profiles_normalized": 1,
+      "Fraction_three_simplex_vertices": 1,
+      "axis_center_and_zero_trace": 1,
+      "axis_eigenvalues_hand_square": 1,
+      "axisymmetric_oriented_same_reference_curve": 1,
+      "independent_J_matches_packet": 1,
+      "independent_Jy_spectral_projector": 5,
+      "independent_axis_kernel_matches_packet": 1,
+      "independent_reference_polynomial_matches_packet": 1,
+      "independent_source_generator_profiles_match_hand": 1,
+      "independent_spin_rotation_kernel_matches_packet": 1,
+      "independent_spin_rotation_unitary": 1,
+      "joint_rectangle_boundary_loses_floor": 1,
+      "known_joint_rectangle_positive_floor": 1,
+      "normalization_per_steradian_in_original329": 1,
+      "oriented_reference_rmin_zero": 1,
+      "polarized_iso_normalization_half": 3,
+      "producer_embedded_disk_code_identity": 1,
+      "producer_embedded_semantic_results_match": 1,
+      "producer_replayed_check_results_match": 1,
+      "protected_identity_after": 6,
+      "protected_identity_before": 6,
+      "range_bound_without_extra_factor_two": 1,
+      "range_witness_Pplus_projector": 1,
+      "range_witness_delta_squared": 1,
+      "rank1_half_range_bookkeeping": 1,
+      "rectangle_corners_physically_in_simplex": 1,
+      "relative_bound_exact_witness": 1,
+      "retained_nonempty_domain_in_original95": 1,
+      "source_tensor_Hilbert_Schmidt_trace_orthogonality": 1,
+      "symbolic_full_covariance_matches_packet": 1,
+      "target_identity": 1,
+      "unpolarized_iso_normalization_one": 1
+    },
+    "total_passed": 54,
+    "failures": 0
+  },
+  "actual_commands": [
+    "python3 tmp/day8-20261007/rose-brink/population-calibration-error-bound/population_calibration_error_bound.py",
+    "python3 tmp/day8-20261007/lange-kumar/population-calibration-error-bound-review/population_calibration_review.py",
+    "python3 tmp/day8-20261007/lange-kumar/population-calibration-error-bound-review/population_calibration_review.py --write-review",
+    "git diff --check -- tmp/day8-20261007/lange-kumar/population-calibration-error-bound-review/population_calibration_review.py outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/population-calibration-error-bound-review.json"
+  ],
+  "changed_paths": [
+    "tmp/day8-20261007/lange-kumar/population-calibration-error-bound-review/population_calibration_review.py",
+    "outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/population-calibration-error-bound-review.json"
+  ],
+  "reproducibility": {
+    "code": "tmp/day8-20261007/lange-kumar/population-calibration-error-bound-review/population_calibration_review.py",
+    "script_sha256": "f4f6ed337cbab313a9e79bca8584546e215429ba3f22ee137cdef9ad1e93a98d",
+    "source_code": "#!/usr/bin/env python3\n\"\"\"Independent read-only scientific review of the Day8 population packet.\n\nFraction hand polynomials/inversion/covariance, independent spin-generator\nprojectors, source CG tensor traces, and exact range/floor controls supplement\nthe inspected producer's embedded replay. No producer helper is used in the\nindependent calculations. Only --write-review exclusively creates a new review.\n\"\"\"\n\nfrom __future__ import annotations\n\nimport argparse\nfrom collections import Counter\nfrom datetime import datetime, timezone\nfrom fractions import Fraction as F\nimport hashlib\nimport json\nfrom pathlib import Path\nimport sys\n\nsys.dont_write_bytecode=True\nCODE_REL=\"tmp/day8-20261007/lange-kumar/population-calibration-error-bound-review/population_calibration_review.py\"\nRUN_REL=\"outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01\"\nTARGET_REL=RUN_REL+\"/population-calibration-error-bound.json\"\nTARGET_SHA=\"4d2960c1c7f739f9fc1dabb99e00cbd3eb2d56a314195f39b1e9174bdb607015\"\nREVIEW_REL=RUN_REL+\"/population-calibration-error-bound-review.json\"\nTRUNC_REL=RUN_REL+\"/truncation-observable-bound.json\"\nTRUNC_SHA=\"8d836c358937581ae05b9923c2f222938d56cce493c4cb5056299ed550f3cec9\"\nFINITE_REL=RUN_REL+\"/finite-rank-density-bound.json\"\nFINITE_SHA=\"2636cac3929b3b28bb5b29badf5bc9df7e74d7d16378db42cb726d0bbdfe8538\"\n\n\ndef digest(path):return hashlib.sha256(path.read_bytes()).hexdigest()\n\n\ndef build_review(root):\n    deps=\"tmp/day8-20261007/rose-brink/python-deps\"\n    sys.path.insert(0,str(root/deps))\n    import sympy as sp\n    from sympy.physics.wigner import clebsch_gordan\n    counts=Counter()\n    def check(name,condition):\n        if not bool(condition):raise AssertionError(name)\n        counts[name]+=1\n    def eq(a,b):return sp.simplify(a-b)==0\n    def st(e):return str(sp.factor(sp.simplify(e)))\n    def sm(m):return [[st(m[i,j]) for j in range(m.cols)] for i in range(m.rows)]\n    def FM(v):return [[str(x) for x in row] for row in v]\n\n    packet=json.loads((root/TARGET_REL).read_text(encoding=\"utf-8\"))\n    check(\"target_identity\",digest(root/TARGET_REL)==TARGET_SHA)\n    producer_rel=packet[\"reproducibility\"][\"script_path\"]\n    producer_code=packet[\"reproducibility\"][\"source_code\"]\n    producer_sha=packet[\"reproducibility\"][\"script_sha256\"]\n    check(\"producer_embedded_disk_code_identity\",digest(root/producer_rel)==producer_sha==hashlib.sha256(producer_code.encode()).hexdigest())\n    protected={TARGET_REL:TARGET_SHA,producer_rel:producer_sha,TRUNC_REL:TRUNC_SHA,FINITE_REL:FINITE_SHA}\n    for x in packet[\"inputs\"]:protected[x[\"path\"]]=x[\"sha256\"]\n    protected[packet[\"source\"][\"raw_path\"]]=packet[\"source\"][\"raw_sha256\"]\n    for rel,sha in protected.items():check(\"protected_identity_before\",digest(root/rel)==sha)\n    old95=json.loads((root/TRUNC_REL).read_text(encoding=\"utf-8\"))\n    old329=json.loads((root/FINITE_REL).read_text(encoding=\"utf-8\"))\n    check(\"retained_nonempty_domain_in_original95\",any(\"S_R>0\" in x and \"epsilon_rate<1\" in x for x in old95[\"assumptions\"]))\n    check(\"normalization_per_steradian_in_original329\",\"W/(4pi)\" in old329[\"absolute_density_error\"][\"units_and_normalization\"])\n\n    # Operational replay after manual inspection of all producer code. The\n    # result() factory reads only; __main__ and --write-receipt never execute.\n    g={\"__name__\":\"_inspected_producer_embedded_replay\",\"__file__\":str(root/producer_rel)}\n    exec(compile(producer_code,str(root/producer_rel),\"exec\"),g)\n    replay=g[\"result\"]()\n    stable=[\"hypothetical_reference\",\"covariance\",\"mode_kernel_theorem\",\"benchmark\",\"experimental_independence\"]\n    check(\"producer_embedded_semantic_results_match\",all(replay[k]==packet[k] for k in stable))\n    check(\"producer_replayed_check_results_match\",replay[\"checks\"][\"results\"]==packet[\"checks\"][\"results\"])\n\n    # Independent exact hand profiles for the three symmetric population\n    # vertices; coefficients are increasing powers 1,c,c^2,c^3,c^4.\n    hand_profiles=[\n        [F(0),F(0),F(15,2),F(0),F(-15,2)],\n        [F(5,4),F(0),F(-15,4),F(0),F(5)],\n        [F(5,4),F(0),F(0),F(0),F(-5,4)],\n    ]\n    def mean_poly(poly):return sum(v/F(i+1) for i,v in enumerate(poly) if i%2==0)\n    def coeff_A(poly):\n        a4=F(8,35)*poly[4]\n        a2=F(2,3)*(poly[2]+F(15,4)*a4)\n        return a2,a4\n    def inverse(a2,a4):return [F(1,5)+F(2,5)*a2-F(3,10)*a4,F(2,5)+F(2,5)*(a2+a4),F(2,5)-F(4,5)*a2-F(1,10)*a4]\n    vertices=[coeff_A(x) for x in hand_profiles]\n    check(\"Fraction_three_reference_profiles_normalized\",all(mean_poly(x)==1 for x in hand_profiles))\n    check(\"Fraction_three_simplex_vertices\",vertices==[(F(5,7),F(-12,7)),(F(5,14),F(8,7)),(F(-5,7),F(-2,7))])\n    check(\"Fraction_inverse_vertex_roundtrips\",all(inverse(*v)==[F(int(i==j)) for i in range(3)] for j,v in enumerate(vertices)))\n    Ahat=(F(-5,56),F(-2,7)); phat=inverse(*Ahat)\n    check(\"Fraction_benchmark_inverse\",phat==[F(1,4),F(1,4),F(1,2)])\n    J=[[F(2,5),F(-3,10)],[F(2,5),F(2,5)],[F(-4,5),F(-1,10)]]\n    def cov_transform(cov):return [[sum(J[i][a]*cov[a][b]*J[j][b] for a in range(2) for b in range(2)) for j in range(3)] for i in range(3)]\n    Cplus=[[F(1,100),F(1,200)],[F(1,200),F(1,100)]]\n    Cminus=[[F(1,100),F(-1,200)],[F(-1,200),F(1,100)]]\n    Cpopplus=cov_transform(Cplus); Cpopminus=cov_transform(Cminus)\n    hand_Cplus=[[F(x,10000) for x in row] for row in [[13,6,-19],[6,48,-54],[-19,-54,73]]]\n    check(\"Fraction_covariance_positive_correlation\",Cpopplus==hand_Cplus)\n    check(\"Fraction_covariance_null_direction\",all(sum(row)==0 for row in Cpopplus))\n    check(\"Fraction_covariance_offdiagonal_matters\",[Cpopplus[i][i] for i in range(3)]==[F(13,10000),F(48,10000),F(73,10000)] and [Cpopminus[i][i] for i in range(3)]==[F(37,10000),F(16,10000),F(57,10000)])\n    producer_J=sp.Matrix([[sp.sympify(v) for v in row] for row in packet[\"hypothetical_reference\"][\"Jacobian_p_from_A\"]])\n    check(\"independent_J_matches_packet\",producer_J==sp.Matrix(J))\n    va,co,vb=sp.symbols(\"var_A2 cov_A2_A4 var_A4\",real=True)\n    packet_C=sp.Matrix([[sp.sympify(v,locals={str(va):va,str(co):co,str(vb):vb}) for v in row] for row in packet[\"covariance\"][\"Sigma_p_symbolic\"]])\n    independent_C=sp.Matrix(J)*sp.Matrix([[va,co],[co,vb]])*sp.Matrix(J).T\n    check(\"symbolic_full_covariance_matches_packet\",all(eq(a,b) for a,b in zip(packet_C,independent_C)))\n\n    # Construct source spin2 rotations through Jy spectral projectors, avoiding\n    # producer's half-angle polynomial conversion and wigner_d_small helper.\n    M=[2,1,0,-1,-2]; c,s=sp.symbols(\"c s\",real=True)\n    Jplus=sp.zeros(5)\n    for col,m in enumerate(M):\n        if m<2:Jplus[M.index(m+1),col]=sp.sqrt(6-m*(m+1))\n    Jy=(Jplus-Jplus.T)/(2*sp.I)\n    phases={0:sp.Integer(1),1:c-sp.I*s,-1:c+sp.I*s,2:2*c*c-1-2*sp.I*c*s,-2:2*c*c-1+2*sp.I*c*s}\n    D=sp.zeros(5)\n    for k in range(-2,3):\n        projector=sp.eye(5)\n        for n in range(-2,3):\n            if n!=k:projector=projector*(Jy-n*sp.eye(5))/(k-n)\n        check(\"independent_Jy_spectral_projector\",all(eq(a,b) for a,b in zip(projector*projector,projector)))\n        D+=phases[k]*projector\n    D=D.applyfunc(sp.simplify)\n    def sphere(e):return sp.Poly(sp.expand(e),s).rem(sp.Poly(s*s+c*c-1,s)).as_expr().expand()\n    check(\"independent_spin_rotation_unitary\",all(eq(sphere(a),b) for a,b in zip(D.conjugate().T*D,sp.eye(5))))\n    derived_profiles=[]\n    for rows in [[0],[1,-1],[2,-2]]:\n        row_weight=F(1) if rows==[0] else F(1,2)\n        profile=sphere(sp.Rational(5,2)*row_weight*sum(D[M.index(m),M.index(q)]**2 for m in rows for q in [-1,1]))\n        derived_profiles.append(profile)\n    check(\"independent_source_generator_profiles_match_hand\",all(eq(poly,sum(sp.Rational(v.numerator,v.denominator)*c**i for i,v in enumerate(hand))) for poly,hand in zip(derived_profiles,hand_profiles)))\n    p0,p1=sp.symbols(\"p0 p1\",real=True)\n    Wref=sp.expand(p0*derived_profiles[0]+p1*derived_profiles[1]+(1-p0-p1)*derived_profiles[2])\n    check(\"independent_reference_polynomial_matches_packet\",eq(Wref,sp.sympify(packet[\"hypothetical_reference\"][\"W_reference\"],locals={\"cos_theta\":c,\"p0\":p0,\"p1\":p1})))\n\n    # Source angular tensor operators, independently assembled initial->final.\n    A={}\n    for L in range(1,5):\n        for m in range(-L,L+1):\n            A[L,m]=sp.Matrix(5,5,lambda f,i:sp.sqrt(2*L+1)*clebsch_gordan(2,L,2,M[f],m,M[i]) if M[i]==M[f]+m else 0)\n    trace_results=[]\n    for (L,m),T in A.items():\n        for (Lp,mp),Tp in A.items():\n            trace_results.append(eq(sp.trace(T.conjugate().T*Tp),5 if (L,m)==(Lp,mp) else 0))\n    check(\"source_tensor_Hilbert_Schmidt_trace_orthogonality\",all(trace_results))\n    Taxis={(L,q):q**(L%2)*A[L,q] for L in range(1,5) for q in [-1,1]}\n    def kernel(rho,j=None):\n        K=sp.zeros(4)\n        for L in range(1,5):\n            for Lp in range(1,5):\n                if j is None:\n                    value=sum(sp.trace(rho*Taxis[L,q].conjugate().T*Taxis[Lp,q]) for q in [-1,1])/2\n                else:\n                    O=sum((sp.conjugate(j[i])*Taxis[L,q] for i,q in enumerate([-1,1])),sp.zeros(5))\n                    Op=sum((sp.conjugate(j[i])*Taxis[Lp,q] for i,q in enumerate([-1,1])),sp.zeros(5))\n                    value=sp.trace(rho*O.conjugate().T*Op)/2\n                K[L-1,Lp-1]=sp.simplify(value)\n        return K\n    rho=sp.diag(sp.Rational(1,4),sp.Rational(1,8),sp.Rational(1,4),sp.Rational(1,8),sp.Rational(1,4))\n    G=kernel(rho); Gi=kernel(sp.eye(5)/5)\n    axis_packet=sp.Matrix([[sp.sympify(x) for x in row] for row in packet[\"benchmark\"][\"matrices_and_exact_eigen_controls\"][\"axis\"][\"G_rho\"]])\n    check(\"independent_axis_kernel_matches_packet\",G==axis_packet)\n    check(\"unpolarized_iso_normalization_one\",Gi==sp.eye(4))\n    for jvec in [sp.Matrix([1,0]),sp.Matrix([1,-1])/sp.sqrt(2),sp.Matrix([1,sp.I])/sp.sqrt(2)]:\n        check(\"polarized_iso_normalization_half\",kernel(sp.eye(5)/5,jvec)==sp.eye(4)/2)\n    N=G-sp.Rational(15,16)*sp.eye(4)\n    check(\"axis_eigenvalues_hand_square\",all(eq(a,b) for a,b in zip(N*N,sp.Rational(25,256)*sp.eye(4))))\n    check(\"axis_center_and_zero_trace\",sp.trace(N)==0)\n    D60=D.subs({c:sp.Rational(1,2),s:sp.sqrt(3)/2}).applyfunc(sp.simplify)\n    rho60=(D60.conjugate().T*rho*D60).applyfunc(sp.simplify)\n    G60=kernel(rho60)\n    rot_packet=sp.Matrix([[sp.sympify(x) for x in row] for row in packet[\"benchmark\"][\"matrices_and_exact_eigen_controls\"][\"rotated_once\"][\"G_rho\"]])\n    check(\"independent_spin_rotation_kernel_matches_packet\",G60==rot_packet)\n\n    # The general range proof is shifted-effect trace duality, not2*norm*D.\n    alpha,beta=sp.Rational(5,8),sp.Rational(5,4)\n    delta=sp.Matrix([[-sp.Rational(1,4),sp.sqrt(3)/4],[sp.sqrt(3)/4,sp.Rational(1,4)]])\n    Pplus=sp.eye(2)/2+delta\n    Gw=alpha*sp.eye(2)+(beta-alpha)*Pplus\n    check(\"range_witness_delta_squared\",delta*delta==sp.eye(2)/4)\n    check(\"range_witness_Pplus_projector\",Pplus*Pplus==Pplus)\n    check(\"range_bound_without_extra_factor_two\",eq(sp.trace(Gw*delta),(beta-alpha)/2))\n    Wret=Gw[0,0]; Wfull=Wret+sp.trace(Gw*delta)\n    check(\"relative_bound_exact_witness\",eq((Wfull-Wret)/Wret,sp.Rational(2,5)) and (Wfull-Wret)/Wret<=(beta-alpha)/alpha/2)\n    check(\"rank1_half_range_bookkeeping\",(beta-alpha)/2==sp.Rational(5,16) and alpha/2==sp.Rational(5,16))\n\n    # Same unpolarized reference but an axisymmetric oriented diagonal rho\n    # with zero eigenvalues: pair totals and all even coefficients are identical.\n    oriented_weights={-2:F(0),-1:F(0),0:F(1,4),1:F(1,4),2:F(1,2)}\n    oriented_ref=sphere(sp.Rational(5,2)*sum(sp.Rational(w.numerator,w.denominator)*D[M.index(m),M.index(q)]**2 for m,w in oriented_weights.items() for q in [-1,1]))\n    symmetric_ref=Wref.subs({p0:sp.Rational(1,4),p1:sp.Rational(1,4)})\n    check(\"axisymmetric_oriented_same_reference_curve\",eq(oriented_ref,symmetric_ref))\n    check(\"oriented_reference_rmin_zero\",min(oriented_weights.values())==0 and oriented_weights[1]!=oriented_weights[-1])\n\n    # Hypothetical simultaneous rectangle, not unspecified one-sigma bars.\n    def rectangle_bounds(h):\n        corners=[inverse(Ahat[0]+s2*h,Ahat[1]+s4*h) for s2 in [-1,1] for s4 in [-1,1]]\n        rlower=min(min(v[0],v[1]/2,v[2]/2) for v in corners)\n        rupper=max(max(v[0],v[1]/2,v[2]/2) for v in corners)\n        return rlower,rupper,corners\n    small_lo,small_hi,small_corners=rectangle_bounds(F(1,16))\n    check(\"known_joint_rectangle_positive_floor\",small_lo==F(1,10) and small_hi==F(47,160))\n    edge_lo,edge_hi,edge_corners=rectangle_bounds(F(5,16))\n    check(\"joint_rectangle_boundary_loses_floor\",edge_lo==0 and inverse(Ahat[0]-F(5,16),Ahat[1]-F(5,16))==[F(7,32),F(0),F(25,32)])\n    check(\"rectangle_corners_physically_in_simplex\",all(all(p>=0 for p in v) and sum(v)==1 for v in small_corners+edge_corners))\n    for rel,sha in protected.items():check(\"protected_identity_after\",digest(root/rel)==sha)\n\n    noop_specs=[\n        (\"PCREV-01\",\"Reproduction and immutability\",\"reproducibility\",282,\"Embedded and disk code bytes/hash agree; inspected result() replay matches stable scientific fields. Default producer reads only. Check counts alone are not the review criterion.\"),\n        (\"PCREV-02\",\"Reference forward response\",\"hypothetical_reference\",218,\"Independent spin-generator projectors and hand polynomials reproduce W, normalization and the three population vertices. A pureE2 orM2 profile is the same; spin/parity anchors are not inferred from this curve.\"),\n        (\"PCREV-03\",\"Affine inverse and physical simplex\",\"hypothetical_reference.inverse_p0_p1_p2\",115,\"All three inverse expressions and Jacobian/triangle inequalities are correct within the symmetric-diagonal population model.\"),\n        (\"PCREV-04\",\"Full covariance propagation\",\"covariance\",132,\"J Sigma_A J^T including A2/A4 covariance is correct, exact for the affine estimator, and has the normalization null direction. Population estimates after clipping are a different estimator.\"),\n        (\"PCREV-05\",\"Unpolarized versus Jones normalization\",\"mode_kernel_theorem\",241,\"Source CG tensor traces imply G_I/d=I and normalized rank1 Jones G=I/2. Components sum to W; W has sphere average1 and per-steradian density W/(4pi). Components are not each renormalized to unit total.\"),\n        (\"PCREV-06\",\"Spectral range and trace-zero bound\",\"mode_kernel_theorem.trace_zero_mode_bound\",248,\"Positive-order preservation with independently bounded rho gives alphaI<=G<=betaI. Shifting alphaI gives range*(trace distance), without an extra factor2; the exact2x2 witness verifies it.\"),\n        (\"PCREV-07\",\"Relative and signed-polarization ratios\",\"mode_kernel_theorem\",250,\"A positive rmin supplies W/component denominators. The optional absoluteP triangle bound and min2 are valid. No relative signedN/P bound follows at a zero.\"),\n        (\"PCREV-08\",\"Benchmark spectral endpoints\",\"benchmark\",140,\"Independent axis CG kernel matches the packet; (G-15I/16)^2=25I/256 proves eigenvalues5/8,5/4. Independent spin rotation reconstructs the second kernel. No unsupported global sharpness claim is made.\"),\n        (\"PCREV-09\",\"Axisymmetry and hidden orientation\",\"experimental_independence.symmetry_validation\",269,\"The explicit oriented diagonal density(0,0,1/4,1/4,1/2) in ascending M has the same reference curve but rmin=0. This verifies the packet's existing caveat, not a newly found flaw.\"),\n        (\"PCREV-10\",\"Confidence floor is conditional\",\"covariance.spectral_floor_uncertainty\",237,\"Covariance, marginal standard errors or a positive central rho do not by themselves give a confidence-certified spectral floor. A covered joint region and independently valid population model are needed; the packet states this.\"),\n        (\"PCREV-11\",\"Same rho and selection\",\"experimental_independence\",265,\"A common prepared parent/feeding/time/axis/response and the fixed-u tensor rho state class are essential. Downstream gates produce conditional daughter/cascade states; the reference rho and isotropic single-photon rule cannot be transplanted without a matching calculation.\"),\n        (\"PCREV-12\",\"Scope and independent epsilon input\",\"mode_kernel_theorem.epsilon_input\",245,\"The polarized scalar assertion excludes same-L coherent E/M parity mixing. Reference geometry does not bound omitted target rate or establish amplitude uniqueness, actual calibrated data or finite-count precision.\"),\n    ]\n    noops=[{\"id\":i,\"classification\":\"grounded-no-op\",\"severity\":\"none\",\"topic\":topic,\"producer_json_path\":field,\"producer_code_line\":line,\"evidence\":evidence} for i,topic,field,line,evidence in noop_specs]\n    potential=[\n        {\"id\":\"PCREV-C1\",\"classification\":\"optional-clarification; no required change\",\"producer_code_line\":249,\"topic\":\"Repeat the inherited epsilon domain\",\"detail\":\"S>0 and retained S_R>0, hence0<=epsilon<1, are explicit in original95 and implicit in retained renormalization here. Repeating them in the new theorem block would prevent applying it at an empty retained projection.\"},\n        {\"id\":\"PCREV-C2\",\"classification\":\"optional-clarification; already qualified\",\"producer_code_line\":236,\"topic\":\"Joint region intersection versus projection\",\"detail\":\"Form the affine image of a region with known simultaneous coverage and intersect with the independently justified physical model. Projecting/clipping only the estimate is not a replacement and needs its own distribution/coverage. Existing nonlinear and confidence caveats already avoid an unsupported floor.\"},\n        {\"id\":\"PCREV-C3\",\"classification\":\"outside-current-common-rho theorem; no required change\",\"producer_code_line\":255,\"topic\":\"Prediction using rho_hat\",\"detail\":\"Applying a central reference estimate to target predictions introduces an additional population-estimation/model term if true rho differs. The packet explicitly requires a separate term and does not quantify it. The current common-rho truncation theorem remains valid.\"},\n    ]\n    codepath=Path(__file__).resolve()\n    return {\n        \"schema_version\":1,\"audit_id\":\"population-calibration-error-bound-independent-review\",\n        \"created_at_utc\":datetime.now(timezone.utc).isoformat(),\n        \"status\":\"reviewed-no-material-findings; conditional-reuse-boundaries-retained\",\n        \"research_level\":\"L2\",\"day_index\":8,\"run_closed\":False,\"human_review\":False,\"paper_admission\":False,\n        \"review_actor\":\"independent lange_kumar_audit subagent; no further delegation\",\n        \"scope\":\"One immutable population-calibration packet and existing source/original truncation-density receipts; no new literature, card, nucleus, experiment or L4.\",\n        \"target\":{\"path\":TARGET_REL,\"sha256\":TARGET_SHA,\"script\":producer_rel,\"script_sha256\":producer_sha},\n        \"source_locators\":[\n            \"RB67 printed p316/PDF11 Eq3.24, initial-bra WE ordering and Jones difference/sum: independent CG kernels\",\n            \"printed p317/PDF12 Eq3.28: population tensors and normalization\",\n            \"printed p318/PDF13 Eq3.29/3.32: radiative normalization and spin triangle\",\n            \"printed p319/PDF14 Eq3.36: reference response coefficients; footnote16: measured coefficients need efficiency/attenuation corrections\",\n            \"printed p320/PDF15 alignment definition and Eq3.41: axial symmetry and reflection equality are distinct assumptions\",\n            \"printed p321/PDF16 Eqs3.44-3.46: daughter populations differ through the preceding branch\",\n            \"printed p324/PDF19 particle-particle preparation conditions and final paragraph: population constraints from other branches of the same parent\",\n        ],\n        \"immutable_inputs\":[{\"path\":rel,\"sha256\":sha,\"modified\":False} for rel,sha in protected.items()],\n        \"summary\":{\"material_findings\":0,\"required_changes\":0,\"hard_P0\":0,\"grounded_no_op_items\":len(noops),\"potential_clarifications\":len(potential),\"judgment_basis\":\"Independent derivations and explicit boundary checks, not producer check count.\"},\n        \"findings\":[],\"grounded_no_op_items\":noops,\"potential_clarifications\":potential,\n        \"independent_method\":\"Fraction hand profiles, inverse and covariance; spin2 Jy spectral-projector rotation instead of producer half-angle conversion; source-CG angular tensor trace Gram; exact centered-range witness; explicit orientation and joint-region controls.\",\n        \"hand_checkable_controls\":{\n            \"three_reference_vertex_profiles\":{\"p0=1\":\"15(c^2-c^4)/2\",\"p1=1\":\"5c^4-15c^2/4+5/4\",\"p2=1\":\"5(1-c^4)/4\"},\n            \"vertex_A2_A4\":[[str(a),str(b)] for a,b in vertices],\n            \"covariance_control\":{\"Sigma_A\":[[\"1/100\",\"1/200\"],[\"1/200\",\"1/100\"]],\"Sigma_p\":FM(Cpopplus),\"equivalent_integer_matrix\":\"(1/10000)*[[13,6,-19],[6,48,-54],[-19,-54,73]]\",\"negative_correlation_population_variances\":[str(Cpopminus[i][i]) for i in range(3)],\"boundary\":\"Synthetic algebra inputs, not experimental uncertainties or a confidence certificate.\"},\n            \"source_axis_Gram\":sm(G),\"source_tensor_scalar_trace_controls\":len(trace_results),\n            \"range_witness\":{\"kind\":\"Abstract2x2 operator/mode-density identity check; no new nuclear case or physically attainable-kernel claim\",\"epsilon\":\"1/4\",\"D_mode\":\"1/2\",\"alpha\":\"5/8\",\"beta\":\"5/4\",\"DeltaW\":\"5/16\",\"W_retained\":\"25/32\",\"W_full\":\"35/32\",\"relative_actual\":\"2/5\",\"relative_ceiling\":\"1/2\"},\n            \"orientation_countercontrol\":{\"M_order\":[-2,-1,0,1,2],\"rho_diagonal\":[\"0\",\"0\",\"1/4\",\"1/4\",\"1/2\"],\"reference_A2\":\"-5/56\",\"reference_A4\":\"-2/7\",\"rmin\":\"0\",\"interpretation\":\"Same even reference coefficients and axisymmetric diagonal form do not independently prove reflection symmetry or a positive full-density floor.\"},\n            \"covered_rectangle_if_supplied\":{\"center_A2\":\"-5/56\",\"center_A4\":\"-2/7\",\"halfwidth\":\"1/16\",\"rmin_lower\":str(small_lo),\"rmax_upper\":str(small_hi),\"boundary_halfwidth\":\"5/16\",\"physical_boundary_population\":[\"7/32\",\"0\",\"25/32\"],\"boundary_rmin_lower\":\"0\",\"coverage_boundary\":\"A hypothetical simultaneous bounded region. Ordinary error bars or covariance do not provide its coverage. Known marginal coverage could support a conservative union-bound joint region, but that is additional coverage information not supplied here.\"},\n        },\n        \"proof_and_reuse_notes\":{\n            \"range_proof\":\"Given alphaI<=G<=betaI and trace-zero mode differenceDelta, E=(G-alphaI)/(beta-alpha) is an effect. |Tr G Delta|=(beta-alpha)|Tr E Delta|<=(beta-alpha)D_mode; D_mode=sqrt(epsilon) for coherent nonempty retained projection.\",\n            \"rho_order_proof\":\"For positiveDelta_rho, Tr[Delta_rho Tu^dagger Tu]>=0. Together with G_I/d=I this gives drminI<=G_rho<=drmaxI. No complete-positivity assertion for the spin-to-mode dual map is required.\",\n            \"polarization\":\"A fixed trace-one Jones projector has isotropic kernelI/2 and half range/floor. Ix+Iy=W, so the signed numerator has the full range bound. Positive denominators give the stated absoluteP triangle bound; no relative bound exists at signed zero.\",\n            \"confidence\":\"A certified floor requires actual simultaneous parameter/nuisance coverage and independent validity of the symmetric-diagonal density model. A positive reference-fit center, arbitraryGaussian prior or marginal standard-error display does not establish these premises.\",\n            \"same_selection\":\"Same prepared parent is not enough if downstream angle/polarization/decay-time gates condition on a different daughter state or cascade observable. The theorem compares one fixed-u product state and the same rho.\",\n            \"inference_layer\":\"All controls and inequalities here are our reviewer algebra. The source supplies amplitudes/tensors/normalization and preparation context; it does not directly report these confidence or spectral error theorems.\",\n        },\n        \"producer_replay\":{\"embedded_semantic_match\":True,\"checks_returned\":replay[\"checks\"][\"passed\"],\"failures\":replay[\"checks\"][\"failures\"],\"count_not_review_criterion\":True},\n        \"checks\":{\"passed_by_group\":dict(sorted(counts.items())),\"total_passed\":sum(counts.values()),\"failures\":0},\n        \"actual_commands\":[\n            \"python3 tmp/day8-20261007/rose-brink/population-calibration-error-bound/population_calibration_error_bound.py\",\n            \"python3 \"+CODE_REL,\n            \"python3 \"+CODE_REL+\" --write-review\",\n            \"git diff --check -- \"+CODE_REL+\" \"+REVIEW_REL,\n        ],\n        \"changed_paths\":[CODE_REL,REVIEW_REL],\n        \"reproducibility\":{\"code\":CODE_REL,\"script_sha256\":digest(codepath),\"source_code\":codepath.read_text(encoding=\"utf-8\"),\"python_version\":sys.version.split()[0],\"sympy_version\":sp.__version__,\"dependency_path\":deps,\"network_requests\":0,\"default_command\":\"python3 \"+CODE_REL,\"write_command\":\"python3 \"+CODE_REL+\" --write-review\",\"write_policy\":\"Exclusive new owned review JSON; old packet/code/receipts, canonical/report/state/raw/PLAN and Git are read-only.\",\"embedded_replay\":\"Save source_code under a temporary Python file and pass --root /workspace/wiki. Default reads only; producer embedded replay invokes only inspected result(), never its writer.\"},\n    }\n\n\ndef main():\n    parser=argparse.ArgumentParser(description=__doc__)\n    parser.add_argument(\"--root\",type=Path,default=Path(__file__).resolve().parents[4])\n    parser.add_argument(\"--write-review\",action=\"store_true\")\n    args=parser.parse_args();root=args.root.resolve();r=build_review(root)\n    if args.write_review:\n        with (root/REVIEW_REL).open(\"x\",encoding=\"utf-8\",newline=\"\\n\") as stream:\n            json.dump(r,stream,ensure_ascii=False,indent=2);stream.write(\"\\n\")\n    print(json.dumps({\"review\":REVIEW_REL if args.write_review else None,\"summary\":r[\"summary\"],\"independent_checks\":r[\"checks\"],\"producer_replay\":r[\"producer_replay\"],\"changed_paths\":r[\"changed_paths\"]},ensure_ascii=False,indent=2))\n\n\nif __name__==\"__main__\":main()\n",
+    "python_version": "3.12.3",
+    "sympy_version": "1.14.0",
+    "dependency_path": "tmp/day8-20261007/rose-brink/python-deps",
+    "network_requests": 0,
+    "default_command": "python3 tmp/day8-20261007/lange-kumar/population-calibration-error-bound-review/population_calibration_review.py",
+    "write_command": "python3 tmp/day8-20261007/lange-kumar/population-calibration-error-bound-review/population_calibration_review.py --write-review",
+    "write_policy": "Exclusive new owned review JSON; old packet/code/receipts, canonical/report/state/raw/PLAN and Git are read-only.",
+    "embedded_replay": "Save source_code under a temporary Python file and pass --root /workspace/wiki. Default reads only; producer embedded replay invokes only inspected result(), never its writer."
+  }
+}

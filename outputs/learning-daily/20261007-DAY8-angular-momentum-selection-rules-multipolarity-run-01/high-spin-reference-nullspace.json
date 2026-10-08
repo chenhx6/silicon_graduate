@@ -1,0 +1,832 @@
+{
+  "schema_version": 1,
+  "created_at_utc": "2026-10-08T00:30:37.986404+00:00",
+  "artifact_kind": "bounded-Day8-L2-high-spin-pure-E2-reference-population-nullspace",
+  "status": "exact_rank6_reference_blindness_and_authorized_target_node",
+  "day_index": 8,
+  "run_closed": false,
+  "new_source_or_course_card": false,
+  "new_session_or_goal": false,
+  "experimental_data_fit": false,
+  "numerical_experiment": false,
+  "L4": false,
+  "evidence_class": "Our exact source-CG forward/nullspace/density analysis for one ideal reference and one authorized same-parent target control.",
+  "inputs": [
+    {
+      "path": "outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/population-calibration-error-bound.json",
+      "sha256": "4d2960c1c7f739f9fc1dabb99e00cbd3eb2d56a314195f39b1e9174bdb607015"
+    },
+    {
+      "path": "outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/finite-rank-density-bound.json",
+      "sha256": "2636cac3929b3b28bb5b29badf5bc9df7e74d7d16378db42cb726d0bbdfe8538"
+    }
+  ],
+  "source": {
+    "page": "knowledge/sources/rose-brink-1967-phase-defined-angular-distributions.md",
+    "raw_path": "raw/papers/gpt/high-spin-20260920/multipolarity/mixing ratio/1967_Rose et al_Angular Distributions of Gamma Rays in Terms of Phase-Defined Reduced Matrix Elements.pdf",
+    "raw_sha256": "8f846b61b9320de291ee5600126c5e286a0fe05968df819696816f0dc1ec57dc",
+    "locators": [
+      "printed315/PDF10 operator/phase definitions",
+      "printed316/PDF11 Eq3.24 and WE relation after Eq3.25",
+      "printed317/PDF12 Eq3.28 initial population tensors",
+      "printed318/PDF13 Eq3.29 normalization and angular-rank/triangle restrictions",
+      "printed319/PDF14 Eq3.36 and printed320-321/PDF15-16 source specialization"
+    ],
+    "attribution": "The null vector, accessible edge state, spectral-floor failure and target witness are our calculations, not source-author measurements."
+  },
+  "setup": {
+    "reference": "OnlyJi3->Jf1, independently given pureE2 (L2,pi0), unit normalized radiative amplitude",
+    "purity_boundary": "The spin triangle also permitsL3/M3,L4/E4 for same positive parity. PureE2 is an independent input, not established by the absence of a photonA6 coefficient.",
+    "population_class": "axisymmetric diagonal AND unoriented w(+M)=w(-M), groupsp0,w(+/-1)=p1/2,w(+/-2)=p2/2,w(+/-3)=p3/2",
+    "normalization": "p0+p1+p2+p3=1; no spin/parity/level assignment is inferred from fitting the curve",
+    "reference_amplitude": "sqrt5 CG(1,2,3;Mf,Mi-Mf,Mi) d^2_(Mi-Mf,q)(theta), q=+/-1; normalized unpolarizedW uses1/2 sum_q",
+    "target_scope": "The original C3->1 fullE2/M3/E4 mode family, one predetermined theta0 sample, phi0. No angle search or joint-cascade extension.",
+    "operator_control_not_actual_branches": "Reference and target are ideal spin/transition-operator controls sharing a preparedJ3 density. No actual reference/target level identities or microscopic currents are supplied; they are not asserted to be the same physical branch with two incompatible purity assignments."
+  },
+  "reference_forward_map": {
+    "W_generic_with_N": "-5*cos_theta**4*p0/2 - 5*cos_theta**4*p1/12 + 35*cos_theta**4*p2/12 - 5*cos_theta**4*p3/4 + 3*cos_theta**2*p0 + cos_theta**2*p1 - 5*cos_theta**2*p2/2 + p0/2 + 3*p1/4 + 5*p2/4 + 5*p3/4",
+    "N": "p0 + p1 + p2 + p3",
+    "A2_on_normalized_plane": "4*p0/7 + 3*p1/7 - 5*p3/7",
+    "A4_on_normalized_plane": "-4*p0/7 - 2*p1/21 + 2*p2/3 - 2*p3/7",
+    "BK_linear_functions": {
+      "0": "p0 + p1 + p2 + p3",
+      "1": "0",
+      "2": "-2*sqrt(3)*p0/3 - sqrt(3)*p1/2 + 5*sqrt(3)*p3/6",
+      "3": "0",
+      "4": "3*sqrt(22)*p0/11 + sqrt(22)*p1/22 - 7*sqrt(22)*p2/22 + 3*sqrt(22)*p3/22",
+      "5": "0",
+      "6": "-10*sqrt(33)*p0/33 + 5*sqrt(33)*p1/22 - sqrt(33)*p2/11 + sqrt(33)*p3/66"
+    },
+    "photon_R0_R2_R4_R6": {
+      "0": "1",
+      "2": "-2*sqrt(3)/7",
+      "4": "-2*sqrt(22)/21",
+      "6": "0"
+    },
+    "normalization_A2_A4_matrix": [
+      [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      [
+        "4/7",
+        "3/7",
+        "0",
+        "-5/7"
+      ],
+      [
+        "-4/7",
+        "-2/21",
+        "2/3",
+        "-2/7"
+      ]
+    ],
+    "rank": 3,
+    "null_dimension": 1,
+    "candidate_null_vector": [
+      "-10",
+      "15",
+      "-6",
+      "1"
+    ],
+    "rank6_B6_derivative_along_null": "7*sqrt(33)",
+    "angular_rank_limit": "PureL2 photon density/linear-polarization tensors carryK<=4. InitialJi3 can have a rank6 population tensor, but R6=0 here.",
+    "structural_A6": "Identically0 from the response, NOT a fitted population constraint or measured extra coefficient.",
+    "adding_structural_A6zero_Jacobian_rank": 3,
+    "adding_independently_known_population_B6_rank": 4
+  },
+  "reference_CG_kernels": {
+    "initial_M_order": [
+      -3,
+      -2,
+      -1,
+      0,
+      1,
+      2,
+      3
+    ],
+    "final_M_order": [
+      -1,
+      0,
+      1
+    ],
+    "unit_initial_M_unpolarized_W_functions": {
+      "-3": "5/4 - 5*cos_theta**4/4",
+      "-2": "35*cos_theta**4/12 - 5*cos_theta**2/2 + 5/4",
+      "-1": "-5*cos_theta**4/12 + cos_theta**2 + 3/4",
+      "0": "-5*cos_theta**4/2 + 3*cos_theta**2 + 1/2",
+      "1": "-5*cos_theta**4/12 + cos_theta**2 + 3/4",
+      "2": "35*cos_theta**4/12 - 5*cos_theta**2/2 + 5/4",
+      "3": "5/4 - 5*cos_theta**4/4"
+    },
+    "angular_mode_basis": "normalized |E2,m_gamma>, with helicities combined according to q^pi/sqrt2",
+    "coupled_emission_row_basis_mgamma_Mf": [
+      [
+        -2,
+        -1
+      ],
+      [
+        -2,
+        0
+      ],
+      [
+        -2,
+        1
+      ],
+      [
+        -1,
+        -1
+      ],
+      [
+        -1,
+        0
+      ],
+      [
+        -1,
+        1
+      ],
+      [
+        0,
+        -1
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        -1
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        2,
+        -1
+      ],
+      [
+        2,
+        0
+      ],
+      [
+        2,
+        1
+      ]
+    ],
+    "coupled_CG_isometry_V": [
+      [
+        "1",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "sqrt(3)/3",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "sqrt(15)/15",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "sqrt(6)/3",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "2*sqrt(30)/15",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0",
+        "sqrt(5)/5",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "sqrt(10)/5",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0",
+        "sqrt(15)/5",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0",
+        "0",
+        "sqrt(10)/5",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0",
+        "sqrt(5)/5",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0",
+        "0",
+        "2*sqrt(30)/15",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "sqrt(6)/3",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0",
+        "0",
+        "sqrt(15)/15",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "sqrt(3)/3",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "1"
+      ]
+    ],
+    "single_reference_photon_marginals": {
+      "isotropic": [
+        [
+          "1/5",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1/5",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1/5",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "1/5",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "1/5"
+        ]
+      ],
+      "edge": [
+        [
+          "1/5",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1/5",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1/5",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "1/5",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "1/5"
+        ]
+      ]
+    },
+    "photon_marginal_result": "Both complete single-reference photon marginals areI5/5 in the same pureE2 angular-mode space. This is a stronger check than equalA2/A4 and supplies no rank6 population information; no second photon/control is computed."
+  },
+  "exact_population_controls": {
+    "isotropic": {
+      "group_p0_p1_p2_p3": [
+        "1/7",
+        "2/7",
+        "2/7",
+        "2/7"
+      ],
+      "M_order": [
+        -3,
+        -2,
+        -1,
+        0,
+        1,
+        2,
+        3
+      ],
+      "weights": [
+        "1/7",
+        "1/7",
+        "1/7",
+        "1/7",
+        "1/7",
+        "1/7",
+        "1/7"
+      ],
+      "rho": [
+        [
+          "1/7",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1/7",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1/7",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "1/7",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "1/7",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "1/7",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "1/7"
+        ]
+      ],
+      "rank": 7,
+      "rmin": "1/7",
+      "rmax": "1/7",
+      "population_BK": {
+        "0": "1",
+        "1": "0",
+        "2": "0",
+        "3": "0",
+        "4": "0",
+        "5": "0",
+        "6": "0"
+      },
+      "A2_ref": "0",
+      "A4_ref": "0",
+      "W_ref_all_directions": "1"
+    },
+    "edge": {
+      "group_p0_p1_p2_p3": [
+        "0",
+        "1/2",
+        "1/5",
+        "3/10"
+      ],
+      "M_order": [
+        -3,
+        -2,
+        -1,
+        0,
+        1,
+        2,
+        3
+      ],
+      "weights": [
+        "3/20",
+        "1/10",
+        "1/4",
+        "0",
+        "1/4",
+        "1/10",
+        "3/20"
+      ],
+      "rho": [
+        [
+          "3/20",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1/10",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1/4",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "1/4",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "1/10",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "3/20"
+        ]
+      ],
+      "rank": 6,
+      "rmin": "0",
+      "rmax": "1/4",
+      "population_BK": {
+        "0": "1",
+        "1": "0",
+        "2": "0",
+        "3": "0",
+        "4": "0",
+        "5": "0",
+        "6": "sqrt(33)/10"
+      },
+      "A2_ref": "0",
+      "A4_ref": "0",
+      "W_ref_all_directions": "1"
+    }
+  },
+  "null_family": {
+    "edge_shift": "p_edge=p_iso+(-10,15,-6,1)/70",
+    "family_p_of_s": [
+      "1/7 - interpolation_s/7",
+      "3*interpolation_s/14 + 2/7",
+      "2/7 - 3*interpolation_s/35",
+      "interpolation_s/70 + 2/7"
+    ],
+    "parameter_range": "0<=s<=1; every group is strictlypositive for0<=s<1",
+    "same_reference": "A2=A4=0,Wref=1 throughout the segment",
+    "B6": "s*sqrt33/10",
+    "p0": "(1-s)/7",
+    "floor_failure_even_under_strict_positivity": "For s<1 all individual weights are positive, but their minimum is <=p0=(1-s)/7 and approaches0. A strict-positivity assumption alone supplies no quantitative lower floor from this reference data."
+  },
+  "authorized_target_control": {
+    "Ji": "3",
+    "Jf": "1",
+    "mode_order": [
+      "E2",
+      "M3",
+      "E4"
+    ],
+    "theta": "0",
+    "phi": "0",
+    "G_isotropic": [
+      [
+        "1",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "1",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "1"
+      ]
+    ],
+    "G_edge": [
+      [
+        "1",
+        "0",
+        "-sqrt(10)/5"
+      ],
+      [
+        "0",
+        "7/16",
+        "7*sqrt(35)/80"
+      ],
+      [
+        "-sqrt(10)/5",
+        "7*sqrt(35)/80",
+        "81/80"
+      ]
+    ],
+    "G_edge_eigenvalues": [
+      {
+        "value": "0",
+        "multiplicity": 1
+      },
+      {
+        "value": "7/10",
+        "multiplicity": 1
+      },
+      {
+        "value": "7/4",
+        "multiplicity": 1
+      }
+    ],
+    "valid_q_by_initial_M": {
+      "-3": [],
+      "-2": [
+        -1
+      ],
+      "-1": [
+        -1
+      ],
+      "0": [
+        -1,
+        1
+      ],
+      "1": [
+        1
+      ],
+      "2": [
+        1
+      ],
+      "3": []
+    },
+    "normalized_nonzero_null_u": [
+      "sqrt(7)/7",
+      "-sqrt(2)/2",
+      "sqrt(70)/14"
+    ],
+    "relative_chart_optional": [
+      "1",
+      "-sqrt(14)/2",
+      "sqrt(10)/2"
+    ],
+    "W_isotropic_same_u": "1",
+    "W_edge_same_u": "0",
+    "W_family_same_u": "1-s",
+    "coherence": "The three radiative multipoles are coherently combined before modulus squaring; all u components are nonzero and sum|u|^2=1.",
+    "positive_control": "PureE2 u=(1,0,0) givesW=1 forbothstates, and the entire reference pattern is1. Thus rmin=0 does not imply everytargetW has a node.",
+    "feasibility_boundary": "The null vector is admissible in the ideal spin/parity/radiative-amplitude model. No wavefunction/current, long-wave strength prior, actual nucleus or finite-count detector realization is provided."
+  },
+  "transfer_boundaries": {
+    "full_density_floor": "The same perfectA2/A4 data admitrho_iso rank7,rmin1/7 andrho_edge rank6,rmin0. The reference alone cannot certify a strictlypositive full initial-density eigenvalue floor for this case.",
+    "nominal_floor_not_transferable": "Choosing the isotropic population from its flat reference pattern is an extra population prior. Its nominal G_mode floor1 does not apply to all populations consistent with the reference; the authorized target witness gives0 under an exactly matching admissible edge state.",
+    "other_targets": "The witness establishes one possible target node. Neither singularrho nor the reference nullspace proves that all targets, directions or calibrated bins have zeros. A target-specific kernel may give additional positive bounds.",
+    "old_bounds": "The old same-rho/fixed-spin finite emitted-subspace absolute bound remains conditional and valid (for the C fullmode family kappa7). The more stringent calibrated-population floor/range theorem needs a justified actual spectrum; this reference has not supplied it.",
+    "needed_extra_information": "Missing rank6 population information or another independently justified population constraint is needed before transporting a full-density floor. No such measurement or additional branch is invented here.",
+    "parameter_covariance": "Even perfect reference statistics and response leave this structural null direction. Priors/regularization must not be reported as independently measured rank6 information.",
+    "not_universal_high_spin_classification": "This oneJi3->Jf1 example refutes a general guarantee from pureE2 A2/A4. It does not classify everyhigherJi/reference or claim everyJ>2 has the same nullspace.",
+    "no_false_A6_constraint": "Not fitting A6 is essential: its absence comes from photonrank, while B6 of the initial population is demonstrably nonzero."
+  },
+  "checks": {
+    "results": {
+      "population-calibration-error-bound_hash_before": true,
+      "finite-rank-density-bound_hash_before": true,
+      "raw_hash_before": true,
+      "reference_unpolarized_degree_at_most4": true,
+      "reference_even_pattern": true,
+      "reference_Legendre_N_A2_A4": true,
+      "reference_no_structural_K6": true,
+      "source_response_R0_one": true,
+      "source_response_R2_R4_nonzero": true,
+      "direct_CG_A2_equals_B2_R2": true,
+      "direct_CG_A4_equals_B4_R4": true,
+      "every_initial_M_-3_integrated_totalnorm_one": true,
+      "every_initial_M_-3_coupled_CG_norm_one": true,
+      "every_initial_M_-2_integrated_totalnorm_one": true,
+      "every_initial_M_-2_coupled_CG_norm_one": true,
+      "every_initial_M_-1_integrated_totalnorm_one": true,
+      "every_initial_M_-1_coupled_CG_norm_one": true,
+      "every_initial_M_0_integrated_totalnorm_one": true,
+      "every_initial_M_0_coupled_CG_norm_one": true,
+      "every_initial_M_1_integrated_totalnorm_one": true,
+      "every_initial_M_1_coupled_CG_norm_one": true,
+      "every_initial_M_2_integrated_totalnorm_one": true,
+      "every_initial_M_2_coupled_CG_norm_one": true,
+      "every_initial_M_3_integrated_totalnorm_one": true,
+      "every_initial_M_3_coupled_CG_norm_one": true,
+      "reference_linear_map_normalization_and_two_outputs_rank3": true,
+      "candidate_null_vector_nonzero": true,
+      "candidate_null_vector_including_normalization_exact": true,
+      "one_dimensional_reference_population_nullspace": true,
+      "computed_nullspace_matches_candidate_normalization": true,
+      "rank6_tensor_varies_on_reference_null": true,
+      "rank6_tensor_derivative_7sqrt33": true,
+      "rank6_information_would_close_population_map": true,
+      "adding_structural_A6zero_does_not_add_information": true,
+      "edge_equals_iso_plus_null_over70": true,
+      "isotropic_group_normalization": true,
+      "isotropic_group_nonnegative": true,
+      "isotropic_individual_weights_nonnegative": true,
+      "isotropic_individual_weights_normalized": true,
+      "isotropic_reference_A2_A4_zero": true,
+      "isotropic_reference_entire_pattern_one": true,
+      "isotropic_unoriented_odd_population_tensors_zero": true,
+      "edge_group_normalization": true,
+      "edge_group_nonnegative": true,
+      "edge_individual_weights_nonnegative": true,
+      "edge_individual_weights_normalized": true,
+      "edge_reference_A2_A4_zero": true,
+      "edge_reference_entire_pattern_one": true,
+      "edge_unoriented_odd_population_tensors_zero": true,
+      "isotropic_fullrank7_floor1over7": true,
+      "edge_PSD_but_not_strictly_positive_rank6": true,
+      "edge_only_p0_group_zero": true,
+      "isotropic_B6_zero": true,
+      "edge_B6_sqrt33_over10": true,
+      "reference_CG_emission_isometry": true,
+      "isotropic_reference_photon_marginal_I5_over5": true,
+      "edge_reference_photon_marginal_I5_over5": true,
+      "same_complete_single_reference_photon_marginal": true,
+      "positive_family_norm_and_reference_data_constant": true,
+      "positive_family_rank6_tensor_sqrt33_s_over10": true,
+      "positive_family_p0_approaches_zero": true,
+      "target_isotropic_mode_kernel_I3": true,
+      "target_edge_mode_kernel_Hermitian": true,
+      "target_edge_exact_eigenvalues_0_7over10_7over4": true,
+      "target_null_vector_every_component_nonzero": true,
+      "target_null_vector_normalized": true,
+      "target_edge_null_vector_exact": true,
+      "target_W_edge_zero": true,
+      "target_W_isotropic_one": true,
+      "target_positive_population_family_W_tends_zero": true,
+      "pure_E2_control_has_positive_W_not_all_targets_nodes": true,
+      "theta0_target_initial_Mplusminus3_dark": true,
+      "population-calibration-error-bound_bytes_unchanged_after": true,
+      "finite-rank-density-bound_bytes_unchanged_after": true,
+      "raw_hash_after": true
+    },
+    "passed": 75,
+    "failures": 0,
+    "elapsed_seconds": 1.6901621370343491
+  },
+  "changed_paths": [
+    "tmp/day8-20261007/rose-brink/high-spin-reference-nullspace/high_spin_reference_nullspace.py",
+    "outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/high-spin-reference-nullspace.json"
+  ],
+  "reproducibility": {
+    "script_path": "tmp/day8-20261007/rose-brink/high-spin-reference-nullspace/high_spin_reference_nullspace.py",
+    "script_sha256": "ea85a641507235f695a6a4b5443a42d60122453b6d147cef767a6603bd9015d1",
+    "source_code": "#!/usr/bin/env python3\n\"\"\"Day8 L2: one high-spin pure-E2 reference nullspace and one authorized target node.\nJi=3 -> Jf=1 only. No A6 is fitted, no new angle/cascade/measurement is added.\nDefault checks only; --write-receipt exclusively creates one new owned JSON.\n\"\"\"\nfrom __future__ import annotations\nimport argparse\nfrom datetime import datetime, timezone\nimport hashlib\nimport json\nfrom pathlib import Path\nimport platform\nimport sys\nimport time\nsys.dont_write_bytecode=True\nROOT=Path(__file__).resolve().parents[4]\nDEPS=ROOT/'tmp/day8-20261007/rose-brink/python-deps'\nsys.path.insert(0,str(DEPS))\nimport sympy as sp\nfrom sympy.physics.wigner import clebsch_gordan, racah, wigner_d_small\n\nRUN=ROOT/'outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01'\nOUT=RUN/'high-spin-reference-nullspace.json'\nINPUT_HASHES={\n    RUN/'population-calibration-error-bound.json':'4d2960c1c7f739f9fc1dabb99e00cbd3eb2d56a314195f39b1e9174bdb607015',\n    RUN/'finite-rank-density-bound.json':'2636cac3929b3b28bb5b29badf5bc9df7e74d7d16378db42cb726d0bbdfe8538',\n}\nRAW=ROOT/'raw/papers/gpt/high-spin-20260920/multipolarity/mixing ratio/1967_Rose et al_Angular Distributions of Gamma Rays in Terms of Phase-Defined Reduced Matrix Elements.pdf'\nRAW_SHA='8f846b61b9320de291ee5600126c5e286a0fe05968df819696816f0dc1ec57dc'\nJI,JF,L=sp.Integer(3),sp.Integer(1),sp.Integer(2)\nMI,MF,Q=tuple(range(-3,4)),tuple(range(-1,2)),(-1,1)\np=sp.Matrix(sp.symbols('p0 p1 p2 p3',real=True))\nweights=(p[3]/2,p[2]/2,p[1]/2,p[0],p[1]/2,p[2]/2,p[3]/2)\nX,Y=sp.symbols('cos_theta sin_theta',real=True)\nP_ISO=sp.Matrix([sp.Rational(1,7),sp.Rational(2,7),sp.Rational(2,7),sp.Rational(2,7)])\nP_EDGE=sp.Matrix([0,sp.Rational(1,2),sp.Rational(1,5),sp.Rational(3,10)])\nNULL=sp.Matrix([-10,15,-6,1])\nTARGET_MODES=((2,0),(3,1),(4,0))\n\ndef ex(v):return sp.expand(v)\ndef mx(v):return v.applyfunc(ex)\ndef txt(v):return sp.sstr(v)\ndef sm(v):return [[txt(v[i,j]) for j in range(v.cols)] for i in range(v.rows)]\ndef point(pp):return dict(zip(p,pp))\n\ndef dxy():\n    th=sp.symbols('template_theta',real=True)\n    hs,hc=sp.symbols('half_s half_c',real=True)\n    def convert(entry):\n        out=0\n        for (ps,pc),co in sp.Poly(ex(entry.xreplace({sp.sin(th/2):hs,sp.cos(th/2):hc})),hs,hc).terms():\n            if ps%2!=pc%2:raise AssertionError('half-angle parity')\n            out+=co*((1-X)/2)**(ps//2)*((1+X)/2)**(pc//2)*(Y/2 if ps%2 else 1)\n        return ex(out)\n    return wigner_d_small(2,-th).applyfunc(convert)\n\ndef sphere(expr):\n    return ex(sum(co*Y**(powers[0]%2)*(1-X**2)**(powers[0]//2) for powers,co in sp.Poly(ex(expr),Y).terms()))\n\ndef B(K):\n    return ex(sum(weights[i]*sp.Integer(-1)**(JI-mi)*sp.sqrt(2*JI+1)*clebsch_gordan(JI,JI,K,mi,-mi,0)\n                  for i,mi in enumerate(MI)))\n\ndef R(K):\n    return sp.simplify(sp.Integer(-1)**(1+JI-JF-K)*sp.sqrt((2*JI+1)*(2*L+1)**2)\n                       *clebsch_gordan(L,L,K,1,-1,0)*racah(JI,JI,L,L,K,JF))\n\ndef reference():\n    d=dxy()\n    unweighted=[]\n    amplitudes={}\n    for i,mi in enumerate(MI):\n        raw=0\n        for mf in MF:\n            m=mi-mf\n            for q in Q:\n                a=0 if abs(m)>2 else ex(sp.sqrt(5)*clebsch_gordan(JF,L,JI,mf,m,mi)*d[2-m,2-q])\n                amplitudes[mi,mf,q]=a\n                raw+=a*a/2\n        unweighted.append(sphere(raw))\n    return ex(sum(weights[i]*unweighted[i] for i in range(7))),unweighted,amplitudes\n\ndef target_G(pp):\n    ww=tuple(w.subs(point(pp)) for w in weights)\n    def entry(i,j):\n        Li,pi=TARGET_MODES[i];Lj,pj=TARGET_MODES[j]\n        return ex(sum(ww[k]*sp.sqrt((2*Li+1)*(2*Lj+1))*sp.Integer(q)**(pi+pj)\n                      *clebsch_gordan(JF,Li,JI,mi-q,q,mi)*clebsch_gordan(JF,Lj,JI,mi-q,q,mi)/2\n                      for k,mi in enumerate(MI) for q in Q if mi-q in MF))\n    return sp.Matrix(3,3,entry)\n\ndef photon_marginal(V,pp,rows):\n    rho=sp.diag(*[w.subs(point(pp)) for w in weights])\n    joint=mx(V*rho*V.H)\n    gamma_m=tuple(range(-2,3))\n    return sp.Matrix(5,5,lambda i,j:ex(sum(joint[rows.index((gamma_m[i],mf)),rows.index((gamma_m[j],mf))] for mf in MF)))\n\ndef result():\n    started=time.monotonic();checks={}\n    def check(name,condition):\n        checks[name]=bool(condition)\n        if not checks[name]:raise AssertionError(name)\n    old={path:path.read_bytes() for path in INPUT_HASHES}\n    for path,sha in INPUT_HASHES.items():check(path.stem+'_hash_before',hashlib.sha256(old[path]).hexdigest()==sha)\n    check('raw_hash_before',hashlib.sha256(RAW.read_bytes()).hexdigest()==RAW_SHA)\n    W,WM,amps=reference()\n    N=sum(p)\n    A4=sp.simplify(W.coeff(X,4)*sp.Rational(8,35))\n    A2=sp.simplify(sp.Rational(2,3)*(W.coeff(X,2)+sp.Rational(15,4)*A4))\n    check('reference_unpolarized_degree_at_most4',sp.degree(W,X)<=4 and not W.has(Y))\n    check('reference_even_pattern',ex(W-W.xreplace({X:-X}))==0)\n    check('reference_Legendre_N_A2_A4',ex(W-N-A2*sp.legendre(2,X)-A4*sp.legendre(4,X))==0)\n    check('reference_no_structural_K6',W.coeff(X,6)==0 and R(6)==0)\n    check('source_response_R0_one',R(0)==1)\n    check('source_response_R2_R4_nonzero',R(2)!=0 and R(4)!=0)\n    check('direct_CG_A2_equals_B2_R2',sp.simplify(A2-B(2)*R(2))==0)\n    check('direct_CG_A4_equals_B4_R4',sp.simplify(A4-B(4)*R(4))==0)\n    for i,mi in enumerate(MI):\n        check(f'every_initial_M_{mi}_integrated_totalnorm_one',sp.integrate(WM[i],(X,-1,1))/2==1)\n        check(f'every_initial_M_{mi}_coupled_CG_norm_one',sum(clebsch_gordan(JF,L,JI,mf,mi-mf,mi)**2 for mf in MF)==1)\n    F=sp.Matrix([N,A2,A4]).jacobian(tuple(p))\n    check('reference_linear_map_normalization_and_two_outputs_rank3',F.rank()==3)\n    check('candidate_null_vector_nonzero',NULL!=sp.zeros(4,1))\n    check('candidate_null_vector_including_normalization_exact',F*NULL==sp.zeros(3,1))\n    ns=F.nullspace()\n    check('one_dimensional_reference_population_nullspace',len(ns)==1)\n    check('computed_nullspace_matches_candidate_normalization',mx(ns[0]/ns[0][3])==NULL)\n    B6=B(6)\n    slope=sp.simplify((sp.Matrix([B6]).jacobian(tuple(p))*NULL)[0])\n    check('rank6_tensor_varies_on_reference_null',slope!=0)\n    check('rank6_tensor_derivative_7sqrt33',slope==7*sp.sqrt(33))\n    check('rank6_information_would_close_population_map',sp.Matrix([N,A2,A4,B6]).jacobian(tuple(p)).rank()==4)\n    structural=sp.Matrix([N,A2,A4,sp.Integer(0)]).jacobian(tuple(p))\n    check('adding_structural_A6zero_does_not_add_information',structural.rank()==3)\n    check('edge_equals_iso_plus_null_over70',P_EDGE-P_ISO==NULL/70)\n    states={}\n    for label,pp in [('isotropic',P_ISO),('edge',P_EDGE)]:\n        ww=tuple(sp.simplify(w.subs(point(pp))) for w in weights)\n        check(label+'_group_normalization',sum(pp)==1)\n        check(label+'_group_nonnegative',all(v>=0 for v in pp))\n        check(label+'_individual_weights_nonnegative',all(v>=0 for v in ww))\n        check(label+'_individual_weights_normalized',sum(ww)==1)\n        check(label+'_reference_A2_A4_zero',A2.subs(point(pp))==A4.subs(point(pp))==0)\n        check(label+'_reference_entire_pattern_one',W.subs(point(pp))==1)\n        tensors={str(K):txt(sp.simplify(B(K).subs(point(pp)))) for K in range(7)}\n        check(label+'_unoriented_odd_population_tensors_zero',all(sp.simplify(B(K).subs(point(pp)))==0 for K in (1,3,5)))\n        rho=sp.diag(*ww)\n        states[label]={'group_p0_p1_p2_p3':[txt(v) for v in pp],'M_order':list(MI),'weights':[txt(v) for v in ww],\n                       'rho':sm(rho),'rank':rho.rank(),'rmin':txt(min(ww)),'rmax':txt(max(ww)),\n                       'population_BK':tensors,'A2_ref':'0','A4_ref':'0','W_ref_all_directions':'1'}\n    check('isotropic_fullrank7_floor1over7',states['isotropic']['rank']==7 and states['isotropic']['rmin']=='1/7')\n    check('edge_PSD_but_not_strictly_positive_rank6',states['edge']['rank']==6 and states['edge']['rmin']=='0')\n    check('edge_only_p0_group_zero',P_EDGE[0]==0 and all(v>0 for v in P_EDGE[1:]))\n    check('isotropic_B6_zero',states['isotropic']['population_BK']['6']=='0')\n    check('edge_B6_sqrt33_over10',sp.simplify(B6.subs(point(P_EDGE))-sp.sqrt(33)/10)==0)\n    # A normalized E2 angular-mode basis |E2,m_gamma> combines helicities\n    # according to the source q^pi convention. This CG isometry only concerns\n    # the one reference emission, not an added joint cascade.\n    rows=tuple((m,mf) for m in range(-2,3) for mf in MF)\n    V=sp.Matrix(15,7,lambda r,i:clebsch_gordan(JF,L,JI,rows[r][1],rows[r][0],MI[i])\n                if rows[r][0]+rows[r][1]==MI[i] else 0)\n    check('reference_CG_emission_isometry',mx(V.H*V)==sp.eye(7))\n    photons={}\n    for label,pp in [('isotropic',P_ISO),('edge',P_EDGE)]:\n        photons[label]=photon_marginal(V,pp,rows)\n        check(label+'_reference_photon_marginal_I5_over5',photons[label]==sp.eye(5)/5)\n    check('same_complete_single_reference_photon_marginal',photons['isotropic']==photons['edge'])\n    s=sp.symbols('interpolation_s',real=True)\n    family=P_ISO+s*NULL/70\n    check('positive_family_norm_and_reference_data_constant',sp.simplify(sum(family))==1\n          and sp.simplify(A2.subs(point(family)))==sp.simplify(A4.subs(point(family)))==0)\n    check('positive_family_rank6_tensor_sqrt33_s_over10',sp.simplify(B6.subs(point(family))-s*sp.sqrt(33)/10)==0)\n    check('positive_family_p0_approaches_zero',sp.limit(family[0],s,1,dir='-')==0)\n    # Authorized original C target control at theta0 only.\n    Gi,Ge=target_G(P_ISO),target_G(P_EDGE)\n    check('target_isotropic_mode_kernel_I3',Gi==sp.eye(3))\n    check('target_edge_mode_kernel_Hermitian',Ge==Ge.H)\n    eigen=Ge.eigenvals()\n    check('target_edge_exact_eigenvalues_0_7over10_7over4',set(eigen)=={sp.Integer(0),sp.Rational(7,10),sp.Rational(7,4)}\n          and all(n==1 for n in eigen.values()))\n    vector=sp.Matrix([sp.sqrt(2*LL+1)*clebsch_gordan(JF,LL,JI,-1,1,0) for LL,_ in TARGET_MODES])\n    u=mx(vector/sp.sqrt((vector.H*vector)[0]))\n    check('target_null_vector_every_component_nonzero',all(v!=0 for v in u))\n    check('target_null_vector_normalized',(u.H*u)[0]==1)\n    check('target_edge_null_vector_exact',mx(Ge*u)==sp.zeros(3,1))\n    check('target_W_edge_zero',(u.H*Ge*u)[0]==0)\n    check('target_W_isotropic_one',(u.H*Gi*u)[0]==1)\n    check('target_positive_population_family_W_tends_zero',sp.simplify((u.H*target_G(family)*u)[0]-(1-s))==0)\n    check('pure_E2_control_has_positive_W_not_all_targets_nodes',Ge[0,0]==Gi[0,0]==1)\n    valid_M={str(mi):[q for q in Q if mi-q in MF] for mi in MI}\n    check('theta0_target_initial_Mplusminus3_dark',valid_M['-3']==valid_M['3']==[])\n    for path,before in old.items():check(path.stem+'_bytes_unchanged_after',path.read_bytes()==before)\n    check('raw_hash_after',hashlib.sha256(RAW.read_bytes()).hexdigest()==RAW_SHA)\n    code=Path(__file__).read_bytes()\n    return {\n        'schema_version':1,'created_at_utc':datetime.now(timezone.utc).isoformat(),\n        'artifact_kind':'bounded-Day8-L2-high-spin-pure-E2-reference-population-nullspace',\n        'status':'exact_rank6_reference_blindness_and_authorized_target_node',\n        'day_index':8,'run_closed':False,'new_source_or_course_card':False,'new_session_or_goal':False,\n        'experimental_data_fit':False,'numerical_experiment':False,'L4':False,\n        'evidence_class':'Our exact source-CG forward/nullspace/density analysis for one ideal reference and one authorized same-parent target control.',\n        'inputs':[{'path':str(path.relative_to(ROOT)),'sha256':sha} for path,sha in INPUT_HASHES.items()],\n        'source':{'page':'knowledge/sources/rose-brink-1967-phase-defined-angular-distributions.md','raw_path':str(RAW.relative_to(ROOT)),\n                  'raw_sha256':RAW_SHA,'locators':['printed315/PDF10 operator/phase definitions',\n                                                 'printed316/PDF11 Eq3.24 and WE relation after Eq3.25',\n                                                 'printed317/PDF12 Eq3.28 initial population tensors',\n                                                 'printed318/PDF13 Eq3.29 normalization and angular-rank/triangle restrictions',\n                                                 'printed319/PDF14 Eq3.36 and printed320-321/PDF15-16 source specialization'],\n                  'attribution':'The null vector, accessible edge state, spectral-floor failure and target witness are our calculations, not source-author measurements.'},\n        'setup':{'reference':'OnlyJi3->Jf1, independently given pureE2 (L2,pi0), unit normalized radiative amplitude',\n                 'purity_boundary':'The spin triangle also permitsL3/M3,L4/E4 for same positive parity. PureE2 is an independent input, not established by the absence of a photonA6 coefficient.',\n                 'population_class':'axisymmetric diagonal AND unoriented w(+M)=w(-M), groupsp0,w(+/-1)=p1/2,w(+/-2)=p2/2,w(+/-3)=p3/2',\n                 'normalization':'p0+p1+p2+p3=1; no spin/parity/level assignment is inferred from fitting the curve',\n                 'reference_amplitude':'sqrt5 CG(1,2,3;Mf,Mi-Mf,Mi) d^2_(Mi-Mf,q)(theta), q=+/-1; normalized unpolarizedW uses1/2 sum_q',\n                 'target_scope':'The original C3->1 fullE2/M3/E4 mode family, one predetermined theta0 sample, phi0. No angle search or joint-cascade extension.',\n                 'operator_control_not_actual_branches':'Reference and target are ideal spin/transition-operator controls sharing a preparedJ3 density. No actual reference/target level identities or microscopic currents are supplied; they are not asserted to be the same physical branch with two incompatible purity assignments.'},\n        'reference_forward_map':{'W_generic_with_N':txt(W),'N':txt(N),'A2_on_normalized_plane':txt(A2),'A4_on_normalized_plane':txt(A4),\n                                 'BK_linear_functions':{str(K):txt(B(K)) for K in range(7)},\n                                 'photon_R0_R2_R4_R6':{str(K):txt(R(K)) for K in (0,2,4,6)},\n                                 'normalization_A2_A4_matrix':sm(F),'rank':3,'null_dimension':1,\n                                 'candidate_null_vector':[txt(v) for v in NULL],\n                                 'rank6_B6_derivative_along_null':txt(slope),\n                                 'angular_rank_limit':'PureL2 photon density/linear-polarization tensors carryK<=4. InitialJi3 can have a rank6 population tensor, but R6=0 here.',\n                                 'structural_A6':'Identically0 from the response, NOT a fitted population constraint or measured extra coefficient.',\n                                 'adding_structural_A6zero_Jacobian_rank':3,'adding_independently_known_population_B6_rank':4},\n        'reference_CG_kernels':{'initial_M_order':list(MI),'final_M_order':list(MF),\n                               'unit_initial_M_unpolarized_W_functions':{str(mi):txt(WM[i]) for i,mi in enumerate(MI)},\n                               'angular_mode_basis':'normalized |E2,m_gamma>, with helicities combined according to q^pi/sqrt2',\n                               'coupled_emission_row_basis_mgamma_Mf':[[v for v in row] for row in rows],\n                               'coupled_CG_isometry_V':sm(V),\n                               'single_reference_photon_marginals':{k:sm(v) for k,v in photons.items()},\n                               'photon_marginal_result':'Both complete single-reference photon marginals areI5/5 in the same pureE2 angular-mode space. This is a stronger check than equalA2/A4 and supplies no rank6 population information; no second photon/control is computed.'},\n        'exact_population_controls':states,\n        'null_family':{'edge_shift':'p_edge=p_iso+(-10,15,-6,1)/70','family_p_of_s':[txt(v) for v in family],\n                       'parameter_range':'0<=s<=1; every group is strictlypositive for0<=s<1',\n                       'same_reference':'A2=A4=0,Wref=1 throughout the segment',\n                       'B6':'s*sqrt33/10','p0':'(1-s)/7',\n                       'floor_failure_even_under_strict_positivity':'For s<1 all individual weights are positive, but their minimum is <=p0=(1-s)/7 and approaches0. A strict-positivity assumption alone supplies no quantitative lower floor from this reference data.'},\n        'authorized_target_control':{'Ji':'3','Jf':'1','mode_order':['E2','M3','E4'],'theta':'0','phi':'0',\n                                     'G_isotropic':sm(Gi),'G_edge':sm(Ge),\n                                     'G_edge_eigenvalues':[{'value':txt(v),'multiplicity':n} for v,n in sorted(eigen.items(),key=lambda item:item[0])],\n                                     'valid_q_by_initial_M':valid_M,\n                                     'normalized_nonzero_null_u':[txt(v) for v in u],\n                                     'relative_chart_optional':[txt(sp.simplify(v/u[0])) for v in u],\n                                     'W_isotropic_same_u':'1','W_edge_same_u':'0','W_family_same_u':'1-s',\n                                     'coherence':'The three radiative multipoles are coherently combined before modulus squaring; all u components are nonzero and sum|u|^2=1.',\n                                     'positive_control':'PureE2 u=(1,0,0) givesW=1 forbothstates, and the entire reference pattern is1. Thus rmin=0 does not imply everytargetW has a node.',\n                                     'feasibility_boundary':'The null vector is admissible in the ideal spin/parity/radiative-amplitude model. No wavefunction/current, long-wave strength prior, actual nucleus or finite-count detector realization is provided.'},\n        'transfer_boundaries':{'full_density_floor':'The same perfectA2/A4 data admitrho_iso rank7,rmin1/7 andrho_edge rank6,rmin0. The reference alone cannot certify a strictlypositive full initial-density eigenvalue floor for this case.',\n                               'nominal_floor_not_transferable':'Choosing the isotropic population from its flat reference pattern is an extra population prior. Its nominal G_mode floor1 does not apply to all populations consistent with the reference; the authorized target witness gives0 under an exactly matching admissible edge state.',\n                               'other_targets':'The witness establishes one possible target node. Neither singularrho nor the reference nullspace proves that all targets, directions or calibrated bins have zeros. A target-specific kernel may give additional positive bounds.',\n                               'old_bounds':'The old same-rho/fixed-spin finite emitted-subspace absolute bound remains conditional and valid (for the C fullmode family kappa7). The more stringent calibrated-population floor/range theorem needs a justified actual spectrum; this reference has not supplied it.',\n                               'needed_extra_information':'Missing rank6 population information or another independently justified population constraint is needed before transporting a full-density floor. No such measurement or additional branch is invented here.',\n                               'parameter_covariance':'Even perfect reference statistics and response leave this structural null direction. Priors/regularization must not be reported as independently measured rank6 information.',\n                               'not_universal_high_spin_classification':'This oneJi3->Jf1 example refutes a general guarantee from pureE2 A2/A4. It does not classify everyhigherJi/reference or claim everyJ>2 has the same nullspace.',\n                               'no_false_A6_constraint':'Not fitting A6 is essential: its absence comes from photonrank, while B6 of the initial population is demonstrably nonzero.'},\n        'checks':{'results':checks,'passed':sum(checks.values()),'failures':0,'elapsed_seconds':time.monotonic()-started},\n        'changed_paths':[str(Path(__file__).relative_to(ROOT)),str(OUT.relative_to(ROOT))],\n        'reproducibility':{'script_path':str(Path(__file__).relative_to(ROOT)),'script_sha256':hashlib.sha256(code).hexdigest(),\n                           'source_code':code.decode(),'python':platform.python_version(),'sympy':sp.__version__,'dependencies':str(DEPS.relative_to(ROOT)),\n                           'check_command':'python3 tmp/day8-20261007/rose-brink/high-spin-reference-nullspace/high_spin_reference_nullspace.py',\n                           'write_command':'python3 tmp/day8-20261007/rose-brink/high-spin-reference-nullspace/high_spin_reference_nullspace.py --write-receipt',\n                           'write_policy':'Exclusive new owned receipt only; all oldmathreceipts,raw,knowledge/report/run/state/PLAN/Git unchanged.'}\n    }\n\ndef main():\n    parser=argparse.ArgumentParser(description=__doc__);parser.add_argument('--write-receipt',action='store_true')\n    args=parser.parse_args();r=result()\n    if args.write_receipt:\n        with OUT.open('x',encoding='utf-8',newline='\\n') as f:json.dump(r,f,ensure_ascii=False,indent=2);f.write('\\n')\n    print(json.dumps({'artifact':str(OUT.relative_to(ROOT)) if args.write_receipt else None,\n                      'status':r['status'],'checks':r['checks']['passed'],'elapsed_seconds':r['checks']['elapsed_seconds'],\n                      'A2':r['reference_forward_map']['A2_on_normalized_plane'],'A4':r['reference_forward_map']['A4_on_normalized_plane'],\n                      'null':r['reference_forward_map']['candidate_null_vector'],\n                      'population_controls':{k:{q:v[q] for q in ['rank','rmin','population_BK','W_ref_all_directions']} for k,v in r['exact_population_controls'].items()},\n                      'target_null_u':r['authorized_target_control']['normalized_nonzero_null_u'],\n                      'target_edge_eigenvalues':r['authorized_target_control']['G_edge_eigenvalues'],\n                      'target_W_iso_edge':['1','0'],'run_closed':False},ensure_ascii=False,indent=2))\nif __name__=='__main__':main()\n",
+    "python": "3.12.3",
+    "sympy": "1.14.0",
+    "dependencies": "tmp/day8-20261007/rose-brink/python-deps",
+    "check_command": "python3 tmp/day8-20261007/rose-brink/high-spin-reference-nullspace/high_spin_reference_nullspace.py",
+    "write_command": "python3 tmp/day8-20261007/rose-brink/high-spin-reference-nullspace/high_spin_reference_nullspace.py --write-receipt",
+    "write_policy": "Exclusive new owned receipt only; all oldmathreceipts,raw,knowledge/report/run/state/PLAN/Git unchanged."
+  }
+}

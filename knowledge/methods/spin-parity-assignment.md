@@ -72,6 +72,10 @@ RB67-24 的 J=2 参考线只在事先支持的 symmetric-diagonal 模型中校�
 
 RB67-25 的 null-converse 控制说明，odd-K absence 不能证明确定宇称；odd accepted shape 须先验证响应和 population/axis 条件。本轮没有核素 parity assignment 或新实验事实，所有模型和校准条件都保留在证据依赖链中。
 
+## High-Spin Reference Coverage
+
+[[rose-brink-1967-phase-defined-angular-distributions]] RB67-26 说明 pure-E2 参考对 J3 的 population rank6 可盲；同参考全 photon state 的布居也可给不同 target W。不要把未测 tensor 设零后得到的名义 fullρ 当作独立标定。Group 数超过 normalization/A2/A4 map rank 时，positivity 本身无法认证统一正谱 floor；目标特定下限需另做优化。参考 E2 purity 也不能由 absent K6 自证，original 3→1 triangle 仍允许 M3/E4。保留 source 条件、same-selection 与 physical-model 先验，不把合成 node 赋给真实跃迁。
+
 ## Related Pages
 
 - [[angular-distribution]]

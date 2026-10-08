@@ -1,0 +1,52 @@
+{
+  "protected": {
+    "PLAN.md": true,
+    "system/scripts/run_daily_learning_daemon.py": true,
+    "outputs/learning-milestones/2026-09-one-month-state.json": true
+  },
+  "review": {
+    "knowledge/sources/lange-kumar-hamilton-1982-multipole-admixtures.md": {
+      "metadata_unchanged": true,
+      "old_claim_flags": true,
+      "new_claims_true": true
+    },
+    "knowledge/sources/rose-brink-1967-phase-defined-angular-distributions.md": {
+      "metadata_unchanged": true,
+      "old_claim_flags": true,
+      "new_claims_true": true
+    },
+    "knowledge/observables/multipole-mixing-ratio.md": {
+      "metadata_unchanged": true,
+      "old_claim_flags": true,
+      "new_claims_true": true
+    },
+    "knowledge/methods/spin-parity-assignment.md": {
+      "metadata_unchanged": true,
+      "old_claim_flags": true,
+      "new_claims_true": true
+    },
+    "knowledge/sources/mukhopadhyay-2008-136nd-transition-rates.md": {
+      "metadata_unchanged": true,
+      "old_claim_flags": true,
+      "new_claims_true": true
+    },
+    "knowledge/synthesis/high-spin-lifetime-strength-deformation.md": {
+      "metadata_unchanged": true,
+      "old_claim_flags": true,
+      "new_claims_true": true
+    },
+    "knowledge/sources/kibedi-2008-evaluation-theoretical-conversion-coefficients-bricc.md": {
+      "metadata_unchanged": true,
+      "old_claim_flags": true,
+      "new_claims_true": true
+    }
+  },
+  "raw": {
+    "knowledge/sources/lange-kumar-hamilton-1982-multipole-admixtures.md": true,
+    "knowledge/sources/rose-brink-1967-phase-defined-angular-distributions.md": true,
+    "knowledge/sources/mukhopadhyay-2008-136nd-transition-rates.md": true,
+    "knowledge/sources/kibedi-2008-evaluation-theoretical-conversion-coefficients-bricc.md": true
+  },
+  "old_baseline_reused": true,
+  "passed": true
+}

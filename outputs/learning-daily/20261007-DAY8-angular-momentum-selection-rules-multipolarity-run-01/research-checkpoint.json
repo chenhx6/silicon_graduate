@@ -13,10 +13,10 @@
   ],
   "course_state_updated": false,
   "runtime_snapshot": {
-    "now_local": "2026-10-08T08:30:38.771124+08:00",
-    "clock_tool_checkpoint_utc": "2026-10-08 00:27:24 UTC",
+    "now_local": "2026-10-08T10:21:01.928801+08:00",
+    "clock_tool_checkpoint_utc": "2026-10-08 02:18:13 UTC",
     "hard_deadline": "2026-10-08T15:00:00+08:00",
-    "minutes_to_deadline": 389,
+    "minutes_to_deadline": 278,
     "decision": "continue-current-high-information",
     "day_index": 8,
     "permitted_next_card": "Day9 uncredited only"
@@ -131,13 +131,43 @@
     },
     {
       "id": "day8-high-spin-reference-nullspace",
-      "decision": "selected-bounded-existing-source-L2",
-      "information_gain": "test whether A2/A4 calibration may miss high-spin density modes and fail to certify rmin"
+      "decision": "bounded-route-complete",
+      "next_gain": "75 exact checks and simplex nullspace proof; unseen B6 prevents an inferred quantitative fullrho floor"
     },
     {
       "id": "day8-parity-null-converse",
       "decision": "bounded-primary-complete",
       "information_gain": "one-way source conditions and valid-response control, no physical-parity diagnosis"
+    },
+    {
+      "id": "day8-DCO-ratio-error-extension",
+      "decision": "rejected-low-information-duplicate",
+      "next_gain": "Already covered by95 CP/postselection/denominator floors and companion normalization; no new DCO response/event data supplied"
+    },
+    {
+      "id": "day8-realistic-current-truncation-priors",
+      "decision": "blocked-needs-independent-inputs",
+      "next_gain": "No actual E/R/support tails/kinetic moments/B-floor or total photon-width data; new literature batch for exercise prohibited"
+    },
+    {
+      "id": "day9-real-strength-L4",
+      "decision": "not-ready-preview-boundary",
+      "next_gain": "Quoted tables lack unambiguous branch inventory, independent absolute radiative branching, covariance/stopping/feeding/response package; preview route remains uncredited"
+    },
+    {
+      "id": "day8-total-photon-width-floor",
+      "decision": "bounded-primary-independent-review-complete-supplement-alias-clarification-pending",
+      "next_gain": "44/1184 checks; per-pair width and jointregion independentconditions canonicalized"
+    },
+    {
+      "id": "day8-nongamma-inventory-floor",
+      "decision": "selected-bounded-primary-and-independent-audit",
+      "next_gain": "conditional bridge from total pair width plus independently bounded linked/extra non-gamma channels to positive same-pair photon width"
+    },
+    {
+      "id": "day9-same-parent-strength-ratio",
+      "decision": "selected-uncredited-preview-only",
+      "next_gain": "exact cancellation versus branch-specific corrections and covariance; sameMU08I18parent only"
     }
   ],
   "evidence_gaps": [
@@ -172,15 +202,21 @@
     {
       "knowledge": "knowledge/sources/kibedi-2008-evaluation-theoretical-conversion-coefficients-bricc.md",
       "locator": "pp.207–208 Sec4.1.1–4.1.2 Eq24 and NP/SC continuation; KB08-D8-4"
+    },
+    {
+      "knowledge": "knowledge/sources/rose-brink-1967-phase-defined-angular-distributions.md",
+      "locator": "p316Eq3.24/p317Eq3.28/p318Eq3.29,p320Eqs3.40–41; RB67-21–27 error/reference/helicity controls"
+    },
+    {
+      "knowledge": "knowledge/sources/lange-kumar-hamilton-1982-multipole-admixtures.md",
+      "locator": "p121Eqs2.2–3,p123Eq2.12,p169Eq4.1; LKH82-15–17 current/inventory/width boundaries"
     }
   ],
   "next_actions": [
-    "collect J3 nullspace/node receipt and parent replay",
-    "collect reference17-item independent review",
-    "collect per-helicity general normalization review",
-    "collect same-pair total-photon-width floor alternative",
-    "checkpoint07 explicitmanifest/runner checks/Gitee publication",
-    "15:00 closeout and formalDAY9planprompt"
+    "collect primary and independent review then parent reproduction/writeback",
+    "collect exact control and parent reproduction; preview no credit",
+    "refresh after last science integration, explicitstage and publish",
+    "15:00 final closeout/formalDAY9planprompt/statecontract"
   ],
   "latest_verification": "checkpoint-cascade-strength-checks.json",
   "checkpoint_verified": true,
@@ -200,33 +236,28 @@
   },
   "knowledge_writeback_pages": 7,
   "ongoing_routes": [
-    "J3 reference nullspace/node",
-    "source helicity-normalization independent review",
-    "total-photon-width independent floor route"
+    "Day8 non-gamma inventory floor plus independent audit",
+    "Day9 same-parent ratio/covariance uncredited preview"
   ],
   "latest_publication": {
     "branch": "main",
-    "subject": "Extend DAY8 cascade evidence and strength normalization",
+    "subject": "Bound DAY8 truncation and independent calibration",
     "H3_passed": true,
     "files": 26
   },
   "FO_status": "5 model points, 2 N6-warning points; offline parent replay0 new queries",
   "handover_pending": [
     {
-      "artifact": "population-calibration-error-bound-review.json",
-      "needs": "collect independent review"
+      "artifact": "nongamma-inventory-floor.json",
+      "needs": "collect primary and independent review then parent reproduction/writeback"
     },
     {
-      "artifact": "high-spin-reference-nullspace.json",
-      "needs": "parent replay and canonical writeback"
+      "artifact": "day9-same-parent-strength-ratio.json",
+      "needs": "collect exact control and parent reproduction; preview no credit"
     },
     {
-      "artifact": "nondefinite-parity-control-review.json",
-      "needs": "independent source-scope audit"
-    },
-    {
-      "artifact": "total-gamma-width-truncation.json",
-      "needs": "collect, parent replay and canonical writeback"
+      "artifact": "checkpoint-08-checks.json",
+      "needs": "refresh after last science integration, explicitstage and publish"
     }
   ],
   "learning_window_closed": false,
@@ -253,7 +284,13 @@
     "parity_duality": 99,
     "population_calibration": 96,
     "controlled_four_mode": 72,
-    "nondefinite_parity": 60
+    "nondefinite_parity": 60,
+    "high_spin_reference": 75,
+    "population_review": 54,
+    "total_photon_width": 44,
+    "total_photon_width_independent": 1184,
+    "helicity_scope_review": 44,
+    "photon_width_scope_clarification": 72
   },
   "new_canonical_claims": [
     "KB08-D8-4",
@@ -263,6 +300,7 @@
     "LKH82-14",
     "LKH82-15",
     "LKH82-16",
+    "LKH82-17",
     "LKH82-7",
     "MU08-7",
     "MU08-8",
@@ -275,7 +313,9 @@
     "RB67-22",
     "RB67-23",
     "RB67-24",
-    "RB67-25"
+    "RB67-25",
+    "RB67-26",
+    "RB67-27"
   ],
   "report_and_writeback_updated": true,
   "native_goal_active": true,
@@ -314,5 +354,22 @@
     "parent_replay_exit": 0,
     "tmp_evidence_timestamp_regenerated": true,
     "original_math_receipts_unchanged": true
+  },
+  "population_review": {
+    "items": 12,
+    "grounded_no_op": 12,
+    "material_findings": 0,
+    "independent_checks": 54,
+    "parent_replay_pending": false,
+    "optional_clarifications": 3,
+    "parent_replay_exit": 0
+  },
+  "width_scope_material_documentation_finding": {
+    "count": 1,
+    "primary_required_changes": 0,
+    "frozen_independent_review_checks_did_not_catch_alias": true,
+    "canonical_corrected_per_branch_b_rad": "x*f_i",
+    "parent_clarification_checks": 72,
+    "old_math_receipts_unchanged": true
   }
 }

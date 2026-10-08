@@ -93,6 +93,7 @@ The adopted data table is a critical survey through January 1980, not a homogene
 | LKH82-14 | 同electric type/energy/transition，在所用长波核电算符率公式内，E4/E2率比=(5/23814)(qR)^4|χ|²，χ=M4/(R²M2)需M2非零。小qR必须结合独立矩阵元界才支持此率截断；不单独控制干涉角分布误差或证明真实核素高阶不存在。 | our-inference-with-formula-premise | indirect | printed121/PDF3 Eqs2.2/2.3a–b；RB67 printed313–314/PDF8–9 Eq3.12与footnote9、p318/PDF13 Eqs3.29–3.30与footnote12；46-check hierarchy | true |
 | LKH82-15 | Eq2.3c的orbital l是作用于态的导数；hard radius/归一和small totalJ不能直接继承electric multiplication范数界。固定2→1的two-orbital形式反例可有增长RME，物理域需另控orbital/kinetic moments与nonrel/current有效性，不预测真实低能强度无界。 | our-inference-with-operator-premise | indirect | printed121/PDF3 Eqs2.3a/c；p125/PDF7 Eq3.9、p127/PDF9 generator-only scope；54-check magnetic domain/CG/6j/Racah重构 | true |
 | LKH82-16 | 对同一 2+→2+ 的 M1/E2 截断，独立 hard-support、磁 moment/domain 与正 E2 floor 可条件性界定完整 M3+E4 被省 photon-rate 份额及绝对测量误差；未给实际先验，不认定真实截断已有效。 | our-inference-with-operator-premise | indirect | printed p.121/PDF3 Eqs.2.2–2.3c；72-check conjugated M3 gradient Gram、B/units/rate budget；RB67-21/22 的条件误差界 | true |
+| LKH82-17 | 同一 pair 的独立总 photon-width floor 与完整 omitted-width ceiling 可替代 E2 floor；严格 Γγmin>Uom 才自动保证 retained 归一态。真正 absolute radiative branch 与 meanτ 可条件给 floor，total branch/photon-relative intensity 不直接提供它；联合宽度域可更强。 | our-inference-with-rate-premise | indirect | printed p.121/PDF3 Eqs.2.2–2.3、p.123/PDF5 Eq.2.12、p.169/PDF51 Eq.4.1；RB67 p.318/PDF13 Eq.3.29；44-check primary/independent joint-width proof | true |
 
 ## Collective M1 Zero, Perturbation Order and Transfer Conditions
 
@@ -350,7 +351,30 @@ u=u_3+u_4,\qquad\varepsilon\le\frac{u}{1+u}.
 
 因为 Γret≥C2 q⁵B2min、Γom≤C3 q⁷BM3max+C4 q⁹BE4max，此 ε 是全部被省 photon-rate 份额。按 [[rose-brink-1967-phase-defined-angular-distributions]] RB67-21/22，同一 bounded probability effect 的绝对误差≤√[u/(1+u)]；同有限 emitted subspace 的 angular-average-one W 绝对误差≤5√[u/(1+u)]。它不保证 refitted δ/ρ 的参数误差、节点相对误差、条件偏振比、total lifetime 或 nonγ channel。
 
-B2min 缺失/趋零、orbital moment/domain 未控或 support-tail/current 修正未界定时，这条证明不能认证截断。固定有效先验下 q→0+ 是代数极限；q=0 没有归一发射态。由目标截断拟合倒推自身 E2 floor 或布居，不能充当独立 prior。72 项 parent 复现已通过；原先验 receipts 保持 immutable，独立审计另留证。此处没有实际 E/R/current/strength 输入或真实核截断结论，仍为 L2。
+B2min 缺失/趋零、orbital moment/domain 未控或 support-tail/current 修正未界定时，这条证明不能认证截断。固定有效先验下 q→0+ 是代数极限；q=0 没有归一发射态。由目标截断拟合倒推自身 E2 floor 或布居，不能充当独立 prior。72 项 parent 复现已通过；独立17项审计为 grounded no-op，18项独立算术事实经 parent 复现一致。原数学先验 receipts 保持 immutable；temporary audit evidence 的 replay timestamp 重生成已另留证。此处没有实际 E/R/current/strength 输入或真实核截断结论，仍为 L2。
+
+## An Independent Total Photon Width Can Replace the E2 Floor
+
+LKH82-16 的 numerator 条件仍要成立，但 retained floor 可从另一独立输入得到。定义 g=Γγ=Γret+Γom 为**这同一 pair 的全部 photon 多极宽度**，不含电子/E0、不含到别的末态的 γ、不等同 total parent width。Γ=hbar T 是能量宽度，floor/ceiling 采用同单位。另有独立 g≥gmin>0 和 0≤Γom≤Uom，直接给
+
+\[
+\varepsilon=\frac{\Gamma_{\rm om}}g\le\min(1,U_{\rm om}/g_{\min}),\qquad
+\Gamma_{\rm ret}\ge\max(0,g_{\min}-U_{\rm om}).
+\]
+
+只有 Uom<gmin 才从这些边际界自动保证 retained>0，并得 Γom/Γret≤Uom/(gmin−Uom)。因此 retained M1>0、E2=0 也能使用该路线，E0/E2 ratio chart 则须换成直接率。Uom=gmin 或更大时，pure omitted 即可满足边界，normalized retained reference 不被保证；不能用 ε≤1 给不存在的 reference 赋状态。
+
+共同 initialρ、固定 current/retained amplitudes 和共同 normalized radiation mode/明确 angular-shell space 下，RB67-21/22 给 probability error≤√(Uom/gmin) 与固定 2→2 的 absolute W error≤5√(Uom/gmin)。0<ηP<1 时 Uom≤ηP²gmin 是 sufficient tolerance rule；等号允许并仍保证 positive retained。它不控制 parent absolute yield、δ sign、refitted parameters、时间波包/line shape 或条件偏振分母。
+
+若独立支持的是 jointly feasible width set F，应保留相关关系。Γret,min=infF(g−o)>0 与 εmax=supF(o/g)<1（g>0、0≤o≤g）是可用的联合证书；前者保障归一态，后者给统一 state-error ceiling。例 g∈[1,2]、o=g−1/4 有 retained=1/4、εmax=7/8，即使把 marginal gmin=1、Uom=7/4 分开会裁成 ε≤1。该例是理想代数约束，没有 confidence coverage 数据。
+
+从 parent mean lifetime τ 到 same-pair photon width 的桥梁是绝对辐射分支 b_rad=Tpair,γ/Tparent,total，即每次母态衰变产生**该跃迁 photon**的概率：g=hbar b_rad/τ，photon partial τγ=τ/b_rad。Half-life 先转换 τ=T1/2/ln2。独立 joint region 中 inf(b_rad/τ)>0 才建立 floor；一个 enclosing rectangle b_rad≥bmin>0、τ≤τmax 可保守取 hbar bmin/τmax，其 corner 未必 joint feasible。Bare error bars/covariance 不自动给 confidence coverage。
+
+反例率账本以 Γref=hbar/τref 归一：0<t≤1/100，target photon=t、target E0=1/2−t，other photon=t、other nonγ=1/2−t；target M1/M3 各 t/2，E2/E4=0。Parent τ=τref、target total branch=1/2、photon-relative target intensity=1/2 均固定，而 target g=tΓref→0、ε=1/2。把 total branch 当 b_rad 错给 gmin=Γref/2 和 ε≤1/50。这里总率均非负但没有核素、atomic coefficient 或微观 realization；没有声称真实 IC 为零。
+
+失败也不依赖普通 IC 被置零：取 photon fractions f=(1/4,3/4)、total branches b=(3/5,2/5)、纯教学 conversion factors α=(1/5,3/10)。令 Γγ,i/Γref=x fi、ΓIC,i=αiΓγ,i、extra_i/Γref=bi−(1+αi)x fi，0<x≤16/39。所有 rates 非负、parent width1、photon-relative fractions f 不变，**每条** target 的 b_rad,i=x fi→0，而 parent 全 photon fraction 是 x。Same-pair Γγ,i=hbar x fi/τref；sum hbar x/τref 不能换作某条 target 的宽度。α 数值没有任何实际原子来源，extra 未被任意赋作允许 E0；只证明粗输入不认证 photon floor 的 formal inventory 边界。
+
+44 项 primary 与1,184项独立审计已 parent 复现；primary 无需修正。父代理在独立补充 positive-IC ledger 发现 b_rad 字段表示 parent 全 photon fraction 的命名漂移，canonical 已按上式区分 per-pair 与 sum，独立72项范围澄清已 parent 复现并另留 immutable receipt；不把检查数当作该别名已经验证。没有实际 photon floor、omitted-current ceiling 或完整 branching/confidence data，仍是 L2 条件知识。
 
 ## Human Review Triage
 

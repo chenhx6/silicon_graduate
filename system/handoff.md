@@ -10,11 +10,11 @@ updated: 2026-10-08
 
 当前任务是正式 Day8；card content 已以 prompt-primed recall、两 source 原图/约定核对、三题完整多极和观测依赖独立通过，学习窗口仍开放，原生 goal active。Day8 日报：outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity.md；正式 run：同名 multipolarity-run-01。保留原始 baseline.json 的 562 页哈希。课程 state 仍 next=8/count=7，completed=[8]、partial=[9]；Day9 仅知识预习，未开展 Day10。
 
-当前 branch main；已发布稳定指针是 Extend DAY8 cascade evidence and strength normalization（第六26-file检查点，Gitee非force/H3通过，hash只在run.json）。本次第七检查点的 commit subject 为 Bound DAY8 truncation and independent calibration。15:00正式收束、最终state推进和DAY9 plan/prompt尚未进行；不得把窗口内commit当作课程final。
+当前 branch main；已发布稳定指针是 Bound DAY8 truncation and independent calibration（第七26-file检查点，Gitee非force/H3通过，hash只在run.json）。本次第八检查点的 commit subject 为 Audit DAY8 reference coverage and photon width bounds。15:00正式收束、最终state推进和DAY9 plan/prompt尚未进行；不得把窗口内commit当作课程final。
 
-最新科学增量：95/329 truncation probability/finite-density bounds、54 magnetic domain、99 parity-duality cascade、96 independent J2 reference floor、72 complete M3/E4 omission、60 parity-null-converse均parent复现，知识已写到RB67-21–25/LKH82-15–16及observable/method，日报唯一七页writeback已同步。Independent controlled-budget/reference reviews仍需收receipt；唯一新selected route为J3 pure-E2 reference的高阶population nullspace。参数/模型条件、no microscopic realization和旧review flags保持；缺实际response/covariance/priors，不进入L4。
+最新科学增量：95/329 truncation probability/finite-density bounds、54 magnetic domain、99 parity-duality cascade、96 independent J2 reference floor、72 complete M3/E4 omission、60 parity-null-converse均parent复现，知识已写到RB67-21–25/LKH82-15–16及observable/method，日报唯一七页writeback已同步。Independent controlled-budget/reference reviews已parent复现；J3 pure-E2 reference高阶盲区75、helicity-scope44、photonfloor44/1184及material supplement-scope72都已writeback到RB67-26/27、LKH82-17。当前selected是nonγ inventory floor与Day9同母态ratio/covariance的唯一无学分路线。参数/模型条件、no microscopic realization和旧review flags保持；缺实际response/covariance/priors，不进入L4。
 
-硬截止2026-10-08T15:00:00+08:00，15:00–16:00收束并生成正式DAY9。Clock PID110255/Farmer87927仍用既有进程；以clock-state和Farmer state核实际在线/取消，queued不等于executed。旧checkpoint-003已在10-07 17:41实执行，不沿用其06:19快照。当前07:47 fresh clock还有约433分钟。无用户停止记录，不新建session或从提醒重启daemon。
+硬截止2026-10-08T15:00:00+08:00，15:00–16:00收束并生成正式DAY9。Clock PID110255/Farmer87927仍用既有进程；以clock-state和Farmer state核实际在线/取消，queued不等于executed。旧checkpoint-003已在10-07 17:41实执行，不沿用其06:19快照。最新10:33 fresh clock还有约267分钟，clock已queue17条、observed execution3条；等待不计研究时长。无用户停止记录，不新建session或从提醒重启daemon。
 
 保护：raw、PLAN、受保护BibTeX、继承dirty daemon、旧run目录与全部review状态不变。独占数学receipt immutable，source_code/replay的input SHA不得因加metadata漂移。P0技术阻塞无；科学missing priors、branch定义/feeding/covariance和physical realization由Codex跟踪，不转成泛化用户待办。
 

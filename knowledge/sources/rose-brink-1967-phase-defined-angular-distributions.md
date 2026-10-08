@@ -83,6 +83,8 @@ tags: [Rose-Brink, angular-distribution, phase-convention, mixing-ratio, alignme
 | RB67-23 | First-transition E/M全体duality使A′q=qAq；first方向已tag而其pol未测/只circ-selected时，middleR和任意fixed photon2 measurement同。Firstlinear tag可交换joint信息；不能把γ2pol直接计作γ1E/M独立证据或用普适polsign赋宇称。 | our-inference | indirect | premises printed316/PDF11 Eq3.24 q^π/Jones、p318/PDF13 Eq3.29、pp325–326/PDF20–21 Eqs3.65–3.73 first-population/secondary-response；99-check parity/cascade控制 | true |
 | RB67-24 | 同选样、同初态密度的独立参考线可在指定 J=2 symmetric-diagonal 模型中校准布居；独立谱界给 W 的下限和截断误差界。参考拟合自身不认证未知 orientation/coherence、响应或下游条件态。 | our-inference | indirect | printed p.316/PDF11 Eq.3.24、p.317/PDF12 Eq.3.28、p.318/PDF13 Eq.3.29、p.319/PDF14 Eq.3.36；96-check affine inverse/CG/spectral reconstruction | true |
 | RB67-25 | 确定核态宇称与 alignment 是 odd-K 消失的充分条件，不能逆推；放松核态确定宇称的 J=1/2 E1/M1 控制可角分布 isotropic 但 circular polarization 非零。响应也可制造 odd accepted shape。 | our-inference | indirect | printed p.320/PDF15 Eqs.3.40–3.41 的不同假设；p.316/PDF11 Eq.3.24、p.318/PDF13 Eq.3.29；60-check CG/Jones/null-converse reconstruction | true |
+| RB67-26 | J=3 symmetric-diagonal 母态的 pure-E2 参考存在 rank6 population 盲区；两不同PSD布居可有完全相同 reference photon marginal，目标完整 E2/M3/E4 却有沿轴节点。仅 positivity 或该参考不能认证统一谱下限，不推论所有目标有节点。 | our-inference | indirect | printed p.316/PDF11 Eq.3.24、p.317/PDF12 Eq.3.28、p.318/PDF13 Eq.3.29、p.319/PDF14 Eqs.3.36–3.37 的 rank cap；75-check CG/reference nullspace/target node | true |
+| RB67-27 | 一般同-rank E/M coherent extension 的 fullΩ helicity fractions 为 (S+2qReX)/(2S)，X=ΣL aEL aML*；per-q equality 当且仅当 ReX=0。Definite parity 是充分条件，integrated orientation 不决定它；总 Γγ=4kS 保留。 | our-inference | indirect | p.316/PDF11 Eq.3.24、p.318/PDF13 Eqs.3.29/3.32/3.34、p.320/PDF15 Eqs.3.40–3.41；44-check independent fullΩ/CG/rho proof | true |
 
 ## Summary
 
@@ -432,7 +434,9 @@ W_R(n)\ge d r_{\min},\qquad
 
 合成 benchmark p=(1/4,1/4,1/2) 给 A2=−5/56、A4=−2/7、ρ 谱区间 [1/8,1/4]；因而 W_R≥5/8，绝对误差≤(5/8)√ε，相对误差≤√ε。各常数是理想模型的保守界，没有测量误差条或核素身份。ρ=I/d 时范围宽度为0，所有该类单γ W 都是1；这不消除级联中的信息。
 
-轴对称本身不保证 w(+M)=w(−M)，unpolarized definite-parity 参考线不能独自排除隐藏 orientation；coherence、axis、feeding、gate、时间窗与 response 均需独立支持。同一 prepared 母态谱界不自动适用于 γ1 选样后的中间条件态，后者可有 coherence 或较小 success probability。96 项精确核验已由父代理复现，结论归为 L2；独立审计回执另保存，不扩展 human review。
+这里 inherited 的归一截断域仍是 S_R>0、0≤ε<1。可行联合 confidence region 与 physical simplex 的交集可用于下限认证；把中心估计投影进 simplex 是另一估计程序，不自动提供该 confidence region。若预测时另用共同 spin-space 内的 PSD/trace1 估计 ρhat 而非同一真实 ρ，必须另加布居误差：对 fixed retained map，概率误差至多 √ε+D(ρ,ρhat)，finite-space W 的误差至多 κ[√ε+D(ρ,ρhat)]；对 diagonal group 模型 D=(1/2)Σ|p−phat|。上述是 triangle/isometry 的条件界，不是实际误差条。
+
+轴对称本身不保证 w(+M)=w(−M)，unpolarized definite-parity 参考线不能独自排除隐藏 orientation；coherence、axis、feeding、gate、时间窗与 response 均需独立支持。同一 prepared 母态谱界不自动适用于 γ1 选样后的中间条件态，后者可有 coherence 或较小 success probability。96 项精确核验及54项独立审计已由父代理复现；独立12项判断为 grounded no-op，三项可选条件已显式说明。结论归为 L2，不扩展 human review。
 
 ## Odd-K Null Conditions and Their Converse
 
@@ -451,6 +455,75 @@ P_{\rm circ}=\frac{v+p\cos\theta}{1+pv\cos\theta},\quad q=\pm1.
 全角与 helicity 求和后总率仍正比 |a0|²(1+|η|²)，不含相对干涉项；但各 helicity 的积分份额为 (1+qv)/2。p.318 Eq.3.29 旁文所述 per-q equality 没有在该明确放松模型中沿用，helicity-summed total-width 关系保留。原文关于 continuum overlapping opposite-parity resonances 的 footnote13 是适用范围提示，本控制未构造这类核态。
 
 合法响应 e_det(c)=(1/2)[1+(2/5)c]，c=cosθ，可把健康 Wtrue=1 的 normalized accepted profile 变成 1+(2/5)c，效率在 [3/10,7/10]。这只匹配未分偏振角形状，没有匹配 circular 数据或完整 photon state。观测到 odd counts 仍需独立 response、axis/population 与 coherent-amplitude 条件；没有据此诊断实际 parity mixing、PNC 或 EM parity violation。60 项精确检查经父代理复现，并定向复看 p.318/320 原图；仍为 L2。
+
+## A Higher-Spin Reference Does Not Certify the Population Floor
+
+沿用原合成 C 的 Ji=3→Jf=1 目标，另取同母态的 pure-E2 参考作条件控制；reference/target 是可区分末态标签的 formal operators，不把同一物理支同时宣称为 pure 和 mixed。两支各自固定其 photon energy/radial mode；本模型没有核素、能量或微观 realization。参考的 E2 purity 必须独立给定，因为 3→1 的 triangle 也允许 M3/E4，缺少 K6 不自证 purity。
+
+ρ 为轴对称、对角且 w(−M)=w(M)，group p=(p0,p1,p2,p3)，w0=p0、w±m=pm/2。以下 B_K 是布居统计张量，不是约化强度 B(EL)。Eq.3.24 的 CG 重构给 normalized 参考系数
+
+\[
+A_2=\frac47p_0+\frac37p_1-\frac57p_3,\qquad
+A_4=-\frac47p_0-\frac2{21}p_1+\frac23p_2-\frac27p_3.
+\]
+
+把 normalization 和这两式合成 3×4 矩阵，其 rank=3、null direction 为 v=(−10,15,−6,1)。来自 Eq.3.28 的 population B6 沿 v 的变化是7√33；但 pure L2 的 photon-response rank≤4，参考 R6=0。把结构恒零的 A6=0 当作新人口观测，仍没有增加矩阵 rank。
+
+| 同一参考的布居控制 | p | B6 | ρ 的最小本征值 |
+|---|---|---|---|
+| 各向同性 | (1,2,2,2)/7 | 0 | 1/7 |
+| 边界控制 | (0,1/2,1/5,3/10)=piso+v/70 | √33/10 | 0 |
+
+两态均 normalized/PSD、B2=B4=0，因此完整参考曲线均 Wref=1。进一步由 15×7 的 emission isometry V†V=I7，trace 未测 final spin 后，两 reference photon marginal 都是同一个 E2 五维空间的 I5/5。它们不只在两个角系数上相同，任意同一单参考 photon measurement 在此共同 mode 模型内都相同。未声称 nuclear–photon joint state、daughter gate、other channel 或 temporal state 等价。
+
+目标沿轴 θ=0 的三成分 mode Gram 为
+
+\[
+G_{\rm iso}=I_3,\qquad
+G_{\rm edge}=\begin{pmatrix}
+1&0&-\sqrt{10}/5\\
+0&7/16&7\sqrt{35}/80\\
+-\sqrt{10}/5&7\sqrt{35}/80&81/80
+\end{pmatrix},\qquad
+\operatorname{spec}G_{\rm edge}=(0,7/10,7/4).
+\]
+
+归一 u=(1/√7,−1/√2,√(5/14)) 的顺序是 (E2,M3,E4)，各成分非零，Gedge u=0。于是同 u 的 Wtarget(0) 在两布居下分别为1与0：±3 在沿轴方向没有合法 Mf+q 路径，剩余 ±1/±2 的响应可由该 u 同时抵消，而 edge 的 p0=0。另一个 pure-E2 target 控制仍有 W=1；rmin=0 不意味着所有目标都出现节点。 该方向节点也不是跃迁总率为零：固定共同的 a0≠0、k>0 和该 u，Eq.3.29 的 integrated photon width 对两布居相同且为正，W 的角平均仍为1。不能把方向零点标成 selection-rule forbidden 或据其赋 hindered strength。该说明依据 p.318 Eq.3.29 与同固定幅度比较。
+
+更强的边界是 p(s)=piso+s v/70，0≤s<1。其所有 group/individual weights 严格为正、reference photon state 完全同，p0=(1−s)/7→0，指定 target W(0)=1−s→0。即使额外说“初态 full rank”，仍没有从这组参考数据获得可量化、统一的正谱 floor。
+
+一般线性理由也可直接说明：unoriented diagonal spin-J group 数 n=floor(J)+1，pure E2 参考只给 normalization、A2、A4，线性 map rank≤3。n>3 时，从任意 interior feasible p 取非零 null vector v；Σv=0 使其含正负分量，沿 v 到 t*=min(vk<0)pk/(−vk) 即到 simplex 边界，仍保持所有参考系数。故无额外 population prior 时，这种数据不能认证 fullρ 的统一正谱下限。这个论证针对 fullρ floor，目标特定 W 下限可以另做直接优化，不能一概宣布不存在。
+
+75 项 exact CG、积分、完整单参考 photon marginal、nullspace 和 target-node 检查经父代理复现。结论要求 prior purity/symmetry/axis/selection/response 证据，不替代真实 calibration 或核素 spin/parity 赋值；仍为 L2。
+
+## Full-Angle Helicity Normalization in the General Coherent Extension
+
+独立审计将 RB67-25 的唯一 spin-half 控制提升为同一 fixed pair 的一般条件，不添加核素或物理 state realization。取 aEL/aML 为 Eq.3.24/3.39 的 normalized photon-interaction amplitudes，固定共同 k>0、energy/radial channel、complete final-Mf sum 与 full solid angle。初态ρ可为任意 PSD/trace1 的 fixed-Ji 矩阵，允许 orientation/coherence。L≥1 为 photon rank，μ=Mi−Mf 为 tensor component，q=±1 为 helicity；三者分别索引。
+
+同 q 的 Wigner D orthogonality 是
+
+\[
+\int d\Omega\, D^L_{\mu q}(\phi,\theta,0)
+ D^{L'\,*}_{\mu' q}(\phi,\theta,0)
+=\frac{4\pi}{2L+1}\delta_{LL'}\delta_{\mu\mu'}.
+\]
+
+这由 SO(3) Haar orthogonality 得到：同 q 的第三 Euler 相位在乘积中抵消，第三角积分供2π。它消除不同 rank/component，**不消除同 rank 的 E/M coherent cross term**。同 Mf 下 μ=μ′ 又给 Mi=Mi′，然后每 Mi 的 CG 平方和为1，ρ 的 trace为1，故 integrated result 不依赖初态 orientation/coherence。Eq.3.32/3.34 的 K0、B0=1 给相同轴对称对照。
+
+令 S=ΣL(|aEL|²+|aML|²)>0、X=ΣL aEL aML*，q^π 提供 aEL+q aML。Source amplitude normalization（p.316 Eq.3.24；p.318 Eqs.3.32/3.34）给
+
+\[
+T_q=\frac{2k}{\hbar}\sum_L|a_{EL}+q a_{ML}|^2
+=\frac{2k}{\hbar}(S+2q\operatorname{Re}X),\quad
+f_q=\frac{S+2q\operatorname{Re}X}{2S},\quad
+T_{\gamma}=\frac{4k}{\hbar}S,\quad\Gamma_{\gamma}=4kS.
+\]
+
+因此两 helicity 的 inclusive rate 相等当且仅当 ReX=0。EM 保宇称且初末态有确定宇称时，每个 L 只留一个 E/M type，X=0，是充分条件；quadrature phases 或跨 rank cancellation 也可使 ReX=0，不能逆推确定宇称。S±2ReX=Σ|aEL±aML|²≥0 保证 f 在 [0,1]；S=0 没有发射概率归一。Isotropic initialρ 本身不去掉 same-L cross term。
+
+据此，p.318 Eq.3.29 旁文的 integrated per-q independence 在这个明确 coherent extension 中需要 zero-real-cross 条件；通常 definite-parity 用法满足它。限定该旁文的应用不等于否定总率 formalism。Eq.3.29 helicity-summed width 保持，寿命不恢复 cross phase/sign。
+
+Bra/ket 翻转须连同 source adjoint/phase map；一致复共轭两 amplitude 保持 ReX，任意单独重相位一个 type 却固定 operator/q factor 会改变模型。Different energy、distinguishable final state、different current ensemble 或 gated/incomplete-angle measurement 须重建 coherence/response，不能直接沿用 inclusive f_q。本节未假设 unspecified Hamiltonian 的 time reversal，未推 PNC、EM parity violation 或真实 parity mixing。44项独立 fullΩ/CG/operator-scalar/single-control checks经父代理复现；原60 producer没有重执行或重写，仍L2。
 
 ## Human Review Triage
 

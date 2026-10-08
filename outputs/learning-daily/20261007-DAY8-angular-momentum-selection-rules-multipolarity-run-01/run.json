@@ -41,10 +41,10 @@
     "preflight_exit": 0
   },
   "last_closeout_snapshot": {
-    "now_local": "2026-10-08T08:30:38.771124+08:00",
-    "clock_tool_checkpoint_utc": "2026-10-08 00:27:24 UTC",
+    "now_local": "2026-10-08T10:21:01.928801+08:00",
+    "clock_tool_checkpoint_utc": "2026-10-08 02:18:13 UTC",
     "hard_deadline": "2026-10-08T15:00:00+08:00",
-    "minutes_to_deadline": 389,
+    "minutes_to_deadline": 278,
     "decision": "continue-current-high-information",
     "day_index": 8,
     "permitted_next_card": "Day9 uncredited only"
@@ -314,16 +314,32 @@
       "run_finalized": false,
       "H3_passed": true,
       "files": 26
+    },
+    {
+      "branch": "main",
+      "commit_subject": "Bound DAY8 truncation and independent calibration",
+      "commit_hash": "87aad349a8516d7b63432d8bf3b094fd9a7f8f78",
+      "remote": "origin (Gitee)",
+      "refspec": "HEAD:main",
+      "fetch_exit": 0,
+      "remote_ancestor_exit": 0,
+      "dry_run_exit": 0,
+      "push_exit": 0,
+      "post_push_head_matches_remote_main": true,
+      "post_commit_files_match_manifest": true,
+      "published_at": "2026-10-08T08:58:15.796486+08:00",
+      "publication_kind": "continuing-checkpoint",
+      "run_finalized": false,
+      "H3_passed": true,
+      "files": 26
     }
   ],
   "continuation_prompt_file": "/workspace/wiki/outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/continuation-prompt.md",
   "pending_research": [
-    "collect J3 nullspace/node receipt and parent replay",
-    "collect reference17-item independent review",
-    "collect per-helicity general normalization review",
-    "collect same-pair total-photon-width floor alternative",
-    "checkpoint07 explicitmanifest/runner checks/Gitee publication",
-    "15:00 closeout and formalDAY9planprompt"
+    "Day8 non-gamma inventory floor plus independent audit",
+    "Day9 same-parent ratio/covariance uncredited preview",
+    "nextcheckpoint08",
+    "15:00closeout"
   ],
   "pending_clock_delivery_count": 13,
   "observed_clock_executions": [
@@ -466,13 +482,43 @@
     },
     {
       "id": "day8-high-spin-reference-nullspace",
-      "decision": "selected-bounded-existing-source-L2",
-      "information_gain": "test whether A2/A4 calibration may miss high-spin density modes and fail to certify rmin"
+      "decision": "bounded-route-complete",
+      "next_gain": "75 exact checks and simplex nullspace proof; unseen B6 prevents an inferred quantitative fullrho floor"
     },
     {
       "id": "day8-parity-null-converse",
       "decision": "bounded-primary-complete",
       "information_gain": "one-way source conditions and valid-response control, no physical-parity diagnosis"
+    },
+    {
+      "id": "day8-DCO-ratio-error-extension",
+      "decision": "rejected-low-information-duplicate",
+      "next_gain": "Already covered by95 CP/postselection/denominator floors and companion normalization; no new DCO response/event data supplied"
+    },
+    {
+      "id": "day8-realistic-current-truncation-priors",
+      "decision": "blocked-needs-independent-inputs",
+      "next_gain": "No actual E/R/support tails/kinetic moments/B-floor or total photon-width data; new literature batch for exercise prohibited"
+    },
+    {
+      "id": "day9-real-strength-L4",
+      "decision": "not-ready-preview-boundary",
+      "next_gain": "Quoted tables lack unambiguous branch inventory, independent absolute radiative branching, covariance/stopping/feeding/response package; preview route remains uncredited"
+    },
+    {
+      "id": "day8-total-photon-width-floor",
+      "decision": "bounded-primary-independent-review-complete-supplement-alias-clarification-pending",
+      "next_gain": "44/1184 checks; per-pair width and jointregion independentconditions canonicalized"
+    },
+    {
+      "id": "day8-nongamma-inventory-floor",
+      "decision": "selected-bounded-primary-and-independent-audit",
+      "next_gain": "conditional bridge from total pair width plus independently bounded linked/extra non-gamma channels to positive same-pair photon width"
+    },
+    {
+      "id": "day9-same-parent-strength-ratio",
+      "decision": "selected-uncredited-preview-only",
+      "next_gain": "exact cancellation versus branch-specific corrections and covariance; sameMU08I18parent only"
     }
   ],
   "last_recoverable_checkpoint": "research-checkpoint.json",
@@ -497,14 +543,14 @@
   },
   "latest_publication_pointer": {
     "branch": "main",
-    "subject": "Extend DAY8 cascade evidence and strength normalization",
+    "subject": "Bound DAY8 truncation and independent calibration",
     "H3_passed": true
   },
   "latest_runtime_snapshot": {
-    "now_local": "2026-10-08T08:30:38.771124+08:00",
-    "clock_tool_checkpoint_utc": "2026-10-08 00:27:24 UTC",
+    "now_local": "2026-10-08T10:21:01.928801+08:00",
+    "clock_tool_checkpoint_utc": "2026-10-08 02:18:13 UTC",
     "hard_deadline": "2026-10-08T15:00:00+08:00",
-    "minutes_to_deadline": 389,
+    "minutes_to_deadline": 278,
     "decision": "continue-current-high-information",
     "day_index": 8,
     "permitted_next_card": "Day9 uncredited only"
@@ -525,6 +571,24 @@
       "clock_tool_checkpoint_utc": "2026-10-08 00:27:24 UTC",
       "hard_deadline": "2026-10-08T15:00:00+08:00",
       "minutes_to_deadline": 389,
+      "decision": "continue-current-high-information",
+      "day_index": 8,
+      "permitted_next_card": "Day9 uncredited only"
+    },
+    {
+      "now_local": "2026-10-08T09:25:24.278200+08:00",
+      "clock_tool_checkpoint_utc": "2026-10-08 01:16:13 UTC",
+      "hard_deadline": "2026-10-08T15:00:00+08:00",
+      "minutes_to_deadline": 334,
+      "decision": "continue-current-high-information",
+      "day_index": 8,
+      "permitted_next_card": "Day9 uncredited only"
+    },
+    {
+      "now_local": "2026-10-08T10:21:01.928801+08:00",
+      "clock_tool_checkpoint_utc": "2026-10-08 02:18:13 UTC",
+      "hard_deadline": "2026-10-08T15:00:00+08:00",
+      "minutes_to_deadline": 278,
       "decision": "continue-current-high-information",
       "day_index": 8,
       "permitted_next_card": "Day9 uncredited only"

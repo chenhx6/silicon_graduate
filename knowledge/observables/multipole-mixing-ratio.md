@@ -245,6 +245,18 @@ RB67-24 的独立同母态 pure-E2 reference 只在 J=2 symmetric-diagonal 模�
 
 RB67-25 区分 odd-K 消失的充分条件与逆命题。放松核态确定宇称的同 rank E1/M1 形式控制可 W isotropic 而 circular polarization 非零；accepted odd counts 又可由合法响应制造。没有 odd K 不证明 parity，odd counts 也不独自证明 parity mixing。来源条件、η 的 interaction-amplitude 单位/相位和未作实验推断的边界见 [[rose-brink-1967-phase-defined-angular-distributions]]。以上均为 L2 自审知识。
 
+### 高自旋参考的未测布居不能默认为零
+
+RB67-26 的 same-parent J3 pure-E2 控制中，两个不同 PSD 布居给同一完整参考 photon marginal I5/5，但同 full E2/M3/E4 target 的沿轴 W 可为1或0。严格正布居族仍让该 W 趋零，reference A2/A4 不能认证 quantitative population floor。不能把 reference 的 structural K6=0 写成 population B6=0；purity、symmetric-diagonal 模型、选样和响应须独立支持。只有独立高 rank 信息或可信 population priors 才可能补足缺口，未证明任意新增观测足够。完整矩阵/证明与单 photon/joint/physical-realization 边界见 [[rose-brink-1967-phase-defined-angular-distributions]]。
+
+### Positive retained rate 不必由 E2 floor 提供
+
+LKH82-17 给另一条件路线：同-pair 总 photon width 独立下限 gmin 与 complete omitted upper Uom 在 Uom<gmin 时保证 Γret>0，即使 E2=0 也可保留 M1。ε≤Uom/gmin 后接既有 √ε probability/finite-density 界。Marginal clipping 到1不保证 retained态存在；joint width region 应保留相关性。所需 gmin 可由 truly absolute same-pair radiative branch/meanτ 条件导出，不能把 total branch、parent photon-width sum 或 photon-normalized intensity 直接替换。定义、failure ledger、units 与未认证真实priors的边界见 [[lange-kumar-hamilton-1982-multipole-admixtures]]。
+
+### Helicity 积分相等也需核对 coherence 条件
+
+RB67-27 从 fullΩ/complete final-spin 积分给任意初态ρ的 fq=(S+2qReX)/(2S)，X=ΣL aEL aML*。两 inclusive helicity 相等 iff ReX=0；确定宇称限制通常保证它，isotropic布居单独不保证，零差也不能逆推宇称。Total width 仍是4kS，不恢复 phase/sign。Amplitudes 是 source photon-interaction quantities，不能将 E1/M1 coherent control 写作核 E2/M1 的0.835 ratio。详见 [[rose-brink-1967-phase-defined-angular-distributions]] 的相位、inclusive与gated范围说明。
+
 ## How It Is Obtained
 
 可由角分布、角关联/DCO、线偏振和内转换系数与理论响应比较得到。

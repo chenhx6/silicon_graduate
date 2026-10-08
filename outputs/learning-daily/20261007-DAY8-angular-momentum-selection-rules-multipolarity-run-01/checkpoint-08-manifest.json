@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "run_id": "prompt-2026-10-07-day-08",
+  "day_index": 8,
+  "branch": "main",
+  "commit_subject": "Audit DAY8 reference coverage and photon width bounds",
+  "publication_kind": "continuing-checkpoint",
+  "owned_files": [
+    "knowledge/methods/spin-parity-assignment.md",
+    "knowledge/observables/multipole-mixing-ratio.md",
+    "knowledge/sources/lange-kumar-hamilton-1982-multipole-admixtures.md",
+    "knowledge/sources/rose-brink-1967-phase-defined-angular-distributions.md",
+    "knowledge/synthesis/high-spin-lifetime-strength-deformation.md",
+    "outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity.md",
+    "system/handoff.md",
+    "outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/run.json",
+    "outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/research-checkpoint.json",
+    "outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/progress.jsonl",
+    "outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/continuation-prompt.md",
+    "outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/checkpoint-08-checks.json",
+    "outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/checkpoint-08-protection-audit.json",
+    "outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/checkpoint-08-manifest.json",
+    "outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/high-spin-reference-nullspace.json",
+    "outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/population-calibration-error-bound-review.json",
+    "outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/nondefinite-parity-control-review.json",
+    "outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/total-gamma-width-truncation.json",
+    "outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/total-gamma-width-truncation-review.json",
+    "outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/total-gamma-width-review-scope-clarification.json",
+    "outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/late-retrieval-record.md"
+  ],
+  "state_updated": false,
+  "run_finalized": false,
+  "protected_baseline": "baseline.json",
+  "input_receipts_immutable": true,
+  "ongoing_routes": [
+    "non-gamma inventory floor",
+    "Day9 same-parent ratio/covariance uncredited"
+  ]
+}

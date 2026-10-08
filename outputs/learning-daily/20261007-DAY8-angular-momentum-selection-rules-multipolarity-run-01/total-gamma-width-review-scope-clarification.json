@@ -1,0 +1,312 @@
+{
+  "schema_version": 1,
+  "artifact_kind": "Day8-independent-review-supplement-photon-inventory-scope-clarification",
+  "status": "confirmed-material-documentation-finding; corrected-per-branch-interpretation",
+  "day_index": 8,
+  "run_closed": false,
+  "L4": false,
+  "new_source_or_course_card": false,
+  "new_nucleus_or_energy": false,
+  "discovery_origin": "Parent agent noticed the global-sum versus same-target alias after replaying the frozen review; this child independently confirmed it. This was not caught by the original 1184 checks.",
+  "frozen_inputs": {
+    "outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/total-gamma-width-truncation-review.json": "c5148b5270e32a0942bc5b34398fb9296a947ee7a38ee9bedd7b1e05373fdb35",
+    "outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/total-gamma-width-truncation.json": "7a70065c5cd64f054892048548529755cf1cb2c9e3eea04c1c5046d23c93493a",
+    "tmp/day8-20261007/rose-brink/total-gamma-width-truncation-review/review_total_gamma_width.py": "be6a8309cbf375205d1cd0c4ebcc25ce5b94fba941b57d8aef9d7d4d43c54f13"
+  },
+  "finding": {
+    "count": 1,
+    "material_documentation_finding": true,
+    "location": "Frozen review controls.formal_non_gamma_family.ledger[*].b_rad and its proof's Gamma_gamma=hbar*x notation",
+    "old_label_interpretation": "The stored b_rad=x is sum_i lambda_gamma_i/lambda_parent_total, not the absolute radiative branch of either individual target level pair. Likewise hbar*x is the global photon width when the synthetic time unit is tau_ref=1.",
+    "correct_per_branch_definitions": {
+      "lambda_ref": "1/tau_ref",
+      "Gamma_ref": "hbar/tau_ref",
+      "lambda_parent_total": "1/tau_ref",
+      "lambda_gamma_i": "x*f_i/tau_ref",
+      "b_rad_i": "lambda_gamma_i/lambda_parent_total=x*f_i",
+      "Gamma_gamma_i": "hbar*x*f_i/tau_ref=Gamma_ref*x*f_i",
+      "f_1": "1/4",
+      "f_2": "3/4",
+      "b_rad_sum": "sum_i b_rad_i=x",
+      "Gamma_gamma_sum": "sum_i Gamma_gamma_i=hbar*x/tau_ref=Gamma_ref*x"
+    },
+    "coverage_correction": "The 1184 original checks verified the rate arithmetic with b_rad treated as the global sum. They did not verify that this field denoted the same target pair as the primary width-floor theorem. No such same-target alias validation is claimed retroactively.",
+    "possible_misuse": "Substituting the global sum into a target formula would overstate branch1's photon width by4 and branch2's by4/3. A global photon floor cannot be transferred to a target pair without its own positive share bound."
+  },
+  "corrected_exact_ledger": [
+    {
+      "x": "16/39",
+      "parent_total_rate_over_lambda_ref": "1",
+      "gamma_rates_over_lambda_ref": [
+        "4/39",
+        "4/13"
+      ],
+      "b_rad_each_target_pair": [
+        "4/39",
+        "4/13"
+      ],
+      "b_rad_sum_all_photons": "16/39",
+      "Gamma_gamma_each_target_over_Gamma_ref": [
+        "4/39",
+        "4/13"
+      ],
+      "Gamma_gamma_sum_over_Gamma_ref": "16/39",
+      "ic_rates_over_lambda_ref": [
+        "4/195",
+        "6/65"
+      ],
+      "residual_non_gamma_rates_over_lambda_ref": [
+        "31/65",
+        "0"
+      ],
+      "total_pair_branches": [
+        "3/5",
+        "2/5"
+      ],
+      "photon_normalized_intensities": [
+        "1/4",
+        "3/4"
+      ]
+    },
+    {
+      "x": "1/10",
+      "parent_total_rate_over_lambda_ref": "1",
+      "gamma_rates_over_lambda_ref": [
+        "1/40",
+        "3/40"
+      ],
+      "b_rad_each_target_pair": [
+        "1/40",
+        "3/40"
+      ],
+      "b_rad_sum_all_photons": "1/10",
+      "Gamma_gamma_each_target_over_Gamma_ref": [
+        "1/40",
+        "3/40"
+      ],
+      "Gamma_gamma_sum_over_Gamma_ref": "1/10",
+      "ic_rates_over_lambda_ref": [
+        "1/200",
+        "9/400"
+      ],
+      "residual_non_gamma_rates_over_lambda_ref": [
+        "57/100",
+        "121/400"
+      ],
+      "total_pair_branches": [
+        "3/5",
+        "2/5"
+      ],
+      "photon_normalized_intensities": [
+        "1/4",
+        "3/4"
+      ]
+    },
+    {
+      "x": "1/100",
+      "parent_total_rate_over_lambda_ref": "1",
+      "gamma_rates_over_lambda_ref": [
+        "1/400",
+        "3/400"
+      ],
+      "b_rad_each_target_pair": [
+        "1/400",
+        "3/400"
+      ],
+      "b_rad_sum_all_photons": "1/100",
+      "Gamma_gamma_each_target_over_Gamma_ref": [
+        "1/400",
+        "3/400"
+      ],
+      "Gamma_gamma_sum_over_Gamma_ref": "1/100",
+      "ic_rates_over_lambda_ref": [
+        "1/2000",
+        "9/4000"
+      ],
+      "residual_non_gamma_rates_over_lambda_ref": [
+        "597/1000",
+        "1561/4000"
+      ],
+      "total_pair_branches": [
+        "3/5",
+        "2/5"
+      ],
+      "photon_normalized_intensities": [
+        "1/4",
+        "3/4"
+      ]
+    },
+    {
+      "x": "1/1000",
+      "parent_total_rate_over_lambda_ref": "1",
+      "gamma_rates_over_lambda_ref": [
+        "1/4000",
+        "3/4000"
+      ],
+      "b_rad_each_target_pair": [
+        "1/4000",
+        "3/4000"
+      ],
+      "b_rad_sum_all_photons": "1/1000",
+      "Gamma_gamma_each_target_over_Gamma_ref": [
+        "1/4000",
+        "3/4000"
+      ],
+      "Gamma_gamma_sum_over_Gamma_ref": "1/1000",
+      "ic_rates_over_lambda_ref": [
+        "1/20000",
+        "9/40000"
+      ],
+      "residual_non_gamma_rates_over_lambda_ref": [
+        "5997/10000",
+        "15961/40000"
+      ],
+      "total_pair_branches": [
+        "3/5",
+        "2/5"
+      ],
+      "photon_normalized_intensities": [
+        "1/4",
+        "3/4"
+      ]
+    },
+    {
+      "x": "1/10000",
+      "parent_total_rate_over_lambda_ref": "1",
+      "gamma_rates_over_lambda_ref": [
+        "1/40000",
+        "3/40000"
+      ],
+      "b_rad_each_target_pair": [
+        "1/40000",
+        "3/40000"
+      ],
+      "b_rad_sum_all_photons": "1/10000",
+      "Gamma_gamma_each_target_over_Gamma_ref": [
+        "1/40000",
+        "3/40000"
+      ],
+      "Gamma_gamma_sum_over_Gamma_ref": "1/10000",
+      "ic_rates_over_lambda_ref": [
+        "1/200000",
+        "9/400000"
+      ],
+      "residual_non_gamma_rates_over_lambda_ref": [
+        "59997/100000",
+        "159961/400000"
+      ],
+      "total_pair_branches": [
+        "3/5",
+        "2/5"
+      ],
+      "photon_normalized_intensities": [
+        "1/4",
+        "3/4"
+      ]
+    }
+  ],
+  "unchanged_counterfamily_proof": {
+    "inventory": "f=(1/4,3/4), b_pair=(3/5,2/5), alpha=(1/5,3/10). For0<x<=16/39, gamma_i=x*f_i, IC_i=alpha_i*x*f_i and n_i=b_pair_i-(1+alpha_i)*x*f_i are nonnegative dimensionless rates relative to lambda_ref.",
+    "invariants": "Each total pair branch remains b_pair_i, photon-normalized intensity remains f_i, and parent total rate remains1/tau_ref.",
+    "no_positive_floor_per_target": "Since each fixed f_i>0 and x may approach0 through positive values, b_rad_i=x*f_i and Gamma_gamma_i=Gamma_ref*x*f_i each approach0. Thus the same-target no-positive-floor counterexample survives the clarified scope, as does the global-sum version.",
+    "physical_boundary": "This remains formal nonnegative rate bookkeeping with synthetic positive ICC-like weights. No atomic coefficient, nuclear realization, new source, isotope, energy, course card or experimental fit is asserted."
+  },
+  "impact": {
+    "primary_producer_required_corrections": 0,
+    "independent_supplement_scope_clarifications": 1,
+    "primary_width_floor_theorem_changed": false,
+    "positive_IC_counterfamily_scientific_proof_changed": false,
+    "frozen_review_or_producer_modified": false,
+    "canonical_recommendation": "Write b_rad_i=x*f_i and Gamma_gamma_i=hbar*x*f_i/tau_ref for each target. Reserve b_rad_sum=x and Gamma_gamma_sum=hbar*x/tau_ref for the global photon inventory. Cite this clarification alongside the frozen supplement, and report producer0required corrections / independent supplement1scope clarification."
+  },
+  "evidence_class": "Parent-discovered, independently verified mathematical documentation clarification; scientific self-audit, not human-reviewed",
+  "checks": {
+    "results": {
+      "frozen input SHA outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/total-gamma-width-truncation-review.json": true,
+      "frozen input SHA outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/total-gamma-width-truncation.json": true,
+      "frozen input SHA tmp/day8-20261007/rose-brink/total-gamma-width-truncation-review/review_total_gamma_width.py": true,
+      "frozen review count is 1184": true,
+      "primary producer count is 44": true,
+      "existing family upper scale": true,
+      "row 0 parent total normalized": true,
+      "row 0 gamma scope per branch": true,
+      "row 0 true target absolute branches": true,
+      "row 0 global radiative sum": true,
+      "row 0 old ambiguous label is global sum": true,
+      "row 0 old label differs from both targets": true,
+      "row 0 positive synthetic IC retained": true,
+      "row 0 ledger stays nonnegative": true,
+      "row 0 total pair branches unchanged": true,
+      "row 0 photon normalized fractions unchanged": true,
+      "row 0 global to target factor 4 and 4/3": true,
+      "row 1 parent total normalized": true,
+      "row 1 gamma scope per branch": true,
+      "row 1 true target absolute branches": true,
+      "row 1 global radiative sum": true,
+      "row 1 old ambiguous label is global sum": true,
+      "row 1 old label differs from both targets": true,
+      "row 1 positive synthetic IC retained": true,
+      "row 1 ledger stays nonnegative": true,
+      "row 1 total pair branches unchanged": true,
+      "row 1 photon normalized fractions unchanged": true,
+      "row 1 global to target factor 4 and 4/3": true,
+      "row 2 parent total normalized": true,
+      "row 2 gamma scope per branch": true,
+      "row 2 true target absolute branches": true,
+      "row 2 global radiative sum": true,
+      "row 2 old ambiguous label is global sum": true,
+      "row 2 old label differs from both targets": true,
+      "row 2 positive synthetic IC retained": true,
+      "row 2 ledger stays nonnegative": true,
+      "row 2 total pair branches unchanged": true,
+      "row 2 photon normalized fractions unchanged": true,
+      "row 2 global to target factor 4 and 4/3": true,
+      "row 3 parent total normalized": true,
+      "row 3 gamma scope per branch": true,
+      "row 3 true target absolute branches": true,
+      "row 3 global radiative sum": true,
+      "row 3 old ambiguous label is global sum": true,
+      "row 3 old label differs from both targets": true,
+      "row 3 positive synthetic IC retained": true,
+      "row 3 ledger stays nonnegative": true,
+      "row 3 total pair branches unchanged": true,
+      "row 3 photon normalized fractions unchanged": true,
+      "row 3 global to target factor 4 and 4/3": true,
+      "row 4 parent total normalized": true,
+      "row 4 gamma scope per branch": true,
+      "row 4 true target absolute branches": true,
+      "row 4 global radiative sum": true,
+      "row 4 old ambiguous label is global sum": true,
+      "row 4 old label differs from both targets": true,
+      "row 4 positive synthetic IC retained": true,
+      "row 4 ledger stays nonnegative": true,
+      "row 4 total pair branches unchanged": true,
+      "row 4 photon normalized fractions unchanged": true,
+      "row 4 global to target factor 4 and 4/3": true,
+      "producer row 0 target photon and global sum distinct": true,
+      "producer row 0 epsilon retains target denominator": true,
+      "producer row 1 target photon and global sum distinct": true,
+      "producer row 1 epsilon retains target denominator": true,
+      "producer row 2 target photon and global sum distinct": true,
+      "producer row 2 epsilon retains target denominator": true,
+      "producer row 3 target photon and global sum distinct": true,
+      "producer row 3 epsilon retains target denominator": true,
+      "frozen bytes unchanged after clarification outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/total-gamma-width-truncation-review.json": true,
+      "frozen bytes unchanged after clarification outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/total-gamma-width-truncation.json": true,
+      "frozen bytes unchanged after clarification tmp/day8-20261007/rose-brink/total-gamma-width-truncation-review/review_total_gamma_width.py": true
+    },
+    "count": 72,
+    "all_passed": true
+  },
+  "reproducibility": {
+    "script": "tmp/day8-20261007/rose-brink/total-gamma-width-truncation-review/clarify_width_scope.py",
+    "script_sha256": "546edc58af729d25b83edc8e26832723e253cc4fe34c67d8952a755394016b88",
+    "source_code": "#!/usr/bin/env python3\n\"\"\"Append an independent scope clarification without changing frozen receipts.\"\"\"\nimport sys\nsys.dont_write_bytecode = True\n\nimport argparse\nfrom fractions import Fraction as F\nimport hashlib\nimport json\nfrom pathlib import Path\n\nROOT = Path(__file__).resolve().parents[4]\nRUN = Path(\"outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01\")\nFROZEN = {\n    str(RUN / \"total-gamma-width-truncation-review.json\"):\n        \"c5148b5270e32a0942bc5b34398fb9296a947ee7a38ee9bedd7b1e05373fdb35\",\n    str(RUN / \"total-gamma-width-truncation.json\"):\n        \"7a70065c5cd64f054892048548529755cf1cb2c9e3eea04c1c5046d23c93493a\",\n    \"tmp/day8-20261007/rose-brink/total-gamma-width-truncation-review/review_total_gamma_width.py\":\n        \"be6a8309cbf375205d1cd0c4ebcc25ce5b94fba941b57d8aef9d7d4d43c54f13\",\n}\nOUT = RUN / \"total-gamma-width-review-scope-clarification.json\"\n\n\ndef sha(data):\n    return hashlib.sha256(data).hexdigest()\n\n\ndef encoded(value):\n    if isinstance(value, F):\n        return str(value)\n    raise TypeError(type(value).__name__)\n\n\ndef build():\n    checks = {}\n\n    def check(name, value):\n        checks[name] = bool(value)\n        if not value:\n            raise AssertionError(name)\n\n    protected = {}\n    inputs = {}\n    for relative, expected in FROZEN.items():\n        data = (ROOT / relative).read_bytes()\n        check(\"frozen input SHA \" + relative, sha(data) == expected)\n        protected[relative] = sha(data)\n        if relative.endswith(\".json\"):\n            inputs[relative] = json.loads(data)\n    review = inputs[str(RUN / \"total-gamma-width-truncation-review.json\")]\n    producer = inputs[str(RUN / \"total-gamma-width-truncation.json\")]\n    family = review[\"controls\"][\"formal_non_gamma_family\"]\n    check(\"frozen review count is 1184\", review[\"checks\"][\"count\"] == 1184)\n    check(\"primary producer count is 44\", producer[\"checks\"][\"total_passed\"] == 44)\n    f = [F(1, 4), F(3, 4)]\n    b_pair = [F(3, 5), F(2, 5)]\n    alpha = [F(1, 5), F(3, 10)]\n    xmax = min(b_pair[i] / ((1 + alpha[i]) * f[i]) for i in range(2))\n    check(\"existing family upper scale\", xmax == F(16, 39))\n    corrected = []\n    for index, row in enumerate(family[\"ledger\"]):\n        x = F(row[\"scale\"])\n        total_rate = F(row[\"total_rate\"])\n        gamma = list(map(F, row[\"gamma_rates\"]))\n        ic = list(map(F, row[\"ic_rates\"]))\n        residual = list(map(F, row[\"residual_non_gamma_rates\"]))\n        branch_absolute = [gamma[i] / total_rate for i in range(2)]\n        global_absolute = sum(gamma) / total_rate\n        check(f\"row {index} parent total normalized\", total_rate == 1 and sum(gamma + ic + residual) == 1)\n        check(f\"row {index} gamma scope per branch\", gamma == [x / 4, 3 * x / 4])\n        check(f\"row {index} true target absolute branches\", branch_absolute == [x / 4, 3 * x / 4])\n        check(f\"row {index} global radiative sum\", global_absolute == x)\n        check(f\"row {index} old ambiguous label is global sum\", F(row[\"b_rad\"]) == global_absolute)\n        check(f\"row {index} old label differs from both targets\", all(F(row[\"b_rad\"]) != value for value in branch_absolute))\n        check(f\"row {index} positive synthetic IC retained\", ic == [alpha[i] * gamma[i] for i in range(2)]\n              and all(value > 0 for value in ic))\n        check(f\"row {index} ledger stays nonnegative\", 0 < x <= xmax and min(gamma + ic + residual) >= 0)\n        check(f\"row {index} total pair branches unchanged\", [gamma[i] + ic[i] + residual[i] for i in range(2)] == b_pair)\n        check(f\"row {index} photon normalized fractions unchanged\", [gamma[i] / sum(gamma) for i in range(2)] == f)\n        check(f\"row {index} global to target factor 4 and 4/3\",\n              global_absolute / branch_absolute[0] == 4 and global_absolute / branch_absolute[1] == F(4, 3))\n        corrected.append({\n            \"x\": x, \"parent_total_rate_over_lambda_ref\": total_rate,\n            \"gamma_rates_over_lambda_ref\": gamma,\n            \"b_rad_each_target_pair\": branch_absolute, \"b_rad_sum_all_photons\": global_absolute,\n            \"Gamma_gamma_each_target_over_Gamma_ref\": [x * f[i] for i in range(2)],\n            \"Gamma_gamma_sum_over_Gamma_ref\": x,\n            \"ic_rates_over_lambda_ref\": ic, \"residual_non_gamma_rates_over_lambda_ref\": residual,\n            \"total_pair_branches\": b_pair, \"photon_normalized_intensities\": f,\n        })\n\n    # Recheck the producer's correctly scoped family; this is not a new case.\n    for index, row in enumerate(producer[\"unknown_E0_failure_family\"][\"exact_controls\"]):\n        target_gamma = F(row[\"Gamma_pair_gamma\"])\n        other_gamma = F(row[\"Gamma_other_gamma\"])\n        pair_non_gamma = F(row[\"Gamma_pair_E0_electrons\"])\n        other_non_gamma = F(row[\"Gamma_other_nongamma\"])\n        parent_total = target_gamma + other_gamma + pair_non_gamma + other_non_gamma\n        check(f\"producer row {index} target photon and global sum distinct\",\n              parent_total == 1 and target_gamma / parent_total == target_gamma\n              and (target_gamma + other_gamma) / parent_total == 2 * target_gamma)\n        check(f\"producer row {index} epsilon retains target denominator\",\n              F(row[\"omitted_pair_gamma\"]) / target_gamma == F(row[\"epsilon_actual\"]) == F(1, 2))\n\n    for relative, expected in protected.items():\n        check(\"frozen bytes unchanged after clarification \" + relative,\n              sha((ROOT / relative).read_bytes()) == expected)\n    code = Path(__file__).read_bytes()\n    return {\n        \"schema_version\": 1,\n        \"artifact_kind\": \"Day8-independent-review-supplement-photon-inventory-scope-clarification\",\n        \"status\": \"confirmed-material-documentation-finding; corrected-per-branch-interpretation\",\n        \"day_index\": 8, \"run_closed\": False, \"L4\": False,\n        \"new_source_or_course_card\": False, \"new_nucleus_or_energy\": False,\n        \"discovery_origin\": \"Parent agent noticed the global-sum versus same-target alias after replaying the frozen review; this child independently confirmed it. This was not caught by the original 1184 checks.\",\n        \"frozen_inputs\": protected,\n        \"finding\": {\n            \"count\": 1, \"material_documentation_finding\": True,\n            \"location\": \"Frozen review controls.formal_non_gamma_family.ledger[*].b_rad and its proof's Gamma_gamma=hbar*x notation\",\n            \"old_label_interpretation\": \"The stored b_rad=x is sum_i lambda_gamma_i/lambda_parent_total, not the absolute radiative branch of either individual target level pair. Likewise hbar*x is the global photon width when the synthetic time unit is tau_ref=1.\",\n            \"correct_per_branch_definitions\": {\n                \"lambda_ref\": \"1/tau_ref\", \"Gamma_ref\": \"hbar/tau_ref\",\n                \"lambda_parent_total\": \"1/tau_ref\",\n                \"lambda_gamma_i\": \"x*f_i/tau_ref\",\n                \"b_rad_i\": \"lambda_gamma_i/lambda_parent_total=x*f_i\",\n                \"Gamma_gamma_i\": \"hbar*x*f_i/tau_ref=Gamma_ref*x*f_i\",\n                \"f_1\": \"1/4\", \"f_2\": \"3/4\",\n                \"b_rad_sum\": \"sum_i b_rad_i=x\",\n                \"Gamma_gamma_sum\": \"sum_i Gamma_gamma_i=hbar*x/tau_ref=Gamma_ref*x\",\n            },\n            \"coverage_correction\": \"The 1184 original checks verified the rate arithmetic with b_rad treated as the global sum. They did not verify that this field denoted the same target pair as the primary width-floor theorem. No such same-target alias validation is claimed retroactively.\",\n            \"possible_misuse\": \"Substituting the global sum into a target formula would overstate branch1's photon width by4 and branch2's by4/3. A global photon floor cannot be transferred to a target pair without its own positive share bound.\",\n        },\n        \"corrected_exact_ledger\": corrected,\n        \"unchanged_counterfamily_proof\": {\n            \"inventory\": \"f=(1/4,3/4), b_pair=(3/5,2/5), alpha=(1/5,3/10). For0<x<=16/39, gamma_i=x*f_i, IC_i=alpha_i*x*f_i and n_i=b_pair_i-(1+alpha_i)*x*f_i are nonnegative dimensionless rates relative to lambda_ref.\",\n            \"invariants\": \"Each total pair branch remains b_pair_i, photon-normalized intensity remains f_i, and parent total rate remains1/tau_ref.\",\n            \"no_positive_floor_per_target\": \"Since each fixed f_i>0 and x may approach0 through positive values, b_rad_i=x*f_i and Gamma_gamma_i=Gamma_ref*x*f_i each approach0. Thus the same-target no-positive-floor counterexample survives the clarified scope, as does the global-sum version.\",\n            \"physical_boundary\": \"This remains formal nonnegative rate bookkeeping with synthetic positive ICC-like weights. No atomic coefficient, nuclear realization, new source, isotope, energy, course card or experimental fit is asserted.\",\n        },\n        \"impact\": {\n            \"primary_producer_required_corrections\": 0,\n            \"independent_supplement_scope_clarifications\": 1,\n            \"primary_width_floor_theorem_changed\": False,\n            \"positive_IC_counterfamily_scientific_proof_changed\": False,\n            \"frozen_review_or_producer_modified\": False,\n            \"canonical_recommendation\": \"Write b_rad_i=x*f_i and Gamma_gamma_i=hbar*x*f_i/tau_ref for each target. Reserve b_rad_sum=x and Gamma_gamma_sum=hbar*x/tau_ref for the global photon inventory. Cite this clarification alongside the frozen supplement, and report producer0required corrections / independent supplement1scope clarification.\",\n        },\n        \"evidence_class\": \"Parent-discovered, independently verified mathematical documentation clarification; scientific self-audit, not human-reviewed\",\n        \"checks\": {\"results\": checks, \"count\": len(checks), \"all_passed\": all(checks.values())},\n        \"reproducibility\": {\n            \"script\": str(Path(__file__).relative_to(ROOT)), \"script_sha256\": sha(code),\n            \"source_code\": code.decode(), \"default_read_only\": True,\n            \"read_only_replay_command\": \"python3 \" + str(Path(__file__).relative_to(ROOT)),\n            \"exclusive_creation_command\": \"python3 \" + str(Path(__file__).relative_to(ROOT)) + \" --write-receipt\",\n            \"explanation\": str(Path(__file__).with_name(\"scope-clarification.md\").relative_to(ROOT)),\n            \"explanation_sha256\": sha(Path(__file__).with_name(\"scope-clarification.md\").read_bytes()),\n            \"dependencies\": \"Python3 standard library only. Neither frozen code is imported or executed.\",\n        },\n    }\n\n\ndef main():\n    parser = argparse.ArgumentParser(description=__doc__)\n    parser.add_argument(\"--write-receipt\", action=\"store_true\")\n    parser.add_argument(\"--verify-saved\", action=\"store_true\")\n    args = parser.parse_args()\n    if args.write_receipt and args.verify_saved:\n        parser.error(\"Receipt creation and saved-receipt verification are separate operations\")\n    report = build()\n    if args.verify_saved:\n        saved = json.loads((ROOT / OUT).read_bytes())\n        normalized = json.loads(json.dumps(report, ensure_ascii=False, default=encoded))\n        if saved != normalized:\n            raise AssertionError(\"Default recomputation differs from saved scope clarification\")\n    if args.write_receipt:\n        with (ROOT / OUT).open(\"x\", encoding=\"utf-8\", newline=\"\\n\") as stream:\n            json.dump(report, stream, ensure_ascii=False, indent=2, default=encoded)\n            stream.write(\"\\n\")\n    print(json.dumps(report, ensure_ascii=False, indent=2, default=encoded))\n\n\nif __name__ == \"__main__\":\n    main()\n",
+    "default_read_only": true,
+    "read_only_replay_command": "python3 tmp/day8-20261007/rose-brink/total-gamma-width-truncation-review/clarify_width_scope.py",
+    "exclusive_creation_command": "python3 tmp/day8-20261007/rose-brink/total-gamma-width-truncation-review/clarify_width_scope.py --write-receipt",
+    "explanation": "tmp/day8-20261007/rose-brink/total-gamma-width-truncation-review/scope-clarification.md",
+    "explanation_sha256": "7d6a6bd8ad48802c3c5bfee46da25e7a7f981c67cedc43330c48f86717d13fce",
+    "dependencies": "Python3 standard library only. Neither frozen code is imported or executed."
+  }
+}

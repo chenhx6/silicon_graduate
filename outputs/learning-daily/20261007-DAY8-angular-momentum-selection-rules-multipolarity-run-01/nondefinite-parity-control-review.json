@@ -1,0 +1,313 @@
+{
+  "schema_version": 1,
+  "audit_id": "RB67-Eq3.29-integrated-helicity-source-scope-review",
+  "created_at_utc": "2026-10-08T01:47:45.266395+00:00",
+  "status": "scope-condition-proved; existing-control-no-material-correction",
+  "day_index": 8,
+  "run_closed": false,
+  "research_level": "L2",
+  "human_review": false,
+  "paper_admission": false,
+  "session_id": "01a111fb-370d-7ed1-afe9-881ccc47caf4",
+  "resume_command": "codex resume 01a111fb-370d-7ed1-afe9-881ccc47caf4 -C /workspace/wiki -s danger-full-access -a never",
+  "review_method": "New integrated-operator/SO(3) derivation independent of the pointwise producer calculation. The60-check producer was not executed.",
+  "target": {
+    "path": "outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/nondefinite-parity-control.json",
+    "sha256": "bc74eed5b62673fb8fb3b4ef2fb862cceb85870f36d36e58d8721027e1a620bb",
+    "script": "tmp/day8-20261007/rose-brink/nondefinite-parity-control/nondefinite_parity_control.py",
+    "script_sha256": "c3bd7175dec4f5a85436971e5cdc45f592aced6aafd53b1a5e4fdd7455562bf3",
+    "modified": false,
+    "producer_executed": false
+  },
+  "sources": {
+    "knowledge_source": "knowledge/sources/rose-brink-1967-phase-defined-angular-distributions.md",
+    "raw": "raw/papers/gpt/high-spin-20260920/multipolarity/mixing ratio/1967_Rose et al_Angular Distributions of Gamma Rays in Terms of Phase-Defined Reduced Matrix Elements.pdf",
+    "raw_sha256": "8f846b61b9320de291ee5600126c5e286a0fe05968df819696816f0dc1ec57dc",
+    "images": {
+      "tmp/day8-20261007/rose-brink/p316-pdf11.png": "8b6191298c81a731bba7e04be14ae1c4d6b0e1681f11bb98b34dd69e90255401",
+      "tmp/day8-20261007/rose-brink/p318-pdf13.png": "49c59a6adcbf462409716870a8aa4c192ec22a0079eee97e5deaf03ef772cb10",
+      "tmp/day8-20261007/rose-brink/p320-pdf15.png": "43e43be10e45104870d9049dda91805848175e97cdc6d16af20f5892a2ab1414"
+    },
+    "direct_locators": [
+      "printed p316/PDF11 Eq3.24: q^pi amplitude, WE ordering and complete final-spin sum",
+      "printed p318/PDF13 Eq3.29 and following sentence: total transition probability and asserted integrated per-q independence",
+      "printed p318/PDF13 Eq3.32 notes(i)-(ii): initial parity need not be definite and L/Lprime/pi/piprime sums are independent",
+      "printed p318/PDF13 Eq3.34: R0^q(L,Lprime)=delta(L,Lprime), with no delta(pi,piprime)",
+      "printed p320/PDF15 Eq3.40/3.41 and parity selection discussion: definite-parity type restriction and helicity-summed evenK condition"
+    ],
+    "source_or_review_flags_modified": false
+  },
+  "summary": {
+    "material_findings_in_existing_packet": 0,
+    "required_changes": 0,
+    "hard_P0": 0,
+    "grounded_no_op_items": 5,
+    "new_reuse_condition": "Per-q integrated equality in the general coherent extension requires Re(sum_L a_EL a_ML*)=0; definite parity is sufficient, not necessary."
+  },
+  "findings": [],
+  "grounded_no_op_items": [
+    {
+      "id": "HQREV-01",
+      "classification": "grounded-no-op",
+      "target_field": "total_width_and_convention_boundary.per_q_scope_warning",
+      "evidence": "The existing packet's warning is correct: fullOmega at fixedq does not remove coherent same-L E/M terms. The scope condition is now proved generally rather than only pointwise in the half-spin chart."
+    },
+    {
+      "id": "HQREV-02",
+      "classification": "grounded-no-op",
+      "target_field": "total_width_and_convention_boundary.integrated_total",
+      "evidence": "The helicity-summed total remains proportional to S; opposite-type cross terms cancel in sumq. No change to Eq3.29's total normalization is required."
+    },
+    {
+      "id": "HQREV-03",
+      "classification": "grounded-no-op",
+      "target_field": "derived_formulas.normalization",
+      "evidence": "The half-spin fractions(1+qv)/2 match the independent full-sphere operator result, including p0 and complex quadrature null controls."
+    },
+    {
+      "id": "HQREV-04",
+      "classification": "grounded-no-op",
+      "target_field": "source_condition_audit.Eq3_41",
+      "evidence": "Definite nuclear parities with the ordinary parity-conserving EM interaction allow one type perL and provide a sufficient zero-cross condition. Equal integrated helicities do not imply those parities."
+    },
+    {
+      "id": "HQREV-05",
+      "classification": "grounded-no-op",
+      "target_field": "total_width_and_convention_boundary.complex_scope",
+      "evidence": "Conjugation is retained. The source's conditional realness convention and an arbitrary mathematical eta phase do not establish any time-reversal or electromagnetic-parity violation."
+    }
+  ],
+  "notation_and_assumptions": {
+    "ranks": "L is the integer photon multipole rank, L>=1 and |Ji-Jf|<=L<=Ji+Jf. mu=m=Mi-Mf is its tensor component; q=+-1 is helicity. These are different indices.",
+    "type": "pi_E=0,pi_M=1 in Eq3.24; a_Lq=a_EL+q a_ML. Set forbidden type/rank amplitudes to0.",
+    "amplitude": "a_Lpi=<Ji||T_L^pi||Jf>_RB/sqrt(2L+1), with source initialbra/finalket and one consistent physical-emission translation. Coefficients include the photon interaction/current phases and share the same positive k=E_gamma/(hbar c). They are not bare BM nuclear multipoles.",
+    "fixed_transition": "One fixed nuclear-state pair/current model and common photon energy/radial mode; E/M contributions within a rank are coherent and finalMf is traced completely.",
+    "rho": "Any PSD trace-one density on the fixed Ji multiplet, including arbitrary orientation and magnetic-substate coherences. Reduced coefficients are independent of Mi by the fixed multiplet/WE construction. No assumption of diagonal rho, alignment or reflection equality is needed for the integrated result.",
+    "S_positive": "S=sum_L(|a_EL|^2+|a_ML|^2)>0 for normalized fractions. S=0 gives no photon rate and leaves the fractions undefined."
+  },
+  "full_Omega_proof": {
+    "Haar_orthogonality": "The SO(3) irreducible-matrix Haar integral is8pi^2/(2L+1)*delta_LLprime*delta_mu_muprime*delta_qqprime. For the same fixedq, exp(-iq gamma) cancels its conjugate, so the gamma integral supplies2pi.",
+    "fixed_q_spinweighted_identity": "integral dOmega D^L_(mu,q)(phi,theta,0)*D^(Lprime)_(muprime,q)^*=4pi/(2L+1)*delta_LLprime*delta_mu_muprime. This removes different photon ranks/components, not different E/M types at the sameL.",
+    "density_step": "In sum_(Mi,Miprime,Mf) rho_(Mi,Miprime) CG(Mf,mu|Mi)CG(Mf,muprime|Miprime)*, mu=Mi-Mf and muprime=Miprime-Mf. The angular delta forces Mi=Miprime. Then sumMf CG^2=1 for eachMi and sumMi rho_MiMi=1.",
+    "same_rank_type_step": "The surviving type sum is sum_(pi,piprime)q^(pi+piprime)a_Lpi a_Lpiprime*=|a_EL+q a_ML|^2. Fixed-q angular/spin orthogonality never supplies an E/M type delta.",
+    "source_normalization_step": "Eq3.24's k/(2pi hbar), the4pi angular integral and normalizeda factors give T_q=integral P^q dOmega=(2k/hbar)*sum_L|a_EL+q a_ML|^2.",
+    "independent_K0_route": "For the source axisymmetric formula3.32, integrateP_K: onlyK0 survives, B0=1 and Eq3.34 gives delta_LLprime. The separate pi,piprime sums remain and yield exactly the same expression. The amplitude-density route proves the extension to arbitrary rho.",
+    "attribution": "SO(3)/CG identities and this density/operator derivation are our mathematical audit. RB provides the amplitude, K0 normalization and summation scope; it does not directly print the generalized fractions below."
+  },
+  "general_formula_and_scope_condition": {
+    "S": "sum_L(|a_EL|^2+|a_ML|^2)",
+    "X": "sum_L a_EL a_ML*",
+    "per_q_rate": "T_q=(2k/hbar)*(S+2q ReX); Gamma_q=hbar*T_q=2k*(S+2q ReX).",
+    "total": "T_total=(4k/hbar)S; Gamma_total=4kS. The total Eq3.29 relation survives the coherent extension.",
+    "fraction": "f_q=(S+2q ReX)/(2S). Thus f_+-f_-=2ReX/S and the two integrated rates/fractions are equal iff ReX=0, for S>0.",
+    "positivity": "S+-2ReX=sum_L|a_EL+-a_ML|^2>=0, so the fractions lie in[0,1].",
+    "sufficient_definite_parity": "Under the source parity-conserving EM interaction, definite initial/final parities allow only one E/M type for eachL; each a_EL a_ML*=0 and hence X=0.",
+    "not_a_converse": "ReX=0 may also follow from relative quadrature phases or cancellation between allowed rank contributions in a general amplitude set. Equality of integrated helicities alone does not certify definite nuclear parities.",
+    "orientation_independence": "The integrated condition depends on the coefficients and full inclusive angular/final-spin integration, not initial orientation/alignment. In particular, setting the spin-half orientation p=0 or taking an isotropic initial spin density does not remove same-L coherent E/M terms.",
+    "source_sentence_scope": "The per-q independence sentence immediately following Eq3.29 requires the zero-real-cross condition in the general formal extension. The ordinary definite-parity case satisfies it. This qualifies use of that sentence; it does not declare the paper's total-rate formalism generally wrong."
+  },
+  "bra_ket_and_physical_boundaries": {
+    "conjugation": "Keep Eq3.24's initialbra convention or translate the entire physical emission amplitude consistently. Conjugating both coefficients gives Re(sum a_EL* a_ML)=ReX. The phase/adjoint maps of the source interaction tensors must accompany any bra/ket change; use one process/convention throughout.",
+    "operator_phase": "A common per-rank phase for both E/M cancels in a_EL a_ML*. Rephasing one coefficient while leaving its operator/q factor fixed changes the hypothesis rather than performing a consistent convention change.",
+    "fixed_u_class": "An ensemble of different internal state pairs/current amplitudes or distinguishable energies/final channels need not have one common amplitude vector; coherence/overlap and density weighting then need their own treatment.",
+    "acceptance_and_selection": "The proof uses fullOmega and complete final-spin sum. A directional/polarization response or gated daughter observable can retain other cross terms and preparation dependence; observed accepted counts are not automatically these inclusive fractions.",
+    "realness": "No time-reversal/realness property of an unspecified Hamiltonian is assumed. Complex coefficient controls keep conjugation and do not imply time-reversal violation.",
+    "no_physical_claim": "No nucleus, parity admixture realization, weak mechanism, PNC discovery or EM parity violation is inferred. The nuclear parities are relaxed as a formal state hypothesis while source E/M transformation conventions remain fixed."
+  },
+  "exact_controls": {
+    "angular_basis_Gram": {
+      "-1": {
+        "m": 1,
+        "d_L1": "-(c - 1)/2",
+        "d_L2": "-(c - 1)*(2*c + 1)/2",
+        "angular_average_Gram": [
+          [
+            "1/3",
+            "0"
+          ],
+          [
+            "0",
+            "1/5"
+          ]
+        ]
+      },
+      "1": {
+        "m": 1,
+        "d_L1": "(c + 1)/2",
+        "d_L2": "(c + 1)*(2*c - 1)/2",
+        "angular_average_Gram": [
+          [
+            "1/3",
+            "0"
+          ],
+          [
+            "0",
+            "1/5"
+          ]
+        ]
+      }
+    },
+    "angular_basis_only": "L1/L2 fixed-q functions are an abstract radiation-basis orthogonality test, not a new nuclear transition admitting both ranks.",
+    "spinhalf_integrated_spin_kernels": {
+      "q-1_pi0_pip0": [
+        [
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "1"
+        ]
+      ],
+      "q-1_pi0_pip1": [
+        [
+          "-1",
+          "0"
+        ],
+        [
+          "0",
+          "-1"
+        ]
+      ],
+      "q-1_pi1_pip0": [
+        [
+          "-1",
+          "0"
+        ],
+        [
+          "0",
+          "-1"
+        ]
+      ],
+      "q-1_pi1_pip1": [
+        [
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "1"
+        ]
+      ],
+      "q1_pi0_pip0": [
+        [
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "1"
+        ]
+      ],
+      "q1_pi0_pip1": [
+        [
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "1"
+        ]
+      ],
+      "q1_pi1_pip0": [
+        [
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "1"
+        ]
+      ],
+      "q1_pi1_pip1": [
+        [
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "1"
+        ]
+      ]
+    },
+    "spinhalf_existing_positive": {
+      "Ji": "1/2",
+      "Jf": "1/2",
+      "aE_relative": "1",
+      "eta": "1/2",
+      "S_relative": "5/4",
+      "ReX_relative": "1/2",
+      "fraction_minus": "1/10",
+      "fraction_plus": "9/10",
+      "all_p": "The fractions are independent of the existing diagonal orientation parameter and also of arbitrary rho coherences."
+    },
+    "spinhalf_quadrature": {
+      "eta": "i",
+      "both_types_nonzero": true,
+      "ReX": "0",
+      "fractions": [
+        "1/2",
+        "1/2"
+      ]
+    },
+    "spinhalf_one_dark_helicity": {
+      "eta": "1",
+      "fraction_minus": "0",
+      "fraction_plus": "1"
+    },
+    "relative_scale": "These amplitudes use the existing common a0 scale removed; no absolute photon energy/current strength/lifetime is assigned."
+  },
+  "checks": {
+    "passed_by_group": {
+      "arbitrary_spin_rho_cancels_orientation": 8,
+      "consistent_common_conjugation_preserves_ReX": 1,
+      "day8_retained": 1,
+      "existing_positive_control_fractions": 1,
+      "fixed_q_full_sphere_angular_orthogonality": 2,
+      "full_azimuth_kills_different_mu": 1,
+      "general_fraction_difference": 1,
+      "general_fractions_sum_one": 1,
+      "helicity_difference_zero_iff_real_cross_zero": 1,
+      "helicity_sum_cross_cancels": 1,
+      "immutable_identity_after": 3,
+      "independence_condition_algebra": 1,
+      "integrated_spin_operator_scalar": 8,
+      "one_helicity_dark_control": 1,
+      "producer_code_identity_without_execution": 1,
+      "pure_E_equal_fractions": 1,
+      "quadrature_phase_both_present_equal_fractions": 1,
+      "rank1_all_mu_fixed_q_norm": 1,
+      "same_rank_complex_coherence_term": 2,
+      "source_raw_identity": 1,
+      "spinhalf_CG_closure_each_Mi": 1,
+      "spinhalf_fraction_from_point_intensity_integral": 2,
+      "spinhalf_fraction_matches_existing_v": 2,
+      "target_receipt_identity": 1
+    },
+    "total_passed": 44,
+    "failures": 0,
+    "producer60_reexecuted": false
+  },
+  "actual_commands": [
+    "python3 tmp/day8-20261007/lange-kumar/nondefinite-parity-control-review/integrated_helicity_scope_review.py",
+    "python3 tmp/day8-20261007/lange-kumar/nondefinite-parity-control-review/integrated_helicity_scope_review.py --write-review",
+    "git diff --check -- tmp/day8-20261007/lange-kumar/nondefinite-parity-control-review/integrated_helicity_scope_review.py outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/nondefinite-parity-control-review.json"
+  ],
+  "changed_paths": [
+    "tmp/day8-20261007/lange-kumar/nondefinite-parity-control-review/integrated_helicity_scope_review.py",
+    "outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/nondefinite-parity-control-review.json"
+  ],
+  "reproducibility": {
+    "code": "tmp/day8-20261007/lange-kumar/nondefinite-parity-control-review/integrated_helicity_scope_review.py",
+    "script_sha256": "e18edaa26a4fb381d97eacb31aa98a73c89873f12efc8806904b157ecc34bca9",
+    "source_code": "#!/usr/bin/env python3\n\"\"\"Independent full-solid-angle source-scope audit of RB Eq3.29.\n\nNo pointwise producer script is executed. SO(3)/fixed-q orthogonality and CG\nclosure give the general proof; explicit spin-weighted angular functions and\nthe existing spin-half control supply exact arithmetic checks. No new nuclear\ncase, Hamiltonian, source, card, actual energy or symmetry-violation claim.\nDefault reads only; --write-review exclusively creates one new review JSON.\n\"\"\"\n\nfrom __future__ import annotations\n\nimport argparse\nfrom collections import Counter\nfrom datetime import datetime, timezone\nimport hashlib\nimport json\nfrom pathlib import Path\nimport sys\n\nsys.dont_write_bytecode=True\nCODE_REL=\"tmp/day8-20261007/lange-kumar/nondefinite-parity-control-review/integrated_helicity_scope_review.py\"\nRUN_REL=\"outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01\"\nREVIEW_REL=RUN_REL+\"/nondefinite-parity-control-review.json\"\nTARGET_REL=RUN_REL+\"/nondefinite-parity-control.json\"\nTARGET_SHA=\"bc74eed5b62673fb8fb3b4ef2fb862cceb85870f36d36e58d8721027e1a620bb\"\nRAW_REL=\"raw/papers/gpt/high-spin-20260920/multipolarity/mixing ratio/1967_Rose et al_Angular Distributions of Gamma Rays in Terms of Phase-Defined Reduced Matrix Elements.pdf\"\nRAW_SHA=\"8f846b61b9320de291ee5600126c5e286a0fe05968df819696816f0dc1ec57dc\"\nIMAGES=[\"tmp/day8-20261007/rose-brink/\"+s for s in [\"p316-pdf11.png\",\"p318-pdf13.png\",\"p320-pdf15.png\"]]\n\n\ndef digest(path):return hashlib.sha256(path.read_bytes()).hexdigest()\n\n\ndef build_review(root):\n    deps=\"tmp/day8-20261007/rose-brink/python-deps\"\n    sys.path.insert(0,str(root/deps))\n    import sympy as sp\n    from sympy.physics.wigner import clebsch_gordan\n    counts=Counter()\n    def check(name,condition):\n        if not bool(condition):raise AssertionError(name)\n        counts[name]+=1\n    def eq(a,b):return sp.simplify(a-b)==0\n    def st(e):return str(sp.factor(sp.simplify(e)))\n    def sm(m):return [[st(m[i,j]) for j in range(m.cols)] for i in range(m.rows)]\n    check(\"target_receipt_identity\",digest(root/TARGET_REL)==TARGET_SHA)\n    target=json.loads((root/TARGET_REL).read_text(encoding=\"utf-8\"))\n    producer_rel=target[\"reproducibility\"][\"code\"]\n    producer_sha=target[\"reproducibility\"][\"script_sha256\"]\n    check(\"producer_code_identity_without_execution\",digest(root/producer_rel)==producer_sha==hashlib.sha256(target[\"reproducibility\"][\"source_code\"].encode()).hexdigest())\n    check(\"source_raw_identity\",digest(root/RAW_REL)==RAW_SHA)\n    run=json.loads((root/RUN_REL/\"run.json\").read_text(encoding=\"utf-8\"))\n    check(\"day8_retained\",run[\"day_index\"]==8)\n\n    c,phi=sp.symbols(\"c phi\",real=True)\n    N=sp.symbols(\"N\",integer=True,nonzero=True)\n    check(\"full_azimuth_kills_different_mu\",sp.integrate(sp.exp(sp.I*N*phi),(phi,0,2*sp.pi))==0)\n    # Fixed m=1,q=+-1 spin-weighted angular functions at ranks1/2.\n    # This is a radiation-basis normalization test, not another nucleus/case.\n    angular_gram={}\n    for q in [-1,1]:\n        d1=(1+q*c)/2\n        d2=(1+q*c)*(2*c-q)/2\n        f=[d1,d2]\n        gram=sp.Matrix([[sp.integrate(a*b,(c,-1,1))/2 for b in f] for a in f])\n        check(\"fixed_q_full_sphere_angular_orthogonality\",gram==sp.diag(sp.Rational(1,3),sp.Rational(1,5)))\n        angular_gram[str(q)]={\"m\":1,\"d_L1\":st(d1),\"d_L2\":st(d2),\"angular_average_Gram\":sm(gram)}\n    # For the existing unique Ji=Jf=1/2,L1 control all allowed mu norms are1/3.\n    dnorm={-1:(1-c)**2/4,0:(1-c*c)/2,1:(1+c)**2/4}\n    check(\"rank1_all_mu_fixed_q_norm\",all(sp.integrate(v,(c,-1,1))/2==sp.Rational(1,3) for v in dnorm.values()))\n    j=sp.Rational(1,2); Ms=[-j,j]\n    check(\"spinhalf_CG_closure_each_Mi\",all(eq(sum(clebsch_gordan(j,1,j,mf,mi-mf,mi)**2 for mf in Ms),1) for mi in Ms))\n    r,u,w=sp.symbols(\"r u w\",real=True)\n    rho=sp.Matrix([[r,u+sp.I*w],[u-sp.I*w,1-r]])\n    integrated_kernels={}\n    for q in [-1,1]:\n        for pi in [0,1]:\n            for pip in [0,1]:\n                K=sp.zeros(2)\n                for ii,mi in enumerate(Ms):\n                    for jj,mip in enumerate(Ms):\n                        K[ii,jj]=sp.simplify(sum(3*q**(pi+pip)*clebsch_gordan(j,1,j,mf,mi-mf,mi)*clebsch_gordan(j,1,j,mf,mip-mf,mip)\n                            * (sp.Rational(1,3) if mi-mf==mip-mf else 0) for mf in Ms))\n                check(\"integrated_spin_operator_scalar\",K==q**(pi+pip)*sp.eye(2))\n                check(\"arbitrary_spin_rho_cancels_orientation\",sp.trace(rho*K)==q**(pi+pip))\n                integrated_kernels[f\"q{q}_pi{pi}_pip{pip}\"]=sm(K)\n\n    # Algebraic coefficient proof; all complex conjugates explicitly retained.\n    er,ei,mr,mi=sp.symbols(\"e_real e_imag m_real m_imag\",real=True)\n    E=er+sp.I*ei; M=mr+sp.I*mi\n    SS=sp.expand(sp.conjugate(E)*E+sp.conjugate(M)*M)\n    ReX=sp.re(E*sp.conjugate(M)).expand()\n    norms={q:sp.expand((E+q*M)*(sp.conjugate(E)+q*sp.conjugate(M))) for q in [-1,1]}\n    for q in [-1,1]:check(\"same_rank_complex_coherence_term\",eq(norms[q],SS+2*q*ReX))\n    check(\"helicity_sum_cross_cancels\",eq(norms[-1]+norms[1],2*SS))\n    check(\"helicity_difference_zero_iff_real_cross_zero\",eq(norms[1]-norms[-1],4*ReX))\n    check(\"consistent_common_conjugation_preserves_ReX\",eq(sp.re(sp.conjugate(E)*M),ReX))\n    # Use S>0 and real X for the general sum over allowed L.\n    S=sp.symbols(\"S\",positive=True); X=sp.symbols(\"ReX\",real=True)\n    fractions={q:(S+2*q*X)/(2*S) for q in [-1,1]}\n    check(\"general_fractions_sum_one\",eq(sum(fractions.values()),1))\n    check(\"general_fraction_difference\",eq(fractions[1]-fractions[-1],2*X/S))\n    check(\"independence_condition_algebra\",eq(fractions[1]-sp.Rational(1,2),X/S))\n\n    # Only the previously specified spin-half nuclear control is instantiated.\n    a,b,p=sp.symbols(\"eta_real eta_imag orientation_p\",real=True)\n    eta=a+sp.I*b; Shalf=1+a*a+b*b; v=2*a/Shalf\n    fhalf={q:sp.simplify((1+q*eta)*(1+q*sp.conjugate(eta))/(2*Shalf)) for q in [-1,1]}\n    for q in [-1,1]:\n        check(\"spinhalf_fraction_matches_existing_v\",eq(fhalf[q],(1+q*v)/2))\n        check(\"spinhalf_fraction_from_point_intensity_integral\",eq(sp.integrate((1+q*v)*(1+q*p*c)/2,(c,-1,1))/2,fhalf[q]))\n    check(\"existing_positive_control_fractions\",fhalf[-1].subs({a:sp.Rational(1,2),b:0})==sp.Rational(1,10) and fhalf[1].subs({a:sp.Rational(1,2),b:0})==sp.Rational(9,10))\n    check(\"quadrature_phase_both_present_equal_fractions\",all(vv.subs({a:0,b:1})==sp.Rational(1,2) for vv in fhalf.values()))\n    check(\"pure_E_equal_fractions\",all(vv.subs({a:0,b:0})==sp.Rational(1,2) for vv in fhalf.values()))\n    check(\"one_helicity_dark_control\",fhalf[-1].subs({a:1,b:0})==0 and fhalf[1].subs({a:1,b:0})==1)\n    for rel,sha in [(TARGET_REL,TARGET_SHA),(producer_rel,producer_sha),(RAW_REL,RAW_SHA)]:check(\"immutable_identity_after\",digest(root/rel)==sha)\n\n    codepath=Path(__file__).resolve()\n    noops=[\n        {\"id\":\"HQREV-01\",\"classification\":\"grounded-no-op\",\"target_field\":\"total_width_and_convention_boundary.per_q_scope_warning\",\"evidence\":\"The existing packet's warning is correct: fullOmega at fixedq does not remove coherent same-L E/M terms. The scope condition is now proved generally rather than only pointwise in the half-spin chart.\"},\n        {\"id\":\"HQREV-02\",\"classification\":\"grounded-no-op\",\"target_field\":\"total_width_and_convention_boundary.integrated_total\",\"evidence\":\"The helicity-summed total remains proportional to S; opposite-type cross terms cancel in sumq. No change to Eq3.29's total normalization is required.\"},\n        {\"id\":\"HQREV-03\",\"classification\":\"grounded-no-op\",\"target_field\":\"derived_formulas.normalization\",\"evidence\":\"The half-spin fractions(1+qv)/2 match the independent full-sphere operator result, including p0 and complex quadrature null controls.\"},\n        {\"id\":\"HQREV-04\",\"classification\":\"grounded-no-op\",\"target_field\":\"source_condition_audit.Eq3_41\",\"evidence\":\"Definite nuclear parities with the ordinary parity-conserving EM interaction allow one type perL and provide a sufficient zero-cross condition. Equal integrated helicities do not imply those parities.\"},\n        {\"id\":\"HQREV-05\",\"classification\":\"grounded-no-op\",\"target_field\":\"total_width_and_convention_boundary.complex_scope\",\"evidence\":\"Conjugation is retained. The source's conditional realness convention and an arbitrary mathematical eta phase do not establish any time-reversal or electromagnetic-parity violation.\"},\n    ]\n    return {\n        \"schema_version\":1,\"audit_id\":\"RB67-Eq3.29-integrated-helicity-source-scope-review\",\n        \"created_at_utc\":datetime.now(timezone.utc).isoformat(),\n        \"status\":\"scope-condition-proved; existing-control-no-material-correction\",\n        \"day_index\":8,\"run_closed\":False,\"research_level\":\"L2\",\"human_review\":False,\"paper_admission\":False,\n        \"session_id\":run[\"session_id\"],\"resume_command\":run[\"resume_command\"],\n        \"review_method\":\"New integrated-operator/SO(3) derivation independent of the pointwise producer calculation. The60-check producer was not executed.\",\n        \"target\":{\"path\":TARGET_REL,\"sha256\":TARGET_SHA,\"script\":producer_rel,\"script_sha256\":producer_sha,\"modified\":False,\"producer_executed\":False},\n        \"sources\":{\"knowledge_source\":\"knowledge/sources/rose-brink-1967-phase-defined-angular-distributions.md\",\"raw\":RAW_REL,\"raw_sha256\":RAW_SHA,\"images\":{rel:digest(root/rel) for rel in IMAGES},\n            \"direct_locators\":[\n                \"printed p316/PDF11 Eq3.24: q^pi amplitude, WE ordering and complete final-spin sum\",\n                \"printed p318/PDF13 Eq3.29 and following sentence: total transition probability and asserted integrated per-q independence\",\n                \"printed p318/PDF13 Eq3.32 notes(i)-(ii): initial parity need not be definite and L/Lprime/pi/piprime sums are independent\",\n                \"printed p318/PDF13 Eq3.34: R0^q(L,Lprime)=delta(L,Lprime), with no delta(pi,piprime)\",\n                \"printed p320/PDF15 Eq3.40/3.41 and parity selection discussion: definite-parity type restriction and helicity-summed evenK condition\",\n            ],\"source_or_review_flags_modified\":False},\n        \"summary\":{\"material_findings_in_existing_packet\":0,\"required_changes\":0,\"hard_P0\":0,\"grounded_no_op_items\":len(noops),\"new_reuse_condition\":\"Per-q integrated equality in the general coherent extension requires Re(sum_L a_EL a_ML*)=0; definite parity is sufficient, not necessary.\"},\n        \"findings\":[],\"grounded_no_op_items\":noops,\n        \"notation_and_assumptions\":{\n            \"ranks\":\"L is the integer photon multipole rank, L>=1 and |Ji-Jf|<=L<=Ji+Jf. mu=m=Mi-Mf is its tensor component; q=+-1 is helicity. These are different indices.\",\n            \"type\":\"pi_E=0,pi_M=1 in Eq3.24; a_Lq=a_EL+q a_ML. Set forbidden type/rank amplitudes to0.\",\n            \"amplitude\":\"a_Lpi=<Ji||T_L^pi||Jf>_RB/sqrt(2L+1), with source initialbra/finalket and one consistent physical-emission translation. Coefficients include the photon interaction/current phases and share the same positive k=E_gamma/(hbar c). They are not bare BM nuclear multipoles.\",\n            \"fixed_transition\":\"One fixed nuclear-state pair/current model and common photon energy/radial mode; E/M contributions within a rank are coherent and finalMf is traced completely.\",\n            \"rho\":\"Any PSD trace-one density on the fixed Ji multiplet, including arbitrary orientation and magnetic-substate coherences. Reduced coefficients are independent of Mi by the fixed multiplet/WE construction. No assumption of diagonal rho, alignment or reflection equality is needed for the integrated result.\",\n            \"S_positive\":\"S=sum_L(|a_EL|^2+|a_ML|^2)>0 for normalized fractions. S=0 gives no photon rate and leaves the fractions undefined.\",\n        },\n        \"full_Omega_proof\":{\n            \"Haar_orthogonality\":\"The SO(3) irreducible-matrix Haar integral is8pi^2/(2L+1)*delta_LLprime*delta_mu_muprime*delta_qqprime. For the same fixedq, exp(-iq gamma) cancels its conjugate, so the gamma integral supplies2pi.\",\n            \"fixed_q_spinweighted_identity\":\"integral dOmega D^L_(mu,q)(phi,theta,0)*D^(Lprime)_(muprime,q)^*=4pi/(2L+1)*delta_LLprime*delta_mu_muprime. This removes different photon ranks/components, not different E/M types at the sameL.\",\n            \"density_step\":\"In sum_(Mi,Miprime,Mf) rho_(Mi,Miprime) CG(Mf,mu|Mi)CG(Mf,muprime|Miprime)*, mu=Mi-Mf and muprime=Miprime-Mf. The angular delta forces Mi=Miprime. Then sumMf CG^2=1 for eachMi and sumMi rho_MiMi=1.\",\n            \"same_rank_type_step\":\"The surviving type sum is sum_(pi,piprime)q^(pi+piprime)a_Lpi a_Lpiprime*=|a_EL+q a_ML|^2. Fixed-q angular/spin orthogonality never supplies an E/M type delta.\",\n            \"source_normalization_step\":\"Eq3.24's k/(2pi hbar), the4pi angular integral and normalizeda factors give T_q=integral P^q dOmega=(2k/hbar)*sum_L|a_EL+q a_ML|^2.\",\n            \"independent_K0_route\":\"For the source axisymmetric formula3.32, integrateP_K: onlyK0 survives, B0=1 and Eq3.34 gives delta_LLprime. The separate pi,piprime sums remain and yield exactly the same expression. The amplitude-density route proves the extension to arbitrary rho.\",\n            \"attribution\":\"SO(3)/CG identities and this density/operator derivation are our mathematical audit. RB provides the amplitude, K0 normalization and summation scope; it does not directly print the generalized fractions below.\",\n        },\n        \"general_formula_and_scope_condition\":{\n            \"S\":\"sum_L(|a_EL|^2+|a_ML|^2)\",\"X\":\"sum_L a_EL a_ML*\",\n            \"per_q_rate\":\"T_q=(2k/hbar)*(S+2q ReX); Gamma_q=hbar*T_q=2k*(S+2q ReX).\",\n            \"total\":\"T_total=(4k/hbar)S; Gamma_total=4kS. The total Eq3.29 relation survives the coherent extension.\",\n            \"fraction\":\"f_q=(S+2q ReX)/(2S). Thus f_+-f_-=2ReX/S and the two integrated rates/fractions are equal iff ReX=0, for S>0.\",\n            \"positivity\":\"S+-2ReX=sum_L|a_EL+-a_ML|^2>=0, so the fractions lie in[0,1].\",\n            \"sufficient_definite_parity\":\"Under the source parity-conserving EM interaction, definite initial/final parities allow only one E/M type for eachL; each a_EL a_ML*=0 and hence X=0.\",\n            \"not_a_converse\":\"ReX=0 may also follow from relative quadrature phases or cancellation between allowed rank contributions in a general amplitude set. Equality of integrated helicities alone does not certify definite nuclear parities.\",\n            \"orientation_independence\":\"The integrated condition depends on the coefficients and full inclusive angular/final-spin integration, not initial orientation/alignment. In particular, setting the spin-half orientation p=0 or taking an isotropic initial spin density does not remove same-L coherent E/M terms.\",\n            \"source_sentence_scope\":\"The per-q independence sentence immediately following Eq3.29 requires the zero-real-cross condition in the general formal extension. The ordinary definite-parity case satisfies it. This qualifies use of that sentence; it does not declare the paper's total-rate formalism generally wrong.\",\n        },\n        \"bra_ket_and_physical_boundaries\":{\n            \"conjugation\":\"Keep Eq3.24's initialbra convention or translate the entire physical emission amplitude consistently. Conjugating both coefficients gives Re(sum a_EL* a_ML)=ReX. The phase/adjoint maps of the source interaction tensors must accompany any bra/ket change; use one process/convention throughout.\",\n            \"operator_phase\":\"A common per-rank phase for both E/M cancels in a_EL a_ML*. Rephasing one coefficient while leaving its operator/q factor fixed changes the hypothesis rather than performing a consistent convention change.\",\n            \"fixed_u_class\":\"An ensemble of different internal state pairs/current amplitudes or distinguishable energies/final channels need not have one common amplitude vector; coherence/overlap and density weighting then need their own treatment.\",\n            \"acceptance_and_selection\":\"The proof uses fullOmega and complete final-spin sum. A directional/polarization response or gated daughter observable can retain other cross terms and preparation dependence; observed accepted counts are not automatically these inclusive fractions.\",\n            \"realness\":\"No time-reversal/realness property of an unspecified Hamiltonian is assumed. Complex coefficient controls keep conjugation and do not imply time-reversal violation.\",\n            \"no_physical_claim\":\"No nucleus, parity admixture realization, weak mechanism, PNC discovery or EM parity violation is inferred. The nuclear parities are relaxed as a formal state hypothesis while source E/M transformation conventions remain fixed.\",\n        },\n        \"exact_controls\":{\n            \"angular_basis_Gram\":angular_gram,\n            \"angular_basis_only\":\"L1/L2 fixed-q functions are an abstract radiation-basis orthogonality test, not a new nuclear transition admitting both ranks.\",\n            \"spinhalf_integrated_spin_kernels\":integrated_kernels,\n            \"spinhalf_existing_positive\":{\"Ji\":\"1/2\",\"Jf\":\"1/2\",\"aE_relative\":\"1\",\"eta\":\"1/2\",\"S_relative\":\"5/4\",\"ReX_relative\":\"1/2\",\"fraction_minus\":\"1/10\",\"fraction_plus\":\"9/10\",\"all_p\":\"The fractions are independent of the existing diagonal orientation parameter and also of arbitrary rho coherences.\"},\n            \"spinhalf_quadrature\":{\"eta\":\"i\",\"both_types_nonzero\":True,\"ReX\":\"0\",\"fractions\":[\"1/2\",\"1/2\"]},\n            \"spinhalf_one_dark_helicity\":{\"eta\":\"1\",\"fraction_minus\":\"0\",\"fraction_plus\":\"1\"},\n            \"relative_scale\":\"These amplitudes use the existing common a0 scale removed; no absolute photon energy/current strength/lifetime is assigned.\",\n        },\n        \"checks\":{\"passed_by_group\":dict(sorted(counts.items())),\"total_passed\":sum(counts.values()),\"failures\":0,\"producer60_reexecuted\":False},\n        \"actual_commands\":[\"python3 \"+CODE_REL,\"python3 \"+CODE_REL+\" --write-review\",\"git diff --check -- \"+CODE_REL+\" \"+REVIEW_REL],\n        \"changed_paths\":[CODE_REL,REVIEW_REL],\n        \"reproducibility\":{\"code\":CODE_REL,\"script_sha256\":digest(codepath),\"source_code\":codepath.read_text(encoding=\"utf-8\"),\"python_version\":sys.version.split()[0],\"sympy_version\":sp.__version__,\"dependency_path\":deps,\"network_requests\":0,\"default_command\":\"python3 \"+CODE_REL,\"exclusive_write_command\":\"python3 \"+CODE_REL+\" --write-review\",\"embedded_replay\":\"Save source_code to a temporary Python file and run python3 <file> --root /workspace/wiki. Default reads only and does not execute the60-check producer.\",\"write_policy\":\"Only owned nondefinite-parity-control-review tmp directory and exclusive new review JSON. Old receipts/code, canonical/report/state/raw/PLAN/Git and review flags unchanged.\"},\n    }\n\n\ndef main():\n    parser=argparse.ArgumentParser(description=__doc__)\n    parser.add_argument(\"--root\",type=Path)\n    parser.add_argument(\"--write-review\",action=\"store_true\")\n    args=parser.parse_args()\n    root=args.root.resolve() if args.root is not None else Path(__file__).resolve().parents[4]\n    r=build_review(root)\n    if args.write_review:\n        with (root/REVIEW_REL).open(\"x\",encoding=\"utf-8\",newline=\"\\n\") as stream:\n            json.dump(r,stream,ensure_ascii=False,indent=2);stream.write(\"\\n\")\n    print(json.dumps({\"review\":REVIEW_REL if args.write_review else None,\"summary\":r[\"summary\"],\"checks\":r[\"checks\"],\"general_formula\":r[\"general_formula_and_scope_condition\"],\"changed_paths\":r[\"changed_paths\"]},ensure_ascii=False,indent=2))\n\n\nif __name__==\"__main__\":main()\n",
+    "python_version": "3.12.3",
+    "sympy_version": "1.14.0",
+    "dependency_path": "tmp/day8-20261007/rose-brink/python-deps",
+    "network_requests": 0,
+    "default_command": "python3 tmp/day8-20261007/lange-kumar/nondefinite-parity-control-review/integrated_helicity_scope_review.py",
+    "exclusive_write_command": "python3 tmp/day8-20261007/lange-kumar/nondefinite-parity-control-review/integrated_helicity_scope_review.py --write-review",
+    "embedded_replay": "Save source_code to a temporary Python file and run python3 <file> --root /workspace/wiki. Default reads only and does not execute the60-check producer.",
+    "write_policy": "Only owned nondefinite-parity-control-review tmp directory and exclusive new review JSON. Old receipts/code, canonical/report/state/raw/PLAN/Git and review flags unchanged."
+  }
+}
