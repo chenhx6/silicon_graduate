@@ -34,3 +34,9 @@ Clock PID110255、Farmer87927仅以实际state/heartbeat/锁判定，accepted≠
 ## 已完成 run 的旧消息守卫
 
 如果 run.json 已 status=completed、课程 credit与正式DAY9plan/prompt已记录，旧 queued Day8 clock提醒只核对完成receipt，不重开研究、不生成第二份Day8或重复计卡。只有真实用户提出后续新工作才可改变已完成目标。下一日正常schedule遵守自己的新session契约。
+
+## 最终课程状态
+
+Day8 scientificfinal/planprompt已Gitee发布/H3通过，normalrunner state已next9/count8，runstatuscompleted。旧Day8 queuedreminder只核receipt，不重开research或重复credit；正常Day9从publishedplan/prompt在新session运行。
+
+正常16:00schedule已用explicit授权profiles恢复，实际PID/lock/nextdue在schedule-resume.json核验；不从旧Day8message重启daemon或创建duplicateDay8。正式Day9在新session按下一日prompt运行。

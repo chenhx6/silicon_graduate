@@ -8,7 +8,7 @@
   "schedule_id": "wiki-daily-learning",
   "schedule_name": "Wiki 30-day substantive daily learning",
   "project_root": "/workspace/wiki",
-  "status": "closing-out",
+  "status": "completed",
   "run_kind": "substantive",
   "acceptance_only": false,
   "session_id": "01a111fb-370d-7ed1-afe9-881ccc47caf4",
@@ -31,7 +31,7 @@
   "partial_day_indices": [
     9
   ],
-  "counted_in_substantive_test": false,
+  "counted_in_substantive_test": true,
   "course_state_before": {
     "next_day_index": 8,
     "completed_day_count": 7
@@ -571,7 +571,7 @@
   },
   "latest_publication_pointer": {
     "branch": "main",
-    "subject": "Audit DAY8 reference coverage and photon width bounds",
+    "subject": "Complete DAY8 learning and prepare formal DAY9",
     "H3_passed": true
   },
   "latest_runtime_snapshot": {
@@ -698,8 +698,8 @@
   "research_window_closed": true,
   "research_cutoff_at": "2026-10-08T15:00:00+08:00",
   "closeout_started_at": "2026-10-08T15:02:22.237010+08:00",
-  "run_finalized": false,
-  "course_state_updated": false,
+  "run_finalized": true,
+  "course_state_updated": true,
   "next_prompt_file": "/workspace/wiki/outputs/learning-daily/prompts/20261008-DAY9-be2-bm1-reduced-matrix-elements-strengths.md",
   "next_learning_plan_file": "/workspace/wiki/outputs/plans/2026-10-08-DAY9-be2-bm1-reduced-matrix-elements-strengths.md",
   "next_formal_day_index": 9,
@@ -720,5 +720,92 @@
     "lint_errors": 0,
     "lint_existing_warnings": 91
   },
-  "final_commit_subject": "Complete DAY8 learning and prepare formal DAY9"
+  "final_commit_subject": "Complete DAY8 learning and prepare formal DAY9",
+  "final_science_publication": {
+    "branch": "main",
+    "commit_subject": "Complete DAY8 learning and prepare formal DAY9",
+    "commit_hash": "8829e08caa294efbd26aca5129bfbbc55281ef96",
+    "remote": "origin (Gitee)",
+    "refspec": "HEAD:main",
+    "fetch_exit": 0,
+    "remote_ancestor_exit": 0,
+    "dry_run_exit": 0,
+    "push_exit": 0,
+    "H3_passed": true,
+    "post_commit_files_match_manifest": true,
+    "post_push_head_matches_remote_main": true,
+    "files": 26,
+    "publication_kind": "final-science-and-next-prompt",
+    "published_at": "2026-10-08T15:32:53.294240+08:00"
+  },
+  "curriculum_cards_completed": 1,
+  "completed_at": "2026-10-08T15:32:53.294240+08:00",
+  "course_state_after": {
+    "schema_version": 1,
+    "cycle": "2026-09-30-day-substantive",
+    "counting_policy": "30 fully completed substantive curriculum cards; a run may complete multiple contiguous cards; acceptance-only runs are excluded",
+    "next_day_index": 9,
+    "last_success": "2026-10-07",
+    "last_run_id": "prompt-2026-10-07-day-08",
+    "status": "active",
+    "acceptance_runs_excluded": [
+      "2026-09-22-day-01-01",
+      "2026-09-22-day-01-02",
+      "2026-09-22-day-01-03",
+      "2026-09-22-day-01-04",
+      "2026-09-22-day-01-05",
+      "2026-09-22-day-02-06"
+    ],
+    "reset_at": "2026-09-23",
+    "reset_reason": "Manual Docker/runner instance acceptance before the substantive 30-day test reset",
+    "completed_day_count": 8
+  },
+  "closeout_decision": "deadline-closeout",
+  "final_checks_file": "/workspace/wiki/outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/final-checks.json",
+  "normal_schedule_resume": {
+    "pid": 165143,
+    "created_at": "2026-10-08T15:35:02.221220+08:00",
+    "kind": "restore-normal-next-day-schedule-after-Day8-closeout",
+    "cwd": "/workspace/wiki",
+    "hour": 16,
+    "minute": 0,
+    "timezone": "Asia/Shanghai",
+    "profiles": [
+      {
+        "model": "gpt-6-luna",
+        "reasoning_effort": "max"
+      },
+      {
+        "model": "gpt-6-sol",
+        "reasoning_effort": "high"
+      },
+      {
+        "model": "gpt-6-astra",
+        "reasoning_effort": "medium"
+      }
+    ],
+    "process_command": [
+      "/opt/venv/bin/python3",
+      "-B",
+      "-c",
+      "import sys;from pathlib import Path;sys.path.insert(0,'/workspace/wiki/system/scripts');import run_daily_learning_daemon as d;root=Path('/workspace/wiki');d.validate_root(root);raise SystemExit(d.daemon_loop(root,(('gpt-6-luna','max'),('gpt-6-sol','high'),('gpt-6-astra','medium')),False,16,0,30,d.DEFAULT_LOCK_FILE,d.get_state_path(root),d.get_log_path(root)))"
+    ],
+    "inherited_daemon_source_unchanged": true,
+    "clock_stop_is_completed_run_handoff_not_user_cancel": true,
+    "next_day_index": 9,
+    "state_path": "/workspace/wiki/outputs/learning-milestones/2026-09-one-month-scheduler-state.json",
+    "log_path": "/workspace/wiki/outputs/learning-milestones/2026-09-one-month-scheduler.jsonl",
+    "new_learning_session_started_by_this_action": false,
+    "verified_live_pid": true,
+    "verified_daemon_lock_owned": true,
+    "next_due": "2026-10-08T16:00:00+08:00",
+    "future_day9_session_not_started_yet": true,
+    "verification_at": "2026-10-08T15:36:22.297557+08:00"
+  },
+  "clock_completion_shutdown": {
+    "pid": 110255,
+    "status": "interrupted",
+    "signal": 15,
+    "reason": "completed receipt, lock release for normal16:00day9schedule; not research cancellation"
+  }
 }

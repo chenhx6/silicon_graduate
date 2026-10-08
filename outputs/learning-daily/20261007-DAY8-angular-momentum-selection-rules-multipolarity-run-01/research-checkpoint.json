@@ -11,7 +11,7 @@
   "partial_day_indices": [
     9
   ],
-  "course_state_updated": false,
+  "course_state_updated": true,
   "runtime_snapshot": {
     "now_local": "2026-10-08T15:02:22.237010+08:00",
     "hard_deadline": "2026-10-08T15:00:00+08:00",
@@ -227,7 +227,7 @@
     }
   ],
   "next_actions": [
-    "closeout-only all mandatorygates and normalstate only8credit"
+    "正式DAY9新session按publishedplan/prompt开始；不继承previewcredit"
   ],
   "latest_verification": "checkpoint-09-checks.json",
   "checkpoint_verified": true,
@@ -254,14 +254,9 @@
     "files": 21
   },
   "FO_status": "5 model points, 2 N6-warning points; offline parent replay0 new queries",
-  "handover_pending": [
-    {
-      "artifact": "finalcloseout",
-      "needs": "mandatorychecks/runnercredit/formalDAY9/publication/reconciliation only"
-    }
-  ],
+  "handover_pending": [],
   "learning_window_closed": true,
-  "continue_same_goal": true,
+  "continue_same_goal": false,
   "new_parent_verified": {
     "caseC_global": 29,
     "E0_gamma_ICC_tau": 47,
@@ -341,7 +336,7 @@
     "LKH82-2:p179 IBM magnitudes/PPQ signs corrected by parent"
   ],
   "next_action": "collect independent reviews; bounded J3 reference calibration route; original-baseline checkpoint07 validation/publication; 15:00 closeout",
-  "run_finalized": false,
+  "run_finalized": true,
   "latest_clock_execution": {
     "clock_event_id": "checkpoint-003",
     "queued_snapshot_at": "2026-10-07T06:19:49.569386+08:00",

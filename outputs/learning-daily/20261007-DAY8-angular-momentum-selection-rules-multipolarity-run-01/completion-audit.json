@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "audited_at": "2026-10-08T15:39:29.873852+08:00",
+  "objective": "formalDay8fullcontractandnextformalDay9",
+  "requirements": {
+    "formalDay8independentpromptprimedrecall": true,
+    "sourceidentitylocators_and_rawhashes": true,
+    "three_all_multipole_candidates_and_observationdependencies": true,
+    "complete_day8card_audit_five_deliverables": true,
+    "unique_machine_readable_lists": true,
+    "required_report_headings": true,
+    "singlevalidknowledgewritebacksevenactualchangedpages": true,
+    "counterevidence_and_no_model_as_experiment": true,
+    "deadline_research_stop_and_closeout_only": true,
+    "only8normalcourse_credit_after_sciencepublication": true,
+    "formalDay9planprompt_exists_no_inheritedcredit": true,
+    "normalrunner_actual_run_output_binding": true,
+    "required_boundary_lint_diff_commands": true,
+    "raw_PLAN_BibTeX_review_daemon_preserved": true,
+    "session_resume_receipt": true,
+    "Gitee_nonforce_scientificfinal_and_H3": true,
+    "last_primary_and_independent_review_complete": true,
+    "normal16schedule_current_pid_lock_and_nextdue": true
+  },
+  "requirements_proven": true,
+  "normalcourse_state": {
+    "next_day_index": 9,
+    "completed_day_count": 8
+  },
+  "remaining_required_work": [
+    "necessarycredit/runtimecommit_and_nonforce_H3publication"
+  ],
+  "scientific_limitations_not_technical_blockers": [
+    "noevent/response/covariance/currentpriors",
+    "Day9previewuncredited",
+    "nohumanreviewpromotion"
+  ],
+  "source_of_proof": "actualfiles,source/rawhashchecks,parentreplays,runnervalidators,GitrefandlivePID/lock"
+}

@@ -15,7 +15,7 @@ updated: 2026-10-08
 - session_id: `01a111fb-370d-7ed1-afe9-881ccc47caf4`
 - resume_command: `codex resume 01a111fb-370d-7ed1-afe9-881ccc47caf4 -C /workspace/wiki -s danger-full-access -a never`
 - session mode: 本日新建会话；起始工具调用被用户中断后在同一本日会话继续，未复用 Day7 会话。
-- status: `content-complete / closing-out`。研究已按15:00硬截止停止；正式Day8内容与五项audit完整，最终runner/state和发布门在收束中执行。
+- status: `completed / Day8 credited / research-window closed`。研究于15:00截止，科学内容与正式Day9文件已发布；normalrunner/state保存`next_day_index=9 / completed_day_count=8`。Day9仅预习无学分。
 - completed_day_indices: [8]
 - partial_day_indices: [9]
 - Day 8 card audit: complete
@@ -1118,3 +1118,11 @@ run_date仍2026-10-07/day_index8，硬截止固定10-08 15:00，当前距截止8
 研究已固定于2026-10-08 15:00停止；Day8自己recall/原文/三题/依赖/知识与五行card audit完整，Day9仅partial。最后12/3独立scope重放通过；四组raw身份、原review状态、PLAN、BibTeX与继承daemon保护由final-protection-audit.json核验。实际执行boundary、wiki_lint --fail-on error、gitdiff --check全部exit0，lint0errors/91existingwarnings；original562-page baseline runner/writeback/card验证通过。课程state仅在fresh publication dryrun门后用正常update_state_for_curriculum_cards原子保存。
 
 本次final commit message为 Complete DAY8 learning and prepare formal DAY9，branch main；precisehash及真实Gitee push/H3结果仅run receipt，正文采用该稳定指针。正式DAY9plan/prompt在15:02生成，normalrunner placeholders已验证绑定到actualrun-01，未创建Day9session/学分。Clock锁完成关闭后恢复既有16:00调度，explicit Luna/max→Sol/high→Astra/medium，不改继承dirty源码；实际runtime/result以receipt为准。
+
+### 课程状态的正常推进
+
+Final-science publication/H3先通过，随后调用update_state_for_curriculum_cards并原子保存，仅credit8：next9/count8。正式DAY9plan/prompt已生成，不等于Day9开始或计卡；publicationhash/时刻与课程前后快照在run.json。最终runtime/credit对账提交不改变科学结论。
+
+### 最终 runtime 对账
+
+Day8完成receipt后已关闭本日clock并核双锁释放；既有daily daemon以explicit授权Luna/max→Sol/high→Astra/medium profiles恢复，未改inheritdirty源码。实际PID/daemonlock已核，nextdue2026-10-08 16:00 Asia/Shanghai，未来Day9session此刻尚未启动。仅计Day8，正式Day9新session由normalrunner在schedule到点生成receipt/resume。Final runtime/credit提交指针为main + Record DAY8 course credit and restore DAY9 schedule，真实hash只run.json；该提交保存必要课程与调度交付，不添加科学结论。

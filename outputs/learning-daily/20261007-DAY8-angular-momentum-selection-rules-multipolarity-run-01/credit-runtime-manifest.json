@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "run_id": "prompt-2026-10-07-day-08",
+  "day_index": 8,
+  "branch": "main",
+  "commit_subject": "Record DAY8 course credit and restore DAY9 schedule",
+  "owned_files": [
+    "outputs/learning-milestones/2026-09-one-month-state.json",
+    "outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity.md",
+    "system/handoff.md",
+    "outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/run.json",
+    "outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/research-checkpoint.json",
+    "outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/progress.jsonl",
+    "outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/continuation-prompt.md",
+    "outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/schedule-resume.json",
+    "outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/schedule-resume-process.log",
+    "outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/clock-state.json",
+    "outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/clock-events.jsonl",
+    "outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/clock-process.log",
+    "outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/completion-audit.json",
+    "outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/credit-runtime-manifest.json"
+  ],
+  "publication_kind": "necessary-course-state-and-next-schedule-handoff",
+  "only_day8_credit": true,
+  "protected_raw_PLAN_daemon_excluded": true
+}

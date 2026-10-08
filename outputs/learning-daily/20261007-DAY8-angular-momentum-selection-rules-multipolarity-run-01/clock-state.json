@@ -1,0 +1,406 @@
+{
+  "schema_version": 1,
+  "receipt": "/workspace/wiki/outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/run.json",
+  "thread": "01a111fb-370d-7ed1-afe9-881ccc47caf4",
+  "run_date": "2026-10-07",
+  "day_index": 8,
+  "study_started_at": "2026-10-07T00:19:49.569084+08:00",
+  "deadline": "2026-10-08T15:00:00+08:00",
+  "closeout_end": "2026-10-08T16:00:00+08:00",
+  "checkpoint_hours": 2.0,
+  "sent_event_ids": [
+    "checkpoint-001",
+    "checkpoint-002",
+    "checkpoint-003",
+    "checkpoint-004",
+    "checkpoint-005",
+    "checkpoint-006",
+    "checkpoint-007",
+    "checkpoint-008",
+    "checkpoint-009",
+    "checkpoint-010",
+    "checkpoint-011",
+    "checkpoint-012",
+    "checkpoint-013",
+    "checkpoint-014",
+    "checkpoint-015",
+    "checkpoint-016",
+    "checkpoint-017",
+    "checkpoint-018",
+    "checkpoint-019",
+    "closeout"
+  ],
+  "events": {
+    "checkpoint-001": {
+      "status": "queued",
+      "attempts": 1,
+      "attempted_at": "2026-10-07T02:19:49.775878+08:00",
+      "attempt_history": [
+        {
+          "attempt": 1,
+          "finished_at": "2026-10-07T02:19:50.092339+08:00",
+          "returncode": 0,
+          "timed_out": false,
+          "stdout": "Queued message 01a11271-7dbf-7de3-a5c3-6fcd9a5aea60 for thread 01a111fb-370d-7ed1-afe9-881ccc47caf4.\n",
+          "stderr": ""
+        }
+      ],
+      "queued_at": "2026-10-07T02:19:50.092339+08:00",
+      "delivery_observed": false
+    },
+    "checkpoint-002": {
+      "status": "queued",
+      "attempts": 1,
+      "attempted_at": "2026-10-07T04:19:49.569628+08:00",
+      "attempt_history": [
+        {
+          "attempt": 1,
+          "finished_at": "2026-10-07T04:19:49.865000+08:00",
+          "returncode": 0,
+          "timed_out": false,
+          "stdout": "Queued message 01a112df-59d9-7351-b07b-50ca0c8ed2a5 for thread 01a111fb-370d-7ed1-afe9-881ccc47caf4.\n",
+          "stderr": ""
+        }
+      ],
+      "queued_at": "2026-10-07T04:19:49.865000+08:00",
+      "delivery_observed": false
+    },
+    "checkpoint-003": {
+      "status": "queued",
+      "attempts": 1,
+      "attempted_at": "2026-10-07T06:19:49.569386+08:00",
+      "attempt_history": [
+        {
+          "attempt": 1,
+          "finished_at": "2026-10-07T06:19:50.010733+08:00",
+          "returncode": 0,
+          "timed_out": false,
+          "stdout": "Queued message 01a1134d-3769-7102-a537-136c3135a8fe for thread 01a111fb-370d-7ed1-afe9-881ccc47caf4.\n",
+          "stderr": ""
+        }
+      ],
+      "queued_at": "2026-10-07T06:19:50.010733+08:00",
+      "delivery_observed": false
+    },
+    "checkpoint-004": {
+      "status": "queued",
+      "attempts": 1,
+      "attempted_at": "2026-10-07T08:19:49.569545+08:00",
+      "attempt_history": [
+        {
+          "attempt": 1,
+          "finished_at": "2026-10-07T08:19:50.096377+08:00",
+          "returncode": 0,
+          "timed_out": false,
+          "stdout": "Queued message 01a113bb-14bf-7eb1-8887-9b8424faa2d5 for thread 01a111fb-370d-7ed1-afe9-881ccc47caf4.\n",
+          "stderr": ""
+        }
+      ],
+      "queued_at": "2026-10-07T08:19:50.096377+08:00",
+      "delivery_observed": false
+    },
+    "checkpoint-005": {
+      "status": "queued",
+      "attempts": 1,
+      "attempted_at": "2026-10-07T10:19:49.569514+08:00",
+      "attempt_history": [
+        {
+          "attempt": 1,
+          "finished_at": "2026-10-07T10:19:50.356933+08:00",
+          "returncode": 0,
+          "timed_out": false,
+          "stdout": "Queued message 01a11428-f2c4-7f62-956d-e8cd43cb7050 for thread 01a111fb-370d-7ed1-afe9-881ccc47caf4.\n",
+          "stderr": ""
+        }
+      ],
+      "queued_at": "2026-10-07T10:19:50.356933+08:00",
+      "delivery_observed": false
+    },
+    "checkpoint-006": {
+      "status": "queued",
+      "attempts": 1,
+      "attempted_at": "2026-10-07T12:19:49.967005+08:00",
+      "attempt_history": [
+        {
+          "attempt": 1,
+          "finished_at": "2026-10-07T12:19:50.627768+08:00",
+          "returncode": 0,
+          "timed_out": false,
+          "stdout": "Queued message 01a11496-d0d6-73d2-92dd-d1b9b33bfbf9 for thread 01a111fb-370d-7ed1-afe9-881ccc47caf4.\n",
+          "stderr": ""
+        }
+      ],
+      "queued_at": "2026-10-07T12:19:50.627768+08:00",
+      "delivery_observed": false
+    },
+    "checkpoint-007": {
+      "status": "queued",
+      "attempts": 1,
+      "attempted_at": "2026-10-07T14:19:49.569465+08:00",
+      "attempt_history": [
+        {
+          "attempt": 1,
+          "finished_at": "2026-10-07T14:19:50.190171+08:00",
+          "returncode": 0,
+          "timed_out": false,
+          "stdout": "Queued message 01a11504-ac17-7e53-8e7d-0daaf42cc369 for thread 01a111fb-370d-7ed1-afe9-881ccc47caf4.\n",
+          "stderr": ""
+        }
+      ],
+      "queued_at": "2026-10-07T14:19:50.190171+08:00",
+      "delivery_observed": false
+    },
+    "checkpoint-008": {
+      "status": "queued",
+      "attempts": 1,
+      "attempted_at": "2026-10-07T16:19:49.569499+08:00",
+      "attempt_history": [
+        {
+          "attempt": 1,
+          "finished_at": "2026-10-07T16:19:50.266686+08:00",
+          "returncode": 0,
+          "timed_out": false,
+          "stdout": "Queued message 01a11572-896f-7dc0-bf76-ca29cb0c3050 for thread 01a111fb-370d-7ed1-afe9-881ccc47caf4.\n",
+          "stderr": ""
+        }
+      ],
+      "queued_at": "2026-10-07T16:19:50.266686+08:00",
+      "delivery_observed": false
+    },
+    "checkpoint-009": {
+      "status": "queued",
+      "attempts": 1,
+      "attempted_at": "2026-10-07T18:19:49.597634+08:00",
+      "attempt_history": [
+        {
+          "attempt": 1,
+          "finished_at": "2026-10-07T18:19:50.526694+08:00",
+          "returncode": 0,
+          "timed_out": false,
+          "stdout": "Queued message 01a115e0-6755-7160-b637-1dbbc2177160 for thread 01a111fb-370d-7ed1-afe9-881ccc47caf4.\n",
+          "stderr": ""
+        }
+      ],
+      "queued_at": "2026-10-07T18:19:50.526694+08:00",
+      "delivery_observed": false
+    },
+    "checkpoint-010": {
+      "status": "queued",
+      "attempts": 1,
+      "attempted_at": "2026-10-07T20:19:49.670804+08:00",
+      "attempt_history": [
+        {
+          "attempt": 1,
+          "finished_at": "2026-10-07T20:19:50.598033+08:00",
+          "returncode": 0,
+          "timed_out": false,
+          "stdout": "Queued message 01a1164e-44a9-7f40-bffe-bbc8750c7bac for thread 01a111fb-370d-7ed1-afe9-881ccc47caf4.\n",
+          "stderr": ""
+        }
+      ],
+      "queued_at": "2026-10-07T20:19:50.598033+08:00",
+      "delivery_observed": false
+    },
+    "checkpoint-011": {
+      "status": "queued",
+      "attempts": 1,
+      "attempted_at": "2026-10-07T22:19:49.651153+08:00",
+      "attempt_history": [
+        {
+          "attempt": 1,
+          "finished_at": "2026-10-07T22:19:50.455138+08:00",
+          "returncode": 0,
+          "timed_out": false,
+          "stdout": "Queued message 01a116bc-212b-7a93-aa0e-955ae6429a87 for thread 01a111fb-370d-7ed1-afe9-881ccc47caf4.\n",
+          "stderr": ""
+        }
+      ],
+      "queued_at": "2026-10-07T22:19:50.455138+08:00",
+      "delivery_observed": false
+    },
+    "checkpoint-012": {
+      "status": "queued",
+      "attempts": 1,
+      "attempted_at": "2026-10-08T00:19:49.704125+08:00",
+      "attempt_history": [
+        {
+          "attempt": 1,
+          "finished_at": "2026-10-08T00:19:50.812661+08:00",
+          "returncode": 0,
+          "timed_out": false,
+          "stdout": "Queued message 01a11729-ff84-7513-bc5a-42292370fa18 for thread 01a111fb-370d-7ed1-afe9-881ccc47caf4.\n",
+          "stderr": ""
+        }
+      ],
+      "queued_at": "2026-10-08T00:19:50.812661+08:00",
+      "delivery_observed": false
+    },
+    "checkpoint-013": {
+      "status": "queued",
+      "attempts": 1,
+      "attempted_at": "2026-10-08T02:19:50.313515+08:00",
+      "attempt_history": [
+        {
+          "attempt": 1,
+          "finished_at": "2026-10-08T02:19:51.510428+08:00",
+          "returncode": 0,
+          "timed_out": false,
+          "stdout": "Queued message 01a11797-df4f-7c42-b8ba-8c233bea5067 for thread 01a111fb-370d-7ed1-afe9-881ccc47caf4.\n",
+          "stderr": ""
+        }
+      ],
+      "queued_at": "2026-10-08T02:19:51.510428+08:00",
+      "delivery_observed": false
+    },
+    "checkpoint-014": {
+      "status": "queued",
+      "attempts": 1,
+      "attempted_at": "2026-10-08T04:19:50.194279+08:00",
+      "attempt_history": [
+        {
+          "attempt": 1,
+          "finished_at": "2026-10-08T04:19:51.190999+08:00",
+          "returncode": 0,
+          "timed_out": false,
+          "stdout": "Queued message 01a11805-baf4-7a42-8506-268e1a326622 for thread 01a111fb-370d-7ed1-afe9-881ccc47caf4.\n",
+          "stderr": ""
+        }
+      ],
+      "queued_at": "2026-10-08T04:19:51.190999+08:00",
+      "delivery_observed": false
+    },
+    "checkpoint-015": {
+      "status": "queued",
+      "attempts": 1,
+      "attempted_at": "2026-10-08T06:19:50.015668+08:00",
+      "attempt_history": [
+        {
+          "attempt": 1,
+          "finished_at": "2026-10-08T06:19:50.945814+08:00",
+          "returncode": 0,
+          "timed_out": false,
+          "stdout": "Queued message 01a11873-9710-72c3-8045-03a7acb5bf3a for thread 01a111fb-370d-7ed1-afe9-881ccc47caf4.\n",
+          "stderr": ""
+        }
+      ],
+      "queued_at": "2026-10-08T06:19:50.945814+08:00",
+      "delivery_observed": false
+    },
+    "checkpoint-016": {
+      "status": "queued",
+      "attempts": 1,
+      "attempted_at": "2026-10-08T08:19:49.569332+08:00",
+      "attempt_history": [
+        {
+          "attempt": 1,
+          "finished_at": "2026-10-08T08:19:50.644003+08:00",
+          "returncode": 0,
+          "timed_out": false,
+          "stdout": "Queued message 01a118e1-72ec-76e2-b83b-7dcf5862699b for thread 01a111fb-370d-7ed1-afe9-881ccc47caf4.\n",
+          "stderr": ""
+        }
+      ],
+      "queued_at": "2026-10-08T08:19:50.644003+08:00",
+      "delivery_observed": false
+    },
+    "checkpoint-017": {
+      "status": "queued",
+      "attempts": 1,
+      "attempted_at": "2026-10-08T10:19:49.569490+08:00",
+      "attempt_history": [
+        {
+          "attempt": 1,
+          "finished_at": "2026-10-08T10:19:51.076791+08:00",
+          "returncode": 0,
+          "timed_out": false,
+          "stdout": "Queued message 01a1194f-518c-7611-af04-5358addda1b0 for thread 01a111fb-370d-7ed1-afe9-881ccc47caf4.\n",
+          "stderr": ""
+        }
+      ],
+      "queued_at": "2026-10-08T10:19:51.076791+08:00",
+      "delivery_observed": false
+    },
+    "checkpoint-018": {
+      "status": "queued",
+      "attempts": 1,
+      "attempted_at": "2026-10-08T12:19:49.965914+08:00",
+      "attempt_history": [
+        {
+          "attempt": 1,
+          "finished_at": "2026-10-08T12:19:51.217618+08:00",
+          "returncode": 0,
+          "timed_out": false,
+          "stdout": "Queued message 01a119bd-2f1b-7e03-9c08-86dedc813f00 for thread 01a111fb-370d-7ed1-afe9-881ccc47caf4.\n",
+          "stderr": ""
+        }
+      ],
+      "queued_at": "2026-10-08T12:19:51.217618+08:00",
+      "delivery_observed": false
+    },
+    "checkpoint-019": {
+      "status": "queued",
+      "attempts": 1,
+      "attempted_at": "2026-10-08T14:19:49.950574+08:00",
+      "attempt_history": [
+        {
+          "attempt": 1,
+          "finished_at": "2026-10-08T14:19:51.597371+08:00",
+          "returncode": 0,
+          "timed_out": false,
+          "stdout": "Queued message 01a11a2b-0d9b-78c0-a104-a6779ddfaeaa for thread 01a111fb-370d-7ed1-afe9-881ccc47caf4.\n",
+          "stderr": ""
+        }
+      ],
+      "queued_at": "2026-10-08T14:19:51.597371+08:00",
+      "delivery_observed": false
+    },
+    "closeout": {
+      "status": "queued",
+      "attempts": 1,
+      "attempted_at": "2026-10-08T15:00:00.000563+08:00",
+      "attempt_history": [
+        {
+          "attempt": 1,
+          "finished_at": "2026-10-08T15:00:01.224310+08:00",
+          "returncode": 0,
+          "timed_out": false,
+          "stdout": "Queued message 01a11a4f-d238-7543-bd23-18198d021301 for thread 01a111fb-370d-7ed1-afe9-881ccc47caf4.\n",
+          "stderr": ""
+        }
+      ],
+      "queued_at": "2026-10-08T15:00:01.224310+08:00",
+      "delivery_observed": false
+    },
+    "closeout-reminder": {
+      "status": "pending",
+      "attempts": 0
+    },
+    "overdue": {
+      "status": "pending",
+      "attempts": 0
+    }
+  },
+  "queue_success_semantics": "exit 0 means queued; delivery has not been observed",
+  "status": "interrupted",
+  "pid": 110255,
+  "supervisor_started_at": "2026-10-07T05:11:49.167824+08:00",
+  "session_execution_observed": false,
+  "heartbeat_at": "2026-10-08T15:32:59.666143+08:00",
+  "phase": "closeout-window",
+  "receipt_status": "completed",
+  "stop_reason": "received signal 15",
+  "stopped_at": "2026-10-08T15:33:59.570297+08:00",
+  "notification_errors": [],
+  "first_supervisor_started_at": "2026-10-07T01:50:20.943968+08:00",
+  "first_start_origin": "legacy-start-records",
+  "farmer_observation": {
+    "path": "/workspace/wiki/tmp/farmer/state.json",
+    "observation": "observed",
+    "action": "continue",
+    "status": "complete",
+    "event_at": "2026-10-08T15:14:43.236000+08:00",
+    "reason": "fresh-thread-event",
+    "file_age_seconds": 0.8153219223022461
+  },
+  "queue_paused": false
+}
