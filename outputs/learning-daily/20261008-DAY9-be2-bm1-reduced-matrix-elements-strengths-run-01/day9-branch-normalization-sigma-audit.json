@@ -1,0 +1,334 @@
+{
+  "schema_version": 1,
+  "run_id": "2026-10-08-day-09-01",
+  "source_locator": "MU08 Table I, printed 034311-3 / PDF p.3",
+  "question": "Could each printed parent-level branch vector be a finite-variance random vector that sums exactly to one on every trial, with all parenthetical errors interpreted as its marginal standard deviations?",
+  "inputs": [
+    {
+      "parent": "B1-I15",
+      "central_sum": "1.00",
+      "quoted_marginal_sigma": [
+        "0.03",
+        "0.02",
+        "0.03"
+      ],
+      "necessary_condition_holds": true,
+      "condition": "Every marginal SD must be no larger than the sum of the other marginal SDs (L2 triangle inequality)."
+    },
+    {
+      "parent": "B1-I16",
+      "central_sum": "1.00",
+      "quoted_marginal_sigma": [
+        "0.04",
+        "0.01",
+        "0.01"
+      ],
+      "necessary_condition_holds": false,
+      "condition": "Every marginal SD must be no larger than the sum of the other marginal SDs (L2 triangle inequality)."
+    },
+    {
+      "parent": "B1-I17",
+      "central_sum": "1.00",
+      "quoted_marginal_sigma": [
+        "0.03",
+        "0.01",
+        "0.03"
+      ],
+      "necessary_condition_holds": true,
+      "condition": "Every marginal SD must be no larger than the sum of the other marginal SDs (L2 triangle inequality)."
+    },
+    {
+      "parent": "B1-I18",
+      "central_sum": "1.00",
+      "quoted_marginal_sigma": [
+        "0.06",
+        "0.02",
+        "0.02"
+      ],
+      "necessary_condition_holds": false,
+      "condition": "Every marginal SD must be no larger than the sum of the other marginal SDs (L2 triangle inequality)."
+    },
+    {
+      "parent": "B1-I19",
+      "central_sum": "1.00",
+      "quoted_marginal_sigma": [
+        "0.08",
+        "0.02"
+      ],
+      "necessary_condition_holds": false,
+      "condition": "Two exactly normalized components require equal marginal SDs."
+    },
+    {
+      "parent": "B2-I15",
+      "central_sum": "1.00",
+      "quoted_marginal_sigma": [
+        "0.05",
+        "0.01"
+      ],
+      "necessary_condition_holds": false,
+      "condition": "Two exactly normalized components require equal marginal SDs."
+    },
+    {
+      "parent": "B2-I16",
+      "central_sum": "1.00",
+      "quoted_marginal_sigma": [
+        "0.03",
+        "0.01"
+      ],
+      "necessary_condition_holds": false,
+      "condition": "Two exactly normalized components require equal marginal SDs."
+    },
+    {
+      "parent": "B2-I17",
+      "central_sum": "1.00",
+      "quoted_marginal_sigma": [
+        "0.04",
+        "0.02",
+        "0.01"
+      ],
+      "necessary_condition_holds": false,
+      "condition": "Every marginal SD must be no larger than the sum of the other marginal SDs (L2 triangle inequality)."
+    },
+    {
+      "parent": "B2-I18",
+      "central_sum": "1.00",
+      "quoted_marginal_sigma": [
+        "0.07",
+        "0.01",
+        "0.02"
+      ],
+      "necessary_condition_holds": false,
+      "condition": "Every marginal SD must be no larger than the sum of the other marginal SDs (L2 triangle inequality)."
+    },
+    {
+      "parent": "B2-I19",
+      "central_sum": "1.00",
+      "quoted_marginal_sigma": [
+        "0.09",
+        "0.02"
+      ],
+      "necessary_condition_holds": false,
+      "condition": "Two exactly normalized components require equal marginal SDs."
+    }
+  ],
+  "violating_parent_groups": [
+    "B1-I16",
+    "B1-I18",
+    "B1-I19",
+    "B2-I15",
+    "B2-I16",
+    "B2-I17",
+    "B2-I18",
+    "B2-I19"
+  ],
+  "passing_parent_groups": [
+    "B1-I15",
+    "B1-I17"
+  ],
+  "result": "That extra joint interpretation is inconsistent for the listed marginal errors in the violating rows. The article does not establish the exact complete-decay branch vector or that the parentheses are those marginal SDs; this is not evidence of author error, missing branches, or actual covariance signs.",
+  "hypothetical_last_digit_rounding_sensitivity": {
+    "assumption": "Additional hypothetical nearest-0.01 SD rounding modeled conservatively by closed ±0.005 intervals; this is not the paper reporting convention or a confidence interval.",
+    "rows": [
+      {
+        "parent": "B1-I15",
+        "hypothetical_sigma_intervals": [
+          [
+            "0.025",
+            "0.035"
+          ],
+          [
+            "0.015",
+            "0.025"
+          ],
+          [
+            "0.025",
+            "0.035"
+          ]
+        ],
+        "necessary_constraint_excluded_for_all_values_in_intervals": false,
+        "violating_indices_zero_based": []
+      },
+      {
+        "parent": "B1-I16",
+        "hypothetical_sigma_intervals": [
+          [
+            "0.035",
+            "0.045"
+          ],
+          [
+            "0.005",
+            "0.015"
+          ],
+          [
+            "0.005",
+            "0.015"
+          ]
+        ],
+        "necessary_constraint_excluded_for_all_values_in_intervals": true,
+        "violating_indices_zero_based": [
+          0
+        ]
+      },
+      {
+        "parent": "B1-I17",
+        "hypothetical_sigma_intervals": [
+          [
+            "0.025",
+            "0.035"
+          ],
+          [
+            "0.005",
+            "0.015"
+          ],
+          [
+            "0.025",
+            "0.035"
+          ]
+        ],
+        "necessary_constraint_excluded_for_all_values_in_intervals": false,
+        "violating_indices_zero_based": []
+      },
+      {
+        "parent": "B1-I18",
+        "hypothetical_sigma_intervals": [
+          [
+            "0.055",
+            "0.065"
+          ],
+          [
+            "0.015",
+            "0.025"
+          ],
+          [
+            "0.015",
+            "0.025"
+          ]
+        ],
+        "necessary_constraint_excluded_for_all_values_in_intervals": true,
+        "violating_indices_zero_based": [
+          0
+        ]
+      },
+      {
+        "parent": "B1-I19",
+        "hypothetical_sigma_intervals": [
+          [
+            "0.075",
+            "0.085"
+          ],
+          [
+            "0.015",
+            "0.025"
+          ]
+        ],
+        "necessary_constraint_excluded_for_all_values_in_intervals": true,
+        "violating_indices_zero_based": [
+          0
+        ]
+      },
+      {
+        "parent": "B2-I15",
+        "hypothetical_sigma_intervals": [
+          [
+            "0.045",
+            "0.055"
+          ],
+          [
+            "0.005",
+            "0.015"
+          ]
+        ],
+        "necessary_constraint_excluded_for_all_values_in_intervals": true,
+        "violating_indices_zero_based": [
+          0
+        ]
+      },
+      {
+        "parent": "B2-I16",
+        "hypothetical_sigma_intervals": [
+          [
+            "0.025",
+            "0.035"
+          ],
+          [
+            "0.005",
+            "0.015"
+          ]
+        ],
+        "necessary_constraint_excluded_for_all_values_in_intervals": true,
+        "violating_indices_zero_based": [
+          0
+        ]
+      },
+      {
+        "parent": "B2-I17",
+        "hypothetical_sigma_intervals": [
+          [
+            "0.035",
+            "0.045"
+          ],
+          [
+            "0.015",
+            "0.025"
+          ],
+          [
+            "0.005",
+            "0.015"
+          ]
+        ],
+        "necessary_constraint_excluded_for_all_values_in_intervals": false,
+        "violating_indices_zero_based": []
+      },
+      {
+        "parent": "B2-I18",
+        "hypothetical_sigma_intervals": [
+          [
+            "0.065",
+            "0.075"
+          ],
+          [
+            "0.005",
+            "0.015"
+          ],
+          [
+            "0.015",
+            "0.025"
+          ]
+        ],
+        "necessary_constraint_excluded_for_all_values_in_intervals": true,
+        "violating_indices_zero_based": [
+          0
+        ]
+      },
+      {
+        "parent": "B2-I19",
+        "hypothetical_sigma_intervals": [
+          [
+            "0.085",
+            "0.095"
+          ],
+          [
+            "0.015",
+            "0.025"
+          ]
+        ],
+        "necessary_constraint_excluded_for_all_values_in_intervals": true,
+        "violating_indices_zero_based": [
+          0
+        ]
+      }
+    ],
+    "robustly_excluded_parent_groups": [
+      "B1-I16",
+      "B1-I18",
+      "B1-I19",
+      "B2-I15",
+      "B2-I16",
+      "B2-I18",
+      "B2-I19"
+    ],
+    "rounding_sensitive_displayed_violation": "B2-I17",
+    "example": "B2-I17 can avoid the necessary-constraint violation within these intervals: 0.036 ≤ 0.024+0.014. No actual covariance/distribution is thereby established.",
+    "interpretation": "Eight violations treat displayed SDs as exact; seven remain excluded under this added rounding model. Passing the necessary inequality is not evidence for the assumed experimental branch model."
+  }
+}

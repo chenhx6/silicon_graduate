@@ -1,0 +1,788 @@
+{
+  "schema_version": 1,
+  "run_id": "2026-10-08-day-09-01",
+  "purpose": "uncredited Day10 preview; partial only",
+  "source": {
+    "citation_key": "Mukhopadhyay_2007",
+    "raw_file": "raw/papers/gpt/high-spin-20260920/三轴/手征/2007_Mukhopadhyay et al_From Chiral Vibration to Static Chirality in Nd 135.pdf",
+    "raw_sha256": "9eccc9c2ad02cc10735d1aad0d76eb2fd8af0a4acc814bcaab8099f50e748425",
+    "locator": "printed 172501-2 / PDF p.2, Table I"
+  },
+  "rows": [
+    {
+      "spin": "31/2-",
+      "A": {
+        "B_M1_reported_muN2": "2.5(3)",
+        "B_E2_reported_e2b2": "0.32(3)",
+        "derived_ratio_central": "7.8125",
+        "ratio_unit": "muN^2/(e^2 b^2)"
+      },
+      "B": {
+        "B_M1_reported_muN2": "2.7(3)",
+        "B_E2_reported_e2b2": "0.28(3)",
+        "derived_ratio_central": "9.6429",
+        "ratio_unit": "muN^2/(e^2 b^2)"
+      },
+      "cross_band_derived_central": {
+        "B_M1_B_over_A": "1.0800",
+        "B_E2_B_over_A": "0.8750",
+        "ratio_B_over_A": "1.2343",
+        "note": "central-value quotient only; no joint error/covariance"
+      }
+    },
+    {
+      "spin": "33/2-",
+      "A": {
+        "B_M1_reported_muN2": "2.2(2)",
+        "B_E2_reported_e2b2": "0.32(3)",
+        "derived_ratio_central": "6.8750",
+        "ratio_unit": "muN^2/(e^2 b^2)"
+      },
+      "B": {
+        "B_M1_reported_muN2": "2.1(2)",
+        "B_E2_reported_e2b2": "0.28(3)",
+        "derived_ratio_central": "7.5000",
+        "ratio_unit": "muN^2/(e^2 b^2)"
+      },
+      "cross_band_derived_central": {
+        "B_M1_B_over_A": "0.9545",
+        "B_E2_B_over_A": "0.8750",
+        "ratio_B_over_A": "1.0909",
+        "note": "central-value quotient only; no joint error/covariance"
+      }
+    },
+    {
+      "spin": "35/2-",
+      "A": {
+        "B_M1_reported_muN2": "2.4(3)",
+        "B_E2_reported_e2b2": "0.32(3)",
+        "derived_ratio_central": "7.5000",
+        "ratio_unit": "muN^2/(e^2 b^2)"
+      },
+      "B": {
+        "B_M1_reported_muN2": "2.2(2)",
+        "B_E2_reported_e2b2": "0.28(4)",
+        "derived_ratio_central": "7.8571",
+        "ratio_unit": "muN^2/(e^2 b^2)"
+      },
+      "cross_band_derived_central": {
+        "B_M1_B_over_A": "0.9167",
+        "B_E2_B_over_A": "0.8750",
+        "ratio_B_over_A": "1.0476",
+        "note": "central-value quotient only; no joint error/covariance"
+      }
+    },
+    {
+      "spin": "37/2-",
+      "A": {
+        "B_M1_reported_muN2": "1.7(3)",
+        "B_E2_reported_e2b2": "0.32(4)",
+        "derived_ratio_central": "5.3125",
+        "ratio_unit": "muN^2/(e^2 b^2)"
+      },
+      "B": {
+        "B_M1_reported_muN2": "1.7(2)",
+        "B_E2_reported_e2b2": "0.29(4)",
+        "derived_ratio_central": "5.8621",
+        "ratio_unit": "muN^2/(e^2 b^2)"
+      },
+      "cross_band_derived_central": {
+        "B_M1_B_over_A": "1.0000",
+        "B_E2_B_over_A": "0.9062",
+        "ratio_B_over_A": "1.1035",
+        "note": "central-value quotient only; no joint error/covariance"
+      }
+    },
+    {
+      "spin": "39/2-",
+      "A": {
+        "B_M1_reported_muN2": "2.1(3)",
+        "B_E2_reported_e2b2": "0.13(3)",
+        "derived_ratio_central": "16.1538",
+        "ratio_unit": "muN^2/(e^2 b^2)"
+      },
+      "B": {
+        "B_M1_reported_muN2": "1.9(3)",
+        "B_E2_reported_e2b2": "0.11(3)",
+        "derived_ratio_central": "17.2727",
+        "ratio_unit": "muN^2/(e^2 b^2)"
+      },
+      "cross_band_derived_central": {
+        "B_M1_B_over_A": "0.9048",
+        "B_E2_B_over_A": "0.8462",
+        "ratio_B_over_A": "1.0693",
+        "note": "central-value quotient only; no joint error/covariance"
+      }
+    }
+  ],
+  "interpretation_boundary": [
+    "These are derived quotients of printed B(M1) and B(E2), not a measured mixing ratio delta^2 for one transition.",
+    "Table I reports B strengths derived from lifetimes and branching; the quotient adds no independent experiment.",
+    "No ratio uncertainty is propagated because the joint lifetime/branch/strength covariance is not reported; 39/2 E2 marginal errors are large (0.13(3), 0.11(3)).",
+    "The 31/2-39/2 overlapping central values are similar between the two 135Nd bands, but this is not sufficient by itself to identify static chirality or rule out crossings/configuration mixing.",
+    "Band B/A ratios of the printed B(M1), B(E2), and their B(M1)/B(E2) quotients are deterministic cross-band comparisons from the same Table I extraction; their covariances are not provided and they are not independent evidence."
+  ],
+  "card_status": "partial_day_indices includes 10; no Day10 audit/credit; day_index remains 9; Day11 not opened",
+  "inband_outband_digitization": {
+    "status": "uncredited Day10 partial",
+    "source_claim_ids": [
+      "MU07-6",
+      "MU07-8"
+    ],
+    "figure_locator": "printed 172501-3 / PDF p.3, Figs.2-3",
+    "denominator_locator": "printed 172501-2 / PDF p.2, Table I",
+    "numerator_definition": "Band B to Band A open-circle experimental points, central values read from the PDF vector figure",
+    "denominator_definition": "same plotted initial-spin label, Band B intraband Table-I central value",
+    "axis_mapping": {
+      "method": "vector-marker centers mapped linearly to the plotted major y ticks",
+      "B_M1_plot_scale": "about 32.95 PDF points per mu_N^2",
+      "B_E2_plot_scale": "about 271.1 PDF points per e^2 b^2",
+      "error_bar_intervals": "graph-read endpoints; the source does not define their coverage"
+    },
+    "ratio_units": "dimensionless, separately for each multipolarity",
+    "rows": [
+      {
+        "spin": "31/2-",
+        "B_M1_out_estimate": 0.084,
+        "B_M1_out_plot_interval": [
+          0.075,
+          0.093
+        ],
+        "B_M1_in_Table_I": "2.7(3)",
+        "B_M1_out_in_ratio": 0.0311,
+        "B_E2_out_estimate": 0.039,
+        "B_E2_out_plot_interval": [
+          0.035,
+          0.043
+        ],
+        "B_E2_in_Table_I": "0.28(3)",
+        "B_E2_out_in_ratio": 0.1393
+      },
+      {
+        "spin": "33/2-",
+        "B_M1_out_estimate": 0.119,
+        "B_M1_out_plot_interval": [
+          0.11,
+          0.127
+        ],
+        "B_M1_in_Table_I": "2.1(2)",
+        "B_M1_out_in_ratio": 0.0567,
+        "B_E2_out_estimate": 0.068,
+        "B_E2_out_plot_interval": [
+          0.063,
+          0.073
+        ],
+        "B_E2_in_Table_I": "0.28(3)",
+        "B_E2_out_in_ratio": 0.2429
+      },
+      {
+        "spin": "35/2-",
+        "B_M1_out_estimate": 0.08,
+        "B_M1_out_plot_interval": [
+          0.074,
+          0.087
+        ],
+        "B_M1_in_Table_I": "2.2(2)",
+        "B_M1_out_in_ratio": 0.0364,
+        "B_E2_out_estimate": 0.133,
+        "B_E2_out_plot_interval": [
+          0.122,
+          0.144
+        ],
+        "B_E2_in_Table_I": "0.28(4)",
+        "B_E2_out_in_ratio": 0.475
+      },
+      {
+        "spin": "37/2-",
+        "B_M1_out_estimate": 0.189,
+        "B_M1_out_plot_interval": [
+          0.178,
+          0.2
+        ],
+        "B_M1_in_Table_I": "1.7(2)",
+        "B_M1_out_in_ratio": 0.1112,
+        "B_E2_out_estimate": 0.144,
+        "B_E2_out_plot_interval": [
+          0.136,
+          0.153
+        ],
+        "B_E2_in_Table_I": "0.29(4)",
+        "B_E2_out_in_ratio": 0.4966
+      }
+    ],
+    "uncertainty_boundary": "No transition-level covariance is reported. A separate first-order quadrature assuming graph intervals and Table-I quoted errors are independent gives only scale estimates: M1 ratios 0.0048, 0.0067, 0.0044, 0.0146; E2 ratios 0.0207, 0.0316, 0.0784, 0.0745. These are not published confidence intervals because graph-bar coverage and shared lifetime/branch covariance are unknown.",
+    "limitations": [
+      "Figure 2/3 contains no 39/2- Band B to Band A point; do not extrapolate.",
+      "MU07 itself does not print line energies/final spins beside its strength markers; the candidate identity mapping comes from Zhu 2003 Ref.[8] Fig.2.",
+      "The 556-keV link is parenthesized in Zhu 2003; the 648-keV figure label and 649-keV DCO text remain discrepant.",
+      "These are graph-digitized estimates, not a tabulated out/in ratio.",
+      "The RPA line is a model curve and is excluded from the experimental numerator.",
+      "The quotients reuse one 2007 DSAM lifetime/branch analysis; the independent 2003 scheme is identity context only, not extra B-strength evidence."
+    ],
+    "transition_identity_crosswalk": [
+      {
+        "spin": "31/2-",
+        "Band_B_to_A": "31/2- -> 29/2-, 648 keV in Zhu Fig.2",
+        "Band_B_inband": "31/2- -> 29/2-, 226 keV",
+        "source_locator": "ZH03-3",
+        "caveat": "Later DCO prose on PDF p.4 says 649 keV; preserve both."
+      },
+      {
+        "spin": "33/2-",
+        "Band_B_to_A": "33/2- -> 31/2-, 639 keV",
+        "Band_B_inband": "33/2- -> 31/2-, 282 keV",
+        "source_locator": "ZH03-3"
+      },
+      {
+        "spin": "35/2-",
+        "Band_B_to_A": "35/2- -> 33/2-, 591 keV",
+        "Band_B_inband": "35/2- -> 33/2-, 309 keV",
+        "source_locator": "ZH03-3"
+      },
+      {
+        "spin": "37/2-",
+        "Band_B_to_A": "37/2- -> 35/2-, (556) keV",
+        "Band_B_inband": "37/2- -> 35/2-, 372 keV",
+        "source_locator": "ZH03-3",
+        "caveat": "556 keV is parenthesized in the earlier scheme."
+      }
+    ],
+    "identity_boundary": "MU07 states its partial scheme follows Ref.[8] and its Figs.2-3 plot open-circle Band B→Band A strengths by initial spin without line energies. Zhu 2003 PDF p.4 Fig.2 supplies a cross-source line map. This maps identity only, not another B measurement; the 556-keV link is tentative and the 648/649 wording differs."
+  },
+  "qt_assumption_audit": {
+    "status": "no source-supported numeric Qt reported for MU07",
+    "source_locators": {
+      "MU07": "printed 172501-2 / PDF p.2 Table I and PDF p.2 Fig.1",
+      "Zhu2003": "PDF p.4 Fig.2"
+    },
+    "reason": "Zhu 2003 Fig.2 maps the 43/2- to 41/2- Band A line at 494 keV, which MU07 Fig.1 also uses as a representative fit. MU07 Table I does not explicitly bind its 43/2 B(E2) entry to that line and provides no K or rotor-matrix-element convention.",
+    "decision": "Keep the line crosswalk as a candidate identity; do not report a numeric Qt from a fixed-K assumption."
+  },
+  "mode_discrimination_preview": {
+    "status": "bounded Day10 partial preview; no Day10 credit",
+    "direct_or_derived_evidence": "135Nd partner in-band strengths are close; four digitized B(E2) out/in central estimates rise from about 0.14 to 0.50 while B(M1) out/in stays about 0.03 to 0.11 and is nonmonotonic.",
+    "author_model_interpretation": "MU07 PQTAC+RPA interprets spin evolution as chiral vibration progressing toward static chirality; model softening is not a direct measurement.",
+    "non_target_alternative": "Crossing/configuration mixing can compress band energies and alter strengths. PE06 134Pr and MU08 136Nd are counterexamples to energy-degeneracy-only inference, but do not establish a quantitative fit to the entire MU07 curve.",
+    "geometry_companion": "GR18 measured 128Cs g=+0.59(1) with TDPAD; near-planar bandhead geometry is PRM+CDFT inference in a different nucleus.",
+    "decision_boundary": "Require identity-mapped partner-resolved absolute/in-band/out-band strengths, alignment/crossing checks, and configuration-specific geometry/model tests. No universal mode threshold follows from these cross-nucleus examples.",
+    "source_claim_ids": {
+      "MU07": [
+        "MU07-1",
+        "MU07-2",
+        "MU07-3",
+        "MU07-6",
+        "MU07-8"
+      ],
+      "MU08": [
+        "MU08-1",
+        "MU08-2",
+        "MU08-3",
+        "MU08-4"
+      ],
+      "PE06": [
+        "PE06-1",
+        "PE06-2"
+      ],
+      "GR18": [
+        "GR18-1",
+        "GR18-2",
+        "GR18-3",
+        "GR18-4"
+      ]
+    },
+    "line_identity_boundary": "The four same-spin points now have a source-scheme crosswalk, but 556 keV remains parenthesized and the 648/649 text discrepancy remains. This identifies candidate transitions only; it does not add independent B evidence."
+  },
+  "conditional_partial_photon_rate_ratio": {
+    "status": "uncredited Day10 partial; conditional M1 transforms and two E2 line-class forward alternatives; no unique E2 mapping",
+    "formula": "Gamma_gamma,out(XL)/Gamma_gamma,in(XL)=(Eout/Ein)^(2L+1)*B_out(XL)/B_in(XL); common same-parent lifetime cancellation is conditional",
+    "source_locators": {
+      "rate": "LKH82-1, printed p.121 / PDF p.3 Eq.2.2",
+      "historical_line_identity": "ZH03-3, PDF p.4 Fig.2",
+      "later_line_class_crosscheck": "LV19-9, PDF pp.9-10 Table I continued",
+      "B_values": "MU07-6/8, printed 172501-3 / PDF p.3 Figs.2-3 and Table-I central values"
+    },
+    "assumption": "M1 transforms at 31/2− to 35/2− conditionally pair the open-circle M1 component with candidate adjacent-spin mixed links and same-spin in-band ΔI=1 lines. E2 forward alternatives separately use either the ΔI=1 mixed-link energy or the later Table-I ΔI=2 E2 crossover energy. The MU07 graph does not select the E2 line class.",
+    "rows": [
+      {
+        "spin": "31/2-",
+        "candidate_deltaI1_Eout_Ein_keV": [
+          "648 (Zhu figure; 648.9 later Table I)",
+          "226 (Zhu figure; 225.8 later Table I)"
+        ],
+        "B_M1_out_in": 0.0311,
+        "Gamma_M1_out_in_conditional": 0.7381,
+        "B_E2_out_in": 0.1393,
+        "Gamma_E2_if_deltaI1_mixed_component": 27.3036,
+        "candidate_deltaI2_E2_out_keV": 896.8,
+        "Gamma_E2_if_deltaI2_crossover": 137.6605
+      },
+      {
+        "spin": "33/2-",
+        "candidate_deltaI1_Eout_Ein_keV": [
+          "639",
+          "282"
+        ],
+        "B_M1_out_in": 0.0567,
+        "Gamma_M1_out_in_conditional": 0.6606,
+        "B_E2_out_in": 0.2429,
+        "Gamma_E2_if_deltaI1_mixed_component": 14.544,
+        "candidate_deltaI2_E2_out_keV": 931.3,
+        "Gamma_E2_if_deltaI2_crossover": 94.7441
+      },
+      {
+        "spin": "35/2-",
+        "candidate_deltaI1_Eout_Ein_keV": [
+          "591",
+          "309"
+        ],
+        "B_M1_out_in": 0.0364,
+        "Gamma_M1_out_in_conditional": 0.2542,
+        "B_E2_out_in": 0.475,
+        "Gamma_E2_if_deltaI1_mixed_component": 12.1199,
+        "candidate_deltaI2_E2_out_keV": 949.6,
+        "Gamma_E2_if_deltaI2_crossover": 129.3587
+      },
+      {
+        "spin": "37/2-",
+        "candidate_deltaI1_Eout_Ein_keV": [
+          "(556) tentative; no later Table-I ΔI1 cross-check",
+          "372"
+        ],
+        "B_M1_out_in": 0.1112,
+        "Gamma_M1_out_in_conditional": null,
+        "B_E2_out_in": 0.4966,
+        "Gamma_E2_if_deltaI1_mixed_component": null,
+        "candidate_deltaI2_E2_out_keV": 963.0,
+        "Gamma_E2_if_deltaI2_crossover": 58.0443
+      }
+    ],
+    "limitations": [
+      "These are conditional transforms of graph-read B values, not source-tabulated branching ratios, total branches or measured counts.",
+      "MU07 Figs.2-3 do not identify which transition supplies each E2 marker. The mixed ΔI=1 component and ΔI=2 E2 crossover remain alternative line classes; no unique E2 photon-rate trend is selected.",
+      "LV19 Table I supplies later-campaign line-class corroboration, not MU07 transition-by-transition strength attribution.",
+      "The 37/2− ΔI=1 cross-band line remains parenthesized in the earlier scheme and has no later Table-I ΔI=1 cross-check; no M1 or mixed-link E2 rate is assigned.",
+      "Internal conversion, detector/gate efficiency, feeding and shared covariance are not modeled. The source component/line assignment remains unresolved; once B(XL) is taken as that photon component, K E^(2L+1) B(XL) contains it and must not be multiplied by an extra mixing fraction.",
+      "The former single E2 series based on ΔI=1 energies is superseded and retained only in the audit-history field.",
+      "E2 denominator B(E2) line identity is unresolved as well: numerical alternatives use a specified but unverified ΔI=1 in-band E2-component hypothesis; a ΔI=2 in-band denominator would require its own energy factor.",
+      "MU07-16 parent photon-budget diagnostic rejects additional joint same-parent/line/normalization assignments at the stated nominal inputs: first-two M1 pairs and all candidate E2 crossovers overfill the lifetime budget. Earlier transforms are arithmetic hypotheses only, not a verified physical series."
+    ],
+    "superseded_initial_transform": {
+      "former_e2_values": [
+        26.992,
+        14.508,
+        12.157,
+        3.704
+      ],
+      "former_m1_values": [
+        0.7334,
+        0.6593,
+        0.2544,
+        0.3712
+      ],
+      "reason": "The E2 rate column used the adjacent-spin ΔI=1 link energy without establishing whether each MU07 E2 open-circle point belongs to the mixed-link E2 component or a separate ΔI=2 E2 crossover. The initial 37/2− M1 transform also used tentative (556) keV without later line-level support. These old values are superseded."
+    },
+    "e2_rectangular_endpoint_sensitivity": {
+      "status": "uncredited Day10 partial; transformed graph/table input endpoints only",
+      "method": "pair digitized MU07 E2 numerator endpoints with quoted Band-B in-band B(E2) central ± quoted endpoint; transform lower and upper B quotient endpoints by fixed candidate Egamma^5 factor",
+      "coverage_boundary": "Not confidence intervals: graph-bar coverage is undefined and no numerator/denominator covariance or shared lifetime/branch covariance is reported.",
+      "deltaI1_mixed_component_energy_case": [
+        {
+          "spin": "31/2-",
+          "rate_endpoint_envelope": [
+            22.1297,
+            33.713
+          ]
+        },
+        {
+          "spin": "33/2-",
+          "rate_endpoint_envelope": [
+            12.1684,
+            17.4839
+          ]
+        },
+        {
+          "spin": "35/2-",
+          "rate_endpoint_envelope": [
+            9.7278,
+            15.3093
+          ]
+        },
+        {
+          "spin": "37/2-",
+          "rate_endpoint_envelope": null,
+          "reason": "historical (556)-keV ΔI=1 link tentative and no later line-class cross-check"
+        }
+      ],
+      "deltaI2_crossover_energy_case": [
+        {
+          "spin": "31/2-",
+          "rate_endpoint_envelope": [
+            111.5744,
+            169.9757
+          ]
+        },
+        {
+          "spin": "33/2-",
+          "rate_endpoint_envelope": [
+            79.269,
+            113.8957
+          ]
+        },
+        {
+          "spin": "35/2-",
+          "rate_endpoint_envelope": [
+            103.8274,
+            163.4004
+          ]
+        },
+        {
+          "spin": "37/2-",
+          "rate_endpoint_envelope": [
+            48.1701,
+            71.5327
+          ]
+        }
+      ],
+      "interpretation": "The alternative line-class choice changes the E2 partial-rate quotient substantially; do not select a unique MU07 E2-rate trend."
+    },
+    "m1_rectangular_endpoint_sensitivity": {
+      "status": "uncredited Day10 partial; transformed graph numerator and printed denominator endpoint inputs",
+      "method": "combine MU07-13 graph-read numerator endpoints with the Table-I in-band B(M1) printed central ± parenthetical endpoints; multiply the lower/upper quotient by the fixed Zhu same-spin ΔI=1 energy factor (Eout/Ein)^3",
+      "coverage_boundary": "Not confidence intervals: graph-bar coverage is unspecified, and no numerator/denominator covariance or stopping/feeding systematic coverage is given.",
+      "rows": [
+        {
+          "spin": "31/2-",
+          "energy_pair_keV": [
+            648,
+            226
+          ],
+          "B_out_in_endpoint_range": [
+            0.025,
+            0.03875
+          ],
+          "partial_rate_endpoint_range": [
+            0.5893,
+            0.9134
+          ]
+        },
+        {
+          "spin": "33/2-",
+          "energy_pair_keV": [
+            639,
+            282
+          ],
+          "B_out_in_endpoint_range": [
+            0.0478261,
+            0.0668421
+          ],
+          "partial_rate_endpoint_range": [
+            0.5564,
+            0.7777
+          ]
+        },
+        {
+          "spin": "35/2-",
+          "energy_pair_keV": [
+            591,
+            309
+          ],
+          "B_out_in_endpoint_range": [
+            0.0308333,
+            0.0435
+          ],
+          "partial_rate_endpoint_range": [
+            0.2157,
+            0.3044
+          ]
+        },
+        {
+          "spin": "37/2-",
+          "energy_pair_keV": [
+            "(556) tentative",
+            372
+          ],
+          "partial_rate_endpoint_range": null,
+          "reason": "historical link tentative; no later ΔI=1 line cross-check; no rate assigned"
+        }
+      ]
+    },
+    "E2_denominator_identity_boundary": {
+      "assumption": "All displayed E2 numerical transforms additionally treat the Table-I in-band B(E2) denominator as the E2 component of the selected adjacent-spin (ΔI=1) Band-B line, using Ein=225.8/282.4/309.4/371.6 keV for central values and historical Ein=226/282/309/372 keV for endpoint sensitivities. This denominator identity is not established by MU07 Table I.",
+      "generalization": "If the denominator B(E2) instead belongs to another line with energy Ein,true, multiply a listed central transform by (Ein,assumed/Ein,true)^5, holding all other assignments fixed.",
+      "scope": "The two displayed outgoing-line alternatives are not an exhaustive transition-identity inventory; no unique physical E2 photon-rate ratio is inferred."
+    }
+  },
+  "supporting_information_check": {
+    "receipt": "zhu-2003-si-check.json",
+    "outcome": "not_found_on_checked_official_endpoints",
+    "checked_at": "2026-10-09T03:52:18+08:00",
+    "no_file_downloaded": true
+  },
+  "gr18_raw_recheck": {
+    "raw_file": "raw/papers/gpt/high-spin-20260920/g-factor/2018_Grodner et al_First Measurement of the g Factor in the Chiral Band.pdf",
+    "sha256": "c71ec59160c444c34ab7f340db5f045c1f26456bc1741197ec62caea7f4efbf2",
+    "sha256_matches_source_page": true,
+    "pdf_pages": 5,
+    "checked_locators": [
+      "GR18-1",
+      "GR18-3",
+      "GR18-5"
+    ],
+    "result": "The measured g=+0.59(1) is direct TDPAD evidence; nearly planar bandhead geometry is a PRM+CDFT interpretation. Fig.3 planar endpoints 0.4/0.6 with aplanar intermediate are specific to jp=jn=11/2, jR=2."
+  },
+  "b_ratio_vs_delta_audit": {
+    "status": "uncredited Day10 preview",
+    "MU07_locator": "MU07-11",
+    "rate_locator": "LKH82-1",
+    "table_row_resolution": "Table I indexes the lifetime and B(M1)/B(E2) columns by initial spin; it does not print a row-specific gamma energy or final spin.",
+    "distinction": "B(M1)/B(E2) has units mu_N^2/(e^2 b^2). For a specified same transition, delta^2=T_gamma(E2)/T_gamma(M1) and its rate conversion contains E_gamma^2 plus unit-convention constants. Table-I same-spin quotients are not transition-specific delta^2.",
+    "course_state_changed": false,
+    "relation": "In LKH82 common units, for a specified same transition: delta_KS^2=(0.835 E_gamma[MeV])^2 * B(E2)[e^2 b^2]/B(M1)[mu_N^2]. Signed delta still requires the relative RME sign/convention.",
+    "conversion_requirements": "same initial/final state, transition energy, and M1/E2 component assignment"
+  },
+  "135nd_model_evolution_comparison": {
+    "status": "uncredited Day10 preview",
+    "model_a": "Zhu 2003 3D-TAC: planar at lower frequency, aplanar/static near I≈19, near-planar return at higher frequency; transient static interval.",
+    "model_b": "MU07 TAC+RPA: low-spin chiral vibration and an RPA-softening/static onset near the critical region, about one spin unit above closest experimental partner approach.",
+    "source_locators": [
+      "ZH03-8",
+      "MU07-2",
+      "MU07-3"
+    ],
+    "comparison": "Qualitatively compatible around onset. Distinct model outputs are not independent experiments; the high-spin return predicted in 2003 is retained and not inferred from MU07 onset alone.",
+    "course_credit": false
+  },
+  "qt_conversion_audit": {
+    "status": "uncredited Day10 preview",
+    "method_source": "Singh 2016, SI16-17, PDF p.5 Eqs.(1)–(2)",
+    "formula": "T(E2;I→I−2)=1.224×10^12 Eγ(MeV)^5 CG(I,K)^2 Qt(eb)^2 s−1",
+    "mixed_K_boundary": "Eq.(2) replaces a single CG factor with a K-amplitude sum for nonaxial/mixed-K states.",
+    "MU07_result": "No unique source-supported Qt is derivable from MU07 Table I because row-specific Eγ/final-spin identity and K/rotor conversion are not supplied; Zhu line crosswalk only narrows candidate identities.",
+    "source_hash": "95e0831b9864a58fd1a896a1b20e227d88d9b7aa5de56c738c3792441caa1a30",
+    "course_credit": false
+  },
+  "tracked_open_question": {
+    "path": "knowledge/questions.md",
+    "scope": "135Nd line-resolved B(M1)/B(E2), transition-specific delta^2, Qt and K/rotor mapping",
+    "source_locators": [
+      "MU07-11",
+      "ZH03-3",
+      "LKH82-1"
+    ],
+    "course_credit": false
+  },
+  "mu07_si_check": {
+    "status": "not_found_on_checked_official_endpoints",
+    "source_locator": "MU07-SI-1",
+    "aps_article_page_http_status": 200,
+    "supplement_resolver_result": "redirected to article #supplemental",
+    "standard_supplement_pdf_http_status": 404,
+    "downloaded_files": [],
+    "scope_boundary": "Separately hosted author material was not ruled out."
+  },
+  "graph_table_endpoint_sensitivity": {
+    "status": "uncredited Day10 preview",
+    "method": "rectangular endpoint pairing of graph-read numerator ranges and same-spin Table-I B±quoted-uncertainty denominator; no probability model",
+    "rows": [
+      {
+        "spin": "31/2-",
+        "M1": [
+          0.025,
+          0.039
+        ],
+        "E2": [
+          0.113,
+          0.172
+        ]
+      },
+      {
+        "spin": "33/2-",
+        "M1": [
+          0.048,
+          0.067
+        ],
+        "E2": [
+          0.203,
+          0.292
+        ]
+      },
+      {
+        "spin": "35/2-",
+        "M1": [
+          0.031,
+          0.0435
+        ],
+        "E2": [
+          0.381,
+          0.6
+        ]
+      },
+      {
+        "spin": "37/2-",
+        "M1": [
+          0.094,
+          0.133
+        ],
+        "E2": [
+          0.412,
+          0.612
+        ]
+      }
+    ],
+    "interpretation": "E2 envelopes separate for 31/2→33/2 and 33/2→35/2, overlap for 35/2 vs 37/2; M1 pattern remains nonmonotonic. Not confidence intervals; no graph-bar coverage, joint covariance or shared-systematic model.",
+    "locator": "MU07-13",
+    "course_credit": false,
+    "rounding_note": "Displayed endpoints are rounded; 35/2- M1 upper endpoint retained as 0.0435 = 0.087/2.0 to avoid truncating its upper bound."
+  },
+  "matched_spin_39_2_quotient_sensitivity": {
+    "status": "uncredited Day10 preview",
+    "central_quotients": {
+      "BandA": 16.1538,
+      "BandB": 17.2727,
+      "units": "mu_N^2/(e^2 b^2)"
+    },
+    "rectangular_ranges_if_quoted_parentheses_are_endpoint_marginals": {
+      "BandA": [
+        11.25,
+        24.0
+      ],
+      "BandB": [
+        11.4286,
+        27.5
+      ]
+    },
+    "interpretation": "The broad overlap shows sensitivity to weak B(E2) denominators; not a confidence interval because error coverage and covariance are unknown, and the values reuse Table-I strengths.",
+    "locator": "MU07-14",
+    "course_credit": false
+  },
+  "later_transition_class_crosscheck": {
+    "source": "knowledge/sources/lv-2019-chirality-135nd-reexamined.md#LV19-9",
+    "locator": "LV19-9, PDF pp.9-10 Table I continued",
+    "same_spin_candidates": [
+      {
+        "spin": "31/2-",
+        "deltaI1_mixed_keV": 648.9,
+        "deltaI2_E2_keV": 896.8,
+        "D6_inband_deltaI1_keV": 225.8
+      },
+      {
+        "spin": "33/2-",
+        "deltaI1_mixed_keV": 640.2,
+        "deltaI2_E2_keV": 931.3,
+        "D6_inband_deltaI1_keV": 282.4
+      },
+      {
+        "spin": "35/2-",
+        "deltaI1_mixed_keV": 591.4,
+        "deltaI2_E2_keV": 949.6,
+        "D6_inband_deltaI1_keV": 309.4
+      },
+      {
+        "spin": "37/2-",
+        "deltaI1_mixed_keV": null,
+        "deltaI2_E2_keV": 963.0,
+        "D6_inband_deltaI1_keV": 371.6
+      }
+    ],
+    "boundary": "Later campaign; corroborates candidate line classes but does not identify which line feeds a MU07 graph marker."
+  },
+  "conditional_parent_photon_budget_audit": {
+    "status": "bounded uncredited Day10 shared-input consistency diagnostic",
+    "source_locator": "MU07-16",
+    "formula": "For distinct photon components from one parent, S=tau_total*sum(K_XL*Egamma^(2L+1)*B_XL) <= 1. IC and omitted channels are nonnegative and cannot repair S>1 under this joint interpretation.",
+    "additional_joint_premises": [
+      "Plotted spin I denotes the same initial Band-B parent as the Table-I lifetime and in-band strength.",
+      "Printed lifetime is its total mean lifetime; printed and graph B values use the same LKH82 radiative-component normalization.",
+      "Table-I B(M1) belongs to the selected adjacent-spin in-band line, and the graph component belongs to its selected outgoing line at the listed energy.",
+      "Inputs are treated at their displayed central values; endpoint variants additionally treat printed/graph endpoints as a fixed rectangular box, not statistical coverage."
+    ],
+    "rows": [
+      {
+        "spin": "31/2-",
+        "tau_Table_I_ps": 1.46,
+        "tau_printed_error_ps": 0.02,
+        "B_M1_in_Table_I_muN2": 2.7,
+        "B_M1_printed_error_muN2": 0.3,
+        "E_in_candidate_MeV": 0.2258,
+        "M1_in_nominal_photon_budget": 0.7979905601859163,
+        "E2_out_graph_estimate_e2b2": 0.039,
+        "E2_out_candidate_crossover_MeV": 0.8968,
+        "M1_in_plus_E2_crossover_nominal_budget": 1.202657515899324,
+        "M1_in_plus_E2_crossover_rectangular_endpoint_budget": [
+          1.057795984061059,
+          1.3510853469416584
+        ],
+        "M1_out_candidate_MeV": 0.6489,
+        "M1_in_plus_M1_out_nominal_budget": 1.3872069048418187,
+        "M1_in_plus_M1_out_rectangular_endpoint_budget": [
+          1.2184875265331636,
+          1.560085076039245
+        ]
+      },
+      {
+        "spin": "33/2-",
+        "tau_Table_I_ps": 0.87,
+        "tau_printed_error_ps": 0.06,
+        "B_M1_in_Table_I_muN2": 2.1,
+        "B_M1_printed_error_muN2": 0.2,
+        "E_in_candidate_MeV": 0.2824,
+        "M1_in_nominal_photon_budget": 0.7235056811926562,
+        "E2_out_graph_estimate_e2b2": 0.068,
+        "E2_out_candidate_crossover_MeV": 0.9313,
+        "M1_in_plus_E2_crossover_nominal_budget": 1.23128903720584,
+        "M1_in_plus_E2_crossover_rectangular_endpoint_budget": [
+          1.0474572936074462,
+          1.429774893141101
+        ],
+        "M1_out_candidate_MeV": 0.6402,
+        "M1_in_plus_M1_out_nominal_budget": 1.2011697180272463,
+        "M1_in_plus_M1_out_rectangular_endpoint_budget": [
+          1.0205428005290598,
+          1.3919928813667082
+        ]
+      },
+      {
+        "spin": "35/2-",
+        "tau_Table_I_ps": 0.64,
+        "tau_printed_error_ps": 0.05,
+        "B_M1_in_Table_I_muN2": 2.2,
+        "B_M1_printed_error_muN2": 0.2,
+        "E_in_candidate_MeV": 0.3094,
+        "M1_in_nominal_photon_budget": 0.7332851737145994,
+        "E2_out_graph_estimate_e2b2": 0.133,
+        "E2_out_candidate_crossover_MeV": 0.9496,
+        "M1_in_plus_E2_crossover_nominal_budget": 1.5385475830785398,
+        "M1_in_plus_E2_crossover_rectangular_endpoint_budget": [
+          1.2954967813354694,
+          1.8024207190275523
+        ],
+        "M1_out_candidate_MeV": 0.5914,
+        "M1_in_plus_M1_out_nominal_budget": 0.9195038532369378,
+        "M1_in_plus_M1_out_rectangular_endpoint_budget": [
+          0.7733380415850304,
+          1.0807774852939214
+        ]
+      },
+      {
+        "spin": "37/2-",
+        "tau_Table_I_ps": 0.48,
+        "tau_printed_error_ps": 0.03,
+        "B_M1_in_Table_I_muN2": 1.7,
+        "B_M1_printed_error_muN2": 0.2,
+        "E_in_candidate_MeV": 0.3716,
+        "M1_in_nominal_photon_budget": 0.7362521837184524,
+        "E2_out_graph_estimate_e2b2": 0.144,
+        "E2_out_candidate_crossover_MeV": 0.963,
+        "M1_in_plus_E2_crossover_nominal_budget": 1.437606455595208,
+        "M1_in_plus_E2_crossover_rectangular_endpoint_budget": [
+          1.2300228988246462,
+          1.666062689151531
+        ],
+        "M1_in_plus_M1_out_nominal_budget": null
+      }
+    ],
+    "interpretation": "Nominal M1 in+out assignments exceed1 at31/2 and33/2. Nominal in-band M1 plus candidate out E2 crossover exceeds1 at all four spins, even before adding other components. This excludes only those added joint assignments at the stated inputs; it does not identify which parent/line/normalization premise fails, choose the actual line, establish author error, infer ICC/delta/covariance, or add independent evidence.",
+    "endpoint_boundary": "All reported endpoint ranges use fixed candidate energies and a specified displayed-input box. They are not confidence intervals and do not cover digitization/last-digit rounding, energy errors, covariance or feeding/stopping model scope.",
+    "rate_transform_status": "Retain earlier numbers only as arithmetic forward transforms of hypotheses; they are not a validated physical photon-rate series."
+  }
+}

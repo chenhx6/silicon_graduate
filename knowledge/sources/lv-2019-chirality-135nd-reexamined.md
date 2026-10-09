@@ -3,7 +3,7 @@ type: source
 title: "Lv 等 2019：135Nd 手征重分析与多重手征双重带"
 aliases: [Lv 2019 135Nd reexamined, 135Nd positive-parity chiral doublet]
 created: 2026-09-12
-updated: 2026-09-12
+updated: 2026-10-09
 status: ai-draft
 review_status: unreviewed
 source_type: journal-article-experiment-and-model
@@ -40,6 +40,14 @@ tags: [a130, 135nd, nuclear-chirality, multiple-chiral-doublet-bands, positive-p
 ## Bibliographic Record
 
 B. F. Lv 等，*Chirality of `135Nd` reexamined: Evidence for multiple chiral doublet bands*，*Physical Review C* **100**, 024314 (2019)，DOI `10.1103/PhysRevC.100.024314`，arXiv `1907.12809`。ArXiv API 给出的 journal reference、题名、作者首位和 DOI 与 Crossref 元数据一致；本地 PDF 为 arXiv 版本，SHA-256 为 `97182e90125ce57ac2faa0feeef42b6bc12952b3287f82f277a04f8d32cf0303`。
+
+## Supporting Information Availability
+
+Checked the official APS article page and SI routes on 2026-10-09. The landing page returned HTTP 200 with no SI/attachment link, and the standard supplemental-PDF endpoint returned HTTP 404. The APS supplemental resolver timed out once; one bounded retry returned HTTP 200 to the article record at `#supplemental`, still with no SI attachment. The official arXiv record returned the article PDF without an ancillary/supplement entry. No SI file was found on these checked official records; separately hosted author material remains outside a global absence claim.
+
+| ID | Statement | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| LV19-SI-1 | The APS landing page exposed no SI/attachment link and its standard SI PDF endpoint returned 404; arXiv listed the article PDF without an ancillary entry. The supplemental resolver timed out once, then a bounded retry returned to the same article record at `#supplemental`. No SI file was found on these checked official records. | evidence-boundary | direct | APS article `https://journals.aps.org/prc/abstract/10.1103/PhysRevC.100.024314`; resolver `https://link.aps.org/supplemental/10.1103/PhysRevC.100.024314`; standard endpoint `https://journals.aps.org/prc/supplemental/10.1103/PhysRevC.100.024314/PhysRevC.100.024314.supplemental.pdf`; arXiv record `https://arxiv.org/abs/1907.12809` | true |
 
 ## Scope and Reading Depth
 
@@ -94,6 +102,7 @@ B. F. Lv 等，*Chirality of `135Nd` reexamined: Evidence for multiple chiral do
 | LV19-6 | 2019 PRC 将已知负宇称 D5/D6 与新增正宇称 D3/D4 分为两组 chiral doublets；D5/D6 的先前谱系回到 2003 Band A/B 和 2007 lifetime/transition-probability papers。 | synthesis | indirect | multiple-dependent | PDF pp.1–2、6、9–10；crosswalk artifacts | completed | false |
 | LV19-7 | PRM 使用 D3/D4 的 `π[(1h11/2)^1(1g7/2)^−1]⊗ν(1h11/2)^−1` 配置；D5/D6 使用 `π(1h11/2)^2⊗ν(1h11/2)^−1`，计算再现能谱和部分 `B(M1)/B(E2)` 趋势。 | model-result | indirect | single | PDF pp.5–6, Fig.3/5/6 | completed | false |
 | LV19-8 | 2019 PRC 没有提供所有 partner-resolved absolute strengths/lifetimes，也没有消除弱 link、configuration mixing 或表格孤立行对更强 MχD 措辞的限制。 | our-inference | direct | single | PDF pp.2、5–6、8–10 | completed | false |
+| LV19-9 | Table I separately lists same-initial-spin D6→D5 candidate links: at 31/2−, 648.9-keV `31/2−→29/2−` (M1/E2) and 896.8-keV `31/2−→27/2−` (E2); at 33/2−, 640.2-keV ΔI=1 and 931.3-keV ΔI=2 E2; at 35/2−, 591.4-keV ΔI=1 and 949.6-keV ΔI=2 E2; at 37/2−, 963.0-keV `37/2−→33/2−` E2 appears, while the parenthesized 556-keV ΔI=1 link from the earlier scheme is not listed there. These are transition-identity records from the 2019 campaign and do not establish which line contributes to a MU07 open-circle strength point. | experimental-transition-identification + cross-source-boundary | direct | single | PDF pp.9–10, Table I continued, Band D5/D6 rows | completed | true |
 
 ## Nuclear Structure and Interpretation
 

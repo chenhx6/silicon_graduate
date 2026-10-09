@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "run_id": "2026-10-08-day-09-01",
+  "session_id": "01a11a87-45cf-7781-a014-f992aafb49e2",
+  "checked_on": "2026-10-09",
+  "checked_after_runtime_snapshot": "2026-10-09T06:34:37+08:00",
+  "doi": "10.1103/PhysRevC.76.024307",
+  "official_publisher_checks": {
+    "article_page": {
+      "url": "https://journals.aps.org/prc/abstract/10.1103/PhysRevC.76.024307",
+      "http_status": 200,
+      "si_attachment_candidates": []
+    },
+    "supplemental_resolver": {
+      "url": "https://link.aps.org/supplemental/10.1103/PhysRevC.76.024307",
+      "http_status": 200,
+      "final_url": "https://journals.aps.org/prc/abstract/10.1103/PhysRevC.76.024307#supplemental"
+    },
+    "standard_supplemental_pdf": {
+      "url": "https://journals.aps.org/prc/supplemental/10.1103/PhysRevC.76.024307/PhysRevC.76.024307.supplemental.pdf",
+      "http_status": 404
+    }
+  },
+  "result": "no_si_file_found_on_checked_aps_routes",
+  "files_downloaded": [],
+  "scope_boundary": "This check does not rule out separately hosted author material. The already hash-verified article PDF was not duplicated."
+}

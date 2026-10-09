@@ -1,0 +1,190 @@
+{
+  "schema_version": 1,
+  "run_id": "2026-10-08-day-09-01",
+  "session_id": "01a11a87-45cf-7781-a014-f992aafb49e2",
+  "resume_command": "codex resume 01a11a87-45cf-7781-a014-f992aafb49e2 -C /workspace/wiki -s danger-full-access -a never",
+  "study_checkpoint_at": "2026-10-08T16:38:24+08:00",
+  "source_identity": {
+    "MU08_raw": "raw/papers/gpt/high-spin-20260920/三轴/手征/2008_Mukhopadhyay et al_Electromagnetic transition rates in high-spin bands in Nd 136.pdf",
+    "MU08_sha256": "ea77d7d033051369d19aad2f82a542e91e262eb490d518b246f7f04c2d0dcd2c",
+    "LKH82_raw": "raw/papers/gpt/high-spin-20260920/review/1982_Lange et al_E0-E2-M1 multipole admixtures of transitions in even-even nuclei.pdf",
+    "LKH82_sha256": "ed925a0577a9257903806acd209c1db707529e86a5bfd9a301a83d597bf78ffb",
+    "primary_locators": [
+      "MU08 printed 034311-3 / PDF p.3, Table I and preceding paragraph",
+      "MU08 printed 034311-4 / PDF p.4, Table II",
+      "MU08 printed 034311-5 / PDF p.5, Fig.4 caption",
+      "LKH82 printed p.121 / PDF p.3, Eqs.2.2 and 2.3a"
+    ]
+  },
+  "primed_recall": {
+    "status": "primed; not blind",
+    "prior_context": "Day8 report, Day9 task plan, and active handoff read before this recall; no Day9 source body read yet",
+    "definitions": [
+      "T1/2=ln(2) tau; tau is mean lifetime",
+      "lambda_gamma=p_gamma/tau; partial gamma mean life=tau/p_gamma only if p_gamma is absolute emitted-photon probability per parent decay",
+      "B(XL;Ji->Jf)=|<Jf||M(XL)||Ji>|^2/(2Ji+1)",
+      "T_gamma(XL) proportional to E_gamma^(2L+1) B(XL)",
+      "delta^2 for E2/M1 is a partial gamma-rate ratio, not a branch; rates do not determine relative amplitude sign"
+    ],
+    "open_at_recall": [
+      "Table I branch denominator",
+      "IC/E0 treatment",
+      "branch/lifetime covariance",
+      "feeding and stopping scope"
+    ]
+  },
+  "reported_inputs": {
+    "parent": "MU08 Band 1; Ex=6711.4 keV; Ji^pi=18-",
+    "tau_ps": 0.56,
+    "tau_printed_uncertainty_ps": 0.08,
+    "branches": [
+      {
+        "Egamma_keV": 401.2,
+        "Ji_to_Jf": "18- -> 17-",
+        "ratio": 0.57,
+        "printed_uncertainty": 0.06
+      },
+      {
+        "Egamma_keV": 757.4,
+        "Ji_to_Jf": "18- -> 16-",
+        "ratio": 0.24,
+        "printed_uncertainty": 0.02
+      },
+      {
+        "Egamma_keV": 389.6,
+        "Ji_to_Jf": "18- -> 17-",
+        "ratio": 0.19,
+        "printed_uncertainty": 0.02
+      }
+    ],
+    "branch_central_sum": 1.0,
+    "reported_B_E2_target_e2b2": "0.14(2), not used to infer any input",
+    "reported_B_M1_4012_muN2": "0.9(2), not used to infer any input",
+    "reported_Qt_eb": "1.26(9), not treated as an independent observable"
+  },
+  "rate_normalization": {
+    "LKH82_Eq2_2": "T_gamma(XL)=8*pi*(L+1)/(L*((2L+1)!!)^2*hbar) * (E_gamma/(hbar*c))^(2L+1) * B_G(XL)",
+    "LKH82_Eq2_3a": "B(XL;Ji->Jf)=|<Jf||M(XL)||Ji>|^2/(2Ji+1)",
+    "modern_rate_coefficients_recomputed_from_SciPy_physical_constants": {
+      "K_E2_s-1_MeV-5_per_e2b2": 12251867220100.0,
+      "C_E2_e2b2_ps_MeV5": 0.0816202120078,
+      "K_M1_s-1_MeV-3_per_muN2": 17583661765600.0,
+      "C_M1_muN2_ps_MeV3": 0.0568709756438
+    },
+    "note": "Modern coefficient conversion supplements LKH82 Gaussian-unit equations; these absolute coefficients are not printed in LKH82."
+  },
+  "conditional_target_chain": {
+    "target_transition": "757.4 keV; 18- -> 16-",
+    "Egamma_MeV": 0.7574,
+    "branch_basis_case": "assume Table I 0.24 is absolute emitted-photon probability p_gamma per parent decay, all relevant branches accounted, and no non-photon loss for this gamma-only case",
+    "selected_E2_rate_fraction_fE2": 1.0,
+    "fE2_status": "pure-E2 extraction condition, not a measured mixing fraction; M3/E4 higher multipoles are not ruled out by DeltaI=2 alone",
+    "p_gamma": 0.24,
+    "tau_gamma_ps": 2.33333333333,
+    "lambda_gamma_s-1": 428571428571.0,
+    "B_E2_e2b2": 0.140344187083,
+    "B_E2_stat_error_independent_tau_branch_e2b2": 0.0232109971226,
+    "RME_E2_magnitude_eb": 2.2787573197,
+    "RME_E2_stat_error_same_assumption_eb": 0.188437550175,
+    "half_life_ps_derived_from_tau": 0.388162421114,
+    "half_life_uncertainty_if_only_tau_error_ps": 0.055451774445,
+    "uncertainty_scope": "Assumes printed tau and target branch errors are independent; excludes energy uncertainty because none is printed, branch covariance, unknown branch basis/ICC, fE2 uncertainty, and stopping/feeding model systematics.",
+    "sigmaB_fixed_marginal_correlation_range_e2b2": [
+      0.00835382066,
+      0.031744518507
+    ],
+    "correlation_range_note": "Algebraic first-order range only for rho in [-1,1] at fixed marginal tau/branch errors; not a measured confidence interval."
+  },
+  "branch_basis_forward_cases": [
+    {
+      "case": "absolute radiative photon fraction",
+      "p_gamma": "0.24",
+      "B_E2": "0.140344187083 * fE2 e2b2",
+      "condition": "Table I value already equals the absolute emitted-photon probability per parent decay."
+    },
+    {
+      "case": "photon-relative intensity among observed lines",
+      "p_gamma": "0.24 * F_gamma",
+      "B_E2": "0.140344187083 * F_gamma * fE2 e2b2",
+      "condition": "F_gamma is the unknown total emitted-photon fraction of parent decays; any omitted gamma/non-gamma channel changes it."
+    },
+    {
+      "case": "true total transition branch including IC",
+      "p_gamma": "0.24/(1+alpha_eff)",
+      "B_E2": "0.140344187083 * fE2/(1+alpha_eff) e2b2",
+      "condition": "Complete pair ledger, ordinary all-shell conversion, no E0/pair for selected transition; alpha_eff not supplied."
+    }
+  ],
+  "conversion_boundary": {
+    "IC": "MU08 does not give an ICC input for this row; alpha_eff is not inferred from quoted B. Modern BrIcc results remain conditional and do not identify the authors' actual branch/ICC procedure.",
+    "E0": "E0 cannot accompany the selected 18- -> 16- DeltaI=2 transition because E0 has L=0. The table does not establish completeness of other unobserved parent-decay channels.",
+    "pair_creation": "757.4 keV is below the 1.022 MeV pair-creation threshold."
+  },
+  "same_parent_dependence": {
+    "conditional_4012_B_M1_muN2": 0.896385317727,
+    "conditional_7574_B_E2_e2b2": 0.140344187083,
+    "conditional_ratio_BM1_over_BE2": 6.38704984052,
+    "ratio_unit": "muN^2/(e^2 b^2)",
+    "assumptions": "same mother-level tau and common branch chart; 401.2 treated as pure M1 per MU08 extraction assumption; 757.4 treated as pure E2; branch-specific non-photon corrections ignored only in this conditional ratio",
+    "dependencies": "The ratio shares Table I branching, transition energies, source assignment, and mode assumptions; common tau cancels. It is not independent confirmation of either absolute B or lifetime.",
+    "reverse_B_16_to_18_from_recomputed_B_e2b2": 0.157355603699,
+    "reverse_B_note": "Deterministic factor 37/33 applied to same conditional B; not a second measurement, and no RME phase is supplied."
+  },
+  "normalization_error_boundary": {
+    "centers_sum_exactly": true,
+    "printed_branch_errors": [
+      0.06,
+      0.02,
+      0.02
+    ],
+    "conditional_joint_SD_implication": "If (and only if) the three values were marginal SDs of one finite-variance random vector normalized sample-by-sample, sigma_a<=sigma_b+sigma_c would require 0.06<=0.04, which fails.",
+    "interpretation": "Reject that extra joint-error model only; MU08 does not specify these parentheses as such SDs, so this does not diagnose author error or reveal actual covariance."
+  },
+  "reference16_check": {
+    "metadata_source": "Crossref DOI record; APS article landing page",
+    "verified_title": "Spectroscopy in the Z=49 108,110In isotopes: Lifetime measurements in shears bands",
+    "authors_first_and_last": "C. J. Chiara et al. (17 authors; exact list in chiara-acquisition-check.json)",
+    "journal": "Physical Review C 64, 054314 (2001)",
+    "doi": "10.1103/PhysRevC.64.054314",
+    "prior_aps_discovery_attempt": "HTTP 403 in an earlier access-discovery route; a fresh standard APS citation_pdf_url route was directly retrieved over HTTPS on 2026-10-09.",
+    "latest_publisher_pdf_status": "HTTP 200 application/pdf; 440801 bytes; SHA-256 5672ffce1e4049245b3107e6132af0ff7501d14182a03d803cd66828e6660a4e",
+    "oa_status": "Unpaywall is_oa=false, no repository; arXiv DOI query 0; exact-title OpenAlex/Semantic Scholar 0. Public direct publisher read access is not described as OA-licensed.",
+    "fulltext_scope": "targeted direct read: PDF pp.1, 7, 18-19, 29; branches/partial lifetimes/IC/M1 assumption/unobserved crossover policy",
+    "method_locators": [
+      "CHI01-1",
+      "CHI01-2",
+      "CHI01-3",
+      "CHI01-4",
+      "CHI01-5"
+    ],
+    "method_finding": "Chiara derives partial lifetimes from fitted level lifetimes and observed branches, includes IC in B calculations, treats ΔI=1 dipoles as nearly pure M1, and sets unseen E2 crossover intensity to zero within experimental sensitivity. These are method-paper choices, not verified per-line inputs for MU08.",
+    "unresolved_for_MU08": "Exact 136Nd Table-I denominator, absolute emitted-photon fraction per parent, weak/unobserved channel inventory, and branch/τ covariance remain unreported.",
+    "relative_intensity_example": {
+      "locator": "CHI01-6",
+      "transition_pair": "108In Band 2, I=15−: 527.8-keV M1 Iγ=31.6, 864.2-keV E2 Iγ=2.0",
+      "relative_shares_if_normalized_only_over_these_two_listed_lines": [
+        0.9405,
+        0.0595
+      ],
+      "boundary": "relative shares of the two listed observed photon intensities only; not an absolute per-parent photon probability, not complete over unobserved channels, and not used to infer an ICC"
+    }
+  },
+  "current_runtime_snapshot": {
+    "now_local": "2026-10-08T16:38:24+08:00",
+    "hard_deadline": "2026-10-09T15:00:00+08:00",
+    "minutes_to_deadline": 1341.6,
+    "next_scheduled_start": "2026-10-09T16:00:00+08:00",
+    "minutes_to_next_start": 1401.6,
+    "decision": "Day9 branch/lifetime/ICC chain has reached a source-limited L2 milestone; with >120 minutes remaining inspect exactly Day10 for an uncredited bounded preview; do not open Day11."
+  },
+  "mu08_si_check": {
+    "locator": "MU08-SI-1",
+    "checked_at": "2026-10-09",
+    "article_page_http_status": 200,
+    "supplement_link_count": 0,
+    "resolver_final_url": "https://journals.aps.org/prc/abstract/10.1103/PhysRevC.78.034311#supplemental",
+    "standard_supplement_pdf_http_status": 404,
+    "result": "not_found_on_checked_official_APS_endpoints",
+    "scope_boundary": "Separately hosted author material was not ruled out."
+  }
+}

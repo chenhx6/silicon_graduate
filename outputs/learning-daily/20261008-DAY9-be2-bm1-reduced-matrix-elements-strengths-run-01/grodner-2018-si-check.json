@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "run_id": "2026-10-08-day-09-01",
+  "session_id": "01a11a87-45cf-7781-a014-f992aafb49e2",
+  "checked_at": "2026-10-09T06:31:15+08:00",
+  "user_authorization": "User replied: 自行决定，想要啥要啥",
+  "doi": "10.1103/PhysRevLett.120.022502",
+  "crossref_title_match": "First Measurement of the g Factor in the Chiral Band: The Case of the 128Cs Isomeric State",
+  "official_publisher_checks": {
+    "article_page": {
+      "url": "https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.120.022502",
+      "first_request_http_status": 200,
+      "si_attachment_candidates": [],
+      "followup_request": "timed_out"
+    },
+    "supplemental_resolver": {
+      "url": "https://link.aps.org/supplemental/10.1103/PhysRevLett.120.022502",
+      "http_status": 200,
+      "final_url": "https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.120.022502#supplemental"
+    },
+    "standard_supplemental_pdf": {
+      "url": "https://journals.aps.org/prl/supplemental/10.1103/PhysRevLett.120.022502/PhysRevLett.120.022502.supplemental.pdf",
+      "http_status": 404
+    }
+  },
+  "result": "no_si_file_found_on_checked_aps_routes",
+  "files_downloaded": [],
+  "scope_boundary": "This check does not rule out separately hosted author material. No duplicate article PDF was downloaded because the local source PDF is already hash-verified."
+}

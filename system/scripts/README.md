@@ -101,6 +101,36 @@ codex resume <session_id> -C /workspace/wiki -s danger-full-access -a never
 每次运行即使最终 `failed-verification`，只要 CLI 返回了 session ID，也会保留该
 session 和 resume 信息，便于查看对话、定位失败并优化工作流。
 
+如果 runner 自身在 continuation 后异常退出、receipt 仍处于 `running`，或仅因同一
+session writer-lock conflict 标为 `failed-verification`，可使用：
+
+```bash
+python3 system/scripts/run_daily_learning.py --root /workspace/wiki \
+  --mode daily-learning --day-index 9 --resume-receipt \
+  outputs/learning-daily/<existing-run-dir>/run.json
+```
+
+该入口只接受原 receipt 中的 `session_id`，不会创建替代 Codex session；对
+`failed-verification`，只允许精确匹配的 pre-closeout same-session active-writer conflict 重试。
+若 Codex app-server 仍持有该 session writer，必须先结束这个**同一 session 的前台 CLI
+进程组**并确认锁释放；不得用 SIGKILL 或换新 session 绕过。
+
+若当前交互 session 已亲自完成硬截止 closeout，而 app-server writer 无法交给 headless
+`codex exec resume`，应先停掉 run-local session clock、在该 session 内生成并哈希绑定
+`interactive-closeout-attestation.json`，再执行：
+
+```bash
+python3 system/scripts/run_daily_learning.py --root /workspace/wiki \
+  --mode daily-learning --finalize-receipt \
+  outputs/learning-daily/<existing-run-dir>/run.json
+```
+
+`--finalize-receipt` 要求当前 `CODEX_SESSION_ID` 与 receipt 一致、处于 receipt 的 15:00–16:00
+收束窗、run-local clock ledger 已接受 closeout 提醒，attestation 与日报哈希一致，且原
+baseline、报告、唯一 writeback、lint、diff 与逐卡验收全部通过；通过后仍由普通 runner 的
+state updater 与 next-prompt preparer 推进状态和生成下一卡。此入口不补做缺失的 closeout
+turn，也不重置课程 state。
+
 ### 已有交互式学习会话的计时监督
 
 手动恢复的交互式 session 没有 foreground runner 时，可使用

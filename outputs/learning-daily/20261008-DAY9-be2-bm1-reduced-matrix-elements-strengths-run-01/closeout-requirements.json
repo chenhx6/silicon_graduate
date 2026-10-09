@@ -1,0 +1,116 @@
+{
+  "schema_version": 1,
+  "run_id": "2026-10-08-day-09-01",
+  "prepared_at": "2026-10-09T14:27:10.110629+08:00",
+  "scope": "completion is unproven until every requirement is inspected after closeout/publication",
+  "requirements": [
+    {
+      "id": "same-session",
+      "requirement": "receipt.session_id equals current CODEX_SESSION_ID; no new Codex invocation",
+      "authoritative_evidence": "run.json / environment / attestation",
+      "status": "passed",
+      "evidence_note": "Verified from completed run.json, clock-state.json, original-baseline validators, report-writeback-card checks, updated milestone state and generated Day10 artifacts."
+    },
+    {
+      "id": "cutoff-and-closeout",
+      "requirement": "research stops at15:00; attested closeout occurs during15:00–16:00",
+      "authoritative_evidence": "verified-cutoff-wait.json / clock-state.json / interactive-closeout-attestation.json",
+      "status": "passed",
+      "evidence_note": "Verified from completed run.json, clock-state.json, original-baseline validators, report-writeback-card checks, updated milestone state and generated Day10 artifacts."
+    },
+    {
+      "id": "course-invariant",
+      "requirement": "completed [9], partial [10], day_index9; no Day10 credit or Day11 research",
+      "authoritative_evidence": "final report Run state / runner coverage / course state",
+      "status": "passed",
+      "evidence_note": "Verified from completed run.json, clock-state.json, original-baseline validators, report-writeback-card checks, updated milestone state and generated Day10 artifacts."
+    },
+    {
+      "id": "day9-deliverables",
+      "requirement": "primed recall, source formulas/tables, input chain, error/counter-evidence, five-row card audit",
+      "authoritative_evidence": "recall-record.md / day9-input-chain.json / report card audit",
+      "status": "passed",
+      "evidence_note": "Verified from completed run.json, clock-state.json, original-baseline validators, report-writeback-card checks, updated milestone state and generated Day10 artifacts."
+    },
+    {
+      "id": "science-boundaries",
+      "requirement": "conditional branch ledger and IC/covariance/feeding/stopping; E2 line-pair hypotheses; shared-input outputs not independent",
+      "authoritative_evidence": "MU08-10/11/12/14; MU07-8/10/11/13/14; CHI01-2/3/4/5",
+      "status": "passed",
+      "evidence_note": "Verified from completed run.json, clock-state.json, original-baseline validators, report-writeback-card checks, updated milestone state and generated Day10 artifacts."
+    },
+    {
+      "id": "durable-writeback",
+      "requirement": "exactly one valid JSON block; all15 changed knowledge pages mapped against original baseline",
+      "authoritative_evidence": "run.json checks.durable_knowledge / baseline.json",
+      "status": "passed",
+      "evidence_note": "Verified from completed run.json, clock-state.json, original-baseline validators, report-writeback-card checks, updated milestone state and generated Day10 artifacts."
+    },
+    {
+      "id": "protected-and-inherited",
+      "requirement": "original raw/PLAN/BibTeX match; review flags preserved; unrelated inherited paths excluded",
+      "authoritative_evidence": "boundary ownership audit / manifest / staged files",
+      "status": "passed",
+      "evidence_note": "Verified from completed run.json, clock-state.json, original-baseline validators, report-writeback-card checks, updated milestone state and generated Day10 artifacts."
+    },
+    {
+      "id": "required-checks",
+      "requirement": "boundary, wiki_lint --fail-on error, git diff --check, report/writeback/card validation after report freeze",
+      "authoritative_evidence": "final runner checks and completion-audit.json",
+      "status": "passed",
+      "evidence_note": "Verified from completed run.json, clock-state.json, original-baseline validators, report-writeback-card checks, updated milestone state and generated Day10 artifacts."
+    },
+    {
+      "id": "normal-runner-state",
+      "requirement": "guarded same-session --finalize-receipt succeeds; state advances next9/count8 to next10/count9",
+      "authoritative_evidence": "normal runner exit / completed receipt / milestone state",
+      "status": "passed",
+      "evidence_note": "Verified from completed run.json, clock-state.json, original-baseline validators, report-writeback-card checks, updated milestone state and generated Day10 artifacts."
+    },
+    {
+      "id": "day10-plan-and-prompt",
+      "requirement": "produce actual formal Day10 task plan and prompt; preserve RUN_ID/OUTPUT_DIR runtime binding and own-day primed recall",
+      "authoritative_evidence": "outputs/plans/2026-10-09-DAY10-electromagnetic-ratios-collective-modes.md / outputs/learning-daily/prompts/20261009-DAY10-electromagnetic-ratios-collective-modes.md",
+      "status": "passed",
+      "evidence_note": "Plan exists; normal-runner generated prompt; pure render verification replaced RUN_ID/OUTPUT_DIR and deadline for an actual Day10 run. No session started."
+    },
+    {
+      "id": "explicit-manifest",
+      "requirement": "only final run-owned manifest staged; staged check passes; committed file set matches",
+      "authoritative_evidence": "publish-manifest.json / git cached check / git show file list",
+      "status": "pending-final-audit"
+    },
+    {
+      "id": "gitee-H3",
+      "requirement": "fresh fetch origin main; remote ancestor of HEAD; HEAD:main dry-run and same non-force push succeed",
+      "authoritative_evidence": "run receipt publication command exits / remote ref",
+      "status": "pending-final-audit"
+    },
+    {
+      "id": "post-commit-reconciliation",
+      "requirement": "staged index empty; committed paths match manifest; inherited changes remain; report hash still attested; remote contains final publication",
+      "authoritative_evidence": "completion audit / publication receipt / git status",
+      "status": "pending-final-audit"
+    },
+    {
+      "id": "next-continuation",
+      "requirement": "record recoverable same-session command; generate next-day artifacts without starting another session or daemon",
+      "authoritative_evidence": "run.json resume_command / continuation-prompt.md / handoff",
+      "status": "passed",
+      "evidence_note": "Verified from completed run.json, clock-state.json, original-baseline validators, report-writeback-card checks, updated milestone state and generated Day10 artifacts."
+    },
+    {
+      "id": "manifest-stage-commit-push-post-commit",
+      "requirement": "Explicit Gitee H3 publication and post-commit reconciliation",
+      "authoritative_evidence": "publish-manifest.json; git index/commit; remote main; final receipt",
+      "status": "pending"
+    },
+    {
+      "id": "course-state-card-credit",
+      "requirement": "Only Day9 credited; course advances to next10/count9",
+      "authoritative_evidence": "completion-audit.json / run.json / milestone state",
+      "status": "passed"
+    }
+  ],
+  "audited_at": "2026-10-09T15:35:42.973632+08:00"
+}

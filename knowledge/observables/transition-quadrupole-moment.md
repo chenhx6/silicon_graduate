@@ -3,7 +3,7 @@ type: observable
 title: 跃迁四极矩
 aliases: [transition quadrupole moment, quadrupole moment, Qt, Q_t, QSD, QND]
 created: 2026-07-03
-updated: 2026-07-28
+updated: 2026-10-09
 status: active
 review_status: unreviewed
 observable_kind: electromagnetic-collectivity
@@ -21,6 +21,14 @@ tags: [e2, lifetime, deformation, superdeformation]
 ## Formula and Conventions
 
 `Q_t` 与 B(E2) 的换算依赖转子矩阵元、K/强耦合假设和单位约定。跨论文比较必须保留采用的几何因子、分支、内转换和 feeding 修正。
+
+### Source-specific `K`-rotor rate conversion
+
+Singh et al. give one explicit high-spin convention for `I→I−2` E2 transitions:
+
+`T(E2; I→I−2) = 1.224×10^12 Eγ(MeV)^5 CG(I,K)^2 Q_t(eb)^2 s−1`.
+
+Their Eq. (2) replaces the single Clebsch–Gordan factor with a sum over `K` amplitudes for nonaxial or mixed-`K` states. This is a rotor extraction formula: it requires an identified E2 transition, its energy, and an applicable `K`-mixing prescription. Other papers may use a different unit convention or rotor matrix-element model. It cannot supply a unique `Q_t` for a spin-indexed table whose `B(E2)` row has no transition identity or `K` assumption. See SI16-17 and the MU07 transition-mapping boundary in [[mukhopadhyay-2007-135nd-chiral-vibration-static]].
 
 ## How It Is Obtained
 
@@ -54,6 +62,8 @@ tags: [e2, lifetime, deformation, superdeformation]
 - [[domscheit-1999-triaxial-superdeformation-163lu]]
 - [[babra-2019-deformation-change-136sm]]
 - [[singh-2016-lifetime-131ce-133pr]]
+- [[mukhopadhyay-2007-135nd-chiral-vibration-static]]
+- [[zhu-2003-135nd-composite-chiral-pair]]
 - [[li-2004-lifetimes-131ce]]
 - [[petrache-1998-highly-deformed-lifetimes-131ce-nd]]
 

@@ -2,7 +2,7 @@
 type: system-questions
 graph-excluded: true
 created: 2026-07-01
-updated: 2026-10-03
+updated: 2026-10-09
 ---
 
 # Research Questions
@@ -29,6 +29,7 @@ updated: 2026-10-03
 - [ ] `100Sn` 的 GSI 与 RIKEN `B(GT)` 差异能否由 Q/endpoint、branching、response 和 model-space 约定统一解释？（opened 2026-09-06；scope: 100sn/gamow-teller/independent-evidence；project: [[100sn-gamow-teller-independent-evidence]]）
 - [ ] `137Ba` 双光子衰变中，Walz 的 Aqq 主导解释与 Söderström 的 E3M1/受抑 M2E2 解释，哪些新增能量共享、偏振或响应观测可以区分？（opened 2026-09-21；scope: high-spin/two-photon-decay；project: [[octupole-and-rare-electromagnetic-decay]]）
 - [ ] A≈130 近简并带在什么条件下必须提供 partner-resolved `B(E2)`, `B(M1)` 和 lifetime，才能排除 crossing、configuration mixing 与 shape coexistence？（opened 2026-09-21；scope: high-spin/chirality; project: [[chirality-wobbling-competition-evidence]]）
+- [ ] `135Nd` 的 MU07 `B(M1)`、`B(E2)` 表列值与四个带间图点，能否映射为逐线 `(Eγ, Ji→Jf, ΔI, K)` 信息，从而区分同一跃迁的 `δ²`、同自旋强度商和 `Q_t`，且不预设固定 K？MU07 Table I 只按初始自旋列 lifetime/B，图点未逐线绑定；Zhu 2003 Fig.2 给候选连接，LV19 Table I 后续区分同一 initial spin 的 ΔI=1 mixed link 与 ΔI=2 E2 crossover，但仍未确定哪条产生 MU07 的 E2 图点或其 K；图估 B 与表列 B 共享 DSAM 链且无 joint covariance。（opened 2026-10-09；scope: high-spin/135nd/chirality/transition-identity; project: [[nuclear-chirality-and-multiple-chiral-doublet-bands]]; sources: [[mukhopadhyay-2007-135nd-chiral-vibration-static]], [[zhu-2003-135nd-composite-chiral-pair]], [[lv-2019-chirality-135nd-reexamined]], [[lange-kumar-hamilton-1982-multipole-admixtures]])
 - [ ] `A2/A4`、偏振、DCO/ADO、alignment 和 detector `Q(E)` 的协方差，何时会使 mixing-ratio `δ` 不可识别？（opened 2026-09-21；scope: high-spin/angular-polarization; project: [[high-spin-angular-polarization-mixing-ratio]]）
 - [ ] 直接 E3、E1 correlation、PES `β3` 与相反宇称能级系统学如何形成可迁移的 octupole evidence ladder？当前对照矩阵：[[shape-observable-matrix]]；[[guo-2020-pseudospin-chiral-quartet-131ba|131Ba Guo 2020]] 有 GU20-10 的 8 条 D7→D3–D6 E1 links，但 GU20-14 的 `β3=0.05` 是 tentative RAT-PRM input，GU20-16 无 lifetime/absolute reduced probabilities；[[bucher-2016-144ba-direct-octupole|144Ba]] 与 [[bucher-2017-146ba-direct-octupole|146Ba]] 有直接 B(E3)，E1 机制仍属模型解释。（opened 2026-09-21；updated 2026-10-03；scope: high-spin/octupole; project: [[octupole-and-rare-electromagnetic-decay]]）
 - [ ] `144Ba` 与 `146Ba` 的相近 `B(E3)` 和显著不同 E1 dipole moment 能否用同一套 occupancy-sensitive microscopic model 定量解释？（opened 2026-09-21；scope: external/146ba/octupole; project: [[octupole-and-rare-electromagnetic-decay]]）

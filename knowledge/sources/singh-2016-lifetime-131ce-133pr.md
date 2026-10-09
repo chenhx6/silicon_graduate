@@ -3,7 +3,7 @@ type: source
 title: "Lifetime measurements in the yrast band of the gamma-soft nuclei 131Ce and 133Pr"
 aliases: [Singh 2016 131Ce lifetime, Singh 2016 133Pr lifetime]
 created: 2026-07-28
-updated: 2026-09-28
+updated: 2026-10-09
 status: ai-draft
 review_status: unreviewed
 source_type: journal-article-experiment
@@ -71,6 +71,7 @@ R. P. Singh 等，*Pramana – Journal of Physics* **87**, 7 (2016)，DOI `10.10
 | SI16-14 | The authors interpret high-Ω `νh11/2` in `131Ce` as driving large triaxiality and low-Ω `πh11/2` in `133Pr` as stabilizing near-prolate shape. | author-interpretation | indirect | PDF pp.9-10; Figs.10-12; Summary | true |
 | SI16-15 | The `133Pr` shape-polarization comparison is explicitly restricted to below its `>0.4 MeV/ħ` band crossing; extrapolation beyond the crossing is unsupported. | evidence-boundary | direct | PDF p.10 | true |
 | SI16-16 | The `27/2−`, 827-keV row in Table 1's Ref. [32] column reproduces Li 2004's `τ=1.23(23) ps` but lists a re-derived `Q_t=2.28(21) eb` using the present paper's rotor/Clebsch–Gordan convention. This is dependent reuse of Li's lifetime, not an independent measurement. | derived-observable | direct | PDF p.5, Table 1, Ref. [32] column; Eq. (1)-(3) | true |
+| SI16-17 | In the `K`-rotor extraction, `T(E2; I→I−2)=1.224×10^12 Eγ^5 CG(I,K)^2 Q_t²`, with `Eγ` in MeV, `Q_t` in eb and `T` in s−1; Eq. (2) replaces the single Clebsch–Gordan factor with a sum over `K` amplitudes for nonaxial or mixed-`K` states. This is a model-dependent extraction formula, not a direct measurement of `Q_t`. | extraction-formula-and-boundary | direct | PDF p.5, Eqs. (1)–(2) and accompanying text | true |
 
 ## Data Lineage and Band Identity
 

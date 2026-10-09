@@ -3,7 +3,7 @@ type: source
 title: "Grodner et al. 2018 - g factor of the 128Cs chiral-band isomer"
 aliases: [Grodner 2018 128Cs g factor]
 created: 2026-09-21
-updated: 2026-09-21
+updated: 2026-10-09
 status: ai-draft
 review_status: unreviewed
 source_type: experiment-and-PRM-CDFT
@@ -38,6 +38,10 @@ tags: [128Cs, chirality, g-factor, TDPAD, planar-aplanar, particle-rotor]
 - E. Grodner *et al.*, *Phys. Rev. Lett.* **120**, 022502 (2018), DOI `10.1103/PhysRevLett.120.022502`.
 - 规范文件：`raw/papers/gpt/high-spin-20260920/g-factor/2018_Grodner et al_First Measurement of the g Factor in the Chiral Band.pdf`。
 
+## Supporting Information Availability
+
+The official APS article page was checked on 2026-10-09. The initial request returned HTTP 200 with no supplement or attachment link; a later metadata-only recheck timed out, so Crossref metadata was used to verify DOI/title identity. The APS supplemental resolver returned to the article record at `#supplemental`, and the standard supplemental-PDF endpoint returned HTTP 404. No SI file was found on these checked publisher routes; separately hosted author material is outside this check.
+
 ## Scope and Reading Depth
 
 - PDF pp.022502-1–5 fully read: `122Sn(10B,4n)128Cs` production, TDPAD at two facilities, 56-ns isomer, Larmor fits/attenuation, angular-momentum additivity, generalized three-component g-factor equation, PRM+CDFT geometry and conclusions.
@@ -58,6 +62,8 @@ tags: [128Cs, chirality, g-factor, TDPAD, planar-aplanar, particle-rotor]
 | GR18-2 | The measured g factor requires core-rotation admixtures beyond a two-vector proton–neutron additivity model. | structure-inference | mixed | PDF pp.3–4, Eq.2, Table II | true |
 | GR18-3 | PRM+CDFT reproduces the g factor for an almost planar bandhead, not ideal aplanar chirality. | geometry-result | mixed | PDF pp.4–5, Fig.4 | true |
 | GR18-4 | Chiral geometry can have a critical-spin/frequency onset; transition fingerprints alone are insufficient at low spin. | interpretation-boundary | mixed | PDF pp.1, 4–5 | false |
+| GR18-5 | In the simplified classical vector construction with `j_p=j_n=11/2` and `j_R=2`, the two planar limiting alignments give `g=0.6` and `g=0.4`, while the aplanar geometry gives an intermediate value; these are model-specific limits, not a universal g-factor classifier. | model-result + evidence-boundary | indirect | single | printed 022502-3 / PDF p.3, Fig.3 caption | true |
+| GR18-SI-1 | The official APS article page exposes no SI link; the supplemental resolver returns to the article record and the standard SI PDF endpoint returns HTTP 404. No SI file was found on the checked publisher routes. | evidence-boundary | direct | APS article `https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.120.022502`; resolver `https://link.aps.org/supplemental/10.1103/PhysRevLett.120.022502`; standard endpoint `https://journals.aps.org/prl/supplemental/10.1103/PhysRevLett.120.022502/PhysRevLett.120.022502.supplemental.pdf` | true |
 
 ## Summary
 

@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "status": "closeout-turn-completed",
+  "run_id": "2026-10-08-day-09-01",
+  "session_id": "01a11a87-45cf-7781-a014-f992aafb49e2",
+  "closeout_event_id": "closeout",
+  "hard_deadline": "2026-10-09T15:00:00+08:00",
+  "closeout_at": "2026-10-09T15:15:44.494069+08:00",
+  "window_missed": false,
+  "time_snapshot": {
+    "now_local": "2026-10-09T15:12:00.448507+08:00",
+    "hard_deadline": "2026-10-09T15:00:00+08:00",
+    "closeout_window_ends_at": "2026-10-09T16:00:00+08:00",
+    "research_stopped_at": "2026-10-09T15:00:00+08:00",
+    "research_minutes_after_cutoff": 0
+  },
+  "report_path": "/workspace/wiki/outputs/learning-daily/20261008-DAY9-be2-bm1-reduced-matrix-elements-strengths.md",
+  "report_sha256": "926b88cdbba3d7ab916542f2b81d137d23705294267f4c3e7d418317074c3e82",
+  "clock_ledger": {
+    "path": "clock-state.json",
+    "clock_pid_last_observed": 211542,
+    "clock_process_ended_at_cutoff": true,
+    "first_clock_stop_at": "2026-10-09T14:49:03+08:00",
+    "farmer_running_rechecked_at": "2026-10-09T15:00:13+08:00",
+    "same_run_clock_resumed_at": "2026-10-09T15:07:20+08:00",
+    "closeout_queue_accepted_at": "2026-10-09T15:07:24.694046+08:00",
+    "closeout_queue_message_id": "01a11f7c-f269-71b1-8814-15f8bb196b95",
+    "same_session_thread": "01a11a87-45cf-7781-a014-f992aafb49e2",
+    "clock_status_at_attestation": "running"
+  },
+  "coverage": {
+    "completed_day_indices": [
+      9
+    ],
+    "partial_day_indices": [
+      10
+    ],
+    "day11_opened": false
+  },
+  "course_state_before": {
+    "next_day_index": 9,
+    "completed_day_count": 8
+  },
+  "publication_manifest": "publish-manifest.json",
+  "attestation_refresh_reason": "The first normal-runner validation required the literal machine marker closeout_event_id: `closeout`; report hash rebound before retry in the same closeout window."
+}

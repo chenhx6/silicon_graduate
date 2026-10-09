@@ -1,0 +1,75 @@
+{
+  "schema_version": 1,
+  "run_id": "2026-10-08-day-09-01",
+  "run_date": "2026-10-08",
+  "day_index": 9,
+  "session_id": "01a11a87-45cf-7781-a014-f992aafb49e2",
+  "checked_at": "2026-10-09T04:45:24+08:00",
+  "paper": {
+    "title": "Spectroscopy in the Z=49 108,110In isotopes: Lifetime measurements in shears bands",
+    "doi": "10.1103/PhysRevC.64.054314",
+    "authors": [
+      "C. J. Chiara",
+      "D. B. Fossan",
+      "V. P. Janzen",
+      "T. Koike",
+      "D. R. LaFosse",
+      "G. J. Lane",
+      "S. M. Mullins",
+      "E. S. Paul",
+      "D. C. Radford",
+      "H. Schnare",
+      "J. M. Sears",
+      "J. F. Smith",
+      "K. Starosta",
+      "P. Vaska",
+      "R. Wadsworth",
+      "D. Ward",
+      "S. Frauendorf"
+    ]
+  },
+  "metadata_sources": [
+    "Crossref DOI record",
+    "APS article landing page"
+  ],
+  "oa_status": {
+    "unpaywall_is_oa": false,
+    "has_repository_copy": false,
+    "oa_locations": [],
+    "arxiv_exact_doi_total_results": 0,
+    "openalex_exact_title_results": 0,
+    "semantic_scholar_exact_title_results": 0
+  },
+  "publisher_access": {
+    "landing_url": "https://journals.aps.org/prc/abstract/10.1103/PhysRevC.64.054314",
+    "landing_http_status": 200,
+    "pdf_url": "https://journals.aps.org/prc/pdf/10.1103/PhysRevC.64.054314",
+    "pdf_http_status": 200,
+    "content_type": "application/pdf",
+    "bytes": 440801,
+    "sha256": "5672ffce1e4049245b3107e6132af0ff7501d14182a03d803cd66828e6660a4e",
+    "access_mode": "direct official publisher endpoint, no login/challenge; not OA-licensed"
+  },
+  "si_check": {
+    "publisher_page_supplement_links": [],
+    "result": "no SI link on APS article page"
+  },
+  "tool_route_failures": [
+    {
+      "tool": "paper_search_nodejs.download_public_paper",
+      "status": "path_traversal_rejected",
+      "reason": "tool rejected /workspace/wiki/raw/... as outside its configured download directory; no file was written; direct official APS PDF URL was then fetched and verified."
+    }
+  ],
+  "file": "raw/papers/gpt/high-spin-20261009/2001_Chiara et al_Spectroscopy in 108,110In isotopes_Lifetime measurements in shears bands.pdf",
+  "scope_boundary": "The direct publisher PDF was used for research. Unpaywall does not identify an OA license or repository copy; the raw PDF is not planned for Git staging/publication.",
+  "method_example": {
+    "locator": "CHI01-6",
+    "values": "108In Band 2 I=15−: 527.8-keV M1 Iγ=31.6, 864.2-keV E2 Iγ=2.0",
+    "relative_shares": [
+      0.9405,
+      0.0595
+    ],
+    "interpretation": "relative to these two observed photon intensities only; not absolute per-parent probabilities or a complete channel inventory"
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "run_id": "2026-10-08-day-09-01",
+  "run_date": "2026-10-08",
+  "day_index": 9,
+  "session_id": "01a11a87-45cf-7781-a014-f992aafb49e2",
+  "checked_at": "2026-10-09T03:52:18+08:00",
+  "paper": {
+    "title": "A Composite Chiral Pair of Rotational Bands in the Odd-A Nucleus 135Nd",
+    "doi": "10.1103/PhysRevLett.91.132501",
+    "arxiv": "nucl-ex/0302029v2"
+  },
+  "si_choice": "user-authorized; search official APS and arXiv records",
+  "route": "direct HTTP checks of official public records; no gated endpoint encountered",
+  "checks": [
+    {
+      "locator": "ZH03-SI-1",
+      "url": "https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.91.132501",
+      "http_status": 200,
+      "content_type": "text/html;charset=utf-8",
+      "supplement_terms_found": 0,
+      "result": "no SI or attachment link on page"
+    },
+    {
+      "locator": "ZH03-SI-2",
+      "url": "https://link.aps.org/supplemental/10.1103/PhysRevLett.91.132501",
+      "http_status": 302,
+      "redirect_target": "https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.91.132501#supplemental",
+      "result": "redirects to article record, not a file"
+    },
+    {
+      "locator": "ZH03-SI-3",
+      "url": "https://journals.aps.org/prl/supplemental/10.1103/PhysRevLett.91.132501/PhysRevLett.91.132501.supplemental.pdf",
+      "http_status": 404,
+      "result": "no SI file at the standard APS endpoint"
+    },
+    {
+      "locator": "ZH03-SI-4",
+      "url": "https://arxiv.org/abs/nucl-ex/0302029v2",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "supplement_terms_found": 0,
+      "result": "article PDF and TeX source listed; no SI/ancillary link"
+    }
+  ],
+  "outcome": "not_found_on_checked_official_endpoints",
+  "downloaded_files": [],
+  "scope_boundary": "Does not rule out separately hosted author materials outside the official APS/arXiv records."
+}

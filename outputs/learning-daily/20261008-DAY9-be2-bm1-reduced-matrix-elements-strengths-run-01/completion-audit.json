@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "run_id": "2026-10-08-day-09-01",
+  "day_index": 9,
+  "completed_day_indices": [
+    9
+  ],
+  "partial_day_indices": [
+    10
+  ],
+  "closeout_at": "2026-10-09T15:15:44.494069+08:00",
+  "session_id": "01a11a87-45cf-7781-a014-f992aafb49e2",
+  "report_sha256": "926b88cdbba3d7ab916542f2b81d137d23705294267f4c3e7d418317074c3e82",
+  "day9_card_audit": "complete",
+  "deliverables": [
+    {
+      "deliverable": "回忆：标明 primed recall，核均值寿命/半衰期、branch/mixing/B/RME及单位",
+      "evidence": "[recall-record.md](recall-record.md); [DAY9 report](../20261008-DAY9-be2-bm1-reduced-matrix-elements-strengths.md#run-state); LKH82-1",
+      "status": "complete"
+    },
+    {
+      "deliverable": "主线：MU08 与 LKH82公式和Table I/II原表重核",
+      "evidence": "[day9-input-chain.json](day9-input-chain.json); MU08-10/11/12; printed034311-3/Table I and034311-4/Table II; LKH82-1",
+      "status": "complete"
+    },
+    {
+      "deliverable": "独立复算Band1 I=18输入链，保留分支basis、IC/E0、radiative fraction、误差",
+      "evidence": "[day9-input-chain.json](day9-input-chain.json); report Theory/analysis exercise; MU08-11/14",
+      "status": "complete"
+    },
+    {
+      "deliverable": "反证漏枝、feeding、stopping、branch uncertainty及共享输入依赖",
+      "evidence": "[DAY9 report](../20261008-DAY9-be2-bm1-reduced-matrix-elements-strengths.md#counter-evidence-and-missing-companion-observables); MU08-14; MU07-16",
+      "status": "complete"
+    },
+    {
+      "deliverable": "唯一knowledge writeback、可追溯locator及review状态保留",
+      "evidence": "[completed run receipt](run.json); [original baseline](baseline.json); 20 mapped canonical pages, 15 changed pages",
+      "status": "complete"
+    }
+  ],
+  "finalizer": {
+    "exit": 0,
+    "receipt_status": "completed",
+    "deliverables_passed": true,
+    "closeout_on_time": true,
+    "normal_runner_generated_prompt": "/workspace/wiki/outputs/learning-daily/prompts/20261009-DAY10-electromagnetic-ratios-collective-modes.md",
+    "lint_exit": 0,
+    "git_diff_check_exit": 0
+  },
+  "course_state_after_runner": {
+    "next_day_index": 10,
+    "completed_day_count": 9,
+    "last_run_id": "2026-10-08-day-09-01"
+  },
+  "Day10_plan": "outputs/plans/2026-10-09-DAY10-electromagnetic-ratios-collective-modes.md",
+  "Day10_prompt": "outputs/learning-daily/prompts/20261009-DAY10-electromagnetic-ratios-collective-modes.md",
+  "Day10_credit_in_Day9": false,
+  "Day11_studied": false,
+  "review_flags_promoted": false
+}

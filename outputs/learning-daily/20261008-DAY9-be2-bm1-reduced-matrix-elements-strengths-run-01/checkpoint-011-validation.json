@@ -1,0 +1,67 @@
+{
+  "at": "2026-10-09T14:06:33.684897+08:00",
+  "clock_event_id": "checkpoint-011",
+  "report_sha256": "aaae6d86d702e130f6cd0873c9276b37063361a2306c1b681ef3c7ff1a56b9e3",
+  "report": {
+    "valid": true,
+    "missing_headings": []
+  },
+  "coverage": {
+    "valid": true,
+    "completed_day_indices": [
+      9
+    ],
+    "partial_day_indices": [
+      10
+    ],
+    "curriculum_cards_completed": 1,
+    "next_day_index": 10,
+    "error": null
+  },
+  "writeback": {
+    "valid": true,
+    "mode": "updated",
+    "knowledge_paths": [
+      "knowledge/sources/mukhopadhyay-2008-136nd-transition-rates.md",
+      "knowledge/sources/chiara-2001-108-110in-shears-band-lifetimes.md",
+      "knowledge/sources/mukhopadhyay-2007-135nd-chiral-vibration-static.md",
+      "knowledge/sources/lange-kumar-hamilton-1982-multipole-admixtures.md",
+      "knowledge/sources/zhu-2003-135nd-composite-chiral-pair.md",
+      "knowledge/observables/bm1-be2-ratio.md",
+      "knowledge/nuclei/135nd.md",
+      "knowledge/index.md",
+      "knowledge/sources/lv-2019-chirality-135nd-reexamined.md",
+      "knowledge/sources/grodner-2018-128cs-chiral-g-factor.md",
+      "knowledge/sources/timar-2007-high-spin-105ag-chiral-search.md",
+      "knowledge/sources/suzuki-2008-lifetimes-103rh-104rh.md",
+      "knowledge/synthesis/chirality-wobbling-competition-evidence.md",
+      "knowledge/sources/chakraborty-2023-131xe-wobbling-origin.md",
+      "knowledge/sources/petrache-2006-near-degenerate-chiral-misinterpretation.md",
+      "knowledge/sources/lv-2021-tilted-precession-135nd.md",
+      "knowledge/sources/singh-2016-lifetime-131ce-133pr.md",
+      "knowledge/observables/transition-quadrupole-moment.md",
+      "knowledge/synthesis/high-spin-lifetime-strength-deformation.md",
+      "knowledge/questions.md"
+    ],
+    "changed_paths": [
+      "knowledge/index.md",
+      "knowledge/nuclei/135nd.md",
+      "knowledge/observables/bm1-be2-ratio.md",
+      "knowledge/observables/transition-quadrupole-moment.md",
+      "knowledge/questions.md",
+      "knowledge/sources/chiara-2001-108-110in-shears-band-lifetimes.md",
+      "knowledge/sources/grodner-2018-128cs-chiral-g-factor.md",
+      "knowledge/sources/lv-2019-chirality-135nd-reexamined.md",
+      "knowledge/sources/mukhopadhyay-2007-135nd-chiral-vibration-static.md",
+      "knowledge/sources/mukhopadhyay-2008-136nd-transition-rates.md",
+      "knowledge/sources/singh-2016-lifetime-131ce-133pr.md",
+      "knowledge/sources/timar-2007-high-spin-105ag-chiral-search.md",
+      "knowledge/sources/zhu-2003-135nd-composite-chiral-pair.md",
+      "knowledge/synthesis/chirality-wobbling-competition-evidence.md",
+      "knowledge/synthesis/high-spin-lifetime-strength-deformation.md"
+    ],
+    "change_check": "run-snapshot",
+    "error": null
+  },
+  "phase": "precloseout only; course state unchanged"
+}

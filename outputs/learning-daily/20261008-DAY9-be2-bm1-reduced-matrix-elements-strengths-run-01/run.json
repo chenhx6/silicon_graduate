@@ -1,0 +1,298 @@
+{
+  "schema_version": 1,
+  "run_id": "2026-10-08-day-09-01",
+  "run_date": "2026-10-08",
+  "day_index": 9,
+  "phase": "nuclear-structure-framework",
+  "cycle": "2026-09-30-day-substantive",
+  "schedule_id": "wiki-daily-learning",
+  "schedule_name": "Wiki 30-day substantive daily learning",
+  "project_root": "/workspace/wiki",
+  "run_kind": "substantive",
+  "acceptance_only": false,
+  "overnight_until": "2026-10-09T15:00:00+08:00",
+  "max_continuations": 96,
+  "continuation_count": 3,
+  "continuation_batch_count": 3,
+  "continuation_batches": 1,
+  "counted_in_substantive_test": true,
+  "session_mode": "new-session-per-run",
+  "session_reuse": false,
+  "session_scope": "one-new-session-for-each-schedule-run",
+  "codex_home": "/root/.codex",
+  "status": "completed",
+  "started_at": "2026-10-08T16:00:01.836897+08:00",
+  "report": "/workspace/wiki/outputs/learning-daily/20261008-DAY9-be2-bm1-reduced-matrix-elements-strengths.md",
+  "completed_day_indices": [
+    9
+  ],
+  "partial_day_indices": [
+    10
+  ],
+  "curriculum_cards_completed": 1,
+  "closeout_window_ends_at": "2026-10-09T16:00:00+08:00",
+  "last_closeout_snapshot": {
+    "now_local": "2026-10-09T14:05:58.696804+08:00",
+    "hard_deadline": "2026-10-09T15:00:00+08:00",
+    "next_scheduled_start": "2026-10-09T16:00:00+08:00",
+    "minutes_to_deadline": 54.0,
+    "minutes_to_next_start": 114.0,
+    "minimum_current_block_minutes": 90,
+    "minimum_forward_card_block_minutes": 120,
+    "can_continue_current": false,
+    "can_complete_forward_card": false,
+    "decision": "finish-current-no-new-unit",
+    "scope": "onlyDay9credit / Day10partial; Day11 unopened"
+  },
+  "prompt_file": "/workspace/wiki/outputs/learning-daily/20261008-DAY9-be2-bm1-reduced-matrix-elements-strengths-run-01/prompt.md",
+  "continuation_runs": [
+    {
+      "number": 1,
+      "study_continuation_number": 1,
+      "kind": "study",
+      "returncode": 0,
+      "events": "/workspace/wiki/outputs/learning-daily/20261008-DAY9-be2-bm1-reduced-matrix-elements-strengths-run-01/continuation-001-events.jsonl",
+      "prompt": "/workspace/wiki/outputs/learning-daily/20261008-DAY9-be2-bm1-reduced-matrix-elements-strengths-run-01/continuation-001-prompt.md",
+      "last_message": "/workspace/wiki/outputs/learning-daily/20261008-DAY9-be2-bm1-reduced-matrix-elements-strengths-run-01/continuation-001-last-message.md",
+      "time_snapshot": {
+        "now_local": "2026-10-08T17:17:28.033209+08:00",
+        "hard_deadline": "2026-10-09T15:00:00+08:00",
+        "next_scheduled_start": "2026-10-09T16:00:00+08:00",
+        "minutes_to_deadline": 1302,
+        "minutes_to_next_start": 1362,
+        "minimum_current_block_minutes": 90,
+        "minimum_forward_card_block_minutes": 120,
+        "can_continue_current": true,
+        "can_complete_forward_card": true,
+        "decision": "continue-or-advance"
+      }
+    },
+    {
+      "number": 2,
+      "study_continuation_number": 2,
+      "kind": "study",
+      "returncode": 1,
+      "events": "/workspace/wiki/outputs/learning-daily/20261008-DAY9-be2-bm1-reduced-matrix-elements-strengths-run-01/continuation-002-events.jsonl",
+      "prompt": "/workspace/wiki/outputs/learning-daily/20261008-DAY9-be2-bm1-reduced-matrix-elements-strengths-run-01/continuation-002-prompt.md",
+      "last_message": "/workspace/wiki/outputs/learning-daily/20261008-DAY9-be2-bm1-reduced-matrix-elements-strengths-run-01/continuation-002-last-message.md",
+      "time_snapshot": {
+        "now_local": "2026-10-08T21:45:55.619926+08:00",
+        "hard_deadline": "2026-10-09T15:00:00+08:00",
+        "next_scheduled_start": "2026-10-09T16:00:00+08:00",
+        "minutes_to_deadline": 1034,
+        "minutes_to_next_start": 1094,
+        "minimum_current_block_minutes": 90,
+        "minimum_forward_card_block_minutes": 120,
+        "can_continue_current": true,
+        "can_complete_forward_card": true,
+        "decision": "continue-or-advance"
+      },
+      "runner_recovery": true
+    },
+    {
+      "number": 3,
+      "study_continuation_number": 3,
+      "kind": "study",
+      "returncode": 1,
+      "events": "/workspace/wiki/outputs/learning-daily/20261008-DAY9-be2-bm1-reduced-matrix-elements-strengths-run-01/continuation-003-events.jsonl",
+      "prompt": "/workspace/wiki/outputs/learning-daily/20261008-DAY9-be2-bm1-reduced-matrix-elements-strengths-run-01/continuation-003-prompt.md",
+      "last_message": "/workspace/wiki/outputs/learning-daily/20261008-DAY9-be2-bm1-reduced-matrix-elements-strengths-run-01/continuation-003-last-message.md",
+      "time_snapshot": {
+        "now_local": "2026-10-08T22:21:08.266758+08:00",
+        "hard_deadline": "2026-10-09T15:00:00+08:00",
+        "next_scheduled_start": "2026-10-09T16:00:00+08:00",
+        "minutes_to_deadline": 998,
+        "minutes_to_next_start": 1058,
+        "minimum_current_block_minutes": 90,
+        "minimum_forward_card_block_minutes": 120,
+        "can_continue_current": true,
+        "can_complete_forward_card": true,
+        "decision": "continue-or-advance"
+      },
+      "runner_recovery": true
+    },
+    {
+      "number": 4,
+      "study_continuation_number": null,
+      "kind": "closeout",
+      "returncode": 0,
+      "prompt": "/workspace/wiki/outputs/learning-daily/20261008-DAY9-be2-bm1-reduced-matrix-elements-strengths-run-01/interactive-closeout-attestation.json",
+      "events": null,
+      "last_message": null,
+      "time_snapshot": {
+        "now_local": "2026-10-09T15:12:00.448507+08:00",
+        "hard_deadline": "2026-10-09T15:00:00+08:00",
+        "closeout_window_ends_at": "2026-10-09T16:00:00+08:00",
+        "research_stopped_at": "2026-10-09T15:00:00+08:00",
+        "research_minutes_after_cutoff": 0
+      },
+      "interactive_session_closeout": true
+    }
+  ],
+  "session_id": "01a11a87-45cf-7781-a014-f992aafb49e2",
+  "last_continuation_prompt": "/workspace/wiki/outputs/learning-daily/20261008-DAY9-be2-bm1-reduced-matrix-elements-strengths-run-01/continuation-003-prompt.md",
+  "closeout_turn": {
+    "number": 4,
+    "returncode": 0,
+    "prompt": "/workspace/wiki/outputs/learning-daily/20261008-DAY9-be2-bm1-reduced-matrix-elements-strengths-run-01/interactive-closeout-attestation.json",
+    "events": null,
+    "window_missed": false,
+    "time_snapshot": {
+      "now_local": "2026-10-09T15:12:00.448507+08:00",
+      "hard_deadline": "2026-10-09T15:00:00+08:00",
+      "closeout_window_ends_at": "2026-10-09T16:00:00+08:00",
+      "research_stopped_at": "2026-10-09T15:00:00+08:00",
+      "research_minutes_after_cutoff": 0
+    },
+    "interactive_session_closeout": true
+  },
+  "closeout_window_missed": false,
+  "runner_recovery": {
+    "recovered_at": "2026-10-08T22:21:08.116751+08:00",
+    "reason": "the original daily runner exited after a successful continuation before the study loop could continue",
+    "same_session_resumed": true,
+    "replacement_session_created": false,
+    "prior_continuation_count": 2
+  },
+  "resume_command": [
+    "codex",
+    "resume",
+    "01a11a87-45cf-7781-a014-f992aafb49e2",
+    "-C",
+    "/workspace/wiki",
+    "-s",
+    "danger-full-access",
+    "-a",
+    "never"
+  ],
+  "exit_code": 0,
+  "failure_reason": null,
+  "checks": {
+    "preflight": {
+      "exit": 0,
+      "stdout_tail": "{\"schema_version\":1,\"ok\":true,\"root\":\"/workspace/wiki\",\"expected_profile\":\"\",\"actual_profile\":null,\"warnings\":[],\"write_probes\":[{\"path\":\"/workspace/wiki\",\"created\":true,\"read_back\":true,\"deleted\":true,\"error\":null},{\"path\":\"/workspace/wiki/.git\",\"created\":true,\"read_back\":true,\"deleted\":true,\"error\":null}],\"error\":null,\"path_boundary\":{\"schema_version\":1,\"root\":\"/workspace/wiki\",\"ok\":true,\"errors\":[],\"warnings\":[],\"checks\":{\"required_dirs\":{\"expected\":[\"raw\",\"knowledge\",\"outputs\",\"system\",\"tools\",\"tmp\"],\"missing\":[]},\"forbidden_dirs\":{\"expected_absent\":[\"docs/plans\"],\"present\":[]},\"moved_knowledge\":{\"outputs/learning-milestones/2026-09-a130-thesis-evidence-matrix.md\":{\"old_exists\":false,\"canonical\":\"knowledge/projects/a130-thesis-evidence-matrix.md\",\"canonical_exists\":true}},\"outputs\":{\"allowed_roots\":[\"degree-dissertation\",\"high-spin\",\"l3\",\"l4\",\"learning-daily\",\"learning-milestones\",\"learning-weekly\",\"literature-acquisition\",\"paper-cards\",\"plans\",\"self-tests\"],\"unknown_roots\":[],\"knowledge_page_types_in_outputs\":[]},\"qmd\":{\"checked\":true,\"available\":true,\"command\":[\"/opt/qmd/bin/qmd\",\"collection\",\"show\",\"nuclear-knowledge\"],\"exit\":0,\"path\":\"/workspace/wiki/knowledge\",\"pattern\":\"**/*.md\"}}},\"config_default\":null,\"protected_bib\":{\"path\":\"/workspace/wiki/raw/zotero/wiki-inbox.bib\",\"baseline_sha256\":\"037EA133DE204270AD36961CA66B3AB36C0913B7D472B45F8FD013C8293BE5BE\",\"actual_sha256\":\"037EA133DE204270AD36961CA66B3AB36C0913B7D472B45F8FD013C8293BE5BE\",\"status\":\"matched\"},\"exit_code\":0}\n",
+      "stderr_tail": ""
+    },
+    "report_exists": true,
+    "report_changed": true,
+    "report_valid": true,
+    "report_missing_headings": [],
+    "durable_knowledge": {
+      "valid": true,
+      "mode": "updated",
+      "knowledge_paths": [
+        "knowledge/sources/mukhopadhyay-2008-136nd-transition-rates.md",
+        "knowledge/sources/chiara-2001-108-110in-shears-band-lifetimes.md",
+        "knowledge/sources/mukhopadhyay-2007-135nd-chiral-vibration-static.md",
+        "knowledge/sources/lange-kumar-hamilton-1982-multipole-admixtures.md",
+        "knowledge/sources/zhu-2003-135nd-composite-chiral-pair.md",
+        "knowledge/observables/bm1-be2-ratio.md",
+        "knowledge/nuclei/135nd.md",
+        "knowledge/index.md",
+        "knowledge/sources/lv-2019-chirality-135nd-reexamined.md",
+        "knowledge/sources/grodner-2018-128cs-chiral-g-factor.md",
+        "knowledge/sources/timar-2007-high-spin-105ag-chiral-search.md",
+        "knowledge/sources/suzuki-2008-lifetimes-103rh-104rh.md",
+        "knowledge/synthesis/chirality-wobbling-competition-evidence.md",
+        "knowledge/sources/chakraborty-2023-131xe-wobbling-origin.md",
+        "knowledge/sources/petrache-2006-near-degenerate-chiral-misinterpretation.md",
+        "knowledge/sources/lv-2021-tilted-precession-135nd.md",
+        "knowledge/sources/singh-2016-lifetime-131ce-133pr.md",
+        "knowledge/observables/transition-quadrupole-moment.md",
+        "knowledge/synthesis/high-spin-lifetime-strength-deformation.md",
+        "knowledge/questions.md"
+      ],
+      "changed_paths": [
+        "knowledge/index.md",
+        "knowledge/nuclei/135nd.md",
+        "knowledge/observables/bm1-be2-ratio.md",
+        "knowledge/observables/transition-quadrupole-moment.md",
+        "knowledge/questions.md",
+        "knowledge/sources/chiara-2001-108-110in-shears-band-lifetimes.md",
+        "knowledge/sources/grodner-2018-128cs-chiral-g-factor.md",
+        "knowledge/sources/lv-2019-chirality-135nd-reexamined.md",
+        "knowledge/sources/mukhopadhyay-2007-135nd-chiral-vibration-static.md",
+        "knowledge/sources/mukhopadhyay-2008-136nd-transition-rates.md",
+        "knowledge/sources/singh-2016-lifetime-131ce-133pr.md",
+        "knowledge/sources/timar-2007-high-spin-105ag-chiral-search.md",
+        "knowledge/sources/zhu-2003-135nd-composite-chiral-pair.md",
+        "knowledge/synthesis/chirality-wobbling-competition-evidence.md",
+        "knowledge/synthesis/high-spin-lifetime-strength-deformation.md"
+      ],
+      "change_check": "run-snapshot",
+      "error": null
+    },
+    "curriculum_coverage": {
+      "valid": true,
+      "completed_day_indices": [
+        9
+      ],
+      "partial_day_indices": [
+        10
+      ],
+      "curriculum_cards_completed": 1,
+      "next_day_index": 10,
+      "error": null
+    },
+    "lint_exit": 0,
+    "lint_tail": "bing-2012-101pd-rdt-thesis.md - line 51 awaits human review\n[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/zhou-houbing-2012-101pd-rdt-thesis.md - line 52 awaits human review\n[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/zhou-houbing-2012-101pd-rdt-thesis.md - line 53 awaits human review\n[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/zhou-houbing-2012-101pd-rdt-thesis.md - line 54 awaits human review\n[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/zhou-houbing-2012-101pd-rdt-thesis.md - line 55 awaits human review\n[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/zhou-houbing-2012-101pd-rdt-thesis.md - line 56 awaits human review\n[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/zhou-houbing-2012-101pd-rdt-thesis.md - line 57 awaits human review\n[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/zhu-2003-135nd-composite-chiral-pair.md - ZH03-1 awaits human review\n[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/zhu-2003-135nd-composite-chiral-pair.md - ZH03-2 awaits human review\n[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/zhu-2003-135nd-composite-chiral-pair.md - ZH03-3 awaits human review\n[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/zhu-2003-135nd-composite-chiral-pair.md - ZH03-4 awaits human review\n[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/zhu-2003-135nd-composite-chiral-pair.md - ZH03-5 awaits human review\n[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/zhu-2003-135nd-composite-chiral-pair.md - ZH03-6 awaits human review\n[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/zhu-2003-135nd-composite-chiral-pair.md - ZH03-7 awaits human review\n[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/zhu-2003-135nd-composite-chiral-pair.md - ZH03-8 awaits human review\nGOVERNANCE page_unreviewed=483 source_unreviewed=210 claims=2074 claim_needs_review=1400 claim_missing_locator=0 claim_missing_kind=0 source_missing_raw_file=0 source_missing_citation_key=90\nSUMMARY pages=561 wikilinks=5270 hashes=270 errors=0 warnings=93 info=1400\n",
+    "git_diff_check_exit": 0,
+    "git_diff_check_tail": ""
+  },
+  "finished_at": "2026-10-09T15:22:31.582891+08:00",
+  "study_window_closed": true,
+  "closeout_on_time": true,
+  "next_day_index": 10,
+  "deliverables_passed": true,
+  "next_prompt_file": "/workspace/wiki/outputs/learning-daily/prompts/20261009-DAY10-electromagnetic-ratios-collective-modes.md",
+  "next_prompt_error": null,
+  "runner_recovery_history": [
+    {
+      "at": "2026-10-08T22:20:56.597048+08:00",
+      "status": "retrying-after-same-session-writer-conflict",
+      "stderr_file": "/workspace/wiki/outputs/learning-daily/20261008-DAY9-be2-bm1-reduced-matrix-elements-strengths-run-01/continuation-002-stderr.log",
+      "same_session_id": "01a11a87-45cf-7781-a014-f992aafb49e2",
+      "replacement_session_created": false
+    },
+    {
+      "recovered_at": "2026-10-08T21:45:55.505016+08:00",
+      "reason": "the original daily runner exited after a successful continuation before the study loop could continue",
+      "same_session_resumed": true,
+      "replacement_session_created": false,
+      "prior_continuation_count": 1
+    }
+  ],
+  "observed_clock_executions": [
+    {
+      "timestamp": "2026-10-09T13:29:38.078534+08:00",
+      "event": "clock-checkpoint-execution-observed",
+      "clock_event_id": "checkpoint-003",
+      "queued_snapshot_at": "2026-10-08T22:36:32.865129+08:00",
+      "processing_now": "2026-10-09T13:29:38.078534+08:00",
+      "same_session_id": "01a11a87-45cf-7781-a014-f992aafb49e2",
+      "day_index": 9,
+      "run_status": "failed-verification",
+      "course_credit_updated": false,
+      "research_resumed": true,
+      "minutes_to_deadline": 90.4
+    },
+    {
+      "timestamp": "2026-10-09T14:05:58.696804+08:00",
+      "event": "clock-checkpoint-execution-observed",
+      "clock_event_id": "checkpoint-011",
+      "queued_snapshot_at": "2026-10-09T14:00:03.009097+08:00",
+      "processing_now": "2026-10-09T14:05:58.696804+08:00",
+      "same_session_id": "01a11a87-45cf-7781-a014-f992aafb49e2",
+      "day_index": 9,
+      "run_status": "failed-verification",
+      "course_credit_updated": false,
+      "new_session_created": false,
+      "daemon_restarted": false,
+      "minutes_to_deadline": 54.0,
+      "action": "existing bounded analysis and closeout readiness checkpoint",
+      "new_source_opened": false,
+      "new_card_opened": false
+    }
+  ],
+  "interactive_closeout_attestation": "/workspace/wiki/outputs/learning-daily/20261008-DAY9-be2-bm1-reduced-matrix-elements-strengths-run-01/interactive-closeout-attestation.json"
+}

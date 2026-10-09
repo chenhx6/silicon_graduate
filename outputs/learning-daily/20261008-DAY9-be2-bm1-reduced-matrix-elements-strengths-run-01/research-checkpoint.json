@@ -1,0 +1,396 @@
+{
+  "schema_version": 1,
+  "run_id": "2026-10-08-day-09-01",
+  "run_date": "2026-10-08",
+  "day_index": 9,
+  "session_id": "01a11a87-45cf-7781-a014-f992aafb49e2",
+  "resume_command": "codex resume 01a11a87-45cf-7781-a014-f992aafb49e2 -C /workspace/wiki -s danger-full-access -a never",
+  "checkpoint_at": "2026-10-09T14:46:01.296325+08:00",
+  "hard_deadline": "2026-10-09T15:00:00+08:00",
+  "latest_minutes_to_deadline": 14.0,
+  "course_state_before": {
+    "next_day_index": 9,
+    "completed_day_count": 8
+  },
+  "card_status": {
+    "day9": "complete",
+    "day10": "partial-uncredited",
+    "day11": "not-opened"
+  },
+  "current_question_status": "Current bounded Day10 line-pair analysis now includes the same-parent photon-budget diagnostic MU07-16: first-two nominal M1 pairs and every candidate E2 crossover overfill an added joint parent/line/normalization hypothesis. This does not identify the failed premise, infer ICC/delta/covariance, establish author error or add independent evidence. Published/digitized inputs unchanged; Day10 remains uncredited.",
+  "verified_artifacts": [
+    "outputs/learning-daily/20261008-DAY9-be2-bm1-reduced-matrix-elements-strengths-run-01/recall-record.md",
+    "outputs/learning-daily/20261008-DAY9-be2-bm1-reduced-matrix-elements-strengths-run-01/day9-input-chain.json",
+    "outputs/learning-daily/20261008-DAY9-be2-bm1-reduced-matrix-elements-strengths.md",
+    "knowledge/sources/mukhopadhyay-2008-136nd-transition-rates.md#MU08-10",
+    "outputs/learning-daily/20261008-DAY9-be2-bm1-reduced-matrix-elements-strengths-run-01/day10-strength-ratio-preview.json",
+    "knowledge/sources/mukhopadhyay-2007-135nd-chiral-vibration-static.md#MU07-8",
+    "knowledge/sources/zhu-2003-135nd-composite-chiral-pair.md#ZH03-3",
+    "knowledge/sources/mukhopadhyay-2007-135nd-chiral-vibration-static.md#MU07-9",
+    "knowledge/nuclei/135nd.md",
+    "knowledge/index.md",
+    "raw/papers/gpt/high-spin-20261009/2003_Zhu et al_A Composite Chiral Pair of Rotational Bands in 135Nd.pdf",
+    "knowledge/sources/mukhopadhyay-2007-135nd-chiral-vibration-static.md#MU07-10",
+    "outputs/learning-daily/20261008-DAY9-be2-bm1-reduced-matrix-elements-strengths-run-01/zhu-2003-si-check.json",
+    "knowledge/sources/singh-2016-lifetime-131ce-133pr.md#SI16-17",
+    "knowledge/observables/transition-quadrupole-moment.md#Source-specific-K-rotor-rate-conversion",
+    "knowledge/synthesis/chirality-wobbling-competition-evidence.md#135Nd-model-evolution-3D-TAC-and-TAC-RPA",
+    "outputs/learning-daily/20261008-DAY9-be2-bm1-reduced-matrix-elements-strengths-run-01/chiara-acquisition-check.json",
+    "raw/papers/gpt/high-spin-20261009/2001_Chiara et al_Spectroscopy in 108,110In isotopes_Lifetime measurements in shears bands.pdf",
+    "knowledge/sources/chiara-2001-108-110in-shears-band-lifetimes.md#CHI01-2",
+    "knowledge/sources/mukhopadhyay-2007-135nd-chiral-vibration-static.md#MU07-SI-1",
+    "outputs/learning-daily/20261008-DAY9-be2-bm1-reduced-matrix-elements-strengths-run-01/day9-input-chain.json#mu08_si_check"
+  ],
+  "latest_validations": {
+    "report": {
+      "valid": true,
+      "missing_headings": []
+    },
+    "coverage": {
+      "valid": true,
+      "completed_day_indices": [
+        9
+      ],
+      "partial_day_indices": [
+        10
+      ],
+      "curriculum_cards_completed": 1,
+      "next_day_index": 10,
+      "error": null
+    },
+    "writeback": {
+      "valid": true,
+      "mode": "updated",
+      "knowledge_paths": [
+        "knowledge/sources/mukhopadhyay-2008-136nd-transition-rates.md",
+        "knowledge/sources/chiara-2001-108-110in-shears-band-lifetimes.md",
+        "knowledge/sources/mukhopadhyay-2007-135nd-chiral-vibration-static.md",
+        "knowledge/sources/lange-kumar-hamilton-1982-multipole-admixtures.md",
+        "knowledge/sources/zhu-2003-135nd-composite-chiral-pair.md",
+        "knowledge/observables/bm1-be2-ratio.md",
+        "knowledge/nuclei/135nd.md",
+        "knowledge/index.md",
+        "knowledge/sources/lv-2019-chirality-135nd-reexamined.md",
+        "knowledge/sources/grodner-2018-128cs-chiral-g-factor.md",
+        "knowledge/sources/timar-2007-high-spin-105ag-chiral-search.md",
+        "knowledge/sources/suzuki-2008-lifetimes-103rh-104rh.md",
+        "knowledge/synthesis/chirality-wobbling-competition-evidence.md",
+        "knowledge/sources/chakraborty-2023-131xe-wobbling-origin.md",
+        "knowledge/sources/petrache-2006-near-degenerate-chiral-misinterpretation.md",
+        "knowledge/sources/lv-2021-tilted-precession-135nd.md",
+        "knowledge/sources/singh-2016-lifetime-131ce-133pr.md",
+        "knowledge/observables/transition-quadrupole-moment.md",
+        "knowledge/synthesis/high-spin-lifetime-strength-deformation.md",
+        "knowledge/questions.md"
+      ],
+      "changed_paths": [
+        "knowledge/index.md",
+        "knowledge/nuclei/135nd.md",
+        "knowledge/observables/bm1-be2-ratio.md",
+        "knowledge/observables/transition-quadrupole-moment.md",
+        "knowledge/questions.md",
+        "knowledge/sources/chiara-2001-108-110in-shears-band-lifetimes.md",
+        "knowledge/sources/grodner-2018-128cs-chiral-g-factor.md",
+        "knowledge/sources/lv-2019-chirality-135nd-reexamined.md",
+        "knowledge/sources/mukhopadhyay-2007-135nd-chiral-vibration-static.md",
+        "knowledge/sources/mukhopadhyay-2008-136nd-transition-rates.md",
+        "knowledge/sources/singh-2016-lifetime-131ce-133pr.md",
+        "knowledge/sources/timar-2007-high-spin-105ag-chiral-search.md",
+        "knowledge/sources/zhu-2003-135nd-composite-chiral-pair.md",
+        "knowledge/synthesis/chirality-wobbling-competition-evidence.md",
+        "knowledge/synthesis/high-spin-lifetime-strength-deformation.md"
+      ],
+      "change_check": "run-snapshot",
+      "error": null
+    },
+    "lint_exit": 0,
+    "lint_summary": "pages=561 errors=0 warnings=93 info=1399",
+    "boundary_exit": 0,
+    "git_diff_check_exit": 0,
+    "status": "Passed at current report hash; precloseout only; rerun after final report freeze",
+    "checkpoint_011_validation": "checkpoint-011-validation.json"
+  },
+  "inherited_changes_to_preserve": [
+    "four tracked DAY8 receipt/progress/checkpoint files",
+    "system/scripts/run_daily_learning_daemon.py",
+    "pre-existing untracked DAY6/DAY7/DAY8 output paths"
+  ],
+  "next_actions": [
+    "Yield to same-session clock closeout at15:00; keep run unfinalized until cutoff.",
+    "Freeze report and create closeout hash-bound attestation only in15:00–16:00.",
+    "After clock closeout ledger is queued, gracefully stop exact clock PID and run normal --finalize-receipt.",
+    "Normal runner may credit only9; produce Day10 prompt and an explicit Day10 task plan from its existing matrix deliverables.",
+    "Finalize explicit run-owned manifest and run required Gitee H3 publication."
+  ],
+  "latest_runtime_snapshot": {
+    "now_local": "2026-10-09T14:05:58.696804+08:00",
+    "hard_deadline": "2026-10-09T15:00:00+08:00",
+    "next_scheduled_start": "2026-10-09T16:00:00+08:00",
+    "minutes_to_deadline": 54.0,
+    "minutes_to_next_start": 114.0,
+    "minimum_current_block_minutes": 90,
+    "minimum_forward_card_block_minutes": 120,
+    "can_continue_current": false,
+    "can_complete_forward_card": false,
+    "decision": "finish-current-no-new-unit",
+    "scope": "onlyDay9credit / Day10partial; Day11 unopened"
+  },
+  "latest_validations_at": "2026-10-09T14:09:44.307080+08:00",
+  "runner_interruption": {
+    "scheduler_event": "2026-10-08T18:31:46.325110+08:00 runner-finished exit 2, status failed, session_id null in daemon event",
+    "captured_error": "type object 'datetime.time' has no attribute 'sleep'",
+    "root_cause": "run_daily_learning.py imported the time module and datetime.time under the same name; continuation calls time.sleep(2).",
+    "prior_day9_receipt": "still running; session_id 01a11a87-45cf-7781-a014-f992aafb49e2; continuation 001 returncode 0; course state remains next=9/count=8.",
+    "fix": "time module aliased as time_module; normal runner gained guarded --resume-receipt path that resumes only the recorded session and executes normal closeout/state/prompt gates.",
+    "resume_runner_launched": false,
+    "daily_daemon": "stopped gracefully at 2026-10-08T21:03:27+08:00 to release its scheduler lock; planned restoration only after receipt completed and Day9 course credit is confirmed.",
+    "recovery_runner_launched": true,
+    "recovery_supervisor": {
+      "status": "waiting-for-current-turn",
+      "pid": 181045,
+      "attempt": 4,
+      "delay_seconds": 180,
+      "session_id": "01a11a87-45cf-7781-a014-f992aafb49e2",
+      "no_new_session": true,
+      "will_gracefully_release_only_verified_pgid": 176706
+    },
+    "recovery_runner_exit_code": 1,
+    "recovery_runner_status": "failed-verification because codex exec resume conflicted with the live interactive CLI writer; receipt remains pre-closeout and is eligible for exact lock-conflict retry",
+    "retry_evidence": {
+      "receipt_status": "failed-verification",
+      "last_continuation_number": 2,
+      "last_stderr": "thread-store conflict: thread 01a11a87-45cf-7781-a014-f992aafb49e2 already has an active writer",
+      "closeout_turn": null,
+      "study_window_closed": false,
+      "course_state_next_day_index": 9
+    },
+    "next_recovery": "After this interaction turn finishes, delayed supervisor will gracefully SIGTERM exact existing Codex resume process group 176706/176713, wait for its exit, then invoke the guarded normal-runner --resume-receipt path for the same session ID. No SIGKILL and no replacement session.",
+    "external_resume_attempts": [
+      {
+        "supervisor_pid": 179871,
+        "result": "failed before runner start due malformed status JSON suffix; no session created"
+      },
+      {
+        "supervisor_pid": 179933,
+        "result": "runner continuation 002 active-writer conflict; receipt failed-verification precloseout"
+      },
+      {
+        "supervisor_pid": 180942,
+        "result": "stopped before runner start while correcting process cmdline parser; no session created"
+      },
+      {
+        "supervisor_pid": 181045,
+        "result": "gracefully terminated only old CLI process group; runner continuation 003 still saw managed app-server writer conflict"
+      }
+    ],
+    "current_strategy": "Stop headless same-session recovery attempts; use this still-active interactive thread plus run-local clock queue. At closeout, stop clock to release runner/daemon locks and invoke guarded normal-runner --finalize-receipt, with same CODEX_SESSION_ID and exact closeout attestation."
+  },
+  "interactive_clock": {
+    "session_id": "01a11a87-45cf-7781-a014-f992aafb49e2",
+    "clock_pid": 181367,
+    "clock_exec_handle": 7294,
+    "status": "running",
+    "heartbeat_at": "2026-10-09T14:02:05.993235+08:00",
+    "deadline": "2026-10-09T15:00:00+08:00",
+    "closeout_end": "2026-10-09T16:00:00+08:00",
+    "queued_checkpoint_ids": [
+      "checkpoint-003"
+    ],
+    "latest_queue_acceptance": "2026-10-08T22:36:36+08:00",
+    "delivery_observed": true,
+    "checkpoint_003_delivery_observed": true,
+    "checkpoint_011_status": "queued",
+    "checkpoint_011_execution_observed_at": "2026-10-09T14:05:58.696804+08:00"
+  },
+  "durable_knowledge_paths": [
+    "knowledge/sources/mukhopadhyay-2008-136nd-transition-rates.md",
+    "knowledge/sources/mukhopadhyay-2007-135nd-chiral-vibration-static.md",
+    "knowledge/observables/bm1-be2-ratio.md"
+  ],
+  "pending_validations": [
+    "At 15:00 freeze final report and run same-session hash-bound closeout attestation.",
+    "Run final boundary, lint, git diff --check and original-baseline report/writeback/card validation.",
+    "Gracefully stop exact run clock after its closeout queue record; invoke normal runner --finalize-receipt in this same CODEX_SESSION_ID.",
+    "Confirm state next10/count9; keep Day10 partial only; inspect runner-generated exact Day10 plan/prompt.",
+    "Explicitly stage final run-owned manifest and complete Gitee H3 non-force HEAD:main publication."
+  ],
+  "clock_acknowledgement": {
+    "timestamp": "2026-10-09T14:05:58.696804+08:00",
+    "event": "clock-checkpoint-execution-observed",
+    "clock_event_id": "checkpoint-011",
+    "queued_snapshot_at": "2026-10-09T14:00:03.009097+08:00",
+    "processing_now": "2026-10-09T14:05:58.696804+08:00",
+    "same_session_id": "01a11a87-45cf-7781-a014-f992aafb49e2",
+    "day_index": 9,
+    "run_status": "failed-verification",
+    "course_credit_updated": false,
+    "new_session_created": false,
+    "daemon_restarted": false,
+    "minutes_to_deadline": 54.0,
+    "action": "existing bounded analysis and closeout readiness checkpoint",
+    "new_source_opened": false,
+    "new_card_opened": false
+  },
+  "candidate_pool": [
+    {
+      "id": "MU08-absolute-input-ledger",
+      "decision": "bounded-current-analysis-finished",
+      "gap": "No independent branch denominator/all-channel IC and feeding/stopping covariance inputs; existing conditional alternatives retained."
+    },
+    {
+      "id": "MU08-normalization-SD",
+      "decision": "bounded-current-analysis-finished",
+      "gap": "Exact displayed-SD and hypothetical rounding exclusions remain conditional; no author-error assertion."
+    },
+    {
+      "id": "MU07-E2-line-pair",
+      "decision": "bounded-current-analysis-finished",
+      "gap": "Both numerator and denominator identities unresolved; no unique E2 rate or Qt."
+    },
+    {
+      "id": "Day10-card",
+      "decision": "partial-uncredited-only",
+      "gap": "Formal own-day recall/audit not inherited; no credit in Day9."
+    },
+    {
+      "id": "Day11",
+      "decision": "unopened-out-of-scope",
+      "gap": "No new card allowed."
+    }
+  ],
+  "evidence_gaps": [
+    "MU08 per-parent denominator/completeness and all-shell IC ledger are unreported",
+    "feeding/stopping/branch covariance and absolute photon ledger are unavailable",
+    "MU07 row-level final spin/K/transition identity and covariance remain unresolved",
+    "no independent event/response/stopping executable inputs for L4 replay"
+  ],
+  "source_locators_checked": [
+    "MU08-10",
+    "MU08-14",
+    "MU08-SI-1",
+    "MU08-CORR-1",
+    "CHI01-2",
+    "CHI01-3",
+    "CHI01-4",
+    "CHI01-5",
+    "MU07-10",
+    "MU07-11",
+    "MU07-13",
+    "MU07-14",
+    "ZH03-3",
+    "LKH82-1"
+  ],
+  "information_gain": {
+    "checkpoint": "checkpoint-011",
+    "gain": "Confirmed actual delivery, retained latest bounded-analysis corrections, and verified 15 existing atomic locator rows occur exactly once. No new scientific claim or independent evidence added.",
+    "decision": "Preserve open study window and same-session closeout trigger at15:00; no new sources/cards.",
+    "waiting_not_counted_as_research": true
+  },
+  "publication_manifest": "outputs/learning-daily/20261008-DAY9-be2-bm1-reduced-matrix-elements-strengths-run-01/publish-manifest.json",
+  "source_locator_integrity_check": [
+    {
+      "path": "knowledge/sources/mukhopadhyay-2008-136nd-transition-rates.md",
+      "locator": "MU08-10",
+      "atomic_row_count": 1
+    },
+    {
+      "path": "knowledge/sources/mukhopadhyay-2008-136nd-transition-rates.md",
+      "locator": "MU08-11",
+      "atomic_row_count": 1
+    },
+    {
+      "path": "knowledge/sources/mukhopadhyay-2008-136nd-transition-rates.md",
+      "locator": "MU08-12",
+      "atomic_row_count": 1
+    },
+    {
+      "path": "knowledge/sources/mukhopadhyay-2008-136nd-transition-rates.md",
+      "locator": "MU08-14",
+      "atomic_row_count": 1
+    },
+    {
+      "path": "knowledge/sources/chiara-2001-108-110in-shears-band-lifetimes.md",
+      "locator": "CHI01-2",
+      "atomic_row_count": 1
+    },
+    {
+      "path": "knowledge/sources/chiara-2001-108-110in-shears-band-lifetimes.md",
+      "locator": "CHI01-3",
+      "atomic_row_count": 1
+    },
+    {
+      "path": "knowledge/sources/chiara-2001-108-110in-shears-band-lifetimes.md",
+      "locator": "CHI01-4",
+      "atomic_row_count": 1
+    },
+    {
+      "path": "knowledge/sources/chiara-2001-108-110in-shears-band-lifetimes.md",
+      "locator": "CHI01-5",
+      "atomic_row_count": 1
+    },
+    {
+      "path": "knowledge/sources/mukhopadhyay-2007-135nd-chiral-vibration-static.md",
+      "locator": "MU07-8",
+      "atomic_row_count": 1
+    },
+    {
+      "path": "knowledge/sources/mukhopadhyay-2007-135nd-chiral-vibration-static.md",
+      "locator": "MU07-10",
+      "atomic_row_count": 1
+    },
+    {
+      "path": "knowledge/sources/mukhopadhyay-2007-135nd-chiral-vibration-static.md",
+      "locator": "MU07-11",
+      "atomic_row_count": 1
+    },
+    {
+      "path": "knowledge/sources/mukhopadhyay-2007-135nd-chiral-vibration-static.md",
+      "locator": "MU07-13",
+      "atomic_row_count": 1
+    },
+    {
+      "path": "knowledge/sources/mukhopadhyay-2007-135nd-chiral-vibration-static.md",
+      "locator": "MU07-14",
+      "atomic_row_count": 1
+    },
+    {
+      "path": "knowledge/sources/lv-2019-chirality-135nd-reexamined.md",
+      "locator": "LV19-9",
+      "atomic_row_count": 1
+    },
+    {
+      "path": "knowledge/sources/lange-kumar-hamilton-1982-multipole-admixtures.md",
+      "locator": "LKH82-1",
+      "atomic_row_count": 1
+    }
+  ],
+  "closeout_readiness": {
+    "same_session_id": "01a11a87-45cf-7781-a014-f992aafb49e2",
+    "clock_pid": 181367,
+    "clock_alive_verified": true,
+    "closeout_event": "pending for15:00",
+    "research_deadline": "2026-10-09T15:00:00+08:00",
+    "receipt_status": "failed-verification-precloseout",
+    "study_window_closed": false,
+    "course_state": {
+      "next_day_index": 9,
+      "completed_day_count": 8
+    },
+    "formal_credit_boundary": "onlyDay9credit / Day10partial",
+    "next_prompt_generation": "Normal runner --finalize-receipt may create Day10 prompt after gates; explicitly create its Day10 task plan from existing card deliverables at closeout.",
+    "do_not_restart_daemon": true
+  },
+  "latest_bounded_research": {
+    "source_locator": "MU07-16",
+    "completed_at": "2026-10-09T14:41:47+08:00",
+    "source_scope": "Only already-read MU07 Table I/Figs2-3 and existing rate/energy inputs; no new sources or card.",
+    "artifact": "day10-strength-ratio-preview.json#conditional_parent_photon_budget_audit",
+    "validation": "Report/writeback/card/lint/diff checks running after new claim."
+  },
+  "verified_wait_handle": {
+    "tool_session_id": 56399,
+    "clock_pid": 181367,
+    "deadline": "2026-10-09T15:00:00+08:00",
+    "role": "deadline wait only; zero research time for this wait process; bounded scientific analysis logged separately"
+  }
+}

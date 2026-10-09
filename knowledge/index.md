@@ -2,7 +2,7 @@
 type: system-index
 graph-excluded: true
 created: 2026-07-01
-updated: 2026-10-06
+updated: 2026-10-09
 ---
 
 # Wiki Index
@@ -56,6 +56,7 @@ updated: 2026-10-06
 - [[der-mateosian-sunyar-1974-angular-coefficients]] - 56页 ADNDT 混合多极角分布系数表；高自旋 `A2/A4`、Gaussian alignment、`σ/J`–`δ` 联合解与 sign-convention 警告。
 - [[aberg-flocard-nazarewicz-1990-mean-field-shapes]] - 89页 mean-field 形状综述；HF/HFB、Nilsson–Strutinsky、转动高自旋、八极形变、superdeformation 与 shape coexistence 边界。
 - [[mukhopadhyay-2007-135nd-chiral-vibration-static]] - `135Nd` 双带 DSAM 电磁强度与 TAC+RPA；近简并、`B(M1)/B(E2)` 相似及 chiral vibration→static chirality 边界。
+- [[zhu-2003-135nd-composite-chiral-pair]] - 135Nd Band A/B 原始能级纲图与 31/2−–37/2− interband line crosswalk；保留 648/649-keV 行文差异和 (556)-keV tentative 标签，箭头粗细不等于 B 值。
 - [[ma-1990-131ba-competing-alignments]] - `131Ba` 五晶体高自旋谱学；signature-specific crossing 与 Harris alignment 派生、质子/中子形状驱动边界及 `δ`/DCO 限制。
 - [[pai-2012-high-spin-bands-194tl]] - `194Tl` INGA 高自旋能级与约 `0.34 MeV` 派生 alignment crossing；作者的 2qp→4qp 解释、B2 lifetime/parity 歧义与后续 iThemba 谱系边界。
 - [[eldridge-2018-gamma-band-mixing-ratios]] - `Mo/Ru/Pd` 十核素 Gammasphere IPAC；37 个 γ-band→ground-band δ、E2 主导、`110Ru` sign-trend 与 δ-oval 多解边界。
@@ -191,6 +192,7 @@ updated: 2026-10-06
 - [[cejnar-1996-spin-deorientation-alpha-2n-gamma]] - `(α,2nγ)` 反应中 spin deorientation、angular-momentum routes 与 Gaussian side-feeding `σ` 的统计模型计算。
 - [[radeck-2012-deorientation-lifetime-98ru-rdds]] - inverse Coulomb excitation + RDDS 中 time-dependent deorientation、`Gk(t/d)` 与 angular-correlation correction 的方法案例。
 - [[lauritsen-2025-gamma-angular-formalism-tracking-arrays]] - tracking arrays 中 angular correlations、angular distributions、linear polarization、`Pm(J)` 与 `σ/J` 的现代公式链。
+- [[chiara-2001-108-110in-shears-band-lifetimes]] - MU08 Ref.[16] 已核实全文；记录 observed-branch/partial-lifetime 与 IC 方法、pure-M1 / unseen-E2-cross-over 假设，以及不等于绝对 photon-per-parent ledger 的边界。
 - [[chiara-2012-cu65-cu67-core-coupled-protons]] - `65,67Cu` 高自旋实验中的角分布实践例子；目标相关之处是 assumed `sigma/I = 0.5` 与一个 `1115 keV` 跃迁的 `delta` 对 assumed alignment 的敏感性。
 - [[summary-2013-bases-spin-parity-assignments]] - Nuclear Data Sheets spin/parity assignment guide；高自旋 angular-distribution / DCO heuristic 使用典型 `σ/I = 0.3`。
 - [[gray-2020-hyperfine-fields-g-factor-measurements]] - TDPAD / `g`-factor host-field paper；作为 empirical `sigma/I` expectation 可能失效的边界案例。

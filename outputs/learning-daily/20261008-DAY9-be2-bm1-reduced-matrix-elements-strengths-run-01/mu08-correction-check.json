@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "run_id": "2026-10-08-day-09-01",
+  "session_id": "01a11a87-45cf-7781-a014-f992aafb49e2",
+  "checked_on": "2026-10-09",
+  "checked_after_runtime_snapshot": "2026-10-09T07:11:50+08:00",
+  "doi": "10.1103/PhysRevC.78.034311",
+  "crossref": {
+    "url": "https://api.crossref.org/works/10.1103/PhysRevC.78.034311",
+    "http_status": 200,
+    "relation": {},
+    "update_to": null
+  },
+  "aps_article_page": {
+    "url": "https://journals.aps.org/prc/abstract/10.1103/PhysRevC.78.034311",
+    "http_status": 200,
+    "correction_erratum_link_candidates": []
+  },
+  "result": "no_correction_found_on_checked_crossref_and_aps_endpoints",
+  "scope_boundary": "This does not rule out separately indexed notices outside the checked records. No article or SI file was downloaded."
+}

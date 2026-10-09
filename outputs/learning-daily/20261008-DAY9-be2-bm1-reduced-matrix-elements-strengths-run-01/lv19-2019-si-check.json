@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "run_id": "2026-10-08-day-09-01",
+  "session_id": "01a11a87-45cf-7781-a014-f992aafb49e2",
+  "checked_on": "2026-10-09",
+  "checked_after_runtime_snapshot": "2026-10-09T12:08:02+08:00",
+  "doi": "10.1103/PhysRevC.100.024314",
+  "arxiv": "1907.12809",
+  "official_routes": {
+    "aps_article_page": {
+      "url": "https://journals.aps.org/prc/abstract/10.1103/PhysRevC.100.024314",
+      "http_status": 200,
+      "si_attachment_candidates": [],
+      "supplement_text_found": false
+    },
+    "aps_supplemental_resolver": {
+      "url": "https://link.aps.org/supplemental/10.1103/PhysRevC.100.024314",
+      "attempts": [
+        {
+          "attempt": 1,
+          "result": "request timed out"
+        },
+        {
+          "attempt": 2,
+          "http_status": 200,
+          "final_url": "https://journals.aps.org/prc/abstract/10.1103/PhysRevC.100.024314#supplemental"
+        }
+      ]
+    },
+    "standard_si_pdf": {
+      "url": "https://journals.aps.org/prc/supplemental/10.1103/PhysRevC.100.024314/PhysRevC.100.024314.supplemental.pdf",
+      "http_status": 404
+    },
+    "arxiv_record": {
+      "url": "https://arxiv.org/abs/1907.12809",
+      "http_status": 200,
+      "article_pdf_present": true,
+      "ancillary_or_supplement_entry_found": false
+    }
+  },
+  "result": "no_si_file_found_on_checked_aps_and_arxiv_records_after_resolver_retry",
+  "files_downloaded": [],
+  "scope_boundary": "The first resolver request timed out; a bounded retry returned to the article record with no attachment. Separately hosted author material is not ruled out. The already hash-verified article PDF was not duplicated."
+}

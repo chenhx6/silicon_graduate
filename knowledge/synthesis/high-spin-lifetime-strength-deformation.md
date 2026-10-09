@@ -3,12 +3,12 @@ type: synthesis
 title: "High-spin lifetimes, transition strengths and deformation"
 aliases: [高自旋寿命跃迁强度形变综合]
 created: 2026-09-21
-updated: 2026-10-08
+updated: 2026-10-09
 status: ai-draft
 review_status: unreviewed
 scope: high-spin-lifetime-strength-deformation
 confidence: medium
-sources: [kibedi-2008-evaluation-theoretical-conversion-coefficients-bricc, mukhopadhyay-2007-135nd-chiral-vibration-static, mukhopadhyay-2008-136nd-transition-rates, petrache-2006-near-degenerate-chiral-misinterpretation, petrache-2018-chiral-bands-even-even-136nd, lange-kumar-hamilton-1982-multipole-admixtures]
+sources: [kibedi-2008-evaluation-theoretical-conversion-coefficients-bricc, chiara-2001-108-110in-shears-band-lifetimes, mukhopadhyay-2007-135nd-chiral-vibration-static, mukhopadhyay-2008-136nd-transition-rates, petrache-2006-near-degenerate-chiral-misinterpretation, petrache-2018-chiral-bands-even-even-136nd, lange-kumar-hamilton-1982-multipole-admixtures]
 tags: [high-spin, lifetime, transition-strength, deformation, evidence-map]
 ---
 
@@ -27,6 +27,10 @@ The chain is explicit in Jensen, Mukhopadhyay 2007/2008, Petrache, Herzan and th
 ## 从寿命、分支到约化强度
 
 本节区分来源直接定义、作者报告值和我们的条件性重构。率/矩阵元定义来自 [[lange-kumar-hamilton-1982-multipole-admixtures]]，printed p.121 / PDF p.3, Eqs.2.1–2.6；原表与实验假设来自 [[mukhopadhyay-2008-136nd-transition-rates]] 的 MU08-4/5。两者分别提供 formalism 和同一次 DSAM 实验，不构成两次寿命测量。
+
+### Observed-branch method precedent
+
+[[chiara-2001-108-110in-shears-band-lifetimes]] CHI01-2/3 provides a published example of converting fitted level lifetimes to partial transition lifetimes using observed branching ratios and internal-conversion corrections. That analysis treats dipole lines as nearly pure M1 and assigns zero intensity to E2 crossovers not seen within its sensitivity. This is a method precedent for the procedure cited by MU08-10, not evidence that MU08's `136Nd` table has an absolute photon-per-parent denominator or a complete unseen-channel inventory; MU08-11/12 preserve that transfer boundary.
 
 ### 率、单位与矩阵元
 

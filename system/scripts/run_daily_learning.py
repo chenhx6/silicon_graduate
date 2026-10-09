@@ -17,7 +17,7 @@ import shutil
 import subprocess
 import sys
 import tempfile
-import time
+import time as time_module
 from dataclasses import dataclass
 from datetime import datetime, time, timedelta
 from pathlib import Path
@@ -1040,6 +1040,532 @@ def dry_run(
     }
 
 
+def resume_running_receipt(paths: Paths, receipt_path: Path, args: argparse.Namespace) -> int:
+    """Recover a crashed runner around the same still-running daily-learning session.
+
+    This path never creates a Codex session. It resumes the session ID already
+    recorded in the run receipt, then uses the ordinary report, writeback,
+    curriculum, prompt and state-update gates below.
+    """
+
+    root = paths.root.resolve()
+    validate_root(root)
+    receipt_path = receipt_path.expanduser().resolve(strict=True)
+    try:
+        relative = receipt_path.relative_to((root / "outputs" / "learning-daily").resolve())
+    except ValueError as exc:
+        raise RuntimeError("--resume-receipt must be inside outputs/learning-daily") from exc
+    if len(relative.parts) != 2 or receipt_path.name != "run.json" or not re.search(
+        r"-run-\d+$", receipt_path.parent.name
+    ):
+        raise RuntimeError("--resume-receipt must be <daily-run-dir>/run.json")
+
+    receipt = json.loads(receipt_path.read_text(encoding="utf-8"))
+    if not isinstance(receipt, dict):
+        raise RuntimeError("resume receipt must contain a JSON object")
+    if receipt.get("project_root") != str(root) or receipt.get("session_mode") != SESSION_MODE:
+        raise RuntimeError("resume receipt root/session contract does not match this Wiki runner")
+    session_id = receipt.get("session_id")
+    if not isinstance(session_id, str) or not session_id.strip():
+        raise RuntimeError("running receipt has no session_id; refusing to create a replacement session")
+    run_dir = receipt_path.parent
+    receipt_status = receipt.get("status")
+    if receipt_status == "failed-verification":
+        # A direct user continuation may still own the persistent session writer
+        # when a recovered runner tries to attach. Permit retry only for this
+        # precise pre-closeout, same-session lock conflict; other verification
+        # failures require a different recovery decision.
+        previous_runs = receipt.get("continuation_runs", [])
+        last_run = previous_runs[-1] if isinstance(previous_runs, list) and previous_runs else None
+        last_number = last_run.get("number") if isinstance(last_run, dict) else None
+        prior_stderr = run_dir / f"continuation-{int(last_number):03d}-stderr.log" if type(last_number) is int else None
+        retryable_writer_conflict = (
+            receipt.get("closeout_turn") is None
+            and receipt.get("study_window_closed") is not True
+            and isinstance(prior_stderr, Path)
+            and prior_stderr.is_file()
+            and "already has an active writer" in prior_stderr.read_text(encoding="utf-8", errors="replace")
+            and session_id in prior_stderr.read_text(encoding="utf-8", errors="replace")
+        )
+        if not retryable_writer_conflict:
+            raise RuntimeError(
+                f"failed-verification receipt is not the recognized pre-closeout same-session writer conflict: {receipt_status}"
+            )
+        receipt.setdefault("runner_recovery_history", []).append(
+            {
+                "at": datetime.now(TIMEZONE).isoformat(),
+                "status": "retrying-after-same-session-writer-conflict",
+                "stderr_file": str(prior_stderr),
+                "same_session_id": session_id,
+                "replacement_session_created": False,
+            }
+        )
+    elif receipt_status != "running":
+        raise RuntimeError(f"only a running or specifically recoverable receipt can be resumed; status={receipt_status!r}")
+    run_id = receipt.get("run_id")
+    run_date = receipt.get("run_date")
+    day_index = receipt.get("day_index")
+    if not isinstance(run_id, str) or not isinstance(run_date, str) or type(day_index) is not int:
+        raise RuntimeError("resume receipt is missing run identity fields")
+    state = read_state(paths.state_file)
+    if int(state.get("next_day_index", 1)) != day_index:
+        raise RuntimeError(
+            f"resume day_index={day_index} does not match course next_day_index={state.get('next_day_index')}"
+        )
+    if not run_id.startswith(f"{run_date}-day-{day_index:02d}-"):
+        raise RuntimeError("resume receipt run_id/date/path do not match")
+    schedule_deadline = datetime.fromisoformat(str(receipt.get("overnight_until")))
+    expected_deadline = planned_closeout_for_run_date(run_date)
+    if schedule_deadline != expected_deadline:
+        raise RuntimeError("resume receipt deadline is not run_date + 1 at 15:00 Asia/Shanghai")
+    baseline_path = run_dir / "baseline.json"
+    baseline = json.loads(baseline_path.read_text(encoding="utf-8"))
+    if baseline.get("run_id") != run_id or baseline.get("day_index") != day_index:
+        raise RuntimeError("resume baseline identity does not match the receipt")
+    if baseline.get("report_existed_before") is not False:
+        raise RuntimeError("resume requires a verified baseline showing the report was absent at entry")
+    knowledge_before = baseline.get("knowledge_sha256_before")
+    if not isinstance(knowledge_before, dict) or not knowledge_before:
+        raise RuntimeError("resume baseline has no original knowledge-page snapshot")
+    report_path = paths.daily_root / f"{daily_file_stem(run_date, day_index)}.md"
+    if Path(str(receipt.get("report"))).resolve() != report_path.resolve():
+        raise RuntimeError("resume report path does not match the canonical daily report")
+    report_before = None
+    if receipt.get("closeout_turn") is not None:
+        raise RuntimeError("receipt already records a closeout turn; use final reconciliation, not study resume")
+
+    run_dir = receipt_path.parent
+    preflight = run_preflight(root)
+    if preflight["exit"] != 0:
+        receipt.update(
+            {
+                "status": "safe-suspended-preflight",
+                "preflight": preflight,
+                "exit_code": preflight["exit"],
+                "finished_at": datetime.now(TIMEZONE).isoformat(),
+            }
+        )
+        write_json_atomic(receipt_path, receipt)
+        print(json.dumps(receipt, ensure_ascii=False, indent=2))
+        return 3
+
+    events_path = run_dir / "events.jsonl"
+    stderr_path = run_dir / "stderr.log"
+    continuation_runs = receipt.get("continuation_runs", [])
+    if not isinstance(continuation_runs, list):
+        raise RuntimeError("resume receipt continuation_runs must be a list")
+    continuation_count = int(receipt.get("continuation_batch_count", 0))
+    continuation_total = int(receipt.get("continuation_count", 0))
+    continuation_batches = int(receipt.get("continuation_batches", 1))
+    turn_number = max(
+        (int(item.get("number", 0)) for item in continuation_runs if isinstance(item, dict)),
+        default=0,
+    )
+    closeout_window_missed = bool(receipt.get("closeout_window_missed", False))
+    closeout_turn: dict[str, Any] | None = None
+    final_returncode = 0
+    lines: list[str] = []
+    last_continuation_prompt: Path | None = None
+
+    previous_recovery = receipt.get("runner_recovery")
+    if isinstance(previous_recovery, dict):
+        receipt.setdefault("runner_recovery_history", []).append(previous_recovery)
+    receipt["runner_recovery"] = {
+        "recovered_at": datetime.now(TIMEZONE).isoformat(),
+        "reason": "the original daily runner exited after a successful continuation before the study loop could continue",
+        "same_session_resumed": True,
+        "replacement_session_created": False,
+        "prior_continuation_count": continuation_total,
+    }
+    write_json_atomic(receipt_path, receipt)
+
+    with paths.lock_file.open("a", encoding="utf-8") as lock_handle:
+        try:
+            fcntl.flock(lock_handle.fileno(), fcntl.LOCK_EX | fcntl.LOCK_NB)
+        except BlockingIOError as exc:
+            raise RuntimeError(f"another daily runner holds {paths.lock_file}") from exc
+
+        while True:
+            continuation_now = datetime.now(TIMEZONE)
+            action = next_continuation_action(
+                continuation_now,
+                schedule_deadline,
+                continuation_count,
+                args.max_continuations,
+                closeout_completed=closeout_turn is not None,
+            )
+            if action == "finalize":
+                break
+            if action == "rollover":
+                continuation_batches += 1
+                continuation_count = 0
+                receipt.update(
+                    {
+                        "continuation_batches": continuation_batches,
+                        "continuation_batch_count": 0,
+                        "continuation_count": continuation_total,
+                        "last_closeout_snapshot": closeout_snapshot(
+                            continuation_now,
+                            schedule_deadline,
+                            next_scheduled_start_for_run_date(run_date),
+                        ),
+                    }
+                )
+                write_json_atomic(receipt_path, receipt)
+                continue
+
+            is_closeout = action == "closeout"
+            if is_closeout:
+                closeout_window_missed = not should_run_closeout_turn(continuation_now, schedule_deadline)
+            else:
+                continuation_count += 1
+                continuation_total += 1
+            turn_number += 1
+            turn_snapshot = closeout_snapshot(
+                continuation_now,
+                schedule_deadline,
+                next_scheduled_start_for_run_date(run_date),
+            )
+            continuation_prompt = render_continuation_prompt(
+                paths,
+                run_id,
+                run_date,
+                day_index,
+                turn_number,
+                schedule_deadline,
+                now=continuation_now,
+            )
+            continuation_prompt_path = run_dir / f"continuation-{turn_number:03d}-prompt.md"
+            continuation_prompt_path.write_text(continuation_prompt, encoding="utf-8")
+            last_continuation_prompt = continuation_prompt_path
+            continuation_events = run_dir / f"continuation-{turn_number:03d}-events.jsonl"
+            continuation_stderr = run_dir / f"continuation-{turn_number:03d}-stderr.log"
+            continuation_last = run_dir / f"continuation-{turn_number:03d}-last-message.md"
+            command = build_resume_exec_command(
+                root,
+                args.model,
+                session_id,
+                continuation_last,
+                not args.no_search,
+                args.reasoning_effort,
+            )
+            continuation_rc, continuation_lines = run_resume_turn(
+                root,
+                command,
+                continuation_prompt,
+                continuation_events,
+                continuation_stderr,
+            )
+            lines.extend(continuation_lines)
+            continuation_runs.append(
+                {
+                    "number": turn_number,
+                    "study_continuation_number": continuation_total if not is_closeout else None,
+                    "kind": "closeout" if is_closeout else "study",
+                    "returncode": continuation_rc,
+                    "events": str(continuation_events),
+                    "prompt": str(continuation_prompt_path),
+                    "last_message": str(continuation_last),
+                    "time_snapshot": turn_snapshot,
+                    "runner_recovery": True,
+                }
+            )
+            if is_closeout:
+                closeout_turn = {
+                    "number": turn_number,
+                    "returncode": continuation_rc,
+                    "prompt": str(continuation_prompt_path),
+                    "events": str(continuation_events),
+                    "window_missed": closeout_window_missed,
+                    "time_snapshot": turn_snapshot,
+                    "runner_recovery": True,
+                }
+            receipt.update(
+                {
+                    "continuation_count": continuation_total,
+                    "continuation_batch_count": continuation_count,
+                    "continuation_batches": continuation_batches,
+                    "continuation_runs": continuation_runs,
+                    "session_id": session_id,
+                    "last_closeout_snapshot": turn_snapshot,
+                    "last_continuation_prompt": str(continuation_prompt_path),
+                    "closeout_turn": closeout_turn,
+                    "closeout_window_missed": closeout_window_missed,
+                }
+            )
+            write_json_atomic(receipt_path, receipt)
+            if continuation_rc != 0:
+                final_returncode = continuation_rc
+                break
+            if is_closeout:
+                break
+            if datetime.now(TIMEZONE) < schedule_deadline:
+                time_module.sleep(2)
+
+        checks = run_checks(root, report_path, report_before, knowledge_before, day_index=day_index)
+        coverage = checks.get("curriculum_coverage") or {}
+        coverage_valid = bool(coverage.get("valid"))
+        requested_card_complete = day_index in coverage.get("completed_day_indices", [])
+        window_closed = closeout_turn is not None
+        closeout_on_time = window_closed and not closeout_window_missed
+        deliverables_passed = (
+            final_returncode == 0
+            and checks["preflight"]["exit"] == 0
+            and checks["report_exists"]
+            and checks["report_changed"]
+            and checks["report_valid"]
+            and checks["durable_knowledge"]["valid"]
+            and checks["lint_exit"] == 0
+            and checks["git_diff_check_exit"] == 0
+            and coverage_valid
+            and window_closed
+            and closeout_on_time
+        )
+        success = deliverables_passed and requested_card_complete
+        receipt["resume_command"] = build_resume_command(root, session_id)
+        next_day_index = int(coverage.get("next_day_index", day_index + 1))
+        next_prompt_file: Path | None = None
+        next_prompt_error: str | None = None
+        if deliverables_passed and next_day_index <= TOTAL_DAYS:
+            try:
+                next_prompt_file = prepare_next_prompt(
+                    paths,
+                    datetime.now(TIMEZONE).date().isoformat(),
+                    next_day_index,
+                )
+            except Exception as exc:
+                deliverables_passed = success = False
+                next_prompt_error = str(exc)
+        if next_prompt_error:
+            run_status = "failed-verification"
+        elif success:
+            run_status = "completed"
+        elif deliverables_passed:
+            run_status = "completed-partial"
+        else:
+            run_status = "failed-verification"
+        receipt.update(
+            {
+                "status": run_status,
+                "counted_in_substantive_test": success,
+                "exit_code": final_returncode,
+                "session_id": session_id,
+                "failure_reason": extract_failure_reason(lines),
+                "checks": checks,
+                "finished_at": datetime.now(TIMEZONE).isoformat(),
+                "continuation_count": continuation_total,
+                "continuation_batch_count": continuation_count,
+                "continuation_batches": continuation_batches,
+                "continuation_runs": continuation_runs,
+                "closeout_turn": closeout_turn,
+                "closeout_window_missed": closeout_window_missed,
+                "study_window_closed": window_closed,
+                "closeout_on_time": closeout_on_time,
+                "completed_day_indices": coverage.get("completed_day_indices", []),
+                "partial_day_indices": coverage.get("partial_day_indices", []),
+                "curriculum_cards_completed": coverage.get("curriculum_cards_completed", 0),
+                "next_day_index": next_day_index,
+                "deliverables_passed": deliverables_passed,
+                "next_prompt_file": str(next_prompt_file) if next_prompt_file else None,
+                "next_prompt_error": next_prompt_error,
+            }
+        )
+        if success:
+            state = update_state_for_curriculum_cards(state, run_id, run_date, coverage)
+            write_json_atomic(paths.state_file, state)
+        write_json_atomic(receipt_path, receipt)
+        print(json.dumps(receipt, ensure_ascii=False, indent=2))
+        return 0 if deliverables_passed else 1
+
+
+def finalize_interactive_closeout(paths: Paths, receipt_path: Path) -> int:
+    """Finalize a closeout performed in the already-active receipt session.
+
+    This is the normal runner's state/prompt gate for the case where its exec
+    parent cannot attach to a thread already owned by the interactive Codex
+    writer. It creates no session and advances course state only after the same
+    report, writeback, lint, diff, closeout-time and card checks as main().
+    """
+
+    root = paths.root.resolve()
+    validate_root(root)
+    receipt_path = receipt_path.expanduser().resolve(strict=True)
+    try:
+        relative = receipt_path.relative_to((root / "outputs" / "learning-daily").resolve())
+    except ValueError as exc:
+        raise RuntimeError("--finalize-receipt must be inside outputs/learning-daily") from exc
+    if len(relative.parts) != 2 or receipt_path.name != "run.json" or not re.search(r"-run-\d+$", receipt_path.parent.name):
+        raise RuntimeError("--finalize-receipt must be <daily-run-dir>/run.json")
+    receipt = json.loads(receipt_path.read_text(encoding="utf-8"))
+    if not isinstance(receipt, dict):
+        raise RuntimeError("finalize receipt must contain a JSON object")
+    if receipt.get("status") == "completed":
+        print(json.dumps({"status": "already-completed", "receipt": str(receipt_path)}, ensure_ascii=False))
+        return 0
+    if receipt.get("status") not in {"running", "failed-verification"}:
+        raise RuntimeError(f"receipt cannot be finalized from status={receipt.get('status')!r}")
+    session_id = receipt.get("session_id")
+    if not isinstance(session_id, str) or not session_id:
+        raise RuntimeError("receipt has no existing session_id")
+    if os.environ.get("CODEX_SESSION_ID") != session_id:
+        raise RuntimeError("interactive closeout must run in the same CODEX_SESSION_ID as the receipt")
+    run_id = receipt.get("run_id")
+    run_date = receipt.get("run_date")
+    day_index = receipt.get("day_index")
+    if not isinstance(run_id, str) or not isinstance(run_date, str) or type(day_index) is not int:
+        raise RuntimeError("receipt is missing run identity fields")
+    if day_index != int(read_state(paths.state_file).get("next_day_index", 1)):
+        raise RuntimeError("receipt day_index does not match current course next_day_index")
+    deadline = datetime.fromisoformat(str(receipt.get("overnight_until")))
+    expected_deadline = planned_closeout_for_run_date(run_date)
+    closeout_end = closeout_window_end(deadline)
+    now = datetime.now(TIMEZONE)
+    if deadline != expected_deadline or not (deadline <= now < closeout_end):
+        raise RuntimeError("interactive finalization is allowed only in the run's recorded 15:00–16:00 closeout window")
+
+    run_dir = receipt_path.parent
+    baseline = json.loads((run_dir / "baseline.json").read_text(encoding="utf-8"))
+    if baseline.get("run_id") != run_id or baseline.get("day_index") != day_index or baseline.get("report_existed_before") is not False:
+        raise RuntimeError("original run baseline identity/report state is not eligible for closeout")
+    knowledge_before = baseline.get("knowledge_sha256_before")
+    if not isinstance(knowledge_before, dict) or not knowledge_before:
+        raise RuntimeError("original knowledge snapshot is missing from baseline")
+    report_path = paths.daily_root / f"{daily_file_stem(run_date, day_index)}.md"
+    if Path(str(receipt.get("report"))).resolve() != report_path.resolve():
+        raise RuntimeError("receipt report path does not match canonical daily report")
+    attestation_path = run_dir / "interactive-closeout-attestation.json"
+    if not attestation_path.is_file():
+        raise RuntimeError("interactive closeout attestation is missing")
+    attestation = json.loads(attestation_path.read_text(encoding="utf-8"))
+    if (
+        attestation.get("status") != "closeout-turn-completed"
+        or attestation.get("run_id") != run_id
+        or attestation.get("session_id") != session_id
+        or attestation.get("closeout_event_id") != "closeout"
+        or attestation.get("hard_deadline") != deadline.isoformat()
+    ):
+        raise RuntimeError("interactive closeout attestation does not match receipt identity/deadline")
+    closeout_at = datetime.fromisoformat(str(attestation.get("closeout_at")))
+    if not (deadline <= closeout_at < closeout_end) or closeout_at > now:
+        raise RuntimeError("attested closeout timestamp is outside the recorded closeout window")
+    report_hash = hashlib.sha256(report_path.read_bytes()).hexdigest()
+    if attestation.get("report_sha256") != report_hash:
+        raise RuntimeError("report changed after interactive closeout attestation")
+    report_text = report_path.read_text(encoding="utf-8")
+    if f"closeout_event_id: `closeout`" not in report_text or session_id not in report_text:
+        raise RuntimeError("daily report does not identify the same-session closeout event")
+
+    clock_state_path = run_dir / "clock-state.json"
+    if not clock_state_path.is_file():
+        raise RuntimeError("run-local session clock state is missing")
+    clock_state = json.loads(clock_state_path.read_text(encoding="utf-8"))
+    if (
+        clock_state.get("thread") != session_id
+        or clock_state.get("run_date") != run_date
+        or clock_state.get("day_index") != day_index
+        or clock_state.get("deadline") != deadline.isoformat()
+        or clock_state.get("events", {}).get("closeout", {}).get("status") != "queued"
+    ):
+        raise RuntimeError("run-local clock ledger does not prove the same-session closeout reminder was queued")
+
+    preflight = run_preflight(root)
+    if preflight["exit"] != 0:
+        raise RuntimeError("automation preflight failed during interactive closeout: " + preflight["stderr_tail"])
+    checks = run_checks(root, report_path, None, knowledge_before, day_index=day_index)
+    coverage = checks.get("curriculum_coverage") or {}
+    coverage_valid = bool(coverage.get("valid"))
+    requested_card_complete = day_index in coverage.get("completed_day_indices", [])
+    closeout_on_time = not bool(attestation.get("window_missed", False))
+    deliverables_passed = (
+        checks["preflight"]["exit"] == 0
+        and checks["report_exists"]
+        and checks["report_changed"]
+        and checks["report_valid"]
+        and checks["durable_knowledge"]["valid"]
+        and checks["lint_exit"] == 0
+        and checks["git_diff_check_exit"] == 0
+        and coverage_valid
+        and closeout_on_time
+    )
+    success = deliverables_passed and requested_card_complete
+    next_day_index = int(coverage.get("next_day_index", day_index + 1))
+    next_prompt_file: Path | None = None
+    next_prompt_error: str | None = None
+    if deliverables_passed and next_day_index <= TOTAL_DAYS:
+        try:
+            next_prompt_file = prepare_next_prompt(paths, datetime.now(TIMEZONE).date().isoformat(), next_day_index)
+        except Exception as exc:
+            deliverables_passed = success = False
+            next_prompt_error = str(exc)
+
+    continuation_runs = receipt.get("continuation_runs", [])
+    if not isinstance(continuation_runs, list):
+        raise RuntimeError("receipt continuation_runs must be a list")
+    existing_closeout = receipt.get("closeout_turn")
+    turn_number = max((int(item.get("number", 0)) for item in continuation_runs if isinstance(item, dict)), default=0)
+    if existing_closeout is None:
+        turn_number += 1
+        continuation_runs.append(
+            {
+                "number": turn_number,
+                "study_continuation_number": None,
+                "kind": "closeout",
+                "returncode": 0,
+                "prompt": str(attestation_path),
+                "events": None,
+                "last_message": None,
+                "time_snapshot": attestation.get("time_snapshot"),
+                "interactive_session_closeout": True,
+            }
+        )
+    closeout_turn = {
+        "number": turn_number,
+        "returncode": 0,
+        "prompt": str(attestation_path),
+        "events": None,
+        "window_missed": bool(attestation.get("window_missed", False)),
+        "time_snapshot": attestation.get("time_snapshot"),
+        "interactive_session_closeout": True,
+    }
+    run_status = "completed" if success else "completed-partial" if deliverables_passed else "failed-verification"
+    receipt.update(
+        {
+            "status": run_status,
+            "counted_in_substantive_test": success,
+            "exit_code": 0,
+            "resume_command": build_resume_command(root, session_id),
+            "checks": checks,
+            "finished_at": datetime.now(TIMEZONE).isoformat(),
+            "continuation_count": int(receipt.get("continuation_count", 0)),
+            "continuation_batch_count": int(receipt.get("continuation_batch_count", 0)),
+            "continuation_batches": int(receipt.get("continuation_batches", 1)),
+            "continuation_runs": continuation_runs,
+            "closeout_turn": closeout_turn,
+            "closeout_window_missed": bool(attestation.get("window_missed", False)),
+            "study_window_closed": True,
+            "closeout_on_time": closeout_on_time,
+            "completed_day_indices": coverage.get("completed_day_indices", []),
+            "partial_day_indices": coverage.get("partial_day_indices", []),
+            "curriculum_cards_completed": coverage.get("curriculum_cards_completed", 0),
+            "next_day_index": next_day_index,
+            "deliverables_passed": deliverables_passed,
+            "next_prompt_file": str(next_prompt_file) if next_prompt_file else None,
+            "next_prompt_error": next_prompt_error,
+            "interactive_closeout_attestation": str(attestation_path),
+        }
+    )
+    if success:
+        state = read_state(paths.state_file)
+        if int(state.get("next_day_index", 1)) == day_index:
+            state = update_state_for_curriculum_cards(state, run_id, run_date, coverage)
+            write_json_atomic(paths.state_file, state)
+        elif not (int(state.get("next_day_index", 1)) == next_day_index and state.get("last_run_id") == run_id):
+            raise RuntimeError("course state changed unexpectedly during interactive closeout")
+    write_json_atomic(receipt_path, receipt)
+    print(json.dumps(receipt, ensure_ascii=False, indent=2))
+    return 0 if deliverables_passed else 1
+
+
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--root", type=Path, default=Path.cwd())
@@ -1050,6 +1576,18 @@ def main() -> int:
     parser.add_argument("--no-search", action="store_true")
     parser.add_argument("--prompt-file", type=Path, default=None)
     parser.add_argument("--prepare-prompt", type=Path, default=None)
+    parser.add_argument(
+        "--resume-receipt",
+        type=Path,
+        default=None,
+        help="recover an interrupted runner loop using the existing run.json session_id; never creates a new session",
+    )
+    parser.add_argument(
+        "--finalize-receipt",
+        type=Path,
+        default=None,
+        help="run ordinary validation/state/prompt gates for a closeout already performed in the same interactive receipt session",
+    )
     parser.add_argument(
         "--until",
         default=None,
@@ -1072,6 +1610,16 @@ def main() -> int:
             print(json.dumps(result, ensure_ascii=False, indent=2))
             return 0
         validate_root(root)
+        if args.resume_receipt is not None and args.finalize_receipt is not None:
+            raise RuntimeError("--resume-receipt and --finalize-receipt are mutually exclusive")
+        if args.finalize_receipt is not None:
+            if args.mode != "daily-learning" or args.prepare_prompt is not None or args.prompt_file is not None:
+                raise RuntimeError("--finalize-receipt requires daily-learning mode and cannot prepare/override a prompt")
+            return finalize_interactive_closeout(paths, args.finalize_receipt)
+        if args.resume_receipt is not None:
+            if args.mode != "daily-learning" or args.prepare_prompt is not None or args.prompt_file is not None:
+                raise RuntimeError("--resume-receipt requires the daily-learning mode and cannot prepare/override a prompt")
+            return resume_running_receipt(paths, args.resume_receipt, args)
         state = read_state(paths.state_file)
         state_next_day_index = int(state.get("next_day_index", 1))
         day_index = state_next_day_index if args.day_index == "auto" else int(args.day_index)
@@ -1372,7 +1920,7 @@ def main() -> int:
                     if is_closeout:
                         break
                     if datetime.now(TIMEZONE) < schedule_deadline:
-                        time.sleep(2)
+                        time_module.sleep(2)
 
             checks = run_checks(
                 root,

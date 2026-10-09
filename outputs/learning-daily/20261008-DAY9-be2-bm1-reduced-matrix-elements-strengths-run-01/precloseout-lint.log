@@ -1,0 +1,1495 @@
+[WARNING] REACTION_PARSE         knowledge/experiments/atlas-gammasphere-rdds-103rh-104rh-zr96-330mev.md - reaction not automatically parsed: '11B(96Zr,xn)103,104Rh'
+[WARNING] REACTION_PARSE         knowledge/experiments/lnl-gasp-ii-plunger-pd110-si28-125mev.md - reaction not automatically parsed: '110Pd(28Si,xnyp)'
+[WARNING] REACTION_PARSE         knowledge/experiments/lnl-gasp-isis-pd110-si28-132mev.md - reaction not automatically parsed: '110Pd(28Si,xnyalpha)'
+[WARNING] CITATION_KEY_MISSING   knowledge/sources/aberg-flocard-nazarewicz-1990-mean-field-shapes.md - source has no citation_key
+[WARNING] CITATION_KEY_MISSING   knowledge/sources/afanasjev-1999-termination-rotational-bands.md - source has no citation_key
+[WARNING] CITATION_KEY_MISSING   knowledge/sources/agarwal-2007-137pr-magnetic-rotation-bandcrossing.md - source has no citation_key
+[WARNING] CITATION_KEY_MISSING   knowledge/sources/aoki-1975-geli-summing-polarimeters.md - source has no citation_key
+[WARNING] CITATION_KEY_MISSING   knowledge/sources/banik-2020-131xe-multiple-band-structures.md - source has no citation_key
+[WARNING] CITATION_KEY_MISSING   knowledge/sources/bass-1972-two-crystal-compton-polarimeter.md - source has no citation_key
+[WARNING] CITATION_KEY_MISSING   knowledge/sources/bhat-2014-tpsm-cs-doublet-bands.md - source has no citation_key
+[WARNING] CITATION_KEY_MISSING   knowledge/sources/budaca-budaca-2025-harmonic-chiral-vibration.md - source has no citation_key
+[WARNING] CITATION_KEY_MISSING   knowledge/sources/che-2007-high-spin-108-112ru-134-135ba.md - source has no citation_key
+[WARNING] CITATION_KEY_MISSING   knowledge/sources/chen-size-2014-6li-pgamma-7be.md - source has no citation_key
+[WARNING] CITATION_KEY_MISSING   knowledge/sources/chiara-2001-108-110in-shears-band-lifetimes.md - source has no citation_key
+[WARNING] CITATION_KEY_MISSING   knowledge/sources/der-mateosian-sunyar-1974-angular-coefficients.md - source has no citation_key
+[WARNING] CITATION_KEY_MISSING   knowledge/sources/der-mateosian-sunyar-1974-attenuation-coefficients.md - source has no citation_key
+[WARNING] CITATION_KEY_MISSING   knowledge/sources/dietrich-1974-excited-states-103pd.md - source has no citation_key
+[WARNING] CITATION_KEY_MISSING   knowledge/sources/ding-2012-phd-thesis-127-128i-high-spin.md - source has no citation_key
+[WARNING] CITATION_KEY_MISSING   knowledge/sources/ensdf-132sn-coulomb-excitation.md - source has no citation_key
+[WARNING] CITATION_KEY_MISSING   knowledge/sources/ensdf-134te-coulomb-excitation.md - source has no citation_key
+[WARNING] CITATION_KEY_MISSING   knowledge/sources/ewan-1969-single-geli-polarimeter.md - source has no citation_key
+[WARNING] CITATION_KEY_MISSING   knowledge/sources/falkoff-1948-polarization-correlation.md - source has no citation_key
+[WARNING] CITATION_KEY_MISSING   knowledge/sources/fang-2008-high-spin-188au.md - source has no citation_key
+[WARNING] CITATION_KEY_MISSING   knowledge/sources/garciaraffi-1997-monte-carlo-compton-polarimeters.md - source has no citation_key
+[WARNING] CITATION_KEY_MISSING   knowledge/sources/greiner-1966-magnetic-properties-even-nuclei.md - source has no citation_key
+[WARNING] CITATION_KEY_MISSING   knowledge/sources/guo-2021-comment-transverse-wobbling-135pr.md - source has no citation_key
+[WARNING] CITATION_KEY_MISSING   knowledge/sources/guo-song-2009-high-spin-174re.md - source has no citation_key
+[WARNING] CITATION_KEY_MISSING   knowledge/sources/hamilton-1948-successive-quanta-polarization.md - source has no citation_key
+[WARNING] CITATION_KEY_MISSING   knowledge/sources/hamilton-1968-angular-correlations-192pt.md - source has no citation_key
+[WARNING] CITATION_KEY_MISSING   knowledge/sources/haxel-jensen-suess-1949-magic-numbers.md - source has no citation_key
+[WARNING] CITATION_KEY_MISSING   knowledge/sources/hayes-2005-k-conservation-178hf.md - source has no citation_key
+[WARNING] CITATION_KEY_MISSING   knowledge/sources/he-chuangye-2006-magnetic-chiral-106ag.md - source has no citation_key
+[WARNING] CITATION_KEY_MISSING   knowledge/sources/hinke-2010-100sn-decay-spectroscopy.md - source has no citation_key
+[WARNING] CITATION_KEY_MISSING   knowledge/sources/iaea-livechart-132sn-134te-levels.md - source has no citation_key
+[WARNING] CITATION_KEY_MISSING   knowledge/sources/jahangir-2026-tpsm-gamma-bands-nb-tc.md - source has no citation_key
+[WARNING] CITATION_KEY_MISSING   knowledge/sources/james-twin-butler-1974-angular-correlation-statistics.md - source has no citation_key
+[WARNING] CITATION_KEY_MISSING   knowledge/sources/jehangir-2022-odd-neutron-tpsm-extension.md - source has no citation_key
+[WARNING] CITATION_KEY_MISSING   knowledge/sources/jones-1995-clover-compton-calibration.md - source has no citation_key
+[WARNING] CITATION_KEY_MISSING   knowledge/sources/kramp-1987-160-two-photon-decay.md - source has no citation_key
+[WARNING] CITATION_KEY_MISSING   knowledge/sources/li-2013-high-spin-184-186au.md - source has no citation_key
+[WARNING] CITATION_KEY_MISSING   knowledge/sources/li-mingliang-2006-high-spin-137la-138pr-98sr.md - source has no citation_key
+[WARNING] CITATION_KEY_MISSING   knowledge/sources/liu-2008-shape-coexistence-188pt.md - source has no citation_key
+[WARNING] CITATION_KEY_MISSING   knowledge/sources/liu-chen-2016-78br-chirality-reflection-symmetry-thesis.md - source has no citation_key
+[WARNING] CITATION_KEY_MISSING   knowledge/sources/liu-hongna-2015-12c-np-correlations-thesis.md - source has no citation_key
+[WARNING] CITATION_KEY_MISSING   knowledge/sources/liu-minliang-2004-high-spin-141nd-142pm.md - source has no citation_key
+[WARNING] CITATION_KEY_MISSING   knowledge/sources/liu-yanxin-2012-projected-shell-model-exotic-nuclei.md - source has no citation_key
+[WARNING] CITATION_KEY_MISSING   knowledge/sources/lubos-2016-100sn-neighboring-nuclei-decay-spectroscopy.md - source has no citation_key
+[WARNING] CITATION_KEY_MISSING   knowledge/sources/lv-2025-136pr-tac-covariant-density-functional.md - source has no citation_key
+[WARNING] CITATION_KEY_MISSING   knowledge/sources/lv-bingfeng-2019-chirality-136nd-135nd-thesis.md - source has no citation_key
+[WARNING] CITATION_KEY_MISSING   knowledge/sources/mavela-2019-32s-quadrupole-moment-doppler-correction-thesis.md - source has no citation_key
+[WARNING] CITATION_KEY_MISSING   knowledge/sources/meng-2009-nuclear-chirality-review.md - source has no citation_key
+[WARNING] CITATION_KEY_MISSING   knowledge/sources/morgan-2008-237pu-nilsson-orbitals.md - source has no citation_key
+[WARNING] CITATION_KEY_MISSING   knowledge/sources/mu-lin-2020-high-spin-81kr-triplet-bands.md - source has no citation_key
+[WARNING] CITATION_KEY_MISSING   knowledge/sources/mu-lin-2024-exotic-shapes-sn-isotopes.md - source has no citation_key
+[WARNING] CITATION_KEY_MISSING   knowledge/sources/nolan-sharpey-schafer-1979-lifetime-measurements.md - source has no citation_key
+[WARNING] CITATION_KEY_MISSING   knowledge/sources/palffy-2006-neec-thesis.md - source has no citation_key
+[WARNING] CITATION_KEY_MISSING   knowledge/sources/qiang-2019-high-spin-130-131ba-87zr.md - source has no citation_key
+[WARNING] CITATION_KEY_MISSING   knowledge/sources/ragnarsson-nilsson-sheline-1978-shell-structure.md - source has no citation_key
+[WARNING] CITATION_KEY_MISSING   knowledge/sources/regis-2011-fast-timing-labr3.md - source has no citation_key
+[WARNING] CITATION_KEY_MISSING   knowledge/sources/schirmer-1984-double-gamma-40ca-90zr.md - source has no citation_key
+[WARNING] CITATION_KEY_MISSING   knowledge/sources/schlitt-1994-sectored-compton-polarimeter.md - source has no citation_key
+[WARNING] CITATION_KEY_MISSING   knowledge/sources/schmid-1998-gammasphere-polarization.md - source has no citation_key
+[WARNING] CITATION_KEY_MISSING   knowledge/sources/sensharma-2021-wobbling-motion-135pr-187au.md - source has no citation_key
+[WARNING] CITATION_KEY_MISSING   knowledge/sources/sheikh-jehangir-bhat-2024-tpsm-wobbling.md - source has no citation_key
+[WARNING] CITATION_KEY_MISSING   knowledge/sources/simons-2005-130cs-chiral-structures.md - source has no citation_key
+[WARNING] CITATION_KEY_MISSING   knowledge/sources/smith-1998-rotational-bands-127-131pr.md - source has no citation_key
+[WARNING] CITATION_KEY_MISSING   knowledge/sources/song-litao-2006-high-spin-179au-183au.md - source has no citation_key
+[WARNING] CITATION_KEY_MISSING   knowledge/sources/suffert-1959-proton-capture-polarization.md - source has no citation_key
+[WARNING] CITATION_KEY_MISSING   knowledge/sources/summary-bases-spin-parity-assignments-1970.md - source has no citation_key
+[WARNING] CITATION_KEY_MISSING   knowledge/sources/summary-bases-spin-parity-assignments.md - source has no citation_key
+[WARNING] CITATION_KEY_MISSING   knowledge/sources/sun-yazhou-2019-16c-single-proton-knockout-thesis.md - source has no citation_key
+[WARNING] CITATION_KEY_MISSING   knowledge/sources/suzuki-kimura-2021-n28-triaxiality.md - source has no citation_key
+[WARNING] CITATION_KEY_MISSING   knowledge/sources/varner-2005-coulomb-excitation-132-134sn.md - source has no citation_key
+[WARNING] CITATION_KEY_MISSING   knowledge/sources/vonderwerth-1995-compton-polarimeters.md - source has no citation_key
+[WARNING] CITATION_KEY_MISSING   knowledge/sources/walker-dracoulis-2001-exotic-isomers.md - source has no citation_key
+[WARNING] CITATION_KEY_MISSING   knowledge/sources/wang-2013-high-spin-195au-195pt.md - source has no citation_key
+[WARNING] CITATION_KEY_MISSING   knowledge/sources/wang-2014-high-spin-104ag-91-92zr.md - source has no citation_key
+[WARNING] CITATION_KEY_MISSING   knowledge/sources/wang-enhong-2015-neutron-rich-fission-fragments.md - source has no citation_key
+[WARNING] CITATION_KEY_MISSING   knowledge/sources/wang-haixia-2012-173w-128i-high-spin-thesis.md - source has no citation_key
+[WARNING] CITATION_KEY_MISSING   knowledge/sources/wang-huale-2006-170re-176ir-thesis.md - source has no citation_key
+[WARNING] CITATION_KEY_MISSING   knowledge/sources/wang-jianguo-2010-high-spin-103-104nb-140pm.md - source has no citation_key
+[WARNING] CITATION_KEY_MISSING   knowledge/sources/wang-shouyu-2005-126cs-123i-chiral-thesis.md - source has no citation_key
+[WARNING] CITATION_KEY_MISSING   knowledge/sources/williams-1975-61ni-low-lying-levels.md - source has no citation_key
+[WARNING] CITATION_KEY_MISSING   knowledge/sources/wu-hongyi-2020-general-purpose-digital-daq-thesis.md - source has no citation_key
+[WARNING] CITATION_KEY_MISSING   knowledge/sources/xiao-xiao-2019-high-spin-74as-thesis.md - source has no citation_key
+[WARNING] CITATION_KEY_MISSING   knowledge/sources/yan-duo-2015-csr-coulomb-excitation-detector-system-thesis.md - source has no citation_key
+[WARNING] CITATION_KEY_MISSING   knowledge/sources/yue-ke-2010-hirfl-csr-gamma-ball-csi-thesis.md - source has no citation_key
+[WARNING] CITATION_KEY_MISSING   knowledge/sources/zhang-2022-shape-coexistence-187pb-188bi-188po.md - source has no citation_key
+[WARNING] CITATION_KEY_MISSING   knowledge/sources/zheng-2002-ado-coincidence-angular-anisotropy.md - source has no citation_key
+[WARNING] CITATION_KEY_MISSING   knowledge/sources/zheng-2004-high-spin-145tb-157yb.md - source has no citation_key
+[WARNING] CITATION_KEY_MISSING   knowledge/sources/zheng-2021-collectivity-shape-119cs-119ba-118cs.md - source has no citation_key
+[WARNING] CITATION_KEY_MISSING   knowledge/sources/zhou-houbing-2012-101pd-rdt-thesis.md - source has no citation_key
+[WARNING] CITATION_KEY_MISSING   knowledge/sources/zhu-2003-135nd-composite-chiral-pair.md - source has no citation_key
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/aberg-flocard-nazarewicz-1990-mean-field-shapes.md - AFN90-1 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/aberg-flocard-nazarewicz-1990-mean-field-shapes.md - AFN90-2 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/aberg-flocard-nazarewicz-1990-mean-field-shapes.md - AFN90-3 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/afanasjev-1999-termination-rotational-bands.md - AF99-1 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/afanasjev-1999-termination-rotational-bands.md - AF99-2 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/agarwal-2007-137pr-magnetic-rotation-bandcrossing.md - AG07-1 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/agarwal-2007-137pr-magnetic-rotation-bandcrossing.md - AG07-2 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/agarwal-2007-137pr-magnetic-rotation-bandcrossing.md - AG07-3 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/agarwal-2007-137pr-magnetic-rotation-bandcrossing.md - AG07-4 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/agarwal-2007-137pr-magnetic-rotation-bandcrossing.md - AG07-5 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/agarwal-2007-137pr-magnetic-rotation-bandcrossing.md - AG07-6 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/agarwal-2007-137pr-magnetic-rotation-bandcrossing.md - AG07-7 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/agarwal-2007-137pr-magnetic-rotation-bandcrossing.md - AG07-8 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/agarwal-2007-137pr-magnetic-rotation-bandcrossing.md - AG07-9 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/agarwal-2007-137pr-magnetic-rotation-bandcrossing.md - AG07-10 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/agarwal-2007-137pr-magnetic-rotation-bandcrossing.md - AG07-11 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/alder-1956-coulomb-excitation-review.md - AL56-1 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/alder-1956-coulomb-excitation-review.md - AL56-3 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/alder-1956-coulomb-excitation-review.md - AL56-4 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/alwaleedi-2013-band-structures-131ce.md - AW13-1 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/alwaleedi-2013-band-structures-131ce.md - AW13-2 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/alwaleedi-2013-band-structures-131ce.md - AW13-3 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/alwaleedi-2013-band-structures-131ce.md - AW13-4 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/alwaleedi-2013-band-structures-131ce.md - AW13-5 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/alwaleedi-2013-band-structures-131ce.md - AW13-6 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/alwaleedi-2013-band-structures-131ce.md - AW13-7 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/alwaleedi-2013-band-structures-131ce.md - AW13-8 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/alwaleedi-2013-band-structures-131ce.md - AW13-9 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/alwaleedi-2013-band-structures-131ce.md - AW13-10 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/alwaleedi-2013-band-structures-131ce.md - AW13-11 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/alwaleedi-2013-band-structures-131ce.md - AW13-14 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/alwaleedi-2013-band-structures-131ce.md - AW13-15 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/alwaleedi-2013-band-structures-131ce.md - AW13-16 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/alwaleedi-2013-band-structures-131ce.md - AW13-17 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/alwaleedi-2013-band-structures-131ce.md - AW13-18 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/alwaleedi-2013-band-structures-131ce.md - AW13-19 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/alwaleedi-2013-band-structures-131ce.md - AW13-20 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/alwaleedi-2013-band-structures-131ce.md - AW13-21 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/alwaleedi-2013-band-structures-131ce.md - AW13-22 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/ame2020-sn132-mass-curvature.md - AME20-N-1 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/ame2020-sn132-mass-curvature.md - AME20-131SN-1 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/ame2020-sn132-mass-curvature.md - AME20-133SN-1 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/ame2020-sn132-mass-curvature.md - AME20-130SN-1 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/ame2020-sn132-mass-curvature.md - AME20-132SN-1 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/ame2020-sn132-mass-curvature.md - AME20-134SN-1 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/ame2020-sn132-mass-curvature.md - AME20-RCT1-132SN-1 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/ame2020-sn132-mass-curvature.md - AME20-RCT1-134SN-1 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/ame2020-sn132-mass-curvature.md - AME20-130BA-1 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/ame2020-sn132-mass-curvature.md - AME20-131BA-1 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/ame2020-sn132-mass-curvature.md - AME20-132BA-1 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/ame2020-sn132-mass-curvature.md - AME20-ODD3-BA-1 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/amro-2003-wobbling-167lu.md - AM03-1 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/amro-2003-wobbling-167lu.md - AM03-2 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/amro-2003-wobbling-167lu.md - AM03-3 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/amro-2003-wobbling-167lu.md - AM03-4 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/amro-2003-wobbling-167lu.md - AM03-5 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/amro-2003-wobbling-167lu.md - AM03-6 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/aoki-1975-geli-summing-polarimeters.md - AO75-1 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/aoki-1975-geli-summing-polarimeters.md - AO75-2 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/aprahamian-2005-nuclear-astrophysics-structure.md - AP05-1 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/aprahamian-2005-nuclear-astrophysics-structure.md - AP05-3 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/aprahamian-2005-nuclear-astrophysics-structure.md - AP05-4 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/banik-2020-131xe-multiple-band-structures.md - BNK20-1 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/banik-2020-131xe-multiple-band-structures.md - BNK20-2 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/banik-2020-131xe-multiple-band-structures.md - BNK20-3 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/banik-2020-131xe-multiple-band-structures.md - BNK20-4 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/banik-2020-131xe-multiple-band-structures.md - BNK20-5 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/banik-2020-131xe-multiple-band-structures.md - BNK20-6 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/banik-2020-131xe-multiple-band-structures.md - BNK20-7 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/banik-2020-131xe-multiple-band-structures.md - BNK20-8 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/banik-2020-131xe-multiple-band-structures.md - BNK20-9 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/banik-2020-131xe-multiple-band-structures.md - BNK20-10 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/banik-2020-131xe-multiple-band-structures.md - BNK20-11 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/bargholtz-1987-high-spin-gamma-gamma-directional-correlations.md - BT87-2 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/bark-2024-investigations-nuclear-chirality-ithembalabs.md - BK24-1 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/bark-2024-investigations-nuclear-chirality-ithembalabs.md - BK24-2 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/bark-2024-investigations-nuclear-chirality-ithembalabs.md - BK24-3 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/bark-2024-investigations-nuclear-chirality-ithembalabs.md - BK24-4 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/bark-2024-investigations-nuclear-chirality-ithembalabs.md - BK24-5 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/bark-2024-investigations-nuclear-chirality-ithembalabs.md - BK24-6 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/bark-2024-investigations-nuclear-chirality-ithembalabs.md - BK24-7 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/bark-2024-investigations-nuclear-chirality-ithembalabs.md - BK24-8 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/bark-2024-investigations-nuclear-chirality-ithembalabs.md - BK24-9 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/bark-2024-investigations-nuclear-chirality-ithembalabs.md - BK24-10 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/bark-2024-investigations-nuclear-chirality-ithembalabs.md - BK24-11 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/bark-2024-investigations-nuclear-chirality-ithembalabs.md - BK24-12 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/bark-2024-investigations-nuclear-chirality-ithembalabs.md - BK24-13 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/bark-2024-investigations-nuclear-chirality-ithembalabs.md - BK24-14 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/bark-2024-investigations-nuclear-chirality-ithembalabs.md - BK24-15 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/bark-2024-investigations-nuclear-chirality-ithembalabs.md - BK24-16 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/bark-2024-investigations-nuclear-chirality-ithembalabs.md - BK24-17 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/bark-2024-investigations-nuclear-chirality-ithembalabs.md - BK24-18 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/bark-2024-investigations-nuclear-chirality-ithembalabs.md - BK24-19 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/bark-2024-investigations-nuclear-chirality-ithembalabs.md - BK24-20 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/bass-1972-two-crystal-compton-polarimeter.md - BA72-3 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/bazzacco-1998-rotational-bands-133nd.md - BAZ98-1 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/bazzacco-1998-rotational-bands-133nd.md - BAZ98-2 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/bazzacco-1998-rotational-bands-133nd.md - BAZ98-3 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/bazzacco-1998-rotational-bands-133nd.md - BAZ98-4 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/bazzacco-1998-rotational-bands-133nd.md - BAZ98-5 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/bazzacco-1998-rotational-bands-133nd.md - BAZ98-6 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/bazzacco-1998-rotational-bands-133nd.md - BAZ98-7 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/bazzacco-1998-rotational-bands-133nd.md - BAZ98-8 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/bhat-2014-tpsm-cs-doublet-bands.md - BHA14-4 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/bhat-2014-tpsm-cs-doublet-bands.md - BHA14-5 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/bhat-2014-tpsm-cs-doublet-bands.md - BHA14-6 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/bisoi-2014-34cl-high-spin.md - BI14-1 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/bisoi-2014-34cl-high-spin.md - BI14-2 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/bisoi-2014-34cl-high-spin.md - BI14-3 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/biswas-2019-longitudinal-wobbling-133la.md - BI19-1 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/biswas-2019-longitudinal-wobbling-133la.md - BI19-2 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/biswas-2019-longitudinal-wobbling-133la.md - BI19-3 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/biswas-2019-longitudinal-wobbling-133la.md - BI19-4 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/biswas-2019-longitudinal-wobbling-133la.md - BI19-5 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/biswas-2019-longitudinal-wobbling-133la.md - BI19-6 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/biswas-2019-longitudinal-wobbling-133la.md - BI19-7 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/bringel-2005-wobbling-161lu.md - BR05-1 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/bringel-2005-wobbling-161lu.md - BR05-2 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/bringel-2005-wobbling-161lu.md - BR05-3 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/bringel-2005-wobbling-161lu.md - BR05-4 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/bringel-2005-wobbling-161lu.md - BR05-5 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/bringel-2005-wobbling-161lu.md - BR05-6 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/bucher-2016-144ba-direct-octupole.md - BU16-1 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/bucher-2016-144ba-direct-octupole.md - BU16-2 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/bucher-2016-144ba-direct-octupole.md - BU16-3 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/bucher-2017-146ba-direct-octupole.md - EXT146-1 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/bucher-2017-146ba-direct-octupole.md - EXT146-2 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/bucher-2017-146ba-direct-octupole.md - EXT146-3 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/budaca-budaca-2025-harmonic-chiral-vibration.md - BU25-1 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/budaca-budaca-2025-harmonic-chiral-vibration.md - BU25-2 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/budaca-budaca-2025-harmonic-chiral-vibration.md - BU25-3 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/budaca-budaca-2025-harmonic-chiral-vibration.md - BU25-4 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/budaca-budaca-2025-harmonic-chiral-vibration.md - BU25-5 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/budaca-budaca-2025-harmonic-chiral-vibration.md - BU25-6 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/budaca-budaca-2025-harmonic-chiral-vibration.md - BU25-7 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/budaca-budaca-2025-harmonic-chiral-vibration.md - BU25-8 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/butler-1973-three-geli-compton-polarimeter.md - B73-4 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/butler-nazarewicz-1996-intrinsic-reflection-asymmetry.md - BN96-1 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/butler-nazarewicz-1996-intrinsic-reflection-asymmetry.md - BN96-2 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/butler-nazarewicz-1996-intrinsic-reflection-asymmetry.md - BN96-4 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/butler-nazarewicz-1996-intrinsic-reflection-asymmetry.md - BN96-5 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/chakraborty-2020-multiphonon-longitudinal-wobbling-127xe.md - CH20-1 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/chakraborty-2020-multiphonon-longitudinal-wobbling-127xe.md - CH20-2 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/chakraborty-2020-multiphonon-longitudinal-wobbling-127xe.md - CH20-3 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/chakraborty-2020-multiphonon-longitudinal-wobbling-127xe.md - CH20-4 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/chakraborty-2020-multiphonon-longitudinal-wobbling-127xe.md - CH20-5 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/chakraborty-2020-multiphonon-longitudinal-wobbling-127xe.md - CH20-6 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/chakraborty-2020-multiphonon-longitudinal-wobbling-127xe.md - CH20-7 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/chakraborty-2024-possibility-wobbling-129ba.md - CH24-1 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/chakraborty-2024-possibility-wobbling-129ba.md - CH24-2 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/chakraborty-2024-possibility-wobbling-129ba.md - CH24-3 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/chakraborty-2024-possibility-wobbling-129ba.md - CH24-4 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/chakraborty-2024-possibility-wobbling-129ba.md - CH24-5 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/chakraborty-2024-possibility-wobbling-129ba.md - CH24-6 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/che-2007-high-spin-108-112ru-134-135ba.md - CX07-1 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/che-2007-high-spin-108-112ru-134-135ba.md - CX07-2 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/che-2007-high-spin-108-112ru-134-135ba.md - CX07-3 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/che-2007-high-spin-108-112ru-134-135ba.md - CX07-4 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/che-2007-high-spin-108-112ru-134-135ba.md - CX07-5 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/che-2007-high-spin-108-112ru-134-135ba.md - CX07-6 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/che-2007-high-spin-108-112ru-134-135ba.md - CX07-7 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/che-2007-high-spin-108-112ru-134-135ba.md - CX07-8 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/chen-2019-transverse-wobbling-even-even.md - CH19-1 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/chen-2019-transverse-wobbling-even-even.md - CH19-2 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/chen-2019-transverse-wobbling-even-even.md - CH19-3 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/chen-2019-transverse-wobbling-even-even.md - CH19-4 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/chen-2019-transverse-wobbling-even-even.md - CH19-5 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/chen-2019-transverse-wobbling-even-even.md - CH19-6 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/chen-2019-transverse-wobbling-even-even.md - CH19-7 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/chen-2019-transverse-wobbling-even-even.md - CH19-8 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/chen-2019-transverse-wobbling-even-even.md - CH19-9 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/chen-2019-transverse-wobbling-even-even.md - CH19-10 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/chen-2019-transverse-wobbling-even-even.md - CH19-11 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/chen-2022-study-wobbling-spin-coherent-state-maps.md - CF22-1 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/chen-2022-study-wobbling-spin-coherent-state-maps.md - CF22-2 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/chen-2022-study-wobbling-spin-coherent-state-maps.md - CF22-3 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/chen-2022-study-wobbling-spin-coherent-state-maps.md - CF22-4 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/chen-2022-study-wobbling-spin-coherent-state-maps.md - CF22-5 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/chen-2022-study-wobbling-spin-coherent-state-maps.md - CF22-6 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/chen-2022-study-wobbling-spin-coherent-state-maps.md - CF22-7 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/chen-2022-study-wobbling-spin-coherent-state-maps.md - CF22-8 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/chen-2022-study-wobbling-spin-coherent-state-maps.md - CF22-9 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/chen-2022-study-wobbling-spin-coherent-state-maps.md - CF22-10 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/chen-2022-study-wobbling-spin-coherent-state-maps.md - CF22-11 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/chen-2022-study-wobbling-spin-coherent-state-maps.md - CF22-12 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/chen-2022-study-wobbling-spin-coherent-state-maps.md - CF22-13 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/chen-2022-study-wobbling-spin-coherent-state-maps.md - CF22-14 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/chen-size-2014-6li-pgamma-7be.md - CS14-1 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/chen-size-2014-6li-pgamma-7be.md - CS14-2 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/chen-size-2014-6li-pgamma-7be.md - CS14-3 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/chen-size-2014-6li-pgamma-7be.md - CS14-4 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/chen-size-2014-6li-pgamma-7be.md - CS14-5 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/chen-size-2014-6li-pgamma-7be.md - CS14-6 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/chiara-2001-108-110in-shears-band-lifetimes.md - CHI01-1 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/chiara-2001-108-110in-shears-band-lifetimes.md - CHI01-2 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/chiara-2001-108-110in-shears-band-lifetimes.md - CHI01-3 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/chiara-2001-108-110in-shears-band-lifetimes.md - CHI01-4 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/chiara-2001-108-110in-shears-band-lifetimes.md - CHI01-5 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/chiara-2001-108-110in-shears-band-lifetimes.md - CHI01-6 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/clark-2000-shears-mechanism.md - CL00-2 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/clark-2000-shears-mechanism.md - CL00-3 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/clark-2000-shears-mechanism.md - CL00-4 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/clark-2000-shears-mechanism.md - CL00-5 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/clark-2000-shears-mechanism.md - CL00-6 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/clark-2000-shears-mechanism.md - CL00-7 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/clark-2000-shears-mechanism.md - CL00-8 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/clark-2000-shears-mechanism.md - CL00-9 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/clark-2000-shears-mechanism.md - CL00-10 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/clark-2000-shears-mechanism.md - CL00-11 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/das-2020-37ar-high-spin.md - DA20-1 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/das-2020-37ar-high-spin.md - DA20-3 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/davidson-1965-rotations-vibrations-deformed-nuclei.md - DV65-1 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/davidson-1965-rotations-vibrations-deformed-nuclei.md - DV65-2 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/der-mateosian-sunyar-1974-angular-coefficients.md - DMS74-2 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/der-mateosian-sunyar-1974-angular-coefficients.md - DMS74-3 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/der-mateosian-sunyar-1974-attenuation-coefficients.md - DA74-3 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/dey-2026-116cs-multifaceted-decay.md - DEY26-1 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/dey-2026-116cs-multifaceted-decay.md - DEY26-2 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/dey-2026-116cs-multifaceted-decay.md - DEY26-3 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/dietrich-1974-excited-states-103pd.md - DP74-1 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/dietrich-1974-excited-states-103pd.md - DP74-2 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/dietrich-1974-excited-states-103pd.md - DP74-3 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/dietrich-1974-excited-states-103pd.md - DP74-4 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/dietrich-1974-excited-states-103pd.md - DP74-5 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/dietrich-1974-excited-states-103pd.md - DP74-6 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/ding-2012-phd-thesis-127-128i-high-spin.md - D12-1 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/ding-2012-phd-thesis-127-128i-high-spin.md - D12-2 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/ding-2012-phd-thesis-127-128i-high-spin.md - D12-3 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/ding-2012-phd-thesis-127-128i-high-spin.md - D12-4 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/ding-2012-phd-thesis-127-128i-high-spin.md - D12-5 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/ding-2012-phd-thesis-127-128i-high-spin.md - D12-6 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/ding-2012-phd-thesis-127-128i-high-spin.md - D12-7 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/ding-2012-phd-thesis-127-128i-high-spin.md - D12-8 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/ding-2012-phd-thesis-127-128i-high-spin.md - D12-9 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/ding-2012-phd-thesis-127-128i-high-spin.md - D12-10 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/ding-2012-phd-thesis-127-128i-high-spin.md - D12-11 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/ding-2021-131ba-133ce-signature-splitting.md - D21-8 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/ding-2021-131ba-133ce-signature-splitting.md - D21-9 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/droste-1996-pdco-formalism.md - DR96-3 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/droste-1999-ppco-polarization.md - DR99-1 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/droste-1999-ppco-polarization.md - DR99-2 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/eldridge-2018-gamma-band-mixing-ratios.md - EL18-1 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/eldridge-2018-gamma-band-mixing-ratios.md - EL18-2 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/eldridge-2018-gamma-band-mixing-ratios.md - EL18-4 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/ensdf-131sn-neutron-hole-levels.md - ENSDF131SN-1 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/ensdf-131sn-neutron-hole-levels.md - ENSDF131SN-2 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/ensdf-131sn-neutron-hole-levels.md - ENSDF131SN-3 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/ensdf-131sn-neutron-hole-levels.md - ENSDF131SN-4 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/ensdf-131sn-neutron-hole-levels.md - ENSDF131SN-5 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/ensdf-132sn-coulomb-excitation.md - ENSDF132C-1 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/ensdf-132sn-coulomb-excitation.md - ENSDF132C-2 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/ensdf-132sn-coulomb-excitation.md - ENSDF132C-3 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/ensdf-133sn-transfer-levels.md - ENSDF133SN-1 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/ensdf-133sn-transfer-levels.md - ENSDF133SN-2 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/ensdf-133sn-transfer-levels.md - ENSDF133SN-3 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/ensdf-133sn-transfer-levels.md - ENSDF133SN-4 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/ensdf-133sn-transfer-levels.md - ENSDF133SN-5 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/ensdf-133sn-transfer-levels.md - ENSDF133SN-6 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/ensdf-133sn-transfer-levels.md - ENSDF133SN-7 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/ensdf-133sn-transfer-levels.md - ENSDF133SN-8 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/ensdf-134te-coulomb-excitation.md - ENSDF134TE-1 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/ensdf-134te-coulomb-excitation.md - ENSDF134TE-2 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/ensdf-134te-coulomb-excitation.md - ENSDF134TE-3 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/ensdf-2006-131ce-levels.md - ENS06-1 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/ensdf-2006-131ce-levels.md - ENS06-2 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/ensdf-2006-131ce-levels.md - ENS06-3 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/ensdf-2006-131ce-levels.md - ENS06-4 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/ensdf-2006-131ce-levels.md - ENS06-5 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/ensdf-2006-131ce-levels.md - ENS06-6 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/ewan-1969-single-geli-polarimeter.md - EW69-1 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/ewan-1969-single-geli-polarimeter.md - EW69-2 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/fagg-hanna-1959-polarization-measurements.md - FH59-2 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/falkoff-1948-polarization-correlation.md - FA48-3 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/fang-2008-high-spin-188au.md - line 19 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/fang-2008-high-spin-188au.md - line 20 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/fang-2008-high-spin-188au.md - line 21 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/fang-2008-high-spin-188au.md - line 22 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/fang-2008-high-spin-188au.md - line 23 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/frauendorf-2014-transverse-wobbling.md - F14-1 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/frauendorf-2014-transverse-wobbling.md - F14-2 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/frauendorf-2014-transverse-wobbling.md - F14-3 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/frauendorf-2014-transverse-wobbling.md - F14-4 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/frauendorf-2014-transverse-wobbling.md - F14-5 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/frauendorf-2014-transverse-wobbling.md - F14-6 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/frauendorf-2014-transverse-wobbling.md - F14-7 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/frauendorf-2014-transverse-wobbling.md - F14-8 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/frauendorf-2014-transverse-wobbling.md - F14-9 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/frauendorf-2014-transverse-wobbling.md - F14-10 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/frauendorf-2014-transverse-wobbling.md - F14-11 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/frauendorf-2014-transverse-wobbling.md - F14-12 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/frauendorf-2015-low-energy-quadrupole-mode.md - FR15-1 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/frauendorf-2015-low-energy-quadrupole-mode.md - FR15-2 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/frauendorf-2015-low-energy-quadrupole-mode.md - FR15-3 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/frauendorf-2018-beyond-unified-model.md - FU18-1 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/frauendorf-2018-beyond-unified-model.md - FU18-3 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/frauendorf-2018-beyond-unified-model.md - FU18-4 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/freirefernandez-2024-isolated-two-photon-72ge.md - FF24-1 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/freirefernandez-2024-isolated-two-photon-72ge.md - FF24-2 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/freirefernandez-2024-isolated-two-photon-72ge.md - FF24-3 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/freirefernandez-2024-isolated-two-photon-72ge.md - FF24-4 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/gade-2015-gamma-rays-come-in-twos.md - G15-1 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/gade-2015-gamma-rays-come-in-twos.md - G15-2 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/gade-2015-gamma-rays-come-in-twos.md - G15-3 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/gade-2015-gamma-rays-come-in-twos.md - G15-4 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/gade-2025-62cr-shape-coexistence.md - GA25-1 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/gade-2025-62cr-shape-coexistence.md - GA25-2 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/gade-2025-62cr-shape-coexistence.md - GA25-3 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/gaffney-2013-pear-shaped-rn-ra.md - GA13-1 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/gaffney-2013-pear-shaped-rn-ra.md - GA13-2 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/gaffney-2013-pear-shaped-rn-ra.md - GA13-3 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/gaffney-2013-pear-shaped-rn-ra.md - GA13-4 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/gaffney-2013-pear-shaped-rn-ra.md - GA13-5 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/gaffney-2013-pear-shaped-rn-ra.md - GA13-6 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/garciaraffi-1995-nonorthogonal-compton-polarimeter.md - GR95-4 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/garciaraffi-1997-monte-carlo-compton-polarimeters.md - GR97-1 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/garciaraffi-1997-monte-carlo-compton-polarimeters.md - GR97-3 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/garg-2015-135pr-magnetic-rotation.md - GA15-1 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/garg-2015-135pr-magnetic-rotation.md - GA15-2 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/gore-2005-gamma-band-staggering.md - GO05-1 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/gore-2005-gamma-band-staggering.md - GO05-2 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/gore-2005-gamma-band-staggering.md - GO05-3 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/gray-2021-thesis-electromagnetic-moments-z50.md - GRAY21-1 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/gray-2021-thesis-electromagnetic-moments-z50.md - GRAY21-2 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/gray-2021-thesis-electromagnetic-moments-z50.md - GRAY21-3 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/greiner-1966-magnetic-properties-even-nuclei.md - GR66-1 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/greiner-1966-magnetic-properties-even-nuclei.md - GR66-3 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/greiner-1966-magnetic-properties-even-nuclei.md - GR66-4 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/grodner-2018-128cs-chiral-g-factor.md - GR18-1 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/grodner-2018-128cs-chiral-g-factor.md - GR18-2 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/grodner-2018-128cs-chiral-g-factor.md - GR18-3 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/grodner-2018-128cs-chiral-g-factor.md - GR18-SI-1 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/guo-2020-pseudospin-chiral-quartet-131ba.md - GU20-1 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/guo-2020-pseudospin-chiral-quartet-131ba.md - GU20-2 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/guo-2020-pseudospin-chiral-quartet-131ba.md - GU20-3 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/guo-2020-pseudospin-chiral-quartet-131ba.md - GU20-4 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/guo-2020-pseudospin-chiral-quartet-131ba.md - GU20-5 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/guo-2020-pseudospin-chiral-quartet-131ba.md - GU20-6 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/guo-2020-pseudospin-chiral-quartet-131ba.md - GU20-7 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/guo-2020-pseudospin-chiral-quartet-131ba.md - GU20-8 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/guo-2020-pseudospin-chiral-quartet-131ba.md - GU20-9 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/guo-2020-pseudospin-chiral-quartet-131ba.md - GU20-10 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/guo-2020-pseudospin-chiral-quartet-131ba.md - GU20-11 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/guo-2020-pseudospin-chiral-quartet-131ba.md - GU20-12 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/guo-2020-pseudospin-chiral-quartet-131ba.md - GU20-13 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/guo-2020-pseudospin-chiral-quartet-131ba.md - GU20-14 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/guo-2020-pseudospin-chiral-quartet-131ba.md - GU20-15 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/guo-2020-pseudospin-chiral-quartet-131ba.md - GU20-16 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/guo-2020-pseudospin-chiral-quartet-131ba.md - GU20-17 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/guo-2022-possible-chiral-multiple-chiral-thallium-isotopes.md - GT22-1 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/guo-2022-possible-chiral-multiple-chiral-thallium-isotopes.md - GT22-2 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/guo-2022-possible-chiral-multiple-chiral-thallium-isotopes.md - GT22-3 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/guo-2022-possible-chiral-multiple-chiral-thallium-isotopes.md - GT22-4 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/guo-2022-possible-chiral-multiple-chiral-thallium-isotopes.md - GT22-5 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/guo-2022-possible-chiral-multiple-chiral-thallium-isotopes.md - GT22-6 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/guo-2022-possible-chiral-multiple-chiral-thallium-isotopes.md - GT22-7 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/guo-2022-possible-chiral-multiple-chiral-thallium-isotopes.md - GT22-8 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/guo-2022-possible-chiral-multiple-chiral-thallium-isotopes.md - GT22-9 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/guo-2022-possible-chiral-multiple-chiral-thallium-isotopes.md - GT22-10 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/guo-2022-possible-chiral-multiple-chiral-thallium-isotopes.md - GT22-11 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/guo-2022-possible-chiral-multiple-chiral-thallium-isotopes.md - GT22-12 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/guo-2022-possible-chiral-multiple-chiral-thallium-isotopes.md - GT22-13 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/guo-2022-possible-chiral-multiple-chiral-thallium-isotopes.md - GT22-14 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/guo-2022-possible-chiral-multiple-chiral-thallium-isotopes.md - GT22-15 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/guo-2022-possible-chiral-multiple-chiral-thallium-isotopes.md - GT22-16 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/guo-2022-possible-chiral-multiple-chiral-thallium-isotopes.md - GT22-17 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/guo-2022-possible-chiral-multiple-chiral-thallium-isotopes.md - GT22-18 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/guo-2024-chiral-wobbler-74br.md - GU24-1 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/guo-2024-chiral-wobbler-74br.md - GU24-2 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/guo-2024-chiral-wobbler-74br.md - GU24-3 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/guo-2024-chiral-wobbler-74br.md - GU24-4 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/guo-2024-chiral-wobbler-74br.md - GU24-5 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/guo-2024-chiral-wobbler-74br.md - GU24-6 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/guo-2024-chiral-wobbler-74br.md - GU24-7 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/guo-song-2009-high-spin-174re.md - line 19 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/guo-song-2009-high-spin-174re.md - line 20 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/guo-song-2009-high-spin-174re.md - line 21 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/hamamoto-2002-wobbling-excitations-odd-a-high-j-aligned-particles.md - H02-1 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/hamamoto-2002-wobbling-excitations-odd-a-high-j-aligned-particles.md - H02-2 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/hamamoto-2002-wobbling-excitations-odd-a-high-j-aligned-particles.md - H02-3 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/hamamoto-2002-wobbling-excitations-odd-a-high-j-aligned-particles.md - H02-4 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/hamamoto-2002-wobbling-excitations-odd-a-high-j-aligned-particles.md - H02-5 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/hamamoto-2002-wobbling-excitations-odd-a-high-j-aligned-particles.md - H02-6 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/hamamoto-2002-wobbling-excitations-odd-a-high-j-aligned-particles.md - H02-7 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/hamamoto-2002-wobbling-excitations-odd-a-high-j-aligned-particles.md - H02-8 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/hamamoto-2002-wobbling-excitations-odd-a-high-j-aligned-particles.md - H02-9 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/hamamoto-2002-wobbling-excitations-odd-a-high-j-aligned-particles.md - H02-10 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/hamamoto-2003-quantized-wobbling-excitations-alignments.md - H03-1 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/hamamoto-2003-quantized-wobbling-excitations-alignments.md - H03-2 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/hamamoto-2003-quantized-wobbling-excitations-alignments.md - H03-3 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/hamamoto-2003-quantized-wobbling-excitations-alignments.md - H03-4 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/hamamoto-2003-quantized-wobbling-excitations-alignments.md - H03-5 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/hamamoto-2003-quantized-wobbling-excitations-alignments.md - H03-6 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/hamamoto-2003-quantized-wobbling-excitations-alignments.md - H03-7 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/hamamoto-2003-quantized-wobbling-excitations-alignments.md - H03-8 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/hamamoto-2003-quantized-wobbling-excitations-alignments.md - H03-9 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/hamamoto-2003-quantized-wobbling-excitations-alignments.md - H03-10 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/hamilton-1948-successive-quanta-polarization.md - HAM48-1 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/hamilton-1948-successive-quanta-polarization.md - HAM48-2 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/hamilton-1948-successive-quanta-polarization.md - HAM48-3 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/hamilton-1968-angular-correlations-192pt.md - HD68-1 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/hamilton-1968-angular-correlations-192pt.md - HD68-2 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/hamilton-1968-angular-correlations-192pt.md - HD68-3 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/hamilton-1969-mixing-ratios-pt194-196.md - HA69-1 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/hamilton-1969-mixing-ratios-pt194-196.md - HA69-2 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/hamilton-1969-mixing-ratios-pt194-196.md - HA69-3 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/hara-sun-1995-projected-shell-model-high-spin.md - HS10-4 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/hartley-2009-wobbling-167ta.md - HA09-1 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/hartley-2009-wobbling-167ta.md - HA09-2 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/hartley-2009-wobbling-167ta.md - HA09-3 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/hartley-2009-wobbling-167ta.md - HA09-4 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/hartley-2009-wobbling-167ta.md - HA09-5 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/hartley-2009-wobbling-167ta.md - HA09-6 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/hartley-2009-wobbling-167ta.md - HA09-7 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/haxel-jensen-suess-1949-magic-numbers.md - HJS49-1 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/haxel-jensen-suess-1949-magic-numbers.md - HJS49-2 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/hayes-2005-k-conservation-178hf.md - HB05-1 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/hayes-2005-k-conservation-178hf.md - HB05-2 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/hayes-2005-k-conservation-178hf.md - HB05-3 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/hayes-2005-k-conservation-178hf.md - HB05-4 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/hayes-2005-k-conservation-178hf.md - HB05-5 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/hayes-2005-k-conservation-178hf.md - HB05-6 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/hayes-2005-k-conservation-178hf.md - HB05-7 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/he-chuangye-2006-magnetic-chiral-106ag.md - line 19 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/he-chuangye-2006-magnetic-chiral-106ag.md - line 20 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/he-chuangye-2006-magnetic-chiral-106ag.md - line 21 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/he-chuangye-2006-magnetic-chiral-106ag.md - line 22 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/hecht-2001-chiral-symmetry-breaking-136pm-138eu.md - HE01-1 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/hecht-2001-chiral-symmetry-breaking-136pm-138eu.md - HE01-2 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/hecht-2001-chiral-symmetry-breaking-136pm-138eu.md - HE01-3 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/hecht-2001-chiral-symmetry-breaking-136pm-138eu.md - HE01-4 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/hecht-2001-chiral-symmetry-breaking-136pm-138eu.md - HE01-5 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/hecht-2001-chiral-symmetry-breaking-136pm-138eu.md - HE01-6 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/hecht-2001-chiral-symmetry-breaking-136pm-138eu.md - HE01-7 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/hecht-2001-chiral-symmetry-breaking-136pm-138eu.md - HE01-8 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/hecht-2001-chiral-symmetry-breaking-136pm-138eu.md - HE01-9 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/hecht-2001-chiral-symmetry-breaking-136pm-138eu.md - HE01-10 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/hecht-2001-chiral-symmetry-breaking-136pm-138eu.md - HE01-11 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/hecht-2001-chiral-symmetry-breaking-136pm-138eu.md - HE01-12 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/hecht-2001-chiral-symmetry-breaking-136pm-138eu.md - HE01-13 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/hecht-2003-chirality-shape-coexistence-140eu.md - HE03-1 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/hecht-2003-chirality-shape-coexistence-140eu.md - HE03-2 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/hecht-2003-chirality-shape-coexistence-140eu.md - HE03-3 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/hecht-2003-chirality-shape-coexistence-140eu.md - HE03-4 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/hecht-2003-chirality-shape-coexistence-140eu.md - HE03-5 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/hecht-2003-chirality-shape-coexistence-140eu.md - HE03-6 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/hecht-2003-chirality-shape-coexistence-140eu.md - HE03-7 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/hecht-2003-chirality-shape-coexistence-140eu.md - HE03-8 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/hecht-2003-chirality-shape-coexistence-140eu.md - HE03-9 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/hecht-2003-chirality-shape-coexistence-140eu.md - HE03-10 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/hecht-2003-chirality-shape-coexistence-140eu.md - HE03-11 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/hecht-2003-chirality-shape-coexistence-140eu.md - HE03-12 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/hecht-2003-chirality-shape-coexistence-140eu.md - HE03-13 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/hecht-2003-chirality-shape-coexistence-140eu.md - HE03-14 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/hecht-2003-chirality-shape-coexistence-140eu.md - HE03-15 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/hecht-2003-chirality-shape-coexistence-140eu.md - HE03-16 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/henderson-2014-98mo-two-photon-upper-limit.md - HE14-1 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/henderson-2014-98mo-two-photon-upper-limit.md - HE14-3 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/herzan-2015-193bi-spectroscopy.md - HE15-1 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/herzan-2015-193bi-spectroscopy.md - HE15-2 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/herzan-2015-193bi-spectroscopy.md - HE15-3 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/heyde-wood-2011-shape-coexistence-review.md - HW11-1 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/heyde-wood-2011-shape-coexistence-review.md - HW11-2 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/heyde-wood-2011-shape-coexistence-review.md - HW11-3 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/hinke-2010-100sn-decay-spectroscopy.md - HK10-1 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/hinke-2010-100sn-decay-spectroscopy.md - HK10-2 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/hinke-2010-100sn-decay-spectroscopy.md - HK10-3 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/hinke-2010-100sn-decay-spectroscopy.md - HK10-4 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/hinke-2010-100sn-decay-spectroscopy.md - HK10-5 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/hinke-2010-100sn-decay-spectroscopy.md - HK10-6 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/hinke-2010-100sn-decay-spectroscopy.md - HK10-7 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/hinke-2010-100sn-decay-spectroscopy.md - HK10-8 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/hubel-2005-magnetic-rotation-review.md - HU05-1 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/hubel-2005-magnetic-rotation-review.md - HU05-2 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/hubel-2005-magnetic-rotation-review.md - HU05-3 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/iaea-livechart-132sn-134te-levels.md - LC130SN-1 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/iaea-livechart-132sn-134te-levels.md - LC132SN-1 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/iaea-livechart-132sn-134te-levels.md - LC134SN-1 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/iaea-livechart-132sn-134te-levels.md - LC134TE-1 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/iaea-livechart-132sn-134te-levels.md - NUDAT132SN-1 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/iaea-livechart-132sn-134te-levels.md - NUDAT132SN-2 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/iaea-livechart-132sn-134te-levels.md - NUDAT132SN-4 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/iaea-livechart-132sn-134te-levels.md - NUDAT132SN-3 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/iaea-livechart-132sn-134te-levels.md - NUDAT134TE-1 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/iaea-livechart-132sn-134te-levels.md - NUDAT134TE-2 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/iaea-livechart-132sn-134te-levels.md - NUDAT134TE-1 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/iaea-livechart-132sn-134te-levels.md - NUDAT134TE-2 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/ionescu-bujor-1998-static-moments-129-131ce.md - IB98-3 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/ionescu-bujor-1998-static-moments-129-131ce.md - IB98-4 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/jahangir-2026-tpsm-gamma-bands-nb-tc.md - J26-2 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/jahangir-2026-tpsm-gamma-bands-nb-tc.md - J26-3 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/james-twin-butler-1974-angular-correlation-statistics.md - JT74-2 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/james-twin-butler-1974-angular-correlation-statistics.md - JT74-3 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/jehangir-2022-odd-neutron-tpsm-extension.md - JN22-1 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/jehangir-2022-odd-neutron-tpsm-extension.md - JN22-2 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/jehangir-2022-odd-neutron-tpsm-extension.md - JN22-3 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/jehangir-2022-odd-neutron-tpsm-extension.md - JN22-4 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/jehangir-2022-odd-neutron-tpsm-extension.md - JN22-5 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/jehangir-2022-odd-neutron-tpsm-extension.md - JN22-6 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/jehangir-2022-odd-neutron-tpsm-extension.md - JN22-7 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/jehangir-2022-odd-neutron-tpsm-extension.md - JN22-8 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/jehangir-2022-odd-neutron-tpsm-extension.md - JN22-9 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/jehangir-2022-odd-neutron-tpsm-extension.md - JN22-10 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/jehangir-2022-odd-neutron-tpsm-extension.md - JN22-11 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/jehangir-2022-odd-neutron-tpsm-extension.md - JN22-12 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/jehangir-2022-odd-neutron-tpsm-extension.md - JN22-13 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/jehangir-2022-odd-neutron-tpsm-extension.md - JN22-14 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/jensen-2001-165tm-h9-2-configuration.md - J01-1 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/jensen-2001-165tm-h9-2-configuration.md - J01-4 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/jensen-2001-165tm-h9-2-configuration.md - J01-5 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/jensen-2002-second-phonon-wobbling-163lu.md - JE02-1 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/jensen-2002-second-phonon-wobbling-163lu.md - JE02-2 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/jensen-2002-second-phonon-wobbling-163lu.md - JE02-3 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/jensen-2002-second-phonon-wobbling-163lu.md - JE02-4 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/jensen-2002-second-phonon-wobbling-163lu.md - JE02-5 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/jensen-2002-second-phonon-wobbling-163lu.md - JE02-6 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/jensen-2002-second-phonon-wobbling-163lu.md - JE02-7 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/jensen-2002-second-phonon-wobbling-163lu.md - JE02-8 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/jia-2022-possible-wobbling-multiple-chiral-doublets.md - JIA22-1 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/jia-2022-possible-wobbling-multiple-chiral-doublets.md - JIA22-2 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/jia-2022-possible-wobbling-multiple-chiral-doublets.md - JIA22-3 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/jia-2022-possible-wobbling-multiple-chiral-doublets.md - JIA22-4 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/jia-2022-possible-wobbling-multiple-chiral-doublets.md - JIA22-5 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/jia-2022-possible-wobbling-multiple-chiral-doublets.md - JIA22-6 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/jia-2022-possible-wobbling-multiple-chiral-doublets.md - JIA22-7 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/jia-2022-possible-wobbling-multiple-chiral-doublets.md - JIA22-8 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/jia-2022-possible-wobbling-multiple-chiral-doublets.md - JIA22-9 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/jia-2022-possible-wobbling-multiple-chiral-doublets.md - JIA22-10 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/jones-1995-clover-compton-calibration.md - JO95-1 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/jones-1995-clover-compton-calibration.md - JO95-2 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/jones-2010-133sn-single-particle-transfer.md - JON10-1 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/jones-2010-133sn-single-particle-transfer.md - JON10-2 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/jones-2010-133sn-single-particle-transfer.md - JON10-3 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/jones-2010-133sn-single-particle-transfer.md - JON10-4 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/jones-2010-133sn-single-particle-transfer.md - JON10-5 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/jones-2010-133sn-single-particle-transfer.md - JON10-6 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/jones-2010-133sn-single-particle-transfer.md - JON10-7 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/kibedi-2008-evaluation-theoretical-conversion-coefficients-bricc.md - KB08-D8-1 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/kibedi-2008-evaluation-theoretical-conversion-coefficients-bricc.md - KB08-D8-2 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/kibedi-2008-evaluation-theoretical-conversion-coefficients-bricc.md - KB08-D8-3 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/kibedi-2008-evaluation-theoretical-conversion-coefficients-bricc.md - KB08-D8-4 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/kibedi-2008-evaluation-theoretical-conversion-coefficients-bricc.md - KB08-D8-5 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/klein-nishina-1929-compton-scattering.md - KN29-1 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/klein-nishina-1929-compton-scattering.md - KN29-2 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/klemme-1999-lifetimes-134nd-neighbors.md - KL99-1 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/klemme-1999-lifetimes-134nd-neighbors.md - KL99-2 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/klemme-1999-lifetimes-134nd-neighbors.md - KL99-3 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/klemme-1999-lifetimes-134nd-neighbors.md - KL99-4 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/klemme-1999-lifetimes-134nd-neighbors.md - KL99-5 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/klemme-1999-lifetimes-134nd-neighbors.md - KL99-6 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/klemme-1999-lifetimes-134nd-neighbors.md - KL99-7 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/klemme-1999-lifetimes-134nd-neighbors.md - KL99-8 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/klemme-1999-lifetimes-134nd-neighbors.md - KL99-9 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/klemme-1999-lifetimes-134nd-neighbors.md - KL99-10 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/klemme-1999-lifetimes-134nd-neighbors.md - KL99-11 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/klemme-1999-lifetimes-134nd-neighbors.md - KL99-12 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/klemme-1999-lifetimes-134nd-neighbors.md - KL99-13 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/klemme-1999-lifetimes-134nd-neighbors.md - KL99-14 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/klemme-1999-lifetimes-134nd-neighbors.md - KL99-15 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/klemme-1999-lifetimes-134nd-neighbors.md - KL99-16 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/konigshofen-2001-mixing-ratios-130ba.md - KO01-1 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/konigshofen-2001-mixing-ratios-130ba.md - KO01-2 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/konigshofen-2001-mixing-ratios-130ba.md - KO01-3 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/konigshofen-2001-mixing-ratios-130ba.md - KO01-5 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/kramp-1987-160-two-photon-decay.md - KR87-1 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/kramp-1987-160-two-photon-decay.md - KR87-2 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/krane-1973-directional-correlations-oriented-states.md - KSW73-2 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/krane-1973-directional-correlations-oriented-states.md - KSW73-3 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/krane-steffen-1970-cd110-mixing-ratios.md - KS70-1 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/krane-steffen-1970-cd110-mixing-ratios.md - KS70-3 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/kumar-2025-review-magnetic-antimagnetic-rotational-structures.md - KU25-1 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/kumar-2025-review-magnetic-antimagnetic-rotational-structures.md - KU25-2 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/kumar-2025-review-magnetic-antimagnetic-rotational-structures.md - KU25-3 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/kumar-2025-review-magnetic-antimagnetic-rotational-structures.md - KU25-4 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/kumar-2025-review-magnetic-antimagnetic-rotational-structures.md - KU25-5 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/kumar-2025-review-magnetic-antimagnetic-rotational-structures.md - KU25-6 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/kumar-2025-review-magnetic-antimagnetic-rotational-structures.md - KU25-7 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/kumar-2025-review-magnetic-antimagnetic-rotational-structures.md - KU25-8 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/kumar-2025-review-magnetic-antimagnetic-rotational-structures.md - KU25-9 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/kumar-2025-review-magnetic-antimagnetic-rotational-structures.md - KU25-10 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/kuti-2014-multiple-chiral-doublets-103rh.md - KU14-1 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/kuti-2014-multiple-chiral-doublets-103rh.md - KU14-2 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/kuti-2014-multiple-chiral-doublets-103rh.md - KU14-3 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/kuti-2014-multiple-chiral-doublets-103rh.md - KU14-4 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/kuti-2014-multiple-chiral-doublets-103rh.md - KU14-5 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/kuti-2014-multiple-chiral-doublets-103rh.md - KU14-6 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/kuti-2014-multiple-chiral-doublets-103rh.md - KU14-7 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/kuti-2014-multiple-chiral-doublets-103rh.md - KU14-8 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/kuti-2014-multiple-chiral-doublets-103rh.md - KU14-9 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/kuti-2014-multiple-chiral-doublets-103rh.md - KU14-10 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/kuti-2014-multiple-chiral-doublets-103rh.md - KU14-11 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/kuti-2014-multiple-chiral-doublets-103rh.md - KU14-12 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/kuti-2014-multiple-chiral-doublets-103rh.md - KU14-13 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/kuti-2014-multiple-chiral-doublets-103rh.md - KU14-14 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/kuti-2014-multiple-chiral-doublets-103rh.md - KU14-15 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/kuti-2014-multiple-chiral-doublets-103rh.md - KU14-16 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/lange-kumar-hamilton-1982-multipole-admixtures.md - LKH82-1 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/lange-kumar-hamilton-1982-multipole-admixtures.md - LKH82-2 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/lange-kumar-hamilton-1982-multipole-admixtures.md - LKH82-3 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/lange-kumar-hamilton-1982-multipole-admixtures.md - LKH82-4 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/lange-kumar-hamilton-1982-multipole-admixtures.md - LKH82-5 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/lange-kumar-hamilton-1982-multipole-admixtures.md - LKH82-6 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/lange-kumar-hamilton-1982-multipole-admixtures.md - LKH82-7 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/lange-kumar-hamilton-1982-multipole-admixtures.md - LKH82-8 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/lange-kumar-hamilton-1982-multipole-admixtures.md - LKH82-9 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/lange-kumar-hamilton-1982-multipole-admixtures.md - LKH82-10 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/lange-kumar-hamilton-1982-multipole-admixtures.md - LKH82-11 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/lange-kumar-hamilton-1982-multipole-admixtures.md - LKH82-12 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/lange-kumar-hamilton-1982-multipole-admixtures.md - LKH82-13 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/lange-kumar-hamilton-1982-multipole-admixtures.md - LKH82-15 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/lange-kumar-hamilton-1982-multipole-admixtures.md - LKH82-16 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/lange-kumar-hamilton-1982-multipole-admixtures.md - LKH82-17 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/lange-kumar-hamilton-1982-multipole-admixtures.md - LKH82-18 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/li-2004-lifetimes-131ce.md - LI04-5 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/li-2004-lifetimes-131ce.md - LI04-6 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/li-2004-lifetimes-131ce.md - LI04-7 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/li-2004-lifetimes-131ce.md - LI04-8 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/li-2004-lifetimes-131ce.md - LI04-9 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/li-2004-lifetimes-131ce.md - LI04-10 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/li-2004-lifetimes-131ce.md - LI04-11 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/li-2013-high-spin-184-186au.md - LS13-1 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/li-2013-high-spin-184-186au.md - LS13-2 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/li-2013-high-spin-184-186au.md - LS13-3 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/li-2013-high-spin-184-186au.md - LS13-4 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/li-2013-high-spin-184-186au.md - LS13-5 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/li-2013-high-spin-184-186au.md - LS13-6 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/li-2013-high-spin-184-186au.md - LS13-7 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/li-2013-high-spin-184-186au.md - LS13-8 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/li-2013-high-spin-184-186au.md - LS13-9 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/li-2013-high-spin-184-186au.md - LS13-10 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/li-2013-high-spin-184-186au.md - LS13-11 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/li-2024-144ba-octupole-cdf-3d-lattice.md - LI24-1 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/li-2024-144ba-octupole-cdf-3d-lattice.md - LI24-2 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/li-2024-144ba-octupole-cdf-3d-lattice.md - LI24-3 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/li-2024-144ba-octupole-cdf-3d-lattice.md - LI24-4 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/li-mingliang-2006-high-spin-137la-138pr-98sr.md - line 17 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/li-mingliang-2006-high-spin-137la-138pr-98sr.md - line 18 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/li-mingliang-2006-high-spin-137la-138pr-98sr.md - line 19 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/li-mingliang-2006-high-spin-137la-138pr-98sr.md - line 20 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/li-mingliang-2006-high-spin-137la-138pr-98sr.md - line 21 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/liang-2016-pseudospin-symmetry-review.md - LIANG16-2 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/liang-2016-pseudospin-symmetry-review.md - LIANG16-3 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/liang-2016-pseudospin-symmetry-review.md - LIANG16-4 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/lister-butterworth-2013-pear-shaped-nuclei.md - LB13-1 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/lister-butterworth-2013-pear-shaped-nuclei.md - LB13-2 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/liu-1996-signature-inversion-a130.md - LU96-1 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/liu-1996-signature-inversion-a130.md - LU96-2 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/liu-1996-signature-inversion-a130.md - LU96-3 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/liu-1996-signature-inversion-a130.md - LU96-5 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/liu-2008-shape-coexistence-188pt.md - LY08-1 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/liu-2008-shape-coexistence-188pt.md - LY08-2 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/liu-2008-shape-coexistence-188pt.md - LY08-3 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/liu-2008-shape-coexistence-188pt.md - LY08-4 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/liu-2008-shape-coexistence-188pt.md - LY08-5 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/liu-2008-shape-coexistence-188pt.md - LY08-6 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/liu-2008-shape-coexistence-188pt.md - LY08-7 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/liu-2008-shape-coexistence-188pt.md - LY08-8 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/liu-chen-2016-78br-chirality-reflection-symmetry-thesis.md - line 45 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/liu-chen-2016-78br-chirality-reflection-symmetry-thesis.md - line 46 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/liu-chen-2016-78br-chirality-reflection-symmetry-thesis.md - line 47 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/liu-chen-2016-78br-chirality-reflection-symmetry-thesis.md - line 48 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/liu-chen-2016-78br-chirality-reflection-symmetry-thesis.md - line 49 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/liu-hongna-2015-12c-np-correlations-thesis.md - line 45 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/liu-hongna-2015-12c-np-correlations-thesis.md - line 46 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/liu-hongna-2015-12c-np-correlations-thesis.md - line 47 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/liu-hongna-2015-12c-np-correlations-thesis.md - line 48 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/liu-minliang-2004-high-spin-141nd-142pm.md - line 17 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/liu-minliang-2004-high-spin-141nd-142pm.md - line 18 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/liu-minliang-2004-high-spin-141nd-142pm.md - line 19 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/liu-minliang-2004-high-spin-141nd-142pm.md - line 20 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/liu-minliang-2004-high-spin-141nd-142pm.md - line 21 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/liu-yanxin-2012-projected-shell-model-exotic-nuclei.md - line 45 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/liu-yanxin-2012-projected-shell-model-exotic-nuclei.md - line 46 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/liu-yanxin-2012-projected-shell-model-exotic-nuclei.md - line 47 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/liu-yanxin-2012-projected-shell-model-exotic-nuclei.md - line 48 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/lubos-2016-100sn-neighboring-nuclei-decay-spectroscopy.md - LB16-1 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/lubos-2016-100sn-neighboring-nuclei-decay-spectroscopy.md - LB16-2 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/lubos-2016-100sn-neighboring-nuclei-decay-spectroscopy.md - LB16-3 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/lubos-2016-100sn-neighboring-nuclei-decay-spectroscopy.md - LB16-4 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/lubos-2016-100sn-neighboring-nuclei-decay-spectroscopy.md - LB16-5 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/lubos-2016-100sn-neighboring-nuclei-decay-spectroscopy.md - LB16-6 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/lubos-2016-100sn-neighboring-nuclei-decay-spectroscopy.md - LB16-7 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/lubos-2016-100sn-neighboring-nuclei-decay-spectroscopy.md - LB16-8 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/luo-2009-chirality-evolution-ru.md - LU09-1 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/luo-2009-chirality-evolution-ru.md - LU09-2 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/luo-2009-chirality-evolution-ru.md - LU09-3 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/luo-2009-chirality-evolution-ru.md - LU09-4 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/luo-2009-chirality-evolution-ru.md - LU09-5 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/luo-2009-chirality-evolution-ru.md - LU09-6 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/luo-2009-chirality-evolution-ru.md - LU09-7 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/luo-2009-chirality-evolution-ru.md - LU09-8 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/luo-2009-chirality-evolution-ru.md - LU09-9 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/luo-2009-chirality-evolution-ru.md - LU09-10 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/luo-2009-chirality-evolution-ru.md - LU09-11 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/luo-2009-chirality-evolution-ru.md - LU09-12 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/luo-2009-chirality-evolution-ru.md - LU09-13 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/luo-2009-chirality-evolution-ru.md - LU09-14 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/luo-2009-chirality-evolution-ru.md - LU09-15 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/luo-2009-chirality-evolution-ru.md - LU09-16 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/lv-2019-chirality-135nd-reexamined.md - LV19-SI-1 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/lv-2019-chirality-135nd-reexamined.md - LV19-9 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/lv-2022-transverse-wobbling-136nd.md - LV22-1 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/lv-2022-transverse-wobbling-136nd.md - LV22-2 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/lv-2022-transverse-wobbling-136nd.md - LV22-3 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/lv-2022-transverse-wobbling-136nd.md - LV22-4 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/lv-2022-transverse-wobbling-136nd.md - LV22-5 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/lv-2022-transverse-wobbling-136nd.md - LV22-6 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/lv-2022-transverse-wobbling-136nd.md - LV22-7 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/lv-2025-136pr-tac-covariant-density-functional.md - LV25-1 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/lv-2025-136pr-tac-covariant-density-functional.md - LV25-2 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/lv-2025-136pr-tac-covariant-density-functional.md - LV25-3 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/lv-2025-136pr-tac-covariant-density-functional.md - LV25-4 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/lv-2025-136pr-tac-covariant-density-functional.md - LV25-5 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/lv-2025-136pr-tac-covariant-density-functional.md - LV25-6 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/lv-2025-136pr-tac-covariant-density-functional.md - LV25-7 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/lv-2025-136pr-tac-covariant-density-functional.md - LV25-8 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/lv-2025-136pr-tac-covariant-density-functional.md - LV25-9 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/lv-2025-136pr-tac-covariant-density-functional.md - LV25-10 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/lv-2025-136pr-tac-covariant-density-functional.md - LV25-11 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/lv-bingfeng-2019-chirality-136nd-135nd-thesis.md - line 45 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/lv-bingfeng-2019-chirality-136nd-135nd-thesis.md - line 46 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/lv-bingfeng-2019-chirality-136nd-135nd-thesis.md - line 48 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/ma-1990-131ba-competing-alignments.md - MA90-1 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/ma-1990-131ba-competing-alignments.md - MA90-2 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/ma-1990-131ba-competing-alignments.md - MA90-3 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/ma-1990-131ba-competing-alignments.md - MA90-5 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/macchiavelli-2018-erratum-spectroscopic-factors-be.md - MC18-1 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/macchiavelli-2018-erratum-spectroscopic-factors-be.md - MC18-2 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/mavela-2019-32s-quadrupole-moment-doppler-correction-thesis.md - line 45 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/mavela-2019-32s-quadrupole-moment-doppler-correction-thesis.md - line 46 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/mavela-2019-32s-quadrupole-moment-doppler-correction-thesis.md - line 47 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/mavela-2019-32s-quadrupole-moment-doppler-correction-thesis.md - line 48 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/mccutchan-2007-gamma-band-staggering.md - MC07-1 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/mccutchan-2007-gamma-band-staggering.md - MC07-2 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/mccutchan-2007-gamma-band-staggering.md - MC07-3 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/meng-2009-nuclear-chirality-review.md - MG09-1 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/meng-2009-nuclear-chirality-review.md - MG09-2 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/meyer-1978-multiparticle-configurations-61ni-67zn.md - M78-3 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/meyer-1978-multiparticle-configurations-61ni-67zn.md - M78-5 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/miller-2007-sega-polarization.md - MI07-1 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/miller-2007-sega-polarization.md - MI07-3 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/moller-2006-global-axial-asymmetry.md - MO06-1 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/moller-2006-global-axial-asymmetry.md - MO06-2 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/moller-2006-global-axial-asymmetry.md - MO06-3 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/morgan-2008-237pu-nilsson-orbitals.md - TM08-1 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/morgan-2008-237pu-nilsson-orbitals.md - TM08-2 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/morgan-2008-237pu-nilsson-orbitals.md - TM08-3 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/morgan-2008-237pu-nilsson-orbitals.md - TM08-4 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/morgan-2008-237pu-nilsson-orbitals.md - TM08-5 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/morgan-2008-237pu-nilsson-orbitals.md - TM08-6 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/morgan-2008-237pu-nilsson-orbitals.md - TM08-7 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/mu-lin-2020-high-spin-81kr-triplet-bands.md - line 19 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/mu-lin-2020-high-spin-81kr-triplet-bands.md - line 20 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/mu-lin-2020-high-spin-81kr-triplet-bands.md - line 21 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/mu-lin-2024-exotic-shapes-sn-isotopes.md - line 19 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/mu-lin-2024-exotic-shapes-sn-isotopes.md - line 20 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/mu-lin-2024-exotic-shapes-sn-isotopes.md - line 21 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/mu-lin-2024-exotic-shapes-sn-isotopes.md - line 22 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/mu-lin-2024-exotic-shapes-sn-isotopes.md - line 23 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/mukherjee-2023-transverse-wobbling-151eu.md - MU23-1 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/mukherjee-2023-transverse-wobbling-151eu.md - MU23-2 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/mukherjee-2023-transverse-wobbling-151eu.md - MU23-3 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/mukherjee-2023-transverse-wobbling-151eu.md - MU23-4 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/mukherjee-2023-transverse-wobbling-151eu.md - MU23-5 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/mukherjee-2023-transverse-wobbling-151eu.md - MU23-6 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/mukherjee-2023-transverse-wobbling-151eu.md - MU23-7 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/mukhopadhyay-2007-135nd-chiral-vibration-static.md - MU07-SI-1 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/mukhopadhyay-2007-135nd-chiral-vibration-static.md - MU07-1 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/mukhopadhyay-2007-135nd-chiral-vibration-static.md - MU07-2 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/mukhopadhyay-2007-135nd-chiral-vibration-static.md - MU07-3 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/mukhopadhyay-2007-135nd-chiral-vibration-static.md - MU07-5 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/mukhopadhyay-2007-135nd-chiral-vibration-static.md - MU07-6 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/mukhopadhyay-2007-135nd-chiral-vibration-static.md - MU07-7 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/mukhopadhyay-2007-135nd-chiral-vibration-static.md - MU07-8 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/mukhopadhyay-2007-135nd-chiral-vibration-static.md - MU07-9 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/mukhopadhyay-2007-135nd-chiral-vibration-static.md - MU07-10 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/mukhopadhyay-2007-135nd-chiral-vibration-static.md - MU07-11 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/mukhopadhyay-2007-135nd-chiral-vibration-static.md - MU07-13 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/mukhopadhyay-2007-135nd-chiral-vibration-static.md - MU07-14 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/mukhopadhyay-2007-135nd-chiral-vibration-static.md - MU07-15 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/mukhopadhyay-2007-135nd-chiral-vibration-static.md - MU07-16 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/mukhopadhyay-2008-136nd-transition-rates.md - MU08-SI-1 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/mukhopadhyay-2008-136nd-transition-rates.md - MU08-1 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/mukhopadhyay-2008-136nd-transition-rates.md - MU08-2 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/mukhopadhyay-2008-136nd-transition-rates.md - MU08-3 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/mukhopadhyay-2008-136nd-transition-rates.md - MU08-4 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/mukhopadhyay-2008-136nd-transition-rates.md - MU08-5 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/mukhopadhyay-2008-136nd-transition-rates.md - MU08-6 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/mukhopadhyay-2008-136nd-transition-rates.md - MU08-7 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/mukhopadhyay-2008-136nd-transition-rates.md - MU08-8 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/mukhopadhyay-2008-136nd-transition-rates.md - MU08-9 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/mukhopadhyay-2008-136nd-transition-rates.md - MU08-10 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/mukhopadhyay-2008-136nd-transition-rates.md - MU08-11 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/mukhopadhyay-2008-136nd-transition-rates.md - MU08-12 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/mukhopadhyay-2008-136nd-transition-rates.md - MU08-13 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/mukhopadhyay-2008-136nd-transition-rates.md - MU08-CORR-1 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/mukhopadhyay-2008-136nd-transition-rates.md - MU08-14 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/musangu-2021-chiral-vibrations-104mo-106mo.md - MU21-1 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/musangu-2021-chiral-vibrations-104mo-106mo.md - MU21-2 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/musangu-2021-chiral-vibrations-104mo-106mo.md - MU21-3 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/musangu-2021-chiral-vibrations-104mo-106mo.md - MU21-4 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/musangu-2021-chiral-vibrations-104mo-106mo.md - MU21-5 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/musangu-2021-chiral-vibrations-104mo-106mo.md - MU21-6 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/musangu-2021-chiral-vibrations-104mo-106mo.md - MU21-7 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/musangu-2021-chiral-vibrations-104mo-106mo.md - MU21-8 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/musangu-2021-chiral-vibrations-104mo-106mo.md - MU21-9 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/musangu-2021-chiral-vibrations-104mo-106mo.md - MU21-10 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/musangu-2021-chiral-vibrations-104mo-106mo.md - MU21-11 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/musangu-2021-chiral-vibrations-104mo-106mo.md - MU21-12 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/musangu-2021-chiral-vibrations-104mo-106mo.md - MU21-13 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/musangu-2021-chiral-vibrations-104mo-106mo.md - MU21-14 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/musangu-2021-chiral-vibrations-104mo-106mo.md - MU21-15 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/musangu-2021-chiral-vibrations-104mo-106mo.md - MU21-16 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/musangu-2021-chiral-vibrations-104mo-106mo.md - MU21-17 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/musangu-2021-chiral-vibrations-104mo-106mo.md - MU21-18 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/musangu-2021-chiral-vibrations-104mo-106mo.md - MU21-19 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/musangu-2021-chiral-vibrations-104mo-106mo.md - MU21-20 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/nandi-2020-multiple-transverse-wobbling-183au.md - NA20-1 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/nandi-2020-multiple-transverse-wobbling-183au.md - NA20-2 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/nandi-2020-multiple-transverse-wobbling-183au.md - NA20-3 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/nandi-2020-multiple-transverse-wobbling-183au.md - NA20-4 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/nandi-2020-multiple-transverse-wobbling-183au.md - NA20-5 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/nandi-2020-multiple-transverse-wobbling-183au.md - NA20-6 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/nolan-sharpey-schafer-1979-lifetime-measurements.md - NS79-1 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/nomura-2018-odd-mass-ba-octupole.md - NOM18-1 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/nomura-2018-odd-mass-ba-octupole.md - NOM18-2 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/nomura-2018-odd-mass-ba-octupole.md - NOM18-3 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/nomura-2018-odd-mass-ba-octupole.md - NOM18-4 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/nomura-2018-odd-mass-ba-octupole.md - NOM18-5 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/nomura-2018-odd-mass-ba-octupole.md - NOM18-6 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/odegard-2001-evidence-wobbling-163lu.md - OD01-1 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/odegard-2001-evidence-wobbling-163lu.md - OD01-2 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/odegard-2001-evidence-wobbling-163lu.md - OD01-3 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/odegard-2001-evidence-wobbling-163lu.md - OD01-4 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/odegard-2001-evidence-wobbling-163lu.md - OD01-5 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/odegard-2001-evidence-wobbling-163lu.md - OD01-6 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/odegard-2001-evidence-wobbling-163lu.md - OD01-7 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/odegard-2001-evidence-wobbling-163lu.md - OD01-8 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/orlandi-2018-131sn-neutron-hole-transfer.md - ORL18-1 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/orlandi-2018-131sn-neutron-hole-transfer.md - ORL18-2 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/orlandi-2018-131sn-neutron-hole-transfer.md - ORL18-3 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/orlandi-2018-131sn-neutron-hole-transfer.md - ORL18-4 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/orlandi-2018-131sn-neutron-hole-transfer.md - ORL18-5 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/orlandi-2018-131sn-neutron-hole-transfer.md - ORL18-6 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/orlandi-2018-131sn-neutron-hole-transfer.md - ORL18-7 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/orlandi-2018-131sn-neutron-hole-transfer.md - ORL18-8 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/orlandi-2018-131sn-neutron-hole-transfer.md - ORL18-9 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/orlandi-2018-131sn-neutron-hole-transfer.md - ORL18-10 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/orlandi-2018-131sn-neutron-hole-transfer.md - ORL18-11 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/orlandi-2018-131sn-neutron-hole-transfer.md - ORL18-12 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/orlandi-2018-131sn-neutron-hole-transfer.md - ORL18-13 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/orlandi-2018-131sn-neutron-hole-transfer.md - ORL18-14 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/orlandi-2018-131sn-neutron-hole-transfer.md - ORL18-15 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/orlandi-2018-131sn-neutron-hole-transfer.md - ORL18-16 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/orlandi-2018-131sn-neutron-hole-transfer.md - ORL18-17 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/orlandi-2018-131sn-neutron-hole-transfer.md - ORL18-18 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/pai-2012-high-spin-bands-194tl.md - PAI12-1 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/pai-2012-high-spin-bands-194tl.md - PAI12-2 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/pai-2012-high-spin-bands-194tl.md - PAI12-3 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/pai-2012-high-spin-bands-194tl.md - PAI12-4 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/pai-2012-high-spin-bands-194tl.md - PAI12-5 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/pai-2012-high-spin-bands-194tl.md - PAI12-6 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/pai-2012-high-spin-bands-194tl.md - PAI12-7 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/pai-2012-high-spin-bands-194tl.md - PAI12-8 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/palacz-1991-high-spin-131ce.md - PAL91-1 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/palacz-1991-high-spin-131ce.md - PAL91-2 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/palacz-1991-high-spin-131ce.md - PAL91-3 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/palacz-1991-high-spin-131ce.md - PAL91-4 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/palacz-1991-high-spin-131ce.md - PAL91-5 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/palacz-1991-high-spin-131ce.md - PAL91-6 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/palffy-2006-neec-thesis.md - AP06-1 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/palffy-2006-neec-thesis.md - AP06-2 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/palffy-2006-neec-thesis.md - AP06-3 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/palffy-2006-neec-thesis.md - AP06-4 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/palffy-2006-neec-thesis.md - AP06-5 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/palffy-2006-neec-thesis.md - AP06-6 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/palffy-2006-neec-thesis.md - AP06-7 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/peng-chen-2022-chiral-rotation-rhodium-isotopes.md - PC22-1 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/peng-chen-2022-chiral-rotation-rhodium-isotopes.md - PC22-2 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/peng-chen-2022-chiral-rotation-rhodium-isotopes.md - PC22-3 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/peng-chen-2022-chiral-rotation-rhodium-isotopes.md - PC22-4 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/peng-chen-2022-chiral-rotation-rhodium-isotopes.md - PC22-5 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/peng-chen-2022-chiral-rotation-rhodium-isotopes.md - PC22-6 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/peng-chen-2022-chiral-rotation-rhodium-isotopes.md - PC22-7 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/peng-chen-2022-chiral-rotation-rhodium-isotopes.md - PC22-8 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/peng-chen-2022-chiral-rotation-rhodium-isotopes.md - PC22-9 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/peng-chen-2022-chiral-rotation-rhodium-isotopes.md - PC22-10 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/peng-chen-2022-chiral-rotation-rhodium-isotopes.md - PC22-11 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/peng-chen-2022-chiral-rotation-rhodium-isotopes.md - PC22-12 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/peng-chen-2022-chiral-rotation-rhodium-isotopes.md - PC22-13 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/peng-chen-2022-chiral-rotation-rhodium-isotopes.md - PC22-14 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/peng-chen-2022-chiral-rotation-rhodium-isotopes.md - PC22-15 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/peng-chen-2022-chiral-rotation-rhodium-isotopes.md - PC22-16 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/peng-chen-2022-chiral-rotation-rhodium-isotopes.md - PC22-17 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/peng-chen-2022-chiral-rotation-rhodium-isotopes.md - PC22-18 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/petrache-1996-rotational-bands-134pr.md - PE96-1 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/petrache-1996-rotational-bands-134pr.md - PE96-2 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/petrache-1996-rotational-bands-134pr.md - PE96-3 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/petrache-1996-rotational-bands-134pr.md - PE96-4 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/petrache-1996-rotational-bands-134pr.md - PE96-5 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/petrache-1996-rotational-bands-134pr.md - PE96-6 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/petrache-1996-rotational-bands-134pr.md - PE96-7 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/petrache-1996-rotational-bands-134pr.md - PE96-8 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/petrache-1996-rotational-bands-134pr.md - PE96-9 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/petrache-1996-rotational-bands-134pr.md - PE96-10 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/petrache-1996-rotational-bands-134pr.md - PE96-11 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/petrache-1996-rotational-bands-134pr.md - PE96-12 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/petrache-1998-highly-deformed-lifetimes-131ce-nd.md - PE98-1 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/petrache-1998-highly-deformed-lifetimes-131ce-nd.md - PE98-2 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/petrache-1998-highly-deformed-lifetimes-131ce-nd.md - PE98-3 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/petrache-1998-highly-deformed-lifetimes-131ce-nd.md - PE98-4 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/petrache-1998-highly-deformed-lifetimes-131ce-nd.md - PE98-5 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/petrache-1998-highly-deformed-lifetimes-131ce-nd.md - PE98-6 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/petrache-1998-highly-deformed-lifetimes-131ce-nd.md - PE98-7 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/petrache-1998-highly-deformed-lifetimes-131ce-nd.md - PE98-8 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/petrache-1998-highly-deformed-lifetimes-131ce-nd.md - PE98-9 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/petrache-1998-highly-deformed-lifetimes-131ce-nd.md - PE98-10 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/petrache-1998-highly-deformed-lifetimes-131ce-nd.md - PE98-11 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/petrache-1998-highly-deformed-lifetimes-131ce-nd.md - PE98-12 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/petrache-1998-highly-deformed-lifetimes-131ce-nd.md - PE98-13 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/petrache-2006-near-degenerate-chiral-misinterpretation.md - PE06-1 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/petrache-2006-near-degenerate-chiral-misinterpretation.md - PE06-2 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/petrache-2006-near-degenerate-chiral-misinterpretation.md - PE06-3 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/petrache-2018-chiral-bands-even-even-136nd.md - PE18-1 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/petrache-2018-chiral-bands-even-even-136nd.md - PE18-2 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/petrache-2018-chiral-bands-even-even-136nd.md - PE18-3 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/petrache-2018-chiral-bands-even-even-136nd.md - PE18-4 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/petrache-2018-chiral-bands-even-even-136nd.md - PE18-5 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/petrache-2018-chiral-bands-even-even-136nd.md - PE18-6 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/petrache-2018-chiral-bands-even-even-136nd.md - PE18-7 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/petrache-2018-chiral-bands-even-even-136nd.md - PE18-8 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/petrache-2018-chiral-bands-even-even-136nd.md - PE18-9 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/petrache-2018-chiral-bands-even-even-136nd.md - PE18-10 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/petrache-2018-chiral-bands-even-even-136nd.md - PE18-11 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/petrache-2018-chiral-bands-even-even-136nd.md - PE18-12 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/petrache-2018-chiral-bands-even-even-136nd.md - PE18-13 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/petrache-2018-chiral-bands-even-even-136nd.md - PE18-14 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/petrache-2018-chiral-bands-even-even-136nd.md - PE18-15 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/pfutzner-2012-radioactive-decays-stability-limits.md - PF12-2 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/pfutzner-2012-radioactive-decays-stability-limits.md - PF12-3 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/pfutzner-2012-radioactive-decays-stability-limits.md - PF12-4 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/qiang-2019-high-spin-130-131ba-87zr.md - QY19-1 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/qiang-2019-high-spin-130-131ba-87zr.md - QY19-2 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/qiang-2019-high-spin-130-131ba-87zr.md - QY19-3 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/qiang-2019-high-spin-130-131ba-87zr.md - QY19-4 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/qiang-2019-high-spin-130-131ba-87zr.md - QY19-5 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/qiang-2019-high-spin-130-131ba-87zr.md - QY19-6 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/qiang-2019-high-spin-130-131ba-87zr.md - QY19-7 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/qiang-2019-high-spin-130-131ba-87zr.md - QY19-8 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/radford-2005-130sn-coulomb-excitation-126-130sn.md - RAD05-1 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/radford-2005-130sn-coulomb-excitation-126-130sn.md - RAD05-2 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/radford-2005-130sn-coulomb-excitation-126-130sn.md - RAD05-3 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/radford-2005-130sn-coulomb-excitation-126-130sn.md - RAD05-4 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/radford-2005-130sn-coulomb-excitation-126-130sn.md - RAD05-5 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/radford-2005-130sn-coulomb-excitation-126-130sn.md - RAD05-6 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/radford-2005-130sn-coulomb-excitation-126-130sn.md - RAD05-7 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/radford-2005-130sn-coulomb-excitation-126-130sn.md - RAD05-8 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/radford-2005-130sn-coulomb-excitation-126-130sn.md - RAD05-9 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/ragnarsson-nilsson-sheline-1978-shell-structure.md - RS78-1 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/ragnarsson-nilsson-sheline-1978-shell-structure.md - RS78-2 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/rahaman-2024-40k-spectroscopy.md - RH24-1 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/rahaman-2024-40k-spectroscopy.md - RH24-3 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/reed-2016-triaxiality-rhenium.md - RE16-1 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/reed-2016-triaxiality-rhenium.md - RE16-2 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/reed-2016-triaxiality-rhenium.md - RE16-3 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/rees-2011-156er-nonyrast-gamma-soft.md - RE11-1 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/rees-2011-156er-nonyrast-gamma-soft.md - RE11-2 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/rees-2011-156er-nonyrast-gamma-soft.md - RE11-3 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/regis-2011-fast-timing-labr3.md - RG11-1 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/regis-2011-fast-timing-labr3.md - RG11-2 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/regis-2011-fast-timing-labr3.md - RG11-3 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/regis-2011-fast-timing-labr3.md - RG11-4 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/regis-2011-fast-timing-labr3.md - RG11-5 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/regis-2011-fast-timing-labr3.md - RG11-6 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/rojeeta-devi-2021-multiphonon-transverse-wobbling-133ba.md - RD21-1 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/rojeeta-devi-2021-multiphonon-transverse-wobbling-133ba.md - RD21-2 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/rojeeta-devi-2021-multiphonon-transverse-wobbling-133ba.md - RD21-3 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/rojeeta-devi-2021-multiphonon-transverse-wobbling-133ba.md - RD21-4 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/rojeeta-devi-2021-multiphonon-transverse-wobbling-133ba.md - RD21-5 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/rojeeta-devi-2021-multiphonon-transverse-wobbling-133ba.md - RD21-6 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/rose-brink-1967-phase-defined-angular-distributions.md - RB67-1 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/rose-brink-1967-phase-defined-angular-distributions.md - RB67-3 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/rose-brink-1967-phase-defined-angular-distributions.md - RB67-5 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/rose-brink-1967-phase-defined-angular-distributions.md - RB67-6 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/rose-brink-1967-phase-defined-angular-distributions.md - RB67-7 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/rose-brink-1967-phase-defined-angular-distributions.md - RB67-8 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/rose-brink-1967-phase-defined-angular-distributions.md - RB67-9 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/rose-brink-1967-phase-defined-angular-distributions.md - RB67-10 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/rose-brink-1967-phase-defined-angular-distributions.md - RB67-11 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/rose-brink-1967-phase-defined-angular-distributions.md - RB67-12 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/rose-brink-1967-phase-defined-angular-distributions.md - RB67-13 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/rose-brink-1967-phase-defined-angular-distributions.md - RB67-14 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/rose-brink-1967-phase-defined-angular-distributions.md - RB67-15 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/rose-brink-1967-phase-defined-angular-distributions.md - RB67-16 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/rose-brink-1967-phase-defined-angular-distributions.md - RB67-17 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/rose-brink-1967-phase-defined-angular-distributions.md - RB67-18 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/rose-brink-1967-phase-defined-angular-distributions.md - RB67-19 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/rose-brink-1967-phase-defined-angular-distributions.md - RB67-20 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/rose-brink-1967-phase-defined-angular-distributions.md - RB67-21 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/rose-brink-1967-phase-defined-angular-distributions.md - RB67-22 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/rose-brink-1967-phase-defined-angular-distributions.md - RB67-23 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/rose-brink-1967-phase-defined-angular-distributions.md - RB67-24 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/rose-brink-1967-phase-defined-angular-distributions.md - RB67-25 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/rose-brink-1967-phase-defined-angular-distributions.md - RB67-26 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/rose-brink-1967-phase-defined-angular-distributions.md - RB67-27 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/rose-brink-1967-phase-defined-angular-distributions.md - RB67-28 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/samanta-2019-single-particle-configurations-61ni.md - SA19-1 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/samanta-2019-single-particle-configurations-61ni.md - SA19-2 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/samanta-2019-single-particle-configurations-61ni.md - SA19-3 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/schirmer-1984-double-gamma-40ca-90zr.md - SC84-1 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/schirmer-1984-double-gamma-40ca-90zr.md - SC84-2 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/schirmer-1984-double-gamma-40ca-90zr.md - SC84-3 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/schirmer-1984-double-gamma-40ca-90zr.md - SC84-5 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/schlitt-1994-sectored-compton-polarimeter.md - SC94-1 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/schlitt-1994-sectored-compton-polarimeter.md - SC94-2 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/schlitt-1994-sectored-compton-polarimeter.md - SC94-3 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/schmid-1998-gammasphere-polarization.md - SG98-1 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/schmid-1998-gammasphere-polarization.md - SG98-2 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/schmid-1998-gammasphere-polarization.md - SG98-3 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/schonwasser-2003-wobbling-165lu.md - SW03-1 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/schonwasser-2003-wobbling-165lu.md - SW03-2 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/schonwasser-2003-wobbling-165lu.md - SW03-3 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/schonwasser-2003-wobbling-165lu.md - SW03-4 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/schonwasser-2003-wobbling-165lu.md - SW03-5 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/schonwasser-2003-wobbling-165lu.md - SW03-6 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/schonwasser-2003-wobbling-165lu.md - SW03-7 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/sensharma-2021-wobbling-motion-135pr-187au.md - SE21-1 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/sensharma-2021-wobbling-motion-135pr-187au.md - SE21-2 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/sensharma-2021-wobbling-motion-135pr-187au.md - SE21-3 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/sensharma-2021-wobbling-motion-135pr-187au.md - SE21-4 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/sensharma-2021-wobbling-motion-135pr-187au.md - SE21-5 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/sensharma-2021-wobbling-motion-135pr-187au.md - SE21-6 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/sensharma-2021-wobbling-motion-135pr-187au.md - SE21-7 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/sensharma-2021-wobbling-motion-135pr-187au.md - SE21-8 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/sheikh-jehangir-bhat-2024-tpsm-wobbling.md - SHJ24-1 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/sheikh-jehangir-bhat-2024-tpsm-wobbling.md - SHJ24-2 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/sheikh-jehangir-bhat-2024-tpsm-wobbling.md - SHJ24-3 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/sheikh-jehangir-bhat-2024-tpsm-wobbling.md - SHJ24-4 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/sheikh-jehangir-bhat-2024-tpsm-wobbling.md - SHJ24-5 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/sheikh-jehangir-bhat-2024-tpsm-wobbling.md - SHJ24-6 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/sheikh-jehangir-bhat-2024-tpsm-wobbling.md - SHJ24-7 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/sheikh-jehangir-bhat-2024-tpsm-wobbling.md - SHJ24-8 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/simons-2005-130cs-chiral-structures.md - SIM05-1 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/simons-2005-130cs-chiral-structures.md - SIM05-2 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/simons-2005-130cs-chiral-structures.md - SIM05-3 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/simons-2005-130cs-chiral-structures.md - SIM05-4 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/simons-2005-130cs-chiral-structures.md - SIM05-5 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/simons-2005-130cs-chiral-structures.md - SIM05-6 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/simons-2005-130cs-chiral-structures.md - SIM05-7 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/singh-2016-lifetime-131ce-133pr.md - SI16-2 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/singh-2016-lifetime-131ce-133pr.md - SI16-3 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/singh-2016-lifetime-131ce-133pr.md - SI16-5 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/singh-2016-lifetime-131ce-133pr.md - SI16-6 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/singh-2016-lifetime-131ce-133pr.md - SI16-7 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/singh-2016-lifetime-131ce-133pr.md - SI16-8 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/singh-2016-lifetime-131ce-133pr.md - SI16-9 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/singh-2016-lifetime-131ce-133pr.md - SI16-10 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/singh-2016-lifetime-131ce-133pr.md - SI16-11 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/singh-2016-lifetime-131ce-133pr.md - SI16-12 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/singh-2016-lifetime-131ce-133pr.md - SI16-13 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/singh-2016-lifetime-131ce-133pr.md - SI16-14 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/singh-2016-lifetime-131ce-133pr.md - SI16-15 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/singh-2016-lifetime-131ce-133pr.md - SI16-16 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/singh-2016-lifetime-131ce-133pr.md - SI16-17 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/smith-1998-rotational-bands-127-131pr.md - SM98-1 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/smith-1998-rotational-bands-127-131pr.md - SM98-2 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/smith-1998-rotational-bands-127-131pr.md - SM98-3 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/smith-1998-rotational-bands-127-131pr.md - SM98-4 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/smith-1998-rotational-bands-127-131pr.md - SM98-5 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/smith-1998-rotational-bands-127-131pr.md - SM98-6 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/smith-1998-rotational-bands-127-131pr.md - SM98-7 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/smith-1998-rotational-bands-127-131pr.md - SM98-8 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/soderstrom-2020-137ba-competitive-gamma.md - SO20-1 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/soderstrom-2020-137ba-competitive-gamma.md - SO20-2 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/soderstrom-2020-137ba-competitive-gamma.md - SO20-3 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/song-litao-2006-high-spin-179au-183au.md - line 17 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/song-litao-2006-high-spin-179au-183au.md - line 18 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/song-litao-2006-high-spin-179au-183au.md - line 19 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/song-litao-2006-high-spin-179au-183au.md - line 20 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/starosta-1999-pdco-experimental-test.md - ST99-1 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/starosta-1999-pdco-experimental-test.md - ST99-2 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/starosta-1999-pdco-experimental-test.md - ST99-3 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/starosta-2001-n75-chiral-vibrations.md - ST01-1 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/starosta-2001-n75-chiral-vibrations.md - ST01-2 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/starosta-2001-n75-chiral-vibrations.md - ST01-3 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/starosta-2001-n75-chiral-vibrations.md - ST01-4 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/starosta-2001-n75-chiral-vibrations.md - ST01-5 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/starosta-2001-n75-chiral-vibrations.md - ST01-6 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/starosta-2001-n75-chiral-vibrations.md - ST01-7 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/starosta-2001-n75-chiral-vibrations.md - ST01-8 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/starosta-2001-n75-chiral-vibrations.md - ST01-9 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/starosta-2001-n75-chiral-vibrations.md - ST01-10 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/starosta-2001-n75-chiral-vibrations.md - ST01-11 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/starosta-2001-n75-chiral-vibrations.md - ST01-12 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/stephens-1975-coriolis-rotation-alignment.md - ST75-3 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/streck-2018-behavior-collective-rotor-wobbling.md - ST18-1 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/streck-2018-behavior-collective-rotor-wobbling.md - ST18-2 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/streck-2018-behavior-collective-rotor-wobbling.md - ST18-3 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/streck-2018-behavior-collective-rotor-wobbling.md - ST18-4 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/streck-2018-behavior-collective-rotor-wobbling.md - ST18-5 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/streck-2018-behavior-collective-rotor-wobbling.md - ST18-6 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/streck-2018-behavior-collective-rotor-wobbling.md - ST18-7 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/streck-2018-behavior-collective-rotor-wobbling.md - ST18-8 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/streck-2018-behavior-collective-rotor-wobbling.md - ST18-9 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/streck-2018-behavior-collective-rotor-wobbling.md - ST18-10 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/suffert-1959-proton-capture-polarization.md - SEH59-1 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/suffert-1959-proton-capture-polarization.md - SEH59-2 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/suffert-1959-proton-capture-polarization.md - SEH59-3 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/sun-yazhou-2019-16c-single-proton-knockout-thesis.md - line 45 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/sun-yazhou-2019-16c-single-proton-knockout-thesis.md - line 46 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/sun-yazhou-2019-16c-single-proton-knockout-thesis.md - line 47 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/sun-yazhou-2019-16c-single-proton-knockout-thesis.md - line 48 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/suzuki-2008-lifetimes-103rh-104rh.md - SU08-1 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/suzuki-2008-lifetimes-103rh-104rh.md - SU08-2 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/suzuki-2008-lifetimes-103rh-104rh.md - SU08-3 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/suzuki-2008-lifetimes-103rh-104rh.md - SU08-4 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/suzuki-2008-lifetimes-103rh-104rh.md - SU08-5 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/suzuki-2008-lifetimes-103rh-104rh.md - SU08-6 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/suzuki-2008-lifetimes-103rh-104rh.md - SU08-7 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/suzuki-2008-lifetimes-103rh-104rh.md - SU08-8 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/suzuki-2008-lifetimes-103rh-104rh.md - SU08-9 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/suzuki-2008-lifetimes-103rh-104rh.md - SU08-10 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/suzuki-2008-lifetimes-103rh-104rh.md - SU08-11 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/suzuki-2008-lifetimes-103rh-104rh.md - SU08-12 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/suzuki-2008-lifetimes-103rh-104rh.md - SU08-13 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/suzuki-2008-lifetimes-103rh-104rh.md - SU08-14 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/suzuki-2008-lifetimes-103rh-104rh.md - SU08-15 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/suzuki-kimura-2021-n28-triaxiality.md - SK21-1 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/suzuki-kimura-2021-n28-triaxiality.md - SK21-2 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/suzuki-kimura-2021-n28-triaxiality.md - SK21-3 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/taras-1970-particle-gamma-angular-correlations.md - T70-4 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/timar-2007-high-spin-105ag-chiral-search.md - TI07-1 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/timar-2007-high-spin-105ag-chiral-search.md - TI07-2 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/timar-2007-high-spin-105ag-chiral-search.md - TI07-3 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/timar-2007-high-spin-105ag-chiral-search.md - TI07-4 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/timar-2007-high-spin-105ag-chiral-search.md - TI07-5 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/timar-2007-high-spin-105ag-chiral-search.md - TI07-6 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/timar-2007-high-spin-105ag-chiral-search.md - TI07-7 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/timar-2007-high-spin-105ag-chiral-search.md - TI07-8 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/timar-2007-high-spin-105ag-chiral-search.md - TI07-9 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/timar-2007-high-spin-105ag-chiral-search.md - TI07-10 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/timar-2007-high-spin-105ag-chiral-search.md - TI07-11 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/timar-2007-high-spin-105ag-chiral-search.md - TI07-12 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/timar-2007-high-spin-105ag-chiral-search.md - TI07-13 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/timar-2007-high-spin-105ag-chiral-search.md - TI07-14 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/timar-2007-high-spin-105ag-chiral-search.md - TI07-15 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/timar-2007-high-spin-105ag-chiral-search.md - TI07-SI-1 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/timar-2019-transverse-wobbling-105pd.md - TI19-1 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/timar-2019-transverse-wobbling-105pd.md - TI19-2 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/timar-2019-transverse-wobbling-105pd.md - TI19-3 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/timar-2019-transverse-wobbling-105pd.md - TI19-4 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/timar-2019-transverse-wobbling-105pd.md - TI19-5 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/timar-2019-transverse-wobbling-105pd.md - TI19-6 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/timar-2019-transverse-wobbling-105pd.md - TI19-7 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/twin-1970-polarization-angular-correlation-40k.md - TW70-1 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/twin-1970-polarization-angular-correlation-40k.md - TW70-2 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/twin-1970-polarization-angular-correlation-40k.md - TW70-3 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/vaillancourt-taras-1974-three-multipole-formulas.md - VT74-1 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/varner-2005-coulomb-excitation-132-134sn.md - VAR05-1 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/varner-2005-coulomb-excitation-132-134sn.md - VAR05-2 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/varner-2005-coulomb-excitation-132-134sn.md - VAR05-3 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/varner-2005-coulomb-excitation-132-134sn.md - VAR05-4 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/varner-2005-coulomb-excitation-132-134sn.md - VAR05-5 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/varner-2005-coulomb-excitation-132-134sn.md - VAR05-6 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/vonderwerth-1995-compton-polarimeters.md - VW95-1 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/vonderwerth-1995-compton-polarimeters.md - VW95-3 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/wadsworth-1977-61ni-levels.md - WA77-1 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/wadsworth-1977-61ni-levels.md - WA77-2 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/wadsworth-1977-61ni-levels.md - WA77-3 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/walker-dracoulis-2001-exotic-isomers.md - WD01-1 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/walker-dracoulis-2001-exotic-isomers.md - WD01-2 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/walker-dracoulis-2001-exotic-isomers.md - WD01-3 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/walz-2015-competitive-double-gamma-137ba.md - W15-1 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/walz-2015-competitive-double-gamma-137ba.md - W15-2 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/walz-2015-competitive-double-gamma-137ba.md - W15-3 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/walz-2015-competitive-double-gamma-137ba.md - W15-4 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/wang-2013-high-spin-104ag.md - W13-1 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/wang-2013-high-spin-104ag.md - W13-2 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/wang-2013-high-spin-104ag.md - W13-3 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/wang-2013-high-spin-104ag.md - W13-4 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/wang-2013-high-spin-104ag.md - W13-5 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/wang-2013-high-spin-104ag.md - W13-6 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/wang-2013-high-spin-104ag.md - W13-7 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/wang-2013-high-spin-104ag.md - W13-8 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/wang-2013-high-spin-104ag.md - W13-9 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/wang-2013-high-spin-104ag.md - W13-10 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/wang-2013-high-spin-104ag.md - W13-11 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/wang-2013-high-spin-104ag.md - W13-12 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/wang-2013-high-spin-104ag.md - W13-13 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/wang-2013-high-spin-104ag.md - W13-14 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/wang-2013-high-spin-104ag.md - W13-15 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/wang-2013-high-spin-195au-195pt.md - WS13-1 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/wang-2013-high-spin-195au-195pt.md - WS13-2 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/wang-2013-high-spin-195au-195pt.md - WS13-3 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/wang-2013-high-spin-195au-195pt.md - WS13-4 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/wang-2013-high-spin-195au-195pt.md - WS13-5 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/wang-2013-high-spin-195au-195pt.md - WS13-6 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/wang-2013-high-spin-195au-195pt.md - WS13-7 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/wang-2013-high-spin-195au-195pt.md - WS13-8 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/wang-2013-high-spin-195au-195pt.md - WS13-9 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/wang-2013-high-spin-195au-195pt.md - WS13-10 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/wang-2013-high-spin-195au-195pt.md - WS13-11 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/wang-2013-high-spin-195au-195pt.md - WS13-12 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/wang-2013-high-spin-195au-195pt.md - WS13-13 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/wang-2014-high-spin-104ag-91-92zr.md - WG14-1 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/wang-2014-high-spin-104ag-91-92zr.md - WG14-2 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/wang-2014-high-spin-104ag-91-92zr.md - WG14-3 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/wang-2014-high-spin-104ag-91-92zr.md - WG14-4 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/wang-2014-high-spin-104ag-91-92zr.md - WG14-5 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/wang-2014-high-spin-104ag-91-92zr.md - WG14-6 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/wang-2014-high-spin-104ag-91-92zr.md - WG14-7 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/wang-2014-high-spin-104ag-91-92zr.md - WG14-8 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/wang-2014-high-spin-104ag-91-92zr.md - WG14-9 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/wang-2014-high-spin-104ag-91-92zr.md - WG14-10 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/wang-2020-recent-progress-multiple-chiral-doublets.md - WA20-1 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/wang-2020-recent-progress-multiple-chiral-doublets.md - WA20-2 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/wang-2020-recent-progress-multiple-chiral-doublets.md - WA20-3 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/wang-2020-recent-progress-multiple-chiral-doublets.md - WA20-4 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/wang-2020-recent-progress-multiple-chiral-doublets.md - WA20-5 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/wang-2020-recent-progress-multiple-chiral-doublets.md - WA20-6 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/wang-2020-recent-progress-multiple-chiral-doublets.md - WA20-7 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/wang-2020-recent-progress-multiple-chiral-doublets.md - WA20-8 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/wang-2020-recent-progress-multiple-chiral-doublets.md - WA20-9 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/wang-2020-recent-progress-multiple-chiral-doublets.md - WA20-10 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/wang-2020-recent-progress-multiple-chiral-doublets.md - WA20-11 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/wang-2020-recent-progress-multiple-chiral-doublets.md - WA20-12 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/wang-2020-recent-progress-multiple-chiral-doublets.md - WA20-13 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/wang-2020-recent-progress-multiple-chiral-doublets.md - WA20-14 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/wang-2020-recent-progress-multiple-chiral-doublets.md - WA20-15 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/wang-2020-recent-progress-multiple-chiral-doublets.md - WA20-16 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/wang-2020-recent-progress-multiple-chiral-doublets.md - WA20-17 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/wang-2020-recent-progress-multiple-chiral-doublets.md - WA20-18 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/wang-2023-experimental-studies-nuclear-chirality-china.md - WC23-1 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/wang-2023-experimental-studies-nuclear-chirality-china.md - WC23-2 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/wang-2023-experimental-studies-nuclear-chirality-china.md - WC23-3 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/wang-2023-experimental-studies-nuclear-chirality-china.md - WC23-4 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/wang-2023-experimental-studies-nuclear-chirality-china.md - WC23-5 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/wang-2023-experimental-studies-nuclear-chirality-china.md - WC23-6 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/wang-2023-experimental-studies-nuclear-chirality-china.md - WC23-7 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/wang-2023-experimental-studies-nuclear-chirality-china.md - WC23-8 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/wang-2023-experimental-studies-nuclear-chirality-china.md - WC23-9 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/wang-2023-experimental-studies-nuclear-chirality-china.md - WC23-10 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/wang-2023-experimental-studies-nuclear-chirality-china.md - WC23-11 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/wang-2023-experimental-studies-nuclear-chirality-china.md - WC23-12 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/wang-2023-experimental-studies-nuclear-chirality-china.md - WC23-13 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/wang-2023-experimental-studies-nuclear-chirality-china.md - WC23-14 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/wang-2023-experimental-studies-nuclear-chirality-china.md - WC23-15 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/wang-2023-experimental-studies-nuclear-chirality-china.md - WC23-16 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/wang-2023-experimental-studies-nuclear-chirality-china.md - WC23-17 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/wang-2023-experimental-studies-nuclear-chirality-china.md - WC23-18 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/wang-enhong-2015-neutron-rich-fission-fragments.md - WE15-1 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/wang-enhong-2015-neutron-rich-fission-fragments.md - WE15-2 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/wang-enhong-2015-neutron-rich-fission-fragments.md - WE15-3 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/wang-enhong-2015-neutron-rich-fission-fragments.md - WE15-4 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/wang-enhong-2015-neutron-rich-fission-fragments.md - WE15-5 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/wang-enhong-2015-neutron-rich-fission-fragments.md - WE15-6 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/wang-enhong-2015-neutron-rich-fission-fragments.md - WE15-7 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/wang-enhong-2015-neutron-rich-fission-fragments.md - WE15-8 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/wang-haixia-2012-173w-128i-high-spin-thesis.md - WHX12-1 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/wang-haixia-2012-173w-128i-high-spin-thesis.md - WHX12-2 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/wang-haixia-2012-173w-128i-high-spin-thesis.md - WHX12-3 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/wang-haixia-2012-173w-128i-high-spin-thesis.md - WHX12-4 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/wang-haixia-2012-173w-128i-high-spin-thesis.md - WHX12-5 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/wang-haixia-2012-173w-128i-high-spin-thesis.md - WHX12-6 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/wang-huale-2006-170re-176ir-thesis.md - WHL06-1 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/wang-huale-2006-170re-176ir-thesis.md - WHL06-2 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/wang-huale-2006-170re-176ir-thesis.md - WHL06-3 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/wang-huale-2006-170re-176ir-thesis.md - WHL06-4 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/wang-huale-2006-170re-176ir-thesis.md - WHL06-5 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/wang-huale-2006-170re-176ir-thesis.md - WHL06-6 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/wang-huale-2006-170re-176ir-thesis.md - WHL06-7 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/wang-huale-2006-170re-176ir-thesis.md - WHL06-8 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/wang-jianguo-2010-high-spin-103-104nb-140pm.md - WJ10-1 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/wang-jianguo-2010-high-spin-103-104nb-140pm.md - WJ10-2 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/wang-jianguo-2010-high-spin-103-104nb-140pm.md - WJ10-3 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/wang-jianguo-2010-high-spin-103-104nb-140pm.md - WJ10-4 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/wang-jianguo-2010-high-spin-103-104nb-140pm.md - WJ10-5 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/wang-jianguo-2010-high-spin-103-104nb-140pm.md - WJ10-6 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/wang-jianguo-2010-high-spin-103-104nb-140pm.md - WJ10-7 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/wang-jianguo-2010-high-spin-103-104nb-140pm.md - WJ10-8 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/wang-jianguo-2010-high-spin-103-104nb-140pm.md - WJ10-9 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/wang-jianguo-2010-high-spin-103-104nb-140pm.md - WJ10-10 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/wang-jianguo-2010-high-spin-103-104nb-140pm.md - WJ10-11 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/wang-jianguo-2010-high-spin-103-104nb-140pm.md - WJ10-12 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/wang-shouyu-2005-126cs-123i-chiral-thesis.md - WS05-1 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/wang-shouyu-2005-126cs-123i-chiral-thesis.md - WS05-2 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/wang-shouyu-2005-126cs-123i-chiral-thesis.md - WS05-3 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/wang-shouyu-2005-126cs-123i-chiral-thesis.md - WS05-4 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/wang-shouyu-2005-126cs-123i-chiral-thesis.md - WS05-5 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/wang-shouyu-2005-126cs-123i-chiral-thesis.md - WS05-6 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/williams-1975-61ni-low-lying-levels.md - WI75-1 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/williams-1975-61ni-low-lying-levels.md - WI75-2 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/wu-2021-general-purpose-digital-daq-waveform-analysis.md - line 44 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/wu-2021-general-purpose-digital-daq-waveform-analysis.md - line 45 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/wu-2021-general-purpose-digital-daq-waveform-analysis.md - line 46 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/wu-hongyi-2020-general-purpose-digital-daq-thesis.md - line 49 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/wu-hongyi-2020-general-purpose-digital-daq-thesis.md - line 50 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/wu-hongyi-2020-general-purpose-digital-daq-thesis.md - line 51 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/wu-hongyi-2020-general-purpose-digital-daq-thesis.md - line 52 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/wu-hongyi-2020-general-purpose-digital-daq-thesis.md - line 53 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/wu-hongyi-2020-general-purpose-digital-daq-thesis.md - line 54 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/wu-hongyi-2020-general-purpose-digital-daq-thesis.md - line 55 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/wu-hongyi-2020-general-purpose-digital-daq-thesis.md - line 56 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/wu-hongyi-2020-general-purpose-digital-daq-thesis.md - line 57 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/wu-hongyi-2020-general-purpose-digital-daq-thesis.md - line 58 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/xiao-2022-chirality-octupole-correlations-74as.md - XA22-1 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/xiao-2022-chirality-octupole-correlations-74as.md - XA22-2 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/xiao-2022-chirality-octupole-correlations-74as.md - XA22-3 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/xiao-2022-chirality-octupole-correlations-74as.md - XA22-4 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/xiao-2022-chirality-octupole-correlations-74as.md - XA22-5 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/xiao-2022-chirality-octupole-correlations-74as.md - XA22-6 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/xiao-2022-chirality-octupole-correlations-74as.md - XA22-7 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/xiao-2022-chirality-octupole-correlations-74as.md - XA22-8 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/xiao-2022-chirality-octupole-correlations-74as.md - XA22-9 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/xiao-2022-chirality-octupole-correlations-74as.md - XA22-10 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/xiao-2022-chirality-octupole-correlations-74as.md - XA22-11 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/xiao-2022-chirality-octupole-correlations-74as.md - XA22-12 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/xiao-2022-chirality-octupole-correlations-74as.md - XA22-13 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/xiao-2022-chirality-octupole-correlations-74as.md - XA22-14 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/xiao-2022-chirality-octupole-correlations-74as.md - XA22-15 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/xiao-2022-chirality-octupole-correlations-74as.md - XA22-16 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/xiao-2022-chirality-octupole-correlations-74as.md - XA22-17 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/xiao-2022-chirality-octupole-correlations-74as.md - XA22-18 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/xiao-2022-chirality-octupole-correlations-74as.md - DD-20260910-74AS-03 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/xiao-xiao-2019-high-spin-74as-thesis.md - line 53 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/xiao-xiao-2019-high-spin-74as-thesis.md - line 54 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/xiao-xiao-2019-high-spin-74as-thesis.md - line 55 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/xiao-xiao-2019-high-spin-74as-thesis.md - line 56 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/xiong-wang-2019-nuclear-chiral-doublet-data-tables.md - XW19-1 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/xiong-wang-2019-nuclear-chiral-doublet-data-tables.md - XW19-2 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/xiong-wang-2019-nuclear-chiral-doublet-data-tables.md - XW19-3 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/xiong-wang-2019-nuclear-chiral-doublet-data-tables.md - XW19-4 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/xiong-wang-2019-nuclear-chiral-doublet-data-tables.md - XW19-5 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/xiong-wang-2019-nuclear-chiral-doublet-data-tables.md - XW19-6 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/xiong-wang-2019-nuclear-chiral-doublet-data-tables.md - XW19-7 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/xiong-wang-2019-nuclear-chiral-doublet-data-tables.md - XW19-8 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/xiong-wang-2019-nuclear-chiral-doublet-data-tables.md - XW19-9 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/xiong-wang-2019-nuclear-chiral-doublet-data-tables.md - XW19-10 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/xiong-wang-2019-nuclear-chiral-doublet-data-tables.md - XW19-11 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/xiong-wang-2019-nuclear-chiral-doublet-data-tables.md - XW19-12 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/xiong-wang-2019-nuclear-chiral-doublet-data-tables.md - XW19-13 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/xiong-wang-2019-nuclear-chiral-doublet-data-tables.md - XW19-14 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/xiong-wang-2019-nuclear-chiral-doublet-data-tables.md - XW19-15 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/yamazaki-1967-aligned-angular-coefficients.md - YA67-1 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/yamazaki-1967-aligned-angular-coefficients.md - YA67-2 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/yamazaki-1967-aligned-angular-coefficients.md - YA67-3 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/yan-duo-2015-csr-coulomb-excitation-detector-system-thesis.md - line 45 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/yan-duo-2015-csr-coulomb-excitation-detector-system-thesis.md - line 46 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/yan-duo-2015-csr-coulomb-excitation-detector-system-thesis.md - line 47 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/yan-duo-2015-csr-coulomb-excitation-detector-system-thesis.md - line 48 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/ye-2024-physics-exotic-nuclei.md - YE24-1 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/ye-2024-physics-exotic-nuclei.md - YE24-2 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/ye-2024-physics-exotic-nuclei.md - YE24-3 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/ye-2024-physics-exotic-nuclei.md - YE24-4 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/ye-2024-physics-exotic-nuclei.md - YE24-5 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/ye-2024-physics-exotic-nuclei.md - YE24-6 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/ye-2024-physics-exotic-nuclei.md - YE24-7 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/ye-2024-physics-exotic-nuclei.md - YE24-8 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/ye-2024-physics-exotic-nuclei.md - YE24-9 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/ye-2024-physics-exotic-nuclei.md - YE24-10 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/yue-ke-2010-hirfl-csr-gamma-ball-csi-thesis.md - line 45 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/yue-ke-2010-hirfl-csr-gamma-ball-csi-thesis.md - line 46 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/yue-ke-2010-hirfl-csr-gamma-ball-csi-thesis.md - line 47 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/yue-ke-2010-hirfl-csr-gamma-ball-csi-thesis.md - line 48 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/zhang-2022-shape-coexistence-187pb-188bi-188po.md - line 26 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/zhang-2022-shape-coexistence-187pb-188bi-188po.md - line 27 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/zhang-2022-shape-coexistence-187pb-188bi-188po.md - line 28 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/zhang-2022-shape-coexistence-187pb-188bi-188po.md - line 29 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/zhang-2022-shape-coexistence-187pb-188bi-188po.md - line 30 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/zheng-2004-high-spin-145tb-157yb.md - ZY04-1 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/zheng-2004-high-spin-145tb-157yb.md - ZY04-2 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/zheng-2004-high-spin-145tb-157yb.md - ZY04-3 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/zheng-2004-high-spin-145tb-157yb.md - ZY04-4 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/zheng-2004-high-spin-145tb-157yb.md - ZY04-5 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/zheng-2004-high-spin-145tb-157yb.md - ZY04-6 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/zheng-2004-high-spin-145tb-157yb.md - ZY04-7 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/zheng-2004-high-spin-145tb-157yb.md - ZY04-8 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/zheng-2004-high-spin-145tb-157yb.md - ZY04-9 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/zheng-2004-high-spin-145tb-157yb.md - ZY04-10 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/zheng-2004-high-spin-145tb-157yb.md - ZY04-11 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/zheng-2013-linear-polarization-91ru.md - Z13-5 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/zheng-2021-collectivity-shape-119cs-119ba-118cs.md - line 23 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/zheng-2021-collectivity-shape-119cs-119ba-118cs.md - line 24 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/zheng-2021-collectivity-shape-119cs-119ba-118cs.md - line 25 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/zheng-2021-collectivity-shape-119cs-119ba-118cs.md - line 26 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/zhou-houbing-2012-101pd-rdt-thesis.md - line 50 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/zhou-houbing-2012-101pd-rdt-thesis.md - line 51 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/zhou-houbing-2012-101pd-rdt-thesis.md - line 52 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/zhou-houbing-2012-101pd-rdt-thesis.md - line 53 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/zhou-houbing-2012-101pd-rdt-thesis.md - line 54 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/zhou-houbing-2012-101pd-rdt-thesis.md - line 55 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/zhou-houbing-2012-101pd-rdt-thesis.md - line 56 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/zhou-houbing-2012-101pd-rdt-thesis.md - line 57 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/zhu-2003-135nd-composite-chiral-pair.md - ZH03-1 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/zhu-2003-135nd-composite-chiral-pair.md - ZH03-2 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/zhu-2003-135nd-composite-chiral-pair.md - ZH03-3 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/zhu-2003-135nd-composite-chiral-pair.md - ZH03-4 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/zhu-2003-135nd-composite-chiral-pair.md - ZH03-5 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/zhu-2003-135nd-composite-chiral-pair.md - ZH03-6 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/zhu-2003-135nd-composite-chiral-pair.md - ZH03-7 awaits human review
+[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/zhu-2003-135nd-composite-chiral-pair.md - ZH03-8 awaits human review
+GOVERNANCE page_unreviewed=483 source_unreviewed=210 claims=2074 claim_needs_review=1400 claim_missing_locator=0 claim_missing_kind=0 source_missing_raw_file=0 source_missing_citation_key=90
+SUMMARY pages=561 wikilinks=5270 hashes=270 errors=0 warnings=93 info=1400

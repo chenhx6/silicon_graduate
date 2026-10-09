@@ -3,7 +3,7 @@ type: source
 title: "Timár et al. 2007 - High-Spin Structure of 105Ag: Search for Chiral Doublet Bands"
 aliases: [Timar 2007 105Ag, 105Ag chiral search]
 created: 2026-08-11
-updated: 2026-08-11
+updated: 2026-10-09
 status: active
 review_status: unreviewed
 source_type: journal-article
@@ -34,6 +34,10 @@ tags: [experiment-ingest, project-ingest, a100, odd-a, nuclear-chirality, chiral
 ## Bibliographic Record
 
 Physical Review C 76, 024307 (2007), DOI `10.1103/PhysRevC.76.024307`. The protected BibTeX record is `timar_2007_Highspinstructure`.
+
+## Supporting Information Availability
+
+The official APS article page was checked on 2026-10-09. It returned HTTP 200 with no SI/attachment link; the supplemental resolver returned to the article record at `#supplemental`, and the standard supplemental-PDF endpoint returned HTTP 404. No SI file was found on these checked publisher routes; separately hosted author material is outside this check.
 
 ## Scope and Reading Depth
 
@@ -91,6 +95,7 @@ The source extends/corrects the `105Ag` A–G level scheme. It finds no Band-E s
 | TI07-13 | No dedicated TAC calculation was performed for D/G; cited TAC only predicts triaxiality for Band C, assigned the same broad quasiparticle family. | model-boundary | direct | PDF p.9 | true |
 | TI07-14 | The paper cannot distinguish chiral geometry from simple mixing of `πg9/2⊗νh11/2g7/2` and `πg9/2⊗νh11/2d5/2` configurations. | author-interpretation | direct | PDF p.9 | true |
 | TI07-15 | Because D/G have natural parity, the authors warn that their similarities may arise from excitations without chiral angular-momentum coupling. | author-interpretation | direct | PDF p.9, Summary | true |
+| TI07-SI-1 | The APS article page exposes no SI/attachment link; the supplemental resolver returns to the article record and the standard SI PDF endpoint returns HTTP 404. No SI file was found on the checked publisher routes. | evidence-boundary | direct | APS article `https://journals.aps.org/prc/abstract/10.1103/PhysRevC.76.024307`; resolver `https://link.aps.org/supplemental/10.1103/PhysRevC.76.024307`; standard endpoint `https://journals.aps.org/prc/supplemental/10.1103/PhysRevC.76.024307/PhysRevC.76.024307.supplemental.pdf` | true |
 
 ## Nuclear Structure Information
 

@@ -1,0 +1,148 @@
+{
+  "schema_version": 1,
+  "receipt": "/workspace/wiki/outputs/learning-daily/20261008-DAY9-be2-bm1-reduced-matrix-elements-strengths-run-01/run.json",
+  "thread": "01a11a87-45cf-7781-a014-f992aafb49e2",
+  "run_date": "2026-10-08",
+  "day_index": 9,
+  "study_started_at": "2026-10-08T16:00:01.836897+08:00",
+  "deadline": "2026-10-09T15:00:00+08:00",
+  "closeout_end": "2026-10-09T16:00:00+08:00",
+  "checkpoint_hours": 2.0,
+  "sent_event_ids": [
+    "checkpoint-003",
+    "checkpoint-011",
+    "closeout"
+  ],
+  "events": {
+    "checkpoint-001": {
+      "status": "skipped",
+      "attempts": 0,
+      "reason": "missed checkpoint superseded; no catch-up burst"
+    },
+    "checkpoint-002": {
+      "status": "skipped",
+      "attempts": 0,
+      "reason": "missed checkpoint superseded; no catch-up burst"
+    },
+    "checkpoint-003": {
+      "status": "queued",
+      "attempts": 1,
+      "attempted_at": "2026-10-08T22:36:32.865129+08:00",
+      "attempt_history": [
+        {
+          "attempt": 1,
+          "finished_at": "2026-10-08T22:36:36.041544+08:00",
+          "returncode": 0,
+          "timed_out": false,
+          "stdout": "Queued message 01a11bf1-d50a-7883-a3e4-ba5935278bb9 for thread 01a11a87-45cf-7781-a014-f992aafb49e2.\n",
+          "stderr": ""
+        }
+      ],
+      "queued_at": "2026-10-08T22:36:36.041544+08:00",
+      "delivery_observed": true
+    },
+    "checkpoint-004": {
+      "status": "skipped",
+      "attempts": 0,
+      "reason": "unacknowledged checkpoint already queued; coalesced"
+    },
+    "checkpoint-005": {
+      "status": "skipped",
+      "attempts": 0,
+      "reason": "unacknowledged checkpoint already queued; coalesced"
+    },
+    "checkpoint-006": {
+      "status": "skipped",
+      "attempts": 0,
+      "reason": "unacknowledged checkpoint already queued; coalesced"
+    },
+    "checkpoint-007": {
+      "status": "skipped",
+      "attempts": 0,
+      "reason": "unacknowledged checkpoint already queued; coalesced"
+    },
+    "checkpoint-008": {
+      "status": "skipped",
+      "attempts": 0,
+      "reason": "unacknowledged checkpoint already queued; coalesced"
+    },
+    "checkpoint-009": {
+      "status": "skipped",
+      "attempts": 0,
+      "reason": "unacknowledged checkpoint already queued; coalesced"
+    },
+    "checkpoint-010": {
+      "status": "skipped",
+      "attempts": 0,
+      "reason": "unacknowledged checkpoint already queued; coalesced"
+    },
+    "checkpoint-011": {
+      "status": "queued",
+      "attempts": 1,
+      "attempted_at": "2026-10-09T14:00:03.009097+08:00",
+      "attempt_history": [
+        {
+          "attempt": 1,
+          "finished_at": "2026-10-09T14:00:06.141296+08:00",
+          "returncode": 0,
+          "timed_out": false,
+          "stdout": "Queued message 01a11f3f-52dc-75c3-a470-48a44688d6ea for thread 01a11a87-45cf-7781-a014-f992aafb49e2.\n",
+          "stderr": ""
+        }
+      ],
+      "queued_at": "2026-10-09T14:00:06.141296+08:00",
+      "delivery_observed": false
+    },
+    "closeout": {
+      "status": "queued",
+      "attempts": 1,
+      "attempted_at": "2026-10-09T15:07:20.834597+08:00",
+      "attempt_history": [
+        {
+          "attempt": 1,
+          "finished_at": "2026-10-09T15:07:24.694046+08:00",
+          "returncode": 0,
+          "timed_out": false,
+          "stdout": "Queued message 01a11f7c-f269-71b1-8814-15f8bb196b95 for thread 01a11a87-45cf-7781-a014-f992aafb49e2.\n",
+          "stderr": ""
+        }
+      ],
+      "queued_at": "2026-10-09T15:07:24.694046+08:00",
+      "delivery_observed": false
+    },
+    "closeout-reminder": {
+      "status": "skipped",
+      "attempts": 0,
+      "reason": "run receipt completed; no new queued messages"
+    },
+    "overdue": {
+      "status": "skipped",
+      "attempts": 0,
+      "reason": "run receipt completed; no new queued messages"
+    }
+  },
+  "queue_success_semantics": "exit 0 means queued; delivery has not been observed",
+  "first_supervisor_started_at": "2026-10-08T22:36:32.596038+08:00",
+  "first_start_origin": "first-start",
+  "status": "completed",
+  "pid": 211542,
+  "supervisor_started_at": "2026-10-09T15:07:20.311927+08:00",
+  "session_execution_observed": false,
+  "farmer_observation": {
+    "path": "/workspace/wiki/tmp/farmer/state.json",
+    "observation": "observed",
+    "action": "continue",
+    "status": "running",
+    "event_at": "2026-10-09T15:12:14.633000+08:00",
+    "reason": "fresh-thread-event",
+    "file_age_seconds": 1.0481913089752197
+  },
+  "queue_paused": false,
+  "heartbeat_at": "2026-10-09T15:23:23.638593+08:00",
+  "phase": "closeout-window",
+  "receipt_status": "completed",
+  "pending_checkpoint_ids": [],
+  "stop_reason": "run receipt completed; reminder delivery stopped",
+  "stopped_at": "2026-10-09T15:23:25.225082+08:00",
+  "notification_errors": []
+}

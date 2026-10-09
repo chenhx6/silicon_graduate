@@ -3,7 +3,7 @@ type: source
 title: "Mukhopadhyay et al. 2008 - Electromagnetic transition rates in high-spin bands in 136Nd"
 aliases: [Mukhopadhyay 2008 136Nd transition rates]
 created: 2026-09-21
-updated: 2026-10-08
+updated: 2026-10-09
 status: ai-draft
 review_status: unreviewed
 source_type: experiment-and-model
@@ -36,6 +36,18 @@ tags: [136Nd, chirality, band-mixing, DSAM, transition-rates]
 ## Bibliographic Record
 
 - S. Mukhopadhyay *et al.*, *Phys. Rev. C* **78**, 034311 (2008), DOI `10.1103/PhysRevC.78.034311`.
+
+## Supporting Information Availability
+
+Checked the official APS article page and SI routes on 2026-10-09 after the user authorized obtaining needed supplements. The landing page returned HTTP 200 with no SI/attachment link; the supplemental resolver returned to the article page at `#supplemental`, and the standard supplemental-PDF endpoint returned HTTP 404. No SI file was found on these checked APS endpoints; separately hosted author material is not ruled out.
+
+| ID | Statement | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| MU08-SI-1 | The APS article landing page exposes no SI/attachment link; its supplemental resolver returns to the article record, and the standard SI PDF endpoint returns 404. No SI file was found on the checked official APS endpoints. | evidence-boundary | direct | APS article `https://journals.aps.org/prc/abstract/10.1103/PhysRevC.78.034311`; resolver `https://link.aps.org/supplemental/10.1103/PhysRevC.78.034311`; standard endpoint `https://journals.aps.org/prc/supplemental/10.1103/PhysRevC.78.034311/PhysRevC.78.034311.supplemental.pdf` | true |
+
+## Correction and Erratum Lookup
+
+Checked the Crossref record and official APS article page on 2026-10-09. Crossref returns an empty `relation` object with no `update-to` relation; the APS page returns HTTP 200 but exposes no correction/erratum link. No correction was found through these endpoints. This does not rule out separately indexed notices outside the checked records.
 
 ## Scope and Reading Depth
 
@@ -97,7 +109,7 @@ The two negative-parity bands cross near `I≈17ℏ` and have strong linking tra
 | 2 | 7221.5 | 19− → 18− | 465.5 | 0.88(9) |
 | 2 | 7221.5 | 19− → 17− | 899.7 | 0.12(2) |
 
-每个母态印出分支的中心值之和均为1，只证明表中归一化，不证明没有漏枝或非γ通道。Table I 没有印出各能量的不确定度，也没有明确写出 branching ratio 是仅对 photon intensities 归一化、对全部 level decays 归一化，还是已含哪种 IC 修正；正文只说明采用 Chiara et al. [16] 的提取过程。本次没有将该引用的未知细节补成独立输入。其解释须保持条件，不能从 quoted B 值反解 ICC 再作为验证证据。
+每个母态印出分支的中心值之和均为1，只证明表中归一化，不证明没有漏枝或非γ通道。Table I 没有印出各能量的不确定度，也没有明确写出 branching ratio 是仅对 photon intensities 归一化、对全部 level decays 归一化，还是已含哪种 IC 修正。引用的 Chiara et al. [16] 全文已从 APS 官方 publisher endpoint 取得并定向核读；该文以 fitted level lifetime、observed branching ratios 与内转换修正构造 partial lifetimes，但不提供 MU08 的 136Nd line-by-line branch denominator 或绝对 photon-per-parent ledger。见 [[chiara-2001-108-110in-shears-band-lifetimes]] CHI01-2/3。故 MU08 branch basis 仍需条件化，不能从 quoted B 值反解 ICC、分支分母或协方差再作为验证。
 
 以 `757.4 keV` 分支作纯 E2 的寿命—强度重算，是沿作者 B(E2) 输出所用多极赋值的有条件检查；Table I 的 spin change 本身不等于独立测得所有高阶振幅为零。在 gamma-only、branching ratio 可作每次 level decay 的 photon fraction、忽略能量误差且 τ/b 的 quoted errors 独立这组条件下，现代常数重构给 `B(E2)=0.14034 ± 0.02321 e²b²`，与作者 `0.14(2)` 的中心值一致。完整单位、总分支与 photon 分支的区别和协方差式见 [[high-spin-lifetime-strength-deformation]]；这个重算没有重新测量 τ 或验证 IC/feeding 模型。
 
@@ -141,6 +153,12 @@ The different `B(E2)` patterns contradict treating the two near-degenerate bands
 | MU08-7 | 在作者原two-parent branch数字和pure-mode条件下，独立FO/NH理论inputs给很小的nominal rate/B变化；打印相同不证明未舍入模型相同，也不识别本文实际vacancy/branch处理。没有用quoted B反解inputs或新增独立实验。 | our-inference | indirect | 原输入printed034311-3/PDF3 TableI；KB08 p207/PDF6 Sec4.1.1及dated supplement KB08-D8-5；rates由fixedE/mode/τ按现有input formulas重构 | true |
 | MU08-8 | Band1 I18→I16 quotedB(E2)=0.14(2)e²b²在同physicaloperator/固定spin下派生reverseB≈0.157±0.022e²b²、BM magnitude≈2.276eb。两方向误差确定性相关(rank1)，不是新upward测量或反向γ寿命，未含systematic与原extraction依赖保留。 | our-inference | indirect | printed034311-4/PDF4 TableII Band1I18及caption；p3 TableI 757.4/Ex6711.4 group与stopping段；LKH82 p121 Eq2.3a–c、p122 Eq2.11 | true |
 | MU08-9 | 同I18母态401.2/757.4不同支路的条件强度比可消共同τ/归一因子，true totalbranch仍有逐支非γfactor；由同输入派生的ratio不是独立确认。原三分支quoted误差不自动定义normalized joint covariance。 | our-inference | indirect | printed034311-3/PDF3 TableI Ex6711.4与pureM1/15%systematic段；printed034311-4/PDF4 TableII I18；LKH82 p121 Eqs2.2–2.3；33-check exact log/ratio specialization | true |
+| MU08-10 | Ref.[16] is C. J. Chiara et al., “Spectroscopy in the Z=49 108,110In isotopes: Lifetime measurements in shears bands,” *Phys. Rev. C* 64, 054314 (2001), DOI `10.1103/PhysRevC.64.054314`. Its APS direct publisher PDF was publicly retrievable without login in this run (PDF hash is in the cited source page); Unpaywall still labels it closed with no repository copy, so it is not described as OA-licensed. The identity and article text are now verified; method details and transfer boundary are separated into MU08-11/12. | source-identity-and-access-boundary | mixed | printed 034311-6 / PDF p.6, Ref.[16]; Crossref DOI metadata; APS article/PDF record; Chiara source page CHI01-1 | true |
+| MU08-11 | Table I labels the entries as branching ratios for transitions depopulating the same level; the following paragraph says they were extracted in the present work following Chiara et al. [16] and explicitly notes that the earlier works [17,18] provide no information on these branching ratios. Printed row centers sum to 1, but the caption/prose does not state whether the denominator is photon intensities, total transitions including IC, or an exhaustive all-channel inventory. | evidence-boundary | direct | printed 034311-3 / PDF p.3, Table I caption and following paragraph, including sentence on Refs.[17,18] | true |
+| MU08-12 | The cited Chiara procedure obtains partial lifetimes from fitted level lifetimes and observed branching ratios and includes internal-conversion corrections. This is the referenced method class, but does not identify whether MU08 Table I ratios are absolute per-parent photon probabilities, normalized over the observed outgoing lines, or complete over unobserved channels. | our-inference | indirect | MU08-11; CHI01-2 | true |
+| MU08-13 | Chiara et al. treat the dipole lines as predominantly pure M1 (`δ≈0`) and assume zero crossover intensity when no E2 crossover is seen within sensitivity. This is the cited article's assumption; MU08 itself does not report line-by-line evidence that the zero-crossover treatment or detection threshold applies identically to its `136Nd` branches. | cross-source-method-boundary | indirect | CHI01-3 | true |
+| MU08-CORR-1 | The 2026-10-09 Crossref record has no correction/update relation, and the official APS article page shows no correction/erratum link. No correction was found on these endpoints; separately indexed notices are not ruled out. | evidence-boundary | direct | Crossref `https://api.crossref.org/works/10.1103/PhysRevC.78.034311`; APS article `https://journals.aps.org/prc/abstract/10.1103/PhysRevC.78.034311` | true |
+| MU08-14 | Across the ten printed parent-level branch groups in Table I, the central values sum to 1. If each group is additionally modeled as the same complete finite-variance random vector normalized exactly to 1 on every trial, then the printed parentheses interpreted as marginal SDs violate necessary L2 constraints in eight groups (two-component groups require equal marginal SDs; three-component groups require each SD ≤ the sum of the other SDs). The count eight treats the displayed errors as exact SDs. Under an additional hypothetical nearest-0.01 rounding model (closed ±0.005 SD intervals), seven violations remain; B2-I17 is rounding-sensitive (0.036 ≤ 0.024+0.014 can satisfy the necessary inequality). The paper does not establish these joint-distribution or rounding assumptions; this reductio rules out only that added statistical interpretation and does not imply author error, omitted decay channels, or actual covariance. | our-inference + limitation | indirect | printed 034311-3 / PDF p.3, Table I, all ten parent-level branch groups | true |
 
 ## Summary
 
@@ -208,4 +226,4 @@ Reverse-strength的Day9无学分审计不增加新实验：同18−/16−pair的
 
 2026-10-07追加vacancy敏感性：相同五能量/mode已从officialANU认证NH/v2.3(2011)，原FO不改。相同printedbranch数字分别作g/β时，B1 nominal变化0（打印精度），B2 photon两branch约+0.000588%、total β的382.0branch约+0.009756%。这是[[kibedi-2008-evaluation-theoretical-conversion-coefficients-bricc]] KB08-D8-5的理论forward假设对照，非本文作者采用NH/FO的证据；未补N6、radius/136Nd、energy/branch covariance和feeding/stopping。没有反解quotedB或改变mode ranking，Day9仅无学分。
 
-2026-10-07的五个现代official FO lookup和条件forward ledger见[[kibedi-2008-evaluation-theoretical-conversion-coefficients-bricc]]的dated supplement、[[high-spin-lifetime-strength-deformation]]。它们不识别本文实际使用的表/branch定义；两点N6缺项、defaultNd144/actual136Nd radius、模型与shared covariance边界保留。原文所称process出处确为printed034311-6 / PDF6 Ref.[16]：C.J.Chiara et al., Phys.Rev.C64,054314(2001)，本次没有新文献批次或该source的full text；repository raw/knowledge查找未命中，不补写其方法。原作者B、Qt、Jπ和review flags保持原样。
+2026-10-07的五个现代official FO lookup和条件forward ledger见[[kibedi-2008-evaluation-theoretical-conversion-coefficients-bricc]]的dated supplement、[[high-spin-lifetime-strength-deformation]]。它们不识别本文实际使用的表/branch定义；两点N6缺项、defaultNd144/actual136Nd radius、模型与shared covariance边界保留。2026-10-09正式Day9续查 Ref.[16]：Unpaywall仍报closed/no repository copy，arXiv exact DOI query返回0；新核验的APS官方页面直接给出PDF URL，HTTPS publisher PDF endpoint返回200/application-pdf，原件SHA-256保存于[[chiara-2001-108-110in-shears-band-lifetimes]]。全文的partial-lifetime/branch/IC与pure-M1/crossover assumptions见CHI01-2/3。它解释被引用的方法类别，但未补MU08逐线分支、完整非γ/漏枝账本或branch covariance；原B、Qt、Jπ和review flags保持原样。

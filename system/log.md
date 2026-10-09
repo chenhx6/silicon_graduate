@@ -1536,3 +1536,82 @@ Following the user question about the missing Day8 prompt, the formal Day8 card 
 
 - 同session保留原day8/run_date与562页baseline；15:00停止新研究，仅credit8候选，partial9不credit。新增32/12/3 photonstate与33/7/8同母态ratio及23/9库存条件已canonical/report写回，review/raw/PLAN/继承daemon保留。
 - 正式DAY9plan/prompt在15:02通过normalprepare接口生成，runtime占位绑定已只读核验，未开新学习session。Final subject为Complete DAY8 learning and prepare formal DAY9；正常课程state和Gitee/H3实际结果在receipt保存。
+
+## [2026-10-08 16:39] learning | DAY9 branch/lifetime strength audit
+
+- 正式新session以 primed recall 起步；核对 MU08 Table I/II、Fig.4 与 LKH82 p.121 原图。三条 I18 branch、mean lifetime 与条件 B(E2)/RME 输入链已保存；branch basis、IC、joint errors、feeding/stopping 仍按来源限制保留。
+- Crossref 仅验证 MU08 Ref.[16] 元数据；APS PDF discovery 返回403、arXiv exact-title 无结果，未把未读方法写成来源事实。MU08 source 新增 MU08-10，review flags 不变；课程 Day9 卡完成但 schedule window 继续，state 留待 normal runner closeout。
+
+## [2026-10-08 16:51] learning | DAY10 无学分 bounded preview
+
+- Day9 branch/ICC/lifetime 路线达到原文输入边界后，按 16:51 fresh clock（距硬截止 1329 分钟）检查且只预习 Day10。现有 MU07/GR18 页给出 135Nd partner strengths 与 128Cs TDPAD g-factor 的互补例；MU08 的配置交叉/strength 反例提示比值并非充分条件。
+- Day10 exercise/替代机制矩阵未完成，仅记录 partial，不改课程状态、不读 Day11；知识页无新改动，现有 MU08-10 writeback 保持本 run 唯一 durable delta。
+
+## [2026-10-08 17:48] learning | DAY10 central strength-ratio preview
+
+- 复核 MU07 raw SHA-256 与 printed 172501-2 / PDF p.2 Table I，按 Band A/B 五个重叠自旋计算 B(M1)/B(E2) 中心商；明确不是同一跃迁的 δ²，不传播缺失的联合协方差，39/2 弱 E2 分母使比值不稳。
+- 将 MU07-5 和 ratio table 写回 source page；与 MU08-10 同为本 run 两项 durable update。report/writeback/card/headings validators通过；Day9完整、Day10仅partial、state留normal runner、Day11未开。
+
+## [2026-10-08 18:25] learning | DAY10 in-band/interband evidence-kind boundary
+
+- MU07 printed 172501-3 Fig.2/3 visually核验：Band B→Band A points 与 RPA(B→A) curves 分列；与正文“RPA wave functions give interband rates / intraband remain TAC baseline”一致。source page 新增 MU07-6；不从曲线图读取数值或计算 out/in ratio。
+- 同一 Day10 partial 已保留 Table I 五个 matched-spin B(M1)/B(E2) derived central ratios；Qt、numerical out/in matrix、joint covariance 和完整 mode card仍未完成。MU07-5/MU07-6+MU08-10的writeback、card coverage和report headings validators通过，review flags与课程JSON不变。
+
+## [2026-10-08 21:30] learning | DAY9 runner recovery after sleep-name collision
+
+- Scheduler JSONL records a non-retryable runner exit 2 at 18:31 after DAY9 continuation 001: `type object 'datetime.time' has no attribute 'sleep'`. Root cause is `run_daily_learning.py` importing both `time` module and `datetime.time`; receipt retains original session and successful continuation 001 but remains `running`.
+- Minimal fix aliases the module `time as time_module`; a guarded `--resume-receipt` path resumes the existing receipt.session_id and then runs ordinary closeout checks, next-prompt preparation, and course-state updater. No replacement session is created.
+- Original daily daemon is temporarily stopped to release its lock for the same-session recovery runner; recovery supervisor will restore the exact prior profiles only if receipt completes and Day9 credit is confirmed. DAY9 state remains 9/8 until standard runner finalization.
+
+## [2026-10-08 21:46] learning | DAY9 same-session runner recovery supervisor queued
+
+- 修复后normal runner已提供受保护 `--resume-receipt` 路径。停止的Day9 daemon lock保持释放；detached recovery supervisor PID 179871 等当前turn结束120秒后，用原receipt/session_id接续，不创建新session。仅runner成功完成Day9及state next10后才恢复既有16:00 daemon。
+- 首个监督器曾因状态JSON写入转义错误在runner启动前被终止，未创建Codex session；已改为有效JSON并重启监督器。Day9 receipt与课程state仍running/next9，Day10 partial。
+
+## [2026-10-08 22:00] learning | same-session runner lock conflict recovery
+
+- First normal-runner recovery reused receipt session_id but codex child was rejected because the live `codex resume` process group still owned that thread writer. Exact stderr confirms a pre-closeout writer conflict; no recovery continuation, closeout, state update or replacement session occurred.
+- Recovery helper now permits retry only for that exact same-session conflict when no closeout turn was recorded. A delayed supervisor will wait for this interaction turn to finish, gracefully SIGTERM only the verified process group, confirm it exits, then retry the normal runner; it never uses SIGKILL. Day9 remains complete candidate, Day10 partial, state still next9/count8.
+
+## [2026-10-08 22:00] learning | recovery attempt 002 failed on live writer lock
+
+- Normal runner recovery reused the exact Day9 receipt/session but child Codex CLI received `thread-store conflict: already has an active writer`; this is process-lock contention, not a course/report/writeback check failure. Receipt is pre-closeout, continuation 002 failed, course state still next9/count8, daemon remains stopped.
+- Added a narrow retry allowlist for this exact same-session pre-closeout error. Next recovery waits until the current interaction turn ends, gracefully SIGTERM only the verified `codex resume` process group 176706 (child 176713), confirms both exit, then resumes the same receipt/session. No SIGKILL and no replacement session.
+
+## [2026-10-08 22:20] learning | recovery supervisor attempt 004 live
+
+- Receipt仍failed-verification/pre-closeout，课程state next9/count8。Detached supervisor PID181045经 `ps` 和有效JSON status核实存活，等待当前交互turn结束；随后只对经cmdline验证的同session process group做SIGTERM，释放writer锁后normal runner以原receipt/session续接。DAY9仍是credit候选，DAY10 partial，Day11未开。
+
+## [2026-10-08 22:57] learning | interactive writer route and session clock active
+
+- Three normal-runner same-receipt resume attempts exposed that the managed app-server retains the interactive thread writer after the CLI group exits. No further external resume attempt will be made. The exact interactive session remains active; run-local clock PID 181367 holds both schedule locks and successfully queued checkpoint-003 to the same session.
+- Normal runner gained a guarded `--finalize-receipt` mode for a closeout completed inside the same interactive `CODEX_SESSION_ID`; it still requires a clock closeout event, same-session report-hash attestation, original baseline, writeback/card/lint/diff checks, and calls the canonical state updater and next-prompt preparer. Day9 state is still next9/count8; Day10 remains partial.
+
+
+## [2026-10-08 23:34] learning | Day10 cross-band ratios; interactive clock remains live
+
+- MU07 Table I 五个 matched-spin `B(M1)/B(E2)` 与 Band B/A B(M1)、B(E2)、ratio-of-ratios central quotients 已写入 MU07-5/MU07-7；原图 Fig.2/3 把实验点列与 TAC/RPA curves 区分。仅中心值派生量，无 joint covariance、无新增独立证据。Qt conversion 受 K/rotor convention 限制，source 未给可直接数值化的 Qt/out-in table，Day10 仍 partial。
+- Normal runner 的外部 same-session resume 因托管 app-server writer lock 不能运行。run-local clock PID 181367 实际存活并 heartbeat 至 23:25，checkpoint-003 只标 queued，delivery 未观察。当前会话将在硬截止直接收束，停 clock 后由 `--finalize-receipt` 在同一 CODEX_SESSION_ID 内运行普通 baseline/writeback/card/lint/diff/state/prompt gates；课程仍 next9/count8。
+
+
+## [2026-10-08 23:49] learning | Day10 shared-amplitude ratio boundary
+
+- `knowledge/observables/bm1-be2-ratio.md` 新增明确标作 Codex 构造、非来源结论的共同振幅因子约分反例：同一 transition pair 的 M1/E2 振幅若共同乘 `c(I)`，相应 B ratio 消去 `|c|²`，因此 ratio alone 不能检出共同绝对强度 scale 变化。它与 MU07-5/7 的同数据商共同限制结构辨认，但没有主张 MU07 实验采用该机制。
+- MU08/MU07/ratio 三页 writeback 与 report/card validators 已按原562页 baseline 复核通过；DAY9 state 仍 next9/count8，DAY10 仍 partial。Clock PID181367 运行中，当前仅 checkpoint-003 queue accepted、尚未观察 delivery。
+
+## [2026-10-08 23:50] learning | Day10 cross-band and common-factor partial
+
+- MU07 Table I 五行 added Band B/A central B(M1), B(E2), and quotient-of-quotients to MU07-7; ratio-observable page now records a clearly labeled algebraic shared-amplitude cancellation counterexample, not an author fit/experimental mechanism. Three-page writeback remains mapped to MU08-10, MU07-5–7, and the observable example.
+- Day9 state remains next9/count8, Day10 only partial. Same-session clock continues; its closeout event and interactive finalizer are reserved for tomorrow 15:00–16:00.
+
+## 2026-10-09T13:52:42+08:00 — DAY9 bounded analysis checkpoint
+
+- 同一session确认checkpoint-003；保存candidate pool、证据缺口和41路径候选publish manifest，未stage或推进state。
+- MU07-13修正35/2 M1上端为.0435；MU07-10明确E2分母身份假设；MU08-14补假设舍入敏感性（8个打印精确SD违反，7个在±.005假设区间仍违反）。
+- 不开新来源/卡；15:00同session收束、normalrunner计Day9并生成Day10 plan/prompt。
+
+## 2026-10-09T15:27:57+08:00 — DAY9 normal-runner closeout
+
+- Same-session guarded finalizer completed: report/writeback/card/lint/diff passed; receipt completed, only Day9 credited.
+- Day10 formal plan created; normal-runner generated prompt and it was annotated with the prior-preview priming boundary.
+- Gitee H3/publication pending explicit final manifest.

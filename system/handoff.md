@@ -1,24 +1,22 @@
 ---
 type: system-handoff
 graph-excluded: true
-updated: 2026-10-08
+updated: 2026-10-09
 ---
 
 # 跨会话交接
 
-## Active handoff — 正式 DAY8 研究已结束；最终收束与 DAY9
+## Active handoff — DAY9 closeout complete; DAY10 plan/prompt prepared
 
-2026-10-08 15:00 Asia/Shanghai已停止Day8新研究；卡以本session prompt-primed recall、两主source原图、三题完整gamma候选、observables依赖和五行audit独立完成。Day9预习只有partial/无学分，未开展Day10。Final report：outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity.md；receipt在同名multipolarity-run-01/run.json。原562-page baseline继续用于final验收，不重建。
+Run `2026-10-08-day-09-01` completed in its existing session `01a11a87-45cf-7781-a014-f992aafb49e2`; resume command remains `codex resume 01a11a87-45cf-7781-a014-f992aafb49e2 -C /workspace/wiki -s danger-full-access -a never`. The hard cutoff was `2026-10-09T15:00:00+08:00`; same-session clock closeout was accepted at `15:07:24+08:00`, inside the recorded closeout hour. The first interactive finalizer attempt found a missing literal report marker; that marker was added, the report hash was rebound, and the guarded normal-runner finalizer then completed at `2026-10-09T15:27:57+08:00`.
 
-Branch main，final commit message：Complete DAY8 learning and prepare formal DAY9。最近窗口checkpoint为Audit DAY8 reference coverage and photon width bounds，Gitee非force/H3已通过；本次final实际结果/hash以run receipt为准，不amend已发布checkpoints。Final-science Gitee/H3与所有checks通过，normalstate已next9/count8；runtime已恢复16:00 schedule；课程/调度交付提交subject为Record DAY8 course credit and restore DAY9 schedule，source/claim review flags未清、无human-review event，所有新增theory controls仍L2/noL4。
+Authoritative receipt: `outputs/learning-daily/20261008-DAY9-be2-bm1-reduced-matrix-elements-strengths-run-01/run.json`, status `completed`, `deliverables_passed=true`, `closeout_on_time=true`, checks lint/diff/report/writeback/card all passed. Course state is `next_day_index=10`, `completed_day_count=9`; coverage is `completed_day_indices:[9]`, `partial_day_indices:[10]`. Day10 received no Day9 credit; Day11 was not studied. No new Codex session or daily daemon was started during closeout.
 
-Durable delta在LKH82-15–18、RB67-21–28、MU08-9及mixing/spinmethod/lifetime synthesis；旧KB08人审不覆盖dated supplement。主与独立math/CG/covariance审计已parent复现。Independent photonwidth supplement1个per-pair/sum label drift已用72-check补充澄清，冻结旧receipt；无未隔离technicalhardP0。实际Gamma/ICC/branchbasis、covariance、event/response/currentpriors/CMcoherence缺口由Codex保留，不补实验事实。
+The final bounded scientific update is MU07-16: using existing Table-I lifetimes/strengths and candidate link energies, the added same-parent line/normalization hypotheses overfill the photon budget for the first two candidate M1 pairs and all candidate E2 crossovers. This excludes only those joint premises. It does not identify the real plotted-line binding, infer ICC/δ/covariance or count as independent evidence. The numeric rate transforms remain arithmetic hypotheses. Day10 stays a formal future card with its own primed recall/audit.
 
-正式DAY9plan：outputs/plans/2026-10-08-DAY9-be2-bm1-reduced-matrix-elements-strengths.md；prompt：outputs/learning-daily/prompts/20261008-DAY9-be2-bm1-reduced-matrix-elements-strengths.md，15:02生成，RUN_ID/OUTPUT_DIR由normalrunner绑定。正式Day9新session需自己的primedrecall/evidence/audit；16:00计划开始，10-09 15:00研究截止。课程仅Day8已通过normalstatefunction保存next9/count8，Day9不提前credit。
+Formal next-card artifacts: plan `outputs/plans/2026-10-09-DAY10-electromagnetic-ratios-collective-modes.md`; runner-generated prompt `outputs/learning-daily/prompts/20261009-DAY10-electromagnetic-ratios-collective-modes.md`. The plan treats prior preview as priming only. The normal schedule is set by existing schedule configuration; no session is launched in this closeout.
 
-保护raw/PLAN/BibTeX/继承dirtydaemon/旧run和review flags；ownmathreceipts immutable。Clock110255/Farmer87927以实际PID/状态为准；closeout释放clock双锁后仅按原daily授权恢复16:00schedule，explicitprofiles Luna/max→Sol/high→Astra/medium，不使用inheritxhigh默认。实际PID165143和daemonlock已核，nextdue2026-10-08 16:00；Day9session尚未启动。核验见receipt；不因旧queued bot提示重开已完成Day8、重计学分或新建主session。
-
-Session01a111fb-370d-7ed1-afe9-881ccc47caf4；resume：codex resume 01a111fb-370d-7ed1-afe9-881ccc47caf4 -C /workspace/wiki -s danger-full-access -a never。若receipt已completed，旧Day8提醒仅核对完成状态；真实用户的新指令才开启后续工作。正常Gitee非force发布已由用户持续授权，危险/不可逆动作仍不在本轮范围。
+Stable publication pointer: branch `main`, subject `Complete DAY9 lifetime, strength and electromagnetic-ratio evidence study`. The normal-runner receipt records the final publication hash and Gitee H3 outcome; do not put the exact hash into this handoff or the report.
 
 ## Previous active handoff — DAY7 resumed window closed; Day8 pre-study uncredited
 
