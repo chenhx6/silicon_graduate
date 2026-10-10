@@ -19,7 +19,7 @@ arxiv:
 language: zh
 canonical_source: "王守宇. 126Cs的高自旋态及A～130区手征双重带研究[D]. 吉林大学, 2005."
 zotero_item_key:
-citation_key: ""
+citation_key: "Wang_2005_126Cs_thesis"
 zotero_uri:
 library_file: "raw/papers/degree dissertation/王守宇博士 126Cs的高自旋态及A～130区手征双重带研究.pdf"
 raw_file: "raw/papers/degree dissertation/王守宇博士 126Cs的高自旋态及A～130区手征双重带研究.pdf"
@@ -66,6 +66,10 @@ tags: [a130, high-spin, 126cs, 123i, nuclear-chirality, chiral-doublet, signatur
 4. For the positive-parity Bands 1–2, similar pre-crossing alignment, small excitation-energy separation, similar `B(M1)/B(E2)` and odd-even staggering support the author’s chiral interpretation (PDF pp.124–145).
 5. The thesis itself tests that interpretation against `134Pr` electromagnetic/alignment/lifetime discrepancies and concludes that the chiral criteria are not universally decisive (PDF pp.140–145).
 
+## Citation-Rule Consistency Boundary
+
+Section 4.3 cites Ref. [34] as T. Koike, K. Starosta, and I. Hamamoto, *Phys. Rev. Lett.* 93 (2004), and paraphrases its M1 direction as same-A favored/opposite-A forbidden (WS05-7). The linked primary source page [[koike-2004-chiral-bands-selection-rules]] states the reverse relative strength in Eq. (6) and its adjacent discussion (KOIKE04-4); [[hamamoto-2011-selection-rule-chiral-geometry]] retains the Koike direction (HM11-8). The discrepancy is unresolved here. The thesis claim remains a direct record of what the thesis says, not a correction of the cited source.
+
 ## Summary
 
 The thesis establishes an expanded `126Cs` scheme, assigns the halo-band head as `(9)+`, adds more than 100 γ transitions, and argues that the positive-parity doublet is probably a chiral pair. It proposes that the `124–130Cs` positive-parity doublets share common physics, while emphasizing that `134Pr` gives a counterexample to a simple universal fingerprint. The `123I` part extends five bands and interprets two formerly separate ΔI=2 sequences as a common `πg7/2[404]7/2+` oblate collective structure; this is a separate source result rather than evidence for `126Cs` chirality.
@@ -80,6 +84,7 @@ The thesis establishes an expanded `126Cs` scheme, assigns the halo-band head as
 | WS05-4 | The author interprets Bands 1–2 as a chiral doublet based on energy separation, `S(I)`, electromagnetic ratios and a particle-rotor calculation using `ε2=0.244`, `γ=-24°`. | author-interpretation | indirect | single | PDF pp.124–145; Figs.4.9–4.10 | true |
 | WS05-5 | The thesis limits `S(I)` as a necessary criterion: `126Cs` agrees over a finite spin interval, while `122Cs`, `132Cs`, `132Pr` and `138Eu` show tensions; `134Pr` has unlike alignment and electromagnetic behavior. | author-interpretation | direct | single | PDF pp.140–145; Figs.4.9, 4.15–4.17 | true |
 | WS05-6 | The `123I` subsidiary-channel scheme contains 15 newly observed high-spin levels and 22 γ transitions; Bands 3–4 are interpreted as a common `πg7/2[404]7/2+` oblate band after alignment, `B(M1)/B(E2)` and systematics comparisons. | experimental-fact + author-interpretation | indirect | single | PDF pp.151–191; Figs.5.1, 5.6, 5.9–5.10 | true |
+| WS05-7 | Section 4.3 attributes to Koike et al. 2004 a rule with M1 favored between same-A states and forbidden between opposite-A states. | citation-paraphrase | direct | single | printed p. 123 / PDF p. 133, Sec. 4.3 | true |
 
 ## Nuclear Structure Information
 

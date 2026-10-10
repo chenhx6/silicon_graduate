@@ -1,0 +1,128 @@
+{
+  "schema_version": 1,
+  "receipt": "/workspace/wiki/outputs/learning-daily/20261009-DAY10-electromagnetic-ratios-collective-modes-run-01/run.json",
+  "thread": "01a11ffc-03bc-77e2-98ee-a227ea51f371",
+  "run_date": "2026-10-09",
+  "day_index": 10,
+  "study_started_at": "2026-10-09T17:25:29.193489+08:00",
+  "deadline": "2026-10-10T15:00:00+08:00",
+  "closeout_end": "2026-10-10T16:00:00+08:00",
+  "checkpoint_hours": 2.5,
+  "sent_event_ids": [
+    "checkpoint-001",
+    "checkpoint-002",
+    "checkpoint-003"
+  ],
+  "events": {
+    "checkpoint-001": {
+      "status": "queued",
+      "attempts": 1,
+      "attempted_at": "2026-10-09T20:27:59.932274+08:00",
+      "attempt_history": [
+        {
+          "attempt": 1,
+          "finished_at": "2026-10-09T20:28:03.882110+08:00",
+          "returncode": 0,
+          "timed_out": false,
+          "stdout": "Queued message 01a120a2-8386-7271-bf07-e4f520e68823 for thread 01a11ffc-03bc-77e2-98ee-a227ea51f371.\n",
+          "stderr": ""
+        }
+      ],
+      "queued_at": "2026-10-09T20:28:03.882110+08:00",
+      "delivery_observed": true
+    },
+    "checkpoint-002": {
+      "status": "queued",
+      "attempts": 1,
+      "attempted_at": "2026-10-09T22:25:30.387127+08:00",
+      "attempt_history": [
+        {
+          "attempt": 1,
+          "finished_at": "2026-10-09T22:25:33.471756+08:00",
+          "returncode": 0,
+          "timed_out": false,
+          "stdout": "Queued message 01a1210e-150c-7f62-a17f-3769c1f95a01 for thread 01a11ffc-03bc-77e2-98ee-a227ea51f371.\n",
+          "stderr": ""
+        }
+      ],
+      "queued_at": "2026-10-09T22:25:33.471756+08:00",
+      "delivery_observed": true
+    },
+    "checkpoint-003": {
+      "status": "queued",
+      "attempts": 1,
+      "attempted_at": "2026-10-10T00:55:29.294283+08:00",
+      "attempt_history": [
+        {
+          "attempt": 1,
+          "finished_at": "2026-10-10T00:55:32.233274+08:00",
+          "returncode": 0,
+          "timed_out": false,
+          "stdout": "Queued message 01a12197-645c-70b1-8282-55eb02ef62e8 for thread 01a11ffc-03bc-77e2-98ee-a227ea51f371.\n",
+          "stderr": ""
+        }
+      ],
+      "queued_at": "2026-10-10T00:55:32.233274+08:00",
+      "delivery_observed": false
+    },
+    "checkpoint-004": {
+      "status": "skipped",
+      "attempts": 0,
+      "reason": "unacknowledged checkpoint already queued; coalesced"
+    },
+    "checkpoint-005": {
+      "status": "pending",
+      "attempts": 0
+    },
+    "checkpoint-006": {
+      "status": "pending",
+      "attempts": 0
+    },
+    "checkpoint-007": {
+      "status": "pending",
+      "attempts": 0
+    },
+    "checkpoint-008": {
+      "status": "pending",
+      "attempts": 0
+    },
+    "closeout": {
+      "status": "pending",
+      "attempts": 0
+    },
+    "closeout-reminder": {
+      "status": "pending",
+      "attempts": 0
+    },
+    "overdue": {
+      "status": "pending",
+      "attempts": 0
+    }
+  },
+  "queue_success_semantics": "exit 0 means queued; delivery has not been observed",
+  "first_supervisor_started_at": "2026-10-09T20:27:59.663082+08:00",
+  "first_start_origin": "first-start",
+  "status": "interrupted",
+  "pid": 222884,
+  "supervisor_started_at": "2026-10-09T20:27:59.663082+08:00",
+  "session_execution_observed": false,
+  "farmer_observation": {
+    "path": "/workspace/wiki/tmp/farmer/state.json",
+    "observation": "observed",
+    "action": "continue",
+    "status": "running",
+    "event_at": "2026-10-09T23:22:13.221000+08:00",
+    "reason": "fresh-thread-event",
+    "file_age_seconds": 1.3620190620422363
+  },
+  "queue_paused": false,
+  "heartbeat_at": "2026-10-10T04:07:26.765143+08:00",
+  "phase": "study-window",
+  "receipt_status": "running",
+  "pending_checkpoint_ids": [
+    "checkpoint-003"
+  ],
+  "stop_reason": "received signal 15",
+  "stopped_at": "2026-10-10T04:08:26.691442+08:00",
+  "notification_errors": []
+}

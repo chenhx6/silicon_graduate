@@ -1,12 +1,22 @@
 ---
 type: system-handoff
 graph-excluded: true
-updated: 2026-10-09
+updated: 2026-10-10
 ---
 
 # 跨会话交接
 
-## Active handoff — DAY9 closeout complete; DAY10 plan/prompt prepared
+## Active handoff — DAY10 closeout pending; checkpoint-012 saved
+
+Run `2026-10-09-day-10-01` remains `running`, `day_index=10`, in session `01a11ffc-03bc-77e2-98ee-a227ea51f371`; resume command is unchanged: `codex resume 01a11ffc-03bc-77e2-98ee-a227ea51f371 -C /workspace/wiki -s danger-full-access -a never`. At 2026-10-10 14:37:39 Asia/Shanghai, 22 minutes remained to the 15:00 hard cutoff. The checkpoint-003 reminder is acknowledged/revalidated; no session or daemon was restarted.
+
+Recoverable state: `outputs/learning-daily/20261009-DAY10-electromagnetic-ratios-collective-modes-run-01/checkpoint-012.md`. Report coverage is `[10]` completed, `[11]` partial/uncredited; course state remains `next_day_index=10 / completed_day_count=9`. Day12 was not studied.
+
+Closeout prechecks: boundary exit 0; writeback audit 1 block/31 items/0 errors/0 non-atomic suspects; wiki_lint exit 0, 0 errors, 91 warnings (88 existing citation-key warnings, 3 reaction-parser warnings); `git diff --check` exit 0. Ten source pages now carry citation keys, standard sections and verified raw hashes; raw copies remain local under `raw/papers/codex-day10/` and must not be staged. The Prochniak PDF hash correction is recorded in its source page and report.
+
+Only Git publication/reconciliation remains. Stage exact DAY10-owned paths from the baseline; exclude raw, tmp, PLAN, inherited Day6–Day9 changes, `system/log.md`, and the daemon script. Then run cached diff check, staged name-status review, Gitee fetch/ancestor/dry-run/exact push, and update the final receipt/handoff with branch, subject and outcome.
+
+## Previous active handoff — DAY9 closeout complete; DAY10 plan/prompt prepared
 
 Run `2026-10-08-day-09-01` completed in its existing session `01a11a87-45cf-7781-a014-f992aafb49e2`; resume command remains `codex resume 01a11a87-45cf-7781-a014-f992aafb49e2 -C /workspace/wiki -s danger-full-access -a never`. The hard cutoff was `2026-10-09T15:00:00+08:00`; same-session clock closeout was accepted at `15:07:24+08:00`, inside the recorded closeout hour. The first interactive finalizer attempt found a missing literal report marker; that marker was added, the report hash was rebound, and the guarded normal-runner finalizer then completed at `2026-10-09T15:27:57+08:00`.
 

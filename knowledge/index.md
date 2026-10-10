@@ -2,12 +2,22 @@
 type: system-index
 graph-excluded: true
 created: 2026-07-01
-updated: 2026-10-09
+updated: 2026-10-10
 ---
 
 # Wiki Index
 
 ## Sources
+
+- [[koike-2004-chiral-bands-selection-rules]] - A 量子数电磁选择规则的理论前身；说明规则符合不等于直接证实手征几何。
+- [[grodner-2011-126cs-chiral-selection-rules]] - 126Cs 的 13 条 DSA lifetimes、26 个 absolute B 值及 inband/interband M1 交错实验。
+- [[prochniak-2011-cphc-s-symmetry-transition-rules]] - CPHC 的 S=PαCπν 对称、same-s M1/E2 抑制与 M1 交错的非手征唯一性边界。
+- [[rohozinski-2011-cphc-s-symmetry-chirality]] - CPHC 中 S 是 Koike A 的推广；不同核心/组态可在不预设手征几何时产生类似转移指纹。
+- [[hamamoto-2011-selection-rule-chiral-geometry]] - 特殊粒子-转子极限下的 A 量子数与 E2/M1 选择规则；比较 128Cs、126Cs、134Pr。
+- [[grodner-2011-bm1-staggering-structural-composition]] - B(M1) 交错取决于单粒子组态与三轴芯结构；2011 理论文复用 128Cs/135Nd 数据。
+- [[koike-2003-128cs-chiral-doublet-bands]] - 128Cs Y/S/L 能级映射、Table II 转移数据、Table VII mixed-link DCO 与同母态 B(M1)/B(E2) 复算。
+- [[grodner-2006-128cs-chiral-doublet-lifetimes]] - 128Cs OSIRIS II/DSAM band lifetimes、branch-derived B(E2)/B(M1)、side-feeding 与 pure-M1 假设。
+- [[chen-2017-128cs-angular-momentum-projection-chirality]] - 128Cs 角动量投影强度比较及 K/倾角分布；图中采用 Grodner 2006 数据，几何为 spin-dependent model result。
 
 - [[agarwal-2007-137pr-magnetic-rotation-bandcrossing]] - 137Pr 的 INGA M1 带、弱 crossover E2 与 TAC 3qp/5qp crossing；保留 δ²≈0 强度比假设及高自旋模型偏移。
 - [[lv-2025-136pr-tac-covariant-density-functional]] - 新 JUROGAM II 136Pr 高自旋谱及 PC-PK1 TAC-CDFT/壳模型解释；保存 pairing-collapse、Q1 宇称缺项与 D4/D6 竞争方案。
@@ -530,6 +540,7 @@ updated: 2026-10-09
 
 ### Sources
 
+- [[wang-2006-126cs-candidate-chiral-doublet]] - 126Cs NORDBALL 数据重分析、ADO 线表及强度比/S(I) 交错；与 2005 thesis 共用 Komatsubara acquisition。
 - [[wang-shouyu-2005-126cs-123i-chiral-thesis]] - 王守宇 `126Cs/123I` 高自旋与手征候选。
 - [[wang-haixia-2012-173w-128i-high-spin-thesis]] - 王海霞 `173W/128I` 高自旋结构。
 - [[wang-jianguo-2010-high-spin-103-104nb-140pm]] - 王建国 `103,104Nb/140Pm` 高自旋结构。

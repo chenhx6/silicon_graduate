@@ -18,7 +18,7 @@ doi: "10.1016/j.nuclphysa.2013.12.006"
 arxiv: "1312.6963v1"
 language: en
 canonical_source: "G. H. Bhat et al., Nucl. Phys. A 922 (2014) 150-162, doi:10.1016/j.nuclphysa.2013.12.006; arXiv:1312.6963v1."
-citation_key:
+citation_key: "Bhat_2014"
 library_file: "raw/papers/gpt/day3-mean-field-20260929/bhat-2014-tpsm-124-132cs.pdf"
 raw_file: "raw/papers/gpt/day3-mean-field-20260929/bhat-2014-tpsm-124-132cs.pdf"
 raw_sha256: "3d1e411d0dfad9d565aa5134d9ad75710a2cbb31607286f0bbc9c8b0537a9757"
@@ -82,6 +82,7 @@ This paper demonstrates an A≈130 odd–odd application of triaxial projected c
 | BHA14-4 | For `130Cs`, absolute `B(E2)` and `B(M1)` curves in Fig.8 are calculations; the overlaid `B(M1)/B(E2)` points are described as measured ratios from Ref. [32]. | model-result / secondary comparison | direct | Fig.8 and caption, PDF p.11 | true |
 | BHA14-5 | The authors say detailed absolute transition-probability data exist for `126Cs`; for `124,130,132Cs` they provide predictions/limited ratio comparisons and request lifetime measurements before confirming chirality. | author-interpretation / limitation | direct | Abstract, Fig.6 caption, Conclusion, PDF pp.1, 9, 13 | true |
 | BHA14-6 | Applying the paper's Eq. (3) to its Table 1 gives `γ≈42.2°` for `130Cs` and `≈41.4°` for `132Cs`, while the prose says the chosen non-axial deformation approximately corresponds to `γ≈30°`. This is an internal parameter/wording mismatch in arXiv v1, not a corrected deformation measurement. | source-consistency audit | Codex calculation | Eq. (3), Table 1, PDF pp.4–6 | true |
+| BHA14-7 | The 126Cs lifetime/absolute-strength comparison in Fig. 6 is cited to Grodner et al. 2011, Phys. Lett. B 703, 46–50, DOI 10.1016/j.physletb.2011.07.062; Bhat provides a model comparison, not a second experiment. | source-lineage | direct | Fig. 6; Reference [18] | true |
 
 ## Nuclear Structure Information
 
