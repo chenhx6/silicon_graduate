@@ -6,15 +6,17 @@ updated: 2026-10-10
 
 # 跨会话交接
 
-## Active handoff — DAY10 closeout complete; receipt reconciliation pending
+## Active handoff — DAY10 closeout and publication reconciled
 
-Run `2026-10-09-day-10-01` completed at 2026-10-10T14:56:32+08:00 in session `01a11ffc-03bc-77e2-98ee-a227ea51f371`; resume command remains `codex resume 01a11ffc-03bc-77e2-98ee-a227ea51f371 -C /workspace/wiki -s danger-full-access -a never`. Checkpoint-003 was acknowledged/revalidated; no new session or daemon was started.
+Run `2026-10-09-day-10-01` completed at 2026-10-10 14:56:32 Asia/Shanghai in session `01a11ffc-03bc-77e2-98ee-a227ea51f371`; resume command remains `codex resume 01a11ffc-03bc-77e2-98ee-a227ea51f371 -C /workspace/wiki -s danger-full-access -a never`. Checkpoint-003 was acknowledged/revalidated; no new session or daemon was started.
 
 DAY10 report: `outputs/learning-daily/20261009-DAY10-electromagnetic-ratios-collective-modes.md`. Latest recovery checkpoint: `outputs/learning-daily/20261009-DAY10-electromagnetic-ratios-collective-modes-run-01/checkpoint-012.md`. Course state is `next_day_index=11 / completed_day_count=10`; coverage is `completed_day_indices:[10]`, `partial_day_indices:[11]`. Day11 remains uncredited; Day12 was not opened.
 
-Final checks passed: boundary 0; writeback 1 block/31 items/0 locator errors; wiki_lint exit 0 (0 errors, 91 warnings: 88 existing citation-key warnings and 3 reaction-parser warnings); worktree and cached diff checks 0. Content commit on `main`: `Complete DAY10 electromagnetic-ratio and collective-mode study`; Gitee push succeeded. Exact content commit hash and receipt are in `run.json`.
+Final checks passed: boundary 0; writeback 1 block/31 items/0 locator errors; wiki_lint exit 0 (0 errors, 91 warnings: 88 existing citation-key warnings and 3 reaction-parser warnings); worktree and cached diff checks 0.
 
-The report, course-state update, receipt, progress record, and this handoff form the post-commit reconciliation for the pushed content commit. The 10 raw source files remain local under `raw/papers/codex-day10/` and were excluded from Git. The Day11 prompt is `outputs/learning-daily/prompts/20261010-DAY11-reaction-population-evaporation-channels.md`.
+Gitee publication and post-commit reconciliation both succeeded on `main`: content commit `Complete DAY10 electromagnetic-ratio and collective-mode study` was pushed; receipt/state commit `Record DAY10 completion, course state and Gitee receipt` was pushed, and `origin/main` matched HEAD. Exact content commit hash is in `run.json`; the receipt commit hash is also recorded there. The local raw PDFs/XML under `raw/papers/codex-day10/` were excluded from Git, as were inherited Day6–Day9 changes.
+
+The Day11 continuation prompt is `outputs/learning-daily/prompts/20261010-DAY11-reaction-population-evaporation-channels.md`.
 
 ## Previous active handoff — DAY9 closeout complete; DAY10 plan/prompt prepared
 

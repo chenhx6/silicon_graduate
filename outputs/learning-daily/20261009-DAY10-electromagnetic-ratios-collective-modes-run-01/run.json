@@ -32,17 +32,17 @@
   "curriculum_cards_completed": 1,
   "closeout_window_ends_at": "2026-10-10T16:00:00+08:00",
   "last_closeout_snapshot": {
-    "now_local": "2026-10-10T14:56:32+08:00",
+    "now_local": "2026-10-10T15:13:47+08:00",
     "hard_deadline": "2026-10-10T15:00:00+08:00",
     "next_scheduled_start": "2026-10-10T16:00:00+08:00",
-    "minutes_to_deadline": 4,
-    "minutes_to_next_start": 64,
+    "minutes_to_deadline": 0,
+    "minutes_to_next_start": 46,
     "minimum_current_block_minutes": 90,
     "minimum_forward_card_block_minutes": 120,
     "can_continue_current": false,
     "can_complete_forward_card": false,
     "decision": "closeout-only",
-    "note": "Research complete. Content commit and Gitee push succeeded; final receipt/state/handoff reconciliation is being committed and pushed. Day11 remains uncredited."
+    "note": "DAY10 content commit and receipt/course-state follow-up commit both pushed. Same-session post-commit check confirmed origin/main matched HEAD; inherited Day6–Day9 changes remain unstaged."
   },
   "prompt_file": "/workspace/wiki/outputs/learning-daily/20261009-DAY10-electromagnetic-ratios-collective-modes-run-01/prompt.md",
   "session_id": "01a11ffc-03bc-77e2-98ee-a227ea51f371",
@@ -171,10 +171,14 @@
     "stale_empty_index_lock_removed_after_process_check": true
   },
   "post_commit_reconciliation": {
-    "content_commit_pushed": true,
+    "status": "reconciled",
+    "content_commit": "d71f4ed74d83d37d5800581a3f862d145558f2f0",
     "content_commit_subject": "Complete DAY10 electromagnetic-ratio and collective-mode study",
     "content_push_outcome": "pushed",
-    "receipt_state_followup_commit": "Record DAY10 completion and course-state reconciliation",
-    "followup_push_outcome": "pending"
+    "receipt_state_commit": "1f0fef37b25a0b13263e2516601da66959c093fb",
+    "receipt_state_commit_subject": "Record DAY10 completion, course state and Gitee receipt",
+    "receipt_state_push_outcome": "pushed",
+    "origin_main_matches_head_after_receipt_push": true,
+    "inherited_dirty_paths_preserved": true
   }
 }
