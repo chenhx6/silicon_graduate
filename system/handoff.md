@@ -6,15 +6,15 @@ updated: 2026-10-10
 
 # 跨会话交接
 
-## Active handoff — DAY10 closeout pending; checkpoint-012 saved
+## Active handoff — DAY10 closeout complete; receipt reconciliation pending
 
-Run `2026-10-09-day-10-01` remains `running`, `day_index=10`, in session `01a11ffc-03bc-77e2-98ee-a227ea51f371`; resume command is unchanged: `codex resume 01a11ffc-03bc-77e2-98ee-a227ea51f371 -C /workspace/wiki -s danger-full-access -a never`. At 2026-10-10 14:37:39 Asia/Shanghai, 22 minutes remained to the 15:00 hard cutoff. The checkpoint-003 reminder is acknowledged/revalidated; no session or daemon was restarted.
+Run `2026-10-09-day-10-01` completed at 2026-10-10T14:56:32+08:00 in session `01a11ffc-03bc-77e2-98ee-a227ea51f371`; resume command remains `codex resume 01a11ffc-03bc-77e2-98ee-a227ea51f371 -C /workspace/wiki -s danger-full-access -a never`. Checkpoint-003 was acknowledged/revalidated; no new session or daemon was started.
 
-Recoverable state: `outputs/learning-daily/20261009-DAY10-electromagnetic-ratios-collective-modes-run-01/checkpoint-012.md`. Report coverage is `[10]` completed, `[11]` partial/uncredited; course state remains `next_day_index=10 / completed_day_count=9`. Day12 was not studied.
+DAY10 report: `outputs/learning-daily/20261009-DAY10-electromagnetic-ratios-collective-modes.md`. Latest recovery checkpoint: `outputs/learning-daily/20261009-DAY10-electromagnetic-ratios-collective-modes-run-01/checkpoint-012.md`. Course state is `next_day_index=11 / completed_day_count=10`; coverage is `completed_day_indices:[10]`, `partial_day_indices:[11]`. Day11 remains uncredited; Day12 was not opened.
 
-Closeout prechecks: boundary exit 0; writeback audit 1 block/31 items/0 errors/0 non-atomic suspects; wiki_lint exit 0, 0 errors, 91 warnings (88 existing citation-key warnings, 3 reaction-parser warnings); `git diff --check` exit 0. Ten source pages now carry citation keys, standard sections and verified raw hashes; raw copies remain local under `raw/papers/codex-day10/` and must not be staged. The Prochniak PDF hash correction is recorded in its source page and report.
+Final checks passed: boundary 0; writeback 1 block/31 items/0 locator errors; wiki_lint exit 0 (0 errors, 91 warnings: 88 existing citation-key warnings and 3 reaction-parser warnings); worktree and cached diff checks 0. Content commit on `main`: `Complete DAY10 electromagnetic-ratio and collective-mode study`; Gitee push succeeded. Exact content commit hash and receipt are in `run.json`.
 
-Only Git publication/reconciliation remains. Stage exact DAY10-owned paths from the baseline; exclude raw, tmp, PLAN, inherited Day6–Day9 changes, `system/log.md`, and the daemon script. Then run cached diff check, staged name-status review, Gitee fetch/ancestor/dry-run/exact push, and update the final receipt/handoff with branch, subject and outcome.
+The report, course-state update, receipt, progress record, and this handoff form the post-commit reconciliation for the pushed content commit. The 10 raw source files remain local under `raw/papers/codex-day10/` and were excluded from Git. The Day11 prompt is `outputs/learning-daily/prompts/20261010-DAY11-reaction-population-evaporation-channels.md`.
 
 ## Previous active handoff — DAY9 closeout complete; DAY10 plan/prompt prepared
 

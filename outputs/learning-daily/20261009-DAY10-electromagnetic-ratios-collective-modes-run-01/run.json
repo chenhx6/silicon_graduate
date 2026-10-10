@@ -20,25 +20,29 @@
   "session_reuse": false,
   "session_scope": "one-new-session-for-each-schedule-run",
   "codex_home": "/root/.codex",
-  "status": "running",
+  "status": "completed",
   "started_at": "2026-10-09T17:25:29.193489+08:00",
   "report": "/workspace/wiki/outputs/learning-daily/20261009-DAY10-electromagnetic-ratios-collective-modes.md",
-  "completed_day_indices": [],
-  "partial_day_indices": [],
-  "curriculum_cards_completed": 0,
+  "completed_day_indices": [
+    10
+  ],
+  "partial_day_indices": [
+    11
+  ],
+  "curriculum_cards_completed": 1,
   "closeout_window_ends_at": "2026-10-10T16:00:00+08:00",
   "last_closeout_snapshot": {
-    "now_local": "2026-10-10T14:37:39+08:00",
+    "now_local": "2026-10-10T14:56:32+08:00",
     "hard_deadline": "2026-10-10T15:00:00+08:00",
     "next_scheduled_start": "2026-10-10T16:00:00+08:00",
-    "minutes_to_deadline": 22,
-    "minutes_to_next_start": 82,
+    "minutes_to_deadline": 4,
+    "minutes_to_next_start": 64,
     "minimum_current_block_minutes": 90,
     "minimum_forward_card_block_minutes": 120,
     "can_continue_current": false,
     "can_complete_forward_card": false,
     "decision": "closeout-only",
-    "note": "All research and bounded Day11 preview are complete. Final boundary/lint/writeback/diff prechecks pass. Only exact-path publication and post-commit reconciliation remain; Day11 stays uncredited and Day12 unopened."
+    "note": "Research complete. Content commit and Gitee push succeeded; final receipt/state/handoff reconciliation is being committed and pushed. Day11 remains uncredited."
   },
   "prompt_file": "/workspace/wiki/outputs/learning-daily/20261009-DAY10-electromagnetic-ratios-collective-modes-run-01/prompt.md",
   "session_id": "01a11ffc-03bc-77e2-98ee-a227ea51f371",
@@ -123,5 +127,54 @@
     "writeback_anchor_locator_errors": 0,
     "writeback_non_atomic_suspects": 0,
     "git_diff_check_exit": 0
+  },
+  "deliverables_passed": true,
+  "completed_at": "2026-10-10T14:56:32+08:00",
+  "closeout_on_time": true,
+  "course_state_after": {
+    "next_day_index": 11,
+    "completed_day_count": 10,
+    "advanced_past_partial_day": false
+  },
+  "publication": {
+    "branch": "main",
+    "commit": "d71f4ed74d83d37d5800581a3f862d145558f2f0",
+    "commit_subject": "Complete DAY10 electromagnetic-ratio and collective-mode study",
+    "push_dry_run_exit": 0,
+    "push_exit": 0,
+    "push_outcome": "pushed",
+    "refspec": "HEAD:main",
+    "remote": "origin"
+  },
+  "final_checks": {
+    "wiki_boundary_check_exit": 0,
+    "knowledge_writeback_exit": 0,
+    "knowledge_writeback_blocks": 1,
+    "knowledge_writeback_items": 31,
+    "knowledge_writeback_errors": 0,
+    "wiki_lint_exit": 0,
+    "wiki_lint_errors": 0,
+    "wiki_lint_warnings": 91,
+    "wiki_lint_info": 1521,
+    "wiki_lint_warning_breakdown": {
+      "CITATION_KEY_MISSING": 88,
+      "REACTION_PARSE": 3
+    },
+    "git_diff_check_exit": 0,
+    "git_diff_cached_check_exit": 0
+  },
+  "final_git_safety": {
+    "staged_path_count": 36,
+    "raw_paths_staged": false,
+    "inherited_day6_day9_changes_staged": false,
+    "ignored_events_jsonl_forced": false,
+    "stale_empty_index_lock_removed_after_process_check": true
+  },
+  "post_commit_reconciliation": {
+    "content_commit_pushed": true,
+    "content_commit_subject": "Complete DAY10 electromagnetic-ratio and collective-mode study",
+    "content_push_outcome": "pushed",
+    "receipt_state_followup_commit": "Record DAY10 completion and course-state reconciliation",
+    "followup_push_outcome": "pending"
   }
 }

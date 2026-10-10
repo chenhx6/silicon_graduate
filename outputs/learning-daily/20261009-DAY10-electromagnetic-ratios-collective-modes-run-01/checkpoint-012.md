@@ -37,3 +37,10 @@ updated_at: 2026-10-10T14:37:39+08:00
 - 对照 `baseline.json` 和启动事件列出仅本 run 所有的路径；不要暂存 Day6–Day9、`PLAN.md`、`system/log.md` 的继承改动、`system/scripts/run_daily_learning_daemon.py`、临时文件或 raw。
 - 仅暂存本 run 的知识页、DAY10 日报、DAY11 continuation prompt、run receipt/checkpoints/progress/events 与 active handoff。
 - 运行 `git diff --cached --check`、检查 staged name-status；fetch `origin main`、确认 ancestor，dry-run 并用精确 refspec 推送。成功或失败后更新 receipt/handoff，进行 post-commit reconciliation。
+
+
+## Final closeout receipt
+
+- Completed at 2026-10-10T14:56:32+08:00; Day10 card complete and published. Course state is `next_day_index=11 / completed_day_count=10`; Day11 preview is uncredited.
+- Final checks: boundary 0; lint 0 errors/91 warnings; writeback 0 errors; worktree/cached diff checks 0.
+- Gitee `main`: content commit `Complete DAY10 electromagnetic-ratio and collective-mode study`, push exit 0. Exact content hash is in `run.json`.

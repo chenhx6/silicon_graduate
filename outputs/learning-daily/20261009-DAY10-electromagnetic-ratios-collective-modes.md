@@ -20,9 +20,9 @@ updated: 2026-10-10
 - completed_day_indices: [10]
 - partial_day_indices: [11]
 - Day 10 card audit: complete
-- Day 10 状态：科学内容完成；报告、续接提示和必要检查已写入，发布门结果将在本节验证记录补齐。
+- Day 10 状态：科学卡、报告、canonical knowledge、Day11续接提示和 closeout 均完成；Gitee `main` 已推送成功，课程状态推进到 Day11。
 - 时间门快照：`2026-10-09 18:23:16+08:00`；硬截止 `2026-10-10 15:00:00+08:00`；尚余约 `1237` 分钟，符合继续一个 Day+1 预习的条件。
-- 最新时钟刷新：2026-10-10 14:37:39+08:00，距硬截止约 22 分钟；run 仍 running、day_index=10、session 不变。checkpoint-003 已在 observed_clock_executions 登记并于本次续接复核；没有新建 session 或重启 daemon。
+- 最新 closeout 时间：2026-10-10 14:56:32+08:00；同一 session 完成，硬截止前收束；checkpoint-003 已登记/复核，没有新建 session 或重启 daemon。
 
 ### Day 10 card completion audit
 
@@ -1953,11 +1953,11 @@ Prochniak S-symmetry 的EPJA长文和 A/S 对照表已写入 rohozinski-2011-cph
 
 ## Verification and continuation
 
-- checkpoint-012 / closeout snapshot：2026-10-10 14:37:39+08:00，距 15:00 硬截止 22 分钟；`run.json` 仍为 running、day_index=10，原 session 未变。checkpoint-003 已复核；没有新建 session/daemon。
-- 最终知识路径写入后 `wiki_boundary_check.py --root .`：exit 0，errors=0、warnings=0。Knowledge-writeback 审计：exit 0，1 block、31 items、anchor/locator errors=0、non-atomic suspects=0。
-- `wiki_lint.py --fail-on error`：exit 0，errors=0、warnings=91、info=1521；warnings 为 88 个现有 `CITATION_KEY_MISSING` 与 3 个 `REACTION_PARSE`。本轮新增/修订 source pages 已补 citation keys、raw_file/raw_sha256 和必需章节；原文的 10 个 hash 均与本地 raw 文件匹配。
-- 最近一次 `git diff --check`：exit 0。发布前仍需在最终 receipt/report/handoff 完成后复跑，并运行 `git diff --cached --check`。
-- 已停止新研究。下一步仅做 dirty-baseline 文件审计、exact-path staging、`git fetch origin main`、ancestor check、`git push --dry-run origin HEAD:main` 与同 refspec push；raw PDFs、PLAN、继承的 Day6–Day9 改动和无关 `system/` 文件不得入 index。Day11 仍 partial/uncredited，Day12 未开展。
+- Final closeout：2026-10-10T14:56:32+08:00 Asia/Shanghai；`run.json` status=`completed`, `day_index=10`, session ID/resume command preserved. `knowledge-writeback` audit exit 0: 1 block, 31 items, 0 anchor/locator errors, 0 non-atomic suspects.
+- `python3 system/scripts/wiki_boundary_check.py --root .` exit 0 (errors=0, warnings=0); `python3 system/scripts/wiki_lint.py --fail-on error` exit 0 (errors=0, warnings=91, info=1521; 88 `CITATION_KEY_MISSING`, 3 `REACTION_PARSE`); `git diff --check` exit 0; `git diff --cached --check` exit 0.
+- Gitee H3 content publication: fetch `origin main` exit 0; ancestor check exit 0; dry-run exit 0; push exit 0. Branch `main`; content commit subject `Complete DAY10 electromagnetic-ratio and collective-mode study`; outcome `pushed`. Exact hash `d71f4ed74d83d37d5800581a3f862d145558f2f0` is in `run.json`.
+- Dirty-baseline audit staged 36 exact paths. No raw/tmp/PLAN/inherited Day6–Day9 or ignored `events.jsonl` paths were staged. The stale empty `.git/index.lock` was removed only after verifying no live Git process and age over 22 hours.
+- Course state advanced to `next_day_index=11`, `completed_day_count=10`; report coverage remains `completed_day_indices:[10]`, `partial_day_indices:[11]`. Day11 preview receives no credit; Day12 was not opened. Continuation prompt is present.
 
 - checkpoint-009：boundary check最近一次知识写入前exit 0；writeback validator exit 0，1 block/26 items/0 locator errors/0 non-atomic suspects。Final wiki_lint 与 git diff --check仍待closeout执行。
 - checkpoint-008 writeback audit: 1 block, 22 items; anchors/atomic locators all found; non-atomic suspect count 0.
