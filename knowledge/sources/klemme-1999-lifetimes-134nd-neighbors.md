@@ -3,7 +3,7 @@ type: source
 title: "Lifetimes measurements for 134Nd and neighboring nuclei with the coincidence-plunger technique"
 aliases: [Klemme 1999 coincidence-plunger lifetimes, Klemme 1999 134Nd]
 created: 2026-08-11
-updated: 2026-08-11
+updated: 2026-10-12
 status: ai-draft
 review_status: unreviewed
 source_type: journal-article-experiment
@@ -96,6 +96,7 @@ T. Klemme 等，*Physical Review C* **60**, 034301 (1999)，DOI `10.1103/PhysRev
 | KL99-14 | The `135Nd 11/2-,13/2-,15/2-` levels/energies and `[514]9/2` assignment match the later Wiki D1 reference-band identity; this is a cross-source reconstruction, not a Klemme-era D1 label. | cross-source-identification | indirect | KL99-11/13 plus [[135nd-d1-band]] level energies/configuration | true |
 | KL99-15 | Gates above the level of interest exclude unobserved feeding and deorientation effects in the reported low-spin lifetimes; the authors warn that deorientation can severely affect states up to `4ℏ`. | method-limitation | direct | PDF p. 5 / journal p. 034301-5 | true |
 | KL99-16 | The paper does not invoke chirality or establish a partner-band geometry; its `135Nd` ASYR test concerns one band, and its single `134Pr 9+` lifetime has no explicit crosswalk to the 1996 Band 1/Band 2 pair. | source-scope-fact | direct | full-paper scope; PDF pp. 1-10 | true |
+| KL99-17 | The fusion-evaporation recoils had a reported mean `v/c=1.6%`; GASP rings covered 31.7–148.3°, and the four rings farthest from 90° were selected because their Doppler shifts were large enough for quantitative lifetime analysis. | experimental-fact | direct | PDF pp. 1-2; detector-ring geometry; Fig. 1 | true |
 
 ## `134Nd` Lifetime and Strength Matrix
 

@@ -3,7 +3,7 @@ type: source
 title: "王海霞 2012 博士论文：173W 和 128I 高自旋态"
 aliases: [王海霞2012博士论文, Wang Haixia 2012 173W 128I thesis]
 created: 2026-09-10
-updated: 2026-09-10
+updated: 2026-10-12
 status: ai-draft
 review_status: unreviewed
 source_type: thesis
@@ -79,6 +79,8 @@ The thesis gives a high-spin `173W` signature-inversion case and a revised `128I
 | WHX12-4 | The thesis states that the mechanism of `ν5/2−[512]` signature inversion remains an open question because the pure-configuration result conflicts with a PRM mixing explanation. | author-interpretation | direct | single | PDF pp.71–73, 90 | true |
 | WHX12-5 | `124Sn(7Li,3n)128I` at 28/32 MeV yields a scheme of 48 levels and 72 transitions up to `Iπ=16−`; beam-energy and gated spectra resolve close doublets/triplets. | experimental-fact | direct | single | PDF pp.75–80; Figs.6.1–6.7 | true |
 | WHX12-6 | Irregular level spacings and parallel branches in `128I` are interpreted as predominantly two-/multi-quasiparticle structure rather than obvious collective rotation; `πh11/2⊗νh11/2` candidates include `(9+)` and `(10+)` near 1461/1562 keV. | author-interpretation | indirect | single | PDF pp.78–82; Fig.6.4 | true |
+| WHX12-7 | The `128I` chapter reports `124Sn(7Li,3n)` at 28 and 32 MeV with 9 BGO-suppressed HPGe detectors plus one planar detector, `67×10^6` `γ-γ-t` events, `3×10^6` X-γ events, a 200-ns coincidence-time window, and four `4096×4096` matrices. | experimental-fact | direct | single | PDF file pp.83-84 (printed pp.75-76), §6.2 | true |
+| WHX12-8 | The author says that while data processing was complete and the paper was being written, Zheng et al. had reported high-spin `128I` data without assigning excitation energies, spins/parities or configurations; the bibliography identifies that cited report as Zheng et al. 2009, `Chinese Physics C` 33(S1), 179-181. This thesis narrative establishes a preliminary-publication boundary but does not show whether the acquisition was independent. | synthesis | direct | single | PDF file pp.83,102 (printed pp.75,95), §6.1 and ref.65 | true |
 
 ## Nuclear Structure Information
 

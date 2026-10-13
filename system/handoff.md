@@ -1,12 +1,22 @@
 ---
 type: system-handoff
 graph-excluded: true
-updated: 2026-10-10
+updated: 2026-10-13
 ---
 
 # 跨会话交接
 
-## Active handoff — DAY10 closeout and publication reconciled
+## Active handoff — DAY11 closeout; Day13 is next
+
+Run `2026-10-12-day-11-01`, session `01a12f66-a7ae-7ee2-bab9-109580e68e00`; resume command: `codex resume 01a12f66-a7ae-7ee2-bab9-109580e68e00 -C /workspace/wiki -s danger-full-access -a never`. The hard research deadline was `2026-10-13T15:00:00+08:00`. A UWC bundle response was temporarily written outside the allowed root at 11:24; the previous handoff records that file as deleted. The user explicitly resumed the goal at 15:43 for closeout only; no research was reopened.
+
+Day 11 and Day 12 audit tables are complete; Day 13 remains an uncredited preview and Day 14 was not opened. After the final report, writeback and content checks passed, course state advanced to `next_day_index=13 / completed_day_count=12`. Next prompt: `outputs/learning-daily/prompts/20261013-DAY13-doppler-correction-recoil-velocity.md`.
+
+The report is `outputs/learning-daily/20261012-DAY11-reaction-population-evaporation-high-spin.md`; its one `knowledge-writeback` block maps the durable updates across the changed knowledge pages. Final boundary/lint/diff results, continuation receipt and staged file list are recorded in the run output and report.
+
+Publication is recorded as `final-not-pushed`: the run's explicit path-boundary event blocks push under its publication gate. The entry baseline was recovered from the original session log: the Day 11 knowledge pages and handoff were clean at entry; inherited Day 8/9 outputs, `system/log.md` and daemon-script changes are excluded. Do not restart research for this run. Resume the next scheduled substantive session at Day 13 only after checking the course state.
+
+## Previous active handoff — DAY10 closeout and publication reconciled
 
 Run `2026-10-09-day-10-01` completed at 2026-10-10 14:56:32 Asia/Shanghai in session `01a11ffc-03bc-77e2-98ee-a227ea51f371`; resume command remains `codex resume 01a11ffc-03bc-77e2-98ee-a227ea51f371 -C /workspace/wiki -s danger-full-access -a never`. Checkpoint-003 was acknowledged/revalidated; no new session or daemon was started.
 

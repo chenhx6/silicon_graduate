@@ -2,7 +2,7 @@
 type: system-index
 graph-excluded: true
 created: 2026-07-01
-updated: 2026-10-10
+updated: 2026-10-13
 ---
 
 # Wiki Index
@@ -570,6 +570,7 @@ updated: 2026-10-10
 - [[yue-ke-2010-hirfl-csr-gamma-ball-csi-thesis]] - 岳珂 HIRFL-CSR 外靶 CsI(Tl) Gamma Ball 设计与模拟。
 - [[xiao-xiao-2019-high-spin-74as-thesis]] - 肖骁 `74As` 高自旋态；正宇称手征候选与负宇称 pseudospin 边界。
 - [[mavela-2019-32s-quadrupole-moment-doppler-correction-thesis]] - Mavela `32S` 第一 `2+` 态谱学四极矩和 GOSIA 重定向效应。
+- [[mehl-2015-ithembalabs-coulomb-sorting-thesis]] - 2015 iThemba `20Ne+194Pt` S3/AFRODITE sorting-code thesis; 15-mm geometry and GEANT4-derived ring β form a separate-run method comparator for Mavela `32S`.
 - [[yan-duo-2015-csr-coulomb-excitation-detector-system-thesis]] - 闫铎 CSR 外靶 Gamma Ball 效率与 CsI 望远镜 PID 方法。
 
 ### Batch status

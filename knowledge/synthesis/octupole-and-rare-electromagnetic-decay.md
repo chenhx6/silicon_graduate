@@ -3,7 +3,7 @@ type: synthesis
 title: "Octupole evidence and rare electromagnetic decay"
 aliases: [八极与稀有电磁衰变证据综合]
 created: 2026-09-21
-updated: 2026-09-21
+updated: 2026-10-12
 status: ai-draft
 review_status: unreviewed
 scope: octupole-and-rare-electromagnetic-decay
@@ -32,6 +32,12 @@ This synthesis asks how direct E3, E1 correlations, mean-field order parameters,
 
 Walz 2015 and its audited supplement establish a competitive `137Ba` branch with timing, energy and angle controls. Söderström 2020 independently confirms the total branch and adds energy sharing, which favors E3M1 over the original Aqq-dominant reading. The two results agree on the existence and approximate total strength while differing in the virtual multipole decomposition. The difference is a research question, not a reason to erase either source.
 
+### 2026-10-12 gate, branch and source-independence audit
+
+Walz's five-LaBr₃ acquisition and Söderström's eleven-CeBr₃ acquisition are distinct experiments. The quoted integrated branches, `2.05(37)×10⁻6` and `2.62(30)×10⁻6`, differ by `0.57×10⁻6`; treating the quoted uncertainties as independent gives `σΔ≈0.48×10⁻6` or about `1.2σ`. This arithmetic checks compatibility of the total branch only, not the virtual-path coefficients. Walz's gate controls include a prompt time peak, off-time random sidebands, lead shielding, individual-photon spectra and 72°/144° angular checks (W15-1/W15-2). Söderström uses a separate CeBr₃ response and timing calibration and reports the independent branch at `8.7σ` (SO20-1/SO20-AR-1).
+
+The source-dependence boundary is claim-specific: Söderström's 2020 branch count is a separate acquisition, while its Fig.5 joint energy-sharing fit also plots and fits Walz points. Therefore the 2020 measurement independently confirms that the branch exists; the combined fit is not a wholly independent refit of Walz's multipole-path result (SO20-AR-3). The energy-sharing distribution shifts the author interpretation toward a larger E3M1 and smaller M2E2 component, while model and sign/ordering alternatives remain. The Mendeley data DOI listed by the article returned HTTP 500 during the 2026-10-12 access probe; no event-level spectra, detector response or joint covariance were available for a reproducible refit.
+
 ## Octupole cross-source result
 
 Bucher 2016 and the external Bucher 2017 source supply direct E3 matrix elements in `144Ba` and `146Ba`, both around `48 W.u.`. The neighboring-isotope comparison shows that a strongly varying E1 dipole moment does not track E3 strength one-to-one. Relative E1 links in lighter or different mass regions are useful correlation evidence, but they must remain below the direct E3 layer. Li 2024 supplies a mean-field prediction, not a measurement. Dey 2026's low-energy octupole assignment is supported by decay and RHB/QRPA comparison, but its particle and cluster branches remain statistics and data limited.
@@ -50,7 +56,7 @@ Raw detector responses, full analysis code, partner E3 branches and public parti
 
 ## Open L3 questions
 
-- Which additional energy-sharing or polarization observable can separate the Walz/Söderström virtual paths?
+- Can the Walz and Söderström event-level spectra, detector responses, sideband scaling and cut acceptances be refitted with common covariance to quantify the remaining E3M1/M2E2 path ambiguity, given that Söderström's joint Fig.5 fit includes Walz points?
 - How consistently do direct E3 matrix elements, E1 links and PES `β3` values rank octupole collectivity across mass regions?
 - Can a public data or code release make the `137Ba` or `116Cs` problems reproducible at L4?
 

@@ -3,7 +3,7 @@ type: method
 title: γ 射线角分布分析
 aliases: [angular distribution, gamma-ray angular distribution, gamma angular distribution, in-beam angular distribution, ADO]
 created: 2026-07-08
-updated: 2026-09-21
+updated: 2026-10-12
 status: ai-draft
 review_status: unreviewed
 method_type: gamma-ray-angular-distribution
@@ -26,6 +26,10 @@ tags: [multipolarity, mixing-ratio, alignment, pado-support]
 ## Source-Level Foundation
 
 [[draper-1970-gaussian-substate-side-feeding]] 对 stretched E2 transitions 给出 `A2/A4` 与 Gaussian side-feeding substate population 的 exact treatment。[[zobel-1980-magnetic-substate-distributions]] 明确指出若 alignment 已知，角分布可用于 multipolarity and mixing-ratio determination；但只有两个 angular-distribution coefficients 时，同时确定 `α2`、`α4` 和 `δ` 会有歧义。
+
+### Ionescu 1981: `167Tm` feeding-aware angular-distribution test
+
+Ionescu et al. measured pure-E2 angular distributions in `165Ho(α,2n)167Tm`. Their pure-E2 test found that one global Gaussian magnetic-substate distribution failed for the studied `167Tm` data. The proposed fit keeps Gaussian side feeding but adds discrete direct-feeding components, `D_T(m)=D_s(m)+Σ_jD_j(m)`; pure-E2 transitions constrain the population model before mixed `M1+E2` transitions are fitted for `δ` (IO81-4/5/6/8/9). This is a reaction-specific counterexample and analysis workflow, not direct evidence about Ding's `127/128I` spectrum and not a universal rejection of Gaussian models.
 
 ## Relation to Other Methods
 
@@ -71,6 +75,7 @@ Liu 2016 将 ADO 与 linear polarization 联合用于 `78Br` linking transitions
 
 - [[draper-1970-gaussian-substate-side-feeding]]
 - [[zobel-1980-magnetic-substate-distributions]]
+- [[ionescu-1981-improved-angular-distribution-analysis-particle-xn]]
 - [[zobel-1983-energy-projectile-alignment]]
 - [[lauritsen-2025-gamma-angular-formalism-tracking-arrays]]
 - [[chiara-2012-cu65-cu67-core-coupled-protons]]

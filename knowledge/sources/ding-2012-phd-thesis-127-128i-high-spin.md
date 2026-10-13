@@ -3,7 +3,7 @@ type: source
 title: "丁兵 2012 博士论文：过渡区核 127, 128I 高自旋态能级结构研究"
 aliases: ["丁兵2012博士论文", "Ding2012Thesis", "High-spin studies of transitional nuclei 127, 128I"]
 created: 2026-09-02
-updated: 2026-09-02
+updated: 2026-10-12
 status: ai-draft
 review_status: unreviewed
 source_type: thesis
@@ -82,11 +82,28 @@ tags: [high-spin, transitional-nuclei, iodine-isotopes, decoupled-band, gamma-so
 | D12-4 | 带 B 的强 $\Delta I=1$ 带间跃迁和 ADO 系统性低于纯偶极基准的结果，与负的 $E2/M1$ 混合比相容；作者将其主要组态指认为具有小扁椭形变的高 $K$ $\pi g_{7/2}[404]7/2^+$，带 C 则指认为 $\pi d_{5/2}[402]5/2^+$。 | author-interpretation | direct | PDF pp.67-68（印刷页 59-60）、Fig.5.5 | true |
 | D12-5 | 在 $^{127}\text{I}$ 较高自旋区，观测到建立在 $15/2^+$（2068.4 keV）和 $23/2^+$（2901.2 keV）上的非规则非集体结构 E/F 与规则类转动结构 D 在相近激发能区共存。 | experimental-fact | direct | PDF pp.68-70（印刷页 60-62）、Fig.5.6 | true |
 | D12-6 | PES 计算给出很浅且对 $\beta/\gamma$ 形变柔软的势能面；表 5.2 中存在与实验 $15/2^+$（2068 keV）和 $23/2^+$（2901 keV）相容的候选组态能量，作者据此支持三准粒子组态及集体/非集体激发共存的解释，但形状参数依赖坐标和模型约定。 | model-result | direct | PDF pp.70-72（印刷页 62-64）、Table 5.2、Fig.5.7 | true |
-| D12-7 | 在双奇核 $^{128}\text{I}$ 中建立由 20 个能级、31 条 $\gamma$ 跃迁组成的新高自旋纲图，纠正了前人能级连接的不妥之处，并首次确定了高自旋态的自旋宇称。 | experimental-fact | direct | PDF pp.76-79（印刷页 68-71）、Fig.6.2、Table 6.1 | true |
+| D12-7 | 在双奇核 $^{128}\text{I}$ 中以已知 175 ns、$(6^-)$ 同质异能态为锚建立新高自旋纲图，并首次给出高自旋态激发能和作者建议的自旋宇称；当前可核的第六章正文未明确给出全纲图总级数/总跃迁数，具体标签仍受 ADO 歧义和模型辅助限制。 | experimental-fact | direct | PDF pp.76-79（印刷页 68-71）、Fig.6.2、Table 6.1 | true |
 | D12-8 | $^{128}\text{I}$ 的低位负宇称多重态中，约 167.4 keV 的 $6^-$ 同质异能态和 183.0 keV 的 $7^-$ 态主要对应 $\pi d_{5/2}\otimes\nu h_{11/2}$；约 226.0 keV、269.6 keV 和 285.2 keV 的结构主要对应 $\pi g_{7/2}\otimes\nu h_{11/2}$。NPA 重现了主要间隔趋势，但部分 $6^-/7^-$ 理论顺序与实验相反，且 $8^-$ 组态还需经验壳模型与系统学支持。 | model-result | direct | PDF pp.82-83（印刷页 74-75）、Fig.6.6、Table 6.1 | true |
 | D12-9 | $^{128}\text{I}$ 负宇称结构 B 建立在 285.2 keV $8^-$ 态上，主要路径为 696.2 keV $9^-$、1041.7 keV $10^-$、1454.0 keV $11^-$ 和 1873.5 keV $12^-$；作者将其指认为 $\pi g_{7/2}\otimes\nu h_{11/2}$ 类转动结构，并指出相对于较轻同位素集体特征减弱。 | author-interpretation | direct | PDF pp.84-85（印刷页 76-77）、Fig.6.7、Table 6.1 | true |
 | D12-10 | $^{128}\text{I}$ 正宇称 $1460.9\text{ keV} (9^+)$、$1562.2\text{ keV} (10^+)$ 和 $1964.9\text{ keV} (11^+)$ 能级指认为 $\pi h_{11/2}\otimes\nu h_{11/2}$ 两准粒子多重态；经验壳模型计算偏差为 22、44、47 keV，NPA 重现了主要劈裂和 $10^+$ 的绝对激发能，但计算的 $11^+$ 低于实验。 | model-result | direct | PDF pp.85-87（印刷页 77-79）、Fig.6.8 | true |
 | D12-11 | 沿双奇碘核同位素链比较，$^{128}\text{I}$ 中的能级间隔呈现无规则化、平行跃迁增多且类转动特征减弱；作者据此认为在 $N=75$ 处单粒子运动增强并在高自旋激发模式中占主导，同时当前数据看不出明确手征双重带迹象。 | author-interpretation | direct | PDF pp.88-91（印刷页 80-83）、Fig.6.9、Table 6.2 | true |
+
+| D12-12 | Figure 3.3 compares CASCADE and PACE calculated excitation functions for the `7Li + 124Sn` reaction and identifies 3n, 4n and 5n as the leading channels; calculated cross-section maxima for `128I` and `127I` are near 26 and 32 MeV. The text warns that these calculations show trends and that experimental excitation-function information is needed to choose beam energies. | model-result | direct | PDF pp.34-35, Fig.3.3 | true |
+| D12-13 | The measured total `γ-γ` projection spectra at 32 and 28 MeV show established `127I` lines (490.4, 609.7, 658.8 and 763.3 keV) relatively stronger at 32 MeV, while candidate 102.1- and 411.2-keV lines change in the opposite direction; the cited lines are reported in coincidence with iodine K x rays. | experimental-fact | direct | PDF p.75, Fig.6.1 | true |
+| D12-14 | The authors assign the 102.1- and 411.2-keV lines, and correlated 221.0-, 227.1-, 402.7- and 756.7-keV lines, to the `128I` 3n channel using the two-energy intensity pattern, iodine K-x-ray coincidences, known `127I` anchors and `γ-γ` coincidence relationships. This is a source assignment, not an event-by-event isotope tag. | author-interpretation | direct | PDF pp.75-76, Fig.6.1 | true |
+| D12-15 | The thesis notes that observed peaks can be doublets or contaminated by evaporation residues `127I`, `126,128Te` and `125Sb` from 4n, 4np, 2np and α2n channels; known level schemes and coincidence analysis were used to identify the `128I` transitions. | experimental-fact | direct | PDF p.76 | true |
+| D12-16 | The thesis publication list includes a 2011 paper titled “High-spin states in doubly odd 128I” with Ding and thesis coauthors; Crossref metadata verifies the DOI `10.1360/132010-774`, title, authors and pages. Because the article's acquisition has not been directly checked here, conservatively treat it as a dependent publication and do not count it as an independent dataset. | synthesis | direct | PDF p.99; Crossref DOI 10.1360/132010-774 | true |
+| D12-17 | The authors state that the `58.5-keV` transition's `R_ADO=1.66(60)` cannot distinguish a quadrupole `ΔI=2` from a dipole `ΔI=0` transition; its placement is constrained using other transitions and level-scheme evidence. | experimental-criterion | direct | PDF p.79 | true |
+| D12-18 | In the ADO method, peak areas for the same gated transition are corrected by the efficiencies of the small- and large-angle detector groups; the gate efficiency cancels in the ratio. The paper's pure-quadrupole and pure-dipole reference values (`1.29` and `0.64`) are specific to this array. | experimental-criterion | direct | PDF pp.54-55, 57 | true |
+| D12-19 | The thesis publication list also includes Wang et al. 2010, “A New High-Spin Level Scheme of 128I”; Crossref verifies `Chinese Physics Letters` 27(8), 082701 and DOI `10.1088/0256-307X/27/8/082701`. The publisher access probe on 2026-10-12 returned a restricted status, so this related publication was not read or used to claim level revisions; it is conservatively not counted as an independent acquisition. | synthesis | direct | PDF p.99; Crossref DOI 10.1088/0256-307X/27/8/082701 | true |
+| D12-20 | The thesis reports the `127I` experiment as `67×10^6` `γ-γ-t` events with a 100-ns coincidence-time window and `3×10^6` X-γ events; its `128I` chapter states that `127I` and `128I` are different evaporation channels from the same fusion-evaporation experiment and use the same offline analysis method. | experimental-fact | direct | PDF p.57 (printed p.49); PDF pp.75-76 (printed pp.67-68) | true |
+| D12-21 | A reproducible text extraction of Table 6.1 yields 61 rows containing a transition-energy and level arrow on PDF pp.78-79. The earlier 20-level/31-transition summary was not located as an explicit total in those chapter pages; whether it denotes a subset or reflects an earlier source-page error remains unresolved. | synthesis | direct | PDF pp.78-79, Table 6.1 | true |
+
+### 2026-10-12 reaction-channel evidence addendum
+
+D12-12–D12-21 add the calculated-versus-measured channel-selection distinction, the two-energy isotope-assignment chain, reported contaminant residues, acquisition/time-window facts, related-publication boundaries, a transition-table count audit, and explicit ADO limits. All claims remain `needs_review: true`; page `review_status` remains `unreviewed`.
+
+Related acquisition lineage comparison: [[wang-haixia-2012-173w-128i-high-spin-thesis]] WHX12-5/7/8; this is a same-experiment-source comparison, not an independent `128I` measurement.
 
 ## Nuclear Structure Information
 
