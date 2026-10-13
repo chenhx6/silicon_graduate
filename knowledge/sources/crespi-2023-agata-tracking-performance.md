@@ -137,3 +137,7 @@ PDF1–43主线；核心pp.3–10、12–14、19–24、27–32；Eq.(7)p20视�
 ## Direct GANIL follow-up
 
 2026-10-14续读 [[ljungvall-2020-agata-ganil-performance]] LG20-3/4/7/8/10/12，取得Ref.[25]的public全文copy。C23-7/12的source效率/P-T now有primary locator，但原始events/normalization/PSA packet仍未取得，不增加独立acquisition。LG20-10直接比较mix-before/aftertracking，LG20-12限制source→beam迁移；LG20-15保留copy2020header/2022build-footer的版本身份。原Ref.[24] Söderström2011仍未得全文，不把两者混为已读。
+
+## Fission benchmark angular-control follow-up
+
+2026-10-14读[[lemasson-2023-agata-vamos-fission-history]] LS23-5/6：98Zrline为1222.9keV，EXOGAMall-rings15/backward7keV、AGATA100–170°5keV，spectra按totalcounts归一。原p21的1229.9与“similarangularranges”简述保留；本task以详细reference限制15/5对比范围，未改raw/宣称author-approvederratum。LS23-7/8另给Exp1–4 lineage/post-degrader条件，不把review引用变成独立数据。

@@ -793,3 +793,54 @@ Light TOF还需 `Tlight=Theavy−TMUGAST−VAMOS` 的实际time difference/start
 首轮程序因误假定全区间单根而失败；检查显示massconstraint在beamT≈32.56055MeV处有内部minimum，两个endpoint同号却有两内部roots。已用解析stationary condition分别bracket并保留两解。这个失败/修复记录是本任务建模验证，不是sourcecode错误。
 
 在该特定gamma方向下，遗漏feedingγ、直接以prefeeding reaction vector校正lowerγ只差约−.01865keV，展示entrypoint误判与γrecoil是不同机制；不把这个小值移植到其它角度/能量。自设four-input independentΣ（beamTσ.1MeV、lightTσ.01MeV、θ/φσ各.1°）给restγσ.059621keV，MC.059667；未含target/beamspot/PSA/history，不能用它解释实测7.1keV。全部mass-shell、stagedinverse和covariance检验通过，actualsourcepacket仍缺。
+
+## Post-degrader reference 保留的 velocity-history 信息
+
+[[lemasson-2023-agata-vamos-fission-history]] LS23-8 的Fig6是直接边界：以measuredvd校正，after-degraderγ落在U reference，before-degrader vt>vd落在angle-dependentS band。U仍在运动，不是stopperβ0。Collinear与backwardangle近似下，`Ecorr/E0=Dd/Dt<1`；使用trueinstantaneousβem可恢复所有E0，却不再单靠这个energy变量保留原lifetimehistory。应同时保存lab、reference-corrected、使用的vector/stage与gates，按分析目标选择校正。
+
+[day13_degrader_reference_history.py](../../system/scripts/day13_degrader_reference_history.py)自设βt=.12、βd=.09、16.7μmfoil、properlevelτ3.8ps/feeder0或7.5ps；sourceLS23的centralτ与厚度仅给illustrativescales。Labβ在foil内线性减小，properclock独立积分；gap=.470mm时：
+
+| history | before / inside / after foil（unconditional） |
+|---|---|
+| direct levelτ3.8ps | .967065 / .004269 / .028666 |
+| feeder7.5ps+level3.8ps | .674235 / .020041 / .305725 |
+
+在self-chosenideal120–170°cap、correctedGaussianσ1keV及E0±5keV门后，两种history的gatefraction约.02972/.31960，而且选中样本主要是afterfoil；这个门不保留原unconditionalS/Upopulation。Beforefoil γ用postreference在120/145/170°分别偏−21.1399/−31.1653/−36.0982keV。Finitefoil、feeding和energy/angleselection分别影响line profile，不能只拿peakheight/width推出τ。
+
+Stagefractions analytic/MC最大差.000925，proper-clock/grid与truthinverse/staticequal-speed检查通过。实际Mg stoppingpower、straggling、finitearea、nuclearalignment、vertexdisplacement和velocitycovariance未给；本fixture不拟合sourceFig6/7或测新τ。
+
+## Focal-plane delayed 样本的 survival 与速度选择
+
+LS23-3/11/12给约760cmflight、v2.9–4cm/ns与FPgasstopping/lateγ的source尺度。若初始isomerpropermeanlifeτ、labflightT、之后瞬时停止，且停后理想window为[a,b]，则
+
+$$P_{alive,FP}=e^{-T/(\gamma\tau)},\qquad
+P_{late}=e^{-T/(\gamma\tau)}[e^{-a/\tau}-e^{-b/\tau}].$$
+
+这里“alive”指FP时仍在isomer，不是离子是否存在；γ衰变后sameisotope仍可被PID。实际window/start、finite stopping、branch/ICC、ε/background另需packet，不能据latepeak缺失直接排isomer。
+
+[day13_delayed_survival_selection.py](../../system/scripts/day13_delayed_survival_selection.py)自设uniformvelocity、instantstop、unit photon/detector efficiency，window100ns–200μs取sourcecapability尺度，非originalexecutedgate。Properτ100ns时，FP平均isomersurvival.112365、理想lateprob.041337；selectedmeanv由3.45变3.51428cm/ns，fast/slow survivalratio2.0655。τ1ms时lateprob仅.18113，即使几乎全部isomers到FP也会被finitewindow丢掉许多。
+
+132Te sourcehalf-life28.1μs须转meanτ40.53973μs；同toy得到survival.994570、totalidealprob.984957，不能当该实验真实efficiency或decaybranch。Independentintegration/MC最大prob差.000787，half/mean、zero-flight及full-window极限通过。Prompt/delayed样本可因survival有不同velocitypopulation，sameisotope标签不自动恢复相同jointresponse。
+
+## 20O progress report 的 RF 与 lifetime–energy contract
+
+[[ciemala-2019-20o-dsam-analysis-status]] CO19-2/3/6/9/10/12明确是18O+Ta deep-inelasticdata，非AS21的19Otransfer/Aubacking。VAMOS v=D/T、mass/charge联合RFtime与energycal；PARIS–RFdrift信息修正mass稳定，但同reference不能当独立绝对velocityvalidation。
+
+CO19-7/8的long1674-keVline（sourceτ10.5ps）与short2396-keVline有不同angletrend；zeroaverage不等alloutside，shortcentroid差也不唯一给τ。Source明确preciserestγenergy缺口，需要jointτ/Eγχ²；320/200fs是引用NN/NN+NNN模型，below~300fs只是其初步解释，没有finalbestfit/CLlimit或absoluteB（CO19-1/9/13）。
+
+Generator用currentβ作forwardshift，target内发γ后ion继续输运到targetend；同样叫“γemittervelocity”的输出仍需emission/exitstage标识（CO19-10/12）。This is a variable-contract boundary, not proof of a source-code bug. Actualsimulations/corrections必须与measuredlatevector/response匹配，不能将truthinverse的collapsed能谱当lifetimefit模板。RFcycle/nearest-charge/calibrationcovariance与fullmodelpacket缺失时，保留readiness而不补出τ。
+
+### Unknown Eγ 与 lifetime：centroid 和 full shape 的信息不同
+
+CO19-9的jointτ/Eγ要求可用一项声明的designexercise检验，不能以原图的几个centroid直接测τ。 [day13_lifetime_energy_design.py](../../system/scripts/day13_lifetime_energy_design.py)自设properclock线性slowing β.105→.10、duration.13ps、E0=2396keV、correctedGaussianσ1.5keV、pointangles130/150/170°，isotropic-rest条件angularJacobian参与归一化。它不是source的reaction-depth/stopping/feeding/geometry generator。
+
+在syntheticτ=.20ps的数据分布上固定另一hypothesis τ=.32ps：
+
+| 比较的量 | 结果 | 范围 |
+|---|---|---|
+| 只以三个centroid拟合common E0 | E0_alt=2395.104079keV；residual−.166083/+.032079/+.134043keV | 未给真实centroid/Σ误差，不据此接受或排sourceτ。 |
+| 用完整normalizedprofiles再优化E0 | E0_alt=2395.780664keV；meanKL=.02843494/conditionalphoton | 假定所有slowing/response参数准确，未fit原实验。 |
+
+自设N1000/10000时，expected`2N KL`约56.87/568.70仅是**此exact model下的designinformation metric**，不是sourceχ²、CL或NNNforce证据。Restenergy可吸收centroid差，fullshape可能保留更多tail/mixture信息；若真实stopping/feeding/response/calibration uncertain，它们还可削弱或改变这个辨识性。
+
+Profile归一化与96/192timequadrature差<2.2×10⁻15，independentimportanceMC mean最大差.00353keV；no-loss、largeτoutside与same-modelKL0极限通过。τ.20/.32只是sourceCO19-1理论scale-inspired hypotheses，不是本任务测得值或physics-modelranking。实际jointfit应保存template/version/Σ与independent energycalibration/held-outline条件。

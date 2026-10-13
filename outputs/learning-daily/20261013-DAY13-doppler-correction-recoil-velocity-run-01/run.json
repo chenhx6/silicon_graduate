@@ -408,22 +408,22 @@
   "final_audit_current": false,
   "goal_completion_current": false,
   "last_research_checkpoint": {
-    "now_local": "2026-10-14T03:53:11.627863+08:00",
-    "minutes_to_deadline": 666.8062022833333,
+    "now_local": "2026-10-14T05:57:51.878940+08:00",
+    "minutes_to_deadline": 542.135351,
     "status": "research-active",
-    "writeback_items": 71,
-    "mapped_pages": 24,
-    "decision": "continue-primary20O-history-and-promptdelayed-lineage",
+    "writeback_items": 83,
+    "mapped_pages": 26,
+    "decision": "continue-direct-calibration-and-velocity-stage-packet",
     "no_new_credit": true,
     "clock_queued_not_delivered": true
   },
   "last_clock_refresh": {
-    "now_local": "2026-10-14T03:53:11.627863+08:00",
-    "minutes_to_deadline": 666.8062022833333,
+    "now_local": "2026-10-14T05:57:51.878940+08:00",
+    "minutes_to_deadline": 542.135351,
     "status": "research-active",
-    "writeback_items": 71,
-    "mapped_pages": 24,
-    "decision": "continue-primary20O-history-and-promptdelayed-lineage",
+    "writeback_items": 83,
+    "mapped_pages": 26,
+    "decision": "continue-direct-calibration-and-velocity-stage-packet",
     "no_new_credit": true,
     "clock_queued_not_delivered": true
   },
@@ -899,6 +899,96 @@
         }
       ],
       "published_at": "2026-10-14T02:29:15.533095+08:00",
+      "window_remains_active": true
+    },
+    {
+      "branch": "main",
+      "commit_subject": "Add DAY13 particle-assisted recoil and validation contract",
+      "commit_hash": "0e9c087316d1b37b5b7474dc592e7f640dc486c0",
+      "status": "published-active-checkpoint",
+      "scope": "active checkpoint; no new course credit or research closeout",
+      "files": [
+        "knowledge/index.md",
+        "knowledge/methods/doppler-correction.md",
+        "knowledge/methods/gamma-gamma-coincidence.md",
+        "knowledge/methods/tracking-array.md",
+        "knowledge/sources/assie-2021-mugast-agata-vamos.md",
+        "knowledge/synthesis/doppler-velocity-validation-contract.md",
+        "outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity-run-01/particle-complementarity-recall.md",
+        "outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity-run-01/photon-recoil-width-exercise.json",
+        "outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity-run-01/reopened-checkpoint-audit-005.json",
+        "outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity-run-01/reopened-publication-manifest-005.json",
+        "outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity-run-01/research-checkpoint-reopened-008.json",
+        "outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity-run-01/retarded-arrival-time-exercise.json",
+        "outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity-run-01/retarded-time-recall.md",
+        "outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity-run-01/rigidity-pid-covariance-exercise.json",
+        "outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity-run-01/rigidity-pid-recall.md",
+        "outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity-run-01/run.json",
+        "outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity-run-01/two-body-entrypoint-exercise.json",
+        "outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity-run-01/two-body-entrypoint-first-attempt.json",
+        "outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity-run-01/two-body-entrypoint-recall.md",
+        "outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity-run-01/zero-sensitivity-curvature-exercise.json",
+        "outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity-run-01/zero-sensitivity-recall.md",
+        "outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity.md",
+        "system/handoff.md",
+        "system/log.md",
+        "system/scripts/day13_photon_recoil_width.py",
+        "system/scripts/day13_retarded_arrival_time.py",
+        "system/scripts/day13_rigidity_pid_covariance.py",
+        "system/scripts/day13_two_body_entrypoint.py",
+        "system/scripts/day13_zero_sensitivity_curvature.py"
+      ],
+      "post_commit_reconciliation": {
+        "manifest_matches_commit": true,
+        "handoff_pointer_matches": true,
+        "origin_main_matches_HEAD": true,
+        "index_empty": true
+      },
+      "H3_observed_commands": [
+        {
+          "argv": [
+            "git",
+            "fetch",
+            "origin",
+            "main"
+          ],
+          "exit_code": 0,
+          "evidence": "observed tool result in current session"
+        },
+        {
+          "argv": [
+            "git",
+            "merge-base",
+            "--is-ancestor",
+            "origin/main",
+            "HEAD"
+          ],
+          "exit_code": 0,
+          "evidence": "observed tool result in current session"
+        },
+        {
+          "argv": [
+            "git",
+            "push",
+            "--dry-run",
+            "origin",
+            "HEAD:main"
+          ],
+          "exit_code": 0,
+          "evidence": "observed tool result in current session"
+        },
+        {
+          "argv": [
+            "git",
+            "push",
+            "origin",
+            "HEAD:main"
+          ],
+          "exit_code": 0,
+          "evidence": "observed tool result in current session"
+        }
+      ],
+      "published_at": "2026-10-14T03:56:26.902852+08:00",
       "window_remains_active": true
     }
   ]

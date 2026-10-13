@@ -87,6 +87,7 @@ MUGAST backward5trapezoids(2019)/7(2020)、annular及forwardMUST2；backward str
 | AS21-15 | Sec.7.2把4.140/4.197MeV两state间隔写51keV，而printedvalues之差为57keV，γ2632/2689keV也差57；原labels/文字保留，未以任务算术更正underlying ENSDF或placement。 | our-inference | indirect | PDF p.10, Sec.7.2; p.11, Fig.15inset | true |
 | AS21-16 | 作者认为manufacturer给target厚度3±.5μm的不确定可能解释191keVsimulation与179±4keVmeasurement的部分差，未据此测定真实厚度或唯一选因。 | author-interpretation | direct | PDF p.7, Sec.4.2/Fig.8 | true |
 | AS21-17 | Source报告19O(d,pγ)20O run有用于lifetime研究的Au backing；因此原拟用VAMOS精确target-loss/thickness测量未能完成。 | experimental-criterion | direct | PDF p.7, Sec.4.2, Au-backing paragraph | true |
+| AS21-18 | Ref11 PLB811,135939的DOImetadata身份是17C single-particle论文，非20Odata；本轮仅核其bibliography，没有借它证明Au/20O history。 | synthesis | direct | PDF p.13, Ref11; Crossref DOI10.1016/j.physletb.2020.135939 identity lookup | true |
 
 ## Nuclear Structure Information
 
@@ -134,6 +135,10 @@ nptool用于geometry/target/straggling及efficiency；DWBA/ADWA曲线依potentia
 ## Human Review Triage
 
 P0：publiccopy身份/raw未归档与targetlabel冲突明确隔离。P1：AS21-7relative scale、AS21-8sameevents/width、AS21-9/10integer/clock、AS21-11normalization、AS21-14/15printedboundaries。Self-audit未提升human-reviewed。
+
+## Reference-route identity follow-up
+
+2026-10-14 Crossref查核Ref11 PLB811,135939 / DOI10.1016/j.physletb.2020.135939为17C single-particle论文，而非20O Au-backing数据；本轮只核metadata，未读其body，不将候选题名/同apparatus当20O直接证据。Ref27 PRC85,054318的19O(d,p)20O HELIOS身份另已核，仅可作不同apparatus候选。
 
 ## Extracted Pages
 

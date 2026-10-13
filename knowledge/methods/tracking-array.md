@@ -143,3 +143,11 @@ $$\cos\theta_{wrong}=1-\frac{1-\cos\theta_{lab}}{D}.$$
 MUGAST39crystals/R182mm与plunger35/R233mm的transparency比较先在1.4MeV归一，再讨论above200keV相似、100keV约10%差。这个shape comparison不保留absolute scale，不能证明所有gamma能量/角度的absolute attenuation均为零。AS21-1的target-holder shadow与AS21-13的forward mask/shutter说明real occupancy也需匹配。
 
 Lightparticle/重离子信息能改善Doppler（AS21-8），addedmaterial/trigger和PID/clock仍改变被选gamma样本（AS21-2/9/10）。实际validation须同时保存raw/lab/rest能量、particle/beam/target metadata、FEP/P-T与joint efficiency/covariance，不从一个改善的峰宽推整套response完成。
+
+## AGATA/EXOGAM 比较的 angular controls
+
+[[lemasson-2023-agata-vamos-fission-history]] LS23-5/6 的98Zr1222.9-keV comparison明确区分EXOGAMall-rings15keV、backward-only7keV与AGATA100–170°的5keV；two spectra还归一same total counts。15/5含不同angularselection，7/5仍有array/config差，二者都不是matchedgeometry的purealgorithm factor或absoluteefficiency。
+
+[[crespi-2023-agata-tracking-performance]] C23-10的1229.9打印值与本directreference的1222.9不同，继续保留原text与新locators；不把review省略的条件补写成原文完全一致。LS23-1/7的Exp1–4与VD16/LG20run绑定也需manifest，不能只同nuclide/facility合并数据。
+
+[[ciemala-2019-20o-dsam-analysis-status]] CO19-10/11/12提供source simulation/current-photon/late-ion/response链的另一个例子。Code与data的相同tracking流程很有用，仍需要输入β/vertex/energyframe的stageidentity；modeltruth与late-measurement uncertainty不能在字段名“emittervelocity”下混合。

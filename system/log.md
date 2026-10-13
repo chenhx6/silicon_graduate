@@ -1654,3 +1654,9 @@ Following the user question about the missing Day8 prompt, the formal Day8 card 
 - Two-body首次single-bracket失败已保留；masscurve analyticminimum后两roots分别核验；不把fitroot当entrypoint正确、不指控source。综合验证契约self-audit完成、71items/24pages唯一writeback通过。
 - lint0errors/112warnings、boundary/report/card/protected/diff通过；source rawslots10未填充。Researchactive至原15:00，state已next14/count13不重复计卡。LegacyDay6–9/daemon/log、raw/PLAN/credentials排除stage。
 - Next primary20O Au-backing/emissionhistory、Lemasson2023 prompt/delayed/degrader与98Zr lineage；无formalDay14/Day15。
+
+## [2026-10-14T05:57:51.878940+08:00] learning | DAY13 history and joint-energy calibration checkpoint
+
+- LS23/C019 fullsource+plots已核，EXO angularselection与postdegrader/FPstage、RF/energy/PID、progressreport nofinalτ均写回；Ref11metadata为17C，已排错候选。
+- 三stage/survival/τ-Eshape设计exercise验证通过；12publicrawslots未填充、model vsreport vsinference保持分层。83items/26pageswriteback及lint0errors/116warnings、boundary/report/card/protected/diff通过。
+- active至原15:00，course next14/count13不重计、Day14partial/无Day15。LegacyDay6–9/daemon/log、raw/PLAN/credentials排除stage；下directcalibration APB50p625和velocity-outputstage。

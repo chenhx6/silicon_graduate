@@ -1,0 +1,10 @@
+{
+  "now_local": "2026-10-14T05:57:51.878940+08:00",
+  "minutes_to_deadline": 542.135351,
+  "status": "research-active",
+  "writeback_items": 83,
+  "mapped_pages": 26,
+  "decision": "continue-direct-calibration-and-velocity-stage-packet",
+  "no_new_credit": true,
+  "clock_queued_not_delivered": true
+}

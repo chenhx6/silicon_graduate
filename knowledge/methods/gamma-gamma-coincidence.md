@@ -72,6 +72,8 @@ LG20-12保留in-beam低peak/background及共同alignment的限制。[[tracking-a
 
 ## Sources
 
+- [[lemasson-2023-agata-vamos-fission-history]] LS23-11/12：prompt/delayed在target与FP不同速度/位置阶段，isomersurvival、window与same-event covariance是negativeevidence必要条件。
+
 - [[assie-2021-mugast-agata-vamos]] AS21-2/11/12：particle–γ–heavy tag的event stage与feeding entrypoint；强背景抑制和relativecurve不补齐absolutebeam normalization。
 
 [[schirmer-1984-double-gamma-40ca-90zr]] demonstrates a rare two-photon branch: delayed proton-gated events, Crystal-Ball multiplicity, Eq.(1) PAF kinematics, energy/angle cuts and polarization-assisted angular-correlation fitting are all needed to separate simultaneous photons from annihilation/Compton backgrounds. This is a two-photon-decay case, not a generic cascade-DCO recipe.

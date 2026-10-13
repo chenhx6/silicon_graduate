@@ -9,6 +9,9 @@ updated: 2026-10-14
 
 ## Sources
 
+- [[ciemala-2019-20o-dsam-analysis-status]] - 2019progressreport：RF/energy/PID联合校准、20O angletrend与jointτ/Eγplannedfit；200/320fs非已测值，data不是MUGASTtransfer。
+- [[lemasson-2023-agata-vamos-fission-history]] - 12页fissionreview：EXOGAM15(all)/7(back)对AGATA5、postdegraderS/U与FPdelayedhistory；Exp1–4/lineage边界。
+
 - [[assie-2021-mugast-agata-vamos]] - light-ejectile two-body重建使20Oγ宽10.2→7.1keV；rigidity/PID/TOF、Au-backing、relative transparency和absolute normalization边界。
 
 - [[ljungvall-2020-agata-ganil-performance]] - GANIL2016的primary response benchmark：VAMOS约束Doppler-position、OFT units、tracking前/后event-mixing与source→beam边界；public copy日期差保留。

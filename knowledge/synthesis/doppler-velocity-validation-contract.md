@@ -8,7 +8,7 @@ status: ai-draft
 review_status: unreviewed
 scope: doppler-recoil-vector-response-validation
 confidence: medium
-sources: [mavela-2019-32s-quadrupole-moment-doppler-correction-thesis, klemme-1999-lifetimes-134nd-neighbors, vandebrouck-2016-vamos-dual-position-mwpc, crespi-2013-agata-high-energy-doppler-response, aladili-2009-agata-doppler-simulation, akkoyun-2012-agata-instrument-response, senyigit-2014-agata-neutron-rejection, tunl-2017-12c-level-widths, soderstrom-2008-agata-position-design, crespi-2023-agata-tracking-performance, ljungvall-2020-agata-ganil-performance, assie-2021-mugast-agata-vamos]
+sources: [mavela-2019-32s-quadrupole-moment-doppler-correction-thesis, klemme-1999-lifetimes-134nd-neighbors, vandebrouck-2016-vamos-dual-position-mwpc, crespi-2013-agata-high-energy-doppler-response, aladili-2009-agata-doppler-simulation, akkoyun-2012-agata-instrument-response, senyigit-2014-agata-neutron-rejection, tunl-2017-12c-level-widths, soderstrom-2008-agata-position-design, crespi-2023-agata-tracking-performance, ljungvall-2020-agata-ganil-performance, assie-2021-mugast-agata-vamos, lemasson-2023-agata-vamos-fission-history, ciemala-2019-20o-dsam-analysis-status]
 tags: [doppler-correction, velocity-information, calibration, covariance, evidence-contract]
 ---
 
@@ -108,6 +108,10 @@ P0: none identified。未建立新的structure/absolute-strength结论；sourcei
 | DVV-P1-3 | Source/review和同run多gate共享数据；missingpacket不补absoluteB。 | AS21-17/11/12、AK12-7、LG20-1、T12C-2/3；lineage table与readiness。 | 正式科研使用需核normalization/response/dataidentity，防止重复证据计数或超出数据支持。 | 保留需要数据才能完成的边界，不制造用户待办。 |
 
 P2/P3：导航/anchor关系按本run writeback检查；不改变source/claim review flags或课程学分。
+
+## History-specific update
+
+[[lemasson-2023-agata-vamos-fission-history]] LS23-5/6/8/11细化angularcomparison、post-degrader U/S与FPdelayedhistory；[[ciemala-2019-20o-dsam-analysis-status]] CO19-3/6/9/13明确sharedRF/energy/PID校准、jointτ/Eγ和preliminaryno-final-result。它们补充上述contract，不把方法benchmark、modelpredictions或historyselection变成新测量/absoluteB。
 
 ## Sources
 

@@ -1,0 +1,127 @@
+{
+  "at": "2026-10-14T05:57:51.878940+08:00",
+  "status": "active-checkpoint-not-closeout",
+  "remaining_minutes": 542.135351,
+  "original_deadline": "2026-10-14T15:00:00+08:00",
+  "writeback": {
+    "valid": true,
+    "mode": "updated",
+    "knowledge_paths": [
+      "knowledge/methods/doppler-correction.md",
+      "knowledge/sources/mavela-2019-32s-quadrupole-moment-doppler-correction-thesis.md",
+      "knowledge/sources/klemme-1999-lifetimes-134nd-neighbors.md",
+      "knowledge/sources/herzan-2015-193bi-spectroscopy.md",
+      "knowledge/methods/level-scheme-reconstruction.md",
+      "knowledge/projects/a130-thesis-evidence-matrix.md",
+      "knowledge/questions.md",
+      "knowledge/index.md",
+      "knowledge/sources/vandebrouck-2016-vamos-dual-position-mwpc.md",
+      "knowledge/sources/crespi-2013-agata-high-energy-doppler-response.md",
+      "knowledge/methods/tracking-array.md",
+      "knowledge/sources/aladili-2009-agata-doppler-simulation.md",
+      "knowledge/research-notes/doppler-forward-inverse-convention-check.md",
+      "knowledge/sources/akkoyun-2012-agata-instrument-response.md",
+      "knowledge/concepts/lorentz-boost-correction.md",
+      "knowledge/sources/longfellow-2026-gretina-energy-ordering-polarization.md",
+      "knowledge/sources/senyigit-2014-agata-neutron-rejection.md",
+      "knowledge/methods/gamma-gamma-coincidence.md",
+      "knowledge/sources/tunl-2017-12c-level-widths.md",
+      "knowledge/sources/soderstrom-2008-agata-position-design.md",
+      "knowledge/sources/crespi-2023-agata-tracking-performance.md",
+      "knowledge/sources/ljungvall-2020-agata-ganil-performance.md",
+      "knowledge/sources/assie-2021-mugast-agata-vamos.md",
+      "knowledge/synthesis/doppler-velocity-validation-contract.md",
+      "knowledge/sources/lemasson-2023-agata-vamos-fission-history.md",
+      "knowledge/sources/ciemala-2019-20o-dsam-analysis-status.md"
+    ],
+    "changed_paths": [
+      "knowledge/concepts/lorentz-boost-correction.md",
+      "knowledge/index.md",
+      "knowledge/methods/doppler-correction.md",
+      "knowledge/methods/gamma-gamma-coincidence.md",
+      "knowledge/methods/level-scheme-reconstruction.md",
+      "knowledge/methods/tracking-array.md",
+      "knowledge/questions.md",
+      "knowledge/research-notes/doppler-forward-inverse-convention-check.md",
+      "knowledge/sources/akkoyun-2012-agata-instrument-response.md",
+      "knowledge/sources/aladili-2009-agata-doppler-simulation.md",
+      "knowledge/sources/assie-2021-mugast-agata-vamos.md",
+      "knowledge/sources/ciemala-2019-20o-dsam-analysis-status.md",
+      "knowledge/sources/crespi-2013-agata-high-energy-doppler-response.md",
+      "knowledge/sources/crespi-2023-agata-tracking-performance.md",
+      "knowledge/sources/lemasson-2023-agata-vamos-fission-history.md",
+      "knowledge/sources/ljungvall-2020-agata-ganil-performance.md",
+      "knowledge/sources/senyigit-2014-agata-neutron-rejection.md",
+      "knowledge/sources/soderstrom-2008-agata-position-design.md",
+      "knowledge/sources/tunl-2017-12c-level-widths.md",
+      "knowledge/sources/vandebrouck-2016-vamos-dual-position-mwpc.md",
+      "knowledge/synthesis/doppler-velocity-validation-contract.md"
+    ],
+    "change_check": "run-snapshot",
+    "error": null
+  },
+  "report": {
+    "valid": true,
+    "missing_headings": []
+  },
+  "coverage": {
+    "valid": true,
+    "completed_day_indices": [
+      13
+    ],
+    "partial_day_indices": [
+      14
+    ],
+    "curriculum_cards_completed": 1,
+    "next_day_index": 14,
+    "error": null
+  },
+  "protected": {
+    "PLAN.md": true,
+    "raw/zotero/wiki-inbox.bib": true
+  },
+  "lint_counts": {
+    "warning": 116,
+    "info": 1685
+  },
+  "new_exercises": {
+    "degrader-reference-history-exercise.json": {
+      "analytic_properclock_vs_independent_quad_passed": true,
+      "stage_fraction_MC_max_absolute_difference": 0.000924586392281046,
+      "proper_to_beta_grid1024_2048_max_difference": 1.3060955095234306e-11,
+      "truth_velocity_inverse_max_error_keV": 9.094947017729282e-13,
+      "equal_velocity_no_reference_shift_limit_passed": true,
+      "backward_shift_sign_passed": true,
+      "passed": true
+    },
+    "delayed-survival-selection-exercise.json": {
+      "analytic_velocity_integral_and_MC_probability_max_difference": 0.0007867315531350783,
+      "conditional_velocity_MC_passed": true,
+      "mean_half_conversion_passed": true,
+      "full_delay_window_recovers_survival_limit_passed": true,
+      "zero_flight_recovers_stopped_gate_limit_passed": true,
+      "passed": true
+    },
+    "lifetime-energy-design-exercise.json": {
+      "energy_profile_normalization_max_error": 2.220446049250313e-16,
+      "time_quad96_192_density_max_difference": 2.123301534595612e-15,
+      "importance_MC_moments_passed": true,
+      "max_MC_mean_difference_keV": 0.0035221519219703623,
+      "no_loss_tau_independence_limit_passed": true,
+      "long_tau_outside_limit_passed": true,
+      "same_model_KL_zero_passed": true,
+      "passed": true
+    }
+  },
+  "public_copy": {
+    "lemasson-2023-agata-vamos-fission-history": {
+      "public_copy_hash_matches": true,
+      "raw_slot_unpopulated": true
+    },
+    "ciemala-2019-20o-dsam-analysis-status": {
+      "public_copy_hash_matches": true,
+      "raw_slot_unpopulated": true
+    }
+  },
+  "no_new_credit": true
+}

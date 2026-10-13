@@ -1,0 +1,83 @@
+{
+  "schema_version": 1,
+  "kind": "synthetic lifetime/energy design; no sourcechi2, measured lifetime or force comparison",
+  "chosen_parameters": {
+    "true_rest_gamma_keV": 2396.0,
+    "true_proper_tau_ps": 0.2,
+    "fixed_alternative_tau_ps": 0.32,
+    "beta_in": 0.105,
+    "beta_exit": 0.1,
+    "Gaussian_sigma_keV": 1.5,
+    "point_angles_deg": [
+      130.0,
+      150.0,
+      170.0
+    ],
+    "angle_weights": "equal conditional photon samples",
+    "proper_slowing_duration_ps": 0.13
+  },
+  "centroid_only_alternative": {
+    "fitted_alternative_rest_energy_keV": 2395.1040787622637,
+    "three_centroid_residuals_keV": [
+      -0.1660825555145493,
+      0.03207947623241125,
+      0.13404299521198482
+    ],
+    "mean_absolute_residual_keV": 0.11073500898631512
+  },
+  "full_shape_alternative": {
+    "fitted_alternative_rest_energy_keV": 2395.7806639735268,
+    "minimum_mean_KL_per_conditional_photon": 0.028434936670119124,
+    "KL_for_centroid_only_alternative": 0.08137858507666677,
+    "expected_two_loglikelihood_metrics": [
+      {
+        "chosen_total_photons": 1000,
+        "expected2N_KL": 56.86987334023825
+      },
+      {
+        "chosen_total_photons": 10000,
+        "expected2N_KL": 568.6987334023825
+      }
+    ]
+  },
+  "moment_checks": [
+    {
+      "angle_deg": 130.0,
+      "analytic_mean_keV": 2393.770517526437,
+      "MC_mean_keV": 2393.774039678359,
+      "analytic_variance_keV2": 10.48138299816847,
+      "MC_variance_keV2": 10.470633331166301
+    },
+    {
+      "angle_deg": 150.0,
+      "analytic_mean_keV": 2393.1658800616956,
+      "MC_mean_keV": 2393.163018003875,
+      "analytic_variance_keV2": 15.561169363126826,
+      "MC_variance_keV2": 15.574946545728247
+    },
+    {
+      "angle_deg": 170.0,
+      "analytic_mean_keV": 2392.854892242989,
+      "MC_mean_keV": 2392.857120036788,
+      "analytic_variance_keV2": 18.649283644420322,
+      "MC_variance_keV2": 18.64315087914075
+    }
+  ],
+  "verification": {
+    "energy_profile_normalization_max_error": 2.220446049250313e-16,
+    "time_quad96_192_density_max_difference": 2.123301534595612e-15,
+    "importance_MC_moments_passed": true,
+    "max_MC_mean_difference_keV": 0.0035221519219703623,
+    "no_loss_tau_independence_limit_passed": true,
+    "long_tau_outside_limit_passed": true,
+    "same_model_KL_zero_passed": true,
+    "passed": true
+  },
+  "boundaries": [
+    "Fixed reaction point, chosen slowing law and response; not the CO19 depth/stopping/feeding/geometry model.",
+    "Source NN200/320fs scales motivate hypotheses only; this is not measured NN/NNN evidence.",
+    "Expected2N*KL is conditional on exact chosen models and counts, not a confidence or actualchi2.",
+    "Unknown stopping, energycalibration, feeding, response/tails and covariance can reduce or change identifiability."
+  ],
+  "numpy_version": "2.5.3"
+}

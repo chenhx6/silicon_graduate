@@ -1,0 +1,224 @@
+{
+  "schema_version": 1,
+  "kind": "synthetic finitefoil/properclock/postvelocity reference and feeding fixture",
+  "parameters": {
+    "rest_gamma_keV": 1222.9,
+    "chosen_beta_pre": 0.12,
+    "chosen_beta_post": 0.09,
+    "chosen_foil_mm": 0.0167,
+    "lab_foil_crossing_ps": 0.5305257514103943,
+    "proper_foil_crossing_ps": 0.5275728936987891,
+    "Gaussian_corrected_energy_sigma_keV": 1.0,
+    "ideal_lab_cap_deg": [
+      120,
+      170
+    ],
+    "samples_each_history": 500000
+  },
+  "rows": [
+    {
+      "gap_mm": 0.02,
+      "proper_level_tau_ps": 3.8,
+      "proper_feeder_tau_ps": 0.0,
+      "proper_clock_before_foil_ps": 0.5519228748572391,
+      "analytic_unconditional_stage_fractions": [
+        0.13518776225608276,
+        0.11210418146906598,
+        0.7527080562748513
+      ],
+      "MC_unconditional_stage_fractions": [
+        0.135622,
+        0.111988,
+        0.75239
+      ],
+      "ideal_cap_selected_fraction": 0.2098,
+      "selected_cap_stage_fractions": [
+        0.1298570066730219,
+        0.1111534795042898,
+        0.7589895138226883
+      ],
+      "rest_reference_plusminus5keV_gate_fraction": 0.7780362249761678,
+      "gate_conditioned_stage_fractions": [
+        0.0,
+        0.02448049402078024,
+        0.9755195059792198
+      ],
+      "boundary": "stage0before/1insidefoil/2after; isotropic ideal cap and Gaussian sigma1 are self-chosen"
+    },
+    {
+      "gap_mm": 0.47,
+      "proper_level_tau_ps": 3.8,
+      "proper_feeder_tau_ps": 0.0,
+      "proper_clock_before_foil_ps": 12.970187559145119,
+      "analytic_unconditional_stage_fractions": [
+        0.9670646013364439,
+        0.004269361310343278,
+        0.028666037353212825
+      ],
+      "MC_unconditional_stage_fractions": [
+        0.967296,
+        0.004092,
+        0.028612
+      ],
+      "ideal_cap_selected_fraction": 0.20225,
+      "selected_cap_stage_fractions": [
+        0.9665067985166873,
+        0.004637824474660074,
+        0.028855377008652656
+      ],
+      "rest_reference_plusminus5keV_gate_fraction": 0.029715698393077875,
+      "gate_conditioned_stage_fractions": [
+        0.0,
+        0.028951747088186357,
+        0.9710482529118136
+      ],
+      "boundary": "stage0before/1insidefoil/2after; isotropic ideal cap and Gaussian sigma1 are self-chosen"
+    },
+    {
+      "gap_mm": 2.0,
+      "proper_level_tau_ps": 3.8,
+      "proper_feeder_tau_ps": 0.0,
+      "proper_clock_before_foil_ps": 55.19228748572391,
+      "analytic_unconditional_stage_fractions": [
+        0.9999995077534758,
+        6.380910355652247e-08,
+        4.2843742065201695e-07
+      ],
+      "MC_unconditional_stage_fractions": [
+        0.999998,
+        0.0,
+        2e-06
+      ],
+      "ideal_cap_selected_fraction": 0.201956,
+      "selected_cap_stage_fractions": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "rest_reference_plusminus5keV_gate_fraction": 0.0,
+      "gate_conditioned_stage_fractions": [
+        null,
+        null,
+        null
+      ],
+      "boundary": "stage0before/1insidefoil/2after; isotropic ideal cap and Gaussian sigma1 are self-chosen"
+    },
+    {
+      "gap_mm": 0.02,
+      "proper_level_tau_ps": 3.8,
+      "proper_feeder_tau_ps": 7.5,
+      "proper_clock_before_foil_ps": 0.5519228748572391,
+      "analytic_unconditional_stage_fractions": [
+        0.004970425485865904,
+        0.012785217998941611,
+        0.9822443565151925
+      ],
+      "MC_unconditional_stage_fractions": [
+        0.00498,
+        0.012918,
+        0.982102
+      ],
+      "ideal_cap_selected_fraction": 0.210812,
+      "selected_cap_stage_fractions": [
+        0.005142022275771777,
+        0.012646338918088154,
+        0.98221163880614
+      ],
+      "rest_reference_plusminus5keV_gate_fraction": 0.9851716221087984,
+      "gate_conditioned_stage_fractions": [
+        0.0,
+        0.003004535693306241,
+        0.9969954643066937
+      ],
+      "boundary": "stage0before/1insidefoil/2after; isotropic ideal cap and Gaussian sigma1 are self-chosen"
+    },
+    {
+      "gap_mm": 0.47,
+      "proper_level_tau_ps": 3.8,
+      "proper_feeder_tau_ps": 7.5,
+      "proper_clock_before_foil_ps": 12.970187559145119,
+      "analytic_unconditional_stage_fractions": [
+        0.6742345934132852,
+        0.02004082019443376,
+        0.30572458639228106
+      ],
+      "MC_unconditional_stage_fractions": [
+        0.675142,
+        0.020058,
+        0.3048
+      ],
+      "ideal_cap_selected_fraction": 0.204084,
+      "selected_cap_stage_fractions": [
+        0.6638834989514122,
+        0.020099566845024598,
+        0.31601693420356325
+      ],
+      "rest_reference_plusminus5keV_gate_fraction": 0.31960369259716587,
+      "gate_conditioned_stage_fractions": [
+        0.0,
+        0.011222518627541164,
+        0.9887774813724588
+      ],
+      "boundary": "stage0before/1insidefoil/2after; isotropic ideal cap and Gaussian sigma1 are self-chosen"
+    },
+    {
+      "gap_mm": 2.0,
+      "proper_level_tau_ps": 3.8,
+      "proper_feeder_tau_ps": 7.5,
+      "proper_clock_before_foil_ps": 55.19228748572391,
+      "analytic_unconditional_stage_fractions": [
+        0.9987095872640069,
+        8.762136282580713e-05,
+        0.0012027913731672557
+      ],
+      "MC_unconditional_stage_fractions": [
+        0.998778,
+        6.8e-05,
+        0.001154
+      ],
+      "ideal_cap_selected_fraction": 0.200956,
+      "selected_cap_stage_fractions": [
+        0.9987360417205756,
+        7.961941917633711e-05,
+        0.0011843388602480146
+      ],
+      "rest_reference_plusminus5keV_gate_fraction": 0.0012042437150420987,
+      "gate_conditioned_stage_fractions": [
+        0.0,
+        0.01652892561983471,
+        0.9834710743801653
+      ],
+      "boundary": "stage0before/1insidefoil/2after; isotropic ideal cap and Gaussian sigma1 are self-chosen"
+    }
+  ],
+  "before_reference_angle_residuals": [
+    {
+      "lab_angle_deg": 120.0,
+      "before_foil_reference_residual_keV": -21.139923010355197
+    },
+    {
+      "lab_angle_deg": 145.0,
+      "before_foil_reference_residual_keV": -31.165285340612417
+    },
+    {
+      "lab_angle_deg": 170.0,
+      "before_foil_reference_residual_keV": -36.0982066911941
+    }
+  ],
+  "verification": {
+    "analytic_properclock_vs_independent_quad_passed": true,
+    "stage_fraction_MC_max_absolute_difference": 0.000924586392281046,
+    "proper_to_beta_grid1024_2048_max_difference": 1.3060955095234306e-11,
+    "truth_velocity_inverse_max_error_keV": 9.094947017729282e-13,
+    "equal_velocity_no_reference_shift_limit_passed": true,
+    "backward_shift_sign_passed": true,
+    "passed": true
+  },
+  "boundaries": [
+    "No actualMg stoppingpower/lossstraggling, beam/population/PID/geometry packet is supplied.",
+    "Source lifetime central values only set illustrative clocks; no lifetime is fitted.",
+    "Gate and peak shape under a postvelocity reference retain history; truth inverse collapses energies but does not preserve energy-only history by itself.",
+    "U afterfoil is still moving; stage fractions after angular/energy selection differ from unconditional decay probabilities."
+  ],
+  "numpy_version": "2.5.3"
+}

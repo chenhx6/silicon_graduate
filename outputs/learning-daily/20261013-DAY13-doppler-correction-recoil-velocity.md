@@ -250,6 +250,22 @@ Source1.4MeV归一的differentgeometry transparency比较不是absoluteresponse�
 
 这是活动阶段的知识整理，不是全窗口closeout。课程仍next14/count13、Day14只有既有partial。下一高信息路线为AGATA/VAMOS prompt/delayed/degrader的速度stage与98Zr数据谱系，需读直接sources，继续按原15:00硬截止研究。
 
+### 持续 Day13：fission/degrader 与20O status的直接source对照
+
+[[lemasson-2023-agata-vamos-fission-history]]12页全文/Table1/Fig6已核；98Zr1222.9line的EXOGAM15(all)/7(back)与AGATA5keV角覆盖不同，spectra又按totalcounts归一；原C23简述不扩写为matchedgeometry纯算法factor3。Post-degrader vd reference让U恢复而S保留低能angleband；U仍moving，FPdelayed又是stoppedstage，数据来自不同Exp1–4/refs。
+
+[degrader code](../../system/scripts/day13_degrader_reference_history.py)、[JSON](20261013-DAY13-doppler-correction-recoil-velocity-run-01/degrader-reference-history-exercise.json)用声明的β/lossclock/idealcap/σ1keV，gap.470mm directτ3.8的afterfraction.02867、feeder7.5后.30572；conditionalenergygate又变样本。Sourceτ仅设scale，未fitRDDS。Delaysurvival[code](../../system/scripts/day13_delayed_survival_selection.py)/[JSON](20261013-DAY13-doppler-correction-recoil-velocity-run-01/delayed-survival-selection-exercise.json)的properclock/stopwindow/velocityMC也通过，原窗口capability不是executedgate，未提取新isomerlife/ε。
+
+[[ciemala-2019-20o-dsam-analysis-status]]官方10页全文与calibration/Fig8核验；实际18O+Ta深度非弹性data不是MUGAST19Otransfer。Source报告RFdrift与energy/PID共同校准，longlineτ10.5ps为参考、NN320/NN+NNN200fs为模型，below~300fs是初步解释，jointτ/Eγfit仍待进行。Forward/currentβ与targetexit处理及outputvelocitylabels保留executionstage边界，未指控sourcecode错误。
+
+Ref11 PLB135939 identity查核为17C，仅metadata候选、不用作20O backingprimary。所有importantcontrasts/formulas/falsifiers已写canonicalmethods/synthesis/sources，研究继续active，后续量化τ/Eγ辨识设计与sourcecalibrationroute，不开新课程卡。
+
+### 持续 Day13：τ/Eγ designinformation 的模型条件
+
+[lifetime-energy design code](../../system/scripts/day13_lifetime_energy_design.py)、[JSON](20261013-DAY13-doppler-correction-recoil-velocity-run-01/lifetime-energy-design-exercise.json)以声明slowing/σ/threepointangles生成normalizedprofiles。在τsynt.20ps条件下，τalt.32ps改E0可让三centroid残差≤.167keV；fullshape另给最小conditionalKL.02843494/photon。Expected2NKL依自设exactmodels/counts，不是sourceχ²/CL或NNNforce比较。
+
+归一化/timequadrature/independentMC/no-loss/largeτ/identicalKL极限通过。实际CO19 jointτ/Efit仍未在2019报告给出，stopping/feeding/response/Σ不全，未借toy量化actualτ。新Ref11 bibliographyclaimAS21-18及所有design参数/边界已canonical写回，learningactive，后续check/publish与直接calibration来源，不开新课程卡。
+
 ## Counter-evidence and missing companion observables
 
 1. Klemme Fig.1同一line有距离相关shifted/unshifted分量，反驳“两个峰必是两条跃迁”；Table I的6g+从1.38到corrected1.63ps增加18.1%，显示finite stopping影响寿命。
@@ -1925,6 +1941,334 @@ Source1.4MeV归一的differentgeometry transparency比较不是absoluteresponse�
           "locator": "SY14-6"
         }
       ]
+    },
+    {
+      "knowledge": "knowledge/sources/lemasson-2023-agata-vamos-fission-history.md",
+      "anchor": "LS23-8",
+      "summary": "12页fissionreview/Table1/角覆盖/delayed/degrader原图核验；sourcelevel/model/printed/lineage边界。",
+      "sources": [
+        {
+          "path": "knowledge/sources/lemasson-2023-agata-vamos-fission-history.md",
+          "locator": "LS23-1"
+        },
+        {
+          "path": "knowledge/sources/lemasson-2023-agata-vamos-fission-history.md",
+          "locator": "LS23-2"
+        },
+        {
+          "path": "knowledge/sources/lemasson-2023-agata-vamos-fission-history.md",
+          "locator": "LS23-3"
+        },
+        {
+          "path": "knowledge/sources/lemasson-2023-agata-vamos-fission-history.md",
+          "locator": "LS23-4"
+        },
+        {
+          "path": "knowledge/sources/lemasson-2023-agata-vamos-fission-history.md",
+          "locator": "LS23-5"
+        },
+        {
+          "path": "knowledge/sources/lemasson-2023-agata-vamos-fission-history.md",
+          "locator": "LS23-6"
+        },
+        {
+          "path": "knowledge/sources/lemasson-2023-agata-vamos-fission-history.md",
+          "locator": "LS23-7"
+        },
+        {
+          "path": "knowledge/sources/lemasson-2023-agata-vamos-fission-history.md",
+          "locator": "LS23-8"
+        },
+        {
+          "path": "knowledge/sources/lemasson-2023-agata-vamos-fission-history.md",
+          "locator": "LS23-9"
+        },
+        {
+          "path": "knowledge/sources/lemasson-2023-agata-vamos-fission-history.md",
+          "locator": "LS23-10"
+        },
+        {
+          "path": "knowledge/sources/lemasson-2023-agata-vamos-fission-history.md",
+          "locator": "LS23-11"
+        },
+        {
+          "path": "knowledge/sources/lemasson-2023-agata-vamos-fission-history.md",
+          "locator": "LS23-12"
+        },
+        {
+          "path": "knowledge/sources/lemasson-2023-agata-vamos-fission-history.md",
+          "locator": "LS23-13"
+        },
+        {
+          "path": "knowledge/sources/lemasson-2023-agata-vamos-fission-history.md",
+          "locator": "LS23-14"
+        },
+        {
+          "path": "knowledge/sources/lemasson-2023-agata-vamos-fission-history.md",
+          "locator": "LS23-15"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/sources/ciemala-2019-20o-dsam-analysis-status.md",
+      "anchor": "CO19-9",
+      "summary": "10页官方progressreport：RF/energy/PID与stage，jointτ/Eγ拟合未完成、模型数值非measuredτ，branchlabel冲突保留。",
+      "sources": [
+        {
+          "path": "knowledge/sources/ciemala-2019-20o-dsam-analysis-status.md",
+          "locator": "CO19-1"
+        },
+        {
+          "path": "knowledge/sources/ciemala-2019-20o-dsam-analysis-status.md",
+          "locator": "CO19-2"
+        },
+        {
+          "path": "knowledge/sources/ciemala-2019-20o-dsam-analysis-status.md",
+          "locator": "CO19-3"
+        },
+        {
+          "path": "knowledge/sources/ciemala-2019-20o-dsam-analysis-status.md",
+          "locator": "CO19-4"
+        },
+        {
+          "path": "knowledge/sources/ciemala-2019-20o-dsam-analysis-status.md",
+          "locator": "CO19-5"
+        },
+        {
+          "path": "knowledge/sources/ciemala-2019-20o-dsam-analysis-status.md",
+          "locator": "CO19-6"
+        },
+        {
+          "path": "knowledge/sources/ciemala-2019-20o-dsam-analysis-status.md",
+          "locator": "CO19-7"
+        },
+        {
+          "path": "knowledge/sources/ciemala-2019-20o-dsam-analysis-status.md",
+          "locator": "CO19-8"
+        },
+        {
+          "path": "knowledge/sources/ciemala-2019-20o-dsam-analysis-status.md",
+          "locator": "CO19-9"
+        },
+        {
+          "path": "knowledge/sources/ciemala-2019-20o-dsam-analysis-status.md",
+          "locator": "CO19-10"
+        },
+        {
+          "path": "knowledge/sources/ciemala-2019-20o-dsam-analysis-status.md",
+          "locator": "CO19-11"
+        },
+        {
+          "path": "knowledge/sources/ciemala-2019-20o-dsam-analysis-status.md",
+          "locator": "CO19-12"
+        },
+        {
+          "path": "knowledge/sources/ciemala-2019-20o-dsam-analysis-status.md",
+          "locator": "CO19-13"
+        },
+        {
+          "path": "knowledge/sources/ciemala-2019-20o-dsam-analysis-status.md",
+          "locator": "CO19-14"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/methods/doppler-correction.md",
+      "anchor": "Post-degrader reference 保留的 velocity-history 信息",
+      "summary": "proper-clock/finitefoil/feeding与postreference例题，sourceU moving≠β0；保留energy-onlyhistory与真实loss/Σ边界。",
+      "sources": [
+        {
+          "path": "knowledge/sources/lemasson-2023-agata-vamos-fission-history.md",
+          "locator": "LS23-8"
+        },
+        {
+          "path": "knowledge/sources/lemasson-2023-agata-vamos-fission-history.md",
+          "locator": "LS23-9"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/methods/doppler-correction.md",
+      "anchor": "Focal-plane delayed 样本的 survival 与速度选择",
+      "summary": "survival/stopwindow/halfmean转换与velocityselectionMC；isomeralive不是ion detectionefficiency，actualgates/branch/ε未给。",
+      "sources": [
+        {
+          "path": "knowledge/sources/lemasson-2023-agata-vamos-fission-history.md",
+          "locator": "LS23-3"
+        },
+        {
+          "path": "knowledge/sources/lemasson-2023-agata-vamos-fission-history.md",
+          "locator": "LS23-11"
+        },
+        {
+          "path": "knowledge/sources/lemasson-2023-agata-vamos-fission-history.md",
+          "locator": "LS23-12"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/methods/doppler-correction.md",
+      "anchor": "20O progress report 的 RF 与 lifetime–energy contract",
+      "summary": "sharedcalibration、unknownEγ/τ联合设计及no-finalfit；sourceemission/exit字段须verification，不宣称sourcecode错。",
+      "sources": [
+        {
+          "path": "knowledge/sources/ciemala-2019-20o-dsam-analysis-status.md",
+          "locator": "CO19-1"
+        },
+        {
+          "path": "knowledge/sources/ciemala-2019-20o-dsam-analysis-status.md",
+          "locator": "CO19-3"
+        },
+        {
+          "path": "knowledge/sources/ciemala-2019-20o-dsam-analysis-status.md",
+          "locator": "CO19-6"
+        },
+        {
+          "path": "knowledge/sources/ciemala-2019-20o-dsam-analysis-status.md",
+          "locator": "CO19-9"
+        },
+        {
+          "path": "knowledge/sources/ciemala-2019-20o-dsam-analysis-status.md",
+          "locator": "CO19-10"
+        },
+        {
+          "path": "knowledge/sources/ciemala-2019-20o-dsam-analysis-status.md",
+          "locator": "CO19-12"
+        },
+        {
+          "path": "knowledge/sources/ciemala-2019-20o-dsam-analysis-status.md",
+          "locator": "CO19-13"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/methods/tracking-array.md",
+      "anchor": "AGATA/EXOGAM 比较的 angular controls",
+      "summary": "15all/7back vs5的条件与normalizedcountsscale；source/modeldata stage不同。",
+      "sources": [
+        {
+          "path": "knowledge/sources/lemasson-2023-agata-vamos-fission-history.md",
+          "locator": "LS23-5"
+        },
+        {
+          "path": "knowledge/sources/lemasson-2023-agata-vamos-fission-history.md",
+          "locator": "LS23-6"
+        },
+        {
+          "path": "knowledge/sources/lemasson-2023-agata-vamos-fission-history.md",
+          "locator": "LS23-7"
+        },
+        {
+          "path": "knowledge/sources/ciemala-2019-20o-dsam-analysis-status.md",
+          "locator": "CO19-11"
+        },
+        {
+          "path": "knowledge/sources/ciemala-2019-20o-dsam-analysis-status.md",
+          "locator": "CO19-12"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/methods/gamma-gamma-coincidence.md",
+      "anchor": "LS23-11/12",
+      "summary": "PD在不同emitterstage，survival/window/ε与same-event依赖决定negativeevidence。",
+      "sources": [
+        {
+          "path": "knowledge/sources/lemasson-2023-agata-vamos-fission-history.md",
+          "locator": "LS23-11"
+        },
+        {
+          "path": "knowledge/sources/lemasson-2023-agata-vamos-fission-history.md",
+          "locator": "LS23-12"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/sources/crespi-2023-agata-tracking-performance.md",
+      "anchor": "Fission benchmark angular-control follow-up",
+      "summary": "详细reference限制原1229.9/15vs5简述，保留originaltext/version，不加independentacquisition。",
+      "sources": [
+        {
+          "path": "knowledge/sources/lemasson-2023-agata-vamos-fission-history.md",
+          "locator": "LS23-5"
+        },
+        {
+          "path": "knowledge/sources/lemasson-2023-agata-vamos-fission-history.md",
+          "locator": "LS23-6"
+        },
+        {
+          "path": "knowledge/sources/lemasson-2023-agata-vamos-fission-history.md",
+          "locator": "LS23-7"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/synthesis/doppler-velocity-validation-contract.md",
+      "anchor": "History-specific update",
+      "summary": "补angularcontrol、postreference/FP、sharedRF和preliminaryfit边界，未改actualstructure/strength/readiness。",
+      "sources": [
+        {
+          "path": "knowledge/sources/lemasson-2023-agata-vamos-fission-history.md",
+          "locator": "LS23-8"
+        },
+        {
+          "path": "knowledge/sources/lemasson-2023-agata-vamos-fission-history.md",
+          "locator": "LS23-11"
+        },
+        {
+          "path": "knowledge/sources/ciemala-2019-20o-dsam-analysis-status.md",
+          "locator": "CO19-3"
+        },
+        {
+          "path": "knowledge/sources/ciemala-2019-20o-dsam-analysis-status.md",
+          "locator": "CO19-9"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/index.md",
+      "anchor": "ciemala-2019-20o-dsam-analysis-status",
+      "summary": "两新source导航：publicstudyversion/history与未归档raw边界。",
+      "sources": [
+        {
+          "path": "knowledge/sources/lemasson-2023-agata-vamos-fission-history.md",
+          "locator": "LS23-8"
+        },
+        {
+          "path": "knowledge/sources/ciemala-2019-20o-dsam-analysis-status.md",
+          "locator": "CO19-9"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/methods/doppler-correction.md",
+      "anchor": "Unknown Eγ 与 lifetime：centroid 和 full shape 的信息不同",
+      "summary": "声明synthetic τ/Eγ模型的mean vs fullprofile/KL设计；shape核验/MC/limits，不测sourceτ、不把expectedmetrics当CL/forces证据。",
+      "sources": [
+        {
+          "path": "knowledge/sources/ciemala-2019-20o-dsam-analysis-status.md",
+          "locator": "CO19-1"
+        },
+        {
+          "path": "knowledge/sources/ciemala-2019-20o-dsam-analysis-status.md",
+          "locator": "CO19-9"
+        },
+        {
+          "path": "knowledge/sources/ciemala-2019-20o-dsam-analysis-status.md",
+          "locator": "CO19-11"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/sources/assie-2021-mugast-agata-vamos.md",
+      "anchor": "Reference-route identity follow-up",
+      "summary": "Ref11 bibliographicroute确认为17C，metadataonly不用于20Ohistory；source接续选择已更正。",
+      "sources": [
+        {
+          "path": "knowledge/sources/assie-2021-mugast-agata-vamos.md",
+          "locator": "AS21-18"
+        }
+      ]
     }
   ]
 }
@@ -1948,6 +2292,8 @@ Source1.4MeV归一的differentgeometry transparency比较不是absoluteresponse�
 | L4 | experimental refit `not-ready`：缺事件、production code、ring spectra、response/covariance和feeding；模拟练习不作为新实验L4或absolute-strength研究。 |
 
 ## Verification and continuation
+
+最新活动检查（2026-10-14T05:57:51.878940+08:00，剩约542.1分钟）：writeback83items/26mappedpages。LS23/CO19两新fullsources、不同angularcontrols/postdegrader/FP/RF/jointτ-Eγ的source层级核验完成；three newstage/survival/design exercises通过。Wiki lint0errors/116warnings（101citation-key、12rawslots未填充、3reaction-parser）；report/card/writeback/protected/boundary/diff通过。Ref11身份误候选已排除，未把17Cmetadata当20O证据。原窗口仍active，下一route S.Ziliani2019 APB50p625的directcalibration，以及sourceχ²/velocity-stage数据契约。
 
 最新活动检查（2026-10-14T03:53:11.627863+08:00，剩约666.8分钟）：writeback71items/24mappedpages。10份publicsource和validation-contract综合已具locator/self-audit与source/models/任务推断边界；retarded-time、zero-sensitivity、rigidity/PID、two-body/entrypoint及narrowwidth extension均通过。Two-body首轮single-root失败保留，两root恢复后原命令回归通过。lint0errors/112warnings（99citation-key、10未填充rawslots、3reaction-parser）；新综合inboundlink已补齐。boundary/report/card/protected/diff通过，原run仍active。下一route primary20O backing/emissionhistory与AGATA/VAMOS prompt/delayed/degrader谱系，course不再推进。
 
