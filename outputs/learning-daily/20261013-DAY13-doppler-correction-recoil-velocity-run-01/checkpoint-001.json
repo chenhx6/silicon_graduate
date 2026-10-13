@@ -1,0 +1,46 @@
+{
+  "time_gate": {
+    "now_local": "2026-10-13T17:33:38.728669+08:00",
+    "hard_deadline": "2026-10-14T15:00:00+08:00",
+    "minutes_to_deadline": 1286.3545221833333,
+    "decision": "continue-current-then-one-uncredited-Day14-preview",
+    "day_index": 13,
+    "partial_day_indices": [
+      14
+    ],
+    "completed_day_indices": [],
+    "rule": "AGENTS and continuous-learning uncredited Day+1 rule overrides older advance wording"
+  },
+  "candidate_pool": [
+    {
+      "route": "Mavela executed sorter / ring20,24 and beta generation",
+      "status": "data/provenance boundary",
+      "next": "fresh UWC bundle inventory; no author contact authorized"
+    },
+    {
+      "route": "exact correction/covariance and low-beta width ambiguity",
+      "status": "core exercise verified",
+      "next": "persist final report and calibration design"
+    },
+    {
+      "route": "Klemme velocity/stopping/DDCM same-line two components",
+      "status": "full-mainline verified",
+      "next": "event/response data needed for refit"
+    },
+    {
+      "route": "Longfellow tracking/angle-energy separation",
+      "status": "supporting source check",
+      "next": "direct Eq.18 and positioning scope recheck"
+    },
+    {
+      "route": "Day14 next-card knowledge only",
+      "status": "selected for allowed preview",
+      "next": "primed recall before opening raw; Herzan Fig.2/Table I crosswalk; no formal credit"
+    },
+    {
+      "route": "Day15",
+      "status": "excluded; Day+2 boundary",
+      "next": null
+    }
+  ]
+}

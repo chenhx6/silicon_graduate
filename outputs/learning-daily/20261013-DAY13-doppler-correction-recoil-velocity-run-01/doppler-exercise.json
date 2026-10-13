@@ -1,0 +1,204 @@
+{
+  "schema_version": 1,
+  "kind": "synthetic-method-exercise; not measured data or experimental refit",
+  "seed": 1313,
+  "samples_per_covariance": 200000,
+  "inputs": {
+    "E0_keV": 1000.0,
+    "beta": 0.07,
+    "sigma_Elab_keV": 1.0,
+    "sigma_beta": 0.002,
+    "sigma_theta_deg": 2
+  },
+  "energy_and_uncertainty": [
+    {
+      "theta_deg": 35,
+      "E_lab_keV": 1058.2263720959454,
+      "E_corrected_keV": 999.9999999999999,
+      "signed_terms_energy_beta_theta_keV": [
+        0.9449773945997763,
+        -1.5972704445294645,
+        1.486763607030551
+      ],
+      "sigma_independent_keV": 2.3779657635177234,
+      "sigma_independent_FWHM_keV": 5.599681446255264,
+      "jacobian": [
+        0.9449773945997763,
+        -798.6352222647323,
+        42.59263990824871
+      ],
+      "finite_difference_relative_error": 5.187910003351618e-10,
+      "covariance_examples": [
+        {
+          "rho_beta_theta": -0.8,
+          "sigma_linear_keV": 3.0747915182141208,
+          "sigma_MC_keV": 3.073503559781045,
+          "relative_difference": 0.00041887667031936804,
+          "mean_bias_MC_keV": 0.0053810404697287595
+        },
+        {
+          "rho_beta_theta": 0.0,
+          "sigma_linear_keV": 2.3779657635177234,
+          "sigma_MC_keV": 2.3769068342846884,
+          "relative_difference": 0.0004453088641059866,
+          "mean_bias_MC_keV": 0.03938133237522834
+        },
+        {
+          "rho_beta_theta": 0.8,
+          "sigma_linear_keV": 1.3620203612440451,
+          "sigma_MC_keV": 1.364308148703012,
+          "relative_difference": 0.0016797013642859682,
+          "mean_bias_MC_keV": 0.07153888589743929
+        }
+      ]
+    },
+    {
+      "theta_deg": 90,
+      "E_lab_keV": 997.5469913743412,
+      "E_corrected_keV": 1000.0,
+      "signed_terms_energy_beta_theta_keV": [
+        1.002459040673642,
+        0.1406893779519645,
+        2.443460952792061
+      ],
+      "sigma_independent_keV": 2.644847643460076,
+      "sigma_independent_FWHM_keV": 6.228140246790799,
+      "jacobian": [
+        1.002459040673642,
+        70.34468897598225,
+        70.0
+      ],
+      "finite_difference_relative_error": 2.407571247431408e-10,
+      "covariance_examples": [
+        {
+          "rho_beta_theta": -0.8,
+          "sigma_linear_keV": 2.538737610451137,
+          "sigma_MC_keV": 2.5359938310155354,
+          "relative_difference": 0.0010807652686540825,
+          "mean_bias_MC_keV": -0.04481909554453978
+        },
+        {
+          "rho_beta_theta": 0.0,
+          "sigma_linear_keV": 2.644847643460076,
+          "sigma_MC_keV": 2.6403390229227575,
+          "relative_difference": 0.0017046806262988046,
+          "mean_bias_MC_keV": 0.003992900048501724
+        },
+        {
+          "rho_beta_theta": 0.8,
+          "sigma_linear_keV": 2.7468617474335115,
+          "sigma_MC_keV": 2.7449867300919117,
+          "relative_difference": 0.0006826034631527422,
+          "mean_bias_MC_keV": 0.05617756807907881
+        }
+      ]
+    },
+    {
+      "theta_deg": 145,
+      "E_lab_keV": 943.449017952656,
+      "E_corrected_keV": 1000.0,
+      "signed_terms_energy_beta_theta_keV": [
+        1.0599406867475076,
+        1.6901465933431283,
+        1.325506245135937
+      ],
+      "sigma_independent_keV": 2.3952111748876197,
+      "sigma_independent_FWHM_keV": 5.640291286633367,
+      "jacobian": [
+        1.0599406867475076,
+        845.0732966715641,
+        37.97295678226114
+      ],
+      "finite_difference_relative_error": 2.4398607291944167e-09,
+      "covariance_examples": [
+        {
+          "rho_beta_theta": -0.8,
+          "sigma_linear_keV": 1.4671594285666631,
+          "sigma_MC_keV": 1.4681200265515726,
+          "relative_difference": 0.0006547331981827664,
+          "mean_bias_MC_keV": -0.06395834380623455
+        },
+        {
+          "rho_beta_theta": 0.0,
+          "sigma_linear_keV": 2.3952111748876193,
+          "sigma_MC_keV": 2.39209061633772,
+          "relative_difference": 0.0013028323275277032,
+          "mean_bias_MC_keV": -0.019614687862713254
+        },
+        {
+          "rho_beta_theta": 0.8,
+          "sigma_linear_keV": 3.0531158438193926,
+          "sigma_MC_keV": 3.0551225071634875,
+          "relative_difference": 0.0006572509681075367,
+          "mean_bias_MC_keV": 0.0026863999497663826
+        }
+      ]
+    }
+  ],
+  "width_identifiability": {
+    "model": "low-beta; independent constant response/velocity/angular variances",
+    "columns": [
+      "1",
+      "cos(theta)^2",
+      "sin(theta)^2"
+    ],
+    "rank": 2,
+    "singular_values": [
+      3.246607535121653,
+      1.3514870666535503,
+      1.360330568486157e-16
+    ],
+    "original_ABC_keV2": [
+      1.0,
+      4.0,
+      5.970501427819488
+    ],
+    "equivalent_ABC_keV2": [
+      2.0,
+      3.0,
+      4.970501427819488
+    ],
+    "equivalent_sigma_response_keV": 1.4142135623730951,
+    "equivalent_sigma_beta": 0.0017320508075688772,
+    "equivalent_sigma_theta_deg": 1.8248395875818144,
+    "max_variance_difference_keV2": 0.0
+  },
+  "stopping_toy": {
+    "tau_ps": 1.1,
+    "slowing_scale_ps": 1.1,
+    "beta_initial": 0.016,
+    "mean_beta": 0.008,
+    "variance_beta": 2.1333333333333328e-05,
+    "rows": [
+      {
+        "theta_deg": 35,
+        "exact_MC_mean_residual_keV": -6.5019503923443285,
+        "exact_MC_sigma_keV": 3.742582090401586,
+        "first_order_mean_residual_keV": -6.553216354311934,
+        "first_order_sigma_keV": 3.7835012262198524
+      },
+      {
+        "theta_deg": 90,
+        "exact_MC_mean_residual_keV": 0.08542101829294364,
+        "exact_MC_sigma_keV": 0.03813454903188282,
+        "first_order_mean_residual_keV": -4.898587196589413e-16,
+        "first_order_sigma_keV": 2.8282006365997516e-16
+      },
+      {
+        "theta_deg": 145,
+        "exact_MC_mean_residual_keV": 6.615456992777566,
+        "exact_MC_sigma_keV": 3.81640319902776,
+        "first_order_mean_residual_keV": 6.553216354311935,
+        "first_order_sigma_keV": 3.7835012262198533
+      }
+    ],
+    "boundary": "Klemme reports a ~1.1 ps Au stopping time, not this exponential law or toy tau"
+  },
+  "verification": {
+    "max_fd_relative_error": 2.4398607291944167e-09,
+    "max_MC_relative_difference": 0.0017046806262988046,
+    "max_forward_inverse_error_keV": 1.1368683772161603e-13,
+    "passed": true
+  },
+  "numpy_version": "2.5.3"
+}

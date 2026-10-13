@@ -3,7 +3,7 @@ type: source
 title: "Herzáň et al. 2015 - Detailed spectroscopy of 193Bi"
 aliases: [Herzan 2015 193Bi spectroscopy]
 created: 2026-09-21
-updated: 2026-09-21
+updated: 2026-10-13
 status: ai-draft
 review_status: unreviewed
 source_type: journal-article-experiment
@@ -60,6 +60,10 @@ Band 3 resembles a low-energy M1 sequence but receives E2 links and is extended 
 | HE15-1 | The `193Bi` level scheme is extended with new bands and DCO/IPDCO-supported multipolarities. | experiment-result | direct | PDF pp.2–3, 9–12, Table I | true |
 | HE15-2 | `29/2−` and `29/2+` isomer energies/half-lives and E2 decays are established by delayed γ/e− tagging. | isomer-result | direct | PDF pp.12–18, Figs.6–9 | true |
 | HE15-3 | The `1/2[651]` SD band is a candidate until absolute transition probabilities are measured. | shape-boundary | mixed | PDF pp.18–19, Fig.18 | true |
+| HE15-4 | Band1 Table I reports 299.2(1),323.4(1),622.4(1) keV connecting the rounded 1228 (17/2+),929 (15/2+),605 (13/2+) levels in Fig.2. Their Rexp values are 0.68(2),0.74(4),1.30(16); ΔIPDCO values −0.032(1),−0.012(1),+0.086(10); authors list M1,M1,E2. Rexp uses efficiency-corrected intensities at157.6°/75.5° with the same gate on all-angles projections. Table I also asks for about0.3-keV statistical error in addition to listed fitting errors. | experimental-fact | direct | PDF p.3, Table I; PDF p.8, Fig.2; PDF p.2 ratio definition | true |
+| HE15-5 | Fig.5(a), gated on the154-keV transition, describes the peak labeled323 keV as a quadruplet of315,320,323,327-keV transitions. Fig.5(b) is gated on323.4 keV and shows feeding into Band1. Table I also places299.8(1) keV higher in Band1 (41/2+→39/2+), distinct from299.2(1) (17/2+→15/2+). | experimental-fact | direct | PDF p.10, Fig.5 caption; PDF p.3, Table I | true |
+| HE15-6 | The SD Table II retains an unknown bandhead energy X and parenthesized spin/parity assignments. A weak1836(5)-keV candidate is seen in coincidence with168.3 and331.7 keV; authors require more statistics to confirm it as a link to Band6. It cannot fix X as a confirmed absolute level in the present evidence. | experimental-fact | direct | PDF p.15, Table II; Fig.13; Sec.III.B | true |
+| HE15-7 | The authors do not observe the expected low-energy SD transitions near87 and46 keV. They discuss overlap with the87.4-keV Bi x ray and large E2 conversion coefficients as reasons the γ rays could be very difficult to observe; the assumed intensity flow through these lines remains an interpretation. | author-interpretation | direct | PDF p.19, Sec.IV.D | true |
 
 ## Summary
 
@@ -92,3 +96,9 @@ Herzáň *et al.* provide a dense high-spin/isomer spectroscopy reference in the
 ## Extracted Pages
 
 - Nucleus/methods: `193Bi`, [[linear-polarization-asymmetry]], [[gamma-gamma-coincidence]]。
+
+## Selected transition and gate self-audit
+
+原始PDF哈希复核一致；重点原图核验Table I(p.3)、Figure2(p.8)和Figure5(p.10)，并回读reaction/tagging(p.1–2)、Band1和isomer/SD主线(p.10–15)、configuration/SD解释与结论(p.16–20)的对应段落。本次预习不替代正式周考，也不改变原阅读/审核状态。[[level-scheme-reconstruction]] 固化三层子图、energy closure/covariance练习与复合峰/互斥branch控制；[[doppler-correction]] 使用HE15-5作独立的多线峰反例。
+
+299.2+323.4−622.4=0.2keV是本任务算术，不是作者单独报告的closure test。TableI/Fig.2/Fig.5共享同次实验；relative intensities、DCO/IPDCO与coincidences不能重复计成独立实验。HE15-4/5/6保持needs_review=true。

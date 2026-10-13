@@ -1615,3 +1615,9 @@ Following the user question about the missing Day8 prompt, the formal Day8 card 
 - Same-session guarded finalizer completed: report/writeback/card/lint/diff passed; receipt completed, only Day9 credited.
 - Day10 formal plan created; normal-runner generated prompt and it was annotated with the prior-preview priming boundary.
 - Gitee H3/publication pending explicit final manifest.
+
+## [2026-10-13] learning | DAY13 Doppler diagnostics and uncredited Day14 preview
+
+- Session01a13489-64ba-7930-9a2c-291375d95ad0；Day13 card complete，Day14仅primed预习，无Day15。exact correction/covariance、rank-2 width ambiguity、stopping与multiline反例固化到knowledge；Mavela196Pt冲突句locator修正为raw PDF p41/printed p32。
+- 一次lint发现新method缺四个required headings，已按template/config补齐并回归；report/writeback/card/protected/boundary gates通过。原raw/PLAN/Bib、review flags和继承Day6–9/daemon改动保留。
+- 候选池与下一卡在17:51+08:00重建，距原次日15:00截止约1269分钟；production/events/response缺失，允许的Day14知识预习无进一步高价值可得输入，提前收束。课程仅在内容发布后计Day13，正式Day14留待新session；发布hash/结果在run receipt。

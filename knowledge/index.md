@@ -416,6 +416,7 @@ updated: 2026-10-13
 - [[doppler-shift-attenuation-method]] - Doppler-broadened line-shape lifetimes、stopping-power/side-feeding systematics and limit semantics。
 - [[angular-distribution]] - 完整角分布与 ADO ratio 的阵列特定 multipolarity calibration；可与偏振联合使用。
 - [[gamma-gamma-coincidence]] - 建立级联与能级纲图。
+- [[level-scheme-reconstruction]] - 从谱峰、符合、能量和到逐线 multipolarity/Jπ 的证据审计；保留复合峰、共享数据和未知绝对能级边界。
 - [[angular-correlation]] - γ/particle-γ angular correlation 的 alignment、multipolarity 与 deorientation correction 入口。
 - [[dco-ratio]] / [[linear-polarization-asymmetry]] - 多极性和电磁性质约束。
 - [[spin-coherent-state-map]] / [[spin-squeezed-state-map]] - 模型波函数的角动量几何。
@@ -430,7 +431,7 @@ updated: 2026-10-13
 
  - [[compton-polarimetry]] - Klein-Nishina Compton-scattering analysis、detector response 与 P/A/Q calibration chain。
  - [[modulation-curve]] - azimuthal modulation extraction、background/response normalization 与 `Q'`/`A0` fit forms。
- - [[doppler-correction]] - event-by-event in-beam gamma energy correction，与 Lorentz angular correction 分开记录。
+ - [[doppler-correction]] - event-by-event 能量校正、速度/角度协方差与停止历史诊断；峰宽多解及 Lorentz angular correction 边界。
 
 ## Synthesis
 

@@ -3,7 +3,7 @@ type: source
 title: "Lifetimes measurements for 134Nd and neighboring nuclei with the coincidence-plunger technique"
 aliases: [Klemme 1999 coincidence-plunger lifetimes, Klemme 1999 134Nd]
 created: 2026-08-11
-updated: 2026-10-12
+updated: 2026-10-13
 status: ai-draft
 review_status: unreviewed
 source_type: journal-article-experiment
@@ -97,6 +97,7 @@ T. Klemme 等，*Physical Review C* **60**, 034301 (1999)，DOI `10.1103/PhysRev
 | KL99-15 | Gates above the level of interest exclude unobserved feeding and deorientation effects in the reported low-spin lifetimes; the authors warn that deorientation can severely affect states up to `4ℏ`. | method-limitation | direct | PDF p. 5 / journal p. 034301-5 | true |
 | KL99-16 | The paper does not invoke chirality or establish a partner-band geometry; its `135Nd` ASYR test concerns one band, and its single `134Pr 9+` lifetime has no explicit crosswalk to the 1996 Band 1/Band 2 pair. | source-scope-fact | direct | full-paper scope; PDF pp. 1-10 | true |
 | KL99-17 | The fusion-evaporation recoils had a reported mean `v/c=1.6%`; GASP rings covered 31.7–148.3°, and the four rings farthest from 90° were selected because their Doppler shifts were large enough for quantitative lifetime analysis. | experimental-fact | direct | PDF pp. 1-2; detector-ring geometry; Fig. 1 | true |
+| KL99-18 | Fig.1 follows the same 134Nd 2g+→0g+, 4g+→2g+ and 6g+→4g+ lines at 24, 103 and 1203 μm, under a gate on the shifted feeding component. Their shifted/unshifted fractions change with distance. Table I gives the 6g+ average lifetime 1.38(4) ps before finite-stopping correction and 1.63(6) ps in its corrected column; Table II adopts asymmetric 1.63(+0.06/−0.12) ps after stopping-power uncertainty. | experimental-fact | direct | PDF p.2, Fig.1; PDF p.3, Table I; PDF p.4, Table II | true |
 
 ## `134Nd` Lifetime and Strength Matrix
 
@@ -185,3 +186,7 @@ P0: none identified.
 ## Non-source Notes and Follow-up
 
 Next corpus sources should test whether later `134Pr/135Nd` chiral-band labels map onto these measured states. Until that crosswalk exists, quote Klemme 1999 only as early absolute-lifetime/triaxial context.
+
+## 2026-10-13 Doppler/stopping source self-audit
+
+十页全文主线重新回读：lifetimes conflict → coincidence-plunger/DDCM → finite stopping → Tables I–IV and band-dependent strengths → collective/TRS/ASYR limitations → conclusion。视觉核验 Fig.1/2 和 Table I；KL99-18 将同一跃迁随距离变化的 shifted/unshifted 分量固定为对“宽峰或双峰必是两个能级”的反例。1.38→1.63 ps 的约18.1%增量是本任务算术，不是新测量或本征寿命线宽；Au 1.1-ps slowing time 不能直接移植到 Mavela 的不同 projectile/target。多个 detector rings、feeding gates、邻核同次数据及独立薄靶 branching experiment 的依赖边界保留；不是若干独立核结构实验。原 review 和 needs_review 标记不变。

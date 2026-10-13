@@ -101,7 +101,7 @@ The table is about 5.9–6.5 times closer to the elastic-like calculation under 
 
 #### Target-mass sensitivity and the thesis isotope mismatch
 
-The thesis has an internal target label conflict: one S3 setup paragraph says `196Pt`, while Chapter 3 and the GOSIA Appendix D input state `194Pt` at `120.3 MeV` (DD-20261013-32S-25). Repeating the simplified model with `m_T=196u`, and excluding the candidate rings 20 and 24, gives:
+The thesis has an internal target label conflict: one S3 setup paragraph on PDF file p.41 / printed p.32 says `196Pt`, while Chapter 3 and the GOSIA Appendix D input state `194Pt` at `120.3 MeV` (DD-20261013-32S-25). Repeating the simplified model with `m_T=196u`, and excluding the candidate rings 20 and 24, gives:
 
 | Target mass input | `E_x=0` RMS residual | `E_x=2.23057 MeV` RMS residual |
 |---|---:|---:|
@@ -177,3 +177,78 @@ For the conditional Mavela hypothesis `E_0=2230.57 keV`, `β_t=0.07000` and `β_
 The sign-changing residual is a model prediction, not measured Mavela data; these angles are not AFRODITE crystal angles and response widths/centroid errors are unavailable. Appendix C's listed ring β array is near 0.07, so the table is a counterfactual test of applying the 9% incident-beam scale as a correction. A useful data test would fit the same transition's angle-gated corrected centroids against reconstructed `cosθγ`, with calibration lines and event-level projectile vectors. A common energy calibration shift would not by itself create this signed angular trend; direction or interaction-position errors could also do so (DD-20261013-32S-12/14/15).
 
 For an illustrative `E_lab=1000 keV` photon, changing `β` from `0.070` to `0.08957` changes `E_0=E_lab γ(1−β cosθ)` by about `18.2 keV` at `θ=0°` and `1.58 keV` at `θ=90°`. The angle endpoints are sensitivity examples, not detector angles or a measured Mavela line. For Mavela's displayed sorting code, use the ring-dependent β array only as the printed configuration; verify the executed version and the ring-20 outlier before replay.
+
+## Doppler correction 诊断表：峰位、峰宽与停止
+
+本表为跨实验的诊断设计，`claim_kind: synthesis / our-inference`，不是从某种峰形直接指定原因。Mavela Eqs.(4.5),(4.6) 明确使用 photon–projectile 夹角，Fig.4.17 展示总校正谱；Klemme Fig.1 则保留同一跃迁的距离相关 shifted/unshifted 分量。这些实验独立，但本表和以下算式不是第三份独立实验。
+
+| 待区分原因 | 有价值的观察 | 最小伴随观测或检验 | 反证与结论边界 | 原文 locator |
+|---|---|---|---|---|
+| 整体速度或核素/反应道速度用错 | 已知线的校正峰心随实际 γ–反冲夹角变化，前后角偏差可反号。 | 同一 emitter 的逐角环峰心、事件 β/方向、执行 sorter 与独立 energy calibration。 | 方向/位置误差也会形成角度残差；总谱窄峰不足以选 β。 | Mavela DD-20261013-32S-27；DD-20261012-32S-07 |
+| 速度 spread 或未完全校正 | 峰宽随角度、粒子 ring 或反应道 gate 变化。 | 实际 β 分布、β–角度 covariance、相同能量的静止校准响应。 | 峰宽随角度变化仍可能由角分辨率造成；三种 variance 可有完全相同曲线。 | Mavela Eq.(4.6)；下方低速多解推导 |
+| γ 交互位置、顶点或方向重建错误 | 不同 crystal/sector/ring 产生不同残差；某些几何条件下加重宽化。 | γ interaction-point/particle-vector/vertex metadata、position calibration，先核实坐标 convention。 | 不可用探测器到束轴的名义 θ 替代 γ–反冲夹角；粒子 ring 命中也不等于已测完整 β。 | Mavela DD-20261013-32S-27；DD-20261013-32S-24；Longfellow L26-8 |
+| 反冲减速或停止后发射 | 同一跃迁的 shifted/unshifted 比例随 stopper distance 改变，或出现连续减速分量。 | 距离/时间分辨的同门谱、feeding 与 stopping-power sensitivity。 | 双峰不一定是两条跃迁；一律用初始 β 校正会制造残余分量。 | Klemme KL99-2；KL99-4；KL99-18 |
+| 两条近邻跃迁 | 正确匹配各 emitter/velocity 后仍有两组静止系能量，且符合伙伴或 feeding 不同。 | 两个独立 γγ gate、energy sums、逐角度/时间比较、response-aware fits。 | 若尚未排除停前/停后分量或污染，双峰/宽峰不是新能级证据。 | Klemme Fig.1 的同跃迁反例；Mavela Fig.4.17 的总谱边界 |
+| 真实物理宽化或探测器响应 | 宽度可能在不同角度/门下持续存在。 | 校准源 response、独立 lifetime 与 line identity，及未校正速度历史。 | 对 ps 寿命，本征自然宽度 Γ=ℏ/τ 远小于 keV；不能把 keV 宽峰直接称为自然寿命线宽。 | Klemme Table II（寿命输入）；Γ 关系为通用物理背景 |
+| 把一种 emitter 的校正用于另一种 | projectile/target 或污染核素的线表现不同。 | 保留 raw 与各 emitter-corrected 谱、核素/反应道 gate、效率与计数谱身份。 | Mavela 用 uncorrected target line 和 corrected projectile line 作不同 yield 输入；没有证明 target β=0。 | Mavela DD-20261013-32S-28 |
+| 以校正谱替代角分布/偏振的 frame 处理 | 能量 gate 已恢复但角分布仍可能有 boost/acceptance 改变。 | 分别记录 energy transform、angular aberration 与响应。 | 能量校正成功不等于完成 angular/polarization Lorentz transformation。 | Longfellow L26-8；Relativistic Correction Boundary |
+
+### 精确 Jacobian 与协方差练习
+
+从 Mavela Eq.(4.6) 反演记 `f(E,β,θ)=E γ(1−β cosθ)`，其中 θ 是实验室 photon direction 相对发射核速度的夹角。对 `x=(E,β,θ)`，正确的一阶传播是
+
+$$\sigma_f^2=J\Sigma J^{\mathsf T},\quad
+J=\left(\gamma(1-\beta c),\ E[\gamma^3\beta(1-\beta c)-\gamma c],\ E\gamma\beta\sin\theta\right),\quad c=\cos\theta.$$
+
+角度以 rad 输入，β 为无量纲；若只有 β–θ 相关，还需加 `2 Jβ Jθ Cov(β,θ)`。β 的无量纲 fractional coefficient 为
+
+$$\frac{J_\beta}{f}=\frac{\beta-c}{(1-\beta^2)(1-\beta c)},\qquad
+\frac{J_\theta}{f}=\frac{\beta\sin\theta}{1-\beta c}.$$
+
+固定速度与几何的整体误差产生 signed bias；随机 spread 才进入 variance，不能把二者混为一个 σ。
+
+**自设例题：** `E0=1000 keV, β=0.07, σE_lab=1 keV, σβ=0.002, σθ=2°`，先取三项独立；所有数值均非 Mavela 或 Klemme 测量。
+
+| θ_lab | E_lab (keV) | E0 反演 (keV) | energy / β / angle signed σ contributions (keV) | 合成 σE0 (keV) |
+|---:|---:|---:|---|---:|
+| 35° | 1058.226372 | 1000.000000 | +0.944977 / −1.597270 / +1.486764 | 2.377966 |
+| 90° | 997.546991 | 1000.000000 | +1.002459 / +0.140689 / +2.443461 | 2.644848 |
+| 145° | 943.449018 | 1000.000000 | +1.059941 / +1.690147 / +1.325506 | 2.395211 |
+
+90° 只有一阶低速的 β 系数为零；精确相对论项仍非零，而角度项在本例较大。丢弃 γ 因子会将三行反演值都变成 `997.546991 keV`，即共同偏低 `2.453009 keV`，这可与 calibration scale 混淆。
+
+在35°保持相同 marginal σ，只令 `ρβθ=−0.8,0,+0.8`，所得 σ 分别为 `3.0748,2.3780,1.3620 keV`；145° 则为 `1.4672,2.3952,3.0531 keV`。所以未给 covariance 时不能把 quadrature 结果写成该实验的完整分辨率。
+
+复算代码为 [day13_doppler_diagnostics.py](../../system/scripts/day13_doppler_diagnostics.py)，固定 `seed=1313`、每种 covariance `200000` 个 Gaussian draws。有限差分相对误差最大 `2.44×10⁻9`，forward/inverse 误差最大 `1.14×10⁻13 keV`，九种 MC σ 相对一阶传播最大差 `0.171%`。这些检查验证推导与数值实现，没有构成实验数据再分析；大误差、非 Gaussian tails、β/方向多解需要重建完整响应。
+
+### 低速峰宽多解：角覆盖本身不足以分离三个 nuisance
+
+在低 β、独立小误差、固定 `E0` 且角度无关的 detector variance 假设下，
+
+$$V(\theta)=A+B\cos^2\theta+C\sin^2\theta,
+\quad A=\sigma_{response}^2,\ B=E_0^2\sigma_\beta^2,\ C=E_0^2\beta^2\sigma_\theta^2.$$
+
+由于 `cos²θ+sin²θ=1`，设计矩阵 `[1,cos²θ,sin²θ]` 只有 rank 2。变换 `(A,B,C)→(A+λ,B−λ,C−λ)` 给出完全相同的 variance 曲线，只要各项仍非负。本例 `(1,4,5.9705014)` 与 `(2,3,4.9705014) keV²` 在七个测试角度的 variance 差为零，却对应不同的 response、σβ 与 σθ。后一组为 `σresponse=1.4142 keV, σβ=0.0017321, σθ=1.82484°`。
+
+这是真实的**推导层反例**，不证明某实验采用这些 nuisance 值。独立 energy-response calibration、particle/tracking geometry 和 β 信息至少要约束其中一项；feeding/angle dependence、非 Gaussian 或精确相对论高阶项会改变模型，不能把 rank-2 结论无条件推广到所有拟合。
+
+### 停止历史 toy 的边界与符号检验
+
+自设无 feeding、固定方向、`p(t)=exp(−t/τ)/τ` 和 `β(t)=β_i exp(−t/t_s)`。则
+
+$$\langle\beta\rangle=\frac{\beta_i}{1+\tau/t_s},\qquad
+\operatorname{Var}\beta=\frac{\beta_i^2}{1+2\tau/t_s}-\langle\beta\rangle^2.$$
+
+若一律使用 β_i 校正，一阶 mean residual 为 `E0(⟨β⟩−β_i) cosθ`。取自设 `E0=1000 keV, β_i=0.016, τ=t_s=1.1 ps`，MC exact residual 在35°/90°/145°为 `−6.502/+0.085/+6.615 keV`；90°的一阶 residual 为零但二阶项不为零。Klemme 报告 Au slowing time 约1.1 ps，却没有给出本 toy 的指数 law 或 τ=1.1 ps，不能用这些数值重拟合其寿命或移植到 Mavela。
+
+Klemme Table I 的 `6g+` 从 `1.38(4)` 到 corrected `1.63(6) ps`，中心值增加约18.1%；Table II adopted error 还包含 stopping-power 边界。这是对“能量校正后就不用停止模型”的实验反证。由 adopted 1.63 ps 与通用 `Γ=ℏ/τ` 可得自然宽度约 `4.04×10⁻7 keV`，远小于本例的 keV 响应/运动学宽度。
+
+### 最小可复核数据包与研究判断
+
+优先取得同一已知 line 的 `ring/sector × γ crystal × particle/γ gate` 切片、raw/各 emitter-corrected energy、executed code hash、vertex/γ/particle coordinates、β生成输入和 joint covariance、energy response 与 stopping/feeding metadata。先比较峰心及宽度对角度/距离/门的改变，再试两线模型；variance alone 的多解需由独立 calibration 解除。
+
+本次 self-audit 的 prior belief 是“逐角度峰宽可以帮助辨别速度/方向误差”；revised belief 是“它可否定部分输入，却在上述低速模型中无法独自分解 response/velocity/angle 三项”。触发证据是 Mavela Eq.(4.6)、Klemme Fig.1/finite-stopping 和 rank-2 代数反例。现有 A≈130 集体模式排序不变；没有新的 event/response/covariance，实验 L4 为 `not-ready`。页面仍为 `unreviewed`，推导明确为 Codex self-audit。
+
+#### 独立的多线峰反例
+
+[[herzan-2015-193bi-spectroscopy]] HE15-5 / PDF p.10 Fig.5(a) 明确把154-keV门下标作约323-keV的峰解释为315/320/323/327-keV quadruplet。它是独立于32S和134Nd的直接多线反例，不能把这样的宽峰全部归入β或stopping。具体三层级联、互斥branch和同带近邻line的门控边界见 [[level-scheme-reconstruction]]；没有把该装置分辨率移植到Mavela。

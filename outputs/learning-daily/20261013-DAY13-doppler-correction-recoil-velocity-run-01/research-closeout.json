@@ -1,0 +1,63 @@
+{
+  "time_gate": {
+    "now_local": "2026-10-13T17:51:03.550633+08:00",
+    "hard_deadline": "2026-10-14T15:00:00+08:00",
+    "minutes_to_deadline": 1268.9408227833333,
+    "runtime_decision": "continue-or-advance",
+    "research_decision": "early-closeout after rebuilt pool, one permitted preview and direct primary-data boundary",
+    "completed_day_indices": [
+      13
+    ],
+    "partial_day_indices": [
+      14
+    ],
+    "day_index": 13,
+    "early_stop_reason": "Selected current/next-preview questions answered to available source resolution; remaining discriminators require unavailable acquisition inputs, not more repetitions of total spectra. Formal Day14 credit reserved for own run."
+  },
+  "candidate_pool": [
+    {
+      "question": "Mavela printed beta20/24 and S3 transform match executed sorter?",
+      "evidence": "DD-20261013-32S-14/15/24; fresh official UWC ORIGINAL/LICENSE/TEXT/THUMBNAIL inventory",
+      "result": "no separate production sorter/events/ring spectra; publication PDF listing cannot settle execution",
+      "status": "bounded-by-missing-primary-input"
+    },
+    {
+      "question": "Can widths alone split beta/angle/response?",
+      "evidence": "exact Eq4.6 Jacobian; fixed-seed MC; low-beta rank-2 counterexample",
+      "result": "answer and falsifier/independent calibration requirement persisted",
+      "status": "current-method-question-saturated"
+    },
+    {
+      "question": "Can stopping/nearby lines explain broad/double peaks?",
+      "evidence": "KL99-18 Fig1/TableI; HE15-5 Fig5 quadruplet",
+      "result": "independent direct counterexamples and response/feeding/distance data requirements persisted",
+      "status": "comparison-saturated"
+    },
+    {
+      "question": "Does energy correction replace angular boost/tracking?",
+      "evidence": "Longfellow Eq18 / L26-8 direct raw reread",
+      "result": "separate transforms and first-interaction/ordering scope verified; no new response package",
+      "status": "supporting-route-saturated"
+    },
+    {
+      "question": "One allowed Day14 knowledge preview?",
+      "evidence": "HE15-4/5/6/7; Fig2/TableI, three-level placement/energy sum, uncertain SD X, negative evidence",
+      "result": "matrix, exercise, primed scorecard/REFLECT prepared; formal blind recall and day audit reserved",
+      "status": "selected-preview-knowledge-saturated"
+    },
+    {
+      "question": "Additional spectrum fit / cross-band B / corrected QS?",
+      "evidence": "no event/production-code/peak-efficiency covariance or lifetime/branch/δ package",
+      "result": "no measured refit or mechanism ranking possible; additional generic sources do not supply this acquisition identity",
+      "status": "not-ready"
+    },
+    {
+      "question": "Next card boundary",
+      "evidence": "Day14 inspected; user/AGENTS permits one Day+1 only",
+      "result": "Day15 scientific sources/cards not opened",
+      "status": "scope-boundary"
+    }
+  ],
+  "next_uncompleted_card_checked": 14,
+  "day15_opened": false
+}

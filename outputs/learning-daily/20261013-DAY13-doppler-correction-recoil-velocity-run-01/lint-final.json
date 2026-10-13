@@ -1,0 +1,11 @@
+{
+  "exit_code": 0,
+  "summary": [
+    "GOVERNANCE page_unreviewed=495 source_unreviewed=221 claims=2232 claim_needs_review=1558 claim_missing_locator=0 claim_missing_kind=0 source_missing_raw_file=0 source_missing_citation_key=89",
+    "SUMMARY pages=573 wikilinks=5467 hashes=281 errors=0 warnings=92 info=1558"
+  ],
+  "warnings": {
+    "REACTION_PARSE": 3,
+    "CITATION_KEY_MISSING": 89
+  }
+}
