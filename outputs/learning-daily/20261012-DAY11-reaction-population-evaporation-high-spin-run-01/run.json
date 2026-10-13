@@ -119,23 +119,49 @@
   },
   "safety_stop_event": {
     "at": "2026-10-13T11:24:27+08:00",
-    "reason": "A UWC bundle API response was temporarily written outside /workspace/wiki; prior handoff records the temporary file as deleted.",
-    "effect": "Stopped further research; user explicitly resumed this goal for closeout only."
+    "reason": "A UWC bundle API response was temporarily written outside /workspace/wiki.",
+    "cleanup": {
+      "event_log": "outputs/learning-daily/20261012-DAY11-reaction-population-evaporation-high-spin-run-01/continuation-002-events.jsonl",
+      "action": "Path(\"/tmp/mavela-bundles.json\").unlink(missing_ok=True)",
+      "exit_code": 0,
+      "later_request": "Response streamed through stdout pipe; exit_code=0"
+    },
+    "user_followup": "2026-10-13 修复违规并push",
+    "effect": "Research stopped at the time of the event; subsequent user-authorized work was limited to remediation verification, checks and publication."
   },
   "git_publication": {
     "branch": "main",
+    "remote": "origin (Gitee)",
+    "push_refspec": "HEAD:main",
     "commit_hash": "5060f807d2258f760738b54cbf54939ef8fd9b79",
     "commit_subject": "Complete DAY11 reaction-population and high-spin evidence run",
-    "status": "final-not-pushed",
-    "push_attempted": false,
-    "reason": "The daily prompt blocks push after a path-boundary failure. Fetch, ancestry check, push dry-run and push were not run."
+    "receipt_commit_hash": "5ca082fa6c18d3e57038a5769eee54883434f014",
+    "receipt_commit_subject": "Record DAY11 closeout receipt and publication status",
+    "status": "pushed",
+    "push_attempted": true,
+    "fetch_exit": 0,
+    "remote_ancestor_exit": 0,
+    "push_dry_run_exit": 0,
+    "push_exit": 0,
+    "post_push_fetch_exit": 0,
+    "post_push_head_matches_origin_main": true,
+    "push_outcome": "pushed",
+    "verified_at": "2026-10-13T16:46:47+08:00",
+    "user_authorization": "2026-10-13: 修复违规并push"
   },
   "finished_at": "2026-10-13T15:54:23+08:00",
   "post_commit_reconciliation": {
-    "receipt_commit_created": true,
-    "receipt_commit_subject": "Record DAY11 closeout receipt and publication status",
+    "content_and_receipt_commits_pushed": true,
     "content_commit_hash": "5060f807d2258f760738b54cbf54939ef8fd9b79",
-    "push_preflight_run": false,
-    "push_preflight_reason": "The run prompt blocks push after the path-boundary failure."
+    "receipt_commit_hash": "5ca082fa6c18d3e57038a5769eee54883434f014",
+    "content_and_receipt_push_refspec": "HEAD:main",
+    "fetch_exit": 0,
+    "remote_ancestor_exit": 0,
+    "dry_run_exit": 0,
+    "push_exit": 0,
+    "post_push_fetch_exit": 0,
+    "post_push_head_matches_origin_main": true,
+    "reconciliation_commit_subject": "Reconcile DAY11 boundary cleanup and Gitee publication outcome",
+    "reconciliation_commit_purpose": "Record the verified temporary-file deletion and the user-authorized publication outcome."
   }
 }

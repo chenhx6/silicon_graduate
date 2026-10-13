@@ -28,7 +28,7 @@ updated: 2026-10-13
 - Day 12 card audit: complete
 - 两张卡均完成来源前回忆、来源定位与关键图表核查、反证/必要伴随量审查、练习和 canonical knowledge 写回。
 - Continuation 1 按时间门预习 Day 13 的 Doppler correction、反冲与速度信息；只计 `partial_day_indices:[13]`，未生成 Day 13 completion audit，也未打开 Day 14。
-- 当前研究曾于 `2026-10-13 11:24:27+08:00` 因路径边界事件 `safe-stopped`：一次 UWC bundle API 响应曾临时写至仓库外路径 `/tmp/mavela-bundles.json`，违反仅在 `/workspace/wiki` 内工作的限制；前序交接记录该文件已删除。用户之后明确发出 `/goal resume`，本轮只执行收束，没有恢复研究，也没有自动重启。
+- 当前研究曾于 `2026-10-13 11:24:27+08:00` 因路径边界事件 `safe-stopped`：一次 UWC bundle API 响应曾临时写至仓库外路径 `/tmp/mavela-bundles.json`。Continuation 2 事件日志记录了删除命令成功（exit `0`），随后用 stdout pipe 重试查询，没有再次创建仓库外文件。用户于 `2026-10-13` 明确要求修复并 push；本次对账只在 `/workspace/wiki` 内完成。
 - 收束时钟：`2026-10-13 15:54:23+08:00`；硬截止 `15:00` 已过，仍处于 `15:00–16:00` 收束窗口。Day 11/12 的卡内交付审计完整；Day 13 仍只作不计学分预习，Day 14 未打开。
 - 当前 `completed_day_indices` 是 `[11,12]`，`partial_day_indices` 是 `[13]`；只有 Day 11/12 完整审计获课程学分，Day 13 保持预览。
 - Continuation 2 checkpoint：2026-10-13 06:05:31+08:00，距硬截止约 535 分钟；Day 11/12 仍完整，Day 13 仍为部分预览，无 Day 14、课程状态推进或发布。
@@ -1279,5 +1279,6 @@ Day 13 remains partial and receives no card credit in this run.
 - 新增研究已在硬截止前停止；本次 `/goal resume` 仅执行 closeout。边界事件仍登记为本轮安全停止原因。
 - Resume: `codex resume 01a12f66-a7ae-7ee2-bab9-109580e68e00 -C /workspace/wiki -s danger-full-access -a never`.
 - 正式下一卡入口仍为 [Day 13 prompt](prompts/20261013-DAY13-doppler-correction-recoil-velocity.md)；状态为 `next_day_index=13` 后才可启动，该预览不替代 Day 13 主动回忆、重新核源或卡内审计。
-- Git：计划只提交入口基线确认的本轮文件；预定 subject 为 `Complete DAY11 reaction-population and high-spin evidence run`。push 状态为 `final-not-pushed`，因为本轮曾发生路径边界失败。
+- 路径补救：`continuation-002-events.jsonl` 记录 `Path("/tmp/mavela-bundles.json").unlink(missing_ok=True)` 完成、exit `0`；本次仓库边界检查 exit `0`。后续查询通过管道处理响应，不写临时文件。
+- Gitee 发布：`main` 上 `Complete DAY11 reaction-population and high-spin evidence run` 与 `Record DAY11 closeout receipt and publication status` 两个提交已按 `HEAD:main` 推送；fetch、祖先检查、dry-run、push 均 exit `0`。推后再次 fetch，`origin/main` 与 HEAD 相同。本次对账提交记录了临时文件删除证据和后续成功发布结果。
 - 最终检查：boundary exit `0`；lint exit `0`（0 errors，92 warnings，1542 info）；writeback/报告/卡覆盖校验均 `valid=true`；`git diff --check` exit `0`。

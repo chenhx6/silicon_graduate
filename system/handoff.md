@@ -8,13 +8,13 @@ updated: 2026-10-13
 
 ## Active handoff — DAY11 closeout; Day13 is next
 
-Run `2026-10-12-day-11-01`, session `01a12f66-a7ae-7ee2-bab9-109580e68e00`; resume command: `codex resume 01a12f66-a7ae-7ee2-bab9-109580e68e00 -C /workspace/wiki -s danger-full-access -a never`. The hard research deadline was `2026-10-13T15:00:00+08:00`. A UWC bundle response was temporarily written outside the allowed root at 11:24; the previous handoff records that file as deleted. The user explicitly resumed the goal at 15:43 for closeout only; no research was reopened.
+Run `2026-10-12-day-11-01`, session `01a12f66-a7ae-7ee2-bab9-109580e68e00`; resume command: `codex resume 01a12f66-a7ae-7ee2-bab9-109580e68e00 -C /workspace/wiki -s danger-full-access -a never`. The hard research deadline was `2026-10-13T15:00:00+08:00`. A UWC bundle response was briefly written outside the allowed root at 11:24; the session event log records its deletion command with exit 0, followed by a stdout-piped request. On 2026-10-13 the user explicitly requested remediation and push; only bounded verification/publication followed, with no research reopened and no further out-of-root access.
 
 Day 11 and Day 12 audit tables are complete; Day 13 remains an uncredited preview and Day 14 was not opened. After the final report, writeback and content checks passed, course state advanced to `next_day_index=13 / completed_day_count=12`. Next prompt: `outputs/learning-daily/prompts/20261013-DAY13-doppler-correction-recoil-velocity.md`.
 
 The report is `outputs/learning-daily/20261012-DAY11-reaction-population-evaporation-high-spin.md`; its one `knowledge-writeback` block maps the durable updates across the changed knowledge pages. Final boundary/lint/diff results, continuation receipt and staged file list are recorded in the run output and report.
 
-Publication is recorded as `final-not-pushed`: the run's explicit path-boundary event blocks push under its publication gate. The entry baseline was recovered from the original session log: the Day 11 knowledge pages and handoff were clean at entry; inherited Day 8/9 outputs, `system/log.md` and daemon-script changes are excluded. Do not restart research for this run. Resume the next scheduled substantive session at Day 13 only after checking the course state.
+Gitee push succeeded for the Day11 content and receipt commits on `main`; fetch, origin ancestry, dry-run and push all exited 0, and post-push `origin/main` matched HEAD. This reconciliation commit records the cleanup evidence and successful publication; its subject is `Reconcile DAY11 boundary cleanup and Gitee publication outcome`. The entry baseline was recovered from the original session log: Day11 knowledge pages and handoff were clean at entry; inherited Day8/9 outputs, `system/log.md` and daemon-script changes remain excluded. Do not restart Day11 research. Continue the next substantive run at Day13 after checking course state.
 
 ## Previous active handoff — DAY10 closeout and publication reconciled
 
