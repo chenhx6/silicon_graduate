@@ -1,0 +1,170 @@
+{
+  "schema_version": 1,
+  "kind": "synthetic recoil-stage/conservation exercise; no experimental refit",
+  "neutron_before_gamma": [
+    {
+      "approx_ground_A": 12.0,
+      "source_boundary": "A and Tn are illustrative, not source fit parameters",
+      "neutron_T_in_CN_MeV": 2.0,
+      "emitter_excitation_gap_MeV": 1.0,
+      "parent_rest_photon_keV": 999.9552729971042,
+      "recoil_beta_in_CN": 0.005486782637417209,
+      "CN_corrected_mean_bias_keV": 0.015052058461750839,
+      "CN_corrected_sigma_keV": 3.167701428544347,
+      "CN_corrected_sigma_MC_keV": 3.168497490918267,
+      "relative_sigma_MC_difference": 0.0002513059995952194,
+      "CN_corrected_box_half_range_keV": 5.486619817447322,
+      "illustrative_n4_fixed_mass_independent_isotropic_sigma_keV": 6.335402857088694,
+      "exact_replay": [
+        {
+          "photon_emitter_rest_cos_theta": -1.0,
+          "CN_beta": 0.07,
+          "true_emitter_lab_beta_z": 0.06453800478286953,
+          "CN_corrected_keV": 1005.4569448730135,
+          "emitter_corrected_keV": 999.9552729971044
+        },
+        {
+          "photon_emitter_rest_cos_theta": 0.0,
+          "CN_beta": 0.07,
+          "true_emitter_lab_beta_z": 0.06453800478286953,
+          "CN_corrected_keV": 999.9703250555659,
+          "emitter_corrected_keV": 999.9552729971043
+        },
+        {
+          "photon_emitter_rest_cos_theta": 1.0,
+          "CN_beta": 0.07,
+          "true_emitter_lab_beta_z": 0.06453800478286953,
+          "CN_corrected_keV": 994.4837052381189,
+          "emitter_corrected_keV": 999.9552729971045
+        }
+      ]
+    },
+    {
+      "approx_ground_A": 52.0,
+      "source_boundary": "A and Tn are illustrative, not source fit parameters",
+      "neutron_T_in_CN_MeV": 2.0,
+      "emitter_excitation_gap_MeV": 1.0,
+      "parent_rest_photon_keV": 999.9896776736599,
+      "recoil_beta_in_CN": 0.0012662857870533375,
+      "CN_corrected_mean_bias_keV": 0.000801732535693489,
+      "CN_corrected_sigma_keV": 0.7310834796111277,
+      "CN_corrected_sigma_MC_keV": 0.7307822770379603,
+      "relative_sigma_MC_difference": 0.0004119947742871055,
+      "CN_corrected_box_half_range_keV": 1.2662737312607184,
+      "illustrative_n4_fixed_mass_independent_isotropic_sigma_keV": 1.4621669592222555,
+      "exact_replay": [
+        {
+          "photon_emitter_rest_cos_theta": -1.0,
+          "CN_beta": 0.07,
+          "true_emitter_lab_beta_z": 0.06873980730981676,
+          "CN_corrected_keV": 1001.2567531374559,
+          "emitter_corrected_keV": 999.9896776736598
+        },
+        {
+          "photon_emitter_rest_cos_theta": 0.0,
+          "CN_beta": 0.07,
+          "true_emitter_lab_beta_z": 0.06873980730981676,
+          "CN_corrected_keV": 999.9904794061953,
+          "emitter_corrected_keV": 999.9896776736597
+        },
+        {
+          "photon_emitter_rest_cos_theta": 1.0,
+          "CN_beta": 0.07,
+          "true_emitter_lab_beta_z": 0.06873980730981676,
+          "CN_corrected_keV": 998.7242056749344,
+          "emitter_corrected_keV": 999.9896776736596
+        }
+      ]
+    },
+    {
+      "approx_ground_A": 130.0,
+      "source_boundary": "A and Tn are illustrative, not source fit parameters",
+      "neutron_T_in_CN_MeV": 2.0,
+      "emitter_excitation_gap_MeV": 1.0,
+      "parent_rest_photon_keV": 999.9958710183191,
+      "recoil_beta_in_CN": 0.0005065209301071522,
+      "CN_corrected_mean_bias_keV": 0.00012828122131214315,
+      "CN_corrected_sigma_keV": 0.2924388253827202,
+      "CN_corrected_sigma_MC_keV": 0.29196645752315564,
+      "relative_sigma_MC_difference": 0.001615270677367664,
+      "CN_corrected_box_half_range_keV": 0.5065189036686344,
+      "illustrative_n4_fixed_mass_independent_isotropic_sigma_keV": 0.5848776507654404,
+      "exact_replay": [
+        {
+          "photon_emitter_rest_cos_theta": -1.0,
+          "CN_beta": 0.07,
+          "true_emitter_lab_beta_z": 0.06949594315037627,
+          "CN_corrected_keV": 1000.502518203209,
+          "emitter_corrected_keV": 999.995871018319
+        },
+        {
+          "photon_emitter_rest_cos_theta": 0.0,
+          "CN_beta": 0.07,
+          "true_emitter_lab_beta_z": 0.06949594315037627,
+          "CN_corrected_keV": 999.9959992995404,
+          "emitter_corrected_keV": 999.9958710183189
+        },
+        {
+          "photon_emitter_rest_cos_theta": 1.0,
+          "CN_beta": 0.07,
+          "true_emitter_lab_beta_z": 0.06949594315037627,
+          "CN_corrected_keV": 999.4894803958716,
+          "emitter_corrected_keV": 999.9958710183189
+        }
+      ]
+    }
+  ],
+  "neutron_after_gamma_same_visible_counterexample": [
+    {
+      "missing_neutron_cos_to_observed_gamma": -1.0,
+      "known_initial_mass_MeV": 122036.79873924902,
+      "initial_lab_beta_vector": [
+        0.0,
+        0.0,
+        -0.0005045631516274614
+      ],
+      "gamma_in_initial_rest_keV": 1000.5046905078653,
+      "unspecified_intermediate_mass_MeV": 122035.79823045722,
+      "boundary": "observed photon and terminal residue are identical; the intermediate level is not fixed"
+    },
+    {
+      "missing_neutron_cos_to_observed_gamma": 0.0,
+      "known_initial_mass_MeV": 122036.79873924902,
+      "initial_lab_beta_vector": [
+        0.0005045631516274614,
+        0.0,
+        0.0
+      ],
+      "gamma_in_initial_rest_keV": 1000.0001272920111,
+      "unspecified_intermediate_mass_MeV": 122035.79873502458,
+      "boundary": "observed photon and terminal residue are identical; the intermediate level is not fixed"
+    },
+    {
+      "missing_neutron_cos_to_observed_gamma": 1.0,
+      "known_initial_mass_MeV": 122036.79873924902,
+      "initial_lab_beta_vector": [
+        0.0,
+        0.0,
+        0.0005045631516274614
+      ],
+      "gamma_in_initial_rest_keV": 999.4955640761568,
+      "unspecified_intermediate_mass_MeV": 122035.79923959193,
+      "boundary": "observed photon and terminal residue are identical; the intermediate level is not fixed"
+    }
+  ],
+  "boundaries": [
+    "Case A applies to unmeasured recoil vectors, not a residual ion with correctly reconstructed emitter velocity.",
+    "Case B is a conditional late-particle/unknown-intermediate-level counterexample; it is not asserted for the low-lying bound lines of Klemme or VAMOS.",
+    "Fixed known intermediate levels, independent particles or kinematic constraints can reduce the Case B ambiguity.",
+    "n=4 variance is a leading fixed-mass independent-isotropic illustration, not an exact sequential evaporation calculation."
+  ],
+  "verification": {
+    "four_momentum_and_mass_shell_passed": true,
+    "max_conservation_scale_residual_MeV": 6.72208029875998e-11,
+    "exact_rest_energy_inverse_max_error_MeV": 3.3306690738754696e-16,
+    "max_MC_sigma_relative_difference": 0.001615270677367664,
+    "same_visible_known_initial_mass_counterexample_passed": true,
+    "passed": true
+  },
+  "numpy_version": "2.5.3"
+}

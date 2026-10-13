@@ -3,7 +3,7 @@ type: research-note
 title: "Doppler 前向与反演约定混用的谱峰偏差检验"
 aliases: [Doppler convention roundtrip audit]
 created: 2026-10-13
-updated: 2026-10-13
+updated: 2026-10-14
 status: ai-draft
 review_status: unreviewed
 reasoning_status: provisional
@@ -36,6 +36,7 @@ $$\frac{E_{corr}}{E_0}=\frac{1-q^2}{\sqrt{1-\beta^2}},\qquad
 
 - 若原sortpax/MGT分别都使用同一linear式及其一致inverse，则该混用机制被排除；E0标签、precision、data重bin、平均velocity方向、generated energies及calibration仍可解释shift。
 - 同样可检验exactforward+linearinverse，在90°偏差为−2.154799keV，符号不同；只看宽度不区分共同centroid convention。
+- [[tunl-2017-12c-level-widths]]提供不同gap/width的评价语境；photonrecoil是另一个frame候选，但A52/gap1.434MeV的free-mass-numbertoy给gap→photon差约.0212keV、parent→daughterframe差约.0424keV，均远小于本case约2keV。因此在这些明确输入下，它不能独自解释该shift；实际generatedenergy/particleidentity仍需code确认。复算见[day13_photon_recoil_width.py](../../system/scripts/day13_photon_recoil_width.py)，不是原MGT执行证据。
 - code replay应先用stationary/monoenergetic/knownvector零nuisance事件，做linear-linear、exact-exact、mixed两方向roundtrip；再加入reaction/position spread。检查实际formula、units/frame、E0输入与每步centroid，不靠最后一张峰图猜原因。
 
 ## Assumptions

@@ -241,7 +241,7 @@ $$\langle\beta\rangle=\frac{\beta_i}{1+\tau/t_s},\qquad
 
 若一律使用 β_i 校正，一阶 mean residual 为 `E0(⟨β⟩−β_i) cosθ`。取自设 `E0=1000 keV, β_i=0.016, τ=t_s=1.1 ps`，MC exact residual 在35°/90°/145°为 `−6.502/+0.085/+6.615 keV`；90°的一阶 residual 为零但二阶项不为零。Klemme 报告 Au slowing time 约1.1 ps，却没有给出本 toy 的指数 law 或 τ=1.1 ps，不能用这些数值重拟合其寿命或移植到 Mavela。
 
-Klemme Table I 的 `6g+` 从 `1.38(4)` 到 corrected `1.63(6) ps`，中心值增加约18.1%；Table II adopted error 还包含 stopping-power 边界。这是对“能量校正后就不用停止模型”的实验反证。由 adopted 1.63 ps 与通用 `Γ=ℏ/τ` 可得自然宽度约 `4.04×10⁻7 keV`，远小于本例的 keV 响应/运动学宽度。
+Klemme Table I 的 `6g+` 从 `1.38(4)` 到 corrected `1.63(6) ps`，中心值增加约18.1%；Table II adopted error 还包含 stopping-power 边界。这是对“能量校正后就不用停止模型”的实验反证。由 adopted 1.63 ps 与通用 `Γ=ℏ/τ` 可得母态自然width约 `4.04×10⁻7 keV`；若6g+→4g+的末态采用4.94ps，idealtransitionLorentzwidth为Γi+Γf≈`5.37×10⁻7 keV`，远小于本例的 keV 响应/运动学宽度。
 
 ### 最小可复核数据包与研究判断
 
@@ -431,3 +431,138 @@ $$P(t<T)=1-\frac{\tau_f e^{-T/\tau_f}-\tau_l e^{-T/\tau_l}}{\tau_f-\tau_l}.$$
 ### 最小反证设计
 
 在相同emitter/particlevector/PSAselection下比较具有不同已知prompt/feedinghistory的held-outline，保留raw/nominal/correct-vertexenergy、不同角度以及time/gate切片。globaltargetzoffset也可模拟一部分displacementpattern，须有独立promptvertex/calibration或timehistory；两近邻line还需coincidence/identity控制。缺输入时保留预测/失败条件，不能据本toy测量真实τ或修订absoluteB。
+
+## Detector-origin 宽线、natural width 与 cut 语义
+
+### 宽线不一定属于 target emitter
+
+[[senyigit-2014-agata-neutron-rejection]] SY14-2/3/4提供独立detector-response反例：Ge(n,n′γ)line的high-energy侧约40keVbump可由Ge-recoilvisibledeposit与γenergy相加；27Al2211-keVline报告15keVFWHM的Dopplerbroadenedprofile。γTOF门抑制localGefeatures，却保留部分附近Fe/Al/Ba/Pb或annihilation真γ。因此“通过γtimegate”不等于“属于targetnucleus”，targetresiduevelocitycorrection也不能修复错误originidentity。
+
+检验需匹配core/segment/tracked spectra、neutron-sensitiveTOF/particlelabel、detector/materiallineanchors和response，保留shield/geometry/gates。对正确targetframe进行energygate后，neighbour/background会怎样迁入该gate也必须重放；不能据cleaned全谱就删除反证。
+
+### Natural width 的层级与量纲
+
+对理想Markov Lorentz line，母态energywidth为 `Γi=ℏ/τi`；若末态也有finiteτ，transitionwidth包括 `Γi+Γf`。detectorGaussian、thermal/recoilDoppler、stopping/displacement/feeding和未分辨components是其它kernel，不能直接把所有σ/FWHM相加或用观测总FWHM反推τ。
+
+Klemme的6g+τ1.63ps/4g+τ4.94ps给理想line约5.37×10⁻7keV。以Senyi引用27Almeanτ26.6fs（本轮未独立核验evaluation原文）估parentΓ为2.47×10⁻5keV，远小于reported15keV；这是基于sourceinput的scalecheck，不是独立寿命或Γ测量。source将此宽化解释为短τ使neutron-recoilingAl仍在运动时发射。未经directleveldata核验，不能把该τ转移到12C15.1-MeV或其它resonance；本次IAEALiveChart返回403challengeHTML，未当levelsCSV。
+
+### TOF 分离也有 path/response 条件
+
+sourceSY14-4的γtimeFWHM约9.8–7.7ns是在50cm与指定Eint下获得；source指出23.5cm分离受限。单能/直线toy中，2MeVneutron与γ在235/500mm的TOFseparation约11.249/23.934ns；10MeVneutron为4.632/9.855ns。actualneutronspectrum、detector厚度、walk/jitter/gates未建模，不能将这组kinematicnumbers直接变成rejectefficiency。recoilmass-numberelasticbound在A74/2MeV下约105keV，与source约100keVscale相容；pulse-height-defect约35keV是source引用context，没有从它拟合quenchinglaw。
+
+### 不同分母、OR 与 AND
+
+SY14-5的嵌套选择应用survivalproduct：`r_total=1−(1−r_first)(1−r_conditional)`。1040peak的57%再28%合为69.04%，不是85%；Co1332的9%再18.5%合为25.835%，与Table4rounded25.8%相容。标明rawcore/standardtracked/NRselected分母，jointcovariance缺失时不制造完整errorbar。
+
+sourceSY14-6正文/Table2/Table4的acceptORgood与conclusion反向inequalitiesOR若被当rejectrule，其complement为ANDgood；二者不等价。4booleans的16种assignment中14种mixedcases不同，不是14/16experimentaldatafraction。strictinequality的数学complement还改变边界的<与≤；signedΔθ<40°也不自动变成|Δθ|<40°。需executedmgtpredicate、calibration/thresholddefinition、同一events和publisherversion核验后再reproducecuts，不自行替作者选择。
+
+sourceSY14-7的部分Co列标签正文/表差异也保留；workingnumerics明确来自Table4，不能悄悄以更整齐的文字替换。源SY14-8的tracking/rawFEPcount ratio可超过100%，它不是absoluteprobability。 [day13_neutron_width_selection.py](../../system/scripts/day13_neutron_width_selection.py)复核Γunits、TOFscale、Table4中心比与DeMorgantruth table；它没有重演actualneutronrejection或推荐生产cut。
+
+SY14-9又给出conditionalmonotonicity反例：若全部cuts是同一fixedstandardclusters、同一energy/lineidentity、相同peakcount/normalization上的post-filters，acceptORgood包含E1>30，而E1>30包含E1>45，因此combinedloss不得大于E1>45-onlyloss。Table2的Co1332两行中心值为18.5%与3.9%，不能由这些假设下的literalOR重现。这个结论不把差14.6percentagepoints当误差显著性，也不证明actualmgtwrong；retracking、clusterreassembly、峰拟合/背景处理或不同stagedefinition会改变前提。真正可复核的cutcontract必须记录executionstage与观测计数对象，不能只留threshold列表。
+
+## Photon recoil：level gap、母核 frame 与子核 frame
+
+### 评价宽度与 gamma branching 的不同分母
+
+[[tunl-2017-12c-level-widths]] T12C-1/2核验了官方在线12C表：15.110MeV1+level的totalΓ=43.6(1.0)eV，而groundγpartial为38.5(.8)eV、totalγ为41.8(1.1)eV。centralmeanlife从totalΓ得15.10as；用groundpartial代total会增大约13.25%，得到的是partial-channel等效time，不是levelτ。
+
+T12C-3的中心商Γγ0/Γγ=.92105、Γγ0/Γtotal=.88303，后者含α通道；Table14footnotee的92%属于γ-decaybranchcontext。CrespiCR13-1的92%linecontext与此denominator相容，但没有据此诊断其实际yieldnormalization。多项widths是shared/deduced，Table14gamma-partialcentral-sum与listedtotalγ差.94eV不自动是erratum（T12C-5），也不制造independentratioerrors。
+
+TotalnaturalΓcm=.0436keV远小于CR13-3的119keVFWHM；它限制naturalwidth为主因，却不能独自分解kinematic/position/response。TUNL表是online2017KE05与2020revisioncompanion的有版本记录，不默认为未经修订的2017originalpaper，也不是Crespi的第二次实验。
+
+### Free nucleus 的 two-body photon energy
+
+对自由母核restmassMi、子核Mf和单photon，energy/momentum守恒给
+
+$$E_\gamma^{(i)}=\frac{(M_ic^2)^2-(M_fc^2)^2}{2M_ic^2}
+=\Delta\left(1-\frac{\Delta}{2M_ic^2}\right),\quad
+\Delta=(M_i-M_f)c^2.$$
+
+所以levelgapΔ不完全等于emitting-parent-restframe的photonenergy；差为daughterrecoilkineticenergy。mass-numberM≈Au、groundfinal的自设近似例子：
+
+| A / gap | Parent-rest photon | gap−photon recoil energy |
+|---|---:|---:|
+| 12 / 15.110MeV | 15.099801MeV | 10.198843keV |
+| 12 / 4.43982MeV | 4.438939MeV | .881388keV |
+| 32 / 2.23057MeV | 2.230487MeV | .083452keV |
+| 52 / 1.434MeV | 1.433979MeV | .0212keV |
+| 130 / 1MeV | .999996MeV | .004129keV |
+
+前两gap参考T12C-1/4，32/52为此前source-inspiredscales、130为自设比较；这些不是重新测量γenergy。精确值需要nuclear/atomicmass区别、finalexcitation、电子/介质/lattice条件与sourceE0定义。自由movingemittertoy不涵盖Mössbauer/lattice-recoilfree情形；Crespi仅写15.1MeV的roundedline标签，不能据表推断其精确sortinginput错了。
+
+### Post-photon daughter velocity 不是 emitting parent velocity
+
+对已测photonfour-vectork和**紧接这条γ后的**daughterfour-vectorPf，Pi=Pf+k；同particleterminalstate若随后还有未测γ/particle，则还需要它们的four-momenta或distribution。直接以terminalresidueTOF/track作为某intermediateparentvelocity，需评估γrecoil与missingemissions，不把stage差忽略为同一b。
+
+在理想free two-body情形中，用正确parentvelocity反演得Eγ(i)；若用exactpost-daughtervelocity，会得到
+
+$$E_\gamma^{(f)}=E_\gamma^{(i)}\frac{M_i}{M_f},$$
+
+这是另一个合法restframe的energy，不能拿它作母核E0。上述A12/15.110toy的difference为20.411473keV；此bias在correctfour-vector计算中对任意labboost/γangle保持不变，不能用globalwrongβ的cosθ反号诊断代替。A32/2.23057为.166911keV，A130/1MeV为.008258keV，说明是否可忽略需结合energy/precisionbudget，不能只按massregion断言。
+
+[day13_photon_recoil_width.py](../../system/scripts/day13_photon_recoil_width.py)对β0/.016/.07/.3/.5和多rest-emissionangles检查parent/daughter/photonfour-momentum、daughtermassshell和两种frameinversion；maxfour-momentumresidual1.46×10⁻11MeV，inverseerror≤7.2×10⁻15MeV。无实际particle/γevent重建或新Β值。
+
+## Lorentz natural line 与 Gaussian response 的卷积
+
+[[tunl-2017-12c-level-widths]] T12C-1/4 给出不同能级的 total natural Γ，[[crespi-2013-agata-high-energy-doppler-response]] CR13-3 给出观测峰宽。两者的物理对象不同；下面只检验线型数学，不拟合这些实验。
+
+在孤立、指数衰变、稳定末态的近似下，母态振幅按 `exp(−t/2τ)` 衰减，其能量线型为 Lorentz：
+
+$$L(x;\Gamma)=\frac{\Gamma/2}{\pi[x^2+(\Gamma/2)^2]},\qquad
+G(x;\sigma)=\frac{e^{-x^2/(2\sigma^2)}}{\sqrt{2\pi}\sigma},\qquad
+V(x)=\int L(y)G(x-y)\,dy.$$
+
+`x=E−E0`，Γ 是 Lorentz 的 FWHM；Gaussian 的 FWHM 则为 `2√(2ln2)σ`。`V` 是归一化 Voigt。Gaussian 核之间可相加 variance，Lorentz 核之间可相加 Γ；**Gaussian 与 Lorentz 的 FWHM 不能直接平方和**。先前的 `JΣJᵀ` 传播适用于已声明、有有限二阶矩的小扰动，不将 natural Γ 填入它的 σ 栏。
+
+理想、无限支持的 Lorentz/Cauchy 核没有通常意义下的平均值与有限 variance；对称截断的中心或 principal value 不等于存在统计均值。真实发射过程有能量阈值、能量依赖矩阵元和有限观察窗，必要时应回到这些物理条件，不能用理想 Lorentz 的发散尾部给真实实验凭空添加误差。
+
+### 定量反例与 finite energy gate
+
+[day13_voigt_gate_response.py](../../system/scripts/day13_voigt_gate_response.py) 用直接卷积积分独立核验 SciPy Voigt，检查全域归一化与 Γ=0/σ=0 极限。全部宽度以 keV 输入，以下均为声明参数的例题：
+
+| Lorentz Γ | Gaussian FWHM | Voigt FWHM | 直接平方和的错误值 | 参数身份 |
+|---:|---:|---:|---:|---|
+| .0436 | 119 | 119.023221 | 119.000008 | T12C-1 的 Γ 尺度与 CR13-3 的观测宽度尺度；119 在此**仅充当 Gaussian comparator**，不是已测响应分解。 |
+| 20 | 20 | 32.751907 | 28.284271 | 自设同尺度反例，错误值低13.64%。 |
+| 46 | 5 | 46.579592 | 46.270941 | T12C-4 的 broad-width 尺度与自设 Gaussian；不声称该态存在本例的已测 γ profile。 |
+
+对20/20例题，设真实 Voigt FWHM 为 W，中心门 `|x|<W` 接受 .798321；具有相同 W 的纯 Gaussian 接受 .981468。门扩至 `|x|<2W` 时两者为 .901916/.999998。**相同 FWHM 不能保证相同 gate fraction**，只报拟合峰宽不足以校正门内强度、角分布或弱支路上限。
+
+Γ=.0436、Gaussian comparator119 的 Voigt只增加约.0232keV FWHM，支持这个天然宽度尺度不能主导119keV峰；它没有识别实际 velocity/PSA/response 分量。直接卷积与 Voigt 最大差 `3.47×10⁻18 keV⁻1`，归一化误差 `<5×10⁻16`。这验证数学核与数值精度，不验证某个实验的实际线型选择。
+
+### 反证和必要伴随输入
+
+若改进独立 particle vector 后 core/segment/PSA 的宽化同向收缩，kinematic 解释获得支持；若 tail 随 tracking/threshold 改变，需保留 detector/selection 解释。Natural Γ 应来自适用的态/通道和版本记录；broad group 的 overlap/interference（T12C-6）还可能超出 Voigt 近似。实际 gate 强度至少需要完整线型、邻峰/背景、frame、效率、门的分母与共享事件 covariance；本例没有提供这些实验输入。
+
+## Missing momentum 与发射前后的速度阶段
+
+[[aladili-2009-agata-doppler-simulation]] AA09-2/9 的 reaction model 区分复合核与蒸发后的残核，Fig.6.12 的近各向同性是 CM per-solid-angle 语境；lab 角谱不同。[[crespi-2013-agata-high-energy-doppler-response]] CR13-2/3 的 mean vector 缺少事件测量，[[vandebrouck-2016-vamos-dual-position-mwpc]] VD16-3/5 则实际使用粒子 vector。它们支持检查输入阶段，但不能互相替代反应、响应或 data packet。
+
+### 蒸发发生在目标 γ 之前
+
+若所有粒子蒸发已在目标γ之前完成，particle recoil会使 **residual emitter vector** 分散；这解释为何 compound/beam 的平均 boost不能逐事件替代它。若已独立、准确地重建这个 residual emitter vector，此前蒸发的不确定度便不应再次叠加为同一项未知误差。
+
+自由两体例题以CM静止的compound发射一颗固定 Tn=2MeV 的neutron，残核随后发射1-MeV gap对应的γ。设 neutron momentum为 p、残核激发质量为 Mr，γ在残核rest系各向同性，则误用compound frame后有
+
+$$E_{\gamma,CN}=E_{\gamma,r}\gamma_r(1+\beta_r\cos\vartheta),\quad
+\sigma_{E,CN}=\frac{E_{\gamma,r}p}{\sqrt{3}M_rc},$$
+
+其中 `Mr c²` 用 MeV、`pc` 用 MeV 时，右式单位为 MeV。均值为 `γr Eγ,r`，理想线型为两端点之间的均匀 box，不能将其σ不加说明地当Gaussian FWHM。
+
+| 自设 ground mass≈Au | 错用 CN frame 的σ (keV) | box half-range (keV) | mean bias (keV) |
+|---:|---:|---:|---:|
+| 12 | 3.167701 | 5.486620 | .015052 |
+| 52 | .731083 | 1.266274 | .000802 |
+| 130 | .292439 | .506519 | .000128 |
+
+以上是固定能量、mass-number近似的例题，不是AA09/Crespi/Klemme的反应重算。对固定残核质量、独立各向同性的n颗粒子，leading momentum covariance为 `Σp=(Σj pj²/3)I`，同能量的σ按√n增加；真实顺序质量/能量、角各向异性、channel/particle gate及stopping都会改变这一近似。
+
+[day13_missing_momentum_stages.py](../../system/scripts/day13_missing_momentum_stages.py)对静止与多lab boost核验四动量、mass shell和母系反演。正确使用γ发射前残核vector时恢复唯一Eγ,r；错误CN correction保留box分散。MC σ与解析值最大相对差.162%，四动量/mass-shell尺度残差 `<7×10⁻11MeV`，inverse误差 `<4×10⁻16MeV`。
+
+### 若目标 γ 之后还有未观测粒子
+
+这需要单独的阶段判断，**本例没有声称上述实验的低位束缚态γ之后还会蒸发neutron**。若某高激发路径确有晚粒子、且中间能级未知，已知terminal residue与一条photon并不唯一给出earlier parent vector。
+
+令已测总四动量 `C=Pt+k`、未测neutron为q、初始母核质量Mi已知，则 `Pi=C+q`、`Pi²=Mi²` 只固定C-rest系中的neutron能量，仍留方向自由度。代码给相同terminal four-vector/1-MeV observed photon、相同Mi的三种方向解；earlier-parent rest photon energy分别为1000.504691、1000.000127、999.495564keV。中间核质量也随之变化，明确是**未知中间态**的条件反例。
+
+若指定了同一个已知中间态，其invariant约束会减少这组自由度；完整测得后续particles/γ则可按四动量求和恢复parent。target loss、spectrometer trajectory、charge state和各阶段的event covariance还需实测/校准packet。应先画清 `compound → post-evaporation emitter → post-target-γ daughter → terminal residue`，确认存在的emissions与material crossings，再传播误差；不能把一个平均boost、一次TOF或末端PID等同于所有阶段速度。

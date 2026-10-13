@@ -1,0 +1,144 @@
+{
+  "schema_version": 1,
+  "at": "2026-10-14T01:01:41.649949+08:00",
+  "status": "active-checkpoint-not-closeout",
+  "report_sha256": "6c50e4668d51caf0ad4629b79c778c912b19ce7fae9973a6ed07938a1d7dc9f7",
+  "writeback": {
+    "valid": true,
+    "mode": "updated",
+    "knowledge_paths": [
+      "knowledge/methods/doppler-correction.md",
+      "knowledge/sources/mavela-2019-32s-quadrupole-moment-doppler-correction-thesis.md",
+      "knowledge/sources/klemme-1999-lifetimes-134nd-neighbors.md",
+      "knowledge/sources/herzan-2015-193bi-spectroscopy.md",
+      "knowledge/methods/level-scheme-reconstruction.md",
+      "knowledge/projects/a130-thesis-evidence-matrix.md",
+      "knowledge/questions.md",
+      "knowledge/index.md",
+      "knowledge/sources/vandebrouck-2016-vamos-dual-position-mwpc.md",
+      "knowledge/sources/crespi-2013-agata-high-energy-doppler-response.md",
+      "knowledge/methods/tracking-array.md",
+      "knowledge/sources/aladili-2009-agata-doppler-simulation.md",
+      "knowledge/research-notes/doppler-forward-inverse-convention-check.md",
+      "knowledge/sources/akkoyun-2012-agata-instrument-response.md",
+      "knowledge/concepts/lorentz-boost-correction.md",
+      "knowledge/sources/longfellow-2026-gretina-energy-ordering-polarization.md",
+      "knowledge/sources/senyigit-2014-agata-neutron-rejection.md",
+      "knowledge/methods/gamma-gamma-coincidence.md",
+      "knowledge/sources/tunl-2017-12c-level-widths.md"
+    ],
+    "changed_paths": [
+      "knowledge/concepts/lorentz-boost-correction.md",
+      "knowledge/index.md",
+      "knowledge/methods/doppler-correction.md",
+      "knowledge/methods/gamma-gamma-coincidence.md",
+      "knowledge/methods/level-scheme-reconstruction.md",
+      "knowledge/methods/tracking-array.md",
+      "knowledge/questions.md",
+      "knowledge/research-notes/doppler-forward-inverse-convention-check.md",
+      "knowledge/sources/akkoyun-2012-agata-instrument-response.md",
+      "knowledge/sources/aladili-2009-agata-doppler-simulation.md",
+      "knowledge/sources/crespi-2013-agata-high-energy-doppler-response.md",
+      "knowledge/sources/senyigit-2014-agata-neutron-rejection.md",
+      "knowledge/sources/tunl-2017-12c-level-widths.md",
+      "knowledge/sources/vandebrouck-2016-vamos-dual-position-mwpc.md"
+    ],
+    "change_check": "run-snapshot",
+    "error": null
+  },
+  "report": {
+    "valid": true,
+    "missing_headings": []
+  },
+  "coverage": {
+    "valid": true,
+    "completed_day_indices": [
+      13
+    ],
+    "partial_day_indices": [
+      14
+    ],
+    "curriculum_cards_completed": 1,
+    "next_day_index": 14,
+    "error": null
+  },
+  "protected": {
+    "PLAN.md": true,
+    "raw/zotero/wiki-inbox.bib": true
+  },
+  "public_source_fingerprints": {
+    "vandebrouck-2016-vamos-dual-position-mwpc": {
+      "tmp_copy_matches_source_hash": true,
+      "raw_slot_unpopulated": true,
+      "source_kind_boundary": "public source reading; source raw slot is not archived"
+    },
+    "crespi-2013-agata-high-energy-doppler-response": {
+      "tmp_copy_matches_source_hash": true,
+      "raw_slot_unpopulated": true,
+      "source_kind_boundary": "public source reading; source raw slot is not archived"
+    },
+    "aladili-2009-agata-doppler-simulation": {
+      "tmp_copy_matches_source_hash": true,
+      "raw_slot_unpopulated": true,
+      "source_kind_boundary": "public source reading; source raw slot is not archived"
+    },
+    "akkoyun-2012-agata-instrument-response": {
+      "tmp_copy_matches_source_hash": true,
+      "raw_slot_unpopulated": true,
+      "source_kind_boundary": "public source reading; source raw slot is not archived"
+    },
+    "senyigit-2014-agata-neutron-rejection": {
+      "tmp_copy_matches_source_hash": true,
+      "raw_slot_unpopulated": true,
+      "source_kind_boundary": "public source reading; source raw slot is not archived"
+    },
+    "tunl-2017-12c-level-widths": {
+      "tmp_copy_matches_source_hash": true,
+      "raw_slot_unpopulated": true,
+      "source_kind_boundary": "public source reading; source raw slot is not archived"
+    }
+  },
+  "new_exercises": {
+    "neutron-width-selection-exercise.json": {
+      "central_nested_ratios_match_rounding": true,
+      "DeMorgan_truth_table_checked": true,
+      "natural_width_orders_checked": true,
+      "passed": true
+    },
+    "photon-recoil-width-exercise.json": {
+      "parent_daughter_photon_four_momentum_conserved": true,
+      "daughter_mass_shell_passed": true,
+      "two_rest_frame_energy_inverses_passed": true,
+      "max_four_momentum_residual_MeV": 1.4551915228366852e-11,
+      "max_energy_inverse_error_MeV": 7.105427357601002e-15,
+      "passed": true
+    },
+    "voigt-gate-response-exercise.json": {
+      "normalization_max_error": 4.440892098500626e-16,
+      "independent_convolution_max_error_per_keV": 3.469446951953614e-18,
+      "Gaussian_and_Lorentz_limits_passed": true,
+      "FWHM_quadrature_counterexample_passed": true,
+      "divergent_second_moment_check_passed": true,
+      "passed": true
+    },
+    "missing-momentum-stages-exercise.json": {
+      "four_momentum_and_mass_shell_passed": true,
+      "max_conservation_scale_residual_MeV": 6.72208029875998e-11,
+      "exact_rest_energy_inverse_max_error_MeV": 3.3306690738754696e-16,
+      "max_MC_sigma_relative_difference": 0.001615270677367664,
+      "same_visible_known_initial_mass_counterexample_passed": true,
+      "passed": true
+    }
+  },
+  "lint_counts": {
+    "warning": 104,
+    "info": 1601
+  },
+  "warnings_by_code": {
+    "CITATION_KEY_MISSING": 95,
+    "RAW_MISSING": 6,
+    "REACTION_PARSE": 3
+  },
+  "no_new_course_credit": true,
+  "original_deadline": "2026-10-14T15:00:00+08:00"
+}

@@ -3,7 +3,7 @@ type: method
 title: "从 γ 谱重建能级纲图的证据审计"
 aliases: [level scheme reconstruction, spectrum to level scheme evidence audit]
 created: 2026-10-13
-updated: 2026-10-13
+updated: 2026-10-14
 status: ai-draft
 review_status: unreviewed
 method_type: gamma-ray-spectroscopy
@@ -89,3 +89,7 @@ Self-audit结果：`supports` level/transition identity与联合assignment；`li
 - [[herzan-2015-193bi-spectroscopy]] HE15-7：PDF p.19 Sec.IV.D, low-energy non-observation and conversion/x-ray explanation。
 - [[klemme-1999-lifetimes-134nd-neighbors]] KL99-18：同一跃迁的距离相关双分量。
 - [[gamma-gamma-coincidence]]、[[spin-parity-assignment]]、[[doppler-correction]]：配套方法入口。
+
+## Level gap and gamma-energy precision
+
+[[tunl-2017-12c-level-widths]] T12C-1/4与[[doppler-correction]]的free-two-bodyexercise强调：energy-levelgap与emitting-parent-restγenergy存在photonrecoil差，精确schemeenergyclosure需声明mass/frame/rounding。A12/gap15.110MeV的mass-numbertoy差约10.20keV，不能把高能levelgap直接当exactγcalibrationline；A130/1MeV差约.00413keV。此为尺度设计，不重新测原表能级，也不替换真实实验已处理的recoilcorrection。

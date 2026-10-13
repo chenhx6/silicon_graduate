@@ -2,7 +2,7 @@
 type: learning-daily
 graph-excluded: true
 created: 2026-10-13
-updated: 2026-10-13
+updated: 2026-10-14
 ---
 
 # Day 13 — Doppler correction、反冲与速度信息
@@ -148,6 +148,35 @@ boostaxis、labbeam/quantizationaxis、angularaberration与energycorrection分�
 [displacedvertex code](../../system/scripts/day13_doppler_displaced_vertex.py)与[JSON](20261013-DAY13-doppler-correction-recoil-velocity-run-01/displaced-vertex-feeding-exercise.json)将sourceAA09-1/4的远发射点条件推进为明确toy：恒定knownβ仍因错误targetvertex有同号low-energyresidual；detectedtimes须按angularJacobian/projectedarea/distance²加权。β.3/R150mm/τl2ps在90°的mean为−.3765keV，另有τf20ps时为−4.0838keV；actualnuclear参数/response未代入。
 
 idealproper-time10psgate在同一τl2ps下接受direct.993262/feeding.326826，需与actualtimestamp/flightpath/response区分。48/96点quadraturemean差≤2.2×10⁻12keV、MC/CDF/Erlang2/static检查通过。line-tail为nonGaussian，σ不冒充FWHM。推导、参数、numerics与独立promptvertex/held-outtime-gatefalsifier已全部写回Doppler方法；无新实验lifetime/B。学习继续。
+
+
+### 持续Day13：探测器中子宽线与 cut-contract 反证
+
+[[senyigit-2014-agata-neutron-rejection]]已读公开15页preprint及核心tables/figures；Crossrefjournalyear为2014，2013仅preprint/online年。Ge-recoilvisibledeposit叠加γ造成约40keVhigh-sidebumps，γTOFgate仍有其它material真γ；27Al2211-keVpeak的reportedFWHM15keV与paper引用τ26.6fs所给naturalΓscale2.47×10⁻5keV是不同物理量（SY14-2/3/4）。
+
+[neutron/width/selection code](../../system/scripts/day13_neutron_width_selection.py)、[JSON](20261013-DAY13-doppler-correction-recoil-velocity-run-01/neutron-width-selection-exercise.json)核验natural-widthunits、straight-flightTOF和Table4nestedpercent分母；57%再28%中心值合69.04%，不相加。SY14-6/7保留body/table/conclusion的谓词及Co列差异，未选择actualproductioncut。若固定same-cluster/energy/peakcount的post-filter前提成立，Table2literalORaccept含E1>30进而含E1>45，联合Co1332loss应≤单项3.9%，但报告18.5%；此条件反证说明summary不足以复现cuts，非actualcodebug结论。
+
+IAEALiveChart12C/27Al两官方host返回403challengeHTML，未当CSV或level核验；TUNL首条guess路径404，正在从官方index找真实入口。τ/Γ使用sourceinput边界，未补写12Cnaturalwidth。学习保持active、deadline不改、课程next14/count13不再推进。
+
+### 持续 Day13：评价宽度、branch 分母与 photon recoil
+
+[[tunl-2017-12c-level-widths]]读取范围是官方在线 Tables 12.13/12.14 的选定记录、footnotes及2020修订 companion 的身份与对应行；没有把257页评价全文算作已读。Table13 p3给15.110-MeV态 total Γ=43.6(1.0)eV；Table14 p1给ground γ partial 38.5(.8)eV、total γ 41.8(1.1)eV。以 total Γ 得中央 mean life15.10as；ground γ占γ子集与all-decay的中央比约.921/.883，分母不同。派生宽度共享输入、joint covariance未给，不制造独立ratio误差。
+
+[photon-recoil code](../../system/scripts/day13_photon_recoil_width.py)、[结果](20261013-DAY13-doppler-correction-recoil-velocity-run-01/photon-recoil-width-exercise.json)检查自由两体衰变的四动量与母/子frame反演。mass-number近似A12、gap15.110MeV给母系photon15.099801MeV与recoil10.198843keV；用紧接γ后的子核速度反演，得到另一frame且高20.411473keV。此差在理想四矢量算术中不依赖lab角度/boost。A52、gap1.434MeV的frame差仅约.0424keV，不能单独解释旧simulation约2-keV问题；后续未测γ/particles还会改变terminal-residue stage。
+
+这些推导同步到Doppler、level-scheme、Crespi follow-up与provisional note。source保留online获取版本/hash与未归档raw边界，圆整15.1-MeV标签不构成实际sorting错误证据。当前仍research-active，下一步检查Lorentz/Gaussian convolution与finite gate，课程学分不变。
+
+### 持续 Day13：Voigt 线型与门内强度
+
+[线型代码](../../system/scripts/day13_voigt_gate_response.py)与[结果](20261013-DAY13-doppler-correction-recoil-velocity-run-01/voigt-gate-response-exercise.json)验证归一化、独立卷积和零核极限。自设Lorentz/Gaussian FWHM各20keV，真实Voigt FWHM32.751907keV，平方和28.284271低13.64%。用相同真实FWHM W比较 `±W` 门，Voigt/Gaussian接受.798321/.981468；相同峰宽不等于相同门内fraction。
+
+TUNL .0436-keV natural Γ加到仅作对照的119-keV Gaussian，FWHM119.023221keV。这个尺度检查限制天然宽度主导，却没有从Crespi观测谱中分解Gaussian响应。理想Lorentz没有有限variance，不能把Γ当σ代入先前Jacobian误差预算。公式、有限窗/物理阈值条件与必要实验输入全部写回[[doppler-correction]]；本例没有新增真实line fit或absolute yield。
+
+### 持续 Day13：missing momentum 与阶段约束
+
+[阶段代码](../../system/scripts/day13_missing_momentum_stages.py)与[结果](20261013-DAY13-doppler-correction-recoil-velocity-run-01/missing-momentum-stages-exercise.json)区分两种条件。先蒸发neutron、后发射目标γ时，错用compound平均boost留下recoil分散；自设Tn2MeV、gap1MeV、A130给σ.292439keV，正确emitter vector反演消除此项。固定能量/各向同性才给box profile与简化sqrt(n) law，未重跑AA09 evaporation chain。
+
+另一条件反例固定observed photon、terminal residue及initial invariant mass，却允许未知中间态和晚neutron方向；可得不同earlier-parent velocity/rest-photon energy。它不声称Klemme或VAMOS的低位束缚γ有晚neutron。已知中间态、完整particle测量和material-loss packet能增加约束。AA09-9新增原Fig2.2/6.12与Sec5.3 locator，stage diagram与所有数学边界已写回Doppler方法。
 
 ## Counter-evidence and missing companion observables
 
@@ -749,6 +778,301 @@ idealproper-time10psgate在同一τl2ps下接受direct.993262/feeding.326826，�
           "locator": "KL99-15"
         }
       ]
+    },
+    {
+      "knowledge": "knowledge/sources/senyigit-2014-agata-neutron-rejection.md",
+      "anchor": "SY14-6",
+      "summary": "15页preprint主线/原fig/tables核验：detector-origin宽化、TOF非targetidentity、nestedcount分母、正文/结论predicate与列label边界；exec-code未核。",
+      "sources": [
+        {
+          "path": "knowledge/sources/senyigit-2014-agata-neutron-rejection.md",
+          "locator": "SY14-2"
+        },
+        {
+          "path": "knowledge/sources/senyigit-2014-agata-neutron-rejection.md",
+          "locator": "SY14-3"
+        },
+        {
+          "path": "knowledge/sources/senyigit-2014-agata-neutron-rejection.md",
+          "locator": "SY14-4"
+        },
+        {
+          "path": "knowledge/sources/senyigit-2014-agata-neutron-rejection.md",
+          "locator": "SY14-5"
+        },
+        {
+          "path": "knowledge/sources/senyigit-2014-agata-neutron-rejection.md",
+          "locator": "SY14-6"
+        },
+        {
+          "path": "knowledge/sources/senyigit-2014-agata-neutron-rejection.md",
+          "locator": "SY14-7"
+        },
+        {
+          "path": "knowledge/sources/senyigit-2014-agata-neutron-rejection.md",
+          "locator": "SY14-8"
+        },
+        {
+          "path": "knowledge/sources/senyigit-2014-agata-neutron-rejection.md",
+          "locator": "SY14-9"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/methods/doppler-correction.md",
+      "anchor": "Detector-origin 宽线、natural width 与 cut 语义",
+      "summary": "naturalΓ/motion/recoildeposit分层、TOFscale、DeMorgan/monotonicity与nestedratios练习，不改sourcecut。",
+      "sources": [
+        {
+          "path": "knowledge/sources/senyigit-2014-agata-neutron-rejection.md",
+          "locator": "SY14-2"
+        },
+        {
+          "path": "knowledge/sources/senyigit-2014-agata-neutron-rejection.md",
+          "locator": "SY14-3"
+        },
+        {
+          "path": "knowledge/sources/senyigit-2014-agata-neutron-rejection.md",
+          "locator": "SY14-4"
+        },
+        {
+          "path": "knowledge/sources/senyigit-2014-agata-neutron-rejection.md",
+          "locator": "SY14-5"
+        },
+        {
+          "path": "knowledge/sources/senyigit-2014-agata-neutron-rejection.md",
+          "locator": "SY14-6"
+        },
+        {
+          "path": "knowledge/sources/senyigit-2014-agata-neutron-rejection.md",
+          "locator": "SY14-9"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/methods/tracking-array.md",
+      "anchor": "Neutron background and executed cut semantics",
+      "summary": "actualexecutionstage、TOF/sourceidentity与count-response定义。",
+      "sources": [
+        {
+          "path": "knowledge/sources/senyigit-2014-agata-neutron-rejection.md",
+          "locator": "SY14-4"
+        },
+        {
+          "path": "knowledge/sources/senyigit-2014-agata-neutron-rejection.md",
+          "locator": "SY14-5"
+        },
+        {
+          "path": "knowledge/sources/senyigit-2014-agata-neutron-rejection.md",
+          "locator": "SY14-6"
+        },
+        {
+          "path": "knowledge/sources/senyigit-2014-agata-neutron-rejection.md",
+          "locator": "SY14-8"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/methods/gamma-gamma-coincidence.md",
+      "anchor": "Gate predicates and spectral-origin control",
+      "summary": "门逻辑必须说明accept/reject与referenceobject，backgroundline不自动归target。",
+      "sources": [
+        {
+          "path": "knowledge/sources/senyigit-2014-agata-neutron-rejection.md",
+          "locator": "SY14-4"
+        },
+        {
+          "path": "knowledge/sources/senyigit-2014-agata-neutron-rejection.md",
+          "locator": "SY14-5"
+        },
+        {
+          "path": "knowledge/sources/senyigit-2014-agata-neutron-rejection.md",
+          "locator": "SY14-6"
+        },
+        {
+          "path": "knowledge/sources/senyigit-2014-agata-neutron-rejection.md",
+          "locator": "SY14-7"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/index.md",
+      "anchor": "[[senyigit-2014-agata-neutron-rejection]]",
+      "summary": "登记2013preprint/2014journal的source及method入口。",
+      "sources": [
+        {
+          "path": "knowledge/sources/senyigit-2014-agata-neutron-rejection.md",
+          "locator": "SY14-2"
+        },
+        {
+          "path": "knowledge/sources/senyigit-2014-agata-neutron-rejection.md",
+          "locator": "SY14-6"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/sources/tunl-2017-12c-level-widths.md",
+      "anchor": "T12C-1",
+      "summary": "核验在线评价选定宽度/分支及2020 companion版本；read仅声明数据记录范围，raw保留位置未填充。",
+      "sources": [
+        {
+          "path": "knowledge/sources/tunl-2017-12c-level-widths.md",
+          "locator": "T12C-1"
+        },
+        {
+          "path": "knowledge/sources/tunl-2017-12c-level-widths.md",
+          "locator": "T12C-2"
+        },
+        {
+          "path": "knowledge/sources/tunl-2017-12c-level-widths.md",
+          "locator": "T12C-3"
+        },
+        {
+          "path": "knowledge/sources/tunl-2017-12c-level-widths.md",
+          "locator": "T12C-4"
+        },
+        {
+          "path": "knowledge/sources/tunl-2017-12c-level-widths.md",
+          "locator": "T12C-5"
+        },
+        {
+          "path": "knowledge/sources/tunl-2017-12c-level-widths.md",
+          "locator": "T12C-6"
+        },
+        {
+          "path": "knowledge/sources/tunl-2017-12c-level-widths.md",
+          "locator": "T12C-7"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/methods/doppler-correction.md",
+      "anchor": "Photon recoil：level gap、母核 frame 与子核 frame",
+      "summary": "固定total/partial Γ分母与自由核two-body公式；母/子frame不同，四动量练习不冒充实际event重建。",
+      "sources": [
+        {
+          "path": "knowledge/sources/tunl-2017-12c-level-widths.md",
+          "locator": "T12C-1"
+        },
+        {
+          "path": "knowledge/sources/tunl-2017-12c-level-widths.md",
+          "locator": "T12C-2"
+        },
+        {
+          "path": "knowledge/sources/tunl-2017-12c-level-widths.md",
+          "locator": "T12C-3"
+        },
+        {
+          "path": "knowledge/sources/tunl-2017-12c-level-widths.md",
+          "locator": "T12C-4"
+        },
+        {
+          "path": "knowledge/sources/crespi-2013-agata-high-energy-doppler-response.md",
+          "locator": "CR13-3"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/methods/level-scheme-reconstruction.md",
+      "anchor": "Level gap and gamma-energy precision",
+      "summary": "精确level gap与母系rest γ能量比较需要recoil/frame输入；保留mass-number近似与圆整边界。",
+      "sources": [
+        {
+          "path": "knowledge/sources/tunl-2017-12c-level-widths.md",
+          "locator": "T12C-1"
+        },
+        {
+          "path": "knowledge/sources/tunl-2017-12c-level-widths.md",
+          "locator": "T12C-4"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/sources/crespi-2013-agata-high-energy-doppler-response.md",
+      "anchor": "T12C-1",
+      "summary": "用有版本的评价数据约束天然宽度尺度和分支分母，不裁决该实验真实calibration。",
+      "sources": [
+        {
+          "path": "knowledge/sources/tunl-2017-12c-level-widths.md",
+          "locator": "T12C-1"
+        },
+        {
+          "path": "knowledge/sources/tunl-2017-12c-level-widths.md",
+          "locator": "T12C-2"
+        },
+        {
+          "path": "knowledge/sources/tunl-2017-12c-level-widths.md",
+          "locator": "T12C-3"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/research-notes/doppler-forward-inverse-convention-check.md",
+      "anchor": "photonrecoil是另一个frame候选",
+      "summary": "A52 photonrecoil/frame差远小于约2-keV counterfactual；不把另一frame或圆整line label当代码错误证据。",
+      "sources": [
+        {
+          "path": "knowledge/sources/tunl-2017-12c-level-widths.md",
+          "locator": "T12C-1"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/methods/doppler-correction.md",
+      "anchor": "Lorentz natural line 与 Gaussian response 的卷积",
+      "summary": "归一Voigt与finite-gate练习；限定Gaussian variance和Lorentz Γ的不同运算，保留synthetic与source-width尺度边界。",
+      "sources": [
+        {
+          "path": "knowledge/sources/tunl-2017-12c-level-widths.md",
+          "locator": "T12C-1"
+        },
+        {
+          "path": "knowledge/sources/tunl-2017-12c-level-widths.md",
+          "locator": "T12C-4"
+        },
+        {
+          "path": "knowledge/sources/tunl-2017-12c-level-widths.md",
+          "locator": "T12C-6"
+        },
+        {
+          "path": "knowledge/sources/crespi-2013-agata-high-energy-doppler-response.md",
+          "locator": "CR13-3"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/methods/doppler-correction.md",
+      "anchor": "Missing momentum 与发射前后的速度阶段",
+      "summary": "区分neutron-before-gamma的recoil spread和conditional late-particle未知stage；明确真正measured emitter vector可消除此前蒸发nuisance。",
+      "sources": [
+        {
+          "path": "knowledge/sources/aladili-2009-agata-doppler-simulation.md",
+          "locator": "AA09-2"
+        },
+        {
+          "path": "knowledge/sources/aladili-2009-agata-doppler-simulation.md",
+          "locator": "AA09-9"
+        },
+        {
+          "path": "knowledge/sources/vandebrouck-2016-vamos-dual-position-mwpc.md",
+          "locator": "VD16-3"
+        },
+        {
+          "path": "knowledge/sources/crespi-2013-agata-high-energy-doppler-response.md",
+          "locator": "CR13-2"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/sources/aladili-2009-agata-doppler-simulation.md",
+      "anchor": "AA09-9",
+      "summary": "回读particle/γ阶段示意及CM/lab neutron histogram；保留source artificial γ不能证明真实cascade时序的边界。",
+      "sources": [
+        {
+          "path": "knowledge/sources/aladili-2009-agata-doppler-simulation.md",
+          "locator": "AA09-9"
+        }
+      ]
     }
   ]
 }
@@ -765,15 +1089,17 @@ idealproper-time10psgate在同一τl2ps下接受direct.993262/feeding.326826，�
 
 | 等级 | 状态 / readiness |
 |---|---|
-| L0 | raw identity/locator/原图核验完成；保留所有权限、文本与执行版边界。 |
+| L0 | 已读source的身份、locator/原图核验完成；六份新public source的raw槽位未归档，URL/version/tmp-byte hashes明示；保留文本与执行版边界。 |
 | L1 | source↔method、thesis contract、index反链完成；不同实验/不同emitter的适用条件保留。 |
-| L2 | exact formula、covariance、rank2和stopping toy为可复算低成本验证；未冒充测量。 |
+| L2 | exact formula/covariance、geometry/gates、convention/decay、speed/calibration、aberration、displaced vertex、neutron cuts、photon recoil、Voigt与momentum stages均为可复算方法练习；未冒充测量。 |
 | L3 | 诊断问题的竞争机制、反证、falsifier、数据包与停止条件完成；真实Mavela执行影响仍partial。 |
 | L4 | experimental refit `not-ready`：缺事件、production code、ring spectra、response/covariance和feeding；模拟练习不作为新实验L4或absolute-strength研究。 |
 
 ## Verification and continuation
 
-最终检查：boundary exit0（无error/warning）；Wiki lint最终 exit0，0 errors /92 warnings /1558 info。Warnings为89项既有citation-key缺失和3项reaction-parser边界；未猜测BibTeX key。第一次lint的4个错误仅为新method缺少Purpose/Inputs/Can/Cannot四小节，按模板/config补齐后同命令回归通过；失败记录保留。
+持续检查（2026-10-14T01:00:40.490662+08:00，距截止约839.3分钟）：研究仍active。当前累计唯一writeback43items/19mapped pages；基于reopen snapshot的path/anchor/atomic locator、report/card coverage与PLAN/Bib hashes检查通过。Wiki lint exit0，0errors/104warnings（95citation-key、6reserved raw archive缺失、3reaction-parser）；不把missing archive写成已归档。四项本段新练习的conservation/limits/normalization/cut-contract检查通过，worktree diff检查通过。下一路线为held-out line/gate、joint-likelihood和calibration-transfer设计，未推进新课程卡。最终发布检查只在原窗口closeout执行。
+
+第一段历史检查（后续窗口已重开）：boundary exit0（无error/warning）；Wiki lint最终 exit0，0 errors /92 warnings /1558 info。Warnings为89项既有citation-key缺失和3项reaction-parser边界；未猜测BibTeX key。第一次lint的4个错误仅为新method缺少Purpose/Inputs/Can/Cannot四小节，按模板/config补齐后同命令回归通过；失败记录保留。
 
 report headings、唯一writeback（12items/8changed pages/0locator errors）、Day13 coverage与Day14 partial、PLAN/Bib保护检查均通过；git diff --check exit0。具体代码/MC结果和preflight记录可回到run-dir audit。提交前仍核对显式stage、cached diff、fresh fetch/ancestry/dry-run和非force push；真实结果只写run receipt，不把计划写成发布成功。
 

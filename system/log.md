@@ -1627,3 +1627,10 @@ Following the user question about the missing Day8 prompt, the formal Day8 card 
 - User reopened the existing Day13 window; same session01a13489-64ba-7930-9a2c-291375d95ad0, original cutoff2026-10-14 15:00. Receipt/goal remainactive; prior cardcredit next14/count13 retained without newcredit.
 - Four public source pages and five reproducible method exercises now covervector/vertex covariance,finite-angle/gate migration,convention/decay,calibration weakidentifiability,angularacceptance,and delayedvertex/feeding. Sourcepublic-copy hashes/locators and unpopulatedrawslots are explicit; originalraw/PLAN/Bib remainunchanged.
 - Checkpointreport/writeback30items/16mappedpages,analysis/boundary/protected/card/diff and lint0errors/100warnings passed. LegacyDay6–9,daemon and priorlogchanges excluded. Same-sessionclock live; queueacceptance is not delivery. Next continue detector-neutronfalse-width,naturalwidth,particlemomentum andheld-out response controls.
+
+## [2026-10-14T01:00:40.490662+08:00] learning | DAY13 widths and velocity-stage checkpoint
+
+- 同一run/session在原截止前持续研究；course next14/count13不重复计卡，Day14仍partial，无Day15。
+- SY14直接15页preprint与T12C selected online evaluation tables提供cut-contract/width/branch/version边界；raw保留槽未填充，公开copy只在tmp。
+- 四个新练习分别检验neutron cut predicate、photon two-body recoil、Voigt finite-gate及missing momentum stage，验证均通过；reusable方法/反证同步knowledge与唯一writeback43items/19mappedpages。
+- lint0errors/104warnings、protected/report/card/path与diff检查通过；当前窗口仍active，后续held-out line/gate与likelihood设计。继承Day6–9/daemon/log修改排除，不等同最终closeout。

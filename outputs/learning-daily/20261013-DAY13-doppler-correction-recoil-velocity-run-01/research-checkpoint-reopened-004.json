@@ -1,0 +1,25 @@
+{
+  "now_local": "2026-10-14T00:03:50.607488+08:00",
+  "minutes_to_deadline": 896.1565418666667,
+  "status": "research-active",
+  "decision": "continue-natural-width/direct-data-or-other-Day13-route",
+  "writeback_items": 35,
+  "mapped_pages": 18,
+  "source_locators": [
+    "SY14-2",
+    "SY14-3",
+    "SY14-4",
+    "SY14-5",
+    "SY14-6",
+    "SY14-7",
+    "SY14-9"
+  ],
+  "completed_day_indices": [
+    13
+  ],
+  "partial_day_indices": [
+    14
+  ],
+  "no_new_credit": true,
+  "clock_queued_not_delivered": true
+}

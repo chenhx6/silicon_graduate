@@ -3,7 +3,7 @@ type: source
 title: "Al-Adili 2009：AGATA commissioning 的反应、靶效应与 Doppler 模拟"
 aliases: [Al-Adili Doppler simulation thesis, AGATA commissioning simulation]
 created: 2026-10-13
-updated: 2026-10-13
+updated: 2026-10-14
 status: ai-draft
 review_status: unreviewed
 source_type: thesis-model-method-public-preprint
@@ -74,6 +74,7 @@ model选d(51V,n)52Cr与d(37Cl,n)38Ar，1434/2168keV line；52Cr residual vector 
 | AA09-6 | 5mm smearing及固定平均vector下，α channel模型有较大energy/angular spread和>20keV synthetic peak width；低nuisance neutron channel的选择不能转移到其它reaction。 | model-result | direct | file PDF p.39 / printedp.37, Fig.6.21 | true |
 | AA09-7 | 15/23.5cm的width-vs-smearing curves被作者解释为难精确反推position resolution；position response还依interaction location/energy，MGT可有energy-dependent功能但本work未启用。 | author-interpretation | direct | file PDF p.40 / printedp.38, Figs.6.22–6.23 | true |
 | AA09-8 | Eq.(3.7)给exact Doppler式，Eq.(3.8)以β<0.1采用linear approximate forward式；Sec.5.3描述人为加入的γ用non-relativistic式shift。Figs.6.17/6.20的1434-keV test peak fit标mean约1436keV，但执行版forward/inverse实现未给，不能确定约2keV差的原因。 | model-result | direct | file PDF p.16 / printedp.14, Eqs.(3.7),(3.8); filep.22 / printedp.20; filepp.37,39, Figs.6.17,6.20 | true |
+| AA09-9 | Fig.2.2 的示意先以 particle evaporation 释放能量，再以γ cascade去激发；正文称neutron近各向同性。Fig.6.12 模拟的CM角直方图除sinθ后近乎平坦，而lab角谱经boost改变。Sec.5.3 的testγ仍为人为加入，不能据示意推定该模拟已执行真实cascade时间顺序。 | model-result | direct | file PDF pp.12–13 / printedpp.10–11, Fig.2.2 and Eq.(2.12); filep.22 / printedp.20; filep.33 / printedp.31, Figs.6.11–6.12 | true |
 
 ## Nuclear Structure Information
 

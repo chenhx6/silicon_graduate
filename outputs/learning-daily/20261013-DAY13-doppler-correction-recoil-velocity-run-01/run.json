@@ -408,25 +408,36 @@
   "final_audit_current": false,
   "goal_completion_current": false,
   "last_research_checkpoint": {
-    "now_local": "2026-10-13T22:56:43.401881+08:00",
-    "minutes_to_deadline": 963.2766353166667,
+    "now_local": "2026-10-14T01:00:40.490662+08:00",
+    "minutes_to_deadline": 839.3251556333333,
     "status": "research-active",
-    "writeback_items": 30,
-    "mapped_knowledge_pages": 16,
-    "next_high_information_route": "false-width or natural-line-width; residue momentum/reaction channel and minimum observable design; then held-out gate/calibration/likelihood exercises",
+    "writeback_items": 43,
+    "mapped_pages": 19,
+    "decision": "continue-held-out-line-gate-likelihood-calibration",
     "completed_day_indices": [
       13
     ],
     "partial_day_indices": [
       14
     ],
-    "no_state_update": true
+    "no_new_credit": true,
+    "clock_queued_not_delivered": true
   },
   "last_clock_refresh": {
-    "now_local": "2026-10-13T22:09:52.211804+08:00",
-    "minutes_to_deadline": 1010.1298032666667,
-    "decision": "continue-current-Day13",
-    "not_final": true
+    "now_local": "2026-10-14T01:00:40.490662+08:00",
+    "minutes_to_deadline": 839.3251556333333,
+    "status": "research-active",
+    "writeback_items": 43,
+    "mapped_pages": 19,
+    "decision": "continue-held-out-line-gate-likelihood-calibration",
+    "completed_day_indices": [
+      13
+    ],
+    "partial_day_indices": [
+      14
+    ],
+    "no_new_credit": true,
+    "clock_queued_not_delivered": true
   },
   "active_continuation_checks": {
     "schema_version": 1,
@@ -553,6 +564,93 @@
   "continued_publication": {
     "branch": "main",
     "commit_subject": "Extend active DAY13 recoil and detector-response study",
-    "scope": "reopened checkpoint; whole research window remains active"
+    "scope": "reopened checkpoint; whole research window remains active",
+    "status": "published-active-checkpoint",
+    "commit_hash": "081a4bb6b7da5af98a5ad0714166571574ce622b",
+    "files": [
+      "knowledge/concepts/lorentz-boost-correction.md",
+      "knowledge/index.md",
+      "knowledge/methods/doppler-correction.md",
+      "knowledge/methods/tracking-array.md",
+      "knowledge/questions.md",
+      "knowledge/research-notes/doppler-forward-inverse-convention-check.md",
+      "knowledge/sources/akkoyun-2012-agata-instrument-response.md",
+      "knowledge/sources/aladili-2009-agata-doppler-simulation.md",
+      "knowledge/sources/crespi-2013-agata-high-energy-doppler-response.md",
+      "knowledge/sources/vandebrouck-2016-vamos-dual-position-mwpc.md",
+      "outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity-run-01/aberration-acceptance-exercise.json",
+      "outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity-run-01/convention-decay-exercise.json",
+      "outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity-run-01/displaced-vertex-feeding-exercise.json",
+      "outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity-run-01/geometry-gate-exercise.json",
+      "outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity-run-01/position-benchmark-source-before-recall.md",
+      "outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity-run-01/receipt-before-user-reopen-001.json",
+      "outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity-run-01/recoil-speed-calibration-exercise.json",
+      "outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity-run-01/reopen-baseline-001.json",
+      "outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity-run-01/reopen-source-before-recall.md",
+      "outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity-run-01/reopened-checkpoint-audit-001.json",
+      "outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity-run-01/research-checkpoint-reopened-001.json",
+      "outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity-run-01/research-checkpoint-reopened-002.json",
+      "outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity-run-01/research-checkpoint-reopened-003.json",
+      "outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity-run-01/run.json",
+      "outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity.md",
+      "system/handoff.md",
+      "system/log.md",
+      "system/scripts/day13_doppler_aberration_acceptance.py",
+      "system/scripts/day13_doppler_conventions_decay.py",
+      "system/scripts/day13_doppler_displaced_vertex.py",
+      "system/scripts/day13_doppler_geometry_gates.py",
+      "system/scripts/day13_recoil_speed_calibration.py"
+    ],
+    "post_commit_reconciliation": "manifest checked; handoff pointer amended once",
+    "h3": [
+      {
+        "argv": [
+          "git",
+          "fetch",
+          "origin",
+          "main"
+        ],
+        "exit": 0,
+        "stdout": "",
+        "stderr": "From gitee.com:chx6/silicon_graduate\n * branch            main       -> FETCH_HEAD\n"
+      },
+      {
+        "argv": [
+          "git",
+          "merge-base",
+          "--is-ancestor",
+          "origin/main",
+          "HEAD"
+        ],
+        "exit": 0,
+        "stdout": "",
+        "stderr": ""
+      },
+      {
+        "argv": [
+          "git",
+          "push",
+          "--dry-run",
+          "origin",
+          "HEAD:main"
+        ],
+        "exit": 0,
+        "stdout": "",
+        "stderr": "To gitee.com:chx6/silicon_graduate.git\n   1fffaab..081a4bb  HEAD -> main\n"
+      },
+      {
+        "argv": [
+          "git",
+          "push",
+          "origin",
+          "HEAD:main"
+        ],
+        "exit": 0,
+        "stdout": "",
+        "stderr": "remote: Powered by \u001b[01;33mGITEE.COM \u001b[0m[1.1.23]        \nremote: Set trace flag 4d40ebab        \nTo gitee.com:chx6/silicon_graduate.git\n   1fffaab..081a4bb  HEAD -> main\n"
+      }
+    ],
+    "origin_matches_HEAD": true,
+    "published_at": "2026-10-13T23:14:18.239562+08:00"
   }
 }

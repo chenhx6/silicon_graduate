@@ -62,3 +62,9 @@ Crespi CR13-5/6又展示效率/背景tradeoff：在single15.1MeV、pair-producti
 [[akkoyun-2012-agata-instrument-response]] AK12-1/2指出PSA位置依赖basis、noise/cross-talk和多hit，crystaltilt/targetpoint在tracking阶段进入；Fig39的positionFWHM随γenergy变化，不可用一个nominal5mm当所有point的σ。AK12-5的静止60CoComptonimage验证减少recoilnuisance，与beamDopplercheck互补，但PSA/sequence/calibration仍共享。
 
 AK12-6的实际threeATCsource测试中，P/T从16.8%提高至53.9%，tracking/rawFEP保留84.5%；该效率ratio的分母是rawcrystalspectrum，不是所有发射γ。threshold、single-hit拒绝、energy/multiplicity、passivematerial和gate共同定义selection。图表/algorithmreplays与同一sourceacquisition是dependent，不把更干净谱当作更强结构证据。AK12-7的rawtrace/replay链提供更改PSA/geometry/selection后复核的方法；原event未取得，不声称已复算source性能。
+
+## Neutron background and executed cut semantics
+
+[[senyigit-2014-agata-neutron-rejection]] SY14-2/4的Ge-recoildeposits会在γenergy高能侧形成bumps；TOF-labelledγ不自动是目标核，附近材料真γ仍可留在g门。SY14-5/8的count-ratiodenominators与P/T分开，algorithm可能重组clusters，trackingefficiency不直接是binomialprobability。
+
+SY14-6/7定位body/table/conclusion的gatepredicate与Co列label冲突。acceptORgood与rejectORbad不互为补集，sign/equality也不能随意改写；未取得productionmgt/publisherversion和eventreplay前，保留literalconditions和reportedtables，不推荐自动实施某个假定cut。sourceTables2/3/4为同次数据或model比较，重复图/表不新增独立证据。

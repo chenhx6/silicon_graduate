@@ -9,6 +9,10 @@ updated: 2026-10-13
 
 ## Sources
 
+- [[tunl-2017-12c-level-widths]] - 在线2017KE05宽度/decay表及2020companion版本：Γtotal/γpartial、γ/all-decay分母和photonrecoil边界。
+
+- [[senyigit-2014-agata-neutron-rejection]] - 2013preprint/2014journal：detector-neutron宽线与recoildeposit、TOF标签边界、NR百分比分母与正文/结论predicate冲突。
+
 - [[akkoyun-2012-agata-instrument-response]] - AGATA2012方法总览、staticComptonimaging、PSA/threshold/FEP-P-T与replay边界；citedbenchmark不重复计独立实验。
 
 - [[aladili-2009-agata-doppler-simulation]] - source simulation/design 的reaction/target/velocity-spread与smearing识别限制；保留meanflight、unit和forward/inverse convention边界。

@@ -1,0 +1,158 @@
+{
+  "schema_version": 1,
+  "kind": "synthetic normalized lineshape/gate exercise; no experimental fit",
+  "source_boundary": "TUNL total width and Crespi observed FWHM supply scales only; chosen Gaussian comparator is not the measured response",
+  "cases": [
+    {
+      "lorentz_fwhm_keV": 0.0436,
+      "gaussian_fwhm_keV": 119.0,
+      "voigt_fwhm_keV": 119.0232208635393,
+      "incorrect_fwhm_quadrature_keV": 119.00000798722662,
+      "quadrature_relative_error": -0.00019502813101725106,
+      "normalization_integral": 0.9999999999999999,
+      "gates": [
+        {
+          "half_width_keV": 59.51161043176965,
+          "voigt_fraction": 0.7608515157782118,
+          "same_actual_FWHM_Gaussian_fraction": 0.760968108550488
+        },
+        {
+          "half_width_keV": 119.0232208635393,
+          "voigt_fraction": 0.9813429222740199,
+          "same_actual_FWHM_Gaussian_fraction": 0.981468322248801
+        },
+        {
+          "half_width_keV": 238.0464417270786,
+          "voigt_fraction": 0.9999361173327942,
+          "same_actual_FWHM_Gaussian_fraction": 0.9999975184539827
+        }
+      ]
+    },
+    {
+      "lorentz_fwhm_keV": 20.0,
+      "gaussian_fwhm_keV": 20.0,
+      "voigt_fwhm_keV": 32.75190719254964,
+      "incorrect_fwhm_quadrature_keV": 28.284271247461902,
+      "quadrature_relative_error": -0.1364084210065186,
+      "normalization_integral": 1.0000000000000004,
+      "gates": [
+        {
+          "half_width_keV": 16.37595359627482,
+          "voigt_fraction": 0.5892198469545332,
+          "same_actual_FWHM_Gaussian_fraction": 0.760968108550488
+        },
+        {
+          "half_width_keV": 32.75190719254964,
+          "voigt_fraction": 0.7983208913711147,
+          "same_actual_FWHM_Gaussian_fraction": 0.981468322248801
+        },
+        {
+          "half_width_keV": 65.50381438509928,
+          "voigt_fraction": 0.9019164951820171,
+          "same_actual_FWHM_Gaussian_fraction": 0.9999975184539827
+        }
+      ]
+    },
+    {
+      "lorentz_fwhm_keV": 46.0,
+      "gaussian_fwhm_keV": 5.0,
+      "voigt_fwhm_keV": 46.579591936518675,
+      "incorrect_fwhm_quadrature_keV": 46.2709412050371,
+      "quadrature_relative_error": -0.006626308188835669,
+      "normalization_integral": 1.0,
+      "gates": [
+        {
+          "half_width_keV": 23.289795968259337,
+          "voigt_fraction": 0.5026460789217937,
+          "same_actual_FWHM_Gaussian_fraction": 0.760968108550488
+        },
+        {
+          "half_width_keV": 46.579591936518675,
+          "voigt_fraction": 0.7075857356647768,
+          "same_actual_FWHM_Gaussian_fraction": 0.981468322248801
+        },
+        {
+          "half_width_keV": 93.15918387303735,
+          "voigt_fraction": 0.845834346812155,
+          "same_actual_FWHM_Gaussian_fraction": 0.9999975184539827
+        }
+      ]
+    },
+    {
+      "lorentz_fwhm_keV": 0.0,
+      "gaussian_fwhm_keV": 20.0,
+      "voigt_fwhm_keV": 20.000000000000004,
+      "incorrect_fwhm_quadrature_keV": 20.0,
+      "quadrature_relative_error": -1.77635683940025e-16,
+      "normalization_integral": 1.0000000000000002,
+      "gates": [
+        {
+          "half_width_keV": 10.000000000000002,
+          "voigt_fraction": 0.7609681085504882,
+          "same_actual_FWHM_Gaussian_fraction": 0.760968108550488
+        },
+        {
+          "half_width_keV": 20.000000000000004,
+          "voigt_fraction": 0.9814683222488008,
+          "same_actual_FWHM_Gaussian_fraction": 0.981468322248801
+        },
+        {
+          "half_width_keV": 40.00000000000001,
+          "voigt_fraction": 0.9999975184539824,
+          "same_actual_FWHM_Gaussian_fraction": 0.9999975184539827
+        }
+      ]
+    },
+    {
+      "lorentz_fwhm_keV": 20.0,
+      "gaussian_fwhm_keV": 0.0,
+      "voigt_fwhm_keV": 20.00000000000011,
+      "incorrect_fwhm_quadrature_keV": 20.0,
+      "quadrature_relative_error": -5.506706202140746e-15,
+      "normalization_integral": 1.0,
+      "gates": [
+        {
+          "half_width_keV": 10.000000000000055,
+          "voigt_fraction": 0.5000000000000018,
+          "same_actual_FWHM_Gaussian_fraction": 0.760968108550488
+        },
+        {
+          "half_width_keV": 20.00000000000011,
+          "voigt_fraction": 0.7048327646991349,
+          "same_actual_FWHM_Gaussian_fraction": 0.981468322248801
+        },
+        {
+          "half_width_keV": 40.00000000000022,
+          "voigt_fraction": 0.8440417392452623,
+          "same_actual_FWHM_Gaussian_fraction": 0.9999975184539827
+        }
+      ]
+    }
+  ],
+  "lorentz_cutoff_second_moments": [
+    {
+      "symmetric_cutoff_keV": 100.0,
+      "unnormalized_second_moment_keV2": 542.9648758536921
+    },
+    {
+      "symmetric_cutoff_keV": 1000.0,
+      "unnormalized_second_moment_keV2": 6266.834322228796
+    },
+    {
+      "symmetric_cutoff_keV": 10000.0,
+      "unnormalized_second_moment_keV2": 63562.040898714156
+    }
+  ],
+  "verification": {
+    "normalization_max_error": 4.440892098500626e-16,
+    "independent_convolution_max_error_per_keV": 3.469446951953614e-18,
+    "Gaussian_and_Lorentz_limits_passed": true,
+    "FWHM_quadrature_counterexample_passed": true,
+    "divergent_second_moment_check_passed": true,
+    "passed": true
+  },
+  "dependencies": {
+    "numpy": "2.5.3",
+    "scipy": "1.18.1"
+  }
+}

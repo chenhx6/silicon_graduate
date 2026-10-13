@@ -3,7 +3,7 @@ type: source
 title: "Crespi 2013：AGATA 高能 γ Doppler 校正的速度限制"
 aliases: [Crespi AGATA 15.1 MeV response, PSA plus 1HitID high energy gamma]
 created: 2026-10-13
-updated: 2026-10-13
+updated: 2026-10-14
 status: ai-draft
 review_status: unreviewed
 source_type: journal-method-experiment-with-public-preprint
@@ -122,3 +122,7 @@ P0：未识别未隔离identity/权限风险；raw保留位置未归档已明示
 ## Extracted Pages
 
 preprint pp.1–2 motivation/setup，pp.3–5 calibration/multiplicity，pp.6–9 velocity/Table2/figures/conclusion；reusable诊断见 [[doppler-correction]]。
+
+## Evaluated-width and photon-reference follow-up
+
+[[tunl-2017-12c-level-widths]] T12C-1/2/3提供onlineevaluation的15.110MeVleveltotalΓ43.6eV、Γγ0=38.5eV、Γγ41.8eV及γ-subsetbranch92%context。该评价与本篇119keV谱宽回答不同observable；不当新β测量，shared/deducedwidths和online2020companion版本边界保留。[[doppler-correction]] 的free-photonrecoil/parent-vs-daughterframeexercise显示levelgap与restγenergy不是完全同物，但本篇rounded15.1MeV不能确定exactsortinginput，未据此宣称本分析有offset或normalization错误。

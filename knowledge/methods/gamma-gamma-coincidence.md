@@ -3,7 +3,7 @@ type: method
 title: γ-γ 符合分析
 aliases: [gamma-gamma coincidence, γγ coincidence, coincidence spectroscopy]
 created: 2026-07-01
-updated: 2026-10-12
+updated: 2026-10-13
 status: active
 review_status: unreviewed
 method_type: gamma-ray-spectroscopy
@@ -77,3 +77,9 @@ Söderström 的十一只 CeBr₃ 阵列用 `Δt≤655 ps` 定义 prompt window�
 
 - 2026-07-01：记录 `131Xe` 级联建立实例。
 - 2026-10-12：补入 `137mBa` prompt/random/Compton/sequence gate audit；source-specific cuts 不跨实验复用。
+
+## Gate predicates and spectral-origin control
+
+[[senyigit-2014-agata-neutron-rejection]] SY14-4/6/7提供methodcounterexamples：γTOFgate并不确定targetisotope；detector/environmentγ可残留。gate组合须记录accept/reject、AND/OR、signed/absoluteangle、strict/equality边界、units、reference样本和executedversion。preprintbodyORgood与conclusion反向OR条件不是逻辑互补；未确认actualpredicate，不把文献summary转成生产代码。
+
+不同stage的rejectpercent也不可相加：Table4的1040peak57%再28%中心值对应1−.43×.72≈69.04%overallreduction。这是source-tablearithmetic与背景设计，不是本方法对任意γγgate的efficiency。见[[doppler-correction]]、sourceSY14-5/8，保留jointcount/normalizationcovariance缺口。

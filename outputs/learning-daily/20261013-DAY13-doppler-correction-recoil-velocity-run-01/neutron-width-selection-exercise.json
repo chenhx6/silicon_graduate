@@ -1,0 +1,384 @@
+{
+  "schema_version": 1,
+  "kind": "source-input arithmetic and gate-logic hypotheses; no event replay",
+  "natural_width_cases": [
+    {
+      "source_input_label": "Klemme134Nd6g-to4g",
+      "initial_mean_tau_ps": 1.63,
+      "final_mean_tau_ps": 4.94,
+      "Gamma_initial_keV": 4.038110165030675e-07,
+      "Gamma_final_keV": 1.3324128682186233e-07,
+      "ideal_transition_Lorentz_width_keV": 5.370523033249299e-07,
+      "source_observed_FWHM_keV_if_listed": null,
+      "observed_over_natural_if_ground_final": null,
+      "boundary": "ideal Markov Lorentz widths; source lifetimes/observed width remain reported inputs, no refit"
+    },
+    {
+      "source_input_label": "Senyi27Al2211keV-level-context",
+      "initial_mean_tau_ps": 0.0266,
+      "final_mean_tau_ps": null,
+      "Gamma_initial_keV": 2.4744810409774436e-05,
+      "Gamma_final_keV": 0.0,
+      "ideal_transition_Lorentz_width_keV": 2.4744810409774436e-05,
+      "source_observed_FWHM_keV_if_listed": 15.0,
+      "observed_over_natural_if_ground_final": 606187.7117504549,
+      "boundary": "ideal Markov Lorentz widths; source lifetimes/observed width remain reported inputs, no refit"
+    }
+  ],
+  "neutron_TOF_rows": [
+    {
+      "neutron_kinetic_MeV": 0.5,
+      "beta_neutron": 0.032610931598098816,
+      "path_length_mm": 235.0,
+      "gamma_TOF_ns": 0.7838756237156573,
+      "neutron_TOF_ns": 24.037204253354002,
+      "separation_ns": 23.253328629638343,
+      "boundary": "monoenergetic straight paths; source actual distributions, finite thickness, timing response absent"
+    },
+    {
+      "neutron_kinetic_MeV": 0.5,
+      "beta_neutron": 0.032610931598098816,
+      "path_length_mm": 500.0,
+      "gamma_TOF_ns": 1.6678204759907602,
+      "neutron_TOF_ns": 51.14298777309362,
+      "separation_ns": 49.475167297102864,
+      "boundary": "monoenergetic straight paths; source actual distributions, finite thickness, timing response absent"
+    },
+    {
+      "neutron_kinetic_MeV": 1.0,
+      "beta_neutron": 0.04610043556451297,
+      "path_length_mm": 235.0,
+      "gamma_TOF_ns": 0.7838756237156573,
+      "neutron_TOF_ns": 17.00364897027277,
+      "separation_ns": 16.219773346557112,
+      "boundary": "monoenergetic straight paths; source actual distributions, finite thickness, timing response absent"
+    },
+    {
+      "neutron_kinetic_MeV": 1.0,
+      "beta_neutron": 0.04610043556451297,
+      "path_length_mm": 500.0,
+      "gamma_TOF_ns": 1.6678204759907602,
+      "neutron_TOF_ns": 36.17797653249526,
+      "separation_ns": 34.5101560565045,
+      "boundary": "monoenergetic straight paths; source actual distributions, finite thickness, timing response absent"
+    },
+    {
+      "neutron_kinetic_MeV": 2.0,
+      "beta_neutron": 0.06514393662060462,
+      "path_length_mm": 235.0,
+      "gamma_TOF_ns": 0.7838756237156573,
+      "neutron_TOF_ns": 12.032979036574254,
+      "separation_ns": 11.249103412858597,
+      "boundary": "monoenergetic straight paths; source actual distributions, finite thickness, timing response absent"
+    },
+    {
+      "neutron_kinetic_MeV": 2.0,
+      "beta_neutron": 0.06514393662060462,
+      "path_length_mm": 500.0,
+      "gamma_TOF_ns": 1.6678204759907602,
+      "neutron_TOF_ns": 25.602083056540966,
+      "separation_ns": 23.934262580550207,
+      "boundary": "monoenergetic straight paths; source actual distributions, finite thickness, timing response absent"
+    },
+    {
+      "neutron_kinetic_MeV": 10.0,
+      "beta_neutron": 0.14474585240536506,
+      "path_length_mm": 235.0,
+      "gamma_TOF_ns": 0.7838756237156573,
+      "neutron_TOF_ns": 5.415530812726781,
+      "separation_ns": 4.631655189011124,
+      "boundary": "monoenergetic straight paths; source actual distributions, finite thickness, timing response absent"
+    },
+    {
+      "neutron_kinetic_MeV": 10.0,
+      "beta_neutron": 0.14474585240536506,
+      "path_length_mm": 500.0,
+      "gamma_TOF_ns": 1.6678204759907602,
+      "neutron_TOF_ns": 11.522405984525067,
+      "separation_ns": 9.854585508534306,
+      "boundary": "monoenergetic straight paths; source actual distributions, finite thickness, timing response absent"
+    }
+  ],
+  "elastic_recoil_toy": {
+    "E_neutron_MeV": 2.0,
+    "mass_ratio_A": 74,
+    "max_recoil_keV_nonrel": 105.24444444444444,
+    "source_context_max_keV": 100.0,
+    "source_context_visible_keV": 35.0,
+    "boundary": "mass-number elastic bound; pulse-height defect is source context, no quenching law inferred"
+  },
+  "nested_denominator_rows": [
+    {
+      "source_label": "1040peak",
+      "core_to_standard_reduction": 0.57,
+      "standard_to_neutron_reject_reduction": 0.28,
+      "calculated_core_to_final_reduction": 0.6903999999999999,
+      "source_reported_core_to_final_reduction": 0.69,
+      "central_rounding_difference": 0.00039999999999995595,
+      "boundary": "Table4 central count-ratio arithmetic; no joint covariance or binomial reconstruction"
+    },
+    {
+      "source_label": "1040peak+bump",
+      "core_to_standard_reduction": 0.52,
+      "standard_to_neutron_reject_reduction": 0.42,
+      "calculated_core_to_final_reduction": 0.7216,
+      "source_reported_core_to_final_reduction": 0.72,
+      "central_rounding_difference": 0.0016000000000000458,
+      "boundary": "Table4 central count-ratio arithmetic; no joint covariance or binomial reconstruction"
+    },
+    {
+      "source_label": "total0-4095keV",
+      "core_to_standard_reduction": 0.7373,
+      "standard_to_neutron_reject_reduction": 0.3368,
+      "calculated_core_to_final_reduction": 0.82577736,
+      "source_reported_core_to_final_reduction": 0.8258,
+      "central_rounding_difference": -2.263999999996269e-05,
+      "boundary": "Table4 central count-ratio arithmetic; no joint covariance or binomial reconstruction"
+    },
+    {
+      "source_label": "Co1173",
+      "core_to_standard_reduction": 0.117,
+      "standard_to_neutron_reject_reduction": 0.18,
+      "calculated_core_to_final_reduction": 0.27593999999999996,
+      "source_reported_core_to_final_reduction": 0.276,
+      "central_rounding_difference": -6.0000000000060005e-05,
+      "boundary": "Table4 central count-ratio arithmetic; no joint covariance or binomial reconstruction"
+    },
+    {
+      "source_label": "Co1332",
+      "core_to_standard_reduction": 0.09,
+      "standard_to_neutron_reject_reduction": 0.185,
+      "calculated_core_to_final_reduction": 0.25834999999999997,
+      "source_reported_core_to_final_reduction": 0.258,
+      "central_rounding_difference": 0.00034999999999996145,
+      "boundary": "Table4 central count-ratio arithmetic; no joint covariance or binomial reconstruction"
+    }
+  ],
+  "gate_truth_table": [
+    {
+      "good_E1_E2_angle_FM": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "body_accept_OR_good": false,
+      "body_complement_reject_AND_bad": true,
+      "hypothesis_conclusion_reject_OR_bad": true,
+      "hypothesis_conclusion_accept_AND_good": false,
+      "predicates_differ": false
+    },
+    {
+      "good_E1_E2_angle_FM": [
+        false,
+        false,
+        false,
+        true
+      ],
+      "body_accept_OR_good": true,
+      "body_complement_reject_AND_bad": false,
+      "hypothesis_conclusion_reject_OR_bad": true,
+      "hypothesis_conclusion_accept_AND_good": false,
+      "predicates_differ": true
+    },
+    {
+      "good_E1_E2_angle_FM": [
+        false,
+        false,
+        true,
+        false
+      ],
+      "body_accept_OR_good": true,
+      "body_complement_reject_AND_bad": false,
+      "hypothesis_conclusion_reject_OR_bad": true,
+      "hypothesis_conclusion_accept_AND_good": false,
+      "predicates_differ": true
+    },
+    {
+      "good_E1_E2_angle_FM": [
+        false,
+        false,
+        true,
+        true
+      ],
+      "body_accept_OR_good": true,
+      "body_complement_reject_AND_bad": false,
+      "hypothesis_conclusion_reject_OR_bad": true,
+      "hypothesis_conclusion_accept_AND_good": false,
+      "predicates_differ": true
+    },
+    {
+      "good_E1_E2_angle_FM": [
+        false,
+        true,
+        false,
+        false
+      ],
+      "body_accept_OR_good": true,
+      "body_complement_reject_AND_bad": false,
+      "hypothesis_conclusion_reject_OR_bad": true,
+      "hypothesis_conclusion_accept_AND_good": false,
+      "predicates_differ": true
+    },
+    {
+      "good_E1_E2_angle_FM": [
+        false,
+        true,
+        false,
+        true
+      ],
+      "body_accept_OR_good": true,
+      "body_complement_reject_AND_bad": false,
+      "hypothesis_conclusion_reject_OR_bad": true,
+      "hypothesis_conclusion_accept_AND_good": false,
+      "predicates_differ": true
+    },
+    {
+      "good_E1_E2_angle_FM": [
+        false,
+        true,
+        true,
+        false
+      ],
+      "body_accept_OR_good": true,
+      "body_complement_reject_AND_bad": false,
+      "hypothesis_conclusion_reject_OR_bad": true,
+      "hypothesis_conclusion_accept_AND_good": false,
+      "predicates_differ": true
+    },
+    {
+      "good_E1_E2_angle_FM": [
+        false,
+        true,
+        true,
+        true
+      ],
+      "body_accept_OR_good": true,
+      "body_complement_reject_AND_bad": false,
+      "hypothesis_conclusion_reject_OR_bad": true,
+      "hypothesis_conclusion_accept_AND_good": false,
+      "predicates_differ": true
+    },
+    {
+      "good_E1_E2_angle_FM": [
+        true,
+        false,
+        false,
+        false
+      ],
+      "body_accept_OR_good": true,
+      "body_complement_reject_AND_bad": false,
+      "hypothesis_conclusion_reject_OR_bad": true,
+      "hypothesis_conclusion_accept_AND_good": false,
+      "predicates_differ": true
+    },
+    {
+      "good_E1_E2_angle_FM": [
+        true,
+        false,
+        false,
+        true
+      ],
+      "body_accept_OR_good": true,
+      "body_complement_reject_AND_bad": false,
+      "hypothesis_conclusion_reject_OR_bad": true,
+      "hypothesis_conclusion_accept_AND_good": false,
+      "predicates_differ": true
+    },
+    {
+      "good_E1_E2_angle_FM": [
+        true,
+        false,
+        true,
+        false
+      ],
+      "body_accept_OR_good": true,
+      "body_complement_reject_AND_bad": false,
+      "hypothesis_conclusion_reject_OR_bad": true,
+      "hypothesis_conclusion_accept_AND_good": false,
+      "predicates_differ": true
+    },
+    {
+      "good_E1_E2_angle_FM": [
+        true,
+        false,
+        true,
+        true
+      ],
+      "body_accept_OR_good": true,
+      "body_complement_reject_AND_bad": false,
+      "hypothesis_conclusion_reject_OR_bad": true,
+      "hypothesis_conclusion_accept_AND_good": false,
+      "predicates_differ": true
+    },
+    {
+      "good_E1_E2_angle_FM": [
+        true,
+        true,
+        false,
+        false
+      ],
+      "body_accept_OR_good": true,
+      "body_complement_reject_AND_bad": false,
+      "hypothesis_conclusion_reject_OR_bad": true,
+      "hypothesis_conclusion_accept_AND_good": false,
+      "predicates_differ": true
+    },
+    {
+      "good_E1_E2_angle_FM": [
+        true,
+        true,
+        false,
+        true
+      ],
+      "body_accept_OR_good": true,
+      "body_complement_reject_AND_bad": false,
+      "hypothesis_conclusion_reject_OR_bad": true,
+      "hypothesis_conclusion_accept_AND_good": false,
+      "predicates_differ": true
+    },
+    {
+      "good_E1_E2_angle_FM": [
+        true,
+        true,
+        true,
+        false
+      ],
+      "body_accept_OR_good": true,
+      "body_complement_reject_AND_bad": false,
+      "hypothesis_conclusion_reject_OR_bad": true,
+      "hypothesis_conclusion_accept_AND_good": false,
+      "predicates_differ": true
+    },
+    {
+      "good_E1_E2_angle_FM": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "body_accept_OR_good": true,
+      "body_complement_reject_AND_bad": false,
+      "hypothesis_conclusion_reject_OR_bad": false,
+      "hypothesis_conclusion_accept_AND_good": true,
+      "predicates_differ": false
+    }
+  ],
+  "differing_boolean_assignments_out_of_16": 14,
+  "gate_monotonicity": {
+    "assumptions": "same fixed standard clusters, same energies/line identity and peak-count normalization; plain acceptance post-filter; E1>45 is subset of E1>30",
+    "source_single_E1_gt45_Co1332_loss_percent": 3.9,
+    "source_combined_OR_gt30_Co1332_loss_percent": 18.5,
+    "max_loss_for_literal_acceptance_OR_under_assumptions_percent": 3.9,
+    "reported_combined_minus_bound_percent": 14.6,
+    "literal_acceptance_OR_cannot_reproduce_under_assumptions": true,
+    "boundary": "does not prove actual code uses a wrong predicate: retracking, cluster reassembly, line fitting, or different stage definitions can break post-filter assumptions; no significance/covariance inferred"
+  },
+  "gate_boundary": "not a14/16datafraction; thresholds away from equality and no production predicate selected; strict complement also changes < to <=",
+  "verification": {
+    "central_nested_ratios_match_rounding": true,
+    "DeMorgan_truth_table_checked": true,
+    "natural_width_orders_checked": true,
+    "passed": true
+  }
+}
