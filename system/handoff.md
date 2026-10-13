@@ -6,15 +6,17 @@ updated: 2026-10-13
 
 # 跨会话交接
 
-## Active handoff — DAY13 content complete; Day14 preview uncredited
+## Active handoff — DAY13 published; formal Day14 is next
 
 Run `2026-10-13-day-13-01`, session `01a13489-64ba-7930-9a2c-291375d95ad0`; resume with `codex resume 01a13489-64ba-7930-9a2c-291375d95ad0 -C /workspace/wiki -s danger-full-access -a never`. Report: `outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity.md`; receipt: `outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity-run-01/run.json`. Original hard deadline remains 2026-10-14 15:00 Asia/Shanghai.
 
-Day13 card delivers primed source-before recall, Mavela/Klemme source/figure audit, exact Doppler/covariance exercise, stopping/multiline counter-evidence and a canonical diagnostic table. The one writeback maps 12 items to eight changed knowledge pages. Day14 is only an uncredited knowledge preview: Herzan Fig.2/Table I three-level branch, quadruplet and unknown SD X/linking/negative-evidence boundaries; its primed19/24 score is not the formal exam. No Day15 scientific card/source was opened. Course state stays next13/count12 until content publication succeeds; only Day13 is eligible for credit.
+Day13 card delivers primed source-before recall, Mavela/Klemme source/figure audit, exact Doppler/covariance exercise, stopping/multiline counter-evidence and a canonical diagnostic table. The one writeback maps 12 items to eight changed knowledge pages. Day14 is only an uncredited knowledge preview: Herzan Fig.2/Table I three-level branch, quadruplet and unknown SD X/linking/negative-evidence boundaries; its primed19/24 score is not the formal exam. No Day15 scientific card/source was opened. Content publication succeeded and the course state advanced to next14/count13, crediting only Day13. The formal next prompt is `outputs/learning-daily/prompts/20261014-DAY14-week-two-spectrum-to-level-scheme-exam.md`; no new session was started.
 
 Research stopped early at 2026-10-13 17:51:03+08:00, with1268.94 minutes before the hard deadline, after the full candidate pool and the permitted Day14 preview were rechecked. Official UWC bundles expose no production sorter, events, ring spectra or covariance. The remaining discriminators need those inputs; neither total-spectrum repetitions nor toy fits resolve them. Low-beta widths alone have a rank-2 response/velocity/angle ambiguity, now derived and independently checked. Experimental L4 refit stays not-ready; no QS/B/collective-mode ranking changed. Reopen this bounded diagnosis when new primary inputs exist; formal Day14 must use a new run/session.
 
-All raw PDFs, PLAN and protected BibTeX remain unchanged. Source/review flags are preserved, including the unchanged human-reviewed Longfellow page. Inherited Day6–9 outputs, old system/log changes and daemon-script edits are excluded. Farmer watcher is running; it has no Git role. Required report/writeback/card/protected/boundary checks passed; final lint passed with0 errors/92 warnings; Git gate is recorded in the run audit. Committed delivery on main: `Complete DAY13 Doppler diagnostics and uncredited Day14 preview`. The final exact hash and remote outcome belong only in run.json.
+All raw PDFs, PLAN and protected BibTeX remain unchanged. Source/review flags are preserved, including the unchanged human-reviewed Longfellow page. Inherited Day6–9 outputs, old system/log changes and daemon-script edits are excluded. Farmer watcher is running; it has no Git role. Required report/writeback/card/protected/boundary checks passed; final lint passed with0 errors/92 warnings; content fetch/ancestry/dry-run/push all exited0 and origin/main matched HEAD. Published content on main: `Complete DAY13 Doppler diagnostics and uncredited Day14 preview`. The final exact hash and remote outcome belong only in run.json.
+
+Committed curriculum: main / `Advance Day14 curriculum after published Day13 study`. Exact hashes and final remote results are in the run receipt.
 
 ## Previous active handoff — DAY11 closeout; Day13 was next
 

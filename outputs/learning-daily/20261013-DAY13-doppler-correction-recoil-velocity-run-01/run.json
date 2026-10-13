@@ -1,0 +1,308 @@
+{
+  "schema_version": 1,
+  "run_id": "2026-10-13-day-13-01",
+  "run_date": "2026-10-13",
+  "day_index": 13,
+  "phase": "gamma-spectroscopy-and-level-schemes",
+  "cycle": "2026-09-30-day-substantive",
+  "schedule_id": "wiki-daily-learning",
+  "schedule_name": "Wiki 30-day substantive daily learning",
+  "project_root": "/workspace/wiki",
+  "run_kind": "substantive",
+  "acceptance_only": false,
+  "overnight_until": "2026-10-14T15:00:00+08:00",
+  "max_continuations": 96,
+  "continuation_count": 0,
+  "continuation_batch_count": 0,
+  "continuation_batches": 1,
+  "counted_in_substantive_test": true,
+  "session_mode": "new-session-per-run",
+  "session_reuse": false,
+  "session_scope": "one-new-session-for-each-schedule-run",
+  "codex_home": "/root/.codex",
+  "status": "completed",
+  "started_at": "2026-10-13T17:12:58.564161+08:00",
+  "report": "/workspace/wiki/outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity.md",
+  "completed_day_indices": [
+    13
+  ],
+  "partial_day_indices": [
+    14
+  ],
+  "curriculum_cards_completed": 1,
+  "closeout_window_ends_at": "2026-10-14T16:00:00+08:00",
+  "last_closeout_snapshot": {
+    "now_local": "2026-10-13T17:12:58.564161+08:00",
+    "hard_deadline": "2026-10-14T15:00:00+08:00",
+    "next_scheduled_start": "2026-10-14T16:00:00+08:00",
+    "minutes_to_deadline": 1307,
+    "minutes_to_next_start": 1367,
+    "minimum_current_block_minutes": 90,
+    "minimum_forward_card_block_minutes": 120,
+    "can_continue_current": true,
+    "can_complete_forward_card": true,
+    "decision": "continue-or-advance"
+  },
+  "prompt_file": "/workspace/wiki/outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity-run-01/prompt.md",
+  "session_id": "01a13489-64ba-7930-9a2c-291375d95ad0",
+  "resume_command": "codex resume 01a13489-64ba-7930-9a2c-291375d95ad0 -C /workspace/wiki -s danger-full-access -a never",
+  "execution_route": "same-session interactive; foreground runner not observed",
+  "baseline_file": "/workspace/wiki/outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity-run-01/baseline.json",
+  "runner_exit_code": null,
+  "manual_verification_exit_code": 0,
+  "deliverables_passed": true,
+  "research_closed_at": "2026-10-13T17:51:03.550633+08:00",
+  "closeout_reason": "bounded-evidence-saturation-and-missing-acquisition-inputs-after-Day14-preview",
+  "checks": {
+    "report": {
+      "valid": true,
+      "missing_headings": []
+    },
+    "writeback": {
+      "valid": true,
+      "mode": "updated",
+      "knowledge_paths": [
+        "knowledge/methods/doppler-correction.md",
+        "knowledge/sources/mavela-2019-32s-quadrupole-moment-doppler-correction-thesis.md",
+        "knowledge/sources/klemme-1999-lifetimes-134nd-neighbors.md",
+        "knowledge/sources/herzan-2015-193bi-spectroscopy.md",
+        "knowledge/methods/level-scheme-reconstruction.md",
+        "knowledge/projects/a130-thesis-evidence-matrix.md",
+        "knowledge/questions.md",
+        "knowledge/index.md"
+      ],
+      "changed_paths": [
+        "knowledge/index.md",
+        "knowledge/methods/doppler-correction.md",
+        "knowledge/methods/level-scheme-reconstruction.md",
+        "knowledge/projects/a130-thesis-evidence-matrix.md",
+        "knowledge/questions.md",
+        "knowledge/sources/herzan-2015-193bi-spectroscopy.md",
+        "knowledge/sources/klemme-1999-lifetimes-134nd-neighbors.md",
+        "knowledge/sources/mavela-2019-32s-quadrupole-moment-doppler-correction-thesis.md"
+      ],
+      "change_check": "run-snapshot",
+      "error": null
+    },
+    "curriculum": {
+      "valid": true,
+      "completed_day_indices": [
+        13
+      ],
+      "partial_day_indices": [
+        14
+      ],
+      "curriculum_cards_completed": 1,
+      "next_day_index": 14,
+      "error": null
+    },
+    "protected": {
+      "PLAN.md": true,
+      "raw/zotero/wiki-inbox.bib": true
+    },
+    "lint": {
+      "exit_code": 0,
+      "summary": [
+        "GOVERNANCE page_unreviewed=495 source_unreviewed=221 claims=2232 claim_needs_review=1558 claim_missing_locator=0 claim_missing_kind=0 source_missing_raw_file=0 source_missing_citation_key=89",
+        "SUMMARY pages=573 wikilinks=5467 hashes=281 errors=0 warnings=92 info=1558"
+      ],
+      "warnings": {
+        "REACTION_PARSE": 3,
+        "CITATION_KEY_MISSING": 89
+      }
+    },
+    "boundary": {
+      "schema_version": 1,
+      "root": "/workspace/wiki",
+      "ok": true,
+      "errors": [],
+      "warnings": [],
+      "checks": {
+        "required_dirs": {
+          "expected": [
+            "raw",
+            "knowledge",
+            "outputs",
+            "system",
+            "tools",
+            "tmp"
+          ],
+          "missing": []
+        },
+        "forbidden_dirs": {
+          "expected_absent": [
+            "docs/plans"
+          ],
+          "present": []
+        },
+        "moved_knowledge": {
+          "outputs/learning-milestones/2026-09-a130-thesis-evidence-matrix.md": {
+            "old_exists": false,
+            "canonical": "knowledge/projects/a130-thesis-evidence-matrix.md",
+            "canonical_exists": true
+          }
+        },
+        "outputs": {
+          "allowed_roots": [
+            "degree-dissertation",
+            "high-spin",
+            "l3",
+            "l4",
+            "learning-daily",
+            "learning-milestones",
+            "learning-weekly",
+            "literature-acquisition",
+            "paper-cards",
+            "plans",
+            "self-tests"
+          ],
+          "unknown_roots": [],
+          "knowledge_page_types_in_outputs": []
+        },
+        "qmd": {
+          "checked": true,
+          "available": true,
+          "command": [
+            "/opt/qmd/bin/qmd",
+            "collection",
+            "show",
+            "nuclear-knowledge"
+          ],
+          "exit": 0,
+          "path": "/workspace/wiki/knowledge",
+          "pattern": "**/*.md"
+        }
+      }
+    },
+    "analysis": {
+      "max_fd_relative_error": 2.4398607291944167e-09,
+      "max_MC_relative_difference": 0.0017046806262988046,
+      "max_forward_inverse_error_keV": 1.1368683772161603e-13,
+      "passed": true
+    },
+    "report_sha256": "2fe6c73abcb8a7cca3976ac07893cbb3e38fea447d9d49bc64331a64bcd159b2",
+    "checked_at": "2026-10-13T18:10:04.444707+08:00",
+    "curriculum_state": {
+      "schema_version": 1,
+      "cycle": "2026-09-30-day-substantive",
+      "counting_policy": "30 fully completed substantive curriculum cards; a run may complete multiple contiguous cards; acceptance-only runs are excluded",
+      "next_day_index": 14,
+      "last_success": "2026-10-13",
+      "last_run_id": "2026-10-13-day-13-01",
+      "status": "active",
+      "acceptance_runs_excluded": [
+        "2026-09-22-day-01-01",
+        "2026-09-22-day-01-02",
+        "2026-09-22-day-01-03",
+        "2026-09-22-day-01-04",
+        "2026-09-22-day-01-05",
+        "2026-09-22-day-02-06"
+      ],
+      "reset_at": "2026-09-23",
+      "reset_reason": "Manual Docker/runner instance acceptance before the substantive 30-day test reset",
+      "completed_day_count": 13
+    },
+    "formal_next_prompt": "outputs/learning-daily/prompts/20261014-DAY14-week-two-spectrum-to-level-scheme-exam.md",
+    "content_publication_passed": true
+  },
+  "publication": {
+    "branch": "main",
+    "commit_target_subject": "Complete DAY13 Doppler diagnostics and uncredited Day14 preview",
+    "status": "published",
+    "commit_subject": "Complete DAY13 Doppler diagnostics and uncredited Day14 preview",
+    "content_commit_hash": "71bef2eb5ab105103543c8a50b744df15200726b",
+    "files": [
+      "knowledge/index.md",
+      "knowledge/methods/doppler-correction.md",
+      "knowledge/methods/level-scheme-reconstruction.md",
+      "knowledge/projects/a130-thesis-evidence-matrix.md",
+      "knowledge/questions.md",
+      "knowledge/sources/herzan-2015-193bi-spectroscopy.md",
+      "knowledge/sources/klemme-1999-lifetimes-134nd-neighbors.md",
+      "knowledge/sources/mavela-2019-32s-quadrupole-moment-doppler-correction-thesis.md",
+      "outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity-run-01/baseline.json",
+      "outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity-run-01/checkpoint-001.json",
+      "outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity-run-01/completion-audit.json",
+      "outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity-run-01/continuation-prompt.md",
+      "outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity-run-01/day14-preview-recall.md",
+      "outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity-run-01/doppler-exercise.json",
+      "outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity-run-01/lint-final.json",
+      "outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity-run-01/prompt.md",
+      "outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity-run-01/recall-record.md",
+      "outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity-run-01/research-closeout.json",
+      "outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity.md",
+      "system/handoff.md",
+      "system/log.md",
+      "system/scripts/day13_doppler_diagnostics.py"
+    ],
+    "post_commit_reconciliation": "handoff actual pointer amended once; file manifest checked",
+    "h3_commands": [
+      {
+        "argv": [
+          "git",
+          "fetch",
+          "origin",
+          "main"
+        ],
+        "exit_code": 0,
+        "stdout": "",
+        "stderr": "From gitee.com:chx6/silicon_graduate\n * branch            main       -> FETCH_HEAD\n"
+      },
+      {
+        "argv": [
+          "git",
+          "merge-base",
+          "--is-ancestor",
+          "origin/main",
+          "HEAD"
+        ],
+        "exit_code": 0,
+        "stdout": "",
+        "stderr": ""
+      },
+      {
+        "argv": [
+          "git",
+          "push",
+          "--dry-run",
+          "origin",
+          "HEAD:main"
+        ],
+        "exit_code": 0,
+        "stdout": "",
+        "stderr": "To gitee.com:chx6/silicon_graduate.git\n   3f518fd..71bef2e  HEAD -> main\n"
+      },
+      {
+        "argv": [
+          "git",
+          "push",
+          "origin",
+          "HEAD:main"
+        ],
+        "exit_code": 0,
+        "stdout": "",
+        "stderr": "remote: Powered by \u001b[01;33mGITEE.COM \u001b[0m[1.1.23]        \nremote: Set trace flag b847f2bc        \nTo gitee.com:chx6/silicon_graduate.git\n   3f518fd..71bef2e  HEAD -> main\n"
+      }
+    ],
+    "origin_main_matches_head": true,
+    "published_at": "2026-10-13T18:17:35.280803+08:00",
+    "curriculum_commit_target": "Advance Day14 curriculum after published Day13 study"
+  },
+  "skill_mode": {
+    "auto_authorization": "existing daily-learning/container/Git authorization",
+    "all_max_rounds": 5,
+    "fast": false,
+    "debug_rounds": 1
+  },
+  "finished_at": "2026-10-13T18:21:48.170230+08:00",
+  "next_day_index": 14,
+  "completed_day_count": 13,
+  "next_prompt_file": "/workspace/wiki/outputs/learning-daily/prompts/20261014-DAY14-week-two-spectrum-to-level-scheme-exam.md",
+  "course_update": {
+    "status": "completed-after-content-publication",
+    "at": "2026-10-13T18:21:48.170230+08:00",
+    "state_file": "/workspace/wiki/outputs/learning-milestones/2026-09-one-month-state.json",
+    "next_day_index": 14,
+    "completed_day_count": 13
+  }
+}

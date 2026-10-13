@@ -1,0 +1,52 @@
+{
+  "schema_version": 1,
+  "run_id": "2026-10-13-day-13-01",
+  "subject": "Complete DAY13 Doppler diagnostics and uncredited Day14 preview",
+  "files": [
+    "knowledge/index.md",
+    "knowledge/methods/doppler-correction.md",
+    "knowledge/methods/level-scheme-reconstruction.md",
+    "knowledge/projects/a130-thesis-evidence-matrix.md",
+    "knowledge/questions.md",
+    "knowledge/sources/herzan-2015-193bi-spectroscopy.md",
+    "knowledge/sources/klemme-1999-lifetimes-134nd-neighbors.md",
+    "knowledge/sources/mavela-2019-32s-quadrupole-moment-doppler-correction-thesis.md",
+    "system/scripts/day13_doppler_diagnostics.py",
+    "outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity.md",
+    "system/handoff.md",
+    "system/log.md",
+    "outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity-run-01/prompt.md",
+    "outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity-run-01/baseline.json",
+    "outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity-run-01/recall-record.md",
+    "outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity-run-01/day14-preview-recall.md",
+    "outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity-run-01/checkpoint-001.json",
+    "outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity-run-01/research-closeout.json",
+    "outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity-run-01/doppler-exercise.json",
+    "outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity-run-01/continuation-prompt.md",
+    "outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity-run-01/completion-audit.json",
+    "outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity-run-01/lint-final.json"
+  ],
+  "overlap_policy": {
+    "system/log.md": "stage only task-log-entry against HEAD; entry baseline retained"
+  },
+  "exclude": [
+    "raw/",
+    "PLAN.md",
+    "inherited Day6–9 outputs",
+    "system/scripts/run_daily_learning_daemon.py",
+    "tmp/",
+    "full lint/log scratch",
+    "local mutable exact-hash run.json"
+  ],
+  "curriculum_files": [
+    "outputs/learning-milestones/2026-09-one-month-state.json",
+    "outputs/learning-daily/prompts/20261014-DAY14-week-two-spectrum-to-level-scheme-exam.md",
+    "outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity.md",
+    "outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity-run-01/completion-audit.json",
+    "outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity-run-01/run.json",
+    "outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity-run-01/publication-manifest.json",
+    "system/handoff.md"
+  ],
+  "curriculum_subject": "Advance Day14 curriculum after published Day13 study",
+  "content_publication_verified_before_state_update": true
+}

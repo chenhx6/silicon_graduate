@@ -125,6 +125,28 @@
     "max_forward_inverse_error_keV": 1.1368683772161603e-13,
     "passed": true
   },
-  "report_sha256": "4e04ae023736c30ccc1f70bae980420bdd0e158a13283bd746c10ef7e6975969",
-  "checked_at": "2026-10-13T18:10:04.444707+08:00"
+  "report_sha256": "2fe6c73abcb8a7cca3976ac07893cbb3e38fea447d9d49bc64331a64bcd159b2",
+  "checked_at": "2026-10-13T18:10:04.444707+08:00",
+  "curriculum_state": {
+    "schema_version": 1,
+    "cycle": "2026-09-30-day-substantive",
+    "counting_policy": "30 fully completed substantive curriculum cards; a run may complete multiple contiguous cards; acceptance-only runs are excluded",
+    "next_day_index": 14,
+    "last_success": "2026-10-13",
+    "last_run_id": "2026-10-13-day-13-01",
+    "status": "active",
+    "acceptance_runs_excluded": [
+      "2026-09-22-day-01-01",
+      "2026-09-22-day-01-02",
+      "2026-09-22-day-01-03",
+      "2026-09-22-day-01-04",
+      "2026-09-22-day-01-05",
+      "2026-09-22-day-02-06"
+    ],
+    "reset_at": "2026-09-23",
+    "reset_reason": "Manual Docker/runner instance acceptance before the substantive 30-day test reset",
+    "completed_day_count": 13
+  },
+  "formal_next_prompt": "outputs/learning-daily/prompts/20261014-DAY14-week-two-spectrum-to-level-scheme-exam.md",
+  "content_publication_passed": true
 }

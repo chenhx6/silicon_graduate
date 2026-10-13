@@ -15,6 +15,7 @@ updated: 2026-10-13
 - completed_day_indices: [13]
 - partial_day_indices: [14]
 - Day 13 card audit: complete
+- 最终课程状态：内容发布门通过后推进为`next_day_index=14 / completed_day_count=13`；正式Day14入口为`outputs/learning-daily/prompts/20261014-DAY14-week-two-spectrum-to-level-scheme-exam.md`。
 - 入口状态：`next_day_index=13 / completed_day_count=12`，与矩阵一致；Day 11/12 不重跑。
 - session_id: `01a13489-64ba-7930-9a2c-291375d95ad0`（本次新 session，与上轮不同）。
 - resume_command: `codex resume 01a13489-64ba-7930-9a2c-291375d95ad0 -C /workspace/wiki -s danger-full-access -a never`
