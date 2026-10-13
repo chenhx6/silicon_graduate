@@ -178,6 +178,28 @@ TUNL .0436-keV natural Γ加到仅作对照的119-keV Gaussian，FWHM119.023221k
 
 另一条件反例固定observed photon、terminal residue及initial invariant mass，却允许未知中间态和晚neutron方向；可得不同earlier-parent velocity/rest-photon energy。它不声称Klemme或VAMOS的低位束缚γ有晚neutron。已知中间态、完整particle测量和material-loss packet能增加约束。AA09-9新增原Fig2.2/6.12与Sec5.3 locator，stage diagram与所有数学边界已写回Doppler方法。
 
+### 持续 Day13：两距离标定与 tracking 参数单位
+
+原Recchia2009/Söderström2011文章的Crossref身份已核验，但institutional route仍只有metadata、403/timeout或CSIC的受限占位PDF，未新增其直接实验claim。已取得并阅读全文[[soderstrom-2008-agata-position-design]]10页与[[crespi-2023-agata-tracking-performance]]43页；综述重复的CR13/SY14/Recchia数据不计独立acquisition。原SD08 Eq4.4的未平方宽度/距离差经视觉核对保留，未声称production code错误。
+
+[two-distance code](../../system/scripts/day13_two_distance_resolution.py)、[结果](20261013-DAY13-doppler-correction-recoil-velocity-run-01/two-distance-resolution-exercise.json)另行声明W²=B²+(kp/R)²；true first-IP距离与共同B/k/p才支持平方差反演。自设front40/140mm、IP在front后30mm，误用front使p5mm估成2.71694mm。若近geometry baseline改变，两点仍零残差拟合，却在第三distance失败；小杠杆/误差还可产生负p²，不能clamp成已测p0。covariance MC和Jacobian核验通过，所有条件写回Doppler方法。
+
+C23-4的OFT自由参数σθ单位cm，不能当Doppler rad角误差或直接PSA FWHM。C23-8原Eq7独立匹配精确Jacobian，速度一阶零敏感角cosθ=β，90°只是低β近似。static imaging共享PSA/order/model，联合PSA/tracking改进仍为作者未证实建议。raw全保持不变，新public copy/hash/未填充槽位明示，研究继续active。
+
+### 持续 Day13：selection normalizer 与 held-out 检查
+
+[gated-likelihood code](../../system/scripts/day13_gated_likelihood.py)、[结果](20261013-DAY13-doppler-correction-recoil-velocity-run-01/gated-likelihood-exercise.json)对自设Gaussian μ1.2/σ2keV实施fixed±2keV门。naive Gaussian得到μ.342411/σ1.050582keV，含parameter-dependent selection normalizer恢复1.203206/2.005365；known-total-trials再提供acceptance约束，但只有toy具备这个输入。无门极限、积分/MC和近Z1的tail数值检查通过。
+
+rate依N0×ε×Z，selected count或normalized shape不能独自给absolute yield/所有response参数。same-source test split检查随机过拟合，却共享gain/basis/geometry的systematic；held-out line/energy/location、independent particle或third geometry才约束不同项。所有公式、数据边界和必要packet写回Doppler方法，未诊断actual source fit错误。学习仍active，下一步检查partial particle geometry与vector可识别性，不开新日卡。
+
+### 持续 Day13：GANIL primary 与 joint event-mixing response
+
+[[ljungvall-2020-agata-ganil-performance]]public copy33页主线已读。六detector Doppler-position估计使用VAMOS vector、relative speed输入、Geant4 target/acceptance和energy-dependent one-dimensional IP FWHM law，得到平均5.1mm但作者保留1mm估计误差及detector spread的统计解释。原events/basis/code仍未取得，C23重复该source benchmark不新增独立实验。公开copy的2020 arXiv标头、2022submission footer/build metadata，以及body/conclusion before-core width2.93/3.08keV打印差均明示，未静默合并版本或更正原数据。
+
+[event-mixing code](../../system/scripts/day13_event_mixing_acceptance.py)、[JSON](20261013-DAY13-doppler-correction-recoil-velocity-run-01/event-mixing-acceptance-exercise.json)构造声明的positive joint-acceptance fixture，遗漏pair-response使true a2=.102拟合成−.165398，matched joint normalizer恢复原值；不是实际OFT重放。另独立common-beam-axis photons的pair-angle a2=A2²/5，A2自设1时quadrature .2、MC .199326±.003239；独立event不等于isotropic normalizer。
+
+原LG20 Fig18直接比较mix-before/aftertracking，LG20-12明确source→beam迁移条件。公式、toy假设、zeroacceptance和normalizer covariance全部同步tracking/coincidence/Doppler页。研究持续active，未给额外day credit，下一路线是partial vector可识别性、heterogeneous response和量化判别设计。
+
 ## Counter-evidence and missing companion observables
 
 1. Klemme Fig.1同一line有距离相关shifted/unshifted分量，反驳“两个峰必是两条跃迁”；Table I的6g+从1.38到corrected1.63ps增加18.1%，显示finite stopping影响寿命。
@@ -1073,6 +1095,413 @@ TUNL .0436-keV natural Γ加到仅作对照的119-keV Gaussian，FWHM119.023221k
           "locator": "AA09-9"
         }
       ]
+    },
+    {
+      "knowledge": "knowledge/sources/soderstrom-2008-agata-position-design.md",
+      "anchor": "SD08-5",
+      "summary": "全文会议稿与原Eq4.4视觉核验，保留preliminary/model及geometry transfer边界；不把未平方打印式静默替换。",
+      "sources": [
+        {
+          "path": "knowledge/sources/soderstrom-2008-agata-position-design.md",
+          "locator": "SD08-1"
+        },
+        {
+          "path": "knowledge/sources/soderstrom-2008-agata-position-design.md",
+          "locator": "SD08-2"
+        },
+        {
+          "path": "knowledge/sources/soderstrom-2008-agata-position-design.md",
+          "locator": "SD08-3"
+        },
+        {
+          "path": "knowledge/sources/soderstrom-2008-agata-position-design.md",
+          "locator": "SD08-4"
+        },
+        {
+          "path": "knowledge/sources/soderstrom-2008-agata-position-design.md",
+          "locator": "SD08-5"
+        },
+        {
+          "path": "knowledge/sources/soderstrom-2008-agata-position-design.md",
+          "locator": "SD08-6"
+        },
+        {
+          "path": "knowledge/sources/soderstrom-2008-agata-position-design.md",
+          "locator": "SD08-7"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/sources/crespi-2023-agata-tracking-performance.md",
+      "anchor": "C23-4",
+      "summary": "全文review原方法/响应/limitations；OFT σθ为cm调参量，exact Jacobian与independence approximation、historical benchmark不新增acquisition。",
+      "sources": [
+        {
+          "path": "knowledge/sources/crespi-2023-agata-tracking-performance.md",
+          "locator": "C23-1"
+        },
+        {
+          "path": "knowledge/sources/crespi-2023-agata-tracking-performance.md",
+          "locator": "C23-2"
+        },
+        {
+          "path": "knowledge/sources/crespi-2023-agata-tracking-performance.md",
+          "locator": "C23-3"
+        },
+        {
+          "path": "knowledge/sources/crespi-2023-agata-tracking-performance.md",
+          "locator": "C23-4"
+        },
+        {
+          "path": "knowledge/sources/crespi-2023-agata-tracking-performance.md",
+          "locator": "C23-5"
+        },
+        {
+          "path": "knowledge/sources/crespi-2023-agata-tracking-performance.md",
+          "locator": "C23-6"
+        },
+        {
+          "path": "knowledge/sources/crespi-2023-agata-tracking-performance.md",
+          "locator": "C23-7"
+        },
+        {
+          "path": "knowledge/sources/crespi-2023-agata-tracking-performance.md",
+          "locator": "C23-8"
+        },
+        {
+          "path": "knowledge/sources/crespi-2023-agata-tracking-performance.md",
+          "locator": "C23-9"
+        },
+        {
+          "path": "knowledge/sources/crespi-2023-agata-tracking-performance.md",
+          "locator": "C23-10"
+        },
+        {
+          "path": "knowledge/sources/crespi-2023-agata-tracking-performance.md",
+          "locator": "C23-11"
+        },
+        {
+          "path": "knowledge/sources/crespi-2023-agata-tracking-performance.md",
+          "locator": "C23-12"
+        },
+        {
+          "path": "knowledge/sources/crespi-2023-agata-tracking-performance.md",
+          "locator": "C23-13"
+        },
+        {
+          "path": "knowledge/sources/crespi-2023-agata-tracking-performance.md",
+          "locator": "C23-14"
+        },
+        {
+          "path": "knowledge/sources/crespi-2023-agata-tracking-performance.md",
+          "locator": "C23-15"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/methods/doppler-correction.md",
+      "anchor": "两距离 position 标定：消去哪一项，留下哪些假设",
+      "summary": "声明Gaussian/common-baseline模型后用平方差；first-IP距离、shared covariance、held-out geometry及负p²边界数值核验。",
+      "sources": [
+        {
+          "path": "knowledge/sources/soderstrom-2008-agata-position-design.md",
+          "locator": "SD08-3"
+        },
+        {
+          "path": "knowledge/sources/soderstrom-2008-agata-position-design.md",
+          "locator": "SD08-5"
+        },
+        {
+          "path": "knowledge/sources/soderstrom-2008-agata-position-design.md",
+          "locator": "SD08-6"
+        },
+        {
+          "path": "knowledge/sources/soderstrom-2008-agata-position-design.md",
+          "locator": "SD08-7"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/methods/doppler-correction.md",
+      "anchor": "cosθ=β",
+      "summary": "用direct review Eq7核验速度Jacobian零点及忽略correlation的适用条件；不是整体最优角。",
+      "sources": [
+        {
+          "path": "knowledge/sources/crespi-2023-agata-tracking-performance.md",
+          "locator": "C23-8"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/methods/tracking-array.md",
+      "anchor": "Tracking 参数的符号、单位与独立验证",
+      "summary": "区分OFT cm parameter、Doppler rad和PSA/FWHM；保留physical order ambiguity与held-out transfer需要。",
+      "sources": [
+        {
+          "path": "knowledge/sources/crespi-2023-agata-tracking-performance.md",
+          "locator": "C23-1"
+        },
+        {
+          "path": "knowledge/sources/crespi-2023-agata-tracking-performance.md",
+          "locator": "C23-2"
+        },
+        {
+          "path": "knowledge/sources/crespi-2023-agata-tracking-performance.md",
+          "locator": "C23-4"
+        },
+        {
+          "path": "knowledge/sources/crespi-2023-agata-tracking-performance.md",
+          "locator": "C23-5"
+        },
+        {
+          "path": "knowledge/sources/crespi-2023-agata-tracking-performance.md",
+          "locator": "C23-6"
+        },
+        {
+          "path": "knowledge/sources/crespi-2023-agata-tracking-performance.md",
+          "locator": "C23-11"
+        },
+        {
+          "path": "knowledge/sources/crespi-2023-agata-tracking-performance.md",
+          "locator": "C23-12"
+        },
+        {
+          "path": "knowledge/sources/crespi-2023-agata-tracking-performance.md",
+          "locator": "C23-14"
+        },
+        {
+          "path": "knowledge/sources/crespi-2023-agata-tracking-performance.md",
+          "locator": "C23-15"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/index.md",
+      "anchor": "soderstrom-2008-agata-position-design",
+      "summary": "添加两份方法source导航，原paper inaccessible与review依赖边界保留。",
+      "sources": [
+        {
+          "path": "knowledge/sources/soderstrom-2008-agata-position-design.md",
+          "locator": "SD08-5"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/methods/doppler-correction.md",
+      "anchor": "门选择后的 likelihood 与未参与优化的验证",
+      "summary": "固定selection的conditional normalizer与known-trials likelihood例题；shape/rate区别、test split共享systematic及真正held-out transfer条件。",
+      "sources": [
+        {
+          "path": "knowledge/sources/crespi-2023-agata-tracking-performance.md",
+          "locator": "C23-4"
+        },
+        {
+          "path": "knowledge/sources/crespi-2023-agata-tracking-performance.md",
+          "locator": "C23-5"
+        },
+        {
+          "path": "knowledge/sources/crespi-2023-agata-tracking-performance.md",
+          "locator": "C23-12"
+        },
+        {
+          "path": "knowledge/sources/senyigit-2014-agata-neutron-rejection.md",
+          "locator": "SY14-5"
+        },
+        {
+          "path": "knowledge/sources/senyigit-2014-agata-neutron-rejection.md",
+          "locator": "SY14-6"
+        },
+        {
+          "path": "knowledge/sources/senyigit-2014-agata-neutron-rejection.md",
+          "locator": "SY14-8"
+        },
+        {
+          "path": "knowledge/sources/senyigit-2014-agata-neutron-rejection.md",
+          "locator": "SY14-9"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/sources/ljungvall-2020-agata-ganil-performance.md",
+      "anchor": "LG20-7",
+      "summary": "GANIL primary全文、Dopplerposition/response/normalizer原图及copy-date/打印值差；保留event/code/rawpacket缺口。",
+      "sources": [
+        {
+          "path": "knowledge/sources/ljungvall-2020-agata-ganil-performance.md",
+          "locator": "LG20-1"
+        },
+        {
+          "path": "knowledge/sources/ljungvall-2020-agata-ganil-performance.md",
+          "locator": "LG20-2"
+        },
+        {
+          "path": "knowledge/sources/ljungvall-2020-agata-ganil-performance.md",
+          "locator": "LG20-3"
+        },
+        {
+          "path": "knowledge/sources/ljungvall-2020-agata-ganil-performance.md",
+          "locator": "LG20-4"
+        },
+        {
+          "path": "knowledge/sources/ljungvall-2020-agata-ganil-performance.md",
+          "locator": "LG20-5"
+        },
+        {
+          "path": "knowledge/sources/ljungvall-2020-agata-ganil-performance.md",
+          "locator": "LG20-6"
+        },
+        {
+          "path": "knowledge/sources/ljungvall-2020-agata-ganil-performance.md",
+          "locator": "LG20-7"
+        },
+        {
+          "path": "knowledge/sources/ljungvall-2020-agata-ganil-performance.md",
+          "locator": "LG20-8"
+        },
+        {
+          "path": "knowledge/sources/ljungvall-2020-agata-ganil-performance.md",
+          "locator": "LG20-9"
+        },
+        {
+          "path": "knowledge/sources/ljungvall-2020-agata-ganil-performance.md",
+          "locator": "LG20-10"
+        },
+        {
+          "path": "knowledge/sources/ljungvall-2020-agata-ganil-performance.md",
+          "locator": "LG20-11"
+        },
+        {
+          "path": "knowledge/sources/ljungvall-2020-agata-ganil-performance.md",
+          "locator": "LG20-12"
+        },
+        {
+          "path": "knowledge/sources/ljungvall-2020-agata-ganil-performance.md",
+          "locator": "LG20-13"
+        },
+        {
+          "path": "knowledge/sources/ljungvall-2020-agata-ganil-performance.md",
+          "locator": "LG20-14"
+        },
+        {
+          "path": "knowledge/sources/ljungvall-2020-agata-ganil-performance.md",
+          "locator": "LG20-15"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/methods/doppler-correction.md",
+      "anchor": "GANIL 的直接 Doppler-position 对照",
+      "summary": "independent VAMOS vector、energy-dependent 1D IP FWHM与Gaussian interpolation的source适用条件，不能移植平均5.1mm。",
+      "sources": [
+        {
+          "path": "knowledge/sources/ljungvall-2020-agata-ganil-performance.md",
+          "locator": "LG20-7"
+        },
+        {
+          "path": "knowledge/sources/ljungvall-2020-agata-ganil-performance.md",
+          "locator": "LG20-8"
+        },
+        {
+          "path": "knowledge/sources/ljungvall-2020-agata-ganil-performance.md",
+          "locator": "LG20-9"
+        },
+        {
+          "path": "knowledge/sources/ljungvall-2020-agata-ganil-performance.md",
+          "locator": "LG20-14"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/methods/tracking-array.md",
+      "anchor": "联合接受率、event mixing 与同束轴各向异性",
+      "summary": "mix before/aftertracking区别与声明toy；independent common-axis draws的pair a2=A2²/5已quadrature/MC核验。",
+      "sources": [
+        {
+          "path": "knowledge/sources/ljungvall-2020-agata-ganil-performance.md",
+          "locator": "LG20-1"
+        },
+        {
+          "path": "knowledge/sources/ljungvall-2020-agata-ganil-performance.md",
+          "locator": "LG20-7"
+        },
+        {
+          "path": "knowledge/sources/ljungvall-2020-agata-ganil-performance.md",
+          "locator": "LG20-8"
+        },
+        {
+          "path": "knowledge/sources/ljungvall-2020-agata-ganil-performance.md",
+          "locator": "LG20-10"
+        },
+        {
+          "path": "knowledge/sources/ljungvall-2020-agata-ganil-performance.md",
+          "locator": "LG20-11"
+        },
+        {
+          "path": "knowledge/sources/ljungvall-2020-agata-ganil-performance.md",
+          "locator": "LG20-12"
+        },
+        {
+          "path": "knowledge/sources/ljungvall-2020-agata-ganil-performance.md",
+          "locator": "LG20-14"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/methods/gamma-gamma-coincidence.md",
+      "anchor": "Joint pair acceptance 与 event mixing stage",
+      "summary": "coincidence normalization需joint pair-response和mix stage；source/in-beam与zeroacceptance/covariance边界。",
+      "sources": [
+        {
+          "path": "knowledge/sources/ljungvall-2020-agata-ganil-performance.md",
+          "locator": "LG20-10"
+        },
+        {
+          "path": "knowledge/sources/ljungvall-2020-agata-ganil-performance.md",
+          "locator": "LG20-11"
+        },
+        {
+          "path": "knowledge/sources/ljungvall-2020-agata-ganil-performance.md",
+          "locator": "LG20-12"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/sources/crespi-2023-agata-tracking-performance.md",
+      "anchor": "Direct GANIL follow-up",
+      "summary": "续读Ref25 primary，source/review仍同实验谱系，原2011 Ref24仍未得全文。",
+      "sources": [
+        {
+          "path": "knowledge/sources/ljungvall-2020-agata-ganil-performance.md",
+          "locator": "LG20-3"
+        },
+        {
+          "path": "knowledge/sources/ljungvall-2020-agata-ganil-performance.md",
+          "locator": "LG20-4"
+        },
+        {
+          "path": "knowledge/sources/ljungvall-2020-agata-ganil-performance.md",
+          "locator": "LG20-10"
+        },
+        {
+          "path": "knowledge/sources/ljungvall-2020-agata-ganil-performance.md",
+          "locator": "LG20-12"
+        },
+        {
+          "path": "knowledge/sources/ljungvall-2020-agata-ganil-performance.md",
+          "locator": "LG20-15"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/index.md",
+      "anchor": "ljungvall-2020-agata-ganil-performance",
+      "summary": "补primary GANIL source导航和copy版本边界。",
+      "sources": [
+        {
+          "path": "knowledge/sources/ljungvall-2020-agata-ganil-performance.md",
+          "locator": "LG20-15"
+        }
+      ]
     }
   ]
 }
@@ -1089,13 +1518,15 @@ TUNL .0436-keV natural Γ加到仅作对照的119-keV Gaussian，FWHM119.023221k
 
 | 等级 | 状态 / readiness |
 |---|---|
-| L0 | 已读source的身份、locator/原图核验完成；六份新public source的raw槽位未归档，URL/version/tmp-byte hashes明示；保留文本与执行版边界。 |
+| L0 | 已读source的身份、locator/原图核验完成；新public source的raw槽位未归档，URL/version/tmp-byte hashes明示；保留文本与执行版边界。 |
 | L1 | source↔method、thesis contract、index反链完成；不同实验/不同emitter的适用条件保留。 |
 | L2 | exact formula/covariance、geometry/gates、convention/decay、speed/calibration、aberration、displaced vertex、neutron cuts、photon recoil、Voigt与momentum stages均为可复算方法练习；未冒充测量。 |
 | L3 | 诊断问题的竞争机制、反证、falsifier、数据包与停止条件完成；真实Mavela执行影响仍partial。 |
 | L4 | experimental refit `not-ready`：缺事件、production code、ring spectra、response/covariance和feeding；模拟练习不作为新实验L4或absolute-strength研究。 |
 
 ## Verification and continuation
+
+最新活动检查（2026-10-14T01:54:40.245714+08:00，距截止约785.3分钟）：累计writeback56items/22mappedpages。三份新增方法/primary source与two-distance、fixed-gate likelihood、event-mixing练习均已写回，参数/零核/积分/MC检查通过。lint exit0，0errors/110warnings（98citation-key、9未填充raw archives、3reaction-parser）；report/card/writeback/protected/diff通过，原窗口仍active。当前发布是checkpoint，不触发new credit或closeout。
 
 持续检查（2026-10-14T01:00:40.490662+08:00，距截止约839.3分钟）：研究仍active。当前累计唯一writeback43items/19mapped pages；基于reopen snapshot的path/anchor/atomic locator、report/card coverage与PLAN/Bib hashes检查通过。Wiki lint exit0，0errors/104warnings（95citation-key、6reserved raw archive缺失、3reaction-parser）；不把missing archive写成已归档。四项本段新练习的conservation/limits/normalization/cut-contract检查通过，worktree diff检查通过。下一路线为held-out line/gate、joint-likelihood和calibration-transfer设计，未推进新课程卡。最终发布检查只在原窗口closeout执行。
 

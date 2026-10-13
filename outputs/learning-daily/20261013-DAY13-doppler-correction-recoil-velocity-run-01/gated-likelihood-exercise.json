@@ -1,0 +1,80 @@
+{
+  "schema_version": 1,
+  "kind": "synthetic fixed-gate likelihood; no measured beta or yield",
+  "parent_model": {
+    "mu_keV": 1.2,
+    "sigma_keV": 2.0,
+    "gate_keV": [
+      -2.0,
+      2.0
+    ],
+    "generated": 1000000
+  },
+  "selected": {
+    "n": 601380,
+    "fraction": 0.60138,
+    "analytic_fraction": 0.6006224499107662,
+    "analytic_conditional_mu_keV": 0.3430579870529254
+  },
+  "naive_untruncated_fit": {
+    "mu_keV": 0.34241081772863335,
+    "sigma_keV": 1.0505824908481325
+  },
+  "conditional_truncated_fit": {
+    "mu_keV": 1.2032057000592784,
+    "sigma_keV": 2.0053650188403163,
+    "nll": 801155.0418764222,
+    "optimization_success": true
+  },
+  "known_trials_and_conditional_fit": {
+    "mu_keV": 1.1958473842600748,
+    "sigma_keV": 1.9989857027434732,
+    "nll": 1473603.4467620642,
+    "optimization_success": true
+  },
+  "naive_predicted_selected_if_trials_known": 929806.0546887837,
+  "count_only_equivalent_parameter_sets": [
+    {
+      "parent_mu_keV": 1.2,
+      "parent_sigma_keV": 2.0,
+      "detector_efficiency": 1.0,
+      "gate_fraction": 0.6006224499107662,
+      "required_incident_yield": 1001261.2750145226,
+      "same_expected_gate_count": 601380.0
+    },
+    {
+      "parent_mu_keV": 0.0,
+      "parent_sigma_keV": 2.0,
+      "detector_efficiency": 0.8,
+      "gate_fraction": 0.6826894921370859,
+      "required_incident_yield": 1101122.851102931,
+      "same_expected_gate_count": 601380.0
+    },
+    {
+      "parent_mu_keV": 1.2,
+      "parent_sigma_keV": 3.0,
+      "detector_efficiency": 0.6,
+      "gate_fraction": 0.4620758973404658,
+      "required_incident_yield": 2169124.175852625,
+      "same_expected_gate_count": 601380.0000000001
+    }
+  ],
+  "boundaries": [
+    "Generated count is known only in this synthetic exercise.",
+    "Real global fitting needs selection and response identity; a conditional shape alone is not an absolute rate measurement.",
+    "Actual FOM/particle/time/energy gates may be coupled and require a multivariate acceptance.",
+    "Held-out events share calibration/systematics; they do not alone prove independent validation."
+  ],
+  "verification": {
+    "normalization_error": 4.440892098500626e-16,
+    "analytic_selected_mean_MC_passed": true,
+    "parameter_recovery_passed": true,
+    "wide_gate_Gaussian_limit_passed": true,
+    "count_identifiability_boundary_passed": true,
+    "passed": true
+  },
+  "dependencies": {
+    "numpy": "2.5.3",
+    "scipy": "1.18.1"
+  }
+}

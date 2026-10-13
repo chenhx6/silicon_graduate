@@ -10,11 +10,11 @@ updated: 2026-10-14
 
 2026-10-13 21:06 Asia/Shanghai，用户要求持续学习Day13、不要中断。仍为run `2026-10-13-day-13-01` / session `01a13489-64ba-7930-9a2c-291375d95ad0`，原硬截止 `2026-10-14T15:00:00+08:00`；回执status恢复running，历史完成/发布保留。课程state已next14/count13，保留已授予的Day13卡学分、不重复计卡、不启动正式Day14或Day15。继续用同一resume command和日报；原17:51全窗口饱和判断收束过早，现在拓宽Day13的事件速度、位置、有限角度、能损/发射历史、重建顺序及门迁移/效率问题。
 
-最新持续checkpoint（2026-10-14 01:00 Asia/Shanghai）：新增VD16、CR13、AA09、AK12、SY14、T12C六项；前四为instrument/simulation、SY14为neutron-response、T12C为selected online evaluation records；T12C companion257页仅核版本/对应行，不计全文。raw槽位均明确未填充，全部下载在tmp。累计single-writeback43items/19mappedpages，lint0errors/104warnings，report/card/protected/path检查通过。研究仍active，原截止还余约839.3分钟。
+最新持续checkpoint（2026-10-14 01:54 Asia/Shanghai）：继续9份public source（VD16/CR13/AA09/AK12/SY14/T12C/SD08/C23/LG20）。SD08会议稿10页、C23review43页、LG20primary33页主线/核心locator完成；原Recchia2009/Söderström2011仍只有metadata/受限或连接失败，未伪造全文。LG20 copy2020header/2022build与body/conclusion差异明示。raw槽位均未填充，下载只在tmp。
 
-本段补充natural/partial width分母、source cut predicate/计数stage反证、free photonrecoil与parent/daughter frame、Voigt finite-gate、neutron-before/after-gamma速度stage；新codes/JSON均通过声明的独立/守恒/极限检查。无实验新fit或absoluteB。下一路线：held-out line/gate、joint likelihood与calibration transfer；仍不正式计Day14/打开Day15。
+累计single-writeback56items/22mappedpages，lint0errors/110warnings，report/card/protected/path/diff检查通过。本段three exercise(two-distance/gated-likelihood/event-mixing)均通过解析/极限/MC/积分检查，数学与数据边界已在canonical methods。研究仍active，原截止余约785.3分钟；下一路线为partial velocity vector可识别性、heterogeneous PSA response、观测判别/独立标定。
 
-已发布上一active checkpoint：main / `Extend active DAY13 recoil and detector-response study`；本段活动checkpoint指针为main / `Extend DAY13 natural-width and momentum-stage audit`，发布结果与exacthash只进runreceipt。发布不结束goal。正常runner finalizer不可再次推进state，最后只核对alreadycredited next14/count13。
+已发布上一checkpoint：main / `Extend DAY13 natural-width and momentum-stage audit`。本段active checkpoint指针main / `Add DAY13 position-calibration and joint-acceptance study`；exacthash/outcome只进runreceipt。发布不结束goal，state保留alreadycredited next14/count13，不正式计Day14/打开Day15。最终normal runner若state mismatch不可强行再推进，仅手工核对alreadycredited run。
 已有精确Jacobian、rank2反例、Mavela/Klemme/Herzan证据和知识写回均保留。先逐路线source-before recall、直接全文/locator、反证和可复算边界，checkpoint只记进展，不再次提前complete。Farmer保留运行，同session时钟将排队2小时checkpoint与15:00收束；queue成功只算接受，不伪造delivery。原raw/PLAN/凭据、review flags和legacy Day6–9/daemon/log修改仍受保护。
 
 ## Previous active handoff — DAY13 card publication (window reopened)

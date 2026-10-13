@@ -9,6 +9,11 @@ updated: 2026-10-13
 
 ## Sources
 
+- [[ljungvall-2020-agata-ganil-performance]] - GANIL2016的primary response benchmark：VAMOS约束Doppler-position、OFT units、tracking前/后event-mixing与source→beam边界；public copy日期差保留。
+
+- [[crespi-2023-agata-tracking-performance]] - OFT σθ 的 cm 单位、exact Doppler导数、tracking物理限制与历史benchmarks的共享谱系；不是2026代码状态保证。
+- [[soderstrom-2008-agata-position-design]] - 两距离标定提案、printed Eq.(4.4)边界和finite-angle/front-face限制；Gaussian平方差为另行声明的任务推导。
+
 - [[tunl-2017-12c-level-widths]] - 在线2017KE05宽度/decay表及2020companion版本：Γtotal/γpartial、γ/all-decay分母和photonrecoil边界。
 
 - [[senyigit-2014-agata-neutron-rejection]] - 2013preprint/2014journal：detector-neutron宽线与recoildeposit、TOF标签边界、NR百分比分母与正文/结论predicate冲突。

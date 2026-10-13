@@ -1,0 +1,106 @@
+{
+  "at": "2026-10-14T01:54:40.245714+08:00",
+  "status": "active-checkpoint",
+  "writeback": {
+    "valid": true,
+    "mode": "updated",
+    "knowledge_paths": [
+      "knowledge/methods/doppler-correction.md",
+      "knowledge/sources/mavela-2019-32s-quadrupole-moment-doppler-correction-thesis.md",
+      "knowledge/sources/klemme-1999-lifetimes-134nd-neighbors.md",
+      "knowledge/sources/herzan-2015-193bi-spectroscopy.md",
+      "knowledge/methods/level-scheme-reconstruction.md",
+      "knowledge/projects/a130-thesis-evidence-matrix.md",
+      "knowledge/questions.md",
+      "knowledge/index.md",
+      "knowledge/sources/vandebrouck-2016-vamos-dual-position-mwpc.md",
+      "knowledge/sources/crespi-2013-agata-high-energy-doppler-response.md",
+      "knowledge/methods/tracking-array.md",
+      "knowledge/sources/aladili-2009-agata-doppler-simulation.md",
+      "knowledge/research-notes/doppler-forward-inverse-convention-check.md",
+      "knowledge/sources/akkoyun-2012-agata-instrument-response.md",
+      "knowledge/concepts/lorentz-boost-correction.md",
+      "knowledge/sources/longfellow-2026-gretina-energy-ordering-polarization.md",
+      "knowledge/sources/senyigit-2014-agata-neutron-rejection.md",
+      "knowledge/methods/gamma-gamma-coincidence.md",
+      "knowledge/sources/tunl-2017-12c-level-widths.md",
+      "knowledge/sources/soderstrom-2008-agata-position-design.md",
+      "knowledge/sources/crespi-2023-agata-tracking-performance.md",
+      "knowledge/sources/ljungvall-2020-agata-ganil-performance.md"
+    ],
+    "changed_paths": [
+      "knowledge/concepts/lorentz-boost-correction.md",
+      "knowledge/index.md",
+      "knowledge/methods/doppler-correction.md",
+      "knowledge/methods/gamma-gamma-coincidence.md",
+      "knowledge/methods/level-scheme-reconstruction.md",
+      "knowledge/methods/tracking-array.md",
+      "knowledge/questions.md",
+      "knowledge/research-notes/doppler-forward-inverse-convention-check.md",
+      "knowledge/sources/akkoyun-2012-agata-instrument-response.md",
+      "knowledge/sources/aladili-2009-agata-doppler-simulation.md",
+      "knowledge/sources/crespi-2013-agata-high-energy-doppler-response.md",
+      "knowledge/sources/crespi-2023-agata-tracking-performance.md",
+      "knowledge/sources/ljungvall-2020-agata-ganil-performance.md",
+      "knowledge/sources/senyigit-2014-agata-neutron-rejection.md",
+      "knowledge/sources/soderstrom-2008-agata-position-design.md",
+      "knowledge/sources/tunl-2017-12c-level-widths.md",
+      "knowledge/sources/vandebrouck-2016-vamos-dual-position-mwpc.md"
+    ],
+    "change_check": "run-snapshot",
+    "error": null
+  },
+  "report": {
+    "valid": true,
+    "missing_headings": []
+  },
+  "curriculum": {
+    "valid": true,
+    "completed_day_indices": [
+      13
+    ],
+    "partial_day_indices": [
+      14
+    ],
+    "curriculum_cards_completed": 1,
+    "next_day_index": 14,
+    "error": null
+  },
+  "protected": {
+    "PLAN.md": true,
+    "raw/zotero/wiki-inbox.bib": true
+  },
+  "lint_counts": {
+    "warning": 110,
+    "info": 1638
+  },
+  "analyses": {
+    "two-distance-resolution-exercise.json": {
+      "ideal_reconstruction_passed": true,
+      "width_Jacobian_finite_difference_max_error": 4.058238189941221e-10,
+      "covariance_MC_passed": true,
+      "first_point_geometry_counterexample_passed": true,
+      "heldout_geometry_counterexample_passed": true,
+      "physical_boundary_checked": true,
+      "passed": true
+    },
+    "gated-likelihood-exercise.json": {
+      "normalization_error": 4.440892098500626e-16,
+      "analytic_selected_mean_MC_passed": true,
+      "parameter_recovery_passed": true,
+      "wide_gate_Gaussian_limit_passed": true,
+      "count_identifiability_boundary_passed": true,
+      "passed": true
+    },
+    "event-mixing-acceptance-exercise.json": {
+      "correct_joint_response_recovers_coefficients": true,
+      "quadrature256_512_converged": true,
+      "addition_theorem_checked_by_orientation_integral_and_MC": true,
+      "zero_pair_response_limit_passed": true,
+      "passed": true
+    }
+  },
+  "no_new_credit": true,
+  "original_deadline": "2026-10-14T15:00:00+08:00",
+  "remaining_minutes": 785.3292381
+}

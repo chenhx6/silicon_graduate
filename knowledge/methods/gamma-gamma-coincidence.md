@@ -64,6 +64,12 @@ Söderström 的十一只 CeBr₃ 阵列用 `Δt≤655 ps` 定义 prompt window�
 
 **独立性与未解项：** 两篇文章使用不同的探测阵列和独立采集；Söderström 的自身分支计数是独立复测，但 Fig.5 的合并能量共享拟合也纳入 Walz 数据点，因此该联合拟合不能作为完全独立的多极路径复核。`137Ba` 的延迟 isomer tagging 是另一类时间选择，可参看 `193Bi` 的 delayed γ/electron coincidence（[HE15-2](../sources/herzan-2015-193bi-spectroscopy.md)）。由于可复查的事件级数据与完整响应/协方差不可得，本 audit 不独立重拟合 Walz/Söderström 的残余 Compton、random scaling 或 `α` 分支；Walz 与 Söderström 对虚跃迁路径的解释差异作为尚存开放歧义保留。
 
+## Joint pair acceptance 与 event mixing stage
+
+[[ljungvall-2020-agata-ganil-performance]] LG20-10直接比较source-normalizer的构建顺序：混合两个uncorrelated events的interaction points后tracking，才能包含close-pair clustering损失；tracking后只混两条γ不能无条件作为joint response。LG20-11的knownsource coefficients支持此特定验证，仍共享source/PSA/calibration，不成为独立spin赋值。
+
+LG20-12保留in-beam低peak/background及共同alignment的限制。[[tracking-array]]的明确toy证明独立events若共有单γbeam-axis density `1+A2P2`，cross-event pair-angle density仍含 `A2²/5 P2`；不是isotropic，也不是same-cascade量子关联的新测量。对energy/PID/FOM门后coincidence强度或angular fits，应记录mix stage、population/occupancy、accepted/unaccepted counts与normalizer covariance。没有acceptance的angle bins不能用除法补回。
+
 ## Sources
 
 [[schirmer-1984-double-gamma-40ca-90zr]] demonstrates a rare two-photon branch: delayed proton-gated events, Crystal-Ball multiplicity, Eq.(1) PAF kinematics, energy/angle cuts and polarization-assisted angular-correlation fitting are all needed to separate simultaneous photons from annihilation/Compton backgrounds. This is a two-photon-decay case, not a generic cascade-DCO recipe.

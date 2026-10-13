@@ -1,0 +1,78 @@
+{
+  "schema_version": 1,
+  "kind": "synthetic two-distance design and counterexamples; no source refit",
+  "formula_boundary": "own squared-variance derivation; literal source Eq4.4 is preserved and not executed",
+  "ideal_model": {
+    "k_keV_per_radian": 70.0,
+    "position_FWHM_mm": 5.0,
+    "baseline_FWHM_keV": 3.0,
+    "distances_mm": [
+      150.0,
+      235.0
+    ],
+    "widths_FWHM_keV": [
+      3.80058475033046,
+      3.349357890665702
+    ],
+    "reconstructed_position_FWHM_mm": 5.000000000000001
+  },
+  "width_covariance_examples": [
+    {
+      "rho_width_errors": -0.8,
+      "width_sigma_keV": 0.02,
+      "position_sigma_linear_mm": 0.21029182210638944,
+      "position_sigma_MC_mm": 0.21111637252735432,
+      "fraction_negative_p2": 0.0
+    },
+    {
+      "rho_width_errors": 0.0,
+      "width_sigma_keV": 0.02,
+      "position_sigma_linear_mm": 0.1570193544782494,
+      "position_sigma_MC_mm": 0.15724515349888904,
+      "fraction_negative_p2": 0.0
+    },
+    {
+      "rho_width_errors": 0.8,
+      "width_sigma_keV": 0.02,
+      "position_sigma_linear_mm": 0.07132674755452505,
+      "position_sigma_MC_mm": 0.07145527855844219,
+      "fraction_negative_p2": 0.0
+    }
+  ],
+  "first_point_distance_counterexample": {
+    "front_distances_mm": [
+      40.0,
+      140.0
+    ],
+    "self_chosen_depth_mm": 30.0,
+    "wrong_front_distance_inference_mm": 2.7169424432452978,
+    "correct_first_point_inference_mm": 5.0
+  },
+  "non_transferring_baseline_counterexample": {
+    "close_baseline_FWHM_keV": 3.3,
+    "far_and_heldout_baseline_FWHM_keV": 3.0,
+    "two_point_fitted_position_FWHM_mm": 6.296467553796165,
+    "heldout_distance_mm": 200.0,
+    "heldout_predicted_FWHM_keV": 3.5436011284030338,
+    "heldout_actual_FWHM_keV": 3.473110997362451
+  },
+  "small_leverage_example": {
+    "distances_mm": [
+      220.0,
+      235.0
+    ],
+    "width_sigma_keV": 0.05,
+    "negative_position_variance_fraction": 0.255168,
+    "boundary": "Gaussian measurement toy; do not clip negative estimates into a claimed p=0 measurement"
+  },
+  "verification": {
+    "ideal_reconstruction_passed": true,
+    "width_Jacobian_finite_difference_max_error": 4.058238189941221e-10,
+    "covariance_MC_passed": true,
+    "first_point_geometry_counterexample_passed": true,
+    "heldout_geometry_counterexample_passed": true,
+    "physical_boundary_checked": true,
+    "passed": true
+  },
+  "numpy_version": "2.5.3"
+}

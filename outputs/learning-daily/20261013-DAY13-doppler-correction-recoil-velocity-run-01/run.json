@@ -408,34 +408,22 @@
   "final_audit_current": false,
   "goal_completion_current": false,
   "last_research_checkpoint": {
-    "now_local": "2026-10-14T01:00:40.490662+08:00",
-    "minutes_to_deadline": 839.3251556333333,
+    "now_local": "2026-10-14T01:54:40.245714+08:00",
+    "minutes_to_deadline": 785.3292381,
     "status": "research-active",
-    "writeback_items": 43,
-    "mapped_pages": 19,
-    "decision": "continue-held-out-line-gate-likelihood-calibration",
-    "completed_day_indices": [
-      13
-    ],
-    "partial_day_indices": [
-      14
-    ],
+    "writeback_items": 56,
+    "mapped_pages": 22,
+    "decision": "continue-partial-vector-and-heterogeneous-PSA-response",
     "no_new_credit": true,
     "clock_queued_not_delivered": true
   },
   "last_clock_refresh": {
-    "now_local": "2026-10-14T01:00:40.490662+08:00",
-    "minutes_to_deadline": 839.3251556333333,
+    "now_local": "2026-10-14T01:54:40.245714+08:00",
+    "minutes_to_deadline": 785.3292381,
     "status": "research-active",
-    "writeback_items": 43,
-    "mapped_pages": 19,
-    "decision": "continue-held-out-line-gate-likelihood-calibration",
-    "completed_day_indices": [
-      13
-    ],
-    "partial_day_indices": [
-      14
-    ],
+    "writeback_items": 56,
+    "mapped_pages": 22,
+    "decision": "continue-partial-vector-and-heterogeneous-PSA-response",
     "no_new_credit": true,
     "clock_queued_not_delivered": true
   },
@@ -652,5 +640,98 @@
     ],
     "origin_matches_HEAD": true,
     "published_at": "2026-10-13T23:14:18.239562+08:00"
-  }
+  },
+  "continued_publication_history": [
+    {
+      "branch": "main",
+      "commit_subject": "Extend DAY13 natural-width and momentum-stage audit",
+      "commit_hash": "c914d4cb496eadbd9fb3046bf6bbbe8073824409",
+      "status": "published-active-checkpoint",
+      "scope": "active checkpoint; no state credit update or research closeout",
+      "files": [
+        "knowledge/index.md",
+        "knowledge/methods/doppler-correction.md",
+        "knowledge/methods/gamma-gamma-coincidence.md",
+        "knowledge/methods/level-scheme-reconstruction.md",
+        "knowledge/methods/tracking-array.md",
+        "knowledge/research-notes/doppler-forward-inverse-convention-check.md",
+        "knowledge/sources/aladili-2009-agata-doppler-simulation.md",
+        "knowledge/sources/crespi-2013-agata-high-energy-doppler-response.md",
+        "knowledge/sources/senyigit-2014-agata-neutron-rejection.md",
+        "knowledge/sources/tunl-2017-12c-level-widths.md",
+        "outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity-run-01/lineshape-source-before-recall.md",
+        "outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity-run-01/missing-momentum-source-before-recall.md",
+        "outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity-run-01/missing-momentum-stages-exercise.json",
+        "outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity-run-01/natural-width-source-before-recall.md",
+        "outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity-run-01/neutron-width-selection-exercise.json",
+        "outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity-run-01/neutron-width-source-before-recall.md",
+        "outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity-run-01/photon-recoil-width-exercise.json",
+        "outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity-run-01/reopened-checkpoint-audit-002.json",
+        "outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity-run-01/reopened-publication-manifest-002.json",
+        "outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity-run-01/research-checkpoint-reopened-004.json",
+        "outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity-run-01/research-checkpoint-reopened-005.json",
+        "outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity-run-01/run.json",
+        "outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity-run-01/voigt-gate-response-exercise.json",
+        "outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity.md",
+        "system/handoff.md",
+        "system/log.md",
+        "system/scripts/day13_missing_momentum_stages.py",
+        "system/scripts/day13_neutron_width_selection.py",
+        "system/scripts/day13_photon_recoil_width.py",
+        "system/scripts/day13_voigt_gate_response.py"
+      ],
+      "post_commit_reconciliation": {
+        "manifest_matches_commit": true,
+        "handoff_subject_pointer_matches": true,
+        "remote_main_matches_HEAD": true,
+        "index_empty": true
+      },
+      "H3_observed_commands": [
+        {
+          "argv": [
+            "git",
+            "fetch",
+            "origin",
+            "main"
+          ],
+          "exit_code": 0,
+          "evidence": "observed tool result in current session"
+        },
+        {
+          "argv": [
+            "git",
+            "merge-base",
+            "--is-ancestor",
+            "origin/main",
+            "HEAD"
+          ],
+          "exit_code": 0,
+          "evidence": "observed tool result in current session"
+        },
+        {
+          "argv": [
+            "git",
+            "push",
+            "--dry-run",
+            "origin",
+            "HEAD:main"
+          ],
+          "exit_code": 0,
+          "evidence": "observed tool result in current session"
+        },
+        {
+          "argv": [
+            "git",
+            "push",
+            "origin",
+            "HEAD:main"
+          ],
+          "exit_code": 0,
+          "evidence": "observed tool result in current session"
+        }
+      ],
+      "published_at": "2026-10-14T01:04:17.847375+08:00",
+      "window_remains_active": true
+    }
+  ]
 }

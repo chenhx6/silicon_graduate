@@ -3,7 +3,7 @@ type: method
 title: "γ-ray tracking array analysis"
 aliases: [tracking array, gamma-ray tracking array, γ-ray tracking array, GRETINA, AGATA, tracking-array response function]
 created: 2026-07-09
-updated: 2026-10-13
+updated: 2026-10-14
 status: ai-draft
 review_status: unreviewed
 method_type: gamma-ray-tracking
@@ -68,3 +68,56 @@ AK12-6的实际threeATCsource测试中，P/T从16.8%提高至53.9%，tracking/ra
 [[senyigit-2014-agata-neutron-rejection]] SY14-2/4的Ge-recoildeposits会在γenergy高能侧形成bumps；TOF-labelledγ不自动是目标核，附近材料真γ仍可留在g门。SY14-5/8的count-ratiodenominators与P/T分开，algorithm可能重组clusters，trackingefficiency不直接是binomialprobability。
 
 SY14-6/7定位body/table/conclusion的gatepredicate与Co列label冲突。acceptORgood与rejectORbad不互为补集，sign/equality也不能随意改写；未取得productionmgt/publisherversion和eventreplay前，保留literalconditions和reportedtables，不推荐自动实施某个假定cut。sourceTables2/3/4为同次数据或model比较，重复图/表不新增独立证据。
+
+## Tracking 参数的符号、单位与独立验证
+
+[[crespi-2023-agata-tracking-performance]] C23-4/5 在pp.7–8明确区分OFT调参与实际PSA响应。不同位置出现同一个θ符号，不意味着同一物理量：
+
+| 量 | 单位与对象 | 可用于哪一步 | 不能代替 |
+|---|---|---|---|
+| Doppler ∆θ/σθ | rad；photon对emitter vector的角误差 | energy Jacobian及joint covariance | OFT自由position参数或PSA的3D response。 |
+| OFT名为σθ的自由参数 | cm；用于计算Compton scattered-energy uncertainty的average position parameter | FOM/selection与软件调优 | 一个独立measured angular σ或位置分辨率测量。 |
+| PSA position FWHM/σ | mm；须声明energy、segment/depth、方向和分布 | first-IP几何、tracking和响应积分 | 所有能量/点位置的通用5mm。 |
+| simulation smear S0 | cm；Eq.(4)按deposit energy缩放的Gaussian假设 | 指定simulation benchmark | 已测event-specific uncertainty。 |
+
+source报告simulation/experimental OFT optimum从.24cm到.8cm、first-vertex weight从2到1；这是指定版本的数据调参context，不意味着PSA已测8mm FWHM，也不适用于其它code或2026版本。source用same-segment point merging、Gaussian smear和ideal/real geometry，现实response会改变FOM分布。
+
+C23-1/2还指出有限Compton-electron轨迹、bound-electron momentum与two-interaction ordering ambiguity使正确/错误FOM重叠。提高PSA precision仍有价值，但最高FOM或最高deposit并不自动是无歧义truth；C23-11对2010 PSA+1HitID的Mγ1、低background与旧pair-production代码条件必须保留。原GRETINA Longfellow实验保持其自身已审核范围。
+
+### Calibration transfer 的最小失败检查
+
+[[soderstrom-2008-agata-position-design]] SD08-5/6 的two-distance idea需要common nuisance与真实first-IP geometry；[[doppler-correction]]保存了平方差推导、third-distance失败检查和negative-p²边界。Static Compton imaging（C23-14）减少recoil nuisance，却仍使用simplified ordering/simulated response，不能称为完全无模型的独立PSA truth。
+
+独立particle vector、source image、held-out line/energy/location与geometry scan分别约束不同项。对同时更改PSA、FOM、threshold、材料和门的重放，应记录各阶段raw/selected spectra、FEP fraction、P-T、尾部和covariance；同一source的training/test split可检查统计过拟合，不能独自排除共享basis/coordinate/line-identity的系统误差。
+
+Material background也可能满足近source方向：C23-6 的PRISMA steel-block例子说明真正scatter路径不能从target-only FOM假定中消失。C23-12的P/T升高附带17% efficiency loss、C23-13对neutron rejection的使用范围，都不能转化为本run已经测定的transfer correction。
+
+C23-15明确把event-specific uncertainty与联合PSA/tracking改进列为尚未证明的建议；它提供可检验研究路线，需要真实packet与held-out验证，不作为既成性能结论。
+
+## 联合接受率、event mixing 与同束轴各向异性
+
+[[ljungvall-2020-agata-ganil-performance]] LG20-10/12 提供直接source-data比较：将uncorrelated **interaction points先混合、再tracking**，与tracking后再混两条独立γ所得normalizer不同。前者可保留两photon靠近时的clustering/PSA损失，后者只包含单photon响应的乘积，不能恢复joint acceptance `S12(n1,n2)`。此结论属于其highpeak/background source与指定OFT版本；同核beam events仍需另核验population/background/occupancy。
+
+### Response-level 定量反例
+
+[day13_event_mixing_acceptance.py](../../system/scripts/day13_event_mixing_acceptance.py)只构造full-sphere、positive smooth pair-acceptance模型，不重放OFT。令true角关联 `W(u)=1+.102P2(u)+.0091P4(u)`，系数参考LG20-11的theoretical source尺度，pair selection为明确自设函数。若normalizer只含single-response而漏掉pair selection，拟合得到a2≈−.165398、a4≈−.099697；matched joint normalizer恢复.102/.0091。256/512点积分收敛；相同knownsource系数不是本任务新测量或真实数据fit。
+
+真实接受率为零的bins无法通过除法恢复；小normalizer也会放大误差。复用同一mixed histogram为多个gates归一化，会共享统计/cut/basis covariance，不能把它们当独立实验。应保存normalizer构建的输入stage、event pool、energy/PID/rate条件、same/different-event定义与重复使用范围。
+
+### Independent events 仍可有共同 beam-axis shape
+
+在另一个独立toy里，各事件photon相互独立，但单photon方向密度都为
+
+$$q(\mathbf n)=\frac{1+A_2P_2(\mathbf n\cdot\hat z)}{4\pi}.$$
+
+对两独立draws，用addition theorem积分绝对方向后，pair-angle cosine u密度为
+
+$$g(u)=\frac12\left[1+\frac{A_2^2}{5}P_2(u)\right].$$
+
+若自设A2=1，cross-event pair a2=.2，a4=0；方向quadrature给.200000000000014，50万pairs MC给.199326±.003239（这里±仅MC标准误）。这是共同束轴的marginal anisotropy产生的angle structure，不能说“不同event”就等于isotropic normalizer，也不能把它当same-cascade γγ quantum correlation。
+
+另用isotropic目标shape去除以这个aligned normalizer，可得到spurious拟合a2≈−.190200、a4≈.018695；这是特意声明的另一个反例，未推导真实in-beam cascade必须如何归一化。实际beam correlation/population与response应联合处理，LG20-12的source→beam迁移限制不能省略。
+
+### Raw/postPSA 与独立性边界
+
+LG20-1 明确postPSA points只能重放后续event merging/tracking；重新跑PSA需要原traces和basis/calibration，不凭final tracked photons重建缺失IP。LG20-7/8/14的Doppler position estimate使用independent VAMOS vector和energy-dependent 1D IP FWHM模板，不把5.1mm平均值当所有角度/能量的σ。C23-7/12重复本篇source benchmark，不增加acquisition数；VD16同设施98Zr路线无runmanifest时也不默认独立。

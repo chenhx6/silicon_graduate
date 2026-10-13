@@ -1634,3 +1634,10 @@ Following the user question about the missing Day8 prompt, the formal Day8 card 
 - SY14直接15页preprint与T12C selected online evaluation tables提供cut-contract/width/branch/version边界；raw保留槽未填充，公开copy只在tmp。
 - 四个新练习分别检验neutron cut predicate、photon two-body recoil、Voigt finite-gate及missing momentum stage，验证均通过；reusable方法/反证同步knowledge与唯一writeback43items/19mappedpages。
 - lint0errors/104warnings、protected/report/card/path与diff检查通过；当前窗口仍active，后续held-out line/gate与likelihood设计。继承Day6–9/daemon/log修改排除，不等同最终closeout。
+
+## [2026-10-14T01:54:40.245714+08:00] learning | DAY13 position and joint-acceptance checkpoint
+
+- SD08 two-distance提案、C23 tracking review与LG20 primary GANIL response均读直接public全文；metadata/printed/build/version边界保留，raw未变。
+- 新增two-distance、gated conditional likelihood与joint event-mixing练习；解析/finite-difference/limits/积分/MC通过，56items/22pages canonical writeback通过。
+- 0errors/110warnings、report/card/protected/path/diff通过，checkpoint发布后仍active，原15:00截止不变。课程next14/count13不重计，Day14partial/无Day15。
+- legacy Day6–9/daemon/log修改排除；下一route partial vector和heterogeneous response，不把更窄peak或same-event replay当独立标定。

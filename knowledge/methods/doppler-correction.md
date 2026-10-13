@@ -207,6 +207,8 @@ $$\frac{J_\beta}{f}=\frac{\beta-c}{(1-\beta^2)(1-\beta c)},\qquad
 
 固定速度与几何的整体误差产生 signed bias；随机 spread 才进入 variance，不能把二者混为一个 σ。
 
+[[crespi-2023-agata-tracking-performance]] C23-8 的原Eq.(7)独立给出相同导数，且明确说明其Eq.(6)为简化而忽略correlation。`Jβ=E_lab γ³(β−cosθ)`，故在固定lab angle的一阶速度敏感度为零时，`cosθ=β`；β=.07/.20/.50对应约85.986°/78.463°/60°。90°只是β→0的近似。这个零点并不使photon-angle uncertainty或intrinsic response消失，也不是总分辨率/efficiency的普遍最优角度。
+
 **自设例题：** `E0=1000 keV, β=0.07, σE_lab=1 keV, σβ=0.002, σθ=2°`，先取三项独立；所有数值均非 Mavela 或 Klemme 测量。
 
 | θ_lab | E_lab (keV) | E0 反演 (keV) | energy / β / angle signed σ contributions (keV) | 合成 σE0 (keV) |
@@ -566,3 +568,79 @@ $$E_{\gamma,CN}=E_{\gamma,r}\gamma_r(1+\beta_r\cos\vartheta),\quad
 令已测总四动量 `C=Pt+k`、未测neutron为q、初始母核质量Mi已知，则 `Pi=C+q`、`Pi²=Mi²` 只固定C-rest系中的neutron能量，仍留方向自由度。代码给相同terminal four-vector/1-MeV observed photon、相同Mi的三种方向解；earlier-parent rest photon energy分别为1000.504691、1000.000127、999.495564keV。中间核质量也随之变化，明确是**未知中间态**的条件反例。
 
 若指定了同一个已知中间态，其invariant约束会减少这组自由度；完整测得后续particles/γ则可按四动量求和恢复parent。target loss、spectrometer trajectory、charge state和各阶段的event covariance还需实测/校准packet。应先画清 `compound → post-evaporation emitter → post-target-γ daughter → terminal residue`，确认存在的emissions与material crossings，再传播误差；不能把一个平均boost、一次TOF或末端PID等同于所有阶段速度。
+
+## 两距离 position 标定：消去哪一项，留下哪些假设
+
+[[soderstrom-2008-agata-position-design]] SD08-3/5/6 提出改变detector distance以减少reaction Monte Carlo依赖，并明确讨论近距离angle coverage/curved face造成的偏差。原p7 Eq.(4.4)印刷用未平方的W与1/d差；本页保留这个locator，不把下式写成作者已核准的更正或生产代码。
+
+### 声明模型下的平方差
+
+设同一line、同一β/angle及可迁移response的 **Gaussian** FWHM满足
+
+$$W(R)^2=B^2+\frac{k^2p^2}{R^2},\qquad
+p^2=\frac{W_c^2-W_f^2}{k^2(R_c^{-2}-R_f^{-2})}.$$
+
+`B` 为确实相同的其它Gaussian宽化（keV），`p` 为一个相关方向的projected position FWHM（mm），`R` 是source到first-IP的有效距离（mm），`k` 为angular sensitivity（keV/rad）；在正确90°、E0固定的简化例中 `k=E0β`。点geometry只在small-angle和已声明p分布条件下使用，不将front-face距离无条件代入。此式是本任务推导，不能推广为任意尾部/Voigt/多线的FWHM平方和。
+
+两不同R使 `[1,1/R²]` 两参数设计矩阵rank2，可同时估B²与k²p²；相同geometry内多测一个总宽度没有这个杠杆。它改变了此前固定geometry的width-only多解条件，但只在B/k/p确实可迁移时成立。两点也总能拟合这两个参数，不能仅以零残差证明模型正确。
+
+### 定量误差与失败检查
+
+[day13_two_distance_resolution.py](../../system/scripts/day13_two_distance_resolution.py)自设E0=1000keV、β=.07、k=70、p=5mm、B=3keV、R150/235mm，精确反演得5mm。两宽度measurement σ各.02keV时，ρ从−.8/0/+.8变动，p的linear σ分别.21029/.15702/.07133mm；MC最大relative差<.4%。共同误差在差量中可部分抵消，独立计算两份error不一定正确。
+
+两个条件反例说明需要哪些伴随记录：
+
+- 自设front distances40/140mm、两个first-IP均在其后30mm，若错用front distances，真实5mm会估成2.71694mm；用真实70/170mm距离恢复5mm。这不是source测得30mm平均深度。
+- 近distance的B由3.0变为3.3keV，而far/held-out200mm仍为3.0，two-point fit给p=6.29647mm；其200mm预测FWHM3.54360keV与实际toy3.47311keV不同。第三geometry提供失败检查，但仍共享同一detector/calibration，不算另一个独立实验。
+
+另自设R220/235mm、宽度σ.05keV，Gaussian measurement模拟约25.5%的 `p²` 估计为负；这是小几何杠杆与误差下的边界问题。不能静默clamp后把p=0写成已测分辨率，应报告原估计/likelihood、physical constraint和上限/区间的定义。
+
+实际最小packet包括每geometry的target/first-IP/tilt、能量/角度接受率、particle vector及covariance、PSA/algorithm/version、同一line/peakfit/background定义、宽度间covariance和held-out geometry/energy。它们未取得时，两距离只能作为可检验设计。原SD08与AA09有共享模型谱系；2023综述 [[crespi-2023-agata-tracking-performance]] C23-4/5/8/14又说明PSA/FOM/static image的共同假设，不增加独立acquisition数。
+
+## 门选择后的 likelihood 与未参与优化的验证
+
+[[crespi-2023-agata-tracking-performance]] C23-4/5/12 提供FOM/单hit选择影响响应与效率的source语境；[[senyigit-2014-agata-neutron-rejection]] SY14-5/6/8/9 表明执行stage、threshold与计数分母还必须明确。下面的likelihood是本任务通用统计推导，未宣称来源已使用该式或某实验原拟合有偏。
+
+### 条件分布必须归一化
+
+若原observed energy残差分布为 `f(x|η)`，固定门/选择为 `S(x)`，则选中样本的density是
+
+$$f_S(x|\eta)=\frac{S(x)f(x|\eta)}{Z(\eta)},\qquad
+Z(\eta)=\int S(x)f(x|\eta)\,dx.$$
+
+`η`可含centroid/width/β/calibration/feeding参数；若Z随它们变化，不能从likelihood中删除。对已知fixed [a,b] Gaussian门，`Z=Φ((b−μ)/σ)−Φ((a−μ)/σ)`。Naive普通Gaussian fit拟合的其实是被截断的样本moments，不能把较小σ等同更好的母分布resolution。
+
+[day13_gated_likelihood.py](../../system/scripts/day13_gated_likelihood.py)自设母Gaussian μ1.2keV、σ2keV、固定门[−2,+2]keV，模拟100万条：
+
+| 拟合与可用输入 | μ (keV) | σ (keV) | 解释 |
+|---|---:|---:|---|
+| 忽略门的普通Gaussian | .342411 | 1.050582 | 被截断样本的mean/σ；不是原resolution。 |
+| 含Z的conditional likelihood | 1.203206 | 2.005365 | 在正确Gaussian/selection模型下恢复母参数。 |
+| conditional加已知总trials的binomial selection likelihood | 1.195847 | 1.998986 | 总trials在toy中已知，额外接受率信息参与约束。 |
+
+归一化误差 `<5×10⁻16`，门内mean/接受率MC、无门Gaussian极限和参数回收通过。Near-Z=1用Gaussian outside-tail的log概率计算，避免把舍入为1的Z当作无外侧events的证据。真实母谱未必Gaussian，还有背景/邻线、response、time/particle/FOM多变量选择；toy回收不能成为实际velocity测量。
+
+### 强度与 shape 的不同信息
+
+若总入射yield为N0、detector efficiency为ε，expected selected count为 `N0 ε Z(η)`。只有归一化门内shape不会提供N0；只给selected count又不能同时辨识N0/ε/Z。已知总trials的binomial项在toy中提供信息，真实run若无beam/source normalization与response不能假造这个输入。
+
+实际extended likelihood应声明expected rate、门内shape与背景/mixture，再传播shared calibration/acceptance covariance。若门在拟合中随β/峰心移动，需重新定义selection和原event sample；本例只验证预先固定的门，不能直接移植为移动门的normalizer。
+
+### 哪些 held-out 检查有额外约束
+
+| 检查 | 能排除的失败 | 仍共享的边界 |
+|---|---|---|
+| 同source事件training/test split | 有限样本调参过拟合、随机波动 | 同basis/coordinate/gain/line identity的systematic会一起通过。 |
+| 不参与β/FOM优化的已知line，跨energy/angle | 特定line的centroid/width拟合无法迁移 | feeding/velocity history不同可造成合法差异，需matched或independently known控制。 |
+| 第三geometry或static image/particle vector | 在common-baseline或beam nuisance上增加失败检查 | 同PSA/code/calibration仍可共享，且geometry接受率需重算。 |
+| 固定gate/FOM/threshold scan | counts/centroid/tails对selection的依赖 | 同一event重放高度相关，不能当多次实验提高显著性。 |
+
+[[crespi-2013-agata-high-energy-doppler-response]] CR13-2用同谱优化mean vector不等同未参与优化的独立速度验证；[[vandebrouck-2016-vamos-dual-position-mwpc]] VD16-3的particle信息是互补约束而不是同谱窄化代用品。最小packet还需unselected/staged counts、gate定义、response/ε、rate归一化、line身份与joint covariance。缺输入时保存可证伪预测与readiness，不把多个toy的成功叠加成实验L4。
+
+### GANIL 的直接 Doppler-position 对照
+
+[[ljungvall-2020-agata-ganil-performance]] LG20-7/8/9/14 把98Zr line的width映射到六个detector的position response：VAMOS给particle vector，方向在该分析中近似精确，speed contribution另从mass-resolution输入添加；Geant4保留target energy loss/straggling和VAMOS acceptance。其IP law `∆ri=1.9+4.4√(100keV/Ei) mm FWHM` 是energy-dependent **one-dimensional FWHM**，不是角σ或每个point同样的5.1mm。实验/模拟peak宽均作Gaussian fits，然后用scale/interpolation比较，不能假定此近似适用于未知tail/overlap/feeding的其它line。
+
+该source给平均5.1mm、六detector3.7–6.1mm与平均估计误差1mm；作者明确提醒sample spread也可来自统计误差。它是具有独立vector约束的实际method benchmark，不是原width-only rank2模型被全局否定，也不能取代本run缺失的production/code/event/covariance。
+
+LG20-10/12又直接证明tracking的联合接受率影响γγ normalization。只有能量峰恢复，还不能从source效率直接获得实际beam angular/coincidence效率；[[tracking-array]]保存mix-stage与common-axis反例。LG20与C23-7/12是primary/review依赖谱系，VD16同设施98Zr case没有runmanifest时也不默认独立复测。

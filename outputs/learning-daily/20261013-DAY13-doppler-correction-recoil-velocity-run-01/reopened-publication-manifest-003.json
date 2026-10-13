@@ -1,0 +1,32 @@
+{
+  "branch": "main",
+  "subject": "Add DAY13 position-calibration and joint-acceptance study",
+  "scope": "active checkpoint; no new course credit or research closeout",
+  "files": [
+    "knowledge/index.md",
+    "knowledge/methods/doppler-correction.md",
+    "knowledge/methods/gamma-gamma-coincidence.md",
+    "knowledge/methods/tracking-array.md",
+    "knowledge/sources/soderstrom-2008-agata-position-design.md",
+    "knowledge/sources/crespi-2023-agata-tracking-performance.md",
+    "knowledge/sources/ljungvall-2020-agata-ganil-performance.md",
+    "outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity.md",
+    "outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity-run-01/run.json",
+    "outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity-run-01/position-primary-source-before-recall.md",
+    "outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity-run-01/gated-likelihood-source-before-recall.md",
+    "outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity-run-01/ganil-primary-source-before-recall.md",
+    "outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity-run-01/event-mixing-source-before-recall.md",
+    "outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity-run-01/two-distance-resolution-exercise.json",
+    "outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity-run-01/gated-likelihood-exercise.json",
+    "outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity-run-01/event-mixing-acceptance-exercise.json",
+    "outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity-run-01/research-checkpoint-reopened-006.json",
+    "outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity-run-01/reopened-checkpoint-audit-003.json",
+    "system/scripts/day13_two_distance_resolution.py",
+    "system/scripts/day13_gated_likelihood.py",
+    "system/scripts/day13_event_mixing_acceptance.py",
+    "system/handoff.md",
+    "system/log.md",
+    "outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity-run-01/reopened-publication-manifest-003.json"
+  ],
+  "excluded": "inherited Day6–9/daemon/log, raw/PLAN/credentials, runtime clocks and tmp"
+}

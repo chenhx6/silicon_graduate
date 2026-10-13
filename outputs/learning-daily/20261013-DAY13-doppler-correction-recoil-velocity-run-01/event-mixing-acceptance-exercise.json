@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "kind": "synthetic joint-acceptance and independent-axis-photon exercise",
+  "source_scale_boundary": "LG20-11 central theoretical source coefficients supply scale only; all response choices and beam A2 are self-chosen",
+  "pair_response_fixture": {
+    "true_a2": 0.102,
+    "true_a4": 0.0091,
+    "after_tracking_product_normalizer_fit": {
+      "scale": 0.9225842298054371,
+      "a2": -0.16539790903587778,
+      "a4": -0.09969674795678155
+    },
+    "before_tracking_matching_joint_normalizer_fit": {
+      "scale": 1.0,
+      "a2": 0.1020000000000001,
+      "a4": 0.00910000000000001
+    },
+    "pair_acceptance_min": 0.4000073880911531,
+    "boundary": "full-sphere geometry; before/after are response-level fixtures, not replay of actual OFT"
+  },
+  "independent_beam_axis_fixture": {
+    "self_chosen_single_photon_A2": 1.0,
+    "sample_size": 500000,
+    "predicted_pair_a2": 0.2,
+    "quadrature_pair_a2": 0.20000000000001433,
+    "quadrature_pair_a4": 2.0570703343839036e-16,
+    "MC_pair_a2": 0.1993256399857709,
+    "MC_a2_standard_error": 0.0032385535840415195,
+    "MC_pair_a4": -0.0006338816088955216,
+    "MC_a4_standard_error": 0.004350619241383662,
+    "isotropic_fixture_divided_by_aligned_normalizer_fit": {
+      "scale": 1.007666313463454,
+      "a2": -0.19019970601935796,
+      "a4": 0.018694561358118783
+    }
+  },
+  "verification": {
+    "correct_joint_response_recovers_coefficients": true,
+    "quadrature256_512_converged": true,
+    "addition_theorem_checked_by_orientation_integral_and_MC": true,
+    "zero_pair_response_limit_passed": true,
+    "passed": true
+  },
+  "boundaries": [
+    "Not real detector geometry, event replay, alignment, spin assignment or mixing ratio.",
+    "Zero-acceptance angular bins cannot be restored by division.",
+    "A reused mixed-event histogram and same-source calibrations generate shared statistical/systematic covariance."
+  ],
+  "numpy_version": "2.5.3"
+}
