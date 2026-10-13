@@ -1660,3 +1660,8 @@ Following the user question about the missing Day8 prompt, the formal Day8 card 
 - LS23/C019 fullsource+plots已核，EXO angularselection与postdegrader/FPstage、RF/energy/PID、progressreport nofinalτ均写回；Ref11metadata为17C，已排错候选。
 - 三stage/survival/τ-Eshape设计exercise验证通过；12publicrawslots未填充、model vsreport vsinference保持分层。83items/26pageswriteback及lint0errors/116warnings、boundary/report/card/protected/diff通过。
 - active至原15:00，course next14/count13不重计、Day14partial/无Day15。LegacyDay6–9/daemon/log、raw/PLAN/credentials排除stage；下directcalibration APB50p625和velocity-outputstage。
+
+
+## 2026-10-14 07:40 — DAY13 calibration checkpoint
+
+同run/session持续：Ziliani2019 directtime/energycalibration与18Oshort/longreference已写回knowledge；sameJuly2017lineage、percentwidthdefinition与environmentMgbranch边界保留。89items/27mappedpages，lint0errors/118warnings，report/card/writeback/boundary/protected/publichash通过；原deadline仍active，不再计卡。main / `Add DAY13 calibration and reference-line controls`。

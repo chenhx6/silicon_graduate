@@ -8,7 +8,7 @@ status: ai-draft
 review_status: unreviewed
 scope: doppler-recoil-vector-response-validation
 confidence: medium
-sources: [mavela-2019-32s-quadrupole-moment-doppler-correction-thesis, klemme-1999-lifetimes-134nd-neighbors, vandebrouck-2016-vamos-dual-position-mwpc, crespi-2013-agata-high-energy-doppler-response, aladili-2009-agata-doppler-simulation, akkoyun-2012-agata-instrument-response, senyigit-2014-agata-neutron-rejection, tunl-2017-12c-level-widths, soderstrom-2008-agata-position-design, crespi-2023-agata-tracking-performance, ljungvall-2020-agata-ganil-performance, assie-2021-mugast-agata-vamos, lemasson-2023-agata-vamos-fission-history, ciemala-2019-20o-dsam-analysis-status]
+sources: [mavela-2019-32s-quadrupole-moment-doppler-correction-thesis, klemme-1999-lifetimes-134nd-neighbors, vandebrouck-2016-vamos-dual-position-mwpc, crespi-2013-agata-high-energy-doppler-response, aladili-2009-agata-doppler-simulation, akkoyun-2012-agata-instrument-response, senyigit-2014-agata-neutron-rejection, tunl-2017-12c-level-widths, soderstrom-2008-agata-position-design, crespi-2023-agata-tracking-performance, ljungvall-2020-agata-ganil-performance, assie-2021-mugast-agata-vamos, lemasson-2023-agata-vamos-fission-history, ciemala-2019-20o-dsam-analysis-status, ziliani-2019-agata-calibration-controls]
 tags: [doppler-correction, velocity-information, calibration, covariance, evidence-contract]
 ---
 
@@ -114,6 +114,8 @@ P2/P3：导航/anchor关系按本run writeback检查；不改变source/claim rev
 [[lemasson-2023-agata-vamos-fission-history]] LS23-5/6/8/11细化angularcomparison、post-degrader U/S与FPdelayedhistory；[[ciemala-2019-20o-dsam-analysis-status]] CO19-3/6/9/13明确sharedRF/energy/PID校准、jointτ/Eγ和preliminaryno-final-result。它们补充上述contract，不把方法benchmark、modelpredictions或historyselection变成新测量/absoluteB。
 
 ## Sources
+
+新增 [[ziliani-2019-agata-calibration-controls]] ZL19-2/4/6/7/8/9实际time/energy/historycontrols；与CO19同data。Calibrationwidth、energyanchorprecision、actualcentroidΣ、independentvelocity与absolutephotonintensity仍分开，完整predicate/config/Σ未取得。
 
 具体atomiclocators列在EvidenceMatrix、contract与triage中；sourcepages均有URL/raw或public-copy fingerprint、阅读范围、claim kind与限制。详细公式及代码入口在 [[doppler-correction]]、[[tracking-array]]、[[gamma-gamma-coincidence]]；本页不能替原始文献事实源。
 

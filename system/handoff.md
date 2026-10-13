@@ -8,9 +8,11 @@ updated: 2026-10-14
 
 ## Active handoff — DAY13 continuous study reopened by user
 
+最新持续checkpoint（2026-10-14 07:40 Asia/Shanghai）：ZL19直接校准、timestamp/energyanchors、1938.2keV短τ/1981.93keV长τ controls及same2017data边界已写回，89items/27mappedpages，lint0errors/118warnings、boundary/report/card/protected通过。原截止仍余439.3分钟；下一route 20O2020 PRC与2023 PRL及SI，两个独立实验150fs/70fs的velocity/feeding/jointenergy解释尚需独立sourcecard和L3对照。run/goal持续active；课程不重复推进。活动发布pointer main / `Add DAY13 calibration and reference-line controls`，exact hash只在receipt。
+
 2026-10-13 21:06 Asia/Shanghai，用户要求持续学习Day13、不要中断。仍为run `2026-10-13-day-13-01` / session `01a13489-64ba-7930-9a2c-291375d95ad0`，原硬截止 `2026-10-14T15:00:00+08:00`；回执status恢复running，历史完成/发布保留。课程state已next14/count13，保留已授予的Day13卡学分、不重复计卡、不启动正式Day14或Day15。继续用同一resume command和日报；原17:51全窗口饱和判断收束过早，现在拓宽Day13的事件速度、位置、有限角度、能损/发射历史、重建顺序及门迁移/效率问题。
 
-最新持续checkpoint（2026-10-14 05:57 Asia/Shanghai）：12份public source已读，新增LS23(12页fissionreview)、CO19(10页官方progressreport)。LS23明确98Zr EXOGAM15all/7back vsAGATA5不同角范围、postdegraderU/S及FPdelayed。CO19实际18O+Ta、nonMUGAST；200/320fs是model、jointτ/Eγ还待fit，没有finalmeasuredτ。Ref11 PLB135939查明17C，只metadata、从20Oprimary route排除。
+前一持续checkpoint（2026-10-14 05:57 Asia/Shanghai）：12份public source已读，新增LS23(12页fissionreview)、CO19(10页官方progressreport)。LS23明确98Zr EXOGAM15all/7back vsAGATA5不同角范围、postdegraderU/S及FPdelayed。CO19实际18O+Ta、nonMUGAST；200/320fs是model、jointτ/Eγ还待fit，没有finalmeasuredτ。Ref11 PLB135939查明17C，只metadata、从20Oprimary route排除。
 
 Degrader/properclock/feeding、delay survival/velocityselection、τ/Enormalizedshape-design三exercise通过独立积分/MC/limits；expectedKLmetrics非actualχ²/CL/force证据。Canonical83items/26mappedpages、lint0errors/116warnings（12raw未归档、101citationkeys、3parser）、boundary/report/card/protected/diff通过。实际class/correctionβstage、RF/energy/PID covariance仍readiness boundary，无L4实验fit。
 

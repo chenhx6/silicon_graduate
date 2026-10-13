@@ -151,3 +151,11 @@ Lightparticle/重离子信息能改善Doppler（AS21-8），addedmaterial/trigge
 [[crespi-2023-agata-tracking-performance]] C23-10的1229.9打印值与本directreference的1222.9不同，继续保留原text与新locators；不把review省略的条件补写成原文完全一致。LS23-1/7的Exp1–4与VD16/LG20run绑定也需manifest，不能只同nuclide/facility合并数据。
 
 [[ciemala-2019-20o-dsam-analysis-status]] CO19-10/11/12提供source simulation/current-photon/late-ion/response链的另一个例子。Code与data的相同tracking流程很有用，仍需要输入β/vertex/energyframe的stageidentity；modeltruth与late-measurement uncertainty不能在字段名“emittervelocity”下混合。
+
+## Time replay、core recovery 与响应类型
+
+[[ziliani-2019-agata-calibration-controls]] ZL19-2/4/5在同实验中通过fullreplay修正GGPtimestamps、以static/environmentenergyanchors校准core，并从segments恢复badcore14A/11C的energy。Timegating、core/segmentsenergy、PSApositions和velocityhistory是不同layer；energy恢复不由本篇单独证明basis/firstpointresolution恢复。
+
+ZL19-6 TableI 2754keV的resolution从.22%至.16%，适用其source/replay配置，σ/FWHM未explicit给出，不能用作所有beamangles的Gaussianσ。环境2754.007(11)keVMgline做energyanchor仍需origin标签，不能作为Eu-sourcebranch求efficiency。
+
+ZL19和CO19互引同dataset、同calibration/velocity与后续simulation，补充的是不同checks，不能多计experiment。Actualrawtrace/config/parameters、percrystalcore/segment/basis及Σ仍是L4packet缺口。

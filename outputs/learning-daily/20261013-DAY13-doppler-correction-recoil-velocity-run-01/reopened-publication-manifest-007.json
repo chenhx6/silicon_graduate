@@ -1,0 +1,22 @@
+{
+  "branch": "main",
+  "subject": "Add DAY13 calibration and reference-line controls",
+  "scope": "active checkpoint; no new course credit or research closeout",
+  "files": [
+    "knowledge/index.md",
+    "knowledge/methods/doppler-correction.md",
+    "knowledge/methods/tracking-array.md",
+    "knowledge/synthesis/doppler-velocity-validation-contract.md",
+    "knowledge/sources/ciemala-2019-20o-dsam-analysis-status.md",
+    "knowledge/sources/ziliani-2019-agata-calibration-controls.md",
+    "outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity.md",
+    "outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity-run-01/run.json",
+    "outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity-run-01/agata-calibration-source-before-recall.md",
+    "outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity-run-01/reopened-checkpoint-audit-007.json",
+    "outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity-run-01/research-checkpoint-reopened-010.json",
+    "system/handoff.md",
+    "system/log.md",
+    "outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity-run-01/reopened-publication-manifest-007.json"
+  ],
+  "excluded": "inherited Day6–9/daemon/log, raw/PLAN/credentials, tmp/runtimeclock files"
+}

@@ -844,3 +844,17 @@ CO19-9的jointτ/Eγ要求可用一项声明的designexercise检验，不能以�
 自设N1000/10000时，expected`2N KL`约56.87/568.70仅是**此exact model下的designinformation metric**，不是sourceχ²、CL或NNNforce证据。Restenergy可吸收centroid差，fullshape可能保留更多tail/mixture信息；若真实stopping/feeding/response/calibration uncertain，它们还可削弱或改变这个辨识性。
 
 Profile归一化与96/192timequadrature差<2.2×10⁻15，independentimportanceMC mean最大差.00353keV；no-loss、largeτoutside与same-modelKL0极限通过。τ.20/.32只是sourceCO19-1理论scale-inspired hypotheses，不是本任务测得值或physics-modelranking。实际jointfit应保存template/version/Σ与independent energycalibration/held-outline条件。
+
+## Direct calibration controls 与 history 控制的边界
+
+[[ziliani-2019-agata-calibration-controls]] ZL19-1/2/4/8/9给同July2017experiment的实际checks：GGPcrystal TS重放对齐后，tightpromptgate使P/B提高>2、photopeakcounts损失<4%；coreenergy用Eu/AmBe及中间Pb/Mg环境energyanchors。既是有价值的data preparation，也不能把P/B换成P/T、countsretention换absoluteε、resolution换centroidaccuracy/Σ。
+
+该直接reference把CO19-8的known~27fs18Ocontrol定位到1938.2(2)keV（printedτ26.5(29)fs），1981.93(9)keV则对应τ2.80(7)ps。两近energyline在同isotope标签下有不同centroid/shape角趋势，支持target-emissionhistory检查；仍需matchingpopulation/feeding/velocity与response，不能宣称每个gate/γ是independentreplication。静止energyanchor与knownshortτcontrol检查不同项，不能为了窄峰把shortline的physicalshift强制归零。
+
+ZL19-6的百分比resolution并未全文明示σ/FWHM；ZL19-7的2754.007keV为Mg环境energyreference，不是Eu-decay分支。Doingenergycalibration与usingknownper-sourcephotonintensity做absolute ratecalibration需要不同输入，source-spectrum同出现不保证同emitter或normalization。
+
+### Shared calibration references 的协方差
+
+对各crystal线性energyfit `E=a_k+g_k channel`，同一referenceenergy误差会共同进入多个(a_k,g_k)。若独立centroid统计误差σstat相同、另有commonzero误差σsys，N个等权crystal合并后的简单模型为 `σmean²=σsys²+σstat²/N`，而不是把common项也除N。这是本任务variance分解，不是ZL19报告的实际uncertainty。
+
+自设σsys=.10keV、σstat=.20keV、N31，得到σmean≈.106255keV；若把totalerror当31份完全independent则≈.040161keV。SourceTableI的widthpercent、tabulatedanchorerror或lastfitresidual都不能单独给出这两个输入。需要referenceΣ、channelcentroid/fitcovariance、run-time stability与energy-dependentresponse，并在held-outline/angle上核验transfer；共有RF/energy/calibration不能重复计独立证据。

@@ -9,6 +9,8 @@ updated: 2026-10-14
 
 ## Sources
 
+- [[ziliani-2019-agata-calibration-controls]] - 同July2017data的timealign/energyanchors/coresegment与18O1938.2short/1981.93longcontrols；percentwidth/precision、环境line/sourcebranch分开。
+
 - [[ciemala-2019-20o-dsam-analysis-status]] - 2019progressreport：RF/energy/PID联合校准、20O angletrend与jointτ/Eγplannedfit；200/320fs非已测值，data不是MUGASTtransfer。
 - [[lemasson-2023-agata-vamos-fission-history]] - 12页fissionreview：EXOGAM15(all)/7(back)对AGATA5、postdegraderS/U与FPdelayedhistory；Exp1–4/lineage边界。
 

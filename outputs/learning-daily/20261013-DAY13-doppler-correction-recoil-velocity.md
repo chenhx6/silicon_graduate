@@ -266,6 +266,12 @@ Ref11 PLB135939 identity查核为17C，仅metadata候选、不用作20O backingp
 
 归一化/timequadrature/independentMC/no-loss/largeτ/identicalKL极限通过。实际CO19 jointτ/Efit仍未在2019报告给出，stopping/feeding/response/Σ不全，未借toy量化actualτ。新Ref11 bibliographyclaimAS21-18及所有design参数/边界已canonical写回，learningactive，后续check/publish与直接calibration来源，不开新课程卡。
 
+### 持续 Day13：direct calibration 与 reference covariance
+
+[[ziliani-2019-agata-calibration-controls]]官方7页全文/TableI/Fig4核验，sameJuly2017data与CO19互引。GGPtimestampsreplay对齐、tightpromptgate提高P/B>2且photopeakcounts损失<4%；corecal用Eu/AmBe及2–3MeV背景Pb/Mganchors，14A/11C借segmentsenergy恢复。TableI是resolution%未explicitσ/FWHM；2754.007Mg背景线不能当Eu-decaybranch算ε。
+
+DirectRef8明确18O1938.2(2)短τprinted26.5(29)fs、1981.93(9)长τ2.80(7)ps；不同history的近energycontrols辅助排共有calibration趋势，sameexperiment不算独立两数据。Source仍preliminary，不补final20Oτ。Commonenergyreference也不会因31crystals按√31消失；简单Σ示例已canonical，数字自设不等TableIaccuracy。所有事实/locator/transfer条件同步methods/source/synthesis/index，研究active。
+
 ## Counter-evidence and missing companion observables
 
 1. Klemme Fig.1同一line有距离相关shifted/unshifted分量，反驳“两个峰必是两条跃迁”；Table I的6g+从1.38到corrected1.63ps增加18.1%，显示finite stopping影响寿命。
@@ -2269,6 +2275,188 @@ Ref11 PLB135939 identity查核为17C，仅metadata候选、不用作20O backingp
           "locator": "AS21-18"
         }
       ]
+    },
+    {
+      "knowledge": "knowledge/sources/ziliani-2019-agata-calibration-controls.md",
+      "anchor": "ZL19-8",
+      "summary": "7页directtime/energy/historycontrols、TableI/Fig4核验；sameJuly2017data、percentagewidth/origin/νlifetime层级。",
+      "sources": [
+        {
+          "path": "knowledge/sources/ziliani-2019-agata-calibration-controls.md",
+          "locator": "ZL19-1"
+        },
+        {
+          "path": "knowledge/sources/ziliani-2019-agata-calibration-controls.md",
+          "locator": "ZL19-2"
+        },
+        {
+          "path": "knowledge/sources/ziliani-2019-agata-calibration-controls.md",
+          "locator": "ZL19-3"
+        },
+        {
+          "path": "knowledge/sources/ziliani-2019-agata-calibration-controls.md",
+          "locator": "ZL19-4"
+        },
+        {
+          "path": "knowledge/sources/ziliani-2019-agata-calibration-controls.md",
+          "locator": "ZL19-5"
+        },
+        {
+          "path": "knowledge/sources/ziliani-2019-agata-calibration-controls.md",
+          "locator": "ZL19-6"
+        },
+        {
+          "path": "knowledge/sources/ziliani-2019-agata-calibration-controls.md",
+          "locator": "ZL19-7"
+        },
+        {
+          "path": "knowledge/sources/ziliani-2019-agata-calibration-controls.md",
+          "locator": "ZL19-8"
+        },
+        {
+          "path": "knowledge/sources/ziliani-2019-agata-calibration-controls.md",
+          "locator": "ZL19-9"
+        },
+        {
+          "path": "knowledge/sources/ziliani-2019-agata-calibration-controls.md",
+          "locator": "ZL19-10"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/methods/doppler-correction.md",
+      "anchor": "Direct calibration controls 与 history 控制的边界",
+      "summary": "静止energyanchors、18Oshort/longcontrol与sharedreferencecovariance；不强制physicalshortshift归零、不用tablewidth当centroidσ。",
+      "sources": [
+        {
+          "path": "knowledge/sources/ziliani-2019-agata-calibration-controls.md",
+          "locator": "ZL19-2"
+        },
+        {
+          "path": "knowledge/sources/ziliani-2019-agata-calibration-controls.md",
+          "locator": "ZL19-4"
+        },
+        {
+          "path": "knowledge/sources/ziliani-2019-agata-calibration-controls.md",
+          "locator": "ZL19-6"
+        },
+        {
+          "path": "knowledge/sources/ziliani-2019-agata-calibration-controls.md",
+          "locator": "ZL19-7"
+        },
+        {
+          "path": "knowledge/sources/ziliani-2019-agata-calibration-controls.md",
+          "locator": "ZL19-8"
+        },
+        {
+          "path": "knowledge/sources/ziliani-2019-agata-calibration-controls.md",
+          "locator": "ZL19-9"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/methods/tracking-array.md",
+      "anchor": "Time replay、core recovery 与响应类型",
+      "summary": "GGPtimestamps、badcoresegments及response层分开，sourcecountloss不是absoluteε，same data非indrep。",
+      "sources": [
+        {
+          "path": "knowledge/sources/ziliani-2019-agata-calibration-controls.md",
+          "locator": "ZL19-1"
+        },
+        {
+          "path": "knowledge/sources/ziliani-2019-agata-calibration-controls.md",
+          "locator": "ZL19-2"
+        },
+        {
+          "path": "knowledge/sources/ziliani-2019-agata-calibration-controls.md",
+          "locator": "ZL19-4"
+        },
+        {
+          "path": "knowledge/sources/ziliani-2019-agata-calibration-controls.md",
+          "locator": "ZL19-5"
+        },
+        {
+          "path": "knowledge/sources/ziliani-2019-agata-calibration-controls.md",
+          "locator": "ZL19-6"
+        },
+        {
+          "path": "knowledge/sources/ziliani-2019-agata-calibration-controls.md",
+          "locator": "ZL19-7"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/sources/ciemala-2019-20o-dsam-analysis-status.md",
+      "anchor": "2026-10-14directRef8续读",
+      "summary": "actualRef8提供1938.2short/1981.93long与标定流程，不补finalτ或βstagecode。",
+      "sources": [
+        {
+          "path": "knowledge/sources/ziliani-2019-agata-calibration-controls.md",
+          "locator": "ZL19-1"
+        },
+        {
+          "path": "knowledge/sources/ziliani-2019-agata-calibration-controls.md",
+          "locator": "ZL19-2"
+        },
+        {
+          "path": "knowledge/sources/ziliani-2019-agata-calibration-controls.md",
+          "locator": "ZL19-4"
+        },
+        {
+          "path": "knowledge/sources/ziliani-2019-agata-calibration-controls.md",
+          "locator": "ZL19-8"
+        },
+        {
+          "path": "knowledge/sources/ziliani-2019-agata-calibration-controls.md",
+          "locator": "ZL19-9"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/synthesis/doppler-velocity-validation-contract.md",
+      "anchor": "新增 [[ziliani-2019-agata-calibration-controls]]",
+      "summary": "实际校准controls补contract，commonreference/time与energyorigin继续分层。",
+      "sources": [
+        {
+          "path": "knowledge/sources/ziliani-2019-agata-calibration-controls.md",
+          "locator": "ZL19-2"
+        },
+        {
+          "path": "knowledge/sources/ziliani-2019-agata-calibration-controls.md",
+          "locator": "ZL19-4"
+        },
+        {
+          "path": "knowledge/sources/ziliani-2019-agata-calibration-controls.md",
+          "locator": "ZL19-6"
+        },
+        {
+          "path": "knowledge/sources/ziliani-2019-agata-calibration-controls.md",
+          "locator": "ZL19-7"
+        },
+        {
+          "path": "knowledge/sources/ziliani-2019-agata-calibration-controls.md",
+          "locator": "ZL19-8"
+        },
+        {
+          "path": "knowledge/sources/ziliani-2019-agata-calibration-controls.md",
+          "locator": "ZL19-9"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/index.md",
+      "anchor": "ziliani-2019-agata-calibration-controls",
+      "summary": "directcalibrationsource导航与same-dataset初步分析边界。",
+      "sources": [
+        {
+          "path": "knowledge/sources/ziliani-2019-agata-calibration-controls.md",
+          "locator": "ZL19-1"
+        },
+        {
+          "path": "knowledge/sources/ziliani-2019-agata-calibration-controls.md",
+          "locator": "ZL19-10"
+        }
+      ]
     }
   ]
 }
@@ -2292,6 +2480,8 @@ Ref11 PLB135939 identity查核为17C，仅metadata候选、不用作20O backingp
 | L4 | experimental refit `not-ready`：缺事件、production code、ring spectra、response/covariance和feeding；模拟练习不作为新实验L4或absolute-strength研究。 |
 
 ## Verification and continuation
+
+最新活动检查（2026-10-14T07:40:42.094171+08:00，剩约439.3分钟）：writeback89items/27mappedpages；ZL19校准与18O短/长寿命control已写回。lint0errors/118warnings（102citationkeys、13未填充rawslots、3reaction-parser）；report/card/writeback/protected/publiccopy/boundary通过。原研究窗口仍active；下一route为Ciemała2020与Zanon2023的独立20O寿命测量、supplement和velocity/feeding/τ–Eγ audit，不新增课程学分。
 
 最新活动检查（2026-10-14T05:57:51.878940+08:00，剩约542.1分钟）：writeback83items/26mappedpages。LS23/CO19两新fullsources、不同angularcontrols/postdegrader/FP/RF/jointτ-Eγ的source层级核验完成；three newstage/survival/design exercises通过。Wiki lint0errors/116warnings（101citation-key、12rawslots未填充、3reaction-parser）；report/card/writeback/protected/boundary/diff通过。Ref11身份误候选已排除，未把17Cmetadata当20O证据。原窗口仍active，下一route S.Ziliani2019 APB50p625的directcalibration，以及sourceχ²/velocity-stage数据契约。
 

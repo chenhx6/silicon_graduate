@@ -131,4 +131,6 @@ P0：source身份/public/raw未归档与no-final-result状态隔离。P1：CO19-
 
 ## Extracted Pages
 
+2026-10-14directRef8续读 [[ziliani-2019-agata-calibration-controls]] ZL19-1/2/4/8/9：同July2017data，提供GGPtimealign、energyanchors及1938.2/1981.93short/longcontrol的preciselocator；不新增independentdataset，不补本文的finalτ或outputβ-stagecode。
+
 PDF1–10/journal615–624全主线；关键4/8/9/10视觉核验。Originalcode/stopping/Σ及后续fit仍未取得。
