@@ -1,0 +1,141 @@
+{
+  "schema_version": 1,
+  "run_id": "2026-10-12-day-11-01",
+  "run_date": "2026-10-12",
+  "day_index": 11,
+  "phase": "gamma-spectroscopy-and-level-schemes",
+  "cycle": "2026-09-30-day-substantive",
+  "schedule_id": "wiki-daily-learning",
+  "schedule_name": "Wiki 30-day substantive daily learning",
+  "project_root": "/workspace/wiki",
+  "run_kind": "substantive",
+  "acceptance_only": false,
+  "overnight_until": "2026-10-13T15:00:00+08:00",
+  "max_continuations": 96,
+  "continuation_count": 2,
+  "continuation_batch_count": 2,
+  "continuation_batches": 1,
+  "counted_in_substantive_test": true,
+  "session_mode": "new-session-per-run",
+  "session_reuse": false,
+  "session_scope": "one-new-session-for-each-schedule-run",
+  "codex_home": "/root/.codex",
+  "status": "completed",
+  "started_at": "2026-10-12T17:15:47.437545+08:00",
+  "report": "/workspace/wiki/outputs/learning-daily/20261012-DAY11-reaction-population-evaporation-high-spin.md",
+  "completed_day_indices": [
+    11,
+    12
+  ],
+  "partial_day_indices": [
+    13
+  ],
+  "curriculum_cards_completed": 2,
+  "closeout_window_ends_at": "2026-10-13T16:00:00+08:00",
+  "last_closeout_snapshot": {
+    "now_local": "2026-10-13T15:54:23+08:00",
+    "hard_deadline": "2026-10-13T15:00:00+08:00",
+    "next_scheduled_start": "2026-10-13T16:00:00+08:00",
+    "minutes_to_deadline": 0,
+    "minutes_to_next_start": 6,
+    "decision": "closeout-only"
+  },
+  "prompt_file": "/workspace/wiki/outputs/learning-daily/20261012-DAY11-reaction-population-evaporation-high-spin-run-01/prompt.md",
+  "continuation_runs": [
+    {
+      "number": 1,
+      "study_continuation_number": 1,
+      "kind": "study",
+      "returncode": 0,
+      "events": "/workspace/wiki/outputs/learning-daily/20261012-DAY11-reaction-population-evaporation-high-spin-run-01/continuation-001-events.jsonl",
+      "prompt": "/workspace/wiki/outputs/learning-daily/20261012-DAY11-reaction-population-evaporation-high-spin-run-01/continuation-001-prompt.md",
+      "last_message": "/workspace/wiki/outputs/learning-daily/20261012-DAY11-reaction-population-evaporation-high-spin-run-01/continuation-001-last-message.md",
+      "time_snapshot": {
+        "now_local": "2026-10-12T20:59:47.312388+08:00",
+        "hard_deadline": "2026-10-13T15:00:00+08:00",
+        "next_scheduled_start": "2026-10-13T16:00:00+08:00",
+        "minutes_to_deadline": 1080,
+        "minutes_to_next_start": 1140,
+        "minimum_current_block_minutes": 90,
+        "minimum_forward_card_block_minutes": 120,
+        "can_continue_current": true,
+        "can_complete_forward_card": true,
+        "decision": "continue-or-advance"
+      }
+    },
+    {
+      "number": 2,
+      "study_continuation_number": 2,
+      "kind": "study",
+      "returncode": 0,
+      "events": "/workspace/wiki/outputs/learning-daily/20261012-DAY11-reaction-population-evaporation-high-spin-run-01/continuation-002-events.jsonl",
+      "prompt": "/workspace/wiki/outputs/learning-daily/20261012-DAY11-reaction-population-evaporation-high-spin-run-01/continuation-002-prompt.md",
+      "last_message": "/workspace/wiki/outputs/learning-daily/20261012-DAY11-reaction-population-evaporation-high-spin-run-01/last-message.md",
+      "time_snapshot": {
+        "now_local": "2026-10-12T23:13:03.927543+08:00",
+        "hard_deadline": "2026-10-13T15:00:00+08:00",
+        "minutes_to_deadline": 946,
+        "decision": "continue-or-advance"
+      }
+    }
+  ],
+  "session_id": "01a12f66-a7ae-7ee2-bab9-109580e68e00",
+  "last_continuation_prompt": "/workspace/wiki/outputs/learning-daily/20261012-DAY11-reaction-population-evaporation-high-spin-run-01/continuation-002-prompt.md",
+  "closeout_turn": {
+    "number": 3,
+    "returncode": 0,
+    "kind": "closeout-only",
+    "interactive_session_closeout": false,
+    "time_snapshot": {
+      "now_local": "2026-10-13T15:54:23+08:00",
+      "hard_deadline": "2026-10-13T15:00:00+08:00",
+      "closeout_window_ends_at": "2026-10-13T16:00:00+08:00",
+      "decision": "closeout-only"
+    },
+    "trigger": "explicit user /goal resume"
+  },
+  "closeout_window_missed": false,
+  "exit_code": 0,
+  "resume_command": "codex resume 01a12f66-a7ae-7ee2-bab9-109580e68e00 -C /workspace/wiki -s danger-full-access -a never",
+  "next_day_index": 13,
+  "course_state_file": "outputs/learning-milestones/2026-09-one-month-state.json",
+  "course_state_next_day_index": 13,
+  "course_state_completed_day_count": 12,
+  "study_window_closed": true,
+  "closeout_on_time": true,
+  "deliverables_passed": true,
+  "next_prompt_file": "/workspace/wiki/outputs/learning-daily/prompts/20261013-DAY13-doppler-correction-recoil-velocity.md",
+  "checks": {
+    "boundary_exit": 0,
+    "report_headings_valid": true,
+    "curriculum_coverage_valid": true,
+    "knowledge_writeback_valid": true,
+    "knowledge_writeback_validation": "reconstructed entry diff; 13 changed pages mapped; no unmapped new knowledge file",
+    "lint_exit": 0,
+    "lint_errors": 0,
+    "lint_warnings": 92,
+    "git_diff_check_exit": 0,
+    "next_prompt_exists": true
+  },
+  "safety_stop_event": {
+    "at": "2026-10-13T11:24:27+08:00",
+    "reason": "A UWC bundle API response was temporarily written outside /workspace/wiki; prior handoff records the temporary file as deleted.",
+    "effect": "Stopped further research; user explicitly resumed this goal for closeout only."
+  },
+  "git_publication": {
+    "branch": "main",
+    "commit_hash": "5060f807d2258f760738b54cbf54939ef8fd9b79",
+    "commit_subject": "Complete DAY11 reaction-population and high-spin evidence run",
+    "status": "final-not-pushed",
+    "push_attempted": false,
+    "reason": "The daily prompt blocks push after a path-boundary failure. Fetch, ancestry check, push dry-run and push were not run."
+  },
+  "finished_at": "2026-10-13T15:54:23+08:00",
+  "post_commit_reconciliation": {
+    "receipt_commit_created": true,
+    "receipt_commit_subject": "Record DAY11 closeout receipt and publication status",
+    "content_commit_hash": "5060f807d2258f760738b54cbf54939ef8fd9b79",
+    "push_preflight_run": false,
+    "push_preflight_reason": "The run prompt blocks push after the path-boundary failure."
+  }
+}
