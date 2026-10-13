@@ -1,0 +1,147 @@
+{
+  "schema_version": 1,
+  "kind": "method-exercise; no experimental speed reconstruction or fit",
+  "kinetic_speed_rows": [
+    {
+      "kinetic_MeV": 50.0,
+      "mass_approx_MeV": 29807.81127744,
+      "beta": 0.05784810299038813,
+      "d_beta_d_T_per_MeV": 0.0005770283461284051,
+      "sigma_beta_if_sigma_T_is_0_5_MeV": 0.00028851417306420253
+    },
+    {
+      "kinetic_MeV": 75.0,
+      "mass_approx_MeV": 29807.81127744,
+      "beta": 0.0708047239402722,
+      "d_beta_d_T_per_MeV": 0.0004702551774036658,
+      "sigma_beta_if_sigma_T_is_0_5_MeV": 0.0002351275887018329
+    },
+    {
+      "kinetic_MeV": 120.3,
+      "mass_approx_MeV": 29807.81127744,
+      "beta": 0.08957179786008054,
+      "d_beta_d_T_per_MeV": 0.0003700419446225534,
+      "sigma_beta_if_sigma_T_is_0_5_MeV": 0.0001850209723112767
+    }
+  ],
+  "TOF_rows": [
+    {
+      "path_length_mm": 105.0,
+      "TOF_ns": 5.00346142797228,
+      "beta": 0.07,
+      "sigma_length_mm": 1.0,
+      "sigma_time_ns": 0.13,
+      "path_time_rho": -0.8,
+      "sigma_beta_linear": 0.0023858443484295346,
+      "boundary": "130ps scale inspired by source test; this path/uncertainty pair is invented"
+    },
+    {
+      "path_length_mm": 105.0,
+      "TOF_ns": 5.00346142797228,
+      "beta": 0.07,
+      "sigma_length_mm": 1.0,
+      "sigma_time_ns": 0.13,
+      "path_time_rho": 0.0,
+      "sigma_beta_linear": 0.001937075875886652,
+      "boundary": "130ps scale inspired by source test; this path/uncertainty pair is invented"
+    },
+    {
+      "path_length_mm": 105.0,
+      "TOF_ns": 5.00346142797228,
+      "beta": 0.07,
+      "sigma_length_mm": 1.0,
+      "sigma_time_ns": 0.13,
+      "path_time_rho": 0.8,
+      "sigma_beta_linear": 0.0013462067608472808,
+      "boundary": "130ps scale inspired by source test; this path/uncertainty pair is invented"
+    },
+    {
+      "path_length_mm": 6000.0,
+      "TOF_ns": 285.912081598416,
+      "beta": 0.07,
+      "sigma_length_mm": 1.0,
+      "sigma_time_ns": 0.13,
+      "path_time_rho": -0.8,
+      "sigma_beta_linear": 4.175227609751686e-05,
+      "boundary": "130ps scale inspired by source test; this path/uncertainty pair is invented"
+    },
+    {
+      "path_length_mm": 6000.0,
+      "TOF_ns": 285.912081598416,
+      "beta": 0.07,
+      "sigma_length_mm": 1.0,
+      "sigma_time_ns": 0.13,
+      "path_time_rho": 0.0,
+      "sigma_beta_linear": 3.389882782801641e-05,
+      "boundary": "130ps scale inspired by source test; this path/uncertainty pair is invented"
+    },
+    {
+      "path_length_mm": 6000.0,
+      "TOF_ns": 285.912081598416,
+      "beta": 0.07,
+      "sigma_length_mm": 1.0,
+      "sigma_time_ns": 0.13,
+      "path_time_rho": 0.8,
+      "sigma_beta_linear": 2.3558618314827416e-05,
+      "boundary": "130ps scale inspired by source test; this path/uncertainty pair is invented"
+    }
+  ],
+  "compound_boost_example": {
+    "beam_mass_number": 28,
+    "target_mass_number": 110,
+    "T_beam_nominal_MeV": 125.0,
+    "incident_beam_beta_mass_number_model": 0.09755380895162888,
+    "center_of_mass_boost_before_target_loss": 0.019869068116421067,
+    "Klemme_reported_residue_mean_beta": 0.016,
+    "boundary": "nominal boost versus reported emission-speed; discrepancy does not identify target loss/evaporation or a source error"
+  },
+  "centroid_calibration_example": {
+    "E0_keV": 1000.0,
+    "true_beta": 0.07,
+    "alternative_beta": 0.0701,
+    "true_gain": 1.0,
+    "true_offset_keV": 0.0,
+    "alternative_gain": 0.9985713568104825,
+    "alternative_offset_keV": 1.4295737901612853,
+    "theta_deg": [
+      35.0,
+      59.99999999999999,
+      90.0,
+      119.99999999999999,
+      145.0
+    ],
+    "centroid_residuals_keV": [
+      0.0021408341649475915,
+      -0.0010335582473999239,
+      -0.0025771432958663354,
+      -0.0006388656225908562,
+      0.0021087330027285134
+    ],
+    "max_centroid_residual_keV": 0.0025771432958663354,
+    "linear_rank": 2,
+    "exact_rank": 3,
+    "column_scales_beta_gain_offset": [
+      0.001,
+      0.001,
+      1.0
+    ],
+    "exact_scaled_singular_values_keV": [
+      3.1619996761858524,
+      1.3630696926370878,
+      0.002042563513837979
+    ],
+    "linear_scaled_singular_values_keV": [
+      3.163152590909206,
+      1.3584961275809149,
+      2.3522589336025477e-16
+    ],
+    "boundary": "illustrative unconstrained gain/offset alternative; a real independent source calibration may exclude it"
+  },
+  "verification": {
+    "kinetic_derivative_finite_difference": true,
+    "rank_counterexample": true,
+    "alternative_centroid_residual_under_0_003keV": true,
+    "passed": true
+  },
+  "numpy_version": "2.5.3"
+}

@@ -12,7 +12,7 @@
   "acceptance_only": false,
   "overnight_until": "2026-10-14T15:00:00+08:00",
   "max_continuations": 96,
-  "continuation_count": 0,
+  "continuation_count": 1,
   "continuation_batch_count": 0,
   "continuation_batches": 1,
   "counted_in_substantive_test": true,
@@ -20,7 +20,7 @@
   "session_reuse": false,
   "session_scope": "one-new-session-for-each-schedule-run",
   "codex_home": "/root/.codex",
-  "status": "completed",
+  "status": "running",
   "started_at": "2026-10-13T17:12:58.564161+08:00",
   "report": "/workspace/wiki/outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity.md",
   "completed_day_indices": [
@@ -286,7 +286,72 @@
     ],
     "origin_main_matches_head": true,
     "published_at": "2026-10-13T18:17:35.280803+08:00",
-    "curriculum_commit_target": "Advance Day14 curriculum after published Day13 study"
+    "curriculum_commit_target": "Advance Day14 curriculum after published Day13 study",
+    "curriculum_status": "published",
+    "curriculum_commit_subject": "Advance Day14 curriculum after published Day13 study",
+    "curriculum_commit_hash": "1fffaab4880c5c9a0ed7c7b6c655ea2b0ca8af33",
+    "curriculum_files": [
+      "outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity-run-01/completion-audit.json",
+      "outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity-run-01/publication-manifest.json",
+      "outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity-run-01/run.json",
+      "outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity.md",
+      "outputs/learning-daily/prompts/20261014-DAY14-week-two-spectrum-to-level-scheme-exam.md",
+      "outputs/learning-milestones/2026-09-one-month-state.json",
+      "system/handoff.md"
+    ],
+    "curriculum_post_commit_reconciliation": "actual handoff pointer and launch-only prompt metadata amended once",
+    "curriculum_h3_commands": [
+      {
+        "argv": [
+          "git",
+          "fetch",
+          "origin",
+          "main"
+        ],
+        "exit_code": 0,
+        "stdout": "",
+        "stderr": "From gitee.com:chx6/silicon_graduate\n * branch            main       -> FETCH_HEAD\n"
+      },
+      {
+        "argv": [
+          "git",
+          "merge-base",
+          "--is-ancestor",
+          "origin/main",
+          "HEAD"
+        ],
+        "exit_code": 0,
+        "stdout": "",
+        "stderr": ""
+      },
+      {
+        "argv": [
+          "git",
+          "push",
+          "--dry-run",
+          "origin",
+          "HEAD:main"
+        ],
+        "exit_code": 0,
+        "stdout": "",
+        "stderr": "To gitee.com:chx6/silicon_graduate.git\n   71bef2e..1fffaab  HEAD -> main\n"
+      },
+      {
+        "argv": [
+          "git",
+          "push",
+          "origin",
+          "HEAD:main"
+        ],
+        "exit_code": 0,
+        "stdout": "",
+        "stderr": "remote: Powered by \u001b[01;33mGITEE.COM \u001b[0m[1.1.23]        \nremote: Set trace flag ad49258f        \nTo gitee.com:chx6/silicon_graduate.git\n   71bef2e..1fffaab  HEAD -> main\n"
+      }
+    ],
+    "curriculum_origin_main_matches_head": true,
+    "final_commit_hash": "1fffaab4880c5c9a0ed7c7b6c655ea2b0ca8af33",
+    "final_commit_subject": "Advance Day14 curriculum after published Day13 study",
+    "final_published_at": "2026-10-13T18:27:54.220591+08:00"
   },
   "skill_mode": {
     "auto_authorization": "existing daily-learning/container/Git authorization",
@@ -294,7 +359,7 @@
     "fast": false,
     "debug_rounds": 1
   },
-  "finished_at": "2026-10-13T18:21:48.170230+08:00",
+  "finished_at": null,
   "next_day_index": 14,
   "completed_day_count": 13,
   "next_prompt_file": "/workspace/wiki/outputs/learning-daily/prompts/20261014-DAY14-week-two-spectrum-to-level-scheme-exam.md",
@@ -304,5 +369,190 @@
     "state_file": "/workspace/wiki/outputs/learning-milestones/2026-09-one-month-state.json",
     "next_day_index": 14,
     "completed_day_count": 13
+  },
+  "final_audit": {
+    "at": "2026-10-13T18:29:47.053201+08:00",
+    "status": "completed",
+    "state_next": 14,
+    "completed_count": 13,
+    "knowledge_clean": true,
+    "protected_hashes_matched": true,
+    "index_empty": true,
+    "content_and_curriculum_published": true,
+    "legacy_changes_preserved": true,
+    "local_only_changes": "mutable exact-hash run receipt and run-local audit scratch; inherited changes remain",
+    "post_commit_reconciliation": true,
+    "farmer_running": true
+  },
+  "goal_completion": {
+    "status": "complete",
+    "objective_achieved": true,
+    "evidence": "source/knowledge/report/card/code/protected checks passed; content and curriculum pushed; post-commit reconciled; next14/count13",
+    "tokens_used_reported_by_tool": 80780,
+    "active_time_seconds_reported_by_tool": 238,
+    "token_budget": null,
+    "counter_scope": "native goal active counter; not full-session wall-clock duration"
+  },
+  "resumption_history": [
+    {
+      "at": "2026-10-13T21:09:41.604506+08:00",
+      "trigger": "user explicitly: 持续学习，不要中断，把DAY13学习好",
+      "prior_status": "completed",
+      "prior_closeout": "premature whole-window saturation, corrected by continued in-scope high-information routes",
+      "deadline_preserved": "2026-10-14T15:00:00+08:00",
+      "course_credit_already_awarded": true,
+      "no_additional_credit": true
+    }
+  ],
+  "research_status": "active-Day13-user-reopened",
+  "final_audit_current": false,
+  "goal_completion_current": false,
+  "last_research_checkpoint": {
+    "now_local": "2026-10-13T22:56:43.401881+08:00",
+    "minutes_to_deadline": 963.2766353166667,
+    "status": "research-active",
+    "writeback_items": 30,
+    "mapped_knowledge_pages": 16,
+    "next_high_information_route": "false-width or natural-line-width; residue momentum/reaction channel and minimum observable design; then held-out gate/calibration/likelihood exercises",
+    "completed_day_indices": [
+      13
+    ],
+    "partial_day_indices": [
+      14
+    ],
+    "no_state_update": true
+  },
+  "last_clock_refresh": {
+    "now_local": "2026-10-13T22:09:52.211804+08:00",
+    "minutes_to_deadline": 1010.1298032666667,
+    "decision": "continue-current-Day13",
+    "not_final": true
+  },
+  "active_continuation_checks": {
+    "schema_version": 1,
+    "run_id": "2026-10-13-day-13-01",
+    "at": "2026-10-13T23:09:30.505725+08:00",
+    "status": "research-active-checkpoint",
+    "hard_deadline": "2026-10-14T15:00:00+08:00",
+    "remaining_minutes": 950.49157125,
+    "report_sha256": "a54e79104e445d0cd0dee24f621ed504c9324a6ff42deec1c46d0863af3a5d58",
+    "writeback": {
+      "valid": true,
+      "mode": "updated",
+      "knowledge_paths": [
+        "knowledge/methods/doppler-correction.md",
+        "knowledge/sources/mavela-2019-32s-quadrupole-moment-doppler-correction-thesis.md",
+        "knowledge/sources/klemme-1999-lifetimes-134nd-neighbors.md",
+        "knowledge/sources/herzan-2015-193bi-spectroscopy.md",
+        "knowledge/methods/level-scheme-reconstruction.md",
+        "knowledge/projects/a130-thesis-evidence-matrix.md",
+        "knowledge/questions.md",
+        "knowledge/index.md",
+        "knowledge/sources/vandebrouck-2016-vamos-dual-position-mwpc.md",
+        "knowledge/sources/crespi-2013-agata-high-energy-doppler-response.md",
+        "knowledge/methods/tracking-array.md",
+        "knowledge/sources/aladili-2009-agata-doppler-simulation.md",
+        "knowledge/research-notes/doppler-forward-inverse-convention-check.md",
+        "knowledge/sources/akkoyun-2012-agata-instrument-response.md",
+        "knowledge/concepts/lorentz-boost-correction.md",
+        "knowledge/sources/longfellow-2026-gretina-energy-ordering-polarization.md"
+      ],
+      "changed_paths": [
+        "knowledge/concepts/lorentz-boost-correction.md",
+        "knowledge/index.md",
+        "knowledge/methods/doppler-correction.md",
+        "knowledge/methods/level-scheme-reconstruction.md",
+        "knowledge/methods/tracking-array.md",
+        "knowledge/projects/a130-thesis-evidence-matrix.md",
+        "knowledge/questions.md",
+        "knowledge/research-notes/doppler-forward-inverse-convention-check.md",
+        "knowledge/sources/akkoyun-2012-agata-instrument-response.md",
+        "knowledge/sources/aladili-2009-agata-doppler-simulation.md",
+        "knowledge/sources/crespi-2013-agata-high-energy-doppler-response.md",
+        "knowledge/sources/herzan-2015-193bi-spectroscopy.md",
+        "knowledge/sources/klemme-1999-lifetimes-134nd-neighbors.md",
+        "knowledge/sources/mavela-2019-32s-quadrupole-moment-doppler-correction-thesis.md",
+        "knowledge/sources/vandebrouck-2016-vamos-dual-position-mwpc.md"
+      ],
+      "change_check": "run-snapshot",
+      "error": null
+    },
+    "curriculum": {
+      "valid": true,
+      "completed_day_indices": [
+        13
+      ],
+      "partial_day_indices": [
+        14
+      ],
+      "curriculum_cards_completed": 1,
+      "next_day_index": 14,
+      "error": null
+    },
+    "protected_hashes_matched": true,
+    "analyses": {
+      "geometry-gate-exercise.json": {
+        "max_geometry_MC_relative_difference": 0.0018527479820205084,
+        "finite_bin_64_128_convergence": true,
+        "static_limit_passed": true,
+        "eventwise_exact_inversion_passed": true,
+        "plane_jacobian_passed": true,
+        "passed": true
+      },
+      "convention-decay-exercise.json": {
+        "max_exact_roundtrip_error_keV": 0.0,
+        "max_linear_roundtrip_error_keV": 1.1368683772161603e-13,
+        "max_decay_MC_relative_difference": 0.005927825905272965,
+        "analytic_quadrature_match": true,
+        "static_and_thin_target_limits": true,
+        "common_direction_energy_sum": true,
+        "passed": true
+      },
+      "recoil-speed-calibration-exercise.json": {
+        "kinetic_derivative_finite_difference": true,
+        "rank_counterexample": true,
+        "alternative_centroid_residual_under_0_003keV": true,
+        "passed": true
+      },
+      "aberration-acceptance-exercise.json": {
+        "angle_density_normalization_passed": true,
+        "jacobian_finite_difference_passed": true,
+        "static_limit_passed": true,
+        "max_MC_bin_relative_difference": 0.01690236602679751,
+        "max_energy_inverse_error_keV": 6.821210263296962e-13,
+        "passed": true
+      },
+      "displaced-vertex-feeding-exercise.json": {
+        "max_mean_quad48_96_difference_keV": 2.1023183194301964e-12,
+        "max_sigma_quad48_96_difference_keV": 2.7533531010703882e-14,
+        "static_limit_passed": true,
+        "feeding_CDF_MC_passed": true,
+        "equal_lifetime_Erlang_limit_passed": true,
+        "passed": true
+      }
+    },
+    "lint_summary": [
+      "SUMMARY pages=578 wikilinks=5523 hashes=281 errors=0 warnings=100 info=1584"
+    ],
+    "boundary_exit": 0,
+    "diff_exit": 0,
+    "state_already_credited": {
+      "next_day_index": 14,
+      "completed_day_count": 13
+    },
+    "next_routes": [
+      "Senyi2013 detector-neutron/gamma response and false-width signatures",
+      "ENSDF12C natural-width/mean-lifetime boundary if accessible",
+      "residue momentum/partial particle reconstruction and covariance budget",
+      "held-out gate/likelihood/sensitivity design",
+      "revisit only permitted Day14 preview if scientific need; no Day15"
+    ],
+    "no_final_closeout": true
+  },
+  "state_update_policy": "Day13 already credited in prior publication; do not increment or roll back next14/count13 during this resumed window",
+  "continued_publication": {
+    "branch": "main",
+    "commit_subject": "Extend active DAY13 recoil and detector-response study",
+    "scope": "reopened checkpoint; whole research window remains active"
   }
 }

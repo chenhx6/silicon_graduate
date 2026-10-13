@@ -9,6 +9,13 @@ updated: 2026-10-13
 
 ## Sources
 
+- [[akkoyun-2012-agata-instrument-response]] - AGATA2012方法总览、staticComptonimaging、PSA/threshold/FEP-P-T与replay边界；citedbenchmark不重复计独立实验。
+
+- [[aladili-2009-agata-doppler-simulation]] - source simulation/design 的reaction/target/velocity-spread与smearing识别限制；保留meanflight、unit和forward/inverse convention边界。
+
+- [[vandebrouck-2016-vamos-dual-position-mwpc]] - VAMOS++ 双位置/TOF/target vertex 与98Zr1222.9-keV Doppler改善；保留σ/FWHM和public-preprint/raw-slot边界。
+- [[crespi-2013-agata-high-energy-doppler-response]] - AGATA15.1-MeVγ的mean-velocity限制、119/122/>160-keV width与algorithm/multiplicity效率边界。
+
 - [[koike-2004-chiral-bands-selection-rules]] - A 量子数电磁选择规则的理论前身；说明规则符合不等于直接证实手征几何。
 - [[grodner-2011-126cs-chiral-selection-rules]] - 126Cs 的 13 条 DSA lifetimes、26 个 absolute B 值及 inband/interband M1 交错实验。
 - [[prochniak-2011-cphc-s-symmetry-transition-rules]] - CPHC 的 S=PαCπν 对称、same-s M1/E2 抑制与 M1 交错的非手征唯一性边界。
@@ -577,3 +584,5 @@ updated: 2026-10-13
 ### Batch status
 
 本批次按 raw 目录建立 55-file 阅读台账；source 页记录实际阅读范围、SHA-256、关键 claims、P0/P1 和未完成边界。共享 thesis/journal lineage 不计为独立实验。
+
+- [[doppler-forward-inverse-convention-check]] - provisional：linear forward/exact inverse混用的counterfactual与source约2-keVcentroid问题；缺code不宣布来源错误。

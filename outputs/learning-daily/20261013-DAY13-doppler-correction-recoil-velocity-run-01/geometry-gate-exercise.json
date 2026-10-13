@@ -1,0 +1,275 @@
+{
+  "schema_version": 1,
+  "kind": "source-inspired synthetic method checks; no experimental refit",
+  "seed": 1314,
+  "samples": 300000,
+  "geometry_inputs": {
+    "L1_mm": 174.0,
+    "L2_mm": 279.0,
+    "sigma_x1_mm": 0.073,
+    "sigma_x2_mm": 0.084,
+    "photon_radius_mm": 235.0,
+    "E0_keV": 1000.0,
+    "beta": 0.07
+  },
+  "target_angle_covariance_mm_rad": [
+    [
+      0.057001555102040816,
+      -0.0002462163265306123
+    ],
+    [
+      -0.0002462163265306123,
+      1.123356009070295e-06
+    ]
+  ],
+  "target_angle_correlation": -0.973004366028229,
+  "geometry_rows": [
+    {
+      "theta_deg": 35,
+      "full_covariance_sigma_keV": 0.013432106597944145,
+      "diagonal_only_sigma_keV": 0.0573966770259035,
+      "MC_sigma_keV": 0.01345699290633777,
+      "diagonal_over_full_ratio": 4.2730957059772265,
+      "mean_bias_MC_keV": -2.0173397501821455e-05,
+      "primitive_plane_derivatives_keV_per_mm": [
+        0.011144995817185088,
+        -0.1596124343384907
+      ],
+      "finite_difference_derivatives": [
+        0.011144995823997306,
+        -0.1596124337766014
+      ]
+    },
+    {
+      "theta_deg": 60,
+      "full_covariance_sigma_keV": 0.03628770396860111,
+      "diagonal_only_sigma_keV": 0.07383475297940022,
+      "MC_sigma_keV": 0.036319360436918455,
+      "diagonal_over_full_ratio": 2.0347044564541115,
+      "mean_bias_MC_keV": 2.3424983055519988e-06,
+      "primitive_plane_derivatives_keV_per_mm": [
+        0.24313504887050713,
+        -0.3767956778307336
+      ],
+      "finite_difference_derivatives": [
+        0.2431350486631345,
+        -0.37679567753912124
+      ]
+    },
+    {
+      "theta_deg": 90,
+      "full_covariance_sigma_keV": 0.07419194325831104,
+      "diagonal_only_sigma_keV": 0.07419194325831105,
+      "MC_sigma_keV": 0.07421056289908293,
+      "diagonal_over_full_ratio": 1.0000000000000002,
+      "mean_bias_MC_keV": 7.621618465236679e-05,
+      "primitive_plane_derivatives_keV_per_mm": [
+        0.6666666666666667,
+        -0.6666666666666667
+      ],
+      "finite_difference_derivatives": [
+        0.6666666666887977,
+        -0.6666666666887977
+      ]
+    },
+    {
+      "theta_deg": 120,
+      "full_covariance_sigma_keV": 0.09128795305448911,
+      "diagonal_only_sigma_keV": 0.06884109818852291,
+      "MC_sigma_keV": 0.09128963453499998,
+      "diagonal_over_full_ratio": 0.7541093417598285,
+      "mean_bias_MC_keV": 8.993935250600771e-05,
+      "primitive_plane_derivatives_keV_per_mm": [
+        0.8889615615644562,
+        -0.7643407819058876
+      ],
+      "finite_difference_derivatives": [
+        0.888961561713586,
+        -0.7643407820978609
+      ]
+    },
+    {
+      "theta_deg": 145,
+      "full_covariance_sigma_keV": 0.07136947126704812,
+      "diagonal_only_sigma_keV": 0.051171318350895126,
+      "MC_sigma_keV": 0.07136441849163414,
+      "diagonal_over_full_ratio": 0.716991697464366,
+      "mean_bias_MC_keV": 7.6088515470473794e-06,
+      "primitive_plane_derivatives_keV_per_mm": [
+        0.713358227675938,
+        -0.5809938652253562
+      ],
+      "finite_difference_derivatives": [
+        0.7133582283813666,
+        -0.5809938642187262
+      ]
+    }
+  ],
+  "finite_polar_bin_rows": [
+    {
+      "theta_deg": 35,
+      "half_bin_deg": 1,
+      "mean_bias_keV": -0.0029039860762622993,
+      "sigma_keV": 0.42918184132664317,
+      "second_order_mean_bias_keV": -0.0029040360461681375,
+      "max_eventwise_residual_keV": 1.1368683772161603e-13
+    },
+    {
+      "theta_deg": 35,
+      "half_bin_deg": 5,
+      "mean_bias_keV": -0.07256967660487135,
+      "sigma_keV": 2.1447291361907808,
+      "second_order_mean_bias_keV": -0.07260090115420344,
+      "max_eventwise_residual_keV": 1.1368683772161603e-13
+    },
+    {
+      "theta_deg": 35,
+      "half_bin_deg": 10,
+      "mean_bias_keV": -0.289904344542947,
+      "sigma_keV": 4.282109815489149,
+      "second_order_mean_bias_keV": -0.29040360461681375,
+      "max_eventwise_residual_keV": 1.1368683772161603e-13
+    },
+    {
+      "theta_deg": 90,
+      "half_bin_deg": 1,
+      "mean_bias_keV": 0.0004975119202299538,
+      "sigma_keV": 0.7053457050274334,
+      "second_order_mean_bias_keV": 0.0004975417856516238,
+      "max_eventwise_residual_keV": 0.0
+    },
+    {
+      "theta_deg": 90,
+      "half_bin_deg": 5,
+      "mean_bias_keV": 0.012419890879755258,
+      "sigma_keV": 3.5242434112534937,
+      "second_order_mean_bias_keV": 0.012438544641290595,
+      "max_eventwise_residual_keV": 0.0
+    },
+    {
+      "theta_deg": 90,
+      "half_bin_deg": 10,
+      "mean_bias_keV": 0.04945632882254358,
+      "sigma_keV": 7.032970077907047,
+      "second_order_mean_bias_keV": 0.04975417856516238,
+      "max_eventwise_residual_keV": 1.1368683772161603e-13
+    },
+    {
+      "theta_deg": 145,
+      "half_bin_deg": 1,
+      "mean_bias_keV": 0.0028996635837756912,
+      "sigma_keV": 0.3826417207741846,
+      "second_order_mean_bias_keV": 0.0028996985781216,
+      "max_eventwise_residual_keV": 1.1368683772161603e-13
+    },
+    {
+      "theta_deg": 145,
+      "half_bin_deg": 5,
+      "mean_bias_keV": 0.07247059246219578,
+      "sigma_keV": 1.9133310551434919,
+      "second_order_mean_bias_keV": 0.07249246445304,
+      "max_eventwise_residual_keV": 1.1368683772161603e-13
+    },
+    {
+      "theta_deg": 145,
+      "half_bin_deg": 10,
+      "mean_bias_keV": 0.2896198857715717,
+      "sigma_keV": 3.827407801736391,
+      "second_order_mean_bias_keV": 0.28996985781216,
+      "max_eventwise_residual_keV": 1.1368683772161603e-13
+    }
+  ],
+  "gate_half_width_keV": 3.0,
+  "gate_rows": [
+    {
+      "beta_bias": 0.0,
+      "theta_deg": 35,
+      "mean_residual_keV": -1.1368683772161603e-13,
+      "assumed_sigma_keV": 2.3779657635,
+      "gate_acceptance": 0.7929009445667788
+    },
+    {
+      "beta_bias": 0.0,
+      "theta_deg": 90,
+      "mean_residual_keV": 0.0,
+      "assumed_sigma_keV": 2.6448476435,
+      "gate_acceptance": 0.7433232354036374
+    },
+    {
+      "beta_bias": 0.0,
+      "theta_deg": 145,
+      "mean_residual_keV": 0.0,
+      "assumed_sigma_keV": 2.3952111749,
+      "gate_acceptance": 0.7896119681348208
+    },
+    {
+      "beta_bias": 0.001,
+      "theta_deg": 35,
+      "mean_residual_keV": -0.7981868016275939,
+      "assumed_sigma_keV": 2.3779657635,
+      "gate_acceptance": 0.7676511152477352
+    },
+    {
+      "beta_bias": 0.001,
+      "theta_deg": 90,
+      "mean_residual_keV": 0.07085468090747327,
+      "assumed_sigma_keV": 2.6448476435,
+      "gate_acceptance": 0.7431525714482277
+    },
+    {
+      "beta_bias": 0.001,
+      "theta_deg": 145,
+      "mean_residual_keV": 0.845638181751383,
+      "assumed_sigma_keV": 2.3952111749,
+      "gate_acceptance": 0.7616061893935566
+    },
+    {
+      "beta_bias": 0.002,
+      "theta_deg": 35,
+      "mean_residual_keV": -1.5954781030227423,
+      "assumed_sigma_keV": 2.3779657635,
+      "gate_acceptance": 0.6959718246550762
+    },
+    {
+      "beta_bias": 0.002,
+      "theta_deg": 90,
+      "mean_residual_keV": 0.1427297780784329,
+      "assumed_sigma_keV": 2.6448476435,
+      "gate_acceptance": 0.7426309298572069
+    },
+    {
+      "beta_bias": 0.002,
+      "theta_deg": 145,
+      "mean_residual_keV": 1.692408147154083,
+      "assumed_sigma_keV": 2.3952111749,
+      "gate_acceptance": 0.6823875100818418
+    }
+  ],
+  "gate_ratio_rows": [
+    {
+      "beta_bias": 0.0,
+      "true_N145_over_N90": 1.3,
+      "gated_N145_over_N90": 1.3809544888205494
+    },
+    {
+      "beta_bias": 0.001,
+      "true_N145_over_N90": 1.3,
+      "gated_N145_over_N90": 1.3322809935006716
+    },
+    {
+      "beta_bias": 0.002,
+      "true_N145_over_N90": 1.3,
+      "gated_N145_over_N90": 1.1945419015566274
+    }
+  ],
+  "equal_width_zero_bias_reference_gate": 0.7698606595565834,
+  "verification": {
+    "max_geometry_MC_relative_difference": 0.0018527479820205084,
+    "finite_bin_64_128_convergence": true,
+    "static_limit_passed": true,
+    "eventwise_exact_inversion_passed": true,
+    "plane_jacobian_passed": true,
+    "passed": true
+  },
+  "numpy_version": "2.5.3"
+}

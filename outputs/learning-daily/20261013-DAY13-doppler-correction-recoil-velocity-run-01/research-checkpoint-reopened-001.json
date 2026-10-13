@@ -1,0 +1,25 @@
+{
+  "now_local": "2026-10-13T21:37:28.335415+08:00",
+  "minutes_to_deadline": 1042.5277430833332,
+  "decision": "continue-current-Day13",
+  "completed_day_indices": [
+    13
+  ],
+  "partial_day_indices": [
+    14
+  ],
+  "formal_next_card": 14,
+  "status": "research-active",
+  "knowledge_locators": [
+    "VD16-1",
+    "VD16-2",
+    "VD16-3",
+    "CR13-2",
+    "CR13-3",
+    "CR13-5",
+    "CR13-6"
+  ],
+  "current_route": "Al-Adili 2009 target/evaporation/straggling model study; next first-interaction/addback and gate dependence",
+  "no_double_credit": true,
+  "clock_delivery": "checkpoint001 queued but not received in user message; no delivery attestation"
+}

@@ -252,3 +252,182 @@ Klemme Table I 的 `6g+` 从 `1.38(4)` 到 corrected `1.63(6) ps`，中心值增
 #### 独立的多线峰反例
 
 [[herzan-2015-193bi-spectroscopy]] HE15-5 / PDF p.10 Fig.5(a) 明确把154-keV门下标作约323-keV的峰解释为315/320/323/327-keV quadruplet。它是独立于32S和134Nd的直接多线反例，不能把这样的宽峰全部归入β或stopping。具体三层级联、互斥branch和同带近邻line的门控边界见 [[level-scheme-reconstruction]]；没有把该装置分辨率移植到Mavela。
+
+## Recoil vector、共同 vertex 与校正门的响应
+
+### 独立实验对照：改善项与主导 floor
+
+[[vandebrouck-2016-vamos-dual-position-mwpc]] VD16-3在同一98Zr1222.9-keV数据中，以直接recoil-vector/target-point重建替代旧focal-plane推回角度，width从8.6(1)降到5.5(1)keV。[[crespi-2013-agata-high-energy-doppler-response]] CR13-3在独立12C15.1MeV实验中，segment→PSA位置精细化仅从122变为119keV；作者认为未逐事件测recoil vector是主要floor。前者支持共同重建，后者反证photon position alone必然达到intrinsic resolution；数值不跨阵列迁移。
+
+### 三维形式与共享位置的协方差
+
+定义无量纲速度向量 `b=v/c`、从发射点到first γ interaction的 `r=rγ−rt`、`n=r/|r|`，精确反演为 `E0=E γ(1−b·n)`。其梯度为
+
+$$\nabla_bE_0=E[\gamma^3b(1-b\cdot n)-\gamma n],\qquad
+\nabla_{r_\gamma}E_0=-\frac{E\gamma}{R}[b-(b\cdot n)n],\qquad
+\nabla_{r_t}E_0=-\nabla_{r_\gamma}E_0.$$
+
+最后一式只是在b固定时的偏导；若b本身由同一target/ion coordinates重建，必须加入完整chain rule和joint covariance。不能把photon方向与recoil方向各自的“靶点误差”当成两个独立nuisance。
+
+在一维小角直线toy中，两plane距target为L1、L2，D=L2−L1，独立坐标误差为σ1、σ2。则 `xt=(L2 x1−L1 x2)/D`，`α≈(x2−x1)/D`，
+
+$$\operatorname{Cov}(x_t,\alpha)=-\frac{L_2\sigma_1^2+L_1\sigma_2^2}{D^2},\quad
+\sigma_\alpha^2=\frac{\sigma_1^2+\sigma_2^2}{D^2},\quad
+\sigma_{x_t}^2=\frac{L_2^2\sigma_1^2+L_1^2\sigma_2^2}{D^2}.$$
+
+取source-inspired `L1=174,L2=279mm, σ1=0.073,σ2=0.084mm`（VD16-1/2），在这些自设primitive-independent假设下得到 `σα=1.0599mrad, σxt=0.23875mm, ρ=−0.9730`。与原Table1 scale相容并不证明作者使用该完整covariance。actual plane/reference-wire定义、track fit、scattering/path maps会改变输入。
+
+对自设 `E0=1000keV, β=0.07, photon radiusR=235mm`，γ点固定，只有上述plane noise，`δθrel=−cosθ δxt/R−δα`。full-covariance σ在35°/90°/145°分别为 `0.01343/0.07419/0.07137keV`，若错误去掉cross term则为 `0.05740/0.07419/0.05117keV`。这只隔离recoil/vertex贡献，不是total resolution，γ point/β/response项未加入。primitive finite differences与300000-drawMC复核的最大σ相对差约0.185%。代码见 [day13_doppler_geometry_gates.py](../../system/scripts/day13_doppler_geometry_gates.py)。
+
+### 有限角 bin：用中心角不等于逐事件校正
+
+对自设uniform polar-angle bin `θ=θ0+u, u∈[−h,h]`，用θ0校正各event，得到
+
+$$\frac{E_{corr}}{E_0}=\frac{1-\beta\cos\theta_0}{1-\beta\cos(\theta_0+u)}.$$
+
+小h下mean bias约为
+
+$$\langle E_{corr}-E_0\rangle\simeq\frac{E_0h^2}{6}
+\left[-\frac{\beta\cos\theta_0}{1-\beta\cos\theta_0}
++\frac{2\beta^2\sin^2\theta_0}{(1-\beta\cos\theta_0)^2}\right].$$
+
+在E0=1000keV、β=0.07、half-bin10°条件下，35°/90°/145°的exact-quadrature mean bias分别为 `−0.28990/+0.04946/+0.28962keV`，产生σ为 `4.2821/7.0330/3.8274keV`；逐event正确θ反演残差小于1.2×10⁻13keV。uniform polar bin不是uniform solid angle或该实验真实W(θ)，不能用此数替作者做geometry correction。64/128点Gaussian quadrature与zero-β极限通过；small-bin二阶近似及measure选择明确。
+
+### 峰门迁移：能量校正也是计数选择的一部分
+
+对Gaussian corrected line `E−E0~N(Δ,σ²)`、固定±w峰门，接受率为
+
+$$a(\Delta,\sigma)=\Phi\left(\frac{w-\Delta}{\sigma}\right)
+-\Phi\left(\frac{-w-\Delta}{\sigma}\right).$$
+
+若efficiency校准ε未包含该selection，angle-count ratio成为 `R_gate=R_true a1/a2`，而非只除以ε。Gaussian只是本题response；tails、neighbour lines、gate background和joint covariance需actual response重新积分。
+
+用此前synthetic σ35/90/145=2.3780/2.6448/2.3952keV、E0=1000keV、βtrue0.07、w3keV且保持σ固定，zeroβbias的a145/a90已不等于1。假定trueN145/N90=1.30，zeroβbias时gate ratio约1.381；校正速度再整体偏高0.002时，centroid residual在145°/90°为1.6924/0.1427keV，gate ratio约1.1945。差异是选择响应，不是新的alignment、multipolarity或collective结构。
+
+固定整数keV门、按各角度±kσ门和response-fit积分应做匹配对照；±kσ在非Gaussian/tails/contamination时也不能保证相同efficiency。Crespi CR13-5/6的FEP/algorithm/multiplicity事实支持记录整条selection链，但没有实测本题gate bias。
+
+### Thematic REFLECT：energy、trajectory 与 selection 不能分开验收
+
+此前Mavela总谱/printed β、Klemme同line stopping双分量已使“校正后窄峰等于速度正确”受到限制。VD16-3进一步给出直接vector/vertex重建的独立改善对照；CR13-3/5说明缺recoil information会形成floor，而tracking selection还会改变FEP效率。共同vertex covariance与fixed-gate数值反例把这条证据链推进到可检验设计：应在primitive coordinates/TOF/path输入层传播covariance，再评估line identity与angle-dependent gate response，而不是只报告一个峰宽。
+
+三篇/多篇引用不自动独立：Mavela/UWC PDF为同一thesis；VAMOS图中两种processing为同一E680数据；Crespi四种processing和PACE4/Geant4是共享inputs。VAMOS、Crespi、Klemme的独立性仅用于方法cross-check，不代表独立复测某A≈130带。自设计算为our-inference，没有改变Q_S、B值或集体模式排名。剩余高信息路线是能损/straggling、发射时间/vertex、first-point错误与gate-covariance，其输入缺口不结束整个Day13学习窗口。
+
+## 发射位置、forward/inverse 约定与 first-interaction 顺序
+
+### Mean flight distance 不能替代发射概率
+
+[[aladili-2009-agata-doppler-simulation]] AA09-4用约16.5/10μm mean flight与约0.5μm target比较，支持主要在靶外发射。其“γ在靶外”若理解为概率1则过强；对source-inspired toy假设constantβ、uniform reaction depth、single exponential proper lifetimeτ，无feeding/energy loss，lab mean flight为 `ℓ=βγcτ`。remainingtargetdistanceu均匀在[0,d]，
+
+$$P_{inside}=1-\frac{\ell}{d}(1-e^{-d/\ell}),\qquad
+P_{inside}\simeq\frac{d}{2\ell}\quad(d\ll\ell).$$
+
+用source的τ/β和自设均匀0.5μm深度，52Crτ1.0099ps/β.0548的ℓ16.616μm，Pinside1.4896%；38Arτ.578ps/β.0589的ℓ10.224μm，Pinside2.4059%。若在靶入口产生，则约2.9643%/4.7728%。这是方法反例，actualreaction depth、能损、feeding、backing与gate需要重新积分，不是实际source fraction。sourceEq6.8印1.15×10⁻5m=16.5μm数值冲突仍见AA09-4，未改原件。
+
+在本single prompt exponential假设下，after1mm probability很小；有long feeding或未知delayed component时须用effective emission-time distribution，不能仅引用level τ。代码 [day13_doppler_conventions_decay.py](../../system/scripts/day13_doppler_conventions_decay.py)以analytic、128点quadrature和500000drawMC校验，MC relative differences最大0.593%，thin-target/static limits通过。
+
+### 对keV resolution，约定一致性与近似误差要独立检查
+
+exactforward `E_lab=E0 sqrt(1−β²)/(1−βcosθ)` 与linearforward `E_lab=E0(1+βcosθ)` 各有consistent inverse。不能因为β<0.1就混用。linearforward加exactinverse的ratio为 `(1−β²cos²θ)/sqrt(1−β²)`，二阶bias约 `E0 β²(1/2−cos²θ)`。在E0=1434keV、β.0548、90°时约+2.158keV；sourceAl-AdiliFigs6.17/6.20的centroid约1436keV只与该counterfactual量级相容，缺exec-code不能确定原因。case假设和falsifier见provisional [[doppler-forward-inverse-convention-check]]；一般consistent-roundtrip原则可复用。
+
+source同时给exact和approx式，实际MGT/sortpax未复现，不能将approximation讨论写成已知代码bug。需要保存生成式、calibration、E0输入、lab frame、校正式和每步centroid，再比width。先作zero-nuisance/knownvector roundtrip，再开reaction和positionspread；exact-exact与linear-linear数值max残差≤1.2×10⁻13keV。
+
+### Add-back 与不同 deposit 的方向
+
+同一incoming γ经多个Compton/photoelectric interactions的total deposited energy，在full absorption时属于**同一个incoming photon**。正确Doppler factor使用从emissionvertex到firstinteraction的方向，不能给每个deposit套各自从target到该hit的径向角。若所有deposits共用正确incomingfactor，能量线性相加与先sum后correct等价。
+
+自设E0=1000keV、β.07、firstpoint距target235mm、θfirst60°；沿+x方向Compton散射30°、50mm后photoabsorption。labdeposits为220.425/813.303keV，secondhit径向角65.133°。正确firstpoint校正sum得1000keV；对两个deposit分别用各自径向角得1004.537keV；若highestdeposit当firstpoint则得1005.766keV。两hit符合Comptonenergy/momentum relationship，后续full absorption为明确设定；不是Crespi/Longfellow原event。
+
+这个可运行反例限制“最高能量deposit永远是firstinteraction”，并不否定CrespiCR13-5/LongfellowL26-8在具体energy/multiplicity背景下的方法表现。sequence假设、PSA/clustering/threshold与gate-efficiency需共同验证；low-multiplicity高能与多γcascade不可直接换算法。
+
+## 速度信息的 stage 与独立校准
+
+### Kinetic energy、TOF 与发射时速度
+
+对已知mass M和发射时kinetic energy T，`γ=1+T/(Mc²)`，`β=sqrt(1−γ⁻²)`，
+
+$$\frac{\partial\beta}{\partial T}=\frac{1}{Mc^2\gamma^3\beta}.$$
+
+mass-number近似M=32u，自设T=50/75/120.3MeV时β为0.057848/0.070805/0.089572；若自设σT=0.5MeV，σβ分别0.0002885/0.0002351/0.0001850。Mavela的120.3MeV是**入射**能量，S3deposit是经过scattering、target/foil/dead-layer甚至γemission之后的探测输入；不先重建stage、emitter/particle identity和energy-loss，就不能直接把这两个T代成发射β。原DD-20261013-32S-27/28与ringβ边界保留。这里没有新32Svelocity测量。
+
+对TOF方法 `β=L/(ct)`，
+
+$$\frac{\sigma_\beta^2}{\beta^2}=\frac{\sigma_L^2}{L^2}+\frac{\sigma_t^2}{t^2}-\frac{2\operatorname{Cov}(L,t)}{Lt}.$$
+
+path length由track reconstruction决定，若与timing/vertex共享输入也要保留cross term。仅有VD16-2的TOF130psσ不能给通用σβ：在自设β=.07、σL=1mm、σt=.130ns独立条件下，L105mm/t5.003ns给σβ≈0.001937，L6000mm/t285.912ns给≈0.00003390。这两个path并非作者报告的flight measurement，同一个time-resolution scale在不同flight length下不可直接换成同一个relative speed precision。window/gas/target能损还决定flight速度与emission速度的关系。
+
+### Incident、compound boost 与 residual mean 不能互换
+
+用Klemme KL99-1/17的nominal28Si125MeV+110Pd作mass-number/mass-defect-neglected比较，入射β约0.09755；反应前systemcenter-of-mass boost `p_beam/(E_beam+M_targetc²)` 约0.01987，而paper报meanresidueβ=.016。这个scale区别显示不可把beamβ或理想compoundboost直接当Doppler发射输入；没有reaction-depth energy、Q/excitation、evaporation和gate/response包，差异不能确定哪一项造成，也不说明paperβ错误。多个蒸发粒子的未测momentum应进入residual-vector distribution而非单个全局β。
+
+### 从同一峰优化 β 与 gain/offset 的弱识别性
+
+对自设movingline centroids `y_i=a+g E0 sqrt(1−β²)/(1−βcosθ_i)`，未知offset a、gain g、β。低速一阶式只有intercept `a+gE0` 和slope `gE0β` 两个组合，因此3-column Jacobian rank2；更广anglecoverage本身不能解除该一阶歧义。exact式有高阶curvature可使rank3，却可能非常weak；独立static-source calibration、已知lineenergy与held-out line/ring validation仍有价值。
+
+自设E0=1000keV、βtrue.07、g=1/a=0、35/60/90/120/145°：改β为.0701，并允许g=.99857136、a=1.42957379keV，五角centroid residual最大仅0.002577keV。以参数步长δβ=.001、δg=.001、δa=1keV比较，exact-Jacobian singular values约3.162/1.363/0.002043keV；这是局部scaled sensitivity，不是sourcefittedposterior或普适condition-number。实际independentcalibration可能排除该alternative，所以本反例不指控Crespi的优化无效；CR13-2仍只支持same-spectrum的meanvector，不能替代event-wise速度或独立校准。
+
+[day13_recoil_speed_calibration.py](../../system/scripts/day13_recoil_speed_calibration.py)保留上述单位/假设、kinetic derivative finite-difference、TOF covariance、mass-numberboost与exact/linearcentroidrank检验。reconstruction顺序建议为particle/residueidentity→measuredenergy/TOF/track→loss/path/vertex与time模型→jointemissionvector→γfirstpoint/response→held-outline/gate验证；本次为methoddesign，不是source执行replay。
+
+### 分层验证的最小矩阵
+
+[[akkoyun-2012-agata-instrument-response]] AK12-1/5/6/7提供PSA/staticimaging/selection/replay入口；下表结合此前独立方法来源提出控制设计。
+
+| 层 | 检查与能约束的对象 | 保留的依赖 / 失败条件 | 来源入口 |
+|---|---|---|---|
+| 静止energy sources | gain/offset/response与rate/threshold，避免把calibration混进βfit。 | calibrationenergy/geometry与movingrun匹配；同一峰拟合不能给独立calibration。 | Mavela calibration与CR13-1/2 |
+| 静止Comptonimaging/scans | photonposition/basis/tilt，不需要recoilkinematics。 | sequence/energy/PSA与movingrun可共享；about5mm不是universalσ。 | AK12-1/2/5 |
+| 独立particle/TOF/vertextracking | emitter方向、path/speedstage和共同vertex。 | jointcovariance、loss/path/stopping、PID及countercalibration；γ位置升级不能补缺失vector。 | VD16-1/2/3 |
+| held-outmovingline/angle | β/coordinate/calibration在未用于优化的样本上是否迁移。 | lineidentity、feeding/stopping、response和globalfit参数共享；same-line最小width不是独立test。 | CR13-2/3与本任务centroidcounterexample |
+| tracking/threshold/gate scan | FEPacceptance、tails、centroid/width与P/T变化。 | P/T与count-efficiency分开；neighbour/random/selectioncovariance不可忽略。 | AK12-4/6/7、CR13-5/6 |
+
+这张设计矩阵为跨source synthesis/our-inference，sources提供各自条件证据，不宣称已完成实际runvalidation或几种modality都完全独立。minimumdata包须含original/replayedtraces或events、PSAbasis/code/calibration版本、detector/target coordinates、particle/path/timing输入、line/gate definitions、normalization/response与covariance；本轮尚未取得完整实验packet，继续研究下一项可改变判断的Doppler问题。
+
+### Energy gate 恢复后，angular acceptance 仍在实验室 frame
+
+[[lorentz-boost-correction]]保存源[[longfellow-2026-gretina-energy-ordering-polarization]]L26-2/3/8与本任务finite-acceptance推导：energyinverse与angleaberration/Jacobian不同操作。restisotropicE0=1000keV、β=.07时，energy可逐event精确恢复，但full-azimuth90±5°与145±5°两个labbin的solid-angle-normalizeddensityratio约0.894825，而非1；自设labenergy-dependentε再将它改为0.935502。
+
+这不是测得alignment或sourcebias，realgeometry/response/feeding未提供；不通过更窄rest-energygate“修正”photon密度/angleframe。须分别记录E_lab/E0、eventboostdirection、lab/rest方向、raw和selectedphotons、各角度response与效率。boostvelocity不沿beam时，beamangle不是velocityangle；Mavela的particle角与Doppler夹角不能混写。
+
+## Delayed emission vertex 与 feeding 的条件响应
+
+[[aladili-2009-agata-doppler-simulation]] AA09-1/4要求发射不离target太远，并明说约1mmflight条件未研究；[[klemme-1999-lifetimes-134nd-neighbors]] KL99-2/4/15表明停止/feeding的gate条件会改变寿命分析。这些来源支持检查emissionhistory，但下面的fixed-speed/point-detector模型为our-inference，不是原数据重拟合。
+
+### 已知速度仍会因 vertex 错位产生残差
+
+自设速度沿+z且恒定，nominaltarget到γdetectorfirstpoint为 `r0=R n0`，proper decaytime为t，真实发射点为 `d ez`，其中 `d=βγct`。真实photon方向cosine为
+
+$$c_{true}=\frac{R\cos\theta_0-d}{\sqrt{R^2+d^2-2Rd\cos\theta_0}},\qquad
+\frac{E_{corr}^{nominal}}{E_0}=\frac{1-\beta\cos\theta_0}{1-\beta c_{true}}.$$
+
+当d/R小且非共线，小位移leadingresidual为
+
+$$\Delta E\simeq-\frac{E_0\beta d\sin^2\theta_0}{R(1-\beta\cos\theta_0)}.$$
+
+所以b已知也不保证targetvertex正确；sourcevelocityvector与emissionpoint是两项输入。沿运动方向延迟的vertex误差在本geometry下产生同号低能residual，而speedbias的一阶cosθpattern通常可反号，globaloffset则近似共同常数。若anglecoverage/response不足，几种pattern仍可能耦合，不据一张谱选因。
+
+### 条件采样与观察到的谱
+
+对restisotropicphoton、面向nominaltarget的小planardetector，detected-event权重为labangularJacobian×projectedarea/距离平方；不能把unconditionaldecaytime分布直接当detectedtime分布。代码 [day13_doppler_displaced_vertex.py](../../system/scripts/day13_doppler_displaced_vertex.py)分别给unweighted和几何加权moments，以48/96点Laguerrequadrature复核。
+
+自设E0=1000keV、θnominal90°：
+
+| β / R(mm) | proper levelτ(ps) / feederτ(ps) | unconditional meanflight(mm) | detected meanresidual(keV) | detected σ(keV) |
+|---|---|---:|---:|---:|
+| .07 / 235 | 5 / 0 | .10519 | −.03133 | .03133 |
+| .07 / 235 | 50 / 0 | 1.05185 | −.31287 | .31262 |
+| .30 / 150 | 2 / 0 | .18856 | −.37655 | .37626 |
+| .30 / 150 | 2 / 20 | 2.07417 | −4.08381 | 3.69398 |
+| .50 / 150 | 10 / 0 | 1.73085 | −5.63406 | 5.56583 |
+
+这些是明确parameterchoices，不是knownnuclei的τ/feeding测量；忽略stopping、photonrecoil、finitearea、angularalignment、actualcuts和response/covariance。displacement-onlyline倾向非Gaussian单侧tail，所列为σ，不把2.355σ自动当FWHM。quadraturemaxmean差约2.1×10⁻12keV，staticβ0极限通过。
+
+### Feeding 与理想时间门
+
+若同一constant-speednucleus的feeder与level等待时间均为独立exponential proper times，emissiontime为两者和；对τf≠τl，
+
+$$P(t<T)=1-\frac{\tau_f e^{-T/\tau_f}-\tau_l e^{-T/\tau_l}}{\tau_f-\tau_l}.$$
+
+τf=τl时回到Erlang2的 `1−e^(−T/τ)(1+T/τ)`。自设τl2ps/τf20ps、idealproper-time门T10ps，directfraction.993262而feedingfraction.326826；MC为.993422/.327514。actualγ-particletimestamp含emission/flightpath、response、walk与offset，不能把这10ps直接写成某实验gate设置。一个较短levelτ不排除长feeder造成较远vertex；gate选择会同时改变intensity与line-shape样本。
+
+### 最小反证设计
+
+在相同emitter/particlevector/PSAselection下比较具有不同已知prompt/feedinghistory的held-outline，保留raw/nominal/correct-vertexenergy、不同角度以及time/gate切片。globaltargetzoffset也可模拟一部分displacementpattern，须有独立promptvertex/calibration或timehistory；两近邻line还需coincidence/identity控制。缺输入时保留预测/失败条件，不能据本toy测量真实τ或修订absoluteB。

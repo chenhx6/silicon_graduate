@@ -6,7 +6,17 @@ updated: 2026-10-13
 
 # 跨会话交接
 
-## Active handoff — DAY13 published; formal Day14 is next
+## Active handoff — DAY13 continuous study reopened by user
+
+2026-10-13 21:06 Asia/Shanghai，用户要求持续学习Day13、不要中断。仍为run `2026-10-13-day-13-01` / session `01a13489-64ba-7930-9a2c-291375d95ad0`，原硬截止 `2026-10-14T15:00:00+08:00`；回执status恢复running，历史完成/发布保留。课程state已next14/count13，保留已授予的Day13卡学分、不重复计卡、不启动正式Day14或Day15。继续用同一resume command和日报；原17:51全窗口饱和判断收束过早，现在拓宽Day13的事件速度、位置、有限角度、能损/发射历史、重建顺序及门迁移/效率问题。
+
+最新持续checkpoint：新增VD16(VAMOSvector/vertex)、CR13(high-energyvelocityfloor)、AA09(target/meanflight/conventionmodel)、AK12(PSA/staticimaging/selection)四份public-source；rawslots明确未归档，原raw不变。新增五个可运行geometry/gate、convention/decay、speed/calibration、aberration/acceptance、delayedvertex/feeding练习，verification均passed；single-writeback30items/16累计mappedpages。最新lint0errors/100warnings（4public-source rawmissing边界与citationkeys未猜），boundary/protected/report/writeback/card/diff检查通过。
+
+本次10个new/editedknowledgepages为reopened增量；科学窗口仍active，deadline只在次日15:00关闭。下条路线：Senyi2013 detector-neutron背景与假宽线、可取得的12Cnaturalwidth/leveldecay数据、residualmomentum/covariance与held-out gate/likelihood诊断。发布checkpoint不会结束goal或给新学分。正常runner finalizer不可再次推进state；最后仅核对alreadycredited next14/count13。已提交active checkpoint：main / `Extend active DAY13 recoil and detector-response study`；exacthash只进runreceipt。
+
+已有精确Jacobian、rank2反例、Mavela/Klemme/Herzan证据和知识写回均保留。先逐路线source-before recall、直接全文/locator、反证和可复算边界，checkpoint只记进展，不再次提前complete。Farmer保留运行，同session时钟将排队2小时checkpoint与15:00收束；queue成功只算接受，不伪造delivery。原raw/PLAN/凭据、review flags和legacy Day6–9/daemon/log修改仍受保护。
+
+## Previous active handoff — DAY13 card publication (window reopened)
 
 Run `2026-10-13-day-13-01`, session `01a13489-64ba-7930-9a2c-291375d95ad0`; resume with `codex resume 01a13489-64ba-7930-9a2c-291375d95ad0 -C /workspace/wiki -s danger-full-access -a never`. Report: `outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity.md`; receipt: `outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity-run-01/run.json`. Original hard deadline remains 2026-10-14 15:00 Asia/Shanghai.
 

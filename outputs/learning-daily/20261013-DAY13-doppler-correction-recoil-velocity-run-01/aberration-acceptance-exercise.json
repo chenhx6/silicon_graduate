@@ -1,0 +1,254 @@
+{
+  "schema_version": 1,
+  "kind": "synthetic Lorentz angle/energy/finite acceptance exercise",
+  "seed": 1316,
+  "samples": 400000,
+  "rows": [
+    {
+      "beta": 0.0,
+      "J_forward": 1.0,
+      "J_90": 1.0,
+      "J_backward": 1.0,
+      "bins": [
+        {
+          "lab_bin_center_deg": 35,
+          "lab_half_bin_deg": 5,
+          "isotropic_probability_exact": 0.04999048033273035,
+          "isotropic_probability_MC": 0.0497525,
+          "toy_efficiency_weighted_probability": 0.024995240166365174,
+          "rest_frame_edges_deg": [
+            29.999999999999993,
+            40.00000000000001
+          ],
+          "anisotropic_a2_0_3_a4_0_1_probability": 0.05663759849122148
+        },
+        {
+          "lab_bin_center_deg": 90,
+          "lab_half_bin_deg": 5,
+          "isotropic_probability_exact": 0.0871557427476582,
+          "isotropic_probability_MC": 0.0868475,
+          "toy_efficiency_weighted_probability": 0.0435778713738291,
+          "rest_frame_edges_deg": [
+            85.0,
+            95.0
+          ],
+          "anisotropic_a2_0_3_a4_0_1_probability": 0.07736771286905944
+        },
+        {
+          "lab_bin_center_deg": 145,
+          "lab_half_bin_deg": 5,
+          "isotropic_probability_exact": 0.0499904803327304,
+          "isotropic_probability_MC": 0.0502125,
+          "toy_efficiency_weighted_probability": 0.0249952401663652,
+          "rest_frame_edges_deg": [
+            140.0,
+            150.0
+          ],
+          "anisotropic_a2_0_3_a4_0_1_probability": 0.05663759849122154
+        }
+      ],
+      "solid_angle_normalized_lab_density_145_over_90": 1.0,
+      "same_density_ratio_with_toy_epsilon_lab": 1.0
+    },
+    {
+      "beta": 0.016,
+      "J_forward": 1.032520325203252,
+      "J_90": 0.999744,
+      "J_backward": 0.968503937007874,
+      "bins": [
+        {
+          "lab_bin_center_deg": 35,
+          "lab_half_bin_deg": 5,
+          "isotropic_probability_exact": 0.0513088015587393,
+          "isotropic_probability_MC": 0.05087,
+          "toy_efficiency_weighted_probability": 0.025388673176172247,
+          "rest_frame_edges_deg": [
+            30.46159129902337,
+            40.59293065552797
+          ],
+          "anisotropic_a2_0_3_a4_0_1_probability": 0.05784104498040823
+        },
+        {
+          "lab_bin_center_deg": 90,
+          "lab_half_bin_deg": 5,
+          "isotropic_probability_exact": 0.08713360031817745,
+          "isotropic_probability_MC": 0.087245,
+          "toy_efficiency_weighted_probability": 0.043571214750774655,
+          "rest_frame_edges_deg": [
+            85.91392038703431,
+            95.91264679289515
+          ],
+          "anisotropic_a2_0_3_a4_0_1_probability": 0.07734984431100686
+        },
+        {
+          "lab_bin_center_deg": 145,
+          "lab_half_bin_deg": 5,
+          "isotropic_probability_exact": 0.048697761855721056,
+          "isotropic_probability_MC": 0.04885,
+          "toy_efficiency_weighted_probability": 0.024605391855250788,
+          "rest_frame_edges_deg": [
+            140.58570720866052,
+            150.45523897375656
+          ],
+          "anisotropic_a2_0_3_a4_0_1_probability": 0.055446321315884235
+        }
+      ],
+      "solid_angle_normalized_lab_density_145_over_90": 0.9743882560946374,
+      "same_density_ratio_with_toy_epsilon_lab": 0.9845534908864502
+    },
+    {
+      "beta": 0.07,
+      "J_forward": 1.1505376344086022,
+      "J_90": 0.9951,
+      "J_backward": 0.8691588785046729,
+      "bins": [
+        {
+          "lab_bin_center_deg": 35,
+          "lab_half_bin_deg": 5,
+          "isotropic_probability_exact": 0.055956355732762,
+          "isotropic_probability_MC": 0.05558,
+          "toy_efficiency_weighted_probability": 0.02674444713723758,
+          "rest_frame_edges_deg": [
+            32.07043002930127,
+            42.651925798804754
+          ],
+          "anisotropic_a2_0_3_a4_0_1_probability": 0.0619954847706327
+        },
+        {
+          "lab_bin_center_deg": 90,
+          "lab_half_bin_deg": 5,
+          "isotropic_probability_exact": 0.08673190785698108,
+          "isotropic_probability_MC": 0.08732,
+          "toy_efficiency_weighted_probability": 0.04345033819033357,
+          "rest_frame_edges_deg": [
+            89.01096552647456,
+            98.9865593344658
+          ],
+          "anisotropic_a2_0_3_a4_0_1_probability": 0.0770263414405997
+        },
+        {
+          "lab_bin_center_deg": 145,
+          "lab_half_bin_deg": 5,
+          "isotropic_probability_exact": 0.04451518752676065,
+          "isotropic_probability_MC": 0.0444775,
+          "toy_efficiency_weighted_probability": 0.02331466024985584,
+          "rest_frame_edges_deg": [
+            142.51331452152496,
+            151.94848842414441
+          ],
+          "anisotropic_a2_0_3_a4_0_1_probability": 0.051512930965224094
+        }
+      ],
+      "solid_angle_normalized_lab_density_145_over_90": 0.8948247878736838,
+      "same_density_ratio_with_toy_epsilon_lab": 0.9355018026683309
+    },
+    {
+      "beta": 0.3,
+      "J_forward": 1.8571428571428574,
+      "J_90": 0.91,
+      "J_backward": 0.5384615384615384,
+      "bins": [
+        {
+          "lab_bin_center_deg": 35,
+          "lab_half_bin_deg": 5,
+          "isotropic_probability_exact": 0.07979728157281896,
+          "isotropic_probability_MC": 0.0797675,
+          "toy_efficiency_weighted_probability": 0.03308951301755008,
+          "rest_frame_edges_deg": [
+            40.11965489576453,
+            52.763542229488046
+          ],
+          "anisotropic_a2_0_3_a4_0_1_probability": 0.08153120363953364
+        },
+        {
+          "lab_bin_center_deg": 90,
+          "lab_half_bin_deg": 5,
+          "isotropic_probability_exact": 0.07936598454415203,
+          "isotropic_probability_MC": 0.0791525,
+          "toy_efficiency_weighted_probability": 0.04119282027570709,
+          "rest_frame_edges_deg": [
+            102.62440171516889,
+            112.16597070450086
+          ],
+          "anisotropic_a2_0_3_a4_0_1_probability": 0.0712907973784892
+        },
+        {
+          "lab_bin_center_deg": 145,
+          "lab_half_bin_deg": 5,
+          "isotropic_probability_exact": 0.029361975614075306,
+          "isotropic_probability_MC": 0.029425,
+          "toy_efficiency_weighted_probability": 0.01816293403100974,
+          "rest_frame_edges_deg": [
+            150.0928288878623,
+            157.75269341746164
+          ],
+          "anisotropic_a2_0_3_a4_0_1_probability": 0.036132464764193226
+        }
+      ],
+      "solid_angle_normalized_lab_density_145_over_90": 0.6449997765602753,
+      "same_density_ratio_with_toy_epsilon_lab": 0.7687288445777025
+    },
+    {
+      "beta": 0.5,
+      "J_forward": 3.0,
+      "J_90": 0.75,
+      "J_backward": 0.3333333333333333,
+      "bins": [
+        {
+          "lab_bin_center_deg": 35,
+          "lab_half_bin_deg": 5,
+          "isotropic_probability_exact": 0.10717801784079803,
+          "isotropic_probability_MC": 0.108205,
+          "toy_efficiency_weighted_probability": 0.03948792753256823,
+          "rest_frame_edges_deg": [
+            49.79218127796579,
+            64.45588760177473
+          ],
+          "anisotropic_a2_0_3_a4_0_1_probability": 0.1017343355470259
+        },
+        {
+          "lab_bin_center_deg": 90,
+          "lab_half_bin_deg": 5,
+          "isotropic_probability_exact": 0.06549117682747917,
+          "isotropic_probability_MC": 0.06566,
+          "toy_efficiency_weighted_probability": 0.03669999182886364,
+          "rest_frame_edges_deg": [
+            115.57262745421114,
+            124.2383753583542
+          ],
+          "anisotropic_a2_0_3_a4_0_1_probability": 0.06115551221913353
+        },
+        {
+          "lab_bin_center_deg": 145,
+          "lab_half_bin_deg": 5,
+          "isotropic_probability_exact": 0.018917745343797393,
+          "isotropic_probability_MC": 0.0192375,
+          "toy_efficiency_weighted_probability": 0.013951620387680818,
+          "rest_frame_edges_deg": [
+            156.26526214845143,
+            162.41204622600625
+          ],
+          "anisotropic_a2_0_3_a4_0_1_probability": 0.02434100677351427
+        }
+      ],
+      "solid_angle_normalized_lab_density_145_over_90": 0.5036110831677809,
+      "same_density_ratio_with_toy_epsilon_lab": 0.6627769284540795
+    }
+  ],
+  "assumptions": {
+    "source": "Longfellow2026 Eq2 and Eq18",
+    "E0_keV": 1000.0,
+    "counting_measure": "per emitted photon; full azimuth",
+    "epsilon_toy": "clip(0.5*(Elab/E0)^(-0.8),0.01,0.99)",
+    "response_not_included": "GRETINA actual angular coverage, polarization, feeding, tails, covariance"
+  },
+  "verification": {
+    "angle_density_normalization_passed": true,
+    "jacobian_finite_difference_passed": true,
+    "static_limit_passed": true,
+    "max_MC_bin_relative_difference": 0.01690236602679751,
+    "max_energy_inverse_error_keV": 6.821210263296962e-13,
+    "passed": true
+  },
+  "numpy_version": "2.5.3"
+}

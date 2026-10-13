@@ -1,0 +1,121 @@
+{
+  "schema_version": 1,
+  "run_id": "2026-10-13-day-13-01",
+  "at": "2026-10-13T23:09:30.505725+08:00",
+  "status": "research-active-checkpoint",
+  "hard_deadline": "2026-10-14T15:00:00+08:00",
+  "remaining_minutes": 950.49157125,
+  "report_sha256": "a54e79104e445d0cd0dee24f621ed504c9324a6ff42deec1c46d0863af3a5d58",
+  "writeback": {
+    "valid": true,
+    "mode": "updated",
+    "knowledge_paths": [
+      "knowledge/methods/doppler-correction.md",
+      "knowledge/sources/mavela-2019-32s-quadrupole-moment-doppler-correction-thesis.md",
+      "knowledge/sources/klemme-1999-lifetimes-134nd-neighbors.md",
+      "knowledge/sources/herzan-2015-193bi-spectroscopy.md",
+      "knowledge/methods/level-scheme-reconstruction.md",
+      "knowledge/projects/a130-thesis-evidence-matrix.md",
+      "knowledge/questions.md",
+      "knowledge/index.md",
+      "knowledge/sources/vandebrouck-2016-vamos-dual-position-mwpc.md",
+      "knowledge/sources/crespi-2013-agata-high-energy-doppler-response.md",
+      "knowledge/methods/tracking-array.md",
+      "knowledge/sources/aladili-2009-agata-doppler-simulation.md",
+      "knowledge/research-notes/doppler-forward-inverse-convention-check.md",
+      "knowledge/sources/akkoyun-2012-agata-instrument-response.md",
+      "knowledge/concepts/lorentz-boost-correction.md",
+      "knowledge/sources/longfellow-2026-gretina-energy-ordering-polarization.md"
+    ],
+    "changed_paths": [
+      "knowledge/concepts/lorentz-boost-correction.md",
+      "knowledge/index.md",
+      "knowledge/methods/doppler-correction.md",
+      "knowledge/methods/level-scheme-reconstruction.md",
+      "knowledge/methods/tracking-array.md",
+      "knowledge/projects/a130-thesis-evidence-matrix.md",
+      "knowledge/questions.md",
+      "knowledge/research-notes/doppler-forward-inverse-convention-check.md",
+      "knowledge/sources/akkoyun-2012-agata-instrument-response.md",
+      "knowledge/sources/aladili-2009-agata-doppler-simulation.md",
+      "knowledge/sources/crespi-2013-agata-high-energy-doppler-response.md",
+      "knowledge/sources/herzan-2015-193bi-spectroscopy.md",
+      "knowledge/sources/klemme-1999-lifetimes-134nd-neighbors.md",
+      "knowledge/sources/mavela-2019-32s-quadrupole-moment-doppler-correction-thesis.md",
+      "knowledge/sources/vandebrouck-2016-vamos-dual-position-mwpc.md"
+    ],
+    "change_check": "run-snapshot",
+    "error": null
+  },
+  "curriculum": {
+    "valid": true,
+    "completed_day_indices": [
+      13
+    ],
+    "partial_day_indices": [
+      14
+    ],
+    "curriculum_cards_completed": 1,
+    "next_day_index": 14,
+    "error": null
+  },
+  "protected_hashes_matched": true,
+  "analyses": {
+    "geometry-gate-exercise.json": {
+      "max_geometry_MC_relative_difference": 0.0018527479820205084,
+      "finite_bin_64_128_convergence": true,
+      "static_limit_passed": true,
+      "eventwise_exact_inversion_passed": true,
+      "plane_jacobian_passed": true,
+      "passed": true
+    },
+    "convention-decay-exercise.json": {
+      "max_exact_roundtrip_error_keV": 0.0,
+      "max_linear_roundtrip_error_keV": 1.1368683772161603e-13,
+      "max_decay_MC_relative_difference": 0.005927825905272965,
+      "analytic_quadrature_match": true,
+      "static_and_thin_target_limits": true,
+      "common_direction_energy_sum": true,
+      "passed": true
+    },
+    "recoil-speed-calibration-exercise.json": {
+      "kinetic_derivative_finite_difference": true,
+      "rank_counterexample": true,
+      "alternative_centroid_residual_under_0_003keV": true,
+      "passed": true
+    },
+    "aberration-acceptance-exercise.json": {
+      "angle_density_normalization_passed": true,
+      "jacobian_finite_difference_passed": true,
+      "static_limit_passed": true,
+      "max_MC_bin_relative_difference": 0.01690236602679751,
+      "max_energy_inverse_error_keV": 6.821210263296962e-13,
+      "passed": true
+    },
+    "displaced-vertex-feeding-exercise.json": {
+      "max_mean_quad48_96_difference_keV": 2.1023183194301964e-12,
+      "max_sigma_quad48_96_difference_keV": 2.7533531010703882e-14,
+      "static_limit_passed": true,
+      "feeding_CDF_MC_passed": true,
+      "equal_lifetime_Erlang_limit_passed": true,
+      "passed": true
+    }
+  },
+  "lint_summary": [
+    "SUMMARY pages=578 wikilinks=5523 hashes=281 errors=0 warnings=100 info=1584"
+  ],
+  "boundary_exit": 0,
+  "diff_exit": 0,
+  "state_already_credited": {
+    "next_day_index": 14,
+    "completed_day_count": 13
+  },
+  "next_routes": [
+    "Senyi2013 detector-neutron/gamma response and false-width signatures",
+    "ENSDF12C natural-width/mean-lifetime boundary if accessible",
+    "residue momentum/partial particle reconstruction and covariance budget",
+    "held-out gate/likelihood/sensitivity design",
+    "revisit only permitted Day14 preview if scientific need; no Day15"
+  ],
+  "no_final_closeout": true
+}

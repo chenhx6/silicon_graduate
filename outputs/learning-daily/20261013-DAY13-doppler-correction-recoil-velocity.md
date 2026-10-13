@@ -15,13 +15,14 @@ updated: 2026-10-13
 - completed_day_indices: [13]
 - partial_day_indices: [14]
 - Day 13 card audit: complete
-- 最终课程状态：内容发布门通过后推进为`next_day_index=14 / completed_day_count=13`；正式Day14入口为`outputs/learning-daily/prompts/20261014-DAY14-week-two-spectrum-to-level-scheme-exam.md`。
+- 已发布卡学分：内容发布门通过后推进为`next_day_index=14 / completed_day_count=13`；正式Day14入口为`outputs/learning-daily/prompts/20261014-DAY14-week-two-spectrum-to-level-scheme-exam.md`。
 - 入口状态：`next_day_index=13 / completed_day_count=12`，与矩阵一致；Day 11/12 不重跑。
 - session_id: `01a13489-64ba-7930-9a2c-291375d95ad0`（本次新 session，与上轮不同）。
 - resume_command: `codex resume 01a13489-64ba-7930-9a2c-291375d95ad0 -C /workspace/wiki -s danger-full-access -a never`
 - 研究硬截止：`2026-10-14T15:00:00+08:00`；下一调度：`2026-10-14T16:00:00+08:00`。
 - 执行路线：用户在同一 interactive session 中明确继续；未观察到 foreground daily runner，故以真实人工续接/检查回执对账，不伪造 runner exit code。
 - 使用技能：`farmer`、`go-on`、`all`、`auto`；`debug`仅用于method schema错误修复。保留原任务、模型与文件现场；farmer 的 ensure 启动成功，dry-run 无恢复 action。auto 的原生 goal 创建成功；不增加未请求的 token budget。
+- 2026-10-13 21:06 起，用户要求持续学习，原 session/截止不变；状态为 active-Day13。既有卡学分保留，不重复推进 next14/count13。上一段17:51提前收束仅记历史，后续已恢复更广的 Day13 方法问题。
 - 本次课程交付完整；实验重拟合仍 not-ready，见下面的数据边界。Day 14 只有知识预习，没有该卡 completion audit、正式周考学分或课程跨越。
 
 ### Day 13 card completion audit
@@ -48,7 +49,7 @@ updated: 2026-10-13
 
 开始快照为17:12、距原截止1307分钟；17:33刷新后1286分钟，按 AGENTS/continuous-learning 的新规则只预习 Day14，不按旧 advance wording 给学分。最终研究候选池在17:51:03刷新，剩1268.94分钟，见 [research-closeout.json](20261013-DAY13-doppler-correction-recoil-velocity-run-01/research-closeout.json)。
 
-这次提前收束不是因为两个来源读完：已重新检查生产数据、独立 calibration、stopping 对照、tracking frame、下一张卡与具体可复算路径。当前诊断问题和唯一预习的可得证据已固化；仍会改变判断的输入是缺失的 acquisition/code/response 包，官方库新核验也没有这些附件。其它一般来源不能代替本次执行身份。未打开 Day15 的科学来源或课程；未解决输入列为 readiness boundary，不列成用户待办。
+**历史收束决定（后被用户持续学习指令撤销）：**这次提前收束不是因为两个来源读完：已重新检查生产数据、独立 calibration、stopping 对照、tracking frame、下一张卡与具体可复算路径。当前诊断问题和唯一预习的可得证据已固化；仍会改变判断的输入是缺失的 acquisition/code/response 包，官方库新核验也没有这些附件。其它一般来源不能代替本次执行身份。未打开 Day15 的科学来源或课程；未解决输入列为 readiness boundary，不列成用户待办。
 
 ## Sources and evidence
 
@@ -102,6 +103,52 @@ Mavela 的 Eq.(4.5)/(4.6) 与 inverse/Jacobian相容，Fig.4.17的2230.57-keV pe
 
 本轮自检19/24，不是Day14正式成绩。预习REFLECT：峰、跃迁、能级和configuration不能合并成一个证据对象；energy closure与多投影会共享事件/标定；negative evidence必须带detection/branch/ICC条件。正式Day14宜优先检验这些边界并形成自己的weekly产物，而不是照抄预习分数。
 
+
+### 持续 Day13：独立 vector/vertex 对照与 selection exercise
+
+用户21:06要求后重开同一session。已读[[vandebrouck-2016-vamos-dual-position-mwpc]]公开8页preprint主线及p6 Table1/p7 Fig5：98Zr1222.9-keV line从8.6(1)到5.5(1)keV。已读[[crespi-2013-agata-high-energy-doppler-response]]10页preprint主线及p8 Table2：15.1-MeV line的PSA/segment/crystal为119/122/>160keV，average β为同一谱优化而非独立event velocity。新全文仅存tmp，source记录remoteURL、SHA和未填充raw槽位；保持raw目录不变。
+
+[geometry/gate code](../../system/scripts/day13_doppler_geometry_gates.py)和[exercise](20261013-DAY13-doppler-correction-recoil-velocity-run-01/geometry-gate-exercise.json)新增有声明假设的two-plane correlation、finite-bin二阶bias和fixed-gate migration。MC/Jacobian最大相对差0.185%，quadrature64/128、zeroβ和exact-event-inverse检验通过；source-inspiredρ≈−0.973不是作者measured covariance。true angle ratio1.30的synthetic fixed gate可读成1.381（不同width）或1.1945（额外βbias0.002），不当作实验alignment。推导、参数、数值和thematic REFLECT已全部固化到Doppler/tracking方法页。
+
+当前下一路线：reaction/target能损与angular straggling、emission-history造成的velocity/vertex差异、first-point排序与selection covariance；继续Day13，Day14保持已有partial、无Day15。
+
+
+### 持续Day13：发射tail、近似约定与hit顺序
+
+[[aladili-2009-agata-doppler-simulation]]47页全文主线/关键图已核（AA09-2/4/5/7/8）；它是simulation/design，非独立实测。其平均flight≫target的criterion支持主要靶外发射，不排除指数tail。在constantβ/uniform0.5μm reactiondepth/sourceτ的明确toy下，Cr/Arinsidefraction约1.49%/2.41%。Eq6.8的1.15×10⁻5m=16.5μm打印冲突保留。
+
+[convention/decay code](../../system/scripts/day13_doppler_conventions_decay.py)、[JSON](20261013-DAY13-doppler-correction-recoil-velocity-run-01/convention-decay-exercise.json)验证exact-exact与linear-linear roundtrip；linearforward+exactinverse在1434keV/β.0548/90°给+2.158keV。其与source图mean约1436仅量级相容，provisionalcase在[[doppler-forward-inverse-convention-check]]，缺sortpax/MGT不能宣称作者代码错。
+
+Compton two-hit toy满足scattering energy关系：sum后用真实firstpoint得1000keV；逐deposit用自己的径向角得1004.537keV；最高deposit当first得1005.766keV。它限制energyordering的普遍性，同时保留Crespi/Longfellow在指定setup的实际表现。新结果固化到Doppler方法；MC/analytic概率最大relative差0.593%，thin-target/zero-nuisance/共同factor求和检验通过。仍持续Day13，下一步检查meanβ自校准与hold-outline/angle验证、emissionposition/particle-budget影响。
+
+
+### 持续Day13：速度stage、TOF与centroid自校准
+
+[reconstruction/calibration code](../../system/scripts/day13_recoil_speed_calibration.py)与[JSON](20261013-DAY13-doppler-correction-recoil-velocity-run-01/recoil-speed-calibration-exercise.json)已验证kinetic derivative/TOFcovariance及β-gain-offset一阶rank2、exactweakcurvature。sourceinput与自设measurement分开：Klemme28Si+110Pdnominalbeamβ.09755/boost.01987不可直接代替reportedmean.016；Mavela/S3particleenergy须明确scattering/loss/emissionstage；VD16timeσ不能脱离pathlength推出σβ。syntheticβ.07与.0701可以通过gain/offset改变拟合五角centroid至max residual.002577keV；sourceindependentcalibration可能排除alternative，因此不宣称Crespi实际β有歧义。方法页已保存所有units/assumptions。
+
+Recchia2009/Söderström2011metadata身份已确认，但publisher、HAL只有metadata、GSI connecttimeout，暂不从二手摘要生成新实验claim。正在读公开AGATAoverview的直接commissioning与response主线以补充比较边界；该instrumentoverview引用其它实验不当成新独立acquisition。课程仍next14/count13，回执running，未给额外学分。
+
+
+### 持续Day13：staticposition与algorithm-response验证
+
+[[akkoyun-2012-agata-instrument-response]]的41页主线和Sec9–11关键证据已核（AK12-1–7），原preprintfig39/40与thresholdparagraph视觉核验。static60CoComptonimage约5mmFWHM减少beamkinematics依赖，但PSA/sequence/calibration仍共享。sourceactual3ATCtest的rawP/T16.8%、tracked53.9%、FEPcountpreservation84.5%区分两种指标，不能当absoluteγefficiency。fullarray/algorithm比较与thresholdloss为simulation语境；citedRecchia/Söderström原文仍未取得，不用overview重复计实验。
+
+关键reusable结果和最小validationmatrix已写回tracking/Doppler方法。raw仍不变；新source保留publicURL/version/SHA与未填充rawarchive边界。当前选择继续研究energycorrection与angularframe/acceptance：窄化peak不消除photonaberration或energy-dependentlabresponse。dayindex13不变，Day14仍partial，未开Day15卡。
+
+
+### 持续Day13：energy与angle/acceptance变换
+
+复核L26-2/3/8原Eq2/18。[angular-acceptance code](../../system/scripts/day13_doppler_aberration_acceptance.py)与[JSON](20261013-DAY13-doppler-correction-recoil-velocity-run-01/aberration-acceptance-exercise.json)将restisotropicphotonboost到lab，energy校正仍将allphotons恢复1000keV；finiteangle的per-solid-anglecounts不flat。β.07时145/90densityratio0.894825，加入明确自设ε(E_lab)后0.935502。maxMCbinrelative差1.69%，whole-sphere/Jacobian/static/energyinverse检查通过。
+
+boostaxis、labbeam/quantizationaxis、angularaberration与energycorrection分别声明；realarraygeometry/response/feeding/covariance不在toy内，没有新δ/alignment测量。新推导写回Lorentzconcept和Doppler方法，Longfellowhuman-reviewedsource和其claimflags未改。学习仍active，下一路eventdisplacedvertex/lifetime/feeding选择，不开Day15卡。
+
+
+### 持续Day13：delayedvertex/feeding的conditionalresponse
+
+[displacedvertex code](../../system/scripts/day13_doppler_displaced_vertex.py)与[JSON](20261013-DAY13-doppler-correction-recoil-velocity-run-01/displaced-vertex-feeding-exercise.json)将sourceAA09-1/4的远发射点条件推进为明确toy：恒定knownβ仍因错误targetvertex有同号low-energyresidual；detectedtimes须按angularJacobian/projectedarea/distance²加权。β.3/R150mm/τl2ps在90°的mean为−.3765keV，另有τf20ps时为−4.0838keV；actualnuclear参数/response未代入。
+
+idealproper-time10psgate在同一τl2ps下接受direct.993262/feeding.326826，需与actualtimestamp/flightpath/response区分。48/96点quadraturemean差≤2.2×10⁻12keV、MC/CDF/Erlang2/static检查通过。line-tail为nonGaussian，σ不冒充FWHM。推导、参数、numerics与独立promptvertex/held-outtime-gatefalsifier已全部写回Doppler方法；无新实验lifetime/B。学习继续。
+
 ## Counter-evidence and missing companion observables
 
 1. Klemme Fig.1同一line有距离相关shifted/unshifted分量，反驳“两个峰必是两条跃迁”；Table I的6g+从1.38到corrected1.63ps增加18.1%，显示finite stopping影响寿命。
@@ -119,7 +166,7 @@ Mavela 的 Eq.(4.5)/(4.6) 与 inverse/Jacobian相容，Fig.4.17的2230.57-keV pe
 
 ## Durable knowledge delta
 
-可复用知识的canonical落点是八个 `knowledge/` 页面：Doppler诊断/推导、level-scheme方法、三份source、A≈130 evidence contract、开放问题locator及index。`outputs/`的JSON/回忆/评分/候选池只作执行与验收记录，不能取代这些证据页。新科学claims仍为unreviewed/needs_review；未升级为human-reviewed。
+原已发布段落的canonical落点为八个 `knowledge/` 页面；持续段落新增source/tracking方法映射于同一block：Doppler诊断/推导、level-scheme方法、三份source、A≈130 evidence contract、开放问题locator及index。`outputs/`的JSON/回忆/评分/候选池只作执行与验收记录，不能取代这些证据页。新科学claims仍为unreviewed/needs_review；未升级为human-reviewed。
 
 ```knowledge-writeback
 {
@@ -312,6 +359,396 @@ Mavela 的 Eq.(4.5)/(4.6) 与 inverse/Jacobian相容，Fig.4.17的2230.57-keV pe
           "locator": "HE15-4"
         }
       ]
+    },
+    {
+      "knowledge": "knowledge/sources/vandebrouck-2016-vamos-dual-position-mwpc.md",
+      "anchor": "VD16-3",
+      "summary": "公开preprint全文/原表核验，保留真实raw未归档和same-data处理边界；直接vector/vertex改善独立方法证据。",
+      "sources": [
+        {
+          "path": "knowledge/sources/vandebrouck-2016-vamos-dual-position-mwpc.md",
+          "locator": "VD16-1"
+        },
+        {
+          "path": "knowledge/sources/vandebrouck-2016-vamos-dual-position-mwpc.md",
+          "locator": "VD16-2"
+        },
+        {
+          "path": "knowledge/sources/vandebrouck-2016-vamos-dual-position-mwpc.md",
+          "locator": "VD16-3"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/sources/crespi-2013-agata-high-energy-doppler-response.md",
+      "anchor": "CR13-3",
+      "summary": "公开高能AGATA实验，区分meanβ优化、缺逐事件速度floor和tracking/FEP tradeoff。",
+      "sources": [
+        {
+          "path": "knowledge/sources/crespi-2013-agata-high-energy-doppler-response.md",
+          "locator": "CR13-2"
+        },
+        {
+          "path": "knowledge/sources/crespi-2013-agata-high-energy-doppler-response.md",
+          "locator": "CR13-3"
+        },
+        {
+          "path": "knowledge/sources/crespi-2013-agata-high-energy-doppler-response.md",
+          "locator": "CR13-5"
+        },
+        {
+          "path": "knowledge/sources/crespi-2013-agata-high-energy-doppler-response.md",
+          "locator": "CR13-6"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/methods/doppler-correction.md",
+      "anchor": "Recoil vector、共同 vertex 与校正门的响应",
+      "summary": "新增vector梯度、two-plane correlated vertex/angle、finite-bin bias和fixed-gate数值推导；非实验结果。",
+      "sources": [
+        {
+          "path": "knowledge/sources/vandebrouck-2016-vamos-dual-position-mwpc.md",
+          "locator": "VD16-1"
+        },
+        {
+          "path": "knowledge/sources/vandebrouck-2016-vamos-dual-position-mwpc.md",
+          "locator": "VD16-2"
+        },
+        {
+          "path": "knowledge/sources/vandebrouck-2016-vamos-dual-position-mwpc.md",
+          "locator": "VD16-3"
+        },
+        {
+          "path": "knowledge/sources/crespi-2013-agata-high-energy-doppler-response.md",
+          "locator": "CR13-3"
+        },
+        {
+          "path": "knowledge/sources/crespi-2013-agata-high-energy-doppler-response.md",
+          "locator": "CR13-5"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/methods/tracking-array.md",
+      "anchor": "Recoil information and high-energy tracking boundary",
+      "summary": "补共同vector/vertex信息及high-energy/multiplicity-specific ordering边界。",
+      "sources": [
+        {
+          "path": "knowledge/sources/vandebrouck-2016-vamos-dual-position-mwpc.md",
+          "locator": "VD16-3"
+        },
+        {
+          "path": "knowledge/sources/crespi-2013-agata-high-energy-doppler-response.md",
+          "locator": "CR13-3"
+        },
+        {
+          "path": "knowledge/sources/crespi-2013-agata-high-energy-doppler-response.md",
+          "locator": "CR13-5"
+        },
+        {
+          "path": "knowledge/sources/crespi-2013-agata-high-energy-doppler-response.md",
+          "locator": "CR13-6"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/index.md",
+      "anchor": "[[vandebrouck-2016-vamos-dual-position-mwpc]]",
+      "summary": "新source/owning method reciprocal入口。",
+      "sources": [
+        {
+          "path": "knowledge/sources/vandebrouck-2016-vamos-dual-position-mwpc.md",
+          "locator": "VD16-3"
+        },
+        {
+          "path": "knowledge/sources/crespi-2013-agata-high-energy-doppler-response.md",
+          "locator": "CR13-3"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/sources/aladili-2009-agata-doppler-simulation.md",
+      "anchor": "AA09-4",
+      "summary": "全文simulation主线、target/lifetime/velocity-spread、printed单位和约定边界；全部非实验新测量。",
+      "sources": [
+        {
+          "path": "knowledge/sources/aladili-2009-agata-doppler-simulation.md",
+          "locator": "AA09-2"
+        },
+        {
+          "path": "knowledge/sources/aladili-2009-agata-doppler-simulation.md",
+          "locator": "AA09-3"
+        },
+        {
+          "path": "knowledge/sources/aladili-2009-agata-doppler-simulation.md",
+          "locator": "AA09-4"
+        },
+        {
+          "path": "knowledge/sources/aladili-2009-agata-doppler-simulation.md",
+          "locator": "AA09-5"
+        },
+        {
+          "path": "knowledge/sources/aladili-2009-agata-doppler-simulation.md",
+          "locator": "AA09-7"
+        },
+        {
+          "path": "knowledge/sources/aladili-2009-agata-doppler-simulation.md",
+          "locator": "AA09-8"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/methods/doppler-correction.md",
+      "anchor": "发射位置、forward/inverse 约定与 first-interaction 顺序",
+      "summary": "新增mean-flight→tail概率、约定roundtrip和正确incomingdirection下addback反例，代码可重算，非原数据replay。",
+      "sources": [
+        {
+          "path": "knowledge/sources/aladili-2009-agata-doppler-simulation.md",
+          "locator": "AA09-4"
+        },
+        {
+          "path": "knowledge/sources/aladili-2009-agata-doppler-simulation.md",
+          "locator": "AA09-8"
+        },
+        {
+          "path": "knowledge/sources/mavela-2019-32s-quadrupole-moment-doppler-correction-thesis.md",
+          "locator": "DD-20261013-32S-27"
+        },
+        {
+          "path": "knowledge/sources/crespi-2013-agata-high-energy-doppler-response.md",
+          "locator": "CR13-5"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/research-notes/doppler-forward-inverse-convention-check.md",
+      "anchor": "Provisional Reasoning",
+      "summary": "保存source1434/1436的bounded counterfactual及code-falsifier；provisional不当source错误结论。",
+      "sources": [
+        {
+          "path": "knowledge/sources/aladili-2009-agata-doppler-simulation.md",
+          "locator": "AA09-8"
+        },
+        {
+          "path": "knowledge/sources/mavela-2019-32s-quadrupole-moment-doppler-correction-thesis.md",
+          "locator": "DD-20261013-32S-27"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/questions.md",
+      "anchor": "angle/ring 的 corrected peak gate 是否具有已验证的selection efficiency",
+      "summary": "新gate-response/trajectory-covariance问题与所需实际输入。",
+      "sources": [
+        {
+          "path": "knowledge/sources/vandebrouck-2016-vamos-dual-position-mwpc.md",
+          "locator": "VD16-2"
+        },
+        {
+          "path": "knowledge/sources/vandebrouck-2016-vamos-dual-position-mwpc.md",
+          "locator": "VD16-3"
+        },
+        {
+          "path": "knowledge/sources/crespi-2013-agata-high-energy-doppler-response.md",
+          "locator": "CR13-3"
+        },
+        {
+          "path": "knowledge/sources/crespi-2013-agata-high-energy-doppler-response.md",
+          "locator": "CR13-5"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/index.md",
+      "anchor": "[[aladili-2009-agata-doppler-simulation]]",
+      "summary": "新增simulation源与provisional note入口。",
+      "sources": [
+        {
+          "path": "knowledge/sources/aladili-2009-agata-doppler-simulation.md",
+          "locator": "AA09-4"
+        },
+        {
+          "path": "knowledge/sources/aladili-2009-agata-doppler-simulation.md",
+          "locator": "AA09-8"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/methods/doppler-correction.md",
+      "anchor": "速度信息的 stage 与独立校准",
+      "summary": "新增kinetic/TOF/path协方差、beam/compound/emission stage区分与centroid beta/gain/offset的弱识别性练习，非sourceβ实测。",
+      "sources": [
+        {
+          "path": "knowledge/sources/mavela-2019-32s-quadrupole-moment-doppler-correction-thesis.md",
+          "locator": "DD-20261013-32S-27"
+        },
+        {
+          "path": "knowledge/sources/klemme-1999-lifetimes-134nd-neighbors.md",
+          "locator": "KL99-17"
+        },
+        {
+          "path": "knowledge/sources/vandebrouck-2016-vamos-dual-position-mwpc.md",
+          "locator": "VD16-2"
+        },
+        {
+          "path": "knowledge/sources/crespi-2013-agata-high-energy-doppler-response.md",
+          "locator": "CR13-2"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/sources/akkoyun-2012-agata-instrument-response.md",
+      "anchor": "AK12-5",
+      "summary": "AGATAoverview主线和原fig/table核验；staticimaging、energy-dependentPSA、threshold/efficiency及same-source依赖，原primary访问边界。",
+      "sources": [
+        {
+          "path": "knowledge/sources/akkoyun-2012-agata-instrument-response.md",
+          "locator": "AK12-1"
+        },
+        {
+          "path": "knowledge/sources/akkoyun-2012-agata-instrument-response.md",
+          "locator": "AK12-2"
+        },
+        {
+          "path": "knowledge/sources/akkoyun-2012-agata-instrument-response.md",
+          "locator": "AK12-3"
+        },
+        {
+          "path": "knowledge/sources/akkoyun-2012-agata-instrument-response.md",
+          "locator": "AK12-4"
+        },
+        {
+          "path": "knowledge/sources/akkoyun-2012-agata-instrument-response.md",
+          "locator": "AK12-5"
+        },
+        {
+          "path": "knowledge/sources/akkoyun-2012-agata-instrument-response.md",
+          "locator": "AK12-6"
+        },
+        {
+          "path": "knowledge/sources/akkoyun-2012-agata-instrument-response.md",
+          "locator": "AK12-7"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/methods/tracking-array.md",
+      "anchor": "Position validation and selection response",
+      "summary": "区分static/beamvalidation的nuisance、P/T与FEPpreservation及algorithm/thresholdresponse。",
+      "sources": [
+        {
+          "path": "knowledge/sources/akkoyun-2012-agata-instrument-response.md",
+          "locator": "AK12-1"
+        },
+        {
+          "path": "knowledge/sources/akkoyun-2012-agata-instrument-response.md",
+          "locator": "AK12-4"
+        },
+        {
+          "path": "knowledge/sources/akkoyun-2012-agata-instrument-response.md",
+          "locator": "AK12-5"
+        },
+        {
+          "path": "knowledge/sources/akkoyun-2012-agata-instrument-response.md",
+          "locator": "AK12-6"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/methods/doppler-correction.md",
+      "anchor": "分层验证的最小矩阵",
+      "summary": "跨source设计energy/staticposition/particle/movingline/selection各层控制，不假装独立实测校准已完成。",
+      "sources": [
+        {
+          "path": "knowledge/sources/akkoyun-2012-agata-instrument-response.md",
+          "locator": "AK12-1"
+        },
+        {
+          "path": "knowledge/sources/akkoyun-2012-agata-instrument-response.md",
+          "locator": "AK12-5"
+        },
+        {
+          "path": "knowledge/sources/akkoyun-2012-agata-instrument-response.md",
+          "locator": "AK12-6"
+        },
+        {
+          "path": "knowledge/sources/akkoyun-2012-agata-instrument-response.md",
+          "locator": "AK12-7"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/index.md",
+      "anchor": "[[akkoyun-2012-agata-instrument-response]]",
+      "summary": "登记source和owningmethods入口。",
+      "sources": [
+        {
+          "path": "knowledge/sources/akkoyun-2012-agata-instrument-response.md",
+          "locator": "AK12-5"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/concepts/lorentz-boost-correction.md",
+      "anchor": "Energy-corrected events retain a laboratory angular response",
+      "summary": "finite-angleper-photoncounts归一化/Jacobian/energy response练习；保留boostaxis与quantizationaxis条件。",
+      "sources": [
+        {
+          "path": "knowledge/sources/longfellow-2026-gretina-energy-ordering-polarization.md",
+          "locator": "L26-2"
+        },
+        {
+          "path": "knowledge/sources/longfellow-2026-gretina-energy-ordering-polarization.md",
+          "locator": "L26-3"
+        },
+        {
+          "path": "knowledge/sources/longfellow-2026-gretina-energy-ordering-polarization.md",
+          "locator": "L26-8"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/methods/doppler-correction.md",
+      "anchor": "Energy gate 恢复后，angular acceptance 仍在实验室 frame",
+      "summary": "energy-restgate与lab angular/energy response不可合并，实验条件和模型界限分开。",
+      "sources": [
+        {
+          "path": "knowledge/sources/longfellow-2026-gretina-energy-ordering-polarization.md",
+          "locator": "L26-2"
+        },
+        {
+          "path": "knowledge/sources/longfellow-2026-gretina-energy-ordering-polarization.md",
+          "locator": "L26-3"
+        },
+        {
+          "path": "knowledge/sources/longfellow-2026-gretina-energy-ordering-polarization.md",
+          "locator": "L26-8"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/methods/doppler-correction.md",
+      "anchor": "Delayed emission vertex 与 feeding 的条件响应",
+      "summary": "新constant-speed/几何加权emissionvertex模型、feeding/time-gateCDF、one-sidedtail与falsifier；未当实验τ或B。",
+      "sources": [
+        {
+          "path": "knowledge/sources/aladili-2009-agata-doppler-simulation.md",
+          "locator": "AA09-1"
+        },
+        {
+          "path": "knowledge/sources/aladili-2009-agata-doppler-simulation.md",
+          "locator": "AA09-4"
+        },
+        {
+          "path": "knowledge/sources/klemme-1999-lifetimes-134nd-neighbors.md",
+          "locator": "KL99-4"
+        },
+        {
+          "path": "knowledge/sources/klemme-1999-lifetimes-134nd-neighbors.md",
+          "locator": "KL99-15"
+        }
+      ]
     }
   ]
 }
@@ -342,6 +779,6 @@ report headings、唯一writeback（12items/8changed pages/0locator errors）、
 
 first-write boundary/preflight/EOL checks均成功，index初始为空。继承的Day6–9 run artifacts、system/log旧差异和daemon修改排除；raw/PLAN/受保护Bib只读，源PDF哈希一致。overview/QMD update按本次局部方法增量deferred；只读collection boundary已通过。
 
-研究收束时间为2026-10-13 17:51:03+08:00，早于原硬截止1268.94分钟；原deadline不改。原因、全候选池与Day14检查保存在research-closeout.json；它保留缺失输入和重复核验无新增判别能力的具体边界。只在取得新primary packet或用户定向新问题后重开该诊断；讨论仍可用本页resume_command。
+上一段历史收束时间为2026-10-13 17:51:03+08:00，早于原硬截止1268.94分钟；原deadline不改。原因、全候选池与Day14检查保存在research-closeout.json；它保留缺失输入和重复核验无新增判别能力的具体边界。本次用户已要求继续，正在检查其它独立方法/反证及高信息计算路线，不等待Mavela单次实验packet；讨论仍可用本页resume_command。
 
 本轮续接文件：[continuation-prompt.md](20261013-DAY13-doppler-correction-recoil-velocity-run-01/continuation-prompt.md)。Formal Day14须新session，保持本次预习不计学分；最终发布和课程状态转换记录于run.json与scheduler event，精确hash只写任务回执。

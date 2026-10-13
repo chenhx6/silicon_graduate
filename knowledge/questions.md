@@ -41,6 +41,8 @@ updated: 2026-10-13
 - [ ] Mavela 2019 Appendix C 的 ring `β` 数组按什么靶核、末态和能损模型生成，是否与发射 `2_1+` 的实际速度相符？简化两体比较中，打印数组更接近 `E_x=0` 弹性模型；替换目标质量数为196时残差更小，但 GOSIA Appendix D 与 Chapter 3明确列 `194Pt`，仅 Sec.3.4.2 PDF p.41/印刷 p.32 一处写 `196Pt`。ring20/ring24 还各有局部插值疑点。没有 production sorter、target certificate/target-loss inputs 或 ring-gated spectra 前，不能判定实际速度、靶材是否存在笔误或修正影响（DD-20261013-32S-22/23/25/26）。（opened 2026-10-13；scope: 32s/doppler-correction/recoil-velocity/target-identity/analysis-provenance；sources: [[mavela-2019-32s-quadrupole-moment-doppler-correction-thesis]]）
 - [ ] Mavela 2019 Appendix C p.74 的 S3 hit-direction transform 中 `yb=d_target2s3*sin(angdis[rr])` 是否符合角度坐标约定？和同页 clover 的 `y=d_target2ge*cos(theta)` 使用共同球坐标时，打印的 S3 vector 归一化后会消去 ring theta、极角固定为135°；但这只是论文列表的代数结果。要判定是转录错误还是另一坐标约定，需 production sorter、完整轴定义及 ring/sector-gated centroids。（opened 2026-10-13；scope: 32s/doppler-correction/recoil-direction/code-provenance；sources: [[mavela-2019-32s-quadrupole-moment-doppler-correction-thesis]]）
 
+- [ ] angle/ring 的 corrected peak gate 是否具有已验证的selection efficiency？独立energy response之外，β/geometry偏差及不同σ可令同一固定keV门接受率不同，sharedvertex covariance亦不可忽略；需原始或可重放event/sorter、逐角centroid/width、calibration及gate-response mapping，才把计数比升为angular/multipolarity证据（VD16-2/3、CR13-3/5；[[doppler-correction]] syntheticgate反例）。（opened2026-10-13；scope:doppler-correction/gate-migration/trajectory-covariance；sources:[[vandebrouck-2016-vamos-dual-position-mwpc]]、[[crespi-2013-agata-high-energy-doppler-response]]）
+
 ## Resolved
 
 尚无。解决问题时保留原问题、日期和指向综合页的普通路径。

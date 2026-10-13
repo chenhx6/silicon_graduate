@@ -1,0 +1,224 @@
+{
+  "schema_version": 1,
+  "kind": "synthetic convention/decay/Compton-ordering checks",
+  "seed": 1315,
+  "samples": 500000,
+  "convention_rows": [
+    {
+      "E0_keV": 1434.0,
+      "beta": 0.0548,
+      "theta_deg": 0,
+      "exact_lab_keV": 1514.8595020810615,
+      "linear_lab_keV": 1512.5832,
+      "linear_forward_exact_inverse_residual_keV": -2.154798632980828,
+      "exact_forward_linear_inverse_residual_keV": 2.158041411700424,
+      "mixed_second_order_residual_keV": -2.15317968
+    },
+    {
+      "E0_keV": 1434.0,
+      "beta": 0.0548,
+      "theta_deg": 70,
+      "exact_lab_keV": 1459.1944508245847,
+      "linear_lab_keV": 1460.8770373269897,
+      "linear_forward_exact_inverse_residual_keV": 1.6535349645041606,
+      "exact_forward_linear_inverse_residual_keV": -1.651630481415168,
+      "mixed_second_order_residual_keV": 1.649431328900699
+    },
+    {
+      "E0_keV": 1434.0,
+      "beta": 0.0548,
+      "theta_deg": 90,
+      "exact_lab_keV": 1431.8452013670194,
+      "linear_lab_keV": 1434.0,
+      "linear_forward_exact_inverse_residual_keV": 2.1580414117001965,
+      "exact_forward_linear_inverse_residual_keV": -2.154798632980601,
+      "mixed_second_order_residual_keV": 2.15317968
+    },
+    {
+      "E0_keV": 1434.0,
+      "beta": 0.0548,
+      "theta_deg": 110,
+      "exact_lab_keV": 1405.5022882125847,
+      "linear_lab_keV": 1407.1229626730103,
+      "linear_forward_exact_inverse_residual_keV": 1.653534964504388,
+      "exact_forward_linear_inverse_residual_keV": -1.6516304814153955,
+      "mixed_second_order_residual_keV": 1.6494313289006997
+    },
+    {
+      "E0_keV": 1434.0,
+      "beta": 0.0548,
+      "theta_deg": 180,
+      "exact_lab_keV": 1357.4565807423392,
+      "linear_lab_keV": 1355.4168,
+      "linear_forward_exact_inverse_residual_keV": -2.154798632980828,
+      "exact_forward_linear_inverse_residual_keV": 2.1580414117001965,
+      "mixed_second_order_residual_keV": -2.15317968
+    },
+    {
+      "E0_keV": 2168.0,
+      "beta": 0.0589,
+      "theta_deg": 0,
+      "exact_lab_keV": 2299.6877155369607,
+      "linear_lab_keV": 2295.6952,
+      "linear_forward_exact_inverse_residual_keV": -3.763890908166104,
+      "exact_forward_linear_inverse_residual_keV": 3.770436808915747,
+      "mixed_second_order_residual_keV": -3.76062364
+    },
+    {
+      "E0_keV": 2168.0,
+      "beta": 0.0589,
+      "theta_deg": 70,
+      "exact_lab_keV": 2208.7309644239185,
+      "linear_lab_keV": 2211.674330606,
+      "linear_forward_exact_inverse_residual_keV": 2.8890878905285717,
+      "exact_forward_linear_inverse_residual_keV": -2.8852430009460477,
+      "mixed_second_order_residual_keV": 2.8808048420838634
+    },
+    {
+      "E0_keV": 2168.0,
+      "beta": 0.0589,
+      "theta_deg": 90,
+      "exact_lab_keV": 2164.236109091834,
+      "linear_lab_keV": 2168.0,
+      "linear_forward_exact_inverse_residual_keV": 3.770436808915747,
+      "exact_forward_linear_inverse_residual_keV": -3.763890908166104,
+      "mixed_second_order_residual_keV": 3.76062364
+    },
+    {
+      "E0_keV": 2168.0,
+      "beta": 0.0589,
+      "theta_deg": 110,
+      "exact_lab_keV": 2121.49854957419,
+      "linear_lab_keV": 2124.325669394,
+      "linear_forward_exact_inverse_residual_keV": 2.8890878905290265,
+      "exact_forward_linear_inverse_residual_keV": -2.885243000945593,
+      "mixed_second_order_residual_keV": 2.8808048420838643
+    },
+    {
+      "E0_keV": 2168.0,
+      "beta": 0.0589,
+      "theta_deg": 180,
+      "exact_lab_keV": 2043.8531580808708,
+      "linear_lab_keV": 2040.3048000000001,
+      "linear_forward_exact_inverse_residual_keV": -3.763890908166104,
+      "exact_forward_linear_inverse_residual_keV": 3.770436808915747,
+      "mixed_second_order_residual_keV": -3.76062364
+    },
+    {
+      "E0_keV": 1000.0,
+      "beta": 0.07,
+      "theta_deg": 0,
+      "exact_lab_keV": 1072.6311735207971,
+      "linear_lab_keV": 1070.0,
+      "linear_forward_exact_inverse_residual_keV": -2.4530086256588675,
+      "exact_forward_linear_inverse_residual_keV": 2.4590406736421073,
+      "mixed_second_order_residual_keV": -2.45
+    },
+    {
+      "E0_keV": 1000.0,
+      "beta": 0.07,
+      "theta_deg": 70,
+      "exact_lab_keV": 1022.0154831154758,
+      "linear_lab_keV": 1023.9414100327969,
+      "linear_forward_exact_inverse_residual_keV": 1.8844400590196528,
+      "exact_forward_linear_inverse_residual_keV": -1.8808956239588497,
+      "mixed_second_order_residual_keV": 1.876808885641496
+    },
+    {
+      "E0_keV": 1000.0,
+      "beta": 0.07,
+      "theta_deg": 90,
+      "exact_lab_keV": 997.5469913743412,
+      "linear_lab_keV": 1000.0,
+      "linear_forward_exact_inverse_residual_keV": 2.4590406736421073,
+      "exact_forward_linear_inverse_residual_keV": -2.4530086256587538,
+      "mixed_second_order_residual_keV": 2.45
+    },
+    {
+      "E0_keV": 1000.0,
+      "beta": 0.07,
+      "theta_deg": 110,
+      "exact_lab_keV": 974.2227256366064,
+      "linear_lab_keV": 976.0585899672031,
+      "linear_forward_exact_inverse_residual_keV": 1.8844400590195391,
+      "exact_forward_linear_inverse_residual_keV": -1.8808956239589634,
+      "mixed_second_order_residual_keV": 1.8768088856414966
+    },
+    {
+      "E0_keV": 1000.0,
+      "beta": 0.07,
+      "theta_deg": 180,
+      "exact_lab_keV": 932.2869078264871,
+      "linear_lab_keV": 929.9999999999999,
+      "linear_forward_exact_inverse_residual_keV": -2.4530086256588675,
+      "exact_forward_linear_inverse_residual_keV": 2.4590406736421073,
+      "mixed_second_order_residual_keV": -2.45
+    }
+  ],
+  "decay_rows": [
+    {
+      "nucleus_input_label": "52Cr",
+      "proper_lifetime_ps": 1.0099,
+      "beta": 0.0548,
+      "mean_flight_um_lab_dilated": 16.616238476461973,
+      "mean_flight_um_without_dilation": 16.591270102714162,
+      "target_depth_um": 0.5,
+      "inside_probability_uniform_depth": 0.014895739741916603,
+      "inside_probability_start_of_target": 0.029642817827077717,
+      "inside_probability_MC": 0.014932,
+      "inside_probability_quadrature": 0.01489573974191668,
+      "probability_after_1mm_without_feeding": 7.298764378215627e-27,
+      "MC_relative_difference": 0.0024342703827835432
+    },
+    {
+      "nucleus_input_label": "38Ar",
+      "proper_lifetime_ps": 0.578,
+      "beta": 0.0589,
+      "mean_flight_um_lab_dilated": 10.223944311484743,
+      "mean_flight_um_without_dilation": 10.2061943986436,
+      "target_depth_um": 0.5,
+      "inside_probability_uniform_depth": 0.024058615282919082,
+      "inside_probability_start_of_target": 0.047728222835720466,
+      "inside_probability_MC": 0.023916,
+      "inside_probability_quadrature": 0.02405861528291903,
+      "probability_after_1mm_without_feeding": 3.3252656408906986e-43,
+      "MC_relative_difference": 0.005927825905272965
+    }
+  ],
+  "Compton_two_hit_example": {
+    "E0_keV": 1000.0,
+    "beta": 0.07,
+    "first_emission_angle_deg": 60,
+    "second_radial_angle_deg": 65.1331426036038,
+    "scatter_angle_deg": 30.000000000000004,
+    "hit1_mm": [
+      203.51596988934307,
+      0.0,
+      117.50000000000003
+    ],
+    "hit2_mm": [
+      253.51596988934307,
+      0.0,
+      117.50000000000003
+    ],
+    "deposits_keV": [
+      220.42489262916604,
+      813.3025595722239
+    ],
+    "corrected_sum_using_first_point_keV": 1000.0,
+    "wrong_separate_radial_corrections_keV": 1004.5365269080335,
+    "highest_deposit_wrong_first_point_keV": 1005.76603669482,
+    "sum_with_common_incoming_direction_keV": 1000.0000000000001,
+    "boundary": "assume second-hit photoelectric absorption; positions/energies are invented consistent Compton kinematics"
+  },
+  "verification": {
+    "max_exact_roundtrip_error_keV": 0.0,
+    "max_linear_roundtrip_error_keV": 1.1368683772161603e-13,
+    "max_decay_MC_relative_difference": 0.005927825905272965,
+    "analytic_quadrature_match": true,
+    "static_and_thin_target_limits": true,
+    "common_direction_energy_sum": true,
+    "passed": true
+  },
+  "numpy_version": "2.5.3"
+}

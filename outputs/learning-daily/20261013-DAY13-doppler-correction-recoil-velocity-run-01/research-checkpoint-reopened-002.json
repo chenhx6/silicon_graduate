@@ -1,0 +1,25 @@
+{
+  "now_local": "2026-10-13T22:37:18.642631+08:00",
+  "minutes_to_deadline": 982.6892894833333,
+  "status": "research-active",
+  "decision": "continue-Day13-angular-frame/response",
+  "source_locators": [
+    "VD16-3",
+    "CR13-3",
+    "AA09-4",
+    "AA09-8",
+    "AK12-5",
+    "AK12-6",
+    "L26-2",
+    "L26-3"
+  ],
+  "completed_day_indices": [
+    13
+  ],
+  "partial_day_indices": [
+    14
+  ],
+  "next_day_index_already": 14,
+  "no_extra_credit": true,
+  "clock_status": "running; checkpoint001 accepted, delivery not observed"
+}
