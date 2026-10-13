@@ -3,7 +3,7 @@ type: method
 title: γ-γ 符合分析
 aliases: [gamma-gamma coincidence, γγ coincidence, coincidence spectroscopy]
 created: 2026-07-01
-updated: 2026-10-13
+updated: 2026-10-14
 status: active
 review_status: unreviewed
 method_type: gamma-ray-spectroscopy
@@ -71,6 +71,8 @@ Söderström 的十一只 CeBr₃ 阵列用 `Δt≤655 ps` 定义 prompt window�
 LG20-12保留in-beam低peak/background及共同alignment的限制。[[tracking-array]]的明确toy证明独立events若共有单γbeam-axis density `1+A2P2`，cross-event pair-angle density仍含 `A2²/5 P2`；不是isotropic，也不是same-cascade量子关联的新测量。对energy/PID/FOM门后coincidence强度或angular fits，应记录mix stage、population/occupancy、accepted/unaccepted counts与normalizer covariance。没有acceptance的angle bins不能用除法补回。
 
 ## Sources
+
+- [[assie-2021-mugast-agata-vamos]] AS21-2/11/12：particle–γ–heavy tag的event stage与feeding entrypoint；强背景抑制和relativecurve不补齐absolutebeam normalization。
 
 [[schirmer-1984-double-gamma-40ca-90zr]] demonstrates a rare two-photon branch: delayed proton-gated events, Crystal-Ball multiplicity, Eq.(1) PAF kinematics, energy/angle cuts and polarization-assisted angular-correlation fitting are all needed to separate simultaneous photons from annihilation/Compton backgrounds. This is a two-photon-decay case, not a generic cascade-DCO recipe.
 

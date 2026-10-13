@@ -1,0 +1,138 @@
+{
+  "schema_version": 1,
+  "kind": "synthetic fixed-integer rigidity/path covariance and alternate-PID fixture",
+  "parameters": {
+    "true_A": 20.0,
+    "true_q": 8.0,
+    "true_beta": 0.126,
+    "self_chosen_path_mm": 7000.0,
+    "computed_Brho_Tm": 0.9865677063889539,
+    "true_flight_ns": 185.31338622119557,
+    "rest_gamma_keV_source_inspired_scale": 1673.0,
+    "source_resolution_convention": "AS21 .2% is not explicitly sigma/FWHM; chosen design sigmas=.002 in this fixture"
+  },
+  "rigidity_relative_beta_sensitivity": 0.984124,
+  "flight_path_rigidity_covariance_cases": [
+    {
+      "rho_path_rigidity": -0.8,
+      "linear_flight_sigma_ns": 0.6976352195206347,
+      "MC_flight_sigma_ns": 0.6968673066212048,
+      "relative_difference": 0.0011007370011473228,
+      "boundary": "both design sigmas=.002 relative are explicitly chosen, not known source sigma conventions"
+    },
+    {
+      "rho_path_rigidity": 0.0,
+      "linear_flight_sigma_ns": 0.5200013874690009,
+      "MC_flight_sigma_ns": 0.5210427805146335,
+      "relative_difference": 0.0020026735903557746,
+      "boundary": "both design sigmas=.002 relative are explicitly chosen, not known source sigma conventions"
+    },
+    {
+      "rho_path_rigidity": 0.8,
+      "linear_flight_sigma_ns": 0.23261123451752666,
+      "MC_flight_sigma_ns": 0.23279664845503653,
+      "relative_difference": 0.000797097947115244,
+      "boundary": "both design sigmas=.002 relative are explicitly chosen, not known source sigma conventions"
+    }
+  ],
+  "alternate_integer_PID_branches": [
+    {
+      "assumed_A": 20.0,
+      "assumed_q": 8.0,
+      "conditional_beta": 0.126,
+      "flight_ns_for_same_path": 185.31338622119557,
+      "gamma_residuals": [
+        {
+          "lab_photon_angle_deg": 35.0,
+          "corrected_gamma_residual_keV": 0.0
+        },
+        {
+          "lab_photon_angle_deg": 90.0,
+          "corrected_gamma_residual_keV": 0.0
+        },
+        {
+          "lab_photon_angle_deg": 145.0,
+          "corrected_gamma_residual_keV": -2.2737367544323206e-13
+        }
+      ],
+      "boundary": "hypothetical label branch, not actual source misidentification"
+    },
+    {
+      "assumed_A": 19.0,
+      "assumed_q": 8.0,
+      "conditional_beta": 0.13251798446870397,
+      "flight_ns_for_same_path": 176.19862509593904,
+      "gamma_residuals": [
+        {
+          "lab_photon_angle_deg": 35.0,
+          "corrected_gamma_residual_keV": -8.535020128500946
+        },
+        {
+          "lab_photon_angle_deg": 90.0,
+          "corrected_gamma_residual_keV": 1.4340963875022226
+        },
+        {
+          "lab_photon_angle_deg": 145.0,
+          "corrected_gamma_residual_keV": 9.537854451543808
+        }
+      ],
+      "boundary": "hypothetical label branch, not actual source misidentification"
+    },
+    {
+      "assumed_A": 21.0,
+      "assumed_q": 8.0,
+      "conditional_beta": 0.12008865815666013,
+      "flight_ns_for_same_path": 194.4354031619736,
+      "gamma_residuals": [
+        {
+          "lab_photon_angle_deg": 35.0,
+          "corrected_gamma_residual_keV": 7.791727040145588
+        },
+        {
+          "lab_photon_angle_deg": 90.0,
+          "corrected_gamma_residual_keV": -1.2351299312454103
+        },
+        {
+          "lab_photon_angle_deg": 145.0,
+          "corrected_gamma_residual_keV": -8.572938136960829
+        }
+      ],
+      "boundary": "hypothetical label branch, not actual source misidentification"
+    },
+    {
+      "assumed_A": 20.0,
+      "assumed_q": 7.0,
+      "conditional_beta": 0.1104556908801933,
+      "flight_ns_for_same_path": 211.3923373056157,
+      "gamma_residuals": [
+        {
+          "lab_photon_angle_deg": 35.0,
+          "corrected_gamma_residual_keV": 20.594622571406944
+        },
+        {
+          "lab_photon_angle_deg": 90.0,
+          "corrected_gamma_residual_keV": -3.11546503236832
+        },
+        {
+          "lab_photon_angle_deg": 145.0,
+          "corrected_gamma_residual_keV": -22.389070001253685
+        }
+      ],
+      "boundary": "hypothetical label branch, not actual source misidentification"
+    }
+  ],
+  "verification": {
+    "rigidity_beta_derivative_FD_error": 8.75588490600876e-12,
+    "covariance_MC_max_relative_difference": 0.0020026735903557746,
+    "correct_PID_energy_inverse_passed": true,
+    "wrong_integer_branch_counterexamples_passed": true,
+    "passed": true
+  },
+  "boundaries": [
+    "No actual target path, ion-mass precision, energy loss, stage correction or calibration is supplied.",
+    "Integer labels reduce uncertainty conditional on a correct assignment; they do not independently validate the assignment.",
+    "Independent two-body reaction constraints or known gamma lines can reject alternate branches.",
+    "Actual inferred light TOF also needs measured time-difference and its clock/walk covariance."
+  ],
+  "numpy_version": "2.5.3"
+}

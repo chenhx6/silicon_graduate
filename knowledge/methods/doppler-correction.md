@@ -3,7 +3,7 @@ type: method
 title: "Event-by-Event Doppler Correction"
 aliases: [gamma-ray Doppler correction, Doppler energy correction]
 created: 2026-07-13
-updated: 2026-10-13
+updated: 2026-10-14
 status: active
 review_status: unreviewed
 method_type: in-beam-gamma-spectroscopy
@@ -15,6 +15,8 @@ tags: [doppler-correction, in-beam, gamma-ray-tracking]
 ## Purpose
 
 In an in-beam experiment, the detected gamma-ray energy is corrected event by event using the residue velocity and the measured emission direction. Longfellow 2026 gives `E_gamma=E_gamma,lab (1-beta cos(theta_lab))/sqrt(1-beta^2)`.
+
+跨source的简明观测/输入/失败条件入口见 [[doppler-velocity-validation-contract]]；本页保留详细公式、quantitative exercises与各source适用条件。
 
 ## Inputs and Assumptions
 
@@ -444,7 +446,7 @@ $$P(t<T)=1-\frac{\tau_f e^{-T/\tau_f}-\tau_l e^{-T/\tau_l}}{\tau_f-\tau_l}.$$
 
 ### Natural width 的层级与量纲
 
-对理想Markov Lorentz line，母态energywidth为 `Γi=ℏ/τi`；若末态也有finiteτ，transitionwidth包括 `Γi+Γf`。detectorGaussian、thermal/recoilDoppler、stopping/displacement/feeding和未分辨components是其它kernel，不能直接把所有σ/FWHM相加或用观测总FWHM反推τ。
+对理想Markov Lorentz level，母态energywidth为 `Γi=ℏ/τi`；忽略photon recoil、且两level为独立narrow Lorentz mass profiles时，transition-gap width为 `Γi+Γf`。精确photon-energy的局部width映射另见后面的recoil derivative条件。detectorGaussian、thermal/recoilDoppler、stopping/displacement/feeding和未分辨components是其它kernel，不能直接把所有σ/FWHM相加或用观测总FWHM反推τ。
 
 Klemme的6g+τ1.63ps/4g+τ4.94ps给理想line约5.37×10⁻7keV。以Senyi引用27Almeanτ26.6fs（本轮未独立核验evaluation原文）估parentΓ为2.47×10⁻5keV，远小于reported15keV；这是基于sourceinput的scalecheck，不是独立寿命或Γ测量。source将此宽化解释为短τ使neutron-recoilingAl仍在运动时发射。未经directleveldata核验，不能把该τ转移到12C15.1-MeV或其它resonance；本次IAEALiveChart返回403challengeHTML，未当levelsCSV。
 
@@ -700,3 +702,94 @@ $$\mathrm{Var}(E)=\sigma_B^2+\frac{k^2}{R^2[2\sqrt{2\ln2}]^2}\langle p(E_i)^2\ra
 当true σi已知、各组确有同mean，inverse-variance centroid精度可改善；本例每trial1000events、20000trials的ordinary/weighted理论σ为.130342/.103888keV，MC为.129925/.104137。若某组存在offset或σi估错，这个共享mean/knownvariance前提便失败，权重本身不能验证calibration。C23-15的实际tracking改进仍是作者未证实建议，不因toycentroid成功升格。
 
 积分variance/归一化误差 `<3×10⁻16`，equal-width Gaussian极限与conditionalcentroid MC检查通过。未含actual first-hit energy distribution、depth/orientation dependence、PSA–energy/velocity covariance、natural Lorentz tails或真实selection；实际widthfit还需窗口/background/line identity，不能据一个reportedGaussianwidth唯一反推所有position response。
+
+## 到达时间的 retardation 与 Doppler factor
+
+[[aladili-2009-agata-doppler-simulation]] AA09-4的flight、[[senyigit-2014-agata-neutron-rejection]] SY14-4的TOF/path条件，以及前面的delayed-vertex例题说明必须区分proper等待、lab emission与detector timestamp。下面从恒速geometry推导时间关系，非source实际计时分析或寿命测量。
+
+发射核以恒定β沿+z，proper等待t、lab emission time γt；nominal source到固定first-IP向量为 `R0 n0`，真实发射位置为 `d=βγct`。令 `R(t)=|R0 n0−d ez|`，到达时间减去已知prompt flight reference `R0/c` 后为
+
+$$a(t)=\gamma t+\frac{R(t)-R_0}{c},\qquad
+\frac{da}{dt}=\gamma[1-\beta\cos\theta_{true}(t)]\equiv D(t).$$
+
+所以 `E_lab(t) [da/dt]=E0`。这个factor同时联系energy与proper-to-arrival时间；lab emission time仍是γt，两者是不同时间对象。对small displacement/far detector，D近似常数，proper exponential τ对应arrival尺度约Dτ，而不是只乘γ。
+
+[day13_retarded_arrival_time.py](../../system/scripts/day13_retarded_arrival_time.py)独立用photon Lorentz boost与数值arrival derivative核验上述乘积，并包括isotropic-rest angular bunching、planar projected area/distance²的detected-event权重。自设β=.3、properτ10ps、R150mm、理想arrival gate10ps：
+
+| nominal angle | far arrival mean Dτ (ps) | finite geometry detected mean (ps) | detected ideal gate fraction | 再加自设1000ps Gaussian jitter后的fraction |
+|---:|---:|---:|---:|---:|
+| 35° | 7.90673 | 7.98228 | .714402 | .500805 |
+| 90° | 10.48285 | 10.46077 | .615892 | .499816 |
+| 145° | 13.05896 | 12.92016 | .538940 | .498835 |
+
+lab emission mean为10.48285ps，finite detector的conditioned mean还受geometry/acceptance改变。1000ps jitter是自设counterexample；它展示ideal ps门预测不能脱离response，不把它当SY14实测time resolution或任何已提取τ。
+
+48/96点quadrature最大差6.1×10⁻12，boosted photon×numeric time-slope的energy误差<6.4×10⁻8keV，conditionalgate/moments MC最大差.0755%；static与far-detector极限通过。实际start reference、flightpath、walk/jitter/offset、particle/γtime gates、stopping与feeding都须入packet。Energy校正、逐eventtimestamp和arrival gate选择不能互相代替。
+
+## 一阶速度敏感度为零时的二阶边界
+
+[[crespi-2023-agata-tracking-performance]] C23-8 Eq.(7)给 `Jβ=E_lab γ³(β−cosθ)`。在fixed lab direction、`cosθ=β0` 时一阶速度项为零；这只限定局部first-order propagation。
+
+若保持lab photon energy不变，而用于校正的β有小估计误差δβ，则在该点
+
+$$E_{corr}-E_0\simeq\tfrac12 E_0\gamma_0^4(\delta\beta)^2.$$
+
+对声明的Gaussian longitudinal estimator error σβ，leading mean为 `.5E0γ0⁴σβ²`、σ为 `E0γ0⁴σβ²/√2`。若另一fixture改变实际发射β、由它生成lab energies，再用固定β0校正，leading residual符号相反。两种fixture的energy/velocity covariance与数据对象不同，不能作为同一实验的两份独立error相加。
+
+[day13_zero_sensitivity_curvature.py](../../system/scripts/day13_zero_sensitivity_curvature.py)自设三组参数，固定lab direction且不含其它response/selection：
+
+| E0 (keV) / β0 / σβ | Jβ=0的lab angle | leading mean magnitude (keV) | leading σ (keV) |
+|---|---:|---:|---:|
+| 1000 / .07 / .002 | 85.986° | .002020 | .002856 |
+| 1000 / .20 / .020 | 78.463° | .217014 | .306904 |
+| 15000 / .50 / .020 | 60° | 5.333333 | 7.542472 |
+
+Finite-difference二阶导数最大relative差2.5×10⁻8，exactMCσ与leading结果最大差.699%；zero-noise与opposite residual signs检查通过。δβ² profile非Gaussian，不能把σ乘2.355当真实FWHM。第一行尺度很小、最后一行为自设高速度/大不确定度例题，不给任何source peak tail归因；actualintrinsic/angle/position/history/selection仍须完整预算。选择一阶零点并不完成整体resolution优化。
+
+## Narrow level width 到 photon width 的反冲映射
+
+[[tunl-2017-12c-level-widths]] T12C-1/2 的Γcm是evaluated level width。自由two-body公式用mass-energy `mi=Mi c², mf=Mf c²` 给photon `e=(mi²−mf²)/(2mi)`，其local slopes为
+
+$$\frac{\partial e}{\partial m_i}=\tfrac12\left(1+\frac{m_f^2}{m_i^2}\right),\qquad
+\frac{\partial e}{\partial m_f}=-\frac{m_f}{m_i}.$$
+
+仅在**两个独立、窄Lorentz mass-profile与一阶energy mapping**的声明模型下，photon Lorentz FWHM近似为 `Γph≈.5(1+q²)Γi+qΓf`，q=mf/mi；这是Cauchy widths相加，不是Gaussian variance公式。heavy/recoil-neglected极限q→1才回到Γi+Γf。Broad/interfering levels、matrix-element/phase-space变化、final-state选择或mass–velocity covariance需完整模型，不以这个局部式替代。
+
+`day13_photon_recoil_width.py`新增两mass derivatives的finite-difference核验，最大absolute差3.9×10⁻9。沿A12/gap15.110MeV的既有mass-number例题，用Γi43.6eV、稳定ground Γf0，局部映射Γph≈43.541182eV，差约−.058818eV，小于源quoted1eV的total-width uncertainty。它没有替换评价表、没有测新的photon line width；先前Voigt例题使用.0436keV只是natural-width尺度comparision，已注明不是实际response分解。原mi/mf mass-number/atomic-versus-nuclear边界继续保留。
+
+## Light-ejectile 两体反冲与 conditional rigidity velocity
+
+[[assie-2021-mugast-agata-vamos]] AS21-8提供另一条直接方法路线：19O(d,p)20O的1.673-MeV γ，经lightparticle energy/position重建heavy-ion momentum后FWHM7.1keV，而meanbeamβ=.126给10.2keV。两种处理共享同次acquisition/VAMOS20Otag，改善同时涉及speed/direction与kinematic约束，不从总差反推出单一PSA/velocity resolution或独立replication。
+
+### Two-body 输入与发射阶段
+
+在声明的binary channel与同一reaction vertex，four-momentum满足 `PH=Pbeam+Ptarget−Plight`，heavy velocity为 `bH=c pH/EH`。Light energy和两方向分量提供与heavy TOF/track不同的信息；仍需已知beam/target species、reaction-depth beam energy、target/light energy loss与共同coordinate/calibration。若有额外unseenparticles或后续stopping，不能把该PH无条件代所有γ发射时的vector。
+
+AS21-17的20O run使用Au backing，source因此未能用VAMOS完成target-loss/thickness路线；它没有报告本任务需要的完整backing/lifetime/emission-vector packet。AS21-12的particleEx×γenergy可帮助区分direct/feeding entrypoint，但不是完整stopping history。Commissioning16O段的CH2/d-channel打印对应（AS21-14）也保留，不拿它当已核定的targetmanifest。
+
+### Rigidity speed 与 integer PID
+
+AS21-9/10先识别integer A/q，再用mass-number形式 `βγ=Bρ q/(3.107A)`（Bρ以Tm）重建β和heavyflight；conditional derivative为
+
+$$\frac{\delta\beta}{\beta}=(1-\beta^2)\frac{\delta(B\rho)}{B\rho},\qquad
+\frac{\delta T}{T}=\frac{\delta L}{L}-\frac{\delta\beta}{\beta},\quad T=\frac{L}{\beta c}.$$
+
+完整variance须含path/rigidity covariance。Source的.2%resolution未明确σ/FWHM convention；其⌊A⌋/⌊q⌋记号也不是本任务取得的执行rounding code，不推荐据数学floor符号替真实PID regions。
+
+[day13_rigidity_pid_covariance.py](../../system/scripts/day13_rigidity_pid_covariance.py)自设A20/q8/β.126、L7m、两个relative designσ各.002。ρpath,rigidity为−.8/0/+.8时，flight σ约.697635/.520001/.232611ns；MC最大relative差.201%，derivative FD差<8.8×10⁻12。这不是重现source~800ps，因为真实path、width convention与clock packet未给。
+
+同一Bρ若假定A19/q8、A21/q8、A20/q7，β变为.132518/.120089/.110456；这些只是physically allowed O charge/mass-label模式的counterexample，不给actualmis-ID probability。正确mode可有很小continuous error，wrong mode仍带来不同gamma angle residual或TOF。Knownreaction channel、独立line与actualPID confusion matrix能排除模式；不能仅据conditional errorbar证明PID正确。
+
+Light TOF还需 `Tlight=Theavy−TMUGAST−VAMOS` 的实际time difference/start/path/clock/walk covariance。Source改善的1.4ns与电子jitter边界属于其high-rate配置，不移植为本run timingσ。Particle、γ和heavy tag的联合事件是互补约束，同时共享beam/target/DAQ；不按三个subsystems计三份独立实验。
+
+### Exact two-body 与反应 entrypoint 的可证伪例题
+
+[day13_two_body_entrypoint.py](../../system/scripts/day13_two_body_entrypoint.py)使用明确的synthetic masses：beam19u、deuteron/proton rest masses、groundheavy由自设Q5.4MeV定义；beamT152MeV与Ex1.673/3.570MeV仅为AS21-3/8的scale-inspired输入，不是actual19O/20O mass/target/backing模型。
+
+对三light角度解二体mass shell，使用测得的light four-vector可恢复heavy vector与entry Ex；随后逐γ两体衰变保持各mass shell与four-momentum。不是从较低γ的line identity先假定所有events都直接布居这个母态。AS21-12的实际particleEx×γenergy图正是支持检查direct/feeding entrypoint的source evidence。
+
+合成高entry3.570先发feedingγ再发lower1.673γ，反演必须用lower emitter的四矢量。若强制把lower mass当reaction entry并允许beamenergy自由变化，constraint有两个解，beamT≈10.73376/66.21207MeV，都远离本例已知152MeV；lowerγ校正分别偏−124.023/−59.074keV。Knownbeam或真实particlemissingmass可以排除这两wrong-entryhypotheses，不能只以某次拟合得到root就称模型成立。
+
+首轮程序因误假定全区间单根而失败；检查显示massconstraint在beamT≈32.56055MeV处有内部minimum，两个endpoint同号却有两内部roots。已用解析stationary condition分别bracket并保留两解。这个失败/修复记录是本任务建模验证，不是sourcecode错误。
+
+在该特定gamma方向下，遗漏feedingγ、直接以prefeeding reaction vector校正lowerγ只差约−.01865keV，展示entrypoint误判与γrecoil是不同机制；不把这个小值移植到其它角度/能量。自设four-input independentΣ（beamTσ.1MeV、lightTσ.01MeV、θ/φσ各.1°）给restγσ.059621keV，MC.059667；未含target/beamspot/PSA/history，不能用它解释实测7.1keV。全部mass-shell、stagedinverse和covariance检验通过，actualsourcepacket仍缺。

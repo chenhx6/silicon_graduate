@@ -1,0 +1,69 @@
+{
+  "schema_version": 1,
+  "kind": "synthetic second-order zero-Jacobian speed error/dispersion fixtures",
+  "rows": [
+    {
+      "rest_photon_keV": 1000.0,
+      "beta0": 0.07,
+      "self_chosen_longitudinal_sigma_beta": 0.002,
+      "lab_theta_deg": 85.9860127819437,
+      "first_order_beta_variance_prediction_keV2": 0.0,
+      "second_derivative_keV": 1009.8725034954462,
+      "FD_second_derivative_keV": 1009.872505619569,
+      "leading_mean_magnitude_keV": 0.002019745006990892,
+      "leading_sigma_keV": 0.002856350781421861,
+      "fixed_lab_uncertain_inverse_mean_keV": 0.0020263924360577274,
+      "fixed_lab_uncertain_inverse_sigma_keV": 0.0028664278425050626,
+      "true_beta_spread_fixed_inverse_mean_keV": -0.002026380113443687,
+      "true_beta_spread_fixed_inverse_sigma_keV": 0.002866393079173405,
+      "boundary": "No other response/angle/acceptance kernel; each distribution is non-Gaussian, not a measured linewidth"
+    },
+    {
+      "rest_photon_keV": 1000.0,
+      "beta0": 0.2,
+      "self_chosen_longitudinal_sigma_beta": 0.02,
+      "lab_theta_deg": 78.46304096718453,
+      "first_order_beta_variance_prediction_keV2": 0.0,
+      "second_derivative_keV": 1085.0694444444446,
+      "FD_second_derivative_keV": 1085.0694707187358,
+      "leading_mean_magnitude_keV": 0.21701388888888892,
+      "leading_sigma_keV": 0.3069039848899946,
+      "fixed_lab_uncertain_inverse_mean_keV": 0.21795991969166134,
+      "fixed_lab_uncertain_inverse_sigma_keV": 0.30806233550765877,
+      "true_beta_spread_fixed_inverse_mean_keV": -0.21781766507717537,
+      "true_beta_spread_fixed_inverse_sigma_keV": 0.30766214793517954,
+      "boundary": "No other response/angle/acceptance kernel; each distribution is non-Gaussian, not a measured linewidth"
+    },
+    {
+      "rest_photon_keV": 15000.0,
+      "beta0": 0.5,
+      "self_chosen_longitudinal_sigma_beta": 0.02,
+      "lab_theta_deg": 60.00000000000001,
+      "first_order_beta_variance_prediction_keV2": 0.0,
+      "second_derivative_keV": 26666.666666666682,
+      "FD_second_derivative_keV": 26666.666963137686,
+      "leading_mean_magnitude_keV": 5.333333333333337,
+      "leading_sigma_keV": 7.542472332656511,
+      "fixed_lab_uncertain_inverse_mean_keV": 5.3378318609842115,
+      "fixed_lab_uncertain_inverse_sigma_keV": 7.5951367690969285,
+      "true_beta_spread_fixed_inverse_mean_keV": -5.332097039475309,
+      "true_beta_spread_fixed_inverse_sigma_keV": 7.578604076531692,
+      "boundary": "No other response/angle/acceptance kernel; each distribution is non-Gaussian, not a measured linewidth"
+    }
+  ],
+  "verification": {
+    "zero_linear_derivative_condition_used": true,
+    "second_derivative_FD_max_relative_error": 2.4214386717957836e-08,
+    "exact_MC_sigma_vs_leading_max_relative_difference": 0.006982383775197443,
+    "opposite_residual_signs_for_two_distinct_fixtures_passed": true,
+    "zero_uncertainty_inverse_limit_passed": true,
+    "passed": true
+  },
+  "boundaries": [
+    "Known cos(theta)=beta0 and exact lab direction are self-chosen.",
+    "Correction-estimator errors and actual emitter spread are distinct; their energy/velocity covariance differs.",
+    "A real detector adds intrinsic, angle, position, history and selection uncertainty.",
+    "Leading sigma is not an actual Gaussian FWHM; no observed source tail is attributed to this mechanism."
+  ],
+  "numpy_version": "2.5.3"
+}

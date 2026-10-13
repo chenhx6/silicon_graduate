@@ -10,6 +10,8 @@
       "photon_recoil_energy_keV": 10.198843018777382,
       "daughter_frame_photon_MeV": 15.120212629518482,
       "daughter_frame_minus_parent_frame_keV": 20.411472537260842,
+      "narrow_photon_parent_mass_derivative": 0.9986509650464008,
+      "narrow_photon_final_mass_derivative": -0.9986500538691226,
       "illustrative_boost_observations": [
         {
           "parent_lab_beta": 0.07,
@@ -57,6 +59,8 @@
       "photon_recoil_energy_keV": 0.8813875461433085,
       "daughter_frame_photon_MeV": 4.440701737629059,
       "daughter_frame_minus_parent_frame_keV": 1.7631251752016417,
+      "narrow_photon_parent_mass_derivative": 0.9996030413060966,
+      "narrow_photon_final_mass_derivative": -0.9996029624867031,
       "illustrative_boost_observations": [
         {
           "parent_lab_beta": 0.07,
@@ -104,6 +108,8 @@
       "photon_recoil_energy_keV": 0.08345245790630784,
       "daughter_frame_photon_MeV": 2.2306534587027973,
       "daughter_frame_minus_parent_frame_keV": 0.16691116070362305,
+      "narrow_photon_parent_mass_derivative": 0.9999251766717083,
+      "narrow_photon_final_mass_derivative": -0.9999251738722336,
       "illustrative_boost_observations": [
         {
           "parent_lab_beta": 0.07,
@@ -151,6 +157,8 @@
       "photon_recoil_energy_keV": 0.02122618752187222,
       "daughter_frame_photon_MeV": 1.4340212268159236,
       "daughter_frame_minus_parent_frame_keV": 0.04245300344540925,
+      "narrow_photon_parent_mass_derivative": 0.9999703962715065,
+      "narrow_photon_final_mass_derivative": -0.9999703958333032,
       "illustrative_boost_observations": [
         {
           "parent_lab_beta": 0.07,
@@ -198,6 +206,8 @@
       "photon_recoil_energy_keV": 0.004128981680895372,
       "daughter_frame_photon_MeV": 1.0000041290157782,
       "daughter_frame_minus_parent_frame_keV": 0.008257997459090836,
+      "narrow_photon_parent_mass_derivative": 0.9999917420707352,
+      "narrow_photon_final_mass_derivative": -0.9999917420366382,
       "illustrative_boost_observations": [
         {
           "parent_lab_beta": 0.07,
@@ -252,6 +262,9 @@
     "printed_gamma_partial_sum_eV": 42.74,
     "printed_partial_sum_minus_printed_total_gamma_eV": 0.9400000000000048,
     "wrong_tau_using_ground_partial_over_tau_total": 1.1324675324675324,
+    "narrow_ground_photon_width_eV_mass_number_mapping": 43.54118207602308,
+    "narrow_ground_photon_width_minus_total_level_width_eV": -0.05881792397692385,
+    "narrow_width_boundary": "first-order independent Lorentz mass profiles, ground final width0; does not refit an actual photon profile or replace evaluated total width",
     "boundary": "central quotients only; deduced widths/branches share inputs, covariance unknown; printed partial central closure not an error diagnosis"
   },
   "verification": {
@@ -260,6 +273,8 @@
     "two_rest_frame_energy_inverses_passed": true,
     "max_four_momentum_residual_MeV": 1.4551915228366852e-11,
     "max_energy_inverse_error_MeV": 7.105427357601002e-15,
+    "max_narrow_width_mass_derivative_FD_error": 3.841796658576868e-09,
+    "narrow_mass_profile_derivatives_passed": true,
     "passed": true
   },
   "numpy_version": "2.5.3"

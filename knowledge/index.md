@@ -2,12 +2,14 @@
 type: system-index
 graph-excluded: true
 created: 2026-07-01
-updated: 2026-10-13
+updated: 2026-10-14
 ---
 
 # Wiki Index
 
 ## Sources
+
+- [[assie-2021-mugast-agata-vamos]] - light-ejectile two-body重建使20Oγ宽10.2→7.1keV；rigidity/PID/TOF、Au-backing、relative transparency和absolute normalization边界。
 
 - [[ljungvall-2020-agata-ganil-performance]] - GANIL2016的primary response benchmark：VAMOS约束Doppler-position、OFT units、tracking前/后event-mixing与source→beam边界；public copy日期差保留。
 
@@ -450,6 +452,8 @@ updated: 2026-10-13
  - [[doppler-correction]] - event-by-event 能量校正、速度/角度协方差与停止历史诊断；峰宽多解及 Lorentz angular correction 边界。
 
 ## Synthesis
+
+- [[doppler-velocity-validation-contract]] - 原始观测、模型、速度stage、frame/covariance/selection与actualdata readiness的简明跨source验证契约。
 
 - [[high-spin-angular-polarization-mixing-ratio]] - 角分布、角关联、偏振、alignment、detector response 与 δ convention 的跨来源方法综合。
 - [[high-spin-lifetime-strength-deformation]] - DSAM/RDDS、跃迁强度、`Qt`、band crossing 与形变解释的证据链。

@@ -1647,3 +1647,10 @@ Following the user question about the missing Day8 prompt, the formal Day8 card 
 - global mirror direction、Cartesian raw-input covariance、heterogeneous IP mixture、tracking lab frame vs emitter correction四个exercise通过finite-difference/MC/守恒/limits；canonical writeback60items/22pages完成。
 - local full rank不排global多解；coordinate-origin不等physicaltarget shift；平均position不等平均variance；总correctedenergy不能验证prescaled Compton FOM。全部限定为声明的L2 fixture，不指控actualsource或推absoluteB。
 - lint0errors/110warnings、boundary/report/card/protected/diff通过；milestone仍next14/count13，研究active至原15:00。继承Day6–9/daemon/log、raw/PLAN/凭据未纳入stage。下一route到达时间/速度/energy关系。
+
+## [2026-10-14T03:53:11.627863+08:00] learning | DAY13 particle and validation-contract checkpoint
+
+- AS21 direct13页、lightparticle10.2→7.1keV、Au-backing/normalization/material/PID边界已canonical；增加retardedtime、zeroJacobiancurvature、rigidityPID与exacttwo-body/entrypoint及photon-width映射。所有checks在声明model下通过。
+- Two-body首次single-bracket失败已保留；masscurve analyticminimum后两roots分别核验；不把fitroot当entrypoint正确、不指控source。综合验证契约self-audit完成、71items/24pages唯一writeback通过。
+- lint0errors/112warnings、boundary/report/card/protected/diff通过；source rawslots10未填充。Researchactive至原15:00，state已next14/count13不重复计卡。LegacyDay6–9/daemon/log、raw/PLAN/credentials排除stage。
+- Next primary20O Au-backing/emissionhistory、Lemasson2023 prompt/delayed/degrader与98Zr lineage；无formalDay14/Day15。

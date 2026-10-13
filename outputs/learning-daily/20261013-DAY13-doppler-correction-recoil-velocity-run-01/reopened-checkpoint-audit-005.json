@@ -1,0 +1,133 @@
+{
+  "at": "2026-10-14T03:53:11.627863+08:00",
+  "status": "research-active-checkpoint",
+  "original_deadline": "2026-10-14T15:00:00+08:00",
+  "remaining_minutes": 666.8062022833333,
+  "report_sha256": "9565150c5ce6bea5ba76a1eafe3323984f5c8e8c8f1e87b98f98884e03f6661b",
+  "writeback": {
+    "valid": true,
+    "mode": "updated",
+    "knowledge_paths": [
+      "knowledge/methods/doppler-correction.md",
+      "knowledge/sources/mavela-2019-32s-quadrupole-moment-doppler-correction-thesis.md",
+      "knowledge/sources/klemme-1999-lifetimes-134nd-neighbors.md",
+      "knowledge/sources/herzan-2015-193bi-spectroscopy.md",
+      "knowledge/methods/level-scheme-reconstruction.md",
+      "knowledge/projects/a130-thesis-evidence-matrix.md",
+      "knowledge/questions.md",
+      "knowledge/index.md",
+      "knowledge/sources/vandebrouck-2016-vamos-dual-position-mwpc.md",
+      "knowledge/sources/crespi-2013-agata-high-energy-doppler-response.md",
+      "knowledge/methods/tracking-array.md",
+      "knowledge/sources/aladili-2009-agata-doppler-simulation.md",
+      "knowledge/research-notes/doppler-forward-inverse-convention-check.md",
+      "knowledge/sources/akkoyun-2012-agata-instrument-response.md",
+      "knowledge/concepts/lorentz-boost-correction.md",
+      "knowledge/sources/longfellow-2026-gretina-energy-ordering-polarization.md",
+      "knowledge/sources/senyigit-2014-agata-neutron-rejection.md",
+      "knowledge/methods/gamma-gamma-coincidence.md",
+      "knowledge/sources/tunl-2017-12c-level-widths.md",
+      "knowledge/sources/soderstrom-2008-agata-position-design.md",
+      "knowledge/sources/crespi-2023-agata-tracking-performance.md",
+      "knowledge/sources/ljungvall-2020-agata-ganil-performance.md",
+      "knowledge/sources/assie-2021-mugast-agata-vamos.md",
+      "knowledge/synthesis/doppler-velocity-validation-contract.md"
+    ],
+    "changed_paths": [
+      "knowledge/concepts/lorentz-boost-correction.md",
+      "knowledge/index.md",
+      "knowledge/methods/doppler-correction.md",
+      "knowledge/methods/gamma-gamma-coincidence.md",
+      "knowledge/methods/level-scheme-reconstruction.md",
+      "knowledge/methods/tracking-array.md",
+      "knowledge/questions.md",
+      "knowledge/research-notes/doppler-forward-inverse-convention-check.md",
+      "knowledge/sources/akkoyun-2012-agata-instrument-response.md",
+      "knowledge/sources/aladili-2009-agata-doppler-simulation.md",
+      "knowledge/sources/assie-2021-mugast-agata-vamos.md",
+      "knowledge/sources/crespi-2013-agata-high-energy-doppler-response.md",
+      "knowledge/sources/crespi-2023-agata-tracking-performance.md",
+      "knowledge/sources/ljungvall-2020-agata-ganil-performance.md",
+      "knowledge/sources/senyigit-2014-agata-neutron-rejection.md",
+      "knowledge/sources/soderstrom-2008-agata-position-design.md",
+      "knowledge/sources/tunl-2017-12c-level-widths.md",
+      "knowledge/sources/vandebrouck-2016-vamos-dual-position-mwpc.md",
+      "knowledge/synthesis/doppler-velocity-validation-contract.md"
+    ],
+    "change_check": "run-snapshot",
+    "error": null
+  },
+  "report": {
+    "valid": true,
+    "missing_headings": []
+  },
+  "coverage": {
+    "valid": true,
+    "completed_day_indices": [
+      13
+    ],
+    "partial_day_indices": [
+      14
+    ],
+    "curriculum_cards_completed": 1,
+    "next_day_index": 14,
+    "error": null
+  },
+  "protected": {
+    "PLAN.md": true,
+    "raw/zotero/wiki-inbox.bib": true
+  },
+  "lint_counts": {
+    "warning": 112,
+    "info": 1655
+  },
+  "analyses": {
+    "retarded-arrival-time-exercise.json": {
+      "quadrature48_96_max_absolute_difference": 6.066258606551855e-12,
+      "arrival_derivative_finite_difference_max_error": 4.930966746030663e-11,
+      "boosted_photon_times_numeric_arrival_slope_max_error_keV": 6.37268158243387e-08,
+      "energy_times_proper_to_arrival_derivative_equals_rest_energy": true,
+      "far_detector_linear_time_gate_limit_passed": true,
+      "static_emission_arrival_limit_passed": true,
+      "detected_moment_and_gate_MC_max_difference": 0.000754867531608916,
+      "passed": true
+    },
+    "zero-sensitivity-curvature-exercise.json": {
+      "zero_linear_derivative_condition_used": true,
+      "second_derivative_FD_max_relative_error": 2.4214386717957836e-08,
+      "exact_MC_sigma_vs_leading_max_relative_difference": 0.006982383775197443,
+      "opposite_residual_signs_for_two_distinct_fixtures_passed": true,
+      "zero_uncertainty_inverse_limit_passed": true,
+      "passed": true
+    },
+    "rigidity-pid-covariance-exercise.json": {
+      "rigidity_beta_derivative_FD_error": 8.75588490600876e-12,
+      "covariance_MC_max_relative_difference": 0.0020026735903557746,
+      "correct_PID_energy_inverse_passed": true,
+      "wrong_integer_branch_counterexamples_passed": true,
+      "passed": true
+    },
+    "two-body-entrypoint-exercise.json": {
+      "binary_and_gamma_mass_shells_passed": true,
+      "staged_four_momentum_conservation_passed": true,
+      "max_direct_four_momentum_residual_MeV": 0.0,
+      "correct_emitter_inverse_passed": true,
+      "self_chosen_covariance_MC_passed": true,
+      "both_global_wrong_entry_roots_retained": true,
+      "wrong_entry_hypothesis_counterexample_passed": true,
+      "passed": true
+    },
+    "photon-recoil-width-exercise.json": {
+      "parent_daughter_photon_four_momentum_conserved": true,
+      "daughter_mass_shell_passed": true,
+      "two_rest_frame_energy_inverses_passed": true,
+      "max_four_momentum_residual_MeV": 1.4551915228366852e-11,
+      "max_energy_inverse_error_MeV": 7.105427357601002e-15,
+      "max_narrow_width_mass_derivative_FD_error": 3.841796658576868e-09,
+      "narrow_mass_profile_derivatives_passed": true,
+      "passed": true
+    }
+  },
+  "first_failed_two_body_attempt_preserved": true,
+  "no_new_credit": true
+}

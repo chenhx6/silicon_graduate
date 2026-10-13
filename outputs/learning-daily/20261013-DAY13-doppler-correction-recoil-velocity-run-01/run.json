@@ -408,22 +408,22 @@
   "final_audit_current": false,
   "goal_completion_current": false,
   "last_research_checkpoint": {
-    "now_local": "2026-10-14T02:26:50.727152+08:00",
-    "minutes_to_deadline": 753.1545474666667,
+    "now_local": "2026-10-14T03:53:11.627863+08:00",
+    "minutes_to_deadline": 666.8062022833333,
     "status": "research-active",
-    "writeback_items": 60,
-    "mapped_pages": 22,
-    "decision": "continue-retarded-time-energy-velocity-route",
+    "writeback_items": 71,
+    "mapped_pages": 24,
+    "decision": "continue-primary20O-history-and-promptdelayed-lineage",
     "no_new_credit": true,
     "clock_queued_not_delivered": true
   },
   "last_clock_refresh": {
-    "now_local": "2026-10-14T02:26:50.727152+08:00",
-    "minutes_to_deadline": 753.1545474666667,
+    "now_local": "2026-10-14T03:53:11.627863+08:00",
+    "minutes_to_deadline": 666.8062022833333,
     "status": "research-active",
-    "writeback_items": 60,
-    "mapped_pages": 22,
-    "decision": "continue-retarded-time-energy-velocity-route",
+    "writeback_items": 71,
+    "mapped_pages": 24,
+    "decision": "continue-primary20O-history-and-promptdelayed-lineage",
     "no_new_credit": true,
     "clock_queued_not_delivered": true
   },
@@ -816,6 +816,89 @@
         }
       ],
       "published_at": "2026-10-14T01:57:11.110801+08:00",
+      "window_remains_active": true
+    },
+    {
+      "branch": "main",
+      "commit_subject": "Extend DAY13 vector and detector-frame consistency checks",
+      "commit_hash": "15923a7753e7453214dd0297581e7d9c81472cf1",
+      "status": "published-active-checkpoint",
+      "scope": "active checkpoint; no new course credit or research closeout",
+      "files": [
+        "knowledge/methods/doppler-correction.md",
+        "knowledge/methods/tracking-array.md",
+        "knowledge/sources/tunl-2017-12c-level-widths.md",
+        "outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity-run-01/heterogeneous-response-exercise.json",
+        "outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity-run-01/heterogeneous-response-recall.md",
+        "outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity-run-01/reopened-checkpoint-audit-004.json",
+        "outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity-run-01/reopened-publication-manifest-004.json",
+        "outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity-run-01/research-checkpoint-reopened-007.json",
+        "outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity-run-01/run.json",
+        "outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity-run-01/tracking-frame-order-exercise.json",
+        "outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity-run-01/tracking-frame-order-recall.md",
+        "outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity-run-01/vector-identifiability-exercise.json",
+        "outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity-run-01/vector-identifiability-recall.md",
+        "outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity-run-01/vector-jacobian-recall.md",
+        "outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity-run-01/vector-position-jacobian-exercise.json",
+        "outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity.md",
+        "system/handoff.md",
+        "system/log.md",
+        "system/scripts/day13_heterogeneous_response.py",
+        "system/scripts/day13_tracking_frame_order.py",
+        "system/scripts/day13_vector_identifiability.py",
+        "system/scripts/day13_vector_position_jacobian.py"
+      ],
+      "post_commit_reconciliation": {
+        "manifest_matches_commit": true,
+        "handoff_pointer_matches": true,
+        "origin_main_matches_HEAD": true,
+        "index_empty": true
+      },
+      "H3_observed_commands": [
+        {
+          "argv": [
+            "git",
+            "fetch",
+            "origin",
+            "main"
+          ],
+          "exit_code": 0,
+          "evidence": "observed tool result in current session"
+        },
+        {
+          "argv": [
+            "git",
+            "merge-base",
+            "--is-ancestor",
+            "origin/main",
+            "HEAD"
+          ],
+          "exit_code": 0,
+          "evidence": "observed tool result in current session"
+        },
+        {
+          "argv": [
+            "git",
+            "push",
+            "--dry-run",
+            "origin",
+            "HEAD:main"
+          ],
+          "exit_code": 0,
+          "evidence": "observed tool result in current session"
+        },
+        {
+          "argv": [
+            "git",
+            "push",
+            "origin",
+            "HEAD:main"
+          ],
+          "exit_code": 0,
+          "evidence": "observed tool result in current session"
+        }
+      ],
+      "published_at": "2026-10-14T02:29:15.533095+08:00",
       "window_remains_active": true
     }
   ]

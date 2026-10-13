@@ -218,6 +218,38 @@ known per-event σ及common centroid下的weighted estimator提高toy精度，gr
 
 该反证检验处理frame与stage，未重放实际OFT/GRETINA或指控来源code。LG20 chain/C23 Compton/Doppler原locator、公式与boundary已写回tracking方法。原谱窄化不能独自证明selection/ordering无误，下一步继续精度与observability设计，仍active-Day13。
 
+### 持续 Day13：retarded arrival time 与 energy factor
+
+[retarded-time code](../../system/scripts/day13_retarded_arrival_time.py)、[JSON](20261013-DAY13-doppler-correction-recoil-velocity-run-01/retarded-arrival-time-exercise.json)核验a(t)=γt+[R(t)−R0]/c，da/dt等于instantaneous Doppler inverse factor，独立photonboost×numeric derivative恢复E0。自设β.3/properτ10ps/R150mm，35/90/145°detectedarrivalmean约7.98/10.46/12.92ps，10ps门接受约.714/.616/.539；另加自设1000psjitter后接近.501/.500/.499。
+
+proper τ、lab emission γτ与conditioned arrival history分别记录；理想time gate不等actualtimestamp或已测寿命。积分/MC/static/far/boost检查通过，完整formula及start/path/walk/stopping/feeding边界写回Doppler方法。本段持续active，后续精度/near-zero sensitivity与自然宽度frame映射，未新开课程卡。
+
+### 持续 Day13：zero-sensitivity curvature 与 narrow-width recoil
+
+[curvature code](../../system/scripts/day13_zero_sensitivity_curvature.py)、[JSON](20261013-DAY13-doppler-correction-recoil-velocity-run-01/zero-sensitivity-curvature-exercise.json)在cosθ=β0构造first-derivative0的三组例题。仍有quadratic误差；fixedlab/uncertaininverse与trueβspread/fixedinverse的residual符号相反，不能混为独立项。exactMC/二阶FD/zero-noise核验通过，所有参数自设，不识别实际tail。
+
+既有[photon-recoil code](../../system/scripts/day13_photon_recoil_width.py)与[JSON](20261013-DAY13-doppler-correction-recoil-velocity-run-01/photon-recoil-width-exercise.json)新增mass-energy derivatives检查；在narrow independent Lorentz模型下，Γph与Γlevel由two-body slopes联系，heavy recoil-neglected才近似Γi+Γf。A12/gap15.110的mass-number例题将43.6eV映为43.541182eV，约.0588eV小于源1eV uncertainty；未改评价数据或拟合真实photon谱。canonical公式/限域均写回Doppler方法，研究继续active。
+
+### 持续 Day13：MUGAST primary、light recoil 与 integer PID
+
+[[assie-2021-mugast-agata-vamos]]公开13页全文与Fig17/18/式已核。实际19O(d,p)20O的1.673-MeVline从meanbeamβ.126校正FWHM10.2keV，改为lightparticle measuredmomentum/two-body重建后7.1keV；共享同acquisition，未从总差反解single nuisance或制造显著性。该run有Au backing、source未完成一种target-loss监测，16Ocommissioning又缺absolutebeam normalization，均保留。
+
+[rigidity/PID code](../../system/scripts/day13_rigidity_pid_covariance.py)、[JSON](20261013-DAY13-doppler-correction-recoil-velocity-run-01/rigidity-pid-covariance-exercise.json)自设L7m/A20/q8/β.126/relative designσ.002，path/rigidityρ−.8/0/+.8给flightσ.698/.520/.233ns；source.2%resolution没有明示σ/FWHM，未拿toy复现800ps。alternateintegerlabels有不同β，但未赋actualmis-ID概率；knownreaction/independentline/PIDpacket可排除这些模式。
+
+Source1.4MeV归一的differentgeometry transparency比较不是absoluteresponse；三subsystem tag也非三个独立实验。Source target CH2/d-channel及51/57-keVprinted间隔差有locator，未改raw或补猜actualmanifest。所有重要方法/反证/locator同步Doppler/tracking/coincidence/index，学习持续active，不新开课程卡。
+
+### 持续 Day13：exact reaction、feeding stage 与 inverse 多解
+
+[two-body/entrypoint code](../../system/scripts/day13_two_body_entrypoint.py)、[JSON](20261013-DAY13-doppler-correction-recoil-velocity-run-01/two-body-entrypoint-exercise.json)锁定synthetic19u/Q5.4MeV质量体系，逐reaction/γ mass shell和四动量守恒。Observedlowerγ不自动确定reactionentry；强制wronglower entrymass，允许beamT自由时有10.73376/66.21207MeV两解，均被本例known152MeV排除。实际sourceAS21-12提供独立particleEx×gamma entrypoint语境，未虚构actualbranch。
+
+第一轮singlebracket求根失败已保存[first-attempt](20261013-DAY13-doppler-correction-recoil-velocity-run-01/two-body-entrypoint-first-attempt.json)；非单调masscurve的解析minimum定位后两root分别bracket，原命令回归通过。SelfchosenΣ的γσ预测/MC.059621/.059667keV不含target/PSA/history，不解释实测7.1keV。Method记录所有条件/失败/反证，研究仍active，下一步整合minimal validation contract与继续高信息来源路线。
+
+### 持续 Day13：minimal validation contract 与 self-audit
+
+新增[[doppler-velocity-validation-contract]]作为简明canonical入口；EvidenceMatrix把实际width/PSAmodel/作者floor解释分列，contract逐项给identity、velocitystage、frame、Σ、selection和下游τ/B的最小输入/失败条件，详细数学保留methods。DVV-P1-1/2/3完成Codexself-audit，sourceunreviewed/未归档raw、production/response/covariance缺口仍明示，不升humanreview或结构信心。
+
+这是活动阶段的知识整理，不是全窗口closeout。课程仍next14/count13、Day14只有既有partial。下一高信息路线为AGATA/VAMOS prompt/delayed/degrader的速度stage与98Zr数据谱系，需读直接sources，继续按原15:00硬截止研究。
+
 ## Counter-evidence and missing companion observables
 
 1. Klemme Fig.1同一line有距离相关shifted/unshifted分量，反驳“两个峰必是两条跃迁”；Table I的6g+从1.38到corrected1.63ps增加18.1%，显示finite stopping影响寿命。
@@ -1596,6 +1628,303 @@ known per-event σ及common centroid下的weighted estimator提高toy精度，gr
           "locator": "C23-8"
         }
       ]
+    },
+    {
+      "knowledge": "knowledge/methods/doppler-correction.md",
+      "anchor": "到达时间的 retardation 与 Doppler factor",
+      "summary": "proper/lab emission/arrival对象不同，geometry时间导数与energyinverse同factor；conditionalgate与自设计时response的极限/MC/boost核验。",
+      "sources": [
+        {
+          "path": "knowledge/sources/aladili-2009-agata-doppler-simulation.md",
+          "locator": "AA09-4"
+        },
+        {
+          "path": "knowledge/sources/senyigit-2014-agata-neutron-rejection.md",
+          "locator": "SY14-4"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/methods/doppler-correction.md",
+      "anchor": "一阶速度敏感度为零时的二阶边界",
+      "summary": "zero first derivative仍有quadratic传播，区分inverse estimator error与actual emitter spread两种fixture；非Gaussian/no actualtail claim。",
+      "sources": [
+        {
+          "path": "knowledge/sources/crespi-2023-agata-tracking-performance.md",
+          "locator": "C23-8"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/methods/doppler-correction.md",
+      "anchor": "Narrow level width 到 photon width 的反冲映射",
+      "summary": "free two-body mass slopes与narrow independent Lorentz width映射；q→1近似、unit/precision/covariance边界，不改evaluatedΓ。",
+      "sources": [
+        {
+          "path": "knowledge/sources/tunl-2017-12c-level-widths.md",
+          "locator": "T12C-1"
+        },
+        {
+          "path": "knowledge/sources/tunl-2017-12c-level-widths.md",
+          "locator": "T12C-2"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/sources/assie-2021-mugast-agata-vamos.md",
+      "anchor": "AS21-8",
+      "summary": "primary13页与原Fig17/18/式核验：lightparticle recoil、conditionalPID/TOF、target/normalization/material与printedboundaries。",
+      "sources": [
+        {
+          "path": "knowledge/sources/assie-2021-mugast-agata-vamos.md",
+          "locator": "AS21-1"
+        },
+        {
+          "path": "knowledge/sources/assie-2021-mugast-agata-vamos.md",
+          "locator": "AS21-2"
+        },
+        {
+          "path": "knowledge/sources/assie-2021-mugast-agata-vamos.md",
+          "locator": "AS21-3"
+        },
+        {
+          "path": "knowledge/sources/assie-2021-mugast-agata-vamos.md",
+          "locator": "AS21-4"
+        },
+        {
+          "path": "knowledge/sources/assie-2021-mugast-agata-vamos.md",
+          "locator": "AS21-5"
+        },
+        {
+          "path": "knowledge/sources/assie-2021-mugast-agata-vamos.md",
+          "locator": "AS21-6"
+        },
+        {
+          "path": "knowledge/sources/assie-2021-mugast-agata-vamos.md",
+          "locator": "AS21-7"
+        },
+        {
+          "path": "knowledge/sources/assie-2021-mugast-agata-vamos.md",
+          "locator": "AS21-8"
+        },
+        {
+          "path": "knowledge/sources/assie-2021-mugast-agata-vamos.md",
+          "locator": "AS21-9"
+        },
+        {
+          "path": "knowledge/sources/assie-2021-mugast-agata-vamos.md",
+          "locator": "AS21-10"
+        },
+        {
+          "path": "knowledge/sources/assie-2021-mugast-agata-vamos.md",
+          "locator": "AS21-11"
+        },
+        {
+          "path": "knowledge/sources/assie-2021-mugast-agata-vamos.md",
+          "locator": "AS21-12"
+        },
+        {
+          "path": "knowledge/sources/assie-2021-mugast-agata-vamos.md",
+          "locator": "AS21-13"
+        },
+        {
+          "path": "knowledge/sources/assie-2021-mugast-agata-vamos.md",
+          "locator": "AS21-14"
+        },
+        {
+          "path": "knowledge/sources/assie-2021-mugast-agata-vamos.md",
+          "locator": "AS21-15"
+        },
+        {
+          "path": "knowledge/sources/assie-2021-mugast-agata-vamos.md",
+          "locator": "AS21-16"
+        },
+        {
+          "path": "knowledge/sources/assie-2021-mugast-agata-vamos.md",
+          "locator": "AS21-17"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/methods/doppler-correction.md",
+      "anchor": "Light-ejectile 两体反冲与 conditional rigidity velocity",
+      "summary": "actual10.2→7.1keV方法证据及four-momentum输入；rigiditycontinuous covariance与integerPID模式的有界练习。",
+      "sources": [
+        {
+          "path": "knowledge/sources/assie-2021-mugast-agata-vamos.md",
+          "locator": "AS21-4"
+        },
+        {
+          "path": "knowledge/sources/assie-2021-mugast-agata-vamos.md",
+          "locator": "AS21-8"
+        },
+        {
+          "path": "knowledge/sources/assie-2021-mugast-agata-vamos.md",
+          "locator": "AS21-9"
+        },
+        {
+          "path": "knowledge/sources/assie-2021-mugast-agata-vamos.md",
+          "locator": "AS21-10"
+        },
+        {
+          "path": "knowledge/sources/assie-2021-mugast-agata-vamos.md",
+          "locator": "AS21-12"
+        },
+        {
+          "path": "knowledge/sources/assie-2021-mugast-agata-vamos.md",
+          "locator": "AS21-14"
+        },
+        {
+          "path": "knowledge/sources/assie-2021-mugast-agata-vamos.md",
+          "locator": "AS21-16"
+        },
+        {
+          "path": "knowledge/sources/assie-2021-mugast-agata-vamos.md",
+          "locator": "AS21-17"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/methods/tracking-array.md",
+      "anchor": "Particle ancillary 的 γ response 与 relative normalization",
+      "summary": "differentgeometry/crystal sourceefficiency与normalizedtransparency不等absolutescale；particle/trigger/material伴随response需匹配。",
+      "sources": [
+        {
+          "path": "knowledge/sources/assie-2021-mugast-agata-vamos.md",
+          "locator": "AS21-1"
+        },
+        {
+          "path": "knowledge/sources/assie-2021-mugast-agata-vamos.md",
+          "locator": "AS21-2"
+        },
+        {
+          "path": "knowledge/sources/assie-2021-mugast-agata-vamos.md",
+          "locator": "AS21-6"
+        },
+        {
+          "path": "knowledge/sources/assie-2021-mugast-agata-vamos.md",
+          "locator": "AS21-7"
+        },
+        {
+          "path": "knowledge/sources/assie-2021-mugast-agata-vamos.md",
+          "locator": "AS21-8"
+        },
+        {
+          "path": "knowledge/sources/assie-2021-mugast-agata-vamos.md",
+          "locator": "AS21-13"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/methods/gamma-gamma-coincidence.md",
+      "anchor": "AS21-2/11/12",
+      "summary": "particle/gamma/heavytag是同event互补，entrypoint/feeding和absolutebeam normalization边界不同。",
+      "sources": [
+        {
+          "path": "knowledge/sources/assie-2021-mugast-agata-vamos.md",
+          "locator": "AS21-2"
+        },
+        {
+          "path": "knowledge/sources/assie-2021-mugast-agata-vamos.md",
+          "locator": "AS21-11"
+        },
+        {
+          "path": "knowledge/sources/assie-2021-mugast-agata-vamos.md",
+          "locator": "AS21-12"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/index.md",
+      "anchor": "assie-2021-mugast-agata-vamos",
+      "summary": "新增direct light-ejectile/rigidity source导航，保留two-body与PID/target/readiness条件。",
+      "sources": [
+        {
+          "path": "knowledge/sources/assie-2021-mugast-agata-vamos.md",
+          "locator": "AS21-8"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/methods/doppler-correction.md",
+      "anchor": "Exact two-body 与反应 entrypoint 的可证伪例题",
+      "summary": "synthetic mass-consistent二体/feedingγ重建；knownbeam排wrongentrymass，非单调inverse的两root与首轮failure/修复保留，不宣称actualsourcefit。",
+      "sources": [
+        {
+          "path": "knowledge/sources/assie-2021-mugast-agata-vamos.md",
+          "locator": "AS21-3"
+        },
+        {
+          "path": "knowledge/sources/assie-2021-mugast-agata-vamos.md",
+          "locator": "AS21-8"
+        },
+        {
+          "path": "knowledge/sources/assie-2021-mugast-agata-vamos.md",
+          "locator": "AS21-12"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/synthesis/doppler-velocity-validation-contract.md",
+      "anchor": "DVV-P1-1",
+      "summary": "新增简明evidence/validation契约，区分source报告/解释/model/任务inference，保留falsifiers、共享数据与self-audit/readiness。",
+      "sources": [
+        {
+          "path": "knowledge/sources/vandebrouck-2016-vamos-dual-position-mwpc.md",
+          "locator": "VD16-3"
+        },
+        {
+          "path": "knowledge/sources/crespi-2013-agata-high-energy-doppler-response.md",
+          "locator": "CR13-3"
+        },
+        {
+          "path": "knowledge/sources/ljungvall-2020-agata-ganil-performance.md",
+          "locator": "LG20-10"
+        },
+        {
+          "path": "knowledge/sources/assie-2021-mugast-agata-vamos.md",
+          "locator": "AS21-8"
+        },
+        {
+          "path": "knowledge/sources/klemme-1999-lifetimes-134nd-neighbors.md",
+          "locator": "KL99-18"
+        },
+        {
+          "path": "knowledge/sources/senyigit-2014-agata-neutron-rejection.md",
+          "locator": "SY14-6"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/index.md",
+      "anchor": "doppler-velocity-validation-contract",
+      "summary": "增加cross-source calibration/velocity contract导航，详细数学仍归owningmethods。",
+      "sources": [
+        {
+          "path": "knowledge/sources/vandebrouck-2016-vamos-dual-position-mwpc.md",
+          "locator": "VD16-3"
+        },
+        {
+          "path": "knowledge/sources/crespi-2013-agata-high-energy-doppler-response.md",
+          "locator": "CR13-3"
+        },
+        {
+          "path": "knowledge/sources/ljungvall-2020-agata-ganil-performance.md",
+          "locator": "LG20-10"
+        },
+        {
+          "path": "knowledge/sources/assie-2021-mugast-agata-vamos.md",
+          "locator": "AS21-8"
+        },
+        {
+          "path": "knowledge/sources/klemme-1999-lifetimes-134nd-neighbors.md",
+          "locator": "KL99-18"
+        },
+        {
+          "path": "knowledge/sources/senyigit-2014-agata-neutron-rejection.md",
+          "locator": "SY14-6"
+        }
+      ]
     }
   ]
 }
@@ -1619,6 +1948,8 @@ known per-event σ及common centroid下的weighted estimator提高toy精度，gr
 | L4 | experimental refit `not-ready`：缺事件、production code、ring spectra、response/covariance和feeding；模拟练习不作为新实验L4或absolute-strength研究。 |
 
 ## Verification and continuation
+
+最新活动检查（2026-10-14T03:53:11.627863+08:00，剩约666.8分钟）：writeback71items/24mappedpages。10份publicsource和validation-contract综合已具locator/self-audit与source/models/任务推断边界；retarded-time、zero-sensitivity、rigidity/PID、two-body/entrypoint及narrowwidth extension均通过。Two-body首轮single-root失败保留，两root恢复后原命令回归通过。lint0errors/112warnings（99citation-key、10未填充rawslots、3reaction-parser）；新综合inboundlink已补齐。boundary/report/card/protected/diff通过，原run仍active。下一route primary20O backing/emissionhistory与AGATA/VAMOS prompt/delayed/degrader谱系，course不再推进。
 
 最新活动检查（2026-10-14T02:26:50.727152+08:00，剩余约753.2分钟）：writeback60items/22mappedpages；vector-global、CartesianΣ、heterogeneous response与tracking-frame四个新增练习通过解析/finite-difference/MC/守恒/极限核验。boundary、diff、report/card/protected通过，lint0errors/110warnings；已实读milestone仍next14/count13，不重复计卡。下一route为retarded arrival time/energy与速度关系，研究仍active。
 

@@ -28,10 +28,22 @@ def boost_z(energy, momentum, beta):
 
 def calculate():
     cases, maximum_momentum_residual, maximum_energy_inverse = [], 0., 0.
+    maximum_width_derivative_error = 0.
     for mass_a, excitation in ((12., 15.110), (12., 4.43982), (32., 2.23057), (52., 1.434), (130., 1.)):
         mf = mass_a * U_MEV
         mi = mf + excitation
         photon = excitation * (2 * mf + excitation) / (2 * mi)
+        # First-order narrow mass-profile -> photon-energy mapping. These
+        # derivatives are not Gaussian standard deviations. Independent
+        # Lorentz widths add after absolute derivative scaling.
+        parent_slope = .5 * (1 + (mf / mi)**2)
+        final_slope = -mf / mi
+        photon_from_masses = lambda a, b: (a-b)*(a+b)/(2*a)
+        step = .001
+        parent_fd = (photon_from_masses(mi+step,mf)-photon_from_masses(mi-step,mf))/(2*step)
+        final_fd = (photon_from_masses(mi,mf+step)-photon_from_masses(mi,mf-step))/(2*step)
+        maximum_width_derivative_error = max(maximum_width_derivative_error,
+                                             abs(parent_fd-parent_slope),abs(final_fd-final_slope))
         daughter_energy_rest = mi - photon
         assert abs(daughter_energy_rest**2 - photon**2 - mf**2) / mf**2 < 1e-12
         observations = []
@@ -64,6 +76,8 @@ def calculate():
                       "photon_recoil_energy_keV": (excitation - photon) * 1000,
                       "daughter_frame_photon_MeV": photon * mi / mf,
                       "daughter_frame_minus_parent_frame_keV": photon * (mi / mf - 1) * 1000,
+                      "narrow_photon_parent_mass_derivative": parent_slope,
+                      "narrow_photon_final_mass_derivative": final_slope,
                       "illustrative_boost_observations": observations})
     # Total width, total gamma width, one gamma branch, and a radiative-subset
     # branching fraction have different denominators and shared source inputs.
@@ -80,17 +94,23 @@ def calculate():
              "printed_gamma_partial_sum_eV": sum(partials),
              "printed_partial_sum_minus_printed_total_gamma_eV": sum(partials) - total_gamma_ev,
              "wrong_tau_using_ground_partial_over_tau_total": total_ev / ground_gamma_ev,
+             "narrow_ground_photon_width_eV_mass_number_mapping": total_ev * cases[0]["narrow_photon_parent_mass_derivative"],
+             "narrow_ground_photon_width_minus_total_level_width_eV": total_ev * (cases[0]["narrow_photon_parent_mass_derivative"] - 1),
+             "narrow_width_boundary": "first-order independent Lorentz mass profiles, ground final width0; does not refit an actual photon profile or replace evaluated total width",
              "boundary": "central quotients only; deduced widths/branches share inputs, covariance unknown; printed partial central closure not an error diagnosis"}
     assert abs(cases[0]["photon_recoil_energy_keV"] - 10.2) < .01
     assert maximum_momentum_residual < 1e-8
     assert maximum_energy_inverse < 1e-10
+    assert maximum_width_derivative_error < 5e-8
     assert width["ground_branch_among_gamma_central"] > width["ground_branch_among_all_decay_central"]
     return {"schema_version": 1, "kind": "free-nucleus four-momentum and evaluated-width arithmetic; no data refit",
             "photon_recoil_cases": cases, "evaluated_width_example": width,
             "verification": {"parent_daughter_photon_four_momentum_conserved": True,
                              "daughter_mass_shell_passed": True, "two_rest_frame_energy_inverses_passed": True,
                              "max_four_momentum_residual_MeV": maximum_momentum_residual,
-                             "max_energy_inverse_error_MeV": maximum_energy_inverse, "passed": True},
+                             "max_energy_inverse_error_MeV": maximum_energy_inverse,
+                             "max_narrow_width_mass_derivative_FD_error": maximum_width_derivative_error,
+                             "narrow_mass_profile_derivatives_passed": True, "passed": True},
             "numpy_version": np.__version__}
 
 

@@ -10,11 +10,11 @@ updated: 2026-10-14
 
 2026-10-13 21:06 Asia/Shanghai，用户要求持续学习Day13、不要中断。仍为run `2026-10-13-day-13-01` / session `01a13489-64ba-7930-9a2c-291375d95ad0`，原硬截止 `2026-10-14T15:00:00+08:00`；回执status恢复running，历史完成/发布保留。课程state已next14/count13，保留已授予的Day13卡学分、不重复计卡、不启动正式Day14或Day15。继续用同一resume command和日报；原17:51全窗口饱和判断收束过早，现在拓宽Day13的事件速度、位置、有限角度、能损/发射历史、重建顺序及门迁移/效率问题。
 
-最新持续checkpoint（2026-10-14 02:26 Asia/Shanghai）：9份public source与本轮vector/response深化保留。累计writeback60items/22mappedpages；新增global镜像direction、Cartesian10-inputΣ、heterogeneous IP response、tracking/Doppler frame次序四个练习均通过。原source T12C Ex单位文字澄清，数值/raw未改，原source/review状态保留。
+最新持续checkpoint（2026-10-14 03:53 Asia/Shanghai）：10份publicsources已有逐source阅读/locator/claimlayer；新增AS21(MUGAST13页)、canonicalvalidation-contract synthesis、retardedarrival、second-order zero-sensitivity、rigidity/PID、exacttwo-body/entrypoint及photon-width-recoil扩展。单根求解首轮失败揭示nonmonotonicmasscurve，现保留两roots，完整failure/counterexample与回归结果已记录，未掩盖。
 
-lint0errors/110warnings、boundary/report/card/protected/diff通过，milestone实读next14/count13。原硬截止余约753.2分钟，goal/receipt仍active；下一route retarded arrival time与Doppler factor，之后更新候选池，不因本checkpoint或toy饱和关闭窗口。
+累计writeback71items/24mappedpages、lint0errors/112warnings（rawslots10未归档、citation99未猜、reaction3）；boundary/report/card/protected/diff和stagedconservation/MC/limits检查通过。综合newinboundlink/self-audit已补；PLAN/Bib/raw/原reviewflags不变。研究仍active，原截止剩约666.8分钟；下一route primary20O Au-backing/emissionhistory（sourceAS21 Ref11 DOI10.1016/j.physletb.2020.135939），以及Lemasson2023 AGATA/VAMOS prompt/delayed/degrader与98Zr谱系。
 
-已发布上一checkpoint：main / `Add DAY13 position-calibration and joint-acceptance study`。本段active checkpoint指针main / `Extend DAY13 vector and detector-frame consistency checks`；exacthash/outcome只进runreceipt。Day14仅既有partial，无Day15，最终alreadycredited reconciliation不再推进course state。
+已发布上一checkpoint：main / `Extend DAY13 vector and detector-frame consistency checks`。本段active checkpoint指针main / `Add DAY13 particle-assisted recoil and validation contract`；exacthash/outcome只进runreceipt。same-session farmer/clock保持；checkpoint001 queued不等delivery，未收到就不ack。Milestonealreadycredited next14/count13，不正式计Day14/打开Day15，最后只manualreconcilealreadycreditedrun，不调用会再推进state的normalfinalizer。
 已有精确Jacobian、rank2反例、Mavela/Klemme/Herzan证据和知识写回均保留。先逐路线source-before recall、直接全文/locator、反证和可复算边界，checkpoint只记进展，不再次提前complete。Farmer保留运行，同session时钟将排队2小时checkpoint与15:00收束；queue成功只算接受，不伪造delivery。原raw/PLAN/凭据、review flags和legacy Day6–9/daemon/log修改仍受保护。
 
 ## Previous active handoff — DAY13 card publication (window reopened)

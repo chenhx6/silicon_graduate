@@ -1,0 +1,112 @@
+{
+  "schema_version": 1,
+  "kind": "synthetic exact binary-reaction and feeding-stage exercise; no source refit",
+  "mass_parameters_MeV": {
+    "beam_19u": 17698.38794598,
+    "deuteron": 1875.61294257,
+    "proton": 938.27208816,
+    "self_chosen_Q": 5.4,
+    "synthetic_heavy_ground": 18630.328800389998
+  },
+  "direct_entry_cases": [
+    {
+      "self_chosen_light_angle_deg": 120.0,
+      "predicted_light_T_MeV": 5.018132407193504,
+      "reconstructed_entry_excitation_MeV": 1.673000000002503,
+      "true_postreaction_beta_vector": [
+        -0.004480254901275695,
+        0.0,
+        0.12634540825878038
+      ],
+      "true_direct_rest_gamma_MeV": 1.6729248892057673,
+      "photon_lab_MeV": 1.5003642266213308,
+      "nominal_beam_velocity_correction_residual_keV": 1.7465877291087395
+    },
+    {
+      "self_chosen_light_angle_deg": 150.0,
+      "predicted_light_T_MeV": 3.035223566602657,
+      "reconstructed_entry_excitation_MeV": 1.672999999998865,
+      "true_postreaction_beta_vector": [
+        -0.002010442101000945,
+        0.0,
+        0.1272278558008503
+      ],
+      "true_direct_rest_gamma_MeV": 1.67292488920213,
+      "photon_lab_MeV": 1.501147426745122,
+      "nominal_beam_velocity_correction_residual_keV": 2.6207774026760777
+    },
+    {
+      "self_chosen_light_angle_deg": 170.0,
+      "predicted_light_T_MeV": 2.6123697048707775,
+      "reconstructed_entry_excitation_MeV": 1.672999999998865,
+      "true_postreaction_beta_vector": [
+        -0.0006476720247908722,
+        0.0,
+        0.1274160129946588
+      ],
+      "true_direct_rest_gamma_MeV": 1.67292488920213,
+      "photon_lab_MeV": 1.5019663071624767,
+      "nominal_beam_velocity_correction_residual_keV": 3.5347925822122317
+    }
+  ],
+  "self_chosen_input_covariance_fixture": {
+    "input_order": [
+      "beam_T_MeV",
+      "light_T_MeV",
+      "theta_rad",
+      "phi_rad"
+    ],
+    "sigmas": [
+      0.1,
+      0.01,
+      0.0017453292519943296,
+      0.0017453292519943296
+    ],
+    "gamma_Jacobian_MeV_per_input_unit": [
+      0.0005852925932803288,
+      0.001135654000838926,
+      -0.00010733238742233196,
+      0.0
+    ],
+    "predicted_rest_gamma_sigma_keV": 0.0596211396327875,
+    "MC_rest_gamma_sigma_keV": 0.059667211054438465,
+    "boundary": "no target loss/beamspot/PSA history; does not explain measured7.1keV width"
+  },
+  "feeding_entry_counterexample": {
+    "true_entry_excitation_MeV": 3.57,
+    "lower_emitting_excitation_MeV": 1.673,
+    "feeding_rest_gamma_MeV": 1.8969034391834176,
+    "observed_lower_rest_gamma_MeV": 1.67292488920213,
+    "using_prefeeding_reaction_vector_residual_keV": -0.018646316043868794,
+    "forced_wrong_entry_solutions": [
+      {
+        "forced_beam_T_MeV": 10.733757045766854,
+        "forced_entry_gamma_residual_keV": -124.02339878815982
+      },
+      {
+        "forced_beam_T_MeV": 66.2120721432201,
+        "forced_entry_gamma_residual_keV": -59.07411927543072
+      }
+    ],
+    "actual_self_chosen_beam_T_MeV": 152.0,
+    "mass_constraint_curve_minimum_beam_T_MeV": 32.56054755122221,
+    "boundary": "synthetic path; knownbeam/missingmass/observedfeeding can reject this forced entry hypothesis"
+  },
+  "verification": {
+    "binary_and_gamma_mass_shells_passed": true,
+    "staged_four_momentum_conservation_passed": true,
+    "max_direct_four_momentum_residual_MeV": 0.0,
+    "correct_emitter_inverse_passed": true,
+    "self_chosen_covariance_MC_passed": true,
+    "both_global_wrong_entry_roots_retained": true,
+    "wrong_entry_hypothesis_counterexample_passed": true,
+    "passed": true
+  },
+  "boundaries": [
+    "19u/Q5.4 defines a consistent synthetic reaction, not actual isotope masses.",
+    "A known lower gamma does not by itself identify the reaction entry or all prior feeding.",
+    "Raw channels/beam/target/backing/particle/PSA/response/covariance are required for a real analysis.",
+    "No actual source branch, lifetime, strength or misidentified reaction is asserted."
+  ],
+  "numpy_version": "2.5.3"
+}

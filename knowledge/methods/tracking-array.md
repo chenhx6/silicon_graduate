@@ -135,3 +135,11 @@ $$\cos\theta_{wrong}=1-\frac{1-\cos\theta_{lab}}{D}.$$
 若真正boost整个scattering的photon/electron four-vectors，electron在新frame中不再静止。Lorentz-invariant relation `pe·k=pe·k′+k·k′` 与four-momentum conservation继续满足；不能只缩放energy而保留electron-rest及lab-angle公式。代码的full boost/mass shell/invariant与β0顺序一致极限均通过，invariant residual<1.2×10⁻10keV²。
 
 本fixture忽略bound-electron momentum、有限electron track、escape/材料与真实FOM；没有指控任何actualsource pipeline提前缩放。[[doppler-correction]]的hit-sum/first-point练习和这一frame检查检验不同条件：前者要求同一photon只用一个incoming direction，后者要求Compton tracking留在适用的detector frame。重放时应保存calibrated lab deposits、source/first-point metadata、tracked total与corrected rest energy的stage labels，避免只留最终窄谱。
+
+## Particle ancillary 的 γ response 与 relative normalization
+
+[[assie-2021-mugast-agata-vamos]] AS21-6/7 的source benchmark在41crystals/R182mm给1.4-MeVphotopeak效率4.9(1)%、邻晶add-back7.1(1)%；lowenergy P/T变差。Source/geometry/algorithm不同于LG20的29crystal配置，不能把比值当纯tracking改进。
+
+MUGAST39crystals/R182mm与plunger35/R233mm的transparency比较先在1.4MeV归一，再讨论above200keV相似、100keV约10%差。这个shape comparison不保留absolute scale，不能证明所有gamma能量/角度的absolute attenuation均为零。AS21-1的target-holder shadow与AS21-13的forward mask/shutter说明real occupancy也需匹配。
+
+Lightparticle/重离子信息能改善Doppler（AS21-8），addedmaterial/trigger和PID/clock仍改变被选gamma样本（AS21-2/9/10）。实际validation须同时保存raw/lab/rest能量、particle/beam/target metadata、FEP/P-T与joint efficiency/covariance，不从一个改善的峰宽推整套response完成。

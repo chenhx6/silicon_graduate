@@ -1,0 +1,69 @@
+{
+  "status": "failed-before-output",
+  "exit_code": 1,
+  "error": "ValueError f(a) and f(b) must have different signs",
+  "hypothesis": "single forced-entry root between beamT0 and152 was not established",
+  "mass_curve": [
+    {
+      "beam_T_MeV": 0.0,
+      "inferred_entry_Ex_MeV": 3.008403436091612
+    },
+    {
+      "beam_T_MeV": 1.0,
+      "inferred_entry_Ex_MeV": 2.486660018141265
+    },
+    {
+      "beam_T_MeV": 5.0,
+      "inferred_entry_Ex_MeV": 1.9803659213539504
+    },
+    {
+      "beam_T_MeV": 10.0,
+      "inferred_entry_Ex_MeV": 1.701385991931602
+    },
+    {
+      "beam_T_MeV": 20.0,
+      "inferred_entry_Ex_MeV": 1.4536016019046656
+    },
+    {
+      "beam_T_MeV": 40.0,
+      "inferred_entry_Ex_MeV": 1.396504599157197
+    },
+    {
+      "beam_T_MeV": 60.0,
+      "inferred_entry_Ex_MeV": 1.5855366326650255
+    },
+    {
+      "beam_T_MeV": 80.0,
+      "inferred_entry_Ex_MeV": 1.901856993426918
+    },
+    {
+      "beam_T_MeV": 100.0,
+      "inferred_entry_Ex_MeV": 2.2994453097489895
+    },
+    {
+      "beam_T_MeV": 120.0,
+      "inferred_entry_Ex_MeV": 2.75470522966134
+    },
+    {
+      "beam_T_MeV": 140.0,
+      "inferred_entry_Ex_MeV": 3.2536227724849596
+    },
+    {
+      "beam_T_MeV": 152.0,
+      "inferred_entry_Ex_MeV": 3.569999999999709
+    },
+    {
+      "beam_T_MeV": 200.0,
+      "inferred_entry_Ex_MeV": 4.9339162366013625
+    },
+    {
+      "beam_T_MeV": 300.0,
+      "inferred_entry_Ex_MeV": 8.114732251618989
+    },
+    {
+      "beam_T_MeV": 600.0,
+      "inferred_entry_Ex_MeV": 18.983828949141753
+    }
+  ],
+  "action": "inspect global inverse before selecting root; no actualdatafit claim"
+}
