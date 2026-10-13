@@ -200,6 +200,24 @@ rate依N0×ε×Z，selected count或normalized shape不能独自给absolute yiel
 
 原LG20 Fig18直接比较mix-before/aftertracking，LG20-12明确source→beam迁移条件。公式、toy假设、zeroacceptance和normalizer covariance全部同步tracking/coincidence/Doppler页。研究持续active，未给额外day credit，下一路线是partial vector可识别性、heterogeneous response和量化判别设计。
 
+### 持续 Day13：global vector 多解与 Cartesian covariance
+
+[vector-global exercise](20261013-DAY13-doppler-correction-recoil-velocity-run-01/vector-identifiability-exercise.json)由[code](../../system/scripts/day13_vector_identifiability.py)构造knownβ/knownrest-energy/commonvector的两mirror directions。两nonparallel coplanar photon constraints均精确符合，两个local Jacobians都rank2；所有coplanar directions仍不能判别mirror，新增noncoplanar方向预测energy差2.793137keV。是不同calibration emitters的声明fixture，不冒充actual finite-mass cascade或CR13 fit歧义。
+
+[Cartesian code](../../system/scripts/day13_vector_position_jacobian.py)、[JSON](20261013-DAY13-doppler-correction-recoil-velocity-run-01/vector-position-jacobian-exercise.json)从(E_lab,b components,emissionvertex,first-IP)推导10-input Jacobian/Σ，避免derivedθ误差重复叠加。有限差分、radial零项、scalar equivalence、β0与commonframe invariance/physical target shift区别通过；MC σ相对差最大.0954%。全部数学、参数与边界写回Doppler方法，尚无actualsourcejointΣ，学习继续active。
+
+### 持续 Day13：heterogeneous IP response 的平均规则
+
+[response-mixture code](../../system/scripts/day13_heterogeneous_response.py)、[JSON](20261013-DAY13-doppler-correction-recoil-velocity-run-01/heterogeneous-response-exercise.json)以LG20 Eq4作声明模板，actual source范围/参数未重拟合。自设two-deposit groups及geometry得mixture half-height FWHM7.484993keV、same-variance Gaussian宽9.706038、先平均p再平方的宽8.903350。要平均conditional variance，且总体mixture不再单Gaussian；相同FWHM/σ不保证相同gate fraction。
+
+known per-event σ及common centroid下的weighted estimator提高toy精度，group offset或错误σ则破坏前提；没有因此升级C23的未证明tracking建议。积分、Gaussian极限及MC通过，公式/参数/covariance/fit-window边界固化Doppler方法。顺带将T12C的Ex单位写为15.110MeV±3keV，避免MeV中心值/keV不确定度文字歧义，不改source数值或raw。
+
+### 持续 Day13：tracking 与 Doppler 的 frame 次序
+
+[frame-order code](../../system/scripts/day13_tracking_frame_order.py)、[JSON](20261013-DAY13-doppler-correction-recoil-velocity-run-01/tracking-frame-order-exercise.json)构造真实kinematic一致的free-electron two-hit fixture。先把所有deposit乘incoming Doppler D，虽然总能量仍correct，却破坏保持lab angle/静止electron假设的Compton test；β.07例true cos−.9会错读成−1.038。完整boost同时变换electron/photon四矢量则守恒，β0回到相同顺序。
+
+该反证检验处理frame与stage，未重放实际OFT/GRETINA或指控来源code。LG20 chain/C23 Compton/Doppler原locator、公式与boundary已写回tracking方法。原谱窄化不能独自证明selection/ordering无误，下一步继续精度与observability设计，仍active-Day13。
+
 ## Counter-evidence and missing companion observables
 
 1. Klemme Fig.1同一line有距离相关shifted/unshifted分量，反驳“两个峰必是两条跃迁”；Table I的6g+从1.38到corrected1.63ps增加18.1%，显示finite stopping影响寿命。
@@ -1502,6 +1520,82 @@ rate依N0×ε×Z，selected count或normalized shape不能独自给absolute yiel
           "locator": "LG20-15"
         }
       ]
+    },
+    {
+      "knowledge": "knowledge/methods/doppler-correction.md",
+      "anchor": "已知 speed 不等于唯一的 velocity vector",
+      "summary": "两projection/knownspeed的global mirror counterexample，localrank2不足以排全局多解；noncoplanar constraint与source几何/阶段边界。",
+      "sources": [
+        {
+          "path": "knowledge/sources/vandebrouck-2016-vamos-dual-position-mwpc.md",
+          "locator": "VD16-1"
+        },
+        {
+          "path": "knowledge/sources/crespi-2023-agata-tracking-performance.md",
+          "locator": "C23-8"
+        },
+        {
+          "path": "knowledge/sources/ljungvall-2020-agata-ganil-performance.md",
+          "locator": "LG20-14"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/methods/doppler-correction.md",
+      "anchor": "Cartesian 输入的完整 Jacobian：避免重复计入角误差",
+      "summary": "从E/b/vertex/first-IP raw inputs推导full Jacobian/Σ；radial零项、β0/共同frame invariance与physical target movement区别。",
+      "sources": [
+        {
+          "path": "knowledge/sources/vandebrouck-2016-vamos-dual-position-mwpc.md",
+          "locator": "VD16-1"
+        },
+        {
+          "path": "knowledge/sources/crespi-2023-agata-tracking-performance.md",
+          "locator": "C23-8"
+        },
+        {
+          "path": "knowledge/sources/ljungvall-2020-agata-ganil-performance.md",
+          "locator": "LG20-14"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/methods/doppler-correction.md",
+      "anchor": "Energy-dependent IP response：平均 variance 与混合谱",
+      "summary": "用声明的IP energy-response模板核验平均variance/mixture FWHM/gate；known σ权重centroid的条件与实际tracking未证明边界。",
+      "sources": [
+        {
+          "path": "knowledge/sources/ljungvall-2020-agata-ganil-performance.md",
+          "locator": "LG20-8"
+        },
+        {
+          "path": "knowledge/sources/ljungvall-2020-agata-ganil-performance.md",
+          "locator": "LG20-14"
+        },
+        {
+          "path": "knowledge/sources/crespi-2023-agata-tracking-performance.md",
+          "locator": "C23-15"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/methods/tracking-array.md",
+      "anchor": "Detector frame 的 tracking 与 Doppler 处理顺序",
+      "summary": "自由electron Compton/boost例题验证lab tracking与rest incoming photon correction的frame次序；总能量correct不等于prescaled FOM合适，不指控actualsource。",
+      "sources": [
+        {
+          "path": "knowledge/sources/ljungvall-2020-agata-ganil-performance.md",
+          "locator": "LG20-1"
+        },
+        {
+          "path": "knowledge/sources/crespi-2023-agata-tracking-performance.md",
+          "locator": "C23-1"
+        },
+        {
+          "path": "knowledge/sources/crespi-2023-agata-tracking-performance.md",
+          "locator": "C23-8"
+        }
+      ]
     }
   ]
 }
@@ -1525,6 +1619,8 @@ rate依N0×ε×Z，selected count或normalized shape不能独自给absolute yiel
 | L4 | experimental refit `not-ready`：缺事件、production code、ring spectra、response/covariance和feeding；模拟练习不作为新实验L4或absolute-strength研究。 |
 
 ## Verification and continuation
+
+最新活动检查（2026-10-14T02:26:50.727152+08:00，剩余约753.2分钟）：writeback60items/22mappedpages；vector-global、CartesianΣ、heterogeneous response与tracking-frame四个新增练习通过解析/finite-difference/MC/守恒/极限核验。boundary、diff、report/card/protected通过，lint0errors/110warnings；已实读milestone仍next14/count13，不重复计卡。下一route为retarded arrival time/energy与速度关系，研究仍active。
 
 最新活动检查（2026-10-14T01:54:40.245714+08:00，距截止约785.3分钟）：累计writeback56items/22mappedpages。三份新增方法/primary source与two-distance、fixed-gate likelihood、event-mixing练习均已写回，参数/零核/积分/MC检查通过。lint exit0，0errors/110warnings（98citation-key、9未填充raw archives、3reaction-parser）；report/card/writeback/protected/diff通过，原窗口仍active。当前发布是checkpoint，不触发new credit或closeout。
 

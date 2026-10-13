@@ -1,0 +1,111 @@
+{
+  "schema_version": 1,
+  "kind": "synthetic known-speed common-emitter-direction calibration fixture",
+  "parameters": {
+    "rest_photon_keV": 1000.0,
+    "speed_beta": 0.07,
+    "true_direction": [
+      0.03,
+      0.02,
+      0.9993497886125758
+    ],
+    "two_photon_directions": [
+      [
+        0.0,
+        0.0,
+        -1.0
+      ],
+      [
+        0.8,
+        0.0,
+        -0.6
+      ]
+    ],
+    "third_photon_direction": [
+      0.0,
+      1.0,
+      0.0
+    ]
+  },
+  "global_mirror_solutions": [
+    {
+      "emitter_direction": [
+        0.029999999999999055,
+        0.019999999999951713,
+        0.9993497886125768
+      ],
+      "predicted_two_lab_photons_keV": [
+        932.3265663821115,
+        958.909929760926
+      ],
+      "additional_noncoplanar_photon_keV": 998.9455150954716,
+      "local_two_tangent_Jacobian_keV_per_radian": [
+        [
+          1.8295112991654663,
+          1.2204677614772335
+        ],
+        [
+          52.75704730948587,
+          0.7746349279175122
+        ]
+      ],
+      "local_Jacobian_singular_values": [
+        52.79507659072587,
+        1.1927451600603438
+      ],
+      "local_rank": 2,
+      "coplanar_family_max_difference_keV": 2.2737367544323206e-13
+    },
+    {
+      "emitter_direction": [
+        0.029999999999999055,
+        -0.019999999999951713,
+        0.9993497886125768
+      ],
+      "predicted_two_lab_photons_keV": [
+        932.3265663821115,
+        958.909929760926
+      ],
+      "additional_noncoplanar_photon_keV": 996.1523780450816,
+      "local_two_tangent_Jacobian_keV_per_radian": [
+        [
+          1.8295112991654663,
+          -1.2204677614772335
+        ],
+        [
+          52.75704730948587,
+          -0.7746349279175122
+        ]
+      ],
+      "local_Jacobian_singular_values": [
+        52.79507659072587,
+        1.1927451600603438
+      ],
+      "local_rank": 2,
+      "coplanar_family_max_difference_keV": 2.2737367544323206e-13
+    }
+  ],
+  "third_direction_energy_difference_keV": 2.793137050389987,
+  "third_direction_recovered_emitter_direction": [
+    0.029999999999999055,
+    0.019999999999999383,
+    0.999349788612577
+  ],
+  "verification": {
+    "exact_two_projection_and_unit_constraints_passed": true,
+    "both_local_Jacobians_rank2": true,
+    "all_coplanar_directions_mirror_symmetry_passed": true,
+    "max_coplanar_energy_difference_keV": 2.2737367544323206e-13,
+    "max_direction_Jacobian_finite_difference_error": 8.794807770939883e-09,
+    "noncoplanar_recovery_passed": true,
+    "static_limit_passed": true,
+    "passed": true
+  },
+  "boundaries": [
+    "Local rank does not rule out disconnected/global solutions.",
+    "Independent calibration emitters share a constant vector; no finite-mass cascade is asserted.",
+    "Real multiple photons can have different emission stages and velocities; source geometry or a particle track may remove a mirror branch.",
+    "No inference is made about actual CR13 fitted vector, VD16, Mavela or LG20 data."
+  ],
+  "numpy_version": "2.5.3"
+}

@@ -121,3 +121,17 @@ $$g(u)=\frac12\left[1+\frac{A_2^2}{5}P_2(u)\right].$$
 ### Raw/postPSA 与独立性边界
 
 LG20-1 明确postPSA points只能重放后续event merging/tracking；重新跑PSA需要原traces和basis/calibration，不凭final tracked photons重建缺失IP。LG20-7/8/14的Doppler position estimate使用independent VAMOS vector和energy-dependent 1D IP FWHM模板，不把5.1mm平均值当所有角度/能量的σ。C23-7/12重复本篇source benchmark，不增加acquisition数；VD16同设施98Zr路线无runmanifest时也不默认独立。
+
+## Detector frame 的 tracking 与 Doppler 处理顺序
+
+[[ljungvall-2020-agata-ganil-performance]] LG20-1的processing chain和[[crespi-2023-agata-tracking-performance]] C23-1/8的Compton/Doppler式要求保留各阶段的frame。Detector中scattering的energy/angle与近似静止electron使用实验室frame；目标核的rest-photon energy则由已识别incoming photon的lab total energy、方向与emitter velocity反演。Ancillary vertex信息可先进入tracking，但不意味着先把所有detector deposits改成emitter-rest energies。
+
+[day13_tracking_frame_order.py](../../system/scripts/day13_tracking_frame_order.py)构造free-electron two-hit fixture，incoming lab photon1000keV、true Compton cosθ=−.9。若先将每个deposit都乘同一个incoming inverse Doppler factor D，再配lab角/electron-rest式做FOM，会推得
+
+$$\cos\theta_{wrong}=1-\frac{1-\cos\theta_{lab}}{D}.$$
+
+自设emitterβ=.07且incoming沿速度方向，D=.932287，错误cos≈−1.038，落在physical范围之外；β=.3时≈−1.589。此时pre-scaled总能量仍数值等于正确incoming rest energy，**能量和正确不保证内部Compton classification也正确**。
+
+若真正boost整个scattering的photon/electron four-vectors，electron在新frame中不再静止。Lorentz-invariant relation `pe·k=pe·k′+k·k′` 与four-momentum conservation继续满足；不能只缩放energy而保留electron-rest及lab-angle公式。代码的full boost/mass shell/invariant与β0顺序一致极限均通过，invariant residual<1.2×10⁻10keV²。
+
+本fixture忽略bound-electron momentum、有限electron track、escape/材料与真实FOM；没有指控任何actualsource pipeline提前缩放。[[doppler-correction]]的hit-sum/first-point练习和这一frame检查检验不同条件：前者要求同一photon只用一个incoming direction，后者要求Compton tracking留在适用的detector frame。重放时应保存calibrated lab deposits、source/first-point metadata、tracked total与corrected rest energy的stage labels，避免只留最终窄谱。

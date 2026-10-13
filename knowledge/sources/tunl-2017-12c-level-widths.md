@@ -59,7 +59,7 @@ levelidentity/Γcm → partial/radiative/particle-widthblock → footnotededucti
 
 ## Summary
 
-Table13的15.110±3keV、1+;T1level给totalΓcm=43.6±1.0eV。Table14给groundγpartial38.5±.8eV、totalγ41.8±1.1eV、γfraction.959±.009，并注明部分量deduced。自然statewidth0.0436keV远小于Crespireported119keVFWHM；不能以groundpartial38.5eV代替totalΓ计算lifetime。
+Table13的15.110MeV（能量不确定度3keV）、1+;T1level给totalΓcm=43.6±1.0eV。Table14给groundγpartial38.5±.8eV、totalγ41.8±1.1eV、γfraction.959±.009，并注明部分量deduced。自然statewidth0.0436keV远小于Crespireported119keVFWHM；不能以groundpartial38.5eV代替totalΓ计算lifetime。
 
 ## Experimental or Theoretical Setup
 
@@ -69,7 +69,7 @@ Table13的15.110±3keV、1+;T1level给totalΓcm=43.6±1.0eV。Table14给groundγ
 
 | ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
 |---|---|---|---|---|---|
-| T12C-1 | 在线Table13列Ex15.110±3keV、Jπ=1+、T1、Γcm=(43.6±1)×10⁻3keV，decaysγ/α；companionfilep45selectedrow一致。 | synthesis | direct | online Table12.13 PDF p.3, 15.110-MeVrow; revisedcompanionfilep45 | true |
+| T12C-1 | 在线Table13列Ex15.110MeV（不确定度3keV）、Jπ=1+、T1、Γcm=(43.6±1)×10⁻3keV，decaysγ/α；companionfilep45selectedrow一致。 | synthesis | direct | online Table12.13 PDF p.3, 15.110-MeVrow; revisedcompanionfilep45 | true |
 | T12C-2 | Table14在15.11block列Γγ0=38.5±.8eV、Γγ=41.8±1.1eV、Γα=1.79±.39eV、Γ=43.6±1eV，以及Γγ/Γ=.959±.009；footnotes e/g/h/i/r说明部分width/ratio的shared/deduced谱系。 | synthesis | direct | online Table12.14 PDF p.1,15.11block; p.4,footnotese,g,h,i,r | true |
 | T12C-3 | Table14footnotee给gamma-decaybranchground92±2%、到4.4等分支及未探到的10.3分支；它与totaldecay含α的分母不同。中心商38.5/41.8≈.921与38.5/43.6≈.883为本任务算术，不给缺失covariance的ratioerror。 | our-inference | indirect | online Table12.14 PDF pp.1,4,15.11block andfootnotee | true |
 | T12C-4 | Table13的4.43982MeV Γ10.8±.6meV与9.641MeV Γ46±3keV展示naturallevelwidth不必统一很小；这些不是本任务观察到的γFWHM。9.641width有weighted/external-errorfootnoteb。 | synthesis | direct | online Table12.13 PDF pp.1–2; p.5,footnoteb | true |

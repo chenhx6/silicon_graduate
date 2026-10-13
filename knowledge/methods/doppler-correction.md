@@ -644,3 +644,59 @@ Z(\eta)=\int S(x)f(x|\eta)\,dx.$$
 该source给平均5.1mm、六detector3.7–6.1mm与平均估计误差1mm；作者明确提醒sample spread也可来自统计误差。它是具有独立vector约束的实际method benchmark，不是原width-only rank2模型被全局否定，也不能取代本run缺失的production/code/event/covariance。
 
 LG20-10/12又直接证明tracking的联合接受率影响γγ normalization。只有能量峰恢复，还不能从source效率直接获得实际beam angular/coincidence效率；[[tracking-array]]保存mix-stage与common-axis反例。LG20与C23-7/12是primary/review依赖谱系，VD16同设施98Zr case没有runmanifest时也不默认独立复测。
+
+## 已知 speed 不等于唯一的 velocity vector
+
+[[vandebrouck-2016-vamos-dual-position-mwpc]] VD16-1/3、[[crespi-2023-agata-tracking-performance]] C23-8/9 说明energy inverse需要emitter vector与photon方向。以下是本任务明确的common-velocity calibration fixture，不据此声称CR13或其它实测fit存在这种歧义。
+
+设速度大小β已知、方向u未知，known-rest-photon E0、measured lab photon方向ni/energyEi满足
+
+$$\mathbf n_i\cdot\mathbf u=\frac{1-E_0/(\gamma E_i)}{\beta},\qquad |\mathbf u|=1.$$
+
+一条photon只给cone/projection。两个nonparallel ni给一个plane内的particular solution u∥；剩余为 `u=u∥±√(1−|u∥|²) h`，h为两photon方向张成plane的normal。因此可有两个mirror directions；若`|u∥|>1`，exact noiseless模型无解，真实误差需要likelihood处理，不裁剪成确定方向。
+
+[day13_vector_identifiability.py](../../system/scripts/day13_vector_identifiability.py)自设β=.07、E0=1000keV，n1=(0,0,−1)、n2=(.8,0,−.6)。`u=(.03,±.02,.999349789)`两解都近beam-forward方向，lab energies同为932.326566/958.909930keV。各branch的two-tangent Jacobian都是rank2，**full local rank仍不排除global mirror ambiguity**；101个共平面方向的energy最大差仅2.3×10⁻13keV。新增n3=(0,1,0)使两解预测相差2.793137keV，第三noncoplanar constraint在该模型中恢复原方向；实际能否判别还依centroid/geometry/covariance精度。
+
+这个fixture使用不同calibration emitters共享constant vector，不是忽略有限质量γ反冲后仍宣称精确的真实cascade。若同event的γ有不同emission/stopping/feeding stages，或knownE0实际只是rounded levelgap，方程前提需另核。独立particle tracking、完整目标/first-IP geometry或额外kinematic constraints可以排除分支；单速TOF、共平面peak或局部拟合误差条本身不能保证全局唯一性。β=0极限能量与方向无关，此时不要用除β的projection式。
+
+## Cartesian 输入的完整 Jacobian：避免重复计入角误差
+
+[[crespi-2023-agata-tracking-performance]] C23-8、[[ljungvall-2020-agata-ganil-performance]] LG20-7/8/14 和VD16-1/2提供vector/position误差的source语境。若θ已经从velocity与位置计算，选择raw inputs `x=(E_lab,bx,by,bz,vx,vy,vz,gx,gy,gz)`，v为emission vertex、g为first-IP、b为v/c无量纲速度，所有vector在同一frame，位置同用mm。令 `r=g−v, R=|r|, n=r/R`，则
+
+$$f=E\gamma(1-\mathbf b\cdot\mathbf n),\qquad
+J_E=\gamma(1-\mathbf b\cdot\mathbf n),$$
+$$\nabla_{\mathbf b}f=E\left[\gamma^3\mathbf b(1-\mathbf b\cdot\mathbf n)-\gamma\mathbf n\right],\qquad
+\nabla_{\mathbf r}f=-\frac{E\gamma}{R}\left[\mathbf b-(\mathbf b\cdot\mathbf n)\mathbf n\right],$$
+$$\nabla_{\mathbf g}f=\nabla_{\mathbf r}f,\quad
+\nabla_{\mathbf v}f=-\nabla_{\mathbf r}f,\quad
+\sigma_f^2=J\Sigma_xJ^{\mathsf T}.$$
+
+位置derivative单位keV/mm，速度derivative单位keV；r方向的radial位移一阶不改photon direction。若用这个Σx已包含b/point方向误差，不再额外叠加同一θ误差；若改用scalar(E,β,θ) coordinates，则应转换同一covariance，不能把derived θ误差当独立的新输入。
+
+[day13_vector_position_jacobian.py](../../system/scripts/day13_vector_position_jacobian.py)自设10×10Σ、R235mm、θ35°，验证finite differences、scalar longitudinal derivative、radial零项、β=0 regular极限以及MC。max有限差分绝对误差1.24×10⁻6（按各参数单位），MC σ相对差最大.0954%。β=.07例的σ1.897904keV仅属于这个Σ，不是实际source resolution。
+
+共同coordinate-origin平移v/g、或共同frame rotation同时旋转b/v/g，都保持f。这是coordinate一致性；**physical target单独移动而detector固定并不取消**。自设β=.07下physical1mm transverse target shift给约−.14846keV，而把同一10mm坐标origin uncertainty误当v/g各自独立，会凭空增加6.56997keV²variance。真实target、track和detectoralignment的共享误差是否抵消必须由其生成/测量定义决定，不能将frame invariance当作免除实际geometry calibration的理由。
+
+## Energy-dependent IP response：平均 variance 与混合谱
+
+[[ljungvall-2020-agata-ganil-performance]] LG20-8/14使用 `p(Ei)=1.9+4.4√(100keV/Ei) mm FWHM` 的one-dimensional position模板；Ei是first interaction的deposit energy，不能换成full γ energy。[[crespi-2023-agata-tracking-performance]] C23-4/5/15也区分nominal simulation smear、algorithm调参和真正event uncertainty。以下是用该公式作**声明模板**的两组能量例题，不核准其测量范围之外的外推，也不重拟合GANIL数据。
+
+设known vector、固定geometry、小角度Gaussian position error、Gaussian intrinsic comparator，conditional σE(Ei)才有定义。混合样本的variance为
+
+$$\mathrm{Var}(E)=\sigma_B^2+\frac{k^2}{R^2[2\sqrt{2\ln2}]^2}\langle p(E_i)^2\rangle,$$
+
+当各组mean相同时成立。用 `⟨p⟩²` 替换 `⟨p²⟩` 会丢掉 `Var(p)`；不同mean时还要加between-group variance。总体profile是Gaussian mixture，通常不再是单Gaussian，不能把总σ乘2.355当成实际half-height FWHM。
+
+[day13_heterogeneous_response.py](../../system/scripts/day13_heterogeneous_response.py)自设E0=1000keV、β=.3、θ90°、R150mm、correctedGaussian comparator2.6keV；first-IP deposits50/1000keV的weights为.2/.8，模板p为8.12254/3.29140mm。结果：
+
+| 量 | 值 (keV) | 定义 |
+|---|---:|---|
+| mixture half-height FWHM | 7.484993 | 直接由归一化mixture的half-height求根。 |
+| same-variance Gaussian FWHM | 9.706038 | mixtureσ乘Gaussian factor，仅是等variance comparator。 |
+| 先平均p再平方所得Gaussian宽度 | 8.903350 | 低估variance的代入，不是mixture实际FWHM。 |
+
+以实际half-height W为中心门half-width，mixture接受.932989，而相同W的纯Gaussian接受.981468。就算所有conditional kernels都Gaussian，平均响应仍不足以给完整gate fraction。
+
+当true σi已知、各组确有同mean，inverse-variance centroid精度可改善；本例每trial1000events、20000trials的ordinary/weighted理论σ为.130342/.103888keV，MC为.129925/.104137。若某组存在offset或σi估错，这个共享mean/knownvariance前提便失败，权重本身不能验证calibration。C23-15的实际tracking改进仍是作者未证实建议，不因toycentroid成功升格。
+
+积分variance/归一化误差 `<3×10⁻16`，equal-width Gaussian极限与conditionalcentroid MC检查通过。未含actual first-hit energy distribution、depth/orientation dependence、PSA–energy/velocity covariance、natural Lorentz tails或真实selection；实际widthfit还需窗口/background/line identity，不能据一个reportedGaussianwidth唯一反推所有position response。

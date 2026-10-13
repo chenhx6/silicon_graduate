@@ -1,0 +1,30 @@
+{
+  "branch": "main",
+  "subject": "Extend DAY13 vector and detector-frame consistency checks",
+  "scope": "active checkpoint; no new course credit or research closeout",
+  "files": [
+    "knowledge/methods/doppler-correction.md",
+    "knowledge/methods/tracking-array.md",
+    "knowledge/sources/tunl-2017-12c-level-widths.md",
+    "outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity.md",
+    "outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity-run-01/run.json",
+    "outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity-run-01/vector-identifiability-recall.md",
+    "outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity-run-01/vector-jacobian-recall.md",
+    "outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity-run-01/heterogeneous-response-recall.md",
+    "outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity-run-01/tracking-frame-order-recall.md",
+    "outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity-run-01/vector-identifiability-exercise.json",
+    "outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity-run-01/vector-position-jacobian-exercise.json",
+    "outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity-run-01/heterogeneous-response-exercise.json",
+    "outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity-run-01/tracking-frame-order-exercise.json",
+    "outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity-run-01/research-checkpoint-reopened-007.json",
+    "outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity-run-01/reopened-checkpoint-audit-004.json",
+    "system/scripts/day13_vector_identifiability.py",
+    "system/scripts/day13_vector_position_jacobian.py",
+    "system/scripts/day13_heterogeneous_response.py",
+    "system/scripts/day13_tracking_frame_order.py",
+    "system/handoff.md",
+    "system/log.md",
+    "outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity-run-01/reopened-publication-manifest-004.json"
+  ],
+  "excluded": "legacy Day6–9/daemon/log, raw/PLAN/credentials, clock runtime and tmp"
+}

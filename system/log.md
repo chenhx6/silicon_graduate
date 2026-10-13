@@ -1641,3 +1641,9 @@ Following the user question about the missing Day8 prompt, the formal Day8 card 
 - 新增two-distance、gated conditional likelihood与joint event-mixing练习；解析/finite-difference/limits/积分/MC通过，56items/22pages canonical writeback通过。
 - 0errors/110warnings、report/card/protected/path/diff通过，checkpoint发布后仍active，原15:00截止不变。课程next14/count13不重计，Day14partial/无Day15。
 - legacy Day6–9/daemon/log修改排除；下一route partial vector和heterogeneous response，不把更窄peak或same-event replay当独立标定。
+
+## [2026-10-14T02:26:50.727152+08:00] learning | DAY13 vector and frame consistency checkpoint
+
+- global mirror direction、Cartesian raw-input covariance、heterogeneous IP mixture、tracking lab frame vs emitter correction四个exercise通过finite-difference/MC/守恒/limits；canonical writeback60items/22pages完成。
+- local full rank不排global多解；coordinate-origin不等physicaltarget shift；平均position不等平均variance；总correctedenergy不能验证prescaled Compton FOM。全部限定为声明的L2 fixture，不指控actualsource或推absoluteB。
+- lint0errors/110warnings、boundary/report/card/protected/diff通过；milestone仍next14/count13，研究active至原15:00。继承Day6–9/daemon/log、raw/PLAN/凭据未纳入stage。下一route到达时间/速度/energy关系。

@@ -1,0 +1,122 @@
+{
+  "at": "2026-10-14T02:26:50.727152+08:00",
+  "status": "research-active-checkpoint",
+  "writeback": {
+    "valid": true,
+    "mode": "updated",
+    "knowledge_paths": [
+      "knowledge/methods/doppler-correction.md",
+      "knowledge/sources/mavela-2019-32s-quadrupole-moment-doppler-correction-thesis.md",
+      "knowledge/sources/klemme-1999-lifetimes-134nd-neighbors.md",
+      "knowledge/sources/herzan-2015-193bi-spectroscopy.md",
+      "knowledge/methods/level-scheme-reconstruction.md",
+      "knowledge/projects/a130-thesis-evidence-matrix.md",
+      "knowledge/questions.md",
+      "knowledge/index.md",
+      "knowledge/sources/vandebrouck-2016-vamos-dual-position-mwpc.md",
+      "knowledge/sources/crespi-2013-agata-high-energy-doppler-response.md",
+      "knowledge/methods/tracking-array.md",
+      "knowledge/sources/aladili-2009-agata-doppler-simulation.md",
+      "knowledge/research-notes/doppler-forward-inverse-convention-check.md",
+      "knowledge/sources/akkoyun-2012-agata-instrument-response.md",
+      "knowledge/concepts/lorentz-boost-correction.md",
+      "knowledge/sources/longfellow-2026-gretina-energy-ordering-polarization.md",
+      "knowledge/sources/senyigit-2014-agata-neutron-rejection.md",
+      "knowledge/methods/gamma-gamma-coincidence.md",
+      "knowledge/sources/tunl-2017-12c-level-widths.md",
+      "knowledge/sources/soderstrom-2008-agata-position-design.md",
+      "knowledge/sources/crespi-2023-agata-tracking-performance.md",
+      "knowledge/sources/ljungvall-2020-agata-ganil-performance.md"
+    ],
+    "changed_paths": [
+      "knowledge/concepts/lorentz-boost-correction.md",
+      "knowledge/index.md",
+      "knowledge/methods/doppler-correction.md",
+      "knowledge/methods/gamma-gamma-coincidence.md",
+      "knowledge/methods/level-scheme-reconstruction.md",
+      "knowledge/methods/tracking-array.md",
+      "knowledge/questions.md",
+      "knowledge/research-notes/doppler-forward-inverse-convention-check.md",
+      "knowledge/sources/akkoyun-2012-agata-instrument-response.md",
+      "knowledge/sources/aladili-2009-agata-doppler-simulation.md",
+      "knowledge/sources/crespi-2013-agata-high-energy-doppler-response.md",
+      "knowledge/sources/crespi-2023-agata-tracking-performance.md",
+      "knowledge/sources/ljungvall-2020-agata-ganil-performance.md",
+      "knowledge/sources/senyigit-2014-agata-neutron-rejection.md",
+      "knowledge/sources/soderstrom-2008-agata-position-design.md",
+      "knowledge/sources/tunl-2017-12c-level-widths.md",
+      "knowledge/sources/vandebrouck-2016-vamos-dual-position-mwpc.md"
+    ],
+    "change_check": "run-snapshot",
+    "error": null
+  },
+  "report": {
+    "valid": true,
+    "missing_headings": []
+  },
+  "coverage": {
+    "valid": true,
+    "completed_day_indices": [
+      13
+    ],
+    "partial_day_indices": [
+      14
+    ],
+    "curriculum_cards_completed": 1,
+    "next_day_index": 14,
+    "error": null
+  },
+  "protected": {
+    "PLAN.md": true,
+    "raw/zotero/wiki-inbox.bib": true
+  },
+  "lint_counts": {
+    "warning": 110,
+    "info": 1638
+  },
+  "analyses": {
+    "vector-identifiability-exercise.json": {
+      "exact_two_projection_and_unit_constraints_passed": true,
+      "both_local_Jacobians_rank2": true,
+      "all_coplanar_directions_mirror_symmetry_passed": true,
+      "max_coplanar_energy_difference_keV": 2.2737367544323206e-13,
+      "max_direction_Jacobian_finite_difference_error": 8.794807770939883e-09,
+      "noncoplanar_recovery_passed": true,
+      "static_limit_passed": true,
+      "passed": true
+    },
+    "vector-position-jacobian-exercise.json": {
+      "finite_difference_max_absolute_error": 1.2337691259745043e-06,
+      "scalar_longitudinal_derivative_match": true,
+      "radial_position_derivative_zero": true,
+      "common_coordinate_translation_and_rotation_invariant": true,
+      "physical_target_shift_distinguished": true,
+      "static_limit_regular": true,
+      "MC_sigma_max_relative_difference": 0.0009541949280111872,
+      "passed": true
+    },
+    "heterogeneous-response-exercise.json": {
+      "mixture_normalization_error": 2.220446049250313e-16,
+      "mixture_variance_integral_relative_error": 2.0911813345605371e-16,
+      "variance_RMS_position_identity_passed": true,
+      "conditional_centroid_MC_passed": true,
+      "equal_width_Gaussian_limit_passed": true,
+      "passed": true
+    },
+    "tracking-frame-order-exercise.json": {
+      "free_electron_mass_shell_passed": true,
+      "calibrated_lab_Compton_relation_passed": true,
+      "noncommuting_prescaling_counterexample_passed": true,
+      "complete_boost_conserves_four_momentum": true,
+      "max_full_invariant_residual_keV2": 1.1641532182693481e-10,
+      "static_order_limit_passed": true,
+      "passed": true
+    }
+  },
+  "course_state_preserved": {
+    "next_day_index": 14,
+    "completed_day_count": 13
+  },
+  "remaining_minutes": 753.1545474666667,
+  "original_deadline": "2026-10-14T15:00:00+08:00"
+}

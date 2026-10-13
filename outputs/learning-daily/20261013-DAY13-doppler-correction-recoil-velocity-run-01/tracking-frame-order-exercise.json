@@ -1,0 +1,63 @@
+{
+  "schema_version": 1,
+  "kind": "exact free-electron scattering/boost fixture; no production tracking replay",
+  "detector_lab_fixture": {
+    "incoming_gamma_keV": 1000.0,
+    "scattering_cos": -0.9,
+    "scattering_angle_deg": 154.15806723683286,
+    "first_deposit_keV": 788.0550920423428,
+    "second_deposit_keV": 211.94490795765714,
+    "correct_lab_Compton_cos": -0.9000000000000004
+  },
+  "cases": [
+    {
+      "emitter_beta": 0.0,
+      "incoming_inverse_Doppler_factor": 1.0,
+      "correct_rest_incoming_gamma_keV": 1000.0,
+      "sum_of_naively_prescaled_deposits_keV": 1000.0,
+      "naive_Compton_cos_using_prescaled_deposits_and_lab_angle": -0.9000000000000004,
+      "naive_cos_is_physical": true,
+      "transformed_initial_electron_energy_keV": 510.99895069,
+      "transformed_initial_electron_pz_keV_per_c": 0.0,
+      "full_scattering_invariant_residual_keV2": 5.820766091346741e-11
+    },
+    {
+      "emitter_beta": 0.07,
+      "incoming_inverse_Doppler_factor": 0.932286907826487,
+      "correct_rest_incoming_gamma_keV": 932.2869078264871,
+      "sum_of_naively_prescaled_deposits_keV": 932.2869078264871,
+      "naive_Compton_cos_using_prescaled_deposits_and_lab_angle": -1.0379992296895146,
+      "naive_cos_is_physical": false,
+      "transformed_initial_electron_energy_keV": 512.2555178939351,
+      "transformed_initial_electron_pz_keV_per_c": -35.85788625257546,
+      "full_scattering_invariant_residual_keV2": 1.1641532182693481e-10
+    },
+    {
+      "emitter_beta": 0.3,
+      "incoming_inverse_Doppler_factor": 0.7337993857053426,
+      "correct_rest_incoming_gamma_keV": 733.7993857053427,
+      "sum_of_naively_prescaled_deposits_keV": 733.7993857053426,
+      "naive_Compton_cos_using_prescaled_deposits_and_lab_angle": -1.5892635467031386,
+      "naive_cos_is_physical": false,
+      "transformed_initial_electron_energy_keV": 535.6724515891382,
+      "transformed_initial_electron_pz_keV_per_c": -160.70173547674148,
+      "full_scattering_invariant_residual_keV2": 0.0
+    }
+  ],
+  "verification": {
+    "free_electron_mass_shell_passed": true,
+    "calibrated_lab_Compton_relation_passed": true,
+    "noncommuting_prescaling_counterexample_passed": true,
+    "complete_boost_conserves_four_momentum": true,
+    "max_full_invariant_residual_keV2": 1.1641532182693481e-10,
+    "static_order_limit_passed": true,
+    "passed": true
+  },
+  "boundaries": [
+    "Electron binding/momentum spread, finite deposit range, detector materials and escape losses are absent.",
+    "The corrected incoming total energy alone can be right while the prescaled Compton classification is wrong.",
+    "Ancillary source/vertex information can enter tracking without changing the detector-frame energy convention.",
+    "No actual source pipeline is accused of prescaling or of a wrong FOM."
+  ],
+  "numpy_version": "2.5.3"
+}

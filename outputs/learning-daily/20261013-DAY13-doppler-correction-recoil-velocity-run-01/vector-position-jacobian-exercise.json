@@ -1,0 +1,233 @@
+{
+  "schema_version": 1,
+  "kind": "synthetic Cartesian input/error exercise; no measured event reconstruction",
+  "input_order": [
+    "E_lab_keV",
+    "beta_x",
+    "beta_y",
+    "beta_z",
+    "vertex_x_mm",
+    "vertex_y_mm",
+    "vertex_z_mm",
+    "first_x_mm",
+    "first_y_mm",
+    "first_z_mm"
+  ],
+  "chosen_covariance": [
+    [
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      2.5e-07,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      2.5e-07,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      4e-06,
+      -0.00035999999999999997,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      -0.00035999999999999997,
+      0.09,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.09,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.09,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      4.494400000000001,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      4.494400000000001,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      4.494400000000001
+    ]
+  ],
+  "geometry": {
+    "photon_theta_deg": 35,
+    "source_firstIP_distance_mm": 235.0
+  },
+  "cases": [
+    {
+      "beta": 0.0,
+      "lab_energy_keV": 1000.0,
+      "corrected_keV": 1000.0,
+      "Jacobian_keV_per_input_unit": [
+        1.0,
+        -573.576436351046,
+        0.0,
+        -819.1520442889919,
+        0.0,
+        0.0,
+        0.0,
+        -0.0,
+        -0.0,
+        -0.0
+      ],
+      "linear_sigma_keV": 1.9406926002681695,
+      "MC_sigma_keV": 1.9402811572361283,
+      "MC_mean_bias_keV": 0.00203013087934778,
+      "MC_sigma_relative_difference": 0.0002120083479394408,
+      "common_origin_uncertainty_added_variance_keV2": 0.0,
+      "wrong_independent_origin_added_variance_keV2": 0.0,
+      "physical_1mm_transverse_target_shift_keV": 0.0
+    },
+    {
+      "beta": 0.07,
+      "lab_energy_keV": 1058.2263720959454,
+      "corrected_keV": 999.9999999999999,
+      "Jacobian_keV_per_input_unit": [
+        0.9449773945997763,
+        -608.4662844035528,
+        0.0,
+        -798.6352222647324,
+        -0.14846743852130567,
+        0.0,
+        0.1039580196313048,
+        0.14846743852130567,
+        -0.0,
+        -0.1039580196313048
+      ],
+      "linear_sigma_keV": 1.897903699493099,
+      "MC_sigma_keV": 1.8966003359309942,
+      "MC_mean_bias_keV": 0.004411073504684282,
+      "MC_sigma_relative_difference": 0.0006867385117869107,
+      "common_origin_uncertainty_added_variance_keV2": 0.0,
+      "wrong_independent_origin_added_variance_keV2": 6.569970029348086,
+      "physical_1mm_transverse_target_shift_keV": -0.14845843318073548
+    },
+    {
+      "beta": 0.3,
+      "lab_energy_keV": 1264.744651434881,
+      "corrected_keV": 999.9999999999999,
+      "Jacobian_keV_per_input_unit": [
+        0.7906734366225449,
+        -760.45488956376,
+        0.0,
+        -756.3718050774495,
+        -0.7952274604796343,
+        0.0,
+        0.5568242624192038,
+        0.7952274604796343,
+        -0.0,
+        -0.5568242624192038
+      ],
+      "linear_sigma_keV": 2.6354470858990964,
+      "MC_sigma_keV": 2.6329323556566897,
+      "MC_mean_bias_keV": 0.025697956169324243,
+      "MC_sigma_relative_difference": 0.0009541949280111872,
+      "common_origin_uncertainty_added_variance_keV2": 0.0,
+      "wrong_independent_origin_added_variance_keV2": 188.48799462391574,
+      "physical_1mm_transverse_target_shift_keV": -0.7951792257009629
+    }
+  ],
+  "verification": {
+    "finite_difference_max_absolute_error": 1.2337691259745043e-06,
+    "scalar_longitudinal_derivative_match": true,
+    "radial_position_derivative_zero": true,
+    "common_coordinate_translation_and_rotation_invariant": true,
+    "physical_target_shift_distinguished": true,
+    "static_limit_regular": true,
+    "MC_sigma_max_relative_difference": 0.0009541949280111872,
+    "passed": true
+  },
+  "boundaries": [
+    "Coordinate frame changes cancel only when represented consistently for all inputs.",
+    "Physical relative target/detector movements are different and usually do not cancel.",
+    "If theta is derived from beta and positions, do not propagate its same errors again independently.",
+    "All covariance values here are self-chosen; actual particle/PSA shared uncertainty is absent."
+  ],
+  "numpy_version": "2.5.3"
+}

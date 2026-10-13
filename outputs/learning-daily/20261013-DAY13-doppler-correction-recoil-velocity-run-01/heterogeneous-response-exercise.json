@@ -1,0 +1,87 @@
+{
+  "schema_version": 1,
+  "kind": "synthetic conditional energy-dependent position-response mixture",
+  "parameters": {
+    "rest_gamma_keV": 1000.0,
+    "beta": 0.3,
+    "theta_deg": 90.0,
+    "firstIP_distance_mm": 150.0,
+    "baseline_corrected_Gaussian_FWHM_keV": 2.6,
+    "hit_deposit_energies_keV": [
+      50.0,
+      1000.0
+    ],
+    "group_fractions": [
+      0.2,
+      0.8
+    ],
+    "angular_sensitivity_keV_per_rad": 300.0
+  },
+  "position_template_FWHM_mm": [
+    8.122539674441619,
+    3.291402170474087
+  ],
+  "conditional_energy_FWHMs_keV": [
+    16.451826739043682,
+    7.077662961119731
+  ],
+  "position_mean_FWHM_mm": 4.257629671267593,
+  "position_rms_FWHM_mm": 4.675659605961159,
+  "mixture_halfheight_FWHM_keV": 7.4849933212290845,
+  "mixture_sigma_keV": 4.121774775848876,
+  "same_variance_Gaussian_FWHM_keV": 9.706037863271881,
+  "wrong_mean_position_substitution_FWHM_keV": 8.903350025166526,
+  "finite_gates": [
+    {
+      "half_width_keV": 3.7424966606145422,
+      "mixture_fraction": 0.711109091698354,
+      "same_halfheight_FWHM_Gaussian_fraction": 0.760968108550488,
+      "same_variance_Gaussian_fraction": 0.6361121856854525
+    },
+    {
+      "half_width_keV": 7.4849933212290845,
+      "mixture_fraction": 0.9329888166167593,
+      "same_halfheight_FWHM_Gaussian_fraction": 0.981468322248801,
+      "same_variance_Gaussian_fraction": 0.9306240574291187
+    },
+    {
+      "half_width_keV": 14.969986642458169,
+      "mixture_fraction": 0.993572342651313,
+      "same_halfheight_FWHM_Gaussian_fraction": 0.9999975184539827,
+      "same_variance_Gaussian_fraction": 0.9997186877007257
+    }
+  ],
+  "known_per_event_variance_centroid": {
+    "counts_per_trial": 1000,
+    "trials": 20000,
+    "ordinary_sigma_analytic_keV": 0.1303419629391243,
+    "ordinary_sigma_MC_keV": 0.12992535904068114,
+    "weighted_sigma_analytic_keV": 0.10388801551428084,
+    "weighted_sigma_MC_keV": 0.10413697243898656,
+    "precision_gain_sigma_ratio": 1.254639067787439,
+    "boundary": "conditional on true variances and a common group centroid, not actual tracking performance"
+  },
+  "different_group_centroid_counterexample": {
+    "chosen_means_keV": [
+      1.0,
+      0.0
+    ],
+    "ordinary_shared_mean_bias_keV": 0.2,
+    "weighted_shared_mean_bias_keV": 0.044222988728083945
+  },
+  "verification": {
+    "mixture_normalization_error": 2.220446049250313e-16,
+    "mixture_variance_integral_relative_error": 2.0911813345605371e-16,
+    "variance_RMS_position_identity_passed": true,
+    "conditional_centroid_MC_passed": true,
+    "equal_width_Gaussian_limit_passed": true,
+    "passed": true
+  },
+  "boundaries": [
+    "No actual source deposit spectrum, orientation/depth response or covariance supplied.",
+    "LG20 response law is a template in this fixture, not a new measurement or unconditional extrapolation.",
+    "Physical natural Lorentz tails are absent; all conditional moments here are finite Gaussian.",
+    "A Gaussian-fit linewidth depends on the fit definition/window and need not equal the mixture half-height FWHM."
+  ],
+  "numpy_version": "2.5.3"
+}
