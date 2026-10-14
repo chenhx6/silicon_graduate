@@ -287,6 +287,42 @@ DirectRef8明确18O1938.2(2)短τprinted26.5(29)fs、1981.93(9)长τ2.80(7)ps；
 
 `limits`：总谱窄峰、shared gate、energy closure、relative Iγ与模型曲线的结构推断。A≈130 chirality/wobbling/signature/configuration解释排序不变，未获得新绝对B矩阵。
 
+
+### 20O 两次独立测量：primary 与 supplement 审计
+
+持续路线截至2026-10-14 07:48 Shanghai仍active，不计新卡。来源前primed recall见run-dir `oxygen-final-source-before-recall.md`；两primary七页全文及2023四页SI已经读过，Fig.3(old)/SI Fig.5的τ–Eγ面和表注视觉核验。Raw保留未填充，publicURL/version与三份PDF哈希均写入source；SI自公开authorarchive读取，不执行source。
+
+| 层级 | 本段核实内容 | Canonical locator |
+|---|---|---|
+| 实验/分析报告 | 2020 totalτ150(+80/−30)fs、E2394.6±1keV、branch79(5)%、partialτ190fs；16C是E条件结果。 | [[ciemala-2020-c16-o20-lifetimes]] CI20-3/5/6/8 |
+| 实验/分析报告 | 2023 totalτ70(10)fs/90%70(14)、3+54(9)/90%54(12)；质子给state-entry速度/Ex，SI新1156feeder BR28%。 | [[zanon-2023-o20-high-precision]] ZA23-1/2/3/4/5 |
+| 作者解释 | 差异原因未完全理解，initialvelocitymodel或unobservedsidefeeding候选；作者“cancelled”强措辞不视为本任务证明。 | ZA23-7/8 |
+| 模型输出 | NN+3N/VS-IMSRG/USDB强度/τ是模型；3+分量用USDBδ.13/.019，未知experimentalδ。 | CI20-9/10; ZA23-6/12/13 |
+| 本任务推断 | 各velocitystage、Ex迁移、response/stopping、τ–Eγ需共同验证；能量最佳值差的影响只是待检验候选。 | [[doppler-correction]]“20O 两次独立寿命测量的速度与馈入对照”; [[doppler-velocity-validation-contract]]同例 |
+
+反证/必要观测已在canonical表逐项列明：gateleakage上界与1156taggedγ、state-conditioned entry/exit分布和Σ、independentstopping/targetthickness、held-out角度/能量以及实际τ–Eγ数值面。19Olongline的extendedχ²valley、16C的energycondition与未知3+δ均反驳“任一Dopplerfit都给精确τ或纯实验B”的过强结论。2019/2020同data互依赖，2023是独立采集；装置原理/外部stopping库共享不等已经知道数值crosscovariance。
+
+设计练习：两入口模型 `f=P3×.28×A3/(P2×A2+P3×.28×A3)`，等population/acceptance仅得f=.21875，meanproperwaiting约81.81fs；不是reportedf或fittedτ。70+54f的simplecascade即使f=1仅到124fs，显示该单支路不能单凭BR.28就断言造成旧150fs；不是排除真实2020全部sidefeeding。已写回方法页，后续将计算gate迁移/线形/统计辨识性。
+
+Long20Ocontrol的Au-loss correction与data/simE/FWHM为具体response检查；其vectorconvention不自动覆盖每个shortline。SI的Neymanχ²、≥10eventsrebin及jointΔχ²2.3/4.6完整保留，不假设精确Gaussiancoverage。无raw事件/χ²grid/生产模板，L4仍not-ready，不pool或给差异的精准σ。
+
+下一高信息route已做primedsource-before recall：Ciemała方法篇DOI10.1140/epja/s10050-021-00451-6、公开arXiv2012.05180v1；本段尚未读取其body，不预写方法新结论。
+
+
+### 方法正式版本、feeding/Ex设计与数据入口续核
+
+沿用phys-model处理有界模型，source前回忆在`deep-inelastic-method-source-before-recall.md`，version控制回忆在`cm21-version-control-recall.md`，模型设计前回忆在`entry-gate-feeding-design-recall.md`。[[ciemala-2021-deep-inelastic-lifetime-method]]公开v1与publisherfinal各17页读完，identity/hashes/版本已隔离。
+
+新的直接反证：v1 p.7 Eq1 lab分子标签冲突，在publisherp.6已由consistent measuredEγ/correctedEγ0及乘D消除；当前arXiv仍旧hash。正式版aftertargetvelocity含DC-loss/path和Z-dependentTfine-tuning；fulltarget/yellow与first10layers/green也替代v1midtarget/green。不能说所有版本都有公式错误或因v1label判生产τ错误。精确90°γexit/γem仍有transverse项，与finiteangle应共同考虑，illustrative四向量/零极限检查通过。
+
+Publisher pp.12–14还明确totalerrors的statistical/stopping/background/ionvelocitysystematic贡献及80%CL；v1叫1σ。Publisher称cumulativelifetime含可能feeding、以未见populatingγ解释其cases贡献可忽略。逐versionconfidence/负证据需要保留；2023有新1156feeder不自动给2017reaction的布居或f。Canonical方法/synthesis已经修订，sourceauthorinterpretation与任务判断分开。
+
+Gate/feeding数值设计采用自设ExGaussianσ、P3/P2、gate、properβhistory与response，无真实events/Exresolution/Austopping。P3/P2=10时σ.25/.5/.75MeV给f.000314/.180708/.466922；σ.5下gatecenter−.1/0/+.1给.124381/.180708/.255055。f=.5、两步70+54fs条件模型的prephoton mean97fs，错设no-feeding fixedE fit96.71fs，profileE fit94.05fs/E+.768keV，KL.009687/photon；其它f表与公式同步写 [[doppler-correction]]。这是expectedshape projection而非实际χ²/CL；600k独立MC、解析survival/equalτ、quad128/256与no-loss/f0验证通过。
+
+DataCite核实e775s DOI与2020collection/2025embargo结束/CCBYNC metadata；印刷URI格式异常保留，registryAu20mg/cm²/intensity2e5为designfields，不能替main24.4/4e5。PubliclandingHTTPS ConnectionError、HTTP ConnectTimeout，未读取events清单；失败来自网络，未声称权限拒绝。CM21final的articleCCBY4与AGATAdataownership亦分开。Actualevent/code/χ²/template/Σ仍缺，L4refit not-ready。
+
+原窗口研究仍active，本段source/method/practice完成不触发新学分或收束；下一候选为有条件计数/fitstatistic与RF/TOF alias、TKEL反演closure，仍限DAY13。
+
 ## Durable knowledge delta
 
 原已发布段落的canonical落点为八个 `knowledge/` 页面；持续段落新增source/tracking方法映射于同一block：Doppler诊断/推导、level-scheme方法、三份source、A≈130 evidence contract、开放问题locator及index。`outputs/`的JSON/回忆/评分/候选池只作执行与验收记录，不能取代这些证据页。新科学claims仍为unreviewed/needs_review；未升级为human-reviewed。
@@ -2457,6 +2493,624 @@ DirectRef8明确18O1938.2(2)短τprinted26.5(29)fs、1981.93(9)长τ2.80(7)ps；
           "locator": "ZL19-10"
         }
       ]
+    },
+    {
+      "knowledge": "knowledge/sources/ciemala-2020-c16-o20-lifetimes.md",
+      "anchor": "Summary",
+      "summary": "公开2020primary的total/partialτ、jointenergy与16C条件结果；初/发射/末速度和同2017lineage保留。",
+      "sources": [
+        {
+          "path": "knowledge/sources/ciemala-2020-c16-o20-lifetimes.md",
+          "locator": "CI20-1"
+        },
+        {
+          "path": "knowledge/sources/ciemala-2020-c16-o20-lifetimes.md",
+          "locator": "CI20-2"
+        },
+        {
+          "path": "knowledge/sources/ciemala-2020-c16-o20-lifetimes.md",
+          "locator": "CI20-3"
+        },
+        {
+          "path": "knowledge/sources/ciemala-2020-c16-o20-lifetimes.md",
+          "locator": "CI20-5"
+        },
+        {
+          "path": "knowledge/sources/ciemala-2020-c16-o20-lifetimes.md",
+          "locator": "CI20-6"
+        },
+        {
+          "path": "knowledge/sources/ciemala-2020-c16-o20-lifetimes.md",
+          "locator": "CI20-7"
+        },
+        {
+          "path": "knowledge/sources/ciemala-2020-c16-o20-lifetimes.md",
+          "locator": "CI20-8"
+        },
+        {
+          "path": "knowledge/sources/ciemala-2020-c16-o20-lifetimes.md",
+          "locator": "CI20-9"
+        },
+        {
+          "path": "knowledge/sources/ciemala-2020-c16-o20-lifetimes.md",
+          "locator": "CI20-10"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/sources/zanon-2023-o20-high-precision.md",
+      "anchor": "Summary",
+      "summary": "独立2023实验main/SI、particle入口/Exfeeding、jointCL与unknown3+δ的strength边界。",
+      "sources": [
+        {
+          "path": "knowledge/sources/zanon-2023-o20-high-precision.md",
+          "locator": "ZA23-1"
+        },
+        {
+          "path": "knowledge/sources/zanon-2023-o20-high-precision.md",
+          "locator": "ZA23-2"
+        },
+        {
+          "path": "knowledge/sources/zanon-2023-o20-high-precision.md",
+          "locator": "ZA23-3"
+        },
+        {
+          "path": "knowledge/sources/zanon-2023-o20-high-precision.md",
+          "locator": "ZA23-4"
+        },
+        {
+          "path": "knowledge/sources/zanon-2023-o20-high-precision.md",
+          "locator": "ZA23-5"
+        },
+        {
+          "path": "knowledge/sources/zanon-2023-o20-high-precision.md",
+          "locator": "ZA23-6"
+        },
+        {
+          "path": "knowledge/sources/zanon-2023-o20-high-precision.md",
+          "locator": "ZA23-7"
+        },
+        {
+          "path": "knowledge/sources/zanon-2023-o20-high-precision.md",
+          "locator": "ZA23-8"
+        },
+        {
+          "path": "knowledge/sources/zanon-2023-o20-high-precision.md",
+          "locator": "ZA23-9"
+        },
+        {
+          "path": "knowledge/sources/zanon-2023-o20-high-precision.md",
+          "locator": "ZA23-10"
+        },
+        {
+          "path": "knowledge/sources/zanon-2023-o20-high-precision.md",
+          "locator": "ZA23-11"
+        },
+        {
+          "path": "knowledge/sources/zanon-2023-o20-high-precision.md",
+          "locator": "ZA23-12"
+        },
+        {
+          "path": "knowledge/sources/zanon-2023-o20-high-precision.md",
+          "locator": "ZA23-14"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/methods/doppler-correction.md",
+      "anchor": "20O 两次独立寿命测量的速度与馈入对照",
+      "summary": "150fs与70fs的具体竞争解释/必要观测/反证，不pool或归因；total/partial与二维CL分开。",
+      "sources": [
+        {
+          "path": "knowledge/sources/ciemala-2020-c16-o20-lifetimes.md",
+          "locator": "CI20-2"
+        },
+        {
+          "path": "knowledge/sources/ciemala-2020-c16-o20-lifetimes.md",
+          "locator": "CI20-3"
+        },
+        {
+          "path": "knowledge/sources/ciemala-2020-c16-o20-lifetimes.md",
+          "locator": "CI20-5"
+        },
+        {
+          "path": "knowledge/sources/ciemala-2020-c16-o20-lifetimes.md",
+          "locator": "CI20-6"
+        },
+        {
+          "path": "knowledge/sources/ciemala-2020-c16-o20-lifetimes.md",
+          "locator": "CI20-7"
+        },
+        {
+          "path": "knowledge/sources/zanon-2023-o20-high-precision.md",
+          "locator": "ZA23-2"
+        },
+        {
+          "path": "knowledge/sources/zanon-2023-o20-high-precision.md",
+          "locator": "ZA23-3"
+        },
+        {
+          "path": "knowledge/sources/zanon-2023-o20-high-precision.md",
+          "locator": "ZA23-5"
+        },
+        {
+          "path": "knowledge/sources/zanon-2023-o20-high-precision.md",
+          "locator": "ZA23-7"
+        },
+        {
+          "path": "knowledge/sources/zanon-2023-o20-high-precision.md",
+          "locator": "ZA23-9"
+        },
+        {
+          "path": "knowledge/sources/zanon-2023-o20-high-precision.md",
+          "locator": "ZA23-10"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/methods/doppler-correction.md",
+      "anchor": "Feeding branch 与目标样本 fraction",
+      "summary": "任务两入口公式/meanbound：branch.28不等f，70+54f非真实fittedτ，不排除旧实验全部feeding。",
+      "sources": [
+        {
+          "path": "knowledge/sources/zanon-2023-o20-high-precision.md",
+          "locator": "ZA23-4"
+        },
+        {
+          "path": "knowledge/sources/zanon-2023-o20-high-precision.md",
+          "locator": "ZA23-5"
+        },
+        {
+          "path": "knowledge/sources/zanon-2023-o20-high-precision.md",
+          "locator": "ZA23-3"
+        },
+        {
+          "path": "knowledge/sources/ciemala-2020-c16-o20-lifetimes.md",
+          "locator": "CI20-6"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/methods/doppler-correction.md",
+      "anchor": "寿命到strength的条件链",
+      "summary": "τ/branch/δ与sharedcovariance、3+USDBδ模型输入需随B比较保留。",
+      "sources": [
+        {
+          "path": "knowledge/sources/zanon-2023-o20-high-precision.md",
+          "locator": "ZA23-6"
+        },
+        {
+          "path": "knowledge/sources/zanon-2023-o20-high-precision.md",
+          "locator": "ZA23-11"
+        },
+        {
+          "path": "knowledge/sources/zanon-2023-o20-high-precision.md",
+          "locator": "ZA23-12"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/synthesis/doppler-velocity-validation-contract.md",
+      "anchor": "20O 独立实验对照的验证路线",
+      "summary": "stage/gate/response/jointprofile的可反驳验证设计和L4缺口，能量差解释仍taskhypothesis。",
+      "sources": [
+        {
+          "path": "knowledge/sources/ciemala-2020-c16-o20-lifetimes.md",
+          "locator": "CI20-3"
+        },
+        {
+          "path": "knowledge/sources/ciemala-2020-c16-o20-lifetimes.md",
+          "locator": "CI20-6"
+        },
+        {
+          "path": "knowledge/sources/zanon-2023-o20-high-precision.md",
+          "locator": "ZA23-3"
+        },
+        {
+          "path": "knowledge/sources/zanon-2023-o20-high-precision.md",
+          "locator": "ZA23-5"
+        },
+        {
+          "path": "knowledge/sources/zanon-2023-o20-high-precision.md",
+          "locator": "ZA23-7"
+        },
+        {
+          "path": "knowledge/sources/zanon-2023-o20-high-precision.md",
+          "locator": "ZA23-9"
+        },
+        {
+          "path": "knowledge/sources/zanon-2023-o20-high-precision.md",
+          "locator": "ZA23-10"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/index.md",
+      "anchor": "ciemala-2020-c16-o20-lifetimes",
+      "summary": "两primary入口导航及独立性/模型依赖边界。",
+      "sources": [
+        {
+          "path": "knowledge/sources/ciemala-2020-c16-o20-lifetimes.md",
+          "locator": "CI20-6"
+        },
+        {
+          "path": "knowledge/sources/ciemala-2020-c16-o20-lifetimes.md",
+          "locator": "CI20-8"
+        },
+        {
+          "path": "knowledge/sources/zanon-2023-o20-high-precision.md",
+          "locator": "ZA23-3"
+        },
+        {
+          "path": "knowledge/sources/zanon-2023-o20-high-precision.md",
+          "locator": "ZA23-6"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/sources/ciemala-2019-20o-dsam-analysis-status.md",
+      "anchor": "后续独立version",
+      "summary": "2019report与同实验2020final结果分时，独立2023transfer另列，不改2019publishedhistory。",
+      "sources": [
+        {
+          "path": "knowledge/sources/ciemala-2020-c16-o20-lifetimes.md",
+          "locator": "CI20-1"
+        },
+        {
+          "path": "knowledge/sources/ciemala-2020-c16-o20-lifetimes.md",
+          "locator": "CI20-3"
+        },
+        {
+          "path": "knowledge/sources/ciemala-2020-c16-o20-lifetimes.md",
+          "locator": "CI20-6"
+        },
+        {
+          "path": "knowledge/sources/zanon-2023-o20-high-precision.md",
+          "locator": "ZA23-1"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/sources/ziliani-2019-agata-calibration-controls.md",
+      "anchor": "同data的后续结果",
+      "summary": "2019calibrations与2020finalτ相同lineage，无新增独立实验。",
+      "sources": [
+        {
+          "path": "knowledge/sources/ciemala-2020-c16-o20-lifetimes.md",
+          "locator": "CI20-1"
+        },
+        {
+          "path": "knowledge/sources/ciemala-2020-c16-o20-lifetimes.md",
+          "locator": "CI20-5"
+        },
+        {
+          "path": "knowledge/sources/ciemala-2020-c16-o20-lifetimes.md",
+          "locator": "CI20-6"
+        },
+        {
+          "path": "knowledge/sources/ciemala-2020-c16-o20-lifetimes.md",
+          "locator": "CI20-7"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/sources/ciemala-2021-deep-inelastic-lifetime-method.md",
+      "anchor": "Summary",
+      "summary": "两version各17页的method/labels/stages/CL/cumulative与dataownership；publisher消除v1标签冲突，不判执行错。",
+      "sources": [
+        {
+          "path": "knowledge/sources/ciemala-2021-deep-inelastic-lifetime-method.md",
+          "locator": "CM21-4"
+        },
+        {
+          "path": "knowledge/sources/ciemala-2021-deep-inelastic-lifetime-method.md",
+          "locator": "CM21-5"
+        },
+        {
+          "path": "knowledge/sources/ciemala-2021-deep-inelastic-lifetime-method.md",
+          "locator": "CM21-6"
+        },
+        {
+          "path": "knowledge/sources/ciemala-2021-deep-inelastic-lifetime-method.md",
+          "locator": "CM21-7"
+        },
+        {
+          "path": "knowledge/sources/ciemala-2021-deep-inelastic-lifetime-method.md",
+          "locator": "CM21-8"
+        },
+        {
+          "path": "knowledge/sources/ciemala-2021-deep-inelastic-lifetime-method.md",
+          "locator": "CM21-9"
+        },
+        {
+          "path": "knowledge/sources/ciemala-2021-deep-inelastic-lifetime-method.md",
+          "locator": "CM21-10"
+        },
+        {
+          "path": "knowledge/sources/ciemala-2021-deep-inelastic-lifetime-method.md",
+          "locator": "CM21-11"
+        },
+        {
+          "path": "knowledge/sources/ciemala-2021-deep-inelastic-lifetime-method.md",
+          "locator": "CM21-12"
+        },
+        {
+          "path": "knowledge/sources/ciemala-2021-deep-inelastic-lifetime-method.md",
+          "locator": "CM21-13"
+        },
+        {
+          "path": "knowledge/sources/ciemala-2021-deep-inelastic-lifetime-method.md",
+          "locator": "CM21-14"
+        },
+        {
+          "path": "knowledge/sources/ciemala-2021-deep-inelastic-lifetime-method.md",
+          "locator": "CM21-15"
+        },
+        {
+          "path": "knowledge/sources/ciemala-2021-deep-inelastic-lifetime-method.md",
+          "locator": "CM21-16"
+        },
+        {
+          "path": "knowledge/sources/ciemala-2021-deep-inelastic-lifetime-method.md",
+          "locator": "CM21-17"
+        },
+        {
+          "path": "knowledge/sources/ciemala-2021-deep-inelastic-lifetime-method.md",
+          "locator": "CM21-18"
+        },
+        {
+          "path": "knowledge/sources/ciemala-2021-deep-inelastic-lifetime-method.md",
+          "locator": "CM21-19"
+        },
+        {
+          "path": "knowledge/sources/ciemala-2021-deep-inelastic-lifetime-method.md",
+          "locator": "CM21-20"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/methods/doppler-correction.md",
+      "anchor": "TKEL 展开、速度tuning与90°的适用条件",
+      "summary": "TKEL/depth/TOF/longlinetuning与acceptedangle，不把sameanchor当独立velocity检查。",
+      "sources": [
+        {
+          "path": "knowledge/sources/ciemala-2021-deep-inelastic-lifetime-method.md",
+          "locator": "CM21-1"
+        },
+        {
+          "path": "knowledge/sources/ciemala-2021-deep-inelastic-lifetime-method.md",
+          "locator": "CM21-2"
+        },
+        {
+          "path": "knowledge/sources/ciemala-2021-deep-inelastic-lifetime-method.md",
+          "locator": "CM21-3"
+        },
+        {
+          "path": "knowledge/sources/ciemala-2021-deep-inelastic-lifetime-method.md",
+          "locator": "CM21-5"
+        },
+        {
+          "path": "knowledge/sources/ciemala-2021-deep-inelastic-lifetime-method.md",
+          "locator": "CM21-6"
+        },
+        {
+          "path": "knowledge/sources/ciemala-2021-deep-inelastic-lifetime-method.md",
+          "locator": "CM21-7"
+        },
+        {
+          "path": "knowledge/sources/ciemala-2021-deep-inelastic-lifetime-method.md",
+          "locator": "CM21-9"
+        },
+        {
+          "path": "knowledge/sources/ciemala-2021-deep-inelastic-lifetime-method.md",
+          "locator": "CM21-11"
+        },
+        {
+          "path": "knowledge/sources/ciemala-2021-deep-inelastic-lifetime-method.md",
+          "locator": "CM21-15"
+        },
+        {
+          "path": "knowledge/sources/ciemala-2021-deep-inelastic-lifetime-method.md",
+          "locator": "CM21-17"
+        },
+        {
+          "path": "knowledge/sources/ciemala-2021-deep-inelastic-lifetime-method.md",
+          "locator": "CM21-18"
+        },
+        {
+          "path": "knowledge/sources/ciemala-2021-deep-inelastic-lifetime-method.md",
+          "locator": "CM21-19"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/methods/doppler-correction.md",
+      "anchor": "印刷公式与生产执行边界",
+      "summary": "v1/正式版明确version：正式inverse/aftertarget定义一致，源代码仍缺，80%total/cumulative不转成统一1σ。",
+      "sources": [
+        {
+          "path": "knowledge/sources/ciemala-2021-deep-inelastic-lifetime-method.md",
+          "locator": "CM21-4"
+        },
+        {
+          "path": "knowledge/sources/ciemala-2021-deep-inelastic-lifetime-method.md",
+          "locator": "CM21-8"
+        },
+        {
+          "path": "knowledge/sources/ciemala-2021-deep-inelastic-lifetime-method.md",
+          "locator": "CM21-9"
+        },
+        {
+          "path": "knowledge/sources/ciemala-2021-deep-inelastic-lifetime-method.md",
+          "locator": "CM21-14"
+        },
+        {
+          "path": "knowledge/sources/ciemala-2021-deep-inelastic-lifetime-method.md",
+          "locator": "CM21-15"
+        },
+        {
+          "path": "knowledge/sources/ciemala-2021-deep-inelastic-lifetime-method.md",
+          "locator": "CM21-17"
+        },
+        {
+          "path": "knowledge/sources/ciemala-2021-deep-inelastic-lifetime-method.md",
+          "locator": "CM21-18"
+        },
+        {
+          "path": "knowledge/sources/ciemala-2021-deep-inelastic-lifetime-method.md",
+          "locator": "CM21-19"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/methods/doppler-correction.md",
+      "anchor": "90°只是低速一阶的shift控制",
+      "summary": "exactγexit/γem/transverse与finiteangle边界；自设scalar/fourvector counterfactual数值已核。",
+      "sources": [
+        {
+          "path": "knowledge/sources/ciemala-2021-deep-inelastic-lifetime-method.md",
+          "locator": "CM21-12"
+        },
+        {
+          "path": "knowledge/sources/ciemala-2021-deep-inelastic-lifetime-method.md",
+          "locator": "CM21-14"
+        },
+        {
+          "path": "knowledge/sources/ciemala-2021-deep-inelastic-lifetime-method.md",
+          "locator": "CM21-15"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/research-notes/doppler-forward-inverse-convention-check.md",
+      "anchor": "新的文档case",
+      "summary": "保留v1label而用publisher定义反证正式文档错误候选；不改变AA09未知执行假设。",
+      "sources": [
+        {
+          "path": "knowledge/sources/ciemala-2021-deep-inelastic-lifetime-method.md",
+          "locator": "CM21-4"
+        },
+        {
+          "path": "knowledge/sources/ciemala-2021-deep-inelastic-lifetime-method.md",
+          "locator": "CM21-14"
+        },
+        {
+          "path": "knowledge/sources/ciemala-2021-deep-inelastic-lifetime-method.md",
+          "locator": "CM21-15"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/methods/doppler-correction.md",
+      "anchor": "Ex门泄漏与错设单寿命拟合：受限设计练习",
+      "summary": "自设gate/kernel/feedingdensity/pointangle条件化、wrongmodelτ/E与KL结果；MC/quad/limits通过，非experimentfit。",
+      "sources": [
+        {
+          "path": "knowledge/sources/zanon-2023-o20-high-precision.md",
+          "locator": "ZA23-2"
+        },
+        {
+          "path": "knowledge/sources/zanon-2023-o20-high-precision.md",
+          "locator": "ZA23-3"
+        },
+        {
+          "path": "knowledge/sources/zanon-2023-o20-high-precision.md",
+          "locator": "ZA23-4"
+        },
+        {
+          "path": "knowledge/sources/zanon-2023-o20-high-precision.md",
+          "locator": "ZA23-5"
+        },
+        {
+          "path": "knowledge/sources/zanon-2023-o20-high-precision.md",
+          "locator": "ZA23-7"
+        },
+        {
+          "path": "knowledge/sources/ciemala-2021-deep-inelastic-lifetime-method.md",
+          "locator": "CM21-18"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/synthesis/doppler-velocity-validation-contract.md",
+      "anchor": "方法version、cumulative lifetime 与不重复的校验",
+      "summary": "source定义缺口缩小；逐versionCL、cumulative/feeding negativeevidence与article/dataaccess边界。",
+      "sources": [
+        {
+          "path": "knowledge/sources/ciemala-2021-deep-inelastic-lifetime-method.md",
+          "locator": "CM21-14"
+        },
+        {
+          "path": "knowledge/sources/ciemala-2021-deep-inelastic-lifetime-method.md",
+          "locator": "CM21-15"
+        },
+        {
+          "path": "knowledge/sources/ciemala-2021-deep-inelastic-lifetime-method.md",
+          "locator": "CM21-16"
+        },
+        {
+          "path": "knowledge/sources/ciemala-2021-deep-inelastic-lifetime-method.md",
+          "locator": "CM21-17"
+        },
+        {
+          "path": "knowledge/sources/ciemala-2021-deep-inelastic-lifetime-method.md",
+          "locator": "CM21-18"
+        },
+        {
+          "path": "knowledge/sources/ciemala-2021-deep-inelastic-lifetime-method.md",
+          "locator": "CM21-19"
+        },
+        {
+          "path": "knowledge/sources/ciemala-2021-deep-inelastic-lifetime-method.md",
+          "locator": "CM21-20"
+        },
+        {
+          "path": "knowledge/sources/zanon-2023-o20-high-precision.md",
+          "locator": "ZA23-15"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/sources/zanon-2023-o20-high-precision.md",
+      "anchor": "DataCite正式注册已通过",
+      "summary": "DOI/公共metadata已核，landingHTTPS/HTTPnetwork失败；registrydesignfields与mainactualparams分开。",
+      "sources": [
+        {
+          "path": "knowledge/sources/zanon-2023-o20-high-precision.md",
+          "locator": "ZA23-14"
+        },
+        {
+          "path": "knowledge/sources/zanon-2023-o20-high-precision.md",
+          "locator": "ZA23-15"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/index.md",
+      "anchor": "ciemala-2021-deep-inelastic-lifetime-method",
+      "summary": "methodprimary/version与sensitivity/source权限导航。",
+      "sources": [
+        {
+          "path": "knowledge/sources/ciemala-2021-deep-inelastic-lifetime-method.md",
+          "locator": "CM21-14"
+        },
+        {
+          "path": "knowledge/sources/ciemala-2021-deep-inelastic-lifetime-method.md",
+          "locator": "CM21-15"
+        },
+        {
+          "path": "knowledge/sources/ciemala-2021-deep-inelastic-lifetime-method.md",
+          "locator": "CM21-17"
+        },
+        {
+          "path": "knowledge/sources/ciemala-2021-deep-inelastic-lifetime-method.md",
+          "locator": "CM21-18"
+        },
+        {
+          "path": "knowledge/sources/ciemala-2021-deep-inelastic-lifetime-method.md",
+          "locator": "CM21-20"
+        }
+      ]
     }
   ]
 }
@@ -2476,10 +3130,12 @@ DirectRef8明确18O1938.2(2)短τprinted26.5(29)fs、1981.93(9)长τ2.80(7)ps；
 | L0 | 已读source的身份、locator/原图核验完成；新public source的raw槽位未归档，URL/version/tmp-byte hashes明示；保留文本与执行版边界。 |
 | L1 | source↔method、thesis contract、index反链完成；不同实验/不同emitter的适用条件保留。 |
 | L2 | exact formula/covariance、geometry/gates、convention/decay、speed/calibration、aberration、displaced vertex、neutron cuts、photon recoil、Voigt与momentum stages均为可复算方法练习；未冒充测量。 |
-| L3 | 诊断问题的竞争机制、反证、falsifier、数据包与停止条件完成；真实Mavela执行影响仍partial。 |
+| L3 | 诊断矩阵与20O独立实验/方法version比较已写回；正式CM21反证v1label外推，feeding/τ–E差异原因未裁决，真实Mavela执行影响仍partial。 |
 | L4 | experimental refit `not-ready`：缺事件、production code、ring spectra、response/covariance和feeding；模拟练习不作为新实验L4或absolute-strength研究。 |
 
 ## Verification and continuation
+
+最新活动检查（2026-10-14T08:17:58.740041+08:00，余402.0分钟）：累计writeback107items/30mappedpaths（29owningpages），三新source、publisher/currentarXiv与SI均核identity/hash、raw仍未填充。Entrygate/feedshape的MC/quad/limits/四optimizerstarts及exact90/fourvector checks通过；lint0errors/124warnings（105citationkeys、16rawslots、3parser）。Boundary/report/card/writeback/PLAN-Bib保护/diff通过。DataCite已核、landing网络失败，没有eventaccess声明。研究仍active，不重复课程推进；下一route统计量/RF-TOF/TKELclosure。
 
 最新活动检查（2026-10-14T07:40:42.094171+08:00，剩约439.3分钟）：writeback89items/27mappedpages；ZL19校准与18O短/长寿命control已写回。lint0errors/118warnings（102citationkeys、13未填充rawslots、3reaction-parser）；report/card/writeback/protected/publiccopy/boundary通过。原研究窗口仍active；下一route为Ciemała2020与Zanon2023的独立20O寿命测量、supplement和velocity/feeding/τ–Eγ audit，不新增课程学分。
 

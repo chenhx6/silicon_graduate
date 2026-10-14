@@ -7,7 +7,7 @@ updated: 2026-10-14
 status: ai-draft
 review_status: unreviewed
 reasoning_status: provisional
-evidence_sources: [aladili-2009-agata-doppler-simulation, mavela-2019-32s-quadrupole-moment-doppler-correction-thesis]
+evidence_sources: [aladili-2009-agata-doppler-simulation, mavela-2019-32s-quadrupole-moment-doppler-correction-thesis, ciemala-2021-deep-inelastic-lifetime-method]
 created_from: Day13 autonomous-method-study
 promotion_target: doppler-correction
 tags: [doppler-correction, convention, roundtrip, provisional]
@@ -24,6 +24,10 @@ tags: [doppler-correction, convention, roundtrip, provisional]
 [[aladili-2009-agata-doppler-simulation]] AA09-8：exact式(3.7)与linear式(3.8)、人为γ生成和figurecenter≈1436，与标称1434keV存在约2keV差。[[mavela-2019-32s-quadrupole-moment-doppler-correction-thesis]] DD-20261013-32S-27给exact forward/inverse，但不证明Al-Adili实际pipeline的反演是哪种。问题是：前向生成的近似约定和校正器是否一致？
 
 ## Provisional Reasoning
+
+新的文档case：[[ciemala-2021-deep-inelastic-lifetime-method]] CM21-4，p.7印Eq.(1) `Eγ=Eγ0/[γ(1−βcosθ)]`，紧邻文字定义Eγ0为measuredlabenergy。图页视觉核验一致；若按该标签将lab还原rest，应乘`γ(1−βcosθ)`。本任务仅定位印刷公式/label冲突，不知productioncode实际使用哪式，也未证明它造成任何source寿命偏差。此case和AA09的linear/exact混用候选分开，不把两个不同source问题合成一个已证实pipelineerror。
+
+2026-10-14正式version核验修订：CM21-14/15，publisherp.6明确`Eγ0=Eγ×D`、measuredEγ/correctedEγ0，且明示aftertargetreference；v1的文字标签冲突在正式版消除。当前arXiv无版本URL仍为v1相同hash，引用版本必须明示。CM21“正式文档也错误”的候选已被直接反证；关于v1label的记录保留，但它不支持执行错误或150fs偏差归因。AA09的不同混用候选仍未裁决。
 
 令q=βcosθ，exactforward为`E_lab=E0 sqrt(1−β²)/(1−q)`，linearforward为`E_lab=E0(1+q)`。若linearforward后接exactinverse，
 

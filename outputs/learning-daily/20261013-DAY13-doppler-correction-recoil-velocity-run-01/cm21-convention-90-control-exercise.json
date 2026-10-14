@@ -1,0 +1,54 @@
+{
+  "kind": "synthetic CM21 printed-label and exact90control check; no production replay",
+  "chosen_rest_E_keV": 2396.1,
+  "roundtrip": {
+    "chosen_beta": 0.1,
+    "chosen_lab_theta_deg": 150.0,
+    "D": 1.092076643237061,
+    "forward_lab_keV": 2194.0767755069273,
+    "standard_inverse_keV": 2396.1,
+    "independent_inverse_fourvector_keV": 2396.1,
+    "printed_division_with_lab_label_keV": 2009.0868064016008,
+    "printed_label_residual_keV": -387.0131935983991
+  },
+  "exact_transverse_examples": [
+    {
+      "chosen_emission_beta": 0.105,
+      "chosen_exit_beta": 0.1,
+      "theta_lab_deg": 90,
+      "exact_corrected_residual_keV": -1.2407265338493907,
+      "second_order_residual_keV": -1.2280012499999957
+    },
+    {
+      "chosen_emission_beta": 0.126,
+      "chosen_exit_beta": 0.08,
+      "theta_lab_deg": 90,
+      "exact_corrected_residual_keV": -11.453220088629857,
+      "second_order_residual_keV": -11.352721800000001
+    }
+  ],
+  "velocity_fine_tune_illustration": {
+    "chosen_relative_tune": 0.004,
+    "corrected_delta_keV": 0.860922048304019
+  },
+  "verification": {
+    "fourvector_vs_scalar_passed": true,
+    "same_velocity90zero_passed": true,
+    "zero_beta_rest_lab_match_passed": true,
+    "printed_lab_inverse_fails_roundtrip": true,
+    "all_passed": true
+  },
+  "boundaries": [
+    "Eq1 mismatch refers to read public v1 and stated label, not executed code.",
+    "Parameters are chosen illustrations; neither experiment stopping/energy fit is recreated.",
+    "Point90 removes first-order longitudinal shift, not gamma or finite-angle dependence."
+  ],
+  "published_version_check": {
+    "source": "CM21-14",
+    "measured_label": "E\u03b3",
+    "corrected_label": "E\u03b30",
+    "operator": "multiply D",
+    "roundtrip_passed": true,
+    "v1_label_issue_not_a_published_formula_failure": true
+  }
+}

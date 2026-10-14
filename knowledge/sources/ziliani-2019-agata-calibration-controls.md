@@ -112,6 +112,9 @@ July2017，18O126MeV+Ta4μm（本篇约6mg/cm²，对CO19写6.64mg/cm²，保留
 
 ## Related Knowledge and Project Relations
 
+同data的后续结果 [[ciemala-2020-c16-o20-lifetimes]] CI20-1/5/6/7，不改变本2019report的preliminary状态。[[zanon-2023-o20-high-precision]] 是另一采集；calibrationcontrols与laterfinalτ分开。
+
+
 | Relation type | Target | Specific relation |
 |---|---|---|
 | same-lineage | [[ciemala-2019-20o-dsam-analysis-status]] | 同July2017dataset、mutualreferences/calibration。 |

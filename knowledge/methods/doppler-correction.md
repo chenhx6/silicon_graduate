@@ -858,3 +858,79 @@ ZL19-6的百分比resolution并未全文明示σ/FWHM；ZL19-7的2754.007keV为M
 对各crystal线性energyfit `E=a_k+g_k channel`，同一referenceenergy误差会共同进入多个(a_k,g_k)。若独立centroid统计误差σstat相同、另有commonzero误差σsys，N个等权crystal合并后的简单模型为 `σmean²=σsys²+σstat²/N`，而不是把common项也除N。这是本任务variance分解，不是ZL19报告的实际uncertainty。
 
 自设σsys=.10keV、σstat=.20keV、N31，得到σmean≈.106255keV；若把totalerror当31份完全independent则≈.040161keV。SourceTableI的widthpercent、tabulatedanchorerror或lastfitresidual都不能单独给出这两个输入。需要referenceΣ、channelcentroid/fitcovariance、run-time stability与energy-dependentresponse，并在held-outline/angle上核验transfer；共有RF/energy/calibration不能重复计独立证据。
+
+## 20O 两次独立寿命测量的速度与馈入对照
+
+[[ciemala-2020-c16-o20-lifetimes]] CI20-1/2/3/6 与 [[zanon-2023-o20-high-precision]] ZA23-1/2/3/7 为两次独立采集。前者20O2+2总τ150(+80/−30)fs，后者70(10)fs（作者90%区间70(14)fs）。这是报告数值的张力；2023作者明确说原因未完全理解。不能将旧partialτ190fs与新totalτ70fs直接比较，也不把两个quotedinterval当独立Gaussian误差求精确σ或pooled值。
+
+| 检查项 | 2020：18O+Ta | 2023：19O(d,p)+CD2/Au | 可检验的必要伴随观测 / 反证 |
+|---|---|---|---|
+| 入口速度 | VAMOS末速度/角度经reaction/stopping/depth模型迭代重建；按state条件化。 | 质子能量/角度给反应点速度/Ex，SI各state有不同β分布。 | 比较state-conditioned初/末分布、spectrometer acceptance、particle标定/beamprior及propagatedΣ；不能把测量与重建误差都叫同一βresolution。 |
+| 发射历史 | thickTa中reactiondepth/energy-loss及direct/dissipative混合。 | 薄CD2产生、Au develop DSAM线形。 | 独立stopping输入、thickness/depth与材料变更；同一个τ在多个有效transport条件能否解释线形。 |
+| 馈入 | 本次未取得逐entrygate的完整feedingpacket。 | Ex门选2+2/3+1；SI首次观测1156.0keV3+1→2+2、BR28(1)%。 | Ex迁移矩阵、gate边界扫描与tagged1156coincidence；若gate leakage约束远低于造成偏差所需feeding，削弱该解释。28%本身不等目标samplefeeding。 |
+| τ–Eγ | 最优2394.6±1.0keV/150fs，三角区联合拟合。 | SI谱学2396.1(2)keV、τ/E联合扫描；二维Δχ²2.3/4.6。 | 固定/约束/自由E的profile对照、独立energycalibration及actualχ²grid；不能先把restenergy当无误差再解释τ差。 |
+| 响应/controls | 19Oshort2779线140(+50/−40)fs vs引用92(19)fs；long2371线extendedvalley。 | long20O2+1两target的E/FWHM data/sim对照。 | held-outenergy/angle/state、非Gaussiantails和逐配置response；若不同nuisance都通过longcontrol，该control不能独占cause。 |
+| 独立性 | 与2019CO19/ZL19同July2017谱系；旧图/重放为依赖检查。 | 与MUGAST/AS21为另一data/method链；main/SI非独立实验。 | 两实验独立采集仍可用相同仪器原理、stopping库或nuclear reference；共享数值covariance需manifest证据，不假定0或完全相关。 |
+
+以上矩阵为`our-inference/synthesis`，sourcefacts由CI20-1–8、ZA23-1–10回链。另一个待检验机制是两最佳restenergy差与τ–Eγ相关共同影响寿命；它只是本任务候选，尚未取得原数值面/模板，未证明它解释80fs差。
+
+### Feeding branch 与目标样本 fraction
+
+ZA23-4/5给的是3+1→2+2 branching `b=.28`。若入射布居为P2/P3、2+2-entry门对直接/上态接受率为A2/A3，忽略其它feeding时，所选2+2样本的feedfraction为
+
+`f = P3 b A3 / (P2 A2 + P3 b A3)`。
+
+这是本任务明确的两入口模型，不是source报出的f；真实模型还需γ效率、particle/ion/coincidence条件和其它入口。若P2=P3且A2=A3，f=.21875；改变P3/P2或Ex leakage会改变f，而不改变b。若上态先等54fs再在目标态等70fs，未分辨样本的平均发射等待时间为 `70 + f×54 fs`，是meanhistory而非单指数拟合τ。即使这一模型f=1也只到124fs；它不能单凭28%支路就宣称造成旧150fs。真实DSAM线形对transport/选择与未见上态敏感，不能把此meanbound当对2020实际feeding的排除结论。
+
+### Ex门泄漏与错设单寿命拟合：受限设计练习
+
+[day13_entry_gate_feeding_design.py](../../system/scripts/day13_entry_gate_feeding_design.py)以ZA23-2/3/4/5的问题为动机，**自设**ExGaussianσ、布居比例、gate、transport与Gaussian能量response；不是两次experiment的refit。Ex中心4.071/5.228MeV、branch.28、τ2=.070/τ3=.054ps取source-scale，β.126→.08在自设properT=.4ps线性下降，之后constant；忽略photonrecoil、其它feeding、alignment与真实Au-stopping。
+
+直接等待密度`h2(t)=exp(−t/τ2)/τ2`；两步cascade密度`h32(t)=[exp(−t/τ2)−exp(−t/τ3)]/(τ2−τ3)`，相等τ极限为Erlang2。按入门f混合，精确forward用emissionβ、correction用exitβ，并将isotropicrest-photon的点labangle权重`D_em^−2`纳入条件化。故进入Ex门的f还不严格等每个γ角样本的detectedf；meanwaiting、conditionalenergyshape与错设fitτ是三种量。
+
+自设P3/P2=10、2+entry门4.071±.2MeV时：Exσ=.25/.5/.75MeV对应f=.000314/.180708/.466922。保持σ=.5，gatecenter移−.1/0/+.1MeV给f=.124381/.180708/.255055；这些大σ/布居只是设计反例，不估实际MUGAST漏门。实际gate-falsifier需data测得迁移矩阵，而不能从branch.28直接填f。
+
+| 自设entry f | 真proper等待均值/fs | 无feeding、固定E最佳τ/fs | 无feeding、profileE最佳τ/fs | Profile E−2396.1/keV | 最小每photon mean KL |
+|---|---:|---:|---:|---:|---:|
+| 0.00 | 70.0 | 70.000 | 70.000 | +0.000 | 2.92433e-18 |
+| 0.05 | 72.7 | 72.683 | 72.579 | +0.028 | 3.93359e-05 |
+| 0.20 | 80.8 | 80.713 | 80.108 | +0.157 | 0.000958845 |
+| 0.50 | 97.0 | 96.712 | 94.048 | +0.668 | 0.0096873 |
+| 0.90 | 118.6 | 117.984 | 107.621 | +2.464 | 0.0416219 |
+| 1.00 | 124.0 | 123.300 | 108.370 | +3.498 | 0.0502578 |
+
+Shape fit是三个点角130/150/170°、equal conditional samples的expectedKL投影，无实际histogram/χ²/CL。f=.5时mean97fs、fixedEτ96.71fs、profileEτ94.05fs/E+ .768keV；有可吸收部分但非零残余KL。该具体结果支持把τ/E、feeding和response共同检验，不能据此估旧150fs的cause或给新实验的feedingupperlimit。
+
+Probability/energy归一化最大误差2.3×10⁻16，128/256timequadrature密度差2.6×10⁻15；equalτErlang、cascade survival独立积分、600k独立MC time/importance-energy moments、f0还原τ70fs及零velocityloss下shape失去τ/f信息均通过。误差预算只覆盖这个声明的模型，未验证source transport/Exresolution/实际置信区间。
+
+### 寿命到strength的条件链
+
+ZA23-6/11/12：τ与branches给partialradiative rate，M1/E2混合再需δ。2+2→2+1使用先前测δ−.18(8)，3+1两支δ未知而用USDB .13/.019。若以这些B分量测试模型，必须保留δ输入的模型依赖与共享τ/branch covariance。精确寿命本身不能替代δ、internalconversion/其它decaychannel和独立response；不因TableI列名“experimental”把每个3+分量当纯实验事实。
+
+## TKEL 展开、速度tuning与90°的适用条件
+
+[[ciemala-2021-deep-inelastic-lifetime-method]] CM21-1/2/3/5/6/7/8补出具体链：TOF以102nsRF给v=D/T，PARIS–RF漂移修正、入口DC方向/beamspot门、静止energyanchors/trace重放；校正β先含DC能损，再以knownlong19O1375.80和13C3853.170keV线做.4%/.7%velocitytuning。后两个百分数是校准变化，不是σ/FWHM；同线再符合energy不能计成独立velocityvalidation，需要held-outline/angle和sharedenergy/RFΣ。
+
+初速度展开按100靶层、randomdepth、逐态measuredacceptedangle、TOFσ1ns与TKELΔ2MeV/nmax10递归subtraction；direct19O1471state的knownkinematics末速度对Zieglerstoppingvariation有作者<5%的1σ约束。有效输入更多了，但basisoverlap、normalization/负residual处理、reactiondepthprior与gateconditions仍需closurepacket；“measuredacceptedangle”不能无响应修正外推为full4π布居。
+
+CM21-9/11把sensitivity与Tcross约130fs联系，模型范围约.2–4Tcross；long2371line只有lower-limitvalley、极短3842line强依赖精确energy。该比例不是所有materials/β/response的普适规律。CM21-13的frontsegment/fulltracking只是同data两处理，改变precision而不增加独立experiment。
+
+### 印刷公式与生产执行边界
+
+CM21-4 Eq.(1)印除以D，却把分子定义为measuredlabenergy；标准rest恢复为`E0=E_lab D`，生成为`E_lab=E0/D`，D=`γ(1−βcosθ_lab)`。按印刷标签做roundtrip会得`E0/D²`。这是文档审计，不定位生产代码错误；原paperformula不覆盖、不静默修正，actualfields/templates仍需逐步replay。
+
+**版本修订已核实**：CM21-14/15的publisherp.6写`Eγ0=Eγ×D`，明确measuredEγ/correctedEγ0且定义aftertargetreference。上段冲突只限v1文字标签；正式版使用一致inverse，已经反证“该正式文档也混用lab/rest”的候选。Productioncode/τ本身未因v1label被否定。引用时优先正式定义，v1/currentarXiv的不同版本边界保留。
+
+CM21-8/9的生成发射速度与分析finalvelocityreference应分别保存。Sourcep.12明确correctedline-shape使用aftertargetfinalβ；其它段落的“atdecayvelocity used Dopplercalculation”不能直接证明truthvelocity进入了最终correctedoutput。
+
+CM21-15/19正式版提供更多约束：`v_after=vV+T/[vV² f(θ,φ)]`，材料T按Z从LISE起步并用longγfine-tune，source文字称f正比DCpath；这个T是velocitycorrectionparameter，不能与TOF的时间T当同量。PublisherFig.14全靶sum初分布是黄线、first10layers是绿线，v1的绿线midtarget说明不可沿用到final图。ActualT/f参数、Σ、residualsubtraction和entryfeedingpacket仍未取得。 同式固定T/v时Δv∝1/f，与文字path比例的通常能损monotonicity还需T/f定义和代码核验；不自动将printedf作为真实geometry来外推其它trajectory。
+
+CM21-17/18正式版明确所示controls的totalerrors含stopping/background/ionvelocitysystematics，按80%CL区域描述，并称cumulativelifetime含可能feeding；作者基于未见populatingγ认为所考虑cases贡献可忽略。CI20原2020所报1σ、CM21v1的1σ、CM21final80%、ZA23的joint68/90%各守本版本，不能换成统一Gaussianerror，也不能把后续80%表述无说明地重标2020所有数字。非观测feeding需efficiency/threshold/entrypopulation上界才成为定量反证，2023新branch不自动给2017sample的f。
+
+### 90°只是低速一阶的shift控制
+
+CM21-12的“90°unaffected”在精确式下需要限定。对labθ=90°，`E_lab=E0/γ_em`；使用exitβ校正后 `E_corr/E0=γ_exit/γ_em`，只有emission/exit速度一致才完全归零。不同历史仍留下约 `E0(β_exit²−β_em²)/2` 的transverseresidual。点角处消去一阶longitudinalshift很有价值，±10°角区还需积分角response和covariance；不把它当无速度依赖的绝对energyanchor。
+
+Source强调90°可解τ/E相依是有用设计动机；真正验证应保留exactboost、finite-angle、energycalibration与angle/βcorrelation。该限定不是否定扩大角覆盖，而是规定其可独立约束哪一项。
+
+自设E0=2396.1keV、βem=.105/βexit=.1，exactpoint90corrected residual−1.24073keV（二阶−1.22800）；βem=.126/βexit=.08时−11.45322keV（二阶−11.35272）。这些参数不代表CM21实际transport；展示β²项可与keVenergyprecision同量级。另自设β=.1/θ150°的scalar标准inverse与independentinversefourvector均还原2396.1keV；按v1lablabel做除D回到2009.08681keV，−387.01319keV仅是该文字counterfactual。正式版定义已通过标准roundtrip，不能把此偏差归给source实验。原细节保留于本run的`cm21-convention-90-control-exercise.json`，方程/假设在本页，未成为outputs-only知识。

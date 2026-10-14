@@ -8,18 +8,15 @@ updated: 2026-10-14
 
 ## Active handoff — DAY13 continuous study reopened by user
 
-最新持续checkpoint（2026-10-14 07:40 Asia/Shanghai）：ZL19直接校准、timestamp/energyanchors、1938.2keV短τ/1981.93keV长τ controls及same2017data边界已写回，89items/27mappedpages，lint0errors/118warnings、boundary/report/card/protected通过。原截止仍余439.3分钟；下一route 20O2020 PRC与2023 PRL及SI，两个独立实验150fs/70fs的velocity/feeding/jointenergy解释尚需独立sourcecard和L3对照。run/goal持续active；课程不重复推进。活动发布pointer main / `Add DAY13 calibration and reference-line controls`，exact hash只在receipt。
+最新活动checkpoint（2026-10-14T08:17:58.740041+08:00，余402.0分钟）：同run2026-10-13-day-13-01/session01a13489-64ba-7930-9a2c-291375d95ad0，goal/run仍active，原研究截止2026-10-14T15:00+08不改。Course已next14/count13，保留Day13学分、不重复计卡；Day14仅既有partial，无Day15/正式14。用户要求持续学习/不要中断，checkpoint和局部source完成不能再次提前closeout。
 
-2026-10-13 21:06 Asia/Shanghai，用户要求持续学习Day13、不要中断。仍为run `2026-10-13-day-13-01` / session `01a13489-64ba-7930-9a2c-291375d95ad0`，原硬截止 `2026-10-14T15:00:00+08:00`；回执status恢复running，历史完成/发布保留。课程state已next14/count13，保留已授予的Day13卡学分、不重复计卡、不启动正式Day14或Day15。继续用同一resume command和日报；原17:51全窗口饱和判断收束过早，现在拓宽Day13的事件速度、位置、有限角度、能损/发射历史、重建顺序及门迁移/效率问题。
+本段newsourceCI20(2020primary)、ZA23(2023primary+SI)、CM21(v1/publisher两17页)已经写回knowledge。20Ototal150fs/70fs独立采集，差异原因未裁决；velocityentry/stopping/feeding与jointE/τ矩阵已补。CM21publisher明确correctinverse/aftertarget/DCpath/Tfine-tune，反证v1label冲突外推至正式文档；publisher80%totalerrors、cumulative/feedingnegativeevidence与v1/CI20的1σ各按版本保留。ZA23未知3+δ分量用USDB、branch.28不等samplef。
 
-前一持续checkpoint（2026-10-14 05:57 Asia/Shanghai）：12份public source已读，新增LS23(12页fissionreview)、CO19(10页官方progressreport)。LS23明确98Zr EXOGAM15all/7back vsAGATA5不同角范围、postdegraderU/S及FPdelayed。CO19实际18O+Ta、nonMUGAST；200/320fs是model、jointτ/Eγ还待fit，没有finalmeasuredτ。Ref11 PLB135939查明17C，只metadata、从20Oprimary route排除。
+两个新exercise：selfchosenExgate/feedingexpectedKL（MC600k、quad、Erlang/survival、no-loss/f0、4optimizationstarts）和printedv1/exact90/fourvector checks通过，均非experimentreanalysis。107items/30mappedpaths（29owningpages），lint0errors/124warnings、boundary/report/card/writeback/publichash/protected/diff通过。16reservedrawslots未填充，article/dataownership分开。DataCite核e775s正式DOI/date/license，但publiclandingHTTPSConnectionError/HTTPtimeout，未得文件清单/事件/code/χ²grid/Σ，L4experimentalrefit仍not-ready。
 
-Degrader/properclock/feeding、delay survival/velocityselection、τ/Enormalizedshape-design三exercise通过独立积分/MC/limits；expectedKLmetrics非actualχ²/CL/force证据。Canonical83items/26mappedpages、lint0errors/116warnings（12raw未归档、101citationkeys、3parser）、boundary/report/card/protected/diff通过。实际class/correctionβstage、RF/energy/PID covariance仍readiness boundary，无L4实验fit。
+下一高信息route：fitstatistic/conditionalhistogram与RF/TOF alias、TKELbasisclosure；先source/问题前回忆、locator/反证/自设可复算model，既有已完成toys不重复。研究直到原硬截止、15:00–16:00再manualreconcile已获credit（不用normalfinalizer重复推进state）。Preserve原raw/PLAN/Bib/credentials/reviewflags、legacyDay6–9/daemon/log；explicitstage且log仅任务entry。
 
-原research截止还余约542.1分钟，run/goal仍active；下一route S.Ziliani2019 ActaPhysPolB50p625 DOI10.5506/APhysPolB.50.625的directAGATAcalibration，以及actualemission/exitvelocity/χ²packet。不要重跑已完成的12sources/toys或误开Day15。已发布前checkpoint main / `Add DAY13 particle-assisted recoil and validation contract`；本段activepointer main / `Extend DAY13 degrader histories and lifetime-energy audit`，exacthash/outcome只进runreceipt。
-
-Same-session farmer/clock仍运行；checkpoint001queued未见delivery，不能伪造ack。Milestonealreadycredited next14/count13，Day14只是既有partial；最终只manualreconcile已获学分run，不用会重复推进state的normalfinalizer。
-已有精确Jacobian、rank2反例、Mavela/Klemme/Herzan证据和知识写回均保留。先逐路线source-before recall、直接全文/locator、反证和可复算边界，checkpoint只记进展，不再次提前complete。Farmer保留运行，同session时钟将排队2小时checkpoint与15:00收束；queue成功只算接受，不伪造delivery。原raw/PLAN/凭据、review flags和legacy Day6–9/daemon/log修改仍受保护。
+活动发布pointer main / `Audit DAY13 oxygen lifetimes and published method versions`，exacthash/outcome只在runreceipt。Farmer PID8686、same-sessionclock PID22006保留；checkpoint001queued未observed delivery，不能造ack。Resume `codex resume 01a13489-64ba-7930-9a2c-291375d95ad0 -C /workspace/wiki -s danger-full-access -a never`。Report与run-dir沿用既有文件。
 
 ## Previous active handoff — DAY13 card publication (window reopened)
 

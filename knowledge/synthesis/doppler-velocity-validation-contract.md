@@ -8,7 +8,7 @@ status: ai-draft
 review_status: unreviewed
 scope: doppler-recoil-vector-response-validation
 confidence: medium
-sources: [mavela-2019-32s-quadrupole-moment-doppler-correction-thesis, klemme-1999-lifetimes-134nd-neighbors, vandebrouck-2016-vamos-dual-position-mwpc, crespi-2013-agata-high-energy-doppler-response, aladili-2009-agata-doppler-simulation, akkoyun-2012-agata-instrument-response, senyigit-2014-agata-neutron-rejection, tunl-2017-12c-level-widths, soderstrom-2008-agata-position-design, crespi-2023-agata-tracking-performance, ljungvall-2020-agata-ganil-performance, assie-2021-mugast-agata-vamos, lemasson-2023-agata-vamos-fission-history, ciemala-2019-20o-dsam-analysis-status, ziliani-2019-agata-calibration-controls]
+sources: [mavela-2019-32s-quadrupole-moment-doppler-correction-thesis, klemme-1999-lifetimes-134nd-neighbors, vandebrouck-2016-vamos-dual-position-mwpc, crespi-2013-agata-high-energy-doppler-response, aladili-2009-agata-doppler-simulation, akkoyun-2012-agata-instrument-response, senyigit-2014-agata-neutron-rejection, tunl-2017-12c-level-widths, soderstrom-2008-agata-position-design, crespi-2023-agata-tracking-performance, ljungvall-2020-agata-ganil-performance, assie-2021-mugast-agata-vamos, lemasson-2023-agata-vamos-fission-history, ciemala-2019-20o-dsam-analysis-status, ziliani-2019-agata-calibration-controls, ciemala-2020-c16-o20-lifetimes, zanon-2023-o20-high-precision, ciemala-2021-deep-inelastic-lifetime-method]
 tags: [doppler-correction, velocity-information, calibration, covariance, evidence-contract]
 ---
 
@@ -112,6 +112,24 @@ P2/P3：导航/anchor关系按本run writeback检查；不改变source/claim rev
 ## History-specific update
 
 [[lemasson-2023-agata-vamos-fission-history]] LS23-5/6/8/11细化angularcomparison、post-degrader U/S与FPdelayedhistory；[[ciemala-2019-20o-dsam-analysis-status]] CO19-3/6/9/13明确sharedRF/energy/PID校准、jointτ/Eγ和preliminaryno-final-result。它们补充上述contract，不把方法benchmark、modelpredictions或historyselection变成新测量/absoluteB。
+
+## 20O 独立实验对照的验证路线
+
+[[ciemala-2020-c16-o20-lifetimes]] CI20-1/2/3/5/6/7/8 与 [[zanon-2023-o20-high-precision]] ZA23-1/2/3/5/7/9/10支持一个具体L3 comparison：20O2+2两次独立采集的总τ150fs/70fs有数值张力，作者并未完全解释来源。旧实验初速度迭代重建、新实验particle-assisted初速度和Ex selection为不同nuisance约束；同样需要stopping、transport、response、restenergy/τ jointfit与feeding leak检查。
+
+验证顺序：先统一total/partialτ与confidence定义，再定位input/correction/emission/exit velocities；核entry/gate/feeding，随后以独立energyanchor、held-outline/angle及多个transport条件做jointprofile。2023SI的1156keV3+1→2+2 branch28%不等目标samplefeedfraction；长2+1line的Au-loss correction说明其benchmark convention，不能自动替所有short-state production fields。
+
+反证要求：若已量化的Ex迁移/feeding上界不足以产生差异，feeding候选被削弱；若测得entryvelocity与旧重建在共同条件/Σ内一致，初velocity候选被削弱；若restenergy/response constraints变化仍稳定保留差异，则不能让它们无限吸收τ。上述为本任务design，不是已经完成的实验反证。
+
+`our-inference`：2394.6±1.0与2396.1(.2)keV的能量区别、τ–Eγ covariance可能影响两τ比较，原χ²/template未得，不判因果。3+分支strength的USDBδ输入以及旧partial190fs与新total70fs的区别须延续到所有结构/模型比较。L4experimentalrefit仍not-ready，不pool、不报精准Gaussianσ。
+
+## 方法version、cumulative lifetime 与不重复的校验
+
+[[ciemala-2021-deep-inelastic-lifetime-method]]的preprintCM21-4和正式CM21-14/15直接对照：正式版formula/label一致、reference为aftertargetvelocity，并写DC材料pathcorrection/T按Zfine-tune。初速度展开使用100targetlayers、2MeVTKEL、acceptedangle/TOFresponse；它补齐source方法定义，production参数/Σ与代码仍未得。不同版本只是一条同2017data的方法链，不计新independentexperiment。
+
+CM21-17/18的final80%totalerror和cumulativelifetime说明使“给出τ就是纯态寿命且误差可直接Gaussianpool”不成立。作者从absencefeedingγ解释negligible的范围保留，需要detectorε/threshold/population才变成严格f上界。ZA23新1156feeder与Ex门控制提供另一约束；reactionpopulation不同，不能把其branch或漏门率移植给2017样本。
+
+CM21-16的Mgenergyanchor由PARISNaI neutronactivation/24Naβdecay产生，不能标成Eu本体branch；sourcegating/energyorigin与per-sourceactivitynormalization仍不同。CM21-20的articleCC-BY4.0与AGATAdataownership分开；ZA23-15的注册license/embargodate虽已核实，GANILlanding网络失败，未取得events文件清单，不臆测权限拒绝或宣称L4 ready。
 
 ## Sources
 

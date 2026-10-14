@@ -118,6 +118,9 @@ RF/energy/path联立校准→Oisotope/charge IDs与mass稳定→angle-dependentc
 
 ## Related Knowledge and Project Relations
 
+后续独立version [[ciemala-2020-c16-o20-lifetimes]] CI20-1/3/6给同2017experiment的finalτ/联合E结果。本文2019outlook仍按原时点记录；新结果不补2019当时已测值。另 [[zanon-2023-o20-high-precision]] 为独立(d,p)实验对照，不合并data。
+
+
 | Relation type | Target | Specific relation |
 |---|---|---|
 | methodological-bridge | [[doppler-correction]] | exitvelocity/history、jointτ/E、RF/energy/PID。 |

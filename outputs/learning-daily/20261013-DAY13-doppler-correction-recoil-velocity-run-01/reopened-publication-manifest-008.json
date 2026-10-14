@@ -1,0 +1,31 @@
+{
+  "branch": "main",
+  "subject": "Audit DAY13 oxygen lifetimes and published method versions",
+  "scope": "active checkpoint; no new credit or research closeout",
+  "files": [
+    "knowledge/index.md",
+    "knowledge/methods/doppler-correction.md",
+    "knowledge/research-notes/doppler-forward-inverse-convention-check.md",
+    "knowledge/synthesis/doppler-velocity-validation-contract.md",
+    "knowledge/sources/ciemala-2019-20o-dsam-analysis-status.md",
+    "knowledge/sources/ziliani-2019-agata-calibration-controls.md",
+    "knowledge/sources/ciemala-2020-c16-o20-lifetimes.md",
+    "knowledge/sources/zanon-2023-o20-high-precision.md",
+    "knowledge/sources/ciemala-2021-deep-inelastic-lifetime-method.md",
+    "outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity.md",
+    "outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity-run-01/run.json",
+    "system/scripts/day13_entry_gate_feeding_design.py",
+    "system/handoff.md",
+    "system/log.md",
+    "outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity-run-01/oxygen-final-source-before-recall.md",
+    "outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity-run-01/deep-inelastic-method-source-before-recall.md",
+    "outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity-run-01/entry-gate-feeding-design-recall.md",
+    "outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity-run-01/cm21-version-control-recall.md",
+    "outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity-run-01/entry-gate-feeding-design-exercise.json",
+    "outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity-run-01/cm21-convention-90-control-exercise.json",
+    "outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity-run-01/reopened-checkpoint-audit-008.json",
+    "outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity-run-01/research-checkpoint-reopened-011.json",
+    "outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity-run-01/reopened-publication-manifest-008.json"
+  ],
+  "excluded": "inherited Day6–9/daemon/log, raw/PLAN/credentials, tmp/runtimeclock files"
+}

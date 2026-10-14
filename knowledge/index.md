@@ -9,6 +9,11 @@ updated: 2026-10-14
 
 ## Sources
 
+- [[ciemala-2021-deep-inelastic-lifetime-method]] - 同2017data的TKEL递归/100层靶、DC-loss/longline速度tuning和τ/Tcross极限；v1标签由publisher澄清、80%/cumulative与90°适用边界。
+
+- [[ciemala-2020-c16-o20-lifetimes]] - 20O150fs与16C条件寿命估计；迭代初速度重建、联合τ/Eγ与2017实验谱系。
+- [[zanon-2023-o20-high-precision]] - 独立20O(d,p)70fs/54fs、反应点速度/Ex门与1156-keV馈入；SI联合置信区间和3+δ模型依赖。
+
 - [[ziliani-2019-agata-calibration-controls]] - 同July2017data的timealign/energyanchors/coresegment与18O1938.2short/1981.93longcontrols；percentwidth/precision、环境line/sourcebranch分开。
 
 - [[ciemala-2019-20o-dsam-analysis-status]] - 2019progressreport：RF/energy/PID联合校准、20O angletrend与jointτ/Eγplannedfit；200/320fs非已测值，data不是MUGASTtransfer。

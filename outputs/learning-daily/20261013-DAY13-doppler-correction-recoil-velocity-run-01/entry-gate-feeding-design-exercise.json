@@ -1,0 +1,504 @@
+{
+  "schema_version": 1,
+  "kind": "synthetic entry-gate/feeding expected-shape design",
+  "source_inspiration": "ZA23-2/3/4/5; not either experiment reanalysis",
+  "chosen_parameters": {
+    "rest_gamma_keV": 2396.1,
+    "tau2_ps": 0.07,
+    "tau3_ps": 0.054,
+    "EX2_MeV": 4.071,
+    "EX3_MeV": 5.228,
+    "BR32": 0.28,
+    "beta_in": 0.126,
+    "beta_exit": 0.08,
+    "slowing_proper_duration_ps": 0.4,
+    "gaussian_corrected_energy_sigma_keV": 2.0,
+    "point_angles_deg": [
+      130.0,
+      150.0,
+      170.0
+    ]
+  },
+  "entry_gate_cases": [
+    {
+      "population3_over_population2": 1.0,
+      "chosen_Ex_sigma_MeV": 0.15,
+      "gate_edges_MeV": [
+        3.8709999999999996,
+        4.271
+      ],
+      "direct_entry_acceptance": 0.8175775605482647,
+      "upper_entry_acceptance": 8.854399181037837e-11,
+      "target_entry_feed_fraction": 3.0324117126610594e-11
+    },
+    {
+      "population3_over_population2": 10.0,
+      "chosen_Ex_sigma_MeV": 0.15,
+      "gate_edges_MeV": [
+        3.8709999999999996,
+        4.271
+      ],
+      "direct_entry_acceptance": 0.8175775605482647,
+      "upper_entry_acceptance": 8.854399181037837e-11,
+      "target_entry_feed_fraction": 3.0324117118334625e-10
+    },
+    {
+      "population3_over_population2": 100.0,
+      "chosen_Ex_sigma_MeV": 0.15,
+      "gate_edges_MeV": [
+        3.8709999999999996,
+        4.271
+      ],
+      "direct_entry_acceptance": 0.8175775605482647,
+      "upper_entry_acceptance": 8.854399181037837e-11,
+      "target_entry_feed_fraction": 3.0324117035574933e-09
+    },
+    {
+      "population3_over_population2": 1.0,
+      "chosen_Ex_sigma_MeV": 0.25,
+      "gate_edges_MeV": [
+        3.8709999999999996,
+        4.271
+      ],
+      "direct_entry_acceptance": 0.5762892028332072,
+      "upper_entry_acceptance": 6.456588373730023e-05,
+      "target_entry_feed_fraction": 3.136945867883303e-05
+    },
+    {
+      "population3_over_population2": 10.0,
+      "chosen_Ex_sigma_MeV": 0.25,
+      "gate_edges_MeV": [
+        3.8709999999999996,
+        4.271
+      ],
+      "direct_entry_acceptance": 0.5762892028332072,
+      "upper_entry_acceptance": 6.456588373730023e-05,
+      "target_entry_feed_fraction": 0.00031360604792067515
+    },
+    {
+      "population3_over_population2": 100.0,
+      "chosen_Ex_sigma_MeV": 0.25,
+      "gate_edges_MeV": [
+        3.8709999999999996,
+        4.271
+      ],
+      "direct_entry_acceptance": 0.5762892028332072,
+      "upper_entry_acceptance": 6.456588373730023e-05,
+      "target_entry_feed_fraction": 0.0031272340037352404
+    },
+    {
+      "population3_over_population2": 1.0,
+      "chosen_Ex_sigma_MeV": 0.5,
+      "gate_edges_MeV": [
+        3.8709999999999996,
+        4.271
+      ],
+      "direct_entry_acceptance": 0.3108434832206486,
+      "upper_entry_acceptance": 0.024486269565098917,
+      "target_entry_feed_fraction": 0.021580620948474336
+    },
+    {
+      "population3_over_population2": 10.0,
+      "chosen_Ex_sigma_MeV": 0.5,
+      "gate_edges_MeV": [
+        3.8709999999999996,
+        4.271
+      ],
+      "direct_entry_acceptance": 0.3108434832206486,
+      "upper_entry_acceptance": 0.024486269565098917,
+      "target_entry_feed_fraction": 0.18070807689630178
+    },
+    {
+      "population3_over_population2": 100.0,
+      "chosen_Ex_sigma_MeV": 0.5,
+      "gate_edges_MeV": [
+        3.8709999999999996,
+        4.271
+      ],
+      "direct_entry_acceptance": 0.3108434832206486,
+      "upper_entry_acceptance": 0.024486269565098917,
+      "target_entry_feed_fraction": 0.6880519183060078
+    },
+    {
+      "population3_over_population2": 1.0,
+      "chosen_Ex_sigma_MeV": 0.75,
+      "gate_edges_MeV": [
+        3.8709999999999996,
+        4.271
+      ],
+      "direct_entry_acceptance": 0.21027417907194984,
+      "upper_entry_acceptance": 0.06577814283928339,
+      "target_entry_feed_fraction": 0.08053572157312008
+    },
+    {
+      "population3_over_population2": 10.0,
+      "chosen_Ex_sigma_MeV": 0.75,
+      "gate_edges_MeV": [
+        3.8709999999999996,
+        4.271
+      ],
+      "direct_entry_acceptance": 0.21027417907194984,
+      "upper_entry_acceptance": 0.06577814283928339,
+      "target_entry_feed_fraction": 0.4669220661146222
+    },
+    {
+      "population3_over_population2": 100.0,
+      "chosen_Ex_sigma_MeV": 0.75,
+      "gate_edges_MeV": [
+        3.8709999999999996,
+        4.271
+      ],
+      "direct_entry_acceptance": 0.21027417907194984,
+      "upper_entry_acceptance": 0.06577814283928339,
+      "target_entry_feed_fraction": 0.8975303081613791
+    }
+  ],
+  "shifted_gate_cases": [
+    {
+      "population3_over_population2": 10.0,
+      "chosen_Ex_sigma_MeV": 0.5,
+      "gate_edges_MeV": [
+        3.7709999999999995,
+        4.170999999999999
+      ],
+      "direct_entry_acceptance": 0.3050065916890293,
+      "upper_entry_acceptance": 0.015473484126771653,
+      "target_entry_feed_fraction": 0.12438051159404107
+    },
+    {
+      "population3_over_population2": 10.0,
+      "chosen_Ex_sigma_MeV": 0.5,
+      "gate_edges_MeV": [
+        3.8709999999999996,
+        4.271
+      ],
+      "direct_entry_acceptance": 0.3108434832206486,
+      "upper_entry_acceptance": 0.024486269565098917,
+      "target_entry_feed_fraction": 0.18070807689630178
+    },
+    {
+      "population3_over_population2": 10.0,
+      "chosen_Ex_sigma_MeV": 0.5,
+      "gate_edges_MeV": [
+        3.970999999999999,
+        4.3709999999999996
+      ],
+      "direct_entry_acceptance": 0.30500659168902977,
+      "upper_entry_acceptance": 0.03729584123902235,
+      "target_entry_feed_fraction": 0.2550548168739718
+    }
+  ],
+  "synthetic_misspecified_fits": [
+    {
+      "target_entry_feed_fraction": 0.0,
+      "pre_photon_selection_mean_waiting_fs": 70.0,
+      "wrong_no_feeding_fixed_energy_tau_fs": 69.99999893783672,
+      "wrong_no_feeding_fixed_energy_KL": 6.909436120458322e-17,
+      "wrong_no_feeding_profiled_energy_tau_fs": 69.99999893781037,
+      "wrong_no_feeding_profiled_rest_energy_keV": 2396.1,
+      "wrong_no_feeding_profiled_KL": 2.9243324295064017e-18,
+      "multistart_results": [
+        {
+          "start_tau_ps": 0.06999999893783672,
+          "start_energy_keV": 2396.1,
+          "success": true,
+          "final_tau_ps": 0.06999999893781038,
+          "final_energy_keV": 2396.1,
+          "final_KL": 2.9243324295064017e-18
+        },
+        {
+          "start_tau_ps": 0.04,
+          "start_energy_keV": 2394.1,
+          "success": true,
+          "final_tau_ps": 0.0699999943224798,
+          "final_energy_keV": 2396.1000001715447,
+          "final_KL": 2.9702596302073504e-15
+        },
+        {
+          "start_tau_ps": 0.18,
+          "start_energy_keV": 2398.1,
+          "success": true,
+          "final_tau_ps": 0.0699999945580435,
+          "final_energy_keV": 2396.1000000779445,
+          "final_KL": 2.787138997357587e-15
+        },
+        {
+          "start_tau_ps": 0.24,
+          "start_energy_keV": 2400.1,
+          "success": true,
+          "final_tau_ps": 0.06999999418730757,
+          "final_energy_keV": 2396.100000214492,
+          "final_KL": 3.025338073265083e-15
+        }
+      ]
+    },
+    {
+      "target_entry_feed_fraction": 0.05,
+      "pre_photon_selection_mean_waiting_fs": 72.7,
+      "wrong_no_feeding_fixed_energy_tau_fs": 72.68325488427469,
+      "wrong_no_feeding_fixed_energy_KL": 4.7412436821920276e-05,
+      "wrong_no_feeding_profiled_energy_tau_fs": 72.57895885151038,
+      "wrong_no_feeding_profiled_rest_energy_keV": 2396.1275000374794,
+      "wrong_no_feeding_profiled_KL": 3.933594043486162e-05,
+      "multistart_results": [
+        {
+          "start_tau_ps": 0.07268325488427468,
+          "start_energy_keV": 2396.1,
+          "success": true,
+          "final_tau_ps": 0.0725789586567027,
+          "final_energy_keV": 2396.1275001206004,
+          "final_KL": 3.933594043496771e-05
+        },
+        {
+          "start_tau_ps": 0.04,
+          "start_energy_keV": 2394.1,
+          "success": true,
+          "final_tau_ps": 0.07257895853885396,
+          "final_energy_keV": 2396.127500138507,
+          "final_KL": 3.9335940435123854e-05
+        },
+        {
+          "start_tau_ps": 0.18,
+          "start_energy_keV": 2398.1,
+          "success": true,
+          "final_tau_ps": 0.07257895885151038,
+          "final_energy_keV": 2396.1275000374794,
+          "final_KL": 3.933594043486162e-05
+        },
+        {
+          "start_tau_ps": 0.24,
+          "start_energy_keV": 2400.1,
+          "success": true,
+          "final_tau_ps": 0.07257895844036683,
+          "final_energy_keV": 2396.127500179209,
+          "final_KL": 3.933594043520539e-05
+        }
+      ]
+    },
+    {
+      "target_entry_feed_fraction": 0.2,
+      "pre_photon_selection_mean_waiting_fs": 80.80000000000001,
+      "wrong_no_feeding_fixed_energy_tau_fs": 80.71325280003914,
+      "wrong_no_feeding_fixed_energy_KL": 0.0011969869832974926,
+      "wrong_no_feeding_profiled_energy_tau_fs": 80.10814494048299,
+      "wrong_no_feeding_profiled_rest_energy_keV": 2396.257033254937,
+      "wrong_no_feeding_profiled_KL": 0.000958844570418356,
+      "multistart_results": [
+        {
+          "start_tau_ps": 0.08071325280003915,
+          "start_energy_keV": 2396.1,
+          "success": true,
+          "final_tau_ps": 0.08010814271543983,
+          "final_energy_keV": 2396.2570335710407,
+          "final_KL": 0.0009588445704209262
+        },
+        {
+          "start_tau_ps": 0.04,
+          "start_energy_keV": 2394.1,
+          "success": true,
+          "final_tau_ps": 0.08010814544092558,
+          "final_energy_keV": 2396.257033015183,
+          "final_KL": 0.0009588445704184342
+        },
+        {
+          "start_tau_ps": 0.18,
+          "start_energy_keV": 2398.1,
+          "success": true,
+          "final_tau_ps": 0.08010814373200859,
+          "final_energy_keV": 2396.2570332898213,
+          "final_KL": 0.0009588445704192183
+        },
+        {
+          "start_tau_ps": 0.24,
+          "start_energy_keV": 2400.1,
+          "success": true,
+          "final_tau_ps": 0.08010814494048299,
+          "final_energy_keV": 2396.257033254937,
+          "final_KL": 0.000958844570418356
+        }
+      ]
+    },
+    {
+      "target_entry_feed_fraction": 0.5,
+      "pre_photon_selection_mean_waiting_fs": 97.0,
+      "wrong_no_feeding_fixed_energy_tau_fs": 96.71203719164403,
+      "wrong_no_feeding_fixed_energy_KL": 0.013116477485638886,
+      "wrong_no_feeding_profiled_energy_tau_fs": 94.048355318555,
+      "wrong_no_feeding_profiled_rest_energy_keV": 2396.768097688338,
+      "wrong_no_feeding_profiled_KL": 0.00968729927325008,
+      "multistart_results": [
+        {
+          "start_tau_ps": 0.09671203719164403,
+          "start_energy_keV": 2396.1,
+          "success": true,
+          "final_tau_ps": 0.09404835144962301,
+          "final_energy_keV": 2396.768098677906,
+          "final_KL": 0.009687299273259162
+        },
+        {
+          "start_tau_ps": 0.04,
+          "start_energy_keV": 2394.1,
+          "success": true,
+          "final_tau_ps": 0.09404835157220512,
+          "final_energy_keV": 2396.7680975832063,
+          "final_KL": 0.009687299273253402
+        },
+        {
+          "start_tau_ps": 0.18,
+          "start_energy_keV": 2398.1,
+          "success": true,
+          "final_tau_ps": 0.09404835356321227,
+          "final_energy_keV": 2396.7680977564983,
+          "final_KL": 0.009687299273251177
+        },
+        {
+          "start_tau_ps": 0.24,
+          "start_energy_keV": 2400.1,
+          "success": true,
+          "final_tau_ps": 0.094048355318555,
+          "final_energy_keV": 2396.768097688338,
+          "final_KL": 0.00968729927325008
+        }
+      ]
+    },
+    {
+      "target_entry_feed_fraction": 0.9,
+      "pre_photon_selection_mean_waiting_fs": 118.60000000000001,
+      "wrong_no_feeding_fixed_energy_tau_fs": 117.98447014403605,
+      "wrong_no_feeding_fixed_energy_KL": 0.07080130678215187,
+      "wrong_no_feeding_profiled_energy_tau_fs": 107.62138300166994,
+      "wrong_no_feeding_profiled_rest_energy_keV": 2398.5641973995534,
+      "wrong_no_feeding_profiled_KL": 0.04162188236575893,
+      "multistart_results": [
+        {
+          "start_tau_ps": 0.11798447014403605,
+          "start_energy_keV": 2396.1,
+          "success": true,
+          "final_tau_ps": 0.10762138300166994,
+          "final_energy_keV": 2398.5641973995534,
+          "final_KL": 0.04162188236575893
+        },
+        {
+          "start_tau_ps": 0.04,
+          "start_energy_keV": 2394.1,
+          "success": true,
+          "final_tau_ps": 0.10762135913937519,
+          "final_energy_keV": 2398.564200233334,
+          "final_KL": 0.04162188236581514
+        },
+        {
+          "start_tau_ps": 0.18,
+          "start_energy_keV": 2398.1,
+          "success": true,
+          "final_tau_ps": 0.10762137344006274,
+          "final_energy_keV": 2398.564199900096,
+          "final_KL": 0.04162188236579254
+        },
+        {
+          "start_tau_ps": 0.24,
+          "start_energy_keV": 2400.1,
+          "success": true,
+          "final_tau_ps": 0.10762137710750255,
+          "final_energy_keV": 2398.5641995228834,
+          "final_KL": 0.041621882365781245
+        }
+      ]
+    },
+    {
+      "target_entry_feed_fraction": 1.0,
+      "pre_photon_selection_mean_waiting_fs": 124.0,
+      "wrong_no_feeding_fixed_energy_tau_fs": 123.29979721600999,
+      "wrong_no_feeding_fixed_energy_KL": 0.09915738707500672,
+      "wrong_no_feeding_profiled_energy_tau_fs": 108.37007938515305,
+      "wrong_no_feeding_profiled_rest_energy_keV": 2399.5984137855426,
+      "wrong_no_feeding_profiled_KL": 0.05025775856567229,
+      "multistart_results": [
+        {
+          "start_tau_ps": 0.12329979721600999,
+          "start_energy_keV": 2396.1,
+          "success": true,
+          "final_tau_ps": 0.10837010595022328,
+          "final_energy_keV": 2399.5984087075235,
+          "final_KL": 0.050257758565791844
+        },
+        {
+          "start_tau_ps": 0.04,
+          "start_energy_keV": 2394.1,
+          "success": true,
+          "final_tau_ps": 0.10837007938515304,
+          "final_energy_keV": 2399.5984137855426,
+          "final_KL": 0.05025775856567229
+        },
+        {
+          "start_tau_ps": 0.18,
+          "start_energy_keV": 2398.1,
+          "success": true,
+          "final_tau_ps": 0.1083702148901522,
+          "final_energy_keV": 2399.5984131068417,
+          "final_KL": 0.05025775856626672
+        },
+        {
+          "start_tau_ps": 0.24,
+          "start_energy_keV": 2400.1,
+          "success": true,
+          "final_tau_ps": 0.10837006220760338,
+          "final_energy_keV": 2399.5984165204695,
+          "final_KL": 0.05025775856572221
+        }
+      ]
+    }
+  ],
+  "independent_MC_checks": [
+    {
+      "angle_deg": 130.0,
+      "analytic_mean_keV": 2338.1770606353934,
+      "MC_mean_keV": 2338.2110825637947,
+      "weighted_mean_SE_keV": 0.02077862670511525,
+      "analytic_variance_keV2": 253.89997275660136,
+      "MC_variance_keV2": 254.499373792151,
+      "MC_photon_conditioned_feed_fraction": 0.502048437074372
+    },
+    {
+      "angle_deg": 150.0,
+      "analytic_mean_keV": 2322.6023701560684,
+      "MC_mean_keV": 2322.649425352842,
+      "weighted_mean_SE_keV": 0.026268867384545008,
+      "analytic_variance_keV2": 403.61053849421313,
+      "MC_variance_keV2": 404.6036319981318,
+      "MC_photon_conditioned_feed_fraction": 0.502635899071787
+    },
+    {
+      "angle_deg": 170.0,
+      "analytic_mean_keV": 2314.6249693943846,
+      "MC_mean_keV": 2314.676409316026,
+      "weighted_mean_SE_keV": 0.029096613835395857,
+      "analytic_variance_keV2": 493.79863890236913,
+      "MC_variance_keV2": 495.0346007330344,
+      "MC_photon_conditioned_feed_fraction": 0.5029381824442815
+    }
+  ],
+  "verification": {
+    "normalization_max_error": 2.220446049250313e-16,
+    "quad128_256_density_max_difference": 2.563921297493721e-15,
+    "equal_tau_Erlang_limit_passed": true,
+    "cascade_survival_independent_quad_error": 1.214306433183765e-17,
+    "propertime_MC_mean_passed": true,
+    "importance_MC_energy_moments_passed": true,
+    "no_feeding_fit_truth_passed": true,
+    "no_loss_tau_and_feed_shape_independence_passed": true,
+    "all_passed": true
+  },
+  "boundaries": [
+    "Ex resolutions, gate edges, populations, slowing law and detector sigma are chosen.",
+    "70/54fs and branch .28 inspire scales, not an experimental refit.",
+    "Pre-photon entry feed fraction differs from conditional detected fraction.",
+    "Expected KL and pseudo-true tau are not data chi-square, confidence or pooled lifetimes.",
+    "Photon recoil, other feeding, actual gold stopping, correlations and alignment are omitted.",
+    "A mean-waiting bound is not a bound on fitted one-exponential tau.",
+    "Four optimization starts check local solutions; not a theorem of global uniqueness."
+  ],
+  "library_versions": {
+    "numpy": "2.5.3",
+    "scipy": "1.18.1"
+  }
+}

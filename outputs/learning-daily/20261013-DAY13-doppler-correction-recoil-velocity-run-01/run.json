@@ -1082,10 +1082,87 @@
     }
   ],
   "latest_active_checkpoint": {
-    "path": "outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity-run-01/research-checkpoint-reopened-010.json",
-    "at": "2026-10-14T07:40:42.094171+08:00",
+    "path": "outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity-run-01/research-checkpoint-reopened-011.json",
+    "at": "2026-10-14T08:17:58.740041+08:00",
     "research_status": "active",
-    "candidate": "independent-20O-lifetime-comparison",
+    "candidate": "fit-statistic-RF-TOF-and-TKEL-closure",
     "course_state": "next14/count13 unchanged"
-  }
+  },
+  "reopened_publications": [
+    {
+      "branch": "main",
+      "commit_subject": "Add DAY13 calibration and reference-line controls",
+      "commit_hash": "01d9c239ddcc854a04c7b5031202666308afd193",
+      "status": "published-active-checkpoint",
+      "scope": "active checkpoint; no new course credit or research closeout",
+      "files": [
+        "knowledge/index.md",
+        "knowledge/methods/doppler-correction.md",
+        "knowledge/methods/tracking-array.md",
+        "knowledge/sources/ciemala-2019-20o-dsam-analysis-status.md",
+        "knowledge/sources/ziliani-2019-agata-calibration-controls.md",
+        "knowledge/synthesis/doppler-velocity-validation-contract.md",
+        "outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity-run-01/agata-calibration-source-before-recall.md",
+        "outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity-run-01/reopened-checkpoint-audit-007.json",
+        "outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity-run-01/reopened-publication-manifest-007.json",
+        "outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity-run-01/research-checkpoint-reopened-010.json",
+        "outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity-run-01/run.json",
+        "outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity.md",
+        "system/handoff.md",
+        "system/log.md"
+      ],
+      "post_commit_reconciliation": {
+        "manifest_matches_commit": true,
+        "handoff_pointer_matches": true,
+        "origin_main_matches_HEAD": true,
+        "index_empty": true
+      },
+      "H3_observed_commands": [
+        {
+          "argv": [
+            "git",
+            "fetch",
+            "origin",
+            "main"
+          ],
+          "exit_code": 0,
+          "evidence": "observed tool result in current session"
+        },
+        {
+          "argv": [
+            "git",
+            "merge-base",
+            "--is-ancestor",
+            "origin/main",
+            "HEAD"
+          ],
+          "exit_code": 0,
+          "evidence": "observed tool result in current session"
+        },
+        {
+          "argv": [
+            "git",
+            "push",
+            "--dry-run",
+            "origin",
+            "HEAD:main"
+          ],
+          "exit_code": 0,
+          "evidence": "observed tool result in current session"
+        },
+        {
+          "argv": [
+            "git",
+            "push",
+            "origin",
+            "HEAD:main"
+          ],
+          "exit_code": 0,
+          "evidence": "observed tool result in current session"
+        }
+      ],
+      "published_at": "2026-10-14T07:42:19.533041+08:00",
+      "window_remains_active": true
+    }
+  ]
 }

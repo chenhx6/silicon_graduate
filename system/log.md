@@ -1665,3 +1665,8 @@ Following the user question about the missing Day8 prompt, the formal Day8 card 
 ## 2026-10-14 07:40 — DAY13 calibration checkpoint
 
 同run/session持续：Ziliani2019 directtime/energycalibration与18Oshort/longreference已写回knowledge；sameJuly2017lineage、percentwidthdefinition与environmentMgbranch边界保留。89items/27mappedpages，lint0errors/118warnings，report/card/writeback/boundary/protected/publichash通过；原deadline仍active，不再计卡。main / `Add DAY13 calibration and reference-line controls`。
+
+
+## 2026-10-14T08:17 — DAY13 oxygen lifetime and method checkpoint
+
+CI20/ZA23/CM21 main、SI与publisher版本完成；20O150/70fs独立comparison、entry/feeding/τ-E矩阵、finalinverse/stage、80%/cumulative与negativeevidence边界写回knowledge。Source-inspiredgatefeed/90control验证通过，107items/30mappedpaths、lint0errors/124warnings与boundary/report/card/protected/hash通过。DataCite注册核实，landingnetworkfailure保留，actualL4未ready；原windowactive不重计卡。main / `Audit DAY13 oxygen lifetimes and published method versions`。
