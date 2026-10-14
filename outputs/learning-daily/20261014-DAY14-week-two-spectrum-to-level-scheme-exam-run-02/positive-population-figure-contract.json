@@ -1,0 +1,23 @@
+{
+  "target": "Wiki daily learning / canonical method figure",
+  "backend": "Python/matplotlib inherited same-run preference; caches onlyWiki/tmp",
+  "question": "How do published same-parent fit means relate to the conditional positive-population hull?",
+  "width_mm": 140.0000032212999,
+  "height_mm": 110.00000406901042,
+  "minimum_font_pt": 8,
+  "data_integrity": "all10 Z83 nonempty same-parent rows plus1 Z80 companion; no jitter/deletion/imputedalpha9; raw unchanged",
+  "models": "7vertex conditional J13/2 symmetric-diagonal population hull; Gaussian optional family; fulldomain persisted inknowledge/JSON",
+  "view": "source/model shown atalpha2>=.60, explicitly cropped display; full model vertices retained; source points/errors all visible",
+  "uncertainty": "quoted statisticalmarginal errors; no source jointCI, pvalue or covariance",
+  "initial_collision_audit": "exit1 /4fail; offpage model paths plus data-label placement repaired, finalexit0 /0fail0warn",
+  "source_validator": "exit0 /0fail4warn: PNG400dpi/noTIFF and140mm followWiki vector contract; log(.32) is constant positive survivalprobability, not uncontrolleddata transform",
+  "panel_alignment": "singleplotarea NOT APPLICABLE; no multi-panel pass claimed",
+  "source_data": "outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/positive-population-hull.source-data.csv",
+  "exports": {
+    "svg": "outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/positive-population-hull.svg",
+    "pdf": "tmp/day14-20261014/positive-population-hull.pdf",
+    "png": "tmp/day14-20261014/positive-population-hull.png"
+  },
+  "visual_QA": true,
+  "review": "Codexselfaudit only; no newhumanreview"
+}

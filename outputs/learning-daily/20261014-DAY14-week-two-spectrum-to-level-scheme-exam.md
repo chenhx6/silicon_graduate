@@ -786,6 +786,44 @@ HE15-9的实际未定双线是核心反例：energy sum、共享R/A和假设的�
           "locator": "Z80-19"
         }
       ]
+    },
+    {
+      "knowledge": "knowledge/methods/angular-distribution.md",
+      "anchor": "正布居矩可行域与源表中央值",
+      "summary": "保存J13/2正对称布居七点凸包、rational Farkas证书、全部10+1源表行LP可行性和unknownCov的conditionalellipse相交；模型中央值不可行不升级为实验否定。",
+      "sources": [
+        {
+          "path": "knowledge/sources/zobel-1983-energy-projectile-alignment.md",
+          "locator": "Z83-11"
+        },
+        {
+          "path": "knowledge/sources/zobel-1980-magnetic-substate-distributions.md",
+          "locator": "Z80-1"
+        },
+        {
+          "path": "knowledge/sources/zobel-1980-magnetic-substate-distributions.md",
+          "locator": "Z80-17"
+        },
+        {
+          "path": "knowledge/sources/zobel-1980-magnetic-substate-distributions.md",
+          "locator": "Z80-18"
+        },
+        {
+          "path": "knowledge/sources/rose-brink-1967-phase-defined-angular-distributions.md",
+          "locator": "RB67-26"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/sources/zobel-1980-magnetic-substate-distributions.md",
+      "anchor": "1979 Ref4/Ref9的输入边界",
+      "summary": "精确解析共同1979参考的DOI/title/卷页与末作者拼写歧义，保存API/OA/publicPDF/Scholar访问边界；不借TDMlicense或metadata补纯度/δ/独立采集。下一公开ENSDF伴随记录路线。",
+      "sources": [
+        {
+          "path": "knowledge/sources/zobel-1980-magnetic-substate-distributions.md",
+          "locator": "Z80-20"
+        }
+      ]
     }
   ]
 }
@@ -849,6 +887,18 @@ PureE2在合法取向下可negative P；在本段common selection/轴对称/poin
 [23-check计算](20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/zobel80-appendix-analysis.json)给chosen positiveCb上的A2字面负variance、正确ratio covariance；joint68% fullQ=2.278868566，Q=1内容.393469340。chosen rho+.6的错cross-sign ellipse内容.520066461（512/1024积分一致）；这些不是source实验Cov或原ALY p-value。完整公式、矩阵、覆盖与反例写入[[angular-distribution]]“Zobel1980附录：字面公式与联合覆盖”。
 
 Z80-17一行同parent数据核c/sign打印舍入，Z80-18/[[zobel-1983-energy-projectile-alignment]] Z83-13核Ref9/4同Zobel1979依赖，不能认证独立raw events。Z80-19保留scan未见Table3、GNOMON未发布的数值重放缺口；Fig4/5是原model control，companion仍需完整peak面积、fitCov、matching feeding/条件。决定revises公式的字面执行，supports保留Cov，limits把marginal误差、引用次数或ALY/Gaussian曲线当唯一布居事实。不改变21/24、不计Day15。
+
+### 原表两矩的正布居可行域
+
+经candidate overlap核，RB67-26已覆盖一般pureE2高阶盲区；本项使用[冻结预测](20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/positive-population-before-calculation.md)，直接核真实同parent原表的运动学可行域。[40-check计算](20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/positive-population-hull.json)保存J13/2正对称diagonal布居的七个exact vertices/halfspaces、Farkas certificate与全部10个Z83非空行加1个Z80行的LP状态。条件中央值(.973,.803)给−107/1000证书，fixed-reference hull要求此alpha2下alpha4≥.910；其余10个points有严格正见证。这不是实验否定、真实P重构或对作者code的归因。
+
+在quotedmarginal errors加chosen GaussianΣ控制中，rho−.8/0/+.8/+.95给最近hull距离平方.278760/.491139/2.062470/5.154627；joint68椭圆相交的判断随ρ变化，真实Σ仍未知。Canonical[[angular-distribution]]“正布居矩可行域与源表中央值”保存全域顶点、原表、数学证书、witness/误差边界及[图](20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/positive-population-hull.svg)。决定revises可行性先于Gaussian宽度反演，supports量子正性与未知response边界。无新source card信用、无实验σ/I或mode赋值。
+
+### 必要1979 companion的获取边界
+
+[[zobel-1980-magnetic-substate-distributions]] Z80-20固化Ref4/9的真实DOI/title/NPA316,165–188(1979)与access/readiness。nature-downloader出版商API返回credentials_missing，合法OA返回oa_not_found、publicPDF无candidate，精确Scholar检索timeout；没有primary或新raw。下载器confirmed_oa标签不能沿用：所给TDMuserlicense不是OAlicense，Unpaywall实际false。来源前回忆、各manifest/metadata保留在本run；没有修改credentials/进入宿主GUI。
+
+停止该获取路线，仍缺primary中的δ/purity误差、采集/response细节，这些输入限制正布居检验与数据独立性。最高信息续路为NNDC 67Ga公开evaluated/reaction字段核验，source dependency与unknownCov继续保留，不能凭评价对象给实验新学分或假定独立。正文学习与正式卡均未因此重复计分，run仍active。
 
 ## Open questions and belief revision
 
@@ -938,3 +988,10 @@ Figure源/glyph/collision audits均exit0，最小8pt、collision0fail0warn，sin
 Ref5原9页与23-check Appendix均完成；report/card/writeback valid（23items/13changedpages），AST/保护哈希/raw metadata/原review flags与diff通过。wiki_lint --fail-on error exit0，0errors/129warnings（107citation-key、19raw槽、3reactionparser）。初lint未读入空行后的六条claim，解析验收exit1；修表后freshlint解析Z80-14–19全部true，claims2471、needs_review1797，原13条false保留。
 
 恢复见[checkpoint009](20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/checkpoint-009.md)，本批稳定指针 main / `Audit DAY14 primary angular error formulas`；exacthash/actualH3只receipt。候选池核对发现RB67-26已有pureE2布居盲区证明，下一项是源表两moments的positive-population physical hull与中央值可行性，不重复已有泛化反例。Day15仍partial、正式21/24不变、研究继续。
+
+
+### Checkpoint010 实测与继续
+
+40项rational hull/LP/全source行/未知Cov控制通过；report/card/writeback valid（25items/13changedpages），AST/保护哈希/raw metadata/继承review/diff通过。wiki_lint --fail-on error exit0，0errors/129warnings（107citation-key、19raw槽、3reactionparser）；Z80-20实际parsedtrue。图source/glyph/collision全部exit0，最终0FAIL/0WARN且PNG视觉通过；四项源码WARN按Wiki尺寸、PNG预览和constantlog解释，初clip/标注碰撞修复有QA记录。
+
+本批稳定指针 main / `Bound DAY14 positive-population moments`，exacthash/实际H3仅receipt；恢复见[checkpoint010](20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/checkpoint-010.md)。1979获取分支停止、输入边界已canonical；下一公开NNDC67Ga评价/反应字段查验已冻结primed回忆，search200不代表读取objects或新独立实验。研究继续，正式21/24、Day14/partial15保持。

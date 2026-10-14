@@ -10,11 +10,11 @@ updated: 2026-10-15
 
 Run `2026-10-14-day-14-02` / session `01a13a0e-e8bd-7251-b970-f6975679e281`；原研究截止 `2026-10-15T15:00:00+08:00` 保持，goal/research仍active。正式DAY14的primed回忆、Herzáň主线/图表/七边、21/24和weekly REFLECT已发布；官方next14/count13等最终收束只计一次。Day15仅partial预习，不研究Day16。
 
-最新checkpoint009（上海10-15 05:40前后）：Zobel1980原9页和23项附录控制核完，A2/A6扫描字面需结合Jacobian/A4密度自审，A3σ正值与A5的Q/2约定保留。原Human/13false范围不扩、新14–19 true；source/method保存全部矩阵、958一行转换、Ref9/4依赖及Table3/GNOMON输入缺口。真正GF/原I/eff/monitor/fitCov仍缺，无实验rho/σ/I/assignment重估。
+最新checkpoint010（上海10-15 06:40前后）：40项正布居凸包/source全部10+1行LP完成，中央值(.973,.803)在声明J/reference/purity/response下有−107/1000证书；其余10points有数学witness。UnknownCov/δ/response使其不能成为实验排除或真实布居；模型/图/全部顶点和表写回angular-distribution。图最终source/glyph/collision0、visual通过，源码4WARN有Wiki合同解释。
 
-唯一writeback23items/13changedpages，report/card/writeback/AST/protected/raw/review/diff通过；lint exit0、0errors/129warnings。新claim空行曾造成解析验收1，修表后六条全部parsed、claims2471/needs_review1797。前8批Gitee已发布；本批稳定指针 main / `Audit DAY14 primary angular error formulas`，exacthash/actualH3只receipt。
+1979Ref4/9 onlymetadata；API/OA/PDF/Scholar未得primary，TDMlicense错误OA标签不采信，停止获取分支；Z80-20 true保留DOI/lastauthor差异和readiness，原Human/13false范围不扩。唯一writeback25items/13changedpages；report/card/writeback/AST/protected/raw/review/diff/lint0errors129warnings通过，source20已parsedtrue。前9批已Gitee发布；本批稳定指针 main / `Bound DAY14 positive-population moments`，exacthash/actualH3只receipt。
 
-下一经overlap选择positive-population moment hull/source中央值可行性，计算前预测已冻结；已存在的RB67-26盲区proof保留，不将条件LP或unknownΣ当实验否定。Clock001/002已实际ack；Farmer8686/clock75781不重启。恢复 `codex resume 01a13a0e-e8bd-7251-b970-f6975679e281 -C /workspace/wiki -s danger-full-access -a never`；本run checkpoint009/continuation可恢复。
+下一NNDC67Ga primed recall已冻结，search200给ADOPTED/57Fe12C/alpha selectedobjects、2005-12版本；未读objects或预写δ。只核958同parent与出处，不当独立raw。Clock001/002已实际ack；Farmer8686/clock75781不重启。恢复 `codex resume 01a13a0e-e8bd-7251-b970-f6975679e281 -C /workspace/wiki -s danger-full-access -a never`；本run checkpoint010/continuation可恢复。
 
 ## Previous active handoff — DAY13 continuous study reopened by user
 

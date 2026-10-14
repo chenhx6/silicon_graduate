@@ -271,3 +271,6 @@ Day14 partial15还完成17-check coefficient convention练习：β拟合/归一A
 
 
 Day14 partial15已视觉核Zobel1980全9页、完成23-check Appendix字面/规范Cov与joint coverage控制。Z80-14–19 true保留A2/A3/A6公式边界、A5的Q/2约定、单行变量cross-check/Ref9依赖/GNOMON缺口；没有officialerratum、source实测Cov或新采集。正式Day15回忆须标这些预暴露的priming，旧Jul08人审范围不扩。
+
+
+Day14 partial15另有40-check同parent正布居moment hull/LP/Farkas与unknownCov敏感性。Source11.3中央值的条件不可行不等于实验排除，其余10个mean的witness也非实测布居；正式Day15须标这些priming，核固定spin/reference/purity/response后再解释α或σ/I。1979原文尚未取得，只metadata/readiness（Z80-20），不继承新的实测δ误差或independentdata。

@@ -65,3 +65,12 @@ Zobel1983 raw/metadata/六页主线/Table1upright/图/公式核完；同958keV p
 Zobel1980 primary9页与23-check Appendix自审完成；originalprint A2/A6与其定义不一致，A3正σ需abs，A5是Q/2半径不可单独误判。Source新14–19 true、oldHuman/13false继承；原sourceCov/GNOMON/Table3数值边界不补造。唯一writeback23items/13changedpages、report/card/writeback/AST/protected/raw/review/diff通过，freshlint0errors129warnings且6新claim全部parsed；空行问题初parser1已修复。
 
 下一positive-population-before-calculation.md已冻结。Day15卡仅preview；overlap显示RB67-26已covergeneral pureE2 rankblindness，因此求J13/2 source十行的完整positive moment hull、中央值feasibility/LPdual证书，再区分Gaussian限制和unknownΣ影响。不得把条件中央值不可行当实验排除或重建真实P(M)。同run/session/goalactive，原15:00researchcutoff，不计Day15、不研究Day16。
+
+
+## Checkpoint010：运动学可行域已固化，继续publiccompanion
+
+40-check J13/2全positive moment hull与Z83 10rows+Z80 1row完成；exact −107/1000证书针对打印中央值/声明参考，不是实验否定；其余10mean的LPwitness不称实测P。四chosenΣ仅展示joint68intersection依ρ变；trueCov/δ/response不补。图全部11points/模型分层，minfont8pt、finalsource/glyph/collision0，4源码WARN按Wiki合同解释；初clip/标注4FAIL已修。
+
+Report唯一writeback25items/13changedpages、report/card/writeback/AST/protected/raw/review/diff/freshlint0errors129warnings通过，newZ80-20 true parsed。1979API/OA/PDF/Scholar未得primary，canonical留metadata/lastauthor spelling/TDM错误标签/readiness，停止该获取分支，不改raw/credentials/hostGUI。
+
+下一nndc67-before-source-recall.md已冻结；actualNNDCsearch200给ADOPTED67031001、57Fe12C67031005、alpha/53Cr16O67031006，lastrevised2005-12。尚未读objects；只核sameparent 3032→2074/958 γ的multipolarity/δ/评论/出处。新XUNDL2024/2026仅discovery未研究，要按候选信息增益决策，不新增card。原15:00deadline，Day14/partial15、formal21/24、officialnext14/count13待closeout一次对账，same goal/session active。

@@ -1,0 +1,21 @@
+{
+  "skill": "nature-downloader",
+  "skill_path": "/root/.codex/skills/nature-downloader/SKILL.md",
+  "si_choice": false,
+  "selection_basis": "Codex bounded mainline companion scope under explicit unattended daily-plan authorization; no user SI preference invented",
+  "output_scope": "Wiki/tmp only; no raw/credential/config edits",
+  "browser_route": "excluded by Docker Wiki execution boundary; no daemon or browser restarted",
+  "api_route_manifest": "tmp/day14-20261014/zobel79-api/manifest.json",
+  "oa_route_manifest": "tmp/day14-20261014/zobel79-oa/manifest.json",
+  "scientific_status": "primarynotobtained; acquisitionbranch stopped; no physicalmeasurement values supplied frommetadata",
+  "api_status": "credentials_missing",
+  "api_downloads": 0,
+  "oa_status": "oa_not_found",
+  "oa_downloads": 0,
+  "public_publisher_pdf": "no_candidate",
+  "oa_classification_self_audit": "downloader oaAssessment confirmed_oa is not accepted: Unpaywall is_oa=false, no PMC/paper location, and Elsevier TDM userlicense is not an OA license",
+  "next_bounded_metadata_route": "exact-title GoogleScholar/institutional repository discovery; never unauthorized mirrors or host browser",
+  "scholar_status": "exacttitle query failed withredacted timeout; no result was used as evidence",
+  "canonical_boundary": "knowledge/sources/zobel-1980-magnetic-substate-distributions.md / Z80-20 / 1979 Ref4/Ref9的输入边界",
+  "next_bounded_route": "NNDC/ENSDF 67Ga publicevaluation/reaction fields withfrozenprimedrecall"
+}

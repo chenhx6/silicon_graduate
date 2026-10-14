@@ -295,3 +295,56 @@ Z80-17的958行来自reactionA=57Fe+12C/40MeV，Z80-18的Ref9与[[zobel-1983-ene
 Z80-19：当前九页scan没有找到p229所指Table3，GNOMON代码又被原Ref14列为unpublished，故不补出Fig5的数值loss表或实际代码重放。必要companion是对应角度的完整peak-profile/面积校正、匹配spin/δ/feeding和完整fitCov；missing inputs维持实验L4 not-ready。
 
 复算：[day14_zobel80_appendix_audit.py](../../system/scripts/day14_zobel80_appendix_audit.py)，source-derived single-row fixture和所有chosen矩阵见Day14 run的zobel80-appendix-analysis.json。23项检查包括ratio/zero-coefficient、positive-Cov、A2/A3/A6字面失败控制、Gaussian内容与极坐标积分收敛、打印舍入和面积边界。决定revises精确公式执行，supports保留Cov的一般方法，limits从两条marginalerrors或文献引用推真实joint检验；原source人审范围与false标记保留，新14–19 true。Day15仍为无学分partial preview。
+
+
+## 正布居矩可行域与源表中央值
+
+输入来自[[zobel-1983-energy-projectile-alignment]] Z83-11的十个同parent表行、[[zobel-1980-magnetic-substate-distributions]] Z80-17的一行及Z80-1的核张量定义。源表采用δ=0；以下假设J=13/2、diagonal且P(M)=P(−M)、complete-alignment参考为|M|=1/2，并假设α已由正确响应还原。这些是条件运动学检查，不等于该反应的布居先验或实验重拟合。
+
+令七个正|M|的pair概率 q_M=P(M)+P(−M)≥0、Σq=1。以S=J(J+1)、x=M²定义T2=3x−S、T4=35x²−(30S−25)x+3S²−6S，各除以|M|=1/2参考值。它们与此前CG张量构造核验一致。于是α=Σq_M v_M，完整允许域是下表七个点的凸包：
+
+| M的绝对值 | α2纯pair值 | α4纯pair值 |
+| --- | --- | --- |
+| 1/2 | 1 | 1 |
+| 3/2 | 7/8 | 7/12 |
+| 5/2 | 5/8 | −13/108 |
+| 7/2 | 1/4 | −23/27 |
+| 9/2 | −1/4 | −11/9 |
+| 11/2 | −7/8 | −77/108 |
+| 13/2 | −13/8 | 143/108 |
+
+表头中的|M|表示M的绝对值。Gaussian一参数曲线和ALY的feeding条件是额外限制；它们不等于一般正布居凸包。该凸包也不证明每个允许布居都能由选定reaction实际实现。先前[[rose-brink-1967-phase-defined-angular-distributions]] RB67-26已经给出pure-E2高阶布居盲区，本节增量是对真实原表中央值的完整可行性检查。
+
+### 精确证书与全部输入覆盖
+
+对任何表中顶点，都有 α4−(10/3)α2+7/3≥0；七列的精确值依次为0、0、7/54、35/54、35/18、245/54、245/27。α2在7/8至1之间时，该面就是lower hull：α4≥1+(10/3)(α2−1)。
+
+源alpha11.3-MeV中央值(.973,.803)给线性泛函−107/1000，而凸包在α2=.973要求α4≥.910。故该打印中央值不能作为声明条件下正布居的精确两个矩；三位小数舍入的最大修正也只给−629/6000，仍负。这是Farkas不可行证书，不是实验被排除、作者代码出错或测量错误的证据。实际joint Cov、有限样本likelihood、δ/geometry/area校正与feeding约定仍缺。
+
+| 来源 / projectile / lab E(MeV) | 中央值(α2,α4) | 条件可行性 |
+| --- | --- | --- |
+| Z83 / alpha / 11.3 | (.973,.803) | exact-moment条件下不可行 |
+| Z83 / alpha / 12 | (.910,.810) | 可行 |
+| Z83 / alpha / 15 | (.681,.419) | 可行 |
+| Z83 / alpha / 18 | (.728,.263) | 可行 |
+| Z83 / alpha / 22 | (.674,.215) | 可行 |
+| Z83 / 12C / 32 | (.793,.595) | 可行 |
+| Z83 / 12C / 36 | (.821,.569) | 可行 |
+| Z83 / 12C / 40 | (.820,.569) | 可行 |
+| Z83 / 12C / 44 | (.754,.573) | 可行 |
+| Z83 / 12C / 48 | (.756,.413) | 可行 |
+| Z80 / 12C / 40 | (.794,.431) | 可行 |
+
+十条扫描行和一条必要companion都使用同一criterion，没有删掉不适配的点或补alpha9空白。每个可行点均保存LP求得的严格正、归一、匹配两矩的witness，最低pair概率为.005751至.029013。它们是数学见证，不是实测P(M)；三个线性约束对七个pair量仍留四个局部自由方向。来源之间的采集独立性仍由Z80-18/Z83-13边界限制。
+
+### 误差区域相交仍需真实Cov
+
+只把原quotederrors(.037,.090)作为std并另选ρ，以二维Gaussian作敏感性控制。最近凸包点逐一遍历七条边，再独立用该active面投影核验。Q68%=2.278868566，ρ=−.8/0/+.8/+.95分别给最近距离平方.278760/.491139/2.062470/5.154627；前三个chosen椭圆相交，最后不相交。临界ρ=.823744449仅属于这个chosen Gaussian/quoted-marginals/固定模型，不是实测ρ界。
+
+因此中央值不可行与实验排除是不同命题；真实Cov/响应未知时不给显著性或任意实验判别。也不能把有正witness的两个矩当作完整布居或Gaussian模型的唯一验证。必要companion是完整角fit与面积/效率/monitor Cov、独立的multipolarity/purity误差和匹配feeding条件；1979 Ref4/9的原研究是正在核查的输入路线。
+
+![同parent原表与正布居可行域](../../outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/positive-population-hull.svg)
+
+图中数据是11个published fit means与quoted marginal errors，灰域和绿色曲线是本任务条件模型；只显示α2≥.60的视野，完整七顶点与全域证书保存在上表/计算。图不画source joint CI、实验拒绝率或Gaussian拟合。数据未jitter/删除，1980/1983图标不代表独立采集。
+
+复算：[day14_positive_population_hull.py](../../system/scripts/day14_positive_population_hull.py)；完整source rows、rational halfspaces、LP状态/witness、chosenΣ与最近点在本run positive-population-hull.json。40项检查均通过。决定revises“先从alpha2反演Gaussian宽度而不审两矩可行性”的分析顺序，supports先保存核态正性/响应/未知Cov边界；无实验重拟合或新σ/I/结构模式赋值，Day15仍无学分。

@@ -68,6 +68,7 @@ For P-ADO/mixing-ratio work, the key methodological boundary is explicit: angula
 | Z80-17 | Table1的67Ga 958.0keV、13/2+→9/2+行给a2=.349±.007、a4=−.093±.007与alpha2=.794±.016、alpha4=.431±.032；Table2 reactionA为57Fe+12C、40.0MeV。当前只转录同parent这一行作变量约定cross-check，不作全部17行Gaussian检验。 | published-fit-result-and-scope | direct | printed p.226 / PDFp.4，Table1 958.0-keV行；printed p.228 Table2 A | true |
 | Z80-18 | 1980 Table1的67Ga输入指向Ref9=Zobel等NPA316,165(1979)，与1983 Ref4相同；配套方法文及后续beam scan不能仅凭两篇出版物认证independent raw events。 | source-lineage-and-boundary | mixed | printed p.226 Table1 ref栏；printed p.231 References9 | true |
 | Z80-19 | p229引用Table3，但当前sha-verified223–231九页scan仅见Table1/2；GNOMON在p231 Ref14列为unpublished。当前不填缺失数值loss表或补造可重放code，Fig4/5属于source model control。 | input-readiness-boundary | mixed | printed p.229 Sec.4.2；printed p.231 References14 | true |
+| Z80-20 | Ref9/1983Ref4匹配Crossref DOI10.1016/0375-9474(79)90678-X，High spin states in 67Ga，NPA316,165–188(1979)。本轮primary未取得：API credentials_missing、OA/PDFcandidate未找到、精确Scholar超时；不能从metadata补δ误差或认证独立raw采集。TDMuserlicense不当OAlicense。 | bibliographic-resolution-and-readiness | metadata-and-boundary | Crossref exact DOI work；Day14合法access/discovery回执 | true |
 
 ## Authors' Interpretation
 
@@ -105,3 +106,12 @@ User review on 2026-07-08 resolved Z80-2/Z80-3/Z80-10 wording. Later paper use s
 公式自审落点：[[angular-distribution]]“Zobel1980附录：字面公式与联合覆盖”保留原A2/A3/A4–A6转录、独立JCovJ与Gaussian密度核，23项计算控制通过。A2/A6按字面执行与其定义不一致；A3的不带abs标准差需按正variance约定处理；A5的半径必须与Q/2一起看。这里是Codex转录/代数自审，未取得officialerratum，未回改raw或重新拟合原数据。真实sourceCov仍未知。
 
 review_status:human-reviewed及Z80-1–13的false是2026-07-08继承记录，未新增人审或扩大其范围；本run新14–19均needs_review:true。Z80-12“Cov须包含/联合区域为ellipse”的一般结论仍支持，精确式子需采用上面的可复核边界。此为Day14内Day15无学分预习，不变更正式21/24或课程信用。
+
+
+### 1979 Ref4/Ref9的输入边界
+
+Crossref精确书目匹配[High spin states in 67Ga](https://doi.org/10.1016/0375-9474(79)90678-X)，Nuclear Physics A316,165–188(1979)，是原Ref9与Z83 Ref4指向的同一work。Crossref末作者拼写Weihl与所读references的Wiehl有差异，尚无primary核实，不覆盖该字段或旧人审。元数据用于work身份/依赖导航，不替代正文的level/multipolarity/δ/polarization/原数据证据。
+
+按本次无人值守计划的bounded正文companion范围，以nature-downloader出版商API、合法OA与public publisher PDF discovery推进；API未配置、没有OA文件/公开PDFcandidate，精确Scholar检索超时。未配置或改动credentials，未进入宿主GUI/浏览器，没有获得或写入raw文件。下载器将Elsevier TDM userlicense标签为confirmed_oa，本轮不接受该判定：Unpaywall is_oa=false且无可读OA对象。这里是access metadata自审，不把TDMlicense当开放许可。
+
+故停止这条原文获取路线，缺失的purity误差/producer/response为何重要已保留：它们决定表中采用δ=0后的α能否代表所声明的核张量，以及多个引用是否共享数据。下一最高信息路线是NNDC/ENSDF 67Ga的公开evaluated/reaction记录核对multipolarity/δ来源；它也不能自动变成独立实验或补当前角fitCov。DAY14继续，Day15仅无学分预习。新增Z80-20 true，旧review范围保持。

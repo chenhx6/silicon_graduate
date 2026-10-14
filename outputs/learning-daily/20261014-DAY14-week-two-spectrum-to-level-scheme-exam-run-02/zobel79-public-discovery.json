@@ -1,0 +1,18 @@
+{
+  "tool": "mcp__paper_search_nodejs__discover_paper_access",
+  "doi": "10.1016/0375-9474(79)90678-X",
+  "accessDiscovery": {
+    "status": "not_found",
+    "landingUrl": "https://linkinghub.elsevier.com/retrieve/pii/037594747990678X",
+    "landingHost": "linkinghub.elsevier.com",
+    "reason": "no_candidate",
+    "targetStatus": 200,
+    "candidateCount": 0,
+    "candidateUrls": [],
+    "fetchedAt": "2026-10-14T22:18:33.521Z",
+    "fallback": {
+      "attempted": false,
+      "combinationsAttempted": 0
+    }
+  }
+}

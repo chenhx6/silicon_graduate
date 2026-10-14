@@ -1,0 +1,747 @@
+{
+  "kind": "L2 kinematic positive-population hull applied to printed fit means",
+  "conditions": {
+    "J": "13/2",
+    "P_minusM_equals_P_M": true,
+    "diagonal_population": true,
+    "reference_abs_M": "1/2",
+    "source_adopted_delta": 0,
+    "not_a_reaction_population_prior": true
+  },
+  "exact_vertices": [
+    {
+      "abs_M": "1/2",
+      "alpha2": "1",
+      "alpha4": "1"
+    },
+    {
+      "abs_M": "3/2",
+      "alpha2": "7/8",
+      "alpha4": "7/12"
+    },
+    {
+      "abs_M": "5/2",
+      "alpha2": "5/8",
+      "alpha4": "-13/108"
+    },
+    {
+      "abs_M": "7/2",
+      "alpha2": "1/4",
+      "alpha4": "-23/27"
+    },
+    {
+      "abs_M": "9/2",
+      "alpha2": "-1/4",
+      "alpha4": "-11/9"
+    },
+    {
+      "abs_M": "11/2",
+      "alpha2": "-7/8",
+      "alpha4": "-77/108"
+    },
+    {
+      "abs_M": "13/2",
+      "alpha2": "-13/8",
+      "alpha4": "143/108"
+    }
+  ],
+  "exact_halfspaces": [
+    {
+      "normal": [
+        "-5/12",
+        "1/8"
+      ],
+      "offset": "7/24",
+      "inequality": "n dot alpha + offset >= 0"
+    },
+    {
+      "normal": [
+        "-19/27",
+        "1/4"
+      ],
+      "offset": "203/432",
+      "inequality": "n dot alpha + offset >= 0"
+    },
+    {
+      "normal": [
+        "-79/108",
+        "3/8"
+      ],
+      "offset": "217/432",
+      "inequality": "n dot alpha + offset >= 0"
+    },
+    {
+      "normal": [
+        "-10/27",
+        "1/2"
+      ],
+      "offset": "14/27",
+      "inequality": "n dot alpha + offset >= 0"
+    },
+    {
+      "normal": [
+        "55/108",
+        "5/8"
+      ],
+      "offset": "385/432",
+      "inequality": "n dot alpha + offset >= 0"
+    },
+    {
+      "normal": [
+        "55/27",
+        "3/4"
+      ],
+      "offset": "1001/432",
+      "inequality": "n dot alpha + offset >= 0"
+    },
+    {
+      "normal": [
+        "-35/108",
+        "-21/8"
+      ],
+      "offset": "637/216",
+      "inequality": "n dot alpha + offset >= 0"
+    }
+  ],
+  "Farkas_certificate_alpha11p3": {
+    "dual_normalized_lambda": [
+      "7/3",
+      "-10/3",
+      "1"
+    ],
+    "values_on_seven_columns": [
+      "0",
+      "0",
+      "7/54",
+      "35/54",
+      "35/18",
+      "245/54",
+      "245/27"
+    ],
+    "value_at_printed_mean": "-107/1000",
+    "maximum_value_with_three_decimal_rounding": "-629/6000",
+    "lower_hull_alpha4_at_alpha2_0p973": 0.91,
+    "printed_alpha4": 0.803
+  },
+  "all_source_rows": [
+    {
+      "source": "Z83-11 / printed392 Table1",
+      "beam": "alpha",
+      "energy_MeV": 11.3,
+      "mean": [
+        0.973,
+        0.803
+      ],
+      "marginal_sigmas": [
+        0.037,
+        0.09
+      ],
+      "halfspace_values": [
+        -0.01337499999999997,
+        -0.014046296296296334,
+        0.09170833333333334,
+        0.5596481481481481,
+        1.888587962962963,
+        4.901416666666667,
+        0.5258750000000001
+      ],
+      "solver_status": 2,
+      "solver_message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is Infeasible)",
+      "feasible_exact_fit_mean": false,
+      "q_is_a_chosen_mathematical_witness_not_measured": true
+    },
+    {
+      "source": "Z83-11 / printed392 Table1",
+      "beam": "alpha",
+      "energy_MeV": 12,
+      "mean": [
+        0.91,
+        0.81
+      ],
+      "marginal_sigmas": [
+        0.037,
+        0.09
+      ],
+      "halfspace_values": [
+        0.013749999999999984,
+        0.03203703703703703,
+        0.14041666666666658,
+        0.5864814814814815,
+        1.8608796296296297,
+        4.778333333333334,
+        0.5279166666666666
+      ],
+      "solver_status": 0,
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "feasible_exact_fit_mean": true,
+      "q_is_a_chosen_mathematical_witness_not_measured": true,
+      "q_basic": [
+        0.8179591836734694,
+        0.0,
+        0.1723809523809523,
+        0.0,
+        0.0,
+        0.0,
+        0.009659863945578199
+      ],
+      "q_maximum_minimum_mass": [
+        0.6167346938775511,
+        0.3495918367346939,
+        0.006734693877551064,
+        0.006734693877551064,
+        0.006734693877551064,
+        0.006734693877551064,
+        0.006734693877551064
+      ],
+      "minimum_mass": 0.006734693877551064,
+      "constraint_residual": 4.440892098500626e-16
+    },
+    {
+      "source": "Z83-11 / printed392 Table1",
+      "beam": "alpha",
+      "energy_MeV": 15,
+      "mean": [
+        0.681,
+        0.419
+      ],
+      "marginal_sigmas": [
+        0.036,
+        0.087
+      ],
+      "halfspace_values": [
+        0.06029166666666663,
+        0.09543518518518512,
+        0.16130092592592582,
+        0.4757962962962963,
+        1.4998842592592592,
+        4.018601851851852,
+        1.6285046296296295
+      ],
+      "solver_status": 0,
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "feasible_exact_fit_mean": true,
+      "q_is_a_chosen_mathematical_witness_not_measured": true,
+      "q_basic": [
+        0.42268480725623575,
+        0.0,
+        0.5317566137566139,
+        0.0,
+        0.0,
+        0.0,
+        0.045558578987150385
+      ],
+      "q_maximum_minimum_mass": [
+        0.0290133708655876,
+        0.7607473610133708,
+        0.09418578465869121,
+        0.0290133708655876,
+        0.0290133708655876,
+        0.0290133708655876,
+        0.0290133708655876
+      ],
+      "minimum_mass": 0.0290133708655876,
+      "constraint_residual": 2.220446049250313e-16
+    },
+    {
+      "source": "Z83-11 / printed392 Table1",
+      "beam": "alpha",
+      "energy_MeV": 18,
+      "mean": [
+        0.728,
+        0.263
+      ],
+      "marginal_sigmas": [
+        0.036,
+        0.087
+      ],
+      "halfspace_values": [
+        0.02120833333333333,
+        0.02336111111111111,
+        0.06842129629629629,
+        0.3803888888888889,
+        1.4263194444444445,
+        3.9973425925925925,
+        2.022773148148148
+      ],
+      "solver_status": 0,
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "feasible_exact_fit_mean": true,
+      "q_is_a_chosen_mathematical_witness_not_measured": true,
+      "q_basic": [
+        0.33024036281179137,
+        0.0,
+        0.6604973544973545,
+        0.0,
+        0.0,
+        0.0,
+        0.009262282690854108
+      ],
+      "q_maximum_minimum_mass": [
+        0.007102040816326556,
+        0.5433877551020408,
+        0.4211020408163266,
+        0.007102040816326556,
+        0.007102040816326556,
+        0.007102040816326556,
+        0.007102040816326556
+      ],
+      "minimum_mass": 0.007102040816326556,
+      "constraint_residual": 2.220446049250313e-16
+    },
+    {
+      "source": "Z83-11 / printed392 Table1",
+      "beam": "alpha",
+      "energy_MeV": 22,
+      "mean": [
+        0.674,
+        0.215
+      ],
+      "marginal_sigmas": [
+        0.036,
+        0.087
+      ],
+      "halfspace_values": [
+        0.03770833333333329,
+        0.04936111111111108,
+        0.0899212962962962,
+        0.37638888888888883,
+        1.3688194444444446,
+        3.851342592592593,
+        2.1662731481481483
+      ],
+      "solver_status": 0,
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "feasible_exact_fit_mean": true,
+      "q_is_a_chosen_mathematical_witness_not_measured": true,
+      "q_basic": [
+        0.2695056689342404,
+        0.0,
+        0.7073544973544974,
+        0.0,
+        0.0,
+        0.0,
+        0.023139833711262287
+      ],
+      "q_maximum_minimum_mass": [
+        0.015006333567909924,
+        0.47361717100633355,
+        0.45135116115411694,
+        0.015006333567909924,
+        0.015006333567909924,
+        0.015006333567909924,
+        0.015006333567909924
+      ],
+      "minimum_mass": 0.015006333567909924,
+      "constraint_residual": 2.7755575615628914e-17
+    },
+    {
+      "source": "Z83-11 / printed392 Table1",
+      "beam": "12C",
+      "energy_MeV": 32,
+      "mean": [
+        0.793,
+        0.595
+      ],
+      "marginal_sigmas": [
+        0.032,
+        0.093
+      ],
+      "halfspace_values": [
+        0.03562499999999996,
+        0.06062037037037027,
+        0.14537499999999992,
+        0.5223148148148148,
+        1.6669212962962963,
+        4.37875,
+        1.1302083333333333
+      ],
+      "solver_status": 0,
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "feasible_exact_fit_mean": true,
+      "q_is_a_chosen_mathematical_witness_not_measured": true,
+      "q_basic": [
+        0.6048163265306122,
+        0.0,
+        0.36904761904761896,
+        0.0,
+        0.0,
+        0.0,
+        0.026136054421768674
+      ],
+      "q_maximum_minimum_mass": [
+        0.21644897959183648,
+        0.6963061224489799,
+        0.01744897959183677,
+        0.01744897959183677,
+        0.01744897959183677,
+        0.01744897959183677,
+        0.01744897959183677
+      ],
+      "minimum_mass": 0.01744897959183677,
+      "constraint_residual": 2.220446049250313e-16
+    },
+    {
+      "source": "Z83-11 / printed392 Table1",
+      "beam": "12C",
+      "energy_MeV": 36,
+      "mean": [
+        0.821,
+        0.569
+      ],
+      "marginal_sigmas": [
+        0.016,
+        0.051
+      ],
+      "halfspace_values": [
+        0.02070833333333333,
+        0.034416666666666706,
+        0.11514351851851845,
+        0.4989444444444444,
+        1.6649305555555556,
+        4.416287037037037,
+        1.1893842592592594
+      ],
+      "solver_status": 0,
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "feasible_exact_fit_mean": true,
+      "q_is_a_chosen_mathematical_witness_not_measured": true,
+      "q_basic": [
+        0.5989206349206349,
+        0.0,
+        0.38837037037037037,
+        0.0,
+        0.0,
+        0.0,
+        0.012708994708994696
+      ],
+      "q_maximum_minimum_mass": [
+        0.07514285714285712,
+        0.8741428571428571,
+        0.010142857142857172,
+        0.010142857142857172,
+        0.010142857142857172,
+        0.010142857142857172,
+        0.010142857142857172
+      ],
+      "minimum_mass": 0.010142857142857172,
+      "constraint_residual": 1.1102230246251565e-16
+    },
+    {
+      "source": "Z83-11 / printed392 Table1",
+      "beam": "12C",
+      "energy_MeV": 40,
+      "mean": [
+        0.82,
+        0.569
+      ],
+      "marginal_sigmas": [
+        0.02,
+        0.078
+      ],
+      "halfspace_values": [
+        0.021125000000000005,
+        0.03512037037037036,
+        0.11587499999999995,
+        0.4993148148148148,
+        1.6644212962962963,
+        4.41425,
+        1.1897083333333334
+      ],
+      "solver_status": 0,
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "feasible_exact_fit_mean": true,
+      "q_is_a_chosen_mathematical_witness_not_measured": true,
+      "q_basic": [
+        0.5984489795918366,
+        0.0,
+        0.38847619047619053,
+        0.0,
+        0.0,
+        0.0,
+        0.013074829931972776
+      ],
+      "q_maximum_minimum_mass": [
+        0.0773469387755101,
+        0.870918367346939,
+        0.010346938775510258,
+        0.010346938775510258,
+        0.010346938775510258,
+        0.010346938775510258,
+        0.010346938775510258
+      ],
+      "minimum_mass": 0.010346938775510258,
+      "constraint_residual": 4.440892098500626e-16
+    },
+    {
+      "source": "Z83-11 / printed392 Table1",
+      "beam": "12C",
+      "energy_MeV": 44,
+      "mean": [
+        0.754,
+        0.573
+      ],
+      "marginal_sigmas": [
+        0.033,
+        0.088
+      ],
+      "halfspace_values": [
+        0.049124999999999974,
+        0.08256481481481476,
+        0.1656527777777777,
+        0.5257592592592593,
+        1.6333101851851852,
+        4.282805555555556,
+        1.200597222222222
+      ],
+      "solver_status": 0,
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "feasible_exact_fit_mean": true,
+      "q_is_a_chosen_mathematical_witness_not_measured": true,
+      "q_basic": [
+        0.5702585034013605,
+        0.0,
+        0.39203174603174595,
+        0.0,
+        0.0,
+        0.0,
+        0.037709750566893394
+      ],
+      "q_maximum_minimum_mass": [
+        0.23506122448979577,
+        0.6446326530612246,
+        0.02406122448979596,
+        0.02406122448979596,
+        0.02406122448979596,
+        0.02406122448979596,
+        0.02406122448979596
+      ],
+      "minimum_mass": 0.02406122448979596,
+      "constraint_residual": 2.220446049250313e-16
+    },
+    {
+      "source": "Z83-11 / printed392 Table1",
+      "beam": "12C",
+      "energy_MeV": 48,
+      "mean": [
+        0.756,
+        0.413
+      ],
+      "marginal_sigmas": [
+        0.038,
+        0.11
+      ],
+      "halfspace_values": [
+        0.02829166666666666,
+        0.041157407407407365,
+        0.10418981481481471,
+        0.4450185185185185,
+        1.5343287037037037,
+        4.16687962962963,
+        1.619949074074074
+      ],
+      "solver_status": 0,
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "feasible_exact_fit_mean": true,
+      "q_is_a_chosen_mathematical_witness_not_measured": true,
+      "q_basic": [
+        0.4536507936507936,
+        0.0,
+        0.5289629629629631,
+        0.0,
+        0.0,
+        0.0,
+        0.017386243386243394
+      ],
+      "q_maximum_minimum_mass": [
+        0.012512315270935956,
+        0.7554778325123152,
+        0.181960591133005,
+        0.012512315270935956,
+        0.012512315270935956,
+        0.012512315270935956,
+        0.012512315270935956
+      ],
+      "minimum_mass": 0.012512315270935956,
+      "constraint_residual": 5.551115123125783e-17
+    },
+    {
+      "source": "Z80-17 / printed226 Table1",
+      "beam": "12C",
+      "energy_MeV": 40.0,
+      "mean": [
+        0.794,
+        0.431
+      ],
+      "marginal_sigmas": [
+        0.016,
+        0.032
+      ],
+      "halfspace_values": [
+        0.014708333333333323,
+        0.018916666666666637,
+        0.08314351851851842,
+        0.43994444444444436,
+        1.5649305555555557,
+        4.257787037037037,
+        1.5603842592592592
+      ],
+      "solver_status": 0,
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "feasible_exact_fit_mean": true,
+      "q_is_a_chosen_mathematical_witness_not_measured": true,
+      "q_basic": [
+        0.484798185941043,
+        0.0,
+        0.5095132275132277,
+        0.0,
+        0.0,
+        0.0,
+        0.005688586545729363
+      ],
+      "q_maximum_minimum_mass": [
+        0.005750879662209736,
+        0.7823912737508796,
+        0.18885432793807191,
+        0.005750879662209736,
+        0.005750879662209736,
+        0.005750879662209736,
+        0.005750879662209736
+      ],
+      "minimum_mass": 0.005750879662209736,
+      "constraint_residual": 2.220446049250313e-16
+    }
+  ],
+  "chosen_covariance_controls": [
+    {
+      "rho_chosen": -0.8,
+      "covariance_chosen": [
+        [
+          0.0013689999999999998,
+          -0.0026639999999999997
+        ],
+        [
+          -0.0026639999999999997,
+          0.0081
+        ]
+      ],
+      "closest_physical_point": [
+        0.9541710799697003,
+        0.8472369332323342
+      ],
+      "minimum_Mahalanobis_squared": 0.27876041553944225,
+      "joint68_ellipse_intersects_hull_chosen": true
+    },
+    {
+      "rho_chosen": 0.0,
+      "covariance_chosen": [
+        [
+          0.0013689999999999998,
+          0.0
+        ],
+        [
+          0.0,
+          0.0081
+        ]
+      ],
+      "closest_physical_point": [
+        0.9520539084842707,
+        0.8401796949475691
+      ],
+      "minimum_Mahalanobis_squared": 0.4911391801715902,
+      "joint68_ellipse_intersects_hull_chosen": true
+    },
+    {
+      "rho_chosen": 0.8,
+      "covariance_chosen": [
+        [
+          0.0013689999999999998,
+          0.0026639999999999997
+        ],
+        [
+          0.0026639999999999997,
+          0.0081
+        ]
+      ],
+      "closest_physical_point": [
+        0.9363895516413131,
+        0.7879651721377102
+      ],
+      "minimum_Mahalanobis_squared": 2.062469975980776,
+      "joint68_ellipse_intersects_hull_chosen": true
+    },
+    {
+      "rho_chosen": 0.95,
+      "covariance_chosen": [
+        [
+          0.0013689999999999998,
+          0.0031634999999999996
+        ],
+        [
+          0.0031634999999999996,
+          0.0081
+        ]
+      ],
+      "closest_physical_point": [
+        0.9055643071535769,
+        0.6852143571785898
+      ],
+      "minimum_Mahalanobis_squared": 5.154627313656811,
+      "joint68_ellipse_intersects_hull_chosen": false
+    }
+  ],
+  "joint68_full_Q_threshold": 2.2788685663767296,
+  "chosen_model_critical_rho": 0.8237444489592917,
+  "boundaries": [
+    "The central-fit-mean feasibility result is conditional on fixed J, tensor reference and the source-adopted multipolarity/response convention.",
+    "A fitted mean outside the kinematic hull does not reject the measurement; actual joint covariance, nuisance/response and finite-sample likelihood are not supplied.",
+    "A feasible LP witness is not a measured P(M), a fitted Gaussian width, or proof of physical realization by the reaction.",
+    "ALY and Gaussian curves impose feeding/population conditions in addition to quantum positivity; they are not this complete hull.",
+    "No row is silently dropped; the ten nonempty Z83 rows and the matched Z80 row are all audited, and missing alpha9 remains unfilled.",
+    "The chosen Gaussian covariance controls are not experimental significance, a source confidence region, or an L4 replay.",
+    "The two publications share the Zobel1979 reference; independent raw sampling is not attested.",
+    "Day15 remains uncredited partial preview; formal DAY14 score remains21/24."
+  ],
+  "checks": {
+    "ten_Z83_rows_same_fixed_parent": true,
+    "all_source_covariances_remain_unknown": true,
+    "all_exact_edges_nonnegative_on_all_vertices": true,
+    "exact_fraction_vertices_match_full_Stevens_reference": true,
+    "isotropic_population_inside_hull_with_zero_tensors": true,
+    "three_constraints_leave_four_linear_population_directions": true,
+    "exact_Farkas_nonnegative_columns_and_negative_mean": true,
+    "printed_three_decimal_rounding_cannot_remove_certificate": true,
+    "row0_LP_matches_all_hull_halfspaces": true,
+    "row1_LP_matches_all_hull_halfspaces": true,
+    "row1_witness_positive_normalized_and_exact_moments": true,
+    "row2_LP_matches_all_hull_halfspaces": true,
+    "row2_witness_positive_normalized_and_exact_moments": true,
+    "row3_LP_matches_all_hull_halfspaces": true,
+    "row3_witness_positive_normalized_and_exact_moments": true,
+    "row4_LP_matches_all_hull_halfspaces": true,
+    "row4_witness_positive_normalized_and_exact_moments": true,
+    "row5_LP_matches_all_hull_halfspaces": true,
+    "row5_witness_positive_normalized_and_exact_moments": true,
+    "row6_LP_matches_all_hull_halfspaces": true,
+    "row6_witness_positive_normalized_and_exact_moments": true,
+    "row7_LP_matches_all_hull_halfspaces": true,
+    "row7_witness_positive_normalized_and_exact_moments": true,
+    "row8_LP_matches_all_hull_halfspaces": true,
+    "row8_witness_positive_normalized_and_exact_moments": true,
+    "row9_LP_matches_all_hull_halfspaces": true,
+    "row9_witness_positive_normalized_and_exact_moments": true,
+    "row10_LP_matches_all_hull_halfspaces": true,
+    "row10_witness_positive_normalized_and_exact_moments": true,
+    "only_alpha11p3_mean_outside_this_conditional_hull": true,
+    "rho-0.8_all_edge_distance_equals_active_plane_formula": true,
+    "rho-0.8_closest_point_is_on_physical_hull": true,
+    "rho0.0_all_edge_distance_equals_active_plane_formula": true,
+    "rho0.0_closest_point_is_on_physical_hull": true,
+    "rho0.8_all_edge_distance_equals_active_plane_formula": true,
+    "rho0.8_closest_point_is_on_physical_hull": true,
+    "rho0.95_all_edge_distance_equals_active_plane_formula": true,
+    "rho0.95_closest_point_is_on_physical_hull": true,
+    "unknown_rho_changes_joint68_intersection_decision": true,
+    "conditional_rho_critical_point_is_joint68_tangent": true
+  },
+  "checks_passed": 40
+}
