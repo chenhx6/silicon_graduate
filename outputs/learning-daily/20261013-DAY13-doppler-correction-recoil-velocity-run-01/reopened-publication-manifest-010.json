@@ -1,0 +1,25 @@
+{
+  "branch": "main",
+  "subject": "Add DAY13 exact feeding ambiguity and recoil limits",
+  "scope": "active checkpoint; no new credit or research closeout",
+  "files": [
+    "knowledge/methods/doppler-correction.md",
+    "knowledge/synthesis/doppler-velocity-validation-contract.md",
+    "outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity.md",
+    "outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity-run-01/run.json",
+    "system/handoff.md",
+    "system/log.md",
+    "system/scripts/day13_exact_feeding_history.py",
+    "system/scripts/day13_cascade_recoil_response.py",
+    "outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity-run-01/exact-feeding-entry-history-recall.md",
+    "outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity-run-01/exact-feeding-entry-history-exercise.json",
+    "outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity-run-01/cascade-recoil-degeneracy-check-recall.md",
+    "outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity-run-01/cascade-recoil-response-exercise.json",
+    "outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity-run-01/reopened-checkpoint-audit-010.json",
+    "outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity-run-01/research-checkpoint-reopened-013.json",
+    "outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity-run-01/reopened-publication-h3-009.json",
+    "outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity-run-01/continuation-prompt.md",
+    "outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity-run-01/reopened-publication-manifest-010.json"
+  ],
+  "excluded": "inherited Day6–9/daemon/log, raw/PLAN/credentials, tmp/runtimeclock files"
+}

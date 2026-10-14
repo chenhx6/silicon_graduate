@@ -1,0 +1,11 @@
+{
+  "now_local": "2026-10-14T09:39:59.057803+08:00",
+  "minutes_to_deadline": 320.0157032833333,
+  "status": "research-active",
+  "writeback_items": 118,
+  "mapped_paths": 31,
+  "decision": "continue-TKEL-depth-response-inverse-closure",
+  "course_state": "next14/count13 unchanged",
+  "no_new_credit": true,
+  "clock_queued_not_delivered": true
+}

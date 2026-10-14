@@ -1675,3 +1675,8 @@ CI20/ZA23/CM21 main、SI与publisher版本完成；20O150/70fs独立comparison�
 ## 2026-10-14T08:56 — DAY13 RF and count-statistic checkpoint
 
 RFphase/A-q alias、独立energy反证与BC84直接方法/计数/区域设计已写回。114items/31mappedpaths、lint0errors/126warnings及边界/报告/课程/保护/哈希/diff通过；真实τ不重拟合、不改sourceerrors、17rawslots未填充。原windowactive，下一TKEL/depth/responseclosure；上段Gitee初次失败和安全retry真实记录保留。main / `Extend DAY13 RF aliases and histogram fit controls`。
+
+
+## 2026-10-14T09:39 — DAY13 exact feeding and recoil checkpoint
+
+全properwaiting120/60fs/50%identity与Lorentz/cascade recoilresponse限制完成自设推导/独立MC/守恒/limits，sourceactualτ不重拟合、tag分母与angular/commonK明确。118items/31mappedpaths，lint0errors/126warnings及边界/报告/课程/保护/状态/diff通过，原windowactive，下一TKEL/depthclosure。main / `Add DAY13 exact feeding ambiguity and recoil limits`。

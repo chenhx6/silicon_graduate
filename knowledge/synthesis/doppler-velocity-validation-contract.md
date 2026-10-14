@@ -137,6 +137,16 @@ CM21-16的Mgenergyanchor由PARISNaI neutronactivation/24Naβdecay产生，不能
 
 自设uniformrate反例/regularGaussian区域已写[[doppler-correction]]并有脚本/MC：allbins≥10仍有Neymanratebias，joint68%/τprojection约87%不同。这些只约束过强method假设，不证明sourceτ方向/显著性或转换它的errors。需要rawcounts/background/bin/template/Σ与confidenceconstruction才能做actualrefit；samepipeline输出的几种fitstatistic不是独立实验。
 
+## Entry history 的可解析竞争者
+
+CM21-18与ZA23-2/3/5/7所需的feeding/entry边界在[[doppler-correction]]“同一发射等待分布不唯一对应目标态寿命”有一项任务反例：τl<τeff、上态τeff、直接r=τl/τeff和feeding1−r使目标γproperwaiting恰为Expτeff。共同transport/response下，同一目标γ多角/全shape也不区分两个固有τ；这不是source已报告的feeder参数。
+
+所需反证是独立entry/feeder信息，或证明共同K假设失效的recoil/multiplicity/trigger响应。自设120/60fs/50%与600kMC/analyticclosure仅证明有限模型的非唯一性，未解释真实150/70fs。来源已知54fs上态/28%branch不等该构造；knownentryhistory可排除竞争者，actualL4仍需packet。
+
+## 共同K的物理边界也要量化
+
+目标态/upperphotonrecoil、transport、alignment/角关联或selection改变时，共同K的exactfeeding反例条件不成立。[[doppler-correction]]的cascade-recoil练习用自设two-bodymassproxy/constantflight及isotropic角分布检验这一边界；A20/gap1MeV使50%feed/σ2keV模型的σ变2.000689keV，未知Gaussianresponse可吸收多数差异。Model的KL/MC非实际τdiscrepancy/实验precision，不能从“物理上打破理想恒等式”跳到“source已可辨识feeding”；独立tag/entry和响应约束仍须核。
+
 ## Sources
 
 新增 [[ziliani-2019-agata-calibration-controls]] ZL19-2/4/6/7/8/9实际time/energy/historycontrols；与CO19同data。Calibrationwidth、energyanchorprecision、actualcentroidΣ、independentvelocity与absolutephotonintensity仍分开，完整predicate/config/Σ未取得。

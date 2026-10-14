@@ -989,3 +989,43 @@ CM21-1的RF102ns/TOF、AS21-9/10的integerA/Q与rigidityspeed为动机。以下�
 BC84-4/6/7：`Lp=P(N;N0) Lmultinomial(n|N)`；模型有完全自由overallscale `y_i=a g_i(shape)` 时PoissonMLE保持Σy=Σn，pointestimate可与multinomial等价；interval不自动相同。若`y_i=a g_i+b_i`有固定background、外部yield/efficiency或prior约束，freeoverallscale的充分条件可能不成立，不能无说明删除总rate项。现有selfchosenconditionalshape/KL练习主动排除了总yield信息，保留各自边界；不当成actualextendedlikelihood。
 
 Validationpacket应包含bin edges/counts、rebinrule、各背景观测/normalization、simulation统计量与templateintegrals、相关Σ、拟合参数/nuisance约束、point/interval/GOF各自定义和pseudoexperimentclosure。Sourcepaper/这两toy没有替代这些输入，L4refit仍未ready。
+
+## 同一发射等待分布不唯一对应目标态寿命
+
+CM21-18的cumulativelifetime/feeding与ZA23-2/3/5/7的entryselection问题，可以用一个**自设、可解析的反例**深入检查；此为`our-inference`，不是来源给的feeder数值或20O差异原因。[day13_exact_feeding_history.py](../../system/scripts/day13_exact_feeding_history.py)验证整个properemissiontime分布，补充前面的meanwaiting/错设KL练习。
+
+令纯直接布居模型的等待为`Exp(τeff)`。另一模型目标态固有τl<τeff，上态τu=τeff；直接布居fraction `r=τl/τeff`，feedingfraction `f=1−r`。若等候时间独立、上态γ反冲/transport区别忽略，研究目标γ的properwaiting density为
+
+$$
+h(t)=\frac{r}{\tau_l}e^{-t/\tau_l}
++\frac{1-r}{\tau_{eff}-\tau_l}
+\left(e^{-t/\tau_{eff}}-e^{-t/\tau_l}\right)
+=\frac{1}{\tau_{eff}}e^{-t/\tau_{eff}}.
+$$
+
+Laplace form也精确相同：`[r+(1−r)/(1+sτeff)]/(1+sτl)=1/(1+sτeff)`。相同的是整个分布；不只mean/variance或有限bin图。只要两模型使用同一recoiltrajectory/properclock、同一研究γ及共同response `K(o|t)`，`∫K(o|t)h(t)dt`也相同。多角覆盖、更高statistics或相同targetγ的held-out重处理本身不能排除这个特定的history竞争者。
+
+自设τeff120fs、目标τl60fs、上态τu120fs、f=.5：propermean均120fs、variance均14400fs²，但目标固有寿命不同。沿既有自设β.126→.08/proper.4ps、Eγ2396.1keV/Gaussianσ2keV、130/150/170°计算，normalizedenergyprofile最大差1.4×10⁻17；timedensity差1.8×10⁻15/ps、归一化和generalr/端点Laplace检验通过。独立600kMC两等待样本KS statistic .000788，三角importance-weightedenergy moments相容；这个KS只作模拟一致性检查。
+
+条件与反证必须同时保留：actual upperγrecoil、不同状态transport/alignment/角关联、feeder标签、γmultiplicity/trigger或particleEx entryselection可能使K不再共同，从而打破退化。对pre-angular-selection parentpopulation和unit4π targetacceptance，自设feedγtagε=.25时alternative预测tagfraction.125，直接-only模型0；逐角acceptedγ样本需另计算conditionalf/ε，不能移用该分母。这是提出独立伴随观测的例子，不估本实验ε或f。若directentry已经受可靠门/布居/branch/upperτ约束，竞争者可被排除。
+
+ZA23的已知3+1τ54fs不是本构造的120fs上态，BR.28也不是f=.5。本反例不证明它造成CI20的150fs，也不重判实际τ/B。它支持具体的验证契约：漂亮的targetγfit还需独立entry/feeding信息；cumulativeτ与目标固有τ的区别须随branch/δ/absolute-strength链保留。代码只验证声明的共同轨迹/无feederrecoil模型，source-experiment remains not-ready for refit。
+
+## Cascade recoil 对共同响应假设的限定
+
+上段exactfeeding identity假设共同K。另一项自设练习[day13_cascade_recoil_response.py](../../system/scripts/day13_cascade_recoil_response.py)加入upper→lower+γ的two-body recoil，隔离其中一个failurecondition；source动机为CM21-18/ZA23-5的feeding以及T12C-1/2的level/photon区分，具体数值为任务推导，不是source实际cascade。
+
+设mass-energy mU=mL+gap，upper-rest photon `k=gap(2mL+gap)/(2mU)`、lowerenergy`eL=mU−k`、recoil`u=k/eL`。下态在自己restframe发研究γE0；在parentframe固定方向n′时`E′=E0/[γr(1−u·n′)]`。用parent-reference的Dopplerinverse会还原E′，未必E0。Code用反向/正向四向量boost独立核scalar式、aberration与mass-shell/能量动量守恒。
+
+本模型parent恒速、upper与targetγ各isotropic，未含实际cascadealignment/角关联，Gaussianσ2keV为自设correctedenergyresponse。Fixedlabangle条件使用recoil角权重Drec⁻²；角平均归一化1、meanE′=γrE0、var(E′)=E0²γr²u²/3。Mean为u²效应、width为u效应。Feedfraction自设.5，E0=2396.1keV，mass=A u proxy，不作actualstateassignment。
+
+| 自设A/gap | Feed-only recoilσ/keV | 混合Gaussian后σ/keV | Fixedresponse KL/photon | 自由mean/σ后KL边界 |
+|---|---:|---:|---:|---|
+| 20/0.1MeV | 0.007426 | 2.000006892 | 1.1876e-11 | <1e-12，数值未分辨 |
+| 20/1.0MeV | 0.074254 | 2.000689097 | 1.187e-07 | <1e-12，数值未分辨 |
+| 20/3.0MeV | 0.222751 | 2.006192688 | 9.5775e-06 | 1.083e-11 |
+| 130/1.0MeV | 0.011424 | 2.000016313 | 6.6532e-11 | <1e-12，数值未分辨 |
+
+A20/gap1MeV下extra recoilσ.07425keV，50%mix使σ2变2.000689keV。响应严格已知时chosen10000photons的expected2N×KL约.002374，仅是此model的designmetric；自由Gaussianmean/σ吸收大部分差异，residualKL<1e−12不报精密物理显著性。表的massscaling不能移植为实际A≈130或20O的responsebudget。
+
+角度积分/解析moments、600k独立MC、嵌套Lorentzboost、zero-gap/large-mass/zero-boost与profile归一化通过。这个constant-flight模型没有重做foil τfit；若正确知道lower发射速度，使用它是另一reference，并不等于本例刻意忽略kick的parentreference。实际stopping、upper/target角关联、alignment、trigger/tag、source-responseΣ可能改变signature；独立entry/feeding标签仍是重要约束。

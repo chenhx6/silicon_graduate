@@ -343,6 +343,24 @@ SourceBC84-1/2/3/4/5/6/7/9分开pointestimate/interval/GOF、binintegral、Neyma
 
 这些meanbias、χ²field、normalization与validationpacket已经同步写[[doppler-correction]]与validation-contract；script`day13_count_statistic_regions.py`、outputJSON均标synthetic。Source方法全文和局部quantdesign完成只算checkpoint，原researchwindow仍active；下一高信息route是TKELbasis/depth/response的inverseclosure，未启动其它日卡。
 
+
+### Entry history 的exactfeeding反例
+
+在后续复杂TKEL/depthclosure之前，先解决更直接的可解析entryhistory问题；设计前回忆exact-feeding-entry-history-recall.md。模型完全自设：effective tau120fs可由固有lower tau60fs、upper tau120fs、direct/feeding各.5产生相同全properwaiting density。Density/Laplace/allr端点、normalization/firsttwo moments与600k独立MC均通过；共同自设transport/response三角energyprofile差1.4e-17。不是sourceevents、realKS/p-value或tau差异归因。
+
+Canonical公式/条件/反证已写[[doppler-correction]]与validation-contract：只有共同K、未观测feeder/无recoil/statechange等声明条件下成立；particleEx directentry、feeder gamma/upper tau/布居与实际multiplicity/response可排除或打破。已知ZA2354fs上态/.28branch不等本构造。单target gamma fit即使精确，也须与cumulative/固有tau区别一并传到strength链。
+
+来源/模型/任务推断分开，next14/count13不变；原窗口仍active。下一candidate TKEL/depth/responseinverseclosure仍未做，不把这项解析完成当schedulelevel结束。
+
+
+### Cascade recoil 的限定检验
+
+设计前回忆cascade-recoil-degeneracy-check-recall.md，constant-flight/massproxy/isotropicupper+target两γ练习已执行；exactfeeding的新物理边界明确包括upper recoil、state-dependentalignment/角关联、selection。Boost/mass-shell/角normalization/analyticmoments/600kMC及limits通过。
+
+自设A20/gap1MeV/Eγ2396.1keV，feed-only recoilσ.07425keV，50%mix+σ2keV后2.000689keV；fixedresponseKL1.187e−7/photon，未知mean/σ时KL<1e−12数值未分辨。任一expected2N×KL都只是chosenmodel/count的designmetric，无realχ²/CL或sourceprecision声明。代码特意用parentreference遗漏kick，不代表实际VAMOS已采用该reference；foiltransport/cascade角关联未模拟。
+
+推导/参数/表/反证同步到[[doppler-correction]]与validation-contract。Upper photon/independententrytag、真正responseΣ仍是必要伴随条件；不从理论上理想退化被打破就断言真实数据能区分。原window仍active；下一TKEL/depthclosure尚pending，不计新卡。
+
 ## Durable knowledge delta
 
 原已发布段落的canonical落点为八个 `knowledge/` 页面；持续段落新增source/tracking方法映射于同一block：Doppler诊断/推导、level-scheme方法、三份source、A≈130 evidence contract、开放问题locator及index。`outputs/`的JSON/回忆/评分/候选池只作执行与验收记录，不能取代这些证据页。新科学claims仍为unreviewed/needs_review；未升级为human-reviewed。
@@ -3340,6 +3358,114 @@ SourceBC84-1/2/3/4/5/6/7/9分开pointestimate/interval/GOF、binintegral、Neyma
           "locator": "BC84-9"
         }
       ]
+    },
+    {
+      "knowledge": "knowledge/methods/doppler-correction.md",
+      "anchor": "同一发射等待分布不唯一对应目标态寿命",
+      "summary": "自设120/60fs direct/feeding fractions的full-density/Laplace恒等式；同K下gamma shape非唯一tau，独立entry/feeder反证及recoil/selection限制。",
+      "sources": [
+        {
+          "path": "knowledge/sources/ciemala-2021-deep-inelastic-lifetime-method.md",
+          "locator": "CM21-18"
+        },
+        {
+          "path": "knowledge/sources/zanon-2023-o20-high-precision.md",
+          "locator": "ZA23-2"
+        },
+        {
+          "path": "knowledge/sources/zanon-2023-o20-high-precision.md",
+          "locator": "ZA23-3"
+        },
+        {
+          "path": "knowledge/sources/zanon-2023-o20-high-precision.md",
+          "locator": "ZA23-5"
+        },
+        {
+          "path": "knowledge/sources/zanon-2023-o20-high-precision.md",
+          "locator": "ZA23-7"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/synthesis/doppler-velocity-validation-contract.md",
+      "anchor": "Entry history 的可解析竞争者",
+      "summary": "数学counterexample把cumulative/target tau与必要伴随信息具体化，不移植source54fs/branch.28或推断150/70因果。",
+      "sources": [
+        {
+          "path": "knowledge/sources/ciemala-2021-deep-inelastic-lifetime-method.md",
+          "locator": "CM21-18"
+        },
+        {
+          "path": "knowledge/sources/zanon-2023-o20-high-precision.md",
+          "locator": "ZA23-2"
+        },
+        {
+          "path": "knowledge/sources/zanon-2023-o20-high-precision.md",
+          "locator": "ZA23-3"
+        },
+        {
+          "path": "knowledge/sources/zanon-2023-o20-high-precision.md",
+          "locator": "ZA23-5"
+        },
+        {
+          "path": "knowledge/sources/zanon-2023-o20-high-precision.md",
+          "locator": "ZA23-7"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/methods/doppler-correction.md",
+      "anchor": "Cascade recoil 对共同响应假设的限定",
+      "summary": "exacttwo-body/boost/角条件权重与自设cascade recoilwidth；profileGaussianresponse吸收多数学理差异，未作真实foilτfit。",
+      "sources": [
+        {
+          "path": "knowledge/sources/ciemala-2021-deep-inelastic-lifetime-method.md",
+          "locator": "CM21-14"
+        },
+        {
+          "path": "knowledge/sources/ciemala-2021-deep-inelastic-lifetime-method.md",
+          "locator": "CM21-18"
+        },
+        {
+          "path": "knowledge/sources/zanon-2023-o20-high-precision.md",
+          "locator": "ZA23-5"
+        },
+        {
+          "path": "knowledge/sources/tunl-2017-12c-level-widths.md",
+          "locator": "T12C-1"
+        },
+        {
+          "path": "knowledge/sources/tunl-2017-12c-level-widths.md",
+          "locator": "T12C-2"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/synthesis/doppler-velocity-validation-contract.md",
+      "anchor": "共同K的物理边界也要量化",
+      "summary": "physicalbreaking与actualidentifiability不同，commonK含alignment/anglecorrelation/response，需要independenttag/entry/Σ。",
+      "sources": [
+        {
+          "path": "knowledge/sources/ciemala-2021-deep-inelastic-lifetime-method.md",
+          "locator": "CM21-14"
+        },
+        {
+          "path": "knowledge/sources/ciemala-2021-deep-inelastic-lifetime-method.md",
+          "locator": "CM21-18"
+        },
+        {
+          "path": "knowledge/sources/zanon-2023-o20-high-precision.md",
+          "locator": "ZA23-5"
+        },
+        {
+          "path": "knowledge/sources/tunl-2017-12c-level-widths.md",
+          "locator": "T12C-1"
+        },
+        {
+          "path": "knowledge/sources/tunl-2017-12c-level-widths.md",
+          "locator": "T12C-2"
+        }
+      ]
     }
   ]
 }
@@ -3363,6 +3489,8 @@ SourceBC84-1/2/3/4/5/6/7/9分开pointestimate/interval/GOF、binintegral、Neyma
 | L4 | experimental refit `not-ready`：缺事件、production code、ring spectra、response/covariance和feeding；模拟练习不作为新实验L4或absolute-strength研究。 |
 
 ## Verification and continuation
+
+最新活动检查（2026-10-14T09:39:59.057803+08:00，余320.0分钟）：118items/31mappedpaths，exactfeeding全density/Laplace/600kMC及cascade recoil的mass-shell/两boost/角moments/600kMC/limits通过。Tag分母明确pre-angular/unit4π；commonK须含alignment/角关联，recoil模型constantflight不作foilτ重拟合。Lint0errors/126warnings，boundary/report/card/writeback/protected/state/diff通过。原run/goal仍active至15:00，下一TKEL/depth/responseclosure仍pending，不开formal14/15。
 
 最新活动检查（2026-10-14T08:56:32.257106+08:00，余363.5分钟）：writeback114items/31mappedpaths（30owningpages）。RFphase/A-q构造与count/Gaussianregion练习独立MC/score/limits/closure通过；BC原报告22页identity/hash/关键式已核。Lint0errors/126warnings（106citationkeys、17rawslots、3parser），boundary/report/card/writeback/protected/diff通过。上一段Gitee初推送128断线，freshH3 retry成功并核远端，真实failure保留；本段仍active，不计新卡，下一TKEL/depth/responseclosure。
 

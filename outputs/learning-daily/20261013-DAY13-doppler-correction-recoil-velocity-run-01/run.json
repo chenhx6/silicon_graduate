@@ -1082,8 +1082,8 @@
     }
   ],
   "latest_active_checkpoint": {
-    "path": "outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity-run-01/research-checkpoint-reopened-012.json",
-    "at": "2026-10-14T08:56:32.257106+08:00",
+    "path": "outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity-run-01/research-checkpoint-reopened-013.json",
+    "at": "2026-10-14T09:39:59.057803+08:00",
     "research_status": "active",
     "candidate": "TKEL-depth-response-inverse-closure",
     "course_state": "next14/count13 unchanged"
@@ -1263,6 +1263,91 @@
         "index_empty": true
       },
       "published_at": "2026-10-14T08:35:15.175423+08:00",
+      "window_remains_active": true
+    },
+    {
+      "branch": "main",
+      "commit_subject": "Extend DAY13 RF aliases and histogram fit controls",
+      "commit_hash": "974d163986d1bb6342a72ab11e241dc095d2a53d",
+      "status": "published-active-checkpoint",
+      "scope": "active checkpoint; no new credit or research closeout",
+      "files": [
+        "knowledge/index.md",
+        "knowledge/methods/doppler-correction.md",
+        "knowledge/sources/baker-cousins-1984-histogram-fits.md",
+        "knowledge/sources/zanon-2023-o20-high-precision.md",
+        "knowledge/synthesis/doppler-velocity-validation-contract.md",
+        "outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity-run-01/continuation-prompt.md",
+        "outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity-run-01/count-statistic-regions-exercise.json",
+        "outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity-run-01/lineshape-statistic-source-before-recall.md",
+        "outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity-run-01/reopened-checkpoint-audit-009.json",
+        "outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity-run-01/reopened-publication-h3-retry-008.json",
+        "outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity-run-01/reopened-publication-manifest-009.json",
+        "outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity-run-01/research-checkpoint-reopened-012.json",
+        "outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity-run-01/rf-tof-alias-design-exercise.json",
+        "outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity-run-01/rf-tof-alias-design-recall.md",
+        "outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity-run-01/run.json",
+        "outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity.md",
+        "system/handoff.md",
+        "system/log.md",
+        "system/scripts/day13_count_statistic_regions.py",
+        "system/scripts/day13_rf_tof_alias_design.py"
+      ],
+      "H3_observed_commands": [
+        {
+          "argv": [
+            "git",
+            "fetch",
+            "origin",
+            "main"
+          ],
+          "exit_code": 0,
+          "stdout": "",
+          "stderr": "From gitee.com:chx6/silicon_graduate\n * branch            main       -> FETCH_HEAD\n"
+        },
+        {
+          "argv": [
+            "git",
+            "merge-base",
+            "--is-ancestor",
+            "origin/main",
+            "HEAD"
+          ],
+          "exit_code": 0,
+          "stdout": "",
+          "stderr": ""
+        },
+        {
+          "argv": [
+            "git",
+            "push",
+            "--dry-run",
+            "origin",
+            "HEAD:main"
+          ],
+          "exit_code": 0,
+          "stdout": "",
+          "stderr": "To gitee.com:chx6/silicon_graduate.git\n   881d55d..974d163  HEAD -> main\n"
+        },
+        {
+          "argv": [
+            "git",
+            "push",
+            "origin",
+            "HEAD:main"
+          ],
+          "exit_code": 0,
+          "stdout": "",
+          "stderr": "remote: Powered by \u001b[01;33mGITEE.COM \u001b[0m[1.1.23]        \nremote: Set trace flag 1443dcaa        \nTo gitee.com:chx6/silicon_graduate.git\n   881d55d..974d163  HEAD -> main\n"
+        }
+      ],
+      "post_commit_reconciliation": {
+        "manifest_matches_commit": true,
+        "handoff_pointer_matches": true,
+        "origin_main_matches_HEAD": true,
+        "index_empty": true
+      },
+      "published_at": "2026-10-14T09:16:42.398400+08:00",
       "window_remains_active": true
     }
   ]

@@ -1,0 +1,119 @@
+{
+  "schema_version": 1,
+  "kind": "synthetic cascade-recoil/response identifiability check",
+  "chosen_parameters": {
+    "target_rest_photon_keV": 2396.1,
+    "corrected_Gaussian_sigma_keV": 2.0,
+    "feed_fraction": 0.5,
+    "constant_flight": true,
+    "isotropic_feeder_and_target_photons": true
+  },
+  "cases": [
+    {
+      "chosen_mass_number": 20,
+      "chosen_level_gap_keV": 100.0,
+      "upper_mass_keV": 18629982.0484,
+      "lower_mass_keV": 18629882.0484,
+      "emitted_feeder_photon_keV": 99.99973161541503,
+      "recoil_speed_in_parent_frame": 5.3677061053944115e-06,
+      "feeder_recoil_only_sigma_keV": 0.00742562547421657,
+      "feeder_target_mean_in_parent_keV": 2396.100000034519,
+      "mixed_Gaussian_convolved_sigma_keV": 2.0000068924773338,
+      "mixed_centroid_keV": 2396.1000000172594,
+      "fixed_response_KL_per_photon": 1.1876441076435388e-11,
+      "fitted_mean_sigma_KL_per_photon": 0.0,
+      "profiled_KL_resolution_note": "values below1e-12 are not numerically resolved physical significance",
+      "expected2N_KL_fixed_response_for_chosen_N10000": 2.3752882152870774e-07,
+      "normalization_error": 0.0
+    },
+    {
+      "chosen_mass_number": 20,
+      "chosen_level_gap_keV": 1000.0,
+      "upper_mass_keV": 18630882.0484,
+      "lower_mass_keV": 18629882.0484,
+      "emitted_feeder_photon_keV": 999.9731628379859,
+      "recoil_speed_in_parent_frame": 5.367576449488911e-05,
+      "feeder_recoil_only_sigma_keV": 0.07425446120255415,
+      "feeder_target_mean_in_parent_keV": 2396.1000034516874,
+      "mixed_Gaussian_convolved_sigma_keV": 2.000689096913166,
+      "mixed_centroid_keV": 2396.100001725844,
+      "fixed_response_KL_per_photon": 1.187003821473744e-07,
+      "fitted_mean_sigma_KL_per_photon": 1.82627458656648e-15,
+      "profiled_KL_resolution_note": "values below1e-12 are not numerically resolved physical significance",
+      "expected2N_KL_fixed_response_for_chosen_N10000": 0.002374007642947488,
+      "normalization_error": 1.1102230246251565e-16
+    },
+    {
+      "chosen_mass_number": 20,
+      "chosen_level_gap_keV": 3000.0,
+      "upper_mass_keV": 18632882.0484,
+      "lower_mass_keV": 18629882.0484,
+      "emitted_feeder_photon_keV": 2999.7584914674867,
+      "recoil_speed_in_parent_frame": 0.00016101864975778194,
+      "feeder_recoil_only_sigma_keV": 0.22275142853788127,
+      "feeder_target_mean_in_parent_keV": 2396.100031061849,
+      "mixed_Gaussian_convolved_sigma_keV": 2.006192687579895,
+      "mixed_centroid_keV": 2396.100015530925,
+      "fixed_response_KL_per_photon": 9.577513532423052e-06,
+      "fitted_mean_sigma_KL_per_photon": 1.0831721482630117e-11,
+      "profiled_KL_resolution_note": "values below1e-12 are not numerically resolved physical significance",
+      "expected2N_KL_fixed_response_for_chosen_N10000": 0.19155027064846103,
+      "normalization_error": 2.220446049250313e-16
+    },
+    {
+      "chosen_mass_number": 130,
+      "chosen_level_gap_keV": 1000.0,
+      "upper_mass_keV": 121095233.3146,
+      "lower_mass_keV": 121094233.3146,
+      "emitted_feeder_photon_keV": 999.9958710183191,
+      "recoil_speed_in_parent_frame": 8.257997458774572e-06,
+      "feeder_recoil_only_sigma_keV": 0.011424022681769732,
+      "feeder_target_mean_in_parent_keV": 2396.1000000817003,
+      "mixed_Gaussian_convolved_sigma_keV": 2.0000163134702476,
+      "mixed_centroid_keV": 2396.1000000408503,
+      "fixed_response_KL_per_photon": 6.653241320238958e-11,
+      "fitted_mean_sigma_KL_per_photon": 1.5247128087458924e-17,
+      "profiled_KL_resolution_note": "values below1e-12 are not numerically resolved physical significance",
+      "expected2N_KL_fixed_response_for_chosen_N10000": 1.3306482640477917e-06,
+      "normalization_error": 2.220446049250313e-16
+    }
+  ],
+  "frame_check": {
+    "parent_beta": 0.1,
+    "chosen_lab_angle_deg": 150,
+    "upper_photon_direction_in_parent": [
+      0.3,
+      0.4,
+      0.8660254037844386
+    ],
+    "lower_frame_target_energy_keV": 2396.1000000000004,
+    "parent_frame_target_energy_keV": 2396.1813559863494,
+    "measured_lab_target_energy_keV": 2194.1512720973024,
+    "parent_reference_corrected_target_keV": 2396.181355986349
+  },
+  "independent_MC": {
+    "repetitions": 600000,
+    "analytic_mean_keV": 2396.1000034516874,
+    "MC_mean_keV": 2396.100194037121,
+    "mean_SE_keV": 9.586209720636565e-05,
+    "analytic_variance_keV2": 0.005513725008481619,
+    "MC_variance_keV2": 0.005515201369768245
+  },
+  "verification": {
+    "two_body_mass_shell_and_energy_momentum_passed": true,
+    "scalar_aberration_and_nested_fourvector_passed": true,
+    "angular_normalization_and_moments_quad_passed": true,
+    "independent_angular_MC_passed": true,
+    "zero_gap_large_mass_and_zero_boost_limits_passed": true,
+    "energy_profile_and_KL_checks_passed": true,
+    "all_passed": true
+  },
+  "boundaries": [
+    "This is chosen constant flight, not a slowed foil/cascade lifetime refit.",
+    "Parent-reference correction deliberately ignores the upper photon kick; a measured lower-emission vector is a different reference.",
+    "Mass proxies and gap/energy/response/fractions are not source state assignments.",
+    "Real cascade correlations, polarization/alignment, transport, tagging and response covariance may change the signature.",
+    "Expected2N*KL is exact-model design information, not an experimental p-value or confidence.",
+    "Profiled KL below1e-12 has a stated numerical boundary; no precision significance claim."
+  ]
+}

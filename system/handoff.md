@@ -8,6 +8,10 @@ updated: 2026-10-14
 
 ## Active handoff — DAY13 continuous study reopened by user
 
+最新checkpoint（2026-10-14T09:39:59.057803+08:00，余320.0分钟）：118items/31mappedpaths；exact120/60fs/50%feeding全等待密度恒等式已verified（600kMC/3angles），cascade recoil另测commonK failure（constantflight、isotropic、massproxy；A20gap1MeV/σ2→2.000689keV，未知σ可吸收）。所有数字为selfchosen，非20Orefit/差异原因；tag分母pre-angular/unit4π，alignment/anglecorrelation/selection与recoil限制明确。Lint0errors/126warnings、boundary/report/card/writeback/protected/state/diff通过，run/goal持续active至15:00。
+
+活动pointer main / `Add DAY13 exact feeding ambiguity and recoil limits`，hash只入receipt。下一TKEL/depth/responseinverseclosure未开始code，候选池仍有高价值route，不可本checkpoint提前closeout；Card13alreadycredited next14/count13不重复、Day14仅partial，无formal14/15。No new source sinceBC84；17rawslots未填充。
+
 最新checkpoint（2026-10-14T08:56:32.257106+08:00，余363.5分钟）：RFphase-only/rigidity的A19q8/A20q6 exact102nsalias与independentenergy反证、BC84原报告22页及count/statregion练习已写回。Source/自己的counterexample分层，allbins≥10仍可Neymanratebias、joint68%与τprojection87%定义不同，未重标sourceτ。114items/31mappedpaths（30owningpages），lint0errors/126warnings与boundary/report/card/hash/protected/diff通过。17rawslots仍未归档。
 
 上一contentpush曾exit128网络断线，remote验证还在旧commit；freshH3 retry全通过、正确远端ref已核，故已发布且失败仍在receipt。新的活动pointer main / `Extend DAY13 RF aliases and histogram fit controls`；exacthash只入receipt。下一有界高信息问题：TKEL/depth/responseinverseclosure，uniformdepthprior可独立约束什么；真实data/code仍缺不关闭其它researchroute。Goal/run仍active至原15:00，课程next14/count13不重计。

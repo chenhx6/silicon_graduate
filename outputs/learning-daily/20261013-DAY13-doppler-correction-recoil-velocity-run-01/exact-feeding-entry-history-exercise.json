@@ -1,0 +1,126 @@
+{
+  "schema_version": 1,
+  "kind": "synthetic exact propertime/feeding ambiguity",
+  "chosen_parameters": {
+    "effective_tau_ps": 0.12,
+    "target_tau_ps": 0.06,
+    "feeder_tau_ps": 0.12,
+    "direct_entry_fraction": 0.5,
+    "feeder_entry_fraction": 0.5,
+    "beta_in": 0.126,
+    "beta_exit": 0.08,
+    "common_slowing_duration_ps": 0.4,
+    "target_gamma_keV": 2396.1,
+    "Gaussian_sigma_keV": 2.0,
+    "point_angles_deg": [
+      130.0,
+      150.0,
+      170.0
+    ]
+  },
+  "moment_identity": {
+    "single_mean_ps": 0.12,
+    "mixed_mean_ps": 0.12,
+    "single_variance_ps2": 0.0144,
+    "mixed_variance_ps2": 0.0144
+  },
+  "laplace_checks": [
+    {
+      "rate_per_ps": 0.0,
+      "single": 1.0,
+      "mixture": 1.0
+    },
+    {
+      "rate_per_ps": 0.5,
+      "single": 0.9433962264150942,
+      "mixture": 0.9433962264150942
+    },
+    {
+      "rate_per_ps": 1.0,
+      "single": 0.8928571428571428,
+      "mixture": 0.8928571428571428
+    },
+    {
+      "rate_per_ps": 5.0,
+      "single": 0.625,
+      "mixture": 0.625
+    },
+    {
+      "rate_per_ps": 10.0,
+      "single": 0.45454545454545453,
+      "mixture": 0.45454545454545453
+    },
+    {
+      "rate_per_ps": 100.0,
+      "single": 0.07692307692307693,
+      "mixture": 0.07692307692307691
+    }
+  ],
+  "independent_MC": {
+    "repetitions": 600000,
+    "proper_time_KS_statistic": 0.0007883333333333353,
+    "proper_time_KS_pvalue": 0.9921697351992733,
+    "single_time_mean_ps": 0.12010290966853407,
+    "mixed_time_mean_ps": 0.12017281273245593,
+    "photon_moments": [
+      {
+        "angle_deg": 130.0,
+        "single": {
+          "mean_keV": 2342.0251179907445,
+          "mean_SE_keV": 0.026582341411116067
+        },
+        "feeding": {
+          "mean_keV": 2342.0388627225234,
+          "mean_SE_keV": 0.026594005017323213
+        }
+      },
+      {
+        "angle_deg": 150.0,
+        "single": {
+          "mean_keV": 2327.5251932588053,
+          "mean_SE_keV": 0.03373310727493486
+        },
+        "feeding": {
+          "mean_keV": 2327.549236888869,
+          "mean_SE_keV": 0.03375645203002084
+        }
+      },
+      {
+        "angle_deg": 170.0,
+        "single": {
+          "mean_keV": 2320.116439290799,
+          "mean_SE_keV": 0.037428057088486455
+        },
+        "feeding": {
+          "mean_keV": 2320.129791405462,
+          "mean_SE_keV": 0.03744936252603085
+        }
+      }
+    ]
+  },
+  "companion_observation": {
+    "chosen_feeder_gamma_tag_efficiency": 0.25,
+    "predicted_tag_fraction_in_feeding_model": 0.125,
+    "predicted_tag_fraction_in_direct_only_model": 0.0,
+    "denominator": "pre-angular-selection parent population with unit4pi target acceptance"
+  },
+  "verification": {
+    "full_time_density_max_error": 1.7763568394002505e-15,
+    "probability_normalization_error": 0.0,
+    "Laplace_general_ratio_and_endpoint_checks_passed": true,
+    "first_two_moments_identity_passed": true,
+    "energy_density_three_angle_max_error": 1.3877787807814457e-17,
+    "photon_profile_normalization_max_error": 2.220446049250313e-16,
+    "independent_time_MC_KS_passed": true,
+    "independent_weighted_photon_MC_passed": true,
+    "all_passed": true
+  },
+  "boundaries": [
+    "Exact only within independent exponential waits, chosen branching/entry fractions and common transport.",
+    "Upper-photon recoil, state-dependent transport/alignment, cascade angular correlations, feeder observation and entry selection are omitted.",
+    "Selfchosen120/60fs does not infer the actual150/70fs experiment feeding or unknown upper lifetime.",
+    "Known54fs feeder in ZA23 is not the120fs feeder required by this counterexample.",
+    "KS is a simulation consistency check, not an experimental p-value or validation of source feeding assumptions.",
+    "Feeder gamma/particle excitation gates or known entry history can break or exclude this model."
+  ]
+}
