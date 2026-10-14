@@ -51,3 +51,10 @@ Zobel1983 raw/metadata/六页主线/Table1upright/图/公式核完；同958keV p
 26-check GLs/J/Fisher/Schur、same-marginals positiveV examples、global/run模式通过；canonical公式/variance/矩阵在angular-distribution，sourceZ83-15true，旧Human/flags不变。报告writeback20items/11changedpages、lint0errors129warnings、diff/AST/protected/raw/review通过。原21/24、completed14/partial15、officialnext14/count13保持。
 
 下一：刷新clock/候选池，先看Day15 remaining angular-distribution-coefficient convention page与overlap，再选sourceRef5统计方法若有实际新信息；actualGF/原angularI/eff/monitor/fitCov缺口不以prototype补造。不要继续同模型换值填日程；原截止15:00、closeout15–16，source/卡完成均非全window结束，不计Day15或研究Day16，不新建session/goal/daemon。
+
+
+## Checkpoint008：变量层级已核，下一Ref5原主线
+
+17-check transformation/ratio/coordinate/语义反例通过；canonical角分布系数页保留原metadata与EOL。日报唯一writeback21items/12changedpages、lint0errors129warnings、diff/AST/protected/raw/review通过；Clock002已实际observed，receipt保存与queued分开的时间。原21/24、completed14/partial15、officialnext14/count13、截止15:00保持。
+
+下一Ref5 Zobel1980已经先冻结primed来源前回忆；核rawhash/Crossref后沿9页完整主线复核tensor/cascade/feeding、表图与Appendix confidence convention。关注两moment是否唯一约束布居与joint contour含义；无actualGF/weight/Cov则维持实验not-ready。source原Jul08Human/旧13claim false保持，新self-audit不得扩人审。研究持续active，不新session/goal/daemon、不计Day15、不研究Day16。

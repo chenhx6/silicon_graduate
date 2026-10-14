@@ -194,7 +194,7 @@ HE15-9的实际未定双线是核心反例：energy sum、共享R/A和假设的�
 
 ## Durable knowledge delta
 
-本run实际修改十一份knowledge Markdown，超出昨日预习的增量为七边逐条证据、相关cycle/标定nullspace、未定doublet shared-quantity边界和parent-lifetime契约。canonical知识路径：
+本run实际修改十二份knowledge Markdown，超出昨日预习的增量为七边逐条证据、相关cycle/标定nullspace、未定doublet shared-quantity边界和parent-lifetime契约。canonical知识路径：
 
 - [Herzáň source](../../knowledge/sources/herzan-2015-193bi-spectroscopy.md)：HE15-8–14及正式来源主线/triage。
 - [level-scheme method](../../knowledge/methods/level-scheme-reconstruction.md)：五能级七边、GLS/反例和必要companion。
@@ -705,6 +705,25 @@ HE15-9的实际未定双线是核心反例：energy sum、共享R/A和假设的�
           "locator": "Z83-15"
         }
       ]
+    },
+    {
+      "knowledge": "knowledge/observables/angular-distribution-coefficient.md",
+      "summary": "补齐未归一β、归一Aexp、最大取向参考c与核α的变量层级；以源表作条件转换，保存Cov坐标变换/距离不变、归一cross项和语义反例。自设控制不当原文fitCov。",
+      "anchor": "拟合系数、核取向与最大辐射系数的层级",
+      "sources": [
+        {
+          "path": "knowledge/sources/zobel-1983-energy-projectile-alignment.md",
+          "locator": "Z83-1"
+        },
+        {
+          "path": "knowledge/sources/zobel-1983-energy-projectile-alignment.md",
+          "locator": "Z83-11"
+        },
+        {
+          "path": "knowledge/sources/zobel-1983-energy-projectile-alignment.md",
+          "locator": "Z83-12"
+        }
+      ]
     }
   ]
 }
@@ -754,6 +773,12 @@ Canonical知识已写回source、method及thesis matrix；[[level-scheme-reconst
 PureE2在合法取向下可negative P；在本段common selection/轴对称/point response/fixed Q_sens下，同时施加Rexp≈1.26后，pureE2 outer set的A为+.03325到+.09507，mean−.076位于外侧。2×printed-error box无解、3×有解都是sensitivity ranges，不是joint CI。分别改变有效选择能匹配两个单变量，hypothetical M2也能在松弛CG模型中匹配joint mean，但需opposite parity，未给任何line的新M2/Jπ。
 
 [必要域图](20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/shared-E2-response-region.svg)经PNG视觉检查，标签/边界可读；[完整结果](20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/shared-polarization-limits.json)。Canonical落点为[[linear-polarization-asymmetry]]“未分峰偏振的联合命题与选择条件”及[[level-scheme-reconstruction]]“Shared POL 对joint命题的条件约束”。Actual beam/gate/geometry/Σ仍缺，NDS的Q及所有review flags保留。
+
+### 系数约定练习：Day15无学分预习
+
+本批复核Z83-1（p389 Eq1/2）、Z83-11（p392 Table1）与Z83-12（p393统计dependence），完成[17-check计算](20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/angular-coefficient-conventions.json)。canonical为[角分布系数](../../knowledge/observables/angular-distribution-coefficient.md)“拟合系数、核取向与最大辐射系数的层级”。声明pureE2/point参考的c=(40/91,−216/1001)，原alpha(.973,.803)条件转为Aexp(.427692308,−.173274725)，marginalerrors(.016263736,.019420579)；不是新实测表列。
+
+固定D的Cov变换会翻转rho符号，但同变换后的联合距离不变；chosen rho+.6与chosen比较点仅作控制。错把alpha当A仍可归一且全角为正，所以源定义不能用这些数值检查代替。β0 cross项、δ/acceptance nuisance必须保留，未知真实Cov仍未知；决定supports变量层级、limits同名量合并。原observable mixed-EOL/审核metadata已保留。此前[[attenuation-coefficient]]已有区分，本批核对后未重复改写；不计Day15、不改21/24。
 
 ## Open questions and belief revision
 
@@ -829,3 +854,10 @@ Figure源/glyph/collision audits均exit0，最小8pt、collision0fail0warn，sin
 2026-10-15 04:19 Asia/Shanghai，距原截止640.9分钟；researchactive。26-check covariance-design实际exit0，report/card/writeback20items/11份本run修改知识页valid；wiki_lint --fail-on error exit0、0errors/129warnings（107citekey、19rawslots、3parser）；git diff --check exit0；AST/protected/rawmetadata/继承Review及new11–15true通过。
 
 本批稳定指针 main / `Demonstrate DAY14 angular covariance identifiability limits`，actualpublication/hash仅receipt。恢复见[checkpoint007](20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/checkpoint-007.md)；下一核remaining Day15 coefficient conventions及必要统计source，先查overlap，不重复同prototype换值充填，不计Day15、不打开下一卡。
+
+
+### Checkpoint008 实测与继续
+
+17项系数约定练习全部通过，report/card/writeback valid（21items/12changedpages）；AST、保护哈希/raw metadata及原审核状态通过。wiki_lint --fail-on error exit0，0errors/129warnings（107citation-key、19raw槽、3reactionparser）；git diff --check exit0。原observable的mixed-EOL字节保持；首个validation harness因错误import exit1，改用现有函数后exit0。
+
+恢复见[checkpoint008](20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/checkpoint-008.md)及[实际clock002登记](20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/clock-checkpoint-002.md)。本批稳定指针 main / `Clarify DAY14 angular coefficient conventions`，exacthash/actualpush只receipt。研究仍active，下一Ref5统计方法原主线核验已冻结primed回忆；不将方法公式补造成当前dataset的Cov，不计Day15或新开下一卡。

@@ -1,0 +1,148 @@
+{
+  "kind": "L2 conditional convention transformation; no new source fit",
+  "source_locators": [
+    "Z83-1",
+    "Z83-11",
+    "Z83-12"
+  ],
+  "published_alpha": [
+    0.973,
+    0.803
+  ],
+  "published_statistical_marginal_errors": [
+    0.037,
+    0.09
+  ],
+  "actual_source_rho": null,
+  "task_pure_E2_maximum_coefficients": [
+    0.43956043956043966,
+    -0.2157842157842156
+  ],
+  "conditional_normalized_Aexp": [
+    0.42769230769230776,
+    -0.17327472527472515
+  ],
+  "conditional_Aexp_marginal_errors": [
+    0.016263736263736266,
+    0.019420579420579405
+  ],
+  "chosen_coordinate_control": {
+    "rho_alpha_chosen": 0.6,
+    "alpha_covariance_chosen": [
+      [
+        0.0013689999999999998,
+        0.0019979999999999998
+      ],
+      [
+        0.0019979999999999998,
+        0.0081
+      ]
+    ],
+    "Aexp_covariance_transformed": [
+      [
+        0.0002645091172563701,
+        -0.0001895107090711485
+      ],
+      [
+        -0.0001895107090711485,
+        0.00037715890503103226
+      ]
+    ],
+    "rho_Aexp_transformed": -0.6,
+    "comparison_point_chosen": [
+      0.9,
+      0.72
+    ],
+    "Mahalanobis_squared_alpha": 3.9995199309669975,
+    "Mahalanobis_squared_Aexp": 3.9995199309669975
+  },
+  "chosen_normalization_control": {
+    "F_chosen": 1200.0,
+    "beta_chosen": [
+      1200.0,
+      513.2307692307693,
+      -207.9296703296702
+    ],
+    "beta_covariance_chosen": [
+      [
+        100.0,
+        20.0,
+        -30.0
+      ],
+      [
+        20.0,
+        68.0,
+        2.0
+      ],
+      [
+        -30.0,
+        2.0,
+        59.0
+      ]
+    ],
+    "full_normalized_covariance": [
+      [
+        4.804470742932282e-05,
+        7.559331267023579e-06
+      ],
+      [
+        7.559331267023578e-06,
+        3.58374510593192e-05
+      ]
+    ],
+    "omitted_F_covariance_counterfactual": [
+      [
+        4.722222222222222e-05,
+        1.388888888888889e-06
+      ],
+      [
+        1.388888888888889e-06,
+        4.0972222222222225e-05
+      ]
+    ]
+  },
+  "semantic_counterexample": {
+    "angles_degrees": [
+      0.0,
+      90.0
+    ],
+    "conditional_correct_W": [
+      1.2544175824175827,
+      0.7211758241758242
+    ],
+    "mistaken_alpha_as_A_W": [
+      2.776,
+      0.814625
+    ],
+    "correct_minimum_full_domain": 0.7211758241758242,
+    "mistaken_minimum_full_domain": 0.6432727094822988
+  },
+  "boundaries": [
+    "Amax is task-derived for 13/2 to 9/2 pure E2 and point response, not a new measured table column.",
+    "The published alpha marginal errors do not identify source rho or a joint confidence region.",
+    "Chosen rho, comparison point, beta covariance and maximum-coefficient errors are not source measurements.",
+    "If delta/spin/acceptance is uncertain, its nuisance and cross covariance must be retained.",
+    "A detector attenuation coefficient and nuclear alpha are different factors; a general coincidence gate may require full joint response.",
+    "Day15 remains an uncredited preview; formal DAY14 score and original deadline are unchanged."
+  ],
+  "checks": {
+    "pure_E2_CG_maximum_matches_exact_fractions": true,
+    "published_alpha_requires_conversion_not_relabeling": true,
+    "different_signs_despite_positive_alpha": true,
+    "chosen_alpha_and_transformed_A_covariances_positive_definite": true,
+    "marginal_error_transformation": true,
+    "correlation_sign_flip": true,
+    "covariance_inverse_transform": true,
+    "Mahalanobis_distance_is_coordinate_invariant": true,
+    "covariance_determinant_transform": true,
+    "normalization_Jacobian_matches_finite_difference": true,
+    "global_scale_direction_is_null": true,
+    "omitting_F_terms_changes_uncertainty": true,
+    "normalization_invariant_to_joint_units_change": true,
+    "both_forms_have_unit_spherical_mean": true,
+    "both_forms_can_be_nonnegative_on_full_interval": true,
+    "semantic_error_changes_angular_prediction": true,
+    "uncertain_maximum_requires_extra_covariance_terms": true
+  },
+  "checks_passed": 17
+}

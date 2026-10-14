@@ -265,3 +265,6 @@ Day14后续已经在partial15中视觉读Zheng2002全文5页，完成28-check AD
 Day14后续partial15还阅读Zobel1983全部六页并核67Ga同parent十个published coefficient rows，完成38-check条件Gaussian/Cov/feeding/c坐标计算及图。这是priming；原sourceJul08人审继承范围不扩至本run新11–14或model，FormalDay15须保存自己的原答和逐卡核验。
 
 Day14 partial15还完成26-check sourcegeometry上的chosenCov-design（unknownF normalization、GLS/J/Fisher/Schur、same-marginals与monitor控制）。它没有恢复Zobel实际Cov或GF；正式Day15的回忆/审计须标priming，保持publishedfact与chosenerror-model分层。
+
+
+Day14 partial15还完成17-check coefficient convention练习：β拟合/归一Aexp/c最大取向参考/核alpha分别建模，Cov线性变换可能翻转rho且保持联合距离，语义错代入仍可归一和全域正。Canonical为angular-distribution-coefficient；它是正式Day15主动回忆的priming，不是已计卡或新的实验Cov。

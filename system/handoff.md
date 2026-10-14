@@ -1,20 +1,20 @@
 ---
 type: system-handoff
 graph-excluded: true
-updated: 2026-10-14
+updated: 2026-10-15
 ---
 
 # 跨会话交接
 
 ## Active handoff — DAY14 formal exam and continuous study
 
-Run `2026-10-14-day-14-02` / session `01a13a0e-e8bd-7251-b970-f6975679e281`；原截止 `2026-10-15T15:00:00+08:00`不变，goal/researchactive。FormalDay14已published：primedrecall、Herzáň主线/图表/七边、21/24/weeklyREFLECT；officialnext14/count13待closeout只计一次，Day15仅partial、不研究下一卡。
+Run `2026-10-14-day-14-02` / session `01a13a0e-e8bd-7251-b970-f6975679e281`；原研究截止 `2026-10-15T15:00:00+08:00` 保持，goal/research仍active。正式DAY14的primed回忆、Herzáň主线/图表/七边、21/24和weekly REFLECT已发布；官方next14/count13等最终收束只计一次。Day15仅partial预习，不研究Day16。
 
-最新checkpoint007（10-15 04:19 Asia/Shanghai）：Zobel1983 primary6页/Table1data38之后，26-check actualgeometry上的chosen covariance design完成，GLS/J/Fisher/Schur、same-marginals不同rho、global/run模式边界写回angular-distribution及Z83-15。Canonical保存全部variance向量/矩阵；actualGF/原I/eff/monitor/fitCov仍缺，无实验rho/σ/I/assignment重估。原Human/旧flags保留、新11–15true，raw/PLAN/Bib/继承dirty不改。
+最新checkpoint008（上海10-15 05时）：17项系数约定练习核清β、归一Aexp、参考c与核alpha，保存Cov坐标变换/归一cross项及错误语义仍为正的反例。Canonical角分布系数页保留原EOL/审核状态；此前Zobel1983同parent38检查及geometry Cov26检查保留。actual GF/原I/eff/monitor/fitCov仍缺，未重估实验rho/σ/I/assignment。
 
-日报唯一writeback20items/11changedpages，report/card/writeback/lint0errors129warnings/diff/AST/protected/raw/review通过。前6批已Giteepublished；本批稳定指针 main / `Demonstrate DAY14 angular covariance identifiability limits`，exacthash/actualH3只receipt。下一候选核Day15 remaining coefficient convention page和Ref5统计方法边界，先overlap，不重复同模型换值充填或给preview学分。
+日报唯一writeback21items/12changedpages；report/card/writeback、lint exit0（0errors/129warnings）、diff/AST/保护哈希/raw/review通过。前7批已Gitee发布；本批稳定指针 main / `Clarify DAY14 angular coefficient conventions`，exacthash/actualH3只runreceipt。下一Ref5 Zobel1980已冻结primed回忆，核raw/Crossref后读全9页及Appendix，审计两moment/布居与confidence convention；通用方法不补造成当前source的实测Cov。
 
-Clock001实际ack，其余queued不造ack，Farmer8686/clock75781不重启。恢复 `codex resume 01a13a0e-e8bd-7251-b970-f6975679e281 -C /workspace/wiki -s danger-full-access -a never`；本run`-run-02/` checkpoint007/continuation可恢复。
+Clock001/002已实际ack，queued与observed时间分开；其余queued不造ack。Farmer8686/clock75781不重启。恢复 `codex resume 01a13a0e-e8bd-7251-b970-f6975679e281 -C /workspace/wiki -s danger-full-access -a never`；本run的checkpoint008/continuation可恢复。
 
 ## Previous active handoff — DAY13 continuous study reopened by user
 
