@@ -1,0 +1,182 @@
+{
+  "at": "2026-10-14T12:56:42.640395+08:00",
+  "status": "active-checkpoint-not-closeout",
+  "remaining_minutes": 123.28932675,
+  "original_deadline": "2026-10-14T15:00:00+08:00",
+  "checks": {
+    "report": {
+      "valid": true,
+      "missing_headings": []
+    },
+    "coverage": {
+      "valid": true,
+      "completed_day_indices": [
+        13
+      ],
+      "partial_day_indices": [
+        14
+      ],
+      "curriculum_cards_completed": 1,
+      "next_day_index": 14,
+      "error": null
+    },
+    "writeback": {
+      "valid": true,
+      "mode": "updated",
+      "knowledge_paths": [
+        "knowledge/methods/doppler-correction.md",
+        "knowledge/sources/mavela-2019-32s-quadrupole-moment-doppler-correction-thesis.md",
+        "knowledge/sources/klemme-1999-lifetimes-134nd-neighbors.md",
+        "knowledge/sources/herzan-2015-193bi-spectroscopy.md",
+        "knowledge/methods/level-scheme-reconstruction.md",
+        "knowledge/projects/a130-thesis-evidence-matrix.md",
+        "knowledge/questions.md",
+        "knowledge/index.md",
+        "knowledge/sources/vandebrouck-2016-vamos-dual-position-mwpc.md",
+        "knowledge/sources/crespi-2013-agata-high-energy-doppler-response.md",
+        "knowledge/methods/tracking-array.md",
+        "knowledge/sources/aladili-2009-agata-doppler-simulation.md",
+        "knowledge/research-notes/doppler-forward-inverse-convention-check.md",
+        "knowledge/sources/akkoyun-2012-agata-instrument-response.md",
+        "knowledge/concepts/lorentz-boost-correction.md",
+        "knowledge/sources/longfellow-2026-gretina-energy-ordering-polarization.md",
+        "knowledge/sources/senyigit-2014-agata-neutron-rejection.md",
+        "knowledge/methods/gamma-gamma-coincidence.md",
+        "knowledge/sources/tunl-2017-12c-level-widths.md",
+        "knowledge/sources/soderstrom-2008-agata-position-design.md",
+        "knowledge/sources/crespi-2023-agata-tracking-performance.md",
+        "knowledge/sources/ljungvall-2020-agata-ganil-performance.md",
+        "knowledge/sources/assie-2021-mugast-agata-vamos.md",
+        "knowledge/synthesis/doppler-velocity-validation-contract.md",
+        "knowledge/sources/lemasson-2023-agata-vamos-fission-history.md",
+        "knowledge/sources/ciemala-2019-20o-dsam-analysis-status.md",
+        "knowledge/sources/ziliani-2019-agata-calibration-controls.md",
+        "knowledge/sources/ciemala-2020-c16-o20-lifetimes.md",
+        "knowledge/sources/zanon-2023-o20-high-precision.md",
+        "knowledge/sources/ciemala-2021-deep-inelastic-lifetime-method.md",
+        "knowledge/sources/baker-cousins-1984-histogram-fits.md",
+        "knowledge/sources/nptool-2019-reaction-velocity-code-object.md"
+      ],
+      "changed_paths": [
+        "knowledge/concepts/lorentz-boost-correction.md",
+        "knowledge/index.md",
+        "knowledge/methods/doppler-correction.md",
+        "knowledge/methods/gamma-gamma-coincidence.md",
+        "knowledge/methods/level-scheme-reconstruction.md",
+        "knowledge/methods/tracking-array.md",
+        "knowledge/projects/a130-thesis-evidence-matrix.md",
+        "knowledge/questions.md",
+        "knowledge/research-notes/doppler-forward-inverse-convention-check.md",
+        "knowledge/sources/akkoyun-2012-agata-instrument-response.md",
+        "knowledge/sources/aladili-2009-agata-doppler-simulation.md",
+        "knowledge/sources/assie-2021-mugast-agata-vamos.md",
+        "knowledge/sources/baker-cousins-1984-histogram-fits.md",
+        "knowledge/sources/ciemala-2019-20o-dsam-analysis-status.md",
+        "knowledge/sources/ciemala-2020-c16-o20-lifetimes.md",
+        "knowledge/sources/ciemala-2021-deep-inelastic-lifetime-method.md",
+        "knowledge/sources/crespi-2013-agata-high-energy-doppler-response.md",
+        "knowledge/sources/crespi-2023-agata-tracking-performance.md",
+        "knowledge/sources/herzan-2015-193bi-spectroscopy.md",
+        "knowledge/sources/klemme-1999-lifetimes-134nd-neighbors.md",
+        "knowledge/sources/lemasson-2023-agata-vamos-fission-history.md",
+        "knowledge/sources/ljungvall-2020-agata-ganil-performance.md",
+        "knowledge/sources/mavela-2019-32s-quadrupole-moment-doppler-correction-thesis.md",
+        "knowledge/sources/nptool-2019-reaction-velocity-code-object.md",
+        "knowledge/sources/senyigit-2014-agata-neutron-rejection.md",
+        "knowledge/sources/soderstrom-2008-agata-position-design.md",
+        "knowledge/sources/tunl-2017-12c-level-widths.md",
+        "knowledge/sources/vandebrouck-2016-vamos-dual-position-mwpc.md",
+        "knowledge/sources/zanon-2023-o20-high-precision.md",
+        "knowledge/sources/ziliani-2019-agata-calibration-controls.md",
+        "knowledge/synthesis/doppler-velocity-validation-contract.md"
+      ],
+      "change_check": "run-snapshot",
+      "error": null
+    }
+  },
+  "protected": {
+    "PLAN.md": true,
+    "raw/zotero/wiki-inbox.bib": true
+  },
+  "course_state_unchanged": true,
+  "new_exercises": {
+    "finite-bin-lineshape-exercise.json": {
+      "bin_additivity_max_abs_error": 1.1102230246251565e-16,
+      "independent_quad_max_abs_error": 6.661338147750939e-16,
+      "order128_256_max_bin_difference": 6.8833827526759706e-15,
+      "Gaussian_limit_max_abs_error": 1.6653345369377348e-16,
+      "exact_fit_max_tau_error_fs": 6.337923394994505e-07,
+      "far_tail_interval_positive": true,
+      "midpoint_small_bin_convergence_passed": true,
+      "ROI_conditional_normalization_passed": true,
+      "independent_event_MC_passed": true,
+      "Fisher_derivative_step_relative_error": 1.5204575895649348e-09,
+      "aligned_rebin_information_loss_PSD_passed": true,
+      "all_passed": true
+    },
+    "shared-background-covariance-exercise.json": {
+      "joint_Poisson_profile_GLS_max_covariance_difference": 5.204170427930421e-18,
+      "MC_optimal_max_variance_relative_error": 0.003382094649855727,
+      "MC_naive_sandwich_max_variance_relative_error": 0.0025394408413013103,
+      "shared_off_cross_covariance_passed": true,
+      "infinite_off_exposure_limit_passed": true,
+      "contrast_cancellation_passed": true,
+      "all_passed": true
+    },
+    "finite-template-covariance-exercise.json": {
+      "ensemble_covariance_Frobenius_relative_errors": [
+        0.0360866514284542,
+        0.03588314104997122,
+        0.040907231938772985,
+        0.0337897581158268
+      ],
+      "common_event_contrast_covariance_passed": true,
+      "fixed_accepted_N_multinomial_identity_passed": true,
+      "normalization_null_direction_passed": true,
+      "same_hypothesis_common_event_zero_difference_passed": true,
+      "independent_template_control_passed": true,
+      "infinite_template_limit_passed": true,
+      "all_passed": true
+    },
+    "adaptive-bin-observation-exercise.json": {
+      "all_reported_main_bins_at_least10": true,
+      "merged_event_likelihood_normalized": true,
+      "expected_complete_likelihood_recovers_truth": true,
+      "coarse_grid_optimum_check_max_disadvantage": 0.0,
+      "independent_pilot_bias_control_passed": true,
+      "symmetric_p_half_zero_naive_bias_passed": true,
+      "all_passed": true
+    },
+    "event-overlap-information-exercise.json": {
+      "Poisson_MC_covariance_relative_error": 0.004781273526193439,
+      "fixedN_MC_covariance_relative_error": 0.0028878078268737557,
+      "disjoint_thinning_vs_fixedN_passed": true,
+      "deterministic_replay_cross_covariance_passed": true,
+      "union_partition_information_refinement_passed": true,
+      "independent_replay_information_overcount_control_passed": true,
+      "all_passed": true
+    }
+  },
+  "lint_counts": {
+    "warning": 128,
+    "info": 1763
+  },
+  "warning_codes": {
+    "REACTION_PARSE": 3,
+    "CITATION_KEY_MISSING": 107,
+    "RAW_MISSING": 18
+  },
+  "first_lint_failure": {
+    "path": "lint-reopened-020.json",
+    "code": "WIKILINK_BROKEN",
+    "cause": "inline covariance matrix double brackets interpreted as wikilink",
+    "action": "reworded rows; identical lint invocation passed"
+  },
+  "boundary_check": {
+    "ok": true,
+    "observed_current_session": true
+  },
+  "no_new_credit": true,
+  "next_route": "nonlinear finite-count jointtau-energy interval closure; already selected before90min",
+  "clock_ack": "checkpoint-001 actually observed; supervisor not restarted"
+}

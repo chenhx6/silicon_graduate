@@ -1,0 +1,127 @@
+{
+  "schema_version": 1,
+  "kind": "synthetic shared-event covariance and replay information",
+  "source_inspiration": "BC84 fixedN/Poisson observation distinction; event-mark formulas are our inference",
+  "chosen_parameters": {
+    "mean_or_fixed_event_count": 10000,
+    "one_photon_per_event": true,
+    "gate_a_keV": [
+      2326.1,
+      2376.1
+    ],
+    "gate_b_keV": [
+      2346.1,
+      2391.1
+    ],
+    "angle_deg": 150.0,
+    "repeats": 150000,
+    "seed": 131430
+  },
+  "overlapping_gate_controls": {
+    "gate_probabilities": [
+      0.24174890566912788,
+      0.08152915424750665
+    ],
+    "overlap_probability": 0.07183349075475137,
+    "Poisson_expected_covariance": [
+      [
+        2417.4890566912786,
+        718.3349075475137
+      ],
+      [
+        718.3349075475137,
+        815.2915424750664
+      ]
+    ],
+    "fixedN_expected_covariance": [
+      [
+        1833.06372276907,
+        521.2390693528711
+      ],
+      [
+        521.2390693528711,
+        748.8215125519291
+      ]
+    ],
+    "Poisson_MC_covariance": [
+      [
+        2405.1673706055353,
+        715.1569600013341
+      ],
+      [
+        715.1569600013341,
+        814.6848061424407
+      ]
+    ],
+    "fixedN_MC_covariance": [
+      [
+        1826.9693765247323,
+        521.0520087200582
+      ],
+      [
+        521.0520087200582,
+        748.9562983653224
+      ]
+    ]
+  },
+  "disjoint_control": {
+    "Poisson_cross_covariance": 0.0,
+    "fixedN_cross_covariance": -875.0
+  },
+  "reference_replays": {
+    "reference_betas": [
+      0.08,
+      0.1
+    ],
+    "deterministic_energy_factor": 1.0180442163023222,
+    "joint_probability_mass": 1.0000000000000002,
+    "common_raw_energy_ROI_keV": [
+      2275.0485321869382,
+      2416.1
+    ],
+    "partition_bins": [
+      29,
+      29,
+      57
+    ],
+    "local_A_errors": {
+      "tau_SE_fs": 0.83459454572054,
+      "energy_SE_keV": 0.0856566547097249
+    },
+    "local_B_errors": {
+      "tau_SE_fs": 0.8322938506847858,
+      "energy_SE_keV": 0.0843189144651925
+    },
+    "refined_union_errors": {
+      "tau_SE_fs": 0.82505102648019,
+      "energy_SE_keV": 0.07915422948205779
+    },
+    "incorrectly_independent_A_plus_B_errors": {
+      "tau_SE_fs": 0.5893223682854223,
+      "energy_SE_keV": 0.06008984933835798
+    },
+    "replay_total_difference_variance": 7.398526778203128e-13,
+    "replay_total_sum_variance": 40000.00000000001,
+    "incorrectly_independent_sum_variance": 20000.000000000004
+  },
+  "verification": {
+    "Poisson_MC_covariance_relative_error": 0.004781273526193439,
+    "fixedN_MC_covariance_relative_error": 0.0028878078268737557,
+    "disjoint_thinning_vs_fixedN_passed": true,
+    "deterministic_replay_cross_covariance_passed": true,
+    "union_partition_information_refinement_passed": true,
+    "independent_replay_information_overcount_control_passed": true,
+    "all_passed": true
+  },
+  "dependencies": {
+    "binning_script_sha256": "bf493da4f3c7c7d314ba97a1d8f98ce8cff8484edf329c72700c52b2c566852a"
+  },
+  "boundaries": [
+    "One photon/event, known kernel/point angle and fixed selection/reference choices are chosen.",
+    "Multiphoton cascades, weighted events, background subtraction and real gate selection need their event marks.",
+    "Fisher errors are local design values at known response/feeding, not observed lifetime intervals.",
+    "Joint deterministic partitions can recover information lost in one coarse view; they add no new raw events.",
+    "The union result assumes common sample and monotone energy mappings with known paired event identity.",
+    "This does not identify an independence error in any source's actual spectrum processing."
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "now_local": "2026-10-14T13:35:22.786063+08:00",
+  "hard_deadline": "2026-10-14T15:00:00+08:00",
+  "minutes_to_deadline": 84.62023228333334,
+  "decision": "finish-current-no-new-unit",
+  "day_index": 13,
+  "completed_day_indices": [
+    13
+  ],
+  "partial_day_indices": [
+    14
+  ],
+  "no_new_credit": true,
+  "current_analysis": "finish selected velocity-nuisance/profile/projection and long-control estimator/source-binding audit",
+  "new_sources_or_cards_allowed": false,
+  "research_cutoff_policy": "continue current analysis until15:00; then closeout only"
+}

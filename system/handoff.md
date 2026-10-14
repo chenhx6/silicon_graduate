@@ -8,6 +8,13 @@ updated: 2026-10-14
 
 ## Active handoff — DAY13 continuous study reopened by user
 
+最终收束（2026-10-14T15:04:21.971452+08:00，原研究截止15:00已观察）：同run/session的DAY13当前分析完成，之后closeout-only。唯一writeback155items/32mappedpaths，十项新统计/速度exercise与12项来源后复述；sourceCM21-22明确aftertarget .4/.7%为tuning幅度非σ。Jointpair/τprofile/投影、错entry/独立tag、latecontrolmean/mode/vertex/frame均分层，不解释真实20O150/70fs或建立新A130strength/mode。Lint0errors/128warnings（18rawslots未填、107citekeys、3parser）及report/card/writeback/protected/dependency/datahash/AST/state/diff通过。
+
+最终稳定指针 main / `Finalize DAY13 statistical and velocity validation contracts`；exacthash/H3/reconciliation只在本run receipt。46-filemanifest排除raw/PLAN/credentials/tmp和继承Day6–9/daemon/旧log；log仅HEAD+taskentrypatch。Credit保持next14/count13，completed13/partial14；正常finalizer不可重复计卡，正式Day14prompt已存在。Clockcheckpoint001已实际ack；farmer8686保留、旧clock22006已退出不重启。Scopeincident：恢复矩阵context意外显示Day15标题/一行任务，未研究或计卡，已如实自审。ExperimentalL4仍notready。
+
+若run已completed，只交付/讨论既有Day13；若closing-out，仅续接发布/对账，不开启研究。Resume `codex resume 01a13489-64ba-7930-9a2c-291375d95ad0 -C /workspace/wiki -s danger-full-access -a never`。
+
+
 最新checkpoint（2026-10-14T11:43:08.379833+08:00，余196.9分钟）：126items/32mappedpaths（31owningpages）。Depth特殊equal-S/共线toy终86MeV不分三prior，错uniform τ/E有bias/残余KL；actualCM21tilt45/θφ接受不满足极限，uniform一个optimizerstart失败保留、其它recover。NPTool2019publicobject audited（Reaction/Nucleus/units/README/license，Gitblob/hash），Github已迁GitLab但API/page网络失败，未build/current/e775 execution未attest。API totalMeV/rad/plane与getterMass含Ex/derivedTOF s-m/velocitycm-ns/Bρ默认Z均已canonical，physicalsanity+3.695keV是selfcounterfactual非sourcebug。
 
 18rawslots未归档，citationKeys107；CM21 publishedclaims14–21空行table修复后machineparsed。Lint0errors/128warnings与boundary/report/card/writeback/protected/state/diff通过；run/goalactive至原15:00，next14/count13不重计，Day14仅partial/无formal14或15。活动pointer main / `Audit DAY13 depth priors and recoil velocity code contracts`；exacthash只receipt。下一currentboundedroute有限bin积分/rebin与sharedbackground/templateΣ，Baker/原source已读，无需重复physics/旧NPobjects。

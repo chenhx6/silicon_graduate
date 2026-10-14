@@ -70,6 +70,12 @@ Söderström 的十一只 CeBr₃ 阵列用 `Δt≤655 ps` 定义 prompt window�
 
 LG20-12保留in-beam低peak/background及共同alignment的限制。[[tracking-array]]的明确toy证明独立events若共有单γbeam-axis density `1+A2P2`，cross-event pair-angle density仍含 `A2²/5 P2`；不是isotropic，也不是same-cascade量子关联的新测量。对energy/PID/FOM门后coincidence强度或angular fits，应记录mix stage、population/occupancy、accepted/unaccepted counts与normalizer covariance。没有acceptance的angle bins不能用除法补回。
 
+## 门重叠与投影计数的 covariance
+
+[[baker-cousins-1984-histogram-fits]] BC84-2/4 区分 fixed-N 和 Poisson 计数设计；任务的 event-mark 推导与合成核检验由 [[doppler-correction]]“共享事件、总计数设计与重放的信息”统一保存。Poisson 总事件数下，两门 cross covariance 取决于同事件同时贡献的概率；fixed N 还含共同总数约束。实际 cascade 可对多个 bin 各贡献光子，需保存 event marks、门重叠、multiplicity、权重和背景缩放。
+
+同事件的不同粗投影可联合改善 summary 分辨率，仍不是两份独立 acquisition。没有 raw-event/共同样本身份或 on/off 关系时，不能只凭两张矩阵投影相加独立信息；这里未评估任何来源的生产 covariance。
+
 ## Sources
 
 - [[lemasson-2023-agata-vamos-fission-history]] LS23-11/12：prompt/delayed在target与FP不同速度/位置阶段，isomersurvival、window与same-event covariance是negativeevidence必要条件。

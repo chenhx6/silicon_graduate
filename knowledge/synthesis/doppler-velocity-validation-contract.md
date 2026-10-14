@@ -77,6 +77,18 @@ tags: [doppler-correction, velocity-information, calibration, covariance, eviden
 
 Readiness：source/locator与有边界L2/L3方法审计可做；本run实验L4仍缺productionevents/code/calibration、target/backing/history、response/normalization与jointcovariance。这个缺口由研究者持续追踪，不自动转成用户上传或审核待办。
 
+### 统计与速度分析之后的判定表
+
+| 被检验的充分性说法 | 现有证据支持的判定 | 实际分析还须怎样区分 |
+|---|---|---|
+| 精确Lorentz变换且correctedpeak窄，就验证了全部速度 | 变换可正确而reference粒子/stage、输入producer、角度或history仍不同；宽度与局部rank有已声明的非唯一反例。 | 独立state-conditioned kinematics、frame/epoch/caller binding及不同角度/line controls。 |
+| 采用正确Poisson统计量就得到正确τ/E区间 | 只有forwardfamily/domain/nuisance/selection正确时才适用；已声明模型的错误入口β、boundaries和不可识别极限改变coverage。 | 原counts/edges/rebin、全nuisance与model alternatives、joint/profile定义和完整pseudoexperiments。 |
+| 多角度、共用背景或多个replay可以直接相加独立信息 | 必须按eventmarks/总数设计/sharedoff/templatebank记录依赖；联合粗分区可改善summary，不增加raw事件。 | eventIDs/weights/overlap与on/off/MC的实际观测关系。 |
+| 长line晚速度匹配就独立验证入口history | Source支持aftertargetreference校准，tuning幅度不等σβ；finitehistory、objective/window、vertex和parent/residue frame另有条件。 | 外部anchors/τ及Σ、实际拟合窗口/response、速度stage、entry/depth/stopping数据。 |
+| 这些验证已解释20O两次τ差异或建立A≈130结构结论 | 没有。Primary实验与model值、任务counterexamples分层；150/70fs差异原因、目标核mode排序与absoluteB均未裁决。 | 取得可复现experimentalpacket后检验竞争解释，保持transition-bound τ/branch/δ与source谱系。 |
+
+判定表汇总本页已有BC84-1/2/4/5/9、CM21-15/16/17/22、ZA23-2/7/10和其他source语境；它是synthesis，不增加实验复测。可复用的新认识是验证须分成observable/caller、physicalhistory/response、统计观测模型和decision/coverage各条证据链。合成closure只改变对“充分性”的判断，不确定actualpipeline发生同样失败，也不把十个练习计成十份独立证据。
+
 ## Open Questions
 
 真实packet如何记录independentparticle与PSA共享vertex/angle covariance？是否有跨geometry/energy且保留unselectedstages的replay可验证transfer？在正确channel/feeding身份下，哪些centroid/line-shape/selection变化仍需要真实velocity history？这些问题服务 [[a130-thesis-evidence-matrix]]，不提高当前mode证据等级。
@@ -158,6 +170,28 @@ CM21-6/7/19/21提供sourceTKEL/靶depth/TOF和实际倾斜geometry，ZA23-2则�
 [[nptool-2019-reaction-velocity-code-object]] NP19-1–12只证明固定2019publicobject的单位/producer/getter/mass/frame；GitLab当前代码与experimentcaller未取得。ZA23-2的particle-assistedentry有measuredlightinput基础，仍须beam/mass/vertex/energycorrection/φ和实际operator binding。
 
 GetVelocity/TOF/Bρ等同input派生字段，不因值相符增加independentmeasurement。Reaction4vector/Nucleus缓存和Mass含Exc须一致或明确不同估计器；physicaldomain与branch/radian/totalMeV不能由framework名保证。Sanity数值是任务counterfactual，不推断source发生mass/unitsbug。Read-only对象审计可提高L3contract，不能替actualL4dataset/code/Σ。
+
+## Histogram 输入与独立性
+
+BC84-2 的 bin 积分定义已在 [[doppler-correction]]“有限能量 bin：积分、边界与重分 bin”作合成检验。正确连续核仍可因中点近似给不同 τ/E；精确积分恢复自设真值，而粗 bin 的局部信息量降低。相同事件的不同 binning 是依赖检查，不能叠加为独立实验或额外统计量。
+
+必要输入包括完整 bin edges、rebin 规则、固定 ROI、条件或 extended normalization、原始 on/off 计数、共用背景与有限模板的来源/协方差。上述局部 Fisher 数值不重算 ZA23/CI20/CM21 区间；缺少这些输入时，实际实验重拟合仍 not-ready。
+
+[[doppler-correction]]“共用背景观测如何连接 bin 与角度组”给出本任务的 on/off 推导和独立计数检验：共享一个背景归一化观测可产生 rank-one 交叉项，扣除后的 bin 不是独立 Poisson。共同误差在差分中也可抵消，因此须按实际估计器和观测关系传播。局部 joint-Poisson/GLS 等价不证明有限样本区间 coverage；背景 shape、transfer 与原实验共享事件仍需单独核验。
+
+同页“有限模板与共同模拟事件的协方差”区分单模板误差和共用事件的模板差误差。必要 packet 还包括 generated/selected counts、权重、参数 bank 的共同 event IDs/seeds、归一化约束及 data/MC 依赖。共同随机数可使差值稳定，却不增加独立事件数；leading 1/N covariance、局部 score 投影和 ensemble 检查也不替代实际寿命 coverage。
+
+同页“自适应 bin 边界也是观测的一部分”进一步要求保留细 bin 计数与选择算法。若边界由同一数据选择，忽略其参数依赖可改变观测模型；“输出均≥10”不是这个问题的充分控制。该两 bin 反例有明确合并规则，未取得的 ZA23 production rebin 不能由它替代。
+
+同页“共享事件、总计数设计与重放的信息”进一步区分 Poisson thinning、fixed-N 约束和重叠 gates。确定性 replay 的统计量相关；不同粗分区联合可恢复部分分辨信息，因此不能把“非独立”扩大为“任何粗 summary 联合都无收益”。必要输入是 raw-event/共同样本身份、ROI、映射和 event marks，真实多光子/背景 covariance 另核。
+
+同页“非线性 τ/E 区域：有限计数、边界与不可识别极限”将局部 covariance 与 region coverage 分开检验。自设20fs边界、无减速寿命零信息、fixed-N nonlinear fits均有明确 domain、seed/hash、optimizer失败和恢复记录；这些不是源论文的 nuisance 或区间。必要 packet 还需实际参数 domain、可识别性和完整算法的 coverage 检查。
+
+“速度 nuisance：正确统计量仍须正确的 forward model”与其同数据semantic audit说明，错固定入口β可影响 E0和τ，但联合真值、τ profile和joint-region投影必须分开。独立Gaussianβ观测的正确family closure不证明实际velocity tag无偏/独立、stage正确或全部physicalnuisance已知。
+
+CM21-15/16/22的longline调整是after-target T/velocity；0.4%/0.7%是tuning幅度，不是σβ。“长寿命校准线：有限 history 与估计量选择”的条件练习进一步要求保存control τ、reference energy/Σ、拟合objective/窗口、response和stage。整线mean、densitymode和actualfittedpeakcenter不同，late-velocitycontrol不自动成为独立entry/depthmeasurement。
+
+这项calibrator self-audit还检查固定相对角度和reference对象的边界：另行隔离的displacement与free-singleγ parent/daughterframe例子说明，mode也可受vertex影响，另一个速度reference给另一个observable。选择exit/residue reference用于historyfit可以成立，但模型/数据须绑定相同observable；不能把独立fixture的残差相加成source correction。
 
 ## Sources
 

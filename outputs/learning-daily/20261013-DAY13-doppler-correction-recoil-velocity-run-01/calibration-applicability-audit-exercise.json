@@ -1,0 +1,67 @@
+{
+  "schema_version": 1,
+  "kind": "dependent calibration applicability audit; no new experimental inputs",
+  "independent_evidence": false,
+  "displaced_vertex_controls": [
+    {
+      "control_rest_gamma_keV": 1375.8,
+      "context_tau_ps": 1.27,
+      "chosen_parent_late_beta": 0.09,
+      "chosen_point_radius_mm": 150.0,
+      "nominal_angle_deg": 150.0,
+      "unconditional_mean_lab_travel_mm": 0.03440590518544364,
+      "wrong_target_vertex_corrected_mean_residual_keV": -0.006580284601938857,
+      "wrong_target_vertex_corrected_mode_residual_keV": -0.006580042291749357,
+      "correctly_known_vertex_signal_residual_keV": 0.0
+    },
+    {
+      "control_rest_gamma_keV": 3853.17,
+      "context_tau_ps": 12.4,
+      "chosen_parent_late_beta": 0.09,
+      "chosen_point_radius_mm": 150.0,
+      "nominal_angle_deg": 150.0,
+      "unconditional_mean_lab_travel_mm": 0.3359316726767726,
+      "wrong_target_vertex_corrected_mean_residual_keV": -0.1783611638896334,
+      "wrong_target_vertex_corrected_mode_residual_keV": -0.17409469139452596,
+      "correctly_known_vertex_signal_residual_keV": 0.0
+    }
+  ],
+  "parent_daughter_frame_controls": [
+    {
+      "chosen_mass_proxy_A": 19,
+      "context_parent_rest_photon_keV": 1375.8,
+      "daughter_ground_mass_proxy_MeV": 17698.38794598,
+      "implied_mass_gap_keV": 1375.8534745210386,
+      "daughter_frame_minus_parent_frame_keV": 0.10695319912885042
+    },
+    {
+      "chosen_mass_proxy_A": 13,
+      "context_parent_rest_photon_keV": 3853.17,
+      "daughter_ground_mass_proxy_MeV": 12109.42333146,
+      "implied_mass_gap_keV": 3853.7830316145823,
+      "daughter_frame_minus_parent_frame_keV": 1.2262583244032996
+    }
+  ],
+  "verification": {
+    "geometry_mean_quad96_128_difference_keV": 1.8496315590255108e-13,
+    "geometry_mode_quad96_128_difference_keV": 1.8957058145474548e-13,
+    "source_frame_fourmomentum_max_residual_MeV": 3.637978807091713e-12,
+    "frame_inverse_max_error_MeV": 1.3322676295501878e-15,
+    "known_vertex_zero_signal_error_passed": true,
+    "static_and_far_detector_limits_passed": true,
+    "all_passed": true
+  },
+  "dependencies": {
+    "vertex_script": "9547544700a9751513dd8e2456a23861dd6b24c2e01380d101d58b26f3a9df4a",
+    "recoil_script": "cf85266968a2f96d4cb980c1a813aec39e6c092c338eb4a5fbf4e1299c06625b",
+    "control_script": "ba7e26bd6a09163dd5d5c7668eacdf90ccf5065192fa4b725b0a24cb97852c90"
+  },
+  "boundaries": [
+    "Constant late-parentbeta/no-stopping displacement fixture isolates geometry; it is not the full preceding finite-history fixture.",
+    "Point planar detectorR150mm and true-relative direction are chosen, not CM21 geometry or PSA/vertex data.",
+    "Frame fixture is an ideal free single-gamma decay with mass-number proxy, not an actual VAMOS delayed/transported residue.",
+    "Displacement, recoil, finite history and source-fit objective are not combined into a real calibration correction.",
+    "Prior fixed-angle mean/mode comparison is conditional on its geometry/reference assumptions.",
+    "Actual production treatment of these effects is unknown; no source pipeline error is claimed."
+  ]
+}

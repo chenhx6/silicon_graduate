@@ -1,0 +1,78 @@
+{
+  "schema_version": 1,
+  "kind": "synthetic informative adaptive histogram boundary",
+  "source_inspiration": "BC84 counting likelihood/finiteN; no source adaptive algorithm reproduced",
+  "chosen_parameters": {
+    "fixed_photons_per_histogram": 40,
+    "first_bin_probability": 0.25,
+    "minimum_reported_count": 10,
+    "independent_histograms_per_experiment": 64,
+    "repeats": 8000,
+    "seed": 131429,
+    "fit_bounds": [
+      0.02,
+      0.98
+    ],
+    "rule": "retain two bins if10<=X<=30; otherwise merge all40 photons"
+  },
+  "exact_expected_results": {
+    "retained_probability": 0.5604602683225615,
+    "merged_probability": 0.43953973167743854,
+    "asymptotic_naive_p": 0.2982965813441602,
+    "expected_complete_observation_fit_p": 0.25000000000222367,
+    "normalized_observation_probability": 0.9999999999999996
+  },
+  "Monte_Carlo": {
+    "naive_fixed_boundary_likelihood": {
+      "mean": 0.2982585712745399,
+      "bias": 0.04825857127453992,
+      "standard_deviation": 0.00765249864954307,
+      "mean_standard_error": 8.555753589051822e-05,
+      "minimum": 0.27314814814814814,
+      "maximum": 0.3234848484848485
+    },
+    "complete_observation_likelihood": {
+      "mean": 0.2496633486446859,
+      "bias": -0.00033665135531410484,
+      "standard_deviation": 0.009146555878236512,
+      "mean_standard_error": 0.00010226160351868564,
+      "minimum": 0.21071206415770014,
+      "maximum": 0.281921629599317
+    },
+    "uncoarsened_oracle": {
+      "mean": 0.24983422851562498,
+      "bias": -0.00016577148437502132,
+      "standard_deviation": 0.008519324270708421,
+      "mean_standard_error": 9.524894095833925e-05,
+      "minimum": 0.215625,
+      "maximum": 0.279296875
+    },
+    "independent_pilot_boundary": {
+      "mean": 0.24997483439974003,
+      "bias": -2.5165600259974275e-05,
+      "standard_deviation": 0.011679244435627295,
+      "mean_standard_error": 0.00013057792241949397,
+      "minimum": 0.2057142857142857,
+      "maximum": 0.2978571428571429
+    },
+    "mean_retained_histograms": 35.817875,
+    "unique_integer_summaries": 1061
+  },
+  "verification": {
+    "all_reported_main_bins_at_least10": true,
+    "merged_event_likelihood_normalized": true,
+    "expected_complete_likelihood_recovers_truth": true,
+    "coarse_grid_optimum_check_max_disadvantage": 0.0,
+    "independent_pilot_bias_control_passed": true,
+    "symmetric_p_half_zero_naive_bias_passed": true,
+    "all_passed": true
+  },
+  "boundaries": [
+    "This rule coarsens each independent fixed40-photon histogram; actual source rebinning is unknown.",
+    "p is an abstract shape fraction, not tau, isotope population or experimental branching ratio.",
+    "The complete likelihood includes all kept counts and the merge decision; it does not condition away the selection rate.",
+    "Independent-pilot bin choice does not guarantee>=10 science counts; its control tests independence only.",
+    "Correct likelihood is not claimed exactly unbiased for finite64 groups or to have verified interval coverage.",
+    "Optimizer flags/coarse-grid checks do not prove a globally unique maximum for arbitrary inputs."
+  ]
+}

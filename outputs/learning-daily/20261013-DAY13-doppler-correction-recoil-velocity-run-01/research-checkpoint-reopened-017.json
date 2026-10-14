@@ -1,0 +1,11 @@
+{
+  "now_local": "2026-10-14T12:56:42.640395+08:00",
+  "minutes_to_deadline": 123.28932675,
+  "status": "research-active",
+  "writeback_items": 143,
+  "mapped_paths": 32,
+  "decision": "continue-nonlinear-interval-closure-on-existing-kernel",
+  "course_state": "next14/count13 unchanged",
+  "no_new_credit": true,
+  "clock_delivery": "checkpoint-001 observed/acknowledged"
+}

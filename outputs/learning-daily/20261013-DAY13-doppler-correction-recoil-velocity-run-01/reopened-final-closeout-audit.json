@@ -1,0 +1,280 @@
+{
+  "at": "2026-10-14T15:07:46.212602+08:00",
+  "status": "content-verified; final-publication-pending",
+  "research_closed": true,
+  "hard_deadline": "2026-10-14T15:00:00+08:00",
+  "closeout_before16": true,
+  "checks": {
+    "at": "2026-10-14T15:07:46.212602+08:00",
+    "report": {
+      "valid": true,
+      "missing_headings": []
+    },
+    "coverage": {
+      "valid": true,
+      "completed_day_indices": [
+        13
+      ],
+      "partial_day_indices": [
+        14
+      ],
+      "curriculum_cards_completed": 1,
+      "next_day_index": 14,
+      "error": null
+    },
+    "writeback": {
+      "valid": true,
+      "mode": "updated",
+      "knowledge_paths": [
+        "knowledge/methods/doppler-correction.md",
+        "knowledge/sources/mavela-2019-32s-quadrupole-moment-doppler-correction-thesis.md",
+        "knowledge/sources/klemme-1999-lifetimes-134nd-neighbors.md",
+        "knowledge/sources/herzan-2015-193bi-spectroscopy.md",
+        "knowledge/methods/level-scheme-reconstruction.md",
+        "knowledge/projects/a130-thesis-evidence-matrix.md",
+        "knowledge/questions.md",
+        "knowledge/index.md",
+        "knowledge/sources/vandebrouck-2016-vamos-dual-position-mwpc.md",
+        "knowledge/sources/crespi-2013-agata-high-energy-doppler-response.md",
+        "knowledge/methods/tracking-array.md",
+        "knowledge/sources/aladili-2009-agata-doppler-simulation.md",
+        "knowledge/research-notes/doppler-forward-inverse-convention-check.md",
+        "knowledge/sources/akkoyun-2012-agata-instrument-response.md",
+        "knowledge/concepts/lorentz-boost-correction.md",
+        "knowledge/sources/longfellow-2026-gretina-energy-ordering-polarization.md",
+        "knowledge/sources/senyigit-2014-agata-neutron-rejection.md",
+        "knowledge/methods/gamma-gamma-coincidence.md",
+        "knowledge/sources/tunl-2017-12c-level-widths.md",
+        "knowledge/sources/soderstrom-2008-agata-position-design.md",
+        "knowledge/sources/crespi-2023-agata-tracking-performance.md",
+        "knowledge/sources/ljungvall-2020-agata-ganil-performance.md",
+        "knowledge/sources/assie-2021-mugast-agata-vamos.md",
+        "knowledge/synthesis/doppler-velocity-validation-contract.md",
+        "knowledge/sources/lemasson-2023-agata-vamos-fission-history.md",
+        "knowledge/sources/ciemala-2019-20o-dsam-analysis-status.md",
+        "knowledge/sources/ziliani-2019-agata-calibration-controls.md",
+        "knowledge/sources/ciemala-2020-c16-o20-lifetimes.md",
+        "knowledge/sources/zanon-2023-o20-high-precision.md",
+        "knowledge/sources/ciemala-2021-deep-inelastic-lifetime-method.md",
+        "knowledge/sources/baker-cousins-1984-histogram-fits.md",
+        "knowledge/sources/nptool-2019-reaction-velocity-code-object.md"
+      ],
+      "changed_paths": [
+        "knowledge/concepts/lorentz-boost-correction.md",
+        "knowledge/index.md",
+        "knowledge/methods/doppler-correction.md",
+        "knowledge/methods/gamma-gamma-coincidence.md",
+        "knowledge/methods/level-scheme-reconstruction.md",
+        "knowledge/methods/tracking-array.md",
+        "knowledge/projects/a130-thesis-evidence-matrix.md",
+        "knowledge/questions.md",
+        "knowledge/research-notes/doppler-forward-inverse-convention-check.md",
+        "knowledge/sources/akkoyun-2012-agata-instrument-response.md",
+        "knowledge/sources/aladili-2009-agata-doppler-simulation.md",
+        "knowledge/sources/assie-2021-mugast-agata-vamos.md",
+        "knowledge/sources/baker-cousins-1984-histogram-fits.md",
+        "knowledge/sources/ciemala-2019-20o-dsam-analysis-status.md",
+        "knowledge/sources/ciemala-2020-c16-o20-lifetimes.md",
+        "knowledge/sources/ciemala-2021-deep-inelastic-lifetime-method.md",
+        "knowledge/sources/crespi-2013-agata-high-energy-doppler-response.md",
+        "knowledge/sources/crespi-2023-agata-tracking-performance.md",
+        "knowledge/sources/herzan-2015-193bi-spectroscopy.md",
+        "knowledge/sources/klemme-1999-lifetimes-134nd-neighbors.md",
+        "knowledge/sources/lemasson-2023-agata-vamos-fission-history.md",
+        "knowledge/sources/ljungvall-2020-agata-ganil-performance.md",
+        "knowledge/sources/mavela-2019-32s-quadrupole-moment-doppler-correction-thesis.md",
+        "knowledge/sources/nptool-2019-reaction-velocity-code-object.md",
+        "knowledge/sources/senyigit-2014-agata-neutron-rejection.md",
+        "knowledge/sources/soderstrom-2008-agata-position-design.md",
+        "knowledge/sources/tunl-2017-12c-level-widths.md",
+        "knowledge/sources/vandebrouck-2016-vamos-dual-position-mwpc.md",
+        "knowledge/sources/zanon-2023-o20-high-precision.md",
+        "knowledge/sources/ziliani-2019-agata-calibration-controls.md",
+        "knowledge/synthesis/doppler-velocity-validation-contract.md"
+      ],
+      "change_check": "run-snapshot",
+      "error": null
+    },
+    "protected": {
+      "PLAN.md": true,
+      "raw/zotero/wiki-inbox.bib": true
+    },
+    "lint_exit": 0,
+    "lint_counts": {
+      "warning": 128,
+      "info": 1764
+    },
+    "boundary": {
+      "ok": true,
+      "errors": [],
+      "warnings": []
+    },
+    "course_state": {
+      "schema_version": 1,
+      "cycle": "2026-09-30-day-substantive",
+      "counting_policy": "30 fully completed substantive curriculum cards; a run may complete multiple contiguous cards; acceptance-only runs are excluded",
+      "next_day_index": 14,
+      "last_success": "2026-10-13",
+      "last_run_id": "2026-10-13-day-13-01",
+      "status": "active",
+      "acceptance_runs_excluded": [
+        "2026-09-22-day-01-01",
+        "2026-09-22-day-01-02",
+        "2026-09-22-day-01-03",
+        "2026-09-22-day-01-04",
+        "2026-09-22-day-01-05",
+        "2026-09-22-day-02-06"
+      ],
+      "reset_at": "2026-09-23",
+      "reset_reason": "Manual Docker/runner instance acceptance before the substantive 30-day test reset",
+      "completed_day_count": 13
+    },
+    "code_manifest_hashes_match": true,
+    "ten_analyses_all_passed": true,
+    "raw_PLAN_diff_empty": true,
+    "diff_check_exit": 0,
+    "report_sha256": "8d0f83abddfd801bd71ef87f19f60c76ce866de9337c1b30a6726ca8144bf3dd",
+    "CM21_published_hash_verified": true,
+    "new_day_credit": false
+  },
+  "ten_analysis_registry": {
+    "finite-bin-lineshape-exercise.json": {
+      "verification": {
+        "bin_additivity_max_abs_error": 1.1102230246251565e-16,
+        "independent_quad_max_abs_error": 6.661338147750939e-16,
+        "order128_256_max_bin_difference": 6.8833827526759706e-15,
+        "Gaussian_limit_max_abs_error": 1.6653345369377348e-16,
+        "exact_fit_max_tau_error_fs": 6.337923394994505e-07,
+        "far_tail_interval_positive": true,
+        "midpoint_small_bin_convergence_passed": true,
+        "ROI_conditional_normalization_passed": true,
+        "independent_event_MC_passed": true,
+        "Fisher_derivative_step_relative_error": 1.5204575895649348e-09,
+        "aligned_rebin_information_loss_PSD_passed": true,
+        "all_passed": true
+      },
+      "sha256": "77015dfad0d378101df700d2762f66d6f769df90bf2d063dfcdd69f0213447c9"
+    },
+    "shared-background-covariance-exercise.json": {
+      "verification": {
+        "joint_Poisson_profile_GLS_max_covariance_difference": 5.204170427930421e-18,
+        "MC_optimal_max_variance_relative_error": 0.003382094649855727,
+        "MC_naive_sandwich_max_variance_relative_error": 0.0025394408413013103,
+        "shared_off_cross_covariance_passed": true,
+        "infinite_off_exposure_limit_passed": true,
+        "contrast_cancellation_passed": true,
+        "all_passed": true
+      },
+      "sha256": "843db382729ab60c2150ac36bbd39dd0cd0748b4c29209fff2328a921a915947"
+    },
+    "finite-template-covariance-exercise.json": {
+      "verification": {
+        "ensemble_covariance_Frobenius_relative_errors": [
+          0.0360866514284542,
+          0.03588314104997122,
+          0.040907231938772985,
+          0.0337897581158268
+        ],
+        "common_event_contrast_covariance_passed": true,
+        "fixed_accepted_N_multinomial_identity_passed": true,
+        "normalization_null_direction_passed": true,
+        "same_hypothesis_common_event_zero_difference_passed": true,
+        "independent_template_control_passed": true,
+        "infinite_template_limit_passed": true,
+        "all_passed": true
+      },
+      "sha256": "061ec9940102898bc2b609864a3f6a32c3c9514f6a47ceec1687f5a4c633f76f"
+    },
+    "adaptive-bin-observation-exercise.json": {
+      "verification": {
+        "all_reported_main_bins_at_least10": true,
+        "merged_event_likelihood_normalized": true,
+        "expected_complete_likelihood_recovers_truth": true,
+        "coarse_grid_optimum_check_max_disadvantage": 0.0,
+        "independent_pilot_bias_control_passed": true,
+        "symmetric_p_half_zero_naive_bias_passed": true,
+        "all_passed": true
+      },
+      "sha256": "019fc41c5e056f863808dc512f4949296ebe5d329ed1b6fac3b0c5051d001a8c"
+    },
+    "event-overlap-information-exercise.json": {
+      "verification": {
+        "Poisson_MC_covariance_relative_error": 0.004781273526193439,
+        "fixedN_MC_covariance_relative_error": 0.0028878078268737557,
+        "disjoint_thinning_vs_fixedN_passed": true,
+        "deterministic_replay_cross_covariance_passed": true,
+        "union_partition_information_refinement_passed": true,
+        "independent_replay_information_overcount_control_passed": true,
+        "all_passed": true
+      },
+      "sha256": "c6311debba511dd708497a8bb3e36f1ef1cc6c9cd4e1d44f64fa6454cbb27fc0"
+    },
+    "nonlinear-interval-closure-exercise.json": {
+      "verification": {
+        "probability_agreement_with_existing_no_feed_kernel_max_error": 1.6653345369377348e-16,
+        "analytic_gradient_finite_difference_max_error": 2.334544502158309e-09,
+        "quadrature128_256_max_probability_difference": 2.120525977034049e-14,
+        "no_loss_lifetime_shape_independence_passed": true,
+        "all_experiments_numerically_verified": true,
+        "all_passed": true
+      },
+      "sha256": "4c761c1281a3930d606398a2129b51702e16d2a28293206d1dd5b4d162bfbb1a"
+    },
+    "velocity-nuisance-interval-exercise.json": {
+      "verification": {
+        "probability_agreement_with_fixed_velocity_model_max_error": 0.0,
+        "analytic_three_coordinate_gradient_max_FD_error": 2.059007520038847e-09,
+        "quadrature128_256_max_bin_difference": 1.8512968935624485e-14,
+        "Schur_profile_information_check_passed": true,
+        "all_passed": true
+      },
+      "sha256": "c8e24b2a07e4a774be6a0cd25cfbf65efb0013432a28350a57a4da9fc9541a5d"
+    },
+    "velocity-region-semantics-exercise.json": {
+      "verification": {
+        "previous_joint_result_reproduced": true,
+        "calibrated_counts_and_measurement_hashes_match": true,
+        "profile_q_never_exceeds_joint_truth_q": true,
+        "all_passed": true
+      },
+      "sha256": "4897e2fa5c26460dcab7f645e67cdd6308556ccab4d0b7c70e7f9888a48b97ee"
+    },
+    "long-control-velocity-estimator-exercise.json": {
+      "verification": {
+        "quadrature128_256_mean_max_difference_keV": 4.547473508864641e-13,
+        "finite_history_late_speed_recovery_passed": true,
+        "independent_propertime_mean_MC_passed": true,
+        "mode_analytic_score_and_coarse_grid_passed": true,
+        "long_tau_and_equal_speed_limits_passed": true,
+        "all_passed": true
+      },
+      "sha256": "53c3543e2e408380f21f1d227edf3474c4c166c0508d32ca2c511dccddb2934d"
+    },
+    "calibration-applicability-audit-exercise.json": {
+      "verification": {
+        "geometry_mean_quad96_128_difference_keV": 1.8496315590255108e-13,
+        "geometry_mode_quad96_128_difference_keV": 1.8957058145474548e-13,
+        "source_frame_fourmomentum_max_residual_MeV": 3.637978807091713e-12,
+        "frame_inverse_max_error_MeV": 1.3322676295501878e-15,
+        "known_vertex_zero_signal_error_passed": true,
+        "static_and_far_detector_limits_passed": true,
+        "all_passed": true
+      },
+      "sha256": "9601fa46b542eb1541bb65d7aaf754f0822d846b315cab51c0ebeec032530902"
+    }
+  },
+  "source_model_inference_independence_self_audit": "complete with declaredconditions; nohumanreview promotion; originalsourceflags preserved",
+  "scope_self_audit": {
+    "incident": "During restoration, matrix sed116–140 incidentally displayed Day15 heading and its recall line after Day14.",
+    "boundary": "Not a deliberate card selection; no Day15 active recall/exercise/source/preview/research or credit.",
+    "correction": "Use only Day13/previously permitted Day14 identifiers; no further card opening; precise no-Day15-study wording.",
+    "acknowledged_at": "2026-10-14T14:55:58.014776+08:00",
+    "preserved_original_objective": true
+  },
+  "clock_event001_actually_acknowledged": true,
+  "farmer_and_clock": "farmerpreserved; clockstoppedhistorically no restart",
+  "no_new_credit": true,
+  "protected_inherited_paths": "Day6–9/daemon/oldlog/raw/PLAN/Bib/credentials/tmp excluded",
+  "publication_manifest_file_count": 46,
+  "resume_command": "codex resume 01a13489-64ba-7930-9a2c-291375d95ad0 -C /workspace/wiki -s danger-full-access -a never"
+}

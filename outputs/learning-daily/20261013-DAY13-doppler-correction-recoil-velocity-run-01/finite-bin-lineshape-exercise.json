@@ -1,0 +1,1060 @@
+{
+  "schema_version": 1,
+  "kind": "synthetic finite-bin conditional lineshape",
+  "source_inspiration": "BC84-2; not experimental rebinning or lifetime analysis",
+  "chosen_parameters": {
+    "rest_energy_keV": 2396.1,
+    "proper_tau_ps": 0.07,
+    "known_entry_feed_fraction": 0.2,
+    "corrected_gaussian_sigma_keV": 2.0,
+    "angles_deg": [
+      130.0,
+      150.0,
+      170.0
+    ],
+    "beta_in": 0.126,
+    "beta_exit": 0.08,
+    "proper_slowing_time_ps": 0.4,
+    "upper_tau_ps": 0.054
+  },
+  "cases": [
+    {
+      "bin_width_keV": 0.5,
+      "phase_fraction": 0.0,
+      "ROI_edges_keV": [
+        2256.1,
+        2416.1
+      ],
+      "number_of_bins": 320,
+      "normalizers": [
+        {
+          "angle_deg": 130.0,
+          "integral_ROI_mass": 1.0,
+          "midpoint_ROI_mass": 1.0
+        },
+        {
+          "angle_deg": 150.0,
+          "integral_ROI_mass": 1.0000000000000002,
+          "midpoint_ROI_mass": 1.0000000000000002
+        },
+        {
+          "angle_deg": 170.0,
+          "integral_ROI_mass": 1.0,
+          "midpoint_ROI_mass": 1.0000000000000002
+        }
+      ],
+      "truth_shape_mismatch": [
+        {
+          "angle_deg": 130.0,
+          "total_variation_at_truth": 0.00013752107299629693
+        },
+        {
+          "angle_deg": 150.0,
+          "total_variation_at_truth": 0.00011003261246398486
+        },
+        {
+          "angle_deg": 170.0,
+          "total_variation_at_truth": 0.00010048029109749526
+        }
+      ],
+      "exact_integral_fit": {
+        "method": "integral",
+        "pseudo_true_tau_fs": 69.99999950818251,
+        "pseudo_true_energy_keV": 2396.09999997368,
+        "mean_KL_per_selected_photon": -1.2320167009707703e-16,
+        "multistart": [
+          {
+            "start": [
+              0.0,
+              0.0
+            ],
+            "success": true,
+            "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+            "tau_fs": 70.00000012049463,
+            "energy_keV": 2396.1000000009785,
+            "mean_KL": -1.1952077603161774e-16
+          },
+          {
+            "start": [
+              -0.4,
+              -0.3
+            ],
+            "success": true,
+            "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+            "tau_fs": 69.99999950818251,
+            "energy_keV": 2396.09999997368,
+            "mean_KL": -1.2320167009707703e-16
+          },
+          {
+            "start": [
+              0.4,
+              0.3
+            ],
+            "success": true,
+            "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+            "tau_fs": 69.9999987991771,
+            "energy_keV": 2396.0999998475877,
+            "mean_KL": 3.697866809361705e-16
+          }
+        ]
+      },
+      "midpoint_fit": {
+        "method": "midpoint",
+        "pseudo_true_tau_fs": 70.01494286333627,
+        "pseudo_true_energy_keV": 2396.096520774109,
+        "mean_KL_per_selected_photon": 2.6418324329127116e-07,
+        "multistart": [
+          {
+            "start": [
+              0.0,
+              0.0
+            ],
+            "success": true,
+            "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+            "tau_fs": 70.01494212582129,
+            "energy_keV": 2396.096521117147,
+            "mean_KL": 2.6418324453641976e-07
+          },
+          {
+            "start": [
+              -0.4,
+              -0.3
+            ],
+            "success": true,
+            "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+            "tau_fs": 70.01494270863897,
+            "energy_keV": 2396.0965208336643,
+            "mean_KL": 2.641832434345372e-07
+          },
+          {
+            "start": [
+              0.4,
+              0.3
+            ],
+            "success": true,
+            "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+            "tau_fs": 70.01494286333627,
+            "energy_keV": 2396.096520774109,
+            "mean_KL": 2.6418324329127116e-07
+          }
+        ]
+      }
+    },
+    {
+      "bin_width_keV": 2.0,
+      "phase_fraction": 0.0,
+      "ROI_edges_keV": [
+        2256.1,
+        2416.1
+      ],
+      "number_of_bins": 80,
+      "normalizers": [
+        {
+          "angle_deg": 130.0,
+          "integral_ROI_mass": 0.9999999999999999,
+          "midpoint_ROI_mass": 0.9999999998879406
+        },
+        {
+          "angle_deg": 150.0,
+          "integral_ROI_mass": 1.0,
+          "midpoint_ROI_mass": 0.9999999999974238
+        },
+        {
+          "angle_deg": 170.0,
+          "integral_ROI_mass": 1.0,
+          "midpoint_ROI_mass": 1.0000000000416032
+        }
+      ],
+      "truth_shape_mismatch": [
+        {
+          "angle_deg": 130.0,
+          "total_variation_at_truth": 0.0020826760186957744
+        },
+        {
+          "angle_deg": 150.0,
+          "total_variation_at_truth": 0.0017108428279248415
+        },
+        {
+          "angle_deg": 170.0,
+          "total_variation_at_truth": 0.0016427185617012407
+        }
+      ],
+      "exact_integral_fit": {
+        "method": "integral",
+        "pseudo_true_tau_fs": 69.99999984361898,
+        "pseudo_true_energy_keV": 2396.0999999764035,
+        "mean_KL_per_selected_photon": 5.498788479768543e-17,
+        "multistart": [
+          {
+            "start": [
+              0.0,
+              0.0
+            ],
+            "success": false,
+            "message": "ABNORMAL: ",
+            "tau_fs": 70.0,
+            "energy_keV": 2396.1,
+            "mean_KL": 0.0
+          },
+          {
+            "start": [
+              -0.4,
+              -0.3
+            ],
+            "success": true,
+            "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+            "tau_fs": 69.9999965804414,
+            "energy_keV": 2396.1000002060323,
+            "mean_KL": 9.88990570059235e-16
+          },
+          {
+            "start": [
+              0.4,
+              0.3
+            ],
+            "success": true,
+            "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+            "tau_fs": 69.99999984361898,
+            "energy_keV": 2396.0999999764035,
+            "mean_KL": 5.498788479768543e-17
+          }
+        ]
+      },
+      "midpoint_fit": {
+        "method": "midpoint",
+        "pseudo_true_tau_fs": 70.23881939239763,
+        "pseudo_true_energy_keV": 2396.044368790448,
+        "mean_KL_per_selected_photon": 6.405210247704366e-05,
+        "multistart": [
+          {
+            "start": [
+              0.0,
+              0.0
+            ],
+            "success": true,
+            "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+            "tau_fs": 70.23881947111673,
+            "energy_keV": 2396.0443686960366,
+            "mean_KL": 6.405210247706115e-05
+          },
+          {
+            "start": [
+              -0.4,
+              -0.3
+            ],
+            "success": true,
+            "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+            "tau_fs": 70.23882191374759,
+            "energy_keV": 2396.0443679507525,
+            "mean_KL": 6.405210248216647e-05
+          },
+          {
+            "start": [
+              0.4,
+              0.3
+            ],
+            "success": true,
+            "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+            "tau_fs": 70.23881939239763,
+            "energy_keV": 2396.044368790448,
+            "mean_KL": 6.405210247704366e-05
+          }
+        ]
+      }
+    },
+    {
+      "bin_width_keV": 5.0,
+      "phase_fraction": 0.0,
+      "ROI_edges_keV": [
+        2256.1,
+        2416.1
+      ],
+      "number_of_bins": 32,
+      "normalizers": [
+        {
+          "angle_deg": 130.0,
+          "integral_ROI_mass": 1.0,
+          "midpoint_ROI_mass": 0.9962331240243409
+        },
+        {
+          "angle_deg": 150.0,
+          "integral_ROI_mass": 1.0,
+          "midpoint_ROI_mass": 0.9981169116134704
+        },
+        {
+          "angle_deg": 170.0,
+          "integral_ROI_mass": 1.0,
+          "midpoint_ROI_mass": 0.9998152065939083
+        }
+      ],
+      "truth_shape_mismatch": [
+        {
+          "angle_deg": 130.0,
+          "total_variation_at_truth": 0.008882508319052539
+        },
+        {
+          "angle_deg": 150.0,
+          "total_variation_at_truth": 0.004892521280899113
+        },
+        {
+          "angle_deg": 170.0,
+          "total_variation_at_truth": 0.00466799847055037
+        }
+      ],
+      "exact_integral_fit": {
+        "method": "integral",
+        "pseudo_true_tau_fs": 69.99999981112738,
+        "pseudo_true_energy_keV": 2396.1000000023037,
+        "mean_KL_per_selected_photon": -4.245005773812409e-17,
+        "multistart": [
+          {
+            "start": [
+              0.0,
+              0.0
+            ],
+            "success": true,
+            "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+            "tau_fs": 69.99999981112738,
+            "energy_keV": 2396.1000000023037,
+            "mean_KL": -4.245005773812409e-17
+          },
+          {
+            "start": [
+              -0.4,
+              -0.3
+            ],
+            "success": true,
+            "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+            "tau_fs": 69.99999856399367,
+            "energy_keV": 2396.0999999853966,
+            "mean_KL": 1.5375756765560163e-16
+          },
+          {
+            "start": [
+              0.4,
+              0.3
+            ],
+            "success": true,
+            "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+            "tau_fs": 69.99999937492525,
+            "energy_keV": 2396.100000174157,
+            "mean_KL": 2.600119152129072e-16
+          }
+        ]
+      },
+      "midpoint_fit": {
+        "method": "midpoint",
+        "pseudo_true_tau_fs": 71.14451264535181,
+        "pseudo_true_energy_keV": 2395.877434274625,
+        "mean_KL_per_selected_photon": 0.0015450358620159187,
+        "multistart": [
+          {
+            "start": [
+              0.0,
+              0.0
+            ],
+            "success": true,
+            "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+            "tau_fs": 71.14451312491181,
+            "energy_keV": 2395.8774345091997,
+            "mean_KL": 0.0015450358620164343
+          },
+          {
+            "start": [
+              -0.4,
+              -0.3
+            ],
+            "success": true,
+            "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+            "tau_fs": 71.14451463529282,
+            "energy_keV": 2395.8774341257877,
+            "mean_KL": 0.001545035862016109
+          },
+          {
+            "start": [
+              0.4,
+              0.3
+            ],
+            "success": true,
+            "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+            "tau_fs": 71.14451264535181,
+            "energy_keV": 2395.877434274625,
+            "mean_KL": 0.0015450358620159187
+          }
+        ]
+      }
+    },
+    {
+      "bin_width_keV": 10.0,
+      "phase_fraction": 0.0,
+      "ROI_edges_keV": [
+        2256.1,
+        2416.1
+      ],
+      "number_of_bins": 16,
+      "normalizers": [
+        {
+          "angle_deg": 130.0,
+          "integral_ROI_mass": 0.9999999999999999,
+          "midpoint_ROI_mass": 1.0755278657261278
+        },
+        {
+          "angle_deg": 150.0,
+          "integral_ROI_mass": 1.0,
+          "midpoint_ROI_mass": 1.0633376426851329
+        },
+        {
+          "angle_deg": 170.0,
+          "integral_ROI_mass": 0.9999999999999998,
+          "midpoint_ROI_mass": 1.0562428155456536
+        }
+      ],
+      "truth_shape_mismatch": [
+        {
+          "angle_deg": 130.0,
+          "total_variation_at_truth": 0.0624333103858978
+        },
+        {
+          "angle_deg": 150.0,
+          "total_variation_at_truth": 0.055694957709837234
+        },
+        {
+          "angle_deg": 170.0,
+          "total_variation_at_truth": 0.052119798114983504
+        }
+      ],
+      "exact_integral_fit": {
+        "method": "integral",
+        "pseudo_true_tau_fs": 69.99999936620766,
+        "pseudo_true_energy_keV": 2396.1000000959543,
+        "mean_KL_per_selected_photon": 1.6584269453404312e-16,
+        "multistart": [
+          {
+            "start": [
+              0.0,
+              0.0
+            ],
+            "success": false,
+            "message": "ABNORMAL: ",
+            "tau_fs": 70.0,
+            "energy_keV": 2396.1,
+            "mean_KL": 0.0
+          },
+          {
+            "start": [
+              -0.4,
+              -0.3
+            ],
+            "success": true,
+            "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+            "tau_fs": 70.00000035611535,
+            "energy_keV": 2396.0999998101483,
+            "mean_KL": 2.777666002206624e-16
+          },
+          {
+            "start": [
+              0.4,
+              0.3
+            ],
+            "success": true,
+            "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+            "tau_fs": 69.99999936620766,
+            "energy_keV": 2396.1000000959543,
+            "mean_KL": 1.6584269453404312e-16
+          }
+        ]
+      },
+      "midpoint_fit": {
+        "method": "midpoint",
+        "pseudo_true_tau_fs": 77.01450233513373,
+        "pseudo_true_energy_keV": 2396.269235558693,
+        "mean_KL_per_selected_photon": 0.019129010087891415,
+        "multistart": [
+          {
+            "start": [
+              0.0,
+              0.0
+            ],
+            "success": true,
+            "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+            "tau_fs": 77.01449723812541,
+            "energy_keV": 2396.269235039301,
+            "mean_KL": 0.019129010087898107
+          },
+          {
+            "start": [
+              -0.4,
+              -0.3
+            ],
+            "success": true,
+            "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+            "tau_fs": 77.01446528326025,
+            "energy_keV": 2396.2692434358974,
+            "mean_KL": 0.019129010087993174
+          },
+          {
+            "start": [
+              0.4,
+              0.3
+            ],
+            "success": true,
+            "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+            "tau_fs": 77.01450233513373,
+            "energy_keV": 2396.269235558693,
+            "mean_KL": 0.019129010087891415
+          }
+        ]
+      }
+    },
+    {
+      "bin_width_keV": 20.0,
+      "phase_fraction": 0.0,
+      "ROI_edges_keV": [
+        2256.1,
+        2416.1
+      ],
+      "number_of_bins": 8,
+      "normalizers": [
+        {
+          "angle_deg": 130.0,
+          "integral_ROI_mass": 1.0,
+          "midpoint_ROI_mass": 1.1580876156557245
+        },
+        {
+          "angle_deg": 150.0,
+          "integral_ROI_mass": 1.0000000000000002,
+          "midpoint_ROI_mass": 1.1086519182347487
+        },
+        {
+          "angle_deg": 170.0,
+          "integral_ROI_mass": 1.0,
+          "midpoint_ROI_mass": 0.7875470598526868
+        }
+      ],
+      "truth_shape_mismatch": [
+        {
+          "angle_deg": 130.0,
+          "total_variation_at_truth": 0.07514887323715791
+        },
+        {
+          "angle_deg": 150.0,
+          "total_variation_at_truth": 0.06576651820736074
+        },
+        {
+          "angle_deg": 170.0,
+          "total_variation_at_truth": 0.16502843007516838
+        }
+      ],
+      "exact_integral_fit": {
+        "method": "integral",
+        "pseudo_true_tau_fs": 69.99999996071766,
+        "pseudo_true_energy_keV": 2396.100000000625,
+        "mean_KL_per_selected_photon": -4.398171511179454e-17,
+        "multistart": [
+          {
+            "start": [
+              0.0,
+              0.0
+            ],
+            "success": true,
+            "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+            "tau_fs": 69.99999996071766,
+            "energy_keV": 2396.100000000625,
+            "mean_KL": -4.398171511179454e-17
+          },
+          {
+            "start": [
+              -0.4,
+              -0.3
+            ],
+            "success": true,
+            "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+            "tau_fs": 70.00000168892872,
+            "energy_keV": 2396.099999325512,
+            "mean_KL": 8.083141696084386e-16
+          },
+          {
+            "start": [
+              0.4,
+              0.3
+            ],
+            "success": true,
+            "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+            "tau_fs": 69.99999909273774,
+            "energy_keV": 2396.0999996119317,
+            "mean_KL": 5.523234873745322e-16
+          }
+        ]
+      },
+      "midpoint_fit": {
+        "method": "midpoint",
+        "pseudo_true_tau_fs": 80.31737338606983,
+        "pseudo_true_energy_keV": 2394.446523256525,
+        "mean_KL_per_selected_photon": 0.06491191717298611,
+        "multistart": [
+          {
+            "start": [
+              0.0,
+              0.0
+            ],
+            "success": true,
+            "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+            "tau_fs": 80.31736902069856,
+            "energy_keV": 2394.44652341124,
+            "mean_KL": 0.0649119171729876
+          },
+          {
+            "start": [
+              -0.4,
+              -0.3
+            ],
+            "success": true,
+            "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+            "tau_fs": 80.31736629747105,
+            "energy_keV": 2394.4465240785526,
+            "mean_KL": 0.06491191717299424
+          },
+          {
+            "start": [
+              0.4,
+              0.3
+            ],
+            "success": true,
+            "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+            "tau_fs": 80.31737338606983,
+            "energy_keV": 2394.446523256525,
+            "mean_KL": 0.06491191717298611
+          }
+        ]
+      }
+    },
+    {
+      "bin_width_keV": 20.0,
+      "phase_fraction": 0.5,
+      "ROI_edges_keV": [
+        2266.1,
+        2426.1
+      ],
+      "number_of_bins": 8,
+      "normalizers": [
+        {
+          "angle_deg": 130.0,
+          "integral_ROI_mass": 1.0,
+          "midpoint_ROI_mass": 0.7059233545121106
+        },
+        {
+          "angle_deg": 150.0,
+          "integral_ROI_mass": 1.0,
+          "midpoint_ROI_mass": 0.7722046294262591
+        },
+        {
+          "angle_deg": 170.0,
+          "integral_ROI_mass": 1.0,
+          "midpoint_ROI_mass": 1.1007069049851306
+        }
+      ],
+      "truth_shape_mismatch": [
+        {
+          "angle_deg": 130.0,
+          "total_variation_at_truth": 0.2492842708466499
+        },
+        {
+          "angle_deg": 150.0,
+          "total_variation_at_truth": 0.19886410469780003
+        },
+        {
+          "angle_deg": 170.0,
+          "total_variation_at_truth": 0.058920108153414696
+        }
+      ],
+      "exact_integral_fit": {
+        "method": "integral",
+        "pseudo_true_tau_fs": 70.00000004345927,
+        "pseudo_true_energy_keV": 2396.100000005982,
+        "mean_KL_per_selected_photon": -3.155903859006993e-17,
+        "multistart": [
+          {
+            "start": [
+              0.0,
+              0.0
+            ],
+            "success": true,
+            "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+            "tau_fs": 70.00000004345927,
+            "energy_keV": 2396.100000005982,
+            "mean_KL": -3.155903859006993e-17
+          },
+          {
+            "start": [
+              -0.4,
+              -0.3
+            ],
+            "success": true,
+            "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+            "tau_fs": 69.99999851472613,
+            "energy_keV": 2396.100000441042,
+            "mean_KL": 4.267064660188223e-16
+          },
+          {
+            "start": [
+              0.4,
+              0.3
+            ],
+            "success": true,
+            "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+            "tau_fs": 69.9999976393118,
+            "energy_keV": 2396.1000000640183,
+            "mean_KL": 3.3771607298740566e-16
+          }
+        ]
+      },
+      "midpoint_fit": {
+        "method": "midpoint",
+        "pseudo_true_tau_fs": 72.88194325140444,
+        "pseudo_true_energy_keV": 2393.9203864912643,
+        "mean_KL_per_selected_photon": 0.018177768178766724,
+        "multistart": [
+          {
+            "start": [
+              0.0,
+              0.0
+            ],
+            "success": true,
+            "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+            "tau_fs": 72.88196969752721,
+            "energy_keV": 2393.9203847851577,
+            "mean_KL": 0.01817776817881799
+          },
+          {
+            "start": [
+              -0.4,
+              -0.3
+            ],
+            "success": true,
+            "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+            "tau_fs": 72.88194325140444,
+            "energy_keV": 2393.9203864912643,
+            "mean_KL": 0.018177768178766724
+          },
+          {
+            "start": [
+              0.4,
+              0.3
+            ],
+            "success": true,
+            "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+            "tau_fs": 72.88195059313857,
+            "energy_keV": 2393.9203854140123,
+            "mean_KL": 0.018177768178790778
+          }
+        ]
+      }
+    }
+  ],
+  "refinement": [
+    {
+      "bin_width_keV": 1.0,
+      "total_variation": 0.0004423842932994055
+    },
+    {
+      "bin_width_keV": 0.5,
+      "total_variation": 0.00011003261246398486
+    },
+    {
+      "bin_width_keV": 0.25,
+      "total_variation": 2.7656221082506212e-05
+    }
+  ],
+  "ROI_checks": [
+    {
+      "offset_edges_keV": [
+        -140.0,
+        20.0
+      ],
+      "selected_probability": 1.0,
+      "normalized_probability_sum": 1.0
+    },
+    {
+      "offset_edges_keV": [
+        -80.0,
+        5.0
+      ],
+      "selected_probability": 0.43387419877000716,
+      "normalized_probability_sum": 1.0
+    },
+    {
+      "offset_edges_keV": [
+        -25.0,
+        3.0
+      ],
+      "selected_probability": 0.022035689837109268,
+      "normalized_probability_sum": 1.0000000000000002
+    }
+  ],
+  "local_information": [
+    {
+      "bin_width_keV": 0.5,
+      "Fisher_coordinates": [
+        "log_tau",
+        "energy_shift_keV"
+      ],
+      "Fisher_sum_per_photon_per_angle": [
+        [
+          2.4863999786618654,
+          0.14228613274210083
+        ],
+        [
+          0.14228613274210083,
+          0.06301991553097211
+        ]
+      ],
+      "lost_information_eigenvalues": [
+        0.0,
+        0.0
+      ],
+      "chosen_N_per_angle": 10000,
+      "local_tau_SE_fs": 0.4757232300078148,
+      "local_energy_SE_keV": 0.04268771488891304,
+      "tau_energy_correlation": -0.3594497373328363
+    },
+    {
+      "bin_width_keV": 2.0,
+      "Fisher_coordinates": [
+        "log_tau",
+        "energy_shift_keV"
+      ],
+      "Fisher_sum_per_photon_per_angle": [
+        [
+          2.4839690302011954,
+          0.14170729947249244
+        ],
+        [
+          0.14170729947249244,
+          0.06053821286192852
+        ]
+      ],
+      "lost_information_eigenvalues": [
+        0.0018769362730826978,
+        0.003035714856630824
+      ],
+      "chosen_N_per_angle": 10000,
+      "local_tau_SE_fs": 0.477145117601397,
+      "local_energy_SE_keV": 0.043662714743172494,
+      "tau_energy_correlation": -0.36543011558790905
+    },
+    {
+      "bin_width_keV": 5.0,
+      "Fisher_coordinates": [
+        "log_tau",
+        "energy_shift_keV"
+      ],
+      "Fisher_sum_per_photon_per_angle": [
+        [
+          2.470518811916568,
+          0.1389985791624149
+        ],
+        [
+          0.13899857916241493,
+          0.050616498989255534
+        ]
+      ],
+      "lost_information_eigenvalues": [
+        0.010423192941007645,
+        0.01786139034600631
+      ],
+      "chosen_N_per_angle": 10000,
+      "local_tau_SE_fs": 0.4843376665846366,
+      "local_energy_SE_keV": 0.04833906394117071,
+      "tau_energy_correlation": -0.3930702970232996
+    },
+    {
+      "bin_width_keV": 10.0,
+      "Fisher_coordinates": [
+        "log_tau",
+        "energy_shift_keV"
+      ],
+      "Fisher_sum_per_photon_per_angle": [
+        [
+          2.4273948990979135,
+          0.12893433784544278
+        ],
+        [
+          0.12893433784544278,
+          0.027895887369485253
+        ]
+      ],
+      "lost_information_eigenvalues": [
+        0.02915236301446693,
+        0.06497674471097177
+      ],
+      "chosen_N_per_angle": 10000,
+      "local_tau_SE_fs": 0.5172482456135036,
+      "local_energy_SE_keV": 0.06892886277694041,
+      "tau_energy_correlation": -0.4954824613283115
+    },
+    {
+      "bin_width_keV": 20.0,
+      "Fisher_coordinates": [
+        "log_tau",
+        "energy_shift_keV"
+      ],
+      "Fisher_sum_per_photon_per_angle": [
+        [
+          2.270419872235827,
+          0.10698420094510047
+        ],
+        [
+          0.10698420094510046,
+          0.01629423352345844
+        ]
+      ],
+      "lost_information_eigenvalues": [
+        0.03965779383016,
+        0.22304799460339192
+      ],
+      "chosen_N_per_angle": 10000,
+      "local_tau_SE_fs": 0.5590194648723706,
+      "local_energy_SE_keV": 0.09426815597450787,
+      "tau_energy_correlation": -0.5562238279178885
+    }
+  ],
+  "independent_event_MC": {
+    "seed": 131425,
+    "generated_count": 600000,
+    "selected_count": 600000,
+    "angle_deg": 150,
+    "bin_width_keV": 5.0,
+    "analytic": [
+      1.1275320880653467e-82,
+      2.447054632315509e-63,
+      1.0724168648170534e-46,
+      9.65328664543046e-33,
+      1.836589542502486e-21,
+      7.790859598147745e-13,
+      8.272028971368066e-07,
+      0.0029891890607462125,
+      0.09519231040364814,
+      0.18703111210013712,
+      0.15638769007524772,
+      0.12448945654214442,
+      0.09823190014744493,
+      0.07696524708067293,
+      0.05995249361280186,
+      0.046474793042557694,
+      0.03588098662674079,
+      0.02760714163227617,
+      0.021179331270079836,
+      0.016207713736521176,
+      0.012376693316387403,
+      0.00943390127195307,
+      0.0071794770587347454,
+      0.0054563741010751465,
+      0.004141972929003964,
+      0.003141039756821492,
+      0.002412650806929815,
+      0.004269618568137537,
+      0.002962863811868654,
+      3.52142443078067e-05,
+      1.6000850742433033e-09,
+      1.7693537627890173e-16
+    ],
+    "weighted_MC": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.6397868923612895e-06,
+      0.0029617301910218525,
+      0.09474205339380111,
+      0.18757071034538453,
+      0.15628249362906207,
+      0.12506406216182014,
+      0.09824768873840604,
+      0.07679234630414516,
+      0.059199024790013696,
+      0.0466670237520983,
+      0.036304933328249106,
+      0.02773910384395834,
+      0.021007419174871905,
+      0.01637246672961247,
+      0.012348647353785944,
+      0.009257833294696425,
+      0.00706884660793934,
+      0.005457545084833378,
+      0.004282612271855343,
+      0.0031542805104379235,
+      0.0023079971558414127,
+      0.004234249198701176,
+      0.0029050294065815652,
+      3.0262946012559232e-05,
+      0.0,
+      0.0
+    ],
+    "MC_SE": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.6397855702893224e-06,
+      6.959103512999142e-05,
+      0.00037550106242810433,
+      0.0005014903734877516,
+      0.00046713385977867003,
+      0.0004262478304192417,
+      0.0003842451698809306,
+      0.00034440331236900833,
+      0.00030588475724357863,
+      0.0002739588207748185,
+      0.00024346758145576768,
+      0.000214217652630168,
+      0.00018747417744904808,
+      0.00016625118875178782,
+      0.0001449923177698996,
+      0.00012600866738498556,
+      0.00011046251025523954,
+      9.734884127024161e-05,
+      8.646865900668413e-05,
+      7.440989876736366e-05,
+      6.381172640332355e-05,
+      8.658011591463512e-05,
+      7.179903221416265e-05,
+      7.339724407404202e-06,
+      0.0,
+      0.0
+    ],
+    "maximum_abs_bin_difference": 0.0007534688227881642,
+    "maximum_standardized_difference": 2.4632440974761307
+  },
+  "verification": {
+    "bin_additivity_max_abs_error": 1.1102230246251565e-16,
+    "independent_quad_max_abs_error": 6.661338147750939e-16,
+    "order128_256_max_bin_difference": 6.8833827526759706e-15,
+    "Gaussian_limit_max_abs_error": 1.6653345369377348e-16,
+    "exact_fit_max_tau_error_fs": 6.337923394994505e-07,
+    "far_tail_interval_positive": true,
+    "midpoint_small_bin_convergence_passed": true,
+    "ROI_conditional_normalization_passed": true,
+    "independent_event_MC_passed": true,
+    "Fisher_derivative_step_relative_error": 1.5204575895649348e-09,
+    "aligned_rebin_information_loss_PSD_passed": true,
+    "all_passed": true
+  },
+  "dependencies": {
+    "kernel_file": "/workspace/wiki/system/scripts/day13_entry_gate_feeding_design.py",
+    "kernel_sha256": "c61a63038e626f1b9aca32b7ae4443f027638a6a4f5a72ab44a6c370f4c75413",
+    "numpy": "2.5.3",
+    "scipy": "1.18.1"
+  },
+  "boundaries": [
+    "Transport, entry feeding, point angles and response are fixed chosen inputs.",
+    "Fits use expected multinomial histograms with equal angle weights and free tau/E.",
+    "Coarse bins discard information; additivity is implementation consistency, not independence.",
+    "Fisher errors are local expected-model design values, not finite-sample coverage or reported source uncertainties.",
+    "All fit-start success flags are retained; no proof of a globally unique optimum.",
+    "No source rebin rule, sample count, background, data fit or interval is reproduced."
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "kind": "synthetic analysis reproducibility manifest, not an experimental dataset",
+  "python": "3.12.3 (main, Jul 15 2026, 23:46:41) [GCC 13.3.0]",
+  "numpy": "2.5.3",
+  "scipy": "1.18.1",
+  "platform": "Linux-6.18.54.1-microsoft-standard-WSL2-x86_64-with-glibc2.39",
+  "byteorder": "little",
+  "commands_environment": {
+    "OPENBLAS_NUM_THREADS": "1",
+    "OMP_NUM_THREADS": "1"
+  },
+  "scripts": [
+    {
+      "path": "system/scripts/day13_finite_bin_lineshape.py",
+      "sha256": "bf493da4f3c7c7d314ba97a1d8f98ce8cff8484edf329c72700c52b2c566852a",
+      "AST_parse_passed": true
+    },
+    {
+      "path": "system/scripts/day13_shared_background_covariance.py",
+      "sha256": "18e46fe69bd069cb01f2412d8a002de801e33fb31d39e1eb03f1b5d35d9e90c5",
+      "AST_parse_passed": true
+    },
+    {
+      "path": "system/scripts/day13_finite_template_covariance.py",
+      "sha256": "97efffec2d214a2ce9550d865b0d5de9527e3765a16e456061327af93f4fc9f2",
+      "AST_parse_passed": true
+    },
+    {
+      "path": "system/scripts/day13_adaptive_bin_observation.py",
+      "sha256": "f1b91ca8978d5ab03f4d6e1da3bc79aa9a7f48c8c325979f113351d0e7e9bec4",
+      "AST_parse_passed": true
+    },
+    {
+      "path": "system/scripts/day13_event_overlap_information.py",
+      "sha256": "68bbb0ee9f36ab582f2e7645baa8feabd4bb5fc83689f8c43e7b8e5dff0d48f7",
+      "AST_parse_passed": true
+    },
+    {
+      "path": "system/scripts/day13_nonlinear_interval_closure.py",
+      "sha256": "8bc01df89ae23f3b68a96a64a027bba4efc9da9717437835d1f2d7d1dea2b5d1",
+      "AST_parse_passed": true
+    },
+    {
+      "path": "system/scripts/day13_velocity_nuisance_interval.py",
+      "sha256": "7bfdc29d31af7a56329a0d1cb33af600c9b5eb26d9f76f5b048b55ae3eab58db",
+      "AST_parse_passed": true
+    },
+    {
+      "path": "system/scripts/day13_velocity_region_semantics.py",
+      "sha256": "4b27a453ce6ba7654232b536a0cb91f5c269a9455eca55f4c7b4b254ea580d45",
+      "AST_parse_passed": true
+    },
+    {
+      "path": "system/scripts/day13_long_control_velocity_estimator.py",
+      "sha256": "ba7e26bd6a09163dd5d5c7668eacdf90ccf5065192fa4b725b0a24cb97852c90",
+      "AST_parse_passed": true
+    },
+    {
+      "path": "system/scripts/day13_calibration_applicability_audit.py",
+      "sha256": "62df2d50929134950c25a0609caa6146024df1343afcfd295b0f55962741291b",
+      "AST_parse_passed": true
+    }
+  ],
+  "scope": "DAY13 existing source/kernel and explicitly chosen fixtures; field units/frames/seeds/model boundaries live in code/canonical methods; no thirdpartyNPTool execution",
+  "raw_PLAN_credentials_changed": false,
+  "course": "completed13/partial14; next14/count13 unchanged"
+}

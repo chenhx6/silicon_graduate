@@ -1,0 +1,18 @@
+{
+  "target_doi": "10.1016/0010-4655(93)90005-W",
+  "title": "Fitting using finite Monte Carlo samples",
+  "bibliographic_identity": "Crossref/INSPIRE200 agree Barlow/Beeston1993; metadata only",
+  "full_text_read": false,
+  "routes": {
+    "INSPIRE_bound_FNAL_report": "403 HTML; not saved asPDF",
+    "nature_downloader_OA_no_SI": "oa_not_found; no files obtained",
+    "OpenAlex": "is_oa false; no repositoryfulltext",
+    "Scholar": "toolfailure/timeout",
+    "CDS": "200 nonJSON; not source evidence",
+    "publicGoogle": "SSLError; no SSL/config changes"
+  },
+  "interpretation": "No primary method claim or code execution attributed; our covariance math explicitly independent. Downloader crossrefTDMlicense label does not validate OA permission or actual download.",
+  "skill": "/root/.codex/skills/nature-downloader/SKILL.md",
+  "credential_or_library_changes": false,
+  "raw_changes": false
+}

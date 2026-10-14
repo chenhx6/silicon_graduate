@@ -1,0 +1,23 @@
+{
+  "attempts": [
+    {
+      "attempt": 1,
+      "exit_code": 1,
+      "stage": "import-before-analysis",
+      "error": "scipy.special exposes rel_entr, not relentr",
+      "action": "corrected the import and function name; no scientific result produced"
+    },
+    {
+      "attempt": 2,
+      "exit_code": 0,
+      "stage": "bin-fits-and-quadrature",
+      "all_passed": true
+    },
+    {
+      "attempt": 3,
+      "exit_code": 0,
+      "stage": "extended-Fisher-and-independent-event-MC",
+      "all_passed": true
+    }
+  ]
+}

@@ -1,0 +1,338 @@
+{
+  "schema_version": 1,
+  "status": "complete-synthetic-analysis",
+  "kind": "synthetic nonlinear joint lifetime/energy region closure",
+  "source_inspiration": "BC84 point/interval/finiteN boundaries; source lifetimes/errors unchanged",
+  "chosen_parameters": {
+    "seed": 131431,
+    "point_angles_deg": [
+      130.0,
+      150.0,
+      170.0
+    ],
+    "no_feeding": true,
+    "beta_in": 0.126,
+    "beta_exit": 0.08,
+    "proper_slowing_time_ps": 0.4,
+    "Gaussian_corrected_sigma_keV": 2.0,
+    "true_rest_energy_keV": 2396.1,
+    "bin_edges_keV": [
+      2256.1,
+      2261.1,
+      2266.1,
+      2271.1,
+      2276.1,
+      2281.1,
+      2286.1,
+      2291.1,
+      2296.1,
+      2301.1,
+      2306.1,
+      2311.1,
+      2316.1,
+      2321.1,
+      2326.1,
+      2331.1,
+      2336.1,
+      2341.1,
+      2346.1,
+      2351.1,
+      2356.1,
+      2361.1,
+      2366.1,
+      2371.1,
+      2376.1,
+      2381.1,
+      2386.1,
+      2391.1,
+      2396.1,
+      2401.1,
+      2406.1,
+      2411.1,
+      2416.1
+    ],
+    "imposed_tau_bounds_ps": [
+      0.02,
+      0.25
+    ],
+    "energy_shift_bounds_keV": [
+      -8.0,
+      8.0
+    ],
+    "repeats_per_case": 2000
+  },
+  "verification": {
+    "probability_agreement_with_existing_no_feed_kernel_max_error": 1.6653345369377348e-16,
+    "analytic_gradient_finite_difference_max_error": 2.334544502158309e-09,
+    "quadrature128_256_max_probability_difference": 2.120525977034049e-14,
+    "no_loss_lifetime_shape_independence_passed": true,
+    "all_experiments_numerically_verified": true,
+    "all_passed": true
+  },
+  "cases": [
+    {
+      "no_loss": false,
+      "true_tau_fs": 70.0,
+      "fixed_selected_count_per_angle": 25,
+      "repeats": 2000,
+      "fitted_tau_mean_fs": 69.62424333240165,
+      "fitted_energy_shift_mean_keV": 0.0942088567174656,
+      "lifetime_lower_bound_fraction": 0.0,
+      "lifetime_upper_bound_fraction": 0.0,
+      "energy_bound_fraction": 0.0,
+      "coverage": [
+        {
+          "nominal_regular_two_parameter_probability": 0.683,
+          "delta_deviance_threshold": 2.2977070102097144,
+          "observed_joint_truth_coverage": 0.676,
+          "binomial_MC_SE": 0.010464798134699017,
+          "declared_case_asymptotic_probability": 0.683
+        },
+        {
+          "nominal_regular_two_parameter_probability": 0.95,
+          "delta_deviance_threshold": 5.991464547107979,
+          "observed_joint_truth_coverage": 0.939,
+          "binomial_MC_SE": 0.005351588549206677,
+          "declared_case_asymptotic_probability": 0.95
+        }
+      ],
+      "delta_deviance_quantiles": [
+        1.4001377210342412,
+        2.3408767982626304,
+        6.397336525728518,
+        10.452016987051648
+      ],
+      "optimization": {
+        "first_start_failures": 0,
+        "second_start_failures": 2,
+        "Powell_fallback_count": 0,
+        "unverified_experiments": [],
+        "coarse_grid_max_disadvantage": 0.0
+      },
+      "count_identity": {
+        "shape": [
+          2000,
+          3,
+          32
+        ],
+        "dtype": "little-endian int64",
+        "sha256": "6d1658cf165354194c255e64171e8f9f531a33c9ee44d301416b2b6bf6025491",
+        "reconstruction": "seed131431; cases in order; LineShape128 probability then independent angle multinomial draws; deterministic optimizer consumes no RNG"
+      }
+    },
+    {
+      "no_loss": false,
+      "true_tau_fs": 70.0,
+      "fixed_selected_count_per_angle": 1000,
+      "repeats": 2000,
+      "fitted_tau_mean_fs": 70.01869669671375,
+      "fitted_energy_shift_mean_keV": -0.0010333221420167655,
+      "lifetime_lower_bound_fraction": 0.0,
+      "lifetime_upper_bound_fraction": 0.0,
+      "energy_bound_fraction": 0.0,
+      "coverage": [
+        {
+          "nominal_regular_two_parameter_probability": 0.683,
+          "delta_deviance_threshold": 2.2977070102097144,
+          "observed_joint_truth_coverage": 0.695,
+          "binomial_MC_SE": 0.010295023069425343,
+          "declared_case_asymptotic_probability": 0.683
+        },
+        {
+          "nominal_regular_two_parameter_probability": 0.95,
+          "delta_deviance_threshold": 5.991464547107979,
+          "observed_joint_truth_coverage": 0.953,
+          "binomial_MC_SE": 0.004732388403332932,
+          "declared_case_asymptotic_probability": 0.95
+        }
+      ],
+      "delta_deviance_quantiles": [
+        1.3439500779859372,
+        2.2329236478618877,
+        5.784842843549723,
+        9.86569484425003
+      ],
+      "optimization": {
+        "first_start_failures": 0,
+        "second_start_failures": 0,
+        "Powell_fallback_count": 0,
+        "unverified_experiments": [],
+        "coarse_grid_max_disadvantage": 0.0
+      },
+      "count_identity": {
+        "shape": [
+          2000,
+          3,
+          32
+        ],
+        "dtype": "little-endian int64",
+        "sha256": "607a93ac5837f34d21e0805757e9191b237b9551744c297f40d75974c506af3a",
+        "reconstruction": "seed131431; cases in order; LineShape128 probability then independent angle multinomial draws; deterministic optimizer consumes no RNG"
+      }
+    },
+    {
+      "no_loss": false,
+      "true_tau_fs": 20.0,
+      "fixed_selected_count_per_angle": 25,
+      "repeats": 2000,
+      "fitted_tau_mean_fs": 21.12002942155547,
+      "fitted_energy_shift_mean_keV": -0.08532491792749419,
+      "lifetime_lower_bound_fraction": 0.541,
+      "lifetime_upper_bound_fraction": 0.0,
+      "energy_bound_fraction": 0.0,
+      "coverage": [
+        {
+          "nominal_regular_two_parameter_probability": 0.683,
+          "delta_deviance_threshold": 2.2977070102097144,
+          "observed_joint_truth_coverage": 0.7995,
+          "binomial_MC_SE": 0.008952646256833787,
+          "declared_case_asymptotic_probability": 0.7767174272107609
+        },
+        {
+          "nominal_regular_two_parameter_probability": 0.95,
+          "delta_deviance_threshold": 5.991464547107979,
+          "observed_joint_truth_coverage": 0.9755,
+          "binomial_MC_SE": 0.0034568591235397466,
+          "declared_case_asymptotic_probability": 0.9678123687876781
+        }
+      ],
+      "delta_deviance_quantiles": [
+        0.8458266122579374,
+        1.5338218760026354,
+        4.626738051401375,
+        7.274531999358307
+      ],
+      "optimization": {
+        "first_start_failures": 4,
+        "second_start_failures": 1,
+        "Powell_fallback_count": 0,
+        "unverified_experiments": [],
+        "coarse_grid_max_disadvantage": 0.0
+      },
+      "count_identity": {
+        "shape": [
+          2000,
+          3,
+          32
+        ],
+        "dtype": "little-endian int64",
+        "sha256": "6a8eea37a8c26ef6da4c968106048e432f49713d1372cecbd941496675d45750",
+        "reconstruction": "seed131431; cases in order; LineShape128 probability then independent angle multinomial draws; deterministic optimizer consumes no RNG"
+      }
+    },
+    {
+      "no_loss": false,
+      "true_tau_fs": 20.0,
+      "fixed_selected_count_per_angle": 1000,
+      "repeats": 2000,
+      "fitted_tau_mean_fs": 20.195414492043856,
+      "fitted_energy_shift_mean_keV": -0.02049542134740895,
+      "lifetime_lower_bound_fraction": 0.511,
+      "lifetime_upper_bound_fraction": 0.0,
+      "energy_bound_fraction": 0.0,
+      "coverage": [
+        {
+          "nominal_regular_two_parameter_probability": 0.683,
+          "delta_deviance_threshold": 2.2977070102097144,
+          "observed_joint_truth_coverage": 0.781,
+          "binomial_MC_SE": 0.009247675383576135,
+          "declared_case_asymptotic_probability": 0.7767174272107609
+        },
+        {
+          "nominal_regular_two_parameter_probability": 0.95,
+          "delta_deviance_threshold": 5.991464547107979,
+          "observed_joint_truth_coverage": 0.9735,
+          "binomial_MC_SE": 0.00359150038284837,
+          "declared_case_asymptotic_probability": 0.9678123687876781
+        }
+      ],
+      "delta_deviance_quantiles": [
+        0.8575071784107422,
+        1.6073307833049202,
+        5.0274176301727485,
+        7.527942116396898
+      ],
+      "optimization": {
+        "first_start_failures": 18,
+        "second_start_failures": 21,
+        "Powell_fallback_count": 11,
+        "unverified_experiments": [],
+        "coarse_grid_max_disadvantage": 0.0
+      },
+      "count_identity": {
+        "shape": [
+          2000,
+          3,
+          32
+        ],
+        "dtype": "little-endian int64",
+        "sha256": "648e056f77af3624fd14889162adda36e3ebd6c7ae4f0afdbae3a965caa8cd9e",
+        "reconstruction": "seed131431; cases in order; LineShape128 probability then independent angle multinomial draws; deterministic optimizer consumes no RNG"
+      }
+    },
+    {
+      "no_loss": true,
+      "true_tau_fs": 70.0,
+      "fixed_selected_count_per_angle": 1000,
+      "repeats": 2000,
+      "fitted_tau_mean_fs": 78.95,
+      "fitted_energy_shift_mean_keV": -0.001084922472311316,
+      "lifetime_lower_bound_fraction": 0.0,
+      "lifetime_upper_bound_fraction": 0.0,
+      "energy_bound_fraction": 0.0,
+      "coverage": [
+        {
+          "nominal_regular_two_parameter_probability": 0.683,
+          "delta_deviance_threshold": 2.2977070102097144,
+          "observed_joint_truth_coverage": 0.861,
+          "binomial_MC_SE": 0.0077355995242773526,
+          "declared_case_asymptotic_probability": 0.8704348544215216
+        },
+        {
+          "nominal_regular_two_parameter_probability": 0.95,
+          "delta_deviance_threshold": 5.991464547107979,
+          "observed_joint_truth_coverage": 0.986,
+          "binomial_MC_SE": 0.0026271657732240663,
+          "declared_case_asymptotic_probability": 0.9856247375753563
+        }
+      ],
+      "delta_deviance_quantiles": [
+        0.4640252565918672,
+        0.9745243288895181,
+        4.024249947406768,
+        6.32769239677782
+      ],
+      "optimization": {
+        "first_start_failures": 19,
+        "second_start_failures": 2,
+        "Powell_fallback_count": 0,
+        "unverified_experiments": [],
+        "coarse_grid_max_disadvantage": 0.0
+      },
+      "count_identity": {
+        "shape": [
+          2000,
+          3,
+          32
+        ],
+        "dtype": "little-endian int64",
+        "sha256": "a0d443f13a6e55a29ea91152611fe12f3a65cd2369a146668d74a68b94a8f1e6",
+        "reconstruction": "seed131431; cases in order; LineShape128 probability then independent angle multinomial draws; deterministic optimizer consumes no RNG"
+      }
+    }
+  ],
+  "dependencies": {
+    "kernel_sha256": "c61a63038e626f1b9aca32b7ae4443f027638a6a4f5a72ab44a6c370f4c75413",
+    "numpy": "2.5.3",
+    "scipy": "1.18.1",
+    "analysis_script_sha256_at_execution": "8bc01df89ae23f3b68a96a64a027bba4efc9da9717437835d1f2d7d1dea2b5d1"
+  },
+  "boundaries": [
+    "The20fs minimum is an imposed model-domain control, not a physical minimum or source prior.",
+    "Known no-feeding model/response/transport/fixed bins omit real source nuisance parameters.",
+    "Coverage measures whether the true pair is inside a likelihood region; it is not a projected tau interval.",
+    "No-loss tau is unidentifiable; fitted tau values then depend on optimizer start and have no lifetime meaning.",
+    "Two starts and a coarse bank are numerical controls, not a global-optimum theorem.",
+    "No reported20O interval, actual template uncertainty or experiment likelihood is reproduced."
+  ]
+}

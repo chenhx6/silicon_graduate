@@ -20,7 +20,7 @@
   "session_reuse": false,
   "session_scope": "one-new-session-for-each-schedule-run",
   "codex_home": "/root/.codex",
-  "status": "running",
+  "status": "closing-out",
   "started_at": "2026-10-13T17:12:58.564161+08:00",
   "report": "/workspace/wiki/outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity.md",
   "completed_day_indices": [
@@ -32,12 +32,52 @@
   "curriculum_cards_completed": 1,
   "closeout_window_ends_at": "2026-10-14T16:00:00+08:00",
   "last_closeout_snapshot": {
-    "now_local": "2026-10-14T12:00:52.124160+08:00",
+    "now_local": "2026-10-14T15:04:21.971452+08:00",
     "hard_deadline": "2026-10-14T15:00:00+08:00",
-    "minutes_to_deadline": 179.13126400000002,
-    "decision": "continue-current-Day13",
+    "minutes_to_deadline": -4.366190866666667,
+    "decision": "closeout-only",
+    "current_problem": "Day13 Doppler statistical/velocity validation",
+    "completed_current_analysis": "ten declared analyses plus source/model/independence/readiness synthesis",
+    "candidate_pool": [
+      {
+        "id": "currentboundedstatisticalvelocity",
+        "status": "completed",
+        "next": "publish alreadyverified code/knowledge/report; no newresearch"
+      },
+      {
+        "id": "actual20Orefit",
+        "status": "not-ready",
+        "gap": "events/response/sharedcovariance/productioncode/TKEL-depth-feeding/calibrationobjective"
+      },
+      {
+        "id": "Day14",
+        "status": "existinguncreditedpreview",
+        "credit": "formalnext-runrequired"
+      },
+      {
+        "id": "Day15",
+        "status": "notstudied-or-credited",
+        "note": "scopeincident recorded; no researchroute"
+      }
+    ],
+    "course_state": "next14/count13 preserved",
+    "completed_day_indices": [
+      13
+    ],
+    "partial_day_indices": [
+      14
+    ],
     "no_new_credit": true,
-    "day_index": 13
+    "closure_basis": "harddeadline, not local evidence saturation",
+    "session_id": "01a13489-64ba-7930-9a2c-291375d95ad0",
+    "resume_command": "codex resume 01a13489-64ba-7930-9a2c-291375d95ad0 -C /workspace/wiki -s danger-full-access -a never",
+    "scope_self_audit": {
+      "incident": "During restoration, matrix sed116–140 incidentally displayed Day15 heading and its recall line after Day14.",
+      "boundary": "Not a deliberate card selection; no Day15 active recall/exercise/source/preview/research or credit.",
+      "correction": "Use only Day13/previously permitted Day14 identifiers; no further card opening; precise no-Day15-study wording.",
+      "acknowledged_at": "2026-10-14T14:55:58.014776+08:00",
+      "preserved_original_objective": true
+    }
   },
   "prompt_file": "/workspace/wiki/outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity-run-01/prompt.md",
   "session_id": "01a13489-64ba-7930-9a2c-291375d95ad0",
@@ -47,8 +87,8 @@
   "runner_exit_code": null,
   "manual_verification_exit_code": 0,
   "deliverables_passed": true,
-  "research_closed_at": "2026-10-13T17:51:03.550633+08:00",
-  "closeout_reason": "bounded-evidence-saturation-and-missing-acquisition-inputs-after-Day14-preview",
+  "research_closed_at": "2026-10-14T15:04:21.971452+08:00",
+  "closeout_reason": "original-hard-research-deadline",
   "checks": {
     "report": {
       "valid": true,
@@ -400,9 +440,11 @@
       "no_additional_credit": true
     }
   ],
-  "research_status": "active-Day13-user-reopened",
+  "research_status": "closed-at-original-hard-deadline",
   "final_audit_current": false,
-  "goal_completion_current": false,
+  "goal_completion_current": {
+    "status": "active-until-final-publication-and-reconciliation"
+  },
   "last_research_checkpoint": {
     "now_local": "2026-10-14T05:57:51.878940+08:00",
     "minutes_to_deadline": 542.135351,
@@ -414,12 +456,52 @@
     "clock_queued_not_delivered": true
   },
   "last_clock_refresh": {
-    "now_local": "2026-10-14T12:00:52.124160+08:00",
+    "now_local": "2026-10-14T15:04:21.971452+08:00",
     "hard_deadline": "2026-10-14T15:00:00+08:00",
-    "minutes_to_deadline": 179.13126400000002,
-    "decision": "continue-current-Day13",
+    "minutes_to_deadline": -4.366190866666667,
+    "decision": "closeout-only",
+    "current_problem": "Day13 Doppler statistical/velocity validation",
+    "completed_current_analysis": "ten declared analyses plus source/model/independence/readiness synthesis",
+    "candidate_pool": [
+      {
+        "id": "currentboundedstatisticalvelocity",
+        "status": "completed",
+        "next": "publish alreadyverified code/knowledge/report; no newresearch"
+      },
+      {
+        "id": "actual20Orefit",
+        "status": "not-ready",
+        "gap": "events/response/sharedcovariance/productioncode/TKEL-depth-feeding/calibrationobjective"
+      },
+      {
+        "id": "Day14",
+        "status": "existinguncreditedpreview",
+        "credit": "formalnext-runrequired"
+      },
+      {
+        "id": "Day15",
+        "status": "notstudied-or-credited",
+        "note": "scopeincident recorded; no researchroute"
+      }
+    ],
+    "course_state": "next14/count13 preserved",
+    "completed_day_indices": [
+      13
+    ],
+    "partial_day_indices": [
+      14
+    ],
     "no_new_credit": true,
-    "day_index": 13
+    "closure_basis": "harddeadline, not local evidence saturation",
+    "session_id": "01a13489-64ba-7930-9a2c-291375d95ad0",
+    "resume_command": "codex resume 01a13489-64ba-7930-9a2c-291375d95ad0 -C /workspace/wiki -s danger-full-access -a never",
+    "scope_self_audit": {
+      "incident": "During restoration, matrix sed116–140 incidentally displayed Day15 heading and its recall line after Day14.",
+      "boundary": "Not a deliberate card selection; no Day15 active recall/exercise/source/preview/research or credit.",
+      "correction": "Use only Day13/previously permitted Day14 identifiers; no further card opening; precise no-Day15-study wording.",
+      "acknowledged_at": "2026-10-14T14:55:58.014776+08:00",
+      "preserved_original_objective": true
+    }
   },
   "active_continuation_checks": {
     "schema_version": 1,
@@ -1076,11 +1158,11 @@
     }
   ],
   "latest_active_checkpoint": {
-    "path": "outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity-run-01/research-checkpoint-reopened-015.json",
-    "at": "2026-10-14T11:43:08.379833+08:00",
-    "research_status": "active",
-    "candidate": "finitebin-background-template-covariance",
-    "course_state": "next14/count13 unchanged"
+    "path": "outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity-run-01/reopened-research-deadline-closeout.json",
+    "at": "2026-10-14T15:04:21.971452+08:00",
+    "research_status": "closed; closeoutonly",
+    "candidate": "finalpublication",
+    "course_state": "next14/count13unchanged"
   },
   "reopened_publications": [
     {
@@ -1425,6 +1507,94 @@
       },
       "published_at": "2026-10-14T10:14:25.930217+08:00",
       "window_remains_active": true
+    },
+    {
+      "branch": "main",
+      "commit_subject": "Audit DAY13 depth priors and recoil velocity code contracts",
+      "commit_hash": "a00cce6e9fcac5382a355a0ed459e58f4a9317d9",
+      "scope": "active checkpoint; no new credit or research closeout",
+      "status": "published-active-checkpoint",
+      "H3_observed_commands": [
+        {
+          "argv": [
+            "git",
+            "fetch",
+            "origin",
+            "main"
+          ],
+          "exit_code": 0,
+          "stdout": "",
+          "stderr": "From gitee.com:chx6/silicon_graduate\n * branch            main       -> FETCH_HEAD\n"
+        },
+        {
+          "argv": [
+            "git",
+            "merge-base",
+            "--is-ancestor",
+            "origin/main",
+            "HEAD"
+          ],
+          "exit_code": 0,
+          "stdout": "",
+          "stderr": ""
+        },
+        {
+          "argv": [
+            "git",
+            "push",
+            "--dry-run",
+            "origin",
+            "HEAD:main"
+          ],
+          "exit_code": 0,
+          "stdout": "",
+          "stderr": "To gitee.com:chx6/silicon_graduate.git\n   53ab2f3..a00cce6  HEAD -> main\n"
+        },
+        {
+          "argv": [
+            "git",
+            "push",
+            "origin",
+            "HEAD:main"
+          ],
+          "exit_code": 0,
+          "stdout": "",
+          "stderr": "remote: Powered by \u001b[01;33mGITEE.COM \u001b[0m[1.1.23]        \nremote: Set trace flag 964b1f8b        \nTo gitee.com:chx6/silicon_graduate.git\n   53ab2f3..a00cce6  HEAD -> main\n"
+        }
+      ],
+      "files": [
+        "knowledge/index.md",
+        "knowledge/methods/doppler-correction.md",
+        "knowledge/sources/ciemala-2021-deep-inelastic-lifetime-method.md",
+        "knowledge/sources/zanon-2023-o20-high-precision.md",
+        "knowledge/sources/nptool-2019-reaction-velocity-code-object.md",
+        "knowledge/synthesis/doppler-velocity-validation-contract.md",
+        "outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity.md",
+        "outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity-run-01/run.json",
+        "system/handoff.md",
+        "system/log.md",
+        "system/scripts/day13_depth_prior_velocity.py",
+        "outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity-run-01/tkel-depth-response-recall.md",
+        "outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity-run-01/depth-prior-velocity-exercise.json",
+        "outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity-run-01/nptool-code-object-source-before-recall.md",
+        "outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity-run-01/nptool-code-object-checkpoint.json",
+        "outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity-run-01/nptool-object-contract-physics-check.json",
+        "outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity-run-01/reopened-checkpoint-audit-011.json",
+        "outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity-run-01/reopened-checkpoint-audit-012.json",
+        "outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity-run-01/research-checkpoint-reopened-014.json",
+        "outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity-run-01/research-checkpoint-reopened-015.json",
+        "outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity-run-01/reopened-publication-h3-010.json",
+        "outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity-run-01/continuation-prompt.md",
+        "outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity-run-01/reopened-publication-manifest-011.json"
+      ],
+      "post_commit_reconciliation": {
+        "manifest_matches_commit": true,
+        "handoff_pointer_matches": true,
+        "origin_main_matches_HEAD": true,
+        "index_empty": true
+      },
+      "published_at": "2026-10-14T12:02:59.265003+08:00",
+      "window_remains_active": true
     }
   ],
   "observed_clock_executions": [
@@ -1465,5 +1635,268 @@
     "farmer": "PID8686 alive; state recovered to running",
     "clock_supervisor": "PID22006 exited at11:51; preserved historical status; no restart",
     "resume_command": "codex resume 01a13489-64ba-7930-9a2c-291375d95ad0 -C /workspace/wiki -s danger-full-access -a never"
+  },
+  "current_bounded_analysis": {
+    "started_at": "2026-10-14T12:00:52.124160+08:00",
+    "question": "finite bin/background/template covariance in Doppler shape inference",
+    "completed": [
+      "bin integral and midpoint/rebin/information checks",
+      "shared off normalization covariance",
+      "finite normalized weighted templates/common event covariance",
+      "adaptive observed bin boundaries",
+      "event overlap/Poisson-fixedN/replay information"
+    ],
+    "remaining": [
+      "nonlinear finite-count tau/E interval closure on the existing synthetic kernel"
+    ],
+    "source_scope": "existing BC84/CM21/ZA23 and synthetic history kernel; BB93 unread candidate excluded from primary claims",
+    "under90_policy": "finish these already-selected statistical/response checks; no new source/card",
+    "closeout_at": "2026-10-14T15:00:00+08:00",
+    "refit_boundary": "actual20O events/response/Σ/code remain absent",
+    "extension_selected_at": "2026-10-14T12:43:18.398738+08:00",
+    "next_information_gain": "test the remaining local-asymptotic coverage boundary, not source lifetimes"
+  },
+  "interval_closure_design": {
+    "selected_at": "2026-10-14T12:49:20.931254+08:00",
+    "minutes_to_deadline_at_selection": 130.65114576666667,
+    "question": "finite-count nonlinear joint tau/E likelihood and boundary/identifiability coverage",
+    "source_scope": "already-read BC84-1/5/9 and existing CM21/ZA23 statistical predicates",
+    "data": "new synthetic independent fixedN per-angle counts using the existing exponential proper-time slowing kernel",
+    "cases": [
+      "interior70fs vs imposed20fs lower-bound control",
+      "25 vs1000 selected photons per angle",
+      "no-loss lifetime-identifiability limit"
+    ],
+    "assumptions": "known no-feeding model/point angles/fixed bins/response; no actual20O fit",
+    "planned_checks": [
+      "probability agreement with existing kernel",
+      "analytic gradient finite differences",
+      "jointΔdeviance ensemble with optimizer/grid checks",
+      "likelihood boundaries and no-loss limits"
+    ],
+    "under90": "finish existing model/analysis only; no new source/card",
+    "completed_at": "2026-10-14T13:02:05.123142+08:00"
+  },
+  "velocity_nuisance_closure_design": {
+    "selected_at": "2026-10-14T13:02:05.123142+08:00",
+    "minutes_to_deadline": 117.9146143,
+    "question": "Does correct statistical likelihood validate fixed recoil entry velocity; what does an independent noisy velocity measurement constrain?",
+    "same_current_analysis": "nonlinear lifetime-energy region closure and forward-response/covariance assumptions",
+    "source_scope": "existing BC84/CM21/ZA23; no new source or card",
+    "chosen_generation": "known nofeeding tau70fs/E0 and beta_in .126",
+    "comparison": "wrong fixedbeta .125 versus Gaussian independent beta_tag sigma .001 with profiled entrybeta",
+    "remaining": "derive beta gradient; expected-fit control; finite-count ensembles; independence/shared-calibration boundary",
+    "stop": "15:00 research cutoff; no newsource/card after13:30",
+    "semantic_followup": "jointtauE vs one-interesttauprofile vs jointtauprojection on the same hashed experiments",
+    "calibrator_history_followup": {
+      "selected_at": "2026-10-14T13:22:43.101737+08:00",
+      "minutes_to_deadline": 97.28163771666667,
+      "question": "A long-lived gamma control constrains which speed, with which estimator/window?",
+      "scope": "same existing velocity-calibration/forward-model analysis; existing CM21-15/16 context",
+      "chosen_model": "proper slowing.13ps, beta .10->.09, nofeeding, isotropic-rest/point-angle, Gaussian labnoise; whole-line mean vs peakmode",
+      "source_boundary": "source control energies/lifetimes are context, actual CM21 calibration objective/transport not inferred",
+      "why": "tests the independent Gaussian beta-tag assumption and late-velocity vs entry/history boundary",
+      "after90": "finish only this already-selected analysis; no new source or card"
+    }
+  },
+  "scope_self_audit": {
+    "incident": "During restoration, matrix sed116–140 incidentally displayed Day15 heading and its recall line after Day14.",
+    "boundary": "Not a deliberate card selection; no Day15 active recall/exercise/source/preview/research or credit.",
+    "correction": "Use only Day13/previously permitted Day14 identifiers; no further card opening; precise no-Day15-study wording.",
+    "acknowledged_at": "2026-10-14T14:55:58.014776+08:00",
+    "preserved_original_objective": true
+  },
+  "precloseout_wait_observation": {
+    "now_local": "2026-10-14T15:00:23.453420+08:00",
+    "seconds_to_research_deadline": -23.45342,
+    "scientific_work_complete": true,
+    "research_status": "cutoff-observed; no further research",
+    "remaining_authorized_work": "at15:00 closeout audit/publication/reconciliation only",
+    "new_credit": false
+  },
+  "closeout_history": [
+    {
+      "superseded_prior_segment": {
+        "research_closed_at": "2026-10-13T17:51:03.550633+08:00",
+        "closeout_reason": "bounded-evidence-saturation-and-missing-acquisition-inputs-after-Day14-preview",
+        "finished_at": null,
+        "final_audit": {
+          "at": "2026-10-13T18:29:47.053201+08:00",
+          "status": "completed",
+          "state_next": 14,
+          "completed_count": 13,
+          "knowledge_clean": true,
+          "protected_hashes_matched": true,
+          "index_empty": true,
+          "content_and_curriculum_published": true,
+          "legacy_changes_preserved": true,
+          "local_only_changes": "mutable exact-hash run receipt and run-local audit scratch; inherited changes remain",
+          "post_commit_reconciliation": true,
+          "farmer_running": true
+        },
+        "goal_completion": {
+          "status": "complete",
+          "objective_achieved": true,
+          "evidence": "source/knowledge/report/card/code/protected checks passed; content and curriculum pushed; post-commit reconciled; next14/count13",
+          "tokens_used_reported_by_tool": 80780,
+          "active_time_seconds_reported_by_tool": 238,
+          "token_budget": null,
+          "counter_scope": "native goal active counter; not full-session wall-clock duration"
+        }
+      },
+      "reconciled_at": "2026-10-14T15:04:21.971452+08:00"
+    }
+  ],
+  "checks_final": {
+    "at": "2026-10-14T15:07:46.212602+08:00",
+    "report": {
+      "valid": true,
+      "missing_headings": []
+    },
+    "coverage": {
+      "valid": true,
+      "completed_day_indices": [
+        13
+      ],
+      "partial_day_indices": [
+        14
+      ],
+      "curriculum_cards_completed": 1,
+      "next_day_index": 14,
+      "error": null
+    },
+    "writeback": {
+      "valid": true,
+      "mode": "updated",
+      "knowledge_paths": [
+        "knowledge/methods/doppler-correction.md",
+        "knowledge/sources/mavela-2019-32s-quadrupole-moment-doppler-correction-thesis.md",
+        "knowledge/sources/klemme-1999-lifetimes-134nd-neighbors.md",
+        "knowledge/sources/herzan-2015-193bi-spectroscopy.md",
+        "knowledge/methods/level-scheme-reconstruction.md",
+        "knowledge/projects/a130-thesis-evidence-matrix.md",
+        "knowledge/questions.md",
+        "knowledge/index.md",
+        "knowledge/sources/vandebrouck-2016-vamos-dual-position-mwpc.md",
+        "knowledge/sources/crespi-2013-agata-high-energy-doppler-response.md",
+        "knowledge/methods/tracking-array.md",
+        "knowledge/sources/aladili-2009-agata-doppler-simulation.md",
+        "knowledge/research-notes/doppler-forward-inverse-convention-check.md",
+        "knowledge/sources/akkoyun-2012-agata-instrument-response.md",
+        "knowledge/concepts/lorentz-boost-correction.md",
+        "knowledge/sources/longfellow-2026-gretina-energy-ordering-polarization.md",
+        "knowledge/sources/senyigit-2014-agata-neutron-rejection.md",
+        "knowledge/methods/gamma-gamma-coincidence.md",
+        "knowledge/sources/tunl-2017-12c-level-widths.md",
+        "knowledge/sources/soderstrom-2008-agata-position-design.md",
+        "knowledge/sources/crespi-2023-agata-tracking-performance.md",
+        "knowledge/sources/ljungvall-2020-agata-ganil-performance.md",
+        "knowledge/sources/assie-2021-mugast-agata-vamos.md",
+        "knowledge/synthesis/doppler-velocity-validation-contract.md",
+        "knowledge/sources/lemasson-2023-agata-vamos-fission-history.md",
+        "knowledge/sources/ciemala-2019-20o-dsam-analysis-status.md",
+        "knowledge/sources/ziliani-2019-agata-calibration-controls.md",
+        "knowledge/sources/ciemala-2020-c16-o20-lifetimes.md",
+        "knowledge/sources/zanon-2023-o20-high-precision.md",
+        "knowledge/sources/ciemala-2021-deep-inelastic-lifetime-method.md",
+        "knowledge/sources/baker-cousins-1984-histogram-fits.md",
+        "knowledge/sources/nptool-2019-reaction-velocity-code-object.md"
+      ],
+      "changed_paths": [
+        "knowledge/concepts/lorentz-boost-correction.md",
+        "knowledge/index.md",
+        "knowledge/methods/doppler-correction.md",
+        "knowledge/methods/gamma-gamma-coincidence.md",
+        "knowledge/methods/level-scheme-reconstruction.md",
+        "knowledge/methods/tracking-array.md",
+        "knowledge/projects/a130-thesis-evidence-matrix.md",
+        "knowledge/questions.md",
+        "knowledge/research-notes/doppler-forward-inverse-convention-check.md",
+        "knowledge/sources/akkoyun-2012-agata-instrument-response.md",
+        "knowledge/sources/aladili-2009-agata-doppler-simulation.md",
+        "knowledge/sources/assie-2021-mugast-agata-vamos.md",
+        "knowledge/sources/baker-cousins-1984-histogram-fits.md",
+        "knowledge/sources/ciemala-2019-20o-dsam-analysis-status.md",
+        "knowledge/sources/ciemala-2020-c16-o20-lifetimes.md",
+        "knowledge/sources/ciemala-2021-deep-inelastic-lifetime-method.md",
+        "knowledge/sources/crespi-2013-agata-high-energy-doppler-response.md",
+        "knowledge/sources/crespi-2023-agata-tracking-performance.md",
+        "knowledge/sources/herzan-2015-193bi-spectroscopy.md",
+        "knowledge/sources/klemme-1999-lifetimes-134nd-neighbors.md",
+        "knowledge/sources/lemasson-2023-agata-vamos-fission-history.md",
+        "knowledge/sources/ljungvall-2020-agata-ganil-performance.md",
+        "knowledge/sources/mavela-2019-32s-quadrupole-moment-doppler-correction-thesis.md",
+        "knowledge/sources/nptool-2019-reaction-velocity-code-object.md",
+        "knowledge/sources/senyigit-2014-agata-neutron-rejection.md",
+        "knowledge/sources/soderstrom-2008-agata-position-design.md",
+        "knowledge/sources/tunl-2017-12c-level-widths.md",
+        "knowledge/sources/vandebrouck-2016-vamos-dual-position-mwpc.md",
+        "knowledge/sources/zanon-2023-o20-high-precision.md",
+        "knowledge/sources/ziliani-2019-agata-calibration-controls.md",
+        "knowledge/synthesis/doppler-velocity-validation-contract.md"
+      ],
+      "change_check": "run-snapshot",
+      "error": null
+    },
+    "protected": {
+      "PLAN.md": true,
+      "raw/zotero/wiki-inbox.bib": true
+    },
+    "lint_exit": 0,
+    "lint_counts": {
+      "warning": 128,
+      "info": 1764
+    },
+    "boundary": {
+      "ok": true,
+      "errors": [],
+      "warnings": []
+    },
+    "course_state": {
+      "schema_version": 1,
+      "cycle": "2026-09-30-day-substantive",
+      "counting_policy": "30 fully completed substantive curriculum cards; a run may complete multiple contiguous cards; acceptance-only runs are excluded",
+      "next_day_index": 14,
+      "last_success": "2026-10-13",
+      "last_run_id": "2026-10-13-day-13-01",
+      "status": "active",
+      "acceptance_runs_excluded": [
+        "2026-09-22-day-01-01",
+        "2026-09-22-day-01-02",
+        "2026-09-22-day-01-03",
+        "2026-09-22-day-01-04",
+        "2026-09-22-day-01-05",
+        "2026-09-22-day-02-06"
+      ],
+      "reset_at": "2026-09-23",
+      "reset_reason": "Manual Docker/runner instance acceptance before the substantive 30-day test reset",
+      "completed_day_count": 13
+    },
+    "code_manifest_hashes_match": true,
+    "ten_analyses_all_passed": true,
+    "raw_PLAN_diff_empty": true,
+    "diff_check_exit": 0,
+    "report_sha256": "8d0f83abddfd801bd71ef87f19f60c76ce866de9337c1b30a6726ca8144bf3dd",
+    "CM21_published_hash_verified": true,
+    "new_day_credit": false
+  },
+  "curriculum_final_reconciliation": {
+    "policy": "preserve alreadycreditedDay13 after requiredfinalpublication; do not increment again",
+    "next_day_index": 14,
+    "completed_day_count": 13,
+    "completed_day_indices": [
+      13
+    ],
+    "partial_day_indices": [
+      14
+    ],
+    "normal_finalizer_called": false,
+    "state_file_modified_during_current_continuation": false
+  },
+  "final_publication": {
+    "branch": "main",
+    "commit_subject": "Finalize DAY13 statistical and velocity validation contracts",
+    "status": "content-verified-awaiting-explicitstage-H3",
+    "manifest": "outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity-run-01/reopened-publication-manifest-012.json"
   }
 }

@@ -27,6 +27,8 @@ updated: 2026-10-14
 
 - 时钟 checkpoint-001 已于 `2026-10-14T12:00:52.124160+08:00` 在原 session 实际接收并记入 observed_clock_executions；余 179.1 分钟，继续当前 DAY13 分析。原 clock supervisor 11:51 退出，farmer 已观察到会话 running；按提醒保持 daemon 不重启，用会话内 clock tool 判断截止。
 
+- 最终研究收束：`2026-10-14T15:04:21.971452+08:00` 观察到原15:00截止，之后仅做closeout；当前DAY13分析与source/model/independence/readiness审核完整，课程保持next14/count13。发布稳定指针：main / `Finalize DAY13 statistical and velocity validation contracts`，精确结果见run receipt。
+
 ### Day 13 card completion audit
 
 | Day-matrix deliverable | Evidence locator / artifact | Status |
@@ -289,6 +291,11 @@ DirectRef8明确18O1938.2(2)短τprinted26.5(29)fs、1981.93(9)长τ2.80(7)ps；
 
 `limits`：总谱窄峰、shared gate、energy closure、relative Iγ与模型曲线的结构推断。A≈130 chirality/wobbling/signature/configuration解释排序不变，未获得新绝对B矩阵。
 
+最终方法判定固定在 [[doppler-velocity-validation-contract]]“统计与速度分析之后的判定表”。`revises`：精确变换/正确countstatistic/窄region并不是完整物理模型验证；bin积分、观测selection、shareddata、velocityreference/history与region语义须分别闭合。`supports`：独立且stage正确的particle/control、完整on/off/template输入及model-awareclosure是有效判别路径。`limits`：本轮selfchosenmodels不裁决source发生何种bias、不解释真实20Oτ差异，不增加A≈130绝对strength/mode证据。
+
+[来源后复述](20261013-DAY13-doppler-correction-recoil-velocity-run-01/day13-post-study-recall.md)的12项答案已回链canonicalowner；self-audit不是盲测/humanreview/Day14周考。十项当前分析的参数、units/frames、seed/datahash/依赖与limits见[可复现manifest](20261013-DAY13-doppler-correction-recoil-velocity-run-01/statistical-velocity-analysis-manifest.json)和对应代码/结果。来源事实、作者解释、模型输出与任务推断仍按原记录分层。
+
+
 
 ### 20O 两次独立测量：primary 与 supplement 审计
 
@@ -382,6 +389,82 @@ properclock与路径积分、500k/每prior独立MC、归一化/quad和long/no-lo
 自设20u/Ex4.071/trueβ.126的mass-shellsanity，错误groundMass重算β.127695、chosen2396.1keV/150°校正偏+3.695keV；正确mass与P/E一致。mass19u下8AMeV须total152，两个单位选择的nominalbeamβ.130223/.030057；β.1的derivedper-lengthT与D8m转换266.851ns。Genericendothermic5MeV/T10的labtotalEhelper通过而invariantthreshold55.0067未过，限定helper/branch/domain需核。全部是physicalcounterfactual，不是源代码执行或真实e775/150-70差异诊断。
 
 公式、producer/schema/单位表和数值已同步knowledge，source/author/code-model/任务推断分层。CM21 source table原14–21row被空行隔断的格式已经合并，所有已核claim现在纳入机器governance检查；事实/状态未升级human-reviewed。Next14/count13不变，研究仍active；下一有限bin/背景与templateΣroute有高信息工作，未formal打开其它日卡。
+
+### 持续 DAY13：有限 bin 的积分与信息损失
+
+[设计前回忆](20261013-DAY13-doppler-correction-recoil-velocity-run-01/finite-bin-covariance-design-recall.md)为已读 BC84 后的 primed recall。BC84-2 原报告 pp.4–5 Eq.(1) 的 bin 积分定义已再次核对；[代码](../../system/scripts/day13_finite_bin_lineshape.py)和[结果](20261013-DAY13-doppler-correction-recoil-velocity-run-01/finite-bin-lineshape-exercise.json)使用既有合成 entry/feeding 核，不使用原论文事件或模板。
+
+自设 τ70 fs、E0=2396.1 keV、σ2 keV。中点式在0.5/5/10/20-keV bin 下分别拟合70.015/71.145/77.015/80.317 fs；20-keV bin 移半宽后为72.882 fs。各精确积分拟合恢复70 fs，最大误差6.4×10⁻7 fs。此结果只限制本模型的中点近似，未判断实际 ZA23 的 rebin 或寿命偏差。所有内容同步至 [[doppler-correction]]“有限能量 bin：积分、边界与重分 bin”。
+
+对齐细到粗 bin 的概率可加性差<1.2×10⁻16，非均匀 bin 的独立积分差<6.7×10⁻16；无减速 Gaussian、正尾数值稳定、ROI 分母与 bin 细化通过。另600k独立事件生成验证 bin 概率，最大标准化差2.46。三角度每组自设10000光子的局部 Fisher 检查显示粗化信息损失为正半定，τ局部 SE从0.476增至0.559 fs；这些不是实际拟合区间或 coverage。首次导入函数名错误在分析前修复，记录在[验证尝试](20261013-DAY13-doppler-correction-recoil-velocity-run-01/finite-bin-validation-attempts.json)。
+
+有限模板原始方法候选 Barlow–Beeston1993 的 Crossref/INSPIRE 身份已核；FNAL指定报告路径403，nature-downloader以 `--open-access --no-si` 的有界正文检索返回 oa_not_found，OpenAlex无仓储全文，Scholar失败、CDS响应不是JSON。未读全文，不新增其直接claim；保留 acquisition/provenance于tmp。auto授权内选正文，不扩展机构登录或索取凭据。下一步是本任务自行推导与验证共享背景/模板协方差，仍在原DAY13窗口。
+
+### 持续 DAY13：共享 off 计数的协方差
+
+[共享背景代码](../../system/scripts/day13_shared_background_covariance.py)和[结果](20261013-DAY13-doppler-correction-recoil-velocity-run-01/shared-background-covariance-exercise.json)为任务推导，自设两个独立 on 流、一个共用 off 计数和严格已知背景 shape。BC84-4/5 仅提供 counting-model 方法背景，未把它写成来源的具体 sideband 实现。
+
+完整 covariance 中出现 `(B/r)QQᵀ`。在真值处 profile 背景的联合 Poisson Fisher 与完整 C 的局部 GLS 等价，参数 covariance 差<5.3×10⁻18。自设每组 signal10000/background4000、r0.25时，对角权重估计器报告τ SE0.857fs，其真实传播SE1.460fs；正确局部GLS为1.223fs。120k独立on/off重复验证方差，最大relative差0.338%；约2.22%扣除后bin为负。无非线性数据拟合或实际区间修正。
+
+反证控制明确共同误差对差分可抵消、对和可增强；忽略相关项没有普遍方向。独立背景观测、未知q/r或on事件重叠需不同模型。推导/条件/数表同步至 [[doppler-correction]]“共用背景观测如何连接 bin 与角度组”及 [[doppler-velocity-validation-contract]]，下一步继续有限模板和共用模拟事件的协方差；研究窗口与课程状态不变。
+
+### 持续 DAY13：有限模板和共用模拟事件
+
+[代码](../../system/scripts/day13_finite_template_covariance.py)、[结果](20261013-DAY13-doppler-correction-recoil-velocity-run-01/finite-template-covariance-exercise.json)用合成 proper-time/feeding/response 核做 normalized weighted templates。Leading 1/N ratio-estimator covariance、参数点共用事件的交叉项与差值 covariance 为本任务推导；BC84-2/9仅作方法背景，未归给尚未读到全文的 Barlow–Beeston。
+
+自设70/72fs两点、每份2000模拟事件时，共用随机数的模板差 covariance trace约为独立bank的0.10816，8000组ensemble为0.10866。单模板主bin p0.187031仍有SE0.008675；samehypothesis重放差为零不证明单模板无误差。独立Ndata10000的固定lifetime-score投影，NMC2000时计入模板噪声的SD比只算data为2.48148；此值不是τSE或sourceinterval修正。
+
+800k独立pilot加8000组templates验证四种covariance，Frobeniusrelative差3.4–4.1%；归一化零方向、fixed-selected-N无权重、samehypothesis和无限模板极限通过。Generated/selected、weights、共同eventIDs/seeds和data/MC依赖明确分开。公式、数值、反证与必要packet同步至 [[doppler-correction]]“有限模板与共同模拟事件的协方差”及validation synthesis。
+
+当前bounded analysis还包含已选的adaptive observed bin边界与event-overlap/Poisson-vs-fixedN契约；继续完成这些统计/响应问题。实际20O事件/code/response仍缺，course next14/count13不重计，13:30后不打开新source/card。
+
+### 持续 DAY13：adaptive bin 的完整观测模型
+
+[代码](../../system/scripts/day13_adaptive_bin_observation.py)、[结果](20261013-DAY13-doppler-correction-recoil-velocity-run-01/adaptive-bin-observation-exercise.json)为独立fixed40-photon小直方图的自设合并规则：两bin都≥10时保留，否则合并。忽略边界选择的抽象p估计在true.25时大样本极限.2982966；所有输出bin仍≥10。完整likelihood保留合并事件概率，在期望数据上恢复.25。
+
+64组/8000重复的naive mean.298259、完整观测mean.249663；后者不宣称有限N精确无偏或有intervalcoverage。独立pilot控制mean.249975，对称p=.5时本例naive偏差为零。1061种实际integer summaries的优化/粗网格对照、normalization和controls通过。SourceZA23-10只是rebin≥10报告，实际algorithm未知；本例不拟合τ或断言sourcebias。
+
+公式/分母/数表/反证与rawfinecounts/algorithm需求同步至 [[doppler-correction]]“自适应 bin 边界也是观测的一部分”及validation synthesis。下一当前子问题是shared event的Poisson/fixedN covariance与重放信息边界。
+
+### 持续 DAY13：共享事件与粗投影联合
+
+[代码](../../system/scripts/day13_event_overlap_information.py)、[结果](20261013-DAY13-doppler-correction-recoil-velocity-run-01/event-overlap-information-exercise.json)区分fixedN/Poisson event marks与重叠门。自设10000事件，两门cross covariance约718.335/521.239count²，150k计数MC核验relative差0.478%/0.289%；互斥单光子bin仅Poisson情形可独立thinning。
+
+同批photons用βref .08/.10的deterministic replay，两粗投影各29bins，联合57bins。联合分区可恢复少量summary分辨信息，τ局部SE .825051fs；错当两投影独立给.589322fs。它们没有增加raw事件；重复总count的differencevariance0、sumvariance40000，而independent近似20000。公式、表与raw身份/ROI/映射边界同步 [[doppler-correction]]“共享事件、总计数设计与重放的信息”及validation synthesis。
+
+这轮 finite-bin/background/template 子问题已有解析、独立MC和反证；接下来检验同一合成核的有限计数非线性τ/E likelihood区域覆盖，局部Fisher/leadingΣ尚不能替代该检查。保持DAY13原截止，actualsourceinterval不重标。
+
+### 持续 DAY13：非线性 τ/E likelihood 区域覆盖
+
+[代码](../../system/scripts/day13_nonlinear_interval_closure.py)、[结果](20261013-DAY13-doppler-correction-recoil-velocity-run-01/nonlinear-interval-closure-exercise.json)对同一slowing核的无馈入模型做五场景×2000个计数实验。Fixed selected counts、5-keV bin、response/pointangles严格已知，τ20–250fs domain为自设控制，不是sourceprior。
+
+用χ²2的68.3%阈值，τ70fs内部点在每角度25/1000计数时覆盖.676/.695；τ20fs下界时.7995/.781；无减速、τ不可识别时.861。下界局部halfχ²1+halfχ²2和无减速χ²1的相应概率.7767/.8704，与finitecount/MC误差分开记录，未重标source区间。
+
+Analyticgradient、原核binprobability、128/256quadrature与noloss验证通过。少量optimizer起点失败完整保留，边界1000counts场景11次Powell恢复；所有experiment最终有数值核验，不按失败丢样本。各counts数组的seed/顺序/dtype/shape/hash可再生。公式/数表/limits/读iness同步 [[doppler-correction]]“非线性 τ/E 区域：有限计数、边界与不可识别极限”及validation synthesis。
+
+已选的同一forward/statistics问题继续检验wrongfixedentryβ与independentnoisyvelocityconstraint，13:30后只完成此当前分析，无新source/card，原hardcutoff15:00不改。
+
+### 持续 DAY13：入口速度 nuisance 与区间语义
+
+[速度nuisance代码](../../system/scripts/day13_velocity_nuisance_interval.py)、[结果](20261013-DAY13-doppler-correction-recoil-velocity-run-01/velocity-nuisance-interval-exercise.json)延续同一无馈入核。Trueentryβ.126、错固定.125时，期望fit给τ71.4267fs/E0shift−2.01353keV；这不解释真实20O150/70fs差异。加入独立无偏Gaussianβtag（自设σ.001）并profileentryβ后，2000重复的68.3%jointτ/E覆盖在每角度25/1000counts为.6885/.702，错固定时.129/0of2000。梯度、quadrature和Schurprofile检查通过，优化失败起点未丢实验。
+
+[同数据semantic audit](../../system/scripts/day13_velocity_region_semantics.py)、[结果](20261013-DAY13-doppler-correction-recoil-velocity-run-01/velocity-region-semantics-exercise.json)核对counts/βhash，重复的不是独立证据。低N错固定β的τ一参数profile覆盖.6815、jointpair.129、jointτ投影.872；高N对应.482、0of2000、.693。正确nuisance高N为.6805/.702/.871，三种定义明确分开。0of2000的MC95%双侧exactbinomial上界.001843，不写成真实coverage严格零。公式/表/反证与stage/independence/Σ需求同步 [[doppler-correction]]“速度 nuisance：正确统计量仍须正确的 forward model”。
+
+### 持续 DAY13：长寿命控制线与晚速度校准
+
+既有CM21正式PDFp7/Fig9已回读并视觉核验，publicbytes SHA06255eba…仍与先前versionreceipt相同；source新增CM21-22。0.4%/0.7%是oxygen/carbon aftertarget T/velocity的tuning幅度，不是σβ或independententryresolution，actualmean/mode/peakfitobjective/window/Σ未在该段规定。未打开新来源或课程卡。
+
+[long-control代码](../../system/scripts/day13_long_control_velocity_estimator.py)、[结果](20261013-DAY13-doppler-correction-recoil-velocity-run-01/long-control-velocity-estimator-exercise.json)只借controlenergy/τ尺度；chosenpropercrossing.13ps、β.10→.09、labσ1keV/pointangles/无feeding非实际CM21transport。150°下1375.80/1.27ps的exit-reference整线mean/mode残差约−.60097/−.009845keV；3853.170/12.4ps约−.17757/−.000356keV。不同估计量不能自动互换为sourcepeakcenter，更不以此解释source调参幅度或τ差异。
+
+各700k独立proper/noiseMC验证mean，quadrature/finite-historylateβ恢复/longτ/equal-speed通过。Mode用analyticdensityscore细化并核粗grid，旧bounded初估也保留，避免relativeenergytolerance影响小shift。图中的“latecontrol”仍需明确τ/外部anchorΣ、ROI/背景/response、objective和velocitystage；正确historyinversion也使用了trajectoryprior。内容同步 [[doppler-correction]]“长寿命校准线：有限 history 与估计量选择”及validation synthesis。
+
+### 当前校准分析的适用性审核与 thesis 连接
+
+[适用性代码](../../system/scripts/day13_calibration_applicability_audit.py)、[结果](20261013-DAY13-doppler-correction-recoil-velocity-run-01/calibration-applicability-audit-exercise.json)复用已验证的位移/反冲关系，隔离固定角度、母/子frame条件。Chosenconstantlateβ.09/R150mm/150°下，3853.170keV/12.4ps的错误targetvertex mean/mode残差约−.17836/−.17409keV；原固定角度mean/mode比较因此只说明其自身history模型，不能泛称mode消除全部偏差。正确knownvertex信号反演为零。
+
+另选free-singleγ/A19或A13 massproxy，givenparent-restphotons1375.80/3853.170keV，daughterframe分别高.10695/1.22626keV。Fourmomentum、inverse、geometryquadrature/static/far limits通过；不同fixture不相加、不转作sourcecalibration修正，实际transport/caller未知。内容同步 [[doppler-correction]]“固定角度与母/子frame是这个例题的边界”。
+
+[[a130-thesis-evidence-matrix]]新增fit-validity row，将这些方法边界接到τ/branches/δ→absolute-strength契约；不是新的A≈130实验。[[questions]]只保留一个去重后的actualpacket问题，缺输入由本任务readiness跟踪，不形成用户待办。当前卡学分/唯一Day14partial保持不变，未打开新source/card。
 
 ## Durable knowledge delta
 
@@ -3768,6 +3851,481 @@ properclock与路径积分、500k/每prior独立MC、归一化/quad和long/no-lo
           "locator": "NP19-8"
         }
       ]
+    },
+    {
+      "knowledge": "knowledge/methods/doppler-correction.md",
+      "anchor": "有限能量 bin：积分、边界与重分 bin",
+      "summary": "合成Gaussian混合的精确bin积分、中点近似和边界/ROI敏感性；所有数值为任务模型，未重拟合source。",
+      "sources": [
+        {
+          "path": "knowledge/sources/baker-cousins-1984-histogram-fits.md",
+          "locator": "BC84-2"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/methods/doppler-correction.md",
+      "anchor": "正确积分也不能恢复粗 bin 丢失的信息",
+      "summary": "对齐rebin可加性、条件Fisher信息损失、独立事件MC和Gaussian极限；局部误差不是sourcecoverage。",
+      "sources": [
+        {
+          "path": "knowledge/sources/baker-cousins-1984-histogram-fits.md",
+          "locator": "BC84-2"
+        },
+        {
+          "path": "knowledge/sources/baker-cousins-1984-histogram-fits.md",
+          "locator": "BC84-9"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/synthesis/doppler-velocity-validation-contract.md",
+      "anchor": "Histogram 输入与独立性",
+      "summary": "保存bin边界/rebin/ROI/条件分母及原on-off/template数据契约；同事件重分bin非独立证据。",
+      "sources": [
+        {
+          "path": "knowledge/sources/baker-cousins-1984-histogram-fits.md",
+          "locator": "BC84-2"
+        },
+        {
+          "path": "knowledge/sources/baker-cousins-1984-histogram-fits.md",
+          "locator": "BC84-4"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/methods/doppler-correction.md",
+      "anchor": "共用背景观测如何连接 bin 与角度组",
+      "summary": "任务推导共享on-off背景covariance，保存负bin、独立性和unknownshape/exposure边界，非source实现。",
+      "sources": [
+        {
+          "path": "knowledge/sources/baker-cousins-1984-histogram-fits.md",
+          "locator": "BC84-4"
+        },
+        {
+          "path": "knowledge/sources/baker-cousins-1984-histogram-fits.md",
+          "locator": "BC84-5"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/methods/doppler-correction.md",
+      "anchor": "联合 on/off 信息与局部误差传播",
+      "summary": "局部jointPoisson/GLS等价和naive估计器sandwich variance；120k计数MC和无限off极限通过，非intervalcoverage。",
+      "sources": [
+        {
+          "path": "knowledge/sources/baker-cousins-1984-histogram-fits.md",
+          "locator": "BC84-4"
+        },
+        {
+          "path": "knowledge/sources/baker-cousins-1984-histogram-fits.md",
+          "locator": "BC84-5"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/methods/doppler-correction.md",
+      "anchor": "忽略相关项不保证同一方向的偏差",
+      "summary": "共同误差在difference/sum中抵消或增强的解析反例；不将忽略Σ的影响方向普遍化。",
+      "sources": [
+        {
+          "path": "knowledge/sources/baker-cousins-1984-histogram-fits.md",
+          "locator": "BC84-4"
+        },
+        {
+          "path": "knowledge/sources/baker-cousins-1984-histogram-fits.md",
+          "locator": "BC84-5"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/synthesis/doppler-velocity-validation-contract.md",
+      "anchor": "Histogram 输入与独立性",
+      "summary": "追加共享off/事件overlap/transfer/q与实际计数packet要求，保持experimentalL4notready。",
+      "sources": [
+        {
+          "path": "knowledge/sources/baker-cousins-1984-histogram-fits.md",
+          "locator": "BC84-4"
+        },
+        {
+          "path": "knowledge/sources/baker-cousins-1984-histogram-fits.md",
+          "locator": "BC84-5"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/methods/doppler-correction.md",
+      "anchor": "有限模板与共同模拟事件的协方差",
+      "summary": "任务推导normalizedweightedtemplate的leading1/N协方差与generated/selected分母；归一化零方向不是独立bin。",
+      "sources": [
+        {
+          "path": "knowledge/sources/baker-cousins-1984-histogram-fits.md",
+          "locator": "BC84-2"
+        },
+        {
+          "path": "knowledge/sources/baker-cousins-1984-histogram-fits.md",
+          "locator": "BC84-9"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/methods/doppler-correction.md",
+      "anchor": "参数扫描点共用随机数时的交叉项",
+      "summary": "共用模拟事件使模板点相关，可降低差值噪声但不使单模板误差消失或增加独立样本数。",
+      "sources": [
+        {
+          "path": "knowledge/sources/baker-cousins-1984-histogram-fits.md",
+          "locator": "BC84-2"
+        },
+        {
+          "path": "knowledge/sources/baker-cousins-1984-histogram-fits.md",
+          "locator": "BC84-9"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/methods/doppler-correction.md",
+      "anchor": "模板误差进入数据比较的条件",
+      "summary": "独立data/MC的scoreprojection噪声与templateN敏感性，8000组ensemble和limits通过；非τinterval修正。",
+      "sources": [
+        {
+          "path": "knowledge/sources/baker-cousins-1984-histogram-fits.md",
+          "locator": "BC84-2"
+        },
+        {
+          "path": "knowledge/sources/baker-cousins-1984-histogram-fits.md",
+          "locator": "BC84-9"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/synthesis/doppler-velocity-validation-contract.md",
+      "anchor": "Histogram 输入与独立性",
+      "summary": "追加finiteMC权重/入选数/共同eventID和dataMCbinding；保留actualL4notready。",
+      "sources": [
+        {
+          "path": "knowledge/sources/baker-cousins-1984-histogram-fits.md",
+          "locator": "BC84-2"
+        },
+        {
+          "path": "knowledge/sources/baker-cousins-1984-histogram-fits.md",
+          "locator": "BC84-9"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/methods/doppler-correction.md",
+      "anchor": "自适应 bin 边界也是观测的一部分",
+      "summary": "数据选择边界携带参数信息；fixed40-photon合并反例、完整likelihood、独立pilot/对称controls，非sourcealgorithm或τbias。",
+      "sources": [
+        {
+          "path": "knowledge/sources/baker-cousins-1984-histogram-fits.md",
+          "locator": "BC84-2"
+        },
+        {
+          "path": "knowledge/sources/baker-cousins-1984-histogram-fits.md",
+          "locator": "BC84-9"
+        },
+        {
+          "path": "knowledge/sources/zanon-2023-o20-high-precision.md",
+          "locator": "ZA23-10"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/synthesis/doppler-velocity-validation-contract.md",
+      "anchor": "Histogram 输入与独立性",
+      "summary": "追加finecounts/rebin选择算法与complete-observation要求；每bin≥10不能替代统计验证。",
+      "sources": [
+        {
+          "path": "knowledge/sources/baker-cousins-1984-histogram-fits.md",
+          "locator": "BC84-2"
+        },
+        {
+          "path": "knowledge/sources/baker-cousins-1984-histogram-fits.md",
+          "locator": "BC84-9"
+        },
+        {
+          "path": "knowledge/sources/zanon-2023-o20-high-precision.md",
+          "locator": "ZA23-10"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/methods/doppler-correction.md",
+      "anchor": "共享事件、总计数设计与重放的信息",
+      "summary": "Poisson/fixedN event-mark covariance及overlap/disjoint控制，150kMC验证，非sourcegateimplementation。",
+      "sources": [
+        {
+          "path": "knowledge/sources/baker-cousins-1984-histogram-fits.md",
+          "locator": "BC84-2"
+        },
+        {
+          "path": "knowledge/sources/baker-cousins-1984-histogram-fits.md",
+          "locator": "BC84-4"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/methods/doppler-correction.md",
+      "anchor": "同一事件的不同粗投影可细化观测",
+      "summary": "同一raw事件的two-referencehist相关，联合分区可恢复coarse信息但不能当独立data；jointprob/Fisher/总countvariance通过。",
+      "sources": [
+        {
+          "path": "knowledge/sources/baker-cousins-1984-histogram-fits.md",
+          "locator": "BC84-2"
+        },
+        {
+          "path": "knowledge/sources/baker-cousins-1984-histogram-fits.md",
+          "locator": "BC84-4"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/synthesis/doppler-velocity-validation-contract.md",
+      "anchor": "Histogram 输入与独立性",
+      "summary": "补充eventmarks、Poisson/fixedN/thinning与replayraw身份和summary信息边界。",
+      "sources": [
+        {
+          "path": "knowledge/sources/baker-cousins-1984-histogram-fits.md",
+          "locator": "BC84-2"
+        },
+        {
+          "path": "knowledge/sources/baker-cousins-1984-histogram-fits.md",
+          "locator": "BC84-4"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/methods/gamma-gamma-coincidence.md",
+      "anchor": "门重叠与投影计数的 covariance",
+      "summary": "链接canonicalDoppler eventmark推导；Poisson/fixedN、multiplicity/overlap/权重和replay分区关系，非sourceproduction评价。",
+      "sources": [
+        {
+          "path": "knowledge/sources/baker-cousins-1984-histogram-fits.md",
+          "locator": "BC84-2"
+        },
+        {
+          "path": "knowledge/sources/baker-cousins-1984-histogram-fits.md",
+          "locator": "BC84-4"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/methods/doppler-correction.md",
+      "anchor": "非线性 τ/E 区域：有限计数、边界与不可识别极限",
+      "summary": "同一核的fixedN nonlinear regionclosure，internal/boundary/noloss与optimizer失败/恢复、counts身份；非sourceinterval校准。",
+      "sources": [
+        {
+          "path": "knowledge/sources/baker-cousins-1984-histogram-fits.md",
+          "locator": "BC84-1"
+        },
+        {
+          "path": "knowledge/sources/baker-cousins-1984-histogram-fits.md",
+          "locator": "BC84-5"
+        },
+        {
+          "path": "knowledge/sources/baker-cousins-1984-histogram-fits.md",
+          "locator": "BC84-9"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/synthesis/doppler-velocity-validation-contract.md",
+      "anchor": "Histogram 输入与独立性",
+      "summary": "补充参数domain/identifiability/joint-profile/fullalgorithmcoverage，与局部Σ和actualsourceerrors分层。",
+      "sources": [
+        {
+          "path": "knowledge/sources/baker-cousins-1984-histogram-fits.md",
+          "locator": "BC84-1"
+        },
+        {
+          "path": "knowledge/sources/baker-cousins-1984-histogram-fits.md",
+          "locator": "BC84-5"
+        },
+        {
+          "path": "knowledge/sources/baker-cousins-1984-histogram-fits.md",
+          "locator": "BC84-9"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/methods/doppler-correction.md",
+      "anchor": "速度 nuisance：正确统计量仍须正确的 forward model",
+      "summary": "独立beta nuisance与错fixedentry模型对照，jointτEcoverage有限N closure及SE/原source界限。",
+      "sources": [
+        {
+          "path": "knowledge/sources/baker-cousins-1984-histogram-fits.md",
+          "locator": "BC84-5"
+        },
+        {
+          "path": "knowledge/sources/zanon-2023-o20-high-precision.md",
+          "locator": "ZA23-2"
+        },
+        {
+          "path": "knowledge/sources/ciemala-2021-deep-inelastic-lifetime-method.md",
+          "locator": "CM21-15"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/methods/doppler-correction.md",
+      "anchor": "联合真值、τ profile 与联合区域投影",
+      "summary": "对同一hasheddata区分pair/profile/projection和0/R的MC区间；复算非独立证据。",
+      "sources": [
+        {
+          "path": "knowledge/sources/baker-cousins-1984-histogram-fits.md",
+          "locator": "BC84-1"
+        },
+        {
+          "path": "knowledge/sources/baker-cousins-1984-histogram-fits.md",
+          "locator": "BC84-9"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/sources/ciemala-2021-deep-inelastic-lifetime-method.md",
+      "anchor": "CM21-22",
+      "summary": "正式Fig9核0.4%/0.7%aftertargetvelocitytuning幅度、σ/stage/estimator边界，非新数据独立验证。",
+      "sources": [
+        {
+          "path": "knowledge/sources/ciemala-2021-deep-inelastic-lifetime-method.md",
+          "locator": "CM21-22"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/methods/doppler-correction.md",
+      "anchor": "长寿命校准线：有限 history 与估计量选择",
+      "summary": "source-inspiredmean/mode与有限history的条件calibration，700kMC/score-root/limits，不归作source算法或bias。",
+      "sources": [
+        {
+          "path": "knowledge/sources/ciemala-2021-deep-inelastic-lifetime-method.md",
+          "locator": "CM21-15"
+        },
+        {
+          "path": "knowledge/sources/ciemala-2021-deep-inelastic-lifetime-method.md",
+          "locator": "CM21-16"
+        },
+        {
+          "path": "knowledge/sources/ciemala-2021-deep-inelastic-lifetime-method.md",
+          "locator": "CM21-22"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/synthesis/doppler-velocity-validation-contract.md",
+      "anchor": "Histogram 输入与独立性",
+      "summary": "加入velocitynuisance/独立tag/semanticregion与latecontrol objective/window/stage契约。",
+      "sources": [
+        {
+          "path": "knowledge/sources/baker-cousins-1984-histogram-fits.md",
+          "locator": "BC84-5"
+        },
+        {
+          "path": "knowledge/sources/ciemala-2021-deep-inelastic-lifetime-method.md",
+          "locator": "CM21-22"
+        },
+        {
+          "path": "knowledge/sources/zanon-2023-o20-high-precision.md",
+          "locator": "ZA23-2"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/methods/doppler-correction.md",
+      "anchor": "固定角度与母/子frame是这个例题的边界",
+      "summary": "当前longcontrol条件自审：不同fixture隔离vertex/frame边界，非sourcebias或新独立证据。",
+      "sources": [
+        {
+          "path": "knowledge/sources/ciemala-2021-deep-inelastic-lifetime-method.md",
+          "locator": "CM21-15"
+        },
+        {
+          "path": "knowledge/sources/nptool-2019-reaction-velocity-code-object.md",
+          "locator": "NP19-7"
+        },
+        {
+          "path": "knowledge/sources/aladili-2009-agata-doppler-simulation.md",
+          "locator": "AA09-1"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/synthesis/doppler-velocity-validation-contract.md",
+      "anchor": "Histogram 输入与独立性",
+      "summary": "增补calibratorvertex/refparticle/state/epoch与observablebinding，晚reference用于historyfit须模型一致。",
+      "sources": [
+        {
+          "path": "knowledge/sources/ciemala-2021-deep-inelastic-lifetime-method.md",
+          "locator": "CM21-15"
+        },
+        {
+          "path": "knowledge/sources/ciemala-2021-deep-inelastic-lifetime-method.md",
+          "locator": "CM21-22"
+        },
+        {
+          "path": "knowledge/sources/nptool-2019-reaction-velocity-code-object.md",
+          "locator": "NP19-10"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/projects/a130-thesis-evidence-matrix.md",
+      "anchor": "Doppler-fit validity before lifetime/strength interpretation",
+      "summary": "将bin/likelihood/Σ/velocity/parentframe/source-lineage契约连接A130 τ与strength，不给实验结构新结论。",
+      "sources": [
+        {
+          "path": "knowledge/sources/baker-cousins-1984-histogram-fits.md",
+          "locator": "BC84-5"
+        },
+        {
+          "path": "knowledge/sources/ciemala-2021-deep-inelastic-lifetime-method.md",
+          "locator": "CM21-22"
+        },
+        {
+          "path": "knowledge/sources/zanon-2023-o20-high-precision.md",
+          "locator": "ZA23-2"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/questions.md",
+      "anchor": "实际 Doppler τ/E 分析能否提供完整",
+      "summary": "去重跟踪actualpacket的原counts/stage/校准/Σ/coverage缺口，不用模型解释20O差异。",
+      "sources": [
+        {
+          "path": "knowledge/sources/baker-cousins-1984-histogram-fits.md",
+          "locator": "BC84-2"
+        },
+        {
+          "path": "knowledge/sources/ciemala-2021-deep-inelastic-lifetime-method.md",
+          "locator": "CM21-22"
+        },
+        {
+          "path": "knowledge/sources/zanon-2023-o20-high-precision.md",
+          "locator": "ZA23-10"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/synthesis/doppler-velocity-validation-contract.md",
+      "anchor": "统计与速度分析之后的判定表",
+      "summary": "汇总observable/producer/physicalhistory/统计观测/coverage的充分性边界与actualpacket；toys不裁决20O原因或A130mode。",
+      "sources": [
+        {
+          "path": "knowledge/sources/baker-cousins-1984-histogram-fits.md",
+          "locator": "BC84-5"
+        },
+        {
+          "path": "knowledge/sources/ciemala-2021-deep-inelastic-lifetime-method.md",
+          "locator": "CM21-22"
+        },
+        {
+          "path": "knowledge/sources/zanon-2023-o20-high-precision.md",
+          "locator": "ZA23-7"
+        }
+      ]
     }
   ]
 }
@@ -3786,11 +4344,19 @@ properclock与路径积分、500k/每prior独立MC、归一化/quad和long/no-lo
 |---|---|
 | L0 | 已读source的身份、locator/原图核验完成；新public source的raw槽位未归档，URL/version/tmp-byte hashes明示；保留文本与执行版边界。 |
 | L1 | source↔method、thesis contract、index反链完成；不同实验/不同emitter的适用条件保留。 |
-| L2 | exact formula/covariance、geometry/gates、convention/decay、speed/calibration、aberration、displaced vertex、neutron cuts、photon recoil、Voigt与momentum stages均为可复算方法练习；未冒充测量。 |
+| L2 | 来源方法与自设 exercise 分层完成；新增 finite-bin/ROI、共享背景、weighted templates、adaptive edges和event-overlap的公式/seed/单位/误差/反证可复算，未冒充测量。 |
 | L3 | 诊断矩阵与20O独立实验/方法version比较已写回；正式CM21反证v1label外推，feeding/τ–E差异原因未裁决，真实Mavela执行影响仍partial。 |
-| L4 | experimental refit `not-ready`：缺事件、production code、ring spectra、response/covariance和feeding；模拟练习不作为新实验L4或absolute-strength研究。 |
+| L4 | 合成分析有明确输入/代码/hash/seed、竞争模型与失败检查，其结论限于声明的模型；experimental refit `not-ready`：缺事件、production code、ring spectra、response/covariance和feeding，未生成新实验τ或absolute strengths。 |
 
 ## Verification and continuation
+
+最终收束检查：155items/32mappedpaths的唯一writeback、完整Day13audit/Day14partial、十项新分析和原source/model边界已核；lint23为0errors/128warnings（107citationkey、18reservedraw、3reactionparser）。AST/代码与data/dependencyhash、PLAN/Bib、无raw/PLANdiff、state next14/count13、sourceCM21publishedhash、singleblock和diffchecks通过。显式46-filemanifest排除继承Day6–9/daemon/旧log及tmp。H3、commitfilemanifest和handoff reconciliation的实际结果只写run.json/reopened-publication-h3-012.json，失败时保留本地commit，不更改凭据或Git配置。
+
+
+
+边界self-audit：本次恢复时矩阵 `sed116–140` 意外带出Day15标题/一行回忆任务文本，已记录于run.scope_self_audit。没有选择、开展或计入Day15学习，也没有新开其来源；后续只处理Day13既有分析/收束。此记录不把意外文本显示写成Day15知识交付。
+
+
 
 最新活动检查（2026-10-14T11:43:08.379833+08:00，余196.9分钟）：126items/32mappedpaths（31owningpages）。Depth/exit/clock/MC/quad与pinned2019NPTool object source/units/mass/state/context sanity均通过；Gitblob/SHA、successornetworkfailure/未build/rawbound已记录。CM21 fragmentedtable修复后21claims均machineparsed。Lint0errors/128warnings（107citationkeys、18rawslots、3parser）、boundary/report/card/writeback/protected/state/diff通过。原window仍active至15:00，不推进课程；下一有限bin/背景/templateΣ，不开formal14/15。
 

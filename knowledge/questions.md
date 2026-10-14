@@ -2,7 +2,7 @@
 type: system-questions
 graph-excluded: true
 created: 2026-07-01
-updated: 2026-10-13
+updated: 2026-10-14
 ---
 
 # Research Questions
@@ -42,6 +42,8 @@ updated: 2026-10-13
 - [ ] Mavela 2019 Appendix C p.74 的 S3 hit-direction transform 中 `yb=d_target2s3*sin(angdis[rr])` 是否符合角度坐标约定？和同页 clover 的 `y=d_target2ge*cos(theta)` 使用共同球坐标时，打印的 S3 vector 归一化后会消去 ring theta、极角固定为135°；但这只是论文列表的代数结果。要判定是转录错误还是另一坐标约定，需 production sorter、完整轴定义及 ring/sector-gated centroids。（opened 2026-10-13；scope: 32s/doppler-correction/recoil-direction/code-provenance；sources: [[mavela-2019-32s-quadrupole-moment-doppler-correction-thesis]]）
 
 - [ ] angle/ring 的 corrected peak gate 是否具有已验证的selection efficiency？独立energy response之外，β/geometry偏差及不同σ可令同一固定keV门接受率不同，sharedvertex covariance亦不可忽略；需原始或可重放event/sorter、逐角centroid/width、calibration及gate-response mapping，才把计数比升为angular/multipolarity证据（VD16-2/3、CR13-3/5；[[doppler-correction]] syntheticgate反例）。（opened2026-10-13；scope:doppler-correction/gate-migration/trajectory-covariance；sources:[[vandebrouck-2016-vamos-dual-position-mwpc]]、[[crespi-2013-agata-high-energy-doppler-response]]）
+
+- [ ] 实际 Doppler τ/E 分析能否提供完整 bin/ROI/rebin 规则、原始 on/off 计数、共享 event/MC IDs、velocity producer/stage/粒子状态、校准 objective/window 与共同Σ，来检验“窄region是否来自正确forwardfamily”？已验证的自设反例见 [[doppler-correction]] 和 [[doppler-velocity-validation-contract]]；它们未重标实际20O区间。CM21-22的0.4%/0.7%为after-target tuning幅度，非σβ；真实entry/history、feeding、response和实际χ²grid/code仍缺，不能由toy或长线匹配单独解释两次独立τ测量差异。（opened2026-10-14；scope:doppler/velocity-calibration/likelihood/independence/L4-readiness；sources:[[baker-cousins-1984-histogram-fits]]、[[ciemala-2021-deep-inelastic-lifetime-method]]、[[zanon-2023-o20-high-precision]]）
 
 ## Resolved
 

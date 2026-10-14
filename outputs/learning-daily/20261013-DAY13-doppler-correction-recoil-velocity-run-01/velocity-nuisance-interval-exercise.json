@@ -1,0 +1,271 @@
+{
+  "schema_version": 1,
+  "status": "complete-synthetic-analysis",
+  "kind": "synthetic entry-velocity nuisance interval closure",
+  "chosen_parameters": {
+    "true_tau_fs": 70.0,
+    "true_entry_beta": 0.126,
+    "wrong_fixed_entry_beta": 0.125,
+    "independent_beta_tag_sigma": 0.001,
+    "exit_beta": 0.08,
+    "no_feeding": true,
+    "fixed_history_family": true,
+    "point_angles_deg": [
+      130.0,
+      150.0,
+      170.0
+    ],
+    "repeats": 2000,
+    "wrong_fixed_seed": 131432,
+    "profiled_seed": 131433
+  },
+  "expected_wrong_fixed_fit": {
+    "pseudo_true_tau_fs": 71.4266800564216,
+    "pseudo_true_energy_shift_keV": -2.0135276817628913
+  },
+  "local_profile_design_at1000_per_angle": {
+    "tau_SE_fs": 1.4391213481586391,
+    "energy_SE_keV": 0.6165874826095555,
+    "entry_beta_SE": 0.0002985971526464949
+  },
+  "wrong_fixed_cases": [
+    {
+      "no_loss": false,
+      "true_tau_fs": 70.0,
+      "fixed_selected_count_per_angle": 25,
+      "repeats": 2000,
+      "fitted_tau_mean_fs": 71.29542127998744,
+      "fitted_energy_shift_mean_keV": -1.9315030520252265,
+      "lifetime_lower_bound_fraction": 0.0,
+      "lifetime_upper_bound_fraction": 0.0,
+      "energy_bound_fraction": 0.0,
+      "coverage": [
+        {
+          "nominal_regular_two_parameter_probability": 0.683,
+          "delta_deviance_threshold": 2.2977070102097144,
+          "observed_joint_truth_coverage": 0.129,
+          "binomial_MC_SE": 0.007495298526409739,
+          "declared_case_asymptotic_probability": null,
+          "interpretation": "wrong fixed velocity; regular correct-model chi2 expectation is inapplicable"
+        },
+        {
+          "nominal_regular_two_parameter_probability": 0.95,
+          "delta_deviance_threshold": 5.991464547107979,
+          "observed_joint_truth_coverage": 0.383,
+          "binomial_MC_SE": 0.010869935602385139,
+          "declared_case_asymptotic_probability": null,
+          "interpretation": "wrong fixed velocity; regular correct-model chi2 expectation is inapplicable"
+        }
+      ],
+      "delta_deviance_quantiles": [
+        7.855226149608001,
+        11.291134228113746,
+        21.298868729781127,
+        28.287066708357052
+      ],
+      "optimization": {
+        "first_start_failures": 0,
+        "second_start_failures": 4,
+        "Powell_fallback_count": 0,
+        "unverified_experiments": [],
+        "coarse_grid_max_disadvantage": 0.0
+      }
+    },
+    {
+      "no_loss": false,
+      "true_tau_fs": 70.0,
+      "fixed_selected_count_per_angle": 1000,
+      "repeats": 2000,
+      "fitted_tau_mean_fs": 71.40670210638997,
+      "fitted_energy_shift_mean_keV": -2.009381352715861,
+      "lifetime_lower_bound_fraction": 0.0,
+      "lifetime_upper_bound_fraction": 0.0,
+      "energy_bound_fraction": 0.0,
+      "coverage": [
+        {
+          "nominal_regular_two_parameter_probability": 0.683,
+          "delta_deviance_threshold": 2.2977070102097144,
+          "observed_joint_truth_coverage": 0.0,
+          "binomial_MC_SE": 0.0,
+          "declared_case_asymptotic_probability": null,
+          "interpretation": "wrong fixed velocity; regular correct-model chi2 expectation is inapplicable"
+        },
+        {
+          "nominal_regular_two_parameter_probability": 0.95,
+          "delta_deviance_threshold": 5.991464547107979,
+          "observed_joint_truth_coverage": 0.0,
+          "binomial_MC_SE": 0.0,
+          "declared_case_asymptotic_probability": null,
+          "interpretation": "wrong fixed velocity; regular correct-model chi2 expectation is inapplicable"
+        }
+      ],
+      "delta_deviance_quantiles": [
+        280.08775871120906,
+        299.4801404827273,
+        345.3241169987253,
+        377.9665485655674
+      ],
+      "optimization": {
+        "first_start_failures": 0,
+        "second_start_failures": 0,
+        "Powell_fallback_count": 0,
+        "unverified_experiments": [],
+        "coarse_grid_max_disadvantage": 0.0
+      }
+    }
+  ],
+  "profiled_cases": [
+    {
+      "fixed_count_per_angle": 25,
+      "repeats": 2000,
+      "fitted_tau_mean_fs": 69.72253621318413,
+      "fitted_energy_shift_mean_keV": 0.025696116293574774,
+      "fitted_entry_beta_mean": 0.12597202180141145,
+      "imposed_tau_lower_bound_fraction": 0.0,
+      "velocity_boundary_fraction": 0.0,
+      "coverage": [
+        {
+          "nominal_interest_pair_probability": 0.683,
+          "delta_deviance_threshold": 2.2977070102097144,
+          "observed_joint_truth_coverage": 0.6885,
+          "binomial_MC_SE": 0.010355379037002944
+        },
+        {
+          "nominal_interest_pair_probability": 0.95,
+          "delta_deviance_threshold": 5.991464547107979,
+          "observed_joint_truth_coverage": 0.9485,
+          "binomial_MC_SE": 0.004942051699446293
+        }
+      ],
+      "optimization_failed_attempts": [
+        {
+          "index": 122,
+          "start_index": 0,
+          "message": "ABNORMAL: "
+        },
+        {
+          "index": 199,
+          "start_index": 1,
+          "message": "ABNORMAL: "
+        },
+        {
+          "index": 443,
+          "start_index": 1,
+          "message": "ABNORMAL: "
+        },
+        {
+          "index": 598,
+          "start_index": 0,
+          "message": "ABNORMAL: "
+        },
+        {
+          "index": 1128,
+          "start_index": 1,
+          "message": "ABNORMAL: "
+        },
+        {
+          "index": 1262,
+          "start_index": 1,
+          "message": "ABNORMAL: "
+        },
+        {
+          "index": 1270,
+          "start_index": 1,
+          "message": "ABNORMAL: "
+        },
+        {
+          "index": 1414,
+          "start_index": 0,
+          "message": "ABNORMAL: "
+        },
+        {
+          "index": 1776,
+          "start_index": 1,
+          "message": "ABNORMAL: "
+        },
+        {
+          "index": 1967,
+          "start_index": 0,
+          "message": "ABNORMAL: "
+        }
+      ],
+      "Powell_fallback_count": 0,
+      "count_identity": {
+        "shape": [
+          2000,
+          3,
+          32
+        ],
+        "dtype": "little-endian int64",
+        "sha256": "cfac2e207d4f4d68027a6a52bc18e2c28494879af539c1b006760c63af182323"
+      },
+      "independent_beta_measurement_identity": {
+        "sha256": "80adb0437f16f0a1496d2df5473b83d2ae530441d4b20faed2f9a84c34f917b6",
+        "count": 2000
+      }
+    },
+    {
+      "fixed_count_per_angle": 1000,
+      "repeats": 2000,
+      "fitted_tau_mean_fs": 69.96951142227853,
+      "fitted_energy_shift_mean_keV": -0.00499050236468587,
+      "fitted_entry_beta_mean": 0.12599397643416324,
+      "imposed_tau_lower_bound_fraction": 0.0,
+      "velocity_boundary_fraction": 0.0,
+      "coverage": [
+        {
+          "nominal_interest_pair_probability": 0.683,
+          "delta_deviance_threshold": 2.2977070102097144,
+          "observed_joint_truth_coverage": 0.702,
+          "binomial_MC_SE": 0.010227316363543274
+        },
+        {
+          "nominal_interest_pair_probability": 0.95,
+          "delta_deviance_threshold": 5.991464547107979,
+          "observed_joint_truth_coverage": 0.9565,
+          "binomial_MC_SE": 0.004561126505590477
+        }
+      ],
+      "optimization_failed_attempts": [
+        {
+          "index": 346,
+          "start_index": 0,
+          "message": "ABNORMAL: "
+        }
+      ],
+      "Powell_fallback_count": 0,
+      "count_identity": {
+        "shape": [
+          2000,
+          3,
+          32
+        ],
+        "dtype": "little-endian int64",
+        "sha256": "526b1e7bb1d62889e44f30c967bbc65f92c48da43d3950d1ef6f88da4f689294"
+      },
+      "independent_beta_measurement_identity": {
+        "sha256": "ba571648616ec50730739af67ad04f0d0182c887edc47ceb511631a414238ad1",
+        "count": 2000
+      }
+    }
+  ],
+  "verification": {
+    "probability_agreement_with_fixed_velocity_model_max_error": 0.0,
+    "analytic_three_coordinate_gradient_max_FD_error": 2.059007520038847e-09,
+    "quadrature128_256_max_bin_difference": 1.8512968935624485e-14,
+    "Schur_profile_information_check_passed": true,
+    "all_passed": true
+  },
+  "dependencies": {
+    "interval_runner_sha256": "8bc01df89ae23f3b68a96a64a027bba4efc9da9717437835d1f2d7d1dea2b5d1",
+    "analysis_script_sha256_at_execution": "7bfdc29d31af7a56329a0d1cb33af600c9b5eb26d9f76f5b048b55ae3eab58db"
+  },
+  "boundaries": [
+    "Entrybeta is one global nuisance per experiment, not a reconstructed speed per photon/event.",
+    "Gaussian tag is independent and unbiased by construction; shared calibration or biased tags need another joint model.",
+    "Fixed transport/response/no-feeding and point angles are chosen; they are not actual20O settings.",
+    "Profile coverage concerns the tau/E interest pair, not the three-parameter region or projected tau interval.",
+    "Statistical closure in the correct family does not validate that family or an actual velocity-stage binding.",
+    "No reported source bias, uncertainty, independent velocity resolution or lifetime is recalculated."
+  ]
+}

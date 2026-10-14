@@ -1,0 +1,284 @@
+{
+  "schema_version": 1,
+  "kind": "synthetic shared-sideband normalization covariance",
+  "source_inspiration": "BC84 counting-model/likelihood boundary; covariance is our derivation",
+  "chosen_parameters": {
+    "signal_mean_per_angle": 10000.0,
+    "background_mean_per_angle": 4000.0,
+    "angles_deg": [
+      150.0,
+      170.0
+    ],
+    "bin_edges_keV": [
+      2296.1,
+      2301.1,
+      2306.1,
+      2311.1,
+      2316.1,
+      2321.1,
+      2326.1,
+      2331.1,
+      2336.1,
+      2341.1,
+      2346.1,
+      2351.1,
+      2356.1,
+      2361.1,
+      2366.1,
+      2371.1,
+      2376.1,
+      2381.1,
+      2386.1,
+      2391.1,
+      2396.1,
+      2401.1,
+      2406.1
+    ],
+    "background_bin_probabilities": [
+      0.013939407485123288,
+      0.017575576909356794,
+      0.0230436053145285,
+      0.030652339615065555,
+      0.04040166263448773,
+      0.05181829367343837,
+      0.06388279054657359,
+      0.07511819562608431,
+      0.08386104715975408,
+      0.08865745800489348,
+      0.08865745800489348,
+      0.08386104715975408,
+      0.07511819562608427,
+      0.06388279054657364,
+      0.05181829367343837,
+      0.040401662634487724,
+      0.030652339615065548,
+      0.02304360531452851,
+      0.01757557690935682,
+      0.013939407485123248,
+      0.011694512871221228,
+      0.010404733190167485
+    ],
+    "parameter_coordinates": [
+      "log_tau",
+      "energy_shift_keV",
+      "log_signal_150",
+      "log_signal_170"
+    ]
+  },
+  "scenarios": [
+    {
+      "off_to_on_exposure": 0.25,
+      "expected_off_count": 1000.0,
+      "background_estimate_variance": 16000.0,
+      "full_covariance": {
+        "local_tau_SE_fs": 1.222987329919684,
+        "local_energy_SE_keV": 0.09902264757095465,
+        "log_signal_normalization_SE": [
+          0.013985313547976918,
+          0.014002468018800736
+        ],
+        "tau_energy_correlation": -0.32110926229399495
+      },
+      "diagonal_only_reported": {
+        "local_tau_SE_fs": 0.8568193704547231,
+        "local_energy_SE_keV": 0.09830273706152624,
+        "log_signal_normalization_SE": [
+          0.011625643047393025,
+          0.01162433056641461
+        ],
+        "tau_energy_correlation": -0.3109422856376691
+      },
+      "diagonal_only_actual": {
+        "local_tau_SE_fs": 1.4600707048688615,
+        "local_energy_SE_keV": 0.09989497553800897,
+        "log_signal_normalization_SE": [
+          0.015816715712343415,
+          0.015826999426042234
+        ],
+        "tau_energy_correlation": -0.3382344217014101
+      },
+      "naive_actual_to_reported_variance_ratio": [
+        2.9038168577894305,
+        1.0326569432954735,
+        1.8509668845172063,
+        1.8537931362304914
+      ],
+      "joint_Poisson_profile_covariance_max_difference": 5.204170427930421e-18
+    },
+    {
+      "off_to_on_exposure": 1.0,
+      "expected_off_count": 4000.0,
+      "background_estimate_variance": 4000.0,
+      "full_covariance": {
+        "local_tau_SE_fs": 0.9979564245701262,
+        "local_energy_SE_keV": 0.09829979216629799,
+        "log_signal_normalization_SE": [
+          0.012459938799644625,
+          0.012469907775074314
+        ],
+        "tau_energy_correlation": -0.31034290775465007
+      },
+      "diagonal_only_reported": {
+        "local_tau_SE_fs": 0.8325534264546282,
+        "local_energy_SE_keV": 0.09795800471000973,
+        "log_signal_normalization_SE": [
+          0.011448911053322432,
+          0.01145195684199579
+        ],
+        "tau_energy_correlation": -0.3111252550729581
+      },
+      "diagonal_only_actual": {
+        "local_tau_SE_fs": 1.0298391177282473,
+        "local_energy_SE_keV": 0.09839070579403102,
+        "log_signal_normalization_SE": [
+          0.012676551887906774,
+          0.012686266422849236
+        ],
+        "tau_energy_correlation": -0.31102445427222086
+      },
+      "naive_actual_to_reported_variance_ratio": [
+        1.5300814263931979,
+        1.0088539318679688,
+        1.2259532637527637,
+        1.227179947408788
+      ],
+      "joint_Poisson_profile_covariance_max_difference": 5.204170427930421e-18
+    },
+    {
+      "off_to_on_exposure": 4.0,
+      "expected_off_count": 16000.0,
+      "background_estimate_variance": 1000.0,
+      "full_covariance": {
+        "local_tau_SE_fs": 0.8779332584854426,
+        "local_energy_SE_keV": 0.09797240490936178,
+        "log_signal_normalization_SE": [
+          0.011708009279886866,
+          0.011714165582638231
+        ],
+        "tau_energy_correlation": -0.3097277667230498
+      },
+      "diagonal_only_reported": {
+        "local_tau_SE_fs": 0.8260712851638706,
+        "local_energy_SE_keV": 0.09786847974153738,
+        "log_signal_normalization_SE": [
+          0.011402252781202708,
+          0.011406361047785182
+        ],
+        "tau_energy_correlation": -0.3111959568102623
+      },
+      "diagonal_only_actual": {
+        "local_tau_SE_fs": 0.8806332182587968,
+        "local_energy_SE_keV": 0.09797913237340501,
+        "log_signal_normalization_SE": [
+          0.011724986999859445,
+          0.01173113953987015
+        ],
+        "tau_energy_correlation": -0.3096704933309056
+      },
+      "naive_actual_to_reported_variance_ratio": [
+        1.1364624081752253,
+        1.0022625299896821,
+        1.0574099922746854,
+        1.0577576447682084
+      ],
+      "joint_Poisson_profile_covariance_max_difference": 1.734723475976807e-18
+    },
+    {
+      "off_to_on_exposure": 100000000.0,
+      "expected_off_count": 400000000000.0,
+      "background_estimate_variance": 4e-05,
+      "full_covariance": {
+        "local_tau_SE_fs": 0.8238686629879295,
+        "local_energy_SE_keV": 0.09783830338618633,
+        "log_signal_normalization_SE": [
+          0.011386451755204825,
+          0.011390910538048537
+        ],
+        "tau_energy_correlation": -0.3112221629659637
+      },
+      "diagonal_only_reported": {
+        "local_tau_SE_fs": 0.8238686607167622,
+        "local_energy_SE_keV": 0.0978383033817259,
+        "log_signal_normalization_SE": [
+          0.011386451742058708,
+          0.011390910524814748
+        ],
+        "tau_energy_correlation": -0.31122216305942485
+      },
+      "diagonal_only_actual": {
+        "local_tau_SE_fs": 0.8238686629879293,
+        "local_energy_SE_keV": 0.09783830338618632,
+        "log_signal_normalization_SE": [
+          0.011386451755204821,
+          0.01139091053804853
+        ],
+        "tau_energy_correlation": -0.31122216296596356
+      },
+      "naive_actual_to_reported_variance_ratio": [
+        1.00000000551342,
+        1.0000000000911793,
+        1.0000000023090796,
+        1.000000002323569
+      ],
+      "joint_Poisson_profile_covariance_max_difference": 3.469446951953614e-18
+    }
+  ],
+  "independent_count_MC": {
+    "seed": 131426,
+    "repeats": 120000,
+    "off_exposure": 0.25,
+    "empirical_optimal": {
+      "local_tau_SE_fs": 1.2219119993981122,
+      "local_energy_SE_keV": 0.09901269016691797,
+      "log_signal_normalization_SE": [
+        0.013988457697940992,
+        0.014026126867655196
+      ],
+      "tau_energy_correlation": -0.31691283365063255
+    },
+    "empirical_naive": {
+      "local_tau_SE_fs": 1.458215644826859,
+      "local_energy_SE_keV": 0.09980090023011955,
+      "log_signal_normalization_SE": [
+        0.01582914376700955,
+        0.015839792874300297
+      ],
+      "tau_energy_correlation": -0.3315171947935477
+    },
+    "shared_bin_indices": [
+      9,
+      31
+    ],
+    "shared_bin_cross_covariance_expected": 125.7623177582312,
+    "shared_bin_cross_covariance_MC": 130.45487740104636,
+    "negative_subtracted_bin_fraction": 0.02223030303030303
+  },
+  "contrast_control": {
+    "independent_variance": 100.0,
+    "shared_variance": 400.0,
+    "full_difference_variance": 200.0,
+    "diagonal_difference_variance": 1000.0,
+    "full_sum_variance": 1800.0,
+    "diagonal_sum_variance": 1000.0
+  },
+  "verification": {
+    "joint_Poisson_profile_GLS_max_covariance_difference": 5.204170427930421e-18,
+    "MC_optimal_max_variance_relative_error": 0.003382094649855727,
+    "MC_naive_sandwich_max_variance_relative_error": 0.0025394408413013103,
+    "shared_off_cross_covariance_passed": true,
+    "infinite_off_exposure_limit_passed": true,
+    "contrast_cancellation_passed": true,
+    "all_passed": true
+  },
+  "dependencies": {
+    "binning_script_sha256": "bf493da4f3c7c7d314ba97a1d8f98ce8cff8484edf329c72700c52b2c566852a"
+  },
+  "boundaries": [
+    "On streams are disjoint and independent; overlapping gamma gates need their extra covariance.",
+    "One off count measures B with known transfer/exposure and known background shape.",
+    "Background-shape uncertainty, template statistics and calibration covariance are omitted.",
+    "Signal normalizations are nuisance parameters; local Fisher/GLS does not establish nonlinear interval coverage.",
+    "MC applies fixed linear estimators at the true model, not a full likelihood refit.",
+    "The sign of a neglected correlation's effect depends on the fitted contrast."
+  ]
+}

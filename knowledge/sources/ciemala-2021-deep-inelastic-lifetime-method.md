@@ -88,6 +88,7 @@ M. Ciemała等，European Physical Journal A **57**, article156(2021)，DOI如�
 | CM21-19 | Publisher图14黄线为fulltargetsum初速度、绿线为first10layers；v1图17绿线则写midtarget。randomdepth以约60%abovebarrier/beamenergy~10%variation时crosssection近constant论证；ΔTKEL2MeV称与VAMOSenergyresolution一致。 | experimental-criterion | direct | publisherPDF pp.8–10, Sec.4.1/Fig.14; preprintPDF pp.9/11 Fig.17 | true |
 | CM21-20 | Publisher数据声明noassociateddata或不deposit，说明AGATAcollaboration ownership/DataPolicy；文章CC-BY4.0不授予events可访问性。 | experimental-fact | direct | publisherPDF p.16, Data Availability/Open Access | true |
 | CM21-21 | 正式版Ta6.64mg/cm²靶相对beam倾45°，VAMOS轴θg45°；接受约(θ,φ)=(±120,±200)mrad，即约(±6.9°,±11.5°)。实际不是1D共线/等effectivepath模型。 | experimental-fact | direct | publisherPDF pp.2–3, Sec.2 and Fig.2 | true |
+| CM21-22 | 正式版 Fig.9 对同数据作 after-target velocity/T 的 before-tuning 与 tuned 比较，报告 oxygen/carbon 的 velocity changes 为0.4%/0.7%，匹配已知γ nominal energies。这些是 tuning 幅度，不是 σβ 或初速度分辨率；本段未规定 whole-line mean、density mode 或具体 peak-fit objective。 | experimental-criterion | direct | publisherPDF p.7, Fig.9 caption and Sec.3.2.1 continuation; visual/text | true |
 
 ## Nuclear Structure Information
 

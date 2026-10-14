@@ -1,0 +1,521 @@
+{
+  "schema_version": 1,
+  "status": "complete-dependent-statistic-audit",
+  "kind": "dependent replay of velocity region definitions",
+  "previous_run": "outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity-run-01/velocity-nuisance-interval-exercise.json",
+  "previous_sha256": "c8e24b2a07e4a774be6a0cd25cfbf65efb0013432a28350a57a4da9fc9541a5d",
+  "wrong_fixed_cases": [
+    {
+      "coverage": [
+        {
+          "nominal_probability": 0.683,
+          "joint_pair": {
+            "successes": 258,
+            "repeats": 2000,
+            "observed_fraction": 0.129,
+            "MC_exact95_two_sided_interval": [
+              0.11461140726741323,
+              0.14448560273246824
+            ]
+          },
+          "one_interest_tau_profile": {
+            "successes": 1363,
+            "repeats": 2000,
+            "observed_fraction": 0.6815,
+            "MC_exact95_two_sided_interval": [
+              0.6605766493800688,
+              0.7018899402362304
+            ]
+          },
+          "joint_region_tau_projection": {
+            "successes": 1744,
+            "repeats": 2000,
+            "observed_fraction": 0.872,
+            "MC_exact95_two_sided_interval": [
+              0.8565614517095654,
+              0.8863385023316469
+            ]
+          },
+          "thresholds": {
+            "joint_two": 2.2977070102097144,
+            "profile_one": 1.00128406946906
+          }
+        },
+        {
+          "nominal_probability": 0.95,
+          "joint_pair": {
+            "successes": 766,
+            "repeats": 2000,
+            "observed_fraction": 0.383,
+            "MC_exact95_two_sided_interval": [
+              0.3616299803212538,
+              0.40471364550797573
+            ]
+          },
+          "one_interest_tau_profile": {
+            "successes": 1897,
+            "repeats": 2000,
+            "observed_fraction": 0.9485,
+            "MC_exact95_two_sided_interval": [
+              0.9378866139553728,
+              0.9577724878882076
+            ]
+          },
+          "joint_region_tau_projection": {
+            "successes": 1967,
+            "repeats": 2000,
+            "observed_fraction": 0.9835,
+            "MC_exact95_two_sided_interval": [
+              0.9769053016761622,
+              0.9886156416197649
+            ]
+          },
+          "thresholds": {
+            "joint_two": 5.991464547107979,
+            "profile_one": 3.841458820694124
+          }
+        }
+      ],
+      "numerical_failed_attempts": [
+        {
+          "index": 42,
+          "start": 1,
+          "message": "ABNORMAL: "
+        },
+        {
+          "index": 254,
+          "start": 0,
+          "message": "ABNORMAL: "
+        },
+        {
+          "index": 416,
+          "start": 1,
+          "message": "ABNORMAL: "
+        },
+        {
+          "index": 1109,
+          "start": 0,
+          "message": "ABNORMAL: "
+        },
+        {
+          "index": 1274,
+          "start": 1,
+          "message": "ABNORMAL: "
+        },
+        {
+          "index": 1327,
+          "start": 0,
+          "message": "ABNORMAL: "
+        }
+      ],
+      "profile_q_quantiles": [
+        0.44347299906289095,
+        1.0103991413631386,
+        4.04465768321269,
+        6.877502277598864
+      ],
+      "joint_q_quantiles": [
+        7.855226149608086,
+        11.29113422811344,
+        21.29886872978106,
+        28.287066708356768
+      ],
+      "count_per_angle": 25,
+      "repeats": 2000,
+      "counts_sha256": "fba22fcbc464f11323ad0b437d1f7f67fbc53ad7581010e3e5141ef5dc7c3156"
+    },
+    {
+      "coverage": [
+        {
+          "nominal_probability": 0.683,
+          "joint_pair": {
+            "successes": 0,
+            "repeats": 2000,
+            "observed_fraction": 0.0,
+            "MC_exact95_two_sided_interval": [
+              0.0,
+              0.0018427397934059364
+            ]
+          },
+          "one_interest_tau_profile": {
+            "successes": 964,
+            "repeats": 2000,
+            "observed_fraction": 0.482,
+            "MC_exact95_two_sided_interval": [
+              0.45989116260460433,
+              0.5041616812120671
+            ]
+          },
+          "joint_region_tau_projection": {
+            "successes": 1386,
+            "repeats": 2000,
+            "observed_fraction": 0.693,
+            "MC_exact95_two_sided_interval": [
+              0.6722630200298948,
+              0.7131696822277414
+            ]
+          },
+          "thresholds": {
+            "joint_two": 2.2977070102097144,
+            "profile_one": 1.00128406946906
+          }
+        },
+        {
+          "nominal_probability": 0.95,
+          "joint_pair": {
+            "successes": 0,
+            "repeats": 2000,
+            "observed_fraction": 0.0,
+            "MC_exact95_two_sided_interval": [
+              0.0,
+              0.0018427397934059364
+            ]
+          },
+          "one_interest_tau_profile": {
+            "successes": 1692,
+            "repeats": 2000,
+            "observed_fraction": 0.846,
+            "MC_exact95_two_sided_interval": [
+              0.8294254813919857,
+              0.8615530111207143
+            ]
+          },
+          "joint_region_tau_projection": {
+            "successes": 1861,
+            "repeats": 2000,
+            "observed_fraction": 0.9305,
+            "MC_exact95_two_sided_interval": [
+              0.9184608304626697,
+              0.9412574977666883
+            ]
+          },
+          "thresholds": {
+            "joint_two": 5.991464547107979,
+            "profile_one": 3.841458820694124
+          }
+        }
+      ],
+      "numerical_failed_attempts": [
+        {
+          "index": 46,
+          "start": 1,
+          "message": "ABNORMAL: "
+        },
+        {
+          "index": 87,
+          "start": 0,
+          "message": "ABNORMAL: "
+        },
+        {
+          "index": 317,
+          "start": 1,
+          "message": "ABNORMAL: "
+        },
+        {
+          "index": 776,
+          "start": 1,
+          "message": "ABNORMAL: "
+        },
+        {
+          "index": 826,
+          "start": 1,
+          "message": "ABNORMAL: "
+        },
+        {
+          "index": 1033,
+          "start": 1,
+          "message": "ABNORMAL: "
+        },
+        {
+          "index": 1070,
+          "start": 1,
+          "message": "ABNORMAL: "
+        },
+        {
+          "index": 1593,
+          "start": 1,
+          "message": "ABNORMAL: "
+        },
+        {
+          "index": 1673,
+          "start": 1,
+          "message": "ABNORMAL: "
+        },
+        {
+          "index": 1784,
+          "start": 1,
+          "message": "ABNORMAL: "
+        }
+      ],
+      "profile_q_quantiles": [
+        1.0929947212698607,
+        2.224954717851166,
+        6.75641739279199,
+        10.306116057017931
+      ],
+      "joint_q_quantiles": [
+        280.0877587112109,
+        299.4801404827274,
+        345.3241169987288,
+        377.9665485655692
+      ],
+      "count_per_angle": 1000,
+      "repeats": 2000,
+      "counts_sha256": "ba725b6a07c471759e5348b35ff43e0a8cd06b0bbe6dd9ef6f51ecb3d15fb4d8"
+    }
+  ],
+  "calibrated_cases": [
+    {
+      "coverage": [
+        {
+          "nominal_probability": 0.683,
+          "joint_pair": {
+            "successes": 1377,
+            "repeats": 2000,
+            "observed_fraction": 0.6885,
+            "MC_exact95_two_sided_interval": [
+              0.6676883621870023,
+              0.7087576025773866
+            ]
+          },
+          "one_interest_tau_profile": {
+            "successes": 1406,
+            "repeats": 2000,
+            "observed_fraction": 0.703,
+            "MC_exact95_two_sided_interval": [
+              0.6824370457276809,
+              0.7229661732581094
+            ]
+          },
+          "joint_region_tau_projection": {
+            "successes": 1756,
+            "repeats": 2000,
+            "observed_fraction": 0.878,
+            "MC_exact95_two_sided_interval": [
+              0.8628500235256623,
+              0.892031683709351
+            ]
+          },
+          "thresholds": {
+            "joint_two": 2.2977070102097144,
+            "profile_one": 1.00128406946906
+          }
+        },
+        {
+          "nominal_probability": 0.95,
+          "joint_pair": {
+            "successes": 1897,
+            "repeats": 2000,
+            "observed_fraction": 0.9485,
+            "MC_exact95_two_sided_interval": [
+              0.9378866139553728,
+              0.9577724878882076
+            ]
+          },
+          "one_interest_tau_profile": {
+            "successes": 1896,
+            "repeats": 2000,
+            "observed_fraction": 0.948,
+            "MC_exact95_two_sided_interval": [
+              0.9373432320662913,
+              0.9573175602026627
+            ]
+          },
+          "joint_region_tau_projection": {
+            "successes": 1977,
+            "repeats": 2000,
+            "observed_fraction": 0.9885,
+            "MC_exact95_two_sided_interval": [
+              0.9827940518936594,
+              0.9926964059578242
+            ]
+          },
+          "thresholds": {
+            "joint_two": 5.991464547107979,
+            "profile_one": 3.841458820694124
+          }
+        }
+      ],
+      "numerical_failed_attempts": [
+        {
+          "index": 122,
+          "start": 0,
+          "message": "ABNORMAL: "
+        },
+        {
+          "index": 199,
+          "start": 1,
+          "message": "ABNORMAL: "
+        },
+        {
+          "index": 443,
+          "start": 1,
+          "message": "ABNORMAL: "
+        },
+        {
+          "index": 598,
+          "start": 0,
+          "message": "ABNORMAL: "
+        },
+        {
+          "index": 1128,
+          "start": 1,
+          "message": "ABNORMAL: "
+        },
+        {
+          "index": 1262,
+          "start": 1,
+          "message": "ABNORMAL: "
+        },
+        {
+          "index": 1270,
+          "start": 1,
+          "message": "ABNORMAL: "
+        },
+        {
+          "index": 1414,
+          "start": 0,
+          "message": "ABNORMAL: "
+        },
+        {
+          "index": 1776,
+          "start": 1,
+          "message": "ABNORMAL: "
+        },
+        {
+          "index": 1967,
+          "start": 0,
+          "message": "ABNORMAL: "
+        }
+      ],
+      "profile_q_quantiles": [
+        0.4416194239432514,
+        0.943263467204259,
+        3.904004601069775,
+        6.1536758365528526
+      ],
+      "joint_q_quantiles": [
+        1.338827913358699,
+        2.2542539012477856,
+        6.083298162195455,
+        8.728924353925134
+      ],
+      "count_per_angle": 25,
+      "repeats": 2000,
+      "counts_sha256": "cfac2e207d4f4d68027a6a52bc18e2c28494879af539c1b006760c63af182323",
+      "beta_observation_sha256": "80adb0437f16f0a1496d2df5473b83d2ae530441d4b20faed2f9a84c34f917b6"
+    },
+    {
+      "coverage": [
+        {
+          "nominal_probability": 0.683,
+          "joint_pair": {
+            "successes": 1404,
+            "repeats": 2000,
+            "observed_fraction": 0.702,
+            "MC_exact95_two_sided_interval": [
+              0.6814191328492308,
+              0.7219870351791182
+            ]
+          },
+          "one_interest_tau_profile": {
+            "successes": 1361,
+            "repeats": 2000,
+            "observed_fraction": 0.6805,
+            "MC_exact95_two_sided_interval": [
+              0.6595611251170816,
+              0.7009084103612604
+            ]
+          },
+          "joint_region_tau_projection": {
+            "successes": 1742,
+            "repeats": 2000,
+            "observed_fraction": 0.871,
+            "MC_exact95_two_sided_interval": [
+              0.8555143972675318,
+              0.8853885927325867
+            ]
+          },
+          "thresholds": {
+            "joint_two": 2.2977070102097144,
+            "profile_one": 1.00128406946906
+          }
+        },
+        {
+          "nominal_probability": 0.95,
+          "joint_pair": {
+            "successes": 1913,
+            "repeats": 2000,
+            "observed_fraction": 0.9565,
+            "MC_exact95_two_sided_interval": [
+              0.9466174011066275,
+              0.9650141371532314
+            ]
+          },
+          "one_interest_tau_profile": {
+            "successes": 1900,
+            "repeats": 2000,
+            "observed_fraction": 0.95,
+            "MC_exact95_two_sided_interval": [
+              0.9395182779168482,
+              0.9591357322817486
+            ]
+          },
+          "joint_region_tau_projection": {
+            "successes": 1971,
+            "repeats": 2000,
+            "observed_fraction": 0.9855,
+            "MC_exact95_two_sided_interval": [
+              0.979241520698723,
+              0.9902681877092329
+            ]
+          },
+          "thresholds": {
+            "joint_two": 5.991464547107979,
+            "profile_one": 3.841458820694124
+          }
+        }
+      ],
+      "numerical_failed_attempts": [
+        {
+          "index": 346,
+          "start": 0,
+          "message": "ABNORMAL: "
+        }
+      ],
+      "profile_q_quantiles": [
+        0.4371883247013102,
+        1.010978114813037,
+        3.8350500484201797,
+        6.479423700353872
+      ],
+      "joint_q_quantiles": [
+        1.3576673447341818,
+        2.1914469831804655,
+        5.755278598243148,
+        8.771489502588974
+      ],
+      "count_per_angle": 1000,
+      "repeats": 2000,
+      "counts_sha256": "526b1e7bb1d62889e44f30c967bbc65f92c48da43d3950d1ef6f88da4f689294",
+      "beta_observation_sha256": "ba571648616ec50730739af67ad04f0d0182c887edc47ceb511631a414238ad1"
+    }
+  ],
+  "independent_evidence": false,
+  "MC_interval_definition": "95% two-sided Clopper-Pearson for the Monte Carlo success fraction only",
+  "boundaries": [
+    "Same simulated count streams, not additional independent experiments.",
+    "Joint pair coverage differs from one-interest tau profile and projection of the joint region.",
+    "Zero observed successes are reported as0/R with a finite exact binomial upper bound.",
+    "No source confidence definition or actual beta systematic is reassigned."
+  ],
+  "verification": {
+    "previous_joint_result_reproduced": true,
+    "calibrated_counts_and_measurement_hashes_match": true,
+    "profile_q_never_exceeds_joint_truth_q": true,
+    "all_passed": true
+  },
+  "dependencies": {
+    "analysis_script_sha256": "4b27a453ce6ba7654232b536a0cb91f5c269a9455eca55f4c7b4b254ea580d45"
+  }
+}

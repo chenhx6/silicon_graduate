@@ -1,0 +1,25 @@
+{
+  "now_local": "2026-10-14T14:41:39.538817+08:00",
+  "minutes_to_deadline": 18.341019716666665,
+  "status": "research-active-finishing-current-analysis",
+  "writeback_items": 154,
+  "mapped_paths": 32,
+  "completed_current_outputs": [
+    "finite-bin-lineshape-exercise.json",
+    "shared-background-covariance-exercise.json",
+    "finite-template-covariance-exercise.json",
+    "adaptive-bin-observation-exercise.json",
+    "event-overlap-information-exercise.json",
+    "nonlinear-interval-closure-exercise.json",
+    "velocity-nuisance-interval-exercise.json",
+    "velocity-region-semantics-exercise.json",
+    "long-control-velocity-estimator-exercise.json",
+    "calibration-applicability-audit-exercise.json"
+  ],
+  "decision": "finish source/model/independence/readiness synthesis; no new source or card",
+  "no_new_credit": true,
+  "course_state": "next14/count13 unchanged; completed13/partial14",
+  "remaining_current_work": "final claim/dependency audit, impact/readiness synthesis and timed closeout",
+  "research_cutoff": "2026-10-14T15:00:00+08:00",
+  "resume_command": "codex resume 01a13489-64ba-7930-9a2c-291375d95ad0 -C /workspace/wiki -s danger-full-access -a never"
+}

@@ -1,0 +1,48 @@
+{
+  "now_local": "2026-10-14T15:04:21.971452+08:00",
+  "hard_deadline": "2026-10-14T15:00:00+08:00",
+  "minutes_to_deadline": -4.366190866666667,
+  "decision": "closeout-only",
+  "current_problem": "Day13 Doppler statistical/velocity validation",
+  "completed_current_analysis": "ten declared analyses plus source/model/independence/readiness synthesis",
+  "candidate_pool": [
+    {
+      "id": "currentboundedstatisticalvelocity",
+      "status": "completed",
+      "next": "publish alreadyverified code/knowledge/report; no newresearch"
+    },
+    {
+      "id": "actual20Orefit",
+      "status": "not-ready",
+      "gap": "events/response/sharedcovariance/productioncode/TKEL-depth-feeding/calibrationobjective"
+    },
+    {
+      "id": "Day14",
+      "status": "existinguncreditedpreview",
+      "credit": "formalnext-runrequired"
+    },
+    {
+      "id": "Day15",
+      "status": "notstudied-or-credited",
+      "note": "scopeincident recorded; no researchroute"
+    }
+  ],
+  "course_state": "next14/count13 preserved",
+  "completed_day_indices": [
+    13
+  ],
+  "partial_day_indices": [
+    14
+  ],
+  "no_new_credit": true,
+  "closure_basis": "harddeadline, not local evidence saturation",
+  "session_id": "01a13489-64ba-7930-9a2c-291375d95ad0",
+  "resume_command": "codex resume 01a13489-64ba-7930-9a2c-291375d95ad0 -C /workspace/wiki -s danger-full-access -a never",
+  "scope_self_audit": {
+    "incident": "During restoration, matrix sed116–140 incidentally displayed Day15 heading and its recall line after Day14.",
+    "boundary": "Not a deliberate card selection; no Day15 active recall/exercise/source/preview/research or credit.",
+    "correction": "Use only Day13/previously permitted Day14 identifiers; no further card opening; precise no-Day15-study wording.",
+    "acknowledged_at": "2026-10-14T14:55:58.014776+08:00",
+    "preserved_original_objective": true
+  }
+}

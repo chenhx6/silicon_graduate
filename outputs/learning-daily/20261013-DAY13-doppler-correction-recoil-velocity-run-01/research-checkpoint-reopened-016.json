@@ -1,0 +1,20 @@
+{
+  "now_local": "2026-10-14T12:20:43.013819+08:00",
+  "minutes_to_deadline": 159.28310301666667,
+  "status": "research-active",
+  "writeback_items": 133,
+  "mapped_paths": 32,
+  "completed_bounded_routes": [
+    "finite-bin integral/midpoint/rebin/Fisher/independent-event-MC",
+    "shared-off covariance/joint-Poisson local information/independent count-MC"
+  ],
+  "current_route": "finite-template-covariance",
+  "source_locator_gap": "Barlow-Beeston identity verified; full text not yet obtained; no primary method claims",
+  "experimental_refit_gap": "original events/templates/response/chi-square grid/covariance/caller version absent",
+  "decision": "continue-current-Day13-using-verified-synthetic-kernel",
+  "course_state": "next14/count13 unchanged; completed13/partial14",
+  "clock_event_ack": "checkpoint-001 actually observed; daemon not restarted",
+  "next_action": "weighted normalized templates and common event covariance; finiteN controls",
+  "no_new_credit": true,
+  "resume_command": "codex resume 01a13489-64ba-7930-9a2c-291375d95ad0 -C /workspace/wiki -s danger-full-access -a never"
+}

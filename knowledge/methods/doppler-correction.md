@@ -1079,3 +1079,278 @@ NP19-1/2/3/4/5：constructor第一token设Beam，第二Target；API轻粒子kine
 最后genericm1=20u/m2=2u/m3=1u/m4=21u+5MeV的endothermic例，在Tbeam10MeV时labtotalenergy必要条件满足，但s<(m3+m4)²；exactlabthreshold55.00671MeV。它限定旧IsAllowedhelper的证明力，不称实际(d,p)case调用错误或当前软件同样实现。
 
 上述on-shell、unit/path和thresholdsanity检查通过，数据/公式同步在本页；run-dir的nptool-object-contract-physics-check.json只作回执。源码字节/hash、单位/header和函数locator已固定，实际实验caller/校准/transport/rawdata未取得；L3objectaudit和L4experimentalrefit分别记录。
+
+## 有限能量 bin：积分、边界与重分 bin
+
+[[baker-cousins-1984-histogram-fits]] BC84-2（报告 PDF pp.4–5, Eq.(1)）规定预测为 bin 内积分。下面是本任务的合成 Doppler 练习，[代码](../../system/scripts/day13_finite_bin_lineshape.py)复用已声明的 entry/feeding 核；没有取得原实验 bin、计数或模板。
+
+对 Gaussian 混合中心 μ_k、概率 w_k、宽度 σ，固定 bin [l_i,h_i) 的预测为
+
+`P_i = Σ_k w_k [Φ((h_i−μ_k)/σ)−Φ((l_i−μ_k)/σ)]`。
+
+ROI 内固定入选总数时，使用 `p_i=P_i/Σ_ROI P_i`；中点式 `f((l_i+h_i)/2) Δ_i` 即使再归一化，也未必恢复正确 shape。变动 ROI 后须重新计算条件分母；若利用丢失的计数，则还需要总 trials、效率和 extended likelihood。正尾的两个 CDF 接近 1 时，应改用 survival 差计算，避免数值相消。
+
+自设 E0=2396.1 keV、proper τ=70 fs，已知 entry feeding fraction 0.2、upper τ=54 fs，β 从 0.126 在 0.4 ps 内线性降到 0.08；point angles 为 130/150/170°，exit-reference 校正后 Gaussian σ=2 keV。各角度以等权的**期望条件直方图**联合拟合 τ/E，没有背景或抽样拟合。
+
+| bin 宽度 / keV | 边界移动 / bin 宽度 | 错中点式最佳 τ / fs | 最佳 E0 / keV | 残余平均 KL / 入选光子 |
+|---:|---:|---:|---:|---:|
+| 0.5 | 0 | 70.014943 | 2396.096521 | 2.642×10⁻7 |
+| 2 | 0 | 70.238819 | 2396.044369 | 6.405×10⁻5 |
+| 5 | 0 | 71.144513 | 2395.877434 | 0.001545 |
+| 10 | 0 | 77.014502 | 2396.269236 | 0.019129 |
+| 20 | 0 | 80.317373 | 2394.446523 | 0.064912 |
+| 20 | 0.5 | 72.881943 | 2393.920386 | 0.018178 |
+
+固定主 ROI 为 E0+[−140,+20] keV；最后一行整体移动 10 keV，仍覆盖几乎全部此模型概率，各行各自条件化。因此最后两行说明边界敏感性，不等于用完全相同入选样本做了两次独立实验。所有精确积分拟合恢复 τ70 fs，最大误差 6.4×10⁻7 fs；三次起点的 flags 保留，不以此证明全局唯一性。数值方向依赖这套输入，不能套成 ZA23 的寿命偏差。
+
+### 正确积分也不能恢复粗 bin 丢失的信息
+
+固定同一 ROI、对齐边界时，细 bin 概率相加等于粗 bin 概率。本例最大差 1.2×10⁻16；对非均匀 bin 的独立连续积分差 6.7×10⁻16。它们核验实现一致性，同事件的重分 bin 不提供独立证据。
+
+条件概率的局部 Fisher 矩阵为 `F_ab=N Σ_i (∂_a p_i)(∂_b p_i)/p_i`。对齐合并的粗 bin 只有细 bin 的信息或更少；本例对 (lnτ,E0) 数值验证 `F_fine−F_coarse` 为正半定。每角度自设 N=10000 时：
+
+| bin 宽度 / keV | τ 局部标准误差 / fs | E0 局部标准误差 / keV |
+|---:|---:|---:|
+| 0.5 | 0.475723 | 0.042688 |
+| 5 | 0.484338 | 0.048339 |
+| 10 | 0.517248 | 0.068929 |
+| 20 | 0.559019 | 0.094268 |
+
+这些是已知 response/feeding/transport 下的局部设计值，不是实际寿命误差或有限样本 coverage。细化到 1/0.5/0.25 keV 时，中点与积分的 total variation 递减；无减速时恢复单 Gaussian。独立生成 600000 个 proper-time/feeding/能量事件，以角 beaming 权重计算 5-keV bin 概率，最大标准化差约 2.46。首次 ImportError 在分析前修复，失败记录保留。
+
+这组练习支持保存精确 bin edges、固定或数据依赖 rebin 规则、ROI 和条件分母；完整 shape 的残余差或边界稳定性可反证过粗的中点实现。它没有提供实际代码 binding、背景、模板统计量或 source 的 χ²/区间，实验 L4 readiness 不变。
+
+## 共用背景观测如何连接 bin 与角度组
+
+BC84-4/5 的 Poisson/counting-model 区分为方法背景；以下共享背景关系由本任务推导，**不是 BC84 或核实验报告的具体 sideband 实现**。[代码](../../system/scripts/day13_shared_background_covariance.py)使用两个互不重叠的 on 计数流，以及一份独立 off 总计数。两个 on 谱的信号 shape 来自前述已声明的合成核，背景 shape q_i 在此例中严格已知。
+
+设 `D_gi~Poisson(A_g p_gi+q_i B)`，`M~Poisson(rB)`，所有 D 和 M 条件独立；A_g 为各组入选信号期望数，B 为各组背景期望数，r 为已知 off/on exposure。两个组共享同一估计 `Bhat=M/r`，扣除后的 `Y_gi=D_gi−q_i Bhat` 因而满足
+
+`Cov(Y_gi,Y_hj)=δ_gh δ_ij (A_g p_gi+q_i B)+(B/r) q_i q_j`。
+
+后一项在同组跨 bin、跨组之间均存在，不是新独立计数。扣除后的数值也可为非整数或负数，不能直接当独立 Poisson bin。此例 on 流没有事件重叠；实际共用 γ 门还需另加事件重叠产生的协方差。
+
+### 联合 on/off 信息与局部误差传播
+
+联合 likelihood 是 `∏_gi Pois(D_gi;A_g p_gi+q_i B) × Pois(M;rB)`。在真值处令 D 为 on 计数协方差、Q 为背景 shape 堆叠向量、J 为信号均值的导数，profile 掉 B 的局部 Fisher 矩阵等于
+
+`Jᵀ [D+(B/r)QQᵀ]⁻¹ J`。
+
+这来自 Schur complement/Woodbury 恒等式，验证的是本模型的局部信息；固定真值权重的 GLS 并不替代有限样本非线性 likelihood 或 coverage 检查。若用对角权重 W 拟合，实际线性估计器协方差为 `L C_full Lᵀ`，`L=(JᵀWJ)⁻¹JᵀW`；只报 `(JᵀWJ)⁻¹` 会遗漏已声明的交叉项。
+
+自设 150/170° 两组，各 A_g=10000、B=4000，5-keV bin、E0+[−100,+10] keV ROI；q 是20%均匀加80%宽 Gaussian 的已知条件 shape。拟合参数为 lnτ、E0 和两组自由 lnA_g，真 τ70 fs。以下均为局部标准误差，单位 fs：
+
+| off/on exposure r | 完整 C 的最佳局部 GLS | 对角权重估计器报告值 | 同一对角估计器按真实 C 传播 |
+|---:|---:|---:|---:|
+| 0.25 | 1.222987 | 0.856819 | 1.460071 |
+| 1 | 0.997956 | 0.832553 | 1.029839 |
+| 4 | 0.877933 | 0.826071 | 0.880633 |
+
+r=0.25 时，漏掉交叉项使该对角估计器的 τ 方差低估约2.904倍；这不是原实验误差的修正系数。r→∞ 时，共享 off 不确定度消失，on 计数噪声仍保留。联合 Poisson profile 与完整 C 的局部参数协方差差<5.3×10⁻18。
+
+独立生成120000组 on/off 计数，并应用**固定真值处的线性估计器**，完整和对角估计器的实际方差与公式最大相对差分别约0.338%和0.254%；约2.22%的扣除后 bin 数值为负。没有做原实验或全非线性 τ 拟合。
+
+### 忽略相关项不保证同一方向的偏差
+
+设两个量各有独立 variance v=100、共有误差 variance c=400，完整 covariance 的两行为 `(v+c,c)` 和 `(c,v+c)`。差的 variance 为2v=200，对角近似却给1000；和的 variance 为2v+4c=1800，对角近似给1000。相关项对不同线性组合可以抵消或增强，不能泛称“忽略 covariance 一律低估所有误差”。
+
+真实分析须保存各 on/off 观测身份、是否共享事件、transfer/exposure、背景 shape 的不确定度与能量依赖。用独立 off 数据或改变共享关系可以反证本例的 rank-one 项；若 q、r 或背景成分未知，则需扩展模型。多角度投影和背景重复引用不增加实验独立性，原 ²⁰O L4 重拟合仍缺输入。
+
+## 有限模板与共同模拟事件的协方差
+
+BC84-2/9 提供 bin/有限样本的方法背景；以下 weighted-template 关系为本任务推导。[代码](../../system/scripts/day13_finite_template_covariance.py)用已声明的 proper-time/feeding/response 核生成模板，不使用原实验或 Geant4 模板库。Barlow–Beeston1993 的身份已核但全文未取得，未将本节归作该论文公式或实现。
+
+对 N 个独立生成事件，记 `r_i=w·1{event in bin i}`、`u=w·1{event in ROI}`，归一化概率估计为 `qhat_i=Σr_i/Σu`。令 `q_i=E[r_i]/E[u]`、`z_i=(r_i−q_i u)/E[u]`，则 delta method 的 leading covariance 为
+
+`Cov(qhat_i,qhat_j)≈E[z_i z_j]/N`。
+
+这是 ratio estimator 的 1/N 近似，不保证有限 N 无偏。Σ_i z_i=0，归一化方向没有方差，完整概率 covariance 因此有约束/零方向；不能把各 bin 概率一概当独立测量直接反演该矩阵。固定**入选**N的无权重模板退化为 `(diag q−qqᵀ)/N`。固定生成数且有 ROI 丢失时还需入选率，不能把 generated N 与 selected N 混用。
+
+### 参数扫描点共用随机数时的交叉项
+
+若 lifetime hypotheses a、b 共用同一批 base variates，其 cross covariance 为 `C_ab≈E[z_a z_bᵀ]/N`。因此
+
+`Cov(qhat_b−qhat_a)=C_b+C_a−C_ab−C_abᵀ`。
+
+自设 150°、5-keV bin、τ_a70fs/τ_b72fs，其余输入与有限 bin 练习相同；直接等待、feeding tag/上态等待和 Gaussian noise 均共用。每份模板 N=2000 时，差值 covariance 的 trace 为独立模板条件下的约0.10816，8000组独立模板库测得0.10866。共用随机数减少差值噪声，同时使扫描点相关；它没有增加独立生成事件数。
+
+同一个 hypothesis 与同样事件重放时，差值严格为零，但单个模板仍有有限误差。此例主 bin 的 p≈0.187031，其概率标准误差≈0.008675。故相邻模板差平滑或同版本 replay 一致，不证明 template truth 或无限统计量。
+
+### 模板误差进入数据比较的条件
+
+若入选数据 N_d 与模拟事件独立，固定 N_d 的计数 covariance 为 `C_data=N_d(diag p−ppᵀ)`；在已声明的 leading 近似下，预测 `N_d qhat` 的模板 covariance 为 `C_template=N_d² E[zzᵀ]/N_MC`。数据减预测时二者相加；若模拟/校准利用同一数据，则还需其 cross 项。
+
+以自设 N_d=10000 和真值处的 lnτ score 为一个固定投影，仅改变生成模板数：
+
+| N_MC | 计入模板误差后的投影 SD / 只算数据 SD |
+|---:|---:|
+| 1000 | 3.363854 |
+| 2000 | 2.481483 |
+| 10000 | 1.425325 |
+| 100000 | 1.050312 |
+
+这不是 τ 拟合标准误差、区间膨胀系数或源实验的 MC 统计预算。它只展示此 score 投影下的独立数据/模板噪声；N_MC→∞ 恢复数据项。权重、ROI、模拟分配和 data-dependent tuning 改变时需重算。
+
+800000个独立 pilot 事件估计协方差矩，另8000组每组2000事件的模板库核验 a/b/shared-difference/independent-difference 的 covariance，Frobenius 相对差约3.4–4.1%。同 hypothesis 差为零、归一化零方向、无权重 fixed-selected-N 和无限模板极限通过。输入、两套 seed 与 dependency hash 保存于代码/运行回执；上述不是实际模板库复现。
+
+必要实验输入是生成与入选数、权重、参数点间 event IDs/seeds、归一化/ROI、response 和 data-calibration 依赖。共同事件的交叉项若被独立 bank 替换，就应消失；这提供可检验控制。可靠 smoothing 或额外模拟可改善特定估计器，但不能通过重复同一事件使独立样本数增长。
+
+## 自适应 bin 边界也是观测的一部分
+
+ZA23-10 报告 rebin 后每 bin 至少10计数，实际细节未取得。BC84-2/4/9 提供 histogram/counting/finite-N 方法背景；下例为本任务自设规则，不复制 ZA23，也不以它判断原结果有偏。[代码](../../system/scripts/day13_adaptive_bin_observation.py)只拟合抽象 shape fraction p，不是 τ 或 branching ratio。
+
+每个独立小直方图固定有 N=40 个光子，两个原始 bin 的计数为 X 和 N−X，`X~Binomial(N,p)`。若 `10≤X≤30` 则保留两 bin，否则合并为单一40计数的 bin。最终所有输出 bin 都≥10，但“保留/合并”的边界由同一数据选择。
+
+合并输出的概率为 `m(p)=P_p(X<10)+P_p(X>30)`。完整观测 likelihood 包含保留组的原计数，以及每个合并决定的 m(p)；并非把合并组写成总概率1就已保留全部观测。若实验含 K 个保留组、C 个合并组、保留第一 bin 总计数 S，除参数无关常数外：
+
+`log L(p)=S log p+(40K−S) log(1−p)+C log m(p)`。
+
+若忽略最后一项，把随机边界当固定，估计为 `p_naive=S/(40K)`，只利用被截断选择的计数。true p=.25 时，其大样本极限为
+
+`p × P(9≤Binomial(39,p)≤29) / P(10≤Binomial(40,p)≤30) = 0.298296581`。
+
+这是规则/分布的精确期望，不因所有输出 bin≥10而消失。完整观测 likelihood 在期望数据上的最佳值为0.250000000002；若只保留被选组且条件化，则需要另一明确的 selection normalizer，不能混用这两种观察设计。
+
+自设每次实验64个独立小直方图，8000次重复：
+
+| 估计对象/观测方式 | p估计的 MC mean | MC standard deviation |
+|---|---:|---:|
+| 忽略边界规则 | 0.298259 | 0.007652 |
+| 完整“计数+合并决定”likelihood | 0.249663 | 0.009147 |
+| 全部原始两 bin 计数 | 0.249834 | 0.008519 |
+| 独立 pilot 选择边界，随后独立 science counts | 0.249975 | 0.011679 |
+
+完整模型在有限64组下不被宣称精确无偏；MC mean 与真值仍有约−0.000337的差，未验证 interval coverage。独立 pilot 控制中，science counts 不再受同一选择截断，但也不保证最终 science bin 都≥10。p=.5 的对称控制使本例 naive 大样本偏差为零，说明规则影响依赖 shape。
+
+观测概率归一化、期望模型真值恢复、1061种实际整数统计量的粗网格优化对照、独立 pilot 和对称控制通过；不以这些 checks 证明任意输入的全局唯一最大值。真实 rebin 可能采用其它算法/规则，应保存细 bin 原计数、输出 edges 和选择过程，或通过完整算法的 pseudoexperiments 核验。这个例子不能给实际 Doppler τ 的偏差方向。
+
+## 共享事件、总计数设计与重放的信息
+
+BC84-2/4 区分 fixed-N 与 Poisson 采集；下面的 event-mark covariance 为本任务推导，[代码](../../system/scripts/day13_event_overlap_information.py)使用已声明的合成单光子线形。实际多光子事件、权重、门重叠和背景须另给 event marks，未复现任何来源的独立性处理。
+
+设 H_i=Σ_events h_i(event)。固定独立事件数 N 时，`Cov(H_i,H_j)=N[E(h_i h_j)−E(h_i)E(h_j)]`；若独立总数为 Poisson(λ)，law of total covariance 给 `Cov(H_i,H_j)=λE(h_i h_j)`。
+
+互斥单光子 bin 在 Poisson 采集中可独立 thinning；fixed N 则有负交叉项。两门 A/B 有重叠概率 p_AB 时，Poisson covariance 为 λp_AB，fixed-N covariance 为 N(p_AB−p_Ap_B)。不能只凭“两张投影”判断独立，或凭存在共有总N就给 Poisson 互斥 bin 添加 fixed-N 交叉项。
+
+自设平均/固定10000事件、150°，门 E0+[−70,−20]和E0+[−50,−5] keV，p_A≈.241749、p_B≈.081529、p_AB≈.0718335。Poisson/fixed-N 两门 covariance 分别约718.335/521.239 count²；150000重复的 covariance 矩阵与公式相对差约0.478%/0.289%。互斥控制也验证 Poisson cross=0、fixed N cross<0。
+
+### 同一事件的不同粗投影可细化观测
+
+对同一 point angle，把 photon 分别以 fixed β_ref=.08/.10 校正，只使能量乘已知 factor1.0180442。同一光子在两 histogram 中的 joint-bin 概率来自原能量区间的交集，cross covariance 不为零。两种 monotone 映射和同一样本已知时，结合 cumulative counts 可恢复两套边界的联合细分；这能取回单个粗投影丢失的分辨信息，但没有增加 raw events。
+
+此例两投影在共同原能量 ROI 内各29 bins，边界联合为57 bins。每组同一10000光子的局部 τ/E0 标准误差为：
+
+| 观测/计算方式 | τ SE / fs | E0 SE / keV |
+|---|---:|---:|
+| 单独投影A | 0.834595 | 0.085657 |
+| 单独投影B | 0.832294 | 0.084319 |
+| 联合细分边界的一份观测 | 0.825051 | 0.079154 |
+| 错当A/B完全独立，直接加Fisher信息 | 0.589322 | 0.060090 |
+
+精确 bin 概率与 Fisher refinement 控制验证联合细分的信息不少于任何单个投影；本例的独立加法则过高。同样的 Poisson 总数被两次显示时，总数差 variance 为0，和的 variance 为40000，而独立近似给20000。正确 covariance、零方向和极限检查通过。
+
+这些是已知 transport/response/feeding 的局部设计，不是实际 τ 区间。若 raw events 本来完整保留，确定性 replay 不增加它们包含的信息；若只剩粗 summaries，额外投影可能改善 summaries 的分区。事件 ID、共同样本/ROI、校正映射与门定义应保留，独立 detector 或 line 标签也不能替代 acquisition 谱系核对。
+
+## 非线性 τ/E 区域：有限计数、边界与不可识别极限
+
+BC84-1/5/9 区分点估计、区间和有限样本性质；以下 nonlinear-count closure 为本任务分析，[代码](../../system/scripts/day13_nonlinear_interval_closure.py)没有重标 ZA23/CI20/CM21 的置信定义。它采用已声明的指数 proper-time/线性β history 核，这次设**无馈入**，Gaussian σ2keV和三 point angles严格已知；各角度固定入选数，固定5-keV bins和 ROI，不包含源实验 nuisance。
+
+Likelihood 为各组 conditional multinomial。拟合 (lnτ,E0)，自设 τ domain20–250fs、E0 shift±8keV；20fs下界只是数值模型的边界控制，不是物理最小寿命或 source prior。联合 region 的统计量是 `q=2[log L(hatτ,hatE)−log L(τ_true,E_true)]`，不是 τ轴的投影/一参数 profile。
+
+Regular、可识别、真值在 domain 内部的二维局部 Gaussian 极限才给 χ²2。若真值位于一个光滑 lower-bound、另一方向可自由变化，whitened score 在半平面的投影给 `0.5 χ²1+0.5 χ²2`。无减速时 shape 不依赖 τ，只有 E 可识别，则相应 regular energy 极限为 χ²1；任意数值τ输出都没有寿命意义。
+
+以 χ²2 的 68.3%/95% 阈值2.297707/5.991465比较，每场景2000独立计数实验：
+
+| 自设场景 | 每角度入选数 | 68.3%二维阈值的实测覆盖 | 95%二维阈值的实测覆盖 |
+|---|---:|---:|---:|
+| 内部真τ70fs | 25 | 0.6760 | 0.9390 |
+| 内部真τ70fs | 1000 | 0.6950 | 0.9530 |
+| 真τ20fs在自设下界 | 25 | 0.7995 | 0.9755 |
+| 真τ20fs在自设下界 | 1000 | 0.7810 | 0.9735 |
+| 无减速，τ不可识别 | 1000 | 0.8610 | 0.9860 |
+
+下界局部 mixture 在这两个阈值的概率为0.776717/0.967812；无减速的一维概率为0.870435/0.985625。覆盖的 MC standard errors 已保存在回执，68.3%列约0.0077–0.0105；有限计数的偏离须连同 MC 误差评估，不宣称普遍精确的 χ² calibration。内部场景增加统计量的结果与 regular 模型相容，不能把相容当作 source 的全部 nuisance 已验证。
+
+每次拟合使用两起点，动态场景再用 coarse τ/E bank 核 minimum；无减速只检验 energy fit 和寿命梯度为零。个别 optimizer 起点失败保留：下界1000计数场景有18/21次两个起点分别失败，其中11次用 Powell 恢复。所有计数实验最终有可核结果，没有按失败状态剔除 experiment，也不称所有起点成功。
+
+解析 τ/E gradient 与有限差分最大差2.4×10⁻9，和既有无馈入核的 bin probability 差1.7×10⁻16，128/256 quadrature差2.2×10⁻14；无减速 τ独立检查通过。各场景计数数组用 seed131431、顺序/shape/dtype/hash可再生；拟合本身不消耗随机数。
+
+这一结果支持把拟合 domain、可识别性、joint/profile定义、完整 nuisance 和 finite-count closure 一起保存。它未测试真实 feeding/背景/模板统计或执行版本，局部 covariance 或某个“68.3%”标签均不能单独证明实际 τ 区间覆盖率。
+
+## 速度 nuisance：正确统计量仍须正确的 forward model
+
+[[baker-cousins-1984-histogram-fits]] BC84-1/5/9 给出统计方法背景，ZA23-2 与 CM21-15/16/22 提供入口重建、晚速度校准的来源语境。以下[分析](../../system/scripts/day13_velocity_nuisance_interval.py)延续无馈入 τ70fs/E0=2396.1keV 的合成核，不测 source 的 β误差或 τ偏差。
+
+生成 β_in=.126、exit reference=.08，拟合时错误固定 β_in=.125；其余时间 history、point angles、5-keV bin、Gaussian corrected σ2keV 已知。在期望数据上，错模型的 pseudo-true τ≈71.426680fs、E0 shift≈−2.013528keV。它主要偏移 E0，并不以这个值解释实际20O的150/70fs差异。
+
+另一模型把入口 β作为一个**全局 nuisance**，并加一份独立、无偏的 Gaussian observation `Yβ~N(β_in,σβ²)`，自设σβ=.001。Likelihood 同时含 γ conditional counts 和 `(Yβ−β_in)²/(2σβ²)`；它不是每事件速度重建，不是从相同γ计算的 getter，也没有使用 source 的 tuning 幅度作为σβ。True τ/E region 的比较在两端都 profile 掉该 nuisance。
+
+每场景2000实验，用二维68.3%/95%阈值：
+
+| 模型 | 每角度入选数 | τ/E 联合真值覆盖，68.3%阈值 | τ/E 联合真值覆盖，95%阈值 |
+|---|---:|---:|---:|
+| 错误固定入口β | 25 | 0.1290 | 0.3830 |
+| 错误固定入口β | 1000 | 0/2000 | 0/2000 |
+| 入口β nuisance +独立观测 | 25 | 0.6885 | 0.9485 |
+| 入口β nuisance +独立观测 | 1000 | 0.7020 | 0.9565 |
+
+0/2000不证明真实 coverage 为零；该 MC fraction 的95%双侧精确二项区间上界约0.001843。其余 MC intervals 也由下面的同数据审核保存。正确模型下的观察值与标称概率在 MC 误差尺度上相容，不能以此验证 source 的真实模型、velocity calibration 或所有 nuisance。
+
+三参数概率与固定β版本一致，analytic gradient/finite differences 最大差2.1×10⁻9，128/256 quadrature差1.9×10⁻14，profile Fisher 的 Schur block 与完整 covariance 一致。Counts 和独立 β观测都有 seed/hash；失败起点保留并恢复，不丢 experiment。自设1000计数/角度的联合局部β SE≈.000299 是 γ+tag 的模型信息，不是实际探测器分辨率。
+
+### 联合真值、τ profile 与联合区域投影
+
+[同数据审核](../../system/scripts/day13_velocity_region_semantics.py)重建以上计数/β观测，核对 hash，并计算一参数τ profile与二维 joint region 在τ轴的投影。它没有增加独立模拟证据。
+
+令 qτ 在固定τ真值处 profile E及速度 nuisance，qpair 固定τ/E真值而只 profile velocity。qτ≤qpair。名义68.3%的一参数阈值为1.001284，二维阈值2.297707；投影二维 region 的τ coverage 用后一个阈值作用于 qτ。
+
+| 同一组实验 | 每角度数 | τ/E pair覆盖 | 一参数τ profile覆盖 | 二维region的τ投影覆盖 |
+|---|---:|---:|---:|---:|
+| 错误固定β | 25 | 0.1290 | 0.6815 | 0.8720 |
+| 错误固定β | 1000 | 0/2000 | 0.4820 | 0.6930 |
+| 入口β nuisance +独立观测 | 25 | 0.6885 | 0.7030 | 0.8780 |
+| 入口β nuisance +独立观测 | 1000 | 0.7020 | 0.6805 | 0.8710 |
+
+低计数下 E0偏移已让 joint pair覆盖下降，τ轴却仍可相容；高计数下本例τ profile也受错设影响。不能把 joint pair的失败直接写成同数值的τ interval失败，或把投影概率当一参数标称概率。所有数据身份和 original joint results 重放一致，qτ不超过qpair的逐实验控制通过；精确二项 MC区间仅描述模拟比例，不是核寿命区间。
+
+独立 tag若有偏、与 γ calibration共享误差，或测的是 exit/after-DC 而非该 β_in，就需要另一 joint model。此例的正确 closure只在声明的 transport/response/无馈入 family内成立；source的实际 caller、velocity stage、model alternatives和Σ仍不可由窄 region证明。
+
+## 长寿命校准线：有限 history 与估计量选择
+
+CM21-15/16/22（正式PDF pp.6–7/Fig.9）用 known long-lived γ nominal energies 调整 **after-target** velocity/T，报告 oxygen/carbon tuning幅度0.4%/0.7%；它们不是入口速度误差或σβ，原文这段没有给本任务的整线均值/density mode算法。Source Fig.9 和本文例题不能相互代替。
+
+[条件练习](../../system/scripts/day13_long_control_velocity_estimator.py)借用1375.80keV/τ1.27ps与3853.170keV/τ12.4ps两个 control尺度；自设 proper crossing .13ps、β从.10线性到.09、无馈入、各向同性rest photons、point angles和 **lab** Gaussian σ1keV。Crossing数值/trajectory不是 source实测或实际LISE/DC模型。τ≫crossing时仍可能有少量靶内发射，比例与已声明 history/selection有关。
+
+在150°，两个 control的 pre-photon靶内 fraction≈9.730%/1.043%，角beaming条件后的 fraction≈9.650%/1.034%。如果分别取整条线第一矩和 density最大位置，再错以“全在晚速度发射”的单速关系反演：
+
+| 自设control尺度 | exit reference后的整线mean残差 / keV | density mode残差 / keV | mean给的 apparentβ | mode给的 apparentβ |
+|---|---:|---:|---:|---:|
+| 1375.80keV /1.27ps | −0.600972 | −0.009845 | .090488588 | .090008003 |
+| 3853.170keV /12.4ps | −0.177573 | −0.000356 | .090051542 | .090000103 |
+
+True lateβ为.09；正确的有限history mean模型恢复它，但使用了已声明的 trajectory和control τ。整线mean、mode和实际Gaussian/多成分拟合peakcenter是不同估计量，ROI/背景/response可改变它们。不可从图示峰心自动挑选上表哪一列适用，也不以本例解释 source的0.4%/0.7%调整。
+
+自设2396.1keV photon真的在β=.09晚发射时，使用第一control的 apparent mean/mode β作reference，在150°分别给+1.04711/+0.017146keV误差；第二control给+.110429/+.000222keV。这些是同一假定速度的reference敏感性，不是20O能量校准偏差或实际τ重拟合。
+
+两个control各700k独立proper-time/noise事件验证mean；128/256 quadrature差4.6×10⁻13keV，finite-history inversion、longτ和equal-speed极限通过。Mode从bounded optimizer后用analytic density score root细化并核粗网格，避免大绝对能量的相对容差掩盖小mode shift；初估与细化值均保留。
+
+必要 packet包括control身份/τ及不确定度、外部 E0 anchors及共有Σ、拟合objective/窗口/背景/response、velocity stage、DC/material模型与held-out controls。晚速度控制可支持该reference，却不自动测得入口/depth history；如果实际pipeline已建入有限history，则不能套用本例的late-only错模型。
+
+### 固定角度与母/子frame是这个例题的边界
+
+[当前校准例题的适用性审核](../../system/scripts/day13_calibration_applicability_audit.py)复用本轮已验证的 displaced-vertex/photon-recoil关系，逐项隔离先前固定角度模型的遗漏；没有新增实验输入。CM21-15明确从targetcenter与firstinteraction构造γ方向，NP19-5/7要求标明物理对象/更新状态；下面数值不能代为评价其实际实现。
+
+一个独立的**恒定晚母核β=.09、无停止**fixture取point planar detector R150mm、nominal150°。若仍从初始targetvertex构造方向：
+
+| control尺度 | 无条件meanflight / mm | 错vertex的correctedmean残差 / keV | density mode残差 / keV |
+|---|---:|---:|---:|
+| 1375.80keV /1.27ps | .034406 | −.006580 | −.006580 |
+| 3853.170keV /12.4ps | .335932 | −.178361 | −.174095 |
+
+正确知道emissionvertex后，信号的精确反演回到E0。R、planar response、constantβ和τ是选择的，不是CM21的真实几何；此fixture不等于前述有限foil history，不能把两表残差相加成实际校准。它限定“mode对靶内小尾部不敏感”的解释：mode仍可受发射点位移影响。
+
+另一个独立fixture是自由单γ衰变。给定母系rest photon Eγ和daughter massproxy Mf，`Mi=Eγ+sqrt(Mf²+Eγ²)`；daughterframe photon为 `(Mi/Mf) Eγ`。以A19/1375.80keV和A13/3853.170keV的mass-number proxy，daughterframe相对parentframe分别高约.106953/1.226258keV。源nucleus的精确mass、后续gamma/material/粒子history及实际reference对象没有取得，故它们不是source校正量。
+
+96/128 geometry mean/mode差<2×10⁻13keV、已知vertex反演、static/far-detector与fourmomentum/frameinverse检查通过；这组dependent应用不作为新的独立证据。若直接把correctedenergy称作母系restenergy，必须匹配该母核发射瞬间的vector；选用exit/residue等另一个reference也可用于history分析，但forwardmodel必须预测相同observable。
+
+实际packet因而还需first-IP/vertex/coordinate关系、位移可忽略的精度依据，及reference粒子/状态/epoch和gamma-recoil/material treatment。固定角度、无photonkick或无限长control的数学极限，各自只验证相应条件；source pipeline是否已处理这些效应仍unknown。
