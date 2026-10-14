@@ -1,0 +1,18 @@
+[
+  {
+    "route": "iaea-guide",
+    "url": "https://nds.iaea.org/relnsd/vcharthtml/api_v0_guide.html",
+    "status": 403,
+    "mime": "text/html; charset=UTF-8",
+    "bytes": 5540,
+    "sha256": "7c76b222ff53ecc54231db27c7df96c455848953eee42d68862b77dfebd566da"
+  },
+  {
+    "route": "nndc-193bi",
+    "url": "https://www.nndc.bnl.gov/ensdf/getdataset.jsp?nucid=193BI&unc=nds",
+    "status": 404,
+    "mime": "text/html",
+    "bytes": 771,
+    "sha256": "af515593f0b65b527b274fcf1466453ff7444d2e0643e6d00e8b54d872b4f778"
+  }
+]

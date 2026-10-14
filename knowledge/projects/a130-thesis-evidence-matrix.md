@@ -34,6 +34,8 @@ tags: [a130, thesis-pipeline, evidence-matrix, collective-modes, durable-learnin
 
 本轮方法增量：[[level-scheme-reconstruction]] 通过193Bi五能级七跃迁、相关闭合和未定双线顺序固化spectrum→placement→Jπ→strength的分层判据。193Bi作为A≈190方法对照，不是A≈130新实验或模式证据。
 
+[[nndc-2017-193bi-level-scheme-evaluation]]新增version/normalization与weak-line冲突crosswalk；它共享2015He27，并非第二实验。Conditional CC练习已获得模型输入，但不补齐parentτ/δ/branches。
+
 ## Evidence matrix
 
 | Candidate | Direct observables | Assignment handles | Interpretation boundary | Necessary next observables | Source lineage |

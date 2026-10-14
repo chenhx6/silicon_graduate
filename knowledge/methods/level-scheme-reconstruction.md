@@ -154,6 +154,60 @@ SD的13-edge/14-node浮动链同样rank=13、存在整体平移nullspace。Table
 
 这是跨层级方法综合，不改变193Bi或A≈130集体模式的排序。P0科学措辞已self-audit：保留shared measurements、未知X、括号Jπ与原source review flags；没有技术hard P0。P1保留事件级response/calibration/feeding缺口。普通发表的图表重算属L2，actual event-level L4重分析仍not-ready。
 
+## 互斥分支门、复合峰与shared-event计数
+
+这是HE15-4/5所启发的L2设计模型，未使用193Bi原始事件，未拟合Table I强度。模型只有一个核和两条完整photon路径：17/2+以概率b走299.2→323.4，或以1−b走622.4；比例h的事件先在上方发射299.8。先取无IC、无额外feeding、纯门、无angular correlations/summing/random、独立photon detection的极限，所有效率和b/h均是自设数值。实际 JUROGAM 不能直接套用这些假设。
+
+以A=622.4直接分支门、B=323.4级联门，令L、H分别为无门的low/high299-keV photon yields（已含相应photon效率），则合并峰总面积满足
+
+`(Y_A,Y_B)ᵀ = Q(L,H)ᵀ`，`Q = ((0,(1−b)ε_A); (ε_B,b ε_B))`。
+
+**已知conditional系数的判别力：** 若0<b<1且ε_A/ε_B非零，det(Q)=−(1−b)ε_Aε_B不为零；即使两条energy response完全相同，两种已知gate signature仍能解除两强度参数的线性退化。一张合并谱只有rank1。b→1、A门效率→0，或门污染使两列gate signature成比例时，rank又降为1。这是已知模型下的rank结果，不是证明实际双峰已经分开。
+
+**未知branch或压缩数据的边界：** 若两条线不可分，或者分析只保留两张谱的total peak area，未知b会留下连续物理解。自设b=.60、h=.20、parent Poisson mean10⁶、ε_A=.05、ε_B=.07、两个299效率均.10，得到A高线400、B低线4200、B高线840。只保留(A总400，B总5040)，另一组b=.50/h=.125/N=1.28×10⁶和b=.70/h=.35/N≈761905给同样的两个总面积。已校准的pure gate singles在这个闭合两路径模型中可以补足b；若能量分量本就可识别，完整joint spectra也含更多信息，不能把“两总面积”的退化泛化为所有数据都不可识别。IC、额外feeding、unknown acceptance或相关背景存在时，必须重新写模型，不能借该toy恢复实际branching。
+
+**shared-event计数：** 上方299.8与下方299.2可在同一B门事件中出现。令每个parent事件的计数向量为y；Poisson parent flow的`Cov(Σy)=λ E(yyᵀ)`，固定N的`Cov(Σy)=N(E(yyᵀ)−E(y)E(y)ᵀ)`。前述自设模型中B低/高线的compound-Poisson covariance为84 counts²，而不是零；A/B两支路在Poisson flow中交叉covariance为零、固定N则为负。gate与其subset photon count也相关。不能把边/门计数都当独立Poisson再相乘似然；实际还需counting convention、角关联和summing/多核事件的forward response。
+
+代码用64个event state精确枚举，并独立生成5×10⁶个事件（seed20261014）。37项检查通过，包括均值、二阶矩、PSD、parent flow区别、门rank/污染极限、unknown-b等价族。Monte Carlo均值和二阶矩最大偏离均约2.18个声明的sampling σ。对自设σ=1 keV、ΔE=.6 keV的bin-integrated Gaussian模板，归一列几何condition number从单谱4.718变为两门3.231；这不是likelihood/power，也不预测真实JUROGAM能否拆峰。
+
+**低能γ非观测的条件功效：** HE15-13的E2 αtot=261/12.82分别给46/87-keV photon fraction约0.003817/0.07236。在自设N=5000、每条εγ=.01、branch flow=1的固定N模型下，平均探测数为0.191/3.618，看到零计数的概率为0.826/0.0268。使P(0)=.05所需的条件parent数量分别约78487/4139。实际flow、α模型/误差、阈值、x-ray背景和效率未给，因此这些不是论文upper limit；它们说明只说“未见峰”缺少功效定义，conversion-electron与下游branch closure可能比重复γ门更有信息。
+
+可复算：[day14_conditional_gate_design.py](../../system/scripts/day14_conditional_gate_design.py)，[条件模型回执](../../outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/conditional-gate-design.json)。模型条件、公式和可复用认识均在本知识页。Self-audit：`supports`纯分支tag的互补判别力，`limits`未知branch/response和独立Poisson简化；不认证actual line identity、branch、τ或结构模式。
+
+## 原图、评价精度与赋值冲突的crosswalk
+
+[[nndc-2017-193bi-level-scheme-evaluation]]实际取得NNDC193Bi的ADOPTED和165Ho(32S,4nγ)两个201709对象，前者含2019半衰期修订。它采用Herzáň2015He27，并将其当作superseding set；网站和两个对象都不增加一个independent acquisition。N193-3明确评价者以quadrature加入0.3-keV统计误差、用全γ网络least-squares且固定305-keVlevel；这核实了评价者的合成规则，仍未给本图完整jointΣ。它不能反向证明原作者逐线/标定误差彼此独立。
+
+| 原Figure2整数label keV | evaluatedlevel keV | Jπ（评价记录） | 如何使用 |
+|---|---|---|---|
+|605|605.53(18)|13/2+|153(10)-ns是此level半衰期，来自2004Ni06。|
+|929|928.93(21)|15/2+|由γ网络调整，不作为原γ独立新增data point。|
+|1228|1228.13(21)|17/2+|母态299.2/622.4两branch的parent identity。|
+|1556|1555.30(25)|19/2+|原图数字与调整结果不同，应区分版本/fit，而非固定整数重拟合。|
+|1875|1875.1(3)|21/2+|母态319.8/646.9；γcentroids保留原表，误差按评价规则列。|
+
+N193-4/10及79-check固定列crosswalk核对七条γ的中心值、mother、γ误差和RI标度。reaction RI均为原Table I的0.1倍；ADOPTED selected母态blocks又以强线100重标。比值的微小差异可由打印圆整产生，不能从不同normalization拼接population/feeding或当作独立实测。
+
+**352.3-keV判例：** 原Table I为(13/2−)→(11/2−)、M1；Figure2 continued在1610keV标15/2−。一般single-photon triangle要求`|Ji−Jf|≤L`，因此若取Figure2的ΔI=2，M1(L=1)严格不允许；若取Table I的ΔI=1，M1允许。这是有条件的选律检查，不选择哪一个spin是真值。N193-6留空multipolarity并公开记录该冲突；negativePOL不能独自确定absolute J或替代independent anchor。需要分别固定该level的spin/branch/line identity，再讨论character。
+
+**393/394判例：** 原tentative(E2)由placement/相对spin提出；N193-5只保留Q，并明确shared negativePOL与(E2)不一致、order未established。Q是quadrupole级别，尚未指定electric或magnetic。没有逐component偏振或另一个independent约束时，不能用共同R/A修复每条线的电磁性质，也不能凭“两行都Q”把两条各自当E2。
+
+**输入缺口的更新：** 现在有N193-7的BrIcc v2.3a/Frozen-Orbitals CC计算，不能继续笼统说完全没有ICC数值；它们仍没有测δ、全branches或higher-parent τ。N193-8只把bandhead153-ns归到604.7γ(t)/2004Ni06，并提供compiler关于prompt/约1μs separatorflight的说明；原Ni04完整方法尚未核验。若设计只把1μs当固定lab等待且忽略feeding/time dilation，153-ns半衰期的存活率约`2^(−1000/153)=0.0108`；这个尺度例不是对实际RITU时间分布的测量。
+
+## 从条件ICC到photon fraction的最小练习
+
+只考虑一母态的两条已报告line，并自设pure M1/E2、采用BrIcc CC、没有其它decaychannel时，设`S=I_M1(1+α_M1)+I_E2(1+α_E2)`。则`pγ,M1=I_M1/S`，`pγ,E2=I_E2/S`，conversion fractions分别为`α_j I_j/S`。分母是这个两channel模型的totaldecay，而非“只在γ中归一”的分母。绝对rate还需该parent的总meanτ，并满足完整分支/δ前提。
+
+| parent keV | M1/E2 keV | BrIcc αM1/αE2 | 仅γ归一的M1比例 | M1 photon fraction | 含conversion的conditional M1 branch |
+|---|---|---|---:|---:|---:|
+|1228.13|299.2/622.4|0.467/0.0186|0.680735|0.514212|0.754349|
+|1555.30|327.4/626.2|0.366/0.0183|0.657895|0.527561|0.720648|
+|1875.1|319.8/646.9|0.390/0.01706|0.537634|0.441565|0.613776|
+
+此表是N193-7/10输入下的任务推导。M1/E2 admixture会改变effective CC和component fractions，未观测branch改变S；parentτ仍为空，所以没有给absolute B，也不把conditional branch填回source当“已测值”。自设gate toy的b=.6/h=.2不是以上数值的拟合。
+
+代码：[day14_ensdf_crosswalk.py](../../system/scripts/day14_ensdf_crosswalk.py)；[79-check回执](../../outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/ensdf-crosswalk.json)。Checks是身份/列/标度/边界的验证，不是79条独立实验。Self-audit的决定为`revises`精度/数据版本和weak-line工作标签，`limits`独立性、completebranch与strength充分性；不改变原作者图表或任何review flags。
+
 ## Sources
 
 - [[herzan-2015-193bi-spectroscopy]] HE15-4：PDF p.3 Table I / p.8 Fig.2 / p.2 setup-specific ratios。
@@ -162,6 +216,7 @@ SD的13-edge/14-node浮动链同样rank=13、存在整体平移nullspace。Table
 - [[herzan-2015-193bi-spectroscopy]] HE15-7：PDF p.19 Sec.IV.D, low-energy non-observation and conversion/x-ray explanation。
 - [[klemme-1999-lifetimes-134nd-neighbors]] KL99-18：同一跃迁的距离相关双分量。
 - [[gamma-gamma-coincidence]]、[[spin-parity-assignment]]、[[doppler-correction]]：配套方法入口。
+- [[nndc-2017-193bi-level-scheme-evaluation]]：N193-1–10，versioned evaluated records、weak-line limits、conditional BrIcc CC；不是独立实验。
 
 ## Level gap and gamma-energy precision
 

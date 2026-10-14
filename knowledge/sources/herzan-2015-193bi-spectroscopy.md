@@ -71,6 +71,7 @@ Band 3 resembles a low-energy M1 sequence but receives E2 links and is extended 
 | HE15-12 | Band1's13/2+ bandhead half-life153(10) ns is cited from Nieminen et al., Ref.[7], not measured anew for the seven higher prompt lines selected here. Table I uses the323.4-keV line as normalization and prints1000(57), with299.2 at258(8) and622.4 at121(5). These are relative intensities, not absolute photon probabilities. | experimental-fact | direct | PDF p.10, Sec.III.A.1; PDF p.3, Table I | true |
 | HE15-13 | For the unobserved low-energy SD candidates, the authors quote αtot=261(4) at46 keV and12.82(18) at87 keV for E2 from Ref.[41]. Their assumed intensity flow,3/2+ or1/2+ endpoint, and calculated SD minimum near2.4 MeV remain interpretation/model, separate from the observed13-transition sequence and the unconfirmed1836-keV link. | author-interpretation | mixed | PDF p.19, Sec.IV.D | true |
 | HE15-14 | The authors propose the three-quasiparticle π(i13/2 h9/2²) configuration for the29/2+ isomer and describe the most likely scenario as an i13/2 proton coupled to the oblate8+ proton-pair state in192Pb. This is a configuration interpretation, not a direct observation of three orbitals; the earlier Wiki summary's missing square on h9/2 is corrected. | author-interpretation | direct | PDF p.18, Sec.IV.B; PDF p.19, conclusion | true |
+| HE15-15 | Table I lists352.3(1)keV at1610keV as(13/2−)→(11/2−), M1, Rexp=0.73(16), ΔIPDCO=−0.023(7). Figure2 continued instead labels the1610-keV state15/2− above an11/2− level. The displayed spin difference would be2, not1; the source contains a figure/table assignment discrepancy that must not be silently resolved from the M1 label. | experimental-assignment-boundary | direct | PDF p.7, Table I Other transitions; PDF p.9, Figure2 continued | true |
 
 ## Summary
 
@@ -121,3 +122,13 @@ Herzáň *et al.* provide a dense high-spin/isomer spectroscopy reference in the
 - P0（科学边界，已 self-audit）：HE15-9 的 shared-doublet DCO/IPDCO 不能分配成两条已独立测量的电磁性质；保留未定顺序和括号赋值。HE15-6/7/13 的 SD、未知 X 和缺失弱线不能从模型或强内转换假设升格为确定绝对能级。技术 hard P0 未发现。
 - P1（已 self-audit）：HE15-8 的319.8-keV行确在 Other transitions；HE15-10 的 Eγ 单位是keV，a(Eγ)与Q(Eγ)不同；HE15-11 的29/2+赋值明确依赖Band1，HE15-12 的153-ns bandhead寿命不是七条边的母态寿命。原始逐门/逐角计数、calibration covariance、逐母态寿命/δ仍不可由本文补造。
 - P2：source→方法与方法→source 已互链，raw哈希一致。P3：本轮不是人类审核事件，原有 review_status 保持 unreviewed。
+
+### Ref7 原始寿命来源的可得性边界
+
+Ref7为Nieminen et al., “γ-ray spectroscopy of191,193Bi”, PRC69,064326(2004), DOI10.1103/PhysRevC.69.064326；Crossref身份已核。正文经有限公开来源路线仍未取得，故HE15-12的153(10)-ns只能按本篇引用记录，不追加原实验的寿命提取方法、完整branch或与2015的event-level独立性。作者重合/发表年份不同都不能替代acquisition指纹；metadata来源、数据库评估或重新引用也不增加一条新实验。当前边界不是断言此文永久不可得，后续有primary PDF或run provenance时再定向复核。
+
+### NNDC comparison：独立处理与共享实验
+
+[[nndc-2017-193bi-level-scheme-evaluation]] N193-2/3/4采用本篇2015He27的Eγ/RI，进行level least-squares与quadrature处理；它支持source-to-evaluation crosswalk，但不是新独立采集。N193-5在393/394保留Q并明确negativePOL与placement-implied(E2)矛盾；N193-6对352.3保留无multipolarity赋值。本页保留作者原Table I标签与HE15-9/15的不确定性，不将Q强行覆盖为E2，也不凭数据库选择352.3的最终spin。
+
+N193-8记录compiler摘要From604.7γ(t)/2004Ni06及flight/intensity说明；这是公开评价的引用依赖，不替代Ni04原文方法核验。N193-7的BrIcc CC是有multipolarity前提的计算，未提供七条higher-parent τ、δ或unseenbranch闭合。全篇主线回读不等于认证所有弱线assignment，新的具体冲突已列P0科学边界且needs_review保留。

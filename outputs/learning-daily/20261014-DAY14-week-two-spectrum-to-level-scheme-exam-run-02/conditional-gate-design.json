@@ -1,0 +1,276 @@
+{
+  "kind": "L2 conditional design; not193Bi data or fitted branching",
+  "chosen_parameters": {
+    "cascade_probability": 0.6,
+    "upper299.8_fraction": 0.2,
+    "eps622": 0.05,
+    "eps323": 0.07,
+    "eps299.2": 0.1,
+    "eps299.8": 0.1,
+    "parent_poisson_mean": 1000000.0
+  },
+  "count_labels": [
+    "A_low",
+    "A_high",
+    "B_low",
+    "B_high",
+    "A_gate",
+    "B_gate"
+  ],
+  "expected_counts": [
+    0.0,
+    400.0000000000001,
+    4200.000000000001,
+    840.0000000000001,
+    20000.000000000007,
+    41999.99999999999
+  ],
+  "poisson_flow_covariance": [
+    [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      400.0000000000001,
+      0.0,
+      0.0,
+      400.0000000000001,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      4200.000000000001,
+      84.00000000000001,
+      0.0,
+      4200.000000000001
+    ],
+    [
+      0.0,
+      0.0,
+      84.00000000000001,
+      840.0000000000001,
+      0.0,
+      840.0000000000001
+    ],
+    [
+      0.0,
+      400.0000000000001,
+      0.0,
+      0.0,
+      20000.000000000007,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      4200.000000000001,
+      840.0000000000001,
+      0.0,
+      41999.99999999999
+    ]
+  ],
+  "fixed_parent_N_covariance": [
+    [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      399.8400000000001,
+      -1.6800000000000008,
+      -0.33600000000000013,
+      392.0000000000001,
+      -16.800000000000004
+    ],
+    [
+      0.0,
+      -1.6800000000000008,
+      4182.360000000001,
+      80.47200000000001,
+      -84.00000000000004,
+      4023.6000000000004
+    ],
+    [
+      0.0,
+      -0.33600000000000013,
+      80.47200000000001,
+      839.2944000000001,
+      -16.800000000000008,
+      804.7200000000001
+    ],
+    [
+      0.0,
+      392.0000000000001,
+      -84.00000000000004,
+      -16.800000000000008,
+      19600.000000000007,
+      -840.0000000000002
+    ],
+    [
+      0.0,
+      -16.800000000000004,
+      4023.6000000000004,
+      804.7200000000001,
+      -840.0000000000002,
+      40235.99999999999
+    ]
+  ],
+  "enumeration_states": 64,
+  "mc_trials": 5000000,
+  "mc_seed": 20261014,
+  "max_mc_mean_z": 2.1782857251844234,
+  "max_mc_second_z": 2.1782857251844234,
+  "gate_design": [
+    [
+      0.0,
+      0.020000000000000004
+    ],
+    [
+      0.07,
+      0.042
+    ]
+  ],
+  "template_geometry": {
+    "sigma_keV": 1,
+    "separation_keV": 0.6,
+    "one_spectrum_condition": 4.7175979818411555,
+    "two_gate_condition": 3.231498030237835,
+    "same_response_two_gate_condition": 4.425940669922602,
+    "not_a_likelihood_or_power_estimate": true
+  },
+  "unknown_branch_family": [
+    {
+      "b": 0.45,
+      "high_fraction": 0.10000000000000002,
+      "parent_poisson_mean": 1454545.4545454544,
+      "predicted_A_total": 400.0000000000001,
+      "predicted_B_total": 5040.000000000001
+    },
+    {
+      "b": 0.5,
+      "high_fraction": 0.12500000000000003,
+      "parent_poisson_mean": 1280000.0,
+      "predicted_A_total": 400.0000000000001,
+      "predicted_B_total": 5040.000000000001
+    },
+    {
+      "b": 0.6,
+      "high_fraction": 0.2,
+      "parent_poisson_mean": 1000000.0,
+      "predicted_A_total": 400.00000000000006,
+      "predicted_B_total": 5040.0
+    },
+    {
+      "b": 0.7,
+      "high_fraction": 0.35,
+      "parent_poisson_mean": 761904.7619047619,
+      "predicted_A_total": 400.0000000000001,
+      "predicted_B_total": 5040.0
+    },
+    {
+      "b": 0.75,
+      "high_fraction": 0.5000000000000003,
+      "parent_poisson_mean": 639999.9999999998,
+      "predicted_A_total": 400.0000000000001,
+      "predicted_B_total": 5040.0
+    }
+  ],
+  "additional_gate_singles": {
+    "N_A": 20000.000000000007,
+    "N_B": 41999.99999999999,
+    "recovered_b": 0.5999999999999999
+  },
+  "low_energy_nonobservation_design": [
+    {
+      "energy_keV": 46,
+      "source_conditional_E2_alpha": 261.0,
+      "photon_fraction": 0.003816793893129771,
+      "chosen_efficiency": 0.01,
+      "chosen_parent_population": 5000,
+      "mean_detected": 0.19083969465648856,
+      "conditional_probability_zero": 0.826262022924076,
+      "population_for_5percent_zero": 78486.68769144919
+    },
+    {
+      "energy_keV": 87,
+      "source_conditional_E2_alpha": 12.82,
+      "photon_fraction": 0.0723589001447178,
+      "chosen_efficiency": 0.01,
+      "chosen_parent_population": 5000,
+      "mean_detected": 3.61794500723589,
+      "conditional_probability_zero": 0.0268026479667842,
+      "population_for_5percent_zero": 4138.6039552095435
+    }
+  ],
+  "checks": {
+    "probabilities_normalized": true,
+    "means_agree_with_direct_branch_products": true,
+    "low_line_excluded_by_true_direct_branch_gate": true,
+    "shared_two_photons_positive_covariance": true,
+    "poisson_flow_disjoint_branches_zero_covariance": true,
+    "fixed_n_disjoint_branches_negative_covariance": true,
+    "flow_covariance_difference_is_rank_one": true,
+    "compound_poisson_covariance_psd": true,
+    "fixed_n_covariance_psd": true,
+    "gate_subset_covariance_not_independent": true,
+    "mc_mean_within_declared_6sigma": true,
+    "mc_shared_second_moments_within_declared_6sigma": true,
+    "mc_preserves_branch_exclusion": true,
+    "pure_two_gate_design_rank_two": true,
+    "one_gate_one_total_is_rank_one": true,
+    "no_A_efficiency_loses_rank": true,
+    "b_one_loses_direct_gate": true,
+    "proportional_gate_contamination_loses_rank": true,
+    "same_response_one_spectrum_rank_one": true,
+    "same_response_two_known_gates_rank_two": true,
+    "two_known_gates_improve_normalized_template_condition": true,
+    "unknown_branch_family_closure_0.45": true,
+    "unknown_branch_family_physical_0.45": true,
+    "unknown_branch_family_closure_0.5": true,
+    "unknown_branch_family_physical_0.5": true,
+    "unknown_branch_family_closure_0.6": true,
+    "unknown_branch_family_physical_0.6": true,
+    "unknown_branch_family_closure_0.7": true,
+    "unknown_branch_family_physical_0.7": true,
+    "unknown_branch_family_closure_0.75": true,
+    "unknown_branch_family_physical_0.75": true,
+    "gate_singles_recover_b_under_closed_model": true,
+    "gate_singles_recover_rate_under_closed_model": true,
+    "low_energy_gamma_suppression_46": true,
+    "zero_count_threshold_exact_46": true,
+    "low_energy_gamma_suppression_87": true,
+    "zero_count_threshold_exact_87": true
+  },
+  "checks_passed": 37,
+  "source_locators": [
+    {
+      "path": "knowledge/sources/herzan-2015-193bi-spectroscopy.md",
+      "locator": "HE15-5"
+    },
+    {
+      "path": "knowledge/sources/herzan-2015-193bi-spectroscopy.md",
+      "locator": "HE15-4"
+    },
+    {
+      "path": "knowledge/sources/herzan-2015-193bi-spectroscopy.md",
+      "locator": "HE15-13"
+    }
+  ],
+  "boundaries": [
+    "One nucleus, two complete photon paths, no IC for the299/622 branch toy; independent detection and no angular correlations, summing, randoms or additional feeding. These are chosen limiting assumptions, not measured JUROGAM properties.",
+    "The0.6-keV line separation is source-supported; sigma, branch probability, efficiencies, rate and high fraction are self-chosen. Source intensity ratios are not fitted.",
+    "Shared event counts require compound Poisson or fixed-N covariance as appropriate. Template condition numbers ignore likelihood/background and do not predict experimental significance.",
+    "Pure tags and known conditional coefficients are necessary for the rank argument. Unknown branch, acceptance or correlated background can restore nonidentifiability.",
+    "Low-energy E2 alpha values are the author's Ref41 assumptions, not observed46/87-keV decays. N=5000 and eps=.01 are conditional examples without x-ray background or ICC uncertainty; zero-count probabilities are not real experimental upper limits."
+  ]
+}

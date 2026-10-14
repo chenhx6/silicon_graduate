@@ -14,3 +14,10 @@ run_id `2026-10-14-day-14-02`；session `01a13a0e-e8bd-7251-b970-f6975679e281`�
 最终检查：boundary、wiki_lint --fail-on error、report/card/writeback、protected raw/PLAN/Bib、diff；显式文件manifest相对entry-baseline，排除继承Day6–9/Day13/daemon/旧log和tmp/raw。通过H3后自动Gitee非force HEAD:main；精确hash只run receipt。research status持续active，卡credit只在发布门通过后推进一次，最后手动reconciliation不得重复推进。
 
 恢复命令：`codex resume 01a13a0e-e8bd-7251-b970-f6975679e281 -C /workspace/wiki -s danger-full-access -a never`。
+
+
+## Checkpoint002增量
+
+同run/session仍active；正式周考已发布，最新35/37/79checks、writeback8items/5pages及NNDC2017/2019对象已固化。新source `knowledge/sources/nndc-2017-193bi-level-scheme-evaluation.md`保留Q≠E2、352.3图表conflict、originaldata dependency与BrIcc/model boundary；raw不变、对象在tmp、19slotwarnings。当前next14/count13等closeout一次对账，不重复credit。Clock001queued未observed，不写假ack。
+
+下一未做：shared negativePOL对joint(E2,E2)的条件约束；a(E)近邻差、weights与background/calibration/geometry失败条件，不能逐component独立赋值。之后查clock和candidatepool；只允许Day15partial preview，禁止Day16。

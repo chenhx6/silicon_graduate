@@ -1,0 +1,16 @@
+[
+  {
+    "label": "aps-https",
+    "url": "https://journals.aps.org/prc/pdf/10.1103/PhysRevC.69.064326",
+    "status": 403,
+    "mime": "text/html; charset=UTF-8",
+    "bytes": 5562,
+    "final_url": "https://journals.aps.org/prc/pdf/10.1103/PhysRevC.69.064326",
+    "is_pdf": false
+  },
+  {
+    "label": "jyx-search",
+    "url": "https://jyx.jyu.fi/server/api/discover/search/objects?query=10.1103%2FPhysRevC.69.064326",
+    "error_type": "ReadTimeout"
+  }
+]

@@ -1,0 +1,127 @@
+{
+  "url": "https://www.nndc.bnl.gov/ensdf/DatasetFetchServlet",
+  "method": "POST",
+  "params": {
+    "nuc": "193BI",
+    "nsrch": "Search",
+    "searchType": "quick",
+    "datasource": "ensdf"
+  },
+  "status": 200,
+  "mime": "text/html;charset=UTF-8",
+  "sha256": "ecbc7b85e06c9483de8c62a90b4be00aa0e4d0402342b705091fdc83397c9995",
+  "bytes": 5801,
+  "saved": "tmp/day14-20261014/nndc-193bi-datasets.html",
+  "preview": "Datasets for 193BI Nuclide, Mass, or Symbol: Search Datasets for 193 Bi There are 4 corresponding XUNDL (unevaluated) sets Matching datasets in\n\n\nENSDF Retrieve selected ENSDF datasets: Dataset Last Revised References Select All ADOPTED LEVELS, GAMMAS 2017-09 All references 197AT A DECAY (381 MS) 2017-09 All references 197AT A DECAY (2.0 S) 2017-09 All references 165HO(32S,4NG) 2017-09 All references Retrieve selected ENSDF datasets:",
+  "links": [
+    {
+      "label": "There are 4 corresponding XUNDL (unevaluated) sets",
+      "href": "/ensdf/XundlFetchServlet?datasource=xundl"
+    },
+    {
+      "label": "All references",
+      "href": "/ensdf/getrefs.jsp?recid=193083001&dsid=ADOPTED LEVELS, GAMMAS        "
+    },
+    {
+      "label": "All references",
+      "href": "/ensdf/getrefs.jsp?recid=193083015&dsid=197AT A DECAY (381 MS)        "
+    },
+    {
+      "label": "All references",
+      "href": "/ensdf/getrefs.jsp?recid=193083003&dsid=197AT A DECAY (2.0 S)         "
+    },
+    {
+      "label": "All references",
+      "href": "/ensdf/getrefs.jsp?recid=193083004&dsid=165HO(32S,4NG)                "
+    }
+  ],
+  "forms": [
+    {
+      "action": "/ensdf/DatasetFetchServlet",
+      "method": "post",
+      "fields": [
+        {
+          "name": "nuc",
+          "value": "",
+          "type": "text"
+        },
+        {
+          "name": "nsrch",
+          "value": "Search",
+          "type": "submit"
+        },
+        {
+          "name": "searchType",
+          "value": "quick",
+          "type": "hidden"
+        },
+        {
+          "name": "datasource",
+          "value": "ensdf",
+          "type": "hidden"
+        }
+      ]
+    },
+    {
+      "action": "/ensdf/EnsdfDispatcherServlet",
+      "method": "post",
+      "fields": [
+        {
+          "name": "dbclass",
+          "value": "ensdf",
+          "type": "hidden"
+        },
+        {
+          "name": "page-source",
+          "value": "singular",
+          "type": "hidden"
+        },
+        {
+          "name": "chooseit",
+          "value": "PDF Version",
+          "type": "submit"
+        },
+        {
+          "name": "chooseit",
+          "value": "ENSDF text format",
+          "type": "submit"
+        },
+        {
+          "name": "pcheckboxall",
+          "value": null,
+          "type": "checkbox"
+        },
+        {
+          "name": "datasetcheck",
+          "value": "193083001,193BI",
+          "type": "checkbox"
+        },
+        {
+          "name": "datasetcheck",
+          "value": "193083015,193BI",
+          "type": "checkbox"
+        },
+        {
+          "name": "datasetcheck",
+          "value": "193083003,193BI",
+          "type": "checkbox"
+        },
+        {
+          "name": "datasetcheck",
+          "value": "193083004,193BI",
+          "type": "checkbox"
+        },
+        {
+          "name": "chooseit",
+          "value": "PDF Version",
+          "type": "submit"
+        },
+        {
+          "name": "chooseit",
+          "value": "ENSDF text format",
+          "type": "submit"
+        }
+      ]
+    }
+  ]
+}

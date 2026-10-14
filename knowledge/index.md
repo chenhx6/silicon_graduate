@@ -9,6 +9,8 @@ updated: 2026-10-14
 
 ## Sources
 
+- [[nndc-2017-193bi-level-scheme-evaluation]] - 2017/2019公开ENSDF对象：七边/精度/归一crosswalk、Q≠E2和352.3图表冲突；共享2015He27，CC为条件模型。
+
 - [[nptool-2019-reaction-velocity-code-object]] - 固定2019公开对象的反应点4vector、getter/mass状态、MeV/rad/velocity/TOF单位和branch/domain边界；不是actualpaper/currentversion。
 
 - [[baker-cousins-1984-histogram-fits]] - UCLA/KEK22页原报告：Poisson/Neyman/Pearson、bin积分、free-scale/area与point/interval/GOF条件；finiteN不保证无偏。

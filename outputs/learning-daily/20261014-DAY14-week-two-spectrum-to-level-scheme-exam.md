@@ -93,6 +93,14 @@ python3 system/scripts/day14_level_scheme_audit.py --fixture outputs/learning-da
 | τ/absolute strength | 本文isomer时间与conversion；先前153-ns引用 | 对对应isomer建立更强链 | 不能把bandheadτ赋给七边parent；需各parent τ、全branches、ICC、δ |
 | configuration/shape/mode | alignment/ratio/systematics、作者semi-empirical模型 | 受约束解释和candidate | SD absolute strengths与confirmed link仍缺；没有新的A≈130模式判定 |
 
+### Continuity checkpoint：conditional gate 与复合峰
+
+正式周考发布后继续同一问题；[计算前预测](20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/gate-design-before-analysis.md)与[37-check设计结果](20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/conditional-gate-design.json)保留顺序。代码 `system/scripts/day14_conditional_gate_design.py` 实际exit0、37/37；64状态枚举与5×10⁶-event独立MC的mean/second moment最大z≈2.18。b/h/效率/σ/parent数量全为自设、无IC/feeding/angular correlation的限制模型，不是193Bi数据。
+
+已知纯A=622直接支与B=323级联门的conditional系数时，两门可解除同response两强度参数的rank1退化；A门效率→0、b→1或比例污染则失败。若只保留两张合并峰总面积且b未知，存在连续physical等价族；完整可分的joint energy spectra并不只有这两个信息。shared-event双γ在B门下产生positive covariance，固定N与Poisson parent flow的Σ不同，不能把每个line/gate都当独立Poisson。
+
+HE15-13低能γ的设计例（N=5000、ε=.01、branch=1）给46/87-keV零计数概率0.826/0.0268；没有实际flow/efficiency/背景，这不是sourceupper limit。完整公式/数值/边界已canonical写回[[level-scheme-reconstruction]] “互斥分支门、复合峰与shared-event计数”。
+
 ## Counter-evidence and missing companion observables
 
 HE15-9的实际未定双线是核心反例：energy sum、共享R/A和假设的ΔI=2均不足以裁决order。若一条线出现可独立定位的旁路或延迟顺序，应重审中间level；source仍保留括号Jπ与(E2)。HE15-5的quadruplet限制“一个峰是一条γ”的简化；干净622.4直接分支门与323.4级联门的299-keVcomponent差异可能迫使拆峰，但必须控制622/626门纯度、feeding、response和random。
@@ -129,11 +137,13 @@ HE15-9的实际未定双线是核心反例：energy sum、共享R/A和假设的�
 
 ## Durable knowledge delta
 
-本run实际修改三份knowledge Markdown，超出昨日预习的增量为七边逐条证据、相关cycle/标定nullspace、未定doublet shared-quantity边界和parent-lifetime契约。canonical知识路径：
+本run实际修改五份knowledge Markdown，超出昨日预习的增量为七边逐条证据、相关cycle/标定nullspace、未定doublet shared-quantity边界和parent-lifetime契约。canonical知识路径：
 
 - [Herzáň source](../../knowledge/sources/herzan-2015-193bi-spectroscopy.md)：HE15-8–14及正式来源主线/triage。
 - [level-scheme method](../../knowledge/methods/level-scheme-reconstruction.md)：五能级七边、GLS/反例和必要companion。
 - [A≈130 thesis matrix](../../knowledge/projects/a130-thesis-evidence-matrix.md)：方法对照行，不冒充A≈130新实验。
+- [NNDC193Bi evaluation](../../knowledge/sources/nndc-2017-193bi-level-scheme-evaluation.md)：公开对象的版本、RI/精度、weak-line/Q与条件CC；不是独立实验。
+- [知识索引](../../knowledge/index.md)：新增评价source导航。
 
 ```knowledge-writeback
 {
@@ -141,16 +151,41 @@ HE15-9的实际未定双线是核心反例：energy sum、共享R/A和假设的�
   "items": [
     {
       "knowledge": "knowledge/sources/herzan-2015-193bi-spectroscopy.md",
-      "summary": "核验七边中的表尾行、未定双线与共享角度/偏振、实际标定、条件性isomer赋值及parent寿命来源；原flags保留。",
+      "summary": "核验七边中的表尾行、未定双线与共享角度/偏振、实际标定、条件性isomer赋值及parent寿命来源；原flags保留。；原p7/p9的352.3图表spin差异重新视觉核验。",
       "anchor": "Day14 正式逐边复核与来源边界",
       "sources": [
-        {"path": "knowledge/sources/herzan-2015-193bi-spectroscopy.md", "locator": "HE15-8"},
-        {"path": "knowledge/sources/herzan-2015-193bi-spectroscopy.md", "locator": "HE15-9"},
-        {"path": "knowledge/sources/herzan-2015-193bi-spectroscopy.md", "locator": "HE15-10"},
-        {"path": "knowledge/sources/herzan-2015-193bi-spectroscopy.md", "locator": "HE15-11"},
-        {"path": "knowledge/sources/herzan-2015-193bi-spectroscopy.md", "locator": "HE15-12"},
-        {"path": "knowledge/sources/herzan-2015-193bi-spectroscopy.md", "locator": "HE15-13"},
-        {"path": "knowledge/sources/herzan-2015-193bi-spectroscopy.md", "locator": "HE15-14"}
+        {
+          "path": "knowledge/sources/herzan-2015-193bi-spectroscopy.md",
+          "locator": "HE15-8"
+        },
+        {
+          "path": "knowledge/sources/herzan-2015-193bi-spectroscopy.md",
+          "locator": "HE15-9"
+        },
+        {
+          "path": "knowledge/sources/herzan-2015-193bi-spectroscopy.md",
+          "locator": "HE15-10"
+        },
+        {
+          "path": "knowledge/sources/herzan-2015-193bi-spectroscopy.md",
+          "locator": "HE15-11"
+        },
+        {
+          "path": "knowledge/sources/herzan-2015-193bi-spectroscopy.md",
+          "locator": "HE15-12"
+        },
+        {
+          "path": "knowledge/sources/herzan-2015-193bi-spectroscopy.md",
+          "locator": "HE15-13"
+        },
+        {
+          "path": "knowledge/sources/herzan-2015-193bi-spectroscopy.md",
+          "locator": "HE15-14"
+        },
+        {
+          "path": "knowledge/sources/herzan-2015-193bi-spectroscopy.md",
+          "locator": "HE15-15"
+        }
       ]
     },
     {
@@ -158,9 +193,18 @@ HE15-9的实际未定双线是核心反例：energy sum、共享R/A和假设的�
       "summary": "固化五level七边逐条E/C/M/J审计、三个相关cycle与带假设35-check重算；不替换作者能级。",
       "anchor": "Day14 五能级七跃迁逐边审计",
       "sources": [
-        {"path": "knowledge/sources/herzan-2015-193bi-spectroscopy.md", "locator": "HE15-4"},
-        {"path": "knowledge/sources/herzan-2015-193bi-spectroscopy.md", "locator": "HE15-8"},
-        {"path": "knowledge/sources/herzan-2015-193bi-spectroscopy.md", "locator": "HE15-9"}
+        {
+          "path": "knowledge/sources/herzan-2015-193bi-spectroscopy.md",
+          "locator": "HE15-4"
+        },
+        {
+          "path": "knowledge/sources/herzan-2015-193bi-spectroscopy.md",
+          "locator": "HE15-8"
+        },
+        {
+          "path": "knowledge/sources/herzan-2015-193bi-spectroscopy.md",
+          "locator": "HE15-9"
+        }
       ]
     },
     {
@@ -168,10 +212,22 @@ HE15-9的实际未定双线是核心反例：energy sum、共享R/A和假设的�
       "summary": "保留actual a(E)/Q(E)、bandhead与parent寿命、conditional intensity和SD低能companion的区别；weekly认识修正同步canonical页。",
       "anchor": "标定、寿命与伴随观测的逐项契约",
       "sources": [
-        {"path": "knowledge/sources/herzan-2015-193bi-spectroscopy.md", "locator": "HE15-10"},
-        {"path": "knowledge/sources/herzan-2015-193bi-spectroscopy.md", "locator": "HE15-11"},
-        {"path": "knowledge/sources/herzan-2015-193bi-spectroscopy.md", "locator": "HE15-12"},
-        {"path": "knowledge/sources/herzan-2015-193bi-spectroscopy.md", "locator": "HE15-13"}
+        {
+          "path": "knowledge/sources/herzan-2015-193bi-spectroscopy.md",
+          "locator": "HE15-10"
+        },
+        {
+          "path": "knowledge/sources/herzan-2015-193bi-spectroscopy.md",
+          "locator": "HE15-11"
+        },
+        {
+          "path": "knowledge/sources/herzan-2015-193bi-spectroscopy.md",
+          "locator": "HE15-12"
+        },
+        {
+          "path": "knowledge/sources/herzan-2015-193bi-spectroscopy.md",
+          "locator": "HE15-13"
+        }
       ]
     },
     {
@@ -179,13 +235,161 @@ HE15-9的实际未定双线是核心反例：energy sum、共享R/A和假设的�
       "summary": "增加spectrum-to-level correlated-closure方法对照行和active说明；193Bi不当作A≈130模式独立证据。",
       "anchor": "Day14 spectrum-to-level identity and correlated closure",
       "sources": [
-        {"path": "knowledge/sources/herzan-2015-193bi-spectroscopy.md", "locator": "HE15-8"},
-        {"path": "knowledge/sources/herzan-2015-193bi-spectroscopy.md", "locator": "HE15-9"}
+        {
+          "path": "knowledge/sources/herzan-2015-193bi-spectroscopy.md",
+          "locator": "HE15-8"
+        },
+        {
+          "path": "knowledge/sources/herzan-2015-193bi-spectroscopy.md",
+          "locator": "HE15-9"
+        },
+        {
+          "path": "knowledge/sources/nndc-2017-193bi-level-scheme-evaluation.md",
+          "locator": "N193-2"
+        },
+        {
+          "path": "knowledge/sources/nndc-2017-193bi-level-scheme-evaluation.md",
+          "locator": "N193-5"
+        },
+        {
+          "path": "knowledge/sources/nndc-2017-193bi-level-scheme-evaluation.md",
+          "locator": "N193-6"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/methods/level-scheme-reconstruction.md",
+      "summary": "37-check纯分支gate/unknown-branch/shared-count/low-energy nonobservation设计；全部自设条件，不作为actual193Bi counts或branch fit。",
+      "anchor": "互斥分支门、复合峰与shared-event计数",
+      "sources": [
+        {
+          "path": "knowledge/sources/herzan-2015-193bi-spectroscopy.md",
+          "locator": "HE15-4"
+        },
+        {
+          "path": "knowledge/sources/herzan-2015-193bi-spectroscopy.md",
+          "locator": "HE15-5"
+        },
+        {
+          "path": "knowledge/sources/herzan-2015-193bi-spectroscopy.md",
+          "locator": "HE15-13"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/sources/nndc-2017-193bi-level-scheme-evaluation.md",
+      "summary": "新增官方选定ENSDF对象的version/hash/locators、七边精度和RI、weak-line Q/352冲突、BrIcc计算与153-ns依赖；非新独立实验。",
+      "anchor": "193Bi：评价对象与原实验的分层",
+      "sources": [
+        {
+          "path": "knowledge/sources/nndc-2017-193bi-level-scheme-evaluation.md",
+          "locator": "N193-1"
+        },
+        {
+          "path": "knowledge/sources/nndc-2017-193bi-level-scheme-evaluation.md",
+          "locator": "N193-2"
+        },
+        {
+          "path": "knowledge/sources/nndc-2017-193bi-level-scheme-evaluation.md",
+          "locator": "N193-3"
+        },
+        {
+          "path": "knowledge/sources/nndc-2017-193bi-level-scheme-evaluation.md",
+          "locator": "N193-4"
+        },
+        {
+          "path": "knowledge/sources/nndc-2017-193bi-level-scheme-evaluation.md",
+          "locator": "N193-5"
+        },
+        {
+          "path": "knowledge/sources/nndc-2017-193bi-level-scheme-evaluation.md",
+          "locator": "N193-6"
+        },
+        {
+          "path": "knowledge/sources/nndc-2017-193bi-level-scheme-evaluation.md",
+          "locator": "N193-7"
+        },
+        {
+          "path": "knowledge/sources/nndc-2017-193bi-level-scheme-evaluation.md",
+          "locator": "N193-8"
+        },
+        {
+          "path": "knowledge/sources/nndc-2017-193bi-level-scheme-evaluation.md",
+          "locator": "N193-9"
+        },
+        {
+          "path": "knowledge/sources/nndc-2017-193bi-level-scheme-evaluation.md",
+          "locator": "N193-10"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/methods/level-scheme-reconstruction.md",
+      "summary": "真实evaluation crosswalk与79-check；明确整数/调整精度、Q≠E2、352.3 triangle冲突、parent conditional photon/totalbranch区别。",
+      "anchor": "原图、评价精度与赋值冲突的crosswalk",
+      "sources": [
+        {
+          "path": "knowledge/sources/nndc-2017-193bi-level-scheme-evaluation.md",
+          "locator": "N193-3"
+        },
+        {
+          "path": "knowledge/sources/nndc-2017-193bi-level-scheme-evaluation.md",
+          "locator": "N193-4"
+        },
+        {
+          "path": "knowledge/sources/nndc-2017-193bi-level-scheme-evaluation.md",
+          "locator": "N193-5"
+        },
+        {
+          "path": "knowledge/sources/nndc-2017-193bi-level-scheme-evaluation.md",
+          "locator": "N193-6"
+        },
+        {
+          "path": "knowledge/sources/nndc-2017-193bi-level-scheme-evaluation.md",
+          "locator": "N193-7"
+        },
+        {
+          "path": "knowledge/sources/nndc-2017-193bi-level-scheme-evaluation.md",
+          "locator": "N193-8"
+        },
+        {
+          "path": "knowledge/sources/nndc-2017-193bi-level-scheme-evaluation.md",
+          "locator": "N193-10"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/index.md",
+      "summary": "新增193Bi官方评价来源导航，注明共享2015He27与CC/model边界。",
+      "anchor": "nndc-2017-193bi-level-scheme-evaluation",
+      "sources": [
+        {
+          "path": "knowledge/sources/nndc-2017-193bi-level-scheme-evaluation.md",
+          "locator": "N193-1"
+        }
       ]
     }
   ]
 }
 ```
+
+### Ref7 原始寿命依赖的有界外部核验
+
+本段保存了[原文前依赖回忆](20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/nieminen-before-source-recall.md)，以nature-academic-search/nature-downloader做一个DOI pack。Crossref确认Nieminen2004题名、作者、卷69/DOI；arXiv初查询400，简化query0结果；OpenAlex exact DOI closed，OA downloader exit0但下载0、oa_not_found；APS前缀502、直接HTTPS403 HTML，JYX候选API超时，Scholar工具超时。详见[access recap](20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/nieminen-access-recap.json)。自动confirmed_oa标签未采信：APS default license不代表OA，且同manifest的Unpaywall为false；candidate URL不等于PDF已取。
+
+未新增Nieminenprimary source页或猜测其寿命方法/数据谱系；153-ns仍为HE15-12的外部bandhead引用，canonical source页已固化此边界。保持研究active，转向公开193Bi evaluation做版本/locator/依赖审计，不将评估当独立复测。
+
+### NNDC193Bi evaluation：实际数据crosswalk与weak-line反证
+
+[评估来源前预测](20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/evaluation-before-source-recall.md)先于数据打开。旧NNDC接口404、IAEA403后，解析NNDC实际form取得193083001/193083004两个官方ENSDF对象（827/819行，201709；ADOPTED有2019ERR）。SHA/version/POST参数与精确locators固化到[[nndc-2017-193bi-level-scheme-evaluation]]；raw保持不变，文本临时保存，raw槽仅reserved/unpopulated。NDS381页论文未全读，实际范围为selected data-object audit。
+
+代码 `system/scripts/day14_ensdf_crosswalk.py` 实际exit0，79/79 identity/column/RI/weak-line/SD/条件branch检查通过。五level为605.53(18)、928.93(21)、1228.13(21)、1555.30(25)、1875.1(3)keV；原七γ中心值一致，reaction RI为原表0.1倍，selected adopted母态又重标强线100。N193-2/3明确采用2015He27并least-squares/quadrature处理；它验证评价规则，未给jointΣ，也不是独立复测。
+
+最实质的反证：N193-5的393/394只列Q，明确shared negativePOL与placement-implied(E2)不一致，order未established；N193-6的352.3 multipolarity留空，评论原Table I(13/2−)→(11/2−)/M1与Figure2在1610的15/2−冲突。已视觉回看PDF p.9与p.7，新增primarysource HE15-15；若Figure2 ΔI=2，M1被single-photon triangle排除，但不能据此选出最终spin。原source的tentative标签与needs_review不清除。
+
+N193-7取得的是pure-multipole BrIcc/Frozen-Orbitals CC，更新“ICC完全缺失”的边界：计算值有了，δ/branch completeness/parentτ仍未给。在两已报告channel的条件模型中，三母态的M1photon fractions为0.5142/0.5276/0.4416，含conversion的M1conditional branches为0.7543/0.7206/0.6138，不是实测totalbranch或absoluteB。N193-8把bandhead153-ns引用定位到604.7γ(t)/2004Ni06，compiler flight/intensity摘要不替代Ni04完整方法。N193-9保留14个X表达式与unplaced1836candidate。
+
+Canonical知识已写回source、method及thesis matrix；[[level-scheme-reconstruction]]保存完整matrix、公式、normalization和赋值冲突。最高信息路线仍是解除这些具体未定约束，不以重复query或更多校准位数判结构。
 
 ## Open questions and belief revision
 
@@ -210,3 +414,9 @@ HE15-9的实际未定双线是核心反例：energy sum、共享R/A和假设的�
 本checkpoint实际验收：report/card/writeback均valid；wiki_lint --fail-on error exit0，0 errors/128 warnings（107既有citation key、18既有未填raw槽、3reaction parser）；git diff --check exit0；protected PLAN/Bib哈希与raw全树size/mtime均匹配基线。第一次lint exit1因inline矩阵被识别成wikilink，已改为无歧义的行列记法并回归。Gitee实际结果仅run receipt；本段内容通过验收后按显式manifest发布。恢复提示已保存[continuation-prompt](20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/continuation-prompt.md)。本报告不是研究收束声明；研究截止保持原receipt，不因卡片或一个来源完成提前结束。
 
 当前快照 2026-10-14T19:35:55.416781+08:00，距原截止1164.1分钟；下一日prompt已准备入口、未创建新session/未计Day15。QMD/overview本次deferred，未扩大维护范围。下一步：刷新clock/候选池，完成同一问题的conditional gate、composite-response与最小branch/time设计；若当前问题局部饱和，再查恰好下一张Day15作无学分预习。任何正式Day15学分留待其独立日run，Day16不打开。
+
+### Checkpoint 002 实测与续接
+
+2026-10-14T21:26:21.851052+08:00；距原截止1053.6分钟，research/goal仍active。35/37/79检查三段均exit0；本段lint exit0（0errors/129warnings：107citation key、19raw slot、3reaction parser），新slot为未归档的公开NNDC对象；首次新source缺Summary/Extracted Pages已补齐并回归。report/card/writeback8items/5pages与protected/rawmetadata通过；diff验收随后同batch记录。
+
+本段知识增量是conditional gate/shared-count/低能γ功效与实际NNDCversion/assignment/ICC crosswalk，未给新spin、absoluteB或mode结论。Checkpoint001已Gitee发布，当前批次稳定subject为 `Audit DAY14 evaluated assignments and conditional branch gates`；exacthash/actualpush仅runreceipt。Clockcheckpoint001只验证queued，未冒称delivery。下一高信息currentroute：shared negativePOL能约束哪种joint(E2,E2)命题及其calibration/weight/geometry边界；之后刷新候选池，若饱和再读恰好Day15无学分预习。Day15未计卡，Day16未打开。

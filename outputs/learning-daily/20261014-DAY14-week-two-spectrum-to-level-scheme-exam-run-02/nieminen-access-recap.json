@@ -1,0 +1,17 @@
+{
+  "doi": "10.1103/PhysRevC.69.064326",
+  "metadata_verified": "Crossref DOI/title/authors/2004/volume69, article064326 fromHerzanRef7",
+  "full_text_status": "not-obtained",
+  "methods_or_experiment_independence_verified": false,
+  "routes": {
+    "arxiv_initial": "query400; simplified querynoresults",
+    "openalex_exact": "closed; no indexed OA location",
+    "downloader": "exit0 but oa_not_found; downloaded0; no-si",
+    "publisher_pdf_prefix": "502",
+    "publisher_https_pdf": "403 HTML, notPDF",
+    "jyx_api_candidate": "ReadTimeout",
+    "scholar": "tooltimeout"
+  },
+  "automated_OA_label_boundary": "Downloader oaAssessment=confirmed_oa is not adopted: aps-default-license is not an OA license; its own unpaywall saysis_oa=false and OpenAlex isclosed. Discoverycandidate status also does not attest license or full text.",
+  "consequence": "153ns remains cited externalBandhead half-life inHE15-12; no newprimary claims or event-independence claim; no sourcepage fabricated"
+}

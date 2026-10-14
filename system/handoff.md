@@ -8,13 +8,15 @@ updated: 2026-10-14
 
 ## Active handoff — DAY14 formal exam and continuous study
 
-Run `2026-10-14-day-14-02` / session `01a13a0e-e8bd-7251-b970-f6975679e281`；原research cutoff `2026-10-15T15:00:00+08:00`不改，goal/research仍active。FormalDay14内容已完成：primed来源前回忆冻结、Herzáň全文主线/一图一表/七边、shared-doublet与unknownX边界、35-check相关cycle/标定exercise、六维21/24与weekly REFLECT。三份knowledge真实增量、唯一writeback4items；原sourceflags保留，event-level L4 not-ready。
+Run `2026-10-14-day-14-02` / session `01a13a0e-e8bd-7251-b970-f6975679e281`；原research截止 `2026-10-15T15:00:00+08:00`不改，goal/researchactive。FormalDay14已published（primedrecall、Herzáň主线/图表/七边、六维21/24与weeklyREFLECT），继续本card学习；state仍next14/count13，closeout只计Day14一次。
 
-检查：report/card/writeback/protected/rawmetadata/diff通过；lint exit0（0errors/128warnings）；初次matrix-wikilink error已修复。日报 `outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam.md`；receipt/run-dir为同stem的`-run-02/`；续接prompt已保存。课程credit仅在H3发布后推进一次，当前仍next14/count13。当前内容稳定pointer main / `Complete DAY14 spectrum-to-level-scheme formal exam`；精确hash与actual push仅receipt。
+最新2026-10-14T21:26:21.851052+08:00：35+37+79-check三段已通过；conditional gate/unknownbranch/sharedcounts、公开ENSDF193Bi2017/2019两个对象及weak352/393/394冲突、模型ICC/photon fractions写回5knowledgepages，唯一writeback8items。NNDC明确2015He27/superseding旧版本，是compiled/evaluated依赖；NI04primary仍未取得，不能认证原完整方法/independentacquisition。原reviewflags/raw/PLAN/Bib保留，19rawslots含本次NNDC未归档槽，event-levelL4仍notready。
 
-下一current问题：conditional gate/branch互斥与response辨识，或能定位393/394 endpoint/time/tag的最小设计。未以本checkpoint结束时窗；局部饱和后最多查下一张Day15无学分预习，不打开Day16。Day15入口prompt已准备、不启动session。Farmer8686与同thread clock75781保留，queueaccepted不冒称delivery。
+本段lint0errors/129warnings、report/card/writeback/protected/rawmetadata通过；首次requiredsourceheads错误修复留证。Checkpoint1 content已Gitee发布；当前batchpointer main / `Audit DAY14 evaluated assignments and conditional branch gates`，exacthash/actualoutcome仅receipt。日报同stem `outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam.md`；run-dir`-run-02/`，脚本/对象/回执与continuation见其中。
 
-继承Day6–9/Day13回执、旧log与daemon修改排除stage；raw/PLAN/Bib未动。恢复 `codex resume 01a13a0e-e8bd-7251-b970-f6975679e281 -C /workspace/wiki -s danger-full-access -a never`。
+下一current有价值route：shared negativePOL的joint-hypothesis约束与calibration/weight/geometry，未做该数值code；当前问题饱和后最多恰好Day15无学分预习，不打开Day16。Day15入口已准备，不创建session。Farmer8686/同threadclock75781保留；clock001queued未observeddelivery，勿造ack。继承Day6–9/Day13/daemon/旧log排除stage。
+
+恢复 `codex resume 01a13a0e-e8bd-7251-b970-f6975679e281 -C /workspace/wiki -s danger-full-access -a never`。
 
 ## Previous active handoff — DAY13 continuous study reopened by user
 

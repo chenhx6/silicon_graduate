@@ -1,0 +1,26 @@
+[
+  {
+    "route": "nndc-landing",
+    "url": "https://www.nndc.bnl.gov/ensdf/",
+    "status": 200,
+    "mime": "text/html;charset=UTF-8",
+    "bytes": 107398,
+    "sha256": "c369e5be63c1c7a54994e56282161e5cc1b6227eefc83d623d882b5074642bda",
+    "saved": "tmp/day14-20261014/nndc-landing.html",
+    "links": [
+      {
+        "label": "27 new datasets added within the last month!",
+        "href": "/ensdf/DatasetFetchServlet?datasource=ensdf&searchint=Search&interval=month&searchType=recent"
+      }
+    ],
+    "preview": "Evaluated and Compiled Nuclear Structure Data Quick Search By Reaction By Decay Nuclide, Mass, or Symbol: Search (208Pb, pb-208, 144, 1n (neutron), C, Ca, etc.) Use this form to retrieve datasets based on reaction-related quantities. Non-blank criteria will be \"anded\" together to filter the datasets.\n                                The \"Z range\" and \"A range\" quantities refer to the nuclides for which datasets will be retrieved. Indexed reaction values: (non-blank fields will be \"anded\") Nuclide Z range: (56, 80-82, 102-, Ca, zr-mo, -Na, ...) Nuclide A range: (56, 120-130, 208-, ...) Reaction: ( (n,p), (12c,a), n,g ...) Target: (58Ni, pb-208, ...) Subject: (none) Coulomb Excitation GDR HI,XNG IAR Inelastic Mossbauer Thermal n,g Search Reset Nuclide Z range: (56, 80-82, 102-, Ca, zr-mo, -Na, ...) Nuclide A range: (56, 120-130, 208-, ...) Parent: (60Co, cf-252, ...) Decay: any B- 2B- B-D B-N B-2N B-A IT B+/EC 2B+ 2EC B+P ECP B+2P EC2P B+3P EC3P B+A ECA 2N P 2P A 14C SF Muonic Atom Search Reset Evaluated Nuclear Structure Data File 27 new datasets added within the last month! ENSDF Archives List of All Evaluations ENSDF JSON Schema Contact Us Color Code Time Since Cutoff Date XUNDL Se"
+  },
+  {
+    "route": "iaea-levels-candidate",
+    "url": "https://nds.iaea.org/relnsd/v1/data?fields=levels&nuclides=193bi",
+    "status": 403,
+    "mime": "text/html; charset=UTF-8",
+    "bytes": 5615,
+    "sha256": "6ebc3f6694286f50fa208baeb434b4f58d8375453047ac8608c9ec8f10799174"
+  }
+]
