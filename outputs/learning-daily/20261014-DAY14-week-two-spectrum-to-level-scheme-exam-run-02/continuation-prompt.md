@@ -27,3 +27,9 @@ run_id `2026-10-14-day-14-02`；session `01a13a0e-e8bd-7251-b970-f6975679e281`�
 Shared-POL70-check、ADO28-check及误差图已完成，canonical写回linear-polarization-asymmetry/level-scheme/angular-distribution/Zhengsource；日报writeback13items/8changedpages。正式Day14仍21/24；Day15只partial15。最新checkpoint003含实时钟与恢复状态；验收初次缺source回链已修复，实际发布见receipt。
 
 下一current问题：ω1ω2是分离近似，完整γγ joint density/conditional gate可能改变同一target的角响应。先冻结主动回忆，再用RB67-3/Eq3.73作source-local依据，以纯spin cascade构造可核验toy counterexample；不得把toy的角响应、counts或finite acceptance解释成193Bi重测。不打开Day16，不因预习完成或更多同公式代数而提前结束。
+
+## Checkpoint004：conditional response已核验，下一项排序可识别性
+
+35-check 0→L→0 toy完成，full joint不由isotropic marginals分离。12方向E2 R=.729470 vs scalar组式1、disjoint ring、q±4方位与finite cones全部chosen theory；canonical/angular-correlation和source/method已写回，writeback15items/10changedpages、lint0errors/129warnings、AST/protected/raw/review通过。
+
+下一current：order-correlation-before-calculation.md已冻结；用general-spin CG/helicity前向核检验random initial的交换对称性，再对chosen alignment检查何时有信息。不能把0→L→0特例外推actual193Bi，不报告实测排序或显著性；HE15-9和RB67-3是atomic anchors。原截止与same session/goal保留，Day15partial、下一卡不研究。

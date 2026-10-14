@@ -64,7 +64,7 @@ updated: 2026-10-15
 | 外部结构化Crossref核验 | [metadata回执](20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/crossref-herzan-metadata.json)，作者/题名/2015/卷92/DOI一致 | 元数据核验，不是独立实验；返回pages为空，文章号由PDF核验 |
 | Canonical source与方法 | [[herzan-2015-193bi-spectroscopy]] HE15-4–14；[[level-scheme-reconstruction]]新增逐边、cycle、topology、companion sections | 实验测量、联合赋值、作者解释、模型和任务推导分开；旧needs_review全保留 |
 | Zheng2002原扫描全文；DOI留空，身份由期刊页眉与rawhash核验 | [[zheng-2002-ado-coincidence-angular-anisotropy]] Z02-1/6/7/8；PDF pp.1–5，重点p.2 Eq1–5、p.3 Fig1/效率、p.4 Fig2/Ref3 | Day15无学分预习；f的计算偏离与实验标准误差分开；Ref3 DOI [10.1007/s100500170001](https://doi.org/10.1007/s100500170001)仅metadata，2002文依赖对应145Tb实验 |
-| Rose–Brink1967方法依赖局部复核 | [[rose-brink-1967-phase-defined-angular-distributions]] RB67-11，printed316/PDF11 Eq3.24/25；RB67-4，printed320/PDF15 Eq3.40/41的既有直接核验 | formalism，非193Bi新数据；初态polarization、photon helicity、detector sensitivity与ENSDF Q分别定义 |
+| Rose–Brink1967方法依赖局部复核 | [[rose-brink-1967-phase-defined-angular-distributions]] RB67-11，printed316/PDF11 Eq3.24/25；RB67-4，printed320/PDF15 Eq3.40/41的既有直接核验；本段视觉回核printed326/PDF21 Eq3.69–3.73 | formalism，非193Bi新数据；初态polarization、photon helicity、detector sensitivity与ENSDF Q分别定义 |
 
 主要定位：HE15-8是Table I p.3/p.7及Figure2 p.8；HE15-9是p.7 footnote f；HE15-10是p.7 a定义及p.10 Figures3/4；HE15-11是p.13条件性29/2+赋值与p.14 conversion；HE15-12是p.10 Ref7寿命与p.3相对强度；HE15-13是p.19 conversion/SD解释。源页保存每条claim的locator，不用搜索片段当证据。
 
@@ -113,6 +113,16 @@ HE15-13低能γ的设计例（N=5000、ε=.01、branch=1）给46/87-keV零计数
 
 条件接回Day14：若只靠几何乘法f恢复旧common-selection point model的shared mean，需要f≥1.488716，对应self-exclusion必要η≥.32828；145Tb均匀4台组的4/3上界不能移植到JUROGAM或作为实验排除。完整定义、推导、数值和反例已写入[[angular-distribution]]“ADO计算单：额外输入、self-exclusion与误差”；同时按RB67-4修正旧method中初态polarized必需奇K的过强表述。Day15只列partial15，不建formal audit或计学分。
 
+### 条件γγ响应：分离式的可检验边界
+
+[本段来源前回忆](20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/conditional-correlation-before-source-recall.md)明确priming；随后核RB rawhash并视觉读printed326/PDF21 Eq3.69–3.73和Zheng printed910/PDF2 Eq1–5。RB67-3保留random initial、definite parity与helicity-unobserved条件；Z02-9记录原Eq2乘积而不替作者声称角关联已消除。
+
+自设0→L→0、两条pure-electric photon rank L∈{1,2}，spin-matrix/CG/helicity与独立Legendre展开给K1=1+½P2、K2=1+(5/14)P2+(8/7)P4；singleγ均isotropic，joint仍有correlation。完整均匀gate恢复I/(2L+1)，有限gate有conditional density；这不是193Bi或145Tb的新level/spin。
+
+自设32/58/90°各4台、四方位、每组gate效率.04，explicit pair加self-exclusion：E1的R=1，E2的R=.729470，分离组式都给1。无self-exclusion的disjoint 90°ring gate也给E1/E2条件比.760271/.697063，隔离了角关联贡献。只让三极角ΣP2/P4=0仍留q=±4方位harmonic；每圈8方位才对本toy消去K2/K4。自设20°/35°finite cones把某个E2 point K=.594119变为.940478，与Qk卷积和独立quadrature一致。
+
+代码 `system/scripts/day14_conditional_angular_response.py` 实际exit0，[35项结果](20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/conditional-angular-response.json)通过；它与第一组纲图35-check是不同exercise。完整公式、density/effect、参数、数值及边界已固化到[[angular-correlation]]“条件γγ响应：各向同性marginal仍可有角关联”，接回ADO及level scheme方法。结论为limits单γfactorization的充分性、supports逐pair matched-response核验，不给shared393/394新E2/M2/Jπ结论。
+
 ## Counter-evidence and missing companion observables
 
 HE15-9的实际未定双线是核心反例：energy sum、共享R/A和假设的ΔI=2均不足以裁决order。若一条线出现可独立定位的旁路或延迟顺序，应重审中间level；source仍保留括号Jπ与(E2)。HE15-5的quadruplet限制“一个峰是一条γ”的简化；干净622.4直接分支门与323.4级联门的299-keVcomponent差异可能迫使拆峰，但必须控制622/626门纯度、feeding、response和random。
@@ -149,7 +159,7 @@ HE15-9的实际未定双线是核心反例：energy sum、共享R/A和假设的�
 
 ## Durable knowledge delta
 
-本run实际修改八份knowledge Markdown，超出昨日预习的增量为七边逐条证据、相关cycle/标定nullspace、未定doublet shared-quantity边界和parent-lifetime契约。canonical知识路径：
+本run实际修改十份knowledge Markdown，超出昨日预习的增量为七边逐条证据、相关cycle/标定nullspace、未定doublet shared-quantity边界和parent-lifetime契约。canonical知识路径：
 
 - [Herzáň source](../../knowledge/sources/herzan-2015-193bi-spectroscopy.md)：HE15-8–14及正式来源主线/triage。
 - [level-scheme method](../../knowledge/methods/level-scheme-reconstruction.md)：五能级七边、GLS/反例和必要companion。
@@ -410,7 +420,7 @@ HE15-9的实际未定双线是核心反例：energy sum、共享R/A和假设的�
     },
     {
       "knowledge": "knowledge/methods/level-scheme-reconstruction.md",
-      "summary": "将joint POL条件约束、orientation/geometry/selection与spin-parity边界接回level-scheme evidence chain。",
+      "summary": "将joint POL条件约束、orientation/geometry/selection与spin-parity边界接回level-scheme evidence chain。明确同名energy gate未必有共同target-independent effect。",
       "anchor": "Shared POL 对joint命题的条件约束",
       "sources": [
         {
@@ -424,12 +434,16 @@ HE15-9的实际未定双线是核心反例：energy sum、共享R/A和假设的�
         {
           "path": "knowledge/sources/rose-brink-1967-phase-defined-angular-distributions.md",
           "locator": "RB67-11"
+        },
+        {
+          "path": "knowledge/sources/rose-brink-1967-phase-defined-angular-distributions.md",
+          "locator": "RB67-3"
         }
       ]
     },
     {
       "knowledge": "knowledge/sources/zheng-2002-ado-coincidence-angular-anisotropy.md",
-      "summary": "原扫描全文再核，新增组效率/self-exclusion定义、calculated偏离与数据谱系边界；不清review flags。",
+      "summary": "原扫描全文再核，新增组效率/self-exclusion定义、calculated偏离与数据谱系边界；不清review flags。追加Z02-9 Eq2/full-joint迁移边界；不替作者声称correlation已消除。",
       "anchor": "Day15 无学分预习：定义、归一与原始阅读",
       "sources": [
         {
@@ -443,12 +457,16 @@ HE15-9的实际未定双线是核心反例：energy sum、共享R/A和假设的�
         {
           "path": "knowledge/sources/zheng-2002-ado-coincidence-angular-anisotropy.md",
           "locator": "Z02-8"
+        },
+        {
+          "path": "knowledge/sources/zheng-2002-ado-coincidence-angular-anisotropy.md",
+          "locator": "Z02-9"
         }
       ]
     },
     {
       "knowledge": "knowledge/methods/angular-distribution.md",
-      "summary": "固化28-check ADO自设练习、f额外输入、逐台response反例、uncertainty/covariance和有条件Day14几何桥；仅partial15。",
+      "summary": "固化28-check ADO自设练习、f额外输入、逐台response反例、uncertainty/covariance和有条件Day14几何桥；仅partial15。接回35-check conditional γγ response。",
       "anchor": "ADO计算单：额外输入、self-exclusion与误差",
       "sources": [
         {
@@ -470,6 +488,14 @@ HE15-9的实际未定双线是核心反例：energy sum、共享R/A和假设的�
         {
           "path": "knowledge/sources/herzan-2015-193bi-spectroscopy.md",
           "locator": "HE15-9"
+        },
+        {
+          "path": "knowledge/sources/zheng-2002-ado-coincidence-angular-anisotropy.md",
+          "locator": "Z02-9"
+        },
+        {
+          "path": "knowledge/sources/rose-brink-1967-phase-defined-angular-distributions.md",
+          "locator": "RB67-3"
         }
       ]
     },
@@ -483,6 +509,44 @@ HE15-9的实际未定双线是核心反例：energy sum、共享R/A和假设的�
           "locator": "RB67-4"
         }
       ]
+    },
+    {
+      "knowledge": "knowledge/sources/rose-brink-1967-phase-defined-angular-distributions.md",
+      "summary": "局部视觉回核printed326/PDF21 Eq3.69–3.73，保留parity/helicity/random-initial条件和任务toy分层；不重复全42页阅读或清review。",
+      "anchor": "Day14 条件γγ响应的局部回核",
+      "sources": [
+        {
+          "path": "knowledge/sources/rose-brink-1967-phase-defined-angular-distributions.md",
+          "locator": "RB67-3"
+        },
+        {
+          "path": "knowledge/sources/rose-brink-1967-phase-defined-angular-distributions.md",
+          "locator": "RB67-11"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/methods/angular-correlation.md",
+      "summary": "35-check conditional γγ toy：isotropic marginals不保证factorization，K1/K2、ρ/effect、pair/self-exclusion、azimuth cancellation与finite cones；未做真实谱重放。",
+      "anchor": "条件γγ响应：各向同性marginal仍可有角关联",
+      "sources": [
+        {
+          "path": "knowledge/sources/rose-brink-1967-phase-defined-angular-distributions.md",
+          "locator": "RB67-3"
+        },
+        {
+          "path": "knowledge/sources/rose-brink-1967-phase-defined-angular-distributions.md",
+          "locator": "RB67-11"
+        },
+        {
+          "path": "knowledge/sources/zheng-2002-ado-coincidence-angular-anisotropy.md",
+          "locator": "Z02-6"
+        },
+        {
+          "path": "knowledge/sources/zheng-2002-ado-coincidence-angular-anisotropy.md",
+          "locator": "Z02-9"
+        }
+      ]
     }
   ]
 }
@@ -492,6 +556,11 @@ HE15-9的实际未定双线是核心反例：energy sum、共享R/A和假设的�
 
 - [Zheng2002 source](../../knowledge/sources/zheng-2002-ado-coincidence-angular-anisotropy.md)：Z02-6/7/8，原式组效率、calculated deviation和Ref3谱系。
 - [角分布方法](../../knowledge/methods/angular-distribution.md)：ADO计算单与group/individual response、额外输入、covariance、条件桥，以及RB67-4的even-K条件修正。
+
+### 条件响应的canonical增量
+
+- [角关联方法](../../knowledge/methods/angular-correlation.md)：conditional density、K1/K2、pair/azimuth/finite-cone反例与matched-response输入。
+- [RB1967 source](../../knowledge/sources/rose-brink-1967-phase-defined-angular-distributions.md)：局部原图/公式条件复核，RB67-3/11；[Zheng source](../../knowledge/sources/zheng-2002-ado-coincidence-angular-anisotropy.md)新增Z02-9迁移边界。
 
 ### Ref7 原始寿命依赖的有界外部核验
 
@@ -565,3 +634,10 @@ PureE2在合法取向下可negative P；在本段common selection/轴对称/poin
 本批次稳定指针 main / `Bound DAY14 shared polarization and ADO response assumptions`；精确hash与实际Gitee结果记录在runreceipt。恢复点[checkpoint003](20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/checkpoint-003.md)及continuation已存在。正式21/24不变，Day15仅partial预习；下一current route为conditional γγ joint response、matched gate与finite acceptance，实际193Bi事件重拟合仍not-ready。
 
 暂存门首次发现Matplotlib SVG尾空格，未commit；已在两份export函数去尾空格、固定SVG hash salt并去掉动态date，重执行70/28检查均exit0，数值保持。之后重新验cached diff。
+
+
+### Checkpoint004 实测与继续
+
+2026-10-15 00:35 Asia/Shanghai，距原截止865.0分钟；research仍active。conditional-response脚本35/35、exit0；report/card/writeback15items/10份本run修改知识页valid。wiki_lint --fail-on error exit0、0errors/129warnings（107citation key、19raw slots、3reaction parser）；git diff --check exit0；AST/protected/raw metadata及原review flags通过。原source仅局部回核所用公式，不重复宣称新全文阅读。
+
+上批次已Gitee发布；本批次稳定指针 main / `Derive DAY14 conditional gamma coincidence response`，实际H3/hash仅receipt。恢复见[checkpoint004](20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/checkpoint-004.md)和continuation。下一current为general-spin近邻双线排序可识别性，计算前回忆已保存；不计Day15、不停止整段时窗。

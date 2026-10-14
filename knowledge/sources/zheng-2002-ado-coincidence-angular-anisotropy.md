@@ -3,7 +3,7 @@ type: source
 title: "符合模式下的 γ 射线各向异性度测量"
 aliases: ["Zheng 2002 ADO", "Gamma-Ray Anisotropy Measurement in Coincidence Mode"]
 created: 2026-09-20
-updated: 2026-10-14
+updated: 2026-10-15
 status: ai-draft
 review_status: unreviewed
 source_type: method
@@ -90,6 +90,7 @@ tags: [ado, coincidence-mode, gamma-ray-anisotropy, multipolarity, detector-effi
 | Z02-6 | 式4给f_ADO=(C−ω2(θS)εS(γ2)/NS)/(C−ω2(θL)εL(γ2)/NL)，式5的C=Σg=S,M,L ω2(θg)εg(γ2)。εg是组效率之和，1/Ng来自不能与同一探测器自符合的修正；同组探测器效率不同时原式近似成立。 | method-definition | direct | PDF p.2，式2/4/5与式2后说明；PDF p.3，组效率说明 | true |
 | Z02-7 | Fig1的f(Eγ2)用已测效率与给定ω2计算，正文取Eγ2=100–1500keV、步长50keV；正文5.2/3.2百分数不替代count、效率、alignment/feeding、背景和covariance的完整uncertainty。后半是本任务的使用边界。 | method-and-boundary | mixed | PDF p.3，Fig1和计算说明 | true |
 | Z02-8 | 作者明确以145Tb高自旋实验Ref3为例，Fig2的145Tb及邻核参考线来自该实验所获数据；Ref3为Zhou/Zheng/Zhang et al., EPJA12,253–255(2001)。2002方法文与对应实验引用不能重复计独立采集。 | source-lineage | direct | PDF p.1末段；PDF pp.3–4，Fig2/参考文献3 | true |
+| Z02-9 | 原Eq2将角组计数写成待测γ的ω1乘门控γ各组ω2及效率/self-exclusion项；该式未显式提供relative-angle γγ kernel或方位/pair response。不能从singleγ marginals把该乘积当成任意级联的full joint probability，是本任务的使用边界，并非作者声明全部角关联已消除。 | method-and-boundary | mixed | PDF p.2 / printed p.910，Eq2及前后定义 | true |
 
 ## Nuclear Structure Information
 
@@ -180,3 +181,9 @@ Raw扫描件无text layer，未用OCR填式子。原式精确分开targetγ1效�
 - P0科学：Z02-6的组/单探测器efficiency convention、Eq3乘f方向、Z02-7的calculated deviation与experimental error区分已回raw核；无technical hard P0。
 - P1：group formula要求within-group response近似；γγ joint response的factorization、reference gate和finite acceptance仍需actual数据。Z02-8只有明确publication依赖，不补event-ID。Source阈值不移植至193Bi。
 - P2：方法/worksheet/图已回链；P3：没有human-review、Zotero/Bib改写、raw写入或Day15学分。
+
+## Day14 Eq2的角关联迁移边界
+
+在本run内先冻结conditional-response recall，再视觉回看PDF p.2 / printed910的Eq1–5和原定义：ω1/ω2为两条γ归一角分布；Eq2含二者乘积及同detector排除，作者明示同组效率不同时近似成立。原页面未给两direction相对角或azimuth的full joint kernel；本任务不把“未显式给出”改写为作者宣称角关联不存在。
+
+[[angular-correlation]]“条件γγ响应：各向同性marginal仍可有角关联”以RB67-3和自设0→L→0级联，给出factorization的可检验反例与balanced geometry/finite-cone控制。它限制Eq4的跨cascade迁移，不否定145Tb本文Fig2的local reference验证，不给原阵列新误差或Jπ。Z02-9新增true，Z02-1–8的既有review flags保留；Day15仍只是无学分preview。

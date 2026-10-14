@@ -3,7 +3,7 @@ type: source
 title: "Rose and Brink 1967 - Angular distributions in phase-defined reduced matrix elements"
 aliases: [Rose-Brink 1967 angular distributions]
 created: 2026-09-21
-updated: 2026-10-08
+updated: 2026-10-15
 status: ai-draft
 review_status: unreviewed
 source_type: theory-method-review
@@ -546,6 +546,12 @@ Scalar m块与Σm Dmq Dmq′*=δqq′给每方向局部H=I2/2，normalized W=1�
 若sameL两E/M types同时coherent，Schur只令m块为identity，保留multiplicity matrix CL；isotropy不自动消E/Mcoherence或Pc，RB67-25/27仍适用。上述ΠO按ranks分区；省去sameL的一type时不能拿它作typeprojector。FurtherCPTP/CM/recoil/sourceposition/temporal/detector averaging可能混rank并失ε lower bound；upper contraction保留，但须有output-mode/effect或pullbackprojector审计。
 
 旧κ2/5/7压缩在含finalspin的jointHemit，不能把较小Dph直接套同κ；这里没有另算photon-onlypointnorm或实现coherentdetector。32项originalA/B/C CG/blocks与copycontrols及独立12项focusedCG/3项actualcase comparisons经parent复现，7项scope审计groundedno-op，0实质问题；source locators是p.316Eq.3.24、p.317Eq.3.28、p.318Eq.3.29与p.320parity条件。结论是L2 theory，无实际实验多极赋值、coherent apparatus或nuclearrealization。
+
+## Day14 条件γγ响应的局部回核
+
+本段不是重新读取42页全文。保存primed来源前回忆后，核raw SHA256并视觉检查printed326 / PDF21的Eq3.69–3.73及说明。Eq3.69的populating-γ circular selection可使intermediate polarization/odd tensors出现；helicity未观测且三核态parity确定时，Eq3.71只留even K。Eq3.73在randomly populated初态下，将populating response与subsequent radiation coefficients逐K组合；它不是把两个unconditional singleγ marginals简单相乘。此前RB67-3/11及所有needs_review状态保持。
+
+[[angular-correlation]]的新章节从本formalism重构自设0→L→0 pure-electric toy，35项amplitude/Legendre/density/pair/finite-cone checks通过。toy的spin、几何、角组比和Qk数值是任务推导，不是原文报告的145Tb/193Bi实验。几何fully balanced还要检验方位harmonics、效率和实际conditional acceptance；没有新增source-level核素赋值、mixedδ解或human review。
 
 ## Human Review Triage
 

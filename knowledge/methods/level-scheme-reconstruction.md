@@ -216,6 +216,8 @@ N193-4/10及79-check固定列crosswalk核对七条γ的中心值、mother、γ�
 
 下一必要输入为matched-gate counts、detector angular/Compton response、a/Q/observables covariance、背景与独立spin/parity/转换约束。现有资料不足以对实际193Bi完成这套forward replay；任何point-model通过/失败都不替代原experiment或解除source review flags。
 
+[[angular-correlation]]“条件γγ响应：各向同性marginal仍可有角关联”补充35-check source-grounded toy，明确单γ边界不等于joint factorization：同名energy gate因self-detector/pair/time/Compton选取可有不同target-dependent effect。它解释为何需要实际matched-pair response，未将.729470等toy结果当193Bi重测，未撤销原共同条件下的pureE2必要域或给weak lines新的赋值。
+
 ## Sources
 
 - [[herzan-2015-193bi-spectroscopy]] HE15-4：PDF p.3 Table I / p.8 Fig.2 / p.2 setup-specific ratios。

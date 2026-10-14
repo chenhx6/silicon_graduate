@@ -8,13 +8,13 @@ updated: 2026-10-14
 
 ## Active handoff — DAY14 formal exam and continuous study
 
-Run `2026-10-14-day-14-02` / session `01a13a0e-e8bd-7251-b970-f6975679e281`；原研究截止 `2026-10-15T15:00:00+08:00`不变，goal/research active。正式Day14已发布：primed recall、Herzáň全文/图表/七边、21/24与weekly REFLECT；官方state仍next14/count13，closeout只计Day14一次；Day15仅partial预习。
+Run `2026-10-14-day-14-02` / session `01a13a0e-e8bd-7251-b970-f6975679e281`；原截止 `2026-10-15T15:00:00+08:00`不变，goal/research active。FormalDay14已发布：primed recall、Herzáň主线/图表/七边、21/24/weekly REFLECT；官方next14/count13待closeout只计一次。Day15仅partial预习，不研究下一卡。
 
-最新checkpoint003（2026-10-15 00:02 Asia/Shanghai）：70-check shared-POL必要域/取向反例与28-check ADO组/逐台self-exclusion、额外输入及误差图完成；canonical见linear-polarization-asymmetry、angular-distribution和level-scheme-reconstruction。日报唯一writeback13items、8份本run修改知识页；实际counts/response/Σ仍缺，不重定393/394或352.3的Jπ/M2。原review/raw/PLAN/Bib保留。NNDC复用2015He27；Zheng2002复用145Tb Ref3；Nieminen原文仍未取得。
+最新checkpoint004（10-15 00:35 Asia/Shanghai）：在已完成shared-POL70/ADO28检查后，conditional γγ35-check以pure-electric 0→L→0隔离factorization、pair/self-exclusion、φ与finite-cone边界。Canonical angular-correlation及关联source/method保存完整推导；日报唯一writeback15items/10changedpages。实际193Bi/145Tb events、response/Σ仍缺，未给新weak-line Jπ/M2/order或模式结论；原review/raw/PLAN/Bib保留，source lineage不增加独立采集。
 
-本批次稳定指针 main / `Bound DAY14 shared polarization and ADO response assumptions`；精确hash和发布结果只run receipt。Checks及失败修复见run-dir checkpoint003/content-checkpoint003；前两批Gitee结果已记录。下一current路线：完整conditional γγ response相对ω1ω2分离模型的差异、matched gates与acceptance检验；不因卡片/预习完成结束时窗。Day15不计卡、Day16不研究。
+本批次稳定指针 main / `Derive DAY14 conditional gamma coincidence response`；上批次shared-POL/ADO已Gitee发布，实际hash/H3仅receipt。当前lint0errors/129warnings、report/card/writeback/diff/protected/raw/AST通过。下一current：general-spin、随机/取向初态下近邻双线顺序的角关联可识别性，冻结回忆在本run，尚未新code。
 
-Clock001实际送达已ack，其他queued ID不得假ack。Farmer8686/clock75781保留，不重启；继承Day6–9/Day13/daemon/旧log排除stage。恢复 `codex resume 01a13a0e-e8bd-7251-b970-f6975679e281 -C /workspace/wiki -s danger-full-access -a never`。日报和本run `-run-02/continuation-prompt.md`保持可恢复。
+Clock001实际ack，其它queued IDs不得伪造；Farmer8686/clock75781保留，不重启。继承Day6–9/Day13/daemon/旧log不stage。恢复 `codex resume 01a13a0e-e8bd-7251-b970-f6975679e281 -C /workspace/wiki -s danger-full-access -a never`；run-dir`-run-02/`中的checkpoint004/continuation可续接。
 
 ## Previous active handoff — DAY13 continuous study reopened by user
 

@@ -127,6 +127,12 @@ A_g=\sum_{i\in g}a_i,\quad
 
 Z02-8明确2002方法文用 Ref3 的 `145Tb` 实验数据，DOI `10.1007/s100500170001` 只核到metadata；不能把方法文与对应实验引用计成独立采集。当前最高信息问题是：原式的 `ω1ω2` 分离响应在什么 gate/acceptance 条件下逼近完整 joint γγ response，怎样用同阵列参考线与换门检验。需要实际 detector-pair acceptance、alignment/feeding、净计数及 covariance；这些输入缺失时保持条件推导与实验事实分层。
 
+### 分离式与完整符合响应的补充
+
+[[angular-correlation]]“条件γγ响应：各向同性marginal仍可有角关联”在RB67-3与Z02-9基础上给出35-check独立toy：pure E2的两个singleγ均isotropic，但自设12方向pair响应给R=.729470，Eq4分离组公式给1。无self-exclusion的ring gate也产生非1条件比，因此self-exclusion与角关联是两项不同的依赖。只平衡ΣP2/P4的极角不保证消去q=±4方位项；真实response须有逐pair acceptance。
+
+[[rose-brink-1967-phase-defined-angular-distributions]] RB67-3对应printed326/PDF21 Eq3.73；[[zheng-2002-ado-coincidence-angular-anisotropy]] Z02-9对应printed910/PDF2 Eq2。这个结果限定公式迁移，并不重估Zheng或Herzáň的实验误差。共同energy gate仍可能因same-detector/pair/Compton cut而给target-dependent gate effect；原point outer set的common-selection条件应通过实际响应核验。
+
 ## Sources
 
 [[twin-1970-polarization-angular-correlation-40k]] combines near-threshold `a2/a4` angular distributions, γγ correlations and Compton polarization; it shows that joint fits can resolve δ branches that a single angular distribution cannot.

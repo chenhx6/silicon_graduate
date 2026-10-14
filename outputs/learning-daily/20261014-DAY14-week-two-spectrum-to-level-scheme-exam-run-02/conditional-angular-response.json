@@ -1,0 +1,185 @@
+{
+  "kind": "L2 chosen 0 -> L -> 0 theory cascade; no experimental data",
+  "source_locators": [
+    "RB67-3 / printed326 PDF21 Eq3.73",
+    "RB67-11 / printed316 PDF11 Eq3.24",
+    "Z02-6 / printed910 PDF2 Eq2"
+  ],
+  "legendre_coefficients": {
+    "L1": [
+      1.0,
+      0.0,
+      0.5
+    ],
+    "L2": [
+      1.0,
+      0.0,
+      0.35714285714285715,
+      0.0,
+      1.1428571428571428
+    ]
+  },
+  "chosen_12_detector_response": [
+    {
+      "rank": 1,
+      "chosen_R_ADO": 1.0,
+      "factorized_group_f_ADO": 1.0,
+      "chosen_angle_counts_per_unit_parent_flow": [
+        0.0042,
+        0.006299999999999998,
+        0.00525
+      ],
+      "per_target_gate_response": [
+        0.105,
+        0.105,
+        0.105,
+        0.105,
+        0.10499999999999998,
+        0.105,
+        0.105,
+        0.10499999999999998,
+        0.105,
+        0.105,
+        0.105,
+        0.105
+      ]
+    },
+    {
+      "rank": 2,
+      "chosen_R_ADO": 0.7294698103932743,
+      "factorized_group_f_ADO": 1.0,
+      "chosen_angle_counts_per_unit_parent_flow": [
+        0.003927712402687394,
+        0.006953957664673252,
+        0.006730423155842927
+      ],
+      "per_target_gate_response": [
+        0.09819281006718483,
+        0.09819281006718483,
+        0.09819281006718483,
+        0.09819281006718483,
+        0.11589929441122088,
+        0.11589929441122088,
+        0.11589929441122088,
+        0.11589929441122088,
+        0.13460846311685853,
+        0.13460846311685853,
+        0.13460846311685853,
+        0.13460846311685853
+      ]
+    }
+  ],
+  "disjoint_90degree_ring_gate": [
+    {
+      "rank": 1,
+      "intrinsic_single_gamma_ratio": 1,
+      "factorized_no_self_exclusion_prediction": 1,
+      "conditional_ring_ratio": 0.7602714755351537,
+      "conditional_W_at_32_90": [
+        0.855305409977048,
+        1.125
+      ]
+    },
+    {
+      "rank": 2,
+      "intrinsic_single_gamma_ratio": 1,
+      "factorized_no_self_exclusion_prediction": 1,
+      "conditional_ring_ratio": 0.6970634733764391,
+      "conditional_W_at_32_90": [
+        0.8713293417205489,
+        1.25
+      ]
+    }
+  ],
+  "ideal_polar_angles_four_azimuths_response_at_phi_0_pi4": [
+    1.026285580729918,
+    0.9737144192700823
+  ],
+  "finite_cones": [
+    {
+      "rank": 1,
+      "cone_halfangles_deg": [
+        20,
+        35
+      ],
+      "point_response": 1.104153584268547,
+      "averaged_response": 1.0707239448794716,
+      "Qk_target_gate": [
+        {
+          "k": 2,
+          "target": 0.9113574211726967,
+          "gate": 0.7450810579759127
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "cone_halfangles_deg": [
+        20,
+        35
+      ],
+      "point_response": 0.5941188453262326,
+      "averaged_response": 0.9404776393755749,
+      "Qk_target_gate": [
+        {
+          "k": 2,
+          "target": 0.9113574211726967,
+          "gate": 0.7450810579759127
+        },
+        {
+          "k": 4,
+          "target": 0.7247924298081007,
+          "gate": 0.3161137712053812
+        }
+      ]
+    }
+  ],
+  "checks": {
+    "L1_positive_joint_kernel": true,
+    "L1_normalized_single_marginal": true,
+    "L1_independent_CG_D_and_Legendre_routes": true,
+    "L1_joint_is_not_product_of_isotropic_marginals": true,
+    "L1_exchange_symmetry": true,
+    "L1_conditional_density_PSD_trace_one": true,
+    "L1_density_effect_equals_joint_kernel": true,
+    "L1_full_angle_gate_erases_conditional_alignment": true,
+    "L2_positive_joint_kernel": true,
+    "L2_normalized_single_marginal": true,
+    "L2_independent_CG_D_and_Legendre_routes": true,
+    "L2_joint_is_not_product_of_isotropic_marginals": true,
+    "L2_exchange_symmetry": true,
+    "L2_conditional_density_PSD_trace_one": true,
+    "L2_density_effect_equals_joint_kernel": true,
+    "L2_full_angle_gate_erases_conditional_alignment": true,
+    "L1_self_pair_exclusion_correct": true,
+    "L1_positive_pair_counts": true,
+    "L1_target_efficiency_scale_cancels": true,
+    "L2_self_pair_exclusion_correct": true,
+    "L2_positive_pair_counts": true,
+    "L2_target_efficiency_scale_cancels": true,
+    "L1_balanced_12_direction_gate_cancels_K2": true,
+    "L2_four_azimuths_do_not_erase_K4": true,
+    "L1_azimuth_ring_addition_theorem_0.559": true,
+    "L1_azimuth_ring_addition_theorem_1.571": true,
+    "L2_azimuth_ring_addition_theorem_0.559": true,
+    "L2_azimuth_ring_addition_theorem_1.571": true,
+    "ideal_three_angles_eight_azimuths_erase_K2_K4": true,
+    "ideal_polar_angles_alone_do_not_erase_azimuth_rank4": true,
+    "zero_efficiency_gate_direction_has_no_effect": true,
+    "L1_finite_cone_numeric_and_Qk_formula_agree": true,
+    "L1_finite_acceptance_changes_response": true,
+    "L2_finite_cone_numeric_and_Qk_formula_agree": true,
+    "L2_finite_acceptance_changes_response": true
+  },
+  "checks_passed": 35,
+  "boundaries": [
+    "Both single-gamma marginals are isotropic; their joint kernel need not factorize.",
+    "Spin-zero toy endpoints and chosen detector geometry are not 193Bi or145Tb assignments.",
+    "A scalar efficiency correction/self-exclusion does not replace conditional nuclear/angular response.",
+    "Q_k for finite detector cones is not nuclear alignment attenuation or Q_sens for Compton polarimetry.",
+    "A matched nominal energy gate can have target-detector-dependent acceptance after same-detector exclusion.",
+    "The balanced cancellation needs the full angular response tensors, including azimuths and efficiency weights.",
+    "No mixing ratio, actual counts, time deorientation or covariance was inferred.",
+    "Day14 continues; Day15 preview remains uncredited."
+  ]
+}
