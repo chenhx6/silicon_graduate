@@ -1,0 +1,41 @@
+{
+  "target": "Wiki daily learning report and canonical method figure",
+  "backend": "python",
+  "backend_evidence": "same-runmatplotlib scripts day14_shared_polarization_limits and day15_ado_preview_worksheet;localtaskpreference savedunderWiki/tmp",
+  "core_conclusion": "The published same-parent attenuation coefficients depend on reaction conditions; Gaussian population interpretation and uncertainty need an explicit model/covariance.",
+  "figure_question": "How do all reported958-keV coefficient pairs compare across alpha/12Cbeam settings and a conditional single-Gaussian curve?",
+  "archetype": "quantitative grid; singleplotarea",
+  "panel_role": "one matched-parent experimental comparison with conditional model overlay",
+  "source_data": "outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/zobel83-958-table-fixture.json",
+  "data_integrity": {
+    "rule": "one same13/2+parent/pureE2transition across two projectile and energy sequences",
+    "selected_rows": 10,
+    "all_nonempty958_column_rows_included": true,
+    "alpha9MeV_958_row": "unreported/blank; no zero supplied",
+    "other_transitions": "not transcribed for this matched-parent question; full table preserved in rawPDF",
+    "available_nonempty_table_transition_rows": 40,
+    "other_parent_rows_not_selected": 30,
+    "reason": "same parent/spin/transition comparison; preserve all10available958rows andfullrawtable"
+  },
+  "uncertainty": "source statistical marginal fit errors; covariance notgiven; nojointCI/p-value",
+  "model": "task-defined standarddeviation s of normalized exp[-M^2/(2s^2)],half-integer completealignment reference|M|=1/2;conditional s/J isnot asource measuredparameter",
+  "geometry": {
+    "width_mm": 140,
+    "height_mm": 110,
+    "minimum_font_pt": 8,
+    "panel_alignment": "single panel, notapplicable; renderjsonpreserved"
+  },
+  "exports": [
+    "SVGeditabletext",
+    "PDFTrueType",
+    "PNG400dpi"
+  ],
+  "privacy": "public published table only;no privateproject/materialpath inplot/legend",
+  "QA": [
+    "sourcevalidator",
+    "renderedPDFglyphfloor",
+    "collisionaudit",
+    "PNGvisualdata/error/modelseparation"
+  ],
+  "no_new_human_review": true
+}

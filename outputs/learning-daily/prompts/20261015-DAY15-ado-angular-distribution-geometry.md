@@ -261,3 +261,5 @@ Day14已经正式复核Herzáň的阵列特定Rexp、a(E)/Q(E)和shared-doublet�
 Day14后续已经在partial15中视觉读Zheng2002全文5页，完成28-check ADO额外输入/self-exclusion/误差图；另有shared-POL70、conditional γγ35和order51的条件推导，canonical位于angular-distribution、angular-correlation与相关source/method。正式Day15必须将这些预暴露标为priming，保存自身原答后再重新核原式和逐项交付；本入口不创建session或预给信用。
 
 计算单需区分R_ADO与f_ADO：只有两角计数与target效率比能识别R，求f还需独立本征ratio或gate/geometry输入，不能以循环定义f=1完成卡。所有自设counts、效率、covariance必须注明；Z02-6/9的组近似、joint response、finite acceptance、alignment/feeding应核到对应canonical source locator。
+
+Day14后续partial15还阅读Zobel1983全部六页并核67Ga同parent十个published coefficient rows，完成38-check条件Gaussian/Cov/feeding/c坐标计算及图。这是priming；原sourceJul08人审继承范围不扩至本run新11–14或model，FormalDay15须保存自己的原答和逐卡核验。

@@ -1,0 +1,13 @@
+{
+  "raw_file": "raw/papers/1983_Zobel et al_Energy and projectile dependence of nuclear alignment in fusion-evaporation reactions.pdf",
+  "raw_sha256": "60b0d4bc561b44d861e16490efec7bebb8fbf1b8b30a7c7d81621a4057208759",
+  "pages": 6,
+  "rendered_dir": "tmp/day14-20261014/zobel83",
+  "scope": "six-page primary source planned main-line read; inherited July human review scope not extended",
+  "crossref_http_status": 200,
+  "crossref_doi_matches": true,
+  "crossref_url": "https://api.crossref.org/works/10.1016%2F0167-5087%2883%2990649-X",
+  "main_line_read_complete_at": "2026-10-15T01:45:17.422787+08:00",
+  "scope_completed": "All six printed389–394 pages visually read; Eqs1–3, Table1 upright and Figs1–5, methods, errors, conclusion, refs; selected958.0keV rows to transcribe. No claim of raw spectrum/covariance access.",
+  "inherited_review_boundary": "Existing human-reviewed frontmatter and old claim flags remain inherited; new run material is Codex self-audit only."
+}

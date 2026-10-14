@@ -3,7 +3,7 @@ type: source
 title: "Energy and projectile dependence of nuclear alignment in fusion-evaporation reactions"
 aliases: [Zobel 1983 energy projectile alignment, Zobel 1983 nuclear alignment, projectile dependence of nuclear alignment]
 created: 2026-07-08
-updated: 2026-07-08
+updated: 2026-10-15
 status: ai-draft
 review_status: human-reviewed
 source_type: experiment-method-article
@@ -57,6 +57,11 @@ Zobel et al. measured nuclear-alignment attenuation coefficients in `67Ga` using
 | Z83-8 | 当两个或多个 feeding components contribute and have different variances, their superposition can deviate from a single Gaussian shape; authors specifically mention direct feeding and γ-ray cascade feeding as such a case。 | method-formalism / author-interpretation | direct | p.393, Discussion | false |
 | Z83-9 | 作者在结论中警告：angular distribution and linear polarization measurements combined for model-independent spin assignments and mixing ratios should be recorded at the same energy and with the same target, because alignment and effective beam energy conditions matter。 | method-formalism | direct | p.394, Conclusion | false |
 | Z83-10 | 作者总结：heavy-ion-induced reactions 中 Gaussian hypothesis seems useful when `αK` consistency is achieved throughout the level scheme；light projectiles are more complicated due to strong alignment variation with incident energy。 | author-interpretation | direct | p.394, Conclusion | false |
+| Z83-11 | Table1的958.0-keV、13/2+→9/2+列，alpha11.3MeV给alpha2=.973±.037、alpha4=.803±.090；alpha22MeV给.674±.036、.215±.087。C32/48MeV对应.793±.032/.595±.093与.756±.038/.413±.110。它们为作者拟合系数，非rawcounts；alpha9MeV该列空白。 | published-fit-result | direct | printed p.392 / PDFp.4，Table1 3032→2074列 | true |
+| Z83-12 | Table1 caption将quotederrors限定为Eq1 angular-fit的statisticaluncertainties并采用delta=0；p393明确讨论alpha2/alpha4的statisticaldependence和error ellipse，未列数值Cov。因此本run不能以两个独立误差或矩形认证jointGaussian检验。后句为任务边界。 | method-and-boundary | mixed | printed p.392 Table1 caption；printed p.393，Fig5后右栏第一段 | true |
+| Z83-13 | 四条selectedE2的delta在原Sec2注明由Ref4的angular distribution/linear polarization判为within-errors zero；Ref4为Zobel等NPA316,165(1979)，Ref5为Zobel等NIM171,223(1980)。当前scan数据、purity/structure输入和理论/方法引用不能全计成独立实验。 | source-lineage | direct | printed p.390 Sec2；printed p.394 References4/5 | true |
+| Z83-14 | Fig3下面六个above-threshold ticks为1.44/3.60/4.26/7.09/9.91/13.67MeV，caption给4MeV阈值幅度及3031.7keV parent。本任务用mass-number CM64/68、lab9/11.3/12/15/18/22MeV扣4与3.0317MeV，最大差.00418MeV；后半是坐标cross-check，不认证作者精确mass/calibration或正反应Q。 | source-axis-and-task-inference | mixed | printed p.392 / PDFp.4，Fig3 lower-axis与caption | true |
+
 
 ## Authors' Interpretation
 
@@ -81,3 +86,32 @@ For [[sigma-over-i-uncertainty-in-pado-mixing-ratio-extraction]], this source su
 ## Personal Notes
 
 User review on 2026-07-08 found no source-level problems; Z83-5, Z83-8 and Z83-9 are accepted as project-relevant evidence for feeding/projectile/energy dependence.
+
+## Day14无学分预习：同parent条件迁移与统计边界
+
+先冻结primed recall，再核Crossref exact DOI/title/207(3)/389–394/1983与raw SHA256；视觉读全六页mainline，覆盖Eq1–3、setup/fit、Fig1–5、Table1、讨论/结论/refs。Table1旋转为upright后视觉转录同一958.0-keV列全部10个nonemptyrows；只按匹配parent/spin/transition选择，未补alpha9MeV空白或静默删该列数据。旧OCR摘要不作为本次数值依据。
+
+### Table1 958.0-keV：视觉核验转录
+
+对应printed392/PDF4的3032→2074列，按beam-energy升序列出该parent全部非空行；alpha9MeV空白。这里的±仅保留原表quotedstatisticalerrors。
+
+| projectile / lab E(MeV) | alpha2±error | alpha4±error |
+| --- | --- | --- |
+| alpha / 11.3 | .973±.037 | .803±.090 |
+| alpha / 12 | .910±.037 | .810±.090 |
+| alpha / 15 | .681±.036 | .419±.087 |
+| alpha / 18 | .728±.036 | .263±.087 |
+| alpha / 22 | .674±.036 | .215±.087 |
+| 12C / 32 | .793±.032 | .595±.093 |
+| 12C / 36 | .821±.016 | .569±.051 |
+| 12C / 40 | .820±.020 | .569±.078 |
+| 12C / 44 | .754±.033 | .573±.088 |
+| 12C / 48 | .756±.038 | .413±.110 |
+
+原frontmatter人审状态及Z83-1–10的false标记是2026-07-08继承记录，保持原范围；新Z83-11–14和本run模型/图为Codex自审，needs_review:true，不产生新人审事件。
+
+实验输入层：Table1的coefficients是corrected intensity的LS fit outputs，quotederrors为statistical；GF的Gaussian+tail+step是谱线profile模型，与nuclear-substate Gaussian不是同一个假设。作者p393对quantitative feeding分析明确保留误差较大限制，并强调alpha pair相关性；数值Cov/raw spectra/完整response没有在本材料提供。
+
+解释层：heavy-ion组Gaussian一致与轻粒子direct/cascade limiting groups一致是作者的有条件判断；Fig5中间能区feeding-superposition线与p394同energy/target警告限制固定alignment迁移，不等于全部Gaussian无效。Ref9 Ionescu的167Tm是比较引用；Ref4 purity/structure与Ref5 method依赖不认证当前所有点独立采集。
+
+任务计算层：[[angular-distribution]]“Zobel1983：同parent反应条件与Gaussian诊断”保存原表10行、明确的独立stat差量、任务Gaussian标准差s、CG/Stevens独立核验、unknownCov敏感性、chosen mixture及Fig3坐标cross-check。38检查与图QA通过；不把alpha2-only s/J当原文实测sigma/I、不给Gaussian排除概率，不拟合用户P-ADO或193Bi。Day15仍只是partial15预习。

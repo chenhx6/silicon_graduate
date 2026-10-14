@@ -39,3 +39,9 @@ Shared-POL70-check、ADO28-check及误差图已完成，canonical写回linear-po
 Order51-check完成；两个same-rank/type pure stretched downward transitions的full amplitude对称，对任意initialρ成立。Nonstretched/有取向控制可不对称；HE15-9仍未定order、原review flags保留。Canonical angular-correlation/level-scheme/source，writeback17items/10changedpages，lint0errors/129warnings/diff/AST/protected/raw/review通过。
 
 候选池：Ionescu1981在Oct12 Day11/12用过，不重复充填novelty。下一可做恰好Day15无学分empirical alignment/reference transfer，候选Zobel1983无recent daily/weekly fingerprint；未读原source，先冻结primed回忆，再核raw/hash/metadata并沿全文主线。当前问题仍可继续独立branch/time/level约束，但缺真实events/Σ/response。原15:00截止，次日卡不给信用、不打开Day16，不新建session/goal/daemon。
+
+## Checkpoint006：67Ga原表/主线与条件Gaussian完成
+
+Zobel1983 raw/metadata/六页主线/Table1upright/图/公式核完；同958keV parent10publishedrows全部保留（40表行中其余30不同parent未选、alpha9空白不补零）。38-check条件sstd/CG-Stevens/Cov/mixture/CMticks+figureQA通过；sourceHuman/旧flags继承，新11–14true，无新人审。Canonical source+angular-distribution，writeback19items/11changedpages、lint0errors129warnings/diff/AST/protected/raw/review通过。
+
+下一bounded current route：先冻结预测，再用sourcep390实际C4angles(0/57/90/158)、alpha两组三angles(61/105/146.5及43/87/128.5)、必要monitor/normalization信息，设计角fit covariance的可识别性控制。A2/A4 fitnorm、weights、commonmonitor如何改变ρ？两个publishedmarginalerrors能否唯一确定joint判断？实际GF/rawcounts/fitCov未给，prototype不能称重构。此处仍Day15partial知识预习，Day14固定，原截止15:00；不新建session/goal/daemon或计下一卡。

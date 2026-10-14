@@ -1,0 +1,138 @@
+{
+  "kind": "verbatim numeric transcription of selected published fit estimates",
+  "source": "knowledge/sources/zobel-1983-energy-projectile-alignment.md",
+  "source_locator": "printed p392/PDF p4 Table1;958.0keV column",
+  "raw_sha256": "60b0d4bc561b44d861e16490efec7bebb8fbf1b8b30a7c7d81621a4057208759",
+  "transition": {
+    "Egamma_keV": 958.0,
+    "Ji": 6.5,
+    "Jf": 4.5,
+    "parity": "positive -> positive",
+    "initial_level_keV": 3031.7,
+    "final_level_keV": 2073.7,
+    "spins_and_precise_levels_locator": "printed p390/PDFp2 Fig1; Table1 rounds3032/2074"
+  },
+  "rows": [
+    {
+      "beam": "alpha",
+      "beam_energy_lab_MeV": 11.3,
+      "alpha2": 0.973,
+      "sigma_alpha2_stat_fit": 0.037,
+      "alpha4": 0.803,
+      "sigma_alpha4_stat_fit": 0.09,
+      "covariance_alpha2_alpha4": null
+    },
+    {
+      "beam": "alpha",
+      "beam_energy_lab_MeV": 12,
+      "alpha2": 0.91,
+      "sigma_alpha2_stat_fit": 0.037,
+      "alpha4": 0.81,
+      "sigma_alpha4_stat_fit": 0.09,
+      "covariance_alpha2_alpha4": null
+    },
+    {
+      "beam": "alpha",
+      "beam_energy_lab_MeV": 15,
+      "alpha2": 0.681,
+      "sigma_alpha2_stat_fit": 0.036,
+      "alpha4": 0.419,
+      "sigma_alpha4_stat_fit": 0.087,
+      "covariance_alpha2_alpha4": null
+    },
+    {
+      "beam": "alpha",
+      "beam_energy_lab_MeV": 18,
+      "alpha2": 0.728,
+      "sigma_alpha2_stat_fit": 0.036,
+      "alpha4": 0.263,
+      "sigma_alpha4_stat_fit": 0.087,
+      "covariance_alpha2_alpha4": null
+    },
+    {
+      "beam": "alpha",
+      "beam_energy_lab_MeV": 22,
+      "alpha2": 0.674,
+      "sigma_alpha2_stat_fit": 0.036,
+      "alpha4": 0.215,
+      "sigma_alpha4_stat_fit": 0.087,
+      "covariance_alpha2_alpha4": null
+    },
+    {
+      "beam": "12C",
+      "beam_energy_lab_MeV": 32,
+      "alpha2": 0.793,
+      "sigma_alpha2_stat_fit": 0.032,
+      "alpha4": 0.595,
+      "sigma_alpha4_stat_fit": 0.093,
+      "covariance_alpha2_alpha4": null
+    },
+    {
+      "beam": "12C",
+      "beam_energy_lab_MeV": 36,
+      "alpha2": 0.821,
+      "sigma_alpha2_stat_fit": 0.016,
+      "alpha4": 0.569,
+      "sigma_alpha4_stat_fit": 0.051,
+      "covariance_alpha2_alpha4": null
+    },
+    {
+      "beam": "12C",
+      "beam_energy_lab_MeV": 40,
+      "alpha2": 0.82,
+      "sigma_alpha2_stat_fit": 0.02,
+      "alpha4": 0.569,
+      "sigma_alpha4_stat_fit": 0.078,
+      "covariance_alpha2_alpha4": null
+    },
+    {
+      "beam": "12C",
+      "beam_energy_lab_MeV": 44,
+      "alpha2": 0.754,
+      "sigma_alpha2_stat_fit": 0.033,
+      "alpha4": 0.573,
+      "sigma_alpha4_stat_fit": 0.088,
+      "covariance_alpha2_alpha4": null
+    },
+    {
+      "beam": "12C",
+      "beam_energy_lab_MeV": 48,
+      "alpha2": 0.756,
+      "sigma_alpha2_stat_fit": 0.038,
+      "alpha4": 0.413,
+      "sigma_alpha4_stat_fit": 0.11,
+      "covariance_alpha2_alpha4": null
+    }
+  ],
+  "selection": {
+    "rule": "one same13/2+parent/pureE2transition across two projectile and energy sequences",
+    "selected_rows": 10,
+    "all_nonempty958_column_rows_included": true,
+    "alpha9MeV_958_row": "unreported/blank; no zero supplied",
+    "other_transitions": "not transcribed for this matched-parent question; full table preserved in rawPDF",
+    "available_nonempty_table_transition_rows": 40,
+    "other_parent_transition_rows_not_selected": 30
+  },
+  "caption_boundary": "statistical uncertainties from least-squares fit Eq1;delta adoptedzero;no numeric covariance given",
+  "figure3_ticks": {
+    "beam_lab_MeV": [
+      9,
+      11.3,
+      12,
+      15,
+      18,
+      22
+    ],
+    "printed_above_threshold_MeV": [
+      1.44,
+      3.6,
+      4.26,
+      7.09,
+      9.91,
+      13.67
+    ],
+    "caption_Q_MeV": 4,
+    "initial_excitation_MeV": 3.0317,
+    "mass_number_CM_ratio_task_inference": 0.9411764705882353
+  }
+}

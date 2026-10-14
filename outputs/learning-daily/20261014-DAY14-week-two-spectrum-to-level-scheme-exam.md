@@ -65,6 +65,7 @@ updated: 2026-10-15
 | Canonical source与方法 | [[herzan-2015-193bi-spectroscopy]] HE15-4–14；[[level-scheme-reconstruction]]新增逐边、cycle、topology、companion sections | 实验测量、联合赋值、作者解释、模型和任务推导分开；旧needs_review全保留 |
 | Zheng2002原扫描全文；DOI留空，身份由期刊页眉与rawhash核验 | [[zheng-2002-ado-coincidence-angular-anisotropy]] Z02-1/6/7/8；PDF pp.1–5，重点p.2 Eq1–5、p.3 Fig1/效率、p.4 Fig2/Ref3 | Day15无学分预习；f的计算偏离与实验标准误差分开；Ref3 DOI [10.1007/s100500170001](https://doi.org/10.1007/s100500170001)仅metadata，2002文依赖对应145Tb实验 |
 | Rose–Brink1967方法依赖局部复核 | [[rose-brink-1967-phase-defined-angular-distributions]] RB67-11，printed316/PDF11 Eq3.24/25；RB67-4，printed320/PDF15 Eq3.40/41的既有直接核验；本段视觉回核printed326/PDF21 Eq3.69–3.73 | formalism，非193Bi新数据；初态polarization、photon helicity、detector sensitivity与ENSDF Q分别定义 |
+| Zobel1983，DOI [10.1016/0167-5087(83)90649-X](https://doi.org/10.1016/0167-5087(83)90649-X)，citation key zobel_1983_Energyprojectile | [[zobel-1983-energy-projectile-alignment]] Z83-11/12/13/14；六页printed389–394全部视觉主线，Eq1–3、Table1、Fig1–5/refs；rawhash/metadata回执在本run | 67Ga published fit coefficients；新分析为Codex self-audit，原Jul08人审/旧flags保留；Ref4 purity/structure和Ref5方法依赖不能重复计采集 |
 
 主要定位：HE15-8是Table I p.3/p.7及Figure2 p.8；HE15-9是p.7 footnote f；HE15-10是p.7 a定义及p.10 Figures3/4；HE15-11是p.13条件性29/2+赋值与p.14 conversion；HE15-12是p.10 Ref7寿命与p.3相对强度；HE15-13是p.19 conversion/SD解释。源页保存每条claim的locator，不用搜索片段当证据。
 
@@ -133,6 +134,20 @@ HE15-13低能γ的设计例（N=5000、ε=.01、branch=1）给46/87-keV零计数
 
 完整proof与边界在[[angular-correlation]]“双γ排序的交换对称性”，接回[[level-scheme-reconstruction]]“近邻双线排序的角关联可识别性”；source premises为RB67-3/11，HE15-9仅是实际未定order的动机。决定revises观测选择：先检验交换对称性，若在其条件内，优先middle branch/独立level/time或能证明模型条件失效的观测；不默认更精细DCO/POL能判先后。实际weak-line Q/(E2)/π、shared R/A与review flags保留，未做排序fit或significance。
 
+### Day15无学分实测对照：67Ga条件迁移
+
+[来源前回忆](20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/zobel83-before-source-recall.md)先于source打开；近期fingerprint仅见本run的候选提示，Ionescu1981已有Oct12使用而暂缓重复。选择非重叠novelty问题“同parent取向/参考条件迁移”，核素与data context为67Ga，与continuity的193Bi双线身份/顺序分开。主线沿Zobel全部六页、图表/公式/setup/误差/结论核完；Crossref HTTP200 exact DOI/title/207(3)/389–394/1983，rawhash匹配，未用搜索snippet当证据。
+
+Z83-11的958.0-keV同parent Table1完整十行已upright视觉转录：[fixture](20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/zobel83-958-table-fixture.json)。它们是published LS fit estimates，表误差为statistical，delta采用0；alpha9MeV该列空白未填零，其他parent的30行按matched-parent问题未选，raw40行保存。alpha22−11.3MeV的Δalpha2/4为−.299/−.588，若quotederrors按std且独立，差量误差.051624/.125176；C48−32为−.037/−.182及.049679/.144045，未报实验显著性。
+
+作者p393明确alpha2/alpha4 statistical dependence和error ellipse（Z83-12），数值Cov未提供。源码区分GF的peak-profile Gaussian与nuclear-population Gaussian；本任务自定义s为std、half-integer complete reference |M|=1/2。Stevens/独立CG tensor一致；alpha2-only条件s/J .127046/.365043不是作者实测sigma/I或jointfit。11.3MeV residual的chosenrho −.8/0/+.8给sigma_r .197717/.148564/.071067，只是敏感性；没有原Cov/response不作Gaussian排除概率。
+
+自设两Gaussian width .12/.38、weight .45混合给alpha=(.797082,.564819)，与同alpha2的singleGaussian alpha4差.089121，未拟合Fig3的direct fraction。另以mass-number CM64/68、扣caption4MeV阈值幅度及3.0317MeVparent重构Fig3六lower ticks，最大差.004182MeV；它是坐标cross-check，不认证作者精确mass/targetloss或反应Q符号。
+
+脚本 `system/scripts/day14_zobel83_alignment_worksheet.py` 实际exit0，38项通过；[结果](20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/zobel83-alignment-worksheet.json)、[SVG图](20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/zobel83-alpha-data-model.svg)和CSV/source-data可复核。沿用Python并应用nature-figure：singlepanel alignment not applicable，glyph/collision/source audits均exit0，minfont8pt、collision0fail0warn，PNG视觉通过；源码3export/width warnings按Wiki140×110mm/vector图+400dpi预览逐项复核。详情见[图QA](20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/zobel83-figure-qa.md)。
+
+决定supports条件/feeding-aware reference transfer，limits统一sigma/I和两误差的joint检验；Z83-9的same-energy/same-target还涉及effective beam/targetloss。全数值、模型、约定、反证和边界canonical写在[[angular-distribution]]“Zobel1983：同parent反应条件与Gaussian诊断”；Z83 source新11–14为needs_review:true，旧human metadata及1–10 flags保留，未扩原Jul08审核范围。Day15仍partial、不计卡；实际数据摘要可用，原events/fitCov/完整response仍缺，L4 replay not-ready。
+
 ## Counter-evidence and missing companion observables
 
 HE15-9的实际未定双线是核心反例：energy sum、共享R/A和假设的ΔI=2均不足以裁决order。若一条线出现可独立定位的旁路或延迟顺序，应重审中间level；source仍保留括号Jπ与(E2)。HE15-5的quadruplet限制“一个峰是一条γ”的简化；干净622.4直接分支门与323.4级联门的299-keVcomponent差异可能迫使拆峰，但必须控制622/626门纯度、feeding、response和random。
@@ -169,7 +184,7 @@ HE15-9的实际未定双线是核心反例：energy sum、共享R/A和假设的�
 
 ## Durable knowledge delta
 
-本run实际修改十份knowledge Markdown，超出昨日预习的增量为七边逐条证据、相关cycle/标定nullspace、未定doublet shared-quantity边界和parent-lifetime契约。canonical知识路径：
+本run实际修改十一份knowledge Markdown，超出昨日预习的增量为七边逐条证据、相关cycle/标定nullspace、未定doublet shared-quantity边界和parent-lifetime契约。canonical知识路径：
 
 - [Herzáň source](../../knowledge/sources/herzan-2015-193bi-spectroscopy.md)：HE15-8–14及正式来源主线/triage。
 - [level-scheme method](../../knowledge/methods/level-scheme-reconstruction.md)：五能级七边、GLS/反例和必要companion。
@@ -595,6 +610,68 @@ HE15-9的实际未定双线是核心反例：energy sum、共享R/A和假设的�
           "locator": "HE15-9"
         }
       ]
+    },
+    {
+      "knowledge": "knowledge/sources/zobel-1983-energy-projectile-alignment.md",
+      "summary": "六页主线/metadata/raw核验，新增Table1 selected means、statCov边界、Ref4/5依赖与Fig3坐标核算，原Human/旧flags保留、新11–14 true。",
+      "anchor": "Day14无学分预习：同parent条件迁移与统计边界",
+      "sources": [
+        {
+          "path": "knowledge/sources/zobel-1983-energy-projectile-alignment.md",
+          "locator": "Z83-11"
+        },
+        {
+          "path": "knowledge/sources/zobel-1983-energy-projectile-alignment.md",
+          "locator": "Z83-12"
+        },
+        {
+          "path": "knowledge/sources/zobel-1983-energy-projectile-alignment.md",
+          "locator": "Z83-13"
+        },
+        {
+          "path": "knowledge/sources/zobel-1983-energy-projectile-alignment.md",
+          "locator": "Z83-14"
+        },
+        {
+          "path": "knowledge/sources/zobel-1983-energy-projectile-alignment.md",
+          "locator": "Z83-8"
+        },
+        {
+          "path": "knowledge/sources/zobel-1983-energy-projectile-alignment.md",
+          "locator": "Z83-9"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/methods/angular-distribution.md",
+      "summary": "十个published同parent alpha pairs、38-check CG/Stevens/条件Gaussian/std/inversion/Cov sensitivity/mixture/CMticks、SVG及图QA写回；不作experimental significance或统一sigma/I。",
+      "anchor": "Zobel1983：同parent反应条件与Gaussian诊断",
+      "sources": [
+        {
+          "path": "knowledge/sources/zobel-1983-energy-projectile-alignment.md",
+          "locator": "Z83-11"
+        },
+        {
+          "path": "knowledge/sources/zobel-1983-energy-projectile-alignment.md",
+          "locator": "Z83-12"
+        },
+        {
+          "path": "knowledge/sources/zobel-1983-energy-projectile-alignment.md",
+          "locator": "Z83-13"
+        },
+        {
+          "path": "knowledge/sources/zobel-1983-energy-projectile-alignment.md",
+          "locator": "Z83-14"
+        },
+        {
+          "path": "knowledge/sources/zobel-1983-energy-projectile-alignment.md",
+          "locator": "Z83-8"
+        },
+        {
+          "path": "knowledge/sources/zobel-1983-energy-projectile-alignment.md",
+          "locator": "Z83-9"
+        }
+      ]
     }
   ]
 }
@@ -609,6 +686,11 @@ HE15-9的实际未定双线是核心反例：energy sum、共享R/A和假设的�
 
 - [角关联方法](../../knowledge/methods/angular-correlation.md)：conditional density、K1/K2、pair/azimuth/finite-cone反例与matched-response输入。
 - [RB1967 source](../../knowledge/sources/rose-brink-1967-phase-defined-angular-distributions.md)：局部原图/公式条件复核，RB67-3/11；[Zheng source](../../knowledge/sources/zheng-2002-ado-coincidence-angular-anisotropy.md)新增Z02-9迁移边界。
+
+### 67Ga条件迁移的canonical增量
+
+- [Zobel1983 source](../../knowledge/sources/zobel-1983-energy-projectile-alignment.md)：新Z83-11–14、原表/误差/依赖/mainline scope；原人审不扩展。
+- [角分布方法](../../knowledge/methods/angular-distribution.md)：10行原表数据、条件Gaussian模型/标准差s约定、unknownCov、mixture与Fig3坐标核算及图。
 
 ### Ref7 原始寿命依赖的有界外部核验
 
@@ -653,7 +735,7 @@ PureE2在合法取向下可negative P；在本段common selection/轴对称/poin
 
 ## L0–L4 state
 
-- L0：anchor原文20页主线、Figure2/Table I及表注、校准与isomer/SD边界已正式复核。
+- L0：anchor原文20页主线、Figure2/Table I及表注、校准/isomer/SD已正式复核；另Zobel1983六页主线/图表/公式/统计边界视觉核验。
 - L1/L2：source/method/matrix互链、35项有条件表格/反例练习、六维周考和认识修正已固化。
 - L3：line identity/ordering的有界判别问题active；当前最高信息路线是conditional gate与branch/time设计，不把counterfactual当实验。
 - L4：真实event-level重分析not-ready；缺事件、response、joint covariance、执行sorter/门接受度及相关parent τ/δ。其缺失不终止其它有价值学习路线。
@@ -698,3 +780,12 @@ PureE2在合法取向下可negative P；在本段common selection/轴对称/poin
 2026-10-15 01:09 Asia/Shanghai，距原截止830.7分钟，仍有substantive window。order脚本实际exit0、51项通过；report/card/writeback17items/10份本run修改知识页valid。wiki_lint --fail-on error exit0、0errors/129warnings（107citekey、19raw槽、3parser）；git diff --check exit0；AST/protected/raw metadata/旧review flags通过。
 
 本批次稳定指针 main / `Test DAY14 doublet angular-order identifiability`，实际publication/hash仅runreceipt。当前模型定理局部饱和但没有结束时窗；近期fingerprint显示Ionescu1981已在10月12日Day11/12使用，暂缓重复，Zobel1983尚未见recent daily/weekly记录。下一Day15无学分知识预习候选为experimental alignment/reference transfer，仍需source-before recall、raw/metadata及主线验证。恢复见[checkpoint005](20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/checkpoint-005.md)。
+
+
+### Checkpoint006 实测与持续研究
+
+2026-10-15 02:57 Asia/Shanghai，距原截止722.0分钟。38项worksheet/图throughpipeline实际exit0，report/card/writeback19items/11份本run修改知识页valid；wiki_lint --fail-on error exit0、0errors/129warnings（107citekey、19rawslots、3parser）；git diff --check exit0；AST/protected/rawmetadata/继承Review及new11–14 true通过。
+
+Figure源/glyph/collision audits均exit0，最小8pt、collision0fail0warn，singlepanel对齐not applicable、PNG视觉通过；源3个export/width warnings已按140×110mm Wiki/vector/400dpi合同逐项核。原文Pubfit、作者解释与自设模型保持分层。原人审不扩到新增claim；正式21/24与partial15保持。
+
+本批稳定指针 main / `Audit DAY14 empirical alignment and covariance limits`；actualH3/hash仅runreceipt。恢复点[checkpoint006](20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/checkpoint-006.md)。下一bounded route是angular-fit geometry/normalization怎样影响Cov以及两个marginalerrors不能唯一指定哪些joint判断；需先冻结预测并声明chosen design，不能补出作者GF矩阵。研究未收束，不因一篇source或图完成结束时窗。

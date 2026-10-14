@@ -1,0 +1,345 @@
+{
+  "kind": "published fit means plus conditional task-defined Gaussian diagnostics; no experimental refit",
+  "diagnostics": [
+    {
+      "beam": "alpha",
+      "beam_energy_lab_MeV": 11.3,
+      "conditional_s_over_J_from_alpha2_only": 0.1270463422923686,
+      "Gaussian_alpha4_at_that_width": 0.9113606309917502,
+      "alpha4_minus_conditional_Gaussian": -0.1083606309917502,
+      "d_model_alpha4_d_alpha2": 3.194599985973476,
+      "unknown_covariance_sensitivity": [
+        {
+          "chosen_rho": -0.8,
+          "delta_method_residual_sigma": 0.19771726248008611
+        },
+        {
+          "chosen_rho": 0,
+          "delta_method_residual_sigma": 0.1485640843452838
+        },
+        {
+          "chosen_rho": 0.8,
+          "delta_method_residual_sigma": 0.0710665774614615
+        }
+      ],
+      "one_stat_error_alpha2_upper_exceeds_model_endpoint": true
+    },
+    {
+      "beam": "alpha",
+      "beam_energy_lab_MeV": 12,
+      "conditional_s_over_J_from_alpha2_only": 0.20000011868601367,
+      "Gaussian_alpha4_at_that_width": 0.7264968578455406,
+      "alpha4_minus_conditional_Gaussian": 0.08350314215445942,
+      "d_model_alpha4_d_alpha2": 2.6731650038710835,
+      "unknown_covariance_sensitivity": [
+        {
+          "chosen_rho": -0.8,
+          "delta_method_residual_sigma": 0.17923514886438738
+        },
+        {
+          "chosen_rho": 0,
+          "delta_method_residual_sigma": 0.13372589669848534
+        },
+        {
+          "chosen_rho": 0.8,
+          "delta_method_residual_sigma": 0.06033234876240802
+        }
+      ],
+      "one_stat_error_alpha2_upper_exceeds_model_endpoint": false
+    },
+    {
+      "beam": "alpha",
+      "beam_energy_lab_MeV": 15,
+      "conditional_s_over_J_from_alpha2_only": 0.36079669613569754,
+      "Gaussian_alpha4_at_that_width": 0.30495602156584517,
+      "alpha4_minus_conditional_Gaussian": 0.11404397843415481,
+      "d_model_alpha4_d_alpha2": 1.1917643262957722,
+      "unknown_covariance_sensitivity": [
+        {
+          "chosen_rho": -0.8,
+          "delta_method_residual_sigma": 0.12402371166577877
+        },
+        {
+          "chosen_rho": 0,
+          "delta_method_residual_sigma": 0.09700366829879607
+        },
+        {
+          "chosen_rho": 0.8,
+          "delta_method_residual_sigma": 0.05863055748915817
+        }
+      ],
+      "one_stat_error_alpha2_upper_exceeds_model_endpoint": false
+    },
+    {
+      "beam": "alpha",
+      "beam_energy_lab_MeV": 18,
+      "conditional_s_over_J_from_alpha2_only": 0.3321356572808431,
+      "Gaussian_alpha4_at_that_width": 0.36574489213078115,
+      "alpha4_minus_conditional_Gaussian": -0.10274489213078114,
+      "d_model_alpha4_d_alpha2": 1.4021201867216477,
+      "unknown_covariance_sensitivity": [
+        {
+          "chosen_rho": -0.8,
+          "delta_method_residual_sigma": 0.13093190687927647
+        },
+        {
+          "chosen_rho": 0,
+          "delta_method_residual_sigma": 0.10058260067896437
+        },
+        {
+          "chosen_rho": 0.8,
+          "delta_method_residual_sigma": 0.05559275923755254
+        }
+      ],
+      "one_stat_error_alpha2_upper_exceeds_model_endpoint": false
+    },
+    {
+      "beam": "alpha",
+      "beam_energy_lab_MeV": 22,
+      "conditional_s_over_J_from_alpha2_only": 0.36504270868812194,
+      "Gaussian_alpha4_at_that_width": 0.29671168017615096,
+      "alpha4_minus_conditional_Gaussian": -0.08171168017615096,
+      "d_model_alpha4_d_alpha2": 1.163897801269735,
+      "unknown_covariance_sensitivity": [
+        {
+          "chosen_rho": -0.8,
+          "delta_method_residual_sigma": 0.12311442461668078
+        },
+        {
+          "chosen_rho": 0,
+          "delta_method_residual_sigma": 0.09656415943285312
+        },
+        {
+          "chosen_rho": 0.8,
+          "delta_method_residual_sigma": 0.05909409636546262
+        }
+      ],
+      "one_stat_error_alpha2_upper_exceeds_model_endpoint": false
+    },
+    {
+      "beam": "12C",
+      "beam_energy_lab_MeV": 32,
+      "conditional_s_over_J_from_alpha2_only": 0.290755604522257,
+      "Gaussian_alpha4_at_that_width": 0.46840225768624877,
+      "alpha4_minus_conditional_Gaussian": 0.1265977423137512,
+      "d_model_alpha4_d_alpha2": 1.7738074784555953,
+      "unknown_covariance_sensitivity": [
+        {
+          "chosen_rho": -0.8,
+          "delta_method_residual_sigma": 0.1425379531610236
+        },
+        {
+          "chosen_rho": 0,
+          "delta_method_residual_sigma": 0.10895368925337039
+        },
+        {
+          "chosen_rho": 0.8,
+          "delta_method_residual_sigma": 0.05852131844469872
+        }
+      ],
+      "one_stat_error_alpha2_upper_exceeds_model_endpoint": false
+    },
+    {
+      "beam": "12C",
+      "beam_energy_lab_MeV": 36,
+      "conditional_s_over_J_from_alpha2_only": 0.27162489298836834,
+      "Gaussian_alpha4_at_that_width": 0.5207224204081835,
+      "alpha4_minus_conditional_Gaussian": 0.048277579591816444,
+      "d_model_alpha4_d_alpha2": 1.9665983691004199,
+      "unknown_covariance_sensitivity": [
+        {
+          "chosen_rho": -0.8,
+          "delta_method_residual_sigma": 0.07847721434854009
+        },
+        {
+          "chosen_rho": 0,
+          "delta_method_residual_sigma": 0.059925640098452
+        },
+        {
+          "chosen_rho": 0.8,
+          "delta_method_residual_sigma": 0.031992053865166105
+        }
+      ],
+      "one_stat_error_alpha2_upper_exceeds_model_endpoint": false
+    },
+    {
+      "beam": "12C",
+      "beam_energy_lab_MeV": 40,
+      "conditional_s_over_J_from_alpha2_only": 0.2723275186305203,
+      "Gaussian_alpha4_at_that_width": 0.5187594318528149,
+      "alpha4_minus_conditional_Gaussian": 0.05024056814718503,
+      "d_model_alpha4_d_alpha2": 1.9593826425436012,
+      "unknown_covariance_sensitivity": [
+        {
+          "chosen_rho": -0.8,
+          "delta_method_residual_sigma": 0.111849413104179
+        },
+        {
+          "chosen_rho": 0,
+          "delta_method_residual_sigma": 0.08729073339112496
+        },
+        {
+          "chosen_rho": 0.8,
+          "delta_method_residual_sigma": 0.05224033939563975
+        }
+      ],
+      "one_stat_error_alpha2_upper_exceeds_model_endpoint": false
+    },
+    {
+      "beam": "12C",
+      "beam_energy_lab_MeV": 44,
+      "conditional_s_over_J_from_alpha2_only": 0.31595014139055533,
+      "Gaussian_alpha4_at_that_width": 0.4039385023991242,
+      "alpha4_minus_conditional_Gaussian": 0.16906149760087574,
+      "d_model_alpha4_d_alpha2": 1.5384437933520014,
+      "unknown_covariance_sensitivity": [
+        {
+          "chosen_rho": -0.8,
+          "delta_method_residual_sigma": 0.13217291921912758
+        },
+        {
+          "chosen_rho": 0,
+          "delta_method_residual_sigma": 0.1015945635035423
+        },
+        {
+          "chosen_rho": 0.8,
+          "delta_method_residual_sigma": 0.05633143076511149
+        }
+      ],
+      "one_stat_error_alpha2_upper_exceeds_model_endpoint": false
+    },
+    {
+      "beam": "12C",
+      "beam_energy_lab_MeV": 48,
+      "conditional_s_over_J_from_alpha2_only": 0.3146887175842339,
+      "Gaussian_alpha4_at_that_width": 0.40702651759061376,
+      "alpha4_minus_conditional_Gaussian": 0.0059734824093862215,
+      "d_model_alpha4_d_alpha2": 1.5495875687912009,
+      "unknown_covariance_sensitivity": [
+        {
+          "chosen_rho": -0.8,
+          "delta_method_residual_sigma": 0.1610310706001676
+        },
+        {
+          "chosen_rho": 0,
+          "delta_method_residual_sigma": 0.12476924315936444
+        },
+        {
+          "chosen_rho": 0.8,
+          "delta_method_residual_sigma": 0.07213683094290364
+        }
+      ],
+      "one_stat_error_alpha2_upper_exceeds_model_endpoint": false
+    }
+  ],
+  "same_parent_endpoint_differences": [
+    {
+      "beam": "alpha",
+      "high_minus_low_energy_MeV": [
+        22,
+        11.3
+      ],
+      "delta_alpha2": -0.29899999999999993,
+      "sigma_delta_alpha2_independent_stat_only": 0.05162363799656122,
+      "delta_alpha4": -0.5880000000000001,
+      "sigma_delta_alpha4_independent_stat_only": 0.1251758762701504
+    },
+    {
+      "beam": "12C",
+      "high_minus_low_energy_MeV": [
+        48,
+        32
+      ],
+      "delta_alpha2": -0.03700000000000003,
+      "sigma_delta_alpha2_independent_stat_only": 0.049678969393496884,
+      "delta_alpha4": -0.182,
+      "sigma_delta_alpha4_independent_stat_only": 0.14404513181638592
+    }
+  ],
+  "chosen_population_mixture": {
+    "s_over_J_components": [
+      0.12,
+      0.38
+    ],
+    "first_weight": 0.45,
+    "alpha2_alpha4": [
+      0.7970817131943442,
+      0.5648185531365718
+    ],
+    "same_alpha2_Gaussian_s_over_J": 0.28803095216482166,
+    "alpha4_gap": 0.08912141453434169,
+    "not_Fig3_fit": true
+  },
+  "Fig3_above_threshold_crosscheck": {
+    "reconstructed_MeV": [
+      1.438888235294118,
+      3.6035941176470603,
+      4.262417647058823,
+      7.085947058823529,
+      9.909476470588235,
+      13.674182352941177
+    ],
+    "printed_MeV": [
+      1.44,
+      3.6,
+      4.26,
+      7.09,
+      9.91,
+      13.67
+    ],
+    "max_abs_difference_MeV": 0.004182352941176859,
+    "recipe_is_task_inference": true,
+    "Q4_is_subtracted_threshold_magnitude": true
+  },
+  "checks": {
+    "ten_same_parent_published_rows": true,
+    "missing_covariances_kept_null": true,
+    "unique_beam_energy_rows": true,
+    "positive_printed_stat_errors": true,
+    "J3.5_k2_CG_and_Stevens_independent_agreement": true,
+    "J3.5_k4_CG_and_Stevens_independent_agreement": true,
+    "J3.5_isotropic_tensors_zero": true,
+    "J3.5_complete_alignment_limit": true,
+    "J3.5_Gaussian_alpha2_monotone": true,
+    "J4.5_k2_CG_and_Stevens_independent_agreement": true,
+    "J4.5_k4_CG_and_Stevens_independent_agreement": true,
+    "J4.5_isotropic_tensors_zero": true,
+    "J4.5_complete_alignment_limit": true,
+    "J4.5_Gaussian_alpha2_monotone": true,
+    "J6.5_k2_CG_and_Stevens_independent_agreement": true,
+    "J6.5_k4_CG_and_Stevens_independent_agreement": true,
+    "J6.5_isotropic_tensors_zero": true,
+    "J6.5_complete_alignment_limit": true,
+    "J6.5_Gaussian_alpha2_monotone": true,
+    "J8.5_k2_CG_and_Stevens_independent_agreement": true,
+    "J8.5_k4_CG_and_Stevens_independent_agreement": true,
+    "J8.5_isotropic_tensors_zero": true,
+    "J8.5_complete_alignment_limit": true,
+    "J8.5_Gaussian_alpha2_monotone": true,
+    "alpha_11.3_inverse_and_gradient": true,
+    "alpha_12_inverse_and_gradient": true,
+    "alpha_15_inverse_and_gradient": true,
+    "alpha_18_inverse_and_gradient": true,
+    "alpha_22_inverse_and_gradient": true,
+    "12C_32_inverse_and_gradient": true,
+    "12C_36_inverse_and_gradient": true,
+    "12C_40_inverse_and_gradient": true,
+    "12C_44_inverse_and_gradient": true,
+    "12C_48_inverse_and_gradient": true,
+    "chosen_mixture_tensor_linearity": true,
+    "chosen_mixture_not_Gaussian_in_coefficient_plane": true,
+    "chosen_mixture_log_population_not_affine": true,
+    "Fig3_ticks_mass_number_CM_crosscheck": true
+  },
+  "checks_passed": 38,
+  "boundaries": [
+    "The10rows are published attenuation-fit estimates with statistical marginal errors, not raw spectra.",
+    "Delta0 and pureE2 assumptions are adopted by the original source; s is task-defined standard deviation.",
+    "The alpha2-only inverse is not a joint alpha2/alpha4 fit or a source-measured s/I.",
+    "Unknown covariance and full response forbid experimental significance and L4 replay.",
+    "Endpoint difference uncertainties assume independent statistical errors only; calibration/shared systematics are absent.",
+    "The chosen covariance range and population mixture are sensitivity controls, not measured inputs.",
+    "OriginalJuly humanreview scope is preserved; new analysis has no new humanreview event.",
+    "Day14 continues andDay15 remains an uncredited preview."
+  ]
+}

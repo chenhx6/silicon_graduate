@@ -133,6 +133,60 @@ Z02-8明确2002方法文用 Ref3 的 `145Tb` 实验数据，DOI `10.1007/s100500
 
 [[rose-brink-1967-phase-defined-angular-distributions]] RB67-3对应printed326/PDF21 Eq3.73；[[zheng-2002-ado-coincidence-angular-anisotropy]] Z02-9对应printed910/PDF2 Eq2。这个结果限定公式迁移，并不重估Zheng或Herzáň的实验误差。共同energy gate仍可能因same-detector/pair/Compton cut而给target-dependent gate effect；原point outer set的common-selection条件应通过实际响应核验。
 
+## Zobel1983：同parent反应条件与Gaussian诊断
+
+[[zobel-1983-energy-projectile-alignment]] Z83-11/12/13/14补充了published-data层的约束。原六页mainline已视觉复核；以下十行来自printed392/PDF4 Table1的958.0-keV列，Fig1给 `3031.7(13/2+)→2073.7(9/2+)`，Table1将level能量取整。所有非空同parent行均保留；alpha9MeV原表空白，未补零。
+
+| projectile / lab E(MeV) | alpha2±quotedstaterror | alpha4±quotedstaterror |
+| --- | --- | --- |
+| alpha / 11.3 | .973±.037 | .803±.090 |
+| alpha / 12 | .910±.037 | .810±.090 |
+| alpha / 15 | .681±.036 | .419±.087 |
+| alpha / 18 | .728±.036 | .263±.087 |
+| alpha / 22 | .674±.036 | .215±.087 |
+| 12C / 32 | .793±.032 | .595±.093 |
+| 12C / 36 | .821±.016 | .569±.051 |
+| 12C / 40 | .820±.020 | .569±.078 |
+| 12C / 44 | .754±.033 | .573±.088 |
+| 12C / 48 | .756±.038 | .413±.110 |
+
+### 事实、解释、共同输入
+
+这些是corrected angular intensities的least-squares fit outputs，quotederrors为statistical，不是rawcounts或完整systematic误差。原Fig2/3直接显示条件变化；heavy-ion变化与precedingγ multiplicity的联系、light-projectile变化与direct/cascade feeding的联系，是作者解释（Z83-4/5/6）。作者对quantitative feeding分析明确保留误差较大限制（p393）。
+
+把两端quotederrors当std且各能区独立时，alpha22−11.3MeV的差为 `Δalpha2=−.299±.051624`、`Δalpha4=−.588±.125176`；12C48−32MeV为 `−.037±.049679`、`−.182±.144045`。这些误差仅是明示的独立stat近似，不给实验显著性或消除共用efficiency/calibration。
+
+Z83-12是重要counter-boundary：作者p393明确讨论alpha2/alpha4统计dependence、error ellipse与errorbar rectangles，Table1却没有数值Cov。原caption采用delta=0，纯E2依据来自Ref4此前angular/polarization；Ref5是cascade/cov method（Z83-13），不能把输入与当前拟合再算成独立采集。它与Herzáň193Bi是不同data context，但不能认证本源每一点与所有前文都采集独立。
+
+### 自定义Gaussian标准差的条件计算
+
+为数值练习定义 `w_s(M)∝exp[−M²/(2s²)]`，s为本任务standard deviation。将half-integer complete-alignment参考设为 `|M|=1/2`；不把s/J称作原文实测sigma/I，也不直接映射用户实现。令 `S=J(J+1)`，rank2/4 diagonal tensor可按比例写成
+
+\[
+T_2(M)=3M^2-S,\qquad
+T_4(M)=35M^4-(30S-25)M^2+3S^2-6S.
+\]
+
+本模型 `alpha_k(s)=ΣM w_s(M)T_k(M)/T_k(1/2)`。独立 `J⊗J→k` CG构造与这两个Stevens polynomials对J=7/2、9/2、13/2、17/2一致；isotropic tensors为0、窄s极限为1、alpha2单调。这里T是population tensor，不是实验transition strength B(EL)或detector Q。
+
+只用958-keV alpha2中央值求条件s/J，alpha11.3与22MeV分别为 `.127046/.365043`。这不是jointfit；对应model alpha4为 `.911361/.296712`，与published alpha4还需比较且必须有Cov/response。11.3MeV的alpha2中央值加quotederror跨过模型1端点，线性化也不能代替有边界的完整posterior。
+
+若残差 `r=alpha4−g(alpha2)`，delta-method variance为 `Var(r)=sigma4²+[g′ sigma2]²−2g′Cov(alpha2,alpha4)`。对11.3MeV点，单独选择rho=−.8/0/+.8给sigma_r `.197717/.148564/.071067`；这些是chosen covariance sensitivity，不是作者矩阵、jointCI或Gaussian排除概率。原文没有提供的raw spectra、fitCov、efficiency/solid-angle response不能由误差条补出，actual L4 replay保持not-ready。
+
+### Feeding mixture与坐标核算
+
+作者Z83-8/Fig5指出不同variance的feeding components可产生非单Gaussian。自设s/J=.12与.38、first-weight=.45，同一J=13/2的convex population mixture给 `(alpha2,alpha4)=(.797082,.564819)`；相同alpha2的singleGaussian给alpha4低 `.089121`。这不是Fig3 feedingfraction的拟合。统计张量的线性期望使mixture在alpha-plane中连线；population的log是两个指数的log-sum，若至少三个不同|M|、两width不同且两weight非零，严格曲率阻止其变为一个单Gaussian。观测到Gaussian-consistent两个moments也不能独自证明完整population family。
+
+Fig3的above-threshold六ticks还能做一个坐标cross-check：用mass-number CM近似 `(64/68)Ealpha_lab−4−3.0317 MeV`，重构六值与printedticks最大差 `.004182 MeV`。4MeV按caption阈值幅度扣除；这是任务推导，不认证作者精确mass recipe、有效束流能量/targetloss，也不将其写成正的反应Q。
+
+![原表数据与条件Gaussian曲线](../../outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/zobel83-alpha-data-model.svg)
+
+图保留该958列全部10个published fit estimates，误差条为quotedstat marginals；灰线为本任务模型。C点相近重叠按原位置保留。图与CSV/fixture、code、PDF/PNG和QA位于同run，复算入口 [day14_zobel83_alignment_worksheet.py](../../system/scripts/day14_zobel83_alignment_worksheet.py)，38项数值核验通过；singlepanel alignment为not applicable，PDFminfont8pt/collision0fail0warn及PNG视觉核验通过。源码3个export/width warnings按140×110mm Wiki图、400dpi preview、vector正文合同逐项复核。
+
+### 认识修正与边界
+
+决定 `supports` reaction/beam/feeding-aware reference transfer，`limits` 将local alignment或Gaussian-consistent pair移植成统一sigma/I，以及按两条误差直接作joint检验。Z83-9对同energy/同target的要求还涉及有效束流能量与targetloss，不能只说同一acquisition即可。本案例只给方法证据，不改变193Bi/A≈130模式排序，不给Day15学分；原人审仅覆盖继承内容，本run新增是Codex自审。
+
 ## Sources
 
 [[twin-1970-polarization-angular-correlation-40k]] combines near-threshold `a2/a4` angular distributions, γγ correlations and Compton polarization; it shows that joint fits can resolve δ branches that a single angular distribution cannot.

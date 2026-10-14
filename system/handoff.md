@@ -8,13 +8,13 @@ updated: 2026-10-14
 
 ## Active handoff — DAY14 formal exam and continuous study
 
-Run `2026-10-14-day-14-02` / session `01a13a0e-e8bd-7251-b970-f6975679e281`；原截止 `2026-10-15T15:00:00+08:00`不变，goal/research active。正式Day14已published：primed recall、Herzáň主线/图表/七边、21/24/weekly REFLECT。官方next14/count13待closeout只计一次；Day15仅partial，不研究下一卡。
+Run `2026-10-14-day-14-02` / session `01a13a0e-e8bd-7251-b970-f6975679e281`，原截止 `2026-10-15T15:00:00+08:00`不变，goal/research active。FormalDay14已published：primedrecall、Herzáň主线/图表/七边、21/24/weeklyREFLECT；officialnext14/count13待closeout只计一次，Day15仅partial、不研究下一卡。
 
-最新checkpoint005（10-15 01:09 Asia/Shanghai）：shared POL70、ADO28、conditional response35之后，order51-check把random-initial intensity对称性与same-rank/type stretched full-amplitude对称性分开；任意同initialρ不解除后者，非stretched控制可不对称，feeding同σ/J是额外输入。Canonical angular-correlation/level-scheme/source保存proof/条件；日报唯一writeback17items/10changedpages。实际events/response/Σ/branch/time仍缺，未给weak lines新Jπ或order，原review/raw/PLAN/Bib保留。
+最新checkpoint006（10-15 02:57 Asia/Shanghai）：在70/28/35/51模型之后，Zobel1983六页primary67Ga experimental condition-transfer主线/metadata/rawhash核完；同958parent原表全部10行、38-check CG/Stevens/条件Gaussian/std/Cov sensitivity/mixture/CMticks与Python图通过。Canonical source+angular-distribution保存数据/公式/边界；日报唯一writeback19items/11changedpages。原sourceHuman/旧flags保持、新11–14 true，无新humanreview；raw/PLAN/Bib/继承dirty不改，actualevents/fitCov/完整response缺失。
 
-第4批已Gitee发布；本批次稳定指针 main / `Test DAY14 doublet angular-order identifiability`；exacthash/实际H3仅receipt。当前lint0errors/129warnings、report/card/writeback/diff/AST/protected/raw/review通过。候选池：Ionescu1981最近Day11/12使用，暂缓重复；可在Day15无学分preview沿Zobel1983检验empirical alignment/reference transfer，未读该source，需先回忆/身份/主线核验。
+前5批已Gitee发布；本批稳定指针 main / `Audit DAY14 empirical alignment and covariance limits`，exacthash/actualH3只receipt。当前report/card/writeback/lint0errors129warnings/diff/AST/protected/raw/review与figureQA通过；minfont8pt、collision0fail0warn、singlepanelNOTAPPLICABLE、3sourceexportwarnings已核。下一bounded current：angular-fit geometry/normalization与Cov可识别性，先冻结预测/actualangles，chosen design不当作者GF/实测Σ。
 
-Clock001实际ack，其它queued不伪造；Farmer8686/clock75781保留，不重启。继承Day6–9/Day13/daemon/旧log排除stage。恢复 `codex resume 01a13a0e-e8bd-7251-b970-f6975679e281 -C /workspace/wiki -s danger-full-access -a never`；本run `-run-02/` checkpoint005/continuation可续接。
+Clock001实际ack，其它queued不假ack；Farmer8686/clock75781不重启。恢复 `codex resume 01a13a0e-e8bd-7251-b970-f6975679e281 -C /workspace/wiki -s danger-full-access -a never`；本run`-run-02/` checkpoint006/continuation可恢复。
 
 ## Previous active handoff — DAY13 continuous study reopened by user
 

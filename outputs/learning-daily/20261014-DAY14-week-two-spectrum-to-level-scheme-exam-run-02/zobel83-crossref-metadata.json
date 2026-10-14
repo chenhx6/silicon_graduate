@@ -1,0 +1,107 @@
+{
+  "DOI": "10.1016/0167-5087(83)90649-x",
+  "title": [
+    "Energy and projectile dependence of nuclear alignment in fusion-evaporation reactions"
+  ],
+  "author": [
+    {
+      "given": "V.",
+      "family": "Zobel",
+      "sequence": "first",
+      "affiliation": [],
+      "role": [
+        {
+          "role": "author",
+          "vocabulary": "crossref"
+        }
+      ]
+    },
+    {
+      "given": "L.",
+      "family": "Cleemann",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "role": "author",
+          "vocabulary": "crossref"
+        }
+      ]
+    },
+    {
+      "given": "J.",
+      "family": "Eberth",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "role": "author",
+          "vocabulary": "crossref"
+        }
+      ]
+    },
+    {
+      "given": "T.",
+      "family": "Heck",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "role": "author",
+          "vocabulary": "crossref"
+        }
+      ]
+    },
+    {
+      "given": "K.",
+      "family": "Hüsing",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "role": "author",
+          "vocabulary": "crossref"
+        }
+      ]
+    },
+    {
+      "given": "W.",
+      "family": "Neumann",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "role": "author",
+          "vocabulary": "crossref"
+        }
+      ]
+    },
+    {
+      "given": "M.",
+      "family": "Nolte",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "role": "author",
+          "vocabulary": "crossref"
+        }
+      ]
+    }
+  ],
+  "published": {
+    "date-parts": [
+      [
+        1983,
+        4
+      ]
+    ]
+  },
+  "container-title": [
+    "Nuclear Instruments and Methods in Physics Research"
+  ],
+  "volume": "207",
+  "issue": "3",
+  "page": "389-394",
+  "URL": "https://doi.org/10.1016/0167-5087(83)90649-x"
+}

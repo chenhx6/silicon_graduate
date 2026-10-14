@@ -1,0 +1,14 @@
+{
+  "source": {
+    "exit_code": 0,
+    "tail": "check_id\": \"ANNOTATION-WORKAROUND\",\n      \"level\": \"PASS\",\n      \"message\": \"No high-risk hard-coded label height or opaque white text mask detected\",\n      \"evidence\": []\n    },\n    {\n      \"check_id\": \"PANEL-ALIGNMENT-GATE\",\n      \"level\": \"PASS\",\n      \"message\": \"Render-time panel-alignment gate is wired into the plotting source\",\n      \"evidence\": [\n        \"require_matplotlib_panel_alignment(\"\n      ]\n    },\n    {\n      \"check_id\": \"BACKEND-EXCLUSIVE\",\n      \"level\": \"PASS\",\n      \"message\": \"No obvious cross-backend plotting reference found for python\",\n      \"evidence\": []\n    }\n  ]\n}\n"
+  },
+  "glyph": {
+    "exit_code": 0,
+    "tail": "{\n  \"pdf\": \"outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/zobel83-alpha-data-model.pdf\",\n  \"auditable\": true,\n  \"minimum_required_pt\": 5.0,\n  \"minimum_found_pt\": 8.0,\n  \"text_run_count\": 22,\n  \"below_minimum_count\": 0,\n  \"below_minimum\": [],\n  \"warnings\": []\n}\n"
+  },
+  "collision": {
+    "exit_code": 0,
+    "tail": "Nature Figure Rendered Collision Audit\npdf: outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/zobel83-alpha-data-model.pdf\npages: 1\nvisible text boxes: 20\nstroke paths: 100\n\n\nsummary: 0 fail, 0 warn, 0 contained fill overlays, 0 contained image overlays\nverdict: PASS\nnote: contained overlays can be intentional; WARN findings need final-size visual review\n"
+  }
+}

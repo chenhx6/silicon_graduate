@@ -1715,3 +1715,8 @@ FormalDay14 primedrecall、HerzáňFigure2/TableI七边/shared-doublet与unknown
 ## 2026-10-15 — DAY14 checkpoint005 doublet order symmetry
 
 51-check general-spin/maximal-CG交换对称性与feeding输入边界写回canonical；21/24不变，Day15仍partial。稳定指针 main / `Test DAY14 doublet angular-order identifiability`；actual H3/hash仅runreceipt。下一候选为Day15 empirical alignment/reference transfer；Ionescu1981最近用过，Zobel1983先回忆/原文验证。原截止、review/raw/PLAN/Bib与继承dirty保留。
+
+
+## 2026-10-15 — DAY14 checkpoint006 empirical alignment
+
+Zobel1983六页/metadata/raw与958parent10个Pubfit rows，38-check条件Gaussian/Cov/mixture/坐标与Pythonfigure写回canonical；reportwriteback19items/11pages、lint0errors129warnings与保护检查通过。稳定指针 main / `Audit DAY14 empirical alignment and covariance limits`；actualH3/hash仅receipt。正式21/24、partial15不变，source继承审核范围保持、新claims true。下一geometry/normalization-Cov设计，实际数据/response缺口不补造。
