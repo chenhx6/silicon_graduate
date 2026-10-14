@@ -8,13 +8,13 @@ updated: 2026-10-14
 
 ## Active handoff — DAY14 formal exam and continuous study
 
-Run `2026-10-14-day-14-02` / session `01a13a0e-e8bd-7251-b970-f6975679e281`，原截止 `2026-10-15T15:00:00+08:00`不变，goal/research active。FormalDay14已published：primedrecall、Herzáň主线/图表/七边、21/24/weeklyREFLECT；officialnext14/count13待closeout只计一次，Day15仅partial、不研究下一卡。
+Run `2026-10-14-day-14-02` / session `01a13a0e-e8bd-7251-b970-f6975679e281`；原截止 `2026-10-15T15:00:00+08:00`不变，goal/researchactive。FormalDay14已published：primedrecall、Herzáň主线/图表/七边、21/24/weeklyREFLECT；officialnext14/count13待closeout只计一次，Day15仅partial、不研究下一卡。
 
-最新checkpoint006（10-15 02:57 Asia/Shanghai）：在70/28/35/51模型之后，Zobel1983六页primary67Ga experimental condition-transfer主线/metadata/rawhash核完；同958parent原表全部10行、38-check CG/Stevens/条件Gaussian/std/Cov sensitivity/mixture/CMticks与Python图通过。Canonical source+angular-distribution保存数据/公式/边界；日报唯一writeback19items/11changedpages。原sourceHuman/旧flags保持、新11–14 true，无新humanreview；raw/PLAN/Bib/继承dirty不改，actualevents/fitCov/完整response缺失。
+最新checkpoint007（10-15 04:19 Asia/Shanghai）：Zobel1983 primary6页/Table1data38之后，26-check actualgeometry上的chosen covariance design完成，GLS/J/Fisher/Schur、same-marginals不同rho、global/run模式边界写回angular-distribution及Z83-15。Canonical保存全部variance向量/矩阵；actualGF/原I/eff/monitor/fitCov仍缺，无实验rho/σ/I/assignment重估。原Human/旧flags保留、新11–15true，raw/PLAN/Bib/继承dirty不改。
 
-前5批已Gitee发布；本批稳定指针 main / `Audit DAY14 empirical alignment and covariance limits`，exacthash/actualH3只receipt。当前report/card/writeback/lint0errors129warnings/diff/AST/protected/raw/review与figureQA通过；minfont8pt、collision0fail0warn、singlepanelNOTAPPLICABLE、3sourceexportwarnings已核。下一bounded current：angular-fit geometry/normalization与Cov可识别性，先冻结预测/actualangles，chosen design不当作者GF/实测Σ。
+日报唯一writeback20items/11changedpages，report/card/writeback/lint0errors129warnings/diff/AST/protected/raw/review通过。前6批已Giteepublished；本批稳定指针 main / `Demonstrate DAY14 angular covariance identifiability limits`，exacthash/actualH3只receipt。下一候选核Day15 remaining coefficient convention page和Ref5统计方法边界，先overlap，不重复同模型换值充填或给preview学分。
 
-Clock001实际ack，其它queued不假ack；Farmer8686/clock75781不重启。恢复 `codex resume 01a13a0e-e8bd-7251-b970-f6975679e281 -C /workspace/wiki -s danger-full-access -a never`；本run`-run-02/` checkpoint006/continuation可恢复。
+Clock001实际ack，其余queued不造ack，Farmer8686/clock75781不重启。恢复 `codex resume 01a13a0e-e8bd-7251-b970-f6975679e281 -C /workspace/wiki -s danger-full-access -a never`；本run`-run-02/` checkpoint007/continuation可恢复。
 
 ## Previous active handoff — DAY13 continuous study reopened by user
 

@@ -45,3 +45,9 @@ Order51-check完成；两个same-rank/type pure stretched downward transitions�
 Zobel1983 raw/metadata/六页主线/Table1upright/图/公式核完；同958keV parent10publishedrows全部保留（40表行中其余30不同parent未选、alpha9空白不补零）。38-check条件sstd/CG-Stevens/Cov/mixture/CMticks+figureQA通过；sourceHuman/旧flags继承，新11–14true，无新人审。Canonical source+angular-distribution，writeback19items/11changedpages、lint0errors129warnings/diff/AST/protected/raw/review通过。
 
 下一bounded current route：先冻结预测，再用sourcep390实际C4angles(0/57/90/158)、alpha两组三angles(61/105/146.5及43/87/128.5)、必要monitor/normalization信息，设计角fit covariance的可识别性控制。A2/A4 fitnorm、weights、commonmonitor如何改变ρ？两个publishedmarginalerrors能否唯一确定joint判断？实际GF/rawcounts/fitCov未给，prototype不能称重构。此处仍Day15partial知识预习，Day14固定，原截止15:00；不新建session/goal/daemon或计下一卡。
+
+## Checkpoint007：Cov-design已验收，研究继续
+
+26-check GLs/J/Fisher/Schur、same-marginals positiveV examples、global/run模式通过；canonical公式/variance/矩阵在angular-distribution，sourceZ83-15true，旧Human/flags不变。报告writeback20items/11changedpages、lint0errors129warnings、diff/AST/protected/raw/review通过。原21/24、completed14/partial15、officialnext14/count13保持。
+
+下一：刷新clock/候选池，先看Day15 remaining angular-distribution-coefficient convention page与overlap，再选sourceRef5统计方法若有实际新信息；actualGF/原angularI/eff/monitor/fitCov缺口不以prototype补造。不要继续同模型换值填日程；原截止15:00、closeout15–16，source/卡完成均非全window结束，不计Day15或研究Day16，不新建session/goal/daemon。

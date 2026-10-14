@@ -187,6 +187,51 @@ Fig3的above-threshold六ticks还能做一个坐标cross-check：用mass-number 
 
 决定 `supports` reaction/beam/feeding-aware reference transfer，`limits` 将local alignment或Gaussian-consistent pair移植成统一sigma/I，以及按两条误差直接作joint检验。Z83-9对同energy/同target的要求还涉及有效束流能量与targetloss，不能只说同一acquisition即可。本案例只给方法证据，不改变193Bi/A≈130模式排序，不给Day15学分；原人审仅覆盖继承内容，本run新增是Codex自审。
 
+## 角采样与归一化下的Cov可识别性
+
+[[zobel-1983-energy-projectile-alignment]] Z83-12要求处理alpha2/alpha4统计dependence；Z83-15给实际angles与两run normalization。以下是knowngeometry上的chosen design，sourceGF/rawintensities/efficiency/monitor/fitCov未提供，不是其重拟合。
+
+### 先规定fitted-normalization的模型
+
+取三parameter prototype `y=Xβ`、`X=(1,P2,P4)`、`β=(F,F A2exp,F A4exp)`，point detector、delta=0及pureE2 13/2→9/2作为声明输入。任务CG kernel/独立Legendre积分给complete-alignment max coefficients `c2=40/91`、`c4=−216/1001`。这里用原alpha11.3 fit point `(alpha2,alpha4)=(.973,.803)`作为local Jacobian点、F=1；C geometry也保持此点以隔离geometry effect，不称C组实测中心。
+
+\[
+\alpha_k=\frac{\beta_k}{F c_k},\qquad
+J_\alpha=\begin{pmatrix}-\alpha_2/F&1/(F c_2)&0\\-\alpha_4/F&0&1/(F c_4)\end{pmatrix},
+\qquad C_\beta=(X^\mathsf TV^{-1}X)^{-1},\quad
+C_\alpha=J_\alpha C_\beta J_\alpha^\mathsf T.
+\]
+
+同一结果由whitened/QR路线、直接 `(F,alpha2,alpha4)` Fisher parameterization及profile-out F的Schur complement核验。把F当已知是另一个variance问题，不能删掉其Jacobian/cross terms再称同一normalized fit。
+
+### 已知angle不代表已知rho
+
+同fit点、chosen equal absolute intensity variance，C的0/57/90/158度设计给rho `+.504879`；alpha两run的61/105/146.5、43/87/128.5度给 `−.631222`。这些是prototype结果，不是Zobel真实rho；实际权重与normalization未知。
+
+对同一alpha六角、同一local point，在chosen log-variance bounds内找到两组positive diagonal V，经scale保持marginal sigmas `.037/.090`：
+
+| chosen example | Var(alpha2) | Cov(alpha2,alpha4) | Var(alpha4) | rho |
+| --- | --- | --- | --- | --- |
+| A | .001369 | −.00321010 | .008100 | −.963993 |
+| B | .001369 | −.000474668 | .008100 | −.142543 |
+
+两组mean/marginals/geometry相同而Cov不同，说明这些输入不足以选定joint判断。它们是可行variance样例，optimization未认证global rho bounds，更未恢复实际GF。按angles `(61,105,146.5,43,87,128.5)`，chosen diagonal V 的六个variance为：
+
+```text
+A = 5.59601616291e-05, 1.80167500475e-05, 0.000413492773582, 7.57338432404e-06, 7.57338432404e-06, 0.000413492773582
+B = 0.000118505201881, 0.000875641584711, 0.000104813215223, 0.000875641584711, 0.00024144976543, 1.60379350615e-05
+```
+
+这些归一intensity variance不是source的新观测量或误差预算；代码中的log-shape bounds为[-2,2]、首项log-shape固定0，最后统一scale以匹配目标marginals。
+
+### 全局mode与分run mode的区别
+
+同一个multiplicative mode沿 `δβ∝β`，满足 `Jαβ=0`，因此在本linearized normalized model中一阶取消；data covariance加 `tau² yyᵀ` 给beta covariance加 `tau² ββᵀ`，normalized alpha不变。它不使所有角度/不同run的normalization误差消失。
+
+以example B为基准，仅第一组三angles加入chosen relative monitor sigma `.02` 的common mode，alpha covariance变为 `(.00170730,−.00168633;−.00168633,.01243972)`。这是source两run结构所启发的控制，不是作者monitor error。需要真实producer/raw count IDs、angular-fit weights、efficiency/normalization及Sigma，才能判断dataset中的mode与geometry。
+
+复算 [day14_angular_fit_covariance_design.py](../../system/scripts/day14_angular_fit_covariance_design.py)；完整输入/variance/examples在 `outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/angular-fit-covariance-design.json`，26项coef/jacobian/rank/PSD/QR/Fisher/Schur/scale/mode控制通过。决定 `limits` 从两个errors+knownangles反推Cov，`supports`保存fitted-normalization和shared-monitor结构；无actual GF/事件重放、实验significance或新sigma/I/line assignment。Day15仍仅无学分preview。
+
 ## Sources
 
 [[twin-1970-polarization-angular-correlation-40k]] combines near-threshold `a2/a4` angular distributions, γγ correlations and Compton polarization; it shows that joint fits can resolve δ branches that a single angular distribution cannot.

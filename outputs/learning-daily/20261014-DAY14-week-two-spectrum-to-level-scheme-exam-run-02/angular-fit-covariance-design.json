@@ -1,0 +1,203 @@
+{
+  "kind": "L2 chosen angular-fit covariance design with source geometry; not actual GF covariance",
+  "source_locators": [
+    "Z83-12 / printed393 statistical dependence",
+    "printed390 Sec2 detector geometry",
+    "Z83-11 / Table1 marginal errors"
+  ],
+  "local_linearization_point": {
+    "from_published_alpha11p3_fit": [
+      0.973,
+      0.803
+    ],
+    "held_same_for_geometry_comparison": true,
+    "F_chosen": 1,
+    "pureE2_maximum_coefficients_task_derived": [
+      0.43956043956043966,
+      -0.2157842157842156
+    ]
+  },
+  "geometry_equal_variance_controls": [
+    {
+      "geometry": "C_simultaneous",
+      "angles_deg": [
+        0,
+        57,
+        90,
+        158
+      ],
+      "chosen_equal_absolute_variance_rho": 0.5048785049157669,
+      "chosen_sigma4_over_sigma2": 2.3954192441350535,
+      "unknown_F_alpha_covariance_unit_noise": [
+        [
+          5.943341020226017,
+          7.187850994004924
+        ],
+        [
+          7.187850994004923,
+          34.10308901522214
+        ]
+      ],
+      "known_F_alpha_covariance_unit_noise": [
+        [
+          5.370679412782612,
+          8.793569433502386
+        ],
+        [
+          8.793569433502388,
+          29.600723790403134
+        ]
+      ]
+    },
+    {
+      "geometry": "alpha_two_runs",
+      "angles_deg": [
+        61,
+        105,
+        146.5,
+        43,
+        87,
+        128.5
+      ],
+      "chosen_equal_absolute_variance_rho": -0.6312220102180135,
+      "chosen_sigma4_over_sigma2": 2.8288757558184536,
+      "unknown_F_alpha_covariance_unit_noise": [
+        [
+          10.681738336565815,
+          -19.073831546820454
+        ],
+        [
+          -19.073831546820454,
+          85.4810173915348
+        ]
+      ],
+      "known_F_alpha_covariance_unit_noise": [
+        [
+          10.014520478023872,
+          -15.03370749684754
+        ],
+        [
+          -15.03370749684754,
+          61.01734015298027
+        ]
+      ]
+    }
+  ],
+  "same_marginals_positive_variance_examples": [
+    {
+      "angle_variances_chosen": [
+        5.596016162906742e-05,
+        1.8016750047471186e-05,
+        0.0004134927735824056,
+        7.573384324036466e-06,
+        7.573384324036466e-06,
+        0.0004134927735824056
+      ],
+      "alpha_covariance_chosen": [
+        [
+          0.0013689999999999933,
+          -0.0032100956723134393
+        ],
+        [
+          -0.003210095672313439,
+          0.00809999999999996
+        ]
+      ],
+      "marginal_sigmas": [
+        0.03699999999999991,
+        0.08999999999999977
+      ],
+      "rho": -0.9639926943884249,
+      "optimizer_success": true,
+      "not_a_global_bound_or_source_fit": true
+    },
+    {
+      "angle_variances_chosen": [
+        0.00011850520188067299,
+        0.0008756415847113948,
+        0.00010481321522349286,
+        0.0008756415847113946,
+        0.00024144976543013304,
+        1.6037935061532847e-05
+      ],
+      "alpha_covariance_chosen": [
+        [
+          0.0013689999999999998,
+          -0.00047466833947269743
+        ],
+        [
+          -0.00047466833947269727,
+          0.008099999999999882
+        ]
+      ],
+      "marginal_sigmas": [
+        0.037,
+        0.08999999999999934
+      ],
+      "rho": -0.14254304488669697,
+      "optimizer_success": true,
+      "not_a_global_bound_or_source_fit": true
+    }
+  ],
+  "separate_run_monitor_control": {
+    "chosen_relative_monitor_sigma": 0.02,
+    "before_alpha_covariance": [
+      [
+        0.0013689999999999998,
+        -0.00047466833947269743
+      ],
+      [
+        -0.00047466833947269727,
+        0.008099999999999882
+      ]
+    ],
+    "after_alpha_covariance": [
+      [
+        0.0017072970800823466,
+        -0.0016863259730766002
+      ],
+      [
+        -0.0016863259730766009,
+        0.012439718866959208
+      ]
+    ]
+  },
+  "checks": {
+    "CG_kernel_legendre_and_integrated_coefficients": true,
+    "normalization_Jacobian_finite_difference": true,
+    "global_multiplicative_direction_cancels_first_order": true,
+    "C_simultaneous_rank_three_and_positive_mean_intensities": true,
+    "C_simultaneous_PSD_parameter_covariances": true,
+    "C_simultaneous_QR_and_normal_matrix_covariances_agree": true,
+    "C_simultaneous_Jacobian_Fisher_and_profiled_Schur_agree": true,
+    "C_simultaneous_noise_scale_covariance_and_rho": true,
+    "C_simultaneous_global_mode_parameter_propagation": true,
+    "C_simultaneous_global_mode_cancels_normalized_alpha": true,
+    "C_simultaneous_known_F_is_not_normalized_unknown_F": true,
+    "alpha_two_runs_rank_three_and_positive_mean_intensities": true,
+    "alpha_two_runs_PSD_parameter_covariances": true,
+    "alpha_two_runs_QR_and_normal_matrix_covariances_agree": true,
+    "alpha_two_runs_Jacobian_Fisher_and_profiled_Schur_agree": true,
+    "alpha_two_runs_noise_scale_covariance_and_rho": true,
+    "alpha_two_runs_global_mode_parameter_propagation": true,
+    "alpha_two_runs_global_mode_cancels_normalized_alpha": true,
+    "alpha_two_runs_known_F_is_not_normalized_unknown_F": true,
+    "same_mean_geometries_can_give_opposite_rho": true,
+    "family0_positive_variances_and_covariance": true,
+    "family0_same_target_marginal_sigmas": true,
+    "family1_positive_variances_and_covariance": true,
+    "family1_same_target_marginal_sigmas": true,
+    "same_marginals_do_not_identify_rho": true,
+    "one_run_monitor_mode_changes_normalized_covariance": true
+  },
+  "checks_passed": 26,
+  "boundaries": [
+    "No observed angle counts, relative efficiencies, background model, monitor counts or GF covariance is supplied.",
+    "The3parameter model is beta0+beta2P2+beta4P4; normalized alpha includes an uncertain fitted beta0.",
+    "The published alpha point is a linearization point, not a generated true nuclear population or a C-measurement point.",
+    "The positive variance examples merely reproduce two numerical marginal errors; no actual source variances or certified rho bounds are inferred.",
+    "Global multiplicative-mode cancellation is first order for normalized coefficients; angle/run-specific modes can remain.",
+    "A different fit parameterization or fixed F is a different covariance problem.",
+    "Day14 remains active; Day15 preview stays uncredited."
+  ]
+}

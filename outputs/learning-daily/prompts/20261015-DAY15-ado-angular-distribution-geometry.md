@@ -263,3 +263,5 @@ Day14后续已经在partial15中视觉读Zheng2002全文5页，完成28-check AD
 计算单需区分R_ADO与f_ADO：只有两角计数与target效率比能识别R，求f还需独立本征ratio或gate/geometry输入，不能以循环定义f=1完成卡。所有自设counts、效率、covariance必须注明；Z02-6/9的组近似、joint response、finite acceptance、alignment/feeding应核到对应canonical source locator。
 
 Day14后续partial15还阅读Zobel1983全部六页并核67Ga同parent十个published coefficient rows，完成38-check条件Gaussian/Cov/feeding/c坐标计算及图。这是priming；原sourceJul08人审继承范围不扩至本run新11–14或model，FormalDay15须保存自己的原答和逐卡核验。
+
+Day14 partial15还完成26-check sourcegeometry上的chosenCov-design（unknownF normalization、GLS/J/Fisher/Schur、same-marginals与monitor控制）。它没有恢复Zobel实际Cov或GF；正式Day15的回忆/审计须标priming，保持publishedfact与chosenerror-model分层。

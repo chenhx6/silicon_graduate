@@ -61,6 +61,7 @@ Zobel et al. measured nuclear-alignment attenuation coefficients in `67Ga` using
 | Z83-12 | Table1 caption将quotederrors限定为Eq1 angular-fit的statisticaluncertainties并采用delta=0；p393明确讨论alpha2/alpha4的statisticaldependence和error ellipse，未列数值Cov。因此本run不能以两个独立误差或矩形认证jointGaussian检验。后句为任务边界。 | method-and-boundary | mixed | printed p.392 Table1 caption；printed p.393，Fig5后右栏第一段 | true |
 | Z83-13 | 四条selectedE2的delta在原Sec2注明由Ref4的angular distribution/linear polarization判为within-errors zero；Ref4为Zobel等NPA316,165(1979)，Ref5为Zobel等NIM171,223(1980)。当前scan数据、purity/structure输入和理论/方法引用不能全计成独立实验。 | source-lineage | direct | printed p.390 Sec2；printed p.394 References4/5 | true |
 | Z83-14 | Fig3下面六个above-threshold ticks为1.44/3.60/4.26/7.09/9.91/13.67MeV，caption给4MeV阈值幅度及3031.7keV parent。本任务用mass-number CM64/68、lab9/11.3/12/15/18/22MeV扣4与3.0317MeV，最大差.00418MeV；后半是坐标cross-check，不认证作者精确mass/calibration或正反应Q。 | source-axis-and-task-inference | mixed | printed p.392 / PDFp.4，Fig3 lower-axis与caption | true |
+| Z83-15 | C组在0/57/90/158度同时record，作者说明不需beam-current normalization；alpha组三个movable detectors先61/105/146.5度，再将plate转18度得到43/87/128.5度，fixed detector作两run的beam-current monitor。实际intensity/efficiency/monitor误差及GF fitCov未列，不能把任意prototypevariance或rho当本源实测。 | experimental-setup-and-boundary | mixed | printed p.390 / PDFp.2，Sec2 detector-position与normalization段 | true |
 
 
 ## Authors' Interpretation
@@ -108,10 +109,12 @@ User review on 2026-07-08 found no source-level problems; Z83-5, Z83-8 and Z83-9
 | 12C / 44 | .754±.033 | .573±.088 |
 | 12C / 48 | .756±.038 | .413±.110 |
 
-原frontmatter人审状态及Z83-1–10的false标记是2026-07-08继承记录，保持原范围；新Z83-11–14和本run模型/图为Codex自审，needs_review:true，不产生新人审事件。
+原frontmatter人审状态及Z83-1–10的false标记是2026-07-08继承记录，保持原范围；新Z83-11–15和本run模型/图为Codex自审，needs_review:true，不产生新人审事件。
 
 实验输入层：Table1的coefficients是corrected intensity的LS fit outputs，quotederrors为statistical；GF的Gaussian+tail+step是谱线profile模型，与nuclear-substate Gaussian不是同一个假设。作者p393对quantitative feeding分析明确保留误差较大限制，并强调alpha pair相关性；数值Cov/raw spectra/完整response没有在本材料提供。
 
 解释层：heavy-ion组Gaussian一致与轻粒子direct/cascade limiting groups一致是作者的有条件判断；Fig5中间能区feeding-superposition线与p394同energy/target警告限制固定alignment迁移，不等于全部Gaussian无效。Ref9 Ionescu的167Tm是比较引用；Ref4 purity/structure与Ref5 method依赖不认证当前所有点独立采集。
 
 任务计算层：[[angular-distribution]]“Zobel1983：同parent反应条件与Gaussian诊断”保存原表10行、明确的独立stat差量、任务Gaussian标准差s、CG/Stevens独立核验、unknownCov敏感性、chosen mixture及Fig3坐标cross-check。38检查与图QA通过；不把alpha2-only s/J当原文实测sigma/I、不给Gaussian排除概率，不拟合用户P-ADO或193Bi。Day15仍只是partial15预习。
+
+本run随后以Z83-15的knowngeometry作26-check angular-fit covariance设计，[[angular-distribution]]“角采样与归一化下的Cov可识别性”保存GLS/Jacobian/Fisher/Schur、same-marginals正variance样例与monitor-mode控制。SourceGF未提供，prototype三parameter/权重/linearization不是作者code或data covariance，Z83-15 true、不扩原人审。

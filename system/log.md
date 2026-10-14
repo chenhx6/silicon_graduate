@@ -1720,3 +1720,8 @@ FormalDay14 primedrecall、HerzáňFigure2/TableI七边/shared-doublet与unknown
 ## 2026-10-15 — DAY14 checkpoint006 empirical alignment
 
 Zobel1983六页/metadata/raw与958parent10个Pubfit rows，38-check条件Gaussian/Cov/mixture/坐标与Pythonfigure写回canonical；reportwriteback19items/11pages、lint0errors129warnings与保护检查通过。稳定指针 main / `Audit DAY14 empirical alignment and covariance limits`；actualH3/hash仅receipt。正式21/24、partial15不变，source继承审核范围保持、新claims true。下一geometry/normalization-Cov设计，实际数据/response缺口不补造。
+
+
+## 2026-10-15 — DAY14 checkpoint007 covariance identifiability
+
+26-check chosenangularCov设计写回canonical公式/variance/矩阵；actualGF与数据Σ仍缺。reportwriteback20items/11pages及lint0errors129warnings/保护门通过，正式21/24与partial15不变。稳定指针 main / `Demonstrate DAY14 angular covariance identifiability limits`；actualH3/hash只receipt。原截止与继承Human/flags/raw/PLAN/Bib保留，下一核剩余Day15 coefficient conventions及必要source。
