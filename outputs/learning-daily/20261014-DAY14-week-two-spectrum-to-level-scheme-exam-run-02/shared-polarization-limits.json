@@ -1,0 +1,325 @@
+{
+  "kind": "L2 algebra/point-response limit, not193Bi likelihood fit",
+  "checks": {
+    "positive_count_mixture_identity_0": true,
+    "positive_count_mixture_identity_1": true,
+    "positive_count_mixture_identity_2": true,
+    "positive_count_mixture_identity_3": true,
+    "positive_count_mixture_identity_4": true,
+    "positive_count_mixture_identity_5": true,
+    "positive_count_mixture_identity_6": true,
+    "positive_count_mixture_identity_7": true,
+    "positive_count_mixture_identity_8": true,
+    "positive_count_mixture_identity_9": true,
+    "positive_count_mixture_identity_10": true,
+    "positive_count_mixture_identity_11": true,
+    "nearby_energy_miscalibration_floor_small": true,
+    "two_nonnegative_components_cannot_reproduce_mean_under_this_calibration": true,
+    "calibration_shift_formula": true,
+    "quoted_error_only_normal_example_negative": true,
+    "opposite_component_identity_can_share_A_0": true,
+    "opposite_component_identity_can_share_A_1": true,
+    "gradient_matches_RB_rotation_q-2_t0": true,
+    "gradient_matches_RB_rotation_q-2_t1": true,
+    "gradient_matches_RB_rotation_q-2_t2": true,
+    "gradient_matches_RB_rotation_q-2_t3": true,
+    "gradient_matches_RB_rotation_q-2_t4": true,
+    "gradient_matches_RB_rotation_q-1_t0": true,
+    "gradient_matches_RB_rotation_q-1_t1": true,
+    "gradient_matches_RB_rotation_q-1_t2": true,
+    "gradient_matches_RB_rotation_q-1_t3": true,
+    "gradient_matches_RB_rotation_q-1_t4": true,
+    "gradient_matches_RB_rotation_q0_t0": true,
+    "gradient_matches_RB_rotation_q0_t1": true,
+    "gradient_matches_RB_rotation_q0_t2": true,
+    "gradient_matches_RB_rotation_q0_t3": true,
+    "gradient_matches_RB_rotation_q0_t4": true,
+    "gradient_matches_RB_rotation_q1_t0": true,
+    "gradient_matches_RB_rotation_q1_t1": true,
+    "gradient_matches_RB_rotation_q1_t2": true,
+    "gradient_matches_RB_rotation_q1_t3": true,
+    "gradient_matches_RB_rotation_q1_t4": true,
+    "gradient_matches_RB_rotation_q2_t0": true,
+    "gradient_matches_RB_rotation_q2_t1": true,
+    "gradient_matches_RB_rotation_q2_t2": true,
+    "gradient_matches_RB_rotation_q2_t3": true,
+    "gradient_matches_RB_rotation_q2_t4": true,
+    "each_photon_q_angular_average_one_0": true,
+    "nonnegative_linear_intensities_0": true,
+    "each_photon_q_angular_average_one_1": true,
+    "nonnegative_linear_intensities_1": true,
+    "each_photon_q_angular_average_one_2": true,
+    "nonnegative_linear_intensities_2": true,
+    "isotropic_photon_q_W_one": true,
+    "isotropic_photon_q_linear_zero": true,
+    "joint_mean_outside_E2_outer_set": true,
+    "two_reported_error_box_outside_outer_set": true,
+    "wider_declared_box_can_be_feasible": true,
+    "fixed_R_bound_exists_1": true,
+    "fixed_R_bound_exists_-1": true,
+    "at_observed_R_outer_A_is_positive": true,
+    "outer_set_obeys_separating_inequality": true,
+    "reported_mean_violates_inequality": true,
+    "stretched_CG_Vandermonde_7.5": true,
+    "unpolarized_nucleus_has_uniform_photon_q_7.5": true,
+    "E2_sign_changes_with_population_7.5Gaussian_sigma_over_J_point3": true,
+    "E2_sign_changes_with_population_7.5max_abs_M_aligned": true,
+    "stretched_CG_Vandermonde_9.5": true,
+    "unpolarized_nucleus_has_uniform_photon_q_9.5": true,
+    "E2_sign_changes_with_population_9.5Gaussian_sigma_over_J_point3": true,
+    "E2_sign_changes_with_population_9.5max_abs_M_aligned": true,
+    "unmatched_selection_scalar_feasible_R": true,
+    "unmatched_selection_scalar_feasible_A": true,
+    "pure_M2_nuclear_CG_set_can_contain_joint_mean": true
+  },
+  "checks_passed": 70,
+  "reported_shared": {
+    "R": 1.26,
+    "sigma_R": 0.16,
+    "A": -0.076,
+    "sigma_A": 0.011,
+    "source": "HE15-9 / N193-5"
+  },
+  "calibration": {
+    "a_mean": 1.0917402,
+    "Q_mean": 0.25852044670043467,
+    "nearby_a_floor": -1.4838695140127436e-05,
+    "raw_Nperp_over_Nparallel_counterfactual": 0.7865754686687857,
+    "a_required_for_zero_A": 1.271333825974026,
+    "relative_a_increase_required": 0.16450216450216448,
+    "quoted_error_only_95percent_normal_example_upper": -0.05444,
+    "not_source_significance": true
+  },
+  "same_shared_A_opposite_component_pairs": [
+    {
+      "component_A": [
+        -0.2,
+        0.1
+      ],
+      "corrected_count_weight_first": 0.5866666666666666
+    },
+    {
+      "component_A": [
+        0.1,
+        -0.2
+      ],
+      "corrected_count_weight_first": 0.41333333333333333
+    }
+  ],
+  "E2_outer_vertices_R_A": [
+    [
+      2.1124429574469326,
+      0.25864056026957194
+    ],
+    [
+      1.641124100585094,
+      0.21945921807291974
+    ],
+    [
+      0.2704046793102748,
+      -0.22812514681517937
+    ],
+    [
+      2.1124429574469326,
+      0.2584003809924867
+    ],
+    [
+      1.641124100585094,
+      0.2192554234465413
+    ],
+    [
+      0.2704046793102748,
+      -0.2279133048179693
+    ]
+  ],
+  "E2_outer_hull_indices": [
+    0,
+    1,
+    5,
+    2,
+    3
+  ],
+  "fixed_R_A_outer_range": [
+    0.033250195613424696,
+    0.09506873540601547
+  ],
+  "separating_inequality": {
+    "form": "A >= slope*R+intercept",
+    "slope": 0.26412346235270334,
+    "intercept": -0.29954536695098155,
+    "observed_mean_margin": -0.10925019561342468
+  },
+  "declared_error_boxes": [
+    {
+      "radius_in_reported_errors": 0,
+      "R_range": [
+        1.26,
+        1.26
+      ],
+      "A_range": [
+        -0.076,
+        -0.076
+      ],
+      "feasible": false,
+      "solver_status": 2,
+      "predicted": null,
+      "not_a_joint_confidence_region": true
+    },
+    {
+      "radius_in_reported_errors": 1,
+      "R_range": [
+        1.1,
+        1.42
+      ],
+      "A_range": [
+        -0.087,
+        -0.065
+      ],
+      "feasible": false,
+      "solver_status": 2,
+      "predicted": null,
+      "not_a_joint_confidence_region": true
+    },
+    {
+      "radius_in_reported_errors": 2,
+      "R_range": [
+        0.94,
+        1.58
+      ],
+      "A_range": [
+        -0.098,
+        -0.054
+      ],
+      "feasible": false,
+      "solver_status": 2,
+      "predicted": null,
+      "not_a_joint_confidence_region": true
+    },
+    {
+      "radius_in_reported_errors": 3,
+      "R_range": [
+        0.78,
+        1.74
+      ],
+      "A_range": [
+        -0.109,
+        -0.043
+      ],
+      "feasible": true,
+      "solver_status": 0,
+      "predicted": [
+        0.8373472582123774,
+        -0.043
+      ],
+      "not_a_joint_confidence_region": true
+    }
+  ],
+  "pure_E2_orientation_counterexamples": [
+    {
+      "Ji": 7.5,
+      "Jf": 5.5,
+      "chosen_population": "Gaussian_sigma_over_J_point3",
+      "R_point": 1.440198978980656,
+      "P_side": 0.5127054929841068,
+      "A_at_mean_Q": 0.13254485307201788
+    },
+    {
+      "Ji": 7.5,
+      "Jf": 5.5,
+      "chosen_population": "max_abs_M_aligned",
+      "R_point": 0.2704046793102748,
+      "P_side": -0.8820161330357952,
+      "A_at_mean_Q": -0.2280192047094038
+    },
+    {
+      "Ji": 9.5,
+      "Jf": 7.5,
+      "chosen_population": "Gaussian_sigma_over_J_point3",
+      "R_point": 1.4177214331139707,
+      "P_side": 0.48732828896452174,
+      "A_at_mean_Q": 0.12598432695286668
+    },
+    {
+      "Ji": 9.5,
+      "Jf": 7.5,
+      "chosen_population": "max_abs_M_aligned",
+      "R_point": 0.2704046793102748,
+      "P_side": -0.8820161330357952,
+      "A_at_mean_Q": -0.2280192047094038
+    }
+  ],
+  "unmatched_selection_examples": [
+    {
+      "observable": "R",
+      "weights": [
+        0.7507578995173625,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.2492421004826375,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "pair_prediction": [
+        1.26,
+        0.07444184279092395
+      ],
+      "nuclear_CG_vertex_basis": true
+    },
+    {
+      "observable": "A",
+      "weights": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.68337936212599,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.3166206378740099,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "pair_prediction": [
+        0.7441824699954404,
+        -0.076
+      ],
+      "nuclear_CG_vertex_basis": true
+    }
+  ],
+  "conditional_M2_outer_example": {
+    "nuclear_CG_feasible": true,
+    "joint_prediction": [
+      1.26,
+      -0.076
+    ],
+    "not_a_line_assignment": true,
+    "required_condition": "M2 requires opposite endpoint parities; the tentative same-parity E2 scheme cannot be kept unchanged"
+  },
+  "boundaries": [
+    "No observed component counts/weights or calibration covariance; the reported0.011 was not reinterpreted as full experimental uncertainty.",
+    "Pure E2 photon-q outer set assumes axial symmetry, diagonal populations/unobserved final spin, point angles157.6/75.5, common conditional selection and relative weights forR/POL, positive sourceQ and no background. It is not a JUROGAM replay.",
+    "Pure E2 can have negativeP under different populations, but negativeP alone does not identifyM2. The joint outer-set exclusion is conditional; changed gate/acceptance/coherence/multipole/calibration assumptions can change it.",
+    "Error boxes are sensitivity ranges, not joint confidence regions. Q/a coefficient covariance and R/POL covariance were not supplied.",
+    "Gamma relative intensities are not corrected two-crystal polarimetry weights; no parenttau,delta,spin orshape is inferred."
+  ]
+}

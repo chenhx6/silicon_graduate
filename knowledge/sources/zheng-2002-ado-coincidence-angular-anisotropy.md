@@ -3,7 +3,7 @@ type: source
 title: "符合模式下的 γ 射线各向异性度测量"
 aliases: ["Zheng 2002 ADO", "Gamma-Ray Anisotropy Measurement in Coincidence Mode"]
 created: 2026-09-20
-updated: 2026-09-20
+updated: 2026-10-14
 status: ai-draft
 review_status: unreviewed
 source_type: method
@@ -70,7 +70,7 @@ tags: [ado, coincidence-mode, gamma-ray-anisotropy, multipolarity, detector-effi
 
 ## Summary
 
-这篇方法论文把 ADO 定义为符合模式下的大、小角度探测器组强度比，并显式加入门控 γ 射线角分布与角度依赖效率的修正。基于 `145Tb` 实验的 12 探测器、三角度组布局和标准源效率标定，作者估计 `f_ADO` 的能量依赖误差在偶极/四极门下约为 3.2%/5.2%，并用已知跃迁的 ADO 结果与角分布、DCO 结果比较。该来源支持 ADO 的方法逻辑和一个具体阵列的可靠性边界，不支持把 `0.75/1.25` 阈值移植到其它阵列。
+这篇方法论文把 ADO 定义为符合模式下的大、小角度探测器组强度比，并显式加入门控 γ 射线角分布与角度依赖效率的修正。基于 `145Tb` 实验的 12 探测器、三角度组布局和标准源效率标定，作者计算 `f_ADO` 在所选角响应和已测效率下的最大偏离，偶极/四极门分别约为 3.2%/5.2%，并用已知跃迁的 ADO 结果与角分布、DCO 结果比较。该来源支持 ADO 的方法逻辑和一个具体阵列的可靠性边界，不支持把 `0.75/1.25` 阈值移植到其它阵列。
 
 ## Experimental or Theoretical Setup
 
@@ -84,9 +84,12 @@ tags: [ado, coincidence-mode, gamma-ray-anisotropy, multipolarity, detector-effi
 |---|---|---|---|---|---|
 | Z02-1 | 论文定义了效率修正后的 `R_ADO(γ1)`，并将其分解为待测 γ 的角分布比和门控/效率修正因子 `f_ADO`。 | method-definition | direct | PDF p.2，式 (1)-(5) | false |
 | Z02-2 | `145Tb` 实验的 12 套 BGO-HPGe 被分为约 `±32°`、`±58°`、`90°` 三个角度组，每组 4 套。 | experimental-fact | direct | PDF p.3 | false |
-| Z02-3 | 在门控能量 `100-1500 keV` 范围，`f_ADO` 的最大偏差约为四极门 `5.2%`、偶极门 `3.2%`。 | experimental-result | direct | PDF p.3，图 1 | false |
+| Z02-3 | 作者用已测各组效率曲线和给定门控γ角分布，在门控能量100-1500keV范围计算f_ADO；正文报告最大偏离约四极门5.2%、偶极门3.2%，是修正偏离，非全部实验误差。 | method-calculation | direct | PDF p.3，图1与对应正文 | false |
 | Z02-4 | 该实验中纯四极跃迁的 `R_ADO` 约为 `1.25`，纯偶极跃迁约为 `0.75`，M1/E2 混合跃迁位于两者之间。 | experimental-result | direct | PDF pp.3-4，图 2 | false |
 | Z02-5 | 作者认为在本阵列和校准条件下 ADO 多极性判定与角分布、DCO 结果一致。 | author-interpretation | direct | PDF pp.3-4，总结 | false |
+| Z02-6 | 式4给f_ADO=(C−ω2(θS)εS(γ2)/NS)/(C−ω2(θL)εL(γ2)/NL)，式5的C=Σg=S,M,L ω2(θg)εg(γ2)。εg是组效率之和，1/Ng来自不能与同一探测器自符合的修正；同组探测器效率不同时原式近似成立。 | method-definition | direct | PDF p.2，式2/4/5与式2后说明；PDF p.3，组效率说明 | true |
+| Z02-7 | Fig1的f(Eγ2)用已测效率与给定ω2计算，正文取Eγ2=100–1500keV、步长50keV；正文5.2/3.2百分数不替代count、效率、alignment/feeding、背景和covariance的完整uncertainty。后半是本任务的使用边界。 | method-and-boundary | mixed | PDF p.3，Fig1和计算说明 | true |
+| Z02-8 | 作者明确以145Tb高自旋实验Ref3为例，Fig2的145Tb及邻核参考线来自该实验所获数据；Ref3为Zhou/Zheng/Zhang et al., EPJA12,253–255(2001)。2002方法文与对应实验引用不能重复计独立采集。 | source-lineage | direct | PDF p.1末段；PDF pp.3–4，Fig2/参考文献3 | true |
 
 ## Nuclear Structure Information
 
@@ -101,6 +104,7 @@ tags: [ado, coincidence-mode, gamma-ray-anisotropy, multipolarity, detector-effi
 ## Model Results
 
 - 不适用。本文没有独立核结构模型计算；其核心是实验几何、效率修正和多极性方法验证。
+- 这里“不适用”指无独立核结构模型，不意味着没有计算量：f_ADO和Fig1是给定angular distribution及已测efficiency下的仪器/门控计算，需与Fig2的已知跃迁验证分开。
 
 ## Competing Interpretations and Limitations
 
@@ -160,3 +164,19 @@ tags: [ado, coincidence-mode, gamma-ray-anisotropy, multipolarity, detector-effi
 
 - 下一步：将 `Z02-1` 至 `Z02-5` 的公式和局部阈值写入 `knowledge/methods/angular-distribution.md`，同时保留阵列特定边界。
 - 该来源的 `145Tb` 实验不是本 Wiki 中已有某一条 `145Tb` source 的替代；若后续发现同一实验原始论文，需按 lineage 关联而非重复计数。
+
+## Day15 无学分预习：定义、归一与原始阅读
+
+在Day14运行内先保存primed来源前回忆，再核rawhash并视觉读全5页（p1动机、p2 Eq1–5、p3 efficiency/Fig1、p4 Fig2/总结/ref、p5英文abstract）。这是恰好下一张Day15的preview，day_index仍14，不提供formal Day15 card credit。原Z02-1–5的needs_review状态不清除；新增定义/谱系条目true。
+
+Raw扫描件无text layer，未用OCR填式子。原式精确分开targetγ1效率与gateγ2效率/角分布；1/NS、1/NL作用于组响应而非再除一次target group效率。两角计数和target效率比只能求R_ADO；f还需独立本征ratio或Eq4/5门控response，见[[angular-distribution]]“ADO计算单：额外输入、self-exclusion与误差”。
+
+本次条件worksheet与group/individual展开、heterogeneity失败控制和误差图是任务推导，不是论文给出的原始145Tb counts。等权32/58/90对P2/P4的近似抵消也只是任务的解析观察，作者没有在本文明说该设计意图。
+
+外部有界metadata查找未匹配本2002文的exact title，不用异文DOI补空字段；raw header身份仍有效。Ref3的Crossref metadata匹配“In-beam study of145Tb”、作者、EPJA12,253–255(2001)，DOI10.1007/s100500170001；未取得其primary全文，不追加article-specific数据。另有[[zheng-2004-high-spin-145tb-157yb]]的12-detector/145Tb谱系线索，未在本段认证event-list同一性或把thesis的不同参考数值合并为普适阈值。
+
+### Agent self-audit triage — preview
+
+- P0科学：Z02-6的组/单探测器efficiency convention、Eq3乘f方向、Z02-7的calculated deviation与experimental error区分已回raw核；无technical hard P0。
+- P1：group formula要求within-group response近似；γγ joint response的factorization、reference gate和finite acceptance仍需actual数据。Z02-8只有明确publication依赖，不补event-ID。Source阈值不移植至193Bi。
+- P2：方法/worksheet/图已回链；P3：没有human-review、Zotero/Bib改写、raw写入或Day15学分。

@@ -3,7 +3,7 @@ type: method
 title: 线偏振不对称分析
 aliases: [linear polarization asymmetry, polarization asymmetry, Delta asym]
 created: 2026-07-01
-updated: 2026-09-20
+updated: 2026-10-14
 status: active
 review_status: unreviewed
 method_type: gamma-ray-polarimetry
@@ -18,7 +18,7 @@ tags: [multipolarity, electric-magnetic-character]
 
 ## Inputs and Assumptions
 
-探测器偏振灵敏度、非对称校正、符合门和足够统计。
+探测器偏振灵敏度、非对称校正、符合门和足够统计；还需spin/geometry、核取向或其约束、门/背景与未分峰component条件。
 
 ## Procedure
 
@@ -26,11 +26,13 @@ tags: [multipolarity, electric-magnetic-character]
 
 ## What It Can Establish
 
-为电/磁性质提供独立于 DCO 的约束。
+为电/磁性质提供不同于DCO的互补约束；两者共享事件、门或标定时，不能自动视为统计独立或两条独立实验。
 
 ## What It Cannot Establish Alone
 
 弱跃迁的不确定度可能过大，不能可靠提取小 E2 admixture。
+
+未分峰的共同asymmetry不能自动分配成逐线性质；若无相应取向、geometry和spin条件，符号本身也不能独自给出electric/magnetic或绝对Jπ。
 
 ## Conventions and Systematics
 
@@ -75,6 +77,41 @@ The special `|P|=1` cases in Jones 2002 require particular alignment and pure tr
 [[liu-2016-octupole-correlations-multiple-chiral-doublet-bands-78br]] 用两个 90° AFRODITE clovers 作 Compton polarimeters，并与 [[angular-distribution]] 中的 ADO ratio 联合约束 `78Br` linking transitions；其 Fig.3 采用正值为 electric、负值为 magnetic 的本文约定。
 
 ## Sources
+
+- [[herzan-2015-193bi-spectroscopy]] HE15-9/10：共同393/394观测与clover实际a(E)/Q(E)；[[nndc-2017-193bi-level-scheme-evaluation]] N193-5保留Q及(E2)/negativePOL矛盾。
+- [[rose-brink-1967-phase-defined-angular-distributions]] RB67-2/11：population与photon helicity的相干差/和；下方模型是任务重构，不是作者实验。
+
+## 未分峰偏振的联合命题与选择条件
+
+[[herzan-2015-193bi-spectroscopy]] HE15-9的393.4/394.0-keV doublet报告共同Rexp=1.26(16)、A=−0.076(11)。它不是两条independent polarization measurements。N193-5只保留multipolarity字段Q（quadrupole），不能把此Q与detector sensitivity `Q_sens(Eγ)`混成一个量。
+
+若两component使用相同a，真计数已去除背景且非负，令`z_j=aN⊥,j+N∥,j`，则`A_shared=Σz_j A_j/Σz_j`。这是count-level convex mixture；共享事件不破坏均值恒等式，统计Σ仍须另算。共同negative A能限制“两条在该选择下都A_j≥0”的joint命题，却不能指定哪一条为负。自设pair(−.20,+.10)或(+.10,−.20)，配合不同正权重都可给−.076；这些权重不是原表的Iγ，也不是新fit。
+
+HE15-10的a(E)在0.6keV跨度的差仅3.24×10⁻5；若common energy取该区间内，对两个本来非负的component，最多引入约−1.484×10⁻5的合成floor，远小于−.076。用原a(393.7)=1.0917402和报告A反推条件raw N⊥/N∥≈.786575，若仅靠重标a把mean推至0，需要a≈1.271334（增加16.45%）。这是固定count ratio下的校准敏感性，不是指控真实calibration错误，未把原.011当完整Gaussian误差或重新报告source significance。
+
+### 纯E2的取向反例与joint R/A必要域
+
+RB67-11/2在printed p.316 / PDF11把线偏振强度写成helicity λ=±1 amplitudes的coherent difference/sum，并以substate population加权；本轮原图/hash再核。这里`mγ=Mi−Mf∈[−2,2]`是多极场的magnetic projection，不能与helicity λ混用。
+
+本任务用pureE2 transverse field `∇ΩY_(2,mγ)`与独立Wigner-rotation/helicity路线复核W和N（linear numerator），所有kernel一致；对任一mγ，W的angular average为1，isotropic初态给W=1、N=0。点角157.6°/75.5°、共同conditional selection、轴对称diagonal population、同一positive Q_sens、无背景与有限接受度的极限中，各非负mγ权重给一个pureE2 **outer set**；不是每个vertex都可由指定J的核布居实现。
+
+Gaussian σ/J=.3的自设15/2→11/2、19/2→15/2 pureE2分别给(R,A)≈(1.4402,+.1325)、(1.4177,+.1260)；自设aligned |Mi|=Ji同样pureE2却给R≈.2704、A≈−.2280。这说明A sign依赖population。后者虽然negative，但不能同时解释原R≈1.26。
+
+在这个松弛的pureE2 outer set中，固定R=1.26时A范围为+.03325到+.09507。一条可直接复核的necessary inequality为`A≥0.264123 R−0.299545`；所有six vertices满足它，报告mean的margin为−.10925。中心值和逐坐标2×printed-error sensitivity box在集合之外；3×box有可行点。这些boxes不是joint confidence regions；未知R/A/标定Σ、finite acceptance与实际gating都未重放，不能将其写成实验排除概率。
+
+若允许不同effective selection/population，单独R和单独A都能由合法核CG权重匹配；它们却不再是一套共同forward model。magnetic quadrupole模型可通过EM duality反转N而保留W，在松弛核CG模型中包含该joint mean；它需要opposite endpoint parities，不能原封不动保留原same-parity暂定纲图，也不提供某条线的M2赋值。Higher multipoles、背景/门/geometry失效和parity-anchor变化均应继续保留，不强行选解释。
+
+![共同R/A的声明模型必要域](../../outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/shared-E2-response-region.svg)
+
+图中source shared estimate与chosen模型点分开；灰红误差框只是敏感性范围。可复算[day14_shared_polarization_limits.py](../../system/scripts/day14_shared_polarization_limits.py)与[结果回执](../../outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/shared-polarization-limits.json)，70项数学/独立kernel/LP/CG检查通过。核模型假设、公式、结果与失败条件在本knowledge页，outputs不是唯一事实副本。
+
+### 必要伴随观测与判断边界
+
+- 先核DCO/POL是否使用相同transition identity、gate/事件选择与兼容的effective population；仅仅“同一acquisition”不够。
+- 在实际angular acceptance和clover threshold/geometry上重放response，使用matched-gate known-transition controls、a/Q完整Σ与相关背景；one-angle ratio不能代替full response。
+- 逐component偏振/转换和spin/parity锚点才可能定位究竟哪条性质/π需要重审；Gamma Iγ不是polarimetric z_j权重，τ/δ也不由共同A生成。
+
+Self-audit：`supports`shared observable对joint假设的条件约束；`limits`按符号给每条M2、忽略取向或把point model当experiment。N193-5的Q与原review flags保留；没有新的human-review或193Bi/A≈130模式排名。
 
 - [[chakraborty-2023-131xe-wobbling-origin]]
 - [[matta-2015-transverse-wobbling-135pr]]

@@ -208,6 +208,14 @@ N193-4/10及79-check固定列crosswalk核对七条γ的中心值、mother、γ�
 
 代码：[day14_ensdf_crosswalk.py](../../system/scripts/day14_ensdf_crosswalk.py)；[79-check回执](../../outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/ensdf-crosswalk.json)。Checks是身份/列/标度/边界的验证，不是79条独立实验。Self-audit的决定为`revises`精度/数据版本和weak-line工作标签，`limits`独立性、completebranch与strength充分性；不改变原作者图表或任何review flags。
 
+## Shared POL 对joint命题的条件约束
+
+[[linear-polarization-asymmetry]]的“未分峰偏振的联合命题与选择条件”承接HE15-9/10与N193-5，并以[[rose-brink-1967-phase-defined-angular-distributions]] RB67-11/2的helicity/population基础完成70-check重构。共同negative A可限制“两条在同一条件下都非负”的joint命题，却不能决定哪条线为磁性。0.6-keV之间a(E)的差也不能在这个固定calibration/count模型中独自解释−.076。
+
+对pureE2/轴对称、incoherent multipole-projection权重、common selection、point angles与fixed positive Q_sens的松弛outer set，固定R=1.26时A为+.03325到+.09507，mean−.076在其外；这是有假设的模型约束，非实验排除概率。合法初态布居可让pureE2得到negative P，但那个例子的R≈.2704；同时看R/A才收紧。不同effective gating/population和finite response可改变判据；hypothetical M2还要求opposite endpoint parities，不能从Q标签直接给每条M2。
+
+下一必要输入为matched-gate counts、detector angular/Compton response、a/Q/observables covariance、背景与独立spin/parity/转换约束。现有资料不足以对实际193Bi完成这套forward replay；任何point-model通过/失败都不替代原experiment或解除source review flags。
+
 ## Sources
 
 - [[herzan-2015-193bi-spectroscopy]] HE15-4：PDF p.3 Table I / p.8 Fig.2 / p.2 setup-specific ratios。

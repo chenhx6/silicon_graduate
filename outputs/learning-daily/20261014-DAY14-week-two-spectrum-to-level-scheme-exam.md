@@ -2,7 +2,7 @@
 type: learning-report
 graph-excluded: true
 created: 2026-10-14
-updated: 2026-10-14
+updated: 2026-10-15
 ---
 
 # DAY14 第二次周考：从谱到能级纲图
@@ -18,7 +18,7 @@ updated: 2026-10-14
 - overnight_until: `2026-10-15T15:00:00+08:00`；15:00–16:00仅收束。
 - research_status: active；本报告是内容checkpoint，不是整段时窗完成。
 - completed_day_indices: [14]
-- partial_day_indices: []
+- partial_day_indices: [15]
 - Day 14 card audit: complete
 - Day 14 scorecard: complete
 - Day 14 weekly REFLECT: complete
@@ -48,7 +48,7 @@ updated: 2026-10-14
 | a(E)/Q(E)、isomer assignment与parent lifetime | 同一证据链必要companion；明确source实际DCO定义及条件性spin | 无原counts，反事实不重估作者误差或δ |
 | SD floating X、1836-keV tentative link与46/87-keV非观测 | 检查原论文结论边界；保留model/作者解释 | 无confirmed link/absolute strengths，不能确定X或形变 |
 | Ding127/128I再做同类闭合 | deferred；近期已作反应/谱系，当前未定双线更能检验方法 | 不是用重复来源充填novelty |
-| 新颖性槽位与Day+1 | 尚未开新问题；正式周考先完成，随后刷新clock与候选池 | 最多预习下一张Day15，固定day_index14、不计其卡、不打开Day16 |
+| Day15 ADO知识预习 | 当前shared-POL必要域已固化，转向相邻卡的geometry/gate修正与误差可识别性 | partial15；不计卡，实际matched-gate/response/covariance仍缺 |
 
 最近学习覆盖：Day8选律/δ约定，Day9寿命/branch→strength，Day10双带电磁指纹与谱系，Day11–12反应布居/符合背景，Day13 Doppler/速度/停止/统计，均以既有日报与canonical知识页定位。当前不把这些日报用作新的实验来源，也不从数量推学习饱和。另一个非重叠novelty问题未强行选择。
 
@@ -63,6 +63,8 @@ updated: 2026-10-14
 | Herzáň et al., PRC92,044310(2015), DOI[10.1103/PhysRevC.92.044310](https://doi.org/10.1103/PhysRevC.92.044310)；citation key `Herz__2015`；raw SHA256 `f727485ad0f52269a66b27272dac75d34d9e67aaf8b073631cfeac5fe81d3aea`，20页 | pp.1–2动机/setup/tagging；pp.3–7全部Table I；pp.8–9 Figure2；pp.10–15各带/isomer/SD；pp.16–20组态、systematics、结论、引用。视觉核p.3/7/8/10/15 | 一次JYFL193Bi acquisition；Table I/Figure2/Figure5是dependent图表/投影；153-ns bandhead引用Ref7，非本次七线parent的新τ |
 | 外部结构化Crossref核验 | [metadata回执](20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/crossref-herzan-metadata.json)，作者/题名/2015/卷92/DOI一致 | 元数据核验，不是独立实验；返回pages为空，文章号由PDF核验 |
 | Canonical source与方法 | [[herzan-2015-193bi-spectroscopy]] HE15-4–14；[[level-scheme-reconstruction]]新增逐边、cycle、topology、companion sections | 实验测量、联合赋值、作者解释、模型和任务推导分开；旧needs_review全保留 |
+| Zheng2002原扫描全文；DOI留空，身份由期刊页眉与rawhash核验 | [[zheng-2002-ado-coincidence-angular-anisotropy]] Z02-1/6/7/8；PDF pp.1–5，重点p.2 Eq1–5、p.3 Fig1/效率、p.4 Fig2/Ref3 | Day15无学分预习；f的计算偏离与实验标准误差分开；Ref3 DOI [10.1007/s100500170001](https://doi.org/10.1007/s100500170001)仅metadata，2002文依赖对应145Tb实验 |
+| Rose–Brink1967方法依赖局部复核 | [[rose-brink-1967-phase-defined-angular-distributions]] RB67-11，printed316/PDF11 Eq3.24/25；RB67-4，printed320/PDF15 Eq3.40/41的既有直接核验 | formalism，非193Bi新数据；初态polarization、photon helicity、detector sensitivity与ENSDF Q分别定义 |
 
 主要定位：HE15-8是Table I p.3/p.7及Figure2 p.8；HE15-9是p.7 footnote f；HE15-10是p.7 a定义及p.10 Figures3/4；HE15-11是p.13条件性29/2+赋值与p.14 conversion；HE15-12是p.10 Ref7寿命与p.3相对强度；HE15-13是p.19 conversion/SD解释。源页保存每条claim的locator，不用搜索片段当证据。
 
@@ -101,6 +103,16 @@ python3 system/scripts/day14_level_scheme_audit.py --fixture outputs/learning-da
 
 HE15-13低能γ的设计例（N=5000、ε=.01、branch=1）给46/87-keV零计数概率0.826/0.0268；没有实际flow/efficiency/背景，这不是sourceupper limit。完整公式/数值/边界已canonical写回[[level-scheme-reconstruction]] “互斥分支门、复合峰与shared-event计数”。
 
+### Day15 无学分ADO计算与误差图
+
+来源前primed回忆见[预习原答](20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/day15-preview-before-sources.md)。Zheng2002扫描件5页已视觉读完；Z02-6明确ε为组效率之和，1/N来自self-exclusion。仅两角计数和target效率比不能识别f，还需独立本征参考或gate response；原式方向为R_ADO=(ω1S/ω1L)f。
+
+全部自设：5000/4800计数、效率比.80±.016、额外参考1.34±.04给R_ADO=1.302083、f=.971704、独立假设σf=.040057。改变自设efficiency/reference相关系数−.8/0/+.8，σf为.026508/.040057/.050065；不是原实验误差。均匀组内response f=.974006；保持同组总效率但使两个能量效率相关地不均匀时，explicit pair-sum f=.772081。原文5.2%/3.2%是calculated最大偏离，不是完整实验uncertainty。
+
+脚本 `system/scripts/day15_ado_preview_worksheet.py` 实际exit0，28项检查通过。[完整计算](20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/day15-ado-preview-worksheet.json)与[误差图](20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/day15-ado-input-uncertainty.svg)经PNG视觉核验。等权32/58/90的P2抵消与理想31.7175/58.2825/90的P2/P4同时抵消是任务推导，未当作者的设计意图。38 hardware pairs与44 ordered energy assignments不同，不能直接推出独立统计精度。
+
+条件接回Day14：若只靠几何乘法f恢复旧common-selection point model的shared mean，需要f≥1.488716，对应self-exclusion必要η≥.32828；145Tb均匀4台组的4/3上界不能移植到JUROGAM或作为实验排除。完整定义、推导、数值和反例已写入[[angular-distribution]]“ADO计算单：额外输入、self-exclusion与误差”；同时按RB67-4修正旧method中初态polarized必需奇K的过强表述。Day15只列partial15，不建formal audit或计学分。
+
 ## Counter-evidence and missing companion observables
 
 HE15-9的实际未定双线是核心反例：energy sum、共享R/A和假设的ΔI=2均不足以裁决order。若一条线出现可独立定位的旁路或延迟顺序，应重审中间level；source仍保留括号Jπ与(E2)。HE15-5的quadruplet限制“一个峰是一条γ”的简化；干净622.4直接分支门与323.4级联门的299-keVcomponent差异可能迫使拆峰，但必须控制622/626门纯度、feeding、response和random。
@@ -137,7 +149,7 @@ HE15-9的实际未定双线是核心反例：energy sum、共享R/A和假设的�
 
 ## Durable knowledge delta
 
-本run实际修改五份knowledge Markdown，超出昨日预习的增量为七边逐条证据、相关cycle/标定nullspace、未定doublet shared-quantity边界和parent-lifetime契约。canonical知识路径：
+本run实际修改八份knowledge Markdown，超出昨日预习的增量为七边逐条证据、相关cycle/标定nullspace、未定doublet shared-quantity边界和parent-lifetime契约。canonical知识路径：
 
 - [Herzáň source](../../knowledge/sources/herzan-2015-193bi-spectroscopy.md)：HE15-8–14及正式来源主线/triage。
 - [level-scheme method](../../knowledge/methods/level-scheme-reconstruction.md)：五能级七边、GLS/反例和必要companion。
@@ -368,10 +380,118 @@ HE15-9的实际未定双线是核心反例：energy sum、共享R/A和假设的�
           "locator": "N193-1"
         }
       ]
+    },
+    {
+      "knowledge": "knowledge/methods/linear-polarization-asymmetry.md",
+      "summary": "70-check sharedA凸组合、nearbycalibration、pureE2取向/联合R/A必要域和selection失败条件；不做line/M2/Jpi赋值。",
+      "anchor": "未分峰偏振的联合命题与选择条件",
+      "sources": [
+        {
+          "path": "knowledge/sources/herzan-2015-193bi-spectroscopy.md",
+          "locator": "HE15-9"
+        },
+        {
+          "path": "knowledge/sources/herzan-2015-193bi-spectroscopy.md",
+          "locator": "HE15-10"
+        },
+        {
+          "path": "knowledge/sources/nndc-2017-193bi-level-scheme-evaluation.md",
+          "locator": "N193-5"
+        },
+        {
+          "path": "knowledge/sources/rose-brink-1967-phase-defined-angular-distributions.md",
+          "locator": "RB67-11"
+        },
+        {
+          "path": "knowledge/sources/rose-brink-1967-phase-defined-angular-distributions.md",
+          "locator": "RB67-2"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/methods/level-scheme-reconstruction.md",
+      "summary": "将joint POL条件约束、orientation/geometry/selection与spin-parity边界接回level-scheme evidence chain。",
+      "anchor": "Shared POL 对joint命题的条件约束",
+      "sources": [
+        {
+          "path": "knowledge/sources/herzan-2015-193bi-spectroscopy.md",
+          "locator": "HE15-9"
+        },
+        {
+          "path": "knowledge/sources/nndc-2017-193bi-level-scheme-evaluation.md",
+          "locator": "N193-5"
+        },
+        {
+          "path": "knowledge/sources/rose-brink-1967-phase-defined-angular-distributions.md",
+          "locator": "RB67-11"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/sources/zheng-2002-ado-coincidence-angular-anisotropy.md",
+      "summary": "原扫描全文再核，新增组效率/self-exclusion定义、calculated偏离与数据谱系边界；不清review flags。",
+      "anchor": "Day15 无学分预习：定义、归一与原始阅读",
+      "sources": [
+        {
+          "path": "knowledge/sources/zheng-2002-ado-coincidence-angular-anisotropy.md",
+          "locator": "Z02-6"
+        },
+        {
+          "path": "knowledge/sources/zheng-2002-ado-coincidence-angular-anisotropy.md",
+          "locator": "Z02-7"
+        },
+        {
+          "path": "knowledge/sources/zheng-2002-ado-coincidence-angular-anisotropy.md",
+          "locator": "Z02-8"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/methods/angular-distribution.md",
+      "summary": "固化28-check ADO自设练习、f额外输入、逐台response反例、uncertainty/covariance和有条件Day14几何桥；仅partial15。",
+      "anchor": "ADO计算单：额外输入、self-exclusion与误差",
+      "sources": [
+        {
+          "path": "knowledge/sources/zheng-2002-ado-coincidence-angular-anisotropy.md",
+          "locator": "Z02-1"
+        },
+        {
+          "path": "knowledge/sources/zheng-2002-ado-coincidence-angular-anisotropy.md",
+          "locator": "Z02-6"
+        },
+        {
+          "path": "knowledge/sources/zheng-2002-ado-coincidence-angular-anisotropy.md",
+          "locator": "Z02-7"
+        },
+        {
+          "path": "knowledge/sources/zheng-2002-ado-coincidence-angular-anisotropy.md",
+          "locator": "Z02-8"
+        },
+        {
+          "path": "knowledge/sources/herzan-2015-193bi-spectroscopy.md",
+          "locator": "HE15-9"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/methods/angular-distribution.md",
+      "summary": "修正polarized初态必需奇K的过强表述，保留definite-parity/helicity-summed与w(-M)=w(M)两项条件及detector/nuclear attenuation区别。",
+      "anchor": "初末态宇称确定且不测 γ 偏振",
+      "sources": [
+        {
+          "path": "knowledge/sources/rose-brink-1967-phase-defined-angular-distributions.md",
+          "locator": "RB67-4"
+        }
+      ]
     }
   ]
 }
 ```
+
+### Day15预习的canonical增量
+
+- [Zheng2002 source](../../knowledge/sources/zheng-2002-ado-coincidence-angular-anisotropy.md)：Z02-6/7/8，原式组效率、calculated deviation和Ref3谱系。
+- [角分布方法](../../knowledge/methods/angular-distribution.md)：ADO计算单与group/individual response、额外输入、covariance、条件桥，以及RB67-4的even-K条件修正。
 
 ### Ref7 原始寿命依赖的有界外部核验
 
@@ -390,6 +510,18 @@ HE15-9的实际未定双线是核心反例：energy sum、共享R/A和假设的�
 N193-7取得的是pure-multipole BrIcc/Frozen-Orbitals CC，更新“ICC完全缺失”的边界：计算值有了，δ/branch completeness/parentτ仍未给。在两已报告channel的条件模型中，三母态的M1photon fractions为0.5142/0.5276/0.4416，含conversion的M1conditional branches为0.7543/0.7206/0.6138，不是实测totalbranch或absoluteB。N193-8把bandhead153-ns引用定位到604.7γ(t)/2004Ni06，compiler flight/intensity摘要不替代Ni04完整方法。N193-9保留14个X表达式与unplaced1836candidate。
 
 Canonical知识已写回source、method及thesis matrix；[[level-scheme-reconstruction]]保存完整matrix、公式、normalization和赋值冲突。最高信息路线仍是解除这些具体未定约束，不以重复query或更多校准位数判结构。
+
+### Checkpoint001送达后：shared POL 与joint hypothesis
+
+同session实际收到clockcheckpoint001并在run.json.observed_clock_executions保存clock_event_id/same_session_id/observed_at；原queued20:56时间与实际ack22:04分开，不新建session/daemon。Run仍running、day14、原次日15:00截止；不因卡完成停止。
+
+[计算前预测](20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/shared-polarization-before-calculation.md)先于本段model。重核RB原图printed316/PDF11 Eq3.24与polarization/WE paragraph，rawhash一致；不是重读全部42页。`system/scripts/day14_shared_polarization_limits.py` 70项均通过，独立vector-gradient与Wigner/helicity kernels一致、convexcount恒等式、isotropy/normalization、LP必要域与核CG案例验证。
+
+共享A按校正counts正权重混合，negative mean不能指定哪条line磁性，但可限制joint positivity；a(E)在.6keV的近邻差仅使floor约−1.484×10⁻5。若固定rawratio而仅重标a将mean推到0，需要增加16.45%；这不是sourcecalibration错误或新significance。
+
+PureE2在合法取向下可negative P；在本段common selection/轴对称/point response/fixed Q_sens下，同时施加Rexp≈1.26后，pureE2 outer set的A为+.03325到+.09507，mean−.076位于外侧。2×printed-error box无解、3×有解都是sensitivity ranges，不是joint CI。分别改变有效选择能匹配两个单变量，hypothetical M2也能在松弛CG模型中匹配joint mean，但需opposite parity，未给任何line的新M2/Jπ。
+
+[必要域图](20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/shared-E2-response-region.svg)经PNG视觉检查，标签/边界可读；[完整结果](20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/shared-polarization-limits.json)。Canonical落点为[[linear-polarization-asymmetry]]“未分峰偏振的联合命题与选择条件”及[[level-scheme-reconstruction]]“Shared POL 对joint命题的条件约束”。Actual beam/gate/geometry/Σ仍缺，NDS的Q及所有review flags保留。
 
 ## Open questions and belief revision
 
@@ -420,3 +552,16 @@ Canonical知识已写回source、method及thesis matrix；[[level-scheme-reconst
 2026-10-14T21:26:21.851052+08:00；距原截止1053.6分钟，research/goal仍active。35/37/79检查三段均exit0；本段lint exit0（0errors/129warnings：107citation key、19raw slot、3reaction parser），新slot为未归档的公开NNDC对象；首次新source缺Summary/Extracted Pages已补齐并回归。report/card/writeback8items/5pages与protected/rawmetadata通过；diff验收随后同batch记录。
 
 本段知识增量是conditional gate/shared-count/低能γ功效与实际NNDCversion/assignment/ICC crosswalk，未给新spin、absoluteB或mode结论。Checkpoint001已Gitee发布，当前批次稳定subject为 `Audit DAY14 evaluated assignments and conditional branch gates`；exacthash/actualpush仅runreceipt。Clockcheckpoint001只验证queued，未冒称delivery。下一高信息currentroute：shared negativePOL能约束哪种joint(E2,E2)命题及其calibration/weight/geometry边界；之后刷新候选池，若饱和再读恰好Day15无学分预习。Day15未计卡，Day16未打开。
+
+### Candidate-pool refresh：恰好Day15无学分预习
+
+当前sharedPOL模型/反例已固化，仍有决定性缺口为实际matchedgate/acceptance/Σ而不是更多同公式重算。下一未完成cardDay15的ADO/角分布/几何修正是剩余高信息route，已在打开source前保存preview recall，标明priming；这里只列partial15，不计Day15、不创建formal audit、不越过Day15或打开Day16。下一核Zheng2002原定义和公开角度/效率练习，保持今天day14。
+
+
+### Checkpoint003 实测与继续
+
+2026-10-15 00:02 Asia/Shanghai快照距原截止897.4分钟，仍继续同run/session。本批次70/28项分析均通过；report/card/writeback重验valid，唯一writeback13items/8份本run修改知识页。wiki_lint --fail-on error实际exit0、0errors/129warnings（107citation key、19未归档raw槽、3reaction parser）；git diff --check实际exit0；AST、原review flags、raw/PLAN/Bib核验通过。writeback初次失败因method只写RB claim而未直接链接source；已补RB与Herzáň回链并回归。EOL exit1仅保留4项本run substantive knowledge edits，unsafe/mixed0。
+
+本批次稳定指针 main / `Bound DAY14 shared polarization and ADO response assumptions`；精确hash与实际Gitee结果记录在runreceipt。恢复点[checkpoint003](20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/checkpoint-003.md)及continuation已存在。正式21/24不变，Day15仅partial预习；下一current route为conditional γγ joint response、matched gate与finite acceptance，实际193Bi事件重拟合仍not-ready。
+
+暂存门首次发现Matplotlib SVG尾空格，未commit；已在两份export函数去尾空格、固定SVG hash salt并去掉动态date，重执行70/28检查均exit0，数值保持。之后重新验cached diff。

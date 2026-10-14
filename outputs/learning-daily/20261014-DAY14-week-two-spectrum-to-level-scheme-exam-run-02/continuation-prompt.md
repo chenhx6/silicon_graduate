@@ -18,6 +18,12 @@ run_id `2026-10-14-day-14-02`；session `01a13a0e-e8bd-7251-b970-f6975679e281`�
 
 ## Checkpoint002增量
 
-同run/session仍active；正式周考已发布，最新35/37/79checks、writeback8items/5pages及NNDC2017/2019对象已固化。新source `knowledge/sources/nndc-2017-193bi-level-scheme-evaluation.md`保留Q≠E2、352.3图表conflict、originaldata dependency与BrIcc/model boundary；raw不变、对象在tmp、19slotwarnings。当前next14/count13等closeout一次对账，不重复credit。Clock001queued未observed，不写假ack。
+同run/session仍active；正式周考已发布，最新35/37/79checks、writeback8items/5pages及NNDC2017/2019对象已固化。新source `knowledge/sources/nndc-2017-193bi-level-scheme-evaluation.md`保留Q≠E2、352.3图表conflict、originaldata dependency与BrIcc/model boundary；raw不变、对象在tmp、19slotwarnings。当前next14/count13等closeout一次对账，不重复credit。Clock001已实际送达并于22:04ack；其余queued ID不作实际执行。
 
 下一未做：shared negativePOL对joint(E2,E2)的条件约束；a(E)近邻差、weights与background/calibration/geometry失败条件，不能逐component独立赋值。之后查clock和candidatepool；只允许Day15partial preview，禁止Day16。
+
+## Checkpoint003增量与唯一下一路线
+
+Shared-POL70-check、ADO28-check及误差图已完成，canonical写回linear-polarization-asymmetry/level-scheme/angular-distribution/Zhengsource；日报writeback13items/8changedpages。正式Day14仍21/24；Day15只partial15。最新checkpoint003含实时钟与恢复状态；验收初次缺source回链已修复，实际发布见receipt。
+
+下一current问题：ω1ω2是分离近似，完整γγ joint density/conditional gate可能改变同一target的角响应。先冻结主动回忆，再用RB67-3/Eq3.73作source-local依据，以纯spin cascade构造可核验toy counterexample；不得把toy的角响应、counts或finite acceptance解释成193Bi重测。不打开Day16，不因预习完成或更多同公式代数而提前结束。

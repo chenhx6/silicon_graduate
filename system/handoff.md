@@ -8,15 +8,13 @@ updated: 2026-10-14
 
 ## Active handoff — DAY14 formal exam and continuous study
 
-Run `2026-10-14-day-14-02` / session `01a13a0e-e8bd-7251-b970-f6975679e281`；原research截止 `2026-10-15T15:00:00+08:00`不改，goal/researchactive。FormalDay14已published（primedrecall、Herzáň主线/图表/七边、六维21/24与weeklyREFLECT），继续本card学习；state仍next14/count13，closeout只计Day14一次。
+Run `2026-10-14-day-14-02` / session `01a13a0e-e8bd-7251-b970-f6975679e281`；原研究截止 `2026-10-15T15:00:00+08:00`不变，goal/research active。正式Day14已发布：primed recall、Herzáň全文/图表/七边、21/24与weekly REFLECT；官方state仍next14/count13，closeout只计Day14一次；Day15仅partial预习。
 
-最新2026-10-14T21:26:21.851052+08:00：35+37+79-check三段已通过；conditional gate/unknownbranch/sharedcounts、公开ENSDF193Bi2017/2019两个对象及weak352/393/394冲突、模型ICC/photon fractions写回5knowledgepages，唯一writeback8items。NNDC明确2015He27/superseding旧版本，是compiled/evaluated依赖；NI04primary仍未取得，不能认证原完整方法/independentacquisition。原reviewflags/raw/PLAN/Bib保留，19rawslots含本次NNDC未归档槽，event-levelL4仍notready。
+最新checkpoint003（2026-10-15 00:02 Asia/Shanghai）：70-check shared-POL必要域/取向反例与28-check ADO组/逐台self-exclusion、额外输入及误差图完成；canonical见linear-polarization-asymmetry、angular-distribution和level-scheme-reconstruction。日报唯一writeback13items、8份本run修改知识页；实际counts/response/Σ仍缺，不重定393/394或352.3的Jπ/M2。原review/raw/PLAN/Bib保留。NNDC复用2015He27；Zheng2002复用145Tb Ref3；Nieminen原文仍未取得。
 
-本段lint0errors/129warnings、report/card/writeback/protected/rawmetadata通过；首次requiredsourceheads错误修复留证。Checkpoint1 content已Gitee发布；当前batchpointer main / `Audit DAY14 evaluated assignments and conditional branch gates`，exacthash/actualoutcome仅receipt。日报同stem `outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam.md`；run-dir`-run-02/`，脚本/对象/回执与continuation见其中。
+本批次稳定指针 main / `Bound DAY14 shared polarization and ADO response assumptions`；精确hash和发布结果只run receipt。Checks及失败修复见run-dir checkpoint003/content-checkpoint003；前两批Gitee结果已记录。下一current路线：完整conditional γγ response相对ω1ω2分离模型的差异、matched gates与acceptance检验；不因卡片/预习完成结束时窗。Day15不计卡、Day16不研究。
 
-下一current有价值route：shared negativePOL的joint-hypothesis约束与calibration/weight/geometry，未做该数值code；当前问题饱和后最多恰好Day15无学分预习，不打开Day16。Day15入口已准备，不创建session。Farmer8686/同threadclock75781保留；clock001queued未observeddelivery，勿造ack。继承Day6–9/Day13/daemon/旧log排除stage。
-
-恢复 `codex resume 01a13a0e-e8bd-7251-b970-f6975679e281 -C /workspace/wiki -s danger-full-access -a never`。
+Clock001实际送达已ack，其他queued ID不得假ack。Farmer8686/clock75781保留，不重启；继承Day6–9/Day13/daemon/旧log排除stage。恢复 `codex resume 01a13a0e-e8bd-7251-b970-f6975679e281 -C /workspace/wiki -s danger-full-access -a never`。日报和本run `-run-02/continuation-prompt.md`保持可恢复。
 
 ## Previous active handoff — DAY13 continuous study reopened by user
 

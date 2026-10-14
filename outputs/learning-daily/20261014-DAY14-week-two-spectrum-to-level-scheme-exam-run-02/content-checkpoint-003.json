@@ -1,0 +1,87 @@
+{
+  "report": {
+    "valid": true,
+    "missing_headings": []
+  },
+  "coverage": {
+    "valid": true,
+    "completed_day_indices": [
+      14
+    ],
+    "partial_day_indices": [
+      15
+    ],
+    "curriculum_cards_completed": 1,
+    "next_day_index": 15,
+    "error": null
+  },
+  "writeback": {
+    "valid": true,
+    "mode": "updated",
+    "knowledge_paths": [
+      "knowledge/sources/herzan-2015-193bi-spectroscopy.md",
+      "knowledge/methods/level-scheme-reconstruction.md",
+      "knowledge/projects/a130-thesis-evidence-matrix.md",
+      "knowledge/sources/nndc-2017-193bi-level-scheme-evaluation.md",
+      "knowledge/index.md",
+      "knowledge/methods/linear-polarization-asymmetry.md",
+      "knowledge/sources/rose-brink-1967-phase-defined-angular-distributions.md",
+      "knowledge/sources/zheng-2002-ado-coincidence-angular-anisotropy.md",
+      "knowledge/methods/angular-distribution.md"
+    ],
+    "changed_paths": [
+      "knowledge/index.md",
+      "knowledge/methods/angular-distribution.md",
+      "knowledge/methods/level-scheme-reconstruction.md",
+      "knowledge/methods/linear-polarization-asymmetry.md",
+      "knowledge/projects/a130-thesis-evidence-matrix.md",
+      "knowledge/sources/herzan-2015-193bi-spectroscopy.md",
+      "knowledge/sources/nndc-2017-193bi-level-scheme-evaluation.md",
+      "knowledge/sources/zheng-2002-ado-coincidence-angular-anisotropy.md"
+    ],
+    "change_check": "run-snapshot",
+    "error": null
+  },
+  "ast": {
+    "day14_shared_polarization_limits.py": true,
+    "day15_ado_preview_worksheet.py": true
+  },
+  "protected_hashes": {
+    "PLAN.md": true,
+    "raw/zotero/wiki-inbox.bib": true
+  },
+  "raw_metadata_unchanged": true,
+  "git_diff_check_exit_code": 0,
+  "lint_exit_code": 0,
+  "warning_breakdown": {
+    "REACTION_PARSE": 3,
+    "CITATION_KEY_MISSING": 107,
+    "RAW_MISSING": 19
+  },
+  "initial_writeback_failure": "knowledge page does not link to source rose-brink-1967-phase-defined-angular-distributions",
+  "lint_warnings": 129,
+  "lint_errors": 0,
+  "analysis_output_checks": {
+    "shared-polarization-limits.json": {
+      "checks_passed": 70,
+      "all_checks_true": true
+    },
+    "day15-ado-preview-worksheet.json": {
+      "checks_passed": 28,
+      "all_checks_true": true
+    }
+  },
+  "initial_cached_diff_failure": {
+    "exit_code": 2,
+    "trailing_whitespace_findings": 2538,
+    "cause": "matplotlib SVG path lines contained trailing spaces; export normalized without changing plot coordinates"
+  },
+  "analysis_reexecution_exit_codes": [
+    0,
+    0
+  ],
+  "analysis_checks": [
+    70,
+    28
+  ]
+}
