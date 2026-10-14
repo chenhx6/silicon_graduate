@@ -1,0 +1,111 @@
+{
+  "url": "https://api.crossref.org/works/10.1016%2F0029-554X%2880%2990494-2",
+  "status_code": 200,
+  "DOI": "10.1016/0029-554x(80)90494-2",
+  "title": [
+    "The shape of magnetic substate distributions in fusion-evaporation reactions"
+  ],
+  "author": [
+    {
+      "given": "V.",
+      "family": "Zobel",
+      "sequence": "first",
+      "affiliation": [],
+      "role": [
+        {
+          "role": "author",
+          "vocabulary": "crossref"
+        }
+      ]
+    },
+    {
+      "given": "L.",
+      "family": "Cleemann",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "role": "author",
+          "vocabulary": "crossref"
+        }
+      ]
+    },
+    {
+      "given": "J.",
+      "family": "Eberth",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "role": "author",
+          "vocabulary": "crossref"
+        }
+      ]
+    },
+    {
+      "given": "H.P.",
+      "family": "Hellmeister",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "role": "author",
+          "vocabulary": "crossref"
+        }
+      ]
+    },
+    {
+      "given": "W.",
+      "family": "Neumann",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "role": "author",
+          "vocabulary": "crossref"
+        }
+      ]
+    },
+    {
+      "given": "N.",
+      "family": "Wiehl",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "role": "author",
+          "vocabulary": "crossref"
+        }
+      ]
+    }
+  ],
+  "published": {
+    "date-parts": [
+      [
+        1980,
+        4
+      ]
+    ]
+  },
+  "volume": "171",
+  "issue": "2",
+  "page": "223-231",
+  "container-title": [
+    "Nuclear Instruments and Methods"
+  ],
+  "URL": "https://doi.org/10.1016/0029-554x(80)90494-2",
+  "link": [
+    {
+      "URL": "https://api.elsevier.com/content/article/PII:0029554X80904942?httpAccept=text/xml",
+      "content-type": "text/xml",
+      "content-version": "vor",
+      "intended-application": "text-mining"
+    },
+    {
+      "URL": "https://api.elsevier.com/content/article/PII:0029554X80904942?httpAccept=text/plain",
+      "content-type": "text/plain",
+      "content-version": "vor",
+      "intended-application": "text-mining"
+    }
+  ]
+}

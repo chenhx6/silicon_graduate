@@ -58,3 +58,10 @@ Zobel1983 raw/metadata/六页主线/Table1upright/图/公式核完；同958keV p
 17-check transformation/ratio/coordinate/语义反例通过；canonical角分布系数页保留原metadata与EOL。日报唯一writeback21items/12changedpages、lint0errors129warnings、diff/AST/protected/raw/review通过；Clock002已实际observed，receipt保存与queued分开的时间。原21/24、completed14/partial15、officialnext14/count13、截止15:00保持。
 
 下一Ref5 Zobel1980已经先冻结primed来源前回忆；核rawhash/Crossref后沿9页完整主线复核tensor/cascade/feeding、表图与Appendix confidence convention。关注两moment是否唯一约束布居与joint contour含义；无actualGF/weight/Cov则维持实验not-ready。source原Jul08Human/旧13claim false保持，新self-audit不得扩人审。研究持续active，不新session/goal/daemon、不计Day15、不研究Day16。
+
+
+## Checkpoint009：Ref5主线完成，继续源表物理可行性
+
+Zobel1980 primary9页与23-check Appendix自审完成；originalprint A2/A6与其定义不一致，A3正σ需abs，A5是Q/2半径不可单独误判。Source新14–19 true、oldHuman/13false继承；原sourceCov/GNOMON/Table3数值边界不补造。唯一writeback23items/13changedpages、report/card/writeback/AST/protected/raw/review/diff通过，freshlint0errors129warnings且6新claim全部parsed；空行问题初parser1已修复。
+
+下一positive-population-before-calculation.md已冻结。Day15卡仅preview；overlap显示RB67-26已covergeneral pureE2 rankblindness，因此求J13/2 source十行的完整positive moment hull、中央值feasibility/LPdual证书，再区分Gaussian限制和unknownΣ影响。不得把条件中央值不可行当实验排除或重建真实P(M)。同run/session/goalactive，原15:00researchcutoff，不计Day15、不研究Day16。

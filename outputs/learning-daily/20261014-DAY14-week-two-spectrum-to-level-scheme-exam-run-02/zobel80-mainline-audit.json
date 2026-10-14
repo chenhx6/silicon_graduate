@@ -1,0 +1,42 @@
+{
+  "source": "knowledge/sources/zobel-1980-magnetic-substate-distributions.md",
+  "doi": "10.1016/0029-554X(80)90494-2",
+  "recorded_at": "2026-10-15T05:12:28.590477+08:00",
+  "mainline_visual_pages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "mainline_markers": [
+    "printed223 Eq1/2: three unknowns and additional observable routes",
+    "printed224 Fig1/Eq3: feeding and tensor-ratio recursion",
+    "printed225 Eq4/5/Fig2: Racah, vector approximation, conditional ALY",
+    "printed226 Table1 visually rotated upright",
+    "printed227 Fig3: compilation selection and 68-percent covariance ellipse",
+    "printed228 Table2/Eq6/Fig4: feed weights, synthetic spectrum",
+    "printed229 Fig5: GNOMON chosen recoil/lifetime line-loss controls",
+    "printed230 discussion/summary/A1: reaction/feeding and lifetime conditions",
+    "printed231 A2–A6/references: normalization, density, confidence and source lineage"
+  ],
+  "visual_transcriptions": {
+    "A2": "sigma_aK^2 = aK^2 (sigma_b0^2/b0^2 + sigma_bK^2/bK^2 - 2 rho_b0,bK); rho=cov(b0,bK)/(sigma_b0 sigma_bK)",
+    "A3": "alphaK=aK/AmaxK; sigma_alphaK=sigma_aK/AmaxK (printed denominator has no absolute-value notation)",
+    "A4": "density proportional exp(-h/2); h has negative 2rho cross term",
+    "A5": "r^2=ln(1/(1-x))",
+    "A6": "a=D sigma_alpha4^2/2; b=+D cov(alpha2,alpha4); c=D sigma_alpha2^2/2; ellipse polynomial has +b cross term"
+  },
+  "task_boundaries": [
+    "Literal A2 and A6 must be checked against the ratio Jacobian and A4 inverse covariance; not silently copied into code.",
+    "A5 may use a half-Mahalanobis radius; do not declare a missing factor2 without matching A6 coefficients.",
+    "No official correction obtained in this run; observed typography/algebra boundary is a Codex self-audit.",
+    "Source p229 mentions Table3, but the verified9page scan contains Table1 and Table2 only; no numeric loss table transcribed from this absent marker.",
+    "Old human review and Z80-1–13 flags remain inherited and unchanged.",
+    "Z80 Ref9 and Z83 Ref4 both cite Zobel1979 NPA316,165; matched nucleus/beam/energy does not attest independent event data."
+  ]
+}

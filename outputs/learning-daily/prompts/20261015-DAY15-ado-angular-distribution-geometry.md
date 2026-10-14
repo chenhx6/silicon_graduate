@@ -268,3 +268,6 @@ Day14 partial15还完成26-check sourcegeometry上的chosenCov-design（unknownF
 
 
 Day14 partial15还完成17-check coefficient convention练习：β拟合/归一Aexp/c最大取向参考/核alpha分别建模，Cov线性变换可能翻转rho且保持联合距离，语义错代入仍可归一和全域正。Canonical为angular-distribution-coefficient；它是正式Day15主动回忆的priming，不是已计卡或新的实验Cov。
+
+
+Day14 partial15已视觉核Zobel1980全9页、完成23-check Appendix字面/规范Cov与joint coverage控制。Z80-14–19 true保留A2/A3/A6公式边界、A5的Q/2约定、单行变量cross-check/Ref9依赖/GNOMON缺口；没有officialerratum、source实测Cov或新采集。正式Day15回忆须标这些预暴露的priming，旧Jul08人审范围不扩。

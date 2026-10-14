@@ -1,0 +1,139 @@
+{
+  "kind": "L2 primary appendix transcription versus mathematical controls",
+  "source_row": {
+    "source": "knowledge/sources/zobel-1980-magnetic-substate-distributions.md",
+    "locator": "printed p226 Table1 958.0-keV row",
+    "selection": "only same13/2+parent/958.0transition for conversion check; other16rows visually inspected but not treated as this transition",
+    "reaction": "57Fe+12C",
+    "beam_energy_MeV": 40.0,
+    "beam_energy_locator": "printed p228 Table2 reactionA",
+    "parent_spin": "13/2+",
+    "daughter_spin": "9/2+",
+    "energy_keV": 958.0,
+    "a2": 0.349,
+    "sigma_a2": 0.007,
+    "a4": -0.093,
+    "sigma_a4": 0.007,
+    "alpha2": 0.794,
+    "sigma_alpha2": 0.016,
+    "alpha4": 0.431,
+    "sigma_alpha4": 0.032,
+    "rho_source": null,
+    "table_reference": "Ref9 / Zobel1979 NPA316,165",
+    "no_independent_sampling_attestation": true
+  },
+  "chosen_beta_control": {
+    "beta": [
+      1000.0,
+      300.0,
+      -100.0
+    ],
+    "covariance": [
+      [
+        100.0,
+        30.0,
+        -10.0
+      ],
+      [
+        30.0,
+        25.0,
+        2.0
+      ],
+      [
+        -10.0,
+        2.0,
+        16.0
+      ]
+    ],
+    "normalized_a": [
+      0.3,
+      -0.1
+    ],
+    "normalized_covariance": [
+      [
+        1.6e-05,
+        4.9999999999999996e-06
+      ],
+      [
+        5e-06,
+        1.5e-05
+      ]
+    ],
+    "correct_ratio_variances": [
+      1.6e-05,
+      1.5000000000000004e-05
+    ],
+    "literal_printed_A2_variances": [
+      -0.10796599999999999,
+      0.0050170000000000015
+    ]
+  },
+  "chosen_ellipse_control": {
+    "sigma": [
+      0.03,
+      0.06
+    ],
+    "rho": 0.6,
+    "covariance": [
+      [
+        0.0009,
+        0.00108
+      ],
+      [
+        0.00108,
+        0.0036
+      ]
+    ],
+    "A4_Q_at_chosen_residual": 1.2499999999999998,
+    "literal_A6_polynomial_at_same_residual": 2.5,
+    "correct_A6_polynomial_at_same_residual": 0.6249999999999999,
+    "joint_probability": 0.68,
+    "full_Q_threshold": 2.27886856637673,
+    "A5_half_radius_squared": 1.139434283188365,
+    "wrong_sign_ellipse_actual_content": 0.5200664612005814,
+    "wrong_sign_ellipse_content_1024_nodes": 0.520066461200579,
+    "half_radius_used_as_full_Q_content": 0.43431457505076204,
+    "unit_Q_contour_content": 0.3934693402873666,
+    "independent_1sigma_rectangle_content": 0.4660649426743922,
+    "ellipse_over_rectangle_area_for_chosen_rhos": {
+      "0.0": 1.7898191866564597,
+      "0.6": 1.4318553493251678,
+      "0.95": 0.5588708619082321
+    }
+  },
+  "boundaries": [
+    "The supplied primary print is transcribed literally; no official erratum is attested.",
+    "General covariance/ellipse statement Z80-12 remains supported; exact formulas require this self-audit.",
+    "A5 is consistent with a HALF-Mahalanobis radius when the quadratic coefficients and cross sign are matched.",
+    "All beta/covariance/rho/residual/coverage controls are chosen, not the experimental covariance or ALY significance.",
+    "Source data selection is a matched single transition; no full17row hypothesis test is claimed.",
+    "Published rounded a/error columns corroborate the variable/sign convention, not independent sampling.",
+    "Day15 remains a partial uncredited preview; formal DAY14 score remains21/24."
+  ],
+  "checks": {
+    "actual_source_covariance_kept_unknown": true,
+    "source_table_central_columns_match_c_to_printed_rounding": true,
+    "source_table_error_columns_match_absolute_c_to_printed_rounding": true,
+    "literal_A3_negative_c_requires_absolute_error_convention": true,
+    "chosen_full_beta_covariance_positive_definite": true,
+    "ratio_variance_formula_equals_matrix_Jacobian": true,
+    "literal_A2_has_negative_variance_in_positive_covariance_control": true,
+    "zero_b0_correlation_control_restores_A2_agreement": true,
+    "zero_mean_coefficient_has_finite_Jacobian_uncertainty": true,
+    "correct_A6_polynomial_equals_half_inverse_covariance": true,
+    "literal_A6_cross_sign_differs_from_A4_density": true,
+    "literal_A6_equivalent_to_opposite_correlation": true,
+    "zero_correlation_A6_sign_control_is_identical": true,
+    "A5_half_radius_matches_consistent_A6": true,
+    "correct_joint_contour_has_target_Gaussian_content": true,
+    "half_radius_used_as_full_Q_has_wrong_content": true,
+    "unit_Mahalanobis_contour_is_not_joint68percent": true,
+    "independent_plusminus1sigma_rectangle_is_not_joint68percent": true,
+    "polar_quadrature_converges_for_wrong_sign_ellipse": true,
+    "wrong_cross_sign_changes_joint_content_under_actual_covariance": true,
+    "joint68_ellipse_need_not_have_larger_area_than_errorbar_rectangle": true,
+    "an_errorbar_rectangle_corner_can_lie_outside_joint68_ellipse": true,
+    "joint68_ellipse_can_extend_outside_errorbar_rectangle": true
+  },
+  "checks_passed": 23
+}

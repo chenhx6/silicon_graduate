@@ -252,3 +252,46 @@ B = 0.000118505201881, 0.000875641584711, 0.000104813215223, 0.000875641584711, 
 
 - 2026-07-13：加入 Liu 2016 的 AFRODITE ADO calibration 与 ADO+polarization assignment 案例。
 - 2026-10-15：Day14内无学分Day15预习，固化Zheng原式、组/单探测器self-exclusion、额外输入与误差练习，并修正RB偶K适用条件；不改review状态或给予Day15学分。
+
+
+## Zobel1980附录：字面公式与联合覆盖
+
+[[zobel-1980-magnetic-substate-distributions]] Z80-14–19补充原9页扫描的公式、表与依赖边界。本文“Cov必须保留”的Z80-12一般结论仍成立；以下将扫描转录和本任务独立代数分开，不认证officialerratum，也不重算实验ALY检验。
+
+### 归一误差不能照抄省略项
+
+原A1定义角fit的未归一b0/b2/b4；A2后rho为Cov/(sigma0 sigmak)。扫描的A2字面只写 `a_k²[σ_b0²/b0²+σ_bk²/bk²−2ρ]`。从a_k=b_k/b0的Jacobian应得：
+
+\[
+\operatorname{Var}(a_k)=\frac{C_{kk}}{b_0^2}
++\frac{b_k^2C_{00}}{b_0^4}
+-\frac{2b_kC_{0k}}{b_0^3},\qquad
+C_a=J C_b J^{\mathsf T}.
+\]
+
+b_k非零时可写相对误差形式，其相关项需额外乘 `σ_b0 σ_bk/(b0 bk)`；b_k=0仍应用有限Jacobian，不用发散的相对误差表达。选择b=(1000,300,−100)、positive-definite Cb=(100,30,−10;30,25,2;−10,2,16)，正确Var(a2)=.000016，扫描A2字面给−.107966。该负数是公式控制，不是实验负variance。
+
+A3的扫描标准差除Amax未印abs；固定非零c时应有sigma_alpha=sigma_a/|c|。原Table1 958行同时列a=(.349,−.093)、quotederrors=(.007,.007)及alpha=(.794,.431)、errors=(.016,.032)，与任务c=(40/91,−216/1001)在打印舍入内一致。它核验变量约定，不提供source实际Cov或新independent events。
+
+### 椭圆半径、交叉项与覆盖
+
+p231 A4的Gaussian density定义Q=rᵀΣ⁻¹r，cross term为负；A6的a,c=(D/2)乘相应variance，所以一致的polynomial是Q/2，b应为−D Cov。扫描却印+b=+D Cov，并在polynomial用+b cross；同Cov时会翻转ellipse方向。A5的r²=ln[1/(1−x)]须与Q/2约定配对，不能单独判为遗漏2。
+
+在声明的二维Gaussian模型下：
+
+\[
+P(Q\le t)=1-e^{-t/2},\qquad
+Q_{68\%}=-2\ln(1-.68)=2.278868566.
+\]
+
+对应半径平方1.139434283；若错将其作为完整Q阈值，覆盖仅.434314575。Q=1覆盖.393469340；独立两维±1sigma rectangle覆盖.466064943，均非joint68%。给区域前应先说明维数、probability与quadratic convention。
+
+自选sigma=(.03,.06)、rho=+.6和one-sigma同向残差时，A4给Q=1.25，一致Q/2=.625；扫描A6字面polynomial=2.5。512/1024-node polar积分核验，该wrong-cross-sign ellipse在真实chosen positive-rho density下覆盖.520066461，而非.68。这里的“真实”仅指声明控制的生成Cov，绝非source实测rho。68%ellipse的area不必大于errorbar rectangle；它与rectangle也不存在通用包含关系，不能把源文“enlarged”的说明当集合定理。
+
+### 源输入与适用条件
+
+Z80-17的958行来自reactionA=57Fe+12C/40MeV，Z80-18的Ref9与[[zobel-1983-energy-projectile-alignment]] Z83-13中的Ref4同为Zobel1979 NPA316,165。方法/编译与后续扫描的引用链不能认证采集独立；本任务没有cross-dataset covariance或原producer事件。原p227的pure-E2/error-readable/weak-line筛选及ALY前提保留，非Gaussian布居仍可能给相同两个moments。
+
+Z80-19：当前九页scan没有找到p229所指Table3，GNOMON代码又被原Ref14列为unpublished，故不补出Fig5的数值loss表或实际代码重放。必要companion是对应角度的完整peak-profile/面积校正、匹配spin/δ/feeding和完整fitCov；missing inputs维持实验L4 not-ready。
+
+复算：[day14_zobel80_appendix_audit.py](../../system/scripts/day14_zobel80_appendix_audit.py)，source-derived single-row fixture和所有chosen矩阵见Day14 run的zobel80-appendix-analysis.json。23项检查包括ratio/zero-coefficient、positive-Cov、A2/A3/A6字面失败控制、Gaussian内容与极坐标积分收敛、打印舍入和面积边界。决定revises精确公式执行，supports保留Cov的一般方法，limits从两条marginalerrors或文献引用推真实joint检验；原source人审范围与false标记保留，新14–19 true。Day15仍为无学分partial preview。

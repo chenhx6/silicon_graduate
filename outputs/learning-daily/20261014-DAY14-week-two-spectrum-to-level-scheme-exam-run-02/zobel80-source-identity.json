@@ -1,0 +1,21 @@
+{
+  "raw_file": "raw/papers/1980_Zobel et al_The shape of magnetic substate distributions in fusion-evaporation reactions.pdf",
+  "raw_sha256_verified": "eaaacc6154936d8e1725a9a98b198fcfcf90d4cc3b70b31e51323a31cd1cffcc",
+  "pages": 9,
+  "printed_range": "223–231",
+  "fulltext": "tmp/day14-20261014/zobel80/fulltext.txt",
+  "render_paths": [
+    "tmp/day14-20261014/zobel80/page-1.png",
+    "tmp/day14-20261014/zobel80/page-2.png",
+    "tmp/day14-20261014/zobel80/page-3.png",
+    "tmp/day14-20261014/zobel80/page-4.png",
+    "tmp/day14-20261014/zobel80/page-5.png",
+    "tmp/day14-20261014/zobel80/page-6.png",
+    "tmp/day14-20261014/zobel80/page-7.png",
+    "tmp/day14-20261014/zobel80/page-8.png",
+    "tmp/day14-20261014/zobel80/page-9.png"
+  ],
+  "review_status_inherited": "human-reviewed",
+  "new_human_review": false,
+  "source_before_recall": "outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/zobel80-before-source-recall.md"
+}

@@ -1,0 +1,22 @@
+{
+  "source": "knowledge/sources/zobel-1980-magnetic-substate-distributions.md",
+  "locator": "printed p226 Table1 958.0-keV row",
+  "selection": "only same13/2+parent/958.0transition for conversion check; other16rows visually inspected but not treated as this transition",
+  "reaction": "57Fe+12C",
+  "beam_energy_MeV": 40.0,
+  "beam_energy_locator": "printed p228 Table2 reactionA",
+  "parent_spin": "13/2+",
+  "daughter_spin": "9/2+",
+  "energy_keV": 958.0,
+  "a2": 0.349,
+  "sigma_a2": 0.007,
+  "a4": -0.093,
+  "sigma_a4": 0.007,
+  "alpha2": 0.794,
+  "sigma_alpha2": 0.016,
+  "alpha4": 0.431,
+  "sigma_alpha4": 0.032,
+  "rho_source": null,
+  "table_reference": "Ref9 / Zobel1979 NPA316,165",
+  "no_independent_sampling_attestation": true
+}

@@ -3,7 +3,7 @@ type: source
 title: "The shape of magnetic substate distributions in fusion-evaporation reactions"
 aliases: [Zobel 1980 magnetic substate distributions, Zobel 1980 attenuation coefficients, alignment-yrast curve]
 created: 2026-07-08
-updated: 2026-07-08
+updated: 2026-10-15
 status: ai-draft
 review_status: human-reviewed
 source_type: experiment-method-article
@@ -62,6 +62,12 @@ For P-ADO/mixing-ratio work, the key methodological boundary is explicit: angula
 | Z80-11 | Short lifetimes and Doppler broadening can remove angle-dependent peak intensity from Gaussian peak fits; for their example, even lifetimes above 2 ps can cause more than 10% loss at `θγ=0°`, shifting apparent attenuation coefficients。 | model-calculation | direct | pp.228--230, Figs.4--5, Table 3 | false |
 | Z80-12 | The Appendix states that covariance between fitted Legendre coefficients must be included; confidence regions for `α2,α4` are ellipses rather than simple rectangles from independent error bars。 | method-formalism | direct | pp.230--231, Appendix Eqs.A1--A6 | false |
 | Z80-13 | Fig.5 explicitly links initial-level lifetime to apparent attenuation coefficients: its upper panel shows Doppler-broadened line shapes for different lifetimes, middle panel shows lifetime- and angle-dependent intensity loss outside the Gaussian central peak, and lower panel shows the resulting shifts of `αK` pairs for a pure quadrupole transition. | model-calculation | direct | pp.229--230, Fig.5 caption and text | false |
+| Z80-14 | p231的A2扫描字面在两个relative-variance项后仅减2rho；rho按下一行定义为标准correlation。按ratio Jacobian，相关项还需乘sigma_b0 sigma_bK/(b0 bK)，否则chosen positive-Cov控制可给负variance。后半为Codex公式自审，不是officialerratum。 | primary-transcription-and-task-algebra | mixed | printed p.231 / PDFp.9，Eq.A2与紧随rho定义 | true |
+| Z80-15 | A4密度指数为−h/2且h的cross term为−2rho；A6扫描的polynomial为+a cross-square+b cross+c cross-square，却印b=+D cov。以A4作逆Cov核，所需b=−D cov。A5的ln[1/(1−x)]与Q/2半径可相容，不将其单独判为少2因子。 | primary-transcription-and-task-algebra | mixed | printed p.231 / PDFp.9，Eq.A4–A6 | true |
+| Z80-16 | A3扫描写sigma_alpha=sigma_a/Amax，未见absolute-value；Table1的a4max转换为负而两组quotederrors均正，执行stderror转换需abs(Amax)或直接variance传播。公式/表的符号边界保留，未改raw。 | primary-transcription-and-convention | mixed | printed p.231 Eq.A3；printed p.226 Table1 958.0-keV行 | true |
+| Z80-17 | Table1的67Ga 958.0keV、13/2+→9/2+行给a2=.349±.007、a4=−.093±.007与alpha2=.794±.016、alpha4=.431±.032；Table2 reactionA为57Fe+12C、40.0MeV。当前只转录同parent这一行作变量约定cross-check，不作全部17行Gaussian检验。 | published-fit-result-and-scope | direct | printed p.226 / PDFp.4，Table1 958.0-keV行；printed p.228 Table2 A | true |
+| Z80-18 | 1980 Table1的67Ga输入指向Ref9=Zobel等NPA316,165(1979)，与1983 Ref4相同；配套方法文及后续beam scan不能仅凭两篇出版物认证independent raw events。 | source-lineage-and-boundary | mixed | printed p.226 Table1 ref栏；printed p.231 References9 | true |
+| Z80-19 | p229引用Table3，但当前sha-verified223–231九页scan仅见Table1/2；GNOMON在p231 Ref14列为unpublished。当前不填缺失数值loss表或补造可重放code，Fig4/5属于source model control。 | input-readiness-boundary | mixed | printed p.229 Sec.4.2；printed p.231 References14 | true |
 
 ## Authors' Interpretation
 
@@ -88,3 +94,14 @@ For [[sigma-over-i-uncertainty-in-pado-mixing-ratio-extraction]], this source su
 ## Personal Notes
 
 User review on 2026-07-08 resolved Z80-2/Z80-3/Z80-10 wording. Later paper use should emphasize the three ambiguity-removal routes and the Fig.5 lifetime-to-`αK` distortion mechanism.
+
+
+## Day14 Ref5主线复核与公式自审
+
+来源前primed回忆先冻结，再核raw SHA256、Crossref200的DOI/title/sixauthors/171(2)/223–231/1980-04。视觉读完整9页，覆盖Eq1–6、Fig1–5、Table1/2、discussion/summary和Appendix A1–A6；Table1旋转为upright，A2/A6以4倍局部图复核。只选择与此前Zobel1983相同parent的958行用于符号转换；其余16行已看但不作为本练习对应transition或完整模型检验。
+
+实验/方法主线：作者在p227只编入pure quadrupole、舍弃误差过大的weaklines，外来数据要能追随error analysis；因此Fig3不是无条件总体sample。ALY从高度取向entry、stretched-cascade及feeding前提导出，p230仍保留beta/isomer/Doppler与不同reaction条件反例。Fig4明确是人工spectrum，Fig5来自chosen GNOMON/recoil/lifetime模型，不能升级为各核实测寿命或新实验intensity loss。
+
+公式自审落点：[[angular-distribution]]“Zobel1980附录：字面公式与联合覆盖”保留原A2/A3/A4–A6转录、独立JCovJ与Gaussian密度核，23项计算控制通过。A2/A6按字面执行与其定义不一致；A3的不带abs标准差需按正variance约定处理；A5的半径必须与Q/2一起看。这里是Codex转录/代数自审，未取得officialerratum，未回改raw或重新拟合原数据。真实sourceCov仍未知。
+
+review_status:human-reviewed及Z80-1–13的false是2026-07-08继承记录，未新增人审或扩大其范围；本run新14–19均needs_review:true。Z80-12“Cov须包含/联合区域为ellipse”的一般结论仍支持，精确式子需采用上面的可复核边界。此为Day14内Day15无学分预习，不变更正式21/24或课程信用。

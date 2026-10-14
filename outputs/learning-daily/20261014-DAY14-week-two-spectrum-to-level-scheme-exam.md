@@ -194,7 +194,7 @@ HE15-9的实际未定双线是核心反例：energy sum、共享R/A和假设的�
 
 ## Durable knowledge delta
 
-本run实际修改十二份knowledge Markdown，超出昨日预习的增量为七边逐条证据、相关cycle/标定nullspace、未定doublet shared-quantity边界和parent-lifetime契约。canonical知识路径：
+本run实际修改十三份knowledge Markdown，超出昨日预习的增量为七边逐条证据、相关cycle/标定nullspace、未定doublet shared-quantity边界和parent-lifetime契约。canonical知识路径：
 
 - [Herzáň source](../../knowledge/sources/herzan-2015-193bi-spectroscopy.md)：HE15-8–14及正式来源主线/triage。
 - [level-scheme method](../../knowledge/methods/level-scheme-reconstruction.md)：五能级七边、GLS/反例和必要companion。
@@ -724,6 +724,68 @@ HE15-9的实际未定双线是核心反例：energy sum、共享R/A和假设的�
           "locator": "Z83-12"
         }
       ]
+    },
+    {
+      "knowledge": "knowledge/sources/zobel-1980-magnetic-substate-distributions.md",
+      "summary": "完整9页原主线/Crossref/raw核验，保存A2/A3/A4–A6转录与代数边界、同parent一行、旧数据引用链及missing Table3/GNOMON readiness。",
+      "anchor": "Day14 Ref5主线复核与公式自审",
+      "sources": [
+        {
+          "path": "knowledge/sources/zobel-1980-magnetic-substate-distributions.md",
+          "locator": "Z80-14"
+        },
+        {
+          "path": "knowledge/sources/zobel-1980-magnetic-substate-distributions.md",
+          "locator": "Z80-15"
+        },
+        {
+          "path": "knowledge/sources/zobel-1980-magnetic-substate-distributions.md",
+          "locator": "Z80-16"
+        },
+        {
+          "path": "knowledge/sources/zobel-1980-magnetic-substate-distributions.md",
+          "locator": "Z80-17"
+        },
+        {
+          "path": "knowledge/sources/zobel-1980-magnetic-substate-distributions.md",
+          "locator": "Z80-18"
+        },
+        {
+          "path": "knowledge/sources/zobel-1980-magnetic-substate-distributions.md",
+          "locator": "Z80-19"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/methods/angular-distribution.md",
+      "summary": "保存规范ratio JCovJ、source打印符号/相对误差缺项与半径约定边界；23-check chosen controls不重算原实验joint significance。",
+      "anchor": "Zobel1980附录：字面公式与联合覆盖",
+      "sources": [
+        {
+          "path": "knowledge/sources/zobel-1980-magnetic-substate-distributions.md",
+          "locator": "Z80-14"
+        },
+        {
+          "path": "knowledge/sources/zobel-1980-magnetic-substate-distributions.md",
+          "locator": "Z80-15"
+        },
+        {
+          "path": "knowledge/sources/zobel-1980-magnetic-substate-distributions.md",
+          "locator": "Z80-16"
+        },
+        {
+          "path": "knowledge/sources/zobel-1980-magnetic-substate-distributions.md",
+          "locator": "Z80-17"
+        },
+        {
+          "path": "knowledge/sources/zobel-1980-magnetic-substate-distributions.md",
+          "locator": "Z80-18"
+        },
+        {
+          "path": "knowledge/sources/zobel-1980-magnetic-substate-distributions.md",
+          "locator": "Z80-19"
+        }
+      ]
     }
   ]
 }
@@ -779,6 +841,14 @@ PureE2在合法取向下可negative P；在本段common selection/轴对称/poin
 本批复核Z83-1（p389 Eq1/2）、Z83-11（p392 Table1）与Z83-12（p393统计dependence），完成[17-check计算](20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/angular-coefficient-conventions.json)。canonical为[角分布系数](../../knowledge/observables/angular-distribution-coefficient.md)“拟合系数、核取向与最大辐射系数的层级”。声明pureE2/point参考的c=(40/91,−216/1001)，原alpha(.973,.803)条件转为Aexp(.427692308,−.173274725)，marginalerrors(.016263736,.019420579)；不是新实测表列。
 
 固定D的Cov变换会翻转rho符号，但同变换后的联合距离不变；chosen rho+.6与chosen比较点仅作控制。错把alpha当A仍可归一且全角为正，所以源定义不能用这些数值检查代替。β0 cross项、δ/acceptance nuisance必须保留，未知真实Cov仍未知；决定supports变量层级、limits同名量合并。原observable mixed-EOL/审核metadata已保留。此前[[attenuation-coefficient]]已有区分，本批核对后未重复改写；不计Day15、不改21/24。
+
+### Ref5原文公式与联合覆盖：持续研究增量
+
+[primed来源前回忆](20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/zobel80-before-source-recall.md)在打开source/raw前冻结；Crossref200/sha-verified9页、全部图/表/公式/Appendix主线核验见[mainline audit](20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/zobel80-mainline-audit.json)。[[zobel-1980-magnetic-substate-distributions]] Z80-14/15/16记录p231 A2相对误差乘积缺项、A6与A4的cross-sign不一致及A3正标准差约定。A5本身须配合Q/2看，不误判独立少因子2。它们是扫描转录与Codex代数自审，未取得officialerratum；原Human/旧flags保留，新14–19 needs_review true。
+
+[23-check计算](20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/zobel80-appendix-analysis.json)给chosen positiveCb上的A2字面负variance、正确ratio covariance；joint68% fullQ=2.278868566，Q=1内容.393469340。chosen rho+.6的错cross-sign ellipse内容.520066461（512/1024积分一致）；这些不是source实验Cov或原ALY p-value。完整公式、矩阵、覆盖与反例写入[[angular-distribution]]“Zobel1980附录：字面公式与联合覆盖”。
+
+Z80-17一行同parent数据核c/sign打印舍入，Z80-18/[[zobel-1983-energy-projectile-alignment]] Z83-13核Ref9/4同Zobel1979依赖，不能认证独立raw events。Z80-19保留scan未见Table3、GNOMON未发布的数值重放缺口；Fig4/5是原model control，companion仍需完整peak面积、fitCov、matching feeding/条件。决定revises公式的字面执行，supports保留Cov，limits把marginal误差、引用次数或ALY/Gaussian曲线当唯一布居事实。不改变21/24、不计Day15。
 
 ## Open questions and belief revision
 
@@ -861,3 +931,10 @@ Figure源/glyph/collision audits均exit0，最小8pt、collision0fail0warn，sin
 17项系数约定练习全部通过，report/card/writeback valid（21items/12changedpages）；AST、保护哈希/raw metadata及原审核状态通过。wiki_lint --fail-on error exit0，0errors/129warnings（107citation-key、19raw槽、3reactionparser）；git diff --check exit0。原observable的mixed-EOL字节保持；首个validation harness因错误import exit1，改用现有函数后exit0。
 
 恢复见[checkpoint008](20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/checkpoint-008.md)及[实际clock002登记](20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/clock-checkpoint-002.md)。本批稳定指针 main / `Clarify DAY14 angular coefficient conventions`，exacthash/actualpush只receipt。研究仍active，下一Ref5统计方法原主线核验已冻结primed回忆；不将方法公式补造成当前dataset的Cov，不计Day15或新开下一卡。
+
+
+### Checkpoint009 实测与继续
+
+Ref5原9页与23-check Appendix均完成；report/card/writeback valid（23items/13changedpages），AST/保护哈希/raw metadata/原review flags与diff通过。wiki_lint --fail-on error exit0，0errors/129warnings（107citation-key、19raw槽、3reactionparser）。初lint未读入空行后的六条claim，解析验收exit1；修表后freshlint解析Z80-14–19全部true，claims2471、needs_review1797，原13条false保留。
+
+恢复见[checkpoint009](20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/checkpoint-009.md)，本批稳定指针 main / `Audit DAY14 primary angular error formulas`；exacthash/actualH3只receipt。候选池核对发现RB67-26已有pureE2布居盲区证明，下一项是源表两moments的positive-population physical hull与中央值可行性，不重复已有泛化反例。Day15仍partial、正式21/24不变、研究继续。

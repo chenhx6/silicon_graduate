@@ -10,11 +10,11 @@ updated: 2026-10-15
 
 Run `2026-10-14-day-14-02` / session `01a13a0e-e8bd-7251-b970-f6975679e281`；原研究截止 `2026-10-15T15:00:00+08:00` 保持，goal/research仍active。正式DAY14的primed回忆、Herzáň主线/图表/七边、21/24和weekly REFLECT已发布；官方next14/count13等最终收束只计一次。Day15仅partial预习，不研究Day16。
 
-最新checkpoint008（上海10-15 05时）：17项系数约定练习核清β、归一Aexp、参考c与核alpha，保存Cov坐标变换/归一cross项及错误语义仍为正的反例。Canonical角分布系数页保留原EOL/审核状态；此前Zobel1983同parent38检查及geometry Cov26检查保留。actual GF/原I/eff/monitor/fitCov仍缺，未重估实验rho/σ/I/assignment。
+最新checkpoint009（上海10-15 05:40前后）：Zobel1980原9页和23项附录控制核完，A2/A6扫描字面需结合Jacobian/A4密度自审，A3σ正值与A5的Q/2约定保留。原Human/13false范围不扩、新14–19 true；source/method保存全部矩阵、958一行转换、Ref9/4依赖及Table3/GNOMON输入缺口。真正GF/原I/eff/monitor/fitCov仍缺，无实验rho/σ/I/assignment重估。
 
-日报唯一writeback21items/12changedpages；report/card/writeback、lint exit0（0errors/129warnings）、diff/AST/保护哈希/raw/review通过。前7批已Gitee发布；本批稳定指针 main / `Clarify DAY14 angular coefficient conventions`，exacthash/actualH3只runreceipt。下一Ref5 Zobel1980已冻结primed回忆，核raw/Crossref后读全9页及Appendix，审计两moment/布居与confidence convention；通用方法不补造成当前source的实测Cov。
+唯一writeback23items/13changedpages，report/card/writeback/AST/protected/raw/review/diff通过；lint exit0、0errors/129warnings。新claim空行曾造成解析验收1，修表后六条全部parsed、claims2471/needs_review1797。前8批Gitee已发布；本批稳定指针 main / `Audit DAY14 primary angular error formulas`，exacthash/actualH3只receipt。
 
-Clock001/002已实际ack，queued与observed时间分开；其余queued不造ack。Farmer8686/clock75781不重启。恢复 `codex resume 01a13a0e-e8bd-7251-b970-f6975679e281 -C /workspace/wiki -s danger-full-access -a never`；本run的checkpoint008/continuation可恢复。
+下一经overlap选择positive-population moment hull/source中央值可行性，计算前预测已冻结；已存在的RB67-26盲区proof保留，不将条件LP或unknownΣ当实验否定。Clock001/002已实际ack；Farmer8686/clock75781不重启。恢复 `codex resume 01a13a0e-e8bd-7251-b970-f6975679e281 -C /workspace/wiki -s danger-full-access -a never`；本run checkpoint009/continuation可恢复。
 
 ## Previous active handoff — DAY13 continuous study reopened by user
 
