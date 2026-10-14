@@ -118,6 +118,9 @@ SI TableI给2+2 4.071(1)MeV、3+1 5.228(1)MeV与各γ/branches。本文的完整
 
 ## Related Knowledge and Project Relations
 
+Methodobject续核[[nptool-2019-reaction-velocity-code-object]] NP19-2/3/4/5/7/8/10提供公开历史reconstruction/getter契约；不证明本实验使用相同commit/caller。测得proton输入、beam/mass/targetprior、reaction-pointβ与emission/exittransport分开。
+
+
 SIRef6的方法原报告已续读为[[baker-cousins-1984-histogram-fits]]，BC84-1/2/3/5/6/7/9。该入口澄清计数/区间/normalization条件，不由generalmethod推断本实验Neyman实现或τcoverage错误。
 
 

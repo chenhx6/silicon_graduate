@@ -1,0 +1,186 @@
+{
+  "schema_version": 1,
+  "kind": "synthetic equal-stopping depth/exit-velocity design",
+  "chosen_parameters": {
+    "mass_proxy_MeV": 18629.8820484,
+    "collinear_1D": true,
+    "foil_length_um": 4.0,
+    "beam_energy_MeV": 100.0,
+    "fixed_channel_kinetic_loss_MeV": 4.0,
+    "effective_beam_and_product_S_MeV_um": 2.5,
+    "exit_energy_MeV": 86.0,
+    "true_proper_tau_ps": 0.08,
+    "gamma_rest_keV": 2396.1,
+    "Gaussian_corrected_sigma_keV": 1.5,
+    "point_angles_deg": [
+      130.0,
+      150.0,
+      170.0
+    ]
+  },
+  "maximum_proper_crossing_ps": 0.13487867625811104,
+  "prior_and_wrong_uniform_fits": [
+    {
+      "chosen_true_depth_prior": "uniform",
+      "chosen_true_tau_fs": 80.0,
+      "exit_energy_MeV": 86.0,
+      "exit_beta": 0.0957545899623927,
+      "pre_photon_outside_fraction": 0.47966565755443324,
+      "corrected150_mean_keV": 2393.8466987004504,
+      "corrected150_variance_keV2": 11.144105963799715,
+      "wrong_uniform_fixed_E_tau_fs": 79.9999999044764,
+      "fixed_E_mean_KL": 0.0,
+      "wrong_uniform_profiled_tau_fs": 79.9999934665753,
+      "profiled_rest_gamma_keV": 2396.100000033916,
+      "profiled_mean_KL": 5.273562501825716e-16,
+      "optimizer_multistart_success": [
+        false,
+        true,
+        true
+      ]
+    },
+    {
+      "chosen_true_depth_prior": "front",
+      "chosen_true_tau_fs": 80.0,
+      "exit_energy_MeV": 86.0,
+      "exit_beta": 0.0957545899623927,
+      "pre_photon_outside_fraction": 0.3505129634399432,
+      "corrected150_mean_keV": 2392.810188955699,
+      "corrected150_variance_keV2": 13.45786803678375,
+      "wrong_uniform_fixed_E_tau_fs": 42.586327052886226,
+      "fixed_E_mean_KL": 0.0017604638216187274,
+      "wrong_uniform_profiled_tau_fs": 40.05426915956259,
+      "profiled_rest_gamma_keV": 2396.201301735991,
+      "profiled_mean_KL": 0.0013957616169308527,
+      "optimizer_multistart_success": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "chosen_true_depth_prior": "back",
+      "chosen_true_tau_fs": 80.0,
+      "exit_energy_MeV": 86.0,
+      "exit_beta": 0.0957545899623927,
+      "pre_photon_outside_fraction": 0.6088183516689232,
+      "corrected150_mean_keV": 2394.8814126864836,
+      "corrected150_variance_keV2": 6.691228333623809,
+      "wrong_uniform_fixed_E_tau_fs": 172.82455820011342,
+      "fixed_E_mean_KL": 0.010096288953254194,
+      "wrong_uniform_profiled_tau_fs": 190.72634816053267,
+      "profiled_rest_gamma_keV": 2395.971432723952,
+      "profiled_mean_KL": 0.008618371321614601,
+      "optimizer_multistart_success": [
+        true,
+        true,
+        true
+      ]
+    }
+  ],
+  "independent_MC": [
+    {
+      "prior": "uniform",
+      "mean_entry_energy_MeV": 91.00032882260784,
+      "final_energy_max_deviation_MeV": 1.4210854715202004e-14,
+      "analytic_photon_mean_keV": 2393.8466987004504,
+      "MC_photon_mean_keV": 2393.8491218067493,
+      "MC_mean_SE_keV": 0.00472363099356295,
+      "analytic_photon_variance_keV2": 11.144105963799715,
+      "MC_photon_variance_keV2": 11.18134837526225
+    },
+    {
+      "prior": "front",
+      "mean_entry_energy_MeV": 92.66481911801749,
+      "final_energy_max_deviation_MeV": 1.4210854715202004e-14,
+      "analytic_photon_mean_keV": 2392.810188955699,
+      "MC_photon_mean_keV": 2392.8181607279344,
+      "MC_mean_SE_keV": 0.0051903321125066956,
+      "analytic_photon_variance_keV2": 13.45786803678375,
+      "MC_photon_variance_keV2": 13.48768486110387
+    },
+    {
+      "prior": "back",
+      "mean_entry_energy_MeV": 89.33042047767678,
+      "final_energy_max_deviation_MeV": 1.4210854715202004e-14,
+      "analytic_photon_mean_keV": 2394.8814126864836,
+      "MC_photon_mean_keV": 2394.883945330595,
+      "MC_mean_SE_keV": 0.003649307444278617,
+      "analytic_photon_variance_keV2": 6.691228333623809,
+      "MC_photon_variance_keV2": 6.673251727479489
+    }
+  ],
+  "stopping_contrast_controls": [
+    {
+      "chosen_product_S_MeV_per_um": 2.0,
+      "prior": "uniform",
+      "final_energy_mean_MeV": 87.0,
+      "final_intrinsic_variance_MeV2": 0.3333333333333333
+    },
+    {
+      "chosen_product_S_MeV_per_um": 2.0,
+      "prior": "front",
+      "final_energy_mean_MeV": 87.33333333333333,
+      "final_intrinsic_variance_MeV2": 0.2222222222222222
+    },
+    {
+      "chosen_product_S_MeV_per_um": 2.0,
+      "prior": "back",
+      "final_energy_mean_MeV": 86.66666666666667,
+      "final_intrinsic_variance_MeV2": 0.2222222222222222
+    },
+    {
+      "chosen_product_S_MeV_per_um": 2.5,
+      "prior": "uniform",
+      "final_energy_mean_MeV": 86.0,
+      "final_intrinsic_variance_MeV2": 0.0
+    },
+    {
+      "chosen_product_S_MeV_per_um": 2.5,
+      "prior": "front",
+      "final_energy_mean_MeV": 86.0,
+      "final_intrinsic_variance_MeV2": 0.0
+    },
+    {
+      "chosen_product_S_MeV_per_um": 2.5,
+      "prior": "back",
+      "final_energy_mean_MeV": 86.0,
+      "final_intrinsic_variance_MeV2": 0.0
+    },
+    {
+      "chosen_product_S_MeV_per_um": 3.0,
+      "prior": "uniform",
+      "final_energy_mean_MeV": 85.0,
+      "final_intrinsic_variance_MeV2": 0.3333333333333333
+    },
+    {
+      "chosen_product_S_MeV_per_um": 3.0,
+      "prior": "front",
+      "final_energy_mean_MeV": 84.66666666666667,
+      "final_intrinsic_variance_MeV2": 0.2222222222222222
+    },
+    {
+      "chosen_product_S_MeV_per_um": 3.0,
+      "prior": "back",
+      "final_energy_mean_MeV": 85.33333333333333,
+      "final_intrinsic_variance_MeV2": 0.2222222222222222
+    }
+  ],
+  "verification": {
+    "energy_work_and_equal_exit_passed": true,
+    "independent_path_integral_clock_max_error_ps": 4.3018106438141857e-14,
+    "profile_normalization_max_error": 2.220446049250313e-16,
+    "quadrature96_48_vs192_96_max_error": 2.9976021664879227e-15,
+    "independent_depth_time_and_photon_MC_passed": true,
+    "uniform_truth_fit_passed": true,
+    "long_tau_outside_and_no_loss_limits_passed": true,
+    "all_passed": true
+  },
+  "boundaries": [
+    "Not the CM21 45degree binary reaction, TKEL unfolding or actual foil stopping law.",
+    "Equal effective beam/product S is a chosen information-loss limit; real geometry/contrast can exclude it.",
+    "No mass-changing reaction kinematics, angular/energy straggling, photon recoil or detector position covariance.",
+    "Wrong-prior pseudo-true tau/E and KL are chosen-model predictions, not source bias or a lifetime refit.",
+    "Measured entry kinematics or a constrained physical depth prior can distinguish these histories."
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "kind": "synthetic physical consistency checks for historical public object contracts; no NPTool execution",
+  "source_object": "NPTool.2.dev pinned2019object, not e775 caller/version",
+  "chosen_mass_state_check": {
+    "ground_mass_proxy_MeV": 18629.8820484,
+    "excitation_scale_MeV": 4.071,
+    "true_beta": 0.126,
+    "fourvector_E_MeV": 18783.6542368941,
+    "fourvector_p_MeV": 2366.7404338486567,
+    "fourvector_invariant_mass_MeV": 18633.9530484,
+    "beta_with_consistent_state_mass": 0.126,
+    "beta_assuming_ground_mass_at_same_E": 0.12769479403103842,
+    "chosen_rest_gamma_keV": 2396.1,
+    "chosen_relative_angle_deg": 150,
+    "generated_lab_gamma_keV": 2143.1453532838577,
+    "ground_mass_beta_corrected_gamma_keV": 2399.7951280248517,
+    "gamma_residual_keV": 3.6951280248517833
+  },
+  "units_checks": {
+    "beam_total_vs_per_A": [
+      {
+        "chosen_total_kinetic_MeV": 152.0,
+        "mass_proxy_19u_beta": 0.13022262937232823
+      },
+      {
+        "chosen_total_kinetic_MeV": 8.0,
+        "mass_proxy_19u_beta": 0.030057021569914168
+      }
+    ],
+    "chosen_beta": 0.1,
+    "velocity_cm_per_ns": 2.99792458,
+    "time_per_length_s_per_m": 3.3356409519815205e-08,
+    "chosen_path_m": 8.0,
+    "full_flight_ns": 266.8512761585216
+  },
+  "chosen_threshold_check": {
+    "mass_proxies_MeV": [
+      18629.8820484,
+      1862.98820484,
+      931.49410242,
+      19566.37615082
+    ],
+    "chosen_total_beam_kinetic_MeV": 10.0,
+    "public_IsAllowed_style_total_energy_condition": true,
+    "invariant_two_body_channel_condition": false,
+    "true_kinematic_lab_threshold_MeV": 55.00670965067435
+  },
+  "verification": {
+    "invariant_mass_and_consistent_beta_passed": true,
+    "unit_flight_conversion_passed": true,
+    "necessary_vs_invariant_threshold_counterexample_passed": true,
+    "all_passed": true
+  },
+  "boundaries": [
+    "Mass20u/Ex4.071/beta.126 are chosen source-scale illustrations, not actual software mass table or dataset.",
+    "Fields computed from one energy/mass are correlated and do not create an independent clock.",
+    "The historical object input/caller execution and newest GitLab code are not attested.",
+    "Only a caller with inconsistent mass/state or units incurs the illustrated effect; actual e775 usage unknown.",
+    "The endothermic5MeV channel is a generic chosen threshold example, not the19O(d,p)20O measurement."
+  ]
+}

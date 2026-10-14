@@ -1,0 +1,20 @@
+{
+  "at": "2026-10-14T11:24:01.160461+08:00",
+  "research_status": "active",
+  "source_before_recall_completed": true,
+  "actual_object": "NPTool.2.dev 2019-09-02 revision415ad50066f715ca1de312da1202201f9381e87e",
+  "read_scope": "Reaction.cxx/h full physical/core/config/plot logic, selected Nucleus conversion/Mass/state and unit headers, README/license; no thirdparty execution",
+  "discovered_contracts": [
+    "TotalkineticMeV/angle rad; constructor firsttokenBeam, targetsecond; planey0/beam+z",
+    "Reconstruct updates Reaction4vector/returns Ex, SetNuclei3 additionally updates Nucleus objects; getters not interchangeable",
+    "Nucleus Mass includes Exc; SetEnergyImpulse recomputes scalarbeta from E and objectMass, not direct P.Beta",
+    "GetVelocity cm/ns; GetTimeOfFlight per-length s/m, derived conversions not independent clocks",
+    "B rho defaultionicq assumes Z; matching mass/state and explicitcharge/frame important",
+    "Labangle→energy helper may 50/50 sample ambiguous branches; strictinvariantthreshold distinct from totalenergyhelper"
+  ],
+  "pending": "physicalconstant recovery finish; create sourcecard and map canonical/report; no actual e775/newestGitlabcode attestation",
+  "successor_network": "GitlabAPI ConnectionError and landingtimeout, no permission denial claim",
+  "source_fingerprint": "byte hashes and Gitblob checks in tmp acquisition/recovery records",
+  "source_actual_values_not_inferred": true,
+  "course": "next14/count13 unchanged"
+}

@@ -8,7 +8,7 @@ status: ai-draft
 review_status: unreviewed
 scope: doppler-recoil-vector-response-validation
 confidence: medium
-sources: [mavela-2019-32s-quadrupole-moment-doppler-correction-thesis, klemme-1999-lifetimes-134nd-neighbors, vandebrouck-2016-vamos-dual-position-mwpc, crespi-2013-agata-high-energy-doppler-response, aladili-2009-agata-doppler-simulation, akkoyun-2012-agata-instrument-response, senyigit-2014-agata-neutron-rejection, tunl-2017-12c-level-widths, soderstrom-2008-agata-position-design, crespi-2023-agata-tracking-performance, ljungvall-2020-agata-ganil-performance, assie-2021-mugast-agata-vamos, lemasson-2023-agata-vamos-fission-history, ciemala-2019-20o-dsam-analysis-status, ziliani-2019-agata-calibration-controls, ciemala-2020-c16-o20-lifetimes, zanon-2023-o20-high-precision, ciemala-2021-deep-inelastic-lifetime-method, baker-cousins-1984-histogram-fits]
+sources: [mavela-2019-32s-quadrupole-moment-doppler-correction-thesis, klemme-1999-lifetimes-134nd-neighbors, vandebrouck-2016-vamos-dual-position-mwpc, crespi-2013-agata-high-energy-doppler-response, aladili-2009-agata-doppler-simulation, akkoyun-2012-agata-instrument-response, senyigit-2014-agata-neutron-rejection, tunl-2017-12c-level-widths, soderstrom-2008-agata-position-design, crespi-2023-agata-tracking-performance, ljungvall-2020-agata-ganil-performance, assie-2021-mugast-agata-vamos, lemasson-2023-agata-vamos-fission-history, ciemala-2019-20o-dsam-analysis-status, ziliani-2019-agata-calibration-controls, ciemala-2020-c16-o20-lifetimes, zanon-2023-o20-high-precision, ciemala-2021-deep-inelastic-lifetime-method, baker-cousins-1984-histogram-fits, nptool-2019-reaction-velocity-code-object]
 tags: [doppler-correction, velocity-information, calibration, covariance, evidence-contract]
 ---
 
@@ -146,6 +146,18 @@ CM21-18与ZA23-2/3/5/7所需的feeding/entry边界在[[doppler-correction]]“�
 ## 共同K的物理边界也要量化
 
 目标态/upperphotonrecoil、transport、alignment/角关联或selection改变时，共同K的exactfeeding反例条件不成立。[[doppler-correction]]的cascade-recoil练习用自设two-bodymassproxy/constantflight及isotropic角分布检验这一边界；A20/gap1MeV使50%feed/σ2keV模型的σ变2.000689keV，未知Gaussianresponse可吸收多数差异。Model的KL/MC非实际τdiscrepancy/实验precision，不能从“物理上打破理想恒等式”跳到“source已可辨识feeding”；独立tag/entry和响应约束仍须核。
+
+## Depth prior 与末速度各自约束什么
+
+CM21-6/7/19/21提供sourceTKEL/靶depth/TOF和实际倾斜geometry，ZA23-2则有particle-assistedentry约束。[[doppler-correction]]的自设equal-effective-S/collinear极限使相同末能量不区分三depthprior，错uniformprior可偏移toyτ/E；fullshape残余KL或不同S/path可反证错prior。ActualCM21geometry不满足其共线假设，故不能用toy证明该实验bias。
+
+必要packet是state-conditioned exitdata、reaction/TKEL/depthprior的版本/依据、materials/path/response与covariance，以及独立entry或geometry/stoppingcontrastcontrols。多份同末速度的重放/fit不构成新的independententrymeasurement；反之，可靠physicalprior也是有效输入，应按来源/范围明确而不统称“未测就无法使用”。
+
+## Code object、caller与测量binding
+
+[[nptool-2019-reaction-velocity-code-object]] NP19-1–12只证明固定2019publicobject的单位/producer/getter/mass/frame；GitLab当前代码与experimentcaller未取得。ZA23-2的particle-assistedentry有measuredlightinput基础，仍须beam/mass/vertex/energycorrection/φ和实际operator binding。
+
+GetVelocity/TOF/Bρ等同input派生字段，不因值相符增加independentmeasurement。Reaction4vector/Nucleus缓存和Mass含Exc须一致或明确不同估计器；physicaldomain与branch/radian/totalMeV不能由framework名保证。Sanity数值是任务counterfactual，不推断source发生mass/unitsbug。Read-only对象审计可提高L3contract，不能替actualL4dataset/code/Σ。
 
 ## Sources
 

@@ -8,6 +8,10 @@ updated: 2026-10-14
 
 ## Active handoff — DAY13 continuous study reopened by user
 
+最新checkpoint（2026-10-14T11:43:08.379833+08:00，余196.9分钟）：126items/32mappedpaths（31owningpages）。Depth特殊equal-S/共线toy终86MeV不分三prior，错uniform τ/E有bias/残余KL；actualCM21tilt45/θφ接受不满足极限，uniform一个optimizerstart失败保留、其它recover。NPTool2019publicobject audited（Reaction/Nucleus/units/README/license，Gitblob/hash），Github已迁GitLab但API/page网络失败，未build/current/e775 execution未attest。API totalMeV/rad/plane与getterMass含Ex/derivedTOF s-m/velocitycm-ns/Bρ默认Z均已canonical，physicalsanity+3.695keV是selfcounterfactual非sourcebug。
+
+18rawslots未归档，citationKeys107；CM21 publishedclaims14–21空行table修复后machineparsed。Lint0errors/128warnings与boundary/report/card/writeback/protected/state/diff通过；run/goalactive至原15:00，next14/count13不重计，Day14仅partial/无formal14或15。活动pointer main / `Audit DAY13 depth priors and recoil velocity code contracts`；exacthash只receipt。下一currentboundedroute有限bin积分/rebin与sharedbackground/templateΣ，Baker/原source已读，无需重复physics/旧NPobjects。
+
 最新checkpoint（2026-10-14T09:39:59.057803+08:00，余320.0分钟）：118items/31mappedpaths；exact120/60fs/50%feeding全等待密度恒等式已verified（600kMC/3angles），cascade recoil另测commonK failure（constantflight、isotropic、massproxy；A20gap1MeV/σ2→2.000689keV，未知σ可吸收）。所有数字为selfchosen，非20Orefit/差异原因；tag分母pre-angular/unit4π，alignment/anglecorrelation/selection与recoil限制明确。Lint0errors/126warnings、boundary/report/card/writeback/protected/state/diff通过，run/goal持续active至15:00。
 
 活动pointer main / `Add DAY13 exact feeding ambiguity and recoil limits`，hash只入receipt。下一TKEL/depth/responseinverseclosure未开始code，候选池仍有高价值route，不可本checkpoint提前closeout；Card13alreadycredited next14/count13不重复、Day14仅partial，无formal14/15。No new source sinceBC84；17rawslots未填充。

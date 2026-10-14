@@ -80,7 +80,6 @@ M. Ciemała等，European Physical Journal A **57**, article156(2021)，DOI如�
 | CM21-11 | simulation给sensitivity约.2Tcross–4Tcross；long19O2371给τ>400fsvalley，ultrashort17O3842给0–70fsvalley；引用E3842.3(.4)才给20(+20/−20)fs。 | experimental-criterion | direct | preprintPDF pp.13–15, Sec.4.4, Figs.23–24 | true |
 | CM21-12 | 作者称90°detectors不受Dopplershift，有助精确E；该说法在精确Lorentz/finiteangularcoverage下需适用条件。 | author-interpretation | direct | preprintPDF pp.12/15, Fig.20/short-limit discussion | true |
 | CM21-13 | 17O2184的frontsegment处理相对fulltracking：1σ区域E约5倍、τ约2.3倍，χ²minimum约2.5倍；同数据重处理不能重复计独立experiment。 | experimental-fact | direct | preprintPDF pp.15–16, Sec.4.5, Figs.25–26 | true |
-
 | CM21-14 | Publisher Eq.(1)为Eγ0=Eγγ(1−βcosθrel)，明确Eγ measured、Eγ0 corrected，物理inverse一致；v1文字标签冲突未沿用。 | experimental-criterion | direct | publisherPDF p.6, Eq.(1)/definitions; visual | true |
 | CM21-15 | Publisher明确aftertarget v=vV+ΔvV，ΔvV=T/[vV² f(θ,φ)]，T先取LISE并按Z由knownlongline fine-tune；文字称f正比DCpathlength。T非TOF的同量，未给实际数值/Σ。 | experimental-criterion | direct | publisherPDF pp.6–7, Sec.3.2.1, Fig.9 | true |
 | CM21-16 | 正式版示1375.80keV19Ocontrolτ1.27ps、3853.170keV13Ccontrolτ12.4ps；Mg2754line来自PARIS NaI neutroncapture生成24Na后βdecay。 | experimental-criterion | direct | publisherPDF pp.5–7, calibrationtext/Fig.9 | true |
@@ -88,6 +87,7 @@ M. Ciemała等，European Physical Journal A **57**, article156(2021)，DOI如�
 | CM21-18 | Publisher明称获得cumulativelifetime、可能含feeding；作者以无观察到populatingγ解释所考虑cases feedingnegligible。此为有检测边界的作者解释。 | author-interpretation | direct | publisherPDF p.13, Sec.4.3 | true |
 | CM21-19 | Publisher图14黄线为fulltargetsum初速度、绿线为first10layers；v1图17绿线则写midtarget。randomdepth以约60%abovebarrier/beamenergy~10%variation时crosssection近constant论证；ΔTKEL2MeV称与VAMOSenergyresolution一致。 | experimental-criterion | direct | publisherPDF pp.8–10, Sec.4.1/Fig.14; preprintPDF pp.9/11 Fig.17 | true |
 | CM21-20 | Publisher数据声明noassociateddata或不deposit，说明AGATAcollaboration ownership/DataPolicy；文章CC-BY4.0不授予events可访问性。 | experimental-fact | direct | publisherPDF p.16, Data Availability/Open Access | true |
+| CM21-21 | 正式版Ta6.64mg/cm²靶相对beam倾45°，VAMOS轴θg45°；接受约(θ,φ)=(±120,±200)mrad，即约(±6.9°,±11.5°)。实际不是1D共线/等effectivepath模型。 | experimental-fact | direct | publisherPDF pp.2–3, Sec.2 and Fig.2 | true |
 
 ## Nuclear Structure Information
 

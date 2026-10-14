@@ -1029,3 +1029,53 @@ ZA23的已知3+1τ54fs不是本构造的120fs上态，BR.28也不是f=.5。本�
 A20/gap1MeV下extra recoilσ.07425keV，50%mix使σ2变2.000689keV。响应严格已知时chosen10000photons的expected2N×KL约.002374，仅是此model的designmetric；自由Gaussianmean/σ吸收大部分差异，residualKL<1e−12不报精密物理显著性。表的massscaling不能移植为实际A≈130或20O的responsebudget。
 
 角度积分/解析moments、600k独立MC、嵌套Lorentzboost、zero-gap/large-mass/zero-boost与profile归一化通过。这个constant-flight模型没有重做foil τfit；若正确知道lower发射速度，使用它是另一reference，并不等于本例刻意忽略kick的parentreference。实际stopping、upper/target角关联、alignment、trigger/tag、source-responseΣ可能改变signature；独立entry/feeding标签仍是重要约束。
+
+## 等有效停止率下，末速度缺少反应深度信息
+
+CM21-6/7/19的TKEL/depth/response重建要求把测得末速度与输入prior分开。一项自设1Dfoil例题[day13_depth_prior_velocity.py](../../system/scripts/day13_depth_prior_velocity.py)只验证其中一个特殊information-loss极限；**不复制CM21反应或productiongenerator**。
+
+设massproxy20u、共线foilL4μm、beam100MeV、固定channelkineticloss4MeV、有效constantSbeam/Sprod2.5MeV/μm。Energybookkeeping为`Ti(x)=Ebeam−Sbeam x−loss`、`Tf=Ebeam−loss−Sprod L+(Sprod−Sbeam)x`。等有效S时Tf=86MeV/β.09575459与x无关，而stateentryenergy和剩余减速历史依赖x。这个盲点只限已声明模型，已知实际geometry/beam-product stoppingcontrast可排除它。
+
+Relativisticproperclock写`eta=acosh(1+T/M)`、`deta/dproper=−S c/M`，出foil后eta恒定。最大propercrossing.134879ps；独立路径积分与解析clock差4.4e−14ps以下。SourceCM21的Tcross130fs只是动机尺度，本例数值不代表真实foil时间。
+
+入口x prior取uniform、front-triangular 2(L−x)/L²、back-triangular 2x/L²。三case真实τ均80fs、Eγ2396.1keV、Gaussianσ1.5keV；对130/150/170°条件能谱以错误uniformprior做selfexpectedKL拟合：
+
+| 自设真depthprior | 末能量/MeV | 150°correctedmean/keV | 固定E/错uniform最佳τ/fs | ProfileE/错uniform最佳τ/fs | ProfileE−2396.1/keV | Residual meanKL/photon |
+|---|---:|---:|---:|---:|---:|---:|
+| uniform | 86.0 | 2393.846699 | 80.000 | 80.000 | +0.000000 | 5.27356e-16 |
+| front | 86.0 | 2392.810189 | 42.586 | 40.054 | +0.101302 | 0.00139576 |
+| back | 86.0 | 2394.881413 | 172.825 | 190.726 | -0.128567 | 0.00861837 |
+
+这说明在特殊equal-S极限，相同exitvelocity不独立验证entrydistribution；错误prior可给不同pseudo-trueτ/E。非零residualKL也说明完整shape/已知response可反证错模型，并非任意τ/depth都不可辨识。Uniformtruth有一个optimizerstart nonsuccess，另两start恢复τ80fs；flag完整保留，未宣称每个start成功。上述不解释真实150/70fs差异，也不计算实验χ²/CL。
+
+Equal-S三prior的500k独立MC验证constantexit及propertime/角beaming/能谱moments；probabilityprofile归一化误差2.3e−16、96/48与192/96quadrature差3.0e−15，longτoutside/no-losslimits通过。把Sprod改2或3（Sbeam仍2.5）使Tf slope非零，front/back finalmean差约.667MeV；depth重新可被exitenergy约束。Independententrykinematics也能区分91/93.33/88.67MeV尺度的初分布，而不仅重复同末速度。
+
+ActualCM21-21是倾斜45°靶、非共线beam/product和有限θ/φ接受，另有two-bodykinematics/TKEL、beam/depth/stopping/straggling。它不自动满足此counterexample。实际validation需要physicalprior、effectivepath/材料law、acceptedstate条件、独立entry约束与fullsourcecode/Σ；本例只固定这种依赖关系，不评估sourceprior错误或source结果bias。
+
+## 固定代码对象的velocity字段：输入、状态和单位
+
+[[nptool-2019-reaction-velocity-code-object]]审计的是2019公开commit的Reaction/Nucleus对象。README已指迁往GitLab，新站本次网络不可读；actuale775/2017commit、caller和当前软件未attest。这份静态sourceaudit没有运行第三方ROOT/Geant4，也不指认论文pipeline错误。
+
+NP19-1/2/3/4/5：constructor第一token设Beam，第二Target；API轻粒子kineticenergy用MeV、角用rad。初始化beam+z/targetrest，light向量默认为(p sinθ,0,p cosθ)，P4=P1+P2−P3和Ex=P4.M−配置Mass4。对真正reaction-pointvector，caller还须提供vertex处的总beamenergy、lightenergy-loss修正、mass/state、φ/worldrotation与Σ；common框架名不能替productionbinding。
+
+| 字段/路线 | Source实际行为 | 验证时须保存的条件 |
+|---|---|---|
+| ReconstructRelativistic与Reaction Lab4 getter | 前者returnEx并更新Reaction四向量；后者可取最近该向量。 | 调用顺序、输入epoch、physicalmass/beam/light条件与globalframe。 |
+| SetNuclei3与GetNucleus4 | 前者额外更新Nucleus对象；只有Reconstruct不自动更新另一容器。 | Nucleus缓存/Exc/mass和getterpath，不能将不同容器字段当同次结果。 |
+| Nucleus Mass()/SetEnergyImpulsion/GetBeta | Mass含Exc；setter从P.E−对象Mass取得K再算β，而非直接P.P/P.E。 | on-shell/质量状态一致性，或声明不同约束估计器与其Σ；改Exc后refresh路径要核。 |
+| GetVelocity/GetTimeOfFlight | energy/mass转换；此版velocity为cm/ns，TOF为s/m的inverse-speed量，无path。 | data-origin与单位；真实flight须乘D，模型字段不自动是测量clock。 |
+| Bρ conversion | 默认ionicQ取核Z。 | 实际ionicq/PID与mass/velocitystage；相同input派生字段非独立证据。 |
+| Nucleus DopplerCorrection | 用storedβ和caller suppliedθ作标准inverse。 | angle必须相对recoil、frame一致；函数不自动选input/emission/exitstage或重建3D方向。 |
+| Angle-only energy helper/IsAllowed | 前者某些branch50/50随机，后者仅labtotalenergy条件。 | physicalbranch/acceptance与完整invariantdomainguard，不能当independentvelocity/allowedchannel证明。 |
+
+如果独立rawclock的T/D先换成source约定s/m并作为SetTimeOfFlight输入，它可以带来新的测量信息；从SetKineticEnergy派生GetTimeOfFlight则没有新的clock。结论应沿producer/caller追踪，不能只看字段名。
+
+### 质量状态与invariantβ的quant sanity
+
+任务用generic20u/Ex4.071MeV、trueβ.126构造真实on-shellP，未读取source精确mass-table。P的invariantmass=Mground+Ex；若同一E改用Mground重算scalarβ，则得.127694794，直接fourvectorβ为.126。以自设Eγ2396.1keV/relative150°，错误mass假设下校正到2399.795128keV，+3.695128keV。这是**条件counterfactual**，不是NPTool运行结果或actuale775shift。正确mass/更新路径可避免；测量噪音下有意不同mass-shellprojection须明确估计器/Σ。
+
+另自设mass19u/beam8AMeV，输入总kin152MeV给nominalbeamβ.130223；若错按总8MeV为.030057。它只是totalMeV/per-A单位检查，不拿beamβ替重核recoilβ。β.1对应该legacyvelocity2.99792458cm/ns与inverse-speed3.33564095e−8s/m；D8m给266.851276ns。
+
+最后genericm1=20u/m2=2u/m3=1u/m4=21u+5MeV的endothermic例，在Tbeam10MeV时labtotalenergy必要条件满足，但s<(m3+m4)²；exactlabthreshold55.00671MeV。它限定旧IsAllowedhelper的证明力，不称实际(d,p)case调用错误或当前软件同样实现。
+
+上述on-shell、unit/path和thresholdsanity检查通过，数据/公式同步在本页；run-dir的nptool-object-contract-physics-check.json只作回执。源码字节/hash、单位/header和函数locator已固定，实际实验caller/校准/transport/rawdata未取得；L3objectaudit和L4experimentalrefit分别记录。

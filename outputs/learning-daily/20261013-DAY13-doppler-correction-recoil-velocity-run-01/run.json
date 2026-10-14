@@ -32,16 +32,12 @@
   "curriculum_cards_completed": 1,
   "closeout_window_ends_at": "2026-10-14T16:00:00+08:00",
   "last_closeout_snapshot": {
-    "now_local": "2026-10-13T17:12:58.564161+08:00",
+    "now_local": "2026-10-14T12:00:52.124160+08:00",
     "hard_deadline": "2026-10-14T15:00:00+08:00",
-    "next_scheduled_start": "2026-10-14T16:00:00+08:00",
-    "minutes_to_deadline": 1307,
-    "minutes_to_next_start": 1367,
-    "minimum_current_block_minutes": 90,
-    "minimum_forward_card_block_minutes": 120,
-    "can_continue_current": true,
-    "can_complete_forward_card": true,
-    "decision": "continue-or-advance"
+    "minutes_to_deadline": 179.13126400000002,
+    "decision": "continue-current-Day13",
+    "no_new_credit": true,
+    "day_index": 13
   },
   "prompt_file": "/workspace/wiki/outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity-run-01/prompt.md",
   "session_id": "01a13489-64ba-7930-9a2c-291375d95ad0",
@@ -418,14 +414,12 @@
     "clock_queued_not_delivered": true
   },
   "last_clock_refresh": {
-    "now_local": "2026-10-14T05:57:51.878940+08:00",
-    "minutes_to_deadline": 542.135351,
-    "status": "research-active",
-    "writeback_items": 83,
-    "mapped_pages": 26,
-    "decision": "continue-direct-calibration-and-velocity-stage-packet",
+    "now_local": "2026-10-14T12:00:52.124160+08:00",
+    "hard_deadline": "2026-10-14T15:00:00+08:00",
+    "minutes_to_deadline": 179.13126400000002,
+    "decision": "continue-current-Day13",
     "no_new_credit": true,
-    "clock_queued_not_delivered": true
+    "day_index": 13
   },
   "active_continuation_checks": {
     "schema_version": 1,
@@ -1082,10 +1076,10 @@
     }
   ],
   "latest_active_checkpoint": {
-    "path": "outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity-run-01/research-checkpoint-reopened-013.json",
-    "at": "2026-10-14T09:39:59.057803+08:00",
+    "path": "outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity-run-01/research-checkpoint-reopened-015.json",
+    "at": "2026-10-14T11:43:08.379833+08:00",
     "research_status": "active",
-    "candidate": "TKEL-depth-response-inverse-closure",
+    "candidate": "finitebin-background-template-covariance",
     "course_state": "next14/count13 unchanged"
   },
   "reopened_publications": [
@@ -1349,6 +1343,127 @@
       },
       "published_at": "2026-10-14T09:16:42.398400+08:00",
       "window_remains_active": true
+    },
+    {
+      "branch": "main",
+      "commit_subject": "Add DAY13 exact feeding ambiguity and recoil limits",
+      "commit_hash": "53ab2f3dde9f007b0c48cdefc0234d2f5bbfb56e",
+      "status": "published-active-checkpoint",
+      "scope": "active checkpoint; no new credit or research closeout",
+      "files": [
+        "knowledge/methods/doppler-correction.md",
+        "knowledge/synthesis/doppler-velocity-validation-contract.md",
+        "outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity-run-01/cascade-recoil-degeneracy-check-recall.md",
+        "outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity-run-01/cascade-recoil-response-exercise.json",
+        "outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity-run-01/continuation-prompt.md",
+        "outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity-run-01/exact-feeding-entry-history-exercise.json",
+        "outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity-run-01/exact-feeding-entry-history-recall.md",
+        "outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity-run-01/reopened-checkpoint-audit-010.json",
+        "outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity-run-01/reopened-publication-h3-009.json",
+        "outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity-run-01/reopened-publication-manifest-010.json",
+        "outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity-run-01/research-checkpoint-reopened-013.json",
+        "outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity-run-01/run.json",
+        "outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity.md",
+        "system/handoff.md",
+        "system/log.md",
+        "system/scripts/day13_cascade_recoil_response.py",
+        "system/scripts/day13_exact_feeding_history.py"
+      ],
+      "H3_observed_commands": [
+        {
+          "argv": [
+            "git",
+            "fetch",
+            "origin",
+            "main"
+          ],
+          "exit_code": 0,
+          "stdout": "",
+          "stderr": "From gitee.com:chx6/silicon_graduate\n * branch            main       -> FETCH_HEAD\n"
+        },
+        {
+          "argv": [
+            "git",
+            "merge-base",
+            "--is-ancestor",
+            "origin/main",
+            "HEAD"
+          ],
+          "exit_code": 0,
+          "stdout": "",
+          "stderr": ""
+        },
+        {
+          "argv": [
+            "git",
+            "push",
+            "--dry-run",
+            "origin",
+            "HEAD:main"
+          ],
+          "exit_code": 0,
+          "stdout": "",
+          "stderr": "To gitee.com:chx6/silicon_graduate.git\n   974d163..53ab2f3  HEAD -> main\n"
+        },
+        {
+          "argv": [
+            "git",
+            "push",
+            "origin",
+            "HEAD:main"
+          ],
+          "exit_code": 0,
+          "stdout": "",
+          "stderr": "remote: Powered by \u001b[01;33mGITEE.COM \u001b[0m[1.1.23]        \nremote: Set trace flag 284ea684        \nTo gitee.com:chx6/silicon_graduate.git\n   974d163..53ab2f3  HEAD -> main\n"
+        }
+      ],
+      "post_commit_reconciliation": {
+        "manifest_matches_commit": true,
+        "handoff_pointer_matches": true,
+        "origin_main_matches_HEAD": true,
+        "index_empty": true
+      },
+      "published_at": "2026-10-14T10:14:25.930217+08:00",
+      "window_remains_active": true
     }
-  ]
+  ],
+  "observed_clock_executions": [
+    {
+      "clock_event_id": "checkpoint-001",
+      "same_session_id": "01a13489-64ba-7930-9a2c-291375d95ad0",
+      "observed_at": "2026-10-14T12:00:52.124160+08:00",
+      "queued_snapshot_at": "2026-10-13T21:11:03.027972+08:00",
+      "delivery_observed": true,
+      "receipt_status_at_execution": "running",
+      "actual_clock_tool_UTC": "2026-10-14 03:59:55 UTC",
+      "decision": "continue-existing-Day13-analysis"
+    }
+  ],
+  "observed_clock_checkpoint_001": {
+    "at": "2026-10-14T12:00:52.124160+08:00",
+    "research_status": "active",
+    "candidate_pool": [
+      {
+        "id": "finitebin-background-template-covariance",
+        "status": "selected-current",
+        "expected_gain": "test bin-integral/rebin effects and correlated nuisance uncertainty",
+        "evidence": "BC84 original report Eqs.1–8; CM21/ZA23 already-read methods; entry-gate synthetic kernel"
+      },
+      {
+        "id": "actual-oxygen-refit",
+        "status": "not-ready",
+        "missing": "events/response/joint grids/executed code/data covariance"
+      },
+      {
+        "id": "Day14-preview",
+        "status": "existing-uncredited-preview",
+        "credit": "none; no formal14 or15"
+      }
+    ],
+    "next_action": "publish staged depth/code checkpoint then design finite-bin tests",
+    "source_locators": "canonical BC84/CM21/ZA23 cards retain version and shared-data boundaries",
+    "farmer": "PID8686 alive; state recovered to running",
+    "clock_supervisor": "PID22006 exited at11:51; preserved historical status; no restart",
+    "resume_command": "codex resume 01a13489-64ba-7930-9a2c-291375d95ad0 -C /workspace/wiki -s danger-full-access -a never"
+  }
 }

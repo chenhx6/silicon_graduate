@@ -1680,3 +1680,8 @@ RFphase/A-q alias、独立energy反证与BC84直接方法/计数/区域设计已
 ## 2026-10-14T09:39 — DAY13 exact feeding and recoil checkpoint
 
 全properwaiting120/60fs/50%identity与Lorentz/cascade recoilresponse限制完成自设推导/独立MC/守恒/limits，sourceactualτ不重拟合、tag分母与angular/commonK明确。118items/31mappedpaths，lint0errors/126warnings及边界/报告/课程/保护/状态/diff通过，原windowactive，下一TKEL/depthclosure。main / `Add DAY13 exact feeding ambiguity and recoil limits`。
+
+
+## 2026-10-14T11:43 — DAY13 depth and code contract checkpoint
+
+Depth特殊极限和historicalNPTool object/单位/getter/mass/caller审计及selfsanity写回；不反推实际τ/软件执行，currentGitLab网络failure保留，CM21 table已合并解析。126items/32mappedpaths、lint0errors/128warnings与路径/报告/课程/保护/状态/diff通过，18rawslots未填充。原windowactive至15:00，下一finitebin/background/templateΣ，course不重计。main / `Audit DAY13 depth priors and recoil velocity code contracts`。

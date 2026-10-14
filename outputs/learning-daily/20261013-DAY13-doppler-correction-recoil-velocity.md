@@ -25,6 +25,8 @@ updated: 2026-10-14
 - 2026-10-13 21:06 起，用户要求持续学习，原 session/截止不变；状态为 active-Day13。既有卡学分保留，不重复推进 next14/count13。上一段17:51提前收束仅记历史，后续已恢复更广的 Day13 方法问题。
 - 本次课程交付完整；实验重拟合仍 not-ready，见下面的数据边界。Day 14 只有知识预习，没有该卡 completion audit、正式周考学分或课程跨越。
 
+- 时钟 checkpoint-001 已于 `2026-10-14T12:00:52.124160+08:00` 在原 session 实际接收并记入 observed_clock_executions；余 179.1 分钟，继续当前 DAY13 分析。原 clock supervisor 11:51 退出，farmer 已观察到会话 running；按提醒保持 daemon 不重启，用会话内 clock tool 判断截止。
+
 ### Day 13 card completion audit
 
 | Day-matrix deliverable | Evidence locator / artifact | Status |
@@ -360,6 +362,26 @@ Canonical公式/条件/反证已写[[doppler-correction]]与validation-contract�
 自设A20/gap1MeV/Eγ2396.1keV，feed-only recoilσ.07425keV，50%mix+σ2keV后2.000689keV；fixedresponseKL1.187e−7/photon，未知mean/σ时KL<1e−12数值未分辨。任一expected2N×KL都只是chosenmodel/count的designmetric，无realχ²/CL或sourceprecision声明。代码特意用parentreference遗漏kick，不代表实际VAMOS已采用该reference；foiltransport/cascade角关联未模拟。
 
 推导/参数/表/反证同步到[[doppler-correction]]与validation-contract。Upper photon/independententrytag、真正responseΣ仍是必要伴随条件；不从理论上理想退化被打破就断言真实数据能区分。原window仍active；下一TKEL/depthclosure尚pending，不计新卡。
+
+
+### Depth/exitvelocity 的特殊极限closure
+
+设计前回忆tkel-depth-response-recall.md；generic20u/共线foil4um/beam100/channel4MeV/constantS2.5、三depthprior、trueτ80fs的selfmodel已执行。三prior均final86MeV/β.09575459，初分布/γhistory不同；wronguniform fixedE τ80/42.59/172.82fs，profileE τ80/40.05/190.73fs（uniform/front/back），残余KL非零可被完整shape/control反证。Uniform一个optimizerstart nonsuccess已留flag，另两恢复truth，不隐去数值失败。
+
+properclock与路径积分、500k/每prior独立MC、归一化/quad和long/no-loss通过。SourceCM21-21正式targettilt45degree/θφaperture新atomiclocator与已有100layer/TKEL/stop一并写回，实际geometry并不满足toy共线条件。仅说明measurement/prior/independententry的关系，不估真实sourcebias，不解释150/70，L4refit仍not-ready。
+
+知识与表同步[[doppler-correction]]/validation-contract/sourcecard；原window仍active、next14/count13不变。重建候选池后，下一高信息route可转particle-assistedkinematics的publicsoftwareobject/units/stage，以及有限bin/background/templateΣ；已完成物理toys不重复。
+
+
+### Particle-assisted kinematics 的历史publiccodeobject审计
+
+来源前回忆nptool-code-object-source-before-recall.md。公开GithubREADME核实迁向GitLab，后继API ConnectionError/page timeout，故只审2019NPTool.2.dev pinnedobject；source/mainheader/selectedNucleus/units/constants/license均按Gitblob+SHA256验证，thirdpartysource未build/execute。Canonical [[nptool-2019-reaction-velocity-code-object]]明示readscope/commit与sourcepaperexecutionunknown，raw仍保留未填充。
+
+直接代码证据：输入light动能MeV/角rad、beamtotalT、beam+z/targetrest/planey0；P4=Ptotal−P3，Ex相对配置Mass。Reaction4vector和Nucleus对象更新不同；NucleusMass含Ex，SetEnergyImpulse从E与对象Mass重算scalarβ，TOF为inverse-speed s/m、velocitycm/ns、Bρ默认Q=Z。Actualcaller/φrotation/mass/beamvertex/energycorrection/stage不能由库名保证，getter互相转换不新增independentclock。
+
+自设20u/Ex4.071/trueβ.126的mass-shellsanity，错误groundMass重算β.127695、chosen2396.1keV/150°校正偏+3.695keV；正确mass与P/E一致。mass19u下8AMeV须total152，两个单位选择的nominalbeamβ.130223/.030057；β.1的derivedper-lengthT与D8m转换266.851ns。Genericendothermic5MeV/T10的labtotalEhelper通过而invariantthreshold55.0067未过，限定helper/branch/domain需核。全部是physicalcounterfactual，不是源代码执行或真实e775/150-70差异诊断。
+
+公式、producer/schema/单位表和数值已同步knowledge，source/author/code-model/任务推断分层。CM21 source table原14–21row被空行隔断的格式已经合并，所有已核claim现在纳入机器governance检查；事实/状态未升级human-reviewed。Next14/count13不变，研究仍active；下一有限bin/背景与templateΣroute有高信息工作，未formal打开其它日卡。
 
 ## Durable knowledge delta
 
@@ -3466,6 +3488,286 @@ Canonical公式/条件/反证已写[[doppler-correction]]与validation-contract�
           "locator": "T12C-2"
         }
       ]
+    },
+    {
+      "knowledge": "knowledge/methods/doppler-correction.md",
+      "anchor": "等有效停止率下，末速度缺少反应深度信息",
+      "summary": "自设equal-S/共线/三prior的exitblindness、properclock、错priorτ/E与MC/quadclosure；实际倾斜/contrast/entry可排除极限。",
+      "sources": [
+        {
+          "path": "knowledge/sources/ciemala-2021-deep-inelastic-lifetime-method.md",
+          "locator": "CM21-6"
+        },
+        {
+          "path": "knowledge/sources/ciemala-2021-deep-inelastic-lifetime-method.md",
+          "locator": "CM21-7"
+        },
+        {
+          "path": "knowledge/sources/ciemala-2021-deep-inelastic-lifetime-method.md",
+          "locator": "CM21-19"
+        },
+        {
+          "path": "knowledge/sources/ciemala-2021-deep-inelastic-lifetime-method.md",
+          "locator": "CM21-21"
+        },
+        {
+          "path": "knowledge/sources/zanon-2023-o20-high-precision.md",
+          "locator": "ZA23-2"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/sources/ciemala-2021-deep-inelastic-lifetime-method.md",
+      "anchor": "CM21-21",
+      "summary": "正式版targettilt45和VAMOSθ/φ接受字段，限定toy不可反写actualgeometry。",
+      "sources": [
+        {
+          "path": "knowledge/sources/ciemala-2021-deep-inelastic-lifetime-method.md",
+          "locator": "CM21-21"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/synthesis/doppler-velocity-validation-contract.md",
+      "anchor": "Depth prior 与末速度各自约束什么",
+      "summary": "measuredexit vsphysicalprior/独立entry，sameexitfit不新增独立input；actualsourcegeometry/Σ仍必要。",
+      "sources": [
+        {
+          "path": "knowledge/sources/ciemala-2021-deep-inelastic-lifetime-method.md",
+          "locator": "CM21-6"
+        },
+        {
+          "path": "knowledge/sources/ciemala-2021-deep-inelastic-lifetime-method.md",
+          "locator": "CM21-7"
+        },
+        {
+          "path": "knowledge/sources/ciemala-2021-deep-inelastic-lifetime-method.md",
+          "locator": "CM21-19"
+        },
+        {
+          "path": "knowledge/sources/ciemala-2021-deep-inelastic-lifetime-method.md",
+          "locator": "CM21-21"
+        },
+        {
+          "path": "knowledge/sources/zanon-2023-o20-high-precision.md",
+          "locator": "ZA23-2"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/sources/nptool-2019-reaction-velocity-code-object.md",
+      "anchor": "Summary",
+      "summary": "固定历史源码对象/hash/单位/frame/gettercontract；Github迁站与network边界，不attest论文执行。",
+      "sources": [
+        {
+          "path": "knowledge/sources/nptool-2019-reaction-velocity-code-object.md",
+          "locator": "NP19-1"
+        },
+        {
+          "path": "knowledge/sources/nptool-2019-reaction-velocity-code-object.md",
+          "locator": "NP19-2"
+        },
+        {
+          "path": "knowledge/sources/nptool-2019-reaction-velocity-code-object.md",
+          "locator": "NP19-3"
+        },
+        {
+          "path": "knowledge/sources/nptool-2019-reaction-velocity-code-object.md",
+          "locator": "NP19-4"
+        },
+        {
+          "path": "knowledge/sources/nptool-2019-reaction-velocity-code-object.md",
+          "locator": "NP19-5"
+        },
+        {
+          "path": "knowledge/sources/nptool-2019-reaction-velocity-code-object.md",
+          "locator": "NP19-6"
+        },
+        {
+          "path": "knowledge/sources/nptool-2019-reaction-velocity-code-object.md",
+          "locator": "NP19-7"
+        },
+        {
+          "path": "knowledge/sources/nptool-2019-reaction-velocity-code-object.md",
+          "locator": "NP19-8"
+        },
+        {
+          "path": "knowledge/sources/nptool-2019-reaction-velocity-code-object.md",
+          "locator": "NP19-9"
+        },
+        {
+          "path": "knowledge/sources/nptool-2019-reaction-velocity-code-object.md",
+          "locator": "NP19-10"
+        },
+        {
+          "path": "knowledge/sources/nptool-2019-reaction-velocity-code-object.md",
+          "locator": "NP19-11"
+        },
+        {
+          "path": "knowledge/sources/nptool-2019-reaction-velocity-code-object.md",
+          "locator": "NP19-12"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/methods/doppler-correction.md",
+      "anchor": "固定代码对象的velocity字段：输入、状态和单位",
+      "summary": "beam/light/data/prior到P4的依赖、container/cache/mass、derivedTOF/velocity、caller frame与stage归属。",
+      "sources": [
+        {
+          "path": "knowledge/sources/nptool-2019-reaction-velocity-code-object.md",
+          "locator": "NP19-1"
+        },
+        {
+          "path": "knowledge/sources/nptool-2019-reaction-velocity-code-object.md",
+          "locator": "NP19-2"
+        },
+        {
+          "path": "knowledge/sources/nptool-2019-reaction-velocity-code-object.md",
+          "locator": "NP19-3"
+        },
+        {
+          "path": "knowledge/sources/nptool-2019-reaction-velocity-code-object.md",
+          "locator": "NP19-4"
+        },
+        {
+          "path": "knowledge/sources/nptool-2019-reaction-velocity-code-object.md",
+          "locator": "NP19-5"
+        },
+        {
+          "path": "knowledge/sources/nptool-2019-reaction-velocity-code-object.md",
+          "locator": "NP19-6"
+        },
+        {
+          "path": "knowledge/sources/nptool-2019-reaction-velocity-code-object.md",
+          "locator": "NP19-7"
+        },
+        {
+          "path": "knowledge/sources/nptool-2019-reaction-velocity-code-object.md",
+          "locator": "NP19-8"
+        },
+        {
+          "path": "knowledge/sources/nptool-2019-reaction-velocity-code-object.md",
+          "locator": "NP19-9"
+        },
+        {
+          "path": "knowledge/sources/nptool-2019-reaction-velocity-code-object.md",
+          "locator": "NP19-10"
+        },
+        {
+          "path": "knowledge/sources/nptool-2019-reaction-velocity-code-object.md",
+          "locator": "NP19-11"
+        },
+        {
+          "path": "knowledge/sources/nptool-2019-reaction-velocity-code-object.md",
+          "locator": "NP19-12"
+        },
+        {
+          "path": "knowledge/sources/zanon-2023-o20-high-precision.md",
+          "locator": "ZA23-2"
+        },
+        {
+          "path": "knowledge/sources/assie-2021-mugast-agata-vamos.md",
+          "locator": "AS21-9"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/methods/doppler-correction.md",
+      "anchor": "质量状态与invariantβ的quant sanity",
+      "summary": "自设on-shellP/mass不匹配3.695keV、MeV/per-A/pathunits和invariantthreshold；不是第三方执行或sourcebias。",
+      "sources": [
+        {
+          "path": "knowledge/sources/nptool-2019-reaction-velocity-code-object.md",
+          "locator": "NP19-2"
+        },
+        {
+          "path": "knowledge/sources/nptool-2019-reaction-velocity-code-object.md",
+          "locator": "NP19-6"
+        },
+        {
+          "path": "knowledge/sources/nptool-2019-reaction-velocity-code-object.md",
+          "locator": "NP19-7"
+        },
+        {
+          "path": "knowledge/sources/nptool-2019-reaction-velocity-code-object.md",
+          "locator": "NP19-8"
+        },
+        {
+          "path": "knowledge/sources/nptool-2019-reaction-velocity-code-object.md",
+          "locator": "NP19-12"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/synthesis/doppler-velocity-validation-contract.md",
+      "anchor": "Code object、caller与测量binding",
+      "summary": "固定对象audit与actualcaller/dataset不同；sameinput派生字段非independent测量，L4仍需binding/Σ。",
+      "sources": [
+        {
+          "path": "knowledge/sources/nptool-2019-reaction-velocity-code-object.md",
+          "locator": "NP19-2"
+        },
+        {
+          "path": "knowledge/sources/nptool-2019-reaction-velocity-code-object.md",
+          "locator": "NP19-3"
+        },
+        {
+          "path": "knowledge/sources/nptool-2019-reaction-velocity-code-object.md",
+          "locator": "NP19-4"
+        },
+        {
+          "path": "knowledge/sources/nptool-2019-reaction-velocity-code-object.md",
+          "locator": "NP19-5"
+        },
+        {
+          "path": "knowledge/sources/nptool-2019-reaction-velocity-code-object.md",
+          "locator": "NP19-6"
+        },
+        {
+          "path": "knowledge/sources/nptool-2019-reaction-velocity-code-object.md",
+          "locator": "NP19-7"
+        },
+        {
+          "path": "knowledge/sources/nptool-2019-reaction-velocity-code-object.md",
+          "locator": "NP19-8"
+        },
+        {
+          "path": "knowledge/sources/nptool-2019-reaction-velocity-code-object.md",
+          "locator": "NP19-10"
+        },
+        {
+          "path": "knowledge/sources/nptool-2019-reaction-velocity-code-object.md",
+          "locator": "NP19-12"
+        },
+        {
+          "path": "knowledge/sources/zanon-2023-o20-high-precision.md",
+          "locator": "ZA23-2"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/index.md",
+      "anchor": "nptool-2019-reaction-velocity-code-object",
+      "summary": "历史codeobject导航、byte/stage与current/experimentversion边界。",
+      "sources": [
+        {
+          "path": "knowledge/sources/nptool-2019-reaction-velocity-code-object.md",
+          "locator": "NP19-1"
+        },
+        {
+          "path": "knowledge/sources/nptool-2019-reaction-velocity-code-object.md",
+          "locator": "NP19-2"
+        },
+        {
+          "path": "knowledge/sources/nptool-2019-reaction-velocity-code-object.md",
+          "locator": "NP19-7"
+        },
+        {
+          "path": "knowledge/sources/nptool-2019-reaction-velocity-code-object.md",
+          "locator": "NP19-8"
+        }
+      ]
     }
   ]
 }
@@ -3489,6 +3791,8 @@ Canonical公式/条件/反证已写[[doppler-correction]]与validation-contract�
 | L4 | experimental refit `not-ready`：缺事件、production code、ring spectra、response/covariance和feeding；模拟练习不作为新实验L4或absolute-strength研究。 |
 
 ## Verification and continuation
+
+最新活动检查（2026-10-14T11:43:08.379833+08:00，余196.9分钟）：126items/32mappedpaths（31owningpages）。Depth/exit/clock/MC/quad与pinned2019NPTool object source/units/mass/state/context sanity均通过；Gitblob/SHA、successornetworkfailure/未build/rawbound已记录。CM21 fragmentedtable修复后21claims均machineparsed。Lint0errors/128warnings（107citationkeys、18rawslots、3parser）、boundary/report/card/writeback/protected/state/diff通过。原window仍active至15:00，不推进课程；下一有限bin/背景/templateΣ，不开formal14/15。
 
 最新活动检查（2026-10-14T09:39:59.057803+08:00，余320.0分钟）：118items/31mappedpaths，exactfeeding全density/Laplace/600kMC及cascade recoil的mass-shell/两boost/角moments/600kMC/limits通过。Tag分母明确pre-angular/unit4π；commonK须含alignment/角关联，recoil模型constantflight不作foilτ重拟合。Lint0errors/126warnings，boundary/report/card/writeback/protected/state/diff通过。原run/goal仍active至15:00，下一TKEL/depth/responseclosure仍pending，不开formal14/15。
 

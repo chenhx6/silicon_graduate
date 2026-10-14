@@ -1,0 +1,31 @@
+{
+  "branch": "main",
+  "subject": "Audit DAY13 depth priors and recoil velocity code contracts",
+  "scope": "active checkpoint; no new credit or research closeout",
+  "files": [
+    "knowledge/index.md",
+    "knowledge/methods/doppler-correction.md",
+    "knowledge/sources/ciemala-2021-deep-inelastic-lifetime-method.md",
+    "knowledge/sources/zanon-2023-o20-high-precision.md",
+    "knowledge/sources/nptool-2019-reaction-velocity-code-object.md",
+    "knowledge/synthesis/doppler-velocity-validation-contract.md",
+    "outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity.md",
+    "outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity-run-01/run.json",
+    "system/handoff.md",
+    "system/log.md",
+    "system/scripts/day13_depth_prior_velocity.py",
+    "outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity-run-01/tkel-depth-response-recall.md",
+    "outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity-run-01/depth-prior-velocity-exercise.json",
+    "outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity-run-01/nptool-code-object-source-before-recall.md",
+    "outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity-run-01/nptool-code-object-checkpoint.json",
+    "outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity-run-01/nptool-object-contract-physics-check.json",
+    "outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity-run-01/reopened-checkpoint-audit-011.json",
+    "outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity-run-01/reopened-checkpoint-audit-012.json",
+    "outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity-run-01/research-checkpoint-reopened-014.json",
+    "outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity-run-01/research-checkpoint-reopened-015.json",
+    "outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity-run-01/reopened-publication-h3-010.json",
+    "outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity-run-01/continuation-prompt.md",
+    "outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity-run-01/reopened-publication-manifest-011.json"
+  ],
+  "excluded": "inherited Day6–9/daemon/log, raw/PLAN/credentials, tmp/runtimeclock files"
+}

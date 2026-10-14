@@ -9,6 +9,8 @@ updated: 2026-10-14
 
 ## Sources
 
+- [[nptool-2019-reaction-velocity-code-object]] - 固定2019公开对象的反应点4vector、getter/mass状态、MeV/rad/velocity/TOF单位和branch/domain边界；不是actualpaper/currentversion。
+
 - [[baker-cousins-1984-histogram-fits]] - UCLA/KEK22页原报告：Poisson/Neyman/Pearson、bin积分、free-scale/area与point/interval/GOF条件；finiteN不保证无偏。
 
 - [[ciemala-2021-deep-inelastic-lifetime-method]] - 同2017data的TKEL递归/100层靶、DC-loss/longline速度tuning和τ/Tcross极限；v1标签由publisher澄清、80%/cumulative与90°适用边界。
