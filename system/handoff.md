@@ -8,6 +8,9 @@ updated: 2026-10-14
 
 ## Active handoff — DAY13 continuous study reopened by user
 
+DAY13内容已通过H3并发布/对账（2026-10-14T15:15:14.362374+08:00）。科学稳定指针 main / `Finalize DAY13 statistical and velocity validation contracts`；完成回执指针 main / `Record DAY13 completion after published closeout`，精确hash与实际命令仅runreceipt。Research/卡已complete、state14/count13保留；run completed只交付或讨论既有DAY13。原sourceflags/raw/PLAN/继承修改保留，experimentalrefit仍notready。
+
+
 最终收束（2026-10-14T15:04:21.971452+08:00，原研究截止15:00已观察）：同run/session的DAY13当前分析完成，之后closeout-only。唯一writeback155items/32mappedpaths，十项新统计/速度exercise与12项来源后复述；sourceCM21-22明确aftertarget .4/.7%为tuning幅度非σ。Jointpair/τprofile/投影、错entry/独立tag、latecontrolmean/mode/vertex/frame均分层，不解释真实20O150/70fs或建立新A130strength/mode。Lint0errors/128warnings（18rawslots未填、107citekeys、3parser）及report/card/writeback/protected/dependency/datahash/AST/state/diff通过。
 
 最终稳定指针 main / `Finalize DAY13 statistical and velocity validation contracts`；exacthash/H3/reconciliation只在本run receipt。46-filemanifest排除raw/PLAN/credentials/tmp和继承Day6–9/daemon/旧log；log仅HEAD+taskentrypatch。Credit保持next14/count13，completed13/partial14；正常finalizer不可重复计卡，正式Day14prompt已存在。Clockcheckpoint001已实际ack；farmer8686保留、旧clock22006已退出不重启。Scopeincident：恢复矩阵context意外显示Day15标题/一行任务，未研究或计卡，已如实自审。ExperimentalL4仍notready。

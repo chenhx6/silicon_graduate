@@ -29,6 +29,8 @@ updated: 2026-10-14
 
 - 最终研究收束：`2026-10-14T15:04:21.971452+08:00` 观察到原15:00截止，之后仅做closeout；当前DAY13分析与source/model/independence/readiness审核完整，课程保持next14/count13。发布稳定指针：main / `Finalize DAY13 statistical and velocity validation contracts`，精确结果见run receipt。
 
+- 最终内容已发布：main / `Finalize DAY13 statistical and velocity validation contracts`；fresh fetch/ancestry/dry-run/HEAD:main push均exit0，manifest与提交、远端HEAD、handoff指针核对通过（2026-10-14T15:15:14.362374+08:00）。完成回执另以main / `Record DAY13 completion after published closeout`保存；课程state原值已对账，无重复计卡。
+
 ### Day 13 card completion audit
 
 | Day-matrix deliverable | Evidence locator / artifact | Status |

@@ -20,7 +20,7 @@
   "session_reuse": false,
   "session_scope": "one-new-session-for-each-schedule-run",
   "codex_home": "/root/.codex",
-  "status": "closing-out",
+  "status": "completed",
   "started_at": "2026-10-13T17:12:58.564161+08:00",
   "report": "/workspace/wiki/outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity.md",
   "completed_day_indices": [
@@ -395,7 +395,7 @@
     "fast": false,
     "debug_rounds": 1
   },
-  "finished_at": null,
+  "finished_at": "2026-10-14T15:15:14.362374+08:00",
   "next_day_index": 14,
   "completed_day_count": 13,
   "next_prompt_file": "/workspace/wiki/outputs/learning-daily/prompts/20261014-DAY14-week-two-spectrum-to-level-scheme-exam.md",
@@ -440,10 +440,31 @@
       "no_additional_credit": true
     }
   ],
-  "research_status": "closed-at-original-hard-deadline",
-  "final_audit_current": false,
+  "research_status": "completed-after-original-deadline",
+  "final_audit_current": {
+    "at": "2026-10-14T15:15:14.362374+08:00",
+    "status": "completed",
+    "state_next": 14,
+    "completed_count": 13,
+    "knowledge_clean": true,
+    "protected_hashes_matched": true,
+    "content_published": true,
+    "manual_course_reconciled_without_increment": true,
+    "post_commit_reconciliation": {
+      "manifest_matches_commit": true,
+      "origin_main_matches_HEAD": true,
+      "index_empty": true,
+      "handoff_pointer_matches": true,
+      "no_PROTECTED_path_committed": true
+    },
+    "legacy_changes_preserved": true,
+    "scope_incident_recorded": true,
+    "report_and_continuation_saved": true,
+    "final_receipt_publication": "prepared; contentpublicationalreadyconfirmed"
+  },
   "goal_completion_current": {
-    "status": "active-until-final-publication-and-reconciliation"
+    "status": "pending-native-goal-finalization-after-receipt-publication",
+    "same_original_objective": true
   },
   "last_research_checkpoint": {
     "now_local": "2026-10-14T05:57:51.878940+08:00",
@@ -1876,9 +1897,10 @@
     "ten_analyses_all_passed": true,
     "raw_PLAN_diff_empty": true,
     "diff_check_exit": 0,
-    "report_sha256": "8d0f83abddfd801bd71ef87f19f60c76ce866de9337c1b30a6726ca8144bf3dd",
+    "report_sha256": "aa5791a28ff32443e9ee09ec2d2b796f3004f799f11520dedd6fe2eb0f20932c",
     "CM21_published_hash_verified": true,
-    "new_day_credit": false
+    "new_day_credit": false,
+    "final_publish_status": "contentpublished"
   },
   "curriculum_final_reconciliation": {
     "policy": "preserve alreadycreditedDay13 after requiredfinalpublication; do not increment again",
@@ -1896,7 +1918,119 @@
   "final_publication": {
     "branch": "main",
     "commit_subject": "Finalize DAY13 statistical and velocity validation contracts",
-    "status": "content-verified-awaiting-explicitstage-H3",
-    "manifest": "outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity-run-01/reopened-publication-manifest-012.json"
+    "commit_hash": "32226dc761fb1478173533d5ee11630a593b4eb9",
+    "scope": "finalDAY13content; alreadycreditedcoursepreserved",
+    "status": "published-final-content",
+    "files": [
+      "knowledge/methods/doppler-correction.md",
+      "knowledge/methods/gamma-gamma-coincidence.md",
+      "knowledge/projects/a130-thesis-evidence-matrix.md",
+      "knowledge/questions.md",
+      "knowledge/sources/ciemala-2021-deep-inelastic-lifetime-method.md",
+      "knowledge/synthesis/doppler-velocity-validation-contract.md",
+      "outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity.md",
+      "system/handoff.md",
+      "system/log.md",
+      "outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity-run-01/run.json",
+      "outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity-run-01/continuation-prompt.md",
+      "outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity-run-01/reopened-publication-h3-011.json",
+      "outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity-run-01/finite-bin-covariance-design-recall.md",
+      "outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity-run-01/finite-bin-validation-attempts.json",
+      "outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity-run-01/finite-bin-lineshape-exercise.json",
+      "outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity-run-01/shared-background-covariance-exercise.json",
+      "outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity-run-01/finite-template-covariance-exercise.json",
+      "outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity-run-01/adaptive-bin-observation-exercise.json",
+      "outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity-run-01/event-overlap-information-exercise.json",
+      "outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity-run-01/nonlinear-interval-closure-exercise.json",
+      "outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity-run-01/velocity-nuisance-interval-exercise.json",
+      "outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity-run-01/velocity-region-semantics-exercise.json",
+      "outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity-run-01/long-control-velocity-estimator-exercise.json",
+      "outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity-run-01/calibration-applicability-audit-exercise.json",
+      "outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity-run-01/statistical-velocity-analysis-manifest.json",
+      "outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity-run-01/finite-template-source-access-boundary.json",
+      "outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity-run-01/day13-post-study-recall.md",
+      "outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity-run-01/reopened-checkpoint-audit-013.json",
+      "outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity-run-01/reopened-checkpoint-audit-014.json",
+      "outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity-run-01/research-checkpoint-reopened-016.json",
+      "outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity-run-01/research-checkpoint-reopened-017.json",
+      "outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity-run-01/research-checkpoint-reopened-018.json",
+      "outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity-run-01/research-checkpoint-reopened-019.json",
+      "outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity-run-01/reopened-publication-manifest-012.json",
+      "outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity-run-01/reopened-final-closeout-audit.json",
+      "outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity-run-01/reopened-research-deadline-closeout.json",
+      "system/scripts/day13_finite_bin_lineshape.py",
+      "system/scripts/day13_shared_background_covariance.py",
+      "system/scripts/day13_finite_template_covariance.py",
+      "system/scripts/day13_adaptive_bin_observation.py",
+      "system/scripts/day13_event_overlap_information.py",
+      "system/scripts/day13_nonlinear_interval_closure.py",
+      "system/scripts/day13_velocity_nuisance_interval.py",
+      "system/scripts/day13_velocity_region_semantics.py",
+      "system/scripts/day13_long_control_velocity_estimator.py",
+      "system/scripts/day13_calibration_applicability_audit.py"
+    ],
+    "H3_observed_commands": [
+      {
+        "argv": [
+          "git",
+          "fetch",
+          "origin",
+          "main"
+        ],
+        "exit_code": 0,
+        "stdout": "",
+        "stderr": "From gitee.com:chx6/silicon_graduate\n * branch            main       -> FETCH_HEAD\n"
+      },
+      {
+        "argv": [
+          "git",
+          "merge-base",
+          "--is-ancestor",
+          "origin/main",
+          "HEAD"
+        ],
+        "exit_code": 0,
+        "stdout": "",
+        "stderr": ""
+      },
+      {
+        "argv": [
+          "git",
+          "push",
+          "--dry-run",
+          "origin",
+          "HEAD:main"
+        ],
+        "exit_code": 0,
+        "stdout": "",
+        "stderr": "To gitee.com:chx6/silicon_graduate.git\n   a00cce6..32226dc  HEAD -> main\n"
+      },
+      {
+        "argv": [
+          "git",
+          "push",
+          "origin",
+          "HEAD:main"
+        ],
+        "exit_code": 0,
+        "stdout": "",
+        "stderr": "remote: Powered by \u001b[01;33mGITEE.COM \u001b[0m[1.1.23]        \nremote: Set trace flag d04c89bf        \nTo gitee.com:chx6/silicon_graduate.git\n   a00cce6..32226dc  HEAD -> main\n"
+      }
+    ],
+    "no_credential_or_git_config_changes": true,
+    "published_at": "2026-10-14T15:12:19.437186+08:00",
+    "post_commit_reconciliation": {
+      "manifest_matches_commit": true,
+      "origin_main_matches_HEAD": true,
+      "index_empty": true,
+      "handoff_pointer_matches": true,
+      "no_PROTECTED_path_committed": true
+    },
+    "native_goal_prepublication_observation": {
+      "status": "blocked",
+      "objective": "sameoriginalDay13",
+      "note": "get_goal returnedblocked at15:10; no newgoal/model/session; authorizedcloseout continues, completion onlyafterpublicationreconciliation"
+    },
+    "receipt_commit_target": "Record DAY13 completion after published closeout"
   }
 }
