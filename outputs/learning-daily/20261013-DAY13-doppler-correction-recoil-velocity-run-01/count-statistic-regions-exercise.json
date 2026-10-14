@@ -1,0 +1,162 @@
+{
+  "schema_version": 1,
+  "kind": "synthetic uniform count fit and regular Gaussian joint-region exercise",
+  "source_motivation": "ZA23-10 and CM21-17; own derivations, not source fit rerun",
+  "chosen_uniform_rate_model": {
+    "repetitions": 200000,
+    "bins": 32,
+    "expected_same_Poisson_mean_per_bin": true
+  },
+  "rate_cases": [
+    {
+      "chosen_true_rate_per_bin": 50.0,
+      "actual_minimum_observed_bin": 17,
+      "all_observed_bins_at_least10": true,
+      "estimators": [
+        {
+          "name": "Neyman harmonic mean",
+          "mean": 49.01109229575114,
+          "bias": -0.9889077042488594,
+          "mean_MC_standard_error": 0.002860218642081823,
+          "relative_bias": -0.019778154084977184
+        },
+        {
+          "name": "Pearson RMS",
+          "mean": 50.48193454407014,
+          "bias": 0.4819345440701426,
+          "mean_MC_standard_error": 0.002814655285926316,
+          "relative_bias": 0.00963869088140279
+        },
+        {
+          "name": "Poisson arithmetic mean",
+          "mean": 49.99974125,
+          "bias": -0.00025875000000041837,
+          "mean_MC_standard_error": 0.0028008642739103203,
+          "relative_bias": -5.174999999968399e-06
+        }
+      ]
+    },
+    {
+      "chosen_true_rate_per_bin": 100.0,
+      "actual_minimum_observed_bin": 50,
+      "all_observed_bins_at_least10": true,
+      "estimators": [
+        {
+          "name": "Neyman harmonic mean",
+          "mean": 99.01842957350246,
+          "bias": -0.9815704264975409,
+          "mean_MC_standard_error": 0.0039979180682503754,
+          "relative_bias": -0.009815704264975356
+        },
+        {
+          "name": "Pearson RMS",
+          "mean": 100.48029703935654,
+          "bias": 0.4802970393565431,
+          "mean_MC_standard_error": 0.003967054859354732,
+          "relative_bias": 0.0048029703935654755
+        },
+        {
+          "name": "Poisson arithmetic mean",
+          "mean": 99.99695609375,
+          "bias": -0.003043906249999395,
+          "mean_MC_standard_error": 0.003957430632773336,
+          "relative_bias": -3.0439062499998393e-05
+        }
+      ]
+    },
+    {
+      "chosen_true_rate_per_bin": 200.0,
+      "actual_minimum_observed_bin": 132,
+      "all_observed_bins_at_least10": true,
+      "estimators": [
+        {
+          "name": "Neyman harmonic mean",
+          "mean": 199.0368163713091,
+          "bias": -0.9631836286908992,
+          "mean_MC_standard_error": 0.005625715614689766,
+          "relative_bias": -0.004815918143454501
+        },
+        {
+          "name": "Pearson RMS",
+          "mean": 200.49357730019705,
+          "bias": 0.49357730019704604,
+          "mean_MC_standard_error": 0.005604023510460512,
+          "relative_bias": 0.0024678865009852835
+        },
+        {
+          "name": "Poisson arithmetic mean",
+          "mean": 200.00998328125,
+          "bias": 0.00998328124998693,
+          "mean_MC_standard_error": 0.00559755354586249,
+          "relative_bias": 4.99164062499613e-05
+        }
+      ]
+    }
+  ],
+  "chosen_Gaussian_region_model": {
+    "tau_sigma_fs": 10.0,
+    "energy_sigma_keV": 0.4,
+    "correlation": -0.8,
+    "covariance": [
+      [
+        100.0,
+        -3.2
+      ],
+      [
+        -3.2,
+        0.16000000000000003
+      ]
+    ],
+    "repetitions": 1000000
+  },
+  "region_cases": [
+    {
+      "chosen_delta_q": 1.0,
+      "joint_two_parameter_probability": 0.3934693402873666,
+      "joint_MC_probability": 0.393807,
+      "projected_tau_probability": 0.682689492137086,
+      "projected_tau_MC_probability": 0.683003,
+      "wrong_diagonal_metric_MC_probability": 0.483891
+    },
+    {
+      "chosen_delta_q": 2.3,
+      "joint_two_parameter_probability": 0.6833632306209467,
+      "joint_MC_probability": 0.684124,
+      "projected_tau_probability": 0.8706260011637018,
+      "projected_tau_MC_probability": 0.870656,
+      "wrong_diagonal_metric_MC_probability": 0.717416
+    },
+    {
+      "chosen_delta_q": 3.2188758248682006,
+      "joint_two_parameter_probability": 0.8,
+      "joint_MC_probability": 0.799977,
+      "projected_tau_probability": 0.927206393936367,
+      "projected_tau_MC_probability": 0.927066,
+      "wrong_diagonal_metric_MC_probability": 0.803292
+    },
+    {
+      "chosen_delta_q": 4.6,
+      "joint_two_parameter_probability": 0.8997411562771962,
+      "joint_MC_probability": 0.899749,
+      "projected_tau_probability": 0.9680280438223513,
+      "projected_tau_MC_probability": 0.968063,
+      "wrong_diagonal_metric_MC_probability": 0.881302
+    }
+  ],
+  "verification": {
+    "closed_form_score_equations_passed": true,
+    "unbiased_Poisson_MC_mean_passed": true,
+    "all_count_examples_observed_atleast10": true,
+    "joint_and_projection_MC_vs_analytic_passed": true,
+    "energy_profile_identity_passed": true,
+    "all_passed": true
+  },
+  "boundaries": [
+    "Uniform-rate normalization bias does not establish a bias in lifetime or transition energy.",
+    "Count examples show >=10 alone does not guarantee an unbiased estimator; source did not claim a theorem.",
+    "No data-dependent rebinning, background subtraction or finite-template uncertainty is simulated.",
+    "Gaussian regular controls do not convert published intervals or prove their coverage.",
+    "Actual histogram, normalization/background/response covariance and chi-square templates remain missing."
+  ],
+  "numpy_version": "2.5.3"
+}

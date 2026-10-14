@@ -1670,3 +1670,8 @@ Following the user question about the missing Day8 prompt, the formal Day8 card 
 ## 2026-10-14T08:17 — DAY13 oxygen lifetime and method checkpoint
 
 CI20/ZA23/CM21 main、SI与publisher版本完成；20O150/70fs独立comparison、entry/feeding/τ-E矩阵、finalinverse/stage、80%/cumulative与negativeevidence边界写回knowledge。Source-inspiredgatefeed/90control验证通过，107items/30mappedpaths、lint0errors/124warnings与boundary/report/card/protected/hash通过。DataCite注册核实，landingnetworkfailure保留，actualL4未ready；原windowactive不重计卡。main / `Audit DAY13 oxygen lifetimes and published method versions`。
+
+
+## 2026-10-14T08:56 — DAY13 RF and count-statistic checkpoint
+
+RFphase/A-q alias、独立energy反证与BC84直接方法/计数/区域设计已写回。114items/31mappedpaths、lint0errors/126warnings及边界/报告/课程/保护/哈希/diff通过；真实τ不重拟合、不改sourceerrors、17rawslots未填充。原windowactive，下一TKEL/depth/responseclosure；上段Gitee初次失败和安全retry真实记录保留。main / `Extend DAY13 RF aliases and histogram fit controls`。

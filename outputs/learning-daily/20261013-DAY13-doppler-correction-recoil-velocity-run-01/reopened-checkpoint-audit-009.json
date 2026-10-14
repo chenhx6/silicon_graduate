@@ -1,0 +1,138 @@
+{
+  "at": "2026-10-14T08:56:32.257106+08:00",
+  "status": "active-checkpoint-not-closeout",
+  "remaining_minutes": 363.46238156666664,
+  "original_deadline": "2026-10-14T15:00:00+08:00",
+  "writeback": {
+    "valid": true,
+    "mode": "updated",
+    "knowledge_paths": [
+      "knowledge/methods/doppler-correction.md",
+      "knowledge/sources/mavela-2019-32s-quadrupole-moment-doppler-correction-thesis.md",
+      "knowledge/sources/klemme-1999-lifetimes-134nd-neighbors.md",
+      "knowledge/sources/herzan-2015-193bi-spectroscopy.md",
+      "knowledge/methods/level-scheme-reconstruction.md",
+      "knowledge/projects/a130-thesis-evidence-matrix.md",
+      "knowledge/questions.md",
+      "knowledge/index.md",
+      "knowledge/sources/vandebrouck-2016-vamos-dual-position-mwpc.md",
+      "knowledge/sources/crespi-2013-agata-high-energy-doppler-response.md",
+      "knowledge/methods/tracking-array.md",
+      "knowledge/sources/aladili-2009-agata-doppler-simulation.md",
+      "knowledge/research-notes/doppler-forward-inverse-convention-check.md",
+      "knowledge/sources/akkoyun-2012-agata-instrument-response.md",
+      "knowledge/concepts/lorentz-boost-correction.md",
+      "knowledge/sources/longfellow-2026-gretina-energy-ordering-polarization.md",
+      "knowledge/sources/senyigit-2014-agata-neutron-rejection.md",
+      "knowledge/methods/gamma-gamma-coincidence.md",
+      "knowledge/sources/tunl-2017-12c-level-widths.md",
+      "knowledge/sources/soderstrom-2008-agata-position-design.md",
+      "knowledge/sources/crespi-2023-agata-tracking-performance.md",
+      "knowledge/sources/ljungvall-2020-agata-ganil-performance.md",
+      "knowledge/sources/assie-2021-mugast-agata-vamos.md",
+      "knowledge/synthesis/doppler-velocity-validation-contract.md",
+      "knowledge/sources/lemasson-2023-agata-vamos-fission-history.md",
+      "knowledge/sources/ciemala-2019-20o-dsam-analysis-status.md",
+      "knowledge/sources/ziliani-2019-agata-calibration-controls.md",
+      "knowledge/sources/ciemala-2020-c16-o20-lifetimes.md",
+      "knowledge/sources/zanon-2023-o20-high-precision.md",
+      "knowledge/sources/ciemala-2021-deep-inelastic-lifetime-method.md",
+      "knowledge/sources/baker-cousins-1984-histogram-fits.md"
+    ],
+    "changed_paths": [
+      "knowledge/concepts/lorentz-boost-correction.md",
+      "knowledge/index.md",
+      "knowledge/methods/doppler-correction.md",
+      "knowledge/methods/gamma-gamma-coincidence.md",
+      "knowledge/methods/level-scheme-reconstruction.md",
+      "knowledge/methods/tracking-array.md",
+      "knowledge/questions.md",
+      "knowledge/research-notes/doppler-forward-inverse-convention-check.md",
+      "knowledge/sources/akkoyun-2012-agata-instrument-response.md",
+      "knowledge/sources/aladili-2009-agata-doppler-simulation.md",
+      "knowledge/sources/assie-2021-mugast-agata-vamos.md",
+      "knowledge/sources/baker-cousins-1984-histogram-fits.md",
+      "knowledge/sources/ciemala-2019-20o-dsam-analysis-status.md",
+      "knowledge/sources/ciemala-2020-c16-o20-lifetimes.md",
+      "knowledge/sources/ciemala-2021-deep-inelastic-lifetime-method.md",
+      "knowledge/sources/crespi-2013-agata-high-energy-doppler-response.md",
+      "knowledge/sources/crespi-2023-agata-tracking-performance.md",
+      "knowledge/sources/lemasson-2023-agata-vamos-fission-history.md",
+      "knowledge/sources/ljungvall-2020-agata-ganil-performance.md",
+      "knowledge/sources/senyigit-2014-agata-neutron-rejection.md",
+      "knowledge/sources/soderstrom-2008-agata-position-design.md",
+      "knowledge/sources/tunl-2017-12c-level-widths.md",
+      "knowledge/sources/vandebrouck-2016-vamos-dual-position-mwpc.md",
+      "knowledge/sources/zanon-2023-o20-high-precision.md",
+      "knowledge/sources/ziliani-2019-agata-calibration-controls.md",
+      "knowledge/synthesis/doppler-velocity-validation-contract.md"
+    ],
+    "change_check": "run-snapshot",
+    "error": null
+  },
+  "report": {
+    "valid": true,
+    "missing_headings": []
+  },
+  "coverage": {
+    "valid": true,
+    "completed_day_indices": [
+      13
+    ],
+    "partial_day_indices": [
+      14
+    ],
+    "curriculum_cards_completed": 1,
+    "next_day_index": 14,
+    "error": null
+  },
+  "protected": {
+    "PLAN.md": true,
+    "raw/zotero/wiki-inbox.bib": true
+  },
+  "new_exercises": {
+    "rf-tof-alias-design-exercise.json": {
+      "period_difference_exact_passed": true,
+      "rigidity_and_phase_pair_closure_passed": true,
+      "independent_energy_removes_alias_in_chosen_model": true,
+      "modulo_period_invariance_passed": true,
+      "conditional_MC_variance_passed": true,
+      "exact_photon_roundtrip_passed": true,
+      "derivative_finite_difference_passed": true,
+      "all_passed": true
+    },
+    "count-statistic-regions-exercise.json": {
+      "closed_form_score_equations_passed": true,
+      "unbiased_Poisson_MC_mean_passed": true,
+      "all_count_examples_observed_atleast10": true,
+      "joint_and_projection_MC_vs_analytic_passed": true,
+      "energy_profile_identity_passed": true,
+      "all_passed": true
+    }
+  },
+  "public_copy": {
+    "baker-cousins-1984-histogram-fits": {
+      "identity_verified_with_title_author_report_andINSPIRE": true,
+      "hash_matches": true,
+      "raw_unpopulated": true,
+      "version": "UCLA83 report, publisher1984 notread"
+    }
+  },
+  "diff_exit": 0,
+  "no_new_credit": true,
+  "prior_publication": "push recovered after error; original failure and fresh H3 retained in run receipt",
+  "lint_counts": {
+    "warning": 126,
+    "info": 1743
+  },
+  "warning_codes": {
+    "REACTION_PARSE": 3,
+    "CITATION_KEY_MISSING": 106,
+    "RAW_MISSING": 17
+  },
+  "boundary_check": {
+    "ok": true,
+    "observed_current_session": true
+  },
+  "course_state_unchanged": true
+}

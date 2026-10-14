@@ -8,7 +8,7 @@ status: ai-draft
 review_status: unreviewed
 scope: doppler-recoil-vector-response-validation
 confidence: medium
-sources: [mavela-2019-32s-quadrupole-moment-doppler-correction-thesis, klemme-1999-lifetimes-134nd-neighbors, vandebrouck-2016-vamos-dual-position-mwpc, crespi-2013-agata-high-energy-doppler-response, aladili-2009-agata-doppler-simulation, akkoyun-2012-agata-instrument-response, senyigit-2014-agata-neutron-rejection, tunl-2017-12c-level-widths, soderstrom-2008-agata-position-design, crespi-2023-agata-tracking-performance, ljungvall-2020-agata-ganil-performance, assie-2021-mugast-agata-vamos, lemasson-2023-agata-vamos-fission-history, ciemala-2019-20o-dsam-analysis-status, ziliani-2019-agata-calibration-controls, ciemala-2020-c16-o20-lifetimes, zanon-2023-o20-high-precision, ciemala-2021-deep-inelastic-lifetime-method]
+sources: [mavela-2019-32s-quadrupole-moment-doppler-correction-thesis, klemme-1999-lifetimes-134nd-neighbors, vandebrouck-2016-vamos-dual-position-mwpc, crespi-2013-agata-high-energy-doppler-response, aladili-2009-agata-doppler-simulation, akkoyun-2012-agata-instrument-response, senyigit-2014-agata-neutron-rejection, tunl-2017-12c-level-widths, soderstrom-2008-agata-position-design, crespi-2023-agata-tracking-performance, ljungvall-2020-agata-ganil-performance, assie-2021-mugast-agata-vamos, lemasson-2023-agata-vamos-fission-history, ciemala-2019-20o-dsam-analysis-status, ziliani-2019-agata-calibration-controls, ciemala-2020-c16-o20-lifetimes, zanon-2023-o20-high-precision, ciemala-2021-deep-inelastic-lifetime-method, baker-cousins-1984-histogram-fits]
 tags: [doppler-correction, velocity-information, calibration, covariance, evidence-contract]
 ---
 
@@ -130,6 +130,12 @@ P2/P3：导航/anchor关系按本run writeback检查；不改变source/claim rev
 CM21-17/18的final80%totalerror和cumulativelifetime说明使“给出τ就是纯态寿命且误差可直接Gaussianpool”不成立。作者从absencefeedingγ解释negligible的范围保留，需要detectorε/threshold/population才变成严格f上界。ZA23新1156feeder与Ex门控制提供另一约束；reactionpopulation不同，不能把其branch或漏门率移植给2017样本。
 
 CM21-16的Mgenergyanchor由PARISNaI neutronactivation/24Naβdecay产生，不能标成Eu本体branch；sourcegating/energyorigin与per-sourceactivitynormalization仍不同。CM21-20的articleCC-BY4.0与AGATAdataownership分开；ZA23-15的注册license/embargodate虽已核实，GANILlanding网络失败，未取得events文件清单，不臆测权限拒绝或宣称L4 ready。
+
+## 统计定义不能由峰图补齐
+
+[[baker-cousins-1984-histogram-fits]] BC84-1/2/3/4/5/6/7/9支持将bin积分、Poisson或fixedN、统计量/normalization与point/interval/GOF分开。ZA23-10的Neyman/observed10规则和CM21-17的final80%totalerrors保留其source定义；不能自动换成统一Gaussianσ、保证unbiasedτ/E或从χ²minimum alone宣称validatedhistory。
+
+自设uniformrate反例/regularGaussian区域已写[[doppler-correction]]并有脚本/MC：allbins≥10仍有Neymanratebias，joint68%/τprojection约87%不同。这些只约束过强method假设，不证明sourceτ方向/显著性或转换它的errors。需要rawcounts/background/bin/template/Σ与confidenceconstruction才能做actualrefit；samepipeline输出的几种fitstatistic不是独立实验。
 
 ## Sources
 

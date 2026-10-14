@@ -1,0 +1,28 @@
+{
+  "branch": "main",
+  "subject": "Extend DAY13 RF aliases and histogram fit controls",
+  "scope": "active checkpoint; no new credit or research closeout",
+  "files": [
+    "knowledge/index.md",
+    "knowledge/methods/doppler-correction.md",
+    "knowledge/sources/zanon-2023-o20-high-precision.md",
+    "knowledge/sources/baker-cousins-1984-histogram-fits.md",
+    "knowledge/synthesis/doppler-velocity-validation-contract.md",
+    "outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity.md",
+    "outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity-run-01/run.json",
+    "system/handoff.md",
+    "system/log.md",
+    "system/scripts/day13_rf_tof_alias_design.py",
+    "system/scripts/day13_count_statistic_regions.py",
+    "outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity-run-01/lineshape-statistic-source-before-recall.md",
+    "outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity-run-01/rf-tof-alias-design-recall.md",
+    "outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity-run-01/rf-tof-alias-design-exercise.json",
+    "outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity-run-01/count-statistic-regions-exercise.json",
+    "outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity-run-01/reopened-checkpoint-audit-009.json",
+    "outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity-run-01/research-checkpoint-reopened-012.json",
+    "outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity-run-01/reopened-publication-h3-retry-008.json",
+    "outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity-run-01/continuation-prompt.md",
+    "outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity-run-01/reopened-publication-manifest-009.json"
+  ],
+  "excluded": "inherited Day6–9/daemon/log, raw/PLAN/credentials, tmp/runtimeclock files"
+}

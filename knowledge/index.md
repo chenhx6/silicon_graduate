@@ -9,6 +9,8 @@ updated: 2026-10-14
 
 ## Sources
 
+- [[baker-cousins-1984-histogram-fits]] - UCLA/KEK22页原报告：Poisson/Neyman/Pearson、bin积分、free-scale/area与point/interval/GOF条件；finiteN不保证无偏。
+
 - [[ciemala-2021-deep-inelastic-lifetime-method]] - 同2017data的TKEL递归/100层靶、DC-loss/longline速度tuning和τ/Tcross极限；v1标签由publisher澄清、80%/cumulative与90°适用边界。
 
 - [[ciemala-2020-c16-o20-lifetimes]] - 20O150fs与16C条件寿命估计；迭代初速度重建、联合τ/Eγ与2017实验谱系。

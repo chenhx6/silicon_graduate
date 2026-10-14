@@ -8,6 +8,10 @@ updated: 2026-10-14
 
 ## Active handoff — DAY13 continuous study reopened by user
 
+最新checkpoint（2026-10-14T08:56:32.257106+08:00，余363.5分钟）：RFphase-only/rigidity的A19q8/A20q6 exact102nsalias与independentenergy反证、BC84原报告22页及count/statregion练习已写回。Source/自己的counterexample分层，allbins≥10仍可Neymanratebias、joint68%与τprojection87%定义不同，未重标sourceτ。114items/31mappedpaths（30owningpages），lint0errors/126warnings与boundary/report/card/hash/protected/diff通过。17rawslots仍未归档。
+
+上一contentpush曾exit128网络断线，remote验证还在旧commit；freshH3 retry全通过、正确远端ref已核，故已发布且失败仍在receipt。新的活动pointer main / `Extend DAY13 RF aliases and histogram fit controls`；exacthash只入receipt。下一有界高信息问题：TKEL/depth/responseinverseclosure，uniformdepthprior可独立约束什么；真实data/code仍缺不关闭其它researchroute。Goal/run仍active至原15:00，课程next14/count13不重计。
+
 最新活动checkpoint（2026-10-14T08:17:58.740041+08:00，余402.0分钟）：同run2026-10-13-day-13-01/session01a13489-64ba-7930-9a2c-291375d95ad0，goal/run仍active，原研究截止2026-10-14T15:00+08不改。Course已next14/count13，保留Day13学分、不重复计卡；Day14仅既有partial，无Day15/正式14。用户要求持续学习/不要中断，checkpoint和局部source完成不能再次提前closeout。
 
 本段newsourceCI20(2020primary)、ZA23(2023primary+SI)、CM21(v1/publisher两17页)已经写回knowledge。20Ototal150fs/70fs独立采集，差异原因未裁决；velocityentry/stopping/feeding与jointE/τ矩阵已补。CM21publisher明确correctinverse/aftertarget/DCpath/Tfine-tune，反证v1label冲突外推至正式文档；publisher80%totalerrors、cumulative/feedingnegativeevidence与v1/CI20的1σ各按版本保留。ZA23未知3+δ分量用USDB、branch.28不等samplef。

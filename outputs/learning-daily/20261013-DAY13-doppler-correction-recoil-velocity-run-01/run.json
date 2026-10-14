@@ -1082,10 +1082,10 @@
     }
   ],
   "latest_active_checkpoint": {
-    "path": "outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity-run-01/research-checkpoint-reopened-011.json",
-    "at": "2026-10-14T08:17:58.740041+08:00",
+    "path": "outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity-run-01/research-checkpoint-reopened-012.json",
+    "at": "2026-10-14T08:56:32.257106+08:00",
     "research_status": "active",
-    "candidate": "fit-statistic-RF-TOF-and-TKEL-closure",
+    "candidate": "TKEL-depth-response-inverse-closure",
     "course_state": "next14/count13 unchanged"
   },
   "reopened_publications": [
@@ -1162,6 +1162,107 @@
         }
       ],
       "published_at": "2026-10-14T07:42:19.533041+08:00",
+      "window_remains_active": true
+    },
+    {
+      "branch": "main",
+      "commit_subject": "Audit DAY13 oxygen lifetimes and published method versions",
+      "commit_hash": "881d55d53281f75db67c238bde0335b12e824b4c",
+      "status": "published-active-checkpoint",
+      "scope": "active checkpoint; no new credit or research closeout",
+      "files": [
+        "knowledge/index.md",
+        "knowledge/methods/doppler-correction.md",
+        "knowledge/research-notes/doppler-forward-inverse-convention-check.md",
+        "knowledge/sources/ciemala-2019-20o-dsam-analysis-status.md",
+        "knowledge/sources/ciemala-2020-c16-o20-lifetimes.md",
+        "knowledge/sources/ciemala-2021-deep-inelastic-lifetime-method.md",
+        "knowledge/sources/zanon-2023-o20-high-precision.md",
+        "knowledge/sources/ziliani-2019-agata-calibration-controls.md",
+        "knowledge/synthesis/doppler-velocity-validation-contract.md",
+        "outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity-run-01/cm21-convention-90-control-exercise.json",
+        "outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity-run-01/cm21-version-control-recall.md",
+        "outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity-run-01/deep-inelastic-method-source-before-recall.md",
+        "outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity-run-01/entry-gate-feeding-design-exercise.json",
+        "outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity-run-01/entry-gate-feeding-design-recall.md",
+        "outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity-run-01/oxygen-final-source-before-recall.md",
+        "outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity-run-01/reopened-checkpoint-audit-008.json",
+        "outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity-run-01/reopened-publication-manifest-008.json",
+        "outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity-run-01/research-checkpoint-reopened-011.json",
+        "outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity-run-01/run.json",
+        "outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity.md",
+        "system/handoff.md",
+        "system/log.md",
+        "system/scripts/day13_entry_gate_feeding_design.py"
+      ],
+      "first_push_error": {
+        "branch": "main",
+        "subject": "Audit DAY13 oxygen lifetimes and published method versions",
+        "commit_hash": "881d55d53281f75db67c238bde0335b12e824b4c",
+        "at": "2026-10-14T08:30:08.905096+08:00",
+        "push_exit_code": 128,
+        "error": "remote disconnect while reading sideband; remote state verification pending",
+        "status": "local-commit-remote-unverified",
+        "no_credential_or_git_config_changes": true,
+        "remote_after_first_error": "still calibration checkpoint; local commit retained",
+        "retry": "fresh H3 commands in progress",
+        "resolution": "fresh H3 retry exit0 and exact remote ref verified"
+      },
+      "H3_observed_commands": [
+        {
+          "argv": [
+            "git",
+            "fetch",
+            "origin",
+            "main"
+          ],
+          "exit_code": 0,
+          "stdout": "",
+          "stderr": "From gitee.com:chx6/silicon_graduate\n * branch            main       -> FETCH_HEAD\n"
+        },
+        {
+          "argv": [
+            "git",
+            "merge-base",
+            "--is-ancestor",
+            "origin/main",
+            "HEAD"
+          ],
+          "exit_code": 0,
+          "stdout": "",
+          "stderr": ""
+        },
+        {
+          "argv": [
+            "git",
+            "push",
+            "--dry-run",
+            "origin",
+            "HEAD:main"
+          ],
+          "exit_code": 0,
+          "stdout": "",
+          "stderr": "To gitee.com:chx6/silicon_graduate.git\n   01d9c23..881d55d  HEAD -> main\n"
+        },
+        {
+          "argv": [
+            "git",
+            "push",
+            "origin",
+            "HEAD:main"
+          ],
+          "exit_code": 0,
+          "stdout": "",
+          "stderr": "remote: Powered by \u001b[01;33mGITEE.COM \u001b[0m[1.1.23]        \nremote: Set trace flag 294f39ac        \nTo gitee.com:chx6/silicon_graduate.git\n   01d9c23..881d55d  HEAD -> main\n"
+        }
+      ],
+      "post_commit_reconciliation": {
+        "manifest_matches_commit": true,
+        "handoff_pointer_matches": true,
+        "origin_main_matches_HEAD": true,
+        "index_empty": true
+      },
+      "published_at": "2026-10-14T08:35:15.175423+08:00",
       "window_remains_active": true
     }
   ]

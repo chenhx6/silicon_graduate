@@ -118,6 +118,9 @@ SI TableI给2+2 4.071(1)MeV、3+1 5.228(1)MeV与各γ/branches。本文的完整
 
 ## Related Knowledge and Project Relations
 
+SIRef6的方法原报告已续读为[[baker-cousins-1984-histogram-fits]]，BC84-1/2/3/5/6/7/9。该入口澄清计数/区间/normalization条件，不由generalmethod推断本实验Neyman实现或τcoverage错误。
+
+
 | Relation type | Target | Specific relation |
 |---|---|---|
 | independent-comparison | [[ciemala-2020-c16-o20-lifetimes]] | 70fs/150fs总寿命张力与jointτ–E。 |

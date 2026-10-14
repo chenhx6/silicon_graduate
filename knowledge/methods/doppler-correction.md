@@ -934,3 +934,58 @@ CM21-12的“90°unaffected”在精确式下需要限定。对labθ=90°，`E_l
 Source强调90°可解τ/E相依是有用设计动机；真正验证应保留exactboost、finite-angle、energycalibration与angle/βcorrelation。该限定不是否定扩大角覆盖，而是规定其可独立约束哪一项。
 
 自设E0=2396.1keV、βem=.105/βexit=.1，exactpoint90corrected residual−1.24073keV（二阶−1.22800）；βem=.126/βexit=.08时−11.45322keV（二阶−11.35272）。这些参数不代表CM21实际transport；展示β²项可与keVenergyprecision同量级。另自设β=.1/θ150°的scalar标准inverse与independentinversefourvector均还原2396.1keV；按v1lablabel做除D回到2009.08681keV，−387.01319keV仅是该文字counterfactual。正式版定义已通过标准roundtrip，不能把此偏差归给source实验。原细节保留于本run的`cm21-convention-90-control-exercise.json`，方程/假设在本页，未成为outputs-only知识。
+
+## RF周期编号与连续速度精度的不同信息
+
+CM21-1的RF102ns/TOF、AS21-9/10的integerA/Q与rigidityspeed为动机。以下仅是**RF周期编号丢失的假想模型**；实际VAMOS是否已保存/解卷k，要查rawtimestamp/productioncode。若只保留phase，`T=phase+kP+offset`；连续TOF误差小，仍可能存在离散k/ionicq解。
+
+[day13_rf_tof_alias_design.py](../../system/scripts/day13_rf_tof_alias_design.py)自设mass=A u、恒定flightβ、无材料loss、Z8、equalA17–21/q5–8priors。固定Bρ=0.741630Tm、true(19,8)β.1，并选path使(20,6)另一β.071426...的flighttime恰好多一个102ns周期。Path约7.643762m为刻意构造，非真实VAMOSgeometry。
+
+| 量 | 分支(19,8) | 分支(20,6) |
+|---|---:|---:|
+| Flight/ns | 254.968470 | 356.968470 |
+| Period index k | 2 | 3 |
+| RF phase/ns | 50.968470 | 50.968470 |
+| β | .100000 | .071426 |
+| 自设mass-proxy kineticenergy/MeV | 89.1612 | 47.7045 |
+
+两解rigidity/phase完全闭合；加入自设independentenergyσ2MeV后该假想数据的错分支强烈受限。局部自设phaseσ1ns/pathσ.01m给truebranchβσ.00041345，500kMC得.00041354；两个β相差约69个局部σ，仍有同phase/rigidity的全局分支。不能用localprecision排除latentdiscretealias，也不能把条件于同PID的rigidityβ再当独立验证。
+
+以自设1375.80keV/150°光子，correctbranch还原restenergy；另一分支给1341.1544keV，偏−34.6456keV。这只是纠错敏感性：未确定restenergy/lineidentity的光子不能自动充当独立clock。真实case还要mass精值、field/path/material、chargeexchange、clock/PID/covariance和population，不报告实际周期误判率。
+
+反证/必要观测：有absoluteperiodindex、独立totalenergy或ionicq、可靠knownline/anglehold-out时，所构造alias可被排除。Raw仅RFreference不自动表示仅有phase；明确这些信息已存的pipeline不适用此反例。算法period/rigidityphaseclosure、independentenergy、MCvariance、精确γroundtrip与derivative检查通过。
+
+## 计数统计量、joint区域与寿命轴区间
+
+[[baker-cousins-1984-histogram-fits]] BC84-1/2/3/4/5/6/7/9提供ZA23-10（Neyman/rebin≥10/jointΔχ²）的直接方法入口。Bin模型应为积分`y_i=∫bin ν(E;τ,E0,η)dE`；Pearson`Σ(n−y)²/y`、Neyman`Σ(n−y)²/n`与Poissondeviance `2Σ[y−n+n ln(n/y)]`有不同finitecount性质。原counts含backgroundsubtraction/sharedgate时，不直接把subtractedbin当independentPoisson。
+
+### 均匀Poissonrate的可解析反例
+
+[day13_count_statistic_regions.py](../../system/scripts/day13_count_statistic_regions.py)是自设32个相同meanμ的independentPoissonbins，200k重复。三种score分别给Neyman的harmonicmean、Pearson的RMS和Poisson的arithmeticmean；这是rate模型，**不是τ/Eline-shape**。
+
+| 自设μ/bin | 全MC最小observedcount | Neyman估计mean | Pearson估计mean | Poisson估计mean |
+|---:|---:|---:|---:|---:|
+| 50 | 17 | 49.011092 | 50.481935 | 49.999741 |
+| 100 | 50 | 99.018430 | 100.480297 | 99.996956 |
+| 200 | 132 | 199.036816 | 200.493577 | 200.009983 |
+
+所有observedbins≥10，而Neyman在μ50case的bias约−.989count/bin；三scoreclosedform代入与PoissonMC无偏范围检查通过。它反证“仅≥10就保证无偏”的额外假设，不证明ZA23的τ偏长/偏短，也不说明MLE在任意非线性τ/E或边界问题都无偏。BC84-10的WLS简述须同时核data-dependentweights：1/n不显式依赖参数，但与dataerrors相关。真实τ/E方向、binning、背景、normalization与response要用本实验packet验证。
+
+### 二参数区域、投影和profile的不同覆盖
+
+另一个明确自设的regularGaussiancontrol取στ10fs、σE.4keV、ρ−.8；不是source covariance，也不将reported±10fs当其Gaussianσ。坐标是估计量相对真值的δτ/δE。对完整C的quadraticdistance `q=xᵀC⁻¹x`，joint二参数概率`1−exp(−Δq/2)`；将jointellipse投影到τ轴的概率为`erf(sqrt(Δq/2))`。Profile掉E时则`q_profile=(δτ)²/στ²`。
+
+| 自设Δq | Joint two-parameter概率 | Ellipse投影τ轴概率 | 忽略offdiagonal后MC joint概率 |
+|---:|---:|---:|---:|
+| 1 | 39.347% | 68.269% | 48.389% |
+| 2.3 | 68.336% | 87.063% | 71.742% |
+| 3.21888 | 80.000% | 92.721% | 80.329% |
+| 4.6 | 89.974% | 96.803% | 88.130% |
+
+1M独立GaussianMC核joint/projection与analyticCDF，energyprofileidentity通过。Joint68.3%区域的τ投影约87.1%，不能把两类区间当同定义；ρ丢失也改变coverage。上述只为regularGaussian模型，不能用它反推CI20、CM21的total80%或ZA23原报误差/τ差异σ。需要实际统计量、nuisance处理与confidence construction。
+
+### Overall normalization与计数信息
+
+BC84-4/6/7：`Lp=P(N;N0) Lmultinomial(n|N)`；模型有完全自由overallscale `y_i=a g_i(shape)` 时PoissonMLE保持Σy=Σn，pointestimate可与multinomial等价；interval不自动相同。若`y_i=a g_i+b_i`有固定background、外部yield/efficiency或prior约束，freeoverallscale的充分条件可能不成立，不能无说明删除总rate项。现有selfchosenconditionalshape/KL练习主动排除了总yield信息，保留各自边界；不当成actualextendedlikelihood。
+
+Validationpacket应包含bin edges/counts、rebinrule、各背景观测/normalization、simulation统计量与templateintegrals、相关Σ、拟合参数/nuisance约束、point/interval/GOF各自定义和pseudoexperimentclosure。Sourcepaper/这两toy没有替代这些输入，L4refit仍未ready。

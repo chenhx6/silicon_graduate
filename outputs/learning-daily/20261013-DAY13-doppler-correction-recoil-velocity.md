@@ -323,6 +323,26 @@ DataCite核实e775s DOI与2020collection/2025embargo结束/CCBYNC metadata；印
 
 原窗口研究仍active，本段source/method/practice完成不触发新学分或收束；下一候选为有条件计数/fitstatistic与RF/TOF alias、TKEL反演closure，仍限DAY13。
 
+
+### RFphase/rigidity 的离散反例
+
+来源/设计前回忆`rf-tof-alias-design-recall.md`，selfchosenconstantflight/mass=A u/path/phase-noise等模型`day13_rf_tof_alias_design.py`与run-dirJSON已通过。构造(19,8)β.1/(20,6)β.071426的flight254.968470/356.968470ns，102nsperiod下phase均50.968470ns且Bρ相同。条件于truebranchβσ.00041345（500kMC.00041354），全局alias仍成立；自设independentETOTσ2MeV分开89.161/47.704MeV后排除错误支。Toy1375.80keV/150°错分支校正偏−34.6456keV，非reportedoffset。
+
+Canonical公式、表、适用/反证已写[[doppler-correction]]“RF周期编号与连续速度精度的不同信息”：只有periodindex丢失才适用；sourceactualunwrap未知，absoluteclock/q/energy或可靠knownγhold-out能排除alias。C(M)21提供RF/aftertarget定义、AS21提供conditionalintegerPID，不能说source确实只保phase或已经错k，也不能把同PIDrigidityspeed当独立clock。
+
+
+### 计数原报告与jointregion设计续核
+
+来源前回忆见`lineshape-statistic-source-before-recall.md`；先独立完成uniformrate/Gaussianregion推导和MC，再打开Baker–Cousins原报告。Crossref/INSPIRE核题名/作者/1984publication与UCLAHEP83-3/KEKSCAN83-11-266；沿KEKpubliclocator取得22页July1983/acceptedOct1983报告，封面/pp.8/12公式视觉核验。FNAL猜测候选403且未验身份，未被写成来源；actualreporthash/URL/覆盖范围在[[baker-cousins-1984-histogram-fits]]，raw保留未填充。
+
+SourceBC84-1/2/3/4/5/6/7/9分开pointestimate/interval/GOF、binintegral、Neyman/Pearson/Poissondeviance、Poissonrate/conditionalmultinomial与freeoverallscale保证area的条件。本文作者本身提醒finiteN/ML/WLS bias与MC验证；任务没有把ML描述为万能无偏。
+
+自设32同meanPoissonbins、200k重复：μ50/100/200的Neymanmean49.011/99.018/199.037，Poissonmean49.9997/99.9970/200.0100。全模拟observedminimum17/50/132，均≥10，证明该计数阈值本身不保证rateestimator无偏；无真实τ/E数据，不估source寿命bias方向。Scoreclosedform/PoissonMC范围检查通过。
+
+另一regularGaussiancontrol（στ10fs/σE.4keV/ρ−.8，均自设，不视作sourceΣ）：Δq2.3 joint概率68.336%，τ轴projection87.063%；忽略covarianceoffdiagonal的MCjoint71.742%。1MMC核analyticjoint/projectedCDF及energyprofileidentity。SourceCM21/ZA23/CI20的quotedintervals不由该toy重标或Gaussianpool；trueτerror需actualstatistic/template/Σ/confidenceconstruction。
+
+这些meanbias、χ²field、normalization与validationpacket已经同步写[[doppler-correction]]与validation-contract；script`day13_count_statistic_regions.py`、outputJSON均标synthetic。Source方法全文和局部quantdesign完成只算checkpoint，原researchwindow仍active；下一高信息route是TKELbasis/depth/response的inverseclosure，未启动其它日卡。
+
 ## Durable knowledge delta
 
 原已发布段落的canonical落点为八个 `knowledge/` 页面；持续段落新增source/tracking方法映射于同一block：Doppler诊断/推导、level-scheme方法、三份source、A≈130 evidence contract、开放问题locator及index。`outputs/`的JSON/回忆/评分/候选池只作执行与验收记录，不能取代这些证据页。新科学claims仍为unreviewed/needs_review；未升级为human-reviewed。
@@ -3111,6 +3131,215 @@ DataCite核实e775s DOI与2020collection/2025embargo结束/CCBYNC metadata；印
           "locator": "CM21-20"
         }
       ]
+    },
+    {
+      "knowledge": "knowledge/methods/doppler-correction.md",
+      "anchor": "RF周期编号与连续速度精度的不同信息",
+      "summary": "selfchosenphase-only/A-q alias两解闭合、local precision不能裁离散k，independentenergy/absoluteclock反证，非真实VAMOS误判。",
+      "sources": [
+        {
+          "path": "knowledge/sources/ciemala-2021-deep-inelastic-lifetime-method.md",
+          "locator": "CM21-1"
+        },
+        {
+          "path": "knowledge/sources/ciemala-2021-deep-inelastic-lifetime-method.md",
+          "locator": "CM21-15"
+        },
+        {
+          "path": "knowledge/sources/assie-2021-mugast-agata-vamos.md",
+          "locator": "AS21-9"
+        },
+        {
+          "path": "knowledge/sources/assie-2021-mugast-agata-vamos.md",
+          "locator": "AS21-10"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/sources/baker-cousins-1984-histogram-fits.md",
+      "anchor": "Summary",
+      "summary": "KEK/UCLA原报告22页、公式/scale/point/interval/GOF/finiteNconditions核验，非publisher六页或新实验。",
+      "sources": [
+        {
+          "path": "knowledge/sources/baker-cousins-1984-histogram-fits.md",
+          "locator": "BC84-1"
+        },
+        {
+          "path": "knowledge/sources/baker-cousins-1984-histogram-fits.md",
+          "locator": "BC84-2"
+        },
+        {
+          "path": "knowledge/sources/baker-cousins-1984-histogram-fits.md",
+          "locator": "BC84-3"
+        },
+        {
+          "path": "knowledge/sources/baker-cousins-1984-histogram-fits.md",
+          "locator": "BC84-4"
+        },
+        {
+          "path": "knowledge/sources/baker-cousins-1984-histogram-fits.md",
+          "locator": "BC84-5"
+        },
+        {
+          "path": "knowledge/sources/baker-cousins-1984-histogram-fits.md",
+          "locator": "BC84-6"
+        },
+        {
+          "path": "knowledge/sources/baker-cousins-1984-histogram-fits.md",
+          "locator": "BC84-7"
+        },
+        {
+          "path": "knowledge/sources/baker-cousins-1984-histogram-fits.md",
+          "locator": "BC84-8"
+        },
+        {
+          "path": "knowledge/sources/baker-cousins-1984-histogram-fits.md",
+          "locator": "BC84-9"
+        },
+        {
+          "path": "knowledge/sources/baker-cousins-1984-histogram-fits.md",
+          "locator": "BC84-10"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/methods/doppler-correction.md",
+      "anchor": "均匀Poissonrate的可解析反例",
+      "summary": "自设32bins/200kMC，allobserved≥10仍Neymanharmonicrate偏差，不移植为真实τ偏差或ML万能。",
+      "sources": [
+        {
+          "path": "knowledge/sources/baker-cousins-1984-histogram-fits.md",
+          "locator": "BC84-3"
+        },
+        {
+          "path": "knowledge/sources/baker-cousins-1984-histogram-fits.md",
+          "locator": "BC84-9"
+        },
+        {
+          "path": "knowledge/sources/baker-cousins-1984-histogram-fits.md",
+          "locator": "BC84-10"
+        },
+        {
+          "path": "knowledge/sources/zanon-2023-o20-high-precision.md",
+          "locator": "ZA23-10"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/methods/doppler-correction.md",
+      "anchor": "二参数区域、投影和profile的不同覆盖",
+      "summary": "自设相关Gaussian/1MMC、χ²2CDF和projectedτCDF，σ/CI的定义不可与原source互换。",
+      "sources": [
+        {
+          "path": "knowledge/sources/baker-cousins-1984-histogram-fits.md",
+          "locator": "BC84-1"
+        },
+        {
+          "path": "knowledge/sources/baker-cousins-1984-histogram-fits.md",
+          "locator": "BC84-7"
+        },
+        {
+          "path": "knowledge/sources/baker-cousins-1984-histogram-fits.md",
+          "locator": "BC84-9"
+        },
+        {
+          "path": "knowledge/sources/zanon-2023-o20-high-precision.md",
+          "locator": "ZA23-10"
+        },
+        {
+          "path": "knowledge/sources/ciemala-2021-deep-inelastic-lifetime-method.md",
+          "locator": "CM21-17"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/methods/doppler-correction.md",
+      "anchor": "Overall normalization与计数信息",
+      "summary": "bin积分、Poisson总rate vsconditionalmultinomial/freeoverallscalearea条件与背景prior boundary。",
+      "sources": [
+        {
+          "path": "knowledge/sources/baker-cousins-1984-histogram-fits.md",
+          "locator": "BC84-2"
+        },
+        {
+          "path": "knowledge/sources/baker-cousins-1984-histogram-fits.md",
+          "locator": "BC84-4"
+        },
+        {
+          "path": "knowledge/sources/baker-cousins-1984-histogram-fits.md",
+          "locator": "BC84-5"
+        },
+        {
+          "path": "knowledge/sources/baker-cousins-1984-histogram-fits.md",
+          "locator": "BC84-6"
+        },
+        {
+          "path": "knowledge/sources/baker-cousins-1984-histogram-fits.md",
+          "locator": "BC84-7"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/synthesis/doppler-velocity-validation-contract.md",
+      "anchor": "统计定义不能由峰图补齐",
+      "summary": "point/interval/GOF/sourceconfidence与rawbin/background/templateΣ/closurepacket，counttoys非L4refit。",
+      "sources": [
+        {
+          "path": "knowledge/sources/baker-cousins-1984-histogram-fits.md",
+          "locator": "BC84-1"
+        },
+        {
+          "path": "knowledge/sources/baker-cousins-1984-histogram-fits.md",
+          "locator": "BC84-2"
+        },
+        {
+          "path": "knowledge/sources/baker-cousins-1984-histogram-fits.md",
+          "locator": "BC84-3"
+        },
+        {
+          "path": "knowledge/sources/baker-cousins-1984-histogram-fits.md",
+          "locator": "BC84-6"
+        },
+        {
+          "path": "knowledge/sources/baker-cousins-1984-histogram-fits.md",
+          "locator": "BC84-7"
+        },
+        {
+          "path": "knowledge/sources/baker-cousins-1984-histogram-fits.md",
+          "locator": "BC84-9"
+        },
+        {
+          "path": "knowledge/sources/zanon-2023-o20-high-precision.md",
+          "locator": "ZA23-10"
+        },
+        {
+          "path": "knowledge/sources/ciemala-2021-deep-inelastic-lifetime-method.md",
+          "locator": "CM21-17"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/index.md",
+      "anchor": "baker-cousins-1984-histogram-fits",
+      "summary": "直接statisticalmethodsource与source/finiteN版本边界导航。",
+      "sources": [
+        {
+          "path": "knowledge/sources/baker-cousins-1984-histogram-fits.md",
+          "locator": "BC84-1"
+        },
+        {
+          "path": "knowledge/sources/baker-cousins-1984-histogram-fits.md",
+          "locator": "BC84-3"
+        },
+        {
+          "path": "knowledge/sources/baker-cousins-1984-histogram-fits.md",
+          "locator": "BC84-6"
+        },
+        {
+          "path": "knowledge/sources/baker-cousins-1984-histogram-fits.md",
+          "locator": "BC84-9"
+        }
+      ]
     }
   ]
 }
@@ -3134,6 +3363,8 @@ DataCite核实e775s DOI与2020collection/2025embargo结束/CCBYNC metadata；印
 | L4 | experimental refit `not-ready`：缺事件、production code、ring spectra、response/covariance和feeding；模拟练习不作为新实验L4或absolute-strength研究。 |
 
 ## Verification and continuation
+
+最新活动检查（2026-10-14T08:56:32.257106+08:00，余363.5分钟）：writeback114items/31mappedpaths（30owningpages）。RFphase/A-q构造与count/Gaussianregion练习独立MC/score/limits/closure通过；BC原报告22页identity/hash/关键式已核。Lint0errors/126warnings（106citationkeys、17rawslots、3parser），boundary/report/card/writeback/protected/diff通过。上一段Gitee初推送128断线，freshH3 retry成功并核远端，真实failure保留；本段仍active，不计新卡，下一TKEL/depth/responseclosure。
 
 最新活动检查（2026-10-14T08:17:58.740041+08:00，余402.0分钟）：累计writeback107items/30mappedpaths（29owningpages），三新source、publisher/currentarXiv与SI均核identity/hash、raw仍未填充。Entrygate/feedshape的MC/quad/limits/四optimizerstarts及exact90/fourvector checks通过；lint0errors/124warnings（105citationkeys、16rawslots、3parser）。Boundary/report/card/writeback/PLAN-Bib保护/diff通过。DataCite已核、landing网络失败，没有eventaccess声明。研究仍active，不重复课程推进；下一route统计量/RF-TOF/TKELclosure。
 

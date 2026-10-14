@@ -1,7 +1,9 @@
-# 本次 run 续接
+# Continue active DAY13 from checkpoint012
 
-run_id: `2026-10-13-day-13-01`；day_index:13；原研究硬截止:`2026-10-14T15:00:00+08:00`。
+User requested sustained DAY13 study without interruption. Same run/session and model; goal active, original hard research cutoff 2026-10-14T15:00:00+08:00. Do not close at local saturation or start formal Day14/Day15. Card13 already credited: preserve next14/count13 and completed[13]/partial[14]. At15:00 stop new research and use15:00–16:00 to finalize/reconcile already-credited state manually, avoiding normal finalizer which would advance credit again.
 
-继续讨论命令：`codex resume 01a13489-64ba-7930-9a2c-291375d95ad0 -C /workspace/wiki -s danger-full-access -a never`。
+Read active handoff and run.json/latestcheckpoint. Publications through oxygen/method checkpoint recovered safely after first push failure; exact command history preserved. Current scientific additions RF alias and BC84 statistics have canonical source/method/index/synthesis mapping, 114writebackitems/31mappedpaths, lint0errors/126warnings. Public PDFs remain tmp, 17rawslots unpopulated; protect raw/PLAN/Bib/credentials/reviewflags and inherited Day6–9/daemon/log. Explicit staging only; log via cached patch HEAD+taskentry. Farmer8686 and same-sessionclock22006 remain; checkpoint001queued without observed delivery, no invented ack.
 
-本次Day13交付已固化；Day14仅不计学分预习。回访先读日报、run.json和research-closeout.json；确认当前clock及课程state，保留legacy Day8/9与daemon修改。若出现executed Mavela sorter、ring20/24 spectra、target/coordinate metadata或joint covariance，才重开对应实验诊断；不得用打印代码或toy替代生产事件。正式Day14必须新session，重新主动回忆和逐卡审计，不能复用本预习成绩给学分。
+Next high-information route: source-inspired TKEL/depth/responseinverseclosure. CM21final describes uniformreactiondepth and TKELfolding; investigate what the measured exitvelocity can constrain if stopping/depthprior is relaxed. Start a primed design recall, derive a boundedtoy and independentclosure/limits; do not claim it explains real20O150/70fs tension. Sources CI20/ZA23/CM21/BC84 and previous exercises are already completed, no need to rerun. Further viable route: finitebin integration/rebin/sharedbackground template covariance. Source/author/model/our-inference remain separated.
+
+Resume command: `codex resume 01a13489-64ba-7930-9a2c-291375d95ad0 -C /workspace/wiki -s danger-full-access -a never`. Refresh current time before source/card decisions; <90min no new sources/cards, cutoff15:00 stop research.
