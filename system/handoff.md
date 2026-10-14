@@ -8,13 +8,13 @@ updated: 2026-10-14
 
 ## Active handoff — DAY14 formal exam and continuous study
 
-Run `2026-10-14-day-14-02` / session `01a13a0e-e8bd-7251-b970-f6975679e281`；原截止 `2026-10-15T15:00:00+08:00`不变，goal/research active。FormalDay14已发布：primed recall、Herzáň主线/图表/七边、21/24/weekly REFLECT；官方next14/count13待closeout只计一次。Day15仅partial预习，不研究下一卡。
+Run `2026-10-14-day-14-02` / session `01a13a0e-e8bd-7251-b970-f6975679e281`；原截止 `2026-10-15T15:00:00+08:00`不变，goal/research active。正式Day14已published：primed recall、Herzáň主线/图表/七边、21/24/weekly REFLECT。官方next14/count13待closeout只计一次；Day15仅partial，不研究下一卡。
 
-最新checkpoint004（10-15 00:35 Asia/Shanghai）：在已完成shared-POL70/ADO28检查后，conditional γγ35-check以pure-electric 0→L→0隔离factorization、pair/self-exclusion、φ与finite-cone边界。Canonical angular-correlation及关联source/method保存完整推导；日报唯一writeback15items/10changedpages。实际193Bi/145Tb events、response/Σ仍缺，未给新weak-line Jπ/M2/order或模式结论；原review/raw/PLAN/Bib保留，source lineage不增加独立采集。
+最新checkpoint005（10-15 01:09 Asia/Shanghai）：shared POL70、ADO28、conditional response35之后，order51-check把random-initial intensity对称性与same-rank/type stretched full-amplitude对称性分开；任意同initialρ不解除后者，非stretched控制可不对称，feeding同σ/J是额外输入。Canonical angular-correlation/level-scheme/source保存proof/条件；日报唯一writeback17items/10changedpages。实际events/response/Σ/branch/time仍缺，未给weak lines新Jπ或order，原review/raw/PLAN/Bib保留。
 
-本批次稳定指针 main / `Derive DAY14 conditional gamma coincidence response`；上批次shared-POL/ADO已Gitee发布，实际hash/H3仅receipt。当前lint0errors/129warnings、report/card/writeback/diff/protected/raw/AST通过。下一current：general-spin、随机/取向初态下近邻双线顺序的角关联可识别性，冻结回忆在本run，尚未新code。
+第4批已Gitee发布；本批次稳定指针 main / `Test DAY14 doublet angular-order identifiability`；exacthash/实际H3仅receipt。当前lint0errors/129warnings、report/card/writeback/diff/AST/protected/raw/review通过。候选池：Ionescu1981最近Day11/12使用，暂缓重复；可在Day15无学分preview沿Zobel1983检验empirical alignment/reference transfer，未读该source，需先回忆/身份/主线核验。
 
-Clock001实际ack，其它queued IDs不得伪造；Farmer8686/clock75781保留，不重启。继承Day6–9/Day13/daemon/旧log不stage。恢复 `codex resume 01a13a0e-e8bd-7251-b970-f6975679e281 -C /workspace/wiki -s danger-full-access -a never`；run-dir`-run-02/`中的checkpoint004/continuation可续接。
+Clock001实际ack，其它queued不伪造；Farmer8686/clock75781保留，不重启。继承Day6–9/Day13/daemon/旧log排除stage。恢复 `codex resume 01a13a0e-e8bd-7251-b970-f6975679e281 -C /workspace/wiki -s danger-full-access -a never`；本run `-run-02/` checkpoint005/continuation可续接。
 
 ## Previous active handoff — DAY13 continuous study reopened by user
 

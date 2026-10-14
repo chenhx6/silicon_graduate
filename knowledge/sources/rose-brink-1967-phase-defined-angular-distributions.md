@@ -553,6 +553,8 @@ Scalar m块与Σm Dmq Dmq′*=δqq′给每方向局部H=I2/2，normalized W=1�
 
 [[angular-correlation]]的新章节从本formalism重构自设0→L→0 pure-electric toy，35项amplitude/Legendre/density/pair/finite-cone checks通过。toy的spin、几何、角组比和Qk数值是任务推导，不是原文报告的145Tb/193Bi实验。几何fully balanced还要检验方位harmonics、效率和实际conditional acceptance；没有新增source-level核素赋值、mixedδ解或human review。
 
+本run后续[[angular-correlation]]“双γ排序的交换对称性”用51-check general-spin/CG控制，区分random-initial intensity对称性与same-rank pure stretched maximal-coupling的更强full-amplitude对称性；这是RB67-3/11前提下的任务推导，不是本篇原文新实验陈述。chosen feeding middle与另行重置Gaussian的比较也只在toy条件下成立，需actual参考/feeding数据才能判断具体实验。
+
 ## Human Review Triage
 
 ### P0

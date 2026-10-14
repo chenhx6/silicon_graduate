@@ -123,6 +123,16 @@ HE15-13低能γ的设计例（N=5000、ε=.01、branch=1）给46/87-keV零计数
 
 代码 `system/scripts/day14_conditional_angular_response.py` 实际exit0，[35项结果](20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/conditional-angular-response.json)通过；它与第一组纲图35-check是不同exercise。完整公式、density/effect、参数、数值及边界已固化到[[angular-correlation]]“条件γγ响应：各向同性marginal仍可有角关联”，接回ADO及level scheme方法。结论为limits单γfactorization的充分性、supports逐pair matched-response核验，不给shared393/394新E2/M2/Jπ结论。
 
+### 近邻双线排序：对称性先于增加角数据
+
+[计算前回忆](20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/order-correlation-before-calculation.md)保留了“有取向可能增加信息”的初始预期及priming。general-spin结果使预期收紧：静态random-initial intensity只依赖两方向夹角，交换不变；两个同rank/同E-M类型pure stretched downward transitions还有更强的maximal-CG对称性，中间binomial抵消，full amplitude对photon交换对称，任意同一initialρ也不能从角度/偏振数据判能量标签先后。
+
+自设pure E2 19/2→15/2→11/2：binomial与独立total-J²/highest-state/lowering构造相同，full-amplitude swap最大差4.48×10⁻16，random/Gaussian/coherent三种initial的角强度差均在浮点误差内。非stretched控制19/2→17/2→13/2在random initial仍对称，但chosen Gaussian、chosen方位/点角下两个ordered intensities为.879316/1.297627。都不是193Bi的spin/数据预测。
+
+脚本 `system/scripts/day14_cascade_order_identifiability.py` 实际exit0，[51-check结果](20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/cascade-order-identifiability.json)通过；删除了一个无信息的response同值检查，最终数为51。exact unobserved feeding middle与每层另行设同σ/J=.3的Gaussian，L1距离为.076428/.143581，说明该重置是额外输入，不是原cascade channel自动给出的结果。
+
+完整proof与边界在[[angular-correlation]]“双γ排序的交换对称性”，接回[[level-scheme-reconstruction]]“近邻双线排序的角关联可识别性”；source premises为RB67-3/11，HE15-9仅是实际未定order的动机。决定revises观测选择：先检验交换对称性，若在其条件内，优先middle branch/独立level/time或能证明模型条件失效的观测；不默认更精细DCO/POL能判先后。实际weak-line Q/(E2)/π、shared R/A与review flags保留，未做排序fit或significance。
+
 ## Counter-evidence and missing companion observables
 
 HE15-9的实际未定双线是核心反例：energy sum、共享R/A和假设的ΔI=2均不足以裁决order。若一条线出现可独立定位的旁路或延迟顺序，应重审中间level；source仍保留括号Jπ与(E2)。HE15-5的quadruplet限制“一个峰是一条γ”的简化；干净622.4直接分支门与323.4级联门的299-keVcomponent差异可能迫使拆峰，但必须控制622/626门纯度、feeding、response和random。
@@ -512,7 +522,7 @@ HE15-9的实际未定双线是核心反例：energy sum、共享R/A和假设的�
     },
     {
       "knowledge": "knowledge/sources/rose-brink-1967-phase-defined-angular-distributions.md",
-      "summary": "局部视觉回核printed326/PDF21 Eq3.69–3.73，保留parity/helicity/random-initial条件和任务toy分层；不重复全42页阅读或清review。",
+      "summary": "局部视觉回核printed326/PDF21 Eq3.69–3.73，保留parity/helicity/random-initial条件和任务toy分层；不重复全42页阅读或清review。接入51-check最大耦合交换对称性，明确为任务推导。",
       "anchor": "Day14 条件γγ响应的局部回核",
       "sources": [
         {
@@ -545,6 +555,44 @@ HE15-9的实际未定双线是核心反例：energy sum、共享R/A和假设的�
         {
           "path": "knowledge/sources/zheng-2002-ado-coincidence-angular-anisotropy.md",
           "locator": "Z02-9"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/methods/angular-correlation.md",
+      "summary": "51-check general-spin、binomial/total-J²-ladder、任意initialρ的same-rank stretched full-amplitude对称性及非stretched失败控制；feeding同σ/J不是自动输出。",
+      "anchor": "双γ排序的交换对称性",
+      "sources": [
+        {
+          "path": "knowledge/sources/rose-brink-1967-phase-defined-angular-distributions.md",
+          "locator": "RB67-3"
+        },
+        {
+          "path": "knowledge/sources/rose-brink-1967-phase-defined-angular-distributions.md",
+          "locator": "RB67-11"
+        },
+        {
+          "path": "knowledge/sources/herzan-2015-193bi-spectroscopy.md",
+          "locator": "HE15-9"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/methods/level-scheme-reconstruction.md",
+      "summary": "将exchange symmetry接回实际未定双线的下一观测选择；不改变weak-line赋值或宣称actual模型条件成立。",
+      "anchor": "近邻双线排序的角关联可识别性",
+      "sources": [
+        {
+          "path": "knowledge/sources/rose-brink-1967-phase-defined-angular-distributions.md",
+          "locator": "RB67-3"
+        },
+        {
+          "path": "knowledge/sources/rose-brink-1967-phase-defined-angular-distributions.md",
+          "locator": "RB67-11"
+        },
+        {
+          "path": "knowledge/sources/herzan-2015-193bi-spectroscopy.md",
+          "locator": "HE15-9"
         }
       ]
     }
@@ -598,6 +646,8 @@ PureE2在合法取向下可negative P；在本段common selection/轴对称/poin
 2. 真实response/净计数能否分别识别299.2/299.8、622/626和323 quadruplet？现有绘图不能补出逐门Σ。
 3. 哪些parent τ/branch/ICC/δ输入足以把七条线的相对量接到absolute strengths？153-ns引用不能挪用。
 4. 1836-keV候选link的endpoint、强度与false-link控制能否闭合X？当前保持未confirmed。
+5. 哪些reference/feeding观测足以约束target conditional population？逐层重设同σ/J可能带入额外prior；需原始实测对照。
+6. 对实际393/394是否存在同rank pure stretched/共同response的交换对称条件？若成立，角数据本身不提供order；若不成立，需先定位失效的具体premise。
 
 这些是Codex后续研究路线，不自动转成用户待办。认识修订发生在方法充分性上，未改变结构模式排序。
 
@@ -641,3 +691,10 @@ PureE2在合法取向下可negative P；在本段common selection/轴对称/poin
 2026-10-15 00:35 Asia/Shanghai，距原截止865.0分钟；research仍active。conditional-response脚本35/35、exit0；report/card/writeback15items/10份本run修改知识页valid。wiki_lint --fail-on error exit0、0errors/129warnings（107citation key、19raw slots、3reaction parser）；git diff --check exit0；AST/protected/raw metadata及原review flags通过。原source仅局部回核所用公式，不重复宣称新全文阅读。
 
 上批次已Gitee发布；本批次稳定指针 main / `Derive DAY14 conditional gamma coincidence response`，实际H3/hash仅receipt。恢复见[checkpoint004](20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/checkpoint-004.md)和continuation。下一current为general-spin近邻双线排序可识别性，计算前回忆已保存；不计Day15、不停止整段时窗。
+
+
+### Checkpoint005 实测与候选池重建
+
+2026-10-15 01:09 Asia/Shanghai，距原截止830.7分钟，仍有substantive window。order脚本实际exit0、51项通过；report/card/writeback17items/10份本run修改知识页valid。wiki_lint --fail-on error exit0、0errors/129warnings（107citekey、19raw槽、3parser）；git diff --check exit0；AST/protected/raw metadata/旧review flags通过。
+
+本批次稳定指针 main / `Test DAY14 doublet angular-order identifiability`，实际publication/hash仅runreceipt。当前模型定理局部饱和但没有结束时窗；近期fingerprint显示Ionescu1981已在10月12日Day11/12使用，暂缓重复，Zobel1983尚未见recent daily/weekly记录。下一Day15无学分知识预习候选为experimental alignment/reference transfer，仍需source-before recall、raw/metadata及主线验证。恢复见[checkpoint005](20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/checkpoint-005.md)。

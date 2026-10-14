@@ -218,6 +218,14 @@ N193-4/10及79-check固定列crosswalk核对七条γ的中心值、mother、γ�
 
 [[angular-correlation]]“条件γγ响应：各向同性marginal仍可有角关联”补充35-check source-grounded toy，明确单γ边界不等于joint factorization：同名energy gate因self-detector/pair/time/Compton选取可有不同target-dependent effect。它解释为何需要实际matched-pair response，未将.729470等toy结果当193Bi重测，未撤销原共同条件下的pureE2必要域或给weak lines新的赋值。
 
+## 近邻双线排序的角关联可识别性
+
+HE15-9的393/394order未定仍是实际来源结论。[[angular-correlation]]“双γ排序的交换对称性”以RB67-3/11为formalism前提，给出51-check条件证明：随机初态的γγ intensity在两方向交换下不变；更强的是两个同rank/同E-M类型的pure stretched downward跃迁，maximal-CG product消去middle系数并对两photon modes交换对称，任意同一initialρ也不能靠角度/偏振数据解除能量标签的先后。
+
+这是declared static angular model的可识别性边界，未证明实际weak doublet满足pure/stretched、共同instrument或无中间演化条件。增加resolution、重复closure或提高同类型角数据统计，不能在exact-equivalent angular hypotheses之间创造信息。优先独立middle branch/level、可分辨delay/time或能验证模型条件失效的观测；若有非stretched/混合、不同multipoles或intermediate dynamics，须重建前向模型。
+
+自设19/2→15/2→11/2的binomial/total-J²-ladder与full amplitudes相同；自设19/2→17/2→13/2控制在chosen alignment下可不对称。两者均非193Bi新spin/parity或line placement；shared R/A不分配逐线，原Q/(E2)/π和review状态保留。脚本/结果/完整proof见上述canonical方法页，不报告actual order fit或significance。
+
 ## Sources
 
 - [[herzan-2015-193bi-spectroscopy]] HE15-4：PDF p.3 Table I / p.8 Fig.2 / p.2 setup-specific ratios。

@@ -33,3 +33,9 @@ Shared-POL70-check、ADO28-check及误差图已完成，canonical写回linear-po
 35-check 0→L→0 toy完成，full joint不由isotropic marginals分离。12方向E2 R=.729470 vs scalar组式1、disjoint ring、q±4方位与finite cones全部chosen theory；canonical/angular-correlation和source/method已写回，writeback15items/10changedpages、lint0errors/129warnings、AST/protected/raw/review通过。
 
 下一current：order-correlation-before-calculation.md已冻结；用general-spin CG/helicity前向核检验random initial的交换对称性，再对chosen alignment检查何时有信息。不能把0→L→0特例外推actual193Bi，不报告实测排序或显著性；HE15-9和RB67-3是atomic anchors。原截止与same session/goal保留，Day15partial、下一卡不研究。
+
+## Checkpoint005：交换对称性完成，保持研究active
+
+Order51-check完成；两个same-rank/type pure stretched downward transitions的full amplitude对称，对任意initialρ成立。Nonstretched/有取向控制可不对称；HE15-9仍未定order、原review flags保留。Canonical angular-correlation/level-scheme/source，writeback17items/10changedpages，lint0errors/129warnings/diff/AST/protected/raw/review通过。
+
+候选池：Ionescu1981在Oct12 Day11/12用过，不重复充填novelty。下一可做恰好Day15无学分empirical alignment/reference transfer，候选Zobel1983无recent daily/weekly fingerprint；未读原source，先冻结primed回忆，再核raw/hash/metadata并沿全文主线。当前问题仍可继续独立branch/time/level约束，但缺真实events/Σ/response。原15:00截止，次日卡不给信用、不打开Day16，不新建session/goal/daemon。

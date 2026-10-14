@@ -1,0 +1,226 @@
+{
+  "kind": "L2 angular-order identifiability; selected static pure-E2 spin cascades",
+  "source_locators": [
+    "HE15-9 / Table I footnote f: unresolved order",
+    "RB67-3 / printed326 PDF21 Eq3.73: random initial condition",
+    "RB67-11 / printed316 PDF11 Eq3.24: CG/helicity amplitudes"
+  ],
+  "results": [
+    {
+      "chosen_spins": [
+        9.5,
+        7.5,
+        5.5
+      ],
+      "full_amplitude_swap_max_error": 4.47545209131181e-16,
+      "intensity_swap_max_errors": {
+        "random": 2.220446049250313e-16,
+        "chosen_Gaussian_sigma_J_point3": 2.220446049250313e-16,
+        "chosen_coherent_state": 4.440892098500626e-16
+      },
+      "chosen_point_pair": [
+        {
+          "theta_deg": 157.6,
+          "phi_rad": 0.8
+        },
+        {
+          "theta_deg": 75.5,
+          "phi_rad": -0.3
+        }
+      ],
+      "point_intensities": {
+        "random": {
+          "first_at_a_second_at_b": 0.9528714022917206,
+          "first_at_b_second_at_a": 0.9528714022917208
+        },
+        "chosen_Gaussian_sigma_J_point3": {
+          "first_at_a_second_at_b": 1.0421539311033088,
+          "first_at_b_second_at_a": 1.0421539311033088
+        },
+        "chosen_coherent_state": {
+          "first_at_a_second_at_b": 0.8963926656055652,
+          "first_at_b_second_at_a": 0.8963926656055652
+        }
+      },
+      "exact_unobserved_feeding_middle_population": [
+        0.0010890846286646812,
+        0.004188645964585129,
+        0.012445284822580064,
+        0.02982713918021637,
+        0.05898256068901452,
+        0.09750773465168187,
+        0.1358230975249589,
+        0.16013645253829847,
+        0.1601364525382985,
+        0.135823097524959,
+        0.09750773465168197,
+        0.058982560689014606,
+        0.029827139180216407,
+        0.012445284822580078,
+        0.0041886459645851335,
+        0.001089084628664682
+      ],
+      "separately_assumed_sigma_over_J_point3_middle_population": [
+        0.0006856887284887249,
+        0.002732958020477101,
+        0.008940305239987656,
+        0.024004085685750656,
+        0.052897046712017684,
+        0.09567338031599358,
+        0.1420248199266383,
+        0.17304171537064633,
+        0.17304171537064633,
+        0.1420248199266383,
+        0.09567338031599358,
+        0.052897046712017684,
+        0.024004085685750656,
+        0.008940305239987656,
+        0.002732958020477101,
+        0.0006856887284887249
+      ],
+      "middle_population_L1_distance": 0.07642794093610907
+    },
+    {
+      "chosen_spins": [
+        9.5,
+        8.5,
+        6.5
+      ],
+      "full_amplitude_swap_max_error": 1.6372044735591884,
+      "intensity_swap_max_errors": {
+        "random": 6.661338147750939e-16,
+        "chosen_Gaussian_sigma_J_point3": 0.5013274517433671,
+        "chosen_coherent_state": 0.4279736229490523
+      },
+      "chosen_point_pair": [
+        {
+          "theta_deg": 157.6,
+          "phi_rad": 0.8
+        },
+        {
+          "theta_deg": 75.5,
+          "phi_rad": -0.3
+        }
+      ],
+      "point_intensities": {
+        "random": {
+          "first_at_a_second_at_b": 1.0260941554074958,
+          "first_at_b_second_at_a": 1.0260941554074963
+        },
+        "chosen_Gaussian_sigma_J_point3": {
+          "first_at_a_second_at_b": 0.8793156766225865,
+          "first_at_b_second_at_a": 1.2976274064946538
+        },
+        "chosen_coherent_state": {
+          "first_at_a_second_at_b": 1.1558301772823154,
+          "first_at_b_second_at_a": 0.7278565543332631
+        }
+      },
+      "exact_unobserved_feeding_middle_population": [
+        0.0010791505364118599,
+        0.003849781415069559,
+        0.010601650154880992,
+        0.023689572806769223,
+        0.0441864878394625,
+        0.07025744925453702,
+        0.09706006007253903,
+        0.11868755732488281,
+        0.13058829059544685,
+        0.13058829059544685,
+        0.11868755732488284,
+        0.09706006007253909,
+        0.070257449254537,
+        0.04418648783946251,
+        0.023689572806769213,
+        0.010601650154880992,
+        0.0038497814150695586,
+        0.001079150536411859
+      ],
+      "separately_assumed_sigma_over_J_point3_middle_population": [
+        0.0006050466434728715,
+        0.0020706163419872393,
+        0.006076053244002089,
+        0.015288140203037452,
+        0.03298366380476332,
+        0.061017482572983825,
+        0.09678784688218285,
+        0.1316432283241648,
+        0.15352792198340562,
+        0.15352792198340562,
+        0.1316432283241648,
+        0.09678784688218285,
+        0.061017482572983825,
+        0.03298366380476332,
+        0.015288140203037452,
+        0.006076053244002089,
+        0.0020706163419872393,
+        0.0006050466434728715
+      ],
+      "middle_population_L1_distance": 0.14358120954896259
+    }
+  ],
+  "checks": {
+    "(9.5, 7.5, 5.5)_CG_rows_normalized": true,
+    "(9.5, 7.5, 5.5)_random_rho_PSD_trace_one": true,
+    "(9.5, 7.5, 5.5)_chosen_Gaussian_sigma_J_point3_rho_PSD_trace_one": true,
+    "(9.5, 7.5, 5.5)_chosen_coherent_state_rho_PSD_trace_one": true,
+    "(9.5, 7.5, 5.5)_positive_intensities_1": true,
+    "(9.5, 7.5, 5.5)_positive_intensities_2": true,
+    "(9.5, 7.5, 5.5)_positive_intensities_3": true,
+    "(9.5, 7.5, 5.5)_positive_intensities_4": true,
+    "(9.5, 7.5, 5.5)_positive_intensities_5": true,
+    "(9.5, 7.5, 5.5)_positive_intensities_6": true,
+    "(9.5, 7.5, 5.5)_positive_intensities_7": true,
+    "(9.5, 7.5, 5.5)_positive_intensities_8": true,
+    "(9.5, 7.5, 5.5)_positive_intensities_9": true,
+    "(9.5, 7.5, 5.5)_positive_intensities_10": true,
+    "(9.5, 7.5, 5.5)_positive_intensities_11": true,
+    "(9.5, 7.5, 5.5)_positive_intensities_12": true,
+    "(9.5, 7.5, 5.5)_positive_intensities_13": true,
+    "(9.5, 7.5, 5.5)_positive_intensities_14": true,
+    "(9.5, 7.5, 5.5)_positive_intensities_15": true,
+    "(9.5, 7.5, 5.5)_positive_intensities_16": true,
+    "(9.5, 7.5, 5.5)_random_intensity_exchange_symmetry": true,
+    "(9.5, 7.5, 5.5)_feeding_density_PSD_trace_one": true,
+    "(9.5, 7.5, 5.5)_random_feeding_is_random": true,
+    "maximal_binomial_and_J2_ladder_independent_agreement": true,
+    "stretched_full_amplitude_exchange_symmetry": true,
+    "stretched_even_coherent_initial_does_not_rescue_angular_order": true,
+    "(9.5, 8.5, 6.5)_CG_rows_normalized": true,
+    "(9.5, 8.5, 6.5)_random_rho_PSD_trace_one": true,
+    "(9.5, 8.5, 6.5)_chosen_Gaussian_sigma_J_point3_rho_PSD_trace_one": true,
+    "(9.5, 8.5, 6.5)_chosen_coherent_state_rho_PSD_trace_one": true,
+    "(9.5, 8.5, 6.5)_positive_intensities_1": true,
+    "(9.5, 8.5, 6.5)_positive_intensities_2": true,
+    "(9.5, 8.5, 6.5)_positive_intensities_3": true,
+    "(9.5, 8.5, 6.5)_positive_intensities_4": true,
+    "(9.5, 8.5, 6.5)_positive_intensities_5": true,
+    "(9.5, 8.5, 6.5)_positive_intensities_6": true,
+    "(9.5, 8.5, 6.5)_positive_intensities_7": true,
+    "(9.5, 8.5, 6.5)_positive_intensities_8": true,
+    "(9.5, 8.5, 6.5)_positive_intensities_9": true,
+    "(9.5, 8.5, 6.5)_positive_intensities_10": true,
+    "(9.5, 8.5, 6.5)_positive_intensities_11": true,
+    "(9.5, 8.5, 6.5)_positive_intensities_12": true,
+    "(9.5, 8.5, 6.5)_positive_intensities_13": true,
+    "(9.5, 8.5, 6.5)_positive_intensities_14": true,
+    "(9.5, 8.5, 6.5)_positive_intensities_15": true,
+    "(9.5, 8.5, 6.5)_positive_intensities_16": true,
+    "(9.5, 8.5, 6.5)_random_intensity_exchange_symmetry": true,
+    "(9.5, 8.5, 6.5)_feeding_density_PSD_trace_one": true,
+    "(9.5, 8.5, 6.5)_random_feeding_is_random": true,
+    "nonstretched_amplitudes_need_not_be_exchange_symmetric": true,
+    "nonstretched_chosen_alignment_can_break_intensity_symmetry": true
+  },
+  "checks_passed": 51,
+  "boundaries": [
+    "No actual weak-line spin/parity assignment, population, counts or covariance is supplied.",
+    "Random-initial intensity symmetry follows rotational covariance for the static cascade, not the0-L-0specialcase alone.",
+    "Two equal-rank pure stretched downward transitions have a stronger full-amplitude swap symmetry in this no-intermediate-evolution model.",
+    "Chosen alignment does not break that maximal-coupling symmetry; nonstretched control can break intensity symmetry.",
+    "Known same-rank electromagnetic type, definite parity, fixed energy modes, complete final-spin trace and a common instrument are assumptions.",
+    "Unobserved feeding population is computed from the first transition; independently imposing the same sigma/J at each level is another input.",
+    "Intermediate interactions/time evolution, mixed or different multipoles, branches, independent levels and time tags require separate analysis.",
+    "Day14 continues; Day15 preview remains uncredited."
+  ]
+}

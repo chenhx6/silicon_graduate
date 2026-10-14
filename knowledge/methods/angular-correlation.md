@@ -109,6 +109,46 @@ Q_k(\alpha)=\frac{1}{1-\cos\alpha}\int_{\cos\alpha}^{1}P_k(u)\,du.
 
 最高信息检验是同一target/参考线的换门、方位分组和finite-response前向预测，同时保留shared-event covariance。一个低rank参考通过不能认证所有rank/mixing/spin的response；没有实测输入时不能报告实验显著性或把此反例升为新的核结构事实。
 
+## 双γ排序的交换对称性
+
+[[herzan-2015-193bi-spectroscopy]] HE15-9提供实际未定顺序的393.4/394.0-keV例子。下面只检验排序信息的条件，不把暂定的两个(E2)或Jπ提升为已确定输入。[[rose-brink-1967-phase-defined-angular-distributions]] RB67-3的Eq3.73以随机初态为条件；RB67-11的CG/helicity振幅是任务重构的依据。
+
+### 随机初态与更强的maximal-coupling条件
+
+静态级联的随机初态没有外部取向轴，helicity-summed joint intensity只能依赖 `hat n1·hat n2`，所以交换两方向仍相同。若两个排序假设只交换同rank纯跃迁的能量标签、保持spin sequence及共同response，这种γγ强度数据不给先后信息。这里不能把有取向初态默认为随机。
+
+有一个更强的、无需随机初态的条件。取两个同rank、同E/M类型的纯stretched downward跃迁，`Ji=Jm+L`、`Jm=Jf+L`、`L≥1`。在一致的CG相位约定下，设 `Mi=Mf+μ1+μ2`、`Mm=Mf+μ2`，两个maximal-coupling系数之积为
+
+\[
+\begin{aligned}
+&\langle J_mM_m,L\mu_1|J_iM_i\rangle
+\langle J_fM_f,L\mu_2|J_mM_m\rangle\\
+&=\sqrt{\frac{\binom{2J_f}{J_f+M_f}
+\binom{2L}{L+\mu_1}\binom{2L}{L+\mu_2}}
+{\binom{2J_i}{J_i+M_i}}}.
+\end{aligned}
+\]
+
+中间态binomial约掉，剩余表达式对 `μ1↔μ2` 对称。因此完整两photon angular/helicity振幅满足 `S(q1,n1;q2,n2)=S(q2,n2;q1,n1)`；任意同一initialρ，包括有alignment或coherence的ρ，都保留此性质。若两个假设仅交换能量标签，任何共同的角度/偏振measurement与finite acceptance不能从相同的angular photon state创造顺序信息。这个结论针对declared angular model；不同时间、能量强度/寿命、旁路、intermediate interactions或更高/混合multipoles需另建模型。
+
+### 独立数值与非stretched失败控制
+
+自设pure E2 `19/2→15/2→11/2`，一条路线直接用maximal binomial，另一条路线在product-spin空间构造total `J²`、取highest M eigenvector并逐次lower，两个CG表一致。四个自设方向的16组pair中，full-amplitude exchange最大差 `4.48×10⁻16`；random、chosen Gaussian `σ/J=.3` 与chosen coherent initial state的intensity差均在浮点误差内。不能把这些数值当成实验精度。
+
+改为自设 `19/2→17/2→13/2`、仍两条pure E2，第一条非stretched，maximal-coupling证明不再适用。random initial的intensity交换仍相同；chosen Gaussian initial在自设方位/点角下，两个排序的normalized point intensity为 `.879316/1.297627`。这是有取向非stretched例子的可能信息，不是对193Bi的预测或实测significance。
+
+复算入口为 [day14_cascade_order_identifiability.py](../../system/scripts/day14_cascade_order_identifiability.py)，结果为 `outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/cascade-order-identifiability.json`。51项CG normalization、独立maximal/ladder、ρ/feeding与exchange/非stretched控制通过；没有将算法检查数视为独立实验。
+
+### Feeding不是每层重新指定同一个Gaussian
+
+第一γ未观测时，中间态的实际model population由channel给出 `ρm=Tr_ph(V1ρiV1†)`。在chosen diagonal initial下，`wm(Mm)=ΣMi,μ1 wi(Mi)|CG1|²`；random initial给random middle，但chosen Gaussian通常不等于中间态同一个 `σ/J` 的Gaussian。
+
+上述两条toy链的exact feeding middle population与另行假设 `σ/J=.3` 的middle Gaussian，L1距离分别 `.076428/.143581`。这些是已声明toy下的概率距离，不是数据残差或真实feeding拟合。无条件每层重置Gaussian增加一个未经观测约束的输入，可能改变reference→target迁移。
+
+### 判定与下一观测
+
+本任务决定 `revises` “有取向便能用更精细角数据判同rank双线先后”的过宽预期。应先检验是否落在上述交换对称性；若是，优先独立中间态分支/能级、可分辨的时间信息或能证明该角模型条件失效的观测。HE15-9的未知order、shared R/A以及所有review flags保留；这项条件证明不判断真实双线是否满足pure/stretched、共同response或无中间演化条件。
+
 ## Sources
 
 [[konigshofen-2001-mixing-ratios-130ba]] demonstrates a three-angle low-spin application: efficiency-corrected `W(180°)/W(90°)` and `W(55°)/W(90°)` ratios can yield a unique `δ` for 18 `130Ba` transitions when the spin/parity and pure-E2 reference assumptions hold. The unresolved `4+_3→3+_1` row remains an explicit multi-solution boundary.
