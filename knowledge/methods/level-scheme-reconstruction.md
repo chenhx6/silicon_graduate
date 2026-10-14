@@ -81,6 +81,79 @@ Herzáň Figure 2、Table I、Figure 5 是同一 acquisition 的图/表/投影�
 
 Self-audit结果：`supports` level/transition identity与联合assignment；`limits` 单峰、单门、closure或relative Iγ的结构解释。SD序列的X、括号spins和tentative linking是另一种必要保留的不确定性。原始事件、response和covariance不足，当前只有L2/L3方法审计，不是新实验L4。
 
+## Day14 五能级七跃迁逐边审计
+
+原作者 Figure2 的五个 level label 为605、929、1228、1556、1875 keV，Jπ依次为13/2+、15/2+、17/2+、19/2+、21/2+。本次逐边重建只复核已发表的子图，未发现或重新测量“新线”。其中319.8-keV行在 Table I 的 Other transitions（PDF p.7），不能因为它未列在第一页Band1小标题下就漏掉。
+
+```mermaid
+graph TD
+  E["1875 · 21/2+"] -->|"319.8 · M1"| D["1556 · 19/2+"]
+  D -->|"327.4 · M1"| C["1228 · 17/2+"]
+  C -->|"299.2 · M1"| B["929 · 15/2+"]
+  B -->|"323.4 · M1"| A["605 · 13/2+"]
+  C -->|"622.4 · E2"| A
+  D -->|"626.2 · E2"| B
+  E -->|"646.9 · E2"| C
+```
+
+下表将能量、符合、multipolarity 和 Jπ 的证据等级分开。E 表示原表直接给出的峰能量；C 表示作者通过γγ/γγγ与能量和联合放置；M 表示报告的R/A支持作者电磁赋值；J 表示依赖已知spin/parity锚点、stretched/混合条件和全图的赋值。C/M/J不等于本任务有事件级数据独立复现。`0.1 keV` 是打印拟合误差，caption 的额外约0.3 keV仍须另计。
+
+| Eγ(keV) / 母→子 | Iγ（原表标度） | Rexp | ΔIPDCO | multipolarity / 分级 | 符合与Jπ边界 | source locator |
+| --- | ---: | --- | --- | --- | --- | --- |
+| 323.4(1) / 15/2+→13/2+ | 1000(57) | 0.74(4) | −0.012(1) | M1；E直接、M联合赋值 | Figure5(a)祖先154-keV门的约323峰含四线；Figure5(b)此门选多条feeding，不能独立给出全部相邻线顺序；C/J为source-level联合赋值。 | HE15-4、HE15-5；PDF p.3 Table I / p.8 Fig.2 / p.10 Fig.5 |
+| 299.2(1) / 17/2+→15/2+ | 258(8) | 0.68(2) | −0.032(1) | M1；E直接、M联合赋值 | 上游门能支持归带，仍需区分同带299.8-keV高spin线；C/J不是新独立测量。 | HE15-4、HE15-5；PDF p.3 / p.8 / p.10 |
+| 327.4(1) / 19/2+→17/2+ | 196(6) | 0.68(2) | −0.004(1) | M1；E直接、M联合赋值 | 本身也是Figure5(a)复合峰成员；较小的A不能替代δ测量或独立spin锚点。 | HE15-8、HE15-5；PDF p.3 / p.8 / p.10 |
+| 319.8(1) / 21/2+→19/2+ | 125(4) | 0.60(2) | −0.039(2) | M1；E直接、M联合赋值 | 表尾Other transitions；Figure2圆整为320，仍须保留共用门的混合分量。 | HE15-8；PDF p.7 / p.8 |
+| 622.4(1) / 17/2+→13/2+ | 121(5) | 1.30(16) | +0.086(10) | E2；E直接、M联合赋值 | 与299.2→323.4是互斥的同母态直接/级联路径；三者不应被要求同一单核衰变中强互符合。 | HE15-4；PDF p.3 / p.8 |
+| 626.2(1) / 19/2+→15/2+ | 102(4) | 1.48(6) | +0.094(9) | E2；E直接、M联合赋值 | 与327.4→299.2构成两路闭合；Figure5(a)标622&626，公开门谱未独立提供逐对净面积/协方差。 | HE15-8；PDF p.3 / p.8 / p.10 |
+| 646.9(1) / 21/2+→17/2+ | 108(4) | 1.47(6) | +0.091(4) | E2；E直接、M联合赋值 | 与319.8→327.4构成两路闭合；仍共享γγ/γγγ事件与标定，J沿图有条件传播。 | HE15-8；PDF p.3 / p.8 |
+
+M1/E2 label不表示已测δ=0；绝对spin锚点也不是从这些比值单独求得。作者的Rexp是同门、效率校正的157.6°/75.5°角度强度比（HE15-4，PDF p.2），不是可以不加说明搬用的“已知纯E2参考门DCO”。这些互补观测共享一个JYFL acquisition，并非七条独立实验。
+
+## 能量图的闭合、标定与拓扑边界
+
+令D的每行在母态列取+1、子态列取−1，则本图有5个nodes、7条edges，rank(D)=4。`D·1=0`：没有绝对锚点时，整体能量平移不可测。取能量向量顺序为 `(323.4,299.2,327.4,319.8,622.4,626.2,646.9)`，三个独立闭合残差为：
+
+1. `323.4+299.2−622.4=0.2 keV`；
+2. `299.2+327.4−626.2=0.4 keV`；
+3. `327.4+319.8−646.9=0.3 keV`。
+
+闭合矩阵C满足`CD=0`，但统计上三个残差不独立。若仅作练习，把每条0.1-keV拟合误差与caption约0.3 keV按平方和相加并假定各线独立，则`Σ=0.1 I keV²`，`CΣCᵀ=0.1×(3,1,0; 1,3,1; 0,1,3) keV²`。相邻闭合共享一条边，相关系数为1/3。用同一Σ的GLS与cycle-space检验均得`χ²=0.666667`、3 degrees of freedom；若只用打印拟合误差则为`6.666667`。两者都是声明误差模型下的练习，不能挑一项充当作者的最终显著性；论文未给完整Σ。
+
+GLS相对最低node的结果是`0,323.366667,622.433333,949.666667,1269.4 keV`，仅用于检验七条测量方程的相容性，不替换Figure2圆整level label，也不提供新的绝对能级。把浮动node差、固定打印能级和独立绝对anchor混入同一fit会改变问题定义。
+
+标定敏感性具有不同物理含义。共同加性offset在“二光子减一光子”闭合中保留：`C·1_edges=(1,1,1)`；同一gain作用于真实闭合的gap向量时被C消掉。自设offset σ=0.2 keV或gain σ=0.001分别作为counterfactual，不是本实验校准误差。若将offset完全浮动，模型多一个parameter，余2 degrees of freedom；条件解offset=0.28±0.374 keV、χ²=0.106667也不能据此宣布原来源有offset问题。故“闭合良好”不能独自认证能量scale、emitter身份、图拓扑或Jπ。
+
+**真实来源的顺序反例：** HE15-9（Table I footnote f）明确说393.4/394.0-keV双线顺序未定，所列R/A是共享值。以打印1258.1-keV下方能级作为演示锚点，两种顺序都给upper=2045.5 keV，intermediate分别为1651.5或1652.1 keV；交换顺序仍满足能量和以及假设的两个ΔI=2。它们是条件替代放置，不是两套已测纲图。需要能够分别限制一条线母/子态的branch、时间顺序或独立tag，而非再次重复求和。
+
+SD的13-edge/14-node浮动链同样rank=13、存在整体平移nullspace。Table II的X不会因为十三条γ能量都可加起来而变成已知；1836-keV候选link无确定endpoint且未confirmed，不能用其能量先固定X再反向宣称link正确（HE15-6）。
+
+可复算脚本：[day14_level_scheme_audit.py](../../system/scripts/day14_level_scheme_audit.py)，输入转录：[level-scheme-fixture.json](../../outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/level-scheme-fixture.json)。35项检查包括rank/nullspace、CD=0、GLS–cycle χ²、独立whitened least squares、换行顺序不变、标定模式、刻意错移一条crossover、双线换序和SD nullspace。数值输出：[level-scheme-analysis.json](../../outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/level-scheme-analysis.json)。科学公式、结果、条件与反证均在本知识页；outputs只是转录/重算回执。
+
+## 标定、寿命与伴随观测的逐项契约
+
+由HE15-10的实际标定，`a(323.4)=1.0955364`；报告`A=−0.012`对应条件计数比`N⊥/N∥=(1+A)/(a(1−A))=0.8911476`。若对相同比值错误地令a=1，会得到`A=−0.0575589`。这是原公式的反事实重算，没有原始counts；不是测到的新A，也不重估作者的误差。`a(E)`修正几何非对称，`Q(E)`才把A接到P，不能合并两者或忽略fit coefficient covariance。
+
+同母态两条已报告γ的条件强度比分别为`258/121=2.132231`、`196/102=1.921569`、`125/108=1.157407`。它们不等于总branch、寿命或absolute B；要得到M1/E2的radiative components，还需δ、ICC、未观测branches、gate acceptance及source correction。HE15-12的153(10)-ns是13/2+ bandhead的先前半衰期，不能赋给17/2+、19/2+、21/2+这些parent。
+
+| 会改变纲图/赋值的观测 | 最小可信输入 | 判别与停止边界 |
+| --- | --- | --- |
+| 干净622.4-keV直接分支门内出现强299-keV分量，而323.4级联门的component比例不同 | 确认622/626门纯度，逐门response、多核/random控制、上方feeding | 先拆299.2/299.8或污染component；不把branch互斥关系违背自动写成新cascade。 |
+| 393/394双线的一条存在独立定位的旁路或延迟顺序 | 净γγ/γγγ或electron/γ时间关联、背景/接受度 | 可能裁决中间level；仅一张共同下方门或两条共同R/A不足。 |
+| SD candidate link与确定Band6 endpoint形成可信多重符合，能量和/电磁性质闭合 | endpoint identity、逐门净计数、false-link对照、response/效率 | 才可能固定X与相关spin；当前仍expected-but-not-established。 |
+| 46/87-keV弱γ未见但conversion electron与下游flow闭合 | 低能响应/阈值、x-ray分量、ICC与branching | HE15-13的α=261/12.82会强抑制γ，未见峰不能单独反驳路径；需校准上限。 |
+| 从isomer的84-keV decay推Jπ时发现Band1 anchor或parallel path失效 | independent spin/parity anchor、84/137/455转换与条件路径 | HE15-11明确依赖Band1；有条件赋值应随锚点重审，不能把内转换当新absolute spin测量。 |
+
+## 第二周证据链的可复用认识修正
+
+从布居、门控、响应到能级与结构结论，应为每个层级补相称信息，而非将同一事件的多个投影累加成多个独立实验。本周的三个判断在HE15-4/8–12的source-to-method审计中具体落地：
+
+- **supports：** 校准能量、互补角度/偏振和branch/cube支持原作者的source-level子图；一图一表及各续页必须联查，页内分组不是物理band成员的完整边界。
+- **limits：** 多条闭合共享边并相关；更好χ²不验证拓扑；一峰共享DCO/IPDCO不识别每条component；relative Iγ和bandhead半衰期不能跳接到其它母态absolute B。
+- **revises：** 最有信息的下一项测量应针对尚未识别的自由度。393/394问题要独立endpoint/time/branch，SD X要confirmed link，电磁strength要逐母态τ/branch/δ；重复同一能量和或祖先门不足以解除这些边界。
+
+这是跨层级方法综合，不改变193Bi或A≈130集体模式的排序。P0科学措辞已self-audit：保留shared measurements、未知X、括号Jπ与原source review flags；没有技术hard P0。P1保留事件级response/calibration/feeding缺口。普通发表的图表重算属L2，actual event-level L4重分析仍not-ready。
+
 ## Sources
 
 - [[herzan-2015-193bi-spectroscopy]] HE15-4：PDF p.3 Table I / p.8 Fig.2 / p.2 setup-specific ratios。

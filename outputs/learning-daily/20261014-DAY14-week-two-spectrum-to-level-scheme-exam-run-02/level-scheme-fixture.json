@@ -1,0 +1,33 @@
+{
+  "raw_file": "raw/papers/gpt/high-spin-20260920/纲图/2015_Herzáň et al_Detailed spectroscopy of Bi 193.pdf",
+  "raw_sha256": "f727485ad0f52269a66b27272dac75d34d9e67aaf8b073631cfeac5fe81d3aea",
+  "source": "knowledge/sources/herzan-2015-193bi-spectroscopy.md",
+  "levels": [{"rounded_keV":605,"Jpi":"13/2+"},{"rounded_keV":929,"Jpi":"15/2+"},{"rounded_keV":1228,"Jpi":"17/2+"},{"rounded_keV":1556,"Jpi":"19/2+"},{"rounded_keV":1875,"Jpi":"21/2+"}],
+  "transitions": [
+    {"id":"L323.4","energy_keV":323.4,"fitting_error_keV":0.1,"parent":1,"daughter":0,"relative_intensity":1000,"intensity_error":57,"Rexp":0.74,"Rexp_error":0.04,"IPDCO":-0.012,"IPDCO_error":0.001,"assigned_multipolarity":"M1","locator":"HE15-4","table_page":3},
+    {"id":"L299.2","energy_keV":299.2,"fitting_error_keV":0.1,"parent":2,"daughter":1,"relative_intensity":258,"intensity_error":8,"Rexp":0.68,"Rexp_error":0.02,"IPDCO":-0.032,"IPDCO_error":0.001,"assigned_multipolarity":"M1","locator":"HE15-4","table_page":3},
+    {"id":"L327.4","energy_keV":327.4,"fitting_error_keV":0.1,"parent":3,"daughter":2,"relative_intensity":196,"intensity_error":6,"Rexp":0.68,"Rexp_error":0.02,"IPDCO":-0.004,"IPDCO_error":0.001,"assigned_multipolarity":"M1","locator":"HE15-8","table_page":3},
+    {"id":"L319.8","energy_keV":319.8,"fitting_error_keV":0.1,"parent":4,"daughter":3,"relative_intensity":125,"intensity_error":4,"Rexp":0.60,"Rexp_error":0.02,"IPDCO":-0.039,"IPDCO_error":0.002,"assigned_multipolarity":"M1","locator":"HE15-8","table_page":7},
+    {"id":"L622.4","energy_keV":622.4,"fitting_error_keV":0.1,"parent":2,"daughter":0,"relative_intensity":121,"intensity_error":5,"Rexp":1.30,"Rexp_error":0.16,"IPDCO":0.086,"IPDCO_error":0.010,"assigned_multipolarity":"E2","locator":"HE15-4","table_page":3},
+    {"id":"L626.2","energy_keV":626.2,"fitting_error_keV":0.1,"parent":3,"daughter":1,"relative_intensity":102,"intensity_error":4,"Rexp":1.48,"Rexp_error":0.06,"IPDCO":0.094,"IPDCO_error":0.009,"assigned_multipolarity":"E2","locator":"HE15-8","table_page":3},
+    {"id":"L646.9","energy_keV":646.9,"fitting_error_keV":0.1,"parent":4,"daughter":2,"relative_intensity":108,"intensity_error":4,"Rexp":1.47,"Rexp_error":0.06,"IPDCO":0.091,"IPDCO_error":0.004,"assigned_multipolarity":"E2","locator":"HE15-8","table_page":3}
+  ],
+  "caption_extra_error_keV": 0.3,
+  "counterfactual_common_offset_sigma_keV": 0.2,
+  "counterfactual_gain_sigma": 0.001,
+  "deliberate_corruption_keV": 3.0,
+  "unresolved_doublet_keV": [393.4,394.0],
+  "doublet_lower_anchor_keV": 1258.1,
+  "doublet_locator": "HE15-9",
+  "polarization_normalization_coefficients": [1.113,-0.000054],
+  "polarization_locator": "HE15-10",
+  "boundaries": [
+    "Rounded level labels and photon energies are not independent data. The anchor is an arbitrary zero for the fitted relative level energies.",
+    "The caption adds about0.3 keV; quadrature and per-line independence are declared exercise assumptions. No experimental covariance was supplied.",
+    "Common offset/gain uncertainties, the3-keV corruption and the doublet-order calculation are counterfactual controls, not measured calibration errors or revised levels.",
+    "Energy closure assumes photon energies equal level gaps at the printed precision; exact photon recoil is outside this exercise.",
+    "Source final multipolarity labels are assignments, not measurements of delta=0. Shared doublet R/A cannot be assigned to each component independently.",
+    "Intensity ratios are conditional photon-intensity ratios, not total branching probabilities, lifetimes, absolute B values or collective-mode evidence.",
+    "Table I, Figure2 and Figure5 share one acquisition. The13/2+ bandhead half-life is an external Ref7 dependency, not a parent lifetime for these seven lines."
+  ]
+}

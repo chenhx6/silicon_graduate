@@ -1690,3 +1690,8 @@ Depth特殊极限和historicalNPTool object/单位/getter/mass/caller审计及se
 ## 2026-10-14T15:04:21.971452+08:00 — DAY13 original-deadline closeout
 
 原15:00研究截止已观察，之后closeout-only。155items/32mappedpaths、十项合成统计/速度分析与source/model/independence/readiness审核完成；CM21-22 tuning-not-sigma，pair/profile/projection与latecontrolvertex/frame明确。Lint0errors/128warnings、report/card/writeback/protected/hash/AST/state/diff通过；18rawslots不改、实验refit未ready、next14/count13不重计。46filemanifest/isolatedlog准备H3发布。main / `Finalize DAY13 statistical and velocity validation contracts`，actualoutcome见runreceipt。
+
+
+## 2026-10-14T19:35:55.416781+08:00 — DAY14 formal-exam checkpoint
+
+FormalDay14 primedrecall、HerzáňFigure2/TableI七边/shared-doublet与unknownX边界、35-check相关cycle/标定、六维21/24/weeklyREFLECT已canonical；一块writeback4items/3pages，sourceflags/raw/PLAN/Bib保留。Lint0errors/128warnings及report/card/writeback/protected/rawmetadata/diff通过；首次matrix-wikilink error修复留证。Run/session仍active至原2026-10-15 15:00，当前next14/count13待H3后只计14；继承Day6–9/Day13/daemon/旧log排除。main / `Complete DAY14 spectrum-to-level-scheme formal exam`，actualhash/push只receipt。

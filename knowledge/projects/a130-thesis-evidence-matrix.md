@@ -32,10 +32,13 @@ tags: [a130, thesis-pipeline, evidence-matrix, collective-modes, durable-learnin
 
 当前内容来自 evidence-contract、reaction-population 与 Doppler/level-scheme 方法审计，属于 Codex self-audit / `unreviewed` 训练资产，不是人工审核后的 claim registry。
 
+本轮方法增量：[[level-scheme-reconstruction]] 通过193Bi五能级七跃迁、相关闭合和未定双线顺序固化spectrum→placement→Jπ→strength的分层判据。193Bi作为A≈190方法对照，不是A≈130新实验或模式证据。
+
 ## Evidence matrix
 
 | Candidate | Direct observables | Assignment handles | Interpretation boundary | Necessary next observables | Source lineage |
 |---|---|---|---|---|---|
+| Day14 spectrum-to-level identity and correlated closure | 193Bi Figure2/Table I有五level七边；319.8-keV行在Other transitions；393.4/394.0双线表注明确未定顺序且R/A共用。 | 逐边E、γγ/γγγ联合placement、阵列特定Rexp/IPDCO和spin锚点；[[level-scheme-reconstruction]]记录图/表和35-check条件重算。 | 七边能量图只有三个独立cycle，且共享边令残差相关；good closure不能认证topology、spin、calibration gain或模式。Shared doublet R/A不是两条独立性质。 | 能够定位双线endpoint的branch/time/tag；逐门response与calibration Σ；逐母态τ、branches、ICC、δ。SD绝对X仍需confirmed link。 | [[herzan-2015-193bi-spectroscopy]] HE15-4/8/9/10/11/12是一个JYFL acquisition及Ref7寿命依赖；A≈190方法参照，非A≈130独立复测。GLS和counterfactual是任务推导。 |
 | `127I` high-spin scheme | γ energies, coincidence/intensity balance, energy sums, `R_ADO`; Ding thesis Fig. 5.1–5.2 and Tables 5.1 (PDF pp.58–62; printed pp.50–54) | ADO plus sequence/systematics; labels remain source assignments | Energy closure supports placement, not unique `J^π`, configuration, or collective mode; ADO is geometry-specific | transition-level mixing ratio, polarization, lifetimes and absolute `B(E2)/B(M1)` | [[ding-2012-phd-thesis-127-128i-high-spin]]; single Ding experimental lineage |
 | `128I` coupled structures | γ placements around the 167.4-keV `(6−)` isomer, `R_ADO`, model comparison; Fig. 6.2 and Tables 6.1, PDF pp.75–81 (printed pp.67–73) | ADO, coincidence, shell-model/NPA comparison | Reversed `6−/7−` ordering and ambiguous `8−` configuration limit a unique structural reading; no clear chiral doublet | conversion coefficients, polarization/mixing ratios, lifetimes and stronger linking constraints | [[ding-2012-phd-thesis-127-128i-high-spin]]; dependent thesis/Wiki derivatives |
 | `131Ce` continuity contract | Current Wiki question highlights missing `δ`, polarization, partner-resolved absolute strengths and links | Existing source/project evidence only; no new L3/L4 analysis in Day 1 | Signature/configuration, γ-soft, wobbling, chirality and shape coexistence remain competing explanations | complete transition properties, absolute strengths, linking transitions, and if applicable g-factor/transfer observables | [[131ce-collective-mode-discrimination]]; multiple dependent lineages |

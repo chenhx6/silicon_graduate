@@ -6,7 +6,17 @@ updated: 2026-10-14
 
 # 跨会话交接
 
-## Active handoff — DAY13 continuous study reopened by user
+## Active handoff — DAY14 formal exam and continuous study
+
+Run `2026-10-14-day-14-02` / session `01a13a0e-e8bd-7251-b970-f6975679e281`；原research cutoff `2026-10-15T15:00:00+08:00`不改，goal/research仍active。FormalDay14内容已完成：primed来源前回忆冻结、Herzáň全文主线/一图一表/七边、shared-doublet与unknownX边界、35-check相关cycle/标定exercise、六维21/24与weekly REFLECT。三份knowledge真实增量、唯一writeback4items；原sourceflags保留，event-level L4 not-ready。
+
+检查：report/card/writeback/protected/rawmetadata/diff通过；lint exit0（0errors/128warnings）；初次matrix-wikilink error已修复。日报 `outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam.md`；receipt/run-dir为同stem的`-run-02/`；续接prompt已保存。课程credit仅在H3发布后推进一次，当前仍next14/count13。当前内容稳定pointer main / `Complete DAY14 spectrum-to-level-scheme formal exam`；精确hash与actual push仅receipt。
+
+下一current问题：conditional gate/branch互斥与response辨识，或能定位393/394 endpoint/time/tag的最小设计。未以本checkpoint结束时窗；局部饱和后最多查下一张Day15无学分预习，不打开Day16。Day15入口prompt已准备、不启动session。Farmer8686与同thread clock75781保留，queueaccepted不冒称delivery。
+
+继承Day6–9/Day13回执、旧log与daemon修改排除stage；raw/PLAN/Bib未动。恢复 `codex resume 01a13a0e-e8bd-7251-b970-f6975679e281 -C /workspace/wiki -s danger-full-access -a never`。
+
+## Previous active handoff — DAY13 continuous study reopened by user
 
 DAY13内容已通过H3并发布/对账（2026-10-14T15:15:14.362374+08:00）。科学稳定指针 main / `Finalize DAY13 statistical and velocity validation contracts`；完成回执指针 main / `Record DAY13 completion after published closeout`，精确hash与实际命令仅runreceipt。Research/卡已complete、state14/count13保留；run completed只交付或讨论既有DAY13。原sourceflags/raw/PLAN/继承修改保留，experimentalrefit仍notready。
 

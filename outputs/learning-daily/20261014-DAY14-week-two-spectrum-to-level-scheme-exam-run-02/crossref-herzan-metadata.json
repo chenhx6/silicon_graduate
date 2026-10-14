@@ -1,0 +1,12 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "{\n  \"title\": \"Detailed spectroscopy of<mml:math xmlns:mml=\\\"http://www.w3.org/1998/Math/MathML\\\"><mml:mmultiscripts><mml:mi>Bi</mml:mi><mml:mprescripts/><mml:none/><mml:mn>193</mml:mn></mml:mmultiscripts></mml:math>\",\n  \"authors\": [\n    \"A. Herzáň\",\n    \"S. Juutinen\",\n    \"K. Auranen\",\n    \"T. Grahn\",\n    \"P. T. Greenlees\",\n    \"K. Hauschild\",\n    \"U. Jakobsson\",\n    \"P. Jones\",\n    \"R. Julin\",\n    \"S. Ketelhut\",\n    \"M. Leino\",\n    \"A. Lopez-Martens\",\n    \"P. Nieminen\",\n    \"M. Nyman\",\n    \"P. Peura\",\n    \"P. Rahkila\",\n    \"S. Rinta-Antila\",\n    \"P. Ruotsalainen\",\n    \"M. Sandzelius\",\n    \"J. Sarén\",\n    \"C. Scholey\",\n    \"J. Sorri\",\n    \"J. Uusitalo\"\n  ],\n  \"year\": 2015,\n  \"doi\": \"10.1103/physrevc.92.044310\",\n  \"journal\": \"Physical Review C\",\n  \"source\": \"crossref\",\n  \"citation_count\": 17,\n  \"abstract\": \"\",\n  \"volume\": \"92\",\n  \"issue\": \"4\",\n  \"pages\": \"\",\n  \"publisher\": \"American Physical Society (APS)\",\n  \"type\": \"journal-article\",\n  \"references_count\": 69,\n  \"url\": \"https://doi.org/10.1103/physrevc.92.044310\"\n}"
+    }
+  ],
+  "structuredContent": {
+    "result": "{\n  \"title\": \"Detailed spectroscopy of<mml:math xmlns:mml=\\\"http://www.w3.org/1998/Math/MathML\\\"><mml:mmultiscripts><mml:mi>Bi</mml:mi><mml:mprescripts/><mml:none/><mml:mn>193</mml:mn></mml:mmultiscripts></mml:math>\",\n  \"authors\": [\n    \"A. Herzáň\",\n    \"S. Juutinen\",\n    \"K. Auranen\",\n    \"T. Grahn\",\n    \"P. T. Greenlees\",\n    \"K. Hauschild\",\n    \"U. Jakobsson\",\n    \"P. Jones\",\n    \"R. Julin\",\n    \"S. Ketelhut\",\n    \"M. Leino\",\n    \"A. Lopez-Martens\",\n    \"P. Nieminen\",\n    \"M. Nyman\",\n    \"P. Peura\",\n    \"P. Rahkila\",\n    \"S. Rinta-Antila\",\n    \"P. Ruotsalainen\",\n    \"M. Sandzelius\",\n    \"J. Sarén\",\n    \"C. Scholey\",\n    \"J. Sorri\",\n    \"J. Uusitalo\"\n  ],\n  \"year\": 2015,\n  \"doi\": \"10.1103/physrevc.92.044310\",\n  \"journal\": \"Physical Review C\",\n  \"source\": \"crossref\",\n  \"citation_count\": 17,\n  \"abstract\": \"\",\n  \"volume\": \"92\",\n  \"issue\": \"4\",\n  \"pages\": \"\",\n  \"publisher\": \"American Physical Society (APS)\",\n  \"type\": \"journal-article\",\n  \"references_count\": 69,\n  \"url\": \"https://doi.org/10.1103/physrevc.92.044310\"\n}"
+  },
+  "isError": false
+}

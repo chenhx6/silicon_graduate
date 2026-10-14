@@ -3,7 +3,7 @@ type: source
 title: "Herzáň et al. 2015 - Detailed spectroscopy of 193Bi"
 aliases: [Herzan 2015 193Bi spectroscopy]
 created: 2026-09-21
-updated: 2026-10-13
+updated: 2026-10-14
 status: ai-draft
 review_status: unreviewed
 source_type: journal-article-experiment
@@ -49,7 +49,7 @@ The level scheme extends Band 1 (`πi13/2`) to `45/2+`, Band 2 to `29/2−`, and
 
 ## Isomers and Shape Interpretation
 
-The known `(29/2−)` isomer has `T1/2=3.02(8) μs`; a `49 keV` transition is observed in delayed γ–electron coincidence and has a conversion coefficient consistent with E2, placing the isomer at about `2405 keV` (pp.12–15, Figs.6–9). A new `29/2+` isomer at `2350 keV` has `T1/2=85(3) μs` and decays through an `84 keV` E2 transition with `B(E2)=1.6(1)×10−3 W.u.`; the authors associate it with a `π(h9/2 i13/2)`-coupled oblate configuration (pp.15–18, Figs.8, 17).
+The known `(29/2−)` isomer has `T1/2=3.02(8) μs`; a `49 keV` transition is observed in delayed γ–electron coincidence and has a conversion coefficient consistent with E2, placing the isomer at about `2405 keV` (pp.12–15, Figs.6–9). A new `29/2+` isomer at `2350 keV` has `T1/2=85(3) μs` and decays through an `84 keV` E2 transition with `B(E2)=1.6(1)×10−3 W.u.`; the authors associate it with the three-quasiparticle `π(h9/2² i13/2)` configuration, interpreted as an i13/2 proton coupled to the oblate8+ proton-pair state in192Pb (PDF pp.18–19, Sec.IV.B and conclusion). This is an author interpretation, separate from the measured decay.
 
 Band 3 resembles a low-energy M1 sequence but receives E2 links and is extended to `(37/2−)`; the authors do not promote it to a universal shears assignment. A superdeformed band based on the favored `1/2[651]` proton orbital is nearly identical in transition energies to the SD band in `191Bi` and `193Tl`, but absolute transition probabilities are still needed to confirm SD character (pp.11, 18–19, Fig.18).
 
@@ -64,6 +64,13 @@ Band 3 resembles a low-energy M1 sequence but receives E2 links and is extended 
 | HE15-5 | Fig.5(a), gated on the154-keV transition, describes the peak labeled323 keV as a quadruplet of315,320,323,327-keV transitions. Fig.5(b) is gated on323.4 keV and shows feeding into Band1. Table I also places299.8(1) keV higher in Band1 (41/2+→39/2+), distinct from299.2(1) (17/2+→15/2+). | experimental-fact | direct | PDF p.10, Fig.5 caption; PDF p.3, Table I | true |
 | HE15-6 | The SD Table II retains an unknown bandhead energy X and parenthesized spin/parity assignments. A weak1836(5)-keV candidate is seen in coincidence with168.3 and331.7 keV; authors require more statistics to confirm it as a link to Band6. It cannot fix X as a confirmed absolute level in the present evidence. | experimental-fact | direct | PDF p.15, Table II; Fig.13; Sec.III.B | true |
 | HE15-7 | The authors do not observe the expected low-energy SD transitions near87 and46 keV. They discuss overlap with the87.4-keV Bi x ray and large E2 conversion coefficients as reasons the γ rays could be very difficult to observe; the assumed intensity flow through these lines remains an interpretation. | author-interpretation | direct | PDF p.19, Sec.IV.D | true |
+| HE15-8 | Band1 Table I adds 327.4(1) keV, 19/2+→17/2+, Iγ=196(6), Rexp=0.68(2), ΔIPDCO=−0.004(1); 626.2(1) keV, 19/2+→15/2+, Iγ=102(4), Rexp=1.48(6), ΔIPDCO=+0.094(9); and 646.9(1) keV, 21/2+→17/2+, Iγ=108(4), Rexp=1.47(6), ΔIPDCO=+0.091(4). The 319.8(1) keV 21/2+→19/2+ row is under Other transitions on p.7: Iγ=125(4), Rexp=0.60(2), ΔIPDCO=−0.039(2), listed M1. Figure2 rounds these levels to605,929,1228,1556,1875 keV. | experimental-fact | direct | PDF p.3, Table I; PDF p.7, Table I continuation; PDF p.8, Fig.2 | true |
+| HE15-9 | Table I footnote f explicitly says the DCO/IPDCO value applies to both 393.4(1) and394.0(1) keV transitions and their order is unclear because their energies are too close in the coincidence spectrum. The displayed Rexp is1.26(16), and the displayed ΔIPDCO is−0.076(11); parenthesized spins and (E2) labels remain tentative. These are shared doublet quantities, not two independent line-resolved polarization measurements. | experimental-fact | direct | PDF p.7, Table I footnote f | true |
+| HE15-10 | Figure3 fits a(Eγ)=a0+a1Eγ with a0=1.113(7), a1=−5.4(8)×10−5 per keV; p.7 defines a=Nparallel(unpolarized)/Nperpendicular(unpolarized), measured with152Eu. Figure4 uses A=Q P and Q=Qpoint(p0+p1Eγ), p0=0.42(4), p1=−1.9(7)×10−4 per keV. The paper does not provide a joint calibration covariance for these parameters. | experimental-method | direct | PDF p.10, Fig.3; PDF p.10, Fig.4; PDF p.7, normalization definition | true |
+| HE15-11 | The85(3)-μs isomer is placed at2350 keV using the84-keV decay and parallel prompt paths614.0 keV and158.5+609.1 keV. The authors explicitly condition its29/2+ assignment on the correctness of Band1. Conversion analysis reports αK=0.133(19) for436 keV and0.032(6) for455 keV, and jointly assigns455/137-keV E2 character; the84-keV E2 character follows the level assignment. | experimental-assignment | mixed | PDF p.13, Sec.III.A.5; PDF p.14, conversion analysis | true |
+| HE15-12 | Band1's13/2+ bandhead half-life153(10) ns is cited from Nieminen et al., Ref.[7], not measured anew for the seven higher prompt lines selected here. Table I uses the323.4-keV line as normalization and prints1000(57), with299.2 at258(8) and622.4 at121(5). These are relative intensities, not absolute photon probabilities. | experimental-fact | direct | PDF p.10, Sec.III.A.1; PDF p.3, Table I | true |
+| HE15-13 | For the unobserved low-energy SD candidates, the authors quote αtot=261(4) at46 keV and12.82(18) at87 keV for E2 from Ref.[41]. Their assumed intensity flow,3/2+ or1/2+ endpoint, and calculated SD minimum near2.4 MeV remain interpretation/model, separate from the observed13-transition sequence and the unconfirmed1836-keV link. | author-interpretation | mixed | PDF p.19, Sec.IV.D | true |
+| HE15-14 | The authors propose the three-quasiparticle π(i13/2 h9/2²) configuration for the29/2+ isomer and describe the most likely scenario as an i13/2 proton coupled to the oblate8+ proton-pair state in192Pb. This is a configuration interpretation, not a direct observation of three orbitals; the earlier Wiki summary's missing square on h9/2 is corrected. | author-interpretation | direct | PDF p.18, Sec.IV.B; PDF p.19, conclusion | true |
 
 ## Summary
 
@@ -102,3 +109,15 @@ Herzáň *et al.* provide a dense high-spin/isomer spectroscopy reference in the
 原始PDF哈希复核一致；重点原图核验Table I(p.3)、Figure2(p.8)和Figure5(p.10)，并回读reaction/tagging(p.1–2)、Band1和isomer/SD主线(p.10–15)、configuration/SD解释与结论(p.16–20)的对应段落。本次预习不替代正式周考，也不改变原阅读/审核状态。[[level-scheme-reconstruction]] 固化三层子图、energy closure/covariance练习与复合峰/互斥branch控制；[[doppler-correction]] 使用HE15-5作独立的多线峰反例。
 
 299.2+323.4−622.4=0.2keV是本任务算术，不是作者单独报告的closure test。TableI/Fig.2/Fig.5共享同次实验；relative intensities、DCO/IPDCO与coincidences不能重复计成独立实验。HE15-4/5/6保持needs_review=true。
+
+## Day14 正式逐边复核与来源边界
+
+本次正式周考在保存标明 priming 的来源前回忆后，回读全文主线：动机与反应/阵列/标记（pp.1–2），全部 Table I 及表注（pp.3–7），Figure2 的两页纲图（pp.8–9），角度/偏振标定与门谱（p.10），各带、isomer 和 SD 的结果（pp.11–15），组态/形状讨论、systematics、结论与引用身份（pp.16–20）。视觉重点核 p.3 Table I、p.7 表尾与 footnote f、p.8 Figure2、p.10 Figures3–5、p.15 Table II/Figure13。Crossref 结构化元数据与本地 PDF 的作者、题名、年、卷和 DOI 一致；Crossref 回应未给文章页号，044310 来自 PDF 页眉，不用空字段反向改写页号。
+
+新增 HE15-8–14 只固化直接读到的行、表注、标定和条件性赋值，不清除任何既有 `needs_review`。七条 prompt 边、共享双线量和不定 X 的方法后果，见 [[level-scheme-reconstruction]] 的“Day14 五能级七跃迁逐边审计”和“能量图的闭合、标定与拓扑边界”。算术、GLS 和标定反事实均属于本任务 L2 练习，不能称为作者重新报告的能级或独立复测。
+
+### Agent self-audit triage — Day14
+
+- P0（科学边界，已 self-audit）：HE15-9 的 shared-doublet DCO/IPDCO 不能分配成两条已独立测量的电磁性质；保留未定顺序和括号赋值。HE15-6/7/13 的 SD、未知 X 和缺失弱线不能从模型或强内转换假设升格为确定绝对能级。技术 hard P0 未发现。
+- P1（已 self-audit）：HE15-8 的319.8-keV行确在 Other transitions；HE15-10 的 Eγ 单位是keV，a(Eγ)与Q(Eγ)不同；HE15-11 的29/2+赋值明确依赖Band1，HE15-12 的153-ns bandhead寿命不是七条边的母态寿命。原始逐门/逐角计数、calibration covariance、逐母态寿命/δ仍不可由本文补造。
+- P2：source→方法与方法→source 已互链，raw哈希一致。P3：本轮不是人类审核事件，原有 review_status 保持 unreviewed。
