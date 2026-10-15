@@ -10,9 +10,9 @@ updated: 2026-10-15
 
 同run2026-10-14-day-14-02/session01a13a0e-e8bd-7251-b970-f6975679e281。用户断网延期最终delivery **2026-10-16 16:00上海**；plannedresearchcutoff15:00，closeout15–16，不延至17。Nativegoal/researchactive；formal14七边35checks/21/24/weeklyREFLECT完成，completed14/partial15、officialnext14/count13等最终一次credit，不开Day16。
 
-第027批：actual D4有序gamma path/closure/相对ΔI/stencil/signature/offset与条件Σ/筛选71checks通过；LV25-34/35、PC22-19（PDF6式直接核）及observable/method同步。M4空/I23tentative/closure非零保持，149.254与另位置75.472不当矛盾，declaredmean筛选不是Nd51/23或Pr定轴。93items31changedpages，oldrows/review/raw/protected/AST/diff保持，freshlint0errors137warnings（110citekey/24rawslot/3parser），3newclaims parsedtrue。
+第028批：Matev2007 v1全文14页/6fig/3table已核；24程序/条件controls通过，但61triple中2条中心值在共享C/同估计器/舍入前提下不相容，原值/flag保留不修表，不判code错。Qt_x/y terminal、inversefamily、oddcore与同count联量条件已canonical，model fit误差非实验σ。Source/Qtobservable/configmethod/modelchoice/PT/index；99items33changedpages，18MT07+PT15-10 true，oldrows/review/raw/protected/AST/diff保持，freshlint0errors139warnings（111citekey/25rawslot/3parser），2/7覆盖不变。
 
-前26批Gitee已published；本批main / `Reconstruct DAY14 inertia from ordered gamma paths`，actualH3/hash仅receipt。下一nd-qt-companion-before-source.md含修正：Matev2007是Additivity题，未读body，不预设新τ实验；优先已核题名Laird2002 PRL88,152501（arxiv0，download可能pending），先poll manifest再核PDF。查Qt/γ实际实验与模型/重复引用，不把Nd移给Pr。旧PE98/KL99只作Wiki scopefingerprint；actual Prframe/RHBinput/Σ/1996primary仍缺，投影覆盖2/7不变。
+前27批Gitee已published；本批main / `Audit DAY14 transition quadrupole operators and model tables`，actualH3/hash仅receipt。下一riley2001-before-body.md：public作者报告13页已核title/header Vol32 No9 p2683，SHA09d58089a1985ef9d3d02432921b302a77c5d51eca9846bdea03dd9330d0d036，`tmp/day14-20261014/riley2001/riley2001-candidate.pdf`。Body/fig/table未读；沿主线核actual lifetime/Qt/共同systematics，不预设DSAM/逐τ或把2001当2002final。Laird最终稿仍缺，Practualframe/RHBinput/Σ/1996primary、193Bi actualresponse/τ/events仍缺；有当前可执行primary路线，不结束时窗。
 
 Clock001/002/005/008actualACK；旧Farmer8686/clock75781notlive未重启。恢复 `codex resume 01a13a0e-e8bd-7251-b970-f6975679e281 -C /workspace/wiki -s danger-full-access -a never`，先run.json/最新continuation按新时间门继续。保留raw/PLAN/Bib/review/继承dirty/log/daemon/scheduler混合文件，manifest/H3非force发布。
 

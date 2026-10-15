@@ -132,6 +132,16 @@ W17-10的v2 Eq.(25)中段有μ⊥²，末项却无平方；声明分量`μx=3,μ
 
 [day14_tac_blocking_following.py](../../system/scripts/day14_tac_blocking_following.py)完成[43-check量化](../../outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/tac2015-blocking-following.json)。首次42项后补了上述BdG eigenbasis有效性检查，最终43项全通过；这没有取得源程序/Pr136实际输入，不能补Q1 spectator、判作者code错或提升模型π为实验事实。
 
+## 奇A reference的实际方法例子
+
+[[matev-2007-a130-quadrupole-alignment-additivity]] MT07-4/5用最低高形变131Ce组态作reference：占据blocks为`[18,19,18,18]n`和`[14,14,15,15]p`，总计N73、Z58、A131。它是实际论文中的奇A reference例子；cα按该core的occupied/empty变化取0/+1/−1，并非相对一个偶paired background的完整unpaired inventory。
+
+这支撑“先核reference，再读particle/hole标签”的必要性，但**没有证据表明Lv2025的Pr136采用这个core**，不能拿来修Q1/Q1*、补νsd hole或撤销原条件审计。两篇的配对、形变、组态追踪和实际输入不同；一个code的有效相对贡献也不是另一个code的blocked list。
+
+本例v1还把p9 core印为131Cs、在TableI的π[404]p/h栏与occupied-core文字之间留下字面差异（MT07-13/16）；这些约定未解决前不据其表重建actual C。该源183/105是筛选后的计算配置数，不是183/105个独立实验或已重放的输入集。
+
+MT07-18的声明ν6_1,−i→ν6_2,+i应用同时保N和intruder count，却改变名义Qt与meanJ；因此轨道/signature和reference不能缩成一个“几个intruders”的标签。分数meanJ变化也不能直接填为实验ΔI。该应用未实际重跑组态，不解释Pr136 Q1缺项。
+
 ## Verification and Learning Decision
 
 [day14_pr136_configuration_ledger.py](../../system/scripts/day14_pr136_configuration_ledger.py)完成62checks：actualPDF SHA、TableII block与Fig16legend分离、十row双列解析、Z/N/mod2/spatialparity、Q1未列sd保留None、oddabstractspectator/pairs不能修复oddresidual、captionsliteral及必要条件非充分性、toymeanN/number-sector检查。原raw、source列与review状态不改；[62-check回执](../../outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/pr136-configuration-ledger.json)保存完整literal和未知字段。
@@ -143,4 +153,5 @@ Decision: supports基本valence记账；revises把标签当完整模型输入或
 - [[lv-2025-136pr-tac-covariant-density-functional]] LV25-32：acceptedPDF15 TableII、PDF11 Figs9/10captions，数据与条件输入缺口。
 - [[wang-2017-109ag-tac-separable-pairing]] W17-1–W17-13：TAC-RHB配对/阻塞方法、未恢复数目、局部失效、算符和预印本公式边界；不提供Pr136实际输入。
 - [[zhao-2015-pairing-spin-orientation-tac]] ZT15-3、ZT15-4、ZT15-11：O1/O2直接方法与实现边界；仅在声明实canonical/BdG控制中量化，不认证真实代码。
+- [[matev-2007-a130-quadrupole-alignment-additivity]] MT07-4/5/13/16：实际奇A reference、相对occupation定义及版本输入边界，不提供Pr136实际core。
 - [[a130-model-choice-card]]：理论路线与reproducibility边界，不增加投影论文或实验数。

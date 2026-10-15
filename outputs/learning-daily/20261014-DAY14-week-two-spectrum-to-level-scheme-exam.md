@@ -97,6 +97,12 @@ PT15-5是负/正γ对应中间/短轴的模型语境，PT15-6明确要求寿命�
 
 回实际[[lv-2025-136pr-tac-covariant-density-functional]] TableI/Fig1得LV25-34/35：同3937.2-keV15+母态经207.8/265.0接不同14+；D4的16–23子链及crossover两条signature需按graph选。[[peng-chen-2022-chiral-rotation-rhodium-isotopes]] PC22-19另定向核原PDF6 Eq2/3与ω句，确为跨两条γ的source-specific式，保留其原频率标签。[source audit](20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/pr136-inertia-source-audit.json)明确此轮未重做PC22全文或新实验。
 
+### 可读的理论/实验谱系伴随源：Matev2007
+
+[[matev-2007-a130-quadrupole-alignment-additivity]] DOI10.1103/PhysRevC.76.034304、arXiv0707.4324v1，14页PDF SHA256 `40d485c653f2016cd6dc38ef95a7694e9ced6d09458004039b5be92541d07586`。沿全文主线、Figs1–6、TablesI–III与关键公式/误差/引用链读，[reading audit](20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/matev2007-reading-audit.json)记录v1/未核VOR边界。[来源前回忆](20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/nd-qt-companion-before-source.md)保留metadata前后修正；不能把此理论研究先当新τ实验。
+
+其数据比较回指Riley2001/Laird2002，计算以131Ce HD奇A core、无配对和固定ω=.65 MeV的183/105筛选配置为范围。Qt坐标/算符、模型fit errors与上游实验分开；PT15-10另核其Ref32/46指同一Laird文献，不新增独立测量。raw未归档/citation key空明示。
+
 ## Theory/analysis exercise
 
 七边的中心值闭合为`+0.2,+0.4,+0.3 keV`。D的rank4、三个cycle、绝对offset nullspace均由代码核验。独立0.1-keV拟合误差下条件χ²=6.666667；自设将caption约0.3 keV按quadrature加上、并令各线独立后，χ²=0.666667，dof3。后者cycle Σ为`0.1×(3,1,0; 1,3,1; 0,1,3) keV²`，不是三个可相乘的独立检验。
@@ -283,6 +289,16 @@ PT15-9将“J2不依赖绝对spin/Ex赋值”与必须核相邻线身份、ΔI�
 
 若将quoted dE当独立σ，仅一阶条件下峰的σ≈6.301；允许未知pair相关性时为0–8.911，非实验CI。共享γ使相邻J2有相关性。声明保持本组interaction点、频率>.3后一次≥2×initialmean显示筛选会将mean43.110变25.419，完整removed point/mask保留；不是作者对Pr的筛选或Nd51/23重现/偏差显著性。4个M空、I23tentative和原closure残差不改。
 
+### 24-check：Qt算符、系数表与逆问题
+
+[量化前预测](20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/matev2007-before-calculation.md)明确视觉读表及心算priming。`python3 system/scripts/day14_qt_operator_table_audit.py`最终24项断言通过、exit0，[analysis](20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/matev2007-qt-operator-audit.json)保留34行/61组实际表值与7组None。这个“通过”指审计程序/条件控制，不代表原表全部通过一致性。
+
+源terminal式Qt_y=Q20−Q22/sqrt3、Qt_x=Q20+Q22/sqrt3在同一物理问题换轴且Q22反号时一致，不把不同EDF预测视为相同。声明Qt=1eb可有γ−20/0/+20及Q2约.879385/1/1.347296，故单一Qt不唯一给γ。源Eq14中间轴标签原样留边界，未静默修。
+
+若共享C/同权线性估计器，qt_eff也应满足该线性关系。按两位小数最近舍入，必要界限≈.012887eb；v1 CHF ν[402]5/2,+i和π[532]5/2,+i两条中心残差+.390829/−.918868超界，原值/条件/locator保留，59其余组只通过必要检查。理论fit σ及其舍入的Cauchy区间均有相容空间，不等于实际Σ恢复；不同权重控制证明共享估计器前提必要。没有actual C/权重/输出/VOR，未判作者code错或替换系数。
+
+源blocks计N73/Z58/A131，是实际奇A reference例子但不是Pr实际core。声明移除ν6_1,−i增加ν6_2,+i保N/保intruder count，给δQt=.11/.04eb、δJ=−1.36/−1.44ℏ（CHF/CRMF），未实际重跑配置或赋新整数spin。源7.64/7.4(3)baseline与Eq33未用于本任务寿命提取。
+
 ## Counter-evidence and missing companion observables
 
 HE15-9的实际未定双线是核心反例：energy sum、共享R/A和假设的ΔI=2均不足以裁决order。若一条线出现可独立定位的旁路或延迟顺序，应重审中间level；source仍保留括号Jπ与(E2)。HE15-5的quadruplet限制“一个峰是一条γ”的简化；干净622.4直接分支门与323.4级联门的299-keVcomponent差异可能迫使拆峰，但必须控制622/626门纯度、feeding、response和random。
@@ -312,6 +328,14 @@ ZT15-6回弯区结果省略；ZT15-9的“无统一.3因子”是作者对选定
 ### 从曲率到结构判断的限制
 
 同母态/同ΔI还不足以选daughter；错把265.0代替207.8配481.0，closure残差从名义−.4变−57.6keV。正确图链也有−.4…+.4的打印残差，当前没有Σ，不把这些数转为独立χ²。J2对absolute起点不敏感与对差分/校准/interaction敏感必须同时保留。原始mask、校准共同Σ和必要寿命/完整EM链缺失，不能只凭局部曲率或筛选均值为Pr定γ/轴/共存。
+
+### 模型误差、版本与原实验缺口
+
+模型残差被假设为零均值/同方差/不相关，并排除crossing/收敛歧义配置；其窄histogram不代表实验precision或所有A130 band均成立。alignment比Q更复杂，需宽频率检查与实际occupations。两个EDF和多个发表不等于独立实验。
+
+v1的Eq14中项轴标、Eq31前131Cs与定义core131Ce、Fig4 caption132Sm与plot/body142Sm、Eq33 CG幂次及π404 p/h/core文字差异均作精确version boundary保留；不调用歧义去计算实验Qt/τ，不称officialerratum。原始Laird2002仍缺；新公开取得Riley2001作者报告且刊头身份已核，正文待下一步，不能先拿它的内容补数据。
+
+共同加性项和共同乘性归一化对difference/ratio作用不同；本任务的5/7控制不判断原实验系统误差算法是否有效。要检验source作者关于差分测量/Qt的结论，仍须读实际analysis及误差结构。
 
 ## Knowledge Impact and Learning Decision
 
@@ -364,6 +388,10 @@ Decision: supports signedγ的相对轴语境，limits source引用/J2gap直接�
 ### 有序能量练习后的决定
 
 Decision: supports 先建graph再构造observable；limits 以band标签、绝对spin未知时的捷径或单一J2峰/均值认证结构。已从实际数据完成原计划下一步，保留source-specific PC22式及本任务明确stencil，不给Day15信用或改变formal21/24。下一信息增益应来自必要的实际寿命/Qt输入、原始mask或更多直接资料，不继续换同一stencil toy参数。
+
+### Qt伴随方法后的认识决定
+
+Decision: supports 明确charge/axis/operator/reference和数据来源，limits 单一Qt或intruder count到唯一构型/γ、将fit errors当实验σ及照搬v1表。源码/配置矩阵和原测量缺口不因23→24验证断言通过而消失。物理进展写回source/Qt observable/reference审计/model-choice，33页run-owned知识累计；原2/7投影覆盖、Pr模式排序与formal21/24不变。
 
 ## Durable knowledge delta
 
@@ -2345,6 +2373,188 @@ Decision: supports 先建graph再构造observable；limits 以band标签、绝�
           "locator": "PC22-19"
         }
       ]
+    },
+    {
+      "knowledge": "knowledge/sources/matev-2007-a130-quadrupole-alignment-additivity.md",
+      "anchor": "Matev等（2007）：A≈130有效四极矩与对齐的可加性",
+      "summary": "完整读v1并固化34行模型矩阵、Qt定义、oddcore、模型残差/实验谱系和条件version边界，不新造测量。",
+      "sources": [
+        {
+          "path": "knowledge/sources/matev-2007-a130-quadrupole-alignment-additivity.md",
+          "locator": "MT07-1"
+        },
+        {
+          "path": "knowledge/sources/matev-2007-a130-quadrupole-alignment-additivity.md",
+          "locator": "MT07-2"
+        },
+        {
+          "path": "knowledge/sources/matev-2007-a130-quadrupole-alignment-additivity.md",
+          "locator": "MT07-4"
+        },
+        {
+          "path": "knowledge/sources/matev-2007-a130-quadrupole-alignment-additivity.md",
+          "locator": "MT07-6"
+        },
+        {
+          "path": "knowledge/sources/matev-2007-a130-quadrupole-alignment-additivity.md",
+          "locator": "MT07-8"
+        },
+        {
+          "path": "knowledge/sources/matev-2007-a130-quadrupole-alignment-additivity.md",
+          "locator": "MT07-10"
+        },
+        {
+          "path": "knowledge/sources/matev-2007-a130-quadrupole-alignment-additivity.md",
+          "locator": "MT07-11"
+        },
+        {
+          "path": "knowledge/sources/matev-2007-a130-quadrupole-alignment-additivity.md",
+          "locator": "MT07-12"
+        },
+        {
+          "path": "knowledge/sources/matev-2007-a130-quadrupole-alignment-additivity.md",
+          "locator": "MT07-13"
+        },
+        {
+          "path": "knowledge/sources/matev-2007-a130-quadrupole-alignment-additivity.md",
+          "locator": "MT07-14"
+        },
+        {
+          "path": "knowledge/sources/matev-2007-a130-quadrupole-alignment-additivity.md",
+          "locator": "MT07-15"
+        },
+        {
+          "path": "knowledge/sources/matev-2007-a130-quadrupole-alignment-additivity.md",
+          "locator": "MT07-16"
+        },
+        {
+          "path": "knowledge/sources/matev-2007-a130-quadrupole-alignment-additivity.md",
+          "locator": "MT07-18"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/observables/transition-quadrupole-moment.md",
+      "anchor": "从旋转系算符到Qt的输入契约",
+      "summary": "固化Qt坐标/归一、反问题、共享估计器/模型fit误差与实际tableaudit；声明联量应用不作Pr结果。",
+      "sources": [
+        {
+          "path": "knowledge/sources/matev-2007-a130-quadrupole-alignment-additivity.md",
+          "locator": "MT07-1"
+        },
+        {
+          "path": "knowledge/sources/matev-2007-a130-quadrupole-alignment-additivity.md",
+          "locator": "MT07-2"
+        },
+        {
+          "path": "knowledge/sources/matev-2007-a130-quadrupole-alignment-additivity.md",
+          "locator": "MT07-6"
+        },
+        {
+          "path": "knowledge/sources/matev-2007-a130-quadrupole-alignment-additivity.md",
+          "locator": "MT07-8"
+        },
+        {
+          "path": "knowledge/sources/matev-2007-a130-quadrupole-alignment-additivity.md",
+          "locator": "MT07-10"
+        },
+        {
+          "path": "knowledge/sources/matev-2007-a130-quadrupole-alignment-additivity.md",
+          "locator": "MT07-11"
+        },
+        {
+          "path": "knowledge/sources/matev-2007-a130-quadrupole-alignment-additivity.md",
+          "locator": "MT07-18"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/methods/configuration-occupation-audit.md",
+      "anchor": "奇A reference的实际方法例子",
+      "summary": "增加实际131Ce oddreference occupation计数与相对c定义，不替Pr确定core/blocked。",
+      "sources": [
+        {
+          "path": "knowledge/sources/matev-2007-a130-quadrupole-alignment-additivity.md",
+          "locator": "MT07-4"
+        },
+        {
+          "path": "knowledge/sources/matev-2007-a130-quadrupole-alignment-additivity.md",
+          "locator": "MT07-5"
+        },
+        {
+          "path": "knowledge/sources/matev-2007-a130-quadrupole-alignment-additivity.md",
+          "locator": "MT07-13"
+        },
+        {
+          "path": "knowledge/sources/matev-2007-a130-quadrupole-alignment-additivity.md",
+          "locator": "MT07-16"
+        },
+        {
+          "path": "knowledge/sources/matev-2007-a130-quadrupole-alignment-additivity.md",
+          "locator": "MT07-18"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/projects/a130-model-choice-card.md",
+      "anchor": "Qt与相对occupation的迁移边界",
+      "summary": "将unpaired HD/SD方法与ND131Ce/Pr框架和新实验分开，保持原投影覆盖/模式排序。",
+      "sources": [
+        {
+          "path": "knowledge/sources/matev-2007-a130-quadrupole-alignment-additivity.md",
+          "locator": "MT07-2"
+        },
+        {
+          "path": "knowledge/sources/matev-2007-a130-quadrupole-alignment-additivity.md",
+          "locator": "MT07-4"
+        },
+        {
+          "path": "knowledge/sources/matev-2007-a130-quadrupole-alignment-additivity.md",
+          "locator": "MT07-6"
+        },
+        {
+          "path": "knowledge/sources/matev-2007-a130-quadrupole-alignment-additivity.md",
+          "locator": "MT07-10"
+        },
+        {
+          "path": "knowledge/sources/matev-2007-a130-quadrupole-alignment-additivity.md",
+          "locator": "MT07-11"
+        },
+        {
+          "path": "knowledge/sources/matev-2007-a130-quadrupole-alignment-additivity.md",
+          "locator": "MT07-18"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/sources/petrache-2015-nd-exotic-rotations-triaxiality.md",
+      "anchor": "PT15-10",
+      "summary": "核Ref32/46同文复引与Ref47模型/数据来源边界，不加独立证据。",
+      "sources": [
+        {
+          "path": "knowledge/sources/petrache-2015-nd-exotic-rotations-triaxiality.md",
+          "locator": "PT15-10"
+        },
+        {
+          "path": "knowledge/sources/matev-2007-a130-quadrupole-alignment-additivity.md",
+          "locator": "MT07-8"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/index.md",
+      "anchor": "HD/SD无配对CHF/CRMF的Qt/有效对齐与奇A reference",
+      "summary": "索引必要Qt方法source及版本/迁移限制。",
+      "sources": [
+        {
+          "path": "knowledge/sources/matev-2007-a130-quadrupole-alignment-additivity.md",
+          "locator": "MT07-1"
+        },
+        {
+          "path": "knowledge/sources/matev-2007-a130-quadrupole-alignment-additivity.md",
+          "locator": "MT07-4"
+        }
+      ]
     }
   ]
 }
@@ -2456,6 +2666,8 @@ Danko99primary合法OA/publicPDF/官方API/repo均未提供正文（403HTML/401J
 新增canonical为[[petrache-2015-nd-exotic-rotations-triaxiality]] PT15-1–9及Table1算术、[[triaxial-deformation]]“Nd系统学的直接伴随源”、[[lv-2025-136pr-tac-covariant-density-functional]]“Ref48的实际证据层级”。作者待检验解释、mask缺口、数据独立性和公开取得PDF/许可未核均有source locator，未把outputs当唯一知识副本。
 
 新增canonical为[[moments-of-inertia]]“绝对标签、有限差分与有序路径”、[[level-scheme-reconstruction]]“136Pr：动力学惯量需要有序路径”、LV25-34/35和[[peng-chen-2022-chiral-rotation-rhodium-isotopes]] PC22-19。实际能量表、名义曲率、graph/位置、条件Σ与筛选边界在knowledge保有副本；outputs只作完整可重放回执。
+
+新增canonical包括[[matev-2007-a130-quadrupole-alignment-additivity]]的18条分层claims和完整versioned TableII数值矩阵、[[transition-quadrupole-moment]]“从旋转系算符到Qt的输入契约”、[[configuration-occupation-audit]]“奇A reference的实际方法例子”、[[a130-model-choice-card]]“Qt与相对occupation的迁移边界”及PT15-10的数据/复引边界。实际表值、两条条件不相容项、geometry/fit前提与联量应用在knowledge有可复用副本，不只保存在outputs。
 
 ## Open questions and belief revision
 
@@ -2680,3 +2892,10 @@ wiki_lint --fail-on error实际exit0，0errors/131warnings（107citationkey、21
 2026-10-15T19:45:04.357380+08:00：71项actual D4 path/closure/stencil/signature/offset/条件Σ/显示筛选检查全部true、exit0；report/card/writeback valid，唯一block93items/31changed knowledge页。LV25-34/35与PC22-19 parsed true，原observable/method/source旧行与review保持，raw metadata/PLAN/Bib/AST及git diff --check exit0。`wiki_lint --fail-on error`实际exit0，0errors/137warnings（110空citation key、24未填raw槽、3reaction parser）。所有stencil pair/位置、M空/I23tentative、非零closure、条件误差与删点mask均保留，没有Pr新γ/轴或Nd均值复现。
 
 前26批Gitee已发布；本批稳定 main / `Reconstruct DAY14 inertia from ordered gamma paths`，actualH3/hash只回执。候选池转必要实际寿命/Qt来源：Matev2007 metadata核为additivity题，不能先当新实验；优先核已匹配题名的Laird2002 PRL88,152501公开fulltext，source-before recall已修正，正文尚未读。研究仍active至2026-10-16 15:00、16:00交付，formal21/24、Day14/partial15和official next14/count13不变。
+
+
+### Checkpoint028 延期Qt方法与表审计验收
+
+2026-10-15T20:51:09.850540+08:00：Matev2007 v1全文14页/Figs1–6/TablesI–III/关键公式完成，24项程序/条件控制断言通过、exit0；TableII实际2条中心值条件不相容保留，不把程序通过等同原表全有效。report/card/writeback valid，唯一block99items/33changed knowledge页，34行versioned矩阵有canonical副本。18新MT07与PT15-10 parsed true；原observable/method/project/PT旧行和review、raw metadata/PLAN/Bib/AST及git diff --check exit0。`wiki_lint --fail-on error`实际exit0，0errors/139warnings（111空citation key、25未填raw槽、3reaction parser）。无VOR/actualC/原实验重跑，原表/公式未改。
+
+前27批Gitee已发布；本批稳定 main / `Audit DAY14 transition quadrupole operators and model tables`，actualH3/hash只回执。下一已从公开publisher取得并核刊头的Riley2001 ActaPhysPolB32 No9 p2683（13页），正文未读，source-before recall已保存；它是2001作者报告，未代2002最终稿或新增独立实验。研究仍active至2026-10-16 15:00、16:00交付，formal21/24、Day14/partial15及official next14/count13不变。

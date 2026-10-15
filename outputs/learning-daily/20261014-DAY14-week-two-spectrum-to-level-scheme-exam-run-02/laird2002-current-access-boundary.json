@@ -1,0 +1,23 @@
+{
+  "at": "2026-10-15T19:58:37.647701+08:00",
+  "identity": "Laird etal PRL88,152501(2002), DOI10.1103/PhysRevLett.88.152501; title/authors verified viaCrossref and exactINSPIRE610864/NSR2002LA09",
+  "fulltext_obtained": false,
+  "routes": {
+    "OA_downloader": "oa_not_found; noPDF",
+    "APS_public_pdf": "403HTML; stop thisroute, no verification bypass or repeat",
+    "arxiv_exactDOI": "HTTP200 0",
+    "arxiv_title_author": "HTTP200 0",
+    "OSTI_initial": "HTTP200 JSONDecodeError, nottreated asabsence",
+    "OSTI_format_repair": "HTTP200 application/json [] confirmed, no exactrecord",
+    "INSPIRE": "HTTP200 exactDOI record, no documents/URLs",
+    "local_raw_filename_scan": "no Laird/152501/target title match"
+  },
+  "why_needed": "actual lifetime/Qt input and analysis uncertainties cannot be reconstructed from the Nd review or a model-comparison title",
+  "highest_available_route": "read identity-verified Matev2007 arXiv0707.4324v1 as necessary theory/data-lineage companion, not as an assumed newexperiment; original Laird input gap remains",
+  "not_claimed": [
+    "original lifetimes/Qt values read",
+    "new independent measurement",
+    "absence of all lawful copies"
+  ],
+  "publisher_retry_forbidden_without_new_evidence": true
+}

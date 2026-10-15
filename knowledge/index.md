@@ -9,6 +9,7 @@ updated: 2026-10-15
 
 ## Sources
 
+- [[matev-2007-a130-quadrupole-alignment-additivity]] - HD/SD无配对CHF/CRMF的Qt/有效对齐与奇A reference；区分模型fit误差、原实验复用和v1算符/表值边界。
 - [[petrache-2015-nd-exotic-rotations-triaxiality]] - Nd高自旋J^(2)系统学、signedγ/转轴解释与寿命检验边界；选带/删点及二级证据范围明确。
 - [[zhao-2015-pairing-spin-orientation-tac]] - 135Nd TAC-RHB配对与O1/O2准粒子阻塞定义；保留平面、回弯和重放约定边界，不恢复Pr136实际输入。
 - [[wang-2017-109ag-tac-separable-pairing]] - 109Ag TAC-RHB可分离配对、准粒子阻塞与未恢复数目；保留回弯不收敛、磁矩算符和预印本公式边界，不补136Pr实际输入。

@@ -331,3 +331,6 @@ Day14延期又核直接Ref48 Petrache2015：Nd J2系统学的选带/图示删点
 
 
 Day14延期另有71-check actualD4 orderedpath/J2：absolute labels与relativeΔI/branch/stencil/位置不同，交错signature不可默套因子；sourcePC22式、条件协方差/筛选mask及M空/tentative保留。它是正式回忆priming，不给本卡学分，不将派生曲率当Pr新形状/轴测量。
+
+
+Day14延期另核Matev2007 Qt坐标/算符与模型fit/实验输入层级，24-control审计保留2条v1条件不相容项和missing，oddreference及sameintruder count不等sameQt/J。它是正式回忆的priming，不给本卡学分、实际Σ或Pr新形状/轴。

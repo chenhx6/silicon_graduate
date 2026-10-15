@@ -1,0 +1,38 @@
+{
+  "provider": "INSPIRE",
+  "at": "2026-10-15T19:49:26.342454+08:00",
+  "purpose": "new public institutional metadata route, no publisher retry",
+  "expected_doi": "10.1103/PhysRevLett.88.152501",
+  "url": "https://inspirehep.net/api/literature?q=doi%3A10.1103%2FPhysRevLett.88.152501&size=1",
+  "status": 200,
+  "hits_total": 1,
+  "records": [
+    {
+      "id": "610864",
+      "metadata": {
+        "titles": [
+          {
+            "title": "Quadrupole Moments of Highly Deformed Structures in the A ~ 135 Region: Probing the Single-Particle Motion in a Rotating Potential"
+          }
+        ],
+        "dois": [
+          {
+            "value": "10.1103/PhysRevLett.88.152501"
+          }
+        ],
+        "documents": null,
+        "external_system_identifiers": [
+          {
+            "schema": "SPIRES",
+            "value": "SPIRES-8171688"
+          },
+          {
+            "schema": "NSR",
+            "value": "2002LA09"
+          }
+        ],
+        "urls": null
+      }
+    }
+  ]
+}

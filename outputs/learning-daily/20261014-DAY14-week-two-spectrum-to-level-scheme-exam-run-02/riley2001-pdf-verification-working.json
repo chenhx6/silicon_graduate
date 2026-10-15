@@ -1,0 +1,23 @@
+{
+  "at": "2026-10-15T20:20:42.064876+08:00",
+  "url": "https://www.actaphys.uj.edu.pl/fulltext?series=Reg&vol=32&page=2683",
+  "path": "tmp/day14-20261014/riley2001/riley2001-candidate.pdf",
+  "sha256": "09d58089a1985ef9d3d02432921b302a77c5d51eca9846bdea03dd9330d0d036",
+  "bytes": 416810,
+  "pages": 13,
+  "pdf_magic": true,
+  "header_year_page_author_verified": true,
+  "reading_scope": "bibliographic identity header only; body/mainline/figures not read",
+  "fulltext_read": false,
+  "raw_archived": false,
+  "identity_checked_on_visual_header": {
+    "title": "Global lifetime measurements of highly-deformed and other rotational structures in the A~135 light rare-earth region: Probing the single-particle motion in a rotating potential",
+    "first_author": "M. A. Riley",
+    "journal": "Acta Physica Polonica B",
+    "volume": 32,
+    "issue": 9,
+    "year": 2001,
+    "first_page": 2683
+  },
+  "candidate_url_issue_not_citation": "initial guessed URL used issue10 but publisherredirect resolves vol/page; actual header No9 controls citation"
+}

@@ -3,7 +3,7 @@ type: observable
 title: 跃迁四极矩
 aliases: [transition quadrupole moment, quadrupole moment, Qt, Q_t, QSD, QND]
 created: 2026-07-03
-updated: 2026-10-09
+updated: 2026-10-15
 status: active
 review_status: unreviewed
 observable_kind: electromagnetic-collectivity
@@ -57,8 +57,44 @@ Their Eq. (2) replaces the single Clebsch–Gordan factor with a sum over `K` am
 
 `163Lu` SD1 是“大四极矩支持超形变，但不能区分正负 γ”的参照案例。`136Sm` 是“跨带交叉的 `Q_t` 系统学约束集体性，但不单独给出 γ 刚性”的案例。
 
+## 从旋转系算符到Qt的输入契约
+
+[[matev-2007-a130-quadrupole-alignment-additivity]] MT07-1/2采用电荷矩：`Q20=Σp〈2z²−x²−y²〉`、`Q22=Σp〈sqrt3(x²−y²)〉`，其spherical component为`Q22/sqrt2`。本文数值标eb；跨论文需保留电荷、单位、归一与轴约定，不能只按变量名Qt/Q22对齐。
+
+在该文Eq15的y推转定义与Eq14右端的x定义下：
+
+`Qt_y=Q20−Q22/sqrt3`，`Qt_x=Q20+Q22/sqrt3`。
+
+同一物理构型换坐标轴时Q22反号，两个terminal表达式给相同Qt；这不说明CHF+SLy4和CRMF+NL1的实际预测相同。Eq14中间ω标签另有v1字面边界（MT07-12），本次没有静默改原链式。与另一篇的βγ比较前，还须核四极张量是电荷或总密度、轴排序及代码定义；这里不能补Pr136实际frame。
+
+### 一个Qt不唯一决定γ
+
+该文用`Q20=Q2 cosγ`、`Q22=Q2 sinγ`，故y定义给`Qt=Q2(cosγ−sinγ/sqrt3)`。本任务声明Qt=1eb时，γ为−20°/0°/+20°可分别取Q2约.879385/1/1.347296 eb而给同一个Qt。它是反问题的条件控制，不是源core或任何核素测量；若实验只约束强度中的Qt模平方，仍需独立几何/结构信息。不同γ并不因此自动成为已确认的shape coexistence。
+
+### 算符线性不等于任意拟合系数都可直接组合
+
+在**共同配置设计矩阵、同权线性估计器**的条件下，Eq15还要求`q_t_eff=q_20_eff−q_22_eff/sqrt3`；这里也包含一致的reference减法，使输入的δQt与δQ20/δQ22满足同一关系。不能混用实验Qt baseline与理论core矩后仍默认该系数恒等式。本任务读原v1 TableII的34行/61组可用triple、7组missing保持None；若各中心值按最近.01eb舍入，必要残差界限为`.005(2+1/sqrt3)≈.012887eb`。
+
+| v1 TableII CHF row | q20_eff | q22_eff | printed qt_eff | qt−(q20−q22/sqrt3) |
+| --- | ---: | ---: | ---: | ---: |
+| ν[402]5/2,+i | −.35 | .14 | −.04 | +.390829 eb |
+| π[532]5/2,+i | .43 | −.05 | −.46 | −.918868 eb |
+
+这两组超出上述必要舍入范围；其余59组在此检查下相容，不代表全面认证。不能拿彼此独立的模型误差条来放宽一个共享估计器的确定性关系；若实际C/配置集或权重不同，系数关系本来就须重核。当前文件未给这些实际输入，未核VOR，不修表或判作者代码错。共享OLS/不同权重控制分别验证这种前提与失败边界（MT07-10/11）。
+
+若将理论fit误差视为相应σ，组合需cross-observable covariance：`var(qt)=var(q20)+var(q22)/3−2cov(q20,q22)/sqrt3`。考虑所报σ的两位小数舍入后，61组必要Cauchy区间均有相容空间；这没有恢复实际Σ，也不是实验Qt的误差检验。该文的残差零均值、同方差、互不相关假设及Nc−m自由度（MT07-6）不是探测器/阻停/feeding误差预算。
+
+### 差分、比值和公共系统误差
+
+MT07-8的差分实验描述来自上游Riley2001/Laird2002；本任务尚未核其原分析。一个共同**加性offset**在difference中消去，一个共同**乘性归一化**在ratio中消去，却一般仍缩放非零difference。声明的5/7控制只说明必须写清错误结构与参考归一；不能据此判原实验宣称的系统误差消除不成立，或把多个发表/多个核素计独立测量。
+
+[day14_qt_operator_table_audit.py](../../system/scripts/day14_qt_operator_table_audit.py)与[24-check回执](../../outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/matev2007-qt-operator-audit.json)保留实际表值/版本、共享估计器条件、轴重标、逆问题与σ区间。它没有复跑183/105个配置，没有从Eq33或转述7.4(3)提取实验Qt/τ。实际寿命/分支、原始矩阵元与几何仍是独立必要输入。
+
+MT07-18还给出一个联合observable的声明应用：把core的ν6_1,−i换成ν6_2,+i，保留同neutron数/同N6 intruder总count，表中系数却给δQt=.11/.04eb和δJ=−1.36/−1.44ℏ（CHF/CRMF）。对应j_eff输入为4.78→3.42与4.59→3.15ℏ；Qt输入为.26→.37与.33→.37eb。它是固定reference/ω的名义加性应用，无共同系数Σ，不能补独立误差、赋实测整数spin或转成Pr136结果。固定其他占据的single-orbital变化、沿同位素链的N趋势与不同带类别，不是同一比较。
+
 ## Sources
 
+- [[matev-2007-a130-quadrupole-alignment-additivity]] MT07-1/2、MT07-6、MT07-8–MT07-15：明确坐标/算符、模型拟合与原实验/版本边界。
 - [[domscheit-1999-triaxial-superdeformation-163lu]]
 - [[babra-2019-deformation-change-136sm]]
 - [[singh-2016-lifetime-131ce-133pr]]

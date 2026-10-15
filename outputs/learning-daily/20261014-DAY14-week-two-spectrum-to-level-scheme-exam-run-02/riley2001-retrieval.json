@@ -1,0 +1,15 @@
+{
+  "at": "2026-10-15T20:16:18.503604+08:00",
+  "candidate": "Matev Ref20 Riley etal ActaPhysPolB32,2683(2001)",
+  "source_url": "https://www.actaphys.uj.edu.pl/R/32/10/2683/pdf",
+  "purpose": "public author-report alternative; no retry of blocked APS source",
+  "final_url": "https://www.actaphys.uj.edu.pl/fulltext?series=Reg&vol=32&page=2683",
+  "status": 200,
+  "content_type": "application/pdf",
+  "bytes": 416810,
+  "pdf_magic": true,
+  "path": "tmp/day14-20261014/riley2001/riley2001-candidate.pdf",
+  "sha256": "09d58089a1985ef9d3d02432921b302a77c5d51eca9846bdea03dd9330d0d036",
+  "identity_pending": true,
+  "scientific_body_read": false
+}

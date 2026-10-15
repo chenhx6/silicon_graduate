@@ -18,6 +18,7 @@ tags: [a130, model-choice, mean-field, cranked-shell-model, hfb, angular-momentu
 
 ## Agent active summary
 
+- Matev2007以HD131Ce奇A reference在无配对固定ω下测试CHF/CRMF可加性；Qt坐标/算符与模型fit误差已核，v1两条系数的条件舍入不相容保留，不能移给Pr136或normal-deformed131Ce。投影覆盖仍2/7。
 - 136Pr的TableII/Fig16与D4/D6 alternative signedγ/转轴已分层；四极normal-form的50-check控制不补实际frame，也不提升形状共存为实验事实。
 - 后续直接核Zhao2015的O1/O2阻塞规则：需要phase/tie/reference与轨道日志，43-check控制不提供Pr136真实清单；平面推转也不生成完整手征partner谱。
 - Day14已核136Pr的valence/unpaired条件账本；Wang2017方法companion明确TAC-RHB的blocking、未恢复数目与算符依赖，但不补Q1/Q1*的实际reference/spectator。原PSM/TPSM直接覆盖2/7与131Ce模式排序均保持。
@@ -195,3 +196,9 @@ MeanN或spatialparity标签符合，不自动认证完整numbersector；未投�
 ### 136Pr的γ、形状与转轴分层
 
 [[lv-2025-136pr-tac-covariant-density-functional]] LV25-33的TableII/Fig16是模型输出，D4负γ/medium与D6正γ/short的文字另属alternative场景，缺逐态轴映射。[[triaxial-deformation]]用声明normal form和50-check证明γ号可对应四极轴置换，而相对固定转轴仍可不同；不把该几何形式归给源代码，不改D4表号，也不认证完整态相同。模型quadrupole参数、relative orientation和实验模式判据须分别取得；本段只缩小解释捷径，原2/7与131Ce排序不变。
+
+### Qt与相对occupation的迁移边界
+
+[[matev-2007-a130-quadrupole-alignment-additivity]] MT07-1–8提供Qt坐标/算符和183/105个计算配置的CHF/CRMF方法；其131Ce是HD reference，在无配对、ℏω=.65 MeV、排除ambiguous crossing的范围测试，不能只因同名核素就移到normal-deformed131Ce Band1或低频Pr136。奇A reference计数证明存在这种合法选择，但不决定Pr的实际core。
+
+[[transition-quadrupole-moment]]的24-check核34行/61组模型系数与条件关系，MT07-10/11两条v1中心值无法只由两位小数舍入解释；实际设计/权重和VOR未得，不修表/判code错。模型fit误差、借入的实验Qt和新的独立测量分开；此文不是PSM/TPSM，也不改变原2/7投影覆盖或模式排序。最高信息下一步仍是上游实验分析/原数据谱系，Riley2001公开作者报告已取得但此处尚未读正文，Laird2002最终稿缺口保留。

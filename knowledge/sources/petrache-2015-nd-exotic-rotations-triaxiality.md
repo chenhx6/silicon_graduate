@@ -61,6 +61,7 @@ C. M. Petrache, *Physica Scripta* **90**, 114016 (2015)，DOI [10.1088/0031-8949
 | PT15-7 | 对惯量gap的解释同时涉及集体贡献、aligned intruder particles和变形；文中138Nd若干crossing还被赋不同可能原因。单一J^(2)分组不能脱离这些条件唯一反推γ/轴或shape coexistence。 | competing-interpretations-and-scope | secondary-and-derived | printed p.3 crossing and possible-explanation paragraphs | true |
 | PT15-8 | 本文没有给136Pr D4/D6逐态tensor或其TableII/Fig16到signedγ的映射，也未直接展开Lv2025所述high-j lowΩ/highΩ完整极化链；主要讨论Nd系统学与模型转轴。引用它不能补Pr136实际输入或1996原始263/405次序。 | cross-source-transfer-boundary | derived | printed pp.1–3 Nd discussion | true |
 | PT15-9 | 文中称J^(2)不依赖band spin assignment和excitation energy；该结论不豁免正确序列、相邻跃迁身份与ΔI步长。绝对标签/能量offset与相对顺序/步长是不同输入，需另做能级链检查。 | observable-domain-and-our-inference | direct-and-derived | printed p.2 J^(2) definition paragraph | true |
+| PT15-10 | 本文Ref32与46均为Laird2002 PRL88,152501，仅首作者初始字母R.W./R.V.有差异；Crossref/INSPIRE的同DOI元数据支持它们指同一文章，不能算两条独立实证。Ref47 Matev2007是后续理论/数据比较，其实验输入回指早期作者工作。 | citation-identity-and-data-lineage-boundary | direct-and-contextual | printed p.3 Refs32/46/47; Matev2007 PDF p.14 Refs20–21 | true |
 
 ## Table1 Cross-Check
 
@@ -80,6 +81,8 @@ C. M. Petrache, *Physica Scripta* **90**, 114016 (2015)，DOI [10.1088/0031-8949
 γ号与中间/短轴的语言有直接来源，但本文没有给Pr136真实坐标、四极张量或完整波函数。[[triaxial-deformation]]的chosen normal form仍不能归给作者实现；same quadrupole不等于same full state。
 
 ## Counter-Evidence and Missing Companion Observables
+
+后续已直接核[[matev-2007-a130-quadrupole-alignment-additivity]] MT07-8/18：Ref47是理论/数据比较，实验输入回指Riley2001/Laird2002；固定reference的轨道变化不等于沿同位素链的N趋势，不能从其局部有效矩符号直接裁决本文的系统学措辞。PT15-10所记Ref32/46复引也不增加独立测量；共享采集/引用本身不规定逐点协方差，仍需原分析。
 
 最直接的限制来自PT15-6：源文自身要求寿命来检验轴变化。若要重算或比较J^(2)还需完整有序Eγ、ΔI、interaction/频率/删点mask、校准和协方差，以及对齐/形变的模型对照。相关实验数据与模型解释必须分开。
 

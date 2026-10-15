@@ -1,0 +1,76 @@
+{
+  "at": "2026-10-15T20:40:08.618790+08:00",
+  "source": "knowledge/sources/matev-2007-a130-quadrupole-alignment-additivity.md",
+  "doi": "10.1103/PhysRevC.76.034304",
+  "arxiv": "0707.4324v1",
+  "sha256": "40d485c653f2016cd6dc38ef95a7694e9ced6d09458004039b5be92541d07586",
+  "covered_pdf_pages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14
+  ],
+  "mainline": [
+    "Intro/independentparticle/additivity",
+    "Qt charge operator and axis definitions",
+    "relative occupation/OLS/error assumptions",
+    "CHF/CRMF setup and selected configuration scope",
+    "Q20/Q22/Qt/relative alignment results",
+    "model-residual validation",
+    "conclusions and experimental provenance references"
+  ],
+  "visually_checked_pages": [
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "figures_checked": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "tables_checked": [
+    1,
+    2,
+    3
+  ],
+  "reading_depth": "deep-read",
+  "fulltext_read": true,
+  "raw_archived": false,
+  "not_covered": [
+    "VOR/erratum",
+    "actual C/configuration outputs/weights/residual files and code rerun",
+    "original Laird2002 and core Ref39 experiment analysis",
+    "Riley2001 body (only bibliographic header verified so far)"
+  ],
+  "quantitative_audit": {
+    "checks": 24,
+    "literal_table_rows": 34,
+    "available_triples": 61,
+    "missing_CRMF_rows": 7,
+    "central_conditional_discrepancies": 2,
+    "actual_covariance_recovered": false
+  },
+  "P0": "none identified; source-version issues isolated and notused to claim experimental results",
+  "needs_review": true
+}

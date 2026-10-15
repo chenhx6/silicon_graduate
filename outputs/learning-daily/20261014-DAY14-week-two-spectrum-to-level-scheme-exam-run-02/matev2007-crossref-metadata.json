@@ -1,0 +1,123 @@
+{
+  "provider": "crossref",
+  "at": "2026-10-15T19:39:15.617019+08:00",
+  "candidate_doi": "10.1103/PhysRevC.76.034304",
+  "url": "https://api.crossref.org/works/10.1103/PhysRevC.76.034304",
+  "status": 200,
+  "paper": {
+    "DOI": "10.1103/physrevc.76.034304",
+    "title": [
+      "Additivity of effective quadrupole moments and angular momentum alignments in<mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mml:mrow><mml:mi>A</mml:mi><mml:mo>~</mml:mo><mml:mn>130</mml:mn></mml:mrow></mml:math>nuclei"
+    ],
+    "author": [
+      {
+        "given": "M.",
+        "family": "Matev",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "A. V.",
+        "family": "Afanasjev",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "J.",
+        "family": "Dobaczewski",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "G. A.",
+        "family": "Lalazissis",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "W.",
+        "family": "Nazarewicz",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2007,
+          9,
+          4
+        ]
+      ]
+    },
+    "volume": "76",
+    "issue": "3",
+    "page": null,
+    "article-number": "034304",
+    "container-title": [
+      "Physical Review C"
+    ],
+    "link": [
+      {
+        "URL": "http://link.aps.org/article/10.1103/PhysRevC.76.034304",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "syndication"
+      },
+      {
+        "URL": "http://harvest.aps.org/v2/journals/articles/10.1103/PhysRevC.76.034304/fulltext",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2007,
+              9,
+              4
+            ]
+          ],
+          "date-time": "2007-09-04T00:00:00Z",
+          "timestamp": 1188864000000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "http://link.aps.org/licenses/aps-default-license"
+      }
+    ]
+  }
+}

@@ -111,3 +111,15 @@ D4 orderedgamma J2练习已完成71checks，sourceLV25-34/35、PC22-19及moments
 前26批published；本批subject Reconstruct DAY14 inertia from ordered gamma paths，actualH3/hash看publication-027.json。下一nd-qt-companion-before-source.md须读metadata后修正：Matev2007 DOI10.1103/PhysRevC.76.034304题为Additivity...，未读body，不预设是新实验；优先Laird2002 DOI10.1103/PhysRevLett.88.152501已核题名Quadrupole Moments...A~135，arxiv0，downloader/fulltext可能pending，先poll现有stdout/manifest，不重开daemon/session。正文尚未读，先验证PDF/title/hash，再沿mainline/fig/table/uncertainty及Qt→γ边界。PT15Ref32/46重复卷文章号与原数据复用须核，不新增Pr实验。
 
 旧Wiki PE98/KL99已做scopefingerprint而未重读raw；正式Day14 card不变。研究仍active至2026-10-16 15:00、16:00交付，formal21/24、Day14/partial15和official next14/count13保持。不把局部路径问题完成当窗口结束，也不重复同stencil toy换数。
+
+
+## 最新checkpoint028
+
+Matev2007全文14页/6fig/3table与operator/fit/version输入已核。24controls passed，2TableII条件不相容中心值不隐藏/不修；model errors非实验σ，actualC/weights/Σ/VOR缺。Core131Ce oddreference与Pr实际ref分开，Qt坐标/逆问题/同count联量应用不赋新γ/axis或实验spin。99items33pages，new18MT07+PT15-10 true，oldrows/review/raw/protected/AST/diff保持，freshlint0errors139warnings（111citekey/25rawslots/3parser）。
+
+前27批published；本批subject Audit DAY14 transition quadrupole operators and model tables，actualH3/hash看publication-028.json。下一先riley2001-before-body.md（不是只看旧Lairdmissing说明）：public publisher已实际给出Riley2001作者报告13pages，完整title/header No9已核，SHA09d58089a1985ef9d3d02432921b302a77c5d51eca9846bdea03dd9330d0d036；tmp/day14-20261014/riley2001/riley2001-candidate.pdf。Body/fig/table未读，paper.txt字体提取可能碎裂，必要时render逐页读，不猜数字。初guessURL issue10已redirect，刊头为Vol32(2001)No9,p2683，不能写No10。
+
+沿完整primary作者报告核global/differential lifetime实际方法、bandaverage还是逐line、feeding/branch/K/geometry/stopping及共同误差，分实验/理论/解释。Laird2002最终稿仍未得，2001资料不能自动当2002final或新增独立测量。Riley/Matev/Laird数据谱系需body核。研究至2026-10-16 15:00、16:00交付，formal21/24、Day14/partial15、official next14/count13保持；goalactive，不新card/session/daemon，不因source完成提前closeout。
+
+
+Riley2001可恢复公开入口：https://www.actaphys.uj.edu.pl/fulltext?series=Reg&vol=32&page=2683 。对应retrieval/identity与before-body回忆随本checkpoint保留；若tmp不可用，先按此URL与hash核原文件，不把新下载当新独立数据。

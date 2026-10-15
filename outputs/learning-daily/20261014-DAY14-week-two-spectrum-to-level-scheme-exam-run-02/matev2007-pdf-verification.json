@@ -1,0 +1,27 @@
+{
+  "at": "2026-10-15T19:53:09.685095+08:00",
+  "path": "/workspace/wiki/tmp/day14-20261014/matev2007/PDFs/Additivity_of_effective_quadrupole_moments_and_angular_momentum_alignments_in_the_A~130_nuclei.pdf",
+  "url": "https://arxiv.org/pdf/0707.4324v1",
+  "bytes": 425027,
+  "sha256": "40d485c653f2016cd6dc38ef95a7694e9ced6d09458004039b5be92541d07586",
+  "pages": 14,
+  "pdf_magic": true,
+  "identity_checked_on_pdf": {
+    "title": "Additivity of effective quadrupole moments and angular momentum alignments in the A~130 nuclei",
+    "authors": [
+      "M. Matev",
+      "A. V. Afanasjev",
+      "J. Dobaczewski",
+      "G. A. Lalazissis",
+      "W. Nazarewicz"
+    ],
+    "arxiv_metadata": "0707.4324v1",
+    "doi_metadata": "10.1103/PhysRevC.76.034304"
+  },
+  "raw_archived": false,
+  "fulltext_read": true,
+  "identity_only": "title/author check, no nuclear result read or inferred yet",
+  "reading_audit": "outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/matev2007-reading-audit.json",
+  "version": "arxiv0707.4324v1 only; publisher VOR notverified",
+  "identity_scope": "bibliographic identity; no fullpage text copied inreceipt"
+}
