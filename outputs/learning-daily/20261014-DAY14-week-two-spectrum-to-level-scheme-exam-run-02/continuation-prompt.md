@@ -90,3 +90,12 @@ NNDC67四对象与38-check通过，canonicalSourceN67-1–8 true、levelscheme/a
 OfficialFO/v2.3(2011)Z31四点、初4invaliddecimalDE+4correctintegerDE、32capture+32offlinechecks已固化。CanonicalKB08/levelscheme保存allTot/K/hash/边界，sourceHuman/旧flags不扩、新D14-1–6true。N67CC仍blank，conditionalB9.614759/9.613223不能称测量或覆盖全部modes/inventory；hypbothE2 weakB ratio11.776548不赋weakM。reportwriteback31items/15changedpages，lint0errors130warnings、new6parsed、AST/protected/raw/review/diff通过。
 
 下一Danko99 primary(DOI10.1103/PhysRevC.59.1956)已freezeprimedrecall，目标仅same67GaDCOgate/ref/angles/RIcorrect；OA无文件、publicPDFcandidate不完整、直接HTTPS403HTML，无新auth/browser/daemon。合法repositorymetadata定位正在做，若primary不可取只保留readiness，不能造gate/calibration或把普通license当OA。别开新daycard，不计Day15、不研究Day16；原15:00researchcutoff不改。Nativegoal/sessionactive，officialnext14/count13留closeout一次计14。
+
+
+## Checkpoint013：Ga bounded设计验收，回原双线time issue
+
+42-check fixed40/90/refpaths/positiveP ranges完成，首预测B可fit1.45被revises，不调角。unknownf交集只是calibrationmissing例；samecorrectedpair互换ratio乘积1。chosenexactsingleα2/α4=0、fullangularphotonmarginalsI5/5/I3/3仍jointR范围.980174767–1.025136082（LP/primaldual/rationalq与strictPSDcontrols）。非sourcefulltiming/energywavepacket测量声明，非NORDBALLreplay。Danko99primary停止获取，N67-9true，sourceoldflags不改。
+
+writeback33items/15pages、report/card/writeback/AST/protected/raw/review/diff/freshlint0errors130warnings通过。前12批published，本批subject Test DAY14 gated response beyond single-gamma calibration；actualH3/hash只receipt。全questions/pool/Day15卡已重读，Ga当前局部饱和/外部inputs缺，preview不计卡。
+
+下一doublet-time-before-calculation.md已冻结primed预测：actualHE15-9 energies393.4/394.0、nominalgap.6keV；staticangular order no-go不包含独立energy-time信息。用declaredexponentialmiddle delay、Gaussianenergy/timing/energy-dependenttimewalk分析joint vsmarginals/信息尺度与responseconfounding，所有σ/τchosen不当source，不能借bandhead/67Ga时间。当前still>=120min，goal/runactive到原15:00；Day14/partial15，无Day16。官方next14/count13留closeout一次计14，Clock001/002actualack，Farmer8686/clock75781不重启。

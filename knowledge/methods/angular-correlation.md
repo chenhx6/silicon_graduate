@@ -167,3 +167,44 @@ Q_k(\alpha)=\frac{1}{1-\cos\alpha}\int_{\cos\alpha}^{1}P_k(u)\,du.
 [[starosta-1999-pdco-experimental-test]] is a direct high-spin example of the compressed-observable boundary: `R_DCO` constrains the alignment/multipolarity space, while CLOVER polarization adds electric/magnetic sensitivity; the combined fit still leaves a 490-keV E2/M1-E2 branch under the paper's assumptions.
 
 [[james-twin-butler-1974-angular-correlation-statistics]] adds the statistical gate: alignment/model variance enters the design matrix, effective degrees of freedom are `n−rank`, and `arctan δ` confidence contours must retain nonlinear/multibranch topology.
+
+
+## 67Ga真实序列的门条件设计与single-marginal盲区
+
+[[nndc-2005-67ga-selected-level-gamma-records]] N67-7报告958(E2)/554(E1)同DCO1.45(7)，却没有exactgates/angles/normalizer；N67-9记录primary未取得。以下从[[rose-brink-1967-phase-defined-angular-distributions]] RB67-3/11的CG/helicity/joint response构造**声明设计**，不是NORDBALL算法或原counts拟合。
+
+### 固定设计与失败预测
+
+冻结后固定pointθA40°/θB90°、φ0、两photon polarization未测、idealmatched-efficiency correction，定义R=W12(A,B)/W12(B,A)。状态取symmetric-diagonal、各|M|pair概率q≥0、Σq=1，purelimit只作模型。选择reallevelpaths的两条reference假设：
+
+| 模型 | chosen starting→middle→final spin | target / reference假设 | allpositiveP的R区间 |
+| --- | --- | --- | --- |
+| A | 13/2→9/2→7/2 | E2 958 / E1 871，下方门 | [.413175911,2.551584550] |
+| B | 9/2→9/2→5/2 | E1 554 / E2 1160，下方门 | [.811324495,1.103410944] |
+
+Source没有说它用了这些gates。最初预计两hyp都可能R1.45，被固定模型B结果revises；角度没有调到强求相容。A有严格正population witness，B的每个pure-pair都a_j−1.45b_j<0，没有正q可给该比；它只排除这套**特定**nominalpure/point/reference/normalization模型，不能排除真实E1或source。首scratch probe曾漏deg2rad且numpybool JSON失败，未采用其数值，已在正式单位/归一检查前修正并保存边界。
+
+一般R=(a·q)/(b·q)，本设计所有b_j>0，于是R=Σ[b_jq_j/(b·q)](a_j/b_j)，极值由pure-pairvertices给出。若另加unknowncommon scalar f、Rreported=fRideal，两个models的f允许区间相交为[1.314106959,1.787201064]。f1.45配两initialisotropic能给同reported1.45，只是未识别calibration的反例；从同targetratio得f不是独立测量，不能据此宣称算出了source f。真实array响应还可能energy/gate-dependent、nonseparable或有限接受度。
+
+### 完全相同的单γ校准仍不确定joint gate比
+
+在A中再**自选**精确calibration α2=α4=0。PureE2单γ只看rank≤4；γγ E2+E1 joint可读更高initialrank。用Charnes–Cooper变换y=q/(b·q)，在b·y=1、T2·y=T4·y=0、y≥0下min/max a·y。LP的primal/dual/reduced-cost残差小于1e−10，给数值核验的完整区间[.980174767,1.025136082]，不是interval-arithmetic证书或experimentalCI。
+
+对应|M|按1/2、3/2、…、13/2排列：
+
+| population | exact pair probabilities q | R |
+| --- | --- | --- |
+| min | (0,0,13/27,13/45,0,0,31/135) | .980174767 |
+| max | (11/25,0,0,0,2/25,12/25,0) | 1.025136082 |
+
+两组归一及T2/T4矩为零已按rational vertices精确核验。各混入5%uniformq后成为严格positive density，R仍为.981173438与1.023891199。更强的检查是：**两组的完整第一photon mode density都I5/5，第二都I3/3**，所以任何各自单photon测量都相同，joint directional gate ratio却不同。这不是只有几角处相似，也不是全initialstateisotropic；高阶initial信息在joint response中可见。
+
+该结果补充[[magnetic-substate-population]]/RB67-26的referenceblindness：这次不需目标里有higher photon multipoles，普通E2+E1的joint analyzer就可能超出single-E2 calibration的population rank。它不否定properlyconditioned response模型；它阻止把两个singlemarginal或两个α输入自动等同完整γγ预测。
+
+### target/reference互换与最小输入
+
+若两个ratio真由**同一corrected pair cells/同events/同selection**互换target与reference，则R_T,R_G互为倒数，乘积1。两literal1.45乘积2.1025，不能被当作该假设下同一pair的两份独立约束；source实际可能是不同gate sums、normalizer或response，缺metadata时不判作者错。引用同对象也不认证同count ledger。
+
+最低recoverable response记录需逐target给reference/全gate列表、level/line identity、pair角度与接受度、逐能量efficiency及background、normalization、event-ID重叠和joint covariance；新observable应给独立kernelrow，重复同joint ratio的变形不多一份信息。42项checks覆盖CG/isometry/binomial、units/axialrotation、physicalfeeding、sphere积分→singlemarginal、全部positivepopulation范围、LPwitness/infeasiblecase、scalar/readiness、互反及exactmoments/fullmarginal/strictPSD控制。代码[day14_dco67_gate_design.py](../../system/scripts/day14_dco67_gate_design.py)，完整kernels/duals/witnesses在本run dco67-gate-design.json。
+
+决定revises预设两个模型都能fit1.45，supports先验证gate/normalization及population可观测空间，limits singleγ校准和裸ratio阈值用于联合纲图赋值；没有sourcegeometry、实测ρ/新multipolarity、实验显著性或L4重放。Day14继续，Day15仍partial无学分。

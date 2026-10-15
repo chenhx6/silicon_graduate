@@ -1,0 +1,19 @@
+{
+  "doi": "10.1103/PhysRevC.59.1956",
+  "recorded_at": "2026-10-15T09:29:52.679844+08:00",
+  "scientific_status": "primary notobtained; no rawgate/geometry/ref inferred",
+  "bounded_routes": {
+    "oa_downloader": "oa_not_found/Unpaywallfalse/noOAlocation",
+    "publisher_pdf": "403 HTML; notPDF",
+    "publicHarvestAPI": "401 JSON; no auth used",
+    "OpenAlex": "0results",
+    "SemanticScholar": "1metadata matchingDOI, noOAurl"
+  },
+  "license_boundary": "APSdefaultlicense doesnotcertifyOA; ignore downloaderconfirmed_oa label",
+  "route_stop": "no further publisher/auth retries; preservemissinginput",
+  "missing_input": "DCOexactformula, target/referencegates, detectorpairs/angles, RIcorrection, rawcounts/Cov",
+  "why": "actualN67-7 equalDCO forE1/E2 cannot be interpreted through universalratio thresholds",
+  "next_highest_route": "bounded CG/helicity forwarddesign using actualspinsequences and declaredchosengeometry/reference; not NORDBALLreplay",
+  "review": "metadata/discovery only; no primarylocators or newhumanreview",
+  "root_boundary": "no hostGUI/newsession/daemon/credentials/rawchanges"
+}

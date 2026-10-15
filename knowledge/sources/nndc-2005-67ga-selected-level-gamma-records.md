@@ -66,6 +66,7 @@ raw_file是未来归档的未填保留槽，raw树保持不变；当前可重算
 | N67-6 | G958 continuation印BE2W=9.6(9)，属于评价派生strength。输入CC/完整unseen inventory/fitCov未给，不能把条件gamma-only重算称为重测或重放评价算法。 | evaluated-derived-strength-and-boundary | mixed | ENSDF67031001 G958.01 / BE2W=9.6 9 | true |
 | N67-7 | Ni对象G958与G554.4同报DCO1.45(7)；ADOPTED分别E2(+M3)/E1(+M2)。同parent2073.2的另一G871.3报DCO.77(3)。对象未给具体gate/reference/角响应，不以数值alone指定E2或把差异仅归因ΔJ。 | observed-ratio-and-assignment-boundary | mixed | ENSDF67031003 G958.0/G554.4/G871.3 DCO comments；67031001 corresponding M | true |
 | N67-8 | alpha对2862级保留angular/polarization曾得11/2−，1343与1353未完全分辨“may explain”；采用11/2+来自Fe反应。评价者的污染解释不是本run已证明的错误因果。 | evaluator-comment-and-counter-evidence | direct | ENSDF67031006 L2862.4 comments；67031005 L2862.43 | true |
+| N67-9 | 为核1999DA10的DCO定义，legalOA无文件、publisherPDF403HTML、officialHarvestAPI401JSON、repo metadata无OAurl；没有取得primary。由dataobjects不能补gates/ref/angles/producerCov，后续设计仅chosen model，非NORDBALL重放。 | primary-readiness-boundary | metadata-and-boundary | Day14 Danko99 DOI10.1103/PhysRevC.59.1956 acquisition receipts；N67-7 missinggate scope | true |
 
 ## Selected records and source locators
 
@@ -113,3 +114,10 @@ Refs metadata核验：[Fe references](https://www.nndc.bnl.gov/ensdf/getrefs.jsp
 ## Self-audit and review boundary
 
 全部N67-1–8 needs_review:true，Codex完成object/locator/条件数学自审，无新增人审。评价记录、评价者解释、标准理论和本任务重算分开；没有重估真ρ/δ/τ、生成真实counts或宣称原作者出错。Day14持续，Day15仅partial无学分。
+
+
+### 1999 primary的数据边界与设计续路
+
+N67-7的相同ratio现象需要exacttarget/reference gates、角度/探测对、归一/效率与producerCov。Danko等PRC59,1956的原文在本run未取到：合法OA未找到对象、publiccitationPDF不完整验证、直接HTTPS403返回HTML、官方HarvestAPI401、OpenAlex0/SemanticScholar匹配metadata但无OA地址。普通APSdefaultlicense不等OA；没有更改认证、处理challenge、启用hostGUI或反复请求受阻入口，metadata/失败responsehash保留。
+
+故停止该获取分支，不虚构正文页码、gate定义或实际detectorangles。[[angular-correlation]]“67Ga真实序列的门条件设计与single-marginal盲区”使用actualstates加**声明的**40°/90°、参考路径及purelimits，检查模型是否能表示source1.45、unknownnormalizer与单γ校准何时不足。这是source-groundedL2设计，不能用于裁决真实E1/实验ρ、声称原数据冲突或补actualL4缺口。N67-9 true，其余旧claim/review保持。

@@ -1002,6 +1002,44 @@ HE15-9的实际未定双线是核心反例：energy sum、共享R/A和假设的�
           "locator": "N67-5"
         }
       ]
+    },
+    {
+      "knowledge": "knowledge/sources/nndc-2005-67ga-selected-level-gamma-records.md",
+      "anchor": "1999 primary的数据边界与设计续路",
+      "summary": "保存Danko1999 primary/OA/publicAPI/repo获取边界与missingDCOgates/geometry，不从metadata造source definition，衔接声明的L2设计。",
+      "sources": [
+        {
+          "path": "knowledge/sources/nndc-2005-67ga-selected-level-gamma-records.md",
+          "locator": "N67-9"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/methods/angular-correlation.md",
+      "anchor": "67Ga真实序列的门条件设计与single-marginal盲区",
+      "summary": "42-check固定actualspin/chosengeometry前向：R完整区间/失败预测、unknownscalar与pair互反、samefull-photonmarginals却不同jointR；scope严格chosen，不重放NORDBALL。",
+      "sources": [
+        {
+          "path": "knowledge/sources/nndc-2005-67ga-selected-level-gamma-records.md",
+          "locator": "N67-7"
+        },
+        {
+          "path": "knowledge/sources/nndc-2005-67ga-selected-level-gamma-records.md",
+          "locator": "N67-9"
+        },
+        {
+          "path": "knowledge/sources/rose-brink-1967-phase-defined-angular-distributions.md",
+          "locator": "RB67-3"
+        },
+        {
+          "path": "knowledge/sources/rose-brink-1967-phase-defined-angular-distributions.md",
+          "locator": "RB67-11"
+        },
+        {
+          "path": "knowledge/sources/rose-brink-1967-phase-defined-angular-distributions.md",
+          "locator": "RB67-26"
+        }
+      ]
     }
   ]
 }
@@ -1095,6 +1133,14 @@ N67-2/3的958为E2(+M3)、δ−0.00(1)，finite .01与alpha1978Al32依赖保留�
 [[kibedi-2008-evaluation-theoretical-conversion-coefficients-bricc]] KB08-D14-1–6为4个theoryinputs：168.8M1/E2 Tot .0175(3)/.0976(17)，958.01E2/M3 .000358(5)/.001513(22)。K与subshells不代Total，E168E2的energyunc>1%警告和缺radius/datafilehash保留；providererror不作独立Σ或再叠interp。原paperHuman/旧flags不扩，新D14全部true。
 
 [32-check forward](20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/bricc67-parsed-forward.json)与[32-check offline replay](20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/bricc67-offline-replay.json)一致。在complete2γ/无extra、weakM1或E2、strongδ0条件下，B_E2为9.614759/9.613223WU，较zeroIC下降.0392%/.0552%；sourceCC blank不改为实测。全部δ0/.01/.02的6cases保存ledger，不是confidencebounds。若额外假设weak也E2，Bweak/Bstrong=11.776548，展示RI小不等于B小，不作weakM赋值。完整可复用结果在[[level-scheme-reconstruction]]“67Ga：FO理论输入补全的条件强度范围”。supports模型内输入补全，limits全部multipoles/extra/inventory/Cov的无条件结论，实验L4仍notready，不计Day15。
+
+### 缺gate时的有界设计与失败预测修正
+
+Danko99primary合法OA/publicPDF/官方API/repo均未提供正文（403HTML/401JSON边界），[[nndc-2005-67ga-selected-level-gamma-records]] N67-9固化输入缺口，没有补造NORDBALLgate/ref/angles。按[冻结预测](20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/dco67-before-calculation.md)固定40°/90°与两个actualspinpath的chosen下方门，[42-check设计](20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/dco67-gate-design.json)给A(E2target/E1ref) R区间[.41318,2.55158]，B(E1target/E2ref)[.81132,1.10341]。B不含1.45，首预测被revises，未调角或硬fit；不是sourceE1被排除。
+
+在A中自选sameexactα2=α4=0的positive populations，经fractionalLP/primaldual与rationalmoments核验，jointR完整数值区间[.980174767,1.025136082]。两组完整photon1marginal都I5/5、photon2都I3/3；strictPSD的5%uniform混合仍R不同。因而singleγ校准即使精确，也不自动给出全部joint-gate响应。共同unknownscalar的交集[1.31411,1.78720]仅演示未识别calibration，不能从同targetdata反推source f。
+
+同corrected pair cells若互换target/ref，R产品必1；literal两1.45不能按这种假设计两份独立constraints，不判原作者错误。Allscope/duals/kernels/positivewitness、首scratch单位/JSON失败及未采用边界在[[angular-correlation]]“67Ga真实序列的门条件设计与single-marginal盲区”与run文件。supports精确gate/normalization和独立kernelrow，limits裸ratio/singlemarginal替代jointresponse；无实验pvalue/真实ρ/新的card信用。
 
 ## Open questions and belief revision
 
@@ -1205,3 +1251,10 @@ Ref5原9页与23-check Appendix均完成；report/card/writeback valid（23items
 4actualFO输入、32captured checks与32offline replay同值；report/card/writeback valid（31items/15changedpages），AST/保护哈希/raw metadata/原Human及旧flags/diff通过。wiki_lint --fail-on error exit0，0errors/130warnings（107citation-key/20rawslots/3parser），6新KB08-D14全部parsedtrue；未清N67sourceCC、未产生实验ICC/新B或新card credit。
 
 恢复[checkpoint012](20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/checkpoint-012.md)，稳定指针main / `Add DAY14 theoretical conversion response inputs`，exacthash/actualH3仅receipt。下一Danko1999 primaryDCOdefinition的legalretrieval已freezeprimedrecall；OA未取得/直接publisher403，继续boundedlegitimatemetadata定位，不伪造geometry/gates。原researchwindow仍active，正式21/24、Day14/partial15不变。
+
+
+### Checkpoint013 门条件设计验收与pool复核
+
+42-check chosen40/90真实spinpath前向设计、失败预测/范围、LP/duality/rationalmoments/fullsinglephotonangularmarginals与互反均通过；report/card/writeback valid（33items/15changedpages），AST/保护哈希/raw metadata/原review/diff通过。wiki_lint --fail-on error exit0，0errors/130warnings（107citation-key/20rawslots/3parser），N67-9实际parsedtrue。代码仅声明模型，无原experimentalgate/ρ/Cov/pvalue重构。
+
+恢复[checkpoint013](20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/checkpoint-013.md)，本批main / `Test DAY14 gated response beyond single-gamma calibration`，actualH3/hash只receipt。全Wikiquestions/pool/recentfingerprint/Day15精确卡已复核，Day15worksheet/convention有产物仍只partial。下一继续193Bi原order问题的jointenergy-time与独立responsecalibration设计，.6keV名义gap之外全σ/τ为chosen，不借其他parent时间、不赋新order。Research仍active，原15:00cutoff不改。

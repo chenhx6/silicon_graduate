@@ -1,0 +1,65 @@
+{
+  "status": "fulfilled",
+  "value": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\n  \"source\": \"semantic_scholar\",\n  \"total\": 1,\n  \"results\": [\n    {\n      \"title\": \"Collective and broken pair states of Ga-65,Ga-67\",\n      \"doi\": \"10.1103/PHYSREVC.59.1956\",\n      \"year\": 1999,\n      \"authors\": [\n        \"I. Dankó\",\n        \"D. Sohler\",\n        \"Z. Dombrádi\",\n        \"S. Brant\",\n        \"V. Krstić\",\n        \"J. Cederkäll\",\n        \"M. Lipoglavšek\",\n        \"M. Palacz\",\n        \"J. Persson\",\n        \"A. Ataç\",\n        \"C. Fahlander\",\n        \"H. Grawe\",\n        \"A. Johnson\",\n        \"A. Kerek\",\n        \"W. Klamra\",\n        \"J. Kownacki\",\n        \"A. Likar\",\n        \"L. Norlin\",\n        \"J. Nyberg\",\n        \"V. Paar\",\n        \"R. Schubart\",\n        \"D. Seweryniak\",\n        \"D. Vretenar\",\n        \"G. de Angelis\",\n        \"P. Bednarczyk\",\n        \"D. Foltescu\",\n        \"D. Jerrestam\",\n        \"S. Juutinen\",\n        \"E. Mäkelä\",\n        \"B. Nyakó\",\n        \"M. de Poli\",\n        \"H. Roth\",\n        \"T. Shizuma\",\n        \"Ö. Skeppstedt\",\n        \"G. Sletten\",\n        \"S. Törmänen\"\n      ],\n      \"journal\": \"\",\n      \"citation_count\": 3,\n      \"open_access_url\": \"\",\n      \"source\": \"semantic_scholar\"\n    }\n  ]\n}"
+      }
+    ],
+    "structuredContent": {
+      "source": "semantic_scholar",
+      "total": 1,
+      "results": [
+        {
+          "title": "Collective and broken pair states of Ga-65,Ga-67",
+          "doi": "10.1103/PHYSREVC.59.1956",
+          "year": 1999,
+          "authors": [
+            "I. Dankó",
+            "D. Sohler",
+            "Z. Dombrádi",
+            "S. Brant",
+            "V. Krstić",
+            "J. Cederkäll",
+            "M. Lipoglavšek",
+            "M. Palacz",
+            "J. Persson",
+            "A. Ataç",
+            "C. Fahlander",
+            "H. Grawe",
+            "A. Johnson",
+            "A. Kerek",
+            "W. Klamra",
+            "J. Kownacki",
+            "A. Likar",
+            "L. Norlin",
+            "J. Nyberg",
+            "V. Paar",
+            "R. Schubart",
+            "D. Seweryniak",
+            "D. Vretenar",
+            "G. de Angelis",
+            "P. Bednarczyk",
+            "D. Foltescu",
+            "D. Jerrestam",
+            "S. Juutinen",
+            "E. Mäkelä",
+            "B. Nyakó",
+            "M. de Poli",
+            "H. Roth",
+            "T. Shizuma",
+            "Ö. Skeppstedt",
+            "G. Sletten",
+            "S. Törmänen"
+          ],
+          "journal": "",
+          "citation_count": 3,
+          "open_access_url": "",
+          "source": "semantic_scholar"
+        }
+      ]
+    },
+    "isError": false
+  }
+}

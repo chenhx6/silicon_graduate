@@ -1,0 +1,304 @@
+{
+  "kind": "L2 source-state-grounded declared DCO design; no NORDBALL replay",
+  "chosen_geometry": {
+    "theta_degrees": [
+      40.0,
+      90.0
+    ],
+    "phi_radians": 0.0,
+    "point_detectors": true,
+    "pol_unobserved": true,
+    "efficiency_correction_assumed": true
+  },
+  "actual_source_input_only": "N67-7 reported1.45/1.45/.77; actual gate/ref/geometry unavailable",
+  "source_nominal_pure_limits_only": true,
+  "models": [
+    {
+      "name": "A958_target_871_reference",
+      "spins": [
+        6.5,
+        4.5,
+        3.5
+      ],
+      "ranks": [
+        2,
+        1
+      ],
+      "abs_M": [
+        0.5,
+        1.5,
+        2.5,
+        3.5,
+        4.5,
+        5.5,
+        6.5
+      ],
+      "numerator_kernel": [
+        1.4279949736803603,
+        1.321349651883673,
+        1.1418604896236464,
+        0.9459413214292642,
+        0.7902400787497463,
+        0.6980714055414341,
+        0.614660145716975
+      ],
+      "denominator_kernel": [
+        0.5596502665195029,
+        0.6284943354811071,
+        0.7626020870762358,
+        0.9516329737860343,
+        1.17212673717549,
+        1.377964083305354,
+        1.4876475832813718
+      ],
+      "vertex_ratios": [
+        2.551584550403492,
+        2.102405029429885,
+        1.4973214851816907,
+        0.9940190677356144,
+        0.6741933731961548,
+        0.5065962269981336,
+        0.4131759111665353
+      ],
+      "complete_R_range": [
+        0.4131759111665353,
+        2.551584550403492
+      ],
+      "isotropic_R": 1.0000000000000002,
+      "witness_R1p45": {
+        "status": 0,
+        "success": true,
+        "q": [
+          0.5027251680202331,
+          0.08287913866329448,
+          0.08287913866329448,
+          0.08287913866329448,
+          0.08287913866329448,
+          0.08287913866329448,
+          0.08287913866329448
+        ],
+        "min_pair_mass": 0.08287913866329448
+      },
+      "common_scalar_f_compatible_range": [
+        0.5682743296790638,
+        3.509401106918745
+      ]
+    },
+    {
+      "name": "B554_target_1160_reference",
+      "spins": [
+        4.5,
+        4.5,
+        2.5
+      ],
+      "ranks": [
+        1,
+        2
+      ],
+      "abs_M": [
+        0.5,
+        1.5,
+        2.5,
+        3.5,
+        4.5
+      ],
+      "numerator_kernel": [
+        1.0103922517141875,
+        1.0533635826404195,
+        1.091339904598072,
+        1.0546342985689563,
+        0.9043307879543644
+      ],
+      "denominator_kernel": [
+        0.9156989582826427,
+        0.9862479351708632,
+        1.0504767855564876,
+        1.0470020110960732,
+        1.1146351353699349
+      ],
+      "vertex_ratios": [
+        1.10341094371139,
+        1.0680514960550247,
+        1.0388995926453886,
+        1.0072896588468756,
+        0.811324494678007
+      ],
+      "complete_R_range": [
+        0.811324494678007,
+        1.10341094371139
+      ],
+      "isotropic_R": 0.9999999999999996,
+      "witness_R1p45": {
+        "status": 2,
+        "success": false,
+        "q": null,
+        "min_pair_mass": null
+      },
+      "common_scalar_f_compatible_range": [
+        1.3141069592103525,
+        1.7872010638301585
+      ]
+    }
+  ],
+  "unknown_common_f_overlap": [
+    1.3141069592103525,
+    1.7872010638301585
+  ],
+  "f1p45_is_a_counterexample_not_an_independent_calibration": true,
+  "mutual_corrected_gate_identity": "R(target,reference)*R(reference,target)=1",
+  "actual_both_reported_R_product": 2.1025,
+  "fixed_single_photon_moments": {
+    "alpha2_chosen": 0.0,
+    "alpha4_chosen": 0.0,
+    "numerical_primal_dual_checked": true,
+    "LP_extrema": [
+      {
+        "q": [
+          0.0,
+          0.0,
+          0.4814814814814806,
+          0.2888888888888903,
+          0.0,
+          0.0,
+          0.22962962962962907
+        ],
+        "q_exact": [
+          "0",
+          "0",
+          "13/27",
+          "13/45",
+          "0",
+          "0",
+          "31/135"
+        ],
+        "ratio": 0.9801747674066879,
+        "LP_dual": [
+          0.9801747674066876,
+          0.6656484478265339,
+          0.1798874052236959
+        ],
+        "reduced_costs": [
+          0.033904050815286135,
+          0.017938651225018365,
+          0.0,
+          1.1102230246251565e-16,
+          0.027625522886529197,
+          0.05812122996906177,
+          0.0
+        ],
+        "interior_q": [
+          0.0071428571428571435,
+          0.0071428571428571435,
+          0.4645502645502637,
+          0.2815873015873029,
+          0.0071428571428571435,
+          0.0071428571428571435,
+          0.22529100529100476
+        ],
+        "interior_ratio": 0.9811734380131735
+      },
+      {
+        "q": [
+          0.4400000000000001,
+          0.0,
+          0.0,
+          0.0,
+          0.08000000000000011,
+          0.4799999999999998,
+          0.0
+        ],
+        "q_exact": [
+          "11/25",
+          "0",
+          "0",
+          "0",
+          "2/25",
+          "12/25",
+          "0"
+        ],
+        "ratio": 1.0251360819202149,
+        "LP_dual": [
+          -1.025136081920215,
+          -0.6508464257547583,
+          -0.2034308664601947
+        ],
+        "reduced_costs": [
+          0.0,
+          0.01110119667100573,
+          0.022202393342009463,
+          0.01903062286457957,
+          3.3306690738754696e-16,
+          5.551115123125783e-16,
+          0.12211316338105427
+        ],
+        "interior_q": [
+          0.4251428571428572,
+          0.0071428571428571435,
+          0.0071428571428571435,
+          0.0071428571428571435,
+          0.08314285714285725,
+          0.4631428571428569,
+          0.0071428571428571435
+        ],
+        "interior_ratio": 1.0238911985980197
+      }
+    ],
+    "full_photon1_marginal": "I5/5",
+    "full_photon2_marginal": "I3/3",
+    "actual_calibration_or_population": false
+  },
+  "boundaries": [
+    "The frozen40/90geometry and these reference paths are chosen, not extracted from missing primary or actual NORDBALL data.",
+    "ModelB's1.45infeasibility revises the prediction within this particular model; it does not reject E1, source data, or every allowed response/mixing.",
+    "Positive population witnesses are mathematical states, not reconstructed physical reaction populations.",
+    "Unknown scalar f only demonstrates missing calibration; deriving f from this same target ratio is circular and gives no source geometry.",
+    "Real array response may be nonseparable, energy/gate-dependent and finite; a common scalar is itself an extra assumption.",
+    "Mutual reciprocal identity requires the same corrected cells/event selection; actual two reported ratios need not meet that condition.",
+    "Actual conditional counts/covariance/gates are absent; no experimental pvalue, new multipolarity, new card or L4 replay is claimed."
+  ],
+  "checks": {
+    "degree_to_radian_direction_contract": true,
+    "unit_direction_vectors": true,
+    "A958_target_871_reference_CG1_isometry": true,
+    "A958_target_871_reference_CG2_isometry": true,
+    "A958_target_871_reference_maximal_binomial_control_2": true,
+    "A958_target_871_reference_maximal_binomial_control_1": true,
+    "A958_target_871_reference_denominators_strictly_positive": true,
+    "A958_target_871_reference_random_initial_ratio_one": true,
+    "A958_target_871_reference_axial_global_azimuth_rotation": true,
+    "A958_target_871_reference_unobserved_feeding_density_PSD_trace_one": true,
+    "A958_target_871_reference_joint_integrates_to_first_single_marginal": true,
+    "A958_target_871_reference_fractional_ratio_is_positive_weighted_vertex_average": true,
+    "A958_target_871_reference_LP_agrees_with_complete_vertex_range": true,
+    "A958_target_871_reference_strictly_positive_witness_matches_chosen_ratio": true,
+    "B554_target_1160_reference_CG1_isometry": true,
+    "B554_target_1160_reference_CG2_isometry": true,
+    "B554_target_1160_reference_maximal_binomial_control_2": true,
+    "B554_target_1160_reference_denominators_strictly_positive": true,
+    "B554_target_1160_reference_random_initial_ratio_one": true,
+    "B554_target_1160_reference_axial_global_azimuth_rotation": true,
+    "B554_target_1160_reference_unobserved_feeding_density_PSD_trace_one": true,
+    "B554_target_1160_reference_joint_integrates_to_first_single_marginal": true,
+    "B554_target_1160_reference_fractional_ratio_is_positive_weighted_vertex_average": true,
+    "B554_target_1160_reference_LP_agrees_with_complete_vertex_range": true,
+    "B554_target_1160_reference_all_vertex_halfspaces_exclude_forced_ratio": true,
+    "pre_registered_two_model_prediction_revised_not_angles_retuned": true,
+    "unknown_common_scalar_leaves_overlapping_model_ranges": true,
+    "isotropic_models_with_declared_unknown_f_can_share_reportedratio": true,
+    "same_corrected_pair_target_reference_swap_is_reciprocal": true,
+    "two_literal1p45_values_are_not_a_mutual_corrected_pair": true,
+    "calibrated_1_linear_fractional_LP_success": true,
+    "calibrated_1_primal_dual_residuals": true,
+    "calibrated_1_exact_population_moments_zero": true,
+    "calibrated_1_both_full_photon_marginals_identical_isotropic": true,
+    "calibrated_1_strict_PSD_population": true,
+    "calibrated_-1_linear_fractional_LP_success": true,
+    "calibrated_-1_primal_dual_residuals": true,
+    "calibrated_-1_exact_population_moments_zero": true,
+    "calibrated_-1_both_full_photon_marginals_identical_isotropic": true,
+    "calibrated_-1_strict_PSD_population": true,
+    "same_single_photon_calibration_leaves_nontrivial_joint_ratio_interval": true,
+    "strict_PSD_controls_keep_different_joint_ratios": true
+  },
+  "checks_passed": 42
+}

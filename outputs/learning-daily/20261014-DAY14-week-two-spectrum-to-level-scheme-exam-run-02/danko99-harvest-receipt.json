@@ -1,0 +1,13 @@
+{
+  "url": "https://harvest.aps.org/v2/journals/articles/10.1103/PhysRevC.59.1956/fulltext",
+  "requested_at": "2026-10-15T01:24:27.351526+00:00",
+  "route": "separate officialpublicAPI, no credentials/browser/challenge manipulation",
+  "bounded_single_attempt": true,
+  "status_code": 401,
+  "final_url": "https://harvest.aps.org/v2/journals/articles/10.1103/PhysRevC.59.1956/fulltext",
+  "content_type": "application/json",
+  "bytes": 64,
+  "sha256": "301699bb5f9a2bbbc8985b50d67c801dd9ba905ed8b5063b2738602586929484",
+  "pdf_magic": false,
+  "response_path": "tmp/day14-20261014/danko99/harvest-response.bin"
+}

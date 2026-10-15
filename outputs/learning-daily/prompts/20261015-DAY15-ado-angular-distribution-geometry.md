@@ -280,3 +280,6 @@ Day14 partial15还核4个67Ga ENSDF对象，38-check真实field/parent/time/RI/f
 
 
 Day14 partial15另补4个actualANU Z31 FO theoryICC与32-checkforward/offlinereplay，KB08-D14-1–6 true。CCnuclearalignment与atomicICC分开；初decimalDE错误/有效integerencoding保留，actualmodel不是measuredICC或NDS2005处理。弱M1/E2/complete2γ假设和missinghigher/extra/Cov保持，不将nominal小修正升级为原实验可靠性或正式Day15学分。
+
+
+Day14 partial15另有42-check gated-design：真实67Ga spinpath加声明40/90/参考门（非NORDBALL）给不同positiveP范围，B模型不能硬fit1.45。即使exactsingleα2=α4=0、两个photonangularmode marginals完全同，jointR仍可.98017–1.02514；unknownf/互反/共同events边界保存。正式Day15需标priming，不能以sourceDCO数值推未取得的gate/geometry或把singlecal当fulljoint。

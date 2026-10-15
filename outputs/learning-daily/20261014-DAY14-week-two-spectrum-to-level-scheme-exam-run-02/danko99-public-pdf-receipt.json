@@ -1,0 +1,13 @@
+{
+  "url": "https://link.aps.org/pdf/10.1103/PhysRevC.59.1956",
+  "provenance": "citation_pdf_url on publisherlanding; HTTPS normalized from discoveredHTTP",
+  "requested_at": "2026-10-15T01:16:34.357240+00:00",
+  "no_auth_or_browser_changes": true,
+  "status_code": 403,
+  "final_url": "https://link.aps.org/pdf/10.1103/PhysRevC.59.1956",
+  "content_type": "text/html; charset=UTF-8",
+  "bytes": 5519,
+  "sha256": "c0bd1be141b5766b71631aea987cf6bfd67b8522c83524553269367dc2909c3b",
+  "pdf_magic": false,
+  "response_path": "tmp/day14-20261014/danko99/publisher-pdf-attempt-response.bin"
+}

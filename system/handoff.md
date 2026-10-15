@@ -8,13 +8,13 @@ updated: 2026-10-15
 
 ## Active handoff — DAY14 formal exam and continuous study
 
-Run `2026-10-14-day-14-02` / session `01a13a0e-e8bd-7251-b970-f6975679e281`；原研究截止 `2026-10-15T15:00:00+08:00` 保持，goal/research仍active。正式DAY14的primed回忆、Herzáň主线/图表/七边、21/24和weeklyREFLECT已发布；官方next14/count13等最终closeout只计一次。Day15仅partial预习，不研究Day16。
+Run `2026-10-14-day-14-02` / session `01a13a0e-e8bd-7251-b970-f6975679e281`；原研究截止 `2026-10-15T15:00:00+08:00` 保持，goal/research仍active。FormalDAY14 primed回忆/Herzáň主线与七边/21/24/weeklyREFLECT已发布；officialnext14/count13等最终closeout只计一次。Day15仅partial，不研究Day16。
 
-最新checkpoint012（上海10-15 09时）：officialBrIccFO/v2.3(2011)Z31四个theoryinputs补全；初4误码校验页+4有效请求保留，32captured和32offlinechecks同值。N67sourceCC不填模型值；低rank完整两gamma控制B9.614759/9.613223WU不是实测/原算法。KB08新D14-1–6true、原Human/旧flags不扩；higher/extra/penetration/radius/datafile/actualCov边界保留。
+最新checkpoint013：42项actualspin+chosen40/90/refgate模型验收，B不能硬fit1.45，失败预测保留。Exactsingleα2/α4=0、两photonangularmarginals全同，jointR仍.98017–1.02514；LP/duality/rationalq/strictPSD和互反/unknownf边界固化angular-correlation。Danko99primary401/403/noOA，N67-9true记录stop，不造sourcegate；原review/flags保持。
 
-唯一writeback31items/15changedpages，report/card/writeback/AST/protected/raw/review/diff/freshlint通过：0errors130warnings（107citekey/20rawslots/3parser），6新claimparsed。前11批Gitee已发布；本批main / `Add DAY14 theoretical conversion response inputs`，exacthash/actualH3仅receipt。
+唯一writeback33items/15changedpages，report/card/writeback/AST/protected/raw/review/diff/lint0errors130warnings通过，new9parsed。前12批Gitee已published；本批main / `Test DAY14 gated response beyond single-gamma calibration`，exacthash/actualH3仅receipt。
 
-下一Danko1999primary DCOdefinition/gate/geometry：primedrecall已冻；OA没文件、公开PDFcandidate不完整、直接HTTPS403HTML，合法repo metadata继续定位，不改auth/hostGUI或造gate。原1979获取分支保持stop。Clock001/002已实际ack；Farmer8686/clock75781不重启。恢复 `codex resume 01a13a0e-e8bd-7251-b970-f6975679e281 -C /workspace/wiki -s danger-full-access -a never`；checkpoint012/continuation可恢复。
+全pool/questions/Day15精确卡复核后，当前Ga routes局部饱和，继续原193Bi doublet的jointenergy-time/独立response校准设计；预测已冻，actualgap.6keV，σ/τ/timewalk全chosen。不能借带头/67Gaτ或赋actualorder。Clock001/002actualack；Farmer8686/clock75781不重启。恢复 `codex resume 01a13a0e-e8bd-7251-b970-f6975679e281 -C /workspace/wiki -s danger-full-access -a never`；checkpoint013/continuation可恢复。
 
 ## Previous active handoff — DAY13 continuous study reopened by user
 
