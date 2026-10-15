@@ -7,8 +7,8 @@
   "pages": 13,
   "pdf_magic": true,
   "header_year_page_author_verified": true,
-  "reading_scope": "bibliographic identity header only; body/mainline/figures not read",
-  "fulltext_read": false,
+  "reading_scope": "13-page full mainline; Figs1–3/TablesI–II; key formulas/uncertainties visually verified; original data/FITFTAU not rerun",
+  "fulltext_read": true,
   "raw_archived": false,
   "identity_checked_on_visual_header": {
     "title": "Global lifetime measurements of highly-deformed and other rotational structures in the A~135 light rare-earth region: Probing the single-particle motion in a rotating potential",
@@ -19,5 +19,6 @@
     "year": 2001,
     "first_page": 2683
   },
-  "candidate_url_issue_not_citation": "initial guessed URL used issue10 but publisherredirect resolves vol/page; actual header No9 controls citation"
+  "candidate_url_issue_not_citation": "initial guessed URL used issue10 but publisherredirect resolves vol/page; actual header No9 controls citation",
+  "last_updated_at": "2026-10-15T22:04:59.973469+08:00"
 }

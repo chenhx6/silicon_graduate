@@ -1,0 +1,155 @@
+{
+  "report": {
+    "valid": true,
+    "missing_headings": []
+  },
+  "coverage": {
+    "valid": true,
+    "completed_day_indices": [
+      14
+    ],
+    "partial_day_indices": [
+      15
+    ],
+    "curriculum_cards_completed": 1,
+    "next_day_index": 15,
+    "error": null
+  },
+  "writeback": {
+    "valid": true,
+    "mode": "updated",
+    "knowledge_paths": [
+      "knowledge/sources/herzan-2015-193bi-spectroscopy.md",
+      "knowledge/methods/level-scheme-reconstruction.md",
+      "knowledge/projects/a130-thesis-evidence-matrix.md",
+      "knowledge/sources/nndc-2017-193bi-level-scheme-evaluation.md",
+      "knowledge/index.md",
+      "knowledge/methods/linear-polarization-asymmetry.md",
+      "knowledge/sources/rose-brink-1967-phase-defined-angular-distributions.md",
+      "knowledge/sources/zheng-2002-ado-coincidence-angular-anisotropy.md",
+      "knowledge/methods/angular-distribution.md",
+      "knowledge/methods/angular-correlation.md",
+      "knowledge/sources/zobel-1983-energy-projectile-alignment.md",
+      "knowledge/observables/angular-distribution-coefficient.md",
+      "knowledge/sources/zobel-1980-magnetic-substate-distributions.md",
+      "knowledge/sources/nndc-2005-67ga-selected-level-gamma-records.md",
+      "knowledge/sources/lange-kumar-hamilton-1982-multipole-admixtures.md",
+      "knowledge/sources/kibedi-2008-evaluation-theoretical-conversion-coefficients-bricc.md",
+      "knowledge/sources/lv-2025-136pr-tac-covariant-density-functional.md",
+      "knowledge/nuclei/136pr.md",
+      "knowledge/sources/lv-2019-chirality-135nd-reexamined.md",
+      "knowledge/experiments/jurogam2-135nd-ar40-152mev.md",
+      "knowledge/sources/nndc-2018-136pr-selected-level-gamma-records.md",
+      "knowledge/observables/bm1-be2-ratio.md",
+      "knowledge/methods/configuration-occupation-audit.md",
+      "knowledge/projects/a130-model-choice-card.md",
+      "knowledge/questions.md",
+      "knowledge/sources/wang-2017-109ag-tac-separable-pairing.md",
+      "knowledge/models/tilted-axis-cranking.md",
+      "knowledge/sources/zhao-2015-pairing-spin-orientation-tac.md",
+      "knowledge/concepts/triaxial-deformation.md",
+      "knowledge/sources/petrache-2015-nd-exotic-rotations-triaxiality.md",
+      "knowledge/observables/moments-of-inertia.md",
+      "knowledge/sources/peng-chen-2022-chiral-rotation-rhodium-isotopes.md",
+      "knowledge/sources/matev-2007-a130-quadrupole-alignment-additivity.md",
+      "knowledge/observables/transition-quadrupole-moment.md",
+      "knowledge/sources/riley-2001-global-lifetime-a135.md",
+      "knowledge/methods/doppler-shift-attenuation-method.md"
+    ],
+    "changed_paths": [
+      "knowledge/concepts/triaxial-deformation.md",
+      "knowledge/experiments/jurogam2-135nd-ar40-152mev.md",
+      "knowledge/index.md",
+      "knowledge/methods/angular-correlation.md",
+      "knowledge/methods/angular-distribution.md",
+      "knowledge/methods/configuration-occupation-audit.md",
+      "knowledge/methods/doppler-shift-attenuation-method.md",
+      "knowledge/methods/level-scheme-reconstruction.md",
+      "knowledge/methods/linear-polarization-asymmetry.md",
+      "knowledge/models/tilted-axis-cranking.md",
+      "knowledge/nuclei/136pr.md",
+      "knowledge/observables/angular-distribution-coefficient.md",
+      "knowledge/observables/bm1-be2-ratio.md",
+      "knowledge/observables/moments-of-inertia.md",
+      "knowledge/observables/transition-quadrupole-moment.md",
+      "knowledge/projects/a130-model-choice-card.md",
+      "knowledge/projects/a130-thesis-evidence-matrix.md",
+      "knowledge/questions.md",
+      "knowledge/sources/herzan-2015-193bi-spectroscopy.md",
+      "knowledge/sources/kibedi-2008-evaluation-theoretical-conversion-coefficients-bricc.md",
+      "knowledge/sources/lv-2019-chirality-135nd-reexamined.md",
+      "knowledge/sources/lv-2025-136pr-tac-covariant-density-functional.md",
+      "knowledge/sources/matev-2007-a130-quadrupole-alignment-additivity.md",
+      "knowledge/sources/nndc-2005-67ga-selected-level-gamma-records.md",
+      "knowledge/sources/nndc-2017-193bi-level-scheme-evaluation.md",
+      "knowledge/sources/nndc-2018-136pr-selected-level-gamma-records.md",
+      "knowledge/sources/peng-chen-2022-chiral-rotation-rhodium-isotopes.md",
+      "knowledge/sources/petrache-2015-nd-exotic-rotations-triaxiality.md",
+      "knowledge/sources/riley-2001-global-lifetime-a135.md",
+      "knowledge/sources/rose-brink-1967-phase-defined-angular-distributions.md",
+      "knowledge/sources/wang-2017-109ag-tac-separable-pairing.md",
+      "knowledge/sources/zhao-2015-pairing-spin-orientation-tac.md",
+      "knowledge/sources/zheng-2002-ado-coincidence-angular-anisotropy.md",
+      "knowledge/sources/zobel-1980-magnetic-substate-distributions.md",
+      "knowledge/sources/zobel-1983-energy-projectile-alignment.md"
+    ],
+    "change_check": "run-snapshot",
+    "error": null
+  },
+  "analysis_exit_code": 0,
+  "analysis_checks": 27,
+  "analysis_checks_all_true": true,
+  "preservation": {
+    "knowledge/observables/transition-quadrupole-moment.md": {
+      "old_nonempty_lines_in_order_with_explicit_changes": true,
+      "intentional_changes": [
+        "本任务尚未核其原分析。"
+      ],
+      "review_unchanged": true
+    },
+    "knowledge/methods/doppler-shift-attenuation-method.md": {
+      "old_nonempty_lines_in_order_with_explicit_changes": true,
+      "intentional_changes": [
+        "updated: 2026-08-11",
+        "method_type: nuclear-lifetime-lineshape",
+        "DSAM extracts short excited-state lifetimes from the Doppler-broadened γ-ray line shape produced while recoils slow in target/backing material. Forward and backward detector angles provide complementary velocity sensitivity."
+      ],
+      "review_unchanged": true
+    },
+    "knowledge/sources/matev-2007-a130-quadrupole-alignment-additivity.md": {
+      "old_nonempty_lines_in_order_with_explicit_changes": true,
+      "intentional_changes": [],
+      "review_unchanged": true
+    },
+    "knowledge/index.md": {
+      "old_nonempty_lines_in_order_with_explicit_changes": true,
+      "intentional_changes": [],
+      "review_unchanged": true
+    }
+  },
+  "protected_hashes": {
+    "PLAN.md": true,
+    "raw/zotero/wiki-inbox.bib": true
+  },
+  "raw_metadata_unchanged": true,
+  "at": "2026-10-15T22:08:52.101495+08:00",
+  "canonical_rows": 33,
+  "new_claims_parsed_true": 16,
+  "verification_harness_initial_failure": "AttributeError from nonexistent Page.claims; repaired to canonical claim_rows parser; no scientific file changed by failure",
+  "ast": true,
+  "writeback_item_count": 104,
+  "changed_knowledge_count": 35,
+  "git_diff_check_exit_code": 0,
+  "lint_exit_code": 0,
+  "lint_errors": 0,
+  "lint_warnings": 141,
+  "warning_breakdown": {
+    "REACTION_PARSE": 3,
+    "CITATION_KEY_MISSING": 112,
+    "RAW_MISSING": 26
+  },
+  "eol_precommit_exit_code": 1,
+  "eol_classification": "four task-owned substantive modified knowledge paths retained; zero restored or unsafe/mixed; new source exact-owned; all old/review/protected preservation checks passed",
+  "cached_diff_check_exit_code": 0,
+  "cached_exact_path_count": 18
+}

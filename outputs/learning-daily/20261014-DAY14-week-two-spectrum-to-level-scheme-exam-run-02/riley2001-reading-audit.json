@@ -1,0 +1,65 @@
+{
+  "at": "2026-10-15T22:04:59.973469+08:00",
+  "source_pdf_sha256": "09d58089a1985ef9d3d02432921b302a77c5d51eca9846bdea03dd9330d0d036",
+  "pages_read": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13
+  ],
+  "figures_read": [
+    "Fig1",
+    "Fig2",
+    "Fig3"
+  ],
+  "tables_read": [
+    "Table I",
+    "Table II"
+  ],
+  "scope": "full13page author-report mainline, references and key equation/uncertainty limitations; inherited completed reading checkpoint resumed",
+  "visual_key_pages": [
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+  ],
+  "current_recovery_visual_recheck": [
+    8
+  ],
+  "primed_recall_files": [
+    "riley2001-before-body.md",
+    "riley2001-before-calculation.md"
+  ],
+  "not_read_or_executed": [
+    "Laird2002 final fulltext",
+    "externalCe/Sm original experimental analyses",
+    "raw event/centroid/covariance inputs",
+    "FITFTAU rerun"
+  ],
+  "extraction_minus_glyph_boundary": "printed2691 Eq3/Ref36 normalization visually verified: minus sqrt2; text extraction drops minus",
+  "source_locator_map": {
+    "setup": "printed2687 Sec3",
+    "table": "printed2690 TableI",
+    "normalization": "printed2691 Eq3/Ref36 sentence",
+    "lineage": [
+      "printed2689 Fig2 caption",
+      "printed2692 Fig3 caption",
+      "printed2695 Refs21/24/32"
+    ]
+  },
+  "review_status": "unreviewed; RI01-1–15 needs_review true"
+}

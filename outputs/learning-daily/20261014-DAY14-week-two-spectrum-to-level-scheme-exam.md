@@ -52,6 +52,10 @@ updated: 2026-10-15
 
 最近学习覆盖：Day8选律/δ约定，Day9寿命/branch→strength，Day10双带电磁指纹与谱系，Day11–12反应布居/符合背景，Day13 Doppler/速度/停止/统计，均以既有日报与canonical知识页定位。当前不把这些日报用作新的实验来源，也不从数量推学习饱和。另一个非重叠novelty问题未强行选择。
 
+### 延期候选池：从模型转回实际寿命提取
+
+Matev2007局部算符/表检验完成后，选择Riley2001公开作者实验报告补actual extraction，而非继续变换同一toy。它回答恒定Qt、gate/侧馈、systematics与数据谱系，预期增益高于重复J^(2)或同一overlap计算。Laird2002最终全文、Ce/Sm外源原实验仍缺；已失败获取路线不原样重试。193Bi当前static/time/recoil问题局部饱和，实际events/τ/response/Σ未得；Day15的下一卡只作已记录的无学分预习，不开Day16。
+
 ### Active recall 与 priming
 
 来源前答案完整保存在[冻结回忆](20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/active-recall-before-sources.md)。已读运行prompt/handoff中的昨日预习摘要，所以明确为primed recall；未凭记忆填Herzáň具体能量、R/A或误差。原答正确指出共同门、相对能量自由度、阵列特定DCO、P/A/Q分离和parent lifetime，但尚未写出三个cycle的相关性或本文未定双线表注，这些由正式读图/表后补足。
@@ -102,6 +106,14 @@ PT15-5是负/正γ对应中间/短轴的模型语境，PT15-6明确要求寿命�
 [[matev-2007-a130-quadrupole-alignment-additivity]] DOI10.1103/PhysRevC.76.034304、arXiv0707.4324v1，14页PDF SHA256 `40d485c653f2016cd6dc38ef95a7694e9ced6d09458004039b5be92541d07586`。沿全文主线、Figs1–6、TablesI–III与关键公式/误差/引用链读，[reading audit](20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/matev2007-reading-audit.json)记录v1/未核VOR边界。[来源前回忆](20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/nd-qt-companion-before-source.md)保留metadata前后修正；不能把此理论研究先当新τ实验。
 
 其数据比较回指Riley2001/Laird2002，计算以131Ce HD奇A core、无配对和固定ω=.65 MeV的183/105筛选配置为范围。Qt坐标/算符、模型fit errors与上游实验分开；PT15-10另核其Ref32/46指同一Laird文献，不新增独立测量。raw未归档/citation key空明示。
+
+### 原始作者实验报告：Riley2001
+
+[[riley-2001-global-lifetime-a135]]：*Acta Phys.Pol.B*32 No9,2683–2695(2001)，[publisher PDF](https://www.actaphys.uj.edu.pl/fulltext?series=Reg&vol=32&page=2683)，13页416810 bytes，SHA256 `09d58089a1985ef9d3d02432921b302a77c5d51eca9846bdea03dd9330d0d036`。实际刊头No9优先于初guess URL；DOI未核，不猜填。raw未归档、citation key空保留。读前[primed recall](20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/riley2001-before-body.md)及[量化前预测](20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/riley2001-before-calculation.md)已冻结；13页主线、Figs1–3、TablesI–II和关键公式/误差视觉核见[reading audit](20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/riley2001-reading-audit.json)。
+
+RI01-1–5（印刷2687/2690）直接核173MeV35Cl+105Pd、97HPGe+Microball、centroid-shift DSAM/FITFTAU与恒定Qt/侧馈/门选。RI01-6–8/14的p2690 TableI按角色保存完整33行。RI01-9/15（Fig2/3 captions、Refs21/24/32）区分同global acquisition与外源Ce131/132及Sm142；相似backing/分析不证明全图同采集。本报告的Ref21是Clark1996，不是Matev2007 Ref21=Laird2002；2001 invited talk不能自动替代2002最终稿。
+
+RI01-11（p2691 Eq3和紧接归一）回图核`Q22_code=−sqrt2 Q22_R`；文字提取漏负号。RI01-12（Fig3/TableII）7.75/7.57eb是理论core、183/105是计算配置，不是新实测Qt或band数。
 
 ## Theory/analysis exercise
 
@@ -299,6 +311,16 @@ PT15-9将“J2不依赖绝对spin/Ex赋值”与必须核相邻线身份、ΔI�
 
 源blocks计N73/Z58/A131，是实际奇A reference例子但不是Pr实际core。声明移除ν6_1,−i增加ν6_2,+i保N/保intruder count，给δQt=.11/.04eb、δJ=−1.36/−1.44ℏ（CHF/CRMF），未实际重跑配置或赋新整数spin。源7.64/7.4(3)baseline与Eq33未用于本任务寿命提取。
 
+### 27-check：实际Qt表角色与条件响应
+
+[typed输入](20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/riley2001-table-I-input.json)保留33原行/15核素，39个有限token逐一与原PDF表序对上，三个`<3.0`继续是无CL上限。21single、1band pair、2signature pair、5b gate pair、1c feeding pair的角色不同；42数值token不是42个独立测量。完整数值与角色的长期副本在source“Table I：保留分析角色的33行账本”。
+
+[程序](../../system/scripts/day14_riley_global_qt_ledger.py)与[结果](20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/riley2001-global-qt-audit.json)27项条件控制通过。五个b门选的名义Qt增幅分别12.069%、11.765%、8.333%、8.333%、9.091%；135Sm5.8→6.4c是另一侧馈时序假设，不能混作第六组门选。恒定Qt是拟合约束，默认Qt(sf)=Qt不等于τsf=τband。
+
+同一已识别E2且Eγ/branch/geometry固定时，Qt×1.1给B×1.21和τ×.826446；不是原实验实测寿命变化。135Nd/133Nd的上方门Qt比=.876923、差−.8eb；若把括号误差当σ，未知相关性下ratio的一阶σ范围.003787–.057751，difference为0–.4eb。原Σ和CI没有恢复。共同scale保ratio但缩放difference，不能用这个简化例子单独证实或推翻作者差分方法精度。
+
+名义140Eu反应预算只排除142Sm为该融合蒸发产物，不能把“守恒可行”的Ce131/132自动算作本次测到。负号归一控制说明Riley/Matev的Qt形式相容，仍不认证其实际代码版本/Pr136frame。
+
 ## Counter-evidence and missing companion observables
 
 HE15-9的实际未定双线是核心反例：energy sum、共享R/A和假设的ΔI=2均不足以裁决order。若一条线出现可独立定位的旁路或延迟顺序，应重审中间level；source仍保留括号Jπ与(E2)。HE15-5的quadruplet限制“一个峰是一条γ”的简化；干净622.4直接分支门与323.4级联门的299-keVcomponent差异可能迫使拆峰，但必须控制622/626门纯度、feeding、response和random。
@@ -336,6 +358,12 @@ ZT15-6回弯区结果省略；ZT15-9的“无统一.3因子”是作者对选定
 v1的Eq14中项轴标、Eq31前131Cs与定义core131Ce、Fig4 caption132Sm与plot/body142Sm、Eq33 CG幂次及π404 p/h/core文字差异均作精确version boundary保留；不调用歧义去计算实验Qt/τ，不称officialerratum。原始Laird2002仍缺；新公开取得Riley2001作者报告且刊头身份已核，正文待下一步，不能先拿它的内容补数据。
 
 共同加性项和共同乘性归一化对difference/ratio作用不同；本任务的5/7控制不判断原实验系统误差算法是否有效。要检验source作者关于差分测量/Qt的结论，仍须读实际analysis及误差结构。
+
+### 原实验报告的限制与必要伴随输入
+
+RI01-5正文称absolute Qt阻停加侧馈附加15–20%，TableI caption的10–15%仅阻停，relative accuracy约5–10%；来源没有formal coverage或共同Σ，不独立quadrature，也不无条件复述摘要“free”。门选敏感性、ND的配对/γ-soft解释和Fig1/TableI的quoted variants共同限制单值直推机制，但不让相对比较失去全部信息。
+
+RI01-10：133Pr3.4(3)/3.3(3)、134Pm3.9(3)/3.9(2)、135Sm6.4(5)/6.4(4)c先保留figure/table各自值，缺完整fit/gate身份不判typo；同中心3.5的133Nd还有多表行候选。真实L4仍缺逐ring/gate谱、centroid/calibration/事件交集/Σ、β′ producer、slowing/feeding histories、transition E2/branch/geometry和FITFTAU输入；不补逐态τ、Pr136实验γ或absoluteB。
 
 ## Knowledge Impact and Learning Decision
 
@@ -393,9 +421,13 @@ Decision: supports 先建graph再构造observable；limits 以band标签、绝�
 
 Decision: supports 明确charge/axis/operator/reference和数据来源，limits 单一Qt或intruder count到唯一构型/γ、将fit errors当实验σ及照搬v1表。源码/配置矩阵和原测量缺口不因23→24验证断言通过而消失。物理进展写回source/Qt observable/reference审计/model-choice，33页run-owned知识累计；原2/7投影覆盖、Pr模式排序与formal21/24不变。
 
+### Riley实验报告后的认识决定
+
+Decision: **supports** 共同实验条件下的相对Qt比较，**limits** 摘要无条件零systematics、把Qt表当逐transition寿命或所有双值可平均，**revises** 数据角色与外源谱系的读法。最新可复用增量同步source、Qt observable、DSAM方法、Matev上游谱系和index。Formal21/24、completed14/partial15与既有Pr解释不变，未新增独立实验计数。
+
 ## Durable knowledge delta
 
-本run实际修改十五份knowledge Markdown，超出昨日预习的增量为七边逐条证据、相关cycle/标定nullspace、未定doublet shared-quantity边界和parent-lifetime契约。canonical知识路径：
+本run累计修改的knowledge Markdown以本节唯一机器块和最新验收回执为准；超出昨日预习的增量为七边逐条证据、相关cycle/标定nullspace、未定doublet shared-quantity边界和parent-lifetime契约。canonical知识路径：
 
 - [Herzáň source](../../knowledge/sources/herzan-2015-193bi-spectroscopy.md)：HE15-8–14及正式来源主线/triage。
 - [level-scheme method](../../knowledge/methods/level-scheme-reconstruction.md)：五能级七边、GLS/反例和必要companion。
@@ -2555,6 +2587,213 @@ Decision: supports 明确charge/axis/operator/reference和数据来源，limits 
           "locator": "MT07-4"
         }
       ]
+    },
+    {
+      "knowledge": "knowledge/sources/riley-2001-global-lifetime-a135.md",
+      "summary": "保存13页作者报告主线、33行typed实际Qt、五门/一侧馈pair、误差范围/外源谱系与负号归一；不是逐τ重分析。",
+      "anchor": "Table I：保留分析角色的33行账本",
+      "sources": [
+        {
+          "path": "knowledge/sources/riley-2001-global-lifetime-a135.md",
+          "locator": "RI01-1"
+        },
+        {
+          "path": "knowledge/sources/riley-2001-global-lifetime-a135.md",
+          "locator": "RI01-2"
+        },
+        {
+          "path": "knowledge/sources/riley-2001-global-lifetime-a135.md",
+          "locator": "RI01-3"
+        },
+        {
+          "path": "knowledge/sources/riley-2001-global-lifetime-a135.md",
+          "locator": "RI01-4"
+        },
+        {
+          "path": "knowledge/sources/riley-2001-global-lifetime-a135.md",
+          "locator": "RI01-5"
+        },
+        {
+          "path": "knowledge/sources/riley-2001-global-lifetime-a135.md",
+          "locator": "RI01-6"
+        },
+        {
+          "path": "knowledge/sources/riley-2001-global-lifetime-a135.md",
+          "locator": "RI01-7"
+        },
+        {
+          "path": "knowledge/sources/riley-2001-global-lifetime-a135.md",
+          "locator": "RI01-8"
+        },
+        {
+          "path": "knowledge/sources/riley-2001-global-lifetime-a135.md",
+          "locator": "RI01-9"
+        },
+        {
+          "path": "knowledge/sources/riley-2001-global-lifetime-a135.md",
+          "locator": "RI01-10"
+        },
+        {
+          "path": "knowledge/sources/riley-2001-global-lifetime-a135.md",
+          "locator": "RI01-11"
+        },
+        {
+          "path": "knowledge/sources/riley-2001-global-lifetime-a135.md",
+          "locator": "RI01-12"
+        },
+        {
+          "path": "knowledge/sources/riley-2001-global-lifetime-a135.md",
+          "locator": "RI01-13"
+        },
+        {
+          "path": "knowledge/sources/riley-2001-global-lifetime-a135.md",
+          "locator": "RI01-14"
+        },
+        {
+          "path": "knowledge/sources/riley-2001-global-lifetime-a135.md",
+          "locator": "RI01-15"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/observables/transition-quadrupole-moment.md",
+      "summary": "分开带/signature/gate/feeding/bound；保存实际pair变化、条件Qt→B/τ、未知Σ和figure绑定与算符归一。",
+      "anchor": "全局Qt表的分析选择与数据身份",
+      "sources": [
+        {
+          "path": "knowledge/sources/riley-2001-global-lifetime-a135.md",
+          "locator": "RI01-3"
+        },
+        {
+          "path": "knowledge/sources/riley-2001-global-lifetime-a135.md",
+          "locator": "RI01-4"
+        },
+        {
+          "path": "knowledge/sources/riley-2001-global-lifetime-a135.md",
+          "locator": "RI01-5"
+        },
+        {
+          "path": "knowledge/sources/riley-2001-global-lifetime-a135.md",
+          "locator": "RI01-6"
+        },
+        {
+          "path": "knowledge/sources/riley-2001-global-lifetime-a135.md",
+          "locator": "RI01-7"
+        },
+        {
+          "path": "knowledge/sources/riley-2001-global-lifetime-a135.md",
+          "locator": "RI01-8"
+        },
+        {
+          "path": "knowledge/sources/riley-2001-global-lifetime-a135.md",
+          "locator": "RI01-9"
+        },
+        {
+          "path": "knowledge/sources/riley-2001-global-lifetime-a135.md",
+          "locator": "RI01-10"
+        },
+        {
+          "path": "knowledge/sources/riley-2001-global-lifetime-a135.md",
+          "locator": "RI01-11"
+        },
+        {
+          "path": "knowledge/sources/riley-2001-global-lifetime-a135.md",
+          "locator": "RI01-12"
+        },
+        {
+          "path": "knowledge/sources/riley-2001-global-lifetime-a135.md",
+          "locator": "RI01-14"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/methods/doppler-shift-attenuation-method.md",
+      "summary": "方法定义补centroid shift，保存实际门/β′定义、FITFTAU恒定Qt与systematics/L4输入边界。",
+      "anchor": "质心位移与恒定Qt提取：Riley2001",
+      "sources": [
+        {
+          "path": "knowledge/sources/riley-2001-global-lifetime-a135.md",
+          "locator": "RI01-1"
+        },
+        {
+          "path": "knowledge/sources/riley-2001-global-lifetime-a135.md",
+          "locator": "RI01-2"
+        },
+        {
+          "path": "knowledge/sources/riley-2001-global-lifetime-a135.md",
+          "locator": "RI01-3"
+        },
+        {
+          "path": "knowledge/sources/riley-2001-global-lifetime-a135.md",
+          "locator": "RI01-4"
+        },
+        {
+          "path": "knowledge/sources/riley-2001-global-lifetime-a135.md",
+          "locator": "RI01-5"
+        },
+        {
+          "path": "knowledge/sources/riley-2001-global-lifetime-a135.md",
+          "locator": "RI01-7"
+        },
+        {
+          "path": "knowledge/sources/riley-2001-global-lifetime-a135.md",
+          "locator": "RI01-8"
+        },
+        {
+          "path": "knowledge/sources/riley-2001-global-lifetime-a135.md",
+          "locator": "RI01-9"
+        },
+        {
+          "path": "knowledge/sources/riley-2001-global-lifetime-a135.md",
+          "locator": "RI01-14"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/sources/matev-2007-a130-quadrupole-alignment-additivity.md",
+      "summary": "追加MT07-19限定全图共采集读法；Riley/外源和reference编号分开，原18条flag/数值保留。",
+      "anchor": "上游作者报告补核与数据谱系",
+      "sources": [
+        {
+          "path": "knowledge/sources/riley-2001-global-lifetime-a135.md",
+          "locator": "RI01-1"
+        },
+        {
+          "path": "knowledge/sources/riley-2001-global-lifetime-a135.md",
+          "locator": "RI01-5"
+        },
+        {
+          "path": "knowledge/sources/riley-2001-global-lifetime-a135.md",
+          "locator": "RI01-9"
+        },
+        {
+          "path": "knowledge/sources/riley-2001-global-lifetime-a135.md",
+          "locator": "RI01-11"
+        },
+        {
+          "path": "knowledge/sources/riley-2001-global-lifetime-a135.md",
+          "locator": "RI01-12"
+        },
+        {
+          "path": "knowledge/sources/riley-2001-global-lifetime-a135.md",
+          "locator": "RI01-15"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/index.md",
+      "summary": "新增直接实验作者报告导航；无重复实验计数。",
+      "anchor": "[[riley-2001-global-lifetime-a135]]",
+      "sources": [
+        {
+          "path": "knowledge/sources/riley-2001-global-lifetime-a135.md",
+          "locator": "RI01-1"
+        },
+        {
+          "path": "knowledge/sources/riley-2001-global-lifetime-a135.md",
+          "locator": "RI01-6"
+        }
+      ]
     }
   ]
 }
@@ -2668,6 +2907,10 @@ Danko99primary合法OA/publicPDF/官方API/repo均未提供正文（403HTML/401J
 新增canonical为[[moments-of-inertia]]“绝对标签、有限差分与有序路径”、[[level-scheme-reconstruction]]“136Pr：动力学惯量需要有序路径”、LV25-34/35和[[peng-chen-2022-chiral-rotation-rhodium-isotopes]] PC22-19。实际能量表、名义曲率、graph/位置、条件Σ与筛选边界在knowledge保有副本；outputs只作完整可重放回执。
 
 新增canonical包括[[matev-2007-a130-quadrupole-alignment-additivity]]的18条分层claims和完整versioned TableII数值矩阵、[[transition-quadrupole-moment]]“从旋转系算符到Qt的输入契约”、[[configuration-occupation-audit]]“奇A reference的实际方法例子”、[[a130-model-choice-card]]“Qt与相对occupation的迁移边界”及PT15-10的数据/复引边界。实际表值、两条条件不相容项、geometry/fit前提与联量应用在knowledge有可复用副本，不只保存在outputs。
+
+### Riley实验报告的canonical增量
+
+新增[原始作者source](../../knowledge/sources/riley-2001-global-lifetime-a135.md)“Table I：保留分析角色的33行账本”，RI01-1–15给实际source locator；[Qt](../../knowledge/observables/transition-quadrupole-moment.md)“全局Qt表的分析选择与数据身份”保存条件换算和未知Σ，[DSAM](../../knowledge/methods/doppler-shift-attenuation-method.md)“质心位移与恒定Qt提取：Riley2001”保存门与输入契约，[Matev](../../knowledge/sources/matev-2007-a130-quadrupole-alignment-additivity.md)“上游作者报告补核与数据谱系”校准MT07-8的使用。原始模型表的两项条件异常保持，未伪造raw归档或Laird最终重读。
 
 ## Open questions and belief revision
 
@@ -2899,3 +3142,9 @@ wiki_lint --fail-on error实际exit0，0errors/131warnings（107citationkey、21
 2026-10-15T20:51:09.850540+08:00：Matev2007 v1全文14页/Figs1–6/TablesI–III/关键公式完成，24项程序/条件控制断言通过、exit0；TableII实际2条中心值条件不相容保留，不把程序通过等同原表全有效。report/card/writeback valid，唯一block99items/33changed knowledge页，34行versioned矩阵有canonical副本。18新MT07与PT15-10 parsed true；原observable/method/project/PT旧行和review、raw metadata/PLAN/Bib/AST及git diff --check exit0。`wiki_lint --fail-on error`实际exit0，0errors/139warnings（111空citation key、25未填raw槽、3reaction parser）。无VOR/actualC/原实验重跑，原表/公式未改。
 
 前27批Gitee已发布；本批稳定 main / `Audit DAY14 transition quadrupole operators and model tables`，actualH3/hash只回执。下一已从公开publisher取得并核刊头的Riley2001 ActaPhysPolB32 No9 p2683（13页），正文未读，source-before recall已保存；它是2001作者报告，未代2002最终稿或新增独立实验。研究仍active至2026-10-16 15:00、16:00交付，formal21/24、Day14/partial15及official next14/count13不变。
+
+### Checkpoint029 延期原始Qt报告验收
+
+2026-10-15T22:08:52.101495+08:00：Riley2001全文13页/3fig/2table、33行canonical typed账本和27项程序断言通过，实际exit0。report/card/writeback valid，唯一block104items/35changed knowledge页，15条RI01及MT07-19均parsed needs_review true。DSAM Purpose/type扩展和Qt旧“未核”描述更新属于明确意图，其余旧非空行与review保持；raw metadata/PLAN/Bib/AST和`git diff --check`实际exit0。初验证harness误用Page.claims报AttributeError，已改用仓库claim_rows解析器，未因此改科学内容；fresh `wiki_lint --fail-on error` exit0，0errors/141warnings（112空citation key、26未填raw槽、3reaction parser）。没有原始FITFTAU/τ/Σ重跑或Laird最终稿。
+
+前28批已Gitee发布；本批稳定指针 main / `Audit DAY14 primary global lifetime analysis and Qt table roles`，actualH3/hash由receipt记录。下一131Ce原始实验reference的source-before recall已保存：先核已有Petrache1998对象/原件，校准矩定义、带身份和上游实验baseline；不先填7.4(3)或复算缺输入。当前研究至2026-10-16 15:00、16:00交付，formal21/24、completed14/partial15及official next14/count13不变。

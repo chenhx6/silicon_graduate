@@ -74,6 +74,7 @@ CHF用HFODD v1.75/SLy4，CRMF用NL1。相对矩和对齐的拟合均在ℏω=.65
 | MT07-16 | p7的occupied core与hole叙述包含π[404]9/2，TableI的A130 p/h栏却标p；本次未据该栏重建actual C，也不选择一个标签当作者代码输入。 | literal-occupation-label-boundary | direct | PDF p.7 core/hole paragraph; PDF p.8 TableI π[404]9/2 | true |
 | MT07-17 | 对齐的误差和极化更复杂，含time-odd fields；作者要求宽频率范围比较，且不能像非自洽Nilsson图那样从routhian斜率直接取bare alignment。 | model-limitation | direct | PDF p.10 Sec.III.C | true |
 | MT07-18 | 以源core为参考的声明1p1h应用，移除ν6_1,−i并增加ν6_2,+i，neutron数和N6 intruder总count不变；所报有效系数给CHF/CRMF的名义δQt约+.11/+.04eb、δJ约−1.36/−1.44ℏ。这不是实际重跑或测量，且不是沿同位素链改变N的同一比较；仅看intruder数不足以唯一指认状态。 | declared-application-of-model-coefficients | derived | PDF p.11 TableII ν6_1/ν6_2; PDF p.12 TableIII ν6_1/ν6_2 | true |
+| MT07-19 | 直接补读Riley2001后，其Figs2/3的Ce131/132来自Clark1996、Sm142来自Hackman1998；作者使用相似靶/backing/分析条件不证明全图同次采集。2007正文对global实验的概括不能替代逐点谱系；Riley Ref21与本篇Ref21分别指Clark1996/Laird2002。 | cross-source-lineage-qualification | direct-and-derived | Riley2001 printed p.2689 Fig2 caption; printed p.2692 Fig3 caption; printed p.2695 Refs21/24/32 | true |
 
 ## Table and Operator Cross-Check
 
@@ -121,6 +122,12 @@ CHF用HFODD v1.75/SLy4，CRMF用NL1。相对矩和对齐的拟合均在ℏω=.65
 | 32 pi[541]3/2,+i | 0.50±0.01; –0.05±0.06; 0.52±0.04 | 0.48±0.01; –0.10±0.01; 0.54±0.01 |
 | 33 pi[541]3/2,-i | 0.57±0.01; –0.12±0.04; 0.63±0.03 | 0.50±0.01; –0.10±0.01; 0.56±0.01 |
 | 34 pi[550]1/2,-i | 0.49±0.05; –0.06±0.22; 0.52±0.14 | 0.47±0.04; –0.02±0.04; 0.48±0.04 |
+
+## 上游作者报告补核与数据谱系
+
+[[riley-2001-global-lifetime-a135]] RI01-1–5已直接核全文实验提取：质心位移DSAM/FITFTAU、恒定Qt、门与侧馈假设以及剩余absolute systematics；Laird2002最终稿仍未取得。MT07-8是本文对上游实验工作的概括，现由MT07-19限定其逐点使用：Riley的Fig2/3同时引入Ref21 Clark1996的Ce131/132和Ref24 Hackman1998的Sm142；名义140Eu融合系统不产142Sm。相似靶/backing与分析不等于全部图点同采集或已知Σ，不能将两篇paper或图中多个核素重复算独立证据。
+
+Riley Eq3与Ref36的负号归一联用后，代数上相容于这里的Eq15（RI01-11）；不认证不同计算版本/Pr实际frame。Riley给理论core Qt7.75/7.57，而本篇报7.64；未核原因，不取代其actual input，也不补实验absolute baseline。原MT07-10/11中心值条件异常、所有旧flags与原字面式均保持。
 
 ## Competing Interpretations and Limitations
 

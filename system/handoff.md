@@ -8,13 +8,13 @@ updated: 2026-10-15
 
 ## Active handoff — DAY14 extended continuous study
 
-同run2026-10-14-day-14-02/session01a13a0e-e8bd-7251-b970-f6975679e281。用户断网延期最终delivery **2026-10-16 16:00上海**；plannedresearchcutoff15:00，closeout15–16，不延至17。Nativegoal/researchactive；formal14七边35checks/21/24/weeklyREFLECT完成，completed14/partial15、officialnext14/count13等最终一次credit，不开Day16。
+同run2026-10-14-day-14-02/session01a13a0e-e8bd-7251-b970-f6975679e281。用户断网延期：研究2026-10-16 15:00上海止、16:00最终交付。Goal/run active；formal14七边35checks、21/24、weeklyREFLECT完成，completed14/partial15；official next14/count13等最终一次计卡，不开Day16。
 
-第028批：Matev2007 v1全文14页/6fig/3table已核；24程序/条件controls通过，但61triple中2条中心值在共享C/同估计器/舍入前提下不相容，原值/flag保留不修表，不判code错。Qt_x/y terminal、inversefamily、oddcore与同count联量条件已canonical，model fit误差非实验σ。Source/Qtobservable/configmethod/modelchoice/PT/index；99items33changedpages，18MT07+PT15-10 true，oldrows/review/raw/protected/AST/diff保持，freshlint0errors139warnings（111citekey/25rawslot/3parser），2/7覆盖不变。
+第029批Riley2001全文13页/3fig/2table核完；33行typed Qt表、五b门/一c侧馈、恒定Qt/centroidDSAM、systematics作用范围、负号归一和外源谱系已canonical。27controls不是原实验refit，unknownΣ/coverage/图表绑定保留，不补Pr136 τ/γ。104items35changedpages、16新claims true，旧review/raw/protected/AST/report/card/writeback/diff保持；DSAM Purpose/type及Qt过时未读句intentional更新。Freshlint0errors141warnings（112citekey/26rawslot/3parser）。
 
-前27批Gitee已published；本批main / `Audit DAY14 transition quadrupole operators and model tables`，actualH3/hash仅receipt。下一riley2001-before-body.md：public作者报告13页已核title/header Vol32 No9 p2683，SHA09d58089a1985ef9d3d02432921b302a77c5d51eca9846bdea03dd9330d0d036，`tmp/day14-20261014/riley2001/riley2001-candidate.pdf`。Body/fig/table未读；沿主线核actual lifetime/Qt/共同systematics，不预设DSAM/逐τ或把2001当2002final。Laird最终稿仍缺，Practualframe/RHBinput/Σ/1996primary、193Bi actualresponse/τ/events仍缺；有当前可执行primary路线，不结束时窗。
+前28批已Giteepublished；本批main / `Audit DAY14 primary global lifetime analysis and Qt table roles`，actualhash/H3/push只receipt。下一ce131-reference-before-source.md已freeze但source/PDF本轮未开：核Petrache1998实际reference、Q0/Qt/feeding/geometry/lineage，输入足才量化，不能替Laird2002最终全文。193Bi实际response/τ/events和Practualinput/frame/1996primary仍缺，不重复同toy。
 
-Clock001/002/005/008actualACK；旧Farmer8686/clock75781notlive未重启。恢复 `codex resume 01a13a0e-e8bd-7251-b970-f6975679e281 -C /workspace/wiki -s danger-full-access -a never`，先run.json/最新continuation按新时间门继续。保留raw/PLAN/Bib/review/继承dirty/log/daemon/scheduler混合文件，manifest/H3非force发布。
+Resume `codex resume 01a13a0e-e8bd-7251-b970-f6975679e281 -C /workspace/wiki -s danger-full-access -a never`，先run.json/最新continuation/actualclock。Clock001/002/005/008实际ACK；旧farmer/clocknotlive未重启。Preserve继承dirty/log/daemon/raw/PLAN/Bib/review，explicitstage/H3非force发布。
 
 ## Previous active handoff — DAY13 continuous study reopened by user
 

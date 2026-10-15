@@ -334,3 +334,8 @@ Day14延期另有71-check actualD4 orderedpath/J2：absolute labels与relativeΔ
 
 
 Day14延期另核Matev2007 Qt坐标/算符与模型fit/实验输入层级，24-control审计保留2条v1条件不相容项和missing，oddreference及sameintruder count不等sameQt/J。它是正式回忆的priming，不给本卡学分、实际Σ或Pr新形状/轴。
+
+
+## DAY14延期checkpoint029对正式Day15的priming
+
+DAY14已读Riley2001的centroidDSAM/Qt typed表、gate/feeding/共同systematics，并做27项条件控制；此为当前谱学证据链的学习，非Day15正式考核。正式Day15仍须保存自身来源前回忆、核ADO定义/效率及几何、完成本卡全部deliverables后计分。DAY14的completed14/partial15保持，不将DSAM或Qt知识提前作为其他日卡学分。最新恢复入口run-02/continuation-prompt.md；研究2026-10-16 15:00止、16:00交付的加时仅属于现DAY14。

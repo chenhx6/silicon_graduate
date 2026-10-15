@@ -3,10 +3,10 @@ type: method
 title: Doppler-shift attenuation method
 aliases: [DSAM, Doppler-shifted attenuation method, Doppler-broadened line-shape analysis]
 created: 2026-08-11
-updated: 2026-08-11
+updated: 2026-10-15
 status: ai-draft
 review_status: unreviewed
-method_type: nuclear-lifetime-lineshape
+method_type: nuclear-lifetime-doppler-attenuation
 tags: [lifetime, doppler-shift, stopping-power, side-feeding, lineshape]
 ---
 
@@ -14,7 +14,7 @@ tags: [lifetime, doppler-shift, stopping-power, side-feeding, lineshape]
 
 ## Purpose
 
-DSAM extracts short excited-state lifetimes from the Doppler-broadened γ-ray line shape produced while recoils slow in target/backing material. Forward and backward detector angles provide complementary velocity sensitivity.
+DSAM uses the attenuation of recoil Doppler shifts during slowing in target/backing material to constrain short excited-state lifetimes. Depending on the analysis, the measured observable is an angle-dependent centroid shift or the full Doppler-broadened γ-ray line shape. Forward and backward detector angles provide complementary velocity sensitivity.
 
 ## Inputs and Assumptions
 
@@ -51,7 +51,21 @@ Thick targets broaden the production-depth/velocity distribution. Stopping power
 
 [[jensen-2001-165tm-h9-2-configuration]] provides a classic Nordball DSAM example: four angle-specific γγ matrices, Au/Pb backings, Monte Carlo recoil histories, Bateman side-feeding cascades and a fitted effective `Qs` are used to obtain `Qt` for `165Tm` bands. The reported `Qt` comparison is therefore tied to the stated stopping, feeding and rotational-model assumptions.
 
+## 质心位移与恒定Qt提取：Riley2001
+
+[[riley-2001-global-lifetime-a135]] RI01-1–5给出centroid-shift DSAM的直接例子，不只使用完整lineshape。其`F(τ)=[Eγ(θ)−E0]/[E0 β′cosθ]`中β′是mid-target recoil velocity；实际producer/数值未给，不能用束流能量代填。173 MeV 35Cl+105Pd、Au backing、97HPGe和Microball是采集条件。底部stopped门的前角31.7°/37.4°、后角142.6°/148.3°，moving double gates与90°谱、最高spin门是不同选择。
+
+FITFTAU以带内恒定Qt拟合F曲线；默认`Qt(sf)=Qt(band)`，不等于τ相等。高spin上方门针对下方态侧馈，五个b注pair的Qt增加约8.3–12.1%；135Sm c注另用`τsf≈1.2τband`时序假设，不属于相同gate比较。不要把band-average Qt当每条transition独立测得τ（RI01-3/4/7/8）。
+
+正文称阻停加侧馈可给absolute Qt附加15–20%系统误差，相对accuracy约5–10%；Table I caption称stopping-only 10–15%。作用范围及概率解释未统一，缺Σ时不将它们独立quadrature，也不把摘要“free from common systematics”当剩余误差为零。共同条件有助相对比较，不能直接推出所有点完全相关或各核素独立（RI01-5/9）。
+
+### 原始重拟合的输入边界
+
+进入真实L4需要逐ring/gate谱与centroid/calibration、事件交集和共同Σ、反应点/β′定义、靶厚与slowing histories、门污染/效率和feeding模型、E2/branch/geometry及FITFTAU版本/输入。现有表只能支持已发表参数的角色审计与条件敏感性；不能生成Pr136新τ、补原始CI或取代Laird2002最终版本。
+
 ## Sources
+
+- [[riley-2001-global-lifetime-a135]] RI01-1–9/14：centroid shift、恒定Qt、门选/feeding、systematics与L4边界。
 
 [[wadsworth-1977-61ni-levels]] is a historical `61Ni` DSAM example: centroid shifts at several beam energies are converted to attenuation factors/lifetimes with explicit stopping/feeding caveats.
 
@@ -71,3 +85,5 @@ Thick targets broaden the production-depth/velocity distribution. Stopping power
 - 2026-08-11: created from the Singh 2016 corpus on-touch audit with stopping and side-feeding boundaries explicit.
 - 2026-08-11: added Wang 2023's correlated-uncertainty warning while retaining the un-ingested status of the cited Bayesian DSAM method.
 - 2026-08-11: added Bark 2024's AFRODITE simulation-chain overview and original-source boundary.
+
+- 2026-10-15：方法定义扩展为包含centroid shift；新增Riley2001的恒定Qt、门与误差预算，不改旧source/review状态。

@@ -1,0 +1,524 @@
+{
+  "source_pdf_sha256": "09d58089a1985ef9d3d02432921b302a77c5d51eca9846bdea03dd9330d0d036",
+  "transcription": "manual visual TableI; all numeric token order checked separately against PDF text; original untouched",
+  "rows": [
+    {
+      "id": "RI01:T1:1",
+      "source_row": 1,
+      "nucleus": "130Pr",
+      "configuration_literal_transcribed": "pi h11/2 x nu d5/2",
+      "kind": "single",
+      "Qt_literals_eb": [
+        "3.4(2)"
+      ],
+      "roles": [
+        "default_reported_fit"
+      ],
+      "source_locator": "printed p.2690 TableI / PDF p.8",
+      "assignment_status": "authors reported shorthand, not full occupied inventory"
+    },
+    {
+      "id": "RI01:T1:2",
+      "source_row": 2,
+      "nucleus": "130Pr",
+      "configuration_literal_transcribed": "pi h11/2 x nu(f7/2,h9/2), bands1/2",
+      "kind": "band_pair",
+      "Qt_literals_eb": [
+        "4.3(3)",
+        "4.5(3)"
+      ],
+      "roles": [
+        "band1",
+        "band2"
+      ],
+      "source_locator": "printed p.2690 TableI / PDF p.8",
+      "assignment_status": "authors reported shorthand, not full occupied inventory"
+    },
+    {
+      "id": "RI01:T1:3",
+      "source_row": 3,
+      "nucleus": "130Pr",
+      "configuration_literal_transcribed": "pi g9/2 x nu h11/2",
+      "kind": "single",
+      "Qt_literals_eb": [
+        "6.1(4)"
+      ],
+      "roles": [
+        "default_reported_fit"
+      ],
+      "source_locator": "printed p.2690 TableI / PDF p.8",
+      "assignment_status": "authors reported shorthand, not full occupied inventory"
+    },
+    {
+      "id": "RI01:T1:4",
+      "source_row": 4,
+      "nucleus": "131Pr",
+      "configuration_literal_transcribed": "pi h11/2",
+      "kind": "single",
+      "Qt_literals_eb": [
+        "3.3(3)"
+      ],
+      "roles": [
+        "default_reported_fit"
+      ],
+      "source_locator": "printed p.2690 TableI / PDF p.8",
+      "assignment_status": "authors reported shorthand, not full occupied inventory"
+    },
+    {
+      "id": "RI01:T1:5",
+      "source_row": 5,
+      "nucleus": "131Pr",
+      "configuration_literal_transcribed": "pi g9/2",
+      "kind": "single",
+      "Qt_literals_eb": [
+        "5.3(4)"
+      ],
+      "roles": [
+        "default_reported_fit"
+      ],
+      "source_locator": "printed p.2690 TableI / PDF p.8",
+      "assignment_status": "authors reported shorthand, not full occupied inventory"
+    },
+    {
+      "id": "RI01:T1:6",
+      "source_row": 6,
+      "nucleus": "132Pr",
+      "configuration_literal_transcribed": "pi h11/2 x nu(f7/2,h9/2)",
+      "kind": "single",
+      "Qt_literals_eb": [
+        "4.1(3)"
+      ],
+      "roles": [
+        "default_reported_fit"
+      ],
+      "source_locator": "printed p.2690 TableI / PDF p.8",
+      "assignment_status": "authors reported shorthand, not full occupied inventory"
+    },
+    {
+      "id": "RI01:T1:7",
+      "source_row": 7,
+      "nucleus": "132Pr",
+      "configuration_literal_transcribed": "pi g9/2 x nu i13/2",
+      "kind": "single",
+      "Qt_literals_eb": [
+        "7.0(7)"
+      ],
+      "roles": [
+        "default_reported_fit"
+      ],
+      "source_locator": "printed p.2690 TableI / PDF p.8",
+      "assignment_status": "authors reported shorthand, not full occupied inventory"
+    },
+    {
+      "id": "RI01:T1:8",
+      "source_row": 8,
+      "nucleus": "133Pr",
+      "configuration_literal_transcribed": "pi h11/2",
+      "kind": "single",
+      "Qt_literals_eb": [
+        "3.3(3)"
+      ],
+      "roles": [
+        "default_reported_fit"
+      ],
+      "source_locator": "printed p.2690 TableI / PDF p.8",
+      "assignment_status": "authors reported shorthand, not full occupied inventory"
+    },
+    {
+      "id": "RI01:T1:9",
+      "source_row": 9,
+      "nucleus": "132Nd",
+      "configuration_literal_transcribed": "pi h11/2",
+      "kind": "single",
+      "Qt_literals_eb": [
+        "4.2(2)"
+      ],
+      "roles": [
+        "default_reported_fit"
+      ],
+      "source_locator": "printed p.2690 TableI / PDF p.8",
+      "assignment_status": "authors reported shorthand, not full occupied inventory"
+    },
+    {
+      "id": "RI01:T1:10",
+      "source_row": 10,
+      "nucleus": "133Nd",
+      "configuration_literal_transcribed": "nu h11/2",
+      "kind": "upper_limit",
+      "Qt_literals_eb": [
+        "<3.0"
+      ],
+      "roles": [
+        "reported_upper_limit"
+      ],
+      "source_locator": "printed p.2690 TableI / PDF p.8",
+      "assignment_status": "authors reported shorthand, not full occupied inventory"
+    },
+    {
+      "id": "RI01:T1:11",
+      "source_row": 11,
+      "nucleus": "133Nd",
+      "configuration_literal_transcribed": "nu h11/2 x pi(h11/2)^2",
+      "kind": "single",
+      "Qt_literals_eb": [
+        "3.5(3)"
+      ],
+      "roles": [
+        "default_reported_fit"
+      ],
+      "source_locator": "printed p.2690 TableI / PDF p.8",
+      "assignment_status": "authors reported shorthand, not full occupied inventory"
+    },
+    {
+      "id": "RI01:T1:12",
+      "source_row": 12,
+      "nucleus": "133Nd",
+      "configuration_literal_transcribed": "nu g7/2, alpha+1/2/-1/2",
+      "kind": "signature_pair",
+      "Qt_literals_eb": [
+        "3.4(2)",
+        "3.5(2)"
+      ],
+      "roles": [
+        "alpha+1/2",
+        "alpha-1/2"
+      ],
+      "source_locator": "printed p.2690 TableI / PDF p.8",
+      "assignment_status": "authors reported shorthand, not full occupied inventory"
+    },
+    {
+      "id": "RI01:T1:13",
+      "source_row": 13,
+      "nucleus": "133Nd",
+      "configuration_literal_transcribed": "nu(f7/2,h9/2), alpha+1/2/-1/2",
+      "kind": "signature_pair",
+      "Qt_literals_eb": [
+        "4.2(3)",
+        "4.1(3)"
+      ],
+      "roles": [
+        "alpha+1/2",
+        "alpha-1/2"
+      ],
+      "source_locator": "printed p.2690 TableI / PDF p.8",
+      "assignment_status": "authors reported shorthand, not full occupied inventory"
+    },
+    {
+      "id": "RI01:T1:14",
+      "source_row": 14,
+      "nucleus": "133Nd",
+      "configuration_literal_transcribed": "nu i13/2",
+      "kind": "gate_pair_b",
+      "Qt_literals_eb": [
+        "5.8(2)",
+        "6.5(2)"
+      ],
+      "roles": [
+        "default_analysis",
+        "above_gate_footnote_b"
+      ],
+      "source_locator": "printed p.2690 TableI / PDF p.8",
+      "assignment_status": "authors reported shorthand, not full occupied inventory"
+    },
+    {
+      "id": "RI01:T1:15",
+      "source_row": 15,
+      "nucleus": "134Nd",
+      "configuration_literal_transcribed": "pi h11/2",
+      "kind": "single",
+      "Qt_literals_eb": [
+        "4.0(2)"
+      ],
+      "roles": [
+        "default_reported_fit"
+      ],
+      "source_locator": "printed p.2690 TableI / PDF p.8",
+      "assignment_status": "authors reported shorthand, not full occupied inventory"
+    },
+    {
+      "id": "RI01:T1:16",
+      "source_row": 16,
+      "nucleus": "135Nd",
+      "configuration_literal_transcribed": "nu h11/2",
+      "kind": "upper_limit",
+      "Qt_literals_eb": [
+        "<3.0"
+      ],
+      "roles": [
+        "reported_upper_limit"
+      ],
+      "source_locator": "printed p.2690 TableI / PDF p.8",
+      "assignment_status": "authors reported shorthand, not full occupied inventory"
+    },
+    {
+      "id": "RI01:T1:17",
+      "source_row": 17,
+      "nucleus": "135Nd",
+      "configuration_literal_transcribed": "nu h11/2 x pi(h11/2)^2",
+      "kind": "single",
+      "Qt_literals_eb": [
+        "3.0(3)"
+      ],
+      "roles": [
+        "default_reported_fit"
+      ],
+      "source_locator": "printed p.2690 TableI / PDF p.8",
+      "assignment_status": "authors reported shorthand, not full occupied inventory"
+    },
+    {
+      "id": "RI01:T1:18",
+      "source_row": 18,
+      "nucleus": "135Nd",
+      "configuration_literal_transcribed": "nu i13/2",
+      "kind": "gate_pair_b",
+      "Qt_literals_eb": [
+        "5.1(2)",
+        "5.7(2)"
+      ],
+      "roles": [
+        "default_analysis",
+        "above_gate_footnote_b"
+      ],
+      "source_locator": "printed p.2690 TableI / PDF p.8",
+      "assignment_status": "authors reported shorthand, not full occupied inventory"
+    },
+    {
+      "id": "RI01:T1:19",
+      "source_row": 19,
+      "nucleus": "133Pm",
+      "configuration_literal_transcribed": "pi h11/2",
+      "kind": "single",
+      "Qt_literals_eb": [
+        "4.0(2)"
+      ],
+      "roles": [
+        "default_reported_fit"
+      ],
+      "source_locator": "printed p.2690 TableI / PDF p.8",
+      "assignment_status": "authors reported shorthand, not full occupied inventory"
+    },
+    {
+      "id": "RI01:T1:20",
+      "source_row": 20,
+      "nucleus": "133Pm",
+      "configuration_literal_transcribed": "pi d5/2",
+      "kind": "single",
+      "Qt_literals_eb": [
+        "4.1(2)"
+      ],
+      "roles": [
+        "default_reported_fit"
+      ],
+      "source_locator": "printed p.2690 TableI / PDF p.8",
+      "assignment_status": "authors reported shorthand, not full occupied inventory"
+    },
+    {
+      "id": "RI01:T1:21",
+      "source_row": 21,
+      "nucleus": "133Pm",
+      "configuration_literal_transcribed": "pi g9/2",
+      "kind": "single",
+      "Qt_literals_eb": [
+        "5.0(4)"
+      ],
+      "roles": [
+        "default_reported_fit"
+      ],
+      "source_locator": "printed p.2690 TableI / PDF p.8",
+      "assignment_status": "authors reported shorthand, not full occupied inventory"
+    },
+    {
+      "id": "RI01:T1:22",
+      "source_row": 22,
+      "nucleus": "134Pm",
+      "configuration_literal_transcribed": "pi h11/2 x nu h11/2",
+      "kind": "single",
+      "Qt_literals_eb": [
+        "3.3(2)"
+      ],
+      "roles": [
+        "default_reported_fit"
+      ],
+      "source_locator": "printed p.2690 TableI / PDF p.8",
+      "assignment_status": "authors reported shorthand, not full occupied inventory"
+    },
+    {
+      "id": "RI01:T1:23",
+      "source_row": 23,
+      "nucleus": "134Pm",
+      "configuration_literal_transcribed": "pi h11/2 x nu(f7/2,h9/2)",
+      "kind": "single",
+      "Qt_literals_eb": [
+        "3.9(2)"
+      ],
+      "roles": [
+        "default_reported_fit"
+      ],
+      "source_locator": "printed p.2690 TableI / PDF p.8",
+      "assignment_status": "authors reported shorthand, not full occupied inventory"
+    },
+    {
+      "id": "RI01:T1:24",
+      "source_row": 24,
+      "nucleus": "135Pm",
+      "configuration_literal_transcribed": "pi h11/2",
+      "kind": "single",
+      "Qt_literals_eb": [
+        "3.3(2)"
+      ],
+      "roles": [
+        "default_reported_fit"
+      ],
+      "source_locator": "printed p.2690 TableI / PDF p.8",
+      "assignment_status": "authors reported shorthand, not full occupied inventory"
+    },
+    {
+      "id": "RI01:T1:25",
+      "source_row": 25,
+      "nucleus": "135Pm",
+      "configuration_literal_transcribed": "pi d5/2",
+      "kind": "single",
+      "Qt_literals_eb": [
+        "3.5(2)"
+      ],
+      "roles": [
+        "default_reported_fit"
+      ],
+      "source_locator": "printed p.2690 TableI / PDF p.8",
+      "assignment_status": "authors reported shorthand, not full occupied inventory"
+    },
+    {
+      "id": "RI01:T1:26",
+      "source_row": 26,
+      "nucleus": "136Pm",
+      "configuration_literal_transcribed": "pi h11/2 x nu h11/2",
+      "kind": "upper_limit",
+      "Qt_literals_eb": [
+        "<3.0"
+      ],
+      "roles": [
+        "reported_upper_limit"
+      ],
+      "source_locator": "printed p.2690 TableI / PDF p.8",
+      "assignment_status": "authors reported shorthand, not full occupied inventory"
+    },
+    {
+      "id": "RI01:T1:27",
+      "source_row": 27,
+      "nucleus": "136Pm",
+      "configuration_literal_transcribed": "pi h11/2 x nu i13/2 band1",
+      "kind": "gate_pair_b",
+      "Qt_literals_eb": [
+        "4.8(3)",
+        "5.2(3)"
+      ],
+      "roles": [
+        "default_analysis",
+        "above_gate_footnote_b"
+      ],
+      "source_locator": "printed p.2690 TableI / PDF p.8",
+      "assignment_status": "authors reported shorthand, not full occupied inventory"
+    },
+    {
+      "id": "RI01:T1:28",
+      "source_row": 28,
+      "nucleus": "136Pm",
+      "configuration_literal_transcribed": "pi h11/2 x nu i13/2 band2",
+      "kind": "gate_pair_b",
+      "Qt_literals_eb": [
+        "4.8(4)",
+        "5.2(4)"
+      ],
+      "roles": [
+        "default_analysis",
+        "above_gate_footnote_b"
+      ],
+      "source_locator": "printed p.2690 TableI / PDF p.8",
+      "assignment_status": "authors reported shorthand, not full occupied inventory"
+    },
+    {
+      "id": "RI01:T1:29",
+      "source_row": 29,
+      "nucleus": "136Pm",
+      "configuration_literal_transcribed": "pi g7/2 x nu i13/2 band1",
+      "kind": "single",
+      "Qt_literals_eb": [
+        "5.7(6)"
+      ],
+      "roles": [
+        "default_reported_fit"
+      ],
+      "source_locator": "printed p.2690 TableI / PDF p.8",
+      "assignment_status": "authors reported shorthand, not full occupied inventory"
+    },
+    {
+      "id": "RI01:T1:30",
+      "source_row": 30,
+      "nucleus": "136Pm",
+      "configuration_literal_transcribed": "pi g7/2 x nu i13/2 band2",
+      "kind": "single",
+      "Qt_literals_eb": [
+        "5.7(6)"
+      ],
+      "roles": [
+        "default_reported_fit"
+      ],
+      "source_locator": "printed p.2690 TableI / PDF p.8",
+      "assignment_status": "authors reported shorthand, not full occupied inventory"
+    },
+    {
+      "id": "RI01:T1:31",
+      "source_row": 31,
+      "nucleus": "135Sm",
+      "configuration_literal_transcribed": "nu i13/2",
+      "kind": "feeding_assumption_pair_c",
+      "Qt_literals_eb": [
+        "5.8(4)",
+        "6.4(4)"
+      ],
+      "roles": [
+        "default_analysis",
+        "time_structure_footnote_c"
+      ],
+      "source_locator": "printed p.2690 TableI / PDF p.8",
+      "assignment_status": "authors reported shorthand, not full occupied inventory"
+    },
+    {
+      "id": "RI01:T1:32",
+      "source_row": 32,
+      "nucleus": "136Sm",
+      "configuration_literal_transcribed": "nu(h11/2)^2 x pi(h11/2)^2",
+      "kind": "single",
+      "Qt_literals_eb": [
+        "3.3(2)"
+      ],
+      "roles": [
+        "default_reported_fit"
+      ],
+      "source_locator": "printed p.2690 TableI / PDF p.8",
+      "assignment_status": "authors reported shorthand, not full occupied inventory"
+    },
+    {
+      "id": "RI01:T1:33",
+      "source_row": 33,
+      "nucleus": "137Sm",
+      "configuration_literal_transcribed": "nu i13/2",
+      "kind": "gate_pair_b",
+      "Qt_literals_eb": [
+        "4.4(3)",
+        "4.8(4)"
+      ],
+      "roles": [
+        "default_analysis",
+        "above_gate_footnote_b"
+      ],
+      "source_locator": "printed p.2690 TableI / PDF p.8",
+      "assignment_status": "authors reported shorthand, not full occupied inventory"
+    }
+  ],
+  "default_constraint": "Qt(side feeding)=Qt(band), not tau_sf=tau_band",
+  "footnote_b": "above-level coincidence gate; author states side feeding eliminated",
+  "footnote_c": "assumed time structure from other nu i13/2 bands, tau_sf approximately1.2tau_band",
+  "quoted_error_coverage": null,
+  "experimental_covariance": null
+}
