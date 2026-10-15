@@ -96,6 +96,7 @@ The paper combines a new high-statistics JUROGAM II 136Pr level scheme with PC-P
 | LV25-28 | 本acceptedcopy TableI PDF6–9可提取156条Eγ/Ei table rows，D1的1552.2 (3)母态含空格使strict-token规则漏一行。156是本任务表行提取数，不是作者报道的新γ/独立跃迁或完整levelscheme总数；同表重复334.4/200.0/近611/900的身份需逐parent核。 | our-table-extraction-and-identity-boundary | derived | PDF pp.6–9 TableI; D1 row366.7 PDF6; D3/D5 rows334.4 PDF7 | true |
 | LV25-29 | D3的5086.3-keV18+母态经334.4/650.5到不同17+、经987.0到D2 16+；987的R_DCO2.07(14)d支持quadrupole，TableI列E2。SecII明确inband与若干link的E2 assignment含假设；表未给987独立POL列，π须按作者全图/已知锚与该假设的joint assignment记录。 | reported-angular-ratio-and-assignment-conditions | direct | PDF p.7 TableI D3 rows334.4/650.5/987.0; PDF p.3 SecII assignmentparagraph | true |
 | LV25-30 | D3的660.4(4)来自4254.6 15+→D2 15+，R_DCO.82(24)d、M1+E2；653.0(4)的TableI M/R栏为空。前者不是purestretchedΔJ=1默认模型，后者不能由归带直接补实测M。 | experimental-transition-record-and-model-domain | direct | PDF p.7 TableI D3 rows660.4/653.0 | true |
+| LV25-31 | TableI D4可逐同parent配16–23的dipole/crossoverγ对，Fig9(c)有8个对应spin的log-scale B(M1)/B(E2)点，单位μN²/(e²b²)。481、370.8、587.4、1117.9的table M栏为空（481正文称quadrupole）；重算需声明component/purity而非补写逐线已测pureM。文中未为该组给完整δ/Cov/逐点算法。 | reported-table-figure-and-input-boundary | direct | PDF p.7 TableI D4; PDF p.5 SecII D4; PDF p.11 Fig9(c) | true |
 
 ## Nuclear Structure Information
 
@@ -175,3 +176,8 @@ LV25-28的156行由[day14_pr136_transition_candidates.py](../../system/scripts/d
 ### D3的new-band与旧level候选分层
 
 LV25-29/30与[[nndc-2018-136pr-selected-level-gamma-records]] N136-10给出同约5086-keV母态/650γ的旧新候选关联；源只把D3叫newband，不凭此将所有levels/lines认证为首次发现。[[level-scheme-reconstruction]]“136Pr D3：新带、旧态候选与宇称handle”保存小图、13项row/assumption自审和条件边界。作者的E2/positiveπ标签保持为原reportedassignment，不把R2.07当独立测到electric character，也不反向改成作者赋值错误。
+
+
+### 同parent强度比的条件表图复核
+
+LV25-31的16条literalrow按8个parent配对。[[bm1-be2-ratio]]“同母态radiative比值的抵消条件”与[[level-scheme-reconstruction]]“136Pr D4：同母态比值重算与绝对强度的区别”保存SIrate→κ、δ/纯度和共分母抵消；71checks给δ0/purecrossover控制数与Fig9(c)在图精度下一致。该一致只为同acquisition的内部校核，不证明作者实际δ=0、原Cov模型或纯度，不增加新强度测量。四个M空栏、tentative23与D6单侧点保持；没有重估absoluteB或裁决MR/shapecoexistence。

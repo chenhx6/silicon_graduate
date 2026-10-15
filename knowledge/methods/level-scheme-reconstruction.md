@@ -616,3 +616,41 @@ LV25-30的660.4对应15+→15+、M1+E2、R=.82(24)，并非默认purestretchedΔ
 [13项source审计](../../outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/pr136-d3-source-audit.json)复用actualPDF/对象SHA和已提取行，核两版本literalparent/γ/M、旧空bandflag/无π、新987门label与SecII假设、653空栏/660ΔJ0、精确Fraction闭合。它是范围明确的证据审计，不是独立fit、全局identity证明或新的实验。
 
 决定revises“newband=allnewlevels”和“DCO的Q数字=直接电性”的捷径，supports明确中间placement/π锚与source假设。原reportedlabels、全部needs_review和模式竞争保持；实际events/response/Σ、旧primary与必要逐线POL仍缺，不升级为L4或人审事实。
+
+
+## 136Pr D4：同母态比值重算与绝对强度的区别
+
+[[lv-2025-136pr-tac-covariant-density-functional]] LV25-31的TableI D4提供8个sameparentdipole/crossover pair。这里用[[lange-kumar-hamilton-1982-multipole-admixtures]] LKH82-1的rate/B定义重算**声明δd=0、crossover photon纯E2**的控制；不能归给作者已测δ0或每条空M栏已确定puremultipole。[[bm1-be2-ratio]]“同母态radiative比值的抵消条件”给完整推导、单位和取消条件。
+
+### 源表逐parent控制
+
+R单位μN²/(e²b²)，使用SI κ=.696775642。表中σ仅sourcequotedmarginals独立的一阶近似，source真实Cov/δ/purity不提供；括号23+沿原作者tentativeassignment，不因作图变firm。
+
+| source assigned I | parent keV | dipole/crossover keV | R，δ0/纯crossover控制 | σ，独立quoted控制 |
+| ---: | ---: | --- | ---: | ---: |
+| 16 | 4210.8 | 273.6 / 481.0 | 15.329 | 3.889 |
+| 17 | 4581.6 | 370.8 / 644.1 | 15.340 | 2.230 |
+| 18 | 4990.9 | 409.3 / 780.3 | 14.404 | 1.690 |
+| 19 | 5430.9 | 440.0 / 849.4 | 13.381 | 1.522 |
+| 20 | 5934.5 | 503.6 / 943.8 | 12.256 | 2.154 |
+| 21 | 6444.8 | 510.3 / 1014.2 | 11.253 | 2.516 |
+| 22 | 6974.9 | 530.1 / 1040.0 | 14.227 | 7.662 |
+| (23) | 7562.3 | 587.4 / 1117.9 | 6.002 | 4.244 |
+
+R与Fig9(c)的8个16–23点、log纵轴在绘图精度下视觉相符，未从图发明高精度y数值或生产者Cov算法。图与表共享同acquisition和强度链，一致不增加独立实验，也不独立证明δ0/纯度/所有data corrections正确。D6 Fig10(c)的向上限值没有逐点CL/counts，未把它们纳入这个双侧误差表。
+
+### 空栏和抵消范围
+
+481.0、370.8、587.4、1117.9的TableI M栏为空；正文称481/644为新inbandquadrupole，D4总体为dipole/crossover序列。重算将需要的M1/E2 component/purity条件放在**控制模型字段**，不修改source raw M栏。587/1118的parent/terminal spins还带括号。
+
+同parent的**corrected photon partialrate ratio**取消共同λtotal/population，所以τ、未知其它branch和ICC分母并非本比值的必要输入；未知δd、fE2,c、相对响应/效率和来源Cov仍是必要条件。与前节totalflow `Fj=Iγ,j(1+αj)`不同，不能把那一节的α/完整库存要求机械搬到这个radiativecomponent商。也不能因此省略absoluteB或不同parent比较所需的τ/branch。实际Iγ是否满足同selection/接受度和校正范围，本任务未用原events重放。
+
+Fixed purecrossover时R(δ)=R0/(1+δ²)：未知dipoleδ只能下调R，不能借它把数据向更高theoryratio抬升。这个方向约束只限固定crossover/purity/response，不能从source图自行给模型排除概率；hypothetical fE2,c=.5会使R加倍，表明若放开crossover purity就不是同一界。没有把这个hypothesis归给真实136Pr。
+
+### 验证与失败控制
+
+[day14_pr136_sameparent_strength.py](../../system/scripts/day14_pr136_sameparent_strength.py)完成71checks：actualPDF/LKH SHA/16literalrows/8sameparents、SI E2 coefficient与原fm⁴实现独立单位路径、M1 µN/µ0与.835rounding、common I normalizer取消而energygain留2、δ/fE2控制、完整parentledger改变IC/其它channel/λtotal仍同ratio、wrongparent/unknownδ/limit拒绝、keV→MeV百万倍率错误。4个source M空栏与I23tentative状态保留。
+
+[71-check回执](../../outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/pr136-sameparent-strength.json)保留逐源行、梯度/方差项、SI系数与边界。独立σ在弱分母处可达约70%相对幅度，不能作完整似然/置信区间或称“已重现作者误差提取”。
+
+决定supports源表/图的条件内部一致性，revisesτ/ICC/completeinventory对所有strength quantities一概必需的说法，limits未知component/response和同source derivedratio作为模式独立证明。未重测B、未做真实L4fit、未在D4/D6的MR/shape-coexistence间选胜者。

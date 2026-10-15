@@ -3,7 +3,7 @@ type: observable
 title: B(M1)/B(E2) 比值
 aliases: [B(M1)/B(E2), magnetic-to-electric transition ratio]
 created: 2026-07-01
-updated: 2026-10-09
+updated: 2026-10-15
 status: active
 review_status: unreviewed
 observable_kind: reduced-transition-probability-ratio
@@ -94,3 +94,26 @@ Suzuki *et al.* report that in their measured candidate sequences of `103Rh` and
 - 2026-07-27：固化 Alwaleedi 2013 的 δ=0 假设、`R(δ)` 修正及 25%/20% 误差口径。
 - 2026-10-08：加入一个明确标作 Codex algebraic counterexample 的 shared-amplitude cancellation例子，并链接 MU07 Table I 的 Day10 uncredited derived-ratio audit；没有声称 MU07/其它来源拟合了该因子。
 - 2026-10-09：区分有量纲 `B(M1)/B(E2)` quotient 与同一跃迁的 rate-defined `δ²`，并记录 MU07 Table I 缺少逐行跃迁能和末态自旋，不能仅按同初始自旋换算。
+
+
+## 同母态radiative比值的抵消条件
+
+[[lange-kumar-hamilton-1982-multipole-admixtures]] LKH82-1（printed121/PDF3 Eqs2.1–2.6）的radiative-rate与B定义给同gamma的δ。若比较的是**同一母态的两条不同γ**，一条d含M1/E2成分，另一条c的E2 photon fraction为fE2,c，则在matching corrected photon-yield与该截断模型下：
+
+\[
+\frac{B(M1;d)}{B(E2;c)}=
+\kappa\frac{E_c^5}{E_d^3}\frac{I_{\gamma,d}}{I_{\gamma,c}}
+\frac{1}{(1+\delta_d^2)f_{E2,c}}.
+\]
+
+E用MeV，B商用μN²/(e²b²)。SIradiationprefactors给kE2=1.225186722e13 s⁻¹/(MeV⁵ e²b²)、kM1=1.758366177e13 s⁻¹/(MeV³ μN²)，κ=kE2/kM1=.696775642；sqrtκ=.834730880，舍入成LKH的.835。用源中舍入κ=.835²引入约.0645%的数值变化，只是常数舍入，不是实验冲突。不同单位下κ数值必须重算：把keV直接当MeV会因净E²产生10⁶错误。
+
+令Tγ,d为d的总photon rate，则M1 photon partialrate是Tγ,d/(1+δ²)，c的E2 rate是fE2,c Tγ,c。若两线观测强度确满足同一population/selection下`Iγ,j ∝ Tγ,j/λtotal`，共同λtotal和population消去，**不需要**该parentτ或未计其它分支库存来求这个component比；同样不把ICC重复乘进已是photonrate的ratio。ICC/其它decaychannel会影响λtotal，但该分母共同取消。与之相对，absoluteB、从totalbranch转photonbranch或不同母态间比较仍需要相应τ/α/branch信息。上文一般的“必要寿命/转换信息”必须按这个scope判断，不能一律要求或一律省略。
+
+这种抵消不认证source Iγ已经满足matchedangle/gate/efficiency条件，也不提供δ或fE2,c。source-label M1+E2与E2不等于已测δ0/纯度1。Fixed fE2,c=1时，δ0只给conditional R0上界，非零δ使R下降；允许fE2,c改变就不再有同一个无条件上界。不能把这个两gamma商当同一跃迁的δ²，也不能因τ取消而把结果叫absoluteB。
+
+### 误差和归一化
+
+对sourcequotedmarginals作独立、一阶控制，`d lnR=dId/Id−dIc/Ic−3dEd/Ed+5dEc/Ec`。共同intensitynormalizer的梯度严格抵消；共同energygain却留下2倍相对变化。真实error需用完整jointΣ和component/response nuisance传播，不能用每列error替代Cov。小crossover强度的倒数尤其非线性；弱分母的线性±σ不是完整confidence region，也不从未知原counts补Gaussian/Poisson似然。
+
+[[lv-2025-136pr-tac-covariant-density-functional]] LV25-31的D4八对给直接应用：[[level-scheme-reconstruction]]相应小节保存同parent/blankM/quotederror与71checks。示例只说明何时可从同parentγ强度求conditionalcomponent商；尚未取得逐线δ/纯度/实际response/Σ，没有给新绝对强度、实验显著性或mode裁决。

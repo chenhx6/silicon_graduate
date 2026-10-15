@@ -310,3 +310,6 @@ Day14延期另核D3旧level候选/newband/987 E2策略链，DCO的Q handle与ele
 
 
 Day14延期最终交付截止2026-10-16 16:00，planned研究cutoff15:00，最后15:00–16:00做closeout；旧17:00buffer计划已覆盖。实际下一日启动由runner确定，本prompt不自行运行。
+
+
+Day14延期另完成71-check D4 sameparent radiativeB商：τ/totalbranch/ICC共同分母何时消去，与需要δ/purity/匹配响应须分开；TableM空不自动填pure，Fig9一致不是独立实验。此为正式Day15 priming，仍需自身回忆与cardaudit。

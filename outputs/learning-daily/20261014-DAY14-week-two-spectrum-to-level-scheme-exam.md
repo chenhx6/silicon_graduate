@@ -204,6 +204,12 @@ checkpoint008实际观察为上海15:37，立即停止新研究；最后已保�
 
 [[level-scheme-reconstruction]]“136Pr D3：新带、旧态候选与宇称handle”、LV25-29/30、N136-10和[[136pr]]保存小图/源行/两条Fractionclosure/假设链；未作新fit或将sourceassignedπ升为裸DCO直接测量，未称作者错误。
 
+### 延期继续：D4同parent photon比值到conditional B商
+
+按[冻结预测](20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/pr136-strength-before-calculation.md)回核LKH82 PDF3 Eqs2.1–2.6与LV25 TableI/Fig9(c)，完成[71-check](20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/pr136-sameparent-strength.json)。SI κ=.696775642，sqrtκ=.834730880舍入至源.835；自选δ0/纯crossover给8个D4比值15.329、15.340、14.404、13.381、12.256、11.253、14.227、6.002，与图中16–23点在图精度下相符，非source算法/δ0证明。
+
+[[bm1-be2-ratio]]“同母态radiative比值的抵消条件”与[[level-scheme-reconstruction]]“136Pr D4：同母态比值重算与绝对强度的区别”保存公式/数据/误差scope：同parent correctedphoton ratio取消共同τ/总rate/其它branch与ICC分母，但δ、crossoverpurity、selection/response/Σ仍必需。4个M空栏和tentativeI23不填测值；弱分母线性σ不是完整confidenceinterval，D6限值未变双侧点。相符仅同acquisition内部一致性，不重测absoluteB或判模式。
+
 ## Counter-evidence and missing companion observables
 
 HE15-9的实际未定双线是核心反例：energy sum、共享R/A和假设的ΔI=2均不足以裁决order。若一条线出现可独立定位的旁路或延迟顺序，应重审中间level；source仍保留括号Jπ与(E2)。HE15-5的quadruplet限制“一个峰是一条γ”的简化；干净622.4直接分支门与323.4级联门的299-keVcomponent差异可能迫使拆峰，但必须控制622/626门纯度、feeding、response和random。
@@ -1585,6 +1591,62 @@ HE15-9的实际未定双线是核心反例：energy sum、共享R/A和假设的�
           "locator": "N136-10"
         }
       ]
+    },
+    {
+      "knowledge": "knowledge/sources/lv-2025-136pr-tac-covariant-density-functional.md",
+      "anchor": "同parent强度比的条件表图复核",
+      "summary": "新增D4八对原表/图/空M/未给δCov的直接范围与条件重算回链。",
+      "sources": [
+        {
+          "path": "knowledge/sources/lv-2025-136pr-tac-covariant-density-functional.md",
+          "locator": "LV25-31"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/observables/bm1-be2-ratio.md",
+      "anchor": "同母态radiative比值的抵消条件",
+      "summary": "新增同parent radiativeB商公式和τ/ICC共同分母抵消的输入契约，保留δ/purity/response。",
+      "sources": [
+        {
+          "path": "knowledge/sources/lv-2025-136pr-tac-covariant-density-functional.md",
+          "locator": "LV25-31"
+        },
+        {
+          "path": "knowledge/sources/lange-kumar-hamilton-1982-multipole-admixtures.md",
+          "locator": "LKH82-1"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/methods/level-scheme-reconstruction.md",
+      "anchor": "136Pr D4：同母态比值重算与绝对强度的区别",
+      "summary": "新增71check D4八同parent比值、单位/误差/空栏/图表一致性边界，不给absoluteB。",
+      "sources": [
+        {
+          "path": "knowledge/sources/lv-2025-136pr-tac-covariant-density-functional.md",
+          "locator": "LV25-31"
+        },
+        {
+          "path": "knowledge/sources/lange-kumar-hamilton-1982-multipole-admixtures.md",
+          "locator": "LKH82-1"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/nuclei/136pr.md",
+      "anchor": "D4 sameparent派生比值的scope",
+      "summary": "核素入口同步conditionalratio/absoluteB区分与D6限值/模式边界。",
+      "sources": [
+        {
+          "path": "knowledge/sources/lv-2025-136pr-tac-covariant-density-functional.md",
+          "locator": "LV25-31"
+        },
+        {
+          "path": "knowledge/sources/lange-kumar-hamilton-1982-multipole-admixtures.md",
+          "locator": "LKH82-1"
+        }
+      ]
     }
   ]
 }
@@ -1863,3 +1925,8 @@ wiki_lint --fail-on error实际exit0，0errors/131warnings（107citationkey、21
 ### 延期窗口的最终交付边界
 
 用户明确的明日16:00是本次运行最终交付截止；run.overnight_until保留2026-10-16T16:00+08，另以planned_research_cutoff_at=15:00预留最后一小时完成日报、检查、学分对账和发布。旧段曾计划16:00–17:00收束，已由本段和currentreceipt覆盖，不超出用户授权终点。当前研究继续，不提前credit或新session。
+
+
+### Checkpoint021 延期研究验收
+
+2026-10-15T17:10:25.297015+08:00：71项strengthcontrolchecks全true/exit0，report/card/writeback valid（62items/21changedpages）；oldrows/review/raw/protected/observableLF/AST/diff保持。初writeback因nucleus缺直接LKH链接失败已补齐回归；fresh wiki_lint --fail-on error实际exit0、0errors131warnings（107citekeys、21rawslots、3parser）。前20批published，本批main / `Recompute DAY14 Pr136 conditional strength ratios`，actualH3/hash仅receipt。继续延期窗口的TableII inputledger新问题，不新card或推进信用。

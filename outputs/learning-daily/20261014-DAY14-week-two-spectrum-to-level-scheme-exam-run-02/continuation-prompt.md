@@ -48,3 +48,12 @@ actualTableI156rows/old136G135placed的44-check candidategraph完成，sourceLV2
 ## 最后生效的时间边界
 
 用户最终交付截止2026-10-16 16:00上海，overnight_until保留该硬终点。planned_research_cutoff_at=2026-10-16 15:00，预留15:00–16:00完成closeout，不延至17:00；上文旧16:00–17:00计划已覆盖。时间门使用研究cutoff15:00决定是否开source，16:00前完成交付/checks/state/H3。当前研究仍active，Day14/partial15和官方信用不变。
+
+
+## 最新checkpoint021
+
+71check D4 sameparent δ0/purecrossover radiativeB商完成，SIκ/八对源表/4空M/I23tentative及Fig9图精度一致，τ/总rate/其它branch/ICC分母抵消有scope，δ/purity/response仍必要，无absoluteB或D6双侧限值。62items21changedpages，初nucleus缺LKHdirectlink已修，freshlint0errors131warnings和完整验证通过。前20批published，本批subject Recompute DAY14 Pr136 conditional strength ratios；actualH3/hash见receipt。
+
+下一pr136-configuration-before-calculation.md已freeze但未计算：TableII valence与unpaired literalledger，若列代表完整pairreducedinventory才检查speciesnumbermod2；允许active-only/spectator定义边界，不填missing轨道/断言code错。原实际输入code/blocking缺，不扩成真实wavefunction裁决。不新source/card。
+
+最终delivery2026-10-16 16:00上海，planned研究cutoff15:00，closeout15–16，旧17buffer已覆盖；run/goalactive，Day14/partial15，course仍next14/count13。
