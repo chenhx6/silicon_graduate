@@ -3,7 +3,7 @@ type: source
 title: "Lv 等 2019：135Nd 手征重分析与多重手征双重带"
 aliases: [Lv 2019 135Nd reexamined, 135Nd positive-parity chiral doublet]
 created: 2026-09-12
-updated: 2026-10-09
+updated: 2026-10-15
 status: ai-draft
 review_status: unreviewed
 source_type: journal-article-experiment-and-model
@@ -151,3 +151,10 @@ Checked the official APS article page and SI routes on 2026-10-09. The landing p
 ## Later Paper / Q&A Gate
 
 本页已完成 Codex self-audit；未发生用户页面级审核。若后续问答或论文写作要引用具体 `J^π`、IPDCO 或“D3/D4 正宇称 MχD”措辞，仍应回到 2019 PRC 的原文页码和 Table I，并明确 D3 `334.4 keV` 局部异常及 MχD 的作者解释属性。
+
+
+## 136Pr 2025：同一acquisition的跨核素复用
+
+[[lv-2025-136pr-tac-covariant-density-functional]] LV25-20的SecII（acceptedcopy PDF3）明确136Pr分析“same dataset”依Refs16/31，其中Ref16（PDF16）就是本篇PRC100,024314。故136Pr的1p3n selection与本篇135Nd5n共享152-MeV100Mo+40Ar/JUROGAM-II campaign，不能按核素或2019/2025发表年多计独立实验。实际targetgate、calibration、事件重叠/Cov仍须逐分析核验；同pool不证明完全同histogram，更不转移本篇135Nd的POL/δ/τ或各band标签。
+
+[[jurogam2-135nd-ar40-152mev]]保存channel入口，[[136pr]]与[[level-scheme-reconstruction]]保存不同核素的拓扑证据。本文LV19-1–9原文与needs_review false/true均保持；新增关系来自2025直接来源，不把它写成2019新测量或新的人审。

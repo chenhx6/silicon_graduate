@@ -365,3 +365,57 @@ F_{\mu\mid w}=\frac{NI(a)\,MI_{\rm cal}}{NI(a)+MI_{\rm cal}}.
 代码：[day14_doublet_time_identifiability.py](../../system/scripts/day14_doublet_time_identifiability.py)；参数/归一/各check在[本次模型回执](../../outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/doublet-time-identifiability.json)。实际events、middleτ、energy/time joint response、逐能量prompt/timewalk、背景/接受度和joint covariance仍未提供。
 
 决定supports能量—时间联合分析在已知响应下可能补静态角交换对称性，limits将时间标签自动视为定序证据，revises只匹配均值/方差就判完整等价的想法。新结论是本任务的条件方法推导，非HE15作者结论或新独立实验；shared R/A、tentativeJπ/Q/(E2)和所有review flags保持。
+
+
+## 136Pr：双门重排、共享门峰与模型分带
+
+[[lv-2025-136pr-tac-covariant-density-functional]]接受稿的LV25-16–25把Day14判据迁回A≈130。以下E/I/R为TableI报告，placement/Jπ依作者联合赋值；source自审、模型分组与本任务重算分开。PDF1为cover，关键图表采用该17页copy的精确页码，未声称已核publisher排版。
+
+### Q1的876-keV连接：什么观测会真的重排图
+
+作者用546/876-keV double gate仍看见Q2的661/689-keV线（PDF3 SecII、PDF4 Fig2），将876 link从先前14+ endpoint改接18+。TableI（PDF8）给Q2：4472.2-keV18+→3783.2-keV16+为689.0(7)，再→3122.0-keV14+为661.2(4)。Q1带头5347.8(11)经875.6(4)到4472.2，R_DCO=.47(8)，使用脚注e的quadrupole gates（Q1列表689/850）。在作者stretched-dipole和已知Q2锚点下，Q1带头从先前15提到19，整带+4ℏ。
+
+这是能够改变endpoint及绝对spin标签的source-level联合证据，不是“加了两条图线”的装饰。原子量核对为`689.0+661.2=1350.2keV`；若在本表相同14+锚下另放875.6，parent会是3997.6而非5347.8，差也是1350.2。这是本任务反事实，**不**声称1996原文曾印3997.6。原始逐门净计数、污染和Cov未给，未做事件级重拟合。
+
+Q1的π仍未由弱且污染的875.6偏振确定（LV25-3/12/16）；table写19(+)→18+、(M1+E2)，不能去掉括号。L=1的dipole性质本身不在无锚点时唯一给J/π；作者的stretched/全图条件须随结论保留。最有信息的反证是独立干净门不能重现661/689的目标path，或link的identity/multipolarity/anchor发生变化；一张污染门谱不足以独自裁决。
+
+### 同一17+母态的三路分支
+
+TableI D4/D5/D6（PDF7–8）给出以下子图；不同band名称不是不同实验或不同emitter。Figure1与表的整数/小数及弱线不精确closure须按误差/调整网络处理。
+
+```mermaid
+graph TD
+  A["4530.8 · 17+ · D6"] -->|"241.2(3)"| B["4289.5 · 16+ · D6"]
+  B -->|"611.1(4)"| E["3678.4 · 15+ · D5"]
+  A -->|"357.0(5)"| C["4173.8 · 16+ · D5"]
+  C -->|"495.4(2)"| E
+  A -->|"320.4(4)"| D["4210.8 · 16+ · D4"]
+  D -->|"532.1(3)"| E
+```
+
+| edge keV / parent→daughter keV | Iγ±error，原标度 | R_DCO±error | table M / 证据边界 |
+| --- | ---: | ---: | --- |
+| 241.2(3) / 4530.8→4289.5 | 3.6±.5 | 1.29±.26 | M1+E2，d类门；没有测得δ=0。 |
+| 611.1(4) / 4289.5→3678.4 | 5.4±.4 | 1.51±.36 | M1+E2，d类门。 |
+| 357.0(5) / 4530.8→4173.8 | 6.1±.4 | 1.04±.17 | M1+E2，d类门。 |
+| 495.4(2) / 4173.8→3678.4 | 8.3±.4 | .81±.12 | M1+E2，d类门。 |
+| 320.4(4) / 4530.8→4210.8 | .2±.1 | 空 | table M也空；不从ΔJ或邻线给实测pureM1。 |
+| 532.1(3) / 4210.8→3678.4 | .6±.1 | 空 | table M也空；同上。 |
+
+脚注d中D5用263门，D6用231/354门；R≈1在这里对应dipole reference条件。脚注e的Q-gate下dipole≈.46、quadrupole≈1，而D-gate下quadrupole≈2.1；不能把Q1 .47与D6 1.04用同一数值阈值比较。逐target到底用了哪些gate sums及self-exclusion没有完整ledger，已列gate列表也不等于原事件response可重放（LV25-17）。
+
+图有5nodes、6edges、rank4，两条cycle按上表顺序可写`(1,1,−1,−1,0,0)`和`(1,1,0,0,−1,−1)`。打印能量残差−.1/−.2keV。只作控制，取逐线quotedσ独立，cycle Cov为`(.54,.25;.25,.50)keV²`，共享241+611路径令两闭合相关；GLS与cycle projection给同一conditionalχ²=.08、df2，**不是**实验拟合p-value或唯一拓扑证明。source中Ei是网络调整值，不与这些Eγ当独立data再重复拟合；其逐边差与Eγ可差.4keV。
+
+### 真实shared-gate反例与模型分带边界
+
+- LV25-21：Fig4的D3合并谱里263/405峰实际属于同核素D5，因为230/334门也接收D5。打印同为334.4的两条表行不能凭中心值判物理精确简并；同门峰也不全是D3的新line。
+- LV25-22：Fig5(a)星号来自co-produced136Nd，另一类是719门混入强722线使265峰出现。同核支路重叠、其它残核污染和random分别需要不同control，不能只用“有共同峰”归带。
+- LV25-19：旧band3拆为D5/D6在原文明确借助不同configuration（转SecIII）。新544-keV E2和下游branch改善D5π锚点，但“不同configuration分组”仍为作者/model判断；不能把band标签当唯一model-free观测。
+- LV25-23：Fig10(c) D6的向上箭头式点与TableI中缺inbandE2应按单侧/限值边界保留。来源未给D6逐点CL/limit构造/δ/Σ，不把它们变成对称误差ratio点或拟合残差；D3的lower limits则在正文另有明确说明。
+- LV25-24：接受稿Fig10caption与TableII ConfigD6的gd及neutronhole列示不同，publisher403未核正式版本；保留配置identity缺口，不根据caption独自重建实际计算。TableII β/γ和tilt仍是模型，D4/D6的magnetic rotation/shape coexistence竞争不由此裁决。
+
+### 独立性和可复算入口
+
+LV25-20明示与Refs16/31共享acquisition，Ref16就是[[lv-2019-chirality-135nd-reexamined]]。2025是论文年，不能把相邻核素selection当新一份独立beamrun。5.1×10^10为整个fold≥3 pool；约10% crosssection也不等selectedevent分母。不同paper可能有不同calibration/gates，sharedpool不证明完全同events/Cov，更不能移植135Nd的偏振或τ。
+
+[day14_pr136_scheme_crosswalk.py](../../system/scripts/day14_pr136_scheme_crosswalk.py)与[37-check回执](../../outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/pr136-scheme-crosswalk.json)核rawSHA/实际表行、空栏、图rank、fraction精确closure、两种χ算法和Q1endpoint。方法判断supports定位新endpoint的净符合证据，limits共同门/模型标签/one-sided点的升级；没有新level、absoluteB或模式结论，L4原始重分析not-ready。

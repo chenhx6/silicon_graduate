@@ -1,0 +1,151 @@
+{
+  "source": "knowledge/sources/lv-2025-136pr-tac-covariant-density-functional.md",
+  "raw_sha256": "c8e14461975a7606d7e38325d6e83b500e75d232027b118743e1f1ff754537d6",
+  "copy": "17-page accepted version including repository cover; printed page=PDFpage-1",
+  "nodes": {
+    "A": {
+      "energy": 4530.8,
+      "J": 17,
+      "band": "D6"
+    },
+    "B": {
+      "energy": 4289.5,
+      "J": 16,
+      "band": "D6"
+    },
+    "C": {
+      "energy": 4173.8,
+      "J": 16,
+      "band": "D5"
+    },
+    "D": {
+      "energy": 4210.8,
+      "J": 16,
+      "band": "D4"
+    },
+    "E": {
+      "energy": 3678.4,
+      "J": 15,
+      "band": "D5"
+    }
+  },
+  "edges": [
+    {
+      "name": "241",
+      "energy_literal": "241.2(3)",
+      "Ei_literal": "4530.8(10)",
+      "energy": 241.2,
+      "sigma": 0.3,
+      "parent": "A",
+      "daughter": "B",
+      "I": 3.6,
+      "dI": 0.5,
+      "R": 1.29,
+      "dR": 0.26,
+      "M": "M1+E2",
+      "pdf_page": 8
+    },
+    {
+      "name": "611",
+      "energy_literal": "611.1(4)",
+      "Ei_literal": "4289.5(8)",
+      "energy": 611.1,
+      "sigma": 0.4,
+      "parent": "B",
+      "daughter": "E",
+      "I": 5.4,
+      "dI": 0.4,
+      "R": 1.51,
+      "dR": 0.36,
+      "M": "M1+E2",
+      "pdf_page": 8
+    },
+    {
+      "name": "357",
+      "energy_literal": "357.0(5)",
+      "Ei_literal": "4530.8(10)",
+      "energy": 357.0,
+      "sigma": 0.5,
+      "parent": "A",
+      "daughter": "C",
+      "I": 6.1,
+      "dI": 0.4,
+      "R": 1.04,
+      "dR": 0.17,
+      "M": "M1+E2",
+      "pdf_page": 8
+    },
+    {
+      "name": "495",
+      "energy_literal": "495.4(2)",
+      "Ei_literal": "4173.8(10)",
+      "energy": 495.4,
+      "sigma": 0.2,
+      "parent": "C",
+      "daughter": "E",
+      "I": 8.3,
+      "dI": 0.4,
+      "R": 0.81,
+      "dR": 0.12,
+      "M": "M1+E2",
+      "pdf_page": 7
+    },
+    {
+      "name": "320",
+      "energy_literal": "320.4(4)",
+      "Ei_literal": "4530.8(10)",
+      "energy": 320.4,
+      "sigma": 0.4,
+      "parent": "A",
+      "daughter": "D",
+      "I": 0.2,
+      "dI": 0.1,
+      "R": null,
+      "dR": null,
+      "M": null,
+      "pdf_page": 8
+    },
+    {
+      "name": "532",
+      "energy_literal": "532.1(3)",
+      "Ei_literal": "4210.8(11)",
+      "energy": 532.1,
+      "sigma": 0.3,
+      "parent": "D",
+      "daughter": "E",
+      "I": 0.6,
+      "dI": 0.1,
+      "R": null,
+      "dR": null,
+      "M": null,
+      "pdf_page": 7
+    }
+  ],
+  "q1_endpoint": {
+    "new_J": 18,
+    "lower_candidate_J": 14,
+    "link": 875.6,
+    "link_sigma": 0.4,
+    "Q1_E": 5347.8,
+    "Q2_18_E": 4472.2,
+    "Q2_16_E": 3783.2,
+    "Q2_14_E": 3122.0,
+    "Q2_18to16": 689.0,
+    "Q2_16to14": 661.2,
+    "Q1_gate": 546.0,
+    "R_link": 0.47,
+    "dR_link": 0.08,
+    "R_gate_type": "stretched quadrupole, footnote e; listed Q1 gates689/850",
+    "parity_experiment": null,
+    "positive_parity_status": "author/model proposal; line and spins parenthesized"
+  },
+  "controls": {
+    "energy_covariance_source": null,
+    "Sigma_exercise": "diagonal quoted per-line sigma only; chosen independence, not source joint covariance",
+    "absolute_B": null,
+    "D6_upperlimit_confidence": null,
+    "D6_plot_symbol": "upward arrow in Fig10(c), source has no per-point limit construction",
+    "eventledger": null,
+    "shared_acquisition": "SecII PDF3 explicitly same dataset as Refs16(PRC100024314)/31(PRC98044304); no new independent campaign credited"
+  }
+}

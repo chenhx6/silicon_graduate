@@ -3,7 +3,7 @@ type: source
 title: "Lv et al. 2025 - Configuration-dependent shapes and rotations in 136Pr"
 aliases: [Lv 2025 136Pr TAC-CDFT study]
 created: 2026-09-30
-updated: 2026-09-30
+updated: 2026-10-15
 status: ai-draft
 review_status: unreviewed
 source_type: journal-article-experiment-and-model
@@ -68,7 +68,7 @@ The paper combines a new high-statistics JUROGAM II 136Pr level scheme with PC-P
 |---|---|---|---|---|---|
 | LV25-1 | 新 JUROGAM II 数据确认并扩展 136Pr 高自旋谱；论文图 1 给出 595-keV、Iπ=6+ 异能态以上的 D1–D6、Q1–Q4 能级纲图。 | experimental-fact | direct | Abstract; Sec. II; Fig. 1, PDF pp. 2–4 | true |
 | LV25-2 | Table I 报告跃迁能量、初态能量、相对γ强度、RDCO、Rac、多极性和自旋宇称指派；相对强度以 209.5-keV 7+→6+ 跃迁归一。 | experimental-fact | direct | Table I, PDF pp. 6–9 | true |
-| LV25-3 | Q1 的 875.6(4)-keV 连接跃迁测得 RDCO=0.47(8)，与拉伸偶极跃迁的标定值相符；其相对强度 2.9(2)，偏振分析因低计数和污染未能确定宇称。 | experimental-criterion | direct | Sec. II, PDF p. 3; Table I, PDF p. 9 | true |
+| LV25-3 | Q1 的 875.6(4)-keV 连接跃迁测得 RDCO=0.47(8)，与拉伸偶极跃迁的标定值相符；其相对强度 2.9(2)，偏振分析因低计数和污染未能确定宇称。 | experimental-criterion | direct | Sec. II, PDF p. 3; Table I Q1 row875.6, PDF p.8; footnote e, PDF p.9 | true |
 | LV25-4 | TAC-CDFT 使用 PC-PK1、10 个谐振子主壳及 Bogoliubov 配对；本工作不实施角动量或粒子数投影。 | synthesis | direct | Sec. III.A, PDF p. 9 | true |
 | LV25-5 | Table II 的组态和 (β,γ) 是 TAC-CDFT 模型输出；D1/D2/D3/D4/D6 与 Q1/Q2/Q3/Q4 的带头形变约跨 β=0.16–0.24、γ=17°–39°。 | model-result | direct | Table II; Fig. 16, PDF p. 15 | true |
 | LV25-6 | D1 的计算能量趋势接近实验，但计算 B(M1)/B(E2) 高于从所报告分支比得到的实验派生值。 | model-result | direct | Fig. 6; Sec. III.A, PDF pp. 9–10 | true |
@@ -77,11 +77,21 @@ The paper combines a new high-statistics JUROGAM II 136Pr level scheme with PC-P
 | LV25-9 | 作者未在目标数据中识别手征转动、wobbling 或 oblate rotation；D4/D6 被讨论为可能磁转动，或作为另一种 D4 偏 prolate、D6 偏 oblate 的形状共存方案，二者是竞争解释。 | author-interpretation | direct | Sec. III.A–C; Figs. 9–11; Summary, PDF pp. 10–15 | true |
 | LV25-10 | 2025 年模型计算与实验谱来自同一篇论文的同一 JUROGAM II 数据集，因而模型拟合不是独立实验确认；作者称新数据统计约为此前该核实验的 240 倍。 | synthesis | direct | Sec. II; Figs. 6–16; PDF pp. 2–15 | true |
 | LV25-11 | 本次 arXiv、Crossref、OpenAlex、Semantic Scholar 和 INSPIRE 的限定检索未找到 136Pr/137Pr 的直接三轴 PSM/TPSM 全文；检索到并获取的 136Pr 2025 研究是 TAC-CDFT/壳模型，不是角动量投影。Google Scholar HTML 路由卡住并终止，故该路由未验证，检索不构成“文献不存在”的证明。 | our-inference | contextual | Day 3 bounded search record, 2026-09-30 | true |
-
 | LV25-12 | 作者依据 TAC-CDFT 构型为 Q1 提出正宇称；该正宇称并未由本次偏振测量确定。 | author-interpretation | indirect | Sec. II, PDF p. 3 | true |
 | LV25-13 | D1 的 TAC-CDFT 总角动量曲线在旋转频率约 0.35 MeV 附近因配对塌缩出现突跳；粒子数投影虽被提及可避免此非物理塌缩，但本研究未实施。 | model-result | direct | Fig. 6; Sec. III.A, PDF p. 10 | true |
 | LV25-14 | D3 的带内交叉 E2 跃迁未观测到，因此该带实验 B(M1)/B(E2) 只能给出下限。 | experimental-fact | direct | Fig. 8; Sec. III.A, PDF p. 11 | true |
 | LV25-15 | 作者把 D5 未找到 TAC-CDFT 组态视为近球形形变的间接线索，同时提醒 TAC-CDFT 在该形状区可能不适用。 | author-interpretation | direct | Sec. III.A–B, PDF pp. 11–13 | true |
+| LV25-16 | 作者将Q1的876-keV link由先前14+终点改接Q2的18+，依据546/876双门谱仍见661/689；按stretched-dipole assignment带头自旋提高4ℏ到19(+)。正宇称仍为模型提议，非新偏振结果。 | experimental-placement-and-author-assignment | direct | PDF p.3 Sec.II; PDF p.4 Figs.1–2; PDF p.8 TableI Q1/Q2 rows | true |
+| LV25-17 | 本文DCO不是一个全局阈值：TableI d为dipole gates、e为stretched-quadrupole gates。Q1列689/850门，D5列263，D6列231/354；caption给Q-gate下dipole≈.46/Q≈1，D-gate下dipole≈1/Q≈2.1。逐target实际gate组合及Cov仍未提供。 | experimental-gate-criterion | direct | PDF p.6 TableI caption; PDF p.9 TableI footnotes b/d/e | true |
+| LV25-18 | TableI的4530.8-keV17+态有241.2、357.0、320.4到不同16+态；这些16+再经611.1、495.4、532.1到3678.4-keV15+。320.4和532.1的R/M栏为空，不能沿图自动补成已测pureM1。 | experimental-transition-crosswalk | direct | PDF p.7 TableI D4/D5; PDF p.8 TableI D6; Fig.1 | true |
+| LV25-19 | 作者明确把旧band3分为D5/D6依据不同configuration（转Sec.III）；新544-keV E2与低端branch支持D5正宇称，先前D5负宇称是理论性tentative建议。分带不是只由新coincidence唯一证明的model-free划分。 | author-partition-and-experimental-boundary | direct | PDF p.6 Sec.II D5/D6 paragraphs; PDF p.8 TableI544.0 | true |
+| LV25-20 | Sec.II明示本工作与Refs16/31使用same dataset；Ref16是135Nd PRC100,024314(2019)，Ref31是PRC98,044304(2018)。5.1×10^10为全采集fold≥3事件；136Pr约10% totalcrosssection不等于其selectedevent fraction。2025为发表年，不能据此定为新独立2025采集。 | acquisition-lineage-and-counting-boundary | direct | PDF p.3 Sec.II; PDF p.16 Ref16; PDF p.17 Ref31 | true |
+| LV25-21 | Fig.4明确263/405峰来自136Pr D5，因为制作D3合并谱的230/334门也接收D5。TableI的D3与D5分别有打印334.4的条目；相同打印中心值不证明物理能量精确简并。 | experimental-shared-gate-counter-evidence | direct | PDF p.5 Fig.4 caption; PDF p.7 TableI D3/D5 rows334.4 | true |
+| LV25-22 | Fig.5(a)星号为136Nd污染；Fig.5(b)的265峰因719门混入强lowlying722-keV line出现。共同门谱中的峰不能全自动作为同一目标路径成员。 | experimental-contamination-counter-evidence | direct | PDF p.5 Fig.5 caption | true |
+| LV25-23 | Fig.10(c) D6使用向上箭头式点，TableI D6没有给出inbandE2 crossover。按单侧/限值边界保留这些点，原文未提供D6逐点limit构造或CL，不能当普通双侧误差ratio点给拟合χ²。 | display-fact-and-our-inference-boundary | mixed | PDF p.11 Fig.10(c); PDF p.8 TableI D6 | true |
+| LV25-24 | 此accepted copy的Fig.10caption写D6的gd^4 unpaired形式，而TableII ConfigD6写gd^2且含sd^-4 neutronholes，具体配置列示不一致。PublisherPDF请求403，未核正式排版或erratum；保留版本内locator冲突，不断言计算代码用错配置。 | versioned-model-input-boundary | direct | PDF p.11 Fig.10 caption; PDF p.15 TableII ConfigD6 | true |
+| LV25-25 | TableI脚注a称以209.5-keV7+→6+强度为reference，D1表列209.4(1)的I=64(4)，未声明reference必须100。本任务保留原标度，不凭常规习惯改I、补missingbranch或反推counts。 | normalization-boundary | direct | PDF p.9 TableI footnote a; PDF p.6 TableI D1 row209.4 | true |
+
 ## Nuclear Structure Information
 
 实验报告以 595-keV、Iπ=6+、T1/2=90 ns 异能态为基准的复杂高自旋结构。Fig. 1 显示 D1–D6 偶极带和 Q1–Q4 四极带；D3 为新观测带，原先一条高自旋带在本次分析中分为 D5、D6。Table I 的多极性由 RDCO/Rac 等约束，但若干高自旋指派仍带括号。
@@ -129,3 +139,14 @@ Decision: revises. 136Pr 从“后续投影覆盖待查”更新为“已有 202
 - Nuclei: [[136pr]]
 - Models: [[tilted-axis-cranking]], [[covariant-density-functional-theory]], [[cranked-shell-model]]
 - Projects: [[a130-model-choice-card]]
+
+
+## Day14接受稿复核：连接终点、门与版本边界
+
+本次核SHA与Crossref HTTP200、题名/首作者/PRC111/014321/2025-01-16一致。当前raw是Jyväskylä self-archived **Accepted version (Final draft)**，共17 PDF页，其中第1页为cover，印刷页=PDF页−1；不是已核正式publisher排版。沿PDF2–15全部正文主线、16–17 references，视觉复核Figs1–16及TableI关键rows/全部gating脚注和TableII；红色修订文字也属这份版本，不视为额外实验。PublisherPDF单次403 HTML，未绕认证/挑战，不将本版caption冲突写成officialerratum。
+
+新增LV25-16–25保留源图/表细节：Q1实际endpoint重排与π边界、D6三条并行支路及weakline空栏、sharedgates的真实反例、D5/D6模型辅助分组和one-sided显示、sharedacquisition与versioned配置冲突。旧LV25-1–15的needs_review true保持；LV25-3的表行locator修到PDF8（gating脚注在PDF9）。旧12–15因表中空行未被claimparser读取，现合回同表，内容/flags未升级；这不是四条新实验或新人审。
+
+[37-check crosswalk](../../outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/pr136-scheme-crosswalk.json)直接核immutablePDF行，并以声明independentquotedσ给两cycle残差−.1/−.2keV及相关矩阵；source真实jointΣ仍unknown。可复用逐边表、Q1重排和限制在[[level-scheme-reconstruction]]“136Pr：双门重排、共享门峰与模型分带”，核素入口[[136pr]]，[[a130-thesis-evidence-matrix]]新增实际A130 row。
+
+[[lv-2019-chirality-135nd-reexamined]]是本文Ref16，并非因核素/发表年不同就有独立acquisition。[[jurogam2-135nd-ar40-152mev]]保持135Nd channel视角并记录samepool的136Pr branch；actualselection、calibration、gateΣ仍逐分析待核。没有把135Nd偏振或τ移给136Pr。决定supports source-level Q1连接重排与正宇称边界，revises“新发表=新采集”/“band标签=模型无关”/“所有点均双侧测量”；D4/D6磁转动和形状共存仍竞争，β/γ是模型，不裁决新模式。

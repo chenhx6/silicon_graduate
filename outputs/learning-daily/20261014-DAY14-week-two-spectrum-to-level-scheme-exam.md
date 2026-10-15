@@ -164,6 +164,14 @@ Z83-11的958.0-keV同parent Table1完整十行已upright视觉转录：[fixture]
 
 Canonical [[level-scheme-reconstruction]]“近邻双线的能量—时间可识别性与响应混淆”保存全公式、表和独立积分收敛。另给非负electronics-tail反例：两种order将独立同分布核delay/仪器delay交换能量标签，可得完全相同到达时刻joint；这是未知energy-specific response的nuisance ambiguity，不是knownresponse下的no-go或真实仪器判断。局部signed核delay/offset的score共线；自设独立prompt样本补第二行信息，Schur式NI×MIcal/(NI+MIcal)量化一阶边界，而非fullshape上限。最小新增输入为独立逐能量/逐detector prompt/timewalk/tails、实际middleτ或定位branch、events/接受度/Σ。supports joint信息、limits加时间标签即定序，未赋193Bi实际order或新spin。
 
+### A≈130实谱对照：136Pr的连接重排与模型边界
+
+Ga67 novelty已局部饱和后，以已保存[primed来源前回忆](20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/lv25-before-source-recall.md)选择136Pr的“谱→endpoint/π→模型分组”。DOI [10.1103/PhysRevC.111.014321](https://doi.org/10.1103/PhysRevC.111.014321)由Crossref200核；实际raw是17页acceptedcopy（含cover），SHA匹配，主线、Figs1–16、TableI/II已复核。PublisherPDF403，保留本版Fig10caption/TableII的ConfigD6列示冲突，不称officialerratum。旧sourceLV25-3表行locator修至PDF8，旧12–15表中空行合回parser，原review/flags保持。
+
+[[lv-2025-136pr-tac-covariant-density-functional]] LV25-16/17：546/876双门见661/689，使作者把Q1终点由14+改到18+并将带头spin+4ℏ至19(+)；875.6 R=.47(8)和E2-gate支持dipole，π仍模型proposal。LV25-18的5level/6edge三条并行路径由[37-check](20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/pr136-scheme-crosswalk.json)核表，closure−.1/−.2keV、声明Σ下cycleCov(.54,.25;.25,.50)、conditionalχ²=.08；非实际事件拟合。320/532的R/M空栏保留。
+
+Fig4/5真实sharedgate/跨残核污染反例、D5/D6依configuration分组和D6单侧显示均写回[[level-scheme-reconstruction]]“136Pr：双门重排、共享门峰与模型分带”、[[136pr]]与[[a130-thesis-evidence-matrix]]新row。LV25-20明示与2019/2018同acquisition，故本novelty是不同核素/拓扑问题，**不**计为与Day9的135Nd文献独立采集。Counterevidence为D1/D2强度比偏差、D6limit/配置和Q1π缺口；下一必要观测仍cleanPOL/逐parentstrength/真实gate/Σ。Supports真正定位endpoint的证据，limits模型标签和单侧点升级；不增加Day15信用或新模式裁决。
+
 ## Counter-evidence and missing companion observables
 
 HE15-9的实际未定双线是核心反例：energy sum、共享R/A和假设的ΔI=2均不足以裁决order。若一条线出现可独立定位的旁路或延迟顺序，应重审中间level；source仍保留括号Jπ与(E2)。HE15-5的quadruplet限制“一个峰是一条γ”的简化；干净622.4直接分支门与323.4级联门的299-keVcomponent差异可能迫使拆峰，但必须控制622/626门纯度、feeding、response和random。
@@ -1061,6 +1069,168 @@ HE15-9的实际未定双线是核心反例：energy sum、共享R/A和假设的�
           "locator": "HE15-12"
         }
       ]
+    },
+    {
+      "knowledge": "knowledge/sources/lv-2025-136pr-tac-covariant-density-functional.md",
+      "anchor": "Day14接受稿复核：连接终点、门与版本边界",
+      "summary": "增加接受稿17页复核与LV25-16–25；Q1endpoint/sharedgate/分组/one-sided/同采集及配置版本边界，修旧locator和claimtable解析，旧flags保持。",
+      "sources": [
+        {
+          "path": "knowledge/sources/lv-2025-136pr-tac-covariant-density-functional.md",
+          "locator": "LV25-16"
+        },
+        {
+          "path": "knowledge/sources/lv-2025-136pr-tac-covariant-density-functional.md",
+          "locator": "LV25-17"
+        },
+        {
+          "path": "knowledge/sources/lv-2025-136pr-tac-covariant-density-functional.md",
+          "locator": "LV25-18"
+        },
+        {
+          "path": "knowledge/sources/lv-2025-136pr-tac-covariant-density-functional.md",
+          "locator": "LV25-19"
+        },
+        {
+          "path": "knowledge/sources/lv-2025-136pr-tac-covariant-density-functional.md",
+          "locator": "LV25-20"
+        },
+        {
+          "path": "knowledge/sources/lv-2025-136pr-tac-covariant-density-functional.md",
+          "locator": "LV25-21"
+        },
+        {
+          "path": "knowledge/sources/lv-2025-136pr-tac-covariant-density-functional.md",
+          "locator": "LV25-22"
+        },
+        {
+          "path": "knowledge/sources/lv-2025-136pr-tac-covariant-density-functional.md",
+          "locator": "LV25-23"
+        },
+        {
+          "path": "knowledge/sources/lv-2025-136pr-tac-covariant-density-functional.md",
+          "locator": "LV25-24"
+        },
+        {
+          "path": "knowledge/sources/lv-2025-136pr-tac-covariant-density-functional.md",
+          "locator": "LV25-25"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/methods/level-scheme-reconstruction.md",
+      "anchor": "136Pr：双门重排、共享门峰与模型分带",
+      "summary": "新增实际5level6edge逐线/门/空栏/相关closure与Q1端点+4ℏ；分开model partition与event evidence。",
+      "sources": [
+        {
+          "path": "knowledge/sources/lv-2025-136pr-tac-covariant-density-functional.md",
+          "locator": "LV25-16"
+        },
+        {
+          "path": "knowledge/sources/lv-2025-136pr-tac-covariant-density-functional.md",
+          "locator": "LV25-17"
+        },
+        {
+          "path": "knowledge/sources/lv-2025-136pr-tac-covariant-density-functional.md",
+          "locator": "LV25-18"
+        },
+        {
+          "path": "knowledge/sources/lv-2025-136pr-tac-covariant-density-functional.md",
+          "locator": "LV25-19"
+        },
+        {
+          "path": "knowledge/sources/lv-2025-136pr-tac-covariant-density-functional.md",
+          "locator": "LV25-21"
+        },
+        {
+          "path": "knowledge/sources/lv-2025-136pr-tac-covariant-density-functional.md",
+          "locator": "LV25-22"
+        },
+        {
+          "path": "knowledge/sources/lv-2025-136pr-tac-covariant-density-functional.md",
+          "locator": "LV25-23"
+        },
+        {
+          "path": "knowledge/sources/lv-2025-136pr-tac-covariant-density-functional.md",
+          "locator": "LV25-24"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/nuclei/136pr.md",
+      "anchor": "连接重排和数据依赖的Day14核验",
+      "summary": "补Q1endpoint和π/弱线空栏，修发表年与全事件pool分母，保留D5/D6模型辅助分带。",
+      "sources": [
+        {
+          "path": "knowledge/sources/lv-2025-136pr-tac-covariant-density-functional.md",
+          "locator": "LV25-16"
+        },
+        {
+          "path": "knowledge/sources/lv-2025-136pr-tac-covariant-density-functional.md",
+          "locator": "LV25-18"
+        },
+        {
+          "path": "knowledge/sources/lv-2025-136pr-tac-covariant-density-functional.md",
+          "locator": "LV25-19"
+        },
+        {
+          "path": "knowledge/sources/lv-2025-136pr-tac-covariant-density-functional.md",
+          "locator": "LV25-20"
+        },
+        {
+          "path": "knowledge/sources/lv-2025-136pr-tac-covariant-density-functional.md",
+          "locator": "LV25-23"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/projects/a130-thesis-evidence-matrix.md",
+      "anchor": "136Pr Q1 endpoint / D5-D6 partition",
+      "summary": "新增A130实际谱学矩阵row及下步观测/独立性，不将模式比较写为测得形变。",
+      "sources": [
+        {
+          "path": "knowledge/sources/lv-2025-136pr-tac-covariant-density-functional.md",
+          "locator": "LV25-16"
+        },
+        {
+          "path": "knowledge/sources/lv-2025-136pr-tac-covariant-density-functional.md",
+          "locator": "LV25-19"
+        },
+        {
+          "path": "knowledge/sources/lv-2025-136pr-tac-covariant-density-functional.md",
+          "locator": "LV25-20"
+        },
+        {
+          "path": "knowledge/sources/lv-2025-136pr-tac-covariant-density-functional.md",
+          "locator": "LV25-23"
+        },
+        {
+          "path": "knowledge/sources/lv-2025-136pr-tac-covariant-density-functional.md",
+          "locator": "LV25-24"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/sources/lv-2019-chirality-135nd-reexamined.md",
+      "anchor": "136Pr 2025：同一acquisition的跨核素复用",
+      "summary": "增加Ref16与136Pr共同dataset回链，旧LV19全部needs_review和page review保持。",
+      "sources": [
+        {
+          "path": "knowledge/sources/lv-2025-136pr-tac-covariant-density-functional.md",
+          "locator": "LV25-20"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/experiments/jurogam2-135nd-ar40-152mev.md",
+      "anchor": "同一pool的136Pr分析：channel与acquisition分开",
+      "summary": "保持135Ndchannel入口，补136Pr与Ref16/31同pool、不移借calibration/τ/POL的边界。",
+      "sources": [
+        {
+          "path": "knowledge/sources/lv-2025-136pr-tac-covariant-density-functional.md",
+          "locator": "LV25-20"
+        }
+      ]
     }
   ]
 }
@@ -1286,3 +1456,10 @@ Ref5原9页与23-check Appendix均完成；report/card/writeback valid（23items
 同run/session的checkpoint005在10:25实际收到并ACK（queued04:56不能当实际研究时刻）。本段91-check exit0，report/card/writeback valid（唯一34items/15changedpages），rawmetadata/protected/原source字节/AST和git diff --check通过。Freshlint实际exit0、0errors130warnings（107citekey、20rawslots、3parser）；local-score初h失败/稳定Richardson修正记录在run，未用旧74检查验收扩展。Nativeget_goal实测historicalblocked而任务有可执行工作，按用户同session续学推进research，不伪造goalactive。
 
 当前原截止仍15:00，下一continuity已冻结free-cascade recoil的energy-opening-angle条件设计；不会将staticangular no-go推广到未建模能量响应，也不为193Bi定实际次序。Formal21/24不变，Day15仅partial无信用。第013批已Gitee发布，本批稳定subject `Bound DAY14 doublet timing with independent response calibration`；actualH3/hash只receipt。
+
+
+### Checkpoint015：136Pr源表和依赖性验收
+
+37项analysis实际exit0；report/card/writeback valid（40items/19changedpages）。旧source flags/原review、rawmetadata和PLAN/Bib保持，AST/diff通过。wiki_lint --fail-on error实际exit0、0errors130warnings（107citekeys、20rawslots、3parser）；LV25-16–25解析true，旧12–15合回同table后解析，不当新观测。前14批已发布，本批稳定main / `Audit DAY14 Pr136 links and one-sided transition evidence`；精确hash/actualH3仅runreceipt。
+
+约11:30快照原截止仍15:00，继续1996companion检索和已freeze的193Bi free-recoil设计，不因本来源读完收束。Day14formal21/24不变，Day15仍仅partial无学分。

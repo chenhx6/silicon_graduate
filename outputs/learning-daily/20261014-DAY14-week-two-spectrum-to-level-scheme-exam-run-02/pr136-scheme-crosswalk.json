@@ -1,0 +1,315 @@
+{
+  "source": "knowledge/sources/lv-2025-136pr-tac-covariant-density-functional.md",
+  "raw_sha256": "c8e14461975a7606d7e38325d6e83b500e75d232027b118743e1f1ff754537d6",
+  "source_rows": [
+    {
+      "name": "241",
+      "energy_literal": "241.2(3)",
+      "Ei_literal": "4530.8(10)",
+      "energy": 241.2,
+      "sigma": 0.3,
+      "parent": "A",
+      "daughter": "B",
+      "I": 3.6,
+      "dI": 0.5,
+      "R": 1.29,
+      "dR": 0.26,
+      "M": "M1+E2",
+      "pdf_page": 8,
+      "actual_line": "241.2(3) 4530.8(10) 3.6(5) 1.29(26)d M1+E2 17+ → 16+"
+    },
+    {
+      "name": "611",
+      "energy_literal": "611.1(4)",
+      "Ei_literal": "4289.5(8)",
+      "energy": 611.1,
+      "sigma": 0.4,
+      "parent": "B",
+      "daughter": "E",
+      "I": 5.4,
+      "dI": 0.4,
+      "R": 1.51,
+      "dR": 0.36,
+      "M": "M1+E2",
+      "pdf_page": 8,
+      "actual_line": "611.1(4) 4289.5(8) 5.4(4) 1.51(36)d M1+E2 16+ → 15+"
+    },
+    {
+      "name": "357",
+      "energy_literal": "357.0(5)",
+      "Ei_literal": "4530.8(10)",
+      "energy": 357.0,
+      "sigma": 0.5,
+      "parent": "A",
+      "daughter": "C",
+      "I": 6.1,
+      "dI": 0.4,
+      "R": 1.04,
+      "dR": 0.17,
+      "M": "M1+E2",
+      "pdf_page": 8,
+      "actual_line": "357.0(5) 4530.8(10) 6.1(4) 1.04(17)d M1+E2 17+ → 16+"
+    },
+    {
+      "name": "495",
+      "energy_literal": "495.4(2)",
+      "Ei_literal": "4173.8(10)",
+      "energy": 495.4,
+      "sigma": 0.2,
+      "parent": "C",
+      "daughter": "E",
+      "I": 8.3,
+      "dI": 0.4,
+      "R": 0.81,
+      "dR": 0.12,
+      "M": "M1+E2",
+      "pdf_page": 7,
+      "actual_line": "495.4(2) 4173.8(10) 8.3(4) 0.81(12)d M1+E2 16+ → 15+"
+    },
+    {
+      "name": "320",
+      "energy_literal": "320.4(4)",
+      "Ei_literal": "4530.8(10)",
+      "energy": 320.4,
+      "sigma": 0.4,
+      "parent": "A",
+      "daughter": "D",
+      "I": 0.2,
+      "dI": 0.1,
+      "R": null,
+      "dR": null,
+      "M": null,
+      "pdf_page": 8,
+      "actual_line": "320.4(4) 4530.8(10) 0.2(1) 17+ → 16+"
+    },
+    {
+      "name": "532",
+      "energy_literal": "532.1(3)",
+      "Ei_literal": "4210.8(11)",
+      "energy": 532.1,
+      "sigma": 0.3,
+      "parent": "D",
+      "daughter": "E",
+      "I": 0.6,
+      "dI": 0.1,
+      "R": null,
+      "dR": null,
+      "M": null,
+      "pdf_page": 7,
+      "actual_line": "532.1(3) 4210.8(11) 0.6(1) 16+ → 15+"
+    }
+  ],
+  "node_order": [
+    "A",
+    "B",
+    "C",
+    "D",
+    "E"
+  ],
+  "incidence": [
+    [
+      1.0,
+      -1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      -1.0
+    ],
+    [
+      1.0,
+      0.0,
+      -1.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      -1.0
+    ],
+    [
+      1.0,
+      0.0,
+      0.0,
+      -1.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -1.0
+    ]
+  ],
+  "cycle_matrix": [
+    [
+      1,
+      1,
+      -1,
+      -1,
+      0,
+      0
+    ],
+    [
+      1,
+      1,
+      0,
+      0,
+      -1,
+      -1
+    ]
+  ],
+  "cycle_residual_keV": [
+    -0.0999999999999659,
+    -0.20000000000004547
+  ],
+  "Sigma_control": [
+    [
+      0.09,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.16000000000000003,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.25,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      0.04000000000000001,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.16000000000000003,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.09
+    ]
+  ],
+  "cycle_cov_control": [
+    [
+      0.54,
+      0.25
+    ],
+    [
+      0.25,
+      0.5
+    ]
+  ],
+  "chi_control": 0.08000000000003638,
+  "chi_GLS_control": 0.0799999999999909,
+  "df_control": 2,
+  "source_adjusted_level_edge_residual_keV": [
+    0.10000000000019327,
+    -1.1368683772161603e-13,
+    0.0,
+    1.1368683772161603e-13,
+    -0.39999999999997726,
+    0.3000000000000682
+  ],
+  "Q1_endpoint": {
+    "new_J": 18,
+    "lower_candidate_J": 14,
+    "link": 875.6,
+    "link_sigma": 0.4,
+    "Q1_E": 5347.8,
+    "Q2_18_E": 4472.2,
+    "Q2_16_E": 3783.2,
+    "Q2_14_E": 3122.0,
+    "Q2_18to16": 689.0,
+    "Q2_16to14": 661.2,
+    "Q1_gate": 546.0,
+    "R_link": 0.47,
+    "dR_link": 0.08,
+    "R_gate_type": "stretched quadrupole, footnote e; listed Q1 gates689/850",
+    "parity_experiment": null,
+    "positive_parity_status": "author/model proposal; line and spins parenthesized"
+  },
+  "alternative_parent_using_current14_anchor": 3997.6,
+  "distinction": "The alternative is a task counterfactual using current anchors, NOT a number attributed to the 1996 paper.",
+  "boundaries": {
+    "energy_covariance_source": null,
+    "Sigma_exercise": "diagonal quoted per-line sigma only; chosen independence, not source joint covariance",
+    "absolute_B": null,
+    "D6_upperlimit_confidence": null,
+    "D6_plot_symbol": "upward arrow in Fig10(c), source has no per-point limit construction",
+    "eventledger": null,
+    "shared_acquisition": "SecII PDF3 explicitly same dataset as Refs16(PRC100024314)/31(PRC98044304); no new independent campaign credited"
+  },
+  "checks": {
+    "actual_raw_hash_immutable_copy": true,
+    "accepted_copy_seventeen_pages_plus_final_separator": true,
+    "accepted_version_repository_cover_not_publisher_pagination": true,
+    "unique_actual_table_row_241": true,
+    "reported_M_preserved_241": true,
+    "unique_actual_table_row_611": true,
+    "reported_M_preserved_611": true,
+    "unique_actual_table_row_357": true,
+    "reported_M_preserved_357": true,
+    "unique_actual_table_row_495": true,
+    "reported_M_preserved_495": true,
+    "unique_actual_table_row_320": true,
+    "missing_R_and_M_preserved_320": true,
+    "unique_actual_table_row_532": true,
+    "missing_R_and_M_preserved_532": true,
+    "physical_downward_assigned_spin_step": true,
+    "connected_five_levels_six_edges_rank_four": true,
+    "global_energy_shift_null_mode": true,
+    "two_cycle_space_rows": true,
+    "exact_printed_cycle_residuals_minus01_minus02": true,
+    "shared_path_cycle_covariance_control": true,
+    "cycle_covariance_not_diagonal": true,
+    "GLS_and_cycle_projection_same_conditional_chi": true,
+    "conditional_chi_exact_point08_not_experimental_pvalue": true,
+    "unknown_source_joint_covariance_preserved": true,
+    "rounded_adjusted_levels_not_enforced_as_exact_edge_differences": true,
+    "Q1_new_endpoint_E_matches_table": true,
+    "Q2_two_downstream_steps_match_table": true,
+    "endpoint_change_four_hbar_under_author_stretched_assignment": true,
+    "alternative_endpoint_current_anchor_energy_shift_1350point2": true,
+    "Q1_parity_experiment_stays_unknown": true,
+    "full_branching_and_B_not_inferred": true,
+    "primary_same_dataset_sentence_present": true,
+    "same_campaign_ref16_is_actual_2019_Nd_paper": true,
+    "D3_D5_334point4_rows_both_reported": true,
+    "shared_gate_contaminants_explicit_primary_caption": true,
+    "D6_limit_construction_not_invented": true
+  },
+  "checks_passed": 37
+}

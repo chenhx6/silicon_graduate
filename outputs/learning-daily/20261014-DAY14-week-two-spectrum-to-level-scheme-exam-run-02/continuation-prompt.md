@@ -108,3 +108,10 @@ writeback33items/15pages、report/card/writeback/AST/protected/raw/review/diff/f
 第013批已Gitee发布。第014批稳定subject `Bound DAY14 doublet timing with independent response calibration`；actualexit/H3/hash由本批receipt判定。原nativeget_goal返回historicalblocked，与摘要active不符；本次用户明确same-session继续且有工作，research仍active，不伪造goal状态或另建goal。Clock001/002/005actualACK，003/004不造。
 
 下一步先完成本批验收/发布。然后刷新actualclock/pool；尚有substantivewindow时，当前双线尚未核的高信息自由度是free-cascade photonrecoil导致energy-opening-angle联合信息（原staticangular theorem没包含它）。必须先冻结预测、用精确四动量/相反order与固定共同response控制，任何A193 mass proxy/chosenwidth/stopping极限明示；实际time/energyresponse仍缺，不能替实际双线定序。Day15仍仅partial，Day16不打开。到原15:00停止新研究。
+
+
+## Checkpoint015：136Pr谱学对照
+
+37-check与actualaccepted17页/figtable核验完成，canonical新增Q1endpoint+4ℏ/πtentative、D6三路branch/弱R-M空栏、真实sharedgates和one-sided/ConfigD6版本边界。sourceLV25-16–25 parsedtrue，旧12–15表空行修复不升级review；LV19 oldflags保留。唯一writeback40items/19changedpages，lint0errors130warnings、protected/raw/review/AST/diff/report/card通过。前14批Giteepublished，本批subject Audit DAY14 Pr136 links and one-sided transition evidence，hash/H3仅receipt。
+
+Samepool Ref16=Lv2019，不计独立2025beamrun；5.1e10为全pool，10%crosssection不是selectedcount。当前1996Petrache NPA60350–76 DOI10.1016/0375-9474(96)00107-8 primary获取仍bounded，若无fulltext不填旧parent、旧π或旧detector facts。下一再做已freeze的193Bi free-recoil exact4vector/jointenergy-opening-angle；同day14，Day15仍partial、Day16不打开。原15:00researchcutoff不变，refreshactualclock。

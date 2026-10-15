@@ -8,13 +8,13 @@ updated: 2026-10-15
 
 ## Active handoff — DAY14 formal exam and continuous study
 
-Run `2026-10-14-day-14-02` / session `01a13a0e-e8bd-7251-b970-f6975679e281`；原研究截止2026-10-15T15:00+08保持。正式Day14七边/21/24/weeklyREFLECT完成；completed14/partial15、官方next14/count13等closeout只计一次，不开Day16。
+Run `2026-10-14-day-14-02` / session `01a13a0e-e8bd-7251-b970-f6975679e281`，原截止2026-10-15T15:00+08。Formal14七边/21/24/weeklyREFLECT完成；completed14/partial15，官方next14/count13待closeout只计一次，不开Day16。
 
-第014批：91-check双线energy-time/响应设计，knownprompt的marginals同而joint可分；小r信息r²，offset2r匹配前两矩后r⁶，a0另有r⁸。未知非负electronics-tail可让两order的完整到达joint相同；独立prompt补局部score的rank，Schur只是一阶信息。Canonical level-scheme公式/表/边界，report唯一writeback34items/15changedpages。实际193Biτ/response/timewalk未提供，未赋次序/新spin；原source/review保持。
+第015批为136Pr source-grounded对照：accepted17页/Figs1–16/TableI-II、37-check实际表行与三路closure/Q1endpoint；546/876双门见661/689支持作者改接18+、bandhead+4ℏ至19(+)但π仍modelproposal。Weak320/532空栏、D5/D6 configuration辅助分组、D6单侧显示、Fig10caption/TableII ConfigD6版本内冲突保留，publisher403不称officialerratum。Sharedacquisition Ref16=Lv2019，非独立2025beamrun，真实events/Σ仍缺。
 
-第013批已Gitee发布；本批main / `Bound DAY14 doublet timing with independent response calibration`，精确hash/actualchecks/H3见runreceipt。新增local-score检查首h=1e−5误差越门，改Richardson并保留失败。原raw/PLAN/Bib、继承dirty/log/daemon不动。
+Canonical source/method/nucleus/project/experiment与reciprocalsource已写；report唯一40items/19changedpages。37checks/report/card/writeback/oldreview/raw/protected/AST/diff/lint0errors130warnings通过；旧LV25-12–15合回claimtable，flags不变。前14批已Gitee发布；本批main / `Audit DAY14 Pr136 links and one-sided transition evidence`，actualH3/hash仅receipt。
 
-Clock001/002/005按实际送达ACK；Farmer8686/clock75781不重启。Nativeget_goal实际显示historicalblocked，故不重复写goalactive；用户明确same-session续学，research仍可推进。下一先finish本批checks/publication，再refreshclock/pool并冻结原双线free-recoil energy-opening-angle设计，不套staticangularno-go至能量响应。恢复 `codex resume 01a13a0e-e8bd-7251-b970-f6975679e281 -C /workspace/wiki -s danger-full-access -a never`；checkpoint014/continuation保存现场。
+下一：1996Ref11已核DOI10.1016/0375-9474(96)00107-8、全文获取仍bounded进行，未据转述补旧图事实。原193Bi free-recoil energy-opening-angle已freeze，formalcode未写，时间/响应actualinputs仍缺；继续这两个currentissues。Clock001/002/005实际ACK；Farmer8686/clock75781不重启。Nativegoal显示historicalblocked，不伪造active；research按用户同session续学。恢复 `codex resume 01a13a0e-e8bd-7251-b970-f6975679e281 -C /workspace/wiki -s danger-full-access -a never`；checkpoint015/continuation可恢复。
 
 ## Previous active handoff — DAY13 continuous study reopened by user
 

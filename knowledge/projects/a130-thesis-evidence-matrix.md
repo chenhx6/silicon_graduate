@@ -3,12 +3,12 @@ type: project
 title: "A≈130 thesis evidence matrix"
 aliases: [A130 thesis evidence matrix, A≈130 博士论文证据矩阵]
 created: 2026-09-22
-updated: 2026-10-14
+updated: 2026-10-15
 status: active
 review_status: unreviewed
 project_stage: seed
 confidentiality: private
-nuclei: [127i, 128i, 131ce]
+nuclei: [127i, 128i, 131ce, 136pr]
 tags: [a130, thesis-pipeline, evidence-matrix, collective-modes, durable-learning]
 ---
 
@@ -40,6 +40,7 @@ tags: [a130, thesis-pipeline, evidence-matrix, collective-modes, durable-learnin
 
 | Candidate | Direct observables | Assignment handles | Interpretation boundary | Necessary next observables | Source lineage |
 |---|---|---|---|---|---|
+| 136Pr Q1 endpoint / D5-D6 partition | 546/876双门见Q2 661/689，作者将link改接18+；TableI逐线R/I和三路17+→16+→15+ branch；D3/D5 sharedgate污染有实谱。 | Q1在作者stretched连接和已知Q2锚点下+4ℏ到19(+)；D5由新544 E2/低端branch支持positiveπ；[[136pr]]、[[level-scheme-reconstruction]]保存逐边crosswalk。 | Q1π未由POL确定；D5/D6分组借助configuration；D6图为one-sided显示且缺limit构造，接受稿Fig10caption/TableII ConfigD6有identity边界；β/γ/tilt和MR/shape-coexistence仍model-mediated。 | cleanQ1POL/独立π锚、matchedgates/events/Σ，D6 crossover上限构造与δ、逐parentτ和absoluteB/Qt；模型配置/轴约定与正式版本核验。 | [[lv-2025-136pr-tac-covariant-density-functional]] LV25-16至25；其Ref16为[[lv-2019-chirality-135nd-reexamined]]，与2018/19同acquisition，非新独立2025beamrun；37-check为本任务重算。 |
 | Day14 spectrum-to-level identity and correlated closure | 193Bi Figure2/Table I有五level七边；319.8-keV行在Other transitions；393.4/394.0双线表注明确未定顺序且R/A共用。 | 逐边E、γγ/γγγ联合placement、阵列特定Rexp/IPDCO和spin锚点；[[level-scheme-reconstruction]]记录图/表和35-check条件重算。 | 七边能量图只有三个独立cycle，且共享边令残差相关；good closure不能认证topology、spin、calibration gain或模式。Shared doublet R/A不是两条独立性质。 | 能够定位双线endpoint的branch/time/tag；逐门response与calibration Σ；逐母态τ、branches、ICC、δ。SD绝对X仍需confirmed link。 | [[herzan-2015-193bi-spectroscopy]] HE15-4/8/9/10/11/12是一个JYFL acquisition及Ref7寿命依赖；A≈190方法参照，非A≈130独立复测。GLS和counterfactual是任务推导。 |
 | `127I` high-spin scheme | γ energies, coincidence/intensity balance, energy sums, `R_ADO`; Ding thesis Fig. 5.1–5.2 and Tables 5.1 (PDF pp.58–62; printed pp.50–54) | ADO plus sequence/systematics; labels remain source assignments | Energy closure supports placement, not unique `J^π`, configuration, or collective mode; ADO is geometry-specific | transition-level mixing ratio, polarization, lifetimes and absolute `B(E2)/B(M1)` | [[ding-2012-phd-thesis-127-128i-high-spin]]; single Ding experimental lineage |
 | `128I` coupled structures | γ placements around the 167.4-keV `(6−)` isomer, `R_ADO`, model comparison; Fig. 6.2 and Tables 6.1, PDF pp.75–81 (printed pp.67–73) | ADO, coincidence, shell-model/NPA comparison | Reversed `6−/7−` ordering and ambiguous `8−` configuration limit a unique structural reading; no clear chiral doublet | conversion coefficients, polarization/mixing ratios, lifetimes and stronger linking constraints | [[ding-2012-phd-thesis-127-128i-high-spin]]; dependent thesis/Wiki derivatives |

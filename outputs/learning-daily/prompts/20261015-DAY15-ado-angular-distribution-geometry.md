@@ -286,3 +286,6 @@ Day14 partial15另有42-check gated-design：真实67Ga spinpath加声明40/90/�
 
 
 Day14 continuity另外做91-check能量—时间定序模型和独立prompt设计。r²/r⁶/未知响应尾属于声明条件推导，不是193Bi新τ或次序；formalDay15只需标相关priming，不代替自身ADO卡/回忆，也不计本次预习为正式学分。
+
+
+Day14 novelty还核136Pr2025 accepted17页和37-check真实表/endpoint/门条件。Q1 .47用Q-gate、D6约1用D-gate，不能搬同阈值；sharedpool跨核素不增加独立acquisition。此为正式Day15回忆的priming，D6单侧点/版本配置及weakR-M空栏保持，不代替自身卡审计。
