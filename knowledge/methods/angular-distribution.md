@@ -3,7 +3,7 @@ type: method
 title: γ 射线角分布分析
 aliases: [angular distribution, gamma-ray angular distribution, gamma angular distribution, in-beam angular distribution, ADO]
 created: 2026-07-08
-updated: 2026-10-15
+updated: 2026-10-16
 status: ai-draft
 review_status: unreviewed
 method_type: gamma-ray-angular-distribution
@@ -375,3 +375,17 @@ Table1十行exp/calculated不是20个观测；本轮按Eq7从印刷A2/A4重算χ
 须区别radiation rank和daughter tensor rank：2→0 E2的daughter只剩scalar，photon仍W=1+5P2/7−12P4/7。IO81 Eq4后的2Jf字面cap保留为source范围边界，不作一般singleγ上限，也不由此推翻该文高spin的k≤4 fits（YA67-8、IO81-23）。
 
 271.12-keV 17/2→13/2支的U2/U4（.952936638/.847443971）只给该支单独条件态的ρ。总child还需各I0/IT与sidefeeding；parentρ本就来自同angular data，其Cov会经U传播，不能把derived child与parent当独立新观测。没有恢复actualΣ或新的σ/δ/Pr136结果（YA67-9、IO81-22）。
+
+## 已知馈入分量份额的正布居界
+
+[[ionescu-1981-improved-angular-distribution-analysis-particle-xn]] IO81-24–26与[[yamazaki-1967-aligned-angular-coefficients]] YA67-9/10给一个可以在完整feeding输入缺失时做的**条件L2问题**。w是目标总布居来自已知支的权重，不是parent branching ratio。固定physical states、pureE2、未观测γ/U定义与normalized tensor，写`r_T=w f+(1−w)s`，`f=U r_parent`。
+
+对固定target J，每个|m|单独占据给一个(ρ2,ρ4)点，所有正归一布居的投影为其凸包P。设P的每个face为`a_i·s≤b_i`，则`N_i−wD_i≥0`，其中`N_i=b_i−a_i·r_T`、`D_i=b_i−a_i·f`。先检查r_T、f在P内；对D_i>0，w≤N_i/D_i，另有0≤w≤1。D_i=0不作除法；固定中心不物理时先留边界，不能强拟一个w。未知s放宽为任意正population，故这不是源实验或微观Hamiltonian已识别的feeding模型。
+
+167Tm的271.12→184.33两个Table1 tensor输入使中心问题的上界为.596940102，激活face连接|m|=5/2与7/2。高精度构造的parent/余下/total positivepopulation重现两个moment，略超上界会违反该face；只说明此放宽问题的几何尖界。sourceD复合峰/实际response未复核，不把约40.3%余下份额当实验事实。
+
+以原报误差半宽作无概率box时，又有w1正population例子：parentρ≈(−.680026313,.371352995)，targetρ≈(−.648021988,.314700857)。所以固定中心界不能替代joint confidence limit；fullCov、peak decomposition与I0/IT/转换/sidefeeding是最高信息伴随输入。parent与target来自同采集，derivedρ与原A亦不是重复独立数据。该结论不重提取σ/δ或移给Pr/193Bi。
+
+[可复算图](../../outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/tm167-feeding-fraction-figure.md)仅展示中心geometry与marginalbox反例；两面板不是数据拟合/置信域。canonical输入、条件和判断已在上述source页保存，原raw/review状态不变。
+
+适用范围补充：IO81-27指出目标另有218.90-keV馈入；上述w1例子只适用于所选tensor的放宽，不是全scheme或强度联合拟合。真实已知边、I_T列语义/转换及完整Cov会进一步限制权重，不能将它们当不存在。

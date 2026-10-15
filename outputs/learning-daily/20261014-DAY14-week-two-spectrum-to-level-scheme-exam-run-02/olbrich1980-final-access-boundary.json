@@ -1,0 +1,15 @@
+{
+  "at": "2026-10-15T23:38:49.731504+08:00",
+  "publisher_discovery": "targetHTTP200 linkinghub no_candidate PDF0",
+  "semantic_scholar": [
+    "firstquery total0",
+    "exacttitle query HTTP429; no rate-limit retry"
+  ],
+  "openalex": "closed/no repository PDF returned",
+  "folia": "homepage ConnectionError, not absence of entry",
+  "local_provider_env_present": false,
+  "opaque_MCP_provider_state_not_inferred": true,
+  "fulltext_obtained": false,
+  "source_science_boundary": "no new Olbrich scientific source/claim; IO81/YA verified inputs remain available",
+  "selected_fallback": "known feeding fraction vs positive tensor moment polytope, not repeated toy parameters"
+}

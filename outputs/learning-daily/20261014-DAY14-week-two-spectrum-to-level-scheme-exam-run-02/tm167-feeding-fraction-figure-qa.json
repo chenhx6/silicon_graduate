@@ -1,0 +1,49 @@
+{
+  "at": "2026-10-16T00:28:26.042993+08:00",
+  "backend": "python matplotlib3.11.2",
+  "figure_dimensions_mm": [
+    183,
+    88
+  ],
+  "alignment": "PASS",
+  "source_preflight_exit_code": 0,
+  "source_preflight_warnings_reviewed": {
+    "FONT-GLYPH-FLOOR": "static minfont heuristic; actualPDF minimum5.95pt >=5, no shrunken glyph belowfloor",
+    "EXPORT-RASTER": "SVG/PDF authoritative Wiki analytical artifact, PNG preview; no TIFF submission deliverable requested",
+    "RASTER-DPI": "PNG preview intentionally300dpi, vectorSVG/PDF primary; not claiming 600dpi raster submission"
+  },
+  "pdf_text_minimum_pt": 5.95,
+  "collision_exit_code": 0,
+  "collision_fail": 0,
+  "collision_warn": 0,
+  "panel_review": [
+    {
+      "panel": "a",
+      "unique_inference": "fixed centers intersect positive-remainder moment boundary",
+      "center": "printed Table1 pair + source-definedU; no fit",
+      "uncertainty": "none on purpose for fixed-center relaxation",
+      "unit": "two transitions/four published tensor components from sameexperiment, not four independent replicates",
+      "labels": "F/T(D)/R* defined and fully legible",
+      "alignment": "equal-height/equal-width same row, passed",
+      "rendered_visual_pass": true
+    },
+    {
+      "panel": "b",
+      "unique_inference": "centerbound fails as a universal quoted-error-box bound; witness permitsw1",
+      "center": "one necessary facet normalized by center denominator",
+      "uncertainty": "one constructed point within marginal halfwidths, no CL/likelihood",
+      "unit": "same source pair, alternative permitted input point not new measurement",
+      "labels": "fixed centers vs marginalbounds point, no chi2/statistic claim",
+      "alignment": "same row, passed",
+      "rendered_visual_pass": true
+    }
+  ],
+  "excluded_data": "two-tensor relaxation only; other8Table1rows and known218.90feeding not jointly fitted and remain relevant; no fullsource-fit claim",
+  "scientific_limit": "target feeding sharew is not parentbranchingratio or experimental upperlimit; doublet/covariance warnings retained",
+  "pdf_sha256": "e0a45741d214a15f17829251fa0938b043df267be940b1d8090625543498fad7",
+  "last_render_scope": "selected-tensor footer clarifies fullgraph not fitted; caption retains known218.90counterevidence",
+  "svg_whitespace_normalized": true,
+  "png_identical_after_serialization_fix": true,
+  "png_pre_serialization_sha256": "554893da722feb62d07993d6bd8fa80e85f36e8af01936b674afaf8a85b54177",
+  "svg_xml_valid": true
+}

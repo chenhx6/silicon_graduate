@@ -3,7 +3,7 @@ type: source
 title: "Improved Analysis of gamma-Ray Angular Distributions in (Particle, xn) Experiments"
 aliases: [Ionescu 1981 improved angular distributions, Ionescu 1981 feeding-aware population model, Ionescu 1981 Gaussian hypothesis test]
 created: 2026-07-09
-updated: 2026-10-15
+updated: 2026-10-16
 status: ai-draft
 review_status: human-reviewed
 source_type: experiment-method-article
@@ -91,6 +91,10 @@ For the current project, the paper matters because it demonstrates a concrete ro
 | IO81-21 | 本文Eq11的target/parent U参数须按实际feeding方向映射Yamazaki Eq12；本文B是辐射几何组合，后者B为completealignmenttensor，p/ρ与α亦不同。当前直接映射evenrank，不声明已读Poletti原25页或复跑其代码。 | cross-source-notation-and-direction | direct-and-derived | printed22 Eqs.(3)–(5); printed25 Eq.(11); YA67 printed3 Eqs.(12)–(15) | true |
 | IO81-22 | Table1/Fig5的271.12支为17/2→13/2 pureE2；在Yamazaki定义/未观测模式条件下，parentρ2/4经U给单支normalized tensor−.67182033/.37541768，未乘实际feeding权重，不能当全childρ或新测量。 | conditional-source-input-application | derived | printed21 Table1 row271.12; printed25 Fig5; YA67 printed19 TableIIb | true |
 | IO81-23 | p22 Eq4下方字面写λmax=min(2Ji,2Jf,2L′)。Yamazaki独立2→0 E2表行有非零radiation A4却零daughter高ranktensor，故不把该字面式当一般singleγ上限。原式保留，未判断官方erratum；本次Tables1–2所分析跃迁的spins下该额外cap对k≤4不活跃，不据此否定所报fits。 | literal-rank-cap-and-applicability-boundary | direct-and-derived | printed22 text below Eq.(4); YA67 printed7 TableIIa Ji2 Jf0 | true |
+| IO81-24 | Table1的271.12行给parentρ2=−.705(26)、ρ4=.443(72)；184.33行给targetρ2=−.626(23)、ρ4=.066(249)且标D。Fig5支持前者17/2→13/2馈入后者的13/2初态；近旁另有184.0 mixed线，不能无条件把derivedtensor当已独立分离的raw观测。 | published-two-node-tensor-input-and-identity | direct-and-derived | printed21 Tables1–2; printed25 Fig5 | true |
+| IO81-25 | 固定上述印刷中心、spin/pureE2/未观测γ与源U定义，令其余目标布居为任意正population时，本任务的凸矩域放宽问题得已知馈入份额w≤.596940102；在数学放宽中以abs(m)=5/2、7/2余下分量取到。这不是parent branching ratio、实测w或实验上限。 | our-source-conditioned-geometric-inference | derived | printed21 Table1 rows271.12/184.33; printed25 Eq.(11) | true |
+| IO81-26 | 仅允许四个ρ各在一个原报括号误差半宽内变化，本任务构造出正population的w=1解；故中心值界不能当联合误差/置信上限。原共同Cov/coverage、复合峰响应和实际强度/branch/转换仍缺，未重拟σ/δ或宣称真实w=1。 | our-quoted-error-box-feasibility-boundary | derived | printed21 Table1 quotedρerrors/D footnote; printed25 Eq.(11) | true |
+| IO81-27 | 作者Fig5另显示218.90支从15/2+、689.31进入13/2−、470.39（Table3列为E1 interband，I_T=13.8(0.3)）；它是本例已知的额外馈入。故仅两组tensor的w=1可行反例不代表整张纲图/所有强度的拟合；本任务尚未把该I_T列直接等同Eq11的node分母。 | additional-feeding-evidence-and-scope | direct-and-derived | printed22 Table3 row218.90; printed25 Fig5 | true |
 
 ## Nuclear Structure Information
 
@@ -203,3 +207,26 @@ This paper is especially useful because it does not stop at saying "the Gaussian
 [[yamazaki-1967-aligned-angular-coefficients]] YA67-4–9提供直接定义与14条原表控制。IO81-21/22分开U的parent→target方向、radiation B与completealignment B，以及p/ρ与α；271支数值只属单支条件应用，不填全feeding或actualΣ。旧人审仍仅旧版，新IO81-21–23 needs_review true。
 
 IO81-23的λmax字面已视觉回核：它包含2Jf。当前不拿该式作一般rank定理，也不静默改原PDF或称official erratum。2→0 E2的photon角图可有P4，而daughter J0没有高阶alignment，反例区分的正是两类对象。本论文Tables1–2相关spins均足够大，k≤4分析不因这项字面cap自动变化；原实验与所有旧claims/flags保留。
+
+## 从已报角张量到目标馈入份额：条件放宽问题
+
+IO81-24的两个节点是本页原数据的同一feeding链，非新数据集。w定义为Eq11中已知分量在**目标总布居**的权重，不是该parent所有decay中的branching ratio。Ref5完整1980原文仍未取得，未据Crossref或OA索引补写新的实验claims；本练习只使用已直接读过的Table1/Fig5与[[yamazaki-1967-aligned-angular-coefficients]]。
+
+| 角色 | γ / keV | 初态J | ρ2 quoted | ρ4 quoted | peak边界 |
+| --- | --- | --- | --- | --- | --- |
+| known parent/feeding edge | 271.12 | 17/2 | −0.705(26) | 0.443(72) | pureE2原表行 |
+| target probe | 184.33 | 13/2 | −0.626(23) | 0.066(249) | D；旁有184.0 mixed线 |
+
+括号沿用原表末位数字误差记法，不补其覆盖定义。YA67 p19的F2/F4=−.37757/−.16697和p18的−.39621/−.19702使ρ×F与各行实测A在印刷精度相容，防止把ρ错作α或取图3的正ρ2符号；不是新的独立实验检验。
+
+定义r=(ρ2,ρ4)，已知支未观测传递的条件tensor f=U r_parent；其余布居s只要求在目标spin的正population矩凸包P内：`r_target=w f+(1−w)s`。固定所有印刷中心、spin/purity/选择与U时，逐面条件给w≤.596940102，数学放宽内可由|m|=5/2、7/2的余下population取到；最小余下份额约.403060。这里只是必要物理矩约束的放宽问题，未核未知离散路径/微观波函数能实现这一s，也不是新的实测分支或σ/δ。
+
+16项数值/物理控制以及80/110位计算前60位一致的精度复核保留在[程序](../../system/scripts/day14_feeding_fraction_moment_bound.py)和[结果](../../outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/tm167-feeding-fraction-audit.json)。这不是严格向外舍入的区间认证，更不是原实验60位精度。
+
+### 原报误差半宽内w=1的反例
+
+把四个ρ各自的一个quoted-error半宽当作纯几何box，不赋概率；可取parentρ≈(−.680026313,.371352995)、targetρ≈(−.648021988,.314700857)。两者都满足positivepopulation、各自在其原表半宽内，且target=U parent，因此w=1可行。这不说明真实w=1，也不保证这个box角落在未知joint likelihood内；它限制了将中心值.596940直接叫实验置信上限的做法。这个例子没有加入其他已报告馈入/强度，不能当作完整level-scheme数据允许w=1的声明。双峰分量、parent/target共享Cov、actualI0/IT与转换/sidefeeding仍为必要伴随输入。
+
+[可编辑图与说明](../../outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/tm167-feeding-fraction-figure.md)将中心值正布居域与此counterexample分开，SVG/PDF/源数据均可重现。图是条件L2分析，不是raw谱或统计置信图。本轮IO81-24–26 true，旧人审不覆盖新推断、旧十false原样保留。
+
+IO81-27保留一项明确counter-evidence：图中已有额外218.90支，selected-tensor放宽并未加入所有已观察feeding与I_T条件。下一信息增益在完整分支表/列语义与转换/归一，不是把单个中心界或box例子升级为实际w。

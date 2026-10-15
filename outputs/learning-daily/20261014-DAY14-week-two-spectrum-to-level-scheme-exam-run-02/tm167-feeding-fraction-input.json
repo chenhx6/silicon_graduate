@@ -1,0 +1,56 @@
+{
+  "source": "IO81 printed21 Table1 / printed25 Fig5",
+  "source_sha256": "233b11888d8143a17b89da3332afac1342803b35024ac2ec7708c7bd51d435f1",
+  "parent": {
+    "transition_kev": "271.12",
+    "spin_twice": 17,
+    "rho2": "-0.705",
+    "rho4": "0.443",
+    "quoted_error_rho2": "0.026",
+    "quoted_error_rho4": "0.072"
+  },
+  "target": {
+    "analysis_transition_kev": "184.33",
+    "spin_twice": 13,
+    "rho2": "-0.626",
+    "rho4": "0.066",
+    "quoted_error_rho2": "0.023",
+    "quoted_error_rho4": "0.249",
+    "multiplet": "D"
+  },
+  "feeding_edge": {
+    "transition_kev": "271.12",
+    "parent_spin_twice": 17,
+    "target_spin_twice": 13,
+    "multipole": 2,
+    "assumed_role": "source pureE2, unobservedemission, fixedauthorspin/normalization; U as YA conventions"
+  },
+  "nearby_other_band_line": {
+    "transition_kev": "184.0",
+    "role": "mixedM1/E2 Table2 also doublet; no raw component/covariance reanalysis"
+  },
+  "rest_population": "arbitrary positive normalized diagonal magnetic substate distribution at target spin; symmetry may be imposed for even ranks",
+  "unknown_covariance": null,
+  "quoted_error_coverage": null,
+  "full_otherfeeding_or_conversion_inputs": null,
+  "raw_peak_separation_response": null,
+  "graph_crosswalk": "271.12 links17/2 at741.51 to13/2 at470.39 perFig5;184.33 probes13/2→9/2; printedenergies not re-evaluated",
+  "radiation_crosswalk": {
+    "parent": {
+      "YA_locator": "printed19 TableIIb Ji17/2 Jf13/2 L1=L2=2",
+      "F2": "-0.37757",
+      "F4": "-0.16697",
+      "IO_A2": "0.266",
+      "IO_A4": "-0.074"
+    },
+    "target": {
+      "YA_locator": "printed18 TableIIb Ji13/2 Jf9/2 L1=L2=2",
+      "F2": "-0.39621",
+      "F4": "-0.19702",
+      "IO_A2": "0.248",
+      "IO_A4": "-0.013"
+    }
+  },
+  "measured_target_feeding_weight": null,
+  "weight_definition": "w is fraction of target population fed by the known component in IO81 Eq11; not branching ratio out of the parent"
+}

@@ -2,7 +2,7 @@
 type: system-prompt
 graph-excluded: true
 created: 2026-09-22
-updated: 2026-10-15
+updated: 2026-10-16
 ---
 
 # Daily nuclear-structure apprenticeship run
@@ -348,3 +348,6 @@ DAY14延期checkpoint031已预读Ionescu1981九页pureE2/feeding、多解及角�
 
 
 DAY14延期checkpoint032已做Yamazaki U的49项selectedtable/归一/domain检查，仍为Day15无学分preview；正式运行记录此priming，不用其代本卡独立回忆/计算或提前计卡。
+
+
+DAY14延期checkpoint033加入selected-tensor正population放宽与图：中心界/quotedbox/全图/已见218.90权重分开，仍仅本卡partialpreview。正式Day15须记录这些priming、独立回忆/本卡交付后给学分，不能把16项模型控制当新实验或正式分数。

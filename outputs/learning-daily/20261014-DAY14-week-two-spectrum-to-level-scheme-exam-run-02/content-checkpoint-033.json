@@ -1,0 +1,192 @@
+{
+  "at": "2026-10-16T00:13:45.578069+08:00",
+  "report": {
+    "valid": true,
+    "missing_headings": []
+  },
+  "coverage": {
+    "valid": true,
+    "completed_day_indices": [
+      14
+    ],
+    "partial_day_indices": [
+      15
+    ],
+    "curriculum_cards_completed": 1,
+    "next_day_index": 15,
+    "error": null
+  },
+  "writeback": {
+    "valid": true,
+    "mode": "updated",
+    "knowledge_paths": [
+      "knowledge/sources/herzan-2015-193bi-spectroscopy.md",
+      "knowledge/methods/level-scheme-reconstruction.md",
+      "knowledge/projects/a130-thesis-evidence-matrix.md",
+      "knowledge/sources/nndc-2017-193bi-level-scheme-evaluation.md",
+      "knowledge/index.md",
+      "knowledge/methods/linear-polarization-asymmetry.md",
+      "knowledge/sources/rose-brink-1967-phase-defined-angular-distributions.md",
+      "knowledge/sources/zheng-2002-ado-coincidence-angular-anisotropy.md",
+      "knowledge/methods/angular-distribution.md",
+      "knowledge/methods/angular-correlation.md",
+      "knowledge/sources/zobel-1983-energy-projectile-alignment.md",
+      "knowledge/observables/angular-distribution-coefficient.md",
+      "knowledge/sources/zobel-1980-magnetic-substate-distributions.md",
+      "knowledge/sources/nndc-2005-67ga-selected-level-gamma-records.md",
+      "knowledge/sources/lange-kumar-hamilton-1982-multipole-admixtures.md",
+      "knowledge/sources/kibedi-2008-evaluation-theoretical-conversion-coefficients-bricc.md",
+      "knowledge/sources/lv-2025-136pr-tac-covariant-density-functional.md",
+      "knowledge/nuclei/136pr.md",
+      "knowledge/sources/lv-2019-chirality-135nd-reexamined.md",
+      "knowledge/experiments/jurogam2-135nd-ar40-152mev.md",
+      "knowledge/sources/nndc-2018-136pr-selected-level-gamma-records.md",
+      "knowledge/observables/bm1-be2-ratio.md",
+      "knowledge/methods/configuration-occupation-audit.md",
+      "knowledge/projects/a130-model-choice-card.md",
+      "knowledge/questions.md",
+      "knowledge/sources/wang-2017-109ag-tac-separable-pairing.md",
+      "knowledge/models/tilted-axis-cranking.md",
+      "knowledge/sources/zhao-2015-pairing-spin-orientation-tac.md",
+      "knowledge/concepts/triaxial-deformation.md",
+      "knowledge/sources/petrache-2015-nd-exotic-rotations-triaxiality.md",
+      "knowledge/observables/moments-of-inertia.md",
+      "knowledge/sources/peng-chen-2022-chiral-rotation-rhodium-isotopes.md",
+      "knowledge/sources/matev-2007-a130-quadrupole-alignment-additivity.md",
+      "knowledge/observables/transition-quadrupole-moment.md",
+      "knowledge/sources/riley-2001-global-lifetime-a135.md",
+      "knowledge/methods/doppler-shift-attenuation-method.md",
+      "knowledge/sources/petrache-1998-highly-deformed-lifetimes-131ce-nd.md",
+      "knowledge/sources/ionescu-1981-improved-angular-distribution-analysis-particle-xn.md",
+      "knowledge/observables/multipole-mixing-ratio.md",
+      "knowledge/sources/yamazaki-1967-aligned-angular-coefficients.md"
+    ],
+    "changed_paths": [
+      "knowledge/concepts/triaxial-deformation.md",
+      "knowledge/experiments/jurogam2-135nd-ar40-152mev.md",
+      "knowledge/index.md",
+      "knowledge/methods/angular-correlation.md",
+      "knowledge/methods/angular-distribution.md",
+      "knowledge/methods/configuration-occupation-audit.md",
+      "knowledge/methods/doppler-shift-attenuation-method.md",
+      "knowledge/methods/level-scheme-reconstruction.md",
+      "knowledge/methods/linear-polarization-asymmetry.md",
+      "knowledge/models/tilted-axis-cranking.md",
+      "knowledge/nuclei/136pr.md",
+      "knowledge/observables/angular-distribution-coefficient.md",
+      "knowledge/observables/bm1-be2-ratio.md",
+      "knowledge/observables/moments-of-inertia.md",
+      "knowledge/observables/multipole-mixing-ratio.md",
+      "knowledge/observables/transition-quadrupole-moment.md",
+      "knowledge/projects/a130-model-choice-card.md",
+      "knowledge/projects/a130-thesis-evidence-matrix.md",
+      "knowledge/questions.md",
+      "knowledge/sources/herzan-2015-193bi-spectroscopy.md",
+      "knowledge/sources/ionescu-1981-improved-angular-distribution-analysis-particle-xn.md",
+      "knowledge/sources/kibedi-2008-evaluation-theoretical-conversion-coefficients-bricc.md",
+      "knowledge/sources/lv-2019-chirality-135nd-reexamined.md",
+      "knowledge/sources/lv-2025-136pr-tac-covariant-density-functional.md",
+      "knowledge/sources/matev-2007-a130-quadrupole-alignment-additivity.md",
+      "knowledge/sources/nndc-2005-67ga-selected-level-gamma-records.md",
+      "knowledge/sources/nndc-2017-193bi-level-scheme-evaluation.md",
+      "knowledge/sources/nndc-2018-136pr-selected-level-gamma-records.md",
+      "knowledge/sources/peng-chen-2022-chiral-rotation-rhodium-isotopes.md",
+      "knowledge/sources/petrache-1998-highly-deformed-lifetimes-131ce-nd.md",
+      "knowledge/sources/petrache-2015-nd-exotic-rotations-triaxiality.md",
+      "knowledge/sources/riley-2001-global-lifetime-a135.md",
+      "knowledge/sources/rose-brink-1967-phase-defined-angular-distributions.md",
+      "knowledge/sources/wang-2017-109ag-tac-separable-pairing.md",
+      "knowledge/sources/yamazaki-1967-aligned-angular-coefficients.md",
+      "knowledge/sources/zhao-2015-pairing-spin-orientation-tac.md",
+      "knowledge/sources/zheng-2002-ado-coincidence-angular-anisotropy.md",
+      "knowledge/sources/zobel-1980-magnetic-substate-distributions.md",
+      "knowledge/sources/zobel-1983-energy-projectile-alignment.md"
+    ],
+    "change_check": "run-snapshot",
+    "error": null
+  },
+  "analysis_exit_code": 0,
+  "analysis_checks": 16,
+  "analysis_checks_all_true": true,
+  "precision80_110_same60digits": true,
+  "center_bound_relaxation_only": "0.59694010211631369520213930793057809853585726774276840330798314803523750519167957545803400039070191780030184515",
+  "fullgraph_fit_or_CL_claimed": false,
+  "known_extra218_edge_retained": true,
+  "preservation": {
+    "knowledge/sources/ionescu-1981-improved-angular-distribution-analysis-particle-xn.md": {
+      "old_nonempty_lines_in_order_except_date": true,
+      "review_unchanged": true
+    },
+    "knowledge/sources/yamazaki-1967-aligned-angular-coefficients.md": {
+      "old_nonempty_lines_in_order_except_date": true,
+      "review_unchanged": true
+    },
+    "knowledge/methods/angular-distribution.md": {
+      "old_nonempty_lines_in_order_except_date": true,
+      "review_unchanged": true
+    }
+  },
+  "YA_old9_new1_true": true,
+  "IO_oldtenfalse_otheroldtrue_new24_27true": true,
+  "legacy_human_review_not_extended": true,
+  "protected_hashes": {
+    "PLAN.md": true,
+    "raw/zotero/wiki-inbox.bib": true
+  },
+  "raw_metadata_unchanged": true,
+  "figure_exits": {
+    "source": 0,
+    "pdf_text": 0,
+    "collision": 0
+  },
+  "figure_alignment": "PASS",
+  "figure_min_glyph_pt": 5.95,
+  "figure_collision": {
+    "fail": 0,
+    "warn": 0,
+    "contained_fill_overlays": 3,
+    "contained_image_overlays": 0
+  },
+  "figure_preflight_warning_count": 3,
+  "figure_preflight_warnings_reviewed": true,
+  "artifact_sha256": {
+    "tm167-feeding-fraction-input.json": "6b03c61c34ebd7fe13f7cd554683dbd87ab27bdceb84625c066c3967108fa1e6",
+    "tm167-feeding-fraction-audit.json": "85a93e638adb6e5381c25dbc5a48e5697b5200ab73131ea2fdc69778883c980f",
+    "tm167-feeding-fraction-figure-source.json": "6b1cbf99e43288b6ac7862fd855180d70ccaaea5e38c57ee31e2fab4c7baae82",
+    "tm167-feeding-fraction.pdf": "e0a45741d214a15f17829251fa0938b043df267be940b1d8090625543498fad7",
+    "tm167-feeding-fraction.svg": "8ace72009f3b97c827a45a6cff7e553fe354ce339134fdf08810dff8fb3391fd",
+    "tm167-feeding-fraction.png": "554893da722feb62d07993d6bd8fa80e85f36e8af01936b674afaf8a85b54177"
+  },
+  "new_independent_experiments": 0,
+  "formal_score_changed": false,
+  "initial_verification_exit_code": 1,
+  "initial_verification_repair": "IO81-25 unescaped absolute-m pipe split claim columns; changed new notation to abs(m), originalnumerics andreviewflags preserved",
+  "code_sha256": {
+    "day14_feeding_fraction_moment_bound.py": "1e6e012bebf2d6333d717496cc6f718275de899bcd0eb26db682a7d64b85d566",
+    "day14_plot_feeding_fraction.py": "9eb19946ff2ede8b7d88e8d0f27fec663cea41c32fb5830265a7edf42a471f6e"
+  },
+  "ast": true,
+  "writeback_item_count": 117,
+  "changed_knowledge_count": 39,
+  "lint_exit_code": 0,
+  "lint_errors": 0,
+  "lint_warnings": 141,
+  "warning_breakdown": {
+    "REACTION_PARSE": 3,
+    "CITATION_KEY_MISSING": 112,
+    "RAW_MISSING": 26
+  },
+  "git_diff_check_exit_code": 0,
+  "eol_precommit_exit_code": 1,
+  "eol_classification": "three task-owned substantive knowledge pages; zero restored or unsafe/mixed; oldreview and protectedfiles verified",
+  "generated_pdf_classification": "own derived mathematical figure, not raw/source/user PDF",
+  "initial_stage_exit_code": 1,
+  "initial_stage_reason": "generic sourcePDF and derivativePNG ignore patterns caught two small generated mathematical figure deliverables",
+  "stage_resolution": "explicit git add -f for these two exact own-generated assets only; no ignore/config changes, no raw/source/user PDF included",
+  "initial_cached_diff_check_exit_code": 2,
+  "initial_cached_diff_failure": "Matplotlib SVG serialized path lines with trailing spaces; required cached check caught generated untrackedSVG at staging",
+  "svg_serialization_fix": "plot exporter strips line-ending whitespace only; coordinates/labels unchanged; final render/QA rerun",
+  "svg_serialization_png_identical": true,
+  "cached_diff_check_exit_code": 0,
+  "final_precommit_eol_exit_code": 0
+}

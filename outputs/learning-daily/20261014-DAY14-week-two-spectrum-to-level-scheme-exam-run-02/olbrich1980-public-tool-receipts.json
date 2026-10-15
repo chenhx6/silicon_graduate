@@ -1,0 +1,46 @@
+{
+  "publisher": {
+    "status": "fulfilled",
+    "value": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\n  \"doi\": \"10.1016/0375-9474(80)90511-4\",\n  \"accessDiscovery\": {\n    \"status\": \"not_found\",\n    \"landingUrl\": \"https://linkinghub.elsevier.com/retrieve/pii/0375947480905114\",\n    \"landingHost\": \"linkinghub.elsevier.com\",\n    \"reason\": \"no_candidate\",\n    \"fallback\": {\n      \"attempted\": false,\n      \"combinationsAttempted\": 0\n    },\n    \"targetStatus\": 200,\n    \"candidateCount\": 0,\n    \"candidatesTruncated\": false,\n    \"candidateUrls\": [],\n    \"fetchedAt\": \"2026-10-15T15:30:18.018Z\"\n  }\n}"
+        }
+      ]
+    }
+  },
+  "semantic_first": {
+    "status": "fulfilled",
+    "value": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\n  \"source\": \"semantic_scholar\",\n  \"total\": 0,\n  \"results\": []\n}"
+        }
+      ],
+      "structuredContent": {
+        "source": "semantic_scholar",
+        "total": 0,
+        "results": []
+      },
+      "isError": false
+    }
+  },
+  "semantic_title": {
+    "status": "fulfilled",
+    "value": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\n  \"source\": \"semantic_scholar\",\n  \"error\": \"HTTP 429\"\n}"
+        }
+      ],
+      "structuredContent": {
+        "source": "semantic_scholar",
+        "error": "HTTP 429"
+      },
+      "isError": false
+    }
+  }
+}

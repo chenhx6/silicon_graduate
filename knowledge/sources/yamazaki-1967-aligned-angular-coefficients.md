@@ -3,7 +3,7 @@ type: source
 title: "Yamazaki 1967 - Tables of coefficients for angular distributions from aligned nuclei"
 aliases: [Yamazaki 1967 angular-distribution tables]
 created: 2026-09-21
-updated: 2026-10-15
+updated: 2026-10-16
 status: ai-draft
 review_status: unreviewed
 source_type: reference-tables
@@ -67,6 +67,7 @@ The practical one-parameter approximation is a Gaussian magnetic-substate popula
 | YA67-7 | TableIIa 2→2 pureE2给U2=−.21429、U4=.28571；正文说α可变负。本任务CG²正、列归一kernel给exact U2=−3/14、U4=2/7及合法daughter概率；负tensor不是负概率。 | source-table-and-derived-positivity-check | direct-and-derived | printed p.3 paragraph below Eq.(15); printed p.7 TableIIa Ji2 Jf2 L1=L2=2 | true |
 | YA67-8 | TableIIa 2→0 pureE2中daughter U2/U4为0，但completealignment radiation A2max=.71429、A4max=−1.71429非零。daughtertensor rank与photon角分布rank是不同对象，不能将2Jf普遍作为singleγ radiation上限。 | observable-identity-and-derived-rank-check | direct-and-derived | printed p.7 TableIIa Ji2 Jf0 L1=L2=2 | true |
 | YA67-9 | TableIIb的17/2→13/2 pureE2行给U2=.95294/U4=.84744。本任务计算.952936638/.847443971与五位舍入相容；给IO81 271支的条件tensor传递只是一条支的normalized component，不是全daughterfeeding拟合。 | table-crosscheck-and-application-boundary | direct-and-derived | printed p.19 TableIIb Ji17/2 Jf13/2 L1=L2=2 | true |
+| YA67-10 | p19的17/2→13/2 L2行F2/F4=−.37757/−.16697，p18的13/2→9/2 L2行为−.39621/−.19702；乘IO81相应ρ2/4与其A2/4在印刷精度相容。此为符号/归一cross-check，不是独立新测量或完整角数据重拟合。 | radiation-coefficient-and-source-convention-crosscheck | direct-and-derived | printed19 TableIIb Ji17/2 Jf13/2; printed18 TableIIb Ji13/2 Jf9/2 | true |
 
 ## Summary
 
@@ -151,3 +152,7 @@ IO81 Ref14的精确DOI metadata核为Poletti–Warburton，*Study of the Low-Lyi
 ## Extracted Pages
 
 - Methods: [[angular-distribution]], [[angular-correlation]], [[angular-momentum-alignment]]。
+
+## 167Tm原报ρ与radiation F的定向cross-check
+
+YA67-10给两个pureL2行：17/2→13/2的(F2,F4)=(−.37757,−.16697)，13/2→9/2为(−.39621,−.19702)。与[[ionescu-1981-improved-angular-distribution-analysis-particle-xn]] Table1的parent/targetρ相乘，分别复原约(.266,−.074)/(.248,−.013)的A；这只验证当前使用的符号与归一，不把derivedρ与原A当两组独立证据。目标正population矩域还可用于条件feeding份额的可行性设计，详见IO81-24–26；未给实测branch、Cov或微观feeding结构。

@@ -1,0 +1,52 @@
+{
+  "core_conclusion": "Fixed printed tensor centers constrain the known share of target feeding in a positive-population relaxation; that center bound is not an experimental confidence limit.",
+  "question": "How much target feeding can the known271-keV component supply under declared tensor assumptions?",
+  "backend": "python",
+  "backend_basis": "same-task Python3 analysis workflow and persisted per-run preference, no R rendering",
+  "archetype": "quantitative grid with primary geometry and robustness boundary",
+  "panels": {
+    "a": {
+      "role": "primary conditional geometry",
+      "shows": "target-spin positive moment polygon, propagated F, printed T(D), boundary remainder R*",
+      "uncertainty": "none: deliberately fixed printed centers; not a fitted distribution",
+      "source_rows": "IO81 Table1 271.12 and184.33; YA U and F columns"
+    },
+    "b": {
+      "role": "boundary/falsification of statistical-overclaim",
+      "shows": "one necessary facet margin vs target feeding weight, centers compared with one physically feasible point within quoted marginal bounds",
+      "uncertainty": "a constructed point in a four-dimensional rectangle; no CL/ellipse/p-value"
+    }
+  },
+  "input_selection": {
+    "original_Table1_rows": 10,
+    "selected_rows": 2,
+    "selected_energy_kev": [
+      "271.12",
+      "184.33"
+    ],
+    "excluded_rows": 8,
+    "reason": "predeclared minimal two-tensor relaxation; other states/edges, including observed218.90feeding, are not constrained here and remain relevant to the fullgraph; no claim of fullsourcefit",
+    "doublet_warning_retained": true
+  },
+  "journal_target": "Wiki apprenticeship analysis; no journal submission claim",
+  "dimensions_mm": [
+    183,
+    88
+  ],
+  "font_floor_pt": 5,
+  "editable_vector_formats": [
+    "svg",
+    "pdf"
+  ],
+  "preview": "png300dpi",
+  "alignment": "two same-row comparable axes,1.5pt strict",
+  "source_data": "tm167-feeding-fraction-figure-source.json",
+  "review_risks": [
+    "w is target feeding share, not parent branching ratio",
+    "otherpopulation relaxed, microscopic reachability unproved",
+    "184.33 doublet/source spin/purity/selection assumptions",
+    "marginal quoted errors are not a joint confidence region",
+    "source/raw/covariance and original1980fulltext missing",
+    "known218.90 incoming edge not imposed in the minimal relaxation; w1 is not a fullgraph fit"
+  ]
+}
