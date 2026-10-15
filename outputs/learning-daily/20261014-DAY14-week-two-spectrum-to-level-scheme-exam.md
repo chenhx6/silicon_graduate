@@ -77,6 +77,12 @@ W17-1/3/5把RHB的U/V、轨道追踪/阻塞、未恢复粒子数与组态简称�
 
 1996前作另试direct arXiv/HAL公共入口：未加引号DOI返回不匹配文章，不能计精确结果；修复为quoted DOI、title+author与HAL title后均HTTP200/0精确结果。回执`petrache96-query-repair-before-source.json`与三个repair结果保留。没有取得全文，也没有推断263/405差异原因。
 
+### 2015上游阻塞定义的直接核验
+
+[[zhao-2015-pairing-spin-orientation-tac]] DOI10.1103/PhysRevC.92.034319、arXiv1506.08340v2，公开PDF13页SHA256 `ce3c7672420b07e9bbe7d7a869049771c5cef9aa64f4dffce5dfd18bcb0b3c21`；Crossref完整题名/作者与PDF首页一致，arXiv API缺题名末词的元数据差异保留。来源前[primed recall](20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/tac2015-blocking-before-sources.md)已先保存；全部13页主线、Figs1–5和PDF5 O1/O2字面方法核验见[reading audit](20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/tac2015-reading-audit.json)。raw未归档/citation key空明确保留，未把元数据license当OA证明。
+
+ZT15-3/4直接给出分开归一U/V、分别最大化O1/O2及继承/反转blocking；ZT15-10限定xz平面，l–i/l–s变化与上游chirality解释分层。ZT15-12的谱和强度点重用2003/2007实验，本理论不是新Pr136采集。
+
 ## Theory/analysis exercise
 
 七边的中心值闭合为`+0.2,+0.4,+0.3 keV`。D的rank4、三个cycle、绝对offset nullspace均由代码核验。独立0.1-keV拟合误差下条件χ²=6.666667；自设将caption约0.3 keV按quadrature加上、并令各线独立后，χ²=0.666667，dof3。后者cycle Σ为`0.1×(3,1,0; 1,3,1; 0,1,3) keV²`，不是三个可相乘的独立检验。
@@ -233,6 +239,12 @@ checkpoint008实际观察为上海15:37，立即停止新研究；最后已保�
 - W17-9只缩放Dirac磁矩项。声明D=3、A=−1及源c=.58给`|cD+A|²=.5476`，而`c²|D+A|²=1.3456`，故整体B乘因子不能代替组件处理；这不是实际109Ag磁矩。
 - W17-10 v2 Eq25末项缺平方的字面读法不满足同式中段的维度/缩放；W17-11 A18/A19对非零relative oscillator例子冲突；W17-12的.87/1.26直接降幅约30.95%，与打印20%不同。均保留版本/locator，不修作者代码或实验值。
 
+### 43-check：从最大重叠到可重放输入
+
+[量化前预测](20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/tac2015-blocking-before-calculation.md)与[analysis](20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/tac2015-blocking-following.json)记录声明`u²=.7,v²=.3`的实canonical双态；另用E=±1的显式BdG矩阵证明正能双态简并，避免把任意非简并混合冒充eigenstate following。`python3 system/scripts/day14_tac_blocking_following.py`最终43项检查exit0；首42项之后新增此有效性检查，源实际轨道、频率/λ和code仍未取得。
+
+同态控制正确继承blocking；U/V交换分支反转标记后保持原blocked态的ρ/κ，说明reference改变时不能只要求裸blocked数不变。整体qp符号改变不改ρ/κ，却能使源式的signed字面控制出现tie；45°简并混合有不同旧标记的并列最大值；V=0令分开归一未定义。自设abs-score解除符号反例但不解除45°tie，first-argmax会随旧列顺序改变。全部是输入契约的条件控制，不是135Nd/Pr136计算或作者代码错误判定。
+
 ## Counter-evidence and missing companion observables
 
 HE15-9的实际未定双线是核心反例：energy sum、共享R/A和假设的ΔI=2均不足以裁决order。若一条线出现可独立定位的旁路或延迟顺序，应重审中间level；source仍保留括号Jπ与(E2)。HE15-5的quadruplet限制“一个峰是一条γ”的简化；干净622.4直接分支门与323.4级联门的299-keVcomponent差异可能迫使拆峰，但必须控制622/626门纯度、feeding、response和random。
@@ -244,6 +256,12 @@ HE15-9的实际未定双线是核心反例：energy sum、共享R/A和假设的�
 W17-5/7/9是对“能谱或B(M1)接近就认证完整组态”的具体限制：数目未恢复、回弯区没有收敛解、磁矩算符选择亦改变强度。基空间在单频率的.021%/.020%检查不覆盖所有分支/电磁量。必要伴随材料仍是actual occupied/blocked/reference、轨道overlap追踪日志、模型输出和算符定义；109Ag方法与136Pr的基空间/组态不同，不能转填Q1/Q1*。
 
 来源独立性也保持：模型比较复用上游109Ag实验，不等于136Pr独立实测；本任务的finite-Fock与公式反例均为声明数学控制。原Pr136π/POL、263/405次序原因和实际事件/响应/Σ缺口不解除。
+
+### 上游方法的反证与必要材料
+
+ZT15-6回弯区结果省略；ZT15-9的“无统一.3因子”是作者对选定135Nd算例的解释，Fig5仍见paired B(M1)曲线高于若干点，未给可重建联合χ²/Cov。ZT15-10只算平面旋转，不能将其当直接三维静态手征解或partner谱。[[mukhopadhyay-2007-135nd-chiral-vibration-static]] MU07-6为既有Wiki校准，实验强度/TAC/RPA层级保持；本轮没有重新摄取该实验或清其review状态。
+
+重放仍需actual前后U/V、basis/reference、blocked/species、λ/ω路径和步长、相位/并列/zero-norm规则、overlap及收敛日志。本文方法不能补Pr136 Q1/Q1* spectator，论文数据点复用不增独立实验。
 
 ## Knowledge Impact and Learning Decision
 
@@ -276,6 +294,14 @@ W17-5/7/9是对“能谱或B(M1)接近就认证完整组态”的具体限制：
 ### 方法companion后的认识决定
 
 Decision: supports 配对/阻塞是独立输入，limits 用组态简称或拟合曲线替完整输入。新增方法证据写到source、已有occupation方法、TAC模型和model-choice卡；没有新实验性质、good-I计算或PSM/TPSM覆盖。W17公式版本异常仅阻止按字面直接复现，不构成程序错误判决。当前问题下一高信息路线为Ref31的追踪/阻塞定义，或Pr136实际公开输入；不为新来源数量开卡。
+
+### 上游阻塞定义后的决定
+
+Decision: supports 追踪实际qp身份，revises 把“largest overlap”简称当完整可复跑算法的读法。新直接来源与43-check契约已写入canonical，不替作者补abs/phase实现；模型选择覆盖2/7和原模式排序不变。现有Pr136真实输入与历史263/405原因仍缺，当前方法表达式路线局部完成后须重建信息增益池。
+
+### 配对方法阶段的批次REFLECT
+
+2015→2017→2025的三来源方法阶段已比较：monopole/有限程可分离力、10/12壳、O1/O2继承、磁矩算符选择及实际136Pr输入缺口。Canonical在[[a130-model-choice-card]]“配对方法谱系的批次REFLECT”：引用谱系不认证相同代码版本/实现，更不构成三次独立实验或代码审核；模型比较改善不能唯一倒推组态。仍用现有method/project承载，不另建synthesis/note，原正式weekly REFLECT与21/24成绩不变。
 
 ## Durable knowledge delta
 
@@ -1900,6 +1926,163 @@ Decision: supports 配对/阻塞是独立输入，limits 用组态简称或拟�
           "locator": "W17-1"
         }
       ]
+    },
+    {
+      "knowledge": "knowledge/sources/zhao-2015-pairing-spin-orientation-tac.md",
+      "summary": "完整核读TAC-RHB上游阻塞定义、平面/回弯边界与模型重用实验；记录43-check实canonical/BdG条件审计。",
+      "anchor": "Zhao等（2015）：配对对核自旋取向的影响",
+      "sources": [
+        {
+          "path": "knowledge/sources/zhao-2015-pairing-spin-orientation-tac.md",
+          "locator": "ZT15-1"
+        },
+        {
+          "path": "knowledge/sources/zhao-2015-pairing-spin-orientation-tac.md",
+          "locator": "ZT15-3"
+        },
+        {
+          "path": "knowledge/sources/zhao-2015-pairing-spin-orientation-tac.md",
+          "locator": "ZT15-4"
+        },
+        {
+          "path": "knowledge/sources/zhao-2015-pairing-spin-orientation-tac.md",
+          "locator": "ZT15-6"
+        },
+        {
+          "path": "knowledge/sources/zhao-2015-pairing-spin-orientation-tac.md",
+          "locator": "ZT15-9"
+        },
+        {
+          "path": "knowledge/sources/zhao-2015-pairing-spin-orientation-tac.md",
+          "locator": "ZT15-10"
+        },
+        {
+          "path": "knowledge/sources/zhao-2015-pairing-spin-orientation-tac.md",
+          "locator": "ZT15-11"
+        },
+        {
+          "path": "knowledge/sources/zhao-2015-pairing-spin-orientation-tac.md",
+          "locator": "ZT15-12"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/methods/configuration-occupation-audit.md",
+      "summary": "将O1/O2、reference变换、相位/tie/零norm与最小重放字段固化；不认证作者实现或Pr136实际输入。",
+      "anchor": "O1/O2阻塞追踪的可重放契约",
+      "sources": [
+        {
+          "path": "knowledge/sources/zhao-2015-pairing-spin-orientation-tac.md",
+          "locator": "ZT15-3"
+        },
+        {
+          "path": "knowledge/sources/zhao-2015-pairing-spin-orientation-tac.md",
+          "locator": "ZT15-4"
+        },
+        {
+          "path": "knowledge/sources/zhao-2015-pairing-spin-orientation-tac.md",
+          "locator": "ZT15-11"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/models/tilted-axis-cranking.md",
+      "summary": "补入直接阻塞来源及平面方法和实验/模型层级边界。",
+      "anchor": "2015年上游阻塞方法与平面限制",
+      "sources": [
+        {
+          "path": "knowledge/sources/zhao-2015-pairing-spin-orientation-tac.md",
+          "locator": "ZT15-3"
+        },
+        {
+          "path": "knowledge/sources/zhao-2015-pairing-spin-orientation-tac.md",
+          "locator": "ZT15-4"
+        },
+        {
+          "path": "knowledge/sources/zhao-2015-pairing-spin-orientation-tac.md",
+          "locator": "ZT15-6"
+        },
+        {
+          "path": "knowledge/sources/zhao-2015-pairing-spin-orientation-tac.md",
+          "locator": "ZT15-9"
+        },
+        {
+          "path": "knowledge/sources/zhao-2015-pairing-spin-orientation-tac.md",
+          "locator": "ZT15-10"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/projects/a130-model-choice-card.md",
+      "summary": "细化方法companion的重放缺口，不增Pr136实验/投影覆盖。",
+      "anchor": "直接读其上游",
+      "sources": [
+        {
+          "path": "knowledge/sources/zhao-2015-pairing-spin-orientation-tac.md",
+          "locator": "ZT15-3"
+        },
+        {
+          "path": "knowledge/sources/zhao-2015-pairing-spin-orientation-tac.md",
+          "locator": "ZT15-4"
+        },
+        {
+          "path": "knowledge/sources/zhao-2015-pairing-spin-orientation-tac.md",
+          "locator": "ZT15-11"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/sources/wang-2017-109ag-tac-separable-pairing.md",
+      "summary": "对其Ref31加直接来源后续核验链接，不改原claims/review。",
+      "anchor": "上游阻塞方法的后续核验",
+      "sources": [
+        {
+          "path": "knowledge/sources/zhao-2015-pairing-spin-orientation-tac.md",
+          "locator": "ZT15-3"
+        },
+        {
+          "path": "knowledge/sources/zhao-2015-pairing-spin-orientation-tac.md",
+          "locator": "ZT15-4"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/index.md",
+      "summary": "索引O1/O2直接方法和适用边界。",
+      "anchor": "135Nd TAC-RHB配对与O1/O2准粒子阻塞定义",
+      "sources": [
+        {
+          "path": "knowledge/sources/zhao-2015-pairing-spin-orientation-tac.md",
+          "locator": "ZT15-3"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/projects/a130-model-choice-card.md",
+      "summary": "形成2015→2017→2025配对/阻塞方法谱系批次REFLECT，分开参数/算符/代码版本与独立实验计数。",
+      "anchor": "配对方法谱系的批次REFLECT",
+      "sources": [
+        {
+          "path": "knowledge/sources/zhao-2015-pairing-spin-orientation-tac.md",
+          "locator": "ZT15-3"
+        },
+        {
+          "path": "knowledge/sources/wang-2017-109ag-tac-separable-pairing.md",
+          "locator": "W17-3"
+        },
+        {
+          "path": "knowledge/sources/wang-2017-109ag-tac-separable-pairing.md",
+          "locator": "W17-9"
+        },
+        {
+          "path": "knowledge/sources/lv-2025-136pr-tac-covariant-density-functional.md",
+          "locator": "LV25-4"
+        },
+        {
+          "path": "knowledge/sources/lv-2025-136pr-tac-covariant-density-functional.md",
+          "locator": "LV25-32"
+        }
+      ]
     }
   ]
 }
@@ -2004,6 +2187,8 @@ Danko99primary合法OA/publicPDF/官方API/repo均未提供正文（403HTML/401J
 
 新增可复用知识见[[wang-2017-109ag-tac-separable-pairing]] W17-1/3/5/9/10，以及[[configuration-occupation-audit]]“配对方法companion不能补全实际阻塞输入”、[[tilted-axis-cranking]]“2017年方法校准：阻塞、收敛与磁矩算符”和[[a130-model-choice-card]]“方法companion的可迁移边界”。这些canonical页保存了原文方法、条件练习、版本异常和迁移边界；source实际PDF尚在tmp、raw未归档，未把outputs当唯一知识副本。
 
+本段canonical为[[zhao-2015-pairing-spin-orientation-tac]] ZT15-3/4/11、[[configuration-occupation-audit]]“O1/O2阻塞追踪的可重放契约”、[[tilted-axis-cranking]]“2015年上游阻塞方法与平面限制”；[[wang-2017-109ag-tac-separable-pairing]]新增“上游阻塞方法的后续核验”，[[a130-model-choice-card]]细化原方法路线。可重放字段、原文规则、43-check及无实际Pr136输入的限制均在knowledge保有副本。
+
 ## Open questions and belief revision
 
 1. 哪个旁路、time/tag或独立spin anchor能裁决393/394的顺序？重复同一能量和不能裁决。
@@ -2021,6 +2206,8 @@ Danko99primary合法OA/publicPDF/官方API/repo均未提供正文（403HTML/401J
 - L1/L2：source/method/matrix、原35检查与后续条件gate/POL/jointγγ/Cov/kinematic-hull均固化；正式六维21/24与weeklyREFLECT保持。
 - L3：67Ga实输入/FO理论ICC与声明DCO门模型、193Bi91-check能量—时间设计、136Pr37-check新谱和旧评价crosswalk完成；实际DCO gate/geometry、原事件及1996primary仍缺，无新mode裁决。
 - L4：真实event-level重分析not-ready。67Ga已有评价τ/δ，仍缺原angular/event、response、GF/jointCov、完整ICC/branch/stopping/feeding包；193Bi仍缺目标parentτ/δ/actualgates。继续最高价值可执行数据/理论路线，不把模型重算当实验。
+
+本段为L1直接方法读取、L2边界写回与L3声明的canonical/BdG设计控制；没有actual RHB模型运行、原实验重分析或新的实验L4结果。Day14继续，Day15仅partial；source含“chiral”或模型方法不意味着打开Day16课程卡。
 
 ## Verification and continuation
 
@@ -2197,3 +2384,10 @@ wiki_lint --fail-on error实际exit0，0errors/131warnings（107citationkey、21
 2026-10-15T18:14:03.679377+08:00：50项源参数/Fock空间/算符/公式控制均true、exit0；report/card/writeback valid，唯一block74items/26changed knowledge页。原source未改、既有method/model/project旧行顺序和review保持，raw metadata/PLAN/Bib/AST与git diff --check exit0。初lint因新source缺固定Competing Interpretations and Limitations标题exit1，按已有内容补标题后fresh `wiki_lint --fail-on error` exit0：0errors/133warnings（108空citation key、22未填raw槽、3reaction parser）；13条新W17 claims全保留needs_review true。未宣称raw归档、官方勘误或程序错误。
 
 前22批已Gitee发布；本批稳定指针 main / `Calibrate DAY14 TAC pairing and blocking input contract`，实际H3与精确hash只进回执。下一Ref31方法来源前回忆已保存，先核metadata/fulltext再读following/blocking定义；不借它补Pr136实际list。当前研究窗口仍active，正式21/24、Day14/partial15、official next14/count13保持。
+
+
+### Checkpoint024 延期上游方法验收
+
+2026-10-15T18:38:34.189782+08:00：最终43项canonical/BdG/overlap控制true、exit0；report/card/writeback valid，唯一block81items/27changed knowledge页，并完成2015→2017→2025方法谱系批次REFLECT。原method/model/project/W17旧行顺序与review保持，LV25及既有MU07 source字节未改，raw metadata/PLAN/Bib/AST及git diff --check exit0。初lint因矩阵双括号被解析成Wiki链接exit1，改为row记法；加入REFLECT后fresh `wiki_lint --fail-on error` exit0：0errors/135warnings（109空citation key、23未填raw槽、3reaction parser），12新ZT15 claims均parsed true。
+
+前23批已Gitee发布；本批稳定 main / `Audit DAY14 quasiparticle following and method lineage`，实际H3/hash只回执。当前方法表达式路线局部完成，已重建池并冻结Pr136 γ/轴/替代形状场景的定向回忆，先核原文与既有知识再决定量化；不泛化重复overlap toy。研究仍active至2026-10-16 15:00、16:00交付，正式21/24、Day14/partial15和official next14/count13保持。

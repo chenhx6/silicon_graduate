@@ -1,0 +1,705 @@
+{
+  "kind": "literal published overlap rule under chosen real canonical matrices, not an RHB run or author-code verdict",
+  "source": {
+    "doi": "10.1103/PhysRevC.92.034319",
+    "arxiv": "1506.08340v2",
+    "pdf": "tmp/day14-20261014/tac2015/PDFs/Impact_of_pairing_correlations_on_the_orientation_of_the_nuclear_spin.pdf",
+    "sha256": "ce3c7672420b07e9bbe7d7a869049771c5cef9aa64f4dffce5dfd18bcb0b3c21",
+    "locator": "PDF p.5 O1/O2 blocking paragraph",
+    "raw_archived": false
+  },
+  "chosen_parameters": {
+    "u_squared": 0.7,
+    "v_squared": 0.3,
+    "initial_blocked": [
+      true,
+      false
+    ],
+    "analysis_tolerance": 1e-12,
+    "U": [
+      [
+        0.8366600265340756,
+        0.0
+      ],
+      [
+        0.0,
+        0.8366600265340756
+      ]
+    ],
+    "V": [
+      [
+        0.0,
+        -0.5477225575051661
+      ],
+      [
+        0.5477225575051661,
+        0.0
+      ]
+    ],
+    "BdG": [
+      [
+        0.40000000000000013,
+        0.0,
+        -0.0,
+        0.916515138991168
+      ],
+      [
+        0.0,
+        0.40000000000000013,
+        -0.916515138991168,
+        -0.0
+      ],
+      [
+        0.0,
+        -0.916515138991168,
+        -0.40000000000000013,
+        -0.0
+      ],
+      [
+        0.916515138991168,
+        0.0,
+        -0.0,
+        -0.40000000000000013
+      ]
+    ],
+    "positive_energy": 1,
+    "actual_rotating_nuclear_spectrum": false
+  },
+  "cases": {
+    "same": {
+      "score_policy": "literal signed source expression",
+      "O1": [
+        [
+          2.0,
+          0.0
+        ],
+        [
+          0.0,
+          2.0
+        ]
+      ],
+      "O2": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ]
+      ],
+      "decisions": [
+        {
+          "O1_max": 2.0,
+          "O2_max": 0.0,
+          "O1_max_indices": [
+            0
+          ],
+          "O2_max_indices": [
+            0,
+            1
+          ],
+          "branch": "O1: inherit",
+          "possible_blocking": [
+            true
+          ],
+          "unique_blocking": true
+        },
+        {
+          "O1_max": 2.0,
+          "O2_max": 0.0,
+          "O1_max_indices": [
+            1
+          ],
+          "O2_max_indices": [
+            0,
+            1
+          ],
+          "branch": "O1: inherit",
+          "possible_blocking": [
+            false
+          ],
+          "unique_blocking": false
+        }
+      ]
+    },
+    "sign_literal": {
+      "score_policy": "literal signed source expression",
+      "O1": [
+        [
+          -2.0,
+          0.0
+        ],
+        [
+          0.0,
+          2.0
+        ]
+      ],
+      "O2": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ]
+      ],
+      "decisions": [
+        {
+          "O1_max": 0.0,
+          "O2_max": 0.0,
+          "O1_max_indices": [
+            1
+          ],
+          "O2_max_indices": [
+            0,
+            1
+          ],
+          "branch": "O1/O2 tie: source handling unspecified",
+          "possible_blocking": null,
+          "unique_blocking": null
+        },
+        {
+          "O1_max": 2.0,
+          "O2_max": 0.0,
+          "O1_max_indices": [
+            1
+          ],
+          "O2_max_indices": [
+            0,
+            1
+          ],
+          "branch": "O1: inherit",
+          "possible_blocking": [
+            false
+          ],
+          "unique_blocking": false
+        }
+      ]
+    },
+    "sign_absolute_control": {
+      "score_policy": "declared absolute-score control, not attributed to source",
+      "O1": [
+        [
+          2.0,
+          0.0
+        ],
+        [
+          0.0,
+          2.0
+        ]
+      ],
+      "O2": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ]
+      ],
+      "decisions": [
+        {
+          "O1_max": 2.0,
+          "O2_max": 0.0,
+          "O1_max_indices": [
+            0
+          ],
+          "O2_max_indices": [
+            0,
+            1
+          ],
+          "branch": "O1: inherit",
+          "possible_blocking": [
+            true
+          ],
+          "unique_blocking": true
+        },
+        {
+          "O1_max": 2.0,
+          "O2_max": 0.0,
+          "O1_max_indices": [
+            1
+          ],
+          "O2_max_indices": [
+            0,
+            1
+          ],
+          "branch": "O1: inherit",
+          "possible_blocking": [
+            false
+          ],
+          "unique_blocking": false
+        }
+      ]
+    },
+    "particle_hole_swap": {
+      "score_policy": "literal signed source expression",
+      "O1": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          2.0
+        ]
+      ],
+      "O2": [
+        [
+          2.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ]
+      ],
+      "decisions": [
+        {
+          "O1_max": 0.0,
+          "O2_max": 2.0,
+          "O1_max_indices": [
+            0,
+            1
+          ],
+          "O2_max_indices": [
+            0
+          ],
+          "branch": "O2: invert",
+          "possible_blocking": [
+            false
+          ],
+          "unique_blocking": false
+        },
+        {
+          "O1_max": 2.0,
+          "O2_max": 0.0,
+          "O1_max_indices": [
+            1
+          ],
+          "O2_max_indices": [
+            0,
+            1
+          ],
+          "branch": "O1: inherit",
+          "possible_blocking": [
+            false
+          ],
+          "unique_blocking": false
+        }
+      ]
+    },
+    "rotation_10_literal": {
+      "score_policy": "literal signed source expression",
+      "O1": [
+        [
+          1.969615506024416,
+          0.34729635533386066
+        ],
+        [
+          -0.34729635533386066,
+          1.969615506024416
+        ]
+      ],
+      "O2": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ]
+      ],
+      "decisions": [
+        {
+          "O1_max": 1.969615506024416,
+          "O2_max": 0.0,
+          "O1_max_indices": [
+            0
+          ],
+          "O2_max_indices": [
+            0,
+            1
+          ],
+          "branch": "O1: inherit",
+          "possible_blocking": [
+            true
+          ],
+          "unique_blocking": true
+        },
+        {
+          "O1_max": 1.969615506024416,
+          "O2_max": 0.0,
+          "O1_max_indices": [
+            1
+          ],
+          "O2_max_indices": [
+            0,
+            1
+          ],
+          "branch": "O1: inherit",
+          "possible_blocking": [
+            false
+          ],
+          "unique_blocking": false
+        }
+      ]
+    },
+    "rotation_10_absolute_control": {
+      "score_policy": "declared absolute-score control, not attributed to source",
+      "O1": [
+        [
+          1.969615506024416,
+          0.34729635533386066
+        ],
+        [
+          0.34729635533386066,
+          1.969615506024416
+        ]
+      ],
+      "O2": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ]
+      ],
+      "decisions": [
+        {
+          "O1_max": 1.969615506024416,
+          "O2_max": 0.0,
+          "O1_max_indices": [
+            0
+          ],
+          "O2_max_indices": [
+            0,
+            1
+          ],
+          "branch": "O1: inherit",
+          "possible_blocking": [
+            true
+          ],
+          "unique_blocking": true
+        },
+        {
+          "O1_max": 1.969615506024416,
+          "O2_max": 0.0,
+          "O1_max_indices": [
+            1
+          ],
+          "O2_max_indices": [
+            0,
+            1
+          ],
+          "branch": "O1: inherit",
+          "possible_blocking": [
+            false
+          ],
+          "unique_blocking": false
+        }
+      ]
+    },
+    "rotation_45_literal": {
+      "score_policy": "literal signed source expression",
+      "O1": [
+        [
+          1.414213562373095,
+          1.414213562373095
+        ],
+        [
+          -1.414213562373095,
+          1.414213562373095
+        ]
+      ],
+      "O2": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ]
+      ],
+      "decisions": [
+        {
+          "O1_max": 1.414213562373095,
+          "O2_max": 0.0,
+          "O1_max_indices": [
+            0,
+            1
+          ],
+          "O2_max_indices": [
+            0,
+            1
+          ],
+          "branch": "O1: inherit",
+          "possible_blocking": [
+            false,
+            true
+          ],
+          "unique_blocking": null
+        },
+        {
+          "O1_max": 1.414213562373095,
+          "O2_max": 0.0,
+          "O1_max_indices": [
+            1
+          ],
+          "O2_max_indices": [
+            0,
+            1
+          ],
+          "branch": "O1: inherit",
+          "possible_blocking": [
+            false
+          ],
+          "unique_blocking": false
+        }
+      ]
+    },
+    "rotation_45_absolute_control": {
+      "score_policy": "declared absolute-score control, not attributed to source",
+      "O1": [
+        [
+          1.414213562373095,
+          1.414213562373095
+        ],
+        [
+          1.414213562373095,
+          1.414213562373095
+        ]
+      ],
+      "O2": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ]
+      ],
+      "decisions": [
+        {
+          "O1_max": 1.414213562373095,
+          "O2_max": 0.0,
+          "O1_max_indices": [
+            0,
+            1
+          ],
+          "O2_max_indices": [
+            0,
+            1
+          ],
+          "branch": "O1: inherit",
+          "possible_blocking": [
+            false,
+            true
+          ],
+          "unique_blocking": null
+        },
+        {
+          "O1_max": 1.414213562373095,
+          "O2_max": 0.0,
+          "O1_max_indices": [
+            0,
+            1
+          ],
+          "O2_max_indices": [
+            0,
+            1
+          ],
+          "branch": "O1: inherit",
+          "possible_blocking": [
+            false,
+            true
+          ],
+          "unique_blocking": null
+        }
+      ]
+    },
+    "rotation_80_literal": {
+      "score_policy": "literal signed source expression",
+      "O1": [
+        [
+          0.34729635533386083,
+          1.969615506024416
+        ],
+        [
+          -1.969615506024416,
+          0.34729635533386083
+        ]
+      ],
+      "O2": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ]
+      ],
+      "decisions": [
+        {
+          "O1_max": 1.969615506024416,
+          "O2_max": 0.0,
+          "O1_max_indices": [
+            1
+          ],
+          "O2_max_indices": [
+            0,
+            1
+          ],
+          "branch": "O1: inherit",
+          "possible_blocking": [
+            false
+          ],
+          "unique_blocking": false
+        },
+        {
+          "O1_max": 0.34729635533386083,
+          "O2_max": 0.0,
+          "O1_max_indices": [
+            1
+          ],
+          "O2_max_indices": [
+            0,
+            1
+          ],
+          "branch": "O1: inherit",
+          "possible_blocking": [
+            false
+          ],
+          "unique_blocking": false
+        }
+      ]
+    },
+    "rotation_80_absolute_control": {
+      "score_policy": "declared absolute-score control, not attributed to source",
+      "O1": [
+        [
+          0.34729635533386083,
+          1.969615506024416
+        ],
+        [
+          1.969615506024416,
+          0.34729635533386083
+        ]
+      ],
+      "O2": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ]
+      ],
+      "decisions": [
+        {
+          "O1_max": 1.969615506024416,
+          "O2_max": 0.0,
+          "O1_max_indices": [
+            1
+          ],
+          "O2_max_indices": [
+            0,
+            1
+          ],
+          "branch": "O1: inherit",
+          "possible_blocking": [
+            false
+          ],
+          "unique_blocking": false
+        },
+        {
+          "O1_max": 1.969615506024416,
+          "O2_max": 0.0,
+          "O1_max_indices": [
+            0
+          ],
+          "O2_max_indices": [
+            0,
+            1
+          ],
+          "branch": "O1: inherit",
+          "possible_blocking": [
+            true
+          ],
+          "unique_blocking": true
+        }
+      ]
+    }
+  },
+  "chosen_first_argmax_tie_control": {
+    "before_reordering": true,
+    "after_reordering": false,
+    "attributed_to_source": false
+  },
+  "zero_component_boundary": "separate U/V normalization undefined at a zero component; source branch unspecified",
+  "missing_actual_conventions": [
+    "phase/gauge alignment or magnitude convention",
+    "equal O1/O2 and equal maxima handling",
+    "zero norm policy and no-pairing branch",
+    "actual lambda/omega step sizes and tracking log",
+    "previous/current blocked inventories and density convergence"
+  ],
+  "interpretation": "conditions needed to replay the public expression; actual implementation may specify all of them; no Pr136 spectator or blocking inferred",
+  "checks": {
+    "input_within_wiki": true,
+    "actual_PDF_identity": true,
+    "thirteen_pages": true,
+    "exact_arxiv_and_title": true,
+    "blocking_rule_location": true,
+    "source_norm_UV_location": true,
+    "chosen_canonical_Bogoliubov": true,
+    "chosen_BdG_degenerate_positive_eigenbasis": true,
+    "chosen_density_eigenvalues": true,
+    "chosen_pairing_tensor_antisymmetric": true,
+    "chosen_blocked_generalized_density": true,
+    "same_inherits_all_flags": true,
+    "same_O1_diagonal_two": true,
+    "same_O2_zero": true,
+    "sign_change_still_canonical": true,
+    "sign_change_same_density": true,
+    "sign_change_same_pairing_tensor": true,
+    "sign_change_same_blocked_generalized_density": true,
+    "literal_sign_control_needs_policy": true,
+    "declared_absolute_control_restores_sign_invariance": true,
+    "particle_hole_swap_canonical": true,
+    "particle_hole_uses_O2": true,
+    "particle_hole_inverts_blocking": true,
+    "particle_hole_reference_change_same_blocked_generalized_density": true,
+    "rotation_10_canonical_eigenbasis": true,
+    "rotation_10_vacuum_density_unchanged": true,
+    "rotation_10_pairing_tensor_unchanged": true,
+    "rotation_45_canonical_eigenbasis": true,
+    "rotation_45_vacuum_density_unchanged": true,
+    "rotation_45_pairing_tensor_unchanged": true,
+    "rotation_80_canonical_eigenbasis": true,
+    "rotation_80_vacuum_density_unchanged": true,
+    "rotation_80_pairing_tensor_unchanged": true,
+    "small_step_follows": true,
+    "fortyfive_best_previous_tie": true,
+    "fortyfive_blocking_not_unique": true,
+    "absolute_score_does_not_resolve_fortyfive": true,
+    "large_step_literal_maps_both_to_previous_one": true,
+    "large_step_literal_block_count_changes_in_control": true,
+    "declared_absolute_large_step_control": true,
+    "chosen_first_argmax_order_sensitive": true,
+    "zero_pairing_control_canonical": true,
+    "zero_component_declared_boundary": true
+  },
+  "check_count": 43,
+  "passed": true
+}

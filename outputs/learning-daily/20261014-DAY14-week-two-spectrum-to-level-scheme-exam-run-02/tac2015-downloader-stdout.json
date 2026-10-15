@@ -1,0 +1,24 @@
+{
+  "summary": {
+    "total": 1,
+    "downloaded": 1,
+    "seconds": 1.1
+  },
+  "manifest": "/workspace/wiki/tmp/day14-20261014/tac2015/manifest.json",
+  "results": [
+    {
+      "title": "Impact of pairing correlations on the orientation of the nuclear spin",
+      "status": "open_access_downloaded",
+      "provider": "direct_url",
+      "accessMode": "open_access",
+      "ok": true,
+      "file": "/workspace/wiki/tmp/day14-20261014/tac2015/PDFs/Impact_of_pairing_correlations_on_the_orientation_of_the_nuclear_spin.pdf",
+      "bytes": 323292,
+      "sha256": "ce3c7672420b07e9bbe7d7a869049771c5cef9aa64f4dffce5dfd18bcb0b3c21",
+      "contentType": "application/pdf",
+      "format": "pdf",
+      "source": "https://arxiv.org/pdf/1506.08340v2",
+      "si_requested": false
+    }
+  ]
+}

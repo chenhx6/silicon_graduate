@@ -101,6 +101,37 @@ W17-10的v2 Eq.(25)中段有μ⊥²，末项却无平方；声明分量`μx=3,μ
 
 上述练习见[day14_tac_pairing_contract.py](../../system/scripts/day14_tac_pairing_contract.py)及[50-check回执](../../outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/tac-pairing-contract.json)。真实blocking、reference、轨道overlap追踪、pn通道和输入/输出文件仍是独立必要材料；科学未决不能由toy或源码缺项补造。
 
+## O1/O2阻塞追踪的可重放契约
+
+[[zhao-2015-pairing-spin-orientation-tac]] ZT15-3、ZT15-4的PDF5直接给出Wang2017所回指的方法。先分别归一`ψu=U/sqrt(UᵀU)`、`ψv=V/sqrt(VᵀV)`；再对全部previous qp分别最大化
+
+`O1=〈ψu,ψu′〉+〈ψv,ψv′〉`，`O2=〈ψu,ψv′〉+〈ψv,ψu′〉`。
+
+两个最大值可来自不同previous k′。O1较大时继承k1′的blocked标记；O2较大时按k2′的unblocked状态决定当前blocked，即反转标记。这是来源方法框架，不能从“largest overlap”几个字自行补出phase、tie或零norm代码。
+
+### 满足canonical和eigenbasis条件的声明控制
+
+本任务选`U=sqrt(.7)I`、`V=sqrt(.3)J`，J的两行分别为`(0,−1)`和`(1,0)`；既有`UᵀU+VᵀV=I`，又有`UᵀV+VᵀU=0`。另构造`h=.4I, Δ=−2sqrt(.21)J`的实BdG矩阵，两个block rows分别为`(h,Δ)`、`(−Δ,−h)`；谱为`−1,−1,+1,+1`，两列`(U,V)`是简并正能本征态。因而在这一**声明的简并极限**内，正交混合仍为合法eigenbasis，不是任意混合非简并源轨道。E=1、u/v和所有角度均chosen，不是135Nd/Pr136的实际谱。
+
+以previous标记`[blocked,unblocked]`，按源式的实signed字面控制得到：
+
+| 控制 | 最大O1 / O2及结果 | 能说明的边界 |
+| --- | --- | --- |
+| 同一U/V | 对角O1=2、O2=0，继承标记 | 常规分支控制 |
+| 仅第一个qp整体×−1 | 其O1/O2最大值均0，需相位/相等处理 | ρ、κ和blocked广义密度均未变；不能据signed最大值裸定身份 |
+| 一个qp的U/V交换并改变reference | O2=2占优，标记反转 | 新unblocked reference的ρ/κ与原blocked态相同；blocked标签数不是跨reference的普适不变量 |
+| 正能简并子空间45°混合 | 一条O1有两个同值最大值，对应不同旧标记 | 必须保留tie，不能默选第一个索引 |
+| 同一控制的大步80°混合 | raw signed最大值可把两条都映到旧unblocked列 | 固定reference/大步/相位条件须记录，不能当实际源计算失败 |
+| V严格为0 | 分开归一未定义 | 需no-pairing/zero-norm分支，而非任意轨道输出 |
+
+额外的abs-score是本任务声明的替代控制：可解除这里的整体符号问题，仍不能唯一解45°tie；不是已核作者算法或通用修复。first-argmax控制则会随previous列排序改变决定，也未归给作者代码。复杂相位的一般实现未审，本练习仅对实控制成立。
+
+### 最小重放材料与失败检查
+
+需要保存前后步实际U/V和basis/reference、blocked/species标记、λ/ω路径与步长、分量norm、overlap矩阵及并列最大值、phase/magnitude约定、O1/O2比较与tie规则、选择后的ρ/κ和收敛记录。粒子-hole reference改变时必须连同标记含义核查，不能只要求裸blocked数不变；固定reference的正能子空间following也不能只看能量排序或轨道名字。
+
+[day14_tac_blocking_following.py](../../system/scripts/day14_tac_blocking_following.py)完成[43-check量化](../../outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/tac2015-blocking-following.json)。首次42项后补了上述BdG eigenbasis有效性检查，最终43项全通过；这没有取得源程序/Pr136实际输入，不能补Q1 spectator、判作者code错或提升模型π为实验事实。
+
 ## Verification and Learning Decision
 
 [day14_pr136_configuration_ledger.py](../../system/scripts/day14_pr136_configuration_ledger.py)完成62checks：actualPDF SHA、TableII block与Fig16legend分离、十row双列解析、Z/N/mod2/spatialparity、Q1未列sd保留None、oddabstractspectator/pairs不能修复oddresidual、captionsliteral及必要条件非充分性、toymeanN/number-sector检查。原raw、source列与review状态不改；[62-check回执](../../outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/pr136-configuration-ledger.json)保存完整literal和未知字段。
@@ -111,4 +142,5 @@ Decision: supports基本valence记账；revises把标签当完整模型输入或
 
 - [[lv-2025-136pr-tac-covariant-density-functional]] LV25-32：acceptedPDF15 TableII、PDF11 Figs9/10captions，数据与条件输入缺口。
 - [[wang-2017-109ag-tac-separable-pairing]] W17-1–W17-13：TAC-RHB配对/阻塞方法、未恢复数目、局部失效、算符和预印本公式边界；不提供Pr136实际输入。
+- [[zhao-2015-pairing-spin-orientation-tac]] ZT15-3、ZT15-4、ZT15-11：O1/O2直接方法与实现边界；仅在声明实canonical/BdG控制中量化，不认证真实代码。
 - [[a130-model-choice-card]]：理论路线与reproducibility边界，不增加投影论文或实验数。

@@ -75,3 +75,12 @@ Delivery2026-10-16 16:00上海，plannedresearchcutoff15:00；Day14/partial15，
 前22批published；本批subject Calibrate DAY14 TAC pairing and blocking input contract，实际H3/hash看publication-023.json。1996primary新quoted DOI/title/HAL全HTTP200/0匹配，unquotedDOI噪声不计；仍不解释263/405差异。
 
 下一tac2015-blocking-before-sources.md已freeze，Ref31 PRC92,034319(2015) metadata/合法全文待核；先核身份，再读trace/blocking criterion和失败边界，不借generic method填Pr136spectator。研究仍active至2026-10-16 15:00，16:00最终交付；Day14/partial15，official next14/count13、formal21/24保持。旧watchers不live未重启。
+
+
+## 最新checkpoint024
+
+Zhao2015上游方法13页/Figs1–5已核，43check（canonical+显式简并BdG eigenbasis、O1/O2、ρ/κ/reference、phase/tie/zero-norm）通过。所有u/v/E/旋转是声明控制，实际author conventions/input缺；不判code错误/不填Pr136spectator。2015→2017→2025方法谱系批次REFLECT已在model-choice，81items27pages；oldrows/review/LV25/MU07/raw/protected/AST/diff保持。初矩阵双括号误作wikilink已修，freshlint0errors135warnings（109citekey/23rawslot/3parser），12newclaims parsedtrue。
+
+前23批published；本批subject Audit DAY14 quasiparticle following and method lineage，actualH3/hash看publication-024.json。下一pr136-gamma-before-focused-reread.md已freeze，回读LV25 PDF11–15 TableII/Fig16/alternate D4γ<0 medium vsD6γ>0 short，核sourceγ/axes是否明示以及modeloutput与alternateinterpretation边界。先读现有triaxial-deformation；不先给source约定、计算或宣称共存。当前continuity193Bi局部饱和缺actualresponse，1996primary仍missing；不要换同toy参数。
+
+仍Day14/partial15、formal21/24、official next14/count13；研究2026-10-16 15:00止、16:00交付，goalactive。旧watchers不live未重启，不新session/card/daemon。

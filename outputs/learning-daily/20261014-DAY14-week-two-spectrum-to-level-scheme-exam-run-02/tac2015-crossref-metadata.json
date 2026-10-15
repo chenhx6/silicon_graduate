@@ -1,0 +1,121 @@
+{
+  "provider": "crossref",
+  "at": "2026-10-15T18:15:05.736680+08:00",
+  "expected_doi": "10.1103/PhysRevC.92.034319",
+  "url": "https://api.crossref.org/works/10.1103/PhysRevC.92.034319",
+  "status": 200,
+  "paper": {
+    "DOI": "10.1103/physrevc.92.034319",
+    "title": [
+      "Impact of pairing correlations on the orientation of the nuclear spin"
+    ],
+    "author": [
+      {
+        "given": "P. W.",
+        "family": "Zhao",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "S. Q.",
+        "family": "Zhang",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "J.",
+        "family": "Meng",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2015,
+          9,
+          18
+        ]
+      ]
+    },
+    "volume": "92",
+    "issue": "3",
+    "page": null,
+    "article-number": "034319",
+    "container-title": [
+      "Physical Review C"
+    ],
+    "link": [
+      {
+        "URL": "http://link.aps.org/accepted/10.1103/PhysRevC.92.034319",
+        "content-type": "application/pdf",
+        "content-version": "am",
+        "intended-application": "unspecified"
+      },
+      {
+        "URL": "http://link.aps.org/article/10.1103/PhysRevC.92.034319",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "syndication"
+      },
+      {
+        "URL": "http://harvest.aps.org/v2/journals/articles/10.1103/PhysRevC.92.034319/fulltext",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2015,
+              9,
+              18
+            ]
+          ],
+          "date-time": "2015-09-18T00:00:00Z",
+          "timestamp": 1442534400000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "http://link.aps.org/licenses/aps-default-license"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2016,
+              9,
+              17
+            ]
+          ],
+          "date-time": "2016-09-17T00:00:00Z",
+          "timestamp": 1474070400000
+        },
+        "content-version": "am",
+        "delay-in-days": 365,
+        "URL": "http://link.aps.org/licenses/aps-default-accepted-manuscript-license"
+      }
+    ]
+  }
+}

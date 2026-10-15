@@ -1,0 +1,62 @@
+{
+  "at": "2026-10-15T18:32:11.277760+08:00",
+  "source": "knowledge/sources/zhao-2015-pairing-spin-orientation-tac.md",
+  "doi": "10.1103/PhysRevC.92.034319",
+  "arxiv": "1506.08340v2",
+  "sha256": "ce3c7672420b07e9bbe7d7a869049771c5cef9aa64f4dffce5dfd18bcb0b3c21",
+  "raw_archived": false,
+  "covered_pages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13
+  ],
+  "reading_depth": "deep-read",
+  "mainline": [
+    "motivation/introduction",
+    "TAC-RHB Eq1/2; setting",
+    "PDF5 normalized U/V O1/O2 and blocking",
+    "Results Figs1–5",
+    "Summary",
+    "references identity/lineage"
+  ],
+  "visually_viewed_pages": [
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "figures_visually_checked": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "tables_present": false,
+  "appendix_present": false,
+  "uncovered": [
+    "actual author code, U/V and iteration paths",
+    "phase/tie/zero-norm implementation",
+    "original experimental articles rereading and actual event/response/covariance",
+    "Pr136 actual reference/blocked/spectators"
+  ],
+  "source_dependency": "Wang2017 Ref31; theory comparison reuses Zhu2003 and Mukhopadhyay2007 points; no new Pr136 experiment",
+  "science_kind": "source method + chosen real degenerate BdG controls, not actual TAC nuclear rerun",
+  "analysis_checks": 43,
+  "scope_strengthening": "first42 controls then explicit degenerate BdG eigenbasis check; rho+kappa jointly used for reference swap",
+  "needs_review": true,
+  "P0": "none identified"
+}

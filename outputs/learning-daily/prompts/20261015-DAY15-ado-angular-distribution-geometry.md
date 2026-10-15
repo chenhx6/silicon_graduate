@@ -319,3 +319,6 @@ Day14延期另有62-check valence/unpaired条件ledger审计；Π标签、number
 
 
 Day14延期另核Wang2017 TAC-RHB方法全文和50-check控制：spin projector不指定species配对，blocking/数目恢复/半经典I不同；Dirac磁矩组件缩放不能替整体B因子。预印本公式字面异常与作者程序错误分开。此为正式回忆的priming，不提供Pr136实际输入或Day15信用；正式卡仍须自身recall/audit。
+
+
+Day14延期另核Zhao2015 O1/O2上游规则与43-check实canonical/BdG控制；相位/tie/zero-norm/reference是重放材料，模型pairing/算符/代码版本谱系不等于独立实验。正式Day15仍只标这些priming，不继承card credit或宣称actual Pr136输入已复现。

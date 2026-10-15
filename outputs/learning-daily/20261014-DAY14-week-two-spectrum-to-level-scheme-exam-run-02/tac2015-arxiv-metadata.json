@@ -1,0 +1,67 @@
+{
+  "provider": "arxiv",
+  "at": "2026-10-15T18:15:05.736897+08:00",
+  "expected_doi": "10.1103/PhysRevC.92.034319",
+  "url": "https://export.arxiv.org/api/query?search_query=doi%3A%2210.1103%2FPhysRevC.92.034319%22&max_results=3",
+  "status": 200,
+  "entries": [
+    {
+      "id": "http://arxiv.org/abs/1506.08340v2",
+      "title": "Impact of pairing correlations on the orientation of the nuclear",
+      "doi": "10.1103/PhysRevC.92.034319",
+      "authors": [
+        "P. W. Zhao",
+        "S. Q. Zhang",
+        "J. Meng"
+      ],
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/1506.08340v2",
+          "rel": "alternate",
+          "type": "text/html"
+        },
+        {
+          "href": "https://arxiv.org/pdf/1506.08340v2",
+          "rel": "related",
+          "type": "application/pdf",
+          "title": "pdf"
+        },
+        {
+          "rel": "related",
+          "href": "https://doi.org/10.1103/PhysRevC.92.034319",
+          "title": "doi"
+        }
+      ]
+    }
+  ],
+  "exact_matches": [
+    {
+      "id": "http://arxiv.org/abs/1506.08340v2",
+      "title": "Impact of pairing correlations on the orientation of the nuclear",
+      "doi": "10.1103/PhysRevC.92.034319",
+      "authors": [
+        "P. W. Zhao",
+        "S. Q. Zhang",
+        "J. Meng"
+      ],
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/1506.08340v2",
+          "rel": "alternate",
+          "type": "text/html"
+        },
+        {
+          "href": "https://arxiv.org/pdf/1506.08340v2",
+          "rel": "related",
+          "type": "application/pdf",
+          "title": "pdf"
+        },
+        {
+          "rel": "related",
+          "href": "https://doi.org/10.1103/PhysRevC.92.034319",
+          "title": "doi"
+        }
+      ]
+    }
+  ]
+}

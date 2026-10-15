@@ -1,0 +1,13 @@
+{
+  "at": "2026-10-15T18:16:28.643586+08:00",
+  "path": "/workspace/wiki/tmp/day14-20261014/tac2015/PDFs/Impact_of_pairing_correlations_on_the_orientation_of_the_nuclear_spin.pdf",
+  "url": "https://arxiv.org/pdf/1506.08340v2",
+  "bytes": 323292,
+  "sha256": "ce3c7672420b07e9bbe7d7a869049771c5cef9aa64f4dffce5dfd18bcb0b3c21",
+  "pages": 13,
+  "pdf_magic": true,
+  "firstpage": "arXiv:1506.08340v2  [nucl-th]  20 Sep 2015\nImpact of pairing correlations on the orientation of the nuclear\nspin\nP. W. Zhao,1, 2, ∗S. Q. Zhang,2 and J. Meng2, 3, 4\n1Physics Division, Argonne National Laboratory, Argonne, Illinois 60439, USA\n2State Key Laboratory of Nuclear Physics and Technology,\nSchool of Physics, Peking University, Beijing 100871, China\n3School of Physics and Nuclear Energy Engineering,\nBeihang University, Beijing 100191, China\n4Department of Physics, University of Stellenbosch, Stellenbosch 7602, South Africa\nAbstract\nFor the ﬁrst time, the tilted axis cranking covariant density functional theory with pairing\ncorrelations has been formulated and implemented in a fully self-consistent and microscopic way\nto investigate the evolution of the spin axis and the pairing eﬀects in rotating triaxial nuclei. The\nmeasured energy spectrum and transition probabilities for the 135Nd yrast band are reproduced well\nwithout any ad hoc renormalization factors when pairing eﬀects are taken into account. A transition\nfrom collective to chiral rotation has been demonstrated.\nIt is found that pairing correlations\nintroduce additional admixtures in the single-particle orbitals, and, thus, inﬂuence the structure of\ntilted axis rotating nuclei by reducing the magnitude of the proton and neutron angular momenta\nwhile merging their direction.\nPACS numbers: 21.60.Jz, 21.10.Re, 23.20.-g, 27.60.+j\n∗pwzhao@pku.edu.cn\n1\n",
+  "raw_archived": false,
+  "fulltext_read": true,
+  "reading_audit": "outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/tac2015-reading-audit.json"
+}

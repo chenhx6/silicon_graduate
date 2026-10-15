@@ -18,6 +18,7 @@ tags: [a130, model-choice, mean-field, cranked-shell-model, hfb, angular-momentu
 
 ## Agent active summary
 
+- 后续直接核Zhao2015的O1/O2阻塞规则：需要phase/tie/reference与轨道日志，43-check控制不提供Pr136真实清单；平面推转也不生成完整手征partner谱。
 - Day14已核136Pr的valence/unpaired条件账本；Wang2017方法companion明确TAC-RHB的blocking、未恢复数目与算符依赖，但不补Q1/Q1*的实际reference/spectator。原PSM/TPSM直接覆盖2/7与131Ce模式排序均保持。
 - Day 3 已把 Hara–Sun 的投影核与轴对称迁移边界写入本卡；续接补入 Bhat 2014 `130Cs` 比较，并发现 Sheikh et al. 2024 对 Hara Table 5 的 `133La`、`135Pr` 两个 `N=76` 星号核素做了 TPSM 计算。后者的固定 `γ` 是模型输入，数据复用既有实验；不改变 `131Ce` project 的模式排序，也不确认其 `N=73` 形状。
 - Day 3 后续还核读 Jehangir et al. 2022 odd-neutron TPSM：`131Xe` 展示从 1ν/1ν+2π 到 3ν/3ν+2π 投影基底的扩展，但只是 N=77 同中子素方法控制，不是 Hara 表三核或 `131Ce` 的直接计算。
@@ -173,3 +174,19 @@ MeanN或spatialparity标签符合，不自动认证完整numbersector；未投�
 ### 方法companion的可迁移边界
 
 [[wang-2017-109ag-tac-separable-pairing]] W17-3、W17-5的109Ag例子要求追踪/阻塞准粒子且未做数目恢复，细法另回指Ref.[31]。它支持“取得完整输入再比较”的路线，不解除[[lv-2025-136pr-tac-covariant-density-functional]] LV25-32的Q1/Q1*清单缺口；核素、基空间和实际blocked states不同。W17-9进一步说明B(M1)比较依赖Dirac磁矩项处理，不能只凭能谱/ratio接近认证组态。新增的是[[configuration-occupation-audit]]中的方法契约，没有新Pr136实验或PSM/TPSM投影计算。
+
+直接读其上游[[zhao-2015-pairing-spin-orientation-tac]] ZT15-3、ZT15-4、ZT15-11后，已把“trace/block right qp”细化为分别最大化O1/O2、继承或反转标记及必要的phase/tie/zero-norm/reference日志。该方法及43-check声明控制仍不能填Pr136 Q1/Q1*实际spectator；2/7投影覆盖保持。ZT15-10的平面边界也不能用来为当前模式排序添加静态手征证明。
+
+### 配对方法谱系的批次REFLECT
+
+三个直接相关来源已形成自然方法阶段，比较的是输入和迁移边界：
+
+| 来源与核素 | 配对/数值层 | 已取得的方法信息 | 不能迁移或独立计数的部分 |
+| --- | --- | --- | --- |
+| [[zhao-2015-pairing-spin-orientation-tac]]，135Nd | odd–even质量差标定monopole、10壳 | ZT15-2/3/4：λ/ω迭代下的O1/O2阻塞框架 | 平面θ不是完整手征partner谱；实验点来自既有2003/2007研究 |
+| [[wang-2017-109ag-tac-separable-pairing]]，109Ag | 有限程可分离G/a、12壳 | W17-2/3：更换配对核仍回指2015的blocking；W17-9另处理Dirac磁矩项 | 不由135Nd的无统一衰减结论推109Ag无需算符处理；不是Pr136独立实验 |
+| [[lv-2025-136pr-tac-covariant-density-functional]]，136Pr | 10壳、Bogoliubov/可分离配对；带头配对为零者随后不使用Bogoliubov配对 | LV25-4/32：实验谱与TAC比较已在，但完整occupied/blocked/reference仍缺 | TableII/图caption不是可重放输入；新发表不等于新独立采集，βγ和Q1π仍按原证据层级 |
+
+谱系说明：方法引用建立继承关系，不认证三篇采用同一代码版本、phase/tie实现或相同模型参数，也不是对该程序的三次独立审核。能量/强度比较改善仍可能同时依赖pairing、单粒子输入和电磁算符；拟合后不能唯一倒推完整组态。反向检验是取得真实输入后重放blocked轨道和ρ/κ路径，再用独立电磁/形状观测比较竞争解释；当前没有这些Pr136输入，不造新的wavefunction结论。
+
+本阶段的持久化落点是本卡及[[configuration-occupation-audit]]，不另建synthesis/research-note；原2/7投影覆盖与131Ce模式排序不变。下一高信息问题仍可在136Pr原文中查γ/轴约定与实际模型输出、替代解释的界面，避免继续泛化同一个overlap toy。

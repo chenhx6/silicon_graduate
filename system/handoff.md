@@ -10,9 +10,9 @@ updated: 2026-10-15
 
 同run2026-10-14-day-14-02/session01a13a0e-e8bd-7251-b970-f6975679e281。用户断网延期最终delivery **2026-10-16 16:00上海**；plannedresearchcutoff15:00，closeout15–16，不延至17。Nativegoal/researchactive；formal14七边35checks/21/24/weeklyREFLECT完成，completed14/partial15、officialnext14/count13等最终一次credit，不开Day16。
 
-第023批：Wang2017 TAC-RHB方法companion9页/Figs1–8/关键公式及AppendixA已核，50check源参数/finiteFock/算符控制通过。Spin-singlet不指定species通道，Dirac组件缩放不同整体B；v2公式边界不判code错。Newsource/method/TAC/modelchoice/index；74items26changedpages，原rows/review/raw/protected/AST/diff保持，初缺source必需heading已修，freshlint0errors133warnings（108citekey/22rawslot/3parser）。Pr136实际blocked/reference/spectator仍缺，投影覆盖2/7不变。
+第024批：Zhao2015上游方法13页/Figs1–5已核，O1/O2继承/反转定义与43check实canonical/BdG、phase/tie/reference控制完成；初42后补eigenbasis合法性，ρ/κ联合校核，abs/firstargmax不归作者。不填Pr136spectator/判code错。Source/method/TAC/project/W17/index及三来源方法谱系REFLECT同步；81items27changedpages，原rows/review/LV25/MU07/raw/protected/AST/diff保持。初矩阵双括号误作wikilink已修，freshlint0errors135warnings（109citekey/23rawslot/3parser）。
 
-前22批Gitee已published；本批main / `Calibrate DAY14 TAC pairing and blocking input contract`，actualH3/hash仅receipt。下一tac2015-blocking-before-sources.md已freeze，Ref31 PRC92,034319(2015)先核metadata/合法全文再读following/blocking。1996新quotedDOI/title/HAL入口均0精确匹配，primary仍missing，不重复旧403/认证路线；actualL4事件/response/Σ缺。
+前23批Gitee已published；本批main / `Audit DAY14 quasiparticle following and method lineage`，actualH3/hash仅receipt。下一pr136-gamma-before-focused-reread.md已freeze，先核LV25 PDF11–15的TableII/Fig16与alternate D4/D6 γ/axes，读既有triaxial-deformation；不预填sourceframe或形状共存。193Bi actualresponse/τ/events缺，1996primary仍missing，不重复旧route/toy；投影覆盖2/7不变。
 
 Clock001/002/005/008actualACK；旧Farmer8686/clock75781notlive未重启。恢复 `codex resume 01a13a0e-e8bd-7251-b970-f6975679e281 -C /workspace/wiki -s danger-full-access -a never`，先run.json/最新continuation按新时间门继续。保留raw/PLAN/Bib/review/继承dirty/log/daemon/scheduler混合文件，manifest/H3非force发布。
 

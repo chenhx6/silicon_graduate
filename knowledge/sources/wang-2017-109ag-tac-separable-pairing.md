@@ -108,6 +108,10 @@ Decision: **supports** 配对与阻塞是独立必要输入；**limits** 从拟�
 - Models: [[tilted-axis-cranking]]
 - Projects: [[a130-model-choice-card]]
 
+## 上游阻塞方法的后续核验
+
+后续已直接读取本页Ref.[31]的[[zhao-2015-pairing-spin-orientation-tac]]；ZT15-3、ZT15-4给出分开最大化O1/O2和继承/反转blocked标记。[[configuration-occupation-audit]]固化其43-check实canonical/BdG控制与phase/tie/zero-norm/reference重放缺口。这个后续来源缩小方法定义缺口，不改本页既有claims/review，也不补Pr136实际轨道或增加独立实验。
+
 ## Provenance
 
 - [Crossref](https://api.crossref.org/works/10.1103/PhysRevC.96.054324)：精确DOI、作者、题名、卷/文章号和发表日期。

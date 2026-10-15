@@ -76,6 +76,12 @@ Agarwal et al. compare a 3qp TAC solution, πh11/2⊗ν(h11/2)−2, with a 5qp s
 
 该文Fig.8同时改变配对和Dirac磁矩项处理。只缩放Dirac项不是整体缩放B(M1)，也不等于新实验对配对的独立确认。l–i/l–s方向和canonical组成为模型输出。所读v2的Eq.(25)、A18/A19另有字面一致性边界，未据此判实际程序错；详见[[configuration-occupation-audit]]。这一方法companion不能替136Pr补blocking/reference/spectator，不新增good-I投影或核素模式结论。
 
+### 2015年上游阻塞方法与平面限制
+
+[[zhao-2015-pairing-spin-orientation-tac]] ZT15-3、ZT15-4明确分别最大化O1/O2：同分量分支继承blocking，U/V交换分支反转标记。它需要实际qp波函数、reference与轨道追踪约定；[[configuration-occupation-audit]]的43-check实简并控制只列出replay所需材料，不代替135Nd或Pr136输入。
+
+ZT15-10的计算仅允许xz平面转轴，其l–i/l–s变化与作者借上游寿命/模型所作chiral-vibration解释分开；本工作未直接给三维aplanar解或partner splitting。ZT15-6的回弯区结果省略，ZT15-9的“无统一.3衰减”也只针对其135Nd算例，不能推广到所有核素/配对/算符。模型复用外部实验点不增加独立采集。
+
 ## Related Models
 
 [[particle-rotor-model]]
@@ -84,6 +90,7 @@ Use the symmetry labels explicitly: PAC preserves a signature-like operation; pl
 
 ## Sources
 
+- [[zhao-2015-pairing-spin-orientation-tac]]
 - [[wang-2017-109ag-tac-separable-pairing]]
 - [[agarwal-2007-137pr-magnetic-rotation-bandcrossing]]
 - [[lv-2025-136pr-tac-covariant-density-functional]]
