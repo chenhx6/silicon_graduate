@@ -313,3 +313,6 @@ Day14延期最终交付截止2026-10-16 16:00，planned研究cutoff15:00，最�
 
 
 Day14延期另完成71-check D4 sameparent radiativeB商：τ/totalbranch/ICC共同分母何时消去，与需要δ/purity/匹配响应须分开；TableM空不自动填pure，Fig9一致不是独立实验。此为正式Day15 priming，仍需自身回忆与cardaudit。
+
+
+Day14延期另有62-check valence/unpaired条件ledger审计；Π标签、numberparity和未投影meanI不是同一个约束，必要条件不认证code。其method/input边界是priming，不给未来card学分或实际核素新性质。

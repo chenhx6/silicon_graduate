@@ -1,0 +1,11 @@
+# TableII valence/unpaired ledger：计算前冻结
+
+2026-10-15T17:03:51.892900+08:00。同Day14/partial15，新交付截止2026-10-16 16:00，plannedresearchcutoff15:00。已读完整LV25/TableII与Fig10caption，显式primed；此处是新的literalmodelinput充分性问题，不新source或coursecard。
+
+前次已知Fig10D6caption与TableII unpaired列不一致。下一最高信息audit：按TableII header分别转录valence与unpaired powers，检查Z59/N77相对closed Z50/N82 core的净9protons/−5neutrons；若unpaired列被解释为**完整**pair-reduced inventory，则每species与valence差必须偶数，pairedvacuum/pairedspectators不能补奇数fermionparity。
+
+新预测（来自先前视觉priming，非盲）：valence行可能都守恒，Q1/Q1* literalunpaired neutron数可能不满足完整解释；可能遗漏active-column以外spectator/不同记号约定。必须先核原TableII和正文/figcaption，再作条件结论；不能补写一个sd hole或断言作者代码错。缺particle-numberprojection不自动消除standardblockedstate的number-parity要求，但未确认作者unpaired列等于完整blockedHFBlist，故不得将ledger异常外推成真实模型wavefunction错误。
+
+独立检查electromagnetic parity产品可能仍全positive，即π符合不认证numberledger；valence与unpaired列不可混用推qp数或ℏvector。Source β/γ/tilt仍modelresult，无新experimentalπ/shape。要补的输入是实际occupied/blocked轨道、pairing/spectator定义和模型code—not重新用modelpositiveπ替代Q1POL缺口。
+
+允许读取已读copy的TableII/对应caption，所有计数为本任务exact整数核验；保持原literal、needs_review与源标签，不改raw或把missingcomponent填成事实。

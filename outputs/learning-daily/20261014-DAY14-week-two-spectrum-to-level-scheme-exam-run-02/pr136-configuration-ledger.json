@@ -1,0 +1,1232 @@
+{
+  "source": {
+    "path": "knowledge/sources/lv-2025-136pr-tac-covariant-density-functional.md",
+    "locator": "acceptedPDF15 TableII; acceptedPDF11 Figs9/10captions",
+    "actual_pdf_sha256": "c8e14461975a7606d7e38325d6e83b500e75d232027b118743e1f1ff754537d6"
+  },
+  "chosen_count_reference": {
+    "Zcore": 50,
+    "Ncore": 82,
+    "Ztarget": 59,
+    "Ntarget": 77
+  },
+  "interpretation_tested": "ONLY IF the unpaired column is a COMPLETE inventory above an even reference; species criterion for like-particle pairs, total parity criterion for any two-fermion pairs",
+  "table_results": [
+    {
+      "name": "ConfigD1",
+      "source_name_literal": "ConfigD1",
+      "valence_literal": "π(gd)8 (h11/2 )1 ⊗ ν(sd)−2 (h11/2 )−3",
+      "unpaired_literal": "π(h11/2;Ω≈1/2 )1 ⊗ ν(h11/2;Ω≈9/2 )−1",
+      "deformation_literal": "(0.18, 22◦ )",
+      "source_raw_line": "  ConfigD1        π(gd)8 (h11/2 )1 ⊗ ν(sd)−2 (h11/2 )−3                 π(h11/2;Ω≈1/2 )1 ⊗ ν(h11/2;Ω≈9/2 )−1                     (0.18, 22◦ )",
+      "valence_terms": {
+        "p": [
+          {
+            "orbital_literal": "gd",
+            "group_for_counting": "gd",
+            "power": 8,
+            "assumed_good_orbital_parity": 1
+          },
+          {
+            "orbital_literal": "h11/2",
+            "group_for_counting": "h11/2",
+            "power": 1,
+            "assumed_good_orbital_parity": -1
+          }
+        ],
+        "n": [
+          {
+            "orbital_literal": "sd",
+            "group_for_counting": "sd",
+            "power": -2,
+            "assumed_good_orbital_parity": 1
+          },
+          {
+            "orbital_literal": "h11/2",
+            "group_for_counting": "h11/2",
+            "power": -3,
+            "assumed_good_orbital_parity": -1
+          }
+        ]
+      },
+      "unpaired_listed_terms": {
+        "p": [
+          {
+            "orbital_literal": "h11/2;Ω≈1/2",
+            "group_for_counting": "h11/2",
+            "power": 1,
+            "assumed_good_orbital_parity": -1
+          }
+        ],
+        "n": [
+          {
+            "orbital_literal": "h11/2;Ω≈9/2",
+            "group_for_counting": "h11/2",
+            "power": -1,
+            "assumed_good_orbital_parity": -1
+          }
+        ]
+      },
+      "valence_summary": {
+        "p": {
+          "listed_signed_power_sum": 9,
+          "listed_particle_hole_terms_count": 9,
+          "listed_number_parity": 1,
+          "label_spatial_parity_product": -1
+        },
+        "n": {
+          "listed_signed_power_sum": -5,
+          "listed_particle_hole_terms_count": 5,
+          "listed_number_parity": 1,
+          "label_spatial_parity_product": -1
+        }
+      },
+      "unpaired_listed_summary": {
+        "p": {
+          "listed_signed_power_sum": 1,
+          "listed_particle_hole_terms_count": 1,
+          "listed_number_parity": 1,
+          "label_spatial_parity_product": -1
+        },
+        "n": {
+          "listed_signed_power_sum": -1,
+          "listed_particle_hole_terms_count": 1,
+          "listed_number_parity": 1,
+          "label_spatial_parity_product": -1
+        }
+      },
+      "unlisted_valence_groups_not_zero_filled": {
+        "p": {
+          "gd": null
+        },
+        "n": {
+          "sd": null
+        }
+      },
+      "residual_if_column_complete": {
+        "p": 8,
+        "n": -4
+      },
+      "pair_completion_numberparity_necessary_condition": true,
+      "any_two_fermion_pair_completion_total_parity_necessary_condition": true,
+      "listed_unpaired_absolute_count": 2,
+      "total_I_class_if_complete_even_paired_reference": "integer",
+      "actual_blocked_configuration": null,
+      "actual_reference_or_spectators": null
+    },
+    {
+      "name": "ConfigD2",
+      "source_name_literal": "ConfigD2",
+      "valence_literal": "π(gd)7 (h11/2 )2 ⊗ ν(sd)−3 (h11/2 )−2",
+      "unpaired_literal": "π(gd)1 (h11/2 )2 ⊗ ν(s1/2 d3/2 )−1",
+      "deformation_literal": "(0.20, 27◦ )",
+      "source_raw_line": "  ConfigD2        π(gd)7 (h11/2 )2 ⊗ ν(sd)−3 (h11/2 )−2                 π(gd)1 (h11/2 )2 ⊗ ν(s1/2 d3/2 )−1                       (0.20, 27◦ )",
+      "valence_terms": {
+        "p": [
+          {
+            "orbital_literal": "gd",
+            "group_for_counting": "gd",
+            "power": 7,
+            "assumed_good_orbital_parity": 1
+          },
+          {
+            "orbital_literal": "h11/2",
+            "group_for_counting": "h11/2",
+            "power": 2,
+            "assumed_good_orbital_parity": -1
+          }
+        ],
+        "n": [
+          {
+            "orbital_literal": "sd",
+            "group_for_counting": "sd",
+            "power": -3,
+            "assumed_good_orbital_parity": 1
+          },
+          {
+            "orbital_literal": "h11/2",
+            "group_for_counting": "h11/2",
+            "power": -2,
+            "assumed_good_orbital_parity": -1
+          }
+        ]
+      },
+      "unpaired_listed_terms": {
+        "p": [
+          {
+            "orbital_literal": "gd",
+            "group_for_counting": "gd",
+            "power": 1,
+            "assumed_good_orbital_parity": 1
+          },
+          {
+            "orbital_literal": "h11/2",
+            "group_for_counting": "h11/2",
+            "power": 2,
+            "assumed_good_orbital_parity": -1
+          }
+        ],
+        "n": [
+          {
+            "orbital_literal": "s1/2d3/2",
+            "group_for_counting": "sd",
+            "power": -1,
+            "assumed_good_orbital_parity": 1
+          }
+        ]
+      },
+      "valence_summary": {
+        "p": {
+          "listed_signed_power_sum": 9,
+          "listed_particle_hole_terms_count": 9,
+          "listed_number_parity": 1,
+          "label_spatial_parity_product": 1
+        },
+        "n": {
+          "listed_signed_power_sum": -5,
+          "listed_particle_hole_terms_count": 5,
+          "listed_number_parity": 1,
+          "label_spatial_parity_product": 1
+        }
+      },
+      "unpaired_listed_summary": {
+        "p": {
+          "listed_signed_power_sum": 3,
+          "listed_particle_hole_terms_count": 3,
+          "listed_number_parity": 1,
+          "label_spatial_parity_product": 1
+        },
+        "n": {
+          "listed_signed_power_sum": -1,
+          "listed_particle_hole_terms_count": 1,
+          "listed_number_parity": 1,
+          "label_spatial_parity_product": 1
+        }
+      },
+      "unlisted_valence_groups_not_zero_filled": {
+        "p": {},
+        "n": {
+          "h11/2": null
+        }
+      },
+      "residual_if_column_complete": {
+        "p": 6,
+        "n": -4
+      },
+      "pair_completion_numberparity_necessary_condition": true,
+      "any_two_fermion_pair_completion_total_parity_necessary_condition": true,
+      "listed_unpaired_absolute_count": 4,
+      "total_I_class_if_complete_even_paired_reference": "integer",
+      "actual_blocked_configuration": null,
+      "actual_reference_or_spectators": null
+    },
+    {
+      "name": "ConfigD3",
+      "source_name_literal": "ConfigD3",
+      "valence_literal": "π(gd)8 (h11/2 )1 ⊗ ν(sd)−2 (h11/2 )−3",
+      "unpaired_literal": "π(gd)4 (h11/2;Ω≈1/2 )1 ⊗ ν(h11/2;Ω≈9/2 )−1",
+      "deformation_literal": "(0.17, 23◦ )",
+      "source_raw_line": "  ConfigD3        π(gd)8 (h11/2 )1 ⊗ ν(sd)−2 (h11/2 )−3                 π(gd)4 (h11/2;Ω≈1/2 )1 ⊗ ν(h11/2;Ω≈9/2 )−1               (0.17, 23◦ )",
+      "valence_terms": {
+        "p": [
+          {
+            "orbital_literal": "gd",
+            "group_for_counting": "gd",
+            "power": 8,
+            "assumed_good_orbital_parity": 1
+          },
+          {
+            "orbital_literal": "h11/2",
+            "group_for_counting": "h11/2",
+            "power": 1,
+            "assumed_good_orbital_parity": -1
+          }
+        ],
+        "n": [
+          {
+            "orbital_literal": "sd",
+            "group_for_counting": "sd",
+            "power": -2,
+            "assumed_good_orbital_parity": 1
+          },
+          {
+            "orbital_literal": "h11/2",
+            "group_for_counting": "h11/2",
+            "power": -3,
+            "assumed_good_orbital_parity": -1
+          }
+        ]
+      },
+      "unpaired_listed_terms": {
+        "p": [
+          {
+            "orbital_literal": "gd",
+            "group_for_counting": "gd",
+            "power": 4,
+            "assumed_good_orbital_parity": 1
+          },
+          {
+            "orbital_literal": "h11/2;Ω≈1/2",
+            "group_for_counting": "h11/2",
+            "power": 1,
+            "assumed_good_orbital_parity": -1
+          }
+        ],
+        "n": [
+          {
+            "orbital_literal": "h11/2;Ω≈9/2",
+            "group_for_counting": "h11/2",
+            "power": -1,
+            "assumed_good_orbital_parity": -1
+          }
+        ]
+      },
+      "valence_summary": {
+        "p": {
+          "listed_signed_power_sum": 9,
+          "listed_particle_hole_terms_count": 9,
+          "listed_number_parity": 1,
+          "label_spatial_parity_product": -1
+        },
+        "n": {
+          "listed_signed_power_sum": -5,
+          "listed_particle_hole_terms_count": 5,
+          "listed_number_parity": 1,
+          "label_spatial_parity_product": -1
+        }
+      },
+      "unpaired_listed_summary": {
+        "p": {
+          "listed_signed_power_sum": 5,
+          "listed_particle_hole_terms_count": 5,
+          "listed_number_parity": 1,
+          "label_spatial_parity_product": -1
+        },
+        "n": {
+          "listed_signed_power_sum": -1,
+          "listed_particle_hole_terms_count": 1,
+          "listed_number_parity": 1,
+          "label_spatial_parity_product": -1
+        }
+      },
+      "unlisted_valence_groups_not_zero_filled": {
+        "p": {},
+        "n": {
+          "sd": null
+        }
+      },
+      "residual_if_column_complete": {
+        "p": 4,
+        "n": -4
+      },
+      "pair_completion_numberparity_necessary_condition": true,
+      "any_two_fermion_pair_completion_total_parity_necessary_condition": true,
+      "listed_unpaired_absolute_count": 6,
+      "total_I_class_if_complete_even_paired_reference": "integer",
+      "actual_blocked_configuration": null,
+      "actual_reference_or_spectators": null
+    },
+    {
+      "name": "ConfigD4",
+      "source_name_literal": "ConfigD4",
+      "valence_literal": "π(gd)8 (h11/2;Ω≈3/2 )1 ⊗ν(sd)−4 (h11/2;Ω≈11/2 )−1",
+      "unpaired_literal": "π(gd)2 (h11/2;Ω≈3/2 )1 ⊗ν(sd)−4 (h11/2;Ω≈11/2 )−1",
+      "deformation_literal": "(0.17, 35◦ )",
+      "source_raw_line": "  ConfigD4        π(gd)8 (h11/2;Ω≈3/2 )1 ⊗ν(sd)−4 (h11/2;Ω≈11/2 )−1     π(gd)2 (h11/2;Ω≈3/2 )1 ⊗ν(sd)−4 (h11/2;Ω≈11/2 )−1        (0.17, 35◦ )",
+      "valence_terms": {
+        "p": [
+          {
+            "orbital_literal": "gd",
+            "group_for_counting": "gd",
+            "power": 8,
+            "assumed_good_orbital_parity": 1
+          },
+          {
+            "orbital_literal": "h11/2;Ω≈3/2",
+            "group_for_counting": "h11/2",
+            "power": 1,
+            "assumed_good_orbital_parity": -1
+          }
+        ],
+        "n": [
+          {
+            "orbital_literal": "sd",
+            "group_for_counting": "sd",
+            "power": -4,
+            "assumed_good_orbital_parity": 1
+          },
+          {
+            "orbital_literal": "h11/2;Ω≈11/2",
+            "group_for_counting": "h11/2",
+            "power": -1,
+            "assumed_good_orbital_parity": -1
+          }
+        ]
+      },
+      "unpaired_listed_terms": {
+        "p": [
+          {
+            "orbital_literal": "gd",
+            "group_for_counting": "gd",
+            "power": 2,
+            "assumed_good_orbital_parity": 1
+          },
+          {
+            "orbital_literal": "h11/2;Ω≈3/2",
+            "group_for_counting": "h11/2",
+            "power": 1,
+            "assumed_good_orbital_parity": -1
+          }
+        ],
+        "n": [
+          {
+            "orbital_literal": "sd",
+            "group_for_counting": "sd",
+            "power": -4,
+            "assumed_good_orbital_parity": 1
+          },
+          {
+            "orbital_literal": "h11/2;Ω≈11/2",
+            "group_for_counting": "h11/2",
+            "power": -1,
+            "assumed_good_orbital_parity": -1
+          }
+        ]
+      },
+      "valence_summary": {
+        "p": {
+          "listed_signed_power_sum": 9,
+          "listed_particle_hole_terms_count": 9,
+          "listed_number_parity": 1,
+          "label_spatial_parity_product": -1
+        },
+        "n": {
+          "listed_signed_power_sum": -5,
+          "listed_particle_hole_terms_count": 5,
+          "listed_number_parity": 1,
+          "label_spatial_parity_product": -1
+        }
+      },
+      "unpaired_listed_summary": {
+        "p": {
+          "listed_signed_power_sum": 3,
+          "listed_particle_hole_terms_count": 3,
+          "listed_number_parity": 1,
+          "label_spatial_parity_product": -1
+        },
+        "n": {
+          "listed_signed_power_sum": -5,
+          "listed_particle_hole_terms_count": 5,
+          "listed_number_parity": 1,
+          "label_spatial_parity_product": -1
+        }
+      },
+      "unlisted_valence_groups_not_zero_filled": {
+        "p": {},
+        "n": {}
+      },
+      "residual_if_column_complete": {
+        "p": 6,
+        "n": 0
+      },
+      "pair_completion_numberparity_necessary_condition": true,
+      "any_two_fermion_pair_completion_total_parity_necessary_condition": true,
+      "listed_unpaired_absolute_count": 8,
+      "total_I_class_if_complete_even_paired_reference": "integer",
+      "actual_blocked_configuration": null,
+      "actual_reference_or_spectators": null
+    },
+    {
+      "name": "ConfigD6",
+      "source_name_literal": "ConfigD6",
+      "valence_literal": "π(gd)8 (h11/2;Ω≈1/2 )1 ⊗ν(sd)−4 (h11/2;Ω≈11/2 )−1",
+      "unpaired_literal": "π(gd)2 (h11/2;Ω≈1/2 )1 ⊗ν(sd)−4 (h11/2;Ω≈11/2 )−1",
+      "deformation_literal": "(0.19, 39◦ )",
+      "source_raw_line": "  ConfigD6        π(gd)8 (h11/2;Ω≈1/2 )1 ⊗ν(sd)−4 (h11/2;Ω≈11/2 )−1     π(gd)2 (h11/2;Ω≈1/2 )1 ⊗ν(sd)−4 (h11/2;Ω≈11/2 )−1        (0.19, 39◦ )",
+      "valence_terms": {
+        "p": [
+          {
+            "orbital_literal": "gd",
+            "group_for_counting": "gd",
+            "power": 8,
+            "assumed_good_orbital_parity": 1
+          },
+          {
+            "orbital_literal": "h11/2;Ω≈1/2",
+            "group_for_counting": "h11/2",
+            "power": 1,
+            "assumed_good_orbital_parity": -1
+          }
+        ],
+        "n": [
+          {
+            "orbital_literal": "sd",
+            "group_for_counting": "sd",
+            "power": -4,
+            "assumed_good_orbital_parity": 1
+          },
+          {
+            "orbital_literal": "h11/2;Ω≈11/2",
+            "group_for_counting": "h11/2",
+            "power": -1,
+            "assumed_good_orbital_parity": -1
+          }
+        ]
+      },
+      "unpaired_listed_terms": {
+        "p": [
+          {
+            "orbital_literal": "gd",
+            "group_for_counting": "gd",
+            "power": 2,
+            "assumed_good_orbital_parity": 1
+          },
+          {
+            "orbital_literal": "h11/2;Ω≈1/2",
+            "group_for_counting": "h11/2",
+            "power": 1,
+            "assumed_good_orbital_parity": -1
+          }
+        ],
+        "n": [
+          {
+            "orbital_literal": "sd",
+            "group_for_counting": "sd",
+            "power": -4,
+            "assumed_good_orbital_parity": 1
+          },
+          {
+            "orbital_literal": "h11/2;Ω≈11/2",
+            "group_for_counting": "h11/2",
+            "power": -1,
+            "assumed_good_orbital_parity": -1
+          }
+        ]
+      },
+      "valence_summary": {
+        "p": {
+          "listed_signed_power_sum": 9,
+          "listed_particle_hole_terms_count": 9,
+          "listed_number_parity": 1,
+          "label_spatial_parity_product": -1
+        },
+        "n": {
+          "listed_signed_power_sum": -5,
+          "listed_particle_hole_terms_count": 5,
+          "listed_number_parity": 1,
+          "label_spatial_parity_product": -1
+        }
+      },
+      "unpaired_listed_summary": {
+        "p": {
+          "listed_signed_power_sum": 3,
+          "listed_particle_hole_terms_count": 3,
+          "listed_number_parity": 1,
+          "label_spatial_parity_product": -1
+        },
+        "n": {
+          "listed_signed_power_sum": -5,
+          "listed_particle_hole_terms_count": 5,
+          "listed_number_parity": 1,
+          "label_spatial_parity_product": -1
+        }
+      },
+      "unlisted_valence_groups_not_zero_filled": {
+        "p": {},
+        "n": {}
+      },
+      "residual_if_column_complete": {
+        "p": 6,
+        "n": 0
+      },
+      "pair_completion_numberparity_necessary_condition": true,
+      "any_two_fermion_pair_completion_total_parity_necessary_condition": true,
+      "listed_unpaired_absolute_count": 8,
+      "total_I_class_if_complete_even_paired_reference": "integer",
+      "actual_blocked_configuration": null,
+      "actual_reference_or_spectators": null
+    },
+    {
+      "name": "ConfigQ1",
+      "source_name_literal": "ConfigQ1",
+      "valence_literal": "π(gd)7 (h11/2 )2 ⊗ ν(sd)−3 (h11/2 )−3 (h9/2 )1",
+      "unpaired_literal": "π(gd)1 (h11/2 )2 ⊗ ν(h11/2 )−1 (h9/2 )1",
+      "deformation_literal": "(0.24, 17◦ )",
+      "source_raw_line": "  ConfigQ1        π(gd)7 (h11/2 )2 ⊗ ν(sd)−3 (h11/2 )−3 (h9/2 )1        π(gd)1 (h11/2 )2 ⊗ ν(h11/2 )−1 (h9/2 )1                  (0.24, 17◦ )",
+      "valence_terms": {
+        "p": [
+          {
+            "orbital_literal": "gd",
+            "group_for_counting": "gd",
+            "power": 7,
+            "assumed_good_orbital_parity": 1
+          },
+          {
+            "orbital_literal": "h11/2",
+            "group_for_counting": "h11/2",
+            "power": 2,
+            "assumed_good_orbital_parity": -1
+          }
+        ],
+        "n": [
+          {
+            "orbital_literal": "sd",
+            "group_for_counting": "sd",
+            "power": -3,
+            "assumed_good_orbital_parity": 1
+          },
+          {
+            "orbital_literal": "h11/2",
+            "group_for_counting": "h11/2",
+            "power": -3,
+            "assumed_good_orbital_parity": -1
+          },
+          {
+            "orbital_literal": "h9/2",
+            "group_for_counting": "h9/2",
+            "power": 1,
+            "assumed_good_orbital_parity": -1
+          }
+        ]
+      },
+      "unpaired_listed_terms": {
+        "p": [
+          {
+            "orbital_literal": "gd",
+            "group_for_counting": "gd",
+            "power": 1,
+            "assumed_good_orbital_parity": 1
+          },
+          {
+            "orbital_literal": "h11/2",
+            "group_for_counting": "h11/2",
+            "power": 2,
+            "assumed_good_orbital_parity": -1
+          }
+        ],
+        "n": [
+          {
+            "orbital_literal": "h11/2",
+            "group_for_counting": "h11/2",
+            "power": -1,
+            "assumed_good_orbital_parity": -1
+          },
+          {
+            "orbital_literal": "h9/2",
+            "group_for_counting": "h9/2",
+            "power": 1,
+            "assumed_good_orbital_parity": -1
+          }
+        ]
+      },
+      "valence_summary": {
+        "p": {
+          "listed_signed_power_sum": 9,
+          "listed_particle_hole_terms_count": 9,
+          "listed_number_parity": 1,
+          "label_spatial_parity_product": 1
+        },
+        "n": {
+          "listed_signed_power_sum": -5,
+          "listed_particle_hole_terms_count": 7,
+          "listed_number_parity": 1,
+          "label_spatial_parity_product": 1
+        }
+      },
+      "unpaired_listed_summary": {
+        "p": {
+          "listed_signed_power_sum": 3,
+          "listed_particle_hole_terms_count": 3,
+          "listed_number_parity": 1,
+          "label_spatial_parity_product": 1
+        },
+        "n": {
+          "listed_signed_power_sum": 0,
+          "listed_particle_hole_terms_count": 2,
+          "listed_number_parity": 0,
+          "label_spatial_parity_product": 1
+        }
+      },
+      "unlisted_valence_groups_not_zero_filled": {
+        "p": {},
+        "n": {
+          "sd": null
+        }
+      },
+      "residual_if_column_complete": {
+        "p": 6,
+        "n": -5
+      },
+      "pair_completion_numberparity_necessary_condition": false,
+      "any_two_fermion_pair_completion_total_parity_necessary_condition": false,
+      "listed_unpaired_absolute_count": 5,
+      "total_I_class_if_complete_even_paired_reference": "half-integer",
+      "actual_blocked_configuration": null,
+      "actual_reference_or_spectators": null
+    },
+    {
+      "name": "ConfigQ1*",
+      "source_name_literal": "ConfigQ1∗",
+      "valence_literal": "π(gd)7 (h11/2 )2 ⊗ ν(sd)−3 (h11/2 )−3 (f7/2 )1",
+      "unpaired_literal": "π(gd)1 (h11/2 )2 ⊗ ν(h11/2 )−1 (f7/2 )1",
+      "deformation_literal": "(0.24, 14◦ )",
+      "source_raw_line": "  ConfigQ1∗       π(gd)7 (h11/2 )2 ⊗ ν(sd)−3 (h11/2 )−3 (f7/2 )1        π(gd)1 (h11/2 )2 ⊗ ν(h11/2 )−1 (f7/2 )1                  (0.24, 14◦ )",
+      "valence_terms": {
+        "p": [
+          {
+            "orbital_literal": "gd",
+            "group_for_counting": "gd",
+            "power": 7,
+            "assumed_good_orbital_parity": 1
+          },
+          {
+            "orbital_literal": "h11/2",
+            "group_for_counting": "h11/2",
+            "power": 2,
+            "assumed_good_orbital_parity": -1
+          }
+        ],
+        "n": [
+          {
+            "orbital_literal": "sd",
+            "group_for_counting": "sd",
+            "power": -3,
+            "assumed_good_orbital_parity": 1
+          },
+          {
+            "orbital_literal": "h11/2",
+            "group_for_counting": "h11/2",
+            "power": -3,
+            "assumed_good_orbital_parity": -1
+          },
+          {
+            "orbital_literal": "f7/2",
+            "group_for_counting": "f7/2",
+            "power": 1,
+            "assumed_good_orbital_parity": -1
+          }
+        ]
+      },
+      "unpaired_listed_terms": {
+        "p": [
+          {
+            "orbital_literal": "gd",
+            "group_for_counting": "gd",
+            "power": 1,
+            "assumed_good_orbital_parity": 1
+          },
+          {
+            "orbital_literal": "h11/2",
+            "group_for_counting": "h11/2",
+            "power": 2,
+            "assumed_good_orbital_parity": -1
+          }
+        ],
+        "n": [
+          {
+            "orbital_literal": "h11/2",
+            "group_for_counting": "h11/2",
+            "power": -1,
+            "assumed_good_orbital_parity": -1
+          },
+          {
+            "orbital_literal": "f7/2",
+            "group_for_counting": "f7/2",
+            "power": 1,
+            "assumed_good_orbital_parity": -1
+          }
+        ]
+      },
+      "valence_summary": {
+        "p": {
+          "listed_signed_power_sum": 9,
+          "listed_particle_hole_terms_count": 9,
+          "listed_number_parity": 1,
+          "label_spatial_parity_product": 1
+        },
+        "n": {
+          "listed_signed_power_sum": -5,
+          "listed_particle_hole_terms_count": 7,
+          "listed_number_parity": 1,
+          "label_spatial_parity_product": 1
+        }
+      },
+      "unpaired_listed_summary": {
+        "p": {
+          "listed_signed_power_sum": 3,
+          "listed_particle_hole_terms_count": 3,
+          "listed_number_parity": 1,
+          "label_spatial_parity_product": 1
+        },
+        "n": {
+          "listed_signed_power_sum": 0,
+          "listed_particle_hole_terms_count": 2,
+          "listed_number_parity": 0,
+          "label_spatial_parity_product": 1
+        }
+      },
+      "unlisted_valence_groups_not_zero_filled": {
+        "p": {},
+        "n": {
+          "sd": null
+        }
+      },
+      "residual_if_column_complete": {
+        "p": 6,
+        "n": -5
+      },
+      "pair_completion_numberparity_necessary_condition": false,
+      "any_two_fermion_pair_completion_total_parity_necessary_condition": false,
+      "listed_unpaired_absolute_count": 5,
+      "total_I_class_if_complete_even_paired_reference": "half-integer",
+      "actual_blocked_configuration": null,
+      "actual_reference_or_spectators": null
+    },
+    {
+      "name": "ConfigQ2",
+      "source_name_literal": "ConfigQ2",
+      "valence_literal": "π(gd)8 (h11/2 )1 ⊗ ν(sd)−2 (h11/2 )−4 (h9/2 )1",
+      "unpaired_literal": "π(gd)2 (h11/2 )1 ⊗ ν(h11/2 )−2 (h9/2 )1",
+      "deformation_literal": "(0.22, 17◦ )",
+      "source_raw_line": "  ConfigQ2        π(gd)8 (h11/2 )1 ⊗ ν(sd)−2 (h11/2 )−4 (h9/2 )1        π(gd)2 (h11/2 )1 ⊗ ν(h11/2 )−2 (h9/2 )1                  (0.22, 17◦ )",
+      "valence_terms": {
+        "p": [
+          {
+            "orbital_literal": "gd",
+            "group_for_counting": "gd",
+            "power": 8,
+            "assumed_good_orbital_parity": 1
+          },
+          {
+            "orbital_literal": "h11/2",
+            "group_for_counting": "h11/2",
+            "power": 1,
+            "assumed_good_orbital_parity": -1
+          }
+        ],
+        "n": [
+          {
+            "orbital_literal": "sd",
+            "group_for_counting": "sd",
+            "power": -2,
+            "assumed_good_orbital_parity": 1
+          },
+          {
+            "orbital_literal": "h11/2",
+            "group_for_counting": "h11/2",
+            "power": -4,
+            "assumed_good_orbital_parity": -1
+          },
+          {
+            "orbital_literal": "h9/2",
+            "group_for_counting": "h9/2",
+            "power": 1,
+            "assumed_good_orbital_parity": -1
+          }
+        ]
+      },
+      "unpaired_listed_terms": {
+        "p": [
+          {
+            "orbital_literal": "gd",
+            "group_for_counting": "gd",
+            "power": 2,
+            "assumed_good_orbital_parity": 1
+          },
+          {
+            "orbital_literal": "h11/2",
+            "group_for_counting": "h11/2",
+            "power": 1,
+            "assumed_good_orbital_parity": -1
+          }
+        ],
+        "n": [
+          {
+            "orbital_literal": "h11/2",
+            "group_for_counting": "h11/2",
+            "power": -2,
+            "assumed_good_orbital_parity": -1
+          },
+          {
+            "orbital_literal": "h9/2",
+            "group_for_counting": "h9/2",
+            "power": 1,
+            "assumed_good_orbital_parity": -1
+          }
+        ]
+      },
+      "valence_summary": {
+        "p": {
+          "listed_signed_power_sum": 9,
+          "listed_particle_hole_terms_count": 9,
+          "listed_number_parity": 1,
+          "label_spatial_parity_product": -1
+        },
+        "n": {
+          "listed_signed_power_sum": -5,
+          "listed_particle_hole_terms_count": 7,
+          "listed_number_parity": 1,
+          "label_spatial_parity_product": -1
+        }
+      },
+      "unpaired_listed_summary": {
+        "p": {
+          "listed_signed_power_sum": 3,
+          "listed_particle_hole_terms_count": 3,
+          "listed_number_parity": 1,
+          "label_spatial_parity_product": -1
+        },
+        "n": {
+          "listed_signed_power_sum": -1,
+          "listed_particle_hole_terms_count": 3,
+          "listed_number_parity": 1,
+          "label_spatial_parity_product": -1
+        }
+      },
+      "unlisted_valence_groups_not_zero_filled": {
+        "p": {},
+        "n": {
+          "sd": null
+        }
+      },
+      "residual_if_column_complete": {
+        "p": 6,
+        "n": -4
+      },
+      "pair_completion_numberparity_necessary_condition": true,
+      "any_two_fermion_pair_completion_total_parity_necessary_condition": true,
+      "listed_unpaired_absolute_count": 6,
+      "total_I_class_if_complete_even_paired_reference": "integer",
+      "actual_blocked_configuration": null,
+      "actual_reference_or_spectators": null
+    },
+    {
+      "name": "ConfigQ2*",
+      "source_name_literal": "ConfigQ2∗",
+      "valence_literal": "π(gd)8 (h11/2 )1 ⊗ ν(sd)−2 (h11/2 )−4 (f7/2 )1",
+      "unpaired_literal": "π(gd)2 (h11/2 )1 ⊗ ν(h11/2 )−2 (f7/2 )1",
+      "deformation_literal": "(0.22, 17◦ )",
+      "source_raw_line": "  ConfigQ2∗       π(gd)8 (h11/2 )1 ⊗ ν(sd)−2 (h11/2 )−4 (f7/2 )1        π(gd)2 (h11/2 )1 ⊗ ν(h11/2 )−2 (f7/2 )1                  (0.22, 17◦ )",
+      "valence_terms": {
+        "p": [
+          {
+            "orbital_literal": "gd",
+            "group_for_counting": "gd",
+            "power": 8,
+            "assumed_good_orbital_parity": 1
+          },
+          {
+            "orbital_literal": "h11/2",
+            "group_for_counting": "h11/2",
+            "power": 1,
+            "assumed_good_orbital_parity": -1
+          }
+        ],
+        "n": [
+          {
+            "orbital_literal": "sd",
+            "group_for_counting": "sd",
+            "power": -2,
+            "assumed_good_orbital_parity": 1
+          },
+          {
+            "orbital_literal": "h11/2",
+            "group_for_counting": "h11/2",
+            "power": -4,
+            "assumed_good_orbital_parity": -1
+          },
+          {
+            "orbital_literal": "f7/2",
+            "group_for_counting": "f7/2",
+            "power": 1,
+            "assumed_good_orbital_parity": -1
+          }
+        ]
+      },
+      "unpaired_listed_terms": {
+        "p": [
+          {
+            "orbital_literal": "gd",
+            "group_for_counting": "gd",
+            "power": 2,
+            "assumed_good_orbital_parity": 1
+          },
+          {
+            "orbital_literal": "h11/2",
+            "group_for_counting": "h11/2",
+            "power": 1,
+            "assumed_good_orbital_parity": -1
+          }
+        ],
+        "n": [
+          {
+            "orbital_literal": "h11/2",
+            "group_for_counting": "h11/2",
+            "power": -2,
+            "assumed_good_orbital_parity": -1
+          },
+          {
+            "orbital_literal": "f7/2",
+            "group_for_counting": "f7/2",
+            "power": 1,
+            "assumed_good_orbital_parity": -1
+          }
+        ]
+      },
+      "valence_summary": {
+        "p": {
+          "listed_signed_power_sum": 9,
+          "listed_particle_hole_terms_count": 9,
+          "listed_number_parity": 1,
+          "label_spatial_parity_product": -1
+        },
+        "n": {
+          "listed_signed_power_sum": -5,
+          "listed_particle_hole_terms_count": 7,
+          "listed_number_parity": 1,
+          "label_spatial_parity_product": -1
+        }
+      },
+      "unpaired_listed_summary": {
+        "p": {
+          "listed_signed_power_sum": 3,
+          "listed_particle_hole_terms_count": 3,
+          "listed_number_parity": 1,
+          "label_spatial_parity_product": -1
+        },
+        "n": {
+          "listed_signed_power_sum": -1,
+          "listed_particle_hole_terms_count": 3,
+          "listed_number_parity": 1,
+          "label_spatial_parity_product": -1
+        }
+      },
+      "unlisted_valence_groups_not_zero_filled": {
+        "p": {},
+        "n": {
+          "sd": null
+        }
+      },
+      "residual_if_column_complete": {
+        "p": 6,
+        "n": -4
+      },
+      "pair_completion_numberparity_necessary_condition": true,
+      "any_two_fermion_pair_completion_total_parity_necessary_condition": true,
+      "listed_unpaired_absolute_count": 6,
+      "total_I_class_if_complete_even_paired_reference": "integer",
+      "actual_blocked_configuration": null,
+      "actual_reference_or_spectators": null
+    },
+    {
+      "name": "ConfigQ3Q4",
+      "source_name_literal": "ConfigQ3Q4",
+      "valence_literal": "π(gd)9 ⊗ ν(sd)−3 (h11/2 )−2",
+      "unpaired_literal": "π(gd)3 ⊗ ν(sd)−1 (h11/2 )−2",
+      "deformation_literal": "(0.16, 26◦ )",
+      "source_raw_line": "  ConfigQ3Q4      π(gd)9 ⊗ ν(sd)−3 (h11/2 )−2                           π(gd)3 ⊗ ν(sd)−1 (h11/2 )−2                              (0.16, 26◦ )",
+      "valence_terms": {
+        "p": [
+          {
+            "orbital_literal": "gd",
+            "group_for_counting": "gd",
+            "power": 9,
+            "assumed_good_orbital_parity": 1
+          }
+        ],
+        "n": [
+          {
+            "orbital_literal": "sd",
+            "group_for_counting": "sd",
+            "power": -3,
+            "assumed_good_orbital_parity": 1
+          },
+          {
+            "orbital_literal": "h11/2",
+            "group_for_counting": "h11/2",
+            "power": -2,
+            "assumed_good_orbital_parity": -1
+          }
+        ]
+      },
+      "unpaired_listed_terms": {
+        "p": [
+          {
+            "orbital_literal": "gd",
+            "group_for_counting": "gd",
+            "power": 3,
+            "assumed_good_orbital_parity": 1
+          }
+        ],
+        "n": [
+          {
+            "orbital_literal": "sd",
+            "group_for_counting": "sd",
+            "power": -1,
+            "assumed_good_orbital_parity": 1
+          },
+          {
+            "orbital_literal": "h11/2",
+            "group_for_counting": "h11/2",
+            "power": -2,
+            "assumed_good_orbital_parity": -1
+          }
+        ]
+      },
+      "valence_summary": {
+        "p": {
+          "listed_signed_power_sum": 9,
+          "listed_particle_hole_terms_count": 9,
+          "listed_number_parity": 1,
+          "label_spatial_parity_product": 1
+        },
+        "n": {
+          "listed_signed_power_sum": -5,
+          "listed_particle_hole_terms_count": 5,
+          "listed_number_parity": 1,
+          "label_spatial_parity_product": 1
+        }
+      },
+      "unpaired_listed_summary": {
+        "p": {
+          "listed_signed_power_sum": 3,
+          "listed_particle_hole_terms_count": 3,
+          "listed_number_parity": 1,
+          "label_spatial_parity_product": 1
+        },
+        "n": {
+          "listed_signed_power_sum": -3,
+          "listed_particle_hole_terms_count": 3,
+          "listed_number_parity": 1,
+          "label_spatial_parity_product": 1
+        }
+      },
+      "unlisted_valence_groups_not_zero_filled": {
+        "p": {},
+        "n": {}
+      },
+      "residual_if_column_complete": {
+        "p": 6,
+        "n": -2
+      },
+      "pair_completion_numberparity_necessary_condition": true,
+      "any_two_fermion_pair_completion_total_parity_necessary_condition": true,
+      "listed_unpaired_absolute_count": 6,
+      "total_I_class_if_complete_even_paired_reference": "integer",
+      "actual_blocked_configuration": null,
+      "actual_reference_or_spectators": null
+    }
+  ],
+  "failed_complete_list_interpretation": [
+    "ConfigQ1",
+    "ConfigQ1*"
+  ],
+  "caption_comparisons": [
+    {
+      "name": "D4_caption",
+      "source_literal": "π(h11/2;Ω≈3/2 )1 ⊗ ν(h11/2;Ω≈11/2 )−1",
+      "listed_count": 2,
+      "source_caption": " (Color online) (a) Total angular momentum I as a function of rotational frequency h̄ω, (b) energy versus spin, and (c)\nB(M 1)/B(E2) values calculated by TAC-CDFT for the π(h11/2;Ω≈3/2 )1 ⊗ ν(h11/2;Ω≈11/2 )−1 configuration assigned to band D4\nin 136 Pr.\n          24                                                         4                                                                   1000",
+      "necessary_mod2_passes": true,
+      "table_listed_count": 8,
+      "physical_equivalence": null
+    },
+    {
+      "name": "D6_caption",
+      "source_literal": "π(g7/2 d5/2 )4 (h11/2 )1 ⊗ ν(h11/2 )−1",
+      "listed_count": 6,
+      "source_caption": " (Color online) (a) Total angular momentum I as a function of rotational frequency h̄ω, (b) energy versus spin, and\n(c) B(M 1)/B(E2) values calculated by TAC-CDFT for the π(g7/2 d5/2 )4 (h11/2 )1 ⊗ ν(h11/2 )−1 configuration assigned to band\nD6 in 136 Pr.",
+      "necessary_mod2_passes": true,
+      "table_listed_count": 8,
+      "physical_equivalence": null
+    }
+  ],
+  "toy_pair_vacuum": {
+    "number_support": [
+      76,
+      78
+    ],
+    "probabilities": [
+      "1/2",
+      "1/2"
+    ],
+    "meanN": "77",
+    "mean_number_parity": "1",
+    "probability_N77": "0",
+    "pairing_scope": "single species with like-particle pairs only; not a general pn-paired vacuum"
+  },
+  "boundaries": [
+    "unlisted groups are not measured zero; no spectator orbital is inserted",
+    "species-even residuals presume like-particle pairing; general pn pairing preserves total fermion parity instead",
+    "passing number parity is necessary only, not proof of capacity/blocking/pairing/wavefunction validity",
+    "failing this COMPLETE-LIST reading does not establish a bug in actual TAC-CDFT code",
+    "good label spatial parity does not substitute for species number-parity audit or measured Q1 parity",
+    "unprojected <I> is not required to be an integer; the complete-even-reference I-class statement concerns a projected physical sector",
+    "actual reference, occupied/blocked orbitals and omitted spectator convention remain unavailable"
+  ],
+  "checks": {
+    "actual_accepted_copy_hash": true,
+    "tableII_ten_rows_not_legend_duplicates": true,
+    "correct_valence_and_unpaired_column_headers": true,
+    "ConfigD1_valence_Z59_N77_relative_to_50_82": true,
+    "ConfigD1_holes_numberparity_signed_equals_absolute": true,
+    "ConfigD1_positive_label_spatial_parity_both_columns": true,
+    "ConfigD2_valence_Z59_N77_relative_to_50_82": true,
+    "ConfigD2_holes_numberparity_signed_equals_absolute": true,
+    "ConfigD2_positive_label_spatial_parity_both_columns": true,
+    "ConfigD3_valence_Z59_N77_relative_to_50_82": true,
+    "ConfigD3_holes_numberparity_signed_equals_absolute": true,
+    "ConfigD3_positive_label_spatial_parity_both_columns": true,
+    "ConfigD4_valence_Z59_N77_relative_to_50_82": true,
+    "ConfigD4_holes_numberparity_signed_equals_absolute": true,
+    "ConfigD4_positive_label_spatial_parity_both_columns": true,
+    "ConfigD6_valence_Z59_N77_relative_to_50_82": true,
+    "ConfigD6_holes_numberparity_signed_equals_absolute": true,
+    "ConfigD6_positive_label_spatial_parity_both_columns": true,
+    "ConfigQ1_valence_Z59_N77_relative_to_50_82": true,
+    "ConfigQ1_holes_numberparity_signed_equals_absolute": true,
+    "ConfigQ1_positive_label_spatial_parity_both_columns": true,
+    "ConfigQ1*_valence_Z59_N77_relative_to_50_82": true,
+    "ConfigQ1*_holes_numberparity_signed_equals_absolute": true,
+    "ConfigQ1*_positive_label_spatial_parity_both_columns": true,
+    "ConfigQ2_valence_Z59_N77_relative_to_50_82": true,
+    "ConfigQ2_holes_numberparity_signed_equals_absolute": true,
+    "ConfigQ2_positive_label_spatial_parity_both_columns": true,
+    "ConfigQ2*_valence_Z59_N77_relative_to_50_82": true,
+    "ConfigQ2*_holes_numberparity_signed_equals_absolute": true,
+    "ConfigQ2*_positive_label_spatial_parity_both_columns": true,
+    "ConfigQ3Q4_valence_Z59_N77_relative_to_50_82": true,
+    "ConfigQ3Q4_holes_numberparity_signed_equals_absolute": true,
+    "ConfigQ3Q4_positive_label_spatial_parity_both_columns": true,
+    "Q1_and_Q1star_fail_only_complete_list_interpretation": true,
+    "ConfigQ1_literal_unpaired_neutron_sum_zero_not_minusfive": true,
+    "ConfigQ1_sd_absence_retained_as_unlisted": true,
+    "ConfigQ1_odd_neutron_residual": true,
+    "ConfigQ1_odd_total_residual_not_fixed_even_with_pn_pairs": true,
+    "ConfigQ1_listed5fermions_half_integer_only_if_complete": true,
+    "ConfigQ1_abstract_odd_spectator_can_restore_necessary_mod2": true,
+    "ConfigQ1_additional_pairs_alone_never_fix_odd_residual": true,
+    "ConfigQ1*_literal_unpaired_neutron_sum_zero_not_minusfive": true,
+    "ConfigQ1*_sd_absence_retained_as_unlisted": true,
+    "ConfigQ1*_odd_neutron_residual": true,
+    "ConfigQ1*_odd_total_residual_not_fixed_even_with_pn_pairs": true,
+    "ConfigQ1*_listed5fermions_half_integer_only_if_complete": true,
+    "ConfigQ1*_abstract_odd_spectator_can_restore_necessary_mod2": true,
+    "ConfigQ1*_additional_pairs_alone_never_fix_odd_residual": true,
+    "all_like_and_pn_pair_generators_preserve_total_numberparity": true,
+    "species_even_residual_is_not_general_when_pn_pairing_allowed": true,
+    "D4_caption_source_caption_literal_verified": true,
+    "D4_caption_parity_condition_does_not_resolve_caption_table_blocking": true,
+    "D6_caption_source_caption_literal_verified": true,
+    "D6_caption_parity_condition_does_not_resolve_caption_table_blocking": true,
+    "toy_even_vacuum_mean77_does_not_fix_odd_number_sector": true,
+    "paired_superposition_keeps_blocked_numberparity_0": true,
+    "paired_superposition_keeps_blocked_numberparity_1": true,
+    "paired_superposition_keeps_blocked_numberparity_2": true,
+    "paired_superposition_keeps_blocked_numberparity_3": true,
+    "paired_superposition_keeps_blocked_numberparity_4": true,
+    "paired_superposition_keeps_blocked_numberparity_5": true,
+    "passing_mod2_does_not_fill_actual_input": true
+  },
+  "checks_passed": 62
+}

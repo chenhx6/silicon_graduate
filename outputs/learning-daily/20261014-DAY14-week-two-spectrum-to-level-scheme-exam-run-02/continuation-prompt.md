@@ -57,3 +57,12 @@ actualTableI156rows/old136G135placed的44-check candidategraph完成，sourceLV2
 下一pr136-configuration-before-calculation.md已freeze但未计算：TableII valence与unpaired literalledger，若列代表完整pairreducedinventory才检查speciesnumbermod2；允许active-only/spectator定义边界，不填missing轨道/断言code错。原实际输入code/blocking缺，不扩成真实wavefunction裁决。不新source/card。
 
 最终delivery2026-10-16 16:00上海，planned研究cutoff15:00，closeout15–16，旧17buffer已覆盖；run/goalactive，Day14/partial15，course仍next14/count13。
+
+
+## 最新checkpoint022
+
+62check TableII valence/unpaired完整性条件audit完成；valence10行9/−5正确，Q1/Q1*只有在完整evenref解释下fail总numberparity，active/spectator定义未知不填轨道/不判code错。Newconfiguration-occupation-audit、LV25-32、modelchoice/nucleus/index/questions；69items24pages、全部验证/lint0errors131warnings通过。Speciesmod2另限likepair，pn普适totalmod2；单species toy也明确likepair scope。前21批published，本批subject Audit DAY14 configuration occupation completeness。
+
+下一tac-pairing-before-sources.md已freeze，LV25Ref44 Wang2017 PRC96054324方法companionmetadata/fulltext获取中，先核title/DOI，未读全文前不添科学结论。若合法全文可得沿mainline/关键fig/equation读，再看blocking/ref定义能补何scope；不能用genericmethod填Pr136真实list。当前metadata回执tac2017-crossref-metadata.json/tac2017-arxiv-metadata.json，可能仍有toolprocess待poll，先查receipt/handle。
+
+Delivery2026-10-16 16:00上海，plannedresearchcutoff15:00；Day14/partial15，course仍next14/count13，goalactive。旧watchers已notlive，未重启。

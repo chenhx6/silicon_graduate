@@ -2,7 +2,7 @@
 type: system-questions
 graph-excluded: true
 created: 2026-07-01
-updated: 2026-10-14
+updated: 2026-10-15
 ---
 
 # Research Questions
@@ -44,6 +44,10 @@ updated: 2026-10-14
 - [ ] angle/ring 的 corrected peak gate 是否具有已验证的selection efficiency？独立energy response之外，β/geometry偏差及不同σ可令同一固定keV门接受率不同，sharedvertex covariance亦不可忽略；需原始或可重放event/sorter、逐角centroid/width、calibration及gate-response mapping，才把计数比升为angular/multipolarity证据（VD16-2/3、CR13-3/5；[[doppler-correction]] syntheticgate反例）。（opened2026-10-13；scope:doppler-correction/gate-migration/trajectory-covariance；sources:[[vandebrouck-2016-vamos-dual-position-mwpc]]、[[crespi-2013-agata-high-energy-doppler-response]]）
 
 - [ ] 实际 Doppler τ/E 分析能否提供完整 bin/ROI/rebin 规则、原始 on/off 计数、共享 event/MC IDs、velocity producer/stage/粒子状态、校准 objective/window 与共同Σ，来检验“窄region是否来自正确forwardfamily”？已验证的自设反例见 [[doppler-correction]] 和 [[doppler-velocity-validation-contract]]；它们未重标实际20O区间。CM21-22的0.4%/0.7%为after-target tuning幅度，非σβ；真实entry/history、feeding、response和实际χ²grid/code仍缺，不能由toy或长线匹配单独解释两次独立τ测量差异。（opened2026-10-14；scope:doppler/velocity-calibration/likelihood/independence/L4-readiness；sources:[[baker-cousins-1984-histogram-fits]]、[[ciemala-2021-deep-inelastic-lifetime-method]]、[[zanon-2023-o20-high-precision]]）
+
+
+- [ ] `136Pr` Q1/Q1* 的未列旁观者与粒子数奇偶应如何按实际modelreference/occupied/blocked列表解释？TableII valence净9p/−5n通过，但unpaired列示(3,0)留下总差1；只在完整evenreference解释下fail totalnumbermod2，不能据此判代码错或补sd hole。需明确列是active标签还是完整清单，以及实际pairing/reference/spectator；π标签相符不补实验POL。（opened2026-10-15；scope:136pr/model-input/occupation；project:[[a130-model-choice-card]]；method:[[configuration-occupation-audit]]；source:[[lv-2025-136pr-tac-covariant-density-functional]] LV25-32）
+- [ ] `136Pr` 263/405 的旧新次序差异源于重排还是记录版本？2018ENSDF旧H的3677.7→262.9→3414.8→404.9→3009.9，与2025TableI新D5的3678.4→405.1→3273.3→263.1→3010.2不同；1996primary未取得，不能判任一方错误。需原图/表/正式版本与净gate/独立middlebranch核验，不用共同sum、relativeI或nearestmatching代替。（opened2026-10-15；scope:136pr/transition-identity/source-version；sources:[[nndc-2018-136pr-selected-level-gamma-records]] N136-4、[[lv-2025-136pr-tac-covariant-density-functional]] LV25-26；method:[[level-scheme-reconstruction]]）
 
 ## Resolved
 

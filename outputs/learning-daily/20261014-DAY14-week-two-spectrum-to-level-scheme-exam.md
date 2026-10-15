@@ -210,6 +210,12 @@ checkpoint008实际观察为上海15:37，立即停止新研究；最后已保�
 
 [[bm1-be2-ratio]]“同母态radiative比值的抵消条件”与[[level-scheme-reconstruction]]“136Pr D4：同母态比值重算与绝对强度的区别”保存公式/数据/误差scope：同parent correctedphoton ratio取消共同τ/总rate/其它branch与ICC分母，但δ、crossoverpurity、selection/response/Σ仍必需。4个M空栏和tentativeI23不填测值；弱分母线性σ不是完整confidenceinterval，D6限值未变双侧点。相符仅同acquisition内部一致性，不重测absoluteB或判模式。
 
+### 延期继续：valence与unpaired标签的完整性
+
+按[预冻结问题](20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/pr136-configuration-before-calculation.md)视觉回核acceptedPDF15 TableII/Figs9–10captions，完成[62-check](20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/pr136-configuration-ledger.json)。十行valence都给净9p/−5n；Q1/Q1* literalunpaired listednet=(3,0)，若解释为evenreference上的完整清单，则residual=(6,−5)总差1不能仅以任何two-fermionpairs补齐。逐species规则另限like-particle pairing，pn配对只保证总fermionparity；scope补充不改源数据。
+
+[[configuration-occupation-audit]]保存全部原列、未列项None、必要条件及均值不定sector的单species toy。没有实际blocked/ref/spectator定义，不补νsd hole、不判作者code错；valence本身正确。Spatialπ标签均+也不补Q1POL或认证输入完整性。[[a130-model-choice-card]]、[[136pr]]与[[questions]]同步此边界及旧新263/405次序开放问题，投影覆盖2/7不变，Day15仍无学分。
+
 ## Counter-evidence and missing companion observables
 
 HE15-9的实际未定双线是核心反例：energy sum、共享R/A和假设的ΔI=2均不足以裁决order。若一条线出现可独立定位的旁路或延迟顺序，应重审中间level；source仍保留括号Jπ与(E2)。HE15-5的quadruplet限制“一个峰是一条γ”的简化；干净622.4直接分支门与323.4级联门的299-keVcomponent差异可能迫使拆峰，但必须控制622/626门纯度、feeding、response和random。
@@ -1647,6 +1653,87 @@ HE15-9的实际未定双线是核心反例：energy sum、共享R/A和假设的�
           "locator": "LKH82-1"
         }
       ]
+    },
+    {
+      "knowledge": "knowledge/sources/lv-2025-136pr-tac-covariant-density-functional.md",
+      "anchor": "TableII列示与完整模型输入",
+      "summary": "新增LV25-32 source-conditional粒子数账本边界，valence通过，不推实际程序不守恒。",
+      "sources": [
+        {
+          "path": "knowledge/sources/lv-2025-136pr-tac-covariant-density-functional.md",
+          "locator": "LV25-32"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/methods/configuration-occupation-audit.md",
+      "anchor": "组态列示的占据数与完整性审计",
+      "summary": "新增62check general必要numberparity/active-vs-complete方法，保留未列spectator未知，不填轨道。",
+      "sources": [
+        {
+          "path": "knowledge/sources/lv-2025-136pr-tac-covariant-density-functional.md",
+          "locator": "LV25-32"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/projects/a130-model-choice-card.md",
+      "anchor": "136Pr模型输入：列示轨道与完整阻塞态分开",
+      "summary": "模型选择卡补actualTableII输入readiness、sourcecaption必要条件非充分和2/7覆盖不变。",
+      "sources": [
+        {
+          "path": "knowledge/sources/lv-2025-136pr-tac-covariant-density-functional.md",
+          "locator": "LV25-32"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/nuclei/136pr.md",
+      "anchor": "TableII输入完整性的边界",
+      "summary": "核素入口同步sourceinput完整性和Π/numberparity区别，无新mode/π裁决。",
+      "sources": [
+        {
+          "path": "knowledge/sources/lv-2025-136pr-tac-covariant-density-functional.md",
+          "locator": "LV25-32"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/index.md",
+      "anchor": "[[configuration-occupation-audit]]",
+      "summary": "新增可复用组态占据方法导航。",
+      "sources": [
+        {
+          "path": "knowledge/sources/lv-2025-136pr-tac-covariant-density-functional.md",
+          "locator": "LV25-32"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/questions.md",
+      "anchor": "Q1/Q1* 的未列旁观者与粒子数奇偶",
+      "summary": "将完整清单/active标签、实际blocking/reference必要输入变成后续问题，不自动用户待办。",
+      "sources": [
+        {
+          "path": "knowledge/sources/lv-2025-136pr-tac-covariant-density-functional.md",
+          "locator": "LV25-32"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/questions.md",
+      "anchor": "263/405 的旧新次序差异源于重排还是记录版本",
+      "summary": "将原先已证实的旧新sourceorder差异与原文缺口写入中心问题页。",
+      "sources": [
+        {
+          "path": "knowledge/sources/nndc-2018-136pr-selected-level-gamma-records.md",
+          "locator": "N136-4"
+        },
+        {
+          "path": "knowledge/sources/lv-2025-136pr-tac-covariant-density-functional.md",
+          "locator": "LV25-26"
+        }
+      ]
     }
   ]
 }
@@ -1930,3 +2017,8 @@ wiki_lint --fail-on error实际exit0，0errors/131warnings（107citationkey、21
 ### Checkpoint021 延期研究验收
 
 2026-10-15T17:10:25.297015+08:00：71项strengthcontrolchecks全true/exit0，report/card/writeback valid（62items/21changedpages）；oldrows/review/raw/protected/observableLF/AST/diff保持。初writeback因nucleus缺直接LKH链接失败已补齐回归；fresh wiki_lint --fail-on error实际exit0、0errors131warnings（107citekeys、21rawslots、3parser）。前20批published，本批main / `Recompute DAY14 Pr136 conditional strength ratios`，actualH3/hash仅receipt。继续延期窗口的TableII inputledger新问题，不新card或推进信用。
+
+
+### Checkpoint022 延期研究验收
+
+2026-10-15T17:48:24.884806+08:00：62项ledgerchecks全true/exit0，report/card/writeback valid（69items/24changedpages）；LV25-32 true、旧sourceclaims/review/raw/protected/AST/project旧bytes/questions旧行/diff保持。wiki_lint --fail-on error实际exit0、0errors131warnings（107citekeys、21rawslots、3parser）。前21批published，本批main / `Audit DAY14 configuration occupation completeness`，actualH3/hash仅receipt。继续已freeze的方法companion研究，genericmethod不补实际Pr136blockedinput。

@@ -97,6 +97,7 @@ The paper combines a new high-statistics JUROGAM II 136Pr level scheme with PC-P
 | LV25-29 | D3的5086.3-keV18+母态经334.4/650.5到不同17+、经987.0到D2 16+；987的R_DCO2.07(14)d支持quadrupole，TableI列E2。SecII明确inband与若干link的E2 assignment含假设；表未给987独立POL列，π须按作者全图/已知锚与该假设的joint assignment记录。 | reported-angular-ratio-and-assignment-conditions | direct | PDF p.7 TableI D3 rows334.4/650.5/987.0; PDF p.3 SecII assignmentparagraph | true |
 | LV25-30 | D3的660.4(4)来自4254.6 15+→D2 15+，R_DCO.82(24)d、M1+E2；653.0(4)的TableI M/R栏为空。前者不是purestretchedΔJ=1默认模型，后者不能由归带直接补实测M。 | experimental-transition-record-and-model-domain | direct | PDF p.7 TableI D3 rows660.4/653.0 | true |
 | LV25-31 | TableI D4可逐同parent配16–23的dipole/crossoverγ对，Fig9(c)有8个对应spin的log-scale B(M1)/B(E2)点，单位μN²/(e²b²)。481、370.8、587.4、1117.9的table M栏为空（481正文称quadrupole）；重算需声明component/purity而非补写逐线已测pureM。文中未为该组给完整δ/Cov/逐点算法。 | reported-table-figure-and-input-boundary | direct | PDF p.7 TableI D4; PDF p.5 SecII D4; PDF p.11 Fig9(c) | true |
+| LV25-32 | AcceptedTableII的valence十行相对Z50/N82给净9p/−5n；Q1/Q1*的unpaired neutron列仅列h11/2^-1与intruder^1，sd未列。若该列被当evenpairedreference上的完整pair-reduced inventory，listed(up,un)=(3,0)留下(6,−5)差，总差1为奇数，不能仅以任何two-fermion pairs补全；若active标签/未列spectator则解释不同。此为本任务条件审计，不证明程序错误。 | our-inference-from-literal-model-input | derived | PDF p.15 TableII ConfigQ1/ConfigQ1*; PDF p.11 Figs9/10captions | true |
 
 ## Nuclear Structure Information
 
@@ -181,3 +182,8 @@ LV25-29/30与[[nndc-2018-136pr-selected-level-gamma-records]] N136-10给出同�
 ### 同parent强度比的条件表图复核
 
 LV25-31的16条literalrow按8个parent配对。[[bm1-be2-ratio]]“同母态radiative比值的抵消条件”与[[level-scheme-reconstruction]]“136Pr D4：同母态比值重算与绝对强度的区别”保存SIrate→κ、δ/纯度和共分母抵消；71checks给δ0/purecrossover控制数与Fig9(c)在图精度下一致。该一致只为同acquisition的内部校核，不证明作者实际δ=0、原Cov模型或纯度，不增加新强度测量。四个M空栏、tentative23与D6单侧点保持；没有重估absoluteB或裁决MR/shapecoexistence。
+
+
+### TableII列示与完整模型输入
+
+LV25-32与[[configuration-occupation-audit]]的62-check限定了**完整unpaired列解释**；所有valence列Z/N实际记账通过，没有识别到实际程序粒子数不守恒。未列spectator/参考态与blocking定义没有提供，不能修入一个νsd hole或根据literal5项断言真实state属半整数I。[[a130-model-choice-card]]和[[136pr]]保存scope，Hara直接投影覆盖仍2/7。Goodπ标签乘积不补Q1实验POL缺口，源的positiveπ proposal及β/γ/modelinterpretation状态不升级。

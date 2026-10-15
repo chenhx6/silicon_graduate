@@ -10,11 +10,11 @@ updated: 2026-10-15
 
 同run2026-10-14-day-14-02/session01a13a0e-e8bd-7251-b970-f6975679e281。用户断网延期最终delivery **2026-10-16 16:00上海**；plannedresearchcutoff15:00，closeout15–16，不延至17。Nativegoal/researchactive；formal14七边35checks/21/24/weeklyREFLECT完成，completed14/partial15、officialnext14/count13等最终一次credit，不开Day16。
 
-第021批71checks：D4八sameparent radiative B商 δ0/purecrossover控制重算与Fig9图精度一致，4sourceM空栏/I23tentative保持。SIκ=.696775642对LKH.835舍入；同parent匹配photon比可取消τ/总rate/其它branch/ICC分母，δ/purity/response/Cov不能省，不给absoluteB。62writebackitems/21changedpages；report/card/writeback/AST/oldclaims/review/raw/protected/diff/freshlint0errors131warnings通过。初nucleus缺LKHdirectbacklink已修并回归，旧observable正文/LF保持。
+第022批62checks，TableII valence10行9p/−5n正确；Q1/Q1* unpaired列若完整evenreference解释，residual(6,−5)总差奇数，任何twofermionpairs不能补齐。Likepair species规则与pn totalparity分开；未列groups保留None，不补νsdhole/不判实际code错。新configuration-occupation-audit method、LV25-32、modelchoice/nucleus/index/两questions同步。69writebackitems/24changedpages，report/card/writeback/AST/oldrows/review/raw/protected/projectbytes/questions原行/diff/lint0errors131warnings通过，投影覆盖2/7不变。
 
-前20批Gitee已published，本批main / `Recompute DAY14 Pr136 conditional strength ratios`，actualH3/hash仅receipt。下一pr136-configuration-before-calculation.md已freeze，actualTableII valence/unpaired occupancy/mod2条件audit，明确完整列解释vsactive/spectator定义，不自行补轨道或称code错误。尚未开始计算，不新source/card。原1996primarymissing、actualL4events/response/Σ缺，193Bistatic/time/recoil条件route局部complete。
+前21批Gitee已published；本批main / `Audit DAY14 configuration occupation completeness`，actualH3/hash仅receipt。下一tac-pairing-before-sources.md已freeze，LV25 Ref44 Wang2017 PRC96054324方法companion获取metadata/fulltext中；先核title/DOI/原文，再读blocking/ref/配对定义，不借generic方法填Pr136真实输入。1996primarymissing不重试旧受阻route，actualL4事件/response/Σ缺。
 
-Clock001/002/005/008actualACK；旧Farmer8686/clock75781notlive未重启。恢复 `codex resume 01a13a0e-e8bd-7251-b970-f6975679e281 -C /workspace/wiki -s danger-full-access -a never`，先run.json/最新continuation，按新时间门继续。保留raw/PLAN/Bib/review/继承dirty/log/daemon/scheduler混合文件，manifest/H3非force发布。
+Clock001/002/005/008actualACK；旧Farmer8686/clock75781notlive未重启。恢复 `codex resume 01a13a0e-e8bd-7251-b970-f6975679e281 -C /workspace/wiki -s danger-full-access -a never`，先run.json/最新continuation按新时间门继续。保留raw/PLAN/Bib/review/继承dirty/log/daemon/scheduler混合文件，manifest/H3非force发布。
 
 ## Previous active handoff — DAY13 continuous study reopened by user
 

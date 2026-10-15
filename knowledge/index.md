@@ -2,7 +2,7 @@
 type: system-index
 graph-excluded: true
 created: 2026-07-01
-updated: 2026-10-14
+updated: 2026-10-15
 ---
 
 # Wiki Index
@@ -449,6 +449,8 @@ updated: 2026-10-14
  - [[detection-efficiency]] - selected Compton-event efficiency and figure-of-merit boundary.
 
 ## Methods
+
+- [[configuration-occupation-audit]] - 组态valence/unpaired列的Z/N和条件number-parity审计；完整输入与active标签/旁观者分开。
 
 - [[recoil-distance-doppler-shift]] - RDDS/coincidence-plunger 的 DDCM `τ(x)`、feeding/deorientation control 与 finite-stopping boundary。
 - [[doppler-shift-attenuation-method]] - Doppler-broadened line-shape lifetimes、stopping-power/side-feeding systematics and limit semantics。

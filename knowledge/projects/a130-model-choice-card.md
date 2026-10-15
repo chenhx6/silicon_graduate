@@ -3,7 +3,7 @@ type: project
 title: "A≈130 high-spin model-choice card"
 aliases: [A130 model choice card, A≈130 模型选择卡]
 created: 2026-09-26
-updated: 2026-09-30
+updated: 2026-10-15
 status: active
 review_status: unreviewed
 project_stage: seed
@@ -161,3 +161,10 @@ Alwaleedi's `B(M1)/B(E2)` comparison assumes `δ=0`, and the dataset lacks lifet
 1. Apply this card to one `131Ce` question only after a band/transition manifest is available.
 2. Compare axial CSM, triaxial QTR/TPSM and a γ-soft alternative on the same observable set.
 3. Keep model outputs, author interpretations and measured electromagnetic properties in separate evidence rows.
+
+
+## 136Pr模型输入：列示轨道与完整阻塞态分开
+
+[[lv-2025-136pr-tac-covariant-density-functional]] LV25-32的actualTableII经[[configuration-occupation-audit]]核Z/N/numberparity。全部valence列净9p/−5n正确；unpaired Q1/Q1*列若被当完整evenreference上的清单，listedneutronnet0与目标−5、连同proton差6留下总差1，不能仅由任何two-fermion pairs补齐。未列active之外spectator/reference定义时，只能记录输入不充分，不修表/断言TAC程序错。CaptionsD4/D6的2/6项与table8项均能过必要mod2，反过来也说明该条件不是实际blocking同一性的充分证据。
+
+MeanN或spatialparity标签符合，不自动认证完整numbersector；未投影meanI也不是good-I quantum number。实际occupied/blocked、pairing/reference和spectator定义仍需核，不能从labels或能量/ratio拟合自行补。原Q1π仍modelproposal、D4/D6 MR/shape-coexistence仍竞争；本审计不增加PSM/TPSM直接投影覆盖，旧2/7范围不变。
