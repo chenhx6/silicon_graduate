@@ -69,6 +69,14 @@ updated: 2026-10-15
 
 主要定位：HE15-8是Table I p.3/p.7及Figure2 p.8；HE15-9是p.7 footnote f；HE15-10是p.7 a定义及p.10 Figures3/4；HE15-11是p.13条件性29/2+赋值与p.14 conversion；HE15-12是p.10 Ref7寿命与p.3相对强度；HE15-13是p.19 conversion/SD解释。源页保存每条claim的locator，不用搜索片段当证据。
 
+### 延期方法companion：109Ag可分离配对
+
+[[wang-2017-109ag-tac-separable-pairing]] 为精确DOI10.1103/PhysRevC.96.054324、arXiv1708.06117v2，公开PDF9页SHA256 `15e901a4f5d8ad1b5cf4bffe61e050d8eb6a3c89b0f9f62dea84e5d56c335d87`。来源前回忆见[primed recall](20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/tac-pairing-before-sources.md)；沿9页全部主线、Figs1–8和影响判断的理论/附录公式读并视觉回查，详见[reading audit](20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/tac2017-reading-audit.json)。本次未归档raw、citation key未匹配，source明确保留槽；所读不是已核正式排版。
+
+W17-1/3/5把RHB的U/V、轨道追踪/阻塞、未恢复粒子数与组态简称分开。其109Ag和Lv2025的136Pr是不同核素/输入；W17-13的实验点回引Datta2008，本方法并非新Pr136采集。W17-7保留回弯区不收敛；W17-9保留磁矩Dirac项处理，不能只凭拟合好转认定唯一机制。全文未给Pr136 Q1的actual blocked/spectator。
+
+1996前作另试direct arXiv/HAL公共入口：未加引号DOI返回不匹配文章，不能计精确结果；修复为quoted DOI、title+author与HAL title后均HTTP200/0精确结果。回执`petrache96-query-repair-before-source.json`与三个repair结果保留。没有取得全文，也没有推断263/405差异原因。
+
 ## Theory/analysis exercise
 
 七边的中心值闭合为`+0.2,+0.4,+0.3 keV`。D的rank4、三个cycle、绝对offset nullspace均由代码核验。独立0.1-keV拟合误差下条件χ²=6.666667；自设将caption约0.3 keV按quadrature加上、并令各线独立后，χ²=0.666667，dof3。后者cycle Σ为`0.1×(3,1,0; 1,3,1; 0,1,3) keV²`，不是三个可相乘的独立检验。
@@ -216,11 +224,26 @@ checkpoint008实际观察为上海15:37，立即停止新研究；最后已保�
 
 [[configuration-occupation-audit]]保存全部原列、未列项None、必要条件及均值不定sector的单species toy。没有实际blocked/ref/spectator定义，不补νsd hole、不判作者code错；valence本身正确。Spatialπ标签均+也不补Q1POL或认证输入完整性。[[a130-model-choice-card]]、[[136pr]]与[[questions]]同步此边界及旧新263/405次序开放问题，投影覆盖2/7不变，Day15仍无学分。
 
+### 延期练习：配对、阻塞、算符与公式契约
+
+[量化前预测](20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/tac-pairing-before-calculation.md)明确正文priming；[analysis](20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/tac-pairing-contract.json)由`python3 system/scripts/day14_tac_pairing_contract.py`产生，50项检查exit0。它是源参数/公式与声明Fock空间控制，不是作者RHB复跑或真实核素占据恢复。
+
+- W17-2 Eq12的源a=.636fm给`∫P d³r=1`、`∫r²P d³r=6a²=2.426976fm²`；这是form factor形式矩，不是实测pair半径。G/P/delta与波函数积分的维度核到两体矩阵元MeV。
+- Eq11的S=0 spin projector为rank1/idempotent；同类pair构造逐species固定number parity，声明pn-singlet pair构造可改变各species parity而保总parity。S=0本身不指定作者实际pn通道。全部u/v及阻塞组合为chosen。
+- W17-9只缩放Dirac磁矩项。声明D=3、A=−1及源c=.58给`|cD+A|²=.5476`，而`c²|D+A|²=1.3456`，故整体B乘因子不能代替组件处理；这不是实际109Ag磁矩。
+- W17-10 v2 Eq25末项缺平方的字面读法不满足同式中段的维度/缩放；W17-11 A18/A19对非零relative oscillator例子冲突；W17-12的.87/1.26直接降幅约30.95%，与打印20%不同。均保留版本/locator，不修作者代码或实验值。
+
 ## Counter-evidence and missing companion observables
 
 HE15-9的实际未定双线是核心反例：energy sum、共享R/A和假设的ΔI=2均不足以裁决order。若一条线出现可独立定位的旁路或延迟顺序，应重审中间level；source仍保留括号Jπ与(E2)。HE15-5的quadruplet限制“一个峰是一条γ”的简化；干净622.4直接分支门与323.4级联门的299-keVcomponent差异可能迫使拆峰，但必须控制622/626门纯度、feeding、response和random。
 
 必要companion分类：confirmed SD link与endpoint为expected-but-not-established；46/87-keV低能γ为not observed、原因仍是作者解释；缺事件/Σ的重拟合为blocked-needs-event-level data。αtot=261/12.82与87.4-keV x ray会降低γ灵敏度，不能把未见峰直接写成路径不存在。Table I/Figure2/Figure5和多角度数据共享采集，互补不等于独立复测。
+
+### 方法companion的反证与伴随输入
+
+W17-5/7/9是对“能谱或B(M1)接近就认证完整组态”的具体限制：数目未恢复、回弯区没有收敛解、磁矩算符选择亦改变强度。基空间在单频率的.021%/.020%检查不覆盖所有分支/电磁量。必要伴随材料仍是actual occupied/blocked/reference、轨道overlap追踪日志、模型输出和算符定义；109Ag方法与136Pr的基空间/组态不同，不能转填Q1/Q1*。
+
+来源独立性也保持：模型比较复用上游109Ag实验，不等于136Pr独立实测；本任务的finite-Fock与公式反例均为声明数学控制。原Pr136π/POL、263/405次序原因和实际事件/响应/Σ缺口不解除。
 
 ## Knowledge Impact and Learning Decision
 
@@ -249,6 +272,10 @@ HE15-9的实际未定双线是核心反例：energy sum、共享R/A和假设的�
 本周从选律、B定义、双带指纹、反应与门控、Doppler和统计走到逐边纲图。最应修正的习惯是把“每一步相容”累加为“结构唯一”：HE15-9给出真实未定顺序，HE15-11显式依赖Band1，HE15-12阻止借用bandheadτ，均要求定位尚未识别的自由度。
 
 后续判断：先验证line/parent/branch identity，再讨论δ和绝对strength；对共享数据的角度/偏振、图/表、calibration和model projection保留依赖；把最小测量对准不同候选预测会分开的observable。canonical认识修正已写入[[level-scheme-reconstruction]]，周度回执只记录学习状态。当前证据支持方法层面的修订，没有支持新的wobbling/chirality/shape裁决。
+
+### 方法companion后的认识决定
+
+Decision: supports 配对/阻塞是独立输入，limits 用组态简称或拟合曲线替完整输入。新增方法证据写到source、已有occupation方法、TAC模型和model-choice卡；没有新实验性质、good-I计算或PSM/TPSM覆盖。W17公式版本异常仅阻止按字面直接复现，不构成程序错误判决。当前问题下一高信息路线为Ref31的追踪/阻塞定义，或Pr136实际公开输入；不为新来源数量开卡。
 
 ## Durable knowledge delta
 
@@ -1734,6 +1761,145 @@ HE15-9的实际未定双线是核心反例：energy sum、共享R/A和假设的�
           "locator": "LV25-26"
         }
       ]
+    },
+    {
+      "knowledge": "knowledge/sources/wang-2017-109ag-tac-separable-pairing.md",
+      "summary": "完整阅读109Ag TAC-RHB配对方法；记录blocking、未恢复粒子数、回弯失败、磁矩算符依赖与预印本公式边界。",
+      "anchor": "Wang（2017）：109Ag 的 TAC-CDFT 可分离配对方法",
+      "sources": [
+        {
+          "path": "knowledge/sources/wang-2017-109ag-tac-separable-pairing.md",
+          "locator": "W17-1"
+        },
+        {
+          "path": "knowledge/sources/wang-2017-109ag-tac-separable-pairing.md",
+          "locator": "W17-3"
+        },
+        {
+          "path": "knowledge/sources/wang-2017-109ag-tac-separable-pairing.md",
+          "locator": "W17-5"
+        },
+        {
+          "path": "knowledge/sources/wang-2017-109ag-tac-separable-pairing.md",
+          "locator": "W17-7"
+        },
+        {
+          "path": "knowledge/sources/wang-2017-109ag-tac-separable-pairing.md",
+          "locator": "W17-9"
+        },
+        {
+          "path": "knowledge/sources/wang-2017-109ag-tac-separable-pairing.md",
+          "locator": "W17-10"
+        },
+        {
+          "path": "knowledge/sources/wang-2017-109ag-tac-separable-pairing.md",
+          "locator": "W17-11"
+        },
+        {
+          "path": "knowledge/sources/wang-2017-109ag-tac-separable-pairing.md",
+          "locator": "W17-12"
+        },
+        {
+          "path": "knowledge/sources/wang-2017-109ag-tac-separable-pairing.md",
+          "locator": "W17-13"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/methods/configuration-occupation-audit.md",
+      "summary": "固化spin与species配对条件、finite-Fock numberparity控制、formfactor维度和Dirac组件缩放，均不填Pr136真实输入。",
+      "anchor": "配对方法companion不能补全实际阻塞输入",
+      "sources": [
+        {
+          "path": "knowledge/sources/wang-2017-109ag-tac-separable-pairing.md",
+          "locator": "W17-1"
+        },
+        {
+          "path": "knowledge/sources/wang-2017-109ag-tac-separable-pairing.md",
+          "locator": "W17-2"
+        },
+        {
+          "path": "knowledge/sources/wang-2017-109ag-tac-separable-pairing.md",
+          "locator": "W17-3"
+        },
+        {
+          "path": "knowledge/sources/wang-2017-109ag-tac-separable-pairing.md",
+          "locator": "W17-5"
+        },
+        {
+          "path": "knowledge/sources/wang-2017-109ag-tac-separable-pairing.md",
+          "locator": "W17-9"
+        },
+        {
+          "path": "knowledge/sources/wang-2017-109ag-tac-separable-pairing.md",
+          "locator": "W17-10"
+        },
+        {
+          "path": "knowledge/sources/wang-2017-109ag-tac-separable-pairing.md",
+          "locator": "W17-11"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/models/tilted-axis-cranking.md",
+      "summary": "添加实际109Ag方法的半经典I、blocking、局部收敛失败与磁矩算符边界。",
+      "anchor": "2017年方法校准：阻塞、收敛与磁矩算符",
+      "sources": [
+        {
+          "path": "knowledge/sources/wang-2017-109ag-tac-separable-pairing.md",
+          "locator": "W17-4"
+        },
+        {
+          "path": "knowledge/sources/wang-2017-109ag-tac-separable-pairing.md",
+          "locator": "W17-6"
+        },
+        {
+          "path": "knowledge/sources/wang-2017-109ag-tac-separable-pairing.md",
+          "locator": "W17-7"
+        },
+        {
+          "path": "knowledge/sources/wang-2017-109ag-tac-separable-pairing.md",
+          "locator": "W17-8"
+        },
+        {
+          "path": "knowledge/sources/wang-2017-109ag-tac-separable-pairing.md",
+          "locator": "W17-9"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/projects/a130-model-choice-card.md",
+      "summary": "将方法companion与Pr136实际input缺口分开，保持2/7直接投影覆盖及原模式排序。",
+      "anchor": "方法companion的可迁移边界",
+      "sources": [
+        {
+          "path": "knowledge/sources/wang-2017-109ag-tac-separable-pairing.md",
+          "locator": "W17-3"
+        },
+        {
+          "path": "knowledge/sources/wang-2017-109ag-tac-separable-pairing.md",
+          "locator": "W17-5"
+        },
+        {
+          "path": "knowledge/sources/wang-2017-109ag-tac-separable-pairing.md",
+          "locator": "W17-9"
+        },
+        {
+          "path": "knowledge/sources/lv-2025-136pr-tac-covariant-density-functional.md",
+          "locator": "LV25-32"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/index.md",
+      "summary": "索引本次公开方法来源及其迁移限制。",
+      "anchor": "109Ag TAC-RHB可分离配对",
+      "sources": [
+        {
+          "path": "knowledge/sources/wang-2017-109ag-tac-separable-pairing.md",
+          "locator": "W17-1"
+        }
+      ]
     }
   ]
 }
@@ -1835,6 +2001,8 @@ Danko99primary合法OA/publicPDF/官方API/repo均未提供正文（403HTML/401J
 在A中自选sameexactα2=α4=0的positive populations，经fractionalLP/primaldual与rationalmoments核验，jointR完整数值区间[.980174767,1.025136082]。两组完整photon1marginal都I5/5、photon2都I3/3；strictPSD的5%uniform混合仍R不同。因而singleγ校准即使精确，也不自动给出全部joint-gate响应。共同unknownscalar的交集[1.31411,1.78720]仅演示未识别calibration，不能从同targetdata反推source f。
 
 同corrected pair cells若互换target/ref，R产品必1；literal两1.45不能按这种假设计两份独立constraints，不判原作者错误。Allscope/duals/kernels/positivewitness、首scratch单位/JSON失败及未采用边界在[[angular-correlation]]“67Ga真实序列的门条件设计与single-marginal盲区”与run文件。supports精确gate/normalization和独立kernelrow，limits裸ratio/singlemarginal替代jointresponse；无实验pvalue/真实ρ/新的card信用。
+
+新增可复用知识见[[wang-2017-109ag-tac-separable-pairing]] W17-1/3/5/9/10，以及[[configuration-occupation-audit]]“配对方法companion不能补全实际阻塞输入”、[[tilted-axis-cranking]]“2017年方法校准：阻塞、收敛与磁矩算符”和[[a130-model-choice-card]]“方法companion的可迁移边界”。这些canonical页保存了原文方法、条件练习、版本异常和迁移边界；source实际PDF尚在tmp、raw未归档，未把outputs当唯一知识副本。
 
 ## Open questions and belief revision
 
@@ -2022,3 +2190,10 @@ wiki_lint --fail-on error实际exit0，0errors/131warnings（107citationkey、21
 ### Checkpoint022 延期研究验收
 
 2026-10-15T17:48:24.884806+08:00：62项ledgerchecks全true/exit0，report/card/writeback valid（69items/24changedpages）；LV25-32 true、旧sourceclaims/review/raw/protected/AST/project旧bytes/questions旧行/diff保持。wiki_lint --fail-on error实际exit0、0errors131warnings（107citekeys、21rawslots、3parser）。前21批published，本批main / `Audit DAY14 configuration occupation completeness`，actualH3/hash仅receipt。继续已freeze的方法companion研究，genericmethod不补实际Pr136blockedinput。
+
+
+### Checkpoint023 延期方法验收
+
+2026-10-15T18:14:03.679377+08:00：50项源参数/Fock空间/算符/公式控制均true、exit0；report/card/writeback valid，唯一block74items/26changed knowledge页。原source未改、既有method/model/project旧行顺序和review保持，raw metadata/PLAN/Bib/AST与git diff --check exit0。初lint因新source缺固定Competing Interpretations and Limitations标题exit1，按已有内容补标题后fresh `wiki_lint --fail-on error` exit0：0errors/133warnings（108空citation key、22未填raw槽、3reaction parser）；13条新W17 claims全保留needs_review true。未宣称raw归档、官方勘误或程序错误。
+
+前22批已Gitee发布；本批稳定指针 main / `Calibrate DAY14 TAC pairing and blocking input contract`，实际H3与精确hash只进回执。下一Ref31方法来源前回忆已保存，先核metadata/fulltext再读following/blocking定义；不借它补Pr136实际list。当前研究窗口仍active，正式21/24、Day14/partial15、official next14/count13保持。

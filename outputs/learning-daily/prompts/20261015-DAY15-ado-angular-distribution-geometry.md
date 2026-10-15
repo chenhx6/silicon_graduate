@@ -316,3 +316,6 @@ Day14延期另完成71-check D4 sameparent radiativeB商：τ/totalbranch/ICC共
 
 
 Day14延期另有62-check valence/unpaired条件ledger审计；Π标签、numberparity和未投影meanI不是同一个约束，必要条件不认证code。其method/input边界是priming，不给未来card学分或实际核素新性质。
+
+
+Day14延期另核Wang2017 TAC-RHB方法全文和50-check控制：spin projector不指定species配对，blocking/数目恢复/半经典I不同；Dirac磁矩组件缩放不能替整体B因子。预印本公式字面异常与作者程序错误分开。此为正式回忆的priming，不提供Pr136实际输入或Day15信用；正式卡仍须自身recall/audit。

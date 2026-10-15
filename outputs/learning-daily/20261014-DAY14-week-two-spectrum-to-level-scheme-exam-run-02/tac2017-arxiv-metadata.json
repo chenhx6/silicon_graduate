@@ -1,0 +1,38 @@
+{
+  "provider": "arxiv",
+  "url": "https://export.arxiv.org/api/query?search_query=doi%3A10.1103%2FPhysRevC.96.054324&max_results=3",
+  "query": {
+    "search_query": "doi:10.1103/PhysRevC.96.054324",
+    "max_results": 3
+  },
+  "at": "2026-10-15T17:45:50.946987+08:00",
+  "status": 200,
+  "entries": [
+    {
+      "id": "http://arxiv.org/abs/1708.06117v2",
+      "title": "Yrast band of 109Ag described by tilted axis cranking covariant density functional theory with a separable pairing force",
+      "doi": "10.1103/PhysRevC.96.054324",
+      "authors": [
+        "Yakun Wang"
+      ],
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/1708.06117v2",
+          "rel": "alternate",
+          "type": "text/html"
+        },
+        {
+          "href": "https://arxiv.org/pdf/1708.06117v2",
+          "rel": "related",
+          "type": "application/pdf",
+          "title": "pdf"
+        },
+        {
+          "rel": "related",
+          "href": "https://doi.org/10.1103/PhysRevC.96.054324",
+          "title": "doi"
+        }
+      ]
+    }
+  ]
+}

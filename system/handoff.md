@@ -10,9 +10,9 @@ updated: 2026-10-15
 
 同run2026-10-14-day-14-02/session01a13a0e-e8bd-7251-b970-f6975679e281。用户断网延期最终delivery **2026-10-16 16:00上海**；plannedresearchcutoff15:00，closeout15–16，不延至17。Nativegoal/researchactive；formal14七边35checks/21/24/weeklyREFLECT完成，completed14/partial15、officialnext14/count13等最终一次credit，不开Day16。
 
-第022批62checks，TableII valence10行9p/−5n正确；Q1/Q1* unpaired列若完整evenreference解释，residual(6,−5)总差奇数，任何twofermionpairs不能补齐。Likepair species规则与pn totalparity分开；未列groups保留None，不补νsdhole/不判实际code错。新configuration-occupation-audit method、LV25-32、modelchoice/nucleus/index/两questions同步。69writebackitems/24changedpages，report/card/writeback/AST/oldrows/review/raw/protected/projectbytes/questions原行/diff/lint0errors131warnings通过，投影覆盖2/7不变。
+第023批：Wang2017 TAC-RHB方法companion9页/Figs1–8/关键公式及AppendixA已核，50check源参数/finiteFock/算符控制通过。Spin-singlet不指定species通道，Dirac组件缩放不同整体B；v2公式边界不判code错。Newsource/method/TAC/modelchoice/index；74items26changedpages，原rows/review/raw/protected/AST/diff保持，初缺source必需heading已修，freshlint0errors133warnings（108citekey/22rawslot/3parser）。Pr136实际blocked/reference/spectator仍缺，投影覆盖2/7不变。
 
-前21批Gitee已published；本批main / `Audit DAY14 configuration occupation completeness`，actualH3/hash仅receipt。下一tac-pairing-before-sources.md已freeze，LV25 Ref44 Wang2017 PRC96054324方法companion获取metadata/fulltext中；先核title/DOI/原文，再读blocking/ref/配对定义，不借generic方法填Pr136真实输入。1996primarymissing不重试旧受阻route，actualL4事件/response/Σ缺。
+前22批Gitee已published；本批main / `Calibrate DAY14 TAC pairing and blocking input contract`，actualH3/hash仅receipt。下一tac2015-blocking-before-sources.md已freeze，Ref31 PRC92,034319(2015)先核metadata/合法全文再读following/blocking。1996新quotedDOI/title/HAL入口均0精确匹配，primary仍missing，不重复旧403/认证路线；actualL4事件/response/Σ缺。
 
 Clock001/002/005/008actualACK；旧Farmer8686/clock75781notlive未重启。恢复 `codex resume 01a13a0e-e8bd-7251-b970-f6975679e281 -C /workspace/wiki -s danger-full-access -a never`，先run.json/最新continuation按新时间门继续。保留raw/PLAN/Bib/review/继承dirty/log/daemon/scheduler混合文件，manifest/H3非force发布。
 

@@ -3,7 +3,7 @@ type: model
 title: 倾斜轴推转
 aliases: [tilted axis cranking, TAC, tilted-axis cranking]
 created: 2026-07-01
-updated: 2026-09-30
+updated: 2026-10-15
 status: active
 review_status: unreviewed
 model_family: rotating-mean-field
@@ -70,6 +70,12 @@ Agarwal et al. compare a 3qp TAC solution, πh11/2⊗ν(h11/2)−2, with a 5qp s
 
 [[frauendorf-2018-beyond-unified-model]] provides the broad rotating-mean-field bridge: `H' = H−ω·J`, `J∥ω`, principal-axis/planar/aplanar symmetry classes, and the relation of TAC to cranked-shell and quantum triaxial-rotor descriptions. It explicitly keeps angular-momentum conservation, tunnelling and interband amplitudes as limitations of the semiclassical layer.
 
+### 2017年方法校准：阻塞、收敛与磁矩算符
+
+[[wang-2017-109ag-tac-separable-pairing]] W17-1、W17-3–W17-9提供109Ag的TAC-RHB例子：U/V配对场与正常场自洽，λ/ω迭代时追踪并阻塞准粒子；`⟨J⟩²=I(I+1)`是半经典对应，粒子数未恢复。12→14壳在单一ω=.35 MeV的能量/角动量小变化，不能替回弯区或电磁量证明全域收敛；作者在I约7.5–11.5ℏ未取得解。
+
+该文Fig.8同时改变配对和Dirac磁矩项处理。只缩放Dirac项不是整体缩放B(M1)，也不等于新实验对配对的独立确认。l–i/l–s方向和canonical组成为模型输出。所读v2的Eq.(25)、A18/A19另有字面一致性边界，未据此判实际程序错；详见[[configuration-occupation-audit]]。这一方法companion不能替136Pr补blocking/reference/spectator，不新增good-I投影或核素模式结论。
+
 ## Related Models
 
 [[particle-rotor-model]]
@@ -78,6 +84,7 @@ Use the symmetry labels explicitly: PAC preserves a signature-like operation; pl
 
 ## Sources
 
+- [[wang-2017-109ag-tac-separable-pairing]]
 - [[agarwal-2007-137pr-magnetic-rotation-bandcrossing]]
 - [[lv-2025-136pr-tac-covariant-density-functional]]
 - [[frauendorf-meng-1997-tilted-rotation-chirality]]
@@ -92,6 +99,7 @@ Use the symmetry labels explicitly: PAC preserves a signature-like operation; pl
 
 ## Evolution Log
 
+- 2026-10-15：补入109Ag可分离配对方法的blocking、number restoration、回弯失效和磁矩算符边界；不增加136Pr实验/投影覆盖。
 - 2026-07-01：建立 planar/aplanar 与手征用途。
 - 2026-07-01：加入 TAC-CDFT 的 `133Ce` 实例和收敛边界。
 - 2026-07-03：加入 Matta 2015 的 `135Pr` 1qp/3qp/5qp TAC 比较。

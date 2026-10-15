@@ -9,6 +9,7 @@ updated: 2026-10-15
 
 ## Sources
 
+- [[wang-2017-109ag-tac-separable-pairing]] - 109Ag TAC-RHB可分离配对、准粒子阻塞与未恢复数目；保留回弯不收敛、磁矩算符和预印本公式边界，不补136Pr实际输入。
 - [[nndc-2018-136pr-selected-level-gamma-records]] - 2018版本的旧Q1终点与263/405顺序；reaction/adoptedπ、归一和1996primary缺口分层。
 
 - [[nndc-2005-67ga-selected-level-gamma-records]] - 67Ga四个公开ENSDF对象：958有限MR、parent半衰期与RI/weakbranch来源；DCO同值反例，评价/实验/条件B重算分层。

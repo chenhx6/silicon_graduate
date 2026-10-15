@@ -1,0 +1,24 @@
+{
+  "summary": {
+    "total": 1,
+    "downloaded": 1,
+    "seconds": 0.7
+  },
+  "manifest": "/workspace/wiki/tmp/day14-20261014/tac2017/manifest.json",
+  "results": [
+    {
+      "title": "Yrast band of 109Ag described by tilted axis cranking covariant density functional theory with a separable pairing force",
+      "status": "open_access_downloaded",
+      "provider": "direct_url",
+      "accessMode": "open_access",
+      "ok": true,
+      "file": "/workspace/wiki/tmp/day14-20261014/tac2017/PDFs/Yrast_band_of_109Ag_described_by_tilted_axis_cranking_covariant_density_functional_theory_with_a_separable_pairing_force.pdf",
+      "bytes": 525900,
+      "sha256": "15e901a4f5d8ad1b5cf4bffe61e050d8eb6a3c89b0f9f62dea84e5d56c335d87",
+      "contentType": "application/pdf",
+      "format": "pdf",
+      "source": "https://arxiv.org/pdf/1708.06117v2",
+      "si_requested": false
+    }
+  ]
+}

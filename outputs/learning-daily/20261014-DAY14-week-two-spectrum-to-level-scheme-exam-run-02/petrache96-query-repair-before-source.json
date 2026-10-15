@@ -1,0 +1,6 @@
+{
+  "at": "2026-10-15T18:05:15.033521+08:00",
+  "reason": "Unquoted arXiv DOI with parentheses returned unrelated entries; repair query quoting and try a title field. HAL exact DOI returned zero; one title query tests absent DOI metadata. These are bounded changed queries, not retries of blocked routes.",
+  "expected_identity": "10.1016/0375-9474(96)00107-8; Petrache etal; NPA603 50-76 (1996)",
+  "scientific_order_inference": "none without matching fulltext"
+}

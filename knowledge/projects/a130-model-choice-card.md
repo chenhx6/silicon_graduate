@@ -18,6 +18,7 @@ tags: [a130, model-choice, mean-field, cranked-shell-model, hfb, angular-momentu
 
 ## Agent active summary
 
+- Day14已核136Pr的valence/unpaired条件账本；Wang2017方法companion明确TAC-RHB的blocking、未恢复数目与算符依赖，但不补Q1/Q1*的实际reference/spectator。原PSM/TPSM直接覆盖2/7与131Ce模式排序均保持。
 - Day 3 已把 Hara–Sun 的投影核与轴对称迁移边界写入本卡；续接补入 Bhat 2014 `130Cs` 比较，并发现 Sheikh et al. 2024 对 Hara Table 5 的 `133La`、`135Pr` 两个 `N=76` 星号核素做了 TPSM 计算。后者的固定 `γ` 是模型输入，数据复用既有实验；不改变 `131Ce` project 的模式排序，也不确认其 `N=73` 形状。
 - Day 3 后续还核读 Jehangir et al. 2022 odd-neutron TPSM：`131Xe` 展示从 1ν/1ν+2π 到 3ν/3ν+2π 投影基底的扩展，但只是 N=77 同中子素方法控制，不是 Hara 表三核或 `131Ce` 的直接计算。
 
@@ -168,3 +169,7 @@ Alwaleedi's `B(M1)/B(E2)` comparison assumes `δ=0`, and the dataset lacks lifet
 [[lv-2025-136pr-tac-covariant-density-functional]] LV25-32的actualTableII经[[configuration-occupation-audit]]核Z/N/numberparity。全部valence列净9p/−5n正确；unpaired Q1/Q1*列若被当完整evenreference上的清单，listedneutronnet0与目标−5、连同proton差6留下总差1，不能仅由任何two-fermion pairs补齐。未列active之外spectator/reference定义时，只能记录输入不充分，不修表/断言TAC程序错。CaptionsD4/D6的2/6项与table8项均能过必要mod2，反过来也说明该条件不是实际blocking同一性的充分证据。
 
 MeanN或spatialparity标签符合，不自动认证完整numbersector；未投影meanI也不是good-I quantum number。实际occupied/blocked、pairing/reference和spectator定义仍需核，不能从labels或能量/ratio拟合自行补。原Q1π仍modelproposal、D4/D6 MR/shape-coexistence仍竞争；本审计不增加PSM/TPSM直接投影覆盖，旧2/7范围不变。
+
+### 方法companion的可迁移边界
+
+[[wang-2017-109ag-tac-separable-pairing]] W17-3、W17-5的109Ag例子要求追踪/阻塞准粒子且未做数目恢复，细法另回指Ref.[31]。它支持“取得完整输入再比较”的路线，不解除[[lv-2025-136pr-tac-covariant-density-functional]] LV25-32的Q1/Q1*清单缺口；核素、基空间和实际blocked states不同。W17-9进一步说明B(M1)比较依赖Dirac磁矩项处理，不能只凭能谱/ratio接近认证组态。新增的是[[configuration-occupation-audit]]中的方法契约，没有新Pr136实验或PSM/TPSM投影计算。

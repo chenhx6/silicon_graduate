@@ -1,0 +1,7 @@
+{
+  "at": "2026-10-15T17:51:11.241618+08:00",
+  "reason": "New positive-control evidence: direct export.arxiv.org API returned200 and exact2017DOI entry, whereas earlier1996MCP arxiv route had connectionrefused. HAL institutional API is a new bounded route, not repeating the403 publisher/Padua requests.",
+  "target": "Petrache1996 DOI10.1016/0375-9474(96)00107-8;263/405 sourceversioncause",
+  "active_recall": "Primed byLV25/N136; original may already use newerorder or may report oldorder; do not select cause before originalfig/table. Euncprivate2001 and source2018compiler distinct; do not infer wholeoriginalfromevaluation.",
+  "scope": "one direct arxiv DOI+one HAL DOI lookup; discoverymetadata not scientific evidence; existing sourcebefore recall remainsvalid"
+}

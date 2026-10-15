@@ -1,0 +1,73 @@
+{
+  "at": "2026-10-15T18:10:01.617707+08:00",
+  "source": "knowledge/sources/wang-2017-109ag-tac-separable-pairing.md",
+  "doi": "10.1103/PhysRevC.96.054324",
+  "arxiv": "1708.06117v2",
+  "sha256": "15e901a4f5d8ad1b5cf4bffe61e050d8eb6a3c89b0f9f62dea84e5d56c335d87",
+  "input_under_tmp_only": true,
+  "raw_archived": false,
+  "covered_pages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "reading_depth": "deep-read",
+  "mainline": [
+    "Introduction and motivation",
+    "TAC-RHB/finite-range separable force",
+    "numerical basis/blocking",
+    "Figs1–8 and results",
+    "Summary",
+    "AppendixA matrix-element structure/selection",
+    "Refs31/36 identity only"
+  ],
+  "visually_viewed_pages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "figures_visually_checked": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "tables_present": false,
+  "key_locators": [
+    "PDF p.2 Eq.(4)",
+    "PDF p.2 Eq.(11)",
+    "PDF p.2 Eq.(12)",
+    "PDF p.3 Sec.III",
+    "PDF p.3 Eq.(25)",
+    "PDF p.4 Sec.IV",
+    "PDF p.7 Fig.8",
+    "PDF p.7 Eq.(28)",
+    "PDF p.8 Eq.(A18)",
+    "PDF p.8 Eq.(A19)"
+  ],
+  "uncovered": [
+    "author code/actual blocked inputs/trajectory and covariance",
+    "upstream Ref31/Ref36 fulltexts",
+    "publisher version or official erratum",
+    "independent Pr136 input and experiment"
+  ],
+  "scientific_boundary": "method companion and chosen controls, not a Pr136 implementation/experimental confirmation",
+  "P0": "none identified",
+  "needs_review_preserved": true
+}

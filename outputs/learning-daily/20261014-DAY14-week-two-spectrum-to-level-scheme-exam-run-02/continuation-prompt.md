@@ -66,3 +66,12 @@ actualTableI156rows/old136G135placed的44-check candidategraph完成，sourceLV2
 下一tac-pairing-before-sources.md已freeze，LV25Ref44 Wang2017 PRC96054324方法companionmetadata/fulltext获取中，先核title/DOI，未读全文前不添科学结论。若合法全文可得沿mainline/关键fig/equation读，再看blocking/ref定义能补何scope；不能用genericmethod填Pr136真实list。当前metadata回执tac2017-crossref-metadata.json/tac2017-arxiv-metadata.json，可能仍有toolprocess待poll，先查receipt/handle。
 
 Delivery2026-10-16 16:00上海，plannedresearchcutoff15:00；Day14/partial15，course仍next14/count13，goalactive。旧watchers已notlive，未重启。
+
+
+## 最新checkpoint023
+
+本批Wang2017方法companion已完整9页/Figs1–8/关键公式及AppendixA核验，50check通过；canonical source/method/TAC/modelchoice/index，74items26changedpages，旧rows/review/raw/PLAN/Bib保持。Freshlint0errors133warnings（108citekey、22rawslots、3parser）；初source缺必需heading已修。没有Pr136 actual输入、原实验新结论、officialerratum或实际code错误判决。
+
+前22批published；本批subject Calibrate DAY14 TAC pairing and blocking input contract，实际H3/hash看publication-023.json。1996primary新quoted DOI/title/HAL全HTTP200/0匹配，unquotedDOI噪声不计；仍不解释263/405差异。
+
+下一tac2015-blocking-before-sources.md已freeze，Ref31 PRC92,034319(2015) metadata/合法全文待核；先核身份，再读trace/blocking criterion和失败边界，不借generic method填Pr136spectator。研究仍active至2026-10-16 15:00，16:00最终交付；Day14/partial15，official next14/count13、formal21/24保持。旧watchers不live未重启。

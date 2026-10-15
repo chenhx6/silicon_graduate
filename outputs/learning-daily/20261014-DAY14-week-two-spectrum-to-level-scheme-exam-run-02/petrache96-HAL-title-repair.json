@@ -1,0 +1,21 @@
+{
+  "provider": "HAL-title-repair",
+  "at": "2026-10-15T18:05:15.041940+08:00",
+  "params": {
+    "q": "title_t:\"Evolution from spherical to various deformed shapes\"",
+    "fl": "title_s,uri_s,fileMain_s,doiId_s,docType_s,authFullName_s",
+    "wt": "json",
+    "rows": 3
+  },
+  "url": "https://api.archives-ouvertes.fr/search/?q=title_t%3A%22Evolution+from+spherical+to+various+deformed+shapes%22&fl=title_s%2Curi_s%2CfileMain_s%2CdoiId_s%2CdocType_s%2CauthFullName_s&wt=json&rows=3",
+  "status": 200,
+  "result": {
+    "response": {
+      "numFound": 0,
+      "start": 0,
+      "maxScore": 0.0,
+      "numFoundExact": true,
+      "docs": []
+    }
+  }
+}

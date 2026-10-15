@@ -1,0 +1,13 @@
+{
+  "provider": "arxiv-quoted-doi",
+  "at": "2026-10-15T18:05:15.041353+08:00",
+  "params": {
+    "search_query": "doi:\"10.1016/0375-9474(96)00107-8\"",
+    "max_results": 3
+  },
+  "url": "https://export.arxiv.org/api/query?search_query=doi%3A%2210.1016%2F0375-9474%2896%2900107-8%22&max_results=3",
+  "status": 200,
+  "total_results": "0",
+  "entries": [],
+  "exact_doi_matches": []
+}

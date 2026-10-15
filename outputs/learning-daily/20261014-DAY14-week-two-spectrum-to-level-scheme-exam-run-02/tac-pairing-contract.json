@@ -1,0 +1,271 @@
+{
+  "kind": "source-parameter/formula audit plus declared finite-Fock-space design; not an RHB rerun",
+  "source": {
+    "doi": "10.1103/PhysRevC.96.054324",
+    "arxiv": "1708.06117v2",
+    "pdf": "tmp/day14-20261014/tac2017/PDFs/Yrast_band_of_109Ag_described_by_tilted_axis_cranking_covariant_density_functional_theory_with_a_separable_pairing_force.pdf",
+    "sha256": "15e901a4f5d8ad1b5cf4bffe61e050d8eb6a3c89b0f9f62dea84e5d56c335d87",
+    "pages": 9,
+    "raw_archived": false
+  },
+  "actual_source_parameters": {
+    "G_MeV_fm3": -738.0,
+    "a_fm": 0.636,
+    "locator": "PDF p.3 Sec.III"
+  },
+  "form_factor": {
+    "locator": "PDF p.2 Eq.(12)",
+    "integral": 1.0,
+    "quad_error": 1.778766685186263e-12,
+    "weighted_r2_fm2": 2.4269759999999976,
+    "r2_quad_error": 2.5355265836944612e-08,
+    "formal_rms_fm": 1.5578754764101006,
+    "note": "moments of normalized P form factor, not a measured or calculated nuclear pair-density radius"
+  },
+  "spin_projector": {
+    "locator": "PDF p.2 Eq.(11)",
+    "matrix": [
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.5,
+        -0.5,
+        0.0
+      ],
+      [
+        0.0,
+        -0.5,
+        0.5,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "eigenvalues": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "isospin_or_actual_pn_implementation": "not determined by the spin projector"
+  },
+  "chosen_like_particle_states": [
+    {
+      "blocked_p": 0,
+      "blocked_n": 0,
+      "mean_Np": 1.2000000000000002,
+      "mean_Nn": 1.4000000000000004,
+      "parity_p": 1.0,
+      "parity_n": 1.0,
+      "support": [
+        {
+          "Np": 0,
+          "Nn": 0,
+          "probability": 0.12
+        },
+        {
+          "Np": 2,
+          "Nn": 0,
+          "probability": 0.18
+        },
+        {
+          "Np": 0,
+          "Nn": 2,
+          "probability": 0.28
+        },
+        {
+          "Np": 2,
+          "Nn": 2,
+          "probability": 0.4200000000000001
+        }
+      ]
+    },
+    {
+      "blocked_p": 1,
+      "blocked_n": 0,
+      "mean_Np": 1.0,
+      "mean_Nn": 1.4000000000000001,
+      "parity_p": -1.0,
+      "parity_n": 1.0,
+      "support": [
+        {
+          "Np": 1,
+          "Nn": 0,
+          "probability": 0.29999999999999993
+        },
+        {
+          "Np": 1,
+          "Nn": 2,
+          "probability": 0.7000000000000001
+        }
+      ]
+    },
+    {
+      "blocked_p": 0,
+      "blocked_n": 1,
+      "mean_Np": 1.2000000000000002,
+      "mean_Nn": 1.0,
+      "parity_p": 1.0,
+      "parity_n": -1.0,
+      "support": [
+        {
+          "Np": 0,
+          "Nn": 1,
+          "probability": 0.4
+        },
+        {
+          "Np": 2,
+          "Nn": 1,
+          "probability": 0.6000000000000001
+        }
+      ]
+    },
+    {
+      "blocked_p": 1,
+      "blocked_n": 1,
+      "mean_Np": 1.0,
+      "mean_Nn": 1.0,
+      "parity_p": -1.0,
+      "parity_n": -1.0,
+      "support": [
+        {
+          "Np": 1,
+          "Nn": 1,
+          "probability": 1.0
+        }
+      ]
+    }
+  ],
+  "chosen_pn_control": {
+    "pair_probability": 0.4,
+    "parity_p": 0.20000000000000015,
+    "parity_n": 0.20000000000000015,
+    "total_parity": 1.0,
+    "actual_source_implementation": null
+  },
+  "literal_version_controls": {
+    "eq25": {
+      "locator": "PDF p.3 Eq.(25)",
+      "chosen_mu_x": 3.0,
+      "chosen_mu_z": 4.0,
+      "chosen_theta": 0.0,
+      "middle_squared": 1.909859317102744,
+      "last_literal_linear": -0.477464829275686,
+      "actual_author_code": null,
+      "official_erratum_checked": false
+    },
+    "appendix_A18_A19": [
+      {
+        "n_gamma": 1,
+        "n_delta": 1,
+        "N_cm": 0,
+        "A18_literal_n": -2,
+        "A19_delta_requires_n": 2,
+        "agree": false
+      },
+      {
+        "n_gamma": 2,
+        "n_delta": 0,
+        "N_cm": 0,
+        "A18_literal_n": -2,
+        "A19_delta_requires_n": 2,
+        "agree": false
+      },
+      {
+        "n_gamma": 2,
+        "n_delta": 2,
+        "N_cm": 2,
+        "A18_literal_n": -2,
+        "A19_delta_requires_n": 2,
+        "agree": false
+      },
+      {
+        "n_gamma": 0,
+        "n_delta": 0,
+        "N_cm": 0,
+        "A18_literal_n": 0,
+        "A19_delta_requires_n": 0,
+        "agree": true
+      }
+    ],
+    "gap_relative_reduction": 0.30952380952380953
+  },
+  "chosen_operator_component_control": {
+    "source": "PDF p.7 Eq.(28), Fig.8",
+    "chosen_D": 3.0,
+    "chosen_A": -1.0,
+    "source_attenuation": 0.58,
+    "component_scaled_square": 0.5475999999999996,
+    "whole_scaled_square": 1.3456,
+    "actual_nuclear_components": null
+  },
+  "missing_actual_inputs": [
+    "Pr136 occupied/blocked list and reference/spectators",
+    "qp-following overlap/logs",
+    "author implementation/number projection",
+    "experimental event/response/covariance"
+  ],
+  "checks": {
+    "pdf_inside_wiki": true,
+    "pdf_magic": true,
+    "actual_pdf_hash": true,
+    "nine_pages": true,
+    "title_and_version": true,
+    "rhb_and_force_locators": true,
+    "actual_parameters_present": true,
+    "blocking_definition_present": true,
+    "number_restoration_not_performed": true,
+    "literal_formula_locators": true,
+    "form_factor_normalized": true,
+    "form_factor_second_moment": true,
+    "form_factor_nonnegative": true,
+    "nonlocal_kernel_units": true,
+    "normalized_two_body_matrix_units": true,
+    "spin_projector_hermitian": true,
+    "spin_projector_idempotent": true,
+    "spin_projector_rank_one": true,
+    "spin_singlet_passes": true,
+    "triplet_removed": true,
+    "creation_CAR_0": true,
+    "creation_CAR_1": true,
+    "creation_CAR_2": true,
+    "creation_CAR_3": true,
+    "like_00_norm": true,
+    "like_00_species_sectors": true,
+    "like_00_total_sector": true,
+    "like_10_norm": true,
+    "like_10_species_sectors": true,
+    "like_10_total_sector": true,
+    "like_01_norm": true,
+    "like_01_species_sectors": true,
+    "like_01_total_sector": true,
+    "like_11_norm": true,
+    "like_11_species_sectors": true,
+    "like_11_total_sector": true,
+    "pn_pair_normalized": true,
+    "pn_pair_spin_singlet": true,
+    "pn_mixture_normalized": true,
+    "pn_mixture_total_even": true,
+    "pn_mixture_species_not_fixed": true,
+    "mean_N1_not_number_projection": true,
+    "eq25_literal_sign_failure_control": true,
+    "eq25_literal_scaling_inconsistent": true,
+    "appendix_nonzero_relative_counterexample": true,
+    "appendix_zero_relative_case_not_general": true,
+    "printed_gap_percent_not_twenty": true,
+    "magnetic_component_scaling_not_whole_B": true,
+    "magnetic_component_scaling_nochange_control": true,
+    "magnetic_component_scaling_zero_anomalous_control": true
+  },
+  "check_count": 50,
+  "passed": true
+}

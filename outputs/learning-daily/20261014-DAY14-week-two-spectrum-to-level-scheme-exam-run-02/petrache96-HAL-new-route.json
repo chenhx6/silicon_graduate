@@ -1,0 +1,15 @@
+{
+  "provider": "HAL",
+  "at": "2026-10-15T17:51:12.234255+08:00",
+  "url": "https://api.archives-ouvertes.fr/search/?q=doiId_s%3A%2210.1016%2F0375-9474%2896%2900107-8%22&fl=title_s%2Curi_s%2CfileMain_s%2CdocType_s%2CauthFullName_s&wt=json&rows=3",
+  "status": 200,
+  "result": {
+    "response": {
+      "numFound": 0,
+      "start": 0,
+      "maxScore": 0.0,
+      "numFoundExact": true,
+      "docs": []
+    }
+  }
+}
