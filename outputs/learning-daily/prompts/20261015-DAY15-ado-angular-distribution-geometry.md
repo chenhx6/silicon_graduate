@@ -298,3 +298,6 @@ Day14最终只补截止前已读2018 ENSDF136Pr记录（N136-1–8）与accepted
 
 
 Day14延期后完成66-check free-recoil energy-opening-angle条件推导；K.862eV为A193proxy、response自设，不赋实际order。Staticangularno-go只限原kernel；stopping/独立calibration和未知Σ边界保持。这是formalDay15的priming，非本卡credit。
+
+
+Day14延期还完成44-check136Pr实际RI/finiteENSDF parser与positiveflow/独立parenttag设计。Sameprojection全检测分布可同，未知exit/feeding/ICC时Iγ不定序；zeroIC hiddenfraction不是实测branchlimit。此为priming，不提前计ADO卡，也不把global I和conditionalgate值混用。

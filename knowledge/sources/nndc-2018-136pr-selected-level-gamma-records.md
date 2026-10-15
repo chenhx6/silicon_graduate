@@ -62,6 +62,7 @@ E. A. McCutchan, *Nuclear Data Sheets for A=136*, NDS152,331–667(2018)，DOI[1
 | N136-6 | Reaction594.70-keV6+半衰期91(1)ns是多个旧值weighted average，1996Pe12的90(4)ns等另列。该值不属于高能17+或Q1母态；2025图90ns与此评价91ns要按版本/来源保留。 | evaluated-lifetime-provenance | direct | 136059003 L594.70 lines87–94 | true |
 | N136-7 | 首条311.7G在第一个L前，原文另称doublet在1996Table1未放置但Fig1画到351.9；不能让parser把首G错挂0level或把编者图表冲突修成已定identity。 | evaluator-placement-boundary | direct | 136059003 lines37–38; lines67–74 | true |
 | N136-8 | 1996Pe12对应Petrache等NPA603,50–76 DOI10.1016/0375-9474(96)00107-8，metadata已核；OA无文件、arXiv连接拒绝、Semantic429、Scholar失败、Padua403，未得primary。2025转述/2018评价不能代替原文或认证重排原因。 | primary-readiness-boundary | metadata-and-boundary | Day14 petrache96-metadata/openalex-doi/padua/downloader-boundary receipts | true |
+| N136-9 | Reaction旧链L3677.7的G262.9 RI25.7(5)，L3414.8的G404.9 RI27.6(3)，CC/MR均空。ADOPTED对应各母态独支路都重标RI100。原评价未提供这对γ完整efficiency/gate ledger或Cov，不能从parent100重标恢复跨母态flow。 | evaluated-relative-intensity-and-missing-input | direct | 136059003 lines251/257; 136059001 lines533/541 | true |
 
 ## Competing Interpretations and Limitations
 
@@ -81,3 +82,8 @@ Decision: revises字段版本和π充分性的认识，supports精确endpoint与
 ## Self-audit and review boundary
 
 N136-1–8全部needs_review:true，page unreviewed。没有清旧claim标记、设置human-reviewed或改raw。未完成fixed-column通用parser/新χ拟合不算已完成；本页只固化截止前已检查的literalrecords和获取边界。原数据仍缺事件、逐门response/Cov与完整原文。
+
+
+### Fixed-column与条件flow补核
+
+[day14_pr136_flow_identifiability.py](../../system/scripts/day14_pr136_flow_identifiability.py)为有限ENSDF L/G列读取器，不宣称完整schema实现：保留首311.7 unplaced、RI LT qualifiers、literalπ/CC/MR/continuations、adopted较弱π与母态RI100。原始对象SHA和新接受稿表行先核，再做44-check的条件flow反例。全部N136-1–9 needs_review true，旧1–8原文/flags保留；source物理取值没有被toy回填。详细可复用认识见[[level-scheme-reconstruction]]“136Pr：相对强度、缺失分支与独立母态标签”。

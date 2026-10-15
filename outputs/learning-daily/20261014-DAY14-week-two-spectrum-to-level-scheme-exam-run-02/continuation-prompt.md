@@ -22,3 +22,10 @@ FormalDay14已primed回忆/Herzáň20页/Fig2/TableI/七边35checks/判据矩阵
 Free-recoil原预测已完成66-check，不能再按上文旧描述说未formalcode。Canonical“近邻双线的反冲能量—张角信息与静态排序边界”，J/kine/共同endpoint/stopping/nuisance控制完整；source实际order/τ仍未知。47items20changedpages，lint0errors131warnings等通过，前16批published。本批subject Add DAY14 recoil energy-angle ordering limits。
 
 下一136Pr old/new263/405顺序的actualRI/flow充分性与missingbranch已freezepr136-flow-before-calculation.md，先通用fixedcolumn核行/unc/首unplaced，positiveflow设计不替代actualdata。延长新截止2026-10-16 16:00，currentday14/partial15，officialnext14/count13不重计。原clock/farmerPID已不live，未启动替代daemon或session。
+
+
+## 最新checkpoint018
+
+136通用fixedcolumn subset/44-checkflow已完成，不再按旧段说未写。Canonical“136Pr：相对强度、缺失分支与独立母态标签”、LV25-27/N136-9；同两线检测全分布等价与独立parenttag控制，hiddenloss非experimentallimit。50items20pages，lint0errors131warnings等通过，前17批published；本批subject Bound DAY14 Pr136 flow and parent-tag identifiability。
+
+下一actual全TableI到旧ENSDF transitionidentitycrosswalk，energyalone多候选需保留；source1996primary仍missing。先freezepool/预测，不新卡；193Bi static/time/recoil已局部饱和、实际response/τ/events缺，勿再同toy换数。新截止2026-10-16 16:00，day14/partial15，course仍next14/count13。

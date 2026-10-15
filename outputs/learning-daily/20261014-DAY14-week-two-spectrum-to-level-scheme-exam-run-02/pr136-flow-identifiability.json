@@ -1,0 +1,591 @@
+{
+  "actual_objects": {
+    "adopted": "cb1ca8660bbf0df17920ec4f366b245cb564d707f116bc1544738fdcfff94604",
+    "pd30si": "b90fe01705fc98992c49e04b57f829d6d55e469930508da4a98494c553c3922d"
+  },
+  "parser_scope": "fixed primary L/G columns and literal continuations only, not full ENSDF interpretation",
+  "actual_old_selected_gammas": [
+    {
+      "line": 257,
+      "parent_line": 256,
+      "parent_E": 3677.7,
+      "energy_text": "262.9",
+      "E": 262.9,
+      "dE": 0.2,
+      "RI": 25.7,
+      "dRI": 0.5,
+      "RI_error_or_limit": "5",
+      "M": "D",
+      "MR_text": "",
+      "MR_error_or_limit": "",
+      "CC": null,
+      "flag": "",
+      "raw": "136PR  G 262.9     2  25.7   5  D                                               ",
+      "continuations": [
+        {
+          "line": 258,
+          "raw": "136PR cG M$A{-2}=-0.43 {I7}, A{-4}=-0.01 {I10} (1996Pe12)                       "
+        }
+      ]
+    },
+    {
+      "line": 251,
+      "parent_line": 250,
+      "parent_E": 3414.8,
+      "energy_text": "404.9",
+      "E": 404.9,
+      "dE": 0.2,
+      "RI": 27.6,
+      "dRI": 0.3,
+      "RI_error_or_limit": "3",
+      "M": "D",
+      "MR_text": "",
+      "MR_error_or_limit": "",
+      "CC": null,
+      "flag": "",
+      "raw": "136PR  G 404.9     2  27.6   3  D                                               ",
+      "continuations": [
+        {
+          "line": 252,
+          "raw": "136PR cG M$R(DCO)=0.54 {I5}                                                     "
+        }
+      ]
+    }
+  ],
+  "actual_new_selected_rows": [
+    {
+      "energy": "263.1(2)",
+      "parent": "3273.3(10)",
+      "RI": "18.8(7)",
+      "dRI": 0.7,
+      "raw": " 263.1(2)   3273.3(10)    18.8(7)        1.02(9)d                     M1+E2         14+ → 13+"
+    },
+    {
+      "energy": "405.1(1)",
+      "parent": "3678.4(10)",
+      "RI": "14.9(7)",
+      "dRI": 0.7,
+      "raw": " 405.1(1)   3678.4(10)    14.9(7)       0.86(13)d                     M1+E2         15+ → 14+"
+    }
+  ],
+  "unplaced_records": [
+    {
+      "line": 37,
+      "parent_line": null,
+      "parent_E": null,
+      "energy_text": "311.7",
+      "E": 311.7,
+      "dE": 0.2,
+      "RI": null,
+      "dRI": null,
+      "RI_error_or_limit": "",
+      "M": "",
+      "MR_text": "",
+      "MR_error_or_limit": "",
+      "CC": null,
+      "flag": "",
+      "raw": "136PR  G 311.7     2                                                            ",
+      "continuations": []
+    }
+  ],
+  "current_control_middles": {
+    "405_first": {
+      "exact": "32733/10",
+      "value": 3273.3
+    },
+    "263_first_control": {
+      "exact": "34153/10",
+      "value": 3415.3
+    }
+  },
+  "cases": [
+    {
+      "case": "new2025",
+      "photon_flow_263": {
+        "exact": "94/5",
+        "value": 18.8
+      },
+      "photon_flow_405": {
+        "exact": "149/10",
+        "value": 14.9
+      },
+      "favored_no_loss_order": "405_first",
+      "ledger_263first": {
+        "top": {
+          "exact": "94/5",
+          "value": 18.8
+        },
+        "bottom": {
+          "exact": "149/10",
+          "value": 14.9
+        },
+        "feeding": {
+          "exact": "0",
+          "value": 0.0
+        },
+        "unobserved_loss": {
+          "exact": "39/10",
+          "value": 3.9
+        },
+        "total_out": {
+          "exact": "94/5",
+          "value": 18.8
+        },
+        "loss_fraction": {
+          "exact": "39/188",
+          "value": 0.2074468085106383
+        }
+      },
+      "ledger_405first": {
+        "top": {
+          "exact": "149/10",
+          "value": 14.9
+        },
+        "bottom": {
+          "exact": "94/5",
+          "value": 18.8
+        },
+        "feeding": {
+          "exact": "39/10",
+          "value": 3.9
+        },
+        "unobserved_loss": {
+          "exact": "0",
+          "value": 0.0
+        },
+        "total_out": {
+          "exact": "94/5",
+          "value": 18.8
+        },
+        "loss_fraction": {
+          "exact": "0",
+          "value": 0.0
+        }
+      },
+      "event_categories_263first": [
+        {
+          "rate": {
+            "exact": "149/10",
+            "value": 14.9
+          },
+          "photons": [
+            "263",
+            "405"
+          ],
+          "parent_entry": true
+        },
+        {
+          "rate": {
+            "exact": "39/10",
+            "value": 3.9
+          },
+          "photons": [
+            "263"
+          ],
+          "parent_entry": true
+        }
+      ],
+      "event_categories_405first": [
+        {
+          "rate": {
+            "exact": "149/10",
+            "value": 14.9
+          },
+          "photons": [
+            "263",
+            "405"
+          ],
+          "parent_entry": true
+        },
+        {
+          "rate": {
+            "exact": "39/10",
+            "value": 3.9
+          },
+          "photons": [
+            "263"
+          ],
+          "parent_entry": false
+        }
+      ],
+      "untagged_cell_distribution": {
+        "(0, 0, 0)": {
+          "exact": "19809/23500",
+          "value": 0.842936170212766
+        },
+        "(0, 0, 1)": {
+          "exact": "0",
+          "value": 0.0
+        },
+        "(0, 1, 0)": {
+          "exact": "1341/23500",
+          "value": 0.057063829787234045
+        },
+        "(0, 1, 1)": {
+          "exact": "0",
+          "value": 0.0
+        },
+        "(1, 0, 0)": {
+          "exact": "2201/23500",
+          "value": 0.09365957446808511
+        },
+        "(1, 0, 1)": {
+          "exact": "0",
+          "value": 0.0
+        },
+        "(1, 1, 0)": {
+          "exact": "149/23500",
+          "value": 0.0063404255319148934
+        },
+        "(1, 1, 1)": {
+          "exact": "0",
+          "value": 0.0
+        }
+      },
+      "tagged_cells_263first": {
+        "(0, 0, 0)": {
+          "exact": "1842237/2350000",
+          "value": 0.7839306382978724
+        },
+        "(0, 0, 1)": {
+          "exact": "138663/2350000",
+          "value": 0.05900553191489362
+        },
+        "(0, 1, 0)": {
+          "exact": "124713/2350000",
+          "value": 0.05306936170212766
+        },
+        "(0, 1, 1)": {
+          "exact": "9387/2350000",
+          "value": 0.003994468085106383
+        },
+        "(1, 0, 0)": {
+          "exact": "204693/2350000",
+          "value": 0.08710340425531915
+        },
+        "(1, 0, 1)": {
+          "exact": "15407/2350000",
+          "value": 0.006556170212765958
+        },
+        "(1, 1, 0)": {
+          "exact": "13857/2350000",
+          "value": 0.005896595744680851
+        },
+        "(1, 1, 1)": {
+          "exact": "1043/2350000",
+          "value": 0.00044382978723404257
+        }
+      },
+      "tagged_cells_405first": {
+        "(0, 0, 0)": {
+          "exact": "3745899/4700000",
+          "value": 0.7969997872340425
+        },
+        "(0, 0, 1)": {
+          "exact": "215901/4700000",
+          "value": 0.045936382978723406
+        },
+        "(0, 1, 0)": {
+          "exact": "124713/2350000",
+          "value": 0.05306936170212766
+        },
+        "(0, 1, 1)": {
+          "exact": "9387/2350000",
+          "value": 0.003994468085106383
+        },
+        "(1, 0, 0)": {
+          "exact": "416211/4700000",
+          "value": 0.08855553191489361
+        },
+        "(1, 0, 1)": {
+          "exact": "23989/4700000",
+          "value": 0.00510404255319149
+        },
+        "(1, 1, 0)": {
+          "exact": "13857/2350000",
+          "value": 0.005896595744680851
+        },
+        "(1, 1, 1)": {
+          "exact": "1043/2350000",
+          "value": 0.00044382978723404257
+        }
+      },
+      "TV_tag_control": {
+        "exact": "273/18800",
+        "value": 0.01452127659574468
+      }
+    },
+    {
+      "case": "old2018reaction",
+      "photon_flow_263": {
+        "exact": "257/10",
+        "value": 25.7
+      },
+      "photon_flow_405": {
+        "exact": "138/5",
+        "value": 27.6
+      },
+      "favored_no_loss_order": "263_first",
+      "ledger_263first": {
+        "top": {
+          "exact": "257/10",
+          "value": 25.7
+        },
+        "bottom": {
+          "exact": "138/5",
+          "value": 27.6
+        },
+        "feeding": {
+          "exact": "19/10",
+          "value": 1.9
+        },
+        "unobserved_loss": {
+          "exact": "0",
+          "value": 0.0
+        },
+        "total_out": {
+          "exact": "138/5",
+          "value": 27.6
+        },
+        "loss_fraction": {
+          "exact": "0",
+          "value": 0.0
+        }
+      },
+      "ledger_405first": {
+        "top": {
+          "exact": "138/5",
+          "value": 27.6
+        },
+        "bottom": {
+          "exact": "257/10",
+          "value": 25.7
+        },
+        "feeding": {
+          "exact": "0",
+          "value": 0.0
+        },
+        "unobserved_loss": {
+          "exact": "19/10",
+          "value": 1.9
+        },
+        "total_out": {
+          "exact": "138/5",
+          "value": 27.6
+        },
+        "loss_fraction": {
+          "exact": "19/276",
+          "value": 0.06884057971014493
+        }
+      },
+      "event_categories_263first": [
+        {
+          "rate": {
+            "exact": "257/10",
+            "value": 25.7
+          },
+          "photons": [
+            "263",
+            "405"
+          ],
+          "parent_entry": true
+        },
+        {
+          "rate": {
+            "exact": "19/10",
+            "value": 1.9
+          },
+          "photons": [
+            "405"
+          ],
+          "parent_entry": false
+        }
+      ],
+      "event_categories_405first": [
+        {
+          "rate": {
+            "exact": "257/10",
+            "value": 25.7
+          },
+          "photons": [
+            "263",
+            "405"
+          ],
+          "parent_entry": true
+        },
+        {
+          "rate": {
+            "exact": "19/10",
+            "value": 1.9
+          },
+          "photons": [
+            "405"
+          ],
+          "parent_entry": true
+        }
+      ],
+      "untagged_cell_distribution": {
+        "(0, 0, 0)": {
+          "exact": "2503/3000",
+          "value": 0.8343333333333334
+        },
+        "(0, 0, 1)": {
+          "exact": "0",
+          "value": 0.0
+        },
+        "(0, 1, 0)": {
+          "exact": "2503/34500",
+          "value": 0.07255072463768115
+        },
+        "(0, 1, 1)": {
+          "exact": "0",
+          "value": 0.0
+        },
+        "(1, 0, 0)": {
+          "exact": "257/3000",
+          "value": 0.08566666666666667
+        },
+        "(1, 0, 1)": {
+          "exact": "0",
+          "value": 0.0
+        },
+        "(1, 1, 0)": {
+          "exact": "257/34500",
+          "value": 0.007449275362318841
+        },
+        "(1, 1, 1)": {
+          "exact": "0",
+          "value": 0.0
+        }
+      },
+      "tagged_cells_263first": {
+        "(0, 0, 0)": {
+          "exact": "234109/300000",
+          "value": 0.7803633333333333
+        },
+        "(0, 0, 1)": {
+          "exact": "5397/100000",
+          "value": 0.05397
+        },
+        "(0, 1, 0)": {
+          "exact": "234109/3450000",
+          "value": 0.06785768115942029
+        },
+        "(0, 1, 1)": {
+          "exact": "5397/1150000",
+          "value": 0.004693043478260869
+        },
+        "(1, 0, 0)": {
+          "exact": "7967/100000",
+          "value": 0.07967
+        },
+        "(1, 0, 1)": {
+          "exact": "1799/300000",
+          "value": 0.005996666666666667
+        },
+        "(1, 1, 0)": {
+          "exact": "7967/1150000",
+          "value": 0.006927826086956522
+        },
+        "(1, 1, 1)": {
+          "exact": "1799/3450000",
+          "value": 0.0005214492753623189
+        }
+      },
+      "tagged_cells_405first": {
+        "(0, 0, 0)": {
+          "exact": "77593/100000",
+          "value": 0.77593
+        },
+        "(0, 0, 1)": {
+          "exact": "17521/300000",
+          "value": 0.058403333333333335
+        },
+        "(0, 1, 0)": {
+          "exact": "77593/1150000",
+          "value": 0.06747217391304348
+        },
+        "(0, 1, 1)": {
+          "exact": "17521/3450000",
+          "value": 0.005078550724637681
+        },
+        "(1, 0, 0)": {
+          "exact": "7967/100000",
+          "value": 0.07967
+        },
+        "(1, 0, 1)": {
+          "exact": "1799/300000",
+          "value": 0.005996666666666667
+        },
+        "(1, 1, 0)": {
+          "exact": "7967/1150000",
+          "value": 0.006927826086956522
+        },
+        "(1, 1, 1)": {
+          "exact": "1799/3450000",
+          "value": 0.0005214492753623189
+        }
+      },
+      "TV_tag_control": {
+        "exact": "133/27600",
+        "value": 0.004818840579710145
+      }
+    }
+  ],
+  "IC_input_contract": "Use F_j=I_gamma,j(1+alpha_j). alpha/delta and unseen inventory unknown; zero IC above is a declared control.",
+  "delta_uncertainty_contract": "Var(I263-I405)=s263^2+s405^2-2Cov263405; covariance unknown; no significance calculated.",
+  "boundaries": [
+    "different campaign/normalization rows never merged into one flow dataset",
+    "hidden-loss fractions are conditional mathematical minima, not experimental branching limits",
+    "equivalence applies to the selected two-line event projection, not every spectrum in the paper",
+    "independent parent tag distinguishes this constructed pair; does not prove global order identifiability with arbitrary unknown feeding/calibration",
+    "no actual order choice, source-error verdict, absolute strength or L4 event replay"
+  ],
+  "checks": {
+    "actual_object_hash_adopted": true,
+    "actual_201810_cut2018_adopted": true,
+    "actual_object_hash_pd30si": true,
+    "actual_201810_cut2018_pd30si": true,
+    "leading_unplaced_gamma_not_attached_to_ground": true,
+    "old_top263_RI_and_error_literal": true,
+    "old_lower405_RI_and_error_literal": true,
+    "old_CC_and_MR_missing_not_zero": true,
+    "old_reaction_tentative_parity_262.9": true,
+    "old_reaction_tentative_parity_404.9": true,
+    "adopted_retains_weaker_no_parity_3677.6": true,
+    "adopted_retains_weaker_no_parity_3414.7": true,
+    "adopted_retains_weaker_no_parity_3009.8": true,
+    "adopted_each_parent_RI100_not_global_same_flow": true,
+    "upper_limit_qualifier_preserved_not_symmetric_error": true,
+    "compiler_perhaps_typo_comment_literal": true,
+    "accepted_copy_raw_hash": true,
+    "new_direct_table_literal_263.1(2)": true,
+    "new_direct_table_literal_405.1(1)": true,
+    "current_energy_closure_both_orders_exact": true,
+    "current_middle3273point3_vs_control3415point3": true,
+    "control_middle_not_legacy_literal": true,
+    "new2025_positive_ledger_263": true,
+    "new2025_continuous_feed_loss_family_263": true,
+    "new2025_positive_ledger_405": true,
+    "new2025_continuous_feed_loss_family_405": true,
+    "new2025_no_loss_control_prefers_reported_order": true,
+    "new2025_all_observed_two_line_detection_cells_identical": true,
+    "new2025_normalized_observed_cells": true,
+    "new2025_known_parent_entry_tag_breaks_constructed_equivalence": true,
+    "new2025_tag_difference_exact_bound": true,
+    "old2018reaction_positive_ledger_263": true,
+    "old2018reaction_continuous_feed_loss_family_263": true,
+    "old2018reaction_positive_ledger_405": true,
+    "old2018reaction_continuous_feed_loss_family_405": true,
+    "old2018reaction_no_loss_control_prefers_reported_order": true,
+    "old2018reaction_all_observed_two_line_detection_cells_identical": true,
+    "old2018reaction_normalized_observed_cells": true,
+    "old2018reaction_known_parent_entry_tag_breaks_constructed_equivalence": true,
+    "old2018reaction_tag_difference_exact_bound": true,
+    "new_reversed_zeroIC_min_loss_fraction_39over188": true,
+    "old_reversed_zeroIC_min_loss_fraction_19over276": true,
+    "equal_flow_tag_does_not_create_branch_discriminator": true,
+    "actual495point4_parent_entry_link_in_published_table": true
+  },
+  "checks_passed": 44
+}

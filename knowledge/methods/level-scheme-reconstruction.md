@@ -496,3 +496,43 @@ dl-dh=-\frac{hl\,c(h-l)(1-c)}{[M-h(1-c)][M-l(1-c)]},
 [day14_doublet_recoil_energy_angle.py](../../system/scripts/day14_doublet_recoil_energy_angle.py)完成66项：5个rationalcos×两order的精确Fraction四动量不变量/共同Mf/positive masses、Lorentz往返、稳定subtractedshift、96/160节点contrast积分与独立二维J、moments/标签/zero gap/c0、M尺度、70位Decimal stopped常数和nuisance rank。可选sympy probe因未安装失败，未安装新依赖或采用该probe；正式Fraction控制独立完成。参数/各check见[66-check回执](../../outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/doublet-recoil-energy-angle.json)。
 
 决定supports已知energy-angle kernel可能补静态angular交换对称性，revises“完全stopping必无任何recoil差”的过强推论，limits从该sub-eV设计尺度外推真实可检出性/次序。实际mass、τ/stopping、逐pair response/校准Σ/events仍缺，L4actualorder重分析not-ready；所有source review与HE15-9未定结论保持。
+
+
+## 136Pr：相对强度、缺失分支与独立母态标签
+
+前一节263/405顺序冲突不能只凭表中Iγ“下方应更强”解决。[[lv-2025-136pr-tac-covariant-density-functional]] LV25-27给新I263=18.8(.7)、I405=14.9(.7)；[[nndc-2018-136pr-selected-level-gamma-records]] N136-9给旧reaction I263=25.7(.5)、I405=27.6(.3)。两套是不同采集/标度和placement，**不**拼接为同一个flow数据包；ADOPTED每母态RI100更不能拿来跨母态比较。
+
+### ZeroIC控制下的流量账本
+
+先声明Iγ可作为所选子网络的效率校正photon flow，zeroIC、忽略未建模接受度，且只计两条目标γ。真实旧RI的完整efficiency/gate ledger并未提供，因此连这个起点也不是已验证的实验流。一般total-transition flow应写`F_j=Iγ,j(1+α_j)`；mixed M1/E2的δ、ICC与未见分支未知，α不能自动补零。
+
+对任一候选次序，以T为上方目标line的totalflow、B为下方目标line的totalflow，F/L为中间态的额外feeding/未计出口：
+
+`T+F=B+L`，`F≥0,L≥0`。
+
+所有可行解包含 `F=max(B−T,0)+t`、`L=max(T−B,0)+t`，t≥0。只有额外施加L=0，才可由B≥T选一边。最小loss fraction为 `max(T−B,0)/max(T,B)`，但这是该模型的条件数学量，不是实测branching limit。
+
+| source RI，自身标度 | 无额外出口时可行次序 | 其最小feeding（相同RI单位） | 逆序的最小loss fraction，zeroIC控制 |
+| --- | --- | ---: | ---: |
+| 新18.8/14.9 | 405在上、263在下 | 3.9 | 39/188≈.207447 |
+| 旧25.7/27.6 | 263在上、405在下 | 1.9 | 19/276≈.068841 |
+
+两个source在此控制下各自更符合其自身reportedorder，并不从冲突中选出哪次实验正确。未观测branch的灵敏度上限/完整库存缺失，就不能排除逆序的正流量族；feeding越多所需loss也可越多。Quoted单线errors不等于已知Cov，差值variance为`s263²+s405²−2Cov263,405`，本练习不计算实验显著性。
+
+### 整份两线事件投影也可以完全相同
+
+以新RI为例。405-first模型可有14.9单位事件发射两γ，再有3.9单位事件直接feeding中间态、只贡献263；263-first模型可有14.9单位双γ事件，再有3.9单位上方263事件从中间态流向未计出口。两者在**所选263/405 photon集合**上都只有“pair14.9”和“263-only3.9”。用相同独立探测响应，它们所有检测格点（两线是否出现）、singles、coincidence和任意只依两线的energy gate函数都相同，非仅一阶mean相同。旧RI也有对应的精确构造。
+
+这个等价只针对已定义的两线投影；feeding/未计出口的其它γ可能被独立门或其它观测看见，**不是**声称整篇paper的全部data都不可识别。若还声明pure stretched同rank/type、无中间演化，先前staticangular-swap定理也不会自动补该次序；真实M1+E2标签并不保证δ0，不能把这个极限强套原实验。
+
+### 独立母态入口标签能补什么
+
+LV25-27的495.4-keV 16+→15+入口是实际candidate tag，不是未见的新线。若额外声明目标15+母态都由此入口选择，tag检测效率已知且匹配，则“3.9单位263-only来自绕过母态的中间feeding”与“来自母态后丢失出口”的两个构造不同。代码以自选ε263=.10、ε405=.08、εtag=.07精确枚举所有二值检测格点，untagged distributions全同；tagged distributions的TV distance为新273/18800≈.0145213、旧133/27600≈.00481884。TV是该声明分类分布距离，不是检出功效、实际gate计数或p-value。
+
+这表明独立parent-entry selection能增加一行信息，**不**证明任意未知feeding/branch/calibration族下只加这一个tag就全局唯一。真实tag purity、feedpath、背景、响应、shared-event Cov和分支上限仍要取得；仅更多263+405共同门或重复能量闭合不能替代。为隔离顺序效应，代码还固定新top3678.4/end3010.2、同一组263.1/405.1：两counterfactual middle为3273.3/3415.3。3415.3是用新锚的控制值，**不是**旧评价literal3414.8。
+
+### 可复算范围与判决
+
+[day14_pr136_flow_identifiability.py](../../system/scripts/day14_pr136_flow_identifiability.py)的有限通用ENSDF reader只读取primaryL/G列并保留raw continuation/未知项，不解释全部ENSDF语义。44checks包含两个actualobject SHA、2018cut、首311.7 unplaced、LT qualifier、adoptedπ/归一、空CC/MR、compiler754comment、新PDF literal I/R/M/parent、精确当前锚点、positiveledger连续族及Fraction全cell等价/parenttag控制。[44-check回执](../../outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/pr136-flow-identifiability.json)保存源行与完整分布。
+
+决定supports把强度balance写成显式输入契约，limits从relativeI/未见线/共同门自动决定顺序，revises“no-loss或completeinventory是默认已知”的假设。未改变旧/新原文、未给实测hiddenbranch或模式，actualL4仍not-ready；最有信息的下一输入是独立入口/中间态路径的净门谱与branch sensitivity，而不是新增同一projection统计。

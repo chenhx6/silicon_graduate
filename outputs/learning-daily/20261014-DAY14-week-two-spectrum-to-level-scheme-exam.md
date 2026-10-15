@@ -186,6 +186,12 @@ checkpoint008实际观察为上海15:37，立即停止新研究；最后已保�
 
 [[level-scheme-reconstruction]]“近邻双线的反冲能量—张角信息与静态排序边界”保存精确4vector、共同endpoint/zero-gap/largeM、独立两路线积分和nuisance rank控制。完全stopping去掉主要angle项但保留O(M⁻²)常数，修正早先可能全消失的预测；未知pair-response slope可与leadingorder混淆，实际τ/介质/energy-angle calibration仍缺。supports补静态angular no-go之外的条件信息，不给193Bi实际order或模式。
 
+### 延期novelty：136Pr强度balance与hiddenbranch
+
+[来源/计算前预测](20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/pr136-flow-before-calculation.md)后，完成[44-check](20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/pr136-flow-identifiability.json)。有限fixedcolumn reader核两个actualSHA/π/归一/RIerrors/首unplaced311.7/LT/空CC-MR，直接PDF核新I26318.8(.7)/I40514.9(.7)，旧RI25.7(.5)/27.6(.3)不跨采集合并。
+
+[[level-scheme-reconstruction]]“136Pr：相对强度、缺失分支与独立母态标签”给T+F=B+L正流量连续族：zeroIC/noextraexit控制分别偏向各自reportedorder，逆序的最小loss fraction为新39/188、旧19/276；这些不是实验branch限值。更强地，两order可构造完全相同的两线检测全分布；独立495.4母态入口tag在声明已知响应下才补一行信息，并非保证全局uniqueorder。UnknownICC/δ/branchlimits、realgates/Σ仍缺，未选旧新哪方正确或重放事件。
+
 ## Counter-evidence and missing companion observables
 
 HE15-9的实际未定双线是核心反例：energy sum、共享R/A和假设的ΔI=2均不足以裁决order。若一条线出现可独立定位的旁路或延迟顺序，应重审中间level；source仍保留括号Jπ与(E2)。HE15-5的quadruplet限制“一个峰是一条γ”的简化；干净622.4直接分支门与323.4级联门的299-keVcomponent差异可能迫使拆峰，但必须控制622/626门纯度、feeding、response和random。
@@ -1390,6 +1396,43 @@ HE15-9的实际未定双线是核心反例：energy sum、共享R/A和假设的�
           "locator": "HE15-9"
         }
       ]
+    },
+    {
+      "knowledge": "knowledge/sources/lv-2025-136pr-tac-covariant-density-functional.md",
+      "anchor": "LV25-27",
+      "summary": "增加已核263/405的RI/R/parent与495.4入口候选；相对强度不认证totalflow。",
+      "sources": [
+        {
+          "path": "knowledge/sources/lv-2025-136pr-tac-covariant-density-functional.md",
+          "locator": "LV25-27"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/sources/nndc-2018-136pr-selected-level-gamma-records.md",
+      "anchor": "N136-9",
+      "summary": "增加旧reactionRI/空CC-MR与adopted每parent100边界，有限parser逐列核验。",
+      "sources": [
+        {
+          "path": "knowledge/sources/nndc-2018-136pr-selected-level-gamma-records.md",
+          "locator": "N136-9"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/methods/level-scheme-reconstruction.md",
+      "anchor": "136Pr：相对强度、缺失分支与独立母态标签",
+      "summary": "新增44check positiveflow/完整两线投影等价与parenttag设计，hiddenfraction只为zeroIC控制，不定真实次序。",
+      "sources": [
+        {
+          "path": "knowledge/sources/lv-2025-136pr-tac-covariant-density-functional.md",
+          "locator": "LV25-27"
+        },
+        {
+          "path": "knowledge/sources/nndc-2018-136pr-selected-level-gamma-records.md",
+          "locator": "N136-9"
+        }
+      ]
     }
   ]
 }
@@ -1648,3 +1691,8 @@ wiki_lint --fail-on error实际exit0，0errors/131warnings（107citationkey、21
 ### Checkpoint017 延期研究验收
 
 2026-10-15T15:59:38.789110+08:00：66项反冲设计checks全过，report/card/writeback valid（47items/20changedpages）；AST/原source字节/protected/rawmetadata/diff通过；wiki_lint --fail-on error实际exit0、0errors131warnings（107citekeys、21rawslots、3parser）。新截止余1440.4分钟，继续原两槽高信息路线。前16批已Gitee发布，本批稳定main / `Add DAY14 recoil energy-angle ordering limits`，actualH3/hash仅receipt；正式21/24与partial15无信用保持。
+
+
+### Checkpoint018 延期研究验收
+
+2026-10-15T16:13:04.021420+08:00，44项flow/parser checks全true/exit0；report/card/writeback valid（50items/20changedpages）；新LV25-27/N136-9已parse true，旧rows/review/raw/protected/AST/diff保持。wiki_lint --fail-on error实际exit0、0errors131warnings（107citekeys、21rawslots、3parser）。前17批Giteepublished，本批稳定main / `Bound DAY14 Pr136 flow and parent-tag identifiability`，actualH3/hash仅receipt。继续同136Pr实际identitycrosswalk，不以本段toy或表完成结束延期时窗。

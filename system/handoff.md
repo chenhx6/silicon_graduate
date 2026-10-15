@@ -8,13 +8,13 @@ updated: 2026-10-15
 
 ## Active handoff — DAY14 extended continuous study
 
-Run `2026-10-14-day-14-02` / session `01a13a0e-e8bd-7251-b970-f6975679e281`，用户因断网将截止延长至 **2026-10-16T16:00+08**；original15:00/15:37closeout保留，nativegoal/researchactive。Formal14已完成七边/35checks/21/24/weeklyREFLECT；completed14/partial15，state仍next14/count13待最终只计一次，不开Day16。
+同run2026-10-14-day-14-02/session01a13a0e-e8bd-7251-b970-f6975679e281；用户断网延期截止 **2026-10-16 16:00上海**，nativegoal/researchactive。Formal14七边35checks/21/24/weeklyREFLECT已完成，completed14/partial15、officialnext14/count13等最终只计一次，不开Day16。
 
-第017批：66-check精确共同M/Mf的freecascade recoil energy-opening-angle；A193proxy尺度K.862eV，声明σE.8时J约2.16245e−7nats，非power/actualorder。Unorderedcontrast与sum信息不同，zero gap/c0/M∞控制；stopping去leadingangle仍留O(M^-2)constant，nuisancepaircalibrationrank边界明确。Canonical level-scheme完整公式/表/验证。47writebackitems/20changedpages，report/card/writeback/AST/sourcebytes/raw/PLAN/Bib/diff/lint0errors131warnings通过。
+第018批44-check真实Pr136 RI/旧新字段与flow：通用L/G subset保留首unplaced/LT/π/归一/空CC-MR，sourceSHA/newPDFliteral核实。ZeroIC positiveflow和相同完整两线detectprojection可由feed或missingexit产生，独立parententrytag只区分声明pair，不保证globalorder；39/188、19/276不是实测branchlimit。NewLV25-27/N136-9 true，旧claims/review保持。50writebackitems/20changedpages；report/card/writeback/AST/raw/protected/diff/lint0errors131warnings通过。
 
-前16批Gitee已published；本批main / `Add DAY14 recoil energy-angle ordering limits`，actualH3/hash仅receipt。下一136Pr263/405流量/顺序问题已freezepr136-flow-before-calculation.md，通用fixedcolumnparser/首unplaced/π/RI版本核验后做最小positiveflow与missingbranch设计；不补1996primary或真实L4。旧新RI不跨campaign拼接。
+前17批已Gitee发布，本批main / `Bound DAY14 Pr136 flow and parent-tag identifiability`，actualH3/hash仅receipt。193Bi static/time/recoil已条件完成、actualdata缺；下一同136Pr实际TableI全表到旧ENSDF的identitycrosswalk，先freeze，不做energynearest强配对/新线宣称。1996primarymissing不重复受阻路线，L4actualnotready。
 
-Clock001/002/005/008actualACK；原Farmer8686/clock75781经ps已不live，未重启；local scheduler extension event已append，只元数据不新session。恢复 `codex resume 01a13a0e-e8bd-7251-b970-f6975679e281 -C /workspace/wiki -s danger-full-access -a never`，先run.json按新deadline。保留raw/PLAN/Bib/review和继承dirty/log/daemon，manifest/H3非force发布。
+Clock001/002/005/008actualACK；旧Farmer8686/clock75781已不live，未重启；同session用actualclock/receipt新deadline续学。恢复 `codex resume 01a13a0e-e8bd-7251-b970-f6975679e281 -C /workspace/wiki -s danger-full-access -a never`。保留raw/PLAN/Bib/review/继承dirty/log/daemon，manifest/H3非force发布。
 
 ## Previous active handoff — DAY13 continuous study reopened by user
 
