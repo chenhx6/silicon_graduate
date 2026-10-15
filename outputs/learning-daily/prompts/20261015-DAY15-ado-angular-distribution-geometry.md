@@ -274,3 +274,6 @@ Day14 partial15已视觉核Zobel1980全9页、完成23-check Appendix字面/规�
 
 
 Day14 partial15另有40-check同parent正布居moment hull/LP/Farkas与unknownCov敏感性。Source11.3中央值的条件不可行不等于实验排除，其余10个mean的witness也非实测布居；正式Day15须标这些priming，核固定spin/reference/purity/response后再解释α或σ/I。1979原文尚未取得，只metadata/readiness（Z80-20），不继承新的实测δ误差或independentdata。
+
+
+Day14 partial15还核4个67Ga ENSDF对象，38-check真实field/parent/time/RI/finiteMR/条件strength与sameDCO反例。SourceN67-1–8 true，MR−0.00(1) finite；Tau/RI不同出处和M/MR round-trip不可计独立。Weak168/CC缺口、DCO1.45对应E1/E2的gate/geometry边界及α未分峰保留。它是正式回忆的priming，不提供card15 credit或真实fitCov。

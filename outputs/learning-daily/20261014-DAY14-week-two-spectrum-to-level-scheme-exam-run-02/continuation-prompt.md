@@ -74,3 +74,12 @@ Zobel1980 primary9页与23-check Appendix自审完成；originalprint A2/A6与�
 Report唯一writeback25items/13changedpages、report/card/writeback/AST/protected/raw/review/diff/freshlint0errors129warnings通过，newZ80-20 true parsed。1979API/OA/PDF/Scholar未得primary，canonical留metadata/lastauthor spelling/TDM错误标签/readiness，停止该获取分支，不改raw/credentials/hostGUI。
 
 下一nndc67-before-source-recall.md已冻结；actualNNDCsearch200给ADOPTED67031001、57Fe12C67031005、alpha/53Cr16O67031006，lastrevised2005-12。尚未读objects；只核sameparent 3032→2074/958 γ的multipolarity/δ/评论/出处。新XUNDL2024/2026仅discovery未研究，要按候选信息增益决策，不新增card。原15:00deadline，Day14/partial15、formal21/24、officialnext14/count13待closeout一次对账，same goal/session active。
+
+
+## Checkpoint011：actualobjects的parent/RI/δ契约完成
+
+NNDC67四对象与38-check通过，canonicalSourceN67-1–8 true、levelscheme/angular/index/report真实writeback29items/14pages。Reported958E2(+M3)δ−0.00(1)源于1978AL32；Fe从adopted取回不是第二测量。parent4.5(4)ps为half、mean6.492，longfeedersmean230.831/15.870不可借；RI58.2globalnormalizer与parent100/.2不同。条件B9.61853WU不重测；actualCCmissing阻止无条件strength。SameDCO1.45对应E1/E2、精确gate未给；2862未分峰/πcomment保留。
+
+初lint1的genericcanonicalURL/缺heading已修，fresh0errors130warnings/8newclaimparsedtrue，protected/raw/review/AST/diff/report/card/writeback通过。前10批已发布，本批subject Audit DAY14 real ENSDF lifetime and branching inputs，actualH3/hash只receipt。sourceNN raw为未填槽，不假装已archive。
+
+下一highinfo同问题路线：weak168.M/ICC与realDCOdefinition。BrIcc2008方法/officialANU已读，可boundedquery Z31E168.8 M1/E2和E958.01 E2/M3理论response（不是实验ICC/不是原2005处理）；sourceCCblank保持，完整inventory/higherranks/penetration/cov仍缺。1999Danko PRC59,1956的primary若合法可取，先冻结primedrecall，仅补DCOgate/angles/calibration，不打开新coursecard。Day14/partial15、formal21/24、officialnext14/count13待closeout一次对账，samegoalactive，原15:00截止。

@@ -1,0 +1,161 @@
+{
+  "url": "https://www.nndc.bnl.gov/ensdf/DatasetFetchServlet",
+  "request": {
+    "nuc": "67GA",
+    "nsrch": "Search",
+    "searchType": "quick",
+    "datasource": "ensdf"
+  },
+  "status_code": 200,
+  "response_sha256": "2e9ab58c2a802faa43ca5aef991a2af4aec61bbd28a1695e4cf6becd209b776a",
+  "inputs": [
+    {
+      "name": "datasetcheck",
+      "value": "67031001,67GA",
+      "type": "checkbox"
+    },
+    {
+      "name": "datasetcheck",
+      "value": "67031002,67GA",
+      "type": "checkbox"
+    },
+    {
+      "name": "datasetcheck",
+      "value": "67031003,67GA",
+      "type": "checkbox"
+    },
+    {
+      "name": "datasetcheck",
+      "value": "67031004,67GA",
+      "type": "checkbox"
+    },
+    {
+      "name": "datasetcheck",
+      "value": "67031005,67GA",
+      "type": "checkbox"
+    },
+    {
+      "name": "datasetcheck",
+      "value": "67031006,67GA",
+      "type": "checkbox"
+    },
+    {
+      "name": "datasetcheck",
+      "value": "67031007,67GA",
+      "type": "checkbox"
+    },
+    {
+      "name": "datasetcheck",
+      "value": "67031008,67GA",
+      "type": "checkbox"
+    },
+    {
+      "name": "datasetcheck",
+      "value": "67031009,67GA",
+      "type": "checkbox"
+    },
+    {
+      "name": "datasetcheck",
+      "value": "67031010,67GA",
+      "type": "checkbox"
+    },
+    {
+      "name": "datasetcheck",
+      "value": "67031011,67GA",
+      "type": "checkbox"
+    },
+    {
+      "name": "datasetcheck",
+      "value": "67031012,67GA",
+      "type": "checkbox"
+    },
+    {
+      "name": "datasetcheck",
+      "value": "67031013,67GA",
+      "type": "checkbox"
+    }
+  ],
+  "links": [
+    {
+      "text": "All references",
+      "href": "/ensdf/getrefs.jsp?recid=67031001&dsid=ADOPTED LEVELS, GAMMAS        "
+    },
+    {
+      "text": "All references",
+      "href": "/ensdf/getrefs.jsp?recid=67031002&dsid=67GE EC DECAY                 "
+    },
+    {
+      "text": "All references",
+      "href": "/ensdf/getrefs.jsp?recid=67031003&dsid=12C(58NI,3PG)                 "
+    },
+    {
+      "text": "All references",
+      "href": "/ensdf/getrefs.jsp?recid=67031004&dsid=46TI(25MG,3PNG)               "
+    },
+    {
+      "text": "All references",
+      "href": "/ensdf/getrefs.jsp?recid=67031005&dsid=57FE(12C,PNG)                 "
+    },
+    {
+      "text": "All references",
+      "href": "/ensdf/getrefs.jsp?recid=67031006&dsid=64ZN(A,PG), 53CR(16O,PNG)     "
+    },
+    {
+      "text": "All references",
+      "href": "/ensdf/getrefs.jsp?recid=67031007&dsid=66ZN(P,G)                     "
+    },
+    {
+      "text": "All references",
+      "href": "/ensdf/getrefs.jsp?recid=67031008&dsid=66ZN(P,P'G), (POL P,P) IAR    "
+    },
+    {
+      "text": "All references",
+      "href": "/ensdf/getrefs.jsp?recid=67031009&dsid=66ZN(D,N)                     "
+    },
+    {
+      "text": "All references",
+      "href": "/ensdf/getrefs.jsp?recid=67031010&dsid=66ZN(3HE,D)                   "
+    },
+    {
+      "text": "All references",
+      "href": "/ensdf/getrefs.jsp?recid=67031011&dsid=67ZN(P,N)                     "
+    },
+    {
+      "text": "All references",
+      "href": "/ensdf/getrefs.jsp?recid=67031012&dsid=67ZN(P,NG)                    "
+    },
+    {
+      "text": "All references",
+      "href": "/ensdf/getrefs.jsp?recid=67031013&dsid=69GA(P,T)                     "
+    },
+    {
+      "text": "All references",
+      "href": "/ensdf/getrefs.jsp?recid=67031015"
+    },
+    {
+      "text": "All references",
+      "href": "/ensdf/getrefs.jsp?recid=67031016"
+    },
+    {
+      "text": "All references",
+      "href": "/ensdf/getrefs.jsp?recid=67031017"
+    },
+    {
+      "text": "All references",
+      "href": "/ensdf/getrefs.jsp?recid=67031018"
+    },
+    {
+      "text": "All references",
+      "href": "/ensdf/getrefs.jsp?recid=67030018"
+    },
+    {
+      "text": "All references",
+      "href": "/ensdf/getrefs.jsp?recid=67030021"
+    },
+    {
+      "text": "All references",
+      "href": "/ensdf/getrefs.jsp?recid=67030023"
+    }
+  ],
+  "receipt_kind": "public source discovery not independentexperiment"
+}

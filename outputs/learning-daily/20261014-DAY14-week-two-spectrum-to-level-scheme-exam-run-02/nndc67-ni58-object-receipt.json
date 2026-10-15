@@ -1,0 +1,35 @@
+{
+  "dataset": "67031003",
+  "url": "https://www.nndc.bnl.gov/ensdf/EnsdfDispatcherServlet",
+  "request": {
+    "dbclass": "ensdf",
+    "page-source": "singular",
+    "chooseit": "ENSDF text format",
+    "datasetcheck": "67031003,67GA"
+  },
+  "status_code": 200,
+  "response_sha256": "6770c6dad84124f2b48feec581f05a32dde58fbc0f5c2236530b70a8d9e7b7d2",
+  "pre_present": true,
+  "text_sha256": "b3e280d6da6b1093bf899c832d4a07430fdb352d8d4675adbb8807dbf25d3ec8",
+  "lines": 170,
+  "header": [
+    "",
+    " 67GA    12C(58NI,3PG)                 1999DA10                  05NDS    200512",
+    " 67GA  H TYP=FUL$AUT=HUO JUNDE, HUANG XIAOLONG, J.K. TULI$                      ",
+    " 67GA2 H CIT=NDS 106, 159 (2005)$CUT=1-Apr-2005$                                ",
+    " 67GA c  E=261 MeV. Measured E|g, I|g, |g|g, |g|g(|q)(DCO) using NORDBALL       ",
+    " 67GA2c  array with 15 Compton-suppressed Ge detectors.                         ",
+    " 67GA CL BAND(A)$3/2- GS BAND                                                   ",
+    " 67GA CL BAND(B)$5/2- BAND                                                      ",
+    " 67GA CL BAND(C)$G-CASCADE BASED ON 9/2+                                        ",
+    " 67GA PN                                                                     5  ",
+    " 67GA  L         0   3/2-                                                   A   ",
+    " 67GA  L     358.96225/2-                                                   B   ",
+    " 67GA  G     358.9  3     80  6                                                 ",
+    " 67GA cG           DCO=0.77 {I3}                                                ",
+    " 67GA  L      910.9 45/2-                                                       ",
+    " 67GA  G     910.9  4    0.2  1                                                 ",
+    " 67GA  L 1201.92   237/2-                                                   A   ",
+    " 67GA  G     842.9  3   15.8 14                                                 "
+  ]
+}

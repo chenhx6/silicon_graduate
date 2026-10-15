@@ -9,6 +9,8 @@ updated: 2026-10-14
 
 ## Sources
 
+- [[nndc-2005-67ga-selected-level-gamma-records]] - 67Ga四个公开ENSDF对象：958有限MR、parent半衰期与RI/weakbranch来源；DCO同值反例，评价/实验/条件B重算分层。
+
 - [[nndc-2017-193bi-level-scheme-evaluation]] - 2017/2019公开ENSDF对象：七边/精度/归一crosswalk、Q≠E2和352.3图表冲突；共享2015He27，CC为条件模型。
 
 - [[nptool-2019-reaction-velocity-code-object]] - 固定2019公开对象的反应点4vector、getter/mass状态、MeV/rad/velocity/TOF单位和branch/domain边界；不是actualpaper/currentversion。

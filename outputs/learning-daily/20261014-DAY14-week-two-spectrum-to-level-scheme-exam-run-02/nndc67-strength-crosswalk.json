@@ -1,0 +1,892 @@
+{
+  "kind": "L3 selected evaluated-data crosswalk plus L2 conditional rate consistency",
+  "selected_source_records": {
+    "adopted": {
+      "parent": {
+        "line": 411,
+        "energy_keV": 3031.77,
+        "energy_text": "3031.77",
+        "sigma_energy_keV": 0.06,
+        "Jpi": "13/2+",
+        "half_life_text": "4.5 PS",
+        "half_life_error_digits": "4",
+        "raw": " 67GA  L 3031.77   6 13/2+             4.5 PS    4                              ",
+        "comments": [
+          {
+            "line": 412,
+            "text": " 67GA2 L FLAG=CIT                                                               "
+          },
+          {
+            "line": 413,
+            "text": " 67GAX L XREF=CDKL                                                              "
+          }
+        ]
+      },
+      "gammas": [
+        {
+          "line": 414,
+          "parent_energy_keV": 3031.77,
+          "parent_line": 411,
+          "energy_keV": 168.8,
+          "energy_text": "168.8",
+          "sigma_energy_keV": 0.4,
+          "RI": 0.2,
+          "sigma_RI": 0.1,
+          "multipolarity": "",
+          "mixing_ratio_text": "",
+          "mixing_ratio": null,
+          "mixing_ratio_error_digits": "",
+          "sigma_mixing_ratio": null,
+          "CC": null,
+          "flag": "O",
+          "raw": " 67GA  G     168.8  4    0.2  1                                             O   ",
+          "comments": []
+        },
+        {
+          "line": 415,
+          "parent_energy_keV": 3031.77,
+          "parent_line": 411,
+          "energy_keV": 958.01,
+          "energy_text": "958.01",
+          "sigma_energy_keV": 0.05,
+          "RI": 100.0,
+          "sigma_RI": 9.0,
+          "multipolarity": "E2(+M3)",
+          "mixing_ratio_text": "-0.00",
+          "mixing_ratio": -0.0,
+          "mixing_ratio_error_digits": "1",
+          "sigma_mixing_ratio": 0.01,
+          "CC": null,
+          "flag": "",
+          "raw": " 67GA  G 958.01    5 100      9E2(+M3)   -0.00   1                              ",
+          "comments": [
+            {
+              "line": 416,
+              "text": " 67GA3 G FLAG=DQ                                                                "
+            },
+            {
+              "line": 417,
+              "text": " 67GAB G BE2W=9.6 9                                                             "
+            }
+          ]
+        }
+      ],
+      "strong958": {
+        "line": 415,
+        "parent_energy_keV": 3031.77,
+        "parent_line": 411,
+        "energy_keV": 958.01,
+        "energy_text": "958.01",
+        "sigma_energy_keV": 0.05,
+        "RI": 100.0,
+        "sigma_RI": 9.0,
+        "multipolarity": "E2(+M3)",
+        "mixing_ratio_text": "-0.00",
+        "mixing_ratio": -0.0,
+        "mixing_ratio_error_digits": "1",
+        "sigma_mixing_ratio": 0.01,
+        "CC": null,
+        "flag": "",
+        "raw": " 67GA  G 958.01    5 100      9E2(+M3)   -0.00   1                              ",
+        "comments": [
+          {
+            "line": 416,
+            "text": " 67GA3 G FLAG=DQ                                                                "
+          },
+          {
+            "line": 417,
+            "text": " 67GAB G BE2W=9.6 9                                                             "
+          }
+        ]
+      },
+      "header": [
+        "",
+        " 67GA    ADOPTED LEVELS, GAMMAS                                  05NDS    200512",
+        " 67GA  H TYP=FUL$AUT=HUO JUNDE, HUANG XIAOLONG, J.K. TULI$                      ",
+        " 67GA2 H CIT=NDS 106, 159 (2005)$CUT=1-Apr-2005$                                ",
+        " 67GA  XA67GE EC DECAY                                                          ",
+        " 67GA  XB67ZN(P,NG)                                                             ",
+        " 67GA  XC64ZN(A,PG), 53CR(16O,PNG)                                              ",
+        " 67GA  XD57FE(12C,PNG)                                                          ",
+        " 67GA  XE69GA(P,T)                                                              ",
+        " 67GA  XF66ZN(D,N)                                                              ",
+        " 67GA  XG66ZN(3HE,D)                                                            ",
+        " 67GA  XH66ZN(P,G)                                                              ",
+        " 67GA  XI66ZN(P,P'G), (POL P,P) IAR                                             ",
+        " 67GA  XJ67ZN(P,N)                                                              ",
+        " 67GA  XK12C(58NI,3PG)                                                          ",
+        " 67GA  XL46TI(25MG,3PNG)                                                        ",
+        " 67GA cL E         From a least-squares fit to the E|g data                     ",
+        " 67GA cL T(A)      From DSAM in {+67}Zn(p,n|g)                                  ",
+        " 67GA cL T(B)      From DSAM in {+64}Zn(|a,p|g), {+53}Cr({+16}O,pn|g)           ",
+        " 67GA cL T(C)      From RDM in {+64}Zn(|a,p|g), {+53}Cr({+16}O,pn|g)            ",
+        " 67GA cL J(I)      From |g(|q) and polarization data in {+64}Zn(|a,p|g),        ",
+        " 67GA2cL           {+53}Cr({+16}O,pn|g)                                         ",
+        " 67GA cL J(J)      From comparison of measured cross sections with              ",
+        " 67GA2cL           Hauser-Feshbach calculations                                 ",
+        " 67GA cL J(K)      From |g(|q) and polarization data in {+57}Fe({+12}C,pn|g)    ",
+        " 67GA cL J(N)      From {+66}Zn(p,p'|g), (pol p,p) IAR with polarized proton    "
+      ],
+      "lines_total": 762,
+      "daughter2074": {
+        "line": 206,
+        "energy_keV": 2073.755,
+        "energy_text": "2073.755",
+        "sigma_energy_keV": 0.025,
+        "Jpi": "9/2+",
+        "half_life_text": "",
+        "half_life_error_digits": "",
+        "raw": " 67GA  L 2073.755  259/2+                                                       ",
+        "comments": [
+          {
+            "line": 207,
+            "text": " 67GA2 L FLAG=IT                                                                "
+          },
+          {
+            "line": 208,
+            "text": " 67GAX L XREF=BCDFGHJKL                                                         "
+          },
+          {
+            "line": 209,
+            "text": " 67GA cL T         >1.04 ps from {+64}Zn(|a,p|g), |>0.21 ps from {+67}Zn(p,n|g) "
+          },
+          {
+            "line": 210,
+            "text": " 67GA2cL <6.9 ps from {+53}Cr({+16}O,pn|g)                                      "
+          }
+        ]
+      },
+      "daughter2862": {
+        "line": 381,
+        "energy_keV": 2862.45,
+        "energy_text": "2862.45",
+        "sigma_energy_keV": 0.1,
+        "Jpi": "11/2+",
+        "half_life_text": "0.87 PS",
+        "half_life_error_digits": "28",
+        "raw": " 67GA  L 2862.45   1011/2+             0.87 PS   28                         B   ",
+        "comments": [
+          {
+            "line": 382,
+            "text": " 67GAX L XREF=CDKL                                                              "
+          },
+          {
+            "line": 383,
+            "text": " 67GA cL J         11/2- from |g(|q) and polarization data in {+64}Zn(|a,p|g);  "
+          },
+          {
+            "line": 384,
+            "text": " 67GA2cL J|p=11/2+ obtained from |g(|q) and                                     "
+          },
+          {
+            "line": 385,
+            "text": " 67GA3cL polarization data in {+57}Fe({+12}C,pn|g).                             "
+          },
+          {
+            "line": 386,
+            "text": " 67GA3cL The (|a,p|g) data could not resolve completely the 1343|g from the     "
+          },
+          {
+            "line": 387,
+            "text": " 67GA4cL 1353|g; this may explain the discrepancy.                              "
+          }
+        ]
+      },
+      "feeder3578": {
+        "line": 485,
+        "energy_keV": 3577.95,
+        "energy_text": "3577.95",
+        "sigma_energy_keV": 0.06,
+        "Jpi": "15/2+",
+        "half_life_text": "0.16 NS",
+        "half_life_error_digits": "4",
+        "raw": " 67GA  L 3577.95   6 15/2+             0.16 NS   4                          C   ",
+        "comments": [
+          {
+            "line": 486,
+            "text": " 67GA2 L MOMM1=-1.69 47 (1989Ra17)                                              "
+          },
+          {
+            "line": 487,
+            "text": " 67GA3 L FLAG=K                                                                 "
+          },
+          {
+            "line": 488,
+            "text": " 67GAX L XREF=CDKL                                                              "
+          }
+        ]
+      },
+      "feeder3856": {
+        "line": 525,
+        "energy_keV": 3855.99,
+        "energy_text": "3855.99",
+        "sigma_energy_keV": 0.07,
+        "Jpi": "17/2+",
+        "half_life_text": "11 PS",
+        "half_life_error_digits": "2",
+        "raw": " 67GA  L 3855.99   7 17/2+             11 PS     2                          C   ",
+        "comments": [
+          {
+            "line": 526,
+            "text": " 67GA3 L FLAG=K                                                                 "
+          },
+          {
+            "line": 527,
+            "text": " 67GAX L XREF=CDKL                                                              "
+          }
+        ]
+      },
+      "daughter2074_gammas": [
+        {
+          "line": 211,
+          "parent_energy_keV": 2073.755,
+          "parent_line": 206,
+          "energy_keV": 554.59,
+          "energy_text": "554.59",
+          "sigma_energy_keV": 0.02,
+          "RI": 69.0,
+          "sigma_RI": 6.0,
+          "multipolarity": "E1(+M2)",
+          "mixing_ratio_text": "-0.00",
+          "mixing_ratio": -0.0,
+          "mixing_ratio_error_digits": "2",
+          "sigma_mixing_ratio": 0.02,
+          "CC": null,
+          "flag": "",
+          "raw": " 67GA  G 554.59    2   69    6 E1(+M2)   -0.00   2                              ",
+          "comments": [
+            {
+              "line": 212,
+              "text": " 67GA3 G FLAG=DQ                                                                "
+            }
+          ]
+        },
+        {
+          "line": 213,
+          "parent_energy_keV": 2073.755,
+          "parent_line": 206,
+          "energy_keV": 660.2,
+          "energy_text": "660.2",
+          "sigma_energy_keV": 0.7,
+          "RI": 0.16,
+          "sigma_RI": 0.16,
+          "multipolarity": "",
+          "mixing_ratio_text": "",
+          "mixing_ratio": null,
+          "mixing_ratio_error_digits": "",
+          "sigma_mixing_ratio": null,
+          "CC": null,
+          "flag": "O",
+          "raw": " 67GA  G     660.2 7    0.16 16                                             O   ",
+          "comments": []
+        },
+        {
+          "line": 214,
+          "parent_energy_keV": 2073.755,
+          "parent_line": 206,
+          "energy_keV": 871.47,
+          "energy_text": "871.47",
+          "sigma_energy_keV": 0.02,
+          "RI": 100.0,
+          "sigma_RI": 9.0,
+          "multipolarity": "E1(+M2)",
+          "mixing_ratio_text": "-0.00",
+          "mixing_ratio": -0.0,
+          "mixing_ratio_error_digits": "2",
+          "sigma_mixing_ratio": 0.02,
+          "CC": null,
+          "flag": "",
+          "raw": " 67GA  G 871.47    2  100    9 E1(+M2)   -0.00   2                              ",
+          "comments": [
+            {
+              "line": 215,
+              "text": " 67GA3 G FLAG=DQ                                                                "
+            }
+          ]
+        },
+        {
+          "line": 216,
+          "parent_energy_keV": 2073.755,
+          "parent_line": 206,
+          "energy_keV": 1714.5,
+          "energy_text": "1714.5",
+          "sigma_energy_keV": 0.5,
+          "RI": 3.6,
+          "sigma_RI": 0.5,
+          "multipolarity": "",
+          "mixing_ratio_text": "",
+          "mixing_ratio": null,
+          "mixing_ratio_error_digits": "",
+          "sigma_mixing_ratio": null,
+          "CC": null,
+          "flag": "Q",
+          "raw": " 67GA  G 1714.5    5    3.6  5                                              Q   ",
+          "comments": []
+        }
+      ]
+    },
+    "fe12c": {
+      "parent": {
+        "line": 32,
+        "energy_keV": 3031.76,
+        "energy_text": "3031.76",
+        "sigma_energy_keV": 0.06,
+        "Jpi": "13/2+",
+        "half_life_text": "",
+        "half_life_error_digits": "",
+        "raw": " 67GA  L 3031.76   6 13/2+                                                      ",
+        "comments": []
+      },
+      "gammas": [
+        {
+          "line": 33,
+          "parent_energy_keV": 3031.76,
+          "parent_line": 32,
+          "energy_keV": 958.01,
+          "energy_text": "958.01",
+          "sigma_energy_keV": 0.05,
+          "RI": 58.2,
+          "sigma_RI": 0.9,
+          "multipolarity": "E2(+M3)",
+          "mixing_ratio_text": "-0.00",
+          "mixing_ratio": -0.0,
+          "mixing_ratio_error_digits": "1",
+          "sigma_mixing_ratio": 0.01,
+          "CC": null,
+          "flag": "",
+          "raw": " 67GA  G 958.01    5 58.2    9 E2(+M3)   -0.00   1                              ",
+          "comments": []
+        }
+      ],
+      "strong958": {
+        "line": 33,
+        "parent_energy_keV": 3031.76,
+        "parent_line": 32,
+        "energy_keV": 958.01,
+        "energy_text": "958.01",
+        "sigma_energy_keV": 0.05,
+        "RI": 58.2,
+        "sigma_RI": 0.9,
+        "multipolarity": "E2(+M3)",
+        "mixing_ratio_text": "-0.00",
+        "mixing_ratio": -0.0,
+        "mixing_ratio_error_digits": "1",
+        "sigma_mixing_ratio": 0.01,
+        "CC": null,
+        "flag": "",
+        "raw": " 67GA  G 958.01    5 58.2    9 E2(+M3)   -0.00   1                              ",
+        "comments": []
+      },
+      "header": [
+        "",
+        " 67GA    57FE(12C,PNG)                 1979ZO01                  05NDS    200512",
+        " 67GA  H TYP=FUL$AUT=HUO JUNDE, HUANG XIAOLONG, J.K. TULI$                      ",
+        " 67GA2 H CIT=NDS 106, 159 (2005)$CUT=1-Apr-2005$                                ",
+        " 67GA c  E=32-44 MeV; measured E|g, I|g, |g|g coincidences, |g(|q), |g          ",
+        " 67GA2c  excitation functions, and linear polarization                          ",
+        " 67GA cL E         From a least-squares fit to the E|g data                     ",
+        " 67GA cL J         From adopted levels; supporting arguments from this reaction ",
+        " 67GA2cL are indicated                                                          ",
+        " 67GA cG RI        Relative intensity corrected for angular distribution and    ",
+        " 67GA2cG normalized to I|g(359)+I|g(1202)=100                                   ",
+        " 67GA cG RI(A)     From |g|g coincidence data; not corrected for angular        ",
+        " 67GA2cG distribution                                                           ",
+        " 67GA cG M,MR      From adopted gammas                                          ",
+        " 67GA PN                                                                    C5  ",
+        " 67GA2PN RELATIVE INTENSITY CORRECTED FOR ANGULAR DISTRIBUTION AND NORMALIZED   ",
+        " 67GA3PN TO RI(359)+RI(1202)=100                                                ",
+        " 67GA  L 0.0         3/2-                                                       ",
+        " 67GA  L 359.110   195/2-                                                       ",
+        " 67GA  G 359.11    2 64.8    10M1+E2     -0.08   1                              ",
+        " 67GA  L 1202.27   4 7/2-                                                       ",
+        " 67GA  G 843.16    4 10.0    7 M1+E2     -3.08   18                             ",
+        " 67GA  G 1202.25   5 35.2    7 E2(+M3)   -0.00   2                              ",
+        " 67GA  L 1519.15   4 9/2-                                                       ",
+        " 67GA  G 1160.03   6 43.3    7 E2(+M3)   -0.00   4                              ",
+        " 67GA  L 2073.74   4 9/2+                                                       "
+      ],
+      "lines_total": 67
+    },
+    "alpha": {
+      "parent": {
+        "line": 137,
+        "energy_keV": 3031.7,
+        "energy_text": "3031.7",
+        "sigma_energy_keV": 1.0,
+        "Jpi": "13/2+",
+        "half_life_text": "4.5 PS",
+        "half_life_error_digits": "4",
+        "raw": " 67GA  L 3031.7    1013/2+             4.5 PS    4                          R   ",
+        "comments": [
+          {
+            "line": 138,
+            "text": " 67GA cL J         13/2+ from |g(|q) and polarization of 958|g (1978Al32)       "
+          }
+        ]
+      },
+      "gammas": [
+        {
+          "line": 139,
+          "parent_energy_keV": 3031.7,
+          "parent_line": 137,
+          "energy_keV": 958.2,
+          "energy_text": "958.2",
+          "sigma_energy_keV": 0.8,
+          "RI": 100.0,
+          "sigma_RI": null,
+          "multipolarity": "E2(+M3)",
+          "mixing_ratio_text": "-0.00",
+          "mixing_ratio": -0.0,
+          "mixing_ratio_error_digits": "1",
+          "sigma_mixing_ratio": 0.01,
+          "CC": null,
+          "flag": "A",
+          "raw": " 67GA  G 958.2     8 100       E2(+M3)   -0.00   1                          A   ",
+          "comments": []
+        }
+      ],
+      "strong958": {
+        "line": 139,
+        "parent_energy_keV": 3031.7,
+        "parent_line": 137,
+        "energy_keV": 958.2,
+        "energy_text": "958.2",
+        "sigma_energy_keV": 0.8,
+        "RI": 100.0,
+        "sigma_RI": null,
+        "multipolarity": "E2(+M3)",
+        "mixing_ratio_text": "-0.00",
+        "mixing_ratio": -0.0,
+        "mixing_ratio_error_digits": "1",
+        "sigma_mixing_ratio": 0.01,
+        "CC": null,
+        "flag": "A",
+        "raw": " 67GA  G 958.2     8 100       E2(+M3)   -0.00   1                          A   ",
+        "comments": []
+      },
+      "header": [
+        "",
+        " 67GA    64ZN(A,PG), 53CR(16O,PNG)     1978AL32,1977AL35         05NDS    200512",
+        " 67GA  H TYP=ERR$AUT=J. Tuli$DAT=6-Jul-2007$COM=Fixed some typos$               ",
+        " 67GA  H TYP=FUL$AUT=HUO JUNDE, HUANG XIAOLONG, J.K. TULI$                      ",
+        " 67GA2 H CIT=NDS 106, 159 (2005)$CUT=1-Apr-2005$                                ",
+        " 67GA c  1978Al32: E(|a)=13-15 MeV; |g|g coincidences, |g(|q), linear           ",
+        " 67GA2c  polarization, T{-1/2} by DSAM and delayed coincidences.                ",
+        " 67GA3c  E({+16}O)=35-51 MeV; E|g, I|g, |g|g coincidences, T{-1/2} by RDM.      ",
+        " 67GA c  1977Al35: E(|a)=7-16 MeV; E|g, I|g, |g|g coincidences, |g(|q), linear  ",
+        " 67GA2c  polarization, T{-1/2} by DSAM                                          ",
+        " 67GA c  1974Ha09: E(|a)=12.2 MeV and 14.2 MeV for {+64}Zn(|a,p|g)              ",
+        " 67GA2c  reaction and E(|a)=24 MeV and 31 MeV for {+65}Cu(|a,2n|g) reaction;    ",
+        " 67GA3c  E|g, I|g, |g|g and p|g coincidences, |g(|q), |g yields, p|g(|q),       ",
+        " 67GA4c  linear polarization                                                    ",
+        " 67GA c  Data for all the levels below and above 2 MeV are taken                ",
+        " 67GA2c  from 1977Al35 and 1978Al32, respectively, unless noted otherwise       ",
+        " 67GA cL E         From 1977Al35 or 1978Al32                                    ",
+        " 67GA cL J         From adopted levels; supporting arguments from this reaction ",
+        " 67GA2cL are indicated                                                          ",
+        " 67GA cL T         From DSAM by 1977Al35 or 1978Al32, unless indicated otherwise",
+        " 67GA cL T(R)      From recoil distance measurements by 1978Al32                ",
+        " 67GA cG RI        Percent photon branching for each level                      ",
+        " 67GA cG M,MR      From 1977al35, except as noted.                              ",
+        " 67GA cG M(A),MR(A)$From 1978Al32.                                              ",
+        " 67GA cG M(H),MR(H)$From 1974Ha09                                               ",
+        " 67GA cG E(C)      Part of unresolved doublets and triplets                     "
+      ],
+      "lines_total": 178
+    },
+    "ni58": {
+      "parent": {
+        "line": 45,
+        "energy_keV": 3031.2,
+        "energy_text": "3031.2",
+        "sigma_energy_keV": 0.4,
+        "Jpi": "13/2+",
+        "half_life_text": "",
+        "half_life_error_digits": "",
+        "raw": " 67GA  L     3031.2 413/2+                                                  C   ",
+        "comments": []
+      },
+      "gammas": [
+        {
+          "line": 46,
+          "parent_energy_keV": 3031.2,
+          "parent_line": 45,
+          "energy_keV": 168.8,
+          "energy_text": "168.8",
+          "sigma_energy_keV": 0.4,
+          "RI": 0.2,
+          "sigma_RI": 0.1,
+          "multipolarity": "",
+          "mixing_ratio_text": "",
+          "mixing_ratio": null,
+          "mixing_ratio_error_digits": "",
+          "sigma_mixing_ratio": null,
+          "CC": null,
+          "flag": "",
+          "raw": " 67GA  G     168.8  4    0.2  1                                                 ",
+          "comments": []
+        },
+        {
+          "line": 47,
+          "parent_energy_keV": 3031.2,
+          "parent_line": 45,
+          "energy_keV": 958.0,
+          "energy_text": "958.0",
+          "sigma_energy_keV": 0.3,
+          "RI": 100.0,
+          "sigma_RI": 9.0,
+          "multipolarity": "",
+          "mixing_ratio_text": "",
+          "mixing_ratio": null,
+          "mixing_ratio_error_digits": "",
+          "sigma_mixing_ratio": null,
+          "CC": null,
+          "flag": "",
+          "raw": " 67GA  G     958.0  3    100  9                                                 ",
+          "comments": [
+            {
+              "line": 48,
+              "text": " 67GA cG           DCO=1.45 {I7}                                                "
+            }
+          ]
+        }
+      ],
+      "strong958": {
+        "line": 47,
+        "parent_energy_keV": 3031.2,
+        "parent_line": 45,
+        "energy_keV": 958.0,
+        "energy_text": "958.0",
+        "sigma_energy_keV": 0.3,
+        "RI": 100.0,
+        "sigma_RI": 9.0,
+        "multipolarity": "",
+        "mixing_ratio_text": "",
+        "mixing_ratio": null,
+        "mixing_ratio_error_digits": "",
+        "sigma_mixing_ratio": null,
+        "CC": null,
+        "flag": "",
+        "raw": " 67GA  G     958.0  3    100  9                                                 ",
+        "comments": [
+          {
+            "line": 48,
+            "text": " 67GA cG           DCO=1.45 {I7}                                                "
+          }
+        ]
+      },
+      "header": [
+        "",
+        " 67GA    12C(58NI,3PG)                 1999DA10                  05NDS    200512",
+        " 67GA  H TYP=FUL$AUT=HUO JUNDE, HUANG XIAOLONG, J.K. TULI$                      ",
+        " 67GA2 H CIT=NDS 106, 159 (2005)$CUT=1-Apr-2005$                                ",
+        " 67GA c  E=261 MeV. Measured E|g, I|g, |g|g, |g|g(|q)(DCO) using NORDBALL       ",
+        " 67GA2c  array with 15 Compton-suppressed Ge detectors.                         ",
+        " 67GA CL BAND(A)$3/2- GS BAND                                                   ",
+        " 67GA CL BAND(B)$5/2- BAND                                                      ",
+        " 67GA CL BAND(C)$G-CASCADE BASED ON 9/2+                                        ",
+        " 67GA PN                                                                     5  ",
+        " 67GA  L         0   3/2-                                                   A   ",
+        " 67GA  L     358.96225/2-                                                   B   ",
+        " 67GA  G     358.9  3     80  6                                                 ",
+        " 67GA cG           DCO=0.77 {I3}                                                ",
+        " 67GA  L      910.9 45/2-                                                       ",
+        " 67GA  G     910.9  4    0.2  1                                                 ",
+        " 67GA  L 1201.92   237/2-                                                   A   ",
+        " 67GA  G     842.9  3   15.8 14                                                 ",
+        " 67GA cG           DCO=0.60 {I6}                                                ",
+        " 67GA  G    1202.0  3     52  5                                                 ",
+        " 67GA cG           DCO=1.45 {I7}                                                ",
+        " 67GA  L     1412.3 37/2-                                                       ",
+        " 67GA  G     501.4  4    0.2  1                                                 ",
+        " 67GA  G    1053.2  4    1.0  1                                                 ",
+        " 67GA  G    1412.2  7    0.2  1                                                 ",
+        " 67GA  L     1518.8 39/2-                                                   B   "
+      ],
+      "lines_total": 170,
+      "daughter2074": {
+        "line": 29,
+        "energy_keV": 2073.2,
+        "energy_text": "2073.2",
+        "sigma_energy_keV": 0.3,
+        "Jpi": "9/2+",
+        "half_life_text": "",
+        "half_life_error_digits": "",
+        "raw": " 67GA  L     2073.2 39/2+                                                   C   ",
+        "comments": []
+      },
+      "daughter2074_gammas": [
+        {
+          "line": 30,
+          "parent_energy_keV": 2073.2,
+          "parent_line": 29,
+          "energy_keV": 554.4,
+          "energy_text": "554.4",
+          "sigma_energy_keV": 0.3,
+          "RI": 44.0,
+          "sigma_RI": 4.0,
+          "multipolarity": "",
+          "mixing_ratio_text": "",
+          "mixing_ratio": null,
+          "mixing_ratio_error_digits": "",
+          "sigma_mixing_ratio": null,
+          "CC": null,
+          "flag": "",
+          "raw": " 67GA  G     554.4  3     44  4                                                 ",
+          "comments": [
+            {
+              "line": 31,
+              "text": " 67GA cG           DCO=1.45 {I7}                                                "
+            }
+          ]
+        },
+        {
+          "line": 32,
+          "parent_energy_keV": 2073.2,
+          "parent_line": 29,
+          "energy_keV": 660.2,
+          "energy_text": "660.2",
+          "sigma_energy_keV": 0.7,
+          "RI": 0.1,
+          "sigma_RI": 0.1,
+          "multipolarity": "",
+          "mixing_ratio_text": "",
+          "mixing_ratio": null,
+          "mixing_ratio_error_digits": "",
+          "sigma_mixing_ratio": null,
+          "CC": null,
+          "flag": "",
+          "raw": " 67GA  G     660.2  7    0.1  1                                                 ",
+          "comments": []
+        },
+        {
+          "line": 33,
+          "parent_energy_keV": 2073.2,
+          "parent_line": 29,
+          "energy_keV": 871.3,
+          "energy_text": "871.3",
+          "sigma_energy_keV": 0.3,
+          "RI": 64.0,
+          "sigma_RI": 6.0,
+          "multipolarity": "",
+          "mixing_ratio_text": "",
+          "mixing_ratio": null,
+          "mixing_ratio_error_digits": "",
+          "sigma_mixing_ratio": null,
+          "CC": null,
+          "flag": "",
+          "raw": " 67GA  G     871.3  3     64  6                                                 ",
+          "comments": [
+            {
+              "line": 34,
+              "text": " 67GA cG           DCO=0.77 {I3}                                                "
+            }
+          ]
+        },
+        {
+          "line": 35,
+          "parent_energy_keV": 2073.2,
+          "parent_line": 29,
+          "energy_keV": 1714.4,
+          "energy_text": "1714.4",
+          "sigma_energy_keV": 0.3,
+          "RI": 2.3,
+          "sigma_RI": 0.3,
+          "multipolarity": "",
+          "mixing_ratio_text": "",
+          "mixing_ratio": null,
+          "mixing_ratio_error_digits": "",
+          "sigma_mixing_ratio": null,
+          "CC": null,
+          "flag": "",
+          "raw": " 67GA  G    1714.4  3    2.3  3                                                 ",
+          "comments": [
+            {
+              "line": 36,
+              "text": " 67GA cG           DCO=1.5 {I4}                                                 "
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "half_life_input_ps": 4.5,
+  "mean_tau_ps": 6.4921276840003355,
+  "transformed_quoted_time_error_ps": 0.5770780163555854,
+  "separate_feeder_lifetimes": {
+    "feeder3578": {
+      "T_half_ps": 160.0,
+      "quoted_error_ps": 40.0,
+      "mean_tau_ps": 230.83120654223416
+    },
+    "feeder3856": {
+      "T_half_ps": 11.0,
+      "quoted_error_ps": 2.0,
+      "mean_tau_ps": 15.869645449778599
+    }
+  },
+  "E2_rate_coefficient_s_MeV_e2fm4": 1225186722.0205214,
+  "Weisskopf_unit_e2fm4": 16.165309519904607,
+  "conditional_two_observed_gamma_zeroIC": {
+    "total_rate_s": 154032706791.09897,
+    "gamma958_rate_s": 153725256278.54187,
+    "E2_gamma_rate_s": 153725256278.54187,
+    "rate_ledger_denominator": 1.002,
+    "B_E2_e2fm4": 155.48651594872558,
+    "B_E2_WU": 9.618530084887798
+  },
+  "conditional_single_gamma_zeroIC": {
+    "total_rate_s": 154032706791.09897,
+    "gamma958_rate_s": 154032706791.09897,
+    "E2_gamma_rate_s": 154032706791.09897,
+    "rate_ledger_denominator": 1.0,
+    "B_E2_e2fm4": 155.79748898062306,
+    "B_E2_WU": 9.637767145057575
+  },
+  "wrong_half_life_as_tau_control_B_E2_WU": 13.876605654108927,
+  "independent_marginal_approximation": {
+    "photon_ratio": 0.002,
+    "sigma_ratio": 0.0010160708636704429,
+    "sigma_B_E2_WU": 0.8550397688181612,
+    "actual_source_joint_covariance": null
+  },
+  "chosen_weak_conversion_controls": [
+    {
+      "cc_weak_chosen": 0.0,
+      "total_rate_s": 154032706791.09897,
+      "gamma958_rate_s": 153725256278.54187,
+      "E2_gamma_rate_s": 153725256278.54187,
+      "rate_ledger_denominator": 1.002,
+      "B_E2_e2fm4": 155.48651594872558,
+      "B_E2_WU": 9.618530084887798
+    },
+    {
+      "cc_weak_chosen": 1.0,
+      "total_rate_s": 154032706791.09897,
+      "gamma958_rate_s": 153419030668.42526,
+      "E2_gamma_rate_s": 153419030668.42526,
+      "rate_ledger_denominator": 1.004,
+      "B_E2_e2fm4": 155.1767818532102,
+      "B_E2_WU": 9.599369666392006
+    },
+    {
+      "cc_weak_chosen": 100.0,
+      "total_rate_s": 154032706791.09897,
+      "gamma958_rate_s": 128147010641.51329,
+      "E2_gamma_rate_s": 128147010641.51329,
+      "rate_ledger_denominator": 1.202,
+      "B_E2_e2fm4": 129.61521545808907,
+      "B_E2_WU": 8.018109105705138
+    }
+  ],
+  "chosen_ccweak_for10percent_change": 55.66666666666669,
+  "chosen_mixing_sensitivity_not_confidence_bounds": [
+    {
+      "delta_chosen": 0.0,
+      "M3_gamma_fraction": 0.0,
+      "total_rate_s": 154032706791.09897,
+      "gamma958_rate_s": 153725256278.54187,
+      "E2_gamma_rate_s": 153725256278.54187,
+      "rate_ledger_denominator": 1.002,
+      "B_E2_e2fm4": 155.48651594872558,
+      "B_E2_WU": 9.618530084887798
+    },
+    {
+      "delta_chosen": 0.01,
+      "M3_gamma_fraction": 9.999000099990002e-05,
+      "total_rate_s": 154032706791.09897,
+      "gamma958_rate_s": 153725256278.54187,
+      "E2_gamma_rate_s": 153709885290.01288,
+      "rate_ledger_denominator": 1.002,
+      "B_E2_e2fm4": 155.4709688518404,
+      "B_E2_WU": 9.617568328054993
+    },
+    {
+      "delta_chosen": 0.02,
+      "M3_gamma_fraction": 0.0003998400639744103,
+      "total_rate_s": 154032706791.09897,
+      "gamma958_rate_s": 153725256278.54187,
+      "E2_gamma_rate_s": 153663790762.23697,
+      "rate_ledger_denominator": 1.002,
+      "B_E2_e2fm4": 155.42434621024148,
+      "B_E2_WU": 9.614684211203317
+    }
+  ],
+  "central_energy_closures_only": {
+    "strong958_E_parent_minus_daughter_minus_gamma_keV": 0.004999999999881766,
+    "weak168p8_E_parent_minus_daughter_minus_gamma_keV": 0.5200000000001523
+  },
+  "source_DCO_counter_example": {
+    "DCO958_E2": {
+      "value": 1.45,
+      "quoted_error": 0.07,
+      "line": 48,
+      "raw": " 67GA cG           DCO=1.45 {I7}                                                "
+    },
+    "DCO554_E1": {
+      "value": 1.45,
+      "quoted_error": 0.07,
+      "line": 31,
+      "raw": " 67GA cG           DCO=1.45 {I7}                                                "
+    },
+    "DCO871_same_parent_E1": {
+      "value": 0.77,
+      "quoted_error": 0.03,
+      "line": 34,
+      "raw": " 67GA cG           DCO=0.77 {I3}                                                "
+    },
+    "exact_gate_geometry_and_reference_not_supplied": true,
+    "not_a_causal_assignment_to_spin_change_alone": true
+  },
+  "boundaries": [
+    "The NDS evaluation and its adopted/reaction objects are reused records, not additional independent experiments.",
+    "Quoted delta error0.01 preserves finite uncertainty; E2(+M3) and missing higher/weak-line inputs are not exact-zero evidence.",
+    "The4.5ps input is parent half-life; the two feeders have different mean lifetimes and cannot replace it.",
+    "ZeroIC and a complete two-gamma ledger are explicit controls. Source blank CC, complete unseen channels and actual covariance are unknown.",
+    "Evaluated BE2W9.6(9) is retained; conditional numerical agreement is not a new strength measurement or reconstruction of evaluator code.",
+    "The mixing-fraction controls use an E2/M3 gamma truncation; phase/sign and angular interference require the source convention and full response.",
+    "Missing primary papers, actual angular/line-shape data, stopping/feeding, response and fitCov keep experimental L4 not-ready.",
+    "Day14 remains active; Day15 remains an uncredited partial preview; no Day16 card is opened."
+  ],
+  "checks": {
+    "adopted_real_object_identity": true,
+    "adopted_downloaded_text_hash_matches_receipt": true,
+    "adopted_one_same_parent_958_line": true,
+    "fe12c_real_object_identity": true,
+    "fe12c_downloaded_text_hash_matches_receipt": true,
+    "fe12c_one_same_parent_958_line": true,
+    "alpha_real_object_identity": true,
+    "alpha_downloaded_text_hash_matches_receipt": true,
+    "alpha_one_same_parent_958_line": true,
+    "ni58_real_object_identity": true,
+    "ni58_downloaded_text_hash_matches_receipt": true,
+    "ni58_one_same_parent_958_line": true,
+    "evaluated_E2_optional_M3_and_finite_quoted_delta_retained": true,
+    "source_blank_CC_retained_as_missing": true,
+    "Fe_multipolarity_and_MR_are_transferred_not_second_measurement": true,
+    "adopted_flagD_and_alpha_flagA_retain_lineage": true,
+    "alpha_primary_metadata1978Al32_and_RDM_method_retained": true,
+    "Fe_global_RI_normalizer_is359plus1202": true,
+    "same_line_has_different_RI_normalizations": true,
+    "Ni1999data_identified_without_adding_independent_MR": true,
+    "weak168p8_branch_not_silently_dropped": true,
+    "weak_MR_and_conversion_stay_unclassified_missing": true,
+    "weak_and_strong_Ni_RIs_match_adopted_values": true,
+    "same_reported_DCO_does_not_uniquely_label_E2": true,
+    "same_parent_two_E1_lines_can_have_different_reported_DCO": true,
+    "selected_half_life_and_mean_not_confused": true,
+    "nanosecond_and_picosecond_feeders_use_their_own_parents": true,
+    "CODATA_E2_coefficient_matches_existing_Wiki_unit_reconstruction": true,
+    "source_evaluated_strength_marker_retained": true,
+    "conditional_zeroIC_two_gamma_rounding_matches_reported9p6": true,
+    "weak_branch_reduces_conditional_rate_not_strengthens_it": true,
+    "half_life_as_mean_gives_a_material_factor_error": true,
+    "actual_missing_CC_blocks_an_unqualified_absolute_strength": true,
+    "tiny_photon_branch_need_not_mean_tiny_total_rate": true,
+    "chosen_conversion_10percent_boundary_is_algebraically_correct": true,
+    "quoted_delta_scale_is_not_exact_zero_or_hard_confidence_bound": true,
+    "E2_M3_rate_fractions_sum_one_and_rate_is_phase_insensitive": true,
+    "mixed_dataset_energy_central_residuals_are_not_forced_to_zero": true
+  },
+  "checks_passed": 38
+}

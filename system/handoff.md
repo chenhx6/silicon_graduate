@@ -8,13 +8,13 @@ updated: 2026-10-15
 
 ## Active handoff — DAY14 formal exam and continuous study
 
-Run `2026-10-14-day-14-02` / session `01a13a0e-e8bd-7251-b970-f6975679e281`；原研究截止 `2026-10-15T15:00:00+08:00` 保持，goal/research仍active。正式DAY14的primed回忆、Herzáň主线/图表/七边、21/24和weekly REFLECT已发布；官方next14/count13等最终收束只计一次。Day15仅partial预习，不研究Day16。
+Run `2026-10-14-day-14-02` / session `01a13a0e-e8bd-7251-b970-f6975679e281`；原研究截止 `2026-10-15T15:00:00+08:00` 保持，goal/research仍active。正式DAY14 primed回忆、Herzáň主线/图表/七边、21/24与weeklyREFLECT已发布；官方next14/count13等最终closeout只计一次。Day15仅partial预习，不研究Day16。
 
-最新checkpoint010（上海10-15 06:40前后）：40项正布居凸包/source全部10+1行LP完成，中央值(.973,.803)在声明J/reference/purity/response下有−107/1000证书；其余10points有数学witness。UnknownCov/δ/response使其不能成为实验排除或真实布居；模型/图/全部顶点和表写回angular-distribution。图最终source/glyph/collision0、visual通过，源码4WARN有Wiki合同解释。
+最新checkpoint011（上海10-15 08时）：NNDC67四个真实objects与38项field/source/half-to-mean/RI/CC/finiteMR/条件rate/DCO反例通过。parent4.5ps为half→6.492mean，两个feederτ不可借；RI58.2(global)与parent100/.2不同。958E2(+M3)δ−0.00(1)有finiteerror、Fe M/MR round-trip不计第二测量；conditional B9.61853WU不重测，actualCC/Cov/response仍缺。SameDCO1.45对应E1/E2、exactgate未给；2862未分1343/1353/π解释保持。
 
-1979Ref4/9 onlymetadata；API/OA/PDF/Scholar未得primary，TDMlicense错误OA标签不采信，停止获取分支；Z80-20 true保留DOI/lastauthor差异和readiness，原Human/13false范围不扩。唯一writeback25items/13changedpages；report/card/writeback/AST/protected/raw/review/diff/lint0errors129warnings通过，source20已parsedtrue。前9批已Gitee发布；本批稳定指针 main / `Bound DAY14 positive-population moments`，exacthash/actualH3只receipt。
+新SourceN67-1–8 true，原review保持；唯一writeback29items/14changedpages，report/card/writeback/AST/protected/raw/review/diff通过。首lint1的genericcanonicalURL/缺heading已改，fresh0errors130warnings（107citekey/20rawslots/3parser）、8claimsparsed。前10批Gitee已发布；本批main / `Audit DAY14 real ENSDF lifetime and branching inputs`，exacthash/actualH3只receipt。
 
-下一NNDC67Ga primed recall已冻结，search200给ADOPTED/57Fe12C/alpha selectedobjects、2005-12版本；未读objects或预写δ。只核958同parent与出处，不当独立raw。Clock001/002已实际ack；Farmer8686/clock75781不重启。恢复 `codex resume 01a13a0e-e8bd-7251-b970-f6975679e281 -C /workspace/wiki -s danger-full-access -a never`；本run checkpoint010/continuation可恢复。
+下一bounded同问题路线是actualtheoryICC或1999primaryDCOgate/geometry；先freeze recall、保留model/lookup/原data区别，真L4fit不ready。1979primary获取分支停，metadata/readiness有Z80-20，未改raw/credentials/hostGUI。Clock001/002已实际ack，Farmer8686/clock75781不重启。恢复 `codex resume 01a13a0e-e8bd-7251-b970-f6975679e281 -C /workspace/wiki -s danger-full-access -a never`；checkpoint011/continuation可恢复。
 
 ## Previous active handoff — DAY13 continuous study reopened by user
 

@@ -1,0 +1,80 @@
+[
+  {
+    "dataset": "67031001",
+    "label": "adopted",
+    "url": "https://www.nndc.bnl.gov/ensdf/EnsdfDispatcherServlet",
+    "request": {
+      "dbclass": "ensdf",
+      "page-source": "singular",
+      "chooseit": "ENSDF text format",
+      "datasetcheck": "67031001,67GA"
+    },
+    "status_code": 200,
+    "response_sha256": "fe5f7191512d360610a20de4eb1b7aa8438c90479147a06074767d1741bbc438",
+    "pre_present": true,
+    "text_sha256": "a8ce3f5d6170357c67f6e750b74a1bb82eba0db723fb4d9507866f523937dcf1",
+    "text_lines": 762,
+    "header": [
+      "",
+      " 67GA    ADOPTED LEVELS, GAMMAS                                  05NDS    200512",
+      " 67GA  H TYP=FUL$AUT=HUO JUNDE, HUANG XIAOLONG, J.K. TULI$                      ",
+      " 67GA2 H CIT=NDS 106, 159 (2005)$CUT=1-Apr-2005$                                ",
+      " 67GA  XA67GE EC DECAY                                                          ",
+      " 67GA  XB67ZN(P,NG)                                                             ",
+      " 67GA  XC64ZN(A,PG), 53CR(16O,PNG)                                              ",
+      " 67GA  XD57FE(12C,PNG)                                                          "
+    ]
+  },
+  {
+    "dataset": "67031005",
+    "label": "fe12c",
+    "url": "https://www.nndc.bnl.gov/ensdf/EnsdfDispatcherServlet",
+    "request": {
+      "dbclass": "ensdf",
+      "page-source": "singular",
+      "chooseit": "ENSDF text format",
+      "datasetcheck": "67031005,67GA"
+    },
+    "status_code": 200,
+    "response_sha256": "ea857750618aff5d2e6a5032245960241edb115a7dd6340f5913afc26b40661f",
+    "pre_present": true,
+    "text_sha256": "bcb6f6fc977604c522e572166c50a196f761649c25ad054f2928a383f742815a",
+    "text_lines": 67,
+    "header": [
+      "",
+      " 67GA    57FE(12C,PNG)                 1979ZO01                  05NDS    200512",
+      " 67GA  H TYP=FUL$AUT=HUO JUNDE, HUANG XIAOLONG, J.K. TULI$                      ",
+      " 67GA2 H CIT=NDS 106, 159 (2005)$CUT=1-Apr-2005$                                ",
+      " 67GA c  E=32-44 MeV; measured E|g, I|g, |g|g coincidences, |g(|q), |g          ",
+      " 67GA2c  excitation functions, and linear polarization                          ",
+      " 67GA cL E         From a least-squares fit to the E|g data                     ",
+      " 67GA cL J         From adopted levels; supporting arguments from this reaction "
+    ]
+  },
+  {
+    "dataset": "67031006",
+    "label": "alpha",
+    "url": "https://www.nndc.bnl.gov/ensdf/EnsdfDispatcherServlet",
+    "request": {
+      "dbclass": "ensdf",
+      "page-source": "singular",
+      "chooseit": "ENSDF text format",
+      "datasetcheck": "67031006,67GA"
+    },
+    "status_code": 200,
+    "response_sha256": "ac497fccc8889215df10a791a71416946a5e66478aa40d8fd02abfe1bd9860ad",
+    "pre_present": true,
+    "text_sha256": "efe6ea722b9898f7cba4d42d1108dde9e3853cf8a28d12525d699cddb4603a3b",
+    "text_lines": 178,
+    "header": [
+      "",
+      " 67GA    64ZN(A,PG), 53CR(16O,PNG)     1978AL32,1977AL35         05NDS    200512",
+      " 67GA  H TYP=ERR$AUT=J. Tuli$DAT=6-Jul-2007$COM=Fixed some typos$               ",
+      " 67GA  H TYP=FUL$AUT=HUO JUNDE, HUANG XIAOLONG, J.K. TULI$                      ",
+      " 67GA2 H CIT=NDS 106, 159 (2005)$CUT=1-Apr-2005$                                ",
+      " 67GA c  1978Al32: E(|a)=13-15 MeV; |g|g coincidences, |g(|q), linear           ",
+      " 67GA2c  polarization, T{-1/2} by DSAM and delayed coincidences.                ",
+      " 67GA3c  E({+16}O)=35-51 MeV; E|g, I|g, |g|g coincidences, T{-1/2} by RDM.      "
+    ]
+  }
+]

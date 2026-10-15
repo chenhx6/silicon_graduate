@@ -348,3 +348,10 @@ Z80-19：当前九页scan没有找到p229所指Table3，GNOMON代码又被原Ref
 图中数据是11个published fit means与quoted marginal errors，灰域和绿色曲线是本任务条件模型；只显示α2≥.60的视野，完整七顶点与全域证书保存在上表/计算。图不画source joint CI、实验拒绝率或Gaussian拟合。数据未jitter/删除，1980/1983图标不代表独立采集。
 
 复算：[day14_positive_population_hull.py](../../system/scripts/day14_positive_population_hull.py)；完整source rows、rational halfspaces、LP状态/witness、chosenΣ与最近点在本run positive-population-hull.json。40项检查均通过。决定revises“先从alpha2反演Gaussian宽度而不审两矩可行性”的分析顺序，supports先保存核态正性/响应/未知Cov边界；无实验重拟合或新σ/I/结构模式赋值，Day15仍无学分。
+
+
+### 67Ga reference-purity与DCO的实际字段补核
+
+[[nndc-2005-67ga-selected-level-gamma-records]] N67-2/3将reference958标E2(+M3)、δ=−0.00(1)，给出有限quoted .01及alpha1978AL32的依赖；Fe对象再用adopted不计独立δ。这支持nominalpureE2条件练习而不把δ=0当精确实验事实。此前正布居Farkas证书仍明确限固定δ0/reference/响应；它不排除实验或解决actualCov/GF缺口。
+
+N67-7的同DCO1.45(7)对应958E2与554E1，reference/gate/geometry没有提供，不能以通用ratio阈值省略spinsequence/conditioning。完整parent/RI/时间/Γ→B38-check契约在[[level-scheme-reconstruction]]“67Ga：跨对象的parent与强度输入核验”，避免把已编译输入、另reaction的alignment和原实验独立性混为一谈。

@@ -3,7 +3,7 @@ type: method
 title: "从 γ 谱重建能级纲图的证据审计"
 aliases: [level scheme reconstruction, spectrum to level scheme evidence audit]
 created: 2026-10-13
-updated: 2026-10-14
+updated: 2026-10-15
 status: ai-draft
 review_status: unreviewed
 method_type: gamma-ray-spectroscopy
@@ -239,3 +239,44 @@ HE15-9的393/394order未定仍是实际来源结论。[[angular-correlation]]“
 ## Level gap and gamma-energy precision
 
 [[tunl-2017-12c-level-widths]] T12C-1/4与[[doppler-correction]]的free-two-bodyexercise强调：energy-levelgap与emitting-parent-restγenergy存在photonrecoil差，精确schemeenergyclosure需声明mass/frame/rounding。A12/gap15.110MeV的mass-numbertoy差约10.20keV，不能把高能levelgap直接当exactγcalibrationline；A130/1MeV差约.00413keV。此为尺度设计，不重新测原表能级，也不替换真实实验已处理的recoilcorrection。
+
+
+## 67Ga：跨对象的parent与强度输入核验
+
+[[nndc-2005-67ga-selected-level-gamma-records]] N67-1–8提供actual公开object输入；不同数据对象复用的出处须按字段追踪，不能按对象数计独立实验。这里是Day14中的bounded数据/方法延伸，Day15仍无学分。
+
+| 所需输入 | source record与条件 | 对应边界 |
+| --- | --- | --- |
+| parent/daughter/line | 3031.77(6),13/2+→2073.755(25),9/2+；958.01(5)keV | level energies为γ数据LS fit，中央closure .005keV不代表独立高精度validation |
+| M/δ | E2(+M3)，−0.00(1)；adopted D/alpha A→1978AL32 | finite quoted .01，不给exactpureE2或硬CI；Fe取回adopted不是另一测量 |
+| parent时间 | T1/2=4.5(4)ps，C/R→alpha/16O RDM | meanτ=6.492±.577ps；不同feederτ不能借给该line |
+| photon RI | same-parent100(9)、weak168.8:.2(1)，O/Q→1999DA10 | Fe58.2(.9)的globalnormalizer359+1202=100不同；不是absolute total-decay branch |
+| 转换/库存 | 958CC空，weak M/CC空；未提供unseen ledger | 空白不补零，小photonbranch不认证小totalwidth |
+| 原评价B | BE2W=9.6(9) | 同输入派生quantity，非独立measurement或simple shapes标签 |
+
+### 半衰期、平均寿命与条件rate
+
+两个feeding levels另有T1/2(3578)=.16(4)ns、T1/2(3856)=11(2)ps；mean230.831/15.870ps与Zobel1980的230/16.4ps量级相容，却不是3032parent的6.492ps。先按核态身份取时间，再转换，不能按band或选中γ共用一条τ。
+
+采用[[lange-kumar-hamilton-1982-multipole-admixtures]] LKH82-1 / p121 Eqs2.1–2.6的rate与B定义、[[high-spin-lifetime-strength-deformation]]现代SI转换，E2率为k Eγ⁵ B(E2)，本单位k=1.2251867220×10⁹ s⁻¹ MeV⁻⁵(e²fm⁴)⁻¹。率已按B的初态统计平均定义，不能再除2Ji+1。
+
+令r=I168/I958=.002、α_s/α_w为各线all-shell **IC** coefficient（不是核alignment α2/4）。声明只两条γ、无extra、E2/M3截断时：
+
+\[
+\lambda_\mathrm{tot}=\frac{\ln2}{T_{1/2}},\quad
+\lambda_{958,\gamma}=\frac{\lambda_\mathrm{tot}}
+{1+\alpha_s+r(1+\alpha_w)},\quad
+B(E2)=\frac{\lambda_{958,\gamma}}{(1+\delta^2)kE_\gamma^5}.
+\]
+
+zeroIC/δ0只是控制假设，给B(E2)=155.4865e²fm⁴=9.61853WU（WU conventional radius1.2A^(1/3)）；若忽略weak branch，9.63777WU。与reported9.6(9)printing相容，不重测B或验证complete inventory。把T1/2当meanτ则得13.87661WU，错误倍率1/ln2。独立quoted-marginals近似给σB=.85504WU；source真实Cov/完整systematics仍未知。
+
+原δerror规模.01作敏感性点时，E2/M3 gamma truncation的M3 ratefraction=.00009999；取.02给.00039984。它们不是概率界或可信区间；δ sign/phase与angular interference需自身source mapping，不能把小ratefraction直接当同阶小shape误差。
+
+### 弱支路、DCO与身份反证
+
+只选择α_w=0/1/100作数学控制，会改变总rate分母；α_w约55.67使上述conditional B下降10%。这些不是weak168实测或BrIcc lookup；实际数据CC missing，脚本用actual missing值时拒绝无条件absolute B。验证小photons是否意味着小total decay，下一需要独立multipolarity/atomic-response与complete branch条件。
+
+N67-7的真实NORDBALL对象给958与554.4同样DCO1.45(7)，adopted却分别E2(+M3)/E1(+M2)；same2073parent的871.3给.77(3)。已知spinsequence不同，但objects没有exact gate/reference/response，不能单独以ratio赋E2，不能将这组差异因果全归给ΔJ。N67-8又保留alpha2862的11/2−与adopted11/2+冲突及1343/1353未分峰的“可能解释”；其他反应的正确标注不修复原peak污染。
+
+代码：[day14_ensdf67_strength_crosswalk.py](../../system/scripts/day14_ensdf67_strength_crosswalk.py)。38项object/hash/column/units/来源/half-to-mean/RI/missingCC/finiteMR/rate/反事实与DCO checks通过；source records、quoted inputs、chosen controls及未知Cov在本run nndc67-strength-crosswalk.json。决定revises exactδ0/RI58.2当branch/共用feederτ，supports先回源和逐field lineage，limits DCO数值与conditional B作模式裁决。无原实验fit重放，L4 not-ready。

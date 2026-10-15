@@ -1,0 +1,196 @@
+{
+  "url": "https://api.crossref.org/works?query.bibliographic=Nuclear+Data+Sheets+A%3D67+Huo+Junde+Huang+Xiaolong+Tuli+106+159+2005&rows=5",
+  "status_code": 200,
+  "metadata_only": true,
+  "items": [
+    {
+      "DOI": "10.1016/j.nds.2005.10.006",
+      "title": [
+        "Nuclear Data Sheets for A = 67"
+      ],
+      "author": [
+        {
+          "given": "Huo",
+          "family": "Junde",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Huang",
+          "family": "Xiaolong",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "J.K.",
+          "family": "Tuli",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "volume": "106",
+      "page": "159-250",
+      "published": {
+        "date-parts": [
+          [
+            2005,
+            10
+          ]
+        ]
+      },
+      "container-title": [
+        "Nuclear Data Sheets"
+      ]
+    },
+    {
+      "DOI": "10.1006/ndsh.2000.0007",
+      "title": [
+        "Nuclear Data Sheets for A = 52"
+      ],
+      "author": [
+        {
+          "given": "Huo",
+          "family": "Junde",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "volume": "90",
+      "page": "1-106",
+      "published": {
+        "date-parts": [
+          [
+            2000,
+            5
+          ]
+        ]
+      },
+      "container-title": [
+        "Nuclear Data Sheets"
+      ]
+    },
+    {
+      "DOI": "10.1016/0090-3752(92)80026-g",
+      "title": [
+        "Nuclear data sheets update for A = 56"
+      ],
+      "author": [
+        {
+          "given": "Huo",
+          "family": "Junde",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "volume": "67",
+      "page": "523-577",
+      "published": {
+        "date-parts": [
+          [
+            1992,
+            12
+          ]
+        ]
+      },
+      "container-title": [
+        "Nuclear Data Sheets"
+      ]
+    },
+    {
+      "DOI": "10.1016/s0090-3752(73)80038-9",
+      "title": [
+        "Nuclear data sheets for A = 159"
+      ],
+      "author": [
+        {
+          "given": "J.K.",
+          "family": "Tuli",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "volume": "9",
+      "page": "435-477",
+      "published": {
+        "date-parts": [
+          [
+            1973,
+            1
+          ]
+        ]
+      },
+      "container-title": [
+        "Nuclear Data Sheets"
+      ]
+    },
+    {
+      "DOI": "10.1016/s0090-3752(05)80028-6",
+      "title": [
+        "Nuclear data sheets update for A = 94"
+      ],
+      "author": [
+        {
+          "given": "J.K.",
+          "family": "Tuli",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "volume": "66",
+      "page": "1-67",
+      "published": {
+        "date-parts": [
+          [
+            1992,
+            5
+          ]
+        ]
+      },
+      "container-title": [
+        "Nuclear Data Sheets"
+      ]
+    }
+  ]
+}

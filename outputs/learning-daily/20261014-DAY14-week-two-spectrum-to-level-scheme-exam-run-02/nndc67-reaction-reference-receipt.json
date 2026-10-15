@@ -1,0 +1,16 @@
+[
+  {
+    "dataset": "67031005",
+    "url": "https://www.nndc.bnl.gov/ensdf/getrefs.jsp?recid=67031005&dsid=57FE%2812C%2CPNG%29",
+    "status_code": 200,
+    "sha256": "7059575a5534bb384353245751322848ac5e30f1543d6e5dc1b41ae78b0356e9",
+    "metadata_only_not_primary": true
+  },
+  {
+    "dataset": "67031006",
+    "url": "https://www.nndc.bnl.gov/ensdf/getrefs.jsp?recid=67031006&dsid=64ZN%28A%2CPG%29%2C+53CR%2816O%2CPNG%29",
+    "status_code": 200,
+    "sha256": "8de59505f62949d5b2af883c093d856a11f7ede1bcaa6b59c17a7307095b45d1",
+    "metadata_only_not_primary": true
+  }
+]

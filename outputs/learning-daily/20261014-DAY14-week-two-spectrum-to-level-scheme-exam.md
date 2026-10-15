@@ -194,7 +194,7 @@ HE15-9的实际未定双线是核心反例：energy sum、共享R/A和假设的�
 
 ## Durable knowledge delta
 
-本run实际修改十三份knowledge Markdown，超出昨日预习的增量为七边逐条证据、相关cycle/标定nullspace、未定doublet shared-quantity边界和parent-lifetime契约。canonical知识路径：
+本run实际修改十四份knowledge Markdown，超出昨日预习的增量为七边逐条证据、相关cycle/标定nullspace、未定doublet shared-quantity边界和parent-lifetime契约。canonical知识路径：
 
 - [Herzáň source](../../knowledge/sources/herzan-2015-193bi-spectroscopy.md)：HE15-8–14及正式来源主线/triage。
 - [level-scheme method](../../knowledge/methods/level-scheme-reconstruction.md)：五能级七边、GLS/反例和必要companion。
@@ -824,6 +824,114 @@ HE15-9的实际未定双线是核心反例：energy sum、共享R/A和假设的�
           "locator": "Z80-20"
         }
       ]
+    },
+    {
+      "knowledge": "knowledge/sources/nndc-2005-67ga-selected-level-gamma-records.md",
+      "anchor": "Selected records and source locators",
+      "summary": "新增四个真实ENSDF对象的版本/selected原始L/G字段、有限MR/parent半衰期、RI/weakbranch、3层数据依赖与DCO/未分峰反证；无primary全文或重测。",
+      "sources": [
+        {
+          "path": "knowledge/sources/nndc-2005-67ga-selected-level-gamma-records.md",
+          "locator": "N67-1"
+        },
+        {
+          "path": "knowledge/sources/nndc-2005-67ga-selected-level-gamma-records.md",
+          "locator": "N67-2"
+        },
+        {
+          "path": "knowledge/sources/nndc-2005-67ga-selected-level-gamma-records.md",
+          "locator": "N67-3"
+        },
+        {
+          "path": "knowledge/sources/nndc-2005-67ga-selected-level-gamma-records.md",
+          "locator": "N67-4"
+        },
+        {
+          "path": "knowledge/sources/nndc-2005-67ga-selected-level-gamma-records.md",
+          "locator": "N67-5"
+        },
+        {
+          "path": "knowledge/sources/nndc-2005-67ga-selected-level-gamma-records.md",
+          "locator": "N67-6"
+        },
+        {
+          "path": "knowledge/sources/nndc-2005-67ga-selected-level-gamma-records.md",
+          "locator": "N67-7"
+        },
+        {
+          "path": "knowledge/sources/nndc-2005-67ga-selected-level-gamma-records.md",
+          "locator": "N67-8"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/methods/level-scheme-reconstruction.md",
+      "anchor": "67Ga：跨对象的parent与强度输入核验",
+      "summary": "38-check回源量、half-to-mean、parent/feeder、RI/CC/库存契约及条件B=9.61853WU；同DCO不同M的actualrecord反证。",
+      "sources": [
+        {
+          "path": "knowledge/sources/nndc-2005-67ga-selected-level-gamma-records.md",
+          "locator": "N67-2"
+        },
+        {
+          "path": "knowledge/sources/nndc-2005-67ga-selected-level-gamma-records.md",
+          "locator": "N67-3"
+        },
+        {
+          "path": "knowledge/sources/nndc-2005-67ga-selected-level-gamma-records.md",
+          "locator": "N67-4"
+        },
+        {
+          "path": "knowledge/sources/nndc-2005-67ga-selected-level-gamma-records.md",
+          "locator": "N67-5"
+        },
+        {
+          "path": "knowledge/sources/nndc-2005-67ga-selected-level-gamma-records.md",
+          "locator": "N67-6"
+        },
+        {
+          "path": "knowledge/sources/nndc-2005-67ga-selected-level-gamma-records.md",
+          "locator": "N67-7"
+        },
+        {
+          "path": "knowledge/sources/nndc-2005-67ga-selected-level-gamma-records.md",
+          "locator": "N67-8"
+        },
+        {
+          "path": "knowledge/sources/lange-kumar-hamilton-1982-multipole-admixtures.md",
+          "locator": "LKH82-1"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/methods/angular-distribution.md",
+      "anchor": "67Ga reference-purity与DCO的实际字段补核",
+      "summary": "以δ有限quotederror补reference purity readiness，保留固定δ0物理凸包和trueCov边界；DCO/gate条件不省略。",
+      "sources": [
+        {
+          "path": "knowledge/sources/nndc-2005-67ga-selected-level-gamma-records.md",
+          "locator": "N67-2"
+        },
+        {
+          "path": "knowledge/sources/nndc-2005-67ga-selected-level-gamma-records.md",
+          "locator": "N67-3"
+        },
+        {
+          "path": "knowledge/sources/nndc-2005-67ga-selected-level-gamma-records.md",
+          "locator": "N67-7"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/index.md",
+      "anchor": "nndc-2005-67ga-selected-level-gamma-records",
+      "summary": "新增67Ga在线objects/source-field-audit导航。",
+      "sources": [
+        {
+          "path": "knowledge/sources/nndc-2005-67ga-selected-level-gamma-records.md",
+          "locator": "N67-1"
+        }
+      ]
     }
   ]
 }
@@ -900,6 +1008,16 @@ Z80-17一行同parent数据核c/sign打印舍入，Z80-18/[[zobel-1983-energy-pr
 
 停止该获取路线，仍缺primary中的δ/purity误差、采集/response细节，这些输入限制正布居检验与数据独立性。最高信息续路为NNDC 67Ga公开evaluated/reaction字段核验，source dependency与unknownCov继续保留，不能凭评价对象给实验新学分或假定独立。正文学习与正式卡均未因此重复计分，run仍active。
 
+### 67Ga公开objects：source/τ/RI/δ/B的实量核验
+
+[总体primed回忆](20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/nndc67-before-source-recall.md)先于NNDC查询冻结，按FLAG O/Q再[补读预测](20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/nndc67-ri-source-before-recall.md)。取得4个sha-verifiedobjects：ADOPTED、Fe12C、alpha/16O、Ni58；后三者全文、adoptedglobal与selectedL/G已核，不宣称读92页masschainpaper。Canonical[[nndc-2005-67ga-selected-level-gamma-records]] N67-1–8保存versions/currentupdates、exactrecords、refs与4组hash。
+
+N67-2/3的958为E2(+M3)、δ−0.00(1)，finite .01与alpha1978Al32依赖保留；Fe M/MR fromadopted不是另一测量。N67-5 parent4.5(4)ps为T1/2→mean6.492ps；两个feedersmean230.831/15.870ps不能借给此γ。N67-4的Fe58.2归一359+1202，与parent100(9)/weak.2(1)不同；空白M/CC不补0。
+
+[38-check](20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/nndc67-strength-crosswalk.json)按[[lange-kumar-hamilton-1982-multipole-admixtures]] LKH82-1与既有现代SIrate conversion，在zeroIC/complete2γ/δ0的declaredcontrol算B(E2)=9.61853WU，与source BE2W9.6(9)printing相容；不是新strength测量或actualevaluatorcode重放。模型/unknownCov/half-life失败控制、weakICC敏感性已写[[level-scheme-reconstruction]]“67Ga：跨对象的parent与强度输入核验”。
+
+反证N67-7：actualNi对象给958E2与554E1同DCO1.45(7)，sameparent871E1则.77(3)，exactgates/reference/geometry缺，ratio不能单独赋E2；N67-8保持2862的未分1343/1353和π conflict的compiler可能解释。决定supports逐field来源，revises exactδ0/错误RI分母/借feederτ，limits B或DCO作mode唯一解释。L3data-object exercise完成，实验L4因原angular/events/response/GF/Cov/完整branch缺仍not-ready；正式21/24不变，Day15无学分。
+
 ## Open questions and belief revision
 
 1. 哪个旁路、time/tag或独立spin anchor能裁决393/394的顺序？重复同一能量和不能裁决。
@@ -913,10 +1031,10 @@ Z80-17一行同parent数据核c/sign打印舍入，Z80-18/[[zobel-1983-energy-pr
 
 ## L0–L4 state
 
-- L0：anchor原文20页主线、Figure2/Table I及表注、校准/isomer/SD已正式复核；另Zobel1983六页主线/图表/公式/统计边界视觉核验。
-- L1/L2：source/method/matrix互链、35项有条件表格/反例练习、六维周考和认识修正已固化。
-- L3：line identity/ordering的有界判别问题active；当前最高信息路线是conditional gate与branch/time设计，不把counterfactual当实验。
-- L4：真实event-level重分析not-ready；缺事件、response、joint covariance、执行sorter/门接受度及相关parent τ/δ。其缺失不终止其它有价值学习路线。
+- L0：Herzáň20页主线/图表已正式复核，Zobel1983六页与1980九页完成；另取得67Ga四个publicENSDF对象，selectedrecords/完整三reactionobjects核验，不宣称读取wholemasschainpaper或原1978/79/99全文。
+- L1/L2：source/method/matrix、原35检查与后续条件gate/POL/jointγγ/Cov/kinematic-hull均固化；正式六维21/24与weeklyREFLECT保持。
+- L3：67Ga38-check actualdata-object/source-field/parent/RI/finiteMR与conditionalstrength核验完成；actual ICC和DCO gate/geometry仍是下一高信息inputroute。193Bi lineidentity/order/branch/time问题保留，无新mode裁决。
+- L4：真实event-level重分析not-ready。67Ga已有评价τ/δ，仍缺原angular/event、response、GF/jointCov、完整ICC/branch/stopping/feeding包；193Bi仍缺目标parentτ/δ/actualgates。继续最高价值可执行数据/理论路线，不把模型重算当实验。
 
 ## Verification and continuation
 
@@ -995,3 +1113,10 @@ Ref5原9页与23-check Appendix均完成；report/card/writeback valid（23items
 40项rational hull/LP/全source行/未知Cov控制通过；report/card/writeback valid（25items/13changedpages），AST/保护哈希/raw metadata/继承review/diff通过。wiki_lint --fail-on error exit0，0errors/129warnings（107citation-key、19raw槽、3reactionparser）；Z80-20实际parsedtrue。图source/glyph/collision全部exit0，最终0FAIL/0WARN且PNG视觉通过；四项源码WARN按Wiki尺寸、PNG预览和constantlog解释，初clip/标注碰撞修复有QA记录。
 
 本批稳定指针 main / `Bound DAY14 positive-population moments`，exacthash/实际H3仅receipt；恢复见[checkpoint010](20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/checkpoint-010.md)。1979获取分支停止、输入边界已canonical；下一公开NNDC67Ga评价/反应字段查验已冻结primed回忆，search200不代表读取objects或新独立实验。研究继续，正式21/24、Day14/partial15保持。
+
+
+### Checkpoint011 实量检查与持续研究
+
+38-check actualENSDF/source-field/unit/parent/RI/missingCC/finiteMR与DCO反例全部通过；report/card/writeback valid（29items/14changedpages），AST/保护哈希/raw metadata/原review/diff通过。首wiki_lint exit1因新source共用genericNNDCcanonicalURL及缺requiredheading；改actualobjectID/heading后exit0，0errors/130warnings（107citation-key、20rawslots、3reactionparser），8新N67claims全部parsedtrue。rawslot明示未填，未动raw/credentials。
+
+恢复[checkpoint011](20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/checkpoint-011.md)。稳定指针 main / `Audit DAY14 real ENSDF lifetime and branching inputs`；精确hash/actualH3只receipt。Currentpool仍有usefulweakICC/branch与DCOdefinition路线，researchactive；下一boundedatomicresponse或1999primary只补同一问题，不开新card、不计Day15、不改变21/24。

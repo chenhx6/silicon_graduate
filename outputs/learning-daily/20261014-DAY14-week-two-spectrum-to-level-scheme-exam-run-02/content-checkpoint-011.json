@@ -1,0 +1,97 @@
+{
+  "report": {
+    "valid": true,
+    "missing_headings": []
+  },
+  "coverage": {
+    "valid": true,
+    "completed_day_indices": [
+      14
+    ],
+    "partial_day_indices": [
+      15
+    ],
+    "curriculum_cards_completed": 1,
+    "next_day_index": 15,
+    "error": null
+  },
+  "writeback": {
+    "valid": true,
+    "mode": "updated",
+    "knowledge_paths": [
+      "knowledge/sources/herzan-2015-193bi-spectroscopy.md",
+      "knowledge/methods/level-scheme-reconstruction.md",
+      "knowledge/projects/a130-thesis-evidence-matrix.md",
+      "knowledge/sources/nndc-2017-193bi-level-scheme-evaluation.md",
+      "knowledge/index.md",
+      "knowledge/methods/linear-polarization-asymmetry.md",
+      "knowledge/sources/rose-brink-1967-phase-defined-angular-distributions.md",
+      "knowledge/sources/zheng-2002-ado-coincidence-angular-anisotropy.md",
+      "knowledge/methods/angular-distribution.md",
+      "knowledge/methods/angular-correlation.md",
+      "knowledge/sources/zobel-1983-energy-projectile-alignment.md",
+      "knowledge/observables/angular-distribution-coefficient.md",
+      "knowledge/sources/zobel-1980-magnetic-substate-distributions.md",
+      "knowledge/sources/nndc-2005-67ga-selected-level-gamma-records.md",
+      "knowledge/sources/lange-kumar-hamilton-1982-multipole-admixtures.md"
+    ],
+    "changed_paths": [
+      "knowledge/index.md",
+      "knowledge/methods/angular-correlation.md",
+      "knowledge/methods/angular-distribution.md",
+      "knowledge/methods/level-scheme-reconstruction.md",
+      "knowledge/methods/linear-polarization-asymmetry.md",
+      "knowledge/observables/angular-distribution-coefficient.md",
+      "knowledge/projects/a130-thesis-evidence-matrix.md",
+      "knowledge/sources/herzan-2015-193bi-spectroscopy.md",
+      "knowledge/sources/nndc-2005-67ga-selected-level-gamma-records.md",
+      "knowledge/sources/nndc-2017-193bi-level-scheme-evaluation.md",
+      "knowledge/sources/rose-brink-1967-phase-defined-angular-distributions.md",
+      "knowledge/sources/zheng-2002-ado-coincidence-angular-anisotropy.md",
+      "knowledge/sources/zobel-1980-magnetic-substate-distributions.md",
+      "knowledge/sources/zobel-1983-energy-projectile-alignment.md"
+    ],
+    "change_check": "run-snapshot",
+    "error": null
+  },
+  "ast": true,
+  "analysis_checks": 38,
+  "analysis_checks_all_true": true,
+  "analysis_exit_code": 0,
+  "protected_hashes": {
+    "PLAN.md": true,
+    "raw/zotero/wiki-inbox.bib": true
+  },
+  "raw_metadata_unchanged": true,
+  "inherited_review_flags_preserved": true,
+  "new_claims_needs_review_true": true,
+  "git_diff_check_exit_code": 0,
+  "lint_exit_code": 0,
+  "lint_errors": 0,
+  "lint_warnings": 130,
+  "warning_breakdown": {
+    "REACTION_PARSE": 3,
+    "CITATION_KEY_MISSING": 107,
+    "RAW_MISSING": 20
+  },
+  "new_parsed_claims": [
+    "N67-1",
+    "N67-2",
+    "N67-3",
+    "N67-4",
+    "N67-5",
+    "N67-6",
+    "N67-7",
+    "N67-8"
+  ],
+  "initial_lint_exit_code": 1,
+  "initial_lint_errors": [
+    "SOURCE_DUPLICATE genericNNDCURL",
+    "SECTION_REQUIRED competinginterpretationsheading"
+  ],
+  "repair": "unique actualdataset object identifier and required heading; raw/review unchanged",
+  "summary_lines": [
+    "GOVERNANCE page_unreviewed=517 source_unreviewed=241 claims=2480 claim_needs_review=1806 claim_missing_locator=0 claim_missing_kind=0 source_missing_raw_file=0 source_missing_citation_key=107",
+    "SUMMARY pages=595 wikilinks=5858 hashes=281 errors=0 warnings=130 info=1806"
+  ]
+}
