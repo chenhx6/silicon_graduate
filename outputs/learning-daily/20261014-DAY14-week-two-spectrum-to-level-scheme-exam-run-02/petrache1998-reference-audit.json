@@ -1,0 +1,188 @@
+{
+  "source": {
+    "doi": "10.1103/PhysRevC.57.R10",
+    "sha256": "9d2297ed085012d2f8633a5faecfa7020cbca96ac06cf2eb5e88d97a24b90e5f",
+    "locator": "printed R12 TableI / PDF3"
+  },
+  "table_rows": [
+    {
+      "id": 1,
+      "band_id": "134Nd:yrastHD",
+      "fit_role": "current_band_constant_fit",
+      "Q0_exp_eb": "6.8(3)",
+      "Qsf_eb": "6(1)",
+      "beta2_axial": "0.35(1)",
+      "Q0_the_eb": "7.4 (I19) ->5.9 (I39)",
+      "model_role": "reported_spin_dependent_model"
+    },
+    {
+      "id": 2,
+      "band_id": "134Nd:excitedHD",
+      "fit_role": "current_band_constant_fit",
+      "Q0_exp_eb": "6.4(4)",
+      "Qsf_eb": "6(1)",
+      "beta2_axial": "0.33(2)",
+      "Q0_the_eb": "6.9 (I18) ->6.4 (I40)",
+      "model_role": "reported_spin_dependent_model"
+    },
+    {
+      "id": 3,
+      "band_id": "134Nd:Band3",
+      "fit_role": "split_fit_lower",
+      "Q0_exp_eb": "4.9(3)",
+      "Qsf_eb": "2.5(5)",
+      "beta2_axial": "0.26(2)",
+      "Q0_the_eb": "4.8 (I18) ->6.1 (I26)",
+      "model_role": "reported_spin_dependent_model"
+    },
+    {
+      "id": 4,
+      "band_id": "134Nd:Band3",
+      "fit_role": "split_fit_upper_approximate",
+      "Q0_exp_eb": "~6.5",
+      "Qsf_eb": "~6",
+      "beta2_axial": "~0.34",
+      "Q0_the_eb": "6.07^a (I32 ->40)",
+      "model_role": "footnote_a_half_polarization_estimate_not_computed_configuration"
+    },
+    {
+      "id": 5,
+      "band_id": "134Nd:Band3",
+      "fit_role": "alternative_whole_band_single_fit",
+      "Q0_exp_eb": "5.0(3)",
+      "Qsf_eb": "4(1)",
+      "beta2_axial": "0.26(2)",
+      "Q0_the_eb": null,
+      "model_role": "not_given"
+    },
+    {
+      "id": 6,
+      "band_id": "135Nd:HD",
+      "fit_role": "current_band_constant_fit",
+      "Q0_exp_eb": "7.3(10)",
+      "Qsf_eb": "3.0(5)",
+      "beta2_axial": "0.37(5)",
+      "Q0_the_eb": "6.4 (I24.5) ->5.5 (I38.5)",
+      "model_role": "reported_spin_dependent_model"
+    },
+    {
+      "id": 7,
+      "band_id": "131Ce:yrastHD",
+      "fit_role": "current_band_constant_fit",
+      "Q0_exp_eb": "7.3(4)",
+      "Qsf_eb": "6(1)",
+      "beta2_axial": "0.38(2)",
+      "Q0_the_eb": "7.5 (I20.5) ->6.7 (I40.5)",
+      "model_role": "reported_spin_dependent_model"
+    },
+    {
+      "id": 8,
+      "band_id": "132Ce:yrastHD",
+      "fit_role": "external_reference6_not_current_measurement",
+      "Q0_exp_eb": "7.4(3)",
+      "Qsf_eb": null,
+      "beta2_axial": "0.38(2)",
+      "Q0_the_eb": "8.0 (I24) ->6.6 (I52)",
+      "model_role": "reported_spin_dependent_model"
+    }
+  ],
+  "source_counts": {
+    "table_rows": 8,
+    "current_physical_bands": 5,
+    "external_bands": 1,
+    "figure_panels": 6,
+    "new_independent_measurements_in_this_run": 0
+  },
+  "footnote_a": {
+    "lower_average_exact": "109/20",
+    "two_intruder_input": "669/100",
+    "assumed_fraction": "1/2",
+    "estimated_Q0_eb": 6.07,
+    "sensitivity_dQ0_dfraction_eb": 1.24,
+    "role": "author conditional estimate; no calculated one-intruder configuration or assigned sigma"
+  },
+  "channel_velocity": {
+    "beta_Nd": 0.0202,
+    "beta_Ce": 0.0192,
+    "Ce_F_scale_if_wrong_Nd_beta": 0.9504950495049505,
+    "relative_F_percent_change": -4.950495049504955,
+    "actual_Q0_or_tau_bias": null,
+    "first_order_angles": [
+      {
+        "angle_deg": 36,
+        "delta_E_per_MeV_keV_if_F1": 0.8090169943749481
+      },
+      {
+        "angle_deg": 60,
+        "delta_E_per_MeV_keV_if_F1": 0.5000000000000006
+      },
+      {
+        "angle_deg": 72,
+        "delta_E_per_MeV_keV_if_F1": 0.30901699437494773
+      },
+      {
+        "angle_deg": 90,
+        "delta_E_per_MeV_keV_if_F1": 6.123233995736772e-17
+      },
+      {
+        "angle_deg": 108,
+        "delta_E_per_MeV_keV_if_F1": -0.3090169943749476
+      },
+      {
+        "angle_deg": 120,
+        "delta_E_per_MeV_keV_if_F1": -0.5000000000000002
+      },
+      {
+        "angle_deg": 144,
+        "delta_E_per_MeV_keV_if_F1": -0.809016994374948
+      }
+    ]
+  },
+  "chosen_top_normalization_control": {
+    "chosen_true_Ftop": 0.9,
+    "chosen_true_other_F": 0.45,
+    "beta_hat_over_beta": 0.9,
+    "F_other_after_forcing_top_one": 0.5,
+    "scope": "declared definition control; no source Ftop or measured beta uncertainty"
+  },
+  "source_reference": {
+    "Petrache_original_Ce131_Q0_eb": "7.3(4)",
+    "Clark1996_quoted_Ce131_Q0_eb": "7.4(3)",
+    "Matev2007_reference39": "Clark PRL76,3510(1996), not Petrache1998",
+    "Clark_original_body_read": false
+  },
+  "literal_conflicts": {
+    "135Nd_Qsf_table": "3.0(5)",
+    "135Nd_Qsf_prose": "4.0(5)",
+    "134Nd_same_sidefeeding_Qsf_prose": 6,
+    "134Nd_Band3_table_split_lower": 2.5,
+    "134Nd_Band3_table_whole": 4,
+    "conflict_resolution": null
+  },
+  "missing_inputs": [
+    "raw gated centroids and common covariance",
+    "actual slowing/feeding inputs and likelihood",
+    "explicit band/transition and Q0-to-Qt geometry manifest",
+    "Clark original acquisition/band crosswalk"
+  ],
+  "checks": {
+    "original_hash_matches_existing_source": true,
+    "eight_source_rows_five_current_physical_bands": true,
+    "one_Band3_has_three_alternative_or_segment_rows": true,
+    "six_panels_five_bands_not_six_independent_samples": true,
+    "external_Ce132_not_reassigned_to_current_data": true,
+    "unreported_cells_preserved": true,
+    "footnote_lower_average_exact": true,
+    "footnote_6p07_is_exact_conditional_midpoint": true,
+    "estimated_row_not_direct_computed_configuration": true,
+    "prose_table_feeding_conflict_not_resolved": true,
+    "borrowing_Nd_velocity_lowers_Ce_F": true,
+    "F_rescaling_exact_in_stated_definition": true,
+    "forcing_observed_top_to_one_biases_beta": true,
+    "first_order_angle_checks": true,
+    "nominal_channels_balance_not_measured_purity": true,
+    "no_unavailable_tau_or_covariance_inferred": true
+  },
+  "check_count": 16,
+  "passed": true
+}

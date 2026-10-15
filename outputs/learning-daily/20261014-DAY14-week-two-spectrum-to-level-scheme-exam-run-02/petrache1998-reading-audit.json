@@ -1,0 +1,40 @@
+{
+  "at": "2026-10-15T22:21:42.478411+08:00",
+  "pages_read": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "figures_read": [
+    "Fig1",
+    "Fig2"
+  ],
+  "tables_read": [
+    "TableI and footnotes a/b"
+  ],
+  "visual_pages": [
+    2,
+    3,
+    4
+  ],
+  "raw_unchanged": true,
+  "source_hash": "9d2297ed085012d2f8633a5faecfa7020cbca96ac06cf2eb5e88d97a24b90e5f",
+  "reading_mode": "fullmainline on-touch, primed by existingsource and upstreamquotes",
+  "new_source_claims": [
+    "PE98-14",
+    "PE98-15",
+    "PE98-16",
+    "PE98-17",
+    "PE98-18",
+    "PE98-19"
+  ],
+  "not_available": [
+    "rawcentroids/Σ/chi2grid",
+    "transition-lifetime/geometry manifest",
+    "Clark original fulltext",
+    "Laird2002 final fulltext"
+  ],
+  "model_estimate_vs_calculation": "6.07 eb from TableI footnote a, not calculated positiveparity oneintruder config; no sigma assigned"
+}

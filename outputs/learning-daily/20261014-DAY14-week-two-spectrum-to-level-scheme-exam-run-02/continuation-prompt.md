@@ -1,13 +1,13 @@
-# DAY14 同session继续：原始寿命reference
+# DAY14同session继续：Day15无学分feeding伴随预习
 
-先读run.json；若completed仅交付，不重开研究。Run2026-10-14-day-14-02 / session01a13a0e-e8bd-7251-b970-f6975679e281。用户断网延期，研究截止2026-10-16 15:00上海，最终delivery16:00；旧10月15日截止和16–17缓冲均被覆盖。原生goal/run active；不新建session/goal/daemon。Resume `codex resume 01a13a0e-e8bd-7251-b970-f6975679e281 -C /workspace/wiki -s danger-full-access -a never`。
+先run.json；若completed仅交付、不重开研究。Run2026-10-14-day-14-02 / session01a13a0e-e8bd-7251-b970-f6975679e281；用户断网延期研究2026-10-16 15:00上海止、16:00最终交付，旧10月15日截止与16–17buffer均覆盖。Goal/run active，不新建session/goal/daemon。Resume `codex resume 01a13a0e-e8bd-7251-b970-f6975679e281 -C /workspace/wiki -s danger-full-access -a never`。
 
-Formal14已完成primed recall、Herzáň20页一图一表、五level七边35checks、判据矩阵、六维21/24、weeklyREFLECT。completed14/partial15；Day15无学分，official next14/count13待最终收束只计14，不开Day16。
+Formal14 primed回忆/Herzáň20页/五level七边35checks/判据矩阵/六维21/24/weeklyREFLECT完成。completed14/partial15，officialnext14/count13等最终一次只计14；Day15正式卡只在其自身run给学分，不开Day16。
 
-最新checkpoint029：Riley2001作者原报告13页/3fig/2table已读，33row typed table canonical；27controls过但非原始FITFTAU/τ/Σ重跑。五b gate与135Sm c feeding分开、限值不当点、body15–20%和caption10–15%范围不同、unknowncoverage/Σ、figure/table variants与外源Ce/Sm均保留。Q22负号归一核原图，Qt形式与Matv相容但actualcodeframe未认证。104items35changedpages，lint0errors141warnings、oldreview/rows（DSAM定义/type与Qt旧未读句intentional更新）/raw/protected/AST/report/card/writeback/diff通过。
+最新checkpoint030：Petrache1998原5页/2fig/1table已核，16controls过；8rows/5currentbands+外源Ce132，Band3 split/single替代和6panel重画不独立。6.07为未算出one-i13正宇称组态的half-contribution估计，非实际计算；Qsf范围冲突保持。Nd/Ce通道β .0202/.0192不可共借，F定义敏感×.950495不生成实测τ偏差；topF<1有原文unseenhigher/feeding，不强制1。原7.3(4)与引用Clark7.4(3)分开，MatvRef39是Clark；Clark只核metadata，OA0/Scholarerror/OSTI两个verifiedTLSclient失败/OpenAlexclosed，不造fullread或新实验。
 
-前28批Giteepublished；本批main / `Audit DAY14 primary global lifetime analysis and Qt table roles`，actualH3/hash/push只publication-029.json。先核receipt确保发布状态，不把此描述当已执行push。
+108items36changedknowledgepages、六PE98+MT07-20 true、oldrows/review/raw/protected/AST/report/card/writeback/diff保持，freshlint0errors141warnings（112citekey/26rawslot/3parser）。前29批published，本批main / `Audit DAY14 original quadrupole reference and channel normalization`，actualH3/hash/push只publication-030.json；先核receipt确认状态。
 
-下一ce131-reference-before-source.md已保存，Petrache1998 source正文与原PDF尚未本轮打开。先核已有source/原件身份，沿全文主线读原测量、Q0/Qt/geometry、gate/feeding/error和datasetlineage，再判断是否可复核一个真实τ/B/矩换算。不要预先填7.4(3)或将理论core当实测baseline；1998不是Laird2002最终稿。193Bi static/time/recoil已局部饱和，actualresponse/τ/events缺，不再同toy换数。Pr1996primary/actualframe/RHBinputs/Σ与Lairdfinal仍缺；不用重复失败的相同获取请求。
+下一day15-feeding-before-source.md已freeze。刚重查Day14/15卡，Day15规定alignment/feeding/finitegeometry/gate反证；已有计算单/误差图仍仅preview。下一必要原始companion为`knowledge/sources/ionescu-1981-improved-angular-distribution-analysis-particle-xn.md`：本轮source正文/PDF未开，只有方法页小节priming。先读已有source/核raw身份，沿全文mainline/关键fig/table/公式/uncertainty看pureE2校准globalGaussian失败的实际范围、direct/sidefeeding角色与δ误差。足够真实输入才复核原表/方法设计；不再用同toy换参数。不可填193Bi顺序或Pr136新机制，不将source假设当实验事实。
 
-每个问题饱和前刷新actualclock和候选池；>=120min继续有信息增益当前路线或恰好Day15无信用preview，<90min不新source/card，15:00研究止，15–16关闭检查/知识写回/state/H3。只实际ACK clock001/002/005/008，不造提醒。旧farmer/clock未live且未重启。Preserve继承Day6–9/Day13/log/daemon/raw/PLAN/Bib/credentials/review；显式manifest stage和H3非force push，不整文件stage混合log。
+当前193Bi actualresponse/τ/events，Prframe/RHBinput/1996primary，Laird2002final仍missing；不原样重复已失败获取或搞新卡。每问题饱和先clock/pool重建：>=120min继续有信息增益当前或恰好Day15preview，<90min不新source/card，15:00研究止、15–16closeout/state/H3。Clock001/002/005/008实际ACK，旧farmer/clocknotlive未重启。Preserve继承Day6–9/Day13/log/daemon/raw/PLAN/Bib/credentials/review；explicitmanifeststage/H3非force发布。

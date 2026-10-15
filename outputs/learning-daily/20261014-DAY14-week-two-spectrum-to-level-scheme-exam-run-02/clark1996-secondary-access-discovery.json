@@ -1,0 +1,103 @@
+{
+  "osti": {
+    "url": "https://www.osti.gov/api/v1/records?doi=10.1103%2FPhysRevLett.76.3510",
+    "error": "SSLError"
+  },
+  "openalex": {
+    "url": "https://api.openalex.org/works/https://doi.org/10.1103/PhysRevLett.76.3510",
+    "status": 200,
+    "metadata": {
+      "id": "https://openalex.org/W2051613963",
+      "title": "Relative Deformations of Superdeformed Bands in 131,132Ce",
+      "doi": "https://doi.org/10.1103/physrevlett.76.3510",
+      "open_access": {
+        "is_oa": false,
+        "oa_status": "closed",
+        "oa_url": null,
+        "any_repository_has_fulltext": false
+      },
+      "locations": [
+        {
+          "id": "doi:10.1103/physrevlett.76.3510",
+          "doi": "https://doi.org/10.1103/physrevlett.76.3510",
+          "is_oa": false,
+          "landing_page_url": "https://doi.org/10.1103/physrevlett.76.3510",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S24807848",
+            "display_name": "Physical Review Letters",
+            "issn_l": "0031-9007",
+            "issn": [
+              "0031-9007",
+              "1079-7114",
+              "1092-0145"
+            ],
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": true,
+            "listed_in": [
+              "anvur-scientific",
+              "cwts-core",
+              "dongbi-a",
+              "jufo-3",
+              "ki-jl-2",
+              "medline",
+              "norway-2",
+              "poland-200",
+              "russia-white-list-1",
+              "vabb-shw"
+            ],
+            "host_organization": "https://openalex.org/P4310320261",
+            "host_organization_name": "American Physical Society",
+            "host_organization_lineage": [
+              "https://openalex.org/P4310320261"
+            ],
+            "host_organization_lineage_names": [
+              "American Physical Society"
+            ],
+            "type": "journal"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": "Physical Review Letters",
+          "raw_type": "journal-article"
+        },
+        {
+          "id": "pmid:10060986",
+          "doi": null,
+          "is_oa": false,
+          "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/10060986",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S4306525036",
+            "display_name": "PubMed",
+            "issn_l": null,
+            "issn": null,
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": false,
+            "listed_in": [],
+            "host_organization": "https://openalex.org/I1299303238",
+            "host_organization_name": "National Institutes of Health",
+            "host_organization_lineage": [
+              "https://openalex.org/I1299303238"
+            ],
+            "host_organization_lineage_names": [],
+            "type": "repository"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": "Physical review letters",
+          "raw_type": "Journal Article"
+        }
+      ],
+      "best_oa_location": null
+    }
+  }
+}

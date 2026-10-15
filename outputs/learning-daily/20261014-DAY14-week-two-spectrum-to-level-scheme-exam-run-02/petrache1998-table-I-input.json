@@ -1,0 +1,142 @@
+{
+  "source_doi": "10.1103/PhysRevC.57.R10",
+  "source_sha256": "9d2297ed085012d2f8633a5faecfa7020cbca96ac06cf2eb5e88d97a24b90e5f",
+  "locator": "printed R12 TableI / PDF3",
+  "source_transcription": "manually checked from original PDF rendering; a/b footnotes retained; no harmonization",
+  "rows": [
+    {
+      "id": 1,
+      "band_id": "134Nd:yrastHD",
+      "fit_role": "current_band_constant_fit",
+      "Q0_exp_eb": "6.8(3)",
+      "Qsf_eb": "6(1)",
+      "beta2_axial": "0.35(1)",
+      "Q0_the_eb": "7.4 (I19) ->5.9 (I39)",
+      "model_role": "reported_spin_dependent_model"
+    },
+    {
+      "id": 2,
+      "band_id": "134Nd:excitedHD",
+      "fit_role": "current_band_constant_fit",
+      "Q0_exp_eb": "6.4(4)",
+      "Qsf_eb": "6(1)",
+      "beta2_axial": "0.33(2)",
+      "Q0_the_eb": "6.9 (I18) ->6.4 (I40)",
+      "model_role": "reported_spin_dependent_model"
+    },
+    {
+      "id": 3,
+      "band_id": "134Nd:Band3",
+      "fit_role": "split_fit_lower",
+      "Q0_exp_eb": "4.9(3)",
+      "Qsf_eb": "2.5(5)",
+      "beta2_axial": "0.26(2)",
+      "Q0_the_eb": "4.8 (I18) ->6.1 (I26)",
+      "model_role": "reported_spin_dependent_model"
+    },
+    {
+      "id": 4,
+      "band_id": "134Nd:Band3",
+      "fit_role": "split_fit_upper_approximate",
+      "Q0_exp_eb": "~6.5",
+      "Qsf_eb": "~6",
+      "beta2_axial": "~0.34",
+      "Q0_the_eb": "6.07^a (I32 ->40)",
+      "model_role": "footnote_a_half_polarization_estimate_not_computed_configuration"
+    },
+    {
+      "id": 5,
+      "band_id": "134Nd:Band3",
+      "fit_role": "alternative_whole_band_single_fit",
+      "Q0_exp_eb": "5.0(3)",
+      "Qsf_eb": "4(1)",
+      "beta2_axial": "0.26(2)",
+      "Q0_the_eb": null,
+      "model_role": "not_given"
+    },
+    {
+      "id": 6,
+      "band_id": "135Nd:HD",
+      "fit_role": "current_band_constant_fit",
+      "Q0_exp_eb": "7.3(10)",
+      "Qsf_eb": "3.0(5)",
+      "beta2_axial": "0.37(5)",
+      "Q0_the_eb": "6.4 (I24.5) ->5.5 (I38.5)",
+      "model_role": "reported_spin_dependent_model"
+    },
+    {
+      "id": 7,
+      "band_id": "131Ce:yrastHD",
+      "fit_role": "current_band_constant_fit",
+      "Q0_exp_eb": "7.3(4)",
+      "Qsf_eb": "6(1)",
+      "beta2_axial": "0.38(2)",
+      "Q0_the_eb": "7.5 (I20.5) ->6.7 (I40.5)",
+      "model_role": "reported_spin_dependent_model"
+    },
+    {
+      "id": 8,
+      "band_id": "132Ce:yrastHD",
+      "fit_role": "external_reference6_not_current_measurement",
+      "Q0_exp_eb": "7.4(3)",
+      "Qsf_eb": null,
+      "beta2_axial": "0.38(2)",
+      "Q0_the_eb": "8.0 (I24) ->6.6 (I52)",
+      "model_role": "reported_spin_dependent_model"
+    }
+  ],
+  "footnote_a": {
+    "one_intruder_positive_parity_not_calculated": true,
+    "reported_lower_endpoints": [
+      4.8,
+      6.1
+    ],
+    "reported_lower_average": 5.45,
+    "reported_two_intruder_reference": 6.69,
+    "assumed_contribution_fraction": 0.5,
+    "estimated_result": 6.07
+  },
+  "footnote_b": "132Ce row imported from Ref6 ClarkPRL76,3510(1996)",
+  "figure2_panels": [
+    {
+      "band_id": "134Nd:yrastHD"
+    },
+    {
+      "band_id": "134Nd:Band3",
+      "fit": "split"
+    },
+    {
+      "band_id": "135Nd:HD"
+    },
+    {
+      "band_id": "134Nd:excitedHD"
+    },
+    {
+      "band_id": "134Nd:Band3",
+      "fit": "single"
+    },
+    {
+      "band_id": "131Ce:yrastHD"
+    }
+  ],
+  "velocity_source": {
+    "beta_Nd": 0.0202,
+    "beta_Ce_alpha3n_MC_corrected": 0.0192,
+    "quoted_uncertainty_each": 0.0002,
+    "actual_covariance": null,
+    "locator": "printed R11 velocity paragraphs"
+  },
+  "literal_conflicts": {
+    "135Nd_Qsf_table": "3.0(5)",
+    "135Nd_Qsf_prose": "4.0(5)",
+    "134Nd_same_sidefeeding_Qsf_prose": 6,
+    "134Nd_Band3_table_split_lower": 2.5,
+    "134Nd_Band3_table_whole": 4,
+    "conflict_resolution": null
+  },
+  "actual_state_lifetimes": null,
+  "chi2_grid": null,
+  "transition_identity_manifest": null,
+  "Q0_to_Qt_full_geometry": null,
+  "coverage_probabilities": null
+}

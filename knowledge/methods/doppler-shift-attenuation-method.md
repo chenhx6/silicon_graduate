@@ -63,6 +63,14 @@ FITFTAU以带内恒定Qt拟合F曲线；默认`Qt(sf)=Qt(band)`，不等于τ相
 
 进入真实L4需要逐ring/gate谱与centroid/calibration、事件交集和共同Σ、反应点/β′定义、靶厚与slowing histories、门污染/效率和feeding模型、E2/branch/geometry及FITFTAU版本/输入。现有表只能支持已发表参数的角色审计与条件敏感性；不能生成Pr136新τ、补原始CI或取代Laird2002最终版本。
 
+## 同束靶的通道速度与可见带顶归一
+
+[[petrache-1998-highly-deformed-lifetimes-131ce-nd]] PE98-16/17把粒子tag和v0输入放到实际证据链：GASP+ISIS的α veto/选择分开134Nd与131Ce近简并峰；Nd β0=.0202(2)，Ce α3n发射动量由MC修正为.0192(2)。共用束靶/backing不代表可以共用未经通道修正的速度，tag效率/污染仍需实际response。
+
+保持同Ce平均发射速度却误借Nd β，按F定义归一会乘.950495（约−4.9505%）；这是条件敏感性，不是证明原作者用错值或给出τ/Q0偏差。原文带顶可见F<1还受thin-target已知而当前厚靶未见的更高跃迁和慢侧馈影响，不能无条件以观测最高点强制F=1校速度。其β值来自明确计算/MC并以高线shift交叉检查，不是由Ftop必须等1得到。
+
+该文高门统计不够，最终对带内所有组合双门的sidefeeding effective intensity作选择修正，并用二维χ²拟合Q0/Qsf；缺实际grid/Σ不能复现误差或把单一/两段Q0的接受程度定量化。Band3表格alternative rows及Qsf文字范围歧义保留（PE98-5/6/11/18）。
+
 ## Sources
 
 - [[riley-2001-global-lifetime-a135]] RI01-1–9/14：centroid shift、恒定Qt、门选/feeding、systematics与L4边界。

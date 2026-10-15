@@ -1,0 +1,7 @@
+{
+  "url": "https://www.osti.gov/api/v1/records?doi=10.1103%2FPhysRevLett.76.3510",
+  "curl_exit_code": 35,
+  "http_status": "000",
+  "error": "curl: (35) OpenSSL SSL_connect: SSL_ERROR_SYSCALL in connection to www.osti.gov:443 \n",
+  "reason_for_bounded_different_client": "requests SSL failed; try system trust client with certificate verification retained; no disable/credential/config changes"
+}

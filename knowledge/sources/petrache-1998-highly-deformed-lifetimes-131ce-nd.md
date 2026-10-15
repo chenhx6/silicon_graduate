@@ -3,7 +3,7 @@ type: source
 title: "Lifetime measurements of highly deformed bands in 134,135Nd and 131Ce"
 aliases: [Petrache 1998 HD-band lifetimes, Petrache 1998 134Nd 135Nd 131Ce]
 created: 2026-07-28
-updated: 2026-08-11
+updated: 2026-10-15
 status: ai-draft
 review_status: unreviewed
 source_type: journal-article-experiment
@@ -93,6 +93,12 @@ C. M. Petrache 等，*Physical Review C* **57**, R10–R14 (1998)，DOI `10.1103
 | PE98-11 | 当前统计不足以测出每条 individual transition lifetime，因此模型预测的 spin-dependent shrinkage 不能由本实验直接确定；实验 `Q0` 是以 spin-independent constant 拟合 `F(τ)`。 | method-limitation | direct | PDF p. 4 / journal p. R13 | true |
 | PE98-12 | Table I 的 `β2` 均明确假设无三轴性；`Q0` 是更接近 DSAM 拟合的量，`β2` 不是 geometry-independent experimental observable。 | model-assisted-inference | direct | PDF p. 3 / journal p. R12; Table I caption | true |
 | PE98-13 | 全文不使用 nuclear-chirality interpretation，也未把这些 HD bands 映射到后来 `135Nd` chiral doublets 或 `131Ce` normal-deformed sequences。 | source-scope-fact | direct | full-paper scope; PDF pp. 1-5 | true |
+| PE98-14 | TableI脚注a说明未能计算只有一个i13/2中子的正宇称组态；Band3 upper的理论6.07eb按half-contribution假设估算：(4.8+6.1)/2+(6.69−5.45)/2。它不是该组态的直接计算值，也没有给该估算的理论σ。 | author-model-estimate-and-derived-check | direct-and-derived | printed R12 TableI footnote a / PDF3 | true |
+| PE98-15 | TableI八行对应本次五条物理带加Ref6外源132Ce；Band3 lower/upper与lower+upper是同带分段/替代fit。Fig2六panel重用Band3 data比较两种fit，不是六组独立样本。 | table-and-figure-role-audit | direct-and-derived | printed R11 Fig2; printed R12 TableI / PDF2–3 | true |
+| PE98-16 | 同束靶下Nd采用mid-target β0=.0202(2)，α3n的131Ce含α发射动量MC修正后为.0192(2)；ISISα veto/选择用来分开134Nd/131Ce近简并峰。共实验不代表可互换通道速度或tag purity已知。 | channel-identity-and-velocity-definition | direct-and-derived | printed R11 ISIS and recoil-velocity paragraphs / PDF2 | true |
+| PE98-17 | 可见带顶F不到1，作者说明拟合纳入了先前thin-target已知、当前thick-target未见的更高跃迁，其慢侧馈也使top F<1；不能无条件把可见最高点定为F=1校β。 | normalization-counter-evidence | direct-and-derived | printed R11 paragraph across columns / PDF2 | true |
+| PE98-18 | R12正文说三条134Nd带用相同Qsf=6eb；TableI的Band3 lower/whole却分别列2.5(5)/4(1)，fit范围未明不能将该概括套全部替代行。135Nd的Table3.0(5)/prose4.0(5)冲突另保留；不修原数值。 | literal-fit-scope-boundary | direct | printed R12 TableI and final paragraph; printed R13 first paragraph / PDF3–4 | true |
+| PE98-19 | 本文131Ce yrast HD原测Q0=7.3(4)eb，R13的7.4(3)明确转引Ref6 ClarkPRL76,3510(1996)；后者也对应Matev2007 Ref39，不能拿本次7.3替掉7.4原输入，或按转载次数计独立测量。 | primary-versus-quoted-reference-identity | direct-and-cross-source | printed R13 Ce paragraph; printed R14 Ref6 / PDF4–5 | true |
 
 ## Nuclear Structure Information
 
@@ -115,6 +121,45 @@ C. M. Petrache 等，*Physical Review C* **57**, R10–R14 (1998)，DOI `10.1103
 - stopping powers、unresolved feeding、constant `Q0/Q_sf` 与 reaction-kinematics correction 共同限制绝对值；相对比较更稳健但仍非无模型。
 - `β2` 依赖 axial mapping；作者对小 `Q_sf` 的 triaxial-quasicontinuum解释是间接推断。
 - 论文不研究 chirality。HD collectivity、shape coexistence feasibility 或邻核系统学均不能把本文的带自动改名为 chiral partners。
+
+## Day14定向重读：表角色、估算与速度归一
+
+原5页PDF及raw hash不改；本轮沿全部主线、Figs1/2、TableI/脚注、方法/模型/限制和references回读，关键PDF2/3/4视觉核。[DOI](https://doi.org/10.1103/PhysRevC.57.R10)的Crossref身份与刊头一致；这是on-touch补足，不新增一次实验或改旧needs_review。
+
+### 八个表行不等于八条新能带
+
+以下转录全部TableI（印刷R12/PDF3）。exp列为带参数fit，β2是no-triaxiality推断，the列为作者模型或脚注估算；不视为逐态τ/Qt。括号误差的共同Σ、覆盖定义未由本任务恢复。
+
+| 原行/对象 | fit角色 | Q0 exp / eb | Qsf / eb | β2 axial | Q0 the / eb及I范围 |
+| --- | --- | --- | --- | --- | --- |
+| 1 134Nd:yrastHD | current_band_constant_fit | 6.8(3) | 6(1) | 0.35(1) | 7.4 (I19) ->5.9 (I39) |
+| 2 134Nd:excitedHD | current_band_constant_fit | 6.4(4) | 6(1) | 0.33(2) | 6.9 (I18) ->6.4 (I40) |
+| 3 134Nd:Band3 | split_fit_lower | 4.9(3) | 2.5(5) | 0.26(2) | 4.8 (I18) ->6.1 (I26) |
+| 4 134Nd:Band3 | split_fit_upper_approximate | ~6.5 | ~6 | ~0.34 | 6.07^a (I32 ->40) |
+| 5 134Nd:Band3 | alternative_whole_band_single_fit | 5.0(3) | 4(1) | 0.26(2) | 未给 |
+| 6 135Nd:HD | current_band_constant_fit | 7.3(10) | 3.0(5) | 0.37(5) | 6.4 (I24.5) ->5.5 (I38.5) |
+| 7 131Ce:yrastHD | current_band_constant_fit | 7.3(4) | 6(1) | 0.38(2) | 7.5 (I20.5) ->6.7 (I40.5) |
+| 8 132Ce:yrastHD | external_reference6_not_current_measurement | 7.4(3) | 未给 | 0.38(2) | 8.0 (I24) ->6.6 (I52) |
+
+Band3两段与单一Q0均未被当前统计firm区分（PE98-5/11）。不能从两个不同fit的行数或Fig2的重复panel数增加样本量，也不能用spin-dependent Qthe的算术平均代替实际F响应拟合。
+
+### 6.07eb的原脚注估算
+
+PE98-14的原算式精确给`〈Q0L〉=(4.8+6.1)/2=5.45`、`Qestimate=5.45+0.5(6.69−5.45)=6.07 eb`。半贡献是作者假设；若将其记λ，条件式为`Qestimate=5.45+1.24λ`，并没有测得λ分布、理论σ或该one-intruder正宇称组态的直接解。不要据estimated6.07与实验upper~6.5接近，声称原计算/形变jump已唯一验证。实验upper20–30%也不是本任务可恢复的likelihood或明确CL。
+
+### 通道标签与F尺度
+
+名义28Si+110Pd→138Nd，4n/3n/α3n守恒分别给134Nd/135Nd/131Ce；它只验证必要预算，不定量tag purity/exit产额。PE98-16的α selection/veto为近简并峰提供独立通道身份。Nd的.0202和Ce的.0192具有不同的通道及反应运动学校正，不从132MeV束能单独复算该值。
+
+按原`F=〈vdecay〉/v0`定义，若保持同一Ce平均decay velocity却误借Nd速度，`Fborrow/Fown=.0192/.0202=.950495`，即归一值约低4.9505%；没有据此得到实测τ或Q0偏差。在first-order Doppler及F=1的条件benchmark，Δβ=.001对应36°方向每MeV .809017keV、144°反号、90°为零；不是本文某条line已测shift。若强令可见top F=1，则βhat/βtrue=Ftop；演示取Ftop=.9、另一点F=.45时会变为.5，均是声明控制，不冒充原图点（PE98-17）。
+
+实际centroid/calibration/共同Σ、靶/slowing/feeding、fit grid和transition/geometry manifest未提供，本任务不重建逐τ或把Q0无条件改名为triaxial Qt。原Qsf两处范围歧义保留（PE98-6/18）。
+
+### 7.4(3)原参考仍未直接读到
+
+Petrache本次131Ce值7.3(4)与所引Clark7.4(3)是不同角色（PE98-19）。Matev2007 Ref39确为Clark；后者题名/DOI核为*Relative Deformations of Superdeformed Bands in 131,132Ce*, PRL76,3510–3513(1996), DOI10.1103/PhysRevLett.76.3510。仅metadata、未核Clark全文/采集/gate/geometry与完整band crosswalk，故不新增Clark直接实验claim、不作独立加权。Riley2001重用Ce数据也不新增一次采集。
+
+[16项核查程序](../../system/scripts/day14_petrache1998_reference_audit.py)与[结果](../../outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/petrache1998-reference-audit.json)保存原表角色、精确脚注和速度尺度检查；不是原始χ²/FITFTAU重跑。
 
 ## Analytical Reconstruction
 
@@ -183,3 +228,7 @@ P0: none identified after the full-paper reconstruction.
 ## Non-source Notes and Follow-up
 
 Before using any `135Nd` lifetime in a chiral argument, identify the later chiral-band labels and prove whether they match this 1998 HD band. The common nucleus name and large `Q0` are not a band crosswalk.
+
+## Day14补读的self-audit
+
+PE98-14–19均needs_review true。原PE98-1–13/AR/triage保留；两个Qsf问题属于source/fit范围P1，未升级hard P0或自动用户待办。Clark公开取件未成，转引值不当原始测量；原始逐τ/Σ/geometry不足，明确限制使用。

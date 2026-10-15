@@ -8,13 +8,15 @@ updated: 2026-10-15
 
 ## Active handoff — DAY14 extended continuous study
 
-同run2026-10-14-day-14-02/session01a13a0e-e8bd-7251-b970-f6975679e281。用户断网延期：研究2026-10-16 15:00上海止、16:00最终交付。Goal/run active；formal14七边35checks、21/24、weeklyREFLECT完成，completed14/partial15；official next14/count13等最终一次计卡，不开Day16。
+同run2026-10-14-day-14-02/session01a13a0e-e8bd-7251-b970-f6975679e281，goal/run active。用户断网延期：研究2026-10-16 15:00上海止、16:00交付。Formal14七边35checks、21/24、weeklyREFLECT完，completed14/partial15、officialnext14/count13等最终一次计卡，不开Day16。
 
-第029批Riley2001全文13页/3fig/2table核完；33行typed Qt表、五b门/一c侧馈、恒定Qt/centroidDSAM、systematics作用范围、负号归一和外源谱系已canonical。27controls不是原实验refit，unknownΣ/coverage/图表绑定保留，不补Pr136 τ/γ。104items35changedpages、16新claims true，旧review/raw/protected/AST/report/card/writeback/diff保持；DSAM Purpose/type及Qt过时未读句intentional更新。Freshlint0errors141warnings（112citekey/26rawslot/3parser）。
+第030批Petrache1998原5页/2fig/TableI核完；8rows=5currentbands+外源，split/whole与重复panel不加权；6.07是half-contribution估计非one-i13正宇称直接解。通道βNd/Ce .0202/.0192、topF<1/未见高线与Qsf原冲突保留，F×.950495是条件归一非实测τ误差。Petrache原7.3(4)与Clark引用7.4(3)分开，MatvRef39为后者；Clark原文未得、不造新实验。
 
-前28批已Giteepublished；本批main / `Audit DAY14 primary global lifetime analysis and Qt table roles`，actualhash/H3/push只receipt。下一ce131-reference-before-source.md已freeze但source/PDF本轮未开：核Petrache1998实际reference、Q0/Qt/feeding/geometry/lineage，输入足才量化，不能替Laird2002最终全文。193Bi实际response/τ/events和Practualinput/frame/1996primary仍缺，不重复同toy。
+108items36changedpages、16controls/oldrows/review/raw/protected/AST/report/card/writeback/diff通过，freshlint0errors141warnings（112citekey/26rawslot/3parser），六PE98+MT07-20 true。前29批Gitee已published；本批main / `Audit DAY14 original quadrupole reference and channel normalization`，actualhash/H3/push只receipt。
 
-Resume `codex resume 01a13a0e-e8bd-7251-b970-f6975679e281 -C /workspace/wiki -s danger-full-access -a never`，先run.json/最新continuation/actualclock。Clock001/002/005/008实际ACK；旧farmer/clocknotlive未重启。Preserve继承dirty/log/daemon/raw/PLAN/Bib/review，explicitstage/H3非force发布。
+下一day15-feeding-before-source.md已freeze：Ionescu1981原pureE2/feeding-aware angular fit仅Day15无学分preview；source/PDF本轮未开，先核身份/全mainline与数据/误差再量化，不重复同toy。193Bi真实response/τ/events、Practualinput/frame/1996primary与Lairdfinal缺口不变。
+
+Resume `codex resume 01a13a0e-e8bd-7251-b970-f6975679e281 -C /workspace/wiki -s danger-full-access -a never`，先run.json/最新continuation/actualclock。Clock001/002/005/008实际ACK，旧farmer/clocknotlive未重启。Preserve继承dirty/log/daemon/raw/PLAN/Bib/review；explicitstage/H3非force发布。
 
 ## Previous active handoff — DAY13 continuous study reopened by user
 

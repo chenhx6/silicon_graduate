@@ -1,0 +1,16 @@
+{
+  "at": "2026-10-15T22:21:42.478411+08:00",
+  "doi": "10.1103/PhysRevLett.76.3510",
+  "identity_verified": "Crossref DOI/title/author/volume76issue19pages3510–3513year1996; metadata only",
+  "local_source_raw_match": false,
+  "downloader_route": "open-access --no-si; prior mainline-only batch choice retained",
+  "downloaded": 0,
+  "status": "oa_not_found",
+  "reject_unconditional_OA_label": "oaAssessment confirmed_oa not accepted: unpaywall is_oa false and APS default license is not an OA license",
+  "google_scholar": "tool timeout/error; not scientific evidence",
+  "openalex": "closed/no repository PDF returned",
+  "osti": "SSLError; did not disable verification or infer absence",
+  "fulltext_read": false,
+  "science_boundary": "7.4(3) remains directreported quotation in other verified papers, not original Clark verification; no new experiment",
+  "osti_verified_system_client": "curl exit35 HTTP000 SSL_ERROR_SYSCALL; verification retained; two client routes failed, no absence claim"
+}

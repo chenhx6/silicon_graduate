@@ -16,6 +16,7 @@ updated: 2026-10-15
 - session_id: `01a13a0e-e8bd-7251-b970-f6975679e281`
 - resume_command: `codex resume 01a13a0e-e8bd-7251-b970-f6975679e281 -C /workspace/wiki -s danger-full-access -a never`
 - overnight_until: `2026-10-16T16:00:00+08:00`；用户因断网明确延长至次日16:00最终交付；预留15:00–16:00收束，不延到17:00。原截止`2026-10-15T15:00:00+08:00`保留为历史。
+- planned_research_cutoff_at: `2026-10-16T15:00:00+08:00`；15:00–16:00仅closeout。
 - research_status: active-user-extended；15:37曾按原截止转closeout，15:45用户明确加时并恢复，当前截止2026-10-16 16:00上海。中间未观察时段不补造研究。
 - completed_day_indices: [14]
 - partial_day_indices: [15]
@@ -114,6 +115,14 @@ PT15-5是负/正γ对应中间/短轴的模型语境，PT15-6明确要求寿命�
 RI01-1–5（印刷2687/2690）直接核173MeV35Cl+105Pd、97HPGe+Microball、centroid-shift DSAM/FITFTAU与恒定Qt/侧馈/门选。RI01-6–8/14的p2690 TableI按角色保存完整33行。RI01-9/15（Fig2/3 captions、Refs21/24/32）区分同global acquisition与外源Ce131/132及Sm142；相似backing/分析不证明全图同采集。本报告的Ref21是Clark1996，不是Matev2007 Ref21=Laird2002；2001 invited talk不能自动替代2002最终稿。
 
 RI01-11（p2691 Eq3和紧接归一）回图核`Q22_code=−sqrt2 Q22_R`；文字提取漏负号。RI01-12（Fig3/TableII）7.75/7.57eb是理论core、183/105是计算配置，不是新实测Qt或band数。
+
+### 本地原件定向补读：Petrache1998
+
+[[petrache-1998-highly-deformed-lifetimes-131ce-nd]]，DOI[10.1103/PhysRevC.57.R10](https://doi.org/10.1103/PhysRevC.57.R10)，PRC57,R10–R14(1998)，citation key `petrache_1998_Lifetimemeasurements`。本地raw原5页SHA256 `9d2297ed085012d2f8633a5faecfa7020cbca96ac06cf2eb5e88d97a24b90e5f`与既有source一致，Crossref身份/刊头核合。沿5页全部主线与refs，视觉回核PDF2 Figs1/2、PDF3 TableI/脚注、PDF4模型/限制，见[reading audit](20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/petrache1998-reading-audit.json)；[读前回忆](20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/ce131-reference-before-source.md)和[量化前预测](20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/petrache1998-before-calculation.md)明确priming。这是已ingest实验的on-touch补核，未新增实验。
+
+PE98-14核TableI脚注6.07的估算角色，PE98-15分开八表行/五当前带/一外源，PE98-16/17核channelβ与可见top归一，PE98-18保留feeding文字范围，PE98-19核本次131Ce7.3(4)与转引Clark7.4(3)。Matev Ref39实际为ClarkPRL76,3510(1996)，Petrache不是7.4的原始出处。
+
+Clark精确metadata已核，但本地无source/raw，OA-only `nature-downloader --no-si`返回0下载/oa_not_found；工具的confirmed_oa标签与其Unpaywall false/APS default license不相容，未采纳为OA证明。Scholar工具timeout、OSTI SSL失败（未关闭验证）、OpenAlex closed/noPDF，见[取件边界](20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/clark1996-access-boundary.json)。尚未读Clark原文，不用metadata/snippet生成科学claim。
 
 ## Theory/analysis exercise
 
@@ -321,6 +330,14 @@ PT15-9将“J2不依赖绝对spin/Ex赋值”与必须核相邻线身份、ΔI�
 
 名义140Eu反应预算只排除142Sm为该融合蒸发产物，不能把“守恒可行”的Ce131/132自动算作本次测到。负号归一控制说明Riley/Matev的Qt形式相容，仍不认证其实际代码版本/Pr136frame。
 
+### 16-check：原始reference、估算与通道归一
+
+[原表typed输入](20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/petrache1998-table-I-input.json)及[程序](../../system/scripts/day14_petrache1998_reference_audit.py)/[结果](20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/petrache1998-reference-audit.json)有16项源身份/角色/精确算术和定义控制，实际exit0。TableI八行中Band3 split lower/upper与whole singlefit同属一带；Fig2六panel中同data的Band3重画，不能增加独立样本量。
+
+脚注a精确重算`(4.8+6.1)/2+(6.69−5.45)/2=6.07 eb`，是无法直接计算one-i13正宇称组态后的half-contribution估算；无该组态直接解、λ=.5置信分布或理论σ，不能据与upper~6.5相近认定唯一验证。
+
+原文Nd β=.0202与Ce α3n校正β=.0192不可互换；若同Ce平均发射速度误借Nd β，F乘.950495，约低4.9505%。first-order、F=1条件下36°的Δβ=.001给每MeV .809017keV（144°反号/90°零），不是实测某条line偏移。可见top F<1还有原文明确的未见更高跃迁与feeding；强制top=1会使βhat/βtrue=Ftop。演示Ftop=.9、另一F=.45时归一变.5，全部chosen控制，不是拟合原数据。
+
 ## Counter-evidence and missing companion observables
 
 HE15-9的实际未定双线是核心反例：energy sum、共享R/A和假设的ΔI=2均不足以裁决order。若一条线出现可独立定位的旁路或延迟顺序，应重审中间level；source仍保留括号Jπ与(E2)。HE15-5的quadruplet限制“一个峰是一条γ”的简化；干净622.4直接分支门与323.4级联门的299-keVcomponent差异可能迫使拆峰，但必须控制622/626门纯度、feeding、response和random。
@@ -364,6 +381,12 @@ v1的Eq14中项轴标、Eq31前131Cs与定义core131Ce、Fig4 caption132Sm与plo
 RI01-5正文称absolute Qt阻停加侧馈附加15–20%，TableI caption的10–15%仅阻停，relative accuracy约5–10%；来源没有formal coverage或共同Σ，不独立quadrature，也不无条件复述摘要“free”。门选敏感性、ND的配对/γ-soft解释和Fig1/TableI的quoted variants共同限制单值直推机制，但不让相对比较失去全部信息。
 
 RI01-10：133Pr3.4(3)/3.3(3)、134Pm3.9(3)/3.9(2)、135Sm6.4(5)/6.4(4)c先保留figure/table各自值，缺完整fit/gate身份不判typo；同中心3.5的133Nd还有多表行候选。真实L4仍缺逐ring/gate谱、centroid/calibration/事件交集/Σ、β′ producer、slowing/feeding histories、transition E2/branch/geometry和FITFTAU输入；不补逐态τ、Pr136实验γ或absoluteB。
+
+### 实测与估算仍缺的伴随输入
+
+Petrache的二维Q0/Qsf χ² grid、原centroid/共同Σ、完整transition/geometry和slowing/feeding未得；本轮不补逐τ、Q0到triaxial Qt或新的Pr136值。Band3一值/两段作者明确不能firm区分；135Nd Qsf的3.0(5)/4.0(5)、134Nd“same6”与不同fit表行的范围均保留。132Ce外源和Clark转引须逐采集处理，不据相同数值默认独立或同data。
+
+反证重点是作者未直接计算的组态仍有theory栏估算，以及统计不能选择的split/whole fit；必要伴随是原fit/grid、actual gating/response和原Clark几何/谱系，而不是增加转载次数。
 
 ## Knowledge Impact and Learning Decision
 
@@ -424,6 +447,10 @@ Decision: supports 明确charge/axis/operator/reference和数据来源，limits 
 ### Riley实验报告后的认识决定
 
 Decision: **supports** 共同实验条件下的相对Qt比较，**limits** 摘要无条件零systematics、把Qt表当逐transition寿命或所有双值可平均，**revises** 数据角色与外源谱系的读法。最新可复用增量同步source、Qt observable、DSAM方法、Matev上游谱系和index。Formal21/24、completed14/partial15与既有Pr解释不变，未新增独立实验计数。
+
+### 原始reference定向回读后的决定
+
+Decision: **revises** 将Petrache误作7.4原始出处或将八表行平铺为八带的读法，**limits** 把脚注估算当直接计算/显著形变jump，以及跨通道共用速度归一。**supports** 带身份、fit角色与响应输入一起进入证据矩阵。没有新实验计数/原始重拟合/Pr模式排序或formal成绩变化。
 
 ## Durable knowledge delta
 
@@ -2794,6 +2821,138 @@ Decision: **supports** 共同实验条件下的相对Qt比较，**limits** 摘�
           "locator": "RI01-6"
         }
       ]
+    },
+    {
+      "knowledge": "knowledge/sources/petrache-1998-highly-deformed-lifetimes-131ce-nd.md",
+      "anchor": "Day14定向重读：表角色、估算与速度归一",
+      "summary": "补全八行typed原表、半贡献6.07估算、β通道/可见top与7.3/7.4原始reference；六newclaims true，保留旧十三条与Qsf边界。",
+      "sources": [
+        {
+          "path": "knowledge/sources/petrache-1998-highly-deformed-lifetimes-131ce-nd.md",
+          "locator": "PE98-5"
+        },
+        {
+          "path": "knowledge/sources/petrache-1998-highly-deformed-lifetimes-131ce-nd.md",
+          "locator": "PE98-6"
+        },
+        {
+          "path": "knowledge/sources/petrache-1998-highly-deformed-lifetimes-131ce-nd.md",
+          "locator": "PE98-11"
+        },
+        {
+          "path": "knowledge/sources/petrache-1998-highly-deformed-lifetimes-131ce-nd.md",
+          "locator": "PE98-12"
+        },
+        {
+          "path": "knowledge/sources/petrache-1998-highly-deformed-lifetimes-131ce-nd.md",
+          "locator": "PE98-14"
+        },
+        {
+          "path": "knowledge/sources/petrache-1998-highly-deformed-lifetimes-131ce-nd.md",
+          "locator": "PE98-15"
+        },
+        {
+          "path": "knowledge/sources/petrache-1998-highly-deformed-lifetimes-131ce-nd.md",
+          "locator": "PE98-16"
+        },
+        {
+          "path": "knowledge/sources/petrache-1998-highly-deformed-lifetimes-131ce-nd.md",
+          "locator": "PE98-17"
+        },
+        {
+          "path": "knowledge/sources/petrache-1998-highly-deformed-lifetimes-131ce-nd.md",
+          "locator": "PE98-18"
+        },
+        {
+          "path": "knowledge/sources/petrache-1998-highly-deformed-lifetimes-131ce-nd.md",
+          "locator": "PE98-19"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/observables/transition-quadrupole-moment.md",
+      "anchor": "同一表中的分段fit、计算估算与原始reference",
+      "summary": "分开same-band替代fit、model estimate与actualconfiguration，Q0/geometry/引用baseline仍有边界。",
+      "sources": [
+        {
+          "path": "knowledge/sources/petrache-1998-highly-deformed-lifetimes-131ce-nd.md",
+          "locator": "PE98-5"
+        },
+        {
+          "path": "knowledge/sources/petrache-1998-highly-deformed-lifetimes-131ce-nd.md",
+          "locator": "PE98-11"
+        },
+        {
+          "path": "knowledge/sources/petrache-1998-highly-deformed-lifetimes-131ce-nd.md",
+          "locator": "PE98-12"
+        },
+        {
+          "path": "knowledge/sources/petrache-1998-highly-deformed-lifetimes-131ce-nd.md",
+          "locator": "PE98-13"
+        },
+        {
+          "path": "knowledge/sources/petrache-1998-highly-deformed-lifetimes-131ce-nd.md",
+          "locator": "PE98-14"
+        },
+        {
+          "path": "knowledge/sources/petrache-1998-highly-deformed-lifetimes-131ce-nd.md",
+          "locator": "PE98-15"
+        },
+        {
+          "path": "knowledge/sources/petrache-1998-highly-deformed-lifetimes-131ce-nd.md",
+          "locator": "PE98-19"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/methods/doppler-shift-attenuation-method.md",
+      "anchor": "同束靶的通道速度与可见带顶归一",
+      "summary": "α tag与通道β、F尺度和top未见高跃迁反证；未知grid/Σ不补τ。",
+      "sources": [
+        {
+          "path": "knowledge/sources/petrache-1998-highly-deformed-lifetimes-131ce-nd.md",
+          "locator": "PE98-1"
+        },
+        {
+          "path": "knowledge/sources/petrache-1998-highly-deformed-lifetimes-131ce-nd.md",
+          "locator": "PE98-5"
+        },
+        {
+          "path": "knowledge/sources/petrache-1998-highly-deformed-lifetimes-131ce-nd.md",
+          "locator": "PE98-6"
+        },
+        {
+          "path": "knowledge/sources/petrache-1998-highly-deformed-lifetimes-131ce-nd.md",
+          "locator": "PE98-11"
+        },
+        {
+          "path": "knowledge/sources/petrache-1998-highly-deformed-lifetimes-131ce-nd.md",
+          "locator": "PE98-16"
+        },
+        {
+          "path": "knowledge/sources/petrache-1998-highly-deformed-lifetimes-131ce-nd.md",
+          "locator": "PE98-17"
+        },
+        {
+          "path": "knowledge/sources/petrache-1998-highly-deformed-lifetimes-131ce-nd.md",
+          "locator": "PE98-18"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/sources/matev-2007-a130-quadrupole-alignment-additivity.md",
+      "anchor": "后续[[petrache-1998-highly-deformed-lifetimes-131ce-nd]]",
+      "summary": "新增MT07-20原始reference校准，7.4来自Clark而Petrache自己7.3；原sourceflags/值不改。",
+      "sources": [
+        {
+          "path": "knowledge/sources/petrache-1998-highly-deformed-lifetimes-131ce-nd.md",
+          "locator": "PE98-14"
+        },
+        {
+          "path": "knowledge/sources/petrache-1998-highly-deformed-lifetimes-131ce-nd.md",
+          "locator": "PE98-19"
+        }
+      ]
     }
   ]
 }
@@ -2911,6 +3070,10 @@ Danko99primary合法OA/publicPDF/官方API/repo均未提供正文（403HTML/401J
 ### Riley实验报告的canonical增量
 
 新增[原始作者source](../../knowledge/sources/riley-2001-global-lifetime-a135.md)“Table I：保留分析角色的33行账本”，RI01-1–15给实际source locator；[Qt](../../knowledge/observables/transition-quadrupole-moment.md)“全局Qt表的分析选择与数据身份”保存条件换算和未知Σ，[DSAM](../../knowledge/methods/doppler-shift-attenuation-method.md)“质心位移与恒定Qt提取：Riley2001”保存门与输入契约，[Matev](../../knowledge/sources/matev-2007-a130-quadrupole-alignment-additivity.md)“上游作者报告补核与数据谱系”校准MT07-8的使用。原始模型表的两项条件异常保持，未伪造raw归档或Laird最终重读。
+
+### 原始reference与估算的canonical增量
+
+[已有Petrache source](../../knowledge/sources/petrache-1998-highly-deformed-lifetimes-131ce-nd.md)“Day14定向重读：表角色、估算与速度归一”存完整八行及PE98-14–19（R11–R14原位）；[Qt](../../knowledge/observables/transition-quadrupole-moment.md)“同一表中的分段fit、计算估算与原始reference”和[DSAM](../../knowledge/methods/doppler-shift-attenuation-method.md)“同束靶的通道速度与可见带顶归一”存可复用输入/判断边界；[Matev](../../knowledge/sources/matev-2007-a130-quadrupole-alignment-additivity.md)追加MT07-20明确其Ref39的真正身份。无新增raw/source档案或Clark直接结果。
 
 ## Open questions and belief revision
 
@@ -3148,3 +3311,9 @@ wiki_lint --fail-on error实际exit0，0errors/131warnings（107citationkey、21
 2026-10-15T22:08:52.101495+08:00：Riley2001全文13页/3fig/2table、33行canonical typed账本和27项程序断言通过，实际exit0。report/card/writeback valid，唯一block104items/35changed knowledge页，15条RI01及MT07-19均parsed needs_review true。DSAM Purpose/type扩展和Qt旧“未核”描述更新属于明确意图，其余旧非空行与review保持；raw metadata/PLAN/Bib/AST和`git diff --check`实际exit0。初验证harness误用Page.claims报AttributeError，已改用仓库claim_rows解析器，未因此改科学内容；fresh `wiki_lint --fail-on error` exit0，0errors/141warnings（112空citation key、26未填raw槽、3reaction parser）。没有原始FITFTAU/τ/Σ重跑或Laird最终稿。
 
 前28批已Gitee发布；本批稳定指针 main / `Audit DAY14 primary global lifetime analysis and Qt table roles`，actualH3/hash由receipt记录。下一131Ce原始实验reference的source-before recall已保存：先核已有Petrache1998对象/原件，校准矩定义、带身份和上游实验baseline；不先填7.4(3)或复算缺输入。当前研究至2026-10-16 15:00、16:00交付，formal21/24、completed14/partial15及official next14/count13不变。
+
+### Checkpoint030 延期原始reference与通道验收
+
+2026-10-15T22:24:20.573157+08:00：Petrache1998原5页/2fig/1table脚注与限制定向核完；16项hash/表角色/精确脚注/速度归一控制实际exit0。report/card/writeback valid，唯一block108items/36changed knowledge页。六新PE98与MT07-20 parsed true、原PE98-1–13与Matv旧claims/四页旧非空行（仅source updated日期变更）和review保持；raw metadata/原PDF哈希/PLAN/Bib/AST及`git diff --check`exit0。Fresh `wiki_lint --fail-on error`exit0，0errors/141warnings（112citekey/26raw槽/3parser）。无逐τ/Σ/χ²原始重拟合；Clark四页原全文未得，取件失败不伪造结果。
+
+前29批Gitee已published；本批稳定 main / `Audit DAY14 original quadrupole reference and channel normalization`，actualH3/hash只receipt。实际clock再次检查距离研究cutoff仍逾16小时，重建候选池并逐字查看Day14/Day15卡（未显示Day16）：正式14全交付已具备，Day15计算单和误差/约定知识已覆盖但只partial。允许的下一有界preview是Ionescu1981原pureE2 feeding测试，source-before recall已freeze，正文/PDF未开，不重复同toy或计卡。研究2026-10-16 15:00止、16:00交付，run/goalactive、formal21/24/officialnext14/count13保持。

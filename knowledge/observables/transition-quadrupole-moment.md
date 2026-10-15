@@ -116,6 +116,14 @@ Riley Eq3的`Qt=Q20+sqrt(2/3)Q22_R`与紧接的`Q22_code=−sqrt2 Q22_R`合用�
 
 [27-check程序](../../system/scripts/day14_riley_global_qt_ledger.py)核hash、39有限token顺序、角色、防误读、条件缩放及守恒/归一化；没有复跑FITFTAU、实验Σ或逐态寿命。
 
+## 同一表中的分段fit、计算估算与原始reference
+
+[[petrache-1998-highly-deformed-lifetimes-131ce-nd]] PE98-14/15的TableI八行仅含本次五条物理带加外源132Ce；134Nd Band3的lower、upper和whole是两种分析的段/替代，不按三带重复加权。Fig2同data两次画拟合也不是新样本。Band3的lower4.9(3)、upper~6.5和whole5.0(3)不能仅凭列出的中心值裁定形变jump；作者明确现有统计不能firm选择。
+
+该upper的理论6.07eb是未能直接计算one-i13正宇称组态后的half-contribution估计：5.45+.5(6.69−5.45)=6.07。即使形式类似可加性，也不是直接算出的actual configuration，更没有λ=.5的置信区间。对照spin-dependent Qthe和constant Qexp时，还需真实F的响应/feeding权重，不用算术平均替代拟合（PE98-11/14）。
+
+原实验符号Q0按其几何保留；β2列明确assuming no triaxiality（PE98-12）。Petrache131Ce本次Q0=7.3(4)与其所引Clark1996的7.4(3)分开；Matev2007 Ref39用的是后者。Clark原文仍未核，不拿7.3代7.4、不按三篇转引计三个独立测量，也不能直接搬给Wiki的ND131Ce Bands1–7或Pr136（PE98-13/19）。原表source保存完整八行及Qsf范围冲突，不取平均修订。
+
 ## Sources
 
 - [[riley-2001-global-lifetime-a135]] RI01-1–15：直接作者报告的提取/表项角色/误差与谱系。
