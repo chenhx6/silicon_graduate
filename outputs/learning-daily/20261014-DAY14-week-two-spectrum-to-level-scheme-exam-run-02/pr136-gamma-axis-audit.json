@@ -1,0 +1,294 @@
+{
+  "kind": "actual beta/gamma extraction plus symbolic declared quadrupole/irrotational control; no nuclear model rerun",
+  "source": {
+    "path": "knowledge/sources/lv-2025-136pr-tac-covariant-density-functional.md",
+    "raw": "raw/papers/gpt/day3-mean-field-20260929/136pr-2025-tac-cdfTAC/PDFs/Configuration_dependent_shapes_and_types_of_rotations_in_the_gamma-soft_Pr-136_nucleus_revealed_by_detailed_calculations_with_tilted_axis_cr.pdf",
+    "sha256": "c8e14461975a7606d7e38325d6e83b500e75d232027b118743e1f1ff754537d6",
+    "locators": [
+      "PDF p.12 alternate D4/D6 paragraph",
+      "PDF p.15 TableII",
+      "PDF p.15 Fig16"
+    ]
+  },
+  "chosen_convention": {
+    "axes": "(x,y,z)",
+    "qz": "beta cos(gamma)",
+    "qx": "beta cos(gamma+120deg)",
+    "qy": "beta cos(gamma-120deg)",
+    "inertia": "Jx=(qy-qz)^2/3 and cyclic; arbitrary common scale, assumed irrotational law",
+    "author_frame_attested": false,
+    "experimental_invariants": false
+  },
+  "symbolic_results": {
+    "TrQ2": "3 beta^2/2",
+    "TrQ3": "3 beta^3 cos(3 gamma)/4",
+    "sign_rotation": [
+      [
+        0,
+        1,
+        0
+      ],
+      [
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        -1
+      ]
+    ],
+    "plus120_cycle": [
+      [
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        1
+      ],
+      [
+        1,
+        0,
+        0
+      ]
+    ],
+    "proof": "exact Q(sqrt3) polynomial identities, degree<=3 in each variable, checked on a 4x4 distinct rational grid; unisolvence",
+    "CAS_dependency": false
+  },
+  "actual_model_rows": [
+    {
+      "configuration": "ConfigD1",
+      "source_deformation_literal": "(0.18, 22◦ )",
+      "beta": 0.18,
+      "gamma_degrees": 22.0,
+      "chosen_tensor_diagonal": [
+        -0.14184193564920994,
+        -0.025051158172811724,
+        0.16689309382202172
+      ],
+      "quadratic": 0.04859999999999999,
+      "cubic": 0.0017790660768135505,
+      "normalized_cubic_cos3gamma": 0.4067366430758002,
+      "kind": "deterministic chosen normal-form transform of rounded model parameters; not experimental invariant"
+    },
+    {
+      "configuration": "ConfigD2",
+      "source_deformation_literal": "(0.20, 27◦ )",
+      "beta": 0.2,
+      "gamma_degrees": 27.0,
+      "chosen_tensor_diagonal": [
+        -0.1677341135890848,
+        -0.010467191248588725,
+        0.1782013048376736
+      ],
+      "quadratic": 0.06000000000000001,
+      "cubic": 0.0009386067902413886,
+      "normalized_cubic_cos3gamma": 0.15643446504023092,
+      "kind": "deterministic chosen normal-form transform of rounded model parameters; not experimental invariant"
+    },
+    {
+      "configuration": "ConfigD3",
+      "source_deformation_literal": "(0.17, 23◦ )",
+      "beta": 0.17,
+      "gamma_degrees": 23.0,
+      "chosen_tensor_diagonal": [
+        -0.13576803670803975,
+        -0.020717788378875054,
+        0.1564858250869149
+      ],
+      "quadratic": 0.04335,
+      "cubic": 0.0013204963020870498,
+      "normalized_cubic_cos3gamma": 0.3583679495453004,
+      "kind": "deterministic chosen normal-form transform of rounded model parameters; not experimental invariant"
+    },
+    {
+      "configuration": "ConfigD4",
+      "source_deformation_literal": "(0.17, 35◦ )",
+      "beta": 0.17,
+      "gamma_degrees": 35.0,
+      "chosen_tensor_diagonal": [
+        -0.15407232379623045,
+        0.014816476267101922,
+        0.13925584752912862
+      ],
+      "quadratic": 0.04334999999999999,
+      "cubic": -0.0009536834764415098,
+      "normalized_cubic_cos3gamma": -0.25881904510252085,
+      "kind": "deterministic chosen normal-form transform of rounded model parameters; not experimental invariant"
+    },
+    {
+      "configuration": "ConfigD6",
+      "source_deformation_literal": "(0.19, 39◦ )",
+      "beta": 0.19,
+      "gamma_degrees": 39.0,
+      "chosen_tensor_diagonal": [
+        -0.17738028103446832,
+        0.029722548357643878,
+        0.14765773267682447
+      ],
+      "quadratic": 0.05414999999999999,
+      "cubic": -0.0023354406282851616,
+      "normalized_cubic_cos3gamma": -0.4539904997395467,
+      "kind": "deterministic chosen normal-form transform of rounded model parameters; not experimental invariant"
+    },
+    {
+      "configuration": "ConfigQ1",
+      "source_deformation_literal": "(0.24, 17◦ )",
+      "beta": 0.24,
+      "gamma_degrees": 17.0,
+      "chosen_tensor_diagonal": [
+        -0.1755248883886009,
+        -0.05398825304252755,
+        0.2295131414311285
+      ],
+      "quadratic": 0.08639999999999998,
+      "cubic": 0.006524793814404716,
+      "normalized_cubic_cos3gamma": 0.6293203910498375,
+      "kind": "deterministic chosen normal-form transform of rounded model parameters; not experimental invariant"
+    },
+    {
+      "configuration": "ConfigQ1*",
+      "source_deformation_literal": "(0.24, 14◦ )",
+      "beta": 0.24,
+      "gamma_degrees": 14.0,
+      "chosen_tensor_diagonal": [
+        -0.16671800891015928,
+        -0.06615296539607977,
+        0.23287097430623915
+      ],
+      "quadratic": 0.08639999999999998,
+      "cubic": 0.007704925550549629,
+      "normalized_cubic_cos3gamma": 0.7431448254773942,
+      "kind": "deterministic chosen normal-form transform of rounded model parameters; not experimental invariant"
+    },
+    {
+      "configuration": "ConfigQ2",
+      "source_deformation_literal": "(0.22, 17◦ )",
+      "beta": 0.22,
+      "gamma_degrees": 17.0,
+      "chosen_tensor_diagonal": [
+        -0.1608978143562175,
+        -0.049489231955650255,
+        0.2103870463118678
+      ],
+      "quadratic": 0.0726,
+      "cubic": 0.005025752642924002,
+      "normalized_cubic_cos3gamma": 0.6293203910498375,
+      "kind": "deterministic chosen normal-form transform of rounded model parameters; not experimental invariant"
+    },
+    {
+      "configuration": "ConfigQ2*",
+      "source_deformation_literal": "(0.22, 17◦ )",
+      "beta": 0.22,
+      "gamma_degrees": 17.0,
+      "chosen_tensor_diagonal": [
+        -0.1608978143562175,
+        -0.049489231955650255,
+        0.2103870463118678
+      ],
+      "quadratic": 0.0726,
+      "cubic": 0.005025752642924002,
+      "normalized_cubic_cos3gamma": 0.6293203910498375,
+      "kind": "deterministic chosen normal-form transform of rounded model parameters; not experimental invariant"
+    },
+    {
+      "configuration": "ConfigQ3Q4",
+      "source_deformation_literal": "(0.16, 26◦ )",
+      "beta": 0.16,
+      "gamma_degrees": 26.0,
+      "chosen_tensor_diagonal": [
+        -0.13264601160880665,
+        -0.011161035799060018,
+        0.14380704740786673
+      ],
+      "quadratic": 0.038400000000000004,
+      "cubic": 0.0006387047141921585,
+      "normalized_cubic_cos3gamma": 0.20791169081775945,
+      "kind": "deterministic chosen normal-form transform of rounded model parameters; not experimental invariant"
+    }
+  ],
+  "chosen_axis_counterexample": {
+    "beta": 1,
+    "gamma_plus": 20,
+    "gamma_minus": -20,
+    "fixed_axis": [
+      1,
+      0,
+      0
+    ],
+    "same_sorted_shape": [
+      -0.7660444431189779,
+      -0.17364817766693008,
+      0.9396926207859084
+    ],
+    "J_fixed_plus": 0.4131759111665347,
+    "J_fixed_minus": 0.9698463103929541,
+    "J_simultaneously_rotated": 0.4131759111665347,
+    "ratio_fixed_minus_over_plus": 2.3472963553338615,
+    "source_D4_reassigned_minus35": false
+  },
+  "missing_actual_inputs": [
+    "signed rotation-frame gamma/axis mapping for each actual TAC state",
+    "numeric alternative-scenario solution and code",
+    "partner/branch resolved electromagnetic and independent shape observables",
+    "experimental response/covariance"
+  ],
+  "checks": {
+    "actual_accepted_PDF_hash": true,
+    "actual_ten_table_rows": true,
+    "actual_alternative_scenario_marker": true,
+    "actual_rotation_axes_and_irrotational_assumption": true,
+    "actual_Fig16_axis_marker": true,
+    "exact_polynomial_traceless": true,
+    "exact_polynomial_quadratic": true,
+    "exact_polynomial_cubic": true,
+    "exact_polynomial_sign_axis_swap": true,
+    "exact_polynomial_plus120_cycle": true,
+    "exact_polynomial_inertia_trig": true,
+    "exact_polynomial_inertia_trace": true,
+    "sign_swap_proper_rotation": true,
+    "cycle_proper_rotation": true,
+    "actual_beta_gamma_ConfigD1": true,
+    "tensor_invariants_ConfigD1": true,
+    "proper_axis_equivalences_ConfigD1": true,
+    "actual_beta_gamma_ConfigD2": true,
+    "tensor_invariants_ConfigD2": true,
+    "proper_axis_equivalences_ConfigD2": true,
+    "actual_beta_gamma_ConfigD3": true,
+    "tensor_invariants_ConfigD3": true,
+    "proper_axis_equivalences_ConfigD3": true,
+    "actual_beta_gamma_ConfigD4": true,
+    "tensor_invariants_ConfigD4": true,
+    "proper_axis_equivalences_ConfigD4": true,
+    "actual_beta_gamma_ConfigD6": true,
+    "tensor_invariants_ConfigD6": true,
+    "proper_axis_equivalences_ConfigD6": true,
+    "actual_beta_gamma_ConfigQ1": true,
+    "tensor_invariants_ConfigQ1": true,
+    "proper_axis_equivalences_ConfigQ1": true,
+    "actual_beta_gamma_ConfigQ1*": true,
+    "tensor_invariants_ConfigQ1*": true,
+    "proper_axis_equivalences_ConfigQ1*": true,
+    "actual_beta_gamma_ConfigQ2": true,
+    "tensor_invariants_ConfigQ2": true,
+    "proper_axis_equivalences_ConfigQ2": true,
+    "actual_beta_gamma_ConfigQ2*": true,
+    "tensor_invariants_ConfigQ2*": true,
+    "proper_axis_equivalences_ConfigQ2*": true,
+    "actual_beta_gamma_ConfigQ3Q4": true,
+    "tensor_invariants_ConfigQ3Q4": true,
+    "proper_axis_equivalences_ConfigQ3Q4": true,
+    "chosen_same_unordered_shape": true,
+    "chosen_inertia_axis_equivariance": true,
+    "chosen_fixed_axis_differs": true,
+    "chosen_simultaneous_axis_rotation_invariant": true,
+    "chosen_hydrodynamic_inertia_nonnegative": true,
+    "axial_normal_form_limits": true
+  },
+  "check_count": 50,
+  "passed": true
+}

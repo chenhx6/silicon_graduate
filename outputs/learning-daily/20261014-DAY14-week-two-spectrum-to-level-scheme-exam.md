@@ -83,6 +83,10 @@ W17-1/3/5把RHB的U/V、轨道追踪/阻塞、未恢复粒子数与组态简称�
 
 ZT15-3/4直接给出分开归一U/V、分别最大化O1/O2及继承/反转blocking；ZT15-10限定xz平面，l–i/l–s变化与上游chirality解释分层。ZT15-12的谱和强度点重用2003/2007实验，本理论不是新Pr136采集。
 
+### 136Pr的γ/axis定向回读
+
+[定向回读前primed recall](20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/pr136-gamma-before-focused-reread.md)及[原文定位](20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/pr136-gamma-focused-source-note.md)在量化前保存。[[lv-2025-136pr-tac-covariant-density-functional]] LV25-33的PDF15 TableII给D4(.17,35°)/D6(.19,39°)，Fig16仅显示0–60°扇区；PDF12的D4负γ/medium与D6正γ/short明确是alternative共存解释，并用了irrotational-flow假设。没有逐态signedγ/axis map，不能把source模型图和alternative直接合并或给D4自行改号。
+
 ## Theory/analysis exercise
 
 七边的中心值闭合为`+0.2,+0.4,+0.3 keV`。D的rank4、三个cycle、绝对offset nullspace均由代码核验。独立0.1-keV拟合误差下条件χ²=6.666667；自设将caption约0.3 keV按quadrature加上、并令各线独立后，χ²=0.666667，dof3。后者cycle Σ为`0.1×(3,1,0; 1,3,1; 0,1,3) keV²`，不是三个可相乘的独立检验。
@@ -245,6 +249,14 @@ checkpoint008实际观察为上海15:37，立即停止新研究；最后已保�
 
 同态控制正确继承blocking；U/V交换分支反转标记后保持原blocked态的ρ/κ，说明reference改变时不能只要求裸blocked数不变。整体qp符号改变不改ρ/κ，却能使源式的signed字面控制出现tie；45°简并混合有不同旧标记的并列最大值；V=0令分开归一未定义。自设abs-score解除符号反例但不解除45°tie，first-argmax会随旧列顺序改变。全部是输入契约的条件控制，不是135Nd/Pr136计算或作者代码错误判定。
 
+### 50-check：四极形状与相对转轴
+
+[量化前预测](20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/pr136-gamma-before-calculation.md)声明本任务normal form和irrotational law；[analysis](20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/pr136-gamma-axis-audit.json)由`python3 system/scripts/day14_pr136_gamma_axis_audit.py`完成50项检查、exit0。首次import因缺SymPy exit1且尚无计算结果，改用标准库Fraction的`Q(sqrt3)`精确算术；各差式对c/s次数至多3，4×4不同有理点精确核验结合多项式唯一性，未安装全局包/未动科学输入。
+
+在声明`Q=diag(βcos(γ+120°),βcos(γ−120°),βcosγ)`下，`TrQ²=3β²/2`、`TrQ³=3β³cos3γ/4`；±γ可由proper轴交换实现，加120°为cycle。相同unordered四极张量不证明完整密度/波函数相同，更不代表实际作者frame已核。读取TableII十行rounded模型βγ得到的是此normal form的确定性变换，不是实测E2 invariants。
+
+声明β1/γ±20°的四极形状相同，在假设irrotational law下固定x轴惯量为.413176/.969846；转轴也同步换轴后回.413176。共同标度任意，不是Pr136 MOI或D4+35→−35重赋值。实际TAC含qp/配对贡献，不能由此以I/ω唯一反演γ。
+
 ## Counter-evidence and missing companion observables
 
 HE15-9的实际未定双线是核心反例：energy sum、共享R/A和假设的ΔI=2均不足以裁决order。若一条线出现可独立定位的旁路或延迟顺序，应重审中间level；source仍保留括号Jπ与(E2)。HE15-5的quadruplet限制“一个峰是一条γ”的简化；干净622.4直接分支门与323.4级联门的299-keVcomponent差异可能迫使拆峰，但必须控制622/626门纯度、feeding、response和random。
@@ -262,6 +274,10 @@ W17-5/7/9是对“能谱或B(M1)接近就认证完整组态”的具体限制：
 ZT15-6回弯区结果省略；ZT15-9的“无统一.3因子”是作者对选定135Nd算例的解释，Fig5仍见paired B(M1)曲线高于若干点，未给可重建联合χ²/Cov。ZT15-10只算平面旋转，不能将其当直接三维静态手征解或partner谱。[[mukhopadhyay-2007-135nd-chiral-vibration-static]] MU07-6为既有Wiki校准，实验强度/TAC/RPA层级保持；本轮没有重新摄取该实验或清其review状态。
 
 重放仍需actual前后U/V、basis/reference、blocked/species、λ/ω路径和步长、相位/并列/zero-norm规则、overlap及收敛日志。本文方法不能补Pr136 Q1/Q1* spectator，论文数据点复用不增独立实验。
+
+### γ/axis分析后的必要材料
+
+几何反例限制“γ号不同就是不同形状”捷径，也不能反向宣称D4/D6完整态相同或作者模型错误。LV25-33的actual轴映射与alternative数值解仍缺；Fig11同时非零Jx/Jz提示不能用替代段principal-axis描述倒填所有TAC态。需要真实tensor/relative orientation、完整E2矩阵元链（必要相位/分支）及独立形状信息；相对Iγ、单个寿命或E2未观测都不补这些材料。原MR与coexistence仍竞争。
 
 ## Knowledge Impact and Learning Decision
 
@@ -302,6 +318,10 @@ Decision: supports 追踪实际qp身份，revises 把“largest overlap”简称
 ### 配对方法阶段的批次REFLECT
 
 2015→2017→2025的三来源方法阶段已比较：monopole/有限程可分离力、10/12壳、O1/O2继承、磁矩算符选择及实际136Pr输入缺口。Canonical在[[a130-model-choice-card]]“配对方法谱系的批次REFLECT”：引用谱系不认证相同代码版本/实现，更不构成三次独立实验或代码审核；模型比较改善不能唯一倒推组态。仍用现有method/project承载，不另建synthesis/note，原正式weekly REFLECT与21/24成绩不变。
+
+### γ/axis后的认识决定
+
+Decision: limits source模型γ、替代转轴与实验共存之间的直接等同；supports 将四极shape、relative orientation和完整模型态分开。几何必要条件已固化，但实际source frame未认证，不清原review、不给新模式或PSM/TPSM信用。当前问题的后续信息增益须来自真实输入/直接轴约定或新的伴随观测，不能继续换同一几何toy的参数。
 
 ## Durable knowledge delta
 
@@ -2083,6 +2103,50 @@ Decision: supports 追踪实际qp身份，revises 把“largest overlap”简称
           "locator": "LV25-32"
         }
       ]
+    },
+    {
+      "knowledge": "knowledge/sources/lv-2025-136pr-tac-covariant-density-functional.md",
+      "summary": "核TableII/Fig16与alternative signedγ/转轴的原文分层，新增LV25-33而不改原flags。",
+      "anchor": "γ、模型形状与替代转轴场景的定向复核",
+      "sources": [
+        {
+          "path": "knowledge/sources/lv-2025-136pr-tac-covariant-density-functional.md",
+          "locator": "LV25-33"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/concepts/triaxial-deformation.md",
+      "summary": "新增声明normal form与50-check精确恒等式/转轴控制，不认证完整态或作者frame。",
+      "anchor": "形状张量、轴置换与signedγ分开",
+      "sources": [
+        {
+          "path": "knowledge/sources/lv-2025-136pr-tac-covariant-density-functional.md",
+          "locator": "LV25-33"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/nuclei/136pr.md",
+      "summary": "分开实际模型βγ、alternative与实验共存，保留竞争解释。",
+      "anchor": "γ与相对转轴的解释边界",
+      "sources": [
+        {
+          "path": "knowledge/sources/lv-2025-136pr-tac-covariant-density-functional.md",
+          "locator": "LV25-33"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/projects/a130-model-choice-card.md",
+      "summary": "补模型input/shape/orientation界面，保持2/7投影覆盖和原排序。",
+      "anchor": "136Pr的γ、形状与转轴分层",
+      "sources": [
+        {
+          "path": "knowledge/sources/lv-2025-136pr-tac-covariant-density-functional.md",
+          "locator": "LV25-33"
+        }
+      ]
     }
   ]
 }
@@ -2188,6 +2252,8 @@ Danko99primary合法OA/publicPDF/官方API/repo均未提供正文（403HTML/401J
 新增可复用知识见[[wang-2017-109ag-tac-separable-pairing]] W17-1/3/5/9/10，以及[[configuration-occupation-audit]]“配对方法companion不能补全实际阻塞输入”、[[tilted-axis-cranking]]“2017年方法校准：阻塞、收敛与磁矩算符”和[[a130-model-choice-card]]“方法companion的可迁移边界”。这些canonical页保存了原文方法、条件练习、版本异常和迁移边界；source实际PDF尚在tmp、raw未归档，未把outputs当唯一知识副本。
 
 本段canonical为[[zhao-2015-pairing-spin-orientation-tac]] ZT15-3/4/11、[[configuration-occupation-audit]]“O1/O2阻塞追踪的可重放契约”、[[tilted-axis-cranking]]“2015年上游阻塞方法与平面限制”；[[wang-2017-109ag-tac-separable-pairing]]新增“上游阻塞方法的后续核验”，[[a130-model-choice-card]]细化原方法路线。可重放字段、原文规则、43-check及无实际Pr136输入的限制均在knowledge保有副本。
+
+新增canonical为[[triaxial-deformation]]“形状张量、轴置换与signedγ分开”、[[lv-2025-136pr-tac-covariant-density-functional]] LV25-33和“γ、模型形状与替代转轴场景的定向复核”、[[136pr]]“γ与相对转轴的解释边界”、[[a130-model-choice-card]]“136Pr的γ、形状与转轴分层”。这些页保有50-check推导、实际模型值/alternative locator与未知frame边界，outputs不是唯一副本。
 
 ## Open questions and belief revision
 
@@ -2391,3 +2457,10 @@ wiki_lint --fail-on error实际exit0，0errors/131warnings（107citationkey、21
 2026-10-15T18:38:34.189782+08:00：最终43项canonical/BdG/overlap控制true、exit0；report/card/writeback valid，唯一block81items/27changed knowledge页，并完成2015→2017→2025方法谱系批次REFLECT。原method/model/project/W17旧行顺序与review保持，LV25及既有MU07 source字节未改，raw metadata/PLAN/Bib/AST及git diff --check exit0。初lint因矩阵双括号被解析成Wiki链接exit1，改为row记法；加入REFLECT后fresh `wiki_lint --fail-on error` exit0：0errors/135warnings（109空citation key、23未填raw槽、3reaction parser），12新ZT15 claims均parsed true。
 
 前23批已Gitee发布；本批稳定 main / `Audit DAY14 quasiparticle following and method lineage`，实际H3/hash只回执。当前方法表达式路线局部完成，已重建池并冻结Pr136 γ/轴/替代形状场景的定向回忆，先核原文与既有知识再决定量化；不泛化重复overlap toy。研究仍active至2026-10-16 15:00、16:00交付，正式21/24、Day14/partial15和official next14/count13保持。
+
+
+### Checkpoint025 延期γ/axis验收
+
+2026-10-15T18:54:31.258823+08:00：最终50项actualTableII/精确低阶恒等式/转轴控制true、exit0；report/card/writeback valid，唯一block85items/28changed knowledge页。LV25-33 parsed true，原32条source claim及concept/nucleus/project旧行顺序和review保持，raw metadata/PLAN/Bib/AST及git diff --check exit0。首import缺SymPy exit1发生于计算前，已以标准库精确代数替代，无全局安装；fresh `wiki_lint --fail-on error` exit0，0errors/135warnings（109空citation key、23未填raw槽、3reaction parser）。
+
+前24批Gitee已发布；本批稳定 main / `Separate DAY14 quadrupole shape from rotation-axis labels`，实际H3/hash只回执。下一回到source Ref48 Petrache2015 PhysScr90,114016的直接γ极化/轴论证，来源前回忆已保存，先核metadata/合法全文；只补当前问题，不计独立Pr136实验或新卡。当前研究仍active至2026-10-16 15:00、16:00最终交付，formal21/24、Day14/partial15和official next14/count13保持。

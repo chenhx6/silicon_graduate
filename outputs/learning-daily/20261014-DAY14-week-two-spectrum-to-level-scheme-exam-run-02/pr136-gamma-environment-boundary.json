@@ -1,0 +1,8 @@
+{
+  "initial_command": "python3 system/scripts/day14_pr136_gamma_axis_audit.py",
+  "initial_exit_code": 1,
+  "error": "ModuleNotFoundError: No module named sympy",
+  "affected_stage": "import before calculation; no numeric result produced",
+  "resolution": "removed CAS dependency; standard-library Fraction arithmetic in Q(sqrt3), exact degree<=3 polynomial identities on 4x4 grid; Numpy used for numeric controls; no global package install",
+  "scientific_inputs_unchanged": true
+}

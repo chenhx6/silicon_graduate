@@ -84,3 +84,12 @@ Zhao2015上游方法13页/Figs1–5已核，43check（canonical+显式简并BdG 
 前23批published；本批subject Audit DAY14 quasiparticle following and method lineage，actualH3/hash看publication-024.json。下一pr136-gamma-before-focused-reread.md已freeze，回读LV25 PDF11–15 TableII/Fig16/alternate D4γ<0 medium vsD6γ>0 short，核sourceγ/axes是否明示以及modeloutput与alternateinterpretation边界。先读现有triaxial-deformation；不先给source约定、计算或宣称共存。当前continuity193Bi局部饱和缺actualresponse，1996primary仍missing；不要换同toy参数。
 
 仍Day14/partial15、formal21/24、official next14/count13；研究2026-10-16 15:00止、16:00交付，goalactive。旧watchers不live未重启，不新session/card/daemon。
+
+
+## 最新checkpoint025
+
+LV25 γ/axis源段与50check已完成；LV25-33、triaxial-deformation、136pr、modelchoice保留实际βγ/model与alternative场景。声明Qnormalform的±γ proper轴置换、精确polynomial及irrotational fixed/simultaneous axis控制不认证sourceframe/完整state/experiment。首次Sympy缺模块发生import前，已用标准库精确代数替代，无install。85items28pages，oldrows/review/raw/protected/AST/diff保持，freshlint0errors135warnings，LV25-33 parsedtrue。
+
+前24批published；本批subject Separate DAY14 quadrupole shape from rotation-axis labels，actualH3/hash看publication-025.json。下一petrache2015-gamma-before-source.md已freeze，LV25 Ref48 C.M.Petrache PhysScr90,114016(2015) metadata/fulltext核验中；先poll既有查询，不凭候选DOI/metadata license判OA。找直接γ/axis论证/原图，若重复旧数据不计独立实证；不替原1996primary解释263/405。
+
+研究至2026-10-16 15:00，16:00最终交付；Day14/partial15，formal21/24和official next14/count13不改，goalactive。193Bi实际response/τ/events、Pr真实模型input仍缺；不要反复换同toy参数。旧watchers不live未重启，不新card/session/daemon。

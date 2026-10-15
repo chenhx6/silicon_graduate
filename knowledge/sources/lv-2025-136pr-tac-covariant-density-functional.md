@@ -98,6 +98,7 @@ The paper combines a new high-statistics JUROGAM II 136Pr level scheme with PC-P
 | LV25-30 | D3的660.4(4)来自4254.6 15+→D2 15+，R_DCO.82(24)d、M1+E2；653.0(4)的TableI M/R栏为空。前者不是purestretchedΔJ=1默认模型，后者不能由归带直接补实测M。 | experimental-transition-record-and-model-domain | direct | PDF p.7 TableI D3 rows660.4/653.0 | true |
 | LV25-31 | TableI D4可逐同parent配16–23的dipole/crossoverγ对，Fig9(c)有8个对应spin的log-scale B(M1)/B(E2)点，单位μN²/(e²b²)。481、370.8、587.4、1117.9的table M栏为空（481正文称quadrupole）；重算需声明component/purity而非补写逐线已测pureM。文中未为该组给完整δ/Cov/逐点算法。 | reported-table-figure-and-input-boundary | direct | PDF p.7 TableI D4; PDF p.5 SecII D4; PDF p.11 Fig9(c) | true |
 | LV25-32 | AcceptedTableII的valence十行相对Z50/N82给净9p/−5n；Q1/Q1*的unpaired neutron列仅列h11/2^-1与intruder^1，sd未列。若该列被当evenpairedreference上的完整pair-reduced inventory，listed(up,un)=(3,0)留下(6,−5)差，总差1为奇数，不能仅以任何two-fermion pairs补全；若active标签/未列spectator则解释不同。此为本任务条件审计，不证明程序错误。 | our-inference-from-literal-model-input | derived | PDF p.15 TableII ConfigQ1/ConfigQ1*; PDF p.11 Figs9/10captions | true |
+| LV25-33 | TableII报D4(.17,35°)、D6(.19,39°)，Fig16仅展示γ0–60°扇区；PDF12另称D4γ<0绕medium axis、D6γ>0绕short axis为alternative shape-coexistence场景，并使用irrotational-flow假设。本文未给该alternative与表/图之间的逐态signedγ/轴映射，不能自行给D4改号或把两场景合为实验共存事实。 | reported-model-and-alternative-frame-boundary | direct-and-derived | PDF p.12 alternate D4/D6 paragraph; PDF p.15 TableII; PDF p.15 Fig16 | true |
 
 ## Nuclear Structure Information
 
@@ -187,3 +188,11 @@ LV25-31的16条literalrow按8个parent配对。[[bm1-be2-ratio]]“同母态radi
 ### TableII列示与完整模型输入
 
 LV25-32与[[configuration-occupation-audit]]的62-check限定了**完整unpaired列解释**；所有valence列Z/N实际记账通过，没有识别到实际程序粒子数不守恒。未列spectator/参考态与blocking定义没有提供，不能修入一个νsd hole或根据literal5项断言真实state属半整数I。[[a130-model-choice-card]]和[[136pr]]保存scope，Hara直接投影覆盖仍2/7。Goodπ标签乘积不补Q1实验POL缺口，源的positiveπ proposal及β/γ/modelinterpretation状态不升级。
+
+## γ、模型形状与替代转轴场景的定向复核
+
+LV25-33将PDF12的alternative段与PDF15的TableII/Fig16分开。Fig11的ConfigD6还显示同时非零的Jx/Jz，正文以此说明tilted nature；不能把替代场景中的principal-axis描述倒填为所有实际TAC态的唯一转轴。当前没有原始quadrupole tensor、逐态signed axis map或alternative的独立数值解。
+
+[[triaxial-deformation]]“形状张量、轴置换与signedγ分开”用声明的无量纲quadrupole normal form证明±γ可只是proper axis permutation，配合假设irrotational law展示固定转轴与同步换轴的差别。50项检查读取本表十行rounded模型参数，但几何形式、惯量标度和控制±20°均明确非作者实际frame/实验量。证明只涉及四极张量，不认证完整密度/波函数相同，也不以cos3γ裁决作者prolate/oblate措辞或重排D4γ号。
+
+因此原P1的几何必要条件和场景分层已推进，实际作者轴映射仍开放；D4/D6 MR与shape-coexistence继续竞争，缺失E2/POL/寿命不能由几何补。原claims/review保持，实际程序未重跑。

@@ -10,9 +10,9 @@ updated: 2026-10-15
 
 同run2026-10-14-day-14-02/session01a13a0e-e8bd-7251-b970-f6975679e281。用户断网延期最终delivery **2026-10-16 16:00上海**；plannedresearchcutoff15:00，closeout15–16，不延至17。Nativegoal/researchactive；formal14七边35checks/21/24/weeklyREFLECT完成，completed14/partial15、officialnext14/count13等最终一次credit，不开Day16。
 
-第024批：Zhao2015上游方法13页/Figs1–5已核，O1/O2继承/反转定义与43check实canonical/BdG、phase/tie/reference控制完成；初42后补eigenbasis合法性，ρ/κ联合校核，abs/firstargmax不归作者。不填Pr136spectator/判code错。Source/method/TAC/project/W17/index及三来源方法谱系REFLECT同步；81items27changedpages，原rows/review/LV25/MU07/raw/protected/AST/diff保持。初矩阵双括号误作wikilink已修，freshlint0errors135warnings（109citekey/23rawslot/3parser）。
+第025批：LV25 TableII/Fig16与alternative γ/axis段定向核验，LV25-33；50check actual10row+声明Qnormalform/proper轴置换/irrotational fixed-vs-simultaneous轴通过。首Sympy import缺模块已以标准库精确Qsqrt3代数替代，无install；同四极不认证fullstate/sourceframe，不改D4号或称实验共存。Concept/source/nucleus/project同步；85items28changedpages，oldrows/review/raw/protected/AST/diff保持，freshlint0errors135warnings（109citekey/23rawslot/3parser），LV25-33 parsedtrue。
 
-前23批Gitee已published；本批main / `Audit DAY14 quasiparticle following and method lineage`，actualH3/hash仅receipt。下一pr136-gamma-before-focused-reread.md已freeze，先核LV25 PDF11–15的TableII/Fig16与alternate D4/D6 γ/axes，读既有triaxial-deformation；不预填sourceframe或形状共存。193Bi actualresponse/τ/events缺，1996primary仍missing，不重复旧route/toy；投影覆盖2/7不变。
+前24批Gitee已published；本批main / `Separate DAY14 quadrupole shape from rotation-axis labels`，actualH3/hash仅receipt。下一petrache2015-gamma-before-source.md已freeze，LV25 Ref48 PhysScr90,114016(2015)先核metadata/合法全文与γ/axis论证，不计独立Pr136实验。1996primary及actualmodelinput/events/response/Σ仍缺，不重复旧route/toy；投影覆盖2/7不变。
 
 Clock001/002/005/008actualACK；旧Farmer8686/clock75781notlive未重启。恢复 `codex resume 01a13a0e-e8bd-7251-b970-f6975679e281 -C /workspace/wiki -s danger-full-access -a never`，先run.json/最新continuation按新时间门继续。保留raw/PLAN/Bib/review/继承dirty/log/daemon/scheduler混合文件，manifest/H3非force发布。
 

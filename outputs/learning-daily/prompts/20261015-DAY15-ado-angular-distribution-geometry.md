@@ -322,3 +322,6 @@ Day14延期另核Wang2017 TAC-RHB方法全文和50-check控制：spin projector�
 
 
 Day14延期另核Zhao2015 O1/O2上游规则与43-check实canonical/BdG控制；相位/tie/zero-norm/reference是重放材料，模型pairing/算符/代码版本谱系不等于独立实验。正式Day15仍只标这些priming，不继承card credit或宣称actual Pr136输入已复现。
+
+
+Day14延期另完成50-check四极normalform/轴置换/声明irrotational控制；source TableII/Fig16的模型γ与alternative signedγ/转轴分层，未知实际frame不填，四极相同不认证fullstate。此只标正式回忆priming，不给Day15信用或shape共存新实证。

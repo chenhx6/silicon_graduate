@@ -18,6 +18,7 @@ tags: [a130, model-choice, mean-field, cranked-shell-model, hfb, angular-momentu
 
 ## Agent active summary
 
+- 136Pr的TableII/Fig16与D4/D6 alternative signedγ/转轴已分层；四极normal-form的50-check控制不补实际frame，也不提升形状共存为实验事实。
 - 后续直接核Zhao2015的O1/O2阻塞规则：需要phase/tie/reference与轨道日志，43-check控制不提供Pr136真实清单；平面推转也不生成完整手征partner谱。
 - Day14已核136Pr的valence/unpaired条件账本；Wang2017方法companion明确TAC-RHB的blocking、未恢复数目与算符依赖，但不补Q1/Q1*的实际reference/spectator。原PSM/TPSM直接覆盖2/7与131Ce模式排序均保持。
 - Day 3 已把 Hara–Sun 的投影核与轴对称迁移边界写入本卡；续接补入 Bhat 2014 `130Cs` 比较，并发现 Sheikh et al. 2024 对 Hara Table 5 的 `133La`、`135Pr` 两个 `N=76` 星号核素做了 TPSM 计算。后者的固定 `γ` 是模型输入，数据复用既有实验；不改变 `131Ce` project 的模式排序，也不确认其 `N=73` 形状。
@@ -190,3 +191,7 @@ MeanN或spatialparity标签符合，不自动认证完整numbersector；未投�
 谱系说明：方法引用建立继承关系，不认证三篇采用同一代码版本、phase/tie实现或相同模型参数，也不是对该程序的三次独立审核。能量/强度比较改善仍可能同时依赖pairing、单粒子输入和电磁算符；拟合后不能唯一倒推完整组态。反向检验是取得真实输入后重放blocked轨道和ρ/κ路径，再用独立电磁/形状观测比较竞争解释；当前没有这些Pr136输入，不造新的wavefunction结论。
 
 本阶段的持久化落点是本卡及[[configuration-occupation-audit]]，不另建synthesis/research-note；原2/7投影覆盖与131Ce模式排序不变。下一高信息问题仍可在136Pr原文中查γ/轴约定与实际模型输出、替代解释的界面，避免继续泛化同一个overlap toy。
+
+### 136Pr的γ、形状与转轴分层
+
+[[lv-2025-136pr-tac-covariant-density-functional]] LV25-33的TableII/Fig16是模型输出，D4负γ/medium与D6正γ/short的文字另属alternative场景，缺逐态轴映射。[[triaxial-deformation]]用声明normal form和50-check证明γ号可对应四极轴置换，而相对固定转轴仍可不同；不把该几何形式归给源代码，不改D4表号，也不认证完整态相同。模型quadrupole参数、relative orientation和实验模式判据须分别取得；本段只缩小解释捷径，原2/7与131Ce排序不变。
