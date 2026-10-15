@@ -1,0 +1,1214 @@
+{
+  "kind": "actual D4 nominal energy-chain finite-response exercise; not Nd reproduction or Pr axis/shape fit",
+  "source": {
+    "path": "knowledge/sources/lv-2025-136pr-tac-covariant-density-functional.md",
+    "raw": "raw/papers/gpt/day3-mean-field-20260929/136pr-2025-tac-cdfTAC/PDFs/Configuration_dependent_shapes_and_types_of_rotations_in_the_gamma-soft_Pr-136_nucleus_revealed_by_detailed_calculations_with_tilted_axis_cr.pdf",
+    "sha256": "c8e14461975a7606d7e38325d6e83b500e75d232027b118743e1f1ff754537d6",
+    "locator": "PDF p.7 TableI D4 and PDF p.4 Fig1"
+  },
+  "companion": {
+    "path": "knowledge/sources/peng-chen-2022-chiral-rotation-rhodium-isotopes.md",
+    "sha256": "96d6a04d4f7defc0c68ae62dcc401f3859056c353f219aa55e5f2dde26c081df",
+    "locator": "PDF p.6 Eq3; targeted check only, source plot frequency labels retained"
+  },
+  "definition": {
+    "frequency": "x=Egamma/k in MeV",
+    "response": "J2/hbar^2=delta(parent I)/delta x for same k",
+    "effective_spin": "mean(parent I)-k/2",
+    "frequency_location": "mean(xa,xb)",
+    "author_Pr_or_Nd_stencil_attested": false,
+    "actual_covariance": null
+  },
+  "dipole_inputs": [
+    {
+      "id": "PDF7:textline28",
+      "band": "D4",
+      "pdf_page": 7,
+      "text_line": 28,
+      "energy_text": "273.6(1)",
+      "E": 273.6,
+      "dE": 0.1,
+      "parent_text": "4210.8(11)",
+      "P": 4210.8,
+      "dP": 1.1,
+      "daughter_difference_control": 3937.2000000000003,
+      "remainder_literal": "7.0(3)        0.77(28)d                     M1+E2          16+ → 15+",
+      "raw": " 273.6(1)   4210.8(11)    7.0(3)        0.77(28)d                     M1+E2          16+ → 15+",
+      "Ji": 16,
+      "Jf": 15,
+      "tentative": false,
+      "reported_M": "M1+E2",
+      "assigned_daughter_parent": 3937.2,
+      "nominal_endpoint_residual_keV": 0.0
+    },
+    {
+      "id": "PDF7:textline31",
+      "band": "D4",
+      "pdf_page": 7,
+      "text_line": 31,
+      "energy_text": "370.8(6)",
+      "E": 370.8,
+      "dE": 0.6,
+      "parent_text": "4581.6(13)",
+      "P": 4581.6,
+      "dP": 1.3,
+      "daughter_difference_control": 4210.8,
+      "remainder_literal": "8.1(6)                                                     17+ → 16+",
+      "raw": " 370.8(6)   4581.6(13)    8.1(6)                                                     17+ → 16+",
+      "Ji": 17,
+      "Jf": 16,
+      "tentative": false,
+      "reported_M": "",
+      "assigned_daughter_parent": 4210.8,
+      "nominal_endpoint_residual_keV": 0.0
+    },
+    {
+      "id": "PDF7:textline33",
+      "band": "D4",
+      "pdf_page": 7,
+      "text_line": 33,
+      "energy_text": "409.3(3)",
+      "E": 409.3,
+      "dE": 0.3,
+      "parent_text": "4990.9(13)",
+      "P": 4990.9,
+      "dP": 1.3,
+      "daughter_difference_control": 4581.599999999999,
+      "remainder_literal": "4.9(3)        0.90(14)d                     M1+E2          18+ → 17+",
+      "raw": " 409.3(3)   4990.9(13)    4.9(3)        0.90(14)d                     M1+E2          18+ → 17+",
+      "Ji": 18,
+      "Jf": 17,
+      "tentative": false,
+      "reported_M": "M1+E2",
+      "assigned_daughter_parent": 4581.6,
+      "nominal_endpoint_residual_keV": 0.0
+    },
+    {
+      "id": "PDF7:textline34",
+      "band": "D4",
+      "pdf_page": 7,
+      "text_line": 34,
+      "energy_text": "440.0(2)",
+      "E": 440.0,
+      "dE": 0.2,
+      "parent_text": "5430.9(13)",
+      "P": 5430.9,
+      "dP": 1.3,
+      "daughter_difference_control": 4990.9,
+      "remainder_literal": "3.7(2)        1.02(16)d                     M1+E2          19+ → 18+",
+      "raw": " 440.0(2)   5430.9(13)    3.7(2)        1.02(16)d                     M1+E2          19+ → 18+",
+      "Ji": 19,
+      "Jf": 18,
+      "tentative": false,
+      "reported_M": "M1+E2",
+      "assigned_daughter_parent": 4990.9,
+      "nominal_endpoint_residual_keV": 0.0
+    },
+    {
+      "id": "PDF7:textline36",
+      "band": "D4",
+      "pdf_page": 7,
+      "text_line": 36,
+      "energy_text": "503.6(2)",
+      "E": 503.6,
+      "dE": 0.2,
+      "parent_text": "5934.5(13)",
+      "P": 5934.5,
+      "dP": 1.3,
+      "daughter_difference_control": 5430.9,
+      "remainder_literal": "1.8(1)        1.15(25)d                     M1+E2          20+ → 19+",
+      "raw": " 503.6(2)   5934.5(13)    1.8(1)        1.15(25)d                     M1+E2          20+ → 19+",
+      "Ji": 20,
+      "Jf": 19,
+      "tentative": false,
+      "reported_M": "M1+E2",
+      "assigned_daughter_parent": 5430.9,
+      "nominal_endpoint_residual_keV": 0.0
+    },
+    {
+      "id": "PDF7:textline37",
+      "band": "D4",
+      "pdf_page": 7,
+      "text_line": 37,
+      "energy_text": "510.3(2)",
+      "E": 510.3,
+      "dE": 0.2,
+      "parent_text": "6444.8(14)",
+      "P": 6444.8,
+      "dP": 1.4,
+      "daughter_difference_control": 5934.5,
+      "remainder_literal": "1.0(1)        1.21(23)d                     M1+E2          21+ → 20+",
+      "raw": " 510.3(2)   6444.8(14)    1.0(1)        1.21(23)d                     M1+E2          21+ → 20+",
+      "Ji": 21,
+      "Jf": 20,
+      "tentative": false,
+      "reported_M": "M1+E2",
+      "assigned_daughter_parent": 5934.5,
+      "nominal_endpoint_residual_keV": 0.0
+    },
+    {
+      "id": "PDF7:textline38",
+      "band": "D4",
+      "pdf_page": 7,
+      "text_line": 38,
+      "energy_text": "530.1(3)",
+      "E": 530.1,
+      "dE": 0.3,
+      "parent_text": "6974.9(14)",
+      "P": 6974.9,
+      "dP": 1.4,
+      "daughter_difference_control": 6444.799999999999,
+      "remainder_literal": "0.5(1)                         0.61(12)     M1+E2          22+ → 21+",
+      "raw": " 530.1(3)   6974.9(14)    0.5(1)                         0.61(12)     M1+E2          22+ → 21+",
+      "Ji": 22,
+      "Jf": 21,
+      "tentative": false,
+      "reported_M": "M1+E2",
+      "assigned_daughter_parent": 6444.8,
+      "nominal_endpoint_residual_keV": 0.0
+    },
+    {
+      "id": "PDF7:textline41",
+      "band": "D4",
+      "pdf_page": 7,
+      "text_line": 41,
+      "energy_text": "587.4(5)",
+      "E": 587.4,
+      "dE": 0.5,
+      "parent_text": "7562.3(15)",
+      "P": 7562.3,
+      "dP": 1.5,
+      "daughter_difference_control": 6974.900000000001,
+      "remainder_literal": "0.2(1)                                                    (23+ ) → 22+",
+      "raw": " 587.4(5)   7562.3(15)    0.2(1)                                                    (23+ ) → 22+",
+      "Ji": 23,
+      "Jf": 22,
+      "tentative": true,
+      "reported_M": "",
+      "assigned_daughter_parent": 6974.9,
+      "nominal_endpoint_residual_keV": 0.0
+    }
+  ],
+  "crossover_inputs": [
+    {
+      "id": "PDF7:textline35",
+      "band": "D4",
+      "pdf_page": 7,
+      "text_line": 35,
+      "energy_text": "481.0(5)",
+      "E": 481.0,
+      "dE": 0.5,
+      "parent_text": "4210.8(11)",
+      "P": 4210.8,
+      "dP": 1.1,
+      "daughter_difference_control": 3729.8,
+      "remainder_literal": "0.4(1)                                                     16+ → 14+",
+      "raw": " 481.0(5)   4210.8(11)    0.4(1)                                                     16+ → 14+",
+      "Ji": 16,
+      "Jf": 14,
+      "tentative": false,
+      "reported_M": "",
+      "assigned_daughter_parent": 3729.4,
+      "nominal_endpoint_residual_keV": 0.4
+    },
+    {
+      "id": "PDF7:textline43",
+      "band": "D4",
+      "pdf_page": 7,
+      "text_line": 43,
+      "energy_text": "644.1(3)",
+      "E": 644.1,
+      "dE": 0.3,
+      "parent_text": "4581.6(13)",
+      "P": 4581.6,
+      "dP": 1.3,
+      "daughter_difference_control": 3937.5000000000005,
+      "remainder_literal": "0.8(1)        2.06(37)d                      E2            17+ → 15+",
+      "raw": " 644.1(3)   4581.6(13)    0.8(1)        2.06(37)d                      E2            17+ → 15+",
+      "Ji": 17,
+      "Jf": 15,
+      "tentative": false,
+      "reported_M": "E2",
+      "assigned_daughter_parent": 3937.2,
+      "nominal_endpoint_residual_keV": 0.3
+    },
+    {
+      "id": "PDF7:textline47",
+      "band": "D4",
+      "pdf_page": 7,
+      "text_line": 47,
+      "energy_text": "780.3(4)",
+      "E": 780.3,
+      "dE": 0.4,
+      "parent_text": "4990.9(13)",
+      "P": 4990.9,
+      "dP": 1.3,
+      "daughter_difference_control": 4210.599999999999,
+      "remainder_literal": "1.0(1)        2.23(31)d                      E2            18+ → 16+",
+      "raw": " 780.3(4)   4990.9(13)    1.0(1)        2.23(31)d                      E2            18+ → 16+",
+      "Ji": 18,
+      "Jf": 16,
+      "tentative": false,
+      "reported_M": "E2",
+      "assigned_daughter_parent": 4210.8,
+      "nominal_endpoint_residual_keV": -0.2
+    },
+    {
+      "id": "PDF7:textline49",
+      "band": "D4",
+      "pdf_page": 7,
+      "text_line": 49,
+      "energy_text": "849.4(5)",
+      "E": 849.4,
+      "dE": 0.5,
+      "parent_text": "5430.9(13)",
+      "P": 5430.9,
+      "dP": 1.3,
+      "daughter_difference_control": 4581.5,
+      "remainder_literal": "1.0(1)        2.12(29)d                      E2            19+ → 17+",
+      "raw": " 849.4(5)   5430.9(13)    1.0(1)        2.12(29)d                      E2            19+ → 17+",
+      "Ji": 19,
+      "Jf": 17,
+      "tentative": false,
+      "reported_M": "E2",
+      "assigned_daughter_parent": 4581.6,
+      "nominal_endpoint_residual_keV": -0.1
+    },
+    {
+      "id": "PDF7:textline51",
+      "band": "D4",
+      "pdf_page": 7,
+      "text_line": 51,
+      "energy_text": "943.8(6)",
+      "E": 943.8,
+      "dE": 0.6,
+      "parent_text": "5934.5(13)",
+      "P": 5934.5,
+      "dP": 1.3,
+      "daughter_difference_control": 4990.7,
+      "remainder_literal": "0.6(1)                         1.37(24)        E2          20+ → 18+",
+      "raw": " 943.8(6)   5934.5(13)    0.6(1)                         1.37(24)        E2          20+ → 18+",
+      "Ji": 20,
+      "Jf": 18,
+      "tentative": false,
+      "reported_M": "E2",
+      "assigned_daughter_parent": 4990.9,
+      "nominal_endpoint_residual_keV": -0.2
+    },
+    {
+      "id": "PDF7:textline52",
+      "band": "D4",
+      "pdf_page": 7,
+      "text_line": 52,
+      "energy_text": "1014.2(4)",
+      "E": 1014.2,
+      "dE": 0.4,
+      "parent_text": "6444.8(14)",
+      "P": 6444.8,
+      "dP": 1.4,
+      "daughter_difference_control": 5430.6,
+      "remainder_literal": "0.5(1)                                         E2          21+ → 19+",
+      "raw": "1014.2(4)   6444.8(14)    0.5(1)                                         E2          21+ → 19+",
+      "Ji": 21,
+      "Jf": 19,
+      "tentative": false,
+      "reported_M": "E2",
+      "assigned_daughter_parent": 5430.9,
+      "nominal_endpoint_residual_keV": -0.3
+    },
+    {
+      "id": "PDF7:textline53",
+      "band": "D4",
+      "pdf_page": 7,
+      "text_line": 53,
+      "energy_text": "1040.0(5)",
+      "E": 1040.0,
+      "dE": 0.5,
+      "parent_text": "6974.9(14)",
+      "P": 6974.9,
+      "dP": 1.4,
+      "daughter_difference_control": 5934.9,
+      "remainder_literal": "0.2(1)                         1.39(38)        E2          22+ → 20+",
+      "raw": "1040.0(5)   6974.9(14)    0.2(1)                         1.39(38)        E2          22+ → 20+",
+      "Ji": 22,
+      "Jf": 20,
+      "tentative": false,
+      "reported_M": "E2",
+      "assigned_daughter_parent": 5934.5,
+      "nominal_endpoint_residual_keV": 0.4
+    },
+    {
+      "id": "PDF7:textline54",
+      "band": "D4",
+      "pdf_page": 7,
+      "text_line": 54,
+      "energy_text": "1117.9(7)",
+      "E": 1117.9,
+      "dE": 0.7,
+      "parent_text": "7562.3(15)",
+      "P": 7562.3,
+      "dP": 1.5,
+      "daughter_difference_control": 6444.4,
+      "remainder_literal": "0.2(1)                                                    (23+ ) → 21+",
+      "raw": "1117.9(7)   7562.3(15)    0.2(1)                                                    (23+ ) → 21+",
+      "Ji": 23,
+      "Jf": 21,
+      "tentative": true,
+      "reported_M": "",
+      "assigned_daughter_parent": 6444.8,
+      "nominal_endpoint_residual_keV": -0.4
+    }
+  ],
+  "low_branch_counterexample": {
+    "correct": {
+      "id": "PDF7:textline26",
+      "band": "D4",
+      "pdf_page": 7,
+      "text_line": 26,
+      "energy_text": "207.8(5)",
+      "E": 207.8,
+      "dE": 0.5,
+      "parent_text": "3937.2(11)",
+      "P": 3937.2,
+      "dP": 1.1,
+      "daughter_difference_control": 3729.3999999999996,
+      "remainder_literal": "4.8(3)        1.14(19)d                     M1+E2          15+ → 14+",
+      "raw": " 207.8(5)   3937.2(11)    4.8(3)        1.14(19)d                     M1+E2          15+ → 14+"
+    },
+    "other": {
+      "id": "PDF7:textline27",
+      "band": "D4",
+      "pdf_page": 7,
+      "text_line": 27,
+      "energy_text": "265.0(4)",
+      "E": 265.0,
+      "dE": 0.4,
+      "parent_text": "3937.2(11)",
+      "P": 3937.2,
+      "dP": 1.1,
+      "daughter_difference_control": 3672.2,
+      "remainder_literal": "1.8(2)        0.95(25)d                     M1+E2          15+ → 14+",
+      "raw": " 265.0(4)   3937.2(11)    1.8(2)        0.95(25)d                     M1+E2          15+ → 14+"
+    },
+    "wrong_closure_keV": -57.6
+  },
+  "nominal_cycle_closures": [
+    {
+      "parent_spin": 16,
+      "cross_id": "PDF7:textline35",
+      "dipole_ids": [
+        "PDF7:textline28",
+        "PDF7:textline26"
+      ],
+      "residual_keV": -0.4,
+      "covariance": null
+    },
+    {
+      "parent_spin": 17,
+      "cross_id": "PDF7:textline43",
+      "dipole_ids": [
+        "PDF7:textline31",
+        "PDF7:textline28"
+      ],
+      "residual_keV": -0.3,
+      "covariance": null
+    },
+    {
+      "parent_spin": 18,
+      "cross_id": "PDF7:textline47",
+      "dipole_ids": [
+        "PDF7:textline33",
+        "PDF7:textline31"
+      ],
+      "residual_keV": 0.2,
+      "covariance": null
+    },
+    {
+      "parent_spin": 19,
+      "cross_id": "PDF7:textline49",
+      "dipole_ids": [
+        "PDF7:textline34",
+        "PDF7:textline33"
+      ],
+      "residual_keV": 0.1,
+      "covariance": null
+    },
+    {
+      "parent_spin": 20,
+      "cross_id": "PDF7:textline51",
+      "dipole_ids": [
+        "PDF7:textline36",
+        "PDF7:textline34"
+      ],
+      "residual_keV": 0.2,
+      "covariance": null
+    },
+    {
+      "parent_spin": 21,
+      "cross_id": "PDF7:textline52",
+      "dipole_ids": [
+        "PDF7:textline37",
+        "PDF7:textline36"
+      ],
+      "residual_keV": 0.3,
+      "covariance": null
+    },
+    {
+      "parent_spin": 22,
+      "cross_id": "PDF7:textline53",
+      "dipole_ids": [
+        "PDF7:textline38",
+        "PDF7:textline37"
+      ],
+      "residual_keV": -0.4,
+      "covariance": null
+    },
+    {
+      "parent_spin": 23,
+      "cross_id": "PDF7:textline54",
+      "dipole_ids": [
+        "PDF7:textline41",
+        "PDF7:textline38"
+      ],
+      "residual_keV": 0.4,
+      "covariance": null
+    }
+  ],
+  "estimates": {
+    "dipole_adjacent": [
+      {
+        "ids": [
+          "PDF7:textline28",
+          "PDF7:textline31"
+        ],
+        "kind": "k1 adjacent connected path",
+        "photon_step": 1,
+        "parent_step": 1,
+        "parent_spins": [
+          16,
+          17
+        ],
+        "effective_spin": 16.0,
+        "omega_mid_MeV": 0.32220000000000004,
+        "delta_E_keV": 97.2,
+        "J2_hbar2_per_MeV": 10.288065843621398,
+        "status": "finite_positive",
+        "tentative_input": false,
+        "conditional_sigma_independent_first_order": 0.06438257348026871,
+        "conditional_sigma_range_over_unknown_pair_correlation": [
+          0.05292214940134465,
+          0.0740910091618825
+        ]
+      },
+      {
+        "ids": [
+          "PDF7:textline31",
+          "PDF7:textline33"
+        ],
+        "kind": "k1 adjacent connected path",
+        "photon_step": 1,
+        "parent_step": 1,
+        "parent_spins": [
+          17,
+          18
+        ],
+        "effective_spin": 17.0,
+        "omega_mid_MeV": 0.39005,
+        "delta_E_keV": 38.5,
+        "J2_hbar2_per_MeV": 25.974025974025974,
+        "status": "finite_positive",
+        "tentative_input": false,
+        "conditional_sigma_independent_first_order": 0.45256899527740724,
+        "conditional_sigma_range_over_unknown_pair_correlation": [
+          0.20239500758981277,
+          0.6071850227694382
+        ]
+      },
+      {
+        "ids": [
+          "PDF7:textline33",
+          "PDF7:textline34"
+        ],
+        "kind": "k1 adjacent connected path",
+        "photon_step": 1,
+        "parent_step": 1,
+        "parent_spins": [
+          18,
+          19
+        ],
+        "effective_spin": 18.0,
+        "omega_mid_MeV": 0.42464999999999997,
+        "delta_E_keV": 30.7,
+        "J2_hbar2_per_MeV": 32.57328990228013,
+        "status": "finite_positive",
+        "tentative_input": false,
+        "conditional_sigma_independent_first_order": 0.3825559184144117,
+        "conditional_sigma_range_over_unknown_pair_correlation": [
+          0.10610192150579845,
+          0.5305096075289923
+        ]
+      },
+      {
+        "ids": [
+          "PDF7:textline34",
+          "PDF7:textline36"
+        ],
+        "kind": "k1 adjacent connected path",
+        "photon_step": 1,
+        "parent_step": 1,
+        "parent_spins": [
+          19,
+          20
+        ],
+        "effective_spin": 19.0,
+        "omega_mid_MeV": 0.4718,
+        "delta_E_keV": 63.6,
+        "J2_hbar2_per_MeV": 15.723270440251572,
+        "status": "finite_positive",
+        "tentative_input": false,
+        "conditional_sigma_independent_first_order": 0.0699247242184395,
+        "conditional_sigma_range_over_unknown_pair_correlation": [
+          0.0,
+          0.09888849333491556
+        ]
+      },
+      {
+        "ids": [
+          "PDF7:textline36",
+          "PDF7:textline37"
+        ],
+        "kind": "k1 adjacent connected path",
+        "photon_step": 1,
+        "parent_step": 1,
+        "parent_spins": [
+          20,
+          21
+        ],
+        "effective_spin": 20.0,
+        "omega_mid_MeV": 0.50695,
+        "delta_E_keV": 6.7,
+        "J2_hbar2_per_MeV": 149.2537313432836,
+        "status": "finite_positive",
+        "tentative_input": false,
+        "conditional_sigma_independent_first_order": 6.30079555523767,
+        "conditional_sigma_range_over_unknown_pair_correlation": [
+          0.0,
+          8.910670527957228
+        ]
+      },
+      {
+        "ids": [
+          "PDF7:textline37",
+          "PDF7:textline38"
+        ],
+        "kind": "k1 adjacent connected path",
+        "photon_step": 1,
+        "parent_step": 1,
+        "parent_spins": [
+          21,
+          22
+        ],
+        "effective_spin": 21.0,
+        "omega_mid_MeV": 0.5202,
+        "delta_E_keV": 19.8,
+        "J2_hbar2_per_MeV": 50.505050505050505,
+        "status": "finite_positive",
+        "tentative_input": false,
+        "conditional_sigma_independent_first_order": 0.9196896427568587,
+        "conditional_sigma_range_over_unknown_pair_correlation": [
+          0.25507601265177016,
+          1.275380063258851
+        ]
+      },
+      {
+        "ids": [
+          "PDF7:textline38",
+          "PDF7:textline41"
+        ],
+        "kind": "k1 adjacent connected path",
+        "photon_step": 1,
+        "parent_step": 1,
+        "parent_spins": [
+          22,
+          23
+        ],
+        "effective_spin": 22.0,
+        "omega_mid_MeV": 0.55875,
+        "delta_E_keV": 57.3,
+        "J2_hbar2_per_MeV": 17.452006980802793,
+        "status": "finite_positive",
+        "tentative_input": true,
+        "conditional_sigma_independent_first_order": 0.17759478738842144,
+        "conditional_sigma_range_over_unknown_pair_correlation": [
+          0.060914509531597896,
+          0.24365803812639159
+        ]
+      }
+    ],
+    "dipole_two_edge": [
+      {
+        "ids": [
+          "PDF7:textline28",
+          "PDF7:textline33"
+        ],
+        "kind": "k1 two-edge secant, declared midpoint convention",
+        "photon_step": 1,
+        "parent_step": 2,
+        "parent_spins": [
+          16,
+          18
+        ],
+        "effective_spin": 16.5,
+        "omega_mid_MeV": 0.34145000000000003,
+        "delta_E_keV": 135.7,
+        "J2_hbar2_per_MeV": 14.738393515106855,
+        "status": "finite_positive",
+        "tentative_input": false
+      },
+      {
+        "ids": [
+          "PDF7:textline31",
+          "PDF7:textline34"
+        ],
+        "kind": "k1 two-edge secant, declared midpoint convention",
+        "photon_step": 1,
+        "parent_step": 2,
+        "parent_spins": [
+          17,
+          19
+        ],
+        "effective_spin": 17.5,
+        "omega_mid_MeV": 0.4054,
+        "delta_E_keV": 69.2,
+        "J2_hbar2_per_MeV": 28.90173410404624,
+        "status": "finite_positive",
+        "tentative_input": false
+      },
+      {
+        "ids": [
+          "PDF7:textline33",
+          "PDF7:textline36"
+        ],
+        "kind": "k1 two-edge secant, declared midpoint convention",
+        "photon_step": 1,
+        "parent_step": 2,
+        "parent_spins": [
+          18,
+          20
+        ],
+        "effective_spin": 18.5,
+        "omega_mid_MeV": 0.45645,
+        "delta_E_keV": 94.3,
+        "J2_hbar2_per_MeV": 21.208907741251327,
+        "status": "finite_positive",
+        "tentative_input": false
+      },
+      {
+        "ids": [
+          "PDF7:textline34",
+          "PDF7:textline37"
+        ],
+        "kind": "k1 two-edge secant, declared midpoint convention",
+        "photon_step": 1,
+        "parent_step": 2,
+        "parent_spins": [
+          19,
+          21
+        ],
+        "effective_spin": 19.5,
+        "omega_mid_MeV": 0.47514999999999996,
+        "delta_E_keV": 70.3,
+        "J2_hbar2_per_MeV": 28.44950213371266,
+        "status": "finite_positive",
+        "tentative_input": false
+      },
+      {
+        "ids": [
+          "PDF7:textline36",
+          "PDF7:textline38"
+        ],
+        "kind": "k1 two-edge secant, declared midpoint convention",
+        "photon_step": 1,
+        "parent_step": 2,
+        "parent_spins": [
+          20,
+          22
+        ],
+        "effective_spin": 20.5,
+        "omega_mid_MeV": 0.51685,
+        "delta_E_keV": 26.5,
+        "J2_hbar2_per_MeV": 75.47169811320755,
+        "status": "finite_positive",
+        "tentative_input": false
+      },
+      {
+        "ids": [
+          "PDF7:textline37",
+          "PDF7:textline41"
+        ],
+        "kind": "k1 two-edge secant, declared midpoint convention",
+        "photon_step": 1,
+        "parent_step": 2,
+        "parent_spins": [
+          21,
+          23
+        ],
+        "effective_spin": 21.5,
+        "omega_mid_MeV": 0.5488500000000001,
+        "delta_E_keV": 77.1,
+        "J2_hbar2_per_MeV": 25.940337224383917,
+        "status": "finite_positive",
+        "tentative_input": true
+      }
+    ],
+    "cross_even": [
+      {
+        "ids": [
+          "PDF7:textline35",
+          "PDF7:textline47"
+        ],
+        "kind": "k2 even-parent connected path",
+        "photon_step": 2,
+        "parent_step": 2,
+        "parent_spins": [
+          16,
+          18
+        ],
+        "effective_spin": 16.0,
+        "omega_mid_MeV": 0.31532499999999997,
+        "delta_E_keV": 299.3,
+        "J2_hbar2_per_MeV": 13.364517206815902,
+        "status": "finite_positive",
+        "tentative_input": false
+      },
+      {
+        "ids": [
+          "PDF7:textline47",
+          "PDF7:textline51"
+        ],
+        "kind": "k2 even-parent connected path",
+        "photon_step": 2,
+        "parent_step": 2,
+        "parent_spins": [
+          18,
+          20
+        ],
+        "effective_spin": 18.0,
+        "omega_mid_MeV": 0.431025,
+        "delta_E_keV": 163.5,
+        "J2_hbar2_per_MeV": 24.464831804281346,
+        "status": "finite_positive",
+        "tentative_input": false
+      },
+      {
+        "ids": [
+          "PDF7:textline51",
+          "PDF7:textline53"
+        ],
+        "kind": "k2 even-parent connected path",
+        "photon_step": 2,
+        "parent_step": 2,
+        "parent_spins": [
+          20,
+          22
+        ],
+        "effective_spin": 20.0,
+        "omega_mid_MeV": 0.49595,
+        "delta_E_keV": 96.2,
+        "J2_hbar2_per_MeV": 41.58004158004158,
+        "status": "finite_positive",
+        "tentative_input": false
+      }
+    ],
+    "cross_odd": [
+      {
+        "ids": [
+          "PDF7:textline43",
+          "PDF7:textline49"
+        ],
+        "kind": "k2 odd-parent connected path",
+        "photon_step": 2,
+        "parent_step": 2,
+        "parent_spins": [
+          17,
+          19
+        ],
+        "effective_spin": 17.0,
+        "omega_mid_MeV": 0.373375,
+        "delta_E_keV": 205.3,
+        "J2_hbar2_per_MeV": 19.48368241597662,
+        "status": "finite_positive",
+        "tentative_input": false
+      },
+      {
+        "ids": [
+          "PDF7:textline49",
+          "PDF7:textline52"
+        ],
+        "kind": "k2 odd-parent connected path",
+        "photon_step": 2,
+        "parent_step": 2,
+        "parent_spins": [
+          19,
+          21
+        ],
+        "effective_spin": 19.0,
+        "omega_mid_MeV": 0.4659,
+        "delta_E_keV": 164.8,
+        "J2_hbar2_per_MeV": 24.271844660194173,
+        "status": "finite_positive",
+        "tentative_input": false
+      },
+      {
+        "ids": [
+          "PDF7:textline52",
+          "PDF7:textline54"
+        ],
+        "kind": "k2 odd-parent connected path",
+        "photon_step": 2,
+        "parent_step": 2,
+        "parent_spins": [
+          21,
+          23
+        ],
+        "effective_spin": 21.0,
+        "omega_mid_MeV": 0.5330250000000001,
+        "delta_E_keV": 103.7,
+        "J2_hbar2_per_MeV": 38.572806171648985,
+        "status": "finite_positive",
+        "tentative_input": true
+      }
+    ],
+    "cross_interleaved": [
+      {
+        "ids": [
+          "PDF7:textline35",
+          "PDF7:textline43"
+        ],
+        "kind": "k2 parentstep1 interleaved estimate, not one connected E2 path",
+        "photon_step": 2,
+        "parent_step": 1,
+        "parent_spins": [
+          16,
+          17
+        ],
+        "effective_spin": 15.5,
+        "omega_mid_MeV": 0.281275,
+        "delta_E_keV": 163.1,
+        "J2_hbar2_per_MeV": 12.262415695892091,
+        "status": "finite_positive",
+        "tentative_input": false
+      },
+      {
+        "ids": [
+          "PDF7:textline43",
+          "PDF7:textline47"
+        ],
+        "kind": "k2 parentstep1 interleaved estimate, not one connected E2 path",
+        "photon_step": 2,
+        "parent_step": 1,
+        "parent_spins": [
+          17,
+          18
+        ],
+        "effective_spin": 16.5,
+        "omega_mid_MeV": 0.3561,
+        "delta_E_keV": 136.2,
+        "J2_hbar2_per_MeV": 14.684287812041116,
+        "status": "finite_positive",
+        "tentative_input": false
+      },
+      {
+        "ids": [
+          "PDF7:textline47",
+          "PDF7:textline49"
+        ],
+        "kind": "k2 parentstep1 interleaved estimate, not one connected E2 path",
+        "photon_step": 2,
+        "parent_step": 1,
+        "parent_spins": [
+          18,
+          19
+        ],
+        "effective_spin": 17.5,
+        "omega_mid_MeV": 0.407425,
+        "delta_E_keV": 69.1,
+        "J2_hbar2_per_MeV": 28.943560057887122,
+        "status": "finite_positive",
+        "tentative_input": false
+      },
+      {
+        "ids": [
+          "PDF7:textline49",
+          "PDF7:textline51"
+        ],
+        "kind": "k2 parentstep1 interleaved estimate, not one connected E2 path",
+        "photon_step": 2,
+        "parent_step": 1,
+        "parent_spins": [
+          19,
+          20
+        ],
+        "effective_spin": 18.5,
+        "omega_mid_MeV": 0.4483,
+        "delta_E_keV": 94.4,
+        "J2_hbar2_per_MeV": 21.1864406779661,
+        "status": "finite_positive",
+        "tentative_input": false
+      },
+      {
+        "ids": [
+          "PDF7:textline51",
+          "PDF7:textline52"
+        ],
+        "kind": "k2 parentstep1 interleaved estimate, not one connected E2 path",
+        "photon_step": 2,
+        "parent_step": 1,
+        "parent_spins": [
+          20,
+          21
+        ],
+        "effective_spin": 19.5,
+        "omega_mid_MeV": 0.4895,
+        "delta_E_keV": 70.4,
+        "J2_hbar2_per_MeV": 28.409090909090907,
+        "status": "finite_positive",
+        "tentative_input": false
+      },
+      {
+        "ids": [
+          "PDF7:textline52",
+          "PDF7:textline53"
+        ],
+        "kind": "k2 parentstep1 interleaved estimate, not one connected E2 path",
+        "photon_step": 2,
+        "parent_step": 1,
+        "parent_spins": [
+          21,
+          22
+        ],
+        "effective_spin": 20.5,
+        "omega_mid_MeV": 0.51355,
+        "delta_E_keV": 25.8,
+        "J2_hbar2_per_MeV": 77.51937984496124,
+        "status": "finite_positive",
+        "tentative_input": false
+      },
+      {
+        "ids": [
+          "PDF7:textline53",
+          "PDF7:textline54"
+        ],
+        "kind": "k2 parentstep1 interleaved estimate, not one connected E2 path",
+        "photon_step": 2,
+        "parent_step": 1,
+        "parent_spins": [
+          22,
+          23
+        ],
+        "effective_spin": 21.5,
+        "omega_mid_MeV": 0.539475,
+        "delta_E_keV": 77.9,
+        "J2_hbar2_per_MeV": 25.67394094993581,
+        "status": "finite_positive",
+        "tentative_input": true
+      }
+    ]
+  },
+  "conditional_adjacent_covariance": {
+    "assumption": "quoted marginal dE interpreted as independent sigma; first-order only",
+    "matrix": [
+      [
+        0.0041451157679422,
+        -0.02570682919141045,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        -0.02570682919141045,
+        0.20481869548640186,
+        -0.0644234976253794,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        -0.0644234976253794,
+        0.14634903071389405,
+        -0.010492259157647886,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        -0.010492259157647886,
+        0.0048894670570248195,
+        -0.22029069577838176,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        -0.22029069577838173,
+        39.70002462890278,
+        -2.272898308324974,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -2.272898308324974,
+        0.8458290389942384,
+        -0.06992023591781209
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -0.06992023591781209,
+        0.031539908507538614
+      ]
+    ],
+    "source_covariance": null
+  },
+  "declared_selection_sensitivity": {
+    "kind": "one-pass declared sensitivity; not the author Nd selection or an assigned Pr low group",
+    "actual_interaction_mask": null,
+    "chosen_interaction_mask": "all selected points retained before display rule",
+    "frequency_cut_MeV": 0.3,
+    "initial_mean": 43.10992014133085,
+    "threshold": 86.2198402826617,
+    "excluded_before_display": [],
+    "removed_ids": [
+      [
+        "PDF7:textline36",
+        "PDF7:textline37"
+      ]
+    ],
+    "kept_ids": [
+      [
+        "PDF7:textline28",
+        "PDF7:textline31"
+      ],
+      [
+        "PDF7:textline31",
+        "PDF7:textline33"
+      ],
+      [
+        "PDF7:textline33",
+        "PDF7:textline34"
+      ],
+      [
+        "PDF7:textline34",
+        "PDF7:textline36"
+      ],
+      [
+        "PDF7:textline37",
+        "PDF7:textline38"
+      ],
+      [
+        "PDF7:textline38",
+        "PDF7:textline41"
+      ]
+    ],
+    "removed_values": [
+      149.2537313432836
+    ],
+    "retained_mean": 25.419284941005397
+  },
+  "boundaries": [
+    "assigned spin steps/path conditional; tentative I23 and four M blanks preserved",
+    "photon energy common offset differs from an excitation-energy reference shift",
+    "stencil estimates are correlated and evaluated at different positions, not independent data",
+    "screen is declared Pr sensitivity, not Petrache Nd mask, fit, or published average reproduction",
+    "no absolute gamma/rotation-axis/shape assignment or actual response/covariance inferred"
+  ],
+  "checks": {
+    "actual_source_hash": true,
+    "actual_table_scope": true,
+    "actual_PC22_source_hash": true,
+    "actual_PC22_two_edge_denominator": true,
+    "actual_spin_parent_16_1": true,
+    "actual_literal_row_16_1": true,
+    "actual_spin_parent_16_2": true,
+    "actual_literal_row_16_2": true,
+    "actual_spin_parent_17_1": true,
+    "actual_literal_row_17_1": true,
+    "actual_spin_parent_17_2": true,
+    "actual_literal_row_17_2": true,
+    "actual_spin_parent_18_1": true,
+    "actual_literal_row_18_1": true,
+    "actual_spin_parent_18_2": true,
+    "actual_literal_row_18_2": true,
+    "actual_spin_parent_19_1": true,
+    "actual_literal_row_19_1": true,
+    "actual_spin_parent_19_2": true,
+    "actual_literal_row_19_2": true,
+    "actual_spin_parent_20_1": true,
+    "actual_literal_row_20_1": true,
+    "actual_spin_parent_20_2": true,
+    "actual_literal_row_20_2": true,
+    "actual_spin_parent_21_1": true,
+    "actual_literal_row_21_1": true,
+    "actual_spin_parent_21_2": true,
+    "actual_literal_row_21_2": true,
+    "actual_spin_parent_22_1": true,
+    "actual_literal_row_22_1": true,
+    "actual_spin_parent_22_2": true,
+    "actual_literal_row_22_2": true,
+    "actual_spin_parent_23_1": true,
+    "actual_literal_row_23_1": true,
+    "actual_spin_parent_23_2": true,
+    "actual_literal_row_23_2": true,
+    "four_source_M_blanks_preserved": true,
+    "tentative_23_preserved": true,
+    "connected_reported_path_dipole": true,
+    "connected_reported_path_cross_even": true,
+    "connected_reported_path_cross_odd": true,
+    "same_parent_same_deltaI_not_same_endpoint": true,
+    "printed_closure_residuals_not_forced_zero": true,
+    "wrong_low_path_fails_nominal_closure": true,
+    "different_stencil_locations_preserved": true,
+    "crossover_parentstep_distinguished": true,
+    "actual_interleaving_not_one_E2_path": true,
+    "two_edge_is_harmonic_not_arithmetic_0": true,
+    "two_edge_is_harmonic_not_arithmetic_1": true,
+    "two_edge_is_harmonic_not_arithmetic_2": true,
+    "two_edge_is_harmonic_not_arithmetic_3": true,
+    "two_edge_is_harmonic_not_arithmetic_4": true,
+    "two_edge_is_harmonic_not_arithmetic_5": true,
+    "conditional_covariance_psd": true,
+    "shared_gamma_induces_neighbor_covariance": true,
+    "common_photon_offset_cancels_curvature": true,
+    "common_energy_gain_sensitivity": true,
+    "declared_display_sensitivity_nonempty": true,
+    "quadratic_rotor_correct_parentstep_dipole": true,
+    "quadratic_rotor_correct_parentstep_cross_all": true,
+    "quadratic_rotor_correct_parentstep_cross_even": true,
+    "quadratic_rotor_correct_parentstep_cross_odd": true,
+    "quadratic_rotor_two_edge": true,
+    "wrong_four_factor_on_interleaved_crossovers_doubles": true,
+    "absolute_spin_label_shift_invariant": true,
+    "excitation_zero_cancels_before_photon_derivation": true,
+    "common_energy_offset_changes_frequency_only": true,
+    "common_gain_not_cancelled": true,
+    "zero_denominator_not_silent_drop": true,
+    "negative_secant_retained": true,
+    "actual_deltaI0_outside_estimator": true
+  },
+  "check_count": 71,
+  "passed": true
+}

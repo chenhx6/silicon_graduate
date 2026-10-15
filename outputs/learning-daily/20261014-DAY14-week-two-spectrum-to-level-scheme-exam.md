@@ -93,6 +93,10 @@ ZT15-3/4直接给出分开归一U/V、分别最大化O1/O2及继承/反转blocki
 
 PT15-5是负/正γ对应中间/短轴的模型语境，PT15-6明确要求寿命来检验其真实与否；没有Pr136实际frame。PT15-4的J2图和均值有不同选带/interaction/频率/低组图示删点规则，不能忽略这些边界把51/23分组当唯一γ测量。此为二级Nd系统学，不是新独立Pr136实验。
 
+### 直接能级链与有限差分来源
+
+回实际[[lv-2025-136pr-tac-covariant-density-functional]] TableI/Fig1得LV25-34/35：同3937.2-keV15+母态经207.8/265.0接不同14+；D4的16–23子链及crossover两条signature需按graph选。[[peng-chen-2022-chiral-rotation-rhodium-isotopes]] PC22-19另定向核原PDF6 Eq2/3与ω句，确为跨两条γ的source-specific式，保留其原频率标签。[source audit](20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/pr136-inertia-source-audit.json)明确此轮未重做PC22全文或新实验。
+
 ## Theory/analysis exercise
 
 七边的中心值闭合为`+0.2,+0.4,+0.3 keV`。D的rank4、三个cycle、绝对offset nullspace均由代码核验。独立0.1-keV拟合误差下条件χ²=6.666667；自设将caption约0.3 keV按quadrature加上、并令各线独立后，χ²=0.666667，dof3。后者cycle Σ为`0.1×(3,1,0; 1,3,1; 0,1,3) keV²`，不是三个可相乘的独立检验。
@@ -269,6 +273,16 @@ checkpoint008实际观察为上海15:37，立即停止新研究；最后已保�
 
 PT15-9将“J2不依赖绝对spin/Ex赋值”与必须核相邻线身份、ΔI和排序分开。既有[[moments-of-inertia]]还保留Rh的source-specific centered差分；下一实际Pr136练习要先定义stencil和正确path，不能先套一个通用分母或把双signature crossover序列混作同一路。此项尚未计算，不当已完成结果。
 
+### 71-check：实际D4曲率、位置与筛选
+
+[量化前约定](20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/pr136-j2-before-calculation.md)先冻结stencil/parentstep/图路径；`python3 system/scripts/day14_pr136_inertia_paths.py`最终71项检查exit0，[analysis](20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/pr136-inertia-paths.json)保留全部输入/pairs/位置/条件协方差。首68项后补directPC22式与从level energy起点形成γ的控制，最终71全true。
+
+本任务取`x=eγ/k`，`J2_hat/ℏ²=Δip/Δx=kΔip/Δeγ`，并单列edge-pair的spin/frequency中点；这不替代源作者坐标。绝对I/Ex起点取消不代表path/k可忽略，交错crossover连续parent的step1不可默当same-signature step2。对同一quadratic rotor，正确因子都回到声明25，错套4会给50。
+
+实际dipole相邻7点为10.288、25.974、32.573、15.723、149.254、50.505、17.452 ħ²/MeV。149.254来自503.6/510.3差6.7keV；跨两条γ的峰75.472在另一位置，是相邻值的harmonic mean而非arithmetic mean。偶/奇crossover各3点和交错估计也有各自位置，不能当26个独立数据点。
+
+若将quoted dE当独立σ，仅一阶条件下峰的σ≈6.301；允许未知pair相关性时为0–8.911，非实验CI。共享γ使相邻J2有相关性。声明保持本组interaction点、频率>.3后一次≥2×initialmean显示筛选会将mean43.110变25.419，完整removed point/mask保留；不是作者对Pr的筛选或Nd51/23重现/偏差显著性。4个M空、I23tentative和原closure残差不改。
+
 ## Counter-evidence and missing companion observables
 
 HE15-9的实际未定双线是核心反例：energy sum、共享R/A和假设的ΔI=2均不足以裁决order。若一条线出现可独立定位的旁路或延迟顺序，应重审中间level；source仍保留括号Jπ与(E2)。HE15-5的quadruplet限制“一个峰是一条γ”的简化；干净622.4直接分支门与323.4级联门的299-keVcomponent差异可能迫使拆峰，但必须控制622/626门纯度、feeding、response和random。
@@ -294,6 +308,10 @@ ZT15-6回弯区结果省略；ZT15-9的“无统一.3因子”是作者对选定
 ### Nd伴随源的限制
 
 源文自身把寿命作为轴解释的待检验观测，且同时讨论形变/对齐占据与crossing；PT15-7不支持J2到γ的单值反演。低组删点是作者明确披露的图示选择，当前没有完整数据检验其影响，不指控作者错误或重算显著性。PT15-8不能替Pr136补lowΩ/highΩ完整输入、actual tensor/axis或原1996次序原因。
+
+### 从曲率到结构判断的限制
+
+同母态/同ΔI还不足以选daughter；错把265.0代替207.8配481.0，closure残差从名义−.4变−57.6keV。正确图链也有−.4…+.4的打印残差，当前没有Σ，不把这些数转为独立χ²。J2对absolute起点不敏感与对差分/校准/interaction敏感必须同时保留。原始mask、校准共同Σ和必要寿命/完整EM链缺失，不能只凭局部曲率或筛选均值为Pr定γ/轴/共存。
 
 ## Knowledge Impact and Learning Decision
 
@@ -342,6 +360,10 @@ Decision: limits source模型γ、替代转轴与实验共存之间的直接等�
 ### 伴随源后的决定
 
 Decision: supports signedγ的相对轴语境，limits source引用/J2gap直接升级为唯一形状证据。持久化source、现有triaxial概念与LV25的Ref48核验和索引；不扩大Nd核素页/项目或改Pr136排序。下一高信息量回到当前level-chain的实际差分定义与selection敏感性，不重复同一几何toy。
+
+### 有序能量练习后的决定
+
+Decision: supports 先建graph再构造observable；limits 以band标签、绝对spin未知时的捷径或单一J2峰/均值认证结构。已从实际数据完成原计划下一步，保留source-specific PC22式及本任务明确stencil，不给Day15信用或改变formal21/24。下一信息增益应来自必要的实际寿命/Qt输入、原始mask或更多直接资料，不继续换同一stencil toy参数。
 
 ## Durable knowledge delta
 
@@ -2251,6 +2273,78 @@ Decision: supports signedγ的相对轴语境，limits source引用/J2gap直接�
           "locator": "PT15-1"
         }
       ]
+    },
+    {
+      "knowledge": "knowledge/observables/moments-of-inertia.md",
+      "anchor": "绝对标签、有限差分与有序路径",
+      "summary": "新增实际D4有限response、stencil/位置/交错signature、条件协方差与声明筛选敏感性，不赋Pr形状或复现Nd均值。",
+      "sources": [
+        {
+          "path": "knowledge/sources/lv-2025-136pr-tac-covariant-density-functional.md",
+          "locator": "LV25-34"
+        },
+        {
+          "path": "knowledge/sources/lv-2025-136pr-tac-covariant-density-functional.md",
+          "locator": "LV25-35"
+        },
+        {
+          "path": "knowledge/sources/peng-chen-2022-chiral-rotation-rhodium-isotopes.md",
+          "locator": "PC22-19"
+        },
+        {
+          "path": "knowledge/sources/petrache-2015-nd-exotic-rotations-triaxiality.md",
+          "locator": "PT15-4"
+        },
+        {
+          "path": "knowledge/sources/petrache-2015-nd-exotic-rotations-triaxiality.md",
+          "locator": "PT15-9"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/methods/level-scheme-reconstruction.md",
+      "anchor": "136Pr：动力学惯量需要有序路径",
+      "summary": "固化两个14+分支的小graph与nominalclosure，区分相同band/母态/ΔI与有序路径。",
+      "sources": [
+        {
+          "path": "knowledge/sources/lv-2025-136pr-tac-covariant-density-functional.md",
+          "locator": "LV25-34"
+        },
+        {
+          "path": "knowledge/sources/lv-2025-136pr-tac-covariant-density-functional.md",
+          "locator": "LV25-35"
+        },
+        {
+          "path": "knowledge/sources/petrache-2015-nd-exotic-rotations-triaxiality.md",
+          "locator": "PT15-9"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/sources/lv-2025-136pr-tac-covariant-density-functional.md",
+      "anchor": "D4有序能量练习",
+      "summary": "新增graph/6.7keV差的source rows及本任务派生边界，保留原claims/review。",
+      "sources": [
+        {
+          "path": "knowledge/sources/lv-2025-136pr-tac-covariant-density-functional.md",
+          "locator": "LV25-34"
+        },
+        {
+          "path": "knowledge/sources/lv-2025-136pr-tac-covariant-density-functional.md",
+          "locator": "LV25-35"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/sources/peng-chen-2022-chiral-rotation-rhodium-isotopes.md",
+      "anchor": "Day14定向公式回查",
+      "summary": "直接核PDF6 Eq2/3与频率句，新增locator且不替作者图坐标或扩原review。",
+      "sources": [
+        {
+          "path": "knowledge/sources/peng-chen-2022-chiral-rotation-rhodium-isotopes.md",
+          "locator": "PC22-19"
+        }
+      ]
     }
   ]
 }
@@ -2360,6 +2454,8 @@ Danko99primary合法OA/publicPDF/官方API/repo均未提供正文（403HTML/401J
 新增canonical为[[triaxial-deformation]]“形状张量、轴置换与signedγ分开”、[[lv-2025-136pr-tac-covariant-density-functional]] LV25-33和“γ、模型形状与替代转轴场景的定向复核”、[[136pr]]“γ与相对转轴的解释边界”、[[a130-model-choice-card]]“136Pr的γ、形状与转轴分层”。这些页保有50-check推导、实际模型值/alternative locator与未知frame边界，outputs不是唯一副本。
 
 新增canonical为[[petrache-2015-nd-exotic-rotations-triaxiality]] PT15-1–9及Table1算术、[[triaxial-deformation]]“Nd系统学的直接伴随源”、[[lv-2025-136pr-tac-covariant-density-functional]]“Ref48的实际证据层级”。作者待检验解释、mask缺口、数据独立性和公开取得PDF/许可未核均有source locator，未把outputs当唯一知识副本。
+
+新增canonical为[[moments-of-inertia]]“绝对标签、有限差分与有序路径”、[[level-scheme-reconstruction]]“136Pr：动力学惯量需要有序路径”、LV25-34/35和[[peng-chen-2022-chiral-rotation-rhodium-isotopes]] PC22-19。实际能量表、名义曲率、graph/位置、条件Σ与筛选边界在knowledge保有副本；outputs只作完整可重放回执。
 
 ## Open questions and belief revision
 
@@ -2577,3 +2673,10 @@ wiki_lint --fail-on error实际exit0，0errors/131warnings（107citationkey、21
 2026-10-15T19:11:11.983666+08:00：Petrache2015全文印刷3页、Fig1/Table1及寿命/筛选讨论核验，四行census算术一致；report/card/writeback valid，唯一block89items/29changed knowledge页。9新PT15 claims parsed true；原concept/LV25旧行和review保持，raw metadata/PLAN/Bib与git diff --check exit0。`wiki_lint --fail-on error`实际exit0，0errors/137warnings（110空citation key、24未填raw槽、3reaction parser）。下载器TDM→OA标签未采纳；本run两份方法PDF身份回执缩为已核书目信息，实际PDF/hash不改。
 
 前25批Gitee已发布；本批稳定 main / `Trace DAY14 gamma-axis interpretation to selected Nd systematics`，实际H3/hash只回执。下一`pr136-j2-before-calculation.md`已freeze但未计算：absolute I/Ex offset与有序path/ΔI分开，明确adjacent/centered stencil和E2 interleaved signatures，不重算Nd51/23或预判Pr轴。研究仍active至2026-10-16 15:00、16:00最终交付，formal21/24、Day14/partial15及official next14/count13保持。
+
+
+### Checkpoint027 延期有序能量验收
+
+2026-10-15T19:45:04.357380+08:00：71项actual D4 path/closure/stencil/signature/offset/条件Σ/显示筛选检查全部true、exit0；report/card/writeback valid，唯一block93items/31changed knowledge页。LV25-34/35与PC22-19 parsed true，原observable/method/source旧行与review保持，raw metadata/PLAN/Bib/AST及git diff --check exit0。`wiki_lint --fail-on error`实际exit0，0errors/137warnings（110空citation key、24未填raw槽、3reaction parser）。所有stencil pair/位置、M空/I23tentative、非零closure、条件误差与删点mask均保留，没有Pr新γ/轴或Nd均值复现。
+
+前26批Gitee已发布；本批稳定 main / `Reconstruct DAY14 inertia from ordered gamma paths`，actualH3/hash只回执。候选池转必要实际寿命/Qt来源：Matev2007 metadata核为additivity题，不能先当新实验；优先核已匹配题名的Laird2002 PRL88,152501公开fulltext，source-before recall已修正，正文尚未读。研究仍active至2026-10-16 15:00、16:00交付，formal21/24、Day14/partial15和official next14/count13不变。

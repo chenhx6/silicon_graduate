@@ -1,0 +1,17 @@
+{
+  "at": "2026-10-15T19:34:27.806472+08:00",
+  "source": "knowledge/sources/lv-2025-136pr-tac-covariant-density-functional.md",
+  "source_sha256": "c8e14461975a7606d7e38325d6e83b500e75d232027b118743e1f1ff754537d6",
+  "scope": "actualPDF7 TableI D4, PDF4 Fig1; previously fullmainline read, this turn targeted path/energy verification",
+  "dipole_main_rows": 8,
+  "crossover_main_rows": 8,
+  "branch_counterexample": "3937.2(15+) to two distinct14+ endpoints via207.8/265.0; Fig1 visual reread",
+  "companion": "PC22 PDF6 Eq2/3 and frequency sentence, hash checked and visually reread only; old fullscope/review kept",
+  "named_PC22_frequency_not_replaced": true,
+  "uncovered": [
+    "actual source energy/calibration covariance",
+    "original Nd perband sequence/selection masks",
+    "true Pr rotation-axis or shape constraints"
+  ],
+  "science_kind": "declared finite energy response of actual reported graph, not original-event fit"
+}

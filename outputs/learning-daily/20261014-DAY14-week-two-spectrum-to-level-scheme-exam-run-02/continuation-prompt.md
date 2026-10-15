@@ -102,3 +102,12 @@ Petrache2015 Ref48直接源3页全文/Fig1/Table1已核，PT15-1–9；source+tr
 前25批published；本批subject Trace DAY14 gamma-axis interpretation to selected Nd systematics，actualH3/hash看publication-026.json。下一pr136-j2-before-calculation.md已freeze但未计算，请完整读该短文件：actualD4有序path，k与parentstep、adjacent/centered stencil、E2交错signature、translation invariance和声明筛选敏感性。先回原TableI，不把所有E2 rows当同路step2，不填M空/I23tentative；不重算Nd51/23、不给Pr定γ/轴/actualMOI。
 
 研究至2026-10-16 15:00、16:00最终交付，Day14/partial15、formal21/24、official next14/count13保持；goalactive，不新card/session/daemon。旧193Bi响应/τ/events、Pr模型input与1996primary缺，但此当前能量问题仍有高信息路线，不能提前结束。
+
+
+## 最新checkpoint027
+
+D4 orderedgamma J2练习已完成71checks，sourceLV25-34/35、PC22-19及moments-of-inertia/level-scheme canonical。k/parentstep、photon/stencil位置、两条signature/交错估计、closure、offset/gain、条件Σ和完整显示mask分开。93items31pages，oldrows/review/raw/protected/AST/diff保持，freshlint0errors137warnings，3newclaims parsedtrue。没有Pr新γ/axis、原Σ或Nd51/23复现。
+
+前26批published；本批subject Reconstruct DAY14 inertia from ordered gamma paths，actualH3/hash看publication-027.json。下一nd-qt-companion-before-source.md须读metadata后修正：Matev2007 DOI10.1103/PhysRevC.76.034304题为Additivity...，未读body，不预设是新实验；优先Laird2002 DOI10.1103/PhysRevLett.88.152501已核题名Quadrupole Moments...A~135，arxiv0，downloader/fulltext可能pending，先poll现有stdout/manifest，不重开daemon/session。正文尚未读，先验证PDF/title/hash，再沿mainline/fig/table/uncertainty及Qt→γ边界。PT15Ref32/46重复卷文章号与原数据复用须核，不新增Pr实验。
+
+旧Wiki PE98/KL99已做scopefingerprint而未重读raw；正式Day14 card不变。研究仍active至2026-10-16 15:00、16:00交付，formal21/24、Day14/partial15和official next14/count13保持。不把局部路径问题完成当窗口结束，也不重复同stencil toy换数。

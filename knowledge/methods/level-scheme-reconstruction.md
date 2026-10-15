@@ -226,6 +226,24 @@ HE15-9的393/394order未定仍是实际来源结论。[[angular-correlation]]“
 
 自设19/2→15/2→11/2的binomial/total-J²-ladder与full amplitudes相同；自设19/2→17/2→13/2控制在chosen alignment下可不对称。两者均非193Bi新spin/parity或line placement；shared R/A不分配逐线，原Q/(E2)/π和review状态保留。脚本/结果/完整proof见上述canonical方法页，不报告actual order fit或significance。
 
+## 136Pr：动力学惯量需要有序路径
+
+[[lv-2025-136pr-tac-covariant-density-functional]] LV25-34的D4低端有两个14+分支。下面是Fig1/TableI局部示意（能量单位keV，不按比例画；保留所报γ值，闭合残差不强制为0）：
+
+```mermaid
+flowchart TB
+  P16["4210.8；16+"] -->|"273.6"| P15["3937.2；15+"]
+  P16 -->|"481.0"| H14["3729.4；14+"]
+  P15 -->|"207.8"| H14
+  P15 -->|"265.0"| L14["3672.6；14+"]
+```
+
+把481.0与273.6+207.8比较得名义闭合残差−.4keV；若只按同母态/同ΔI错选265.0，则残差−57.6keV。正确source链也仍有四舍五入/拟合/校准相关性，不能用零残差替代图中端点证据。所选16–23链的8个crossover闭合残差在−.4…+.4keV内，只作原数字检查，不是本任务重新评价的置信区间。
+
+[[petrache-2015-nd-exotic-rotations-triaxiality]] PT15-9所说J2不依赖绝对spin/Ex，不等于不需要上述graph、相对步长与边次序。[[moments-of-inertia]]“绝对标签、有限差分与有序路径”给出71-check实际D4练习：高spin相邻dipole、跨两条、偶/奇crossover和交错parent的不同估计位置均保留；source M空与I23tentative不补。相同band标签并非一条有序path，同ΔI也不能唯一选daughter。
+
+估计时须分别记录photon step k与parent interval Δip；同signature的ΔI2路径parentstep2与交错parentstep1不可默换因子。多个stencil共享γ，协方差和筛选mask是必要输入；未给这些时，图形gap/均值/一个局部曲率峰不升级为唯一γ或轴证据。
+
 ## Sources
 
 - [[herzan-2015-193bi-spectroscopy]] HE15-4：PDF p.3 Table I / p.8 Fig.2 / p.2 setup-specific ratios。

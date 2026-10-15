@@ -99,6 +99,8 @@ The paper combines a new high-statistics JUROGAM II 136Pr level scheme with PC-P
 | LV25-31 | TableI D4可逐同parent配16–23的dipole/crossoverγ对，Fig9(c)有8个对应spin的log-scale B(M1)/B(E2)点，单位μN²/(e²b²)。481、370.8、587.4、1117.9的table M栏为空（481正文称quadrupole）；重算需声明component/purity而非补写逐线已测pureM。文中未为该组给完整δ/Cov/逐点算法。 | reported-table-figure-and-input-boundary | direct | PDF p.7 TableI D4; PDF p.5 SecII D4; PDF p.11 Fig9(c) | true |
 | LV25-32 | AcceptedTableII的valence十行相对Z50/N82给净9p/−5n；Q1/Q1*的unpaired neutron列仅列h11/2^-1与intruder^1，sd未列。若该列被当evenpairedreference上的完整pair-reduced inventory，listed(up,un)=(3,0)留下(6,−5)差，总差1为奇数，不能仅以任何two-fermion pairs补全；若active标签/未列spectator则解释不同。此为本任务条件审计，不证明程序错误。 | our-inference-from-literal-model-input | derived | PDF p.15 TableII ConfigQ1/ConfigQ1*; PDF p.11 Figs9/10captions | true |
 | LV25-33 | TableII报D4(.17,35°)、D6(.19,39°)，Fig16仅展示γ0–60°扇区；PDF12另称D4γ<0绕medium axis、D6γ>0绕short axis为alternative shape-coexistence场景，并使用irrotational-flow假设。本文未给该alternative与表/图之间的逐态signedγ/轴映射，不能自行给D4改号或把两场景合为实验共存事实。 | reported-model-and-alternative-frame-boundary | direct-and-derived | PDF p.12 alternate D4/D6 paragraph; PDF p.15 TableII; PDF p.15 Fig16 | true |
+| LV25-34 | D4的3937.2-keV15+母态经207.8(5)/265.0(4)到不同14+支路，Fig1将较高14+经208线接15+；481.0 crossover须沿该层级链核对。相同band标签、母态和ΔI不保证同一daughter/path。 | experimental-graph-and-input-boundary | direct-and-derived | PDF p.7 TableI D4 rows207.8/265.0/481.0; PDF p.4 Fig1 D4 | true |
+| LV25-35 | D4中5934.5-keV20+、6444.8-keV21+母态的reported ΔI1 γ分别为503.6(2)、510.3(2)keV，中心能量差6.7keV；用它们构造任何曲率估计仍需声明stencil、频率位置及误差相关性，原文未给这些线的共同Σ。 | reported-energy-difference-and-boundary | direct-and-derived | PDF p.7 TableI D4 rows503.6/510.3 | true |
 
 ## Nuclear Structure Information
 
@@ -200,3 +202,7 @@ LV25-33将PDF12的alternative段与PDF15的TableII/Fig16分开。Fig11的ConfigD
 ### Ref48的实际证据层级
 
 后续直接核读[[petrache-2015-nd-exotic-rotations-triaxiality]]全文及Fig1/Table1。PT15-5把calculated负/正γ与中间/短轴联系，PT15-6仍要求寿命检验轴变化，PT15-4说明J^(2)选带/均值/图示删点。它补的是本段alternative的Nd系统学语境，没有136Pr逐态轴映射，也没有完整展开D4/D6特定lowΩ/highΩ极化输入。故Ref48引用本身不补actual frame/共存实证，原LV25-33及review状态保持。
+
+### D4有序能量练习
+
+LV25-34/35回到实际TableI/Fig1，支撑[[level-scheme-reconstruction]]“136Pr：动力学惯量需要有序路径”与[[moments-of-inertia]]的71-check练习。这里的相邻/跨两条/偶奇crossover曲率是本任务明确stencil与位置的派生值，不是作者新增J2数据；四个M空和I23tentative保持。Closure的非零小残差未强制修平，共同Σ缺失；声明筛选敏感性不等于重算Nd51/23或给Pr定γ/轴。原claims/review保留。

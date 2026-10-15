@@ -10,9 +10,9 @@ updated: 2026-10-15
 
 同run2026-10-14-day-14-02/session01a13a0e-e8bd-7251-b970-f6975679e281。用户断网延期最终delivery **2026-10-16 16:00上海**；plannedresearchcutoff15:00，closeout15–16，不延至17。Nativegoal/researchactive；formal14七边35checks/21/24/weeklyREFLECT完成，completed14/partial15、officialnext14/count13等最终一次credit，不开Day16。
 
-第026批：Petrache2015 Ref48正文3页/Fig1/Table1已核，PT15-1–9。选带/均值范围/低组图示删点、模型gamma/axis与待寿命检验分层；Table1 73=46Q+27D非独立采集，Nd51/23未重算。Tool TDM→OA标签未采纳，公开PDF实际取得/许可未核，raw未归档。Source/concept/LV25Ref48/index同步；89items29changedpages，oldrows/review/raw/protected/diff保持，freshlint0errors137warnings（110citekey/24rawslot/3parser）。
+第027批：actual D4有序gamma path/closure/相对ΔI/stencil/signature/offset与条件Σ/筛选71checks通过；LV25-34/35、PC22-19（PDF6式直接核）及observable/method同步。M4空/I23tentative/closure非零保持，149.254与另位置75.472不当矛盾，declaredmean筛选不是Nd51/23或Pr定轴。93items31changedpages，oldrows/review/raw/protected/AST/diff保持，freshlint0errors137warnings（110citekey/24rawslot/3parser），3newclaims parsedtrue。
 
-前25批Gitee已published；本批main / `Trace DAY14 gamma-axis interpretation to selected Nd systematics`，actualH3/hash仅receipt。下一pr136-j2-before-calculation.md已freeze未算：actualD4的k/parentstep与adjacent/centered/E2交错signature差分，offset不敏感与path/ΔI依赖分开；不填M空/I23tentative，不重算Nd51/23或Pr定轴。193Bi实际response/τ/events及PrRHBinput/1996primary仍缺；投影覆盖2/7不变。
+前26批Gitee已published；本批main / `Reconstruct DAY14 inertia from ordered gamma paths`，actualH3/hash仅receipt。下一nd-qt-companion-before-source.md含修正：Matev2007是Additivity题，未读body，不预设新τ实验；优先已核题名Laird2002 PRL88,152501（arxiv0，download可能pending），先poll manifest再核PDF。查Qt/γ实际实验与模型/重复引用，不把Nd移给Pr。旧PE98/KL99只作Wiki scopefingerprint；actual Prframe/RHBinput/Σ/1996primary仍缺，投影覆盖2/7不变。
 
 Clock001/002/005/008actualACK；旧Farmer8686/clock75781notlive未重启。恢复 `codex resume 01a13a0e-e8bd-7251-b970-f6975679e281 -C /workspace/wiki -s danger-full-access -a never`，先run.json/最新continuation按新时间门继续。保留raw/PLAN/Bib/review/继承dirty/log/daemon/scheduler混合文件，manifest/H3非force发布。
 
