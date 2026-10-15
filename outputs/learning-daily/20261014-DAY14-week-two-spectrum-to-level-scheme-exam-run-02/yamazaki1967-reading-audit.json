@@ -1,0 +1,40 @@
+{
+  "at": "2026-10-15T23:08:50.935554+08:00",
+  "role": "necessarycompanion to full9page IO81 anchor, targetedmainline/selectedtables",
+  "mainline_pages_read": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "visual_pages": [
+    2,
+    3,
+    7,
+    18,
+    19,
+    23
+  ],
+  "covered_formulas": [
+    "Eqs1–15"
+  ],
+  "source_table_rows_checked": 14,
+  "not_claimed": [
+    "all denseTableIIentries revalidated",
+    "originalCDC6600code rerun",
+    "Poletti1965 original25page read",
+    "actual167Tmfeeding/Σ reconstructed"
+  ],
+  "new_claims_needs_review": [
+    "YA67-4",
+    "YA67-5",
+    "YA67-6",
+    "YA67-7",
+    "YA67-8",
+    "YA67-9",
+    "IO81-21",
+    "IO81-22",
+    "IO81-23"
+  ],
+  "old_review_preserved": true
+}

@@ -365,3 +365,13 @@ N67-7的同DCO1.45(7)对应958E2与554E1，reference/gate/geometry没有提供�
 Table1十行exp/calculated不是20个观测；本轮按Eq7从印刷A2/A4重算χ²，仅通过必要舍入相容检查，没有得到actualΣ或完整模型拟合。Q/D/T、尤其432triplet questionable保持。Table2的arctanδ[deg]要转换为amp δ；如−7.5°→−.131652，属于已指定假设的结果而非唯一选解（IO81-14–16）。
 
 作者弱line的δ0-U、parenttensor插值和12%强度近似，以及40cm条件下忽略Ω的处理均属该实验，不能作为现代ADO一般校正。正式Day15仍需自己的来源前回忆、f_ADO计算单和convention审计；本轮仅partial preview。
+
+## 未观测feeding的U传播与α归一
+
+[[yamazaki-1967-aligned-angular-coefficients]] YA67-4–6与[[ionescu-1981-improved-angular-distribution-analysis-particle-xn]] IO81-21将两本符号映射为：normalized p/ρ承接parent→child的U；α=p/B，故α_child=U(B_parent/B_child)α_parent。YA的B是completealignmenttensor，IO的B是radiation coefficient；不可用同字母直接互换。低spin不存在rank/零B不除，混合比完整phase convention仍保留。
+
+未观测precedingγ的Eq13只有δ²强度加权，源photon angular coefficient则含线性干涉；方向/偏振tag和有限gate需要conditional response。独立CG² stochastic kernel的正、列归一与tensor-eigenvalue检查复核14个原表行；2→2 E2的负U2=−3/14仍给正daughter概率，不把负α当负population或强迫同一Gaussian。
+
+须区别radiation rank和daughter tensor rank：2→0 E2的daughter只剩scalar，photon仍W=1+5P2/7−12P4/7。IO81 Eq4后的2Jf字面cap保留为source范围边界，不作一般singleγ上限，也不由此推翻该文高spin的k≤4 fits（YA67-8、IO81-23）。
+
+271.12-keV 17/2→13/2支的U2/U4（.952936638/.847443971）只给该支单独条件态的ρ。总child还需各I0/IT与sidefeeding；parentρ本就来自同angular data，其Cov会经U传播，不能把derived child与parent当独立新观测。没有恢复actualΣ或新的σ/δ/Pr136结果（YA67-9、IO81-22）。

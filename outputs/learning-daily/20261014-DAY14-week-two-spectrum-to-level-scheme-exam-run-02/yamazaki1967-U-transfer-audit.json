@@ -1,0 +1,475 @@
+{
+  "kind": "source-defined unobserved radiative tensor transfer; not actual feeding fit",
+  "checks": {
+    "source_hash_unchanged": true,
+    "positive_normalized_kernel_2_2_1": true,
+    "rank0_2_2_1": true,
+    "printed_U2_U4_2_2_1": true,
+    "positive_normalized_kernel_2_2_2": true,
+    "rank0_2_2_2": true,
+    "printed_U2_U4_2_2_2": true,
+    "positive_normalized_kernel_2_4_1": true,
+    "rank0_2_4_1": true,
+    "printed_U2_U4_2_4_1": true,
+    "positive_normalized_kernel_2_4_2": true,
+    "rank0_2_4_2": true,
+    "printed_U2_U4_2_4_2": true,
+    "positive_normalized_kernel_4_2_1": true,
+    "rank0_4_2_1": true,
+    "printed_U2_U4_4_2_1": true,
+    "positive_normalized_kernel_4_2_2": true,
+    "rank0_4_2_2": true,
+    "printed_U2_U4_4_2_2": true,
+    "positive_normalized_kernel_4_4_1": true,
+    "rank0_4_4_1": true,
+    "printed_U2_U4_4_4_1": true,
+    "positive_normalized_kernel_4_4_2": true,
+    "rank0_4_4_2": true,
+    "printed_U2_U4_4_4_2": true,
+    "positive_normalized_kernel_4_6_1": true,
+    "rank0_4_6_1": true,
+    "printed_U2_U4_4_6_1": true,
+    "positive_normalized_kernel_4_6_2": true,
+    "rank0_4_6_2": true,
+    "printed_U2_U4_4_6_2": true,
+    "positive_normalized_kernel_6_4_1": true,
+    "rank0_6_4_1": true,
+    "printed_U2_U4_6_4_1": true,
+    "positive_normalized_kernel_6_6_1": true,
+    "rank0_6_6_1": true,
+    "printed_U2_U4_6_6_1": true,
+    "positive_normalized_kernel_6_6_2": true,
+    "rank0_6_6_2": true,
+    "printed_U2_U4_6_6_2": true,
+    "positive_normalized_kernel_17_13_2": true,
+    "rank0_17_13_2": true,
+    "printed_U2_U4_17_13_2": true,
+    "negative_U2_with_positive_daughter": true,
+    "alpha_is_not_U_when_spins_differ": true,
+    "unobserved_mixed_U_even_in_delta": true,
+    "spin0_daughter_rank_absent": true,
+    "radiation_rank4_survives_spin0_daughter": true,
+    "actual_branch_not_total_child_reconstruction": true
+  },
+  "check_count": 49,
+  "passed": true,
+  "source_rows": [
+    {
+      "Ji": 1,
+      "Jf": 1,
+      "L": 1,
+      "U2": -0.5,
+      "U4": 0,
+      "source_decimals": 5,
+      "source_locator": "printed7 TableIIa",
+      "computed": {
+        "2": {
+          "U": -0.5,
+          "rational_eigenvalue": "-1/2",
+          "tensor_prefactor_squared": "1",
+          "B_parent": -1.4142135623730951,
+          "B_child": -1.4142135623730951,
+          "alpha_factor": -0.5
+        },
+        "4": {
+          "U": 0.0,
+          "tensor_rank_absent": true,
+          "alpha_factor": null
+        }
+      }
+    },
+    {
+      "Ji": 1,
+      "Jf": 1,
+      "L": 2,
+      "U2": 0.1,
+      "U4": 0,
+      "source_decimals": 5,
+      "source_locator": "printed7 TableIIa",
+      "computed": {
+        "2": {
+          "U": 0.1,
+          "rational_eigenvalue": "1/10",
+          "tensor_prefactor_squared": "1",
+          "B_parent": -1.4142135623730951,
+          "B_child": -1.4142135623730951,
+          "alpha_factor": 0.1
+        },
+        "4": {
+          "U": 0.0,
+          "tensor_rank_absent": true,
+          "alpha_factor": null
+        }
+      }
+    },
+    {
+      "Ji": 1,
+      "Jf": 2,
+      "L": 1,
+      "U2": 0.59161,
+      "U4": 0,
+      "source_decimals": 5,
+      "source_locator": "printed7 TableIIa",
+      "computed": {
+        "2": {
+          "U": 0.5916079783099616,
+          "rational_eigenvalue": "21/10",
+          "tensor_prefactor_squared": "5/63",
+          "B_parent": -1.4142135623730951,
+          "B_child": -1.1952286093343936,
+          "alpha_factor": 0.7000000000000001
+        },
+        "4": {
+          "U": 0.0,
+          "tensor_rank_absent": true,
+          "alpha_factor": null
+        }
+      }
+    },
+    {
+      "Ji": 1,
+      "Jf": 2,
+      "L": 2,
+      "U2": -0.59161,
+      "U4": 0,
+      "source_decimals": 5,
+      "source_locator": "printed7 TableIIa",
+      "computed": {
+        "2": {
+          "U": -0.5916079783099616,
+          "rational_eigenvalue": "-21/10",
+          "tensor_prefactor_squared": "5/63",
+          "B_parent": -1.4142135623730951,
+          "B_child": -1.1952286093343936,
+          "alpha_factor": -0.7000000000000001
+        },
+        "4": {
+          "U": 0.0,
+          "tensor_rank_absent": true,
+          "alpha_factor": null
+        }
+      }
+    },
+    {
+      "Ji": 2,
+      "Jf": 1,
+      "L": 1,
+      "U2": 0.59161,
+      "U4": 0,
+      "source_decimals": 5,
+      "source_locator": "printed7 TableIIa",
+      "computed": {
+        "2": {
+          "U": 0.5916079783099616,
+          "rational_eigenvalue": "1/6",
+          "tensor_prefactor_squared": "63/5",
+          "B_parent": -1.1952286093343936,
+          "B_child": -1.4142135623730951,
+          "alpha_factor": 0.49999999999999994
+        },
+        "4": {
+          "U": 0.0,
+          "tensor_rank_absent": true,
+          "alpha_factor": null
+        }
+      }
+    },
+    {
+      "Ji": 2,
+      "Jf": 1,
+      "L": 2,
+      "U2": -0.59161,
+      "U4": 0,
+      "source_decimals": 5,
+      "source_locator": "printed7 TableIIa",
+      "computed": {
+        "2": {
+          "U": -0.5916079783099616,
+          "rational_eigenvalue": "-1/6",
+          "tensor_prefactor_squared": "63/5",
+          "B_parent": -1.1952286093343936,
+          "B_child": -1.4142135623730951,
+          "alpha_factor": -0.49999999999999994
+        },
+        "4": {
+          "U": 0.0,
+          "tensor_rank_absent": true,
+          "alpha_factor": null
+        }
+      }
+    },
+    {
+      "Ji": 2,
+      "Jf": 2,
+      "L": 1,
+      "U2": 0.5,
+      "U4": -0.66667,
+      "source_decimals": 5,
+      "source_locator": "printed7 TableIIa",
+      "computed": {
+        "2": {
+          "U": 0.5,
+          "rational_eigenvalue": "1/2",
+          "tensor_prefactor_squared": "1",
+          "B_parent": -1.1952286093343936,
+          "B_child": -1.1952286093343936,
+          "alpha_factor": 0.5
+        },
+        "4": {
+          "U": -0.6666666666666666,
+          "rational_eigenvalue": "-2/3",
+          "tensor_prefactor_squared": "1",
+          "B_parent": 1.6035674514745464,
+          "B_child": 1.6035674514745464,
+          "alpha_factor": -0.6666666666666666
+        }
+      }
+    },
+    {
+      "Ji": 2,
+      "Jf": 2,
+      "L": 2,
+      "U2": -0.21429,
+      "U4": 0.28571,
+      "source_decimals": 5,
+      "source_locator": "printed7 TableIIa",
+      "computed": {
+        "2": {
+          "U": -0.21428571428571427,
+          "rational_eigenvalue": "-3/14",
+          "tensor_prefactor_squared": "1",
+          "B_parent": -1.1952286093343936,
+          "B_child": -1.1952286093343936,
+          "alpha_factor": -0.21428571428571427
+        },
+        "4": {
+          "U": 0.2857142857142857,
+          "rational_eigenvalue": "2/7",
+          "tensor_prefactor_squared": "1",
+          "B_parent": 1.6035674514745464,
+          "B_child": 1.6035674514745464,
+          "alpha_factor": 0.2857142857142857
+        }
+      }
+    },
+    {
+      "Ji": 2,
+      "Jf": 3,
+      "L": 1,
+      "U2": 0.82808,
+      "U4": 0.41786,
+      "source_decimals": 5,
+      "source_locator": "printed7 TableIIa",
+      "computed": {
+        "2": {
+          "U": 0.828078671210825,
+          "rational_eigenvalue": "12/7",
+          "tensor_prefactor_squared": "7/30",
+          "B_parent": -1.1952286093343936,
+          "B_child": -1.1547005383792515,
+          "alpha_factor": 0.8571428571428571
+        },
+        "4": {
+          "U": 0.4178554470186725,
+          "rational_eigenvalue": "55/21",
+          "tensor_prefactor_squared": "7/275",
+          "B_parent": 1.6035674514745464,
+          "B_child": 1.2792042981336627,
+          "alpha_factor": 0.5238095238095238
+        }
+      }
+    },
+    {
+      "Ji": 2,
+      "Jf": 3,
+      "L": 2,
+      "U2": 0.20702,
+      "U4": -0.62678,
+      "source_decimals": 5,
+      "source_locator": "printed7 TableIIa",
+      "computed": {
+        "2": {
+          "U": 0.20701966780270625,
+          "rational_eigenvalue": "3/7",
+          "tensor_prefactor_squared": "7/30",
+          "B_parent": -1.1952286093343936,
+          "B_child": -1.1547005383792515,
+          "alpha_factor": 0.21428571428571427
+        },
+        "4": {
+          "U": -0.6267831705280087,
+          "rational_eigenvalue": "-55/14",
+          "tensor_prefactor_squared": "7/275",
+          "B_parent": 1.6035674514745464,
+          "B_child": 1.2792042981336627,
+          "alpha_factor": -0.7857142857142857
+        }
+      }
+    },
+    {
+      "Ji": 3,
+      "Jf": 2,
+      "L": 1,
+      "U2": 0.82808,
+      "U4": 0.41786,
+      "source_decimals": 5,
+      "source_locator": "printed7 TableIIa",
+      "computed": {
+        "2": {
+          "U": 0.8280786712108251,
+          "rational_eigenvalue": "2/5",
+          "tensor_prefactor_squared": "30/7",
+          "B_parent": -1.1547005383792515,
+          "B_child": -1.1952286093343936,
+          "alpha_factor": 0.8
+        },
+        "4": {
+          "U": 0.41785544701867244,
+          "rational_eigenvalue": "1/15",
+          "tensor_prefactor_squared": "275/7",
+          "B_parent": 1.2792042981336627,
+          "B_child": 1.6035674514745464,
+          "alpha_factor": 0.3333333333333333
+        }
+      }
+    },
+    {
+      "Ji": 3,
+      "Jf": 3,
+      "L": 1,
+      "U2": 0.75,
+      "U4": 0.16667,
+      "source_decimals": 5,
+      "source_locator": "printed7 TableIIa",
+      "computed": {
+        "2": {
+          "U": 0.75,
+          "rational_eigenvalue": "3/4",
+          "tensor_prefactor_squared": "1",
+          "B_parent": -1.1547005383792515,
+          "B_child": -1.1547005383792515,
+          "alpha_factor": 0.75
+        },
+        "4": {
+          "U": 0.16666666666666666,
+          "rational_eigenvalue": "1/6",
+          "tensor_prefactor_squared": "1",
+          "B_parent": 1.2792042981336627,
+          "B_child": 1.2792042981336627,
+          "alpha_factor": 0.16666666666666666
+        }
+      }
+    },
+    {
+      "Ji": 3,
+      "Jf": 3,
+      "L": 2,
+      "U2": 0.31667,
+      "U4": -0.5,
+      "source_decimals": 5,
+      "source_locator": "printed7 TableIIa",
+      "computed": {
+        "2": {
+          "U": 0.31666666666666665,
+          "rational_eigenvalue": "19/60",
+          "tensor_prefactor_squared": "1",
+          "B_parent": -1.1547005383792515,
+          "B_child": -1.1547005383792515,
+          "alpha_factor": 0.31666666666666665
+        },
+        "4": {
+          "U": -0.5,
+          "rational_eigenvalue": "-1/2",
+          "tensor_prefactor_squared": "1",
+          "B_parent": 1.2792042981336627,
+          "B_child": 1.2792042981336627,
+          "alpha_factor": -0.5
+        }
+      }
+    },
+    {
+      "Ji": 8.5,
+      "Jf": 6.5,
+      "L": 2,
+      "U2": 0.95294,
+      "U4": 0.84744,
+      "source_decimals": 5,
+      "source_locator": "printed19 TableIIb Ji17/2 Jf13/2 L1=L2=2",
+      "computed": {
+        "2": {
+          "U": 0.9529366376072008,
+          "rational_eigenvalue": "39/68",
+          "tensor_prefactor_squared": "323/117",
+          "B_parent": -1.1128297681493144,
+          "B_child": -1.1094003924504583,
+          "alpha_factor": 0.9558823529411763
+        },
+        "4": {
+          "U": 0.8474439710809746,
+          "rational_eigenvalue": "143/476",
+          "tensor_prefactor_squared": "931/117",
+          "B_parent": 1.1072516389468405,
+          "B_child": 1.0952197843250295,
+          "alpha_factor": 0.8567538126361656
+        }
+      }
+    }
+  ],
+  "exact_M0_2to2_E2_daughter_probabilities": [
+    "2/7",
+    "1/14",
+    "2/7",
+    "1/14",
+    "2/7"
+  ],
+  "negative_example_U2": "-3/14",
+  "negative_example_U4": "2/7",
+  "mixed_chosen_delta_control": {
+    "-0.5": 0.35714285714285715,
+    "0.5": 0.35714285714285715
+  },
+  "spin0_daughter_and_rank4_radiation": {
+    "A2max": "5/7",
+    "A4max": "-12/7",
+    "W": "15/2 sin(theta)^2 cos(theta)^2",
+    "child_higher_tensors": 0
+  },
+  "IO81_271_partial_component": {
+    "0": {
+      "U": 1.0,
+      "rational_eigenvalue": "1",
+      "tensor_prefactor_squared": "1",
+      "B_parent": 1.0,
+      "B_child": 1.0,
+      "alpha_factor": 1.0
+    },
+    "2": {
+      "U": 0.9529366376072008,
+      "rational_eigenvalue": "39/68",
+      "tensor_prefactor_squared": "323/117",
+      "B_parent": -1.1128297681493144,
+      "B_child": -1.1094003924504583,
+      "alpha_factor": 0.9558823529411763,
+      "conditional_partial_child_tensor": -0.6718203295130766,
+      "scaled_parent_quoted_error_no_new_CI": 0.02477635257778722
+    },
+    "4": {
+      "U": 0.8474439710809746,
+      "rational_eigenvalue": "143/476",
+      "tensor_prefactor_squared": "931/117",
+      "B_parent": 1.1072516389468405,
+      "B_child": 1.0952197843250295,
+      "alpha_factor": 0.8567538126361656,
+      "conditional_partial_child_tensor": 0.37541767918887176,
+      "scaled_parent_quoted_error_no_new_CI": 0.061015965917830164
+    }
+  },
+  "actual_child_total_tensor": null,
+  "actual_covariance": null,
+  "limitations": [
+    "no preceding-photon direction/polarization selection",
+    "no actual partial intensity/sidefeeding/branch weights",
+    "no claim of Poletti1965 original normalization or code replay",
+    "no measured sigma/delta or detector response fit"
+  ]
+}

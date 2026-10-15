@@ -1,0 +1,153 @@
+{
+  "at": "2026-10-15T23:10:54.594315+08:00",
+  "report": {
+    "valid": true,
+    "missing_headings": []
+  },
+  "coverage": {
+    "valid": true,
+    "completed_day_indices": [
+      14
+    ],
+    "partial_day_indices": [
+      15
+    ],
+    "curriculum_cards_completed": 1,
+    "next_day_index": 15,
+    "error": null
+  },
+  "writeback": {
+    "valid": true,
+    "mode": "updated",
+    "knowledge_paths": [
+      "knowledge/sources/herzan-2015-193bi-spectroscopy.md",
+      "knowledge/methods/level-scheme-reconstruction.md",
+      "knowledge/projects/a130-thesis-evidence-matrix.md",
+      "knowledge/sources/nndc-2017-193bi-level-scheme-evaluation.md",
+      "knowledge/index.md",
+      "knowledge/methods/linear-polarization-asymmetry.md",
+      "knowledge/sources/rose-brink-1967-phase-defined-angular-distributions.md",
+      "knowledge/sources/zheng-2002-ado-coincidence-angular-anisotropy.md",
+      "knowledge/methods/angular-distribution.md",
+      "knowledge/methods/angular-correlation.md",
+      "knowledge/sources/zobel-1983-energy-projectile-alignment.md",
+      "knowledge/observables/angular-distribution-coefficient.md",
+      "knowledge/sources/zobel-1980-magnetic-substate-distributions.md",
+      "knowledge/sources/nndc-2005-67ga-selected-level-gamma-records.md",
+      "knowledge/sources/lange-kumar-hamilton-1982-multipole-admixtures.md",
+      "knowledge/sources/kibedi-2008-evaluation-theoretical-conversion-coefficients-bricc.md",
+      "knowledge/sources/lv-2025-136pr-tac-covariant-density-functional.md",
+      "knowledge/nuclei/136pr.md",
+      "knowledge/sources/lv-2019-chirality-135nd-reexamined.md",
+      "knowledge/experiments/jurogam2-135nd-ar40-152mev.md",
+      "knowledge/sources/nndc-2018-136pr-selected-level-gamma-records.md",
+      "knowledge/observables/bm1-be2-ratio.md",
+      "knowledge/methods/configuration-occupation-audit.md",
+      "knowledge/projects/a130-model-choice-card.md",
+      "knowledge/questions.md",
+      "knowledge/sources/wang-2017-109ag-tac-separable-pairing.md",
+      "knowledge/models/tilted-axis-cranking.md",
+      "knowledge/sources/zhao-2015-pairing-spin-orientation-tac.md",
+      "knowledge/concepts/triaxial-deformation.md",
+      "knowledge/sources/petrache-2015-nd-exotic-rotations-triaxiality.md",
+      "knowledge/observables/moments-of-inertia.md",
+      "knowledge/sources/peng-chen-2022-chiral-rotation-rhodium-isotopes.md",
+      "knowledge/sources/matev-2007-a130-quadrupole-alignment-additivity.md",
+      "knowledge/observables/transition-quadrupole-moment.md",
+      "knowledge/sources/riley-2001-global-lifetime-a135.md",
+      "knowledge/methods/doppler-shift-attenuation-method.md",
+      "knowledge/sources/petrache-1998-highly-deformed-lifetimes-131ce-nd.md",
+      "knowledge/sources/ionescu-1981-improved-angular-distribution-analysis-particle-xn.md",
+      "knowledge/observables/multipole-mixing-ratio.md",
+      "knowledge/sources/yamazaki-1967-aligned-angular-coefficients.md"
+    ],
+    "changed_paths": [
+      "knowledge/concepts/triaxial-deformation.md",
+      "knowledge/experiments/jurogam2-135nd-ar40-152mev.md",
+      "knowledge/index.md",
+      "knowledge/methods/angular-correlation.md",
+      "knowledge/methods/angular-distribution.md",
+      "knowledge/methods/configuration-occupation-audit.md",
+      "knowledge/methods/doppler-shift-attenuation-method.md",
+      "knowledge/methods/level-scheme-reconstruction.md",
+      "knowledge/methods/linear-polarization-asymmetry.md",
+      "knowledge/models/tilted-axis-cranking.md",
+      "knowledge/nuclei/136pr.md",
+      "knowledge/observables/angular-distribution-coefficient.md",
+      "knowledge/observables/bm1-be2-ratio.md",
+      "knowledge/observables/moments-of-inertia.md",
+      "knowledge/observables/multipole-mixing-ratio.md",
+      "knowledge/observables/transition-quadrupole-moment.md",
+      "knowledge/projects/a130-model-choice-card.md",
+      "knowledge/projects/a130-thesis-evidence-matrix.md",
+      "knowledge/questions.md",
+      "knowledge/sources/herzan-2015-193bi-spectroscopy.md",
+      "knowledge/sources/ionescu-1981-improved-angular-distribution-analysis-particle-xn.md",
+      "knowledge/sources/kibedi-2008-evaluation-theoretical-conversion-coefficients-bricc.md",
+      "knowledge/sources/lv-2019-chirality-135nd-reexamined.md",
+      "knowledge/sources/lv-2025-136pr-tac-covariant-density-functional.md",
+      "knowledge/sources/matev-2007-a130-quadrupole-alignment-additivity.md",
+      "knowledge/sources/nndc-2005-67ga-selected-level-gamma-records.md",
+      "knowledge/sources/nndc-2017-193bi-level-scheme-evaluation.md",
+      "knowledge/sources/nndc-2018-136pr-selected-level-gamma-records.md",
+      "knowledge/sources/peng-chen-2022-chiral-rotation-rhodium-isotopes.md",
+      "knowledge/sources/petrache-1998-highly-deformed-lifetimes-131ce-nd.md",
+      "knowledge/sources/petrache-2015-nd-exotic-rotations-triaxiality.md",
+      "knowledge/sources/riley-2001-global-lifetime-a135.md",
+      "knowledge/sources/rose-brink-1967-phase-defined-angular-distributions.md",
+      "knowledge/sources/wang-2017-109ag-tac-separable-pairing.md",
+      "knowledge/sources/yamazaki-1967-aligned-angular-coefficients.md",
+      "knowledge/sources/zhao-2015-pairing-spin-orientation-tac.md",
+      "knowledge/sources/zheng-2002-ado-coincidence-angular-anisotropy.md",
+      "knowledge/sources/zobel-1980-magnetic-substate-distributions.md",
+      "knowledge/sources/zobel-1983-energy-projectile-alignment.md"
+    ],
+    "change_check": "run-snapshot",
+    "error": null
+  },
+  "analysis_exit_code": 0,
+  "analysis_checks": 49,
+  "analysis_checks_all_true": true,
+  "source_table_rows": 14,
+  "table_values_checked": 28,
+  "preservation": {
+    "knowledge/sources/yamazaki-1967-aligned-angular-coefficients.md": {
+      "old_nonempty_lines_in_order_except_date": true,
+      "review_unchanged": true
+    },
+    "knowledge/sources/ionescu-1981-improved-angular-distribution-analysis-particle-xn.md": {
+      "old_nonempty_lines_in_order_except_date": true,
+      "review_unchanged": true
+    },
+    "knowledge/methods/angular-distribution.md": {
+      "old_nonempty_lines_in_order_except_date": true,
+      "review_unchanged": true
+    }
+  },
+  "YA_old3_new6_true": true,
+  "IO_oldtenfalse_oldnewten_and_newthree_true": true,
+  "legacy_humanreview_not_extended": true,
+  "protected_hashes": {
+    "PLAN.md": true,
+    "raw/zotero/wiki-inbox.bib": true
+  },
+  "raw_metadata_unchanged": true,
+  "new_independent_experiments": 0,
+  "formal_score_changed": false,
+  "ast": true,
+  "writeback_item_count": 114,
+  "changed_knowledge_count": 39,
+  "lint_exit_code": 0,
+  "lint_errors": 0,
+  "lint_warnings": 141,
+  "warning_breakdown": {
+    "REACTION_PARSE": 3,
+    "CITATION_KEY_MISSING": 112,
+    "RAW_MISSING": 26
+  },
+  "git_diff_check_exit_code": 0,
+  "discovery_harness_failure_repaired": "Crossref discovery receipt saved successfully; compact print failed on null authors in noisy records; null-safe local inspection recovered exact Olbrich1980 hit without repeating query",
+  "eol_precommit_exit_code": 1,
+  "eol_classification": "three task-owned substantive knowledge pages retained; no restored or unsafe/mixed paths; original review/claims and protected files preserved",
+  "radiation_normalization_clarified": "IO B maps to complete F-based radiation combination including 1/(1+delta^2), not the bare brace or YA completealignment B"
+}

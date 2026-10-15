@@ -3,7 +3,7 @@ type: source
 title: "Yamazaki 1967 - Tables of coefficients for angular distributions from aligned nuclei"
 aliases: [Yamazaki 1967 angular-distribution tables]
 created: 2026-09-21
-updated: 2026-09-21
+updated: 2026-10-15
 status: ai-draft
 review_status: unreviewed
 source_type: reference-tables
@@ -15,6 +15,7 @@ year: 1967
 citation_key: yamazaki_1967_Tables
 volume: 3
 pages: "1-23"
+doi: 10.1016/S0550-306X(67)80002-8
 canonical_source: "Yamazaki, Nuclear Data A 3 (1967)"
 library_file: "raw/papers/gpt/high-spin-20260920/multipolarity/angular distribution/ADO/1967_Yamazaki_Tables of coefficients for angular distribution of gamma rays from aligned.pdf"
 raw_file: "raw/papers/gpt/high-spin-20260920/multipolarity/angular distribution/ADO/1967_Yamazaki_Tables of coefficients for angular distribution of gamma rays from aligned.pdf"
@@ -60,6 +61,12 @@ The practical one-parameter approximation is a Gaussian magnetic-substate popula
 | YA67-1 | `B_k`, `F_k` and `U_k` tables provide aligned-state angular-distribution coefficients for integer and half-integer spins. | method-result | direct | PDF pp.1–3, 7–23, Eqs.1–15, Tables I–II | true |
 | YA67-2 | Gaussian attenuation connects measured `A_k` to `σ/J`, but this is a feeding/alignment model assumption. | method-boundary | direct | PDF pp.2–3, Figs.2–3 | true |
 | YA67-3 | δ signs require an explicit angular-distribution versus γγ-correlation convention map. | convention-boundary | direct | PDF p.2 | true |
+| YA67-4 | 对只经该preceding transition形成的daughter，Eq12为p_k(Jf)=U_k p_k(Ji)；α=p/B使Eq15另有B_k(Ji)/B_k(Jf)。U不能不加该比率直接乘α；rank不存在或B=0时不能作该除法。 | tensor-versus-attenuation-transfer | direct-and-derived | printed p.3 Eqs.(12),(15); printed p.2 Eq.(10) | true |
+| YA67-5 | Eq13的未观测preceding emission混合U=(u_L1+δ²u_L2)/(1+δ²)，没有Eq3辐射角系数的2δ干涉项；不测该γ方向/偏振是当前传递核条件，不能直接替已选γ gate的conditional response。 | unobserved-transfer-and-domain | direct-and-derived | printed p.3 Eq.(13); printed p.2 Eq.(3) | true |
+| YA67-6 | 本文B_k是completealignmenttensor；Ionescu1981的同名B_k是radiation geometric combination。even-rank normalized p与IO的ρ可按Eq1/IOEq5映射，但不能按B同字母互换；finiteδ的相位约定仍保留。 | cross-source-symbol-map | direct-and-derived | printed p.1 Eq.(1); printed p.2 Eqs.(3),(6); IO81 printed22 Eqs.(3)–(5) | true |
+| YA67-7 | TableIIa 2→2 pureE2给U2=−.21429、U4=.28571；正文说α可变负。本任务CG²正、列归一kernel给exact U2=−3/14、U4=2/7及合法daughter概率；负tensor不是负概率。 | source-table-and-derived-positivity-check | direct-and-derived | printed p.3 paragraph below Eq.(15); printed p.7 TableIIa Ji2 Jf2 L1=L2=2 | true |
+| YA67-8 | TableIIa 2→0 pureE2中daughter U2/U4为0，但completealignment radiation A2max=.71429、A4max=−1.71429非零。daughtertensor rank与photon角分布rank是不同对象，不能将2Jf普遍作为singleγ radiation上限。 | observable-identity-and-derived-rank-check | direct-and-derived | printed p.7 TableIIa Ji2 Jf0 L1=L2=2 | true |
+| YA67-9 | TableIIb的17/2→13/2 pureE2行给U2=.95294/U4=.84744。本任务计算.952936638/.847443971与五位舍入相容；给IO81 271支的条件tensor传递只是一条支的normalized component，不是全daughterfeeding拟合。 | table-crosscheck-and-application-boundary | direct-and-derived | printed p.19 TableIIb Ji17/2 Jf13/2 L1=L2=2 | true |
 
 ## Summary
 
@@ -83,6 +90,57 @@ Yamazaki's tables provide the tensor and attenuation backbone for aligned-state 
 - Effect: `supports` [[angular-distribution]], [[angular-momentum-alignment]], [[angular-correlation]] and the later Der-Mateosian–Sunyar coefficient tables.
 - Reusable rule: keep complete-alignment coefficients, attenuation factors and detector/feeding corrections as separate evidence layers; do not quote a table entry as an experiment-specific `A2/A4`.
 - Review state: Codex self-audited; not `human-reviewed`.
+
+## Day14定向回读：U、p与α的层级
+
+[DOI](https://doi.org/10.1016/S0550-306X(67)80002-8)经Crossref核题名/作者/3(1),1–23(1967)，与原扫描刊头一致。原件23页、1103765 bytes、source SHA256不变。本轮作为Ionescu1981完整anchor的必要companion，回读全部定义主线pp1–3和p4 refs，视觉核p2/3及p7/19相关表行；未重新逐格认证全部17页TableII或原CDC6600程序。原source已有end-to-end阅读记录保留，新数值核仅14条选定pure rows。
+
+### 先固定传递对象
+
+Eq12的p是normalized statistical tensor；Eq10定义α_k=p_k/B_k，Eq6的B_k是相应spin的completealignment tensor。因此：
+
+`p_child=U_k p_parent`，`α_child=U_k [B_parent/B_child] α_parent`。
+
+后一个因子通常不同于U。低spin不存在的rank以及零B须另处理；不能把数组里的零当作可除的normalization。与[[ionescu-1981-improved-angular-distribution-analysis-particle-xn]]交叉时，其B_k是辐射几何组合，对应本书Eq3由F组成且包含1/(1+δ²)的完整辐射因子，而非本书Eq6的B；混合比约定仍须核。两式以同一归一/CG顺序映射even-rank p/ρ，不能据同字母猜。
+
+IO81 Eq11的U以target、parent参数命名，本书Eq12写preceding parent Ji→child Jf；实际代码先明确物理流向。Eq13对未观测precedingγ使用L1/L2的强度加权，δ正负不影响该U；辐射角分布本身的Eq3仍有干涉项。选择了γ方向/偏振/finite gate时须用对应conditional kernel，不能把此未观测核直接套回DCO/ADO。
+
+### 14条原表U行与独立CG²构造
+
+`K(Mf,Mi)=|CG(Jf Mf,L (Mi−Mf)|Ji Mi)|²`，对precedingγ的模式不作选择。每个Mi列之和为1、全部非负；由本书Eq1计算daughtertensor，再验证每个parent-Mi给同一rank比例。Racah有限和用有理数算CG²，独立于照抄U列。
+
+| 表位 | Ji→Jf | pure L | U2 printed | U4 printed |
+| --- | --- | --- | --- | --- |
+| p7 IIa | 1→1 | 1 | -0.50000 | 0.00000 |
+| p7 IIa | 1→1 | 2 | 0.10000 | 0.00000 |
+| p7 IIa | 1→2 | 1 | 0.59161 | 0.00000 |
+| p7 IIa | 1→2 | 2 | -0.59161 | 0.00000 |
+| p7 IIa | 2→1 | 1 | 0.59161 | 0.00000 |
+| p7 IIa | 2→1 | 2 | -0.59161 | 0.00000 |
+| p7 IIa | 2→2 | 1 | 0.50000 | -0.66667 |
+| p7 IIa | 2→2 | 2 | -0.21429 | 0.28571 |
+| p7 IIa | 2→3 | 1 | 0.82808 | 0.41786 |
+| p7 IIa | 2→3 | 2 | 0.20702 | -0.62678 |
+| p7 IIa | 3→2 | 1 | 0.82808 | 0.41786 |
+| p7 IIa | 3→3 | 1 | 0.75000 | 0.16667 |
+| p7 IIa | 3→3 | 2 | 0.31667 | -0.50000 |
+| p19 IIb | 8.5→6.5 | 2 | 0.95294 | 0.84744 |
+
+49项控制通过，14行的U2/U4都与五位舍入相容；这不是全表/原始code认证。2→2 E2且parent仅M0的演示给daughter M=−2…2概率`(2/7,1/14,2/7,1/14,2/7)`，exact U2=−3/14、U4=2/7。合法population仍可有负tensor/α；Gaussian parent不保证该daughter仍是同一Gaussian family。
+
+2→0 E2的daughter只有M0，所有高ranktensor消失；photon仍有`W=1+(5/7)P2−(12/7)P4=(15/2)sin²θ cos²θ`。这区分了看daughter alignment与看photon angular pattern，不能混用rank上限。
+
+### 167Tm一支的条件传递
+
+本书p19的half-integer行对应IO81 Fig5的271.12-keV、17/2→13/2 pureE2支。计算U2=.952936638、U4=.847443971；α因子分别.955882353/.856753813，确实不同。输入IO81 Table1 parentρ2=−.705、ρ4=.443时，该支单独条件分布的tensor为−.67182033/.37541768。它尚未乘实际I0/IT，更不是总childρ；同目标的其他feeding、分支、门和共同Σ仍缺。
+
+仅固定U时可把parent quoted errors按|U|缩放；跨rank covariance还要乘U2U4，原Cov未知，未生成新CI或重拟σ/δ。这些是源公式的条件应用，不把理论transfer变成新实测child。
+
+### 原始伴随文献边界
+
+IO81 Ref14的精确DOI metadata核为Poletti–Warburton，*Study of the Low-Lying Levels of F18 by Means of the O16(He3,pγ)F18 Reaction*, PhysRev137,B595–B619(1965)。尚未读其原25页/内部U定义，不能称已核原代码或完整约定；本轮直接定义来自本书原件。[[ionescu-1981-improved-angular-distribution-analysis-particle-xn]]保留其λmax字面和适用范围，未修式或判其167Tm结果失效。
+
+[49-check程序](../../system/scripts/day14_unobserved_feeding_transfer.py)、[输入](../../outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/yamazaki1967-U-table-input.json)和[结果](../../outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/yamazaki1967-U-transfer-audit.json)保留normalization、表值、exact正概率控制和partial应用。Day15只作无学分preview；全部新YA67 claims true，原review不升级。
 
 ## Human Review Triage
 

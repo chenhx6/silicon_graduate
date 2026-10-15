@@ -130,6 +130,12 @@ Clark精确metadata已核，但本地无source/raw，OA-only `nature-downloader 
 
 IO81-11–20补Table1十行/上下exp-calc、Table2三线七解、Table3实际E1 interband而非adoptedspins；Eq11的含conversion/angleaverage feeding权重、弱线近似、mixed多解及外部excitationfunction范围均核原位。原human-reviewed为旧版本状态、旧十条false保留，本轮十newclaims全部true；旧人审不覆盖本轮增量。
 
+### U直接定义的companion：Yamazaki1967
+
+[[yamazaki-1967-aligned-angular-coefficients]] DOI[10.1016/S0550-306X(67)80002-8](https://doi.org/10.1016/S0550-306X(67)80002-8)，NuclearData A3(1),1–23(1967)，citation key `yamazaki_1967_Tables`。原23页扫描1103765bytes/SHA256 `e807782c580a0313ee3763f56df1dd424e5c97925d70e3d30a79a8b534c81f70`与source一致；Crossref核DOI/题名/作者/卷页。作为IO81完整anchor的必要companion，本轮回读主线pp1–3/refs4，视觉核Eq3/6/10/12–15及TableIIa p7十三pure行、IIb p19一half-integer行；没有逐格重审全部dense table/CDC6600code。[来源前回忆](20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/day15-feeding-U-before-sources.md)、[量化前预测](20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/yamazaki1967-before-calculation.md)与[reading audit](20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/yamazaki1967-reading-audit.json)保留实际范围。
+
+YA67-4–9把p/ρ与α、两个不同B符号、parent→child和未观测γ核分开。IO81 Ref14的Poletti–Warburton精确metadata核为18F低能级实验、PhysRev137,B595–B619(1965)，不是凭参考号猜成已读方法全文；原25页仍未读。
+
 ## Theory/analysis exercise
 
 七边的中心值闭合为`+0.2,+0.4,+0.3 keV`。D的rank4、三个cycle、绝对offset nullspace均由代码核验。独立0.1-keV拟合误差下条件χ²=6.666667；自设将caption约0.3 keV按quadrature加上、并令各线独立后，χ²=0.666667，dof3。后者cycle Σ为`0.1×(3,1,0; 1,3,1; 0,1,3) keV²`，不是三个可相乘的独立检验。
@@ -352,6 +358,14 @@ Table2同一251.03观测的+76°/+18°/−7.5°三root分别转δ≈4.010781/.32
 
 Table3的143.46-keV footnote b给Is0；固定parenttensor/U/转换强度时，Eq11对本层sidefeeding σ导数为零。不能拟合不存在的localsidewidth，parent不确定度仍须保留；Table3是E1/M2，不能套上述E2份额。
 
+### 49-check：正概率、负tensor与不同rank对象
+
+[原表输入](20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/yamazaki1967-U-table-input.json)、[程序](../../system/scripts/day14_unobserved_feeding_transfer.py)和[结果](20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/yamazaki1967-U-transfer-audit.json)用有理数CG²构造Mf←Mi的未观测γ核：各列和1、非负，逐Mi检同rank比例，14条原表U2/U4均相容五位舍入。49项断言实际exit0，但不是全表、原始代码或实际feeding fit验证。
+
+2→2 pureE2、parent仅M0时，daughter M=−2…2概率为(2/7,1/14,2/7,1/14,2/7)，U2=−3/14、U4=2/7；负tensor/α不等于负概率。2→0 E2则daughter高阶tensor消失，photon仍W=1+5P2/7−12P4/7=(15/2)sin²θcos²θ。IO81 Eq4下方字面λmax含2Jf，当前保留原标并限制其一般使用，不修原式或称官方勘误；Tables1–2的高spin k≤4 fits不由这项字面cap自动改变。
+
+YA Eq12传p，Eq15传α还含Bparent/Bchild；IO的B是辐射几何组合，而YA的B是completealignmenttensor。17/2→13/2 E2的U2/U4=.952936638/.847443971，对应α因子.955882353/.856753813。输入IO81 271.12支parentρ时，仅该支条件tensor为−.67182033/.37541768；未乘实际I0/IT，不给全childρ或新的σ/δ。
+
 ## Counter-evidence and missing companion observables
 
 HE15-9的实际未定双线是核心反例：energy sum、共享R/A和假设的ΔI=2均不足以裁决order。若一条线出现可独立定位的旁路或延迟顺序，应重审中间level；source仍保留括号Jπ与(E2)。HE15-5的quadruplet限制“一个峰是一条γ”的简化；干净622.4直接分支门与323.4级联门的299-keVcomponent差异可能迫使拆峰，但必须控制622/626门纯度、feeding、response和random。
@@ -407,6 +421,12 @@ Petrache的二维Q0/Qsf χ² grid、原centroid/共同Σ、完整transition/geom
 globalGaussian失败后，改进模型仍假设Gaussian sidefeeding；弱虚线输入还采用δ0-U、parenttensor插值和I0=.88I90，作者称影响小但未给fullinput供本任务重放。Table2/Fig6明确mixed spin多解需要excitationfunctions，故摘要“unambiguous/modelindependent”不能迁为任意angular ratio单独证明。40cm处可忽略Ω也是apparatus条件，不外推clover ADO。
 
 必要材料是逐角counts/calibration/完整Cov、parenttensor/U/转换强度、全部feeding与fitgrid、matched acceptance。Table1负ρ2和Fig3正横轴暂按原样保留，不未核约定就拟合Gaussian曲线。图5依赖Ref5，表通常平均两组测量、parent系数再进入Eq11；不按图表/拟合行/论文重复计独立证据。
+
+### U核的反证与实际重放边界
+
+YA Eq13对未观测precedingγ只含δ²强度加权，源photon角系数仍含干涉；已选方向/偏振/finite gate时不能直接使用此trace核。由actualparent系数派生的单支tensor与parent共用误差，Cov须乘UkUl并继续传播weights/U/sidefeeding输入；实际Σ未得，不能凭两条quoted errors生成childCI或反推整带σ。
+
+负U控制和spin0 daughter/非零photonP4构成明确counter-evidence，必要伴随是观测对象、rank、physicalparent/target、归一、实际parenttensor/权重/acceptance及共同Cov。当前是L2源公式与表格的可复算应用，不替代167Tm/193Bi/Pr136原始分析。
 
 ## Knowledge Impact and Learning Decision
 
@@ -475,6 +495,10 @@ Decision: **revises** 将Petrache误作7.4原始出处或将八表行平铺为�
 ### Feeding伴随源后的认识决定
 
 Decision: **supports** 用已知pureE2检验population、处理整带feeding后才拟合mixed线；**limits** 单一globalσ、好χ²即唯一spin/δ、忽略angle单位和零sidefeeding极限。**revises** 旧digest的Table3描述及source字节数。Formal21/24、completed14/partial15、官方课程计数和原Pr/193Bi结论不变。
+
+### U定义后的认识决定
+
+Decision: **revises** 同字母B、p/α和daughter/photon rank直接互换的读法；**supports** 按物理流向先作完整张量/feeding与响应校准；**limits** 用未观测U代finite-gate kernel或将单支条件传递当全child新测量。Formal21/24、completed14/partial15和official课程state保持，无新实验计数。
 
 ## Durable knowledge delta
 
@@ -3094,6 +3118,127 @@ Decision: **supports** 用已知pureE2检验population、处理整带feeding后�
           "locator": "IO81-17"
         }
       ]
+    },
+    {
+      "knowledge": "knowledge/sources/yamazaki-1967-aligned-angular-coefficients.md",
+      "anchor": "Day14定向回读：U、p与α的层级",
+      "summary": "新增已核DOI/六claims、14原表U行、CG²正归一/负tensor、radiationrank与actual271单支条件应用；不全表认证。",
+      "sources": [
+        {
+          "path": "knowledge/sources/yamazaki-1967-aligned-angular-coefficients.md",
+          "locator": "YA67-4"
+        },
+        {
+          "path": "knowledge/sources/yamazaki-1967-aligned-angular-coefficients.md",
+          "locator": "YA67-5"
+        },
+        {
+          "path": "knowledge/sources/yamazaki-1967-aligned-angular-coefficients.md",
+          "locator": "YA67-6"
+        },
+        {
+          "path": "knowledge/sources/yamazaki-1967-aligned-angular-coefficients.md",
+          "locator": "YA67-7"
+        },
+        {
+          "path": "knowledge/sources/yamazaki-1967-aligned-angular-coefficients.md",
+          "locator": "YA67-8"
+        },
+        {
+          "path": "knowledge/sources/yamazaki-1967-aligned-angular-coefficients.md",
+          "locator": "YA67-9"
+        },
+        {
+          "path": "knowledge/sources/ionescu-1981-improved-angular-distribution-analysis-particle-xn.md",
+          "locator": "IO81-21"
+        },
+        {
+          "path": "knowledge/sources/ionescu-1981-improved-angular-distribution-analysis-particle-xn.md",
+          "locator": "IO81-22"
+        },
+        {
+          "path": "knowledge/sources/ionescu-1981-improved-angular-distribution-analysis-particle-xn.md",
+          "locator": "IO81-23"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/sources/ionescu-1981-improved-angular-distribution-analysis-particle-xn.md",
+      "anchor": "Yamazaki交叉核验：U与radiation rank不能混用",
+      "summary": "新增21–23 true，保留旧人审/false；方向/归一/单支与λcap字面边界，不判整个原实验失效。",
+      "sources": [
+        {
+          "path": "knowledge/sources/yamazaki-1967-aligned-angular-coefficients.md",
+          "locator": "YA67-4"
+        },
+        {
+          "path": "knowledge/sources/yamazaki-1967-aligned-angular-coefficients.md",
+          "locator": "YA67-6"
+        },
+        {
+          "path": "knowledge/sources/yamazaki-1967-aligned-angular-coefficients.md",
+          "locator": "YA67-8"
+        },
+        {
+          "path": "knowledge/sources/yamazaki-1967-aligned-angular-coefficients.md",
+          "locator": "YA67-9"
+        },
+        {
+          "path": "knowledge/sources/ionescu-1981-improved-angular-distribution-analysis-particle-xn.md",
+          "locator": "IO81-21"
+        },
+        {
+          "path": "knowledge/sources/ionescu-1981-improved-angular-distribution-analysis-particle-xn.md",
+          "locator": "IO81-22"
+        },
+        {
+          "path": "knowledge/sources/ionescu-1981-improved-angular-distribution-analysis-particle-xn.md",
+          "locator": "IO81-23"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/methods/angular-distribution.md",
+      "anchor": "未观测feeding的U传播与α归一",
+      "summary": "固定physicalparent→child、B符号/p-alpha、unobserved核domain、正概率负tensor与共享Cov；不补真实σ/δ。",
+      "sources": [
+        {
+          "path": "knowledge/sources/yamazaki-1967-aligned-angular-coefficients.md",
+          "locator": "YA67-4"
+        },
+        {
+          "path": "knowledge/sources/yamazaki-1967-aligned-angular-coefficients.md",
+          "locator": "YA67-5"
+        },
+        {
+          "path": "knowledge/sources/yamazaki-1967-aligned-angular-coefficients.md",
+          "locator": "YA67-6"
+        },
+        {
+          "path": "knowledge/sources/yamazaki-1967-aligned-angular-coefficients.md",
+          "locator": "YA67-7"
+        },
+        {
+          "path": "knowledge/sources/yamazaki-1967-aligned-angular-coefficients.md",
+          "locator": "YA67-8"
+        },
+        {
+          "path": "knowledge/sources/yamazaki-1967-aligned-angular-coefficients.md",
+          "locator": "YA67-9"
+        },
+        {
+          "path": "knowledge/sources/ionescu-1981-improved-angular-distribution-analysis-particle-xn.md",
+          "locator": "IO81-21"
+        },
+        {
+          "path": "knowledge/sources/ionescu-1981-improved-angular-distribution-analysis-particle-xn.md",
+          "locator": "IO81-22"
+        },
+        {
+          "path": "knowledge/sources/ionescu-1981-improved-angular-distribution-analysis-particle-xn.md",
+          "locator": "IO81-23"
+        }
+      ]
     }
   ]
 }
@@ -3219,6 +3364,10 @@ Danko99primary合法OA/publicPDF/官方API/repo均未提供正文（403HTML/401J
 ### Feeding的canonical增量
 
 [原Ionescu source](../../knowledge/sources/ionescu-1981-improved-angular-distribution-analysis-particle-xn.md)“Day14补读：feeding递归、表格角色与δ角单位”保存十条Table1原数据、三条Table2的七fit和IO81-11–20原位；[angular method](../../knowledge/methods/angular-distribution.md)“Feeding校准的原表检验与外部自旋材料”和[δ observable](../../knowledge/observables/multipole-mixing-ratio.md)“arctanδ列的单位、多解与feeding条件”存可复用判据。原已人审内容不被本轮自动重新人审；新claims true，raw不改。
+
+### U与rank的canonical增量
+
+[Yamazaki source](../../knowledge/sources/yamazaki-1967-aligned-angular-coefficients.md)“Day14定向回读：U、p与α的层级”存14条原表与YA67-4–9（Eqs12–15/p7/p19原位）；[Ionescu source](../../knowledge/sources/ionescu-1981-improved-angular-distribution-analysis-particle-xn.md)“Yamazaki交叉核验：U与radiation rank不能混用”存IO81-21–23；[angular method](../../knowledge/methods/angular-distribution.md)“未观测feeding的U传播与α归一”存可复用符号/归一/domain规则。原review/claims保留，新条目true；raw/公式不覆盖。
 
 ## Open questions and belief revision
 
@@ -3468,3 +3617,9 @@ wiki_lint --fail-on error实际exit0，0errors/131warnings（107citationkey、21
 2026-10-15T22:44:18.570803+08:00：Ionescu1981原9页/6fig/3tables/Eqs3–11核完，25项Table1舍入χ²/七个Table2 root单位/零Is控制实际exit0。report/card/writeback valid，唯一block111items/38changed knowledge页；旧source人审状态及十条false原样保持，十newclaims true，人审不覆盖本轮增量。Source字节数606539（hash匹配、raw不改）、Fig3“八条最精确”和Table3 E1interband描述是明确更正，其余旧非空行/三个page review保持。raw metadata/PLAN/Bib/AST与`git diff --check`exit0；fresh `wiki_lint --fail-on error`exit0：0errors/141warnings（112citekeys/26rawslots/3parser）。原始model/Σ/δCI未重建。
 
 前30批Gitee已published；本批稳定指针 main / `Audit DAY14 feeding calibration and angular mixing table units`，actualH3/hash只receipt。研究时窗仍active，下一有界信息缺口是Eq11 parenttensor×U方向/归一和共享输入；已freeze来源前预测，不重复原表数字或同toy参数。研究2026-10-16 15:00止、16:00交付；formal21/24、completed14/partial15及officialnext14/count13保持，不开Day16。
+
+### Checkpoint032 Day15无学分U与rank验收
+
+2026-10-15T23:10:54.594315+08:00：Yamazaki主线pp1–3/refs4与TableIIa p7/IIb p19相关行定向核验；49项CG²正/归一、tensor eigenvalue、14行28个U数值、negativeU与radiationrank控制实际exit0。report/card/writeback valid，唯一block114items/39changed knowledge页。新YA六条/IO三条true，原YA三true、IO十false及旧新增十true和原人审状态保持，其余旧非空行仅updated日期改变。raw metadata/PLAN/Bib/AST及`git diff --check`exit0；fresh `wiki_lint --fail-on error`exit0：0errors/141warnings（112citekeys/26rawslots/3parser）。没有全表/CDCcode/Poletti原文或实际feeding fit认证。
+
+前31批已Gitee发布；本批稳定 main / `Verify DAY14 feeding tensor normalization and radiation ranks`，actualH3/hash仅receipt。下一候选是IO81 Ref5完整167Tm研究：Crossref精确匹配Olbrich等五作者、NPA342(1),133–164(1980)，题名Study of the levels in167Tm by the165Ho(α,2nγ)167Tm reaction，DOI10.1016/0375-9474(80)90511-4；原32页正文未读、本地source/raw未匹配。预期能补实际parent/强度/branch输入，源前回忆已freeze；metadata显示脚本曾在已写receipt后因噪声记录null author报TypeError，已本地null-safe检回，未重发网络或改科学数据。研究仍active至2026-10-16 15:00、16:00交付，formal21/24、completed14/partial15/officialnext14/count13保持，不开Day16。

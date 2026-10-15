@@ -88,6 +88,9 @@ For the current project, the paper matters because it demonstrates a concrete ro
 | IO81-18 | 26.5MeV α束、10mg/cm²Ho、40cm探测距离；作者在此忽略有限立体角修正。0.5°角精度、0.5% isotropy测试与monitor/deadtime约10^-3是不同控制，不是现代clover ADO通用误差或响应。 | apparatus-specific-controls | direct-and-derived | printed20 Sec.2 / PDF2 | true |
 | IO81-19 | Table1的ρ2列为负，而Fig3横轴以正刻度画ρ2；本文未说明该反号关系，本任务保留图/表原标记，不据图擅改Table1或未校约定就数字拟合Gaussian曲线。 | figure-table-sign-reading-boundary | direct-and-derived | printed21 Table1; printed24 Fig3 / PDF3/6 | true |
 | IO81-20 | 表中实验系数通常为两组detector测量平均；Fig5 partial scheme引用Ref5完整研究，parent coefficients又进入Eq11。因此表、图、同峰拟合和Ref5并非可任意重复计权的独立证据，实际event/Σ仍未恢复。 | source-dependency-and-shared-input-boundary | direct-and-derived | printed22 opening paragraph; printed25 Fig5 caption; printed26 Sec.5 / PDF4/7–8 | true |
+| IO81-21 | 本文Eq11的target/parent U参数须按实际feeding方向映射Yamazaki Eq12；本文B是辐射几何组合，后者B为completealignmenttensor，p/ρ与α亦不同。当前直接映射evenrank，不声明已读Poletti原25页或复跑其代码。 | cross-source-notation-and-direction | direct-and-derived | printed22 Eqs.(3)–(5); printed25 Eq.(11); YA67 printed3 Eqs.(12)–(15) | true |
+| IO81-22 | Table1/Fig5的271.12支为17/2→13/2 pureE2；在Yamazaki定义/未观测模式条件下，parentρ2/4经U给单支normalized tensor−.67182033/.37541768，未乘实际feeding权重，不能当全childρ或新测量。 | conditional-source-input-application | derived | printed21 Table1 row271.12; printed25 Fig5; YA67 printed19 TableIIb | true |
+| IO81-23 | p22 Eq4下方字面写λmax=min(2Ji,2Jf,2L′)。Yamazaki独立2→0 E2表行有非零radiation A4却零daughter高ranktensor，故不把该字面式当一般singleγ上限。原式保留，未判断官方erratum；本次Tables1–2所分析跃迁的spins下该额外cap对k≤4不活跃，不据此否定所报fits。 | literal-rank-cap-and-applicability-boundary | direct-and-derived | printed22 text below Eq.(4); YA67 printed7 TableIIa Ji2 Jf0 | true |
 
 ## Nuclear Structure Information
 
@@ -194,3 +197,9 @@ globalGaussian失败不否认sidefeedingGaussian假设；改进模型还用离�
 ## Personal Notes
 
 This paper is especially useful because it does not stop at saying "the Gaussian hypothesis fails". It shows the next engineering step: use pure-E2 transitions to calibrate the population model, carry discrete feeding explicitly, and only then trust mixed-transition `delta` extraction. That makes it directly relevant to any argument against hard-wiring one fixed `sigma/I`.
+
+## Yamazaki交叉核验：U与radiation rank不能混用
+
+[[yamazaki-1967-aligned-angular-coefficients]] YA67-4–9提供直接定义与14条原表控制。IO81-21/22分开U的parent→target方向、radiation B与completealignment B，以及p/ρ与α；271支数值只属单支条件应用，不填全feeding或actualΣ。旧人审仍仅旧版，新IO81-21–23 needs_review true。
+
+IO81-23的λmax字面已视觉回核：它包含2Jf。当前不拿该式作一般rank定理，也不静默改原PDF或称official erratum。2→0 E2的photon角图可有P4，而daughter J0没有高阶alignment，反例区分的正是两类对象。本论文Tables1–2相关spins均足够大，k≤4分析不因这项字面cap自动变化；原实验与所有旧claims/flags保留。

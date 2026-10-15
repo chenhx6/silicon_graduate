@@ -1,0 +1,155 @@
+{
+  "source_sha256": "e807782c580a0313ee3763f56df1dd424e5c97925d70e3d30a79a8b534c81f70",
+  "locator": "printed7 TableIIa thirteen pure rows; printed19 TableIIb one actual spin-pair row, visual rotated",
+  "table_U": [
+    {
+      "Ji": 1,
+      "Jf": 1,
+      "L": 1,
+      "U2": -0.5,
+      "U4": 0,
+      "source_decimals": 5,
+      "source_locator": "printed7 TableIIa"
+    },
+    {
+      "Ji": 1,
+      "Jf": 1,
+      "L": 2,
+      "U2": 0.1,
+      "U4": 0,
+      "source_decimals": 5,
+      "source_locator": "printed7 TableIIa"
+    },
+    {
+      "Ji": 1,
+      "Jf": 2,
+      "L": 1,
+      "U2": 0.59161,
+      "U4": 0,
+      "source_decimals": 5,
+      "source_locator": "printed7 TableIIa"
+    },
+    {
+      "Ji": 1,
+      "Jf": 2,
+      "L": 2,
+      "U2": -0.59161,
+      "U4": 0,
+      "source_decimals": 5,
+      "source_locator": "printed7 TableIIa"
+    },
+    {
+      "Ji": 2,
+      "Jf": 1,
+      "L": 1,
+      "U2": 0.59161,
+      "U4": 0,
+      "source_decimals": 5,
+      "source_locator": "printed7 TableIIa"
+    },
+    {
+      "Ji": 2,
+      "Jf": 1,
+      "L": 2,
+      "U2": -0.59161,
+      "U4": 0,
+      "source_decimals": 5,
+      "source_locator": "printed7 TableIIa"
+    },
+    {
+      "Ji": 2,
+      "Jf": 2,
+      "L": 1,
+      "U2": 0.5,
+      "U4": -0.66667,
+      "source_decimals": 5,
+      "source_locator": "printed7 TableIIa"
+    },
+    {
+      "Ji": 2,
+      "Jf": 2,
+      "L": 2,
+      "U2": -0.21429,
+      "U4": 0.28571,
+      "source_decimals": 5,
+      "source_locator": "printed7 TableIIa"
+    },
+    {
+      "Ji": 2,
+      "Jf": 3,
+      "L": 1,
+      "U2": 0.82808,
+      "U4": 0.41786,
+      "source_decimals": 5,
+      "source_locator": "printed7 TableIIa"
+    },
+    {
+      "Ji": 2,
+      "Jf": 3,
+      "L": 2,
+      "U2": 0.20702,
+      "U4": -0.62678,
+      "source_decimals": 5,
+      "source_locator": "printed7 TableIIa"
+    },
+    {
+      "Ji": 3,
+      "Jf": 2,
+      "L": 1,
+      "U2": 0.82808,
+      "U4": 0.41786,
+      "source_decimals": 5,
+      "source_locator": "printed7 TableIIa"
+    },
+    {
+      "Ji": 3,
+      "Jf": 3,
+      "L": 1,
+      "U2": 0.75,
+      "U4": 0.16667,
+      "source_decimals": 5,
+      "source_locator": "printed7 TableIIa"
+    },
+    {
+      "Ji": 3,
+      "Jf": 3,
+      "L": 2,
+      "U2": 0.31667,
+      "U4": -0.5,
+      "source_decimals": 5,
+      "source_locator": "printed7 TableIIa"
+    },
+    {
+      "Ji": 8.5,
+      "Jf": 6.5,
+      "L": 2,
+      "U2": 0.95294,
+      "U4": 0.84744,
+      "source_decimals": 5,
+      "source_locator": "printed19 TableIIb Ji17/2 Jf13/2 L1=L2=2"
+    }
+  ],
+  "radiation_2to0_pureE2_completealignment": {
+    "A2max": 0.71429,
+    "A4max": -1.71429,
+    "daughter_U2": 0,
+    "daughter_U4": 0,
+    "locator": "printed7 TableIIa Ji2 Jf0 L1=L2=2"
+  },
+  "IO81_partial_feed": {
+    "transition_kev": 271.12,
+    "parent_J": 8.5,
+    "child_J": 6.5,
+    "multipolarity": "pureE2",
+    "parent_rho2": -0.705,
+    "parent_rho4": 0.443,
+    "quoted_parent_errors": [
+      0.026,
+      0.072
+    ],
+    "original_locator": "IO81 printed21 Table1 row271.12 / printed25 Fig5",
+    "actual_child_total_rho_not_inferred": true
+  },
+  "rank_cap_literal": "IO81 printed22 below Eq4: lambda_max=min(2Ji,2Jf,2Lprime); visual crop saved; no silent repair",
+  "conditional_trace_scope": "unobserved emission direction/polarization, only transition component; no finite gated kernel or actual branch/feeding reconstruction"
+}

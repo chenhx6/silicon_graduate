@@ -8,13 +8,13 @@ updated: 2026-10-15
 
 ## Active handoff — DAY14 extended continuous study
 
-同run2026-10-14-day-14-02/session01a13a0e-e8bd-7251-b970-f6975679e281，goal/run active。用户断网延期研究2026-10-16 15:00上海止、16:00交付。Formal14七边35checks/21/24/weeklyREFLECT具备，completed14/partial15、officialnext14/count13等最终一次计14，不开Day16。
+同run2026-10-14-day-14-02/session01a13a0e-e8bd-7251-b970-f6975679e281，goal/run active。用户断网延期研究2026-10-16 15:00上海止、16:00交付。Formal14七边35checks/21/24/weeklyREFLECT具备，completed14/partial15、officialnext14/count13待最终一次只计14，不开Day16。
 
-第031批Ionescu1981原9页/6fig/3table已核；25controls、Table1 conditionalχ²舍入与Table2 degree单位/七解保留。Mixed仍借excitationfunctions选spin，Eq11含conversion的feeding/parentU与Is0 localσ边界明确，不补actualδ/CI或移给Pr/193Bi。111items38changedpages；旧humanreview/十false不变、新11–20 true；bytes/Table3/八mostprecise三处旧prose更正，其余旧行/review/raw/protected/AST/report/card/writeback/diff保持。Freshlint0errors141warnings（112citekey/26rawslot/3parser）。
+第032批Yamazaki U targeted主线/14selectedrows，49controls通过，p/α与两种B、unobserved domain和daughter/photon rank分开。负U仍正population；271支只conditionaltensor非全childfit；IO λcap字面保留、不修式/推翻高spin fits。114items39changedpages、新YA六/IO三true，旧review/十false/raw/protected/AST/report/card/writeback/diff保持，freshlint0errors141warnings（112citekeys/26rawslots/3parser）。
 
-前30批Giteepublished；本批main / `Audit DAY14 feeding calibration and angular mixing table units`，actualH3/hash/push仅receipt。下一day15-feeding-U-before-sources.md已freeze；先核原U的初末态/归一与parent共享输入，Ref14候选身份未核，不猜DOI/式。仍仅Day15无学分preview，不重复同toy。193Bi实际response/τ/events、Prinput/frame/1996primary与Clark/Lairdfinal缺口保持。
+前31批Giteepublished；本批main / `Verify DAY14 feeding tensor normalization and radiation ranks`，actualH3/hash/push只receipt。下一tm167-full-source-before-discovery.md已freeze，Olbrich等Ref5 exactmetadata DOI10.1016/0375-9474(80)90511-4、NPA342(1),133–164(1980)核，原32页未读/本地无match；合法取件核mainline/table/parent/强度输入，未宣称rawΣ齐全或新增独立实验。Poletti18F25页仅metadata，勿混。
 
-Resume `codex resume 01a13a0e-e8bd-7251-b970-f6975679e281 -C /workspace/wiki -s danger-full-access -a never`，先run.json/最新continuation/actualclock。Clock001/002/005/008实际ACK；旧farmer/clocknotlive未重启。Preserve继承dirty/log/daemon/raw/PLAN/Bib/review，explicitstage/H3非force发布。
+Resume `codex resume 01a13a0e-e8bd-7251-b970-f6975679e281 -C /workspace/wiki -s danger-full-access -a never`，先run.json/最新continuation/actualclock。193Bi response/τ/events、Practualinput/frame/1996primary与Clark/Lairdfinal仍缺；不重复同toy。Clock001/002/005/008实际ACK，旧farmer/clocknotlive未重启。Preserve继承dirty/log/daemon/raw/PLAN/Bib/review；explicitstage/H3非force发布。
 
 ## Previous active handoff — DAY13 continuous study reopened by user
 

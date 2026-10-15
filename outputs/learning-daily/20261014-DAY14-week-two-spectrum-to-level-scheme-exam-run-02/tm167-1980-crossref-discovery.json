@@ -1,0 +1,213 @@
+{
+  "url": "https://api.crossref.org/works?query.bibliographic=Olbrich+Ionescu+Kern+Nordmann+Reichart+Nuclear+Physics+A+342+133+1980&filter=from-pub-date%3A1980-01-01%2Cuntil-pub-date%3A1980-12-31&rows=4",
+  "http_status": 200,
+  "at": "2026-10-15T23:13:35.855799+08:00",
+  "candidates": [
+    {
+      "DOI": "10.1016/0375-9474(80)90511-4",
+      "title": [
+        "Study of the levels in 167Tm by the 165Ho(α, 2nγ)167Tm reaction"
+      ],
+      "author": [
+        {
+          "given": "S.",
+          "family": "Olbrich",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "V.",
+          "family": "Ionescu",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "J.",
+          "family": "Kern",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "C.",
+          "family": "Nordmann",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "W.",
+          "family": "Reichart",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "container-title": [
+        "Nuclear Physics A"
+      ],
+      "volume": "342",
+      "issue": "1",
+      "page": "133-164",
+      "published": {
+        "date-parts": [
+          [
+            1980,
+            6
+          ]
+        ]
+      },
+      "score": 79.79654,
+      "link": [
+        {
+          "URL": "https://api.elsevier.com/content/article/PII:0375947480905114?httpAccept=text/xml",
+          "content-type": "text/xml",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://api.elsevier.com/content/article/PII:0375947480905114?httpAccept=text/plain",
+          "content-type": "text/plain",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        }
+      ]
+    },
+    {
+      "DOI": "10.1016/0375-9474(80)90560-6",
+      "title": [
+        "Nuclear field theory"
+      ],
+      "author": null,
+      "container-title": [
+        "Nuclear Physics A"
+      ],
+      "volume": "342",
+      "issue": "3",
+      "page": "530-531",
+      "published": {
+        "date-parts": [
+          [
+            1980,
+            6
+          ]
+        ]
+      },
+      "score": 32.434383,
+      "link": [
+        {
+          "URL": "https://api.elsevier.com/content/article/PII:0375947480905606?httpAccept=text/xml",
+          "content-type": "text/xml",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://api.elsevier.com/content/article/PII:0375947480905606?httpAccept=text/plain",
+          "content-type": "text/plain",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        }
+      ]
+    },
+    {
+      "DOI": "10.1016/0375-9474(80)90502-3",
+      "title": [
+        "Editorial Board"
+      ],
+      "author": null,
+      "container-title": [
+        "Nuclear Physics A"
+      ],
+      "volume": "342",
+      "issue": "1",
+      "page": "iii",
+      "published": {
+        "date-parts": [
+          [
+            1980,
+            6
+          ]
+        ]
+      },
+      "score": 32.188892,
+      "link": [
+        {
+          "URL": "https://api.elsevier.com/content/article/PII:0375947480905023?httpAccept=text/xml",
+          "content-type": "text/xml",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://api.elsevier.com/content/article/PII:0375947480905023?httpAccept=text/plain",
+          "content-type": "text/plain",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        }
+      ]
+    },
+    {
+      "DOI": "10.1016/0375-9474(80)90569-2",
+      "title": [
+        "Author index"
+      ],
+      "author": null,
+      "container-title": [
+        "Nuclear Physics A"
+      ],
+      "volume": "342",
+      "issue": "3",
+      "page": "534-536",
+      "published": {
+        "date-parts": [
+          [
+            1980,
+            6
+          ]
+        ]
+      },
+      "score": 31.997913,
+      "link": [
+        {
+          "URL": "https://api.elsevier.com/content/article/PII:0375947480905692?httpAccept=text/xml",
+          "content-type": "text/xml",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://api.elsevier.com/content/article/PII:0375947480905692?httpAccept=text/plain",
+          "content-type": "text/plain",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        }
+      ]
+    }
+  ],
+  "display_harness_boundary": "initial terminal compact display failed on one null author field after valid receipt saved; local null-safe inspection repaired, no repeated networkrequest"
+}

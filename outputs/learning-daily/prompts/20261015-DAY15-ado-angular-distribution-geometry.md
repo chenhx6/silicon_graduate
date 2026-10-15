@@ -345,3 +345,6 @@ DAY14延期checkpoint030已复核原矩参考/通道归一；下一有界Ionescu
 
 
 DAY14延期checkpoint031已预读Ionescu1981九页pureE2/feeding、多解及角单位；25项仅知识核查，本卡仍partial无信用。正式Day15记录这一priming，不沿用DAY14成绩或用source旧humanreview覆盖新claims。
+
+
+DAY14延期checkpoint032已做Yamazaki U的49项selectedtable/归一/domain检查，仍为Day15无学分preview；正式运行记录此priming，不用其代本卡独立回忆/计算或提前计卡。
