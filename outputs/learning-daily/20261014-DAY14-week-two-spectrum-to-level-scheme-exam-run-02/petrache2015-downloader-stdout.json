@@ -1,0 +1,37 @@
+{
+  "summary": {
+    "total": 1,
+    "downloaded": 1,
+    "seconds": 9.3
+  },
+  "manifest": "/workspace/wiki/tmp/day14-20261014/petrache2015/manifest.json",
+  "results": [
+    {
+      "doi": "10.1088/0031-8949/90/11/114016",
+      "title": "Exotic rotations and triaxiality in Nd nuclei",
+      "language": "",
+      "publisher": "IOP Publishing",
+      "route": "open_access",
+      "route_reason": "article_level_oa",
+      "si_requested": false,
+      "status": "open_access_downloaded",
+      "provider": "open_access",
+      "accessMode": "open_access",
+      "oaEvidence": {
+        "source": "publisher_oa",
+        "url": "http://stacks.iop.org/1402-4896/90/i=11/a=114016/pdf",
+        "format": "pdf",
+        "version": "publishedVersion",
+        "license": "http://iopscience.iop.org/info/page/text-and-data-mining"
+      },
+      "ok": true,
+      "file": "/workspace/wiki/tmp/day14-20261014/petrache2015/PDFs/Exotic_rotations_and_triaxiality_in_Nd_nuclei.pdf",
+      "bytes": 397420,
+      "sha256": "cc6f8b952b32ff32b462987cc86f9417a0cb8702b16bc797231356b153ca5b35",
+      "contentType": "application/pdf;charset=UTF-8",
+      "format": "pdf",
+      "source": "http://stacks.iop.org/1402-4896/90/i=11/a=114016/pdf",
+      "oaAttempts": []
+    }
+  ]
+}

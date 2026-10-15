@@ -325,3 +325,6 @@ Day14延期另核Zhao2015 O1/O2上游规则与43-check实canonical/BdG控制；�
 
 
 Day14延期另完成50-check四极normalform/轴置换/声明irrotational控制；source TableII/Fig16的模型γ与alternative signedγ/转轴分层，未知实际frame不填，四极相同不认证fullstate。此只标正式回忆priming，不给Day15信用或shape共存新实证。
+
+
+Day14延期又核直接Ref48 Petrache2015：Nd J2系统学的选带/图示删点、模型signedγ/相对轴与未来寿命检验分开，Table1 census不算独立实验。此为正式回忆priming，不给Day15信用，不提供Pr136实际frame或新shape实证。

@@ -1,0 +1,10 @@
+{
+  "tool_status": "open_access_downloaded",
+  "actual_download": true,
+  "actual_pdf_verified": true,
+  "route": "public publisher stacks.iop.org URL, no credential/captcha steps",
+  "tool_oa_evidence_license": "http://iopscience.iop.org/info/page/text-and-data-mining",
+  "source_license_boundary": "TDM/copyright records do not prove open access or an open license; the downloader OA classification is not adopted as a scientific/legal fact",
+  "classification_used": "publicly retrieved publisher PDF, reuse license not verified",
+  "original_manifest_unmodified": "tmp/day14-20261014/petrache2015/manifest.json"
+}

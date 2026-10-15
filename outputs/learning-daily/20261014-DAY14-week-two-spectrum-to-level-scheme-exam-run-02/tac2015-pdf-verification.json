@@ -6,8 +6,19 @@
   "sha256": "ce3c7672420b07e9bbe7d7a869049771c5cef9aa64f4dffce5dfd18bcb0b3c21",
   "pages": 13,
   "pdf_magic": true,
-  "firstpage": "arXiv:1506.08340v2  [nucl-th]  20 Sep 2015\nImpact of pairing correlations on the orientation of the nuclear\nspin\nP. W. Zhao,1, 2, ∗S. Q. Zhang,2 and J. Meng2, 3, 4\n1Physics Division, Argonne National Laboratory, Argonne, Illinois 60439, USA\n2State Key Laboratory of Nuclear Physics and Technology,\nSchool of Physics, Peking University, Beijing 100871, China\n3School of Physics and Nuclear Energy Engineering,\nBeihang University, Beijing 100191, China\n4Department of Physics, University of Stellenbosch, Stellenbosch 7602, South Africa\nAbstract\nFor the ﬁrst time, the tilted axis cranking covariant density functional theory with pairing\ncorrelations has been formulated and implemented in a fully self-consistent and microscopic way\nto investigate the evolution of the spin axis and the pairing eﬀects in rotating triaxial nuclei. The\nmeasured energy spectrum and transition probabilities for the 135Nd yrast band are reproduced well\nwithout any ad hoc renormalization factors when pairing eﬀects are taken into account. A transition\nfrom collective to chiral rotation has been demonstrated.\nIt is found that pairing correlations\nintroduce additional admixtures in the single-particle orbitals, and, thus, inﬂuence the structure of\ntilted axis rotating nuclei by reducing the magnitude of the proton and neutron angular momenta\nwhile merging their direction.\nPACS numbers: 21.60.Jz, 21.10.Re, 23.20.-g, 27.60.+j\n∗pwzhao@pku.edu.cn\n1\n",
   "raw_archived": false,
   "fulltext_read": true,
-  "reading_audit": "outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/tac2015-reading-audit.json"
+  "reading_audit": "outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/tac2015-reading-audit.json",
+  "identity_checked_on_pdf": {
+    "title": "Impact of pairing correlations on the orientation of the nuclear spin",
+    "authors": [
+      "P. W. Zhao",
+      "S. Q. Zhang",
+      "J. Meng"
+    ],
+    "arxiv": "1506.08340v2",
+    "doi": "10.1103/PhysRevC.92.034319",
+    "arxiv_margin_date": "20 Sep 2015"
+  },
+  "receipt_scope": "bibliographic identity and integrity only; article text retained in original PDF/tmp extraction"
 }

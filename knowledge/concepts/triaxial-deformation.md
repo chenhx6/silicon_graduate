@@ -69,6 +69,12 @@ tags: [deformation, collective-motion]
 
 区分实际结构仍需作者逐态tensor/axis map及相对取向、完整E2矩阵元链（含必要的相位/分支）和独立形状敏感观测。单一寿命、相对γ强度、E2未观测或一个模型极小值不补这些材料；不同模型βγ也不直接证明实验形状共存。Decision: limits γ号到形状/模式的直接跳步，保留当前解释竞争。
 
+### Nd系统学的直接伴随源
+
+[[petrache-2015-nd-exotic-rotations-triaxiality]] PT15-5是Lv2025 Ref.[48]的实际语境：其calculated负γ/正γ分别关联中间/短轴转动；PT15-6却明确要求后续寿命测量检验这种轴变化是否真实。它支持保留relative-axis信息，不提供136Pr实际frame或新的shape实证。
+
+该文J^(2)的51/23两组量级是选定Nd系统学总结。PT15-4将逐核选带、均值的interaction/频率范围与低组图示删点分开；缺完整输入/筛选mask，不能把图上的gap当无条件的γ或形状分类器。这个限制与上面的几何必要条件相容，不证明作者处理错误，也不改变D4/D6竞争解释。
+
 ## Related Nuclei and Bands
 
 - [[131xe]]
@@ -84,6 +90,7 @@ tags: [deformation, collective-motion]
 
 ## Sources
 
+- [[petrache-2015-nd-exotic-rotations-triaxiality]] PT15-4–PT15-8：signedγ的模型相对轴语境、J^(2)筛选与必要寿命观测，不是Pr136独立实证。
 - [[lv-2025-136pr-tac-covariant-density-functional]] LV25-33：模型TableII/Fig16与alternative γ/axis场景；上述normal form与计算为本任务条件推导。
 - [[zamfir-casten-1991-gamma-softness-triaxiality]]
 - [[frauendorf-meng-1997-tilted-rotation-chirality]]

@@ -93,3 +93,12 @@ LV25 γ/axis源段与50check已完成；LV25-33、triaxial-deformation、136pr�
 前24批published；本批subject Separate DAY14 quadrupole shape from rotation-axis labels，actualH3/hash看publication-025.json。下一petrache2015-gamma-before-source.md已freeze，LV25 Ref48 C.M.Petrache PhysScr90,114016(2015) metadata/fulltext核验中；先poll既有查询，不凭候选DOI/metadata license判OA。找直接γ/axis论证/原图，若重复旧数据不计独立实证；不替原1996primary解释263/405。
 
 研究至2026-10-16 15:00，16:00最终交付；Day14/partial15，formal21/24和official next14/count13不改，goalactive。193Bi实际response/τ/events、Pr真实模型input仍缺；不要反复换同toy参数。旧watchers不live未重启，不新card/session/daemon。
+
+
+## 最新checkpoint026
+
+Petrache2015 Ref48直接源3页全文/Fig1/Table1已核，PT15-1–9；source+triaxialconcept+LV25Ref48/index，89items29changedpages，oldrows/review/raw/protected/diff保持。Freshlint0errors137warnings（110citekey/24rawslots/3parser），9newclaims parsedtrue。PDF公开取得，tool TDM→OA标签未采用，许可未核；原PDF/hash保留，身份回执不复制文章全文/cover归属。
+
+前25批published；本批subject Trace DAY14 gamma-axis interpretation to selected Nd systematics，actualH3/hash看publication-026.json。下一pr136-j2-before-calculation.md已freeze但未计算，请完整读该短文件：actualD4有序path，k与parentstep、adjacent/centered stencil、E2交错signature、translation invariance和声明筛选敏感性。先回原TableI，不把所有E2 rows当同路step2，不填M空/I23tentative；不重算Nd51/23、不给Pr定γ/轴/actualMOI。
+
+研究至2026-10-16 15:00、16:00最终交付，Day14/partial15、formal21/24、official next14/count13保持；goalactive，不新card/session/daemon。旧193Bi响应/τ/events、Pr模型input与1996primary缺，但此当前能量问题仍有高信息路线，不能提前结束。

@@ -1,0 +1,44 @@
+{
+  "at": "2026-10-15T19:04:59.699522+08:00",
+  "source": "knowledge/sources/petrache-2015-nd-exotic-rotations-triaxiality.md",
+  "doi": "10.1088/0031-8949/90/11/114016",
+  "sha256": "cc6f8b952b32ff32b462987cc86f9417a0cb8702b16bc797231356b153ca5b35",
+  "downloaded_pdf_pages": 4,
+  "cover_not_scientific_evidence": true,
+  "covered_printed_pages": [
+    1,
+    2,
+    3
+  ],
+  "covered_pdf_pages": [
+    2,
+    3,
+    4
+  ],
+  "reading_depth": "deep-read",
+  "figures_visual": [
+    1
+  ],
+  "tables_visual": [
+    1
+  ],
+  "mainline": [
+    "Introduction/128–141Nd scope",
+    "Results",
+    "J2 selection and band census",
+    "axis/gamma interpretation",
+    "counter/companion lifetime discussion",
+    "references"
+  ],
+  "table_row_arithmetic_checked": true,
+  "table_total": 73,
+  "new_independent_experiments": 0,
+  "uncovered": [
+    "actual perband energy/selectionmask and covariance",
+    "upstream experimental fulltexts reread",
+    "Pr136 actual tensor/axes/code and 1996 primary"
+  ],
+  "OA_label_overridden": "public publisher response verified, openlicense not established",
+  "P0": "none identified",
+  "needs_review": true
+}

@@ -196,3 +196,7 @@ LV25-33将PDF12的alternative段与PDF15的TableII/Fig16分开。Fig11的ConfigD
 [[triaxial-deformation]]“形状张量、轴置换与signedγ分开”用声明的无量纲quadrupole normal form证明±γ可只是proper axis permutation，配合假设irrotational law展示固定转轴与同步换轴的差别。50项检查读取本表十行rounded模型参数，但几何形式、惯量标度和控制±20°均明确非作者实际frame/实验量。证明只涉及四极张量，不认证完整密度/波函数相同，也不以cos3γ裁决作者prolate/oblate措辞或重排D4γ号。
 
 因此原P1的几何必要条件和场景分层已推进，实际作者轴映射仍开放；D4/D6 MR与shape-coexistence继续竞争，缺失E2/POL/寿命不能由几何补。原claims/review保持，实际程序未重跑。
+
+### Ref48的实际证据层级
+
+后续直接核读[[petrache-2015-nd-exotic-rotations-triaxiality]]全文及Fig1/Table1。PT15-5把calculated负/正γ与中间/短轴联系，PT15-6仍要求寿命检验轴变化，PT15-4说明J^(2)选带/均值/图示删点。它补的是本段alternative的Nd系统学语境，没有136Pr逐态轴映射，也没有完整展开D4/D6特定lowΩ/highΩ极化输入。故Ref48引用本身不补actual frame/共存实证，原LV25-33及review状态保持。

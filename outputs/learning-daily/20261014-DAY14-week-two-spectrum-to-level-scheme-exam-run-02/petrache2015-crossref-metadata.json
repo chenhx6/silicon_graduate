@@ -1,0 +1,106 @@
+{
+  "provider": "crossref",
+  "at": "2026-10-15T18:52:59.961781+08:00",
+  "candidate_doi": "10.1088/0031-8949/90/11/114016",
+  "url": "https://api.crossref.org/works/10.1088/0031-8949/90/11/114016",
+  "status": 200,
+  "paper": {
+    "DOI": "10.1088/0031-8949/90/11/114016",
+    "title": [
+      "Exotic rotations and triaxiality in Nd nuclei"
+    ],
+    "author": [
+      {
+        "given": "C M",
+        "family": "Petrache",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2015,
+          10,
+          29
+        ]
+      ]
+    },
+    "volume": "90",
+    "issue": "11",
+    "page": "114016",
+    "article-number": null,
+    "container-title": [
+      "Physica Scripta"
+    ],
+    "link": [
+      {
+        "URL": "http://stacks.iop.org/1402-4896/90/i=11/a=114016/pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "http://stacks.iop.org/1402-4896/90/i=11/a=114016?key=omitted-public-routing-value",
+        "content-type": "text/html",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "http://stacks.iop.org/1402-4896/90/i=11/a=114016/pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      },
+      {
+        "URL": "http://stacks.iop.org/1402-4896/90/i=11/a=114016?key=omitted-public-routing-value",
+        "content-type": "text/html",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2015,
+              10,
+              29
+            ]
+          ],
+          "date-time": "2015-10-29T00:00:00Z",
+          "timestamp": 1446076800000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "http://iopscience.iop.org/info/page/text-and-data-mining"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2015,
+              10,
+              29
+            ]
+          ],
+          "date-time": "2015-10-29T00:00:00Z",
+          "timestamp": 1446076800000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "http://iopscience.iop.org/page/copyright"
+      }
+    ]
+  },
+  "redactions": [
+    "public Crossref TDM routing query key value omitted; DOI/PDF URL and bibliographic fields retained"
+  ]
+}

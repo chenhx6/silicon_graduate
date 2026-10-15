@@ -87,6 +87,12 @@ ZT15-3/4直接给出分开归一U/V、分别最大化O1/O2及继承/反转blocki
 
 [定向回读前primed recall](20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/pr136-gamma-before-focused-reread.md)及[原文定位](20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/pr136-gamma-focused-source-note.md)在量化前保存。[[lv-2025-136pr-tac-covariant-density-functional]] LV25-33的PDF15 TableII给D4(.17,35°)/D6(.19,39°)，Fig16仅显示0–60°扇区；PDF12的D4负γ/medium与D6正γ/short明确是alternative共存解释，并用了irrotational-flow假设。没有逐态signedγ/axis map，不能把source模型图和alternative直接合并或给D4自行改号。
 
+### 直接γ/axis伴随源：Petrache2015
+
+[[petrache-2015-nd-exotic-rotations-triaxiality]]，PhysScr90,114016，DOI10.1088/0031-8949/90/11/114016。公开出版商入口实际取得PDF4页（cover+正文3页），SHA256 `cc6f8b952b32ff32b462987cc86f9417a0cb8702b16bc797231356b153ca5b35`；身份、全文主线、Fig1/Table1和讨论均核验。[来源前回忆](20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/petrache2015-gamma-before-source.md)及[reading audit](20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/petrache2015-reading-audit.json)保留priming。下载器把TDM链接当OA证据的标签未采纳，只称成功取得出版商PDF；raw未归档/citation key空明确保留。
+
+PT15-5是负/正γ对应中间/短轴的模型语境，PT15-6明确要求寿命来检验其真实与否；没有Pr136实际frame。PT15-4的J2图和均值有不同选带/interaction/频率/低组图示删点规则，不能忽略这些边界把51/23分组当唯一γ测量。此为二级Nd系统学，不是新独立Pr136实验。
+
 ## Theory/analysis exercise
 
 七边的中心值闭合为`+0.2,+0.4,+0.3 keV`。D的rank4、三个cycle、绝对offset nullspace均由代码核验。独立0.1-keV拟合误差下条件χ²=6.666667；自设将caption约0.3 keV按quadrature加上、并令各线独立后，χ²=0.666667，dof3。后者cycle Σ为`0.1×(3,1,0; 1,3,1; 0,1,3) keV²`，不是三个可相乘的独立检验。
@@ -257,6 +263,12 @@ checkpoint008实际观察为上海15:37，立即停止新研究；最后已保�
 
 声明β1/γ±20°的四极形状相同，在假设irrotational law下固定x轴惯量为.413176/.969846；转轴也同步换轴后回.413176。共同标度任意，不是Pr136 MOI或D4+35→−35重赋值。实际TAC含qp/配对贡献，不能由此以I/ω唯一反演γ。
 
+### Table1交叉检查与下一个有序谱练习
+
+[Table1 crosscheck](20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/petrache2015-table-crosscheck.json)核四行Total=Q+D，合计73=46Q+27D；表数不是Fig1全样本或独立实验数。138Nd Table1含28Q而Fig1仅选14/15 high-spin Q，不能由census重建其平均J2；51/23只是作者选定总结，缺per-band原能量/筛选mask/Cov，未宣称复现。
+
+PT15-9将“J2不依赖绝对spin/Ex赋值”与必须核相邻线身份、ΔI和排序分开。既有[[moments-of-inertia]]还保留Rh的source-specific centered差分；下一实际Pr136练习要先定义stencil和正确path，不能先套一个通用分母或把双signature crossover序列混作同一路。此项尚未计算，不当已完成结果。
+
 ## Counter-evidence and missing companion observables
 
 HE15-9的实际未定双线是核心反例：energy sum、共享R/A和假设的ΔI=2均不足以裁决order。若一条线出现可独立定位的旁路或延迟顺序，应重审中间level；source仍保留括号Jπ与(E2)。HE15-5的quadruplet限制“一个峰是一条γ”的简化；干净622.4直接分支门与323.4级联门的299-keVcomponent差异可能迫使拆峰，但必须控制622/626门纯度、feeding、response和random。
@@ -278,6 +290,10 @@ ZT15-6回弯区结果省略；ZT15-9的“无统一.3因子”是作者对选定
 ### γ/axis分析后的必要材料
 
 几何反例限制“γ号不同就是不同形状”捷径，也不能反向宣称D4/D6完整态相同或作者模型错误。LV25-33的actual轴映射与alternative数值解仍缺；Fig11同时非零Jx/Jz提示不能用替代段principal-axis描述倒填所有TAC态。需要真实tensor/relative orientation、完整E2矩阵元链（必要相位/分支）及独立形状信息；相对Iγ、单个寿命或E2未观测都不补这些材料。原MR与coexistence仍竞争。
+
+### Nd伴随源的限制
+
+源文自身把寿命作为轴解释的待检验观测，且同时讨论形变/对齐占据与crossing；PT15-7不支持J2到γ的单值反演。低组删点是作者明确披露的图示选择，当前没有完整数据检验其影响，不指控作者错误或重算显著性。PT15-8不能替Pr136补lowΩ/highΩ完整输入、actual tensor/axis或原1996次序原因。
 
 ## Knowledge Impact and Learning Decision
 
@@ -322,6 +338,10 @@ Decision: supports 追踪实际qp身份，revises 把“largest overlap”简称
 ### γ/axis后的认识决定
 
 Decision: limits source模型γ、替代转轴与实验共存之间的直接等同；supports 将四极shape、relative orientation和完整模型态分开。几何必要条件已固化，但实际source frame未认证，不清原review、不给新模式或PSM/TPSM信用。当前问题的后续信息增益须来自真实输入/直接轴约定或新的伴随观测，不能继续换同一几何toy的参数。
+
+### 伴随源后的决定
+
+Decision: supports signedγ的相对轴语境，limits source引用/J2gap直接升级为唯一形状证据。持久化source、现有triaxial概念与LV25的Ref48核验和索引；不扩大Nd核素页/项目或改Pr136排序。下一高信息量回到当前level-chain的实际差分定义与selection敏感性，不重复同一几何toy。
 
 ## Durable knowledge delta
 
@@ -2147,6 +2167,90 @@ Decision: limits source模型γ、替代转轴与实验共存之间的直接等�
           "locator": "LV25-33"
         }
       ]
+    },
+    {
+      "knowledge": "knowledge/sources/petrache-2015-nd-exotic-rotations-triaxiality.md",
+      "anchor": "Petrache（2015）：Nd核的特殊转动与三轴性",
+      "summary": "完整读三页正文/一图一表，记录γ/axis的模型语境、J2筛选/寿命验证、census算术和证据转移边界。",
+      "sources": [
+        {
+          "path": "knowledge/sources/petrache-2015-nd-exotic-rotations-triaxiality.md",
+          "locator": "PT15-2"
+        },
+        {
+          "path": "knowledge/sources/petrache-2015-nd-exotic-rotations-triaxiality.md",
+          "locator": "PT15-4"
+        },
+        {
+          "path": "knowledge/sources/petrache-2015-nd-exotic-rotations-triaxiality.md",
+          "locator": "PT15-5"
+        },
+        {
+          "path": "knowledge/sources/petrache-2015-nd-exotic-rotations-triaxiality.md",
+          "locator": "PT15-6"
+        },
+        {
+          "path": "knowledge/sources/petrache-2015-nd-exotic-rotations-triaxiality.md",
+          "locator": "PT15-8"
+        },
+        {
+          "path": "knowledge/sources/petrache-2015-nd-exotic-rotations-triaxiality.md",
+          "locator": "PT15-9"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/concepts/triaxial-deformation.md",
+      "anchor": "Nd系统学的直接伴随源",
+      "summary": "以实际Ref48校准signedγ与相对轴，保留选带/寿命和非唯一解释限制。",
+      "sources": [
+        {
+          "path": "knowledge/sources/petrache-2015-nd-exotic-rotations-triaxiality.md",
+          "locator": "PT15-4"
+        },
+        {
+          "path": "knowledge/sources/petrache-2015-nd-exotic-rotations-triaxiality.md",
+          "locator": "PT15-5"
+        },
+        {
+          "path": "knowledge/sources/petrache-2015-nd-exotic-rotations-triaxiality.md",
+          "locator": "PT15-6"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/sources/lv-2025-136pr-tac-covariant-density-functional.md",
+      "anchor": "Ref48的实际证据层级",
+      "summary": "直接核其Ref48，区分一般Nd解释与未取得的Pr136真实frame/极化输入。",
+      "sources": [
+        {
+          "path": "knowledge/sources/petrache-2015-nd-exotic-rotations-triaxiality.md",
+          "locator": "PT15-4"
+        },
+        {
+          "path": "knowledge/sources/petrache-2015-nd-exotic-rotations-triaxiality.md",
+          "locator": "PT15-5"
+        },
+        {
+          "path": "knowledge/sources/petrache-2015-nd-exotic-rotations-triaxiality.md",
+          "locator": "PT15-6"
+        },
+        {
+          "path": "knowledge/sources/petrache-2015-nd-exotic-rotations-triaxiality.md",
+          "locator": "PT15-8"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/index.md",
+      "anchor": "Nd高自旋J^(2)系统学、signedγ/转轴解释与寿命检验边界",
+      "summary": "索引本次必要companion和二级证据边界。",
+      "sources": [
+        {
+          "path": "knowledge/sources/petrache-2015-nd-exotic-rotations-triaxiality.md",
+          "locator": "PT15-1"
+        }
+      ]
     }
   ]
 }
@@ -2254,6 +2358,8 @@ Danko99primary合法OA/publicPDF/官方API/repo均未提供正文（403HTML/401J
 本段canonical为[[zhao-2015-pairing-spin-orientation-tac]] ZT15-3/4/11、[[configuration-occupation-audit]]“O1/O2阻塞追踪的可重放契约”、[[tilted-axis-cranking]]“2015年上游阻塞方法与平面限制”；[[wang-2017-109ag-tac-separable-pairing]]新增“上游阻塞方法的后续核验”，[[a130-model-choice-card]]细化原方法路线。可重放字段、原文规则、43-check及无实际Pr136输入的限制均在knowledge保有副本。
 
 新增canonical为[[triaxial-deformation]]“形状张量、轴置换与signedγ分开”、[[lv-2025-136pr-tac-covariant-density-functional]] LV25-33和“γ、模型形状与替代转轴场景的定向复核”、[[136pr]]“γ与相对转轴的解释边界”、[[a130-model-choice-card]]“136Pr的γ、形状与转轴分层”。这些页保有50-check推导、实际模型值/alternative locator与未知frame边界，outputs不是唯一副本。
+
+新增canonical为[[petrache-2015-nd-exotic-rotations-triaxiality]] PT15-1–9及Table1算术、[[triaxial-deformation]]“Nd系统学的直接伴随源”、[[lv-2025-136pr-tac-covariant-density-functional]]“Ref48的实际证据层级”。作者待检验解释、mask缺口、数据独立性和公开取得PDF/许可未核均有source locator，未把outputs当唯一知识副本。
 
 ## Open questions and belief revision
 
@@ -2464,3 +2570,10 @@ wiki_lint --fail-on error实际exit0，0errors/131warnings（107citationkey、21
 2026-10-15T18:54:31.258823+08:00：最终50项actualTableII/精确低阶恒等式/转轴控制true、exit0；report/card/writeback valid，唯一block85items/28changed knowledge页。LV25-33 parsed true，原32条source claim及concept/nucleus/project旧行顺序和review保持，raw metadata/PLAN/Bib/AST及git diff --check exit0。首import缺SymPy exit1发生于计算前，已以标准库精确代数替代，无全局安装；fresh `wiki_lint --fail-on error` exit0，0errors/135warnings（109空citation key、23未填raw槽、3reaction parser）。
 
 前24批Gitee已发布；本批稳定 main / `Separate DAY14 quadrupole shape from rotation-axis labels`，实际H3/hash只回执。下一回到source Ref48 Petrache2015 PhysScr90,114016的直接γ极化/轴论证，来源前回忆已保存，先核metadata/合法全文；只补当前问题，不计独立Pr136实验或新卡。当前研究仍active至2026-10-16 15:00、16:00最终交付，formal21/24、Day14/partial15和official next14/count13保持。
+
+
+### Checkpoint026 延期直接伴随源验收
+
+2026-10-15T19:11:11.983666+08:00：Petrache2015全文印刷3页、Fig1/Table1及寿命/筛选讨论核验，四行census算术一致；report/card/writeback valid，唯一block89items/29changed knowledge页。9新PT15 claims parsed true；原concept/LV25旧行和review保持，raw metadata/PLAN/Bib与git diff --check exit0。`wiki_lint --fail-on error`实际exit0，0errors/137warnings（110空citation key、24未填raw槽、3reaction parser）。下载器TDM→OA标签未采纳；本run两份方法PDF身份回执缩为已核书目信息，实际PDF/hash不改。
+
+前25批Gitee已发布；本批稳定 main / `Trace DAY14 gamma-axis interpretation to selected Nd systematics`，实际H3/hash只回执。下一`pr136-j2-before-calculation.md`已freeze但未计算：absolute I/Ex offset与有序path/ΔI分开，明确adjacent/centered stencil和E2 interleaved signatures，不重算Nd51/23或预判Pr轴。研究仍active至2026-10-16 15:00、16:00最终交付，formal21/24、Day14/partial15及official next14/count13保持。

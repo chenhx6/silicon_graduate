@@ -1,0 +1,16 @@
+{
+  "provider": "HAL",
+  "at": "2026-10-15T18:55:24.406578+08:00",
+  "expected_doi": "10.1088/0031-8949/90/11/114016",
+  "url": "https://api.archives-ouvertes.fr/search/?q=doiId_s%3A%2210.1088%2F0031-8949%2F90%2F11%2F114016%22&fl=title_s%2Curi_s%2CfileMain_s%2CdoiId_s%2CauthFullName_s&wt=json&rows=3",
+  "status": 200,
+  "result": {
+    "response": {
+      "numFound": 0,
+      "start": 0,
+      "maxScore": 0.0,
+      "numFoundExact": true,
+      "docs": []
+    }
+  }
+}

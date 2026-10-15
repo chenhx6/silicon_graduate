@@ -1,0 +1,22 @@
+{
+  "at": "2026-10-15T18:56:34.777619+08:00",
+  "path": "/workspace/wiki/tmp/day14-20261014/petrache2015/PDFs/Exotic_rotations_and_triaxiality_in_Nd_nuclei.pdf",
+  "url": "http://stacks.iop.org/1402-4896/90/i=11/a=114016/pdf",
+  "bytes": 397420,
+  "sha256": "cc6f8b952b32ff32b462987cc86f9417a0cb8702b16bc797231356b153ca5b35",
+  "pages": 4,
+  "pdf_magic": true,
+  "raw_archived": false,
+  "fulltext_read": true,
+  "oa_license": "not inferred from Crossref TDM/copyright links",
+  "cover_identity_text": "Physica Scripta\nExotic rotations and triaxiality in Nd nuclei\nTo cite this article: C M Petrache 2015 Phys. Scr. 90 114016",
+  "download_attribution_in_original_pdf": "publisher cover contains per-download attribution; retained in original tmp PDF, omitted from identity receipt because not scientific evidence",
+  "access_classification": "publisher PDF retrieved through public URL; OA license not established",
+  "body_identity": {
+    "doi": "10.1088/0031-8949/90/11/114016",
+    "title": "Exotic rotations and triaxiality in Nd nuclei",
+    "author": "C M Petrache",
+    "printed_pages": 3
+  },
+  "reading_audit": "outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/petrache2015-reading-audit.json"
+}

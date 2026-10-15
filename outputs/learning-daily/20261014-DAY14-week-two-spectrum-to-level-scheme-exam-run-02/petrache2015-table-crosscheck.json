@@ -1,0 +1,42 @@
+{
+  "source_doi": "10.1088/0031-8949/90/11/114016",
+  "locator": "printed p.2 Table1 / PDF p.3",
+  "rows": [
+    {
+      "A": 138,
+      "total": 36,
+      "Q": 28,
+      "D": 8
+    },
+    {
+      "A": 139,
+      "total": 8,
+      "Q": 3,
+      "D": 5
+    },
+    {
+      "A": 140,
+      "total": 23,
+      "Q": 12,
+      "D": 11
+    },
+    {
+      "A": 141,
+      "total": 6,
+      "Q": 3,
+      "D": 3
+    }
+  ],
+  "row_sums_consistent": true,
+  "totals": {
+    "total": 73,
+    "Q": 46,
+    "D": 27
+  },
+  "figure_scope_boundary": "Fig1 is an explicitly selected high-spin subset, not all Table1 bands or independent experiments",
+  "quoted_summary_J2_hbar2_per_MeV": {
+    "light": 51,
+    "heavy": 23
+  },
+  "cannot_recompute_summary": "no per-band energy/selection-mask/covariance input; averages and display exclusions must not be inferred from table counts"
+}
