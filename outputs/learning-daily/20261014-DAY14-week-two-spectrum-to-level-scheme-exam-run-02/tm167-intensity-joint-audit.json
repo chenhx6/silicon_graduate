@@ -1,0 +1,311 @@
+{
+  "precision": 110,
+  "checks": {
+    "nine_literal_graph_bound_rows": true,
+    "same_parent_parent993": true,
+    "different_reported_values_parent993": true,
+    "same_parent_parent1086": true,
+    "different_reported_values_parent1086": true,
+    "known_incoming_bind_to_target": true,
+    "known_outgoing_bind_from_target": true,
+    "B_parent_probe_binds_to_B_feeder": true,
+    "nonzero_printed_energy_residuals_retained": true,
+    "B_U_rows_match_printed_precision": true,
+    "both_known_reference_components_positive": true,
+    "adding_knownB_tightens_A_center_bound": true,
+    "joint_bound_remainder_positive": true,
+    "reference_scalar_weights_positive_normalized": true,
+    "reference_closed_centers_not_all_exact_feasible": true,
+    "author_calculated_target_inside_quoted_marginal_widths": true,
+    "author_calculated_point_positive_reference_remainder": true,
+    "pureE1_reference_declared_zero": true,
+    "pureE1_reference_within_source_angle_interval": true,
+    "radiative_mixing_sensitivity_small_in_this_interval": true,
+    "field_and_covariance_boundaries_preserved": true,
+    "doublet_quadruplet_warnings_kept": true
+  },
+  "check_count": 22,
+  "passed": true,
+  "rows": [
+    {
+      "gamma_kev": "271.12",
+      "table": 1,
+      "parent_id": "n17@741.51",
+      "parent_spin_twice": 17,
+      "parent_parity": "-",
+      "parent_energy": "741.51",
+      "target_id": "n13@470.39",
+      "target_spin_twice": 13,
+      "target_parity": "-",
+      "target_energy": "470.39",
+      "I_table": "101.0",
+      "mode": "E2",
+      "peak_flag": "",
+      "role": "knownA incoming to selectedtarget",
+      "quoted_uncertainty_literal": "1.5",
+      "I_table_literal": "101.0(1.5)"
+    },
+    {
+      "gamma_kev": "218.90",
+      "table": 3,
+      "parent_id": "p15@689.31",
+      "parent_spin_twice": 15,
+      "parent_parity": "+",
+      "parent_energy": "689.31",
+      "target_id": "n13@470.39",
+      "target_spin_twice": 13,
+      "target_parity": "-",
+      "target_energy": "470.39",
+      "I_table": "13.8",
+      "mode": "E1/M2",
+      "peak_flag": "",
+      "role": "knownB incoming to selectedtarget",
+      "quoted_uncertainty_literal": "0.3",
+      "I_table_literal": "13.8(0.3)"
+    },
+    {
+      "gamma_kev": "184.33",
+      "table": 1,
+      "parent_id": "n13@470.39",
+      "parent_spin_twice": 13,
+      "parent_parity": "-",
+      "parent_energy": "470.39",
+      "target_id": "n9@286.04",
+      "target_spin_twice": 9,
+      "target_parity": "-",
+      "target_energy": "286.04",
+      "I_table": "120.0",
+      "mode": "E2",
+      "peak_flag": "D",
+      "role": "known selectedtarget outgoing/probe",
+      "quoted_uncertainty_literal": "17",
+      "I_table_literal": "120.0(17)"
+    },
+    {
+      "gamma_kev": "99.21",
+      "table": 3,
+      "parent_id": "n13@470.39",
+      "parent_spin_twice": 13,
+      "parent_parity": "-",
+      "parent_energy": "470.39",
+      "target_id": "p11@371.17",
+      "target_spin_twice": 11,
+      "target_parity": "+",
+      "target_energy": "371.17",
+      "I_table": "41.0",
+      "mode": "E1/M2",
+      "peak_flag": "D",
+      "role": "known selectedtarget outgoing",
+      "quoted_uncertainty_literal": "3.0",
+      "I_table_literal": "41.0(3.0)"
+    },
+    {
+      "gamma_kev": "318.135",
+      "table": 1,
+      "parent_id": "p15@689.31",
+      "parent_spin_twice": 15,
+      "parent_parity": "+",
+      "parent_energy": "689.31",
+      "target_id": "p11@371.17",
+      "target_spin_twice": 11,
+      "target_parity": "+",
+      "target_energy": "371.17",
+      "I_table": "57.0",
+      "mode": "E2",
+      "peak_flag": "",
+      "role": "parentB pureE2 tensor probe",
+      "quoted_uncertainty_literal": "2.0",
+      "I_table_literal": "57.0(2.0)"
+    },
+    {
+      "gamma_kev": "371.52",
+      "table": 1,
+      "parent_id": "p17@993.72",
+      "parent_spin_twice": 17,
+      "parent_parity": "+",
+      "parent_energy": "993.72",
+      "target_id": "p13@622.20",
+      "target_spin_twice": 13,
+      "target_parity": "+",
+      "target_energy": "622.20",
+      "I_table": "27.3",
+      "mode": "E2",
+      "peak_flag": "Q",
+      "role": "sameparent fieldcontrol1",
+      "quoted_uncertainty_literal": "1.3",
+      "I_table_literal": "27.3(1.3)"
+    },
+    {
+      "gamma_kev": "304.41",
+      "table": 2,
+      "parent_id": "p17@993.72",
+      "parent_spin_twice": 17,
+      "parent_parity": "+",
+      "parent_energy": "993.72",
+      "target_id": "p15@689.31",
+      "target_spin_twice": 15,
+      "target_parity": "+",
+      "target_energy": "689.31",
+      "I_table": "12.3",
+      "mode": "M1/E2",
+      "peak_flag": "",
+      "role": "sameparent fieldcontrol1",
+      "quoted_uncertainty_literal": "0.2",
+      "I_table_literal": "12.3(0.2)"
+    },
+    {
+      "gamma_kev": "397.38",
+      "table": 1,
+      "parent_id": "p19@1086.69",
+      "parent_spin_twice": 19,
+      "parent_parity": "+",
+      "parent_energy": "1086.69",
+      "target_id": "p15@689.31",
+      "target_spin_twice": 15,
+      "target_parity": "+",
+      "target_energy": "689.31",
+      "I_table": "31.6",
+      "mode": "E2",
+      "peak_flag": "D",
+      "role": "sameparent fieldcontrol2",
+      "quoted_uncertainty_literal": "0.6",
+      "I_table_literal": "31.6(0.6)"
+    },
+    {
+      "gamma_kev": "345.20",
+      "table": 3,
+      "parent_id": "p19@1086.69",
+      "parent_spin_twice": 19,
+      "parent_parity": "+",
+      "parent_energy": "1086.69",
+      "target_id": "n17@741.51",
+      "target_spin_twice": 17,
+      "target_parity": "-",
+      "target_energy": "741.51",
+      "I_table": "8.50",
+      "mode": "E1/M2",
+      "peak_flag": "",
+      "role": "sameparent fieldcontrol2",
+      "quoted_uncertainty_literal": "0.15",
+      "I_table_literal": "8.50(0.15)"
+    }
+  ],
+  "printed_energy_residuals": {
+    "271.12": "0.00",
+    "218.90": "0.02",
+    "184.33": "0.02",
+    "99.21": "0.01",
+    "318.135": "0.005",
+    "371.52": "0.00",
+    "304.41": "0.00",
+    "397.38": "0.00",
+    "345.20": "-0.02"
+  },
+  "contract_A_unverified_reference": {
+    "B_over_A": "0.13663366336633663366336633663366336633663366336633663366336633663366336633663366336633663366336633663366336634",
+    "target_known_out_sum": "161.0",
+    "A_center_geometric_bound": "0.52362450670644070555613873770058449148822575578935151712696821255782729567583305721762256744012175600515904999",
+    "B_weight_at_bound": "0.071544734579691898382917966141267980025123915147455949864872884488099175052737586035675162679937428048229652377",
+    "active_remainder_m_twice": [
+      5,
+      7
+    ],
+    "fixed_other_fraction_at_bound": "0.40483075871386739606094329615814752848665032906319253300815890295407352927142935674670226987994081594661129765",
+    "no_other_outgoing_reference_weights": {
+      "A": "0.62732919254658385093167701863354037267080745341614906832298136645962732919254658385093167701863354037267080745",
+      "B": "0.085714285714285714285714285714285714285714285714285714285714285714285714285714285714285714285714285714285714286",
+      "other": "0.28695652173913043478260869565217391304347826086956521739130434782608695652173913043478260869565217391304347826"
+    },
+    "author_calculated_target_witness": {
+      "target_rho": [
+        "-0.624",
+        "0.309"
+      ],
+      "remainder_moment_normalized": [
+        "-11.094049296304165342831856834901007021527947234242904261038269363261744582650017217870535103592903119546011813",
+        "3.1767791171132176722981228806431197919048132571677248606230633399203601072614249318955486040353934601798551118"
+      ],
+      "remainder_positive_example": [
+        [
+          1,
+          "0.33516621070732736291848592495805996049295320313413676804476616557922925218126273182217898204956883340426830881"
+        ],
+        [
+          5,
+          "0.47254360595762316698611083921634191109291814147796526941732755311656745095814428571868002531561960045427605323"
+        ],
+        [
+          11,
+          "0.19229018333504947009540323582559812841412865538789796253790628130420329686059298245914099263481156614145563796"
+        ]
+      ],
+      "not_new_measurement_or_field_validation": true
+    }
+  },
+  "U_A": [
+    "0.95293663760720085300389739004394271167266827810386804026396745684239776382371337246444814672761638101130674761",
+    "0.84744397108097461167844243568827598455570579630021113643566909969964164377843030134225684136356551790151928662"
+  ],
+  "U_B_pure_L1": [
+    "0.97321264744291991905288341492804518915258191746084184778031602831825855136794704817649553085620710394178937832",
+    "0.91069483328120367956468331580199174799403962473827816074804174417776942916165238267327590889735868557284704563"
+  ],
+  "U_B_pure_L2": [
+    "0.86752439613690146630505897167794073422198478615287712222951247773166033764473107914375393474512578948657243226",
+    "0.58103154521560958741457170827185898853918365198234036500214428022201578964612210840240680160419717043335490242"
+  ],
+  "component_A": [
+    "-0.67182032951307660136774765998097961172923113606322696838609705707389042349571792758743594344296954861297125707",
+    "0.37541767918887175297354999900990626115817766776099353344100141116694124819384462349461978072405952443037304397"
+  ],
+  "component_B_reference": [
+    "-0.64621319790209882625111458751222200559731439319399898692612984280332367810831683998919303248852151701734814720",
+    "0.33968917281388897247762687679414292200177678002737775395901957057830799707729633873713191401871478971867194802"
+  ],
+  "radiative_mixing_sensitivity": [
+    {
+      "theta_deg": -1.8,
+      "delta_M2_over_E1_squared": "0.0009876101974274855",
+      "U2": "0.97310837163203599045439026726017371584434434290213055972700946515115094547868898861000265737649100891073650094",
+      "U4": "0.91036957568391249969061094526815632632075561024801549737285792133484034449758115953280862628039905697724304611",
+      "scope": "radiative unobserved kernel only; no mixed total-conversion transfer asserted"
+    },
+    {
+      "theta_deg": 0.0,
+      "delta_M2_over_E1_squared": "0.0",
+      "U2": "0.97321264744291991905288341492804518915258191746084184778031602831825855136794704817649553085620710394178937832",
+      "U4": "0.91069483328120367956468331580199174799403962473827816074804174417776942916165238267327590889735868557284704563",
+      "scope": "radiative unobserved kernel only; no mixed total-conversion transfer asserted"
+    },
+    {
+      "theta_deg": 0.2,
+      "delta_M2_over_E1_squared": "0.000012184795770042355",
+      "U2": "0.97321135966885372630035464191330463387488490328018847261383793147432323891025457882762256415614639173010797973",
+      "U4": "0.91069081645030998374189849612127646628063377728556043036310189763998369706461218836569906650186674988382862008",
+      "scope": "radiative unobserved kernel only; no mixed total-conversion transfer asserted"
+    },
+    {
+      "theta_deg": 2.2,
+      "delta_M2_over_E1_squared": "0.0014757986586950553",
+      "U2": "0.97305690271126874072407990728337329244354551665970990993238308715481755874463101120356860790857596145774442966",
+      "U4": "0.91020903358539494317097785136972408712017602892861887155911461446668682522094006597286635797567785598953866323",
+      "scope": "radiative unobserved kernel only; no mixed total-conversion transfer asserted"
+    }
+  ],
+  "contract_B_symbolic": {
+    "status": "unresolved alternative",
+    "gamma_to_total": "I0=Igamma*(1+alpha_eff)",
+    "ratio_total_B_over_A": "(I218/I271)*(1+alpha218_eff)/(1+alpha271_E2)",
+    "alpha_mixed_E1M2": "(alpha_E1+delta_gamma^2*alpha_M2)/(1+delta_gamma^2)",
+    "alpha_response_values": null
+  },
+  "measured_weights": null,
+  "actual_covariance": null,
+  "interpretation": "source-field conditional controls; not originalmodelreplay, missingbranch discovery or experimental confidence limit",
+  "precision80_110_same60digits_reference_bound": true,
+  "dependency_sha256": {
+    "day14_unobserved_feeding_transfer.py": "c2e9856c254082077288059ebab443abbe8244331413713393783fc7ecd1837c",
+    "day14_feeding_fraction_moment_bound.py": "1e6e012bebf2d6333d717496cc6f718275de899bcd0eb26db682a7d64b85d566"
+  },
+  "source_input_sha256": "faaec505a7c539828f0b5fd2375d65aac91ec0d123d429036ec6e86f05c340e1"
+}

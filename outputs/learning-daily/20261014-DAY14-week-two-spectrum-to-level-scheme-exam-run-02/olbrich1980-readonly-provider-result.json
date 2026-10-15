@@ -1,0 +1,8 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "{\n  \"platform\": \"publisher\",\n  \"normalizedPaperId\": \"10.1016/0375-9474(80)90511-4\",\n  \"status\": \"provider_unavailable\",\n  \"diagnostics\": {\n    \"phase\": \"markdown\",\n    \"reason\": \"provider_unavailable\",\n    \"apiStatus\": null,\n    \"targetStatus\": null,\n    \"strategy\": null,\n    \"candidateCount\": 0\n  },\n  \"cost\": {\n    \"attempted\": false,\n    \"known\": true,\n    \"credits\": 0\n  }\n}"
+    }
+  ]
+}

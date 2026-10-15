@@ -95,6 +95,11 @@ For the current project, the paper matters because it demonstrates a concrete ro
 | IO81-25 | 固定上述印刷中心、spin/pureE2/未观测γ与源U定义，令其余目标布居为任意正population时，本任务的凸矩域放宽问题得已知馈入份额w≤.596940102；在数学放宽中以abs(m)=5/2、7/2余下分量取到。这不是parent branching ratio、实测w或实验上限。 | our-source-conditioned-geometric-inference | derived | printed21 Table1 rows271.12/184.33; printed25 Eq.(11) | true |
 | IO81-26 | 仅允许四个ρ各在一个原报括号误差半宽内变化，本任务构造出正population的w=1解；故中心值界不能当联合误差/置信上限。原共同Cov/coverage、复合峰响应和实际强度/branch/转换仍缺，未重拟σ/δ或宣称真实w=1。 | our-quoted-error-box-feasibility-boundary | derived | printed21 Table1 quotedρerrors/D footnote; printed25 Eq.(11) | true |
 | IO81-27 | 作者Fig5另显示218.90支从15/2+、689.31进入13/2−、470.39（Table3列为E1 interband，I_T=13.8(0.3)）；它是本例已知的额外馈入。故仅两组tensor的w=1可行反例不代表整张纲图/所有强度的拟合；本任务尚未把该I_T列直接等同Eq11的node分母。 | additional-feeding-evidence-and-scope | direct-and-derived | printed22 Table3 row218.90; printed25 Fig5 | true |
+| IO81-28 | 原Tables1–3的表头确为I_T。Fig5中993.72的17/2+同时发371.52/304.41，两行报27.3(1.3)/12.3(.2)；1086.69的19/2+发397.38/345.20，两行报31.6(.6)/8.50(.15)。各格与transition关联，不能不带单位/归一合同直接当同一个node总布居。 | transition-versus-node-field-identity | direct-and-derived | printed21 Tables1–2; printed22 Table3; printed25 Fig5 | true |
+| IO81-29 | Eq10明定I0j为含conversion的角平均total transition intensity，node IT=Is+ΣI0j。九页短文未给本任务可重放的表列转换/共同scale清单；保留“已convertedtotal”和“photon-only/其它待转换”合同。I0=Igamma(1+alpha_eff)只能在对应字段定义下用，不可补0或重复转换。 | intensity-input-contract-and-readiness | direct-and-derived | printed24 Eq.(10) definitions; printed21–22 Tables1–3 | true |
+| IO81-30 | 218.90的parentρ可由318.135 pureE2行给(−.664,.373)，目标为470.39的13/2−。Table3该支正确ΔJ+1解列arctanδ=.2°±2°，模式E1/M2；本任务pureE1 δ0只作显式参考，radiativeU端点敏感性不认证mixed converted-total核。 | known-second-feeder-and-mixing-scope | direct-and-derived | printed21 Table1 row318.135; printed22 Table3 row218.90; printed25 Fig5 | true |
+| IO81-31 | 在未核实的commonconverted合同A及pureE1参考下，报值给r=13.8/101，加入第二已见分量的positive-rest中心问题得wA≤.523624507。wA是targetfeeding权重，不是parentbranch/实测w/实验CL；若表列是photon-only，未知alpha/归一会改变r和node分母，不能选A当事实。 | our-two-feeder-conditional-geometry | derived | printed21 Table1 rows271.12/184.33/318.135; printed22 Table3 row218.90; printed25 Eq.(11) | true |
+| IO81-32 | 仅作合同A/no-extra-outgoing参考时，已知184/99出射和为161，得到wA≈.627329、wB≈.085714；不与raw中心几何精确闭合。但源Table1下行calculated targetρ=(−.624,.309)在原quoted半宽内，并给正余下population可行例子。它不是新观测、原模型重放、missingbranch发现或字段合同验证。 | calculated-row-witness-and-inference-boundary | derived | printed21 Table1 lowerrow184.33; printed22 Table3 row99.21; printed25 Fig5 | true |
 
 ## Nuclear Structure Information
 
@@ -230,3 +235,42 @@ IO81-24的两个节点是本页原数据的同一feeding链，非新数据集。
 [可编辑图与说明](../../outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/tm167-feeding-fraction-figure.md)将中心值正布居域与此counterexample分开，SVG/PDF/源数据均可重现。图是条件L2分析，不是raw谱或统计置信图。本轮IO81-24–26 true，旧人审不覆盖新推断、旧十false原样保留。
 
 IO81-27保留一项明确counter-evidence：图中已有额外218.90支，selected-tensor放宽并未加入所有已观察feeding与I_T条件。下一信息增益在完整分支表/列语义与转换/归一，不是把单个中心界或box例子升级为实际w。
+
+## 已见第二馈入与强度字段合同
+
+IO81-28–32补足R33最小两tensor问题之外的已见218.90支。原表头经放大确认为I_T，保留literal values与uncertainty tokens；本项不解析这些强度误差为独立Gaussian或CL。Fig5箭头和band/spin标签绑定如下，不以energy nearest替代；printedlevel差与γ值的.005/.02keV残差原样保留，未重评能量或修线。
+
+| γ / keV | Table | parent Jπ / Ex | target Jπ / Ex | I_T表列原记号 | peak / role |
+| --- | --- | --- | --- | --- | --- |
+| 271.12 | 1 | 17/2- / 741.51 | 13/2- / 470.39 | 101.0(1.5) | knownA incoming to selectedtarget |
+| 218.90 | 3 | 15/2+ / 689.31 | 13/2- / 470.39 | 13.8(0.3) | knownB incoming to selectedtarget |
+| 184.33 | 1 | 13/2- / 470.39 | 9/2- / 286.04 | 120.0(17) | D; known selectedtarget outgoing/probe |
+| 99.21 | 3 | 13/2- / 470.39 | 11/2+ / 371.17 | 41.0(3.0) | D; known selectedtarget outgoing |
+| 318.135 | 1 | 15/2+ / 689.31 | 11/2+ / 371.17 | 57.0(2.0) | parentB pureE2 tensor probe |
+| 371.52 | 1 | 17/2+ / 993.72 | 13/2+ / 622.20 | 27.3(1.3) | Q; sameparent fieldcontrol1 |
+| 304.41 | 2 | 17/2+ / 993.72 | 15/2+ / 689.31 | 12.3(0.2) | sameparent fieldcontrol1 |
+| 397.38 | 1 | 19/2+ / 1086.69 | 15/2+ / 689.31 | 31.6(0.6) | D; sameparent fieldcontrol2 |
+| 345.20 | 3 | 19/2+ / 1086.69 | 17/2- / 741.51 | 8.50(0.15) | sameparent fieldcontrol2 |
+
+同parent两条出射有不同表值。在采用共同intensity scale解释时，这些transition关联值不能各自是同一个node总population；若scale尚未建立，也更不能直接代node。原Eq10需要的是角平均、含conversion的I0j，node分母是Is+ΣI0j。现有短文和Ref5未得的边界下，不静默认定每个表格I_T与I0j已完成全部转换/归一。
+
+### 两个输入合同保持分开
+
+- **合同A（参考，未核实）**：表值已是共同scale、角平均且含conversion的total transition intensities；按源model固定spin/selection，218支额外选pureE1 δ0参考。该控制在Table3近E1解的角区间内，但不是实测exactzero。
+- **合同B（未解决的替代）**：若表值为photon-only common-scale强度，则I0j=Iγj(1+αj)，incoming比变为`(I218/I271)(1+α218,eff)/(1+α271,E2)`；node outgoing也逐支转换。若scale本身不共用，还需另补normalizer。
+
+[[kibedi-2008-evaluation-theoretical-conversion-coefficients-bricc]] KB08-2支持`αeff=(αE1+δγ²αM2)/(1+δγ²)`；本轮没有Z69新ICC值，不将缺输入写成α0或把theory当实验。mixed radiativeU与converted-total转移的实际程序/输入仍未核；不能因δ小就自动认证。
+
+### 两已知分量的条件几何
+
+对同target moment域的每个face，`N_i−wA D_iA−wB D_iB≥0`，另有wA,wB≥0、wA+wB≤1。未知其余feeding仍放宽成任意正population，不证明实际离散路径可实现。合同A下r=wB/wA=13.8/101≈.136633663，故`wA≤min_i N_i/(D_iA+rD_iB)`及`wA≤1/(1+r)`。
+
+用source experimental上行tensor、pureE1参考和固定中心得到wA≤.523624507，边界wB≈.071544735、其余约.404830759；激活face仍连接abs(m)=5/2、7/2。它比未固定第二已知支的.596940放宽更紧，区别来自增加的实际已见边与额外字段合同，不是重新测出了权重。80/110位的前60位一致仅核纯参考界计算精度，不是源测量精度。
+
+### scalar参考与calculated行只作witness
+
+如果再**参考性**地令node恰好由184.33和99.21这两条已知出射闭合，则其表值和161给wA=101/161≈.627329193、wB=13.8/161≈.085714286、余下约.286956522。原文partialscheme/未知转换/其它branches尚未证明这个closure实际成立；即使合同A正确，已知出射只给分母下界。
+
+该scalar参考不满足原experimental中心tensor的全部face条件，不能据此宣称发现hiddenbranch或原paper错误。Table1同一184.33下行**calculated**点(−.624,.309)却在原reported marginal半宽内；固定前述scalar参考后，存在正余下population满足这些moment。它只是几何可行性witness，不是新增独立观测、原Gaussian/fullmodel重放或对合同A的反推认证。所有共同Cov与D峰component response仍缺。
+
+[22项程序](../../system/scripts/day14_joint_feeding_intensity_contract.py)、[输入](../../outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/tm167-intensity-joint-input.json)和[结果](../../outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/tm167-intensity-joint-audit.json)区分上述合同/数据层级。原Ref5仍缺fulltext，另有537.39弱虚线输入及完整branches/转换/原response/Cov未恢复，真实L4 refit not-ready。新IO81-28–32 true，旧十false/旧人审不变；source自己的calculated行不能当实验事实。

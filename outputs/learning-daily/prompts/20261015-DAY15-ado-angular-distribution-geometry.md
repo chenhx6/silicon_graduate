@@ -351,3 +351,6 @@ DAY14延期checkpoint032已做Yamazaki U的49项selectedtable/归一/domain检�
 
 
 DAY14延期checkpoint033加入selected-tensor正population放宽与图：中心界/quotedbox/全图/已见218.90权重分开，仍仅本卡partialpreview。正式Day15须记录这些priming、独立回忆/本卡交付后给学分，不能把16项模型控制当新实验或正式分数。
+
+
+DAY14延期checkpoint034已学习transition/node I_T、转换合同、两已知feeding与calculated/exp区别；22项仍为partialpreview，无formal15credit。下一finitegeometry来源前预测已存，正式Day15记录这些priming并独立执行卡交付。

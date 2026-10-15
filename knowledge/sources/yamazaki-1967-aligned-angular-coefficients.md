@@ -68,6 +68,8 @@ The practical one-parameter approximation is a Gaussian magnetic-substate popula
 | YA67-8 | TableIIa 2→0 pureE2中daughter U2/U4为0，但completealignment radiation A2max=.71429、A4max=−1.71429非零。daughtertensor rank与photon角分布rank是不同对象，不能将2Jf普遍作为singleγ radiation上限。 | observable-identity-and-derived-rank-check | direct-and-derived | printed p.7 TableIIa Ji2 Jf0 L1=L2=2 | true |
 | YA67-9 | TableIIb的17/2→13/2 pureE2行给U2=.95294/U4=.84744。本任务计算.952936638/.847443971与五位舍入相容；给IO81 271支的条件tensor传递只是一条支的normalized component，不是全daughterfeeding拟合。 | table-crosscheck-and-application-boundary | direct-and-derived | printed p.19 TableIIb Ji17/2 Jf13/2 L1=L2=2 | true |
 | YA67-10 | p19的17/2→13/2 L2行F2/F4=−.37757/−.16697，p18的13/2→9/2 L2行为−.39621/−.19702；乘IO81相应ρ2/4与其A2/4在印刷精度相容。此为符号/归一cross-check，不是独立新测量或完整角数据重拟合。 | radiation-coefficient-and-source-convention-crosscheck | direct-and-derived | printed19 TableIIb Ji17/2 Jf13/2; printed18 TableIIb Ji13/2 Jf9/2 | true |
+| YA67-11 | TableIIb p18的15/2→13/2 pureL1给U2=.97321、U4=.91069，pureL2给.86752/.58103；本任务CG²计算与五位舍入相容，供IO81 218.90支的source-conditioned参考，不作实测alignment。 | source-table-second-feeder-transfer | direct-and-derived | printed18 TableIIb Ji15/2 Jf13/2 pureL1/pureL2 | true |
+| YA67-12 | 在IO81 Table3正确spin解的arctanδ=.2°±2°端点区间内，按Eq13的radiative E1/M2 U变化在U2<.0002、U4<.0006；δ0仅参考，未认证conversion-weighted总转移或给该区间统计覆盖。 | radiative-mixing-sensitivity-and-domain | derived | printed3 Eq.(13); printed18 TableIIb; IO81 printed22 Table3 row218.90 | true |
 
 ## Summary
 
@@ -156,3 +158,9 @@ IO81 Ref14的精确DOI metadata核为Poletti–Warburton，*Study of the Low-Lyi
 ## 167Tm原报ρ与radiation F的定向cross-check
 
 YA67-10给两个pureL2行：17/2→13/2的(F2,F4)=(−.37757,−.16697)，13/2→9/2为(−.39621,−.19702)。与[[ionescu-1981-improved-angular-distribution-analysis-particle-xn]] Table1的parent/targetρ相乘，分别复原约(.266,−.074)/(.248,−.013)的A；这只验证当前使用的符号与归一，不把derivedρ与原A当两组独立证据。目标正population矩域还可用于条件feeding份额的可行性设计，详见IO81-24–26；未给实测branch、Cov或微观feeding结构。
+
+## 第二已知馈入的U与small-M2范围
+
+YA67-11补p18两条pure-mode：Ji15/2→Jf13/2的L1为(.97321,.91069)，L2为(.86752,.58103)。[[ionescu-1981-improved-angular-distribution-analysis-particle-xn]] IO81-30将它们用于218.90 E1/M2的显式pureE1参考；上一级ρ来自318.135 pureE2原表行，未用E1自身反推parent取向。
+
+在arctanδ=.2°±2°的无覆盖声明端点范围，radiativeU的名义变化小于.0002/.0006。此处δ=M2/E1辐射振幅，不是E2/M1；符号在未观测核中平方消去。small-M2并不替代完整rate/内转换合同；[[kibedi-2008-evaluation-theoretical-conversion-coefficients-bricc]] KB08-2给αeff的率权重。本轮未提供actualICC或认证converted-total核，pureE1控制与mixed sensitivity分别记录，不生成新实测ρ/σ/δ。

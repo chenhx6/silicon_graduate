@@ -1,0 +1,128 @@
+{
+  "url": "https://api.crossref.org/works?query.bibliographic=K+S+Krane+Nuclear+Instruments+Methods+109+401+1973&filter=from-pub-date%3A1973-01-01%2Cuntil-pub-date%3A1973-12-31&rows=3",
+  "status": 200,
+  "at": "2026-10-16T01:34:09.445633+08:00",
+  "candidates": [
+    {
+      "DOI": "10.1016/0029-554x(73)90294-2",
+      "title": [
+        "Solid-angle correction factors for “five-sided” coaxial Ge(Li) detectors"
+      ],
+      "author": [
+        {
+          "given": "K.S.",
+          "family": "Krane",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "container-title": [
+        "Nuclear Instruments and Methods"
+      ],
+      "volume": "109",
+      "issue": "2",
+      "page": "401-402",
+      "published": {
+        "date-parts": [
+          [
+            1973,
+            6
+          ]
+        ]
+      },
+      "score": 55.950867,
+      "link": [
+        {
+          "URL": "https://api.elsevier.com/content/article/PII:0029554X73902942?httpAccept=text/xml",
+          "content-type": "text/xml",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://api.elsevier.com/content/article/PII:0029554X73902942?httpAccept=text/plain",
+          "content-type": "text/plain",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        }
+      ]
+    },
+    {
+      "DOI": "10.1016/0029-554x(73)90591-0",
+      "title": [
+        "Subject index"
+      ],
+      "author": null,
+      "container-title": [
+        "Nuclear Instruments and Methods"
+      ],
+      "volume": "109",
+      "issue": "3",
+      "page": "625",
+      "published": {
+        "date-parts": [
+          [
+            1973,
+            6
+          ]
+        ]
+      },
+      "score": 41.855972,
+      "link": [
+        {
+          "URL": "https://api.elsevier.com/content/article/PII:0029554X73905910?httpAccept=text/xml",
+          "content-type": "text/xml",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://api.elsevier.com/content/article/PII:0029554X73905910?httpAccept=text/plain",
+          "content-type": "text/plain",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        }
+      ]
+    },
+    {
+      "DOI": "10.1016/0029-554x(73)90444-8",
+      "title": [
+        "Editorial Board"
+      ],
+      "author": null,
+      "container-title": [
+        "Nuclear Instruments and Methods"
+      ],
+      "volume": "109",
+      "issue": "1",
+      "page": "xvi",
+      "published": {
+        "date-parts": [
+          [
+            1973,
+            5
+          ]
+        ]
+      },
+      "score": 41.838318,
+      "link": [
+        {
+          "URL": "https://api.elsevier.com/content/article/PII:0029554X73904448?httpAccept=text/xml",
+          "content-type": "text/xml",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://api.elsevier.com/content/article/PII:0029554X73904448?httpAccept=text/plain",
+          "content-type": "text/plain",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        }
+      ]
+    }
+  ]
+}

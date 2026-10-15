@@ -1,0 +1,248 @@
+{
+  "source": "IO81 printed21 Tables1–2/printed22 Table3/printed25 Fig5",
+  "source_sha256": "233b11888d8143a17b89da3332afac1342803b35024ac2ec7708c7bd51d435f1",
+  "rows": [
+    {
+      "gamma_kev": "271.12",
+      "table": 1,
+      "parent_id": "n17@741.51",
+      "parent_spin_twice": 17,
+      "parent_parity": "-",
+      "parent_energy": "741.51",
+      "target_id": "n13@470.39",
+      "target_spin_twice": 13,
+      "target_parity": "-",
+      "target_energy": "470.39",
+      "I_table": "101.0",
+      "mode": "E2",
+      "peak_flag": "",
+      "role": "knownA incoming to selectedtarget",
+      "quoted_uncertainty_literal": "1.5",
+      "I_table_literal": "101.0(1.5)"
+    },
+    {
+      "gamma_kev": "218.90",
+      "table": 3,
+      "parent_id": "p15@689.31",
+      "parent_spin_twice": 15,
+      "parent_parity": "+",
+      "parent_energy": "689.31",
+      "target_id": "n13@470.39",
+      "target_spin_twice": 13,
+      "target_parity": "-",
+      "target_energy": "470.39",
+      "I_table": "13.8",
+      "mode": "E1/M2",
+      "peak_flag": "",
+      "role": "knownB incoming to selectedtarget",
+      "quoted_uncertainty_literal": "0.3",
+      "I_table_literal": "13.8(0.3)"
+    },
+    {
+      "gamma_kev": "184.33",
+      "table": 1,
+      "parent_id": "n13@470.39",
+      "parent_spin_twice": 13,
+      "parent_parity": "-",
+      "parent_energy": "470.39",
+      "target_id": "n9@286.04",
+      "target_spin_twice": 9,
+      "target_parity": "-",
+      "target_energy": "286.04",
+      "I_table": "120.0",
+      "mode": "E2",
+      "peak_flag": "D",
+      "role": "known selectedtarget outgoing/probe",
+      "quoted_uncertainty_literal": "17",
+      "I_table_literal": "120.0(17)"
+    },
+    {
+      "gamma_kev": "99.21",
+      "table": 3,
+      "parent_id": "n13@470.39",
+      "parent_spin_twice": 13,
+      "parent_parity": "-",
+      "parent_energy": "470.39",
+      "target_id": "p11@371.17",
+      "target_spin_twice": 11,
+      "target_parity": "+",
+      "target_energy": "371.17",
+      "I_table": "41.0",
+      "mode": "E1/M2",
+      "peak_flag": "D",
+      "role": "known selectedtarget outgoing",
+      "quoted_uncertainty_literal": "3.0",
+      "I_table_literal": "41.0(3.0)"
+    },
+    {
+      "gamma_kev": "318.135",
+      "table": 1,
+      "parent_id": "p15@689.31",
+      "parent_spin_twice": 15,
+      "parent_parity": "+",
+      "parent_energy": "689.31",
+      "target_id": "p11@371.17",
+      "target_spin_twice": 11,
+      "target_parity": "+",
+      "target_energy": "371.17",
+      "I_table": "57.0",
+      "mode": "E2",
+      "peak_flag": "",
+      "role": "parentB pureE2 tensor probe",
+      "quoted_uncertainty_literal": "2.0",
+      "I_table_literal": "57.0(2.0)"
+    },
+    {
+      "gamma_kev": "371.52",
+      "table": 1,
+      "parent_id": "p17@993.72",
+      "parent_spin_twice": 17,
+      "parent_parity": "+",
+      "parent_energy": "993.72",
+      "target_id": "p13@622.20",
+      "target_spin_twice": 13,
+      "target_parity": "+",
+      "target_energy": "622.20",
+      "I_table": "27.3",
+      "mode": "E2",
+      "peak_flag": "Q",
+      "role": "sameparent fieldcontrol1",
+      "quoted_uncertainty_literal": "1.3",
+      "I_table_literal": "27.3(1.3)"
+    },
+    {
+      "gamma_kev": "304.41",
+      "table": 2,
+      "parent_id": "p17@993.72",
+      "parent_spin_twice": 17,
+      "parent_parity": "+",
+      "parent_energy": "993.72",
+      "target_id": "p15@689.31",
+      "target_spin_twice": 15,
+      "target_parity": "+",
+      "target_energy": "689.31",
+      "I_table": "12.3",
+      "mode": "M1/E2",
+      "peak_flag": "",
+      "role": "sameparent fieldcontrol1",
+      "quoted_uncertainty_literal": "0.2",
+      "I_table_literal": "12.3(0.2)"
+    },
+    {
+      "gamma_kev": "397.38",
+      "table": 1,
+      "parent_id": "p19@1086.69",
+      "parent_spin_twice": 19,
+      "parent_parity": "+",
+      "parent_energy": "1086.69",
+      "target_id": "p15@689.31",
+      "target_spin_twice": 15,
+      "target_parity": "+",
+      "target_energy": "689.31",
+      "I_table": "31.6",
+      "mode": "E2",
+      "peak_flag": "D",
+      "role": "sameparent fieldcontrol2",
+      "quoted_uncertainty_literal": "0.6",
+      "I_table_literal": "31.6(0.6)"
+    },
+    {
+      "gamma_kev": "345.20",
+      "table": 3,
+      "parent_id": "p19@1086.69",
+      "parent_spin_twice": 19,
+      "parent_parity": "+",
+      "parent_energy": "1086.69",
+      "target_id": "n17@741.51",
+      "target_spin_twice": 17,
+      "target_parity": "-",
+      "target_energy": "741.51",
+      "I_table": "8.50",
+      "mode": "E1/M2",
+      "peak_flag": "",
+      "role": "sameparent fieldcontrol2",
+      "quoted_uncertainty_literal": "0.15",
+      "I_table_literal": "8.50(0.15)"
+    }
+  ],
+  "binding_rule": "literal Fig5 arrows and source band/spin labels, not energynearest; printed level-vs-gamma residuals retained, no new uncertainty or correctedenergy",
+  "target_id": "n13@470.39",
+  "parentA": {
+    "spin_twice": 17,
+    "rho2": "-0.705",
+    "rho4": "0.443",
+    "probe_gamma": "271.12"
+  },
+  "parentB": {
+    "spin_twice": 15,
+    "rho2": "-0.664",
+    "rho4": "0.373",
+    "quoted_error_rho2": "0.023",
+    "quoted_error_rho4": "0.056",
+    "probe_gamma": "318.135"
+  },
+  "target_experimental": {
+    "spin_twice": 13,
+    "rho2": "-0.626",
+    "rho4": "0.066",
+    "quoted_error_rho2": "0.023",
+    "quoted_error_rho4": "0.249",
+    "probe_gamma": "184.33",
+    "peak": "D"
+  },
+  "target_calculated_source_point": {
+    "rho2": "-0.624",
+    "rho4": "0.309",
+    "role": "Table1 lowerrow model result, not new measurement or independent verification"
+  },
+  "B_radiative_mixing": {
+    "modes": [
+      "E1",
+      "M2"
+    ],
+    "delta_J_source": 1,
+    "arctan_delta_deg": 0.2,
+    "angle_halfwidth": 2,
+    "quoted_coverage": null,
+    "reference_delta": 0,
+    "reference_status": "explicit pureE1 control within angle interval; not measured exactzero"
+  },
+  "YA_U_B_table": {
+    "source_locator": "printed18 TableIIb Ji15/2 Jf13/2 pureL1/pureL2",
+    "L1": {
+      "U2": 0.97321,
+      "U4": 0.91069
+    },
+    "L2": {
+      "U2": 0.86752,
+      "U4": 0.58103
+    }
+  },
+  "intensity_contract_A": {
+    "status": "not verified",
+    "assumptions": [
+      "I_table common scale/angleaverage and includesconversion",
+      "source-model pureE1 reference U forB",
+      "samepopulation selection/window",
+      "knownoutgoing may be incomplete"
+    ],
+    "conditional_closed_reference": "for one witness only node=known184+99 sum; not actualbranchcompleteness"
+  },
+  "intensity_contract_B": {
+    "status": "unresolved alternative",
+    "gamma_to_total": "I0=Igamma*(1+alpha_eff)",
+    "ratio_total_B_over_A": "(I218/I271)*(1+alpha218_eff)/(1+alpha271_E2)",
+    "alpha_mixed_E1M2": "(alpha_E1+delta_gamma^2*alpha_M2)/(1+delta_gamma^2)",
+    "alpha_response_values": null
+  },
+  "original_model_weak_inputs_missing": [
+    "537.39 dashed/unfavored parent contribution and actual totalintensity",
+    "complete node incoming/outgoing manifest",
+    "weakparenttensor/U approximations and interpolation inputs",
+    "raw deblended peaks and commoncovariance"
+  ],
+  "actual_weights": null,
+  "actualCov": null,
+  "field_semantics_verified": false,
+  "uncertainty_literal_scope": "I_table uncertainty tokens preserved as printed; no numeric uncertainty decoding or intensity covariance inference in this exercise"
+}

@@ -1,0 +1,11 @@
+{
+  "at": "2026-10-16T01:01:13.801744+08:00",
+  "paperId": "10.1016/0375-9474(80)90511-4",
+  "platform": "publisher",
+  "requested_save_path": "/workspace/wiki/tmp/day14-20261014/olbrich1980",
+  "tool_error": "Path traversal detected: requested path escapes service download directory",
+  "classification": "service-specific output-path boundary; not a PDF retrieval result or a Wiki path-contract failure",
+  "file_written": false,
+  "safe_resolution": "do not redirect writes outside Wiki or change service policy; continue verified local source/input-contract analysis",
+  "does_not_prove_paper_absent": true
+}

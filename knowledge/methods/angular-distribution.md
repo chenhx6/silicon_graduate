@@ -389,3 +389,13 @@ Table1十行exp/calculated不是20个观测；本轮按Eq7从印刷A2/A4重算χ
 [可复算图](../../outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/tm167-feeding-fraction-figure.md)仅展示中心geometry与marginalbox反例；两面板不是数据拟合/置信域。canonical输入、条件和判断已在上述source页保存，原raw/review状态不变。
 
 适用范围补充：IO81-27指出目标另有218.90-keV馈入；上述w1例子只适用于所选tensor的放宽，不是全scheme或强度联合拟合。真实已知边、I_T列语义/转换及完整Cov会进一步限制权重，不能将它们当不存在。
+
+## 跃迁强度与node布居：两条已知馈入的输入合同
+
+[[ionescu-1981-improved-angular-distribution-analysis-particle-xn]] IO81-28–32在原表头/I_T和Fig5上作field audit。同parent993.72的371.52/304.41行报27.3/12.3，不能将每一格不带单位/转换/归一就直接代入共同node分母。source Eq10的I0j为含conversion的角平均transition intensity；node IT=Is+ΣI0j。先分开node、transition、photon/total字段，再作数值closure。
+
+若表格已是common convertedtotal（未核实合同A），则218/271比可作为两incoming权重比；target已知outgoing之和只给分母下界，除非完整branch/window/normalizer支持closure。若是photon-only（合同B），必须逐支用I0=Iγ(1+αeff)；[[kibedi-2008-evaluation-theoretical-conversion-coefficients-bricc]] KB08-2的E1/M2混合α式含δγ²，不能重复转换、补α0或当δ符号测量。
+
+在合同A及显式pureE1参考下，增加已见218支使中心正布居问题为`N_i−wA D_iA−wB D_iB≥0`、wA+wB≤1；取r=13.8/101后得到wA≤.523624507。它是fixed-center/positive-rest模型控制，不是实验上限。[[yamazaki-1967-aligned-angular-coefficients]] YA67-11/12提供U基准及radiative small-M2敏感性，未认证mixed converted-total核。
+
+仅把已知184/99出射和161当闭合参考时，wA≈.627329、wB≈.085714；它与experimental中心face不闭合，却可用源calculated targetρ=(−.624,.309)及正余下population给marginal半宽内witness。模型点不是新观测，也不能因可行就反推合同A正确、发现未见branch或重放原fit。D/Q multiplets、weak537.39/其它directfeeding、完整转换、absolute-normalization/window与Cov仍需真实输入；保持L2/实验L4 not-ready。

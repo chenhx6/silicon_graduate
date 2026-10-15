@@ -1,0 +1,22 @@
+{
+  "publisher1972": {
+    "status": "fulfilled",
+    "value": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\n  \"doi\": \"10.1016/0029-554X(72)90099-7\",\n  \"accessDiscovery\": {\n    \"status\": \"not_found\",\n    \"landingUrl\": \"https://linkinghub.elsevier.com/retrieve/pii/0029554X72900997\",\n    \"landingHost\": \"linkinghub.elsevier.com\",\n    \"reason\": \"no_candidate\",\n    \"fallback\": {\n      \"attempted\": false,\n      \"combinationsAttempted\": 0\n    },\n    \"targetStatus\": 200,\n    \"candidateCount\": 0,\n    \"candidatesTruncated\": false,\n    \"candidateUrls\": [],\n    \"fetchedAt\": \"2026-10-15T17:34:08.033Z\"\n  }\n}"
+        }
+      ]
+    }
+  },
+  "scholar1972": {
+    "content": [
+      {
+        "type": "text",
+        "text": "Error executing tool 'search_google_scholar': google_scholar search failed: Dire****************** out"
+      }
+    ],
+    "isError": true
+  }
+}

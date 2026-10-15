@@ -142,6 +142,12 @@ IO81 Ref5精确metadata已核为Olbrich等，NPA342(1),133–164(1980)，DOI10.1
 
 当前最高价值可执行路线使用已全文核验的IO81和直接YA公式/表：检查两个已报tensor能给feeding份额什么必要条件，并保留缺完整branch/转换/Σ的readiness边界。来源前[primed预测](20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/tm167-feeding-fraction-before-calculation.md)已保存；再次视觉核IO81 p21 Table1两行、p22 Table3和p25 Fig5，YA p18/19 F列与ρ×F→A在印刷精度相容（YA67-10）。
 
+### 已见馈入的字段复核与新增访问边界
+
+[已冻结预测](20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/tm167-intensity-before-analysis.md)和[量化前预测](20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/tm167-joint-feeding-before-calculation.md)均声明source priming。本轮再次核IO81 Tables1–3/Fig5、Eq10/11，放大确认原表头确为I_T。Fig5同parent993.72的371.52/304.41两行报27.3(1.3)/12.3(.2)，不能不带转换/归一合同直接复制为同一node总population；1086.69的397.38/345.20提供另一对同类control（IO81-28）。
+
+原Ref5额外尝试ADS citation-derived BIBcode路由：abs HumanVerification405、PDF403非PDF；未绕过。publisher下载工具拒绝所给Wiki内路径（service自身下载目录合同），未转到Wiki外；只读Markdown替代返回provider_unavailable、attempted false/credits0。此为source-route边界，不是Wiki path-contract失败或文献不存在证明；本地boundary检查仍exit0，没有原32页正文或新Olbrich source。继续使用已核IO81/YA输入；[ADS](20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/olbrich1980-ads-access-discovery.json)、[路径边界](20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/olbrich1980-public-download-path-boundary.json)和[只读provider结果](20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/olbrich1980-readonly-provider-result.json)可核。
+
 ## Theory/analysis exercise
 
 七边的中心值闭合为`+0.2,+0.4,+0.3 keV`。D的rank4、三个cycle、绝对offset nullspace均由代码核验。独立0.1-keV拟合误差下条件χ²=6.666667；自设将caption约0.3 keV按quadrature加上、并令各线独立后，χ²=0.666667，dof3。后者cycle Σ为`0.1×(3,1,0; 1,3,1; 0,1,3) keV²`，不是三个可相乘的独立检验。
@@ -384,6 +390,19 @@ w是目标总布居中来自已知支的权重，**不是parent的decay branchin
 
 (a)固定中心的target-spin正布居域和F/T(D)/R*；(b)中心facet与一个marginal半宽内构造点的必要条件。图只论证中心几何界不能直接成为实验置信上限，不是数据fit、actualw或全feeding模型。[图注/可编辑PDF与SVG/图源数据/QA](20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/tm167-feeding-fraction-figure.md)可复核。Python工作流下按nature-figure契约制作183×88mm图；alignment/PDFtext/collision均exit0，最小glyph5.95pt、collision0fail0warn。三个source-preflight默认WARN已逐项核：实际glyph达标、无TIFF投稿要求、PNG仅300dpi预览而SVG/PDF为主文件。
 
+### 22-check：两馈入、scalar合同与calculated行
+
+[9条Fig5绑定输入](20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/tm167-intensity-joint-input.json)、[程序](../../system/scripts/day14_joint_feeding_intensity_contract.py)与[结果](20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/tm167-intensity-joint-audit.json)保留incoming271.12/218.90、targetout184.33/99.21、218parent的318.135 pureE2 probe及两组同parent字段control。D/Q标记、printedenergy残差和uncertainty literal保留，未解析为confidence或改能量。22项sourcegraph/正布居/字段/参考/witness检查实际exit0；pure-reference界80/110位前60位一致只核计算。
+
+| 输入合同/用途 | 本任务数值或边界 | 不能升级的结论 |
+| --- | --- | --- |
+| A：表列common scale、角平均、已含conversion；218选pureE1 δ0参考（均为声明条件） | r=wB/wA=13.8/101≈.136633663；两已知支中心positive-rest给wA≤.523624507 | 非实测权重/parentbranch/CL，δ0不是测得exactzero |
+| A：只为一项scalarclosure参考，令node等于已知184/99出射和 | Nref=161；wA≈.627329193、wB≈.085714286、其余≈.286956522 | 原partial scheme没有证明outgoing完整；不称实际node总量 |
+| 同参考weights，以源Table1下行calculated targetρ替代experimental中心 | (−.624,.309)在原marginal半宽内并有正余下population | 是model点witness，不是新观测/原fit重放/字段合同认证 |
+| B：表列若是photon-only或缺转换/scale | I0=Iγ(1+αeff)，incoming比/所有outgoing分母逐支改；ICC值仍缺 | 不补α0、不重复转换、不从fit倒推作者定义 |
+
+补入的218parentρ来自318.135上行(−.664,.373)。YA67-11的15/2→13/2 pureL1/L2 U由CG²核对；IO81 Table3正确spin解为arctanδ(M2/E1)=.2°±2°，pureE1仅参考。该无coverage端点区间的radiativeU变化<.0002/.0006，未认证mixed converted-total核（YA67-12）。[[kibedi-2008-evaluation-theoretical-conversion-coefficients-bricc]] KB08-2仅支持αeff率加权；没有Z69新理论/实验ICC被填入。
+
 ## Counter-evidence and missing companion observables
 
 HE15-9的实际未定双线是核心反例：energy sum、共享R/A和假设的ΔI=2均不足以裁决order。若一条线出现可独立定位的旁路或延迟顺序，应重审中间level；source仍保留括号Jπ与(E2)。HE15-5的quadruplet限制“一个峰是一条γ”的简化；干净622.4直接分支门与323.4级联门的299-keVcomponent差异可能迫使拆峰，但必须控制622/626门纯度、feeding、response和random。
@@ -451,6 +470,12 @@ YA Eq13对未观测precedingγ只含δ²强度加权，源photon角系数仍含�
 184.33是复合峰D，旁有184.0 mixed线，缺rawcomponent响应与parent/target完整Cov；quoted误差box不是joint likelihood。额外已见218.90馈入（15/2+689.31→13/2−470.39）说明最小两tensor问题没有覆盖全图。其I_T列与Eq11 node分母、angleaverage/转换强度的精确关系还要核，不能按同字母直接相除。真正实验上限须包含所有已知边、强度/branch/转换、选择/response与Cov，当前未给新σ/δ或Pr/193Bi结果。
 
 parentρ与targetρ同来自IO81 acquisition，ρ又是由A/F派生，不构成独立重复证据。新F×ρ校验只核符号/归一。Ref5正文访问失败只限制该route，不结束整段学习或把索引缺失当科学反证。
+
+### exact中心不闭合的counter-evidence与readiness
+
+scalar参考wA≈.6273不满足exact experimental中心的两馈入face条件，不能宣称发现缺失γ或原作者错误。源calculated target点在原报边际半宽内可给positive-rest例子，说明“印刷中心全精确闭合”与实际weighted fit不是同一要求；这个model点也不证明合同A是正确field定义。
+
+TableI_T→I0j→node分母的转换/共同scale、全部弱537.39与其它边、unfavored parenttensor/U/插值、复合峰响应和完整Cov仍缺。原Eq11用parent实验tensor，不能把derivedparent/child/calculated行或同采集的图表当独立重复数据。实际L4仍not-ready；本项为明示A/B合同下的L2一致性控制，无新σ/δ/absoluteB或Pr/193Bi机制。
 
 ## Knowledge Impact and Learning Decision
 
@@ -527,6 +552,10 @@ Decision: **revises** 同字母B、p/α和daughter/photon rank直接互换的读
 ### 份额放宽后的认识决定
 
 Decision: **supports** 在实际输入不全时先用正布居作明确条件的必要约束；**limits** 把中心几何值当实验CL，或把四个marginal半宽box及w1例子当完整data fit；**revises** w从“parent branch”读法回到targetpopulation权重。可编辑图与数值构造写回canonical source/method，formal21/24、completed14/partial15和课程state保持。
+
+### 强度字段与两已知边后的决定
+
+Decision: **revises** 将逐transition的I_T表格值直接当node总布居、混用exp/calculated行的读法；**supports** 先核图绑定、转换/归一合同再加已见边；**limits** 从中心张量/可行witness反推actualweight、field定义或置信度。原.596940是较宽放宽；新增条件的.523624并非新的实验测量或对旧图的数值改写。Formal21/24、completed14/partial15与课程state保持。
 
 ## Durable knowledge delta
 
@@ -3344,6 +3373,107 @@ Decision: **supports** 在实际输入不全时先用正布居作明确条件的
           "locator": "YA67-10"
         }
       ]
+    },
+    {
+      "knowledge": "knowledge/sources/ionescu-1981-improved-angular-distribution-analysis-particle-xn.md",
+      "anchor": "已见第二馈入与强度字段合同",
+      "summary": "保存9条literal图绑定、table/node字段差异、A/B转换合同、两已知边条件界与calculatedwitness，未声称actualweights/fullfit。",
+      "sources": [
+        {
+          "path": "knowledge/sources/ionescu-1981-improved-angular-distribution-analysis-particle-xn.md",
+          "locator": "IO81-28"
+        },
+        {
+          "path": "knowledge/sources/ionescu-1981-improved-angular-distribution-analysis-particle-xn.md",
+          "locator": "IO81-29"
+        },
+        {
+          "path": "knowledge/sources/ionescu-1981-improved-angular-distribution-analysis-particle-xn.md",
+          "locator": "IO81-30"
+        },
+        {
+          "path": "knowledge/sources/ionescu-1981-improved-angular-distribution-analysis-particle-xn.md",
+          "locator": "IO81-31"
+        },
+        {
+          "path": "knowledge/sources/ionescu-1981-improved-angular-distribution-analysis-particle-xn.md",
+          "locator": "IO81-32"
+        },
+        {
+          "path": "knowledge/sources/yamazaki-1967-aligned-angular-coefficients.md",
+          "locator": "YA67-11"
+        },
+        {
+          "path": "knowledge/sources/yamazaki-1967-aligned-angular-coefficients.md",
+          "locator": "YA67-12"
+        },
+        {
+          "path": "knowledge/sources/kibedi-2008-evaluation-theoretical-conversion-coefficients-bricc.md",
+          "locator": "KB08-2"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/sources/yamazaki-1967-aligned-angular-coefficients.md",
+      "anchor": "第二已知馈入的U与small-M2范围",
+      "summary": "新增两puremodeU表行和radiative E1/M2角区间敏感性，pureE1仅参考、mixedtotal核未认证。",
+      "sources": [
+        {
+          "path": "knowledge/sources/yamazaki-1967-aligned-angular-coefficients.md",
+          "locator": "YA67-11"
+        },
+        {
+          "path": "knowledge/sources/yamazaki-1967-aligned-angular-coefficients.md",
+          "locator": "YA67-12"
+        },
+        {
+          "path": "knowledge/sources/ionescu-1981-improved-angular-distribution-analysis-particle-xn.md",
+          "locator": "IO81-30"
+        },
+        {
+          "path": "knowledge/sources/kibedi-2008-evaluation-theoretical-conversion-coefficients-bricc.md",
+          "locator": "KB08-2"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/methods/angular-distribution.md",
+      "anchor": "跃迁强度与node布居：两条已知馈入的输入合同",
+      "summary": "先区分transition/photon/total/node，再联立momentface与intensity；不能由源model点的可行性认证输入定义或missingbranch。",
+      "sources": [
+        {
+          "path": "knowledge/sources/ionescu-1981-improved-angular-distribution-analysis-particle-xn.md",
+          "locator": "IO81-28"
+        },
+        {
+          "path": "knowledge/sources/ionescu-1981-improved-angular-distribution-analysis-particle-xn.md",
+          "locator": "IO81-29"
+        },
+        {
+          "path": "knowledge/sources/ionescu-1981-improved-angular-distribution-analysis-particle-xn.md",
+          "locator": "IO81-30"
+        },
+        {
+          "path": "knowledge/sources/ionescu-1981-improved-angular-distribution-analysis-particle-xn.md",
+          "locator": "IO81-31"
+        },
+        {
+          "path": "knowledge/sources/ionescu-1981-improved-angular-distribution-analysis-particle-xn.md",
+          "locator": "IO81-32"
+        },
+        {
+          "path": "knowledge/sources/yamazaki-1967-aligned-angular-coefficients.md",
+          "locator": "YA67-11"
+        },
+        {
+          "path": "knowledge/sources/yamazaki-1967-aligned-angular-coefficients.md",
+          "locator": "YA67-12"
+        },
+        {
+          "path": "knowledge/sources/kibedi-2008-evaluation-theoretical-conversion-coefficients-bricc.md",
+          "locator": "KB08-2"
+        }
+      ]
     }
   ]
 }
@@ -3479,6 +3609,10 @@ Danko99primary合法OA/publicPDF/官方API/repo均未提供正文（403HTML/401J
 [IO source](../../knowledge/sources/ionescu-1981-improved-angular-distribution-analysis-particle-xn.md)“从已报角张量到目标馈入份额：条件放宽问题”保存IO81-24–27原位与全部物理条件、中心界/反例；[YA source](../../knowledge/sources/yamazaki-1967-aligned-angular-coefficients.md)“167Tm原报ρ与radiation F的定向cross-check”存YA67-10四格F；[angular method](../../knowledge/methods/angular-distribution.md)“已知馈入分量份额的正布居界”存可复用facet推导、source条件和已见218.90边的限制。单个run图/JSON不是这些知识的唯一copy，模型数值全保留conditional/needs_review。
 
 下一最高信息问题为两条已知馈入与target outgoing branches的I_T字段、node分母、转换/angleaverage及完整图边；不先按表列同名等同Eq11权重，也不再用同toy更换数字。
+
+### 两馈入字段的canonical增量
+
+[IO source](../../knowledge/sources/ionescu-1981-improved-angular-distribution-analysis-particle-xn.md)“已见第二馈入与强度字段合同”存IO81-28–32、9行literal ledger和所有A/B/closure/witness条件；[YA source](../../knowledge/sources/yamazaki-1967-aligned-angular-coefficients.md)“第二已知馈入的U与small-M2范围”存YA67-11/12；[angular method](../../knowledge/methods/angular-distribution.md)“跃迁强度与node布居：两条已知馈入的输入合同”存可复用字段/率/张量联合规则。KB08-2源页只读未改，所有旧review/flags保持，新推断true；输出不是唯一知识副本。
 
 ## Open questions and belief revision
 
@@ -3746,3 +3880,11 @@ report/card/writeback valid，唯一block117items/39changed knowledge页；新IO
 nature-figure沿既有Python工作流制作183×88mm SVG/PDF/PNG，alignment、source-preflight、PDFtext、collision退出0，min字形5.95pt、collision0fail0warn。三项source-preflight WARN分别由实际PDFglyph达标/无TIFF投稿用途/PNG300dpi预览进行记录审查。真实raw复合峰/完整Cov仍未重建。
 
 前32批Gitee已published；本批稳定 main / `Bound DAY14 feeding weights with positive tensor moments`，actualH3/hash只receipt。下一tm167-intensity-before-analysis.md已freeze：逐线核额外218.90、incoming/outgoing与表I_T/node分母/转换/角归一，输入明确定义才比较或作jointweight计算。研究2026-10-16 15:00止、16:00交付，run/goalactive、formal21/24、completed14/partial15/officialnext14count13保持，不开Day16。
+
+### Checkpoint034 Day15无学分强度/两馈入验收
+
+2026-10-16T01:18:44.382337+08:00：9条Fig5绑定transition和原TableI_T字段、两种转换合同/两已知feeders的22项检查实际exit0；pureE1参考几何界80/110位前60位一致。所有.523624/.627329数字是声明条件下的modelcontrols，actualweights/Cov仍None；源calculated点witness不认证字段、fullfit或missingbranch。
+
+report/card/writeback valid，唯一block120items/39changed knowledge页。新IO28–32/YA11–12 true，旧三页非空行、legacyhumanreview/十false、raw metadata/PLAN/Bib/dependencies/AST及`git diff --check`exit0保持。Fresh `wiki_lint --fail-on error`实际exit0，0errors/141warnings（112citekeys/26rawslots/3parser）。KB08源只读；没有新Z69ICC、实际σ/δ或原32页读取。新增ADS、service下载目录边界及read-onlyprovider不可用已精确记录，没有绕过或移出Wiki。
+
+前33批已Giteepublished；本批稳定 main / `Audit DAY14 transition intensities and coupled feeding inputs`，actualH3/hash仅receipt。当前实际fieldmanifest/weakinputs/Cov处局部饱和，已重建pool并只检查Day15卡。下一必要primarygeometrycompanion身份匹配：Krane1972 NIM98(2),205–210，DOI10.1016/0029-554X(72)90099-7，Solid-angle correction factors for coaxial Ge(Li) detectors；1973 NIM109(2),401–402，DOI10.1016/0029-554X(73)90294-2，为five-sided coaxial Ge(Li)论文，两者不同于56页DCO表册。Body均未读；1972 localraw/Bib/publicpublisher/Scholar尚未给原件，metadata不是Q证据。day15-finite-geometry-before-sources.md已freeze；继续有限Ω/isotropy/核alignment与efficiency角色，未赋actualQ，不开Day16。研究2026-10-16 15:00止、16:00交付，formal21/24/officialnext14count13和partial15保持。

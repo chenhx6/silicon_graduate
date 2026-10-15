@@ -1,0 +1,24 @@
+{
+  "abs": {
+    "candidate_bibcode": "1980NuPhA.342..133O",
+    "url": "https://ui.adsabs.harvard.edu/abs/1980NuPhA.342..133O/abstract",
+    "http_status": 405,
+    "final_url": "https://ui.adsabs.harvard.edu/abs/1980NuPhA.342..133O/abstract",
+    "content_type": "text/html; charset=UTF-8",
+    "bytes": 2203,
+    "page_titles": [
+      "Human Verification"
+    ],
+    "citation_metadata": []
+  },
+  "pdf": {
+    "candidate_bibcode": "1980NuPhA.342..133O",
+    "url": "https://articles.adsabs.harvard.edu/pdf/1980NuPhA.342..133O",
+    "http_status": 403,
+    "final_url": "https://articles.adsabs.harvard.edu/pdf/1980NuPhA.342..133O",
+    "content_type": "application/xml",
+    "bytes": 243,
+    "pdf_magic": false
+  },
+  "at": "2026-10-16T00:44:06.419851+08:00"
+}
