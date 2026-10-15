@@ -289,3 +289,9 @@ Day14 continuity另外做91-check能量—时间定序模型和独立prompt设�
 
 
 Day14 novelty还核136Pr2025 accepted17页和37-check真实表/endpoint/门条件。Q1 .47用Q-gate、D6约1用D-gate，不能搬同阈值；sharedpool跨核素不增加独立acquisition。此为正式Day15回忆的priming，D6单侧点/版本配置及weakR-M空栏保持，不代替自身卡审计。
+
+
+Day14最终只补截止前已读2018 ENSDF136Pr记录（N136-1–8）与acceptedLV25-26：旧新263/405order/π不同，原因unknown，1996primarydownload0；不可用共同sum/全谱/数据库晚旧判胜负。原Day14研究已stop，free-recoil和通用136parser未完成不计结果。正式Day15保持独立primed回忆/卡audit，Day16未研究。
+
+
+2026-10-15 15:45用户因断网将Day14研究延长至2026-10-16 16:00上海，同run/session继续，Day15仍只partial无信用。本文件是正式Day15待启入口，实际run_date/启动时间由下一runner赋值；不因旧日期或Day14延期自行创建新session。

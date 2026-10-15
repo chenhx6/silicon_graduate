@@ -1,0 +1,34 @@
+{
+  "url": "https://www.nndc.bnl.gov/ensdf/DatasetFetchServlet",
+  "request": {
+    "nuc": "136PR",
+    "nsrch": "Search",
+    "searchType": "quick",
+    "datasource": "ensdf"
+  },
+  "status": 200,
+  "response_sha256": "97947772dcc572fe04173b2e75595019250be010d8c3ea8271060545d971246e",
+  "inputs": [
+    {
+      "name": "datasetcheck",
+      "value": "136059001,136PR",
+      "type": "checkbox"
+    },
+    {
+      "name": "datasetcheck",
+      "value": "136059002,136PR",
+      "type": "checkbox"
+    },
+    {
+      "name": "datasetcheck",
+      "value": "136059003,136PR",
+      "type": "checkbox"
+    }
+  ],
+  "rows": [
+    "ADOPTED LEVELS, GAMMAS 2018-10 All references",
+    "136ND EC DECAY 2018-10 All references",
+    "110PD(30SI,P3NG) 2018-10 All references"
+  ],
+  "at": "2026-10-15T11:35:23.142565+08:00"
+}

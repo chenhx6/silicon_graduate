@@ -1,0 +1,135 @@
+{
+  "at": "2026-10-15T15:47:46.337687+08:00",
+  "writeback_items": 46,
+  "formal_card_deliverables": 6,
+  "formal_scorecard_text": "\n\n这是本session正式任务产物的六维Codex self-assessment，受Day13预习priming影响，不能称为独立盲考能力或把19/24当基线实验。0=未做，1=复述，2=条件应用，3=有source和可复算反例，4=能沿证据链指出并测试判决边界。\n\n| 维度 | 分数（0–4） | 本次可核验证据与短板 |\n| --- | ---: | --- |\n| 理论 | 3 | incidence/cycle/GLS、offset/gain区别与独立解法；未完整重推γγ角关联formalism |\n| 判图 | 4 | 原图/全部续表逐边七线，查到319.8表尾行及393/394未定顺序；保留X |\n| 误差 | 3 | caption额外误差、cycle相关、Σ敏感性与失败控制；真实joint response/calibration缺失 |\n| 证据分层 | 4 | 直接峰量、联合placement/Jπ、作者形状解释、模型与counterfactual明确分开 |\n| 反证 | 4 | 原论文doublet、quadruplet、branch互斥和弱线非观测边界均有locator |\n| 可证伪问题 | 3 | 可定位branch/time/tag和parentτ设计；没有事件级数据验证实际检出功效 |\n\n合计21/24。仍需补强的是真实gating/response功效、完整calibration covariance及角关联前向模型；不通过加分隐藏这些短板。\n\n",
+  "formal_score_21of24": true,
+  "weekly_reflect_nonempty": true,
+  "required_continuation_and_next_prompt": true,
+  "analysis_results": {
+    "level-scheme-analysis.json": {
+      "count": 35,
+      "all_true": true
+    },
+    "doublet-time-identifiability.json": {
+      "count": 91,
+      "all_true": true
+    },
+    "pr136-scheme-crosswalk.json": {
+      "count": 37,
+      "all_true": true
+    }
+  },
+  "ast": true,
+  "lv-2019-chirality-135nd-reexamined_old_claims_and_review_preserved": true,
+  "lv-2025-136pr-tac-covariant-density-functional_old_claims_and_review_preserved": true,
+  "lv-2025-136pr-tac-covariant-density-functional_claimparser_count": 26,
+  "nndc-2018-136pr-selected-level-gamma-records_claimparser_count": 8,
+  "actual_object_hashes_and_previously_read_selected_lines": true,
+  "protected_hashes": {
+    "PLAN.md": true,
+    "raw/zotero/wiki-inbox.bib": true
+  },
+  "raw_metadata_unchanged": true,
+  "lint_exit_code": 0,
+  "lint_errors": 0,
+  "lint_warnings": 131,
+  "warning_breakdown": {
+    "CITATION_KEY_MISSING": 107,
+    "RAW_MISSING": 21,
+    "REACTION_PARSE": 3
+  },
+  "git_diff_check_exit_code": 0,
+  "curriculum_before": {
+    "schema_version": 1,
+    "cycle": "2026-09-30-day-substantive",
+    "counting_policy": "30 fully completed substantive curriculum cards; a run may complete multiple contiguous cards; acceptance-only runs are excluded",
+    "next_day_index": 14,
+    "last_success": "2026-10-13",
+    "last_run_id": "2026-10-13-day-13-01",
+    "status": "active",
+    "acceptance_runs_excluded": [
+      "2026-09-22-day-01-01",
+      "2026-09-22-day-01-02",
+      "2026-09-22-day-01-03",
+      "2026-09-22-day-01-04",
+      "2026-09-22-day-01-05",
+      "2026-09-22-day-02-06"
+    ],
+    "reset_at": "2026-09-23",
+    "reset_reason": "Manual Docker/runner instance acceptance before the substantive 30-day test reset",
+    "completed_day_count": 13
+  },
+  "report": {
+    "valid": true,
+    "missing_headings": []
+  },
+  "coverage": {
+    "valid": true,
+    "completed_day_indices": [
+      14
+    ],
+    "partial_day_indices": [
+      15
+    ],
+    "curriculum_cards_completed": 1,
+    "next_day_index": 15,
+    "error": null
+  },
+  "writeback": {
+    "valid": true,
+    "mode": "updated",
+    "knowledge_paths": [
+      "knowledge/sources/herzan-2015-193bi-spectroscopy.md",
+      "knowledge/methods/level-scheme-reconstruction.md",
+      "knowledge/projects/a130-thesis-evidence-matrix.md",
+      "knowledge/sources/nndc-2017-193bi-level-scheme-evaluation.md",
+      "knowledge/index.md",
+      "knowledge/methods/linear-polarization-asymmetry.md",
+      "knowledge/sources/rose-brink-1967-phase-defined-angular-distributions.md",
+      "knowledge/sources/zheng-2002-ado-coincidence-angular-anisotropy.md",
+      "knowledge/methods/angular-distribution.md",
+      "knowledge/methods/angular-correlation.md",
+      "knowledge/sources/zobel-1983-energy-projectile-alignment.md",
+      "knowledge/observables/angular-distribution-coefficient.md",
+      "knowledge/sources/zobel-1980-magnetic-substate-distributions.md",
+      "knowledge/sources/nndc-2005-67ga-selected-level-gamma-records.md",
+      "knowledge/sources/lange-kumar-hamilton-1982-multipole-admixtures.md",
+      "knowledge/sources/kibedi-2008-evaluation-theoretical-conversion-coefficients-bricc.md",
+      "knowledge/sources/lv-2025-136pr-tac-covariant-density-functional.md",
+      "knowledge/nuclei/136pr.md",
+      "knowledge/sources/lv-2019-chirality-135nd-reexamined.md",
+      "knowledge/experiments/jurogam2-135nd-ar40-152mev.md",
+      "knowledge/sources/nndc-2018-136pr-selected-level-gamma-records.md"
+    ],
+    "changed_paths": [
+      "knowledge/experiments/jurogam2-135nd-ar40-152mev.md",
+      "knowledge/index.md",
+      "knowledge/methods/angular-correlation.md",
+      "knowledge/methods/angular-distribution.md",
+      "knowledge/methods/level-scheme-reconstruction.md",
+      "knowledge/methods/linear-polarization-asymmetry.md",
+      "knowledge/nuclei/136pr.md",
+      "knowledge/observables/angular-distribution-coefficient.md",
+      "knowledge/projects/a130-thesis-evidence-matrix.md",
+      "knowledge/sources/herzan-2015-193bi-spectroscopy.md",
+      "knowledge/sources/kibedi-2008-evaluation-theoretical-conversion-coefficients-bricc.md",
+      "knowledge/sources/lv-2019-chirality-135nd-reexamined.md",
+      "knowledge/sources/lv-2025-136pr-tac-covariant-density-functional.md",
+      "knowledge/sources/nndc-2005-67ga-selected-level-gamma-records.md",
+      "knowledge/sources/nndc-2017-193bi-level-scheme-evaluation.md",
+      "knowledge/sources/nndc-2018-136pr-selected-level-gamma-records.md",
+      "knowledge/sources/rose-brink-1967-phase-defined-angular-distributions.md",
+      "knowledge/sources/zheng-2002-ado-coincidence-angular-anisotropy.md",
+      "knowledge/sources/zobel-1980-magnetic-substate-distributions.md",
+      "knowledge/sources/zobel-1983-energy-projectile-alignment.md"
+    ],
+    "change_check": "run-snapshot",
+    "error": null
+  },
+  "research_window_status": "active-user-extended",
+  "current_hard_deadline": "2026-10-16T16:00:00+08:00",
+  "original_hard_deadline": "2026-10-15T15:00:00+08:00",
+  "course_credit_not_advanced": true,
+  "checks_from_prior_closeout_snapshot_preserved": true
+}

@@ -1,0 +1,199 @@
+{
+  "url": "https://api.crossref.org/works?query.bibliographic=E.+A.+McCutchan+Nuclear+Data+Sheets+152+331+2018+A%3D136&rows=4",
+  "status": 200,
+  "at": "2026-10-15T11:45:05.414861+08:00",
+  "items": [
+    {
+      "DOI": "10.1016/j.nds.2018.10.002",
+      "title": [
+        "Nuclear Data Sheets for A=136"
+      ],
+      "author": [
+        {
+          "given": "E.A.",
+          "family": "Mccutchan",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2018,
+            9
+          ]
+        ]
+      },
+      "volume": "152",
+      "page": "331-667",
+      "container-title": [
+        "Nuclear Data Sheets"
+      ]
+    },
+    {
+      "DOI": "10.1016/j.nds.2016.08.001",
+      "title": [
+        "Nuclear Data Sheets for A = 70"
+      ],
+      "author": [
+        {
+          "given": "G.",
+          "family": "Gürdal",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "E.A.",
+          "family": "McCutchan",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2016,
+            9
+          ]
+        ]
+      },
+      "volume": "136",
+      "page": "1-162",
+      "container-title": [
+        "Nuclear Data Sheets"
+      ]
+    },
+    {
+      "DOI": "10.1016/j.nds.2018.08.002",
+      "title": [
+        "Nuclear Data Sheets for A=171"
+      ],
+      "author": [
+        {
+          "given": "Coral M.",
+          "family": "Baglin",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "E.A.",
+          "family": "McCutchan",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2018,
+            7
+          ]
+        ]
+      },
+      "volume": "151",
+      "page": "334-718",
+      "container-title": [
+        "Nuclear Data Sheets"
+      ]
+    },
+    {
+      "DOI": "10.1016/j.nds.2018.11.001",
+      "title": [
+        "Nuclear Data Sheets for A=170"
+      ],
+      "author": [
+        {
+          "given": "C.M.",
+          "family": "Baglin",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "E.A.",
+          "family": "McCutchan",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "S.",
+          "family": "Basunia",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "E.",
+          "family": "Browne",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2018,
+            11
+          ]
+        ]
+      },
+      "volume": "153",
+      "page": "1-494",
+      "container-title": [
+        "Nuclear Data Sheets"
+      ]
+    }
+  ]
+}

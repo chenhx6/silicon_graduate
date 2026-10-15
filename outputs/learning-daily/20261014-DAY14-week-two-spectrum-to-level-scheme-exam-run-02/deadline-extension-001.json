@@ -1,0 +1,12 @@
+{
+  "authorized_at_observed": "2026-10-15T15:46:53.981856+08:00",
+  "authority": "explicit user instruction in same session",
+  "user_instruction": "允许加时24小时到明日下午4点，因为任务中途我们遇到了断网的情况。",
+  "reason": "user-reported network outage; no research invented for unobserved interval",
+  "previous_deadline": "2026-10-15T15:00:00+08:00",
+  "new_deadline": "2026-10-16T16:00:00+08:00",
+  "same_run_id": "2026-10-14-day-14-02",
+  "same_session_id": "01a13a0e-e8bd-7251-b970-f6975679e281",
+  "day_index": 14,
+  "course_credit_change": false
+}

@@ -1,0 +1,84 @@
+{
+  "total": 8745207,
+  "sources_queried": [
+    "crossref",
+    "arxiv"
+  ],
+  "result_count": 5,
+  "results": [
+    {
+      "title": "136Nd decay and the 136Pr ground state spin",
+      "authors": [
+        "A.R. Brosi",
+        "B.H. Ketelle"
+      ],
+      "year": 1975,
+      "doi": "10.1016/0375-9474(75)90175-x",
+      "journal": "Nuclear Physics A",
+      "source": "crossref",
+      "citation_count": 6
+    },
+    {
+      "title": "High spin bands in 102Pd",
+      "authors": [
+        "Dan Jerrestam",
+        "W. Klamra",
+        "B. Fogelberg",
+        "R. Bark",
+        "A. Gizon",
+        "et al."
+      ],
+      "year": 1996,
+      "doi": "10.1016/0375-9474(96)00120-0",
+      "journal": "Nuclear Physics A",
+      "source": "crossref",
+      "citation_count": 15
+    },
+    {
+      "title": "Evolution from spherical to various deformed shapes in the odd-odd 59136Pr77 nucleus",
+      "authors": [
+        "C.M. Petrache",
+        "C.A. Ur",
+        "D. Bazzacco",
+        "S. Lunardi",
+        "C. Rossi Alvarez",
+        "et al."
+      ],
+      "year": 1996,
+      "doi": "10.1016/0375-9474(96)00107-8",
+      "journal": "Nuclear Physics A",
+      "source": "crossref",
+      "citation_count": 29
+    },
+    {
+      "title": "Multiparticle-hole states of high spin in N &lt; 50, A ≈ 90 nuclei: 4. Systematics of level energies and electromagnetic properties",
+      "authors": [
+        "D. Rudolph",
+        "K.P. Lieb",
+        "H. Grawe"
+      ],
+      "year": 1996,
+      "doi": "10.1016/0375-9474(95)00469-6",
+      "journal": "Nuclear Physics A",
+      "source": "crossref",
+      "citation_count": 48
+    },
+    {
+      "title": "Editorial Board",
+      "authors": [],
+      "year": 1996,
+      "doi": "10.1016/s0375-9474(96)90007-x",
+      "journal": "Nuclear Physics A",
+      "source": "crossref",
+      "citation_count": 0
+    }
+  ],
+  "errors": [
+    {
+      "source": "arxiv",
+      "error": "[arxiv] Network error: [Errno 111] Connection refused"
+    }
+  ],
+  "query": "Petrache 136Pr Nuclear Physics A 603 50 1996 high spin",
+  "selected_doi": "10.1016/0375-9474(96)00107-8"
+}

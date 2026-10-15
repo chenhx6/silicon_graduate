@@ -89,3 +89,8 @@ A new line or energy-sum closure may strengthen placement. It cannot by itself p
 1. 为 `131Ce/133Ce` 补充与具体带和跃迁绑定的 `δ`/偏振/寿命/绝对强度证据；不从 `127/128I` 的 ADO 标定移植数值。
 2. 若后续需要定量 reaction-population 或 `sigma/I` 分析，先取得用户反应道、粒子/残核识别、角度响应、feeding、事件级协方差与拟合代码；缺少这些输入时保持 L4 readiness boundary。
 3. 每次扩展前核对 DOI、raw/public-full-text identity、locator、claim kind 和 source independence。
+
+
+## 136Pr旧评价与新接受稿：拓扑仍须逐线验证
+
+[[nndc-2018-136pr-selected-level-gamma-records]] N136-3/4与[[lv-2025-136pr-tac-covariant-density-functional]] LV25-26显示263/405顺序与中间level的版本冲突；数据库cut2018保留旧Q1endpoint和更弱π，不能作为独立2025反证。旧primary未获取，原因不裁决；[[level-scheme-reconstruction]]保存精确记录与同标度/同门/endpoint核验路线。它补充上方136Prrow的topology与sourceversion风险，未构成新模式或absolute-strength证据。

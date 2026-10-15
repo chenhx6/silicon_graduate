@@ -419,3 +419,19 @@ graph TD
 LV25-20明示与Refs16/31共享acquisition，Ref16就是[[lv-2019-chirality-135nd-reexamined]]。2025是论文年，不能把相邻核素selection当新一份独立beamrun。5.1×10^10为整个fold≥3 pool；约10% crosssection也不等selectedevent分母。不同paper可能有不同calibration/gates，sharedpool不证明完全同events/Cov，更不能移植135Nd的偏振或τ。
 
 [day14_pr136_scheme_crosswalk.py](../../system/scripts/day14_pr136_scheme_crosswalk.py)与[37-check回执](../../outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/pr136-scheme-crosswalk.json)核rawSHA/实际表行、空栏、图rank、fraction精确closure、两种χ算法和Q1endpoint。方法判断supports定位新endpoint的净符合证据，limits共同门/模型标签/one-sided点的升级；没有新level、absoluteB或模式结论，L4原始重分析not-ready。
+
+
+## 136Pr：2018评价与2025接受稿的顺序冲突
+
+[[nndc-2018-136pr-selected-level-gamma-records]] N136-1–8只保存201810/cut2018数据对象。旧reaction401行已读，adopted仅global/selected，不宣称核全质量链论文。[[lv-2025-136pr-tac-covariant-density-functional]] LV25-26为当前接受稿直接表行。以下是截止前已检查记录的整理，没有新物理计算。
+
+| 层级/跃迁身份 | 2018 reaction / adopted | 2025接受稿 | 使用边界 |
+| --- | --- | --- | --- |
+| Q1旧/新bandhead link | reaction3998.8 J15→876.1 D→3122.7 14+；adopted3998.7(15)→3122.6(14+) | 5347.8 19(+)→875.6→4472.2 18+，doublegate见下方689/661 | N136-3与LV25-16版本化；2018cut早于新数据，不作为反驳新endpoint的独立观测。此前3997.6是用新14+anchor的反事实，不能替旧实字段3998.8。 |
+| 旧H与新D5的263/405顺序 | 3677.7 15(-)→262.9→3414.8 14(-)→404.9→3009.9 13(-)；adopted同order但π留空 | 3678.4 15+→405.1→3273.3 14+→263.1→3010.2 13+ | 次序和中间level不同；仅sum或共同祖先门不能定次序。原因未核，不称任一方错误或已知重排历史。 |
+| 旧π/电磁label | reaction11(-)等proposal；adopted(11)/(12)/(13)等无π；DCO D/Q及部分assumedE2 | 新544E2与连接支持作者positiveπ，但若干弱行仍空 | 不用reaction理论π覆盖adopted，也不把D/Q自动补成无条件M1/E2。 |
+| 相对I标度 | reactionG876.1 RI3.3(6)，adopted RI100为母态归一 | TableI保持自身标度 | 不是两次测量或countledger，不能跨表拼绝对flow。 |
+
+N136-5的754.4 DCO异常是compiler“perhaps typo”，保留原ratio与措辞；N136-7首条unplacedG和原图/表差异不自动修复。N136-6的91ns是6+bandhead评价半衰期，不借给高能母态。缺1996primary、逐门/response、背景和Σ，无法选择新旧顺序或做actualL4；最小有价值续路为原图/表/新gate净计数的identity和旁路复核，而非再次计算相同闭合。
+
+Petrache1996 exactDOI10.1016/0375-9474(96)00107-8 metadata已核，公开OA/provider/Padua均未给全文，获取停止；downloader将TDMlicense误标confirmedOA的label不采信，实际download0。反应对象记载旧125-MeV30Si/GASP入口，和新40Ar/JUROGAM不同，但source对象内也含其它反应，不把评价重复计采集。判断revises版本/π和顺序identity边界；未改变模式排序、未造旧primary结论。

@@ -1,0 +1,16 @@
+{
+  "status": "fulfilled",
+  "value": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\n  \"source\": \"semantic_scholar\",\n  \"error\": \"HTTP 429\"\n}"
+      }
+    ],
+    "structuredContent": {
+      "source": "semantic_scholar",
+      "error": "HTTP 429"
+    },
+    "isError": false
+  }
+}

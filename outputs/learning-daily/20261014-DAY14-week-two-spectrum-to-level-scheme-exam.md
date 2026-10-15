@@ -15,8 +15,8 @@ updated: 2026-10-15
 - schedule_id: `wiki-daily-learning`；run_kind: `substantive / weekly-learning`
 - session_id: `01a13a0e-e8bd-7251-b970-f6975679e281`
 - resume_command: `codex resume 01a13a0e-e8bd-7251-b970-f6975679e281 -C /workspace/wiki -s danger-full-access -a never`
-- overnight_until: `2026-10-15T15:00:00+08:00`；15:00–16:00仅收束。
-- research_status: active；本报告是内容checkpoint，不是整段时窗完成。
+- overnight_until: `2026-10-16T16:00:00+08:00`；用户因断网明确延长至次日16:00，之后16:00–17:00收束。原截止`2026-10-15T15:00:00+08:00`保留为历史。
+- research_status: active-user-extended；15:37曾按原截止转closeout，15:45用户明确加时并恢复，当前截止2026-10-16 16:00上海。中间未观察时段不补造研究。
 - completed_day_indices: [14]
 - partial_day_indices: [15]
 - Day 14 card audit: complete
@@ -171,6 +171,14 @@ Ga67 novelty已局部饱和后，以已保存[primed来源前回忆](20261014-DA
 [[lv-2025-136pr-tac-covariant-density-functional]] LV25-16/17：546/876双门见661/689，使作者把Q1终点由14+改到18+并将带头spin+4ℏ至19(+)；875.6 R=.47(8)和E2-gate支持dipole，π仍模型proposal。LV25-18的5level/6edge三条并行路径由[37-check](20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/pr136-scheme-crosswalk.json)核表，closure−.1/−.2keV、声明Σ下cycleCov(.54,.25;.25,.50)、conditionalχ²=.08；非实际事件拟合。320/532的R/M空栏保留。
 
 Fig4/5真实sharedgate/跨残核污染反例、D5/D6依configuration分组和D6单侧显示均写回[[level-scheme-reconstruction]]“136Pr：双门重排、共享门峰与模型分带”、[[136pr]]与[[a130-thesis-evidence-matrix]]新row。LV25-20明示与2019/2018同acquisition，故本novelty是不同核素/拓扑问题，**不**计为与Day9的135Nd文献独立采集。Counterevidence为D1/D2强度比偏差、D6limit/配置和Q1π缺口；下一必要观测仍cleanPOL/逐parentstrength/真实gate/Σ。Supports真正定位endpoint的证据，limits模型标签和单侧点升级；不增加Day15信用或新模式裁决。
+
+### 研究截止后的既有摘录收束：2018的136Pr对象
+
+checkpoint008实际观察为上海15:37，立即停止新研究；最后已保存科学读取快照为11:47，中间没有可核验新研究记录，不补称持续计算。15:00后只将此前已读NNDC136的两个对象固化，新增[[nndc-2018-136pr-selected-level-gamma-records]] N136-1–8。Reaction401行全文已读、adopted770行仅global/selected，cut1-Apr2018；未读整质量链/1996primary。Metadata评价DOI10.1016/j.nds.2018.10.002已Crossref核，raw槽未填不改raw。
+
+旧Q1 reaction3998.8 J15经876.1 D到3122.7 14+，adopted(15)/(14+)与RI重标100保持；这是旧评价记录，不是2025独立反证。旧H链3677.7→262.9→3414.8→404.9→3009.9，与LV25-26直接2025TableI的3678.4→405.1→3273.3→263.1→3010.2次序不同。原因unknown，[[level-scheme-reconstruction]]“136Pr：2018评价与2025接受稿的顺序冲突”保存crosswalk；不判哪版错误，不称已重放原数据。
+
+1996primary只核metadata：DOI10.1016/0375-9474(96)00107-8、NPA60350–76；OA下载0、arXiv拒绝、Semantic429、Scholar失败、Padua403，终止获取。TDMlicense被工具错标confirmedOA不采信。通用136fixed-column新script/更深入量化未完成；393/394 free-recoil只冻结预测和scratch，不算验收结果，留续接。没有在截止后补做新物理或打开Day16；completed14/partial15、正式21/24不变。
 
 ## Counter-evidence and missing companion observables
 
@@ -1231,6 +1239,140 @@ HE15-9的实际未定双线是核心反例：energy sum、共享R/A和假设的�
           "locator": "LV25-20"
         }
       ]
+    },
+    {
+      "knowledge": "knowledge/sources/nndc-2018-136pr-selected-level-gamma-records.md",
+      "anchor": "136Pr：选定2018评价对象",
+      "summary": "固化截止前已读两NNDC对象和旧endpoint/order/π/normalizer/primaryreadiness，不冒充1996全文。",
+      "sources": [
+        {
+          "path": "knowledge/sources/nndc-2018-136pr-selected-level-gamma-records.md",
+          "locator": "N136-1"
+        },
+        {
+          "path": "knowledge/sources/nndc-2018-136pr-selected-level-gamma-records.md",
+          "locator": "N136-2"
+        },
+        {
+          "path": "knowledge/sources/nndc-2018-136pr-selected-level-gamma-records.md",
+          "locator": "N136-3"
+        },
+        {
+          "path": "knowledge/sources/nndc-2018-136pr-selected-level-gamma-records.md",
+          "locator": "N136-4"
+        },
+        {
+          "path": "knowledge/sources/nndc-2018-136pr-selected-level-gamma-records.md",
+          "locator": "N136-5"
+        },
+        {
+          "path": "knowledge/sources/nndc-2018-136pr-selected-level-gamma-records.md",
+          "locator": "N136-6"
+        },
+        {
+          "path": "knowledge/sources/nndc-2018-136pr-selected-level-gamma-records.md",
+          "locator": "N136-7"
+        },
+        {
+          "path": "knowledge/sources/nndc-2018-136pr-selected-level-gamma-records.md",
+          "locator": "N136-8"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/methods/level-scheme-reconstruction.md",
+      "anchor": "136Pr：2018评价与2025接受稿的顺序冲突",
+      "summary": "保存旧新263/405次序和Q1endpoint的versioncrosswalk；原因unknown，不新拟合。",
+      "sources": [
+        {
+          "path": "knowledge/sources/nndc-2018-136pr-selected-level-gamma-records.md",
+          "locator": "N136-1"
+        },
+        {
+          "path": "knowledge/sources/nndc-2018-136pr-selected-level-gamma-records.md",
+          "locator": "N136-3"
+        },
+        {
+          "path": "knowledge/sources/nndc-2018-136pr-selected-level-gamma-records.md",
+          "locator": "N136-4"
+        },
+        {
+          "path": "knowledge/sources/nndc-2018-136pr-selected-level-gamma-records.md",
+          "locator": "N136-5"
+        },
+        {
+          "path": "knowledge/sources/nndc-2018-136pr-selected-level-gamma-records.md",
+          "locator": "N136-8"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/nuclei/136pr.md",
+      "anchor": "旧评价的版本与次序边界",
+      "summary": "核素入口补旧评价/接受稿冲突和更弱π，不改变模式。",
+      "sources": [
+        {
+          "path": "knowledge/sources/nndc-2018-136pr-selected-level-gamma-records.md",
+          "locator": "N136-3"
+        },
+        {
+          "path": "knowledge/sources/nndc-2018-136pr-selected-level-gamma-records.md",
+          "locator": "N136-4"
+        },
+        {
+          "path": "knowledge/sources/nndc-2018-136pr-selected-level-gamma-records.md",
+          "locator": "N136-8"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/projects/a130-thesis-evidence-matrix.md",
+      "anchor": "136Pr旧评价与新接受稿：拓扑仍须逐线验证",
+      "summary": "补实际A130row的version/order风险与最小续路。",
+      "sources": [
+        {
+          "path": "knowledge/sources/nndc-2018-136pr-selected-level-gamma-records.md",
+          "locator": "N136-3"
+        },
+        {
+          "path": "knowledge/sources/nndc-2018-136pr-selected-level-gamma-records.md",
+          "locator": "N136-4"
+        },
+        {
+          "path": "knowledge/sources/nndc-2018-136pr-selected-level-gamma-records.md",
+          "locator": "N136-8"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/index.md",
+      "anchor": "[[nndc-2018-136pr-selected-level-gamma-records]]",
+      "summary": "新增旧评价可恢复导航，来源不是新独立采集。",
+      "sources": [
+        {
+          "path": "knowledge/sources/nndc-2018-136pr-selected-level-gamma-records.md",
+          "locator": "N136-1"
+        },
+        {
+          "path": "knowledge/sources/nndc-2018-136pr-selected-level-gamma-records.md",
+          "locator": "N136-4"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/sources/lv-2025-136pr-tac-covariant-density-functional.md",
+      "anchor": "LV25-26",
+      "summary": "将截止前已读接受稿405/263直接表行形成atomicclaim，并回链旧评价；不补差异原因。",
+      "sources": [
+        {
+          "path": "knowledge/sources/lv-2025-136pr-tac-covariant-density-functional.md",
+          "locator": "LV25-26"
+        },
+        {
+          "path": "knowledge/sources/nndc-2018-136pr-selected-level-gamma-records.md",
+          "locator": "N136-4"
+        }
+      ]
     }
   ]
 }
@@ -1348,7 +1490,7 @@ Danko99primary合法OA/publicPDF/官方API/repo均未提供正文（403HTML/401J
 
 - L0：Herzáň20页主线/图表已正式复核，Zobel1983六页与1980九页完成；另取得67Ga四个publicENSDF对象，selectedrecords/完整三reactionobjects核验，不宣称读取wholemasschainpaper或原1978/79/99全文。
 - L1/L2：source/method/matrix、原35检查与后续条件gate/POL/jointγγ/Cov/kinematic-hull均固化；正式六维21/24与weeklyREFLECT保持。
-- L3：67Ga38-check actualdata-object/source-field/parent/RI/finiteMR与conditionalstrength核验完成；actual ICC和DCO gate/geometry仍是下一高信息inputroute。193Bi lineidentity/order/branch/time问题保留，无新mode裁决。
+- L3：67Ga实输入/FO理论ICC与声明DCO门模型、193Bi91-check能量—时间设计、136Pr37-check新谱和旧评价crosswalk完成；实际DCO gate/geometry、原事件及1996primary仍缺，无新mode裁决。
 - L4：真实event-level重分析not-ready。67Ga已有评价τ/δ，仍缺原angular/event、response、GF/jointCov、完整ICC/branch/stopping/feeding包；193Bi仍缺目标parentτ/δ/actualgates。继续最高价值可执行数据/理论路线，不把模型重算当实验。
 
 ## Verification and continuation
@@ -1463,3 +1605,24 @@ Ref5原9页与23-check Appendix均完成；report/card/writeback valid（23items
 37项analysis实际exit0；report/card/writeback valid（40items/19changedpages）。旧source flags/原review、rawmetadata和PLAN/Bib保持，AST/diff通过。wiki_lint --fail-on error实际exit0、0errors130warnings（107citekeys、20rawslots、3parser）；LV25-16–25解析true，旧12–15合回同table后解析，不当新观测。前14批已发布，本批稳定main / `Audit DAY14 Pr136 links and one-sided transition evidence`；精确hash/actualH3仅runreceipt。
 
 约11:30快照原截止仍15:00，继续1996companion检索和已freeze的193Bi free-recoil设计，不因本来源读完收束。Day14formal21/24不变，Day15仍仅partial无学分。
+
+
+### 原截止观察时的收束状态（后被用户延期覆盖）
+
+2026-10-15T15:37+08实际clock确认原15:00研究硬截止已过，之后只closeout，研究停止。最后科学读取记录11:47；该间隔不伪造运行/研究。Clock001/002/005/008已实际ACK，其它未observed不补。用户已将nativegoal恢复active，旧blocked快照保留为历史。
+
+正式Day14逐边/判据矩阵、六维21/24自评、weeklyREFLECT和Day14cardaudit完整；Day15只有无学分预习，next_day_index只允许15。未完成136通用parser/更深量化和193Bi free-recoil exercise明确不计完成，不妨碍原正式卡验收；实际L4仍not-ready。无技术hardP0，科学未决和needs_review保留。最终可恢复提示已重写；本批稳定main / `Finalize DAY14 evidence and deadline closeout`，精确hash/actualchecks/H3仅runreceipt，课程state仅在本内容发布验收后单独对账。
+
+
+### 原截止检查点的验收实测
+
+2026-10-15T15:44:00.546184+08:00：report/card/writeback均valid；唯一block46items，覆盖20份本run修改knowledge页。原正式35、时间91、136Pr37项既有analysis的check全true；正式卡6项交付/六维21/24/weeklyREFLECT重新检查。新增评价对象hash和已读selectedline逐字一致，原LV19/LV25 claims/review、rawmetadata/PLAN/Bib与AST保持。
+
+wiki_lint --fail-on error实际exit0，0errors/131warnings（107citationkey、21未填raw槽、3reactionparser）；git diff --check实际exit0。新N136-1–8/旧新LV25-1–26均被claimparser识别且保持true。详细机器证据见[content-final-audit](20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/content-final-audit.json)。下一为显式manifest/H3发布及课程next15/count14单次对账；如发布失败保留本地commit和final-not-pushed，不改凭据。
+
+
+### 用户明确延期：断网后继续同run/session
+
+2026-10-15T15:46:53.981856+08:00用户允许加时至2026-10-16 16:00上海，原截止/15:37收束记录保留；本段新指令覆盖旧closeout-only和“未完成研究只待新任务”的限制。继续现有DAY14，不新建session、不重启daemon；formal21/24和completed14/partial15保持，officialnext14/count13等延期窗口最终对账。原第016批已显式暂存但未commit，核清29paths无其它index项后更新为延期checkpoint并发布，绝不提前计Day15。
+
+下一继续已冻结的193Bi free-recoil energy-opening-angle设计及136Pr实际旧新263/405顺序的可识别性；固定两槽不无目的开新卡。旧metadata/provider失败和network空窗保留，不反复请求受阻入口或冒充持续计算。新截止与用户授权见[deadline-extension-001](20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/deadline-extension-001.json)；当前run/day/session不变。

@@ -6,15 +6,15 @@ updated: 2026-10-15
 
 # 跨会话交接
 
-## Active handoff — DAY14 formal exam and continuous study
+## Active handoff — DAY14 network-outage extension
 
-Run `2026-10-14-day-14-02` / session `01a13a0e-e8bd-7251-b970-f6975679e281`，原截止2026-10-15T15:00+08。Formal14七边/21/24/weeklyREFLECT完成；completed14/partial15，官方next14/count13待closeout只计一次，不开Day16。
+Run `2026-10-14-day-14-02` / session `01a13a0e-e8bd-7251-b970-f6975679e281`。用户2026-10-15 15:45上海明确因断网延期至 **2026-10-16T16:00+08**；原15:00/15:37closeout历史保留，research恢复，nativegoalactive。deadline-extension-001.json/run/continuation一致，不新session或重启daemon。Formal14七边/35checks/21/24/weeklyREFLECT完成；completed14/partial15，officialnext14/count13待延期closeout只计一次，不开Day16。
 
-第015批为136Pr source-grounded对照：accepted17页/Figs1–16/TableI-II、37-check实际表行与三路closure/Q1endpoint；546/876双门见661/689支持作者改接18+、bandhead+4ℏ至19(+)但π仍modelproposal。Weak320/532空栏、D5/D6 configuration辅助分组、D6单侧显示、Fig10caption/TableII ConfigD6版本内冲突保留，publisher403不称officialerratum。Sharedacquisition Ref16=Lv2019，非独立2025beamrun，真实events/Σ仍缺。
+前15批published；第016批29paths曾暂存未commit，现更新延期checkpoint main / `Continue DAY14 after network outage deadline extension`，actualH3/hash只receipt。Canonical46writebackitems/20changedpages；原检查report/card/writeback/oldflags/raw/PLAN/Bib/AST/diff/lint0errors131warnings。N136旧endpoint/order和LV25-26已写，1996primarymissing；263/405原因不裁决，actualL4notready。
 
-Canonical source/method/nucleus/project/experiment与reciprocalsource已写；report唯一40items/19changedpages。37checks/report/card/writeback/oldreview/raw/protected/AST/diff/lint0errors130warnings通过；旧LV25-12–15合回claimtable，flags不变。前14批已Gitee发布；本批main / `Audit DAY14 Pr136 links and one-sided transition evidence`，actualH3/hash仅receipt。
+下一继续已freeze的193Bi free-recoil energy-opening-angle精确4vector/共同response条件练习（尚未formalcode，不当结果）；136Pr旧新顺序的gate/middlebranch可识别性保持novelty槽，不重试无变化受阻primary。两槽持续，高信息/时间门按新截止；Day15仍无学分。Clock001/002/005/008实际ACK，11:47–15:37无可核验科学记录不造；Farmer8686/clock75781不重启。
 
-下一：1996Ref11已核DOI10.1016/0375-9474(96)00107-8、全文获取仍bounded进行，未据转述补旧图事实。原193Bi free-recoil energy-opening-angle已freeze，formalcode未写，时间/响应actualinputs仍缺；继续这两个currentissues。Clock001/002/005实际ACK；Farmer8686/clock75781不重启。Nativegoal显示historicalblocked，不伪造active；research按用户同session续学。恢复 `codex resume 01a13a0e-e8bd-7251-b970-f6975679e281 -C /workspace/wiki -s danger-full-access -a never`；checkpoint015/continuation可恢复。
+恢复 `codex resume 01a13a0e-e8bd-7251-b970-f6975679e281 -C /workspace/wiki -s danger-full-access -a never`，先读run.json；若未来completed只交付/讨论，当前running继续研究。原继承dirty/log/daemon和review/raw/PLAN/Bib保持，按manifest/H3非force发布。
 
 ## Previous active handoff — DAY13 continuous study reopened by user
 

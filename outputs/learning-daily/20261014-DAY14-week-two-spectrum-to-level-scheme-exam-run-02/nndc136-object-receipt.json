@@ -1,0 +1,69 @@
+{
+  "at": "2026-10-15T11:38:15.843408+08:00",
+  "objects": [
+    {
+      "dataset": "136059001",
+      "label": "adopted",
+      "url": "https://www.nndc.bnl.gov/ensdf/EnsdfDispatcherServlet",
+      "request": {
+        "dbclass": "ensdf",
+        "page-source": "singular",
+        "chooseit": "ENSDF text format",
+        "datasetcheck": "136059001,136PR"
+      },
+      "status": 200,
+      "response_sha256": "210999e64d28f98931026b2ccbb1ec270acbaee8479b4bec9504ee55a298bc2b",
+      "pre_present": true,
+      "text_sha256": "cb1ca8660bbf0df17920ec4f366b245cb564d707f116bc1544738fdcfff94604",
+      "text_lines": 770,
+      "header": [
+        "",
+        "136PR    ADOPTED LEVELS, GAMMAS                                  NDS18    201810",
+        "136PR  H TYP=FUL$AUT=E.A. MCCUTCHAN$CIT=NDS 152, 331 (2018)$CUT=1-Apr-2018$     ",
+        "136PR  Q -2141     16 8476   16 4013   15 -40    40    2017WA10                 ",
+        "136PR cQ $S(2n)=18955 {I23}, S(2p)=10700 {I23} (2017Wa10)                       ",
+        "136PR cL E$From a least-squares fit to E|g, by evaluator.                       ",
+        "136PR CL BAND(A)$Band built on (15), 3999-keV level.                            ",
+        "136PR2cL Proposed as |ph{-11/2}|n1/2[530] by 1996Pe12                           ",
+        "136PR CL BAND(B)$|p5/2[413]|n1/2[660]                                           ",
+        "136PR CL BAND(C)$|pg{-7/2} (unfavored)|ns{-1/2}|nh{-11/2}{+2}                   ",
+        "136PR CL BAND(D)$|pg{-7/2}|ns{-1/2}|nh{-11/2}{+2}                               ",
+        "136PR CL BAND(E)$|ph{-11/2}|nh{-11/2}                                           ",
+        "136PR CL BAND(F)$Band built on (14), 3237-keV level.                            ",
+        "136PR2cL Proposed as |ph{-11/2}(|a=+1/2)|nh{-11/2} by 1996Pe12.                 "
+      ]
+    },
+    {
+      "dataset": "136059003",
+      "label": "pd30si",
+      "url": "https://www.nndc.bnl.gov/ensdf/EnsdfDispatcherServlet",
+      "request": {
+        "dbclass": "ensdf",
+        "page-source": "singular",
+        "chooseit": "ENSDF text format",
+        "datasetcheck": "136059003,136PR"
+      },
+      "status": 200,
+      "response_sha256": "957f4304ec749ec3acfb7ad003143264ff03d184ce40fef78d69de22789215d4",
+      "pre_present": true,
+      "text_sha256": "b90fe01705fc98992c49e04b57f829d6d55e469930508da4a98494c553c3922d",
+      "text_lines": 401,
+      "header": [
+        "",
+        "136PR    110PD(30SI,P3NG)              1996PE12                  NDS18    201810",
+        "136PR  H TYP=FUL$AUT=E.A. MCCUTCHAN$CIT=NDS 152, 331 (2018)$CUT=1-Apr-2018$     ",
+        "136PR c  1996Pe12: E({+30}Si)=125 MeV. Measured E|g, I|g, |g|g, |g(|q),         ",
+        "136PR2c  |g|g(|q)(DCO), |g(t), |g(|q,H,t) using GASP array of 40 Ge detectors   ",
+        "136PR3c  and 80 BGO inner-ball detectors. Includes {+122}Sn({+19}F,5n|g)        ",
+        "136PR4c  E({+19}F)=84 MeV and {+136}Ce(p,n|g) E(p)=14 MeV                       ",
+        "136PR c  1993Ba42: {+122}Sn({+19}F,5n|g) E=76-88 MeV. Measured E|g, I|g,        ",
+        "136PR2c  |g(|q) |g(t) using HPGe detectors; deduced g factor with TDPAD         ",
+        "136PR3c  technique.                                                             ",
+        "136PR c  Earlier works: 1992Ol03, 1987Dr12                                      ",
+        "136PR cL E$From a least-squares fit to E|g, by evaluator.                       ",
+        "136PR cL J$As given by 1996Pe12 from |g multipolarities, |g(|q), DCO ratios     ",
+        "136PR2cL and supported by IBM calculations.                                     "
+      ]
+    }
+  ]
+}

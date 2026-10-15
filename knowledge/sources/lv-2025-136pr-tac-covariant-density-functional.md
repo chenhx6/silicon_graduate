@@ -91,6 +91,7 @@ The paper combines a new high-statistics JUROGAM II 136Pr level scheme with PC-P
 | LV25-23 | Fig.10(c) D6使用向上箭头式点，TableI D6没有给出inbandE2 crossover。按单侧/限值边界保留这些点，原文未提供D6逐点limit构造或CL，不能当普通双侧误差ratio点给拟合χ²。 | display-fact-and-our-inference-boundary | mixed | PDF p.11 Fig.10(c); PDF p.8 TableI D6 | true |
 | LV25-24 | 此accepted copy的Fig.10caption写D6的gd^4 unpaired形式，而TableII ConfigD6写gd^2且含sd^-4 neutronholes，具体配置列示不一致。PublisherPDF请求403，未核正式排版或erratum；保留版本内locator冲突，不断言计算代码用错配置。 | versioned-model-input-boundary | direct | PDF p.11 Fig.10 caption; PDF p.15 TableII ConfigD6 | true |
 | LV25-25 | TableI脚注a称以209.5-keV7+→6+强度为reference，D1表列209.4(1)的I=64(4)，未声明reference必须100。本任务保留原标度，不凭常规习惯改I、补missingbranch或反推counts。 | normalization-boundary | direct | PDF p.9 TableI footnote a; PDF p.6 TableI D1 row209.4 | true |
+| LV25-26 | 本接受稿TableI D5为3678.4-keV15+经405.1(1)到3273.3-keV14+，再263.1(2)到3010.2-keV13+；两者表列M1+E2。它与2018评价的263/405先后不同，原文这组表行不给出该差异原因。 | experimental-transition-record-and-boundary | direct | PDF p.7 TableI D5 rows405.1/263.1 | true |
 
 ## Nuclear Structure Information
 
@@ -150,3 +151,8 @@ Decision: revises. 136Pr 从“后续投影覆盖待查”更新为“已有 202
 [37-check crosswalk](../../outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/pr136-scheme-crosswalk.json)直接核immutablePDF行，并以声明independentquotedσ给两cycle残差−.1/−.2keV及相关矩阵；source真实jointΣ仍unknown。可复用逐边表、Q1重排和限制在[[level-scheme-reconstruction]]“136Pr：双门重排、共享门峰与模型分带”，核素入口[[136pr]]，[[a130-thesis-evidence-matrix]]新增实际A130 row。
 
 [[lv-2019-chirality-135nd-reexamined]]是本文Ref16，并非因核素/发表年不同就有独立acquisition。[[jurogam2-135nd-ar40-152mev]]保持135Nd channel视角并记录samepool的136Pr branch；actualselection、calibration、gateΣ仍逐分析待核。没有把135Nd偏振或τ移给136Pr。决定supports source-level Q1连接重排与正宇称边界，revises“新发表=新采集”/“band标签=模型无关”/“所有点均双侧测量”；D4/D6磁转动和形状共存仍竞争，β/γ是模型，不裁决新模式。
+
+
+### 截止前已读的旧评价比较
+
+[[nndc-2018-136pr-selected-level-gamma-records]] N136-3/4保存旧Q1 endpoint与263/405次序，N136-8保存1996全文未取得边界。LV25-26是本接受稿的直接表行，不将差异原因预填为作者改排或评价者错误；详细比照见[[level-scheme-reconstruction]]“136Pr：2018评价与2025接受稿的顺序冲突”。本段在硬截止后仅收束既有摘录，没有开新研究。

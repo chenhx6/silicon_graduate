@@ -9,6 +9,8 @@ updated: 2026-10-14
 
 ## Sources
 
+- [[nndc-2018-136pr-selected-level-gamma-records]] - 2018版本的旧Q1终点与263/405顺序；reaction/adoptedπ、归一和1996primary缺口分层。
+
 - [[nndc-2005-67ga-selected-level-gamma-records]] - 67Ga四个公开ENSDF对象：958有限MR、parent半衰期与RI/weakbranch来源；DCO同值反例，评价/实验/条件B重算分层。
 
 - [[nndc-2017-193bi-level-scheme-evaluation]] - 2017/2019公开ENSDF对象：七边/精度/归一crosswalk、Q≠E2和352.3图表冲突；共享2015He27，CC为条件模型。
