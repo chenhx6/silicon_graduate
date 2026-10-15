@@ -94,3 +94,8 @@ A new line or energy-sum closure may strengthen placement. It cannot by itself p
 ## 136Pr旧评价与新接受稿：拓扑仍须逐线验证
 
 [[nndc-2018-136pr-selected-level-gamma-records]] N136-3/4与[[lv-2025-136pr-tac-covariant-density-functional]] LV25-26显示263/405顺序与中间level的版本冲突；数据库cut2018保留旧Q1endpoint和更弱π，不能作为独立2025反证。旧primary未获取，原因不裁决；[[level-scheme-reconstruction]]保存精确记录与同标度/同门/endpoint核验路线。它补充上方136Prrow的topology与sourceversion风险，未构成新模式或absolute-strength证据。
+
+
+## 136Pr transitionidentity：候选唯一不等物理唯一
+
+[[lv-2025-136pr-tac-covariant-density-functional]] LV25-28的156表行和[[nndc-2018-136pr-selected-level-gamma-records]] N136-1/4/7的135placed旧G范围不同，不能相减记newlines。[[level-scheme-reconstruction]]“136Pr：逐线候选图与energy-nearest的失败”保存334.4/611等uniqueenergy错配及Q1整体parentshift被固定窗错拒的source-guided反例。后续矩阵增量应先核endpoint/gate/完整lineidentity，不将自动匹配或band名当新的结构证据。

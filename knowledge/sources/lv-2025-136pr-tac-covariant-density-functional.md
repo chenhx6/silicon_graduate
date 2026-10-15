@@ -93,6 +93,7 @@ The paper combines a new high-statistics JUROGAM II 136Pr level scheme with PC-P
 | LV25-25 | TableI脚注a称以209.5-keV7+→6+强度为reference，D1表列209.4(1)的I=64(4)，未声明reference必须100。本任务保留原标度，不凭常规习惯改I、补missingbranch或反推counts。 | normalization-boundary | direct | PDF p.9 TableI footnote a; PDF p.6 TableI D1 row209.4 | true |
 | LV25-26 | 本接受稿TableI D5为3678.4-keV15+经405.1(1)到3273.3-keV14+，再263.1(2)到3010.2-keV13+；两者表列M1+E2。它与2018评价的263/405先后不同，原文这组表行不给出该差异原因。 | experimental-transition-record-and-boundary | direct | PDF p.7 TableI D5 rows405.1/263.1 | true |
 | LV25-27 | D5的263.1(2)行在3273.3(10)母态，Iγ18.8(7)、R_DCO1.02(9)；405.1(1)行在3678.4(10)母态，Iγ14.9(7)、R_DCO.86(13)，二者M1+E2。此为相对γ强度，不是totaldecay流或completebranch保证。495.4(2)为4173.8→3678.4入口，可作母态tag候选，但逐门净计数未给。 | experimental-relative-intensity-and-parent-identity | direct | PDF p.7 TableI D5 rows263.1/405.1/495.4 | true |
+| LV25-28 | 本acceptedcopy TableI PDF6–9可提取156条Eγ/Ei table rows，D1的1552.2 (3)母态含空格使strict-token规则漏一行。156是本任务表行提取数，不是作者报道的新γ/独立跃迁或完整levelscheme总数；同表重复334.4/200.0/近611/900的身份需逐parent核。 | our-table-extraction-and-identity-boundary | derived | PDF pp.6–9 TableI; D1 row366.7 PDF6; D3/D5 rows334.4 PDF7 | true |
 
 ## Nuclear Structure Information
 
@@ -162,3 +163,8 @@ Decision: revises. 136Pr 从“后续投影覆盖待查”更新为“已有 202
 ### Relative I与顺序的条件流量设计
 
 LV25-27与[[nndc-2018-136pr-selected-level-gamma-records]] N136-9为两次不同采集/标度的RI，不能混成一组强度。[[level-scheme-reconstruction]]“136Pr：相对强度、缺失分支与独立母态标签”用真实表行的zeroIC声明control检验哪些条件能定序；fraction不是本实验branchlimit，不转成新absoluteB或顺序裁决。
+
+
+### TableI的逐行候选图
+
+LV25-28的156行由[day14_pr136_transition_candidates.py](../../system/scripts/day14_pr136_transition_candidates.py)核actualPDF SHA/四页表行、weaklimit与空栏，44项checks完成。与[[nndc-2018-136pr-selected-level-gamma-records]]旧135条placedγ建立discovery graph，所有keV窗口自选非σ阈值。[[level-scheme-reconstruction]]“136Pr：逐线候选图与energy-nearest的失败”保存完整范围/反例；候选唯一不等身份唯一，零候选不等新发现，不以算法配对覆盖sourcegraph。

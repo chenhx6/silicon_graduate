@@ -536,3 +536,49 @@ LV25-27的495.4-keV 16+→15+入口是实际candidate tag，不是未见的新�
 [day14_pr136_flow_identifiability.py](../../system/scripts/day14_pr136_flow_identifiability.py)的有限通用ENSDF reader只读取primaryL/G列并保留raw continuation/未知项，不解释全部ENSDF语义。44checks包含两个actualobject SHA、2018cut、首311.7 unplaced、LT qualifier、adoptedπ/归一、空CC/MR、compiler754comment、新PDF literal I/R/M/parent、精确当前锚点、positiveledger连续族及Fraction全cell等价/parenttag控制。[44-check回执](../../outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/pr136-flow-identifiability.json)保存源行与完整分布。
 
 决定supports把强度balance写成显式输入契约，limits从relativeI/未见线/共同门自动决定顺序，revises“no-loss或completeinventory是默认已知”的假设。未改变旧/新原文、未给实测hiddenbranch或模式，actualL4仍not-ready；最有信息的下一输入是独立入口/中间态路径的净门谱与branch sensitivity，而不是新增同一projection统计。
+
+
+## 136Pr：逐线候选图与energy-nearest的失败
+
+[[lv-2025-136pr-tac-covariant-density-functional]] LV25-28与[[nndc-2018-136pr-selected-level-gamma-records]] N136-1/4/7提供不同版本、不同覆盖的输入。实际acceptedPDF TableI四页提取156行（D1=20、D2=25、D3=11、D4=29、D5=8、D5bottom=18、D6=10、Q1=7、Q2=15、Q3=5、Q4=8），旧reaction primaryG=136，其中135有parent、首311.7 unplaced。它们是**提取范围计数**，不能相减称发现21条新线，不能与paper完整scheme数量混同。
+
+### 解析范围与可复核性
+
+Eγ/Ei以printeddecimal/uncertainty literal读取，RI/R/M/Jπ余列原样保留，不在缺栏处填值或无门条件提取一个DCO数字。旧stricttoken将`1552.2 (3)`拆开，漏掉D1 366.7(2)行；允许parent与括号间空格后155→156，逐行numericstart无reject。237-keV的`<0.1`作为原文限值保留，320.4的M空栏不补。所有record带PDFpage/textline或旧ENSDFline，以及原文行和SHA。
+
+[day14_pr136_transition_candidates.py](../../system/scripts/day14_pr136_transition_candidates.py)不运行“自动定真”的nearest/assignment。它对**自选**|ΔEγ|≤window列候选，另给自选|Δparent|≤2keV的控制；这些是discovery filters，不是jointΣ下的置信区间、σ门或实验新线标签。
+
+| 自选energy window keV | E-only：0 / 1 / 多候选新表行 | 再加parent≤2keV：0 / 1 / 多候选 |
+| ---: | --- | --- |
+| .5 | 45 / 91 / 20 | 67 / 89 / 0 |
+| 1 | 33 / 90 / 33 | 54 / 102 / 0 |
+| 1.5 | 27 / 80 / 49 | 52 / 104 / 0 |
+| 2 | 23 / 73 / 60 | 49 / 107 / 0 |
+
+Parent窗减少歧义，也可能把真实的source-described reanchoring拒掉；“全unique”不等匹配正确。R_DCO还随门类型/阵列变，不能当跨版本通用数值key；π和spin可能本来就在新数据中修订，不宜先硬要求相同。
+
+### 唯一energy候选仍会配错
+
+- 新D3的334.4(2)来自5086.3，而新D5的334.4(3)来自2779.4；energy-only两者都只有同一旧334.2/parent2779.3（旧line208）候选。它对D5是可继续核的candidate，对D3却把两个不同母态的线错合。加parent窗能在这个控制中拒D3，但不能由此证明剩下D5是无条件同identity。
+- 新D6 611.0来自7632.5，611.1来自4289.5，energy-only都只有旧611.3/parent4289.1（line296）。不能把一条旧记录自动分配给两条新线或任选距离更近者就称确认。
+- 源图旁证/endpoint/independentgate仍是决定性的kernelrow，printedE相近只是候选发现。新的band D3也可包含旧已见但未正确归带的line；“新band”不等所有membergamma都首次出现。
+
+### Parent窗也会错拒Q1和次序变化
+
+作者LV25-16明确Q1 endpoint重排。用该source锚点和旧bandA标记引导的五组**待核候选**如下，不是blind算法发现：
+
+| newγ / oldγ keV | newparent / oldparent keV | parent shift keV |
+| --- | --- | ---: |
+| 875.6 / 876.1 | 5347.8 / 3998.8 | 1349.0 |
+| 546.0 / 545.3 | 5893.8 / 4544.1 | 1349.7 |
+| 850.4 / 850.4 | 6744.2 / 5394.5 | 1349.7 |
+| 1075.4 / 1075.1 | 7819.6 / 6469.6 | 1350.0 |
+| 1283.1 / 1282.0 | 9102.7 / 7751.7 | 1351.0 |
+
+固定2keV parent窗会拒掉五组。Shift不完全相同，需按不同版本Eγ、networkadjustment、rounding与实际Σ保留，不能把一个共同offset硬拟所有表行。D5的263/405在energy窗中有候选，但parent变化同样过窗；这指向需要回图/表/branch的identity问题，不是自动“新线”或否定已报告次序重排。
+
+### 输出与边界
+
+[44-check候选图](../../outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/pr136-transition-candidates.json)保存全部156表行、1.5keV候选边、旧节点degree、四组窗口、spaced-parent修正和Q1source-guided候选。Checks覆盖hash、全row/reject/limit、scope守恒、parentfilter子集、unique-energy错配、旧unplaced排除、Q1 bandA标记与parent变化。没有将某个maximum matching当真实对照，也不以候选数作为论文新线数量或独立实验数。
+
+决定supports先建立带source locator的候选图再定向核identity，limits energynearest/固定parent窗/算法唯一性升级为物理唯一性。未改任何旧/新γ、Jπ、配置或模式，1996primary与实际逐门data仍缺；最高信息续路是所列具体冲突的图/表/旁路，而非再调窗口求出“好看”的匹配数。

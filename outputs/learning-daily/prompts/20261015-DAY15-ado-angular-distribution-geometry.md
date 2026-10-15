@@ -301,3 +301,6 @@ Day14延期后完成66-check free-recoil energy-opening-angle条件推导；K.86
 
 
 Day14延期还完成44-check136Pr实际RI/finiteENSDF parser与positiveflow/独立parenttag设计。Sameprojection全检测分布可同，未知exit/feeding/ICC时Iγ不定序；zeroIC hiddenfraction不是实测branchlimit。此为priming，不提前计ADO卡，也不把global I和conditionalgate值混用。
+
+
+Day14延期另完成44-check逐线candidategraph，energy-only unique可错合不同parent，parent窗也会漏Q1重排；R_DCO的门/阵列语义不宜作为跨源数值key。156表行/135旧placedG的scope不同，差值不是newgamma数。FormalDay15标此priming，不代替自身角度/效率卡audit。

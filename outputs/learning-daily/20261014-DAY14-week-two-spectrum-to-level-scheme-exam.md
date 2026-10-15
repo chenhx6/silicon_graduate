@@ -192,6 +192,12 @@ checkpoint008实际观察为上海15:37，立即停止新研究；最后已保�
 
 [[level-scheme-reconstruction]]“136Pr：相对强度、缺失分支与独立母态标签”给T+F=B+L正流量连续族：zeroIC/noextraexit控制分别偏向各自reportedorder，逆序的最小loss fraction为新39/188、旧19/276；这些不是实验branch限值。更强地，两order可构造完全相同的两线检测全分布；独立495.4母态入口tag在声明已知响应下才补一行信息，并非保证全局uniqueorder。UnknownICC/δ/branchlimits、realgates/Σ仍缺，未选旧新哪方正确或重放事件。
 
+### 延期继续：逐线candidate graph而非自动identity
+
+[预冻结回忆](20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/pr136-identity-before-calculation.md)后，44-check从actualacceptedPDF提取TableI156行、旧reaction136G中135placed；stricttoken漏spaced1552.2(3)问题已修，不补缺欄。|ΔE|≤1.5keV下27/80/49行分别0/1/多candidate，再加自选parent≤2keV变52/104/0；窗口不是confidence，unique不等truth，unmatched不等新线。
+
+[[level-scheme-reconstruction]]“136Pr：逐线候选图与energy-nearest的失败”固化完整候选图和反例：新D3/D5两334.4都唯一配到旧D5 334.2，611新高/低母态也共用旧能量候选；固定parent窗又会拒掉Q1已报告约1349–1351keV整体reanchor。LV25-28/N136源对象和[[a130-thesis-evidence-matrix]]保存rowcount/coverage和后续精准identity路线；不做无条件配对、不宣布新线总数或选旧新模型。
+
 ## Counter-evidence and missing companion observables
 
 HE15-9的实际未定双线是核心反例：energy sum、共享R/A和假设的ΔI=2均不足以裁决order。若一条线出现可独立定位的旁路或延迟顺序，应重审中间level；source仍保留括号Jπ与(E2)。HE15-5的quadruplet限制“一个峰是一条γ”的简化；干净622.4直接分支门与323.4级联门的299-keVcomponent差异可能迫使拆峰，但必须控制622/626门纯度、feeding、response和random。
@@ -1433,6 +1439,78 @@ HE15-9的实际未定双线是核心反例：energy sum、共享R/A和假设的�
           "locator": "N136-9"
         }
       ]
+    },
+    {
+      "knowledge": "knowledge/sources/lv-2025-136pr-tac-covariant-density-functional.md",
+      "anchor": "LV25-28",
+      "summary": "固化actualTableI156row提取、spacedparent和identity边界，不冒充作者newgamma计数。",
+      "sources": [
+        {
+          "path": "knowledge/sources/lv-2025-136pr-tac-covariant-density-functional.md",
+          "locator": "LV25-28"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/sources/nndc-2018-136pr-selected-level-gamma-records.md",
+      "anchor": "旧记录到新表的候选scope",
+      "summary": "保留旧136G/135placed+unplaced读取范围和新旧scope差，linkedcandidategraph。",
+      "sources": [
+        {
+          "path": "knowledge/sources/lv-2025-136pr-tac-covariant-density-functional.md",
+          "locator": "LV25-28"
+        },
+        {
+          "path": "knowledge/sources/nndc-2018-136pr-selected-level-gamma-records.md",
+          "locator": "N136-1"
+        },
+        {
+          "path": "knowledge/sources/nndc-2018-136pr-selected-level-gamma-records.md",
+          "locator": "N136-4"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/methods/level-scheme-reconstruction.md",
+      "anchor": "136Pr：逐线候选图与energy-nearest的失败",
+      "summary": "新增44check逐线候选图、energy-only唯一错配与parent窗错拒Q1，不给真配对/新线数。",
+      "sources": [
+        {
+          "path": "knowledge/sources/lv-2025-136pr-tac-covariant-density-functional.md",
+          "locator": "LV25-28"
+        },
+        {
+          "path": "knowledge/sources/nndc-2018-136pr-selected-level-gamma-records.md",
+          "locator": "N136-1"
+        },
+        {
+          "path": "knowledge/sources/nndc-2018-136pr-selected-level-gamma-records.md",
+          "locator": "N136-4"
+        },
+        {
+          "path": "knowledge/sources/lv-2025-136pr-tac-covariant-density-functional.md",
+          "locator": "LV25-16"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/projects/a130-thesis-evidence-matrix.md",
+      "anchor": "136Pr transitionidentity：候选唯一不等物理唯一",
+      "summary": "矩阵增加candidateidentity充分性与coverage契约，源定位一一回链。",
+      "sources": [
+        {
+          "path": "knowledge/sources/lv-2025-136pr-tac-covariant-density-functional.md",
+          "locator": "LV25-28"
+        },
+        {
+          "path": "knowledge/sources/nndc-2018-136pr-selected-level-gamma-records.md",
+          "locator": "N136-1"
+        },
+        {
+          "path": "knowledge/sources/nndc-2018-136pr-selected-level-gamma-records.md",
+          "locator": "N136-4"
+        }
+      ]
     }
   ]
 }
@@ -1696,3 +1774,8 @@ wiki_lint --fail-on error实际exit0，0errors/131warnings（107citationkey、21
 ### Checkpoint018 延期研究验收
 
 2026-10-15T16:13:04.021420+08:00，44项flow/parser checks全true/exit0；report/card/writeback valid（50items/20changedpages）；新LV25-27/N136-9已parse true，旧rows/review/raw/protected/AST/diff保持。wiki_lint --fail-on error实际exit0、0errors131warnings（107citekeys、21rawslots、3parser）。前17批Giteepublished，本批稳定main / `Bound DAY14 Pr136 flow and parent-tag identifiability`，actualH3/hash仅receipt。继续同136Pr实际identitycrosswalk，不以本段toy或表完成结束延期时窗。
+
+
+### Checkpoint019 延期研究验收
+
+2026-10-15T16:25:54.308021+08:00：44项candidategraphchecks全true/exit0，report/card/writeback valid（54items/20changedpages）；sourceLV25-28已parse true，旧rows/review/raw/protected/AST/diff保持。wiki_lint --fail-on error实际exit0、0errors131warnings（107citekeys、21rawslots、3parser）。前18批published，本批稳定main / `Audit DAY14 transition candidate graph identity limits`，actualH3/hash仅receipt。仍有延期窗口，下一沿newD3 oldlevel候选作逐line/π证据核验，不以算法单值或卡完成结束窗口。

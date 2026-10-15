@@ -87,3 +87,8 @@ N136-1–8全部needs_review:true，page unreviewed。没有清旧claim标记、
 ### Fixed-column与条件flow补核
 
 [day14_pr136_flow_identifiability.py](../../system/scripts/day14_pr136_flow_identifiability.py)为有限ENSDF L/G列读取器，不宣称完整schema实现：保留首311.7 unplaced、RI LT qualifiers、literalπ/CC/MR/continuations、adopted较弱π与母态RI100。原始对象SHA和新接受稿表行先核，再做44-check的条件flow反例。全部N136-1–9 needs_review true，旧1–8原文/flags保留；source物理取值没有被toy回填。详细可复用认识见[[level-scheme-reconstruction]]“136Pr：相对强度、缺失分支与独立母态标签”。
+
+
+### 旧记录到新表的候选scope
+
+本reaction对象提取136条primaryG，其中1条311.7在首L前为unplaced，135条用于有parent的候选图；这是本次parser对这个对象的记录数，非1996原文报告的全部γ数。[[lv-2025-136pr-tac-covariant-density-functional]] LV25-28的新表156行与旧对象范围不同，差21不能称新发现数。详见[[level-scheme-reconstruction]]“136Pr：逐线候选图与energy-nearest的失败”，保持N136-1/4/7的cut、私信/评价与placement边界。

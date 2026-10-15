@@ -29,3 +29,10 @@ Free-recoil原预测已完成66-check，不能再按上文旧描述说未formalc
 136通用fixedcolumn subset/44-checkflow已完成，不再按旧段说未写。Canonical“136Pr：相对强度、缺失分支与独立母态标签”、LV25-27/N136-9；同两线检测全分布等价与独立parenttag控制，hiddenloss非experimentallimit。50items20pages，lint0errors131warnings等通过，前17批published；本批subject Bound DAY14 Pr136 flow and parent-tag identifiability。
 
 下一actual全TableI到旧ENSDF transitionidentitycrosswalk，energyalone多候选需保留；source1996primary仍missing。先freezepool/预测，不新卡；193Bi static/time/recoil已局部饱和、实际response/τ/events缺，勿再同toy换数。新截止2026-10-16 16:00，day14/partial15，course仍next14/count13。
+
+
+## 最新checkpoint019
+
+actualTableI156rows/old136G135placed的44-check candidategraph完成，sourceLV25-28true，54items20pages；全scope/spacing/reject/uniqueE错配/Q1变parent边界已canonical，候选不自动定真。前18批published，本批subject Audit DAY14 transition candidate graph identity limits；actualH3/hash见receipt。
+
+下一source-focused D3:5086.3/650.5到old5085.7/650.1是候选，不是自动认证。逐核newband不等allnewlevels/lines、987R2.07的quadrupole与作者E2假设/π锚；先freeze，新source/card不打开。新deadline2026-10-16 16:00、day14/partial15、officialnext14/count13保持。
