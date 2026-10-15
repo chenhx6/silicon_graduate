@@ -582,3 +582,37 @@ Parent窗减少歧义，也可能把真实的source-described reanchoring拒掉�
 [44-check候选图](../../outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/pr136-transition-candidates.json)保存全部156表行、1.5keV候选边、旧节点degree、四组窗口、spaced-parent修正和Q1source-guided候选。Checks覆盖hash、全row/reject/limit、scope守恒、parentfilter子集、unique-energy错配、旧unplaced排除、Q1 bandA标记与parent变化。没有将某个maximum matching当真实对照，也不以候选数作为论文新线数量或独立实验数。
 
 决定supports先建立带source locator的候选图再定向核identity，limits energynearest/固定parent窗/算法唯一性升级为物理唯一性。未改任何旧/新γ、Jπ、配置或模式，1996primary与实际逐门data仍缺；最高信息续路是所列具体冲突的图/表/旁路，而非再调窗口求出“好看”的匹配数。
+
+
+## 136Pr D3：新带、旧态候选与宇称handle
+
+[[nndc-2018-136pr-selected-level-gamma-records]] N136-10实际保存5085.7(6)(18)、650.1(2) D到4435.6；adopted5085.6(6)(18)同γ、每parentRI100，无bandflag。[[lv-2025-136pr-tac-covariant-density-functional]] LV25-29给新D3的5086.3(9)18+、650.5(5)到D2 4435.8 17+。近parent/γ和相近下端提供**源引导候选关联**；在旧primary/新门数据不足时不自动认证同一physicalstate。但“新D3band”一词也不能直接推出每条γ、每个level都首次发现，novelty必须说明是line、placement、band归类还是新性质。
+
+### 新分支补上哪些证据
+
+新source的相关子图如下；整数/小数节点与γ差不要求精确相等，均为作者的联合放置，不是本任务新测量。
+
+```mermaid
+graph TD
+  A["D3 · 5086.3 · 18+"] -->|"334.4 · M1+E2"| B["D3 · 4751.8 · 17+"]
+  B -->|"653.0 · M栏空"| D["D2 · 4098.9 · 16+"]
+  A -->|"650.5 · M1+E2"| C["D2 · 4435.8 · 17+"]
+  C -->|"336.7 · M栏空"| D
+  A -->|"987.0 · 作者E2"| D
+```
+
+打印数值有`334.4+653.0−987.0=.4keV`、`650.5+336.7−987.0=.2keV`的闭合控制；源逐线误差/共享Σ仍须保留，未再将其算成独立实验或新χ²判决。334.4在别的D5母态也存在，不能把新D3这条与旧2779-keV母态334.2混成同identity。上述987 link接已知D2锚点，是比再算一遍相同能量sum更有信息的电磁/π handle。
+
+### R_DCO、E2与π不压成一个无条件事实
+
+LV25-29的987.0 R_DCO=2.07(14)、d类dipolegate，符合该程序的stretchedquadrupole参考；**electric E2 label**与D3 positiveπ是作者全图赋值。SecII明确在带内dipole/quadrupole和若干竞争link中采用M1+E2/E2假设。TableI未列该987独立POL结果，因此按“实报角比→quadrupole handle→作者E2策略/已知D2π锚→source-level jointπ assignment”保存，不能把R裸数升格为单独electric character测量，也不凭本审计宣称作者assignment错误。
+
+这与Q1的875.6弱link完全缺定性π证据不是同一个具体case：它们有不同锚/分支/假设链，不能一律强度化或一律否定。以后若需要独立electric/magnetic裁决，仍回到逐线POL/转换/寿命与完整选择规则输入；本任务未提供这些新数据。
+
+LV25-30的660.4对应15+→15+、M1+E2、R=.82(24)，并非默认purestretchedΔJ1。前述同rank/type **pure stretched** angular-order no-go的premise不能自动移给所有D3 transitions；653的M/R空栏也不能因同band填满。旧R6501.37(23)和新R650.97(26)来自不同array/门合同，不计算一个无条件“两个实验不相容”σ数。
+
+### 验证与认识修订
+
+[13项source审计](../../outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/pr136-d3-source-audit.json)复用actualPDF/对象SHA和已提取行，核两版本literalparent/γ/M、旧空bandflag/无π、新987门label与SecII假设、653空栏/660ΔJ0、精确Fraction闭合。它是范围明确的证据审计，不是独立fit、全局identity证明或新的实验。
+
+决定revises“newband=allnewlevels”和“DCO的Q数字=直接电性”的捷径，supports明确中间placement/π锚与source假设。原reportedlabels、全部needs_review和模式竞争保持；实际events/response/Σ、旧primary与必要逐线POL仍缺，不升级为L4或人审事实。

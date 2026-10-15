@@ -63,6 +63,7 @@ E. A. McCutchan, *Nuclear Data Sheets for A=136*, NDS152,331–667(2018)，DOI[1
 | N136-7 | 首条311.7G在第一个L前，原文另称doublet在1996Table1未放置但Fig1画到351.9；不能让parser把首G错挂0level或把编者图表冲突修成已定identity。 | evaluator-placement-boundary | direct | 136059003 lines37–38; lines67–74 | true |
 | N136-8 | 1996Pe12对应Petrache等NPA603,50–76 DOI10.1016/0375-9474(96)00107-8，metadata已核；OA无文件、arXiv连接拒绝、Semantic429、Scholar失败、Padua403，未得primary。2025转述/2018评价不能代替原文或认证重排原因。 | primary-readiness-boundary | metadata-and-boundary | Day14 petrache96-metadata/openalex-doi/padua/downloader-boundary receipts | true |
 | N136-9 | Reaction旧链L3677.7的G262.9 RI25.7(5)，L3414.8的G404.9 RI27.6(3)，CC/MR均空。ADOPTED对应各母态独支路都重标RI100。原评价未提供这对γ完整efficiency/gate ledger或Cov，不能从parent100重标恢复跨母态flow。 | evaluated-relative-intensity-and-missing-input | direct | 136059003 lines251/257; 136059001 lines533/541 | true |
+| N136-10 | Reaction有未标band的5085.7(6)(18)态，G650.1(2) RI7.7(7)、M=D，R_DCO1.37(23) dipole gated，到4435.6的能量差闭合。ADOPTED5085.6(6)(18)也给650.1 D且RI100。它是与2025 D3的5086.3/650.5作比较的旧记录候选，不独立证明同一物理态或新band中所有态皆新。 | evaluated-old-level-and-candidate-boundary | direct | 136059003 lines332–334; 136059001 lines652–655 | true |
 
 ## Competing Interpretations and Limitations
 

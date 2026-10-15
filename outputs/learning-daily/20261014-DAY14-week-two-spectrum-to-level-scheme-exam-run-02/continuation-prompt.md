@@ -36,3 +36,15 @@ Free-recoil原预测已完成66-check，不能再按上文旧描述说未formalc
 actualTableI156rows/old136G135placed的44-check candidategraph完成，sourceLV25-28true，54items20pages；全scope/spacing/reject/uniqueE错配/Q1变parent边界已canonical，候选不自动定真。前18批published，本批subject Audit DAY14 transition candidate graph identity limits；actualH3/hash见receipt。
 
 下一source-focused D3:5086.3/650.5到old5085.7/650.1是候选，不是自动认证。逐核newband不等allnewlevels/lines、987R2.07的quadrupole与作者E2假设/π锚；先freeze，新source/card不打开。新deadline2026-10-16 16:00、day14/partial15、officialnext14/count13保持。
+
+
+## 最新checkpoint020
+
+13sourcechecks/D3 novelty+π契约完成，LV25-29/30/N136-10；newband不等allnewlevels，987quadrupole/作者E2假设/jointπ分层，旧650 candidate非认证、660ΔJ0/653空栏保持。58items20pages，lint0errors131warnings/oldrows/raw/protected等通过。前19批published，本批subject Clarify DAY14 D3 band novelty and parity evidence，actualH3/hash看receipt。
+
+下一pr136-strength-before-calculation.md已freeze，D4 sameparent conditionalB(M1)/B(E2)原表→Fig9检验，先找既有rate公式/单位和实际横轴，不猜κ或给source未说明的δ0；D6limits不当双侧点。尚未计算；原文/脚本定位请先rg --files，不按想当然路径。新截止2026-10-16 16:00，day14/partial15，course仍next14/count13；继续高信息当前两槽不提前credit。
+
+
+## 最后生效的时间边界
+
+用户最终交付截止2026-10-16 16:00上海，overnight_until保留该硬终点。planned_research_cutoff_at=2026-10-16 15:00，预留15:00–16:00完成closeout，不延至17:00；上文旧16:00–17:00计划已覆盖。时间门使用研究cutoff15:00决定是否开source，16:00前完成交付/checks/state/H3。当前研究仍active，Day14/partial15和官方信用不变。

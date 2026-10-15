@@ -15,7 +15,7 @@ updated: 2026-10-15
 - schedule_id: `wiki-daily-learning`；run_kind: `substantive / weekly-learning`
 - session_id: `01a13a0e-e8bd-7251-b970-f6975679e281`
 - resume_command: `codex resume 01a13a0e-e8bd-7251-b970-f6975679e281 -C /workspace/wiki -s danger-full-access -a never`
-- overnight_until: `2026-10-16T16:00:00+08:00`；用户因断网明确延长至次日16:00，之后16:00–17:00收束。原截止`2026-10-15T15:00:00+08:00`保留为历史。
+- overnight_until: `2026-10-16T16:00:00+08:00`；用户因断网明确延长至次日16:00最终交付；预留15:00–16:00收束，不延到17:00。原截止`2026-10-15T15:00:00+08:00`保留为历史。
 - research_status: active-user-extended；15:37曾按原截止转closeout，15:45用户明确加时并恢复，当前截止2026-10-16 16:00上海。中间未观察时段不补造研究。
 - completed_day_indices: [14]
 - partial_day_indices: [15]
@@ -197,6 +197,12 @@ checkpoint008实际观察为上海15:37，立即停止新研究；最后已保�
 [预冻结回忆](20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/pr136-identity-before-calculation.md)后，44-check从actualacceptedPDF提取TableI156行、旧reaction136G中135placed；stricttoken漏spaced1552.2(3)问题已修，不补缺欄。|ΔE|≤1.5keV下27/80/49行分别0/1/多candidate，再加自选parent≤2keV变52/104/0；窗口不是confidence，unique不等truth，unmatched不等新线。
 
 [[level-scheme-reconstruction]]“136Pr：逐线候选图与energy-nearest的失败”固化完整候选图和反例：新D3/D5两334.4都唯一配到旧D5 334.2，611新高/低母态也共用旧能量候选；固定parent窗又会拒掉Q1已报告约1349–1351keV整体reanchor。LV25-28/N136源对象和[[a130-thesis-evidence-matrix]]保存rowcount/coverage和后续精准identity路线；不做无条件配对、不宣布新线总数或选旧新模型。
+
+### 延期sourcecase：D3新band与旧level候选
+
+[13项row/假设审计](20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/pr136-d3-source-audit.json)核新5086.3/650.5、旧5085.7(18)/650.1与各自endpoint；不是自动认证同state，newband也不等allnewlevels。987.0 R2.07(14)d支持quadrupole，E2与positiveπ按SecII额外E2策略/已知D2锚的source-level jointassignment保留，TableI没有该线独立POL列。660.4是15+→15+、653 M/R空，不套purestretched默认。
+
+[[level-scheme-reconstruction]]“136Pr D3：新带、旧态候选与宇称handle”、LV25-29/30、N136-10和[[136pr]]保存小图/源行/两条Fractionclosure/假设链；未作新fit或将sourceassignedπ升为裸DCO直接测量，未称作者错误。
 
 ## Counter-evidence and missing companion observables
 
@@ -1511,6 +1517,74 @@ HE15-9的实际未定双线是核心反例：energy sum、共享R/A和假设的�
           "locator": "N136-4"
         }
       ]
+    },
+    {
+      "knowledge": "knowledge/sources/lv-2025-136pr-tac-covariant-density-functional.md",
+      "anchor": "D3的new-band与旧level候选分层",
+      "summary": "新增D3精确分支与electricassignment假设/ΔJ0/空栏原文边界。",
+      "sources": [
+        {
+          "path": "knowledge/sources/lv-2025-136pr-tac-covariant-density-functional.md",
+          "locator": "LV25-29"
+        },
+        {
+          "path": "knowledge/sources/lv-2025-136pr-tac-covariant-density-functional.md",
+          "locator": "LV25-30"
+        },
+        {
+          "path": "knowledge/sources/nndc-2018-136pr-selected-level-gamma-records.md",
+          "locator": "N136-10"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/sources/nndc-2018-136pr-selected-level-gamma-records.md",
+      "anchor": "N136-10",
+      "summary": "保存旧5085.7/650.1无band无πcandidate，非新stateidentity证明。",
+      "sources": [
+        {
+          "path": "knowledge/sources/nndc-2018-136pr-selected-level-gamma-records.md",
+          "locator": "N136-10"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/methods/level-scheme-reconstruction.md",
+      "anchor": "136Pr D3：新带、旧态候选与宇称handle",
+      "summary": "新增D3旧态候选/新带/987πhandle分层与小图，source13checks非新fit。",
+      "sources": [
+        {
+          "path": "knowledge/sources/lv-2025-136pr-tac-covariant-density-functional.md",
+          "locator": "LV25-29"
+        },
+        {
+          "path": "knowledge/sources/lv-2025-136pr-tac-covariant-density-functional.md",
+          "locator": "LV25-30"
+        },
+        {
+          "path": "knowledge/sources/nndc-2018-136pr-selected-level-gamma-records.md",
+          "locator": "N136-10"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/nuclei/136pr.md",
+      "anchor": "D3 novelty与π的证据层",
+      "summary": "核素入口同步newband/oldlevel候选与作者E2策略条件，不改labels。",
+      "sources": [
+        {
+          "path": "knowledge/sources/lv-2025-136pr-tac-covariant-density-functional.md",
+          "locator": "LV25-29"
+        },
+        {
+          "path": "knowledge/sources/lv-2025-136pr-tac-covariant-density-functional.md",
+          "locator": "LV25-30"
+        },
+        {
+          "path": "knowledge/sources/nndc-2018-136pr-selected-level-gamma-records.md",
+          "locator": "N136-10"
+        }
+      ]
     }
   ]
 }
@@ -1779,3 +1853,13 @@ wiki_lint --fail-on error实际exit0，0errors/131warnings（107citationkey、21
 ### Checkpoint019 延期研究验收
 
 2026-10-15T16:25:54.308021+08:00：44项candidategraphchecks全true/exit0，report/card/writeback valid（54items/20changedpages）；sourceLV25-28已parse true，旧rows/review/raw/protected/AST/diff保持。wiki_lint --fail-on error实际exit0、0errors131warnings（107citekeys、21rawslots、3parser）。前18批published，本批稳定main / `Audit DAY14 transition candidate graph identity limits`，actualH3/hash仅receipt。仍有延期窗口，下一沿newD3 oldlevel候选作逐line/π证据核验，不以算法单值或卡完成结束窗口。
+
+
+### Checkpoint020 延期source验收
+
+2026-10-15T16:37:01.209946+08:00：13项sourcechecks true/exit0，report/card/writeback valid（58items/20changedpages）；newLV25-29/30,N136-10 parsedtrue、oldrows/review/raw/protected/diff保持。wiki_lint --fail-on error实际exit0、0errors131warnings（107citekeys、21rawslots、3parser）。前19批published，本批main / `Clarify DAY14 D3 band novelty and parity evidence`，actualH3/hash仅receipt。仍继续延期窗口，下一sameparent strength/tablefigure核验已freeze，非新卡/absoluteB/L4。
+
+
+### 延期窗口的最终交付边界
+
+用户明确的明日16:00是本次运行最终交付截止；run.overnight_until保留2026-10-16T16:00+08，另以planned_research_cutoff_at=15:00预留最后一小时完成日报、检查、学分对账和发布。旧段曾计划16:00–17:00收束，已由本段和currentreceipt覆盖，不超出用户授权终点。当前研究继续，不提前credit或新session。

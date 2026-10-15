@@ -8,5 +8,9 @@
   "same_run_id": "2026-10-14-day-14-02",
   "same_session_id": "01a13a0e-e8bd-7251-b970-f6975679e281",
   "day_index": 14,
-  "course_credit_change": false
+  "course_credit_change": false,
+  "user_delivery_deadline": "2026-10-16T16:00:00+08:00",
+  "planned_research_cutoff_at": "2026-10-16T15:00:00+08:00",
+  "closeout_window_ends_at": "2026-10-16T16:00:00+08:00",
+  "buffer_note": "Reserve final authorized hour15:00–16:00; user did not authorize delivery until17:00."
 }

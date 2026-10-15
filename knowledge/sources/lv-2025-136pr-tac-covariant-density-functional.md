@@ -94,6 +94,8 @@ The paper combines a new high-statistics JUROGAM II 136Pr level scheme with PC-P
 | LV25-26 | 本接受稿TableI D5为3678.4-keV15+经405.1(1)到3273.3-keV14+，再263.1(2)到3010.2-keV13+；两者表列M1+E2。它与2018评价的263/405先后不同，原文这组表行不给出该差异原因。 | experimental-transition-record-and-boundary | direct | PDF p.7 TableI D5 rows405.1/263.1 | true |
 | LV25-27 | D5的263.1(2)行在3273.3(10)母态，Iγ18.8(7)、R_DCO1.02(9)；405.1(1)行在3678.4(10)母态，Iγ14.9(7)、R_DCO.86(13)，二者M1+E2。此为相对γ强度，不是totaldecay流或completebranch保证。495.4(2)为4173.8→3678.4入口，可作母态tag候选，但逐门净计数未给。 | experimental-relative-intensity-and-parent-identity | direct | PDF p.7 TableI D5 rows263.1/405.1/495.4 | true |
 | LV25-28 | 本acceptedcopy TableI PDF6–9可提取156条Eγ/Ei table rows，D1的1552.2 (3)母态含空格使strict-token规则漏一行。156是本任务表行提取数，不是作者报道的新γ/独立跃迁或完整levelscheme总数；同表重复334.4/200.0/近611/900的身份需逐parent核。 | our-table-extraction-and-identity-boundary | derived | PDF pp.6–9 TableI; D1 row366.7 PDF6; D3/D5 rows334.4 PDF7 | true |
+| LV25-29 | D3的5086.3-keV18+母态经334.4/650.5到不同17+、经987.0到D2 16+；987的R_DCO2.07(14)d支持quadrupole，TableI列E2。SecII明确inband与若干link的E2 assignment含假设；表未给987独立POL列，π须按作者全图/已知锚与该假设的joint assignment记录。 | reported-angular-ratio-and-assignment-conditions | direct | PDF p.7 TableI D3 rows334.4/650.5/987.0; PDF p.3 SecII assignmentparagraph | true |
+| LV25-30 | D3的660.4(4)来自4254.6 15+→D2 15+，R_DCO.82(24)d、M1+E2；653.0(4)的TableI M/R栏为空。前者不是purestretchedΔJ=1默认模型，后者不能由归带直接补实测M。 | experimental-transition-record-and-model-domain | direct | PDF p.7 TableI D3 rows660.4/653.0 | true |
 
 ## Nuclear Structure Information
 
@@ -168,3 +170,8 @@ LV25-27与[[nndc-2018-136pr-selected-level-gamma-records]] N136-9为两次不同
 ### TableI的逐行候选图
 
 LV25-28的156行由[day14_pr136_transition_candidates.py](../../system/scripts/day14_pr136_transition_candidates.py)核actualPDF SHA/四页表行、weaklimit与空栏，44项checks完成。与[[nndc-2018-136pr-selected-level-gamma-records]]旧135条placedγ建立discovery graph，所有keV窗口自选非σ阈值。[[level-scheme-reconstruction]]“136Pr：逐线候选图与energy-nearest的失败”保存完整范围/反例；候选唯一不等身份唯一，零候选不等新发现，不以算法配对覆盖sourcegraph。
+
+
+### D3的new-band与旧level候选分层
+
+LV25-29/30与[[nndc-2018-136pr-selected-level-gamma-records]] N136-10给出同约5086-keV母态/650γ的旧新候选关联；源只把D3叫newband，不凭此将所有levels/lines认证为首次发现。[[level-scheme-reconstruction]]“136Pr D3：新带、旧态候选与宇称handle”保存小图、13项row/assumption自审和条件边界。作者的E2/positiveπ标签保持为原reportedassignment，不把R2.07当独立测到electric character，也不反向改成作者赋值错误。

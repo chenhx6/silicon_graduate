@@ -1,0 +1,91 @@
+{
+  "report": {
+    "valid": true,
+    "missing_headings": []
+  },
+  "coverage": {
+    "valid": true,
+    "completed_day_indices": [
+      14
+    ],
+    "partial_day_indices": [
+      15
+    ],
+    "curriculum_cards_completed": 1,
+    "next_day_index": 15,
+    "error": null
+  },
+  "writeback": {
+    "valid": true,
+    "mode": "updated",
+    "knowledge_paths": [
+      "knowledge/sources/herzan-2015-193bi-spectroscopy.md",
+      "knowledge/methods/level-scheme-reconstruction.md",
+      "knowledge/projects/a130-thesis-evidence-matrix.md",
+      "knowledge/sources/nndc-2017-193bi-level-scheme-evaluation.md",
+      "knowledge/index.md",
+      "knowledge/methods/linear-polarization-asymmetry.md",
+      "knowledge/sources/rose-brink-1967-phase-defined-angular-distributions.md",
+      "knowledge/sources/zheng-2002-ado-coincidence-angular-anisotropy.md",
+      "knowledge/methods/angular-distribution.md",
+      "knowledge/methods/angular-correlation.md",
+      "knowledge/sources/zobel-1983-energy-projectile-alignment.md",
+      "knowledge/observables/angular-distribution-coefficient.md",
+      "knowledge/sources/zobel-1980-magnetic-substate-distributions.md",
+      "knowledge/sources/nndc-2005-67ga-selected-level-gamma-records.md",
+      "knowledge/sources/lange-kumar-hamilton-1982-multipole-admixtures.md",
+      "knowledge/sources/kibedi-2008-evaluation-theoretical-conversion-coefficients-bricc.md",
+      "knowledge/sources/lv-2025-136pr-tac-covariant-density-functional.md",
+      "knowledge/nuclei/136pr.md",
+      "knowledge/sources/lv-2019-chirality-135nd-reexamined.md",
+      "knowledge/experiments/jurogam2-135nd-ar40-152mev.md",
+      "knowledge/sources/nndc-2018-136pr-selected-level-gamma-records.md"
+    ],
+    "changed_paths": [
+      "knowledge/experiments/jurogam2-135nd-ar40-152mev.md",
+      "knowledge/index.md",
+      "knowledge/methods/angular-correlation.md",
+      "knowledge/methods/angular-distribution.md",
+      "knowledge/methods/level-scheme-reconstruction.md",
+      "knowledge/methods/linear-polarization-asymmetry.md",
+      "knowledge/nuclei/136pr.md",
+      "knowledge/observables/angular-distribution-coefficient.md",
+      "knowledge/projects/a130-thesis-evidence-matrix.md",
+      "knowledge/sources/herzan-2015-193bi-spectroscopy.md",
+      "knowledge/sources/kibedi-2008-evaluation-theoretical-conversion-coefficients-bricc.md",
+      "knowledge/sources/lv-2019-chirality-135nd-reexamined.md",
+      "knowledge/sources/lv-2025-136pr-tac-covariant-density-functional.md",
+      "knowledge/sources/nndc-2005-67ga-selected-level-gamma-records.md",
+      "knowledge/sources/nndc-2017-193bi-level-scheme-evaluation.md",
+      "knowledge/sources/nndc-2018-136pr-selected-level-gamma-records.md",
+      "knowledge/sources/rose-brink-1967-phase-defined-angular-distributions.md",
+      "knowledge/sources/zheng-2002-ado-coincidence-angular-anisotropy.md",
+      "knowledge/sources/zobel-1980-magnetic-substate-distributions.md",
+      "knowledge/sources/zobel-1983-energy-projectile-alignment.md"
+    ],
+    "change_check": "run-snapshot",
+    "error": null
+  },
+  "source_audit_exit_code": 0,
+  "source_audit_checks": 13,
+  "source_audit_all_true": true,
+  "lv-2025-136pr-tac-covariant-density-functional_claim_count": 30,
+  "lv-2025-136pr-tac-covariant-density-functional_old_rows_review_unchanged": true,
+  "nndc-2018-136pr-selected-level-gamma-records_claim_count": 10,
+  "nndc-2018-136pr-selected-level-gamma-records_old_rows_review_unchanged": true,
+  "protected_hashes": {
+    "PLAN.md": true,
+    "raw/zotero/wiki-inbox.bib": true
+  },
+  "raw_metadata_unchanged": true,
+  "lint_exit_code": 0,
+  "lint_errors": 0,
+  "lint_warnings": 131,
+  "warning_breakdown": {
+    "CITATION_KEY_MISSING": 107,
+    "RAW_MISSING": 21,
+    "REACTION_PARSE": 3
+  },
+  "git_diff_check_exit_code": 0,
+  "at": "2026-10-15T16:34:59.648145+08:00"
+}
