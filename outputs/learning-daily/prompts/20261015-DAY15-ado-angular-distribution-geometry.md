@@ -283,3 +283,6 @@ Day14 partial15另补4个actualANU Z31 FO theoryICC与32-checkforward/offlinerep
 
 
 Day14 partial15另有42-check gated-design：真实67Ga spinpath加声明40/90/参考门（非NORDBALL）给不同positiveP范围，B模型不能硬fit1.45。即使exactsingleα2=α4=0、两个photonangularmode marginals完全同，jointR仍可.98017–1.02514；unknownf/互反/共同events边界保存。正式Day15需标priming，不能以sourceDCO数值推未取得的gate/geometry或把singlecal当fulljoint。
+
+
+Day14 continuity另外做91-check能量—时间定序模型和独立prompt设计。r²/r⁶/未知响应尾属于声明条件推导，不是193Bi新τ或次序；formalDay15只需标相关priming，不代替自身ADO卡/回忆，也不计本次预习为正式学分。

@@ -1,0 +1,374 @@
+{
+  "model": "declared classical matched-pair energy/time mixture",
+  "evidence": {
+    "source": "knowledge/sources/herzan-2015-193bi-spectroscopy.md",
+    "locator": "HE15-9",
+    "gap_keV_nominal": 0.6,
+    "actual_middle_tau": null,
+    "actual_sigma_E": null,
+    "actual_sigma_t": null,
+    "actual_timewalk_response": null
+  },
+  "chosen": {
+    "sigma_E_keV": 0.8,
+    "a": 0.5303300858899105,
+    "sigma_t_definition": "SD of time DIFFERENCE noise",
+    "r_definition": "mean_middle_delay/sigma_t",
+    "offset_definition": "energy-specific lag / sigma_t"
+  },
+  "divergence_definition": "J=(KL(p||q)+KL(q||p))/2; nats; not power or p-value",
+  "overlap_information": 0.22477410646347068,
+  "table": [
+    {
+      "r_chosen": 0.03,
+      "calibrated": {
+        "grid": {
+          "J": 0.0004040273528098374,
+          "norm_p": 0.9999999999999678,
+          "norm_q": 0.9999999999999677,
+          "nx": 140,
+          "ny": 900,
+          "tail": 45.0,
+          "xmax": 9.530330085889911,
+          "ymax": 10.35
+        },
+        "expectation_n42": 0.00040402735281005596,
+        "expectation_n68": 0.0004040273528098506
+      },
+      "mean_matched": {
+        "grid": {
+          "J": 2.198237438775654e-10,
+          "norm_p": 0.9999999999999678,
+          "norm_q": 0.9999999999999678,
+          "nx": 140,
+          "ny": 900,
+          "tail": 45.0,
+          "xmax": 9.530330085889911,
+          "ymax": 10.41
+        },
+        "expectation_n42": 2.198237438777923e-10,
+        "expectation_n68": 2.1982374387759765e-10
+      }
+    },
+    {
+      "r_chosen": 0.05,
+      "calibrated": {
+        "grid": {
+          "J": 0.001119516125091371,
+          "norm_p": 0.9999999999999676,
+          "norm_q": 0.9999999999999676,
+          "nx": 140,
+          "ny": 900,
+          "tail": 45.0,
+          "xmax": 9.530330085889911,
+          "ymax": 11.25
+        },
+        "expectation_n42": 0.0011195161250919213,
+        "expectation_n68": 0.0011195161250914052
+      },
+      "mean_matched": {
+        "grid": {
+          "J": 4.7614474226459295e-09,
+          "norm_p": 0.9999999999999676,
+          "norm_q": 0.9999999999999676,
+          "nx": 140,
+          "ny": 900,
+          "tail": 45.0,
+          "xmax": 9.530330085889911,
+          "ymax": 11.35
+        },
+        "expectation_n42": 4.761447422645094e-09,
+        "expectation_n68": 4.761447422644914e-09
+      }
+    },
+    {
+      "r_chosen": 0.1,
+      "calibrated": {
+        "grid": {
+          "J": 0.0044267708079006665,
+          "norm_p": 0.9999999999999676,
+          "norm_q": 0.9999999999999676,
+          "nx": 140,
+          "ny": 900,
+          "tail": 45.0,
+          "xmax": 9.530330085889911,
+          "ymax": 13.5
+        },
+        "expectation_n42": 0.004426770807902219,
+        "expectation_n68": 0.004426770807900802
+      },
+      "mean_matched": {
+        "grid": {
+          "J": 3.182852692341899e-07,
+          "norm_p": 0.9999999999999676,
+          "norm_q": 0.9999999999999678,
+          "nx": 140,
+          "ny": 900,
+          "tail": 45.0,
+          "xmax": 9.530330085889911,
+          "ymax": 13.7
+        },
+        "expectation_n42": 3.1828526923422787e-07,
+        "expectation_n68": 3.1828526923417726e-07
+      }
+    },
+    {
+      "r_chosen": 0.3,
+      "calibrated": {
+        "grid": {
+          "J": 0.035559670356412956,
+          "norm_p": 0.9999999999999676,
+          "norm_q": 0.9999999999999677,
+          "nx": 140,
+          "ny": 900,
+          "tail": 45.0,
+          "xmax": 9.530330085889911,
+          "ymax": 22.5
+        },
+        "expectation_n42": 0.035559670356418244,
+        "expectation_n68": 0.03555967035641404
+      },
+      "mean_matched": {
+        "grid": {
+          "J": 0.00025608492680595236,
+          "norm_p": 0.9999999999999678,
+          "norm_q": 0.9999999999999678,
+          "nx": 140,
+          "ny": 900,
+          "tail": 45.0,
+          "xmax": 9.530330085889911,
+          "ymax": 23.1
+        },
+        "expectation_n42": 0.00025608492680621935,
+        "expectation_n68": 0.0002560849268059606
+      }
+    },
+    {
+      "r_chosen": 1.0,
+      "calibrated": {
+        "grid": {
+          "J": 0.1897391041577155,
+          "norm_p": 0.9999999999999676,
+          "norm_q": 0.9999999999999677,
+          "nx": 140,
+          "ny": 900,
+          "tail": 45.0,
+          "xmax": 9.530330085889911,
+          "ymax": 54.0
+        },
+        "expectation_n42": 0.18973910415780876,
+        "expectation_n68": 0.1897391041577211
+      },
+      "mean_matched": {
+        "grid": {
+          "J": 0.05212787345573515,
+          "norm_p": 0.9999999999999678,
+          "norm_q": 0.9999999999999678,
+          "nx": 140,
+          "ny": 900,
+          "tail": 45.0,
+          "xmax": 9.530330085889911,
+          "ymax": 56.0
+        },
+        "expectation_n42": 0.05212787363971548,
+        "expectation_n68": 0.05212787345562649
+      }
+    }
+  ],
+  "small_r": {
+    "r": 0.01,
+    "J_cal": 4.4947822532208335e-05,
+    "J_matched": 2.99905257086372e-13,
+    "cal_leading": 4.4954821292694135e-05,
+    "matched_leading": 2.9969880861796096e-13
+  },
+  "moments_r03": [
+    [
+      0.3,
+      1.18,
+      1.0619999999999998,
+      4.274399999999999
+    ],
+    [
+      0.30000000000000016,
+      1.1800000000000008,
+      0.9540000000000004,
+      4.1448
+    ]
+  ],
+  "zero_a_matched": {
+    "J": 3.474090658897207e-12,
+    "r8_ratio": 0.9928242623734591
+  },
+  "response_counterexample": "Full labelled arrivals iid exGaussian under either order when a distinct uncalibrated prompt electronics tail swaps energy labels; no actual-response assertion.",
+  "local_prompt_calibration_design": [
+    {
+      "target_N_chosen": 100000,
+      "prompt_M_chosen": 0,
+      "I_prompt_chosen": 0.22477410646347068,
+      "F": [
+        [
+          22477.410646347067,
+          22477.410646347067
+        ],
+        [
+          22477.410646347067,
+          22477.410646347067
+        ]
+      ],
+      "signed_mean_profile_information": 0.0,
+      "fraction_of_known_offset": 0.0
+    },
+    {
+      "target_N_chosen": 100000,
+      "prompt_M_chosen": 1000,
+      "I_prompt_chosen": 0.22477410646347068,
+      "F": [
+        [
+          22477.410646347067,
+          22477.410646347067
+        ],
+        [
+          22477.410646347067,
+          22702.18475281054
+        ]
+      ],
+      "signed_mean_profile_information": 222.54862026086204,
+      "fraction_of_known_offset": 0.009900990099009901
+    },
+    {
+      "target_N_chosen": 100000,
+      "prompt_M_chosen": 100000,
+      "I_prompt_chosen": 0.22477410646347068,
+      "F": [
+        [
+          22477.410646347067,
+          22477.410646347067
+        ],
+        [
+          22477.410646347067,
+          44954.821292694134
+        ]
+      ],
+      "signed_mean_profile_information": 11238.705323173534,
+      "fraction_of_known_offset": 0.5
+    },
+    {
+      "target_N_chosen": 100000,
+      "prompt_M_chosen": 10000000,
+      "I_prompt_chosen": 0.22477410646347068,
+      "F": [
+        [
+          22477.410646347067,
+          22477.410646347067
+        ],
+        [
+          22477.410646347067,
+          2270218.4752810537
+        ]
+      ],
+      "signed_mean_profile_information": 22254.862026086208,
+      "fraction_of_known_offset": 0.9900990099009902
+    }
+  ],
+  "local_design_boundary": "At signed nuclear mean and offset zero only. A first-order information limit, not a ceiling on full finite-r shape information or a p-value.",
+  "boundaries": [
+    "mean-matched offset is NOT profiled optimum",
+    "factorized Gaussian energy/time responses and equal label acceptance are chosen",
+    "no actual 193Bi order/lifetime/significance or experimental L4 replay"
+  ],
+  "checks": {
+    "actual_nominal_gap_only_not_centroid_uncertainty_as_resolution": true,
+    "dimensionless_energy_contrast": true,
+    "overlap_information_between_zero_one": true,
+    "energy_unresolved_information_zero": true,
+    "energy_resolved_information_limit": true,
+    "stable_density_scipy_independent_r0.03": true,
+    "exgaussian_full_domain_norm_r0.03": true,
+    "stable_density_scipy_independent_r0.1": true,
+    "exgaussian_full_domain_norm_r0.1": true,
+    "stable_density_scipy_independent_r1.0": true,
+    "exgaussian_full_domain_norm_r1.0": true,
+    "zero_lifetime_both_orders_equal": true,
+    "zero_energy_contrast_known_prompt_order_equal": true,
+    "time_reversal_swaps_known_calibrated_orders": true,
+    "simultaneous_detector_relabelling_symmetry": true,
+    "time_only_known_prompt_marginal_identical": true,
+    "energy_only_marginal_unchanged_and_normalized": true,
+    "calibrated_norm_r0.03": true,
+    "calibrated_box_and_nodes_convergence_r0.03": true,
+    "calibrated_independent_expectation_convergence_r0.03": true,
+    "calibrated_independent_route_agreement_r0.03": true,
+    "mean_matched_norm_r0.03": true,
+    "mean_matched_box_and_nodes_convergence_r0.03": true,
+    "mean_matched_independent_expectation_convergence_r0.03": true,
+    "mean_matched_independent_route_agreement_r0.03": true,
+    "mean_matching_reduces_information_in_chosen_case_r0.03": true,
+    "calibrated_norm_r0.05": true,
+    "calibrated_box_and_nodes_convergence_r0.05": true,
+    "calibrated_independent_expectation_convergence_r0.05": true,
+    "calibrated_independent_route_agreement_r0.05": true,
+    "mean_matched_norm_r0.05": true,
+    "mean_matched_box_and_nodes_convergence_r0.05": true,
+    "mean_matched_independent_expectation_convergence_r0.05": true,
+    "mean_matched_independent_route_agreement_r0.05": true,
+    "mean_matching_reduces_information_in_chosen_case_r0.05": true,
+    "calibrated_norm_r0.1": true,
+    "calibrated_box_and_nodes_convergence_r0.1": true,
+    "calibrated_independent_expectation_convergence_r0.1": true,
+    "calibrated_independent_route_agreement_r0.1": true,
+    "mean_matched_norm_r0.1": true,
+    "mean_matched_box_and_nodes_convergence_r0.1": true,
+    "mean_matched_independent_expectation_convergence_r0.1": true,
+    "mean_matched_independent_route_agreement_r0.1": true,
+    "mean_matching_reduces_information_in_chosen_case_r0.1": true,
+    "calibrated_norm_r0.3": true,
+    "calibrated_box_and_nodes_convergence_r0.3": true,
+    "calibrated_independent_expectation_convergence_r0.3": true,
+    "calibrated_independent_route_agreement_r0.3": true,
+    "mean_matched_norm_r0.3": true,
+    "mean_matched_box_and_nodes_convergence_r0.3": true,
+    "mean_matched_independent_expectation_convergence_r0.3": true,
+    "mean_matched_independent_route_agreement_r0.3": true,
+    "mean_matching_reduces_information_in_chosen_case_r0.3": true,
+    "calibrated_norm_r1.0": true,
+    "calibrated_box_and_nodes_convergence_r1.0": true,
+    "calibrated_independent_expectation_convergence_r1.0": true,
+    "calibrated_independent_route_agreement_r1.0": true,
+    "mean_matched_norm_r1.0": true,
+    "mean_matched_box_and_nodes_convergence_r1.0": true,
+    "mean_matched_independent_expectation_convergence_r1.0": true,
+    "mean_matched_independent_route_agreement_r1.0": true,
+    "mean_matching_reduces_information_in_chosen_case_r1.0": true,
+    "small_r_calibrated_2r2I": true,
+    "small_r_mean_matched_4over3_r6I": true,
+    "Hermite3_orthogonal_norm_six": true,
+    "offset2r_matches_mean_variance": true,
+    "third_conditional_raw_moment_difference_4r3": true,
+    "fourth_time_only_raw_moment_difference_16r4": true,
+    "mean_matching_not_full_density_matching": true,
+    "zero_a_mean_matched_can_retain_time_only_r8_information": true,
+    "zero_a_meanmatched_small_r8_control": true,
+    "positive_electronics_tail_exact_full_arrival_characteristic": true,
+    "confounded_response_characteristic_normalized": true,
+    "confounding_uses_different_energy_specific_response_not_known_prompt": true,
+    "local_signed_delay_score_Ty": true,
+    "local_offset_score_same_Ty": true,
+    "third_shape_score_orthogonal_to_offset": true,
+    "local_calibration_Schur_M0": true,
+    "local_calibration_PSD_M0": true,
+    "local_information_bounded_by_calibration_M0": true,
+    "local_calibration_Schur_M1000": true,
+    "local_calibration_PSD_M1000": true,
+    "local_information_bounded_by_calibration_M1000": true,
+    "local_calibration_Schur_M100000": true,
+    "local_calibration_PSD_M100000": true,
+    "local_information_bounded_by_calibration_M100000": true,
+    "local_calibration_Schur_M10000000": true,
+    "local_calibration_PSD_M10000000": true,
+    "local_information_bounded_by_calibration_M10000000": true,
+    "no_prompt_calibration_first_order_rank_one": true,
+    "independent_prompt_adds_second_score_direction": true
+  },
+  "checks_passed": 91
+}

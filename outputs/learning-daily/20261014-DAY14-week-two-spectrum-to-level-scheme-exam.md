@@ -158,6 +158,12 @@ Z83-11的958.0-keV同parent Table1完整十行已upright视觉转录：[fixture]
 
 代码 `system/scripts/day14_angular_fit_covariance_design.py` 实际exit0，[26项结果](20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/angular-fit-covariance-design.json)通过。完整X/J/GLS/Fisher/Schur、矩阵/variance/条件写在[[angular-distribution]]“角采样与归一化下的Cov可识别性”，Z83-15为新needs_review:true。决定limits从marginalerrors+geometry反推actualjoint判断，supports保存fitparameterization/weights/shared-normalization；没有实验significance、新sigma/I或新line assignment，Day15仍partial。
 
+### 393/394双线的energy-time设计：标定决定可识别性
+
+已冻结的[计算前回忆](20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/doublet-time-before-calculation.md)后完成[91-check模型](20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/doublet-time-identifiability.json)。HE15-9只提供名义gap.6keV；σE=.8keV及全部r/response均chosen，不借HE15-12 bandheadτ。Known symmetric prompt下energy/time两个marginals分别相同，joint可不同；a0或r0退化。半Jeffreys小r为2r²I(a)，允许offset2r匹配前两阶矩后变为(4/3)r⁶I(a)，不是bestfit profile或实验功效。r=.1的J由.00442677变为3.18285e−7。a0的后者仍有r⁸ time-only项，保留对过度概括的反证。
+
+Canonical [[level-scheme-reconstruction]]“近邻双线的能量—时间可识别性与响应混淆”保存全公式、表和独立积分收敛。另给非负electronics-tail反例：两种order将独立同分布核delay/仪器delay交换能量标签，可得完全相同到达时刻joint；这是未知energy-specific response的nuisance ambiguity，不是knownresponse下的no-go或真实仪器判断。局部signed核delay/offset的score共线；自设独立prompt样本补第二行信息，Schur式NI×MIcal/(NI+MIcal)量化一阶边界，而非fullshape上限。最小新增输入为独立逐能量/逐detector prompt/timewalk/tails、实际middleτ或定位branch、events/接受度/Σ。supports joint信息、limits加时间标签即定序，未赋193Bi实际order或新spin。
+
 ## Counter-evidence and missing companion observables
 
 HE15-9的实际未定双线是核心反例：energy sum、共享R/A和假设的ΔI=2均不足以裁决order。若一条线出现可独立定位的旁路或延迟顺序，应重审中间level；source仍保留括号Jπ与(E2)。HE15-5的quadruplet限制“一个峰是一条γ”的简化；干净622.4直接分支门与323.4级联门的299-keVcomponent差异可能迫使拆峰，但必须控制622/626门纯度、feeding、response和random。
@@ -1040,6 +1046,21 @@ HE15-9的实际未定双线是核心反例：energy sum、共享R/A和假设的�
           "locator": "RB67-26"
         }
       ]
+    },
+    {
+      "knowledge": "knowledge/methods/level-scheme-reconstruction.md",
+      "summary": "新增双线energy-time条件模型、r²/r⁶/r⁸信息阶、独立积分及未知非负响应尾精确反例；不是actual order fit。",
+      "anchor": "近邻双线的能量—时间可识别性与响应混淆",
+      "sources": [
+        {
+          "path": "knowledge/sources/herzan-2015-193bi-spectroscopy.md",
+          "locator": "HE15-9"
+        },
+        {
+          "path": "knowledge/sources/herzan-2015-193bi-spectroscopy.md",
+          "locator": "HE15-12"
+        }
+      ]
     }
   ]
 }
@@ -1258,3 +1279,10 @@ Ref5原9页与23-check Appendix均完成；report/card/writeback valid（23items
 42-check chosen40/90真实spinpath前向设计、失败预测/范围、LP/duality/rationalmoments/fullsinglephotonangularmarginals与互反均通过；report/card/writeback valid（33items/15changedpages），AST/保护哈希/raw metadata/原review/diff通过。wiki_lint --fail-on error exit0，0errors/130warnings（107citation-key/20rawslots/3parser），N67-9实际parsedtrue。代码仅声明模型，无原experimentalgate/ρ/Cov/pvalue重构。
 
 恢复[checkpoint013](20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/checkpoint-013.md)，本批main / `Test DAY14 gated response beyond single-gamma calibration`，actualH3/hash只receipt。全Wikiquestions/pool/recentfingerprint/Day15精确卡已复核，Day15worksheet/convention有产物仍只partial。下一继续193Bi原order问题的jointenergy-time与独立responsecalibration设计，.6keV名义gap之外全σ/τ为chosen，不借其他parent时间、不赋新order。Research仍active，原15:00cutoff不改。
+
+
+### Checkpoint014：actualclock ACK与时间模型验收
+
+同run/session的checkpoint005在10:25实际收到并ACK（queued04:56不能当实际研究时刻）。本段91-check exit0，report/card/writeback valid（唯一34items/15changedpages），rawmetadata/protected/原source字节/AST和git diff --check通过。Freshlint实际exit0、0errors130warnings（107citekey、20rawslots、3parser）；local-score初h失败/稳定Richardson修正记录在run，未用旧74检查验收扩展。Nativeget_goal实测historicalblocked而任务有可执行工作，按用户同session续学推进research，不伪造goalactive。
+
+当前原截止仍15:00，下一continuity已冻结free-cascade recoil的energy-opening-angle条件设计；不会将staticangular no-go推广到未建模能量响应，也不为193Bi定实际次序。Formal21/24不变，Day15仅partial无信用。第013批已Gitee发布，本批稳定subject `Bound DAY14 doublet timing with independent response calibration`；actualH3/hash只receipt。

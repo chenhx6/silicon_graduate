@@ -8,13 +8,13 @@ updated: 2026-10-15
 
 ## Active handoff — DAY14 formal exam and continuous study
 
-Run `2026-10-14-day-14-02` / session `01a13a0e-e8bd-7251-b970-f6975679e281`；原研究截止 `2026-10-15T15:00:00+08:00` 保持，goal/research仍active。FormalDAY14 primed回忆/Herzáň主线与七边/21/24/weeklyREFLECT已发布；officialnext14/count13等最终closeout只计一次。Day15仅partial，不研究Day16。
+Run `2026-10-14-day-14-02` / session `01a13a0e-e8bd-7251-b970-f6975679e281`；原研究截止2026-10-15T15:00+08保持。正式Day14七边/21/24/weeklyREFLECT完成；completed14/partial15、官方next14/count13等closeout只计一次，不开Day16。
 
-最新checkpoint013：42项actualspin+chosen40/90/refgate模型验收，B不能硬fit1.45，失败预测保留。Exactsingleα2/α4=0、两photonangularmarginals全同，jointR仍.98017–1.02514；LP/duality/rationalq/strictPSD和互反/unknownf边界固化angular-correlation。Danko99primary401/403/noOA，N67-9true记录stop，不造sourcegate；原review/flags保持。
+第014批：91-check双线energy-time/响应设计，knownprompt的marginals同而joint可分；小r信息r²，offset2r匹配前两矩后r⁶，a0另有r⁸。未知非负electronics-tail可让两order的完整到达joint相同；独立prompt补局部score的rank，Schur只是一阶信息。Canonical level-scheme公式/表/边界，report唯一writeback34items/15changedpages。实际193Biτ/response/timewalk未提供，未赋次序/新spin；原source/review保持。
 
-唯一writeback33items/15changedpages，report/card/writeback/AST/protected/raw/review/diff/lint0errors130warnings通过，new9parsed。前12批Gitee已published；本批main / `Test DAY14 gated response beyond single-gamma calibration`，exacthash/actualH3仅receipt。
+第013批已Gitee发布；本批main / `Bound DAY14 doublet timing with independent response calibration`，精确hash/actualchecks/H3见runreceipt。新增local-score检查首h=1e−5误差越门，改Richardson并保留失败。原raw/PLAN/Bib、继承dirty/log/daemon不动。
 
-全pool/questions/Day15精确卡复核后，当前Ga routes局部饱和，继续原193Bi doublet的jointenergy-time/独立response校准设计；预测已冻，actualgap.6keV，σ/τ/timewalk全chosen。不能借带头/67Gaτ或赋actualorder。Clock001/002actualack；Farmer8686/clock75781不重启。恢复 `codex resume 01a13a0e-e8bd-7251-b970-f6975679e281 -C /workspace/wiki -s danger-full-access -a never`；checkpoint013/continuation可恢复。
+Clock001/002/005按实际送达ACK；Farmer8686/clock75781不重启。Nativeget_goal实际显示historicalblocked，故不重复写goalactive；用户明确same-session续学，research仍可推进。下一先finish本批checks/publication，再refreshclock/pool并冻结原双线free-recoil energy-opening-angle设计，不套staticangularno-go至能量响应。恢复 `codex resume 01a13a0e-e8bd-7251-b970-f6975679e281 -C /workspace/wiki -s danger-full-access -a never`；checkpoint014/continuation保存现场。
 
 ## Previous active handoff — DAY13 continuous study reopened by user
 

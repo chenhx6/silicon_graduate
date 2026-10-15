@@ -300,3 +300,68 @@ FO弱线M1/E2给alpha endpoint包络，不能认证全部allowedhigher multipole
 若另假设weak也pureE2，同parent强度比r(E958/E168)^5=11.776548：共同τ/ledger消掉，低E相空间抑制使小photonratio可对应大B。weak实际M未测，这个反事实用于说明箭头粗细/RI不等于约化强度。最低补测仍是weakmultipolarity与matched-gate intensity/完整库存，不按theory预设结果。
 
 32项captured-response和32项offline replay通过；脚本[day14_bricc67_forward.py](../../system/scripts/day14_bricc67_forward.py)。决定supports显式低rank模型内的IC输入量级与量义，limits无条件strength/独立sigma与NDS原算法归因，不改变模式排序或Day15学分。
+
+
+## 近邻双线的能量—时间可识别性与响应混淆
+
+[[herzan-2015-193bi-spectroscopy]] HE15-9（PDF p.7 Table I footnote f）的实际输入只有393.4(1)/394.0(1)keV双线、共享R/A及顺序未定；名义间距0.6keV不是detector分辨率。HE15-12的153(10)ns属于另一bandhead，不能借给这个未知中间态。以下为本任务推导的**声明设计模型**，不是193Bi时间数据、已测寿命或顺序拟合，不能补实际L4缺口。
+
+### 前向模型和可见信息
+
+令任意两个探测器的energy contrast为 `X=(E1−E2)/(√2 σE)`，时间差为 `Y=(t2−t1)/σt`。这里每个energy noise独立Gaussian、SD为σE；σt专指**差值**噪声的SD，不能再默认等于单探测器SD。假设两种标签接受度相同、energy/time噪声互相独立、时间接受度完整；intrinsic linewidth、飞行/位置、random、背景、响应尾和中间态演化均须另行建模。
+
+取latent label `Z=±1` 等概率，`X=Za+Nx`，`Y=Z(w+sU+Ny)`；Nx/Ny为标准正态，U为mean r的独立指数变量。`a=ΔE/(√2σE)`，`r=τmiddle/σt`，s为两种order的±1，w为能量相关的时间差offset（单位σt）。于是：
+
+\[
+p_s(x,y;w)=\tfrac12\phi(x-a)h_r(s(y-w))+
+             \tfrac12\phi(x+a)h_r(s(-y-w)),
+\]
+
+其中h是N(0,1)+Exp(mean r)的exGaussian密度；r=0回到正态。已知prompt标定时比较p+(w0)与p−(w0)。两者的energy-only和time-only marginals各自完全相同，但joint可不同：`E[XY]=±ar`。因此单变量投影相同不等于整份事件没有信息。a0或r0时，此**已知对称响应模型**的两个order恰好等价，增加相同事件统计不能解除。
+
+### 未知offset与小寿命极限
+
+若H−允许w=2r，则与H+(w0)的conditional mean和variance相同：label+的mean r、variance1+r²。此选择只匹配前两阶矩，**不是**对w求最优profile，也不保证完整分布相同。两者的`E[XY³]`分别为a(3r+6r³)/a(3r+2r³)，time-only fourth moment也相差16r⁴。
+
+定义自然对数下半Jeffreys `J=(KL(p||q)+KL(q||p))/2`（nats），不是p-value、检出功效或最少实验事件数。设 `g(x)=(φ(x−a)+φ(x+a))/2`，`T(x)=tanh(ax)`，`I(a)=E_g[T²]`。固定a>0、r→0时：
+
+- 已知offset：`p−q=2r T(x)y g(x)φ(y)+O(r³)`，故 `J≈2r²I(a)`。
+- 前两矩匹配：`p−q=(2/3)r³ T(x)H3(y)g(x)φ(y)+O(r⁴)`，其中H3=y³−3y、EφH3²=6，故 `J≈(4/3)r⁶I(a)`。
+
+后一式的a0 leading项为零，并不表示这对**不同offset**的分布完全相同：time-only fourth-moment差可留下 `J≈(16/3)r⁸`。r=.03数值/leading比为.992824。此例阻止把“未知offset只改变均值”或a0的known-prompt退化任意推广。
+
+自选σE=.8keV、名义gap=.6keV给a=.530330086、I=.224774106；τ和σt均不指定实值：
+
+| chosen r=τmiddle/σt | J，known offset0 | J，H− offset2r前两矩匹配 |
+| ---: | ---: | ---: |
+| .03 | .000404027353 | 2.19823744e−10 |
+| .05 | .00111951613 | 4.76144742e−9 |
+| .10 | .00442677081 | 3.18285269e−7 |
+| .30 | .0355596704 | .000256084927 |
+| 1 | .189739104 | .0521278735 |
+
+r=.01时直接积分J为4.49478225e−5/2.99905257e−13，分别接近leading4.49548213e−5/2.99698809e−13。这是声明响应族下的信息尺度，不预测JUROGAM真实可检出性。不同nuisance family、背景、接受度或δ/中间演化会改变模型。
+
+### 允许未知响应尾时的精确反例
+
+保留同一个核delay U∼Exp(mean r)，另取独立instrument delay V∼Exp(mean r)，二者都非负。H+为高能先发：高能prompt加仪器V，低能加核U、仪器无尾；H−为低能先发：高能加核U、仪器无尾，低能prompt加仪器V。两hypothesis的能量标记到达时刻都成为两个iid Exp(r)再加相同独立Gaussian noise；即使有独立绝对start，这个声明反例的完整arrival joint也完全相同。其特征函数均为 `G(kH,kL)/[(1−ir kH)(1−ir kL)]`。所以不只是一阶offset，未约束的energy-specific response可把核等待与仪器等待交换。
+
+这是两个order使用**不同未校准nuisance response**的可识别性反例，不能推成已知fixed response时的no-go，更不是实际0.6-keV邻线响应真有这么大变化。独立prompt数据、逐能量/逐detector timewalk和响应尾约束、已验证的energy-smoothness bound或独立中间态branch可排除该族。只增加time标签或同target样本不能认证这些输入。
+
+### 独立prompt标定能补哪一行信息
+
+在signed核平均延迟μ和offset w都趋零的局部极限，两参数的score都是T(x)y。N个target事件的一阶Fisher矩阵是 `NI(a)×(1,1;1,1)`，rank1；只有μ+w可见。若另有M个独立、同选择/同响应的已知prompt样本，其offset信息为MIcal，则profile μ后的Schur信息为：
+
+\[
+F_{\mu\mid w}=\frac{NI(a)\,MI_{\rm cal}}{NI(a)+MI_{\rm cal}}.
+\]
+
+这是为何独立calibration kernelrow有价值，而重复target样本不能在这个一阶近似下代替它。自选N=10⁵、Ical=I(a)时，M=10³、10⁵、10⁷分别保留known-offset信息的1/101、1/2、100/101；无prompt时为0。M固定、N→∞的一阶信息趋向MIcal。**这不是有限r完整likelihood的信息上限**：已知Gaussian-offset族的高阶shape项仍可随足够N恢复信息，正如r⁶练习；也不表示校准一个均值就已约束上面的未知tail族。真实prompt的能量、detector、selection、flight/timewalk和背景须匹配或给出可检验迁移，不以同target拟合w代替独立输入。
+
+### 验证、反证和使用边界
+
+91项检查覆盖稳定erfc/erfcx与SciPy独立density、全域归一、time/energy边际、标签/时间反转、r0/a0极限、两阶矩/三四阶反证、Hermite leading、响应尾特征函数、局部signed-delay/offset score退化与独立prompt的Schur/PSD/rank控制。二维Gauss-Legendre分别100×600和140×900并扩大tail；独立全域Gauss-Hermite×Gauss-Laguerre用42/68节点，两条积分路线对表中J一致至声明容差（最坏差约1.1e−13），而非只看一张有限grid。有限box、节点和浮点数仍是数值误差，非实验系统误差。
+
+代码：[day14_doublet_time_identifiability.py](../../system/scripts/day14_doublet_time_identifiability.py)；参数/归一/各check在[本次模型回执](../../outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/doublet-time-identifiability.json)。实际events、middleτ、energy/time joint response、逐能量prompt/timewalk、背景/接受度和joint covariance仍未提供。
+
+决定supports能量—时间联合分析在已知响应下可能补静态角交换对称性，limits将时间标签自动视为定序证据，revises只匹配均值/方差就判完整等价的想法。新结论是本任务的条件方法推导，非HE15作者结论或新独立实验；shared R/A、tentativeJπ/Q/(E2)和所有review flags保持。

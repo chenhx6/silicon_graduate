@@ -99,3 +99,12 @@ OfficialFO/v2.3(2011)Z31四点、初4invaliddecimalDE+4correctintegerDE、32capt
 writeback33items/15pages、report/card/writeback/AST/protected/raw/review/diff/freshlint0errors130warnings通过。前12批published，本批subject Test DAY14 gated response beyond single-gamma calibration；actualH3/hash只receipt。全questions/pool/Day15卡已重读，Ga当前局部饱和/外部inputs缺，preview不计卡。
 
 下一doublet-time-before-calculation.md已冻结primed预测：actualHE15-9 energies393.4/394.0、nominalgap.6keV；staticangular order no-go不包含独立energy-time信息。用declaredexponentialmiddle delay、Gaussianenergy/timing/energy-dependenttimewalk分析joint vsmarginals/信息尺度与responseconfounding，所有σ/τchosen不当source，不能借bandhead/67Ga时间。当前still>=120min，goal/runactive到原15:00；Day14/partial15，无Day16。官方next14/count13留closeout一次计14，Clock001/002actualack，Farmer8686/clock75781不重启。
+
+
+## Checkpoint014：双线energy-time与独立prompt设计
+
+正式21/24、completed14/partial15不变。HE15-9名义gap.6，所有σ/τ/response自设。91-check包含两套独立积分、r²/r⁶与a0-r⁸控制、同marginal/joint不同、offset2r的moment-only边界；非负electronics-tail允许完整arrivaljoint同，须独立responsecal排除。局部signed核mean与offset score同，独立prompt补rank，Schur式只是一阶信息，不是fullfinite-r上限。原source/reviewflags/raw保持。Canonical level-scheme新增完整公式和reuse表，唯一writeback34items/15changedpages。
+
+第013批已Gitee发布。第014批稳定subject `Bound DAY14 doublet timing with independent response calibration`；actualexit/H3/hash由本批receipt判定。原nativeget_goal返回historicalblocked，与摘要active不符；本次用户明确same-session继续且有工作，research仍active，不伪造goal状态或另建goal。Clock001/002/005actualACK，003/004不造。
+
+下一步先完成本批验收/发布。然后刷新actualclock/pool；尚有substantivewindow时，当前双线尚未核的高信息自由度是free-cascade photonrecoil导致energy-opening-angle联合信息（原staticangular theorem没包含它）。必须先冻结预测、用精确四动量/相反order与固定共同response控制，任何A193 mass proxy/chosenwidth/stopping极限明示；实际time/energyresponse仍缺，不能替实际双线定序。Day15仍仅partial，Day16不打开。到原15:00停止新研究。
