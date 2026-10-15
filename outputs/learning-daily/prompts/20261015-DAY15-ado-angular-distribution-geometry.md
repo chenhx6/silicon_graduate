@@ -277,3 +277,6 @@ Day14 partial15另有40-check同parent正布居moment hull/LP/Farkas与unknownCo
 
 
 Day14 partial15还核4个67Ga ENSDF对象，38-check真实field/parent/time/RI/finiteMR/条件strength与sameDCO反例。SourceN67-1–8 true，MR−0.00(1) finite；Tau/RI不同出处和M/MR round-trip不可计独立。Weak168/CC缺口、DCO1.45对应E1/E2的gate/geometry边界及α未分峰保留。它是正式回忆的priming，不提供card15 credit或真实fitCov。
+
+
+Day14 partial15另补4个actualANU Z31 FO theoryICC与32-checkforward/offlinereplay，KB08-D14-1–6 true。CCnuclearalignment与atomicICC分开；初decimalDE错误/有效integerencoding保留，actualmodel不是measuredICC或NDS2005处理。弱M1/E2/complete2γ假设和missinghigher/extra/Cov保持，不将nominal小修正升级为原实验可靠性或正式Day15学分。

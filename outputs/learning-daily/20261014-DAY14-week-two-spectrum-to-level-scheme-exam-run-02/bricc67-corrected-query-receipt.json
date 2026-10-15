@@ -1,0 +1,97 @@
+[
+  {
+    "url": "https://bricc.anu.edu.au/",
+    "params": {
+      "atomic": "31",
+      "energy": "168.8",
+      "eerror": "4",
+      "multipole": "M1",
+      "delta": "",
+      "derror": "",
+      "subshells": "on",
+      "dataset": "BrIccFO",
+      "calculate": "Calculate"
+    },
+    "status_code": 200,
+    "sha256": "c959b9e7b345b2eb7369d5494fa92a574e0b366e0665c7eaf40172fd9d28e2ad",
+    "old_decimal_error_request_preserved": true,
+    "reason": "bounded encoding correction after backend validation failure; verify echoed error before using numericalresult",
+    "text": "BrIcc - BRICC - ANU Skip navigation BrIcc conversion coefficient calculator Research School of Physics ANU College of Science and Medicine Search query Search Home Grapher Documentaion Download About BrIcc Conversion Coefficient Calculator The BrIcc program calculates the conversion electron (αIC), electron–positron pair conversion coefficients (απ) and the E0 electronic factors (ΩIC,π(E0)). Z Energy Energy uncertainty Multipolarity δ δ uncerntainty Subshells Data set BrIccFO BrIccNH HsIcc RpIcc All BrIccS v2.3 (9-Dec-2011) Z=31 (Ga, Gallium) γ-energy:  168.8 (+4 -4) keV Data Sets:\n        BrIccFO Shell E(ce) M1 Tot 0.0175 (3) K 158.43 0.01559 (24) L1 167.50 0.001560 (24) L2 167.66 4.72E-5 (8) L3 167.68 2.05E-5 (4) L-tot 167.51 0.001628 (25) K/L 9.58 (21) M1 168.64 0.000228 (4) M2 168.69 6.81E-6 (11) M3 168.70 2.94E-6 (5) M4 168.78 6.30E-9 (11) M5 168.78 6.36E-9 (11) M-tot 168.64 0.000238 (4) L/M 6.83 (15) N1 168.79 1.255E-5 (20) N2 168.80 1.80E-7 (3) N-tot 168.79 1.274E-5 (20) L/N 128 (3) Reference: 2008Ki07 T. Kibédi, T.W. Burrows, M.B. Trzhaskovskaya, P.M. Davidson, C.W. Nestor, Jr. 'Evaluation of theoretical conversion coefficients using BrIcc' Nucl. Instr. and Meth. A 589 (2008) 202-229 BrIcc was developed in an ANU - NNDC - Petersburg - ORNL collaboration for the International Network of Nuclear Structure and Decay Data (NSDD) Evaluators Contact us To contact us regarding the BrIcc software pelase email bricc@anu.edu.au Updated: 15 October 2026 / Responsible Officer: Director, RSPE / Page Contact: Webmaster, RSPE Contact ANU Copyright Disclaimer Privacy Freedom of Information +61 2 6125 5111 The Australian National University, Canberra TEQSA Provider ID: PRV12002 (Australian University) CRICOS Provider : 00120C ABN : 52 234 063 906 You appear to be using Internet Explorer 7, or have compatibility view turned on.  Your browser is not supported by ANU web styles. » Learn how to fix this » Ignore this warning in future",
+    "case": "168p8-M1",
+    "response_path": "tmp/day14-20261014/bricc67/168p8-M1-ensdfdigits.html",
+    "text_path": "tmp/day14-20261014/bricc67/168p8-M1-ensdfdigits.txt",
+    "energy_error_encoding": "ENSDF integerlastdigits; preserve literalweb echo"
+  },
+  {
+    "case": "168p8-E2",
+    "url": "https://bricc.anu.edu.au/",
+    "params": {
+      "atomic": "31",
+      "energy": "168.8",
+      "eerror": "4",
+      "multipole": "E2",
+      "delta": "",
+      "derror": "",
+      "subshells": "on",
+      "dataset": "BrIccFO",
+      "calculate": "Calculate"
+    },
+    "status_code": 200,
+    "timestamp_utc": "2026-10-15T00:49:52.813184+00:00",
+    "sha256": "596bd2cfff3787d46d566a58233afb28ce116082a398402995a5b212413f2e2e",
+    "text_sha256": "81968746ad5fccf7aa59e71e74a1174bc78bd9e8c320d3747902d46caa678b9b",
+    "response_path": "tmp/day14-20261014/bricc67/168p8-E2-ensdfdigits.html",
+    "text_path": "tmp/day14-20261014/bricc67/168p8-E2-ensdfdigits.txt",
+    "energy_error_encoding": "integerlastdigits; intendedphysicalerrors.4/.05keV; literalweb echo preserved",
+    "old_failed_decimal_request_preserved": true,
+    "text": "BrIcc - BRICC - ANU Skip navigation BrIcc conversion coefficient calculator Research School of Physics ANU College of Science and Medicine Search query Search Home Grapher Documentaion Download About BrIcc Conversion Coefficient Calculator The BrIcc program calculates the conversion electron (αIC), electron–positron pair conversion coefficients (απ) and the E0 electronic factors (ΩIC,π(E0)). Z Energy Energy uncertainty Multipolarity δ δ uncerntainty Subshells Data set BrIccFO BrIccNH HsIcc RpIcc All BrIccS v2.3 (9-Dec-2011) Z=31 (Ga, Gallium) γ-energy:  168.8 (+4 -4) keV Data Sets:\n        BrIccFO Uncertainties on ICC`s from transition energy uncertainty is greater than   1.0%. Shell E(ce) E2 Tot 0.0976 (17) K 158.43 0.0864 (15) L1 167.50 0.00807 (14) L2 167.66 0.000717 (13) L3 167.68 0.000930 (17) L-tot 167.53 0.00971 (17) K/L 8.90 (21) M1 168.64 0.001172 (20) M2 168.69 0.0001032 (19) M3 168.70 0.0001334 (25) M4 168.78 1.231E-7 (24) M5 168.78 1.52E-7 (3) M-tot 168.65 0.001409 (24) L/M 6.90 (17) N1 168.79 6.43E-5 (11) N2 168.80 2.73E-6 (5) N-tot 168.79 6.70E-5 (11) L/N 145 (4) Reference: 2008Ki07 T. Kibédi, T.W. Burrows, M.B. Trzhaskovskaya, P.M. Davidson, C.W. Nestor, Jr. 'Evaluation of theoretical conversion coefficients using BrIcc' Nucl. Instr. and Meth. A 589 (2008) 202-229 BrIcc was developed in an ANU - NNDC - Petersburg - ORNL collaboration for the International Network of Nuclear Structure and Decay Data (NSDD) Evaluators Contact us To contact us regarding the BrIcc software pelase email bricc@anu.edu.au Updated: 15 October 2026 / Responsible Officer: Director, RSPE / Page Contact: Webmaster, RSPE Contact ANU Copyright Disclaimer Privacy Freedom of Information +61 2 6125 5111 The Australian National University, Canberra TEQSA Provider ID: PRV12002 (Australian University) CRICOS Provider : 00120C ABN : 52 234 063 906 You appear to be using Internet Explorer 7, or have compatibility view turned on.  Your browser is not supported by ANU web styles. » Learn how to fix this » Ignore this warning in future"
+  },
+  {
+    "case": "958p01-E2",
+    "url": "https://bricc.anu.edu.au/",
+    "params": {
+      "atomic": "31",
+      "energy": "958.01",
+      "eerror": "5",
+      "multipole": "E2",
+      "delta": "",
+      "derror": "",
+      "subshells": "on",
+      "dataset": "BrIccFO",
+      "calculate": "Calculate"
+    },
+    "status_code": 200,
+    "timestamp_utc": "2026-10-15T00:49:54.944898+00:00",
+    "sha256": "e757679416fd9a55db9bf884abcb7ac974ef2006819fc952deef29c34d028004",
+    "text_sha256": "1fe965e4e7a5f26426845729d0375705496e37cb049955236ad36a457691561e",
+    "response_path": "tmp/day14-20261014/bricc67/958p01-E2-ensdfdigits.html",
+    "text_path": "tmp/day14-20261014/bricc67/958p01-E2-ensdfdigits.txt",
+    "energy_error_encoding": "integerlastdigits; intendedphysicalerrors.4/.05keV; literalweb echo preserved",
+    "old_failed_decimal_request_preserved": true,
+    "text": "BrIcc - BRICC - ANU Skip navigation BrIcc conversion coefficient calculator Research School of Physics ANU College of Science and Medicine Search query Search Home Grapher Documentaion Download About BrIcc Conversion Coefficient Calculator The BrIcc program calculates the conversion electron (αIC), electron–positron pair conversion coefficients (απ) and the E0 electronic factors (ΩIC,π(E0)). Z Energy Energy uncertainty Multipolarity δ δ uncerntainty Subshells Data set BrIccFO BrIccNH HsIcc RpIcc All BrIccS v2.3 (9-Dec-2011) Z=31 (Ga, Gallium) γ-energy:  958.01 (+5 -5) keV Data Sets:\n        BrIccFO Shell E(ce) E2 Tot 0.000358 (5) K 947.64 0.000320 (5) L1 956.71 3.16E-5 (5) L2 956.87 4.70E-7 (7) L3 956.89 4.97E-7 (7) L-tot 956.72 3.25E-5 (5) K/L 9.85 (20) M1 957.85 4.61E-6 (7) M2 957.90 6.80E-8 (10) M3 957.91 7.17E-8 (10) M4 957.99 2.45E-11 (4) M5 957.99 3.89E-11 (6) M-tot 957.85 4.75E-6 (7) L/M 6.84 (14) N1 958.00 2.53E-7 (4) N2 958.01 1.80E-9 (3) N-tot 958.00 2.55E-7 (4) L/N 127 (3) Reference: 2008Ki07 T. Kibédi, T.W. Burrows, M.B. Trzhaskovskaya, P.M. Davidson, C.W. Nestor, Jr. 'Evaluation of theoretical conversion coefficients using BrIcc' Nucl. Instr. and Meth. A 589 (2008) 202-229 BrIcc was developed in an ANU - NNDC - Petersburg - ORNL collaboration for the International Network of Nuclear Structure and Decay Data (NSDD) Evaluators Contact us To contact us regarding the BrIcc software pelase email bricc@anu.edu.au Updated: 15 October 2026 / Responsible Officer: Director, RSPE / Page Contact: Webmaster, RSPE Contact ANU Copyright Disclaimer Privacy Freedom of Information +61 2 6125 5111 The Australian National University, Canberra TEQSA Provider ID: PRV12002 (Australian University) CRICOS Provider : 00120C ABN : 52 234 063 906 You appear to be using Internet Explorer 7, or have compatibility view turned on.  Your browser is not supported by ANU web styles. » Learn how to fix this » Ignore this warning in future"
+  },
+  {
+    "case": "958p01-M3",
+    "url": "https://bricc.anu.edu.au/",
+    "params": {
+      "atomic": "31",
+      "energy": "958.01",
+      "eerror": "5",
+      "multipole": "M3",
+      "delta": "",
+      "derror": "",
+      "subshells": "on",
+      "dataset": "BrIccFO",
+      "calculate": "Calculate"
+    },
+    "status_code": 200,
+    "timestamp_utc": "2026-10-15T00:49:58.104178+00:00",
+    "sha256": "5cebaacd93d0c94868a69a22876f079074679d79eec097c8e5e977e8eb600f2d",
+    "text_sha256": "e29cf2f35495c4351f38bddd2c4135b7dc927daaab9ca3324242300cae2772a1",
+    "response_path": "tmp/day14-20261014/bricc67/958p01-M3-ensdfdigits.html",
+    "text_path": "tmp/day14-20261014/bricc67/958p01-M3-ensdfdigits.txt",
+    "energy_error_encoding": "integerlastdigits; intendedphysicalerrors.4/.05keV; literalweb echo preserved",
+    "old_failed_decimal_request_preserved": true,
+    "text": "BrIcc - BRICC - ANU Skip navigation BrIcc conversion coefficient calculator Research School of Physics ANU College of Science and Medicine Search query Search Home Grapher Documentaion Download About BrIcc Conversion Coefficient Calculator The BrIcc program calculates the conversion electron (αIC), electron–positron pair conversion coefficients (απ) and the E0 electronic factors (ΩIC,π(E0)). Z Energy Energy uncertainty Multipolarity δ δ uncerntainty Subshells Data set BrIccFO BrIccNH HsIcc RpIcc All BrIccS v2.3 (9-Dec-2011) Z=31 (Ga, Gallium) γ-energy:  958.01 (+5 -5) keV Data Sets:\n        BrIccFO Shell E(ce) M3 Tot 0.001513 (22) K 947.64 0.001350 (19) L1 956.71 0.0001364 (19) L2 956.87 3.25E-6 (5) L3 956.89 1.355E-6 (19) L-tot 956.72 0.0001410 (20) K/L 9.57 (19) M1 957.85 2.00E-5 (3) M2 957.90 4.71E-7 (7) M3 957.91 1.96E-7 (3) M4 957.99 1.653E-10 (24) M5 957.99 6.48E-11 (9) M-tot 957.85 2.07E-5 (3) L/M 6.82 (14) N1 958.00 1.099E-6 (16) N2 958.01 1.249E-8 (18) N-tot 958.00 1.111E-6 (16) L/N 127 (3) Reference: 2008Ki07 T. Kibédi, T.W. Burrows, M.B. Trzhaskovskaya, P.M. Davidson, C.W. Nestor, Jr. 'Evaluation of theoretical conversion coefficients using BrIcc' Nucl. Instr. and Meth. A 589 (2008) 202-229 BrIcc was developed in an ANU - NNDC - Petersburg - ORNL collaboration for the International Network of Nuclear Structure and Decay Data (NSDD) Evaluators Contact us To contact us regarding the BrIcc software pelase email bricc@anu.edu.au Updated: 15 October 2026 / Responsible Officer: Director, RSPE / Page Contact: Webmaster, RSPE Contact ANU Copyright Disclaimer Privacy Freedom of Information +61 2 6125 5111 The Australian National University, Canberra TEQSA Provider ID: PRV12002 (Australian University) CRICOS Provider : 00120C ABN : 52 234 063 906 You appear to be using Internet Explorer 7, or have compatibility view turned on.  Your browser is not supported by ANU web styles. » Learn how to fix this » Ignore this warning in future"
+  }
+]

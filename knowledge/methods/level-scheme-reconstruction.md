@@ -280,3 +280,23 @@ zeroIC/δ0只是控制假设，给B(E2)=155.4865e²fm⁴=9.61853WU（WU conventi
 N67-7的真实NORDBALL对象给958与554.4同样DCO1.45(7)，adopted却分别E2(+M3)/E1(+M2)；same2073parent的871.3给.77(3)。已知spinsequence不同，但objects没有exact gate/reference/response，不能单独以ratio赋E2，不能将这组差异因果全归给ΔJ。N67-8又保留alpha2862的11/2−与adopted11/2+冲突及1343/1353未分峰的“可能解释”；其他反应的正确标注不修复原peak污染。
 
 代码：[day14_ensdf67_strength_crosswalk.py](../../system/scripts/day14_ensdf67_strength_crosswalk.py)。38项object/hash/column/units/来源/half-to-mean/RI/missingCC/finiteMR/rate/反事实与DCO checks通过；source records、quoted inputs、chosen controls及未知Cov在本run nndc67-strength-crosswalk.json。决定revises exactδ0/RI58.2当branch/共用feederτ，supports先回源和逐field lineage，limits DCO数值与conditional B作模式裁决。无原实验fit重放，L4 not-ready。
+
+
+## 67Ga：FO理论输入补全的条件强度范围
+
+[[kibedi-2008-evaluation-theoretical-conversion-coefficients-bricc]] KB08-D14-1–6保存4个actualofficial Z31/FO/v2.3(2011) theoryinputs、失败编码与responsehash。全部是原子模型计算；[[nndc-2005-67ga-selected-level-gamma-records]]原CC空白保持，不能将模型值写回为评价实测。
+
+| physicalmodel input | all-shell program α±provider error | 核假设 |
+| --- | --- | --- |
+| E168.8(4)keV | .0175 ± .0003 | weakpureM1 |
+| E168.8(4)keV | .0976 ± .0017 | weakpureE2 |
+| E958.01(5)keV | .000358 ± .000005 | strongpureE2 |
+| E958.01(5)keV | .001513 ± .000022 | strongM3component |
+
+在先前complete2γ/无extra模型内，weakM1/E2与strongδ0给B_E2 9.614759/9.613223WU；zeroIC为9.618530WU。IC名义效应−.0392%/−.0552%小于quotedtime约9%，但只在这些假设内。用alpha_eff=(alphaE2+δs²alphaM3)/(1+δs²)接Γ，选δs0/.01/.02各两weakmodes，rateledger均闭合；不是source hardδbounds或新experimentaltau/B。
+
+FO弱线M1/E2给alpha endpoint包络，不能认证全部allowedhigher multipoles/penetration/额外nonγ通道。Programquoted uncertainty有共同energy/model输入；不将其当独立实验σ或额外再叠已含interp。A67finite-size、默认radius/datafilehash没验证，真实producer corrections、gates、Σ仍缺。
+
+若另假设weak也pureE2，同parent强度比r(E958/E168)^5=11.776548：共同τ/ledger消掉，低E相空间抑制使小photonratio可对应大B。weak实际M未测，这个反事实用于说明箭头粗细/RI不等于约化强度。最低补测仍是weakmultipolarity与matched-gate intensity/完整库存，不按theory预设结果。
+
+32项captured-response和32项offline replay通过；脚本[day14_bricc67_forward.py](../../system/scripts/day14_bricc67_forward.py)。决定supports显式低rank模型内的IC输入量级与量义，limits无条件strength/独立sigma与NDS原算法归因，不改变模式排序或Day15学分。

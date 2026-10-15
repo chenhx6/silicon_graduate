@@ -83,3 +83,10 @@ NNDC67四对象与38-check通过，canonicalSourceN67-1–8 true、levelscheme/a
 初lint1的genericcanonicalURL/缺heading已修，fresh0errors130warnings/8newclaimparsedtrue，protected/raw/review/AST/diff/report/card/writeback通过。前10批已发布，本批subject Audit DAY14 real ENSDF lifetime and branching inputs，actualH3/hash只receipt。sourceNN raw为未填槽，不假装已archive。
 
 下一highinfo同问题路线：weak168.M/ICC与realDCOdefinition。BrIcc2008方法/officialANU已读，可boundedquery Z31E168.8 M1/E2和E958.01 E2/M3理论response（不是实验ICC/不是原2005处理）；sourceCCblank保持，完整inventory/higherranks/penetration/cov仍缺。1999Danko PRC59,1956的primary若合法可取，先冻结primedrecall，仅补DCOgate/angles/calibration，不打开新coursecard。Day14/partial15、formal21/24、officialnext14/count13待closeout一次对账，samegoalactive，原15:00截止。
+
+
+## Checkpoint012：theoryICC数据补全，继续DCOdefinition
+
+OfficialFO/v2.3(2011)Z31四点、初4invaliddecimalDE+4correctintegerDE、32capture+32offlinechecks已固化。CanonicalKB08/levelscheme保存allTot/K/hash/边界，sourceHuman/旧flags不扩、新D14-1–6true。N67CC仍blank，conditionalB9.614759/9.613223不能称测量或覆盖全部modes/inventory；hypbothE2 weakB ratio11.776548不赋weakM。reportwriteback31items/15changedpages，lint0errors130warnings、new6parsed、AST/protected/raw/review/diff通过。
+
+下一Danko99 primary(DOI10.1103/PhysRevC.59.1956)已freezeprimedrecall，目标仅same67GaDCOgate/ref/angles/RIcorrect；OA无文件、publicPDFcandidate不完整、直接HTTPS403HTML，无新auth/browser/daemon。合法repositorymetadata定位正在做，若primary不可取只保留readiness，不能造gate/calibration或把普通license当OA。别开新daycard，不计Day15、不研究Day16；原15:00researchcutoff不改。Nativegoal/sessionactive，officialnext14/count13留closeout一次计14。

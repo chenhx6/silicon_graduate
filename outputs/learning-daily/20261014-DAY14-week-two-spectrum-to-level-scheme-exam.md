@@ -194,7 +194,7 @@ HE15-9的实际未定双线是核心反例：energy sum、共享R/A和假设的�
 
 ## Durable knowledge delta
 
-本run实际修改十四份knowledge Markdown，超出昨日预习的增量为七边逐条证据、相关cycle/标定nullspace、未定doublet shared-quantity边界和parent-lifetime契约。canonical知识路径：
+本run实际修改十五份knowledge Markdown，超出昨日预习的增量为七边逐条证据、相关cycle/标定nullspace、未定doublet shared-quantity边界和parent-lifetime契约。canonical知识路径：
 
 - [Herzáň source](../../knowledge/sources/herzan-2015-193bi-spectroscopy.md)：HE15-8–14及正式来源主线/triage。
 - [level-scheme method](../../knowledge/methods/level-scheme-reconstruction.md)：五能级七边、GLS/反例和必要companion。
@@ -932,6 +932,76 @@ HE15-9的实际未定双线是核心反例：energy sum、共享R/A和假设的�
           "locator": "N67-1"
         }
       ]
+    },
+    {
+      "knowledge": "knowledge/sources/kibedi-2008-evaluation-theoretical-conversion-coefficients-bricc.md",
+      "anchor": "2026-10-15 Supplement — Z31实际理论输入与67Ga ledger",
+      "summary": "保存4actualofficialFO inputs/Tot/K/哈希/输入失败、修正和物理/误差边界；32-check条件forward，不作实测ICC或NDS2005算法。",
+      "sources": [
+        {
+          "path": "knowledge/sources/kibedi-2008-evaluation-theoretical-conversion-coefficients-bricc.md",
+          "locator": "KB08-D14-1"
+        },
+        {
+          "path": "knowledge/sources/kibedi-2008-evaluation-theoretical-conversion-coefficients-bricc.md",
+          "locator": "KB08-D14-2"
+        },
+        {
+          "path": "knowledge/sources/kibedi-2008-evaluation-theoretical-conversion-coefficients-bricc.md",
+          "locator": "KB08-D14-3"
+        },
+        {
+          "path": "knowledge/sources/kibedi-2008-evaluation-theoretical-conversion-coefficients-bricc.md",
+          "locator": "KB08-D14-4"
+        },
+        {
+          "path": "knowledge/sources/kibedi-2008-evaluation-theoretical-conversion-coefficients-bricc.md",
+          "locator": "KB08-D14-5"
+        },
+        {
+          "path": "knowledge/sources/kibedi-2008-evaluation-theoretical-conversion-coefficients-bricc.md",
+          "locator": "KB08-D14-6"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/methods/level-scheme-reconstruction.md",
+      "anchor": "67Ga：FO理论输入补全的条件强度范围",
+      "summary": "源数据空白CC保持，4个theoryinputs给声明两gamma/弱M1E2/δ模型的B中心区间；源quotedCov/完整higher/extra不闭合；weakRI不等弱B反事实。",
+      "sources": [
+        {
+          "path": "knowledge/sources/kibedi-2008-evaluation-theoretical-conversion-coefficients-bricc.md",
+          "locator": "KB08-D14-1"
+        },
+        {
+          "path": "knowledge/sources/kibedi-2008-evaluation-theoretical-conversion-coefficients-bricc.md",
+          "locator": "KB08-D14-2"
+        },
+        {
+          "path": "knowledge/sources/kibedi-2008-evaluation-theoretical-conversion-coefficients-bricc.md",
+          "locator": "KB08-D14-3"
+        },
+        {
+          "path": "knowledge/sources/kibedi-2008-evaluation-theoretical-conversion-coefficients-bricc.md",
+          "locator": "KB08-D14-4"
+        },
+        {
+          "path": "knowledge/sources/kibedi-2008-evaluation-theoretical-conversion-coefficients-bricc.md",
+          "locator": "KB08-D14-5"
+        },
+        {
+          "path": "knowledge/sources/kibedi-2008-evaluation-theoretical-conversion-coefficients-bricc.md",
+          "locator": "KB08-D14-6"
+        },
+        {
+          "path": "knowledge/sources/nndc-2005-67ga-selected-level-gamma-records.md",
+          "locator": "N67-4"
+        },
+        {
+          "path": "knowledge/sources/nndc-2005-67ga-selected-level-gamma-records.md",
+          "locator": "N67-5"
+        }
+      ]
     }
   ]
 }
@@ -1017,6 +1087,14 @@ N67-2/3的958为E2(+M3)、δ−0.00(1)，finite .01与alpha1978Al32依赖保留�
 [38-check](20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/nndc67-strength-crosswalk.json)按[[lange-kumar-hamilton-1982-multipole-admixtures]] LKH82-1与既有现代SIrate conversion，在zeroIC/complete2γ/δ0的declaredcontrol算B(E2)=9.61853WU，与source BE2W9.6(9)printing相容；不是新strength测量或actualevaluatorcode重放。模型/unknownCov/half-life失败控制、weakICC敏感性已写[[level-scheme-reconstruction]]“67Ga：跨对象的parent与强度输入核验”。
 
 反证N67-7：actualNi对象给958E2与554E1同DCO1.45(7)，sameparent871E1则.77(3)，exactgates/reference/geometry缺，ratio不能单独赋E2；N67-8保持2862的未分1343/1353和π conflict的compiler可能解释。决定supports逐field来源，revises exactδ0/错误RI分母/借feederτ，limits B或DCO作mode唯一解释。L3data-object exercise完成，实验L4因原angular/events/response/GF/Cov/完整branch缺仍not-ready；正式21/24不变，Day15无学分。
+
+### actualBrIcc理论输入与forward ledger
+
+查询前[primed回忆](20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/bricc67-before-query-recall.md)已冻结。初4请求DE=.4/.05 decimal遭HTTP200校验页拒绝；按ENSDF末位integer4/5修正后4points有实质numericresponse，literalenergy/DE echo、失败与successhash均保留。实际backend BrIccFO/BrIccS2.3(2011)，Z31，没有本地2022/datafile/A67finite-size计算声称。
+
+[[kibedi-2008-evaluation-theoretical-conversion-coefficients-bricc]] KB08-D14-1–6为4个theoryinputs：168.8M1/E2 Tot .0175(3)/.0976(17)，958.01E2/M3 .000358(5)/.001513(22)。K与subshells不代Total，E168E2的energyunc>1%警告和缺radius/datafilehash保留；providererror不作独立Σ或再叠interp。原paperHuman/旧flags不扩，新D14全部true。
+
+[32-check forward](20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/bricc67-parsed-forward.json)与[32-check offline replay](20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/bricc67-offline-replay.json)一致。在complete2γ/无extra、weakM1或E2、strongδ0条件下，B_E2为9.614759/9.613223WU，较zeroIC下降.0392%/.0552%；sourceCC blank不改为实测。全部δ0/.01/.02的6cases保存ledger，不是confidencebounds。若额外假设weak也E2，Bweak/Bstrong=11.776548，展示RI小不等于B小，不作weakM赋值。完整可复用结果在[[level-scheme-reconstruction]]“67Ga：FO理论输入补全的条件强度范围”。supports模型内输入补全，limits全部multipoles/extra/inventory/Cov的无条件结论，实验L4仍notready，不计Day15。
 
 ## Open questions and belief revision
 
@@ -1120,3 +1198,10 @@ Ref5原9页与23-check Appendix均完成；report/card/writeback valid（23items
 38-check actualENSDF/source-field/unit/parent/RI/missingCC/finiteMR与DCO反例全部通过；report/card/writeback valid（29items/14changedpages），AST/保护哈希/raw metadata/原review/diff通过。首wiki_lint exit1因新source共用genericNNDCcanonicalURL及缺requiredheading；改actualobjectID/heading后exit0，0errors/130warnings（107citation-key、20rawslots、3reactionparser），8新N67claims全部parsedtrue。rawslot明示未填，未动raw/credentials。
 
 恢复[checkpoint011](20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/checkpoint-011.md)。稳定指针 main / `Audit DAY14 real ENSDF lifetime and branching inputs`；精确hash/actualH3只receipt。Currentpool仍有usefulweakICC/branch与DCOdefinition路线，researchactive；下一boundedatomicresponse或1999primary只补同一问题，不开新card、不计Day15、不改变21/24。
+
+
+### Checkpoint012 theoryresponse检查与继续
+
+4actualFO输入、32captured checks与32offline replay同值；report/card/writeback valid（31items/15changedpages），AST/保护哈希/raw metadata/原Human及旧flags/diff通过。wiki_lint --fail-on error exit0，0errors/130warnings（107citation-key/20rawslots/3parser），6新KB08-D14全部parsedtrue；未清N67sourceCC、未产生实验ICC/新B或新card credit。
+
+恢复[checkpoint012](20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/checkpoint-012.md)，稳定指针main / `Add DAY14 theoretical conversion response inputs`，exacthash/actualH3仅receipt。下一Danko1999 primaryDCOdefinition的legalretrieval已freezeprimedrecall；OA未取得/直接publisher403，继续boundedlegitimatemetadata定位，不伪造geometry/gates。原researchwindow仍active，正式21/24、Day14/partial15不变。

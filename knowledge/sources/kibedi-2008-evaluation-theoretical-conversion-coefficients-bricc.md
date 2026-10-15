@@ -3,7 +3,7 @@ type: source
 title: "Evaluation of Theoretical Conversion Coefficients Using BrIcc"
 aliases: [Kibedi 2008 BrIcc, BrIcc theoretical conversion coefficients, Kibedi 2008 ICC uncertainties]
 created: 2026-07-12
-updated: 2026-10-08
+updated: 2026-10-15
 status: ai-draft
 review_status: human-reviewed
 source_type: method-review-article
@@ -280,3 +280,44 @@ printed204 / PDF3 Sec3.1 Eqs6–7/11给ρ无量纲、Ω单位s⁻¹及T_s(E0)=ρ
 | O-tot | 2.66E-5 (4) | 2.87E-5 (4) | 3.60E-6 (5) | 0.0001726 (25) | 2.56E-5 (4) |
 | P1 | 1.748E-6 (25) | 1.89E-6 (3) | 2.11E-7 (3) | 1.122E-5 (16) | 1.161E-6 (17) |
 | P-tot | 1.748E-6 (25) | 1.89E-6 (3) | 2.11E-7 (3) | 1.122E-5 (16) | 1.161E-6 (17) |
+
+
+## 2026-10-15 Supplement — Z31实际理论输入与67Ga ledger
+
+本项是Day14的同一source-field/strength问题的必要companion，Day15仅无学分预习。使用既有已读KB08方法与official[ANU BrIcc](https://bricc.anu.edu.au/)，先冻结primed回忆。未提交τ、RI或B以倒推ICC；只提交Z31、E/DE、puremode、BrIccFO和subshells。原paper人审metadata及所有旧claim flags保持，新D14-1–6全needs_review:true，没有新人审。
+
+### 查询输入、版本与失败控制
+
+初4POST将能量error当绝对小数.4/.05，收到HTTP200校验页“Energy uncertainty invalid”，没有数字。校对ENSDF格式后将DE分别置4/5；168.8(4)对应.4keV，958.01(5)对应.05keV。手册II.A的E12.4/DE+1-2→+.1−.2keV例保留，网站literal(+4−4)/(+5−5)输出不改写。4个failed+4个corrected请求完整留存，未无界重试或将empty data填0。
+
+实际服务实报BrIccS v2.3(9-Dec-2011)、DataSets BrIccFO、Z31/Ga，区别本地2022help probe；页面Updated2026是网页日期，不升级physics backend。所有quoted errors是provider打印uncertainty，不制造jointCov或其频率含义。
+
+| Eγ(keV) / 核假设mode | program Tot α | K α | response SHA256 |
+| --- | --- | --- | --- |
+| 168.8 / M1 | 0.0175(3) | 0.01559(24) | c959b9e7b345b2eb7369d5494fa92a574e0b366e0665c7eaf40172fd9d28e2ad |
+| 168.8 / E2 | 0.0976(17) | 0.0864(15) | 596bd2cfff3787d46d566a58233afb28ce116082a398402995a5b212413f2e2e |
+| 958.01 / E2 | 0.000358(5) | 0.000320(5) | e757679416fd9a55db9bf884abcb7ac974ef2006819fc952deef29c34d028004 |
+| 958.01 / M3 | 0.001513(22) | 0.001350(19) | 5cebaacd93d0c94868a69a22876f079074679d79eec097c8e5e977e8eb600f2d |
+
+每点全部subshells、major sums与打印精度在本run bricc67-parsed-forward/offline-replay.json保存。Tot从program取，不用rounded-shells sums覆盖；electron-shell M1/M2/M3与核M1/E2/M3分开，K不作all-shell。168.8E2的energyunc贡献>1%警告保留；既有KB08-D8-1的1.4%含interp原则继续用，不另加一次.3%。Energy与derivedα误差共用输入，后续B误差须保留chain/cov，不能假装全独立重复energyerror。
+
+未取得逐点datafile/radius hash，未验证A67专属finite-size或实际离子态；Z相同不证明此是67Ga重新计算。FO/NH与NP/SC不同，未额外乘penetration修正或声称覆盖所有weakline允许higher ranks。
+
+### 32-check条件forward与未闭合边界
+
+[[nndc-2005-67ga-selected-level-gamma-records]] N67-2/4/5/6提供parentT1/2、E/RI、finiteMR及评价B。Source原空白CC保持；四个lookup另列theoryinputs。以KB08-2公式alpha_eff,strong=(alpha_E2+δ²alpha_M3)/(1+δ²)连接电磁rateledger。假设只有958与168两γ、无extra、weak仅M1/E2、δs0：两端给B_E2 9.614759/9.613223WU，较zeroIC9.618530分别−.039206%/−.055179%。若weak在M1/E2间混合，同一FO模型的αw是两endpoint凸组合，条件中心值在这一区间；不是未知全部multipolarity或真实decay的全局界。
+
+另选δs=.01/.02仅作sensitivitypoints（不是quotederror的hardCI）；6个modelcases保存了totalbranch/photonprobability/rate闭合。变化小于parentquotedlifetime约9%不认证NDS2005算法，亦不修复raw RI gate/eff/angle、未观测branches/高阶/penetration或actualCov。没有把theory lookup计独立实验或清除N67 missingICC。
+
+即使只见weakphoton RI.2对100，也不能称weakreducedstrength：若**额外假设两条均pureE2**且photon intensities恰当，same-parent Bweak/Bstrong=r(Estrong/Eweak)^5=11.776548；τ/共同ledger可消掉，但weakM未测，该数不是实测Bweak或E2赋值。
+
+复算[day14_bricc67_forward.py](../../system/scripts/day14_bricc67_forward.py)，offline32checks与capturedresponse32checks数值一致。Canonical rate/库存/量义在[[level-scheme-reconstruction]]“67Ga：FO理论输入补全的条件强度范围”。本run未做真实谱/event fit，L4 not-ready。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+| --- | --- | --- | --- | --- | --- |
+| KB08-D14-1 | official ANU BrIccFO/v2.3(2011)、Z31、E168.8、M1、DE4 query给Tot=.0175(3)、K=.01559(24)。是默认table/theory，不是67Ga measuredICC。 | model-result | direct | 2026-10-15 ANU response c959b9e7b345b2eb7369d5494fa92a574e0b366e0665c7eaf40172fd9d28e2ad / Tot,K | true |
+| KB08-D14-2 | 同Z/E的pureE2、DE4给Tot=.0976(17)、K=.0864(15)，并明确energyuncertainty对ICC误差贡献>1%。 | model-result | direct | 2026-10-15 ANU response 596bd2cfff3787d46d566a58233afb28ce116082a398402995a5b212413f2e2e / Tot,K,warning | true |
+| KB08-D14-3 | Z31、E958.01、E2、DE5给Tot=.000358(5)、K=.000320(5)。Quotederrors/actualversion保留，不指认2005evaluator所用程序。 | model-result | direct | 2026-10-15 ANU response e757679416fd9a55db9bf884abcb7ac974ef2006819fc952deef29c34d028004 / Tot,K | true |
+| KB08-D14-4 | Z31、E958.01、M3、DE5给Tot=.001513(22)、K=.001350(19)，用于声明E2/M3 truncation下的forward input。 | model-result | direct | 2026-10-15 ANU response 5cebaacd93d0c94868a69a22876f079074679d79eec097c8e5e977e8eb600f2d / Tot,K | true |
+| KB08-D14-5 | 初4请求DE=.4/.05小数遭Energy uncertainty invalid，HTTP200无numeric；改ENSDF末位4/5后4点成功，原失败响应保留。源手册12.4、DE+1-2例解为+.1−.2keV；web(+4−4)/(+5−5)回显不改写。 | interface-validation-and-boundary | direct | Day14 invalid/corrected request receipts；manualII.A E/DE example | true |
+| KB08-D14-6 | actualFO4inputs用于67Ga complete2γ/weakM1-orE2/δ0控制，给B_E2=9.614759/9.613223WU，比zeroIC下降.0392%/.0552%。这是32-check任务forward，不是新strength测量/完整物理ceiling；highermultipoles、extra/cov仍缺。 | our-inference | indirect | Day14 four-input table / conditional forward ledger；paperp203 Eq.3与N67-4/5 | true |
