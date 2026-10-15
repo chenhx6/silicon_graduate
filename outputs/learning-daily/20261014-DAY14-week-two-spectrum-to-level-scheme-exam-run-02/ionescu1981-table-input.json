@@ -1,0 +1,204 @@
+{
+  "source_doi": "10.1016/0029-554X(81)90200-7",
+  "source_sha256": "233b11888d8143a17b89da3332afac1342803b35024ac2ec7708c7bd51d435f1",
+  "transcription": "manualvisual Tables1/2/3; original signs/multiplets/hypothesis roles/degreeunits retained",
+  "table1_locator": "printed21 Table1 / PDF3",
+  "table1": [
+    {
+      "Egamma_literal_kev": "209.92",
+      "multiplet": "Q",
+      "A2_exp": "0.239(58)",
+      "A4_exp": "-0.105(64)",
+      "A2_calculated": "0.254",
+      "A4_calculated": "-0.054",
+      "reported_chi2": "0.70"
+    },
+    {
+      "Egamma_literal_kev": "228.61",
+      "multiplet": "Q",
+      "A2_exp": "0.205(7)",
+      "A4_exp": "-0.055(9)",
+      "A2_calculated": "0.205",
+      "A4_calculated": "-0.048",
+      "reported_chi2": "0.59"
+    },
+    {
+      "Egamma_literal_kev": "295.585",
+      "multiplet": "",
+      "A2_exp": "0.243(19)",
+      "A4_exp": "-0.062(8)",
+      "A2_calculated": "0.250",
+      "A4_calculated": "-0.061",
+      "reported_chi2": "0.13"
+    },
+    {
+      "Egamma_literal_kev": "318.135",
+      "multiplet": "",
+      "A2_exp": "0.256(9)",
+      "A4_exp": "-0.067(10)",
+      "A2_calculated": "0.259",
+      "A4_calculated": "-0.058",
+      "reported_chi2": "0.93"
+    },
+    {
+      "Egamma_literal_kev": "371.52",
+      "multiplet": "Q",
+      "A2_exp": "0.239(21)",
+      "A4_exp": "-0.071(26)",
+      "A2_calculated": "0.243",
+      "A4_calculated": "-0.045",
+      "reported_chi2": "1.1"
+    },
+    {
+      "Egamma_literal_kev": "397.38",
+      "multiplet": "D",
+      "A2_exp": "0.234(15)",
+      "A4_exp": "-0.048(14)",
+      "A2_calculated": "0.233",
+      "A4_calculated": "-0.057",
+      "reported_chi2": "0.40"
+    },
+    {
+      "Egamma_literal_kev": "184.33",
+      "multiplet": "D",
+      "A2_exp": "0.248(9)",
+      "A4_exp": "-0.013(49)",
+      "A2_calculated": "0.247",
+      "A4_calculated": "-0.061",
+      "reported_chi2": "0.96"
+    },
+    {
+      "Egamma_literal_kev": "271.12",
+      "multiplet": "",
+      "A2_exp": "0.266(10)",
+      "A4_exp": "-0.074(12)",
+      "A2_calculated": "0.266",
+      "A4_calculated": "-0.073",
+      "reported_chi2": "0.01"
+    },
+    {
+      "Egamma_literal_kev": "354.85",
+      "multiplet": "",
+      "A2_exp": "0.303(18)",
+      "A4_exp": "-0.101(22)",
+      "A2_calculated": "0.308",
+      "A4_calculated": "-0.086",
+      "reported_chi2": "0.52"
+    },
+    {
+      "Egamma_literal_kev": "432.47",
+      "multiplet": "T",
+      "A2_exp": "0.255(22)",
+      "A4_exp": "-0.118(32)",
+      "A2_calculated": "0.271",
+      "A4_calculated": "-0.059",
+      "reported_chi2": "3.9"
+    }
+  ],
+  "table2_locator": "printed21 Table2 / PDF3",
+  "table2": [
+    {
+      "Egamma_kev": "304.41",
+      "A2_exp": "-0.410(18)",
+      "A4_exp": "-0.025(36)",
+      "side_sigma_range": [
+        3.4,
+        6.6
+      ],
+      "branch_abs_arctan_deg": "6.72(8)",
+      "fits": [
+        {
+          "delta_J": -1,
+          "arctan_delta_deg": 24,
+          "angle_error_minus": 9,
+          "angle_error_plus": 9,
+          "chi2": 0.8
+        },
+        {
+          "delta_J": 1,
+          "arctan_delta_deg": -13,
+          "angle_error_minus": 9,
+          "angle_error_plus": 9,
+          "chi2": 0.7
+        }
+      ]
+    },
+    {
+      "Egamma_kev": "251.03",
+      "A2_exp": "-0.320(15)",
+      "A4_exp": "0.025(30)",
+      "side_sigma_range": [
+        2.65,
+        3.0
+      ],
+      "branch_abs_arctan_deg": "6.80(8)",
+      "fits": [
+        {
+          "delta_J": -1,
+          "arctan_delta_deg": 76,
+          "angle_error_minus": 2,
+          "angle_error_plus": 2,
+          "chi2": 0.4
+        },
+        {
+          "delta_J": -1,
+          "arctan_delta_deg": 18,
+          "angle_error_minus": 3,
+          "angle_error_plus": 3,
+          "chi2": 0.5
+        },
+        {
+          "delta_J": 1,
+          "arctan_delta_deg": -7.5,
+          "angle_error_minus": 1.5,
+          "angle_error_plus": 1.5,
+          "chi2": 0.5
+        }
+      ]
+    },
+    {
+      "Egamma_kev": "184.0",
+      "multiplet": "D",
+      "A2_exp": "-0.280(44)",
+      "A4_exp": "-0.012(74)",
+      "side_sigma_range": [
+        1.1,
+        4.3
+      ],
+      "branch_abs_arctan_deg": "6.7(1)",
+      "fits": [
+        {
+          "delta_J": -1,
+          "arctan_delta_deg": 44,
+          "angle_error_minus": 36,
+          "angle_error_plus": 36,
+          "chi2": null
+        },
+        {
+          "delta_J": 1,
+          "arctan_delta_deg": -7,
+          "angle_error_minus": 10,
+          "angle_error_plus": 5,
+          "chi2": 0.03
+        }
+      ]
+    }
+  ],
+  "table3_zero_sidefeeding": {
+    "Egamma_kev": 143.46,
+    "sidefeeding_intensity_Is": 0,
+    "locator": "printed22 Table3 footnote b / PDF4",
+    "local_sigma_not_fitted": true
+  },
+  "feeding_equation": "rho_k=rho_k_sf(sigma)*Is/IT + sum_j rho_k_parent_j*U_j*I0_j/IT; IT=Is+sum_jI0_j; angleaveraged total intensities including conversion",
+  "source_approximations": [
+    "weak line U computed with delta=0",
+    "weakparenttensor interpolation between favoredlevels",
+    "weak I0 assumed12percent below90degree values"
+  ],
+  "actual_covariance": null,
+  "full_model_inputs": null,
+  "full_chi2_grid": null,
+  "confidence_coverage": null,
+  "original_review_status": "human-reviewed legacy; oldtenneedsreviewfalse kept, newrunclaims true"
+}

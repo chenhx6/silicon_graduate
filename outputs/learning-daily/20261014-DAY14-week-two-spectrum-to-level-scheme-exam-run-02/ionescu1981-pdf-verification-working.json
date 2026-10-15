@@ -1,0 +1,17 @@
+{
+  "path": "raw/papers/1981_Ionescu et al_Improved analysis of γ-ray angular distributions in (particle, xn) experiments.pdf",
+  "exists": true,
+  "fulltext_read_this_run": true,
+  "at": "2026-10-15T22:32:19.647714+08:00",
+  "sha256": "233b11888d8143a17b89da3332afac1342803b35024ac2ec7708c7bd51d435f1",
+  "bytes": 606539,
+  "pdfinfo": "Title:           PII: 0029-554X(81)90200-7\nCreator:         Acrobat 3.0 Capture Plug-in\nProducer:        Acrobat 3.0 Import Plug-in\nCreationDate:    Thu Jun 13 07:15:06 2002 CST\nModDate:         Wed Dec  3 21:29:36 2008 CST\nCustom Metadata: no\nMetadata Stream: yes\nTagged:          no\nUserProperties:  no\nSuspects:        no\nForm:            none\nJavaScript:      no\nPages:           9\nEncrypted:       no\nPage size:       548 x 756 pts\nPage rot:        0\nFile size:       606539 bytes\nOptimized:       yes\nPDF version:     1.4\n",
+  "scope": "9pagefullmainline; sixfigures/three tables/equations3–11/error/limitations/references; key pages3–8 visuallyverified",
+  "source_metadata_byte_description_boundary": {
+    "old_body_bytes": 375432,
+    "actual_bytes": 606539,
+    "original_source_sha256_matches": true,
+    "raw_overwritten": false
+  },
+  "legacy_human_review": "preserved; newrunadditions not human-reviewed"
+}

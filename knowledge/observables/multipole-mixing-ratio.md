@@ -3,7 +3,7 @@ type: observable
 title: 多极混合比
 aliases: [multipole mixing ratio, E2/M1 mixing ratio, mixing ratio, δ]
 created: 2026-07-01
-updated: 2026-10-08
+updated: 2026-10-15
 status: active
 review_status: unreviewed
 observable_kind: electromagnetic-transition-observable
@@ -349,3 +349,11 @@ ICC-based `delta` extraction 也可能带来明显非对称误差；当 experime
 - 2026-07-04：加入 Guo 2022 的 `R_ac-P` 小 `abs(δ)` branch 与同一 links 的直接冲突。
 - 2026-07-05：加入 Nomura 2022 的 IBFM `δ` 预测、实验值比较及 `127Xe` 异常分母边界。
 - 2026-07-12：加入 Rusev 2009 的 asymmetry 双解，以及 Rezynkina 2017 / Kibedi 2008 的 ICC-based `δ` 不确定度边界。
+
+## arctanδ列的单位、多解与feeding条件
+
+[[ionescu-1981-improved-angular-distribution-analysis-particle-xn]] IO81-14/15的Table2列名是arctanδ[degrees]，三条mixed线有七个hypothesis/root行。251.03-keV同一A2/A4在ΔJ−1下给+76°和+18°，ΔJ+1下给−7.5°；χ²约.4/.5/.5。作者另用excitation functions选择spin，不从最小χ²直接平均这些分支。其branching-ratio比较列是model-dependent的绝对角，不给δ符号。
+
+在其M1/E2两成分和Krane–Steffen约定下，先`δ=tan(θπ/180)`；radiative E2 fraction为sin²(θπ/180)。上述三解依次给δ≈4.010781/.324920/−.131652和E2份额94.1474%/9.54915%/1.70371%。这些是对应假设下的变换，非本任务的新测量/选解、核B比、absolute enhancement或能级branch。若误把角度−7.5直接当δ，反会得约98.25%的E2份额。
+
+误差也须先保留角区间、每个root与spin方案，再作非线性端点映射；对称degreeerror不自动给对称Gaussian δ误差。Table3实际为E1 interband/可能M2混合，不套M1/E2份额公式。其143.46-keV Is0和Eq11还表明本层localsidefeeding σ在固定其余输入时不可识别，不能把一个σ先验不经验证地移给所有线（IO81-11/12/17）。实际fitgrid和共享Cov仍缺，未重提取原δ。

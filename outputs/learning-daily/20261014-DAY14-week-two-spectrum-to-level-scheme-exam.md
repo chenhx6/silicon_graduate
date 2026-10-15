@@ -124,6 +124,12 @@ PE98-14核TableI脚注6.07的估算角色，PE98-15分开八表行/五当前带/
 
 Clark精确metadata已核，但本地无source/raw，OA-only `nature-downloader --no-si`返回0下载/oa_not_found；工具的confirmed_oa标签与其Unpaywall false/APS default license不相容，未采纳为OA证明。Scholar工具timeout、OSTI SSL失败（未关闭验证）、OpenAlex closed/noPDF，见[取件边界](20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/clark1996-access-boundary.json)。尚未读Clark原文，不用metadata/snippet生成科学claim。
 
+### Day15无学分反证companion：Ionescu1981
+
+[[ionescu-1981-improved-angular-distribution-analysis-particle-xn]]，NIM190,19–27(1981)，DOI[10.1016/0029-554X(81)90200-7](https://doi.org/10.1016/0029-554X(81)90200-7)，citation key `ionescu_1981_Improvedanalysis`。本轮原9页全主线/6fig/3table/Eqs3–11/误差与限制已读，PDF3–8关键视觉核；原件SHA256 `233b11888d8143a17b89da3332afac1342803b35024ac2ec7708c7bd51d435f1`匹配，实际606539bytes，更正旧source字节描述而不改raw。[读前primed recall](20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/day15-feeding-before-source.md)、[量化前预测](20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/ionescu1981-before-calculation.md)和[reading audit](20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/ionescu1981-reading-audit.json)可回访。
+
+IO81-11–20补Table1十行/上下exp-calc、Table2三线七解、Table3实际E1 interband而非adoptedspins；Eq11的含conversion/angleaverage feeding权重、弱线近似、mixed多解及外部excitationfunction范围均核原位。原human-reviewed为旧版本状态、旧十条false保留，本轮十newclaims全部true；旧人审不覆盖本轮增量。
+
 ## Theory/analysis exercise
 
 七边的中心值闭合为`+0.2,+0.4,+0.3 keV`。D的rank4、三个cycle、绝对offset nullspace均由代码核验。独立0.1-keV拟合误差下条件χ²=6.666667；自设将caption约0.3 keV按quadrature加上、并令各线独立后，χ²=0.666667，dof3。后者cycle Σ为`0.1×(3,1,0; 1,3,1; 0,1,3) keV²`，不是三个可相乘的独立检验。
@@ -338,6 +344,14 @@ PT15-9将“J2不依赖绝对spin/Ex赋值”与必须核相邻线身份、ΔI�
 
 原文Nd β=.0202与Ce α3n校正β=.0192不可互换；若同Ce平均发射速度误借Nd β，F乘.950495，约低4.9505%。first-order、F=1条件下36°的Δβ=.001给每MeV .809017keV（144°反号/90°零），不是实测某条line偏移。可见top F<1还有原文明确的未见更高跃迁与feeding；强制top=1会使βhat/βtrue=Ftop。演示Ftop=.9、另一F=.45时归一变.5，全部chosen控制，不是拟合原数据。
 
+### 25-check：原表χ²、角单位与zero-sidefeeding
+
+[输入](20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/ionescu1981-table-input.json)、[程序](../../system/scripts/day14_ionescu_feeding_table_audit.py)和[结果](20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/ionescu1981-feeding-table-audit.json)共25断言，实际exit0。Table1十行按Eq7印刷A2/A4及误差重算χ²，在最近舍入条件下均有必要相容空间；没有复跑population model、原Cov/parent误差或overall confidence。271.12显示值给.006944、原表.01；432triplet仍有作者questionable边界。
+
+Table2同一251.03观测的+76°/+18°/−7.5°三root分别转δ≈4.010781/.324920/−.131652，M1/E2两成分的radiative E2份额约94.1474%/9.54915%/1.70371%。它们含不同spin假设；作者用excitation functions解决，并非本任务认定等可信或选解。原列arctanδ的度数不能直接当δ；误把−7.5当dimensionless值会误得98.25% E2。仅作条件非线性端点传播，无新CI、核B比或absolute strength。
+
+Table3的143.46-keV footnote b给Is0；固定parenttensor/U/转换强度时，Eq11对本层sidefeeding σ导数为零。不能拟合不存在的localsidewidth，parent不确定度仍须保留；Table3是E1/M2，不能套上述E2份额。
+
 ## Counter-evidence and missing companion observables
 
 HE15-9的实际未定双线是核心反例：energy sum、共享R/A和假设的ΔI=2均不足以裁决order。若一条线出现可独立定位的旁路或延迟顺序，应重审中间level；source仍保留括号Jπ与(E2)。HE15-5的quadruplet限制“一个峰是一条γ”的简化；干净622.4直接分支门与323.4级联门的299-keVcomponent差异可能迫使拆峰，但必须控制622/626门纯度、feeding、response和random。
@@ -387,6 +401,12 @@ RI01-10：133Pr3.4(3)/3.3(3)、134Pm3.9(3)/3.9(2)、135Sm6.4(5)/6.4(4)c先保留
 Petrache的二维Q0/Qsf χ² grid、原centroid/共同Σ、完整transition/geometry和slowing/feeding未得；本轮不补逐τ、Q0到triaxial Qt或新的Pr136值。Band3一值/两段作者明确不能firm区分；135Nd Qsf的3.0(5)/4.0(5)、134Nd“same6”与不同fit表行的范围均保留。132Ce外源和Clark转引须逐采集处理，不据相同数值默认独立或同data。
 
 反证重点是作者未直接计算的组态仍有theory栏估算，以及统计不能选择的split/whole fit；必要伴随是原fit/grid、actual gating/response和原Clark几何/谱系，而不是增加转载次数。
+
+### Feeding模型的反证和伴随输入
+
+globalGaussian失败后，改进模型仍假设Gaussian sidefeeding；弱虚线输入还采用δ0-U、parenttensor插值和I0=.88I90，作者称影响小但未给fullinput供本任务重放。Table2/Fig6明确mixed spin多解需要excitationfunctions，故摘要“unambiguous/modelindependent”不能迁为任意angular ratio单独证明。40cm处可忽略Ω也是apparatus条件，不外推clover ADO。
+
+必要材料是逐角counts/calibration/完整Cov、parenttensor/U/转换强度、全部feeding与fitgrid、matched acceptance。Table1负ρ2和Fig3正横轴暂按原样保留，不未核约定就拟合Gaussian曲线。图5依赖Ref5，表通常平均两组测量、parent系数再进入Eq11；不按图表/拟合行/论文重复计独立证据。
 
 ## Knowledge Impact and Learning Decision
 
@@ -451,6 +471,10 @@ Decision: **supports** 共同实验条件下的相对Qt比较，**limits** 摘�
 ### 原始reference定向回读后的决定
 
 Decision: **revises** 将Petrache误作7.4原始出处或将八表行平铺为八带的读法，**limits** 把脚注估算当直接计算/显著形变jump，以及跨通道共用速度归一。**supports** 带身份、fit角色与响应输入一起进入证据矩阵。没有新实验计数/原始重拟合/Pr模式排序或formal成绩变化。
+
+### Feeding伴随源后的认识决定
+
+Decision: **supports** 用已知pureE2检验population、处理整带feeding后才拟合mixed线；**limits** 单一globalσ、好χ²即唯一spin/δ、忽略angle单位和零sidefeeding极限。**revises** 旧digest的Table3描述及source字节数。Formal21/24、completed14/partial15、官方课程计数和原Pr/193Bi结论不变。
 
 ## Durable knowledge delta
 
@@ -2953,6 +2977,123 @@ Decision: **revises** 将Petrache误作7.4原始出处或将八表行平铺为�
           "locator": "PE98-19"
         }
       ]
+    },
+    {
+      "knowledge": "knowledge/sources/ionescu-1981-improved-angular-distribution-analysis-particle-xn.md",
+      "anchor": "Day14补读：feeding递归、表格角色与δ角单位",
+      "summary": "补原表十行/三线七解、feeding权重/弱线近似/zero-Is和外部spin材料；更正bytes/Table3，保留旧humanreview/十false、新十true。",
+      "sources": [
+        {
+          "path": "knowledge/sources/ionescu-1981-improved-angular-distribution-analysis-particle-xn.md",
+          "locator": "IO81-11"
+        },
+        {
+          "path": "knowledge/sources/ionescu-1981-improved-angular-distribution-analysis-particle-xn.md",
+          "locator": "IO81-12"
+        },
+        {
+          "path": "knowledge/sources/ionescu-1981-improved-angular-distribution-analysis-particle-xn.md",
+          "locator": "IO81-13"
+        },
+        {
+          "path": "knowledge/sources/ionescu-1981-improved-angular-distribution-analysis-particle-xn.md",
+          "locator": "IO81-14"
+        },
+        {
+          "path": "knowledge/sources/ionescu-1981-improved-angular-distribution-analysis-particle-xn.md",
+          "locator": "IO81-15"
+        },
+        {
+          "path": "knowledge/sources/ionescu-1981-improved-angular-distribution-analysis-particle-xn.md",
+          "locator": "IO81-16"
+        },
+        {
+          "path": "knowledge/sources/ionescu-1981-improved-angular-distribution-analysis-particle-xn.md",
+          "locator": "IO81-17"
+        },
+        {
+          "path": "knowledge/sources/ionescu-1981-improved-angular-distribution-analysis-particle-xn.md",
+          "locator": "IO81-18"
+        },
+        {
+          "path": "knowledge/sources/ionescu-1981-improved-angular-distribution-analysis-particle-xn.md",
+          "locator": "IO81-19"
+        },
+        {
+          "path": "knowledge/sources/ionescu-1981-improved-angular-distribution-analysis-particle-xn.md",
+          "locator": "IO81-20"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/methods/angular-distribution.md",
+      "anchor": "Feeding校准的原表检验与外部自旋材料",
+      "summary": "actualpureE2/wholebandcalibration和mixed多解范围；含conversion权重、Is0及apparatus条件。",
+      "sources": [
+        {
+          "path": "knowledge/sources/ionescu-1981-improved-angular-distribution-analysis-particle-xn.md",
+          "locator": "IO81-11"
+        },
+        {
+          "path": "knowledge/sources/ionescu-1981-improved-angular-distribution-analysis-particle-xn.md",
+          "locator": "IO81-12"
+        },
+        {
+          "path": "knowledge/sources/ionescu-1981-improved-angular-distribution-analysis-particle-xn.md",
+          "locator": "IO81-13"
+        },
+        {
+          "path": "knowledge/sources/ionescu-1981-improved-angular-distribution-analysis-particle-xn.md",
+          "locator": "IO81-14"
+        },
+        {
+          "path": "knowledge/sources/ionescu-1981-improved-angular-distribution-analysis-particle-xn.md",
+          "locator": "IO81-15"
+        },
+        {
+          "path": "knowledge/sources/ionescu-1981-improved-angular-distribution-analysis-particle-xn.md",
+          "locator": "IO81-16"
+        },
+        {
+          "path": "knowledge/sources/ionescu-1981-improved-angular-distribution-analysis-particle-xn.md",
+          "locator": "IO81-17"
+        },
+        {
+          "path": "knowledge/sources/ionescu-1981-improved-angular-distribution-analysis-particle-xn.md",
+          "locator": "IO81-18"
+        },
+        {
+          "path": "knowledge/sources/ionescu-1981-improved-angular-distribution-analysis-particle-xn.md",
+          "locator": "IO81-20"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/observables/multipole-mixing-ratio.md",
+      "anchor": "arctanδ列的单位、多解与feeding条件",
+      "summary": "角单位先tan后辐射份额、spin/root和branchabs约定分开，端点传播不伪造CI/absoluteB。",
+      "sources": [
+        {
+          "path": "knowledge/sources/ionescu-1981-improved-angular-distribution-analysis-particle-xn.md",
+          "locator": "IO81-11"
+        },
+        {
+          "path": "knowledge/sources/ionescu-1981-improved-angular-distribution-analysis-particle-xn.md",
+          "locator": "IO81-12"
+        },
+        {
+          "path": "knowledge/sources/ionescu-1981-improved-angular-distribution-analysis-particle-xn.md",
+          "locator": "IO81-14"
+        },
+        {
+          "path": "knowledge/sources/ionescu-1981-improved-angular-distribution-analysis-particle-xn.md",
+          "locator": "IO81-15"
+        },
+        {
+          "path": "knowledge/sources/ionescu-1981-improved-angular-distribution-analysis-particle-xn.md",
+          "locator": "IO81-17"
+        }
+      ]
     }
   ]
 }
@@ -3074,6 +3215,10 @@ Danko99primary合法OA/publicPDF/官方API/repo均未提供正文（403HTML/401J
 ### 原始reference与估算的canonical增量
 
 [已有Petrache source](../../knowledge/sources/petrache-1998-highly-deformed-lifetimes-131ce-nd.md)“Day14定向重读：表角色、估算与速度归一”存完整八行及PE98-14–19（R11–R14原位）；[Qt](../../knowledge/observables/transition-quadrupole-moment.md)“同一表中的分段fit、计算估算与原始reference”和[DSAM](../../knowledge/methods/doppler-shift-attenuation-method.md)“同束靶的通道速度与可见带顶归一”存可复用输入/判断边界；[Matev](../../knowledge/sources/matev-2007-a130-quadrupole-alignment-additivity.md)追加MT07-20明确其Ref39的真正身份。无新增raw/source档案或Clark直接结果。
+
+### Feeding的canonical增量
+
+[原Ionescu source](../../knowledge/sources/ionescu-1981-improved-angular-distribution-analysis-particle-xn.md)“Day14补读：feeding递归、表格角色与δ角单位”保存十条Table1原数据、三条Table2的七fit和IO81-11–20原位；[angular method](../../knowledge/methods/angular-distribution.md)“Feeding校准的原表检验与外部自旋材料”和[δ observable](../../knowledge/observables/multipole-mixing-ratio.md)“arctanδ列的单位、多解与feeding条件”存可复用判据。原已人审内容不被本轮自动重新人审；新claims true，raw不改。
 
 ## Open questions and belief revision
 
@@ -3317,3 +3462,9 @@ wiki_lint --fail-on error实际exit0，0errors/131warnings（107citationkey、21
 2026-10-15T22:24:20.573157+08:00：Petrache1998原5页/2fig/1table脚注与限制定向核完；16项hash/表角色/精确脚注/速度归一控制实际exit0。report/card/writeback valid，唯一block108items/36changed knowledge页。六新PE98与MT07-20 parsed true、原PE98-1–13与Matv旧claims/四页旧非空行（仅source updated日期变更）和review保持；raw metadata/原PDF哈希/PLAN/Bib/AST及`git diff --check`exit0。Fresh `wiki_lint --fail-on error`exit0，0errors/141warnings（112citekey/26raw槽/3parser）。无逐τ/Σ/χ²原始重拟合；Clark四页原全文未得，取件失败不伪造结果。
 
 前29批Gitee已published；本批稳定 main / `Audit DAY14 original quadrupole reference and channel normalization`，actualH3/hash只receipt。实际clock再次检查距离研究cutoff仍逾16小时，重建候选池并逐字查看Day14/Day15卡（未显示Day16）：正式14全交付已具备，Day15计算单和误差/约定知识已覆盖但只partial。允许的下一有界preview是Ionescu1981原pureE2 feeding测试，source-before recall已freeze，正文/PDF未开，不重复同toy或计卡。研究2026-10-16 15:00止、16:00交付，run/goalactive、formal21/24/officialnext14/count13保持。
+
+### Checkpoint031 Day15无学分feeding伴随源验收
+
+2026-10-15T22:44:18.570803+08:00：Ionescu1981原9页/6fig/3tables/Eqs3–11核完，25项Table1舍入χ²/七个Table2 root单位/零Is控制实际exit0。report/card/writeback valid，唯一block111items/38changed knowledge页；旧source人审状态及十条false原样保持，十newclaims true，人审不覆盖本轮增量。Source字节数606539（hash匹配、raw不改）、Fig3“八条最精确”和Table3 E1interband描述是明确更正，其余旧非空行/三个page review保持。raw metadata/PLAN/Bib/AST与`git diff --check`exit0；fresh `wiki_lint --fail-on error`exit0：0errors/141warnings（112citekeys/26rawslots/3parser）。原始model/Σ/δCI未重建。
+
+前30批Gitee已published；本批稳定指针 main / `Audit DAY14 feeding calibration and angular mixing table units`，actualH3/hash只receipt。研究时窗仍active，下一有界信息缺口是Eq11 parenttensor×U方向/归一和共享输入；已freeze来源前预测，不重复原表数字或同toy参数。研究2026-10-16 15:00止、16:00交付；formal21/24、completed14/partial15及officialnext14/count13保持，不开Day16。

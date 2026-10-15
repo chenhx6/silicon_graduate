@@ -355,3 +355,13 @@ Z80-19：当前九页scan没有找到p229所指Table3，GNOMON代码又被原Ref
 [[nndc-2005-67ga-selected-level-gamma-records]] N67-2/3将reference958标E2(+M3)、δ=−0.00(1)，给出有限quoted .01及alpha1978AL32的依赖；Fe对象再用adopted不计独立δ。这支持nominalpureE2条件练习而不把δ=0当精确实验事实。此前正布居Farkas证书仍明确限固定δ0/reference/响应；它不排除实验或解决actualCov/GF缺口。
 
 N67-7的同DCO1.45(7)对应958E2与554E1，reference/gate/geometry没有提供，不能以通用ratio阈值省略spinsequence/conditioning。完整parent/RI/时间/Γ→B38-check契约在[[level-scheme-reconstruction]]“67Ga：跨对象的parent与强度输入核验”，避免把已编译输入、另reaction的alignment和原实验独立性混为一谈。
+
+## Feeding校准的原表检验与外部自旋材料
+
+[[ionescu-1981-improved-angular-distribution-analysis-particle-xn]] IO81-11–20的Day14补读把论文摘要的“unambiguous”还原到实际流程。pureE2用于约束population，但mixed-line的Table2/Fig6仍有不同spin/root的小χ²，作者明确再用excitation functions选择。已知同初态pureE2是校准条件，不能不检查feeding就从任一angular ratio唯一推δ/spin。
+
+其Eq11按total/angle-averaged且含conversion的强度权重混合sidefeeding Gaussian与parenttensor×U；σ只表征localsidefeeding。Table3的143.46-keV Is=0例子，在固定parenttensor/U/强度后对localσ导数为零，无须假造该σ测量。wholeband输入与共享parent误差不能按单行独立对角化（IO81-12/17/20）。
+
+Table1十行exp/calculated不是20个观测；本轮按Eq7从印刷A2/A4重算χ²，仅通过必要舍入相容检查，没有得到actualΣ或完整模型拟合。Q/D/T、尤其432triplet questionable保持。Table2的arctanδ[deg]要转换为amp δ；如−7.5°→−.131652，属于已指定假设的结果而非唯一选解（IO81-14–16）。
+
+作者弱line的δ0-U、parenttensor插值和12%强度近似，以及40cm条件下忽略Ω的处理均属该实验，不能作为现代ADO一般校正。正式Day15仍需自己的来源前回忆、f_ADO计算单和convention审计；本轮仅partial preview。

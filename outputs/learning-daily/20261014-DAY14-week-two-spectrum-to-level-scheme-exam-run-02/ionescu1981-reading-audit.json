@@ -1,0 +1,50 @@
+{
+  "at": "2026-10-15T22:42:41.639721+08:00",
+  "pages_read": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "figures": [
+    "Fig1",
+    "Fig2",
+    "Fig3",
+    "Fig4",
+    "Fig5",
+    "Fig6"
+  ],
+  "tables": [
+    "Table1",
+    "Table2",
+    "Table3"
+  ],
+  "visual_key_pages": [
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "source_hash": "233b11888d8143a17b89da3332afac1342803b35024ac2ec7708c7bd51d435f1",
+  "raw_bytes": 606539,
+  "old_review_status_preserved": "human-reviewed legacy",
+  "old_claim_flags_preserved": "IO81-1–10 false; new11–20 true",
+  "intentional_legacy_prose_corrections": [
+    "rawbytes text375432->verified606539; hash unchanged",
+    "Fig3 eight most precise, not newly strict-confirmed",
+    "Table3 actual E1interband/arctanM2 table, not adoptedspins"
+  ],
+  "not_executed": [
+    "full population model fit",
+    "rawcount/covariance reconstruction",
+    "actualsigma/delta CI",
+    "Fig3 Gaussian curve refit before sign convention mapping"
+  ]
+}

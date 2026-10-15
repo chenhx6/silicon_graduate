@@ -1,0 +1,87 @@
+{
+  "url": "https://api.crossref.org/works/10.1016/0029-554X(81)90200-7",
+  "status": 200,
+  "at": "2026-10-15T22:32:20.702031+08:00",
+  "metadata": {
+    "DOI": "10.1016/0029-554x(81)90200-7",
+    "title": [
+      "Improved analysis of γ-ray angular distributions in (particle, xn) experiments"
+    ],
+    "author": [
+      {
+        "given": "V.A.",
+        "family": "Ionescu",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "J.",
+        "family": "Kern",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "C.",
+        "family": "Nordmann",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "S.",
+        "family": "Olbrich",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "W.",
+        "family": "Reichart",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      }
+    ],
+    "container-title": [
+      "Nuclear Instruments and Methods in Physics Research"
+    ],
+    "volume": "190",
+    "issue": "1",
+    "page": "19-27",
+    "published": {
+      "date-parts": [
+        [
+          1981,
+          11
+        ]
+      ]
+    }
+  }
+}

@@ -1,0 +1,364 @@
+{
+  "kind": "printed conditional Eq7 and table-unit audit, not population-model reanalysis",
+  "source_doi": "10.1016/0029-554X(81)90200-7",
+  "source_sha256": "233b11888d8143a17b89da3332afac1342803b35024ac2ec7708c7bd51d435f1",
+  "table1_checks": [
+    {
+      "Egamma_literal_kev": "209.92",
+      "multiplet": "Q",
+      "A2_exp": "0.239(58)",
+      "A4_exp": "-0.105(64)",
+      "A2_calculated": "0.254",
+      "A4_calculated": "-0.054",
+      "reported_chi2": "0.70",
+      "recomputed_from_displayed_centers": 0.701894426742717,
+      "necessary_rounding_interval": [
+        0.6581976875552059,
+        0.7480224527178734
+      ],
+      "not_full_model_refit": true
+    },
+    {
+      "Egamma_literal_kev": "228.61",
+      "multiplet": "Q",
+      "A2_exp": "0.205(7)",
+      "A4_exp": "-0.055(9)",
+      "A2_calculated": "0.205",
+      "A4_calculated": "-0.048",
+      "reported_chi2": "0.59",
+      "recomputed_from_displayed_centers": 0.604938271604938,
+      "necessary_rounding_interval": [
+        0.39889196675900257,
+        0.9094817878421818
+      ],
+      "not_full_model_refit": true
+    },
+    {
+      "Egamma_literal_kev": "295.585",
+      "multiplet": "",
+      "A2_exp": "0.243(19)",
+      "A4_exp": "-0.062(8)",
+      "A2_calculated": "0.250",
+      "A4_calculated": "-0.061",
+      "reported_chi2": "0.13",
+      "recomputed_from_displayed_centers": 0.15135907202216092,
+      "necessary_rounding_interval": [
+        0.09467455621301793,
+        0.2581089197305418
+      ],
+      "not_full_model_refit": true
+    },
+    {
+      "Egamma_literal_kev": "318.135",
+      "multiplet": "",
+      "A2_exp": "0.256(9)",
+      "A4_exp": "-0.067(10)",
+      "A2_calculated": "0.259",
+      "A4_calculated": "-0.058",
+      "reported_chi2": "0.93",
+      "recomputed_from_displayed_centers": 0.9211111111111115,
+      "necessary_rounding_interval": [
+        0.6248201958530412,
+        1.3294865281944623
+      ],
+      "not_full_model_refit": true
+    },
+    {
+      "Egamma_literal_kev": "371.52",
+      "multiplet": "Q",
+      "A2_exp": "0.239(21)",
+      "A4_exp": "-0.071(26)",
+      "A2_calculated": "0.243",
+      "A4_calculated": "-0.045",
+      "reported_chi2": "1.1",
+      "recomputed_from_displayed_centers": 1.0362811791383215,
+      "necessary_rounding_interval": [
+        0.9094664237892529,
+        1.1805956661980324
+      ],
+      "not_full_model_refit": true
+    },
+    {
+      "Egamma_literal_kev": "397.38",
+      "multiplet": "D",
+      "A2_exp": "0.234(15)",
+      "A4_exp": "-0.048(14)",
+      "A2_calculated": "0.233",
+      "A4_calculated": "-0.057",
+      "reported_chi2": "0.40",
+      "recomputed_from_displayed_centers": 0.4177097505668935,
+      "necessary_rounding_interval": [
+        0.30439952437574314,
+        0.5677218152666255
+      ],
+      "not_full_model_refit": true
+    },
+    {
+      "Egamma_literal_kev": "184.33",
+      "multiplet": "D",
+      "A2_exp": "0.248(9)",
+      "A4_exp": "-0.013(49)",
+      "A2_calculated": "0.247",
+      "A4_calculated": "-0.061",
+      "reported_chi2": "0.96",
+      "recomputed_from_displayed_centers": 0.9719458456095968,
+      "necessary_rounding_interval": [
+        0.9015406591164167,
+        1.0760881597204472
+      ],
+      "not_full_model_refit": true
+    },
+    {
+      "Egamma_literal_kev": "271.12",
+      "multiplet": "",
+      "A2_exp": "0.266(10)",
+      "A4_exp": "-0.074(12)",
+      "A2_calculated": "0.266",
+      "A4_calculated": "-0.073",
+      "reported_chi2": "0.01",
+      "recomputed_from_displayed_centers": 0.006944444444444458,
+      "necessary_rounding_interval": [
+        4.8148248609680896e-33,
+        0.041326079101843785
+      ],
+      "not_full_model_refit": true
+    },
+    {
+      "Egamma_literal_kev": "354.85",
+      "multiplet": "",
+      "A2_exp": "0.303(18)",
+      "A4_exp": "-0.101(22)",
+      "A2_calculated": "0.308",
+      "A4_calculated": "-0.086",
+      "reported_chi2": "0.52",
+      "recomputed_from_displayed_centers": 0.5420365268850127,
+      "necessary_rounding_interval": [
+        0.4339099459820189,
+        0.6713638922307714
+      ],
+      "not_full_model_refit": true
+    },
+    {
+      "Egamma_literal_kev": "432.47",
+      "multiplet": "T",
+      "A2_exp": "0.255(22)",
+      "A4_exp": "-0.118(32)",
+      "A2_calculated": "0.271",
+      "A4_calculated": "-0.059",
+      "reported_chi2": "3.9",
+      "recomputed_from_displayed_centers": 3.9283396823347108,
+      "necessary_rounding_interval": [
+        3.6292965154503625,
+        4.2533207261631905
+      ],
+      "not_full_model_refit": true
+    }
+  ],
+  "table2_hypothesis_transforms": [
+    {
+      "delta_J": -1,
+      "arctan_delta_deg": 24,
+      "angle_error_minus": 9,
+      "angle_error_plus": 9,
+      "chi2": 0.8,
+      "Egamma_kev": "304.41",
+      "angle_interval_deg": [
+        15,
+        33
+      ],
+      "delta": 0.4452286853085362,
+      "delta_endpoint_range": [
+        0.2679491924311227,
+        0.6494075931975106
+      ],
+      "conditional_radiative_E2_fraction": 0.16543469682057088,
+      "fraction_endpoint_range": [
+        0.06698729810778066,
+        0.2966316784620999
+      ],
+      "coverage_not_recovered": true
+    },
+    {
+      "delta_J": 1,
+      "arctan_delta_deg": -13,
+      "angle_error_minus": 9,
+      "angle_error_plus": 9,
+      "chi2": 0.7,
+      "Egamma_kev": "304.41",
+      "angle_interval_deg": [
+        -22,
+        -4
+      ],
+      "delta": -0.23086819112556312,
+      "delta_endpoint_range": [
+        -0.4040262258351568,
+        -0.06992681194351041
+      ],
+      "conditional_radiative_E2_fraction": 0.05060297685041651,
+      "fraction_endpoint_range": [
+        0.004865965629214842,
+        0.1403300998306744
+      ],
+      "coverage_not_recovered": true
+    },
+    {
+      "delta_J": -1,
+      "arctan_delta_deg": 76,
+      "angle_error_minus": 2,
+      "angle_error_plus": 2,
+      "chi2": 0.4,
+      "Egamma_kev": "251.03",
+      "angle_interval_deg": [
+        74,
+        78
+      ],
+      "delta": 4.0107809335358455,
+      "delta_endpoint_range": [
+        3.4874144438409087,
+        4.704630109478451
+      ],
+      "conditional_radiative_E2_fraction": 0.9414737964294635,
+      "fraction_endpoint_range": [
+        0.924024048078213,
+        0.9567727288213004
+      ],
+      "coverage_not_recovered": true
+    },
+    {
+      "delta_J": -1,
+      "arctan_delta_deg": 18,
+      "angle_error_minus": 3,
+      "angle_error_plus": 3,
+      "chi2": 0.5,
+      "Egamma_kev": "251.03",
+      "angle_interval_deg": [
+        15,
+        21
+      ],
+      "delta": 0.3249196962329063,
+      "delta_endpoint_range": [
+        0.2679491924311227,
+        0.3838640350354158
+      ],
+      "conditional_radiative_E2_fraction": 0.09549150281252627,
+      "fraction_endpoint_range": [
+        0.06698729810778066,
+        0.12842758726130288
+      ],
+      "coverage_not_recovered": true
+    },
+    {
+      "delta_J": 1,
+      "arctan_delta_deg": -7.5,
+      "angle_error_minus": 1.5,
+      "angle_error_plus": 1.5,
+      "chi2": 0.5,
+      "Egamma_kev": "251.03",
+      "angle_interval_deg": [
+        -9.0,
+        -6.0
+      ],
+      "delta": -0.13165249758739583,
+      "delta_endpoint_range": [
+        -0.15838444032453627,
+        -0.10510423526567647
+      ],
+      "conditional_radiative_E2_fraction": 0.01703708685546585,
+      "fraction_endpoint_range": [
+        0.010926199633097182,
+        0.024471741852423214
+      ],
+      "coverage_not_recovered": true
+    },
+    {
+      "delta_J": -1,
+      "arctan_delta_deg": 44,
+      "angle_error_minus": 36,
+      "angle_error_plus": 36,
+      "chi2": null,
+      "Egamma_kev": "184.0",
+      "angle_interval_deg": [
+        8,
+        80
+      ],
+      "delta": 0.9656887748070739,
+      "delta_endpoint_range": [
+        0.14054083470239145,
+        5.671281819617707
+      ],
+      "conditional_radiative_E2_fraction": 0.4825502516487495,
+      "fraction_endpoint_range": [
+        0.019369152030840567,
+        0.9698463103929541
+      ],
+      "coverage_not_recovered": true
+    },
+    {
+      "delta_J": 1,
+      "arctan_delta_deg": -7,
+      "angle_error_minus": 10,
+      "angle_error_plus": 5,
+      "chi2": 0.03,
+      "Egamma_kev": "184.0",
+      "angle_interval_deg": [
+        -17,
+        -2
+      ],
+      "delta": -0.1227845609029046,
+      "delta_endpoint_range": [
+        -0.3057306814586604,
+        -0.03492076949174773
+      ],
+      "conditional_radiative_E2_fraction": 0.014852136862001762,
+      "fraction_endpoint_range": [
+        0.001217974870087876,
+        0.08548121372247917
+      ],
+      "coverage_not_recovered": true
+    }
+  ],
+  "wrong_degree_as_delta_control": {
+    "chosen_wrong_delta": -7.5,
+    "wrong_fraction": 0.982532751091703,
+    "correct_fraction_for_source_angle_minus7p5deg": 0.01703708685546585
+  },
+  "Table3_zero_sidefeeding": {
+    "Egamma_kev": 143.46,
+    "sidefeeding_intensity_Is": 0,
+    "locator": "printed22 Table3 footnote b / PDF4",
+    "local_sigma_not_fitted": true,
+    "derivative_local_rho_wrt_local_sigma": "Is/IT * d rho_sf/dsigma = 0, holding parents/U/intensities fixed",
+    "actual_parent_tensors_or_derivative_numeric_not_inferred": true
+  },
+  "actual_fit_covariance": null,
+  "actual_coverage": null,
+  "checks": {
+    "original_hash_unchanged": true,
+    "ten_table1_transitions_not_twenty_independent_rows": true,
+    "rounding_compatible_209.92": true,
+    "rounding_compatible_228.61": true,
+    "rounding_compatible_295.585": true,
+    "rounding_compatible_318.135": true,
+    "rounding_compatible_371.52": true,
+    "rounding_compatible_397.38": true,
+    "rounding_compatible_184.33": true,
+    "rounding_compatible_271.12": true,
+    "rounding_compatible_354.85": true,
+    "rounding_compatible_432.47": true,
+    "multiplet_warning_retained": true,
+    "radiative_identity_1": true,
+    "radiative_identity_2": true,
+    "radiative_identity_3": true,
+    "radiative_identity_4": true,
+    "radiative_identity_5": true,
+    "radiative_identity_6": true,
+    "radiative_identity_7": true,
+    "three_lines_seven_hypothesis_roots": true,
+    "same_coefficients_allow_three_roots_in_source": true,
+    "degree_value_not_dimensionless_delta": true,
+    "zero_local_sidefeeding_sigma_coefficient": true,
+    "no_raw_covariance_or_CI_inferred": true
+  },
+  "check_count": 25,
+  "passed": true
+}

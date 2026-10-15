@@ -342,3 +342,6 @@ DAY14已读Riley2001的centroidDSAM/Qt typed表、gate/feeding/共同systematics
 
 
 DAY14延期checkpoint030已复核原矩参考/通道归一；下一有界Ionescu1981 feeding-aware pureE2阅读仍仅本卡无信用preview，正式Day15须记录届时priming再独立执行本卡。
+
+
+DAY14延期checkpoint031已预读Ionescu1981九页pureE2/feeding、多解及角单位；25项仅知识核查，本卡仍partial无信用。正式Day15记录这一priming，不沿用DAY14成绩或用source旧humanreview覆盖新claims。
