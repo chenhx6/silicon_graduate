@@ -295,3 +295,6 @@ Day14最终只补截止前已读2018 ENSDF136Pr记录（N136-1–8）与accepted
 
 
 2026-10-15 15:45用户因断网将Day14研究延长至2026-10-16 16:00上海，同run/session继续，Day15仍只partial无信用。本文件是正式Day15待启入口，实际run_date/启动时间由下一runner赋值；不因旧日期或Day14延期自行创建新session。
+
+
+Day14延期后完成66-check free-recoil energy-opening-angle条件推导；K.862eV为A193proxy、response自设，不赋实际order。Staticangularno-go只限原kernel；stopping/独立calibration和未知Σ边界保持。这是formalDay15的priming，非本卡credit。

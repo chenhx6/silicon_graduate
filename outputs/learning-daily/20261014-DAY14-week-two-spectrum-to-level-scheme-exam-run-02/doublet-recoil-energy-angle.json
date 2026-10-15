@@ -1,0 +1,207 @@
+{
+  "model": "exact isolated-cascade kinematics plus CHOSEN conditional Gaussian energy response",
+  "source": {
+    "path": "knowledge/sources/herzan-2015-193bi-spectroscopy.md",
+    "locator": "HE15-9",
+    "actual_initial_mass": null,
+    "actual_intermediate_stopping": null,
+    "actual_detector_energy_angle_response": null
+  },
+  "chosen": {
+    "mass_number": 193,
+    "u_keV": 931494.10242,
+    "initial_M_keV": 179778361.76706,
+    "reference_c": 0,
+    "high_keV": 394.0,
+    "low_keV": 393.4,
+    "sigma_E_single_keV": 0.8,
+    "conditional_detector_label_weights": "equal; no source assertion"
+  },
+  "recoil_scale_K_keV": 0.0008621704997002585,
+  "overlap_separation_information": 0.37236421062879194,
+  "final_mass_squared_exact_rational": "80799940612484472999032609/2500000000",
+  "exact_controls": [
+    {
+      "c": "-1",
+      "first": "394",
+      "second_lab": 393.40086217427876,
+      "final_invariant_residual_exact": "0"
+    },
+    {
+      "c": "-1",
+      "first": "1967/5",
+      "second_lab": 394.000862174273,
+      "final_invariant_residual_exact": "0"
+    },
+    {
+      "c": "-7/10",
+      "first": "394",
+      "second_lab": 393.4006035215983,
+      "final_invariant_residual_exact": "0"
+    },
+    {
+      "c": "-7/10",
+      "first": "1967/5",
+      "second_lab": 394.0006035215949,
+      "final_invariant_residual_exact": "0"
+    },
+    {
+      "c": "0",
+      "first": "394",
+      "second_lab": 393.4,
+      "final_invariant_residual_exact": "0"
+    },
+    {
+      "c": "0",
+      "first": "1967/5",
+      "second_lab": 394.0,
+      "final_invariant_residual_exact": "0"
+    },
+    {
+      "c": "7/10",
+      "first": "394",
+      "second_lab": 393.3993964802534,
+      "final_invariant_residual_exact": "0"
+    },
+    {
+      "c": "7/10",
+      "first": "1967/5",
+      "second_lab": 393.999396480254,
+      "final_invariant_residual_exact": "0"
+    },
+    {
+      "c": "1",
+      "first": "394",
+      "second_lab": 393.3991378295003,
+      "final_invariant_residual_exact": "0"
+    },
+    {
+      "c": "1",
+      "first": "1967/5",
+      "second_lab": 393.9991378295003,
+      "final_invariant_residual_exact": "0"
+    }
+  ],
+  "table": [
+    {
+      "c": -0.7071067811865475,
+      "low_second_delta_keV": 0.0006096488877404481,
+      "high_second_delta_keV": 0.0006096488842670391,
+      "contrast_sep_high_first": 0.5297912273116006,
+      "contrast_sep_low_first": 0.5308689444651907,
+      "contrast_second_moment_difference": -0.0011430916612537487,
+      "sum_mean_order_difference_keV": 3.4734090174284654e-12,
+      "J_contrast": 2.1624568681302499e-07,
+      "J_sum": 4.712722735294287e-24,
+      "J_joint": 2.1624568681302499e-07,
+      "J_leading": 2.162441067465019e-07
+    },
+    {
+      "c": 0.0,
+      "low_second_delta_keV": -0.0,
+      "high_second_delta_keV": -0.0,
+      "contrast_sep_high_first": 0.5303300858899307,
+      "contrast_sep_low_first": 0.5303300858899307,
+      "contrast_second_moment_difference": 0.0,
+      "sum_mean_order_difference_keV": -0.0,
+      "J_contrast": 0.0,
+      "J_sum": 0.0,
+      "J_joint": 0.0,
+      "J_leading": 0.0
+    },
+    {
+      "c": 0.7071067811865475,
+      "low_second_delta_keV": -0.0006096469982101259,
+      "high_second_delta_keV": -0.0006096469976141868,
+      "contrast_sep_high_first": 0.5308689427981361,
+      "contrast_sep_low_first": 0.5297912289822518,
+      "contrast_second_moment_difference": 0.001143088121085923,
+      "sum_mean_order_difference_keV": -5.959390807713282e-13,
+      "J_contrast": 2.1624434738427315e-07,
+      "J_sum": 1.387278859338186e-25,
+      "J_joint": 2.1624434738427315e-07,
+      "J_leading": 2.162441067465019e-07
+    }
+  ],
+  "stopped_constant_second_shifts_keV": [
+    "9.447651610918979724892424358249323026748024548406969790152874E-10",
+    "9.433264261235642828199329176503055446295769928847465179302360E-10"
+  ],
+  "information_definition": "half Jeffreys in nats; conditional on chosen angle; not power/count requirement/p-value",
+  "boundaries": [
+    "not a covariant full angular-amplitude probability model",
+    "static angular-swap theorem alone does not include this energy kernel",
+    "complete stopping removes leading angle term, not every constant recoil correction",
+    "angle-dependent response must be independently constrained",
+    "no actual 193Bi order, mass, lifetime, stopping or measurement significance"
+  ],
+  "checks": {
+    "mass_and_gap_units_keV_c_equal_one": true,
+    "separation_information_known_overlap_not_zero": true,
+    "unresolved_equal_energy_separation_information_zero": true,
+    "well_separated_mixture_information_tends_one": true,
+    "exact_four_momentum_common_final_-1_394": true,
+    "positive_final_and_middle_masses_-1_394": true,
+    "independent_rational_energy_shift_-1_394": true,
+    "exact_four_momentum_common_final_-1_1967/5": true,
+    "positive_final_and_middle_masses_-1_1967/5": true,
+    "independent_rational_energy_shift_-1_1967/5": true,
+    "exact_four_momentum_common_final_-7/10_394": true,
+    "positive_final_and_middle_masses_-7/10_394": true,
+    "independent_rational_energy_shift_-7/10_394": true,
+    "exact_four_momentum_common_final_-7/10_1967/5": true,
+    "positive_final_and_middle_masses_-7/10_1967/5": true,
+    "independent_rational_energy_shift_-7/10_1967/5": true,
+    "exact_four_momentum_common_final_0_394": true,
+    "positive_final_and_middle_masses_0_394": true,
+    "independent_rational_energy_shift_0_394": true,
+    "exact_four_momentum_common_final_0_1967/5": true,
+    "positive_final_and_middle_masses_0_1967/5": true,
+    "independent_rational_energy_shift_0_1967/5": true,
+    "exact_four_momentum_common_final_7/10_394": true,
+    "positive_final_and_middle_masses_7/10_394": true,
+    "independent_rational_energy_shift_7/10_394": true,
+    "exact_four_momentum_common_final_7/10_1967/5": true,
+    "positive_final_and_middle_masses_7/10_1967/5": true,
+    "independent_rational_energy_shift_7/10_1967/5": true,
+    "exact_four_momentum_common_final_1_394": true,
+    "positive_final_and_middle_masses_1_394": true,
+    "independent_rational_energy_shift_1_394": true,
+    "exact_four_momentum_common_final_1_1967/5": true,
+    "positive_final_and_middle_masses_1_1967/5": true,
+    "independent_rational_energy_shift_1_1967/5": true,
+    "Lorentz_roundtrip_second_photon_394.0": true,
+    "rest_energy_independent_of_lab_opening_angle_394.0": true,
+    "Lorentz_roundtrip_second_photon_393.4": true,
+    "rest_energy_independent_of_lab_opening_angle_393.4": true,
+    "contrast_quadrature_converges_-0.7071067811865475": true,
+    "full_joint_factorization_J_-0.7071067811865475": true,
+    "sum_difference_subtracted_form_-0.7071067811865475": true,
+    "conditional_measured_sum_same_at_order1overM_-0.7071067811865475": true,
+    "contrast_moment_identity_-0.7071067811865475": true,
+    "leading_recoil_information_scale_-0.7071067811865475": true,
+    "contrast_quadrature_converges_0.0": true,
+    "full_joint_factorization_J_0.0": true,
+    "sum_difference_subtracted_form_0.0": true,
+    "conditional_measured_sum_same_at_order1overM_0.0": true,
+    "contrast_moment_identity_0.0": true,
+    "reference_angle_both_hypotheses_identical": true,
+    "contrast_quadrature_converges_0.7071067811865475": true,
+    "full_joint_factorization_J_0.7071067811865475": true,
+    "sum_difference_subtracted_form_0.7071067811865475": true,
+    "conditional_measured_sum_same_at_order1overM_0.7071067811865475": true,
+    "contrast_moment_identity_0.7071067811865475": true,
+    "leading_recoil_information_scale_0.7071067811865475": true,
+    "zero_gap_unordered_full_energy_density_equal": true,
+    "mixture_even_label_symmetry": true,
+    "infinite_mass_shift_halves": true,
+    "information_scales_inverse_mass_squared": true,
+    "stopping_constant_shift_not_exact_zero": true,
+    "stopping_residual_far_below_leading_free_recoil": true,
+    "stopping_constant_residual_inverse_mass_squared": true,
+    "local_nuclear_and_pair_response_slope_rank_one": true,
+    "independent_response_calibration_adds_direction": true,
+    "unknown_component_pair_response_can_align_conditional_means": true
+  },
+  "checks_passed": 66
+}

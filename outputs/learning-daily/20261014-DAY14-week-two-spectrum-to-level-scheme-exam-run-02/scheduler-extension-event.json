@@ -1,0 +1,27 @@
+{
+  "path": "outputs/learning-milestones/2026-09-one-month-scheduler.jsonl",
+  "event": {
+    "event": "user-deadline-extended-same-session",
+    "at": "2026-10-15T15:48:32.185223+08:00",
+    "schedule_id": "wiki-daily-learning",
+    "run_id": "2026-10-14-day-14-02",
+    "session_id": "01a13a0e-e8bd-7251-b970-f6975679e281",
+    "resume_command": [
+      "codex",
+      "resume",
+      "01a13a0e-e8bd-7251-b970-f6975679e281",
+      "-C",
+      "/workspace/wiki",
+      "-s",
+      "danger-full-access",
+      "-a",
+      "never"
+    ],
+    "previous_deadline": "2026-10-15T15:00:00+08:00",
+    "overnight_until": "2026-10-16T16:00:00+08:00",
+    "reason": "explicit user authorization after user-reported network outage",
+    "new_session_created": false,
+    "daemon_restarted": false
+  },
+  "publication": "runtime append preserved locally; not staging inherited scheduler log"
+}

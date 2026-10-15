@@ -435,3 +435,64 @@ LV25-20明示与Refs16/31共享acquisition，Ref16就是[[lv-2019-chirality-135n
 N136-5的754.4 DCO异常是compiler“perhaps typo”，保留原ratio与措辞；N136-7首条unplacedG和原图/表差异不自动修复。N136-6的91ns是6+bandhead评价半衰期，不借给高能母态。缺1996primary、逐门/response、背景和Σ，无法选择新旧顺序或做actualL4；最小有价值续路为原图/表/新gate净计数的identity和旁路复核，而非再次计算相同闭合。
 
 Petrache1996 exactDOI10.1016/0375-9474(96)00107-8 metadata已核，公开OA/provider/Padua均未给全文，获取停止；downloader将TDMlicense误标confirmedOA的label不采信，实际download0。反应对象记载旧125-MeV30Si/GASP入口，和新40Ar/JUROGAM不同，但source对象内也含其它反应，不把评价重复计采集。判断revises版本/π和顺序identity边界；未改变模式排序、未造旧primary结论。
+
+
+## 近邻双线的反冲能量—张角信息与静态排序边界
+
+[[herzan-2015-193bi-spectroscopy]] HE15-9只给393.4/394.0keV名义centroids和顺序未定，不提供本双线中间寿命、stopping、实际qualitycuts/energy-angle response或独立质量输入。以下是本任务的**条件推导**：它检验静态angular-swap定理没包含的energy kernel，不裁决实际order，也不是完整covariant angular-amplitude分布。
+
+### 共同endpoint下的精确四动量
+
+选initial核静止、孤立自由两步辐射，无靶/环境相互作用，c=cosψ为两photon在该初始静止系的opening cosine。将核质量写为energy equivalent，取光速1。以c0=0处的h=394、l=393.4keV定义两hypothesis的共同anchor，并使两者有**同一个M和Mf**：
+
+\[
+M_f^2=M^2-2M(h+l)+2hl,\qquad m_i^2=M^2-2ME_1.
+\]
+
+由末态on-shell四动量守恒：
+
+\[
+E_2(c)=\frac{m_i^2-M_f^2}{2[M-E_1(1-c)]}.
+\]
+
+因此high-first的second-low为`l+dl(c)`，low-first的second-high为`h+dh(c)`，其中
+
+`dl=−hl c/[M−h(1−c)]`，`dh=−hl c/[M−l(1−c)]`。
+
+它们并非独立任取的两套不共享末态cascade。领先尺度K=hl/M；它把−Kc shift放到**后发**photon。静态角/偏振振幅交换对称并不自动保证这两个energy-dependent响应相同。
+
+### 未分峰energy contrast保留哪部分信息
+
+另声明两个detector energy noises独立同Gaussian SDσE、label接受度相等，且条件于选定c；不把该接受度模型当真实JUROGAM。令X=(E1−E2)/(√2σE)、S=[E1+E2−(h+l)]/(√2σE)。两hypothesis的X都是等权±a高斯混合g_a，
+
+`a+=(h−l−dl)/(√2σE)`、`a−=(h−l+dh)/(√2σE)`；S是mean dl/(√2σE)或dh/(√2σE)、variance1的Gaussian，与X在此模型中独立。
+
+自然对数下半Jeffreys J=(KLpq+KLqp)/2可相加为contrast J与sum J。共同mode的order差为：
+
+\[
+dl-dh=-\frac{hl\,c(h-l)(1-c)}{[M-h(1-c)][M-l(1-c)]},
+\]
+
+仅O(M⁻²)，不能把totalenergy近似同就推成全部energy data无信息。令a0=(h−l)/(√2σE)，`F(a)=E_g[−a+X tanh(aX)]²`，已知响应且大M时contrast的leading `J≈F(a0)K²c²/σE²`。该F是separation参数的Fisher信息，不是前一time模型的I=E[tanh²]，不能混用。
+
+自选M=193×931494.10242keV（mass-number proxy，非实测193Bi质量）、σE=.8keV，得到K=.000862170500keV≈.862eV、F=.372364211：
+
+| chosen cosψ | 后发low shift keV | 后发high shift keV | Jcontrast，nats | Jsum，nats |
+| ---: | ---: | ---: | ---: | ---: |
+| −1/√2 | +.000609648888 | +.000609648884 | 2.16245687e−7 | 4.71272274e−24 |
+| 0 | 0 | 0 | 0 | 0 |
+| +1/√2 | −.000609646998 | −.000609646998 | 2.16244347e−7 | 1.38727886e−25 |
+
+这些是所声明conditional response的每事件信息尺度，**不是**真实power、p-value或最少所需count。M加倍时leading shift减半、J约除4。h=l时未标记的±a mixture完全同，有限recoil也不创造能量标签；c0处同样精确退化。实际intrinsiclinewidth、initialrecoil/Doppler校正、未知angleacceptance、background和measurementerror需另建模型。
+
+### stopping和标定会改变什么
+
+若中间核完全停止，环境带走动量/动能，不能继续把free-final四动量当closed system。保持上面的共同Mf和free c0 anchors时，second photon rest energy为 `E*2=Eanchor(M−E1)/sqrt(M²−2ME1)`，所以主要O(M⁻¹) opening-angle项消失，仍留O(M⁻²)常数。声明A193例的low/high常数shift约9.44765e−10/9.43326e−10keV；不能把它说成exactzero。部分stopping取决于真实τ/速度/介质，不由本练习得到。
+
+能量校准也必须独立约束。若另许一个pair-specific residual energy-contrast slope b·c，其局部score与order的leading recoil slope共线，两个c bin只给rank1；独立responsecalibration才补方向。更自由的逐component、依openingangle的pair-response mean可以精确对齐两hypothesis的conditional spectra，但这**不是**声称单探测器gain误差必有此形式。它界定允许的nuisance family；真实响应校准/中间态定位旁路可排除该反例，不能靠目标数据倒推校准后宣称已定序。
+
+### 验证与判决
+
+[day14_doublet_recoil_energy_angle.py](../../system/scripts/day14_doublet_recoil_energy_angle.py)完成66项：5个rationalcos×两order的精确Fraction四动量不变量/共同Mf/positive masses、Lorentz往返、稳定subtractedshift、96/160节点contrast积分与独立二维J、moments/标签/zero gap/c0、M尺度、70位Decimal stopped常数和nuisance rank。可选sympy probe因未安装失败，未安装新依赖或采用该probe；正式Fraction控制独立完成。参数/各check见[66-check回执](../../outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/doublet-recoil-energy-angle.json)。
+
+决定supports已知energy-angle kernel可能补静态angular交换对称性，revises“完全stopping必无任何recoil差”的过强推论，limits从该sub-eV设计尺度外推真实可检出性/次序。实际mass、τ/stopping、逐pair response/校准Σ/events仍缺，L4actualorder重分析not-ready；所有source review与HE15-9未定结论保持。

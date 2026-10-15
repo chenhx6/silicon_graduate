@@ -6,15 +6,15 @@ updated: 2026-10-15
 
 # 跨会话交接
 
-## Active handoff — DAY14 network-outage extension
+## Active handoff — DAY14 extended continuous study
 
-Run `2026-10-14-day-14-02` / session `01a13a0e-e8bd-7251-b970-f6975679e281`。用户2026-10-15 15:45上海明确因断网延期至 **2026-10-16T16:00+08**；原15:00/15:37closeout历史保留，research恢复，nativegoalactive。deadline-extension-001.json/run/continuation一致，不新session或重启daemon。Formal14七边/35checks/21/24/weeklyREFLECT完成；completed14/partial15，officialnext14/count13待延期closeout只计一次，不开Day16。
+Run `2026-10-14-day-14-02` / session `01a13a0e-e8bd-7251-b970-f6975679e281`，用户因断网将截止延长至 **2026-10-16T16:00+08**；original15:00/15:37closeout保留，nativegoal/researchactive。Formal14已完成七边/35checks/21/24/weeklyREFLECT；completed14/partial15，state仍next14/count13待最终只计一次，不开Day16。
 
-前15批published；第016批29paths曾暂存未commit，现更新延期checkpoint main / `Continue DAY14 after network outage deadline extension`，actualH3/hash只receipt。Canonical46writebackitems/20changedpages；原检查report/card/writeback/oldflags/raw/PLAN/Bib/AST/diff/lint0errors131warnings。N136旧endpoint/order和LV25-26已写，1996primarymissing；263/405原因不裁决，actualL4notready。
+第017批：66-check精确共同M/Mf的freecascade recoil energy-opening-angle；A193proxy尺度K.862eV，声明σE.8时J约2.16245e−7nats，非power/actualorder。Unorderedcontrast与sum信息不同，zero gap/c0/M∞控制；stopping去leadingangle仍留O(M^-2)constant，nuisancepaircalibrationrank边界明确。Canonical level-scheme完整公式/表/验证。47writebackitems/20changedpages，report/card/writeback/AST/sourcebytes/raw/PLAN/Bib/diff/lint0errors131warnings通过。
 
-下一继续已freeze的193Bi free-recoil energy-opening-angle精确4vector/共同response条件练习（尚未formalcode，不当结果）；136Pr旧新顺序的gate/middlebranch可识别性保持novelty槽，不重试无变化受阻primary。两槽持续，高信息/时间门按新截止；Day15仍无学分。Clock001/002/005/008实际ACK，11:47–15:37无可核验科学记录不造；Farmer8686/clock75781不重启。
+前16批Gitee已published；本批main / `Add DAY14 recoil energy-angle ordering limits`，actualH3/hash仅receipt。下一136Pr263/405流量/顺序问题已freezepr136-flow-before-calculation.md，通用fixedcolumnparser/首unplaced/π/RI版本核验后做最小positiveflow与missingbranch设计；不补1996primary或真实L4。旧新RI不跨campaign拼接。
 
-恢复 `codex resume 01a13a0e-e8bd-7251-b970-f6975679e281 -C /workspace/wiki -s danger-full-access -a never`，先读run.json；若未来completed只交付/讨论，当前running继续研究。原继承dirty/log/daemon和review/raw/PLAN/Bib保持，按manifest/H3非force发布。
+Clock001/002/005/008actualACK；原Farmer8686/clock75781经ps已不live，未重启；local scheduler extension event已append，只元数据不新session。恢复 `codex resume 01a13a0e-e8bd-7251-b970-f6975679e281 -C /workspace/wiki -s danger-full-access -a never`，先run.json按新deadline。保留raw/PLAN/Bib/review和继承dirty/log/daemon，manifest/H3非force发布。
 
 ## Previous active handoff — DAY13 continuous study reopened by user
 

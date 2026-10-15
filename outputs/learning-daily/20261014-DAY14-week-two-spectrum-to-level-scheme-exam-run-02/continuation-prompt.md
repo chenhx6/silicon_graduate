@@ -15,3 +15,10 @@ FormalDay14已primed回忆/Herzáň20页/Fig2/TableI/七边35checks/判据矩阵
 知识主入口knowledge/methods/level-scheme-reconstruction.md、knowledge/projects/a130-thesis-evidence-matrix.md、sources/nndc-2018-136pr-selected-level-gamma-records.md。ActualL4events/response/Σ仍not-ready，无actualorder/mode裁决。Clock001/002/005/008实际ACK，其他不造；用户报断网，11:47–15:37无科学记录不冒充研究。
 
 每次准备收束先curr_time与新deadline比较并刷新候选池。>=120min仍有当前高信息或Day15允许预习则继续；<90min不新source/card；新16:00停研究，16:00–17:00只closeout。保留继承Day6–9/Day13/log/daemon/PLAN/raw/Bib，不宽泛stage。正式Day15prompt存在但仅入口，待自身新日run计学分。
+
+
+## 最新checkpoint017
+
+Free-recoil原预测已完成66-check，不能再按上文旧描述说未formalcode。Canonical“近邻双线的反冲能量—张角信息与静态排序边界”，J/kine/共同endpoint/stopping/nuisance控制完整；source实际order/τ仍未知。47items20changedpages，lint0errors131warnings等通过，前16批published。本批subject Add DAY14 recoil energy-angle ordering limits。
+
+下一136Pr old/new263/405顺序的actualRI/flow充分性与missingbranch已freezepr136-flow-before-calculation.md，先通用fixedcolumn核行/unc/首unplaced，positiveflow设计不替代actualdata。延长新截止2026-10-16 16:00，currentday14/partial15，officialnext14/count13不重计。原clock/farmerPID已不live，未启动替代daemon或session。

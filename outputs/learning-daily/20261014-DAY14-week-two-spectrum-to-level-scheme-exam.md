@@ -180,6 +180,12 @@ checkpoint008实际观察为上海15:37，立即停止新研究；最后已保�
 
 1996primary只核metadata：DOI10.1016/0375-9474(96)00107-8、NPA60350–76；OA下载0、arXiv拒绝、Semantic429、Scholar失败、Padua403，终止获取。TDMlicense被工具错标confirmedOA不采信。通用136fixed-column新script/更深入量化未完成；393/394 free-recoil只冻结预测和scratch，不算验收结果，留续接。没有在截止后补做新物理或打开Day16；completed14/partial15、正式21/24不变。
 
+### 延期继续：反冲能量—张角的独立kernel
+
+用户延期后完成原先冻结的free-recoil预测，[66-check回执](20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/doublet-recoil-energy-angle.json)全过。共同M/Mf与c0=0 anchor下，后发线shift≈−hl cosψ/M；自选A193massproxy、σE=.8keV给K≈.862eV，cosψ=±1/√2的conditional半Jeffreys约2.16245e−7nats。总能量的order差仅O(M⁻²)，能量contrast仍保留O(M⁻¹)kernel；这是条件模型，不是实际检出功效/所需counts或新order测量。
+
+[[level-scheme-reconstruction]]“近邻双线的反冲能量—张角信息与静态排序边界”保存精确4vector、共同endpoint/zero-gap/largeM、独立两路线积分和nuisance rank控制。完全stopping去掉主要angle项但保留O(M⁻²)常数，修正早先可能全消失的预测；未知pair-response slope可与leadingorder混淆，实际τ/介质/energy-angle calibration仍缺。supports补静态angular no-go之外的条件信息，不给193Bi实际order或模式。
+
 ## Counter-evidence and missing companion observables
 
 HE15-9的实际未定双线是核心反例：energy sum、共享R/A和假设的ΔI=2均不足以裁决order。若一条线出现可独立定位的旁路或延迟顺序，应重审中间level；source仍保留括号Jπ与(E2)。HE15-5的quadruplet限制“一个峰是一条γ”的简化；干净622.4直接分支门与323.4级联门的299-keVcomponent差异可能迫使拆峰，但必须控制622/626门纯度、feeding、response和random。
@@ -1373,6 +1379,17 @@ HE15-9的实际未定双线是核心反例：energy sum、共享R/A和假设的�
           "locator": "N136-4"
         }
       ]
+    },
+    {
+      "knowledge": "knowledge/methods/level-scheme-reconstruction.md",
+      "anchor": "近邻双线的反冲能量—张角信息与静态排序边界",
+      "summary": "新增共末态精确recoil/order energy-angle kernel、未分峰信息和stopping/nuisance边界；66check为声明设计，非actual193Bi。",
+      "sources": [
+        {
+          "path": "knowledge/sources/herzan-2015-193bi-spectroscopy.md",
+          "locator": "HE15-9"
+        }
+      ]
     }
   ]
 }
@@ -1626,3 +1643,8 @@ wiki_lint --fail-on error实际exit0，0errors/131warnings（107citationkey、21
 2026-10-15T15:46:53.981856+08:00用户允许加时至2026-10-16 16:00上海，原截止/15:37收束记录保留；本段新指令覆盖旧closeout-only和“未完成研究只待新任务”的限制。继续现有DAY14，不新建session、不重启daemon；formal21/24和completed14/partial15保持，officialnext14/count13等延期窗口最终对账。原第016批已显式暂存但未commit，核清29paths无其它index项后更新为延期checkpoint并发布，绝不提前计Day15。
 
 下一继续已冻结的193Bi free-recoil energy-opening-angle设计及136Pr实际旧新263/405顺序的可识别性；固定两槽不无目的开新卡。旧metadata/provider失败和network空窗保留，不反复请求受阻入口或冒充持续计算。新截止与用户授权见[deadline-extension-001](20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/deadline-extension-001.json)；当前run/day/session不变。
+
+
+### Checkpoint017 延期研究验收
+
+2026-10-15T15:59:38.789110+08:00：66项反冲设计checks全过，report/card/writeback valid（47items/20changedpages）；AST/原source字节/protected/rawmetadata/diff通过；wiki_lint --fail-on error实际exit0、0errors131warnings（107citekeys、21rawslots、3parser）。新截止余1440.4分钟，继续原两槽高信息路线。前16批已Gitee发布，本批稳定main / `Add DAY14 recoil energy-angle ordering limits`，actualH3/hash仅receipt；正式21/24与partial15无信用保持。
