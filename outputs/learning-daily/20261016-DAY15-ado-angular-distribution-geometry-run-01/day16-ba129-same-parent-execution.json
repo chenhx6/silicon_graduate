@@ -1,0 +1,7 @@
+{
+  "initial_float_profile_exit": 0,
+  "exact_certificate_edit_first_exit": 1,
+  "error": "NameError exact_sixj_square: definition appended after__main__ invocation",
+  "correction": "movefunctiondefinitionbeforemain; noinput/physics/source/priorresultaltered",
+  "original_frozen_input": "82a2b8bffe867717e01724dc25e554a36039345fdca16bcddc0b926d443e562c"
+}

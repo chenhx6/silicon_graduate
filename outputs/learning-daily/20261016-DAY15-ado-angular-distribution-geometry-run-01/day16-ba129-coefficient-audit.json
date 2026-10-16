@@ -1,0 +1,357 @@
+{
+  "identity": "DAY16-PREVIEW-BA129-365-REFERENCE-COEFFICIENT-AUDIT-01",
+  "input_sha256": "5fd2713b055ab00d7f4f08dd476a2c66371e3d33bfd1da4a08e4da539f9bc319",
+  "script_sha256": "af20076c7f3dd866b73a830af097cb70d5f54e848067aeeb929883b255ec5a50",
+  "reference_population": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.5,
+    0.5,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "reference_forms": {
+    "0": [
+      [
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0
+      ]
+    ],
+    "2": [
+      [
+        -0.30769230769230765,
+        1.0204999354939692
+      ],
+      [
+        1.0204999354939692,
+        -0.04395604395604396
+      ]
+    ],
+    "4": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.5754245754245754
+      ]
+    ]
+  },
+  "controls": [
+    {
+      "delta_chosen": -2.0,
+      "F_projection_max_difference": 5.551115123125783e-16,
+      "quadrature12_vs16": 1.887379141862766e-15,
+      "integrated_channel_error": 7.771561172376096e-16
+    },
+    {
+      "delta_chosen": -0.33,
+      "F_projection_max_difference": 1.2212453270876722e-15,
+      "quadrature12_vs16": 2.3314683517128287e-15,
+      "integrated_channel_error": 5.551115123125783e-16
+    },
+    {
+      "delta_chosen": 0.0,
+      "F_projection_max_difference": 1.27675647831893e-15,
+      "quadrature12_vs16": 3.1086244689504383e-15,
+      "integrated_channel_error": 3.3306690738754696e-16
+    },
+    {
+      "delta_chosen": 1.0,
+      "F_projection_max_difference": 3.885780586188048e-15,
+      "quadrature12_vs16": 3.4416913763379853e-15,
+      "integrated_channel_error": 8.881784197001252e-16
+    }
+  ],
+  "single_coefficient_equations": [
+    {
+      "rank": 2,
+      "central": [
+        -2.9052403395090733,
+        -0.20583149064004536
+      ],
+      "mean_minus_sigma": [
+        -2.7512893089125137,
+        -0.22373853443046876
+      ],
+      "mean_plus_sigma": [
+        -3.0717517841169095,
+        -0.1884024770714774
+      ]
+    },
+    {
+      "rank": 4,
+      "central": [
+        -0.6206030405159589,
+        0.620603040515959
+      ],
+      "mean_minus_sigma": [
+        -0.4861515636601104,
+        0.4861515636601105
+      ],
+      "mean_plus_sigma": [
+        -0.7580725514585197,
+        0.7580725514585197
+      ]
+    }
+  ],
+  "chosen_covariance_scores": [
+    {
+      "chosen_rho": -0.8,
+      "covariance": [
+        [
+          0.0009,
+          -0.0012000000000000001
+        ],
+        [
+          -0.0012000000000000001,
+          0.0025000000000000005
+        ]
+      ],
+      "stationary_points": [
+        {
+          "delta": -2.1855370568736094,
+          "score": 40.217338430920876,
+          "A2_A4": [
+            -0.861814270119798,
+            0.4758110757892341
+          ],
+          "radiative_E2_fraction": 0.8268869563628878
+        },
+        {
+          "delta": -0.7730581078230512,
+          "score": 683.3584367272117,
+          "A2_A4": [
+            -1.1966388480051415,
+            0.21524819185152524
+          ],
+          "radiative_E2_fraction": 0.37406847229752915
+        },
+        {
+          "delta": -0.1673258079466457,
+          "score": 8.3445542992884,
+          "A2_A4": [
+            -0.6327200879852316,
+            0.015671913606678026
+          ],
+          "radiative_E2_fraction": 0.027235391528272056
+        },
+        {
+          "delta": 1.3046175544962588,
+          "score": 8328.510786055096,
+          "A2_A4": [
+            0.8438914975695639,
+            0.3624642374273345
+          ],
+          "radiative_E2_fraction": 0.6299074681679895
+        }
+      ],
+      "pureE2_limit_score": 2327.6447867816496,
+      "best_stationary_point": {
+        "delta": -0.1673258079466457,
+        "score": 8.3445542992884,
+        "A2_A4": [
+          -0.6327200879852316,
+          0.015671913606678026
+        ],
+        "radiative_E2_fraction": 0.027235391528272056
+      },
+      "global_best_is_finite": true,
+      "not_actual_experimental_confidence": true
+    },
+    {
+      "chosen_rho": 0.0,
+      "covariance": [
+        [
+          0.0009,
+          0.0
+        ],
+        [
+          0.0,
+          0.0025000000000000005
+        ]
+      ],
+      "stationary_points": [
+        {
+          "delta": -2.7682683097614587,
+          "score": 49.50635451751128,
+          "A2_A4": [
+            -0.7265787265816869,
+            0.5090037024598899
+          ],
+          "radiative_E2_fraction": 0.8845706704207462
+        },
+        {
+          "delta": -0.8961645977366163,
+          "score": 286.64532498893806,
+          "A2_A4": [
+            -1.2046211988331146,
+            0.2562958141797457
+          ],
+          "radiative_E2_fraction": 0.44540296873945395
+        },
+        {
+          "delta": -0.20961299134608344,
+          "score": 7.420223581176774,
+          "A2_A4": [
+            -0.7064059336456919,
+            0.024218668060389484
+          ],
+          "radiative_E2_fraction": 0.042088345014669924
+        },
+        {
+          "delta": 1.149952031196903,
+          "score": 2691.3787286290035,
+          "A2_A4": [
+            0.8531008568965892,
+            0.32765195489783394
+          ],
+          "radiative_E2_fraction": 0.5694090396748817
+        }
+      ],
+      "pureE2_limit_score": 547.2462225486801,
+      "best_stationary_point": {
+        "delta": -0.20961299134608344,
+        "score": 7.420223581176774,
+        "A2_A4": [
+          -0.7064059336456919,
+          0.024218668060389484
+        ],
+        "radiative_E2_fraction": 0.042088345014669924
+      },
+      "global_best_is_finite": true,
+      "not_actual_experimental_confidence": true
+    },
+    {
+      "chosen_rho": 0.8,
+      "covariance": [
+        [
+          0.0009,
+          0.0012000000000000001
+        ],
+        [
+          0.0012000000000000001,
+          0.0025000000000000005
+        ]
+      ],
+      "stationary_points": [
+        {
+          "delta": -4.153026691352353,
+          "score": 59.10842262236031,
+          "A2_A4": [
+            -0.5229257989409528,
+            0.5438903677833922
+          ],
+          "radiative_E2_fraction": 0.9451983648457912
+        },
+        {
+          "delta": -1.0148641893852806,
+          "score": 966.611563146769,
+          "A2_A4": [
+            -1.1942674911452078,
+            0.2919571169347883
+          ],
+          "radiative_E2_fraction": 0.5073768646731305
+        },
+        {
+          "delta": -0.24446781630448852,
+          "score": 6.52555524215339,
+          "A2_A4": [
+            -0.7636395545551957,
+            0.03245057671769022
+          ],
+          "radiative_E2_fraction": 0.05639414460834708
+        },
+        {
+          "delta": 0.9970205440783512,
+          "score": 6797.917368415224,
+          "A2_A4": [
+            0.8442777359938035,
+            0.28685378460495814
+          ],
+          "radiative_E2_fraction": 0.4985080527596582
+        }
+      ],
+      "pureE2_limit_score": 712.612005155462,
+      "best_stationary_point": {
+        "delta": -0.24446781630448852,
+        "score": 6.52555524215339,
+        "A2_A4": [
+          -0.7636395545551957,
+          0.03245057671769022
+        ],
+        "radiative_E2_fraction": 0.05639414460834708
+      },
+      "global_best_is_finite": true,
+      "not_actual_experimental_confidence": true
+    }
+  ],
+  "old_adopted_interval_reference_predictions": [
+    {
+      "delta": -0.84,
+      "A2": -1.2037685177870312,
+      "A4": 0.23805087970191155,
+      "E2_fraction": 0.4136960600375234
+    },
+    {
+      "delta": -0.79,
+      "A2": -1.1991350118870425,
+      "A4": 0.22112091467426728,
+      "E2_fraction": 0.3842743673419125
+    }
+  ],
+  "literature_fraction_conversions": [
+    {
+      "label": "new_author_delta",
+      "delta": -2.0,
+      "quoted_sigma_delta": 0.2,
+      "radiative_E2_fraction": 0.8,
+      "local_sigma_fraction": 0.032,
+      "literal_delta_endpoint_fractions": [
+        0.8287671232876712,
+        0.7641509433962265
+      ]
+    },
+    {
+      "label": "old_angular_delta",
+      "delta": -0.88,
+      "quoted_sigma_delta": 0.09,
+      "radiative_E2_fraction": 0.436429215509468,
+      "local_sigma_fraction": 0.050309745414393744,
+      "literal_delta_endpoint_fractions": [
+        0.48477510433304133,
+        0.3842743673419125
+      ]
+    },
+    {
+      "label": "old_polar_delta",
+      "delta": -0.58,
+      "quoted_sigma_delta": 0.26,
+      "radiative_E2_fraction": 0.2517210416043101,
+      "local_sigma_fraction": 0.16887229411264598,
+      "literal_delta_endpoint_fractions": [
+        0.4136960600375234,
+        0.09288824383164002
+      ]
+    }
+  ],
+  "printed_P_value_sigma": [
+    0.072,
+    0.068
+  ],
+  "P_fit_performed": false,
+  "boundary": "Maximum-alignment reference and chosen correlations only. OriginalA22/A44correctionlayer/convention/Cov notverifiedfromGizon1978body. Noactualpopulationfit, experimentalCI, correctedP, absoluteB orwobblingassignment."
+}

@@ -27,6 +27,7 @@ updated: 2026-10-17
 
 - [[nndc-2017-193bi-level-scheme-evaluation]] - 2017/2019公开ENSDF对象：七边/精度/归一crosswalk、Q≠E2和352.3图表冲突；共享2015He27，CC为条件模型。
 - [[nndc-2018-164yb-pdco-reference-records]] - 164Yb490/647的三个公开评价对象；实测EKC与理论CC、T1/2/derived strength及secondary reaction冲突分层，不靠adopted标签消除PDCO双解。
+- [[nndc-2014-129ba-365-coefficient-records]] - 129Ba365的AD/P/DCO谱系、同母态461reference和defaultδ转换系数；隔离误引By02，不据评价标签重测δ。
 
 - [[nptool-2019-reaction-velocity-code-object]] - 固定2019公开对象的反应点4vector、getter/mass状态、MeV/rad/velocity/TOF单位和branch/domain边界；不是actualpaper/currentversion。
 
@@ -109,6 +110,7 @@ updated: 2026-10-17
 - [[droste-1999-ppco-polarization]] - PPCO 两个偏振探测器的四计数 formalism、PP1/PP2/AA1/AA2 与 DCO 联合判别。
 - [[starosta-1999-pdco-experimental-test]] - EUROGAM-II CLOVER PDCO 实验验证；`Q(E)`、积分偏振和 DCO 联合约束，并保留 `490 keV` E2/M1-E2 多解。
 - [[iliadis-friman-gayer-2021-polarization-direction-correlations]] - NRF偏振–方向关联的显式相位角色、rank与detector几何；对RU09的publishedcriticism和modified-KSW反方定义边界分层。
+- [[chakraborty-2024-ba129-365-mixing-ratio-arxiv-v3]] - 单页v3实际日期2024-04-09，重新报告365keV大模δ；与PRC/旧数据共享谱系，不计新实验。
 - [[rees-2011-156er-nonyrast-gamma-soft]] - `156Er` Gammasphere 非 yrast 结构、γ-band staggering/`S(4)` γ-soft 证据与竞争准粒子 alignment。
 - [[hamilton-1969-mixing-ratios-pt194-196]] - `194,196Pt` 高分辨 γγ 角关联与线偏振提取 E2/M1 `δ`；保留 Biedenharn convention、196Pt theory conflict 与 759-keV 未解析警告。
 - [[jones-1995-clover-compton-calibration]] - 四晶体 CLOVER/EUROGAM Compton 偏振标定；`P/A/Q` 分离、197–1368 keV `Q(E)`、60-keV threshold 与几何边界。
@@ -566,6 +568,7 @@ updated: 2026-10-17
 - [[se21-alignment-calibration-consistency]] - 135Pr854.3参考的alpha参数层、positive-population条件证书、Gaussian与pureE2核验；保持实际响应/归一边界。
 - [[135pr-mixing-branch-input-contract]] - 135Pr同线A/P/Rac/δ、采用Q与自有a的谱系、共享校准条件敏感性；不重拟合实际分支。
 - [[st99-pdco-calibration-table-replay]] - 原始164Yb PDCO的Q指数/身份纠正、D96勘误、五点NDF与13行印刷表重放边界；共享校准和残余spin候选分层。
+- [[ba129-365-mixing-reference-boundary]] - 区分129Ba现代δ≈−2/历史采用值，核chosen reference不匹配与同母态rank4必要关系；保留原coeff层/response/Σ缺口。
 
 ## Decisions and Failures
 

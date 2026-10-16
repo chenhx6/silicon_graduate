@@ -1,0 +1,11 @@
+{
+  "at": "2026-10-17T07:18:06.896926+08:00",
+  "kind": "analyticcorollaryofalreadycanonicalLegendre/conefolding, notrerunoldtoy",
+  "Q4_uniform_cone": "c(1+c)(7c²−3)/8,c=cos(beta),0<=beta<pi/2",
+  "uniformcone_Q4positive_beta_deg_upper": 49.1066053508691,
+  "P4": "(35u^4−30u²+3)/8",
+  "arbitrarypositivezonal_kernel_support_beta_deg_upper": 30.55559171083323,
+  "strict_support_implies": "Q4>0, butonlywhenscalarfolding/positivekernelpremisesvalid",
+  "not_inferred": "actualGizongeometry/s4signorvalue/noactualQ/Cov",
+  "canonical": "knowledge/research-notes/ba129-365-mixing-reference-boundary.md"
+}

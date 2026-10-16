@@ -1795,3 +1795,7 @@ Zobel1983六页/metadata/raw与958parent10个Pubfit rows，38-check条件Gaussia
 ## 2026-10-17T06:40:42.753731+08:00 — DAY15 checkpoint011: controlled-beam branch and phase audit
 
 同run/session partial16，RU09原4页/旧人审prefix保留；IF21v1mainline+VoR关键式/criticism、独立coef/trace8.89e−16及allroots/45companion已canonical。不是RU09producer重放/新δ测量，原−1.30/modifiedKSWcounterview缺口保持，2023corrigendumbody未知。36writeback/39mapped/36changed/21mainraw/12quantitativehash/旧reviewsfresh通过，lint0error/146warnings；ALPACAGitblobs只读未运行/copy。下一129Ba365与CH24重用关系已primedfreeze/raw未读，formal15once next16/count15、原15:00windowactive。稳定指针main / Audit polarized-photon branches with explicit phase roles；actualH3/push只publication011。
+
+## 2026-10-17 Day15最终收束与129Ba系数输入审计
+
+Run2026-10-16-day-15-01/session01a14510-aec7-7e00-aa23-f7c77a5124bc：07:28:56上海刷新clock，距原15:00硬截止451.07min；重建当前及恰好Day16预习候选、复核课程卡后，按输入饱和条款提前收束。正式15只计一次next16/count15，partial16，无formal16/Day17。CH24现代δ≈−2与历史区间归属更正、arXivv3/NNDC对象谱系、chosenreference不匹配及同母态rank4−8/3条件边界写回canonical；无新experimentalδ或模式裁决。42writeback=41科学+1overview治理、45mapped/42changed；fresh boundary/preflight/lint/diff0，lint0error/146warnings，旧review/raw/protected及14scriptinputhash通过。QMD外部缓存未写，refresh deferred。最终提交指针main / `Close DAY15 ADO study and audit 129Ba reference boundaries`；实际H3/push及精确hash只run/publication012。原runner退出未观察，不补scheduler/clock事件；完成后只讨论既有成果。

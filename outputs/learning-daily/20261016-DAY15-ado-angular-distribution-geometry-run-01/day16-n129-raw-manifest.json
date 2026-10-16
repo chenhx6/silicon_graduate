@@ -1,0 +1,23 @@
+{
+  "at": "2026-10-17T06:51:55.027919+08:00",
+  "files": [
+    {
+      "raw": "raw/papers/gpt/day15-20261016/nndc-129ba-129056001-201408-15d8e353eb23.ens",
+      "sha256": "15d8e353eb23d55847dc0d0127591fd2fb23e6da63ae98146747aecb233f65f6",
+      "record": "129056001",
+      "label": "adopted",
+      "lines": 934,
+      "never_stage_raw": true,
+      "no_existing_raw_overwritten": true
+    },
+    {
+      "raw": "raw/papers/gpt/day15-20261016/nndc-129ba-129056013-201408-09194d4feed3.ens",
+      "sha256": "09194d4feed3bbda013c551ce5ba9ecf55a25799e8c46ec22f23685df1c1ef19",
+      "record": "129056013",
+      "label": "reaction",
+      "lines": 555,
+      "never_stage_raw": true,
+      "no_existing_raw_overwritten": true
+    }
+  ]
+}

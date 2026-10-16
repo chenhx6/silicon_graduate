@@ -1,0 +1,43 @@
+{
+  "at": "2026-10-17T06:48:20.240878+08:00",
+  "script_exit": 0,
+  "internalF_photonprojection_controls_pass": true,
+  "source_curve_replay": false,
+  "input_sha256": "5fd2713b055ab00d7f4f08dd476a2c66371e3d33bfd1da4a08e4da539f9bc319",
+  "fixed_reference_not_author_assumption": "equalM±1/2 CHOSEN maximumalignment, notphysicalpopulation measurement",
+  "first_reference_central_roots": [
+    {
+      "rank": 2,
+      "central": [
+        -2.9052403395090733,
+        -0.20583149064004536
+      ],
+      "mean_minus_sigma": [
+        -2.7512893089125137,
+        -0.22373853443046876
+      ],
+      "mean_plus_sigma": [
+        -3.0717517841169095,
+        -0.1884024770714774
+      ]
+    },
+    {
+      "rank": 4,
+      "central": [
+        -0.6206030405159589,
+        0.620603040515959
+      ],
+      "mean_minus_sigma": [
+        -0.4861515636601104,
+        0.4861515636601105
+      ],
+      "mean_plus_sigma": [
+        -0.7580725514585197,
+        0.7580725514585197
+      ]
+    }
+  ],
+  "source_claims_not_replaced": "CH24modernδ-2/80%remainsauthorreanalysisfact; sourceCH24-2misattributionhistoricalintervalwillbesupersededbutnotmadeindependentexperiment",
+  "nexthighestinformation": "1978primaryorselectedENSDFglobalcomments toidentifyA22/A44/coefficientcorrectionlayer; nofreeσ/alpha/C fitting",
+  "no_new_experimental_delta": true
+}

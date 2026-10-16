@@ -148,3 +148,27 @@ Page-level review is complete for this ingest round. Claim-level `needs_review` 
 ## Non-source Notes and Follow-up
 
 Do not upgrade “possibility/likely” to “observation.”
+
+## 2026-10-17当前使用更正：现代重分析不是历史采用区间
+
+**数值引用以本节CH24-7为准；旧CH24-2把历史采用值误归给本篇现代分析。**本次对照原5页PDF，hash `d5729de577067f8afeab771afb51328989772c68962a938d553bccb50f0c0808`匹配；完整重读主线、references，并视觉核Fig1–7及关键p3文字。旧human review record、CH24-1–6的true标记及全部原正文保留为历史；新内容为Codex self-audit，不在人审范围内。
+
+printed024324-3左栏先回顾Gizon旧工作：AD区间−.97至−.79、P区间−.84至−.31、历史采用−.84至−.79。紧接着正文与p2 Figs2/3给**本篇重分析**的χ² minimum δ≈−2.0，radiative E2 contribution80(4)%。旧CH24-2所写“Published...overlap at adopted−.84≤δ≤−.79”不能当本篇新的数值结果，不能继续以这个历史值计算现代E2分数。
+
+本次又取得同第一作者的[单页arXiv v3](https://arxiv.org/abs/2108.05313v3)，版本日期2024-04-09，题名为“On the multipole mixing ratio of the365keV gamma-transition in129Ba”。它也用同Gizon摘要给δ≈−2.0(2)。两文本有共享实验输入/论证，不构成两场独立采集；未声明单作者preprint就是四作者PRC的逐字VoR。arXiv早期2021日期和v2 withdrawal历史不应套成v3正文年份/内容。
+
+两现代文本都没有在当前页提供完整可重放的primary coefficient-correction/布居/finitegeometry/Σ输入。本任务的明确chosen最大取向reference内部F/photon计算一致，但未重现其black curves；原件1977/1978的coeff层尚未取得，不以自由调sigma/alpha/C来配作者−2.0。故“作者报告80%”与“本任务已独立重算真实实验δ=−2.0”必须区分。
+
+单页v3的独立source identity见[[chakraborty-2024-ba129-365-mixing-ratio-arxiv-v3]]，选定评价对象见[[nndc-2014-129ba-365-coefficient-records]]；它们的locator和数据依赖不合并成一份新实验。
+
+具体数据谱系、条件计算边界和新source identity见[[ba129-365-mixing-reference-boundary]]。本次只更正数值归属及可复现性合同；作者对wobbling仍是possibility/likely，并要求新数据。高E2 fraction本身不使TiP/其它解释在所有configuration中自动被排除。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+| --- | --- | --- | --- | --- | --- |
+| CH24-7 | 本篇现代365keV重分析给δ≈−2.0、80(4)%radiativeE2；−.84至−.79是该段回顾的历史采用值。旧CH24-2归属错误由本行supersede，原review/flag不变。 | numerical-attribution-correction | direct-and-self-audit | printed024324-3 leftcolumn paragraphs1–3；printed024324-2 Figs2/3 | true |
+| CH24-8 | 重分析输入A22=−.70(.03)、A44=.16(.05)、P=.072(.068)引自Gizon旧数据；Fig2/3/4和本篇/单页v3的派生比较不增加实验独立性。 | data-lineage-and-summary | direct | printed024324-3 quotedobservables；printed024324-5 Refs26/27 | true |
+| CH24-9 | 521/671仅A22、缺A44，作者明确不能提供completeinformation；其小DCO/大负A22只是mixedδ/E2提示，不能各自作为完整δ测量。 | missing-companion-boundary | direct | printed024324-3 paragraphfollowingmodern365fit；Fig4 | true |
+| CH24-10 | TPRM的ε2=.22/γ=33.5°用于bands1/2；QTR/FA与J3>J1,J2支持作者的longitudinal解释，不是γ发射alignmentσ或独立的E2混合比测量。 | model-parameter-layer-boundary | direct | printed024324-4 Fig6/7 discussion | true |
+| CH24-11 | 同δ=-2.0±.2的fraction换算给中心.80、局部sigma.032，端点.82877/.76415；作者80(4)%保留印值，非新的测量或完整CI。旧AD−.88(.09)给.43643/约.05031，为另一历史派生值。 | radiative-fraction-definition-check | task-calculation-from-source | printed024324-3 modernδ/fractionparagraph；本任务fractionworksheet | true |
+| CH24-12 | 自设maxalignmentM±1/2单gamma参考在13/2→11/2的F/photon投影控制通过，但其A2/A4根不重现本篇图线；本篇未给完整producer/原coeff-correction层，不能据此判作者错误或调α后宣称已重放实验。 | bounded-reproduction-readiness | task-calculation-and-source-scope | printed024324-2 Figs2/3；printed024324-3；本任务referenceboundary | true |
+| CH24-13 | 从公开评价取同母态461.6 E2参考作独立条件control时，rank4 spinratio为−8/3；实际positiveA4摘要不能在未核samepostselection/coeff/purity/geometry前被强行当source的共同rho校准。它限制本次replay readiness，不否定作者80%或证明实验错误。 | companion-reference-readiness | task-calculation-and-evaluated-premises | Fig1的同母态branches；N129L643.6/G364.7/G461.6；本任务rank4proof | true |

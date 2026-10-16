@@ -1,0 +1,57 @@
+{
+  "at": "2026-10-17T07:34:03.184598+08:00",
+  "status": "manual-deliverables-pass-final-content-publication-required",
+  "original_runner_exit_observed": false,
+  "scheduler_event_fabricated": false,
+  "verification": "outputs/learning-daily/20261016-DAY15-ado-angular-distribution-geometry-run-01/verification-prepublication-012.json",
+  "report_valid": true,
+  "writeback_valid": true,
+  "coverage": {
+    "valid": true,
+    "completed_day_indices": [
+      15
+    ],
+    "partial_day_indices": [
+      16
+    ],
+    "curriculum_cards_completed": 1,
+    "next_day_index": 16,
+    "error": null
+  },
+  "writeback_items": 42,
+  "scientific_items": 41,
+  "governance_items": 1,
+  "mapped_paths": 45,
+  "changed_paths": 42,
+  "active_recall_original_hash_unchanged": true,
+  "next_prompt_exists": true,
+  "course_next16_count15_unchanged": true,
+  "inherited_overlap": [
+    "outputs/learning-daily/20261016-DAY15-ado-angular-distribution-geometry-run-01/run.json",
+    "system/log.md"
+  ],
+  "baseline_overlap_isolation": {
+    "current_run_receipt": "runner-created startup metadata for this exact run/session, intentionally updated by this run",
+    "system_log": "only HEAD plus exact own append012 will be staged; inherited worktree edits retained"
+  },
+  "manifest_files": 56,
+  "git_diff_check_exit": 0,
+  "report_sha256": "4384361a3cb382cc158f3cfbeabc0ca18f8aafb5c72855ef98fc8b88198cecb2",
+  "continuation_sha256": "41609963e4a2f759f2d6c55e0eb618384dc7e93186c9b230b9f8e346f4510d81",
+  "next_prompt_sha256": "41a5b4bc51559e3c117a7a716e4278893ffe1d58582d1a02153f1bcb8e6f2b77",
+  "final_pointer": {
+    "branch": "main",
+    "subject": "Close DAY15 ADO study and audit 129Ba reference boundaries"
+  },
+  "card_content_sha256": "b111a8b3d7f9c7935f2104e3112d0789f3115f0ebc8e867b70545019ae9d837d",
+  "card_extraction_sha256_before_EOF_normalization": "4a39bb32f65310aa9a52f14e1e0b9f166aec50d0efc3742486a947fca3b222b5",
+  "initial_cached_diff_check": {
+    "exit_code": 2,
+    "reason": "new blank line at EOF in task-owned extracted Day16 card",
+    "fix": "removed final blank line only; original extraction hash preserved"
+  },
+  "normalized_card_text_matches_Day16_matrix_section": true,
+  "final_cached_diff_check_exit": 0,
+  "current_run_receipt_is_runner_created_task_metadata": true,
+  "post_commit_reconciliation_without_own_hash": true
+}

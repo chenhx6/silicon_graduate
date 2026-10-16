@@ -1,0 +1,18 @@
+{
+  "at": "2026-10-17T06:41:59.864048+08:00",
+  "url": "https://arxiv.org/pdf/2108.05313v3",
+  "requested_version": "v3",
+  "scope": "Fullsinglepagev3/2figuresread; actual9Apr2024, notnewmeasurement",
+  "status": 200,
+  "content_type": "application/pdf",
+  "bytes": 379161,
+  "sha256": "c8c0accfc9d21e91ebf9ea201287b44047b6e2aca48fc4d1cc765799a160005d",
+  "raw": "raw/papers/gpt/day15-20261016/chakraborty-arxiv2108.05313v3-c8c0accfc9d2.pdf",
+  "pages": 1,
+  "firstpage_excerpt": "On the multipole mixing ratio of the 365 keV γ-transition in 129Ba\nS. Chakraborty∗\nExperimental Nuclear Physics Division, Physics Group,\nVariable Energy Cyclotron Centre, Kolkata, India.\nThe E2/M1 multipole mixing ratio (δ), reported by J. Gizon et al. [Phys. Rev. C 17, 596 (1978)],\nfor 365 keV γ-transition in 129Ba is reevaluated and found altered.\nExperimentally determined\nangular distribution coefficients indicate a large E2 admixture in the 365 keV γ-ray. Indeed, it is\nfound in better agreement with the reported linear polarization value for this γ-ray.\nIn Ref. [1], J. Gizon and co-workers measured the an-\ngular distribution and linear polarization of some γ-rays\nin 129Ba.\nIn particular, for 365 keV γ-transition, the\nfollowing spectroscopic results were reported:\nA22 = – 0.70 (3); A44 = 0.16 (5); P = 0.072 (68)\nBased on the angular distribution (linear polarization)\nresults, the multipole mixing ratio −0.97 ⩽δ ⩽−0.79\n(−0.84 ⩽δ ⩽−0.31) was determined for this γ-ray and\nfinally, an effective value of −0.84 ⩽δ ⩽−0.79 was\nadopted. However, the experimentally measured linear\npolarization also satisfies a higher magnitude of δ, as\nshown in the FIG. 2 of Ref. [1].\nIn this context, the\nauthors argued that ‘the region of overlap corresponding\nto an almost pure E2 is rejected on the ba",
+  "firstpage_version_markers": [
+    "arXiv:2108.05313v3  [nucl-ex]  9 Apr 2024"
+  ],
+  "raw_never_stage": true,
+  "reading_status": "complete_foronepagev3"
+}

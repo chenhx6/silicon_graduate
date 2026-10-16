@@ -1,0 +1,15 @@
+{
+  "at": "2026-10-17T07:22:17.988763+08:00",
+  "url": "https://openresearch-repository.anu.edu.au/server/api/core/bundles/4655a21e-9b11-4cf0-a9ef-c863b0618d24/bitstreams",
+  "scope": "publiclistedbitstreammetadataonly",
+  "status": 200,
+  "sha256": "d328ded463f5615472784317d78755871ea41757b54a2ebf567f20a44ccfeb89",
+  "bytes": 320,
+  "page": {
+    "number": 0,
+    "size": 20,
+    "totalPages": 0,
+    "totalElements": 0
+  },
+  "bitstreams": []
+}

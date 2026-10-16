@@ -1,0 +1,115 @@
+{
+  "at": "2026-10-17T07:12:59.090560+08:00",
+  "url": "https://api.crossref.org/works",
+  "parameters": {
+    "query.bibliographic": "Bolotin Experimental determinations of directional-correlation solid-angle attenuation factors Ge(Li) detectors 1980 178 237",
+    "rows": 2
+  },
+  "scope": "candidateaccessdiscoveryonlybeforedeclaringselectedproblemssaturated",
+  "status": 200,
+  "sha256": "266673fd43e97ee40bfb3efc8aed7128496013592e1e0a45e6f72ab62a8e4a16",
+  "matches": [
+    {
+      "title": [
+        "Experimental determinations of directional-correlation solid-angle attenuation factors for Ge(Li) γ-ray detectors: comparison of experimental and calculated values"
+      ],
+      "DOI": "10.1016/0029-554x(80)90884-8",
+      "author": [
+        {
+          "given": "H.H.",
+          "family": "Bolotin",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "published": {
+        "date-parts": [
+          [
+            1980,
+            12
+          ]
+        ]
+      },
+      "volume": "178",
+      "issue": "1",
+      "page": "237-248",
+      "link": [
+        {
+          "URL": "https://api.elsevier.com/content/article/PII:0029554X80908848?httpAccept=text/xml",
+          "content-type": "text/xml",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://api.elsevier.com/content/article/PII:0029554X80908848?httpAccept=text/plain",
+          "content-type": "text/plain",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        }
+      ]
+    },
+    {
+      "title": [
+        "Determination of solid angle corrections for precise gamma-gamma directional correlation experiments with Ge-detectors"
+      ],
+      "DOI": "10.1016/0029-554x(80)90888-5",
+      "author": [
+        {
+          "given": "D.",
+          "family": "De Bruijn",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "W.",
+          "family": "Lourens",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "published": {
+        "date-parts": [
+          [
+            1980,
+            12
+          ]
+        ]
+      },
+      "volume": "178",
+      "issue": "1",
+      "page": "269-275",
+      "link": [
+        {
+          "URL": "https://api.elsevier.com/content/article/PII:0029554X80908885?httpAccept=text/xml",
+          "content-type": "text/xml",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://api.elsevier.com/content/article/PII:0029554X80908885?httpAccept=text/plain",
+          "content-type": "text/plain",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        }
+      ]
+    }
+  ]
+}

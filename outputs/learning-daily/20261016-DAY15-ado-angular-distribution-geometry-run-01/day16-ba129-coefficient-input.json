@@ -1,0 +1,93 @@
+{
+  "identity": "DAY16-PREVIEW-BA129-365-REFERENCE-COEFFICIENT-AUDIT-01",
+  "frozen_at": "2026-10-17T06:46:55.577977+08:00",
+  "session_id": "01a14510-aec7-7e00-aa23-f7c77a5124bc",
+  "sources": [
+    {
+      "identity": "Chakrabortysingleauthorarxiv2108.05313v3",
+      "date": "9Apr2024",
+      "raw": "raw/papers/gpt/day15-20261016/chakraborty-arxiv2108.05313v3-c8c0accfc9d2.pdf",
+      "sha256": "c8c0accfc9d21e91ebf9ea201287b44047b6e2aca48fc4d1cc765799a160005d",
+      "locator": "onepageFig1/2andbody"
+    },
+    {
+      "identity": "ChakrabortyetalPRC110024324(2024)",
+      "raw": "raw/papers/2024_Chakraborty et al_Exploring the possibility of wobbling motion in Ba 129.pdf",
+      "sha256": "d5729de577067f8afeab771afb51328989772c68962a938d553bccb50f0c0808",
+      "locator": "printed024324-2Figs2/3, -3paragraph1–3"
+    }
+  ],
+  "primary_input_identity": "Gizon1978PRC17,596 DOI10.1103/PhysRevC.17.596; quotedbybothlaterreanalyses, nottwoindependentexperiments",
+  "primary_body_obtained": false,
+  "priming": "Bothfulltextsreadbeforefreeze, expected-2.0/-0.33/±1.3known; notblindreplication. CH24currentWikimisattributionofhistorical-0.84..-0.79identifiedbutnotyetcorrected.",
+  "transition": {
+    "nucleus": "129Ba",
+    "E_keV": 365,
+    "twice_Ji": 13,
+    "twice_Jf": 11,
+    "parity": "negativeboth",
+    "components": [
+      [
+        "M",
+        1
+      ],
+      [
+        "E",
+        2
+      ]
+    ]
+  },
+  "printed_observations": {
+    "A22": "-0.70(3)",
+    "A44": "0.16(5)",
+    "physical_P": "0.072(68)"
+  },
+  "reference_model": {
+    "population": "CHOSENmaxalignmentreference, equalweightsatM=±1/2, nootherM. Notactualpopulationmeasurementorclaimedauthorproducerinput",
+    "coefficients": "normalizedsingle-gammaA2/A4fromexplicitrho*F; do notassumeA22/44from1978havebeenverifiedsamecorrectionlayer",
+    "delta_coordinate": "sameBMKS/D96normalizedradiativeE2/M1, coherentRBamplitudesconverted(-1)^L aspreviouslyderived",
+    "geometry": "pointdetectors/referencecoefficients, nofeeding, finiteacceptance oractualgammaCov",
+    "units": "dimensionlessA2,A4,δ/P; keVenergy"
+  },
+  "analysis": {
+    "compute_exact_root_equations": [
+      "A2=-.70",
+      "A4=.16"
+    ],
+    "component_ranges": "printedmeans±quotedmarginalerrors endpoints, notconfidenceinterval/jointregion",
+    "chosen_covariance_rhos": [
+      -0.8,
+      0.0,
+      0.8
+    ],
+    "diagonal_or_correlated_scores": "declareddiagnosticwithprintedmarginals andchosenrho, notsourcechi2recipeoractualΣ",
+    "fit": "allstationarypointsofrationalchi2pluspureE2limit; noarbitrarydelta searchcut",
+    "do_not_fit": [
+      "actualsubstatewidth",
+      "alpha2/alpha4",
+      "geometryC",
+      "polarizationcalibration"
+    ]
+  },
+  "literature_summary": {
+    "old_1978_adopted_delta": [
+      -0.84,
+      -0.79
+    ],
+    "2024authors_new_delta": [
+      -2.0,
+      0.2
+    ],
+    "new_authors_E2_fraction": "80(4)%",
+    "historical_angular_delta": [
+      -0.88,
+      0.09
+    ],
+    "historical_polar_delta": [
+      -0.58,
+      0.26
+    ]
+  },
+  "missing_companion": "Pangle/calibration/convention, A2/A4fullCov/actualcorrectedcoefficientdefinitions andraw1978counts/response unavailable. NoPfit/experimentalconfidenceormodeclaim.",
+  "stop_contract": "onefixedreference+summaryworksheet, independentF/photonprojectioncheck andbranch/Covboundary. Ifreferencecurve mismatchpreservefirstoutputanddo nottuneMpop/sigma/C toauthorroot. NoactualL4orformal16credit."
+}

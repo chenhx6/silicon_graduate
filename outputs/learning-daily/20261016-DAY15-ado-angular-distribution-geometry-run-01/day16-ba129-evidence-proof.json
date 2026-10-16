@@ -1,0 +1,22 @@
+{
+  "at": "2026-10-17T07:08:36.955014+08:00",
+  "raws": {
+    "raw/papers/gpt/day15-20261016/nndc-129ba-129056001-201408-15d8e353eb23.ens": true,
+    "raw/papers/gpt/day15-20261016/nndc-129ba-129056013-201408-09194d4feed3.ens": true,
+    "raw/papers/gpt/day15-20261016/chakraborty-arxiv2108.05313v3-c8c0accfc9d2.pdf": true,
+    "raw/papers/2024_Chakraborty et al_Exploring the possibility of wobbling motion in Ba 129.pdf": true
+  },
+  "CH24_entireoldprefix_preserved": true,
+  "CH24_oldclaims1to6_needs_review_unchanged": true,
+  "old_pagehumanreview_not_extended": true,
+  "maxref_firstcode_hash_match": true,
+  "maxref_doesnotreproduce_authorcurve": true,
+  "sameparent_exactratio": "-8/3",
+  "exact6jsquaredcertificate": "64/9",
+  "sameparent_final_observed_exit": 0,
+  "NameError_intermediate_failed_attempt_recorded": "day16-ba129-same-parent-execution.json",
+  "allfrozenphysicalinputs_unchanged": true,
+  "actual_experimental_delta_or_mode_changed": false,
+  "sameparent_final_script_sha256": "c0b31393bb531fa918923081359fb80868c82c8b81761230da6f754c83ca51fa",
+  "sameparent_output_script_hash_matches": true
+}

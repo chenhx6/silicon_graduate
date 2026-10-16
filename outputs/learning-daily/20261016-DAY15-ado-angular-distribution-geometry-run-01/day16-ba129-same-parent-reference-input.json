@@ -1,0 +1,62 @@
+{
+  "identity": "DAY16-PREVIEW-BA129-SAMEPARENT-RANK4-REFERENCE-01",
+  "frozen_at": "2026-10-17T07:03:05.514555+08:00",
+  "session_id": "01a14510-aec7-7e00-aa23-f7c77a5124bc",
+  "selection": "Newindependentinputrouteaftermaxalignmentreferencefailed. Sameparent461.6coefficientsalreadyseenwhileauditingENSDF; sourceinformednotblind, nottuneσoralpha toδ=-2.",
+  "source_raw": "raw/papers/gpt/day15-20261016/nndc-129ba-129056013-201408-09194d4feed3.ens",
+  "source_sha256": "09194d4feed3bbda013c551ce5ba9ecf55a25799e8c46ec22f23685df1c1ef19",
+  "locator": "L643.6/G364.7/G461.6 legacy1977Gi02pairedA2/A4; bodyprimarynotobtained",
+  "parent": {
+    "Ex_keV": 643.6,
+    "twice_J": 13,
+    "Jpi": "13/2-"
+  },
+  "target": {
+    "E_keV": 364.7,
+    "twice_Jf": 11,
+    "components": [
+      [
+        "M",
+        1
+      ],
+      [
+        "E",
+        2
+      ]
+    ],
+    "A2": "-0.70(3)",
+    "A4": "0.16(5)"
+  },
+  "reference": {
+    "E_keV": 461.6,
+    "twice_Jf": 9,
+    "components": [
+      [
+        "E",
+        2
+      ]
+    ],
+    "A2": "0.22(2)",
+    "A4": "0.08(5)",
+    "P": "0.44(17)",
+    "pureE2_status": "ENSDFassignmentunderoldangular/polarizationcriteria, notnewindependentM3upperlimit"
+  },
+  "conditional_shared_density_model": "A_k,target=rho_k*F_k,target(delta)*Q_k,target; A_k,ref=rho_k*F_k,ref(E2)*Q_k,ref. Samepostselection/parentensemble/coefficientlayerneeded; notguaranteedbysameparentalone.",
+  "geometry": {
+    "s4": "Q4target/Q4ref, actualunknown",
+    "chosen_s4_for_nominalbounds": 1.0,
+    "sign_control": "if s4>0, signofA4target/A4refequalsF4target/F4ref; noactualpositiveQguaranteeprovidedbyENSDF"
+  },
+  "rank4": "M1/M1andM1E2crosscannotreachk4; targetF4=fE2*F4(E2). Compute exactRacahratioandnecessarysigncondition, noGaussianP assumption.",
+  "chosen_literal_interval_check": "means±quotedmarginals, notjointconfidenceormissingactualCov; report1- and2-errorrectangles onlyasnominalenclosures",
+  "chosen_diagonal_compatibility": "profileA4ref_true andfE2in[0,1]withs4=1underindependentnominalsigma; diagnosticdistance notformaltest/pvalue ornewδfit",
+  "excluded": [
+    "actualδ/CI",
+    "inferactualnuclearpopulationsfromtwocoefficients",
+    "borrowalpha/Cov",
+    "attributeexperimentalerror",
+    "assignwobbling/othermode",
+    "newBrIcclookup"
+  ],
+  "stop_contract": "oneanalytic/shared-densityrank4nullbatch+independentphotonprojectioncontrol, nofreeQ/sigma/highranktuning. Ifincompatibleholdunknownpurity/geometry/coefficient/gate/Covboundariesandstopactualfit."
+}

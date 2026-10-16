@@ -1,0 +1,33 @@
+{
+  "at": "2026-10-17T06:48:20.442655+08:00",
+  "url": "https://www.nndc.bnl.gov/ensdf/DatasetFetchServlet",
+  "method": "POST",
+  "parameters": {
+    "nuc": "129BA",
+    "nsrch": "Search",
+    "searchType": "quick",
+    "datasource": "ensdf"
+  },
+  "scope": "selecteddatasetcatalogue, notscientificrecordread",
+  "status": 200,
+  "sha256": "cf5cea221d90c81617a2bbc2736258f050dec4da4f1d5d9e60e7e66824f67d03",
+  "bytes": 7726,
+  "datasets": [
+    {
+      "value": "129056001,129BA",
+      "label": "ADOPTED LEVELS, GAMMAS 2014-08 All references"
+    },
+    {
+      "value": "129056012,129BA",
+      "label": "129LA EC DECAY (11.6 M) 2014-08 All references"
+    },
+    {
+      "value": "129056013,129BA",
+      "label": "120SN(12C,3NG),116CD(18O,5NG) 2014-08 All references"
+    },
+    {
+      "value": "129056014,129BA",
+      "label": "130BA(POL D,T),(D,T) 2014-08 All references"
+    }
+  ]
+}

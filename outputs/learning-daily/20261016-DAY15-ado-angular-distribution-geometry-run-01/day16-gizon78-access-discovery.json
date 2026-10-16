@@ -1,0 +1,159 @@
+[
+  {
+    "at": "2026-10-17T06:49:00.551340+08:00",
+    "label": "gizon78-openalex",
+    "url": "https://api.openalex.org/works/https://doi.org/10.1103/PhysRevC.17.596",
+    "parameters": {
+      "select": "id,title,doi,open_access,best_oa_location,locations"
+    },
+    "scope": "primaryaccessmetadata, notfulltext",
+    "status": 200,
+    "sha256": "c72f4d8c0cc6f9387e5c72b7df04c2ca9ba0e08ab68610e4dcbe172af7b04f71",
+    "data": {
+      "id": "https://openalex.org/W2052709909",
+      "title": "Gamma-ray linear polarization measurements in Ba129",
+      "doi": "https://doi.org/10.1103/physrevc.17.596",
+      "open_access": {
+        "is_oa": false,
+        "oa_status": "closed",
+        "oa_url": null,
+        "any_repository_has_fulltext": false
+      },
+      "best_oa_location": null,
+      "locations": [
+        {
+          "id": "doi:10.1103/physrevc.17.596",
+          "doi": "https://doi.org/10.1103/physrevc.17.596",
+          "is_oa": false,
+          "landing_page_url": "https://doi.org/10.1103/physrevc.17.596",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S4210168441",
+            "display_name": "Physical Review C",
+            "issn_l": "0556-2813",
+            "issn": [
+              "0556-2813",
+              "1089-490X",
+              "1538-4497",
+              "2469-9985",
+              "2469-9993",
+              "2470-0002"
+            ],
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": true,
+            "listed_in": [
+              "cwts-core",
+              "jufo-2",
+              "ki-jl-1",
+              "norway-1"
+            ],
+            "host_organization": "https://openalex.org/P4310320261",
+            "host_organization_name": "American Physical Society",
+            "host_organization_lineage": [
+              "https://openalex.org/P4310320261"
+            ],
+            "host_organization_lineage_names": [
+              "American Physical Society"
+            ],
+            "type": "journal"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": "Physical Review C",
+          "raw_type": "journal-article"
+        },
+        {
+          "id": "pmh:oai:HAL:in2p3-00007430v1",
+          "doi": null,
+          "is_oa": false,
+          "landing_page_url": "https://in2p3.hal.science/in2p3-00007430",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S4306402512",
+            "display_name": "HAL (Le Centre pour la Communication Scientifique Directe)",
+            "issn_l": null,
+            "issn": null,
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": false,
+            "listed_in": [],
+            "host_organization": "https://openalex.org/I1294671590",
+            "host_organization_name": "Centre National de la Recherche Scientifique",
+            "host_organization_lineage": [
+              "https://openalex.org/I1294671590"
+            ],
+            "host_organization_lineage_names": [],
+            "type": "repository"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "submittedVersion",
+          "is_accepted": false,
+          "is_published": false,
+          "raw_source_name": "Physical Review C, 1978, 17, pp.596-600. &#x27E8;10.1103/PhysRevC.17.596&#x27E9;",
+          "raw_type": "info:eu-repo/semantics/article"
+        }
+      ]
+    }
+  },
+  {
+    "at": "2026-10-17T06:49:00.551538+08:00",
+    "label": "gizon78-inspire",
+    "url": "https://inspirehep.net/api/literature",
+    "parameters": {
+      "q": "doi:10.1103/PhysRevC.17.596",
+      "fields": "dois,titles,documents,arxiv_eprints,external_system_identifiers",
+      "size": 2
+    },
+    "scope": "primaryaccessmetadata, notfulltext",
+    "status": 200,
+    "sha256": "018765aec85e0a39dcffcaa9a34219b7a8b8be2e9bdc8713e5f07af9da3b79b6",
+    "data": [
+      {
+        "metadata": {
+          "control_number": 139424,
+          "dois": [
+            {
+              "value": "10.1103/PhysRevC.17.596"
+            }
+          ],
+          "titles": [
+            {
+              "title": "Gamma-ray linear polarization measurements in Ba-129"
+            }
+          ],
+          "external_system_identifiers": [
+            {
+              "schema": "OSTI",
+              "value": "7074782"
+            },
+            {
+              "schema": "SPIRES",
+              "value": "SPIRES-7371381"
+            },
+            {
+              "schema": "NSR",
+              "value": "1978GI04"
+            }
+          ]
+        },
+        "created": "2007-09-21T00:00:00+00:00",
+        "updated": "2024-05-07T09:57:36.730790+00:00",
+        "links": {
+          "bibtex": "https://inspirehep.net/api/literature/139424?format=bibtex",
+          "latex-eu": "https://inspirehep.net/api/literature/139424?format=latex-eu",
+          "latex-us": "https://inspirehep.net/api/literature/139424?format=latex-us",
+          "json": "https://inspirehep.net/api/literature/139424?format=json",
+          "json-expanded": "https://inspirehep.net/api/literature/139424?format=json-expanded",
+          "cv": "https://inspirehep.net/api/literature/139424?format=cv",
+          "citations": "https://inspirehep.net/api/literature/?q=refersto%3Arecid%3A139424"
+        },
+        "id": "139424"
+      }
+    ]
+  }
+]

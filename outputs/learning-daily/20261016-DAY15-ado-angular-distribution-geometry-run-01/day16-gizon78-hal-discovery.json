@@ -1,0 +1,56 @@
+[
+  {
+    "at": "2026-10-17T06:49:56.011684+08:00",
+    "label": "hal-api",
+    "url": "https://api.archives-ouvertes.fr/search/",
+    "parameters": {
+      "q": "halId_s:in2p3-00007430",
+      "fl": "halId_s,title_s,authFullName_s,doiId_s,fileMain_s,files_s,uri_s,docType_s",
+      "wt": "json"
+    },
+    "scope": "observedinstitutionalrecord/publicfilediscoveryonly",
+    "status": 200,
+    "content_type": "application/json; charset=utf-8",
+    "bytes": 440,
+    "sha256": "bd3f8175e2ed3832824dcacf1d055729228a40efd8185490e55471ad5b165a7b",
+    "data": {
+      "response": {
+        "numFound": 1,
+        "start": 0,
+        "maxScore": 5.954597,
+        "numFoundExact": true,
+        "docs": [
+          {
+            "title_s": [
+              "Gamma-ray linear polarization measurements in $^{129}$Ba"
+            ],
+            "authFullName_s": [
+              "J. Gizon",
+              "A. Gizon",
+              "Y.K. Lee",
+              "D.O. Elliott"
+            ],
+            "halId_s": "in2p3-00007430",
+            "uri_s": "https://in2p3.hal.science/in2p3-00007430v1",
+            "docType_s": "ART",
+            "doiId_s": "10.1103/PhysRevC.17.596"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "at": "2026-10-17T06:49:56.011994+08:00",
+    "label": "hal-landing",
+    "url": "https://in2p3.hal.science/in2p3-00007430",
+    "parameters": null,
+    "scope": "observedinstitutionalrecord/publicfilediscoveryonly",
+    "status": 200,
+    "content_type": "text/html; charset=UTF-8",
+    "bytes": 75260,
+    "sha256": "e61c496fd283e702f9b9938743ce93ac1d493f923947d28bcca88f9d4a5c0cbb",
+    "title": " Gamma-ray linear polarization measurements in $^{129}$Ba  - IN2P3 - Institut national de physique nucléaire et de physique des particules",
+    "file_links": [],
+    "text_excerpt": "Gamma-ray linear polarization measurements in $^{129}$Ba  - IN2P3 - Institut national de physique nucléaire et de physique des particules Recherche Accéder directement au contenu Pied de page Documentation FR Français (FR) Anglais (EN) Se connecter Portail HAL in2p3 Recherche Loading... Recherche avancée Information de documents Titres Titres Sous-"
+  }
+]

@@ -1,5 +1,5 @@
 {
-  "captured_at": "2026-10-17T06:40:42.753731+08:00",
+  "captured_at": "2026-10-17T07:33:46.837106+08:00",
   "session_id": "01a14510-aec7-7e00-aa23-f7c77a5124bc",
   "run_id": "2026-10-16-day-15-01",
   "hard_deadline": "2026-10-17T15:00:00+08:00",
@@ -178,7 +178,7 @@
       "human_review_created": false
     }
   },
-  "current_status": "Published001–010actualH3/push; checkpoint011committed RU09/IF21 source/method conditionalroots36writebackpassfreshchecks, actualH3/pushonlypublication011. NextA130129Baprimedfreeze/oldsourcealreadyread/rawnotopened; formal15once/partial16/originalwindowactive.",
+  "current_status": "Day15手动验收完成，研究已按整体候选/下一卡审计提前关闭；formal15只计一次、partial16。最后内容执行精确发布，actual结果仅run/publication012。",
   "worksheet": {
     "input_sha256": "e8e31f0691862296b62adffb34e6e5395d22ba6cdc59f629a00c71a89eeadf04",
     "script": "system/scripts/day15_ado_covariance_worksheet.py",
@@ -188,10 +188,8 @@
     "figure_source_warnings": 4
   },
   "next_actions": [
-    "Publish011exactmanifest/H3 includingactualpublication010receipt",
-    "Obtainofficialarxiv2108.05313v3, verifyversion/title/DOI andreadcomplete; compareonlyneededCH24raworiginalfullmainline/sourcedependency",
-    "OldCH24wholeprefix/pagehumanreview/claims1–6true retain, pre-readbaselinecaptured",
-    "NoDay17/independentdatasetfabrication; original15:00cutoff"
+    "若publication012尚未成功，只完成已准备内容的发布；成功后仅讨论既有成果",
+    "正式Day16由既有runner另开独立session，重新冻结primed recall和执行卡，不凭预习授卡"
   ],
   "mixed_event_analysis": {
     "input_sha256": "b0a0bb6503d01e8dc432e1a866960872b4fbc1bebd89a1737ca766eab9bab72c",
@@ -250,7 +248,7 @@
       11
     ],
     "krane_scope": "full11pages/keyoperators/TableI–III/abstract andfigures, oldflagsunchanged",
-    "scientific_deltas": "pending exact original-geometry/model and phase comparison; no previewcardcredit",
+    "scientific_deltas": "主线/约定/双解及实际summary-input边界已canonical，仍仅partial16；正式16另行运行",
     "canonical_delta": [
       "knowledge/sources/droste-1996-pdco-formalism.md",
       "knowledge/methods/dco-pdco-ambiguity-worksheet.md"
@@ -466,7 +464,8 @@
     "web_form_GET": 200,
     "POST_queries_executed": 0,
     "active_query_input": "day16-bricc-z70-489p8-query-input-v2.json",
-    "scope": "nominalenergyonly; data.1keVunc retainedbutnotpropagated; preservealloldKB08body/flags"
+    "scope": "nominalenergyonly; data.1keVunc retainedbutnotpropagated; preservealloldKB08body/flags",
+    "historical_checkpoint_only": true
   },
   "ICC_reference": {
     "source": "knowledge/sources/kibedi-2008-evaluation-theoretical-conversion-coefficients-bricc.md KB08-D15-1..6",
@@ -531,7 +530,7 @@
     ],
     "VoR_critical_defs_verified": true,
     "VoR_raw": "raw/papers/gpt/day15-20261016/iliadis-friman-gayer-2021-vor-4c0b226de8e5.pdf",
-    "source_andcanonical_pending": true,
+    "source_andcanonical_pending": false,
     "independent_IF21_coefficient_vs_originaldirect_error": 8.881784197001252e-16,
     "input": "day16-if21-coefficient-audit-input.json",
     "script": "system/scripts/day16_if21_coefficient_audit.py",
@@ -540,5 +539,42 @@
     "counterposition": "ALPACA READMEreportsreview2022modifiedKSWfootnote2; directbodynotyetfound; new2023corrigendumDOIfoundmetadata, contentsunknown",
     "ALPACA_code": "7pinnedGitblobshashverified/read,nobuild/execution/copiedcode",
     "not_a_new_actualNRFdelta_fit": true
-  }
+  },
+  "BA129_current": {
+    "arxiv_v3_raw": "raw/papers/gpt/day15-20261016/chakraborty-arxiv2108.05313v3-c8c0accfc9d2.pdf",
+    "arxiv_v3_date": "9Apr2024",
+    "arxiv_history": "v1Aug2021;v2withdrawn;onlyv3read,noinferenceaboutwithdrawalreason/currentwholepaperstatus",
+    "CH24rawhash": "d5729de577067f8afeab771afb51328989772c68962a938d553bccb50f0c0808",
+    "CH24pages_read": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "CH24modernresult": "authorδ≈-2/80(4)%p3, -.84..-.79historical; oldCH24-2supersedednew7notedited/flagsunchanged",
+    "input": "day16-ba129-coefficient-input.json",
+    "input_sha256": "5fd2713b055ab00d7f4f08dd476a2c66371e3d33bfd1da4a08e4da539f9bc319",
+    "script": "system/scripts/day16_ba129_coefficient_audit.py",
+    "result": "day16-ba129-coefficient-audit.json",
+    "actual_exit": 0,
+    "source_curve_reproduced": false,
+    "chosenreference": "maxalignmentM±1/2, notclaimedproducer; A2roots-2.905/-0.2058,A4±.6206 vsauthors-2/-.33/±1.3; noactualδfit",
+    "first_code": "day16-ba129-coefficient-first-code.txt",
+    "n129objects": "adopted129056001/reaction129056013,201408/cut31May2014; newraw2hashmanifest/day16-n129-raw-manifest.json, neverstage",
+    "N129lineage": "pairedA2/A4from1977Gi02,Pfrom1978Gi04,singleA2/DCOfrom1992By03; globalDCO1992By02wrongNSRpaperantiproton butcG/headerBy03valid, isolate/notrepairraw",
+    "N129target": "L643.6 13/2- G364.7 ->FL278.81 11/2-, targetTblank/MRblank/CC.0269(24) underdefaultδ.5, notmeasuredICC/δ",
+    "primaryGizon78": "HALexactrecordnofile,OpenAlexclosed,APS403/Harvest401;notobtained; notreadprimary",
+    "Gizon77": "HAL精确metadata无file；原正文未得，不重试相同路径",
+    "next_priority": "canonical已完成；保留chosenreference曲线不匹配及actualprimary/producer/response/Sigma缺口，核验并发布012",
+    "same_parent_reference": {
+      "script": "system/scripts/day16_ba129_same_parent_reference.py",
+      "input": "day16-ba129-same-parent-reference-input.json",
+      "result": "day16-ba129-same-parent-reference.json",
+      "exact_F4_ratio": "-8/3",
+      "actual_delta_fit": false,
+      "actual_Q4_or_Cov_known": false
+    }
+  },
+  "schedule_level_closeout": "outputs/learning-daily/20261016-DAY15-ado-angular-distribution-geometry-run-01/candidate-refresh-012.json"
 }

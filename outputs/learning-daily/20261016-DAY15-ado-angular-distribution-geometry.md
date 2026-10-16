@@ -18,12 +18,12 @@ updated: 2026-10-17
 - session_id: 01a14510-aec7-7e00-aa23-f7c77a5124bc
 - resume_command: `codex resume 01a14510-aec7-7e00-aa23-f7c77a5124bc -C /workspace/wiki -s danger-full-access -a never`
 - hard_deadline: 2026-10-17T15:00:00+08:00
-- status: in-progress
+- status: complete
 - completed_day_indices: [15]
 - partial_day_indices: [16]
 - Day 15 card audit: complete
 
-本次是独立session；Day15正式卡已通过本session科学交付、检查与首批实际发布，课程将按回执一次对账至next16/count15。整段run仍active；Day16只作无学分预习。本页是持续学习检查点，不表示整个时段完成。15:00前仍有高价值当前问题时继续；最多预习恰好Day16并只记partial16，不开Day17。receipt见[run.json](20261016-DAY15-ado-angular-distribution-geometry-run-01/run.json)。
+本次是独立session；Day15正式卡已通过本session交付与实际发布，课程已只计一次至next16/count15。Day16仅为无学分预习，未打开Day17。2026-10-17 07:28:56上海重新核对原15:00硬截止，尚余451.07分钟；重建全部候选并复核下一张Day16卡后，当前问题和允许预习均受具体primary/producer/response/Cov缺口限制，按工作流饱和条款提前停止新增研究并收束。未宣称所有合法文献渠道均已穷尽。后文检查点中的active/pending属于当时状态；最终状态见本节、末节和[run.json](20261016-DAY15-ado-angular-distribution-geometry-run-01/run.json)。
 
 ### 本session主动回忆
 
@@ -41,7 +41,7 @@ updated: 2026-10-17
 | novelty | 独立GRIFFIN方法怎样验证event mixing与finite geometry，什么不能迁移到in-beam ADO？ | 已冻结primed回忆，读完28页arXiv1807.07570v1及相关图表；响应/Cov/版本边界已canonical |
 | anchor内审计 | Zheng Fig1(a)与正文偶极门3.2%是否一致？ | 放大图/原文保留不一致边界；不补造精确图值 |
 | 既有Zobel/Ionescu/193Bi等 | 避免重复旧练习；真实event/response/Σ缺口未补 | 必要时调取明确locator；不重算加分 |
-| Day16 | 尚未开展；当前Day15路线仍有信息增益 | 不授学分，不越过下一卡 |
+| Day16 | 本run随后完成允许的知识预习与多分支核验，最终输入缺口见收束审计 | 只记partial16，不授学分，不打开Day17 |
 
 ## Sources and evidence
 
@@ -90,7 +90,7 @@ Crossref/官方arXiv history核到2019NIM A922,47–63，DOI[10.1016/j.nima.2018
 - DR96-6，printed523–524/Fig7：5→4→2、sigma/I0=.3、DCO0/90、PDCO90/90/phi0；原文是作者计算的近似R/P例，没有实测counts/Cov。
 - DR96-7，printed521–522：作者说FORTRAN可向作者取得，本session没有取得/运行它。独立推导与paper code replay分开。
 
-Krane–Steffen1970的raw身份（11页）也核过，现阶段只读已有source摘要，原件主线和跨文献phase转换仍未完成；不计Day16正式学分。所有新增source/模型内容都在本Day15 run的partial16知识预习内，不打开17。
+在本段初始检查点，Krane–Steffen1970仅核raw身份和旧摘要；随后原件11页主线及跨文献phase桥已按下文完成，始终不计Day16正式学分。所有新增source/模型内容都在本Day15 run的partial16知识预习内，不打开17。
 
 ### Day16预习：135Pr主线与标定原件
 
@@ -160,6 +160,16 @@ RU09 Eq3称KS体系并取elasticδ1=δ2，作者以E2成分异常大选择smallr
 新取得[IF21综述](../../knowledge/sources/iliadis-friman-gayer-2021-polarization-direction-correlations.md)：v1原件39页hash58c0294f6b3d…，实际完整读mainline1–18/selectedappendix/关键图；随后出版商VoR39页hash4c0b226de8e5…，直接核Eq2–18、p5publishedcriticism、Fig10/Eq30及geometry。两版本和阅读scope分开，不称逐字等同或通读全部39页VoR。IF21 VoRp5明确批评RU09同号Steffen表述；这作为**综述作者判断**记录，不据此宣称获得RU09producer或所有modified-KSW均错。
 
 ALPACA固定commit f173c2d…的README/header/coefficient/test作只读伴随，7Gitblobs核SHA1/SHA256，未build/执行/copyGPL实现；rawhosttimeout后换官方GitblobAPI有typed记录。README称后续review2022用modifiedincoming coefficients保持KSW同号；原reviewfootnote尚未取得，2023corrigendum10.1016/j.ppnp.2023.104059也只有metadata、内容未知。publisherrobot challenge未操作，institutionalrecords仅书目/404、API200只coredata而非body；不以OpenAlexbronze替代原件。KSW1973仅定向role/coeff前10页，未重读56页。当前完整定义/actualproducer缺口保持。
+
+### A≈130实际重分析：129Ba365的数值归属更正
+
+先冻结[primed回忆](20261016-DAY15-ado-angular-distribution-geometry-run-01/day16-ba129-before-source-frozen.md)，再完整读官方arxiv2108.05313**v3的一页**/Fig1–2及CH24原**5页**/Fig1–7/refs。v3 margin为2024-04-09，metadata初提交2021、v2historywithdrawn；只读v3，不把撤回原因/2021正文自动套它，也不指认其为PRC逐字VoR。source/rawhash在[C365 source](../../knowledge/sources/chakraborty-2024-ba129-365-mixing-ratio-arxiv-v3.md)与[CH24 current-use更正](../../knowledge/sources/chakraborty-2024-possibility-wobbling-129ba.md#2026-10-17当前使用更正现代重分析不是历史采用区间)。
+
+原Wiki CH24-2错把−.84至−.79作为modernadoption。PRC printed024324-3先回顾此历史区间，随后报本篇χ² min δ≈−2.0/80(4)%E2；新CH24-7已明确supersede旧数值归属，旧pagehumanreview/1–6true/AR全文prefix保持，新7–13仅true/selfaudit。C365与PRC共享Gizon观测/论证，不计两场新实验，mode依旧possibility/likely不升级。
+
+因chosenreference与sourcecurve不匹配（下文），另冻结[n129前回忆](20261016-DAY15-ado-angular-distribution-geometry-run-01/day16-n129-before-data-frozen.md)查询两个官方ENSDF对象129056001/013（201408/cut31May2014）；target为L643.6/G364.7/FL278.81，不是开头未附level的G365.0。pairedAD1977/P1978/另一A2DCO1992谱系、defaultδ=.5的CC和parentT空白在[N129 source](../../knowledge/sources/nndc-2014-129ba-365-coefficient-records.md) N129-1–10。globalDCO一条错误key1992By02竟join到反质子论文，header/cG的By03与真正Byrne论文已核，错key隔离/raw不修，不扩大为整对象身份错误。新两public .ens逐文件hash/不stage。
+
+Gizon1978 metadata由Crossref/HAL/INSPIRE核，HAL无file、publisher403/officialHarvest401，body未得；Gizon1977 DOI10.1016/0375-9474(77)90714-X的HAL也仅metadata无file。评价/后续引用不当primarybody，未补其correction/布居/actualCov。原始producer缺口保留，不重复终态失败URL或改凭据。
 
 ## Theory/analysis exercise
 
@@ -357,9 +367,23 @@ IF21模型用原印a/C（无actualΣ/P/Cerror）时，4443.93四根−2.91449/�
 
 相同90°asym的各根在ideal45°给不同预测，完整表保存在[canonicalNRF方法](../../knowledge/methods/polarized-photon-branch-audit.md#真正能区分这些候选的下一观测)。例如8916四根的ideal a45为−.48332/+.044316/+.101617/−.360065；actualC45/response未知不套C90，4443两小模候选分离仅.02676也未必可测。IF21 Eq30说明rankQn一般同时进入分子/分母，不是普适乘法C；更多角也不保证对完整相同patterns增加rank。下一观测需验证独立direction与actualjoint errors，不能用新的physical-plausibility叙述替代测量。
 
+### 129Ba chosenreference不匹配：停止配根并找独立输入
+
+新[冻结输入](20261016-DAY15-ado-angular-distribution-geometry-run-01/day16-ba129-coefficient-input.json) hash`5fd2713b055ab00d7f4f08dd476a2c66371e3d33bfd1da4a08e4da539f9bc319`，明确13/2→11/2、maxalignmentM±1/2为**自选reference而非实测布居/作者producer**；[脚本](../../system/scripts/day16_ba129_coefficient_audit.py)/[结果](20261016-DAY15-ado-angular-distribution-geometry-run-01/day16-ba129-coefficient-audit.json)内部F/photon/12vs16积分pass至约4e−15。但A2=−.70给−2.90524/−.205831、A4=.16给±.620603，不重现作者−2/−.33/±1.3曲线，source-curve-match=false明确保存，没调σ/alpha/C去配−2。
+
+chosenrho=−.8/0/+.8的score全stationary/pureE2limit核算给min约−.167326/−.209613/−.244468，只示未核reference-to-data层会改变inverse，**不是新δ测量**。原coef定义/布居/geometry/Σ未得时，不生成actualCI/Pfit；作者80(4)%保留。fraction式对−2(.2)给.80、局部.032、端点.82877/.76415，是同一个radiative比例换算，不是absoluteB或新实验。
+
+### 同母态461.6参考的rank4必要条件
+
+评价提供独立于强制目标δ的额外summary：同L643.6的461.6到9/2−、标E2，pairedA2=.22(.02)/A4=.08(.05)；targetA4=.16(.05)。在[新冻结输入](20261016-DAY15-ado-angular-distribution-geometry-run-01/day16-ba129-same-parent-reference-input.json) hash`82a2b8bffe867717e01724dc25e554a36039345fdca16bcddc0b926d443e562c`中声明samecoeff/density/gate、pureE2reference、targetM1/E2和geometryratio s4条件，[脚本](../../system/scripts/day16_ba129_same_parent_reference.py)/[结果](20261016-DAY15-ado-angular-distribution-geometry-run-01/day16-ba129-same-parent-reference.json)最终exit0。exactRacah/Fraction证书64/9给spinratio−8/3，independentforward/photon差<1.8e−15，故`A4_t=−(8/3) f_E2 s4 A4_r`，rho4取消、不需Gaussian。
+
+当s4>0且fE2>0，两非零A4须异号；一倍literalmargin两者均正，条件包不合。再自选s4=1的二倍margin只给target可达上界.053333，而target下界.06，差.00667很小/非jointCI；nominal独立sigma profile-distance最小6.873425也不是p值/actualδ。加入exactcertificate时一次函数顺序NameError无科学输出，修复后输入/数据不变。不能据此判source或实验错误：referencepurity、高阶、coefficient层、postselection、Q4符号/energy和jointΣ均需原件/匹配control。
+
+另从既有Q4公式直接推得符号验收：任意positivezonal核若全部支持beta<30.555592°则Q4>0；uniformcone专用范围可至49.106605°，不能据此反推实际Gizon几何或重跑旧cone35checks加分。推论/根式/适用条件已canonical并留q4-sign-corollary回执。所有公式、reference矩阵、诊断根/分数、错key边界和下一最高信息输入已写[canonical129Ba研究note](../../knowledge/research-notes/ba129-365-mixing-reference-boundary.md)，并给[nucleus数值来源注记](../../knowledge/nuclei/129ba.md#2026-10-17数值来源注记)；完整reusablefacts不只在outputs。两bounded数学route停止，不回头调population填窗口；实际L4仍not-ready。
+
 ### Thematic REFLECT：响应、约定、候选与证据依赖
 
-[canonical worksheet反思矩阵](../../knowledge/methods/dco-pdco-ambiguity-worksheet.md#thematic-reflect比值响应与参数的使用门)综合Zheng/Gri/D96/KS70/KF：两角信息不足、efficiency与fullresponse分层、pure/reference对mixedphase的盲区、sameR/近似point的身份以及derived列与实际独立数据分开。它修正方法合同，不给新A130模式结论。下一原件核验仍可检查Rose–Brink literal definition/原dataset Cov边界，只有partial16，不打开17。
+[canonical worksheet反思矩阵](../../knowledge/methods/dco-pdco-ambiguity-worksheet.md#thematic-reflect比值响应与参数的使用门)综合Zheng/Gri/D96/KS70/KF：两角信息不足、efficiency与fullresponse分层、pure/reference对mixedphase的盲区、sameR/近似point的身份以及derived列与实际独立数据分开。它修正方法合同，不给新A130模式结论。Rose–Brink literal definition随后已按上文闭合，原dataset Cov仍缺；只有partial16，不打开17。
 
 ## Counter-evidence and missing companion observables
 
@@ -378,7 +402,7 @@ IF21模型用原印a/C（无actualΣ/P/Cerror）时，4443.93四根−2.91449/�
 
 ## Durable knowledge delta
 
-已实际新增[ADO两路校验与共享校准Cov](../../knowledge/methods/ado-covariance-calibration.md)，保存完整chosen输入、等价族、解析Jacobian、共享sideband矩阵、效率latent模型、数值、换门/finite-cone边界与复算入口；来源原子入口为Z02-6/9。Zheng source新增Z02-10并保持旧flags；[角分布方法页](../../knowledge/methods/angular-distribution.md#误差传播与可识别性)和index已给反向入口。新增[event-mixing统计方法](../../knowledge/methods/event-mixing-statistics.md)保存完整证明、概率、数值和退化/弱分母边界；source软件补充给SG19-16/17的版本/hash/NDA缺口。可复用内容的唯一副本不在outputs。后续D96勘误/oblique分析轴benchmark、JO95 P90/误差预算、S83效率分母与typed事件模式可识别性也已分别写入DCO worksheet/Compton方法及来源页；published原值、失败路径和所有scope边界保留。
+已实际新增[ADO两路校验与共享校准Cov](../../knowledge/methods/ado-covariance-calibration.md)，保存完整chosen输入、等价族、解析Jacobian、共享sideband矩阵、效率latent模型、数值、换门/finite-cone边界与复算入口；来源原子入口为Z02-6/9。Zheng source新增Z02-10并保持旧flags；[角分布方法页](../../knowledge/methods/angular-distribution.md#误差传播与可识别性)和index已给反向入口。新增[event-mixing统计方法](../../knowledge/methods/event-mixing-statistics.md)保存完整证明、概率、数值和退化/弱分母边界；source软件补充给SG19-16/17的版本/hash/NDA缺口。可复用内容的唯一副本不在outputs。最终另同步[overview治理快照](../../knowledge/overview.md#current-snapshot-2026-10-17-day15-closeout)；唯一writeback共42项，其中41项科学增量加1项治理统计。来源locator只支持该快照中的证据分层使用门，统计数字来自lint/目录核验。后续D96勘误/oblique分析轴benchmark、JO95 P90/误差预算、S83效率分母与typed事件模式可识别性也已分别写入DCO worksheet/Compton方法及来源页；published原值、失败路径和所有scope边界保留。
 
 ```knowledge-writeback
 {
@@ -412,7 +436,7 @@ IF21模型用原印a/C（无actualΣ/P/Cerror）时，4443.93四根−2.91449/�
     },
     {
       "knowledge": "knowledge/methods/angular-distribution.md",
-      "summary": "新增正式Day15自设计算与相关传播的canonical入口，区分旧预习数字和本次图文边界。；追加135Pr854.3核alignment参数层/正性合同、七角折叠和gate/MCMC边界。；补有界E2/M3单gamma模型和错误pure-reference反演的scope反例，不拟合实际delta/sigma或归因。",
+      "summary": "新增正式Day15自设计算与相关传播的canonical入口，区分旧预习数字和本次图文边界。；追加135Pr854.3核alignment参数层/正性合同、七角折叠和gate/MCMC边界。；补有界E2/M3单gamma模型和错误pure-reference反演的scope反例，不拟合实际delta/sigma或归因。；补129Ba实际coefficient层/independentreference反循环校准边界。",
       "anchor": "Day15正式运行另建",
       "sources": [
         {
@@ -454,6 +478,14 @@ IF21模型用原印a/C（无actualΣ/P/Cerror）时，4443.93四根−2.91449/�
         {
           "path": "knowledge/sources/sensharma-2021-wobbling-motion-135pr-187au.md",
           "locator": "SE21-17"
+        },
+        {
+          "path": "knowledge/sources/chakraborty-2024-possibility-wobbling-129ba.md",
+          "locator": "CH24-7"
+        },
+        {
+          "path": "knowledge/sources/chakraborty-2024-possibility-wobbling-129ba.md",
+          "locator": "CH24-12"
         }
       ]
     },
@@ -513,7 +545,7 @@ IF21模型用原印a/C（无actualΣ/P/Cerror）时，4443.93四根−2.91449/�
     },
     {
       "knowledge": "knowledge/index.md",
-      "summary": "为正式Day15新ADO协方差方法及独立GRIFFIN source建立可检索入口。 新增event-mixing-statistics方法入口。 新增DCO/PDCO双解worksheet检索入口。；新增135Pr观测量/标定合同入口。；新增ST99原表/校准实验笔记入口。；新增164Yb当前评价reference可检索入口。；新增IF21与NRFbranch audit可检索入口。",
+      "summary": "为正式Day15新ADO协方差方法及独立GRIFFIN source建立可检索入口。 新增event-mixing-statistics方法入口。 新增DCO/PDCO双解worksheet检索入口。；新增135Pr观测量/标定合同入口。；新增ST99原表/校准实验笔记入口。；新增164Yb当前评价reference可检索入口。；新增IF21与NRFbranch audit可检索入口。；新增129Ba365v3/N129/reference-boundary检索入口。",
       "anchor": "GRIFFIN的event-mixing/finite-response实验校验",
       "sources": [
         {
@@ -547,6 +579,14 @@ IF21模型用原印a/C（无actualΣ/P/Cerror）时，4443.93四根−2.91449/�
         {
           "path": "knowledge/sources/iliadis-friman-gayer-2021-polarization-direction-correlations.md",
           "locator": "IF21-10"
+        },
+        {
+          "path": "knowledge/sources/chakraborty-2024-ba129-365-mixing-ratio-arxiv-v3.md",
+          "locator": "C365-1"
+        },
+        {
+          "path": "knowledge/sources/nndc-2014-129ba-365-coefficient-records.md",
+          "locator": "N129-3"
         }
       ]
     },
@@ -1663,6 +1703,188 @@ IF21模型用原印a/C（无actualΣ/P/Cerror）时，4443.93四根−2.91449/�
           "locator": "RU09-13"
         }
       ]
+    },
+    {
+      "knowledge": "knowledge/sources/chakraborty-2024-possibility-wobbling-129ba.md",
+      "summary": "原5页复核并appendcurrent-use更正现代δ≈−2/80(4)%与historical-.84..-.79归属，保留旧人审/1–6true/AR全文；核reference重放/同母态必要条件边界，不改模式。",
+      "anchor": "2026-10-17当前使用更正：现代重分析不是历史采用区间",
+      "sources": [
+        {
+          "path": "knowledge/sources/chakraborty-2024-possibility-wobbling-129ba.md",
+          "locator": "CH24-7"
+        },
+        {
+          "path": "knowledge/sources/chakraborty-2024-possibility-wobbling-129ba.md",
+          "locator": "CH24-8"
+        },
+        {
+          "path": "knowledge/sources/chakraborty-2024-possibility-wobbling-129ba.md",
+          "locator": "CH24-9"
+        },
+        {
+          "path": "knowledge/sources/chakraborty-2024-possibility-wobbling-129ba.md",
+          "locator": "CH24-11"
+        },
+        {
+          "path": "knowledge/sources/chakraborty-2024-possibility-wobbling-129ba.md",
+          "locator": "CH24-12"
+        },
+        {
+          "path": "knowledge/sources/chakraborty-2024-possibility-wobbling-129ba.md",
+          "locator": "CH24-13"
+        },
+        {
+          "path": "knowledge/sources/chakraborty-2024-ba129-365-mixing-ratio-arxiv-v3.md",
+          "locator": "C365-7"
+        },
+        {
+          "path": "knowledge/sources/nndc-2014-129ba-365-coefficient-records.md",
+          "locator": "N129-10"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/sources/chakraborty-2024-ba129-365-mixing-ratio-arxiv-v3.md",
+      "summary": "建立实读单页v3/9Apr2024的独立版本source，区分2021/v2history、现代作者结果、共享Gizon数据和未给producer层，不计新实验。",
+      "anchor": "365keV：一次旧数据重分析，不是新采集",
+      "sources": [
+        {
+          "path": "knowledge/sources/chakraborty-2024-ba129-365-mixing-ratio-arxiv-v3.md",
+          "locator": "C365-1"
+        },
+        {
+          "path": "knowledge/sources/chakraborty-2024-ba129-365-mixing-ratio-arxiv-v3.md",
+          "locator": "C365-2"
+        },
+        {
+          "path": "knowledge/sources/chakraborty-2024-ba129-365-mixing-ratio-arxiv-v3.md",
+          "locator": "C365-3"
+        },
+        {
+          "path": "knowledge/sources/chakraborty-2024-ba129-365-mixing-ratio-arxiv-v3.md",
+          "locator": "C365-4"
+        },
+        {
+          "path": "knowledge/sources/chakraborty-2024-ba129-365-mixing-ratio-arxiv-v3.md",
+          "locator": "C365-6"
+        },
+        {
+          "path": "knowledge/sources/chakraborty-2024-ba129-365-mixing-ratio-arxiv-v3.md",
+          "locator": "C365-7"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/sources/nndc-2014-129ba-365-coefficient-records.md",
+      "summary": "归档两ENSDF对象，核365identity、AD/P/DCO不同来源、defaultδ理论CC、T空白和By02错误join隔离，保留sameparentcontrol条件。",
+      "anchor": "129Ba365keV：多种观测不等于可随意合并",
+      "sources": [
+        {
+          "path": "knowledge/sources/nndc-2014-129ba-365-coefficient-records.md",
+          "locator": "N129-1"
+        },
+        {
+          "path": "knowledge/sources/nndc-2014-129ba-365-coefficient-records.md",
+          "locator": "N129-2"
+        },
+        {
+          "path": "knowledge/sources/nndc-2014-129ba-365-coefficient-records.md",
+          "locator": "N129-3"
+        },
+        {
+          "path": "knowledge/sources/nndc-2014-129ba-365-coefficient-records.md",
+          "locator": "N129-4"
+        },
+        {
+          "path": "knowledge/sources/nndc-2014-129ba-365-coefficient-records.md",
+          "locator": "N129-5"
+        },
+        {
+          "path": "knowledge/sources/nndc-2014-129ba-365-coefficient-records.md",
+          "locator": "N129-6"
+        },
+        {
+          "path": "knowledge/sources/nndc-2014-129ba-365-coefficient-records.md",
+          "locator": "N129-8"
+        },
+        {
+          "path": "knowledge/sources/nndc-2014-129ba-365-coefficient-records.md",
+          "locator": "N129-10"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/research-notes/ba129-365-mixing-reference-boundary.md",
+      "summary": "保存现代/历史数值、chosenmaxreferenceF/photo通过但源curve不匹配、不能循环校准，以及sameparentrank4 exact−8/3条件包/误差域/actualinput缺口。；从既有Legendre定义给arbitrarypositive核/仅uniformcone的不同Q4符号域，未推实际array。",
+      "anchor": "共享布居、纯E2参考下的rank4必要关系",
+      "sources": [
+        {
+          "path": "knowledge/sources/chakraborty-2024-possibility-wobbling-129ba.md",
+          "locator": "CH24-7"
+        },
+        {
+          "path": "knowledge/sources/chakraborty-2024-possibility-wobbling-129ba.md",
+          "locator": "CH24-12"
+        },
+        {
+          "path": "knowledge/sources/chakraborty-2024-ba129-365-mixing-ratio-arxiv-v3.md",
+          "locator": "C365-6"
+        },
+        {
+          "path": "knowledge/sources/nndc-2014-129ba-365-coefficient-records.md",
+          "locator": "N129-3"
+        },
+        {
+          "path": "knowledge/sources/nndc-2014-129ba-365-coefficient-records.md",
+          "locator": "N129-5"
+        },
+        {
+          "path": "knowledge/sources/nndc-2014-129ba-365-coefficient-records.md",
+          "locator": "N129-8"
+        },
+        {
+          "path": "knowledge/sources/nndc-2014-129ba-365-coefficient-records.md",
+          "locator": "N129-10"
+        },
+        {
+          "path": "knowledge/sources/iliadis-friman-gayer-2021-polarization-direction-correlations.md",
+          "locator": "IF21-7"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/nuclei/129ba.md",
+      "summary": "为长期nucleus增加现代δ数值归属/共有数据/actualreference边界注记，不提升possiblewobbling或修改原band赋值。",
+      "anchor": "2026-10-17数值来源注记",
+      "sources": [
+        {
+          "path": "knowledge/sources/chakraborty-2024-possibility-wobbling-129ba.md",
+          "locator": "CH24-7"
+        },
+        {
+          "path": "knowledge/sources/chakraborty-2024-ba129-365-mixing-ratio-arxiv-v3.md",
+          "locator": "C365-7"
+        },
+        {
+          "path": "knowledge/sources/nndc-2014-129ba-365-coefficient-records.md",
+          "locator": "N129-5"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/overview.md",
+      "summary": "仅作本次最终治理统计与检索状态对账，保留历史快照；科学分层使用门回链既有来源，不新增物理结论。617/314及审核与warning数来自本次lint/目录核验，来源locator不支持这些统计计数。",
+      "anchor": "Current Snapshot: 2026-10-17 Day15 closeout",
+      "sources": [
+        {
+          "path": "knowledge/sources/zheng-2002-ado-coincidence-angular-anisotropy.md",
+          "locator": "Z02-9"
+        },
+        {
+          "path": "knowledge/sources/nndc-2014-129ba-365-coefficient-records.md",
+          "locator": "N129-10"
+        }
+      ]
     }
   ]
 }
@@ -1684,7 +1906,7 @@ L0完成Zheng主线；L1把source/方法/observable连通；L2完成有输入/ha
 
 计算脚本实际exit0；PSD、解析/数值梯度、独立ordered-pair、共同scale抵消、不可识别族和200000次MC均通过。图的panel alignment、glyph（minimum7pt）和collision（0fail/0warn）通过；source validator最终exit0、0fail，保留4项warning：仅交付PNG预览而非TIFF投稿栅格、300非600dpi、通用demo警告和MC/uncertainty模式误报。前两项符合本日报SVG/PDF+预览合同；后两项由显著自设标识及直接画sigma解释，不虚报实验。首次source audit的export/DPI失败及修正保留于[figure QA](20261016-DAY15-ado-angular-distribution-geometry-run-01/figure-qa.json)。
 
-首轮仓库lint实际exit1（本次新method缺5个固定英文schema标题，且inline数组被当wikilink），已修复并重跑exit0、0error/145warning（3reaction parser、114citation key、28既有raw slots）；全局diff exit0。新增GRIFFIN source后fresh lint实际exit0、0error/146warning（3reaction parser、115citation key、28既有raw slots）；boundary/diff/preflight exit0。EOL exit1按治理规则分类为4份本次substantive知识改动、0unsafe/mixed，均保留。实际runner report/writeback/partial curriculum校验通过，[检查回执](20261016-DAY15-ado-angular-distribution-geometry-run-01/prepublication-checks-002.json)和[同session续接](20261016-DAY15-ado-angular-distribution-geometry-run-01/continuation.md)已保存。检查点稳定指针：main / `Establish DAY15 ADO covariance and independent response evidence`，H3/push结果只写run receipt。首批44-path检查点的H3 fresh fetch/ancestry/dry-run/non-force push均exit0，实际结果见[发布回执](20261016-DAY15-ado-angular-distribution-geometry-run-01/publication-001.json)。新增统计与软件补充的fresh boundary/lint/diff均exit0、lint0error/146warning，截至检查点002的七页writeback实际runner验收通过；当前三十六项writeback已由run入口snapshot验证（verification-checkpoint-003-expanded.json），覆盖十三份canonical页；检查点002稳定指针：main / `Extend DAY15 event-mixing statistics and audit formal card completion`，actual H3/push只看publication002。原15:00研究截止不变，formal15完成与window仍active分开。
+首轮仓库lint实际exit1（本次新method缺5个固定英文schema标题，且inline数组被当wikilink），已修复并重跑exit0、0error/145warning（3reaction parser、114citation key、28既有raw slots）；全局diff exit0。新增GRIFFIN source后fresh lint实际exit0、0error/146warning（3reaction parser、115citation key、28既有raw slots）；boundary/diff/preflight exit0。EOL exit1按治理规则分类为4份本次substantive知识改动、0unsafe/mixed，均保留。实际runner report/writeback/partial curriculum校验通过，[检查回执](20261016-DAY15-ado-angular-distribution-geometry-run-01/prepublication-checks-002.json)和[同session续接](20261016-DAY15-ado-angular-distribution-geometry-run-01/continuation.md)已保存。检查点稳定指针：main / `Establish DAY15 ADO covariance and independent response evidence`，H3/push结果只写run receipt。首批44-path检查点的H3 fresh fetch/ancestry/dry-run/non-force push均exit0，实际结果见[发布回执](20261016-DAY15-ado-angular-distribution-geometry-run-01/publication-001.json)。新增统计与软件补充的fresh boundary/lint/diff均exit0、lint0error/146warning，截至检查点002的七页writeback实际runner验收通过；当时十三项writeback已由run入口snapshot验证（verification-checkpoint-003-expanded.json），覆盖十三份canonical页；检查点002稳定指针：main / `Extend DAY15 event-mixing statistics and audit formal card completion`，actual H3/push只看publication002。原15:00研究截止不变，formal15完成与window仍active分开。
 
 ### Day 15 card completion audit
 
@@ -1696,7 +1918,7 @@ L0完成Zheng主线；L1把source/方法/observable连通；L2完成有输入/ha
 | 不确定度与图 | [敏感性SVG](20261016-DAY15-ado-angular-distribution-geometry-run-01/ado-covariance-sensitivity.svg)、[figure QA](20261016-DAY15-ado-angular-distribution-geometry-run-01/figure-qa.json)，解析/MC与chosen Cov见计算JSON；原Fig1不作实验sigma | complete |
 | convention注记 | 本日报逐项表，source Z02-6/9/10及canonical方法页 | complete |
 | 反证与必要观测 | [换门/有限几何控制](../../knowledge/methods/ado-covariance-calibration.md#换门与有限几何的失败控制)；[SG19-6](../../knowledge/sources/smith-2019-griffin-angular-correlation-analysis.md#key-results) PDF7 Fig3的已知pure-E2反证及逐pair/E-M companion | complete |
-| 知识/检查/续接/receipt/发布 | 唯一writeback（截至检查点002七项，当前三十六项）、[fresh checks](20261016-DAY15-ado-angular-distribution-geometry-run-01/verification-checkpoint-002-extended.json)、[continuation](20261016-DAY15-ado-angular-distribution-geometry-run-01/continuation.md)、[run receipt](20261016-DAY15-ado-angular-distribution-geometry-run-01/run.json)、[首批实际H3/push](20261016-DAY15-ado-angular-distribution-geometry-run-01/publication-001.json)；[次日独立入口](prompts/20261017-DAY16-dco-rdco-mixing-ratio-convention.md) | complete |
+| 知识/检查/续接/receipt/发布 | 唯一writeback（截至检查点002七项，当前四十一项）、[fresh checks](20261016-DAY15-ado-angular-distribution-geometry-run-01/verification-checkpoint-002-extended.json)、[continuation](20261016-DAY15-ado-angular-distribution-geometry-run-01/continuation.md)、[run receipt](20261016-DAY15-ado-angular-distribution-geometry-run-01/run.json)、[首批实际H3/push](20261016-DAY15-ado-angular-distribution-geometry-run-01/publication-001.json)；[次日独立入口](prompts/20261017-DAY16-dco-rdco-mixing-ratio-convention.md) | complete |
 
 本表七行均已complete；依据本session实际交付与首批H3发布计Day15，Day14的partial15/成绩/脚本不授本日学分。新增扩展研究继续按其实际检查/发布执行，不将本卡完成当整个研究时段结束。
 
@@ -1736,3 +1958,30 @@ CERN150008后续有界访问实际返回bot-verification页面，未取得正文
 检查点010 fresh实际通过：[verification-prepublication-010](20261016-DAY15-ado-angular-distribution-geometry-run-01/verification-prepublication-010.json)。boundary/preflight/lint/diff均exit0，lint0error/146warning（115citationkey、28rawslots、3reactionparser）；EOL exit1为3ownsubstantive/0unsafe保留。33项writeback/36mappedpaths/33changed、19mappedmainrawhash、10quantitative script/input/outputhash、13组旧source rows/page review和KB08全部34,020bytes历史prefix、人审原文/PLAN/Bib/daemon通过。query/capture/dependency与新增3raw官方response哈希另有bricc-evidence-proof，不stage。首轮本次E0追加的inline矩阵被Wiki parser当link而lint exit1，改括号记法后通过，science未改/初始回执保留。本批已提交，稳定指针main / `Add shell-matched conversion references and E0 conditioning limits`，actualH3/push只publication010。候选池已重建，Rusev09已冻结primed回忆/读旧source、未打开原件，有已知初始偏振下实际选枝的高价值路线；window/goal仍active。
 
 检查点011 fresh实际通过：[verification-prepublication-011](20261016-DAY15-ado-angular-distribution-geometry-run-01/verification-prepublication-011.json)。boundary/preflight/lint/diff均exit0、lint0error/146warning（115citationkey、28rawslots、3reactionparser）；EOL exit1为2ownsubstantive/0unsafe保留。36项writeback/39mappedpaths/36changed，21mappedmainrawhash、12quantitativescript/input/outputhash、14组旧source rows/review及KB08/RU09整个历史prefix、原人审spin/project正文、PLAN/Bib/daemon通过；新v1/VoR和firstcode/dependency/Gitblobsproof另存。无actualδ/Σ/新核素赋值。本批已提交，稳定指针main / `Audit polarized-photon branches with explicit phase roles`；actualH3/push只publication011。06:39:11上海距原deadline500.82min，candidate-refresh011选择129Ba365的公开reanalysis与CH24overlaproute，已primedfreeze/读旧source，未开原件。window/goal仍active，继续，不因局部理论闭合closeout。
+
+### 最终候选审计与提前收束
+
+实际clock为2026-10-16 23:28:56UTC，即上海2026-10-17 07:28:56；原receipt的硬截止仍为2026-10-17 15:00，差451.07分钟。依据continuous-learning的提前停止条件，已逐项重建当前ADO/GRIFFIN与恰好下一张Day16的候选，核课程仍next16/count15，并保存[逐路线审计](20261016-DAY15-ado-angular-distribution-geometry-run-01/candidate-refresh-012.json)及[所检查的Day16原卡](20261016-DAY15-ado-angular-distribution-geometry-run-01/day16-card-inspected-at-closeout.md)。这次决定针对整段可执行候选，不以某篇读完或某个toy通过作为停止依据。
+
+| 已检查候选 | 已有可复用交付 | 仍缺且会改变判断的输入 |
+| --- | --- | --- |
+| 当前ADO与Zheng图文边界 | 两路f识别、Cov传播、Z02-10 | actual145Tb counts、独立reference、joint response/Sigma和Fig1原计算输入 |
+| GRIFFIN/mixed events | 主线反证、chosen精确矩/退化控制 | 实际mixer ledger/recipe及逐pair响应；公开软件构造边界仍在 |
+| Day16 DCO/PDCO/convention | D96/KS70/KF89主线、RB桥、双解及失败控制 | 实际matched阵列/门的参考与共同误差；正式Day16另行运行 |
+| 135Pr/164Yb | 处理层、校准/原表/勘误、评价/壳层reference谱系 | primary producer、rawresponse/Cov或匹配实测ICC；理论CC不补作测量 |
+| NRF RU09/IF21 | 独立系数闭合、条件根与反方解释 | review/corrigendum直接正文及原producer，未以README裁决 |
+| 129Ba365/461.6 | 数值归属更正、data-object身份、rank4必要条件与Q4符号门 | Gizon原AD/P修正、samegate/purity/Q4/Sigma；Byrne正文仍缺 |
+
+129Ba新成果已canonical写入[研究笔记](../../knowledge/research-notes/ba129-365-mixing-reference-boundary.md)、[v3来源](../../knowledge/sources/chakraborty-2024-ba129-365-mixing-ratio-arxiv-v3.md)和[评价对象](../../knowledge/sources/nndc-2014-129ba-365-coefficient-records.md)。现代δ≈−2与历史−.84…−.79已分开；chosen曲线未复现作者图线及同母态A4条件检查均保留，不产生新实验δ或wobbling裁决。HAL/APS/OpenAlex/机构bundle等本次有界访问记录已存，ANU ORIGINAL公开bitstream为0；这些不代表机构权限裁定或所有合法全文路线不存在。
+
+收束阶段只做核验、overview一次统计对账、次日入口/回执和发布。QMD只读status为562篇/2459vectors、38pending、349orphan，缓存位于`/var/lib/qmd`，在本次仅允许写入Wiki的边界外；因此未执行会写该缓存的update/embed/cleanup，检索刷新明确deferred，不宣称617篇均已索引。该限制不改变canonical Markdown证据。
+
+最终内容已提交，稳定指针为main / `Close DAY15 ADO study and audit 129Ba reference boundaries`。fresh检查结果记录于[verification-prepublication-012](20261016-DAY15-ado-angular-distribution-geometry-run-01/verification-prepublication-012.json)，实际commit/H3/push仅由publication-012.json和run receipt确认，不在提交内写自身hash。回执明确区分agent手动收束与尚未观察到的原runner退出，未伪造scheduler或closeout clock事件。
+
+精确续接：`codex resume 01a14510-aec7-7e00-aa23-f7c77a5124bc -C /workspace/wiki -s danger-full-access -a never`。收束完成后只讨论既有成果或完成未成功发布步骤，不自动重开研究、不重复计Day15、不凭预习授Day16。
+
+最终验收首轮012中boundary/preflight/lint/diff均exit0，但writeback因overview未列入而未通过；原失败回执保留为verification-prepublication-012-before-overview-map.json。已将其补为明确的治理条目，未修改validator、科学输入或原review范围，随后重新验收。
+
+最终012重新验收实际通过：boundary/preflight/lint/diff均exit0，lint0error/146warnings（115citation-key、28既有raw slot、3reaction-parser）。唯一writeback为42项（41科学+1治理）、45mappedpaths、42changed知识页；24mapped来源rawhash、14组script/input/outputhash和旧source rows/review、人审历史prefix、受保护PLAN/Bib/daemon均通过。EOL exit1仅为5份本轮实质改动，0unsafe/mixed，全部保留；它不是必需检查失败。报告/Day15逐卡审计/课程覆盖/冻结回忆/次日prompt与continuation均经本次检查。科学partial/not-ready边界保持，Day16无正式学分。
+
+研究停止的实际clock仍为07:28:56上海、提前451.07分钟；后续均为交付收束。原runner成功退出未观察，手动验收exit0与agent完成状态单独记录。最终内容提交及一次reconciliation后，publication-012.json保存实际H3和Gitee结果；本页不写自身hash。

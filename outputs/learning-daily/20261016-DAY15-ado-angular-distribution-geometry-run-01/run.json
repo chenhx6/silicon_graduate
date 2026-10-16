@@ -15,12 +15,12 @@
   "continuation_count": 0,
   "continuation_batch_count": 0,
   "continuation_batches": 1,
-  "counted_in_substantive_test": false,
+  "counted_in_substantive_test": true,
   "session_mode": "new-session-per-run",
   "session_reuse": false,
   "session_scope": "one-new-session-for-each-schedule-run",
   "codex_home": "/root/.codex",
-  "status": "running",
+  "status": "completed",
   "started_at": "2026-10-16T22:14:39.153694+08:00",
   "report": "/workspace/wiki/outputs/learning-daily/20261016-DAY15-ado-angular-distribution-geometry.md",
   "completed_day_indices": [
@@ -50,8 +50,8 @@
   "active_recall_sha256": "91eee8abb4bce71d0447617b1d5cb0d64240259115b9522a012963872cb25c67",
   "continuation_prompt": "/workspace/wiki/outputs/learning-daily/20261016-DAY15-ado-angular-distribution-geometry-run-01/continuation.md",
   "research_checkpoint": "/workspace/wiki/outputs/learning-daily/20261016-DAY15-ado-angular-distribution-geometry-run-01/research-checkpoint.json",
-  "last_agent_checkpoint_at": "2026-10-17T06:40:42.753731+08:00",
-  "agent_goal_state": "active",
+  "last_agent_checkpoint_at": "2026-10-17T07:31:08.566830+08:00",
+  "agent_goal_state": "active-final-publication",
   "publications": [
     {
       "checkpoint": 1,
@@ -132,10 +132,18 @@
       "commit_hash": "b63617e56178f8e31e83c3275e64c74a97dbb760",
       "status": "checkpoint-pushed",
       "receipt": "outputs/learning-daily/20261016-DAY15-ado-angular-distribution-geometry-run-01/publication-010.json"
+    },
+    {
+      "checkpoint": 11,
+      "branch": "main",
+      "subject": "Audit polarized-photon branches with explicit phase roles",
+      "commit_hash": "002fc9dd1daad3776405a27f5d3c51112caae825",
+      "status": "checkpoint-pushed",
+      "receipt": "outputs/learning-daily/20261016-DAY15-ado-angular-distribution-geometry-run-01/publication-011.json"
     }
   ],
   "formal_day15_card_audit": "complete",
-  "run_window_complete": false,
+  "run_window_complete": true,
   "next_day_prompt": "/workspace/wiki/outputs/learning-daily/prompts/20261017-DAY16-dco-rdco-mixing-ratio-convention.md",
   "state_reconciliation": {
     "before_next": 15,
@@ -149,16 +157,54 @@
       16
     ],
     "idempotent_verified": true,
-    "run_window_complete": false
+    "run_window_complete": true,
+    "closeout_advance_applied": false,
+    "reason": "formal15 already credited once after published checkpoint002; exact next16/count15 reverified, no second mutation"
   },
-  "study_window_status": "active-partial16",
-  "latest_verification": "outputs/learning-daily/20261016-DAY15-ado-angular-distribution-geometry-run-01/verification-prepublication-011.json",
+  "study_window_status": "closed-early-after-whole-pool-audit",
+  "latest_verification": "outputs/learning-daily/20261016-DAY15-ado-angular-distribution-geometry-run-01/verification-prepublication-012.json",
   "agent_clock_observation": {
-    "clock_tool_UTC": "2026-10-16 22:39:11 UTC",
-    "now_local": "2026-10-17T06:39:11+08:00",
+    "clock_tool_UTC": "2026-10-16 23:28:56 UTC",
+    "now_local": "2026-10-17T07:28:56+08:00",
     "hard_deadline": "2026-10-17T15:00:00+08:00",
-    "minutes_to_deadline": 500.81666666666666,
-    "decision": "continue",
-    "kind": "manualagentobservation,notscheduler"
+    "minutes_to_deadline": 451.06666666666666,
+    "decision": "early-close-after-whole-pool-and-permitted-preview-audit",
+    "kind": "manual-agent-observation-not-scheduler"
+  },
+  "research_status": "closed-early-after-candidate-audit",
+  "research_stopped_at": "2026-10-17T07:28:56+08:00",
+  "closeout_decision": "outputs/learning-daily/20261016-DAY15-ado-angular-distribution-geometry-run-01/candidate-refresh-012.json",
+  "completion_mode": "same-session-manual-early-closeout-after-whole-pool-audit",
+  "original_runner_exit_code": null,
+  "original_runner_exit_code_note": "原runner成功退出尚未观察；agent核验和发布回执单独记录，未制造scheduler/clock事件",
+  "execution_status": "same-session-manually-reconciled-completed",
+  "finished_at": "2026-10-17T07:33:46.837106+08:00",
+  "deliverables_passed": true,
+  "manual_validation_exit_code": 0,
+  "study_window_closed": true,
+  "completion_scope": "agent scientific and deliverable completion; original runner exit and scheduler finalization not observed",
+  "next_day_index": 16,
+  "publication_status": "outcome-recorded-only-in-post-publication-receipt",
+  "final_content_pointer": {
+    "branch": "main",
+    "subject": "Close DAY15 ADO study and audit 129Ba reference boundaries"
+  },
+  "closeout_on_time": true,
+  "closeout_on_time_basis": "workflow-permitted early stop after full candidate/next-card audit, not a 15:00 clock delivery attestation",
+  "qmd_refresh": {
+    "status": "deferred",
+    "reason": "configured cache /var/lib/qmd outside task write boundary",
+    "readonly_documents": 562,
+    "readonly_vectors": 2459,
+    "pending": 38,
+    "orphaned": 349
+  },
+  "post_commit_reconciliation": {
+    "at": "2026-10-17T07:35:52.812944+08:00",
+    "branch": "main",
+    "subject": "Close DAY15 ADO study and audit 129Ba reference boundaries",
+    "exact_manifest_files": 56,
+    "one_unpublished_amend": true,
+    "remote_outcome": "recorded only in post-publication receipt; no own hash inside final content"
   }
 }

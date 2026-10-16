@@ -1,0 +1,116 @@
+[
+  {
+    "at": "2026-10-17T06:45:19.414217+08:00",
+    "label": "arxiv-abs-v3",
+    "url": "https://arxiv.org/abs/2108.05313v3",
+    "scope": "articleidentity/lineage, notbodyverifiedunlessalreadydownloadedv3",
+    "status": 200,
+    "sha256": "d2ad7b18ed3a9c097cee8b474b685ea015bb26832b9f1fba7ef0cf25350223e7",
+    "bytes": 38702,
+    "citation_meta": {
+      "citation_title": "On the multipole mixing ratio of the 365 keV $\\gamma$-transition in $^{129}$Ba",
+      "citation_author": "Chakraborty, S.",
+      "citation_date": "2021/08/11",
+      "citation_online_date": "2024/04/09",
+      "citation_pdf_url": "https://arxiv.org/pdf/2108.05313",
+      "citation_arxiv_id": "2108.05313",
+      "citation_abstract": "The $E2/M1$ multipole mixing ratio ($\\delta$), reported by J. Gizon et al. Phys. Rev. C 17, 596 (1978), for 365 keV $\\gamma$-transition in $^{129}$Ba is reevaluated and found altered. Experimentally determined angular distribution coefficients indicate a large E2 admixture in the 365 keV $\\gamma$-ray. Indeed, it is found in better agreement with the reported linear polarization value for this $\\gamma$-ray."
+    },
+    "abstract": "Abstract: The $E2/M1$ multipole mixing ratio ($\\delta$), reported by J. Gizon et al. Phys. Rev. C 17, 596 (1978), for 365 keV $\\gamma$-transition in $^{129}$Ba is reevaluated and found altered. Experimentally determined angular distribution coefficients indicate a large E2 admixture in the 365 keV $\\gamma$-ray. Indeed, it is found in better agreement with the reported linear polarization value for this $\\gamma$-ray.",
+    "history": [
+      "Submission history From: Saikat Chakraborty [ view email ] [v1] Wed, 11 Aug 2021 16:48:19 UTC (59 KB) [v2] Fri, 13 Aug 2021 12:40:09 UTC (1 KB) (withdrawn) [v3] Tue, 9 Apr 2024 09:48:35 UTC (167 KB)"
+    ]
+  },
+  {
+    "at": "2026-10-17T06:45:19.414445+08:00",
+    "label": "gizon78-crossref",
+    "url": "https://api.crossref.org/works/10.1103/PhysRevC.17.596",
+    "scope": "articleidentity/lineage, notbodyverifiedunlessalreadydownloadedv3",
+    "status": 200,
+    "sha256": "2fa77e51ae4ef8180f42c6b88ee84b7ccfda224ba0d56b248fb01e4ca47b96c5",
+    "bytes": 4704,
+    "metadata": {
+      "title": [
+        "Gamma-ray linear polarization measurements in<mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mml:mrow><mml:mmultiscripts><mml:mrow><mml:mi mathvariant=\"normal\">Ba</mml:mi></mml:mrow><mml:mprescripts/><mml:mrow/><mml:mrow><mml:mn>129</mml:mn></mml:mrow><mml:mrow/><mml:mrow/></mml:mmultiscripts></mml:mrow></mml:math>"
+      ],
+      "DOI": "10.1103/physrevc.17.596",
+      "author": [
+        {
+          "given": "J.",
+          "family": "Gizon",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "A.",
+          "family": "Gizon",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Y. K.",
+          "family": "Lee",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "D. O.",
+          "family": "Elliott",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "published": {
+        "date-parts": [
+          [
+            1978,
+            2,
+            1
+          ]
+        ]
+      },
+      "volume": "17",
+      "issue": "2",
+      "page": "596-600",
+      "relation": {},
+      "link": [
+        {
+          "URL": "http://link.aps.org/article/10.1103/PhysRevC.17.596",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "syndication"
+        },
+        {
+          "URL": "http://harvest.aps.org/v2/journals/articles/10.1103/PhysRevC.17.596/fulltext",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ]
+    }
+  }
+]

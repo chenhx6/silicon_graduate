@@ -238,6 +238,10 @@ B = 0.000118505201881, 0.000875641584711, 0.000104813215223, 0.000875641584711, 
 
 ## Sources
 
+2026-10-17的实际365keV案例见[[ba129-365-mixing-reference-boundary]]：明确chosen最大取向reference内部通过，不代表其曲线就是文献的correctedA22/A44。独立同母态reference还须核同层coeff、purity、gate与finiteQ；不能用目标δ反推alpha再称校准，亦不能只凭“同母态”消去任意postselection影响。原件数值归属更正由[[chakraborty-2024-possibility-wobbling-129ba]] CH24-7定位，现代作者report与实际experimentalrefit分开。
+
+从本页既有Q4定义直接得geometry符号的两个不同充分域：任意positive轴对称核若全部支持在beta<30.555592°（P4最大零点以内），必有Q4>0；uniformcone模型则在beta<49.106605°仍正。后者依赖uniform，不能移给任意response，更不是实际Gizonarray的已核几何。见上述note的完整根式/适用条件；没有重跑旧cone脚本充当本run新成果。
+
 [[twin-1970-polarization-angular-correlation-40k]] combines near-threshold `a2/a4` angular distributions, γγ correlations and Compton polarization; it shows that joint fits can resolve δ branches that a single angular distribution cannot.
 
 - [[draper-1970-gaussian-substate-side-feeding]]

@@ -1,0 +1,29 @@
+{
+  "at": "2026-10-17T07:20:51.900791+08:00",
+  "url": "https://openresearch-repository.anu.edu.au/server/api/core/items/55e70f3b-7a8e-4249-8da4-ec279df68548/bundles",
+  "scope": "publicDSpacebundlemetadata only; noauthentication/bypass",
+  "status": 200,
+  "content_type": "application/hal+json;charset=UTF-8",
+  "sha256": "1f512f0c4a89eb30bc5a37c87c5798d9eb1d91462110b3a2bf6139ca41a6c59a",
+  "bytes": 1356,
+  "page": {
+    "number": 0,
+    "size": 20,
+    "totalPages": 1,
+    "totalElements": 1
+  },
+  "bundles": [
+    {
+      "name": "ORIGINAL",
+      "uuid": "4655a21e-9b11-4cf0-a9ef-c863b0618d24",
+      "links": {
+        "bitstreams": {
+          "href": "https://openresearch-repository.anu.edu.au/server/api/core/bundles/4655a21e-9b11-4cf0-a9ef-c863b0618d24/bitstreams"
+        },
+        "self": {
+          "href": "https://openresearch-repository.anu.edu.au/server/api/core/bundles/4655a21e-9b11-4cf0-a9ef-c863b0618d24"
+        }
+      }
+    }
+  ]
+}

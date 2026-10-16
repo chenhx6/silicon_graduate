@@ -1,0 +1,61 @@
+{
+  "identity": "DAY16-PREVIEW-BA129-SAMEPARENT-RANK4-REFERENCE-01",
+  "input_sha256": "82a2b8bffe867717e01724dc25e554a36039345fdca16bcddc0b926d443e562c",
+  "script_sha256": "c0b31393bb531fa918923081359fb80868c82c8b81761230da6f754c83ca51fa",
+  "F4_target_pureE2": 0.5253964397467513,
+  "F4_reference_pureE2": -0.19702366490503173,
+  "F4_ratio": -2.666666666666667,
+  "exact_ratio_fraction": "-8/3",
+  "exact_sixj_squared_ratio_certificate": "64/9",
+  "max_forward_cancellation_or_projection_error": 1.7486012637846216e-15,
+  "necessary_relation": "A4target=ratio*s4*fE2*A4reference, fE2in[0,1]. Forpositivegeometryratio, nonzeroA4valuesmusthaveoppositesigns. Noactualdataerrorverdict.",
+  "literal_interval_controls": [
+    {
+      "nominal_error_multiplier": 1,
+      "reference_interval": [
+        0.03,
+        0.13
+      ],
+      "target_interval": [
+        0.11,
+        0.21000000000000002
+      ],
+      "target_image_under_ratio": [
+        -0.34666666666666673,
+        0.0
+      ],
+      "overlap": false,
+      "not_joint_confidence": true
+    },
+    {
+      "nominal_error_multiplier": 2,
+      "reference_interval": [
+        -0.020000000000000004,
+        0.18
+      ],
+      "target_interval": [
+        0.06,
+        0.26
+      ],
+      "target_image_under_ratio": [
+        -0.48000000000000004,
+        0.05333333333333335
+      ],
+      "overlap": false,
+      "not_joint_confidence": true
+    }
+  ],
+  "chosen_diagonal_profile": {
+    "s4": 1.0,
+    "b_range": [
+      0,
+      2.666666666666667
+    ],
+    "minimum_diagnostic_score": 6.873424657534246,
+    "b_at_min": 2.666666666666667,
+    "reference_true_at_diagnostic_min": -0.04273972602739726,
+    "target_true_at_diagnostic_min": 0.11397260273972604,
+    "not_actual_delta_fit_or_formal_test": true
+  },
+  "boundary": "Necessary shared-density/pureE2-reference/coefficient-layer/positiveQratio model only. Actualgate/postselection, finiteacceptance, highermultipoles, originalproducer/correctionlayer andCov remain unknown. NoGaussianalignment requirement, actualdelta/CI ormodeclassification."
+}

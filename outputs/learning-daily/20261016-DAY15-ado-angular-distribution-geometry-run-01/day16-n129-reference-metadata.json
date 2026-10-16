@@ -1,0 +1,34 @@
+{
+  "at": "2026-10-17T06:53:41.163148+08:00",
+  "url": "https://www.nndc.bnl.gov/ensdf/getrefs.jsp",
+  "parameters": {
+    "recid": "129056013",
+    "dsid": "120SN(12C,3NG),116CD(18O,5NG)"
+  },
+  "scope": "selectedprimarybibliographyonly",
+  "status": 200,
+  "sha256": "d694f28b0f4d1d93b75c5df1611deeca186dda37a8cd9a199649b8dccc5551e1",
+  "bytes": 7143,
+  "selected_refs": [
+    {
+      "key": "1977GI02",
+      "found": true,
+      "excerpt": "1977GI02 Nucl.Phys. A277, 464 (1977) J.Gizon, A.Gizon, J.Meyer-Ter-Vehn Triaxial Shape and Onset of High-Spin Bands in 129 Ba NUCLEAR REACTIONS 120 Sn( 12 C, 3nγ), E=45-54 MeV; measured σ(E; Eγ, θ), γγ-coin, γγ-delay. 129 Ba deduced levels, J, π, λ, B(E2), T 1/2 , δ, triaxial shape. Enriched target, Ge(Li) detectors. doi: 10.1016/0375-9474(77)90714-X 1978GI04 Phys.Rev. C17, 596 (1978) J.Gizon, A.Gizon, Y.K.Lee, D.O.Elliott Gamma-Ray Linear Polarization Measurements in 129 Ba NUCLEAR REACTIONS 120 Sn( 12 C, 3n), E=52 MeV; measured γ linear polarization. 129 Ba levels deduced J, π, δ, triaxial shape. doi: 10.1103/PhysRevC.17.596 1990SC21 Z.Phys. A336, 239 (1990) K.Schiffer, A.P.Byrne, A.M.Baxter, G.D.Dracoulis, B.Fabricius, A.E.Stuchbery High Spin States in 129 Ba NUCLEAR REACTIONS 116 Cd( 18 O, 5n), E=82, 86 MeV; measured γγ-coin. 129 Ba deduced levels, J, π, band structure. 1992BY02 Yad.Fiz. 55, 1186 (1992); Sov.J.Nucl.Phys. 55, 662 (1992) B.V.Bykovsky, V.A.Meshcheryakov, D.V.Meshcheryakov Analytic Model of the (p-bar)p Forward Elastic Scattering Amplitude at Low Energy NUCLEAR REACTIONS 1 H(p-bar, p-bar), E < 700 MeV; calculated totalσ, real to imaginary amplitude ratio; deduced quasinuclear state energy, width. 1992BY03 Nucl.Phys. A548, 131 (1992) A.P.Byrne, K.Schiffer, G.D.Dra"
+    },
+    {
+      "key": "1978GI04",
+      "found": true,
+      "excerpt": "1978GI04 Phys.Rev. C17, 596 (1978) J.Gizon, A.Gizon, Y.K.Lee, D.O.Elliott Gamma-Ray Linear Polarization Measurements in 129 Ba NUCLEAR REACTIONS 120 Sn( 12 C, 3n), E=52 MeV; measured γ linear polarization. 129 Ba levels deduced J, π, δ, triaxial shape. doi: 10.1103/PhysRevC.17.596 1990SC21 Z.Phys. A336, 239 (1990) K.Schiffer, A.P.Byrne, A.M.Baxter, G.D.Dracoulis, B.Fabricius, A.E.Stuchbery High Spin States in 129 Ba NUCLEAR REACTIONS 116 Cd( 18 O, 5n), E=82, 86 MeV; measured γγ-coin. 129 Ba deduced levels, J, π, band structure. 1992BY02 Yad.Fiz. 55, 1186 (1992); Sov.J.Nucl.Phys. 55, 662 (1992) B.V.Bykovsky, V.A.Meshcheryakov, D.V.Meshcheryakov Analytic Model of the (p-bar)p Forward Elastic Scattering Amplitude at Low Energy NUCLEAR REACTIONS 1 H(p-bar, p-bar), E < 700 MeV; calculated totalσ, real to imaginary amplitude ratio; deduced quasinuclear state energy, width. 1992BY03 Nucl.Phys. A548, 131 (1992) A.P.Byrne, K.Schiffer, G.D.Dracoulis, B.Fabricius, T.Kibedi, A.E.Stuchbery, K.P.Lieb High-Spin Bandcrossings in 129 Ba NUCLEAR REACTIONS 120 Sn( 12 C, 3n), E=46-56 MeV; 116 Cd( 18 O, 5n), E=82 MeV; measured Eγ, Iγ, γγ(t), Iγ(t), Iγ(θ), DCO ratios. 129 Ba deduced levels, J, π, T 1/2 , 1-, 3-quasiparticle states, high-K isomer, rotational bands, alignments, B(M1)/B(E2) ratios. Plana"
+    },
+    {
+      "key": "1992BY03",
+      "found": true,
+      "excerpt": "1992BY03 Nucl.Phys. A548, 131 (1992) A.P.Byrne, K.Schiffer, G.D.Dracoulis, B.Fabricius, T.Kibedi, A.E.Stuchbery, K.P.Lieb High-Spin Bandcrossings in 129 Ba NUCLEAR REACTIONS 120 Sn( 12 C, 3n), E=46-56 MeV; 116 Cd( 18 O, 5n), E=82 MeV; measured Eγ, Iγ, γγ(t), Iγ(t), Iγ(θ), DCO ratios. 129 Ba deduced levels, J, π, T 1/2 , 1-, 3-quasiparticle states, high-K isomer, rotational bands, alignments, B(M1)/B(E2) ratios. Planar Ge detector, Ge detector array, enriched targets. Cranked shell model analysis. doi: 10.1016/0375-9474(92)90080-4 1996DA02 Phys.Rev. C53, 1009 (1996) P.Das, R.G.Pillay, V.V.Krishnamurthy, S.N.Mishra, S.H.Devare g-Factor Measurement of 132 Ba in the Backbending Region NUCLEAR REACTIONS 124 Sn( 12 C, 4n), E=60 MeV; measured γ(θ, H, t). 132 Ba level deduced g factor, configuration. doi: 10.1103/PhysRevC.53.1009 2000ST07 Phys.Rev. C61, 044325 (2000) O.Stuch, K.Jessen, R.S.Chakrawarthy, A.Dewald, R.Kuhn, R.Krucken, P.Petkov, R.Peusquens, H.Tiesler, D.Weil, I.Wiedenhover, K.O.Zell, P.von Brentano, C.Ender, T.Hartlein, F.Kock, O.Koschorrek, P.Reiter Coincidence Recoil-Distance Doppler-Shift Lifetime Measurements in 129, 130 Ba with EUROBALL Ge Cluster Detectors NUCLEAR REACTIONS 116 Cd( 18 O, 4n), ( 18 O, 5n), E=76 MeV; measured Doppler-shifted Eγ, Iγ, γγ-coin. 129,130 Ba "
+    },
+    {
+      "key": "1992BY02",
+      "found": true,
+      "excerpt": "1992BY02 Yad.Fiz. 55, 1186 (1992); Sov.J.Nucl.Phys. 55, 662 (1992) B.V.Bykovsky, V.A.Meshcheryakov, D.V.Meshcheryakov Analytic Model of the (p-bar)p Forward Elastic Scattering Amplitude at Low Energy NUCLEAR REACTIONS 1 H(p-bar, p-bar), E < 700 MeV; calculated totalσ, real to imaginary amplitude ratio; deduced quasinuclear state energy, width. 1992BY03 Nucl.Phys. A548, 131 (1992) A.P.Byrne, K.Schiffer, G.D.Dracoulis, B.Fabricius, T.Kibedi, A.E.Stuchbery, K.P.Lieb High-Spin Bandcrossings in 129 Ba NUCLEAR REACTIONS 120 Sn( 12 C, 3n), E=46-56 MeV; 116 Cd( 18 O, 5n), E=82 MeV; measured Eγ, Iγ, γγ(t), Iγ(t), Iγ(θ), DCO ratios. 129 Ba deduced levels, J, π, T 1/2 , 1-, 3-quasiparticle states, high-K isomer, rotational bands, alignments, B(M1)/B(E2) ratios. Planar Ge detector, Ge detector array, enriched targets. Cranked shell model analysis. doi: 10.1016/0375-9474(92)90080-4 1996DA02 Phys.Rev. C53, 1009 (1996) P.Das, R.G.Pillay, V.V.Krishnamurthy, S.N.Mishra, S.H.Devare g-Factor Measurement of 132 Ba in the Backbending Region NUCLEAR REACTIONS 124 Sn( 12 C, 4n), E=60 MeV; measured γ(θ, H, t). 132 Ba level deduced g factor, configuration. doi: 10.1103/PhysRevC.53.1009 2000ST07 Phys.Rev. C61, 044325 (2000) O.Stuch, K.Jessen, R.S.Chakrawarthy, A.Dewald, R.Kuhn, R.Krucken, P.Petkov, R.Peus"
+    }
+  ]
+}

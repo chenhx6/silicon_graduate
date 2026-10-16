@@ -1,0 +1,40 @@
+{
+  "at": "2026-10-17T07:08:36.955014+08:00",
+  "CH24": {
+    "pages": 5,
+    "text_read": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "key_visual": [
+      2,
+      3,
+      4
+    ],
+    "mainline": "legacydata/13to11coeff/oldnewdeltaattribution->incompletelinks->energy/modelanalogy->explicitfurthermeasurementlimit"
+  },
+  "arxivv3": {
+    "pages": 1,
+    "text/figures_read": "all, Figs1/2",
+    "actual_version": "v3/9Apr2024; onlyv3bodyread",
+    "first_submit": "11Aug2021",
+    "v2_history": "withdrawn, reasonnotinferred"
+  },
+  "N129objects": {
+    "header/comments/targetblocks_read": true,
+    "selected_scope": "L643.6/G364.7/461.6/FL278.81 andnearbytime/energycontrols; notfull934/555linephysicsaudit",
+    "primary_refs_metadata": [
+      "1977GI02",
+      "1978GI04",
+      "1992BY03",
+      "1992BY02"
+    ]
+  },
+  "primary_bodies_1977_1978_obtained": false,
+  "maxreference_producer_replay": false,
+  "sameparentcontrol": "conditional/purity/geometry/coeff/gateassumptionsnotcertified",
+  "new_claims_not_human_reviewed": true
+}

@@ -1,0 +1,113 @@
+{
+  "run_id": "2026-10-16-day-15-01",
+  "session_id": "01a14510-aec7-7e00-aa23-f7c77a5124bc",
+  "captured_at": "2026-10-17T07:31:08.566830+08:00",
+  "clock_tool_UTC": "2026-10-16 23:28:56 UTC",
+  "now_local": "2026-10-17T07:28:56+08:00",
+  "hard_deadline": "2026-10-17T15:00:00+08:00",
+  "minutes_to_deadline": 451.06666666666666,
+  "decision": "early-close-after-whole-pool-and-permitted-preview-audit",
+  "decision_basis": "current-and-permitted-Day16-routes-saturated-at-available-inputs; no claim of exhaustive lawful-literature search",
+  "next_uncompleted_card": 16,
+  "card_text": "outputs/learning-daily/20261016-DAY15-ado-angular-distribution-geometry-run-01/day16-card-inspected-at-closeout.md",
+  "card_sha256": "b111a8b3d7f9c7935f2104e3112d0789f3115f0ebc8e867b70545019ae9d837d",
+  "matrix_sha256": "cfe435e2dc76b2ca83071b3dabf91fad43dc0baf33242187de64244bb762104a",
+  "formal_completed": [
+    15
+  ],
+  "uncredited_preview": [
+    16
+  ],
+  "day17_opened": false,
+  "course_state": {
+    "next_day_index": 16,
+    "completed_day_count": 15,
+    "changed_in_closeout": false
+  },
+  "candidates": [
+    {
+      "slot": "current-continuity",
+      "question": "ADO本征比、f与实际Cov",
+      "result": "两路独立输入的识别条件、共享校准传播与chosen模型已完成；实测迁移仍not-ready",
+      "knowledge": "knowledge/methods/ado-covariance-calibration.md",
+      "missing": "145Tb实际counts、逐pair联合响应、reference校准与实际Sigma",
+      "next_high_information_input": "同一sorter/门/能量/几何的counts及响应和共享误差，而非另造f"
+    },
+    {
+      "slot": "current-anchor-audit",
+      "question": "Zheng Fig1(a)与3.2%正文",
+      "result": "原5页完整主线和关键图已核；图文差异以Z02-10保留",
+      "knowledge": "knowledge/sources/zheng-2002-ado-coincidence-angular-anisotropy.md",
+      "missing": "作者原计算表或可验证的清晰替代版本",
+      "next_high_information_input": "能独立复算Fig1的效率/omega输入；不从视觉读图补精确数"
+    },
+    {
+      "slot": "current-novelty",
+      "question": "GRIFFIN有限响应与mixed-event复用",
+      "result": "独立装置主线、精确chosen矩与退化控制已完成；公开软件readiness边界已核",
+      "knowledge": "knowledge/methods/event-mixing-statistics.md",
+      "missing": "实际event ledger、mixer sampling/权重、NDA受限构造参数与实际Sigma",
+      "next_high_information_input": "取得真实recipe/response后选择Cov模型；重复toy不提供实际Cov"
+    },
+    {
+      "slot": "allowed-Day16-mainline",
+      "question": "DCO/PDCO、双解与phase/convention",
+      "result": "D96/KS70/KF89主线、RB67定向算符、两个分支/物理坐标桥均已写回",
+      "knowledge": "knowledge/methods/dco-pdco-ambiguity-worksheet.md",
+      "missing": "真实阵列全响应和共同误差；新的正式Day16独立session交付",
+      "next_high_information_input": "实际matched reference/偏振数据；下一正式卡另行运行，不由预习计卡"
+    },
+    {
+      "slot": "allowed-Day16-A130",
+      "question": "135Pr alignment/branch与producer",
+      "result": "实际摘要、校准原件、1974参考表及source archive已核；无开放event/Cov/fitcode",
+      "knowledge": "knowledge/projects/135pr-wobbling-controversy.md",
+      "missing": "Cieplicka/Matta方法primary与实际producer、response、Sigma",
+      "next_high_information_input": "可读primary或新公开producer；既有失败访问不原样重试"
+    },
+    {
+      "slot": "allowed-Day16-independent-experiment",
+      "question": "164Yb PDCO与转换reference",
+      "result": "ST99原表、D96勘误、JO95/S83校准、NNDC及明确壳层BrIcc查询已核",
+      "knowledge": "knowledge/research-notes/st99-pdco-calibration-table-replay.md",
+      "missing": "原五点response/Cov、489.8实测ICC及source producer；非理论CC",
+      "next_high_information_input": "matched electron/gamma与有效reference校准；不增加不相关toy扫描"
+    },
+    {
+      "slot": "allowed-Day16-other-mechanism",
+      "question": "NRF RU09/IF21相位争议",
+      "result": "RU09主线与IF21独立系数闭合，保留未复现的原branch和反方解释",
+      "knowledge": "knowledge/methods/polarized-photon-branch-audit.md",
+      "missing": "原producer、2022review footnote2/2023corrigendum正文及actual response/Sigma",
+      "next_high_information_input": "直接争议原文/producer；metadata及README不裁决争议"
+    },
+    {
+      "slot": "allowed-Day16-latest-A130",
+      "question": "129Ba365系数层与同母态reference",
+      "result": "现代/历史数值归属已更正；新评价对象/两个条件计算和Q4符号使用门已写回",
+      "knowledge": "knowledge/research-notes/ba129-365-mixing-reference-boundary.md",
+      "missing": "1977Gi02/1978Gi04原AD/P处理、gate/purity/Q4/共同误差；1992By03正文",
+      "next_high_information_input": "Gizon primary recipe与匹配461.6参考响应；ANU公开bundle无bitstream，不能反推未知条件"
+    }
+  ],
+  "access_records": [
+    "outputs/learning-daily/20261016-DAY15-ado-angular-distribution-geometry-run-01/day16-gizon78-official-access.json",
+    "outputs/learning-daily/20261016-DAY15-ado-angular-distribution-geometry-run-01/day16-gizon78-hal-discovery.json",
+    "outputs/learning-daily/20261016-DAY15-ado-angular-distribution-geometry-run-01/day16-n129-evaluation-and-ad-primary-metadata.json",
+    "outputs/learning-daily/20261016-DAY15-ado-angular-distribution-geometry-run-01/day16-byrne92-primary-access-discovery.json",
+    "outputs/learning-daily/20261016-DAY15-ado-angular-distribution-geometry-run-01/day16-byrne92-anu-access.json",
+    "outputs/learning-daily/20261016-DAY15-ado-angular-distribution-geometry-run-01/day16-byrne92-anu-bundles-access.json",
+    "outputs/learning-daily/20261016-DAY15-ado-angular-distribution-geometry-run-01/day16-byrne92-anu-bitstreams-access.json",
+    "outputs/learning-daily/20261016-DAY15-ado-angular-distribution-geometry-run-01/day15-geometry-primary-candidate-availability.json",
+    "outputs/learning-daily/20261016-DAY15-ado-angular-distribution-geometry-run-01/day15-geometry-primary-discovery-boundary.json",
+    "outputs/learning-daily/20261016-DAY15-ado-angular-distribution-geometry-run-01/day16-review22-counterview-access.json",
+    "outputs/learning-daily/20261016-DAY15-ado-angular-distribution-geometry-run-01/day16-review22-corrigendum-access.json"
+  ],
+  "unfinished": "actual L4 refit and unresolved primary/response/producer/Cov; formal Day16 remains uncredited",
+  "resume_command": "codex resume 01a14510-aec7-7e00-aa23-f7c77a5124bc -C /workspace/wiki -s danger-full-access -a never",
+  "continuation_rule": "complete deliverable/publication only; after completion discuss existing work, never automatically reopen research or grant another credit",
+  "runner_exit_observed": false,
+  "scheduler_event_fabricated": false,
+  "card_extracted_sha256_before_EOF_normalization": "4a39bb32f65310aa9a52f14e1e0b9f166aec50d0efc3742486a947fca3b222b5",
+  "card_format_note": "Before staging, removed trailing blank line only to satisfy git diff --cached --check; card text and inspection unchanged"
+}

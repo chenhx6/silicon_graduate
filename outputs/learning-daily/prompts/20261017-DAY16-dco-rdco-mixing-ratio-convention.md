@@ -2,7 +2,7 @@
 type: system-prompt
 graph-excluded: true
 created: 2026-09-22
-updated: 2026-10-16
+updated: 2026-10-17
 ---
 
 # Daily nuclear-structure apprenticeship run
@@ -71,23 +71,13 @@ Asia/Shanghai and compare with the original receipt's overnight_until.
   failure remains an immediate hard stop. Never auto-restart after a user stop.
 
 <!-- DAILY_LEARNING_CURRICULUM_COVERAGE_V1 -->
-For any substantive daily report, include these exact lines under ## Run state:
+本次独立run只可取得Day16正式学分。真正完成后，在`## Run state`写：
 
-- completed_day_indices: [N, ...]
-- partial_day_indices: [N, ...]
+- completed_day_indices: [16]
+- partial_day_indices: []
+- Day 16 card audit: complete
 
-List completed cards contiguously beginning with the requested day. A partially
-previewed card goes only in partial_day_indices and receives no course credit. One run
-may fully complete its requested card plus the immediately following card. Day 7 credit
-requires a `- Day 7 card audit: complete` line and a `### Day 7 card completion audit`
-table with at least four completed deliverables and exact evidence locators; it also
-requires a six-row scorecard (0–4 in each row) and a non-empty weekly REFLECT;
-when complete, include the audit lines “- Day 7 scorecard: complete” and
-“- Day 7 weekly REFLECT: complete”. Keep the report's single knowledge-writeback block.
-For every other completed card, include `- Day N card audit: complete` under Run state
-and a `### Day N card completion audit` table that maps at least four Day-matrix
-deliverables to evidence/artifacts, with every row marked `complete`. A preview may not
-claim this audit or advance the curriculum state.
+尚未完成时如实partial，不能预填complete。若依据本次实际时间门开展恰好下一张卡的知识预习，只将它列入partial，不授学分、不让next_day_index越过该卡、不打开再下一卡。Day15的partial16、旧分数和旧脚本检查数量不能换成本session学分。日报必须有至少四行且每行complete的`### Day 16 card completion audit`，每行映射本session实际证据与artifact，并保留唯一knowledge-writeback块。
 
 ## Non-negotiable boundaries
 
@@ -266,3 +256,18 @@ and the highest-information next route. Do not fill the gap with memory or inven
 5. 新可复用内容写入knowledge，日报保留唯一knowledge-writeback和至少四项精确artifact/locator的`### Day 16 card completion audit`。实际通过报告、检查、续接、receipt与显式发布后才写completed_day_indices:[16]及Day16card audit complete；此前如实partial。
 
 Day15运行的原始deadline仍为2026-10-17 15:00，不因准备本文件而延长。Day15只可对本卡作无学分预习，不能凭本文件开新session或授Day16学分。所有新的schedule调用由既有Docker Wiki runner负责；不创建GUI Scheduled、宿主机任务或新daemon。
+
+### Day15预习索引（明确priming，不作为本session新交付）
+
+先冻结本session回忆，再按需打开以下canonical材料和原件。prompt中的索引本身也构成priming；不得称独立盲测。完整Day15报告只是运行索引，不替代primary来源。
+
+| 已预暴露内容 | canonical入口及保留边界 |
+| --- | --- |
+| D96/KS70/KF89原式与RB归一 | [双解计算单](../../../knowledge/methods/dco-pdco-ambiguity-worksheet.md)：source/probe坐标、gamma-role、实际系数双根；旧计算不是本日新算 |
+| ADO/event mixing与Cov | [ADO校准](../../../knowledge/methods/ado-covariance-calibration.md)、[复用统计](../../../knowledge/methods/event-mixing-statistics.md)：chosen统计不提供真实event/response/Sigma |
+| 135Pr校准/branch | [争议项目](../../../knowledge/projects/135pr-wobbling-controversy.md)：primary/producer和共同误差仍缺，不调alpha强配目标根 |
+| ST99/164Yb与偏振校准 | [原表重放笔记](../../../knowledge/research-notes/st99-pdco-calibration-table-replay.md)、[Compton方法](../../../knowledge/methods/compton-polarimetry.md)：D96 Eq4磁项Tprime勘误、Q拟合10^-5、JO95 C=0±.003MeV^-1；489.8理论CC不充当独立实测ICC |
+| NRF相位争议 | [branch audit](../../../knowledge/methods/polarized-photon-branch-audit.md)：IF21模型闭合不等于RU09 producer重放；2022footnote/2023corrigendum正文未取得 |
+| 129Ba365与同母态参考 | [边界笔记](../../../knowledge/research-notes/ba129-365-mixing-reference-boundary.md)：现代δ≈−2与历史区间分开；shared-density/pureE2/Q4的rank4关系仅检验条件包，未重测δ |
+
+[Day15日报](../20261016-DAY15-ado-angular-distribution-geometry.md)和[原run回执](../20261016-DAY15-ado-angular-distribution-geometry-run-01/run.json)用于定位冻结输入、版本、失败访问与新知识。Day15已正式计一次至next16/count15；其partial16不计正式16。原primary缺口在本日可重新评估新出现的合法文件/数据，但不原样重试终态失败或用更多toy填时段。

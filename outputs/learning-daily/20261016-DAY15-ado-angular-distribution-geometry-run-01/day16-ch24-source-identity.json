@@ -1,0 +1,23 @@
+{
+  "at": "2026-10-17T06:43:51.499405+08:00",
+  "raw": "raw/papers/2024_Chakraborty et al_Exploring the possibility of wobbling motion in Ba 129.pdf",
+  "sha256": "d5729de577067f8afeab771afb51328989772c68962a938d553bccb50f0c0808",
+  "pages": 5,
+  "reading_status": "full5pagesmainline/referencesandkeyfiguresinspected",
+  "source_oldprefix/page_review/claims1to6_retained": true,
+  "raw_not_modified": true,
+  "text_pages": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "visual_pages": [
+    2,
+    3,
+    4
+  ],
+  "current_numeric_correction": "modernauthorδ≈-2/80(4)%, historical-.84..-.79isnotmodernadoption",
+  "old_source_humanreview_prefix_preserved": true
+}

@@ -6,19 +6,17 @@ updated: 2026-10-17
 
 # 跨会话交接
 
-## Active handoff — DAY15 card complete, study window active
+## Active handoff — DAY15 complete; final content publication
 
-Run2026-10-16-day-15-01/session01a14510-aec7-7e00-aa23-f7c77a5124bc，原2026-10-17 15:00上海研究截止/15–16收束不改。Goal/run active，formal15只计一次next16/count15，completed15/partial16，不授16/不开17。publication001–010实际H3非force push/remoteHEAD核，exacthash只receipt。
+Run `2026-10-16-day-15-01` / session `01a14510-aec7-7e00-aa23-f7c77a5124bc`；原2026-10-17 15:00上海硬截止不改。07:28:56刷新clock，余451.07分钟；重建整体候选池、核下一张Day16卡后按工作流饱和条款提前关闭研究。证据见本run的candidate-refresh-012.json；仍缺原primary/producer/response/Sigma，未宣称所有合法全文路线穷尽。
 
-011：RU09完整4页/关键pixels，原humanreview全prefix/旧1–7flags保持（RU09-6实际false，回忆误以true仅记录未回改）。新RU09-8..14 true；IF21新source/NRFbranch方法，v1mainline1–18读完/关键图和selectedAppendix、VoR关键Eq/criticism/p14/16已核，未称VoR39页全读。VoRp5作者批评RU09sameKSWsign；codeREADME说modifiedincomingcoeff可保留same-sign，直接2022reviewfootnote/2023corrigendumbody尚未得。新版文献criticism不自动判原producer错误。
+正式Day15仅计一次next16/count15；completed15/partial16，无正式16，未开17。001–011已实际H3/push。最终内容已提交，稳定指针main / `Close DAY15 ADO study and audit 129Ba reference boundaries`，实际hash/H3/push仅publication-012.json与run receipt；当前只续接必要核验与发布，完成后仅讨论既有成果、不自动重开研究或重计卡。原runner成功退出未观察，不伪造scheduler/clock事件。
 
-新directNRFprobefirstcode/JSON保留；其混合曲线未复现RU09，但独立IF21Eq3–9系数与Hermitiantrace匹配8.89e−16、angularmean1，验证physicalBiedenharn模型而非旧producer。5/2conditional4roots，3/2两根，a±error全根与45°ideal预测canonical；C45/Σ未知不套C90，不改实际δ。fixedin0/oppositesign/rank2cut是明确后验diagnostics均未闭合原−1.30，不宣称作者那样实现。ALPACAfixedcommit f173c2d…七Gitblobs只读/hash验证，未执行/复制GPL；rawhosttimeout换API有记录。IF21v1/VoR raw2份hash不stage。KSW73仅targeted，未重读56页。
+最新129Ba：CH24-7明确现代δ≈−2/80(4)%与历史−.84…−.79数值归属，原humanreview全prefix/flags保持；新preprintv3为2024-04-09一页、与PRC共用旧数据。NNDC target G364.7/FL278.81、同parent G461.6和defaultδ=.5理论CC分层。chosen参考未复现作者曲线；同母态rank4精确−8/3关系与Q4符号条件只作输入相容性，不重测δ或裁决wobbling。canonical为knowledge/research-notes/ba129-365-mixing-reference-boundary.md。
 
-36writeback/39mapped/36changed/21mappedraw/12scriptinputhash/14旧source rowsreview和KB08/RU09全prefix、原人审页/PLAN/Bib/daemonfresh通过；lint0error/146warnings，boundary/preflight/diff0。ActualADO/135Pr/164Yb/NRFproducer/response/Σ仍notready，无新Jpi/模式/experimentalfit。
+唯一writeback为41项科学+1项overview治理条目，共42项/45mapped/42changed页；统计计数不由物理locator支持。fresh012实际lint0error/146warnings、boundary/preflight/diff0，24mapped raw、旧review/protected和14组script/input/output hash均通过。QMD只读562documents/2459vectors，外部缓存未刷新，明确deferred。Day16独立入口已补priming索引及单卡学分规则，未启动。
 
-检查点011已提交，稳定指针main / `Audit polarized-photon branches with explicit phase roles`，actualH3/push仅publication011。06:39:11上海余500.82min，candidate-refresh011已选A130129Ba365公开reanalysis(arxiv2108.05313v3)，primedfreeze已存；旧CH24source已读/raw未开。CH24 2024source页humanreview但claims1–6仍true，beforeappendbaseline已保存，旧全prefix/AR/人审不改，新科学需要appendtrue。先核v3全文身份/版本与原Gizon1978数据/CH24引用重用，不计新采集，不把wobblingpossibility升级。仍只partial16，当前有高价值route，不能本checkpoint收束。
-
-Resume `codex resume 01a14510-aec7-7e00-aa23-f7c77a5124bc -C /workspace/wiki -s danger-full-access -a never`。保护PLAN/Bib/原raw/review/credentials/继承receipts/daemon/旧log；exactmanifest、log只HEAD+ownappend；一次unpublishedreconciliation后H3freshfetch/ancestry/dryrun/nonforce HEAD:main。最终closeout才一次overview对账，无待等process。
+Resume `codex resume 01a14510-aec7-7e00-aa23-f7c77a5124bc -C /workspace/wiki -s danger-full-access -a never`。保护PLAN/Bib/raw/review/credentials/继承receipts/daemon/旧log；精确manifest、log仅HEAD+own012、一次未发布reconciliation后H3fresh fetch/ancestry/dry-run/non-force HEAD:main。无待等研究进程。
 
 ## Previous active handoff — DAY14 completed after authorized extension
 

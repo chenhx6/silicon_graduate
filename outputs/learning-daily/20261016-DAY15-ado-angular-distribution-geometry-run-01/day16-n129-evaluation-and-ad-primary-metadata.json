@@ -1,0 +1,147 @@
+[
+  {
+    "at": "2026-10-17T06:56:40.059359+08:00",
+    "label": "nds129-crossref",
+    "url": "https://api.crossref.org/works",
+    "parameters": {
+      "query.bibliographic": "Nuclear Data Sheets for A=129 Timar Elekes Singh 2014 121 143",
+      "rows": 2
+    },
+    "scope": "identity/publicprimaryfilediscoveryonly",
+    "status": 200,
+    "sha256": "633a74347d0cd5a8f4b13962e7a82c6d919411874a3c3c7e7b6dbfc4408cba5a",
+    "matches": [
+      {
+        "title": [
+          "Nuclear Data Sheets for A = 129"
+        ],
+        "DOI": "10.1016/j.nds.2014.09.002",
+        "author": [
+          {
+            "given": "Janos",
+            "family": "Timar",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Zoltan",
+            "family": "Elekes",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Balraj",
+            "family": "Singh",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2014,
+              9
+            ]
+          ]
+        },
+        "volume": "121",
+        "page": "143-394"
+      },
+      {
+        "title": [
+          "Nuclear Data Sheets for A = 128"
+        ],
+        "DOI": "10.1016/j.nds.2015.09.002",
+        "author": [
+          {
+            "given": "Zoltan",
+            "family": "Elekes",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Janos",
+            "family": "Timar",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2015,
+              11
+            ]
+          ]
+        },
+        "volume": "129",
+        "page": "191-436"
+      }
+    ]
+  },
+  {
+    "at": "2026-10-17T06:56:40.059608+08:00",
+    "label": "gizon77-hal",
+    "url": "https://api.archives-ouvertes.fr/search/",
+    "parameters": {
+      "q": "doiId_s:\"10.1016/0375-9474(77)90714-X\"",
+      "fl": "halId_s,title_s,authFullName_s,doiId_s,fileMain_s,files_s,uri_s,docType_s",
+      "wt": "json"
+    },
+    "scope": "identity/publicprimaryfilediscoveryonly",
+    "status": 200,
+    "sha256": "0b2e82ddfe7d91c24cbf291d5c7491f9d7e3fee34ba3545a0891f367bbf6c246",
+    "response": {
+      "numFound": 1,
+      "start": 0,
+      "maxScore": 5.5626936,
+      "numFoundExact": true,
+      "docs": [
+        {
+          "title_s": [
+            "Triaxial shape and onset of high-spin bands in $^{129}$Ba"
+          ],
+          "authFullName_s": [
+            "J. Gizon",
+            "A. Gizon",
+            "J. Meyer-Ter-Vehn"
+          ],
+          "halId_s": "in2p3-00007443",
+          "uri_s": "https://in2p3.hal.science/in2p3-00007443v1",
+          "docType_s": "ART",
+          "doiId_s": "10.1016/0375-9474(77)90714-X"
+        }
+      ]
+    }
+  }
+]

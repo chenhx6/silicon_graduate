@@ -2,10 +2,27 @@
 type: system-overview
 graph-excluded: true
 created: 2026-07-01
-updated: 2026-09-21
+updated: 2026-10-17
 ---
 
 # Knowledge Base Health Dashboard
+
+## Current Snapshot: 2026-10-17 Day15 closeout
+
+本次为多来源学习与跨来源方法综合后的单次治理统计对账，旧快照保持原样。Day15正式卡仅计一次，Day16只记无学分预习；新的source/推导保持self-audited、unreviewed或原有审核范围，自动检查不扩展human review。科学使用入口见[[ado-covariance-calibration]]、[[dco-pdco-ambiguity-worksheet]]、[[polarized-photon-branch-audit]]和[[ba129-365-mixing-reference-boundary]]。
+
+| 指标 | 当前值 | 统计口径与边界 |
+| --- | ---: | --- |
+| knowledge Markdown / source页 | 617 / 314 | 本次closeout目录计数；不是独立论文或独立实验数 |
+| page / source unreviewed | 539 / 254 | lint governance；保留历史人审范围 |
+| claims / needs_review | 2826 / 2151 | 新claim没有自动清除审核标记 |
+| claim缺locator / kind | 0 / 0 | 结构字段完整，不等于科学结论已定 |
+| source缺raw_file / citation key | 0 / 115 | raw字段存在不等于公共checkout包含原文件 |
+| raw hashes / existing raw slots | 286 / 28 | 286项hash核验；28个既有raw占位仍产生warning |
+| automated lint | 0 errors / 146 warnings / 2151 info | 115 citation key、28 raw slot、3 reaction parser；详见Day15检查回执 |
+| QMD只读状态 | 562 documents / 2459 vectors | 38 pending、349 orphan；配置缓存`/var/lib/qmd`在本次写入边界外，未刷新，不代表617篇已索引 |
+
+ADO本征比与joint response、核取向与几何衰减、source相位与实现坐标、实测ICC与理论CC均继续分层。129Ba现代数值归属更正及同母态rank4必要条件保留具体source locator和适用条件；未产生新的实验混合比或模式确认。当前统计为治理快照，相关科学事实仍回到各canonical source/claim。 本节方法分层回链到[[zheng-2002-ado-coincidence-angular-anisotropy]] Z02-9和[[nndc-2014-129ba-365-coefficient-records]] N129-10；这两个来源支持使用门，统计计数来自本次lint与目录核验。
 
 ## Current Snapshot: 2026-09-21 High-spin full reconciliation
 
