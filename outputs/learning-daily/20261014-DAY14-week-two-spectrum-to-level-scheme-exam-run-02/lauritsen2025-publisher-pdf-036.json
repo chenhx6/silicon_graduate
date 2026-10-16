@@ -1,0 +1,12 @@
+{
+  "url": "https://link.springer.com/content/pdf/10.1140/epja/s10050-025-01533-5.pdf",
+  "at": "2026-10-16T09:38:26.295675+08:00",
+  "purpose": "version and article-number corroboration, main text only",
+  "status": 200,
+  "final_url": "https://link.springer.com/content/pdf/10.1140/epja/s10050-025-01533-5.pdf",
+  "content_type": "application/pdf",
+  "bytes": 2248094,
+  "is_pdf": true,
+  "path": "tmp/day14-20261014/lauritsen2025/publisher-pdf.pdf",
+  "sha256": "0d89c27c0a354b1b215f8a9196142f76bd873fe9335d64ca6318f0f303422099"
+}

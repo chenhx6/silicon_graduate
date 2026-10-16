@@ -450,3 +450,59 @@ Table1十行exp/calculated不是20个观测；本轮按Eq7从印刷A2/A4重算χ
 必要companion是detector/源位置、晶体形状和逐能量角接受度/全能峰效率、已知multipolarity且匹配alignment/feeding的参考角分布，以及实际角fit/normalization Cov。非轴对称接受度、角间不同核、moving-frame Doppler选择、finite gamma-gamma gate须回到完整响应，不能强塞进共同标量Qk。没有这些输入时不提取真实核alpha、sigma、delta或feeding CL。
 
 Decision: **supports** 正响应下的正布居检查和未观测feeding协变；**revises** “共同卷积自动保持数值sharp界”的无条件表述，须同时fold允许域；**limits** 用isotropy代higher-rank响应、不同kernel共用校正。source/review状态和正式Day14 21/24不变，Day15仅partial，无新experimental L4。
+
+## Tracking响应：源到在束的measure、能量与Cov合同
+
+[[lauritsen-2025-gamma-angular-formalism-tracking-arrays]] L25-17–23在24页publisher与25页旧稿之间给出明确版本映射；EPJ A61的article为76，原raw/review保持。本节是DAY14内Day15无学分预习；一般推导和自选统计例子单列，不将它们归给作者程序。
+
+### 近unity几何与source response不是同一对象
+
+L25-18说明first-interaction方向高精度使常规solid-angle attenuation可近1，同时还可能有energy-dependent halo。L25-19的Fig6/7是`R0(E,theta)`：按已知源线放入的归一polar-angle counts及能量插值/外推。它校准baseline接受度，但不是已给出的完整angular/energy migration kernel。即使K作用于isotropic源得到相同R0，也可以对各向异性项给不同Q2/Q4；前节exactcone反例说明，除以isotropic response本身不反卷积角迁移。
+
+作者说源谱误差需construction-specific调整，并非缩放sqrt(counts)，不能反过来假定作者只作了简单variance插值。源码、bin级输入和完整Cov未公开在本文，actual error algorithm保持待核。
+
+### 固定collinear速度下的measure与能量输入
+
+令`x=cos(theta_lab)`、`u=cos(theta_CM)=(x−beta)/(1−beta*x)`。对光子数的每solid-angle分布，独立微分和四矢量给
+
+`J=du/dx=(1−beta²)/(1−beta*x)²=(1+beta*u)²/(1−beta²)`，
+
+`E_lab=E0 sqrt(1−beta²)/(1−beta*x)`，`W_lab(x)=J(x) W_CM(u(x))`。
+
+在额外声明无角迁移、固定collinear beta的乘法响应极限，bin期望为`mu_i=C integral_bin epsilon(E_lab(x),x) J(x) W_CM(u(x)) dx`；若用theta measure则还含sin(theta)。静止各向同性源为`mu_src,i(E)=Csrc integral_bin epsilon(E,x) dx`。只有measure、support、energy/selection传递一致时，比值才可解释；有限bin的比是带响应权的平均，不自动等于bin中心值。真实tracking halo需完整核而非强加这项diagonal极限。
+
+采用source AppB1的beta=.027、Fig8的E0=991keV，并另声明固定沿beam速度；下表角度是覆盖内自选检查点，不是已恢复的原bin中心/实际实测能量：
+
+| theta_lab | 条件E_lab (keV) | 条件J |
+| ---: | ---: | ---: |
+| 70° | 999.872077 | 1.017985452 |
+| 90° | 990.638715 | .999271000 |
+| 120° | 977.443231 | .972827363 |
+| 150° | 968.004177 | .954129127 |
+| 175° | 964.691169 | .947609261 |
+
+因此若response的energy轴指lab energy，应沿各angle对应E_lab取值；若代码已定义为Doppler-corrected energy或已做相应重映射，合同不同。本文只说取sameenergy的response，未给本任务可重放的sorter/axis约定，不指控其漏做，也不由色彩图补出actualresponse。
+
+L25-22的Eq18定义thetaCM，Eq19字面却没有lab上标。PDF/HTML原式保留。把Eq19中的theta理解为lab变量可与上述J相容；若严格按前式CM变量代入，sourcebeta下isotropic全lab域归一为.9990281417，最大点相对差约.00145747（.146%）。这是frame标记的条件检查，不是官方erratum、实际sourcefit偏差或原systematic波动的原因；作者code仍缺。
+
+### 归一与插值后的Cov合同
+
+以下是明确自选模型：两组独立Poisson源bin均值各为n，T=sum(n)，归一p_i=n_i/T。delta-method Jacobian为`d p_i/d n_j=(delta_ij−p_i)/T`，故一阶
+
+`V_ij=(p_i delta_ij−p_i p_j)/T`。
+
+固定总量T的multinomial条件模型也给这个精确Cov；随机Poisson总量下它不是有限样本ratio的exact Cov或coverage保证。归一使offdiagonal通常为负、每行和0。若定义插值`r(E)=(1−t)pA+t pB`，则
+
+`Cov[r(E),r(E')]=(1−t)(1−t') V_A + t t' V_B`。
+
+这份公式属于声明的线性估计器；不将它当作论文未公开的construction。自选两源counts=(1000,2000,1000)/(2000,1000,1000)、能量800/1200、t=1/2时，Var(r0)=7/256000；简单线性插variance给7/128000，两倍差别不证明作者如此处理。不同targetenergy共享原源谱，也共享Cov。
+
+对`y_i=N_i/r_i`，应由N/r的联合Jacobian传播`C_NN/C_RR/C_NR`；独立源/beam的自选例才可令C_NR=0。取另选beamcounts=(4500,3375,2625)，保留源归一Cov时contrast y0−y1的一阶variance为123750，只留diagonal得99750。它是信息缺失的反例，非真实152Dy误差重标。
+
+### 原始反证、必要companion与复算
+
+L25-20的Figs8/9/10给χ²35/21/142，正文明确A2/A4 fiterrors未完全包含systematic fluctuations；没有ndf/χ²定义/残差模型时不自动乘sqrt(χ²)或生成jointCI。L25-21的432附近stoppedline、角mask与额外coincidence所改变的population需逐线保留，不能只按一个Q或总源归一抹去。L25-23的2022 isomertrigger、源/beam不同配置、data/code reasonable-request边界也属于输入合同。
+
+[29-check代码](../../system/scripts/day14_tracking_response_contract.py)、[声明输入](../../outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/tracking-response-contract-input.json)与[结果](../../outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/tracking-response-contract-audit.json)核sourcehash、光子boost/导数/measure/归一与自选Cov。真实校正还需lab/rest axes、PSA/tracking cuts与multiplicity、source位置/阵列配置、原谱归一/插值/外推算法、共同Cov和angle migration；无输入时不恢复σ/δ/actualQ或宣称experimental L4。
+
+Decision: **revises** “source比值就是完整响应”的读法；**supports** 将定义、measure、能量、selection与Cov一起记录；**limits** 以旧人审、nearunity或小括号误差替代实际source-to-beam核验。FormalDay14 21/24、completed14/partial15和review状态不变。

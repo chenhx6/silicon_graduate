@@ -1,0 +1,254 @@
+{
+  "kind": "conditional photon kinematics and explicitly chosen response-statistics contract",
+  "checks": {
+    "local_manuscript_sha256": true,
+    "publisher_pdf_sha256": true,
+    "photon_boost_inverse_70": true,
+    "CM_and_lab_jacobian_70": true,
+    "photon_boost_inverse_90": true,
+    "CM_and_lab_jacobian_90": true,
+    "photon_boost_inverse_120": true,
+    "CM_and_lab_jacobian_120": true,
+    "photon_boost_inverse_150": true,
+    "CM_and_lab_jacobian_150": true,
+    "photon_boost_inverse_175": true,
+    "CM_and_lab_jacobian_175": true,
+    "zero_beta_limit": true,
+    "full_solid_angle_number_normalization": true,
+    "independent_finite_difference_at_-0.75": true,
+    "independent_finite_difference_at_0": true,
+    "independent_finite_difference_at_0.25": true,
+    "literal_CM_factor_integral_independent_formula": true,
+    "literal_CM_factor_is_not_number_normalized": true,
+    "theta_histogram_measure_needs_sine": true,
+    "normalized_source_covariance_rows_zero": true,
+    "normalization_induces_negative_offdiagonal": true,
+    "source_interpolation_preserves_normalization": true,
+    "linear_variance_interpolation_is_not_independent_linear_estimator_variance": true,
+    "different_target_energies_share_source_covariance": true,
+    "ratio_retains_source_covariance": true,
+    "ratio_covariance_positive_definite_all_principal_minors": true,
+    "zero_response_not_divided": true,
+    "actual_inputs_not_invented": true
+  },
+  "check_count": 29,
+  "passed": true,
+  "inputs": {
+    "kind": "source beta/line conditional photon exercise plus explicitly chosen independent counts",
+    "local_manuscript": {
+      "path": "raw/papers/2025_Lauritsen et al_$$gamma $$-ray angular correlations, distributions and linear polarization in tracking arrays.pdf",
+      "sha256": "5ee6a654905be64113229d6f10567308e3995580906527af896eb9b92e478ae0"
+    },
+    "publisher_pdf": {
+      "path": "tmp/day14-20261014/lauritsen2025/publisher-pdf.pdf",
+      "sha256": "0d89c27c0a354b1b215f8a9196142f76bd873fe9335d64ca6318f0f303422099"
+    },
+    "beta": ".027",
+    "line_rest_energy_keV": "991",
+    "chosen_angles_within_published_coverage_deg": [
+      70,
+      90,
+      120,
+      150,
+      175
+    ],
+    "source_kinematics_locators": [
+      "publisher PDF6 Eq18",
+      "publisher PDF8 Fig8",
+      "publisher PDF20 Appendix B1"
+    ],
+    "source_coverage_locators": [
+      "publisher PDF8 Sec3.2"
+    ],
+    "collinear_fixed_velocity_is_our_assumption": true,
+    "chosen_source_counts": [
+      [
+        1000,
+        2000,
+        1000
+      ],
+      [
+        2000,
+        1000,
+        1000
+      ]
+    ],
+    "chosen_source_anchor_energies_keV": [
+      800,
+      1200
+    ],
+    "chosen_interpolation_weights": [
+      "1/2",
+      "3/4"
+    ],
+    "chosen_target_energies_keV": [
+      1000,
+      1100
+    ],
+    "chosen_independent_beam_counts": [
+      4500,
+      3375,
+      2625
+    ],
+    "chosen_response_algorithm": "normalize each source histogram to unit sum then linear interpolation, explicitly not recovered author implementation",
+    "actual_response_matrix": null,
+    "actual_full_covariance": null,
+    "actual_author_code": null
+  },
+  "conditional_991_keV_kinematics": [
+    {
+      "lab_angle_deg": 70,
+      "CM_cosine": 0.3179563249571639,
+      "lab_energy_keV": 999.8720772048689,
+      "solid_angle_jacobian": 1.0179854520899796,
+      "literal_Eq19_using_CM_theta": 1.016651617493503
+    },
+    {
+      "lab_angle_deg": 90,
+      "CM_cosine": -0.026999999999999937,
+      "lab_energy_keV": 990.6387146437394,
+      "solid_angle_jacobian": 0.999271,
+      "literal_Eq19_using_CM_theta": 0.9978156544955962
+    },
+    {
+      "lab_angle_deg": 120,
+      "CM_cosine": -0.5199802664035518,
+      "lab_energy_keV": 977.4432310249031,
+      "solid_angle_jacobian": 0.972827363401188,
+      "literal_Eq19_using_CM_theta": 0.9717925538788751
+    },
+    {
+      "lab_angle_deg": 150,
+      "CM_cosine": -0.8726211768935466,
+      "lab_energy_keV": 968.0041770204717,
+      "solid_angle_jacobian": 0.9541291265476887,
+      "literal_Eq19_using_CM_theta": 0.9537971440364228
+    },
+    {
+      "lab_angle_deg": 175,
+      "CM_cosine": -0.9963944214165157,
+      "lab_energy_keV": 964.6911685050028,
+      "solid_angle_jacobian": 0.9476092609383011,
+      "literal_Eq19_using_CM_theta": 0.9475993086848234
+    }
+  ],
+  "isotropic_normalization": {
+    "correct": 1,
+    "literal_CM_theta_Eq19": 0.9990281417323625,
+    "maximum_pointwise_fractional_difference": 0.0014574685589999747
+  },
+  "chosen_response": [
+    "3/8",
+    "3/8",
+    "1/4"
+  ],
+  "chosen_normalized_source_covariances": [
+    [
+      [
+        "3/64000",
+        "-1/32000",
+        "-1/64000"
+      ],
+      [
+        "-1/32000",
+        "1/16000",
+        "-1/32000"
+      ],
+      [
+        "-1/64000",
+        "-1/32000",
+        "3/64000"
+      ]
+    ],
+    [
+      [
+        "1/16000",
+        "-1/32000",
+        "-1/32000"
+      ],
+      [
+        "-1/32000",
+        "3/64000",
+        "-1/64000"
+      ],
+      [
+        "-1/32000",
+        "-1/64000",
+        "3/64000"
+      ]
+    ]
+  ],
+  "chosen_interpolated_response_covariance": [
+    [
+      "7/256000",
+      "-1/64000",
+      "-3/256000"
+    ],
+    [
+      "-1/64000",
+      "7/256000",
+      "-3/256000"
+    ],
+    [
+      "-3/256000",
+      "-3/256000",
+      "3/128000"
+    ]
+  ],
+  "chosen_cross_energy_covariance": [
+    [
+      "3/102400",
+      "-1/64000",
+      "-7/512000"
+    ],
+    [
+      "-1/64000",
+      "13/512000",
+      "-1/102400"
+    ],
+    [
+      "-7/512000",
+      "-1/102400",
+      "3/128000"
+    ]
+  ],
+  "chosen_naively_interpolated_variance00": "7/128000",
+  "chosen_ratio": [
+    "12000",
+    "9000",
+    "10500"
+  ],
+  "chosen_ratio_covariance": [
+    [
+      "60000",
+      "-12000",
+      "-15750"
+    ],
+    [
+      "-12000",
+      "39750",
+      "-23625/2"
+    ],
+    [
+      "-15750",
+      "-23625/2",
+      "333375/4"
+    ]
+  ],
+  "chosen_contrast_variance": {
+    "full": "123750",
+    "diagonal_only": "99750"
+  },
+  "statistics_scope": "delta-method covariance at chosen Poisson means; exact Fraction arithmetic, no finite-count coverage assertion",
+  "input_sha256": "3ca9f2ac104a3d38c359b6e65b66f4191418700abdf2028455da6723b41bcfca",
+  "actual_response_matrix": null,
+  "actual_full_covariance": null,
+  "actual_author_code": null,
+  "limitations": [
+    "fixed collinear beta, no recoil spread, lifetime or actual data fit",
+    "preserve Eq19 literal; no assertion about author's implementation or official erratum",
+    "rest/lab response-axis and energy-gate definitions are not recovered",
+    "chosen histogram normalization/interpolation is not the author's algorithm",
+    "joint source/beam nuisance covariance and raw event selection remain unavailable"
+  ]
+}

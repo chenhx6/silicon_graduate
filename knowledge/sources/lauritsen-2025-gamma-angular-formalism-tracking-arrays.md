@@ -3,7 +3,7 @@ type: source
 title: "Gamma-ray angular correlations, distributions and linear polarization in tracking arrays"
 aliases: [Lauritsen 2025 tracking-array angular formalism, Lauritsen 2025 gamma-ray tracking angular distributions, gamma-ray angular correlations distributions linear polarization tracking arrays]
 created: 2026-07-09
-updated: 2026-07-09
+updated: 2026-10-16
 status: ai-draft
 review_status: human-reviewed
 source_type: method-review-article
@@ -13,7 +13,7 @@ authors: [T. Lauritsen, A. Korichi, C. M. Campbell, M. P. Carpenter, P. A. Copp,
 journal: European Physical Journal A
 year: 2025
 volume: 61
-pages: 81
+pages: 76
 doi: 10.1140/epja/s10050-025-01533-5
 language: en
 canonical_source: doi:10.1140/epja/s10050-025-01533-5
@@ -31,7 +31,7 @@ tags: [tracking-array, angular-correlation, angular-distribution, linear-polariz
 
 ## Bibliographic Record
 
-T. Lauritsen et al., *European Physical Journal A* **61**, 81 (2025), DOI `10.1140/epja/s10050-025-01533-5`. The title, author list, journal, year and DOI match citation key `lauritsen_2025_$$gamma$$ray`.
+T. Lauritsen et al., *European Physical Journal A* **61**, 76 (2025), DOI `10.1140/epja/s10050-025-01533-5`. The title, author list, journal, year and DOI match citation key `lauritsen_2025_$$gamma$$ray`.
 
 ## Scope and Reading Depth
 
@@ -72,6 +72,13 @@ For the current project, the most important section is Sec.3.1: the angular-dist
 | L25-14 | 对 fusion-evaporation 的 linear polarization，本文把角分布项扩展为 `Pk(cos theta) -> Pk(cos theta) + (±)_{L'} Kk(LL') cos(2psi) Pk^(2)(cos theta)`；`Kk(LL')` 由 Eq.33 定义，`(±)_{L'}` 类似 `P_+` 的电/磁符号约定，`E(L')` 取正而 `M(L')` 取负。 | method-formalism | direct | pp.13--16, Secs.5.1--5.3, Eqs.31--41 | false |
 | L25-15 | In the `152Dy` in-beam example, linear polarization resolves the 432-keV ambiguity: calculations with `sigma/J=0.3` and `delta=0.7` leave only the `E1/M2` mixed solution consistent with the data. | observed-fact | direct | p.18, Sec.5.5, Fig.22 | false |
 | L25-16 | Appendix B.1 reports the `152Dy` in-beam dataset: `108Pd(48Ca[191 MeV],4n)152Dy` at ATLAS (experiment 1909), GRETINA with 47 crystals, a `108Pd` target of `0.789 mg/cm2`, a `24 mg/cm2` Pb catcher about 35 cm downstream, recoil `v/c=0.027`, and `1.55e9` good gamma rays with `FOM<0.8`. | observed-fact | direct | Appendix B.1, p.20 | false |
+| L25-17 | 出版商正文/HTML与Crossref均为EPJ A61,article76(2025)，protected Bib亦为76；本页旧81为metadata错误已修。本地raw为25页带EPJ manuscript/日期占位符的稿件版，另核publisher24页版本；两者不是独立采集。 | source-identity-and-version-audit | direct | publisher PDF1 title/header; publisher HTML citation_firstpage76; Crossref DOI record | true |
+| L25-18 | few-mm first-interaction定位使usual finite-solid-angle attenuation可近似unity，但原文仍保留energy-dependent halo及PSA/tracking/tiling响应。近unity不等于角能量效率平坦，source角谱相除也不自动反卷积angular migration。 | response-object-and-applicability-boundary | direct-and-derived | publisher PDF2 Introduction; publisher PDF7 Sec3.2 | true |
+| L25-19 | Fig6以每条源线的renormalized polar-angle counts放入一个energybin；Fig7在能量间插值、端外线性外推。作者还构造/调整variance matrix，明确误差不只是缩放后的sqrt(counts)；不据图补出实际算法/完整Cov或全部migration kernel。 | source-response-construction-and-replay-boundary | direct-and-derived | publisher PDF7 Figs6–7/Sec3.2; publisher PDF8 opening paragraph | true |
+| L25-20 | Fig8的991线fit A2=.251(2)/A4=−.046(3)，Fig9的781线A2=−.210(3)，Fig10的432线A2=.363(2)/A4=.123(3)；caption χ²分别35/21/142。正文明确fit errors未完全包含systematic fluctuations，故不把括号误差单独当totalerror或jointCI，不凭caption补ndf/reducedχ²。 | fitted-observables-and-author-error-boundary | direct-and-derived | publisher PDF8 Figs8–9 and text; publisher PDF9 Fig10 | true |
+| L25-21 | 本例角覆盖约70–175°、3°bin；432上方stoppedline使其只用接近/高于90°数据。Sec3.1明确额外符合选择在非4π阵列可改m-population，Eqs6–19可能需修改；source-response除法不认证相同selection/alignment。 | selection-support-and-population-boundary | direct-and-derived | publisher PDF7 paragraph before Sec3.2; publisher PDF8 Sec3.2; publisher PDF9 Fig10 | true |
+| L25-22 | Eq18将theta定义为CM、theta_lab为lab，而紧接Eq19分母仍字面cos(theta)，HTML/两版PDF一致。本任务从Eq18独立推得光子数Jacobian应为(1−beta²)/(1−beta*x)²、x=cos(theta_lab)；若Eq19字面用CM变量会有条件差异。未取得作者code，保留原标记，不称官方erratum或已知实际fit错误。 | printed-frame-marker-and-independent-derivation | direct-and-derived | publisher PDF6 Eqs18–19; publisher HTML Equ18/Equ19; manuscript PDF7 Eqs18–19 | true |
+| L25-23 | AppB1是2022 exp1909、47crystal的152Dy数据，含17+60ns isomer下方gamma trigger；B2说部分源数据阵列配置不同。publisher Data/Code Availability仅给reasonable request，没有本任务可下载的events/response/Cov/code；稿件/期刊与其图表不重复计实验。 | acquisition-lineage-and-data-readiness | direct-and-derived | publisher PDF20 Appendix B1–B2; publisher PDF19 Data/Code Availability | true |
 
 ## Nuclear Structure Information
 
@@ -104,3 +111,15 @@ For [[sigma-over-i-uncertainty-in-pado-mixing-ratio-extraction]], this source su
 ## Personal Notes
 
 Review note: L25-5 to L25-9 and L25-14/L25-15 were user-reviewed on 2026-07-09. L25-2 and L25-4 remain important context because `alpha_k` changes meaning between detector solid-angle attenuation and nuclear alignment/deorientation attenuation in different sections.
+
+## DAY14 tracking响应与版本核验
+
+2026-10-16本次为Day15无学分预习。来源前priming另存run receipt；读取本地25页稿件的Intro/Sec3/Summary/AppB相关段，并取得[出版商24页PDF](https://link.springer.com/content/pdf/10.1140/epja/s10050-025-01533-5.pdf)，对照publisher PDF1–3、6–9、18–20的相关段、Figures6–10、Eqs18/19和HTML公式/availability；没有重新认证publisher所有24页公式、DCO/偏振代码或全表。原Scope的25页全文记录指既有raw作者稿，不能误读为publisher版页数。
+
+DOI[10.1140/epja/s10050-025-01533-5](https://doi.org/10.1140/epja/s10050-025-01533-5)的正式article number为76，2025-04-10发表；publisher PDF首页、HTML citation_firstpage及[Crossref](https://api.crossref.org/works/10.1140/epja/s10050-025-01533-5)与只读Bib一致，故修正原81。旧raw的2372132bytes/SHA256`5ee6a654905be64113229d6f10567308e3995580906527af896eb9b92e478ae0`保持。新publisher PDF为2248094bytes/SHA256`0d89c27c0a354b1b215f8a9196142f76bd873fe9335d64ca6318f0f303422099`，仅下载到Wiki内tmp核验，不替换raw、不进Git；正式URL/页与图式为持久locator。
+
+作者在publisher PDF7–8明确：Fig6/7是以源线能量索引的归一角谱与插值/外推图；它不是已公布的完整P(Ereco,thetareco|Etrue,thetatrue)迁移核。source response、variance图、角拟合Cov和核alignment各有对象。源码未得，原文有variance调整说明，不推定作者简单线性插variance或忽略归一相关。Fig8/9/10 quotedfit errors与systematic fluctuations也不能混作已完整误差预算。
+
+本任务的[[angular-distribution]]“Tracking响应：源到在束的measure、能量与Cov合同”由Eq18独立推导dOmega_CM/dOmega_lab，再对source beta=.027、991-keV能量和声明collinear固定速度作条件表；另用明确自选计数/归一/插值验证一阶Cov合同。29checks只是本任务数学/输入检查，非原GRETINA response重放或新实测σ/δ。Eq19字面CM代入给出的归一/0.146%差别是条件反例，不能据此解释原systematics或指认作者程序错误。
+
+Agent self-audit：metadata81→76已由直接publisher与Crossref/Bib处置；新L25-17–23 true，旧L25-1–16全部flag和页面既有人审事件保持，不扩展为新内容human-reviewed。实际responseaxis/单源归一常数/插值算法、原角fit Cov、trigger/selection与moving-source传递未恢复，scientific P1/readiness保留。没有向作者发送数据/code请求。Decision: **revises** article号和版本误读；**supports** 独立source response校准；**limits** near-unity几何、漂亮曲线或quotedfit误差代替完整响应/不确定度。

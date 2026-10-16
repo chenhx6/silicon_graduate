@@ -1,0 +1,62 @@
+{
+  "kind": "source beta/line conditional photon exercise plus explicitly chosen independent counts",
+  "local_manuscript": {
+    "path": "raw/papers/2025_Lauritsen et al_$$gamma $$-ray angular correlations, distributions and linear polarization in tracking arrays.pdf",
+    "sha256": "5ee6a654905be64113229d6f10567308e3995580906527af896eb9b92e478ae0"
+  },
+  "publisher_pdf": {
+    "path": "tmp/day14-20261014/lauritsen2025/publisher-pdf.pdf",
+    "sha256": "0d89c27c0a354b1b215f8a9196142f76bd873fe9335d64ca6318f0f303422099"
+  },
+  "beta": ".027",
+  "line_rest_energy_keV": "991",
+  "chosen_angles_within_published_coverage_deg": [
+    70,
+    90,
+    120,
+    150,
+    175
+  ],
+  "source_kinematics_locators": [
+    "publisher PDF6 Eq18",
+    "publisher PDF8 Fig8",
+    "publisher PDF20 Appendix B1"
+  ],
+  "source_coverage_locators": [
+    "publisher PDF8 Sec3.2"
+  ],
+  "collinear_fixed_velocity_is_our_assumption": true,
+  "chosen_source_counts": [
+    [
+      1000,
+      2000,
+      1000
+    ],
+    [
+      2000,
+      1000,
+      1000
+    ]
+  ],
+  "chosen_source_anchor_energies_keV": [
+    800,
+    1200
+  ],
+  "chosen_interpolation_weights": [
+    "1/2",
+    "3/4"
+  ],
+  "chosen_target_energies_keV": [
+    1000,
+    1100
+  ],
+  "chosen_independent_beam_counts": [
+    4500,
+    3375,
+    2625
+  ],
+  "chosen_response_algorithm": "normalize each source histogram to unit sum then linear interpolation, explicitly not recovered author implementation",
+  "actual_response_matrix": null,
+  "actual_full_covariance": null,
+  "actual_author_code": null
+}

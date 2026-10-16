@@ -1,0 +1,10 @@
+{
+  "path": "raw/papers/2025_Lauritsen et al_$$gamma $$-ray angular correlations, distributions and linear polarization in tracking arrays.pdf",
+  "bytes": 2372132,
+  "sha256": "5ee6a654905be64113229d6f10567308e3995580906527af896eb9b92e478ae0",
+  "expected_sha256_matches": true,
+  "extracted_pages": 25,
+  "text_path": "tmp/day14-20261014/lauritsen2025/article-layout.txt",
+  "scope": "L25 Sec3 source response/single-gamma geometry, no new Day16 card",
+  "previous_goal_turn_classification": "progress: 68checks/canonical2pages/35publication and verified watcher"
+}

@@ -65,6 +65,10 @@ Matev2007局部算符/表检验完成后，选择Riley2001公开作者实验报�
 
 恢复实际时钟2026-10-16 09:19上海，研究止15:00/最终16:00，尚有约341分钟。正式Day14矩阵已完整，仍completed14/partial15。当前已核两feeding强度字段问题在原Ref5/转换/Σ缺口下局部饱和；重读恰好Day15卡，选择“isotropy是否约束higher-rank几何、共同响应如何改变正布居域”，不打开Day16。几何论文身份/可访问性核查与一个有界L2推导构成本批；信息增益是修正response与核alpha/feeding界之间的隐含等同。
 
+### 第036批：tracking响应
+
+第035批共同cone域问题完成后于09:35上海重建候选池，距离15:00仍约325分钟；继续现有Day15无学分路线。Krane/Olbrich原件及193Bi/Pr实际inputs缺口保持；选择本地已有Lauritsen2025的实际152Dy/source-response示例，信息增益是区分finite-angle近unity、能量角响应和quotedfit误差。先冻结[primed来源前回忆](20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/day15-tracking-response-before-sources.md)，没有打开Day16卡或以DCO/偏振另开专项。
+
 ## Sources and evidence
 
 | 来源 / 身份 | 本轮实际覆盖与locator | 证据分层与独立性 |
@@ -157,6 +161,12 @@ IO81 Ref5精确metadata已核为Olbrich等，NPA342(1),133–164(1980)，DOI10.1
 [来源前预测](20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/day15-finite-geometry-before-sources.md)与[量化前预测](20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/day15-finite-geometry-before-calculation.md)均已冻结。再次视觉核IO81 printed20/PDF2，原isotope为182Ta，isotropy精度0.5%；40cm下忽略有限角、0.5°角精度与monitor/deadtime约10^-3是分别陈述的控制（IO81-33）。原文没有把isotropy代几何，本任务也不由体积/距离补探测器半径或Q。
 
 Krane1972 DOI[10.1016/0029-554X(72)90099-7](https://doi.org/10.1016/0029-554X(72)90099-7)的OpenAlex只有closed metadata；Krane1973 DOI[10.1016/0029-554X(73)90294-2](https://doi.org/10.1016/0029-554X(73)90294-2)查到[eScholarship候选](https://escholarship.org/uc/item/8zt177d5)，但实际PDF请求HTTP202空体、landing SSL失败、OSTI ConnectionError，publisher此前0candidate。两个正文均未读，不建立metadata-only source，不引用未读Q公式/表值；1973未证实为erratum。详见[1973索引](20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/krane1973-geometry-openalex.json)、[实际下载](20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/krane1973-geometry-institution-download.json)、[1972索引](20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/krane1972-openalex.json)。机构候选存在与本轮取得body是不同命题，无全网不存在判断。
+
+### 第036批：版本、原response与systematic边界
+
+[[lauritsen-2025-gamma-angular-formalism-tracking-arrays]]原本地raw为25页manuscript（2372132bytes，SHA5ee6a654…），本轮取得[正式24页PDF](https://link.springer.com/content/pdf/10.1140/epja/s10050-025-01533-5.pdf)（2248094bytes，SHA0d89c27c…）并核HTML。Publisher首页/HTML、[Crossref](https://api.crossref.org/works/10.1140/epja/s10050-025-01533-5)及只读Bib均为EPJ A61,article76，故修正source旧81；原raw未替换，新PDF只放Wiki内tmp且不公开。新source L25-17–23 true；旧16个flag/人审事件保持，不把新核验写成人审。
+
+本次复核Intro/Sec3.1–3.2、Figures6–10、Eq18/19、Summary和AppB相关段；publisher关键页6/8视觉核验，不宣称重新认证24页全部公式或作者代码。Fig6/7的归一源角谱按能量插值/外推，作者明确另调variance；它不是已公布的完整迁移核。Fig8/9/10的captionχ²为35/21/142，正文明确A2/A4 fiterrors未全包含systematic fluctuations（L25-19/20）。AppB含isomertrigger及部分源数据阵列不同配置；data/code availability是reasonable request，未取得原events/response/Cov/code，也未联系作者（L25-23）。两PDF与同采集图表不重复计独立实验。
 
 ## Theory/analysis exercise
 
@@ -419,6 +429,16 @@ canonical推导见[[angular-distribution]]“有限几何：共同响应、正�
 
 共同角核R与未观测feeding K满足R_f K=K R_i，但保持sharp界还要求允许域P一同变成DP。自选17/2→13/2 pureE2、正parent/余项、w=3/5时，原问题及正确fold均为0.6；仅fold矩仍用原P给110669/178385≈0.620394091。另一个真实自选w1的例子采用parentpoint/childcone，错误commonpoint模型却给w≤247687/388750≈0.637136977。结果见[输入](20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/finite-geometry-design-input.json)与[68-check审计](20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/finite-geometry-feeding-audit.json)。全为L2数学设计、无新实测w/σ/δ、CL或actualfit。
 
+### 第036批：source-to-beam合同的29项控制
+
+canonical完整推导在[[angular-distribution]]“Tracking响应：源到在束的measure、能量与Cov合同”。[量化前冻结](20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/tracking-response-before-calculation.md)、[输入](20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/tracking-response-contract-input.json)、[程序](../../system/scripts/day14_tracking_response_contract.py)与[29-check结果](20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/tracking-response-contract-audit.json)区分source值、自选假设与actualnull输入。
+
+独立光子boost/微分给x=cos(theta_lab)、u=(x−β)/(1−βx)，J=du/dx=(1−β²)/(1−βx)²。source β=.027/E0=991keV在另声明固定沿beam速度下，覆盖内自选70/90/120/150/175°对应Elab约999.872/990.639/977.443/968.004/964.691keV；不是已复原原bin或实测energy。若response按labenergy定义须逐角匹配；原sorter的rest/lab轴定义未取到，不能指控作者漏做。
+
+Eq19字面theta在Eq18后缺lab标记（PDF/HTML一致）。若把它当lab可与J相容，若严格当CM代入，isotropic全lab域归一为.9990281417，最大点差约.146%；只是frame合同反例，非官方erratum/作者code错误或Fig8systematics原因。
+
+另选独立Poisson源counts与unit-sum归一/线性插值，用有理数核一阶Jacobian Cov。t=.5时Var(r0)=7/256000，简单线性插variance为7/128000；另选beamcounts时contrast方差保留Cov为123750、只留diagonal为99750。这不是作者未公开算法或真实152Dy误差；delta-method不保证有限计数coverage。
+
 ## Counter-evidence and missing companion observables
 
 HE15-9的实际未定双线是核心反例：energy sum、共享R/A和假设的ΔI=2均不足以裁决order。若一条线出现可独立定位的旁路或延迟顺序，应重审中间level；source仍保留括号Jπ与(E2)。HE15-5的quadruplet限制“一个峰是一条γ”的简化；干净622.4直接分支门与323.4级联门的299-keVcomponent差异可能迫使拆峰，但必须控制622/626门纯度、feeding、response和random。
@@ -496,6 +516,12 @@ TableI_T→I0j→node分母的转换/共同scale、全部弱537.39与其它边�
 ### 第035批：共同标量校准不确定共同角核
 
 isotropicreference对各chosencone均只有Q0=1，所以相同scalar效率/归一不识别Q2/Q4；不同核的w1反例限制跨能量/跨detector直接共享校正。所需companion是逐能量角接受度/晶体形状/源位置、匹配feeding和multipolarity的角分布参考及完整角fit/monitor Cov。已选gamma方向/偏振、非轴对称/角间不同核和moving-frame选择需joint response，不适用共同single-gamma Q简式。该反例不说明IO81实际有误，也不将182Ta测试重标为几何误差。
+
+### 第036批：nearunity与误差小不完成response核验
+
+高位置精度/finite-angle近unity与实际epsilon(E,theta)平坦是不同命题；isotropic baseline相除也不自动恢复angular migration的高rank。原Fig8–10自身的systematic声明、432上方stoppedline/mask、gate对m-population的改变及源/beam不同配置构成实际边界，不能以小括号误差补totalerror/完整Cov，或凭captionχ²猜ndf后乘sqrt(χ²)。
+
+原response归一常数/插值算法、lab/restenergy与measure、PSA/tracking/threshold/multiplicity匹配、trigger/门选择、angle migration和jointCov是必要companion。本文Data/Code Availability只给reasonable request；本任务未取到这些inputs，无actual refit/新σ/δ或机制判断。
 
 ## Knowledge Impact and Learning Decision
 
@@ -580,6 +606,10 @@ Decision: **revises** 将逐transition的I_T表格值直接当node总布居、�
 ### 第035批后的认识决定
 
 Decision: **revises** 共同卷积“自动保持数值sharp界”的省略条件，须连同整个允许域；**supports** 正响应与未观测feeding的协变；**limits** 用scalarisotropy认证higher-rank响应及不同kernel共享校正。原.596940/.523624的条件范围、formal21/24、completed14/partial15和课程state保持。没有用新计算检查数量给正式周考加分。
+
+### 第036批后的认识决定
+
+Decision: **revises** article81/版本混读和“源谱相除=完整响应”的捷径；**supports** 把measure、能量、selection与Cov一起列为输入；**limits** 近unity、拟合曲线或quotedfit误差直接升级为totaluncertainty。Source-to-beam合同中有些量可由运动学核验，但不能填真实response/code缺口。正式21/24、completed14/partial15和officialstate保持，没有因为新publisher版本增加独立实验计数。
 
 ## Durable knowledge delta
 
@@ -3528,6 +3558,72 @@ Decision: **revises** 共同卷积“自动保持数值sharp界”的省略条�
           "locator": "YA67-5"
         }
       ]
+    },
+    {
+      "knowledge": "knowledge/sources/lauritsen-2025-gamma-angular-formalism-tracking-arrays.md",
+      "summary": "直接publisher/Crossref/Bib核article76与24/25页版本；记录response构造、systematic误差、frame标记与data/code/selection边界，保留旧人审和16flags。",
+      "anchor": "DAY14 tracking响应与版本核验",
+      "sources": [
+        {
+          "path": "knowledge/sources/lauritsen-2025-gamma-angular-formalism-tracking-arrays.md",
+          "locator": "L25-17"
+        },
+        {
+          "path": "knowledge/sources/lauritsen-2025-gamma-angular-formalism-tracking-arrays.md",
+          "locator": "L25-18"
+        },
+        {
+          "path": "knowledge/sources/lauritsen-2025-gamma-angular-formalism-tracking-arrays.md",
+          "locator": "L25-19"
+        },
+        {
+          "path": "knowledge/sources/lauritsen-2025-gamma-angular-formalism-tracking-arrays.md",
+          "locator": "L25-20"
+        },
+        {
+          "path": "knowledge/sources/lauritsen-2025-gamma-angular-formalism-tracking-arrays.md",
+          "locator": "L25-21"
+        },
+        {
+          "path": "knowledge/sources/lauritsen-2025-gamma-angular-formalism-tracking-arrays.md",
+          "locator": "L25-22"
+        },
+        {
+          "path": "knowledge/sources/lauritsen-2025-gamma-angular-formalism-tracking-arrays.md",
+          "locator": "L25-23"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/methods/angular-distribution.md",
+      "summary": "将source-to-beam的measure/energy/selection/Cov与angular migration分开，保存独立boost/Jacobian与明确自选一阶统计控制，不恢复actualresponse或改σ/δ。",
+      "anchor": "Tracking响应：源到在束的measure、能量与Cov合同",
+      "sources": [
+        {
+          "path": "knowledge/sources/lauritsen-2025-gamma-angular-formalism-tracking-arrays.md",
+          "locator": "L25-18"
+        },
+        {
+          "path": "knowledge/sources/lauritsen-2025-gamma-angular-formalism-tracking-arrays.md",
+          "locator": "L25-19"
+        },
+        {
+          "path": "knowledge/sources/lauritsen-2025-gamma-angular-formalism-tracking-arrays.md",
+          "locator": "L25-20"
+        },
+        {
+          "path": "knowledge/sources/lauritsen-2025-gamma-angular-formalism-tracking-arrays.md",
+          "locator": "L25-21"
+        },
+        {
+          "path": "knowledge/sources/lauritsen-2025-gamma-angular-formalism-tracking-arrays.md",
+          "locator": "L25-22"
+        },
+        {
+          "path": "knowledge/sources/lauritsen-2025-gamma-angular-formalism-tracking-arrays.md",
+          "locator": "L25-23"
+        }
+      ]
     }
   ]
 }
@@ -3670,6 +3766,8 @@ Danko99primary合法OA/publicPDF/官方API/repo均未提供正文（403HTML/401J
 
 第035批在`knowledge/methods/angular-distribution.md`新增“有限几何：共同响应、正布居与可行域”，保存共同kernel/可行域定理、exactcone与不同响应反例，定义依据YA67-4/5。`knowledge/sources/ionescu-1981-improved-angular-distribution-analysis-particle-xn.md`新增IO81-33和“DAY14有限几何控制：182Ta与响应层次”（printed20/PDF2）；两篇Krane正文未得的边界也保持。自选数学结果没有冒充原文结论或新实验。旧humanreview/claimflags保持，新33为true。
 
+第036批修订`knowledge/sources/lauritsen-2025-gamma-angular-formalism-tracking-arrays.md`的article76/版本身份，并新增L25-17–23（publisher PDF1、6–9、19–20及HTML公式等精确locators）；在`knowledge/methods/angular-distribution.md`保存“Tracking响应：源到在束的measure、能量与Cov合同”，包含光子Jacobian/991条件能量表、自选归一插值Cov及实际反证/readiness。原raw/旧review不变，新数学控制非原作者重放或实验结果。
+
 ## Open questions and belief revision
 
 1. 哪个旁路、time/tag或独立spin anchor能裁决393/394的顺序？重复同一能量和不能裁决。
@@ -3683,6 +3781,8 @@ Danko99primary合法OA/publicPDF/官方API/repo均未提供正文（403HTML/401J
 
 第035批另问：actualdetector的逐能量角核能否从合法原件/校准记录恢复，并与population先验分开估计？若不能，只保留自选positive-response设计，不将sourceapproximation升级为实测Q。该问题已在canonical方法页写入输入/失败边界。
 
+第036批新增：在可得到真实sorter/response/原谱后，如何验证rest/labenergy轴、单源归一/插值、trigger/角mask与jointCov的一致性？publisher的式标记不能反推作者代码；“reasonable request”不是已经取得data。canonical方法页保留此路线，不转成用户待办。
+
 ## L0–L4 state
 
 最新moment放宽与图仍为L2 source-conditioned分析；fullbranch/转换/response/Cov不全，真实167Tm experimental refit仍not-ready，不以高精度计算冒充L4或新实测分支。
@@ -3695,6 +3795,8 @@ Danko99primary合法OA/publicPDF/官方API/repo均未提供正文（403HTML/401J
 本段为L1直接方法读取、L2边界写回与L3声明的canonical/BdG设计控制；没有actual RHB模型运行、原实验重分析或新的实验L4结果。Day14继续，Day15仅partial；source含“chiral”或模型方法不意味着打开Day16课程卡。
 
 第035批为L2一般理论/精确概率核设计。两Kranebody未取得，无新L0全文完成声明、实际响应校正或experimental L4。formal成绩与Day15无学分状态保持。
+
+第036批为L1直接版本/response段核查与L2 source-to-beam合同。Published24页只核相关段，旧25页raw全读记录不混用；29checks为声明运动学/一阶统计，不是experimentalL4。正式14成绩和Day15无学分状态保持。
 
 ## Verification and continuation
 
@@ -3956,3 +4058,9 @@ report/card/writeback valid，唯一block120items/39changed knowledge页。新IO
 用户最新`$farmer $go-on 监督工作`授权后仅恢复监督watcherPID42019，09:25上海实际running、当前threadrunning；未新建研究会话/goal或重启daily scheduler，旧Clock四项actualACK保持。[监督回执](20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/farmer-supervision-status-035.json)、[content](20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/content-checkpoint-035.json)、[checkpoint](20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/checkpoint-035.md)可恢复。main / `Audit DAY14 finite geometry and positive feeding domains`，实际H3/hash/push仅publication-035.json，不在本commit文件写自身hash。
 
 当前仍active，研究2026-10-16 15:00止、16:00交付；本批局部完成不是daycloseout，先actualclock/候选池再继续current或恰好Day15无学分preview。raw/PLAN/Bib/oldreview与继承dirty保持，下一prompt已更新priming，不提前给Day15学分。
+
+### 第036批验收与续接
+
+本批29项光子/sourcehash/measure/归一/自选一阶Cov检查实际exit0；report/card/writeback valid，唯一block124items/40changedknowledge页。原source16条旧行/flags与人审保持，仅明确修正日期/article号81→76；新17–23true。rawmetadata/PLAN/Bib、两PDF哈希、输入哈希/AST和state next14/count13均通过。`wiki_lint.py --fail-on error`实际exit0，0errors/141warnings（112citekeys/26rawslots/3reactionparser）；`git diff --check`、boundary和preflight实际exit0。EOL脚本exit1保留本批两页substantive，0restore/unsafe；不将其当科学审核。
+
+Farmer于09:51上海核watcher42019/currentthreadrunning，未新session/goal或重启daily scheduler。Stablepointer main / `Audit DAY14 tracking response and published source version`；actualH3/hash/push只publication-036.json。当前仍active，研究2026-10-16 15:00上海止、16:00交付；下一先clock/pool选择能改变输入或判决的current/Day15preview路线，不能以本批/卡完成提前closeout。保留继承dirty/raw/PLAN/Bib/review，只显式manifest/H3非force发布。

@@ -1,0 +1,26 @@
+{
+  "url": "https://link.springer.com/article/10.1140/epja/s10050-025-01533-5",
+  "at": "2026-10-16T09:38:26.295402+08:00",
+  "purpose": "version and article-number corroboration, main text only",
+  "status": 200,
+  "final_url": "https://link.springer.com/article/10.1140/epja/s10050-025-01533-5",
+  "content_type": "text/html; charset=utf-8",
+  "bytes": 676500,
+  "is_pdf": false,
+  "path": "tmp/day14-20261014/lauritsen2025/publisher-page.html",
+  "sha256": "c93625822b4ef669098264441f0646638c30a779c4c2588437d529c8ffd7ef80",
+  "identity_snippets": [
+    "springernature.com/m685/springer-static/image/art%3A10.1140%2Fepja%2Fs10050-025-01533-5/MediaObjects/10050_2025_1533_Fig1_HTML.png\"/>",
+    "=\"prism.url\" content=\"https://link.springer.com/article/10.1140/epja/s10050-025-01533-5\"/>",
+    "    <meta name=\"prism.doi\" content=\"doi:10.1140/epja/s10050-025-01533-5\"/>",
+    "pdf_url\" content=\"https://link.springer.com/content/pdf/10.1140/epja/s10050-025-01533-5.pdf\"/>",
+    "xt_html_url\" content=\"https://link.springer.com/article/10.1140/epja/s10050-025-01533-5\"/>",
+    "    <meta name=\"citation_title\" content=\"$$\\gamma $$ -ray angular correlations, distributions and linear polarization in tracking arrays\"/>",
+    "    <meta name=\"citation_firstpage\" content=\"76\"/>",
+    "    <meta name=\"dc.identifier\" content=\"doi:10.1140/epja/s10050-025-01533-5\"/>",
+    "    <meta name=\"DOI\" content=\"10.1140/epja/s10050-025-01533-5\"/>",
+    "    <meta name=\"citation_doi\" content=\"10.1140/epja/s10050-025-01533-5\"/>",
+    "rl\" content=\"http://api.springer.com/xmldata/jats?q=doi:10.1140/epja/s10050-025-01533-5&amp;api_key=\"/>",
+    "milton; citation_volume=58; citation_publication_date=1940; citation_pages=122; citation_doi=10.1103/PhysRev.58.122; citation_id=CR2\"/>"
+  ]
+}
