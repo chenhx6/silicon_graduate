@@ -396,3 +396,8 @@ CPL2010 128I四页primary现已读，新增source保留Channel轴/roughly14%与D
 ## DAY14原课程迁移042的priming
 
 2012PRC86,034302仅核metadata，选定合法API/PDF/OA/localmetadata路线未得body；不填图/数值或裁决2015对象冲突。14项设计比较只在声明projection下让三coarsegate support相同，full响应/likelihood未匹配；独立state-tag/orderedtiming有区分力但实际输入未给。Gaussian5%/FWHM11.17keV是设计要求非existingperformance。正式Day15记录priming/边界，独立执行本卡，不提前credit/开Day16。
+
+
+## DAY14原课程迁移043的priming
+
+13项假设domain审计把H0/H2的条件唯一与genericM1(+E2)族分开；dipole不默等stretched，captureallowedset的衍生表达不重复计独立data。扩展必要集合6/7不等J7匹配实际RADO，仍需sharedparent/gate/δ/response/Cov判别；parentEx-tag也不自动测spin。正式Day15记录priming后独立执行本卡，不能沿用这些checks当正式成绩/提前信用。

@@ -73,6 +73,9 @@ POST [DatasetFetchServlet](https://www.nndc.bnl.gov/ensdf/DatasetFetchServlet)�
 | N128-10 | 2012Di14的exactDOI/title/authors/PRC86(3),034302和2012-09-04身份已核；本轮API401、publisherPDF403、OpenAlex/S2无可用副本、选定arXiv0/Scholar失败，body未取得。310本地PDF的metadata检查未匹配该fullDOI，PRC105.034302误候选按卷/DOI排除；不建未读source、不以metadata裁决N128-4。 | exact-primary-access-and-fingerprint-boundary | direct-and-derived | getrefs2012DI14; exactCrossref10.1103/PhysRevC.86.034302; boundedaccess audit2026-10-16 | true |
 | N128-11 | 在本任务声明的selectedgraphs、忽略15.6观察且将两个近能102投影为同group时，756.5/764.7/117.8三门的101/102支持集在两拓扑都为{102}/{101,102}/{101}。这只限制coarse support的区分力，不证明actualcounts/angular/timinglikelihood相同，也不证明原detector看不见15.6。 | our-source-conditioned-observability-design | derived | N128-4 records; CPL printed082701-3 Fig4; DingPDF82 Fig6.5 | true |
 | N128-12 | 用printed节点差15.6keV作为nominal独立state-tag间隔，在另声明knowncenters/commonGaussianwidth/midpoint/balancedprior设计下，每类wrongtag≤5%要求σ≤4.74206keV、FWHM≤11.16671keV。非现有γ探测器或Ex-tag性能/实验CI；实际tag、tails/calbias/响应/Cov缺失。 | our-conditional-measurement-specification | derived | N128-4 lowlevelrecords; DingPDF78 endpoints; boundeddesigninput2026-10-16 | true |
+| N128-13 | ReactionADO注释与CPL原文都明确R>1还可对应ΔI0D或某些mixedΔI1，CPL以764.7举例；这是generalambiguity，不表明58.5/255.6实际有该混合或J7被数据支持。Capture226.101→167的58.74列M1，M列来自relativeIγ/Ice，允许set需带同线identity/anchor条件；MR空白不等测得δ=0。 | source-hypothesis-scope-and-role | direct-and-derived | reaction cG RADO comments; capture cG M header and L226.101/G58.74; CPL printed082701-2 | true |
+| N128-14 | 本任务fixedupper7/anchor6时，旧restrictedH0/H2+两L1+reactiontrend得{6}；改用M1component-present family，两L1与nondecreasingtrend只给{6,7}。再独立给255stretchedΔI1才回{6}；selectionrule集合不是actualRADOlikelihood或新spinassignment，也非穷尽所有multipole/lineidentity。 | our-hypothesis-domain-audit | derived | N128-13 sourcewarning; DingPDF78–79 localthreeedges | true |
+| N128-15 | 若同线匹配/anchor6成立，M1→6的exacttriangle给{5,6,7}，与历史allowedset同形；同一证据所导的set再相交不算新增独立测量。Reactionspintrend是额外布居prior，parentEx-tag只识别状态位置不自动测spin，需独立spin/含实际响应的sequence检验。 | our-evidence-role-and-identifiability-boundary | derived | capture L226.101/G58.74; adopted L167.368; DingPDF79 | true |
 
 ## Theory/Analysis Exercise
 
@@ -103,3 +106,9 @@ P0：对象身份/哈希/原列与独立PDF表示已核；N128-4/9冲突在sourc
 [[level-scheme-reconstruction]]“128I未定位置：三张门谱的区分力与最小独立tag”将不能获取primary之后的工作限定为设计，不编正文或数据。14项check只证明在明确粗化/selectedpath条件下三门support可相同，并计算一个自选Gaussianstate-tag要求；不把它升为fullresponse同值、现有detector性能或对任何图的裁决。G15.6只有record/未给RI也不自动意味着本任务已验证其observed状态；primary183下方未列的decay保持未知，不补成已测线。
 
 Decision: **limits** 用相同峰出现模式/混峰ICC单独定位parent；**supports** 将下一观测对准独立母态/末态或可解析的时间顺序。新10–12 true，旧1–9/review保持。原文与actualresponse/数据边界仍在，formal14/partial15不变。
+
+## 58.5-keV的假设集范围与证据角色
+
+本轮回核已读reactionADOcomments、capture58.74/M1与CPLgeneralwarning，不开新source或回填未读2012正文。[[level-scheme-reconstruction]]“128I自旋候选：假设集合、stretched条件与证据角色”保存13项条件集合审计。旧039限定H0/H2的结果在其原条件下仍成立；允许M1(+E2)的ΔI1族后，genericL1与非下降reactiontrend不单独唯一。没有由该必要规则反例提出J7的新实验指认。
+
+Capture M1与历史allowedspinset若使用同一底层Ice/Iγ及anchor，后者不能再算第二份独立数据；reactiontrend则属于不同的物理prior。MR空白、同能量与表上label仍不恢复δ/response/Σ。新N128-13–15 true，旧1–12/review保持；sourceJ6建议/原data/raw和formal分数不改。

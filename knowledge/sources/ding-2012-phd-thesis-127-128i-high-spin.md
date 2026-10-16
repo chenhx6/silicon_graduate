@@ -110,6 +110,7 @@ tags: [high-spin, transitional-nuclei, iodine-isotopes, decoupled-band, gamma-so
 | D12-31 | 2010CPL正文现已直接读到，Fig4横轴为Channel且正文弱102说roughly14%，与thesisFig6.5轴标/10%分别保留。2010报告48/72与thesis61表行不是可直接相减的同口径计数；指纹匹配保守按共享/重叠采集，无新独立复测。 | newly-read-dependent-publication-crosswalk | direct-and-derived | PDF81–82; Wang2010 printed082701-1/3 Fig4 | true |
 | D12-32 | Fig6.5中756.5/764.7/117.8门的低峰差异有助拆101/102；由source采用端点看，756.5下方285.2的102.2和117.8是竞争分支，另一102.2来自269.6。选定图中某路径不存在不等于完整实验absence或上限，原raw/校准/response/Cov仍缺。 | source-selected-graph-and-negative-evidence-boundary | direct-and-derived | PDF77 Fig6.2; PDF82 Fig6.5; PDF78–79 Table6.1 | true |
 | D12-33 | 本文/CPL强102.2为285.2→183.0、ECC=.60(7)随该component；2015选定ENSDF却把102.2/ECC放269.57→167.367并在285.19列15.6。Text/PDF均核，属于sourceobject拓扑/字段冲突，非rounding；未读2012Di14/body/erratum前不裁决哪图正确、不将评价当独立新测量。 | primary-versus-evaluation-conflict-boundary | direct-and-derived | PDF77 Fig6.2; PDF79–80 conversiontext; NNDC128053024 L269.57/G102.2 and renderedPDF2 | true |
+| D12-34 | D12-25的6/8→6只限其明示H0/H2集合。本任务扩到M1component-present族后，fixedupper7/anchor6与两genericL1可留6/7，nondecreasingtrend不再唯一；需要独立stretched255或实际角response/spin材料。该scope修订不改本文建议6、也未证明J7匹配RADO。 | conditional-inference-scope-audit | derived | PDF78 Table6.1 three localrows; PDF79 discussion; CPLgeneralwarning; selectedENSDFreactionADOcomments | true |
 
 ### 2026-10-12 reaction-channel evidence addendum
 
@@ -230,3 +231,10 @@ Agent self-audit：新D12-28–32 true，旧1–27逐行/flags与review保持；
 [[nndc-2015-128i-selected-level-gamma-records]] N128-3–9补直接对象/独立PDF表示，保留更宽的(5,6,7)−标签、15.6/102位置及ECC绑定差别。D12-28/29仍是本thesis实际表/论证，不能将数据库的269.57 parent/ECC反向抄来变成另一102的独立实测ICC；两source版本必须分开。评价者还按RI区间赋error，不能用那些值补本thesis原fitCov。
 
 28项选定记录检查与能量和歧义在[[level-scheme-reconstruction]]新评价节保存。2012Di14精确为PRC86,034302/DOI10.1103/PhysRevC.86.034302，正文未读；source争点不以paper年/compiled标签判决。本段D12-33 true，旧1–32/原review/raw保持，没有新spin、真实σ/δ/absoluteB或模式结论。
+
+
+## 局部H0/H2与更宽M1族的范围
+
+D12-25原文已经限定fixedparent/anchor与H0/H2；新D12-34把这个限制进一步显式化。[[nndc-2015-128i-selected-level-gamma-records]] N128-13–15与[[wang-2010-128i-new-high-spin-level-scheme]] W10I-4的generalADOambiguity提示，不能把genericdipole自动当stretched，亦不能把条件集合的唯一元素当完整physicaluniqueness。新J7只是kinematiccounterexample，actual58/255的δ、共享parentpopulation、门选择/角响应与Cov仍需数据判断，未作source重指认。
+
+13项集合/证据角色核验和逐前提表在[[level-scheme-reconstruction]]保存。旧1–33逐行/flags/review保持，新34true；本段不提供新的RADO拟合、论文裁决或正式成绩。

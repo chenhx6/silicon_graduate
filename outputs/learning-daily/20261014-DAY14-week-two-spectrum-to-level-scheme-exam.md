@@ -93,6 +93,10 @@ Matev2007局部算符/表检验完成后，选择Riley2001公开作者实验报�
 
 12:12上海距15:00约167分钟，先冻结[exactprimary读取前回忆](20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/ding2012-prc-primary-before-sources.md)，查询核身份后限定合法fulltext路线；未得body不编内容。来源缺口明确后重建当前池，选择[设计前冻结](20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/128i-discriminating-design-before-calculation.md)的“三门是否真能分开两位置/最小独立state-tag”，不是重复相同RI算术或新卡。Day14/partial15/21分不变，无Day16。
 
+### 第043批：假设集范围与证据角色
+
+12:40上海重查恰好Day15卡/时钟、冻结[primed回忆](20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/128i-hypothesis-domain-before-analysis.md)。2012body选定route已局部饱和，沿已读128I资料审计58.5的H0/H2限制，属于原Day14角判读/证据链问题，没有开新source或Day16。信息增益是防止把限制domain里的必要集合唯一当完整物理唯一，不再重复sameenergy数值。
+
 ## Sources and evidence
 
 | 来源 / 身份 | 本轮实际覆盖与locator | 证据分层与独立性 |
@@ -231,6 +235,10 @@ Ref16 DOI[10.1088/1674-1137/33/S1/057](https://doi.org/10.1088/1674-1137/33/S1/0
 [10.1103/PhysRevC.86.034302](https://doi.org/10.1103/PhysRevC.86.034302)的exactCrossref与NSR识别B.Ding等、PRC86(3),034302、2012-09-04。APSfulltextAPI401，citation/normalpublisherPDF403非PDF；OpenAlex/S2无公开副本，选定arXiv查询0，Scholar失败，均保留receipts。不修改权限/凭据或绕验证，没有建立metadata-only空source，也未声称2012正文已读。[访问边界](20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/ding2012-prc-access-boundary-042.json)明确当前输入缺口，不能凭metadata消除N128-4冲突。
 
 本地初查rg被Gitignore过滤，已改no-ignore枚举346paths，再只读310PDF documentmetadata（非其它论文scientificbody）。两丁兵PDF同hash/100页为同thesis；误候选PRC105.034302按fullDOI/volume排除，不将article-number当唯一身份。文件名/metadata未命中不等本地/全网全文不存在。[no-ignore审计](20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/local-ignored-raw-search-audit-042.json)和[metadata审计](20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/local-pdf-metadata-identity-audit-042.json)可核，原raw未写。N128-10记录该边界，N128-11/12的design是本任务推导而非未读paper结果。
+
+### 第043批：generalADO警告与captureallowedset
+
+回核CPL printed082701-2和ENSDFreactionADOcomments：R>1除stretchedQ外还可对应ΔI0D或某些mixedΔI1；CPL例子是764.7，不据此判58/255实际mixed。Capture cG M约定是relativeIγ/Ice，L226.101/G58.74列M1及K/L实验字段；在同线identity与anchor6条件下有allowedset，但MR空白不等测δ0。N128-13–15、D12-34保存这些证据角色，原paper/评价/历史引用不重复计独立实验。
 
 ## Theory/analysis exercise
 
@@ -551,6 +559,14 @@ ReactionG102.2在L269.57、RI≤632/ECC.60(7)；L285.19有G15.6与117.8。Primar
 
 下一有区分力的是独立辐射前parentEx或辐射后state-tag，或响应/中间寿命允许的ordered15.6/102timing。选另声明knowncenters、commonGaussianσ、equalpriors、midpoint的tag模型，nominalΔ=15.6keV、每类wrongtag≤.05要求σ≤4.742063keV/FWHM≤11.166706keV。不是现有Ex-tag/Ge性能或实验CI，不借CPL1332γ的2–2.5keV分辨当它的标定；tails/calbias/选择/实际tag/Cov仍缺。
 
+### 第043批：13项必要集合审计
+
+[前提输入](20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/128i-hypothesis-domain-input.json)、[代码](../../system/scripts/day14_128i_hypothesis_domain.py)及[13-check审计](20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/128i-hypothesis-domain-audit.json)复用原radiativetrianglehelper且保留hash，不改039旧程序。Canonical表在[[level-scheme-reconstruction]]“128I自旋候选：假设集合、stretched条件与证据角色”。
+
+Fixedupper7/anchor6下，旧H0/H2初set{4,6,8}、加两L1为{6,8}、再trend为{6}，原条件结果保持。允许M1分量存在且可有E2混合的family初set{5,6,7}、加两genericL1为{6,7}、再nondecreasingtrend仍{6,7}。只有再独立给255stretchedabsΔI1才只留6。新7只通过必要规则，不等RADOlikelihood匹配或newassignment；本family也不声称穷尽所有multipole/lineidentity。
+
+同captureM1/anchor导出的historicalallowedset再相交，不算第二份独立测量。Reactiontrend是物理prior，dipole与stretched有不同约束，不能先借目标J6证明stretched再循环选6。ParentEx-tag与spinlabel也非同一observable。实际sharedparent/gates/δ/response/Cov可能进一步判别，未被这个kinematic审计丢弃或伪造。
+
 ## Counter-evidence and missing companion observables
 
 HE15-9的实际未定双线是核心反例：energy sum、共享R/A和假设的ΔI=2均不足以裁决order。若一条线出现可独立定位的旁路或延迟顺序，应重审中间level；source仍保留括号Jπ与(E2)。HE15-5的quadruplet限制“一个峰是一条γ”的简化；干净622.4直接分支门与323.4级联门的299-keVcomponent差异可能迫使拆峰，但必须控制622/626门纯度、feeding、response和random。
@@ -669,6 +685,12 @@ SourceM/R/RI/normalization与时间身份均须匹配，实际response/Cov/runID
 
 2012body的权限/可用性缺口、rawcounts/转换/时间响应与jointCov都未补齐；没有因此选primary/evaluation图、赋spin/σδ/B、修改formal分数或创建L4结果。不能用metadata/设计要求顶替actualdata。
 
+### 第043批：条件唯一不能省略假设族
+
+两companion“dipole”不自带stretched标签，generalmixedΔI1警告是扩大需审计family的理由，却不说明这条线已测出该混合。对candidate7是否真的相容应做含真实门/共有parentpopulation和δ的角数据比较；源RADO并没有因为selectionrule允许就失去信息。当前无该jointlikelihood/Cov，不能宣称两解等好或原J6错误。
+
+最高信息companion是独立spin/非循环stretched约束或真实matchedresponse。历史M1allowedset也要带anchor/同线identity与底层Ice/Iγ材料，不把其衍生表达算独立data；Ex分辨设计不自动解spin。2012body/actualdata缺口仍在，无新σ/δ/B或核结构模式。
+
 ## Knowledge Impact and Learning Decision
 
 - **supports：** 一图一表的逐边source-level纲图和DCO/偏振/转换联合证据链。
@@ -780,6 +802,10 @@ Decision: **revises** “更新评价已经adopted就可替代逐row校验”的
 ### 第042批后的认识决定
 
 Decision: **revises** 把重复门谱或混峰ICC当parent定位测量的提议，**supports** 先问新observable是否真的区分未定state/顺序，再量化tagresponse，**limits** 用coarse support同值推出full likelihood同值、把Gaussian设计当已有performance或尝试下载当全文已读。Formal21/24、completed14/partial15、课程state与review保持。
+
+### 第043批后的认识决定
+
+Decision: **revises** 条件唯一在省略hypothesisdomain后升级为完整唯一、或genericdipole默作stretched的表述；**supports** 数据约束/衍生set/物理prior/额外前提分账；**limits** J7必要候选当实验支持、parenttag当spin测量。原sourceJ6/原039条件结果/formal21/24/completed14partial15及course保持，旧review/flags不变。
 
 ## Durable knowledge delta
 
@@ -4367,6 +4393,90 @@ Decision: **revises** 把重复门谱或混峰ICC当parent定位测量的提议�
           "locator": "N128-12"
         }
       ]
+    },
+    {
+      "knowledge": "knowledge/sources/nndc-2015-128i-selected-level-gamma-records.md",
+      "summary": "区分generalADO ambiguity、captureM1导出的allowedset与reactionprior，保存扩展M1族的必要集合，不认定actualmixing/J7fit。",
+      "anchor": "58.5-keV的假设集范围与证据角色",
+      "sources": [
+        {
+          "path": "knowledge/sources/nndc-2015-128i-selected-level-gamma-records.md",
+          "locator": "N128-13"
+        },
+        {
+          "path": "knowledge/sources/nndc-2015-128i-selected-level-gamma-records.md",
+          "locator": "N128-14"
+        },
+        {
+          "path": "knowledge/sources/nndc-2015-128i-selected-level-gamma-records.md",
+          "locator": "N128-15"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/sources/ding-2012-phd-thesis-127-128i-high-spin.md",
+      "summary": "原H0/H2结果保持并显式限制其domain，新增genericM1(+E2)/stretched与actualfit的scope边界。",
+      "anchor": "局部H0/H2与更宽M1族的范围",
+      "sources": [
+        {
+          "path": "knowledge/sources/ding-2012-phd-thesis-127-128i-high-spin.md",
+          "locator": "D12-34"
+        },
+        {
+          "path": "knowledge/sources/nndc-2015-128i-selected-level-gamma-records.md",
+          "locator": "N128-13"
+        },
+        {
+          "path": "knowledge/sources/nndc-2015-128i-selected-level-gamma-records.md",
+          "locator": "N128-14"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/methods/level-scheme-reconstruction.md",
+      "summary": "13项candidate-set及证据角色审计，限定commonanchors/lineidentity、区分dipole-stretched与衍生set重复计权、parenttag和spin。",
+      "anchor": "128I自旋候选：假设集合、stretched条件与证据角色",
+      "sources": [
+        {
+          "path": "knowledge/sources/nndc-2015-128i-selected-level-gamma-records.md",
+          "locator": "N128-13"
+        },
+        {
+          "path": "knowledge/sources/nndc-2015-128i-selected-level-gamma-records.md",
+          "locator": "N128-14"
+        },
+        {
+          "path": "knowledge/sources/nndc-2015-128i-selected-level-gamma-records.md",
+          "locator": "N128-15"
+        },
+        {
+          "path": "knowledge/sources/ding-2012-phd-thesis-127-128i-high-spin.md",
+          "locator": "D12-34"
+        },
+        {
+          "path": "knowledge/sources/wang-2010-128i-new-high-spin-level-scheme.md",
+          "locator": "W10I-4"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/projects/a130-thesis-evidence-matrix.md",
+      "summary": "将假设集条件唯一的scope与必要真实angular/spin输入接回论文矩阵，不推广newassignment。",
+      "anchor": "128I自旋指认：条件唯一的domain必须明示",
+      "sources": [
+        {
+          "path": "knowledge/sources/nndc-2015-128i-selected-level-gamma-records.md",
+          "locator": "N128-14"
+        },
+        {
+          "path": "knowledge/sources/nndc-2015-128i-selected-level-gamma-records.md",
+          "locator": "N128-15"
+        },
+        {
+          "path": "knowledge/sources/ding-2012-phd-thesis-127-128i-high-spin.md",
+          "locator": "D12-34"
+        }
+      ]
     }
   ]
 }
@@ -4523,6 +4633,8 @@ Danko99primary合法OA/publicPDF/官方API/repo均未提供正文（403HTML/401J
 
 第042批在`knowledge/sources/nndc-2015-128i-selected-level-gamma-records.md`新增N128-10–12及“2012原文未得后的最小判别设计”，记录原文访问/正确本地检索范围与source条件推导；`knowledge/methods/level-scheme-reconstruction.md`新增“三张门谱的区分力与最小独立tag”完整条件/公式；`knowledge/projects/a130-thesis-evidence-matrix.md`新增“128I下一步：独立定位102-keV母态或末态”。没有未读PRC空source，知识不只存在outputs。
 
+第043批在`knowledge/sources/nndc-2015-128i-selected-level-gamma-records.md`新增N128-13–15与“58.5-keV的假设集范围与证据角色”；Ding source新增D12-34与scope说明；`knowledge/methods/level-scheme-reconstruction.md`新增逐前提candidate-set表和非循环/同源约束边界；`knowledge/projects/a130-thesis-evidence-matrix.md`新增“128I自旋指认：条件唯一的domain必须明示”。原039代码/claims保持，新13项核验作为独立scope增量而非重算同表加分。
+
 ## Open questions and belief revision
 
 1. 哪个旁路、time/tag或独立spin anchor能裁决393/394的顺序？重复同一能量和不能裁决。
@@ -4550,6 +4662,8 @@ Danko99primary合法OA/publicPDF/官方API/repo均未提供正文（403HTML/401J
 
 第042批原文/版本原因仍未决；下一可审计58.5的“假设集是否完整”，把reactiontrend与capture allowedspinset的证据角色分开，避免把只含H0/H2的条件唯一当完整物理唯一。该问题沿已读source，不需编未读2012内容；下轮先clock/pool/primedrecall，保留时间gate。
 
+第043批下一有界问题是两companion共享parent时的角数据联合约束：实际RADO是否在声明pureL1/commonparent/同gate响应条件下已经提供额外判别？先核条件/归一，不把triangle候选视作实际fit，也不丢弃测量值。仍使用既有source，缺δ/response/Σ时只能写条件判据，不新造实验结论。
+
 ## L0–L4 state
 
 最新moment放宽与图仍为L2 source-conditioned分析；fullbranch/转换/response/Cov不全，真实167Tm experimental refit仍not-ready，不以高精度计算冒充L4或新实测分支。
@@ -4576,6 +4690,8 @@ Danko99primary合法OA/publicPDF/官方API/repo均未提供正文（403HTML/401J
 第041批为L1选定公开ENSDF低记录/反应对象及独立PDF表读取与L2 sourcecrosswalk，28checks不等实际event-levelL4。NDS质量链论文没有全读，adopted/capture只核指定scope，未裁决topology/σδ/模式；原Day14信用和Day15partial保持。
 
 第042批的2012paper仅metadata/accessaudit，没有新增L0全文已读声明或sourcepage；14checks为L2支持模式/测量设计。310本地PDF只读documentmetadata/选中thesisidentitypage，不是其它paper科学阅读或Day16预习。实验L4仍notready，formal14/partial15不变。
+
+第043批为L1既有source条件回核与L2假设范围/证据角色分析。13checks不含actualRADOlikelihood/δ提取，不改sourceJ或实验L4状态，没有新source/课程卡，Day15仅partial。
 
 ## Verification and continuation
 
@@ -4889,3 +5005,11 @@ Farmer42019于12:07上海核running/currentthreadrunning，未新session/goal或
 `wiki_lint.py --fail-on error`实际exit0，0errors/145warnings（114citekeys/28rawslots/3reactionparser），`git diff --check`、boundary/preflight exit0。EOLexit1仅保留3页本批substantive，0restore/unsafe。只读PDFmetadata过程中另有fitz API deprecation提示，未因此改环境/依赖。Farmer42019于12:35上海核running/currentthreadrunning，无新session/goal/daily scheduler。
 
 Stablepointer main / `Specify DAY14 iodine parent-state discrimination inputs`，actualH3/hash/push只publication-042.json。当前仍active，研究2026-10-16 15:00止、16:00交付；下一clock/pool/primedrecall后审计58.5假设集范围与generic/stretched、captureallowedset/reactiontrend的角色，不给新spin/分数。保留继承dirty/raw/PLAN/Bib/oldreview，显式manifest/H3非force发布。
+
+### 第043批验收与续接
+
+13项source/input/helperhash与候选集合/角色检查实际exit0；report/card/writeback valid，唯一block151items/44changedknowledge页。N128旧12行/Ding旧33行/flags/review保持，新13–15/34true；rawmetadata/PLAN/Bib/source/input/helper哈希、AST、原039模块不改与state14/count13通过。没有actualδ/likelihood/newspin或formal分数变化。
+
+`wiki_lint.py --fail-on error`实际exit0，0errors/145warnings（114citekeys/28rawslots/3reactionparser），`git diff --check`、boundary/preflight exit0。EOLexit1仅保留4页本批substantive，0restore/unsafe。Farmer42019于12:52上海核running/currentthreadrunning，无新session/goal/daily scheduler。
+
+Stablepointer main / `Clarify DAY14 iodine spin-hypothesis scope and evidence roles`，actualH3/hash/push只publication-043.json。当前仍active，研究2026-10-16 15:00止、16:00交付；下一clock/pool后完成同一问题的commonparent两branch角约束baseline，先冻结条件，不把candidate当actualfit或忽略sourceRADO。<90min不新source/card，15:00后只closeout；preserve inherited/raw/PLAN/Bib/review，显式manifest/H3非force发布。

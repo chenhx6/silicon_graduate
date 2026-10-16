@@ -1,0 +1,104 @@
+{
+  "kind": "conditional necessary-spin-set hypothesis-domain audit; no actual ADO fit",
+  "checks": {
+    "source_primary_hash": true,
+    "capture_object_hash": true,
+    "reaction_object_hash": true,
+    "original_restricted_domain_reproduced": true,
+    "M1_component_gives_historical_allowedset": true,
+    "expanded_M1_family_with_two_dipoles": true,
+    "nondecreasing_reaction_trend_not_unique_in_expanded_family": true,
+    "adding_255_stretched_is_extra_constraint": true,
+    "J7_counterexample_obeys_all_generic_triangles": true,
+    "M1_and_E2_components_both_allowed_for_expanded_survivors": true,
+    "derived_historical_allowedset_not_extra_independent_measurement": true,
+    "lineidentity_and_anchors_are_conditions": true,
+    "no_unmeasured_delta_response_or_reassignment": true
+  },
+  "check_count": 13,
+  "passed": true,
+  "inputs": {
+    "kind": "conditional necessary-spin-set domain audit, not ADOlikelihood or newassignment",
+    "upper_spin_given": 7,
+    "anchor_spin_given": 6,
+    "source_primary": {
+      "path": "raw/papers/degree dissertation/丁兵 - 博士论文.pdf",
+      "sha256": "ca7765ad962ea0c106791532f5a7d9f359533d25bb0170f03197bfec414be5c7"
+    },
+    "capture_object": {
+      "path": "tmp/day14-20261014/nndc128i/thermal-secondary.ens",
+      "sha256": "5a5315c8888c159014784c0beb9e7af8ac2b20c117a388c8b2ddd48c0d8a5239",
+      "datasetcheck": "128053003,128I",
+      "response_sha256": "36893377d450e055d49da45f2913ff8b92cbef7e000ac45c825c6cb7111e1a93"
+    },
+    "reaction_object": {
+      "path": "tmp/day14-20261014/nndc128i/li7-reaction.ens",
+      "sha256": "126efa18a375524a26f26d62a32be280c663b3db3f470a9b9e5db94690b28114",
+      "datasetcheck": "128053024,128I",
+      "response_sha256": "2fc295d1340b476c102d28cbe0b58aab33d1fefc1348bad3ce607a9a7e6a80d4"
+    },
+    "source_references": [
+      "DingPDF79 localH0/H2 discussion",
+      "CPL2010 printed082701-2 generalADOambiguity, example764.7",
+      "ENSDFreaction cG RADO header",
+      "captureL226.101/G58.74 M1 and K/L coefficients"
+    ],
+    "crosssource58_identity_is_explicit_condition": true,
+    "restricted58_options": "L1 deltaI0 OR L2 absdeltaI2, as priorlocalexercise",
+    "expanded58_family": "M1 component present; E2 admixture allowed but not measured here",
+    "companion_rule_initial": "314 and255 L1 only, not initially assertedstretched",
+    "reaction_spin_trend": "nondecreasing spinwithlevelenergy, a conditionalphysicalprior",
+    "capture_allowed_set_if_anchor6": [
+      5,
+      6,
+      7
+    ],
+    "mixed_deltaI1_source_warning_is_general": "not evidence58actuallymixed or allJfitsRADO",
+    "actual_delta58": null,
+    "actual_delta255": null,
+    "actual_population_response_covariance": null,
+    "source_spin6_reassigned": false
+  },
+  "spin_sets": {
+    "restricted58": [
+      4,
+      6,
+      8
+    ],
+    "restricted_plus_generic_companions": [
+      6,
+      8
+    ],
+    "restricted_plus_trend": [
+      6
+    ],
+    "M1_present_family": [
+      5,
+      6,
+      7
+    ],
+    "expanded_plus_generic_companions": [
+      6,
+      7
+    ],
+    "expanded_plus_trend": [
+      6,
+      7
+    ],
+    "expanded_plus_additional_stretched255": [
+      6
+    ]
+  },
+  "new_experimental_spin_assignment": null,
+  "actual_angular_likelihood_comparison": null,
+  "input_sha256": "b29316b66b2137ae0bbc5be722761c154bc60023e0e5999d248b7f0e39cd99af",
+  "helper_sha256": "ed39d591bc63cc3f6db08f51d5c448bf47c334217ab580f56dc82fec507734c0",
+  "limitations": [
+    "given upper7/anchor6 and matched58capture identity are conditioned inputs",
+    "M1 presence is a limited family, not an exhaustive all-multipole or lineidentity search",
+    "general mixedDeltaI1 warning does not show actual58 or255 is mixed",
+    "survivingJ7 is a kinematic counterexample, not a demonstrated angular-data fit",
+    "stretched255 must be independently constrained, not proved circularly from the desiredJ6",
+    "parent/finalEx identification alone does not measure spin; actual response and jointCov missing"
+  ]
+}

@@ -115,3 +115,8 @@ A new line or energy-sum closure may strengthen placement. It cannot by itself p
 ## 128I下一步：独立定位102-keV母态或末态
 
 [[nndc-2015-128i-selected-level-gamma-records]] N128-10–12与[[level-scheme-reconstruction]]的判别设计把下一步从重复756/764/117门转向独立parent/finalstate或可解析的orderedtiming。三门coarse support在声明投影下可相同，不等于实际likelihood相同；单个混峰ICC也不贴parent标签。15.6keV间隔和Gaussian5%/11.17keV只是nominal独立state-tag设计，不代表existingperformance。2012Di14body/真实tag和响应/原Cov仍缺，不裁决primary/evaluation图或升级mode证据。
+
+
+## 128I自旋指认：条件唯一的domain必须明示
+
+[[ding-2012-phd-thesis-127-128i-high-spin]] D12-34与[[nndc-2015-128i-selected-level-gamma-records]] N128-13–15把旧H0/H2的条件唯一与较宽M1(+E2)族分开。固定上7/下6，genericL1与nondecreasingtrend在扩展族只给6/7，不等J7被实际RADO支持；255的stretched性质须独立约束。Captureallowedset若重复同M1/anchor不能计独立测量，parentEx-tag也不自动给spin。下一需对准spinsequence/sharedparentresponse而非重复energyclosure，实际δ/门/Σ缺口仍留；[[level-scheme-reconstruction]]保存13项集合核验。

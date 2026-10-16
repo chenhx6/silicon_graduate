@@ -1,0 +1,42 @@
+{
+  "kind": "conditional necessary-spin-set domain audit, not ADOlikelihood or newassignment",
+  "upper_spin_given": 7,
+  "anchor_spin_given": 6,
+  "source_primary": {
+    "path": "raw/papers/degree dissertation/丁兵 - 博士论文.pdf",
+    "sha256": "ca7765ad962ea0c106791532f5a7d9f359533d25bb0170f03197bfec414be5c7"
+  },
+  "capture_object": {
+    "path": "tmp/day14-20261014/nndc128i/thermal-secondary.ens",
+    "sha256": "5a5315c8888c159014784c0beb9e7af8ac2b20c117a388c8b2ddd48c0d8a5239",
+    "datasetcheck": "128053003,128I",
+    "response_sha256": "36893377d450e055d49da45f2913ff8b92cbef7e000ac45c825c6cb7111e1a93"
+  },
+  "reaction_object": {
+    "path": "tmp/day14-20261014/nndc128i/li7-reaction.ens",
+    "sha256": "126efa18a375524a26f26d62a32be280c663b3db3f470a9b9e5db94690b28114",
+    "datasetcheck": "128053024,128I",
+    "response_sha256": "2fc295d1340b476c102d28cbe0b58aab33d1fefc1348bad3ce607a9a7e6a80d4"
+  },
+  "source_references": [
+    "DingPDF79 localH0/H2 discussion",
+    "CPL2010 printed082701-2 generalADOambiguity, example764.7",
+    "ENSDFreaction cG RADO header",
+    "captureL226.101/G58.74 M1 and K/L coefficients"
+  ],
+  "crosssource58_identity_is_explicit_condition": true,
+  "restricted58_options": "L1 deltaI0 OR L2 absdeltaI2, as priorlocalexercise",
+  "expanded58_family": "M1 component present; E2 admixture allowed but not measured here",
+  "companion_rule_initial": "314 and255 L1 only, not initially assertedstretched",
+  "reaction_spin_trend": "nondecreasing spinwithlevelenergy, a conditionalphysicalprior",
+  "capture_allowed_set_if_anchor6": [
+    5,
+    6,
+    7
+  ],
+  "mixed_deltaI1_source_warning_is_general": "not evidence58actuallymixed or allJfitsRADO",
+  "actual_delta58": null,
+  "actual_delta255": null,
+  "actual_population_response_covariance": null,
+  "source_spin6_reassigned": false
+}

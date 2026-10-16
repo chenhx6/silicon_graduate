@@ -810,3 +810,32 @@ header“几乎同2012Wa27”的key在getrefs实际指Uoctupolepaper，2012Di14�
 [14-check程序](../../system/scripts/day14_128i_discriminating_design.py)、[显式输入](../../outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/128i-discriminating-design-input.json)和[结果](../../outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/128i-discriminating-design-audit.json)保留两graph/paths、投影条件/三个sourcehash及state-tag公式。没有把unknown primarydecay补为observed，也不将缺路径当absence。
 
 Decision: **revises** “重画同一门谱或补一个混峰ICC即可定位parent”的测量提议；**supports** 对准具体未定state/时间顺序并先量化tagresponse；**limits** 将粗支持相同当full likelihood相同、Gaussian设计当既有性能或metadata当body。Formal14 21/24、completed14/partial15和review状态保持。
+
+## 128I自旋候选：假设集合、stretched条件与证据角色
+
+前面58.5局部三边审计明确用H0=偶极ΔI0、H2=四极absΔI2；那个结果只对该集合成立。[[ding-2012-phd-thesis-127-128i-high-spin]] D12-34与[[nndc-2015-128i-selected-level-gamma-records]] N128-13–15本轮检查假设范围，不修改source建议的J6或原数据。
+
+### 必要集合随前提变化
+
+仍条件固定commonparent J(481)=7、anchorJ(167)=6，并假设跨source的58.74/58.5是同一条已辨身份的线。纯选择定则`abs(Ji−Jf)≤L≤Ji+Jf`给：
+
+| 58的假设族 | 再加314/255仅为genericL1 | 再加局部spin随能量非下降 | 还需要的独立前提 |
+| --- | --- | --- | --- |
+| 旧restrictedH0/H2：Jx=6或4/8 | {6,8} | {6} | 这是受限domain的结果，不等完整spinposterior |
+| M1分量存在、可有E2混合：先允许{5,6,7} | {6,7} | {6,7} | 若独立确认255为stretched absΔI1，则只留6 |
+
+后一行的J7使58为7→6的ΔI1族、255为7→7的ΔI0D、314为7→6。它只说明generictriangle和trend不足唯一；没有证明三条实际RADO同样拟合或后者真的mixed。CPL/评价说某些mixedΔI1可给大RADO，是一般警告，不是58或255的实测δ。所有候选还需实际sharedpopulation、gate/efficiency响应和jointCov来比较。这里的M1-present族也不是穷尽其它multipoles/lineidentity的完整搜索。
+
+### 哪些条件不是第二份数据
+
+Capture226.101→167.367的58.74列M1，原M列按1991Sa07 relativeIγ/Ice给出；在anchor6和同线identity条件下，M1exactrule本就导出{5,6,7}。若历史allowedset也从同一底层材料表达出来，重复相交不能算一份新的独立spin测量。历史其它资料可能还有额外信息，原primary未读时不自行归因。
+
+Reactiontrend是布居倾向的prior，genericdipole是L1类，stretched还指定absΔI1；三者要分别列。不能先用想得到的J6证明255stretched，再拿它“独立”选6。MR字段空白也不能改写成δ测为exact0。同一parent的两个branch角数据在匹配条件下可能提供联合判别，本节没有将它们丢弃；actualgate/response/δ/Cov未给，尚未作该拟合。
+
+上一节独立parent/finalEx-tag设计解决的是节点位置/lineidentity；同一个Ex节点仍可有多个spin假设。Ex分辨指标不自动变spin分辨，必要companion应对准具体剩余自由度：独立spinanchor、含真实population/门响应的sequence检验，或独立证明某branch的stretched性质。
+
+### 复算与判断
+
+[13-check程序](../../system/scripts/day14_128i_hypothesis_domain.py)、[前提输入](../../outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/128i-hypothesis-domain-input.json)及[结果](../../outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/128i-hypothesis-domain-audit.json)复用已核triangle helper并记录source/helper hashes。旧039模块不改，原H0/H2结果依旧可重现；新输出单列扩展范围，不生成angularlikelihood或newassignment。
+
+Decision: **revises** 条件唯一被省略domain后升级为完整唯一的说法；**supports** 假设族、数据约束、物理prior和额外stretched前提分别列出；**limits** 将新J7必要候选视为实验支持、同源derivedset视为独立重复或parenttag视为spin测量。Formal14 21/24、completed14/partial15与旧review不变。
