@@ -371,3 +371,8 @@ DAY14延期中已完成[[angular-distribution]]“有限几何：共同响应、
 ## DAY14预习037：finite-J与Gaussian合同（无学分）
 
 已核L25 publisher Eq13/14与YA67 Eq1/6/10/11，58checks的uniform/reference/换基/large-J与width/variance比较已canonical。字面q4有限J含rank0/2，不能未换基用pureU4；sigma width与variance仅v=s²等布居，不能同标签移植。Ref39是Morinaga/Yamazaki1976书，未读对应段/未得作者code，不称其implementation错误、官方erratum或实验重拟合。正式Day15须记录此priming、独立完成卡，不提前加分或开Day16。
+
+
+## DAY14预习038：经典方向与量子迹（无学分）
+
+Ref39书段本轮未得（Crossref过滤无item/宽匹配为无关文/同题期刊条目，两目录连接失败，publisher403），未猜ISBN/DOI/原书结论。L25 Eq42的Legendre输入下，独立22项符号推导解释q2/q4经典投影形式、量子离散迹/正交化的T4修正与低spin零范数；这是我们的解释，非已核作者code/1976书论证。正式Day15仍须记录priming独立完成卡，不给本预习信用或打开Day16。

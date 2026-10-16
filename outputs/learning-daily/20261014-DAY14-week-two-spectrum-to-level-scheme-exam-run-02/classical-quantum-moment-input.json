@@ -1,0 +1,26 @@
+{
+  "kind": "own symbolic classical versus quantum moment derivation; no book or authorcode attribution",
+  "publisher_pdf": {
+    "path": "tmp/day14-20261014/lauritsen2025/publisher-pdf.pdf",
+    "sha256": "0d89c27c0a354b1b215f8a9196142f76bd873fe9335d64ca6318f0f303422099"
+  },
+  "source_legendre_coefficients": {
+    "2": [
+      "-1/2",
+      "0",
+      "3/2"
+    ],
+    "4": [
+      "3/8",
+      "0",
+      "-15/4",
+      "0",
+      "35/8"
+    ]
+  },
+  "literal_record": "lauritsen2025-legendre-literal-038.json",
+  "source_definition_reference": "YA67-13: alpha=p/B and completealignment reference",
+  "Ref39_body_read": false,
+  "author_attribution_verified": false,
+  "actual_sigma_delta_fit": null
+}

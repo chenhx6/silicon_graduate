@@ -554,3 +554,56 @@ YA67 Eq11明确`P_W(m)∝exp[−m²/(2s²)]`；L25 Eq13字面对应`P_V(m)∝exp
 [58-check程序](../../system/scripts/day14_alignment_formula_contract.py)、[冻结输入](../../outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/alignment-formula-contract-input.json)和[审计](../../outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/alignment-formula-contract-audit.json)保存source/helper哈希、逐spin残差/参考/换基、正feeding反例、large-J一致界及两种Gaussian参数。所有原PDF/HTML字面保留；Ref39对应书段与作者implementation未得。
 
 Decision: **revises** 将打印多项式或同名sigma直接当exacttensor/相同prior的读法；**supports** 先做uniform/参考/absentrank/large-J极限，再用同一规范传播；**limits** 由这些控制判定作者code、解释其真实systematics或重拟实验。Formal14 21/24和completed14/partial15保持，新claims needs_review，旧review事件不扩展。
+
+## 经典方向权重与量子迹：四阶修正从何而来
+
+本节限轴对称q0权重，是本任务L2独立推导，使用[[lauritsen-2025-gamma-angular-formalism-tracking-arrays]] L25-29的Eq42与Eq14、[[yamazaki-1967-aligned-angular-coefficients]] YA67-13的statisticaltensor/参考定义。Ref39书中对应段未取得，下面的物理图像不归给该书或作者代码。仍为DAY14内Day15无信用预习。
+
+### 经典投影的Legendre形式
+
+声明一个长度sqrt(S)的经典向量模型，S=J(J+1)，轴投影z=m/sqrt(S)。由P2(z)=(3z²−1)/2、P4(z)=(35z4−30z²+3)/8，
+
+`q2=P2(z)/P2(0)=1−3m²/S`，
+
+`q4=P4(z)/P4(0)=1−10m²/S+35m4/(3S²)`。
+
+这正好是前节审计的字面多项式。经典各向同性方向使z在[-1,1]连续均匀，故偶矩`mu_2r_classical=S^r/(2r+1)`、q2/q4平均0。这里声明的方向模型只解释权重形式；实际量子布居仍由密度矩阵/离散p_m及其张量定义。
+
+### 量子迹矩独立重建四阶权重
+
+无取向spin-J态在m=−J,…,+J等占据。令mu_n=Tr(Jz^n)/(2J+1)，直接有限和给
+
+`mu2=S/3`，`mu4=S(3S−1)/15`，
+
+`mu6=S(3S²−3S+1)/21`，`mu8=S(5S³−10S²+9S−3)/45`。
+
+代码令N=2J、m=k−N/2，用Faulhaber/Bernoulli的多项式恒等式核对2/4/6/8阶迹，覆盖所有非负整数N，而非只抽查若干spin。八阶矩在此只用于四次权重的范数控制。
+
+寻找monic四次式`f4=m4−a m²+b`，要求它在量子迹内积下与1、m²正交：
+
+`mu4−a mu2+b=0`，`mu6−a mu4+b mu2=0`。
+
+在低阶Gram矩阵非退化处，`a=(mu6−mu4 mu2)/(mu4−mu2²)`、`b=a mu2−mu4`。代入两种测度分别得：
+
+| 使用的内积/测度 | a | b |
+| --- | --- | --- |
+| 量子离散迹 | (6S−5)/7 | 3S(S−2)/35 |
+| 经典连续投影 | 6S/7 | 3S²/35 |
+
+因此35f4的量子形式为`35m4−(30S−25)m²+3S²−6S`；连续形式为`35m4−30Sm²+3S²`。有限量子迹给出具体的`+25m²−6S`修正。前节独立CG核验已确定量子式经适当mref归一后对应exact rank4；本节从低rank正交与迹矩重新得到它。
+
+### 低spin退化与large-J联系
+
+低阶Gram行列式为`mu4−mu2²=S(4S−3)/45`。进一步计算量子monic quartic的平方迹范数得
+
+`<f4²>=4S(S−2)(4S−3)(4S−15)/11025`。
+
+J=0、1/2、1、3/2时该范数为0，四次式不提供独立rank4，不能作参考归一除法；J≥2的允许spin使各因子为正。经典范数为`64S4/11025`，也正是量子范数的最高次项。这里的范数是迹内积，不是观测variance或χ²。
+
+量子投影的二阶矩与经典值相同，但`<z4>_quantum=1/5−1/(15S)`，所以把经典q4字面式用于离散uniform布居会留下`−7/(9S)`。这解释了前节的finite-J残差和large-J联系；并不认证作者实际近似、原书论证或真实核态方向分布。半整数mref=.5也需回到量子参考，不能默当经典z0参考。
+
+### 复算与认识决定
+
+[22项符号核验](../../system/scripts/day14_classical_quantum_moments.py)、[固定输入](../../outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/classical-quantum-moment-input.json)和[结果](../../outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/classical-quantum-moment-audit.json)保存精确有理系数、对任意N的迹恒等、两套正交条件和Gram范数分解。它们解释原式的形式与适用边界，未拟合任何核的数据。
+
+Decision: **supports** 从内积/测度与极限理解公式、用正交化构建正确rank；**limits** 由公式外形猜作者实现或把经典方向模型当实际量子态重建。Ref39对应段/actualcode和实验响应/协方差仍缺。正式Day14 21/24、completed14/partial15与旧review保持，不新增课程信用或实验结果。

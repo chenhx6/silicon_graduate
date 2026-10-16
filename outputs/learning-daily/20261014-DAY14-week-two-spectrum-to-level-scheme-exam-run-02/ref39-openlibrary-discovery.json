@@ -1,0 +1,11 @@
+{
+  "url": "https://openlibrary.org/search.json",
+  "params": {
+    "title": "In-beam gamma-ray spectroscopy",
+    "author": "Morinaga",
+    "limit": 3
+  },
+  "at": "2026-10-16T10:25:03.614650+08:00",
+  "use": "identity/access discovery only; no body evidence",
+  "error": "ConnectionError"
+}

@@ -73,6 +73,10 @@ Matev2007局部算符/表检验完成后，选择Riley2001公开作者实验报�
 
 036发布后09:56上海再核恰好Day15卡，研究距15:00仍约304分钟。actualresponse/code等缺口不原样重试；选择已核L25 Eq13/14的uniform/reference/large-J与sigma参数一致性，预期信息增益是防止把近似权重或同名参数直接迁移。[问题前primed记录](20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/day15-alignment-formula-before-analysis.md)与[量化前预测](20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/alignment-formula-before-calculation.md)已冻结，仍Day15无学分，不开Day16。
 
+### 第038批：原书入口与权重的物理图像
+
+037发布后10:19上海重建池并核Day15卡，研究距离15:00仍约281分钟。连续性槽选择Ref39原近似说明；novelty不凑新书/核素。[来源前记录](20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/day15-reference39-before-discovery.md)冻结后才查外部目录，未将metadata当正文。选定路线未取到书段后，转为[量化前冻结](20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/classical-quantum-moments-before-derivation.md)的经典方向—量子迹解释，补“为何有这些有限J修正”的理解，不重复逐spin数字表。仍Day14/partial15，无Day16。
+
 ## Sources and evidence
 
 | 来源 / 身份 | 本轮实际覆盖与locator | 证据分层与独立性 |
@@ -177,6 +181,12 @@ Krane1972 DOI[10.1016/0029-554X(72)90099-7](https://doi.org/10.1016/0029-554X(72
 L25 publisher PDF6/HTML的Eq13确为2σ分母，Eq14是S=J(J+1)下的二/四阶多项式；Ref39为Morinaga/Yamazaki1976专著，本轮raw文件名检索无match且未读对应书段，不把1967表或本任务推断当成该书原话（L25-24）。
 
 [[yamazaki-1967-aligned-angular-coefficients]] p1 Eq1/p2 Eqs6/10/11定义exact tensor、integer/half参考与明确2σ²的Gaussian；本轮hash复核、p2视觉核，新增YA67-13为true，旧12行和review不变。两种字面参数必须先映射；书中近似上下文/作者代码尚未得到。[原字面与Ref39](20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/lauritsen2025-alignment-literal-037.json)与[YA身份核验](20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/yamazaki-definition-verification-037.json)可核。无新采集或实验重复计权。
+
+### 第038批：Ref39未得正文与Eq42输入
+
+Crossref宽查询含NBS报告/会议文及Gelletly1977同题期刊条目，都不是Morinaga/Yamazaki1976原书；精确book/author过滤返回0。GoogleBooks和OpenLibrary各ConnectionError，ScienceDirect题名检索HTTP403，protected Bib无对应entry。所有请求均实际终态，不重启相同请求、不猜书ISBN/DOI或绕过验证。[访问边界](20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/ref39-access-boundary-038.json)及逐服务receipts保留；这只说明本轮选定路线未取得原书，不证明全球不存在/无机构权限。
+
+转用已得L25 publisher PDF19 AppendixA1 Eq42/HTML Equ42的直接Legendre定义，结合YA67-13的量子张量/参考。新L25-29明确经典投影形式是本任务独立解释，不归给未读Ref39或作者code。无新书source/no metadata-only空页，无新采集或实验重复计权。
 
 ## Theory/analysis exercise
 
@@ -457,6 +467,14 @@ Eq19字面theta在Eq18后缺lab标记（PDF/HTML一致）。若把它当lab可�
 
 对整数J证明逐m差的统一界35/[3(S−2)]，q4与large-J主项相容；uniform残差小不保证任意布居/实际σ或δ误差小。另以明确chosen sigma/J=.3比较width与literalvariance合同，J23的exact(a2,a4)为(.743365,.393630)对(.962500,.880223)，J13/2为(.778940,.444096)对(.893751,.684153)。仅variance=width²时同布居；这不是152Dy/67Ga实测alpha、Fig8重拟合或CI。
 
+### 第038批：22项符号矩与正交化推导
+
+[[angular-distribution]]“经典方向权重与量子迹：四阶修正从何而来”保存完整推导。[代码](../../system/scripts/day14_classical_quantum_moments.py)、[输入](20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/classical-quantum-moment-input.json)与[22-check审计](20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/classical-quantum-moment-audit.json)使用有理多项式，不拟合实验。
+
+声明经典向量长度sqrt(S)、z=m/sqrt(S)，字面q2/q4等于P2(z)/P2(0)、P4(z)/P4(0)。连续各向同性投影给mu_2r=S^r/(2r+1)；量子离散迹由N=2J的Faulhaber恒等得mu2/4/6/8。令f4=m4−a m²+b，对1/m²正交：量子a=(6S−5)/7、b=3S(S−2)/35；连续a=6S/7、b=3S²/35。乘35后正好给T4的+25m²−6S有限量子修正。
+
+量子monic quartic平方迹范数为4S(S−2)(4S−3)(4S−15)/11025；J<2允许spin给零范数，不能作rank4归一。经典范数64S4/11025是其最高次项。该范数是迹内积，不是实验variance/χ²。所有关系为符号恒等式，覆盖所有整数N，不是多次换spin抽样；仅解释数学形式，未认证book/actualcode近似。
+
 ## Counter-evidence and missing companion observables
 
 HE15-9的实际未定双线是核心反例：energy sum、共享R/A和假设的ΔI=2均不足以裁决order。若一条线出现可独立定位的旁路或延迟顺序，应重审中间level；source仍保留括号Jπ与(E2)。HE15-5的quadruplet限制“一个峰是一条γ”的简化；干净622.4直接分支门与323.4级联门的299-keVcomponent差异可能迫使拆峰，但必须控制622/626门纯度、feeding、response和random。
@@ -546,6 +564,10 @@ isotropicreference对各chosencone均只有Q0=1，所以相同scalar效率/归�
 若按exact normalized tensor解释，uniform的k>0期望应0、reference应匹配m0或abs(m).5、pureU应作用在同rank。字面q4的uniform剩余和正feeding反例是三个必要检查的实际数学反证，不代表作者未公开implementation必然使用字面式。Large-J近似的误差须按真实population/辐射因子/响应/likelihood评估，不能用一个小uniform残差认证实际分析。
 
 Ref39原书对应段、code参数定义/约定与actualpopulation/data仍缺；新YA/L25比较不能作为Zobel table重新赋义、sourceσ移植或解释真实GRETINA systematics的依据。原PDF/HTML与旧review状态均保留。
+
+### 第038批：形式匹配不等于作者采用
+
+同题期刊条目或索引无结果都不提供原书近似声明；目录网络失败也不是科学反证。独立证明q4有经典Legendre形式仍不能推断1976书/2025代码实现，不能据它修订实验σ/δ或还原实际角动量方向。量子/经典测度的四阶矩不同与低spin零范数给明确适用边界。Ref39原段、implementation和actualresponse/Cov仍缺，继续优先能改变理解或原Day14证据判断的路线。
 
 ## Knowledge Impact and Learning Decision
 
@@ -638,6 +660,10 @@ Decision: **revises** article81/版本混读和“源谱相除=完整响应”�
 ### 第037批后的认识决定
 
 Decision: **revises** “打印多项式必为exact tensor、同sigma/J必为同prior”的快捷读法；**supports** uniform/参考/absentrank/large-J极限及换基后再传播；**limits** 数学自审直接升级为作者code错误/官方erratum或实验σ/δ修订。没有改变正式21/24、completed14/partial15、课程state或核结构模式排序。
+
+### 第038批后的认识决定
+
+Decision: **supports** 用投影测度、离散迹和低rank正交理解finite-J修正，**limits** 公式形状/同题metadata作为作者原论证或代码证据。没有把推导变成实验结果/shape证据，也未给Day15信用。正式21/24、completed14/partial15、官方课程state和原review保持。
 
 ## Durable knowledge delta
 
@@ -3721,6 +3747,36 @@ Decision: **revises** “打印多项式必为exact tensor、同sigma/J必为同
           "locator": "YA67-13"
         }
       ]
+    },
+    {
+      "knowledge": "knowledge/sources/lauritsen-2025-gamma-angular-formalism-tracking-arrays.md",
+      "summary": "记录Ref39精确检索/未得对应书段边界及Eq42输入下的独立经典投影解释，旧review不扩展。",
+      "anchor": "Ref39检索与经典权重的解释边界",
+      "sources": [
+        {
+          "path": "knowledge/sources/lauritsen-2025-gamma-angular-formalism-tracking-arrays.md",
+          "locator": "L25-24"
+        },
+        {
+          "path": "knowledge/sources/lauritsen-2025-gamma-angular-formalism-tracking-arrays.md",
+          "locator": "L25-29"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/methods/angular-distribution.md",
+      "summary": "由连续投影/量子离散迹和正交方程独立重建T4修正及低spin零范数，22项符号恒等证明，不归给未读原书或作者code。",
+      "anchor": "经典方向权重与量子迹：四阶修正从何而来",
+      "sources": [
+        {
+          "path": "knowledge/sources/lauritsen-2025-gamma-angular-formalism-tracking-arrays.md",
+          "locator": "L25-29"
+        },
+        {
+          "path": "knowledge/sources/yamazaki-1967-aligned-angular-coefficients.md",
+          "locator": "YA67-13"
+        }
+      ]
     }
   ]
 }
@@ -3867,6 +3923,8 @@ Danko99primary合法OA/publicPDF/官方API/repo均未提供正文（403HTML/401J
 
 第037批在`knowledge/sources/lauritsen-2025-gamma-angular-formalism-tracking-arrays.md`新增L25-24–28与“DAY14 finite-J attenuation与Gaussian参数合同”，在`knowledge/sources/yamazaki-1967-aligned-angular-coefficients.md`新增YA67-13及精确Gaussian字面/参考定位；在`knowledge/methods/angular-distribution.md`保存“Finite-J张量权重与Gaussian参数：先做极限再转移”的换基式、large-J界、正feeding和Gaussian合同例。所有数值区分作者字面/一般定义/本任务推导，原raw/人审/旧flags不改。
 
+第038批在`knowledge/sources/lauritsen-2025-gamma-angular-formalism-tracking-arrays.md`新增L25-29与“Ref39检索与经典权重的解释边界”（publisher PDF19 Eq42/PDF6 Eq14）；在`knowledge/methods/angular-distribution.md`新增“经典方向权重与量子迹：四阶修正从何而来”，保存经典/量子mu矩、Gram正交系数、范数分解及book访问/作者归因边界。新知已在canonical，不以outputs目录作唯一知识副本。
+
 ## Open questions and belief revision
 
 1. 哪个旁路、time/tag或独立spin anchor能裁决393/394的顺序？重复同一能量和不能裁决。
@@ -3884,6 +3942,8 @@ Danko99primary合法OA/publicPDF/官方API/repo均未提供正文（403HTML/401J
 
 第037批下一证据缺口是Ref39书中对应近似声明、作者实际Gaussian参数/完整angular代码，以及这些定义如何进入实际response/fit。已经证明的finite-J恒等与参数映射保存在canonical，不以未得代码推定实际错误；后续路线仍在当前问题/恰好Day15预习内。
 
+第038批仍需Ref39对应原文或actualcode才能核对作者近似的归因；本轮停止扩展相同访问失败路线。当前finite-J物理图像已得到解释，下一候选优先回到原Day14从谱到纲图的真实证据迁移/延迟回忆，避免继续用同一公式换数字填窗口。
+
 ## L0–L4 state
 
 最新moment放宽与图仍为L2 source-conditioned分析；fullbranch/转换/response/Cov不全，真实167Tm experimental refit仍not-ready，不以高精度计算冒充L4或新实测分支。
@@ -3900,6 +3960,8 @@ Danko99primary合法OA/publicPDF/官方API/repo均未提供正文（403HTML/401J
 第036批为L1直接版本/response段核查与L2 source-to-beam合同。Published24页只核相关段，旧25页raw全读记录不混用；29checks为声明运动学/一阶统计，不是experimentalL4。正式14成绩和Day15无学分状态保持。
 
 第037批为L1字面/原定义核验与L2数学一致性审计，58checks不等于experimentalL4或新的σ/δ。三页canonical旧review/flags保持，Formal14与Day15无信用状态不变。
+
+第038批是L1访问/直接多项式输入核查与L2符号推导；原书未读、未新建booksource、无experimentalL4。数学Gram范数与实验误差分开，正式卡和Day15信用状态不变。
 
 ## Verification and continuation
 
@@ -4173,3 +4235,11 @@ Farmer于09:51上海核watcher42019/currentthreadrunning，未新session/goal或
 58项finite-J/CG/换基/极限/正feeding/参数合同检查实际exit0；report/card/writeback valid，唯一block127items/40changedknowledge页。L25旧23行/YA旧12行与flags逐行保持，新24–28/13 true、人审不扩展；rawmetadata/PLAN/Bib/source/helper/input/literal哈希、AST与state14/count13均通过。`wiki_lint.py --fail-on error`实际exit0，0errors/141warnings（112citekeys/26rawslots/3reactionparser），`git diff --check`、boundary/preflight exit0。EOLexit1只保留3页本批substantive，0restore/unsafe。
 
 Farmer42019于10:13上海核running/currentthreadrunning，未新session/goal或重启daily scheduler。Stablepointer main / `Audit DAY14 finite-spin alignment and Gaussian parameter contracts`；actualH3/hash/push只publication-037.json。仍active，研究2026-10-16 15:00止、16:00交付；下一先clock/重建池，继续高信息current或恰好Day15无信用路线，本批局部完成不结束窗口。原raw/PLAN/Bib/旧review与继承dirty保持，显式manifest/H3非force发布。
+
+### 第038批验收与续接
+
+22项符号恒等/sourcehash/trace/Gram/归因边界检查实际exit0；report/card/writeback valid，唯一block129items/40changedknowledge页。L25旧28行/flags/人审保持、新29true，rawmetadata/PLAN/Bib/source/input/literal哈希、AST及state14/count13均通过。`wiki_lint.py --fail-on error`实际exit0，0errors/141warnings（112citekeys/26rawslots/3reactionparser）；`git diff --check`、boundary/preflight exit0。EOLexit1仅保留本批2页substantive，0restore/unsafe。
+
+Farmer42019于10:39上海核running/currentthreadrunning，未新session/goal或重启daily scheduler。Stablepointer main / `Explain DAY14 classical and quantum alignment weights`，actualH3/hash/push只publication-038.json。原书对应段仍未读，未赋同题期刊条目未经核实的genre或内容；所有discovery handle均实际终态。
+
+当前仍active，研究2026-10-16 15:00止、16:00交付；下一actualclock/候选池后优先原Day14真实纲图证据的迁移/延迟回忆，Ding127/128I为既定另anchor候选，先primed回忆/重叠和真实图表定位。既有129项是累计本run写回，不作为预习信用或新独立实验数量。Preserve inherited/raw/PLAN/Bib/review，显式manifest/H3非force发布。

@@ -1,0 +1,12 @@
+{
+  "url": "https://www.sciencedirect.com/search",
+  "params": {
+    "qs": "\"In-Beam Gamma-Ray Spectroscopy\" Morinaga"
+  },
+  "at": "2026-10-16T10:27:20.328731+08:00",
+  "purpose": "exacttitle publisher discovery only, not body evidence",
+  "status": 403,
+  "final_url": "https://www.sciencedirect.com/search?qs=%22In-Beam+Gamma-Ray+Spectroscopy%22+Morinaga",
+  "content_type": "text/html; charset=UTF-8",
+  "bytes": 832805
+}

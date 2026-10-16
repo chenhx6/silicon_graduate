@@ -1,0 +1,14 @@
+{
+  "url": "https://api.crossref.org/works",
+  "params": {
+    "query.title": "In-Beam Gamma-Ray Spectroscopy",
+    "query.author": "Morinaga",
+    "filter": "type:book",
+    "rows": 3
+  },
+  "at": "2026-10-16T10:25:03.614205+08:00",
+  "use": "identity/access discovery only; no body evidence",
+  "status": 200,
+  "content_type": "application/json",
+  "items": []
+}

@@ -1,0 +1,10 @@
+{
+  "url": "https://www.googleapis.com/books/v1/volumes",
+  "params": {
+    "q": "intitle:\"In-Beam Gamma-Ray Spectroscopy\" inauthor:Morinaga",
+    "maxResults": 4
+  },
+  "at": "2026-10-16T10:21:43.922200+08:00",
+  "use": "identity/access discovery only; not scientific evidence",
+  "error": "ConnectionError"
+}

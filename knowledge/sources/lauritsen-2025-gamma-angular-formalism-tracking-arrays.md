@@ -84,6 +84,7 @@ For the current project, the most important section is Sec.3.1: the angular-dist
 | L25-26 | 字面第四阶可写A*a4+B*a2−7/(9S)，a是相同mref归一的exact权重。它在finiteJ含低rank分量，未换基不能直接照pure-U4传播；自选2→2未观测E2的uniform例给原/child均−7/54，而pureU4乘法给−1/27。 | our-basis-and-feeding-consistency-control | derived | publisher PDF6 Eqs14–16; YA67 PDF3 Eqs12–15 | true |
 | L25-27 | 对整数J，本任务证明字面与exact第四阶逐m差为35m²(2m²−S)/[3S²(S−2)]，绝对值≤35/[3(S−2)]，故可视为large-J主项而非exact finite-J恒等式。该数学极限不证明实际σ/δ偏差可忽略或作者明确作此近似。 | our-large-J-scope-boundary | derived | publisher PDF6 Eq14; YA67 PDF1 Eq1 | true |
 | L25-28 | Gaussian width合同W用exp[−m²/(2s²)]，literal variance合同V用exp[−m²/(2v)]，仅v=s²时同布居。两者同标sigma/J=.3的示例会不同；J23时literal v/J=.3等效width/J≈.114208，不是.3。未重拟Fig8/恢复actualσ；旧flags/humanreview不扩展。 | our-parameter-contract-not-fit | derived | publisher PDF6 Eq13 and text sigma/J; YA67 PDF2 Eq11 | true |
+| L25-29 | AppendixA1 Eq42给出P2/P4；本任务令z=m/sqrt(S)后，Eq14的q2/q4恰等于P2(z)/P2(0)、P4(z)/P4(0)。这支持一种经典投影的独立解释；有限量子迹与连续各向同性投影的矩不同，不能据形式匹配归给未读Ref39或作者actualcode。 | our-analytical-reconstruction-with-direct-polynomial-input | direct-and-derived | publisher PDF19 AppendixA1 Eq42; publisher PDF6 Eq14 | true |
 
 ## Nuclear Structure Information
 
@@ -136,3 +137,11 @@ Agent self-audit：metadata81→76已由直接publisher与Crossref/Bib处置；�
 58-check独立CG finite-sum与多项式逐m比较：Eq14字面第四阶在uniform布居下不是0，并可精确分解为rank4/rank2/constant；半整数mref=.5的归一也需显式处理。证明整数J下与精确权重的差有O(1/S)一致界，所以“与large-J主项相容”和“finite-J exact tensor”须分开。不能未换基就把字面组合当pureU4作用的张量。
 
 [[angular-distribution]]“Finite-J张量权重与Gaussian参数：先做极限再转移”保存公式、source/J23/13/2的条件数值、uniform与feeding反例。相同sigma/J数值在width/variance合同下不同，但没有原code/Ref39近似说明时，不倒推作者实际用了哪个合同、补σ/δ、解释原Fig8systematics或更改Zobel表列。L25-24–28 true，旧1–23原文/flags和legacyhumanreview保持；属于L2公式自审，非officialerratum或experimental refit。Decision: **limits** 直接抄式为精确finite-J定义；**supports** 定义/参考/参数重映射和极限检查。
+
+## Ref39检索与经典权重的解释边界
+
+2026-10-16本轮沿[本刊Ref39](https://link.springer.com/article/10.1140/epja/s10050-025-01533-5#ref-CR39)精确题名/作者检索：Crossref宽查询含无关报告/会议文及Gelletly1977同题期刊条目，均不能当作1976原书；book类型/作者过滤无结果，GoogleBooks/OpenLibrary连接失败，ScienceDirect题名检索HTTP403。原raw文件名/只读Bib亦未命中。只是这些选定路线未取得书中对应段，不证明原书全球不可得/无机构权限；未猜ISBN/书DOI、未绕过验证、未新建metadata-only booksource。
+
+可执行路线转为明确的L2独立解释。视觉/文本同号的publisher PDF19 Eq42提供Legendre输入；用经典固定长度sqrt(S)投影z，字面q2/q4与P2/P4参考归一形式相同。另以量子m离散等占据的迹矩正交化四次式，得到精确T4的+25m²−6S修正。[[angular-distribution]]“经典方向权重与量子迹：四阶修正从何而来”保存推导及22项符号恒等核验；这不是声称Ref39/作者程序采用了本推导，也不恢复实验σ/δ或真实三维角动量分布。
+
+新L25-29 true，旧1–28和legacy人审保持。Decision: **supports** 用连续/离散测度解释公式形状并从定义重建低rank正交；**limits** 同题metadata、搜索片段或公式相像充当原书/actualcode证据。原书对应近似声明仍待直接原文，网络边界没有结束整个DAY14窗口。

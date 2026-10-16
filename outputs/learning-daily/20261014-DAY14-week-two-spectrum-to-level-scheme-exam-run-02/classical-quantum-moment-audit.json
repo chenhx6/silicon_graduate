@@ -1,0 +1,164 @@
+{
+  "kind": "our symbolic classical-vector versus quantum trace-moment interpretation",
+  "checks": {
+    "publisher_source_hash": true,
+    "classical_P2_reference_identity": true,
+    "classical_P4_reference_identity": true,
+    "continuous_isotropic_normalized_P2_P4_zero": true,
+    "trace_power_2_Faulhaber_all_integer_N": true,
+    "trace_power_4_Faulhaber_all_integer_N": true,
+    "trace_power_6_Faulhaber_all_integer_N": true,
+    "trace_power_8_Faulhaber_all_integer_N": true,
+    "quantum_quartic_orthogonal_to_one": true,
+    "quantum_quartic_orthogonal_to_m_squared": true,
+    "classical_quartic_orthogonal_to_one": true,
+    "classical_quartic_orthogonal_to_m_squared": true,
+    "quantum_T4_correction_m_squared_coefficient": true,
+    "quantum_T4_correction_constant": true,
+    "lower_moment_Gram_determinant": true,
+    "quantum_quartic_norm_factorization": true,
+    "absent_rank_4_trace_norm_zero": true,
+    "rank_4_exists_at_J2": true,
+    "classical_quartic_norm": true,
+    "quantum_norm_leading_classical_limit": true,
+    "printed_q4_uniform_residual_from_trace_moments": true,
+    "no_book_author_or_experimental_attribution": true
+  },
+  "check_count": 22,
+  "passed": true,
+  "inputs": {
+    "kind": "own symbolic classical versus quantum moment derivation; no book or authorcode attribution",
+    "publisher_pdf": {
+      "path": "tmp/day14-20261014/lauritsen2025/publisher-pdf.pdf",
+      "sha256": "0d89c27c0a354b1b215f8a9196142f76bd873fe9335d64ca6318f0f303422099"
+    },
+    "source_legendre_coefficients": {
+      "2": [
+        "-1/2",
+        "0",
+        "3/2"
+      ],
+      "4": [
+        "3/8",
+        "0",
+        "-15/4",
+        "0",
+        "35/8"
+      ]
+    },
+    "literal_record": "lauritsen2025-legendre-literal-038.json",
+    "source_definition_reference": "YA67-13: alpha=p/B and completealignment reference",
+    "Ref39_body_read": false,
+    "author_attribution_verified": false,
+    "actual_sigma_delta_fit": null
+  },
+  "coefficient_order": "ascending powers of S, except normalized Legendre arrays use z",
+  "quantum_trace_moments": {
+    "2": [
+      "0",
+      "1/3"
+    ],
+    "4": [
+      "0",
+      "-1/15",
+      "1/5"
+    ],
+    "6": [
+      "0",
+      "1/21",
+      "-1/7",
+      "1/7"
+    ],
+    "8": [
+      "0",
+      "-1/15",
+      "1/5",
+      "-2/9",
+      "1/9"
+    ]
+  },
+  "classical_projection_moments": {
+    "2": [
+      "0",
+      "1/3"
+    ],
+    "4": [
+      "0",
+      "0",
+      "1/5"
+    ],
+    "6": [
+      "0",
+      "0",
+      "0",
+      "1/7"
+    ],
+    "8": [
+      "0",
+      "0",
+      "0",
+      "0",
+      "1/9"
+    ]
+  },
+  "normalized_Legendre": {
+    "2": [
+      "1",
+      "0",
+      "-3"
+    ],
+    "4": [
+      "1",
+      "0",
+      "-10",
+      "0",
+      "35/3"
+    ]
+  },
+  "quantum_quartic_a": [
+    "-5/7",
+    "6/7"
+  ],
+  "quantum_quartic_b": [
+    "0",
+    "-6/35",
+    "3/35"
+  ],
+  "classical_quartic_a": [
+    "0",
+    "6/7"
+  ],
+  "classical_quartic_b": [
+    "0",
+    "0",
+    "3/35"
+  ],
+  "lower_Gram_determinant": [
+    "0",
+    "-1/15",
+    "4/45"
+  ],
+  "quantum_monic_quartic_norm": [
+    "0",
+    "-8/245",
+    "12/175",
+    "-416/11025",
+    "64/11025"
+  ],
+  "classical_monic_quartic_norm": [
+    "0",
+    "0",
+    "0",
+    "0",
+    "64/11025"
+  ],
+  "rank4_norm_factorization": "4*S*(S-2)*(4*S-3)*(4*S-15)/11025",
+  "input_sha256": "99eb8214464c7ea68fe4ca0c4d834828971004bfd3ce6561e9ca8ae31a31d6df",
+  "literal_sha256": "362ba68be7fdf2223b9c15b52f64eabf5df37f1827e50c193ebaae1c06ce5379",
+  "limitations": [
+    "exact algebra interprets formula shape; does not attribute an argument to the unread textbook",
+    "continuum orientation model and quantum magnetic-substate trace are distinct measures",
+    "no author code, experimental populations, sigma/delta fit or confidence interval",
+    "low-spin zero norm is a rank boundary, not a usable normalization"
+  ]
+}

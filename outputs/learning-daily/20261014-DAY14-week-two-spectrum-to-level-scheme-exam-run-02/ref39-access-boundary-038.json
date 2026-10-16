@@ -1,0 +1,17 @@
+{
+  "at": "2026-10-16T10:32:55.521182+08:00",
+  "Ref39_identity_source": "L25 publisher References39, Morinaga/Yamazaki1976",
+  "raw_filename_lookup_match": false,
+  "protected_bib_lookup_match": false,
+  "broad_crossref_matches_book": false,
+  "broad_rejected": "NBS report and unrelated conference papers; Gelletly1977 is a same-title journal-article record, not the Morinaga/Yamazaki1976 book",
+  "exact_crossref_book_filter_items": 0,
+  "GoogleBooks": "ConnectionError",
+  "OpenLibrary": "ConnectionError",
+  "publisher_title_search_status": 403,
+  "body_obtained": false,
+  "no_ISBN_or_book_DOI_invented": true,
+  "scope": "selected routes only; no global absence or entitlement claim",
+  "all_discovery_handles_terminal": true,
+  "genre_inference_removed": "Crossref only confirms journal-article type; review-body content was not read, so no review-genre/body claim retained"
+}

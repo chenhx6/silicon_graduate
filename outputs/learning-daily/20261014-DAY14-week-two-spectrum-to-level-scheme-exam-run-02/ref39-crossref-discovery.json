@@ -1,0 +1,181 @@
+{
+  "url": "https://api.crossref.org/works",
+  "params": {
+    "query.bibliographic": "Morinaga Yamazaki In-Beam Gamma-Ray Spectroscopy 1976",
+    "rows": 4
+  },
+  "at": "2026-10-16T10:21:43.921903+08:00",
+  "use": "identity/access discovery only; not scientific evidence",
+  "status": 200,
+  "content_type": "application/json",
+  "items": [
+    {
+      "title": [
+        "Exposure spectra from NBS vertical-beam ⁶⁰Co gamma-ray source"
+      ],
+      "author": [
+        {
+          "given": "Margarete",
+          "family": "Ehrlich",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Christopher G",
+          "family": "Soares",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "type": "report",
+      "published": {
+        "date-parts": [
+          [
+            1976
+          ]
+        ]
+      },
+      "publisher": "National Bureau of Standards",
+      "ISBN": null,
+      "DOI": "10.6028/nbs.ir.76-1117",
+      "URL": "https://doi.org/10.6028/nbs.ir.76-1117",
+      "link": null,
+      "resource": {
+        "primary": {
+          "URL": "https://nvlpubs.nist.gov/nistpubs/Legacy/IR/nbsir76-1117.pdf"
+        }
+      }
+    },
+    {
+      "title": [
+        "In-beam gamma-ray spectroscopy at the RIBF"
+      ],
+      "author": [
+        {
+          "given": "Pieter",
+          "family": "Doornenbal",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "type": "proceedings-article",
+      "published": {
+        "date-parts": [
+          [
+            2015
+          ]
+        ]
+      },
+      "publisher": "AIP Publishing LLC",
+      "ISBN": null,
+      "DOI": "10.1063/1.4932245",
+      "URL": "https://doi.org/10.1063/1.4932245",
+      "link": null,
+      "resource": {
+        "primary": {
+          "URL": "https://pubs.aip.org/aip/acp/article/777008"
+        }
+      }
+    },
+    {
+      "title": [
+        "In-Beam Gamma-Ray Spectroscopy Of Target Fragmentation"
+      ],
+      "author": [
+        {
+          "given": "E.",
+          "family": "Rodriguez-Vieitez",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "type": "proceedings-article",
+      "published": {
+        "date-parts": [
+          [
+            2005
+          ]
+        ]
+      },
+      "publisher": "AIP",
+      "ISBN": null,
+      "DOI": "10.1063/1.1905309",
+      "URL": "https://doi.org/10.1063/1.1905309",
+      "link": null,
+      "resource": {
+        "primary": {
+          "URL": "https://pubs.aip.org/aip/acp/article/764/1/181-186/955172"
+        }
+      }
+    },
+    {
+      "title": [
+        "In-Beam Gamma-Ray Spectroscopy"
+      ],
+      "author": [
+        {
+          "given": "W",
+          "family": "Gelletly",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "type": "journal-article",
+      "published": {
+        "date-parts": [
+          [
+            1977,
+            12
+          ]
+        ]
+      },
+      "publisher": "IOP Publishing",
+      "ISBN": null,
+      "DOI": "10.1088/0031-9112/28/12/035",
+      "URL": "https://doi.org/10.1088/0031-9112/28/12/035",
+      "link": [
+        {
+          "URL": "http://stacks.iop.org/0031-9112/28/i=12/a=035/pdf",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "resource": {
+        "primary": {
+          "URL": "https://iopscience.iop.org/article/10.1088/0031-9112/28/12/035"
+        }
+      }
+    }
+  ]
+}
