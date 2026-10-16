@@ -1,0 +1,57 @@
+{
+  "data_identity": "DAY16-PREVIEW-MS74-PRIMARY-CONTROLS-01",
+  "kind": "Original-theory tables and author hypothetical worked example; not independent experiments or raw counts",
+  "priming": "Expected SE21J23/2 numbers were computed before this lookup; this is original-table confirmation, not blind prediction",
+  "sources": [
+    {
+      "page": "knowledge/sources/der-mateosian-sunyar-1974-attenuation-coefficients.md",
+      "doi": "10.1016/0092-640X(74)90007-2",
+      "raw_sha256": "d31d778674037b17ec2e47f3e9a2d917e46bf273b6cc6e01c607e3eccb843e90"
+    },
+    {
+      "page": "knowledge/sources/der-mateosian-sunyar-1974-angular-coefficients.md",
+      "doi": "10.1016/0092-640X(74)90008-4",
+      "raw_sha256": "90b23807ddc39006a7c17cc05d8dc030139c39802675823c6560f222486d6eeb"
+    }
+  ],
+  "half_spin_row": {
+    "J_twice": 23,
+    "sigma_over_J": "0.2",
+    "alpha2_printed": "0.894266",
+    "alpha4_printed": "0.689096",
+    "half_printed_last_digit": "0.0000005",
+    "locator": "attenuation printed400/PDF10 TableII J23/2 .2"
+  },
+  "complete_reference": {
+    "Ji_twice": 23,
+    "Jf_twice": 19,
+    "multipole": "pureE2",
+    "A2max_printed": "0.40373",
+    "A4max_printed": "-0.16149",
+    "half_printed_last_digit": "0.000005",
+    "locator": "attenuation printed405/PDF15 AppendixB JI23/2 JF19/2, B2F2(22)/B4F4"
+  },
+  "author_worked": {
+    "Ji": 6,
+    "Jf": 5,
+    "sigma_over_J": "0.4",
+    "delta_magnitude_printed": "0.5",
+    "negative_column_used_explicitly": true,
+    "A2max_negative": "-1.09423",
+    "A4max": "0.12468",
+    "alpha2": "0.61070",
+    "alpha4": "0.22547",
+    "A2_attenuated": "-0.66825",
+    "A4_attenuated": "0.02811",
+    "half_printed_last_digit": "0.000005",
+    "locator": "angular printed409–410/PDF3–4, example andTable/Fig2",
+    "identity": "author hypothetical D/Q example, not measured 135Pr"
+  },
+  "interpretation_boundaries": [
+    "SameYamazakitheory lineage; papers not independent empirical evidence",
+    "No actualSE21 calibration operation/geometry/Cov recovered",
+    "sigma half-width wording governed by exp(-m²/(2sigma²)); not HWHM by name",
+    "No E2/M3 mixture response or half-integer mixed kernel executed here",
+    "No formalDay16credit or physicalmodeverdict"
+  ]
+}

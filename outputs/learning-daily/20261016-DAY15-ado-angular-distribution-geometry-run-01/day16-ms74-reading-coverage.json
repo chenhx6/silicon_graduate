@@ -1,0 +1,26 @@
+{
+  "at": "2026-10-17T03:59:56.827196+08:00",
+  "primed_recall": "day16-ms74-before-source-frozen.md",
+  "attenuation": {
+    "source": "knowledge/sources/der-mateosian-sunyar-1974-attenuation-coefficients.md",
+    "actual_body_read": "printed391–394/PDF1–4 complete main line/use/table explanations",
+    "pixel_checked": [
+      "printed400/PDF10 J23/2 .2 row",
+      "printed405/PDF15 AppendixB JI23/2 JF19/2"
+    ],
+    "full16pages_all_values_rechecked": false
+  },
+  "mixed": {
+    "source": "knowledge/sources/der-mateosian-sunyar-1974-angular-coefficients.md",
+    "actual_body_read": "printed407–411/PDF1–5 mainline/example/limitations/tableexplanation",
+    "pixel_checked": [
+      "printed408/PDF2",
+      "printed409/PDF3 Fig1/negativecolumn paragraph",
+      "printed410/PDF4 Fig2/workedtable",
+      "printed412–413/PDF6–7 table layout"
+    ],
+    "full56pages_all_values_rechecked": false
+  },
+  "experimental_independence": "SharedYamazaki derivedtheory, authorworkedexamplehypothetical; no independentdataacquisition",
+  "old_review_flags": "DA1–3/DMS1–4 retained; newclaims true"
+}

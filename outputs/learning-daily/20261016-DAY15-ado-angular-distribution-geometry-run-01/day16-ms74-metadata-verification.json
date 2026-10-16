@@ -1,0 +1,43 @@
+{
+  "persisted_at": "2026-10-17T03:53:19.703606+08:00",
+  "kind": "Crossref bibliographic identity only, not paper body evidence",
+  "papers": [
+    {
+      "title": "Tables of attenuation coefficients for angular distribution of gamma rays from partially aligned nuclei",
+      "authors": [
+        "E. Der Mateosian",
+        "A.W. Sunyar"
+      ],
+      "year": 1974,
+      "doi": "10.1016/0092-640x(74)90007-2",
+      "journal": "Atomic Data and Nuclear Data Tables",
+      "source": "crossref",
+      "abstract": "",
+      "volume": "13",
+      "issue": "4",
+      "pages": "391-406",
+      "publisher": "Elsevier BV",
+      "type": "journal-article",
+      "url": "https://doi.org/10.1016/0092-640x(74)90007-2"
+    },
+    {
+      "title": "Tables of angular-distribution coefficients for gamma rays of mixed multipolarities emitted by aligned nuclei",
+      "authors": [
+        "E. der Mateosian",
+        "A.W. Sunyar"
+      ],
+      "year": 1974,
+      "doi": "10.1016/0092-640x(74)90008-4",
+      "journal": "Atomic Data and Nuclear Data Tables",
+      "source": "crossref",
+      "abstract": "",
+      "volume": "13",
+      "issue": "5",
+      "pages": "407-462",
+      "publisher": "Elsevier BV",
+      "type": "journal-article",
+      "url": "https://doi.org/10.1016/0092-640x(74)90008-4"
+    }
+  ],
+  "issue_boundary": "90007-2 Crossrefissue4 vs rawfooterNo5May1974; sourceDA74-8 retainsconflict"
+}

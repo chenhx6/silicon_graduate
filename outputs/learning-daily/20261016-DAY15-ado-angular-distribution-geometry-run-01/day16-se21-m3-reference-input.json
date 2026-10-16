@@ -1,0 +1,126 @@
+{
+  "data_identity": "DAY16-PREVIEW-SE21-E2-M3-REFERENCE-FORWARD-01",
+  "kind": "Source-reported reference assumptions plus bounded deterministic single-gamma design; no new counts, response or experimental refit",
+  "system": {
+    "Ji_twice": 23,
+    "Jf_twice": 19,
+    "same_parity": true,
+    "E_gamma_keV": "854.3",
+    "components": [
+      {
+        "type": "E",
+        "L": 2
+      },
+      {
+        "type": "M",
+        "L": 3
+      }
+    ],
+    "population": "axisymmetric symmetric diagonal P(M) from SE21 Eq2.51, sigma/J fixed .2",
+    "sigma_over_J": "0.2",
+    "feeding": "none modeled; actual feeding not inferred",
+    "geometry": "point single gamma relative to beam, unpolarized; not joint gamma-gamma/gate acceptance"
+  },
+  "convention": {
+    "native_delta": "higher radiative amplitude M3 / lower E2, corresponding to SE21 Eq2.42/43 and gamma normalization; not bare BM RME",
+    "ordering_reason": "source calls small DeltaI2 ratio E2/M3 and pureE2 approximate; Eq2.44 defines higherL/lowerL",
+    "independent_operator_basis": "RB67 normalized phase-defined amplitudes; t_KS(TL)=(-1)^(Ii-If+L) C*a_RB(TL), so adjacent-rank amplitude ratio reverses sign",
+    "photon_mu": "Mi-Mf, distinct from helicity lambda=+/-1",
+    "angle_unit": "internal radians; source group degrees converted once"
+  },
+  "source_configurations": [
+    {
+      "identity": "SE21 Fig4.14 below659.8 gate",
+      "delta_central": "-0.04",
+      "literal_delta_low": "-0.05",
+      "literal_delta_high": "-0.03",
+      "locator": "SE21-12; printed100/PDF122"
+    },
+    {
+      "identity": "SE21 Fig4.14 singles",
+      "delta_central": "-0.06",
+      "literal_delta_low": "-0.07",
+      "literal_delta_high": "-0.05",
+      "locator": "SE21-12; printed101/PDF123"
+    }
+  ],
+  "separate_source_summaries": {
+    "Table4p3": {
+      "A2": "0.352",
+      "A4": "-0.212",
+      "quoted_margin_each": "0.001",
+      "locator": "SE21-10; printed109/PDF131",
+      "gate_identity": "not certified same as Table4.1 calibration sample"
+    },
+    "Table4p1": {
+      "alpha2": "0.92",
+      "alpha4": "0.30",
+      "alpha2_margin": "0.05",
+      "alpha4_margin": "0.01",
+      "locator": "SE21-10; printed97/PDF119",
+      "meaning": "alpha_exp operation remains unclosed; never treat this pair as certified nuclear rho/B"
+    }
+  },
+  "seven_angle_design": {
+    "degrees": [
+      "17.27",
+      "34.58",
+      "50.07",
+      "58.28",
+      "69.82",
+      "80.00",
+      "90.00"
+    ],
+    "locator": "SE21-13; printed151/PDF173 TableA.2",
+    "weights": "chosen equal positive weights, no noise; not the experimental covariance",
+    "fit": "free scale plus P2/P4, then normalize; compare omitted-P6 leakage only",
+    "acceptance": "each source average angle used as point; no detector integration"
+  },
+  "validation_contract": [
+    "Signed doubled-integer nuclear CG and Racah6j, no silent use of integer-only joint kernel for half spin",
+    "Source-F matrix and independent RB direct photon amplitudes must agree before interpreting M3",
+    "F0 identity, normalization for each M, parity/theta symmetry, pureE2 source reference and D/Q author-example controls",
+    "Quadrature convergence and bounded interval extrema; preserve first failure, do not fit phases or loosen tolerances to source targets",
+    "No optimization of sigma or delta to force match either table, no significance or confidence level"
+  ],
+  "stop_contract": "After matched-source controls, report A2/A4/A6 for each source configuration/interval and deterministic equal-weight angle truncation; retain producer/response/Cov gaps and stop free-parameter tuning.",
+  "references": [
+    {
+      "path": "knowledge/sources/sensharma-2021-wobbling-motion-135pr-187au.md",
+      "locators": [
+        "SE21-9",
+        "SE21-10",
+        "SE21-12",
+        "SE21-13"
+      ]
+    },
+    {
+      "path": "knowledge/sources/krane-steffen-1970-cd110-mixing-ratios.md",
+      "locators": [
+        "KS70-13"
+      ]
+    },
+    {
+      "path": "knowledge/sources/rose-brink-1967-phase-defined-angular-distributions.md",
+      "locators": [
+        "RB67-6",
+        "RB67-11"
+      ]
+    },
+    {
+      "path": "knowledge/sources/der-mateosian-sunyar-1974-attenuation-coefficients.md",
+      "locators": [
+        "DA74-5",
+        "DA74-6",
+        "DA74-7"
+      ]
+    }
+  ],
+  "boundaries": [
+    "No full joint response/gate model or covariance",
+    "No new experimental delta/sigma/spin or mode decision",
+    "Quoted intervals are literal parameter spans, not confidence regions",
+    "Theory/operator checks are not independent experiments",
+    "No formalDay16credit/noDay17"
+  ]
+}

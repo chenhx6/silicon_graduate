@@ -1,5 +1,5 @@
 {
-  "captured_at": "2026-10-17T02:49:56.139468+08:00",
+  "captured_at": "2026-10-17T03:54:30.606242+08:00",
   "session_id": "01a14510-aec7-7e00-aa23-f7c77a5124bc",
   "run_id": "2026-10-16-day-15-01",
   "hard_deadline": "2026-10-17T15:00:00+08:00",
@@ -121,7 +121,7 @@
       "visual_appendix": "A.10–A.19 whole-page contact sheets; no precise covariance digitization"
     }
   },
-  "current_status": "Card15credited once next16/count15; windowactive original15:00. Publication004pushed. Pendingpacket005: SH26sourcearchive/fixedsigma profile andSE21targetedmethods/calibration positiveP certificate/pureE2 check/figure,23writebackitems. Noformal16/no17.",
+  "current_status": "Formal15creditedonce next16/count15; windowactive. Publication005 actuallypushed. Pending006: MS74 primary tables/negative-column example plusboundedhalfspinE2M3single-gamma/scopereversal completed,25owningwritebackitems. Actualproducer/response/Σ missing; noformal16/no17.",
   "worksheet": {
     "input_sha256": "e8e31f0691862296b62adffb34e6e5395d22ba6cdc59f629a00c71a89eeadf04",
     "script": "system/scripts/day15_ado_covariance_worksheet.py",
@@ -131,9 +131,9 @@
     "figure_source_warnings": 4
   },
   "next_actions": [
-    "Fresh checks/exactmanifest publishpacket005 includingpub004receipt",
-    "Freeze/readtwo1974source identities then correctprimary attenuation definition;sourceRef26/Matta2017 access ifuseful",
-    "Rebuildtime/pool,keepday15/partial16 andoriginaldeadline"
+    "Freshchecks/exactmanifest publish006 includingpub005receipt",
+    "Freeze primedrecall then readStarosta1999 originalmainline/figs/tables/uncertainty andactualresponse/counterbranch",
+    "Rebuildcurrent/partial16 pool withfreshclock,original15:00deadline; noDay17/noformal16"
   ],
   "mixed_event_analysis": {
     "input_sha256": "b0a0bb6503d01e8dc432e1a866960872b4fbc1bebd89a1737ca766eab9bab72c",
@@ -272,5 +272,50 @@
     "meaning": "Requires alpha_exp layer audit, not experimental data/code/mode error verdict",
     "figure_QA": "source/glyph/collision exit0,7pt,89x88mm;3reviewedsourcewarnings,firstclipmaskcollisionfixed",
     "old_helper_use": "Generic functions reused, olddata/checkcount not replayed"
+  },
+  "MS74_primary": {
+    "sources": [
+      "knowledge/sources/der-mateosian-sunyar-1974-attenuation-coefficients.md",
+      "knowledge/sources/der-mateosian-sunyar-1974-angular-coefficients.md"
+    ],
+    "new_claims": [
+      "DA74-4..8",
+      "DMS74-5..7"
+    ],
+    "input": "day16-ms74-primary-table-input.json",
+    "script": "system/scripts/day16_ms74_primary_controls.py",
+    "result": "day16-ms74-primary-controls.json",
+    "new_controls": "J23/2 sigma.2 primaryrow andAmax match printed precision; J6->5 authorhypothetical negative-delta example locallyreproduced, opposite signonlyA2changes; oldcheckcountsnotcredit",
+    "same_Yamazaki_lineage_not_independent_experiments": true
+  },
+  "access_boundaries_new": {
+    "Cieplicka2012": "publisher403, acceptedAM403, OSTIAPI/recordConnectionError; OpenAlexmetadata closed butOSTIidentity1101848 exists; noPDFbodyobtained",
+    "download_tool": "explicitWiki path rejected by tooldownload-root validator; no relative/traversal workaround",
+    "Matta2017": "publisherpublic-discovery restricted; nobody; metadata is JamesTillMatta2017 Springerbook, notautomaticallysame2015version"
+  },
+  "M3_forward_complete": {
+    "canonical": "knowledge/research-notes/se21-alignment-calibration-consistency.md",
+    "input": "day16-se21-m3-reference-input.json",
+    "script": "system/scripts/day16_se21_m3_reference.py",
+    "result": "day16-se21-m3-reference-model.json",
+    "receipt": "day16-se21-m3-model-receipt.json",
+    "script_exit": 0,
+    "F_direct_max_error": 1.0005017647696235e-14,
+    "quadrature_max_error": 1.0449974219284286e-14,
+    "gated_source_delta_native": -0.04,
+    "gated_model_A2_A4_A6": [
+      0.3136729295773213,
+      -0.14747622088233128,
+      0.0002667598639701215
+    ],
+    "singles_source_delta_native": -0.06,
+    "singles_model_A2_A4_A6": [
+      0.28988102605365546,
+      -0.16542915736449798,
+      0.0005990135805530748
+    ],
+    "scope_counterexample": "postcalculation physical+delta.04 control andwrongpureE2inverse givesapparentalpha1.009932/.464384,dual-1.706165 whiletrueP/ratesphysical; not sourceorcoordinate rewrite",
+    "stop_contract_met": true,
+    "free_sigma_delta_fit": false
   }
 }

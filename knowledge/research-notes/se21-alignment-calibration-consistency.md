@@ -7,7 +7,7 @@ updated: 2026-10-17
 status: ai-draft
 review_status: unreviewed
 reasoning_status: provisional
-evidence_sources: [sensharma-2021-wobbling-motion-135pr-187au, yamazaki-1967-aligned-angular-coefficients, rose-brink-1967-phase-defined-angular-distributions]
+evidence_sources: [sensharma-2021-wobbling-motion-135pr-187au, yamazaki-1967-aligned-angular-coefficients, rose-brink-1967-phase-defined-angular-distributions, krane-steffen-1970-cd110-mixing-ratios, der-mateosian-sunyar-1974-attenuation-coefficients, der-mateosian-sunyar-1974-angular-coefficients]
 created_from: Day15 daily-learning uncredited Day16 preview
 promotion_target: angular-distribution
 tags: [135pr, alignment, calibration, angular-distribution, positivity, provisional]
@@ -94,12 +94,54 @@ $$A_{2,\max}=65/161,\qquad A_{4,\max}=-26/161.$$
 
 图中绿色为 positive-P 凸包、蓝线为 source-defined Gaussian family，方块标 adopted .2；橙色点及横纵 margins 为源 Table4.1。误差棒没有被赋联合置信水平，图的 nuclear-only 约定与 unresolved gate/response 条件已显式标注。
 
+## 1974 primary 的定向复核
+
+[[der-mateosian-sunyar-1974-attenuation-coefficients]] DA74-5–7 的原Eq4–6采用同一个rho/B、half-integer reference与2sigma²指数。printed400 TableII J23/2 .2的原数.894266/.689096、printed405 AppendixB .40373/−.16149在末位舍入内确认本页计算，未发现可用不同sigma命名消除条件失配的依据。论文称half-width，仍须按其指数，不自动转成HWHM。
+
+[[der-mateosian-sunyar-1974-angular-coefficients]] DMS74-5–7是相邻的另一个work；其Ji6→5例题使用negative delta列，source-native程序正负控制复现了作者的maximum/attenuation/partial coefficients。两篇与Yamazaki共享theory谱系，并不是独立采集或SE21真实程序的副本。当前最需要的仍是SE21 actual alpha_exp提取层，不能把primary理论表匹配当作找到了实验错误。
+
 ## Competing Explanations
 
 - alpha_exp 的实际提取可能还包含不同的 reference、有限响应、归一或表记操作；必须取得该层定义才能把它转换为 ρ/B。
 - 854.3 参考的原文还报告小 E2/M3 成分。少量高阶辐射强度仍可能通过线性干涉影响较小的 A4，不能只因 δ² 小便认证 exact pureE2。当前未计算这项实际干涉或认定它解释了差异。
 - quasi-isotropic gates、方向依赖 postselection、逐 ring 效率或背景处理可能使拟合系数不对应同一 unconditional nuclear density；这些不是本页已经定位的故障。
 - 仅把 Gaussian 换成其它非高斯 positive P，不能消除同一 ρ/B 定义下的必要式失配。应先审定义和响应层，再讨论 feeding 形状。
+
+## 有界反证：参考线的小 M3 分量
+
+这部分按 [[sensharma-2021-wobbling-motion-135pr-187au]] SE21-12 的两个 source 配置，保持 J=23/2→19/2、sigma/J=.2、axisymmetric diagonal Gaussian 和 point single-gamma geometry，只加入 E2/M3 两个真实辐射振幅。未包含实际 γγ gate/acceptance、Doppler/aberration、背景或 Cov；也不通过新拟合改变源 δ 或 σ。
+
+模型用 SE21 Eq2.42/43 的 generalized F 与独立 RB 直接光子振幅两路。Nuclear CG 与 Racah 6j 全部以 doubled integers 计算；photon μ=Mi−Mf 与 helicity λ=±1 分开。归一化混合振幅的总辐射率对每个 M 都为一。[[krane-steffen-1970-cd110-mixing-ratios]] KS70-13 与 [[rose-brink-1967-phase-defined-angular-distributions]] RB67-6/11 给出 adjacent-rank 的 native/RB 坐标映射，改坐标时振幅和系数矩阵同时变换，观测量保持。
+
+在该约定下，δ 为高阶 M3 对低阶 E2 的辐射振幅比。Gamma fraction δ²/(1+δ²) 只是强度份额，角系数还有线性干涉：
+
+$$A_k(\delta)=\frac{a_k+2b_k\delta+c_k\delta^2}{1+\delta^2}.$$
+
+Primary pureE2、D/Q作者例题、pureM3极限、uniform isotropy、theta镜像、逐M归一均通过；source-F与直接振幅最大差约1.0×10⁻14，12/16-node quadrature差约1.05×10⁻14。这些是两条实现路线及物理控制，不是两场独立实验。该实现仅检查过这里的J=6→5 D/Q与23/2→19/2参考案例，不认证任意half-spin joint response。
+
+| 源配置与 native δ | M3辐射份额 | 模型 A2 | 模型 A4 | 模型 A6 |
+| --- | ---: | ---: | ---: | ---: |
+| below659.8 gate，−.04 | .1597% | .313673 | −.147476 | .00026676 |
+| singles，−.06 | .3587% | .289881 | −.165429 | .00059901 |
+
+PureE2的模型A4为−.111283。因此很小的高阶强度仍能通过振幅干涉明显改变A4，不能只看百分比判断它可忽略。源 two configurations 分开保留，不能把它们当成同一条件下的独立重复。
+
+将源 δ±误差只当作字面参数区间，gated [−.05,−.03] 的 A4像为 [−.156469,−.138456]；singles [−.07,−.05] 的像为 [−.174351,−.156469]。这些不是置信区间；在当前固定 point/Gaussian 模型内未到 Table4.3 的 −.212，不能说这项机制已经解释了该表。
+
+另把 source TableA.2 的七个 average angles 当作点，使用**自选等权、无噪声**的 free-scale/P2/P4 projection 检验遗漏 P6。gated/singles 的 A4移位仅−2.28×10⁻5/−5.13×10⁻5；这不是实际 ring weights、有限角接受或实验 Cov 的重放，不能当成实际系统误差上限。
+
+### 计算后的 scope 反例
+
+真实核布居不因参考 γ 的混合比改变，仍给 alpha=(.894266,.689096)，必要式值为+.124626。保持所有operators固定，另选**物理相位控制** δ=+.04；若把它的辐射系数误除 pureE2 maximum 系数，会得到
+
+$$\widetilde\alpha=(1.009932,.464384),\qquad
+7-10\widetilde\alpha_2+3\widetilde\alpha_4=-1.706165.$$
+
+该 reference 的布居、发射率和方向强度均物理有效。失配由错误的纯性反演前提制造，说明不能把 apparent alpha 的核正性失败直接称为“不物理实验数据”。这是在已计算的 opposite-phase control 上追加的数学反例，未对源数据调参；+.04不是原文报告的负号，也不是只改 KS/RB坐标名。同一物理振幅作坐标改写时，所有观测保持。
+
+这并未复现原 Table4.1 的提取过程或证明它的具体原因。对源中报告的负号配置，M3 alone 与当前点模型仍未闭合 Table4.3。按预设停止条件，到此停止用自由参数补齐；producer normalization、reference处理、gate/geometry和Cov仍待实际输入。
+
+[新模型脚本](../../system/scripts/day16_se21_m3_reference.py)、[冻结合同](../../outputs/learning-daily/20261016-DAY15-ado-angular-distribution-geometry-run-01/day16-se21-m3-reference-input.json)、[全部矩阵/区间/设计结果](../../outputs/learning-daily/20261016-DAY15-ado-angular-distribution-geometry-run-01/day16-se21-m3-reference-model.json)、[运行回执](../../outputs/learning-daily/20261016-DAY15-ado-angular-distribution-geometry-run-01/day16-se21-m3-model-receipt.json)保存可复算链；真实实验 L4 仍 not-ready。
 
 ## Assumptions
 
@@ -125,7 +167,7 @@ $$A_{2,\max}=65/161,\qquad A_{4,\max}=-26/161.$$
 
 ## Open Questions
 
-Table4.1 与 Table4.3 的确切归一层能否从 method primary 或实际程序恢复？小 E2/M3 与门效应各有多大？完整校准 Cov 是否存在？这些问题由当前研究继续追踪，不自动转成用户待办。
+Table4.1 与 Table4.3 的确切归一层能否从 method primary 或实际程序恢复？固定point/Gaussian下的small E2/M3已按上文有界评估，actual gate/response中如何进入alpha提取仍未闭合。完整校准 Cov 是否存在？这些问题由当前研究继续追踪，不自动转成用户待办。
 
 ## Human Review
 
@@ -134,3 +176,5 @@ Codex self-audit，仍 unreviewed/provisional；没有新 human-reviewed 或作�
 ## Promotion or Rejection History
 
 2026-10-17：Day15窗口内的Day16无学分预习创建，以新原件行作条件检查。图的首次碰撞审计捕捉到 off-viewport polygon stroke；仅裁切显示几何后通过，数值不变。所有原始 PDF 保持，Day16不授卡。
+
+2026-10-17追加：1974 primary定义/表列正负号控制与有界single-gamma M3 forward通过，原定义条件证书保留。新增apparent-alpha scope反例限制对实际数据的因果推断；未通过自由sigma/delta调参解释原两表，不晋升为实验L4或human review。

@@ -1,0 +1,12 @@
+{
+  "at": "2026-10-17T03:09:24.499892+08:00",
+  "doi": "10.1103/PhysRevC.86.054322",
+  "source": "publisher citation_pdf_url candidate, no OAlicense assumed",
+  "tool_boundary": "download_public_paper rejected explicit Wiki savePath as outside its download directory; no traversal/workaround attempted there",
+  "url": "https://link.aps.org/pdf/10.1103/PhysRevC.86.054322",
+  "status": 403,
+  "final_url": "https://link.aps.org/pdf/10.1103/PhysRevC.86.054322",
+  "content_type": "text/html; charset=UTF-8",
+  "bytes": 5503,
+  "valid_PDF": false
+}

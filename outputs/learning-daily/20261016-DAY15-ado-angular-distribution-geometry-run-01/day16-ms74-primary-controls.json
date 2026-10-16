@@ -1,0 +1,126 @@
+{
+  "data_identity": "DAY16-PREVIEW-MS74-PRIMARY-CONTROLS-01",
+  "kind": "Original-theory tables and author hypothetical worked example; not independent experiments or raw counts",
+  "input_sha256": "eec7decc1a3d8388fd071d2bff2828ba06b86374b197c0e9076841331d1ec882",
+  "script_sha256": "1dab0e19862c463c19dc6960c3b04f5b9c6f5562a46b151fb5a3b685715e95e0",
+  "helper_hashes": {
+    "day14_alignment_formula_contract.py": "e3d14871c7d0074b89e35326fa8b9456b4d7c78219989505a944df4be4649f11",
+    "day14_unobserved_feeding_transfer.py": "c2e9856c254082077288059ebab443abbe8244331413713393783fc7ecd1837c",
+    "day16_pdco_ambiguity_preview.py": "619b42017ba91a946942b2c592f927a4299372fb29cd8b75b0964c982b5d9198"
+  },
+  "runtime": {
+    "python": "3.12.3",
+    "numpy": "2.5.3"
+  },
+  "published_rounding_checks": [
+    {
+      "name": "DA74_J23p2_alpha2",
+      "computed": 0.8942662041976024,
+      "printed": "0.894266",
+      "absolute_error": 2.041976023825498e-07,
+      "half_printed_last_digit": "0.0000005",
+      "rounding_compatible": true
+    },
+    {
+      "name": "DA74_J23p2_alpha4",
+      "computed": 0.6890960786436691,
+      "printed": "0.689096",
+      "absolute_error": 7.864366902143871e-08,
+      "half_printed_last_digit": "0.0000005",
+      "rounding_compatible": true
+    },
+    {
+      "name": "DA74_J23p2_pureE2_Amax2",
+      "computed": 0.40372670807453415,
+      "printed": "0.40373",
+      "absolute_error": 3.291925465831458e-06,
+      "half_printed_last_digit": "0.000005",
+      "rounding_compatible": true
+    },
+    {
+      "name": "DA74_J23p2_pureE2_Amax4",
+      "computed": -0.16149068322981366,
+      "printed": "-0.16149",
+      "absolute_error": 6.83229813669417e-07,
+      "half_printed_last_digit": "0.000005",
+      "rounding_compatible": true
+    },
+    {
+      "name": "DMS74_Amax2",
+      "computed": -1.094234541940022,
+      "printed": "-1.09423",
+      "absolute_error": 4.5419400218627e-06,
+      "half_printed_last_digit": "0.000005",
+      "rounding_compatible": true
+    },
+    {
+      "name": "DMS74_alpha2",
+      "computed": 0.610703205461095,
+      "printed": "0.61070",
+      "absolute_error": 3.2054610950016382e-06,
+      "half_printed_last_digit": "0.000005",
+      "rounding_compatible": true
+    },
+    {
+      "name": "DMS74_expected_A2",
+      "computed": -0.6682525422890229,
+      "printed": "-0.66825",
+      "absolute_error": 2.5422890228554706e-06,
+      "half_printed_last_digit": "0.000005",
+      "rounding_compatible": true
+    },
+    {
+      "name": "DMS74_Amax4",
+      "computed": 0.12467532467532498,
+      "printed": "0.12468",
+      "absolute_error": 4.675324675018633e-06,
+      "half_printed_last_digit": "0.000005",
+      "rounding_compatible": true
+    },
+    {
+      "name": "DMS74_alpha4",
+      "computed": 0.22547020672094525,
+      "printed": "0.22547",
+      "absolute_error": 2.0672094525053808e-07,
+      "half_printed_last_digit": "0.000005",
+      "rounding_compatible": true
+    },
+    {
+      "name": "DMS74_expected_A4",
+      "computed": 0.02811057122754837,
+      "printed": "0.02811",
+      "absolute_error": 5.712275483703289e-07,
+      "half_printed_last_digit": "0.000005",
+      "rounding_compatible": true
+    }
+  ],
+  "source_example": {
+    "delta_signed_negative_column": -0.5,
+    "sigma_over_J": 0.4,
+    "computed_maximum_A2_A4": [
+      -1.094234541940022,
+      0.12467532467532498
+    ],
+    "computed_alpha": [
+      0.610703205461095,
+      0.22547020672094525
+    ],
+    "computed_partial_A2_A4": [
+      -0.6682525422890229,
+      0.02811057122754837
+    ],
+    "opposite_sign_control_A2_A4": [
+      0.34941788177557526,
+      0.02811057122755244
+    ],
+    "quadrature_8_vs_12_max_difference": 2.2863655413374318e-15,
+    "scope": "Local source-native negative-column implementation control, not a universal sign map"
+  },
+  "boundaries": [
+    "SameYamazakitheory lineage; papers not independent empirical evidence",
+    "No actualSE21 calibration operation/geometry/Cov recovered",
+    "sigma half-width wording governed by exp(-m²/(2sigma²)); not HWHM by name",
+    "No E2/M3 mixture response or half-integer mixed kernel executed here",
+    "No formalDay16credit or physicalmodeverdict"
+  ]
+}

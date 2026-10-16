@@ -1,0 +1,34 @@
+{
+  "at": "2026-10-17T03:41:44.184311+08:00",
+  "script_exit_code": 0,
+  "script": "system/scripts/day16_se21_m3_reference.py",
+  "script_sha256": "f8e6268e32c37f5dc7c254a013a8abe0b8e3ae88b78626be1984b5217f6918f4",
+  "input_sha256": "81a0ade43366d1100943fec2b30342d96a9ac14c4862b141ceb62e2b82022e3b",
+  "output_sha256": "e28827fe6d5a6291f1341e6360d028323e4c2bdcb7afee7e1e1f1046f8dc1818",
+  "runtime": {
+    "python": "3.12.3",
+    "numpy": "2.5.3"
+  },
+  "helper_hashes": {
+    "day14_unobserved_feeding_transfer.py": "c2e9856c254082077288059ebab443abbe8244331413713393783fc7ecd1837c",
+    "day16_pdco_ambiguity_preview.py": "619b42017ba91a946942b2c592f927a4299372fb29cd8b75b0964c982b5d9198"
+  },
+  "preregistered_bounded_forward_task_complete": true,
+  "no_sigma_or_delta_optimization": true,
+  "apparent_alpha_counterexample": "Post-calculation algebraic scope check using the already-tested opposite physical-phase control; not a blind prediction or reported measurement",
+  "max_independent_F_amplitude_difference": 1.0005017647696235e-14,
+  "max_quadrature12_16_difference": 1.0449974219284286e-14,
+  "physical_limits": {
+    "uniform_direct_isotropic": true,
+    "pure_M3_limit_matched": true,
+    "mirror_absolute_error": 2.7755575615628914e-17,
+    "true_nuclear_alpha": [
+      0.8942662041976023,
+      0.6890960786436687
+    ],
+    "true_nuclear_positive_P_dual": 0.12462619395498331,
+    "coordinate_change_preserves_observable": true
+  },
+  "stop_reason": "Forward spans and chosen angle-truncation control computed; actual normalization/gate/response/Cov and producercode unavailable, no freeparameter tuning",
+  "decision": "limits causal interpretation, supports calibrated-quantity identity checks; no experimentalmode/delta revision"
+}

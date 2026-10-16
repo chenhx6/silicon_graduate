@@ -3,7 +3,7 @@ type: source
 title: "Der Mateosian and Sunyar 1974 - Tables of angular-distribution coefficients for mixed multipolarities"
 aliases: [Der Mateosian Sunyar 1974 angular tables]
 created: 2026-09-21
-updated: 2026-09-21
+updated: 2026-10-17
 status: ai-draft
 review_status: unreviewed
 source_type: reference-tables
@@ -15,6 +15,7 @@ year: 1974
 volume: 13
 pages: "407-462"
 pii: "0092-640X(74)90008-4"
+doi: "10.1016/0092-640X(74)90008-4"
 canonical_source: "Der Mateosian & Sunyar, ADNDT 13, 407-462 (1974)"
 library_file: "raw/papers/gpt/high-spin-20260920/multipolarity/angular distribution/ADO/1974_Der Mateosian_Sunyar_Tables of angular-distribution coefficients for gamma rays of mixed.pdf"
 raw_file: "raw/papers/gpt/high-spin-20260920/multipolarity/angular distribution/ADO/1974_Der Mateosian_Sunyar_Tables of angular-distribution coefficients for gamma rays of mixed.pdf"
@@ -56,6 +57,9 @@ tags: [angular-distribution, ADO, mixing-ratio, alignment, tables]
 | DMS74-2 | Joint consistency of `A_2` and `A_4` can constrain both alignment width and δ, but the solution is geometry/convention dependent. | method-result | direct | PDF pp.409–410, Fig.2 | true |
 | DMS74-3 | Angular-distribution and γ–γ-correlation δ signs may be opposite under the paper's stated cascade/convention mapping. | convention-boundary | direct | PDF p.409 | true |
 | DMS74-4 | The tables do not supply a universal `σ/J` prior or replace detector/attenuation calibration. | limitation | direct | PDF pp.408–410 | false |
+| DMS74-5 | Ji6→Jf5例题列delta magnitude=.5、sigma/J=.4，正文明确使用negative sign列，A2max=−1.09423、A4max=.12468，attenuated为−.66825/.02811。因此不应把例题的.5未标记地当正signed delta。本任务在该局部native convention复现，非新实验。 | signed-example-and-replay | direct-and-derived | printed409/PDF3 worked paragraph；printed410/PDF4 table/Fig2 | true |
+| DMS74-6 | 表头A2MAX(+)/A2MAX(−)分开，A4MAX在明确D/Q例题中为even-delta项，Q=delta²/(1+delta²)是该组分强度分数。不能把Q当polarimeter sensitivity或几何因子；D/Q的A4无linear项源于L1+L2<4，不能自动外推E2/M3。 | table-symbol-and-multipole-boundary | direct-and-derived | printed408 Eq5；printed409 Fig1/example；printed411 table explanation | true |
+| DMS74-7 | 原例分别让alpha2 A2max、alpha4 A4max等于两项已知数，只在本例交点配成同一sigma/J；作者也说明真实误差会把曲线变成bands。这个假设例题不证明任意spin/feeding/geometry下全局唯一。 | inverse-consistency-boundary | direct-and-self-audit | printed409 Eq7；printed410 Fig2/table及说明 | true |
 
 ## Summary
 
@@ -90,3 +94,11 @@ Der Mateosian and Sunyar turn the Rose–Brink/Yamazaki formalism into practical
 ## Extracted Pages
 
 - Methods/observables: [[angular-distribution]], [[angular-correlation]], [[multipole-mixing-ratio]]。
+
+## 2026-10-17原件回核：negative-column例题与两个参数层
+
+本次核56页raw hash，读printed407–411全部说明/例题/限制，视觉核Fig1/2与table explanation，并定向检查表格结构；未重逐行核所有dense tables。原DMS74-1–4/review保持，新5–7 true。Crossref核DOI90008-4/issue5/pages407–462；不与preceding DOI90007-2混成一个work。
+
+[新primary control](../../outputs/learning-daily/20261016-DAY15-ado-angular-distribution-geometry-run-01/day16-ms74-primary-controls.json)用作者Ji6→5假设例题、sigma/J=.4与明确negative column，得到maxA2=−1.09423454/maxA4=.12467532，alpha=.61070321/.22547021，partialA=−.66825254/.02811057，均在原表末位舍入内。反号控制给A2=.34941788但A4相同，说明相同delta²或fraction不能认证sign。8/12-node quadrature差约2.3e−15；这只是该局部source-defined实现/归一控制，不是普遍KS/RB转换或新采集。
+
+[[der-mateosian-sunyar-1974-attenuation-coefficients]] DA74-5–7提供另层alpha与pure reference。[[se21-alignment-calibration-consistency]]保存当前实际校准行的应用条件；本表本身不提供SE21的detector response、efficiency、gatedevents或covariance，不能代替这些输入。

@@ -226,3 +226,5 @@ Matta 2015 的 yrast/side-band pair 是否满足 transverse-wobbling 判据？Se
 大/小模差异不能只靠KS/RB换号消除；Matta A与Lv P又不能直接比数值。实际共同响应/计数/背景及P–Rac Cov未得，新表不是raw likelihood重算，Sensharma2026与Guo/Lv的分支争议仍open，不形成wobbling/TiP排序。下一高价值输入是Matta完整分析/论文的实际角分布与INGA标定，而非重复绘制旧toy。
 
 本run后续新增两项方法边界：[[sensharma-2026-evolution-chirality-transverse-wobbling-135pr]] SH26-12–16核Fig12固定sigma/I=.2/log10chi²及public source包，保留作者分支偏好而不把它当full nuisance profile；[[sensharma-2021-wobbling-motion-135pr-187au]] SE21-9–15与[[se21-alignment-calibration-consistency]]发现854.3校准若按同nuclear rho/B直接解释则有条件失配。两者仍是方法/输入合同，不更改本project的集体模式排序或原human-review范围。
+
+同一run的有界后续（SE21-16/17）评估了参考M3和七角P6遗漏，当前point/Gaussian模型未闭合原Table4.3；另一个明确标记的物理相位scope控制证明误设pureE2 reference可制造apparent-alpha正性失败。这限制“校准失配即数据错误”的推断，实际delta/作者程序/collective-mode判断均不改。1974两原件的定义、J23/2行与negative-column例题已核，但Ref26 producer方法正文/actualresponse与Cov仍缺。

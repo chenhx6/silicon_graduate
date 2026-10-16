@@ -1,0 +1,83 @@
+{
+  "at": "2026-10-17T03:19:06.912359+08:00",
+  "events": [
+    {
+      "role": "OSTI-record",
+      "url": "https://www.osti.gov/biblio/1101848",
+      "error": "ConnectionError"
+    },
+    {
+      "role": "Crossref-links",
+      "url": "https://api.crossref.org/works/10.1103/PhysRevC.86.054322",
+      "status": 200,
+      "content_type": "application/json",
+      "bytes": 7606,
+      "record": {
+        "DOI": "10.1103/physrevc.86.054322",
+        "title": [
+          "Yrast structure of<mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mml:msup><mml:mrow/><mml:mn>206</mml:mn></mml:msup></mml:math>Bi: Isomeric states and one-proton-particle, three-neutron-hole excitations"
+        ],
+        "link": [
+          {
+            "URL": "http://link.aps.org/accepted/10.1103/PhysRevC.86.054322",
+            "content-type": "application/pdf",
+            "content-version": "am",
+            "intended-application": "unspecified"
+          },
+          {
+            "URL": "http://link.aps.org/article/10.1103/PhysRevC.86.054322",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "syndication"
+          },
+          {
+            "URL": "http://harvest.aps.org/v2/journals/articles/10.1103/PhysRevC.86.054322/fulltext",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "license": [
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2012,
+                  11,
+                  29
+                ]
+              ],
+              "date-time": "2012-11-29T00:00:00Z",
+              "timestamp": 1354147200000
+            },
+            "content-version": "vor",
+            "delay-in-days": 0,
+            "URL": "http://link.aps.org/licenses/aps-default-license"
+          },
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2013,
+                  11,
+                  29
+                ]
+              ],
+              "date-time": "2013-11-29T00:00:00Z",
+              "timestamp": 1385683200000
+            },
+            "content-version": "am",
+            "delay-in-days": 365,
+            "URL": "http://link.aps.org/licenses/aps-default-accepted-manuscript-license"
+          }
+        ],
+        "resource": {
+          "primary": {
+            "URL": "https://link.aps.org/doi/10.1103/PhysRevC.86.054322"
+          }
+        }
+      }
+    }
+  ],
+  "kind": "Metadata/publicpage discovery only, not scientific body evidence"
+}

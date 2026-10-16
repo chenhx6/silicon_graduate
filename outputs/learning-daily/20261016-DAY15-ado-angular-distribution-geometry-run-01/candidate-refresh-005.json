@@ -1,0 +1,44 @@
+{
+  "at": "2026-10-17T03:54:30.606242+08:00",
+  "clock": {
+    "clock_tool_UTC": "2026-10-16 19:53:19 UTC",
+    "now_local": "2026-10-17T03:53:19+08:00",
+    "hard_deadline": "2026-10-17T15:00:00+08:00",
+    "minutes_to_deadline": 666.6833333333333,
+    "decision": "continue",
+    "kind": "manual agent observation, not scheduler event"
+  },
+  "day_index": 15,
+  "completed": [
+    15
+  ],
+  "partial": [
+    16
+  ],
+  "next_day_index": 16,
+  "continuity_issue": "135Pr alpha_exp/reference/normalization和actualjoint response",
+  "continuity_status": "boundedMS74 andE2/M3 forward route complete; actualproducer/ringdata/Cov absent, cannot identifyrealcause",
+  "new_selected_novelty": "Starosta1999 actualPDCO experimentaltest, knowledge/sources/starosta-1999-pdco-experimental-test.md",
+  "expected_information_gain": "Check howD96-style theory,calibration/gate/P-R response and residualmixingbranches were handled inoriginalexperiment, beyond single-gamma pointmodels",
+  "independence": "verify actualacquisition/calibrationlineage inoriginal; do not counttheory/reanalysisasnewexperiment",
+  "not_selected": [
+    {
+      "route": "free sigma/delta optimization toforceTable4.3",
+      "reason": "preregistered stop reached, no actualresponse/Σ"
+    },
+    {
+      "route": "unchangedpublisher/OSTI/CurateND failedfetch",
+      "reason": "access boundary recorded; no retry withoutnewroute/input"
+    },
+    {
+      "route": "extraToy/checkcounts",
+      "reason": "no independentgain"
+    },
+    {
+      "route": "Day17 card",
+      "reason": "outside thisrunallowedpreview"
+    }
+  ],
+  "course_boundary": "only partial16; formal16requiresownnewrun; Day15cardalreadycreditedonce",
+  "whole_run_stop": "notallowed atthischeckpoint: >120min andviablepermitted experimental-source route exists"
+}

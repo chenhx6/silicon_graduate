@@ -1,0 +1,18 @@
+{
+  "at": "2026-10-17T03:47:58.905044+08:00",
+  "Cieplicka2012": {
+    "doi": "10.1103/PhysRevC.86.054322",
+    "body_obtained": false,
+    "known_metadata": "Crossref/ OpenAlex work W2027431450 / OSTI1101848",
+    "access": "publisher403/accepted403; OSTI API/recordConnectionError; OpenAlex listsclosed",
+    "tool_directory_boundary": "explicitWiki savePath rejected by validator; no traversal/relative outsideWiki workaround"
+  },
+  "Matta2017": {
+    "doi": "10.1007/978-3-319-53240-0",
+    "body_obtained": false,
+    "public_discovery": "restricted",
+    "provider_fulltext_entitlement": "notestablished; no credentials/config/browser changes"
+  },
+  "why_missing_matters": "1974 defines mathematical alpha, but SE21 operational extraction/geometry/normalization cannot be certified without primarymethod and actualproducer/selecteddata/Cov",
+  "next_route": "available independent PDCO experimental-method source within partial16; no unchangedfailedURL retry"
+}

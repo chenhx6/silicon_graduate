@@ -1761,3 +1761,12 @@ Zobel1983六页/metadata/raw与958parent10个Pubfit rows，38-check条件Gaussia
 - 新figure最终source/glyph/collision exit0，7pt，真实89×88mm；3sourcewarn有实测解释，首次offviewportstroke显示裁切后通过，科学输入/核心数值不变。
 - fresh boundary/preflight/lint/diff exit0，lint0error/146warning；23项唯一writeback/26mappedpaths/23changed，旧claims/review、原spinobservable全文和PLAN/Bib/daemon保留；EOL exit1是7项own substantive/0unsafe。
 - 本批commit target：main / Audit 135Pr alignment calibration and conditional branch profiles；actual H3/push/hash只在publication005/runreceipt。下一核两份1974source及Ref26/Matta2017方法定义，不开Day17或授16。
+
+## 2026-10-17 — Day15持续窗口：primary tables与reference multipole边界
+
+- Formal15只计一次、next16/count15，completed15/partial16不变；03:53clock余666.7min，仍active，nextStarosta1999实验路线已选，不开17/不授16。
+- 原MS74两DOI对象与原件J23/2 .2、Amax/negative-column作者例题核验通过；不是独立实验或producercode重放。DA issue字段冲突隔离，旧claims/review保持。
+- 新bounded halfspin E2/M3 singlegamma sourceF/directamplitude约1e−14一致，physical limits/rates/phasecontrols通过；源negative spans和chosen7-angleP6遗漏未闭合实际两表，无自由sigma/delta拟合。
+- Postcalculation scope控制显示：真实P/rate正常时，错误pureE2逆算可制造apparentalpha正性失败。因此不从calibration条件失配直接判实验/作者code错误，不改实际delta或mode。
+- fresh boundary/preflight/lint/diff exit0，lint0error/146warnings；25writeback/28mapped/25changed、14mappedraw hashes、3script/inputhash和原review/PLAN/Bib/daemon通过；EOL exit1为8项own substantive/0unsafe保留。已过图未改变，不重复渲染刷检查数。
+- 本批commit target：main / Validate primary angular tables and reference-multipole boundaries；actual H3/push/hash仅publication006/runreceipt。原始PDF/archives/credentials和继承receipts/旧log排除。

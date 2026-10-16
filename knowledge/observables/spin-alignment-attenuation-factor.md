@@ -73,3 +73,5 @@ Ekstrom 1979 的 relevant boundary 不是“某个固定 excitation-energy thres
 本节仅Codex self-audit，原human-reviewed范围保持，不覆盖新增应用。[[sensharma-2021-wobbling-motion-135pr-187au]] SE21-9/10明定half-integer参考与alpha=rho/B，但其Table4.1的135Pr(.92,.30)若直接作同一J=23/2核布居的两个tensor，违反必要式7−10alpha2+3alpha4≥0；字面quoted-margin矩形也未进入可行域。[[se21-alignment-calibration-consistency]]保存新输入、精确CG/Farkas及独立LP控制。
 
 该结果限制的是直接迁移alpha_exp的假设，不是原始数据错误或某个模式的裁决。非Gaussian positiveP不能独自修复同定义的失配；实际reference E2/M3、gate/geometry、归一操作或参数层变换尚需闭合。sigma/J=.2的source Gaussian给(.894266,.689096)，不是表列pair的共同拟合；width指数参数与finite-J population RMS也分开。Source原flags/Review状态和其它notation边界均保留。
+
+[[sensharma-2021-wobbling-motion-135pr-187au]] SE21-16/17与[[se21-alignment-calibration-consistency]]的后续scope控制显示：同一真实nuclear alpha不变，混合reference经错误pureE2反演可给违反核正性必要式的apparent alpha。该控制是本任务模型反例，不是源报告的新delta或实际calibration原因；原文negative-ratio配置在声明point条件下仍未闭合两表。此新增段也不属于历史human-reviewed范围。

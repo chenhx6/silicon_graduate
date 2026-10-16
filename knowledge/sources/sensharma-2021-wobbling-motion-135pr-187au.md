@@ -92,6 +92,8 @@ Nirupama Sensharma，*Wobbling Motion in Nuclei: Transverse, Longitudinal and Ch
 | SE21-13 | 作者先合并对称rings形成17.27、34.58、50.07、58.28、69.82、80、90度七组，再逐组效率校准；DCO-like另用Table4.2的forward/middle/backward分组。不是14份独立镜像观测，也不能同别的R定义直接共用阈值。 | geometry-and-sorting-identity | direct-and-self-audit | multiple-dependent | printed96/PDF118；printed103/PDF125 Table4.2；printed151/PDF173 TableA.2 | true |
 | SE21-14 | 先用A2初值和Eq2.46/48求delta二根，因A4相对误差大而不另解其二次式；后续仍用W(theta)的A2/A4及chi²选择、细采样。不能将“不解A4二次式”误写成从未利用A4，也不能由初始independent proposal推断posterior Cov=0或全部分支权重已给。 | fit-recipe-boundary | direct-and-self-audit | single | printed98–99/PDF120–121 MCMC五步骤 | true |
 | SE21-15 | Table4.1 attenuation提取指向Ref26 Cieplicka2012 PRC86,054322；sigma对应关系指向Ref56 Mateosian/Sunyar1974 ADNDT13,391–406；Ref57是Matta2017 Springer书DOI10.1007/978-3-319-53240-0，Ref99为Yamazaki1967。这些是不同source/版本，未读正文者只作定向跟进线索。 | method-provenance-lead | direct-bibliographic | multiple-dependent | printed175/PDF197 Ref26；printed177/PDF199 Refs56/57；printed181/PDF203 Ref99 | true |
+| SE21-16 | 本任务以Eq2.42/43/51、854.3的E2/M3 source ratio、sigma/J=.2构建point single-gamma条件模型。delta−.04/−.06时预测(A2,A4,A6)=(.313673,−.147476,.00026676)/(.289881,−.165429,.00059901)，原文字面delta范围内A4仍未到Table4.3的−.212。source-F与RB直接振幅两路、primary控制和物理极限通过；不是实际response/作者程序或delta重拟合。 | our-inference | indirect | single | premises printed40–42 Eqs2.42/43/51；printed100–101 Fig4.14；printed109 Table4.3；new M3 reference model | true |
+| SE21-17 | 同一条件模型的post-calculation scope control：真实Gaussian alpha=(.894266,.689096)物理有效，另取固定operators下的物理相位delta=+.04，仅若误按pureE2反演，会得apparentalpha=(1.009932,.464384)、必要式为−1.706165。它是有意选定的反例，不是源报告delta或KS/RB坐标重写；说明错误reference前提可制造apparent正性失配，不能据此判原数据不物理或定位源问题。 | our-inference | indirect | single | premises printed41–42/97–102；KS70-13/RB67-11；conditional M3 scope control | true |
 
 ## Nuclear Structure Information
 
@@ -190,3 +192,11 @@ Nirupama Sensharma，*Wobbling Motion in Nuclei: Transverse, Longitudinal and Ch
 [[se21-alignment-calibration-consistency]]用新的实际Table4.1输入/J=23/2复用通用finite-J CG helper，不重跑旧67Ga数据充学分。源自定义的Gaussian sigma/J=.2给(alpha2,alpha4)=(.894266,.689096)；逐个匹配alpha2/alpha4的width分别.175284/.350794。更强的positive-population证书排除该字面pair作共同nuclear rho/B；只是把“alpha_exp可以直接当nuclear alignment”的假设改为needs-review。换成非Gaussian P本身不足以消除该条件失配，实际calibration/geometry/gate及reference混合成分仍须核，不能宣布实验或作者code错误。
 
 另用明确doubled-spin CG与pureE2 photon basis给此23/2→19/2的complete-reference系数65/161、−26/161；adoptedGaussian的系数.361039/−.111283。Table4.3字面系数若在该pure-point约定直接相除，得到.871877/1.312769而非Table4.1的.92/.30，进一步表明层次尚未闭合。此计算不是E2/M3响应重拟合；原文small E2/M3、geometry、gate及production normalization均保留为边界，不生成新delta或wobbling裁决。
+
+### 854.3参考的有界E2/M3 forward检查
+
+[[se21-alignment-calibration-consistency]]新增的single-gamma doubled-spin模型先通过DA74 primary rows、DMS74 negative-column作者例题、source-F/direct-amplitude一致和rate/symmetry/degenerate控制，再评估原文small M3 ratio。12/16-node convergence与两路系数差最大约1.1e−14；不用整数专用joint kernel外推half spin，也没有对sigma/delta自由拟合。
+
+结果说明small radiative fraction仍可线性干涉A4，但在声明的point/Gaussian .2条件内，源gated/singles两个ratio范围和七角equal-weight P6遗漏效应均不足以把模型系数移到Table4.3。正性scope反例只证明alpha_exp解释依赖reference纯性，并未复现Table4.1的实际操作或认定真实原因。原始逐角净峰/校准program、actualgeometry/gate/covariance仍缺，停止调参；理论/模型结果不冒充实验事实，新16/17 true，旧flags保持。
+
+Ref26 Cieplicka2012目前仅核DOI/title及OpenAlex/OSTI metadata；publisher/acceptedPDF403、OSTIAPI/record ConnectionError，未得到正文。下载工具拒绝Wiki绝对savePath后未绕过其目录限制。Ref57 Matta2017 public discovery restricted，亦未读body；这些是本run获取边界，不是“世界上不存在可访问版本”的结论。

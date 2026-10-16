@@ -1,0 +1,295 @@
+{
+  "data_identity": "DAY16-PREVIEW-SE21-E2-M3-REFERENCE-FORWARD-01",
+  "kind": "Source-reported reference assumptions plus bounded deterministic single-gamma design; no new counts, response or experimental refit",
+  "input_sha256": "81a0ade43366d1100943fec2b30342d96a9ac14c4862b141ceb62e2b82022e3b",
+  "script_sha256": "f8e6268e32c37f5dc7c254a013a8abe0b8e3ae88b78626be1984b5217f6918f4",
+  "convention": {
+    "native_delta": "higher radiative amplitude M3 / lower E2, corresponding to SE21 Eq2.42/43 and gamma normalization; not bare BM RME",
+    "ordering_reason": "source calls small DeltaI2 ratio E2/M3 and pureE2 approximate; Eq2.44 defines higherL/lowerL",
+    "independent_operator_basis": "RB67 normalized phase-defined amplitudes; t_KS(TL)=(-1)^(Ii-If+L) C*a_RB(TL), so adjacent-rank amplitude ratio reverses sign",
+    "photon_mu": "Mi-Mf, distinct from helicity lambda=+/-1",
+    "angle_unit": "internal radians; source group degrees converted once"
+  },
+  "source_F_matrices": {
+    "0": [
+      [
+        0.9999999999999996,
+        0.0
+      ],
+      [
+        0.0,
+        0.9999999999999997
+      ]
+    ],
+    "2": [
+      [
+        0.36103915076300713,
+        0.5888370350959347
+      ],
+      [
+        0.5888370350959347,
+        0.151636443320463
+      ]
+    ],
+    "4": [
+      [
+        -0.11128259655115146,
+        0.4537410560078738
+      ],
+      [
+        0.4537410560078738,
+        -0.08143862747606993
+      ]
+    ],
+    "6": [
+      [
+        -0.0,
+        -0.0
+      ],
+      [
+        -0.0,
+        0.16699167484529606
+      ]
+    ]
+  },
+  "independent_route_controls": [
+    {
+      "spin_twice": [
+        12,
+        10
+      ],
+      "delta_native": -0.5,
+      "max_F_vs_direct_error": 1.2212453270876722e-15,
+      "quadrature12_vs16": 2.7755575615628914e-15
+    },
+    {
+      "spin_twice": [
+        12,
+        10
+      ],
+      "delta_native": 0.5,
+      "max_F_vs_direct_error": 2.040034807748725e-15,
+      "quadrature12_vs16": 3.2751579226442118e-15
+    },
+    {
+      "spin_twice": [
+        23,
+        19
+      ],
+      "delta_native": 0.0,
+      "max_F_vs_direct_error": 9.458118403584347e-15,
+      "quadrature12_vs16": 9.458118403584347e-15
+    },
+    {
+      "spin_twice": [
+        23,
+        19
+      ],
+      "delta_native": -0.04,
+      "max_F_vs_direct_error": 9.296545738085582e-15,
+      "quadrature12_vs16": 9.670595487593081e-15
+    },
+    {
+      "spin_twice": [
+        23,
+        19
+      ],
+      "delta_native": 0.04,
+      "max_F_vs_direct_error": 1.0005017647696235e-14,
+      "quadrature12_vs16": 1.0449974219284286e-14
+    },
+    {
+      "spin_twice": [
+        23,
+        19
+      ],
+      "delta_native": -0.06,
+      "max_F_vs_direct_error": 8.280919353009786e-15,
+      "quadrature12_vs16": 8.111892234319296e-15
+    }
+  ],
+  "primary_DQ_control": [
+    -0.6682525422890249,
+    0.028110571227546406
+  ],
+  "physical_limits": {
+    "uniform_direct_isotropic": true,
+    "pure_M3_limit_matched": true,
+    "mirror_absolute_error": 2.7755575615628914e-17,
+    "true_nuclear_alpha": [
+      0.8942662041976023,
+      0.6890960786436687
+    ],
+    "true_nuclear_positive_P_dual": 0.12462619395498331,
+    "coordinate_change_preserves_observable": true
+  },
+  "configurations": [
+    {
+      "source_configuration": "SE21 Fig4.14 below659.8 gate",
+      "delta_native": -0.04,
+      "M3_radiative_fraction": 0.001597444089456869,
+      "forward_normalized_coefficients": {
+        "0": 0.9999999999999992,
+        "2": 0.3136729295773213,
+        "4": -0.14747622088233128,
+        "6": 0.0002667598639701215
+      },
+      "opposite_sign_A4": -0.07499362407596169,
+      "opposite_sign_identity": "Physical phase control at fixed operators; not a KS/RB coordinate rewrite or measured value",
+      "apparent_alpha_if_reference_falsely_treated_as_pureE2": [
+        0.7769437178761343,
+        0.9132181370021285
+      ],
+      "apparent_positive_P_dual": 1.970217232245043,
+      "chosen_opposite_phase_apparent_alpha": [
+        1.009931583814806,
+        0.464383595239609
+      ],
+      "chosen_opposite_phase_apparent_dual": -1.706165052429233,
+      "literal_delta_span_images": {
+        "2": {
+          "range": [
+            0.30178008814136137,
+            0.3255524042923764
+          ],
+          "candidate_deltas": [
+            -0.05,
+            -0.03
+          ],
+          "kind": "Literal parameter-span image, not a confidence interval"
+        },
+        "4": {
+          "range": [
+            -0.15646912590586431,
+            -0.1384557445062967
+          ],
+          "candidate_deltas": [
+            -0.05,
+            -0.03
+          ],
+          "kind": "Literal parameter-span image, not a confidence interval"
+        },
+        "6": {
+          "range": [
+            0.00015015736573160805,
+            0.0004164380918835313
+          ],
+          "candidate_deltas": [
+            -0.05,
+            -0.03
+          ],
+          "kind": "Literal parameter-span image, not a confidence interval"
+        }
+      },
+      "equal_weight_point_design_only": {
+        "fitted_scale": 0.9999992315667025,
+        "truncated_A2_A4": [
+          0.3136964713702168,
+          -0.1474990696533962
+        ],
+        "shift_from_full_moments": [
+          2.35417928954873e-05,
+          -2.284877106492611e-05
+        ],
+        "design_condition_number": 2.875964613983872,
+        "actual_experimental_covariance_used": false
+      }
+    },
+    {
+      "source_configuration": "SE21 Fig4.14 singles",
+      "delta_native": -0.06,
+      "M3_radiative_fraction": 0.0035870864886408927,
+      "forward_normalized_coefficients": {
+        "0": 0.9999999999999997,
+        "2": 0.28988102605365546,
+        "4": -0.16542915736449798,
+        "6": 0.0005990135805530748
+      },
+      "opposite_sign_A4": -0.05692192994133166,
+      "opposite_sign_identity": "Physical phase control at fixed operators; not a KS/RB coordinate rewrite or measured value",
+      "apparent_alpha_if_reference_falsely_treated_as_pureE2": [
+        0.7180130029944389,
+        1.0243882436801608
+      ],
+      "apparent_positive_P_dual": 2.8930347010960933,
+      "chosen_opposite_phase_apparent_alpha": [
+        1.0667983455475083,
+        0.35247810463670765
+      ],
+      "chosen_opposite_phase_apparent_dual": -2.61054914156496,
+      "literal_delta_span_images": {
+        "2": {
+          "range": [
+            0.27798286836684893,
+            0.30178008814136137
+          ],
+          "candidate_deltas": [
+            -0.07,
+            -0.05
+          ],
+          "kind": "Literal parameter-span image, not a confidence interval"
+        },
+        "4": {
+          "range": [
+            -0.17435107340719125,
+            -0.15646912590586431
+          ],
+          "candidate_deltas": [
+            -0.07,
+            -0.05
+          ],
+          "kind": "Literal parameter-span image, not a confidence interval"
+        },
+        "6": {
+          "range": [
+            0.0004164380918835313,
+            0.0008142692872345017
+          ],
+          "candidate_deltas": [
+            -0.07,
+            -0.05
+          ],
+          "kind": "Literal parameter-span image, not a confidence interval"
+        }
+      },
+      "equal_weight_point_design_only": {
+        "fitted_scale": 0.9999982744706282,
+        "truncated_A2_A4": [
+          0.2899338485265068,
+          -0.16548049567622494
+        ],
+        "shift_from_full_moments": [
+          5.282247285132158e-05,
+          -5.133831172696168e-05
+        ],
+        "design_condition_number": 2.875964613983872,
+        "actual_experimental_covariance_used": false
+      }
+    }
+  ],
+  "source_summaries_kept_separate": {
+    "Table4p3": {
+      "A2": "0.352",
+      "A4": "-0.212",
+      "quoted_margin_each": "0.001",
+      "locator": "SE21-10; printed109/PDF131",
+      "gate_identity": "not certified same as Table4.1 calibration sample"
+    },
+    "Table4p1": {
+      "alpha2": "0.92",
+      "alpha4": "0.30",
+      "alpha2_margin": "0.05",
+      "alpha4_margin": "0.01",
+      "locator": "SE21-10; printed97/PDF119",
+      "meaning": "alpha_exp operation remains unclosed; never treat this pair as certified nuclear rho/B"
+    }
+  },
+  "stop_contract": "After matched-source controls, report A2/A4/A6 for each source configuration/interval and deterministic equal-weight angle truncation; retain producer/response/Cov gaps and stop free-parameter tuning.",
+  "boundaries": [
+    "No full joint response/gate model or covariance",
+    "No new experimental delta/sigma/spin or mode decision",
+    "Quoted intervals are literal parameter spans, not confidence regions",
+    "Theory/operator checks are not independent experiments",
+    "No formalDay16credit/noDay17"
+  ]
+}

@@ -365,3 +365,9 @@ ICC-based `delta` extraction 也可能带来明显非对称误差；当 experime
 在其M1/E2两成分和Krane–Steffen约定下，先`δ=tan(θπ/180)`；radiative E2 fraction为sin²(θπ/180)。上述三解依次给δ≈4.010781/.324920/−.131652和E2份额94.1474%/9.54915%/1.70371%。这些是对应假设下的变换，非本任务的新测量/选解、核B比、absolute enhancement或能级branch。若误把角度−7.5直接当δ，反会得约98.25%的E2份额。
 
 误差也须先保留角区间、每个root与spin方案，再作非线性端点映射；对称degreeerror不自动给对称Gaussian δ误差。Table3实际为E1 interband/可能M2混合，不套M1/E2份额公式。其143.46-keV Is0和Eq11还表明本层localsidefeeding σ在固定其余输入时不可识别，不能把一个σ先验不经验证地移给所有线（IO81-11/12/17）。实际fitgrid和共享Cov仍缺，未重提取原δ。
+
+## Reference混合与alignment反演的耦合
+
+[[sensharma-2021-wobbling-motion-135pr-187au]] SE21-16/17及[[se21-alignment-calibration-consistency]]给出新条件forward检查：在23/2→19/2、固定Gaussian width和point single-gamma模型中，M3/E2仅.04的振幅仍能线性改变A4。误按pureE2参考除maximum系数可让apparent alignment越出核正性域，虽然真实布居和发射均物理。此为明确选定的模型scope反例，不是新的实验delta/归因，也不把七角equalweight projection当actualSigma。
+
+物理相对相位控制delta→−delta时operators固定，observable可改变；KS/RB重参数化须同时变系数与振幅，observable不变。小fraction、native sign、参考纯性和响应/核取向都应随输入保存，不能以一个“delta很小”跳过校准条件。
