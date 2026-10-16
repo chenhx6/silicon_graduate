@@ -81,6 +81,10 @@ Matev2007局部算符/表检验完成后，选择Riley2001公开作者实验报�
 
 10:46上海重核clock，距研究截止约254分钟，返回原Day14从谱到纲图的实际证据迁移。先保存[通用primed回忆](20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/day14-ding-transfer-before-sources.md)，读Ding旧card去重后，再冻结[58.5原件前问题](20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/ding128i-58keV-before-raw.md)。旧矩阵只有ADO歧义摘要，未有三边/前提分解，因此选择此增量，不重复反应道/61rowcount或重评formal14。Day15仍partial，不开Day16。
 
+### 第040批：低能triplet与新读期刊原文
+
+039三节点完成后，11:12上海冻结[primed issue](20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/ding128i-lowenergy-identity-before-sources.md)，选择101.3/两个102.2的真实身份/门/转换合同，仍原Day14谱到图路线，无新卡/Day16。原2010/2011相关论文先前未读；本轮用新的CPL publisher直达入口发现正文，不重复旧受限路径。2011仅空SPA、没有内容证据。研究距15:00仍有充分窗口，source/卡局部完成不是closeout。
+
 ## Sources and evidence
 
 | 来源 / 身份 | 本轮实际覆盖与locator | 证据分层与独立性 |
@@ -197,6 +201,14 @@ Crossref宽查询含NBS报告/会议文及Gelletly1977同题期刊条目，都�
 [[ding-2012-phd-thesis-127-128i-high-spin]] raw100页、4045752bytes/SHA256ca7765ad…已核；本次只读PDF74–82相关章引言/placement/assignment及Figs6.2–6.5/Table6.1，并视觉核主要图/表，不声称100页再全读。实际58.5/255.6/314.3为225.9→167.4、481.8→225.9、481.8→167.4，RADO1.66(60)/.92(20)/.91(15)，括号Jπ和Iγliteral均保存（D12-22）。
 
 PDF79先回述旧(5,6,7)−/M1资料，再明确合用reactionspintrend、已知anchor与其它ADO给建议标签，不把6赋值仅写成两个偶极的exact结果（D12-23）。表能量/强度误差是范围，Fig6.2的226.0/481.7与表225.9/481.8、正文旧225.6保留。Fig6.3标污染星号，Fig6.5的低线101.3/102.2与横轴475–550keV标记不一致，不能据此直接digitize calibratedenergy或补58独立raw门谱（D12-24/26）。旧Sakh/Nati原文仍未读，无新独立采集。
+
+### 第040批：CPL2010四页全文与版本差别
+
+新[[wang-2010-128i-new-high-spin-level-scheme]]来自[出版商页面](https://cpl.iphy.ac.cn/article/doi/10.1088/0256-307X/27/8/082701)的citation_pdf_url，实际[PDF](https://cpl.iphy.ac.cn/en/article/pdf/preview/10.1088/0256-307X/27/8/082701.pdf)403207bytes/SHA28b81f5b…，四页全文/主线/Figs1–4已读，主要谱图/纲图视觉核验；不把metadata或搜寻片段当证据。下载只在Wiki内tmp，原raw/受保护Bib不改、PDF不进Git，citationkey无唯一匹配留空，raw保留槽未填充并记录publicURL/hash。
+
+W10I-1–8直接支持48levels/72γ、Channel轴、roughly14%弱分量、ADO/spin/positiveπ系统学边界。Thesis约10%、61表行及Fig6.5原轴分别保留；没有rawrunID/共同误差合同，不相减计新增或作版本差异显著性。Tsukuba/28&32MeV/4mgcm²/9Ge+planar/67Mγγ/3MXγ高度匹配，保守按共享/重叠acquisition，不能作为新增独立实验。旧References15/16正文仍未读。
+
+Ding新D12-28–32定位三个低能row、.60(7)/.88(21)各自gate和117.8pureE2条件、主链与axis/分母边界。2010期刊本轮读到只更新当前可用性，旧D12-19的2026-10-12受限记录作为历史保持；2011入口HTTP200仅空网页框架，不能计其全文。
 
 ## Theory/analysis exercise
 
@@ -493,6 +505,14 @@ Eq19字面theta在Eq18后缺lab标记（PDF/HTML一致）。若把它当lab可�
 
 固定source的parent7/anchor6，58的H0=L1ΔJ0给6、H2=L2absΔJ2给4/8；两伴随L1加入后剩6/8。再加作者reactionspintrend或其引用历史(5,6,7)prior才剩6。J8是exacttriangle不足唯一的反例，不是实测替代spin或同RADOlikelihood支持。原netcounts/response/Σ未得，不能判实际两解等好。原175±15ns为daughter167.4，不能给225/481 parentabsoluteB（D12-25/27）。
 
+### 第040批：19项typedgraph/字段合同
+
+[量化前冻结](20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/ding128i-lowenergy-before-calculation.md)、[原表输入](20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/ding128i-lowenergy-typed-input.json)、[代码](../../system/scripts/day14_ding128i_transition_identity.py)与[19-check结果](20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/ding128i-lowenergy-typed-audit.json)核两个primaryhash、typedID与selectedpaths。完整解释在[[level-scheme-reconstruction]]“128I低能triplet：transition ID、门与转换字段”。
+
+主链101.3(1562.2→1460.9)→764.7(→696.2)→411.0(→285.2)→102.2a(→183.0)和为1379.2；另102.2b是269.6→167.4，替换最后一边不接。756.5到285后，已列图的102.2a/117.8为竞争分支；selectedgraph不全，缺路径不是实验absence。ICC .60(7)只给a且带866门/pure117.8E2，.88(21)给101.3并带866/402.7门，b的实验ICC保持未知。
+
+仅在共同scale/角平均photon强度、固定strongcenter563与weak≥79条件下，twocomponentfraction≥79/642≈.123052960。不是actualfraction/CL，不把≥79当测得79或调数据证明约10%/14%相容。源给的5–30%范围不定义jointCov或版本检验；混峰转换只保留含未知alpha_b的symbolic式，没有替其填值。
+
 ## Counter-evidence and missing companion observables
 
 HE15-9的实际未定双线是核心反例：energy sum、共享R/A和假设的ΔI=2均不足以裁决order。若一条线出现可独立定位的旁路或延迟顺序，应重审中间level；source仍保留括号Jπ与(E2)。HE15-5的quadruplet限制“一个峰是一条γ”的简化；干净622.4直接分支门与323.4级联门的299-keVcomponent差异可能迫使拆峰，但必须控制622/626门纯度、feeding、response和random。
@@ -593,6 +613,12 @@ Ref39原书对应段、code参数定义/约定与actualpopulation/data仍缺；�
 
 最高信息falsifier是独立spinanchor或58的可靠E/M/混合/转换、匹配门下spinsequence检验；若58被可靠证明stretchedE2且anchor6固定，中间source6需重审。只有大RADO不够。Parentτ/branch/ICC/δ/feeding/response与Cov缺，不能借daughter175ns或relativeIγ计算B。图中未给clean58component不是absence/upperlimit；保留污染/axis与label差异。
 
+### 第040批：sameenergy不是samebranch或同一输入
+
+两个102.2各有parent/daughter/Iγ/RADO，energy字典会掉一边并误传ICC/τ。原门图和最终图都属于同一source链，不各算独立实验证据；CPL Fig4 Channel与thesisFig6.5能量轴标记不能用来补准确校准。原始计数/门纯度/逐angle响应、phase/时间窗/原runID与Cov仍缺，没有实际分峰拟合、检出限或新absoluteB。
+
+如果未来在clean756门证实101.3且排除串扰/污染/未列级联，需要回审source拓扑；当前图无此峰的显示不提供量化上限。Ref16旧图未直接读，不仅凭当前作者比较重建它。0.60(7)不是所有102.2的experimentalICC，14%/10%也不是独立样本差异。
+
 ## Knowledge Impact and Learning Decision
 
 - **supports：** 一图一表的逐边source-level纲图和DCO/偏振/转换联合证据链。
@@ -692,6 +718,10 @@ Decision: **supports** 用投影测度、离散迹和低rank正交理解finite-J
 ### 第039批后的认识决定
 
 Decision: **revises** “伴随线已见所以Jπ唯一”的省略，**supports** givenanchors/exactselection/反应prior/历史输入/source建议分别记账；**limits** energyclosure、relativeIγ与daughterτ直接升级为parentstrength。A130矩阵新增三节点行以接回论文问题，不将Herzáň/Ding不同实验的相似方法当重复测量。正式21/24、completed14/partial15和课程state保持。
+
+### 第040批后的认识决定
+
+Decision: **supports** componentID/端点/gate/ICC先于spin和strength，**revises** 2010primary当前未读状态及对thesis轴/分母的版本认识，**limits** sameenergy合row、口径相减计新增、sharedpaper计独立实验和selectedgraph不连通计absence。没有改变正式21/24、completed14/partial15、课程state或实验模式排序。
 
 ## Durable knowledge delta
 
@@ -3890,6 +3920,153 @@ Decision: **revises** “伴随线已见所以Jπ唯一”的省略，**supports
           "locator": "D12-27"
         }
       ]
+    },
+    {
+      "knowledge": "knowledge/sources/wang-2010-128i-new-high-spin-level-scheme.md",
+      "summary": "直接读取4页CPL正文与Figs1–4，新增typedline/门、Channel轴/14%版本、48/72口径、指认边界及依赖谱系，非独立复测。",
+      "anchor": "Wang等2010：128I的新高自旋能级纲图",
+      "sources": [
+        {
+          "path": "knowledge/sources/wang-2010-128i-new-high-spin-level-scheme.md",
+          "locator": "W10I-1"
+        },
+        {
+          "path": "knowledge/sources/wang-2010-128i-new-high-spin-level-scheme.md",
+          "locator": "W10I-2"
+        },
+        {
+          "path": "knowledge/sources/wang-2010-128i-new-high-spin-level-scheme.md",
+          "locator": "W10I-3"
+        },
+        {
+          "path": "knowledge/sources/wang-2010-128i-new-high-spin-level-scheme.md",
+          "locator": "W10I-4"
+        },
+        {
+          "path": "knowledge/sources/wang-2010-128i-new-high-spin-level-scheme.md",
+          "locator": "W10I-5"
+        },
+        {
+          "path": "knowledge/sources/wang-2010-128i-new-high-spin-level-scheme.md",
+          "locator": "W10I-6"
+        },
+        {
+          "path": "knowledge/sources/wang-2010-128i-new-high-spin-level-scheme.md",
+          "locator": "W10I-7"
+        },
+        {
+          "path": "knowledge/sources/wang-2010-128i-new-high-spin-level-scheme.md",
+          "locator": "W10I-8"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/sources/ding-2012-phd-thesis-127-128i-high-spin.md",
+      "summary": "保存两102.2/101.3各自端点/ICC/gates、主链及新读2010版本的访问/轴/分母边界。",
+      "anchor": "DAY14低能triplet与2010正文的新核验",
+      "sources": [
+        {
+          "path": "knowledge/sources/ding-2012-phd-thesis-127-128i-high-spin.md",
+          "locator": "D12-28"
+        },
+        {
+          "path": "knowledge/sources/ding-2012-phd-thesis-127-128i-high-spin.md",
+          "locator": "D12-29"
+        },
+        {
+          "path": "knowledge/sources/ding-2012-phd-thesis-127-128i-high-spin.md",
+          "locator": "D12-30"
+        },
+        {
+          "path": "knowledge/sources/ding-2012-phd-thesis-127-128i-high-spin.md",
+          "locator": "D12-31"
+        },
+        {
+          "path": "knowledge/sources/ding-2012-phd-thesis-127-128i-high-spin.md",
+          "locator": "D12-32"
+        },
+        {
+          "path": "knowledge/sources/wang-2010-128i-new-high-spin-level-scheme.md",
+          "locator": "W10I-5"
+        },
+        {
+          "path": "knowledge/sources/wang-2010-128i-new-high-spin-level-scheme.md",
+          "locator": "W10I-7"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/methods/level-scheme-reconstruction.md",
+      "summary": "固化typedrow路径/竞争分支、conversion身份和RI条件界；selectedgraph非absence，未知response/Cov/ICC不填。",
+      "anchor": "128I低能triplet：transition ID、门与转换字段",
+      "sources": [
+        {
+          "path": "knowledge/sources/ding-2012-phd-thesis-127-128i-high-spin.md",
+          "locator": "D12-28"
+        },
+        {
+          "path": "knowledge/sources/ding-2012-phd-thesis-127-128i-high-spin.md",
+          "locator": "D12-29"
+        },
+        {
+          "path": "knowledge/sources/ding-2012-phd-thesis-127-128i-high-spin.md",
+          "locator": "D12-30"
+        },
+        {
+          "path": "knowledge/sources/ding-2012-phd-thesis-127-128i-high-spin.md",
+          "locator": "D12-31"
+        },
+        {
+          "path": "knowledge/sources/ding-2012-phd-thesis-127-128i-high-spin.md",
+          "locator": "D12-32"
+        },
+        {
+          "path": "knowledge/sources/wang-2010-128i-new-high-spin-level-scheme.md",
+          "locator": "W10I-5"
+        },
+        {
+          "path": "knowledge/sources/wang-2010-128i-new-high-spin-level-scheme.md",
+          "locator": "W10I-6"
+        },
+        {
+          "path": "knowledge/sources/wang-2010-128i-new-high-spin-level-scheme.md",
+          "locator": "W10I-7"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/projects/a130-thesis-evidence-matrix.md",
+      "summary": "新增triplet身份/出版版本的论文证据接口，分开图轴、计数口径、fraction与共享采集。",
+      "anchor": "128I低能triplet的身份与出版版本",
+      "sources": [
+        {
+          "path": "knowledge/sources/ding-2012-phd-thesis-127-128i-high-spin.md",
+          "locator": "D12-31"
+        },
+        {
+          "path": "knowledge/sources/wang-2010-128i-new-high-spin-level-scheme.md",
+          "locator": "W10I-1"
+        },
+        {
+          "path": "knowledge/sources/wang-2010-128i-new-high-spin-level-scheme.md",
+          "locator": "W10I-2"
+        },
+        {
+          "path": "knowledge/sources/wang-2010-128i-new-high-spin-level-scheme.md",
+          "locator": "W10I-7"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/index.md",
+      "summary": "为新读CPL2010 primary建立canonical入口。",
+      "anchor": "wang-2010-128i-new-high-spin-level-scheme",
+      "sources": [
+        {
+          "path": "knowledge/sources/wang-2010-128i-new-high-spin-level-scheme.md",
+          "locator": "W10I-1"
+        }
+      ]
     }
   ]
 }
@@ -4040,6 +4217,8 @@ Danko99primary合法OA/publicPDF/官方API/repo均未提供正文（403HTML/401J
 
 第039批在`knowledge/sources/ding-2012-phd-thesis-127-128i-high-spin.md`新增D12-22–27及“DAY14三节点局部证据：58.5-keV与spin先验”，原Table/Fig/论证locator精确保留；在`knowledge/methods/level-scheme-reconstruction.md`写入“128I：58.5-keV局部三边与spin先验”，保存逐边E/C/M/J证据矩阵、候选集、falsifier与lifetime身份；在`knowledge/projects/a130-thesis-evidence-matrix.md`新增“128I 58.5-keV局部”行。可复用知识已canonical，代码/日报不是唯一副本；旧21行flags/review/raw保持。
 
+第040批新建`knowledge/sources/wang-2010-128i-new-high-spin-level-scheme.md`，保存W10I-1–8的四页primary、图/页/URL/hash、谱系与版本边界；Ding source新增D12-28–32；`knowledge/methods/level-scheme-reconstruction.md`新增“128I低能triplet：transition ID、门与转换字段”；`knowledge/projects/a130-thesis-evidence-matrix.md`新增“128I低能triplet的身份与出版版本”；`knowledge/index.md`加入回链。长期知识在canonical，原PDF仅tmp/不改raw，所有新claims true、旧review保持。
+
 ## Open questions and belief revision
 
 1. 哪个旁路、time/tag或独立spin anchor能裁决393/394的顺序？重复同一能量和不能裁决。
@@ -4061,6 +4240,8 @@ Danko99primary合法OA/publicPDF/官方API/repo均未提供正文（403HTML/401J
 
 第039批新问题：实际58的multipolarity/独立spin材料能否把source采用的历史prior/reactiontrend变为独立判别？当前旧primary和actual门/角谱未得。相邻102.2/101.3的lineidentity与表/图axis边界是下一潜在高信息route，须另冻结来源前问题，不直接继承“同能量同transition”。
 
+第040批还缺原Ref15/16、exactevent lineage/时间窗定义、planar能量校准/混峰响应与共同Cov，才可对102分量/方案版本做实际重分析。2011空SPA没有补此缺口。下一高信息route可核2009旧方案primary或现有源的timewindow/事件口径；先新issue回忆/时钟，不由新论文可用性增加学分。
+
 ## L0–L4 state
 
 最新moment放宽与图仍为L2 source-conditioned分析；fullbranch/转换/response/Cov不全，真实167Tm experimental refit仍not-ready，不以高精度计算冒充L4或新实测分支。
@@ -4081,6 +4262,8 @@ Danko99primary合法OA/publicPDF/官方API/repo均未提供正文（403HTML/401J
 第038批是L1访问/直接多项式输入核查与L2符号推导；原书未读、未新建booksource、无experimentalL4。数学Gram范数与实验误差分开，正式卡和Day15信用状态不变。
 
 第039批为L1本地raw/图表/正文核验和L2真实source条件选择集/算术，无actualspin重拟或experimentalL4；没有把100页重复读或16checks作新学分，formal14/partial15保持。
+
+第040批为L0/L1直接CPL2010四页primary读取与L2 typedgraph/强度字段条件核算。19checks没有实际分峰/角fit或L4实验refit；新publicsource原件只tmp、有URL/hash而raw槽未归档，风险在source记录。Day14成绩、Day15无信用状态保持。
 
 ## Verification and continuation
 
@@ -4368,3 +4551,11 @@ Farmer42019于10:39上海核running/currentthreadrunning，未新session/goal或
 16项实际source三边/Decimal残差/selection与prior分解检查最终exit0，首次断言错误exit1及修复已留证。report/card/writeback valid，唯一block132items/41changedknowledge页；Ding旧21行/flags与review保持，新22–27true，原三页只增量/日期更新。rawmetadata/PLAN/Bib/source/input哈希、AST、state14/count13通过。`wiki_lint.py --fail-on error`实际exit0，0errors/141warnings（112citekeys/26rawslots/3reactionparser），`git diff --check`、boundary/preflight exit0。EOLexit1仅保留本批3页substantive，0restore/unsafe。
 
 Farmer42019于11:07上海核running/currentthreadrunning，未新session/goal或重启daily scheduler。Stablepointer main / `Audit DAY14 iodine local spin-assignment evidence`，actualH3/hash/push只publication-039.json。当前仍active，研究2026-10-16 15:00止、16:00交付；下一clock/pool可继续101/102身份/真实历史方案与逐gate材料，先保存独立primed问题、不把同峰和图轴作校准数据。Formal21/24、completed14/partial15不变；preserve inherited/raw/PLAN/Bib/review，显式manifest/H3非force发布。
+
+### 第040批验收与续接
+
+19项typedID/graph/ICC/RI/sourcehash检查实际exit0，report/card/writeback valid，唯一block137items/42changedknowledge页。Ding旧27行/flags/review保持，新28–32/W10I1–8 true；rawmetadata/PLAN/Bib、两primary与input哈希/AST、state14/count13通过。`wiki_lint.py --fail-on error`最终exit0，0errors/143warnings（113citekeys/27rawslots/3reactionparser）；新增两项是新source无唯一Bibkey及未填raw保留槽。首次lint exit1有5个新source schema错误，补明确未填raw槽/已核publicPDF期望hash及Summary/ExtractedPages后同命令通过；没有写raw或改科学数值。
+
+`git diff --check`、boundary/preflight实际exit0；EOLexit1仅保留4页既有本批substantive，加新未跟踪source，0restore/unsafe。Farmer42019于11:29上海核running/currentthreadrunning，未新session/goal或重启daily scheduler。Stablepointer main / `Audit DAY14 iodine triplet identities against primary spectra`，actualH3/hash/push只publication-040.json。
+
+仍active，研究2026-10-16 15:00上海止、16:00交付；下一clock/pool可核2009Ref16真实旧方案或timewindow/eventlineage，新issue先回忆。原缺失inputs/independence边界不因新读4页而消失，不提前信用或closeout；preserve inherited/raw/PLAN/Bib/review，显式manifest/H3非force发布。

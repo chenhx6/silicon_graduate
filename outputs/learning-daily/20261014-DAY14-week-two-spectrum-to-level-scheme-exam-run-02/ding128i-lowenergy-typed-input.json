@@ -1,0 +1,149 @@
+{
+  "kind": "source-selected graph, not complete scheme or eventlikelihood",
+  "thesis_source": {
+    "path": "raw/papers/degree dissertation/丁兵 - 博士论文.pdf",
+    "sha256": "ca7765ad962ea0c106791532f5a7d9f359533d25bb0170f03197bfec414be5c7"
+  },
+  "paper_source": {
+    "path": "tmp/day14-20261014/128i-related-primary/wang2010-cpl-publisher.pdf",
+    "sha256": "28b81f5be7dfbe3b7efbb7efb37576eef7e4ac6060baac6c19d54e9c0187c387"
+  },
+  "rows": [
+    {
+      "id": "t101",
+      "E_gamma_keV": "101.3",
+      "parent_keV": "1562.2",
+      "daughter_keV": "1460.9",
+      "I_gamma_literal": "146",
+      "R_ADO_literal": "0.70(8)",
+      "source_parent_spin": "10+",
+      "source_daughter_spin": "9+",
+      "locator": "DingPDF78-79 Table6.1",
+      "spinlabels_tentative": true
+    },
+    {
+      "id": "t102a",
+      "E_gamma_keV": "102.2",
+      "parent_keV": "285.2",
+      "daughter_keV": "183.0",
+      "I_gamma_literal": "563",
+      "R_ADO_literal": "0.90(7)",
+      "source_parent_spin": "8-",
+      "source_daughter_spin": "7-",
+      "locator": "DingPDF78-79 Table6.1",
+      "spinlabels_tentative": true
+    },
+    {
+      "id": "t102b",
+      "E_gamma_keV": "102.2",
+      "parent_keV": "269.6",
+      "daughter_keV": "167.4",
+      "I_gamma_literal": ">=79",
+      "R_ADO_literal": "0.95(16)",
+      "source_parent_spin": "7-",
+      "source_daughter_spin": "6-",
+      "locator": "DingPDF78-79 Table6.1",
+      "spinlabels_tentative": true
+    },
+    {
+      "id": "t117",
+      "E_gamma_keV": "117.8",
+      "parent_keV": "285.2",
+      "daughter_keV": "167.4",
+      "I_gamma_literal": "49",
+      "R_ADO_literal": "1.54(13)",
+      "source_parent_spin": "8-",
+      "source_daughter_spin": "6-",
+      "locator": "DingPDF78-79 Table6.1",
+      "spinlabels_tentative": true
+    },
+    {
+      "id": "t756",
+      "E_gamma_keV": "756.5",
+      "parent_keV": "1041.7",
+      "daughter_keV": "285.2",
+      "I_gamma_literal": "396",
+      "R_ADO_literal": "1.47(11)",
+      "source_parent_spin": "10-",
+      "source_daughter_spin": "8-",
+      "locator": "DingPDF78-79 Table6.1",
+      "spinlabels_tentative": true
+    },
+    {
+      "id": "t764",
+      "E_gamma_keV": "764.7",
+      "parent_keV": "1460.9",
+      "daughter_keV": "696.2",
+      "I_gamma_literal": "257",
+      "R_ADO_literal": "1.45(11)",
+      "source_parent_spin": "9+",
+      "source_daughter_spin": "9-",
+      "locator": "DingPDF78-79 Table6.1",
+      "spinlabels_tentative": true
+    },
+    {
+      "id": "t411",
+      "E_gamma_keV": "411.0",
+      "parent_keV": "696.2",
+      "daughter_keV": "285.2",
+      "I_gamma_literal": "468",
+      "R_ADO_literal": "0.65(5)",
+      "source_parent_spin": "9-",
+      "source_daughter_spin": "8-",
+      "locator": "DingPDF78-79 Table6.1",
+      "spinlabels_tentative": true
+    },
+    {
+      "id": "t866",
+      "E_gamma_keV": "866.0",
+      "parent_keV": "1562.2",
+      "daughter_keV": "696.2",
+      "I_gamma_literal": "100",
+      "R_ADO_literal": "0.97(8)",
+      "source_parent_spin": "10+",
+      "source_daughter_spin": "9-",
+      "locator": "DingPDF78-79 Table6.1",
+      "spinlabels_tentative": true
+    },
+    {
+      "id": "t345",
+      "E_gamma_keV": "345.4",
+      "parent_keV": "1041.7",
+      "daughter_keV": "696.2",
+      "I_gamma_literal": "45",
+      "R_ADO_literal": "0.89(7)",
+      "source_parent_spin": "10-",
+      "source_daughter_spin": "9-",
+      "locator": "DingPDF78-79 Table6.1",
+      "spinlabels_tentative": true
+    }
+  ],
+  "conversion": [
+    {
+      "transition_id": "t102a",
+      "alpha_total_exp_literal": "0.60(7)",
+      "alpha_total_M1_theory_literal": "0.703(14)",
+      "gates": "866.0",
+      "conditioning": "117.8 assumed pure E2",
+      "locator": "DingPDF79-80"
+    },
+    {
+      "transition_id": "t101",
+      "alpha_total_exp_literal": "0.88(21)",
+      "alpha_total_M1_theory_literal": "0.721(15)",
+      "gates": "866.0 and 402.7",
+      "conditioning": "source intensitybalance/lineidentity",
+      "locator": "DingPDF80"
+    }
+  ],
+  "t102b_conversion": null,
+  "weak_fraction_thesis_literal": "about10percent oftotal102.2",
+  "weak_fraction_paper_literal": "roughly14percent oftotal102.2",
+  "RI_normalization": "866.0=100; quoted5-30percent uncertainty range, no perrowCov",
+  "fraction_condition": "onlyif both common-scale angle-averaged photon intensities and fixed strongcenter563; weak>=79",
+  "actual_component_fraction": null,
+  "actual_response": null,
+  "actual_net_counts": null,
+  "actual_covariance": null,
+  "graph_completeness_claimed": false
+}

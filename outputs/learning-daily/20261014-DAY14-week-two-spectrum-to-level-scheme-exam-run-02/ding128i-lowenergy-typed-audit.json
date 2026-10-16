@@ -1,0 +1,242 @@
+{
+  "kind": "typed source graph/field contract, not experimental reconstruction or fraction fit",
+  "checks": {
+    "thesis_source_hash": true,
+    "paper_source_hash": true,
+    "typed_IDs_unique_with_duplicate_energy": true,
+    "energy_only_key_would_drop_transition": true,
+    "source_four_step_chain_endpoint_join": true,
+    "other102_cannot_replace_last_edge": true,
+    "four_step_source_energy_sum": true,
+    "866_crossover_matches_parallel_sum": true,
+    "selected_graph_756_daughter_has_two_terminal_branches": true,
+    "selected_graph_no_102b_path_from285": true,
+    "same_parent102a_and117_exclusive_in_selected_graph": true,
+    "graph_nonreachability_not_experimental_absence": true,
+    "ICC_attached_to_specific_rows": true,
+    "ICC_gate_and_purity_condition_retained": true,
+    "conditional_fraction_lower_endpoint": true,
+    "lower_bound_not_weak_value_measurement": true,
+    "paper_rough14_compatible_with_fixedcenter_lower_bound": true,
+    "no_actual_fraction_or_joint_cov_inferred": true,
+    "source_selected_energy_residuals_literal": true
+  },
+  "check_count": 19,
+  "passed": true,
+  "inputs": {
+    "kind": "source-selected graph, not complete scheme or eventlikelihood",
+    "thesis_source": {
+      "path": "raw/papers/degree dissertation/丁兵 - 博士论文.pdf",
+      "sha256": "ca7765ad962ea0c106791532f5a7d9f359533d25bb0170f03197bfec414be5c7"
+    },
+    "paper_source": {
+      "path": "tmp/day14-20261014/128i-related-primary/wang2010-cpl-publisher.pdf",
+      "sha256": "28b81f5be7dfbe3b7efbb7efb37576eef7e4ac6060baac6c19d54e9c0187c387"
+    },
+    "rows": [
+      {
+        "id": "t101",
+        "E_gamma_keV": "101.3",
+        "parent_keV": "1562.2",
+        "daughter_keV": "1460.9",
+        "I_gamma_literal": "146",
+        "R_ADO_literal": "0.70(8)",
+        "source_parent_spin": "10+",
+        "source_daughter_spin": "9+",
+        "locator": "DingPDF78-79 Table6.1",
+        "spinlabels_tentative": true
+      },
+      {
+        "id": "t102a",
+        "E_gamma_keV": "102.2",
+        "parent_keV": "285.2",
+        "daughter_keV": "183.0",
+        "I_gamma_literal": "563",
+        "R_ADO_literal": "0.90(7)",
+        "source_parent_spin": "8-",
+        "source_daughter_spin": "7-",
+        "locator": "DingPDF78-79 Table6.1",
+        "spinlabels_tentative": true
+      },
+      {
+        "id": "t102b",
+        "E_gamma_keV": "102.2",
+        "parent_keV": "269.6",
+        "daughter_keV": "167.4",
+        "I_gamma_literal": ">=79",
+        "R_ADO_literal": "0.95(16)",
+        "source_parent_spin": "7-",
+        "source_daughter_spin": "6-",
+        "locator": "DingPDF78-79 Table6.1",
+        "spinlabels_tentative": true
+      },
+      {
+        "id": "t117",
+        "E_gamma_keV": "117.8",
+        "parent_keV": "285.2",
+        "daughter_keV": "167.4",
+        "I_gamma_literal": "49",
+        "R_ADO_literal": "1.54(13)",
+        "source_parent_spin": "8-",
+        "source_daughter_spin": "6-",
+        "locator": "DingPDF78-79 Table6.1",
+        "spinlabels_tentative": true
+      },
+      {
+        "id": "t756",
+        "E_gamma_keV": "756.5",
+        "parent_keV": "1041.7",
+        "daughter_keV": "285.2",
+        "I_gamma_literal": "396",
+        "R_ADO_literal": "1.47(11)",
+        "source_parent_spin": "10-",
+        "source_daughter_spin": "8-",
+        "locator": "DingPDF78-79 Table6.1",
+        "spinlabels_tentative": true
+      },
+      {
+        "id": "t764",
+        "E_gamma_keV": "764.7",
+        "parent_keV": "1460.9",
+        "daughter_keV": "696.2",
+        "I_gamma_literal": "257",
+        "R_ADO_literal": "1.45(11)",
+        "source_parent_spin": "9+",
+        "source_daughter_spin": "9-",
+        "locator": "DingPDF78-79 Table6.1",
+        "spinlabels_tentative": true
+      },
+      {
+        "id": "t411",
+        "E_gamma_keV": "411.0",
+        "parent_keV": "696.2",
+        "daughter_keV": "285.2",
+        "I_gamma_literal": "468",
+        "R_ADO_literal": "0.65(5)",
+        "source_parent_spin": "9-",
+        "source_daughter_spin": "8-",
+        "locator": "DingPDF78-79 Table6.1",
+        "spinlabels_tentative": true
+      },
+      {
+        "id": "t866",
+        "E_gamma_keV": "866.0",
+        "parent_keV": "1562.2",
+        "daughter_keV": "696.2",
+        "I_gamma_literal": "100",
+        "R_ADO_literal": "0.97(8)",
+        "source_parent_spin": "10+",
+        "source_daughter_spin": "9-",
+        "locator": "DingPDF78-79 Table6.1",
+        "spinlabels_tentative": true
+      },
+      {
+        "id": "t345",
+        "E_gamma_keV": "345.4",
+        "parent_keV": "1041.7",
+        "daughter_keV": "696.2",
+        "I_gamma_literal": "45",
+        "R_ADO_literal": "0.89(7)",
+        "source_parent_spin": "10-",
+        "source_daughter_spin": "9-",
+        "locator": "DingPDF78-79 Table6.1",
+        "spinlabels_tentative": true
+      }
+    ],
+    "conversion": [
+      {
+        "transition_id": "t102a",
+        "alpha_total_exp_literal": "0.60(7)",
+        "alpha_total_M1_theory_literal": "0.703(14)",
+        "gates": "866.0",
+        "conditioning": "117.8 assumed pure E2",
+        "locator": "DingPDF79-80"
+      },
+      {
+        "transition_id": "t101",
+        "alpha_total_exp_literal": "0.88(21)",
+        "alpha_total_M1_theory_literal": "0.721(15)",
+        "gates": "866.0 and 402.7",
+        "conditioning": "source intensitybalance/lineidentity",
+        "locator": "DingPDF80"
+      }
+    ],
+    "t102b_conversion": null,
+    "weak_fraction_thesis_literal": "about10percent oftotal102.2",
+    "weak_fraction_paper_literal": "roughly14percent oftotal102.2",
+    "RI_normalization": "866.0=100; quoted5-30percent uncertainty range, no perrowCov",
+    "fraction_condition": "onlyif both common-scale angle-averaged photon intensities and fixed strongcenter563; weak>=79",
+    "actual_component_fraction": null,
+    "actual_response": null,
+    "actual_net_counts": null,
+    "actual_covariance": null,
+    "graph_completeness_claimed": false
+  },
+  "energy_to_typed_IDs": {
+    "101.3": [
+      "t101"
+    ],
+    "102.2": [
+      "t102a",
+      "t102b"
+    ],
+    "117.8": [
+      "t117"
+    ],
+    "756.5": [
+      "t756"
+    ],
+    "764.7": [
+      "t764"
+    ],
+    "411.0": [
+      "t411"
+    ],
+    "866.0": [
+      "t866"
+    ],
+    "345.4": [
+      "t345"
+    ]
+  },
+  "four_step_chain": [
+    "t101",
+    "t764",
+    "t411",
+    "t102a"
+  ],
+  "chain_sum_keV": "1379.2",
+  "selected_graph_paths_below_756_daughter": [
+    [
+      "t102a"
+    ],
+    [
+      "t117"
+    ]
+  ],
+  "central_energy_residuals_keV": {
+    "t101": "0.0",
+    "t102a": "0.0",
+    "t102b": "0.0",
+    "t117": "0.0",
+    "t756": "0.0",
+    "t764": "0.0",
+    "t411": "0.0",
+    "t866": "0.0",
+    "t345": "-0.1"
+  },
+  "conditional_two_photon_component_fraction_lower_endpoint": "79/642",
+  "weak_component_RI_required_if_fraction14_and_strong563": "3941/43",
+  "blended_conversion_symbolic": "(563*alpha_102a + W*alpha_102b)/(563+W), W>=79 only under declared intensity contract",
+  "actual_alpha_102b": null,
+  "actual_component_fraction": null,
+  "input_sha256": "504444fabf35b8c672a5911052fab100e912828d22fe8fd862fd96df43fb531c",
+  "limitations": [
+    "source endpoint graph is an input, not independently fitted from raw coincidences",
+    "selected graph is not complete; missing path is not an experimental upper limit",
+    "photon fraction bound conditions on common scale and fixed strongcenter; not CL",
+    "quoted global error ranges and approximate10/14percent do not define a joint version-comparison test",
+    "no calibrated digitization of thesis Fig6.5 axis and no unknown ICC imputed",
+    "2010paper/theses treated as dependent acquisition, not independent replications"
+  ]
+}

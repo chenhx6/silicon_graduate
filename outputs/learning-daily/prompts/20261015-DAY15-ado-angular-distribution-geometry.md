@@ -381,3 +381,8 @@ Ref39书段本轮未得（Crossref过滤无item/宽匹配为无关文/同题期�
 ## DAY14原课程迁移039的priming
 
 Ding128I实际三边58.5/255.6/314.3与225.9/481.8/167.4核过：sourceADO歧义/两伴随dipole仍需旧资料或reactionspintrend，exacttriangle允许6/8不等后者被实验支持。16checks/逐边E/C/M/J矩阵和parent-vs-daughterτ边界已canonical；是原Day14迁移练习，不给正式Day15信用/沿用为其考试。正式15仍先保存自身primed回忆、matchedgeometry/gate/response核验，不开Day16。
+
+
+## DAY14原课程迁移040的priming
+
+CPL2010 128I四页primary现已读，新增source保留Channel轴/roughly14%与Ding约10%和61table rows/48levels72γ的口径；同Tsukuba指纹保守按依赖采集。19checks typedID/paths与两102.2/101.3各自ICC/gate、commonphotonRI条件界不等actualfraction/CI。正式15记录此priming，独立回忆/本卡交付后计卡，不沿用Day14分数或当新独立实验。

@@ -707,3 +707,37 @@ Jx8只证明某套条件不够唯一，不是被实验支持的替代赋值或�
 175±15ns属于167.4的daughterisomer，不能给225或481的parent寿命/absoluteB。58的parentτ、conversion-correctedbranches、δ、响应/喂入和原共同Cov未得，L4notready。图6.3的星号污染、239.0/239.2标签差异与图6.5的低线/横轴标记都提示原图不能代逐门校准输入；不把未展示58cleancomponent称为absence或估计检出限。
 
 [16-check脚本](../../system/scripts/day14_ding128i_local_evidence.py)、[原表输入](../../outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/ding128i-local-evidence-input.json)和[审计](../../outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/ding128i-local-evidence-audit.json)保留sourcehash/Decimal残差/候选集合及null实际data。Decision: **revises** 把伴随线存在等同唯一Jπ的省略；**supports** 给定输入、exact约束、物理prior和sourceinterpretation分别列出。没有新spin/组态/shape判决或正式分数变化。
+
+## 128I低能triplet：transition ID、门与转换字段
+
+[[ding-2012-phd-thesis-127-128i-high-spin]] D12-28–32与新读4页[[wang-2010-128i-new-high-spin-level-scheme]] W10I-1–8提供实际从复合峰到纲图的对照。两版装置/反应/67Mγγ与3MXγ指纹匹配，保守按共享/重叠采集，不把新增论文当独立重复。原raw/Cov/代码仍缺；本节只核已报告端点/字段，非experimentalrefit。
+
+### 同能量的typedrow与转换
+
+| ID/transition | Ding relativeIγ / RADO | conversion与身份边界 |
+| --- | --- | --- |
+| t101：101.3，1562.2→1460.9 | 146 / .70(8) | alphaT_exp=.88(21)，866/402.7门；source M1解释与positiveπ系统学分层 |
+| t102a：102.2，285.2→183.0 | 563 / .90(7) | alphaT_exp=.60(7)，866门/假设117.8 pureE2；理论M1 .703(14)是理论参考 |
+| t102b：102.2，269.6→167.4 | ≥79 / .95(16) | 本轮原段未给对应实验ICC；不能抄a的.60(7)，旧primary M1说法另记 |
+
+自动处理应以source+row/parent/daughter作ID，energy只是观测字段。同能量字典会丢一边；它还会将a的ICC、RADO或parentτ错误写给b。理论相近energy/相同multipolarity可能给相近ICC，也不使两条线的实验估计或gate/混合合同相同。
+
+### 已报告端点图与真实门的作用
+
+Table/Fig采用的主链为`t101(1562.2→1460.9) → t764(→696.2) → t411(→285.2) → t102a(→183.0)`。其101.3+764.7+411.0+102.2=1379.2keV，与首末节点差相同；101.3+764.7=866.0对应平行分支。用t102b替换最后一边会因parent不接而失败，同energy不挽救该路径。
+
+source的756.5支从1041.7到285.2；在本轮选定边图中，其后可走t102a到183或117.8到167，它们是同parent的竞争分支。t102b从269.6出发，不在这些已列路径。图不完备时，“本图无路径”不能转成实验不可能、未见分支上限或检出概率；实际input仍需逐gate数据/响应和unseenfeeding审计。
+
+Ding Fig6.5/CPL Fig4的756.5/764.7/117.8门分别比较低能component。两版均说明101.3与102.2的门响应不同，补lineidentity而非仅作energyclosure。旧Zheng2009图未读，本任务只记录作者“411只用一次/修订旧方案”的陈述，不重建或裁决旧图。CPL Fig3本身也是source采用的最终图，不算独立raw证据。
+
+### fraction、relativeI与branch的分母
+
+若另声明两条102.2的I是同scale/角平均photon强度，并固定a的打印中心563、b仅W≥79，则`f_b=W/(563+W)≥79/642≈.123052960`。这是对这套条件算术的界，不是实际fraction估计、置信界或branch probability；W的下界不能当精确79、表的5–30%总体误差范围不能变成jointCov。
+
+CPL正文说weak roughly14% total，Ding正文说约10%，分别保留为版本材料。不能从一个固定center/未核field合同的.123界判作者错误或版本相冲突，也不能人为补Cov或调counts证明相容。相同能量也不保证不同门/归一条件的componentfraction相同。若考虑混峰转换，只有字段合同匹配时才写`alpha_blend=(563 alpha_a+W alpha_b)/(563+W)`，alpha_b保持未知，不能用一个component的实验ICC代整体。
+
+### 图轴、谱系与可复算边界
+
+CPL Fig4横轴明确Channel（约900–1100），Ding Fig6.5印能量keV（约475–550）而线标101.3/102.2；不能从标签推准确校准或重bin映射、把像素横坐标直接作低线keV。图/表/作者解释的版本映射可重用，calibratednetcounts/逐门Σ仍未得。2010报告48levels/72γ、Ding原表61rows口径不同，不能相减计新线或独立采集。
+
+[19-check程序](../../system/scripts/day14_ding128i_transition_identity.py)、[输入](../../outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/ding128i-lowenergy-typed-input.json)与[结果](../../outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/ding128i-lowenergy-typed-audit.json)保存两个primaryhash、typedID/paths、literal energy、ICC合同和强度条件界。Decision: **supports** 先辨component/门/端点再接spin、ICC与strength；**limits** 仅按energy去重、同一谱系重复计权以及把图不连通当experimentalabsence。正式Day14 21/24、completed14/partial15不变。

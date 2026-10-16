@@ -1,23 +1,23 @@
-# DAY14同session继续：039后128I lineidentity候选
+# DAY14同session继续：040低能triplet与真实期刊
 
-先run.json；completed只交付。Run2026-10-14-day-14-02/session01a13a0e-e8bd-7251-b970-f6975679e281，goal/runactive。断网用户加时覆盖旧截止：研究2026-10-16 15:00上海止、16:00交付。Resume `codex resume 01a13a0e-e8bd-7251-b970-f6975679e281 -C /workspace/wiki -s danger-full-access -a never`。不新session/goal/daily scheduler。
+先run.json；completed只交付。Run2026-10-14-day-14-02/session01a13a0e-e8bd-7251-b970-f6975679e281，goal/runactive。用户断网加时研究2026-10-16 15:00上海止、16:00交付覆盖旧截止。Resume `codex resume 01a13a0e-e8bd-7251-b970-f6975679e281 -C /workspace/wiki -s danger-full-access -a never`，不新session/goal/daily scheduler。
 
-正式14 primedrecall/Herzáň20页一图一表/五level七边35checks/判据矩阵/21/24/weeklyREFLECT具备；completed14/partial15、officialnext14count13等最终完整门后一次只计14，Day15无信用，不开Day16。
+正式14 primedrecall/Herzáň20页一图一表/五level七边35checks/判据矩阵/21/24/weeklyREFLECT具备。completed14/partial15，officialnext14count13等最终门后一次只计14。Day15无信用，不开Day16。
 
-039返回原Day14 Ding2012实际谱到图迁移。先通用来源前回忆day14-ding-transfer-before-sources.md，再读旧card去重，然后ding128i-58keV-before-raw.md冻结后开raw。raw100页/4045752bytes/SHAca7765ad...匹配；本轮PDF74–82相关引言/placement/assignment和Figures6.2–6.5/Table6.1，未声称全100页重读。图旋转后主要图/表已视觉核。
+040沿原Day14Ding128I实际lineidentity继续，先ding128i-lowenergy-identity-before-sources.md再ding128i-lowenergy-before-calculation.md，明确primed。新directpublisher页面CPL DOI10.1088/0256-307X/27/8/082701可访问，citation_pdf_url给公开PDF，4页/403207bytes/SHA28b81f5be7dfbe3b7efbb7efb37576eef7e4ac6060baac6c19d54e9c0187c387。全文主线/全部Figs1–4/讨论已读，PDF只tmp/day14-20261014/128i-related-primary不改raw、不进Git。新source knowledge/sources/wang-2010-128i-new-high-spin-level-scheme.md，W10I1–8 true，citationkey无唯一Bibmatch/raw槽未归档/URL和publicsha保留，lint警告按实际contentreceipt。2011 exactpublisher仅HTTP200空SPA，正文未得，不把Crossref乱序作者当firstauthor证据。
 
-三node三edge由Table原件：58.5 I5 R1.66(60) 225.9→167.4 (6−)→(6−)；255.6 I4 R.92(20) 481.8→225.9 (7−)→(6−)；314.3 I6 R.91(15) 481.8→167.4同7→6。Figure标226.0/481.7，table225.9/481.8，body旧225.6不统一。Eγ−ΔE0/−.3/−.1，triangle−.2，rangeonlyenergyerr.1–.5不补σ/Cov/χ²；relativeI以866=100非branch。第一次assert误314residual0被自测捕获，修为−.1且source/input不动，failure留receipt。
+CPL报告48levels72γ，Fig4横轴Channel约900–1100，弱102.2正文rough14%；Dingthesis61table rows/Fig6.5能量轴约475–550但低线标101/102、正文约10%。分别保留，没补校准/rebin映射、减数算新增或做版本显著性。Tsukuba/28&32MeV/4mgcm²/planar+9Ge/67Mγγ/3MXγ匹配，保守按依赖/重叠acquisition，未取runIDs/时间窗定义，不计新独立beamrun。原CPL Ref15 Sakh1991 NPA528317/Ref16 Zheng2009 CPC33,179只看reference未读body，不根据现作者批评重建旧图。相关先前restricted记录仅历史，当前CPL已读。
 
-PDF79明说58歧义ΔI2Q/ΔI0D，同时用314/255D、reactionspintrend和旧(5,6,7)−/M1输入。16checks sourceconditioned CSP给fixedparent7/anchor6、H0J6/H2J4or8，两伴随L1后6/8都过exacttriangle；额外reactionspintrend或historicalprior才6。J8只是必要约束不足唯一的反例，不是它被ADO/experiment支持或newassignment；未恢复actualR/netcounts/Σ/likelihood，不能称两解等好。E/M与parity仍需更多材料。
+19checks day14_ding128i_transition_identity.py：t1011562.2→1460.9，t764→696.2，t411→285.2，t102a→183.0，四段1379.2；另t102b269.6→167.4，不能按同energy替换链末。756.5到285后selectedgraph里a/117是竞争分支，没有b路径仅属selectedgraph，非完整实验absence/upperlimit。ICC .60(7)只a并带866gate/117pureE2，.88(21)只101并带866/402gate，bICC仍空；未知αblend仅symbolic。固定563/weak≥79+commonangleavgphoton合同给f≥79/642≈.123052960，不是truefraction/CI，不把下界当79或调Cov证明14/10一致。没有实际分峰/角fit/σδ/B。
 
-175±15ns属于167.4daughterisomer，225/481parentτ为空，不能借算absoluteB。Fig6.3为117.8/641.2/239.0 gates、starcontaminants；没有58cleancomponent原谱可重放，不作absence/limit。Fig6.5小平面detector区分101.3/102.2，在756.5/764.7/117.8门比较；原axis印475–550与低线标记不一致，保留原图，不按轴直接digitizekeV。旧Sakh/Nati primary未读，同thesis/表/图labels不算独立实验。
+canonicalWangsource/Ding新D12-28–32/method新typedtriplet节/matrix新版本段/index入口，report唯一writeback137items42changedpages（actualvalidator核）；旧D12-1–27逐行/flags/review/raw保持，新claims true。Stablemain / Audit DAY14 iodine triplet identities against primary spectra，actualchecks/H3/hash/push只content-checkpoint-040.json/publication-040.json，先核再称published。
 
-canonical sourceDing新22–27 true、旧21行flags/review保持，method level-scheme-reconstruction新128I三边节/逐边E/C/M/J矩阵/falsifier与A130matrix新行。report唯一writeback132items41changedpages，actualchecks看content-checkpoint-039.json，稳定main / Audit DAY14 iodine local spin-assignment evidence，actualH3/hash/push仅publication-039.json；先核receipt再称published。
+039已published真实58/255/314三节点16checks：exacttriangles固定上7/下6仍容6/8，加入reactiontrend或historical5,6,7才6；8非新实验支持/不是两ADOlikelihood等好。175ns为daughter167非225/481parent。Literalnode/energy差异、第一次314residual断言失败已留证，source不改。
 
-035–038已published：finitegeometry正核/域P→QP；L25article76/24页publishervs25页raw与source-to-beam；finiteJ exactweight/低rank换基/largeJ/Gaussianwidthvariance；经典连续投影vs量子trace22符号恒等。均明确math/作者/实际data分层，不改σδ/原mode。Ref39书段未得（Crossrefbook0/无关同题条目、目录ConnectionError/publisher403），不猜ISBN/DOI/公式或重复同失败。原Krane/Olbrichprimary、I_T转换/node/fullweakbranches/ICC/Cov、193Biresponse/τ/events、Practualinput/frame/1996primary等缺口保持。
+035–038已published的finitegeometry/域、trackingresponse/L25article76/24页publisher与25页raw、finiteJ/参数widthvariance与独立经典投影/量子trace推导均保留显式model/actualdata边界。Ref39书段、Krane/Olbrichprimary、完整I_T/ICC/weakbranches、193Biresponse/τ/events、Practualinput/frame/1996primary等仍缺，不原样重试旧失败或把方法修正当新结构模式证据。
 
-下一先actualclock/pool；>=120min有用route继续，<90min不新source/card，15:00research止。可以接原128I的101.3/两102.2 lineidentity、Fig6.5逐gate与历史方案修订。先冻结issue前primedrecall、查overlap，再决定实际图表crosscheck/最小falsifier；2010/2011相关期刊body此前未读，精确合法publisher新入口可查，但不原样重试旧失败、不借metadata当body/不联系作者。不得按energynearest/同峰直接合row，不能在图axis未校时拟合原峰或补实际counts/Cov。此为原Day14而非Day16 DCO卡。当前58case局部完成不dailycloseout，避免同toy换数字填窗口。
+下一先actualclock/候选池。>=120min继续有信息currentroute；可核2009Ref16旧方案primary或真实timewindow/eventlineage，不重复同typedgraph换数/不靠论文数量收束。先新issue前primed回忆、精确identity/合法入口，再读原文；不从metadata猜DOI/title或复原旧图。2010 reference给ZhengY,ZhuLH,WuXG etal2009 CPC33,179；先前Wiki另metadataDOI10.1088/1674-1137/33/S1/057有版本/locator需核，不能同年/作者即合并。
 
-最终report/continuation/audit/check/contentpush齐后state只计14一次到next15/count14；当前不提前credit。Farmer watcher42019按最新$farmer监督授权恢复，最近running/currentthreadrunning/actions0，无新研究session/goal/daily scheduler；Clock001/002/005/008actualACK不造新提醒。
+<90min不新source/card，15:00止research，15–16只closeout。最终report/audit/continuation/check/push齐后state只计14一次到next15/count14，当前不提前credit。Farmer42019按用户监督授权最近running/currentthreadrunning/actions0，无新研究session/goal/daily scheduler；Clock001/002/005/008actualACK不造新提醒。
 
 Preserve inheritedDay6–9/Day13/log/daemon/raw/PLAN/Bib/credentials/oldreview，exactmanifest/H3非force发布。

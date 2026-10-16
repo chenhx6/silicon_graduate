@@ -100,3 +100,8 @@ A new line or energy-sum closure may strengthen placement. It cannot by itself p
 ## 136Pr transitionidentity：候选唯一不等物理唯一
 
 [[lv-2025-136pr-tac-covariant-density-functional]] LV25-28的156表行和[[nndc-2018-136pr-selected-level-gamma-records]] N136-1/4/7的135placed旧G范围不同，不能相减记newlines。[[level-scheme-reconstruction]]“136Pr：逐线候选图与energy-nearest的失败”保存334.4/611等uniqueenergy错配及Q1整体parentshift被固定窗错拒的source-guided反例。后续矩阵增量应先核endpoint/gate/完整lineidentity，不将自动匹配或band名当新的结构证据。
+
+
+## 128I低能triplet的身份与出版版本
+
+[[ding-2012-phd-thesis-127-128i-high-spin]] D12-28–32和[[wang-2010-128i-new-high-spin-level-scheme]] W10I-1–8把101.3/两个102.2的端点、门和ICC字段分开；[[level-scheme-reconstruction]]保存typedgraph/19checks和具体数据缺口。新读CPL全文直接提供48/72口径、Channel轴和roughly14%版本文字；thesis61表行/约10%不静默统一，也不据不完整误差合同判冲突。装置/事件指纹匹配保守按依赖谱系，未恢复原runID/响应/Σ，不能作为独立复测或新absolute-strength/集体模式证据。

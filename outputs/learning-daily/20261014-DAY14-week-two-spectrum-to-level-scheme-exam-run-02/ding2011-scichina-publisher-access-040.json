@@ -1,0 +1,15 @@
+{
+  "url": "https://engine.scichina.com/doi/10.1360/132010-774",
+  "at": "2026-10-16T11:15:38.715012+08:00",
+  "use": "boundeddirectpublisher maintext candidate, identity/body not assumed",
+  "status": 200,
+  "final_url": "https://www.sciengine.com/doi/10.1360/132010-774",
+  "content_type": "text/html; charset=utf-8",
+  "bytes": 3133,
+  "is_pdf": false,
+  "path": "tmp/day14-20261014/128i-related-primary/ding2011-scichina-publisher.html",
+  "sha256": "0861e5cd6317f5a6c96ff8f4957cc188df1625af9aa85eb8eed9dae55ba46792",
+  "title": null,
+  "pdf_links": [],
+  "text_preview": ""
+}

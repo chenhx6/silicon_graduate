@@ -1,0 +1,16 @@
+{
+  "at": "2026-10-16T11:21:31.766403+08:00",
+  "doi": "10.1088/0256-307X/27/8/082701",
+  "path": "tmp/day14-20261014/128i-related-primary/wang2010-cpl-publisher.pdf",
+  "sha256": "28b81f5be7dfbe3b7efbb7efb37576eef7e4ac6060baac6c19d54e9c0187c387",
+  "bytes": 403207,
+  "pages": 4,
+  "identity": "title/authors/header/DOI agree publisherlanding and Crossref",
+  "reading_depth": "deep-read",
+  "covered": "all4pages mainline, setup, Figs1-4, scheme, limitations and discussion; figures2-3page visual",
+  "not_covered": "raw events/calibration/response/Cov; references15/16 bodies; no72edge fullgraph refit",
+  "source_acquisition_fingerprint": "Tsukuba/28&32MeV/4mgcm2/9Ge+1planar/67M gammagamma/3M Xgamma matches thesis; rawrunIDs notgiven",
+  "independent_experiment_credit": false,
+  "data_lineage_policy": "treat as dependent or overlapping acquisition; publication does not prove new independentbeamrun",
+  "published_pdf_stored_only_tmp_not_git": true
+}

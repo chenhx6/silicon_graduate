@@ -2,12 +2,14 @@
 type: system-index
 graph-excluded: true
 created: 2026-07-01
-updated: 2026-10-15
+updated: 2026-10-16
 ---
 
 # Wiki Index
 
 ## Sources
+
+- [[wang-2010-128i-new-high-spin-level-scheme]] - 128I低能triplet的逐门身份、Channel轴与48/72口径；和thesis按依赖谱系，14%/10%版本及实际响应缺口保留。
 
 - [[riley-2001-global-lifetime-a135]] - 质心位移DSAM/恒定Qt与33行typed原表；门、侧馈、上限、外源数据及systematics分层。
 

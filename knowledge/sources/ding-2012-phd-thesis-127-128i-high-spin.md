@@ -104,6 +104,11 @@ tags: [high-spin, transitional-nuclei, iodine-isotopes, decoupled-band, gamma-so
 | D12-25 | 条件固定source采用的parent7/anchor6并把314/255均当L1时，exacttriangle允许中间J6和J8；加源reactionspintrend或所引用历史(5,6,7)先验才只留6。J8只是本任务的selection-rule反例，不是其被实验支持或重指认；源actualangularresponse/likelihood仍缺。 | our-conditional-constraint-audit | derived | PDF78 Table6.1 three local rows; PDF79 assignment discussion | true |
 | D12-26 | Fig6.3为117.8/641.2/239.0 gates且星号为污染，图文例不提供本任务可重放的58.5逐component净峰/Σ。Fig6.5用小平面detector分101.3/102.2并比较756.5/764.7/117.8门，但原横轴印475–550、能量keV与这些低线标签不一致；保留原图、不据该轴直接digitize低线能量或补校准。 | gate-component-and-figure-axis-boundary | direct-and-derived | PDF80 Fig6.3 and text; PDF82 Fig6.5 | true |
 | D12-27 | 原175±15ns属于daughter167.4的isomer，当前局部没有225.9/481.8的parentτ；relativeIγ亦非含转换的branch概率。58的absoluteB/δ需parentτ/分支/ICC/响应等实际输入，不能借isomerτ或从ADO表补出。 | parent-identity-and-strength-readiness | direct-and-derived | PDF79 first paragraph; PDF78–79 Table6.1 and footnote b | true |
+| D12-28 | Table6.1的101.3是1562.2→1460.9、I146/RADO.70(8)；两个102.2分别为285.2→183.0、I563/R.90(7)，及269.6→167.4、I≥79/R.95(16)。相同gammaenergy不能合row或共享parent、RADO、ICC。 | typed-transition-identity | direct-and-derived | PDF78 Table6.1 rows101.3/two102.2 | true |
+| D12-29 | 假定117.8 pureE2，866门下得到退183的102.2之alphaT_exp=.60(7)；866和402.7门得到101.3之.88(21)。理论M1参考为.703(14)/.721(15)，均需带transition/gate/假设；另一102.2的实验ICC未在这些段给出，不能抄同值。 | source-conditional-conversion-input | direct-and-derived | PDF79 finalparagraph; PDF80 openingparagraph | true |
+| D12-30 | 作者以Fig6.5/其它符合与energy sums支持101.3→764.7→411.0→102.2的顺序并只用一次411，称旧弱102约总强度10%。本任务选定端点图给chain1379.2keV；若仅固定common-scale photon Istrong563与Iweak≥79，twocomponentfraction≥79/642只是条件算术非真实fraction或CI。 | source-chain-and-conditional-intensity-audit | direct-and-derived | PDF80–81 chain discussion; PDF78 Table6.1 two102.2 rows | true |
+| D12-31 | 2010CPL正文现已直接读到，Fig4横轴为Channel且正文弱102说roughly14%，与thesisFig6.5轴标/10%分别保留。2010报告48/72与thesis61表行不是可直接相减的同口径计数；指纹匹配保守按共享/重叠采集，无新独立复测。 | newly-read-dependent-publication-crosswalk | direct-and-derived | PDF81–82; Wang2010 printed082701-1/3 Fig4 | true |
+| D12-32 | Fig6.5中756.5/764.7/117.8门的低峰差异有助拆101/102；由source采用端点看，756.5下方285.2的102.2和117.8是竞争分支，另一102.2来自269.6。选定图中某路径不存在不等于完整实验absence或上限，原raw/校准/response/Cov仍缺。 | source-selected-graph-and-negative-evidence-boundary | direct-and-derived | PDF77 Fig6.2; PDF82 Fig6.5; PDF78–79 Table6.1 | true |
 
 ### 2026-10-12 reaction-channel evidence addendum
 
@@ -207,3 +212,13 @@ P0: none remaining after source-level correction; all source claims still retain
 [[level-scheme-reconstruction]]“128I：58.5-keV局部三边与spin先验”保存16项条件核验、逐边证据/parentstrength边界和falsifier。表/图节点与能量有细微literal差异，未静默修原件；PDF82 Fig6.5的energy-axis标记亦保持，不能拿图上475–550当101/102物理能量作数字拟合。OldSakh/Nati原件、逐门counts/response/Cov未恢复，同一thesis/acquisition与表中spin不计为独立数据。
 
 Agent self-audit：D12-22–27 true，旧1–21/原review保持。初次本任务断言误将314.3−(481.8−167.4)记0，自测捕获后仅修断言为−.1；source/input原值不改。Decision: **supports** 合并能量/placement/角数据/旧anchor的分层链；**limits** selectiontriangle或一个ADO值直接推出唯一Jπ、相对强度/isomerτ推出parentabsoluteB。科学边界可发布，不代表独立重测或正式论文裁决。
+
+## DAY14低能triplet与2010正文的新核验
+
+本轮先冻结primed issue，再回核PDF78–82的三低线/转换/门与版本；现从[出版商公开PDF](https://cpl.iphy.ac.cn/en/article/pdf/preview/10.1088/0256-307X/27/8/082701.pdf)实际取得并完整读取4页[[wang-2010-128i-new-high-spin-level-scheme]]，所以D12-19所记2026-10-12访问受限/未读只代表当时状态。新W10I-1–8保留身份、四页scope和preciselocators；2011入口本次仍只有空SPA，不宣称读其正文。
+
+101.3、102.2a（285.2→183.0）与102.2b（269.6→167.4）的typedrow不同。前者转换.88(21)与a的.60(7)各带原gate/purity合同，b保持未知，不因同energy补同实验值。[[level-scheme-reconstruction]]“128I低能triplet：transition ID、门与转换字段”保存选定图/chain/分支与19项核验，所有路径结论条件于已报告端点，不冒充原事件重新建图。
+
+2010 Fig4原横轴Channel，thesisFig6.5印能量keV却在475–550附近画101/102标签；保留两版，不猜精确rebin/calibration或修原图。本文约10%与2010 roughly14%分别记录；在固定RI中心/下界合同下的79/642≠实测componentfraction，原5–30%范围没有给fullCov/相同归一/门以检验版本一致性。CPL48/72、thesis61表行也不用于计新增。共同装置/束流/事件指纹匹配，保守不计独立重复，未恢复原runIDs/时间窗定义。
+
+Agent self-audit：新D12-28–32 true，旧1–27逐行/flags与review保持；原raw/PLAN/Bib未改。Decision: **supports** 逐rowID/端点/gate/转换的身份合同；**revises** 当前2010primary可读状态；**limits** 同峰合并、混用fraction/branch分母和图坐标、由selectedgraph不连通宣称实验absence。Formal14分数与课程信用不变。
