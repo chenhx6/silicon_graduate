@@ -1,0 +1,37 @@
+{
+  "source": "knowledge/sources/simpson-1983-sectored-geli-compton-polarimeter.md",
+  "raw_sha256": "1216684723d0b98daef22997446168c628951c1a062d8d9283ef3efc9fafa6d9",
+  "text_pages_read": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "visual_pages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "covered": [
+    "printed463 detectorabstract/geometry",
+    "printed464 Eq1–3/Fig2/3/Table1 normalization/systematics",
+    "printed465 Eq4–6/cross-talk/Fig4",
+    "printed466 Table2/epsilonEq7/Fig5/6",
+    "printed467 Q/a/Fig7–9/F Eq8",
+    "printed468–469 applicationelectronics/Table3/Fig10/11/knownP refs/conclusion"
+  ],
+  "not_obtained": [
+    "actualeventmasks/overlaprouting",
+    "productionCov",
+    "explicitidealQprimefitfunction",
+    "originaladoptedPsourcefulltexts"
+  ],
+  "human_review_created": false
+}

@@ -1,0 +1,22 @@
+{
+  "source": "knowledge/sources/jones-1995-clover-compton-calibration.md",
+  "raw": "raw/papers/gpt/high-spin-20260920/multipolarity/angular distribution/polarizaiton/1995_Jones et al_Calibration of the new composite “clover” detector as a Compton polarimeter for.pdf",
+  "sha256": "8d2cf5ee101d9f3109f6663269fa62f9d6a829e432e05db2502252bf5b132460",
+  "pages": 5,
+  "reading_status": "fullmainlineandkeypixelsinspected",
+  "raw_not_altered": true,
+  "coverage_verified_at": "2026-10-17T04:54:07.132555+08:00",
+  "text_pages_read": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "key_visual_pages": [
+    2,
+    3,
+    4,
+    5
+  ]
+}

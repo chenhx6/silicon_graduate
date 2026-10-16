@@ -1,0 +1,61 @@
+{
+  "identity": "DAY15-DAY16-PREVIEW-S83-SECTOR-PATTERN-MARGINAL-IDENTIFIABILITY-01",
+  "frozen_at": "2026-10-17T04:53:09.599793+08:00",
+  "session_id": "01a14510-aec7-7e00-aa23-f7c77a5124bc",
+  "source": "knowledge/sources/simpson-1983-sectored-geli-compton-polarimeter.md",
+  "locator_aggregate": "printed464 Table1 andfollowingparagraph",
+  "locator_configuration": "printed465 Eq6 Fig3",
+  "raw_sha256": "1216684723d0b98daef22997446168c628951c1a062d8d9283ef3efc9fafa6d9",
+  "source_nominal_constraints": {
+    "p_n1": 0.38,
+    "p_n2": 0.42,
+    "p_n3": 0.18,
+    "p_n_ge4": 0.02,
+    "p_adjacent_given_n2": 0.75
+  },
+  "aggregate_precision_boundary": "Originalintegerpercentages/about75% treatedasliteralnominalconstraintsonly, notunroundedfrequenciesorconfidencebounds. Original60ComultiplicityacquisitionisnotTable2polarizedcalibrationevents.",
+  "chosen_extra_constraints": {
+    "p_H": 0.25,
+    "p_V": 0.25,
+    "source_status": "CHOSENmeansforastrongeridentifiabilitywitness, notreportedH/Vfrequencies"
+  },
+  "chosen_Boolean_C_routing": {
+    "quadrants": {
+      "q0": [
+        1,
+        2
+      ],
+      "q1": [
+        3,
+        4
+      ],
+      "q2": [
+        5,
+        6
+      ],
+      "q3": [
+        7,
+        8
+      ]
+    },
+    "V": "(q3 and q2) or (q0 and q1)",
+    "H": "(q3 and q0) or (q2 and q1)",
+    "overlap_possible": "Aphotonwith>=3firedquadrantscanenterbothinthisBooleanmodel; actual1983routing/exclusionrulesnotobtained",
+    "weights": "oneBooleanincrementperorientation, notpairmultiplicity oractualelectronics claim"
+  },
+  "models": [
+    "arbitrarynonnegative8sectorpatternprobabilities",
+    "uniformaverageoverall8cyclicrotationsasstrongersymmetrycontrol"
+  ],
+  "objective": "LPmin/maxPr(H andV)atfixedsourceaggregatesandchosenmeans; reportfeasibilitywithouttuningmeansafterfreeze",
+  "count_statistics": "ForPoissoneventyieldlambda, VarNH=lambda*pH, VarNV=lambda*pV, Cov=lambda*pHV. FixedNeventCov=N*(pHV-pH*pV). SamefirstorderasymmetryvariancewhenpH=pV. NoactualQ/precisioninferred.",
+  "excluded": [
+    "validatedphotontransport",
+    "producerselectionguarantee",
+    "actualCov",
+    "new158Erassignment",
+    "polarizedresponseQ",
+    "actualthresholdoptimization"
+  ],
+  "stop_contract": "oneLPboundsbatchandexplicitextremewitnesses, validateconstraintresiduals/positivity; noadditionaltoytuningorgrids"
+}

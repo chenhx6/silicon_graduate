@@ -1,0 +1,31 @@
+{
+  "at": "2026-10-17T04:48:51.152255+08:00",
+  "hard_deadline": "2026-10-17T15:00:00+08:00",
+  "latest_actual_clock_local": "2026-10-17T04:47:55+08:00",
+  "minutes_to_deadline_at_clock": 612.0833333333,
+  "scope": "Day15currentplusonlyuncreditedDay16. ExactDay16cardrereadwithoutDay17: double-solution/convention/referenceorP",
+  "current_findings": {
+    "D96Eq4": "boundedstopcontractmet, corrected/direct1.1e-17; originalpurepassedmixedfailed, explicitpsi_map",
+    "JO95": "full5pages, correctedC, nominalP/errorbudgetandQprimeidentificationboundaryrecorded; productionrecipeabsent"
+  },
+  "candidate_pool": [
+    {
+      "issue": "Simpson1983directcompanionforJO95 Qprime/efficiencydefinition",
+      "decision": "selectboundedfullmainline",
+      "expected_gain": "testnormalizationidentificationfromdirectmethodlineage ratherthanfitnewB/C"
+    },
+    {
+      "issue": "newtoynewspins",
+      "decision": "reject, fixedEq4stopcontractmet"
+    },
+    {
+      "issue": "actualproducer/Σ",
+      "decision": "highgainbutnoinput; do notretry unchangedfailedroutes"
+    },
+    {
+      "issue": "unrelatedmassregionnewexperimentorDay17",
+      "decision": "notneeded/notopened"
+    }
+  ],
+  "selection_record": "S83 candidatechosenbeforeopeningraw; JO95completionrecordedretrospectivelyhere, notabackdatedselectionfreeze"
+}

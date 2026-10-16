@@ -184,6 +184,20 @@ KS70 Eq9在electron-mass natural units给`delta=(sqrt3/10)k Delta_BM`。本任�
 `1/(1+delta²)`只属于radiative M1/E2子集，不是整个核态总衰变分支。2+→2+还可能有E0 conversion，E0不进入此single-gamma模型；本页不推出absolute B、总寿命或E0排除。
 
 
+## 勘误公式与有向分析轴的独立核验
+
+[[droste-1996-pdco-formalism]] DR96-8/9和[[starosta-1999-pdco-experimental-test]] ST99-8支撑本段。不是再跑5→4→2双根：本次冻结两个新chosen路径3→2→0（E2 gate）与2→1→0（M1 gate），正的对称布居分别为(1,2,4,6,4,2,1)/20和(1,3,5,3,1)/13；比较pureM1/E1/E2及native d=+.3/−.3/+1.7、四个点几何和in/perp/oblique分析轴。它们均是模型输入，非测量。
+
+第一条代数路线逐项实现Eq1、Eq3/4、Eq7/8及B张量；第二条直接合成photon operators后trace。两者共享已验证CG/Wigner基础函数，不能称两份完全独立程序。Eq8的H含CG比，数值上与Eq7的相同CG先解析约消，避免合法零项出现0/0；rank<2的polarization d元素严格为零。
+
+本probe采用Dstar和Jones组合`[-exp(+i psi_probe)Tplus+exp(−i psi_probe)Tminus]/sqrt2`。其强度交叉项是`−Re[exp(2i psi_probe)Tplus Tminus*]`；与Eq1的有向分析轴坐标对应时，显式用`psi_probe=−psi_Eq1`，native振幅仍按既有`(-1)^L`映射。这个implementation map不认证实际detector的全局handedness。
+
+初次numeric结果中DCO和psi0/90已经匹配，但oblique分析轴最大差.00182560；因为`sin(2psi)=0`，只测in/perp平面看不出上述方向映射。保留原结果与code snapshot，识别映射后未改冻结physical inputs。整个网格都是source-informed检查，不是blind或独立holdout。
+
+最终勘误公式与direct trace最大差`1.04084×10^-17 sr^-2`，总角积分两阶均为1（差<2.2×10^-15），互补分析轴之和差<6.1×10^-18、反射对称差<3.5×10^-18。**原印T磁相位在pure项也通过**，但mixed最大差.00142805；例如chosen2→1→0、d=1.7、90/90/phi180，corrected/direct P=.16164223，原印式P=.80047168。原式勘误、analyzer坐标与真正delta双根须分别检验，pure limits或两个轴平面的通过都不充分。
+
+复算入口：[脚本](../../system/scripts/day16_d96_eq4_erratum_audit.py)、[冻结输入](../../outputs/learning-daily/20261016-DAY15-ado-angular-distribution-geometry-run-01/day16-d96-eq4-audit-input.json)（SHA-256 `95fd2ebfb8e20eb006ad7bde1e4bb4d8969389b65bffa936d978f8fec54d685d`）、[最终结果](../../outputs/learning-daily/20261016-DAY15-ado-angular-distribution-geometry-run-01/day16-d96-eq4-audit.json)、[首轮numeric结果](../../outputs/learning-daily/20261016-DAY15-ado-angular-distribution-geometry-run-01/day16-d96-eq4-audit-first.json)、[坐标定位](../../outputs/learning-daily/20261016-DAY15-ado-angular-distribution-geometry-run-01/day16-d96-eq4-coordinate-diagnostic.json)。更早一次rank0非法投影调用在生成numeric前失败，局部zero guard修复；未改旧helper或physics。范围仅integer、real、L≤2、DCO/一个polarimeter；无实际array response/events/Cov或作者FORTRAN，不外推135Pr或PPCO。stop contract已满足，不再调此网格参数。
+
 ## Thematic REFLECT：比值、响应与参数的使用门
 
 2026-10-17实验对照：[[st99-pdco-calibration-table-replay]]以实际164Yb来源保存Q/a/geometry、五点NDF和非唯一候选。[[starosta-1999-pdco-experimental-test]] ST99-8还明确更正D96 Eq4磁相位为Tprime而非T（DR96-8）；本页早前用Eq3/7与独立Jones/RB路径得到的实现坐标映射不是该印刷勘误。原式逐字实现、振幅基底转换、真实物理双解是三个不同检查。

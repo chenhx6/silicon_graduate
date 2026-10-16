@@ -1,0 +1,8 @@
+{
+  "first_attempt_exit": 1,
+  "error": "ValueError factorial negative when evaluating Wigner d with rank0 andhelicity2",
+  "cause": "newEq1sum calledreusedsmall_doutsidevalidprojectiondomain; sourcecoefficientiszero but multiplication evaluatedfunctionfirst",
+  "correction": "locald_elementreturnszeroifabs(projection)>rank; nochangeoldhelper/source/physicalinput",
+  "numeric_output_on_first_attempt": false,
+  "input_sha256_unchanged": "95fd2ebfb8e20eb006ad7bde1e4bb4d8969389b65bffa936d978f8fec54d685d"
+}

@@ -1,0 +1,33 @@
+{
+  "at": "2026-10-17T04:44:56.149738+08:00",
+  "url": "https://api.crossref.org/works/10.1016%2F0168-9002%2895%2900246-4",
+  "kind": "metadata-onlyverification",
+  "status": 200,
+  "DOI": "10.1016/0168-9002(95)00246-4",
+  "title": [
+    "Calibration of the new composite “clover” detector as a Compton polarimeter for the EUROGAM array"
+  ],
+  "year": {
+    "date-parts": [
+      [
+        1995,
+        8
+      ]
+    ]
+  },
+  "volume": "362",
+  "issue": "2-3",
+  "pages": "556-560",
+  "authors": [
+    "Jones",
+    "Wei",
+    "Beck",
+    "Butler",
+    "Byrski",
+    "Duchêne",
+    "de France",
+    "Hannachi",
+    "Jones",
+    "Kharraja"
+  ]
+}

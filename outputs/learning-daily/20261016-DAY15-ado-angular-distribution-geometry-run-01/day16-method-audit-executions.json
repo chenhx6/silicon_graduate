@@ -1,0 +1,56 @@
+{
+  "at": "2026-10-17T04:58:25.928591+08:00",
+  "versions": {
+    "numpy": "2.5.3",
+    "scipy": "1.18.1"
+  },
+  "scripts": [
+    {
+      "script": "system/scripts/day16_d96_eq4_erratum_audit.py",
+      "script_sha256": "4bbdd27058914ae6b27c20ac6f1dd46c52f77e0ddae543a22d2a087c88f3fa2d",
+      "input": "outputs/learning-daily/20261016-DAY15-ado-angular-distribution-geometry-run-01/day16-d96-eq4-audit-input.json",
+      "input_sha256": "95fd2ebfb8e20eb006ad7bde1e4bb4d8969389b65bffa936d978f8fec54d685d",
+      "result": "outputs/learning-daily/20261016-DAY15-ado-angular-distribution-geometry-run-01/day16-d96-eq4-audit.json",
+      "result_sha256": "d6cb369ee92b30feb112b9ff7e97a8f16a51932a660adfe8b483ce55b9af98d6",
+      "final_observed_exit_code": 0,
+      "initial_failures": [
+        "rank0guardexit1beforeout",
+        "firstnumericaxesexit1preserved"
+      ],
+      "dependencies_unchanged_from_published_HEAD": {
+        "system/scripts/day16_pdco_ambiguity_preview.py": "619b42017ba91a946942b2c592f927a4299372fb29cd8b75b0964c982b5d9198"
+      }
+    },
+    {
+      "script": "system/scripts/day16_jo95_calibration_audit.py",
+      "script_sha256": "822bf686ad5773485bbf7b00f2b3b7bd42a7ef20512341e721aba01706a7cf1a",
+      "input": "outputs/learning-daily/20261016-DAY15-ado-angular-distribution-geometry-run-01/day16-jo95-calibration-input.json",
+      "input_sha256": "c3d74a1088d3cb691571aa72a64b74d833b03180192d78fcae99abfc25163f66",
+      "result": "outputs/learning-daily/20261016-DAY15-ado-angular-distribution-geometry-run-01/day16-jo95-calibration-audit.json",
+      "result_sha256": "d2c24165cfc2e73ebb09fffb391b20ece16f3a12f23b9bac8fe7d9e1b0668864",
+      "final_observed_exit_code": 0,
+      "initial_failures": [
+        "numpybooljsonexit1beforeout"
+      ],
+      "dependencies_unchanged_from_published_HEAD": {
+        "system/scripts/day16_pdco_ambiguity_preview.py": "619b42017ba91a946942b2c592f927a4299372fb29cd8b75b0964c982b5d9198",
+        "system/scripts/day16_st99_table_replay.py": "de909be78ecc70f42d56c53788c52bbc6a6dabb17a58bbb2e2a99adfa411388e"
+      }
+    },
+    {
+      "script": "system/scripts/day15_s83_pattern_identifiability.py",
+      "script_sha256": "b4055b8f338e1c26b68e48c272c91e1dd44e1ade869b5ba783d7bbbc7d6a0f9f",
+      "input": "outputs/learning-daily/20261016-DAY15-ado-angular-distribution-geometry-run-01/day16-s83-pattern-input.json",
+      "input_sha256": "71401a867ac26cb29d70c7be67f6aa435286aa1163754169c4404a251fcbfaca",
+      "result": "outputs/learning-daily/20261016-DAY15-ado-angular-distribution-geometry-run-01/day16-s83-pattern-identifiability.json",
+      "result_sha256": "096118790451677386897e355b202a317cd41652892021d4fe0db216d8ab60ac",
+      "final_observed_exit_code": 0,
+      "initial_failures": [],
+      "dependencies_unchanged_from_published_HEAD": {}
+    }
+  ],
+  "first_D96_code_snapshot_hash_matches": true,
+  "all_physical_inputs_remain_frozen": true,
+  "all_bounded_stop_contracts_met": true,
+  "author_production_code_obtained": false
+}

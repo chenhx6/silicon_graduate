@@ -1,0 +1,5 @@
+
+
+## 2026-10-17T05:01:09.757637+08:00 — DAY15 checkpoint008: formula, calibration and event-pattern boundaries
+
+同run/session继续恰好partial16：D96 Eq4公开勘误与有向analyzer map核验、JO95 C中心/误差和nominalP预算、S83效率分母/采用P/typedbitpatternCov界均canonical。新fixed模型stopcontract满足，actualproducer/Σ未得；未清旧flags或动原raw。fresh检查30writeback/33mapped/30changed、17rawhash、lint0error/146warnings通过。formal15只计一次next16/count15，原15:00deadline/windowactive。下一NNDC164Yb独立转换谱系route。稳定指针main / Verify PDCO erratum and polarimeter calibration response boundaries；actualH3/push仅publication008。

@@ -1,5 +1,5 @@
 {
-  "captured_at": "2026-10-17T04:29:01.258945+08:00",
+  "captured_at": "2026-10-17T05:01:09.757637+08:00",
   "session_id": "01a14510-aec7-7e00-aa23-f7c77a5124bc",
   "run_id": "2026-10-16-day-15-01",
   "hard_deadline": "2026-10-17T15:00:00+08:00",
@@ -178,7 +178,7 @@
       "human_review_created": false
     }
   },
-  "current_status": "Formal15creditedonce next16/count15; windowactive. Published001–006. Checkpoint007committed ST99 full11pages/identity/Q/erratum/13rowreplay/dependence; actualH3/push onlypublication007; onlypartial16.",
+  "current_status": "Published001–007; checkpoint008committed D96Eq4/JO95/S83 fullprimaryandboundedcalculations passfreshchecks. ActualH3/push onlypublication008. Onlyformal15/partial16;164Ybactualdata-lineageroute remains, goal/windowactive.",
   "worksheet": {
     "input_sha256": "e8e31f0691862296b62adffb34e6e5395d22ba6cdc59f629a00c71a89eeadf04",
     "script": "system/scripts/day15_ado_covariance_worksheet.py",
@@ -188,10 +188,9 @@
     "figure_source_warnings": 4
   },
   "next_actions": [
-    "Confirmactualpublication007 thenboundedEq4audit; nocloseout",
-    "BoundedD96Eq4corrected-polarization coefficient audit againstindependentamplitudes; no newcard",
-    "Actualproducer/response/Σ requestsremainreadiness; donotrepeatfailedaccess",
-    "Atoriginal15:00 stopnewresearch andcloseout; noformal16/17"
+    "Confirmactualpublication008",
+    "Freezeprimed164Ybqueryrecall thenNNDCcurrentENSDFformfor490/647 independentconversion/sourcekeys",
+    "NoDay17, nofreefit/oldtoyloop, retainoriginal15:00cutoff"
   ],
   "mixed_event_analysis": {
     "input_sha256": "b0a0bb6503d01e8dc432e1a866960872b4fbc1bebd89a1737ca766eab9bab72c",
@@ -387,5 +386,42 @@
     "not_rounding_closed": "Table2 15+→14+ 108.911451 versus79.5, chosenenclosure92.243024–132.757156",
     "actual_covariance_obtained": false,
     "input_error_pre_numeric_correction": "unsupported647Aremoved,v1preservedbutnotused"
+  },
+  "D96_Eq4_audit": {
+    "input": "day16-d96-eq4-audit-input.json",
+    "result": "day16-d96-eq4-audit.json",
+    "script": "system/scripts/day16_d96_eq4_erratum_audit.py",
+    "exit": 0,
+    "max_error": 1.0408340855860843e-17,
+    "first_numeric_failure_preserved": true,
+    "canonical": "knowledge/methods/dco-pdco-ambiguity-worksheet.md",
+    "stop_contract_met": true
+  },
+  "JO95_audit": {
+    "input": "day16-jo95-calibration-input.json",
+    "result": "day16-jo95-calibration-audit.json",
+    "script": "system/scripts/day16_jo95_calibration_audit.py",
+    "exit": 0,
+    "source": "knowledge/sources/jones-1995-clover-compton-calibration.md",
+    "canonical": "knowledge/methods/compton-polarimetry.md",
+    "boundary": "point/errorbudgetandQprime normalizationscope"
+  },
+  "S83_audit": {
+    "canonical": "knowledge/methods/compton-polarimetry.md",
+    "source": "knowledge/sources/simpson-1983-sectored-geli-compton-polarimeter.md",
+    "input": "day16-s83-pattern-input.json",
+    "result": "day16-s83-pattern-identifiability.json",
+    "script": "system/scripts/day15_s83_pattern_identifiability.py",
+    "exit": 0,
+    "pHV_bounds_cyclic": [
+      0.0375,
+      0.17125
+    ],
+    "chosenmeans": [
+      0.25,
+      0.25
+    ],
+    "actualtransport_or_Cov": false,
+    "stop_contract_met": true
   }
 }

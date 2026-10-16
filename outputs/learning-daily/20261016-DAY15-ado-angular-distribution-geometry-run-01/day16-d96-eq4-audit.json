@@ -1,0 +1,6383 @@
+{
+  "identity": "DAY16-PREVIEW-D96-EQ4-ERRATUM-COEFFICIENT-AUDIT-01",
+  "input_sha256": "95fd2ebfb8e20eb006ad7bde1e4bb4d8969389b65bffa936d978f8fec54d685d",
+  "script_sha256": "4bbdd27058914ae6b27c20ac6f1dd46c52f77e0ddae543a22d2a087c88f3fa2d",
+  "cases": [
+    {
+      "spins": [
+        3,
+        2,
+        0
+      ],
+      "gate": [
+        [
+          "E",
+          2,
+          1.0
+        ]
+      ],
+      "first_case": "pureM1",
+      "chosen_population": [
+        0.05,
+        0.1,
+        0.2,
+        0.3,
+        0.2,
+        0.1,
+        0.05
+      ],
+      "rows": [
+        {
+          "angles_deg": [
+            37,
+            63,
+            41
+          ],
+          "mode": {
+            "q1": 0,
+            "q2": 0,
+            "psi1_deg": 0,
+            "psi2_deg": 0
+          },
+          "corrected_Eq1_Eq4": 0.005648017693981346,
+          "original_T_phase": 0.005648017693981346,
+          "direct_photon_trace": 0.005648017693981348,
+          "corrected_absolute_error": 1.734723475976807e-18,
+          "original_absolute_error": 1.734723475976807e-18
+        },
+        {
+          "angles_deg": [
+            37,
+            63,
+            41
+          ],
+          "mode": {
+            "q1": 1,
+            "q2": 0,
+            "psi1_deg": 0,
+            "psi2_deg": 0
+          },
+          "corrected_Eq1_Eq4": 0.0024251259088464215,
+          "original_T_phase": 0.0024251259088464215,
+          "direct_photon_trace": 0.0024251259088464206,
+          "corrected_absolute_error": 8.673617379884035e-19,
+          "original_absolute_error": 8.673617379884035e-19
+        },
+        {
+          "angles_deg": [
+            37,
+            63,
+            41
+          ],
+          "mode": {
+            "q1": 1,
+            "q2": 0,
+            "psi1_deg": 90,
+            "psi2_deg": 0
+          },
+          "corrected_Eq1_Eq4": 0.003222891785134927,
+          "original_T_phase": 0.003222891785134927,
+          "direct_photon_trace": 0.003222891785134926,
+          "corrected_absolute_error": 8.673617379884035e-19,
+          "original_absolute_error": 8.673617379884035e-19
+        },
+        {
+          "angles_deg": [
+            37,
+            63,
+            41
+          ],
+          "mode": {
+            "q1": 1,
+            "q2": 0,
+            "psi1_deg": 27,
+            "psi2_deg": 0
+          },
+          "corrected_Eq1_Eq4": 0.0028796148752796326,
+          "original_T_phase": 0.0028796148752796326,
+          "direct_photon_trace": 0.0028796148752796317,
+          "corrected_absolute_error": 8.673617379884035e-19,
+          "original_absolute_error": 8.673617379884035e-19
+        },
+        {
+          "angles_deg": [
+            37,
+            63,
+            41
+          ],
+          "mode": {
+            "q1": 0,
+            "q2": 1,
+            "psi1_deg": 0,
+            "psi2_deg": 0
+          },
+          "corrected_Eq1_Eq4": 0.0037849099400082916,
+          "original_T_phase": 0.0037849099400082916,
+          "direct_photon_trace": 0.0037849099400082895,
+          "corrected_absolute_error": 2.168404344971009e-18,
+          "original_absolute_error": 2.168404344971009e-18
+        },
+        {
+          "angles_deg": [
+            37,
+            63,
+            41
+          ],
+          "mode": {
+            "q1": 0,
+            "q2": 1,
+            "psi1_deg": 0,
+            "psi2_deg": 90
+          },
+          "corrected_Eq1_Eq4": 0.0018631077539730588,
+          "original_T_phase": 0.0018631077539730588,
+          "direct_photon_trace": 0.0018631077539730573,
+          "corrected_absolute_error": 1.5178830414797062e-18,
+          "original_absolute_error": 1.5178830414797062e-18
+        },
+        {
+          "angles_deg": [
+            37,
+            63,
+            41
+          ],
+          "mode": {
+            "q1": 0,
+            "q2": 1,
+            "psi1_deg": 0,
+            "psi2_deg": -19
+          },
+          "corrected_Eq1_Eq4": 0.00361002002728855,
+          "original_T_phase": 0.00361002002728855,
+          "direct_photon_trace": 0.0036100200272885493,
+          "corrected_absolute_error": 8.673617379884035e-19,
+          "original_absolute_error": 8.673617379884035e-19
+        },
+        {
+          "angles_deg": [
+            90,
+            90,
+            180
+          ],
+          "mode": {
+            "q1": 0,
+            "q2": 0,
+            "psi1_deg": 0,
+            "psi2_deg": 0
+          },
+          "corrected_Eq1_Eq4": 0.004868166245315444,
+          "original_T_phase": 0.004868166245315444,
+          "direct_photon_trace": 0.0048681662453154495,
+          "corrected_absolute_error": 5.204170427930421e-18,
+          "original_absolute_error": 5.204170427930421e-18
+        },
+        {
+          "angles_deg": [
+            90,
+            90,
+            180
+          ],
+          "mode": {
+            "q1": 1,
+            "q2": 0,
+            "psi1_deg": 0,
+            "psi2_deg": 0
+          },
+          "corrected_Eq1_Eq4": 0.0015435649070512391,
+          "original_T_phase": 0.0015435649070512391,
+          "direct_photon_trace": 0.0015435649070512395,
+          "corrected_absolute_error": 4.336808689942018e-19,
+          "original_absolute_error": 4.336808689942018e-19
+        },
+        {
+          "angles_deg": [
+            90,
+            90,
+            180
+          ],
+          "mode": {
+            "q1": 1,
+            "q2": 0,
+            "psi1_deg": 90,
+            "psi2_deg": 0
+          },
+          "corrected_Eq1_Eq4": 0.0033246013382642065,
+          "original_T_phase": 0.0033246013382642065,
+          "direct_photon_trace": 0.003324601338264209,
+          "corrected_absolute_error": 2.6020852139652106e-18,
+          "original_absolute_error": 2.6020852139652106e-18
+        },
+        {
+          "angles_deg": [
+            90,
+            90,
+            180
+          ],
+          "mode": {
+            "q1": 1,
+            "q2": 0,
+            "psi1_deg": 27,
+            "psi2_deg": 0
+          },
+          "corrected_Eq1_Eq4": 0.0019106496486264225,
+          "original_T_phase": 0.0019106496486264225,
+          "direct_photon_trace": 0.0019106496486264238,
+          "corrected_absolute_error": 1.3010426069826053e-18,
+          "original_absolute_error": 1.3010426069826053e-18
+        },
+        {
+          "angles_deg": [
+            90,
+            90,
+            180
+          ],
+          "mode": {
+            "q1": 0,
+            "q2": 1,
+            "psi1_deg": 0,
+            "psi2_deg": 0
+          },
+          "corrected_Eq1_Eq4": 0.0033246013382642057,
+          "original_T_phase": 0.0033246013382642057,
+          "direct_photon_trace": 0.0033246013382642083,
+          "corrected_absolute_error": 2.6020852139652106e-18,
+          "original_absolute_error": 2.6020852139652106e-18
+        },
+        {
+          "angles_deg": [
+            90,
+            90,
+            180
+          ],
+          "mode": {
+            "q1": 0,
+            "q2": 1,
+            "psi1_deg": 0,
+            "psi2_deg": 90
+          },
+          "corrected_Eq1_Eq4": 0.001543564907051239,
+          "original_T_phase": 0.001543564907051239,
+          "direct_photon_trace": 0.0015435649070512398,
+          "corrected_absolute_error": 8.673617379884035e-19,
+          "original_absolute_error": 8.673617379884035e-19
+        },
+        {
+          "angles_deg": [
+            90,
+            90,
+            180
+          ],
+          "mode": {
+            "q1": 0,
+            "q2": 1,
+            "psi1_deg": 0,
+            "psi2_deg": -19
+          },
+          "corrected_Eq1_Eq4": 0.0031358210528383,
+          "original_T_phase": 0.0031358210528383,
+          "direct_photon_trace": 0.0031358210528383036,
+          "corrected_absolute_error": 3.469446951953614e-18,
+          "original_absolute_error": 3.469446951953614e-18
+        },
+        {
+          "angles_deg": [
+            121,
+            44,
+            -67
+          ],
+          "mode": {
+            "q1": 0,
+            "q2": 0,
+            "psi1_deg": 0,
+            "psi2_deg": 0
+          },
+          "corrected_Eq1_Eq4": 0.0073135624349711,
+          "original_T_phase": 0.0073135624349711,
+          "direct_photon_trace": 0.007313562434971106,
+          "corrected_absolute_error": 6.071532165918825e-18,
+          "original_absolute_error": 6.071532165918825e-18
+        },
+        {
+          "angles_deg": [
+            121,
+            44,
+            -67
+          ],
+          "mode": {
+            "q1": 1,
+            "q2": 0,
+            "psi1_deg": 0,
+            "psi2_deg": 0
+          },
+          "corrected_Eq1_Eq4": 0.0028278527961408248,
+          "original_T_phase": 0.0028278527961408248,
+          "direct_photon_trace": 0.0028278527961408265,
+          "corrected_absolute_error": 1.734723475976807e-18,
+          "original_absolute_error": 1.734723475976807e-18
+        },
+        {
+          "angles_deg": [
+            121,
+            44,
+            -67
+          ],
+          "mode": {
+            "q1": 1,
+            "q2": 0,
+            "psi1_deg": 90,
+            "psi2_deg": 0
+          },
+          "corrected_Eq1_Eq4": 0.004485709638830274,
+          "original_T_phase": 0.004485709638830274,
+          "direct_photon_trace": 0.004485709638830277,
+          "corrected_absolute_error": 2.6020852139652106e-18,
+          "original_absolute_error": 2.6020852139652106e-18
+        },
+        {
+          "angles_deg": [
+            121,
+            44,
+            -67
+          ],
+          "mode": {
+            "q1": 1,
+            "q2": 0,
+            "psi1_deg": 27,
+            "psi2_deg": 0
+          },
+          "corrected_Eq1_Eq4": 0.003259046185029383,
+          "original_T_phase": 0.003259046185029383,
+          "direct_photon_trace": 0.0032590461850293853,
+          "corrected_absolute_error": 2.168404344971009e-18,
+          "original_absolute_error": 2.168404344971009e-18
+        },
+        {
+          "angles_deg": [
+            121,
+            44,
+            -67
+          ],
+          "mode": {
+            "q1": 0,
+            "q2": 1,
+            "psi1_deg": 0,
+            "psi2_deg": 0
+          },
+          "corrected_Eq1_Eq4": 0.00478693299050107,
+          "original_T_phase": 0.00478693299050107,
+          "direct_photon_trace": 0.004786932990501071,
+          "corrected_absolute_error": 8.673617379884035e-19,
+          "original_absolute_error": 8.673617379884035e-19
+        },
+        {
+          "angles_deg": [
+            121,
+            44,
+            -67
+          ],
+          "mode": {
+            "q1": 0,
+            "q2": 1,
+            "psi1_deg": 0,
+            "psi2_deg": 90
+          },
+          "corrected_Eq1_Eq4": 0.002526629444470029,
+          "original_T_phase": 0.002526629444470029,
+          "direct_photon_trace": 0.002526629444470032,
+          "corrected_absolute_error": 2.6020852139652106e-18,
+          "original_absolute_error": 2.6020852139652106e-18
+        },
+        {
+          "angles_deg": [
+            121,
+            44,
+            -67
+          ],
+          "mode": {
+            "q1": 0,
+            "q2": 1,
+            "psi1_deg": 0,
+            "psi2_deg": -19
+          },
+          "corrected_Eq1_Eq4": 0.004463679491311207,
+          "original_T_phase": 0.004463679491311207,
+          "direct_photon_trace": 0.00446367949131121,
+          "corrected_absolute_error": 3.469446951953614e-18,
+          "original_absolute_error": 3.469446951953614e-18
+        },
+        {
+          "angles_deg": [
+            73,
+            142,
+            113
+          ],
+          "mode": {
+            "q1": 0,
+            "q2": 0,
+            "psi1_deg": 0,
+            "psi2_deg": 0
+          },
+          "corrected_Eq1_Eq4": 0.007842466065255111,
+          "original_T_phase": 0.007842466065255111,
+          "direct_photon_trace": 0.007842466065255113,
+          "corrected_absolute_error": 1.734723475976807e-18,
+          "original_absolute_error": 1.734723475976807e-18
+        },
+        {
+          "angles_deg": [
+            73,
+            142,
+            113
+          ],
+          "mode": {
+            "q1": 1,
+            "q2": 0,
+            "psi1_deg": 0,
+            "psi2_deg": 0
+          },
+          "corrected_Eq1_Eq4": 0.00285768256098894,
+          "original_T_phase": 0.00285768256098894,
+          "direct_photon_trace": 0.0028576825609889396,
+          "corrected_absolute_error": 4.336808689942018e-19,
+          "original_absolute_error": 4.336808689942018e-19
+        },
+        {
+          "angles_deg": [
+            73,
+            142,
+            113
+          ],
+          "mode": {
+            "q1": 1,
+            "q2": 0,
+            "psi1_deg": 90,
+            "psi2_deg": 0
+          },
+          "corrected_Eq1_Eq4": 0.00498478350426617,
+          "original_T_phase": 0.00498478350426617,
+          "direct_photon_trace": 0.004984783504266172,
+          "corrected_absolute_error": 1.734723475976807e-18,
+          "original_absolute_error": 1.734723475976807e-18
+        },
+        {
+          "angles_deg": [
+            73,
+            142,
+            113
+          ],
+          "mode": {
+            "q1": 1,
+            "q2": 0,
+            "psi1_deg": 27,
+            "psi2_deg": 0
+          },
+          "corrected_Eq1_Eq4": 0.0033958180353319957,
+          "original_T_phase": 0.0033958180353319957,
+          "direct_photon_trace": 0.003395818035331995,
+          "corrected_absolute_error": 8.673617379884035e-19,
+          "original_absolute_error": 8.673617379884035e-19
+        },
+        {
+          "angles_deg": [
+            73,
+            142,
+            113
+          ],
+          "mode": {
+            "q1": 0,
+            "q2": 1,
+            "psi1_deg": 0,
+            "psi2_deg": 0
+          },
+          "corrected_Eq1_Eq4": 0.005104286961541932,
+          "original_T_phase": 0.005104286961541932,
+          "direct_photon_trace": 0.005104286961541932,
+          "corrected_absolute_error": 0.0,
+          "original_absolute_error": 0.0
+        },
+        {
+          "angles_deg": [
+            73,
+            142,
+            113
+          ],
+          "mode": {
+            "q1": 0,
+            "q2": 1,
+            "psi1_deg": 0,
+            "psi2_deg": 90
+          },
+          "corrected_Eq1_Eq4": 0.002738179103713179,
+          "original_T_phase": 0.002738179103713179,
+          "direct_photon_trace": 0.002738179103713178,
+          "corrected_absolute_error": 8.673617379884035e-19,
+          "original_absolute_error": 8.673617379884035e-19
+        },
+        {
+          "angles_deg": [
+            73,
+            142,
+            113
+          ],
+          "mode": {
+            "q1": 0,
+            "q2": 1,
+            "psi1_deg": 0,
+            "psi2_deg": -19
+          },
+          "corrected_Eq1_Eq4": 0.005046324296442887,
+          "original_T_phase": 0.005046324296442887,
+          "direct_photon_trace": 0.005046324296442891,
+          "corrected_absolute_error": 3.469446951953614e-18,
+          "original_absolute_error": 3.469446951953614e-18
+        }
+      ]
+    },
+    {
+      "spins": [
+        3,
+        2,
+        0
+      ],
+      "gate": [
+        [
+          "E",
+          2,
+          1.0
+        ]
+      ],
+      "first_case": "pureE1_other_parity",
+      "chosen_population": [
+        0.05,
+        0.1,
+        0.2,
+        0.3,
+        0.2,
+        0.1,
+        0.05
+      ],
+      "rows": [
+        {
+          "angles_deg": [
+            37,
+            63,
+            41
+          ],
+          "mode": {
+            "q1": 0,
+            "q2": 0,
+            "psi1_deg": 0,
+            "psi2_deg": 0
+          },
+          "corrected_Eq1_Eq4": 0.005648017693981346,
+          "original_T_phase": 0.005648017693981346,
+          "direct_photon_trace": 0.005648017693981348,
+          "corrected_absolute_error": 1.734723475976807e-18,
+          "original_absolute_error": 1.734723475976807e-18
+        },
+        {
+          "angles_deg": [
+            37,
+            63,
+            41
+          ],
+          "mode": {
+            "q1": 1,
+            "q2": 0,
+            "psi1_deg": 0,
+            "psi2_deg": 0
+          },
+          "corrected_Eq1_Eq4": 0.0032228917851349266,
+          "original_T_phase": 0.0032228917851349266,
+          "direct_photon_trace": 0.003222891785134926,
+          "corrected_absolute_error": 4.336808689942018e-19,
+          "original_absolute_error": 4.336808689942018e-19
+        },
+        {
+          "angles_deg": [
+            37,
+            63,
+            41
+          ],
+          "mode": {
+            "q1": 1,
+            "q2": 0,
+            "psi1_deg": 90,
+            "psi2_deg": 0
+          },
+          "corrected_Eq1_Eq4": 0.0024251259088464215,
+          "original_T_phase": 0.0024251259088464215,
+          "direct_photon_trace": 0.0024251259088464206,
+          "corrected_absolute_error": 8.673617379884035e-19,
+          "original_absolute_error": 8.673617379884035e-19
+        },
+        {
+          "angles_deg": [
+            37,
+            63,
+            41
+          ],
+          "mode": {
+            "q1": 1,
+            "q2": 0,
+            "psi1_deg": 27,
+            "psi2_deg": 0
+          },
+          "corrected_Eq1_Eq4": 0.0027684028187017155,
+          "original_T_phase": 0.0027684028187017155,
+          "direct_photon_trace": 0.0027684028187017146,
+          "corrected_absolute_error": 8.673617379884035e-19,
+          "original_absolute_error": 8.673617379884035e-19
+        },
+        {
+          "angles_deg": [
+            37,
+            63,
+            41
+          ],
+          "mode": {
+            "q1": 0,
+            "q2": 1,
+            "psi1_deg": 0,
+            "psi2_deg": 0
+          },
+          "corrected_Eq1_Eq4": 0.0037849099400082916,
+          "original_T_phase": 0.0037849099400082916,
+          "direct_photon_trace": 0.0037849099400082895,
+          "corrected_absolute_error": 2.168404344971009e-18,
+          "original_absolute_error": 2.168404344971009e-18
+        },
+        {
+          "angles_deg": [
+            37,
+            63,
+            41
+          ],
+          "mode": {
+            "q1": 0,
+            "q2": 1,
+            "psi1_deg": 0,
+            "psi2_deg": 90
+          },
+          "corrected_Eq1_Eq4": 0.0018631077539730588,
+          "original_T_phase": 0.0018631077539730588,
+          "direct_photon_trace": 0.0018631077539730573,
+          "corrected_absolute_error": 1.5178830414797062e-18,
+          "original_absolute_error": 1.5178830414797062e-18
+        },
+        {
+          "angles_deg": [
+            37,
+            63,
+            41
+          ],
+          "mode": {
+            "q1": 0,
+            "q2": 1,
+            "psi1_deg": 0,
+            "psi2_deg": -19
+          },
+          "corrected_Eq1_Eq4": 0.00361002002728855,
+          "original_T_phase": 0.00361002002728855,
+          "direct_photon_trace": 0.0036100200272885493,
+          "corrected_absolute_error": 8.673617379884035e-19,
+          "original_absolute_error": 8.673617379884035e-19
+        },
+        {
+          "angles_deg": [
+            90,
+            90,
+            180
+          ],
+          "mode": {
+            "q1": 0,
+            "q2": 0,
+            "psi1_deg": 0,
+            "psi2_deg": 0
+          },
+          "corrected_Eq1_Eq4": 0.004868166245315444,
+          "original_T_phase": 0.004868166245315444,
+          "direct_photon_trace": 0.0048681662453154495,
+          "corrected_absolute_error": 5.204170427930421e-18,
+          "original_absolute_error": 5.204170427930421e-18
+        },
+        {
+          "angles_deg": [
+            90,
+            90,
+            180
+          ],
+          "mode": {
+            "q1": 1,
+            "q2": 0,
+            "psi1_deg": 0,
+            "psi2_deg": 0
+          },
+          "corrected_Eq1_Eq4": 0.0033246013382642065,
+          "original_T_phase": 0.0033246013382642065,
+          "direct_photon_trace": 0.003324601338264209,
+          "corrected_absolute_error": 2.6020852139652106e-18,
+          "original_absolute_error": 2.6020852139652106e-18
+        },
+        {
+          "angles_deg": [
+            90,
+            90,
+            180
+          ],
+          "mode": {
+            "q1": 1,
+            "q2": 0,
+            "psi1_deg": 90,
+            "psi2_deg": 0
+          },
+          "corrected_Eq1_Eq4": 0.0015435649070512391,
+          "original_T_phase": 0.0015435649070512391,
+          "direct_photon_trace": 0.0015435649070512395,
+          "corrected_absolute_error": 4.336808689942018e-19,
+          "original_absolute_error": 4.336808689942018e-19
+        },
+        {
+          "angles_deg": [
+            90,
+            90,
+            180
+          ],
+          "mode": {
+            "q1": 1,
+            "q2": 0,
+            "psi1_deg": 27,
+            "psi2_deg": 0
+          },
+          "corrected_Eq1_Eq4": 0.002957516596689023,
+          "original_T_phase": 0.002957516596689023,
+          "direct_photon_trace": 0.0029575165966890258,
+          "corrected_absolute_error": 2.6020852139652106e-18,
+          "original_absolute_error": 2.6020852139652106e-18
+        },
+        {
+          "angles_deg": [
+            90,
+            90,
+            180
+          ],
+          "mode": {
+            "q1": 0,
+            "q2": 1,
+            "psi1_deg": 0,
+            "psi2_deg": 0
+          },
+          "corrected_Eq1_Eq4": 0.0033246013382642057,
+          "original_T_phase": 0.0033246013382642057,
+          "direct_photon_trace": 0.0033246013382642083,
+          "corrected_absolute_error": 2.6020852139652106e-18,
+          "original_absolute_error": 2.6020852139652106e-18
+        },
+        {
+          "angles_deg": [
+            90,
+            90,
+            180
+          ],
+          "mode": {
+            "q1": 0,
+            "q2": 1,
+            "psi1_deg": 0,
+            "psi2_deg": 90
+          },
+          "corrected_Eq1_Eq4": 0.001543564907051239,
+          "original_T_phase": 0.001543564907051239,
+          "direct_photon_trace": 0.0015435649070512398,
+          "corrected_absolute_error": 8.673617379884035e-19,
+          "original_absolute_error": 8.673617379884035e-19
+        },
+        {
+          "angles_deg": [
+            90,
+            90,
+            180
+          ],
+          "mode": {
+            "q1": 0,
+            "q2": 1,
+            "psi1_deg": 0,
+            "psi2_deg": -19
+          },
+          "corrected_Eq1_Eq4": 0.0031358210528383,
+          "original_T_phase": 0.0031358210528383,
+          "direct_photon_trace": 0.0031358210528383036,
+          "corrected_absolute_error": 3.469446951953614e-18,
+          "original_absolute_error": 3.469446951953614e-18
+        },
+        {
+          "angles_deg": [
+            121,
+            44,
+            -67
+          ],
+          "mode": {
+            "q1": 0,
+            "q2": 0,
+            "psi1_deg": 0,
+            "psi2_deg": 0
+          },
+          "corrected_Eq1_Eq4": 0.0073135624349711,
+          "original_T_phase": 0.0073135624349711,
+          "direct_photon_trace": 0.007313562434971106,
+          "corrected_absolute_error": 6.071532165918825e-18,
+          "original_absolute_error": 6.071532165918825e-18
+        },
+        {
+          "angles_deg": [
+            121,
+            44,
+            -67
+          ],
+          "mode": {
+            "q1": 1,
+            "q2": 0,
+            "psi1_deg": 0,
+            "psi2_deg": 0
+          },
+          "corrected_Eq1_Eq4": 0.004485709638830274,
+          "original_T_phase": 0.004485709638830274,
+          "direct_photon_trace": 0.004485709638830277,
+          "corrected_absolute_error": 2.6020852139652106e-18,
+          "original_absolute_error": 2.6020852139652106e-18
+        },
+        {
+          "angles_deg": [
+            121,
+            44,
+            -67
+          ],
+          "mode": {
+            "q1": 1,
+            "q2": 0,
+            "psi1_deg": 90,
+            "psi2_deg": 0
+          },
+          "corrected_Eq1_Eq4": 0.0028278527961408248,
+          "original_T_phase": 0.0028278527961408248,
+          "direct_photon_trace": 0.0028278527961408265,
+          "corrected_absolute_error": 1.734723475976807e-18,
+          "original_absolute_error": 1.734723475976807e-18
+        },
+        {
+          "angles_deg": [
+            121,
+            44,
+            -67
+          ],
+          "mode": {
+            "q1": 1,
+            "q2": 0,
+            "psi1_deg": 27,
+            "psi2_deg": 0
+          },
+          "corrected_Eq1_Eq4": 0.004054516249941715,
+          "original_T_phase": 0.004054516249941715,
+          "direct_photon_trace": 0.0040545162499417186,
+          "corrected_absolute_error": 3.469446951953614e-18,
+          "original_absolute_error": 3.469446951953614e-18
+        },
+        {
+          "angles_deg": [
+            121,
+            44,
+            -67
+          ],
+          "mode": {
+            "q1": 0,
+            "q2": 1,
+            "psi1_deg": 0,
+            "psi2_deg": 0
+          },
+          "corrected_Eq1_Eq4": 0.00478693299050107,
+          "original_T_phase": 0.00478693299050107,
+          "direct_photon_trace": 0.004786932990501071,
+          "corrected_absolute_error": 8.673617379884035e-19,
+          "original_absolute_error": 8.673617379884035e-19
+        },
+        {
+          "angles_deg": [
+            121,
+            44,
+            -67
+          ],
+          "mode": {
+            "q1": 0,
+            "q2": 1,
+            "psi1_deg": 0,
+            "psi2_deg": 90
+          },
+          "corrected_Eq1_Eq4": 0.002526629444470029,
+          "original_T_phase": 0.002526629444470029,
+          "direct_photon_trace": 0.002526629444470032,
+          "corrected_absolute_error": 2.6020852139652106e-18,
+          "original_absolute_error": 2.6020852139652106e-18
+        },
+        {
+          "angles_deg": [
+            121,
+            44,
+            -67
+          ],
+          "mode": {
+            "q1": 0,
+            "q2": 1,
+            "psi1_deg": 0,
+            "psi2_deg": -19
+          },
+          "corrected_Eq1_Eq4": 0.004463679491311207,
+          "original_T_phase": 0.004463679491311207,
+          "direct_photon_trace": 0.00446367949131121,
+          "corrected_absolute_error": 3.469446951953614e-18,
+          "original_absolute_error": 3.469446951953614e-18
+        },
+        {
+          "angles_deg": [
+            73,
+            142,
+            113
+          ],
+          "mode": {
+            "q1": 0,
+            "q2": 0,
+            "psi1_deg": 0,
+            "psi2_deg": 0
+          },
+          "corrected_Eq1_Eq4": 0.007842466065255111,
+          "original_T_phase": 0.007842466065255111,
+          "direct_photon_trace": 0.007842466065255113,
+          "corrected_absolute_error": 1.734723475976807e-18,
+          "original_absolute_error": 1.734723475976807e-18
+        },
+        {
+          "angles_deg": [
+            73,
+            142,
+            113
+          ],
+          "mode": {
+            "q1": 1,
+            "q2": 0,
+            "psi1_deg": 0,
+            "psi2_deg": 0
+          },
+          "corrected_Eq1_Eq4": 0.004984783504266171,
+          "original_T_phase": 0.004984783504266171,
+          "direct_photon_trace": 0.004984783504266172,
+          "corrected_absolute_error": 8.673617379884035e-19,
+          "original_absolute_error": 8.673617379884035e-19
+        },
+        {
+          "angles_deg": [
+            73,
+            142,
+            113
+          ],
+          "mode": {
+            "q1": 1,
+            "q2": 0,
+            "psi1_deg": 90,
+            "psi2_deg": 0
+          },
+          "corrected_Eq1_Eq4": 0.00285768256098894,
+          "original_T_phase": 0.00285768256098894,
+          "direct_photon_trace": 0.0028576825609889396,
+          "corrected_absolute_error": 4.336808689942018e-19,
+          "original_absolute_error": 4.336808689942018e-19
+        },
+        {
+          "angles_deg": [
+            73,
+            142,
+            113
+          ],
+          "mode": {
+            "q1": 1,
+            "q2": 0,
+            "psi1_deg": 27,
+            "psi2_deg": 0
+          },
+          "corrected_Eq1_Eq4": 0.004446648029923116,
+          "original_T_phase": 0.004446648029923116,
+          "direct_photon_trace": 0.004446648029923115,
+          "corrected_absolute_error": 8.673617379884035e-19,
+          "original_absolute_error": 8.673617379884035e-19
+        },
+        {
+          "angles_deg": [
+            73,
+            142,
+            113
+          ],
+          "mode": {
+            "q1": 0,
+            "q2": 1,
+            "psi1_deg": 0,
+            "psi2_deg": 0
+          },
+          "corrected_Eq1_Eq4": 0.005104286961541932,
+          "original_T_phase": 0.005104286961541932,
+          "direct_photon_trace": 0.005104286961541932,
+          "corrected_absolute_error": 0.0,
+          "original_absolute_error": 0.0
+        },
+        {
+          "angles_deg": [
+            73,
+            142,
+            113
+          ],
+          "mode": {
+            "q1": 0,
+            "q2": 1,
+            "psi1_deg": 0,
+            "psi2_deg": 90
+          },
+          "corrected_Eq1_Eq4": 0.002738179103713179,
+          "original_T_phase": 0.002738179103713179,
+          "direct_photon_trace": 0.002738179103713178,
+          "corrected_absolute_error": 8.673617379884035e-19,
+          "original_absolute_error": 8.673617379884035e-19
+        },
+        {
+          "angles_deg": [
+            73,
+            142,
+            113
+          ],
+          "mode": {
+            "q1": 0,
+            "q2": 1,
+            "psi1_deg": 0,
+            "psi2_deg": -19
+          },
+          "corrected_Eq1_Eq4": 0.005046324296442887,
+          "original_T_phase": 0.005046324296442887,
+          "direct_photon_trace": 0.005046324296442891,
+          "corrected_absolute_error": 3.469446951953614e-18,
+          "original_absolute_error": 3.469446951953614e-18
+        }
+      ]
+    },
+    {
+      "spins": [
+        3,
+        2,
+        0
+      ],
+      "gate": [
+        [
+          "E",
+          2,
+          1.0
+        ]
+      ],
+      "first_case": "pureE2",
+      "chosen_population": [
+        0.05,
+        0.1,
+        0.2,
+        0.3,
+        0.2,
+        0.1,
+        0.05
+      ],
+      "rows": [
+        {
+          "angles_deg": [
+            37,
+            63,
+            41
+          ],
+          "mode": {
+            "q1": 0,
+            "q2": 0,
+            "psi1_deg": 0,
+            "psi2_deg": 0
+          },
+          "corrected_Eq1_Eq4": 0.005594536028015643,
+          "original_T_phase": 0.005594536028015643,
+          "direct_photon_trace": 0.0055945360280156425,
+          "corrected_absolute_error": 8.673617379884035e-19,
+          "original_absolute_error": 8.673617379884035e-19
+        },
+        {
+          "angles_deg": [
+            37,
+            63,
+            41
+          ],
+          "mode": {
+            "q1": 1,
+            "q2": 0,
+            "psi1_deg": 0,
+            "psi2_deg": 0
+          },
+          "corrected_Eq1_Eq4": 0.002726800987754861,
+          "original_T_phase": 0.002726800987754861,
+          "direct_photon_trace": 0.0027268009877548594,
+          "corrected_absolute_error": 1.734723475976807e-18,
+          "original_absolute_error": 1.734723475976807e-18
+        },
+        {
+          "angles_deg": [
+            37,
+            63,
+            41
+          ],
+          "mode": {
+            "q1": 1,
+            "q2": 0,
+            "psi1_deg": 90,
+            "psi2_deg": 0
+          },
+          "corrected_Eq1_Eq4": 0.002867735040260784,
+          "original_T_phase": 0.002867735040260784,
+          "direct_photon_trace": 0.002867735040260783,
+          "corrected_absolute_error": 8.673617379884035e-19,
+          "original_absolute_error": 8.673617379884035e-19
+        },
+        {
+          "angles_deg": [
+            37,
+            63,
+            41
+          ],
+          "mode": {
+            "q1": 1,
+            "q2": 0,
+            "psi1_deg": 27,
+            "psi2_deg": 0
+          },
+          "corrected_Eq1_Eq4": 0.0028204492750487985,
+          "original_T_phase": 0.0028204492750487985,
+          "direct_photon_trace": 0.002820449275048798,
+          "corrected_absolute_error": 4.336808689942018e-19,
+          "original_absolute_error": 4.336808689942018e-19
+        },
+        {
+          "angles_deg": [
+            37,
+            63,
+            41
+          ],
+          "mode": {
+            "q1": 0,
+            "q2": 1,
+            "psi1_deg": 0,
+            "psi2_deg": 0
+          },
+          "corrected_Eq1_Eq4": 0.002876808911531113,
+          "original_T_phase": 0.002876808911531113,
+          "direct_photon_trace": 0.002876808911531111,
+          "corrected_absolute_error": 2.168404344971009e-18,
+          "original_absolute_error": 2.168404344971009e-18
+        },
+        {
+          "angles_deg": [
+            37,
+            63,
+            41
+          ],
+          "mode": {
+            "q1": 0,
+            "q2": 1,
+            "psi1_deg": 0,
+            "psi2_deg": 90
+          },
+          "corrected_Eq1_Eq4": 0.0027177271164845326,
+          "original_T_phase": 0.0027177271164845326,
+          "direct_photon_trace": 0.0027177271164845317,
+          "corrected_absolute_error": 8.673617379884035e-19,
+          "original_absolute_error": 8.673617379884035e-19
+        },
+        {
+          "angles_deg": [
+            37,
+            63,
+            41
+          ],
+          "mode": {
+            "q1": 0,
+            "q2": 1,
+            "psi1_deg": 0,
+            "psi2_deg": -19
+          },
+          "corrected_Eq1_Eq4": 0.002635834709412125,
+          "original_T_phase": 0.002635834709412125,
+          "direct_photon_trace": 0.002635834709412123,
+          "corrected_absolute_error": 2.168404344971009e-18,
+          "original_absolute_error": 2.168404344971009e-18
+        },
+        {
+          "angles_deg": [
+            90,
+            90,
+            180
+          ],
+          "mode": {
+            "q1": 0,
+            "q2": 0,
+            "psi1_deg": 0,
+            "psi2_deg": 0
+          },
+          "corrected_Eq1_Eq4": 0.003364179925624493,
+          "original_T_phase": 0.003364179925624493,
+          "direct_photon_trace": 0.003364179925624497,
+          "corrected_absolute_error": 3.903127820947816e-18,
+          "original_absolute_error": 3.903127820947816e-18
+        },
+        {
+          "angles_deg": [
+            90,
+            90,
+            180
+          ],
+          "mode": {
+            "q1": 1,
+            "q2": 0,
+            "psi1_deg": 0,
+            "psi2_deg": 0
+          },
+          "corrected_Eq1_Eq4": 0.0016820899628122458,
+          "original_T_phase": 0.0016820899628122458,
+          "direct_photon_trace": 0.0016820899628122482,
+          "corrected_absolute_error": 2.3852447794681098e-18,
+          "original_absolute_error": 2.3852447794681098e-18
+        },
+        {
+          "angles_deg": [
+            90,
+            90,
+            180
+          ],
+          "mode": {
+            "q1": 1,
+            "q2": 0,
+            "psi1_deg": 90,
+            "psi2_deg": 0
+          },
+          "corrected_Eq1_Eq4": 0.001682089962812248,
+          "original_T_phase": 0.001682089962812248,
+          "direct_photon_trace": 0.0016820899628122482,
+          "corrected_absolute_error": 2.168404344971009e-19,
+          "original_absolute_error": 2.168404344971009e-19
+        },
+        {
+          "angles_deg": [
+            90,
+            90,
+            180
+          ],
+          "mode": {
+            "q1": 1,
+            "q2": 0,
+            "psi1_deg": 27,
+            "psi2_deg": 0
+          },
+          "corrected_Eq1_Eq4": 0.0016820899628122476,
+          "original_T_phase": 0.0016820899628122476,
+          "direct_photon_trace": 0.0016820899628122484,
+          "corrected_absolute_error": 8.673617379884035e-19,
+          "original_absolute_error": 8.673617379884035e-19
+        },
+        {
+          "angles_deg": [
+            90,
+            90,
+            180
+          ],
+          "mode": {
+            "q1": 0,
+            "q2": 1,
+            "psi1_deg": 0,
+            "psi2_deg": 0
+          },
+          "corrected_Eq1_Eq4": 0.0016820899628122465,
+          "original_T_phase": 0.0016820899628122465,
+          "direct_photon_trace": 0.0016820899628122482,
+          "corrected_absolute_error": 1.734723475976807e-18,
+          "original_absolute_error": 1.734723475976807e-18
+        },
+        {
+          "angles_deg": [
+            90,
+            90,
+            180
+          ],
+          "mode": {
+            "q1": 0,
+            "q2": 1,
+            "psi1_deg": 0,
+            "psi2_deg": 90
+          },
+          "corrected_Eq1_Eq4": 0.001682089962812248,
+          "original_T_phase": 0.001682089962812248,
+          "direct_photon_trace": 0.0016820899628122482,
+          "corrected_absolute_error": 2.168404344971009e-19,
+          "original_absolute_error": 2.168404344971009e-19
+        },
+        {
+          "angles_deg": [
+            90,
+            90,
+            180
+          ],
+          "mode": {
+            "q1": 0,
+            "q2": 1,
+            "psi1_deg": 0,
+            "psi2_deg": -19
+          },
+          "corrected_Eq1_Eq4": 0.001682089962812246,
+          "original_T_phase": 0.001682089962812246,
+          "direct_photon_trace": 0.0016820899628122487,
+          "corrected_absolute_error": 2.6020852139652106e-18,
+          "original_absolute_error": 2.6020852139652106e-18
+        },
+        {
+          "angles_deg": [
+            121,
+            44,
+            -67
+          ],
+          "mode": {
+            "q1": 0,
+            "q2": 0,
+            "psi1_deg": 0,
+            "psi2_deg": 0
+          },
+          "corrected_Eq1_Eq4": 0.006103407300745093,
+          "original_T_phase": 0.006103407300745093,
+          "direct_photon_trace": 0.006103407300745098,
+          "corrected_absolute_error": 5.204170427930421e-18,
+          "original_absolute_error": 5.204170427930421e-18
+        },
+        {
+          "angles_deg": [
+            121,
+            44,
+            -67
+          ],
+          "mode": {
+            "q1": 1,
+            "q2": 0,
+            "psi1_deg": 0,
+            "psi2_deg": 0
+          },
+          "corrected_Eq1_Eq4": 0.002789066249158061,
+          "original_T_phase": 0.002789066249158061,
+          "direct_photon_trace": 0.002789066249158063,
+          "corrected_absolute_error": 1.734723475976807e-18,
+          "original_absolute_error": 1.734723475976807e-18
+        },
+        {
+          "angles_deg": [
+            121,
+            44,
+            -67
+          ],
+          "mode": {
+            "q1": 1,
+            "q2": 0,
+            "psi1_deg": 90,
+            "psi2_deg": 0
+          },
+          "corrected_Eq1_Eq4": 0.003314341051587033,
+          "original_T_phase": 0.003314341051587033,
+          "direct_photon_trace": 0.0033143410515870343,
+          "corrected_absolute_error": 1.3010426069826053e-18,
+          "original_absolute_error": 1.3010426069826053e-18
+        },
+        {
+          "angles_deg": [
+            121,
+            44,
+            -67
+          ],
+          "mode": {
+            "q1": 1,
+            "q2": 0,
+            "psi1_deg": 27,
+            "psi2_deg": 0
+          },
+          "corrected_Eq1_Eq4": 0.00358420626922562,
+          "original_T_phase": 0.00358420626922562,
+          "direct_photon_trace": 0.0035842062692256213,
+          "corrected_absolute_error": 1.3010426069826053e-18,
+          "original_absolute_error": 1.3010426069826053e-18
+        },
+        {
+          "angles_deg": [
+            121,
+            44,
+            -67
+          ],
+          "mode": {
+            "q1": 0,
+            "q2": 1,
+            "psi1_deg": 0,
+            "psi2_deg": 0
+          },
+          "corrected_Eq1_Eq4": 0.002942608390441976,
+          "original_T_phase": 0.002942608390441976,
+          "direct_photon_trace": 0.0029426083904419767,
+          "corrected_absolute_error": 8.673617379884035e-19,
+          "original_absolute_error": 8.673617379884035e-19
+        },
+        {
+          "angles_deg": [
+            121,
+            44,
+            -67
+          ],
+          "mode": {
+            "q1": 0,
+            "q2": 1,
+            "psi1_deg": 0,
+            "psi2_deg": 90
+          },
+          "corrected_Eq1_Eq4": 0.0031607989103031166,
+          "original_T_phase": 0.0031607989103031166,
+          "direct_photon_trace": 0.0031607989103031205,
+          "corrected_absolute_error": 3.903127820947816e-18,
+          "original_absolute_error": 3.903127820947816e-18
+        },
+        {
+          "angles_deg": [
+            121,
+            44,
+            -67
+          ],
+          "mode": {
+            "q1": 0,
+            "q2": 1,
+            "psi1_deg": 0,
+            "psi2_deg": -19
+          },
+          "corrected_Eq1_Eq4": 0.002244517005544953,
+          "original_T_phase": 0.002244517005544953,
+          "direct_photon_trace": 0.0022445170055449544,
+          "corrected_absolute_error": 1.3010426069826053e-18,
+          "original_absolute_error": 1.3010426069826053e-18
+        },
+        {
+          "angles_deg": [
+            73,
+            142,
+            113
+          ],
+          "mode": {
+            "q1": 0,
+            "q2": 0,
+            "psi1_deg": 0,
+            "psi2_deg": 0
+          },
+          "corrected_Eq1_Eq4": 0.006063252059547988,
+          "original_T_phase": 0.006063252059547988,
+          "direct_photon_trace": 0.006063252059547988,
+          "corrected_absolute_error": 0.0,
+          "original_absolute_error": 0.0
+        },
+        {
+          "angles_deg": [
+            73,
+            142,
+            113
+          ],
+          "mode": {
+            "q1": 1,
+            "q2": 0,
+            "psi1_deg": 0,
+            "psi2_deg": 0
+          },
+          "corrected_Eq1_Eq4": 0.0032295859402032266,
+          "original_T_phase": 0.0032295859402032266,
+          "direct_photon_trace": 0.003229585940203227,
+          "corrected_absolute_error": 4.336808689942018e-19,
+          "original_absolute_error": 4.336808689942018e-19
+        },
+        {
+          "angles_deg": [
+            73,
+            142,
+            113
+          ],
+          "mode": {
+            "q1": 1,
+            "q2": 0,
+            "psi1_deg": 90,
+            "psi2_deg": 0
+          },
+          "corrected_Eq1_Eq4": 0.0028336661193447627,
+          "original_T_phase": 0.0028336661193447627,
+          "direct_photon_trace": 0.002833666119344759,
+          "corrected_absolute_error": 3.469446951953614e-18,
+          "original_absolute_error": 3.469446951953614e-18
+        },
+        {
+          "angles_deg": [
+            73,
+            142,
+            113
+          ],
+          "mode": {
+            "q1": 1,
+            "q2": 0,
+            "psi1_deg": 27,
+            "psi2_deg": 0
+          },
+          "corrected_Eq1_Eq4": 0.0036209406521820996,
+          "original_T_phase": 0.0036209406521820996,
+          "direct_photon_trace": 0.0036209406521820996,
+          "corrected_absolute_error": 0.0,
+          "original_absolute_error": 0.0
+        },
+        {
+          "angles_deg": [
+            73,
+            142,
+            113
+          ],
+          "mode": {
+            "q1": 0,
+            "q2": 1,
+            "psi1_deg": 0,
+            "psi2_deg": 0
+          },
+          "corrected_Eq1_Eq4": 0.0037734949678513963,
+          "original_T_phase": 0.0037734949678513963,
+          "direct_photon_trace": 0.003773494967851396,
+          "corrected_absolute_error": 4.336808689942018e-19,
+          "original_absolute_error": 4.336808689942018e-19
+        },
+        {
+          "angles_deg": [
+            73,
+            142,
+            113
+          ],
+          "mode": {
+            "q1": 0,
+            "q2": 1,
+            "psi1_deg": 0,
+            "psi2_deg": 90
+          },
+          "corrected_Eq1_Eq4": 0.0022897570916965916,
+          "original_T_phase": 0.0022897570916965916,
+          "direct_photon_trace": 0.0022897570916965903,
+          "corrected_absolute_error": 1.3010426069826053e-18,
+          "original_absolute_error": 1.3010426069826053e-18
+        },
+        {
+          "angles_deg": [
+            73,
+            142,
+            113
+          ],
+          "mode": {
+            "q1": 0,
+            "q2": 1,
+            "psi1_deg": 0,
+            "psi2_deg": -19
+          },
+          "corrected_Eq1_Eq4": 0.003763379931720417,
+          "original_T_phase": 0.003763379931720417,
+          "direct_photon_trace": 0.003763379931720418,
+          "corrected_absolute_error": 1.3010426069826053e-18,
+          "original_absolute_error": 1.3010426069826053e-18
+        }
+      ]
+    },
+    {
+      "spins": [
+        3,
+        2,
+        0
+      ],
+      "gate": [
+        [
+          "E",
+          2,
+          1.0
+        ]
+      ],
+      "first_case": "mixed_d+.3",
+      "chosen_population": [
+        0.05,
+        0.1,
+        0.2,
+        0.3,
+        0.2,
+        0.1,
+        0.05
+      ],
+      "rows": [
+        {
+          "angles_deg": [
+            37,
+            63,
+            41
+          ],
+          "mode": {
+            "q1": 0,
+            "q2": 0,
+            "psi1_deg": 0,
+            "psi2_deg": 0
+          },
+          "corrected_Eq1_Eq4": 0.006998497361637317,
+          "original_T_phase": 0.006998497361637317,
+          "direct_photon_trace": 0.006998497361637313,
+          "corrected_absolute_error": 3.469446951953614e-18,
+          "original_absolute_error": 3.469446951953614e-18
+        },
+        {
+          "angles_deg": [
+            37,
+            63,
+            41
+          ],
+          "mode": {
+            "q1": 1,
+            "q2": 0,
+            "psi1_deg": 0,
+            "psi2_deg": 0
+          },
+          "corrected_Eq1_Eq4": 0.0030004138587045276,
+          "original_T_phase": 0.0032545514469566037,
+          "direct_photon_trace": 0.0030004138587045254,
+          "corrected_absolute_error": 2.168404344971009e-18,
+          "original_absolute_error": 0.0002541375882520783
+        },
+        {
+          "angles_deg": [
+            37,
+            63,
+            41
+          ],
+          "mode": {
+            "q1": 1,
+            "q2": 0,
+            "psi1_deg": 90,
+            "psi2_deg": 0
+          },
+          "corrected_Eq1_Eq4": 0.003998083502932788,
+          "original_T_phase": 0.003743945914680712,
+          "direct_photon_trace": 0.003998083502932787,
+          "corrected_absolute_error": 8.673617379884035e-19,
+          "original_absolute_error": 0.00025413758825207486
+        },
+        {
+          "angles_deg": [
+            37,
+            63,
+            41
+          ],
+          "mode": {
+            "q1": 1,
+            "q2": 0,
+            "psi1_deg": 27,
+            "psi2_deg": 0
+          },
+          "corrected_Eq1_Eq4": 0.003688199414587909,
+          "original_T_phase": 0.003416155454907472,
+          "direct_photon_trace": 0.003688199414587908,
+          "corrected_absolute_error": 8.673617379884035e-19,
+          "original_absolute_error": 0.00027204395968043584
+        },
+        {
+          "angles_deg": [
+            37,
+            63,
+            41
+          ],
+          "mode": {
+            "q1": 0,
+            "q2": 1,
+            "psi1_deg": 0,
+            "psi2_deg": 0
+          },
+          "corrected_Eq1_Eq4": 0.004622960206436216,
+          "original_T_phase": 0.004622960206436216,
+          "direct_photon_trace": 0.0046229602064362125,
+          "corrected_absolute_error": 3.469446951953614e-18,
+          "original_absolute_error": 3.469446951953614e-18
+        },
+        {
+          "angles_deg": [
+            37,
+            63,
+            41
+          ],
+          "mode": {
+            "q1": 0,
+            "q2": 1,
+            "psi1_deg": 0,
+            "psi2_deg": 90
+          },
+          "corrected_Eq1_Eq4": 0.0023755371552010977,
+          "original_T_phase": 0.0023755371552010977,
+          "direct_photon_trace": 0.0023755371552010977,
+          "corrected_absolute_error": 0.0,
+          "original_absolute_error": 0.0
+        },
+        {
+          "angles_deg": [
+            37,
+            63,
+            41
+          ],
+          "mode": {
+            "q1": 0,
+            "q2": 1,
+            "psi1_deg": 0,
+            "psi2_deg": -19
+          },
+          "corrected_Eq1_Eq4": 0.0045393229940768245,
+          "original_T_phase": 0.0045393229940768245,
+          "direct_photon_trace": 0.004539322994076823,
+          "corrected_absolute_error": 1.734723475976807e-18,
+          "original_absolute_error": 1.734723475976807e-18
+        },
+        {
+          "angles_deg": [
+            90,
+            90,
+            180
+          ],
+          "mode": {
+            "q1": 0,
+            "q2": 0,
+            "psi1_deg": 0,
+            "psi2_deg": 0
+          },
+          "corrected_Eq1_Eq4": 0.005758279613104586,
+          "original_T_phase": 0.005758279613104586,
+          "direct_photon_trace": 0.005758279613104594,
+          "corrected_absolute_error": 7.806255641895632e-18,
+          "original_absolute_error": 7.806255641895632e-18
+        },
+        {
+          "angles_deg": [
+            90,
+            90,
+            180
+          ],
+          "mode": {
+            "q1": 1,
+            "q2": 0,
+            "psi1_deg": 0,
+            "psi2_deg": 0
+          },
+          "corrected_Eq1_Eq4": 0.0016146672100721081,
+          "original_T_phase": 0.002509634025772879,
+          "direct_photon_trace": 0.001614667210072108,
+          "corrected_absolute_error": 2.168404344971009e-19,
+          "original_absolute_error": 0.0008949668157007709
+        },
+        {
+          "angles_deg": [
+            90,
+            90,
+            180
+          ],
+          "mode": {
+            "q1": 1,
+            "q2": 0,
+            "psi1_deg": 90,
+            "psi2_deg": 0
+          },
+          "corrected_Eq1_Eq4": 0.00414361240303248,
+          "original_T_phase": 0.003248645587331709,
+          "direct_photon_trace": 0.004143612403032485,
+          "corrected_absolute_error": 4.336808689942018e-18,
+          "original_absolute_error": 0.0008949668157007757
+        },
+        {
+          "angles_deg": [
+            90,
+            90,
+            180
+          ],
+          "mode": {
+            "q1": 1,
+            "q2": 0,
+            "psi1_deg": 27,
+            "psi2_deg": 0
+          },
+          "corrected_Eq1_Eq4": 0.0021359014624132686,
+          "original_T_phase": 0.00266194975797334,
+          "direct_photon_trace": 0.002135901462413271,
+          "corrected_absolute_error": 2.168404344971009e-18,
+          "original_absolute_error": 0.0005260482955600694
+        },
+        {
+          "angles_deg": [
+            90,
+            90,
+            180
+          ],
+          "mode": {
+            "q1": 0,
+            "q2": 1,
+            "psi1_deg": 0,
+            "psi2_deg": 0
+          },
+          "corrected_Eq1_Eq4": 0.004143612403032481,
+          "original_T_phase": 0.004143612403032481,
+          "direct_photon_trace": 0.004143612403032484,
+          "corrected_absolute_error": 2.6020852139652106e-18,
+          "original_absolute_error": 2.6020852139652106e-18
+        },
+        {
+          "angles_deg": [
+            90,
+            90,
+            180
+          ],
+          "mode": {
+            "q1": 0,
+            "q2": 1,
+            "psi1_deg": 0,
+            "psi2_deg": 90
+          },
+          "corrected_Eq1_Eq4": 0.0016146672100721077,
+          "original_T_phase": 0.0016146672100721077,
+          "direct_photon_trace": 0.0016146672100721083,
+          "corrected_absolute_error": 6.505213034913027e-19,
+          "original_absolute_error": 6.505213034913027e-19
+        },
+        {
+          "angles_deg": [
+            90,
+            90,
+            180
+          ],
+          "mode": {
+            "q1": 0,
+            "q2": 1,
+            "psi1_deg": 0,
+            "psi2_deg": -19
+          },
+          "corrected_Eq1_Eq4": 0.003875557810219696,
+          "original_T_phase": 0.003875557810219696,
+          "direct_photon_trace": 0.0038755578102197003,
+          "corrected_absolute_error": 4.336808689942018e-18,
+          "original_absolute_error": 4.336808689942018e-18
+        },
+        {
+          "angles_deg": [
+            121,
+            44,
+            -67
+          ],
+          "mode": {
+            "q1": 0,
+            "q2": 0,
+            "psi1_deg": 0,
+            "psi2_deg": 0
+          },
+          "corrected_Eq1_Eq4": 0.006562560624124169,
+          "original_T_phase": 0.006562560624124169,
+          "direct_photon_trace": 0.006562560624124176,
+          "corrected_absolute_error": 6.938893903907228e-18,
+          "original_absolute_error": 6.938893903907228e-18
+        },
+        {
+          "angles_deg": [
+            121,
+            44,
+            -67
+          ],
+          "mode": {
+            "q1": 1,
+            "q2": 0,
+            "psi1_deg": 0,
+            "psi2_deg": 0
+          },
+          "corrected_Eq1_Eq4": 0.002140641776306641,
+          "original_T_phase": 0.002857577953406469,
+          "direct_photon_trace": 0.002140641776306642,
+          "corrected_absolute_error": 8.673617379884035e-19,
+          "original_absolute_error": 0.000716936177099827
+        },
+        {
+          "angles_deg": [
+            121,
+            44,
+            -67
+          ],
+          "mode": {
+            "q1": 1,
+            "q2": 0,
+            "psi1_deg": 90,
+            "psi2_deg": 0
+          },
+          "corrected_Eq1_Eq4": 0.00442191884781753,
+          "original_T_phase": 0.003704982670717702,
+          "direct_photon_trace": 0.004421918847817535,
+          "corrected_absolute_error": 5.204170427930421e-18,
+          "original_absolute_error": 0.0007169361770998331
+        },
+        {
+          "angles_deg": [
+            121,
+            44,
+            -67
+          ],
+          "mode": {
+            "q1": 1,
+            "q2": 0,
+            "psi1_deg": 27,
+            "psi2_deg": 0
+          },
+          "corrected_Eq1_Eq4": 0.0029352078580239765,
+          "original_T_phase": 0.002985499928009574,
+          "direct_photon_trace": 0.002935207858023978,
+          "corrected_absolute_error": 1.3010426069826053e-18,
+          "original_absolute_error": 5.029206998559627e-05
+        },
+        {
+          "angles_deg": [
+            121,
+            44,
+            -67
+          ],
+          "mode": {
+            "q1": 0,
+            "q2": 1,
+            "psi1_deg": 0,
+            "psi2_deg": 0
+          },
+          "corrected_Eq1_Eq4": 0.0038281347795902972,
+          "original_T_phase": 0.0038281347795902972,
+          "direct_photon_trace": 0.0038281347795903016,
+          "corrected_absolute_error": 4.336808689942018e-18,
+          "original_absolute_error": 4.336808689942018e-18
+        },
+        {
+          "angles_deg": [
+            121,
+            44,
+            -67
+          ],
+          "mode": {
+            "q1": 0,
+            "q2": 1,
+            "psi1_deg": 0,
+            "psi2_deg": 90
+          },
+          "corrected_Eq1_Eq4": 0.002734425844533873,
+          "original_T_phase": 0.002734425844533873,
+          "direct_photon_trace": 0.002734425844533875,
+          "corrected_absolute_error": 2.168404344971009e-18,
+          "original_absolute_error": 2.168404344971009e-18
+        },
+        {
+          "angles_deg": [
+            121,
+            44,
+            -67
+          ],
+          "mode": {
+            "q1": 0,
+            "q2": 1,
+            "psi1_deg": 0,
+            "psi2_deg": -19
+          },
+          "corrected_Eq1_Eq4": 0.0042057676978602436,
+          "original_T_phase": 0.0042057676978602436,
+          "direct_photon_trace": 0.004205767697860246,
+          "corrected_absolute_error": 2.6020852139652106e-18,
+          "original_absolute_error": 2.6020852139652106e-18
+        },
+        {
+          "angles_deg": [
+            73,
+            142,
+            113
+          ],
+          "mode": {
+            "q1": 0,
+            "q2": 0,
+            "psi1_deg": 0,
+            "psi2_deg": 0
+          },
+          "corrected_Eq1_Eq4": 0.006775452523788272,
+          "original_T_phase": 0.006775452523788272,
+          "direct_photon_trace": 0.006775452523788274,
+          "corrected_absolute_error": 2.6020852139652106e-18,
+          "original_absolute_error": 2.6020852139652106e-18
+        },
+        {
+          "angles_deg": [
+            73,
+            142,
+            113
+          ],
+          "mode": {
+            "q1": 1,
+            "q2": 0,
+            "psi1_deg": 0,
+            "psi2_deg": 0
+          },
+          "corrected_Eq1_Eq4": 0.002013571140588216,
+          "original_T_phase": 0.002843103255310182,
+          "direct_photon_trace": 0.0020135711405882125,
+          "corrected_absolute_error": 3.469446951953614e-18,
+          "original_absolute_error": 0.0008295321147219693
+        },
+        {
+          "angles_deg": [
+            73,
+            142,
+            113
+          ],
+          "mode": {
+            "q1": 1,
+            "q2": 0,
+            "psi1_deg": 90,
+            "psi2_deg": 0
+          },
+          "corrected_Eq1_Eq4": 0.004761881383200062,
+          "original_T_phase": 0.003932349268478095,
+          "direct_photon_trace": 0.004761881383200061,
+          "corrected_absolute_error": 8.673617379884035e-19,
+          "original_absolute_error": 0.0008295321147219663
+        },
+        {
+          "angles_deg": [
+            73,
+            142,
+            113
+          ],
+          "mode": {
+            "q1": 1,
+            "q2": 0,
+            "psi1_deg": 27,
+            "psi2_deg": 0
+          },
+          "corrected_Eq1_Eq4": 0.0028020024128318096,
+          "original_T_phase": 0.0031067039067751248,
+          "direct_photon_trace": 0.0028020024128318087,
+          "corrected_absolute_error": 8.673617379884035e-19,
+          "original_absolute_error": 0.00030470149394331604
+        },
+        {
+          "angles_deg": [
+            73,
+            142,
+            113
+          ],
+          "mode": {
+            "q1": 0,
+            "q2": 1,
+            "psi1_deg": 0,
+            "psi2_deg": 0
+          },
+          "corrected_Eq1_Eq4": 0.003596221813433204,
+          "original_T_phase": 0.003596221813433204,
+          "direct_photon_trace": 0.0035962218134332024,
+          "corrected_absolute_error": 1.734723475976807e-18,
+          "original_absolute_error": 1.734723475976807e-18
+        },
+        {
+          "angles_deg": [
+            73,
+            142,
+            113
+          ],
+          "mode": {
+            "q1": 0,
+            "q2": 1,
+            "psi1_deg": 0,
+            "psi2_deg": 90
+          },
+          "corrected_Eq1_Eq4": 0.0031792307103550685,
+          "original_T_phase": 0.0031792307103550685,
+          "direct_photon_trace": 0.0031792307103550694,
+          "corrected_absolute_error": 8.673617379884035e-19,
+          "original_absolute_error": 8.673617379884035e-19
+        },
+        {
+          "angles_deg": [
+            73,
+            142,
+            113
+          ],
+          "mode": {
+            "q1": 0,
+            "q2": 1,
+            "psi1_deg": 0,
+            "psi2_deg": -19
+          },
+          "corrected_Eq1_Eq4": 0.003485416242845747,
+          "original_T_phase": 0.003485416242845747,
+          "direct_photon_trace": 0.003485416242845748,
+          "corrected_absolute_error": 1.3010426069826053e-18,
+          "original_absolute_error": 1.3010426069826053e-18
+        }
+      ]
+    },
+    {
+      "spins": [
+        3,
+        2,
+        0
+      ],
+      "gate": [
+        [
+          "E",
+          2,
+          1.0
+        ]
+      ],
+      "first_case": "mixed_d-.3",
+      "chosen_population": [
+        0.05,
+        0.1,
+        0.2,
+        0.3,
+        0.2,
+        0.1,
+        0.05
+      ],
+      "rows": [
+        {
+          "angles_deg": [
+            37,
+            63,
+            41
+          ],
+          "mode": {
+            "q1": 0,
+            "q2": 0,
+            "psi1_deg": 0,
+            "psi2_deg": 0
+          },
+          "corrected_Eq1_Eq4": 0.004288706191578749,
+          "original_T_phase": 0.004288706191578749,
+          "direct_photon_trace": 0.004288706191578752,
+          "corrected_absolute_error": 2.6020852139652106e-18,
+          "original_absolute_error": 2.6020852139652106e-18
+        },
+        {
+          "angles_deg": [
+            37,
+            63,
+            41
+          ],
+          "mode": {
+            "q1": 1,
+            "q2": 0,
+            "psi1_deg": 0,
+            "psi2_deg": 0
+          },
+          "corrected_Eq1_Eq4": 0.001899655861927326,
+          "original_T_phase": 0.0016455182736752464,
+          "direct_photon_trace": 0.0018996558619273234,
+          "corrected_absolute_error": 2.6020852139652106e-18,
+          "original_absolute_error": 0.000254137588252077
+        },
+        {
+          "angles_deg": [
+            37,
+            63,
+            41
+          ],
+          "mode": {
+            "q1": 1,
+            "q2": 0,
+            "psi1_deg": 90,
+            "psi2_deg": 0
+          },
+          "corrected_Eq1_Eq4": 0.0023890503296514257,
+          "original_T_phase": 0.002643187917903505,
+          "direct_photon_trace": 0.002389050329651428,
+          "corrected_absolute_error": 2.168404344971009e-18,
+          "original_absolute_error": 0.000254137588252077
+        },
+        {
+          "angles_deg": [
+            37,
+            63,
+            41
+          ],
+          "mode": {
+            "q1": 1,
+            "q2": 0,
+            "psi1_deg": 27,
+            "psi2_deg": 0
+          },
+          "corrected_Eq1_Eq4": 0.0020612598698781922,
+          "original_T_phase": 0.002333303829558629,
+          "direct_photon_trace": 0.0020612598698781905,
+          "corrected_absolute_error": 1.734723475976807e-18,
+          "original_absolute_error": 0.00027204395968043844
+        },
+        {
+          "angles_deg": [
+            37,
+            63,
+            41
+          ],
+          "mode": {
+            "q1": 0,
+            "q2": 1,
+            "psi1_deg": 0,
+            "psi2_deg": 0
+          },
+          "corrected_Eq1_Eq4": 0.002796898035850189,
+          "original_T_phase": 0.002796898035850189,
+          "direct_photon_trace": 0.002796898035850189,
+          "corrected_absolute_error": 0.0,
+          "original_absolute_error": 0.0
+        },
+        {
+          "angles_deg": [
+            37,
+            63,
+            41
+          ],
+          "mode": {
+            "q1": 0,
+            "q2": 1,
+            "psi1_deg": 0,
+            "psi2_deg": 90
+          },
+          "corrected_Eq1_Eq4": 0.001491808155728564,
+          "original_T_phase": 0.001491808155728564,
+          "direct_photon_trace": 0.0014918081557285623,
+          "corrected_absolute_error": 1.734723475976807e-18,
+          "original_absolute_error": 1.734723475976807e-18
+        },
+        {
+          "angles_deg": [
+            37,
+            63,
+            41
+          ],
+          "mode": {
+            "q1": 0,
+            "q2": 1,
+            "psi1_deg": 0,
+            "psi2_deg": -19
+          },
+          "corrected_Eq1_Eq4": 0.002519842420850956,
+          "original_T_phase": 0.002519842420850956,
+          "direct_photon_trace": 0.0025198424208509565,
+          "corrected_absolute_error": 4.336808689942018e-19,
+          "original_absolute_error": 4.336808689942018e-19
+        },
+        {
+          "angles_deg": [
+            90,
+            90,
+            180
+          ],
+          "mode": {
+            "q1": 0,
+            "q2": 0,
+            "psi1_deg": 0,
+            "psi2_deg": 0
+          },
+          "corrected_Eq1_Eq4": 0.0037296881641828415,
+          "original_T_phase": 0.0037296881641828415,
+          "direct_photon_trace": 0.0037296881641828445,
+          "corrected_absolute_error": 3.0357660829594124e-18,
+          "original_absolute_error": 3.0357660829594124e-18
+        },
+        {
+          "angles_deg": [
+            90,
+            90,
+            180
+          ],
+          "mode": {
+            "q1": 1,
+            "q2": 0,
+            "psi1_deg": 0,
+            "psi2_deg": 0
+          },
+          "corrected_Eq1_Eq4": 0.0014953383013120063,
+          "original_T_phase": 0.0006003714856112345,
+          "direct_photon_trace": 0.001495338301312005,
+          "corrected_absolute_error": 1.3010426069826053e-18,
+          "original_absolute_error": 0.0008949668157007705
+        },
+        {
+          "angles_deg": [
+            90,
+            90,
+            180
+          ],
+          "mode": {
+            "q1": 1,
+            "q2": 0,
+            "psi1_deg": 90,
+            "psi2_deg": 0
+          },
+          "corrected_Eq1_Eq4": 0.002234349862870836,
+          "original_T_phase": 0.0031293166785716065,
+          "direct_photon_trace": 0.002234349862870838,
+          "corrected_absolute_error": 2.168404344971009e-18,
+          "original_absolute_error": 0.0008949668157007683
+        },
+        {
+          "angles_deg": [
+            90,
+            90,
+            180
+          ],
+          "mode": {
+            "q1": 1,
+            "q2": 0,
+            "psi1_deg": 27,
+            "psi2_deg": 0
+          },
+          "corrected_Eq1_Eq4": 0.0016476540335124655,
+          "original_T_phase": 0.0011216057379523964,
+          "direct_photon_trace": 0.001647654033512465,
+          "corrected_absolute_error": 4.336808689942018e-19,
+          "original_absolute_error": 0.0005260482955600687
+        },
+        {
+          "angles_deg": [
+            90,
+            90,
+            180
+          ],
+          "mode": {
+            "q1": 0,
+            "q2": 1,
+            "psi1_deg": 0,
+            "psi2_deg": 0
+          },
+          "corrected_Eq1_Eq4": 0.002234349862870836,
+          "original_T_phase": 0.002234349862870836,
+          "direct_photon_trace": 0.002234349862870838,
+          "corrected_absolute_error": 2.168404344971009e-18,
+          "original_absolute_error": 2.168404344971009e-18
+        },
+        {
+          "angles_deg": [
+            90,
+            90,
+            180
+          ],
+          "mode": {
+            "q1": 0,
+            "q2": 1,
+            "psi1_deg": 0,
+            "psi2_deg": 90
+          },
+          "corrected_Eq1_Eq4": 0.001495338301312005,
+          "original_T_phase": 0.001495338301312005,
+          "direct_photon_trace": 0.0014953383013120054,
+          "corrected_absolute_error": 4.336808689942018e-19,
+          "original_absolute_error": 4.336808689942018e-19
+        },
+        {
+          "angles_deg": [
+            90,
+            90,
+            180
+          ],
+          "mode": {
+            "q1": 0,
+            "q2": 1,
+            "psi1_deg": 0,
+            "psi2_deg": -19
+          },
+          "corrected_Eq1_Eq4": 0.0021560186108654485,
+          "original_T_phase": 0.0021560186108654485,
+          "direct_photon_trace": 0.0021560186108654507,
+          "corrected_absolute_error": 2.168404344971009e-18,
+          "original_absolute_error": 2.168404344971009e-18
+        },
+        {
+          "angles_deg": [
+            121,
+            44,
+            -67
+          ],
+          "mode": {
+            "q1": 0,
+            "q2": 0,
+            "psi1_deg": 0,
+            "psi2_deg": 0
+          },
+          "corrected_Eq1_Eq4": 0.007864722113560513,
+          "original_T_phase": 0.007864722113560513,
+          "direct_photon_trace": 0.007864722113560523,
+          "corrected_absolute_error": 1.0408340855860843e-17,
+          "original_absolute_error": 1.0408340855860843e-17
+        },
+        {
+          "angles_deg": [
+            121,
+            44,
+            -67
+          ],
+          "mode": {
+            "q1": 1,
+            "q2": 0,
+            "psi1_deg": 0,
+            "psi2_deg": 0
+          },
+          "corrected_Eq1_Eq4": 0.0035086586981246453,
+          "original_T_phase": 0.0027917225210248144,
+          "direct_photon_trace": 0.0035086586981246453,
+          "corrected_absolute_error": 0.0,
+          "original_absolute_error": 0.0007169361770998309
+        },
+        {
+          "angles_deg": [
+            121,
+            44,
+            -67
+          ],
+          "mode": {
+            "q1": 1,
+            "q2": 0,
+            "psi1_deg": 90,
+            "psi2_deg": 0
+          },
+          "corrected_Eq1_Eq4": 0.004356063415435873,
+          "original_T_phase": 0.005072999592535703,
+          "direct_photon_trace": 0.004356063415435877,
+          "corrected_absolute_error": 4.336808689942018e-18,
+          "original_absolute_error": 0.0007169361770998257
+        },
+        {
+          "angles_deg": [
+            121,
+            44,
+            -67
+          ],
+          "mode": {
+            "q1": 1,
+            "q2": 0,
+            "psi1_deg": 27,
+            "psi2_deg": 0
+          },
+          "corrected_Eq1_Eq4": 0.0036365806727277445,
+          "original_T_phase": 0.0035862886027421487,
+          "direct_photon_trace": 0.003636580672727748,
+          "corrected_absolute_error": 3.469446951953614e-18,
+          "original_absolute_error": 5.0292069985599305e-05
+        },
+        {
+          "angles_deg": [
+            121,
+            44,
+            -67
+          ],
+          "mode": {
+            "q1": 0,
+            "q2": 1,
+            "psi1_deg": 0,
+            "psi2_deg": 0
+          },
+          "corrected_Eq1_Eq4": 0.0054411638362644645,
+          "original_T_phase": 0.0054411638362644645,
+          "direct_photon_trace": 0.005441163836264467,
+          "corrected_absolute_error": 2.6020852139652106e-18,
+          "original_absolute_error": 2.6020852139652106e-18
+        },
+        {
+          "angles_deg": [
+            121,
+            44,
+            -67
+          ],
+          "mode": {
+            "q1": 0,
+            "q2": 1,
+            "psi1_deg": 0,
+            "psi2_deg": 90
+          },
+          "corrected_Eq1_Eq4": 0.0024235582772960526,
+          "original_T_phase": 0.0024235582772960526,
+          "direct_photon_trace": 0.0024235582772960543,
+          "corrected_absolute_error": 1.734723475976807e-18,
+          "original_absolute_error": 1.734723475976807e-18
+        },
+        {
+          "angles_deg": [
+            121,
+            44,
+            -67
+          ],
+          "mode": {
+            "q1": 0,
+            "q2": 1,
+            "psi1_deg": 0,
+            "psi2_deg": -19
+          },
+          "corrected_Eq1_Eq4": 0.004355124085277839,
+          "original_T_phase": 0.004355124085277839,
+          "direct_photon_trace": 0.004355124085277838,
+          "corrected_absolute_error": 8.673617379884035e-19,
+          "original_absolute_error": 8.673617379884035e-19
+        },
+        {
+          "angles_deg": [
+            73,
+            142,
+            113
+          ],
+          "mode": {
+            "q1": 0,
+            "q2": 0,
+            "psi1_deg": 0,
+            "psi2_deg": 0
+          },
+          "corrected_Eq1_Eq4": 0.008615664449816181,
+          "original_T_phase": 0.008615664449816181,
+          "direct_photon_trace": 0.008615664449816183,
+          "corrected_absolute_error": 1.734723475976807e-18,
+          "original_absolute_error": 1.734723475976807e-18
+        },
+        {
+          "angles_deg": [
+            73,
+            142,
+            113
+          ],
+          "mode": {
+            "q1": 1,
+            "q2": 0,
+            "psi1_deg": 0,
+            "psi2_deg": 0
+          },
+          "corrected_Eq1_Eq4": 0.003763209218324132,
+          "original_T_phase": 0.0029336771036021702,
+          "direct_photon_trace": 0.003763209218324133,
+          "corrected_absolute_error": 8.673617379884035e-19,
+          "original_absolute_error": 0.0008295321147219628
+        },
+        {
+          "angles_deg": [
+            73,
+            142,
+            113
+          ],
+          "mode": {
+            "q1": 1,
+            "q2": 0,
+            "psi1_deg": 90,
+            "psi2_deg": 0
+          },
+          "corrected_Eq1_Eq4": 0.004852455231492048,
+          "original_T_phase": 0.005681987346214015,
+          "direct_photon_trace": 0.004852455231492048,
+          "corrected_absolute_error": 0.0,
+          "original_absolute_error": 0.0008295321147219672
+        },
+        {
+          "angles_deg": [
+            73,
+            142,
+            113
+          ],
+          "mode": {
+            "q1": 1,
+            "q2": 0,
+            "psi1_deg": 27,
+            "psi2_deg": 0
+          },
+          "corrected_Eq1_Eq4": 0.0040268098697890786,
+          "original_T_phase": 0.003722108375845765,
+          "direct_photon_trace": 0.0040268098697890786,
+          "corrected_absolute_error": 0.0,
+          "original_absolute_error": 0.00030470149394331344
+        },
+        {
+          "angles_deg": [
+            73,
+            142,
+            113
+          ],
+          "mode": {
+            "q1": 0,
+            "q2": 1,
+            "psi1_deg": 0,
+            "psi2_deg": 0
+          },
+          "corrected_Eq1_Eq4": 0.0063925882941788265,
+          "original_T_phase": 0.0063925882941788265,
+          "direct_photon_trace": 0.0063925882941788265,
+          "corrected_absolute_error": 0.0,
+          "original_absolute_error": 0.0
+        },
+        {
+          "angles_deg": [
+            73,
+            142,
+            113
+          ],
+          "mode": {
+            "q1": 0,
+            "q2": 1,
+            "psi1_deg": 0,
+            "psi2_deg": 90
+          },
+          "corrected_Eq1_Eq4": 0.002223076155637354,
+          "original_T_phase": 0.002223076155637354,
+          "direct_photon_trace": 0.002223076155637353,
+          "corrected_absolute_error": 1.3010426069826053e-18,
+          "original_absolute_error": 1.3010426069826053e-18
+        },
+        {
+          "angles_deg": [
+            73,
+            142,
+            113
+          ],
+          "mode": {
+            "q1": 0,
+            "q2": 1,
+            "psi1_deg": 0,
+            "psi2_deg": -19
+          },
+          "corrected_Eq1_Eq4": 0.006395369977884024,
+          "original_T_phase": 0.006395369977884024,
+          "direct_photon_trace": 0.0063953699778840235,
+          "corrected_absolute_error": 8.673617379884035e-19,
+          "original_absolute_error": 8.673617379884035e-19
+        }
+      ]
+    },
+    {
+      "spins": [
+        3,
+        2,
+        0
+      ],
+      "gate": [
+        [
+          "E",
+          2,
+          1.0
+        ]
+      ],
+      "first_case": "mixed_d+1.7",
+      "chosen_population": [
+        0.05,
+        0.1,
+        0.2,
+        0.3,
+        0.2,
+        0.1,
+        0.05
+      ],
+      "rows": [
+        {
+          "angles_deg": [
+            37,
+            63,
+            41
+          ],
+          "mode": {
+            "q1": 0,
+            "q2": 0,
+            "psi1_deg": 0,
+            "psi2_deg": 0
+          },
+          "corrected_Eq1_Eq4": 0.007759631159848522,
+          "original_T_phase": 0.007759631159848522,
+          "direct_photon_trace": 0.007759631159848519,
+          "corrected_absolute_error": 2.6020852139652106e-18,
+          "original_absolute_error": 2.6020852139652106e-18
+        },
+        {
+          "angles_deg": [
+            37,
+            63,
+            41
+          ],
+          "mode": {
+            "q1": 1,
+            "q2": 0,
+            "psi1_deg": 0,
+            "psi2_deg": 0
+          },
+          "corrected_Eq1_Eq4": 0.003523158965768182,
+          "original_T_phase": 0.003926686772992777,
+          "direct_photon_trace": 0.00352315896576818,
+          "corrected_absolute_error": 2.168404344971009e-18,
+          "original_absolute_error": 0.00040352780722459694
+        },
+        {
+          "angles_deg": [
+            37,
+            63,
+            41
+          ],
+          "mode": {
+            "q1": 1,
+            "q2": 0,
+            "psi1_deg": 90,
+            "psi2_deg": 0
+          },
+          "corrected_Eq1_Eq4": 0.004236472194080342,
+          "original_T_phase": 0.0038329443868557445,
+          "direct_photon_trace": 0.0042364721940803375,
+          "corrected_absolute_error": 4.336808689942018e-18,
+          "original_absolute_error": 0.00040352780722459304
+        },
+        {
+          "angles_deg": [
+            37,
+            63,
+            41
+          ],
+          "mode": {
+            "q1": 1,
+            "q2": 0,
+            "psi1_deg": 27,
+            "psi2_deg": 0
+          },
+          "corrected_Eq1_Eq4": 0.004127312315531062,
+          "original_T_phase": 0.003695352197889374,
+          "direct_photon_trace": 0.004127312315531062,
+          "corrected_absolute_error": 0.0,
+          "original_absolute_error": 0.0004319601176416884
+        },
+        {
+          "angles_deg": [
+            37,
+            63,
+            41
+          ],
+          "mode": {
+            "q1": 0,
+            "q2": 1,
+            "psi1_deg": 0,
+            "psi2_deg": 0
+          },
+          "corrected_Eq1_Eq4": 0.004559993924034201,
+          "original_T_phase": 0.004559993924034201,
+          "direct_photon_trace": 0.0045599939240342,
+          "corrected_absolute_error": 8.673617379884035e-19,
+          "original_absolute_error": 8.673617379884035e-19
+        },
+        {
+          "angles_deg": [
+            37,
+            63,
+            41
+          ],
+          "mode": {
+            "q1": 0,
+            "q2": 1,
+            "psi1_deg": 0,
+            "psi2_deg": 90
+          },
+          "corrected_Eq1_Eq4": 0.0031996372358143203,
+          "original_T_phase": 0.0031996372358143203,
+          "direct_photon_trace": 0.0031996372358143186,
+          "corrected_absolute_error": 1.734723475976807e-18,
+          "original_absolute_error": 1.734723475976807e-18
+        },
+        {
+          "angles_deg": [
+            37,
+            63,
+            41
+          ],
+          "mode": {
+            "q1": 0,
+            "q2": 1,
+            "psi1_deg": 0,
+            "psi2_deg": -19
+          },
+          "corrected_Eq1_Eq4": 0.004489565940309034,
+          "original_T_phase": 0.004489565940309034,
+          "direct_photon_trace": 0.004489565940309033,
+          "corrected_absolute_error": 8.673617379884035e-19,
+          "original_absolute_error": 8.673617379884035e-19
+        },
+        {
+          "angles_deg": [
+            90,
+            90,
+            180
+          ],
+          "mode": {
+            "q1": 0,
+            "q2": 0,
+            "psi1_deg": 0,
+            "psi2_deg": 0
+          },
+          "corrected_Eq1_Eq4": 0.005361340057015482,
+          "original_T_phase": 0.005361340057015482,
+          "direct_photon_trace": 0.005361340057015489,
+          "corrected_absolute_error": 6.938893903907228e-18,
+          "original_absolute_error": 6.938893903907228e-18
+        },
+        {
+          "angles_deg": [
+            90,
+            90,
+            180
+          ],
+          "mode": {
+            "q1": 1,
+            "q2": 0,
+            "psi1_deg": 0,
+            "psi2_deg": 0
+          },
+          "corrected_Eq1_Eq4": 0.0017412165414223016,
+          "original_T_phase": 0.0031622735332762254,
+          "direct_photon_trace": 0.0017412165414223014,
+          "corrected_absolute_error": 2.168404344971009e-19,
+          "original_absolute_error": 0.001421056991853924
+        },
+        {
+          "angles_deg": [
+            90,
+            90,
+            180
+          ],
+          "mode": {
+            "q1": 1,
+            "q2": 0,
+            "psi1_deg": 90,
+            "psi2_deg": 0
+          },
+          "corrected_Eq1_Eq4": 0.003620123515593184,
+          "original_T_phase": 0.00219906652373926,
+          "direct_photon_trace": 0.0036201235155931856,
+          "corrected_absolute_error": 1.734723475976807e-18,
+          "original_absolute_error": 0.0014210569918539258
+        },
+        {
+          "angles_deg": [
+            90,
+            90,
+            180
+          ],
+          "mode": {
+            "q1": 1,
+            "q2": 0,
+            "psi1_deg": 27,
+            "psi2_deg": 0
+          },
+          "corrected_Eq1_Eq4": 0.002128473123584183,
+          "original_T_phase": 0.0029637494660630236,
+          "direct_photon_trace": 0.0021284731235841838,
+          "corrected_absolute_error": 8.673617379884035e-19,
+          "original_absolute_error": 0.0008352763424788398
+        },
+        {
+          "angles_deg": [
+            90,
+            90,
+            180
+          ],
+          "mode": {
+            "q1": 0,
+            "q2": 1,
+            "psi1_deg": 0,
+            "psi2_deg": 0
+          },
+          "corrected_Eq1_Eq4": 0.003620123515593182,
+          "original_T_phase": 0.003620123515593182,
+          "direct_photon_trace": 0.0036201235155931847,
+          "corrected_absolute_error": 2.6020852139652106e-18,
+          "original_absolute_error": 2.6020852139652106e-18
+        },
+        {
+          "angles_deg": [
+            90,
+            90,
+            180
+          ],
+          "mode": {
+            "q1": 0,
+            "q2": 1,
+            "psi1_deg": 0,
+            "psi2_deg": 90
+          },
+          "corrected_Eq1_Eq4": 0.0017412165414223016,
+          "original_T_phase": 0.0017412165414223016,
+          "direct_photon_trace": 0.0017412165414223018,
+          "corrected_absolute_error": 2.168404344971009e-19,
+          "original_absolute_error": 2.168404344971009e-19
+        },
+        {
+          "angles_deg": [
+            90,
+            90,
+            180
+          ],
+          "mode": {
+            "q1": 0,
+            "q2": 1,
+            "psi1_deg": 0,
+            "psi2_deg": -19
+          },
+          "corrected_Eq1_Eq4": 0.0034209694788444036,
+          "original_T_phase": 0.0034209694788444036,
+          "direct_photon_trace": 0.0034209694788444067,
+          "corrected_absolute_error": 3.0357660829594124e-18,
+          "original_absolute_error": 3.0357660829594124e-18
+        },
+        {
+          "angles_deg": [
+            121,
+            44,
+            -67
+          ],
+          "mode": {
+            "q1": 0,
+            "q2": 0,
+            "psi1_deg": 0,
+            "psi2_deg": 0
+          },
+          "corrected_Eq1_Eq4": 0.005380694293294387,
+          "original_T_phase": 0.005380694293294387,
+          "direct_photon_trace": 0.0053806942932943915,
+          "corrected_absolute_error": 4.336808689942018e-18,
+          "original_absolute_error": 4.336808689942018e-18
+        },
+        {
+          "angles_deg": [
+            121,
+            44,
+            -67
+          ],
+          "mode": {
+            "q1": 1,
+            "q2": 0,
+            "psi1_deg": 0,
+            "psi2_deg": 0
+          },
+          "corrected_Eq1_Eq4": 0.001712946528532912,
+          "original_T_phase": 0.002851320766892795,
+          "direct_photon_trace": 0.0017129465285329118,
+          "corrected_absolute_error": 2.168404344971009e-19,
+          "original_absolute_error": 0.0011383742383598832
+        },
+        {
+          "angles_deg": [
+            121,
+            44,
+            -67
+          ],
+          "mode": {
+            "q1": 1,
+            "q2": 0,
+            "psi1_deg": 90,
+            "psi2_deg": 0
+          },
+          "corrected_Eq1_Eq4": 0.003667747764761475,
+          "original_T_phase": 0.002529373526401592,
+          "direct_photon_trace": 0.0036677477647614784,
+          "corrected_absolute_error": 3.469446951953614e-18,
+          "original_absolute_error": 0.0011383742383598862
+        },
+        {
+          "angles_deg": [
+            121,
+            44,
+            -67
+          ],
+          "mode": {
+            "q1": 1,
+            "q2": 0,
+            "psi1_deg": 27,
+            "psi2_deg": 0
+          },
+          "corrected_Eq1_Eq4": 0.0029437864422488316,
+          "original_T_phase": 0.003023641802731529,
+          "direct_photon_trace": 0.0029437864422488316,
+          "corrected_absolute_error": 0.0,
+          "original_absolute_error": 7.985536048269728e-05
+        },
+        {
+          "angles_deg": [
+            121,
+            44,
+            -67
+          ],
+          "mode": {
+            "q1": 0,
+            "q2": 1,
+            "psi1_deg": 0,
+            "psi2_deg": 0
+          },
+          "corrected_Eq1_Eq4": 0.002136118209644301,
+          "original_T_phase": 0.002136118209644301,
+          "direct_photon_trace": 0.0021361182096443013,
+          "corrected_absolute_error": 4.336808689942018e-19,
+          "original_absolute_error": 4.336808689942018e-19
+        },
+        {
+          "angles_deg": [
+            121,
+            44,
+            -67
+          ],
+          "mode": {
+            "q1": 0,
+            "q2": 1,
+            "psi1_deg": 0,
+            "psi2_deg": 90
+          },
+          "corrected_Eq1_Eq4": 0.0032445760836500867,
+          "original_T_phase": 0.0032445760836500867,
+          "direct_photon_trace": 0.0032445760836500893,
+          "corrected_absolute_error": 2.6020852139652106e-18,
+          "original_absolute_error": 2.6020852139652106e-18
+        },
+        {
+          "angles_deg": [
+            121,
+            44,
+            -67
+          ],
+          "mode": {
+            "q1": 0,
+            "q2": 1,
+            "psi1_deg": 0,
+            "psi2_deg": -19
+          },
+          "corrected_Eq1_Eq4": 0.0026964193644031164,
+          "original_T_phase": 0.0026964193644031164,
+          "direct_photon_trace": 0.0026964193644031173,
+          "corrected_absolute_error": 8.673617379884035e-19,
+          "original_absolute_error": 8.673617379884035e-19
+        },
+        {
+          "angles_deg": [
+            73,
+            142,
+            113
+          ],
+          "mode": {
+            "q1": 0,
+            "q2": 0,
+            "psi1_deg": 0,
+            "psi2_deg": 0
+          },
+          "corrected_Eq1_Eq4": 0.005059659816400844,
+          "original_T_phase": 0.005059659816400844,
+          "direct_photon_trace": 0.005059659816400841,
+          "corrected_absolute_error": 2.6020852139652106e-18,
+          "original_absolute_error": 2.6020852139652106e-18
+        },
+        {
+          "angles_deg": [
+            73,
+            142,
+            113
+          ],
+          "mode": {
+            "q1": 1,
+            "q2": 0,
+            "psi1_deg": 0,
+            "psi2_deg": 0
+          },
+          "corrected_Eq1_Eq4": 0.0017449152522969595,
+          "original_T_phase": 0.003062072928886336,
+          "direct_photon_trace": 0.0017449152522969577,
+          "corrected_absolute_error": 1.734723475976807e-18,
+          "original_absolute_error": 0.001317157676589378
+        },
+        {
+          "angles_deg": [
+            73,
+            142,
+            113
+          ],
+          "mode": {
+            "q1": 1,
+            "q2": 0,
+            "psi1_deg": 90,
+            "psi2_deg": 0
+          },
+          "corrected_Eq1_Eq4": 0.003314744564103886,
+          "original_T_phase": 0.0019975868875145063,
+          "direct_photon_trace": 0.003314744564103882,
+          "corrected_absolute_error": 3.903127820947816e-18,
+          "original_absolute_error": 0.001317157676589376
+        },
+        {
+          "angles_deg": [
+            73,
+            142,
+            113
+          ],
+          "mode": {
+            "q1": 1,
+            "q2": 0,
+            "psi1_deg": 27,
+            "psi2_deg": 0
+          },
+          "corrected_Eq1_Eq4": 0.0025906742477896923,
+          "original_T_phase": 0.0030744890449421894,
+          "direct_photon_trace": 0.002590674247789691,
+          "corrected_absolute_error": 1.3010426069826053e-18,
+          "original_absolute_error": 0.00048381479715249847
+        },
+        {
+          "angles_deg": [
+            73,
+            142,
+            113
+          ],
+          "mode": {
+            "q1": 0,
+            "q2": 1,
+            "psi1_deg": 0,
+            "psi2_deg": 0
+          },
+          "corrected_Eq1_Eq4": 0.0018955207208045603,
+          "original_T_phase": 0.0018955207208045603,
+          "direct_photon_trace": 0.0018955207208045575,
+          "corrected_absolute_error": 2.8189256484623115e-18,
+          "original_absolute_error": 2.8189256484623115e-18
+        },
+        {
+          "angles_deg": [
+            73,
+            142,
+            113
+          ],
+          "mode": {
+            "q1": 0,
+            "q2": 1,
+            "psi1_deg": 0,
+            "psi2_deg": 90
+          },
+          "corrected_Eq1_Eq4": 0.003164139095596284,
+          "original_T_phase": 0.003164139095596284,
+          "direct_photon_trace": 0.0031641390955962825,
+          "corrected_absolute_error": 1.734723475976807e-18,
+          "original_absolute_error": 1.734723475976807e-18
+        },
+        {
+          "angles_deg": [
+            73,
+            142,
+            113
+          ],
+          "mode": {
+            "q1": 0,
+            "q2": 1,
+            "psi1_deg": 0,
+            "psi2_deg": -19
+          },
+          "corrected_Eq1_Eq4": 0.0017829267816808104,
+          "original_T_phase": 0.0017829267816808104,
+          "direct_photon_trace": 0.0017829267816808097,
+          "corrected_absolute_error": 6.505213034913027e-19,
+          "original_absolute_error": 6.505213034913027e-19
+        }
+      ]
+    },
+    {
+      "spins": [
+        2,
+        1,
+        0
+      ],
+      "gate": [
+        [
+          "M",
+          1,
+          1.0
+        ]
+      ],
+      "first_case": "pureM1",
+      "chosen_population": [
+        0.07692307692307693,
+        0.23076923076923078,
+        0.38461538461538464,
+        0.23076923076923078,
+        0.07692307692307693
+      ],
+      "rows": [
+        {
+          "angles_deg": [
+            37,
+            63,
+            41
+          ],
+          "mode": {
+            "q1": 0,
+            "q2": 0,
+            "psi1_deg": 0,
+            "psi2_deg": 0
+          },
+          "corrected_Eq1_Eq4": 0.00585560896798929,
+          "original_T_phase": 0.00585560896798929,
+          "direct_photon_trace": 0.005855608967989293,
+          "corrected_absolute_error": 2.6020852139652106e-18,
+          "original_absolute_error": 2.6020852139652106e-18
+        },
+        {
+          "angles_deg": [
+            37,
+            63,
+            41
+          ],
+          "mode": {
+            "q1": 1,
+            "q2": 0,
+            "psi1_deg": 0,
+            "psi2_deg": 0
+          },
+          "corrected_Eq1_Eq4": 0.002567404283098608,
+          "original_T_phase": 0.002567404283098608,
+          "direct_photon_trace": 0.0025674042830986085,
+          "corrected_absolute_error": 4.336808689942018e-19,
+          "original_absolute_error": 4.336808689942018e-19
+        },
+        {
+          "angles_deg": [
+            37,
+            63,
+            41
+          ],
+          "mode": {
+            "q1": 1,
+            "q2": 0,
+            "psi1_deg": 90,
+            "psi2_deg": 0
+          },
+          "corrected_Eq1_Eq4": 0.003288204684890682,
+          "original_T_phase": 0.003288204684890682,
+          "direct_photon_trace": 0.0032882046848906814,
+          "corrected_absolute_error": 4.336808689942018e-19,
+          "original_absolute_error": 4.336808689942018e-19
+        },
+        {
+          "angles_deg": [
+            37,
+            63,
+            41
+          ],
+          "mode": {
+            "q1": 1,
+            "q2": 0,
+            "psi1_deg": 27,
+            "psi2_deg": 0
+          },
+          "corrected_Eq1_Eq4": 0.002460395491219818,
+          "original_T_phase": 0.002460395491219818,
+          "direct_photon_trace": 0.002460395491219819,
+          "corrected_absolute_error": 8.673617379884035e-19,
+          "original_absolute_error": 8.673617379884035e-19
+        },
+        {
+          "angles_deg": [
+            37,
+            63,
+            41
+          ],
+          "mode": {
+            "q1": 0,
+            "q2": 1,
+            "psi1_deg": 0,
+            "psi2_deg": 0
+          },
+          "corrected_Eq1_Eq4": 0.002263952927843066,
+          "original_T_phase": 0.002263952927843066,
+          "direct_photon_trace": 0.002263952927843066,
+          "corrected_absolute_error": 0.0,
+          "original_absolute_error": 0.0
+        },
+        {
+          "angles_deg": [
+            37,
+            63,
+            41
+          ],
+          "mode": {
+            "q1": 0,
+            "q2": 1,
+            "psi1_deg": 0,
+            "psi2_deg": 90
+          },
+          "corrected_Eq1_Eq4": 0.0035916560401462244,
+          "original_T_phase": 0.0035916560401462244,
+          "direct_photon_trace": 0.0035916560401462252,
+          "corrected_absolute_error": 8.673617379884035e-19,
+          "original_absolute_error": 8.673617379884035e-19
+        },
+        {
+          "angles_deg": [
+            37,
+            63,
+            41
+          ],
+          "mode": {
+            "q1": 0,
+            "q2": 1,
+            "psi1_deg": 0,
+            "psi2_deg": -19
+          },
+          "corrected_Eq1_Eq4": 0.002327305339028561,
+          "original_T_phase": 0.002327305339028561,
+          "direct_photon_trace": 0.002327305339028561,
+          "corrected_absolute_error": 0.0,
+          "original_absolute_error": 0.0
+        },
+        {
+          "angles_deg": [
+            90,
+            90,
+            180
+          ],
+          "mode": {
+            "q1": 0,
+            "q2": 0,
+            "psi1_deg": 0,
+            "psi2_deg": 0
+          },
+          "corrected_Eq1_Eq4": 0.008402838547261184,
+          "original_T_phase": 0.008402838547261184,
+          "direct_photon_trace": 0.00840283854726119,
+          "corrected_absolute_error": 6.938893903907228e-18,
+          "original_absolute_error": 6.938893903907228e-18
+        },
+        {
+          "angles_deg": [
+            90,
+            90,
+            180
+          ],
+          "mode": {
+            "q1": 1,
+            "q2": 0,
+            "psi1_deg": 0,
+            "psi2_deg": 0
+          },
+          "corrected_Eq1_Eq4": 0.0031053968544226124,
+          "original_T_phase": 0.0031053968544226124,
+          "direct_photon_trace": 0.0031053968544226132,
+          "corrected_absolute_error": 8.673617379884035e-19,
+          "original_absolute_error": 8.673617379884035e-19
+        },
+        {
+          "angles_deg": [
+            90,
+            90,
+            180
+          ],
+          "mode": {
+            "q1": 1,
+            "q2": 0,
+            "psi1_deg": 90,
+            "psi2_deg": 0
+          },
+          "corrected_Eq1_Eq4": 0.005297441692838572,
+          "original_T_phase": 0.005297441692838572,
+          "direct_photon_trace": 0.005297441692838575,
+          "corrected_absolute_error": 2.6020852139652106e-18,
+          "original_absolute_error": 2.6020852139652106e-18
+        },
+        {
+          "angles_deg": [
+            90,
+            90,
+            180
+          ],
+          "mode": {
+            "q1": 1,
+            "q2": 0,
+            "psi1_deg": 27,
+            "psi2_deg": 0
+          },
+          "corrected_Eq1_Eq4": 0.0035571934594382233,
+          "original_T_phase": 0.0035571934594382233,
+          "direct_photon_trace": 0.0035571934594382237,
+          "corrected_absolute_error": 4.336808689942018e-19,
+          "original_absolute_error": 4.336808689942018e-19
+        },
+        {
+          "angles_deg": [
+            90,
+            90,
+            180
+          ],
+          "mode": {
+            "q1": 0,
+            "q2": 1,
+            "psi1_deg": 0,
+            "psi2_deg": 0
+          },
+          "corrected_Eq1_Eq4": 0.0031053968544226124,
+          "original_T_phase": 0.0031053968544226124,
+          "direct_photon_trace": 0.0031053968544226132,
+          "corrected_absolute_error": 8.673617379884035e-19,
+          "original_absolute_error": 8.673617379884035e-19
+        },
+        {
+          "angles_deg": [
+            90,
+            90,
+            180
+          ],
+          "mode": {
+            "q1": 0,
+            "q2": 1,
+            "psi1_deg": 0,
+            "psi2_deg": 90
+          },
+          "corrected_Eq1_Eq4": 0.005297441692838572,
+          "original_T_phase": 0.005297441692838572,
+          "direct_photon_trace": 0.005297441692838575,
+          "corrected_absolute_error": 2.6020852139652106e-18,
+          "original_absolute_error": 2.6020852139652106e-18
+        },
+        {
+          "angles_deg": [
+            90,
+            90,
+            180
+          ],
+          "mode": {
+            "q1": 0,
+            "q2": 1,
+            "psi1_deg": 0,
+            "psi2_deg": -19
+          },
+          "corrected_Eq1_Eq4": 0.0033377418211006497,
+          "original_T_phase": 0.0033377418211006497,
+          "direct_photon_trace": 0.00333774182110065,
+          "corrected_absolute_error": 4.336808689942018e-19,
+          "original_absolute_error": 4.336808689942018e-19
+        },
+        {
+          "angles_deg": [
+            121,
+            44,
+            -67
+          ],
+          "mode": {
+            "q1": 0,
+            "q2": 0,
+            "psi1_deg": 0,
+            "psi2_deg": 0
+          },
+          "corrected_Eq1_Eq4": 0.005980039748886349,
+          "original_T_phase": 0.005980039748886349,
+          "direct_photon_trace": 0.005980039748886353,
+          "corrected_absolute_error": 3.469446951953614e-18,
+          "original_absolute_error": 3.469446951953614e-18
+        },
+        {
+          "angles_deg": [
+            121,
+            44,
+            -67
+          ],
+          "mode": {
+            "q1": 1,
+            "q2": 0,
+            "psi1_deg": 0,
+            "psi2_deg": 0
+          },
+          "corrected_Eq1_Eq4": 0.002164809951238516,
+          "original_T_phase": 0.002164809951238516,
+          "direct_photon_trace": 0.002164809951238516,
+          "corrected_absolute_error": 0.0,
+          "original_absolute_error": 0.0
+        },
+        {
+          "angles_deg": [
+            121,
+            44,
+            -67
+          ],
+          "mode": {
+            "q1": 1,
+            "q2": 0,
+            "psi1_deg": 90,
+            "psi2_deg": 0
+          },
+          "corrected_Eq1_Eq4": 0.003815229797647834,
+          "original_T_phase": 0.003815229797647834,
+          "direct_photon_trace": 0.0038152297976478348,
+          "corrected_absolute_error": 8.673617379884035e-19,
+          "original_absolute_error": 8.673617379884035e-19
+        },
+        {
+          "angles_deg": [
+            121,
+            44,
+            -67
+          ],
+          "mode": {
+            "q1": 1,
+            "q2": 0,
+            "psi1_deg": 27,
+            "psi2_deg": 0
+          },
+          "corrected_Eq1_Eq4": 0.0024971893129350146,
+          "original_T_phase": 0.0024971893129350146,
+          "direct_photon_trace": 0.002497189312935016,
+          "corrected_absolute_error": 1.3010426069826053e-18,
+          "original_absolute_error": 1.3010426069826053e-18
+        },
+        {
+          "angles_deg": [
+            121,
+            44,
+            -67
+          ],
+          "mode": {
+            "q1": 0,
+            "q2": 1,
+            "psi1_deg": 0,
+            "psi2_deg": 0
+          },
+          "corrected_Eq1_Eq4": 0.002246042087820383,
+          "original_T_phase": 0.002246042087820383,
+          "direct_photon_trace": 0.002246042087820385,
+          "corrected_absolute_error": 1.734723475976807e-18,
+          "original_absolute_error": 1.734723475976807e-18
+        },
+        {
+          "angles_deg": [
+            121,
+            44,
+            -67
+          ],
+          "mode": {
+            "q1": 0,
+            "q2": 1,
+            "psi1_deg": 0,
+            "psi2_deg": 90
+          },
+          "corrected_Eq1_Eq4": 0.0037339976610659665,
+          "original_T_phase": 0.0037339976610659665,
+          "direct_photon_trace": 0.0037339976610659678,
+          "corrected_absolute_error": 1.3010426069826053e-18,
+          "original_absolute_error": 1.3010426069826053e-18
+        },
+        {
+          "angles_deg": [
+            121,
+            44,
+            -67
+          ],
+          "mode": {
+            "q1": 0,
+            "q2": 1,
+            "psi1_deg": 0,
+            "psi2_deg": -19
+          },
+          "corrected_Eq1_Eq4": 0.0024789027333209845,
+          "original_T_phase": 0.0024789027333209845,
+          "direct_photon_trace": 0.002478902733320986,
+          "corrected_absolute_error": 1.3010426069826053e-18,
+          "original_absolute_error": 1.3010426069826053e-18
+        },
+        {
+          "angles_deg": [
+            73,
+            142,
+            113
+          ],
+          "mode": {
+            "q1": 0,
+            "q2": 0,
+            "psi1_deg": 0,
+            "psi2_deg": 0
+          },
+          "corrected_Eq1_Eq4": 0.006018387409802785,
+          "original_T_phase": 0.006018387409802785,
+          "direct_photon_trace": 0.006018387409802784,
+          "corrected_absolute_error": 8.673617379884035e-19,
+          "original_absolute_error": 8.673617379884035e-19
+        },
+        {
+          "angles_deg": [
+            73,
+            142,
+            113
+          ],
+          "mode": {
+            "q1": 1,
+            "q2": 0,
+            "psi1_deg": 0,
+            "psi2_deg": 0
+          },
+          "corrected_Eq1_Eq4": 0.0021314676896904846,
+          "original_T_phase": 0.0021314676896904846,
+          "direct_photon_trace": 0.0021314676896904824,
+          "corrected_absolute_error": 2.168404344971009e-18,
+          "original_absolute_error": 2.168404344971009e-18
+        },
+        {
+          "angles_deg": [
+            73,
+            142,
+            113
+          ],
+          "mode": {
+            "q1": 1,
+            "q2": 0,
+            "psi1_deg": 90,
+            "psi2_deg": 0
+          },
+          "corrected_Eq1_Eq4": 0.0038869197201123,
+          "original_T_phase": 0.0038869197201123,
+          "direct_photon_trace": 0.0038869197201122987,
+          "corrected_absolute_error": 1.3010426069826053e-18,
+          "original_absolute_error": 1.3010426069826053e-18
+        },
+        {
+          "angles_deg": [
+            73,
+            142,
+            113
+          ],
+          "mode": {
+            "q1": 1,
+            "q2": 0,
+            "psi1_deg": 27,
+            "psi2_deg": 0
+          },
+          "corrected_Eq1_Eq4": 0.0025858451112794165,
+          "original_T_phase": 0.0025858451112794165,
+          "direct_photon_trace": 0.0025858451112794143,
+          "corrected_absolute_error": 2.168404344971009e-18,
+          "original_absolute_error": 2.168404344971009e-18
+        },
+        {
+          "angles_deg": [
+            73,
+            142,
+            113
+          ],
+          "mode": {
+            "q1": 0,
+            "q2": 1,
+            "psi1_deg": 0,
+            "psi2_deg": 0
+          },
+          "corrected_Eq1_Eq4": 0.002303952458897964,
+          "original_T_phase": 0.002303952458897964,
+          "direct_photon_trace": 0.0023039524588979628,
+          "corrected_absolute_error": 1.3010426069826053e-18,
+          "original_absolute_error": 1.3010426069826053e-18
+        },
+        {
+          "angles_deg": [
+            73,
+            142,
+            113
+          ],
+          "mode": {
+            "q1": 0,
+            "q2": 1,
+            "psi1_deg": 0,
+            "psi2_deg": 90
+          },
+          "corrected_Eq1_Eq4": 0.00371443495090482,
+          "original_T_phase": 0.00371443495090482,
+          "direct_photon_trace": 0.0037144349509048193,
+          "corrected_absolute_error": 8.673617379884035e-19,
+          "original_absolute_error": 8.673617379884035e-19
+        },
+        {
+          "angles_deg": [
+            73,
+            142,
+            113
+          ],
+          "mode": {
+            "q1": 0,
+            "q2": 1,
+            "psi1_deg": 0,
+            "psi2_deg": -19
+          },
+          "corrected_Eq1_Eq4": 0.0022898857695609594,
+          "original_T_phase": 0.0022898857695609594,
+          "direct_photon_trace": 0.002289885769560957,
+          "corrected_absolute_error": 2.6020852139652106e-18,
+          "original_absolute_error": 2.6020852139652106e-18
+        }
+      ]
+    },
+    {
+      "spins": [
+        2,
+        1,
+        0
+      ],
+      "gate": [
+        [
+          "M",
+          1,
+          1.0
+        ]
+      ],
+      "first_case": "pureE1_other_parity",
+      "chosen_population": [
+        0.07692307692307693,
+        0.23076923076923078,
+        0.38461538461538464,
+        0.23076923076923078,
+        0.07692307692307693
+      ],
+      "rows": [
+        {
+          "angles_deg": [
+            37,
+            63,
+            41
+          ],
+          "mode": {
+            "q1": 0,
+            "q2": 0,
+            "psi1_deg": 0,
+            "psi2_deg": 0
+          },
+          "corrected_Eq1_Eq4": 0.00585560896798929,
+          "original_T_phase": 0.00585560896798929,
+          "direct_photon_trace": 0.005855608967989293,
+          "corrected_absolute_error": 2.6020852139652106e-18,
+          "original_absolute_error": 2.6020852139652106e-18
+        },
+        {
+          "angles_deg": [
+            37,
+            63,
+            41
+          ],
+          "mode": {
+            "q1": 1,
+            "q2": 0,
+            "psi1_deg": 0,
+            "psi2_deg": 0
+          },
+          "corrected_Eq1_Eq4": 0.0032882046848906822,
+          "original_T_phase": 0.0032882046848906822,
+          "direct_photon_trace": 0.0032882046848906814,
+          "corrected_absolute_error": 8.673617379884035e-19,
+          "original_absolute_error": 8.673617379884035e-19
+        },
+        {
+          "angles_deg": [
+            37,
+            63,
+            41
+          ],
+          "mode": {
+            "q1": 1,
+            "q2": 0,
+            "psi1_deg": 90,
+            "psi2_deg": 0
+          },
+          "corrected_Eq1_Eq4": 0.002567404283098608,
+          "original_T_phase": 0.002567404283098608,
+          "direct_photon_trace": 0.0025674042830986085,
+          "corrected_absolute_error": 4.336808689942018e-19,
+          "original_absolute_error": 4.336808689942018e-19
+        },
+        {
+          "angles_deg": [
+            37,
+            63,
+            41
+          ],
+          "mode": {
+            "q1": 1,
+            "q2": 0,
+            "psi1_deg": 27,
+            "psi2_deg": 0
+          },
+          "corrected_Eq1_Eq4": 0.003395213476769471,
+          "original_T_phase": 0.003395213476769471,
+          "direct_photon_trace": 0.003395213476769471,
+          "corrected_absolute_error": 0.0,
+          "original_absolute_error": 0.0
+        },
+        {
+          "angles_deg": [
+            37,
+            63,
+            41
+          ],
+          "mode": {
+            "q1": 0,
+            "q2": 1,
+            "psi1_deg": 0,
+            "psi2_deg": 0
+          },
+          "corrected_Eq1_Eq4": 0.002263952927843066,
+          "original_T_phase": 0.002263952927843066,
+          "direct_photon_trace": 0.002263952927843066,
+          "corrected_absolute_error": 0.0,
+          "original_absolute_error": 0.0
+        },
+        {
+          "angles_deg": [
+            37,
+            63,
+            41
+          ],
+          "mode": {
+            "q1": 0,
+            "q2": 1,
+            "psi1_deg": 0,
+            "psi2_deg": 90
+          },
+          "corrected_Eq1_Eq4": 0.0035916560401462244,
+          "original_T_phase": 0.0035916560401462244,
+          "direct_photon_trace": 0.0035916560401462252,
+          "corrected_absolute_error": 8.673617379884035e-19,
+          "original_absolute_error": 8.673617379884035e-19
+        },
+        {
+          "angles_deg": [
+            37,
+            63,
+            41
+          ],
+          "mode": {
+            "q1": 0,
+            "q2": 1,
+            "psi1_deg": 0,
+            "psi2_deg": -19
+          },
+          "corrected_Eq1_Eq4": 0.002327305339028561,
+          "original_T_phase": 0.002327305339028561,
+          "direct_photon_trace": 0.002327305339028561,
+          "corrected_absolute_error": 0.0,
+          "original_absolute_error": 0.0
+        },
+        {
+          "angles_deg": [
+            90,
+            90,
+            180
+          ],
+          "mode": {
+            "q1": 0,
+            "q2": 0,
+            "psi1_deg": 0,
+            "psi2_deg": 0
+          },
+          "corrected_Eq1_Eq4": 0.008402838547261184,
+          "original_T_phase": 0.008402838547261184,
+          "direct_photon_trace": 0.00840283854726119,
+          "corrected_absolute_error": 6.938893903907228e-18,
+          "original_absolute_error": 6.938893903907228e-18
+        },
+        {
+          "angles_deg": [
+            90,
+            90,
+            180
+          ],
+          "mode": {
+            "q1": 1,
+            "q2": 0,
+            "psi1_deg": 0,
+            "psi2_deg": 0
+          },
+          "corrected_Eq1_Eq4": 0.005297441692838572,
+          "original_T_phase": 0.005297441692838572,
+          "direct_photon_trace": 0.005297441692838575,
+          "corrected_absolute_error": 2.6020852139652106e-18,
+          "original_absolute_error": 2.6020852139652106e-18
+        },
+        {
+          "angles_deg": [
+            90,
+            90,
+            180
+          ],
+          "mode": {
+            "q1": 1,
+            "q2": 0,
+            "psi1_deg": 90,
+            "psi2_deg": 0
+          },
+          "corrected_Eq1_Eq4": 0.0031053968544226124,
+          "original_T_phase": 0.0031053968544226124,
+          "direct_photon_trace": 0.0031053968544226132,
+          "corrected_absolute_error": 8.673617379884035e-19,
+          "original_absolute_error": 8.673617379884035e-19
+        },
+        {
+          "angles_deg": [
+            90,
+            90,
+            180
+          ],
+          "mode": {
+            "q1": 1,
+            "q2": 0,
+            "psi1_deg": 27,
+            "psi2_deg": 0
+          },
+          "corrected_Eq1_Eq4": 0.0048456450878229616,
+          "original_T_phase": 0.0048456450878229616,
+          "direct_photon_trace": 0.004845645087822965,
+          "corrected_absolute_error": 3.469446951953614e-18,
+          "original_absolute_error": 3.469446951953614e-18
+        },
+        {
+          "angles_deg": [
+            90,
+            90,
+            180
+          ],
+          "mode": {
+            "q1": 0,
+            "q2": 1,
+            "psi1_deg": 0,
+            "psi2_deg": 0
+          },
+          "corrected_Eq1_Eq4": 0.0031053968544226124,
+          "original_T_phase": 0.0031053968544226124,
+          "direct_photon_trace": 0.0031053968544226132,
+          "corrected_absolute_error": 8.673617379884035e-19,
+          "original_absolute_error": 8.673617379884035e-19
+        },
+        {
+          "angles_deg": [
+            90,
+            90,
+            180
+          ],
+          "mode": {
+            "q1": 0,
+            "q2": 1,
+            "psi1_deg": 0,
+            "psi2_deg": 90
+          },
+          "corrected_Eq1_Eq4": 0.005297441692838572,
+          "original_T_phase": 0.005297441692838572,
+          "direct_photon_trace": 0.005297441692838575,
+          "corrected_absolute_error": 2.6020852139652106e-18,
+          "original_absolute_error": 2.6020852139652106e-18
+        },
+        {
+          "angles_deg": [
+            90,
+            90,
+            180
+          ],
+          "mode": {
+            "q1": 0,
+            "q2": 1,
+            "psi1_deg": 0,
+            "psi2_deg": -19
+          },
+          "corrected_Eq1_Eq4": 0.0033377418211006497,
+          "original_T_phase": 0.0033377418211006497,
+          "direct_photon_trace": 0.00333774182110065,
+          "corrected_absolute_error": 4.336808689942018e-19,
+          "original_absolute_error": 4.336808689942018e-19
+        },
+        {
+          "angles_deg": [
+            121,
+            44,
+            -67
+          ],
+          "mode": {
+            "q1": 0,
+            "q2": 0,
+            "psi1_deg": 0,
+            "psi2_deg": 0
+          },
+          "corrected_Eq1_Eq4": 0.005980039748886349,
+          "original_T_phase": 0.005980039748886349,
+          "direct_photon_trace": 0.005980039748886353,
+          "corrected_absolute_error": 3.469446951953614e-18,
+          "original_absolute_error": 3.469446951953614e-18
+        },
+        {
+          "angles_deg": [
+            121,
+            44,
+            -67
+          ],
+          "mode": {
+            "q1": 1,
+            "q2": 0,
+            "psi1_deg": 0,
+            "psi2_deg": 0
+          },
+          "corrected_Eq1_Eq4": 0.003815229797647834,
+          "original_T_phase": 0.003815229797647834,
+          "direct_photon_trace": 0.0038152297976478348,
+          "corrected_absolute_error": 8.673617379884035e-19,
+          "original_absolute_error": 8.673617379884035e-19
+        },
+        {
+          "angles_deg": [
+            121,
+            44,
+            -67
+          ],
+          "mode": {
+            "q1": 1,
+            "q2": 0,
+            "psi1_deg": 90,
+            "psi2_deg": 0
+          },
+          "corrected_Eq1_Eq4": 0.002164809951238516,
+          "original_T_phase": 0.002164809951238516,
+          "direct_photon_trace": 0.0021648099512385165,
+          "corrected_absolute_error": 4.336808689942018e-19,
+          "original_absolute_error": 4.336808689942018e-19
+        },
+        {
+          "angles_deg": [
+            121,
+            44,
+            -67
+          ],
+          "mode": {
+            "q1": 1,
+            "q2": 0,
+            "psi1_deg": 27,
+            "psi2_deg": 0
+          },
+          "corrected_Eq1_Eq4": 0.003482850435951334,
+          "original_T_phase": 0.003482850435951334,
+          "direct_photon_trace": 0.003482850435951335,
+          "corrected_absolute_error": 8.673617379884035e-19,
+          "original_absolute_error": 8.673617379884035e-19
+        },
+        {
+          "angles_deg": [
+            121,
+            44,
+            -67
+          ],
+          "mode": {
+            "q1": 0,
+            "q2": 1,
+            "psi1_deg": 0,
+            "psi2_deg": 0
+          },
+          "corrected_Eq1_Eq4": 0.002246042087820383,
+          "original_T_phase": 0.002246042087820383,
+          "direct_photon_trace": 0.002246042087820385,
+          "corrected_absolute_error": 1.734723475976807e-18,
+          "original_absolute_error": 1.734723475976807e-18
+        },
+        {
+          "angles_deg": [
+            121,
+            44,
+            -67
+          ],
+          "mode": {
+            "q1": 0,
+            "q2": 1,
+            "psi1_deg": 0,
+            "psi2_deg": 90
+          },
+          "corrected_Eq1_Eq4": 0.0037339976610659665,
+          "original_T_phase": 0.0037339976610659665,
+          "direct_photon_trace": 0.0037339976610659678,
+          "corrected_absolute_error": 1.3010426069826053e-18,
+          "original_absolute_error": 1.3010426069826053e-18
+        },
+        {
+          "angles_deg": [
+            121,
+            44,
+            -67
+          ],
+          "mode": {
+            "q1": 0,
+            "q2": 1,
+            "psi1_deg": 0,
+            "psi2_deg": -19
+          },
+          "corrected_Eq1_Eq4": 0.0024789027333209845,
+          "original_T_phase": 0.0024789027333209845,
+          "direct_photon_trace": 0.002478902733320986,
+          "corrected_absolute_error": 1.3010426069826053e-18,
+          "original_absolute_error": 1.3010426069826053e-18
+        },
+        {
+          "angles_deg": [
+            73,
+            142,
+            113
+          ],
+          "mode": {
+            "q1": 0,
+            "q2": 0,
+            "psi1_deg": 0,
+            "psi2_deg": 0
+          },
+          "corrected_Eq1_Eq4": 0.006018387409802785,
+          "original_T_phase": 0.006018387409802785,
+          "direct_photon_trace": 0.006018387409802784,
+          "corrected_absolute_error": 8.673617379884035e-19,
+          "original_absolute_error": 8.673617379884035e-19
+        },
+        {
+          "angles_deg": [
+            73,
+            142,
+            113
+          ],
+          "mode": {
+            "q1": 1,
+            "q2": 0,
+            "psi1_deg": 0,
+            "psi2_deg": 0
+          },
+          "corrected_Eq1_Eq4": 0.0038869197201123,
+          "original_T_phase": 0.0038869197201123,
+          "direct_photon_trace": 0.0038869197201122987,
+          "corrected_absolute_error": 1.3010426069826053e-18,
+          "original_absolute_error": 1.3010426069826053e-18
+        },
+        {
+          "angles_deg": [
+            73,
+            142,
+            113
+          ],
+          "mode": {
+            "q1": 1,
+            "q2": 0,
+            "psi1_deg": 90,
+            "psi2_deg": 0
+          },
+          "corrected_Eq1_Eq4": 0.0021314676896904846,
+          "original_T_phase": 0.0021314676896904846,
+          "direct_photon_trace": 0.0021314676896904824,
+          "corrected_absolute_error": 2.168404344971009e-18,
+          "original_absolute_error": 2.168404344971009e-18
+        },
+        {
+          "angles_deg": [
+            73,
+            142,
+            113
+          ],
+          "mode": {
+            "q1": 1,
+            "q2": 0,
+            "psi1_deg": 27,
+            "psi2_deg": 0
+          },
+          "corrected_Eq1_Eq4": 0.003432542298523368,
+          "original_T_phase": 0.003432542298523368,
+          "direct_photon_trace": 0.003432542298523367,
+          "corrected_absolute_error": 1.3010426069826053e-18,
+          "original_absolute_error": 1.3010426069826053e-18
+        },
+        {
+          "angles_deg": [
+            73,
+            142,
+            113
+          ],
+          "mode": {
+            "q1": 0,
+            "q2": 1,
+            "psi1_deg": 0,
+            "psi2_deg": 0
+          },
+          "corrected_Eq1_Eq4": 0.002303952458897964,
+          "original_T_phase": 0.002303952458897964,
+          "direct_photon_trace": 0.0023039524588979628,
+          "corrected_absolute_error": 1.3010426069826053e-18,
+          "original_absolute_error": 1.3010426069826053e-18
+        },
+        {
+          "angles_deg": [
+            73,
+            142,
+            113
+          ],
+          "mode": {
+            "q1": 0,
+            "q2": 1,
+            "psi1_deg": 0,
+            "psi2_deg": 90
+          },
+          "corrected_Eq1_Eq4": 0.00371443495090482,
+          "original_T_phase": 0.00371443495090482,
+          "direct_photon_trace": 0.0037144349509048193,
+          "corrected_absolute_error": 8.673617379884035e-19,
+          "original_absolute_error": 8.673617379884035e-19
+        },
+        {
+          "angles_deg": [
+            73,
+            142,
+            113
+          ],
+          "mode": {
+            "q1": 0,
+            "q2": 1,
+            "psi1_deg": 0,
+            "psi2_deg": -19
+          },
+          "corrected_Eq1_Eq4": 0.0022898857695609594,
+          "original_T_phase": 0.0022898857695609594,
+          "direct_photon_trace": 0.002289885769560957,
+          "corrected_absolute_error": 2.6020852139652106e-18,
+          "original_absolute_error": 2.6020852139652106e-18
+        }
+      ]
+    },
+    {
+      "spins": [
+        2,
+        1,
+        0
+      ],
+      "gate": [
+        [
+          "M",
+          1,
+          1.0
+        ]
+      ],
+      "first_case": "pureE2",
+      "chosen_population": [
+        0.07692307692307693,
+        0.23076923076923078,
+        0.38461538461538464,
+        0.23076923076923078,
+        0.07692307692307693
+      ],
+      "rows": [
+        {
+          "angles_deg": [
+            37,
+            63,
+            41
+          ],
+          "mode": {
+            "q1": 0,
+            "q2": 0,
+            "psi1_deg": 0,
+            "psi2_deg": 0
+          },
+          "corrected_Eq1_Eq4": 0.006609051273622033,
+          "original_T_phase": 0.006609051273622033,
+          "direct_photon_trace": 0.006609051273622038,
+          "corrected_absolute_error": 4.336808689942018e-18,
+          "original_absolute_error": 4.336808689942018e-18
+        },
+        {
+          "angles_deg": [
+            37,
+            63,
+            41
+          ],
+          "mode": {
+            "q1": 1,
+            "q2": 0,
+            "psi1_deg": 0,
+            "psi2_deg": 0
+          },
+          "corrected_Eq1_Eq4": 0.0031208610922888,
+          "original_T_phase": 0.0031208610922888,
+          "direct_photon_trace": 0.0031208610922888,
+          "corrected_absolute_error": 0.0,
+          "original_absolute_error": 0.0
+        },
+        {
+          "angles_deg": [
+            37,
+            63,
+            41
+          ],
+          "mode": {
+            "q1": 1,
+            "q2": 0,
+            "psi1_deg": 90,
+            "psi2_deg": 0
+          },
+          "corrected_Eq1_Eq4": 0.003488190181333237,
+          "original_T_phase": 0.003488190181333237,
+          "direct_photon_trace": 0.003488190181333236,
+          "corrected_absolute_error": 8.673617379884035e-19,
+          "original_absolute_error": 8.673617379884035e-19
+        },
+        {
+          "angles_deg": [
+            37,
+            63,
+            41
+          ],
+          "mode": {
+            "q1": 1,
+            "q2": 0,
+            "psi1_deg": 27,
+            "psi2_deg": 0
+          },
+          "corrected_Eq1_Eq4": 0.0026698357214874416,
+          "original_T_phase": 0.0026698357214874416,
+          "direct_photon_trace": 0.0026698357214874416,
+          "corrected_absolute_error": 0.0,
+          "original_absolute_error": 0.0
+        },
+        {
+          "angles_deg": [
+            37,
+            63,
+            41
+          ],
+          "mode": {
+            "q1": 0,
+            "q2": 1,
+            "psi1_deg": 0,
+            "psi2_deg": 0
+          },
+          "corrected_Eq1_Eq4": 0.004285516171711251,
+          "original_T_phase": 0.004285516171711251,
+          "direct_photon_trace": 0.0042855161717112525,
+          "corrected_absolute_error": 1.734723475976807e-18,
+          "original_absolute_error": 1.734723475976807e-18
+        },
+        {
+          "angles_deg": [
+            37,
+            63,
+            41
+          ],
+          "mode": {
+            "q1": 0,
+            "q2": 1,
+            "psi1_deg": 0,
+            "psi2_deg": 90
+          },
+          "corrected_Eq1_Eq4": 0.002323535101910785,
+          "original_T_phase": 0.002323535101910785,
+          "direct_photon_trace": 0.0023235351019107843,
+          "corrected_absolute_error": 8.673617379884035e-19,
+          "original_absolute_error": 8.673617379884035e-19
+        },
+        {
+          "angles_deg": [
+            37,
+            63,
+            41
+          ],
+          "mode": {
+            "q1": 0,
+            "q2": 1,
+            "psi1_deg": 0,
+            "psi2_deg": -19
+          },
+          "corrected_Eq1_Eq4": 0.004287497568675186,
+          "original_T_phase": 0.004287497568675186,
+          "direct_photon_trace": 0.004287497568675186,
+          "corrected_absolute_error": 0.0,
+          "original_absolute_error": 0.0
+        },
+        {
+          "angles_deg": [
+            90,
+            90,
+            180
+          ],
+          "mode": {
+            "q1": 0,
+            "q2": 0,
+            "psi1_deg": 0,
+            "psi2_deg": 0
+          },
+          "corrected_Eq1_Eq4": 0.007915717472057635,
+          "original_T_phase": 0.007915717472057635,
+          "direct_photon_trace": 0.00791571747205764,
+          "corrected_absolute_error": 5.204170427930421e-18,
+          "original_absolute_error": 5.204170427930421e-18
+        },
+        {
+          "angles_deg": [
+            90,
+            90,
+            180
+          ],
+          "mode": {
+            "q1": 1,
+            "q2": 0,
+            "psi1_deg": 0,
+            "psi2_deg": 0
+          },
+          "corrected_Eq1_Eq4": 0.005784562768042118,
+          "original_T_phase": 0.005784562768042118,
+          "direct_photon_trace": 0.005784562768042121,
+          "corrected_absolute_error": 3.469446951953614e-18,
+          "original_absolute_error": 3.469446951953614e-18
+        },
+        {
+          "angles_deg": [
+            90,
+            90,
+            180
+          ],
+          "mode": {
+            "q1": 1,
+            "q2": 0,
+            "psi1_deg": 90,
+            "psi2_deg": 0
+          },
+          "corrected_Eq1_Eq4": 0.002131154704015518,
+          "original_T_phase": 0.002131154704015518,
+          "direct_photon_trace": 0.0021311547040155174,
+          "corrected_absolute_error": 4.336808689942018e-19,
+          "original_absolute_error": 4.336808689942018e-19
+        },
+        {
+          "angles_deg": [
+            90,
+            90,
+            180
+          ],
+          "mode": {
+            "q1": 1,
+            "q2": 0,
+            "psi1_deg": 27,
+            "psi2_deg": 0
+          },
+          "corrected_Eq1_Eq4": 0.005031568426349434,
+          "original_T_phase": 0.005031568426349434,
+          "direct_photon_trace": 0.005031568426349436,
+          "corrected_absolute_error": 1.734723475976807e-18,
+          "original_absolute_error": 1.734723475976807e-18
+        },
+        {
+          "angles_deg": [
+            90,
+            90,
+            180
+          ],
+          "mode": {
+            "q1": 0,
+            "q2": 1,
+            "psi1_deg": 0,
+            "psi2_deg": 0
+          },
+          "corrected_Eq1_Eq4": 0.005784562768042118,
+          "original_T_phase": 0.005784562768042118,
+          "direct_photon_trace": 0.005784562768042121,
+          "corrected_absolute_error": 3.469446951953614e-18,
+          "original_absolute_error": 3.469446951953614e-18
+        },
+        {
+          "angles_deg": [
+            90,
+            90,
+            180
+          ],
+          "mode": {
+            "q1": 0,
+            "q2": 1,
+            "psi1_deg": 0,
+            "psi2_deg": 90
+          },
+          "corrected_Eq1_Eq4": 0.0021311547040155174,
+          "original_T_phase": 0.0021311547040155174,
+          "direct_photon_trace": 0.002131154704015518,
+          "corrected_absolute_error": 4.336808689942018e-19,
+          "original_absolute_error": 4.336808689942018e-19
+        },
+        {
+          "angles_deg": [
+            90,
+            90,
+            180
+          ],
+          "mode": {
+            "q1": 0,
+            "q2": 1,
+            "psi1_deg": 0,
+            "psi2_deg": -19
+          },
+          "corrected_Eq1_Eq4": 0.005397321156912057,
+          "original_T_phase": 0.005397321156912057,
+          "direct_photon_trace": 0.005397321156912059,
+          "corrected_absolute_error": 1.734723475976807e-18,
+          "original_absolute_error": 1.734723475976807e-18
+        },
+        {
+          "angles_deg": [
+            121,
+            44,
+            -67
+          ],
+          "mode": {
+            "q1": 0,
+            "q2": 0,
+            "psi1_deg": 0,
+            "psi2_deg": 0
+          },
+          "corrected_Eq1_Eq4": 0.005702403086083113,
+          "original_T_phase": 0.005702403086083113,
+          "direct_photon_trace": 0.005702403086083117,
+          "corrected_absolute_error": 4.336808689942018e-18,
+          "original_absolute_error": 4.336808689942018e-18
+        },
+        {
+          "angles_deg": [
+            121,
+            44,
+            -67
+          ],
+          "mode": {
+            "q1": 1,
+            "q2": 0,
+            "psi1_deg": 0,
+            "psi2_deg": 0
+          },
+          "corrected_Eq1_Eq4": 0.003153127384351445,
+          "original_T_phase": 0.003153127384351445,
+          "direct_photon_trace": 0.0031531273843514464,
+          "corrected_absolute_error": 1.3010426069826053e-18,
+          "original_absolute_error": 1.3010426069826053e-18
+        },
+        {
+          "angles_deg": [
+            121,
+            44,
+            -67
+          ],
+          "mode": {
+            "q1": 1,
+            "q2": 0,
+            "psi1_deg": 90,
+            "psi2_deg": 0
+          },
+          "corrected_Eq1_Eq4": 0.002549275701731669,
+          "original_T_phase": 0.002549275701731669,
+          "direct_photon_trace": 0.0025492757017316703,
+          "corrected_absolute_error": 1.3010426069826053e-18,
+          "original_absolute_error": 1.3010426069826053e-18
+        },
+        {
+          "angles_deg": [
+            121,
+            44,
+            -67
+          ],
+          "mode": {
+            "q1": 1,
+            "q2": 0,
+            "psi1_deg": 27,
+            "psi2_deg": 0
+          },
+          "corrected_Eq1_Eq4": 0.002303933848657342,
+          "original_T_phase": 0.002303933848657342,
+          "direct_photon_trace": 0.0023039338486573434,
+          "corrected_absolute_error": 1.3010426069826053e-18,
+          "original_absolute_error": 1.3010426069826053e-18
+        },
+        {
+          "angles_deg": [
+            121,
+            44,
+            -67
+          ],
+          "mode": {
+            "q1": 0,
+            "q2": 1,
+            "psi1_deg": 0,
+            "psi2_deg": 0
+          },
+          "corrected_Eq1_Eq4": 0.003037226892924116,
+          "original_T_phase": 0.003037226892924116,
+          "direct_photon_trace": 0.0030372268929241162,
+          "corrected_absolute_error": 4.336808689942018e-19,
+          "original_absolute_error": 4.336808689942018e-19
+        },
+        {
+          "angles_deg": [
+            121,
+            44,
+            -67
+          ],
+          "mode": {
+            "q1": 0,
+            "q2": 1,
+            "psi1_deg": 0,
+            "psi2_deg": 90
+          },
+          "corrected_Eq1_Eq4": 0.002665176193158999,
+          "original_T_phase": 0.002665176193158999,
+          "direct_photon_trace": 0.002665176193159,
+          "corrected_absolute_error": 8.673617379884035e-19,
+          "original_absolute_error": 8.673617379884035e-19
+        },
+        {
+          "angles_deg": [
+            121,
+            44,
+            -67
+          ],
+          "mode": {
+            "q1": 0,
+            "q2": 1,
+            "psi1_deg": 0,
+            "psi2_deg": -19
+          },
+          "corrected_Eq1_Eq4": 0.0036693462163596723,
+          "original_T_phase": 0.0036693462163596723,
+          "direct_photon_trace": 0.0036693462163596728,
+          "corrected_absolute_error": 4.336808689942018e-19,
+          "original_absolute_error": 4.336808689942018e-19
+        },
+        {
+          "angles_deg": [
+            73,
+            142,
+            113
+          ],
+          "mode": {
+            "q1": 0,
+            "q2": 0,
+            "psi1_deg": 0,
+            "psi2_deg": 0
+          },
+          "corrected_Eq1_Eq4": 0.006272493909510159,
+          "original_T_phase": 0.006272493909510159,
+          "direct_photon_trace": 0.006272493909510155,
+          "corrected_absolute_error": 3.469446951953614e-18,
+          "original_absolute_error": 3.469446951953614e-18
+        },
+        {
+          "angles_deg": [
+            73,
+            142,
+            113
+          ],
+          "mode": {
+            "q1": 1,
+            "q2": 0,
+            "psi1_deg": 0,
+            "psi2_deg": 0
+          },
+          "corrected_Eq1_Eq4": 0.00389548215790644,
+          "original_T_phase": 0.00389548215790644,
+          "direct_photon_trace": 0.0038954821579064384,
+          "corrected_absolute_error": 1.734723475976807e-18,
+          "original_absolute_error": 1.734723475976807e-18
+        },
+        {
+          "angles_deg": [
+            73,
+            142,
+            113
+          ],
+          "mode": {
+            "q1": 1,
+            "q2": 0,
+            "psi1_deg": 90,
+            "psi2_deg": 0
+          },
+          "corrected_Eq1_Eq4": 0.0023770117516037186,
+          "original_T_phase": 0.0023770117516037186,
+          "direct_photon_trace": 0.0023770117516037147,
+          "corrected_absolute_error": 3.903127820947816e-18,
+          "original_absolute_error": 3.903127820947816e-18
+        },
+        {
+          "angles_deg": [
+            73,
+            142,
+            113
+          ],
+          "mode": {
+            "q1": 1,
+            "q2": 0,
+            "psi1_deg": 27,
+            "psi2_deg": 0
+          },
+          "corrected_Eq1_Eq4": 0.003060124246685732,
+          "original_T_phase": 0.003060124246685732,
+          "direct_photon_trace": 0.003060124246685731,
+          "corrected_absolute_error": 1.3010426069826053e-18,
+          "original_absolute_error": 1.3010426069826053e-18
+        },
+        {
+          "angles_deg": [
+            73,
+            142,
+            113
+          ],
+          "mode": {
+            "q1": 0,
+            "q2": 1,
+            "psi1_deg": 0,
+            "psi2_deg": 0
+          },
+          "corrected_Eq1_Eq4": 0.0022969330104379493,
+          "original_T_phase": 0.0022969330104379493,
+          "direct_photon_trace": 0.0022969330104379466,
+          "corrected_absolute_error": 2.6020852139652106e-18,
+          "original_absolute_error": 2.6020852139652106e-18
+        },
+        {
+          "angles_deg": [
+            73,
+            142,
+            113
+          ],
+          "mode": {
+            "q1": 0,
+            "q2": 1,
+            "psi1_deg": 0,
+            "psi2_deg": 90
+          },
+          "corrected_Eq1_Eq4": 0.003975560899072209,
+          "original_T_phase": 0.003975560899072209,
+          "direct_photon_trace": 0.003975560899072207,
+          "corrected_absolute_error": 2.6020852139652106e-18,
+          "original_absolute_error": 2.6020852139652106e-18
+        },
+        {
+          "angles_deg": [
+            73,
+            142,
+            113
+          ],
+          "mode": {
+            "q1": 0,
+            "q2": 1,
+            "psi1_deg": 0,
+            "psi2_deg": -19
+          },
+          "corrected_Eq1_Eq4": 0.0020927698509085784,
+          "original_T_phase": 0.0020927698509085784,
+          "direct_photon_trace": 0.002092769850908576,
+          "corrected_absolute_error": 2.168404344971009e-18,
+          "original_absolute_error": 2.168404344971009e-18
+        }
+      ]
+    },
+    {
+      "spins": [
+        2,
+        1,
+        0
+      ],
+      "gate": [
+        [
+          "M",
+          1,
+          1.0
+        ]
+      ],
+      "first_case": "mixed_d+.3",
+      "chosen_population": [
+        0.07692307692307693,
+        0.23076923076923078,
+        0.38461538461538464,
+        0.23076923076923078,
+        0.07692307692307693
+      ],
+      "rows": [
+        {
+          "angles_deg": [
+            37,
+            63,
+            41
+          ],
+          "mode": {
+            "q1": 0,
+            "q2": 0,
+            "psi1_deg": 0,
+            "psi2_deg": 0
+          },
+          "corrected_Eq1_Eq4": 0.006267187171853755,
+          "original_T_phase": 0.006267187171853755,
+          "direct_photon_trace": 0.006267187171853759,
+          "corrected_absolute_error": 4.336808689942018e-18,
+          "original_absolute_error": 4.336808689942018e-18
+        },
+        {
+          "angles_deg": [
+            37,
+            63,
+            41
+          ],
+          "mode": {
+            "q1": 1,
+            "q2": 0,
+            "psi1_deg": 0,
+            "psi2_deg": 0
+          },
+          "corrected_Eq1_Eq4": 0.0026260192946001245,
+          "original_T_phase": 0.0029495531801838437,
+          "direct_photon_trace": 0.002626019294600124,
+          "corrected_absolute_error": 4.336808689942018e-19,
+          "original_absolute_error": 0.0003235338855837196
+        },
+        {
+          "angles_deg": [
+            37,
+            63,
+            41
+          ],
+          "mode": {
+            "q1": 1,
+            "q2": 0,
+            "psi1_deg": 90,
+            "psi2_deg": 0
+          },
+          "corrected_Eq1_Eq4": 0.003641167877253635,
+          "original_T_phase": 0.0033176339916699137,
+          "direct_photon_trace": 0.003641167877253635,
+          "corrected_absolute_error": 0.0,
+          "original_absolute_error": 0.00032353388558372135
+        },
+        {
+          "angles_deg": [
+            37,
+            63,
+            41
+          ],
+          "mode": {
+            "q1": 1,
+            "q2": 0,
+            "psi1_deg": 27,
+            "psi2_deg": 0
+          },
+          "corrected_Eq1_Eq4": 0.002363226332210401,
+          "original_T_phase": 0.00294151848156272,
+          "direct_photon_trace": 0.0023632263322104,
+          "corrected_absolute_error": 8.673617379884035e-19,
+          "original_absolute_error": 0.0005782921493523198
+        },
+        {
+          "angles_deg": [
+            37,
+            63,
+            41
+          ],
+          "mode": {
+            "q1": 0,
+            "q2": 1,
+            "psi1_deg": 0,
+            "psi2_deg": 0
+          },
+          "corrected_Eq1_Eq4": 0.0026766127046564604,
+          "original_T_phase": 0.0026766127046564604,
+          "direct_photon_trace": 0.002676612704656461,
+          "corrected_absolute_error": 4.336808689942018e-19,
+          "original_absolute_error": 4.336808689942018e-19
+        },
+        {
+          "angles_deg": [
+            37,
+            63,
+            41
+          ],
+          "mode": {
+            "q1": 0,
+            "q2": 1,
+            "psi1_deg": 0,
+            "psi2_deg": 90
+          },
+          "corrected_Eq1_Eq4": 0.0035905744671972982,
+          "original_T_phase": 0.0035905744671972982,
+          "direct_photon_trace": 0.0035905744671972982,
+          "corrected_absolute_error": 0.0,
+          "original_absolute_error": 0.0
+        },
+        {
+          "angles_deg": [
+            37,
+            63,
+            41
+          ],
+          "mode": {
+            "q1": 0,
+            "q2": 1,
+            "psi1_deg": 0,
+            "psi2_deg": -19
+          },
+          "corrected_Eq1_Eq4": 0.0025715609296055597,
+          "original_T_phase": 0.0025715609296055597,
+          "direct_photon_trace": 0.0025715609296055597,
+          "corrected_absolute_error": 0.0,
+          "original_absolute_error": 0.0
+        },
+        {
+          "angles_deg": [
+            90,
+            90,
+            180
+          ],
+          "mode": {
+            "q1": 0,
+            "q2": 0,
+            "psi1_deg": 0,
+            "psi2_deg": 0
+          },
+          "corrected_Eq1_Eq4": 0.006114194940856474,
+          "original_T_phase": 0.006114194940856474,
+          "direct_photon_trace": 0.006114194940856477,
+          "corrected_absolute_error": 2.6020852139652106e-18,
+          "original_absolute_error": 2.6020852139652106e-18
+        },
+        {
+          "angles_deg": [
+            90,
+            90,
+            180
+          ],
+          "mode": {
+            "q1": 1,
+            "q2": 0,
+            "psi1_deg": 0,
+            "psi2_deg": 0
+          },
+          "corrected_Eq1_Eq4": 0.0017527165684380114,
+          "original_T_phase": 0.002652085608516108,
+          "direct_photon_trace": 0.0017527165684380103,
+          "corrected_absolute_error": 1.0842021724855044e-18,
+          "original_absolute_error": 0.0008993690400780976
+        },
+        {
+          "angles_deg": [
+            90,
+            90,
+            180
+          ],
+          "mode": {
+            "q1": 1,
+            "q2": 0,
+            "psi1_deg": 90,
+            "psi2_deg": 0
+          },
+          "corrected_Eq1_Eq4": 0.004361478372418463,
+          "original_T_phase": 0.003462109332340366,
+          "direct_photon_trace": 0.004361478372418464,
+          "corrected_absolute_error": 1.734723475976807e-18,
+          "original_absolute_error": 0.0008993690400780985
+        },
+        {
+          "angles_deg": [
+            90,
+            90,
+            180
+          ],
+          "mode": {
+            "q1": 1,
+            "q2": 0,
+            "psi1_deg": 27,
+            "psi2_deg": 0
+          },
+          "corrected_Eq1_Eq4": 0.002290401612866429,
+          "original_T_phase": 0.002819037470992771,
+          "direct_photon_trace": 0.002290401612866428,
+          "corrected_absolute_error": 1.3010426069826053e-18,
+          "original_absolute_error": 0.0005286358581263434
+        },
+        {
+          "angles_deg": [
+            90,
+            90,
+            180
+          ],
+          "mode": {
+            "q1": 0,
+            "q2": 1,
+            "psi1_deg": 0,
+            "psi2_deg": 0
+          },
+          "corrected_Eq1_Eq4": 0.0017527165684380107,
+          "original_T_phase": 0.0017527165684380107,
+          "direct_photon_trace": 0.001752716568438011,
+          "corrected_absolute_error": 2.168404344971009e-19,
+          "original_absolute_error": 2.168404344971009e-19
+        },
+        {
+          "angles_deg": [
+            90,
+            90,
+            180
+          ],
+          "mode": {
+            "q1": 0,
+            "q2": 1,
+            "psi1_deg": 0,
+            "psi2_deg": 90
+          },
+          "corrected_Eq1_Eq4": 0.004361478372418463,
+          "original_T_phase": 0.004361478372418463,
+          "direct_photon_trace": 0.0043614783724184635,
+          "corrected_absolute_error": 8.673617379884035e-19,
+          "original_absolute_error": 8.673617379884035e-19
+        },
+        {
+          "angles_deg": [
+            90,
+            90,
+            180
+          ],
+          "mode": {
+            "q1": 0,
+            "q2": 1,
+            "psi1_deg": 0,
+            "psi2_deg": -19
+          },
+          "corrected_Eq1_Eq4": 0.0020292312928607034,
+          "original_T_phase": 0.0020292312928607034,
+          "direct_photon_trace": 0.0020292312928607034,
+          "corrected_absolute_error": 0.0,
+          "original_absolute_error": 0.0
+        },
+        {
+          "angles_deg": [
+            121,
+            44,
+            -67
+          ],
+          "mode": {
+            "q1": 0,
+            "q2": 0,
+            "psi1_deg": 0,
+            "psi2_deg": 0
+          },
+          "corrected_Eq1_Eq4": 0.006362035015799757,
+          "original_T_phase": 0.006362035015799757,
+          "direct_photon_trace": 0.006362035015799761,
+          "corrected_absolute_error": 4.336808689942018e-18,
+          "original_absolute_error": 4.336808689942018e-18
+        },
+        {
+          "angles_deg": [
+            121,
+            44,
+            -67
+          ],
+          "mode": {
+            "q1": 1,
+            "q2": 0,
+            "psi1_deg": 0,
+            "psi2_deg": 0
+          },
+          "corrected_Eq1_Eq4": 0.0020968413891660474,
+          "original_T_phase": 0.0028009062917956034,
+          "direct_photon_trace": 0.002096841389166048,
+          "corrected_absolute_error": 4.336808689942018e-19,
+          "original_absolute_error": 0.0007040649026295556
+        },
+        {
+          "angles_deg": [
+            121,
+            44,
+            -67
+          ],
+          "mode": {
+            "q1": 1,
+            "q2": 0,
+            "psi1_deg": 90,
+            "psi2_deg": 0
+          },
+          "corrected_Eq1_Eq4": 0.004265193626633711,
+          "original_T_phase": 0.0035611287240041554,
+          "direct_photon_trace": 0.004265193626633712,
+          "corrected_absolute_error": 1.734723475976807e-18,
+          "original_absolute_error": 0.0007040649026295569
+        },
+        {
+          "angles_deg": [
+            121,
+            44,
+            -67
+          ],
+          "mode": {
+            "q1": 1,
+            "q2": 0,
+            "psi1_deg": 27,
+            "psi2_deg": 0
+          },
+          "corrected_Eq1_Eq4": 0.002242258747084344,
+          "original_T_phase": 0.003125125527425984,
+          "direct_photon_trace": 0.0022422587470843454,
+          "corrected_absolute_error": 1.3010426069826053e-18,
+          "original_absolute_error": 0.0008828667803416385
+        },
+        {
+          "angles_deg": [
+            121,
+            44,
+            -67
+          ],
+          "mode": {
+            "q1": 0,
+            "q2": 1,
+            "psi1_deg": 0,
+            "psi2_deg": 0
+          },
+          "corrected_Eq1_Eq4": 0.002873662884353579,
+          "original_T_phase": 0.002873662884353579,
+          "direct_photon_trace": 0.0028736628843535807,
+          "corrected_absolute_error": 1.734723475976807e-18,
+          "original_absolute_error": 1.734723475976807e-18
+        },
+        {
+          "angles_deg": [
+            121,
+            44,
+            -67
+          ],
+          "mode": {
+            "q1": 0,
+            "q2": 1,
+            "psi1_deg": 0,
+            "psi2_deg": 90
+          },
+          "corrected_Eq1_Eq4": 0.003488372131446179,
+          "original_T_phase": 0.003488372131446179,
+          "direct_photon_trace": 0.0034883721314461803,
+          "corrected_absolute_error": 1.3010426069826053e-18,
+          "original_absolute_error": 1.3010426069826053e-18
+        },
+        {
+          "angles_deg": [
+            121,
+            44,
+            -67
+          ],
+          "mode": {
+            "q1": 0,
+            "q2": 1,
+            "psi1_deg": 0,
+            "psi2_deg": -19
+          },
+          "corrected_Eq1_Eq4": 0.0025002136808696183,
+          "original_T_phase": 0.0025002136808696183,
+          "direct_photon_trace": 0.002500213680869618,
+          "corrected_absolute_error": 4.336808689942018e-19,
+          "original_absolute_error": 4.336808689942018e-19
+        },
+        {
+          "angles_deg": [
+            73,
+            142,
+            113
+          ],
+          "mode": {
+            "q1": 0,
+            "q2": 0,
+            "psi1_deg": 0,
+            "psi2_deg": 0
+          },
+          "corrected_Eq1_Eq4": 0.005573705915135255,
+          "original_T_phase": 0.005573705915135255,
+          "direct_photon_trace": 0.005573705915135252,
+          "corrected_absolute_error": 2.6020852139652106e-18,
+          "original_absolute_error": 2.6020852139652106e-18
+        },
+        {
+          "angles_deg": [
+            73,
+            142,
+            113
+          ],
+          "mode": {
+            "q1": 1,
+            "q2": 0,
+            "psi1_deg": 0,
+            "psi2_deg": 0
+          },
+          "corrected_Eq1_Eq4": 0.0016392973157613403,
+          "original_T_phase": 0.002449280439874308,
+          "direct_photon_trace": 0.0016392973157613386,
+          "corrected_absolute_error": 1.734723475976807e-18,
+          "original_absolute_error": 0.0008099831241129693
+        },
+        {
+          "angles_deg": [
+            73,
+            142,
+            113
+          ],
+          "mode": {
+            "q1": 1,
+            "q2": 0,
+            "psi1_deg": 90,
+            "psi2_deg": 0
+          },
+          "corrected_Eq1_Eq4": 0.0039344085993739146,
+          "original_T_phase": 0.003124425475260948,
+          "direct_photon_trace": 0.003934408599373915,
+          "corrected_absolute_error": 8.673617379884035e-19,
+          "original_absolute_error": 0.0008099831241129675
+        },
+        {
+          "angles_deg": [
+            73,
+            142,
+            113
+          ],
+          "mode": {
+            "q1": 1,
+            "q2": 0,
+            "psi1_deg": 27,
+            "psi2_deg": 0
+          },
+          "corrected_Eq1_Eq4": 0.001957345689412439,
+          "original_T_phase": 0.0028270030929737943,
+          "direct_photon_trace": 0.001957345689412437,
+          "corrected_absolute_error": 2.168404344971009e-18,
+          "original_absolute_error": 0.0008696574035613573
+        },
+        {
+          "angles_deg": [
+            73,
+            142,
+            113
+          ],
+          "mode": {
+            "q1": 0,
+            "q2": 1,
+            "psi1_deg": 0,
+            "psi2_deg": 0
+          },
+          "corrected_Eq1_Eq4": 0.002838204070638091,
+          "original_T_phase": 0.002838204070638091,
+          "direct_photon_trace": 0.0028382040706380895,
+          "corrected_absolute_error": 1.3010426069826053e-18,
+          "original_absolute_error": 1.3010426069826053e-18
+        },
+        {
+          "angles_deg": [
+            73,
+            142,
+            113
+          ],
+          "mode": {
+            "q1": 0,
+            "q2": 1,
+            "psi1_deg": 0,
+            "psi2_deg": 90
+          },
+          "corrected_Eq1_Eq4": 0.0027355018444971636,
+          "original_T_phase": 0.0027355018444971636,
+          "direct_photon_trace": 0.002735501844497162,
+          "corrected_absolute_error": 1.734723475976807e-18,
+          "original_absolute_error": 1.734723475976807e-18
+        },
+        {
+          "angles_deg": [
+            73,
+            142,
+            113
+          ],
+          "mode": {
+            "q1": 0,
+            "q2": 1,
+            "psi1_deg": 0,
+            "psi2_deg": -19
+          },
+          "corrected_Eq1_Eq4": 0.002886843182914761,
+          "original_T_phase": 0.002886843182914761,
+          "direct_photon_trace": 0.0028868431829147593,
+          "corrected_absolute_error": 1.734723475976807e-18,
+          "original_absolute_error": 1.734723475976807e-18
+        }
+      ]
+    },
+    {
+      "spins": [
+        2,
+        1,
+        0
+      ],
+      "gate": [
+        [
+          "M",
+          1,
+          1.0
+        ]
+      ],
+      "first_case": "mixed_d-.3",
+      "chosen_population": [
+        0.07692307692307693,
+        0.23076923076923078,
+        0.38461538461538464,
+        0.23076923076923078,
+        0.07692307692307693
+      ],
+      "rows": [
+        {
+          "angles_deg": [
+            37,
+            63,
+            41
+          ],
+          "mode": {
+            "q1": 0,
+            "q2": 0,
+            "psi1_deg": 0,
+            "psi2_deg": 0
+          },
+          "corrected_Eq1_Eq4": 0.005568452429275183,
+          "original_T_phase": 0.005568452429275183,
+          "direct_photon_trace": 0.005568452429275185,
+          "corrected_absolute_error": 1.734723475976807e-18,
+          "original_absolute_error": 1.734723475976807e-18
+        },
+        {
+          "angles_deg": [
+            37,
+            63,
+            41
+          ],
+          "mode": {
+            "q1": 1,
+            "q2": 0,
+            "psi1_deg": 0,
+            "psi2_deg": 0
+          },
+          "corrected_Eq1_Eq4": 0.0026001858088945556,
+          "original_T_phase": 0.002276651923310836,
+          "direct_photon_trace": 0.002600185808894555,
+          "corrected_absolute_error": 4.336808689942018e-19,
+          "original_absolute_error": 0.0003235338855837192
+        },
+        {
+          "angles_deg": [
+            37,
+            63,
+            41
+          ],
+          "mode": {
+            "q1": 1,
+            "q2": 0,
+            "psi1_deg": 90,
+            "psi2_deg": 0
+          },
+          "corrected_Eq1_Eq4": 0.002968266620380627,
+          "original_T_phase": 0.0032918005059643474,
+          "direct_photon_trace": 0.0029682666203806277,
+          "corrected_absolute_error": 8.673617379884035e-19,
+          "original_absolute_error": 0.0003235338855837196
+        },
+        {
+          "angles_deg": [
+            37,
+            63,
+            41
+          ],
+          "mode": {
+            "q1": 1,
+            "q2": 0,
+            "psi1_deg": 27,
+            "psi2_deg": 0
+          },
+          "corrected_Eq1_Eq4": 0.002592151110273432,
+          "original_T_phase": 0.002013858960921114,
+          "direct_photon_trace": 0.0025921511102734328,
+          "corrected_absolute_error": 8.673617379884035e-19,
+          "original_absolute_error": 0.0005782921493523189
+        },
+        {
+          "angles_deg": [
+            37,
+            63,
+            41
+          ],
+          "mode": {
+            "q1": 0,
+            "q2": 1,
+            "psi1_deg": 0,
+            "psi2_deg": 0
+          },
+          "corrected_Eq1_Eq4": 0.0021851292830445995,
+          "original_T_phase": 0.0021851292830445995,
+          "direct_photon_trace": 0.0021851292830446,
+          "corrected_absolute_error": 4.336808689942018e-19,
+          "original_absolute_error": 4.336808689942018e-19
+        },
+        {
+          "angles_deg": [
+            37,
+            63,
+            41
+          ],
+          "mode": {
+            "q1": 0,
+            "q2": 1,
+            "psi1_deg": 0,
+            "psi2_deg": 90
+          },
+          "corrected_Eq1_Eq4": 0.003383323146230582,
+          "original_T_phase": 0.003383323146230582,
+          "direct_photon_trace": 0.003383323146230583,
+          "corrected_absolute_error": 8.673617379884035e-19,
+          "original_absolute_error": 8.673617379884035e-19
+        },
+        {
+          "angles_deg": [
+            37,
+            63,
+            41
+          ],
+          "mode": {
+            "q1": 0,
+            "q2": 1,
+            "psi1_deg": 0,
+            "psi2_deg": -19
+          },
+          "corrected_Eq1_Eq4": 0.002406751217567518,
+          "original_T_phase": 0.002406751217567518,
+          "direct_photon_trace": 0.002406751217567518,
+          "corrected_absolute_error": 0.0,
+          "original_absolute_error": 0.0
+        },
+        {
+          "angles_deg": [
+            90,
+            90,
+            180
+          ],
+          "mode": {
+            "q1": 0,
+            "q2": 0,
+            "psi1_deg": 0,
+            "psi2_deg": 0
+          },
+          "corrected_Eq1_Eq4": 0.010611040141246959,
+          "original_T_phase": 0.010611040141246959,
+          "direct_photon_trace": 0.010611040141246964,
+          "corrected_absolute_error": 5.204170427930421e-18,
+          "original_absolute_error": 5.204170427930421e-18
+        },
+        {
+          "angles_deg": [
+            90,
+            90,
+            180
+          ],
+          "mode": {
+            "q1": 1,
+            "q2": 0,
+            "psi1_deg": 0,
+            "psi2_deg": 0
+          },
+          "corrected_Eq1_Eq4": 0.00490050820871135,
+          "original_T_phase": 0.004001139168633254,
+          "direct_photon_trace": 0.004900508208711352,
+          "corrected_absolute_error": 1.734723475976807e-18,
+          "original_absolute_error": 0.0008993690400780976
+        },
+        {
+          "angles_deg": [
+            90,
+            90,
+            180
+          ],
+          "mode": {
+            "q1": 1,
+            "q2": 0,
+            "psi1_deg": 90,
+            "psi2_deg": 0
+          },
+          "corrected_Eq1_Eq4": 0.005710531932535609,
+          "original_T_phase": 0.006609900972613706,
+          "direct_photon_trace": 0.00571053193253561,
+          "corrected_absolute_error": 8.673617379884035e-19,
+          "original_absolute_error": 0.0008993690400780959
+        },
+        {
+          "angles_deg": [
+            90,
+            90,
+            180
+          ],
+          "mode": {
+            "q1": 1,
+            "q2": 0,
+            "psi1_deg": 27,
+            "psi2_deg": 0
+          },
+          "corrected_Eq1_Eq4": 0.005067460071188016,
+          "original_T_phase": 0.004538824213061672,
+          "direct_photon_trace": 0.005067460071188017,
+          "corrected_absolute_error": 8.673617379884035e-19,
+          "original_absolute_error": 0.0005286358581263447
+        },
+        {
+          "angles_deg": [
+            90,
+            90,
+            180
+          ],
+          "mode": {
+            "q1": 0,
+            "q2": 1,
+            "psi1_deg": 0,
+            "psi2_deg": 0
+          },
+          "corrected_Eq1_Eq4": 0.004900508208711352,
+          "original_T_phase": 0.004900508208711352,
+          "direct_photon_trace": 0.0049005082087113525,
+          "corrected_absolute_error": 8.673617379884035e-19,
+          "original_absolute_error": 8.673617379884035e-19
+        },
+        {
+          "angles_deg": [
+            90,
+            90,
+            180
+          ],
+          "mode": {
+            "q1": 0,
+            "q2": 1,
+            "psi1_deg": 0,
+            "psi2_deg": 90
+          },
+          "corrected_Eq1_Eq4": 0.005710531932535609,
+          "original_T_phase": 0.005710531932535609,
+          "direct_photon_trace": 0.005710531932535611,
+          "corrected_absolute_error": 1.734723475976807e-18,
+          "original_absolute_error": 1.734723475976807e-18
+        },
+        {
+          "angles_deg": [
+            90,
+            90,
+            180
+          ],
+          "mode": {
+            "q1": 0,
+            "q2": 1,
+            "psi1_deg": 0,
+            "psi2_deg": -19
+          },
+          "corrected_Eq1_Eq4": 0.004986366368098442,
+          "original_T_phase": 0.004986366368098442,
+          "direct_photon_trace": 0.004986366368098443,
+          "corrected_absolute_error": 8.673617379884035e-19,
+          "original_absolute_error": 8.673617379884035e-19
+        },
+        {
+          "angles_deg": [
+            121,
+            44,
+            -67
+          ],
+          "mode": {
+            "q1": 0,
+            "q2": 0,
+            "psi1_deg": 0,
+            "psi2_deg": 0
+          },
+          "corrected_Eq1_Eq4": 0.005552196225730205,
+          "original_T_phase": 0.005552196225730205,
+          "direct_photon_trace": 0.005552196225730206,
+          "corrected_absolute_error": 8.673617379884035e-19,
+          "original_absolute_error": 8.673617379884035e-19
+        },
+        {
+          "angles_deg": [
+            121,
+            44,
+            -67
+          ],
+          "mode": {
+            "q1": 1,
+            "q2": 0,
+            "psi1_deg": 0,
+            "psi2_deg": 0
+          },
+          "corrected_Eq1_Eq4": 0.002395986896760826,
+          "original_T_phase": 0.0016919219941312709,
+          "direct_photon_trace": 0.0023959868967608276,
+          "corrected_absolute_error": 1.734723475976807e-18,
+          "original_absolute_error": 0.0007040649026295567
+        },
+        {
+          "angles_deg": [
+            121,
+            44,
+            -67
+          ],
+          "mode": {
+            "q1": 1,
+            "q2": 0,
+            "psi1_deg": 90,
+            "psi2_deg": 0
+          },
+          "corrected_Eq1_Eq4": 0.003156209328969377,
+          "original_T_phase": 0.0038602742315989327,
+          "direct_photon_trace": 0.0031562093289693783,
+          "corrected_absolute_error": 1.3010426069826053e-18,
+          "original_absolute_error": 0.0007040649026295543
+        },
+        {
+          "angles_deg": [
+            121,
+            44,
+            -67
+          ],
+          "mode": {
+            "q1": 1,
+            "q2": 0,
+            "psi1_deg": 27,
+            "psi2_deg": 0
+          },
+          "corrected_Eq1_Eq4": 0.002720206132391207,
+          "original_T_phase": 0.001837339352049567,
+          "direct_photon_trace": 0.0027202061323912084,
+          "corrected_absolute_error": 1.3010426069826053e-18,
+          "original_absolute_error": 0.0008828667803416415
+        },
+        {
+          "angles_deg": [
+            121,
+            44,
+            -67
+          ],
+          "mode": {
+            "q1": 0,
+            "q2": 1,
+            "psi1_deg": 0,
+            "psi2_deg": 0
+          },
+          "corrected_Eq1_Eq4": 0.0017490756627722085,
+          "original_T_phase": 0.0017490756627722085,
+          "direct_photon_trace": 0.0017490756627722088,
+          "corrected_absolute_error": 2.168404344971009e-19,
+          "original_absolute_error": 2.168404344971009e-19
+        },
+        {
+          "angles_deg": [
+            121,
+            44,
+            -67
+          ],
+          "mode": {
+            "q1": 0,
+            "q2": 1,
+            "psi1_deg": 0,
+            "psi2_deg": 90
+          },
+          "corrected_Eq1_Eq4": 0.003803120562957994,
+          "original_T_phase": 0.003803120562957994,
+          "direct_photon_trace": 0.0038031205629579976,
+          "corrected_absolute_error": 3.469446951953614e-18,
+          "original_absolute_error": 3.469446951953614e-18
+        },
+        {
+          "angles_deg": [
+            121,
+            44,
+            -67
+          ],
+          "mode": {
+            "q1": 0,
+            "q2": 1,
+            "psi1_deg": 0,
+            "psi2_deg": -19
+          },
+          "corrected_Eq1_Eq4": 0.0026541787829714013,
+          "original_T_phase": 0.0026541787829714013,
+          "direct_photon_trace": 0.002654178782971402,
+          "corrected_absolute_error": 8.673617379884035e-19,
+          "original_absolute_error": 8.673617379884035e-19
+        },
+        {
+          "angles_deg": [
+            73,
+            142,
+            113
+          ],
+          "mode": {
+            "q1": 0,
+            "q2": 0,
+            "psi1_deg": 0,
+            "psi2_deg": 0
+          },
+          "corrected_Eq1_Eq4": 0.006505031445706394,
+          "original_T_phase": 0.006505031445706394,
+          "direct_photon_trace": 0.006505031445706392,
+          "corrected_absolute_error": 2.6020852139652106e-18,
+          "original_absolute_error": 2.6020852139652106e-18
+        },
+        {
+          "angles_deg": [
+            73,
+            142,
+            113
+          ],
+          "mode": {
+            "q1": 1,
+            "q2": 0,
+            "psi1_deg": 0,
+            "psi2_deg": 0
+          },
+          "corrected_Eq1_Eq4": 0.0029149432051598758,
+          "original_T_phase": 0.0021049600810469087,
+          "direct_photon_trace": 0.002914943205159874,
+          "corrected_absolute_error": 1.734723475976807e-18,
+          "original_absolute_error": 0.0008099831241129654
+        },
+        {
+          "angles_deg": [
+            73,
+            142,
+            113
+          ],
+          "mode": {
+            "q1": 1,
+            "q2": 0,
+            "psi1_deg": 90,
+            "psi2_deg": 0
+          },
+          "corrected_Eq1_Eq4": 0.003590088240546517,
+          "original_T_phase": 0.004400071364659483,
+          "direct_photon_trace": 0.003590088240546516,
+          "corrected_absolute_error": 1.3010426069826053e-18,
+          "original_absolute_error": 0.0008099831241129675
+        },
+        {
+          "angles_deg": [
+            73,
+            142,
+            113
+          ],
+          "mode": {
+            "q1": 1,
+            "q2": 0,
+            "psi1_deg": 27,
+            "psi2_deg": 0
+          },
+          "corrected_Eq1_Eq4": 0.003292665858259363,
+          "original_T_phase": 0.0024230084546980075,
+          "direct_photon_trace": 0.0032926658582593613,
+          "corrected_absolute_error": 1.734723475976807e-18,
+          "original_absolute_error": 0.0008696574035613538
+        },
+        {
+          "angles_deg": [
+            73,
+            142,
+            113
+          ],
+          "mode": {
+            "q1": 0,
+            "q2": 1,
+            "psi1_deg": 0,
+            "psi2_deg": 0
+          },
+          "corrected_Eq1_Eq4": 0.001768541672182789,
+          "original_T_phase": 0.001768541672182789,
+          "direct_photon_trace": 0.0017685416721827866,
+          "corrected_absolute_error": 2.3852447794681098e-18,
+          "original_absolute_error": 2.3852447794681098e-18
+        },
+        {
+          "angles_deg": [
+            73,
+            142,
+            113
+          ],
+          "mode": {
+            "q1": 0,
+            "q2": 1,
+            "psi1_deg": 0,
+            "psi2_deg": 90
+          },
+          "corrected_Eq1_Eq4": 0.004736489773523604,
+          "original_T_phase": 0.004736489773523604,
+          "direct_photon_trace": 0.004736489773523603,
+          "corrected_absolute_error": 8.673617379884035e-19,
+          "original_absolute_error": 8.673617379884035e-19
+        },
+        {
+          "angles_deg": [
+            73,
+            142,
+            113
+          ],
+          "mode": {
+            "q1": 0,
+            "q2": 1,
+            "psi1_deg": 0,
+            "psi2_deg": -19
+          },
+          "corrected_Eq1_Eq4": 0.0016603771035856628,
+          "original_T_phase": 0.0016603771035856628,
+          "direct_photon_trace": 0.0016603771035856607,
+          "corrected_absolute_error": 2.168404344971009e-18,
+          "original_absolute_error": 2.168404344971009e-18
+        }
+      ]
+    },
+    {
+      "spins": [
+        2,
+        1,
+        0
+      ],
+      "gate": [
+        [
+          "M",
+          1,
+          1.0
+        ]
+      ],
+      "first_case": "mixed_d+1.7",
+      "chosen_population": [
+        0.07692307692307693,
+        0.23076923076923078,
+        0.38461538461538464,
+        0.23076923076923078,
+        0.07692307692307693
+      ],
+      "rows": [
+        {
+          "angles_deg": [
+            37,
+            63,
+            41
+          ],
+          "mode": {
+            "q1": 0,
+            "q2": 0,
+            "psi1_deg": 0,
+            "psi2_deg": 0
+          },
+          "corrected_Eq1_Eq4": 0.006970101014246907,
+          "original_T_phase": 0.006970101014246907,
+          "direct_photon_trace": 0.006970101014246909,
+          "corrected_absolute_error": 1.734723475976807e-18,
+          "original_absolute_error": 1.734723475976807e-18
+        },
+        {
+          "angles_deg": [
+            37,
+            63,
+            41
+          ],
+          "mode": {
+            "q1": 1,
+            "q2": 0,
+            "psi1_deg": 0,
+            "psi2_deg": 0
+          },
+          "corrected_Eq1_Eq4": 0.0029990938958442005,
+          "original_T_phase": 0.0035128113679835597,
+          "direct_photon_trace": 0.0029990938958441987,
+          "corrected_absolute_error": 1.734723475976807e-18,
+          "original_absolute_error": 0.0005137174721393609
+        },
+        {
+          "angles_deg": [
+            37,
+            63,
+            41
+          ],
+          "mode": {
+            "q1": 1,
+            "q2": 0,
+            "psi1_deg": 90,
+            "psi2_deg": 0
+          },
+          "corrected_Eq1_Eq4": 0.003971007118402709,
+          "original_T_phase": 0.003457289646263351,
+          "direct_photon_trace": 0.003971007118402708,
+          "corrected_absolute_error": 8.673617379884035e-19,
+          "original_absolute_error": 0.000513717472139357
+        },
+        {
+          "angles_deg": [
+            37,
+            63,
+            41
+          ],
+          "mode": {
+            "q1": 1,
+            "q2": 0,
+            "psi1_deg": 27,
+            "psi2_deg": 0
+          },
+          "corrected_Eq1_Eq4": 0.0024342479957327836,
+          "original_T_phase": 0.0033524788035732703,
+          "direct_photon_trace": 0.0024342479957327836,
+          "corrected_absolute_error": 0.0,
+          "original_absolute_error": 0.0009182308078404867
+        },
+        {
+          "angles_deg": [
+            37,
+            63,
+            41
+          ],
+          "mode": {
+            "q1": 0,
+            "q2": 1,
+            "psi1_deg": 0,
+            "psi2_deg": 0
+          },
+          "corrected_Eq1_Eq4": 0.004156030667823448,
+          "original_T_phase": 0.004156030667823448,
+          "direct_photon_trace": 0.004156030667823448,
+          "corrected_absolute_error": 0.0,
+          "original_absolute_error": 0.0
+        },
+        {
+          "angles_deg": [
+            37,
+            63,
+            41
+          ],
+          "mode": {
+            "q1": 0,
+            "q2": 1,
+            "psi1_deg": 0,
+            "psi2_deg": 90
+          },
+          "corrected_Eq1_Eq4": 0.0028140703464234608,
+          "original_T_phase": 0.0028140703464234608,
+          "direct_photon_trace": 0.0028140703464234595,
+          "corrected_absolute_error": 1.3010426069826053e-18,
+          "original_absolute_error": 1.3010426069826053e-18
+        },
+        {
+          "angles_deg": [
+            37,
+            63,
+            41
+          ],
+          "mode": {
+            "q1": 0,
+            "q2": 1,
+            "psi1_deg": 0,
+            "psi2_deg": -19
+          },
+          "corrected_Eq1_Eq4": 0.0039144371824791765,
+          "original_T_phase": 0.0039144371824791765,
+          "direct_photon_trace": 0.0039144371824791765,
+          "corrected_absolute_error": 0.0,
+          "original_absolute_error": 0.0
+        },
+        {
+          "angles_deg": [
+            90,
+            90,
+            180
+          ],
+          "mode": {
+            "q1": 0,
+            "q2": 0,
+            "psi1_deg": 0,
+            "psi2_deg": 0
+          },
+          "corrected_Eq1_Eq4": 0.004470823936838509,
+          "original_T_phase": 0.004470823936838509,
+          "direct_photon_trace": 0.00447082393683851,
+          "corrected_absolute_error": 8.673617379884035e-19,
+          "original_absolute_error": 8.673617379884035e-19
+        },
+        {
+          "angles_deg": [
+            90,
+            90,
+            180
+          ],
+          "mode": {
+            "q1": 1,
+            "q2": 0,
+            "psi1_deg": 0,
+            "psi2_deg": 0
+          },
+          "corrected_Eq1_Eq4": 0.0025967489473059558,
+          "original_T_phase": 0.004024795932108624,
+          "direct_photon_trace": 0.002596748947305956,
+          "corrected_absolute_error": 4.336808689942018e-19,
+          "original_absolute_error": 0.0014280469848026679
+        },
+        {
+          "angles_deg": [
+            90,
+            90,
+            180
+          ],
+          "mode": {
+            "q1": 1,
+            "q2": 0,
+            "psi1_deg": 90,
+            "psi2_deg": 0
+          },
+          "corrected_Eq1_Eq4": 0.0018740749895325532,
+          "original_T_phase": 0.0004460280047298861,
+          "direct_photon_trace": 0.0018740749895325532,
+          "corrected_absolute_error": 0.0,
+          "original_absolute_error": 0.001428046984802667
+        },
+        {
+          "angles_deg": [
+            90,
+            90,
+            180
+          ],
+          "mode": {
+            "q1": 1,
+            "q2": 0,
+            "psi1_deg": 27,
+            "psi2_deg": 0
+          },
+          "corrected_Eq1_Eq4": 0.0024478005157167744,
+          "original_T_phase": 0.0032871854729645163,
+          "direct_photon_trace": 0.002447800515716775,
+          "corrected_absolute_error": 4.336808689942018e-19,
+          "original_absolute_error": 0.0008393849572477415
+        },
+        {
+          "angles_deg": [
+            90,
+            90,
+            180
+          ],
+          "mode": {
+            "q1": 0,
+            "q2": 1,
+            "psi1_deg": 0,
+            "psi2_deg": 0
+          },
+          "corrected_Eq1_Eq4": 0.0025967489473059558,
+          "original_T_phase": 0.0025967489473059558,
+          "direct_photon_trace": 0.002596748947305957,
+          "corrected_absolute_error": 1.3010426069826053e-18,
+          "original_absolute_error": 1.3010426069826053e-18
+        },
+        {
+          "angles_deg": [
+            90,
+            90,
+            180
+          ],
+          "mode": {
+            "q1": 0,
+            "q2": 1,
+            "psi1_deg": 0,
+            "psi2_deg": 90
+          },
+          "corrected_Eq1_Eq4": 0.0018740749895325536,
+          "original_T_phase": 0.0018740749895325536,
+          "direct_photon_trace": 0.0018740749895325539,
+          "corrected_absolute_error": 2.168404344971009e-19,
+          "original_absolute_error": 2.168404344971009e-19
+        },
+        {
+          "angles_deg": [
+            90,
+            90,
+            180
+          ],
+          "mode": {
+            "q1": 0,
+            "q2": 1,
+            "psi1_deg": 0,
+            "psi2_deg": -19
+          },
+          "corrected_Eq1_Eq4": 0.0025201493934577397,
+          "original_T_phase": 0.0025201493934577397,
+          "direct_photon_trace": 0.0025201493934577414,
+          "corrected_absolute_error": 1.734723475976807e-18,
+          "original_absolute_error": 1.734723475976807e-18
+        },
+        {
+          "angles_deg": [
+            121,
+            44,
+            -67
+          ],
+          "mode": {
+            "q1": 0,
+            "q2": 0,
+            "psi1_deg": 0,
+            "psi2_deg": 0
+          },
+          "corrected_Eq1_Eq4": 0.006416718971122028,
+          "original_T_phase": 0.006416718971122028,
+          "direct_photon_trace": 0.006416718971122031,
+          "corrected_absolute_error": 2.6020852139652106e-18,
+          "original_absolute_error": 2.6020852139652106e-18
+        },
+        {
+          "angles_deg": [
+            121,
+            44,
+            -67
+          ],
+          "mode": {
+            "q1": 1,
+            "q2": 0,
+            "psi1_deg": 0,
+            "psi2_deg": 0
+          },
+          "corrected_Eq1_Eq4": 0.0026615647941882563,
+          "original_T_phase": 0.0037795016104458104,
+          "direct_photon_trace": 0.0026615647941882568,
+          "corrected_absolute_error": 4.336808689942018e-19,
+          "original_absolute_error": 0.0011179368162575537
+        },
+        {
+          "angles_deg": [
+            121,
+            44,
+            -67
+          ],
+          "mode": {
+            "q1": 1,
+            "q2": 0,
+            "psi1_deg": 90,
+            "psi2_deg": 0
+          },
+          "corrected_Eq1_Eq4": 0.003755154176933772,
+          "original_T_phase": 0.0026372173606762175,
+          "direct_photon_trace": 0.0037551541769337733,
+          "corrected_absolute_error": 1.3010426069826053e-18,
+          "original_absolute_error": 0.0011179368162575558
+        },
+        {
+          "angles_deg": [
+            121,
+            44,
+            -67
+          ],
+          "mode": {
+            "q1": 1,
+            "q2": 0,
+            "psi1_deg": 27,
+            "psi2_deg": 0
+          },
+          "corrected_Eq1_Eq4": 0.0019741638287743037,
+          "original_T_phase": 0.0033760079967032302,
+          "direct_photon_trace": 0.001974163828774303,
+          "corrected_absolute_error": 8.673617379884035e-19,
+          "original_absolute_error": 0.0014018441679289275
+        },
+        {
+          "angles_deg": [
+            121,
+            44,
+            -67
+          ],
+          "mode": {
+            "q1": 0,
+            "q2": 1,
+            "psi1_deg": 0,
+            "psi2_deg": 0
+          },
+          "corrected_Eq1_Eq4": 0.003726665298463121,
+          "original_T_phase": 0.003726665298463121,
+          "direct_photon_trace": 0.003726665298463123,
+          "corrected_absolute_error": 1.734723475976807e-18,
+          "original_absolute_error": 1.734723475976807e-18
+        },
+        {
+          "angles_deg": [
+            121,
+            44,
+            -67
+          ],
+          "mode": {
+            "q1": 0,
+            "q2": 1,
+            "psi1_deg": 0,
+            "psi2_deg": 90
+          },
+          "corrected_Eq1_Eq4": 0.0026900536726589064,
+          "original_T_phase": 0.0026900536726589064,
+          "direct_photon_trace": 0.0026900536726589064,
+          "corrected_absolute_error": 0.0,
+          "original_absolute_error": 0.0
+        },
+        {
+          "angles_deg": [
+            121,
+            44,
+            -67
+          ],
+          "mode": {
+            "q1": 0,
+            "q2": 1,
+            "psi1_deg": 0,
+            "psi2_deg": -19
+          },
+          "corrected_Eq1_Eq4": 0.0032410842523417547,
+          "original_T_phase": 0.0032410842523417547,
+          "direct_photon_trace": 0.003241084252341755,
+          "corrected_absolute_error": 4.336808689942018e-19,
+          "original_absolute_error": 4.336808689942018e-19
+        },
+        {
+          "angles_deg": [
+            73,
+            142,
+            113
+          ],
+          "mode": {
+            "q1": 0,
+            "q2": 0,
+            "psi1_deg": 0,
+            "psi2_deg": 0
+          },
+          "corrected_Eq1_Eq4": 0.005467776639598956,
+          "original_T_phase": 0.005467776639598956,
+          "direct_photon_trace": 0.0054677766395989525,
+          "corrected_absolute_error": 3.469446951953614e-18,
+          "original_absolute_error": 3.469446951953614e-18
+        },
+        {
+          "angles_deg": [
+            73,
+            142,
+            113
+          ],
+          "mode": {
+            "q1": 1,
+            "q2": 0,
+            "psi1_deg": 0,
+            "psi2_deg": 0
+          },
+          "corrected_Eq1_Eq4": 0.0024292522890182384,
+          "original_T_phase": 0.003715369451812864,
+          "direct_photon_trace": 0.002429252289018237,
+          "corrected_absolute_error": 1.3010426069826053e-18,
+          "original_absolute_error": 0.001286117162794627
+        },
+        {
+          "angles_deg": [
+            73,
+            142,
+            113
+          ],
+          "mode": {
+            "q1": 1,
+            "q2": 0,
+            "psi1_deg": 90,
+            "psi2_deg": 0
+          },
+          "corrected_Eq1_Eq4": 0.003038524350580718,
+          "original_T_phase": 0.0017524071877860928,
+          "direct_photon_trace": 0.003038524350580715,
+          "corrected_absolute_error": 3.0357660829594124e-18,
+          "original_absolute_error": 0.0012861171627946222
+        },
+        {
+          "angles_deg": [
+            73,
+            142,
+            113
+          ],
+          "mode": {
+            "q1": 1,
+            "q2": 0,
+            "psi1_deg": 27,
+            "psi2_deg": 0
+          },
+          "corrected_Eq1_Eq4": 0.0018780695105601365,
+          "original_T_phase": 0.0032589394067034025,
+          "direct_photon_trace": 0.0018780695105601345,
+          "corrected_absolute_error": 1.951563910473908e-18,
+          "original_absolute_error": 0.001380869896143268
+        },
+        {
+          "angles_deg": [
+            73,
+            142,
+            113
+          ],
+          "mode": {
+            "q1": 0,
+            "q2": 1,
+            "psi1_deg": 0,
+            "psi2_deg": 0
+          },
+          "corrected_Eq1_Eq4": 0.003147959614299854,
+          "original_T_phase": 0.003147959614299854,
+          "direct_photon_trace": 0.003147959614299851,
+          "corrected_absolute_error": 3.0357660829594124e-18,
+          "original_absolute_error": 3.0357660829594124e-18
+        },
+        {
+          "angles_deg": [
+            73,
+            142,
+            113
+          ],
+          "mode": {
+            "q1": 0,
+            "q2": 1,
+            "psi1_deg": 0,
+            "psi2_deg": 90
+          },
+          "corrected_Eq1_Eq4": 0.0023198170252991036,
+          "original_T_phase": 0.0023198170252991036,
+          "direct_photon_trace": 0.0023198170252991014,
+          "corrected_absolute_error": 2.168404344971009e-18,
+          "original_absolute_error": 2.168404344971009e-18
+        },
+        {
+          "angles_deg": [
+            73,
+            142,
+            113
+          ],
+          "mode": {
+            "q1": 0,
+            "q2": 1,
+            "psi1_deg": 0,
+            "psi2_deg": -19
+          },
+          "corrected_Eq1_Eq4": 0.0031171533968332777,
+          "original_T_phase": 0.0031171533968332777,
+          "direct_photon_trace": 0.0031171533968332756,
+          "corrected_absolute_error": 2.168404344971009e-18,
+          "original_absolute_error": 2.168404344971009e-18
+        }
+      ]
+    }
+  ],
+  "normalization": [
+    {
+      "spins": [
+        3,
+        2,
+        0
+      ],
+      "nt6_phi10": 0.9999999999999991,
+      "nt8_phi14": 0.9999999999999979
+    },
+    {
+      "spins": [
+        2,
+        1,
+        0
+      ],
+      "nt6_phi10": 1.0000000000000002,
+      "nt8_phi14": 1.0000000000000007
+    }
+  ],
+  "max_corrected_absolute_error": 1.0408340855860843e-17,
+  "max_original_phase_error_mixed": 0.0014280469848026679,
+  "max_original_phase_error_pure": 6.938893903907228e-18,
+  "max_complement_sum_error": 6.071532165918825e-18,
+  "max_reflection_symmetry_error": 3.469446951953614e-18,
+  "coordinate_map": "Native amplitudes -> probe: (-1)^L. Directed analyzer psi_probe=-psi_Eq1; source input angles are unchanged. This implementation map does not certify actual detector axes or global experimental handedness.",
+  "first_numeric_failure_preserved": "day16-d96-eq4-audit-first.json with first-code snapshot; all grids source-informed, not blind or an independent holdout.",
+  "scope": "Point-response benchmark; no actual source code or array/event covariance. Fixed real/integer/L<=2 inputs, DCO or one polarimeter only."
+}

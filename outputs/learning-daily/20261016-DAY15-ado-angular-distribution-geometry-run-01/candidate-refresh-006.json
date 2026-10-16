@@ -1,0 +1,33 @@
+{
+  "at": "2026-10-17T04:35:47.575449+08:00",
+  "after_published_checkpoint": 7,
+  "hard_deadline": "2026-10-17T15:00:00+08:00",
+  "formal_credit": "only15, partial16; no17",
+  "candidate_pool": [
+    {
+      "issue": "actual135Prresponse/Σ",
+      "gain": "highifnewproductioninputs",
+      "decision": "blocked-inputnotuniversitypermission; unchangedfailedURLsnotrepeated"
+    },
+    {
+      "issue": "ST99unrounded79.5producer",
+      "gain": "highbutproducerabsent",
+      "decision": "boundaryrecorded; do notfitunknownCovtoexplainit"
+    },
+    {
+      "issue": "D96publishedEq4magneticphase",
+      "gain": "literalformula/newbenchmarkcanseparatepublishedtypoandinternalbasismap",
+      "decision": "selectedoneboundedwithinexistingpartial16preview"
+    },
+    {
+      "issue": "additionalold5/4/2toy/roundinggrids",
+      "gain": "low",
+      "decision": "rejectrepetition"
+    },
+    {
+      "issue": "newDay17card",
+      "decision": "prohibitednotopened"
+    }
+  ],
+  "next_action": "fixedEq1/Eq4crosscheckonnew3/2/0and2/1/0pathswithpure/mixednegativecontrols"
+}

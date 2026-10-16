@@ -1,0 +1,8 @@
+{
+  "path": "knowledge/sources/jones-1995-clover-compton-calibration.md",
+  "sha256": "942a335ebc2b8c52baddd5a436823399d572813b5b45333420426ceb39b26c92",
+  "old_Qfit_bullet": [
+    "- The response is fitted to a Klein–Nishina point-scatterer function with a linear correction, `Q(E)=Q′(E)(B+C E)`; the printed fit parameters are `B=0.29(3)` and `C≈0.003` for `E` in MeV (PDF p.560, Eq.4, Fig.4)."
+  ],
+  "old_review_status": "review_status: unreviewed"
+}

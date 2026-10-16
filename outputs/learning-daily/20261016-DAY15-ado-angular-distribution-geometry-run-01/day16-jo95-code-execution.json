@@ -1,0 +1,8 @@
+{
+  "initial_exit": 1,
+  "error": "NumPy bool not JSON serializable atoutputencoding; no numericfilegenerated",
+  "correction": "cast predicate to builtin bool, physicalinputunchanged",
+  "final_exit": 0,
+  "subsequent_interpretation_correction": "ExplicitQprime=KN90 identification conditional, no sourcefitclosure or rawdatareplay claimed",
+  "input_sha256": "c3d74a1088d3cb691571aa72a64b74d833b03180192d78fcae99abfc25163f66"
+}

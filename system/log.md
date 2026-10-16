@@ -1775,3 +1775,8 @@ Zobel1983六页/metadata/raw与958parent10个Pubfit rows，38-check条件Gaussia
 ## 2026-10-17T04:29:01.258945+08:00 — DAY15 checkpoint007: ST99 original and printed replay
 
 同run/session继续partial16：核11页原件，修正身份/Q指数与D96公开Eq4勘误；13行印刷replay中Table2 15+行在chosenroundingbox外，保留原表/原因未决；chosenCov、五点NDF、647类别/同DCO校准依赖及alpha_κ定义缺口写canonical。输入误填未报告647A在任何numeric前更正为v2并保留failure记录。formal15只计一次、next16/count15，goal/windowactive原15:00截止。稳定指针main / Correct PDCO calibration transcriptions and audit printed fit tables；actualH3/push仅publication007。
+
+
+## 2026-10-17T05:01:09.757637+08:00 — DAY15 checkpoint008: formula, calibration and event-pattern boundaries
+
+同run/session继续恰好partial16：D96 Eq4公开勘误与有向analyzer map核验、JO95 C中心/误差和nominalP预算、S83效率分母/采用P/typedbitpatternCov界均canonical。新fixed模型stopcontract满足，actualproducer/Σ未得；未清旧flags或动原raw。fresh检查30writeback/33mapped/30changed、17rawhash、lint0error/146warnings通过。formal15只计一次next16/count15，原15:00deadline/windowactive。下一NNDC164Yb独立转换谱系route。稳定指针main / Verify PDCO erratum and polarimeter calibration response boundaries；actualH3/push仅publication008。

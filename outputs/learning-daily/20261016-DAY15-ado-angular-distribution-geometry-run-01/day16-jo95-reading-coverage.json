@@ -1,0 +1,31 @@
+{
+  "source": "knowledge/sources/jones-1995-clover-compton-calibration.md",
+  "raw_sha256": "8d2cf5ee101d9f3109f6663269fa62f9d6a829e432e05db2502252bf5b132460",
+  "text_pages_read": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "visual_pages": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "covered": [
+    "printed556 detector/background",
+    "printed557 Eq1–3 Fig1/2",
+    "printed558 Table1/Fig3 twoacquisitions/triggers",
+    "printed559 Fig4/5 ADfit/threshold",
+    "printed560 Table2 Eq4/5 Cmean/uncertainty conclusion/references"
+  ],
+  "not_obtained": [
+    "STAGproductionrecipe",
+    "actualCov",
+    "explicitQprimealgebra",
+    "rawcounterrors/thresholdCov"
+  ],
+  "human_review_created": false
+}

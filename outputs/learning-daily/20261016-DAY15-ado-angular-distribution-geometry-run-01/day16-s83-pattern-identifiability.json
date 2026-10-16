@@ -1,0 +1,1028 @@
+{
+  "identity": "DAY15-DAY16-PREVIEW-S83-SECTOR-PATTERN-MARGINAL-IDENTIFIABILITY-01",
+  "input_sha256": "71401a867ac26cb29d70c7be67f6aa435286aa1163754169c4404a251fcbfaca",
+  "script_sha256": "b4055b8f338e1c26b68e48c272c91e1dd44e1ade869b5ba783d7bbbc7d6a0f9f",
+  "target_constraints": [
+    0.38,
+    0.42,
+    0.18,
+    0.02,
+    0.315,
+    0.25,
+    0.25
+  ],
+  "models": [
+    {
+      "full_cyclic_symmetry": false,
+      "witnesses": [
+        {
+          "optimization": "min_overlap",
+          "status": 0,
+          "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+          "feasible": true,
+          "p_HV": 0.0,
+          "fixedN_covariance_per_event": -0.0625,
+          "Poisson_covariance_per_mean_event_yield": 0.0,
+          "local_VarA_times_event_yield_known_a1": 2.0,
+          "naive_independent_Poisson_VarA_times_yield": 2.0,
+          "constraint_max_abs_residual": 0.0,
+          "dual_certificate": [
+            -0.0,
+            -0.0,
+            -0.0,
+            -0.0,
+            -0.0,
+            -0.0,
+            -0.0
+          ],
+          "dual_max_violation": 0.0,
+          "primal_dual_gap": 0.0,
+          "nonzero_event_masks": [
+            {
+              "mask_hex": "01",
+              "fired_sectors": [
+                1
+              ],
+              "probability": 0.38
+            },
+            {
+              "mask_hex": "03",
+              "fired_sectors": [
+                1,
+                2
+              ],
+              "probability": 0.11999999999999994
+            },
+            {
+              "mask_hex": "05",
+              "fired_sectors": [
+                1,
+                3
+              ],
+              "probability": 0.10499999999999998
+            },
+            {
+              "mask_hex": "07",
+              "fired_sectors": [
+                1,
+                2,
+                3
+              ],
+              "probability": 0.12500000000000003
+            },
+            {
+              "mask_hex": "0f",
+              "fired_sectors": [
+                1,
+                2,
+                3,
+                4
+              ],
+              "probability": 0.02
+            },
+            {
+              "mask_hex": "18",
+              "fired_sectors": [
+                4,
+                5
+              ],
+              "probability": 0.19500000000000006
+            },
+            {
+              "mask_hex": "1c",
+              "fired_sectors": [
+                3,
+                4,
+                5
+              ],
+              "probability": 0.054999999999999966
+            }
+          ]
+        },
+        {
+          "optimization": "max_overlap",
+          "status": 0,
+          "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+          "feasible": true,
+          "p_HV": 0.19999999999999998,
+          "fixedN_covariance_per_event": 0.13749999999999998,
+          "Poisson_covariance_per_mean_event_yield": 0.19999999999999998,
+          "local_VarA_times_event_yield_known_a1": 0.40000000000000013,
+          "naive_independent_Poisson_VarA_times_yield": 2.0,
+          "constraint_max_abs_residual": 0.0,
+          "dual_certificate": [
+            -0.0,
+            -0.0,
+            -1.0,
+            -1.0,
+            -0.0,
+            -0.0,
+            -0.0
+          ],
+          "dual_max_violation": 0.0,
+          "primal_dual_gap": 0.0,
+          "nonzero_event_masks": [
+            {
+              "mask_hex": "01",
+              "fired_sectors": [
+                1
+              ],
+              "probability": 0.38
+            },
+            {
+              "mask_hex": "03",
+              "fired_sectors": [
+                1,
+                2
+              ],
+              "probability": 0.265
+            },
+            {
+              "mask_hex": "05",
+              "fired_sectors": [
+                1,
+                3
+              ],
+              "probability": 0.05000000000000002
+            },
+            {
+              "mask_hex": "11",
+              "fired_sectors": [
+                1,
+                5
+              ],
+              "probability": 0.05499999999999994
+            },
+            {
+              "mask_hex": "15",
+              "fired_sectors": [
+                1,
+                3,
+                5
+              ],
+              "probability": 0.18
+            },
+            {
+              "mask_hex": "17",
+              "fired_sectors": [
+                1,
+                2,
+                3,
+                5
+              ],
+              "probability": 0.02
+            },
+            {
+              "mask_hex": "18",
+              "fired_sectors": [
+                4,
+                5
+              ],
+              "probability": 0.05
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "full_cyclic_symmetry": true,
+      "witnesses": [
+        {
+          "optimization": "min_overlap",
+          "status": 0,
+          "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+          "feasible": true,
+          "p_HV": 0.037500000000000054,
+          "fixedN_covariance_per_event": -0.024999999999999946,
+          "Poisson_covariance_per_mean_event_yield": 0.037500000000000054,
+          "local_VarA_times_event_yield_known_a1": 1.6999999999999995,
+          "naive_independent_Poisson_VarA_times_yield": 2.0,
+          "constraint_max_abs_residual": 5.551115123125783e-17,
+          "dual_certificate": [
+            -0.0,
+            -1.0,
+            -1.0,
+            -1.0,
+            0.5,
+            2.0,
+            -0.0
+          ],
+          "dual_max_violation": 0.0,
+          "primal_dual_gap": 7.632783294297951e-17,
+          "nonzero_event_masks": [
+            {
+              "mask_hex": "01",
+              "fired_sectors": [
+                1
+              ],
+              "probability": 0.0475
+            },
+            {
+              "mask_hex": "02",
+              "fired_sectors": [
+                2
+              ],
+              "probability": 0.0475
+            },
+            {
+              "mask_hex": "03",
+              "fired_sectors": [
+                1,
+                2
+              ],
+              "probability": 0.039375
+            },
+            {
+              "mask_hex": "04",
+              "fired_sectors": [
+                3
+              ],
+              "probability": 0.0475
+            },
+            {
+              "mask_hex": "05",
+              "fired_sectors": [
+                1,
+                3
+              ],
+              "probability": 0.013124999999999998
+            },
+            {
+              "mask_hex": "06",
+              "fired_sectors": [
+                2,
+                3
+              ],
+              "probability": 0.039375
+            },
+            {
+              "mask_hex": "07",
+              "fired_sectors": [
+                1,
+                2,
+                3
+              ],
+              "probability": 0.019062499999999993
+            },
+            {
+              "mask_hex": "08",
+              "fired_sectors": [
+                4
+              ],
+              "probability": 0.0475
+            },
+            {
+              "mask_hex": "0a",
+              "fired_sectors": [
+                2,
+                4
+              ],
+              "probability": 0.013124999999999998
+            },
+            {
+              "mask_hex": "0c",
+              "fired_sectors": [
+                3,
+                4
+              ],
+              "probability": 0.039375
+            },
+            {
+              "mask_hex": "0e",
+              "fired_sectors": [
+                2,
+                3,
+                4
+              ],
+              "probability": 0.019062499999999993
+            },
+            {
+              "mask_hex": "0f",
+              "fired_sectors": [
+                1,
+                2,
+                3,
+                4
+              ],
+              "probability": 0.0025
+            },
+            {
+              "mask_hex": "10",
+              "fired_sectors": [
+                5
+              ],
+              "probability": 0.0475
+            },
+            {
+              "mask_hex": "14",
+              "fired_sectors": [
+                3,
+                5
+              ],
+              "probability": 0.013124999999999998
+            },
+            {
+              "mask_hex": "15",
+              "fired_sectors": [
+                1,
+                3,
+                5
+              ],
+              "probability": 0.0034375000000000065
+            },
+            {
+              "mask_hex": "18",
+              "fired_sectors": [
+                4,
+                5
+              ],
+              "probability": 0.039375
+            },
+            {
+              "mask_hex": "1c",
+              "fired_sectors": [
+                3,
+                4,
+                5
+              ],
+              "probability": 0.019062499999999993
+            },
+            {
+              "mask_hex": "1e",
+              "fired_sectors": [
+                2,
+                3,
+                4,
+                5
+              ],
+              "probability": 0.0025
+            },
+            {
+              "mask_hex": "20",
+              "fired_sectors": [
+                6
+              ],
+              "probability": 0.0475
+            },
+            {
+              "mask_hex": "28",
+              "fired_sectors": [
+                4,
+                6
+              ],
+              "probability": 0.013124999999999998
+            },
+            {
+              "mask_hex": "2a",
+              "fired_sectors": [
+                2,
+                4,
+                6
+              ],
+              "probability": 0.0034375000000000065
+            },
+            {
+              "mask_hex": "30",
+              "fired_sectors": [
+                5,
+                6
+              ],
+              "probability": 0.039375
+            },
+            {
+              "mask_hex": "38",
+              "fired_sectors": [
+                4,
+                5,
+                6
+              ],
+              "probability": 0.019062499999999993
+            },
+            {
+              "mask_hex": "3c",
+              "fired_sectors": [
+                3,
+                4,
+                5,
+                6
+              ],
+              "probability": 0.0025
+            },
+            {
+              "mask_hex": "40",
+              "fired_sectors": [
+                7
+              ],
+              "probability": 0.0475
+            },
+            {
+              "mask_hex": "41",
+              "fired_sectors": [
+                1,
+                7
+              ],
+              "probability": 0.013124999999999998
+            },
+            {
+              "mask_hex": "45",
+              "fired_sectors": [
+                1,
+                3,
+                7
+              ],
+              "probability": 0.0034375000000000065
+            },
+            {
+              "mask_hex": "50",
+              "fired_sectors": [
+                5,
+                7
+              ],
+              "probability": 0.013124999999999998
+            },
+            {
+              "mask_hex": "51",
+              "fired_sectors": [
+                1,
+                5,
+                7
+              ],
+              "probability": 0.0034375000000000065
+            },
+            {
+              "mask_hex": "54",
+              "fired_sectors": [
+                3,
+                5,
+                7
+              ],
+              "probability": 0.0034375000000000065
+            },
+            {
+              "mask_hex": "60",
+              "fired_sectors": [
+                6,
+                7
+              ],
+              "probability": 0.039375
+            },
+            {
+              "mask_hex": "70",
+              "fired_sectors": [
+                5,
+                6,
+                7
+              ],
+              "probability": 0.019062499999999993
+            },
+            {
+              "mask_hex": "78",
+              "fired_sectors": [
+                4,
+                5,
+                6,
+                7
+              ],
+              "probability": 0.0025
+            },
+            {
+              "mask_hex": "80",
+              "fired_sectors": [
+                8
+              ],
+              "probability": 0.0475
+            },
+            {
+              "mask_hex": "81",
+              "fired_sectors": [
+                1,
+                8
+              ],
+              "probability": 0.039375
+            },
+            {
+              "mask_hex": "82",
+              "fired_sectors": [
+                2,
+                8
+              ],
+              "probability": 0.013124999999999998
+            },
+            {
+              "mask_hex": "83",
+              "fired_sectors": [
+                1,
+                2,
+                8
+              ],
+              "probability": 0.019062499999999993
+            },
+            {
+              "mask_hex": "87",
+              "fired_sectors": [
+                1,
+                2,
+                3,
+                8
+              ],
+              "probability": 0.0025
+            },
+            {
+              "mask_hex": "8a",
+              "fired_sectors": [
+                2,
+                4,
+                8
+              ],
+              "probability": 0.0034375000000000065
+            },
+            {
+              "mask_hex": "a0",
+              "fired_sectors": [
+                6,
+                8
+              ],
+              "probability": 0.013124999999999998
+            },
+            {
+              "mask_hex": "a2",
+              "fired_sectors": [
+                2,
+                6,
+                8
+              ],
+              "probability": 0.0034375000000000065
+            },
+            {
+              "mask_hex": "a8",
+              "fired_sectors": [
+                4,
+                6,
+                8
+              ],
+              "probability": 0.0034375000000000065
+            },
+            {
+              "mask_hex": "c0",
+              "fired_sectors": [
+                7,
+                8
+              ],
+              "probability": 0.039375
+            },
+            {
+              "mask_hex": "c1",
+              "fired_sectors": [
+                1,
+                7,
+                8
+              ],
+              "probability": 0.019062499999999993
+            },
+            {
+              "mask_hex": "c3",
+              "fired_sectors": [
+                1,
+                2,
+                7,
+                8
+              ],
+              "probability": 0.0025
+            },
+            {
+              "mask_hex": "e0",
+              "fired_sectors": [
+                6,
+                7,
+                8
+              ],
+              "probability": 0.019062499999999993
+            },
+            {
+              "mask_hex": "e1",
+              "fired_sectors": [
+                1,
+                6,
+                7,
+                8
+              ],
+              "probability": 0.0025
+            },
+            {
+              "mask_hex": "f0",
+              "fired_sectors": [
+                5,
+                6,
+                7,
+                8
+              ],
+              "probability": 0.0025
+            }
+          ]
+        },
+        {
+          "optimization": "max_overlap",
+          "status": 0,
+          "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+          "feasible": true,
+          "p_HV": 0.17125,
+          "fixedN_covariance_per_event": 0.10875000000000001,
+          "Poisson_covariance_per_mean_event_yield": 0.17125,
+          "local_VarA_times_event_yield_known_a1": 0.6299999999999999,
+          "naive_independent_Poisson_VarA_times_yield": 2.0,
+          "constraint_max_abs_residual": 5.551115123125783e-17,
+          "dual_certificate": [
+            -0.0,
+            -0.0,
+            -0.0,
+            -0.0,
+            0.25,
+            -1.0,
+            -0.0
+          ],
+          "dual_max_violation": 0.0,
+          "primal_dual_gap": 0.0,
+          "nonzero_event_masks": [
+            {
+              "mask_hex": "01",
+              "fired_sectors": [
+                1
+              ],
+              "probability": 0.0475
+            },
+            {
+              "mask_hex": "02",
+              "fired_sectors": [
+                2
+              ],
+              "probability": 0.0475
+            },
+            {
+              "mask_hex": "03",
+              "fired_sectors": [
+                1,
+                2
+              ],
+              "probability": 0.039375
+            },
+            {
+              "mask_hex": "04",
+              "fired_sectors": [
+                3
+              ],
+              "probability": 0.0475
+            },
+            {
+              "mask_hex": "06",
+              "fired_sectors": [
+                2,
+                3
+              ],
+              "probability": 0.039375
+            },
+            {
+              "mask_hex": "08",
+              "fired_sectors": [
+                4
+              ],
+              "probability": 0.0475
+            },
+            {
+              "mask_hex": "0c",
+              "fired_sectors": [
+                3,
+                4
+              ],
+              "probability": 0.039375
+            },
+            {
+              "mask_hex": "10",
+              "fired_sectors": [
+                5
+              ],
+              "probability": 0.0475
+            },
+            {
+              "mask_hex": "11",
+              "fired_sectors": [
+                1,
+                5
+              ],
+              "probability": 0.026249999999999996
+            },
+            {
+              "mask_hex": "13",
+              "fired_sectors": [
+                1,
+                2,
+                5
+              ],
+              "probability": 0.0071874999999999925
+            },
+            {
+              "mask_hex": "15",
+              "fired_sectors": [
+                1,
+                3,
+                5
+              ],
+              "probability": 0.015312500000000007
+            },
+            {
+              "mask_hex": "17",
+              "fired_sectors": [
+                1,
+                2,
+                3,
+                5
+              ],
+              "probability": 0.0025
+            },
+            {
+              "mask_hex": "18",
+              "fired_sectors": [
+                4,
+                5
+              ],
+              "probability": 0.039375
+            },
+            {
+              "mask_hex": "20",
+              "fired_sectors": [
+                6
+              ],
+              "probability": 0.0475
+            },
+            {
+              "mask_hex": "22",
+              "fired_sectors": [
+                2,
+                6
+              ],
+              "probability": 0.026249999999999996
+            },
+            {
+              "mask_hex": "26",
+              "fired_sectors": [
+                2,
+                3,
+                6
+              ],
+              "probability": 0.0071874999999999925
+            },
+            {
+              "mask_hex": "2a",
+              "fired_sectors": [
+                2,
+                4,
+                6
+              ],
+              "probability": 0.015312500000000007
+            },
+            {
+              "mask_hex": "2e",
+              "fired_sectors": [
+                2,
+                3,
+                4,
+                6
+              ],
+              "probability": 0.0025
+            },
+            {
+              "mask_hex": "30",
+              "fired_sectors": [
+                5,
+                6
+              ],
+              "probability": 0.039375
+            },
+            {
+              "mask_hex": "31",
+              "fired_sectors": [
+                1,
+                5,
+                6
+              ],
+              "probability": 0.0071874999999999925
+            },
+            {
+              "mask_hex": "40",
+              "fired_sectors": [
+                7
+              ],
+              "probability": 0.0475
+            },
+            {
+              "mask_hex": "44",
+              "fired_sectors": [
+                3,
+                7
+              ],
+              "probability": 0.026249999999999996
+            },
+            {
+              "mask_hex": "45",
+              "fired_sectors": [
+                1,
+                3,
+                7
+              ],
+              "probability": 0.015312500000000007
+            },
+            {
+              "mask_hex": "4c",
+              "fired_sectors": [
+                3,
+                4,
+                7
+              ],
+              "probability": 0.0071874999999999925
+            },
+            {
+              "mask_hex": "51",
+              "fired_sectors": [
+                1,
+                5,
+                7
+              ],
+              "probability": 0.015312500000000007
+            },
+            {
+              "mask_hex": "54",
+              "fired_sectors": [
+                3,
+                5,
+                7
+              ],
+              "probability": 0.015312500000000007
+            },
+            {
+              "mask_hex": "5c",
+              "fired_sectors": [
+                3,
+                4,
+                5,
+                7
+              ],
+              "probability": 0.0025
+            },
+            {
+              "mask_hex": "60",
+              "fired_sectors": [
+                6,
+                7
+              ],
+              "probability": 0.039375
+            },
+            {
+              "mask_hex": "62",
+              "fired_sectors": [
+                2,
+                6,
+                7
+              ],
+              "probability": 0.0071874999999999925
+            },
+            {
+              "mask_hex": "71",
+              "fired_sectors": [
+                1,
+                5,
+                6,
+                7
+              ],
+              "probability": 0.0025
+            },
+            {
+              "mask_hex": "80",
+              "fired_sectors": [
+                8
+              ],
+              "probability": 0.0475
+            },
+            {
+              "mask_hex": "81",
+              "fired_sectors": [
+                1,
+                8
+              ],
+              "probability": 0.039375
+            },
+            {
+              "mask_hex": "88",
+              "fired_sectors": [
+                4,
+                8
+              ],
+              "probability": 0.026249999999999996
+            },
+            {
+              "mask_hex": "89",
+              "fired_sectors": [
+                1,
+                4,
+                8
+              ],
+              "probability": 0.0071874999999999925
+            },
+            {
+              "mask_hex": "8a",
+              "fired_sectors": [
+                2,
+                4,
+                8
+              ],
+              "probability": 0.015312500000000007
+            },
+            {
+              "mask_hex": "8b",
+              "fired_sectors": [
+                1,
+                2,
+                4,
+                8
+              ],
+              "probability": 0.0025
+            },
+            {
+              "mask_hex": "98",
+              "fired_sectors": [
+                4,
+                5,
+                8
+              ],
+              "probability": 0.0071874999999999925
+            },
+            {
+              "mask_hex": "a2",
+              "fired_sectors": [
+                2,
+                6,
+                8
+              ],
+              "probability": 0.015312500000000007
+            },
+            {
+              "mask_hex": "a8",
+              "fired_sectors": [
+                4,
+                6,
+                8
+              ],
+              "probability": 0.015312500000000007
+            },
+            {
+              "mask_hex": "b8",
+              "fired_sectors": [
+                4,
+                5,
+                6,
+                8
+              ],
+              "probability": 0.0025
+            },
+            {
+              "mask_hex": "c0",
+              "fired_sectors": [
+                7,
+                8
+              ],
+              "probability": 0.039375
+            },
+            {
+              "mask_hex": "c4",
+              "fired_sectors": [
+                3,
+                7,
+                8
+              ],
+              "probability": 0.0071874999999999925
+            },
+            {
+              "mask_hex": "c5",
+              "fired_sectors": [
+                1,
+                3,
+                7,
+                8
+              ],
+              "probability": 0.0025
+            },
+            {
+              "mask_hex": "e2",
+              "fired_sectors": [
+                2,
+                6,
+                7,
+                8
+              ],
+              "probability": 0.0025
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "boundary": "All routing and selectedH/Vmeans are chosen. Published multiplicity ratios are nominal. Statistical mask distributions need not be realizable detector transport; they demonstrate aggregate insufficiency, not actual hardware overlap/Cov or polarization precision."
+}

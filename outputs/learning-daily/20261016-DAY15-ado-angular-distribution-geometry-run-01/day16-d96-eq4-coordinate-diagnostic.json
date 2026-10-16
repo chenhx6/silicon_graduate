@@ -1,0 +1,12 @@
+{
+  "frozen_input_unchanged": true,
+  "first_numeric_exit": 1,
+  "first_numeric_script_snapshot": "day16-d96-eq4-first-code.txt",
+  "first_numeric_output": "day16-d96-eq4-audit-first.json",
+  "DCO_and_analyzers_0_90_error_below": 1.1e-17,
+  "oblique_analyzer_error_max": 0.0018255956023319787,
+  "localized": "only directedpsi27/-19 components differ; unpolarized andin/perpplanespass includingmixed",
+  "coordinate_identification": "WithfixedDstarandJonesprobe[-exp(+ipsi_p)Tplus+exp(-ipsi_p)Tminus]/sqrt2, Eq1 directedanalyzer coordinate usespsi_probe=-psi_formula. Inputsourceanglesandphysicalamplitudesunchanged. This isnotanEq4fix andnotnewsourcehandedness/actualcalibration certification.",
+  "probe_mapped_maxerror": 1.0408340855860843e-17,
+  "next": "Explicitmapintheproductionbenchmarkandvalidateheldoutpaths/pure/mixed/negativephasecontrols; noinputtuning"
+}

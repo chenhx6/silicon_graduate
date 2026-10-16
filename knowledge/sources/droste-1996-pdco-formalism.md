@@ -63,6 +63,7 @@ tags: [PDCO, DCO, CLOVER, polarization, angular-correlation]
 | DR96-6 | Fig7/正文给5→4→2的作者模型例：sigma/I0=.3，DCO取0/90度、PDCO取90/90度phi0；R_DCO约.4时比较pureE1与M1+E2/arctanδ约−70°。其singles、POL-DIR、DIR-POL的P分别约(.34,.27)、(.56,.44)、(.56,.17)。无实测计数或误差，近似R/P不应混成一个精确实验点。 | author-model-calculation | direct | printed523 Sec3例；printed524 Fig7及图注 | true |
 | DR96-7 | 作者说FORTRAN代码可向作者取得；本session未得到或运行它，只做独立点响应推导。代码可得的文字声明不等于论文响应已重放。 | reproducibility-boundary | direct-and-self-audit | printed521末段–printed522首段 | true |
 | DR96-8 | Eq4 polarization系数的印刷磁项相位错误已由Starosta1999脚注公开更正：应以Tprime而非T判magnetic，即(-1)^(delta_(Tprime,M))。原件Eq4与脚注均核；作者称程序无此误，但本session未取得代码。此勘误不同于本任务delta_probe=−d_source的相对基底映射。 | published-erratum-and-use-boundary | direct-later-source-and-self-audit | printed519 Eq4；Starosta1999 printed17 footnote1 | true |
+| DR96-9 | 在本任务新设3→2→0/E2gate及2→1→0/M1gate、固定正布居/real amplitudes/point geometry中，勘误后Eq1/4/7/8与显式photon trace吻合至1.1e−17 sr^-2；原T相位pure项也通过但mixed项偏离。还需显式psi_probe=−psi_Eq1，0/90分析轴不能测试此有向坐标。非作者代码、非实际detector校准，不外推halfspin/L>2/PPCO。 | bounded-formula-implementation-audit | task-calculation | printed519 Eq1–4；printed520 Eq7–8；Starosta1999 printed17 footnote1 | true |
 
 ## Summary
 
@@ -113,3 +114,5 @@ DR96-6是**作者计算**。Fig7图注的state parities unchanged对应M1/E2曲�
 [[starosta-1999-pdco-experimental-test]] ST99-8（printed17 footnote1）将本篇Eq4的`(-1)^(delta_(T,M))`改成`(-1)^(delta_(Tprime,M))`。这改变复共轭振幅一侧的magnetic判别，不能在逐字实现原式时漏掉。作者表示其computer code没有该错误；这仍只是作者声明，本任务没有验证其producer代码。
 
 本run早前的phase worksheet用Eq3/7的directional F和独立RB/Jones photon amplitudes核对，未将原印Eq4逐字作为PDCO kernel，因此不能把该勘误事后当作早前内部坐标换号的原因，也不据此宣称重放了作者PDCO程序。当前使用者须同时保存正确公式和自己的operator/basis定义。
+
+随后按新冻结输入执行DR96-9的有界literal-formula核验，结果与失败路径保存在[[dco-pdco-ambiguity-worksheet]]的“勘误公式与有向分析轴的独立核验”。共享CG/Wigner基础函数，但tensor contraction与photon trace是不同代数路径，不是独立实验/独立原作者实现。总归一、互补分析轴之和、反射对称与两种积分阶数通过；早期斜向psi不一致被定位为固定Jones probe的有向坐标映射，未调物理角度、布居或delta。

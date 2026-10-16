@@ -75,6 +75,95 @@ Physical `P`, measured `A`, sensitivity `Q`, modulation factor `Q'`, and efficie
 
 [[aoki-1975-geli-summing-polarimeters]] is an early simultaneous-angle Ge(Li) design: a central scatterer and four analyzers measure `φ=0°,30°,60°,90°` without rotation; majority anticoincidence reduces Compton background, while the ring-reflector summing spectrometer trades efficiency for a flat low background and a practical ≈300-keV threshold.
 
+## Jones1995：标定系数、偏振误差与阈值信息
+
+[[jones-1995-clover-compton-calibration]] JO95-5纠正原有C转录：Eq4是`Q=Q′(B+CE_MeV)`，`B=.29±.03`、`C=0.0±.003 MeV^-1`，不是C中心值.003。换成keV时C sigma为3×10^-6；未给Cov(B,C)，不将边际误差独立拼成曲线置信带。C=0只使Q/Q′为常数，不让Q本身与能量无关。
+
+JO95-6的P并非从一个假定Gaussian sigma直接给定：以70%coaxial在五角度测angular distribution、CLOVER addback作monitor，用STAG拟合子态布居并做finite-angle修正；A/a由另一配置的90°/0°CLOVER及pair-trigger取得。AD与polarimetry有共同normalization/response依赖，不能只把P写成无误差外部标尺。
+
+### 已归一pureE2系数到名义P90
+
+在**pureE2、point90°、同一已归一angular coefficients**条件下，不需要另猜Gaussian布居即可写
+
+$$P_{90}=\frac{\frac32a_2+\frac58a_4}{1-\frac12a_2+\frac38a_4}.$$
+
+这里a2/a4是W/其constant的实际系数，不是maximum coefficients、核attenuation alpha或几何a。由[[droste-1996-pdco-formalism]] Eq4/8/12，pureE2的H2=−sqrt6、H4=sqrt(5/2)；`−H_k d^k_(0,2)(pi/2)`正好为3/2、5/8。比值中的共同归一抵消。mixed multipoles、finite acceptance及非轴对称输入不可直接套此式；2+→0+的triangle/parity强制E2，但5/2→1/2的相容central值不独立排除M3。
+
+令D=1−a2/2+3a4/8，则
+
+$$g_2=\frac{1.5+.875a_4}{D^2},\qquad
+g_4=\frac{.625-.875a_2}{D^2},\qquad
+\operatorname{Var}_{\rm local}P=g^T\Sigma_{a_2a_4}g.$$
+
+未知Cov不能自动取零。只固定两边际sigma时，local sigmaP必在`[||g2|s2−|g4|s4|, |g2|s2+|g4|s4]`内；这是线性化与nominal printed sigmas的条件界，不是confidence region或原STAG误差预算。
+
+| JO95 Table2核/keV | 印P(sigma) | 名义point P | 独立a2/a4时sigmaP | 任意两系数Cov的local sigma范围 |
+| --- | --- | ---: | ---: | --- |
+| 19F197 | .23(.06) | .231608 | .074248 | .046982–.093905 |
+| 109Ag415 | .39(.04) | .382772 | .030015 | .008607–.041565 |
+| 107Ag423 | .45(.04) | .452416 | .062732 | .044657–.076658 |
+| 56Fe845 | .53(.03) | .530864 | .068686 | .044353–.086420 |
+| 24Mg1368 | .99(.04) | .986696 | .013941 | .001561–.019654 |
+
+central values接近原表，但部分印sigma不在这个nominal local范围内，Mg尤为清楚。误差末位舍入、原finite-angle/normalization、STAG recipe、额外预算及非线性处理未重放，不能把此诊断升格为作者错误，也不能反推一个不存在的实际Cov。五行A/原表P的Q中央复算及仅A/P局部传播另保存；Q、P、angular coefficients是同链派生列，不增独立证据。
+
+### Qprime识别与跨标定的受限比较
+
+Jones只用文字描述Q′来自KN point scatterer、psi0/90和scatter90°，未印显式代数式。**若**识别成[[starosta-1999-pdco-experimental-test]] Eq6的`Q0=(1+x)/(1+x+x²)`，x=E/511keV，则JO95 B=.29/C=0在1368keV给Q=.098337，而Table2印.121(5)；这没有闭合normalization/fit weighting/unrounded producer，不能宣布原曲线完全重放或自行修改B。
+
+在同一有条件的Q′识别下，490keV JO95/ST99 central曲线分别.197360/.234314，比例1.187241。它们的校准targets、measurement geometry/threshold/selection不同，实际curve Cov及具体device identity未核；这个差值不是统计矛盾或某一个器件systematic原因的认定。ST99提threshold/collimator为可能解释，不是经本任务证明的因果。
+
+### 计数型figure of merit的使用条件
+
+JO95-7原Eq5是`F=Q²(Nperp+Nparallel)`，其中N是当次接受的计数，不是source报告的21%/125%相对NaI photopeak efficiency，也不自动等于其它array的absolute epsilonQ²。Fig5是同采集的离线threshold scan，点间共享事件，不能把所有点误差独立使用或仅看图指定普适最佳threshold。
+
+在a=1、known Q、无背景且条件总N固定的二项模型，`Pr(perp)=(1+QP)/2`，Fisher信息为`NQ²/(1−Q²P²)`。source F是小asymmetry时的统计信息近似；未知Q/a、背景、selection和shared calibration会降低或改变信息。这个推导不填造原Fig5计数、cut Cov或新的优化结果。
+
+[冻结输入](../../outputs/learning-daily/20261016-DAY15-ado-angular-distribution-geometry-run-01/day16-jo95-calibration-input.json) SHA-256 `c3d74a1088d3cb691571aa72a64b74d833b03180192d78fcae99abfc25163f66`，[脚本](../../system/scripts/day16_jo95_calibration_audit.py)与[完整结果](../../outputs/learning-daily/20261016-DAY15-ado-angular-distribution-geometry-run-01/day16-jo95-calibration-audit.json)核source/input/code hash；H与Jacobian独立差分核验通过。source JO95-8/9保留条件边界，未取得STAG、actualSigma、finite-response或事件；当前只L2核算/L3设计。
+
+## Simpson1983：效率分母与共享sector模式
+
+[[simpson-1983-sectored-geli-compton-polarimeter]] S83-8/10/11给出更具体的count/response边界。其Eq7保留
+
+$$\epsilon_c(E)=\left[\frac{N_\parallel+N_\perp}{2N_s}\right]_{\theta=0}\epsilon_s(E),
+\qquad F_\epsilon=Q^2\epsilon_c.$$
+
+Ns为single-crystal计数率，epsilon_s为absolute singles效率。若**就在此theta0、相同selection/曝光T和singles归一**下记`Phi_ref=Ns/epsilon_s`，纯代数给
+
+$$F_{\rm count}=Q^2T(N_\parallel+N_\perp)
+=2T\Phi_{\rm ref}F_\epsilon.$$
+
+不能漏掉2、曝光和normalization，或把Phi_ref自动认成总4π photon emission rate。Jones的90°数据还需匹配角分布/曝光，才可比count-F。S83的1.9%是对指定NaI reference的relative efficiency，不能当absolute epsilon_c；Fig2 stat<1%同时有最多10%source-strength systematics，Fig5/6 stat<2%也不提供完整Cov（S83-15）。
+
+### 同事件进入两个计数时须保留Cov
+
+对`A=(aN_perp−N_parallel)/(aN_perp+N_parallel)`，令D为分母，在known a条件的局部传播为
+
+$$\operatorname{Var}A=\frac{4a^2}{D^4}\left[
+N_\parallel^2\operatorname{Var}N_\perp+
+N_\perp^2\operatorname{Var}N_\parallel-
+2N_\perp N_\parallel\operatorname{Cov}(N_\perp,N_\parallel)\right].$$
+
+若a也拟合，还需`dA/da=2N_perp N_parallel/D²`及与counts的cross-Cov；P=A/Q再加入Q/calibration依赖。不能只从一条总多重性直方图或共同ADC推断它们独立。
+
+原Table1的60Co1.33MeV数据给n=1/2/3/≥4约38/42/18/2%，双sector约75%相邻。它与Table2 polarized calibration不是同一采集。下面只用该nominal aggregate检验统计可识别性，不从中估原beam实验实际Cov。
+
+按原Eq6的quadrants `(1,2),(3,4),(5,6),(7,8)`，本任务**选择**每orientation一个Boolean计数：V为两竖直quadrant对的OR，H为两水平对的OR。实际硬件是否双填、互斥、加权或优先路由未得；本选择不是原producer认证。另**选择**相同marginals pH=pV=.25，以加强“连两边计数均值也相同”的检验，不把.25写成观测。
+
+在全部255个非空bit patterns上，对source aggregate和chosen means作正概率LP：pHV可在0–.20；再加全部8个cyclic rotations对称，仍可在.0375–.17125。显式极端mask分布、非负/约束残差与primal–dual证书均保存。它们是统计可行witness，**未证明为真实Compton transport可实现的response**；结论限于这些汇总输入不能唯一恢复chosen routing下的joint overlap。
+
+若这个统计模型的source-event yield为Poisson lambda，则Cov(NH,NV)=lambda pHV；若总事件数固定N，则为N(pHV−pH pV)。在a=1、pH=pV=p、局部A传播下，两种情况下均有`Var(A)×yield=(p−pHV)/(2p²)`。cyclic模型两极端给1.70和.63；naive independent Poisson会给2.00。这里yield不是4π photon rate；没有actualQ，**不能**将其解释为真实P精度改善或实际paper误差修正。
+
+真正可解除歧义的下一输入是：同calibration/gate/threshold的逐事件完整sector mask、core energy/time/eventID、H/V权重与互斥策略，和background/a/Q共同误差预算。S83-13的低能单sector照射发现约5%反向电耦合脉冲，说明需保留电子串扰negative control。S83-14又说明，1369keV校准F随threshold近似平坦，不妨碍弱峰高背景在更高threshold下受益；peak/total的改变不是普适Q或epsilon。
+
+### 已知P与Qprime的伴随来源边界
+
+S83 Table2的known P由Ref6（4430keV由Ref1）采用，未在本次取得这些原文重做；Fe在3.43MeV beam下P=.57(.01)不能无条件替代Jones 3.0MeV下的P=.53(.03)。相同transition并不固定布居/alignment和P。S83的158Er应用又用naturalMo Coulomb excitation复校，不把三者统计独立性混为一谈。
+
+全文直接伴随复核没有补出Jones所缺Q′显式式或B/C producer recipe，因此JO95-9保持open；不靠再拟合B/C或堆历史response曲线消除这个归一缺口。原S83 Pt只写元素未给质量数，本次删去旧Wiki192Pt；不从记忆补另一个同位素。
+
+[冻结输入](../../outputs/learning-daily/20261016-DAY15-ado-angular-distribution-geometry-run-01/day16-s83-pattern-input.json) SHA-256 `71401a867ac26cb29d70c7be67f6aa435286aa1163754169c4404a251fcbfaca`，[脚本](../../system/scripts/day15_s83_pattern_identifiability.py)、[LP结果/证书](../../outputs/learning-daily/20261016-DAY15-ado-angular-distribution-geometry-run-01/day16-s83-pattern-identifiability.json)与S83-11保持同一chosen模型。此bounded exercise的stop contract已满足；actual sector/Cov/transport缺口仍保留。
+
 ## Sources
 
 - [[jones-2002-calibration-compton-polarimeters]]
@@ -92,3 +181,6 @@ Physical `P`, measured `A`, sensitivity `Q`, modulation factor `Q'`, and efficie
 - [[vonderwerth-1995-compton-polarimeters]]
 - [[schmid-1998-gammasphere-polarization]]
 - [[droste-1999-ppco-polarization]]
+- [[jones-1995-clover-compton-calibration]] JO95-5/6/7/8/9/10。
+- [[starosta-1999-pdco-experimental-test]] ST99-6/7/8/13。
+- [[droste-1996-pdco-formalism]] DR96-8/9；pureE2的H与分析轴约定。

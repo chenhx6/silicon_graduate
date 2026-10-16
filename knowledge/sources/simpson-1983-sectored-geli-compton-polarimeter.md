@@ -3,7 +3,7 @@ type: source
 title: "Application of a sectored Ge(Li) detector as a Compton polarimeter"
 aliases: ["Simpson 1983 sectored GeLi polarimeter", "Sectored Ge(Li) Compton polarimeter"]
 created: 2026-09-20
-updated: 2026-09-20
+updated: 2026-10-17
 status: ai-draft
 review_status: unreviewed
 source_type: method
@@ -37,7 +37,7 @@ tags: [Compton-polarimeter, sectored-GeLi, detector-response, 158Er, linear-pola
 
 - 作者：J. Simpson, P. A. Butler, L. P. Ekström。
 - 期刊：*Nuclear Instruments and Methods* 204, 463-469 (1983)。DOI：`10.1016/0167-5087(83)90074-1`。
-- 原始文件：`raw/papers/gpt/high-spin-20260920/multipolarity/angular distribution/polarizaiton/1983_Simpson et al_Application of a sectored Ge(Li) detector as a Compton polarimeter.pdf`；SHA-256：`1216684723d0b98daef22997446168c628951c1a062d8d9283ef3efc9fafa6d2`。
+- 原始文件：`raw/papers/gpt/high-spin-20260920/multipolarity/angular distribution/polarizaiton/1983_Simpson et al_Application of a sectored Ge(Li) detector as a Compton polarimeter.pdf`；SHA-256：`1216684723d0b98daef22997446168c628951c1a062d8d9283ef3efc9fafa6d9`。2026-10-17核raw与既有frontmatter一致；原正文末位d2为转录错误，已更正，未改raw。
 
 ## Scope and Reading Depth
 
@@ -62,10 +62,10 @@ tags: [Compton-polarimeter, sectored-GeLi, detector-response, 158Er, linear-pola
 ## Key Evidence and Reasoning Chain
 
 1. 1.33 MeV `60Co` 测试中，单/双 sector events 约各占 40%，相邻 sector scatter 占双 sector events 的约 75%；说明装置可获得有效 Compton coincidences（PDF p.464，Table 1）。
-2. 用已知偏振 E2 transitions（`328/356 keV` `192Pt`、`847 keV` `56Fe`、`1369 keV` `24Mg`、`1779 keV` `28Si`、`4430 keV` `12C`）标定 `Q`（PDF p.466，Table 2）。
+2. 用已知偏振 E2 transitions（`328/356 keV` Pt、`847 keV` `56Fe`、`1369 keV` `24Mg`、`1779 keV` `28Si`、`4430 keV` `12C`）标定 `Q`（PDF p.466，Table 2）。原Table2只写Pt、未给两线质量数；旧Wiki补写192Pt不受本原件支持，现保留isotope边界。P由Ref6采用，4430一项由Ref1采用，并非本篇独立重测所有P。
 3. 配置 C 的 `εc` 最大，配置 B 的 `Q` 最高且接近典型三 Ge(Li) polarimeter；配置 A/C 的 `Q` 约为 B 的一半。提高 sector threshold 可升高 `Q` 但降低效率（PDF pp.466-467，Figs.5-8）。
 4. 配置 C 在 `1.33 MeV`、250 mm 时的 `εc≈1.9%`（相对 76×76 mm NaI），其 `F` 约为典型三 Ge(Li) polarimeter 的 `1.5` 倍；F 对 threshold 近似不变，因为 Q 增益抵消效率损失（PDF pp.467-468，Fig.9）。
-5. 在 `158Er` 应用中用配置 C 测量 yrast/side-band γ 线，Table 3 给出 `P(90°)`；ground-band 192、334、443、523、579、608 keV 线约为 `0.36-0.66`，938 keV 线约 `0.10`（PDF pp.468-469，Table 3）。
+5. 在 `158Er` 应用中用配置 C 测量 yrast/side-band γ 线，Table 3 给出 `P(90°)`；标g的192/334/443/523/579/608keV六线central范围为`.36–.59`，`.66(.24)`属于未标g的236keV，938keV为`.10(.08)`。旧摘要把.66并入ground-band范围，现按原标签纠正（printed468 Table3）。
 
 ## Summary
 
@@ -85,6 +85,17 @@ tags: [Compton-polarimeter, sectored-GeLi, detector-response, 158Er, linear-pola
 | S83-2 | `A=QP`，`P`、`A` 和 `Q` 分别表示物理偏振、计数不对称和探测器灵敏度。 | method-definition | direct | PDF p.464，式 (1)-(3) | false |
 | S83-3 | 配置 B 的 polarization sensitivity 最高；配置 C 的 coincidence efficiency 最高，且 `F=Q²εc` 在 1.33 MeV 约为典型三 Ge(Li) polarimeter 的 1.5 倍。 | detector-result | direct | PDF pp.466-468，Figs.5-9 | false |
 | S83-4 | `158Er` application 用配置 C 测得多条 yrast/side-band γ 线的 `P(90°)`。 | experimental-result | direct | PDF pp.468-469，Table 3 | false |
+| S83-5 | 实际raw及frontmatter SHA-256末位为d9，旧正文写d2是转录错误；本次核同一7页原件后只纠正正文，没有覆盖raw或改变来源身份。 | source-integrity-transcription-correction | direct-file-audit | raw SHA-256 1216684723d0b98daef22997446168c628951c1a062d8d9283ef3efc9fafa6d9 | true |
+| S83-6 | Table2对328/356keV只标Pt，未列isotope；旧Wiki的192Pt不受本文原件支持。本次删去该质量数，不从记忆另指认核素。 | isotope-label-boundary | direct-and-self-audit | printed466 Table2 | true |
+| S83-7 | Table3带g标签的六线192/334/443/523/579/608keV central P范围.36–.59；.66(.24)属于未标g的236keV。旧ground-band范围上限纠正，不新增能级或结构指认。 | row-label-transcription-correction | direct-and-self-audit | printed468 Table3 | true |
+| S83-8 | Eq7的epsilon_c=[(Nparallel+Nperp)/(2Ns)]_theta0 epsilon_s，保留分母2和singles normalization；Eq8 F=Q²epsilon_c。与Jones1995的计数型F之间须带曝光/相同normalization，不能仅因同叫F或epsilon就直接换数。 | efficiency-and-merit-definition | direct-and-algebraic-synthesis | printed466 Eq7；printed467 Eq8 | true |
+| S83-9 | Table2的已知P来自Ref6，4430keV来自Ref1；56Fe847keV在3.43MeV proton下取P=.57(.01)，不是Jones1995 3.0MeV/845标签的同一alignment校准数据。相同E2核线不保证相同P或独立systematics。 | calibration-dependence-and-population | direct-and-cross-source-synthesis | printed466 Table2 footnote；printed469 references | true |
+| S83-10 | 60Co1.33MeV单gamma的sector multiplicities报告n1/2/3/≥4约38/42/18/2%，双sector中约75%为相邻；这是Table1的该源采集，不是Table2 polarized events的实际mask/Cov。 | event-identity-and-multiplicity | direct | printed464 Table1 andfollowingparagraph | true |
+| S83-11 | 在明确chosen Boolean configurationC、额外chosen pH=pV=.25、将Table1百分数作nominal约束时，统计mask LP给pHV范围0–.20；加全部8个cyclic rotations对称后仍.0375–.17125，primal/dual证书通过。此非实际transport/routing/Cov或polarization精度；只示汇总约束不能唯一恢复该模型joint overlap。 | bounded-event-pattern-identifiability | task-statistical-model | printed464 Table1；printed465 Eq6 Fig3 | true |
+| S83-12 | 全7页及Eq1–8/Fig1–11复核未找到Jones1995所缺的explicit Qprime algebra或其B/C fit recipe；本篇只给自身Q配置/标定。直接伴随来源未闭合JO95-9，不能自由改B/C假作复现。 | direct-companion-scope-boundary | direct-fulltext-scope-audit | printed463–469 fullmainline；printed467 Fig8 | true |
+| S83-13 | 低能241Am只照单sector时邻sector出现约5%反向脉冲、fall约100ns，被归为电耦合而非Compton；discriminator前不能因放大链微分造成false coincidences。 | instrumental-failure-control | direct | printed465 Fig4 anddiscussion | true |
+| S83-14 | Fig9的1369keV计数条件下F随threshold近似不变；但作者另报54Mn peak/total从60到300keV提升40%，因此弱峰/高背景可受益于更高threshold。不能把校准F平坦扩展为任何背景下均无收益。 | counter-evidence-to-universal-threshold-rule | direct | printed467 Fig9；printed468 firsttwoparagraphs | true |
+| S83-15 | Fig2 epsilon_s点stat<1%仍有source-strength最多10%的systematics；Fig5/6 epsilon_c点stat<2%不等于总误差或跨能量独立。未给完整normalization Cov。 | uncertainty-budget-boundary | direct-and-self-audit | printed464 Fig2caption；printed466 Fig5/6captions | true |
 
 ## Nuclear Structure Information
 
@@ -157,3 +168,13 @@ tags: [Compton-polarimeter, sectored-GeLi, detector-response, 158Er, linear-pola
 ## Non-source Notes and Follow-up
 
 - 下一步：将 S83 的历史 detector-response baseline 与 HS-009/HS-016 等后续 polarimeter sources 比较，追踪 Q/F/threshold 如何演化。
+
+## 2026-10-17原件复核：效率分母、事件模式与标定谱系
+
+在已读旧Wiki摘录的primed回忆冻结后，完整读7页printed463–469，核raw/frontmatter hash并视觉查printed463–469的Fig1–11、Eq1–8及Table1–3。旧S83-1–4逐字/flags与page review保留，新5–15 true，未新增human review。
+
+这次取用目的为RDCO/delta双解所需polarization reference的response/normalization合同，不重新研究158Er结构。原source的正文hash末位、Pt质量数及g标签范围错误按上表更正；没有新核素页面、raw改写或新能级赋值。
+
+[[compton-polarimetry]]的“Simpson1983：效率分母与共享sector模式”保存Eq7到count-F的精确代数转换、known-a asymmetry Cov式、typed Boolean mask LP及inputs/hash/dual证书。Table1多重性只提供aggregate constraints，actualelectronics对同事件H/V双触发的处理未给；由model witness不能声称已测到该paper Cov。
+
+JO95-9的Qprime/producer问题在直接伴随文献中仍未闭合；继续叠加历史Q(E)曲线不能替代其unrounded normalization/fit recipe。S83本身多线calibration P又采用既有来源，158Er应用另用naturalMo Coulomb excitation复校，三种证据身份分开。需真正改变当前判断的下一输入是matched event masks/路由、background/calibration Σ及producer recipe，不是同数据的又一个ratio。

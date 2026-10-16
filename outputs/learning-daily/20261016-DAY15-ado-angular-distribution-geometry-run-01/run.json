@@ -50,7 +50,7 @@
   "active_recall_sha256": "91eee8abb4bce71d0447617b1d5cb0d64240259115b9522a012963872cb25c67",
   "continuation_prompt": "/workspace/wiki/outputs/learning-daily/20261016-DAY15-ado-angular-distribution-geometry-run-01/continuation.md",
   "research_checkpoint": "/workspace/wiki/outputs/learning-daily/20261016-DAY15-ado-angular-distribution-geometry-run-01/research-checkpoint.json",
-  "last_agent_checkpoint_at": "2026-10-17T04:29:01.258945+08:00",
+  "last_agent_checkpoint_at": "2026-10-17T05:01:09.757637+08:00",
   "agent_goal_state": "active",
   "publications": [
     {
@@ -100,6 +100,14 @@
       "commit_hash": "dbe235dd82ed01347d0094f461fdbf236f1793fc",
       "status": "checkpoint-pushed",
       "receipt": "outputs/learning-daily/20261016-DAY15-ado-angular-distribution-geometry-run-01/publication-006.json"
+    },
+    {
+      "checkpoint": 7,
+      "branch": "main",
+      "subject": "Correct PDCO calibration transcriptions and audit printed fit tables",
+      "commit_hash": "15cbdfee7c30862c9620a5b36b3ea35dcc4423e5",
+      "status": "checkpoint-pushed",
+      "receipt": "outputs/learning-daily/20261016-DAY15-ado-angular-distribution-geometry-run-01/publication-007.json"
     }
   ],
   "formal_day15_card_audit": "complete",
@@ -120,12 +128,12 @@
     "run_window_complete": false
   },
   "study_window_status": "active-partial16",
-  "latest_verification": "outputs/learning-daily/20261016-DAY15-ado-angular-distribution-geometry-run-01/verification-prepublication-007.json",
+  "latest_verification": "outputs/learning-daily/20261016-DAY15-ado-angular-distribution-geometry-run-01/verification-prepublication-008.json",
   "agent_clock_observation": {
-    "clock_tool_UTC": "2026-10-16 20:31:51 UTC",
-    "now_local": "2026-10-17T04:31:51+08:00",
+    "clock_tool_UTC": "2026-10-16 20:59:29 UTC",
+    "now_local": "2026-10-17T04:59:29+08:00",
     "hard_deadline": "2026-10-17T15:00:00+08:00",
-    "minutes_to_deadline": 628.15,
+    "minutes_to_deadline": 600.5166666666667,
     "decision": "continue",
     "kind": "manual agent observation, not scheduler event"
   }

@@ -1,0 +1,229 @@
+{
+  "identity": "DAY16-PREVIEW-D96-EQ4-ERRATUM-COEFFICIENT-AUDIT-01",
+  "frozen_at": "2026-10-17T04:35:47.575449+08:00",
+  "session_id": "01a14510-aec7-7e00-aa23-f7c77a5124bc",
+  "scope": "source-informed verification of corrected D96Eq4+Eq1 versus independent photon amplitudes, not repeatold5/4/2inversemodel or actualPDCO refit",
+  "sources": [
+    {
+      "path": "knowledge/sources/droste-1996-pdco-formalism.md",
+      "locator": "DR96-8"
+    },
+    {
+      "path": "knowledge/sources/starosta-1999-pdco-experimental-test.md",
+      "locator": "ST99-8"
+    }
+  ],
+  "source_native_phase": "Eq4 uses(-1)^delta_(Tprime,M); retain originalT sign onlyasnegativecontrol. Direct photon coordinates use(-1)^L per native amplitude fromalreadyderivedRBmap, nottunedtofitthisoutput.",
+  "models": [
+    {
+      "spins": [
+        3,
+        2,
+        0
+      ],
+      "gate_kind": "E",
+      "gate_L": 2,
+      "population_weights": [
+        1,
+        2,
+        4,
+        6,
+        4,
+        2,
+        1
+      ]
+    },
+    {
+      "spins": [
+        2,
+        1,
+        0
+      ],
+      "gate_kind": "M",
+      "gate_L": 1,
+      "population_weights": [
+        1,
+        3,
+        5,
+        3,
+        1
+      ]
+    }
+  ],
+  "first_transition_cases": [
+    {
+      "label": "pureM1",
+      "components": [
+        [
+          "M",
+          1,
+          1.0
+        ]
+      ]
+    },
+    {
+      "label": "pureE1_other_parity",
+      "components": [
+        [
+          "E",
+          1,
+          1.0
+        ]
+      ]
+    },
+    {
+      "label": "pureE2",
+      "components": [
+        [
+          "E",
+          2,
+          1.0
+        ]
+      ]
+    },
+    {
+      "label": "mixed_d+.3",
+      "components": [
+        [
+          "M",
+          1,
+          1.0
+        ],
+        [
+          "E",
+          2,
+          0.3
+        ]
+      ]
+    },
+    {
+      "label": "mixed_d-.3",
+      "components": [
+        [
+          "M",
+          1,
+          1.0
+        ],
+        [
+          "E",
+          2,
+          -0.3
+        ]
+      ]
+    },
+    {
+      "label": "mixed_d+1.7",
+      "components": [
+        [
+          "M",
+          1,
+          1.0
+        ],
+        [
+          "E",
+          2,
+          1.7
+        ]
+      ]
+    }
+  ],
+  "geometry_columns": [
+    "theta1_deg",
+    "theta2_deg",
+    "phi2_minus_phi1_deg"
+  ],
+  "geometries": [
+    [
+      37,
+      63,
+      41
+    ],
+    [
+      90,
+      90,
+      180
+    ],
+    [
+      121,
+      44,
+      -67
+    ],
+    [
+      73,
+      142,
+      113
+    ]
+  ],
+  "modes": [
+    {
+      "q1": 0,
+      "q2": 0,
+      "psi1_deg": 0,
+      "psi2_deg": 0
+    },
+    {
+      "q1": 1,
+      "q2": 0,
+      "psi1_deg": 0,
+      "psi2_deg": 0
+    },
+    {
+      "q1": 1,
+      "q2": 0,
+      "psi1_deg": 90,
+      "psi2_deg": 0
+    },
+    {
+      "q1": 1,
+      "q2": 0,
+      "psi1_deg": 27,
+      "psi2_deg": 0
+    },
+    {
+      "q1": 0,
+      "q2": 1,
+      "psi1_deg": 0,
+      "psi2_deg": 0
+    },
+    {
+      "q1": 0,
+      "q2": 1,
+      "psi1_deg": 0,
+      "psi2_deg": 90
+    },
+    {
+      "q1": 0,
+      "q2": 1,
+      "psi1_deg": 0,
+      "psi2_deg": -19
+    }
+  ],
+  "units": {
+    "input_angles": "degree",
+    "W": "per sr^2",
+    "P": "dimensionless"
+  },
+  "chosen_and_not_experimental": [
+    "spins/paths",
+    "populations",
+    "multipoles/realamplitudes",
+    "pointgeometries",
+    "analyzerangles"
+  ],
+  "excluded": [
+    "bothpolarizedPPCO",
+    "half-integers",
+    "L>2",
+    "productioncode",
+    "actualarrayresponse/events/Cov",
+    "delta/sigma optimization",
+    "new nuclearJpi/mode"
+  ],
+  "stop_contract": [
+    "firstvalidateangularfunctions/fullrankrange/normalization",
+    "fixedinputs, nochangephysicalparamsifmismatch",
+    "recordfirstfailure, debugonlyliteralformula/geometry",
+    "comparecorrectedversusoriginalEq4andpure/mixedcontrols",
+    "stopboundedcoefficientauditoncecorrected/directconvergeorunresolvedboundaryislocalized"
+  ]
+}

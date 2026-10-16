@@ -8,17 +8,15 @@ updated: 2026-10-17
 
 ## Active handoff — DAY15 card complete, study window active
 
-Run2026-10-16-day-15-01/session01a14510-aec7-7e00-aa23-f7c77a5124bc，原2026-10-17 15:00上海研究截止/15–16收束不改。Goal/run仍active；formal15只计一次、state next16/count15，completed[15]/partial[16]，不授16/不开17。publication001–006已实际H3非force Gitee push/remoteHEAD核，exacthash仅receipt。
+Run2026-10-16-day-15-01/session01a14510-aec7-7e00-aa23-f7c77a5124bc，原2026-10-17 15:00上海研究截止、15–16收束不改。Goal/run仍active；formal15只计一次，next16/count15，completed15/partial16；不授16/不开17。publication001–007实际H3非force Gitee push/remoteHEAD核，exacthash只在receipt。
 
-Day15 ADO/Zheng/共享Cov/finitejoint/GRIFFIN/eventmixing及partial16 D96/KS/KF/RB约定、135Pr A/P/SH26版本/SE21条件校准、MS74primary和boundedM3均已canonical；actualevents/producer/response/Σ仍not-ready，原raw/旧review保持。
+本批008：已读D96 Eq4勘误作new3/2/0与2/1/0 literalEq1核验，显式psi坐标map后corrected/direct1.1e−17，原印T phase pure通过/mixed失败，fixedinput未改；failure和snapshot保留，stopcontractmet。JO95五页更正C=0±.003MeV^-1，P90/Jacobian/nominalCov界与Qprime识别未闭合。S83七页更正正文hash/Pt虚补质量数/g范围；epsilon_c分母2Ns、采用P谱系、串扰/背景反证、typedBooleanmask LP仅证aggregate不足以识别Cov，非actualtransport。三boundedexercise均停止，不重跑旧toy加分。
 
-本批pending007完整核ST99原11页：纠正旧核素/反应为164Yb/126Ba/114Cd/118Sn，Q指数10^-5；记录1999footnote对D96Eq4 magneticphase用Tprime非T的公开勘误，与内部delta坐标映射分开。原ST99-1..4/flags保留，新5..13和DR96-8 true。原表13行按式7/NDF复算，Table2 15+行108.911451不等原79.5，chosenroundingbox92.2430–132.7572仍不闭合；只立replayboundary不判作者错误。chosenCov可翻Table3候选排序，不是actualSigma。647共同E1类别仍有11−/9−；同647DCO校准sigma不得独立prior双算。alpha_κ预测保留壳层定义缺口。
+当前30唯一writeback/33mappedpaths/30changed，17rawhash、7脚本hash/12组旧review与保护文件fresh通过；lint0error/146warning，boundary/preflight/diff0，EOL1为5ownsubstantive/0unsafe。全部science已canonical，actualproducer/response/events/Σ仍not-ready，无newJpi/δ/mode。
 
-输入v1误填一项原文未给647 integratedA，已在任何numeric前删为冻结v2，纠正记录/首版保留且首版不下游使用。数值脚本day16_st99_table_replay.py、canonical note st99-pdco-calibration-table-replay.md，当前28writebackitems待fresh验收。
+检查点008已提交，稳定指针main / `Verify PDCO erratum and polarimeter calibration response boundaries`，actualH3/push只看publication008。20:59:29UTC距原deadline600.52min；下一高信息route为NNDC/ENSDF当前164Yb490/647分支，查独立ICC/spin依据和原始sourcekeys。尚未访问，先冻结primed查询预测，不把adopted标签或理论CC写新实验；沿用已知NNDC POST表单，不重试已知404/IAEA403旧路径。Goal/window不在checkpoint收束。
 
-检查点007已提交，稳定指针main / `Correct PDCO calibration transcriptions and audit printed fit tables`；actualH3/push只看publication007。Resume `codex resume 01a14510-aec7-7e00-aa23-f7c77a5124bc -C /workspace/wiki -s danger-full-access -a never`。下一boundedroute核已读D96Eq4勘误与独立polarizationamplitudes，尚未实现，不开新卡。保持原截止，不在checkpoint结束。
-
-保护PLAN/Bib/原raw/review/继承receipts/daemon/credentials/旧log；exactmanifest，log只HEAD+ownappend，tasklocal publish_checkpoint.py可复用H3。无待等process，不重试未变403/OSTI/CurateND失败。最终closeout才一次对账overview，不滚动刷统计。
+Resume `codex resume 01a14510-aec7-7e00-aa23-f7c77a5124bc -C /workspace/wiki -s danger-full-access -a never`。保护PLAN/Bib/原raw/review/credentials/继承receipts/daemon/旧log；explicitmanifest，log只HEAD+ownappend；一次unpublished reconciliation后freshH3非force HEAD:main。最终closeout才一次overview对账。无待等研究process。
 
 ## Previous active handoff — DAY14 completed after authorized extension
 

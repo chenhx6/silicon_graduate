@@ -1,0 +1,217 @@
+{
+  "identity": "DAY16-PREVIEW-JO95-PRINTED-CALIBRATION-AND-UNCERTAINTY-01",
+  "input_sha256": "c3d74a1088d3cb691571aa72a64b74d833b03180192d78fcae99abfc25163f66",
+  "script_sha256": "822bf686ad5773485bbf7b00f2b3b7bd42a7ef20512341e721aba01706a7cf1a",
+  "raw_sha256_verified": "8d2cf5ee101d9f3109f6663269fa62f9d6a829e432e05db2502252bf5b132460",
+  "pureE2_D96_H_coefficients": {
+    "2": -2.449489742783178,
+    "4": 1.5811388300841898
+  },
+  "P90_numerator_coefficients": {
+    "2": 1.4999999999999998,
+    "4": 0.6250000000000003
+  },
+  "max_analytic_vs_numeric_Jacobian_error": 1.0024742147507482e-10,
+  "rows": [
+    {
+      "nucleus": "19F",
+      "E_keV": 197.0,
+      "Ji": "5/2+",
+      "Jf": "1/2+",
+      "source_a2": 0.15,
+      "source_a4": -0.02,
+      "source_P": 0.23,
+      "source_sigma_P": 0.06,
+      "pureE2_point_P": 0.23160762942779287,
+      "dP_da2_da4": [
+        1.761094075982448,
+        0.5865363912420464
+      ],
+      "sigmaP_independent_coefficient_model": 0.0742479875305637,
+      "nominal_sigmaP_any_pair_covariance_interval": [
+        0.04698230738961606,
+        0.09390521868897977
+      ],
+      "source_sigmaP_within_nominal_pair_interval": true,
+      "A_over_source_P": 0.33478260869565213,
+      "source_Q": 0.34,
+      "source_sigma_Q": 0.09,
+      "sigmaQ_independent_A_P_model": 0.09400617587263783,
+      "nominal_sigmaQ_any_A_P_covariance_interval": [
+        0.05255198487712664,
+        0.12211720226843098
+      ]
+    },
+    {
+      "nucleus": "109Ag",
+      "E_keV": 415.0,
+      "Ji": "5/2-",
+      "Jf": "1/2-",
+      "source_a2": 0.232,
+      "source_a4": -0.02,
+      "source_P": 0.39,
+      "source_sigma_P": 0.04,
+      "pureE2_point_P": 0.3827723901882487,
+      "dP_da2_da4": [
+        1.9297047291433247,
+        0.5492987492063967
+      ],
+      "sigmaP_independent_coefficient_model": 0.03001452485106738,
+      "nominal_sigmaP_any_pair_covariance_interval": [
+        0.008607199002671321,
+        0.041565123955055114
+      ],
+      "source_sigmaP_within_nominal_pair_interval": true,
+      "A_over_source_P": 0.26410256410256405,
+      "source_Q": 0.27,
+      "source_sigma_Q": 0.03,
+      "sigmaQ_independent_A_P_model": 0.02896417599423193,
+      "nominal_sigmaQ_any_A_P_covariance_interval": [
+        0.0168310322156476,
+        0.03734385272846811
+      ]
+    },
+    {
+      "nucleus": "107Ag",
+      "E_keV": 423.0,
+      "Ji": "5/2-",
+      "Jf": "1/2-",
+      "source_a2": 0.27,
+      "source_a4": -0.03,
+      "source_P": 0.45,
+      "source_sigma_P": 0.04,
+      "pureE2_point_P": 0.4524158125915081,
+      "dP_da2_da4": [
+        2.0219126281648654,
+        0.5333459095498501
+      ],
+      "sigmaP_independent_coefficient_model": 0.06273220609582847,
+      "nominal_sigmaP_any_pair_covariance_interval": [
+        0.044657001558450454,
+        0.07665775613144146
+      ],
+      "source_sigmaP_within_nominal_pair_interval": false,
+      "A_over_source_P": 0.19777777777777777,
+      "source_Q": 0.2,
+      "source_sigma_Q": 0.02,
+      "sigmaQ_independent_A_P_model": 0.01969968089136116,
+      "nominal_sigmaQ_any_A_P_covariance_interval": [
+        0.008691358024691355,
+        0.02646913580246913
+      ]
+    },
+    {
+      "nucleus": "56Fe",
+      "E_keV": 845.0,
+      "Ji": "2+",
+      "Jf": "0+",
+      "source_a2": 0.32,
+      "source_a4": -0.08,
+      "source_P": 0.53,
+      "source_sigma_P": 0.03,
+      "pureE2_point_P": 0.5308641975308642,
+      "dP_da2_da4": [
+        2.179545800944978,
+        0.5258344764517604
+      ],
+      "sigmaP_independent_coefficient_model": 0.06868610444024083,
+      "nominal_sigmaP_any_pair_covariance_interval": [
+        0.04435299497027892,
+        0.08641975308641975
+      ],
+      "source_sigmaP_within_nominal_pair_interval": false,
+      "A_over_source_P": 0.16792452830188678,
+      "source_Q": 0.167,
+      "source_sigma_Q": 0.012,
+      "sigmaQ_independent_A_P_model": 0.012137045621345901,
+      "nominal_sigmaQ_any_A_P_covariance_interval": [
+        0.0019579921680313262,
+        0.017052331790672833
+      ]
+    },
+    {
+      "nucleus": "24Mg",
+      "E_keV": 1368.0,
+      "Ji": "2+",
+      "Jf": "0+",
+      "source_a2": 0.55,
+      "source_a4": -0.43,
+      "source_P": 0.99,
+      "source_sigma_P": 0.04,
+      "pureE2_point_P": 0.98669623059867,
+      "dP_da2_da4": [
+        3.535872488335849,
+        0.4523084940585344
+      ],
+      "sigmaP_independent_coefficient_model": 0.013941116806157706,
+      "nominal_sigmaP_any_pair_covariance_interval": [
+        0.0015614475838368596,
+        0.019653787346178238
+      ],
+      "source_sigmaP_within_nominal_pair_interval": false,
+      "A_over_source_P": 0.12222222222222222,
+      "source_Q": 0.121,
+      "source_sigma_Q": 0.005,
+      "sigmaQ_independent_A_P_model": 0.005793898765046154,
+      "nominal_sigmaQ_any_A_P_covariance_interval": [
+        0.0019079685746352408,
+        0.007968574635241303
+      ]
+    }
+  ],
+  "central_curves": [
+    {
+      "E_keV": 197,
+      "Q_ideal": 0.9031220902802567,
+      "JO95_central_if_Qprime_equals_KN90": 0.26190540618127445,
+      "ST99_printed_central_Q": 0.29242190161184434,
+      "ST99_over_JO95": 1.1165172413793103,
+      "legacy_JO95_C_as_mean_control": 0.26243915133663004
+    },
+    {
+      "E_keV": 415,
+      "Q_ideal": 0.7331545325381812,
+      "JO95_central_if_Qprime_equals_KN90": 0.21261481443607252,
+      "ST99_printed_central_Q": 0.24857604425707033,
+      "ST99_over_JO95": 1.169137931034483,
+      "legacy_JO95_C_as_mean_control": 0.21352759182908257
+    },
+    {
+      "E_keV": 423,
+      "Q_ideal": 0.7273267571163192,
+      "JO95_central_if_Qprime_equals_KN90": 0.21092475956373255,
+      "ST99_printed_central_Q": 0.24700743998427316,
+      "ST99_over_JO95": 1.1710689655172415,
+      "legacy_JO95_C_as_mean_control": 0.2118477372185132
+    },
+    {
+      "E_keV": 490,
+      "Q_ideal": 0.6805528391681336,
+      "JO95_central_if_Qprime_equals_KN90": 0.19736032335875872,
+      "ST99_printed_central_Q": 0.2343143425255884,
+      "ST99_over_JO95": 1.187241379310345,
+      "legacy_JO95_C_as_mean_control": 0.1983607360323359
+    },
+    {
+      "E_keV": 845,
+      "Q_ideal": 0.4924982639641605,
+      "JO95_central_if_Qprime_equals_KN90": 0.14282449654960655,
+      "ST99_printed_central_Q": 0.18180573414236983,
+      "ST99_over_JO95": 1.2729310344827585,
+      "legacy_JO95_C_as_mean_control": 0.1440729796487557
+    },
+    {
+      "E_keV": 1368,
+      "Q_ideal": 0.3390914584122789,
+      "JO95_central_if_Qprime_equals_KN90": 0.09833652293956087,
+      "ST99_printed_central_Q": 0.1375897501653663,
+      "ST99_over_JO95": 1.3991724137931036,
+      "legacy_JO95_C_as_mean_control": 0.09972815428488487
+    }
+  ],
+  "C_mean_per_MeV": 0.0,
+  "C_sigma_per_MeV": 0.003,
+  "C_sigma_per_keV": 3e-06,
+  "Qprime_identification_boundary": "JO95 describes KN pointscatterer/analyzers90deg but does not print an explicit Qprime algebraic formula. Equating it to ST99Eq6 KN90 form is the declared analytical identification in this comparison. With that identification, B=.29,C=0 gives .098337 at1368, unlike printedTable2Q=.121; no normalization/producer/fit-recipe closure is claimed.",
+  "boundary": "Nominal local-Jacobian covariance enclosures are not confidence regions or actual uncertainty budgets. Source STAG/acceptance and nonlinear treatment not replayed. Central curves differ across calibration identities; no p-value or causal attribution."
+}

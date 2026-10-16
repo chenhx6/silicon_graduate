@@ -1,0 +1,135 @@
+{
+  "identity": "DAY16-PREVIEW-JO95-PRINTED-CALIBRATION-AND-UNCERTAINTY-01",
+  "frozen_at": "2026-10-17T04:43:31.677953+08:00",
+  "session_id": "01a14510-aec7-7e00-aa23-f7c77a5124bc",
+  "source": "knowledge/sources/jones-1995-clover-compton-calibration.md",
+  "raw_file": "raw/papers/gpt/high-spin-20260920/multipolarity/angular distribution/polarizaiton/1995_Jones et al_Calibration of the new composite “clover” detector as a Compton polarimeter for.pdf",
+  "raw_sha256": "8d2cf5ee101d9f3109f6663269fa62f9d6a829e432e05db2502252bf5b132460",
+  "locator": "printed560 Table2 Eq4/5; printed557 Eq1–3; printed558 Fig2/3; printed559 Fig4/5",
+  "priming": "Full5pageoriginalandkeypixelsread; correctedCcentralalreadyknown. Inputbeforecode, notblindreplication.",
+  "table_columns": [
+    "nucleus",
+    "E_keV",
+    "Ji",
+    "Jf",
+    "a2",
+    "a4",
+    "P",
+    "A",
+    "Q"
+  ],
+  "rows": [
+    [
+      "19F",
+      "197",
+      "5/2+",
+      "1/2+",
+      "0.15(4)",
+      "-0.02(4)",
+      "0.23(6)",
+      "0.077(8)",
+      "0.34(9)"
+    ],
+    [
+      "109Ag",
+      "415",
+      "5/2-",
+      "1/2-",
+      "0.232(13)",
+      "-0.02(3)",
+      "0.39(4)",
+      "0.103(4)",
+      "0.27(3)"
+    ],
+    [
+      "107Ag",
+      "423",
+      "5/2-",
+      "1/2-",
+      "0.27(3)",
+      "-0.03(3)",
+      "0.45(4)",
+      "0.089(4)",
+      "0.20(2)"
+    ],
+    [
+      "56Fe",
+      "845",
+      "2+",
+      "0+",
+      "0.32(3)",
+      "-0.08(4)",
+      "0.53(3)",
+      "0.089(4)",
+      "0.167(12)"
+    ],
+    [
+      "24Mg",
+      "1368",
+      "2+",
+      "0+",
+      "0.550(3)",
+      "-0.43(2)",
+      "0.99(4)",
+      "0.121(3)",
+      "0.121(5)"
+    ]
+  ],
+  "Qfit": {
+    "B": "0.29(3)",
+    "C_per_MeV": {
+      "mean": 0.0,
+      "sigma": 0.003
+    },
+    "energy_unit": "MeV",
+    "Cov_B_C": "not supplied",
+    "legacy_wiki_C_mean_negative_control": 0.003
+  },
+  "setup": {
+    "polarimeter_angle_deg": 90,
+    "a_calibration_angle_deg": 0,
+    "distribution_angles_deg": [
+      90,
+      60,
+      45,
+      30,
+      0
+    ],
+    "offline_segment_threshold_keV": 60,
+    "AND_trigger_polarimetry": "anypair",
+    "OR_trigger_normalization": "oneormore",
+    "P_method": "STAGfittedsubstatepopulationsandfiniteanglecorrection; productioncode/notebooknotobtained"
+  },
+  "pure_E2_point_replay": {
+    "formula": "(1.5*a2+0.625*a4)/(1-0.5*a2+0.375*a4)",
+    "assumption": "Nominalpoint90/E2 replay; Fe/Mg2+->0+forcesE2bytriangle; F/Ag5/2->1/2couldallowM3butnotfit/testadmixturehere",
+    "coefficient_errors": "Quotedmarginals treatedasnominalsigma forlocalJacobianCauchyrange; noactualCovinferred, nofullnonlinear/acceptancerefitorauthorerrorverdict"
+  },
+  "cross_source_comparison": {
+    "source": "knowledge/sources/starosta-1999-pdco-experimental-test.md",
+    "locator": "ST99-6",
+    "energies_keV": [
+      197,
+      415,
+      423,
+      490,
+      845,
+      1368
+    ],
+    "ST99_Qfit_B": 0.31,
+    "ST99_slope_per_keV": 7e-05,
+    "interpretation": "centralcurvecomparisonatmatchedenergyonly; differentcalibrationtargets/geometry/thresholds andunknownCov, notastatisticalcontradiction"
+  },
+  "threshold_F": {
+    "source_definition": "F=Q^2*(Nperp+Nparallel), notabsolutepolarimetryefficiency",
+    "not_obtained": [
+      "rawcountsversusthreshold",
+      "cross-thresholdCov",
+      "productionselection",
+      "Cov_a2_a4",
+      "Cov_A_P",
+      "Cov_B_C"
+    ],
+    "no_digitized_Fig5_peak_or_newoptimum": true
+  }
+}

@@ -125,6 +125,14 @@ Cieplicka2012目前只有meta，publisherPDF/acceptedAM403，OSTIAPI/record Conn
 - ST99-9/11（printed20 Fig4、printed23 Eq7、printed24 Table3 footnote、printed25 Table4）核五点NDF和依赖：647的同一RDCO参与sigma/I=.26(5)校准，不能独立prior双算；Table4选择共同|ΔI|=1 E1类别仍有11−/9−，不是PDCO唯一spin指认。
 - ST99-12（printed20–21 Sec4、printed26结论）保留alpha_κ=.012/.033为两候选理论预测，未补total/K-shell定义或伪作测量；≥4ns是strength/Weisskopf估算，Doppler/flight反证不是直接寿命结果。
 
+### Day16 reference续段：Jones1995与Simpson1983完整原件
+
+两次均先冻结注明已见旧Wiki的primed回忆，再分别完整读5页/7页原件；[JO95覆盖](20261016-DAY15-ado-angular-distribution-geometry-run-01/day16-jo95-reading-coverage.json)与[S83覆盖](20261016-DAY15-ado-angular-distribution-geometry-run-01/day16-s83-reading-coverage.json)记录实际Eq/图表/边界。直接入口为[JO95 source](../../knowledge/sources/jones-1995-clover-compton-calibration.md) JO95-5–10和[S83 source](../../knowledge/sources/simpson-1983-sectored-geli-compton-polarimeter.md) S83-5–15。JO95 Crossref核DOI10.1016/0168-9002(95)00246-4/题名/卷页作者，正文仍取原件。
+
+JO95 printed560 Eq4为B=.29±.03、C=0±.003 MeV^-1，旧Wiki误把C不确定度当中心值；两配置/五角AD/STAG/finite-angle、60keV cut及count-F逐量核。S83直接伴随全文未补出JO95所缺Q′显式式或producer recipe，故其跨文献归一识别仍open；不能自行再拟合B/C宣称重放。
+
+S83 printed466 Eq7 epsilon_c分母是2Ns；printed464 Table1的60Co多重性不是Table2 beamcal events。旧正文hash末位d2（frontmatter/raw真实d9）、不受Table2支持的192Pt、Table3 ground-band范围混入236keV的.66已纠正，均保留baseline和旧S83-1–4/flags。不创建新核素页。P参考采用Ref6/Ref1、不同beam下Fe alignment、electronic crosstalk、source-strength systematics及weak-background反证均由新原子claims保留。
+
 ## Theory/analysis exercise
 
 ### 新ADO计算单
@@ -273,6 +281,24 @@ KF Table1还直接限制“sameL则R1”：nonstretched L2/L2可为.66/.57；其
 
 另声明chosen四P等相关、RDCO独立的Sigma，rho=−.2/0/.2/.5/.8，保持printed marginal errors、全部正定，矩阵逆与common/contrast解析分解一致。Table3两保留候选在rho0时1.406481/.786767，rho.8时3.004560/3.920744，排序可翻转；这是未知off-diagonal可能重要的设计反例，非actualSigma、置信检验或新拟合。integrated P不加作第六独立点，alpha_κ的独立匹配转换观测优先于继续改写同数据ratio。
 
+### 已发表Eq4勘误与斜向分析轴的有界核验
+
+新冻结[输入](20261016-DAY15-ado-angular-distribution-geometry-run-01/day16-d96-eq4-audit-input.json) hash `95fd2ebfb8e20eb006ad7bde1e4bb4d8969389b65bffa936d978f8fec54d685d`，选择3→2→0/E2gate及2→1→0/M1gate的正布居、pure/mixed real振幅和固定几何；不是再跑旧5→4→2或actualresponse。[脚本](../../system/scripts/day16_d96_eq4_erratum_audit.py)将勘误Eq1/4/7/8逐项tensor contraction与photon trace比较，共享CG/Wigner primitives，不称独立作者实现或实验。
+
+第一次rank0非法投影调用在生成numeric前exit1，局部zero guard修复；首轮numeric又因oblique analyzer坐标exit1，但DCO/psi0/90已匹配。保留[原结果](20261016-DAY15-ado-angular-distribution-geometry-run-01/day16-d96-eq4-audit-first.json)与code snapshot，显式识别固定Jones的psi_probe=−psi_Eq1，未改冻结physical inputs；[最终结果](20261016-DAY15-ado-angular-distribution-geometry-run-01/day16-d96-eq4-audit.json)exit0，max差1.04084e−17 sr^-2，normalization/互补sum/反射通过。原T phase pure也通过，mixed差可达.00142805；chosen2→1→0/d1.7/90,90,phi180的P为corrected .16164223、原式.80047168。范围仅integer/real/L≤2/单polarimeter，不外推135Pr/PPCO/实际global axes。canonical [DCO worksheet](../../knowledge/methods/dco-pdco-ambiguity-worksheet.md#勘误公式与有向分析轴的独立核验)和DR96-9保留两类坐标/勘误失败控制；stop contract已满足。
+
+### JO95的P90、误差预算及Qprime识别
+
+[冻结输入](20261016-DAY15-ado-angular-distribution-geometry-run-01/day16-jo95-calibration-input.json) hash `c3d74a1088d3cb691571aa72a64b74d833b03180192d78fcae99abfc25163f66`；[脚本](../../system/scripts/day16_jo95_calibration_audit.py)/[结果](20261016-DAY15-ado-angular-distribution-geometry-run-01/day16-jo95-calibration-audit.json)最终exit0（初次仅NumPy bool输出编码exit1，修复无改physics）。从pureE2的H2/H4得到point90的P=(1.5a2+.625a4)/(1−.5a2+.375a4)，五行central约.231608/.382772/.452416/.530864/.986696；解析Jacobian与差分一致。若printed sigmas为精确nominals，Mg的任意两系数Cov只能给local sigmaP .001561–.019654，原P sigma=.04；原STAG/finite-angle/额外预算与非线性未重放，只记参数层边界，不能判作者错误/推actualCov。
+
+若将JO95未显式印式的Q′识别为标准KN90/ST99 Eq6，则其central B/C在1368keV给.098337，原Table2为.121(5)，normalization/fit recipe没有闭合。相同有条件识别下490keV JO95/ST99为.197360/.234314；不同calibration identity/geometry/threshold与Cov未知，不能作统计矛盾。全部五行、H/Jacobian、count-F/Fisher的适用条件及直接S83未闭合结果均写[Compton方法](../../knowledge/methods/compton-polarimetry.md#jones1995标定系数偏振误差与阈值信息)。
+
+### S83 sector模式：汇总多重性不足以识别共享Cov
+
+先沿原Eq7保留epsilon_c=[(Nparallel+Nperp)/(2Ns)]_theta0 epsilon_s，故仅在相同normalization/cuts/曝光T下，count-F=2T(Ns/epsilon_s)×efficiency-F。两者单位/分母不同，不能同名直接换值，也不把Ns/epsilon_s称总4π photon rate。已推known-a asymmetry的Cov传播，含sharedcount负交叉项；未知a/Q再补相应cross-Cov。
+
+新[输入](20261016-DAY15-ado-angular-distribution-geometry-run-01/day16-s83-pattern-input.json) hash `71401a867ac26cb29d70c7be67f6aa435286aa1163754169c4404a251fcbfaca`固定source名义38/42/18/2%及相邻double75%，另**chosen**Boolean routing与pH=pV=.25。255非空mask上一次[LP](../../system/scripts/day15_s83_pattern_identifiability.py)给pHV 0–.20，加8foldcyclic后仍.0375–.17125；[显式witness与primal/dual证书](20261016-DAY15-ado-angular-distribution-geometry-run-01/day16-s83-pattern-identifiability.json)exit0。它们是统计可行分布，未证明真实transport或原electronics routing；只证aggregate不唯一识别该模型joint overlap。原Table1的60Co事件不混成calibration beam events，不报告actualP精度。canonical [Compton方法](../../knowledge/methods/compton-polarimetry.md#simpson1983效率分母与共享sector模式)保存全部数值/推导/反证和下一matched per-event输入合同；此bounded模型停止，不加grid填窗口。
+
 ### Thematic REFLECT：响应、约定、候选与证据依赖
 
 [canonical worksheet反思矩阵](../../knowledge/methods/dco-pdco-ambiguity-worksheet.md#thematic-reflect比值响应与参数的使用门)综合Zheng/Gri/D96/KS70/KF：两角信息不足、efficiency与fullresponse分层、pure/reference对mixedphase的盲区、sameR/近似point的身份以及derived列与实际独立数据分开。它修正方法合同，不给新A130模式结论。下一原件核验仍可检查Rose–Brink literal definition/原dataset Cov边界，只有partial16，不打开17。
@@ -294,7 +320,7 @@ KF Table1还直接限制“sameL则R1”：nonstretched L2/L2可为.66/.57；其
 
 ## Durable knowledge delta
 
-已实际新增[ADO两路校验与共享校准Cov](../../knowledge/methods/ado-covariance-calibration.md)，保存完整chosen输入、等价族、解析Jacobian、共享sideband矩阵、效率latent模型、数值、换门/finite-cone边界与复算入口；来源原子入口为Z02-6/9。Zheng source新增Z02-10并保持旧flags；[角分布方法页](../../knowledge/methods/angular-distribution.md#误差传播与可识别性)和index已给反向入口。新增[event-mixing统计方法](../../knowledge/methods/event-mixing-statistics.md)保存完整证明、概率、数值和退化/弱分母边界；source软件补充给SG19-16/17的版本/hash/NDA缺口。可复用内容的唯一副本不在outputs。
+已实际新增[ADO两路校验与共享校准Cov](../../knowledge/methods/ado-covariance-calibration.md)，保存完整chosen输入、等价族、解析Jacobian、共享sideband矩阵、效率latent模型、数值、换门/finite-cone边界与复算入口；来源原子入口为Z02-6/9。Zheng source新增Z02-10并保持旧flags；[角分布方法页](../../knowledge/methods/angular-distribution.md#误差传播与可识别性)和index已给反向入口。新增[event-mixing统计方法](../../knowledge/methods/event-mixing-statistics.md)保存完整证明、概率、数值和退化/弱分母边界；source软件补充给SG19-16/17的版本/hash/NDA缺口。可复用内容的唯一副本不在outputs。后续D96勘误/oblique分析轴benchmark、JO95 P90/误差预算、S83效率分母与typed事件模式可识别性也已分别写入DCO worksheet/Compton方法及来源页；published原值、失败路径和所有scope边界保留。
 
 ```knowledge-writeback
 {
@@ -467,7 +493,7 @@ KF Table1还直接限制“sameL则R1”：nonstretched L2/L2可为.66/.57；其
     },
     {
       "knowledge": "knowledge/sources/droste-1996-pdco-formalism.md",
-      "summary": "完整重读8页，补注册DOI及4π/上游U传播、a/F相位输入、Fig7作者模型/无实际Cov与FORTRAN未取得边界，保留旧flags。；新增DR96-8及Starosta脚注的Eq4磁项相位勘误，与实现基底映射分开。",
+      "summary": "完整重读8页，补注册DOI及4π/上游U传播、a/F相位输入、Fig7作者模型/无实际Cov与FORTRAN未取得边界，保留旧flags。；新增DR96-8及Starosta脚注的Eq4磁项相位勘误，与实现基底映射分开。；新增DR96-9的有界literalEq4/完整Eq1核验，保留psi坐标失败/修正及scope，不声称原程序。",
       "anchor": "2026-10-17原件复核：完整主线、模式与相位坐标",
       "sources": [
         {
@@ -489,12 +515,16 @@ KF Table1还直接限制“sameL则R1”：nonstretched L2/L2可为.66/.57；其
         {
           "path": "knowledge/sources/starosta-1999-pdco-experimental-test.md",
           "locator": "ST99-8"
+        },
+        {
+          "path": "knowledge/sources/droste-1996-pdco-formalism.md",
+          "locator": "DR96-9"
         }
       ]
     },
     {
       "knowledge": "knowledge/methods/dco-pdco-ambiguity-worksheet.md",
-      "summary": "新增D96整数点模型的exact同R双根、source近似点交叉表与probe/source F坐标核验；无实测RDCO、全局文献转换或Day16学分。 追加KS70 actualcorrected数据双根/矩形preimage/单位依赖、两原式BM桥、KF比值标签及跨source反思矩阵。；补核RB Eq3.39逐振幅归一及KS Eq5的初态spin因子，闭合绝对width和相邻ratio符号。；联结真实164Yb五点/标定/残余分支，并分开已发表Eq4勘误与内部坐标映射。",
+      "summary": "新增D96整数点模型的exact同R双根、source近似点交叉表与probe/source F坐标核验；无实测RDCO、全局文献转换或Day16学分。 追加KS70 actualcorrected数据双根/矩形preimage/单位依赖、两原式BM桥、KF比值标签及跨source反思矩阵。；补核RB Eq3.39逐振幅归一及KS Eq5的初态spin因子，闭合绝对width和相邻ratio符号。；联结真实164Yb五点/标定/残余分支，并分开已发表Eq4勘误与内部坐标映射。；写新3/2/0与2/1/0的勘误/oblique分析轴核验、原式pure通过mixed失败及固定输入复现边界。",
       "anchor": "精确同R双根与近似source点分开",
       "sources": [
         {
@@ -548,6 +578,10 @@ KF Table1还直接限制“sameL则R1”：nonstretched L2/L2可为.66/.57；其
         {
           "path": "knowledge/sources/starosta-1999-pdco-experimental-test.md",
           "locator": "ST99-9"
+        },
+        {
+          "path": "knowledge/sources/droste-1996-pdco-formalism.md",
+          "locator": "DR96-9"
         }
       ]
     },
@@ -1119,7 +1153,7 @@ KF Table1还直接限制“sameL则R1”：nonstretched L2/L2可为.66/.57；其
     },
     {
       "knowledge": "knowledge/methods/compton-polarimetry.md",
-      "summary": "加入正确Q指数与原NORDBALL→18polarimeter移用限制，联结五点重放/实际Sigma与647自旋边界。",
+      "summary": "加入正确Q指数与原NORDBALL→18polarimeter移用限制，联结五点重放/实际Sigma与647自旋边界。；新增JO95 C误差/pointP/JacobianCov界/Qprime未闭合与S83效率分母/countF转换、sectorBooleanLP可识别性/真实Σ缺口。",
       "anchor": "2026-10-17原件补核",
       "sources": [
         {
@@ -1133,6 +1167,136 @@ KF Table1还直接限制“sameL则R1”：nonstretched L2/L2可为.66/.57；其
         {
           "path": "knowledge/sources/starosta-1999-pdco-experimental-test.md",
           "locator": "ST99-11"
+        },
+        {
+          "path": "knowledge/sources/jones-1995-clover-compton-calibration.md",
+          "locator": "JO95-5"
+        },
+        {
+          "path": "knowledge/sources/jones-1995-clover-compton-calibration.md",
+          "locator": "JO95-6"
+        },
+        {
+          "path": "knowledge/sources/jones-1995-clover-compton-calibration.md",
+          "locator": "JO95-8"
+        },
+        {
+          "path": "knowledge/sources/jones-1995-clover-compton-calibration.md",
+          "locator": "JO95-9"
+        },
+        {
+          "path": "knowledge/sources/simpson-1983-sectored-geli-compton-polarimeter.md",
+          "locator": "S83-8"
+        },
+        {
+          "path": "knowledge/sources/simpson-1983-sectored-geli-compton-polarimeter.md",
+          "locator": "S83-10"
+        },
+        {
+          "path": "knowledge/sources/simpson-1983-sectored-geli-compton-polarimeter.md",
+          "locator": "S83-11"
+        },
+        {
+          "path": "knowledge/sources/simpson-1983-sectored-geli-compton-polarimeter.md",
+          "locator": "S83-12"
+        },
+        {
+          "path": "knowledge/sources/simpson-1983-sectored-geli-compton-polarimeter.md",
+          "locator": "S83-13"
+        },
+        {
+          "path": "knowledge/sources/simpson-1983-sectored-geli-compton-polarimeter.md",
+          "locator": "S83-14"
+        },
+        {
+          "path": "knowledge/sources/simpson-1983-sectored-geli-compton-polarimeter.md",
+          "locator": "S83-15"
+        },
+        {
+          "path": "knowledge/sources/droste-1996-pdco-formalism.md",
+          "locator": "DR96-9"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/sources/jones-1995-clover-compton-calibration.md",
+      "summary": "原件五页纠正C中心/误差，核两步P/AD标定、P90和误差预算，保留Qprime normalization/fit recipe未闭合。",
+      "anchor": "2026-10-17原件回核：C误差、两步标定与point映射边界",
+      "sources": [
+        {
+          "path": "knowledge/sources/jones-1995-clover-compton-calibration.md",
+          "locator": "JO95-5"
+        },
+        {
+          "path": "knowledge/sources/jones-1995-clover-compton-calibration.md",
+          "locator": "JO95-6"
+        },
+        {
+          "path": "knowledge/sources/jones-1995-clover-compton-calibration.md",
+          "locator": "JO95-7"
+        },
+        {
+          "path": "knowledge/sources/jones-1995-clover-compton-calibration.md",
+          "locator": "JO95-8"
+        },
+        {
+          "path": "knowledge/sources/jones-1995-clover-compton-calibration.md",
+          "locator": "JO95-9"
+        },
+        {
+          "path": "knowledge/sources/jones-1995-clover-compton-calibration.md",
+          "locator": "JO95-10"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/sources/simpson-1983-sectored-geli-compton-polarimeter.md",
+      "summary": "原件七页纠正正文hash/Pt质量数/g标签范围，记录效率2Ns分母、标定参考/背景反证和sector-mask/Cov可识别性边界。",
+      "anchor": "2026-10-17原件复核：效率分母、事件模式与标定谱系",
+      "sources": [
+        {
+          "path": "knowledge/sources/simpson-1983-sectored-geli-compton-polarimeter.md",
+          "locator": "S83-5"
+        },
+        {
+          "path": "knowledge/sources/simpson-1983-sectored-geli-compton-polarimeter.md",
+          "locator": "S83-6"
+        },
+        {
+          "path": "knowledge/sources/simpson-1983-sectored-geli-compton-polarimeter.md",
+          "locator": "S83-7"
+        },
+        {
+          "path": "knowledge/sources/simpson-1983-sectored-geli-compton-polarimeter.md",
+          "locator": "S83-8"
+        },
+        {
+          "path": "knowledge/sources/simpson-1983-sectored-geli-compton-polarimeter.md",
+          "locator": "S83-9"
+        },
+        {
+          "path": "knowledge/sources/simpson-1983-sectored-geli-compton-polarimeter.md",
+          "locator": "S83-10"
+        },
+        {
+          "path": "knowledge/sources/simpson-1983-sectored-geli-compton-polarimeter.md",
+          "locator": "S83-11"
+        },
+        {
+          "path": "knowledge/sources/simpson-1983-sectored-geli-compton-polarimeter.md",
+          "locator": "S83-12"
+        },
+        {
+          "path": "knowledge/sources/simpson-1983-sectored-geli-compton-polarimeter.md",
+          "locator": "S83-13"
+        },
+        {
+          "path": "knowledge/sources/simpson-1983-sectored-geli-compton-polarimeter.md",
+          "locator": "S83-14"
+        },
+        {
+          "path": "knowledge/sources/simpson-1983-sectored-geli-compton-polarimeter.md",
+          "locator": "S83-15"
         }
       ]
     }
@@ -1156,7 +1320,7 @@ L0完成Zheng主线；L1把source/方法/observable连通；L2完成有输入/ha
 
 计算脚本实际exit0；PSD、解析/数值梯度、独立ordered-pair、共同scale抵消、不可识别族和200000次MC均通过。图的panel alignment、glyph（minimum7pt）和collision（0fail/0warn）通过；source validator最终exit0、0fail，保留4项warning：仅交付PNG预览而非TIFF投稿栅格、300非600dpi、通用demo警告和MC/uncertainty模式误报。前两项符合本日报SVG/PDF+预览合同；后两项由显著自设标识及直接画sigma解释，不虚报实验。首次source audit的export/DPI失败及修正保留于[figure QA](20261016-DAY15-ado-angular-distribution-geometry-run-01/figure-qa.json)。
 
-首轮仓库lint实际exit1（本次新method缺5个固定英文schema标题，且inline数组被当wikilink），已修复并重跑exit0、0error/145warning（3reaction parser、114citation key、28既有raw slots）；全局diff exit0。新增GRIFFIN source后fresh lint实际exit0、0error/146warning（3reaction parser、115citation key、28既有raw slots）；boundary/diff/preflight exit0。EOL exit1按治理规则分类为4份本次substantive知识改动、0unsafe/mixed，均保留。实际runner report/writeback/partial curriculum校验通过，[检查回执](20261016-DAY15-ado-angular-distribution-geometry-run-01/prepublication-checks-002.json)和[同session续接](20261016-DAY15-ado-angular-distribution-geometry-run-01/continuation.md)已保存。检查点稳定指针：main / `Establish DAY15 ADO covariance and independent response evidence`，H3/push结果只写run receipt。首批44-path检查点的H3 fresh fetch/ancestry/dry-run/non-force push均exit0，实际结果见[发布回执](20261016-DAY15-ado-angular-distribution-geometry-run-01/publication-001.json)。新增统计与软件补充的fresh boundary/lint/diff均exit0、lint0error/146warning，截至检查点002的七页writeback实际runner验收通过；当前二十八项writeback已由run入口snapshot验证（verification-checkpoint-003-expanded.json），覆盖十三份canonical页；检查点002稳定指针：main / `Extend DAY15 event-mixing statistics and audit formal card completion`，actual H3/push只看publication002。原15:00研究截止不变，formal15完成与window仍active分开。
+首轮仓库lint实际exit1（本次新method缺5个固定英文schema标题，且inline数组被当wikilink），已修复并重跑exit0、0error/145warning（3reaction parser、114citation key、28既有raw slots）；全局diff exit0。新增GRIFFIN source后fresh lint实际exit0、0error/146warning（3reaction parser、115citation key、28既有raw slots）；boundary/diff/preflight exit0。EOL exit1按治理规则分类为4份本次substantive知识改动、0unsafe/mixed，均保留。实际runner report/writeback/partial curriculum校验通过，[检查回执](20261016-DAY15-ado-angular-distribution-geometry-run-01/prepublication-checks-002.json)和[同session续接](20261016-DAY15-ado-angular-distribution-geometry-run-01/continuation.md)已保存。检查点稳定指针：main / `Establish DAY15 ADO covariance and independent response evidence`，H3/push结果只写run receipt。首批44-path检查点的H3 fresh fetch/ancestry/dry-run/non-force push均exit0，实际结果见[发布回执](20261016-DAY15-ado-angular-distribution-geometry-run-01/publication-001.json)。新增统计与软件补充的fresh boundary/lint/diff均exit0、lint0error/146warning，截至检查点002的七页writeback实际runner验收通过；当前三十项writeback已由run入口snapshot验证（verification-checkpoint-003-expanded.json），覆盖十三份canonical页；检查点002稳定指针：main / `Extend DAY15 event-mixing statistics and audit formal card completion`，actual H3/push只看publication002。原15:00研究截止不变，formal15完成与window仍active分开。
 
 ### Day 15 card completion audit
 
@@ -1168,7 +1332,7 @@ L0完成Zheng主线；L1把source/方法/observable连通；L2完成有输入/ha
 | 不确定度与图 | [敏感性SVG](20261016-DAY15-ado-angular-distribution-geometry-run-01/ado-covariance-sensitivity.svg)、[figure QA](20261016-DAY15-ado-angular-distribution-geometry-run-01/figure-qa.json)，解析/MC与chosen Cov见计算JSON；原Fig1不作实验sigma | complete |
 | convention注记 | 本日报逐项表，source Z02-6/9/10及canonical方法页 | complete |
 | 反证与必要观测 | [换门/有限几何控制](../../knowledge/methods/ado-covariance-calibration.md#换门与有限几何的失败控制)；[SG19-6](../../knowledge/sources/smith-2019-griffin-angular-correlation-analysis.md#key-results) PDF7 Fig3的已知pure-E2反证及逐pair/E-M companion | complete |
-| 知识/检查/续接/receipt/发布 | 唯一writeback（截至检查点002七项，当前二十八项）、[fresh checks](20261016-DAY15-ado-angular-distribution-geometry-run-01/verification-checkpoint-002-extended.json)、[continuation](20261016-DAY15-ado-angular-distribution-geometry-run-01/continuation.md)、[run receipt](20261016-DAY15-ado-angular-distribution-geometry-run-01/run.json)、[首批实际H3/push](20261016-DAY15-ado-angular-distribution-geometry-run-01/publication-001.json)；[次日独立入口](prompts/20261017-DAY16-dco-rdco-mixing-ratio-convention.md) | complete |
+| 知识/检查/续接/receipt/发布 | 唯一writeback（截至检查点002七项，当前三十项）、[fresh checks](20261016-DAY15-ado-angular-distribution-geometry-run-01/verification-checkpoint-002-extended.json)、[continuation](20261016-DAY15-ado-angular-distribution-geometry-run-01/continuation.md)、[run receipt](20261016-DAY15-ado-angular-distribution-geometry-run-01/run.json)、[首批实际H3/push](20261016-DAY15-ado-angular-distribution-geometry-run-01/publication-001.json)；[次日独立入口](prompts/20261017-DAY16-dco-rdco-mixing-ratio-convention.md) | complete |
 
 本表七行均已complete；依据本session实际交付与首批H3发布计Day15，Day14的partial15/成绩/脚本不授本日学分。新增扩展研究继续按其实际检查/发布执行，不将本卡完成当整个研究时段结束。
 
@@ -1200,3 +1364,5 @@ CERN150008后续有界访问实际返回bot-verification页面，未取得正文
 检查点006 fresh核验通过：[verification-prepublication-006](20261016-DAY15-ado-angular-distribution-geometry-run-01/verification-prepublication-006.json)。boundary/preflight/lint/diff均exit0，lint0error/146warning（115citation key、28raw slots、3reaction parser）；EOL exit1为8项own substantive/0unsafe保留。25项writeback/28mappedpaths/25changed、14mapped来源main raw hash、三组script/input/output hash、九组旧source rows/页review、原spinobservable/project人审正文、PLAN/Bib/daemon均通过。已通过图文件未变，沿用带hash的QA，不重新渲染充数。本批已提交，稳定指针：main / `Validate primary angular tables and reference-multipole boundaries`；actual H3/push仅publication006，studywindow仍active，下一Starosta1999原始实验路线不计新卡。
 
 检查点007 fresh验证实际通过：[verification-prepublication-007](20261016-DAY15-ado-angular-distribution-geometry-run-01/verification-prepublication-007.json)。boundary/preflight/lint/diff均exit0，lint0error/146warnings（115citationkey、28rawslots、3reactionparser）；EOL exit1为5项ownsubstantive/0unsafe保留。唯一writeback28项/31mappedpaths/28changed、15来源rawhash、4组script/input/outputhash及10组旧source rows/review/原人审正文/PLAN/Bib/daemon通过。首轮lint exit1因新note缺7个固定schema标题，补充实际Assumptions/Transfer/Failure/Reverse/Review/History等后重跑exit0，失败回执保留。本批已提交，稳定指针main / `Correct PDCO calibration transcriptions and audit printed fit tables`；actualH3/push只看publication007。04:31:51clock距原截止628.15min，研究window/goal仍active，无formal16/17。
+
+检查点008 fresh检查实际通过：[verification-prepublication-008](20261016-DAY15-ado-angular-distribution-geometry-run-01/verification-prepublication-008.json)。boundary/preflight/lint/diff均exit0，lint0error/146warning（115citationkey、28rawslots、3reactionparser）；EOL exit1为5份ownsubstantive/0unsafe保留。唯一writeback30项/33mappedpaths/30changed，17来源rawhash、7组script/input/outputhash、12组旧source rows/page review、原人审正文/PLAN/Bib/daemon均通过；新三脚本dependency哈希/版本及首轮D96 code snapshot见method-audit-executions。旧图hash未变，沿用已过QA。本批已提交，稳定指针main / `Verify PDCO erratum and polarimeter calibration response boundaries`，actualH3/push只看publication008。20:59:29UTC clock距原上海15:00截止600.52min，candidate pool仍有实际164Yb evaluated-data/独立转换谱系路线，继续，不因局部模型停止而closeout。
