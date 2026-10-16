@@ -401,3 +401,8 @@ CPL2010 128I四页primary现已读，新增source保留Channel轴/roughly14%与D
 ## DAY14原课程迁移043的priming
 
 13项假设domain审计把H0/H2的条件唯一与genericM1(+E2)族分开；dipole不默等stretched，captureallowedset的衍生表达不重复计独立data。扩展必要集合6/7不等J7匹配实际RADO，仍需sharedparent/gate/δ/response/Cov判别；parentEx-tag也不自动测spin。正式Day15记录priming后独立执行本卡，不能沿用这些checks当正式成绩/提前信用。
+
+
+## DAY14原课程迁移044的priming
+
+23项CG/photon纯L1commonparentbaseline给条件a2比例−13/8/sign判据；source中心不满足该特殊H7baseline，但正marginalboxwitness存在、differentpostselection可破坏关系，不作actual排除或新spin。实际δ/gates/finiteQ/fADO/Σ仍需输入，pairbaseline没fit58/全feeding。正式Day15记录priming、独立回忆/按本卡执行，不借这些checks加分/提前信用。

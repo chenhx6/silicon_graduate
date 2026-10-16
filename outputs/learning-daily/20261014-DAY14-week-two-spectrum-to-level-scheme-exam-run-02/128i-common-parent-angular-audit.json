@@ -1,0 +1,183 @@
+{
+  "kind": "conditional common-parent pureL1 radiation constraint, no actual angular fit",
+  "checks": {
+    "source_primary_hash": true,
+    "source_reaction_hash": true,
+    "7to6_positive_normalized_CG_emission_weights": true,
+    "7to6_unoriented_radiation_isotropic": true,
+    "7to6_positive_angular_functions_at_declared_points": true,
+    "7to7_positive_normalized_CG_emission_weights": true,
+    "7to7_unoriented_radiation_isotropic": true,
+    "7to7_positive_angular_functions_at_declared_points": true,
+    "all_Mi_exact_opposite_coefficient_relation": true,
+    "m0_complete_alignment_coefficients": true,
+    "positive_population_ranges": true,
+    "backward37_symmetric_even_rank": true,
+    "ratio_positive_denominators_and_monotonicity": true,
+    "inverse_ratio_roundtrip": true,
+    "printed_centers_violate_opposite_sign_necessary_condition": true,
+    "same_sequence_also_not_exact_central_equality": true,
+    "chosen_parent_densities_strictly_positive_normalized": true,
+    "nonzero_common_density_witness_coefficients": true,
+    "chosen_H7_pair_inside_quoted_marginal_box": true,
+    "chosen_H6_pair_inside_same_marginal_box": true,
+    "common_density_opposite_ratio_signs": true,
+    "different_postselection_breaks_necessary_sign_relation": true,
+    "no_actual_gate_delta_Cov_or_full_three_line_fit": true
+  },
+  "check_count": 23,
+  "passed": true,
+  "inputs": {
+    "kind": "conditional pureL1 commonparent angularbaseline, not actualRADO fit",
+    "source_primary": {
+      "path": "raw/papers/degree dissertation/丁兵 - 博士论文.pdf",
+      "sha256": "ca7765ad962ea0c106791532f5a7d9f359533d25bb0170f03197bfec414be5c7"
+    },
+    "source_reaction": {
+      "path": "tmp/day14-20261014/nndc128i/li7-reaction.ens",
+      "sha256": "126efa18a375524a26f26d62a32be280c663b3db3f470a9b9e5db94690b28114",
+      "datasetcheck": "128053024,128I",
+      "response_sha256": "2fc295d1340b476c102d28cbe0b58aab33d1fefc1348bad3ce607a9a7e6a80d4"
+    },
+    "parent_spin_twice": 14,
+    "daughter_anchor_twice": 12,
+    "daughter_counterexample_twice": 14,
+    "point_angles_deg": [
+      37,
+      90,
+      143
+    ],
+    "source_R314_center": ".91",
+    "source_R314_quoted_halfwidth": ".15",
+    "source_R255_center": ".92",
+    "source_R255_quoted_halfwidth": ".20",
+    "chosen_m0_plus_uniform_weight": "1/10",
+    "conditions": [
+      "two pureL1 transitions; delta0 chosen not measured",
+      "same diagonalparentdensity and feeding",
+      "no extra gate or matchedselection; f_ADO=1",
+      "pointdetectors at source nominalangle; correct efficiency/groupnormalization"
+    ],
+    "actual_perline_gate_ids": null,
+    "actual_mixing_ratios": null,
+    "actual_detector_response": null,
+    "actual_covariance": null,
+    "actual58_parent_distribution": null,
+    "full_three_line_fit": false,
+    "spin_reassignment": null,
+    "chosen_failure_case": "allow distinct positive postselecteddensity at the same parent for different gates: one m0-mixture, other symmetricabs(m)=7mixture; not actualgate reconstruction"
+  },
+  "point_geometry": {
+    "P2S": 0.45672801686274933,
+    "P2L": -0.5
+  },
+  "exact_coefficient_scale": "-13/8",
+  "radiation_a2_by_parent_Mi": {
+    "J7to6": [
+      "1/2",
+      "2/7",
+      "19/182",
+      "-4/91",
+      "-29/182",
+      "-22/91",
+      "-53/182",
+      "-4/13",
+      "-53/182",
+      "-22/91",
+      "-29/182",
+      "-4/91",
+      "19/182",
+      "2/7",
+      "1/2"
+    ],
+    "J7to7": [
+      "-13/16",
+      "-13/28",
+      "-19/112",
+      "1/14",
+      "29/112",
+      "11/28",
+      "53/112",
+      "1/2",
+      "53/112",
+      "11/28",
+      "29/112",
+      "1/14",
+      "-19/112",
+      "-13/28",
+      "-13/16"
+    ]
+  },
+  "complete_alignment_a2": {
+    "J7to6": "-4/13",
+    "J7to7": "1/2"
+  },
+  "printed_center_control": {
+    "a314": -0.09871364961415734,
+    "a255": -0.08726688671933258,
+    "H7_a255_if_314_center": 0.16040968062300567,
+    "H7_R255_if_314_center": 1.16685066670715,
+    "H6_exact_center_equality": false,
+    "actual_hypothesis_exclusion": false
+  },
+  "chosen_positive_parent_density": [
+    "3/50",
+    "3/50",
+    "3/50",
+    "3/50",
+    "3/50",
+    "3/50",
+    "3/50",
+    "4/25",
+    "3/50",
+    "3/50",
+    "3/50",
+    "3/50",
+    "3/50",
+    "3/50",
+    "3/50"
+  ],
+  "marginal_box_witness": {
+    "a314": "-2/65",
+    "a255_H7": "1/20",
+    "R314": 0.9710082419132501,
+    "R255_H7": 1.0490629752237308,
+    "R255_H6": 0.9710082419132501,
+    "confidence_interpretation": null,
+    "full_three_line_fit": false
+  },
+  "chosen_different_postselection": {
+    "other_density": [
+      "11/100",
+      "3/50",
+      "3/50",
+      "3/50",
+      "3/50",
+      "3/50",
+      "3/50",
+      "3/50",
+      "3/50",
+      "3/50",
+      "3/50",
+      "3/50",
+      "3/50",
+      "3/50",
+      "11/100"
+    ],
+    "a255": "-13/160",
+    "R255": 0.9253005151999055,
+    "actual_gate_effect_claimed": false
+  },
+  "actual_angular_likelihood_comparison": null,
+  "new_spin_assignment": null,
+  "input_sha256": "e335230943c6483fafd60f17c5959b4c0bb3454658901f1eca5d9a0720531046",
+  "CG_helper_sha256": "c2e9856c254082077288059ebab443abbe8244331413713393783fc7ecd1837c",
+  "limitations": [
+    "pureL1/delta0 and point37/90/f_ADO1 are explicit mathematical baseline, not measured conditions",
+    "same parent level does not guarantee same postselected population for different gates",
+    "quoted marginal halfwidth box is not a joint likelihood or confidence region",
+    "E2 mixing/rank4/interference, geometry and energy-dependent response can change the constraint",
+    "58line from the other parent is not modeled; witness not complete feeding or three-line fit",
+    "sign/central mismatch is not an actual experimental exclusion or preferred spin"
+  ]
+}

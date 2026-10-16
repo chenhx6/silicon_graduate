@@ -120,3 +120,8 @@ A new line or energy-sum closure may strengthen placement. It cannot by itself p
 ## 128I自旋指认：条件唯一的domain必须明示
 
 [[ding-2012-phd-thesis-127-128i-high-spin]] D12-34与[[nndc-2015-128i-selected-level-gamma-records]] N128-13–15把旧H0/H2的条件唯一与较宽M1(+E2)族分开。固定上7/下6，genericL1与nondecreasingtrend在扩展族只给6/7，不等J7被实际RADO支持；255的stretched性质须独立约束。Captureallowedset若重复同M1/anchor不能计独立测量，parentEx-tag也不自动给spin。下一需对准spinsequence/sharedparentresponse而非重复energyclosure，实际δ/门/Σ缺口仍留；[[level-scheme-reconstruction]]保存13项集合核验。
+
+
+## 128I两companion的联合角约束仍有信息
+
+[[ding-2012-phd-thesis-127-128i-high-spin]] D12-35与[[nndc-2015-128i-selected-level-gamma-records]] N128-16–18把actualRADO与必要spinsets接回同一个分析：commonparent/pureL1/point/matchedselection baseline下H7有a2比例−13/8，中心不满足其sign条件，但有正marginalboxwitness且不同postselection可破坏该关系。不是实际排除/新spin；下一需同gate/feeding、δ/energy响应和jointCov，不能忽略两个measurement，也不能借特殊模型代它们。[[level-scheme-reconstruction]]保存23项归一/精确CG/失效控制，不生成absoluteB/模式证据。

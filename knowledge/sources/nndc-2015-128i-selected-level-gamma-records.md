@@ -76,6 +76,9 @@ POST [DatasetFetchServlet](https://www.nndc.bnl.gov/ensdf/DatasetFetchServlet)�
 | N128-13 | ReactionADO注释与CPL原文都明确R>1还可对应ΔI0D或某些mixedΔI1，CPL以764.7举例；这是generalambiguity，不表明58.5/255.6实际有该混合或J7被数据支持。Capture226.101→167的58.74列M1，M列来自relativeIγ/Ice，允许set需带同线identity/anchor条件；MR空白不等测得δ=0。 | source-hypothesis-scope-and-role | direct-and-derived | reaction cG RADO comments; capture cG M header and L226.101/G58.74; CPL printed082701-2 | true |
 | N128-14 | 本任务fixedupper7/anchor6时，旧restrictedH0/H2+两L1+reactiontrend得{6}；改用M1component-present family，两L1与nondecreasingtrend只给{6,7}。再独立给255stretchedΔI1才回{6}；selectionrule集合不是actualRADOlikelihood或新spinassignment，也非穷尽所有multipole/lineidentity。 | our-hypothesis-domain-audit | derived | N128-13 sourcewarning; DingPDF78–79 localthreeedges | true |
 | N128-15 | 若同线匹配/anchor6成立，M1→6的exacttriangle给{5,6,7}，与历史allowedset同形；同一证据所导的set再相交不算新增独立测量。Reactionspintrend是额外布居prior，parentEx-tag只识别状态位置不自动测spin，需独立spin/含实际响应的sequence检验。 | our-evidence-role-and-identifiability-boundary | derived | capture L226.101/G58.74; adopted L167.368; DingPDF79 | true |
+| N128-16 | 本任务声明pureL1、同parentJ7 density、matchedselection/fADO1、point37/90后，从CG振幅权重和transversephoton角函数导出a2(7→7)=−13/8 a2(7→6)，逐Mi精确成立；Jx6时两branch相同。它是radiation系数关系，不是把未观测U代入gate或源实测δ0。 | our-common-parent-radiation-baseline | derived | DingPDF78 local255/314 rows and PDF57 geometry; YA67 angular definitions | true |
+| N128-17 | 该baseline下H_Jx7要求(R314−1)(R255−1)≤0，源打印中心.91/.92不满足；H_Jx6还要求两R相等而中心差.01。Chosenpositiveparent=.1m0+.9uniform给R314=.971008/R255_H7=1.049063（H6两者.971008），都在各quoted半宽内；box无jointcoverage，也非full58/feedingfit，不给实际排除。 | our-central-control-and-marginal-box-boundary | derived | DingPDF78 RADO.91(15)/.92(20); commonparentanalysisinput2026-10-16 | true |
+| N128-18 | 换成两个不同的显式正postselecteddensity，可在samelevel/H_Jx7下让两R−1同号，说明parentlevel相同不等commonconditionalpopulation。此为chosen失效控制，非实际gate效应；finitegeometry/fADO、E2混合/干涉和原Cov未给时不升级为实际spin判据。 | our-selection-response-failure-control | derived | reaction RADO gatedspectrum header; DingPDF54–55 ADO definition; declaredcommonparentinput | true |
 
 ## Theory/Analysis Exercise
 
@@ -112,3 +115,9 @@ Decision: **limits** 用相同峰出现模式/混峰ICC单独定位parent；**su
 本轮回核已读reactionADOcomments、capture58.74/M1与CPLgeneralwarning，不开新source或回填未读2012正文。[[level-scheme-reconstruction]]“128I自旋候选：假设集合、stretched条件与证据角色”保存13项条件集合审计。旧039限定H0/H2的结果在其原条件下仍成立；允许M1(+E2)的ΔI1族后，genericL1与非下降reactiontrend不单独唯一。没有由该必要规则反例提出J7的新实验指认。
 
 Capture M1与历史allowedspinset若使用同一底层Ice/Iγ及anchor，后者不能再算第二份独立数据；reactiontrend则属于不同的物理prior。MR空白、同能量与表上label仍不恢复δ/response/Σ。新N128-13–15 true，旧1–12/review保持；sourceJ6建议/原data/raw和formal分数不改。
+
+## 两个commonparentbranch的条件角约束
+
+043只核necessaryspinsets，没有丢弃源RADO。当前23项CG/transversephoton核验在严格列明条件下对actual两个ratio建立更强baseline；[[level-scheme-reconstruction]]“128I共有母态：必要角关系、打印中心与选择响应”保存精确−13/8关系、中心控制、正populationboxwitness和不同postselection失效例。没有由kinematicJ7候选说它已拟合，也没有由conditionalcenter不满足说它被实验排除。
+
+δ0/pureL1、point角组、相同parentdensity与fADO1均为chosenmodel；原每线gate/finiteacceptance、sharedCov和E2混合未得。58的另一parent没有放入两branchfit，sourceJ6/原数据/正式成绩保持，新16–18true，旧1–15/review不改。Decision: **supports** 使用共有parent的联合信息；**limits** 忽略真实角数据或拿特殊baseline直接裁决spin。

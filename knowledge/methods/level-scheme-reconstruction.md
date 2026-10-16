@@ -839,3 +839,35 @@ Reactiontrend是布居倾向的prior，genericdipole是L1类，stretched还指�
 [13-check程序](../../system/scripts/day14_128i_hypothesis_domain.py)、[前提输入](../../outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/128i-hypothesis-domain-input.json)及[结果](../../outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/128i-hypothesis-domain-audit.json)复用已核triangle helper并记录source/helper hashes。旧039模块不改，原H0/H2结果依旧可重现；新输出单列扩展范围，不生成angularlikelihood或newassignment。
 
 Decision: **revises** 条件唯一被省略domain后升级为完整唯一的说法；**supports** 假设族、数据约束、物理prior和额外stretched前提分别列出；**limits** 将新J7必要候选视为实验支持、同源derivedset视为独立重复或parenttag视为spin测量。Formal14 21/24、completed14/partial15与旧review不变。
+
+## 128I共有母态：必要角关系、打印中心与选择响应
+
+一般张量与辐射几何的定义参照[[yamazaki-1967-aligned-angular-coefficients]] YA67-1。下述J=7系数由本任务独立构造，不是新转录/新认证的原表行。
+
+上一节的kinematic候选不等actual角数据已拟合；本节沿[[ding-2012-phd-thesis-127-128i-high-spin]] D12-35和[[nndc-2015-128i-selected-level-gamma-records]] N128-16–18，检验同parent481的314/255是否可有更强关系。所有后续式子限pureL1（δ0是chosen）、相同diagonalparentdensity/feeding、无额外选择或matchedselection、fADO1、正确组效率及point37/90；143与37的evenP2相同。实际每线gate、δ、finiteQ和Cov没有恢复。
+
+### 从radiation构造，而非用U代gate
+
+对Mi→Mf，光子q=Mi−Mf。纯L1的transversephoton归一角函数为`Wq0=1−P2`、`Wq±1=1+P2/2`，来自dipole的sin²与1+cos²方向型；磁/电纯L1的无偏振强度形相同。用`abs(CG(Jf Mf,1 q|Ji Mi))²`加权这些辐射函数，即得到每Mi的radiationa2。没有对parent先用未观测U传播再冒充conditionalgate响应。
+
+独立有理数CG有限和给commonJi7两条branch：m0参考`a2(7→6)=−4/13`、`a2(7→7)=1/2`；更强的是逐Mi精确满足
+
+`a_255=−13/8 a_314`（H_Jx7），
+
+所以任意相同正parentpopulation平均后关系仍成立。H_Jx6则两branch同7→6，a2相等。这里a2是归一photonW中的系数，不能与核alpha、daughtertensor/U或ICC混为一谈。
+
+### 打印中心是条件控制，不是实验裁决
+
+令s=P2(cos37)=0.4567280169、l=P2(cos90)=−.5；`R(a)=(1+as)/(1+al)`，`a=(R−1)/(s−Rl)`。在正radiation域内分母正且R单调，因此H_Jx7的baseline要求`(R314−1)(R255−1)≤0`；H_Jx6要求两个R相同。
+
+source中心R314=.91/R255=.92给a314≈−.09871365/a255≈−.08726689，均为负，不满足H7的opposite-coefficient条件。若把314中心代该模型，预言R255≈1.166851；这只是条件中心算术。H6的两个打印中心也差.01，不宣称零误差下完全拟合。真实measurement估计本来有误差，且sharednormalization/δ/gates/response/Cov缺失；没有生成χ²/CL或实际spin概率。
+
+### 正布居与选择条件的两个反例
+
+选一个未拟合source的正parentdensity：`.1`在m0、`.9`为15个Mi均匀分布的mixture。它给`a314=−2/65`、H7的`a255=1/20`，从而R314=.971008、R255_H7=1.049063；H6则两个R都是.971008。这些点各落在source `.91±.15/.92±.20` 的marginal半宽box内，box没有jointconfidence含义。该控制也没拟合另一parent225的58.5、全图feeding或reactionGaussian模型，不证明实际J7与数据相容或两模型同好。
+
+再声明一个不同postselectedparentdensity：314保持前者，255改用`.1`在abs(m)=7的对称pair、`.9`uniform。H7的a255变−13/160、R255=.925301，与R314−1同为负，破坏共同density的sign关系。两density均正、归一；这只是commonselection失效控制，不声称实际gate能产生该幅度，也不量化真实bias。Sameparentlevel不能替代相同conditionaldensity输入。
+
+实际E2 admixture可有rank4与干涉，energy-dependentfinitegeometry与fADO也会改关系。真正下一步是取得两branch的matchedgate/父态feeding、δ/响应与jointCov，保留原角测量的联合信息；没有这些输入时只用本节作必要合同检查，不裁决sourceJ6或新J7。
+
+[23-check程序](../../system/scripts/day14_128i_common_parent_angular.py)、[前提输入](../../outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/128i-common-parent-angular-input.json)和[审计](../../outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/128i-common-parent-angular-audit.json)保存逐Mi有理系数、source/helperhash、中心与两种chosen正布居例。Decision: **supports** 共有parent的conditional联合角判据；**limits** kinematic候选自动当datafit、中心sign不满足自动当实验排除或samelevel当samegatepopulation。Formal14 21/24、completed14/partial15不变。

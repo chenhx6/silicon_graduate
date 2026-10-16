@@ -97,6 +97,10 @@ Matev2007局部算符/表检验完成后，选择Riley2001公开作者实验报�
 
 12:40上海重查恰好Day15卡/时钟、冻结[primed回忆](20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/128i-hypothesis-domain-before-analysis.md)。2012body选定route已局部饱和，沿已读128I资料审计58.5的H0/H2限制，属于原Day14角判读/证据链问题，没有开新source或Day16。信息增益是防止把限制domain里的必要集合唯一当完整物理唯一，不再重复sameenergy数值。
 
+### 第044批：共有母态的角信息
+
+12:57冻结[数值前条件](20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/128i-common-parent-angular-before-analysis.md)，继续原58/255/314同一boundedissue。043只处理necessarysets，不能由J7可过triangle就说实际RADO同样fit；因此选择commonparent角约束baseline。只用既有source/CG定义，不开新source/card/Day16；窗口进入90–119分钟阶段后继续本项，未开始新完整课程卡。
+
 ## Sources and evidence
 
 | 来源 / 身份 | 本轮实际覆盖与locator | 证据分层与独立性 |
@@ -239,6 +243,10 @@ Ref16 DOI[10.1088/1674-1137/33/S1/057](https://doi.org/10.1088/1674-1137/33/S1/0
 ### 第043批：generalADO警告与captureallowedset
 
 回核CPL printed082701-2和ENSDFreactionADOcomments：R>1除stretchedQ外还可对应ΔI0D或某些mixedΔI1；CPL例子是764.7，不据此判58/255实际mixed。Capture cG M约定是relativeIγ/Ice，L226.101/G58.74列M1及K/L实验字段；在同线identity与anchor6条件下有allowedset，但MR空白不等测δ0。N128-13–15、D12-34保存这些证据角色，原paper/评价/历史引用不重复计独立实验。
+
+### 第044批：两actualratio与明确模型条件
+
+DingTable6.1的314.3 R=.91(.15)、255.6 R=.92(.20)共parent481，作者labels为upper7/anchor6；geometry nominal37/143对90与ADO效率方向来自既有source（D12-22/35）。新N128-16–18把数据、pureL1/commonparent/point/fADO1假设、radiation推导与actualfit边界分开。未读2012body、actual每线gate/δ/response/Σ依旧missing，未按samelevel默认matchedconditionaldensity。
 
 ## Theory/analysis exercise
 
@@ -567,6 +575,14 @@ Fixedupper7/anchor6下，旧H0/H2初set{4,6,8}、加两L1为{6,8}、再trend为{
 
 同captureM1/anchor导出的historicalallowedset再相交，不算第二份独立测量。Reactiontrend是物理prior，dipole与stretched有不同约束，不能先借目标J6证明stretched再循环选6。ParentEx-tag与spinlabel也非同一observable。实际sharedparent/gates/δ/response/Cov可能进一步判别，未被这个kinematic审计丢弃或伪造。
 
+### 第044批：23项radiation/正性/中心与box核验
+
+[前提输入](20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/128i-common-parent-angular-input.json)、[代码](../../system/scripts/day14_128i_common_parent_angular.py)及[23-check审计](20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/128i-common-parent-angular-audit.json)从纯L1的CG振幅平方与归一transversephoton角型直接构造radiation，不把未观测U代gate。每Mi精确给H_Jx7的a255=−13/8 a314，m0系数为.5与−4/13；H_Jx6两branch同sequence/a2相同。Canonical推导在[[level-scheme-reconstruction]]“128I共有母态：必要角关系、打印中心与选择响应”。
+
+声明point/matchedselection/fADO1时R(a)=(1+aP2S)/(1+aP2L)，H7必要条件(R314−1)(R255−1)≤0，源中心两者<1不满足。代314中心的H7baseline预言R255≈1.166851；H6也不满足两个打印中心的exactequality（差.01），不把均值当真值或生成统计排除。
+
+Chosenpositiveparent=.1m0+.9uniform给a314=−2/65、a255_H7=1/20，R314=.971008/R255_H7=1.049063，H6两者.971008，都落原marginalhalfwidthbox；无jointcoverage、未拟合另一parent的58/fullfeeding。另chosenabs(m)=7mixture用于255时R255=.925301，可与314−1同号，说明differentpostselection可使commonparentbaseline失效；不是actualgatebias。E2/rank4/interference、finitegeometry/fADO与sourceCov都需实际输入。
+
 ## Counter-evidence and missing companion observables
 
 HE15-9的实际未定双线是核心反例：energy sum、共享R/A和假设的ΔI=2均不足以裁决order。若一条线出现可独立定位的旁路或延迟顺序，应重审中间level；source仍保留括号Jπ与(E2)。HE15-5的quadruplet限制“一个峰是一条γ”的简化；干净622.4直接分支门与323.4级联门的299-keVcomponent差异可能迫使拆峰，但必须控制622/626门纯度、feeding、response和random。
@@ -691,6 +707,12 @@ SourceM/R/RI/normalization与时间身份均须匹配，实际response/Cov/runID
 
 最高信息companion是独立spin/非循环stretched约束或真实matchedresponse。历史M1allowedset也要带anchor/同线identity与底层Ice/Iγ材料，不把其衍生表达算独立data；Ex分辨设计不自动解spin。2012body/actualdata缺口仍在，无新σ/δ/B或核结构模式。
 
+### 第044批：中心控制与反例的适用层次
+
+相同parent有条件提供jointangular信息，不能因为genericcandidate可过triangle而丢测量；但samelevelID不证明相同postselecteddensity、pureδ0或fADO1。Exactcenter不满足特殊baseline不等实际模型排除，marginalboxwitness也不等真实J7被支持/两模型同好。
+
+必要输入是两个branch的matchedgate IDs/feeding、δ或multipurity、逐能量响应/组效率/fADO和jointCov。58另parent没有进入本次pair分析，不能因此声称三边/全图已fit；不同postselection控制没有证明原gate实际产生那种density。2012body/正式差异原因继续未决，不改sourceJ6或absoluteB/模式。
+
 ## Knowledge Impact and Learning Decision
 
 - **supports：** 一图一表的逐边source-level纲图和DCO/偏振/转换联合证据链。
@@ -806,6 +828,10 @@ Decision: **revises** 把重复门谱或混峰ICC当parent定位测量的提议�
 ### 第043批后的认识决定
 
 Decision: **revises** 条件唯一在省略hypothesisdomain后升级为完整唯一、或genericdipole默作stretched的表述；**supports** 数据约束/衍生set/物理prior/额外前提分账；**limits** J7必要候选当实验支持、parenttag当spin测量。原sourceJ6/原039条件结果/formal21/24/completed14partial15及course保持，旧review/flags不变。
+
+### 第044批后的认识决定
+
+Decision: **supports** 使用共有parent的联合radiation约束，**limits** kinematiccandidate当actualfit、中心sign不满足当实验排除和samelevel当samegatepopulation，**revises** 把角测量因nuisance未知就完全丢弃的分析顺序。先保存可证伪的条件关系，再列需校准的输入；不以23checks给formal加分。21/24、completed14/partial15、course与review保持。
 
 ## Durable knowledge delta
 
@@ -4477,6 +4503,94 @@ Decision: **revises** 条件唯一在省略hypothesisdomain后升级为完整唯
           "locator": "D12-34"
         }
       ]
+    },
+    {
+      "knowledge": "knowledge/sources/nndc-2015-128i-selected-level-gamma-records.md",
+      "summary": "新增commonparent纯L1角约束、源中心与正marginalbox/不同postselection反例，明确未观测U非gatekernel、无actualfit。",
+      "anchor": "两个commonparentbranch的条件角约束",
+      "sources": [
+        {
+          "path": "knowledge/sources/nndc-2015-128i-selected-level-gamma-records.md",
+          "locator": "N128-16"
+        },
+        {
+          "path": "knowledge/sources/nndc-2015-128i-selected-level-gamma-records.md",
+          "locator": "N128-17"
+        },
+        {
+          "path": "knowledge/sources/nndc-2015-128i-selected-level-gamma-records.md",
+          "locator": "N128-18"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/sources/ding-2012-phd-thesis-127-128i-high-spin.md",
+      "summary": "保留原两ratio并接回必要spinsets，记录条件联合角关系/δ与gate缺口，不丢数据或改sourceJ。",
+      "anchor": "Commonparent的角数据不能被necessarysets替代",
+      "sources": [
+        {
+          "path": "knowledge/sources/ding-2012-phd-thesis-127-128i-high-spin.md",
+          "locator": "D12-35"
+        },
+        {
+          "path": "knowledge/sources/nndc-2015-128i-selected-level-gamma-records.md",
+          "locator": "N128-16"
+        },
+        {
+          "path": "knowledge/sources/nndc-2015-128i-selected-level-gamma-records.md",
+          "locator": "N128-17"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/methods/level-scheme-reconstruction.md",
+      "summary": "从CG振幅权重+photontransversality推−13/8同parent关系，验证条件中心/box/正性与selection失效，不生成真实排除概率。",
+      "anchor": "128I共有母态：必要角关系、打印中心与选择响应",
+      "sources": [
+        {
+          "path": "knowledge/sources/ding-2012-phd-thesis-127-128i-high-spin.md",
+          "locator": "D12-35"
+        },
+        {
+          "path": "knowledge/sources/nndc-2015-128i-selected-level-gamma-records.md",
+          "locator": "N128-16"
+        },
+        {
+          "path": "knowledge/sources/nndc-2015-128i-selected-level-gamma-records.md",
+          "locator": "N128-17"
+        },
+        {
+          "path": "knowledge/sources/nndc-2015-128i-selected-level-gamma-records.md",
+          "locator": "N128-18"
+        },
+        {
+          "path": "knowledge/sources/yamazaki-1967-aligned-angular-coefficients.md",
+          "locator": "YA67-1"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/projects/a130-thesis-evidence-matrix.md",
+      "summary": "把actualcompanion角测量与hypothesis-domain联结到下一真实gate/δ/response/Cov路线，不把数学counterexample升级实验指认。",
+      "anchor": "128I两companion的联合角约束仍有信息",
+      "sources": [
+        {
+          "path": "knowledge/sources/ding-2012-phd-thesis-127-128i-high-spin.md",
+          "locator": "D12-35"
+        },
+        {
+          "path": "knowledge/sources/nndc-2015-128i-selected-level-gamma-records.md",
+          "locator": "N128-16"
+        },
+        {
+          "path": "knowledge/sources/nndc-2015-128i-selected-level-gamma-records.md",
+          "locator": "N128-17"
+        },
+        {
+          "path": "knowledge/sources/nndc-2015-128i-selected-level-gamma-records.md",
+          "locator": "N128-18"
+        }
+      ]
     }
   ]
 }
@@ -4635,6 +4749,8 @@ Danko99primary合法OA/publicPDF/官方API/repo均未提供正文（403HTML/401J
 
 第043批在`knowledge/sources/nndc-2015-128i-selected-level-gamma-records.md`新增N128-13–15与“58.5-keV的假设集范围与证据角色”；Ding source新增D12-34与scope说明；`knowledge/methods/level-scheme-reconstruction.md`新增逐前提candidate-set表和非循环/同源约束边界；`knowledge/projects/a130-thesis-evidence-matrix.md`新增“128I自旋指认：条件唯一的domain必须明示”。原039代码/claims保持，新13项核验作为独立scope增量而非重算同表加分。
 
+第044批在`knowledge/sources/nndc-2015-128i-selected-level-gamma-records.md`新增N128-16–18，Ding source新增D12-35；`knowledge/methods/level-scheme-reconstruction.md`新增完整commonparentradiation关系/中心控制/两种正布居反例；`knowledge/projects/a130-thesis-evidence-matrix.md`新增两companion联合角信息段。结果与条件在canonical，源/模型/任务推导/未给actualdata分开，原CGhelper/旧sourceflags/raw不变。
+
 ## Open questions and belief revision
 
 1. 哪个旁路、time/tag或独立spin anchor能裁决393/394的顺序？重复同一能量和不能裁决。
@@ -4664,6 +4780,8 @@ Danko99primary合法OA/publicPDF/官方API/repo均未提供正文（403HTML/401J
 
 第043批下一有界问题是两companion共享parent时的角数据联合约束：实际RADO是否在声明pureL1/commonparent/同gate响应条件下已经提供额外判别？先核条件/归一，不把triangle候选视作实际fit，也不丢弃测量值。仍使用既有source，缺δ/response/Σ时只能写条件判据，不新造实验结论。
 
+第044批当前commonparentbaseline主推导已完成，仍缺真实gate/δ/响应/Σ和2012正文以裁决source差别。剩余核验应检查定位、条件/单位与复算边界，并按原Day14卡逐项审核最终交付；研究窗口未关闭，<90分钟不新source/card，15:00后只做closeout。不能以已完成报告/单一推导提前声明整个run完成。
+
 ## L0–L4 state
 
 最新moment放宽与图仍为L2 source-conditioned分析；fullbranch/转换/response/Cov不全，真实167Tm experimental refit仍not-ready，不以高精度计算冒充L4或新实测分支。
@@ -4692,6 +4810,8 @@ Danko99primary合法OA/publicPDF/官方API/repo均未提供正文（403HTML/401J
 第042批的2012paper仅metadata/accessaudit，没有新增L0全文已读声明或sourcepage；14checks为L2支持模式/测量设计。310本地PDF只读documentmetadata/选中thesisidentitypage，不是其它paper科学阅读或Day16预习。实验L4仍notready，formal14/partial15不变。
 
 第043批为L1既有source条件回核与L2假设范围/证据角色分析。13checks不含actualRADOlikelihood/δ提取，不改sourceJ或实验L4状态，没有新source/课程卡，Day15仅partial。
+
+第044批为L2纯L1条件radiation/正布居控制，23checks不是actualangularfit，58/全feeding未拟合，L4实验notready。没有新source或课程卡，formal14与Day15partial不变；新derivedclaims保留needs_review。
 
 ## Verification and continuation
 
@@ -5013,3 +5133,11 @@ Stablepointer main / `Specify DAY14 iodine parent-state discrimination inputs`�
 `wiki_lint.py --fail-on error`实际exit0，0errors/145warnings（114citekeys/28rawslots/3reactionparser），`git diff --check`、boundary/preflight exit0。EOLexit1仅保留4页本批substantive，0restore/unsafe。Farmer42019于12:52上海核running/currentthreadrunning，无新session/goal/daily scheduler。
 
 Stablepointer main / `Clarify DAY14 iodine spin-hypothesis scope and evidence roles`，actualH3/hash/push只publication-043.json。当前仍active，研究2026-10-16 15:00止、16:00交付；下一clock/pool后完成同一问题的commonparent两branch角约束baseline，先冻结条件，不把candidate当actualfit或忽略sourceRADO。<90min不新source/card，15:00后只closeout；preserve inherited/raw/PLAN/Bib/review，显式manifest/H3非force发布。
+
+### 第044批验收与续接
+
+23项CG/photon归一/逐Mi系数/正布居/ratio反演/条件中心及box失效控制实际exit0。Report/card/writeback修复后valid，唯一block155items/44changedknowledge页；首次writeback检查exit1因method缺YA67回链，补定义链接/atomicYA67-1并明确J7系数为本任务推导后通过，数值不改。N128旧15行/Ding旧34行/flags/review保持，新16–18/35true；rawmetadata/PLAN/Bib/source/input/helper哈希、AST/原helper不改与state14/count13通过。
+
+`wiki_lint.py --fail-on error`实际exit0，0errors/145warnings（114citekeys/28rawslots/3reactionparser）；`git diff --check`、boundary/preflight exit0。EOLexit1仅保留4页本批substantive，0restore/unsafe。Farmer42019于13:14上海核running/currentthreadrunning，无新session/goal/daily scheduler。
+
+Stablepointer main / `Bound DAY14 common-parent angular consistency assumptions`，actualH3/hash/push只publication-044.json。当前bounded主分析具备，下一按原Day14卡核source定位/模型条件/复算边界和wholeobjective交付证据，run仍active到研究截止；<90min不新source/card，15:00后仅closeout。原primarybody/actualgate/δ/响应Cov未决不变成experimental结果，formal21/24/partial15不变；preserve inherited/raw/PLAN/Bib/review，显式manifest/H3非force发布。

@@ -1,0 +1,40 @@
+{
+  "kind": "conditional pureL1 commonparent angularbaseline, not actualRADO fit",
+  "source_primary": {
+    "path": "raw/papers/degree dissertation/丁兵 - 博士论文.pdf",
+    "sha256": "ca7765ad962ea0c106791532f5a7d9f359533d25bb0170f03197bfec414be5c7"
+  },
+  "source_reaction": {
+    "path": "tmp/day14-20261014/nndc128i/li7-reaction.ens",
+    "sha256": "126efa18a375524a26f26d62a32be280c663b3db3f470a9b9e5db94690b28114",
+    "datasetcheck": "128053024,128I",
+    "response_sha256": "2fc295d1340b476c102d28cbe0b58aab33d1fefc1348bad3ce607a9a7e6a80d4"
+  },
+  "parent_spin_twice": 14,
+  "daughter_anchor_twice": 12,
+  "daughter_counterexample_twice": 14,
+  "point_angles_deg": [
+    37,
+    90,
+    143
+  ],
+  "source_R314_center": ".91",
+  "source_R314_quoted_halfwidth": ".15",
+  "source_R255_center": ".92",
+  "source_R255_quoted_halfwidth": ".20",
+  "chosen_m0_plus_uniform_weight": "1/10",
+  "conditions": [
+    "two pureL1 transitions; delta0 chosen not measured",
+    "same diagonalparentdensity and feeding",
+    "no extra gate or matchedselection; f_ADO=1",
+    "pointdetectors at source nominalangle; correct efficiency/groupnormalization"
+  ],
+  "actual_perline_gate_ids": null,
+  "actual_mixing_ratios": null,
+  "actual_detector_response": null,
+  "actual_covariance": null,
+  "actual58_parent_distribution": null,
+  "full_three_line_fit": false,
+  "spin_reassignment": null,
+  "chosen_failure_case": "allow distinct positive postselecteddensity at the same parent for different gates: one m0-mixture, other symmetricabs(m)=7mixture; not actualgate reconstruction"
+}

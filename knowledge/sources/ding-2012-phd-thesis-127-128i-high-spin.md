@@ -111,6 +111,7 @@ tags: [high-spin, transitional-nuclei, iodine-isotopes, decoupled-band, gamma-so
 | D12-32 | Fig6.5中756.5/764.7/117.8门的低峰差异有助拆101/102；由source采用端点看，756.5下方285.2的102.2和117.8是竞争分支，另一102.2来自269.6。选定图中某路径不存在不等于完整实验absence或上限，原raw/校准/response/Cov仍缺。 | source-selected-graph-and-negative-evidence-boundary | direct-and-derived | PDF77 Fig6.2; PDF82 Fig6.5; PDF78–79 Table6.1 | true |
 | D12-33 | 本文/CPL强102.2为285.2→183.0、ECC=.60(7)随该component；2015选定ENSDF却把102.2/ECC放269.57→167.367并在285.19列15.6。Text/PDF均核，属于sourceobject拓扑/字段冲突，非rounding；未读2012Di14/body/erratum前不裁决哪图正确、不将评价当独立新测量。 | primary-versus-evaluation-conflict-boundary | direct-and-derived | PDF77 Fig6.2; PDF79–80 conversiontext; NNDC128053024 L269.57/G102.2 and renderedPDF2 | true |
 | D12-34 | D12-25的6/8→6只限其明示H0/H2集合。本任务扩到M1component-present族后，fixedupper7/anchor6与两genericL1可留6/7，nondecreasingtrend不再唯一；需要独立stretched255或实际角response/spin材料。该scope修订不改本文建议6、也未证明J7匹配RADO。 | conditional-inference-scope-audit | derived | PDF78 Table6.1 three localrows; PDF79 discussion; CPLgeneralwarning; selectedENSDFreactionADOcomments | true |
+| D12-35 | 同parent314/255的RADO.91(15)/.92(20)仍可含spinsequence信息；本任务pureL1/commonparentdensity/point37-90/fADO1 baseline给Hx7的a2比例−13/8与异号必要约束，但positivequotedboxwitness存在，实际gate/δ/Σ未核。不因前述kinematic7候选忽略RADO，亦不据打印中心作实验排除。 | our-conditional-angular-consistency-audit | derived | PDF78 Table6.1 rows255.6/314.3; PDF54–55 ADO; PDF57 geometry | true |
 
 ### 2026-10-12 reaction-channel evidence addendum
 
@@ -238,3 +239,8 @@ Agent self-audit：新D12-28–32 true，旧1–27逐行/flags与review保持；
 D12-25原文已经限定fixedparent/anchor与H0/H2；新D12-34把这个限制进一步显式化。[[nndc-2015-128i-selected-level-gamma-records]] N128-13–15与[[wang-2010-128i-new-high-spin-level-scheme]] W10I-4的generalADOambiguity提示，不能把genericdipole自动当stretched，亦不能把条件集合的唯一元素当完整physicaluniqueness。新J7只是kinematiccounterexample，actual58/255的δ、共享parentpopulation、门选择/角响应与Cov仍需数据判断，未作source重指认。
 
 13项集合/证据角色核验和逐前提表在[[level-scheme-reconstruction]]保存。旧1–33逐行/flags/review保持，新34true；本段不提供新的RADO拟合、论文裁决或正式成绩。
+
+
+## Commonparent的角数据不能被necessarysets替代
+
+[[nndc-2015-128i-selected-level-gamma-records]] N128-16–18用本source实际两个RADO作条件中心/box控制，23项数学检查没有原netcounts/response/δ/Cov。结果补充D12-34的scope：sharedparent在matched条件下可以给比triangle更强的角约束；actual每线gate未给，不能把samelevelID自动视为samepostselecteddensity。完整推导/失效控制在[[level-scheme-reconstruction]]，原sourceJ6与旧1–34行/review/raw保持，新35true。

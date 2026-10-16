@@ -1,0 +1,6 @@
+{
+  "initial_verification_exit_code": 1,
+  "cause": "method writeback mapped YA67 but no explicit knowledge-to-source link",
+  "repair": "added explicit definitionlink and selected YA67-1; clearly separated ourJ7derivation from unverifiedtabletranscription",
+  "scientific_numerics_changed": false
+}
