@@ -3,7 +3,7 @@ type: source
 title: "Sensharma 等 2026：135Pr 中从横向摇摆到手征的演化"
 aliases: [Sensharma 2026 135Pr chirality, evolution of chirality from transverse wobbling 135Pr]
 created: 2026-09-13
-updated: 2026-09-13
+updated: 2026-10-17
 status: ai-draft
 review_status: unreviewed
 source_type: journal-article-experiment-and-model
@@ -74,6 +74,11 @@ N. Sensharma 等，*Evolution of chirality from transverse wobbling in `135Pr`*�
 | SH26-9 | 对 Lv 关于偏振的批评，作者称 Matta 2015 的正 asymmetry 只是对大 E2 admixture 的补充确认而非独立的 mixing-ratio extraction，并将当前结论建立在旧 angular-distribution data 的 χ² 选择上。 | author-interpretation | direct | multiple-dependent | PDF p.15, discussion after Fig.12 | completed | false |
 | SH26-10 | 论文指出 QTR 与实验 ratios 的差异可能与约 `100 keV` 的未包含非对角矩阵元、DB1/DB2 状态混合有关；作者明确说 lifetime measurements 对获得 absolute reduced transition probabilities 和消除当前 ambiguity 很重要。 | our-inference + author-interpretation | direct | multiple-dependent | PDF pp.12–14, discussion before Fig.12 | completed | false |
 | SH26-11 | 2026 论文与 Matta 2015、Sensharma 2019 共享/延续 `123Sb(16O,4n)` 80 MeV Gammasphere 数据谱系；合并数据、后续重分析和理论回应不能作为三个 independent experiments 计数。 | cross-source-synthesis | indirect | multiple-dependent | PDF pp.2、14–15；[[matta-2015-transverse-wobbling-135pr]]；[[sensharma-2019-two-phonon-wobbling-135pr]] | completed | false |
+| SH26-12 | 本v2 TableI对旧side-to-yrast连接给746.3(9)、811.6(10)、754.2(7)keV，Ji→Jf分别17/2−→15/2−、21/2−→19/2−、25/2−→23/2−；delta为−1.40(+.14/−.12)、−1.63(+.02/−.03)、−2.16(+.06/−.05)。图12的另一delta标为−.59、−.52、−.40，未附这些另一根的误差。TableI图注明确all errors purely statistical。 | reported-data-and-error-boundary | direct | multiple-dependent | arXivv2 PDF5 TableI；PDF14 Fig12 | targeted-self-audit | true |
+| SH26-13 | Fig12图注明确采用sigma/I=.2；纵轴标签log10(chi²)，不是Delta chi²或reducedchi²。正文承认两possible local minima并以较低者选分支；“one true minimum”须按作者global preference理解，不能把固定sigma切片自动当全部nuisance的profile或全部候选不存在。 | likelihood-display-and-condition | direct-and-self-audit | multiple-dependent | arXivv2 PDF14 Fig12/III.B；PDF15续段 | targeted-self-audit | true |
+| SH26-14 | 官方arXivv2公开源码归档有29个regular members：26PDF、TeX、BibTeX、README；完整文件清单及26PDF的embedded-file检查未发现event、原始角度/效率表、Cov或fit program。TeX与绘图PDF是已发表表示，不能等同完整replay输入。文件名chiral_wobb_prc_V3.tex的V3不是arXiv版本号，实际归档v2日期2026-01-15。 | reproducibility-readiness-boundary | public-object-self-audit | single | https://arxiv.org/src/2403.10749v2；00README.json；chiral_wobb_prc_V3.tex | targeted-self-audit | true |
+| SH26-15 | 正文SecII称角分布使用合并data并按两run的detector/live-time修ring efficiency；Fig12图注又引用早期Refs15/16。未给逐图event/run ledger，故可确认shared lineage，不能仅由caption证明Fig12与2015图逐event/逐角计数完全相同，也不能当新独立第三次确认。 | event-identity-boundary | direct-and-self-audit | multiple-dependent | arXivv2 PDF2 SecII；PDF3–4 angle correction；PDF14 Fig12；TeX164/435 | targeted-self-audit | true |
+| SH26-16 | p4–5称先把a2/a4作independent parameters采样、解a2的二次式、用较低chi²选根并在附近继续采样。此文字不提供实验a2/a4的完整Cov、所有分支posterior权重或原fit code；proposal参数独立不等于观测/拟合结果独立。 | inference-readiness-boundary | direct-and-self-audit | multiple-dependent | arXivv2 PDF4–5 MCMC方法段；PDF17 Ref54/70 | targeted-self-audit | true |
 
 ## Chiral and Wobbling Interpretation
 
@@ -128,3 +133,11 @@ N. Sensharma 等，*Evolution of chirality from transverse wobbling in `135Pr`*�
 ## Later Paper / Q&A Gate
 
 若后续问答或论文写作需要使用 2026 论文的“first observation of chirality”、某条 `δ`、Fig.12 χ² 或“refute Lv”表述，必须同时回到本页对应原文页码，并明确：当前论文无 polarization/absolute lifetime，旧数据 χ² 争议未做统一三方 raw reanalysis，相关 chiral/wobbling 结论仍是作者解释与候选层。
+
+## 2026-10-17固定取向、输入身份与公开源码审计
+
+本次先冻结primed定向回忆，再核main raw原SHA，读PDF2–5、14–15及17相关引用，视觉核TableI和Fig12；不是新通读17页。旧SH26-1–11及unreviewed状态保持，新12–16均needs_review:true；旧false仅历史Codex self-audit，不扩为人审。Crossref重核正式DOI10.1103/3g4p-ncjn；publisher public abstract返回403，未得VoR正文/其DAS，不把本v2当已核VoR。
+
+公开arXivv2 landing200，submission history定v2为2026-01-15；其TeX Source链接合法取得归档，5825886bytes，SHA-256 cdda3eceff0876c3774b253d91e1e41441941a3a2dbd9d358f64f2b785312278。本地仅新增raw/papers/gpt/day15-20261016/sh26-arxiv-2403.10749v2-source.tar，不覆盖main raw、不执行其中内容、不stage archive。29项inventory与26PDF零embedded files保留，TeX实际164/435行和三张原始chi2 PDF已定向检查。作者文件名V3与arXivv2分开；原件中的注释不是独立正式科学结论。
+
+SH26-8/9/11的作者偏好与shared-lineage判断仍保留；新SH26-13/15把固定sigma切片、不同数据summary、未知event-level overlap说清。[[135pr-mixing-branch-input-contract]]保存三方delta/input角色表和后续profile设计，未从log10图估计Delta chi²、dof、reject significance或证明任意geometry/feeding下唯一解。当前public package没有足够input独立重放本分支选择，但并不声称作者从未提供过其它渠道。

@@ -1,0 +1,9 @@
+
+## 2026-10-17 — Day15持续窗口：取向校准与条件分支profile
+
+- Formal15只计一次，next16/count15，completed15/partial16，原15:00硬截止不改；02:48clock还余731.6min，继续而非收束。
+- SH26 v2/source archive核固定sigma/I=.2、log10chi²、三组branch和shared-lineage/未知event-level overlap；29成员/26PDF零embedded，没有production events/efficiency/Cov/code，不执行、不stage新rawtar，未核VoR。
+- SE21方法章/新854.3参考J23/2行的条件rho/B检查：7−10a2+3a4的mean−1.3、literalboxmax−.77；genericCG/Stevens/独立LP、Gaussian与pureE2两表层核验已canonical。此为calibration/convention readiness，不判原数据/代码/模式错误。
+- 新figure最终source/glyph/collision exit0，7pt，真实89×88mm；3sourcewarn有实测解释，首次offviewportstroke显示裁切后通过，科学输入/核心数值不变。
+- fresh boundary/preflight/lint/diff exit0，lint0error/146warning；23项唯一writeback/26mappedpaths/23changed，旧claims/review、原spinobservable全文和PLAN/Bib/daemon保留；EOL exit1是7项own substantive/0unsafe。
+- 本批commit target：main / Audit 135Pr alignment calibration and conditional branch profiles；actual H3/push/hash只在publication005/runreceipt。下一核两份1974source及Ref26/Matta2017方法定义，不开Day17或授16。

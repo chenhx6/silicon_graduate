@@ -1,21 +1,23 @@
 # Day15同session持续学习续接
 
-- generated_at: 2026-10-17T02:04:42.061260+08:00
+- generated_at: 2026-10-17T02:49:56.139468+08:00
 - run_id: 2026-10-16-day-15-01
 - session_id: 01a14510-aec7-7e00-aa23-f7c77a5124bc
 - resume_command: `codex resume 01a14510-aec7-7e00-aa23-f7c77a5124bc -C /workspace/wiki -s danger-full-access -a never`
-- 原研究硬截止2026-10-17T15:00:00+08:00；15–16只收束，不重置日期。
+- 原硬截止2026-10-17T15:00:00+08:00，15–16只收束，不重置日期。
 
-Goal/run仍active，formal15complete/credited once，课程next16/count15；completed[15]/partial[16]，不授16/不开17。先读active handoff/research-checkpoint/run及最新publication，检查真实时间/状态；completed只讨论既有成果，closing-out只收束，running继续原window高信息路线。启动治理已读，不重扫全部历史，不新建goal/session/daemon。
+先读active handoff/research-checkpoint/run、最新publication与candidate-refresh004。Goal/run仍active，formal15complete且state next16/count15，只completed[15]/partial[16]；不授16/不开17。若run completed只交付/讨论，closing-out只收束，running继续原window。启动治理已读，不重扫旧历史，不新建goal/session/daemon，不伪造scheduler event。
 
-前三批均实际H3非force push；最新receipt publication003确认remote HEAD。Day15 ADO/Zheng/Cov/finite response/mixed-event主线已canonical；真实events/joint response/private geometry/Σ缺口保留。D96/KS/KF主线与内部basis/相邻KS-RB符号、精确双根/实际系数、KF89旧I比倒置更正已保存。RB定向核验确认KS Eq5是2Ii+1（初态），绝对Gamma闭合，未发表草稿的下标误读已记录。旧review flags不改。
+publication001–004均实际H3非force push，exacthash/remote核仅receipt。Day15 ADO、原Zheng和Cov/finite joint/GRIFFIN/mixed-event已canonical；D96/KS/KF/RB相位和比定义、双解/实际系数，以及Pr135 A/P和校准采用链也已保存。actualevents/response/Σ仍not-ready，不用旧脚本检查数授卡。
 
-新增知识knowledge/research-notes/135pr-mixing-branch-input-contract.md：Matta A与Lv P不可直接比；Lv SI Ap使用Herzan Q=.148787/.134271/.236763后变成P=.040326/−.029791/−.071802，和主文及误差尺度印刷精度相容。Q采用不连带a，Lv自己的a单独使用。四cal参数条件相关模型/gradients/PSD与fraction端点保留，所有chosen sensitivity不是actualΣ/CI/refit；不以integer-only kernel计算135Pr半整数。
+本批pending005有SH26 v2固定sigma/I=.2的log10chi²/三组branch身份、29成员公开sourcearchive inventory和26PDF零embedded。档案仅TeX/Bib/README/图，无productioninputs；filenameV3不是arXivv3，不声称读VoR。mainraw hash不变，新source.tar在raw/gpt且不stage，不执行内容。正文combined与Fig12旧refs不认证逐event重合。
 
-十九项writeback/21checkedpaths/19changed，Matta/Lv各旧1–15行与page review保留，新M15-16/17/L22-16–19 true。初次writeback三个缺direct source链接已补。最新fresh checks看verification-prepublication-004.json。检查点004已提交，稳定指针为main / Audit 135Pr observable identities and shared calibration response；实际H3/push必须看publication004，不能据提交补写推送成功。
+SE21方法章/表的新J23/2核验：Table4.1 alpha(.92,.30)若按同rho/B，positiveP必要式7−10a2+3a4≥0给mean−1.3、literalboxmax−.77；adoptedGaussian.2给(.894266,.689096)。独立genericCG/Stevens/LP和pureE2 reference Amax=(65/161,−26/161)通过；Table4.3 (.352,−.212) literal相除为(.871877,1.312769)，仍不回Table4.1。全为conditional calibration contract，不是data/code错误、actualdelta重拟合或mode裁决；reference E2/M3、response/gate/normalization未闭合。
 
-Matta后续全文发现DataCite候选10.7274/sj13902283h（Exotic Nuclear Excitations: The Transverse Wobbling Mode in135Pr），资源型Text/无file URL。尚未取得机构正文/PhD身份核验或rawcounts/Q/Σ；GoogleScholar timeout、Figshare403、CurateND202空body、doi landing ConnectionError已record，不原样重试。
+canonical knowledge/research-notes/se21-alignment-calibration-consistency.md，script day16_se21_alignment_audit.py，frozeninput/result/figureQA在本run。Figure最初碰撞来自offviewport hullstroke，显式裁切显示几何后0fail/0warn，actual89×88mm、7pt；source3warn有实测解释。旧helper只复用generic函数，未重跑旧67Ga数据。旧SE1–8/SH1–11与spinobservable人审范围保留，新selfaudit true。当前唯一writeback23项，fresh实际结果看verification-prepublication005。
 
-下一路线：先冻结对Sensharma2026旧角分布chi²主张的primed预期，定向核原件Fig12/response/data availability及公开ancillary（若存在）。它的旧Gammasphere曲线重析不是新独立135Pr采集；保留与Guo/Lv的方法分歧，不把理论适配当actual likelihood。之后刷新当前15/partial16候选池；187Au同类分支案例只是reserve，别为填窗口重跑toy或越到Day17。
+检查点005已提交，稳定指针 main / Audit 135Pr alignment calibration and conditional branch profiles；actual H3/push看publication005，不据提交补推送成功。原clock02:48:26距截止731.6min，当前仍有高价值路线，不能由本次checkpoint提前结束。
 
-每次局部饱和刷新clock与原deadline；卡15、一次push和单源饱和不代表整段完成。保护PLAN/Bib/原raw/credentials/继承Day6–9/13/14 receipts、daemon/旧log。只按exactmanifest，log stage HEAD+own append；commit后H3 freshfetch/ancestry/dryrun/HEAD:main非force。自身hash只入事后receipt，不伪造scheduler事件。
+下一步先冻结针对DerMateosian/Sunyar1974的定向回忆，再核本地两张source的DOI/raw/定义（attenuation与angular-coefficients可能不同对象），读对应原件sigma/maximum reference表。Ref26 Cieplicka2012 PRC86,054322是206Bi方法入口；Matta2017 Springer书DOI10.1007/978-3-319-53240-0也有metadata，未读body不认证校准。先解当前alpha_exp层，不扩大到新mode/Day17，187Au只reserve。
+
+保护PLAN/Bib/原raw/credentials/review和继承Day6–9/13/14 receipts/daemon/旧log；exactmanifest、log stage HEAD+own append，H3 freshfetch/ancestry/dryrun/HEAD:main非force。自身hash只入事后receipt。无待等研究process，旧失败入口不原样重试。

@@ -3,7 +3,7 @@ type: source
 title: "Sensharma 2021 博士论文：135Pr 与 187Au 的横向、纵向和手征 wobbling"
 aliases: [Sensharma 2021 wobbling thesis, Wobbling Motion in Nuclei dissertation]
 created: 2026-09-05
-updated: 2026-09-05
+updated: 2026-10-17
 status: ai-draft
 review_status: unreviewed
 source_type: phd-thesis-experiment-and-model
@@ -85,6 +85,13 @@ Nirupama Sensharma，*Wobbling Motion in Nuclei: Transverse, Longitudinal and Ch
 | SE21-6 | `135Pr` Dipole Bands 1/2 的 excitation energy、staggering、in-band `B(M1)/B(E2)` 和 interband large-E2-mixed links 被组合为 chiral partners candidate。 | author-interpretation | indirect | multiple-dependent | Figs.5.14–5.18；Ch.5.3 pp.137–140 | true |
 | SE21-7 | `135Pr` chiral-wobbler 的 PRM 角动量图显示三轴 aplanar geometry；作者在结尾说明 detailed theoretical interpretation 尚待后续发表。 | model-result + author-interpretation | indirect | multiple-dependent | Fig.5.19；Ch.5.3 pp.140–143 | true |
 | SE21-8 | 论文中的模型参数（如 `135Pr` `ε≈0.17`, `γ≈35°` TPSM；`187Au` PRM β/γ）不是直接实验形变测量。 | model-result | direct | multiple-dependent | Ch.5.1–5.2 | true |
+| SE21-9 | Eq2.45区分integer Mref=0与half-integer abs(Mref)=1/2的complete-alignment参考；Eq2.49定义alpha=rho/B，Eq2.50给离散CG tensor，Eq2.51的Gaussian指数分母是2sigma²。sigma是指数width，有限离散population的RMS须另算，不把其同名写成实际variance。 | tensor-reference-definition | direct | single | printed41–42/PDF63–64 Eqs2.45/2.49–2.51 | true |
+| SE21-10 | Table4.1对135Pr854.3keV列alpha2=.92(5)、alpha4=.30(1)、adopted sigma/J=.2；Table4.3的同线为yrast23/2−→19/2−，列A2exp=.352(1)、A4exp=−.212(1)。两表参数层和source correction不能未经核对相互替换。 | calibration-input-identity | direct-and-self-audit | multiple-dependent | printed97/PDF119 Table4.1；printed109/PDF131 Table4.3 | true |
+| SE21-11 | 本任务在同J=23/2、alpha=rho/B及half-integer参考条件下，精确CG/Stevens与独立LP给所有positive P的必要式7−10alpha2+3alpha4≥0；Table4.1均值给−1.3，字面quoted-margin矩形最大仍−.77。此为有条件的定义/校准合同失配，不是作者报告、统计拒绝或原数据错误判决；fullresponse/归一程序未得。 | our-inference | indirect | single | premises printed41–42 Eqs2.45/2.49/2.50；printed97 Table4.1；new canonical calibration audit | true |
+| SE21-12 | 854.3参考的below659.8 gate/singles给delta−.04(1)/−.06(1)，此处是DeltaI2的E2/M3对，不是M1/E2；450.2的below372.9/746.6两门给−1.95(3)/−1.85(3)。作者称这些控制支持gate保存角分布；未知共享Cov/response时不据字面误差重算显著性或推广为任意门独立定理。 | gate-control-and-multipole-boundary | direct-and-self-audit | multiple-dependent | printed100–102/PDF122–124 Figs4.14/4.15及正文；printed104/PDF126 pair说明 | true |
+| SE21-13 | 作者先合并对称rings形成17.27、34.58、50.07、58.28、69.82、80、90度七组，再逐组效率校准；DCO-like另用Table4.2的forward/middle/backward分组。不是14份独立镜像观测，也不能同别的R定义直接共用阈值。 | geometry-and-sorting-identity | direct-and-self-audit | multiple-dependent | printed96/PDF118；printed103/PDF125 Table4.2；printed151/PDF173 TableA.2 | true |
+| SE21-14 | 先用A2初值和Eq2.46/48求delta二根，因A4相对误差大而不另解其二次式；后续仍用W(theta)的A2/A4及chi²选择、细采样。不能将“不解A4二次式”误写成从未利用A4，也不能由初始independent proposal推断posterior Cov=0或全部分支权重已给。 | fit-recipe-boundary | direct-and-self-audit | single | printed98–99/PDF120–121 MCMC五步骤 | true |
+| SE21-15 | Table4.1 attenuation提取指向Ref26 Cieplicka2012 PRC86,054322；sigma对应关系指向Ref56 Mateosian/Sunyar1974 ADNDT13,391–406；Ref57是Matta2017 Springer书DOI10.1007/978-3-319-53240-0，Ref99为Yamazaki1967。这些是不同source/版本，未读正文者只作定向跟进线索。 | method-provenance-lead | direct-bibliographic | multiple-dependent | printed175/PDF197 Ref26；printed177/PDF199 Refs56/57；printed181/PDF203 Ref99 | true |
 
 ## Nuclear Structure Information
 
@@ -175,3 +182,11 @@ Nirupama Sensharma，*Wobbling Motion in Nuclei: Transverse, Longitudinal and Ch
 | `187Au` | Sensharma 2020 合并 105/115 MeV `19F+174Yb` Gammasphere runs；本 thesis 的 `187Au` 章节使用同一支持方结构和分析谱系，不作第二个实验计数。 | Guo 2022 的 HIRFL `18O` 外靶数据链提供独立 `R_ac+P` counter/reinterpretation；其 supplementary 是同一 Guo 实验的附属证据，不另计独立来源。 | 支持方与 Guo counter 数据可分层为不同实验链；reported band (3) 的身份、早期 conversion/β-decay 转述和低自旋替代解释仍未由底层原始来源完全闭合。 |
 
 必要伴随证据审计：两边都没有一套可统一比较的 partner-resolved lifetime 和 absolute `B(E2)/B(M1)`；当前 E2 fraction、relative ratios、`E_wobb` 和模型几何只能约束候选解释。missing polarization/弱 link、band identity 或 lifetime 若被后续原始数据改变，会触发 wobbling→TiP/single-particle/signature interpretation 的 belief revision。因而 `SE21-1..8` 的研究状态不提升，且不启动 L4。
+
+## 2026-10-17方法章定向回核与校准边界
+
+先冻结primed回忆，核原205页raw hash；本次全文仅检索定位，实际读PDF60–64、80–83、118–131的相关methods/table、PDF173和197/199/203相关reference。视觉核Eq2.45/2.49–2.51、Table4.1、Table4.3的854.3行、gate控制及七组角表。未重读全部205页，不以此核准Springer2022版本的页码/公式。旧SE21-1–8及review flags保留，新9–15仅Codex self-audit、true。
+
+[[se21-alignment-calibration-consistency]]用新的实际Table4.1输入/J=23/2复用通用finite-J CG helper，不重跑旧67Ga数据充学分。源自定义的Gaussian sigma/J=.2给(alpha2,alpha4)=(.894266,.689096)；逐个匹配alpha2/alpha4的width分别.175284/.350794。更强的positive-population证书排除该字面pair作共同nuclear rho/B；只是把“alpha_exp可以直接当nuclear alignment”的假设改为needs-review。换成非Gaussian P本身不足以消除该条件失配，实际calibration/geometry/gate及reference混合成分仍须核，不能宣布实验或作者code错误。
+
+另用明确doubled-spin CG与pureE2 photon basis给此23/2→19/2的complete-reference系数65/161、−26/161；adoptedGaussian的系数.361039/−.111283。Table4.3字面系数若在该pure-point约定直接相除，得到.871877/1.312769而非Table4.1的.92/.30，进一步表明层次尚未闭合。此计算不是E2/M3响应重拟合；原文small E2/M3、geometry、gate及production normalization均保留为边界，不生成新delta或wobbling裁决。

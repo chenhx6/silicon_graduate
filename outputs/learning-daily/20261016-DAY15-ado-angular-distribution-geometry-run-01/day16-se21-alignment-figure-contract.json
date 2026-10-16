@@ -1,0 +1,32 @@
+{
+  "question": "SE21 Table4.1的135Pr attenuation pair若按同一核rho/B解释，是否与positive population及adoptedGaussian相容？",
+  "claim": "先检验共同张量定义；若源pair离开正布居域，只能形成calibration/convention/readiness边界，不能直接判原数据或delta错误。",
+  "backend": "python, reused task choice",
+  "archetype": "quantitative grid, single constraint plane",
+  "panels": {
+    "single": "one actualTable4.1 reference pair anditsquotedmargins against allpositive-P hull andsource-defined Gaussian curve; mark adopted sigma/J=.2"
+  },
+  "data": "135Pr854.3row only;187Au row not part ofthis question andnotplotted; full24Mstates/12paired vertices included. No experimental events or synthetic count data.",
+  "size_mm": [
+    89,
+    88
+  ],
+  "formats": [
+    "svg",
+    "pdf",
+    "png"
+  ],
+  "raster_preview_dpi": 600,
+  "uncertainty": "literal quoted +/-margin rectangle, not jointCI or statistical rejectregion; original covariance unknown",
+  "model_identity": "exact source tensor reference J=23/2, |Mref|=.5; Gaussian exponentwidth. Conditional no actual response/gate refit.",
+  "review_risks": [
+    "alpha_experimental may include geometry/normalization not isolated in table",
+    "pureE2 calibration approximation; small E2/M3 source control retained",
+    "standard sigma width parameter is not exact discrete finite-J RMS",
+    "non-Gaussian positiveP cannotrepaira truepositivehull violation butfull response/convention maychange mapping",
+    "figure doesnot reassigndelta/spin orcollective mode"
+  ],
+  "final_size_glyph_floor_pt": 7,
+  "alignment": "single-panel not applicable, recordrender-time audit",
+  "image_integrity": "original derived chart, no source-image reuse/cropping"
+}

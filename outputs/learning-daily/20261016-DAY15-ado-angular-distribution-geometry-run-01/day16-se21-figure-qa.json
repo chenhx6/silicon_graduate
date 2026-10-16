@@ -1,0 +1,47 @@
+{
+  "at": "2026-10-17T02:39:55.788489+08:00",
+  "checks": [
+    {
+      "check": "source",
+      "exit_code": 0,
+      "summary": {
+        "ready": true,
+        "strict": false,
+        "counts": {
+          "PASS": 18,
+          "WARN": 3,
+          "FAIL": 0
+        }
+      }
+    },
+    {
+      "check": "glyph",
+      "exit_code": 0,
+      "minimum_pt": 7.0
+    },
+    {
+      "check": "collision",
+      "exit_code": 0,
+      "summary": {
+        "fail": 0,
+        "warn": 0,
+        "contained_fill_overlays": 0,
+        "contained_image_overlays": 0
+      }
+    }
+  ],
+  "physical_size_mm": [
+    88.99999927944606,
+    88.00000110202365
+  ],
+  "unchanged_numerics_after_render_fix": true,
+  "first_collision": "one off-viewport hull stroke was seen by auditor across tick; displayed polygon now explicitly clipped to viewport, source data unchanged",
+  "warning_review": [
+    "Mathtext rendered minimum7pt passes, source heuristic4.9 falsepositive",
+    "Actual89mm PDFwidth checked, source parser misread89/25.4 as89inches",
+    "PNG600dpi is reportpreview alongside editableSVG/PDF, noTIFFsubmission claim"
+  ],
+  "pdf_sha256": "7045d140043788f10e1edd6f4dc5a61d4763997deeebe7da8a0ca1475ee1c6b1",
+  "alignment": "single panel not applicable, render-time JSON recorded",
+  "additional_pure_E2_model": "New doubled-spin CG pure-E2 reference check added without changing displayed alpha hull/source data."
+}

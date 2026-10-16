@@ -1,0 +1,95 @@
+{
+  "at": "2026-10-17T02:16:38.173761+08:00",
+  "events": [
+    {
+      "role": "Crossref full metadata",
+      "url": "https://api.crossref.org/works/10.1103/3g4p-ncjn",
+      "status": 200,
+      "body_bytes": 22028,
+      "content_type": "application/json",
+      "metadata": {
+        "DOI": "10.1103/3g4p-ncjn",
+        "title": [
+          "Evolution of chirality from transverse wobbling in\n                    <mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\">\n                      <mml:mmultiscripts>\n                        <mml:mi>Pr</mml:mi>\n                        <mml:mprescripts/>\n                        <mml:none/>\n                        <mml:mn>135</mml:mn>\n                      </mml:mmultiscripts>\n                    </mml:math>"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2026,
+              2,
+              9
+            ]
+          ]
+        },
+        "link": [
+          {
+            "URL": "https://link.aps.org/accepted/10.1103/3g4p-ncjn",
+            "content-type": "application/pdf",
+            "content-version": "am",
+            "intended-application": "unspecified"
+          },
+          {
+            "URL": "https://link.aps.org/article/10.1103/3g4p-ncjn",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "syndication"
+          },
+          {
+            "URL": "http://harvest.aps.org/v2/journals/articles/10.1103/3g4p-ncjn/fulltext",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "license": [
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2026,
+                  2,
+                  9
+                ]
+              ],
+              "date-time": "2026-02-09T00:00:00Z",
+              "timestamp": 1770595200000
+            },
+            "content-version": "vor",
+            "delay-in-days": 0,
+            "URL": "https://link.aps.org/licenses/aps-default-license"
+          },
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2027,
+                  2,
+                  9
+                ]
+              ],
+              "date-time": "2027-02-09T00:00:00Z",
+              "timestamp": 1802131200000
+            },
+            "content-version": "am",
+            "delay-in-days": 365,
+            "URL": "https://link.aps.org/licenses/aps-default-accepted-manuscript-license"
+          }
+        ],
+        "URL": "https://doi.org/10.1103/3g4p-ncjn",
+        "resource": {
+          "primary": {
+            "URL": "https://link.aps.org/doi/10.1103/3g4p-ncjn"
+          }
+        }
+      }
+    },
+    {
+      "role": "Publisher public abstract",
+      "url": "https://journals.aps.org/prc/abstract/10.1103/3g4p-ncjn",
+      "status": 403,
+      "body_bytes": 5550,
+      "content_type": "text/html; charset=UTF-8"
+    }
+  ],
+  "boundary": "Metadata/accessible public page only; no private entitlement or VoR PDF assumed"
+}

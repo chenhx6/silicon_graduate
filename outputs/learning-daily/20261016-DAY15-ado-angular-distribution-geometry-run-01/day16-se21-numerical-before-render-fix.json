@@ -1,0 +1,131 @@
+{
+  "data_identity": "DAY16-PREVIEW-SE21-PR135-854-CALIBRATION-01",
+  "data_kind": "Published calibration row interpreted conditionally in the source tensor convention, not raw experiment refit",
+  "input_sha256": "7c58acdd67fae485eb7aef90107b332fb94780501f3ad21c99ae814ce304c13e",
+  "script_sha256": "7c58c48430f0159b69e28978295cf37e4ca412a8b8ae649349c3666f9a46f16e",
+  "helper_hashes": {
+    "day14_alignment_formula_contract.py": "e3d14871c7d0074b89e35326fa8b9456b4d7c78219989505a944df4be4649f11",
+    "day14_unobserved_feeding_transfer.py": "c2e9856c254082077288059ebab443abbe8244331413713393783fc7ecd1837c"
+  },
+  "actual_spin_twice": 23,
+  "reference_abs_M": ".5",
+  "exact_positive_population_certificate": {
+    "necessary": "7 - 10 alpha2 + 3 alpha4 >= 0",
+    "at_table_mean": "-13/10",
+    "maximum_on_literal_quoted_box": "-77/100",
+    "minimum_vertex_value": "0",
+    "alpha4_min_at_source_alpha2": "11/15",
+    "alpha2_max_at_source_alpha4": "79/100",
+    "point_LP_status": 2,
+    "literal_box_LP_status": 2,
+    "no_confidence_level_assigned": true
+  },
+  "paired_vertices": [
+    {
+      "abs_M": "1/2",
+      "alpha2": "1",
+      "alpha4": "1",
+      "dual": "0"
+    },
+    {
+      "abs_M": "3/2",
+      "alpha2": "137/143",
+      "alpha4": "123/143",
+      "dual": "0"
+    },
+    {
+      "abs_M": "5/2",
+      "alpha2": "125/143",
+      "alpha4": "85/143",
+      "dual": "6/143"
+    },
+    {
+      "abs_M": "7/2",
+      "alpha2": "107/143",
+      "alpha4": "3/13",
+      "dual": "30/143"
+    },
+    {
+      "abs_M": "9/2",
+      "alpha2": "83/143",
+      "alpha4": "-27/143",
+      "dual": "90/143"
+    },
+    {
+      "abs_M": "11/2",
+      "alpha2": "53/143",
+      "alpha4": "-87/143",
+      "dual": "210/143"
+    },
+    {
+      "abs_M": "13/2",
+      "alpha2": "17/143",
+      "alpha4": "-137/143",
+      "dual": "420/143"
+    },
+    {
+      "abs_M": "15/2",
+      "alpha2": "-25/143",
+      "alpha4": "-15/13",
+      "dual": "756/143"
+    },
+    {
+      "abs_M": "17/2",
+      "alpha2": "-73/143",
+      "alpha4": "-157/143",
+      "dual": "1260/143"
+    },
+    {
+      "abs_M": "19/2",
+      "alpha2": "-127/143",
+      "alpha4": "-97/143",
+      "dual": "180/13"
+    },
+    {
+      "abs_M": "21/2",
+      "alpha2": "-17/13",
+      "alpha4": "3/13",
+      "dual": "270/13"
+    },
+    {
+      "abs_M": "23/2",
+      "alpha2": "-23/13",
+      "alpha4": "23/13",
+      "dual": "30"
+    }
+  ],
+  "Gaussian": {
+    "sigma_over_J_adopted": 0.2,
+    "width_parameter": 2.3000000000000003,
+    "predicted_alpha2_alpha4": [
+      0.8942662041976024,
+      0.6890960786436691
+    ],
+    "actual_discrete_population_RMS": 2.2999951304109936,
+    "width_from_alpha2_only": 0.1752844540058004,
+    "alpha2_only_width_pair": [
+      0.92,
+      0.7566061546151506
+    ],
+    "width_from_alpha4_only": 0.35079445347110033,
+    "alpha4_only_width_pair": [
+      0.6734201395411368,
+      0.29999999999999916
+    ]
+  },
+  "conditions": [
+    "Reuse existing generic exact finite-J tensor helpers; do not rerun old worksheet/check count as new work",
+    "Use J=23/2 from actual new source row, not integer-only D96 photon kernel",
+    "Unknown covariance: quoted-margin rectangle is not a confidence region",
+    "Non-Gaussian positive populations should be tested before blaming Gaussian approximation",
+    "No claim that raw data or author program is unphysical; actual alpha experimental interpretation remains a condition",
+    "No delta/spin/mode reassignment or formalDay16 credit"
+  ],
+  "not_claimed": [
+    "unphysical experimental data",
+    "author implementation error",
+    "new delta or sigma measurement",
+    "mode verdict",
+    "formal Day16 credit"
+  ]
+}

@@ -560,6 +560,7 @@ updated: 2026-10-17
 
 ## Research Notes
 
+- [[se21-alignment-calibration-consistency]] - 135Pr854.3参考的alpha参数层、positive-population条件证书、Gaussian与pureE2核验；保持实际响应/归一边界。
 - [[135pr-mixing-branch-input-contract]] - 135Pr同线A/P/Rac/δ、采用Q与自有a的谱系、共享校准条件敏感性；不重拟合实际分支。
 
 ## Decisions and Failures

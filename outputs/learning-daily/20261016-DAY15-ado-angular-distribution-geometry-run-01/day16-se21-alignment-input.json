@@ -1,0 +1,78 @@
+{
+  "data_identity": "DAY16-PREVIEW-SE21-PR135-854-CALIBRATION-01",
+  "data_kind": "Published calibration row interpreted conditionally in the source tensor convention, not raw experiment refit",
+  "source": "knowledge/sources/sensharma-2021-wobbling-motion-135pr-187au.md",
+  "raw_path": "raw/papers/degree dissertation/Wobbling_Motion_in_Nuclei.pdf",
+  "raw_sha256": "954e6cc853536555f5a691d6eaa257aaa051f79960de5eb47942f28fb335ef74",
+  "reference": {
+    "E_keV": "854.3",
+    "Ji_twice": 23,
+    "Jf_twice": 19,
+    "author_multipolarity": "pureE2 approximation; source also labels small E2/M3 admixture",
+    "spin_locator": "printed109/PDF131 Table4.3",
+    "coefficient_locator": "printed97/PDF119 Table4.1",
+    "alpha2": "0.92",
+    "alpha2_error": "0.05",
+    "alpha4": "0.30",
+    "alpha4_error": "0.01",
+    "sigma_over_J_adopted": "0.2",
+    "covariance": null,
+    "same_table_A2fit": "0.352",
+    "same_table_A4fit": "-0.212",
+    "same_table_fit_error": "0.001",
+    "fit_scope": "Table4.3 alone does not recover all normalization/geometry operations"
+  },
+  "definition": {
+    "reference_m_abs": "1/2",
+    "alpha": "rho_k/B_k, Eq2.49",
+    "rho": "sqrt(2J+1) sum (-1)^(J-M) CG(J,M,J,-M;k,0) P(M), Eq2.50",
+    "P": "exp(-m^2/(2sigma^2))/sum exp(...), Eq2.51",
+    "locators": [
+      "printed41/PDF63 Eq2.45",
+      "printed42/PDF64 Eq2.49-2.51"
+    ]
+  },
+  "gate_controls": [
+    {
+      "target_keV": "854.3",
+      "gate": "659.8 below E2",
+      "delta": "-0.04",
+      "error": "0.01",
+      "identity": "DeltaI2 E2/M3 pair, not M1/E2",
+      "locator": "printed100/PDF122 Fig4.14"
+    },
+    {
+      "target_keV": "854.3",
+      "gate": "singles",
+      "delta": "-0.06",
+      "error": "0.01",
+      "identity": "same DeltaI2 pair",
+      "locator": "printed101/PDF123 continuation"
+    },
+    {
+      "target_keV": "450.2",
+      "gate": "372.9 below E2",
+      "delta": "-1.95",
+      "error": "0.03",
+      "identity": "M1/E2",
+      "locator": "printed101/PDF123 Fig4.15"
+    },
+    {
+      "target_keV": "450.2",
+      "gate": "746.6 below mixed",
+      "delta": "-1.85",
+      "error": "0.03",
+      "identity": "M1/E2",
+      "locator": "printed102/PDF124"
+    }
+  ],
+  "frozen_hypothesis": "Source-informed algebraic screening suggests Table4.1 pair may be incompatible with a common positive population if literally treated as nuclear rho/B. This hypothesis is not a blind prediction and has not been numerically evaluated in this new worksheet yet. Test exact tensor/reference meaning and retain possible convention/response/normalization boundaries.",
+  "analysis_contract": [
+    "Reuse existing generic exact finite-J tensor helpers; do not rerun old worksheet/check count as new work",
+    "Use J=23/2 from actual new source row, not integer-only D96 photon kernel",
+    "Unknown covariance: quoted-margin rectangle is not a confidence region",
+    "Non-Gaussian positive populations should be tested before blaming Gaussian approximation",
+    "No claim that raw data or author program is unphysical; actual alpha experimental interpretation remains a condition",
+    "No delta/spin/mode reassignment or formalDay16 credit"
+  ]
+}

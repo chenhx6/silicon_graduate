@@ -114,6 +114,41 @@ Lv Fig.2 还把旧 Matta 角分布的小模再分析标为 −.64/−.5；这与
 - 正偏振并非所有混合跃迁均为大模分支，具体 P–Rac 曲线与 σ/I 约束仍须匹配实际选择。SI p4 称 sigma 为 variance，但未在该段给 Gaussian 指数式；不能自动当成 D96 的 std。
 - 新 JUROGAM acquisition 独立于旧 Gammasphere/INGA；其旧曲线重析、主文、SI 及采用的 Q 校准具有依赖关系。独立采集不等于所有理论与标定假设独立。
 
+### 后续支持方：固定取向的 χ² 与完整 profile 分开
+
+[[sensharma-2026-evolution-chirality-transverse-wobbling-135pr]] SH26-12/13 的实际阅读对象是 arXiv v2。Table I 与 Fig.12 给：
+
+| 路径 | v2 表列 Eγ/keV | 采用的 δ，仅statistical误差 | Fig.12另一根，无表列误差 |
+| --- | --- | --- | --- |
+| 17/2−→15/2− | 746.3(9) | −1.40(+.14/−.12) | −.59 |
+| 21/2−→19/2− | 811.6(10) | −1.63(+.02/−.03) | −.52 |
+| 25/2−→23/2− | 754.2(7) | −2.16(+.06/−.05) | −.40 |
+
+这些行与 Matta2015、Lv 对旧曲线的再分析、新 JUROGAM 数据分开保存。能量别名由路径和作者连接识别，不把不同 δ summary 混成一条未标记“旧数据结果”。
+
+Fig.12 明示 sigma/I=.2，纵轴为 log10(χ²)。它报告在该条件下采用根的 χ² 较低；数学上“存在两根/两个局部极小”不要求它们等高，反过来一个较低的全局极小也不证明放开全部 nuisance 后仅余一个物理解。不能把纵轴直接读成 Δχ²、reduced χ² 或拒绝显著性；该图未给可复算的逐点协方差、完整 nuisance treatment 或自由度合同。
+
+SH26-16 的 MCMC 文字是先选较低 χ² 根，再在其邻域细采样。把 a2/a4 当独立 proposal 坐标，不等于实验系数的 posterior covariance 为零，也没有提供全部分支的积分权重。本页不据此宣称其程序有错；需要原链、priors、likelihood 与诊断才能独立核验。
+
+若 η 包含 alignment、feeding、geometry、背景和校准，后续比较应明确计算
+
+$$H_{\rm profile}(\delta)=\min_\eta H(\delta,\eta)
+\le H(\delta,\eta_0).$$
+
+不同分支在这一步各自下降多少尚未知，固定切片的排序不能从此不等式单独推广。若采用固定、正定 Σ 的 Gaussian net-yield 模型，y 与模板 t 的共同 scale c 可先解析消去：
+
+$$c_*=\frac{t^\mathsf{T}\Sigma^{-1}y}{t^\mathsf{T}\Sigma^{-1}t},
+\qquad H_{\min c}=y^\mathsf{T}\Sigma^{-1}y-
+\frac{(t^\mathsf{T}\Sigma^{-1}y)^2}{t^\mathsf{T}\Sigma^{-1}t}.$$
+
+这要求分母正、正 scale 约束未激活且 Σ 固定；Poisson counts、背景子问题、依赖 c 的 covariance 或已归一数据须另写相应 likelihood。它是一份可检验的设计公式，当前未代入源图估数重拟合。
+
+### 公开输入已经检查到的边界
+
+SH26-14/15：arXiv v2 的官方 TeX 归档 hash 为 cdda3eceff0876c3774b253d91e1e41441941a3a2dbd9d358f64f2b785312278，29项包括26PDF、TeX、BibTeX和README，没有原始 event/角度表/逐环 efficiency/Cov/fit code，26PDF也无嵌入附件。绘图 PDF 是可检查的公开表示，不能当完整 production input；TeX 中的 V3 文件名不改其 arXiv v2 身份。
+
+正文 Sec.II 写角分布采用合并数据，Fig.12 又引用早期工作。缺少逐图 event/run ledger，故确认的是 shared lineage，不能认证与2015图逐事件完全相同，也不能据发表篇数重复计独立采集。publisher页面403、VoR正文/DAS未得，当前结论限于核过的v2和公开归档。
+
 ## Assumptions
 
 只用原文舍入 summaries 和显式采用的 Q；M1/E2 fraction 采用两分量辐射模型。没有重新积分实际 clover 接受，也没有将仅整数 spin 验证过的计算核用于 135Pr 半整数路径。
@@ -138,7 +173,7 @@ Lv Fig.2 还把旧 Matta 角分布的小模再分析标为 −.64/−.5；这与
 
 ## Open Questions
 
-Matta 后续完整分析或学位论文是否给出可重放的角分布输入、INGA Q 和逐门计数？ M15-17现保存DataCite登记候选DOI [10.7274/sj13902283h](https://doi.org/10.7274/sj13902283h)，题名为Exotic Nuclear Excitations: The Transverse Wobbling Mode in 135Pr；registry仅Text、无file URL，机构正文未取得，不能宣称已核对PhD全文。Lv 的 calibration/error budget 是否有未列出的 joint covariance？这些输入将决定能否从合同进入实验重析；目前未取得，L4 not-ready。
+Matta 后续完整分析或学位论文是否给出可重放的角分布输入、INGA Q 和逐门计数？ SE21-15另提供其2017 Springer书DOI10.1007/978-3-319-53240-0的方法线索，未取得对应正文前不与2015登记文本混成同一version。 M15-17现保存DataCite登记候选DOI [10.7274/sj13902283h](https://doi.org/10.7274/sj13902283h)，题名为Exotic Nuclear Excitations: The Transverse Wobbling Mode in 135Pr；registry仅Text、无file URL，机构正文未取得，不能宣称已核对PhD全文。Lv 的 calibration/error budget 是否有未列出的 joint covariance？这些输入将决定能否从合同进入实验重析；目前未取得，L4 not-ready。
 
 ## Human Review
 
@@ -147,3 +182,5 @@ Matta 后续完整分析或学位论文是否给出可重放的角分布输入�
 ## Promotion or Rejection History
 
 2026-10-17：Day15 窗口内的 Day16 无学分预习创建；source 原件/标定闭合和条件敏感性已检查。完整 response/Σ 未得，保留 provisional，不给 Day16 正式学分或实验模式结论。
+
+后续alignment应用另见[[se21-alignment-calibration-consistency]]及[[sensharma-2021-wobbling-motion-135pr-187au]] SE21-9–15：源alpha_exp与nuclear rho/B层尚未闭合。这使“直接采用同一sigma/J数值”成为需要验证的迁移假设，不直接修改本页任何已发表delta/P数值。

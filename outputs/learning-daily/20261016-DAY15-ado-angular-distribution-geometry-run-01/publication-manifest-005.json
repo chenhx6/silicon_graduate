@@ -1,0 +1,72 @@
+{
+  "checkpoint": "005",
+  "branch": "main",
+  "subject": "Audit 135Pr alignment calibration and conditional branch profiles",
+  "paths": [
+    "knowledge/index.md",
+    "knowledge/methods/angular-distribution.md",
+    "knowledge/observables/spin-alignment-attenuation-factor.md",
+    "knowledge/projects/135pr-wobbling-controversy.md",
+    "knowledge/research-notes/135pr-mixing-branch-input-contract.md",
+    "knowledge/research-notes/se21-alignment-calibration-consistency.md",
+    "knowledge/sources/sensharma-2021-wobbling-motion-135pr-187au.md",
+    "knowledge/sources/sensharma-2026-evolution-chirality-transverse-wobbling-135pr.md",
+    "system/scripts/day16_se21_alignment_audit.py",
+    "system/handoff.md",
+    "system/log.md",
+    "outputs/learning-daily/20261016-DAY15-ado-angular-distribution-geometry.md",
+    "outputs/learning-daily/20261016-DAY15-ado-angular-distribution-geometry-run-01/run.json",
+    "outputs/learning-daily/20261016-DAY15-ado-angular-distribution-geometry-run-01/continuation.md",
+    "outputs/learning-daily/20261016-DAY15-ado-angular-distribution-geometry-run-01/research-checkpoint.json",
+    "outputs/learning-daily/20261016-DAY15-ado-angular-distribution-geometry-run-01/publication-004.json",
+    "outputs/learning-daily/20261016-DAY15-ado-angular-distribution-geometry-run-01/verification-prepublication-005.json",
+    "outputs/learning-daily/20261016-DAY15-ado-angular-distribution-geometry-run-01/candidate-refresh-004.json",
+    "outputs/learning-daily/20261016-DAY15-ado-angular-distribution-geometry-run-01/task-log-entry-005.txt",
+    "outputs/learning-daily/20261016-DAY15-ado-angular-distribution-geometry-run-01/day16-branch-method-reference-before-source-frozen.md",
+    "outputs/learning-daily/20261016-DAY15-ado-angular-distribution-geometry-run-01/day16-branch-method-reference-freeze.json",
+    "outputs/learning-daily/20261016-DAY15-ado-angular-distribution-geometry-run-01/day16-se21-method-coverage.json",
+    "outputs/learning-daily/20261016-DAY15-ado-angular-distribution-geometry-run-01/day16-se21-alignment-audit.json",
+    "outputs/learning-daily/20261016-DAY15-ado-angular-distribution-geometry-run-01/day16-se21-alignment-figure-contract.json",
+    "outputs/learning-daily/20261016-DAY15-ado-angular-distribution-geometry-run-01/day16-se21-alignment-input-freeze.json",
+    "outputs/learning-daily/20261016-DAY15-ado-angular-distribution-geometry-run-01/day16-se21-alignment-input.json",
+    "outputs/learning-daily/20261016-DAY15-ado-angular-distribution-geometry-run-01/day16-se21-alignment-region.alignment.json",
+    "outputs/learning-daily/20261016-DAY15-ado-angular-distribution-geometry-run-01/day16-se21-alignment-region.collision-audit.json",
+    "outputs/learning-daily/20261016-DAY15-ado-angular-distribution-geometry-run-01/day16-se21-alignment-region.pdf",
+    "outputs/learning-daily/20261016-DAY15-ado-angular-distribution-geometry-run-01/day16-se21-alignment-region.png",
+    "outputs/learning-daily/20261016-DAY15-ado-angular-distribution-geometry-run-01/day16-se21-alignment-region.svg",
+    "outputs/learning-daily/20261016-DAY15-ado-angular-distribution-geometry-run-01/day16-se21-figure-qa.json",
+    "outputs/learning-daily/20261016-DAY15-ado-angular-distribution-geometry-run-01/day16-se21-first-collision-failure.json",
+    "outputs/learning-daily/20261016-DAY15-ado-angular-distribution-geometry-run-01/day16-se21-numerical-before-render-fix.json",
+    "outputs/learning-daily/20261016-DAY15-ado-angular-distribution-geometry-run-01/day16-se21-positive-vertices.csv",
+    "outputs/learning-daily/20261016-DAY15-ado-angular-distribution-geometry-run-01/day16-se21-source-qa-final.txt",
+    "outputs/learning-daily/20261016-DAY15-ado-angular-distribution-geometry-run-01/day16-se21-glyph-qa-final.txt",
+    "outputs/learning-daily/20261016-DAY15-ado-angular-distribution-geometry-run-01/day16-se21-collision-qa-final.txt",
+    "outputs/learning-daily/20261016-DAY15-ado-angular-distribution-geometry-run-01/day16-se21-method-followup-metadata.json",
+    "outputs/learning-daily/20261016-DAY15-ado-angular-distribution-geometry-run-01/day16-sh26-branch-before-source-frozen.md",
+    "outputs/learning-daily/20261016-DAY15-ado-angular-distribution-geometry-run-01/day16-sh26-pdf-container-audit.json",
+    "outputs/learning-daily/20261016-DAY15-ado-angular-distribution-geometry-run-01/day16-sh26-public-input-discovery.json",
+    "outputs/learning-daily/20261016-DAY15-ado-angular-distribution-geometry-run-01/day16-sh26-publisher-input-discovery.json",
+    "outputs/learning-daily/20261016-DAY15-ado-angular-distribution-geometry-run-01/day16-sh26-recall-freeze.json",
+    "outputs/learning-daily/20261016-DAY15-ado-angular-distribution-geometry-run-01/day16-sh26-source-archive-audit.json",
+    "outputs/learning-daily/20261016-DAY15-ado-angular-distribution-geometry-run-01/day16-sh26-source-identity.json",
+    "outputs/learning-daily/20261016-DAY15-ado-angular-distribution-geometry-run-01/publication-manifest-005.json"
+  ],
+  "special_staging": {
+    "system/log.md": "HEAD plus own append005 only, preserve inherited worktree log"
+  },
+  "gitignore_exceptions": {
+    "paths": [
+      "outputs/learning-daily/20261016-DAY15-ado-angular-distribution-geometry-run-01/day16-se21-alignment-region.pdf",
+      "outputs/learning-daily/20261016-DAY15-ado-angular-distribution-geometry-run-01/day16-se21-alignment-region.png"
+    ],
+    "reason": "Original derived report figure only, no raw PDF/archive"
+  },
+  "course": "formal15 credited once, partial16 only; windowactive originaldeadline",
+  "exclusions": [
+    "all raw including source.tar and userthesis",
+    "tmp/",
+    "PLAN/Bib/credentials",
+    "inherited receipts/daemon/log",
+    "full205page location-scan snippets and transient checks"
+  ]
+}

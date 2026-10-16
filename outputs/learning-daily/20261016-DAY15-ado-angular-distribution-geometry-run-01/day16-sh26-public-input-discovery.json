@@ -1,0 +1,185 @@
+{
+  "at": "2026-10-17T02:12:38.509991+08:00",
+  "boundaries": "Public versioned source inspection only; no code execution, no private access, raw archive never staged",
+  "events": [
+    {
+      "role": "versioned arXiv landing",
+      "url": "https://arxiv.org/abs/2403.10749v2",
+      "status": 200,
+      "body_bytes": 44421,
+      "content_type": "text/html; charset=utf-8",
+      "title": "[2403.10749v2] Evolution of chirality from transverse wobbling in $^{135}$Pr",
+      "file_links": [
+        {
+          "text": "Advanced search",
+          "href": "https://arxiv.org/search/advanced"
+        },
+        {
+          "text": "TeX Source",
+          "href": "/src/2403.10749v2"
+        }
+      ],
+      "version_history": [
+        "Submission history From: Nirupama Sensharma [ view email ] [v1] Sat, 16 Mar 2024 00:52:57 UTC (4,863 KB) [v2] Thu, 15 Jan 2026 16:35:02 UTC (5,689 KB)"
+      ]
+    },
+    {
+      "role": "versioned public source package",
+      "url": "https://arxiv.org/src/2403.10749v2",
+      "status": 200,
+      "content_type": "application/gzip",
+      "content_length": "5825886",
+      "archive_valid": true,
+      "members": [
+        {
+          "name": "00README.json",
+          "bytes": 227,
+          "kind": "file"
+        },
+        {
+          "name": "135Pr_476.pdf",
+          "bytes": 23839,
+          "kind": "file"
+        },
+        {
+          "name": "135Pr_572.pdf",
+          "bytes": 23427,
+          "kind": "file"
+        },
+        {
+          "name": "135Pr_642.pdf",
+          "bytes": 24477,
+          "kind": "file"
+        },
+        {
+          "name": "135Pr_dipole.pdf",
+          "bytes": 11888,
+          "kind": "file"
+        },
+        {
+          "name": "747_angdis_chi2.pdf",
+          "bytes": 20754,
+          "kind": "file"
+        },
+        {
+          "name": "755_angdis_chi2.pdf",
+          "bytes": 20299,
+          "kind": "file"
+        },
+        {
+          "name": "813_angdis_chi2.pdf",
+          "bytes": 20809,
+          "kind": "file"
+        },
+        {
+          "name": "ang_mom2.pdf",
+          "bytes": 25314,
+          "kind": "file"
+        },
+        {
+          "name": "chiral_wobb.bib",
+          "bytes": 44472,
+          "kind": "file"
+        },
+        {
+          "name": "chiral_wobb.pdf",
+          "bytes": 27576,
+          "kind": "file"
+        },
+        {
+          "name": "chiral_wobb_prc_V3.tex",
+          "bytes": 64029,
+          "kind": "file"
+        },
+        {
+          "name": "double_498_459e.pdf",
+          "bytes": 7248,
+          "kind": "file"
+        },
+        {
+          "name": "double_gate_373_746e.pdf",
+          "bytes": 5461,
+          "kind": "file"
+        },
+        {
+          "name": "double_gate_520_554e.pdf",
+          "bytes": 8477,
+          "kind": "file"
+        },
+        {
+          "name": "energy.pdf",
+          "bytes": 33325,
+          "kind": "file"
+        },
+        {
+          "name": "Ewobb.pdf",
+          "bytes": 19946,
+          "kind": "file"
+        },
+        {
+          "name": "inset.pdf",
+          "bytes": 21033,
+          "kind": "file"
+        },
+        {
+          "name": "qtr_135Pr_inter.pdf",
+          "bytes": 20774,
+          "kind": "file"
+        },
+        {
+          "name": "qtr_135Pr_intra.pdf",
+          "bytes": 23689,
+          "kind": "file"
+        },
+        {
+          "name": "SCS_B1_neutron_odd.pdf",
+          "bytes": 1425266,
+          "kind": "file"
+        },
+        {
+          "name": "SCS_B1_total_even.pdf",
+          "bytes": 892605,
+          "kind": "file"
+        },
+        {
+          "name": "SCS_B1_total_odd.pdf",
+          "bytes": 830520,
+          "kind": "file"
+        },
+        {
+          "name": "SCS_B2_neutron_odd.pdf",
+          "bytes": 1124373,
+          "kind": "file"
+        },
+        {
+          "name": "SCS_B2_total_even.pdf",
+          "bytes": 766103,
+          "kind": "file"
+        },
+        {
+          "name": "SCS_B2_total_odd.pdf",
+          "bytes": 620174,
+          "kind": "file"
+        },
+        {
+          "name": "sum_db1_to_db2e.pdf",
+          "bytes": 14827,
+          "kind": "file"
+        },
+        {
+          "name": "sum_double_gates_db1_db2e.pdf",
+          "bytes": 14712,
+          "kind": "file"
+        },
+        {
+          "name": "yraste.pdf",
+          "bytes": 18620,
+          "kind": "file"
+        }
+      ],
+      "raw": "raw/papers/gpt/day15-20261016/sh26-arxiv-2403.10749v2-source.tar",
+      "sha256": "cdda3eceff0876c3774b253d91e1e41441941a3a2dbd9d358f64f2b785312278",
+      "bytes": 5825886
+    }
+  ]
+}

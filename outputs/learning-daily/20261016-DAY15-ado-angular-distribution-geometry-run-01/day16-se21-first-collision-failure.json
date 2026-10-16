@@ -1,0 +1,48 @@
+{
+  "pdf": "outputs/learning-daily/20261016-DAY15-ado-angular-distribution-geometry-run-01/day16-se21-alignment-region.pdf",
+  "auditable": true,
+  "verdict": "FIX BEFORE DELIVERY",
+  "page_count": 1,
+  "visible_text_box_count": 18,
+  "text_trace_count": 22,
+  "stroke_path_count": 30,
+  "filled_region_count": 24,
+  "image_region_count": 0,
+  "summary": {
+    "fail": 1,
+    "warn": 0,
+    "contained_fill_overlays": 0,
+    "contained_image_overlays": 0
+  },
+  "thresholds": {
+    "text_inset_pt": 0.6,
+    "min_overlap_ratio": 0.05,
+    "clipping_tolerance_pt": 0.5
+  },
+  "findings": [
+    {
+      "severity": "FAIL",
+      "kind": "text-stroke",
+      "page": 1,
+      "message": "Text is crossed by 1 stroked path(s)",
+      "text": "0.7",
+      "text_bbox": [
+        39.4500846862793,
+        201.2876434326172,
+        51.37730407714844,
+        208.7876434326172
+      ],
+      "other_text": null,
+      "other_bbox": [
+        -1365.378662109375,
+        -30.2899169921875,
+        216.8153839111328,
+        375.63311767578125
+      ],
+      "object_count": 1,
+      "object_indexes": [
+        2
+      ]
+    }
+  ]
+}

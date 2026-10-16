@@ -224,3 +224,5 @@ Matta 2015 的 yrast/side-band pair 是否满足 transverse-wobbling 判据？Se
 本段是Day15窗口内的Day16无学分预习，Codex self-audit，不扩张此前human-reviewed范围。[[135pr-mixing-branch-input-contract]]新增两原表的逐线A/P/Rac/δ合同、Lv采用Herzan Q但保留自有a的谱系（Q原件见[[herzan-2015-193bi-spectroscopy]] HE15-10）、Q变换的舍入闭合和共享校准的条件Σ；原M15-1–15/L22-1–15人审行及本project原判断保留。
 
 大/小模差异不能只靠KS/RB换号消除；Matta A与Lv P又不能直接比数值。实际共同响应/计数/背景及P–Rac Cov未得，新表不是raw likelihood重算，Sensharma2026与Guo/Lv的分支争议仍open，不形成wobbling/TiP排序。下一高价值输入是Matta完整分析/论文的实际角分布与INGA标定，而非重复绘制旧toy。
+
+本run后续新增两项方法边界：[[sensharma-2026-evolution-chirality-transverse-wobbling-135pr]] SH26-12–16核Fig12固定sigma/I=.2/log10chi²及public source包，保留作者分支偏好而不把它当full nuisance profile；[[sensharma-2021-wobbling-motion-135pr-187au]] SE21-9–15与[[se21-alignment-calibration-consistency]]发现854.3校准若按同nuclear rho/B直接解释则有条件失配。两者仍是方法/输入合同，不更改本project的集体模式排序或原human-review范围。

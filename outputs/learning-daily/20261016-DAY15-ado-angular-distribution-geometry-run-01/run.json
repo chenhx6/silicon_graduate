@@ -50,7 +50,7 @@
   "active_recall_sha256": "91eee8abb4bce71d0447617b1d5cb0d64240259115b9522a012963872cb25c67",
   "continuation_prompt": "/workspace/wiki/outputs/learning-daily/20261016-DAY15-ado-angular-distribution-geometry-run-01/continuation.md",
   "research_checkpoint": "/workspace/wiki/outputs/learning-daily/20261016-DAY15-ado-angular-distribution-geometry-run-01/research-checkpoint.json",
-  "last_agent_checkpoint_at": "2026-10-17T02:04:42.061260+08:00",
+  "last_agent_checkpoint_at": "2026-10-17T02:49:56.139468+08:00",
   "agent_goal_state": "active",
   "publications": [
     {
@@ -76,6 +76,14 @@
       "commit_hash": "8eaef6fc2f0f6a09fb7798d5724fd672cc207540",
       "status": "checkpoint-pushed",
       "receipt": "outputs/learning-daily/20261016-DAY15-ado-angular-distribution-geometry-run-01/publication-003.json"
+    },
+    {
+      "checkpoint": 4,
+      "branch": "main",
+      "subject": "Audit 135Pr observable identities and shared calibration response",
+      "commit_hash": "3f48c8480e55560c30d43896a56e861d8b9d52bc",
+      "status": "checkpoint-pushed",
+      "receipt": "outputs/learning-daily/20261016-DAY15-ado-angular-distribution-geometry-run-01/publication-004.json"
     }
   ],
   "formal_day15_card_audit": "complete",
@@ -96,5 +104,13 @@
     "run_window_complete": false
   },
   "study_window_status": "active-partial16",
-  "latest_verification": "outputs/learning-daily/20261016-DAY15-ado-angular-distribution-geometry-run-01/verification-prepublication-004.json"
+  "latest_verification": "outputs/learning-daily/20261016-DAY15-ado-angular-distribution-geometry-run-01/verification-prepublication-005.json",
+  "agent_clock_observation": {
+    "clock_tool_UTC": "2026-10-16 18:48:26 UTC",
+    "now_local": "2026-10-17T02:48:26+08:00",
+    "hard_deadline": "2026-10-17T15:00:00+08:00",
+    "minutes_to_deadline": 731.5666666666667,
+    "decision": "continue",
+    "kind": "agent clock observation, not a synthetic scheduler event"
+  }
 }

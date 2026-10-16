@@ -1,5 +1,5 @@
 {
-  "captured_at": "2026-10-17T02:04:42.061260+08:00",
+  "captured_at": "2026-10-17T02:49:56.139468+08:00",
   "session_id": "01a14510-aec7-7e00-aa23-f7c77a5124bc",
   "run_id": "2026-10-16-day-15-01",
   "hard_deadline": "2026-10-17T15:00:00+08:00",
@@ -121,7 +121,7 @@
       "visual_appendix": "A.10–A.19 whole-page contact sheets; no precise covariance digitization"
     }
   },
-  "current_status": "Formal15complete/credited once; next16/count15; windowactive. Partial16 source phase bridge normalized and actualPr135 A/P calibration identity complete; 19writebackitems/21checkedpaths/19changed. Noformal16/no17.",
+  "current_status": "Card15credited once next16/count15; windowactive original15:00. Publication004pushed. Pendingpacket005: SH26sourcearchive/fixedsigma profile andSE21targetedmethods/calibration positiveP certificate/pureE2 check/figure,23writebackitems. Noformal16/no17.",
   "worksheet": {
     "input_sha256": "e8e31f0691862296b62adffb34e6e5395d22ba6cdc59f629a00c71a89eeadf04",
     "script": "system/scripts/day15_ado_covariance_worksheet.py",
@@ -131,9 +131,9 @@
     "figure_source_warnings": 4
   },
   "next_actions": [
-    "Fresh checks and exact publication004 with prior publication003 receipt",
-    "Inspect supporting Sensharma2026 original chi-square/data-availability within same135Pr branch problem; not an independent olddata campaign",
-    "Rebuild current/partial16 candidate pool with freshclock; noDay17 and no new credit"
+    "Fresh checks/exactmanifest publishpacket005 includingpub004receipt",
+    "Freeze/readtwo1974source identities then correctprimary attenuation definition;sourceRef26/Matta2017 access ifuseful",
+    "Rebuildtime/pool,keepday15/partial16 andoriginaldeadline"
   ],
   "mixed_event_analysis": {
     "input_sha256": "b0a0bb6503d01e8dc432e1a866960872b4fbc1bebd89a1737ca766eab9bab72c",
@@ -242,5 +242,35 @@
     ],
     "true_covariance_available": false,
     "thesis_candidate": "10.7274/sj13902283h; metadata only/body not obtained"
+  },
+  "SH26_public_archive": {
+    "path": "raw/papers/gpt/day15-20261016/sh26-arxiv-2403.10749v2-source.tar",
+    "sha256": "cdda3eceff0876c3774b253d91e1e41441941a3a2dbd9d358f64f2b785312278",
+    "regular_members": 29,
+    "pdfs": 26,
+    "embedded_files": 0,
+    "executed": false,
+    "never_stage_raw": true,
+    "canonical_source": "knowledge/sources/sensharma-2026-evolution-chirality-transverse-wobbling-135pr.md SH26-12..16",
+    "mainfinding": "fixedsigma/I=.2 and log10chi2; no production inputs/code/Σ in publicpackage; exactperfigureeventoverlap notestablished"
+  },
+  "SE21_calibration": {
+    "source": "knowledge/sources/sensharma-2021-wobbling-motion-135pr-187au.md SE21-9..15",
+    "canonical": "knowledge/research-notes/se21-alignment-calibration-consistency.md",
+    "input": "day16-se21-alignment-input.json",
+    "artifact": "day16-se21-alignment-audit.json",
+    "conditional_positive_P_dual_mean": -1.3,
+    "literal_margin_box_max": -0.77,
+    "Gaussian_adopted_pair": [
+      0.8942662041976024,
+      0.6890960786436691
+    ],
+    "pureE2_reference": [
+      "65/161",
+      "-26/161"
+    ],
+    "meaning": "Requires alpha_exp layer audit, not experimental data/code/mode error verdict",
+    "figure_QA": "source/glyph/collision exit0,7pt,89x88mm;3reviewedsourcewarnings,firstclipmaskcollisionfixed",
+    "old_helper_use": "Generic functions reused, olddata/checkcount not replayed"
   }
 }

@@ -3,7 +3,7 @@ type: observable
 title: 自旋取向衰减因子
 aliases: [spin-alignment attenuation factor, alignment attenuation factor, alpha2, alpha4]
 created: 2026-07-09
-updated: 2026-07-10
+updated: 2026-10-17
 status: ai-draft
 review_status: human-reviewed
 observable_kind: angular-distribution-derived-alignment-observable
@@ -67,3 +67,9 @@ Ekstrom 1979 的 relevant boundary 不是“某个固定 excitation-energy thres
 - [[ekstrom-1979-spin-alignment-attenuation-a61-a67]]
 - [[ionescu-1981-improved-angular-distribution-analysis-particle-xn]]
 - [[zobel-1980-magnetic-substate-distributions]]
+
+## 2026-10-17条件校准检查：先核实验alpha的参数层
+
+本节仅Codex self-audit，原human-reviewed范围保持，不覆盖新增应用。[[sensharma-2021-wobbling-motion-135pr-187au]] SE21-9/10明定half-integer参考与alpha=rho/B，但其Table4.1的135Pr(.92,.30)若直接作同一J=23/2核布居的两个tensor，违反必要式7−10alpha2+3alpha4≥0；字面quoted-margin矩形也未进入可行域。[[se21-alignment-calibration-consistency]]保存新输入、精确CG/Farkas及独立LP控制。
+
+该结果限制的是直接迁移alpha_exp的假设，不是原始数据错误或某个模式的裁决。非Gaussian positiveP不能独自修复同定义的失配；实际reference E2/M3、gate/geometry、归一操作或参数层变换尚需闭合。sigma/J=.2的source Gaussian给(.894266,.689096)，不是表列pair的共同拟合；width指数参数与finite-J population RMS也分开。Source原flags/Review状态和其它notation边界均保留。

@@ -611,3 +611,9 @@ J=0、1/2、1、3/2时该范数为0，四次式不提供独立rank4，不能作�
 [22项符号核验](../../system/scripts/day14_classical_quantum_moments.py)、[固定输入](../../outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/classical-quantum-moment-input.json)和[结果](../../outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/classical-quantum-moment-audit.json)保存精确有理系数、对任意N的迹恒等、两套正交条件和Gram范数分解。它们解释原式的形式与适用边界，未拟合任何核的数据。
 
 Decision: **supports** 从内积/测度与极限理解公式、用正交化构建正确rank；**limits** 由公式外形猜作者实现或把经典方向模型当实际量子态重建。Ref39对应段/actualcode和实验响应/协方差仍缺。正式Day14 21/24、completed14/partial15与旧review保持，不新增课程信用或实验结果。
+
+## SE21参考校准的参数层与正性回核
+
+[[sensharma-2021-wobbling-motion-135pr-187au]] SE21-9–15提供Gaussian定义、135Pr854.3参考的alpha2=.92(5)/alpha4=.30(1)、sigma/J=.2、下门/singles控制及七角折叠。[[se21-alignment-calibration-consistency]]对其新原件行作J=23/2条件核验：按同rho/B定义，必要式7−10alpha2+3alpha4≥0的mean为−1.3，字面误差box最大仍−.77；独立CG/Stevens/LP一致。它说明alpha_exp到nuclear alignment的操作层未闭合，不是新sigma/delta测量、统计显著性或实际数据错误判决。
+
+同源Gaussian .2给(.894266,.689096)，pureE2 point reference的Amax=(65/161,−26/161)还不能将Table4.3(.352,−.212)直接变成Table4.1的pair。需要primary attenuation提取规则、reference E2/M3、actualgate/response和归一/背景/Σ；换一种positive非Gaussian feeding本身不足以修复同定义的正性失配。书中MCMC不另解A4二次式不等于W(theta) likelihood从未使用A4；后验相关与原始code仍须另核。

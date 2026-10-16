@@ -8,17 +8,17 @@ updated: 2026-10-17
 
 ## Active handoff — DAY15 card complete, study window active
 
-Run2026-10-16-day-15-01/session01a14510-aec7-7e00-aa23-f7c77a5124bc，原硬截止2026-10-17 15:00上海、15–16收束不改；goal/run仍active。Day15正式卡已完成且只计一次，课程next16/count15，completed[15]/partial[16]，不授16/不开17。publication001/002/003均实际H3非force Gitee push且remote HEAD核对，精确hash/结果仅各receipt。
+Run2026-10-16-day-15-01/session01a14510-aec7-7e00-aa23-f7c77a5124bc；原2026-10-17 15:00上海研究截止、15–16收束不改。Goal/run仍active，Day15只计一次、state next16/count15，completed[15]/partial[16]，不授16/不开17。publication001–004均实际H3非force Gitee push/remoteHEAD核对，精确hash/结果仅各receipt。
 
-Day15 canonical为Zheng原件、R/f可识别性及共享Cov/敏感性图、GRIFFIN有限响应与固定公开code的NDA缺口、mixed-event exact U统计量/finiteK/退化。真实events/production response/Σ仍not-ready。
+Day15 Zheng/R-f-Cov/finite joint/GRIFFIN/mixed-event主线已canonical；actualevents/production response/Σ仍not-ready。Partial16 D96/KS/KF/RB的相位/ratio与双解、KS实际系数、135Pr A/P和共享校准合同已完成。旧review范围/原claims保留，新条目true，不是新增人审。
 
-Partial16已读D96/KS70/KF89主线、构造同R双根/P1/P2、KS实际818–658受限反演。KF89旧Wiki实验I比倒置已改，新KF89-9优先，旧审核保留。RB67定向原件闭合normalized amplitude：dD96=deltaKS=−deltaRB；KS Eq5共同初态因子2Ii+1已放大核，绝对Gamma也闭合，首份未发布草稿误读有记录。
+本批新SH26 v2 Fig12固定sigma/I=.2/log10chi²，三组delta分别存；官方source包29项/26PDF零嵌入，未发现productioninputs/code/Cov，非arXivv3、未核VoR。原raw不变，新raw archive只在gpt、本批不stage。精确event-level overlap仍不明，保留shared lineage与作者偏好，不当fullprofile裁决。
 
-本批新增135Pr输入合同：Matta表A不同于Lv主文P，Lv SI Ap经采用Herzan Q可复现主文三线P及误差印刷精度；a用Lv自身标定。19项writeback检查21路径/19changed，新note与两方法/project回链。校准Cov网格是chosen conditional sensitivity，不是实验总误差或delta refit；oldM15/L22各1–15行与human review逐字保留，新行true。首次writeback缺direct source链接已补，不放宽验收。
+SE21本次只读methods/calibration/table，未重通读205页。854.3参考J23/2的Table4.1 (.92,.30)若按同nuclear rho/B解释，positiveP必要式7−10a2+3a4给mean−1.3/quotedboxmax−.77；Gaussian .2给(.894266,.689096)。PureE2参考Amax=(65/161,−26/161)，Table4.3字面相除也不回Table4.1。新note se21-alignment-calibration-consistency保留条件/替代解释，不判原数据/code或mode错误。图QA0/0/min7pt，89×88mm；第一clipmask误报已通过显式显示裁切修复。23项writeback待fresh核验。
 
-Matta完整分析仅找到DataCite候选10.7274/sj13902283h，Text/无contentURL；GoogleScholar timeout、Figshare403、CurateND202空body、doi landing ConnectionError，不称已得PhD/fullcounts，失败入口不原样重试。约02:00尚余13小时，下一当前高信息路线是SH26原件chi²及公开data/ancillary可用性；随后刷新当前15/partial16池，不因checkpoint结束。
+02:48:26 clock余731.6min，candidate-refresh004选下一高信息路线：本地两份DerMateosian/Sunyar1974 source先核身份/定义，另有Ref26 Cieplicka2012 PRC86,054322与Matta2017 Springer书10.1007/978-3-319-53240-0（metadata only）。不要把两本书/2015registry混成同version，不原样重试APS403/CurateND202。
 
-检查点004已提交，稳定指针：main / `Audit 135Pr observable identities and shared calibration response`；actual H3/push仅publication004，不从提交推断推送成功。Resume `codex resume 01a14510-aec7-7e00-aa23-f7c77a5124bc -C /workspace/wiki -s danger-full-access -a never`。保护PLAN/Bib/原raw/review/继承Day6–9/13/14 receipts、daemon、credentials和旧log；exactmanifest/H3，log仅HEAD+own append，不用宿主机/GUI scheduler。
+检查点005已提交，稳定指针：main / `Audit 135Pr alignment calibration and conditional branch profiles`；actual H3/push仅publication005。Resume `codex resume 01a14510-aec7-7e00-aa23-f7c77a5124bc -C /workspace/wiki -s danger-full-access -a never`。保护PLAN/Bib/原raw/review/继承Day6–9/13/14 receipts、daemon/credentials/旧log；exactmanifest/H3、log仅HEAD+own append，不新建session/daemon/GUI schedule。无待等待的live研究handle。
 
 ## Previous active handoff — DAY14 completed after authorized extension
 

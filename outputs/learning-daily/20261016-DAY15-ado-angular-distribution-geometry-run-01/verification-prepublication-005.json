@@ -1,0 +1,256 @@
+{
+  "at": "2026-10-17T02:54:46.129142+08:00",
+  "checks": [
+    {
+      "check": "eol",
+      "command": [
+        "python3",
+        "system/scripts/clean_knowledge_eol_dirty.py"
+      ],
+      "exit_code": 1,
+      "accepted": true,
+      "substantive": [
+        "knowledge/index.md",
+        "knowledge/methods/angular-distribution.md",
+        "knowledge/observables/spin-alignment-attenuation-factor.md",
+        "knowledge/projects/135pr-wobbling-controversy.md",
+        "knowledge/research-notes/135pr-mixing-branch-input-contract.md",
+        "knowledge/sources/sensharma-2021-wobbling-motion-135pr-187au.md",
+        "knowledge/sources/sensharma-2026-evolution-chirality-transverse-wobbling-135pr.md"
+      ]
+    },
+    {
+      "check": "preflight",
+      "command": [
+        "python3",
+        "system/scripts/wiki_automation_preflight.py",
+        "--root",
+        "."
+      ],
+      "exit_code": 0
+    },
+    {
+      "check": "boundary",
+      "command": [
+        "python3",
+        "system/scripts/wiki_boundary_check.py",
+        "--root",
+        "."
+      ],
+      "exit_code": 0
+    },
+    {
+      "check": "lint",
+      "command": [
+        "python3",
+        "system/scripts/wiki_lint.py",
+        "--fail-on",
+        "error"
+      ],
+      "exit_code": 0,
+      "summary": [
+        "SUMMARY pages=610 wikilinks=6257 hashes=282 errors=0 warnings=146 info=2053"
+      ],
+      "errors": [],
+      "warning_classes": {
+        "REACTION_PARSE": 3,
+        "CITATION_KEY_MISSING": 115,
+        "RAW_MISSING": 28
+      }
+    },
+    {
+      "check": "diff",
+      "command": [
+        "git",
+        "diff",
+        "--check"
+      ],
+      "exit_code": 0
+    }
+  ],
+  "report": {
+    "valid": true,
+    "missing_headings": []
+  },
+  "writeback": {
+    "valid": true,
+    "mode": "updated",
+    "knowledge_paths": [
+      "knowledge/methods/ado-covariance-calibration.md",
+      "knowledge/sources/zheng-2002-ado-coincidence-angular-anisotropy.md",
+      "knowledge/methods/angular-distribution.md",
+      "knowledge/sources/sensharma-2021-wobbling-motion-135pr-187au.md",
+      "knowledge/sources/smith-2019-griffin-angular-correlation-analysis.md",
+      "knowledge/methods/angular-correlation.md",
+      "knowledge/sources/droste-1996-pdco-formalism.md",
+      "knowledge/sources/kramer-flecken-1989-use-dco-ratios.md",
+      "knowledge/index.md",
+      "knowledge/methods/event-mixing-statistics.md",
+      "knowledge/methods/dco-pdco-ambiguity-worksheet.md",
+      "knowledge/sources/krane-steffen-1970-cd110-mixing-ratios.md",
+      "knowledge/sources/rose-brink-1967-phase-defined-angular-distributions.md",
+      "knowledge/methods/dco-ratio.md",
+      "knowledge/observables/multipole-mixing-ratio.md",
+      "knowledge/research-notes/135pr-mixing-branch-input-contract.md",
+      "knowledge/sources/matta-2015-transverse-wobbling-135pr.md",
+      "knowledge/sources/lv-2022-evidence-against-wobbling-135pr.md",
+      "knowledge/sources/herzan-2015-193bi-spectroscopy.md",
+      "knowledge/sources/sensharma-2026-evolution-chirality-transverse-wobbling-135pr.md",
+      "knowledge/methods/two-point-angular-correlation-ratio.md",
+      "knowledge/methods/linear-polarization-asymmetry.md",
+      "knowledge/projects/135pr-wobbling-controversy.md",
+      "knowledge/research-notes/se21-alignment-calibration-consistency.md",
+      "knowledge/sources/yamazaki-1967-aligned-angular-coefficients.md",
+      "knowledge/observables/spin-alignment-attenuation-factor.md"
+    ],
+    "changed_paths": [
+      "knowledge/index.md",
+      "knowledge/methods/ado-covariance-calibration.md",
+      "knowledge/methods/angular-correlation.md",
+      "knowledge/methods/angular-distribution.md",
+      "knowledge/methods/dco-pdco-ambiguity-worksheet.md",
+      "knowledge/methods/dco-ratio.md",
+      "knowledge/methods/event-mixing-statistics.md",
+      "knowledge/methods/linear-polarization-asymmetry.md",
+      "knowledge/methods/two-point-angular-correlation-ratio.md",
+      "knowledge/observables/multipole-mixing-ratio.md",
+      "knowledge/observables/spin-alignment-attenuation-factor.md",
+      "knowledge/projects/135pr-wobbling-controversy.md",
+      "knowledge/research-notes/135pr-mixing-branch-input-contract.md",
+      "knowledge/research-notes/se21-alignment-calibration-consistency.md",
+      "knowledge/sources/droste-1996-pdco-formalism.md",
+      "knowledge/sources/kramer-flecken-1989-use-dco-ratios.md",
+      "knowledge/sources/krane-steffen-1970-cd110-mixing-ratios.md",
+      "knowledge/sources/lv-2022-evidence-against-wobbling-135pr.md",
+      "knowledge/sources/matta-2015-transverse-wobbling-135pr.md",
+      "knowledge/sources/sensharma-2021-wobbling-motion-135pr-187au.md",
+      "knowledge/sources/sensharma-2026-evolution-chirality-transverse-wobbling-135pr.md",
+      "knowledge/sources/smith-2019-griffin-angular-correlation-analysis.md",
+      "knowledge/sources/zheng-2002-ado-coincidence-angular-anisotropy.md"
+    ],
+    "change_check": "run-snapshot",
+    "error": null
+  },
+  "coverage": {
+    "valid": true,
+    "completed_day_indices": [
+      15
+    ],
+    "partial_day_indices": [
+      16
+    ],
+    "curriculum_cards_completed": 1,
+    "next_day_index": 16,
+    "error": null
+  },
+  "review_scope_proof": {
+    "knowledge/sources/krane-steffen-1970-cd110-mixing-ratios.md": {
+      "old_rows_unchanged": true,
+      "old_row_count": 4,
+      "page_review_unchanged": true
+    },
+    "knowledge/sources/droste-1996-pdco-formalism.md": {
+      "old_rows_unchanged": true,
+      "old_row_count": 3,
+      "page_review_unchanged": true
+    },
+    "knowledge/sources/kramer-flecken-1989-use-dco-ratios.md": {
+      "old_rows_unchanged": true,
+      "old_row_count": 8,
+      "page_review_unchanged": true
+    },
+    "knowledge/sources/matta-2015-transverse-wobbling-135pr.md": {
+      "old_rows_unchanged": true,
+      "old_row_count": 15,
+      "page_review_unchanged": true
+    },
+    "knowledge/sources/lv-2022-evidence-against-wobbling-135pr.md": {
+      "old_rows_unchanged": true,
+      "old_row_count": 15,
+      "page_review_unchanged": true
+    },
+    "knowledge/sources/sensharma-2021-wobbling-motion-135pr-187au.md": {
+      "old_rows_unchanged": true,
+      "old_row_count": 8,
+      "page_review_unchanged": true
+    },
+    "knowledge/sources/sensharma-2026-evolution-chirality-transverse-wobbling-135pr.md": {
+      "old_rows_unchanged": true,
+      "old_row_count": 11,
+      "page_review_unchanged": true
+    },
+    "knowledge/observables/spin-alignment-attenuation-factor.md": {
+      "original_body_unchanged": true,
+      "page_review_unchanged": true
+    }
+  },
+  "protected": {
+    "PLAN.md": true,
+    "raw/zotero/wiki-inbox.bib": true,
+    "system/scripts/run_daily_learning_daemon.py": true
+  },
+  "artifact_hashes": {
+    "day16_se21_alignment_audit.py": {
+      "AST_valid": true,
+      "script_output_hash_match": true,
+      "input_output_hash_match": true
+    },
+    "day16_pr135_branch_calibration.py": {
+      "AST_valid": true,
+      "script_output_hash_match": true,
+      "input_output_hash_match": true
+    }
+  },
+  "archive_hash_match": true,
+  "archive_never_staged": true,
+  "control_characters": [],
+  "figure_QA": {
+    "at": "2026-10-17T02:39:55.788489+08:00",
+    "checks": [
+      {
+        "check": "source",
+        "exit_code": 0,
+        "summary": {
+          "ready": true,
+          "strict": false,
+          "counts": {
+            "PASS": 18,
+            "WARN": 3,
+            "FAIL": 0
+          }
+        }
+      },
+      {
+        "check": "glyph",
+        "exit_code": 0,
+        "minimum_pt": 7.0
+      },
+      {
+        "check": "collision",
+        "exit_code": 0,
+        "summary": {
+          "fail": 0,
+          "warn": 0,
+          "contained_fill_overlays": 0,
+          "contained_image_overlays": 0
+        }
+      }
+    ],
+    "physical_size_mm": [
+      88.99999927944606,
+      88.00000110202365
+    ],
+    "unchanged_numerics_after_render_fix": true,
+    "first_collision": "one off-viewport hull stroke was seen by auditor across tick; displayed polygon now explicitly clipped to viewport, source data unchanged",
+    "warning_review": [
+      "Mathtext rendered minimum7pt passes, source heuristic4.9 falsepositive",
+      "Actual89mm PDFwidth checked, source parser misread89/25.4 as89inches",
+      "PNG600dpi is reportpreview alongside editableSVG/PDF, noTIFFsubmission claim"
+    ],
+    "pdf_sha256": "7045d140043788f10e1edd6f4dc5a61d4763997deeebe7da8a0ca1475ee1c6b1",
+    "alignment": "single panel not applicable, render-time JSON recorded",
+    "additional_pure_E2_model": "New doubled-spin CG pure-E2 reference check added without changing displayed alpha hull/source data."
+  },
+  "index_before": "",
+  "next_prompt_exists": true
+}

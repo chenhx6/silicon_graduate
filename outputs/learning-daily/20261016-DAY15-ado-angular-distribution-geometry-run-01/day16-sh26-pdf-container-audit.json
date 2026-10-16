@@ -1,0 +1,158 @@
+[
+  {
+    "file": "135Pr_476.pdf",
+    "pages": 1,
+    "embedded_file_count": 0,
+    "producer": "Matplotlib pdf backend v3.6.1"
+  },
+  {
+    "file": "135Pr_572.pdf",
+    "pages": 1,
+    "embedded_file_count": 0,
+    "producer": "Matplotlib pdf backend v3.6.1"
+  },
+  {
+    "file": "135Pr_642.pdf",
+    "pages": 1,
+    "embedded_file_count": 0,
+    "producer": "Matplotlib pdf backend v3.6.1"
+  },
+  {
+    "file": "135Pr_dipole.pdf",
+    "pages": 1,
+    "embedded_file_count": 0,
+    "producer": "GPL Ghostscript 9.25"
+  },
+  {
+    "file": "747_angdis_chi2.pdf",
+    "pages": 1,
+    "embedded_file_count": 0,
+    "producer": "Matplotlib pdf backend v3.3.2"
+  },
+  {
+    "file": "755_angdis_chi2.pdf",
+    "pages": 1,
+    "embedded_file_count": 0,
+    "producer": "Matplotlib pdf backend v3.3.2"
+  },
+  {
+    "file": "813_angdis_chi2.pdf",
+    "pages": 1,
+    "embedded_file_count": 0,
+    "producer": "Matplotlib pdf backend v3.3.2"
+  },
+  {
+    "file": "ang_mom2.pdf",
+    "pages": 1,
+    "embedded_file_count": 0,
+    "producer": "Matplotlib pdf backend v3.6.1"
+  },
+  {
+    "file": "chiral_wobb.pdf",
+    "pages": 1,
+    "embedded_file_count": 0,
+    "producer": "3.0.26 (5.1.12) "
+  },
+  {
+    "file": "double_498_459e.pdf",
+    "pages": 1,
+    "embedded_file_count": 0,
+    "producer": "GPL Ghostscript 9.55.0"
+  },
+  {
+    "file": "double_gate_373_746e.pdf",
+    "pages": 1,
+    "embedded_file_count": 0,
+    "producer": "3.0.31 (5.1.15) "
+  },
+  {
+    "file": "double_gate_520_554e.pdf",
+    "pages": 1,
+    "embedded_file_count": 0,
+    "producer": "GPL Ghostscript 9.55.0"
+  },
+  {
+    "file": "energy.pdf",
+    "pages": 1,
+    "embedded_file_count": 0,
+    "producer": "Matplotlib pdf backend v3.6.1"
+  },
+  {
+    "file": "Ewobb.pdf",
+    "pages": 1,
+    "embedded_file_count": 0,
+    "producer": "Matplotlib pdf backend v3.6.1"
+  },
+  {
+    "file": "inset.pdf",
+    "pages": 1,
+    "embedded_file_count": 0,
+    "producer": "3.0.31 (5.1.15) "
+  },
+  {
+    "file": "qtr_135Pr_inter.pdf",
+    "pages": 1,
+    "embedded_file_count": 0,
+    "producer": "Matplotlib pdf backend v3.6.1"
+  },
+  {
+    "file": "qtr_135Pr_intra.pdf",
+    "pages": 1,
+    "embedded_file_count": 0,
+    "producer": "Matplotlib pdf backend v3.6.1"
+  },
+  {
+    "file": "SCS_B1_neutron_odd.pdf",
+    "pages": 1,
+    "embedded_file_count": 0,
+    "producer": ""
+  },
+  {
+    "file": "SCS_B1_total_even.pdf",
+    "pages": 1,
+    "embedded_file_count": 0,
+    "producer": ""
+  },
+  {
+    "file": "SCS_B1_total_odd.pdf",
+    "pages": 1,
+    "embedded_file_count": 0,
+    "producer": ""
+  },
+  {
+    "file": "SCS_B2_neutron_odd.pdf",
+    "pages": 1,
+    "embedded_file_count": 0,
+    "producer": ""
+  },
+  {
+    "file": "SCS_B2_total_even.pdf",
+    "pages": 1,
+    "embedded_file_count": 0,
+    "producer": ""
+  },
+  {
+    "file": "SCS_B2_total_odd.pdf",
+    "pages": 1,
+    "embedded_file_count": 0,
+    "producer": ""
+  },
+  {
+    "file": "sum_db1_to_db2e.pdf",
+    "pages": 1,
+    "embedded_file_count": 0,
+    "producer": "3.0.31 (5.1.15) "
+  },
+  {
+    "file": "sum_double_gates_db1_db2e.pdf",
+    "pages": 1,
+    "embedded_file_count": 0,
+    "producer": "3.0.31 (5.1.15) "
+  },
+  {
+    "file": "yraste.pdf",
+    "pages": 1,
+    "embedded_file_count": 0,
+    "producer": "GPL Ghostscript 9.55.0"
+  }
+]

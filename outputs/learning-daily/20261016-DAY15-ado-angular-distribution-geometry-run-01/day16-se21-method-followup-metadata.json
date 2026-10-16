@@ -1,0 +1,81 @@
+{
+  "at": "2026-10-17T02:45:20.647174+08:00",
+  "provider": "Crossref via academic_search",
+  "kind": "metadata only, no body read; next input-contract route",
+  "papers": [
+    {
+      "title": "Yrast structure of<mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mml:msup><mml:mrow/><mml:mn>206</mml:mn></mml:msup></mml:math>Bi: Isomeric states and one-proton-particle, three-neutron-hole excitations",
+      "authors": [
+        "N. Cieplicka",
+        "K. H. Maier",
+        "B. Fornal",
+        "B. Szpak",
+        "R. V. F. Janssens",
+        "M. Alcorta",
+        "R. Broda",
+        "M. P. Carpenter",
+        "C. J. Chiara",
+        "C. R. Hoffman",
+        "B. P. Kay",
+        "F. G. Kondev",
+        "W. Królas",
+        "T. Lauritsen",
+        "C. J. Lister",
+        "E. A. McCutchan",
+        "T. Pawłat",
+        "A. M. Rogers",
+        "D. Seweryniak",
+        "N. Sharp",
+        "W. B. Walters",
+        "J. Wrzesiński",
+        "S. Zhu"
+      ],
+      "year": 2012,
+      "doi": "10.1103/physrevc.86.054322",
+      "journal": "Physical Review C",
+      "source": "crossref",
+      "abstract": "",
+      "volume": "86",
+      "issue": "5",
+      "pages": "",
+      "publisher": "American Physical Society (APS)",
+      "type": "journal-article",
+      "url": "https://doi.org/10.1103/physrevc.86.054322"
+    },
+    {
+      "title": "Tables of attenuation coefficients for angular distribution of gamma rays from partially aligned nuclei",
+      "authors": [
+        "E. Der Mateosian",
+        "A.W. Sunyar"
+      ],
+      "year": 1974,
+      "doi": "10.1016/0092-640x(74)90007-2",
+      "journal": "Atomic Data and Nuclear Data Tables",
+      "source": "crossref",
+      "abstract": "",
+      "volume": "13",
+      "issue": "4",
+      "pages": "391-406",
+      "publisher": "Elsevier BV",
+      "type": "journal-article",
+      "url": "https://doi.org/10.1016/0092-640x(74)90007-2"
+    },
+    {
+      "title": "Exotic Nuclear Excitations: The Transverse Wobbling Mode in 135 Pr",
+      "authors": [
+        "James Till Matta"
+      ],
+      "year": 2017,
+      "doi": "10.1007/978-3-319-53240-0",
+      "journal": "Springer Theses",
+      "source": "crossref",
+      "abstract": "",
+      "volume": "",
+      "issue": "",
+      "pages": "",
+      "publisher": "Springer International Publishing",
+      "type": "book",
+      "url": "https://doi.org/10.1007/978-3-319-53240-0"
+    }
+  ]
+}

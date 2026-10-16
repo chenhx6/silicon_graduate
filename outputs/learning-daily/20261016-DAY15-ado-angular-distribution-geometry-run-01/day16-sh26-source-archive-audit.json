@@ -1,0 +1,163 @@
+{
+  "raw": "raw/papers/gpt/day15-20261016/sh26-arxiv-2403.10749v2-source.tar",
+  "sha256": "cdda3eceff0876c3774b253d91e1e41441941a3a2dbd9d358f64f2b785312278",
+  "members": [
+    {
+      "name": "00README.json",
+      "bytes": 227,
+      "sha256": "4f907413da6fc356aa070580536d2f2143836db1d20e256c6ac31893e50a3ce4"
+    },
+    {
+      "name": "135Pr_476.pdf",
+      "bytes": 23839,
+      "sha256": "ba350c77abc066c63334227458fae1cfd022ce24fd49aea07e1ad4b6370df905"
+    },
+    {
+      "name": "135Pr_572.pdf",
+      "bytes": 23427,
+      "sha256": "babcbe9cefe3e4bec62c553df5cd45801a933fa7b9b7f0ac02b7942b28cf18d3"
+    },
+    {
+      "name": "135Pr_642.pdf",
+      "bytes": 24477,
+      "sha256": "e3c8c95b74799eb625727b08f5b6993463a25f43a1bb676f2741185c0d2cddea"
+    },
+    {
+      "name": "135Pr_dipole.pdf",
+      "bytes": 11888,
+      "sha256": "1d33f2829c4629cda1339168c20a57d805c2d9f45a519cb6725fc572f32316ec"
+    },
+    {
+      "name": "747_angdis_chi2.pdf",
+      "bytes": 20754,
+      "sha256": "8afb536377c238e5636ecde42dcfe8aff19a969df2fdad676fdfe078f02a85dd"
+    },
+    {
+      "name": "755_angdis_chi2.pdf",
+      "bytes": 20299,
+      "sha256": "27807feee07d92ab8f3547c5498491029b3fe23e9e491f659f9dbc2f37751858"
+    },
+    {
+      "name": "813_angdis_chi2.pdf",
+      "bytes": 20809,
+      "sha256": "14f9e989638b9e245a120d06261ce8d2bf3e2299fc7f1a31b790e4fe69eab47b"
+    },
+    {
+      "name": "ang_mom2.pdf",
+      "bytes": 25314,
+      "sha256": "29908f4ff5ded63246d6eab716a3a9f2d25487a2496a5e4052943e58ef6624e6"
+    },
+    {
+      "name": "chiral_wobb.bib",
+      "bytes": 44472,
+      "sha256": "934ee2a8156b6c8a952bdc69bc0fe5441867a4d5f82dc68cc3ddece6b90aea0a"
+    },
+    {
+      "name": "chiral_wobb.pdf",
+      "bytes": 27576,
+      "sha256": "b30fc8ad9f337074c9483cbd03ba5396443a7b711c6f2e11f0b59e2b8227bf54"
+    },
+    {
+      "name": "chiral_wobb_prc_V3.tex",
+      "bytes": 64029,
+      "sha256": "2a4283f289d797088e8113471370bbceba3052e32fec435252a48fc2893ff381"
+    },
+    {
+      "name": "double_498_459e.pdf",
+      "bytes": 7248,
+      "sha256": "8ca37031dd1308368f8964cdf2b1b10fa551d7528558a2a0e67d055f7aa6cb4d"
+    },
+    {
+      "name": "double_gate_373_746e.pdf",
+      "bytes": 5461,
+      "sha256": "966fb8639b3b075b4ccd51da250f54a884202687759f84720a2f6dfc57f1ea73"
+    },
+    {
+      "name": "double_gate_520_554e.pdf",
+      "bytes": 8477,
+      "sha256": "40f059d6d04dd304e0700fc23543b3dd05ac74bdacddac6d8db371d739263ccf"
+    },
+    {
+      "name": "energy.pdf",
+      "bytes": 33325,
+      "sha256": "73c994b2fcb94723f347fda116ac48a5548e31517a7c5f4b98037ce98d14fadd"
+    },
+    {
+      "name": "Ewobb.pdf",
+      "bytes": 19946,
+      "sha256": "9102b82d1e044c43160e55e920bdcbee496b43b9f35bb46c7310420f1d1ec0cf"
+    },
+    {
+      "name": "inset.pdf",
+      "bytes": 21033,
+      "sha256": "486f9005a45909a1fd9a622f8be8047683431ec4a25f0543f7e43e8ce4e1c856"
+    },
+    {
+      "name": "qtr_135Pr_inter.pdf",
+      "bytes": 20774,
+      "sha256": "e1ed7f9618487cc91fa4065c5024b5950cc6e17016ac09ec8d22106b7f945de0"
+    },
+    {
+      "name": "qtr_135Pr_intra.pdf",
+      "bytes": 23689,
+      "sha256": "c3126739c620b9b0d1ce561e798545a7d19e5a05017bdb89e50a217923521b30"
+    },
+    {
+      "name": "SCS_B1_neutron_odd.pdf",
+      "bytes": 1425266,
+      "sha256": "a6bc282add88f9184c1dacbddabe3de32d48d0f4984d7f1341ef26b5c178a926"
+    },
+    {
+      "name": "SCS_B1_total_even.pdf",
+      "bytes": 892605,
+      "sha256": "31381d9e73179bd79e3051006ec1cc6cfd7da72f41659003982f246444ace764"
+    },
+    {
+      "name": "SCS_B1_total_odd.pdf",
+      "bytes": 830520,
+      "sha256": "4af2d5ef20c6642de5336af2b0e6bb8006aaa39ea88f1e5c463972241c70c5ce"
+    },
+    {
+      "name": "SCS_B2_neutron_odd.pdf",
+      "bytes": 1124373,
+      "sha256": "fe94ad2d331b475f48b0b276e4e53521ca783b1ad9117bcbdd03b6626f98e0f7"
+    },
+    {
+      "name": "SCS_B2_total_even.pdf",
+      "bytes": 766103,
+      "sha256": "af3e4cfbcd5f87b6a7c483663e6f2f7a084105dc3214ffb8e0c23991d5eaa199"
+    },
+    {
+      "name": "SCS_B2_total_odd.pdf",
+      "bytes": 620174,
+      "sha256": "66aaf7c702f2d0224fd860f363bca29b9cffdc35f02dd880043b788d21ff90a5"
+    },
+    {
+      "name": "sum_db1_to_db2e.pdf",
+      "bytes": 14827,
+      "sha256": "f99fc5860a515e4c2f0e3e9a51424fdf3e3253eaad9cd1d9ffcc98e822a1800e"
+    },
+    {
+      "name": "sum_double_gates_db1_db2e.pdf",
+      "bytes": 14712,
+      "sha256": "b4cad17017abc22d4fd423cb9ee60381af9249cb0c9bc14cc0a3fa58d6ae06ed"
+    },
+    {
+      "name": "yraste.pdf",
+      "bytes": 18620,
+      "sha256": "cf23e1dfe6d54d9bd4893f8e00f44c2909a6dd5da89edc4d5eee6fc3d307f49b"
+    }
+  ],
+  "targeted_reads": [
+    "00README.json",
+    "chiral_wobb_prc_V3.tex",
+    "747_angdis_chi2.pdf",
+    "813_angdis_chi2.pdf",
+    "755_angdis_chi2.pdf"
+  ],
+  "extracted_only_to_tmp": true,
+  "executed_archive_code": false,
+  "data_or_script_extension_matches": [],
+  "version_boundary": "Author TeX filename V3 is not arXiv v3: actual versioned official tar is v2, 2026-01-15; no VoR/full input replay claimed",
+  "readiness": "No event, original angle-table, efficiency file, covariance or fit program appears in full archive inventory; figure PDFs/TeX are published representations, not original analysis inputs"
+}
