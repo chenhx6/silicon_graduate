@@ -1,0 +1,908 @@
+{
+  "query_identity": "DAY16-PREVIEW-BRICC-Z70-E489P8-FO-SHELL-REFERENCE-02",
+  "query_input_sha256": "5a4deef640bd8177002fc24c929641f7ee29300b9b1a4eb1ae1a03acc2858a9c",
+  "capture_script_sha256": "58e48e212fe688b544c46a7c63cc2a9776b45248ff394bff0ef71a4960723a4b",
+  "query_receipt_sha256": "c232a70a65fd82e3c5d42d56af6ff81c02f9701035a69adfb0b0d092cf5ed970",
+  "model_inputs": [
+    {
+      "multipolarity": "M1",
+      "version": "BrIccS v2.3 (9-Dec-2011)",
+      "dataset": "BrIccFO",
+      "Z": 70,
+      "energy_keV": 489.8,
+      "raw": "raw/papers/gpt/day15-20261016/bricc-z70-489p8-fo-m1-0f74bd9078a7.html",
+      "raw_sha256": "0f74bd9078a77504e3c65e12eff2084533c18db876d2000a03ec6e8d05c7e26d",
+      "all_printed_rows": [
+        [
+          "Shell",
+          "E(ce)",
+          "M1"
+        ],
+        [
+          "Tot",
+          "",
+          "0.0432",
+          "(6)"
+        ],
+        [
+          ""
+        ],
+        [
+          "K",
+          "428.47",
+          "0.0363",
+          "(5)"
+        ],
+        [
+          ""
+        ],
+        [
+          "L1",
+          "479.31",
+          "0.00495",
+          "(7)"
+        ],
+        [
+          "L2",
+          "479.82",
+          "0.000362",
+          "(5)"
+        ],
+        [
+          "L3",
+          "480.86",
+          "4.75E-5",
+          "(7)"
+        ],
+        [
+          "L-tot",
+          "479.36",
+          "0.00536",
+          "(8)"
+        ],
+        [
+          ""
+        ],
+        [
+          "K/L",
+          "",
+          "6.77",
+          "(14)"
+        ],
+        [
+          ""
+        ],
+        [
+          "M1",
+          "487.40",
+          "0.001095",
+          "(16)"
+        ],
+        [
+          "M2",
+          "487.63",
+          "8.90E-5",
+          "(13)"
+        ],
+        [
+          "M3",
+          "487.85",
+          "1.189E-5",
+          "(17)"
+        ],
+        [
+          "M4",
+          "488.22",
+          "1.204E-7",
+          "(17)"
+        ],
+        [
+          "M5",
+          "488.27",
+          "1.195E-7",
+          "(17)"
+        ],
+        [
+          "M-tot",
+          "487.42",
+          "0.001196",
+          "(17)"
+        ],
+        [
+          ""
+        ],
+        [
+          "L/M",
+          "",
+          "4.48",
+          "(9)"
+        ],
+        [
+          ""
+        ],
+        [
+          "N1",
+          "489.31",
+          "0.000258",
+          "(4)"
+        ],
+        [
+          "N2",
+          "489.40",
+          "2.04E-5",
+          "(3)"
+        ],
+        [
+          "N3",
+          "489.46",
+          "2.70E-6",
+          "(4)"
+        ],
+        [
+          "N4",
+          "489.60",
+          "2.81E-8",
+          "(4)"
+        ],
+        [
+          "N5",
+          "489.62",
+          "2.75E-8",
+          "(4)"
+        ],
+        [
+          "N6",
+          "489.79",
+          ""
+        ],
+        [
+          "N7",
+          "489.79",
+          ""
+        ],
+        [
+          "N-tot",
+          "489.32",
+          "0.000281",
+          "(4)"
+        ],
+        [
+          ""
+        ],
+        [
+          "L/N",
+          "",
+          "19.1",
+          "(4)"
+        ],
+        [
+          ""
+        ],
+        [
+          "O1",
+          "489.75",
+          "3.76E-5",
+          "(6)"
+        ],
+        [
+          "O2",
+          "489.77",
+          "2.41E-6",
+          "(4)"
+        ],
+        [
+          "O3",
+          "489.78",
+          "2.97E-7",
+          "(5)"
+        ],
+        [
+          "O-tot",
+          "489.75",
+          "4.03E-5",
+          "(6)"
+        ],
+        [
+          ""
+        ],
+        [
+          "L/O",
+          "",
+          "133",
+          "(3)"
+        ],
+        [
+          ""
+        ],
+        [
+          "P1",
+          "489.79",
+          "2.17E-6",
+          "(3)"
+        ],
+        [
+          "P-tot",
+          "489.79",
+          "2.17E-6",
+          "(3)"
+        ],
+        [
+          ""
+        ],
+        [
+          "L/P",
+          "",
+          "2.47E3",
+          "(5)"
+        ]
+      ],
+      "coefficients": {
+        "Tot": {
+          "printed": "0.0432",
+          "printed_error": "(6)",
+          "value": 0.0432,
+          "quoted_sigma": 0.0006,
+          "Ece_printed_keV": null
+        },
+        "K": {
+          "printed": "0.0363",
+          "printed_error": "(5)",
+          "value": 0.0363,
+          "quoted_sigma": 0.0005,
+          "Ece_printed_keV": "428.47"
+        },
+        "L1": {
+          "printed": "0.00495",
+          "printed_error": "(7)",
+          "value": 0.00495,
+          "quoted_sigma": 7e-05,
+          "Ece_printed_keV": "479.31"
+        },
+        "L2": {
+          "printed": "0.000362",
+          "printed_error": "(5)",
+          "value": 0.000362,
+          "quoted_sigma": 5e-06,
+          "Ece_printed_keV": "479.82"
+        },
+        "L3": {
+          "printed": "4.75E-5",
+          "printed_error": "(7)",
+          "value": 4.75e-05,
+          "quoted_sigma": 7e-07,
+          "Ece_printed_keV": "480.86"
+        },
+        "L-tot": {
+          "printed": "0.00536",
+          "printed_error": "(8)",
+          "value": 0.00536,
+          "quoted_sigma": 8e-05,
+          "Ece_printed_keV": "479.36"
+        },
+        "K/L": {
+          "printed": "6.77",
+          "printed_error": "(14)",
+          "value": 6.77,
+          "quoted_sigma": 0.14,
+          "Ece_printed_keV": null
+        },
+        "M1": {
+          "printed": "0.001095",
+          "printed_error": "(16)",
+          "value": 0.001095,
+          "quoted_sigma": 1.6e-05,
+          "Ece_printed_keV": "487.40"
+        },
+        "M2": {
+          "printed": "8.90E-5",
+          "printed_error": "(13)",
+          "value": 8.9e-05,
+          "quoted_sigma": 1.3e-06,
+          "Ece_printed_keV": "487.63"
+        },
+        "M3": {
+          "printed": "1.189E-5",
+          "printed_error": "(17)",
+          "value": 1.189e-05,
+          "quoted_sigma": 1.7e-07,
+          "Ece_printed_keV": "487.85"
+        },
+        "M4": {
+          "printed": "1.204E-7",
+          "printed_error": "(17)",
+          "value": 1.204e-07,
+          "quoted_sigma": 1.7e-09,
+          "Ece_printed_keV": "488.22"
+        },
+        "M5": {
+          "printed": "1.195E-7",
+          "printed_error": "(17)",
+          "value": 1.195e-07,
+          "quoted_sigma": 1.7e-09,
+          "Ece_printed_keV": "488.27"
+        },
+        "M-tot": {
+          "printed": "0.001196",
+          "printed_error": "(17)",
+          "value": 0.001196,
+          "quoted_sigma": 1.7e-05,
+          "Ece_printed_keV": "487.42"
+        },
+        "L/M": {
+          "printed": "4.48",
+          "printed_error": "(9)",
+          "value": 4.48,
+          "quoted_sigma": 0.09,
+          "Ece_printed_keV": null
+        },
+        "N1": {
+          "printed": "0.000258",
+          "printed_error": "(4)",
+          "value": 0.000258,
+          "quoted_sigma": 4e-06,
+          "Ece_printed_keV": "489.31"
+        },
+        "N2": {
+          "printed": "2.04E-5",
+          "printed_error": "(3)",
+          "value": 2.04e-05,
+          "quoted_sigma": 3e-07,
+          "Ece_printed_keV": "489.40"
+        },
+        "N3": {
+          "printed": "2.70E-6",
+          "printed_error": "(4)",
+          "value": 2.7e-06,
+          "quoted_sigma": 4e-08,
+          "Ece_printed_keV": "489.46"
+        },
+        "N4": {
+          "printed": "2.81E-8",
+          "printed_error": "(4)",
+          "value": 2.81e-08,
+          "quoted_sigma": 4e-10,
+          "Ece_printed_keV": "489.60"
+        },
+        "N5": {
+          "printed": "2.75E-8",
+          "printed_error": "(4)",
+          "value": 2.75e-08,
+          "quoted_sigma": 4e-10,
+          "Ece_printed_keV": "489.62"
+        },
+        "N-tot": {
+          "printed": "0.000281",
+          "printed_error": "(4)",
+          "value": 0.000281,
+          "quoted_sigma": 4e-06,
+          "Ece_printed_keV": "489.32"
+        },
+        "L/N": {
+          "printed": "19.1",
+          "printed_error": "(4)",
+          "value": 19.1,
+          "quoted_sigma": 0.4,
+          "Ece_printed_keV": null
+        },
+        "O1": {
+          "printed": "3.76E-5",
+          "printed_error": "(6)",
+          "value": 3.76e-05,
+          "quoted_sigma": 6e-07,
+          "Ece_printed_keV": "489.75"
+        },
+        "O2": {
+          "printed": "2.41E-6",
+          "printed_error": "(4)",
+          "value": 2.41e-06,
+          "quoted_sigma": 4e-08,
+          "Ece_printed_keV": "489.77"
+        },
+        "O3": {
+          "printed": "2.97E-7",
+          "printed_error": "(5)",
+          "value": 2.97e-07,
+          "quoted_sigma": 5e-09,
+          "Ece_printed_keV": "489.78"
+        },
+        "O-tot": {
+          "printed": "4.03E-5",
+          "printed_error": "(6)",
+          "value": 4.03e-05,
+          "quoted_sigma": 6e-07,
+          "Ece_printed_keV": "489.75"
+        },
+        "L/O": {
+          "printed": "133",
+          "printed_error": "(3)",
+          "value": 133.0,
+          "quoted_sigma": 3.0,
+          "Ece_printed_keV": null
+        },
+        "P1": {
+          "printed": "2.17E-6",
+          "printed_error": "(3)",
+          "value": 2.17e-06,
+          "quoted_sigma": 3e-08,
+          "Ece_printed_keV": "489.79"
+        },
+        "P-tot": {
+          "printed": "2.17E-6",
+          "printed_error": "(3)",
+          "value": 2.17e-06,
+          "quoted_sigma": 3e-08,
+          "Ece_printed_keV": "489.79"
+        },
+        "L/P": {
+          "printed": "2.47E3",
+          "printed_error": "(5)",
+          "value": 2470.0,
+          "quoted_sigma": 50.0,
+          "Ece_printed_keV": null
+        }
+      },
+      "missing_shells_not_filled": [
+        "N6",
+        "N7"
+      ],
+      "warnings": [
+        "ICC could not be calculated for EG above 398.000 keV",
+        "ICC could not be calculated for EG above 398.000 keV"
+      ],
+      "printed_major_sum": 0.04317947,
+      "default_mass_in2008_TableB1": 173,
+      "current_backend_mass_or_datafile_hash_not_exposed": true
+    },
+    {
+      "multipolarity": "E2",
+      "version": "BrIccS v2.3 (9-Dec-2011)",
+      "dataset": "BrIccFO",
+      "Z": 70,
+      "energy_keV": 489.8,
+      "raw": "raw/papers/gpt/day15-20261016/bricc-z70-489p8-fo-e2-bde3a2eefe5d.html",
+      "raw_sha256": "bde3a2eefe5d1f813df58cbbc0273ad0458fce09e462eef0a23e8c682221450d",
+      "all_printed_rows": [
+        [
+          "Shell",
+          "E(ce)",
+          "E2"
+        ],
+        [
+          "Tot",
+          "",
+          "0.0188",
+          "(3)"
+        ],
+        [
+          ""
+        ],
+        [
+          "K",
+          "428.47",
+          "0.01475",
+          "(21)"
+        ],
+        [
+          ""
+        ],
+        [
+          "L1",
+          "479.31",
+          "0.00186",
+          "(3)"
+        ],
+        [
+          "L2",
+          "479.82",
+          "0.000848",
+          "(12)"
+        ],
+        [
+          "L3",
+          "480.86",
+          "0.000430",
+          "(6)"
+        ],
+        [
+          "L-tot",
+          "479.66",
+          "0.00314",
+          "(5)"
+        ],
+        [
+          ""
+        ],
+        [
+          "K/L",
+          "",
+          "4.70",
+          "(10)"
+        ],
+        [
+          ""
+        ],
+        [
+          "M1",
+          "487.40",
+          "0.000408",
+          "(6)"
+        ],
+        [
+          "M2",
+          "487.63",
+          "0.000208",
+          "(3)"
+        ],
+        [
+          "M3",
+          "487.85",
+          "0.0001088",
+          "(16)"
+        ],
+        [
+          "M4",
+          "488.22",
+          "7.73E-7",
+          "(11)"
+        ],
+        [
+          "M5",
+          "488.27",
+          "5.97E-7",
+          "(9)"
+        ],
+        [
+          "M-tot",
+          "487.54",
+          "0.000726",
+          "(11)"
+        ],
+        [
+          ""
+        ],
+        [
+          "L/M",
+          "",
+          "4.32",
+          "(9)"
+        ],
+        [
+          ""
+        ],
+        [
+          "N1",
+          "489.31",
+          "9.58E-5",
+          "(14)"
+        ],
+        [
+          "N2",
+          "489.40",
+          "4.77E-5",
+          "(7)"
+        ],
+        [
+          "N3",
+          "489.46",
+          "2.48E-5",
+          "(4)"
+        ],
+        [
+          "N4",
+          "489.60",
+          "1.80E-7",
+          "(3)"
+        ],
+        [
+          "N5",
+          "489.62",
+          "1.373E-7",
+          "(20)"
+        ],
+        [
+          "N6",
+          "489.79",
+          ""
+        ],
+        [
+          "N7",
+          "489.79",
+          ""
+        ],
+        [
+          "N-tot",
+          "489.36",
+          "0.0001686",
+          "(24)"
+        ],
+        [
+          ""
+        ],
+        [
+          "L/N",
+          "",
+          "18.6",
+          "(4)"
+        ],
+        [
+          ""
+        ],
+        [
+          "O1",
+          "489.75",
+          "1.395E-5",
+          "(20)"
+        ],
+        [
+          "O2",
+          "489.77",
+          "5.65E-6",
+          "(8)"
+        ],
+        [
+          "O3",
+          "489.78",
+          "2.73E-6",
+          "(4)"
+        ],
+        [
+          "O-tot",
+          "489.76",
+          "2.23E-5",
+          "(4)"
+        ],
+        [
+          ""
+        ],
+        [
+          "L/O",
+          "",
+          "141",
+          "(3)"
+        ],
+        [
+          ""
+        ],
+        [
+          "P1",
+          "489.79",
+          "8.07E-7",
+          "(12)"
+        ],
+        [
+          "P-tot",
+          "489.79",
+          "8.07E-7",
+          "(12)"
+        ],
+        [
+          ""
+        ],
+        [
+          "L/P",
+          "",
+          "3.89E3",
+          "(8)"
+        ]
+      ],
+      "coefficients": {
+        "Tot": {
+          "printed": "0.0188",
+          "printed_error": "(3)",
+          "value": 0.0188,
+          "quoted_sigma": 0.0003,
+          "Ece_printed_keV": null
+        },
+        "K": {
+          "printed": "0.01475",
+          "printed_error": "(21)",
+          "value": 0.01475,
+          "quoted_sigma": 0.00021,
+          "Ece_printed_keV": "428.47"
+        },
+        "L1": {
+          "printed": "0.00186",
+          "printed_error": "(3)",
+          "value": 0.00186,
+          "quoted_sigma": 3e-05,
+          "Ece_printed_keV": "479.31"
+        },
+        "L2": {
+          "printed": "0.000848",
+          "printed_error": "(12)",
+          "value": 0.000848,
+          "quoted_sigma": 1.2e-05,
+          "Ece_printed_keV": "479.82"
+        },
+        "L3": {
+          "printed": "0.000430",
+          "printed_error": "(6)",
+          "value": 0.00043,
+          "quoted_sigma": 6e-06,
+          "Ece_printed_keV": "480.86"
+        },
+        "L-tot": {
+          "printed": "0.00314",
+          "printed_error": "(5)",
+          "value": 0.00314,
+          "quoted_sigma": 5e-05,
+          "Ece_printed_keV": "479.66"
+        },
+        "K/L": {
+          "printed": "4.70",
+          "printed_error": "(10)",
+          "value": 4.7,
+          "quoted_sigma": 0.1,
+          "Ece_printed_keV": null
+        },
+        "M1": {
+          "printed": "0.000408",
+          "printed_error": "(6)",
+          "value": 0.000408,
+          "quoted_sigma": 6e-06,
+          "Ece_printed_keV": "487.40"
+        },
+        "M2": {
+          "printed": "0.000208",
+          "printed_error": "(3)",
+          "value": 0.000208,
+          "quoted_sigma": 3e-06,
+          "Ece_printed_keV": "487.63"
+        },
+        "M3": {
+          "printed": "0.0001088",
+          "printed_error": "(16)",
+          "value": 0.0001088,
+          "quoted_sigma": 1.6e-06,
+          "Ece_printed_keV": "487.85"
+        },
+        "M4": {
+          "printed": "7.73E-7",
+          "printed_error": "(11)",
+          "value": 7.73e-07,
+          "quoted_sigma": 1.1e-08,
+          "Ece_printed_keV": "488.22"
+        },
+        "M5": {
+          "printed": "5.97E-7",
+          "printed_error": "(9)",
+          "value": 5.97e-07,
+          "quoted_sigma": 9e-09,
+          "Ece_printed_keV": "488.27"
+        },
+        "M-tot": {
+          "printed": "0.000726",
+          "printed_error": "(11)",
+          "value": 0.000726,
+          "quoted_sigma": 1.1e-05,
+          "Ece_printed_keV": "487.54"
+        },
+        "L/M": {
+          "printed": "4.32",
+          "printed_error": "(9)",
+          "value": 4.32,
+          "quoted_sigma": 0.09,
+          "Ece_printed_keV": null
+        },
+        "N1": {
+          "printed": "9.58E-5",
+          "printed_error": "(14)",
+          "value": 9.58e-05,
+          "quoted_sigma": 1.4e-06,
+          "Ece_printed_keV": "489.31"
+        },
+        "N2": {
+          "printed": "4.77E-5",
+          "printed_error": "(7)",
+          "value": 4.77e-05,
+          "quoted_sigma": 7e-07,
+          "Ece_printed_keV": "489.40"
+        },
+        "N3": {
+          "printed": "2.48E-5",
+          "printed_error": "(4)",
+          "value": 2.48e-05,
+          "quoted_sigma": 4e-07,
+          "Ece_printed_keV": "489.46"
+        },
+        "N4": {
+          "printed": "1.80E-7",
+          "printed_error": "(3)",
+          "value": 1.8e-07,
+          "quoted_sigma": 3e-09,
+          "Ece_printed_keV": "489.60"
+        },
+        "N5": {
+          "printed": "1.373E-7",
+          "printed_error": "(20)",
+          "value": 1.373e-07,
+          "quoted_sigma": 2e-09,
+          "Ece_printed_keV": "489.62"
+        },
+        "N-tot": {
+          "printed": "0.0001686",
+          "printed_error": "(24)",
+          "value": 0.0001686,
+          "quoted_sigma": 2.4e-06,
+          "Ece_printed_keV": "489.36"
+        },
+        "L/N": {
+          "printed": "18.6",
+          "printed_error": "(4)",
+          "value": 18.6,
+          "quoted_sigma": 0.4,
+          "Ece_printed_keV": null
+        },
+        "O1": {
+          "printed": "1.395E-5",
+          "printed_error": "(20)",
+          "value": 1.395e-05,
+          "quoted_sigma": 2e-07,
+          "Ece_printed_keV": "489.75"
+        },
+        "O2": {
+          "printed": "5.65E-6",
+          "printed_error": "(8)",
+          "value": 5.65e-06,
+          "quoted_sigma": 8e-08,
+          "Ece_printed_keV": "489.77"
+        },
+        "O3": {
+          "printed": "2.73E-6",
+          "printed_error": "(4)",
+          "value": 2.73e-06,
+          "quoted_sigma": 4e-08,
+          "Ece_printed_keV": "489.78"
+        },
+        "O-tot": {
+          "printed": "2.23E-5",
+          "printed_error": "(4)",
+          "value": 2.23e-05,
+          "quoted_sigma": 4e-07,
+          "Ece_printed_keV": "489.76"
+        },
+        "L/O": {
+          "printed": "141",
+          "printed_error": "(3)",
+          "value": 141.0,
+          "quoted_sigma": 3.0,
+          "Ece_printed_keV": null
+        },
+        "P1": {
+          "printed": "8.07E-7",
+          "printed_error": "(12)",
+          "value": 8.07e-07,
+          "quoted_sigma": 1.2e-08,
+          "Ece_printed_keV": "489.79"
+        },
+        "P-tot": {
+          "printed": "8.07E-7",
+          "printed_error": "(12)",
+          "value": 8.07e-07,
+          "quoted_sigma": 1.2e-08,
+          "Ece_printed_keV": "489.79"
+        },
+        "L/P": {
+          "printed": "3.89E3",
+          "printed_error": "(8)",
+          "value": 3890.0,
+          "quoted_sigma": 80.0,
+          "Ece_printed_keV": null
+        }
+      },
+      "missing_shells_not_filled": [
+        "N6",
+        "N7"
+      ],
+      "warnings": [
+        "ICC could not be calculated for EG above 398.000 keV",
+        "ICC could not be calculated for EG above 398.000 keV"
+      ],
+      "printed_major_sum": 0.018807707,
+      "default_mass_in2008_TableB1": 173,
+      "current_backend_mass_or_datafile_hash_not_exposed": true
+    }
+  ],
+  "numerically_validated": true,
+  "scope": "Two new nominal-energy theory lookups, not measured ICC. E uncertainty was not sent; missingN6/N7 retained. Program-reportedTot is used only with explicit coverage boundary, not declared complete total. No independent interpolation uncertainty added."
+}

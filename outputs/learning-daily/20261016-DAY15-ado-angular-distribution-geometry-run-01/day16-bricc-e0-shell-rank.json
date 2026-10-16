@@ -1,0 +1,178 @@
+{
+  "identity": "DAY16-PREVIEW-Z70-489P8-E0-K-L1-RANK-01",
+  "input_sha256": "0082add7f6e8821a4fc05a639f47af915c85d1a0492e82f337450e2056f9a723",
+  "script_sha256": "56553757939ac3e6b706efbf7d5b048498df1c7d3c4fe1cc898ff9280abe5554",
+  "response_sha256": "f6bf17c5f15368b2e3143175415a959b9745b87446d134c2434a8abf315aa1dc",
+  "actual_version": "BrIccS v2.3 (9-Dec-2011)",
+  "actual_E0_dataset": "BeOmg",
+  "all_printed_rows": [
+    [
+      "BrIccS v2.3 (9-Dec-2011)"
+    ],
+    [
+      "Z=70 (Yb, Ytterbium)"
+    ],
+    [
+      "γ-energy:  489.8 keV"
+    ],
+    [
+      "Data Sets:\n          BeOmg"
+    ],
+    [
+      "Shell",
+      "E(ce)",
+      "Ω(E0)",
+      ""
+    ],
+    [
+      "K",
+      "428.47",
+      "5.595E+10"
+    ],
+    [
+      ""
+    ],
+    [
+      "L1",
+      "479.31",
+      "8.284E+09"
+    ],
+    [
+      "L2",
+      "479.82",
+      "1.616E+08"
+    ],
+    [
+      ""
+    ],
+    [
+      "Tot",
+      "",
+      "6.440E+10"
+    ],
+    [
+      ""
+    ],
+    [
+      "K/Tot",
+      "",
+      "8.688E-01"
+    ]
+  ],
+  "Omega": {
+    "K": {
+      "printed": "5.595E+10",
+      "value": 55950000000.0,
+      "Ece_printed_keV": "428.47",
+      "units": "s^-1"
+    },
+    "L1": {
+      "printed": "8.284E+09",
+      "value": 8284000000.0,
+      "Ece_printed_keV": "479.31",
+      "units": "s^-1"
+    },
+    "L2": {
+      "printed": "1.616E+08",
+      "value": 161600000.0,
+      "Ece_printed_keV": "479.82",
+      "units": "s^-1"
+    },
+    "Tot": {
+      "printed": "6.440E+10",
+      "value": 64400000000.0,
+      "Ece_printed_keV": null,
+      "units": "s^-1"
+    },
+    "K/Tot": {
+      "printed": "8.688E-01",
+      "value": 0.8688,
+      "Ece_printed_keV": null,
+      "units": "dimensionless"
+    }
+  },
+  "listed_partial_sum": 64395600000.0,
+  "program_reported_Tot_not_certified_all_shells": true,
+  "atomic_reference_uncertainty_not_given": true,
+  "shells": [
+    "K",
+    "L1"
+  ],
+  "e_E2": [
+    0.01475,
+    0.00186
+  ],
+  "m_M1": [
+    0.0363,
+    0.00495
+  ],
+  "Omega_s_per_second": [
+    55950000000.0,
+    8284000000.0
+  ],
+  "g_m_minus_e": [
+    0.02155,
+    0.0030900000000000003
+  ],
+  "model_matrix_for_parameters_w_z": [
+    [
+      0.02155,
+      1.0
+    ],
+    [
+      0.0030900000000000003,
+      0.14806076854334227
+    ]
+  ],
+  "inverse_model_matrix": [
+    [
+      1470.1758744919969,
+      -9929.54372016263
+    ],
+    [
+      -30.68229009530253,
+      213.98166716950465
+    ]
+  ],
+  "normalized_column_sine": 0.004576097787679816,
+  "normalized_column_angle_degrees": 0.2621920049580534,
+  "normalized_column_2norm_condition_number": 437.05130930424156,
+  "fixed_ST99_gamma_reference": {
+    "wM": 0.8715724127386971,
+    "ratios": [
+      0.033532385494518924,
+      0.004553158755362574
+    ],
+    "recovered_w_z": [
+      0.8715724127387003,
+      -1.5890360043573883e-16
+    ]
+  },
+  "post_lookup_illustrative_derivative_scale": {
+    "chosen_relative_L1_change": 0.01,
+    "K_change": 0.0,
+    "ratio_change": [
+      0.0,
+      4.553158755362574e-05
+    ],
+    "w_z_shift": [
+      -0.45210788926213946,
+      0.009742925013599104
+    ],
+    "result_w_z": [
+      0.4194645234765609,
+      0.009742925013598944
+    ],
+    "physical_nominal_domain": true,
+    "meaning": "Post-lookup1percentderivative scale, not frozen measurement, observed uncertainty, blind test oractualfit. Nominal linear model only."
+  },
+  "post_lookup_marginal_box_rank_loss_control": {
+    "fraction_of_quoted_K_marginal_errors": 0.9580151114315002,
+    "M1_K_control": 0.03582099244428425,
+    "E2_K_control": 0.014951183173400615,
+    "L1_and_Omega_centers_unchanged": true,
+    "determinant": 5.792535693017605e-19,
+    "meaning": "BothKcoefficients remain inside their quoted marginal intervals. This box witness does not assert the actual atomic covariance allows this simultaneous direction, or that the intervals are joint confidence/hard theory bounds."
+  },
+  "boundary": "Full rank at printed reference centers can still be poorly conditioned. Actual response, nuclear/atomic reference variation, coefficientCov, background and counts are missing. NoactualE0/delta extraction or completeOmegaTotal is certified."
+}

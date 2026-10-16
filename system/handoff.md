@@ -8,15 +8,15 @@ updated: 2026-10-17
 
 ## Active handoff — DAY15 card complete, study window active
 
-Run2026-10-16-day-15-01/session01a14510-aec7-7e00-aa23-f7c77a5124bc，原2026-10-17 15:00上海研究截止/15–16收束不改。Goal/run active；formal15已且只计一次，next16/count15，completed15/partial16；不授16/不开17。publication001–008已实际H3非force push/remoteHEAD核，exacthash只receipt。
+Run2026-10-16-day-15-01/session01a14510-aec7-7e00-aa23-f7c77a5124bc，原2026-10-17 15:00上海研究截止/15–16收束不改。Goal/runactive；formal15只计一次，next16/count15，completed15/partial16，不授16/不开17。publication001–009实际H3非force push/remoteHEAD核，exacthash仅receipt。
 
-既有Day15/partial16已canonical见日报。009从NNDC取164Yb adopted164070001/152Sm164070004/Ca44164070003，三新agentmanagedraw .ens核hash/不stage。Data201712/cut2017-11-30/NDS2018，不是381页全文。489.8 CC/KC是BrIcc理论、无selectedEKC；647 EKC<.0042追1986Jo02且已作ST99prior；1.75(.35)ps为T1/2/mean2.524716ps非独立两测，BE2W210派生于E2/branch。302ICC未知，RIrescale/levelLS Cov缺，不作absoluteB/uniqueδ。primaryXie96/Jo86尚未得：publisher403、OpenAlexclosed、Lundabstract/无file、INSPIREmeta无docs、OSTIConnectionError、Scholar失败、Elsevierproviders未配，未改credentials/凭据或声称机构无权限。
+010为明确壳层/参考E0合同：KB08全文主线202–214+AppendixA/selectedZ70row视觉已核，原全部34,020bytes历史prefix/flags/AR/pagehumanreview保留，新D15-1..6true。新两FOpurelookup与一个独立预算E0query共3POST/0retry，actual v2.3(2011)，E0实际BeOmg不是FO。K(M1/E2)=.0363/.01475，fixedsource−21°mixed=.0335324；programTot有N6/N7warning不认证complete，E0只列K/L1/L2也不complete。Zonly/defaultA173非A164recalc、energy.1keV未传播、theoryCov/actualΣ缺。新3HTMLraw/hash不stage。
 
-N164-11隔离secondaryprojectile冲突：ENSDF写150Sm16O4n(A162)，NSR+Lund作者abstract写18O(A164)，raw如实不改、不当新164采集。main152Sm16O/header独立核正常。Parser首col77commentflag误取76触发assert无numeric，修正读列/declaredBAND，physicalselectors未改。新N164source与ST99note/DCO/index已写，31writeback待freshchecks。
+ICCowner保存finiteelectron/gammaresponseκexactalias、fixedpointcountdesignchosen非实际power、E0正率和K/L1归一condition437/angle.2622°；名义marginalbox可rankloss只作scope。此前三NNDCraw/EKC/time/BE2谱系/secondaryprojectile冲突维持，无新唯一δ/E0/Jpi/actualL4。33writeback/36mapped/33changed/19mainraw/10quantitativehash/13旧rowsreviewfresh通过，lint0error/146warnings。新inline矩阵误作wikilink已修括号，失败回执保留。
 
-检查点009已提交，稳定指针main / `Trace evaluated 164Yb references without collapsing PDCO alternatives`，actualH3/push只publication009。21:26:52UTC余573.13min，下一BrIcc/E0 reference合同有高信息价值：primedfreeze day16-icc-reference-before-source-frozen.md已存，已看旧Wiki KB08，原PDF1–8（printed202–209）已读，mainline9–13/Appendix尚未读完；currentserver仅GETform，尚无POST。既有KB08 source是human-reviewed且有多轮selfaudit，必须保留全部旧body/rows/AR/page review，新增只appendtrue、不扩人审。复用genericwebhelper不重跑oldZ60points或旧checks加分；explicitZ70/E489.8matchingK/total；queryinput-v2为central-only，.1keV未传播，v1未执行/已supersede，missing输入写readyboundary，不手插值total/补0或改A/radius。
+检查点010已提交，稳定指针main / `Add shell-matched conversion references and E0 conditioning limits`，actualH3/push只publication010。05:56:04上海余543.93min；candidate-refresh010核sigma/I project与exactDay16card，仍有RU09实际已知photonbeam density下选枝的高信息route，不能在checkpointcloseout。primed回忆/基线已存，已读旧source但4page raw尚未开。注意冻结回忆从project以为RU09-6needsreview，当前source实为false/pagehuman-reviewed，纠正只记新artifact不改冻结/原flag；原整篇prefix保持，新appendtrue。只研究branch/reference用途，不做新11B结构页/新卡。
 
-Resume `codex resume 01a14510-aec7-7e00-aa23-f7c77a5124bc -C /workspace/wiki -s danger-full-access -a never`。保护PLAN/Bib/原userraw/review/credentials/继承receipts/daemon/旧log；exactmanifest、log只HEAD+ownappend，一次unpublished reconciliation后H3freshfetch/ancestry/dryrun/nonforce HEAD:main。最终closeout才一次overview对账；不在checkpoint结束goal。无待等研究process。
+Resume `codex resume 01a14510-aec7-7e00-aa23-f7c77a5124bc -C /workspace/wiki -s danger-full-access -a never`。保护PLAN/Bib/原userraw/review/credentials/继承receipts/daemon/旧log；exactmanifest/log只HEAD+ownappend，一次未发布reconciliation后freshH3非force HEAD:main。N164Xie/Jo primary仍未得，失败链接不原样重试；最终closeout才一次overview对账。无待等研究process。
 
 ## Previous active handoff — DAY14 completed after authorized extension
 

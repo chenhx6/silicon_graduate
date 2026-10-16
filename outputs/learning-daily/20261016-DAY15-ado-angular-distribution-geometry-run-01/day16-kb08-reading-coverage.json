@@ -1,0 +1,43 @@
+{
+  "at": "2026-10-17T05:46:44.507230+08:00",
+  "raw_sha256": "5a7b25491864acd4d2fea7a599136657da336a03f902009b423c6c450926cc34",
+  "text_mainline_PDFpages_read": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13
+  ],
+  "appendix_A_PDF14_read": true,
+  "appendix_B_selected": "PDF21/printed222Z70row andPDF27/printed228footnotes; otherAppendixnotlinebyline",
+  "visual_figures": "Fig1–7/Table1–3/mainlinecontactandselectedoriginalEq3/5/7/11/Z70",
+  "old_entire_source_prefix_preserved": true,
+  "new_claims": [
+    "KB08-D15-1",
+    "KB08-D15-2",
+    "KB08-D15-3",
+    "KB08-D15-4",
+    "KB08-D15-5",
+    "KB08-D15-6"
+  ],
+  "new_claims_not_human_reviewed": true,
+  "query_receipt": "day16-bricc-z70-query-receipt.json",
+  "exact_POSTs": 2,
+  "retries": 0,
+  "no_otherphysics_batch": true,
+  "additional_E0_query": {
+    "separatefrozenroute": "day16-bricc-e0-shell-rank-input.json",
+    "POSTs": 1,
+    "retries": 0,
+    "actualdataset": "BeOmg",
+    "newphysicsenergies": false
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "at": "2026-10-17T05:42:51.318850+08:00",
+  "source": "knowledge/sources/kibedi-2008-evaluation-theoretical-conversion-coefficients-bricc.md",
+  "source_sha256_before_append": "3a6fe7ba20213aeea4230fe959b5df698bccb7056ef9f6abf1567e7cba148b20",
+  "body_byte_count": 34020,
+  "raw": "raw/papers/2008_Kibédi et al_Evaluation of theoretical conversion coefficients using BrIcc.pdf",
+  "raw_sha256": "5a7b25491864acd4d2fea7a599136657da336a03f902009b423c6c450926cc34",
+  "all_existing_source_body_rows_AR_and_review_must_remain_unchanged": true,
+  "review_status": "human-reviewed",
+  "new_content_if_any": "appendonlyselfauditneedsreviewtrue"
+}

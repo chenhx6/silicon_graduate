@@ -1,5 +1,5 @@
 {
-  "captured_at": "2026-10-17T05:31:12.644711+08:00",
+  "captured_at": "2026-10-17T05:59:26.747913+08:00",
   "session_id": "01a14510-aec7-7e00-aa23-f7c77a5124bc",
   "run_id": "2026-10-16-day-15-01",
   "hard_deadline": "2026-10-17T15:00:00+08:00",
@@ -178,7 +178,7 @@
       "human_review_created": false
     }
   },
-  "current_status": "Published001–008 actualH3/push; checkpoint009committed NNDC164Ybselectedobjects/crosswalk. Actualpublicationonlyreceipt009. Goal/windowactive, formal15only/partial16.",
+  "current_status": "Published001–009actualH3/push; checkpoint010committed matchedFO/E0BeOmg/conditionalK-L1rank/countdesign passfreshchecks,actualpublicationonlyreceipt010. NextRU09viable/primedfreeze/rawnotopened; formal15once/partial16/originalwindowactive.",
   "worksheet": {
     "input_sha256": "e8e31f0691862296b62adffb34e6e5395d22ba6cdc59f629a00c71a89eeadf04",
     "script": "system/scripts/day15_ado_covariance_worksheet.py",
@@ -188,10 +188,10 @@
     "figure_source_warnings": 4
   },
   "next_actions": [
-    "Confirmactualpublication009",
-    "FinishKB08Secs4.2–6 andselectedAppendix; exactlytwoFO-onlypureM1/E2POSTsusingfrozenv2, noautomaticretry",
-    "Case-specificE0/reference/electrongammaresponsecontract; reuseexistingE0derivations, nooldtoy/checkcredit",
-    "Original15:00cutoff,noformal16/17"
+    "Publish010exactmanifest/H3",
+    "RU09raw4pagecomplete/keyfigtable andexplicitphysicalpriorbranch, freezealreadydone",
+    "RU09actualoldflag6false/pagehumanreviewed, projectsummaryprimingnotcurrentflag; preserveoldwholeprefix,newtrueonly",
+    "NoDay17, nofreeoldtoyrepeat, original15:00cutoff"
   ],
   "mixed_event_analysis": {
     "input_sha256": "b0a0bb6503d01e8dc432e1a866960872b4fbc1bebd89a1737ca766eab9bab72c",
@@ -467,5 +467,23 @@
     "POST_queries_executed": 0,
     "active_query_input": "day16-bricc-z70-489p8-query-input-v2.json",
     "scope": "nominalenergyonly; data.1keVunc retainedbutnotpropagated; preservealloldKB08body/flags"
+  },
+  "ICC_reference": {
+    "source": "knowledge/sources/kibedi-2008-evaluation-theoretical-conversion-coefficients-bricc.md KB08-D15-1..6",
+    "canonical": "knowledge/methods/internal-conversion-analysis.md",
+    "queries": "2pureFO+1E0BeOmg, separatefixedbudgets,0retry",
+    "K_pureM1": 0.0363,
+    "K_pureE2": 0.01475,
+    "K_fixedmixed": 0.033532385494518924,
+    "FO_missing_shells": [
+      "N6",
+      "N7"
+    ],
+    "E0_missing_completeTotal": true,
+    "oldwholehumanreviewprefix_retained": true,
+    "E0_center_normalized_condition": 437.05130930424156,
+    "marginalbox_rankloss_is_scope_only": true,
+    "actual_L4": false,
+    "boundedstopcontractsmet": true
   }
 }

@@ -1,0 +1,11 @@
+# Rusev2009当前分支问题：来源前回忆（primed）
+
+已读本sessionsigma/I project摘要，知道RU09-6仍保留needs_review且涉及authorphysical-plausibility选branch；已见skill/旧index的题名，尚未在本段打开RU09source/raw。不称独立盲测或正式Day16成绩。
+
+1. 由polarizationalone求δ仍可能有twoquadraticroots；控制入射光子polarization不自动使spin/multipole/branch/order/response全部无模型。
+2. 11B photon散射/NRF若用linearlypolarizedbeam，入射态density由knownbeam/geometry建立，与fusionevaporationunknownGaussianalignment不同；具体source测法/energy/spins/roots尚未读，不能补数字。
+3. 选择一根若只因另一根违反shellmodel expectation或M1/E2strengthplausibility，是作者解释/priormodel，不是新增独立测量；须查lifetime/branch/knownwidth是否真能独立排除。RU09-6在旧source保留为claimselfaudit边界，不因旧project人审清掉。
+4. 已有KS70两根和ST99残余branch不需要再重跑；若此source只重复“两根”，不制造新toy。信息增益目标是已知beamdensity仍残余哪些degeneracy、具体必要companion和sourceindependence。
+5. 反证需查finitebeamP/acceptance/feeding/inelasticcontamination或spinpath有无独立control；source有限δ截断不能称全部物理可能穷尽。
+
+目标只核一篇完整主线和关键图表，保存trueexperimental/authorchoice/theory分层；不做11B新核结构专题/新卡，不把polarization仪器技能变正式Day17内容。原2026-10-17 15:00上海deadline继续不变。

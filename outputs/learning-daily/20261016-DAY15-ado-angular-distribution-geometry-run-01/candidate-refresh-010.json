@@ -1,0 +1,33 @@
+{
+  "at": "2026-10-17T05:58:19.901797+08:00",
+  "hard_deadline": "2026-10-17T15:00:00+08:00",
+  "scope": "current15plusexactlypartial16,nocard17",
+  "candidate_rebuild_inputs": [
+    "currentcanonicalDay15method/sourcegaps",
+    "sigma-over-i project ResearchQuestion/Readiness/SourceTable",
+    "exactDay16matrixcardpreviouslyreread",
+    "publicproducer/accessfailurefingerprints",
+    "boundedBrIcc/E0rankstopcontracts"
+  ],
+  "candidate_pool": [
+    {
+      "issue": "Rusev2009actualbranchselectionwithknownphotonpolarization",
+      "entry": "knowledge/sources/rusev-2009-multipole-mixing-ratios-11b.md RU09-6",
+      "expected_gain": "controlledinitialdensitybutremainingbranch/physicalprior audit, independentexperimentalmechanism contrast",
+      "decision": "selectedoneboundedprimary; primedfreezebeforeopensource/raw"
+    },
+    {
+      "issue": "E0/ICC/Ωmoreenergiesormarginalgrids",
+      "decision": "rejectboundedrankstopmet; actualjointresponseΣmissing"
+    },
+    {
+      "issue": "ST99unroundedprogram/135PrproducerΣ",
+      "decision": "missingactualinput; no unchangedfailedaccess retries"
+    },
+    {
+      "issue": "Day17",
+      "decision": "notopened"
+    }
+  ],
+  "saturation_decision": "notgloballysaturated; viableactualsourceRU09routeexists despiteBrIccboundedstop"
+}

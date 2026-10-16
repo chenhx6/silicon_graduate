@@ -1,0 +1,51 @@
+{
+  "identity": "DAY16-PREVIEW-N164-MATCHED-K-ICC-DESIGN-01",
+  "frozen_at": "2026-10-17T05:45:29.058896+08:00",
+  "session_id": "01a14510-aec7-7e00-aa23-f7c77a5124bc",
+  "coefficient_snapshot": "outputs/learning-daily/20261016-DAY15-ado-angular-distribution-geometry-run-01/day16-bricc-z70-captured-coefficients.json",
+  "coefficient_sha256": "adc871d5562b617a56ffa5f9c891b58b39ccfd87617dda09a2a4fa130808a0c9",
+  "source": "knowledge/sources/kibedi-2008-evaluation-theoretical-conversion-coefficients-bricc.md",
+  "locators": [
+    "printed203Eq3/5",
+    "printed204Eq7/11",
+    "printed206Table2",
+    "printed213Sec5.1",
+    "printed222TableB1Yb"
+  ],
+  "source_hypothesis": {
+    "arctan_delta_degrees": -21,
+    "native_delta_scope": "radiativeE2/M1ratio, onlyfixedST99point, noactualCI orfreebranchfit"
+  },
+  "shell": "K",
+  "energy_keV": 489.8,
+  "K_binding_reference_keV": 61.3323,
+  "reference_table_default_A": 173,
+  "actual_isotope_A": 164,
+  "reference_mass_not_corrected": true,
+  "conditional_count_design": {
+    "electron_over_gamma_efficiency_ratio_chosen": 0.5,
+    "expected_twice_log_likelihood_gap_target_chosen": 9.0,
+    "observation_model": "electron/gammapoissonsplittingwithfixedexternalresponse, conditionalontotaldetectedn becomesbinomialp=kappa*alpha/(1+kappa*alpha)",
+    "background": "chosenzero",
+    "calibration_nuisances": "chosenknownkappa forKL exercise, notactualexperimentalbudget",
+    "precision_meaning": "nAsimovdesignonly, noactualN,noformalpower/significanceor3sigmaequivalence"
+  },
+  "illustrative_theory_covariance_sensitivity": {
+    "input_uncertainties": "reportedquotedmarginals, notcertifiedGaussians",
+    "rho_between_M1_E2_chosen": [
+      -1.0,
+      0.0,
+      1.0
+    ],
+    "delta_error": "notgivenatST99point so nonepropagated",
+    "noextra_interpolation_orenergy_variance_added": true
+  },
+  "E0_contract": {
+    "same_Jpi_alternative": "14+->14+allowsE0",
+    "no_single_gamma_E0": true,
+    "no_E0_pair_at489p8": true,
+    "observed_K_equals": "wM*alphaK_M1+wE*alphaK_E2+xK_E0, xK_E0>=0 independent rate-normalized term",
+    "fixed_delta_lower_bound_only": "withchosenFOreference andnonnegativeE0, alphaK>=base_mix; notglobaldelta/penetration/geometrybound"
+  },
+  "stop_contract": "onefixedpoint/referenceandcount-designbatch; noadditionalphysicalquery orfreeδfit; missingjointresponse/actualcountbudgetandE0Omega remainreadiness"
+}

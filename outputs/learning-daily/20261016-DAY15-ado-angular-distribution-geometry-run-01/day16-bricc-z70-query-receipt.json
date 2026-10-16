@@ -1,0 +1,54 @@
+{
+  "identity": "DAY16-PREVIEW-BRICC-Z70-E489P8-FO-SHELL-REFERENCE-02",
+  "input_sha256": "5a4deef640bd8177002fc24c929641f7ee29300b9b1a4eb1ae1a03acc2858a9c",
+  "script_sha256": "18080d1eb8ea277a6b9ea33af2e1d69a1b0d5a18c3aa1cd64336dea99d8b4ea0",
+  "requests": [
+    {
+      "parameters": {
+        "atomic": "70",
+        "energy": "489.8",
+        "eerror": "",
+        "multipole": "M1",
+        "delta": "",
+        "derror": "",
+        "subshells": "on",
+        "dataset": "BrIccFO",
+        "calculate": "Calculate"
+      },
+      "attempt_started_at": "2026-10-17T05:42:00.353517+08:00",
+      "status": "http-response",
+      "automatic_retries": 0,
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "response": "tmp/20261016-day15-ado/kb08/z70-query/bricc-Z70-E489p8-FO-M1.html",
+      "bytes": 21112,
+      "sha256": "0f74bd9078a77504e3c65e12eff2084533c18db876d2000a03ec6e8d05c7e26d",
+      "redirect_statuses": [],
+      "completed_at": "2026-10-17T05:42:01.785085+08:00"
+    },
+    {
+      "parameters": {
+        "atomic": "70",
+        "energy": "489.8",
+        "eerror": "",
+        "multipole": "E2",
+        "delta": "",
+        "derror": "",
+        "subshells": "on",
+        "dataset": "BrIccFO",
+        "calculate": "Calculate"
+      },
+      "attempt_started_at": "2026-10-17T05:42:01.795753+08:00",
+      "status": "http-response",
+      "automatic_retries": 0,
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "response": "tmp/20261016-day15-ado/kb08/z70-query/bricc-Z70-E489p8-FO-E2.html",
+      "bytes": 21117,
+      "sha256": "bde3a2eefe5d1f813df58cbbc0273ad0458fce09e462eef0a23e8c682221450d",
+      "redirect_statuses": [],
+      "completed_at": "2026-10-17T05:42:03.086708+08:00"
+    }
+  ],
+  "numerical_validation_performed": false
+}

@@ -1,0 +1,53 @@
+{
+  "checkpoint": "010",
+  "branch": "main",
+  "subject": "Add shell-matched conversion references and E0 conditioning limits",
+  "paths": [
+    "knowledge/methods/internal-conversion-analysis.md",
+    "knowledge/research-notes/st99-pdco-calibration-table-replay.md",
+    "knowledge/sources/kibedi-2008-evaluation-theoretical-conversion-coefficients-bricc.md",
+    "system/scripts/day16_bricc_reference_query.py",
+    "system/scripts/day16_bricc_reference_capture.py",
+    "system/scripts/day16_bricc_n164_icc_design.py",
+    "system/scripts/day16_bricc_e0_shell_rank.py",
+    "system/handoff.md",
+    "system/log.md",
+    "outputs/learning-daily/20261016-DAY15-ado-angular-distribution-geometry.md",
+    "outputs/learning-daily/20261016-DAY15-ado-angular-distribution-geometry-run-01/run.json",
+    "outputs/learning-daily/20261016-DAY15-ado-angular-distribution-geometry-run-01/continuation.md",
+    "outputs/learning-daily/20261016-DAY15-ado-angular-distribution-geometry-run-01/research-checkpoint.json",
+    "outputs/learning-daily/20261016-DAY15-ado-angular-distribution-geometry-run-01/publication-009.json",
+    "outputs/learning-daily/20261016-DAY15-ado-angular-distribution-geometry-run-01/publication-manifest-010.json",
+    "outputs/learning-daily/20261016-DAY15-ado-angular-distribution-geometry-run-01/verification-prepublication-010.json",
+    "outputs/learning-daily/20261016-DAY15-ado-angular-distribution-geometry-run-01/verification-prepublication-010-initial.json",
+    "outputs/learning-daily/20261016-DAY15-ado-angular-distribution-geometry-run-01/task-log-entry-010.txt",
+    "outputs/learning-daily/20261016-DAY15-ado-angular-distribution-geometry-run-01/candidate-refresh-009.json",
+    "outputs/learning-daily/20261016-DAY15-ado-angular-distribution-geometry-run-01/candidate-refresh-010.json",
+    "outputs/learning-daily/20261016-DAY15-ado-angular-distribution-geometry-run-01/day16-bricc-z70-query-receipt.json",
+    "outputs/learning-daily/20261016-DAY15-ado-angular-distribution-geometry-run-01/day16-bricc-z70-raw-manifest.json",
+    "outputs/learning-daily/20261016-DAY15-ado-angular-distribution-geometry-run-01/day16-bricc-z70-captured-coefficients.json",
+    "outputs/learning-daily/20261016-DAY15-ado-angular-distribution-geometry-run-01/day16-bricc-n164-icc-design-input.json",
+    "outputs/learning-daily/20261016-DAY15-ado-angular-distribution-geometry-run-01/day16-bricc-n164-icc-design.json",
+    "outputs/learning-daily/20261016-DAY15-ado-angular-distribution-geometry-run-01/day16-kb08-before-append-baseline.json",
+    "outputs/learning-daily/20261016-DAY15-ado-angular-distribution-geometry-run-01/day16-kb08-reading-coverage.json",
+    "outputs/learning-daily/20261016-DAY15-ado-angular-distribution-geometry-run-01/day16-bricc-evidence-proof.json",
+    "outputs/learning-daily/20261016-DAY15-ado-angular-distribution-geometry-run-01/day16-bricc-e0-shell-rank-input.json",
+    "outputs/learning-daily/20261016-DAY15-ado-angular-distribution-geometry-run-01/day16-bricc-e0-query-receipt.json",
+    "outputs/learning-daily/20261016-DAY15-ado-angular-distribution-geometry-run-01/day16-bricc-e0-shell-rank.json",
+    "outputs/learning-daily/20261016-DAY15-ado-angular-distribution-geometry-run-01/day16-bricc-e0-raw-manifest.json",
+    "outputs/learning-daily/20261016-DAY15-ado-angular-distribution-geometry-run-01/day16-rusev09-before-source-frozen.md",
+    "outputs/learning-daily/20261016-DAY15-ado-angular-distribution-geometry-run-01/day16-rusev09-recall-freeze.json",
+    "outputs/learning-daily/20261016-DAY15-ado-angular-distribution-geometry-run-01/day16-rusev09-before-append-baseline.json"
+  ],
+  "special_staging": {
+    "system/log.md": "HEAD plus exactownappend010, preserveinheritedworktree"
+  },
+  "scope": "newmatchedshell/E0references, knownresponsefixedpointdesign, onlyformal15/partial16, originalwindowactive",
+  "exclusions": [
+    "allraw inclnew3HTML/3ENSDF",
+    "tmp",
+    "PLAN/Bib/credentials",
+    "inheritedreceipts/daemon/log",
+    "transientfulllintlogs"
+  ]
+}

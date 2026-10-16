@@ -146,6 +146,8 @@ ENSDF152Sm对象的secondary comment写150Sm(16O,4n)，质量平衡只到162；N
 
 ## Competing Explanations
 
+2026-10-17 matched-reference增量：[[internal-conversion-analysis]]的“164Yb固定候选：明确壳层、效率与E0的输入门”与[[kibedi-2008-evaluation-theoretical-conversion-coefficients-bricc]] KB08-D15-1–4给新官方Z70/489.8 pureM1/E2 K=.0363/.01475，固定−21° mixedK=.0335324。原alpha_κ未核定义不强认相同数据；N6/N7缺项不影响“本次K有值”的记录，但programTot不认证complete。14→14 E0允许、ICC sign盲、electron/γ有限接受和未知κ的exactlikelihood别名须保留，不能只凭两个point之差就说下一实验已经充分。两壳rank还需Omega/响应/Σ；未知302branch使time不能补出absoluteB。新lookup是独立输入对象，仍与ENSDF理论字段共享BrIcc模型，不计独立实验。
+
 表值重放差异可能涉及未公开的unrounded producer output、表列值与minimum的对应、误差预算或原出版转录；现有输入无法选择其一。未知Cov不是事后强行使79.5成立的拟合旋钮。物理候选歧义、相位约定错误和印刷表重放缺口分别保留。
 
 ## Transfer Conditions

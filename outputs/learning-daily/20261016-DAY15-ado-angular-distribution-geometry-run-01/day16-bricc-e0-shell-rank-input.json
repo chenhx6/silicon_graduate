@@ -1,0 +1,47 @@
+{
+  "identity": "DAY16-PREVIEW-Z70-489P8-E0-K-L1-RANK-01",
+  "frozen_at": "2026-10-17T05:51:27.592126+08:00",
+  "session_id": "01a14510-aec7-7e00-aa23-f7c77a5124bc",
+  "scope": "oneboundednewreferencequeryforunresolvedtwo-shellrank, afterM1/E2fixedpointstopcontract; notexpandearliertwoquerybatch",
+  "endpoint": "https://bricc.anu.edu.au/",
+  "query": {
+    "atomic": "70",
+    "energy": "489.8",
+    "eerror": "",
+    "multipole": "E0",
+    "delta": "",
+    "derror": "",
+    "subshells": "on",
+    "dataset": "BrIccFO",
+    "calculate": "Calculate"
+  },
+  "max_POSTs": 1,
+  "retries": 0,
+  "expected_quantity": "OmegaE0electronicfactor1/s, notICCwhichispureE0undefined",
+  "primary_context": "KB08printed204Eq7/11; printed212–213Sec4.4; AppendixA supportsE0 and returnsOmega usingFO request",
+  "existing_M1_E2_snapshot": "outputs/learning-daily/20261016-DAY15-ado-angular-distribution-geometry-run-01/day16-bricc-z70-captured-coefficients.json",
+  "existing_M1_E2_sha256": "adc871d5562b617a56ffa5f9c891b58b39ccfd87617dda09a2a4fa130808a0c9",
+  "analysis_if_success": {
+    "shells": [
+      "K",
+      "L1"
+    ],
+    "equation": "r_s=e_s+(m_s-e_s)w+Omega_s*x, x=rho2/Tgamma unitsseconds",
+    "diagnostics": [
+      "column-normalizedsine/determinant/rank",
+      "conditional-2normafterseparatecolumnnormalization",
+      "fixedreferencecentralK,L1fractionsbeforeandafterunknownE0",
+      "noactualdata/pointfit"
+    ],
+    "nonnegative_domain": "w in[0,1], x>=0",
+    "not_inferred": [
+      "actualrho2",
+      "trueparameterCov",
+      "universalconfidence/rankunderallpenetration",
+      "absoluteE0strength",
+      "completeOmegaTotal"
+    ]
+  },
+  "assumptions": "sameFO/BeOmgcontext, noA164recompute/atomicstate/penetration/finiteelectronresponse; E0theoryuncertaintynotreportednorborrowedICC1.4%",
+  "stop_contract": "onePOST, ifmissingnoalternatelabels/retries/localbinary; preservetypedboundary. Ifsuccessdooneofflinefixedrankexerciseandstop, noadditionalphysicalgrid."
+}

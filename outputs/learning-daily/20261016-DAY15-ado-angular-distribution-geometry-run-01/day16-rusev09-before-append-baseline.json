@@ -1,0 +1,10 @@
+{
+  "at": "2026-10-17T05:59:26.747913+08:00",
+  "path": "knowledge/sources/rusev-2009-multipole-mixing-ratios-11b.md",
+  "sha256": "53ab7db742c80be1b52d36dfe0a0b83bc2ae2f2a115bddee6168bd2964fc5bed",
+  "whole_prefix_must_be_preserved_if_appended": true,
+  "actual_review_status": "review_status: human-reviewed",
+  "actual_RU09_6_row": "| RU09-6 | 作者没有把 asymmetry 当作可唯一选枝的证据，而是明确按物理可接受性选择较小 `abs(delta)` 的分支：他们写道另一支会对应相对已知数值“异常大”的 `E2` admixture；对 `8.916 MeV` transition 给出的另一解为 `delta=-1.30`，对应约 `63%` 的 `E2` admixture。 | author-interpretation | direct | pp.047601-3--047601-4, paragraph spanning Fig.4 and opening of p.4 | false |",
+  "primed_recall_correction": "ProjectsummarysuggestedretainedclaimrecheckbutcurrentRU09-6isfalse andpagehuman-reviewed. Frozenrecallpredictionnotedited; do notresetoldflagorfalselysaycurrentclaimneedsreview. Newclaimsifanytrueonly.",
+  "raw_not_opened_before_this_baseline": true
+}

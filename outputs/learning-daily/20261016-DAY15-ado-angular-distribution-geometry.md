@@ -141,6 +141,16 @@ S83 printed466 Eq7 epsilon_c分母是2Ns；printed464 Table1的60Co多重性不�
 
 152Sm对象secondarycomment的150Sm16O4n与NSR/Lund机构abstract的150Sm18O4n存在A守恒的metadata冲突，N164-11已隔离，raw未改、不作为另一164采集。Crossref/NSR/OpenAlex/INSPIRE核Xie96与Jonsson86身份，Lund仅有abstract/无公开filelink，publisher PDFprefix均403 HTML，OSTI新目标ConnectionError，Scholar失败、Elsevier两provider未配置；这些不代表机构entitlement已判无权限，也不宣称全部合法路线耗尽。两primary body尚未取得，不能补fit/feeding/table细节。
 
+### KB08主线与新的明确壳层参考
+
+在[primed回忆](20261016-DAY15-ado-angular-distribution-geometry-run-01/day16-icc-reference-before-source-frozen.md)后核原28页PDF hash，完整重读printed202–214/Secs1–6、AppendixA printed215，定向读Z70 printed222/Appendixfootnotes printed228，视觉核Fig1–7/Table1–3及关键Eq；不称逐行复审全部Appendix。新覆盖见[receipt](20261016-DAY15-ado-angular-distribution-geometry-run-01/day16-kb08-reading-coverage.json)。[KB08 source](../../knowledge/sources/kibedi-2008-evaluation-theoretical-conversion-coefficients-bricc.md)原34,020bytes整体作为prefix保留，新D15-1–4只append needs_reviewtrue，不扩原page humanreview。
+
+TableB.1的Yb reference A173/Kbinding61.3323keV与实际A164不同，currentweb只给Z，未暴露backendmass/datafilehash；本次不手改radius/A。Eq7/11与Sec4.4分别核E0 rate/电子因子单位与缺少统一theory误差，不能套ICC1.4%；1.4%本已含interpolation，不再加.3%。
+
+新[查询v2](20261016-DAY15-ado-angular-distribution-geometry-run-01/day16-bricc-z70-489p8-query-input-v2.json) hash`5a4deef640bd8177002fc24c929641f7ee29300b9b1a4eb1ae1a03acc2858a9c`执行**2POST/0retry**（FO-only/pureM1/E2/Z70/E489.8）。v1在POST前supersede；energy.1keV保留为实验数据，但未传入本次nominal lookup，不冒称完整误差传播。actualresponse为BrIccS v2.3(9-Dec-2011)/BrIccFO；[原HTTP回执](20261016-DAY15-ado-angular-distribution-geometry-run-01/day16-bricc-z70-query-receipt.json)和[离线逐行核验](20261016-DAY15-ado-angular-distribution-geometry-run-01/day16-bricc-z70-captured-coefficients.json)分开，HTTP200/echo不是验收替代。
+
+纯M1/E2 K=.0363(5)/.01475(21)、L=.00536(8)/.00314(5)、programTot=.0432(6)/.0188(3)。两表N6/N7均未返回且各有两条>398keV警告；不补0、不认证completeTotal。两新官方HTML逐文件hash写raw/manifest、不stage。全部shell/ratio打印行、warning和模型边界已写[KB08新附录](../../knowledge/sources/kibedi-2008-evaluation-theoretical-conversion-coefficients-bricc.md#z704898实际返回的全部shell与ratio行)，不是只在outputs。它们与ENSDF共享BrIcc模型，不能算新的独立实验。
+
 ## Theory/analysis exercise
 
 ### 新ADO计算单
@@ -312,6 +322,20 @@ KF Table1还直接限制“sameL则R1”：nonstretched L2/L2可为.66/.57；其
 [冻结输入](20261016-DAY15-ado-angular-distribution-geometry-run-01/day16-n164-record-crosswalk-input.json) hash `d412f15d95efeb69ba48a18d95f2ef790eb5561cc6e4de1afbb8ddb90bd6138c`；[脚本](../../system/scripts/day16_n164_record_crosswalk.py)最终exit0、[结果](20261016-DAY15-ado-angular-distribution-geometry-run-01/day16-n164-record-crosswalk.json)核三raw/headers与unique explicit selectors。首轮commentflag col77错取col76而断言失败、无numeric output，修正读列且只在BAND声明内解flag，未改raw/physical selectors。
 
 母态T1/2换mean tau=2.524716(.504943)ps，lambda=3.960841e11s^-1（局部sigma .792168e11）；不是两个寿命测量，primary mean-time/feeding仍未核。sameparent RI302/489在ADOPTED为.029、reaction .029412，主要是同源rescaling，不作两独立强度。selectedGS的两个评价level表示差约−.26至−.34keV、目标γ同489.8/647.4；只记录energy residual，不用未知Cov做χ²。ST99 atanδ−21°给radiative M1/E2 fractions .871572/.128428，不是总decay分支；未知302ICC/completeinventory/Σ使absolute两候选重算仍not-ready。完整数据与反证写[canonical病例](../../knowledge/research-notes/st99-pdco-calibration-table-replay.md#nndc实际参考记录有寿命不等于已测490转换)。
+
+### 新K-shell reference与fixed-point观测设计
+
+固定source atanδ−21°给M1/E2radiative weights .871572/.128428，用新匹配FO系数得到K=.0335323855、L=.0050748908、programTot=.0400663669，K/pureE2比2.273382。这不强认ST99原alpha_κ的历史定义、不将quotederror当actualΣ，也不重放actualδ。14+→14+候选允许非负E0，489.8<1022无pair；在固定reference/δ截断下只能上推K，不能从.033532降至.01475。更一般δ/penetration/电子接受不受这个point界约束。
+
+新[设计冻结输入](20261016-DAY15-ado-angular-distribution-geometry-run-01/day16-bricc-n164-icc-design-input.json) hash `af3cd646844951f40081a2342fb2ad120441ba14af3635bd8550aeb481f1b3dd`，[计算脚本](../../system/scripts/day16_bricc_n164_icc_design.py)/[结果](20261016-DAY15-ado-angular-distribution-geometry-run-01/day16-bricc-n164-icc-design.json)exit0；**chosen**κ=epsilonElectron/epsilonGamma=.5（含相同接受响应）已知、background0、两fixedpoints、Poissonthinning条件于总n给binomialp=κα/(1+κα)。期望2logLR自选目标9时，两truth需n1378/1056，expectedelectrons约10.09/17.41。这不是3sigma、指定type-Ipower或真实N预算；LR>1在此确切pointmodel的正确偏好概率.94878/.93060另保存，未给实际experimentconfidence。
+
+κ自由时pureE2 κ=.5与mixed κ=.2199366给完全相同条件分布，故不能靠count增长识别alpha；同样fractionalκ半宽约.389011时两prediction区间开始相交，是chosen nuisance域的代数阈值。完整angle-integratedICC/finiteelectron和gammaresponse公式、sharedgate/a/background Cov及两壳矩阵rank条件写[ICC方法](../../knowledge/methods/internal-conversion-analysis.md#164yb固定候选明确壳层效率与e0的输入门)。未给Omega/actualΣ/302branch，不宣称两壳E0分解或absoluteB可用。此singlebatch停止，无额外physicalquery/自由δ/旧Z60toy重复。
+
+### E0续查反证：两个shell中心满秩仍不足
+
+前两pureICC query完成后，另冻结[一个明确有界续问](20261016-DAY15-ado-angular-distribution-geometry-run-01/day16-bricc-e0-shell-rank-input.json)（hash`0082add7f6e8821a4fc05a639f47af915c85d1a0492e82f337450e2056f9a723`）：**1POST/0retry**，只为K/L1 rank补匹配Omega，不重跑前两点。actualreturn为**BeOmg**/v2.3(2011)，K5.595E10/L1 8.284E9/L2 1.616E8s^-1、programTot6.440E10/Kratio.8688；这不是ICC，未给theoryerror/其它shell，不认证completeTotal。[原回执](20261016-DAY15-ado-angular-distribution-geometry-run-01/day16-bricc-e0-query-receipt.json)和[离线核算](20261016-DAY15-ado-angular-distribution-geometry-run-01/day16-bricc-e0-shell-rank.json)exit0；新HTML raw/hash不stage。
+
+z=OmegaK rho²/Tgamma时名义矩阵`[[.02155,1],[.00309,.1480607685]]`，列分别归一后夹角.262192°、条件数437.0513；不是由单位任意缩放造成，却仍未按actualΣ白化。postlookup自选1% L1 ratio变化（K固定）给wM shift−.452108，只示导数，不是观测误差或fit。另取两K理论值在各quotedmarginal .9580倍内，可使矩阵det≈0；未声称真实atomicCov允许此方向或把括号当joint置信域。全部Omega打印行、inverse、条件rank与scope controls已canonical于[KB08新附录](../../knowledge/sources/kibedi-2008-evaluation-theoretical-conversion-coefficients-bricc.md#同能量e0-electronic-factor与两壳rank的有界续查)及[ICC方法](../../knowledge/methods/internal-conversion-analysis.md#新e0-kl1参考中心满秩但病态)。结论修正为需匹配response/theoryΣ和独立方向的companion，不能仅凭“再测L1”许诺实际delta/E0可解。此route stopcontract已满足。
 
 ### Thematic REFLECT：响应、约定、候选与证据依赖
 
@@ -1152,7 +1176,7 @@ KF Table1还直接限制“sameL则R1”：nonstretched L2/L2可为.66/.57；其
     },
     {
       "knowledge": "knowledge/research-notes/st99-pdco-calibration-table-replay.md",
-      "summary": "保存Q/A/P逐量定义、全部13行式7重算/舍入包络、chosenCov排序反例及同数据/独立companion输入边界。；新增当前NNDC三对象EKC/理论CC、T1/2/mean时间、RIrescaling、derivedBE2和isolatedsecondaryreaction合同。",
+      "summary": "保存Q/A/P逐量定义、全部13行式7重算/舍入包络、chosenCov排序反例及同数据/独立companion输入边界。；新增当前NNDC三对象EKC/理论CC、T1/2/mean时间、RIrescaling、derivedBE2和isolatedsecondaryreaction合同。；接新FO匹配K/E0/reference/κ识别边界，未靠理论CC选actual分支。",
       "anchor": "五点式7与NDF",
       "sources": [
         {
@@ -1218,6 +1242,14 @@ KF Table1还直接限制“sameL则R1”：nonstretched L2/L2可为.66/.57；其
         {
           "path": "knowledge/sources/nndc-2018-164yb-pdco-reference-records.md",
           "locator": "N164-13"
+        },
+        {
+          "path": "knowledge/sources/kibedi-2008-evaluation-theoretical-conversion-coefficients-bricc.md",
+          "locator": "KB08-D15-3"
+        },
+        {
+          "path": "knowledge/sources/kibedi-2008-evaluation-theoretical-conversion-coefficients-bricc.md",
+          "locator": "KB08-D15-4"
         }
       ]
     },
@@ -1412,6 +1444,72 @@ KF Table1还直接限制“sameL则R1”：nonstretched L2/L2可为.66/.57；其
           "locator": "N164-11"
         }
       ]
+    },
+    {
+      "knowledge": "knowledge/sources/kibedi-2008-evaluation-theoretical-conversion-coefficients-bricc.md",
+      "summary": "原主线/AppendixA及Z70row复核后只append四条true和全部两次FOlookup rows；保存missingN6/N7、A173/reference、E0单位/误差及固定候选使用门，不扩旧人审。；追加一次BeOmgE0K/L1/L2/reference和fullrank中心仍病态、nominalmarginalboxrankloss的scope控制。",
+      "anchor": "2026-10-17 Supplement — 明确壳层的164Yb参考与E0使用门",
+      "sources": [
+        {
+          "path": "knowledge/sources/kibedi-2008-evaluation-theoretical-conversion-coefficients-bricc.md",
+          "locator": "KB08-D15-1"
+        },
+        {
+          "path": "knowledge/sources/kibedi-2008-evaluation-theoretical-conversion-coefficients-bricc.md",
+          "locator": "KB08-D15-2"
+        },
+        {
+          "path": "knowledge/sources/kibedi-2008-evaluation-theoretical-conversion-coefficients-bricc.md",
+          "locator": "KB08-D15-3"
+        },
+        {
+          "path": "knowledge/sources/kibedi-2008-evaluation-theoretical-conversion-coefficients-bricc.md",
+          "locator": "KB08-D15-4"
+        },
+        {
+          "path": "knowledge/sources/kibedi-2008-evaluation-theoretical-conversion-coefficients-bricc.md",
+          "locator": "KB08-D15-5"
+        },
+        {
+          "path": "knowledge/sources/kibedi-2008-evaluation-theoretical-conversion-coefficients-bricc.md",
+          "locator": "KB08-D15-6"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/methods/internal-conversion-analysis.md",
+      "summary": "新增匹配K理论点、finiteelectron/gamma接受与未知效率别名、fixedpointcount-design/E0正率及两壳rank合同，不声称实际精度或fit。；补匹配E0OmegaK/L1matrix、归一条件437、非盲derivative与marginalboxscope反证，保留actualΣ/response缺口。",
+      "anchor": "164Yb固定候选：明确壳层、效率与E0的输入门",
+      "sources": [
+        {
+          "path": "knowledge/sources/kibedi-2008-evaluation-theoretical-conversion-coefficients-bricc.md",
+          "locator": "KB08-D15-1"
+        },
+        {
+          "path": "knowledge/sources/kibedi-2008-evaluation-theoretical-conversion-coefficients-bricc.md",
+          "locator": "KB08-D15-3"
+        },
+        {
+          "path": "knowledge/sources/kibedi-2008-evaluation-theoretical-conversion-coefficients-bricc.md",
+          "locator": "KB08-D15-4"
+        },
+        {
+          "path": "knowledge/sources/nndc-2018-164yb-pdco-reference-records.md",
+          "locator": "N164-10"
+        },
+        {
+          "path": "knowledge/sources/starosta-1999-pdco-experimental-test.md",
+          "locator": "ST99-12"
+        },
+        {
+          "path": "knowledge/sources/kibedi-2008-evaluation-theoretical-conversion-coefficients-bricc.md",
+          "locator": "KB08-D15-5"
+        },
+        {
+          "path": "knowledge/sources/kibedi-2008-evaluation-theoretical-conversion-coefficients-bricc.md",
+          "locator": "KB08-D15-6"
+        }
+      ]
     }
   ]
 }
@@ -1433,7 +1531,7 @@ L0完成Zheng主线；L1把source/方法/observable连通；L2完成有输入/ha
 
 计算脚本实际exit0；PSD、解析/数值梯度、独立ordered-pair、共同scale抵消、不可识别族和200000次MC均通过。图的panel alignment、glyph（minimum7pt）和collision（0fail/0warn）通过；source validator最终exit0、0fail，保留4项warning：仅交付PNG预览而非TIFF投稿栅格、300非600dpi、通用demo警告和MC/uncertainty模式误报。前两项符合本日报SVG/PDF+预览合同；后两项由显著自设标识及直接画sigma解释，不虚报实验。首次source audit的export/DPI失败及修正保留于[figure QA](20261016-DAY15-ado-angular-distribution-geometry-run-01/figure-qa.json)。
 
-首轮仓库lint实际exit1（本次新method缺5个固定英文schema标题，且inline数组被当wikilink），已修复并重跑exit0、0error/145warning（3reaction parser、114citation key、28既有raw slots）；全局diff exit0。新增GRIFFIN source后fresh lint实际exit0、0error/146warning（3reaction parser、115citation key、28既有raw slots）；boundary/diff/preflight exit0。EOL exit1按治理规则分类为4份本次substantive知识改动、0unsafe/mixed，均保留。实际runner report/writeback/partial curriculum校验通过，[检查回执](20261016-DAY15-ado-angular-distribution-geometry-run-01/prepublication-checks-002.json)和[同session续接](20261016-DAY15-ado-angular-distribution-geometry-run-01/continuation.md)已保存。检查点稳定指针：main / `Establish DAY15 ADO covariance and independent response evidence`，H3/push结果只写run receipt。首批44-path检查点的H3 fresh fetch/ancestry/dry-run/non-force push均exit0，实际结果见[发布回执](20261016-DAY15-ado-angular-distribution-geometry-run-01/publication-001.json)。新增统计与软件补充的fresh boundary/lint/diff均exit0、lint0error/146warning，截至检查点002的七页writeback实际runner验收通过；当前三十一项writeback已由run入口snapshot验证（verification-checkpoint-003-expanded.json），覆盖十三份canonical页；检查点002稳定指针：main / `Extend DAY15 event-mixing statistics and audit formal card completion`，actual H3/push只看publication002。原15:00研究截止不变，formal15完成与window仍active分开。
+首轮仓库lint实际exit1（本次新method缺5个固定英文schema标题，且inline数组被当wikilink），已修复并重跑exit0、0error/145warning（3reaction parser、114citation key、28既有raw slots）；全局diff exit0。新增GRIFFIN source后fresh lint实际exit0、0error/146warning（3reaction parser、115citation key、28既有raw slots）；boundary/diff/preflight exit0。EOL exit1按治理规则分类为4份本次substantive知识改动、0unsafe/mixed，均保留。实际runner report/writeback/partial curriculum校验通过，[检查回执](20261016-DAY15-ado-angular-distribution-geometry-run-01/prepublication-checks-002.json)和[同session续接](20261016-DAY15-ado-angular-distribution-geometry-run-01/continuation.md)已保存。检查点稳定指针：main / `Establish DAY15 ADO covariance and independent response evidence`，H3/push结果只写run receipt。首批44-path检查点的H3 fresh fetch/ancestry/dry-run/non-force push均exit0，实际结果见[发布回执](20261016-DAY15-ado-angular-distribution-geometry-run-01/publication-001.json)。新增统计与软件补充的fresh boundary/lint/diff均exit0、lint0error/146warning，截至检查点002的七页writeback实际runner验收通过；当前三十三项writeback已由run入口snapshot验证（verification-checkpoint-003-expanded.json），覆盖十三份canonical页；检查点002稳定指针：main / `Extend DAY15 event-mixing statistics and audit formal card completion`，actual H3/push只看publication002。原15:00研究截止不变，formal15完成与window仍active分开。
 
 ### Day 15 card completion audit
 
@@ -1445,7 +1543,7 @@ L0完成Zheng主线；L1把source/方法/observable连通；L2完成有输入/ha
 | 不确定度与图 | [敏感性SVG](20261016-DAY15-ado-angular-distribution-geometry-run-01/ado-covariance-sensitivity.svg)、[figure QA](20261016-DAY15-ado-angular-distribution-geometry-run-01/figure-qa.json)，解析/MC与chosen Cov见计算JSON；原Fig1不作实验sigma | complete |
 | convention注记 | 本日报逐项表，source Z02-6/9/10及canonical方法页 | complete |
 | 反证与必要观测 | [换门/有限几何控制](../../knowledge/methods/ado-covariance-calibration.md#换门与有限几何的失败控制)；[SG19-6](../../knowledge/sources/smith-2019-griffin-angular-correlation-analysis.md#key-results) PDF7 Fig3的已知pure-E2反证及逐pair/E-M companion | complete |
-| 知识/检查/续接/receipt/发布 | 唯一writeback（截至检查点002七项，当前三十一项）、[fresh checks](20261016-DAY15-ado-angular-distribution-geometry-run-01/verification-checkpoint-002-extended.json)、[continuation](20261016-DAY15-ado-angular-distribution-geometry-run-01/continuation.md)、[run receipt](20261016-DAY15-ado-angular-distribution-geometry-run-01/run.json)、[首批实际H3/push](20261016-DAY15-ado-angular-distribution-geometry-run-01/publication-001.json)；[次日独立入口](prompts/20261017-DAY16-dco-rdco-mixing-ratio-convention.md) | complete |
+| 知识/检查/续接/receipt/发布 | 唯一writeback（截至检查点002七项，当前三十三项）、[fresh checks](20261016-DAY15-ado-angular-distribution-geometry-run-01/verification-checkpoint-002-extended.json)、[continuation](20261016-DAY15-ado-angular-distribution-geometry-run-01/continuation.md)、[run receipt](20261016-DAY15-ado-angular-distribution-geometry-run-01/run.json)、[首批实际H3/push](20261016-DAY15-ado-angular-distribution-geometry-run-01/publication-001.json)；[次日独立入口](prompts/20261017-DAY16-dco-rdco-mixing-ratio-convention.md) | complete |
 
 本表七行均已complete；依据本session实际交付与首批H3发布计Day15，Day14的partial15/成绩/脚本不授本日学分。新增扩展研究继续按其实际检查/发布执行，不将本卡完成当整个研究时段结束。
 
@@ -1481,3 +1579,5 @@ CERN150008后续有界访问实际返回bot-verification页面，未取得正文
 检查点008 fresh检查实际通过：[verification-prepublication-008](20261016-DAY15-ado-angular-distribution-geometry-run-01/verification-prepublication-008.json)。boundary/preflight/lint/diff均exit0，lint0error/146warning（115citationkey、28rawslots、3reactionparser）；EOL exit1为5份ownsubstantive/0unsafe保留。唯一writeback30项/33mappedpaths/30changed，17来源rawhash、7组script/input/outputhash、12组旧source rows/page review、原人审正文/PLAN/Bib/daemon均通过；新三脚本dependency哈希/版本及首轮D96 code snapshot见method-audit-executions。旧图hash未变，沿用已过QA。本批已提交，稳定指针main / `Verify PDCO erratum and polarimeter calibration response boundaries`，actualH3/push只看publication008。20:59:29UTC clock距原上海15:00截止600.52min，candidate pool仍有实际164Yb evaluated-data/独立转换谱系路线，继续，不因局部模型停止而closeout。
 
 检查点009 fresh核验实际通过：[verification-prepublication-009](20261016-DAY15-ado-angular-distribution-geometry-run-01/verification-prepublication-009.json)。boundary/preflight/lint/diff均exit0，lint0error/146warning（115citationkey、28rawslots、3reactionparser）；EOL exit1为3份ownsubstantive/0unsafe保留。31项writeback/34mappedpaths/31changed、18mappedmainrawhash及新三ENSDFraw、8script/input/outputhash/旧review/人审正文/PLAN/Bib/daemon通过。首轮lint exit1仅为generic ENSDF homepage canonical_source撞既有193Bi对象，改为exact164YB recordset/version identity后重跑通过，未改raw/science；初始回执保留。本批已提交，稳定指针main / `Trace evaluated 164Yb references without collapsing PDCO alternatives`；actualH3/push只publication009。已选择明确壳层BrIcc/E0 reference路线继续，原deadline/window不变。
+
+检查点010 fresh实际通过：[verification-prepublication-010](20261016-DAY15-ado-angular-distribution-geometry-run-01/verification-prepublication-010.json)。boundary/preflight/lint/diff均exit0，lint0error/146warning（115citationkey、28rawslots、3reactionparser）；EOL exit1为3ownsubstantive/0unsafe保留。33项writeback/36mappedpaths/33changed、19mappedmainrawhash、10quantitative script/input/outputhash、13组旧source rows/page review和KB08全部34,020bytes历史prefix、人审原文/PLAN/Bib/daemon通过。query/capture/dependency与新增3raw官方response哈希另有bricc-evidence-proof，不stage。首轮本次E0追加的inline矩阵被Wiki parser当link而lint exit1，改括号记法后通过，science未改/初始回执保留。本批已提交，稳定指针main / `Add shell-matched conversion references and E0 conditioning limits`，actualH3/push只publication010。候选池已重建，Rusev09已冻结primed回忆/读旧source、未打开原件，有已知初始偏振下实际选枝的高价值路线；window/goal仍active。

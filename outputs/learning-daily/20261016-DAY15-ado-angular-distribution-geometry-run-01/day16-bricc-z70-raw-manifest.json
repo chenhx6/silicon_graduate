@@ -1,0 +1,26 @@
+{
+  "at": "2026-10-17T05:43:48.065817+08:00",
+  "two_raw_responses": [
+    {
+      "mode": "M1",
+      "raw": "raw/papers/gpt/day15-20261016/bricc-z70-489p8-fo-m1-0f74bd9078a7.html",
+      "sha256": "0f74bd9078a77504e3c65e12eff2084533c18db876d2000a03ec6e8d05c7e26d",
+      "bytes": 21112,
+      "never_stage_raw": true,
+      "format": "exactofficialHTTPresponseHTML",
+      "status": 200
+    },
+    {
+      "mode": "E2",
+      "raw": "raw/papers/gpt/day15-20261016/bricc-z70-489p8-fo-e2-bde3a2eefe5d.html",
+      "sha256": "bde3a2eefe5d1f813df58cbbc0273ad0458fce09e462eef0a23e8c682221450d",
+      "bytes": 21117,
+      "never_stage_raw": true,
+      "format": "exactofficialHTTPresponseHTML",
+      "status": 200
+    }
+  ],
+  "query_count": 2,
+  "retries": 0,
+  "no_existing_raw_overwritten": true
+}

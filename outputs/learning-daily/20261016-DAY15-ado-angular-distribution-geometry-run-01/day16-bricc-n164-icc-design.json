@@ -1,0 +1,111 @@
+{
+  "identity": "DAY16-PREVIEW-N164-MATCHED-K-ICC-DESIGN-01",
+  "input_sha256": "af3cd646844951f40081a2342fb2ad120441ba14af3635bd8550aeb481f1b3dd",
+  "script_sha256": "73684a203aa71bba707493da90f8df05b0dfcdd3f1108e664060442c9654c691",
+  "coefficient_snapshot_sha256": "adc871d5562b617a56ffa5f9c891b58b39ccfd87617dda09a2a4fa130808a0c9",
+  "delta_source": -0.3838640350354158,
+  "radiative_weights": {
+    "M1": 0.8715724127386971,
+    "E2": 0.12842758726130285
+  },
+  "references": {
+    "K": {
+      "pureE2": 0.01475,
+      "pureM1": 0.0363,
+      "fixed_mixed_point": 0.033532385494518924,
+      "mixed_over_E2": 2.273382067425012,
+      "illustrative_sigma_mixed": [
+        {
+          "chosen_rho": -1.0,
+          "local_sigma_if_quoted_errors_are_covariance_scales": 0.0004088164130444749
+        },
+        {
+          "chosen_rho": 0.0,
+          "local_sigma_if_quoted_errors_are_covariance_scales": 0.00043661995764483194
+        },
+        {
+          "chosen_rho": 1.0,
+          "local_sigma_if_quoted_errors_are_covariance_scales": 0.0004627559996942222
+        }
+      ],
+      "coverage": "N6/N7 missing in programTot/N; exactK output retained"
+    },
+    "L-tot": {
+      "pureE2": 0.00314,
+      "pureM1": 0.00536,
+      "fixed_mixed_point": 0.005074890756279907,
+      "mixed_over_E2": 1.6162072472229003,
+      "illustrative_sigma_mixed": [
+        {
+          "chosen_rho": -1.0,
+          "local_sigma_if_quoted_errors_are_covariance_scales": 6.330441365603063e-05
+        },
+        {
+          "chosen_rho": 0.0,
+          "local_sigma_if_quoted_errors_are_covariance_scales": 7.002085635770377e-05
+        },
+        {
+          "chosen_rho": 1.0,
+          "local_sigma_if_quoted_errors_are_covariance_scales": 7.614717238216092e-05
+        }
+      ],
+      "coverage": "N6/N7 missing in programTot/N; exactK output retained"
+    },
+    "Tot": {
+      "pureE2": 0.0188,
+      "pureM1": 0.0432,
+      "fixed_mixed_point": 0.04006636687082421,
+      "mixed_over_E2": 2.1311897271715003,
+      "illustrative_sigma_mixed": [
+        {
+          "chosen_rho": -1.0,
+          "local_sigma_if_quoted_errors_are_covariance_scales": 0.00048441517146482745
+        },
+        {
+          "chosen_rho": 0.0,
+          "local_sigma_if_quoted_errors_are_covariance_scales": 0.0005243608275779702
+        },
+        {
+          "chosen_rho": 1.0,
+          "local_sigma_if_quoted_errors_are_covariance_scales": 0.0005614717238216091
+        }
+      ],
+      "coverage": "N6/N7 missing in programTot/N; exactK output retained"
+    }
+  },
+  "source_K_electron_kinetic_reference_keV": 428.46770000000004,
+  "count_model": {
+    "chosen_kappa": 0.5,
+    "pureE2_p_electron": 0.007321007569177317,
+    "fixed_mixed_p_electron": 0.01648972287518521,
+    "directed_expected_designs": [
+      {
+        "truth_point": "pureE2",
+        "per_detected_event_KL": 0.0032667402177052147,
+        "chosen_total_detected_n": 1378,
+        "expected_electron_count": 10.088348430326343,
+        "expected_gamma_count": 1367.9116515696737,
+        "expected_twice_logLR": 9.00313603999557,
+        "probability_LR_prefers_true_fixed_point_known_model": 0.9487773378691864,
+        "probability_description": "Simple LR>1 at two fixed exact points only, not power at a specified type-I error or a sigma level"
+      },
+      {
+        "truth_point": "fixed_M1_E2",
+        "per_detected_event_KL": 0.0042632379510444095,
+        "chosen_total_detected_n": 1056,
+        "expected_electron_count": 17.413147356195584,
+        "expected_gamma_count": 1038.5868526438044,
+        "expected_twice_logLR": 9.003958552605793,
+        "probability_LR_prefers_true_fixed_point_known_model": 0.9306038146379397,
+        "probability_description": "Simple LR>1 at two fixed exact points only, not power at a specified type-I error or a sigma level"
+      }
+    ],
+    "free_kappa_alias": {
+      "pureE2_kappa": 0.5,
+      "mixed_kappa_with_identical_conditional_distribution": 0.21993663412957867
+    },
+    "symmetric_fractional_kappa_interval_touching_value": 0.3890111331937218
+  },
+  "E0_lower_bound_fixed_delta": 0.033532385494518924,
+  "boundary": "Known-response/zero-background fixed-point design only. No new actual event counts, significance, confidence region, mass correction, completeTotal, fixed E0 value or author fit. Unmodelled response/efficiency can absorb the ratio; E0/radiative families require additional matched observables."
+}

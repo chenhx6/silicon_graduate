@@ -1785,3 +1785,8 @@ Zobel1983六页/metadata/raw与958parent10个Pubfit rows，38-check条件Gaussia
 ## 2026-10-17T05:36:11.409405+08:00 — DAY15 checkpoint009: evaluated 164Yb reference lineage
 
 同run/session继续partial16，归档三NNDC公共raw对象（不stage/不覆盖），核EKC/theoryCC/half-life/derivedBE2/RI/LS谱系；隔离150Sm16/18O secondarymetadata冲突，primarybody未得不假读。31writeback/34mapped/31changed、lint0error/146warnings及保护文件通过；genericcanonical_source碰撞修复，原失败保留。下一BrIcc明确壳层/ΔJ0 E0合同，query-v2 centralonly尚未执行，旧KB08人审范围不扩。formal15一次next16/count15，原15:00deadline/windowactive。稳定指针main / Trace evaluated 164Yb references without collapsing PDCO alternatives；actualH3/push仅publication009。
+
+
+## 2026-10-17T05:59:26.747913+08:00 — DAY15 checkpoint010: shell reference and E0 conditioning
+
+同run/session partial16：KB08mainline/reference、2FO+1BeOmg query与κ/countdesign/K-L1condition437及marginalboxscope canonical，原KB08humanreview全prefix保持，新6claims true；3newrawHTML不stage，actualresponse/Σ/E0strength未知。33writeback/36mapped/33changed/19mappedraw/10scripts/旧reviews及保护检查通过，lint0error/146warnings，inlinearraylink错误已更正。下一RU09primedfreeze完成/raw未读，actual旧RU09-6false不可因projectsummary误改。formal15once next16/count15、原15:00windowactive。稳定指针main / Add shell-matched conversion references and E0 conditioning limits；actualH3/push只publication010。

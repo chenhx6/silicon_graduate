@@ -1,0 +1,5 @@
+
+
+## 2026-10-17T05:59:26.747913+08:00 — DAY15 checkpoint010: shell reference and E0 conditioning
+
+同run/session partial16：KB08mainline/reference、2FO+1BeOmg query与κ/countdesign/K-L1condition437及marginalboxscope canonical，原KB08humanreview全prefix保持，新6claims true；3newrawHTML不stage，actualresponse/Σ/E0strength未知。33writeback/36mapped/33changed/19mappedraw/10scripts/旧reviews及保护检查通过，lint0error/146warnings，inlinearraylink错误已更正。下一RU09primedfreeze完成/raw未读，actual旧RU09-6false不可因projectsummary误改。formal15once next16/count15、原15:00windowactive。稳定指针main / Add shell-matched conversion references and E0 conditioning limits；actualH3/push只publication010。

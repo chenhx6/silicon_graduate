@@ -321,3 +321,102 @@ printed204 / PDF3 Sec3.1 Eqs6–7/11给ρ无量纲、Ω单位s⁻¹及T_s(E0)=ρ
 | KB08-D14-4 | Z31、E958.01、M3、DE5给Tot=.001513(22)、K=.001350(19)，用于声明E2/M3 truncation下的forward input。 | model-result | direct | 2026-10-15 ANU response 5cebaacd93d0c94868a69a22876f079074679d79eec097c8e5e977e8eb600f2d / Tot,K | true |
 | KB08-D14-5 | 初4请求DE=.4/.05小数遭Energy uncertainty invalid，HTTP200无numeric；改ENSDF末位4/5后4点成功，原失败响应保留。源手册12.4、DE+1-2例解为+.1−.2keV；web(+4−4)/(+5−5)回显不改写。 | interface-validation-and-boundary | direct | Day14 invalid/corrected request receipts；manualII.A E/DE example | true |
 | KB08-D14-6 | actualFO4inputs用于67Ga complete2γ/weakM1-orE2/δ0控制，给B_E2=9.614759/9.613223WU，比zeroIC下降.0392%/.0552%。这是32-check任务forward，不是新strength测量/完整物理ceiling；highermultipoles、extra/cov仍缺。 | our-inference | indirect | Day14 four-input table / conditional forward ledger；paperp203 Eq.3与N67-4/5 | true |
+
+
+## 2026-10-17 Supplement — 明确壳层的164Yb参考与E0使用门
+
+本节为Day15正式完成后的**Day16无学分预习**，新增内容仅Codex self-audit，未经人工审核。原page review、KB08-1–8、AR-KB08及之前D8/其它增补逐字与flags保留，不扩展历史human review。先冻结已见旧Wiki的primed回忆，再核原PDF SHA-256 `5a7b25491864acd4d2fea7a599136657da336a03f902009b423c6c450926cc34`；完整读主线printed202–214/Secs1–6，AppendixA接口printed215，并定向核AppendixB Z70行printed222及末页228脚注，不声称逐行复审其余Appendix数据。视觉核Fig1–7、Table1–3、Eq3/5/7/11、Table2注、Z70行。旧理论说明只作为校准入口，不重复算旧Z60 query或旧check数。
+
+### 原件适用条件与新的两次官方查询
+
+原Sec3.1/printed204允许同Jπ E0，无single-gamma E0，pair emission须超过1022keV；489.8keV此线不能产生E0 pair。Eq7的Omega为s^-1而rho²无量纲；Eq11把E0 electron rate加到M1/E2 K电子/γ比。Sec4.4/printed212–213明确E0电子因子数据不完整且不采用统一Datheor；不能照搬ICC表的1.4%。Table2的1.4%已含interpolation贡献，原有D8边界不变。
+
+TableB.1 printed222的Z70为`70-Yb-173`、K binding61.3323keV；superscript b仅指closed atomic shells（printed228脚注），不是为A164重算的标记。当前web只接受Z、不显示底层mass/datafile hash；本次没有改A/radius或作按A幂修正。默认A173与目标A164的有限尺寸差异保留，而非给一个记忆中的修正百分比。
+
+2026-10-17在官方[ANU BrIcc](https://bricc.anu.edu.au/)只执行**2次POST、0retry**，pureM1与pureE2，Z70/E489.8、FO-only，实际返回BrIccS v2.3 (9-Dec-2011)/BrIccFO及对应列。输入v2仅nominal energy，未发送实验.1keV误差；v1在任何POST前supersede，保留版本和原因。Table2/AppendixA核NDS规则，但不事后把未送字段写成已传播。HTTP200/echo以外，所有数值行、shell/uncertainty与warnings均已离线验证。
+
+| hypothesis | 程序报告Tot alpha | K alpha | L-tot alpha | 原HTTP HTML SHA-256 |
+| --- | --- | --- | --- | --- |
+| pureM1 | .0432(6) | .0363(5) | .00536(8) | `0f74bd9078a77504e3c65e12eff2084533c18db876d2000a03ec6e8d05c7e26d` |
+| pureE2 | .0188(3) | .01475(21) | .00314(5) | `bde3a2eefe5d1f813df58cbbc0273ad0458fce09e462eef0a23e8c682221450d` |
+
+两表N6/N7均空白，各有两条`ICC could not be calculated for EG above 398.000 keV`。缺项未补0；程序仍返回的Tot按“program-reported with coverage warning”保存，**不认证完整total**。K壳条目有值、electron kinetic energy428.47keV，与2008K binding的名义差428.4677相符。主要shell sum在打印Tot误差内只核转录，不恢复missing shells或给严格缺项upper bound；source说典型<1e−9不是每点保证。
+
+响应原件新建为`raw/papers/gpt/day15-20261016/bricc-z70-489p8-fo-m1-0f74bd9078a7.html`和`raw/papers/gpt/day15-20261016/bricc-z70-489p8-fo-e2-bde3a2eefe5d.html`，从不stage raw。全部printed rows及定向设计保存在[[internal-conversion-analysis]]与[[st99-pdco-calibration-table-replay]]，不仅在outputs。查询/离线capture/计算脚本分别为`day16_bricc_reference_query.py`、`day16_bricc_reference_capture.py`、`day16_bricc_n164_icc_design.py`；精确冻结与hash见其artifact链接。
+
+### 固定ST99候选的理论reference
+
+采用[[starosta-1999-pdco-experimental-test]]的单个mixed点atanδ=−21°，radiative weights M1=.871572/E2=.128428，Eq5给alphaK=.0335323855、L=.0050748908、programTot=.0400663669。与同表pureE2的K比为2.273382。它们是新匹配壳层的**模型参考**，不是重现原文未明确定义的alpha_κ，也不是实验测得δ或一整族候选的区间。
+
+M1/E2 ICC的quoted误差共享table/energy来源，Cov未给；只把两quoted marginal scales用于rho=−1/0/+1的敏感性，mixedK local sigma约.0004088/.0004366/.0004628。该范围不是实际Sigma或置信区间，未加入delta误差、energy.1keV、A/radius、penetration、ionization、E0、geometry等预算，不再独立叠加.3%插值。
+
+同Jπ的14+→14+候选允许非负E0 electron rate，故在固定reference/delta截断下只能使alphaK≥.0335324，不能把这个点降到pureE2 .01475；这是条件lower-bound设计，不是任意delta/核结构/penetration的普适排除。未知rho²/Omega、electron接受与branch缺口仍保留。标量ICC只含δ²，不判断phase sign。两壳联合识别需要明确Omega/reference与response的rank，详见owner方法页。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+| --- | --- | --- | --- | --- | --- |
+| KB08-D15-1 | 同Jπ E0无single-gamma，489.8keV低于pair阈值；Omega为s^-1，E0表不采用统一Datheor，不能用ICC1.4%作E0误差。 | direct-method-and-case-boundary | direct-and-task-application | printed204 Sec3.1 Eq7/11；printed212–213 Sec4.4 | true |
+| KB08-D15-2 | TableB.1的Z70参考为A173、Kbinding61.3323keV，b仅closed shells；本次Z70 web lookup不等于A164 finite-size重算，currentbackend mass/datafilehash未公开核定。 | reference-identity-boundary | direct-and-web-scope | printed222 TableB.1 Z70；printed228 footnote b | true |
+| KB08-D15-3 | 官方Z70/E489.8 FO-only新两POST返回M1/E2 K .0363(5)/.01475(21)、programTot .0432(6)/.0188(3)，v2.3(2011)；N6/N7空、>398keV警告各两条，未补0/认证完整total，dataenergy误差未发送。 | theory-lookup-with-coverage-boundary | direct-program-output | officialANU Z70 E489.8 M1 response0f74bd9078a7；E2 responsebde3a2eefe5d | true |
+| KB08-D15-4 | 固定ST99 atanδ−21°及新FO参考给mixedK .0335323855；非负E0在相同reference截断下只升高此比。未知实际response/δ族/penetration等使其仍是reference设计，非489观测或唯一Jpi。 | conditional-reference-and-design | task-calculation | printed203 Eq5；printed204 Eq11；本节fixedpointtable | true |
+
+
+### Z70/489.8实际返回的全部shell与ratio行
+
+表头M1/E2为核辐射多极性，行M1/M2等为电子subshell，二者不可混淆。E(ce)对major sum是程序打印的代表值，shell-ratio行没有E(ce)。N6/N7保持未返回；比例行不参与shell之和。均为上述同两次FO理论lookup。
+
+| shell / ratio | E(ce) M1/E2 (keV) | nuclear M1列 | nuclear E2列 |
+| --- | --- | --- | --- |
+| Tot | — / — | 0.0432(6) | 0.0188(3) |
+| K | 428.47 / 428.47 | 0.0363(5) | 0.01475(21) |
+| L1 | 479.31 / 479.31 | 0.00495(7) | 0.00186(3) |
+| L2 | 479.82 / 479.82 | 0.000362(5) | 0.000848(12) |
+| L3 | 480.86 / 480.86 | 4.75E-5(7) | 0.000430(6) |
+| L-tot | 479.36 / 479.66 | 0.00536(8) | 0.00314(5) |
+| K/L | — / — | 6.77(14) | 4.70(10) |
+| M1 | 487.40 / 487.40 | 0.001095(16) | 0.000408(6) |
+| M2 | 487.63 / 487.63 | 8.90E-5(13) | 0.000208(3) |
+| M3 | 487.85 / 487.85 | 1.189E-5(17) | 0.0001088(16) |
+| M4 | 488.22 / 488.22 | 1.204E-7(17) | 7.73E-7(11) |
+| M5 | 488.27 / 488.27 | 1.195E-7(17) | 5.97E-7(9) |
+| M-tot | 487.42 / 487.54 | 0.001196(17) | 0.000726(11) |
+| L/M | — / — | 4.48(9) | 4.32(9) |
+| N1 | 489.31 / 489.31 | 0.000258(4) | 9.58E-5(14) |
+| N2 | 489.40 / 489.40 | 2.04E-5(3) | 4.77E-5(7) |
+| N3 | 489.46 / 489.46 | 2.70E-6(4) | 2.48E-5(4) |
+| N4 | 489.60 / 489.60 | 2.81E-8(4) | 1.80E-7(3) |
+| N5 | 489.62 / 489.62 | 2.75E-8(4) | 1.373E-7(20) |
+| N6 | 489.79 / 489.79 | 未返回 | 未返回 |
+| N7 | 489.79 / 489.79 | 未返回 | 未返回 |
+| N-tot | 489.32 / 489.36 | 0.000281(4) | 0.0001686(24) |
+| L/N | — / — | 19.1(4) | 18.6(4) |
+| O1 | 489.75 / 489.75 | 3.76E-5(6) | 1.395E-5(20) |
+| O2 | 489.77 / 489.77 | 2.41E-6(4) | 5.65E-6(8) |
+| O3 | 489.78 / 489.78 | 2.97E-7(5) | 2.73E-6(4) |
+| O-tot | 489.75 / 489.76 | 4.03E-5(6) | 2.23E-5(4) |
+| L/O | — / — | 133(3) | 141(3) |
+| P1 | 489.79 / 489.79 | 2.17E-6(3) | 8.07E-7(12) |
+| P-tot | 489.79 / 489.79 | 2.17E-6(3) | 8.07E-7(12) |
+| L/P | — / — | 2.47E3(5) | 3.89E3(8) |
+
+### 同能量E0 electronic factor与两壳rank的有界续查
+
+上面的pureM1/E2两POST预算完成后，因owner的K/L1 full-rank条件仍缺匹配Omega，另冻结一个明确新问题/预算：**仅1POST、0retry**，Z70/E489.8/E0、名义能量。输入`dataset=BrIccFO`，实际response必须按返回的**BeOmg**识别，不能误记为FO E0表或M1/E2的1.4%误差。actualversion仍BrIccS v2.3(9-Dec-2011)，无coverage warning，但只返回K/L1/L2及programTot；不据此认证其它shell已完整覆盖。
+
+| returned row | E(ce) (keV) | value | 单位 |
+| --- | ---: | ---: | --- |
+| K | 428.47 | 5.595E10 | s^-1 |
+| L1 | 479.31 | 8.284E9 | s^-1 |
+| L2 | 479.82 | 1.616E8 | s^-1 |
+| programTot | — | 6.440E10 | s^-1，非认证complete total |
+| K/Tot | — | .8688 | 无量纲 |
+
+原HTTP SHA-256 `f6bf17c5f15368b2e3143175415a959b9745b87446d134c2434a8abf315aa1dc`；新raw为`raw/papers/gpt/day15-20261016/bricc-z70-489p8-e0-beomg-f6bf17c5f153.html`，未覆盖已有raw且不stage。列出K+L1+L2为6.43956E10，与programTot打印精度相容只检转录；没有填缺壳层或理论误差。这个量是电子因子Omega，pureE0没有single-gamma，不能给它定义普通ICC。
+
+用上述两壳M1/E2与Omega，定义w为M1辐射分数、z=OmegaK rho²/Tgamma，无量纲，则K/L1 ratios减pureE2 vector后，矩阵为`A=((.02155,1),(.00309,.1480607685))`。列分别归一后夹角.262192°、2norm条件数437.0513。打印中心满秩不代表stable inversion；source-inspired的名义1% L1 ratio变化、K不变可使w移动−.452108（不是测得误差或blind实验）。另一个postlookup独立scope控制在两K quoted margins内可取M1_K=.0358209924/E2_K=.0149511832，使两列严格共线；不声称实际shared atomicCov允许该同时偏移，也不把marginal误差当joint置信域。
+
+因此补两个electron shell只有在reference/响应/误差和条件数都受控时才可能有效。本任务没有E0观测或拟合rho²，未将actual164Yb ΔJ0候选解出。input/hash/矩阵/derivative与rank-loss控制均在[[internal-conversion-analysis]]和本run artifact保存，非原作者结果。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+| --- | --- | --- | --- | --- | --- |
+| KB08-D15-5 | 官方E0新一次POST实际返回BeOmg/v2.3(2011)，K/L1/L2 Omega为5.595E10/8.284E9/1.616E8s^-1，programTot6.440E10/Kratio.8688；只有列明shell，无reportedtheoryerror，不将其当ICC或完整total。 | theory-electronic-factor-lookup | direct-program-output | officialANU Z70 E489.8 E0 responsef6bf17c5f153 | true |
+| KB08-D15-6 | 以新printedK/L1 pureICC和Omega作条件M1fraction/E0rate线性模型，中心column-normalizedcondition437、夹角.2622°；printedmarginalbox存在ranklosswitness，只证明边际摘要不足以认证stableactualinversion，不给真实Cov/δ/E0。 | conditional-identifiability-and-scope-test | task-calculation | printed204 Eq7/11；本节K/L1matrix与rankcontrol | true |

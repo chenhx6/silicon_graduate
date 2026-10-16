@@ -1,0 +1,25 @@
+{
+  "at": "2026-10-17T05:51:27.768845+08:00",
+  "input_sha256": "0082add7f6e8821a4fc05a639f47af915c85d1a0492e82f337450e2056f9a723",
+  "endpoint": "https://bricc.anu.edu.au/",
+  "parameters": {
+    "atomic": "70",
+    "energy": "489.8",
+    "eerror": "",
+    "multipole": "E0",
+    "delta": "",
+    "derror": "",
+    "subshells": "on",
+    "dataset": "BrIccFO",
+    "calculate": "Calculate"
+  },
+  "POST_count": 1,
+  "automatic_retries": 0,
+  "status": "http-response",
+  "http_status": 200,
+  "content_type": "text/html; charset=utf-8",
+  "response": "tmp/20261016-day15-ado/kb08/z70-query/bricc-Z70-E489p8-E0.html",
+  "bytes": 16244,
+  "sha256": "f6bf17c5f15368b2e3143175415a959b9745b87446d134c2434a8abf315aa1dc",
+  "numeric_validated": false
+}
