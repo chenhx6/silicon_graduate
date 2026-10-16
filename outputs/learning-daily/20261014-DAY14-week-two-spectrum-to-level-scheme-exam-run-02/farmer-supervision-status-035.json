@@ -1,0 +1,20 @@
+{
+  "at": "2026-10-16T09:25:24.191718+08:00",
+  "running": true,
+  "owner": {
+    "pid": 42019,
+    "root": "/workspace/wiki",
+    "started_at": "2026-10-16T01:21:37.124848+00:00"
+  },
+  "current_session_state": {
+    "status": "running",
+    "event_key": "01a13a0e-e8bd-7251-b970-f6975679e281:01a1424a-a7f5-78b1-be71-0568887f20b3:2026-10-16T01:19:11.354Z",
+    "attempts": 0,
+    "pending": false,
+    "next_at": 0,
+    "last_event_timestamp": "2026-10-16T01:19:11.354Z"
+  },
+  "exit_code": 0,
+  "same_run": true,
+  "daily_scheduler_not_restarted": true
+}

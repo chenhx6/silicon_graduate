@@ -1,0 +1,9 @@
+{
+  "at": "2026-10-16T09:21:37.023990+08:00",
+  "authorization": "latest user $farmer $go-on 监督工作",
+  "purpose": "restore watcher only; no daily runner/session/scheduler restart",
+  "exit_code": 0,
+  "result": {
+    "started_pid": 42019
+  }
+}

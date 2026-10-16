@@ -1,0 +1,29 @@
+{
+  "kind": "explicitly chosen mathematical design; not measured IO81 inputs",
+  "cone_cosine": "4/5",
+  "cone_density": "uniform solid angle, normalized over cos(beta) in [c,1] and phi in [0,2pi)",
+  "parent_spin_twice": 17,
+  "child_spin_twice": 13,
+  "multipole": 2,
+  "chosen_parent_abs_m_twice": 1,
+  "chosen_remainder_abs_m_twice": 13,
+  "chosen_weight": "3/5",
+  "actual_IO81_response": null,
+  "actual_IO81_feeding_fraction": null,
+  "actual_covariance": null,
+  "source_context": [
+    {
+      "path": "knowledge/sources/ionescu-1981-improved-angular-distribution-analysis-particle-xn.md",
+      "locator": "IO81-18"
+    },
+    {
+      "path": "knowledge/sources/yamazaki-1967-aligned-angular-coefficients.md",
+      "locator": "YA67-4"
+    },
+    {
+      "path": "knowledge/sources/yamazaki-1967-aligned-angular-coefficients.md",
+      "locator": "YA67-5"
+    }
+  ],
+  "nonexperimental": "All cone dimensions, probabilities and weights are selfchosen; IO81 detector dimensions/energy response not reconstructed."
+}

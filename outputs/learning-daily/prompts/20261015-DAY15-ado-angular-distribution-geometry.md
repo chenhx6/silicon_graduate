@@ -354,3 +354,10 @@ DAY14延期checkpoint033加入selected-tensor正population放宽与图：中心�
 
 
 DAY14延期checkpoint034已学习transition/node I_T、转换合同、两已知feeding与calculated/exp区别；22项仍为partialpreview，无formal15credit。下一finitegeometry来源前预测已存，正式Day15记录这些priming并独立执行卡交付。
+
+
+## 有限几何预习035（不计正式Day15学分）
+
+DAY14延期中已完成[[angular-distribution]]“有限几何：共同响应、正布居与可行域”的L2推导；来源IO81-33是printed20的182Ta/isotropy与40cm控制，YA67-4/5是normalizedtensor/未观测feeding定义。自选cone c4/5给Q2=18/25/Q4=333/1250；共同可逆Q必须连同P→QP才保持sharp界。自选w.6在正确fold保持，沿原域放宽为.620394；parentpoint/childcone的truew1被错误common模型排除。全为数学设计，非actualQ/w/CL，不用于给formalDay15预先加分。
+
+两Krane几何论文1972 DOI10.1016/0029-554X(72)90099-7、1973 DOI10.1016/0029-554X(73)90294-2的body仍未读；后者机构PDF候选HTTP202空体/landing SSL，不能称erratum或混56页DCO表册。正式Day15先保存自身primedrecall、按卡复核已有ADO/误差与convention，actualresponse/Σ缺口保留，不重做相同自选toy充当新实验。

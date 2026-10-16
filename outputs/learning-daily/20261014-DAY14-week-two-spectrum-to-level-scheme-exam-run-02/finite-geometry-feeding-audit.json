@@ -1,0 +1,264 @@
+{
+  "kind": "chosen-cone mathematical control, not experiment reanalysis",
+  "inputs": {
+    "kind": "explicitly chosen mathematical design; not measured IO81 inputs",
+    "cone_cosine": "4/5",
+    "cone_density": "uniform solid angle, normalized over cos(beta) in [c,1] and phi in [0,2pi)",
+    "parent_spin_twice": 17,
+    "child_spin_twice": 13,
+    "multipole": 2,
+    "chosen_parent_abs_m_twice": 1,
+    "chosen_remainder_abs_m_twice": 13,
+    "chosen_weight": "3/5",
+    "actual_IO81_response": null,
+    "actual_IO81_feeding_fraction": null,
+    "actual_covariance": null,
+    "source_context": [
+      {
+        "path": "knowledge/sources/ionescu-1981-improved-angular-distribution-analysis-particle-xn.md",
+        "locator": "IO81-18"
+      },
+      {
+        "path": "knowledge/sources/yamazaki-1967-aligned-angular-coefficients.md",
+        "locator": "YA67-4"
+      },
+      {
+        "path": "knowledge/sources/yamazaki-1967-aligned-angular-coefficients.md",
+        "locator": "YA67-5"
+      }
+    ],
+    "nonexperimental": "All cone dimensions, probabilities and weights are selfchosen; IO81 detector dimensions/energy response not reconstructed."
+  },
+  "checks": {
+    "Q2_closed_form": true,
+    "Q4_closed_form": true,
+    "independent_spin_half_transition_probabilities": true,
+    "independent_spin_one_M0_projection_integral": true,
+    "positive_unital_stochastic_J4_c1": true,
+    "rank0_eigenvalue_J4_c1": true,
+    "rank2_eigenvalue_J4_c1": true,
+    "rank4_eigenvalue_J4_c1": true,
+    "positive_unital_stochastic_J4_c4/5": true,
+    "rank0_eigenvalue_J4_c4/5": true,
+    "rank2_eigenvalue_J4_c4/5": true,
+    "rank4_eigenvalue_J4_c4/5": true,
+    "positive_unital_stochastic_J4_c0": true,
+    "rank0_eigenvalue_J4_c0": true,
+    "rank2_eigenvalue_J4_c0": true,
+    "rank4_eigenvalue_J4_c0": true,
+    "positive_unital_stochastic_J4_c-1": true,
+    "rank0_eigenvalue_J4_c-1": true,
+    "rank2_eigenvalue_J4_c-1": true,
+    "rank4_eigenvalue_J4_c-1": true,
+    "sphere_is_uniform_J4": true,
+    "positive_unital_stochastic_J13_c1": true,
+    "rank0_eigenvalue_J13_c1": true,
+    "rank2_eigenvalue_J13_c1": true,
+    "rank4_eigenvalue_J13_c1": true,
+    "positive_unital_stochastic_J13_c4/5": true,
+    "rank0_eigenvalue_J13_c4/5": true,
+    "rank2_eigenvalue_J13_c4/5": true,
+    "rank4_eigenvalue_J13_c4/5": true,
+    "positive_unital_stochastic_J13_c0": true,
+    "rank0_eigenvalue_J13_c0": true,
+    "rank2_eigenvalue_J13_c0": true,
+    "rank4_eigenvalue_J13_c0": true,
+    "positive_unital_stochastic_J13_c-1": true,
+    "rank0_eigenvalue_J13_c-1": true,
+    "rank2_eigenvalue_J13_c-1": true,
+    "rank4_eigenvalue_J13_c-1": true,
+    "sphere_is_uniform_J13": true,
+    "positive_unital_stochastic_J17_c1": true,
+    "rank0_eigenvalue_J17_c1": true,
+    "rank2_eigenvalue_J17_c1": true,
+    "rank4_eigenvalue_J17_c1": true,
+    "positive_unital_stochastic_J17_c4/5": true,
+    "rank0_eigenvalue_J17_c4/5": true,
+    "rank2_eigenvalue_J17_c4/5": true,
+    "rank4_eigenvalue_J17_c4/5": true,
+    "positive_unital_stochastic_J17_c0": true,
+    "rank0_eigenvalue_J17_c0": true,
+    "rank2_eigenvalue_J17_c0": true,
+    "rank4_eigenvalue_J17_c0": true,
+    "positive_unital_stochastic_J17_c-1": true,
+    "rank0_eigenvalue_J17_c-1": true,
+    "rank2_eigenvalue_J17_c-1": true,
+    "rank4_eigenvalue_J17_c-1": true,
+    "sphere_is_uniform_J17": true,
+    "same_cone_commutes_with_unobserved_feeding": true,
+    "point_limit_identity": true,
+    "chosen_populations_positive_normalized": true,
+    "population_and_moment_convolution_agree": true,
+    "chosen_boundary_remainder_attains_raw_bound": true,
+    "invertible_common_fold_with_folded_domain_preserves_bound": true,
+    "using_original_domain_after_fold_is_strictly_weaker_in_chosen_case": true,
+    "different_kernels_do_not_commute": true,
+    "wrong_common_point_response_excludes_true_weight_one": true,
+    "correct_different_response_exactly_matches_weight_one": true,
+    "isotropic_reference_cannot_distinguish_cones": true,
+    "hemisphere_discards_selected_even_ranks": true,
+    "no_actual_response_or_fraction_inferred": true
+  },
+  "check_count": 68,
+  "passed": true,
+  "cone_Q": {
+    "Q0": "1",
+    "Q2": "18/25",
+    "Q4": "333/1250"
+  },
+  "kernel_summary": [
+    {
+      "spin_twice": 4,
+      "cone_cosine": "1",
+      "Q2": "1",
+      "Q4": "1"
+    },
+    {
+      "spin_twice": 4,
+      "cone_cosine": "4/5",
+      "Q2": "18/25",
+      "Q4": "333/1250"
+    },
+    {
+      "spin_twice": 4,
+      "cone_cosine": "0",
+      "Q2": "0",
+      "Q4": "0"
+    },
+    {
+      "spin_twice": 4,
+      "cone_cosine": "-1",
+      "Q2": "0",
+      "Q4": "0"
+    },
+    {
+      "spin_twice": 13,
+      "cone_cosine": "1",
+      "Q2": "1",
+      "Q4": "1"
+    },
+    {
+      "spin_twice": 13,
+      "cone_cosine": "4/5",
+      "Q2": "18/25",
+      "Q4": "333/1250"
+    },
+    {
+      "spin_twice": 13,
+      "cone_cosine": "0",
+      "Q2": "0",
+      "Q4": "0"
+    },
+    {
+      "spin_twice": 13,
+      "cone_cosine": "-1",
+      "Q2": "0",
+      "Q4": "0"
+    },
+    {
+      "spin_twice": 17,
+      "cone_cosine": "1",
+      "Q2": "1",
+      "Q4": "1"
+    },
+    {
+      "spin_twice": 17,
+      "cone_cosine": "4/5",
+      "Q2": "18/25",
+      "Q4": "333/1250"
+    },
+    {
+      "spin_twice": 17,
+      "cone_cosine": "0",
+      "Q2": "0",
+      "Q4": "0"
+    },
+    {
+      "spin_twice": 17,
+      "cone_cosine": "-1",
+      "Q2": "0",
+      "Q4": "0"
+    }
+  ],
+  "chosen_parent_population": [
+    "0",
+    "0",
+    "0",
+    "0",
+    "0",
+    "0",
+    "0",
+    "0",
+    "1/2",
+    "1/2",
+    "0",
+    "0",
+    "0",
+    "0",
+    "0",
+    "0",
+    "0",
+    "0"
+  ],
+  "chosen_feed_population": [
+    "0",
+    "0",
+    "0",
+    "0",
+    "1/68",
+    "9/68",
+    "6/17",
+    "6/17",
+    "9/68",
+    "1/68",
+    "0",
+    "0",
+    "0",
+    "0"
+  ],
+  "chosen_target_population": [
+    "1/5",
+    "0",
+    "0",
+    "0",
+    "3/340",
+    "27/340",
+    "18/85",
+    "18/85",
+    "27/340",
+    "3/340",
+    "0",
+    "0",
+    "0",
+    "1/5"
+  ],
+  "selected_moments": {
+    "feed": [
+      "-390/17",
+      "7865/408"
+    ],
+    "target": [
+      "156/85",
+      "9581/408"
+    ]
+  },
+  "bounds": {
+    "original": "3/5",
+    "common_fold_with_folded_domain": "3/5",
+    "common_fold_but_original_domain": "110669/178385",
+    "different_kernels_wrong_common_model": "247687/388750",
+    "actual_chosen_different_kernel_weight": "1"
+  },
+  "input_sha256": "f6c8978d7ec9e0dd46af810a1045e456ba6fc6af7fe7767d9729926be7ace125",
+  "dependencies": {
+    "day14_unobserved_feeding_transfer.py": "c2e9856c254082077288059ebab443abbe8244331413713393783fc7ecd1837c",
+    "day14_feeding_fraction_moment_bound.py": "1e6e012bebf2d6333d717496cc6f718275de899bcd0eb26db682a7d64b85d566"
+  },
+  "limitations": [
+    "axisymmetric positive normalized single-gamma kernel; aligned q0 input",
+    "rotation averaging is a mathematical representation, not nuclear evolution",
+    "unobserved radiative feeding, no direction/polarization/gamma-gamma gate",
+    "equivalent sharp bound requires known invertible Q and folded allowed domain",
+    "no actual dimensions, energy response, weights, ICC, fit, covariance or CL"
+  ]
+}

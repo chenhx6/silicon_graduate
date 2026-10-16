@@ -1,0 +1,151 @@
+{
+  "url": "https://api.openalex.org/works/https://doi.org/10.1016/0029-554X(73)90294-2",
+  "at": "2026-10-16T01:57:48.848826+08:00",
+  "status": 200,
+  "metadata": {
+    "title": "Solid-angle correction factors for “five-sided” coaxial Ge(Li) detectors",
+    "doi": "https://doi.org/10.1016/0029-554x(73)90294-2",
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "bronze",
+      "oa_url": "https://escholarship.org/content/qt8zt177d5/qt8zt177d5.pdf?t=p0hhnm",
+      "any_repository_has_fulltext": false
+    },
+    "best_oa_location": {
+      "id": "doi:10.1016/0029-554x(73)90294-2",
+      "doi": "https://doi.org/10.1016/0029-554x(73)90294-2",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1016/0029-554x(73)90294-2",
+      "pdf_url": "https://escholarship.org/content/qt8zt177d5/qt8zt177d5.pdf?t=p0hhnm",
+      "source": {
+        "id": "https://openalex.org/S44816201",
+        "display_name": "Nuclear Instruments and Methods",
+        "issn_l": "0029-554X",
+        "issn": [
+          "0029-554X",
+          "1878-3759"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": false,
+        "listed_in": [],
+        "host_organization": "https://openalex.org/P4310320990",
+        "host_organization_name": "Elsevier BV",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320990"
+        ],
+        "host_organization_lineage_names": [
+          "Elsevier BV"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Nuclear Instruments and Methods",
+      "raw_type": "journal-article"
+    },
+    "locations": [
+      {
+        "id": "doi:10.1016/0029-554x(73)90294-2",
+        "doi": "https://doi.org/10.1016/0029-554x(73)90294-2",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1016/0029-554x(73)90294-2",
+        "pdf_url": "https://escholarship.org/content/qt8zt177d5/qt8zt177d5.pdf?t=p0hhnm",
+        "source": {
+          "id": "https://openalex.org/S44816201",
+          "display_name": "Nuclear Instruments and Methods",
+          "issn_l": "0029-554X",
+          "issn": [
+            "0029-554X",
+            "1878-3759"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": "https://openalex.org/P4310320990",
+          "host_organization_name": "Elsevier BV",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320990"
+          ],
+          "host_organization_lineage_names": [
+            "Elsevier BV"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Nuclear Instruments and Methods",
+        "raw_type": "journal-article"
+      },
+      {
+        "id": "pmh:oai:escholarship.org/ark:/13030/qt8zt177d5",
+        "doi": null,
+        "is_oa": false,
+        "landing_page_url": "https://escholarship.org/uc/item/8zt177d5",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306400115",
+          "display_name": "eScholarship (California Digital Library)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": "https://openalex.org/I2801248553",
+          "host_organization_name": "California Digital Library",
+          "host_organization_lineage": [
+            "https://openalex.org/I2801248553"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": "",
+        "raw_type": "article"
+      },
+      {
+        "id": "pmh:qt8zt177d5",
+        "doi": null,
+        "is_oa": false,
+        "landing_page_url": "http://www.escholarship.org/uc/item/8zt177d5",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306400115",
+          "display_name": "eScholarship (California Digital Library)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": "https://openalex.org/I2801248553",
+          "host_organization_name": "California Digital Library",
+          "host_organization_lineage": [
+            "https://openalex.org/I2801248553"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": "Krane, K.S.(1973). SOLID-ANGLE CORRECTION FACTORS FOR \"FIVE-SIDED\" COAXIAL Ge(Li) DETECTORS. Lawrence Berkeley National Laboratory: Lawrence Berkeley National Laboratory. Retrieved from: http://www.escholarship.org/uc/item/8zt177d5",
+        "raw_type": "article"
+      }
+    ]
+  }
+}

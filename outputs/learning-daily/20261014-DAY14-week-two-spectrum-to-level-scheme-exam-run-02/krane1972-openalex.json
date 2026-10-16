@@ -1,0 +1,57 @@
+{
+  "url": "https://api.openalex.org/works/https://doi.org/10.1016/0029-554X(72)90099-7",
+  "at": "2026-10-16T09:21:37.190476+08:00",
+  "status": 200,
+  "final_url": "https://api.openalex.org/works/https://doi.org/10.1016/0029-554X(72)90099-7",
+  "bytes": 9256,
+  "content_type": "application/json",
+  "metadata": {
+    "title": "Solid-angle correction factors for coaxial Ge(Li) detectors",
+    "doi": "https://doi.org/10.1016/0029-554x(72)90099-7",
+    "open_access": {
+      "is_oa": false,
+      "oa_status": "closed",
+      "oa_url": null,
+      "any_repository_has_fulltext": false
+    },
+    "best_oa_location": null,
+    "locations": [
+      {
+        "id": "doi:10.1016/0029-554x(72)90099-7",
+        "doi": "https://doi.org/10.1016/0029-554x(72)90099-7",
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.1016/0029-554x(72)90099-7",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S44816201",
+          "display_name": "Nuclear Instruments and Methods",
+          "issn_l": "0029-554X",
+          "issn": [
+            "0029-554X",
+            "1878-3759"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": "https://openalex.org/P4310320990",
+          "host_organization_name": "Elsevier BV",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320990"
+          ],
+          "host_organization_lineage_names": [
+            "Elsevier BV"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Nuclear Instruments and Methods",
+        "raw_type": "journal-article"
+      }
+    ]
+  }
+}

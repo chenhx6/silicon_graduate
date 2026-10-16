@@ -399,3 +399,54 @@ Table1十行exp/calculated不是20个观测；本轮按Eq7从印刷A2/A4重算χ
 在合同A及显式pureE1参考下，增加已见218支使中心正布居问题为`N_i−wA D_iA−wB D_iB≥0`、wA+wB≤1；取r=13.8/101后得到wA≤.523624507。它是fixed-center/positive-rest模型控制，不是实验上限。[[yamazaki-1967-aligned-angular-coefficients]] YA67-11/12提供U基准及radiative small-M2敏感性，未认证mixed converted-total核。
 
 仅把已知184/99出射和161当闭合参考时，wA≈.627329、wB≈.085714；它与experimental中心face不闭合，却可用源calculated targetρ=(−.624,.309)及正余下population给marginal半宽内witness。模型点不是新观测，也不能因可行就反推合同A正确、发现未见branch或重放原fit。D/Q multiplets、weak537.39/其它directfeeding、完整转换、absolute-normalization/window与Cov仍需真实输入；保持L2/实验L4 not-ready。
+
+## 有限几何：共同响应、正布居与可行域
+
+本节是2026-10-16 DAY14内的Day15无学分预习/L2推导。来源背景为[[ionescu-1981-improved-angular-distribution-analysis-particle-xn]] IO81-33（printed20/PDF2的182Ta isotropy与40cm控制）及[[yamazaki-1967-aligned-angular-coefficients]] YA67-4/5（printed3 Eqs12/13的normalized tensor与未观测preceding emission）。下面的圆锥、布居和权重是本任务自选；未读取Krane1972/1973几何论文正文，不把推导归给它们或填入实际IO81/JUROGAM响应。
+
+### 标量效率、核对齐与几何角平均
+
+对正、归一、绕detector pointing axis轴对称的single-gamma角响应`h_E(beta)`，定义`Q_k(E)=<P_k(cos beta)>_h`，故Q0=1。若各测量角只是共同角核的旋转，且aligned q0分布与能量/选择条件相同，则
+
+`W_obs(theta)=1+sum_k Q_k(E) A_k^nuc P_k(cos theta)`。
+
+总效率epsilon控制0阶归一，核alpha_k=p_k/B_k控制population，Q_k控制几何角平均，ICC的alpha_conv控制photon/total-rate转换；它们需要分别定义。对isotropic reference，所有k>0项原本为0，所以即使总效率/相对isotropy校准完全相同，不同角核仍可给不同Q2/Q4。该校准可以检验角间吸收/归一，不由它单独认证higher-rank响应。IO81原文将182Ta测试和有限几何忽略分别陈述，本节没有否定其原分析。
+
+选择uniform solid-angle cone，c=cos(beta_max)，x在[c,1]均匀：
+
+`Q0=1; Q2=c(1+c)/2; Q4=c(1+c)(7c^2−3)/8`。
+
+这是直接Legendre积分，不含晶体相互作用概率。自选c=4/5时Q2=18/25、Q4=333/1250；c→1为point limit，c=0使所选even ranks2/4均为0而失去信息。原2.2/50 cm³和40cm距离没有给本任务所需形状、半径、衰减/全能峰能量响应，禁止据此给actualQ。
+
+### 旋转平均的正性与feeding协变
+
+对角且P(m)=P(−m)的核布居，可用数学等效的旋转平均表示上述角卷积：
+
+`R_J[m',m]=<abs(d^J_m'm(beta))^2>_h; p_eff=R_J p`。
+
+矩阵非负、每列和1；方位角平均清除非对角相干。rank-k张量满足`r_k(p_eff)=Q_k r_k(p)`。这是探测角平均的等效表示，不是探测器使真实核态随时间演化。YA67的未观测radiative channel K在旋转下协变；因此同一个核h作用于parent/child时`R_f K=K R_i`，也保持target的正混合和归一。这条关系不适用于已选择preceding gamma方向/偏振的conditional gate。
+
+代码用2J个对称spin-1/2的Schwinger表示独立展开d振幅、平方后对半角单项式作有理数积分；不是抄写Qk构造R。另以spin1/2的closed matrix与spin1的<cos² beta>核验，再逐列检查spin2、13/2、17/2的正性/归一/张量特征值及17/2→13/2 pureE2的完整矩阵协变。
+
+### sharp界要求同步变换整个允许域
+
+令P为前述正布居在(r2,r4)的投影，D=diag(Q2,Q4)。源定义下的selected-tensor混合为`t=w f+(1−w)s`，s∈P。若D已知且两项非零，正确fold后为`Dt=w Df+(1−w)Ds`，余项域是DP。D可逆使两问题一一等价，故同一个sharp界保持；仅把数据/f改成Dt/Df而余项仍放在原P，放宽了问题。正旋转平均保证DP⊆P，但不要求二者相等。若Q某项为0，投影会丢信息，不能通过除零恢复原界。
+
+自选parent为17/2的abs(m)=1/2对称布居，经未观测pureE2到13/2；自选余项为13/2的abs(m)=13/2布居，并取w=3/5。以下全是数学设计，非IO81权重或实验CL：
+
+| 使用的矩与余项域 | 精确selected-tensor界 | 含义 |
+| --- | --- | --- |
+| 原t、f与P | 3/5=0.6 | 自选边界余项取到的sharp值 |
+| 同一cone卷积Dt、Df与DP | 3/5=0.6 | 可逆且同时变换域，保持原问题 |
+| 同一cone卷积Dt、Df但仍用P | 110669/178385≈0.620394091 | 仅在较宽放宽中sharp；对已知共同cone模型不是原sharp值 |
+| parent点响应、child上述cone；错误按共同point响应处理 | 247687/388750≈0.637136977 | 正确不同响应模型中真实自选w=1，错误模型却排除w=1 |
+
+最后一行给必要反证：不同能量/探测器/选择可以有不同核，不能从一个共同标量效率归一推得parent/child具有同Qk。它没有证明原IO81实验实际存在该差别，也不改先前.596940/.523624的明示输入边界。
+
+### 复算、伴随观测与判断
+
+[精确脚本](../../system/scripts/day14_finite_geometry_feeding.py)和[自选输入](../../outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/finite-geometry-design-input.json)可复算；[68-check结果](../../outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/finite-geometry-feeding-audit.json)保存矩阵控制、确切分数、代码依赖哈希和null实际输入。source pages只是定义/实验控制的证据，上述数学定理与反例单列为本任务推导，非新增独立实验。
+
+必要companion是detector/源位置、晶体形状和逐能量角接受度/全能峰效率、已知multipolarity且匹配alignment/feeding的参考角分布，以及实际角fit/normalization Cov。非轴对称接受度、角间不同核、moving-frame Doppler选择、finite gamma-gamma gate须回到完整响应，不能强塞进共同标量Qk。没有这些输入时不提取真实核alpha、sigma、delta或feeding CL。
+
+Decision: **supports** 正响应下的正布居检查和未观测feeding协变；**revises** “共同卷积自动保持数值sharp界”的无条件表述，须同时fold允许域；**limits** 用isotropy代higher-rank响应、不同kernel共用校正。source/review状态和正式Day14 21/24不变，Day15仅partial，无新experimental L4。

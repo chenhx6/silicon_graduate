@@ -8,13 +8,15 @@ updated: 2026-10-16
 
 ## Active handoff — DAY14 extended continuous study
 
-同run2026-10-14-day-14-02/session01a13a0e-e8bd-7251-b970-f6975679e281，goal/runactive。用户断网延期研究2026-10-16 15:00上海止、16:00交付。Formal14七边35checks/21/24/weeklyREFLECT具备，completed14/partial15、officialnext14count13待最终一次只计14，无Day16。
+同run2026-10-14-day-14-02/session01a13a0e-e8bd-7251-b970-f6975679e281，goal/runactive。用户断网延期研究2026-10-16 15:00上海止、16:00交付。Formal14 primedrecall/七边35checks/21/24/weeklyREFLECT具备；completed14/partial15，officialnext14count13待最终一次只计14，不开Day16。
 
-第034批transition I_T/node分母与两已知feeding合同：22controls，120items39pages。A+pureE1参考的.523624及closedout161的.627329都是条件控制，calculatedρwitness不认证field/实验CL/fullfit；B转换/scale与weakinputs/Cov缺口保留。新IO28–32/YA11–12 true，oldhumanreview/十false/旧行/raw/protected/AST/dependencies/report/card/writeback/diff保持，freshlint0errors141warnings。前33批Giteepublished；本批main / `Audit DAY14 transition intensities and coupled feeding inputs`，actualH3/hash/push只receipt。
+第035批有限几何为明确chosen-cone L2：68精确checks，Q2=18/25/Q4=333/1250；共同R与未观测K协变，但sharp界须同步P→QP。自选.6正确fold不变，沿原P放宽.620394；不同kernel的truew1被错误common模型给.637137。非actualresponse/w/CL，旧.596940/.523624输入边界不变。IO81-33核182Ta及isotropy/40cm控制分别陈述，oldhumanreview/十false不改；122items39pages，actualchecks见content-checkpoint-035.json。
 
-下一day15-finite-geometry-before-sources.md已freeze，仅Day15preview。Krane1972 NIM98,205–210 DOI10.1016/0029-554X(72)90099-7为coaxialGeLi correction；1973 NIM109,401–402 DOI10.1016/0029-554X(73)90294-2为five-sidedcoaxial两页。metadata核/body未读，不混56页DCO表册/不开Day16。1972本地/公开discovery无原件；1973精确lookup待做。先primary/hash/定义/条件再actualQ，不由体积/40cm填radius或把isotropy当higher-rank geometry。
+Krane1972/1973两geometry body仍missing：1973 OpenAlex有eScholarshipPDF候选，但实际202空体/landingSSL，OSTI连接失败；1972closed，publisher0candidate。不建空source/不叫erratum/不混56页DCO表册。原Ref5/actualgeometry/转换/Cov、193Biresponse/τ/events和Prinput/1996primary等缺口保留。
 
-Resume `codex resume 01a13a0e-e8bd-7251-b970-f6975679e281 -C /workspace/wiki -s danger-full-access -a never`，先run.json/continuation/clock。原Ref5仍missing，ADS verification/403不绕过，service downloadroot拒绝路径未转Wiki外，read-onlyprovider不可用。193Biresponse/τ/events、Prinput/1996primary与Clark/Laird缺口不变。Clock001/002/005/008actualACK，旧farmer/clocknotlive未重启；保留继承dirty/raw/PLAN/Bib/review，explicitstage/H3非force发布。
+稳定指针main / `Audit DAY14 finite geometry and positive feeding domains`；actualH3/hash/push只publication-035.json。续接先run.json/continuation/clock/pool，不因卡或本批完成提前closeout。用户最新$farmer $go-on监督授权下仅恢复watcherPID42019，09:25上海核running/currentthreadrunning；没有新研究session/goal或重启daily scheduler。Clock001/002/005/008actualACK不造新ACK。
+
+Resume `codex resume 01a13a0e-e8bd-7251-b970-f6975679e281 -C /workspace/wiki -s danger-full-access -a never`。保留继承Day6–9/Day13/log/daemon/raw/PLAN/Bib/credentials/review；exactmanifest/H3非force发布。15:00后仅closeout，课程只计14一次。
 
 ## Previous active handoff — DAY13 continuous study reopened by user
 

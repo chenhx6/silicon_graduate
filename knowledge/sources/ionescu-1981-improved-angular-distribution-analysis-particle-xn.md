@@ -100,6 +100,7 @@ For the current project, the paper matters because it demonstrates a concrete ro
 | IO81-30 | 218.90的parentρ可由318.135 pureE2行给(−.664,.373)，目标为470.39的13/2−。Table3该支正确ΔJ+1解列arctanδ=.2°±2°，模式E1/M2；本任务pureE1 δ0只作显式参考，radiativeU端点敏感性不认证mixed converted-total核。 | known-second-feeder-and-mixing-scope | direct-and-derived | printed21 Table1 row318.135; printed22 Table3 row218.90; printed25 Fig5 | true |
 | IO81-31 | 在未核实的commonconverted合同A及pureE1参考下，报值给r=13.8/101，加入第二已见分量的positive-rest中心问题得wA≤.523624507。wA是targetfeeding权重，不是parentbranch/实测w/实验CL；若表列是photon-only，未知alpha/归一会改变r和node分母，不能选A当事实。 | our-two-feeder-conditional-geometry | derived | printed21 Table1 rows271.12/184.33/318.135; printed22 Table3 row218.90; printed25 Eq.(11) | true |
 | IO81-32 | 仅作合同A/no-extra-outgoing参考时，已知184/99出射和为161，得到wA≈.627329、wB≈.085714；不与raw中心几何精确闭合。但源Table1下行calculated targetρ=(−.624,.309)在原quoted半宽内，并给正余下population可行例子。它不是新观测、原模型重放、missingbranch发现或字段合同验证。 | calculated-row-witness-and-inference-boundary | derived | printed21 Table1 lowerrow184.33; printed22 Table3 row99.21; printed25 Fig5 | true |
+| IO81-33 | Sec2用放射性182Ta检验系统isotropy，报告精度0.5%；40cm下忽略finite-solid-angle另列并引Ref6。两项是分别陈述的控制，不能把isotropy数值解释成已给Q2/Q4；2.2/50 cm³与距离未提供本任务可重放的晶体形状/逐能量响应。 | apparatus-control-and-response-input-boundary | direct-and-derived | printed20 Sec.2 paragraphs on detectors and 182Ta / PDF2 | true |
 
 ## Nuclear Structure Information
 
@@ -274,3 +275,13 @@ IO81-28–32补足R33最小两tensor问题之外的已见218.90支。原表头�
 该scalar参考不满足原experimental中心tensor的全部face条件，不能据此宣称发现hiddenbranch或原paper错误。Table1同一184.33下行**calculated**点(−.624,.309)却在原reported marginal半宽内；固定前述scalar参考后，存在正余下population满足这些moment。它只是几何可行性witness，不是新增独立观测、原Gaussian/fullmodel重放或对合同A的反推认证。所有共同Cov与D峰component response仍缺。
 
 [22项程序](../../system/scripts/day14_joint_feeding_intensity_contract.py)、[输入](../../outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/tm167-intensity-joint-input.json)和[结果](../../outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/tm167-intensity-joint-audit.json)区分上述合同/数据层级。原Ref5仍缺fulltext，另有537.39弱虚线输入及完整branches/转换/原response/Cov未恢复，真实L4 refit not-ready。新IO81-28–32 true，旧十false/旧人审不变；source自己的calculated行不能当实验事实。
+
+## DAY14有限几何控制：182Ta与响应层次
+
+2026-10-16回核printed20/PDF2：原同位素为`182Ta`。文中先陈述40cm距离下可忽略finite-solid-angle（引Ref6），后陈述用放射性182Ta检验系统isotropy至0.5%；monitor/deadtime约10^-3与0.5°角精度也各有对象。原文没有把这些检查当成同一个量，本任务不据此指称作者误用校准，也不将0.5%重标为Q2/Q4的不确定度。
+
+本文Ref6的两篇为Krane1972 coaxial Ge(Li) corrections（NIM98,205–210，DOI`10.1016/0029-554X(72)90099-7`）和Krane1973 five-sided coaxial corrections（NIM109,401–402，DOI`10.1016/0029-554X(73)90294-2`）。本轮只核metadata，未取得两篇正文，不能把其题名当公式/数值证据，也不将1973预先叫作erratum。1973有机构库候选但下载HTTP202空体、landing SSL失败；这不证明原件不存在。它们不同于已收录的1973 oriented-correlation tables。
+
+[[angular-distribution]]“有限几何：共同响应、正布居与可行域”保存本任务另外声明的uniform-cone推导与精确控制。自选c=4/5的Q2/Q4、0.6/0.620394几何界及不同kernel的w1反例都是一般理论设计，不是本实验半径、响应、feeding量或置信度。
+
+Agent self-audit：本段IO81-33仍`needs_review: true`，legacy页面human-reviewed只保留原事件，不扩展到新增内容。核验source身份/hash、printed20图像与控制对象；实际detectorgeometry/energy response/原Ref6正文仍为可重放输入边界。Decision: **supports** 分别记录控制；**limits** 以isotropy/体积/距离直接认证higher-rank响应；无新实验采集或原fit重放。

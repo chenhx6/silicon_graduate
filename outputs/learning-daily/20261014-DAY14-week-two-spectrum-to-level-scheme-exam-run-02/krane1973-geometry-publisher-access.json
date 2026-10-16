@@ -1,0 +1,11 @@
+{
+  "status": "fulfilled",
+  "value": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\n  \"doi\": \"10.1016/0029-554X(73)90294-2\",\n  \"accessDiscovery\": {\n    \"status\": \"not_found\",\n    \"landingUrl\": \"https://linkinghub.elsevier.com/retrieve/pii/0029554X73902942\",\n    \"landingHost\": \"linkinghub.elsevier.com\",\n    \"reason\": \"no_candidate\",\n    \"fallback\": {\n      \"attempted\": false,\n      \"combinationsAttempted\": 0\n    },\n    \"targetStatus\": 200,\n    \"candidateCount\": 0,\n    \"candidatesTruncated\": false,\n    \"candidateUrls\": [],\n    \"fetchedAt\": \"2026-10-15T17:57:48.635Z\"\n  }\n}"
+      }
+    ]
+  }
+}

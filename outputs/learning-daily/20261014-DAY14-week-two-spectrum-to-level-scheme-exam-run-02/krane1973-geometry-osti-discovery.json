@@ -1,0 +1,9 @@
+{
+  "url": "https://www.osti.gov/api/v1/records",
+  "params": {
+    "title": "SOLID-ANGLE CORRECTION FACTORS FOR FIVE-SIDED COAXIAL Ge(Li) DETECTORS",
+    "rows": 3
+  },
+  "at": "2026-10-16T09:23:10.951589+08:00",
+  "error": "ConnectionError"
+}
