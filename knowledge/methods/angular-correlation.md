@@ -163,6 +163,7 @@ Q_k(\alpha)=\frac{1}{1-\cos\alpha}\int_{\cos\alpha}^{1}P_k(u)\,du.
 - [[bargholtz-1987-high-spin-gamma-gamma-directional-correlations]]
 - [[rose-brink-1967-phase-defined-angular-distributions]] RB67-3/11：方向相关的布居/响应与photon amplitudes；Day14 toy是任务重构。
 - [[zheng-2002-ado-coincidence-angular-anisotropy]] Z02-6/9：ADO组response的原定义和迁移边界。
+- [[smith-2019-griffin-angular-correlation-analysis]] SG19-3/5/6/8/12：独立GRIFFIN实验的event-mixing归一、有限几何模板、校准Cov及新initial alignment迁移条件。
 
 [[starosta-1999-pdco-experimental-test]] is a direct high-spin example of the compressed-observable boundary: `R_DCO` constrains the alignment/multipolarity space, while CLOVER polarization adds electric/magnetic sensitivity; the combined fit still leaves a 490-keV E2/M1-E2 branch under the paper's assumptions.
 
@@ -208,3 +209,21 @@ Source没有说它用了这些gates。最初预计两hyp都可能R1.45，被固�
 最低recoverable response记录需逐target给reference/全gate列表、level/line identity、pair角度与接受度、逐能量efficiency及background、normalization、event-ID重叠和joint covariance；新observable应给独立kernelrow，重复同joint ratio的变形不多一份信息。42项checks覆盖CG/isometry/binomial、units/axialrotation、physicalfeeding、sphere积分→singlemarginal、全部positivepopulation范围、LPwitness/infeasiblecase、scalar/readiness、互反及exactmoments/fullmarginal/strictPSD控制。代码[day14_dco67_gate_design.py](../../system/scripts/day14_dco67_gate_design.py)，完整kernels/duals/witnesses在本run dco67-gate-design.json。
 
 决定revises预设两个模型都能fit1.45，supports先验证gate/normalization及population可观测空间，limits singleγ校准和裸ratio阈值用于联合纲图赋值；没有sourcegeometry、实测ρ/新multipolarity、实验显著性或L4重放。Day14继续，Day15仍partial无学分。
+
+## 事件混合：效率归一之后仍有有限响应
+
+[[smith-2019-griffin-angular-correlation-analysis]]实际读的是2018arXiv v1、2019期刊metadata另核。其SG19-5（PDF6 Fig2）在同一60Ni数据上给出与full模拟比较的χ²/NDF从7.96（pair数归一）、2.34（再加single-crystal效率）到1.02（event mixing）；三个处理共享事件，不能计三份独立实验。SG19-6（PDF7 Fig3）的已知66Zn0→2→0纯E2控制进一步显示：event-mixed数据仍不等于未卷积的物理correlation，需要匹配有限几何/材料响应。
+
+沿SG19-3的Eq6–14，若同angle bin内pair的N_jk相同、混合参考Y=1、两能量/效率时间权重与cuts匹配，则
+
+\[
+\frac{w_i}{y_i}=\frac{\int N_i(\theta)W(\theta)d\theta}{\int N_i(\theta)d\theta}.
+\]
+
+还需W在接受区近常数，或N对称且W近线性，才等于中心角W；不能把分母归一当成完整去卷积。这里θ是两γ的opening angle，Zheng ADO的θ是相对束轴的极角，两者的核布居/响应输入不同。SG19-4给该研究mixing窗2–200μs、prompt<300ns，以及寿命≪mix间隔≪效率变化尺度；这些数不自动成为其它DAQ的参数。
+
+SG19-7的正输入Z0/Z2/Z4模板可线性合成物理correlation，允许负线性系数；它们不是三类事件的probability mixture。完整模板保留bin响应；SG19-8的c2=beta a2、c4=gamma a4是进一步的代数近似，beta/gamma不等于核alignment、偏振Q(E)或ADO f。实际共享模拟/校准时，应检验Eq27省略的cross项是否为零。
+
+原文各方法重用同一套数据（SG19-10），且若干cascade仍有多个Ji/δ候选（SG19-9）；更多opening-angle bins不保证spin唯一。新trigger、initial alignment、addback或angle regrouping先验验算条件见SG19-12，不能直接迁移GRIFFIN11cm的beta/gamma。v1 Table5精度、Table4/8的Gd a4符号与简化Q范围等差别保留SG19-13/14/15；VoR未取得，不用这些歧义数值重造实验Σ或新显著性。
+
+下一项高信息问题是：同一interaction与多个partners配对时，mixed histogram的方差和prompt/mixed cross covariance如何随partner数变化？SG19-4只提供方法描述，没有给实际event-ID/完整Σ。需要以physical-event为单位保存重用关系或作block重采样，而非默认每个mixed pair都是新的独立衰变；本段未声称已求出GRIFFIN实际Cov。

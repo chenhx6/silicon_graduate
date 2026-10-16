@@ -1,0 +1,58 @@
+{
+  "report": {
+    "valid": true,
+    "missing_headings": []
+  },
+  "writeback": {
+    "valid": true,
+    "mode": "updated",
+    "knowledge_paths": [
+      "knowledge/methods/ado-covariance-calibration.md",
+      "knowledge/sources/zheng-2002-ado-coincidence-angular-anisotropy.md",
+      "knowledge/methods/angular-distribution.md",
+      "knowledge/sources/smith-2019-griffin-angular-correlation-analysis.md",
+      "knowledge/methods/angular-correlation.md",
+      "knowledge/index.md"
+    ],
+    "changed_paths": [
+      "knowledge/index.md",
+      "knowledge/methods/ado-covariance-calibration.md",
+      "knowledge/methods/angular-correlation.md",
+      "knowledge/methods/angular-distribution.md",
+      "knowledge/sources/smith-2019-griffin-angular-correlation-analysis.md",
+      "knowledge/sources/zheng-2002-ado-coincidence-angular-anisotropy.md"
+    ],
+    "change_check": "run-snapshot",
+    "error": null
+  },
+  "curriculum": {
+    "valid": true,
+    "completed_day_indices": [],
+    "partial_day_indices": [
+      15
+    ],
+    "curriculum_cards_completed": 0,
+    "next_day_index": 15,
+    "error": null
+  },
+  "state_file": {
+    "schema_version": 1,
+    "cycle": "2026-09-30-day-substantive",
+    "counting_policy": "30 fully completed substantive curriculum cards; a run may complete multiple contiguous cards; acceptance-only runs are excluded",
+    "next_day_index": 15,
+    "last_success": "2026-10-14",
+    "last_run_id": "2026-10-14-day-14-02",
+    "status": "active",
+    "acceptance_runs_excluded": [
+      "2026-09-22-day-01-01",
+      "2026-09-22-day-01-02",
+      "2026-09-22-day-01-03",
+      "2026-09-22-day-01-04",
+      "2026-09-22-day-01-05",
+      "2026-09-22-day-02-06"
+    ],
+    "reset_at": "2026-09-23",
+    "reset_reason": "Manual Docker/runner instance acceptance before the substantive 30-day test reset",
+    "completed_day_count": 14
+  }
+}

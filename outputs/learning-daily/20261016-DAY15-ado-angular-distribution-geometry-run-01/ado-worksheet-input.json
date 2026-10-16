@@ -1,0 +1,85 @@
+{
+  "schema_version": 1,
+  "data_identity": "DAY15-20261016-SYNTHETIC-ADO-COV-01",
+  "data_kind": "self-chosen pedagogical inputs; not 145Tb/193Bi or any experiment",
+  "angle_unit": "degree",
+  "efficiency_unit": "dimensionless absolute group FEP probability",
+  "count_unit": "histogram entries",
+  "target": {
+    "label": "x",
+    "energy_keV": 760.0,
+    "spin_parity": "unspecified synthetic transition"
+  },
+  "gate": {
+    "label": "g",
+    "energy_keV": 420.0,
+    "spin_parity": "unspecified synthetic transition",
+    "A2": 0.28,
+    "A4": 0.06,
+    "coefficient_covariance": [
+      [
+        0.0009,
+        -0.00024
+      ],
+      [
+        -0.00024,
+        0.0004
+      ]
+    ],
+    "coefficient_kind": "chosen normalized single-gamma W coefficients, not nuclear alpha or maximum reference"
+  },
+  "groups": [
+    {
+      "label": "S",
+      "theta_deg": 32.0,
+      "detector_count": 4,
+      "target_efficiency": 0.044,
+      "gate_efficiency": 0.036
+    },
+    {
+      "label": "M",
+      "theta_deg": 58.0,
+      "detector_count": 4,
+      "target_efficiency": 0.052,
+      "gate_efficiency": 0.048
+    },
+    {
+      "label": "L",
+      "theta_deg": 90.0,
+      "detector_count": 4,
+      "target_efficiency": 0.04,
+      "gate_efficiency": 0.032
+    }
+  ],
+  "counts": {
+    "gross_S": 8400.0,
+    "gross_L": 7200.0,
+    "shared_sideband": 1500.0,
+    "background_scale_S": 0.8,
+    "background_scale_L": 0.8,
+    "primitive_model": "independent Poisson gross_S/gross_L/shared_sideband; sideband is the same estimator used in both net peaks; fixed scale factors"
+  },
+  "calibration": {
+    "model": "Gaussian log-efficiency latent errors; common normalization plus common group geometry plus energy-specific residual; input central efficiencies are medians",
+    "common_log_sd": 0.01,
+    "group_geometry_log_sd": 0.008,
+    "target_residual_log_sd": 0.006,
+    "gate_residual_log_sd": 0.012,
+    "coefficient_errors_independent_of_calibration": true
+  },
+  "independent_intrinsic_ratio": {
+    "value": 1.12,
+    "standard_uncertainty": 0.024,
+    "identity": "self-chosen independent single-gamma intrinsic S/L reference; no shared events or calibration",
+    "use": "optional independent check f_emp=R/r0; never constructed from the same R"
+  },
+  "response_assumptions": [
+    "uniform detector efficiencies within each group",
+    "point nominal angles, no azimuth/pair losses except self-exclusion",
+    "separable omega1*omega2 only, not a full quantum gamma-gamma response",
+    "same source intensity normalization for the two target groups",
+    "background scales chosen fixed; real fitted scales may also have covariance"
+  ],
+  "random_seed": 20261016,
+  "monte_carlo_replicates": 200000
+}

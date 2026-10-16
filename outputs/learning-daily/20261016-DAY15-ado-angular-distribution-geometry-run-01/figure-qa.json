@@ -1,0 +1,32 @@
+{
+  "checks": [
+    {
+      "name": "figure-source",
+      "exit_code": 0
+    },
+    {
+      "name": "figure-glyph",
+      "exit_code": 0
+    },
+    {
+      "name": "figure-collision",
+      "exit_code": 0
+    }
+  ],
+  "first_source_audit": {
+    "exit_code": 1,
+    "failures": [
+      "dynamic export loop not recognized by source regex",
+      "actual240dpi below300"
+    ]
+  },
+  "correction": "explicit SVG/PDF/PNG saves,300dpi, literal inch dimensions and capitalized descriptive legend; rendered alignment/glyph/collision audits rerun",
+  "remaining_source_warning_review": {
+    "DEMO-DATA": "The entire worksheet is explicitly chosen synthetic L2, its input/report/figure state no experimental data; no production-data path exists.",
+    "UNCERTAINTY-ENCODING": "The MC is a sampling-model verification, not plotted seed aggregates; panel b plots propagated standard uncertainty directly, so no extra error band is implied.",
+    "EXPORT-RASTER": "Only a report preview raster is required; authoritative SVG/PDF provided, no submission TIFF requested.",
+    "RASTER-DPI": "300dpi PNG is a report preview; SVG/PDF retain vector data. This is not a 600dpi submission raster claim."
+  },
+  "csv_eol_correction": "Cached diff check found csv.writer default CRLF; generator now explicitly writes LF, outputs regenerated, numerical results unchanged and figure QA rerun",
+  "serialization_correction": "Explicit LF CSV and whitespace-normalized Matplotlib SVG, no data/geometry changes; generation and PDF QA rerun"
+}

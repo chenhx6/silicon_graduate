@@ -1,0 +1,28 @@
+{
+  "run_id": "2026-10-16-day-15-01",
+  "retrieved_at": "2026-10-16T22:40:48.271342+08:00",
+  "title": "Gamma-gamma angular correlation analysis techniques with the GRIFFIN spectrometer",
+  "published_year": 2019,
+  "preprint_year": 2018,
+  "doi": "10.1016/j.nima.2018.10.097",
+  "source_url": "https://arxiv.org/pdf/1807.07570v1",
+  "arxiv_history": "Only v1,2018-07-19,observed on official arXiv page",
+  "version_scope": "Claims are from 28-page arXiv v1; journal922,47–63 metadata independently verified but VoR full text not obtained",
+  "raw_file": "raw/papers/gpt/day15/smith-2018-griffin-angular-correlation-arxiv1807.07570v1.pdf",
+  "raw_sha256": "0390bdbb6b78f035d1d49abd4ecf863a684f3a8eb3ba6c537cfbd8fb6e352f33",
+  "bytes": 1920698,
+  "pages": 28,
+  "access_mode": "lawful public arXiv download via nature-downloader",
+  "si_requested": false,
+  "si_decision": "Unattended daily authorization; this exact batch retrieves the identified main paper, no SI dependency identified",
+  "per_file_gate": {
+    "incoming_absent_before": true,
+    "final_absent_before": true,
+    "pdf_magic": true,
+    "title_matched": true,
+    "hash_verified_before_and_after": true,
+    "existing_raw_overwritten": false
+  },
+  "git_policy": "PDF excluded from task index; metadata/provenance/source pages may be published",
+  "official_version_boundary": "Crossref-deposited Elsevier XML endpoint failed ConnectionError once; no unchanged retry; preprint issues are not attributed to VoR"
+}

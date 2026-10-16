@@ -1,0 +1,57 @@
+{
+  "at": "2026-10-16T22:53:24.594364+08:00",
+  "checks": [
+    {
+      "check": "eol",
+      "command": [
+        "python3",
+        "system/scripts/clean_knowledge_eol_dirty.py"
+      ],
+      "exit_code": 1
+    }
+  ],
+  "report": {
+    "valid": true,
+    "missing_headings": []
+  },
+  "writeback": {
+    "valid": true,
+    "mode": "updated",
+    "knowledge_paths": [
+      "knowledge/methods/ado-covariance-calibration.md",
+      "knowledge/sources/zheng-2002-ado-coincidence-angular-anisotropy.md",
+      "knowledge/methods/angular-distribution.md",
+      "knowledge/sources/smith-2019-griffin-angular-correlation-analysis.md",
+      "knowledge/methods/angular-correlation.md",
+      "knowledge/index.md"
+    ],
+    "changed_paths": [
+      "knowledge/index.md",
+      "knowledge/methods/ado-covariance-calibration.md",
+      "knowledge/methods/angular-correlation.md",
+      "knowledge/methods/angular-distribution.md",
+      "knowledge/sources/smith-2019-griffin-angular-correlation-analysis.md",
+      "knowledge/sources/zheng-2002-ado-coincidence-angular-anisotropy.md"
+    ],
+    "change_check": "run-snapshot",
+    "error": null
+  },
+  "curriculum": {
+    "valid": true,
+    "completed_day_indices": [],
+    "partial_day_indices": [
+      15
+    ],
+    "curriculum_cards_completed": 0,
+    "next_day_index": 15,
+    "error": null
+  },
+  "frozen_recall_intact": true,
+  "protected": {
+    "PLAN.md": true,
+    "raw/zotero/wiki-inbox.bib": true,
+    "system/log.md": true,
+    "system/scripts/run_daily_learning_daemon.py": true
+  },
+  "staged_before": ""
+}

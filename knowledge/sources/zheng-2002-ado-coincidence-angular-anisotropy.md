@@ -3,7 +3,7 @@ type: source
 title: "符合模式下的 γ 射线各向异性度测量"
 aliases: ["Zheng 2002 ADO", "Gamma-Ray Anisotropy Measurement in Coincidence Mode"]
 created: 2026-09-20
-updated: 2026-10-15
+updated: 2026-10-16
 status: ai-draft
 review_status: unreviewed
 source_type: method
@@ -91,6 +91,7 @@ tags: [ado, coincidence-mode, gamma-ray-anisotropy, multipolarity, detector-effi
 | Z02-7 | Fig1的f(Eγ2)用已测效率与给定ω2计算，正文取Eγ2=100–1500keV、步长50keV；正文5.2/3.2百分数不替代count、效率、alignment/feeding、背景和covariance的完整uncertainty。后半是本任务的使用边界。 | method-and-boundary | mixed | PDF p.3，Fig1和计算说明 | true |
 | Z02-8 | 作者明确以145Tb高自旋实验Ref3为例，Fig2的145Tb及邻核参考线来自该实验所获数据；Ref3为Zhou/Zheng/Zhang et al., EPJA12,253–255(2001)。2002方法文与对应实验引用不能重复计独立采集。 | source-lineage | direct | PDF p.1末段；PDF pp.3–4，Fig2/参考文献3 | true |
 | Z02-9 | 原Eq2将角组计数写成待测γ的ω1乘门控γ各组ω2及效率/self-exclusion项；该式未显式提供relative-angle γγ kernel或方位/pair response。不能从singleγ marginals把该乘积当成任意级联的full joint probability，是本任务的使用边界，并非作者声明全部角关联已消除。 | method-and-boundary | mixed | PDF p.2 / printed p.910，Eq2及前后定义 | true |
+| Z02-10 | 本次放大核读Fig1(a)：偶极门曲线的全部可见点位于0与3.0纵轴刻度之间，最高点略高于1.5；同页正文却报告最大绝对偏离约3.2%。保留正文引述与图文不一致边界，不用视觉读点替换作者数值，也不以缺失效率/角分布输入补算。 | source-consistency-boundary | direct-and-self-audit | PDF p.3 / printed p.911，Fig1(a)及其后最大偏离段落 | true |
 
 ## Nuclear Structure Information
 
@@ -187,3 +188,13 @@ Raw扫描件无text layer，未用OCR填式子。原式精确分开targetγ1效�
 在本run内先冻结conditional-response recall，再视觉回看PDF p.2 / printed910的Eq1–5和原定义：ω1/ω2为两条γ归一角分布；Eq2含二者乘积及同detector排除，作者明示同组效率不同时近似成立。原页面未给两direction相对角或azimuth的full joint kernel；本任务不把“未显式给出”改写为作者宣称角关联不存在。
 
 [[angular-correlation]]“条件γγ响应：各向同性marginal仍可有角关联”以RB67-3和自设0→L→0级联，给出factorization的可检验反例与balanced geometry/finite-cone控制。它限制Eq4的跨cascade迁移，不否定145Tb本文Fig2的local reference验证，不给原阵列新误差或Jπ。Z02-9新增true，Z02-1–8的既有review flags保留；Day15仍只是无学分preview。
+
+## Day15正式复核：原式方向与图文边界
+
+2026-10-16的新session先冻结注明prompt/startup提示的primed回忆，再核对raw SHA-256 `03044180a59fa5be55bcb6c517e9b87285c0991855afe5e1104e9dd03e9a7f23`，逐页视觉读完PDF 1–5：printed909摘要/动机、910的矩阵轴定义与Eq1–5、911的布局/效率/Fig1、912的Fig2/总结/三条参考文献、913英文题名/摘要。扫描件各页无文本层；本次没有把OCR推测当公式。没有取得原始events、逐探测器效率曲线、门控角分布数值、背景或完整Cov。
+
+原Eq3为 `R_ADO=(ω1S/ω1L)f_ADO`，故从符合比恢复本征角比要除以f。待测γ1在两矩阵y轴、门控γ2在x轴；gate遍历其余角组，Eq2排除同一detector自符合。printed911明确组效率是组内各台之和；其结构/距离相近仅支持作者使用的组内近似，不能代替新阵列逐台校准。printed911正文的约0.7/1.3是一般经验描述，printed912在本实验参考线给约0.75/1.25；不能把两组数当同一精确标定。
+
+新增Z02-10只记录图文一致性问题：Fig1纵轴定义为 `(f−1)×100`；Fig1(a)最高点略高于1.5刻度、没有达到3.0，而正文写偶极门最大约3.2%。Fig1(b)负偏离与正文约5.2%的量级一致。图没有提供原始数据表，本文也未列复现Fig1所需的逐能量效率和ω2数值；因此本次只保留有刻度支撑的定性边界，不发布替代的精确最大值，不据此重估145Tb多极性或完整误差。Z02-3仍明确是“正文报告”，其既有flag及Z02-1–9的review状态保持；新增claim保持`needs_review: true`，本节为Codex self-audit而非人审。
+
+Ref3的本session Crossref重核匹配 *In-beam study of 145Tb*, EPJ A 12(3),253–255(2001), DOI [10.1007/s100500170001](https://doi.org/10.1007/s100500170001)；metadata不替代未取得的正文。2002方法文的Fig2与该实验按依赖谱系，不计独立采集。独立装置响应验证应另找正文/实际数据，不把新方法文的引用次数当实验数。

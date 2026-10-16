@@ -1,0 +1,114 @@
+{
+  "at": "2026-10-16T22:56:07.570522+08:00",
+  "checks": [
+    {
+      "check": "eol",
+      "exit_code": 1,
+      "classification": "documented exit1: four own substantive tracked knowledge changes preserved; no mixed/unsafe files",
+      "knowledge_paths": [
+        "knowledge/index.md",
+        "knowledge/methods/angular-correlation.md",
+        "knowledge/methods/angular-distribution.md",
+        "knowledge/sources/zheng-2002-ado-coincidence-angular-anisotropy.md"
+      ],
+      "accepted": true
+    },
+    {
+      "check": "preflight",
+      "command": [
+        "python3",
+        "system/scripts/wiki_automation_preflight.py",
+        "--root",
+        "."
+      ],
+      "exit_code": 0
+    },
+    {
+      "check": "boundary",
+      "command": [
+        "python3",
+        "system/scripts/wiki_boundary_check.py",
+        "--root",
+        "."
+      ],
+      "exit_code": 0
+    },
+    {
+      "check": "lint",
+      "command": [
+        "python3",
+        "system/scripts/wiki_lint.py",
+        "--fail-on",
+        "error"
+      ],
+      "exit_code": 0,
+      "warnings": {
+        "REACTION_PARSE": 3,
+        "CITATION_KEY_MISSING": 115,
+        "RAW_MISSING": 28
+      },
+      "summaries": [
+        "GOVERNANCE page_unreviewed=528 source_unreviewed=250 claims=2688 claim_needs_review=2014 claim_missing_locator=0 claim_missing_kind=0 source_missing_raw_file=0 source_missing_citation_key=115",
+        "SUMMARY pages=606 wikilinks=6187 hashes=282 errors=0 warnings=146 info=2014"
+      ],
+      "errors": []
+    },
+    {
+      "check": "diff",
+      "command": [
+        "git",
+        "diff",
+        "--check"
+      ],
+      "exit_code": 0
+    }
+  ],
+  "report": {
+    "valid": true,
+    "missing_headings": []
+  },
+  "writeback": {
+    "valid": true,
+    "mode": "updated",
+    "knowledge_paths": [
+      "knowledge/methods/ado-covariance-calibration.md",
+      "knowledge/sources/zheng-2002-ado-coincidence-angular-anisotropy.md",
+      "knowledge/methods/angular-distribution.md",
+      "knowledge/sources/smith-2019-griffin-angular-correlation-analysis.md",
+      "knowledge/methods/angular-correlation.md",
+      "knowledge/index.md"
+    ],
+    "changed_paths": [
+      "knowledge/index.md",
+      "knowledge/methods/ado-covariance-calibration.md",
+      "knowledge/methods/angular-correlation.md",
+      "knowledge/methods/angular-distribution.md",
+      "knowledge/sources/smith-2019-griffin-angular-correlation-analysis.md",
+      "knowledge/sources/zheng-2002-ado-coincidence-angular-anisotropy.md"
+    ],
+    "change_check": "run-snapshot",
+    "error": null
+  },
+  "curriculum": {
+    "valid": true,
+    "completed_day_indices": [],
+    "partial_day_indices": [
+      15
+    ],
+    "curriculum_cards_completed": 0,
+    "next_day_index": 15,
+    "error": null
+  },
+  "course_credit_advanced": false,
+  "staged_serialization_fix": {
+    "csv": "explicitLF",
+    "svg": "trailing-space normalization without geometry changes",
+    "cached_diff_exit": 0,
+    "worksheet_rerun_exit": 0,
+    "figure_qa_exits": [
+      0,
+      0,
+      0
+    ]
+  }
+}

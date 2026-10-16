@@ -1725,3 +1725,8 @@ Zobel1983六页/metadata/raw与958parent10个Pubfit rows，38-check条件Gaussia
 ## 2026-10-15 — DAY14 checkpoint007 covariance identifiability
 
 26-check chosenangularCov设计写回canonical公式/variance/矩阵；actualGF与数据Σ仍缺。reportwriteback20items/11pages及lint0errors129warnings/保护门通过，正式21/24与partial15不变。稳定指针 main / `Demonstrate DAY14 angular covariance identifiability limits`；actualH3/hash只receipt。原截止与继承Human/flags/raw/PLAN/Bib保留，下一核剩余Day15 coefficient conventions及必要source。
+
+
+## 2026-10-16T22:56:54.236055+08:00 — DAY15 ADO/independent response checkpoint
+
+本session primed回忆先冻结、Zheng原件5页/图式全核，新增chosen ADO两路f、共享背景/效率latent Cov与MC/敏感性图；canonical ado-covariance-calibration。独立GRIFFIN28页v1及关键图表读完，保留VoR未得、event-mixing/finite-response、多spin/共享数据与表文歧义。六份knowledge改动由唯一writeback映射，fresh lint0errors/146warnings、boundary/diff0及runner contract通过。Goal/run仍active至2026-10-17 15:00上海，next15/count14不提前授卡；下一当前问题mixed-partner的event-level Cov。检查点commit target：main / `Establish DAY15 ADO covariance and independent response evidence`；实际H3/push只见Day15 run receipt。原raw/PLAN/Bib/review与继承工作保留，仅新公开PDF逐文件进入raw/gpt且不stage。

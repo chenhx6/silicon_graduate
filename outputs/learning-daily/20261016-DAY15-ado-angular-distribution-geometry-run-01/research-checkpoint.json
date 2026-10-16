@@ -1,0 +1,136 @@
+{
+  "captured_at": "2026-10-16T23:03:08.416104+08:00",
+  "session_id": "01a14510-aec7-7e00-aa23-f7c77a5124bc",
+  "run_id": "2026-10-16-day-15-01",
+  "hard_deadline": "2026-10-17T15:00:00+08:00",
+  "course_credit": {
+    "completed_day_indices": [],
+    "partial_day_indices": [
+      15
+    ],
+    "day15_audit": "in-progress",
+    "next_day_index": 15,
+    "completed_day_count": 14
+  },
+  "selection": [
+    {
+      "slot": "continuity",
+      "question": "以独立gate/geometry求f，加入共享背景与效率标定的Cov后，ADO误差与参考迁移是否改变？",
+      "next_action": "构造本run新计算单，不复用预习数值或checks",
+      "expected_gain": "把group response与背景/校准相关显式连接，明确下一实验输入",
+      "boundary": "没有真实145Tb原始count/逐台response/Σ；合成输入必须醒目标记"
+    },
+    {
+      "slot": "novelty",
+      "question": "独立GRIFFIN角关联方法如何验证mixed-event/finite geometry响应，哪些条件才能迁移到in-beam ADO？",
+      "next_action": "已发现arXiv1807.07570，先冻结针对性回忆再阅读；先完成Zheng本卡数值",
+      "expected_gain": "公开、独立装置的方法反证与companion，而非同数据重复采集",
+      "boundary": "文摘/搜索结果不作证据；不扩为无关62Ga新课题"
+    }
+  ],
+  "not_selected": [
+    {
+      "candidate": "Zheng2002 Fig1(a) 与正文偶极门3.2%内部一致性",
+      "decision": "作为anchor审计的有界子项，非新核素路线"
+    },
+    {
+      "candidate": "Zobel83/Ionescu81 Gaussian与feeding",
+      "decision": "旧source已覆盖，只调用必要反证，不重复旧算例"
+    },
+    {
+      "candidate": "193Bi/67Ga/128I/136Pr actual gate refit",
+      "decision": "actual data/Σ缺失，不填代理实验结果"
+    },
+    {
+      "candidate": "Day16 DCO sign",
+      "decision": "未预习；当前Day15路线有信息增益，正式学分只15"
+    }
+  ],
+  "source_reading": {
+    "zheng2002": {
+      "raw_sha256": "03044180a59fa5be55bcb6c517e9b87285c0991855afe5e1104e9dd03e9a7f23",
+      "pages_read": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "covered": [
+        "printed909动机/摘要",
+        "printed910 Eq1–5/矩阵横纵轴/组内近似",
+        "printed911 geometry/组效率/Fig1/正文",
+        "printed912 Fig2/总结/Refs1–3",
+        "printed913 English title/authors/abstract"
+      ],
+      "absent": [
+        "逐台energy-dependent效率",
+        "实际γγevents",
+        "count/背景/完整Cov",
+        "full joint pair响应"
+      ],
+      "new_boundary": "Fig1(a) plotted values below3.0 and slightly above1.5 at maximum do not visibly reproduce正文3.2%; no precise digitized substitute"
+    },
+    "griffin2018v1": {
+      "pages_read_text": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28
+      ],
+      "page_count": 28,
+      "sha256": "0390bdbb6b78f035d1d49abd4ecf863a684f3a8eb3ba6c537cfbd8fb6e352f33",
+      "reading_depth": "deep-read",
+      "published_doi_metadata": "10.1016/j.nima.2018.10.097",
+      "version_boundary": "2018 arxivv1 body,2019journal metadata; not assumed identical",
+      "visual_key_pdf_pages": [
+        6,
+        7,
+        10,
+        11,
+        14,
+        17
+      ],
+      "visual_appendix": "A.10–A.19 whole-page contact sheets; no precise covariance digitization"
+    }
+  },
+  "current_status": "Formal Day15 primed recall/Zheng mainline/new ADO Cov worksheet and GRIFFIN28-page-v1 source complete; six canonical pages mapped, required checks pass, explicit44-path checkpoint staged; goal/run active and credit not advanced",
+  "worksheet": {
+    "input_sha256": "e8e31f0691862296b62adffb34e6e5395d22ba6cdc59f629a00c71a89eeadf04",
+    "script": "system/scripts/day15_ado_covariance_worksheet.py",
+    "canonical": "knowledge/methods/ado-covariance-calibration.md",
+    "executed_exit": 0,
+    "figure_audits_exit": 0,
+    "figure_source_warnings": 4
+  },
+  "next_actions": [
+    "perform H3 non-force publication of checkpoint44 paths, preserve inherited log via isolated stage",
+    "derive exact mixed-event U-statistic covariance and partner-count floor with a degenerate counterexample, then independent MC/enumeration",
+    "inspect fixed small Zenodo software releases/license/geometry only if decision-relevant; no execution attested yet",
+    "refresh clock/candidate pool at next saturation; only a Day16 uncredited preview permitted, never Day17"
+  ]
+}

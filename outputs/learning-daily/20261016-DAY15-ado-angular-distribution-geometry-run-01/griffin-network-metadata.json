@@ -1,0 +1,38 @@
+{
+  "arxiv": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\n  \"title\": \"Gamma-gamma angular correlation analysis techniques with the GRIFFIN spectrometer\",\n  \"authors\": [\n    \"J. K. Smith\",\n    \"A. D. MacLean\",\n    \"W. Ashfield\",\n    \"A. Chester\",\n    \"A. B. Garnsworthy\",\n    \"C. E. Svensson\"\n  ],\n  \"year\": 2018,\n  \"arxiv_id\": \"1807.07570\",\n  \"categories\": [\n    \"physics.ins-det\",\n    \"nucl-ex\"\n  ],\n  \"abstract\": \"Gamma-gamma angular correlation measurements are a powerful tool for identifying the angular momentum (spin) of excited nuclear states involved in a $γ$-ray cascade, and for measuring the multipole orders and mixing ratios of transitions. Though the physical angular correlations are fully calculable from first principles, experimental effects can make the extraction of coefficients and thus conclusions about spins and mixing ratios difficult. In this article we present data analysis techniques developed for the clover detectors of the GRIFFIN spectrometer at TRIUMF-ISAC combined with GEANT4 simulations in order to extract accurate experimental results.\",\n  \"pdf_url\": \"https://arxiv.org/pdf/1807.07570v1\",\n  \"source\": \"arxiv\"\n}"
+      }
+    ],
+    "structuredContent": {
+      "result": "{\n  \"title\": \"Gamma-gamma angular correlation analysis techniques with the GRIFFIN spectrometer\",\n  \"authors\": [\n    \"J. K. Smith\",\n    \"A. D. MacLean\",\n    \"W. Ashfield\",\n    \"A. Chester\",\n    \"A. B. Garnsworthy\",\n    \"C. E. Svensson\"\n  ],\n  \"year\": 2018,\n  \"arxiv_id\": \"1807.07570\",\n  \"categories\": [\n    \"physics.ins-det\",\n    \"nucl-ex\"\n  ],\n  \"abstract\": \"Gamma-gamma angular correlation measurements are a powerful tool for identifying the angular momentum (spin) of excited nuclear states involved in a $γ$-ray cascade, and for measuring the multipole orders and mixing ratios of transitions. Though the physical angular correlations are fully calculable from first principles, experimental effects can make the extraction of coefficients and thus conclusions about spins and mixing ratios difficult. In this article we present data analysis techniques developed for the clover detectors of the GRIFFIN spectrometer at TRIUMF-ISAC combined with GEANT4 simulations in order to extract accurate experimental results.\",\n  \"pdf_url\": \"https://arxiv.org/pdf/1807.07570v1\",\n  \"source\": \"arxiv\"\n}"
+    },
+    "isError": false
+  },
+  "crossref_search": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\n  \"total\": 333056,\n  \"sources_queried\": [\n    \"crossref\"\n  ],\n  \"result_count\": 3,\n  \"results\": [\n    {\n      \"title\": \"Gamma–gamma angular correlation analysis techniques with the GRIFFIN spectrometer\",\n      \"authors\": [\n        \"J.K. Smith\",\n        \"A.D. MacLean\",\n        \"W. Ashfield\",\n        \"A. Chester\",\n        \"A.B. Garnsworthy\",\n        \"et al.\"\n      ],\n      \"year\": 2019,\n      \"doi\": \"10.1016/j.nima.2018.10.097\",\n      \"journal\": \"Nuclear Instruments and Methods in Physics Research Section A: Accelerators, Spectrometers, Detectors and Associated Equipment\",\n      \"source\": \"crossref\",\n      \"citation_count\": 28\n    },\n    {\n      \"title\": \"An integral-bias summing spectrometer for gamma-gamma coincidence and angular correlation studies\",\n      \"authors\": [\n        \"J. Kantele\",\n        \"R.W. Fink\"\n      ],\n      \"year\": 1962,\n      \"doi\": \"10.1016/0029-554x(62)90029-0\",\n      \"journal\": \"Nuclear Instruments and Methods\",\n      \"source\": \"crossref\",\n      \"citation_count\": 28\n    },\n    {\n      \"title\": \"Gamma-gamma-gamma angular correlation method and triple gamma angular correlation studies in 133Cs from the decay of 133Ba\",\n      \"authors\": [\n        \"U.S. Pande\",\n        \"B.P. Singh\"\n      ],\n      \"year\": 1971,\n      \"doi\": \"10.1016/0029-554x(71)90522-2\",\n      \"journal\": \"Nuclear Instruments and Methods\",\n      \"source\": \"crossref\",\n      \"citation_count\": 5\n    }\n  ],\n  \"errors\": null\n}"
+      }
+    ],
+    "structuredContent": {
+      "result": "{\n  \"total\": 333056,\n  \"sources_queried\": [\n    \"crossref\"\n  ],\n  \"result_count\": 3,\n  \"results\": [\n    {\n      \"title\": \"Gamma–gamma angular correlation analysis techniques with the GRIFFIN spectrometer\",\n      \"authors\": [\n        \"J.K. Smith\",\n        \"A.D. MacLean\",\n        \"W. Ashfield\",\n        \"A. Chester\",\n        \"A.B. Garnsworthy\",\n        \"et al.\"\n      ],\n      \"year\": 2019,\n      \"doi\": \"10.1016/j.nima.2018.10.097\",\n      \"journal\": \"Nuclear Instruments and Methods in Physics Research Section A: Accelerators, Spectrometers, Detectors and Associated Equipment\",\n      \"source\": \"crossref\",\n      \"citation_count\": 28\n    },\n    {\n      \"title\": \"An integral-bias summing spectrometer for gamma-gamma coincidence and angular correlation studies\",\n      \"authors\": [\n        \"J. Kantele\",\n        \"R.W. Fink\"\n      ],\n      \"year\": 1962,\n      \"doi\": \"10.1016/0029-554x(62)90029-0\",\n      \"journal\": \"Nuclear Instruments and Methods\",\n      \"source\": \"crossref\",\n      \"citation_count\": 28\n    },\n    {\n      \"title\": \"Gamma-gamma-gamma angular correlation method and triple gamma angular correlation studies in 133Cs from the decay of 133Ba\",\n      \"authors\": [\n        \"U.S. Pande\",\n        \"B.P. Singh\"\n      ],\n      \"year\": 1971,\n      \"doi\": \"10.1016/0029-554x(71)90522-2\",\n      \"journal\": \"Nuclear Instruments and Methods\",\n      \"source\": \"crossref\",\n      \"citation_count\": 5\n    }\n  ],\n  \"errors\": null\n}"
+    },
+    "isError": false
+  },
+  "published_metadata": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\n  \"title\": \"Gamma–gamma angular correlation analysis techniques with the GRIFFIN spectrometer\",\n  \"authors\": [\n    \"J.K. Smith\",\n    \"A.D. MacLean\",\n    \"W. Ashfield\",\n    \"A. Chester\",\n    \"A.B. Garnsworthy\",\n    \"C.E. Svensson\"\n  ],\n  \"year\": 2019,\n  \"doi\": \"10.1016/j.nima.2018.10.097\",\n  \"journal\": \"Nuclear Instruments and Methods in Physics Research Section A: Accelerators, Spectrometers, Detectors and Associated Equipment\",\n  \"source\": \"crossref\",\n  \"citation_count\": 28,\n  \"abstract\": \"\",\n  \"volume\": \"922\",\n  \"issue\": \"\",\n  \"pages\": \"47-63\",\n  \"publisher\": \"Elsevier BV\",\n  \"type\": \"journal-article\",\n  \"references_count\": 27,\n  \"url\": \"https://doi.org/10.1016/j.nima.2018.10.097\"\n}"
+      }
+    ],
+    "structuredContent": {
+      "result": "{\n  \"title\": \"Gamma–gamma angular correlation analysis techniques with the GRIFFIN spectrometer\",\n  \"authors\": [\n    \"J.K. Smith\",\n    \"A.D. MacLean\",\n    \"W. Ashfield\",\n    \"A. Chester\",\n    \"A.B. Garnsworthy\",\n    \"C.E. Svensson\"\n  ],\n  \"year\": 2019,\n  \"doi\": \"10.1016/j.nima.2018.10.097\",\n  \"journal\": \"Nuclear Instruments and Methods in Physics Research Section A: Accelerators, Spectrometers, Detectors and Associated Equipment\",\n  \"source\": \"crossref\",\n  \"citation_count\": 28,\n  \"abstract\": \"\",\n  \"volume\": \"922\",\n  \"issue\": \"\",\n  \"pages\": \"47-63\",\n  \"publisher\": \"Elsevier BV\",\n  \"type\": \"journal-article\",\n  \"references_count\": 27,\n  \"url\": \"https://doi.org/10.1016/j.nima.2018.10.097\"\n}"
+    },
+    "isError": false
+  }
+}

@@ -1,0 +1,56 @@
+[
+  {
+    "record_id": "1120421",
+    "url": "https://zenodo.org/api/records/1120421",
+    "http_status": 200,
+    "title": "GRIFFINCollaboration/Geant4GammaGammaAngularCorrelations10.01.p01: First production release",
+    "version": "v1.0",
+    "publication_date": "2017-12-20",
+    "license": {
+      "id": "other-open"
+    },
+    "doi": "10.5281/zenodo.1120421",
+    "related_identifiers": [
+      {
+        "identifier": "https://github.com/GRIFFINCollaboration/Geant4GammaGammaAngularCorrelations10.01.p01/tree/v1.0",
+        "relation": "isSupplementTo",
+        "scheme": "url"
+      }
+    ],
+    "files": [
+      {
+        "key": "GRIFFINCollaboration/Geant4GammaGammaAngularCorrelations10.01.p01-v1.0.zip",
+        "size": 1686410,
+        "checksum": "md5:03688894306b8ec8174310d247e43678",
+        "download_url": "https://zenodo.org/api/records/1120421/files/GRIFFINCollaboration/Geant4GammaGammaAngularCorrelations10.01.p01-v1.0.zip/content"
+      }
+    ]
+  },
+  {
+    "record_id": "1123461",
+    "url": "https://zenodo.org/api/records/1123461",
+    "http_status": 200,
+    "title": "GRIFFINCollaboration/detectorSimulations_v10: First production release",
+    "version": "v1.0.0",
+    "publication_date": "2017-12-21",
+    "license": {
+      "id": "other-open"
+    },
+    "doi": "10.5281/zenodo.1123461",
+    "related_identifiers": [
+      {
+        "identifier": "https://github.com/GRIFFINCollaboration/detectorSimulations_v10/tree/v1.0.0",
+        "relation": "isSupplementTo",
+        "scheme": "url"
+      }
+    ],
+    "files": [
+      {
+        "key": "GRIFFINCollaboration/detectorSimulations_v10-v1.0.0.zip",
+        "size": 2806289,
+        "checksum": "md5:21297dc5d072b1d45b70dd50bc25532f",
+        "download_url": "https://zenodo.org/api/records/1123461/files/GRIFFINCollaboration/detectorSimulations_v10-v1.0.0.zip/content"
+      }
+    ]
+  }
+]

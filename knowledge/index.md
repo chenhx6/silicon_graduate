@@ -9,6 +9,8 @@ updated: 2026-10-16
 
 ## Sources
 
+- [[smith-2019-griffin-angular-correlation-analysis]] - GRIFFIN的event-mixing/finite-response实验校验、正Z基函数与Cov/多spin边界；实际读2018v1，2019VoR未取得。
+
 - [[nndc-2015-128i-selected-level-gamma-records]] - 2015选定128I低位/反应/capture对象，102/15.6位置与ICC绑定冲突、评价误差及谱系边界，不代原实验。
 
 - [[wang-2010-128i-new-high-spin-level-scheme]] - 128I低能triplet的逐门身份、Channel轴与48/72口径；和thesis按依赖谱系，14%/10%版本及实际响应缺口保留。
@@ -465,6 +467,7 @@ updated: 2026-10-16
 - [[recoil-distance-doppler-shift]] - RDDS/coincidence-plunger 的 DDCM `τ(x)`、feeding/deorientation control 与 finite-stopping boundary。
 - [[doppler-shift-attenuation-method]] - Doppler-broadened line-shape lifetimes、stopping-power/side-feeding systematics and limit semantics。
 - [[angular-distribution]] - 完整角分布与 ADO ratio 的阵列特定 multipolarity calibration；可与偏振联合使用。
+- [[ado-covariance-calibration]] - ADO的独立本征参考/gate几何两路校验、共享背景和效率latent Cov；自设数值与实际joint响应分层。
 - [[gamma-gamma-coincidence]] - 建立级联与能级纲图。
 - [[level-scheme-reconstruction]] - 从谱峰、符合、能量和到逐线 multipolarity/Jπ 的证据审计；保留复合峰、共享数据和未知绝对能级边界。
 - [[angular-correlation]] - γ/particle-γ angular correlation 的 alignment、multipolarity 与 deorientation correction 入口。

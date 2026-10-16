@@ -115,6 +115,8 @@ A_g=\sum_{i\in g}a_i,\quad
 
 仅改变自设效率比与参考比相关系数 `ρ=−.8/0/+.8`，`σf` 分别为 `.026508/.040057/.050065`。共享 events、峰拟合/背景、效率与参考共用的校准数据会破坏独立假设；原文 Fig1 的最大计算偏离 `5.2%/3.2%` 不是完整实验 uncertainty 或本练习的 `σf`（Z02-7）。
 
+Day15正式运行另建[[ado-covariance-calibration]]“两路f校验与共享校准协方差”：新的自设gross/背景计数给R=1.090909，gate/geometry与独立本征参考分别给f=.969076/.974026；共享背景与效率latent Cov使修正本征角比的sigma为.026480，而全标量独立反事实为.032201。完整输入/hash、解析梯度、pair-sum/共同scale和MC控制已保存，不复用上述预习数字或给旧脚本加学分。Z02-10另保留本次原件复核发现的Fig1(a)与正文偶极门3.2%不一致边界。
+
 ### 角度采样与Day14的条件桥
 
 等权 `32°/58°/90°` 的 `ΣP2=0`、`ΣP4≈−.01712974`。本任务推得 `31.7175°/58.2825°/90°` 可使两者同时为零；这依赖等权及只考虑K2/K4，作者未声明该阵列据此设计。实际 gate 效率不等、角相关、finite acceptance 或 higher ranks 均需另核。
@@ -132,6 +134,8 @@ Z02-8明确2002方法文用 Ref3 的 `145Tb` 实验数据，DOI `10.1007/s100500
 [[angular-correlation]]“条件γγ响应：各向同性marginal仍可有角关联”在RB67-3与Z02-9基础上给出35-check独立toy：pure E2的两个singleγ均isotropic，但自设12方向pair响应给R=.729470，Eq4分离组公式给1。无self-exclusion的ring gate也产生非1条件比，因此self-exclusion与角关联是两项不同的依赖。只平衡ΣP2/P4的极角不保证消去q=±4方位项；真实response须有逐pair acceptance。
 
 [[rose-brink-1967-phase-defined-angular-distributions]] RB67-3对应printed326/PDF21 Eq3.73；[[zheng-2002-ado-coincidence-angular-anisotropy]] Z02-9对应printed910/PDF2 Eq2。这个结果限定公式迁移，并不重估Zheng或Herzáň的实验误差。共同energy gate仍可能因same-detector/pair/Compton cut而给target-dependent gate effect；原point outer set的common-selection条件应通过实际响应核验。
+
+Day15另读独立[[smith-2019-griffin-angular-correlation-analysis]] SG19-3/5/6/12：GRIFFIN的same-data效率处理实测对照与已知cascade表明，event mixing先归一匹配的效率权重，仍需finite-response模板；其random-source/DAQ/initial alignment条件不自动适用于in-beam ADO。详见[[angular-correlation]]“事件混合：效率归一之后仍有有限响应”。
 
 ## Zobel1983：同parent反应条件与Gaussian诊断
 

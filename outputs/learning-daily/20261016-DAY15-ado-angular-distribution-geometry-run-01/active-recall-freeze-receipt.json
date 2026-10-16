@@ -1,0 +1,9 @@
+{
+  "frozen_at": "2026-10-16T22:17:56.981021+08:00",
+  "session_id": "01a14510-aec7-7e00-aa23-f7c77a5124bc",
+  "resume_command": "codex resume 01a14510-aec7-7e00-aa23-f7c77a5124bc -C /workspace/wiki -s danger-full-access -a never",
+  "sha256": "91eee8abb4bce71d0447617b1d5cb0d64240259115b9522a012963872cb25c67",
+  "primed": true,
+  "source_opened_before_freeze": false,
+  "scope": "prompt/startup summary exposed; no science source/raw or Day14 detailed report"
+}

@@ -1,0 +1,70 @@
+[
+  {
+    "kind": "arxiv-history",
+    "url": "https://arxiv.org/abs/1807.07570",
+    "status_code": 200,
+    "content_type": "text/html; charset=utf-8",
+    "submission_history": "Submission history From: Adam Garnsworthy [ view email ] [v1] Thu, 19 Jul 2018 15:27:33 UTC (1,233 KB)",
+    "journal_ref": "Subjects: Instrumentation and Detectors (physics.ins-det) ; Nuclear Experiment (nucl-ex) Cite as: arXiv:1807.07570 [physics.ins-det] (or arXiv:1807.07570v1 [physics.ins-det] for this version) https://doi.org/10.48550/arXiv.1807.07570 Focus to learn more arXiv-issued DOI via DataCite Related DOI : https://doi.org/10.1016/j.nima.2018.10.097 Focus to learn more DOI(s) linking to related resources"
+  },
+  {
+    "kind": "crossref-link",
+    "url": "https://api.crossref.org/works/10.1016/j.nima.2018.10.097",
+    "status_code": 200,
+    "content_type": "application/json",
+    "links": [
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S0168900218314116?httpAccept=text/xml",
+        "content-type": "text/xml",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S0168900218314116?httpAccept=text/plain",
+        "content-type": "text/plain",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      }
+    ],
+    "resource": {
+      "primary": {
+        "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0168900218314116"
+      }
+    },
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2019,
+              4,
+              1
+            ]
+          ],
+          "date-time": "2019-04-01T00:00:00Z",
+          "timestamp": 1554076800000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2019,
+              4,
+              1
+            ]
+          ],
+          "date-time": "2019-04-01T00:00:00Z",
+          "timestamp": 1554076800000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/legal/tdmrep-license"
+      }
+    ],
+    "relation": {}
+  }
+]

@@ -1,0 +1,71 @@
+{
+  "checkpoint": "001",
+  "subject": "Establish DAY15 ADO covariance and independent response evidence",
+  "branch": "main",
+  "paths": [
+    "knowledge/index.md",
+    "knowledge/methods/angular-distribution.md",
+    "knowledge/methods/angular-correlation.md",
+    "knowledge/methods/ado-covariance-calibration.md",
+    "knowledge/sources/zheng-2002-ado-coincidence-angular-anisotropy.md",
+    "knowledge/sources/smith-2019-griffin-angular-correlation-analysis.md",
+    "system/scripts/day15_ado_covariance_worksheet.py",
+    "system/handoff.md",
+    "system/log.md",
+    "outputs/learning-daily/20261016-DAY15-ado-angular-distribution-geometry.md",
+    "outputs/literature-acquisition/20261016-day15-smith-griffin.json",
+    "outputs/learning-daily/20261016-DAY15-ado-angular-distribution-geometry-run-01/prompt.md",
+    "outputs/learning-daily/20261016-DAY15-ado-angular-distribution-geometry-run-01/run.json",
+    "outputs/learning-daily/20261016-DAY15-ado-angular-distribution-geometry-run-01/active-recall-frozen.md",
+    "outputs/learning-daily/20261016-DAY15-ado-angular-distribution-geometry-run-01/active-recall-freeze-receipt.json",
+    "outputs/learning-daily/20261016-DAY15-ado-angular-distribution-geometry-run-01/baseline-before-write.json",
+    "outputs/learning-daily/20261016-DAY15-ado-angular-distribution-geometry-run-01/preflight-start.json",
+    "outputs/learning-daily/20261016-DAY15-ado-angular-distribution-geometry-run-01/network-discovery-001.json",
+    "outputs/learning-daily/20261016-DAY15-ado-angular-distribution-geometry-run-01/griffin-before-source-frozen.md",
+    "outputs/learning-daily/20261016-DAY15-ado-angular-distribution-geometry-run-01/griffin-recall-freeze.json",
+    "outputs/learning-daily/20261016-DAY15-ado-angular-distribution-geometry-run-01/griffin-network-metadata.json",
+    "outputs/learning-daily/20261016-DAY15-ado-angular-distribution-geometry-run-01/griffin-version-discovery.json",
+    "outputs/learning-daily/20261016-DAY15-ado-angular-distribution-geometry-run-01/griffin-official-version-access.json",
+    "outputs/learning-daily/20261016-DAY15-ado-angular-distribution-geometry-run-01/griffin-software-release-discovery.json",
+    "outputs/learning-daily/20261016-DAY15-ado-angular-distribution-geometry-run-01/ado-worksheet-input.json",
+    "outputs/learning-daily/20261016-DAY15-ado-angular-distribution-geometry-run-01/ado-covariance-worksheet.json",
+    "outputs/learning-daily/20261016-DAY15-ado-angular-distribution-geometry-run-01/ado-efficiency-sensitivity.csv",
+    "outputs/learning-daily/20261016-DAY15-ado-angular-distribution-geometry-run-01/ado-background-covariance-sensitivity.csv",
+    "outputs/learning-daily/20261016-DAY15-ado-angular-distribution-geometry-run-01/figure-contract.json",
+    "outputs/learning-daily/20261016-DAY15-ado-angular-distribution-geometry-run-01/figure-backend.json",
+    "outputs/learning-daily/20261016-DAY15-ado-angular-distribution-geometry-run-01/ado-covariance-sensitivity.svg",
+    "outputs/learning-daily/20261016-DAY15-ado-angular-distribution-geometry-run-01/ado-covariance-sensitivity.pdf",
+    "outputs/learning-daily/20261016-DAY15-ado-angular-distribution-geometry-run-01/ado-covariance-sensitivity.png",
+    "outputs/learning-daily/20261016-DAY15-ado-angular-distribution-geometry-run-01/ado-covariance-sensitivity.alignment.json",
+    "outputs/learning-daily/20261016-DAY15-ado-angular-distribution-geometry-run-01/ado-covariance-sensitivity.collision-audit.json",
+    "outputs/learning-daily/20261016-DAY15-ado-angular-distribution-geometry-run-01/figure-qa.json",
+    "outputs/learning-daily/20261016-DAY15-ado-angular-distribution-geometry-run-01/research-checkpoint.json",
+    "outputs/learning-daily/20261016-DAY15-ado-angular-distribution-geometry-run-01/continuation.md",
+    "outputs/learning-daily/20261016-DAY15-ado-angular-distribution-geometry-run-01/mixed-event-before-analysis-frozen.md",
+    "outputs/learning-daily/20261016-DAY15-ado-angular-distribution-geometry-run-01/runner-contract-checkpoint-001.json",
+    "outputs/learning-daily/20261016-DAY15-ado-angular-distribution-geometry-run-01/prepublication-checks-001.json",
+    "outputs/learning-daily/20261016-DAY15-ado-angular-distribution-geometry-run-01/prepublication-checks-002.json",
+    "outputs/learning-daily/20261016-DAY15-ado-angular-distribution-geometry-run-01/task-log-entry-001.txt",
+    "outputs/learning-daily/20261016-DAY15-ado-angular-distribution-geometry-run-01/publication-manifest-001.json"
+  ],
+  "special_staging": {
+    "system/log.md": "HEAD content plus only the new Day15 task entry; inherited log worktree content preserved"
+  },
+  "excluded": [
+    "raw/",
+    "PLAN.md",
+    "raw/zotero/wiki-inbox.bib",
+    "credentials",
+    "tmp/",
+    "inherited Day6–9/Day13/Day14 receipts and daemon changes",
+    "events/stderr and large transient check logs"
+  ],
+  "course_credit": "not advanced; checkpoint only, goal/run remain active",
+  "gitignore_exceptions": {
+    "paths": [
+      "outputs/learning-daily/20261016-DAY15-ado-angular-distribution-geometry-run-01/ado-covariance-sensitivity.pdf",
+      "outputs/learning-daily/20261016-DAY15-ado-angular-distribution-geometry-run-01/ado-covariance-sensitivity.png"
+    ],
+    "reason": "Only self-generated report figure PDF/PNG; actual source PDFs/raw remain excluded; no gitignore/config change"
+  }
+}

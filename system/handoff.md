@@ -6,7 +6,17 @@ updated: 2026-10-16
 
 # 跨会话交接
 
-## Active handoff — DAY14 completed after authorized extension
+## Active handoff — DAY15 continuous study in progress
+
+Run2026-10-16-day-15-01/session01a14510-aec7-7e00-aa23-f7c77a5124bc已正式启动，原研究截止2026-10-17 15:00上海、15–16收束。Goal/run仍active；course基线next15/count14，completed[]/partial[15]，尚不授Day15，不开Day16/17。本检查点不是整段学习结束。
+
+22:17先冻结本session primed回忆/hash，再视觉重读Zheng5页。正式新ADO工作单已保存完整chosen输入/hash、共享背景/效率latent Cov、R=1.090909、fgeo=.969076、独立参考f=.974026、解析/pair/scale/MC与SVG/PDF；canonical为knowledge/methods/ado-covariance-calibration.md。Zheng新增Z02-10保留Fig1(a)与正文3.2%图文边界，旧review flags未改。独立GRIFFIN全文28页和关键图表已读，source为smith-2019-griffin-angular-correlation-analysis，实际2018v1；VoR正文单次官方XMLConnectionError，不归罪期刊版。新公开PDF按逐文件hash验证进入raw/papers/gpt/day15，不纳Git；source/knowledge及acquisition manifest保存版本/Cov/多spin边界。
+
+本次脚本/图检查已过；lint首轮6个本次method schema/wikilink错误已修复，复跑exit0/0error/145warning（新增GRIFFIN source后fresh lint exit0/0error/146warning）；boundary/diff此前exit0。报告唯一writeback/逐卡审计、course暂不推进；检查点稳定指针：main / `Establish DAY15 ADO covariance and independent response evidence`；H3/push实际结果只写run receipt。下一项当前问题为mixed-partner复用的event-level covariance与模板/归一合同；仍有充足原窗口，不能因来源完成提前结束。
+
+Resume `codex resume 01a14510-aec7-7e00-aa23-f7c77a5124bc -C /workspace/wiki -s danger-full-access -a never`。保存入口dirty baseline；继承Day6–9/Day13/14 receipts、旧log、daemon、PLAN/Bib/credentials不stage。只按Day15显式manifest/H3非force发布，不改原raw/审核范围。
+
+## Previous active handoff — DAY14 completed after authorized extension
 
 Day15入口已按用户要求去重整理：仅保留`outputs/learning-daily/prompts/20261016-DAY15-ado-angular-distribution-geometry.md`，旧15日模板从工作树移除，Git历史保留。课程仍next15/count14，Day15未启动；当日补跑命令与dry-run证明见`outputs/learning-daily/prompt-maintenance/20261016-day15-consolidation.json`。本次只整理入口，不重开Day14或启动Day15。整理发布指针：main / `Consolidate DAY15 into one launch-ready prompt`；精确hash和push结果仅该整理回执。
 

@@ -1,0 +1,34 @@
+{
+  "question": "在相同中心值下，效率比偏移和共享背景/校准Cov怎样改变ADO角比及其误差？",
+  "conclusion": "自设示例中效率比控制中心角比；共享背景与共同效率mode改变传播误差，不能用独立假设替代未知实验Σ。",
+  "backend": "python",
+  "backend_reason": "本任务遵循仓库Python3统一脚本要求，使用该语言实现计算及matplotlib绘图；偏好仅保存本run内",
+  "archetype": "quantitative grid",
+  "panels": {
+    "a": "efficiency-ratio sensitivity of measured R and geometry-corrected r",
+    "b": "standard uncertainty of r across chosen background-estimator correlations, with diagonal-only comparison"
+  },
+  "size_mm": [
+    183,
+    78
+  ],
+  "exports": [
+    "pdf",
+    "svg",
+    "png"
+  ],
+  "data_integrity": "all synthetic inputs explicit; no experimental points or omitted rows",
+  "uncertainty": "first-order propagated standard uncertainty; Monte Carlo model control, not experimental CI",
+  "checks": [
+    "analytic gradient vs finite differences",
+    "PSD covariance",
+    "independent detector-pair sum and common-scale invariance",
+    "Monte Carlo agreement",
+    "rendered panel alignment, glyph and collision audit"
+  ],
+  "review_risks": [
+    "source Eq4 separability is a chosen approximation",
+    "empirical reference is independent additional input",
+    "no actual events/full response/Cov; cannot assign real multipolarity"
+  ]
+}

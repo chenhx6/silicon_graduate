@@ -1,0 +1,7 @@
+{
+  "url": "https://api.elsevier.com/content/article/PII:S0168900218314116?httpAccept=text/xml",
+  "purpose": "one bounded official VoR comparison via Crossref-deposited TDM link; no key/cookies used",
+  "attempts": 1,
+  "exception": "ConnectionError",
+  "boundary": "bounded access failed; no unchanged retry"
+}
