@@ -1,0 +1,153 @@
+{
+  "type": "prompt-maintenance-receipt",
+  "at": "2026-10-16T22:11:02.928783+08:00",
+  "request": "Consolidate DAY15 to one final prompt and provide launch command; do not launch learning",
+  "base_head": "e4f199e1b68bbe01364b628015fc9ffb573798ba",
+  "baseline": {
+    "at": "2026-10-16T22:09:05.394501+08:00",
+    "head": "e4f199e1b68bbe01364b628015fc9ffb573798ba",
+    "status_porcelain": " M outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/completion-audit.json\n M outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/progress.jsonl\n M outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/research-checkpoint.json\n M outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/run.json\n M outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/schedule-resume-process.log\n M outputs/learning-daily/20261008-DAY9-be2-bm1-reduced-matrix-elements-strengths-run-01/run.json\n M outputs/learning-daily/20261008-clock-reminder-delivery-fix-run-01/repair-receipt.json\n M outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity-run-01/run.json\n M outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/run.json\n M system/log.md\n M system/scripts/run_daily_learning_daemon.py\n",
+    "protected_hashes": {
+      "PLAN.md": "7122f62bd951a9c30cddff25fece14a1282748489e2feef1154bb7b7c75aa2f8",
+      "raw/zotero/wiki-inbox.bib": "037ea133de204270ad36961ca66b3ab36c0913b7d472b45f8fd013c8293be5be",
+      "outputs/learning-milestones/2026-09-one-month-state.json": "4c0baa613ffff093613ca95073c2e831c4f4c7ba869f422c04717110e1898df6",
+      "outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/run.json": "c6ee661fbc0839dedb40377ac6fe22cde5be8c15acc684378a48c7770576df16",
+      "system/log.md": "6dc5d964281e6e7127a3e9ed704d6f0f073e026adcb7ced7daa7f90c33f36d45",
+      "system/scripts/run_daily_learning_daemon.py": "3445149ca85077489aefb40d600214c9c4ef54a71668f82ab8be02fb94d390b2"
+    },
+    "owned_before": {
+      "outputs/learning-daily/prompts/20261015-DAY15-ado-angular-distribution-geometry.md": {
+        "sha256": "69824ba81072e272bc482c0fef04c010e29c368f3b56fd9d3bcd5d286820cfa4",
+        "lines": 408
+      },
+      "outputs/learning-daily/prompts/20261016-DAY15-ado-angular-distribution-geometry.md": {
+        "sha256": "af547b7e7491a902e62cf000274652305b7c1e9ff0e6619626bb54866403af31",
+        "lines": 412
+      },
+      "system/handoff.md": {
+        "sha256": "78b49b7202999faf8ab9a0f63ac21b78f351bde580e53559e427fed885504fc1",
+        "lines": 525
+      }
+    },
+    "initial_DAY15_run_dirs": []
+  },
+  "final_prompt": "outputs/learning-daily/prompts/20261016-DAY15-ado-angular-distribution-geometry.md",
+  "final_prompt_sha256": "3f6d726904349b045304aa3716818d300b095c7c536d0a9e9ab0368d88075c9c",
+  "before_final_lines": 412,
+  "after_final_lines": 307,
+  "removed_prompt": "outputs/learning-daily/prompts/20261015-DAY15-ado-angular-distribution-geometry.md",
+  "history_policy": "Old prompt remains recoverable in Git; historical publication receipts and completed Day14 report/check snapshots are preserved",
+  "runtime_context": "run_id/output_dir/deadline injected by runner; exact date/day checked by launcher",
+  "curriculum": "Only formalDay15 credit allowed; Day16 only uncreditedpreview; Day17 not opened",
+  "priming": "Day14 details replaced by grouped canonical index; new-session recall must be frozen before detailed prior reading",
+  "launch_command": [
+    "./system/scripts/run_daily_learning_at.sh",
+    "--at",
+    "2026-10-16 16:00",
+    "--prompt-file",
+    "outputs/learning-daily/prompts/20261016-DAY15-ado-angular-distribution-geometry.md",
+    "--day-index",
+    "15",
+    "--run-now"
+  ],
+  "launcher_dry_run": {
+    "exit_code": 0,
+    "result": {
+      "status": "dry-run-ok",
+      "now": "2026-10-16T22:11:02.895112+08:00",
+      "target": "2026-10-16T16:00:00+08:00",
+      "timezone": "Asia/Shanghai",
+      "run_date": "2026-10-16",
+      "day_index": 15,
+      "prompt_file": "/workspace/wiki/outputs/learning-daily/prompts/20261016-DAY15-ado-angular-distribution-geometry.md",
+      "daemon_lock": "/tmp/wiki-one-month-daily-learning-daemon.lock",
+      "would_run_now": true,
+      "runner_commands": [
+        [
+          "/opt/venv/bin/python3",
+          "/workspace/wiki/system/scripts/run_daily_learning.py",
+          "--root",
+          "/workspace/wiki",
+          "--day-index",
+          "15",
+          "--mode",
+          "daily-learning",
+          "--model",
+          "gpt-6.1-sol",
+          "--reasoning-effort",
+          "max",
+          "--prompt-file",
+          "/workspace/wiki/outputs/learning-daily/prompts/20261016-DAY15-ado-angular-distribution-geometry.md",
+          "--max-continuations",
+          "96"
+        ],
+        [
+          "/opt/venv/bin/python3",
+          "/workspace/wiki/system/scripts/run_daily_learning.py",
+          "--root",
+          "/workspace/wiki",
+          "--day-index",
+          "15",
+          "--mode",
+          "daily-learning",
+          "--model",
+          "gpt-6.1-sol",
+          "--reasoning-effort",
+          "xhigh",
+          "--prompt-file",
+          "/workspace/wiki/outputs/learning-daily/prompts/20261016-DAY15-ado-angular-distribution-geometry.md",
+          "--max-continuations",
+          "96"
+        ],
+        [
+          "/opt/venv/bin/python3",
+          "/workspace/wiki/system/scripts/run_daily_learning.py",
+          "--root",
+          "/workspace/wiki",
+          "--day-index",
+          "15",
+          "--mode",
+          "daily-learning",
+          "--model",
+          "gpt-6-astra",
+          "--reasoning-effort",
+          "high",
+          "--prompt-file",
+          "/workspace/wiki/outputs/learning-daily/prompts/20261016-DAY15-ado-angular-distribution-geometry.md",
+          "--max-continuations",
+          "96"
+        ]
+      ]
+    }
+  },
+  "learning_started": false,
+  "new_session_created": false,
+  "DAY15_run_dirs": [],
+  "knowledge_changed": false,
+  "course_state_changed": false,
+  "protected_hashes_unchanged": true,
+  "inherited_files_preserved": true,
+  "explicit_publication_paths": [
+    "outputs/learning-daily/prompts/20261015-DAY15-ado-angular-distribution-geometry.md",
+    "outputs/learning-daily/prompts/20261016-DAY15-ado-angular-distribution-geometry.md",
+    "system/handoff.md",
+    "outputs/learning-daily/prompt-maintenance/20261016-day15-consolidation.json"
+  ],
+  "checks": {
+    "boundary": {
+      "exit_code": 0
+    },
+    "lint": {
+      "exit_code": 0,
+      "summary": "SUMMARY pages=604 wikilinks=6166 hashes=281 errors=0 warnings=145 info=1998"
+    },
+    "diff": {
+      "exit_code": 0
+    },
+    "relative_links": {
+      "broken": []
+    },
+    "eol_exit_code": 0
+  },
+  "publication_subject": "Consolidate DAY15 into one launch-ready prompt"
+}

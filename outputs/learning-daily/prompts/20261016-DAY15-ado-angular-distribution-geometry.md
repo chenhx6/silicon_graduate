@@ -18,7 +18,7 @@ scientific evidence.
 
 ## Run context
 
-- `run_id`: prompt-2026-10-16-day-15
+- `run_id`: {{RUN_ID}}
 - `run_date`: 2026-10-16
 - `timezone`: Asia/Shanghai
 - `day_index`: 15
@@ -26,8 +26,8 @@ scientific evidence.
 - `phase`: angular-correlation-polarization-and-mixing-ratio
 - `schedule_id`: wiki-daily-learning
 - `schedule_name`: Wiki 30-day substantive daily learning
-- `window_closeout_at`: 2026-10-17T15:00:00+08:00
-- `output_dir`: assigned by runner at launch; use the actual run receipt
+- `window_closeout_at`: {{WINDOW_CLOSEOUT_AT}}
+- `output_dir`: {{OUTPUT_DIR}}
 - `state_file`: /workspace/wiki/outputs/learning-milestones/2026-09-one-month-state.json
 
 ## Study window and closeout
@@ -72,23 +72,21 @@ Asia/Shanghai and compare with the original receipt's overnight_until.
   failure remains an immediate hard stop. Never auto-restart after a user stop.
 
 <!-- DAILY_LEARNING_CURRICULUM_COVERAGE_V1 -->
-For any substantive daily report, include these exact lines under ## Run state:
+## Day15 curriculum coverage
 
-- completed_day_indices: [N, ...]
-- partial_day_indices: [N, ...]
+本run只可取得Day15正式学分。真正完成后，在`## Run state`中写：
 
-List completed cards contiguously beginning with the requested day. A partially
-previewed card goes only in partial_day_indices and receives no course credit. One run
-may fully complete its requested card plus the immediately following card. Day 7 credit
-requires a `- Day 7 card audit: complete` line and a `### Day 7 card completion audit`
-table with at least four completed deliverables and exact evidence locators; it also
-requires a six-row scorecard (0–4 in each row) and a non-empty weekly REFLECT;
-when complete, include the audit lines “- Day 7 scorecard: complete” and
-“- Day 7 weekly REFLECT: complete”. Keep the report's single knowledge-writeback block.
-For every other completed card, include `- Day N card audit: complete` under Run state
-and a `### Day N card completion audit` table that maps at least four Day-matrix
-deliverables to evidence/artifacts, with every row marked `complete`. A preview may not
-claim this audit or advance the curriculum state.
+- completed_day_indices: [15]
+- partial_day_indices: []
+- Day 15 card audit: complete
+
+若实际预习了Day16，第二行改为`- partial_day_indices: [16]`；Day16不列completed，
+课程`next_day_index`不得越过16，不打开Day17。未完成Day15则如实记录partial/停止原因，
+不预填完成标记、不推进学分。
+
+日报须有`### Day 15 card completion audit`表，将至少四项本卡交付映射至精确证据与
+artifact，每行均为`complete`才可计卡；保留唯一knowledge-writeback块。
+Day14的partial15、成绩、脚本检查数量和已完成知识都不能直接换成本run的学分。
 
 ## Non-negotiable boundaries
 
@@ -171,8 +169,7 @@ existing review status. Update the active handoff only with a concise recoverabl
 
 `## Durable knowledge delta` is a hard acceptance section. It must name at least one
 concrete artifact path and describe what reusable evidence, matrix row, calculation,
-question revision or verified no-op was produced. For Day 1, the thesis evidence matrix
-path is `knowledge/projects/a130-thesis-evidence-matrix.md`; future durable knowledge
+question revision or verified no-op was produced. Durable knowledge
 deltas must be written under the appropriate `knowledge/` source, project, synthesis,
 question, matrix or research-note page. A report, plan or run receipt in `outputs/`
 cannot be the only copy of reusable knowledge; list the canonical `knowledge/` path
@@ -193,17 +190,13 @@ optional `note`; never concatenate them into `locator`:
   "status": "updated",
   "items": [
     {
-      "knowledge": "knowledge/projects/a130-thesis-evidence-matrix.md",
-      "summary": "Added the Day 1 evidence row.",
-      "anchor": "哪些 A≈130 能级、跃迁和模式解释已经有可复核的观测支撑",
+      "knowledge": "knowledge/methods/angular-distribution.md",
+      "summary": "记录本run实际新增的ADO定义核验或误差分析。",
+      "anchor": "原式的方向与组效率",
       "sources": [
         {
-          "path": "knowledge/sources/ding-2012-phd-thesis-127-128i-high-spin.md",
-          "locator": "DING12-1"
-        },
-        {
-          "path": "knowledge/sources/ding-2012-phd-thesis-127-128i-high-spin.md",
-          "locator": "DING12-2"
+          "path": "knowledge/sources/zheng-2002-ado-coincidence-angular-anisotropy.md",
+          "locator": "Z02-6"
         }
       ]
     }
@@ -211,6 +204,9 @@ optional `note`; never concatenate them into `locator`:
 }
 ```
 ````
+
+以上仅为格式示例；实际anchor/summary必须对应本run的真实增量，不能复制旧条目充数。
+若已覆盖而无合理增量，核验知识与source后写`verified-no-op`及理由。
 
 Do not claim `updated` while only editing the report; the runner compares a
 knowledge Markdown snapshot taken before the model turn with the post-run tree.
@@ -253,160 +249,59 @@ publication gate and do not ask for separate routine approval.
 If evidence is insufficient, stop explicitly with the missing input, why it matters,
 and the highest-information next route. Do not fill the gap with memory or invented data.
 
-
-## Day15 正式开课与Day14 priming边界
-
-Day14已经正式复核Herzáň的阵列特定Rexp、a(E)/Q(E)和shared-doublet限制。若有下一卡知识预习，只属于Day14运行的partial15，不作为本Day15的学分或盲测成绩。正式Day15先保存自己的来源前主动回忆，标明priming，再按daily-task-matrix执行该卡；本prompt只准备下一次新session入口，不创建session或计卡。课程状态和实际run回执为准。
-
-Day14后续已经在partial15中视觉读Zheng2002全文5页，完成28-check ADO额外输入/self-exclusion/误差图；另有shared-POL70、conditional γγ35和order51的条件推导，canonical位于angular-distribution、angular-correlation与相关source/method。正式Day15必须将这些预暴露标为priming，保存自身原答后再重新核原式和逐项交付；本入口不创建session或预给信用。
-
-计算单需区分R_ADO与f_ADO：只有两角计数与target效率比能识别R，求f还需独立本征ratio或gate/geometry输入，不能以循环定义f=1完成卡。所有自设counts、效率、covariance必须注明；Z02-6/9的组近似、joint response、finite acceptance、alignment/feeding应核到对应canonical source locator。
-
-Day14后续partial15还阅读Zobel1983全部六页并核67Ga同parent十个published coefficient rows，完成38-check条件Gaussian/Cov/feeding/c坐标计算及图。这是priming；原sourceJul08人审继承范围不扩至本run新11–14或model，FormalDay15须保存自己的原答和逐卡核验。
-
-Day14 partial15还完成26-check sourcegeometry上的chosenCov-design（unknownF normalization、GLS/J/Fisher/Schur、same-marginals与monitor控制）。它没有恢复Zobel实际Cov或GF；正式Day15的回忆/审计须标priming，保持publishedfact与chosenerror-model分层。
-
-
-Day14 partial15还完成17-check coefficient convention练习：β拟合/归一Aexp/c最大取向参考/核alpha分别建模，Cov线性变换可能翻转rho且保持联合距离，语义错代入仍可归一和全域正。Canonical为angular-distribution-coefficient；它是正式Day15主动回忆的priming，不是已计卡或新的实验Cov。
-
-
-Day14 partial15已视觉核Zobel1980全9页、完成23-check Appendix字面/规范Cov与joint coverage控制。Z80-14–19 true保留A2/A3/A6公式边界、A5的Q/2约定、单行变量cross-check/Ref9依赖/GNOMON缺口；没有officialerratum、source实测Cov或新采集。正式Day15回忆须标这些预暴露的priming，旧Jul08人审范围不扩。
-
-
-Day14 partial15另有40-check同parent正布居moment hull/LP/Farkas与unknownCov敏感性。Source11.3中央值的条件不可行不等于实验排除，其余10个mean的witness也非实测布居；正式Day15须标这些priming，核固定spin/reference/purity/response后再解释α或σ/I。1979原文尚未取得，只metadata/readiness（Z80-20），不继承新的实测δ误差或independentdata。
-
-
-Day14 partial15还核4个67Ga ENSDF对象，38-check真实field/parent/time/RI/finiteMR/条件strength与sameDCO反例。SourceN67-1–8 true，MR−0.00(1) finite；Tau/RI不同出处和M/MR round-trip不可计独立。Weak168/CC缺口、DCO1.45对应E1/E2的gate/geometry边界及α未分峰保留。它是正式回忆的priming，不提供card15 credit或真实fitCov。
-
-
-Day14 partial15另补4个actualANU Z31 FO theoryICC与32-checkforward/offlinereplay，KB08-D14-1–6 true。CCnuclearalignment与atomicICC分开；初decimalDE错误/有效integerencoding保留，actualmodel不是measuredICC或NDS2005处理。弱M1/E2/complete2γ假设和missinghigher/extra/Cov保持，不将nominal小修正升级为原实验可靠性或正式Day15学分。
-
-
-Day14 partial15另有42-check gated-design：真实67Ga spinpath加声明40/90/参考门（非NORDBALL）给不同positiveP范围，B模型不能硬fit1.45。即使exactsingleα2=α4=0、两个photonangularmode marginals完全同，jointR仍可.98017–1.02514；unknownf/互反/共同events边界保存。正式Day15需标priming，不能以sourceDCO数值推未取得的gate/geometry或把singlecal当fulljoint。
-
-
-Day14 continuity另外做91-check能量—时间定序模型和独立prompt设计。r²/r⁶/未知响应尾属于声明条件推导，不是193Bi新τ或次序；formalDay15只需标相关priming，不代替自身ADO卡/回忆，也不计本次预习为正式学分。
-
-
-Day14 novelty还核136Pr2025 accepted17页和37-check真实表/endpoint/门条件。Q1 .47用Q-gate、D6约1用D-gate，不能搬同阈值；sharedpool跨核素不增加独立acquisition。此为正式Day15回忆的priming，D6单侧点/版本配置及weakR-M空栏保持，不代替自身卡审计。
-
-
-Day14最终只补截止前已读2018 ENSDF136Pr记录（N136-1–8）与acceptedLV25-26：旧新263/405order/π不同，原因unknown，1996primarydownload0；不可用共同sum/全谱/数据库晚旧判胜负。原Day14研究已stop，free-recoil和通用136parser未完成不计结果。正式Day15保持独立primed回忆/卡audit，Day16未研究。
-
-
-2026-10-15 15:45用户因断网将Day14最终交付延长至2026-10-16 16:00上海；研究于16日15:00停止，15:00–16:00仅收束。同run/session继续，Day15仍只partial无信用。本文件是正式Day15待启入口，实际run_date/启动时间由下一runner赋值；不因旧日期或Day14延期自行创建新session。
-
-
-Day14延期后完成66-check free-recoil energy-opening-angle条件推导；K.862eV为A193proxy、response自设，不赋实际order。Staticangularno-go只限原kernel；stopping/独立calibration和未知Σ边界保持。这是formalDay15的priming，非本卡credit。
-
-
-Day14延期还完成44-check136Pr实际RI/finiteENSDF parser与positiveflow/独立parenttag设计。Sameprojection全检测分布可同，未知exit/feeding/ICC时Iγ不定序；zeroIC hiddenfraction不是实测branchlimit。此为priming，不提前计ADO卡，也不把global I和conditionalgate值混用。
-
-
-Day14延期另完成44-check逐线candidategraph，energy-only unique可错合不同parent，parent窗也会漏Q1重排；R_DCO的门/阵列语义不宜作为跨源数值key。156表行/135旧placedG的scope不同，差值不是newgamma数。FormalDay15标此priming，不代替自身角度/效率卡audit。
-
-
-Day14延期另核D3旧level候选/newband/987 E2策略链，DCO的Q handle与electric character/π不可混成裸数字；660ΔJ0和653空栏保持。这是formalDay15的priming，仍需自身主动回忆与逐卡audit。
-
-
-Day14延期最终交付截止2026-10-16 16:00，planned研究cutoff15:00，最后15:00–16:00做closeout；旧17:00buffer计划已覆盖。实际下一日启动由runner确定，本prompt不自行运行。
-
-
-Day14延期另完成71-check D4 sameparent radiativeB商：τ/totalbranch/ICC共同分母何时消去，与需要δ/purity/匹配响应须分开；TableM空不自动填pure，Fig9一致不是独立实验。此为正式Day15 priming，仍需自身回忆与cardaudit。
-
-
-Day14延期另有62-check valence/unpaired条件ledger审计；Π标签、numberparity和未投影meanI不是同一个约束，必要条件不认证code。其method/input边界是priming，不给未来card学分或实际核素新性质。
-
-
-Day14延期另核Wang2017 TAC-RHB方法全文和50-check控制：spin projector不指定species配对，blocking/数目恢复/半经典I不同；Dirac磁矩组件缩放不能替整体B因子。预印本公式字面异常与作者程序错误分开。此为正式回忆的priming，不提供Pr136实际输入或Day15信用；正式卡仍须自身recall/audit。
-
-
-Day14延期另核Zhao2015 O1/O2上游规则与43-check实canonical/BdG控制；相位/tie/zero-norm/reference是重放材料，模型pairing/算符/代码版本谱系不等于独立实验。正式Day15仍只标这些priming，不继承card credit或宣称actual Pr136输入已复现。
-
-
-Day14延期另完成50-check四极normalform/轴置换/声明irrotational控制；source TableII/Fig16的模型γ与alternative signedγ/转轴分层，未知实际frame不填，四极相同不认证fullstate。此只标正式回忆priming，不给Day15信用或shape共存新实证。
-
-
-Day14延期又核直接Ref48 Petrache2015：Nd J2系统学的选带/图示删点、模型signedγ/相对轴与未来寿命检验分开，Table1 census不算独立实验。此为正式回忆priming，不给Day15信用，不提供Pr136实际frame或新shape实证。
-
-
-Day14延期另有71-check actualD4 orderedpath/J2：absolute labels与relativeΔI/branch/stencil/位置不同，交错signature不可默套因子；sourcePC22式、条件协方差/筛选mask及M空/tentative保留。它是正式回忆priming，不给本卡学分，不将派生曲率当Pr新形状/轴测量。
-
-
-Day14延期另核Matev2007 Qt坐标/算符与模型fit/实验输入层级，24-control审计保留2条v1条件不相容项和missing，oddreference及sameintruder count不等sameQt/J。它是正式回忆的priming，不给本卡学分、实际Σ或Pr新形状/轴。
-
-
-## DAY14延期checkpoint029对正式Day15的priming
-
-DAY14已读Riley2001的centroidDSAM/Qt typed表、gate/feeding/共同systematics，并做27项条件控制；此为当前谱学证据链的学习，非Day15正式考核。正式Day15仍须保存自身来源前回忆、核ADO定义/效率及几何、完成本卡全部deliverables后计分。DAY14的completed14/partial15保持，不将DSAM或Qt知识提前作为其他日卡学分。最新恢复入口run-02/continuation-prompt.md；研究2026-10-16 15:00止、16:00交付的加时仅属于现DAY14。
-
-
-DAY14延期checkpoint030已复核原矩参考/通道归一；下一有界Ionescu1981 feeding-aware pureE2阅读仍仅本卡无信用preview，正式Day15须记录届时priming再独立执行本卡。
-
-
-DAY14延期checkpoint031已预读Ionescu1981九页pureE2/feeding、多解及角单位；25项仅知识核查，本卡仍partial无信用。正式Day15记录这一priming，不沿用DAY14成绩或用source旧humanreview覆盖新claims。
-
-
-DAY14延期checkpoint032已做Yamazaki U的49项selectedtable/归一/domain检查，仍为Day15无学分preview；正式运行记录此priming，不用其代本卡独立回忆/计算或提前计卡。
-
-
-DAY14延期checkpoint033加入selected-tensor正population放宽与图：中心界/quotedbox/全图/已见218.90权重分开，仍仅本卡partialpreview。正式Day15须记录这些priming、独立回忆/本卡交付后给学分，不能把16项模型控制当新实验或正式分数。
-
-
-DAY14延期checkpoint034已学习transition/node I_T、转换合同、两已知feeding与calculated/exp区别；22项仍为partialpreview，无formal15credit。下一finitegeometry来源前预测已存，正式Day15记录这些priming并独立执行卡交付。
-
-
-## 有限几何预习035（不计正式Day15学分）
-
-DAY14延期中已完成[[angular-distribution]]“有限几何：共同响应、正布居与可行域”的L2推导；来源IO81-33是printed20的182Ta/isotropy与40cm控制，YA67-4/5是normalizedtensor/未观测feeding定义。自选cone c4/5给Q2=18/25/Q4=333/1250；共同可逆Q必须连同P→QP才保持sharp界。自选w.6在正确fold保持，沿原域放宽为.620394；parentpoint/childcone的truew1被错误common模型排除。全为数学设计，非actualQ/w/CL，不用于给formalDay15预先加分。
-
-两Krane几何论文1972 DOI10.1016/0029-554X(72)90099-7、1973 DOI10.1016/0029-554X(73)90294-2的body仍未读；后者机构PDF候选HTTP202空体/landing SSL，不能称erratum或混56页DCO表册。正式Day15先保存自身primedrecall、按卡复核已有ADO/误差与convention，actualresponse/Σ缺口保留，不重做相同自选toy充当新实验。
-
-
-## DAY14预习036：tracking response与版本（无学分）
-
-已核Lauritsen2025的publisher24页相关response段、Figs6–10与AppB/availability；article应为EPJ A61,76，原25页manuscript/raw不改。近unity几何不等epsilon平坦/完整角迁移校正，源角谱/插值/variance与fitCov分开；Figs8–10明确systematic未全入fiterrors。29checks是source-to-beam measure/Jacobian/991条件能量和自选归一/插值Cov；Eq19 frame标记保留，作者code/actualresponse/Cov未得，不宣称其程序错误。正式Day15须标这些priming、独立回忆并完成本卡，不能借预习加分或跳到Day16。
-
-
-## DAY14预习037：finite-J与Gaussian合同（无学分）
-
-已核L25 publisher Eq13/14与YA67 Eq1/6/10/11，58checks的uniform/reference/换基/large-J与width/variance比较已canonical。字面q4有限J含rank0/2，不能未换基用pureU4；sigma width与variance仅v=s²等布居，不能同标签移植。Ref39是Morinaga/Yamazaki1976书，未读对应段/未得作者code，不称其implementation错误、官方erratum或实验重拟合。正式Day15须记录此priming、独立完成卡，不提前加分或开Day16。
-
-
-## DAY14预习038：经典方向与量子迹（无学分）
-
-Ref39书段本轮未得（Crossref过滤无item/宽匹配为无关文/同题期刊条目，两目录连接失败，publisher403），未猜ISBN/DOI/原书结论。L25 Eq42的Legendre输入下，独立22项符号推导解释q2/q4经典投影形式、量子离散迹/正交化的T4修正与低spin零范数；这是我们的解释，非已核作者code/1976书论证。正式Day15仍须记录priming独立完成卡，不给本预习信用或打开Day16。
-
-
-## DAY14原课程迁移039的priming
-
-Ding128I实际三边58.5/255.6/314.3与225.9/481.8/167.4核过：sourceADO歧义/两伴随dipole仍需旧资料或reactionspintrend，exacttriangle允许6/8不等后者被实验支持。16checks/逐边E/C/M/J矩阵和parent-vs-daughterτ边界已canonical；是原Day14迁移练习，不给正式Day15信用/沿用为其考试。正式15仍先保存自身primed回忆、matchedgeometry/gate/response核验，不开Day16。
-
-
-## DAY14原课程迁移040的priming
-
-CPL2010 128I四页primary现已读，新增source保留Channel轴/roughly14%与Ding约10%和61table rows/48levels72γ的口径；同Tsukuba指纹保守按依赖采集。19checks typedID/paths与两102.2/101.3各自ICC/gate、commonphotonRI条件界不等actualfraction/CI。正式15记录此priming，独立回忆/本卡交付后计卡，不沿用Day14分数或当新独立实验。
-
-
-## DAY14原课程迁移041的priming
-
-新增128I selectedENSDF2015低位/反应/capture对象：评价保留(5,6,7)−、102/15.6位置/ECC与thesis/CPL不同，text和独立PDF表均核但不裁决物理拓扑。28checks分开parent/RIlimit/归一、理论CC/实验ECC/EKC及evaluatorassignederrors；不能按sameenergy搬数或借adopted覆盖primary。2012Di14身份PRC86,034302已核，body尚未读。正式Day15记录此priming/缺口，独立执行卡，不提前加分或进Day16。
-
-
-## DAY14原课程迁移042的priming
-
-2012PRC86,034302仅核metadata，选定合法API/PDF/OA/localmetadata路线未得body；不填图/数值或裁决2015对象冲突。14项设计比较只在声明projection下让三coarsegate support相同，full响应/likelihood未匹配；独立state-tag/orderedtiming有区分力但实际输入未给。Gaussian5%/FWHM11.17keV是设计要求非existingperformance。正式Day15记录priming/边界，独立执行本卡，不提前credit/开Day16。
-
-
-## DAY14原课程迁移043的priming
-
-13项假设domain审计把H0/H2的条件唯一与genericM1(+E2)族分开；dipole不默等stretched，captureallowedset的衍生表达不重复计独立data。扩展必要集合6/7不等J7匹配实际RADO，仍需sharedparent/gate/δ/response/Cov判别；parentEx-tag也不自动测spin。正式Day15记录priming后独立执行本卡，不能沿用这些checks当正式成绩/提前信用。
-
-
-## DAY14原课程迁移044的priming
-
-23项CG/photon纯L1commonparentbaseline给条件a2比例−13/8/sign判据；source中心不满足该特殊H7baseline，但正marginalboxwitness存在、differentpostselection可破坏关系，不作actual排除或新spin。实际δ/gates/finiteQ/fADO/Σ仍需输入，pairbaseline没fit58/全feeding。正式Day15记录priming、独立回忆/按本卡执行，不借这些checks加分/提前信用。
-
-## 延期后的正式入口
-
-此文件仅准备Day15入口，不启动会话、不计课程学分。模板日期按Day14加时收束的实际日期2026-10-16设置；runner正式触发时须注入实际run_date、截止时间与新的session。Day14中的Day15知识仅是priming，正式Day15须先冻结本session的来源前回忆，再完成Day15逐卡审计。20261015旧入口保留为历史模板。
+## Day15 正式任务：ADO、角分布系数与几何修正
+
+这是唯一有效的Day15入口。准备此文件不会启动学习或授予学分；用户执行启动命令后，
+runner创建独立session，并注入实际run_id、output_dir、截止时间和运行快照。
+本模板日期为2026-10-16，默认研究截止2026-10-17 15:00上海，15:00–16:00收束。
+旧20261015版本已移除，历史保留在Git；不要恢复第二个并列入口。
+
+### 先冻结本session的主动回忆
+
+先读启动治理文件和Day15课程卡；在打开下列source/raw及Day14详细报告前，将自己的
+原答保存到本run目录并记录时间和session_id。明确注明已读本prompt中的预习摘要，
+这是primed recall，不能称独立盲测：
+
+1. angular distribution、A2/A4、maximum/reference coefficient、核alignment各指什么？
+2. R_ADO、f_ADO、待测线与门控线、两角组和效率比如何定义？哪些输入不足以识别f？
+3. alignment、feeding、有限立体角和门条件如何改变多极性判读？
+4. 哪个观测或失败控制会使当前推断失效？
+
+冻结文件不回写；来源后的纠正另存报告/knowledge。Day14的19/24预习分与21/24正式
+周考分均不是Day15成绩；不以重复运行旧脚本替代本卡交付。
+
+### 按课程矩阵逐项执行
+
+| 本卡交付 | 本run必须留下的证据与artifact |
+| --- | --- |
+| 主线阅读 | 回核[ADO方法](../../../knowledge/methods/angular-distribution.md)、[角分布系数](../../../knowledge/observables/angular-distribution-coefficient.md)及[Zheng2002 source](../../../knowledge/sources/zheng-2002-ado-coincidence-angular-anisotropy.md)；沿anchor原件完整主线核定义、公式、图、误差和适用条件，记录实际覆盖及locator。 |
+| ADO计算单 | 明列待测/门控跃迁、角组、探测器数、净计数、效率、归一、单位、数据身份和输入hash；用两角计数与效率比先算R_ADO。另给独立本征比或gate/geometry输入才可算f_ADO；缺输入则证明不可识别，不能循环定义f=1。 |
+| 不确定度与图 | 给出误差传播和输入敏感性图，说明共享事件、背景、效率/参考校准的Cov；没有实际Cov时声明chosen模型并检验独立假设的限制。所有自设输入显著标注，图不冒充原实验。 |
+| convention注记 | 核待测/门控线、分子分母、修正方向、组效率之和与单台效率、self-exclusion、A2/A4/alpha/reference、sigma及角度单位；原文歧义保留needs_review。 |
+| 反证与必要观测 | 至少比较一次alignment、feeding、finite acceptance或换门的失效控制，指出完整joint gamma-gamma response与single-gamma校准的区别；选择真正能区分候选的下一观测。 |
+| 知识与逐卡审计 | 新的可复用内容写回适当knowledge页；若无增量则做有证据的verified-no-op。完成报告、四项以上card audit、检查、continuation、receipt与显式发布后才计Day15。 |
+
+先遵循Zheng原件的convention；相关原子入口为Z02-6（组效率/self-exclusion）与Z02-9
+（分离响应的迁移边界）。图表、方法文与它复用的实验不能重复计为独立采集。
+单一ADO经验阈值不能跨阵列、门控、多极混合或spin路径无条件套用。
+
+### Day14预习索引：只用于标记priming和避免重复
+
+| 已预暴露领域 | 复核入口与保留边界 |
+| --- | --- |
+| ADO定义、效率、误差与self-exclusion | Zheng2002、ADO方法及角分布系数页；旧28-check计算是预习，实际组内响应与本征参考仍须本run核验。 |
+| 系数约定、布居、feeding与误差区域 | Zobel1980/1983、Ionescu1981、Yamazaki1967及现有方法页；旧source人审不扩到新增推导，Gaussian/正布居witness不是实际布居或joint置信区间。 |
+| 门控、角关联、有限几何与tracking | [角关联方法](../../../knowledge/methods/angular-correlation.md)、ADO方法；single-gamma marginals不决定joint response，同一母态不保证同一postselection density，自设模型不提供实际响应或Cov。 |
+| 193Bi、67Ga、136Pr、128I案例 | [纲图重建方法](../../../knowledge/methods/level-scheme-reconstruction.md)及相应source；身份/门/RI/ICC/parent寿命须对应同一对象。128I的102-keV placement/ECC冲突未裁决，2012 PRC86,034302正文未取得。 |
+
+详细既有路线、失败访问与冻结证据保存在[Day14日报](../20261014-DAY14-week-two-spectrum-to-level-scheme-exam.md)
+及其canonical知识链接；[Day14回执](../20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/run.json)
+只用于恢复运行元数据。先冻结本次回忆，再按需读这些详细记录；不将日报当新的实验来源，
+不原样重试已经终态失败的访问，不沿用旧检查数量加分，也不把未得数据写成已测结果。
+
+### 连续学习与收束
+
+完成本卡只是checkpoint。刷新实际时间、候选池、证据缺口和信息增益后继续有价值的
+当前问题；当前问题饱和且时间门允许时，最多预习Day16知识，只记partial16、不授学分、
+不开Day17。不靠重复同一toy或堆检查数量填窗口。到实际研究截止立即停止新增研究，
+用收束小时完成检查、回执、课程一次对账和发布；用户明确停止时立即终止，不自动恢复。

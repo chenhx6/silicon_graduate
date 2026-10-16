@@ -8,6 +8,8 @@ updated: 2026-10-16
 
 ## Active handoff — DAY14 completed after authorized extension
 
+Day15入口已按用户要求去重整理：仅保留`outputs/learning-daily/prompts/20261016-DAY15-ado-angular-distribution-geometry.md`，旧15日模板从工作树移除，Git历史保留。课程仍next15/count14，Day15未启动；当日补跑命令与dry-run证明见`outputs/learning-daily/prompt-maintenance/20261016-day15-consolidation.json`。本次只整理入口，不重开Day14或启动Day15。整理发布指针：main / `Consolidate DAY15 into one launch-ready prompt`；精确hash和push结果仅该整理回执。
+
 Run2026-10-14-day-14-02/session01a13a0e-e8bd-7251-b970-f6975679e281在用户断网加时后于2026-10-16 15:00上海研究截止收束；15:00后仅验收/回执/课程对账/发布。同session未新建daemon/goal，原runner成功exit未观察，手动对账与实际scheduler事件已分开保存，不伪造normalfinalizer或clock ledger。
 
 正式14 primed回忆、Herzáň20页一图一表、五节点七边35checks、判据矩阵、21/24及REFLECT完整；整体审计41/41，唯一writeback156项44份修改知识页，旧review/claims/raw/PLAN/Bib保留。D12-36只纠正提交4月/答辩5月。最后的监督等待不计研究；实际检查与警告分类见final-checks-046.json。
