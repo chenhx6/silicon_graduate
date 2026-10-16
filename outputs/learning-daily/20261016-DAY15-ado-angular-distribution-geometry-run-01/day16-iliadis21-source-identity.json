@@ -1,0 +1,15 @@
+{
+  "at": "2026-10-17T06:14:44.661592+08:00",
+  "url": "https://arxiv.org/pdf/2104.00228",
+  "role": "publicdirectcompanionfulltext, versionwillbereadfromdownloadnotassumedfromlatesturl",
+  "status": 200,
+  "content_type": "application/pdf",
+  "bytes": 54866362,
+  "sha256": "58c0294f6b3d1ef6969484bf89dfc6248ea44b5a73b536ca6bf38aa048dfc756",
+  "final_url": "https://arxiv.org/pdf/2104.00228",
+  "raw": "raw/papers/gpt/day15-20261016/iliadis-friman-gayer-2021-arxiv2104.00228-58c0294f6b3d.pdf",
+  "pages": 39,
+  "firstpage_excerpt": "EPJ manuscript No.\n(will be inserted by the editor)\nLinear polarization–direction correlations in γ-ray scattering\nexperiments\nChristian Iliadis1,2 and Udo Friman-Gayer1,2\n1 Department of Physics & Astronomy, University of North Carolina at Chapel Hill, NC 27599-3255, USA\n2 Triangle Universities Nuclear Laboratory (TUNL), Duke University, Durham, North Carolina 27708, USA\nReceived: date / Revised version: date\nAbstract. Scattering measurements with incident linearly polarized γ rays provide information on spins,\nparities, and γ-ray multipolarity mixing coeﬃcients, and, therefore, on the nuclear matrix elements involved\nin the transitions. We present the general formalism for analyzing the observed angular correlations. The\nexpressions are used to compute three-dimensional radiation patterns, which are important tools for op-\ntimizing experimental setups. Frequently, γ-ray transitions can proceed via two multipolarities that mix\ncoherently. In such cases, the relative phases of the nuclear matrix elements are important when comparing\nresults from diﬀerent measurements. We discuss diﬀerent phase conventions that have been used in the\nliterature and present their relationships. Finall",
+  "textmainline_not_yetread": true,
+  "raw_never_stage": true
+}

@@ -1,0 +1,1321 @@
+[
+  {
+    "at": "2026-10-17T06:19:52.239233+08:00",
+    "label": "published-if21-pdf",
+    "url": "https://link.springer.com/content/pdf/10.1140/epja/s10050-021-00472-1.pdf",
+    "scope": "versionverification orcontrary-footnote discovery, notassumebodysameasv1",
+    "status": 200,
+    "content_type": "application/pdf",
+    "bytes": 42080158,
+    "sha256": "4c0b226de8e5356406122f7610d3d493a171487579b9b6cf879e8f993a30657f",
+    "raw": "raw/papers/gpt/day15-20261016/iliadis-friman-gayer-2021-vor-4c0b226de8e5.pdf",
+    "pages": 39
+  },
+  {
+    "at": "2026-10-17T06:19:52.239404+08:00",
+    "label": "review22-openalex",
+    "url": "https://api.openalex.org/works/https://doi.org/10.1016/j.ppnp.2021.103903",
+    "scope": "versionverification orcontrary-footnote discovery, notassumebodysameasv1",
+    "status": 200,
+    "content_type": "application/json",
+    "bytes": 33784,
+    "sha256": "913a5b648c46afaae09458d9146561f71fc70e91ab02e288c29c360bc351b63d",
+    "metadata": {
+      "id": "https://openalex.org/W3201450117",
+      "doi": "https://doi.org/10.1016/j.ppnp.2021.103903",
+      "title": "Photonuclear reactions—From basic research to applications",
+      "display_name": "Photonuclear reactions—From basic research to applications",
+      "publication_year": 2021,
+      "publication_date": "2021-09-13",
+      "ids": {
+        "openalex": "https://openalex.org/W3201450117",
+        "doi": "https://doi.org/10.1016/j.ppnp.2021.103903",
+        "mag": "3201450117"
+      },
+      "language": "en",
+      "primary_location": {
+        "id": "doi:10.1016/j.ppnp.2021.103903",
+        "doi": "https://doi.org/10.1016/j.ppnp.2021.103903",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1016/j.ppnp.2021.103903",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S37308595",
+          "display_name": "Progress in Particle and Nuclear Physics",
+          "issn_l": "0146-6410",
+          "issn": [
+            "0146-6410",
+            "1873-2224"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "listed_in": [
+            "cwts-core",
+            "dongbi-a",
+            "jufo-3",
+            "norway-1",
+            "poland-200",
+            "russia-white-list-1"
+          ],
+          "host_organization": "https://openalex.org/P4310320990",
+          "host_organization_name": "Elsevier BV",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320990"
+          ],
+          "host_organization_lineage_names": [
+            "Elsevier BV"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "acceptedVersion",
+        "is_accepted": true,
+        "is_published": false,
+        "raw_source_name": "Progress in Particle and Nuclear Physics",
+        "raw_type": "journal-article"
+      },
+      "volume": null,
+      "type": "article",
+      "indexed_in": [
+        "crossref"
+      ],
+      "open_access": {
+        "is_oa": true,
+        "oa_status": "bronze",
+        "oa_url": "https://doi.org/10.1016/j.ppnp.2021.103903",
+        "any_repository_has_fulltext": false
+      },
+      "authorships": [
+        {
+          "author_position": "first",
+          "author": {
+            "id": "https://openalex.org/A5106918503",
+            "display_name": "Andreas Zilges",
+            "orcid": "https://orcid.org/0000-0002-9328-799X",
+            "observed_orcids": [
+              "https://orcid.org/0000-0002-9328-799X"
+            ]
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I180923762",
+              "display_name": "University of Cologne",
+              "ror": "https://ror.org/00rcxh774",
+              "country_code": "DE",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I180923762"
+              ]
+            }
+          ],
+          "countries": [
+            "DE"
+          ],
+          "is_corresponding": true,
+          "raw_author_name": "A. Zilges",
+          "raw_affiliation_strings": [
+            "Institut für Kernphysik, University of Cologne, Cologne, Germany"
+          ],
+          "raw_orcid": "https://orcid.org/0000-0002-9328-799X",
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Institut für Kernphysik, University of Cologne, Cologne, Germany",
+              "institution_ids": [
+                "https://openalex.org/I180923762"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5043302944",
+            "display_name": "Dimiter Loukanov Balabanski",
+            "orcid": "https://orcid.org/0000-0003-2940-014X",
+            "observed_orcids": [
+              "https://orcid.org/0000-0003-2940-014X"
+            ]
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I4210092312",
+              "display_name": "Horia Hulubei National Institute for R and D in Physics and Nuclear Engineering",
+              "ror": "https://ror.org/00d3pnh21",
+              "country_code": "RO",
+              "type": "facility",
+              "lineage": [
+                "https://openalex.org/I4210092312"
+              ]
+            },
+            {
+              "id": "https://openalex.org/I4210142646",
+              "display_name": "Extreme Light Infrastructure - Nuclear Physics",
+              "ror": "https://ror.org/048m5jb39",
+              "country_code": "RO",
+              "type": "facility",
+              "lineage": [
+                "https://openalex.org/I4210142646"
+              ]
+            }
+          ],
+          "countries": [
+            "RO"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "D.L. Balabanski",
+          "raw_affiliation_strings": [
+            "Extreme Light Infrastructure - Nuclear Physics/Horia Hulubei National Institute for R&D in Physics and Nuclear Engineering, Bucharest-Magurele, Romania"
+          ],
+          "raw_orcid": "https://orcid.org/0000-0003-2940-014X",
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Extreme Light Infrastructure - Nuclear Physics/Horia Hulubei National Institute for R&D in Physics and Nuclear Engineering, Bucharest-Magurele, Romania",
+              "institution_ids": [
+                "https://openalex.org/I4210092312",
+                "https://openalex.org/I4210142646"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5035046413",
+            "display_name": "Johann Isaak",
+            "orcid": "https://orcid.org/0000-0002-4735-8320",
+            "observed_orcids": [
+              "https://orcid.org/0000-0002-4735-8320"
+            ]
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I31512782",
+              "display_name": "Technische Universität Darmstadt",
+              "ror": "https://ror.org/05n911h24",
+              "country_code": "DE",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I31512782"
+              ]
+            }
+          ],
+          "countries": [
+            "DE"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "J. Isaak",
+          "raw_affiliation_strings": [
+            "Institut für Kernphysik, TU Darmstadt, Darmstadt, Germany"
+          ],
+          "raw_orcid": "https://orcid.org/0000-0002-4735-8320",
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Institut für Kernphysik, TU Darmstadt, Darmstadt, Germany",
+              "institution_ids": [
+                "https://openalex.org/I31512782"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "last",
+          "author": {
+            "id": "https://openalex.org/A5077296105",
+            "display_name": "N. Pietralla",
+            "orcid": "https://orcid.org/0000-0002-4797-3032",
+            "observed_orcids": [
+              "https://orcid.org/0000-0002-4797-3032"
+            ]
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I31512782",
+              "display_name": "Technische Universität Darmstadt",
+              "ror": "https://ror.org/05n911h24",
+              "country_code": "DE",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I31512782"
+              ]
+            }
+          ],
+          "countries": [
+            "DE"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "N. Pietralla",
+          "raw_affiliation_strings": [
+            "Institut für Kernphysik, TU Darmstadt, Darmstadt, Germany"
+          ],
+          "raw_orcid": "https://orcid.org/0000-0002-4797-3032",
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Institut für Kernphysik, TU Darmstadt, Darmstadt, Germany",
+              "institution_ids": [
+                "https://openalex.org/I31512782"
+              ]
+            }
+          ]
+        }
+      ],
+      "institutions": [],
+      "countries_distinct_count": 2,
+      "institutions_distinct_count": 4,
+      "corresponding_author_ids": [
+        "https://openalex.org/A5106918503"
+      ],
+      "corresponding_institution_ids": [
+        "https://openalex.org/I180923762"
+      ],
+      "apc_list": {
+        "value": 4500,
+        "currency": "USD",
+        "value_usd": 4500
+      },
+      "apc_paid": null,
+      "fwci": 5.7884,
+      "has_fulltext": false,
+      "cited_by_count": 163,
+      "citation_normalized_percentile": {
+        "value": 0.99178688,
+        "is_in_top_1_percent": true,
+        "is_in_top_10_percent": true
+      },
+      "cited_by_percentile_year": {
+        "min": 88,
+        "max": 100
+      },
+      "biblio": {
+        "volume": "122",
+        "issue": null,
+        "first_page": "103903",
+        "last_page": "103903"
+      },
+      "is_retracted": false,
+      "is_paratext": false,
+      "is_xpac": false,
+      "primary_topic": {
+        "id": "https://openalex.org/T10093",
+        "display_name": "Nuclear physics research studies",
+        "score": 0.9955999851226807,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3106",
+          "display_name": "Nuclear and High Energy Physics"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/31",
+          "display_name": "Physics and Astronomy"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      "topics": [
+        {
+          "id": "https://openalex.org/T10093",
+          "display_name": "Nuclear physics research studies",
+          "score": 0.9955999851226807,
+          "subfield": {
+            "id": "https://openalex.org/subfields/3106",
+            "display_name": "Nuclear and High Energy Physics"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/31",
+            "display_name": "Physics and Astronomy"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T10224",
+          "display_name": "Quantum Chromodynamics and Particle Interactions",
+          "score": 0.0017999999690800905,
+          "subfield": {
+            "id": "https://openalex.org/subfields/3106",
+            "display_name": "Nuclear and High Energy Physics"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/31",
+            "display_name": "Physics and Astronomy"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T10048",
+          "display_name": "Particle physics theoretical and experimental studies",
+          "score": 0.0006000000284984708,
+          "subfield": {
+            "id": "https://openalex.org/subfields/3106",
+            "display_name": "Nuclear and High Energy Physics"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/31",
+            "display_name": "Physics and Astronomy"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        }
+      ],
+      "keywords": [
+        {
+          "id": "https://openalex.org/keywords/photonuclear-reactions",
+          "display_name": "photonuclear reactions",
+          "score": 1.0
+        },
+        {
+          "id": "https://openalex.org/keywords/bremsstrahlung",
+          "display_name": "bremsstrahlung",
+          "score": 0.9340000152587891
+        },
+        {
+          "id": "https://openalex.org/keywords/advanced-photon-source",
+          "display_name": "Advanced Photon Source",
+          "score": 0.7710000276565552
+        },
+        {
+          "id": "https://openalex.org/keywords/nucleosynthesis",
+          "display_name": "nucleosynthesis",
+          "score": 0.6880000233650208
+        },
+        {
+          "id": "https://openalex.org/keywords/detector-technology",
+          "display_name": "detector technology",
+          "score": 0.39399999380111694
+        }
+      ],
+      "concepts": [
+        {
+          "id": "https://openalex.org/C121332964",
+          "wikidata": "https://www.wikidata.org/wiki/Q413",
+          "display_name": "Physics",
+          "level": 0,
+          "score": 0.8031921982765198
+        },
+        {
+          "id": "https://openalex.org/C159317903",
+          "wikidata": "https://www.wikidata.org/wiki/Q3198",
+          "display_name": "Photon",
+          "level": 2,
+          "score": 0.6858463287353516
+        },
+        {
+          "id": "https://openalex.org/C185544564",
+          "wikidata": "https://www.wikidata.org/wiki/Q81197",
+          "display_name": "Nuclear physics",
+          "level": 1,
+          "score": 0.5406128764152527
+        },
+        {
+          "id": "https://openalex.org/C81302155",
+          "wikidata": "https://www.wikidata.org/wiki/Q655904",
+          "display_name": "Bremsstrahlung",
+          "level": 3,
+          "score": 0.5260912179946899
+        },
+        {
+          "id": "https://openalex.org/C127774322",
+          "wikidata": "https://www.wikidata.org/wiki/Q37147",
+          "display_name": "Atomic nucleus",
+          "level": 2,
+          "score": 0.45903635025024414
+        },
+        {
+          "id": "https://openalex.org/C54116275",
+          "wikidata": "https://www.wikidata.org/wiki/Q6579918",
+          "display_name": "Nuclear astrophysics",
+          "level": 2,
+          "score": 0.4462057948112488
+        },
+        {
+          "id": "https://openalex.org/C204323151",
+          "wikidata": "https://www.wikidata.org/wiki/Q905424",
+          "display_name": "Range (aeronautics)",
+          "level": 2,
+          "score": 0.4356396198272705
+        },
+        {
+          "id": "https://openalex.org/C94915269",
+          "wikidata": "https://www.wikidata.org/wiki/Q1834857",
+          "display_name": "Detector",
+          "level": 2,
+          "score": 0.4346206486225128
+        },
+        {
+          "id": "https://openalex.org/C2778785133",
+          "wikidata": "https://www.wikidata.org/wiki/Q25303639",
+          "display_name": "Photon energy",
+          "level": 3,
+          "score": 0.42783042788505554
+        },
+        {
+          "id": "https://openalex.org/C62520636",
+          "wikidata": "https://www.wikidata.org/wiki/Q944",
+          "display_name": "Quantum mechanics",
+          "level": 1,
+          "score": 0.13000351190567017
+        },
+        {
+          "id": "https://openalex.org/C146978453",
+          "wikidata": "https://www.wikidata.org/wiki/Q3798668",
+          "display_name": "Aerospace engineering",
+          "level": 1,
+          "score": 0.11916184425354004
+        },
+        {
+          "id": "https://openalex.org/C120665830",
+          "wikidata": "https://www.wikidata.org/wiki/Q14620",
+          "display_name": "Optics",
+          "level": 1,
+          "score": 0.11822107434272766
+        },
+        {
+          "id": "https://openalex.org/C127413603",
+          "wikidata": "https://www.wikidata.org/wiki/Q11023",
+          "display_name": "Engineering",
+          "level": 0,
+          "score": 0.0
+        }
+      ],
+      "mesh": [],
+      "locations_count": 3,
+      "locations": [
+        {
+          "id": "doi:10.1016/j.ppnp.2021.103903",
+          "doi": "https://doi.org/10.1016/j.ppnp.2021.103903",
+          "is_oa": true,
+          "landing_page_url": "https://doi.org/10.1016/j.ppnp.2021.103903",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S37308595",
+            "display_name": "Progress in Particle and Nuclear Physics",
+            "issn_l": "0146-6410",
+            "issn": [
+              "0146-6410",
+              "1873-2224"
+            ],
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": true,
+            "listed_in": [
+              "cwts-core",
+              "dongbi-a",
+              "jufo-3",
+              "norway-1",
+              "poland-200",
+              "russia-white-list-1"
+            ],
+            "host_organization": "https://openalex.org/P4310320990",
+            "host_organization_name": "Elsevier BV",
+            "host_organization_lineage": [
+              "https://openalex.org/P4310320990"
+            ],
+            "host_organization_lineage_names": [
+              "Elsevier BV"
+            ],
+            "type": "journal"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "acceptedVersion",
+          "is_accepted": true,
+          "is_published": false,
+          "raw_source_name": "Progress in Particle and Nuclear Physics",
+          "raw_type": "journal-article"
+        },
+        {
+          "id": "pmh:oai:USBKOELN.ub.uni-koeln.de:57972",
+          "doi": null,
+          "is_oa": false,
+          "landing_page_url": "https://kups.ub.uni-koeln.de/57972/",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S4306400371",
+            "display_name": "Kölner Universitäts PublikationsServer (Universität zu Köln)",
+            "issn_l": null,
+            "issn": null,
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": false,
+            "listed_in": [],
+            "host_organization": "https://openalex.org/I4210115942",
+            "host_organization_name": "Rhenish Institute for Environmental Research",
+            "host_organization_lineage": [
+              "https://openalex.org/I4210115942"
+            ],
+            "host_organization_lineage_names": [],
+            "type": "repository"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": "",
+          "raw_type": "doc-type:article"
+        },
+        {
+          "id": "pmh:oai:tubiblio.ulb.tu-darmstadt.de:141016",
+          "doi": null,
+          "is_oa": false,
+          "landing_page_url": "http://tubiblio.ulb.tu-darmstadt.de/141016/",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S4377196390",
+            "display_name": "TUbilio (Technical University of Darmstadt)",
+            "issn_l": null,
+            "issn": null,
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": false,
+            "listed_in": [],
+            "host_organization": "https://openalex.org/I31512782",
+            "host_organization_name": "Technische Universität Darmstadt",
+            "host_organization_lineage": [
+              "https://openalex.org/I31512782"
+            ],
+            "host_organization_lineage_names": [],
+            "type": "repository"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "submittedVersion",
+          "is_accepted": false,
+          "is_published": false,
+          "raw_source_name": "",
+          "raw_type": "Artikel"
+        }
+      ],
+      "best_oa_location": {
+        "id": "doi:10.1016/j.ppnp.2021.103903",
+        "doi": "https://doi.org/10.1016/j.ppnp.2021.103903",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1016/j.ppnp.2021.103903",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S37308595",
+          "display_name": "Progress in Particle and Nuclear Physics",
+          "issn_l": "0146-6410",
+          "issn": [
+            "0146-6410",
+            "1873-2224"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "listed_in": [
+            "cwts-core",
+            "dongbi-a",
+            "jufo-3",
+            "norway-1",
+            "poland-200",
+            "russia-white-list-1"
+          ],
+          "host_organization": "https://openalex.org/P4310320990",
+          "host_organization_name": "Elsevier BV",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320990"
+          ],
+          "host_organization_lineage_names": [
+            "Elsevier BV"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "acceptedVersion",
+        "is_accepted": true,
+        "is_published": false,
+        "raw_source_name": "Progress in Particle and Nuclear Physics",
+        "raw_type": "journal-article"
+      },
+      "sustainable_development_goals": [],
+      "sustainable_development_goals_aurora": [
+        {
+          "id": "https://metadata.un.org/sdg/7",
+          "score": 0.8500000238418579,
+          "display_name": "Affordable and clean energy"
+        }
+      ],
+      "study_designs": [],
+      "awards": [],
+      "funders": [],
+      "has_content": {
+        "pdf": false,
+        "grobid_xml": false
+      },
+      "content_urls": null,
+      "referenced_works_count": 543,
+      "referenced_works": [
+        "https://openalex.org/W11236985",
+        "https://openalex.org/W15757381",
+        "https://openalex.org/W90169528",
+        "https://openalex.org/W142184265",
+        "https://openalex.org/W176342482",
+        "https://openalex.org/W188680243",
+        "https://openalex.org/W327773354",
+        "https://openalex.org/W601968203",
+        "https://openalex.org/W641851543",
+        "https://openalex.org/W654758475",
+        "https://openalex.org/W782886085",
+        "https://openalex.org/W1014333084",
+        "https://openalex.org/W1108646989",
+        "https://openalex.org/W1485490869",
+        "https://openalex.org/W1492155944",
+        "https://openalex.org/W1492329881",
+        "https://openalex.org/W1492940713",
+        "https://openalex.org/W1498927376",
+        "https://openalex.org/W1500949960",
+        "https://openalex.org/W1512888522",
+        "https://openalex.org/W1514148850",
+        "https://openalex.org/W1519365914",
+        "https://openalex.org/W1530790013",
+        "https://openalex.org/W1533268540",
+        "https://openalex.org/W1538237480",
+        "https://openalex.org/W1561145944",
+        "https://openalex.org/W1570911931",
+        "https://openalex.org/W1582776531",
+        "https://openalex.org/W1602155673",
+        "https://openalex.org/W1617295946",
+        "https://openalex.org/W1620173905",
+        "https://openalex.org/W1653210552",
+        "https://openalex.org/W1661627331",
+        "https://openalex.org/W1670138194",
+        "https://openalex.org/W1751933498",
+        "https://openalex.org/W1857807748",
+        "https://openalex.org/W1874062863",
+        "https://openalex.org/W1911278610",
+        "https://openalex.org/W1918722569",
+        "https://openalex.org/W1963923300",
+        "https://openalex.org/W1963985113",
+        "https://openalex.org/W1964395365",
+        "https://openalex.org/W1965060299",
+        "https://openalex.org/W1965183072",
+        "https://openalex.org/W1965619237",
+        "https://openalex.org/W1965952013",
+        "https://openalex.org/W1966223480",
+        "https://openalex.org/W1966795639",
+        "https://openalex.org/W1967970891",
+        "https://openalex.org/W1967999877",
+        "https://openalex.org/W1968984753",
+        "https://openalex.org/W1971010782",
+        "https://openalex.org/W1971074634",
+        "https://openalex.org/W1971619379",
+        "https://openalex.org/W1972773070",
+        "https://openalex.org/W1972978322",
+        "https://openalex.org/W1973378874",
+        "https://openalex.org/W1973619195",
+        "https://openalex.org/W1974173027",
+        "https://openalex.org/W1974726297",
+        "https://openalex.org/W1975327601",
+        "https://openalex.org/W1975962719",
+        "https://openalex.org/W1976118060",
+        "https://openalex.org/W1976881256",
+        "https://openalex.org/W1977452046",
+        "https://openalex.org/W1978137501",
+        "https://openalex.org/W1978320153",
+        "https://openalex.org/W1978512194",
+        "https://openalex.org/W1978688763",
+        "https://openalex.org/W1979664557",
+        "https://openalex.org/W1980284331",
+        "https://openalex.org/W1980329377",
+        "https://openalex.org/W1980548561",
+        "https://openalex.org/W1981216877",
+        "https://openalex.org/W1981244505",
+        "https://openalex.org/W1981844508",
+        "https://openalex.org/W1982097945",
+        "https://openalex.org/W1982302562",
+        "https://openalex.org/W1982330097",
+        "https://openalex.org/W1982444659",
+        "https://openalex.org/W1983177147",
+        "https://openalex.org/W1983310044",
+        "https://openalex.org/W1983324785",
+        "https://openalex.org/W1984733111",
+        "https://openalex.org/W1984891837",
+        "https://openalex.org/W1986548900",
+        "https://openalex.org/W1987174284",
+        "https://openalex.org/W1987668125",
+        "https://openalex.org/W1988363112",
+        "https://openalex.org/W1988539078",
+        "https://openalex.org/W1989577668",
+        "https://openalex.org/W1990969686",
+        "https://openalex.org/W1991703063",
+        "https://openalex.org/W1992133233",
+        "https://openalex.org/W1992949575",
+        "https://openalex.org/W1993295286",
+        "https://openalex.org/W1993945290",
+        "https://openalex.org/W1994352125",
+        "https://openalex.org/W1994617558",
+        "https://openalex.org/W1994683380",
+        "https://openalex.org/W1995129544",
+        "https://openalex.org/W1995519529",
+        "https://openalex.org/W1995593669",
+        "https://openalex.org/W1996830396",
+        "https://openalex.org/W1997629740",
+        "https://openalex.org/W1998335488",
+        "https://openalex.org/W1998498497",
+        "https://openalex.org/W1998974654",
+        "https://openalex.org/W2000307871",
+        "https://openalex.org/W2000611608",
+        "https://openalex.org/W2000637520",
+        "https://openalex.org/W2001152398",
+        "https://openalex.org/W2002647629",
+        "https://openalex.org/W2002867818",
+        "https://openalex.org/W2003203370",
+        "https://openalex.org/W2004038729",
+        "https://openalex.org/W2004559989",
+        "https://openalex.org/W2005153299",
+        "https://openalex.org/W2007967837",
+        "https://openalex.org/W2008314823",
+        "https://openalex.org/W2008433178",
+        "https://openalex.org/W2010543106",
+        "https://openalex.org/W2011082331",
+        "https://openalex.org/W2011191430",
+        "https://openalex.org/W2012801122",
+        "https://openalex.org/W2013277356",
+        "https://openalex.org/W2013347017",
+        "https://openalex.org/W2013418448",
+        "https://openalex.org/W2013565877",
+        "https://openalex.org/W2015161046",
+        "https://openalex.org/W2016289708",
+        "https://openalex.org/W2016644791",
+        "https://openalex.org/W2017162017",
+        "https://openalex.org/W2017207907",
+        "https://openalex.org/W2017643108",
+        "https://openalex.org/W2017792244",
+        "https://openalex.org/W2018247682",
+        "https://openalex.org/W2018433770",
+        "https://openalex.org/W2020152583",
+        "https://openalex.org/W2020205073",
+        "https://openalex.org/W2021426521",
+        "https://openalex.org/W2021513049",
+        "https://openalex.org/W2021594715",
+        "https://openalex.org/W2021818108",
+        "https://openalex.org/W2022232145",
+        "https://openalex.org/W2022272770",
+        "https://openalex.org/W2022518664",
+        "https://openalex.org/W2022543740",
+        "https://openalex.org/W2023097252",
+        "https://openalex.org/W2023261404",
+        "https://openalex.org/W2023378293",
+        "https://openalex.org/W2023766365",
+        "https://openalex.org/W2024235923",
+        "https://openalex.org/W2024638834",
+        "https://openalex.org/W2024840676",
+        "https://openalex.org/W2025566511",
+        "https://openalex.org/W2025711937",
+        "https://openalex.org/W2027509340",
+        "https://openalex.org/W2028602705",
+        "https://openalex.org/W2029957571",
+        "https://openalex.org/W2029997176",
+        "https://openalex.org/W2030262097",
+        "https://openalex.org/W2030916407",
+        "https://openalex.org/W2031045974",
+        "https://openalex.org/W2031487915",
+        "https://openalex.org/W2031783001",
+        "https://openalex.org/W2031885792",
+        "https://openalex.org/W2032176071",
+        "https://openalex.org/W2034077607",
+        "https://openalex.org/W2034838801",
+        "https://openalex.org/W2035496006",
+        "https://openalex.org/W2035640496",
+        "https://openalex.org/W2036228680",
+        "https://openalex.org/W2036282843",
+        "https://openalex.org/W2038017202",
+        "https://openalex.org/W2039102596",
+        "https://openalex.org/W2040635706",
+        "https://openalex.org/W2041440274",
+        "https://openalex.org/W2041810081",
+        "https://openalex.org/W2042307223",
+        "https://openalex.org/W2043445724",
+        "https://openalex.org/W2043513080",
+        "https://openalex.org/W2044494236",
+        "https://openalex.org/W2044516467",
+        "https://openalex.org/W2044725683",
+        "https://openalex.org/W2045208738",
+        "https://openalex.org/W2045301309",
+        "https://openalex.org/W2045357172",
+        "https://openalex.org/W2045420245",
+        "https://openalex.org/W2045920644",
+        "https://openalex.org/W2046771143",
+        "https://openalex.org/W2046860979",
+        "https://openalex.org/W2046965018",
+        "https://openalex.org/W2047019309",
+        "https://openalex.org/W2048014284",
+        "https://openalex.org/W2048343751",
+        "https://openalex.org/W2048658890",
+        "https://openalex.org/W2048836786",
+        "https://openalex.org/W2049154828",
+        "https://openalex.org/W2049555214",
+        "https://openalex.org/W2049854558",
+        "https://openalex.org/W2050130442",
+        "https://openalex.org/W2051042186",
+        "https://openalex.org/W2051338569",
+        "https://openalex.org/W2052174634",
+        "https://openalex.org/W2052225119",
+        "https://openalex.org/W2052430540",
+        "https://openalex.org/W2052577162",
+        "https://openalex.org/W2052583509",
+        "https://openalex.org/W2053882541",
+        "https://openalex.org/W2054407325",
+        "https://openalex.org/W2054531260",
+        "https://openalex.org/W2054717495",
+        "https://openalex.org/W2055589610",
+        "https://openalex.org/W2056246101",
+        "https://openalex.org/W2056538122",
+        "https://openalex.org/W2056683563",
+        "https://openalex.org/W2058259235",
+        "https://openalex.org/W2059258809",
+        "https://openalex.org/W2059259021",
+        "https://openalex.org/W2059849178",
+        "https://openalex.org/W2061327588",
+        "https://openalex.org/W2061558337",
+        "https://openalex.org/W2063007558",
+        "https://openalex.org/W2064336912",
+        "https://openalex.org/W2064339003",
+        "https://openalex.org/W2064449517",
+        "https://openalex.org/W2065269353",
+        "https://openalex.org/W2065727056",
+        "https://openalex.org/W2066182370",
+        "https://openalex.org/W2066217039",
+        "https://openalex.org/W2066379992",
+        "https://openalex.org/W2066756452",
+        "https://openalex.org/W2067181911",
+        "https://openalex.org/W2067365470",
+        "https://openalex.org/W2067699998",
+        "https://openalex.org/W2069369697",
+        "https://openalex.org/W2070266844",
+        "https://openalex.org/W2070327368",
+        "https://openalex.org/W2070730627",
+        "https://openalex.org/W2071760902",
+        "https://openalex.org/W2071981069",
+        "https://openalex.org/W2072395872",
+        "https://openalex.org/W2075132190",
+        "https://openalex.org/W2075210961",
+        "https://openalex.org/W2075695937",
+        "https://openalex.org/W2075904190",
+        "https://openalex.org/W2076490038",
+        "https://openalex.org/W2077618225",
+        "https://openalex.org/W2077676491",
+        "https://openalex.org/W2078050926",
+        "https://openalex.org/W2078135667",
+        "https://openalex.org/W2078393266",
+        "https://openalex.org/W2078749814",
+        "https://openalex.org/W2078923630",
+        "https://openalex.org/W2078990514",
+        "https://openalex.org/W2079173034",
+        "https://openalex.org/W2079361582",
+        "https://openalex.org/W2079710499",
+        "https://openalex.org/W2079852082",
+        "https://openalex.org/W2079897372",
+        "https://openalex.org/W2080434679",
+        "https://openalex.org/W2080562528",
+        "https://openalex.org/W2080771741",
+        "https://openalex.org/W2080805676",
+        "https://openalex.org/W2081256393",
+        "https://openalex.org/W2081287306",
+        "https://openalex.org/W2081594732",
+        "https://openalex.org/W2083030347",
+        "https://openalex.org/W2083973064",
+        "https://openalex.org/W2084058428",
+        "https://openalex.org/W2084278923",
+        "https://openalex.org/W2085179897",
+        "https://openalex.org/W2085365278",
+        "https://openalex.org/W2087413878",
+        "https://openalex.org/W2088561438",
+        "https://openalex.org/W2088721408",
+        "https://openalex.org/W2088757926",
+        "https://openalex.org/W2090865113",
+        "https://openalex.org/W2091738197",
+        "https://openalex.org/W2092532985",
+        "https://openalex.org/W2092555603",
+        "https://openalex.org/W2092769380",
+        "https://openalex.org/W2092936053",
+        "https://openalex.org/W2093464048",
+        "https://openalex.org/W2093475680",
+        "https://openalex.org/W2093957472",
+        "https://openalex.org/W2095426959",
+        "https://openalex.org/W2097243123",
+        "https://openalex.org/W2098369399",
+        "https://openalex.org/W2100146579",
+        "https://openalex.org/W2102908920",
+        "https://openalex.org/W2104210417",
+        "https://openalex.org/W2107512847",
+        "https://openalex.org/W2109415008",
+        "https://openalex.org/W2110283514",
+        "https://openalex.org/W2111911181",
+        "https://openalex.org/W2112411687",
+        "https://openalex.org/W2117389595",
+        "https://openalex.org/W2121234839",
+        "https://openalex.org/W2122425495",
+        "https://openalex.org/W2123035977",
+        "https://openalex.org/W2126444982",
+        "https://openalex.org/W2126978847",
+        "https://openalex.org/W2127987778",
+        "https://openalex.org/W2128158076",
+        "https://openalex.org/W2132311004",
+        "https://openalex.org/W2133084853",
+        "https://openalex.org/W2135073157",
+        "https://openalex.org/W2135947707",
+        "https://openalex.org/W2138967155",
+        "https://openalex.org/W2139839363",
+        "https://openalex.org/W2140378999",
+        "https://openalex.org/W2140630293",
+        "https://openalex.org/W2146763631",
+        "https://openalex.org/W2146896985",
+        "https://openalex.org/W2147513586",
+        "https://openalex.org/W2148179905",
+        "https://openalex.org/W2149578544",
+        "https://openalex.org/W2152063554",
+        "https://openalex.org/W2154437397",
+        "https://openalex.org/W2154990266",
+        "https://openalex.org/W2157591327",
+        "https://openalex.org/W2164653637",
+        "https://openalex.org/W2166029919",
+        "https://openalex.org/W2166439083",
+        "https://openalex.org/W2168758878",
+        "https://openalex.org/W2169173256",
+        "https://openalex.org/W2175674892",
+        "https://openalex.org/W2176575728",
+        "https://openalex.org/W2176724744",
+        "https://openalex.org/W2178919395",
+        "https://openalex.org/W2190003697",
+        "https://openalex.org/W2190933804",
+        "https://openalex.org/W2200002224",
+        "https://openalex.org/W2200530185",
+        "https://openalex.org/W2203510762",
+        "https://openalex.org/W2204343831",
+        "https://openalex.org/W2224240009",
+        "https://openalex.org/W2226651095",
+        "https://openalex.org/W2228900076",
+        "https://openalex.org/W2230592358",
+        "https://openalex.org/W2233743930",
+        "https://openalex.org/W2242144966",
+        "https://openalex.org/W2242634821",
+        "https://openalex.org/W2244407977",
+        "https://openalex.org/W2252516174",
+        "https://openalex.org/W2252750343",
+        "https://openalex.org/W2256737149",
+        "https://openalex.org/W2263464622",
+        "https://openalex.org/W2274187802",
+        "https://openalex.org/W2277968988",
+        "https://openalex.org/W2278117911",
+        "https://openalex.org/W2278662481",
+        "https://openalex.org/W2278682913",
+        "https://openalex.org/W2279483083",
+        "https://openalex.org/W2297900204",
+        "https://openalex.org/W2312285496",
+        "https://openalex.org/W2313095968",
+        "https://openalex.org/W2313424520",
+        "https://openalex.org/W2313858630",
+        "https://openalex.org/W2315534822",
+        "https://openalex.org/W2316718133",
+        "https://openalex.org/W2317086046",
+        "https://openalex.org/W2317113781",
+        "https://openalex.org/W2317126758",
+        "https://openalex.org/W2318547422",
+        "https://openalex.org/W2319283710",
+        "https://openalex.org/W2319571986",
+        "https://openalex.org/W2320535750",
+        "https://openalex.org/W2320918712",
+        "https://openalex.org/W2323747589",
+        "https://openalex.org/W2325337588",
+        "https://openalex.org/W2325793133",
+        "https://openalex.org/W2326866077",
+        "https://openalex.org/W2329418140",
+        "https://openalex.org/W2330432211",
+        "https://openalex.org/W2330945049",
+        "https://openalex.org/W2331465718",
+        "https://openalex.org/W2332172998",
+        "https://openalex.org/W2333928355",
+        "https://openalex.org/W2334739562",
+        "https://openalex.org/W2334956335",
+        "https://openalex.org/W2335055730",
+        "https://openalex.org/W2335099252",
+        "https://openalex.org/W2338709409",
+        "https://openalex.org/W2339628248",
+        "https://openalex.org/W2341356649",
+        "https://openalex.org/W2342061257",
+        "https://openalex.org/W2342989146",
+        "https://openalex.org/W2412050694",
+        "https://openalex.org/W2415653696",
+        "https://openalex.org/W2426597005",
+        "https://openalex.org/W2428199211",
+        "https://openalex.org/W2432016123",
+        "https://openalex.org/W2464068721",
+        "https://openalex.org/W2495692699",
+        "https://openalex.org/W2496518859",
+        "https://openalex.org/W2507583901",
+        "https://openalex.org/W2524382009",
+        "https://openalex.org/W2528710098",
+        "https://openalex.org/W2538055386",
+        "https://openalex.org/W2544988997",
+        "https://openalex.org/W2552627346",
+        "https://openalex.org/W2564459994",
+        "https://openalex.org/W2565173072",
+        "https://openalex.org/W2566198200",
+        "https://openalex.org/W2566309539",
+        "https://openalex.org/W2567831403",
+        "https://openalex.org/W2581705329",
+        "https://openalex.org/W2588652645",
+        "https://openalex.org/W2588719127",
+        "https://openalex.org/W2588985841",
+        "https://openalex.org/W2589090822",
+        "https://openalex.org/W2589780152",
+        "https://openalex.org/W2592498010",
+        "https://openalex.org/W2594849569",
+        "https://openalex.org/W2595612322",
+        "https://openalex.org/W2595618478",
+        "https://openalex.org/W2595781812",
+        "https://openalex.org/W2596362630",
+        "https://openalex.org/W2602527360",
+        "https://openalex.org/W2603431833",
+        "https://openalex.org/W2611474120",
+        "https://openalex.org/W2617220417",
+        "https://openalex.org/W2618917420",
+        "https://openalex.org/W2619626777",
+        "https://openalex.org/W2619687830",
+        "https://openalex.org/W2740033108",
+        "https://openalex.org/W2740688852",
+        "https://openalex.org/W2742698967",
+        "https://openalex.org/W2750682603",
+        "https://openalex.org/W2758582047",
+        "https://openalex.org/W2763132378",
+        "https://openalex.org/W2763260997",
+        "https://openalex.org/W2765406825",
+        "https://openalex.org/W2769609570",
+        "https://openalex.org/W2770295104",
+        "https://openalex.org/W2778860527",
+        "https://openalex.org/W2792416760",
+        "https://openalex.org/W2794914061",
+        "https://openalex.org/W2795633008",
+        "https://openalex.org/W2796239085",
+        "https://openalex.org/W2798377219",
+        "https://openalex.org/W2798672418",
+        "https://openalex.org/W2799215137",
+        "https://openalex.org/W2803610500",
+        "https://openalex.org/W2803908589",
+        "https://openalex.org/W2804508109",
+        "https://openalex.org/W2810466745",
+        "https://openalex.org/W2810824045",
+        "https://openalex.org/W2883634435",
+        "https://openalex.org/W2884266889",
+        "https://openalex.org/W2885245445",
+        "https://openalex.org/W2889919121",
+        "https://openalex.org/W2890266350",
+        "https://openalex.org/W2894240899",
+        "https://openalex.org/W2898113308",
+        "https://openalex.org/W2900824603",
+        "https://openalex.org/W2901047643",
+        "https://openalex.org/W2901753395",
+        "https://openalex.org/W2903490133",
+        "https://openalex.org/W2903821396",
+        "https://openalex.org/W2905309112",
+        "https://openalex.org/W2905881322",
+        "https://openalex.org/W2908502698",
+        "https://openalex.org/W2909727150",
+        "https://openalex.org/W2910533060",
+        "https://openalex.org/W2914183559",
+        "https://openalex.org/W2914933058",
+        "https://openalex.org/W2915479811",
+        "https://openalex.org/W2916648109",
+        "https://openalex.org/W2921154719",
+        "https://openalex.org/W2922099717",
+        "https://openalex.org/W2923549323",
+        "https://openalex.org/W2926253567",
+        "https://openalex.org/W2927072438",
+        "https://openalex.org/W2937755053",
+        "https://openalex.org/W2940006015",
+        "https://openalex.org/W2945610929",
+        "https://openalex.org/W2949342707",
+        "https://openalex.org/W2962773657",
+        "https://openalex.org/W2964246878",
+        "https://openalex.org/W2968158652",
+        "https://openalex.org/W2972421321",
+        "https://openalex.org/W2978186706",
+        "https://openalex.org/W2978286323",
+        "https://openalex.org/W2980690263",
+        "https://openalex.org/W2989700192",
+        "https://openalex.org/W2991165455",
+        "https://openalex.org/W2991213678",
+        "https://openalex.org/W2995317048",
+        "https://openalex.org/W3003368161",
+        "https://openalex.org/W3004190071",
+        "https://openalex.org/W3004204092",
+        "https://openalex.org/W3004378344",
+        "https://openalex.org/W3005175586",
+        "https://openalex.org/W3007546109",
+        "https://openalex.org/W3007823854",
+        "https://openalex.org/W3010190669",
+        "https://openalex.org/W3011961561",
+        "https://openalex.org/W3013205702",
+        "https://openalex.org/W3015516838",
+        "https://openalex.org/W3019832623",
+        "https://openalex.org/W3020904801",
+        "https://openalex.org/W3023209754",
+        "https://openalex.org/W3023459075",
+        "https://openalex.org/W3024539859",
+        "https://openalex.org/W3025811550",
+        "https://openalex.org/W3026010199",
+        "https://openalex.org/W3037278856",
+        "https://openalex.org/W3043827803",
+        "https://openalex.org/W3046333198",
+        "https://openalex.org/W3048228670",
+        "https://openalex.org/W3080197920",
+        "https://openalex.org/W3082268723",
+        "https://openalex.org/W3082683262",
+        "https://openalex.org/W3088898164",
+        "https://openalex.org/W3089777767",
+        "https://openalex.org/W3095079234",
+        "https://openalex.org/W3095830957",
+        "https://openalex.org/W3105215129",
+        "https://openalex.org/W3111673199",
+        "https://openalex.org/W3115944179",
+        "https://openalex.org/W3123555260",
+        "https://openalex.org/W3127714280",
+        "https://openalex.org/W3146755780",
+        "https://openalex.org/W3158754349",
+        "https://openalex.org/W3165927837",
+        "https://openalex.org/W3170257774",
+        "https://openalex.org/W3181171952",
+        "https://openalex.org/W4210951874",
+        "https://openalex.org/W4229515379",
+        "https://openalex.org/W4230236008",
+        "https://openalex.org/W4230707477",
+        "https://openalex.org/W4231866869",
+        "https://openalex.org/W4233330567",
+        "https://openalex.org/W4239340328",
+        "https://openalex.org/W4251893788",
+        "https://openalex.org/W4256458153",
+        "https://openalex.org/W4285719527",
+        "https://openalex.org/W4298871351",
+        "https://openalex.org/W4321237803"
+      ],
+      "related_works": [
+        "https://openalex.org/W2018389866",
+        "https://openalex.org/W4234652076",
+        "https://openalex.org/W3190260274",
+        "https://openalex.org/W3176700593",
+        "https://openalex.org/W2753082029",
+        "https://openalex.org/W2092522615",
+        "https://openalex.org/W58043805",
+        "https://openalex.org/W2078556998",
+        "https://openalex.org/W2727503052",
+        "https://openalex.org/W2351783879"
+      ],
+      "abstract_inverted_index": null,
+      "counts_by_year": [
+        {
+          "year": 2026,
+          "cited_by_count": 36
+        },
+        {
+          "year": 2025,
+          "cited_by_count": 39
+        },
+        {
+          "year": 2024,
+          "cited_by_count": 36
+        },
+        {
+          "year": 2023,
+          "cited_by_count": 34
+        },
+        {
+          "year": 2022,
+          "cited_by_count": 17
+        },
+        {
+          "year": 2021,
+          "cited_by_count": 1
+        }
+      ],
+      "updated_date": "2026-10-16T09:59:22.235173",
+      "created_date": "2025-10-10T00:00:00"
+    }
+  },
+  {
+    "at": "2026-10-17T06:19:53.188222+08:00",
+    "label": "if21-crossref",
+    "url": "https://api.crossref.org/works/10.1140/epja/s10050-021-00472-1",
+    "scope": "versionverification orcontrary-footnote discovery, notassumebodysameasv1",
+    "status": 200,
+    "content_type": "application/json",
+    "bytes": 14959,
+    "sha256": "d4d1a04b202f36abf402e82c3e5e0e065dd3e86858310c7d266c86e4de1d74eb",
+    "metadata": {
+      "title": [
+        "Linear polarization–direction correlations in $$\\gamma $$-ray scattering experiments"
+      ],
+      "DOI": "10.1140/epja/s10050-021-00472-1",
+      "author": [
+        {
+          "given": "Christian",
+          "family": "Iliadis",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Udo",
+          "family": "Friman-Gayer",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "volume": "57",
+      "issue": "6",
+      "article-number": "190",
+      "page": null,
+      "published": {
+        "date-parts": [
+          [
+            2021,
+            6
+          ]
+        ]
+      },
+      "relation": {},
+      "link": [
+        {
+          "URL": "https://link.springer.com/content/pdf/10.1140/epja/s10050-021-00472-1.pdf",
+          "content-type": "application/pdf",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://link.springer.com/article/10.1140/epja/s10050-021-00472-1/fulltext.html",
+          "content-type": "text/html",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://link.springer.com/content/pdf/10.1140/epja/s10050-021-00472-1.pdf",
+          "content-type": "application/pdf",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ]
+    }
+  }
+]

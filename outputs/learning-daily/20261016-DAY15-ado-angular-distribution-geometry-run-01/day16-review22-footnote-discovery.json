@@ -1,0 +1,73 @@
+[
+  {
+    "at": "2026-10-17T06:27:16.865234+08:00",
+    "label": "review22-inspire",
+    "url": "https://inspirehep.net/api/literature",
+    "parameters": {
+      "q": "doi:10.1016/j.ppnp.2021.103903",
+      "fields": "dois,titles,documents,arxiv_eprints,report_numbers",
+      "size": 2
+    },
+    "scope": "targetedfootnoteonlyifbodyobtained; nofullreviewclaimed",
+    "status": 200,
+    "content_type": "application/json",
+    "bytes": 2087,
+    "sha256": "5cb965d8ddb90c5a9e280de4f8f54de60fabb9675774e6bc8911fb5484ef79eb",
+    "hits": [
+      {
+        "metadata": {
+          "control_number": 1980458,
+          "dois": [
+            {
+              "material": "erratum",
+              "source": "Elsevier B.V.",
+              "value": "10.1016/j.ppnp.2023.104059"
+            },
+            {
+              "material": "publication",
+              "source": "Elsevier B.V.",
+              "value": "10.1016/j.ppnp.2021.103903"
+            }
+          ],
+          "titles": [
+            {
+              "source": "Elsevier B.V.",
+              "title": "Photonuclear reactions—From basic research to applications"
+            },
+            {
+              "source": "Elsevier B.V.",
+              "title": "Corrigendum to “Photonuclear reactions—From basic research to applications” [Prog. Part. Nucl. Phys. 122 (2022) 1-96/103903]"
+            }
+          ]
+        },
+        "created": "2021-11-30T15:24:34.248271+00:00",
+        "id": "1980458",
+        "updated": "2025-07-11T18:25:05.660314+00:00",
+        "links": {
+          "bibtex": "https://inspirehep.net/api/literature/1980458?format=bibtex",
+          "latex-eu": "https://inspirehep.net/api/literature/1980458?format=latex-eu",
+          "latex-us": "https://inspirehep.net/api/literature/1980458?format=latex-us",
+          "json": "https://inspirehep.net/api/literature/1980458?format=json",
+          "json-expanded": "https://inspirehep.net/api/literature/1980458?format=json-expanded",
+          "cv": "https://inspirehep.net/api/literature/1980458?format=cv",
+          "citations": "https://inspirehep.net/api/literature/?q=refersto%3Arecid%3A1980458"
+        }
+      }
+    ]
+  },
+  {
+    "at": "2026-10-17T06:27:16.865426+08:00",
+    "label": "review22-publisher-pdf",
+    "url": "https://www.sciencedirect.com/science/article/pii/S0146641021000624/pdfft",
+    "parameters": {
+      "isDTMRedir": "true",
+      "download": "true"
+    },
+    "scope": "targetedfootnoteonlyifbodyobtained; nofullreviewclaimed",
+    "status": 403,
+    "content_type": "text/html; charset=UTF-8",
+    "bytes": 1207955,
+    "sha256": "a1b6cd29abc63717e527f46cb012b11d74f04e48ad3f90d64bd718c98c629302",
+    "not_PDF": true
+  }
+]

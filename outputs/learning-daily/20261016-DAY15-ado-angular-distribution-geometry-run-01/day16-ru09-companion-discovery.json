@@ -1,0 +1,132 @@
+{
+  "at": "2026-10-17T06:07:06.876638+08:00",
+  "url": "https://api.crossref.org/works",
+  "parameters": {
+    "query.bibliographic": "Pietralla 2003 AIP Conference Proceedings 656 365 polarized photons",
+    "rows": 4
+  },
+  "scope": "targetedRU09Eq3companionidentity only",
+  "status": 200,
+  "matches": [
+    {
+      "title": [
+        "Nuclear Structure Physics With A Free Electron Laser"
+      ],
+      "DOI": "10.1063/1.1556666",
+      "author": [
+        {
+          "given": "N.",
+          "family": "Pietralla",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "page": "365-372",
+      "volume": "656",
+      "published": {
+        "date-parts": [
+          [
+            2003
+          ]
+        ]
+      },
+      "link": null
+    },
+    {
+      "title": [
+        "Recent Status of Polarized Parton Distributions"
+      ],
+      "DOI": "10.1063/1.1607160",
+      "author": [
+        {
+          "given": "M.",
+          "family": "Hirai",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "page": "365-369",
+      "volume": "675",
+      "published": {
+        "date-parts": [
+          [
+            2003
+          ]
+        ]
+      },
+      "link": null
+    },
+    {
+      "title": [
+        "Few-body physics with polarized photons"
+      ],
+      "DOI": "10.1063/1.48657",
+      "author": [
+        {
+          "given": "A. M.",
+          "family": "Sandorfi",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "page": "230-244",
+      "volume": "339",
+      "published": {
+        "date-parts": [
+          [
+            1995
+          ]
+        ]
+      },
+      "link": null
+    },
+    {
+      "title": [
+        "Dissipative effects in the propagation of polarized photons"
+      ],
+      "DOI": "10.1063/1.1374965",
+      "author": [
+        {
+          "given": "F.",
+          "family": "Benatti",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "page": "37-42",
+      "volume": "564",
+      "published": {
+        "date-parts": [
+          [
+            2001
+          ]
+        ]
+      },
+      "link": null
+    }
+  ]
+}

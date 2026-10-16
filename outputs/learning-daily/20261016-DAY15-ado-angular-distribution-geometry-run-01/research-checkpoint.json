@@ -1,5 +1,5 @@
 {
-  "captured_at": "2026-10-17T05:59:26.747913+08:00",
+  "captured_at": "2026-10-17T06:40:42.753731+08:00",
   "session_id": "01a14510-aec7-7e00-aa23-f7c77a5124bc",
   "run_id": "2026-10-16-day-15-01",
   "hard_deadline": "2026-10-17T15:00:00+08:00",
@@ -178,7 +178,7 @@
       "human_review_created": false
     }
   },
-  "current_status": "Published001–009actualH3/push; checkpoint010committed matchedFO/E0BeOmg/conditionalK-L1rank/countdesign passfreshchecks,actualpublicationonlyreceipt010. NextRU09viable/primedfreeze/rawnotopened; formal15once/partial16/originalwindowactive.",
+  "current_status": "Published001–010actualH3/push; checkpoint011committed RU09/IF21 source/method conditionalroots36writebackpassfreshchecks, actualH3/pushonlypublication011. NextA130129Baprimedfreeze/oldsourcealreadyread/rawnotopened; formal15once/partial16/originalwindowactive.",
   "worksheet": {
     "input_sha256": "e8e31f0691862296b62adffb34e6e5395d22ba6cdc59f629a00c71a89eeadf04",
     "script": "system/scripts/day15_ado_covariance_worksheet.py",
@@ -188,10 +188,10 @@
     "figure_source_warnings": 4
   },
   "next_actions": [
-    "Publish010exactmanifest/H3",
-    "RU09raw4pagecomplete/keyfigtable andexplicitphysicalpriorbranch, freezealreadydone",
-    "RU09actualoldflag6false/pagehumanreviewed, projectsummaryprimingnotcurrentflag; preserveoldwholeprefix,newtrueonly",
-    "NoDay17, nofreeoldtoyrepeat, original15:00cutoff"
+    "Publish011exactmanifest/H3 includingactualpublication010receipt",
+    "Obtainofficialarxiv2108.05313v3, verifyversion/title/DOI andreadcomplete; compareonlyneededCH24raworiginalfullmainline/sourcedependency",
+    "OldCH24wholeprefix/pagehumanreview/claims1–6true retain, pre-readbaselinecaptured",
+    "NoDay17/independentdatasetfabrication; original15:00cutoff"
   ],
   "mixed_event_analysis": {
     "input_sha256": "b0a0bb6503d01e8dc432e1a866960872b4fbc1bebd89a1737ca766eab9bab72c",
@@ -485,5 +485,60 @@
     "marginalbox_rankloss_is_scope_only": true,
     "actual_L4": false,
     "boundedstopcontractsmet": true
+  },
+  "RU09_current": {
+    "source": "knowledge/sources/rusev-2009-multipole-mixing-ratios-11b.md",
+    "oldhumanreviewwholeprefix_preserve": true,
+    "actual_old_RU09_6_needs_review": false,
+    "rawsha": "acf557c95f557a3de075ae263e2ef3bc9f6b2e3f9e905928445df20fad3896f9",
+    "pages_read": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "input": "day16-rusev09-elastic-input.json",
+    "script": "system/scripts/day16_rusev09_elastic_branches.py",
+    "firstoutput": "day16-rusev09-elastic-first.json",
+    "firstcode": "day16-rusev09-elastic-first-code.txt",
+    "model_source_match": false,
+    "pure_isotropic_internal_controls_pass": true,
+    "fixed_excitation_diagnostic": "day16-rusev09-fixed-excitation-diagnostic.json, explicitlynotprintedδ1=δ2model andnotmatchinglarge-1.30; notfinalhypothesis",
+    "companion": "KSW73 targetrolesEq4/5/6/44/45 scanned/text, AIP2003Pietralla DOI10.1063/1.1556666metadatafound; Bprimeformulafulltextnotyetobtained",
+    "opposite_internal_excitation_probe": "day16-rusev09-opposite-excitation-coordinate-diagnostic.json: smalldeltasnearreported, stillnotlarge-1.30/allroots. Sensitivityonly, notadoptedcoordinatebridge.",
+    "alpaca": "u-eff-gee/alpaca commitf173c2d2e2fd855451e06446a2cfcce679c42d24, publicmetadata/pinnedcodereadpending,noexecution"
+  },
+  "IF21_current": {
+    "v1_read_mainline_pages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18
+    ],
+    "VoR_critical_defs_verified": true,
+    "VoR_raw": "raw/papers/gpt/day15-20261016/iliadis-friman-gayer-2021-vor-4c0b226de8e5.pdf",
+    "source_andcanonical_pending": true,
+    "independent_IF21_coefficient_vs_originaldirect_error": 8.881784197001252e-16,
+    "input": "day16-if21-coefficient-audit-input.json",
+    "script": "system/scripts/day16_if21_coefficient_audit.py",
+    "firstresult": "day16-if21-coefficient-audit-first.json",
+    "publishedcriticism": "VoRp5Sect3explicitlycriticizesRU09sameSteffensign; reportasauthorclaim",
+    "counterposition": "ALPACA READMEreportsreview2022modifiedKSWfootnote2; directbodynotyetfound; new2023corrigendumDOIfoundmetadata, contentsunknown",
+    "ALPACA_code": "7pinnedGitblobshashverified/read,nobuild/execution/copiedcode",
+    "not_a_new_actualNRFdelta_fit": true
   }
 }

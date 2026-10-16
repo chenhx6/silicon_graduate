@@ -8,15 +8,17 @@ updated: 2026-10-17
 
 ## Active handoff — DAY15 card complete, study window active
 
-Run2026-10-16-day-15-01/session01a14510-aec7-7e00-aa23-f7c77a5124bc，原2026-10-17 15:00上海研究截止/15–16收束不改。Goal/runactive；formal15只计一次，next16/count15，completed15/partial16，不授16/不开17。publication001–009实际H3非force push/remoteHEAD核，exacthash仅receipt。
+Run2026-10-16-day-15-01/session01a14510-aec7-7e00-aa23-f7c77a5124bc，原2026-10-17 15:00上海研究截止/15–16收束不改。Goal/run active，formal15只计一次next16/count15，completed15/partial16，不授16/不开17。publication001–010实际H3非force push/remoteHEAD核，exacthash只receipt。
 
-010为明确壳层/参考E0合同：KB08全文主线202–214+AppendixA/selectedZ70row视觉已核，原全部34,020bytes历史prefix/flags/AR/pagehumanreview保留，新D15-1..6true。新两FOpurelookup与一个独立预算E0query共3POST/0retry，actual v2.3(2011)，E0实际BeOmg不是FO。K(M1/E2)=.0363/.01475，fixedsource−21°mixed=.0335324；programTot有N6/N7warning不认证complete，E0只列K/L1/L2也不complete。Zonly/defaultA173非A164recalc、energy.1keV未传播、theoryCov/actualΣ缺。新3HTMLraw/hash不stage。
+011：RU09完整4页/关键pixels，原humanreview全prefix/旧1–7flags保持（RU09-6实际false，回忆误以true仅记录未回改）。新RU09-8..14 true；IF21新source/NRFbranch方法，v1mainline1–18读完/关键图和selectedAppendix、VoR关键Eq/criticism/p14/16已核，未称VoR39页全读。VoRp5作者批评RU09sameKSWsign；codeREADME说modifiedincomingcoeff可保留same-sign，直接2022reviewfootnote/2023corrigendumbody尚未得。新版文献criticism不自动判原producer错误。
 
-ICCowner保存finiteelectron/gammaresponseκexactalias、fixedpointcountdesignchosen非实际power、E0正率和K/L1归一condition437/angle.2622°；名义marginalbox可rankloss只作scope。此前三NNDCraw/EKC/time/BE2谱系/secondaryprojectile冲突维持，无新唯一δ/E0/Jpi/actualL4。33writeback/36mapped/33changed/19mainraw/10quantitativehash/13旧rowsreviewfresh通过，lint0error/146warnings。新inline矩阵误作wikilink已修括号，失败回执保留。
+新directNRFprobefirstcode/JSON保留；其混合曲线未复现RU09，但独立IF21Eq3–9系数与Hermitiantrace匹配8.89e−16、angularmean1，验证physicalBiedenharn模型而非旧producer。5/2conditional4roots，3/2两根，a±error全根与45°ideal预测canonical；C45/Σ未知不套C90，不改实际δ。fixedin0/oppositesign/rank2cut是明确后验diagnostics均未闭合原−1.30，不宣称作者那样实现。ALPACAfixedcommit f173c2d…七Gitblobs只读/hash验证，未执行/复制GPL；rawhosttimeout换API有记录。IF21v1/VoR raw2份hash不stage。KSW73仅targeted，未重读56页。
 
-检查点010已提交，稳定指针main / `Add shell-matched conversion references and E0 conditioning limits`，actualH3/push只publication010。05:56:04上海余543.93min；candidate-refresh010核sigma/I project与exactDay16card，仍有RU09实际已知photonbeam density下选枝的高信息route，不能在checkpointcloseout。primed回忆/基线已存，已读旧source但4page raw尚未开。注意冻结回忆从project以为RU09-6needsreview，当前source实为false/pagehuman-reviewed，纠正只记新artifact不改冻结/原flag；原整篇prefix保持，新appendtrue。只研究branch/reference用途，不做新11B结构页/新卡。
+36writeback/39mapped/36changed/21mappedraw/12scriptinputhash/14旧source rowsreview和KB08/RU09全prefix、原人审页/PLAN/Bib/daemonfresh通过；lint0error/146warnings，boundary/preflight/diff0。ActualADO/135Pr/164Yb/NRFproducer/response/Σ仍notready，无新Jpi/模式/experimentalfit。
 
-Resume `codex resume 01a14510-aec7-7e00-aa23-f7c77a5124bc -C /workspace/wiki -s danger-full-access -a never`。保护PLAN/Bib/原userraw/review/credentials/继承receipts/daemon/旧log；exactmanifest/log只HEAD+ownappend，一次未发布reconciliation后freshH3非force HEAD:main。N164Xie/Jo primary仍未得，失败链接不原样重试；最终closeout才一次overview对账。无待等研究process。
+检查点011已提交，稳定指针main / `Audit polarized-photon branches with explicit phase roles`，actualH3/push仅publication011。06:39:11上海余500.82min，candidate-refresh011已选A130129Ba365公开reanalysis(arxiv2108.05313v3)，primedfreeze已存；旧CH24source已读/raw未开。CH24 2024source页humanreview但claims1–6仍true，beforeappendbaseline已保存，旧全prefix/AR/人审不改，新科学需要appendtrue。先核v3全文身份/版本与原Gizon1978数据/CH24引用重用，不计新采集，不把wobblingpossibility升级。仍只partial16，当前有高价值route，不能本checkpoint收束。
+
+Resume `codex resume 01a14510-aec7-7e00-aa23-f7c77a5124bc -C /workspace/wiki -s danger-full-access -a never`。保护PLAN/Bib/原raw/review/credentials/继承receipts/daemon/旧log；exactmanifest、log只HEAD+ownappend；一次unpublishedreconciliation后H3freshfetch/ancestry/dryrun/nonforce HEAD:main。最终closeout才一次overview对账，无待等process。
 
 ## Previous active handoff — DAY14 completed after authorized extension
 

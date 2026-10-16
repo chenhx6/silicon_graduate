@@ -1,0 +1,49 @@
+{
+  "identity": "DAY16-PREVIEW-IF21-RU09-COEFFICIENT-ROLE-AUDIT-01",
+  "frozen_at": "2026-10-17T06:23:31.927677+08:00",
+  "session_id": "01a14510-aec7-7e00-aa23-f7c77a5124bc",
+  "primary_source": "IliadisFrimanGayer2021 doi10.1140/epja/s10050-021-00472-1",
+  "arxiv_raw": "raw/papers/gpt/day15-20261016/iliadis-friman-gayer-2021-arxiv2104.00228-58c0294f6b3d.pdf",
+  "arxiv_version": "2104.00228v1 31-Mar-2021",
+  "arxiv_sha256": "58c0294f6b3d1ef6969484bf89dfc6248ea44b5a73b536ca6bf38aa048dfc756",
+  "vor_raw": "raw/papers/gpt/day15-20261016/iliadis-friman-gayer-2021-vor-4c0b226de8e5.pdf",
+  "vor_sha256": "4c0b226de8e5356406122f7610d3d493a171487579b9b6cf879e8f993a30657f",
+  "reading_scope": "v1mainline1–18textincludingreferences/appintroread; VoRcritical1–6/Eq2–18andp5criticismtargetedverified; notyetvisualallfiguresorcomplete39pageVoR",
+  "phase": "IF21Eq13/16Biedenharn δB1=δB2 forphysicalelastic; Eq18mapsunmodifiedSteffen δB1=-δS1,δB2=δS2. ChangedcoefficientsmaykeepKSsameδ, do notconfusesignalonewithphysicalbranch. Needdirectcounterfootnote2022beforeverdict.",
+  "formalism": "independentlyimplementpublishedEq3–9 normalizedangularmean1; noGPLcodecopied/executed",
+  "geometry_mapping": "IF21beamx/Ey/azimuthfromz -> directbeamz/Ex/azimuthfromx byproperrotation: φdirect=pi/2-φIF. RU09aH-V=-A_IF21.",
+  "rou09_frozen_input": "outputs/learning-daily/20261016-DAY15-ado-angular-distribution-geometry-run-01/day16-rusev09-elastic-input.json",
+  "rou09_input_sha256": "507029204a85b75d93d37dda9d319f8b36ecea16185fa7594509ac478cf21d59",
+  "directcode_snapshot": "day16-rusev09-elastic-first-code.txt",
+  "directfirst_output": "day16-rusev09-elastic-first.json",
+  "checks": {
+    "chosen_ground_twice_spin": 3,
+    "chosen_excited_twice_spins": [
+      3,
+      5
+    ],
+    "delta_B_values_chosen": [
+      -2.0,
+      -0.3,
+      0.0,
+      0.2,
+      1.3
+    ],
+    "theta_degrees": [
+      37,
+      45,
+      90,
+      121
+    ],
+    "phi_IF_degrees": [
+      0,
+      31,
+      90
+    ],
+    "normalization": "UseW/4pi asdensitysinceWangularmean=1; literalprintedEq12normalizationnotusedasindependentproof. Checkownintegrals explicitly.",
+    "worked_example_source": "IF21Eq19,0M1->1 M1/E2->2; W=(1+d2²)+(.05+.6708d2+.25d2²)P2-(.025+.3354d2+.125d2²)P2^2cos2φ, roundedcoeff only",
+    "inverse": "retainallrealquarticroots/nearzero/sourcereportedlargebranch; comparebothdB1=dB2 andoppositedB1=-dB2asdistinctformulamodels, notpickmatchingone"
+  },
+  "uncertainties": "NoactualCov/producerresponse orcorrectedexperimentalδnewCI; sourceC/P approximate",
+  "stop_contract": "onecoef/directroleauditandsourceinversionbatch, unmodifiedoriginalprobe/inputpreserved. Onmismatchrecord/stopfreesignfitting; noauthorerrorverdictfrommodelalone"
+}

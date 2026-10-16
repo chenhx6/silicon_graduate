@@ -1,0 +1,1790 @@
+{
+  "identity": "DAY16-PREVIEW-IF21-RU09-COEFFICIENT-ROLE-AUDIT-01",
+  "input_sha256": "c0a46e572ed215c03608b2881765ba844937b57bb3e76940ebbeb3f2ebcd8af0",
+  "script_sha256": "431cd7a4bd486d487843f9e92118215e214c9dadd50a99efaf394e6e947bd010",
+  "max_coefficient_trace_difference": 8.881784197001252e-16,
+  "normalization": [
+    {
+      "twice_J": 3,
+      "d_B": -2.0,
+      "angular_mean": 0.9999999999999997
+    },
+    {
+      "twice_J": 3,
+      "d_B": -0.3,
+      "angular_mean": 0.999999999999999
+    },
+    {
+      "twice_J": 3,
+      "d_B": 0.0,
+      "angular_mean": 0.9999999999999992
+    },
+    {
+      "twice_J": 3,
+      "d_B": 0.2,
+      "angular_mean": 0.9999999999999996
+    },
+    {
+      "twice_J": 3,
+      "d_B": 1.3,
+      "angular_mean": 1.0000000000000002
+    },
+    {
+      "twice_J": 5,
+      "d_B": -2.0,
+      "angular_mean": 1.0000000000000007
+    },
+    {
+      "twice_J": 5,
+      "d_B": -0.3,
+      "angular_mean": 1.0000000000000002
+    },
+    {
+      "twice_J": 5,
+      "d_B": 0.0,
+      "angular_mean": 0.9999999999999997
+    },
+    {
+      "twice_J": 5,
+      "d_B": 0.2,
+      "angular_mean": 1.0000000000000004
+    },
+    {
+      "twice_J": 5,
+      "d_B": 1.3,
+      "angular_mean": 1.0000000000000002
+    }
+  ],
+  "samples": [
+    {
+      "twice_J": 3,
+      "d_B": -2.0,
+      "theta_deg": 37.0,
+      "phi_IF_deg": 0.0,
+      "coefficient": 1.2170394953827068,
+      "normalized_trace": 1.2170394953827073,
+      "error": 4.440892098500626e-16
+    },
+    {
+      "twice_J": 3,
+      "d_B": -2.0,
+      "theta_deg": 37.0,
+      "phi_IF_deg": 31.0,
+      "coefficient": 1.1724662374532886,
+      "normalized_trace": 1.1724662374532893,
+      "error": 6.661338147750939e-16
+    },
+    {
+      "twice_J": 3,
+      "d_B": -2.0,
+      "theta_deg": 37.0,
+      "phi_IF_deg": 90.0,
+      "coefficient": 1.0490060600272726,
+      "normalized_trace": 1.049006060027273,
+      "error": 4.440892098500626e-16
+    },
+    {
+      "twice_J": 3,
+      "d_B": -2.0,
+      "theta_deg": 45.0,
+      "phi_IF_deg": 0.0,
+      "coefficient": 1.1888000000000003,
+      "normalized_trace": 1.1888000000000005,
+      "error": 2.220446049250313e-16
+    },
+    {
+      "twice_J": 3,
+      "d_B": -2.0,
+      "theta_deg": 45.0,
+      "phi_IF_deg": 31.0,
+      "coefficient": 1.1272655485931473,
+      "normalized_trace": 1.1272655485931478,
+      "error": 4.440892098500626e-16
+    },
+    {
+      "twice_J": 3,
+      "d_B": -2.0,
+      "theta_deg": 45.0,
+      "phi_IF_deg": 90.0,
+      "coefficient": 0.9568258131685451,
+      "normalized_trace": 0.9568258131685453,
+      "error": 2.220446049250313e-16
+    },
+    {
+      "twice_J": 3,
+      "d_B": -2.0,
+      "theta_deg": 90.0,
+      "phi_IF_deg": 0.0,
+      "coefficient": 1.0863483736629098,
+      "normalized_trace": 1.0863483736629107,
+      "error": 8.881784197001252e-16
+    },
+    {
+      "twice_J": 3,
+      "d_B": -2.0,
+      "theta_deg": 90.0,
+      "phi_IF_deg": 31.0,
+      "coefficient": 0.9632794708492043,
+      "normalized_trace": 0.963279470849205,
+      "error": 6.661338147750939e-16
+    },
+    {
+      "twice_J": 3,
+      "d_B": -2.0,
+      "theta_deg": 90.0,
+      "phi_IF_deg": 90.0,
+      "coefficient": 0.6223999999999997,
+      "normalized_trace": 0.6224000000000005,
+      "error": 7.771561172376096e-16
+    },
+    {
+      "twice_J": 3,
+      "d_B": -2.0,
+      "theta_deg": 121.0,
+      "phi_IF_deg": 0.0,
+      "coefficient": 1.1407018748735702,
+      "normalized_trace": 1.1407018748735709,
+      "error": 6.661338147750939e-16
+    },
+    {
+      "twice_J": 3,
+      "d_B": -2.0,
+      "theta_deg": 121.0,
+      "phi_IF_deg": 31.0,
+      "coefficient": 1.05027874839957,
+      "normalized_trace": 1.0502787483995704,
+      "error": 4.440892098500626e-16
+    },
+    {
+      "twice_J": 3,
+      "d_B": -2.0,
+      "theta_deg": 121.0,
+      "phi_IF_deg": 90.0,
+      "coefficient": 0.7998224040243659,
+      "normalized_trace": 0.7998224040243662,
+      "error": 3.3306690738754696e-16
+    },
+    {
+      "twice_J": 3,
+      "d_B": -0.3,
+      "theta_deg": 37.0,
+      "phi_IF_deg": 0.0,
+      "coefficient": 1.0180439916773119,
+      "normalized_trace": 1.0180439916773127,
+      "error": 8.881784197001252e-16
+    },
+    {
+      "twice_J": 3,
+      "d_B": -0.3,
+      "theta_deg": 37.0,
+      "phi_IF_deg": 31.0,
+      "coefficient": 1.0093264049887452,
+      "normalized_trace": 1.009326404988746,
+      "error": 8.881784197001252e-16
+    },
+    {
+      "twice_J": 3,
+      "d_B": -0.3,
+      "theta_deg": 37.0,
+      "phi_IF_deg": 90.0,
+      "coefficient": 0.985180205018319,
+      "normalized_trace": 0.9851802050183197,
+      "error": 6.661338147750939e-16
+    },
+    {
+      "twice_J": 3,
+      "d_B": -0.3,
+      "theta_deg": 45.0,
+      "phi_IF_deg": 0.0,
+      "coefficient": 1.0235670398114634,
+      "normalized_trace": 1.023567039811464,
+      "error": 6.661338147750939e-16
+    },
+    {
+      "twice_J": 3,
+      "d_B": -0.3,
+      "theta_deg": 45.0,
+      "phi_IF_deg": 31.0,
+      "coefficient": 1.011532202346316,
+      "normalized_trace": 1.0115322023463167,
+      "error": 6.661338147750939e-16
+    },
+    {
+      "twice_J": 3,
+      "d_B": -0.3,
+      "theta_deg": 45.0,
+      "phi_IF_deg": 90.0,
+      "coefficient": 0.978197794278296,
+      "normalized_trace": 0.9781977942782966,
+      "error": 5.551115123125783e-16
+    },
+    {
+      "twice_J": 3,
+      "d_B": -0.3,
+      "theta_deg": 90.0,
+      "phi_IF_deg": 0.0,
+      "coefficient": 1.0436044114434069,
+      "normalized_trace": 1.0436044114434075,
+      "error": 6.661338147750939e-16
+    },
+    {
+      "twice_J": 3,
+      "d_B": -0.3,
+      "theta_deg": 90.0,
+      "phi_IF_deg": 31.0,
+      "coefficient": 1.0195347365131124,
+      "normalized_trace": 1.019534736513113,
+      "error": 6.661338147750939e-16
+    },
+    {
+      "twice_J": 3,
+      "d_B": -0.3,
+      "theta_deg": 90.0,
+      "phi_IF_deg": 90.0,
+      "coefficient": 0.9528659203770722,
+      "normalized_trace": 0.952865920377073,
+      "error": 7.771561172376096e-16
+    },
+    {
+      "twice_J": 3,
+      "d_B": -0.3,
+      "theta_deg": 121.0,
+      "phi_IF_deg": 0.0,
+      "coefficient": 1.0329740159856335,
+      "normalized_trace": 1.0329740159856342,
+      "error": 6.661338147750939e-16
+    },
+    {
+      "twice_J": 3,
+      "d_B": -0.3,
+      "theta_deg": 121.0,
+      "phi_IF_deg": 31.0,
+      "coefficient": 1.0152891645678492,
+      "normalized_trace": 1.01528916456785,
+      "error": 6.661338147750939e-16
+    },
+    {
+      "twice_J": 3,
+      "d_B": -0.3,
+      "theta_deg": 121.0,
+      "phi_IF_deg": 90.0,
+      "coefficient": 0.9663051998495933,
+      "normalized_trace": 0.966305199849594,
+      "error": 6.661338147750939e-16
+    },
+    {
+      "twice_J": 3,
+      "d_B": 0.0,
+      "theta_deg": 37.0,
+      "phi_IF_deg": 0.0,
+      "coefficient": 0.9861529653960797,
+      "normalized_trace": 0.9861529653960801,
+      "error": 4.440892098500626e-16
+    },
+    {
+      "twice_J": 3,
+      "d_B": 0.0,
+      "theta_deg": 37.0,
+      "phi_IF_deg": 31.0,
+      "coefficient": 1.032268363187442,
+      "normalized_trace": 1.0322683631874423,
+      "error": 2.220446049250313e-16
+    },
+    {
+      "twice_J": 3,
+      "d_B": 0.0,
+      "theta_deg": 37.0,
+      "phi_IF_deg": 90.0,
+      "coefficient": 1.1599999999999997,
+      "normalized_trace": 1.1600000000000001,
+      "error": 4.440892098500626e-16
+    },
+    {
+      "twice_J": 3,
+      "d_B": 0.0,
+      "theta_deg": 45.0,
+      "phi_IF_deg": 0.0,
+      "coefficient": 0.9199999999999999,
+      "normalized_trace": 0.9199999999999999,
+      "error": 0.0
+    },
+    {
+      "twice_J": 3,
+      "d_B": 0.0,
+      "theta_deg": 45.0,
+      "phi_IF_deg": 31.0,
+      "coefficient": 0.9836634124656929,
+      "normalized_trace": 0.9836634124656932,
+      "error": 3.3306690738754696e-16
+    },
+    {
+      "twice_J": 3,
+      "d_B": 0.0,
+      "theta_deg": 45.0,
+      "phi_IF_deg": 90.0,
+      "coefficient": 1.1599999999999997,
+      "normalized_trace": 1.16,
+      "error": 2.220446049250313e-16
+    },
+    {
+      "twice_J": 3,
+      "d_B": 0.0,
+      "theta_deg": 90.0,
+      "phi_IF_deg": 0.0,
+      "coefficient": 0.6799999999999998,
+      "normalized_trace": 0.6800000000000002,
+      "error": 3.3306690738754696e-16
+    },
+    {
+      "twice_J": 3,
+      "d_B": 0.0,
+      "theta_deg": 90.0,
+      "phi_IF_deg": 31.0,
+      "coefficient": 0.8073268249313861,
+      "normalized_trace": 0.8073268249313866,
+      "error": 5.551115123125783e-16
+    },
+    {
+      "twice_J": 3,
+      "d_B": 0.0,
+      "theta_deg": 90.0,
+      "phi_IF_deg": 90.0,
+      "coefficient": 1.1599999999999997,
+      "normalized_trace": 1.1600000000000001,
+      "error": 4.440892098500626e-16
+    },
+    {
+      "twice_J": 3,
+      "d_B": 0.0,
+      "theta_deg": 121.0,
+      "phi_IF_deg": 0.0,
+      "coefficient": 0.807326824931386,
+      "normalized_trace": 0.8073268249313863,
+      "error": 3.3306690738754696e-16
+    },
+    {
+      "twice_J": 3,
+      "d_B": 0.0,
+      "theta_deg": 121.0,
+      "phi_IF_deg": 31.0,
+      "coefficient": 0.9008783991396307,
+      "normalized_trace": 0.9008783991396312,
+      "error": 4.440892098500626e-16
+    },
+    {
+      "twice_J": 3,
+      "d_B": 0.0,
+      "theta_deg": 121.0,
+      "phi_IF_deg": 90.0,
+      "coefficient": 1.1599999999999997,
+      "normalized_trace": 1.1600000000000001,
+      "error": 4.440892098500626e-16
+    },
+    {
+      "twice_J": 3,
+      "d_B": 0.2,
+      "theta_deg": 37.0,
+      "phi_IF_deg": 0.0,
+      "coefficient": 1.1069767449614425,
+      "normalized_trace": 1.106976744961443,
+      "error": 4.440892098500626e-16
+    },
+    {
+      "twice_J": 3,
+      "d_B": 0.2,
+      "theta_deg": 37.0,
+      "phi_IF_deg": 31.0,
+      "coefficient": 1.1631030460459904,
+      "normalized_trace": 1.1631030460459908,
+      "error": 4.440892098500626e-16
+    },
+    {
+      "twice_J": 3,
+      "d_B": 0.2,
+      "theta_deg": 37.0,
+      "phi_IF_deg": 90.0,
+      "coefficient": 1.3185631450393576,
+      "normalized_trace": 1.3185631450393585,
+      "error": 8.881784197001252e-16
+    },
+    {
+      "twice_J": 3,
+      "d_B": 0.2,
+      "theta_deg": 45.0,
+      "phi_IF_deg": 0.0,
+      "coefficient": 0.9704142011834317,
+      "normalized_trace": 0.970414201183432,
+      "error": 3.3306690738754696e-16
+    },
+    {
+      "twice_J": 3,
+      "d_B": 0.2,
+      "theta_deg": 45.0,
+      "phi_IF_deg": 31.0,
+      "coefficient": 1.0478979056997682,
+      "normalized_trace": 1.0478979056997686,
+      "error": 4.440892098500626e-16
+    },
+    {
+      "twice_J": 3,
+      "d_B": 0.2,
+      "theta_deg": 45.0,
+      "phi_IF_deg": 90.0,
+      "coefficient": 1.262514300183651,
+      "normalized_trace": 1.2625143001836514,
+      "error": 4.440892098500626e-16
+    },
+    {
+      "twice_J": 3,
+      "d_B": 0.2,
+      "theta_deg": 90.0,
+      "phi_IF_deg": 0.0,
+      "coefficient": 0.4749713996326968,
+      "normalized_trace": 0.4749713996326974,
+      "error": 6.106226635438361e-16
+    },
+    {
+      "twice_J": 3,
+      "d_B": 0.2,
+      "theta_deg": 90.0,
+      "phi_IF_deg": 31.0,
+      "coefficient": 0.6299388086653698,
+      "normalized_trace": 0.6299388086653704,
+      "error": 6.661338147750939e-16
+    },
+    {
+      "twice_J": 3,
+      "d_B": 0.2,
+      "theta_deg": 90.0,
+      "phi_IF_deg": 90.0,
+      "coefficient": 1.0591715976331355,
+      "normalized_trace": 1.0591715976331362,
+      "error": 6.661338147750939e-16
+    },
+    {
+      "twice_J": 3,
+      "d_B": 0.2,
+      "theta_deg": 121.0,
+      "phi_IF_deg": 0.0,
+      "coefficient": 0.7378178948683883,
+      "normalized_trace": 0.7378178948683887,
+      "error": 3.3306690738754696e-16
+    },
+    {
+      "twice_J": 3,
+      "d_B": 0.2,
+      "theta_deg": 121.0,
+      "phi_IF_deg": 31.0,
+      "coefficient": 0.8516779952344494,
+      "normalized_trace": 0.8516779952344501,
+      "error": 6.661338147750939e-16
+    },
+    {
+      "twice_J": 3,
+      "d_B": 0.2,
+      "theta_deg": 121.0,
+      "phi_IF_deg": 90.0,
+      "coefficient": 1.167050683836154,
+      "normalized_trace": 1.1670506838361543,
+      "error": 2.220446049250313e-16
+    },
+    {
+      "twice_J": 3,
+      "d_B": 1.3,
+      "theta_deg": 37.0,
+      "phi_IF_deg": 0.0,
+      "coefficient": 1.4169707025442513,
+      "normalized_trace": 1.416970702544251,
+      "error": 2.220446049250313e-16
+    },
+    {
+      "twice_J": 3,
+      "d_B": 1.3,
+      "theta_deg": 37.0,
+      "phi_IF_deg": 31.0,
+      "coefficient": 1.3908835236888002,
+      "normalized_trace": 1.3908835236888002,
+      "error": 0.0
+    },
+    {
+      "twice_J": 3,
+      "d_B": 1.3,
+      "theta_deg": 37.0,
+      "phi_IF_deg": 90.0,
+      "coefficient": 1.318626572331593,
+      "normalized_trace": 1.3186265723315929,
+      "error": 2.220446049250313e-16
+    },
+    {
+      "twice_J": 3,
+      "d_B": 1.3,
+      "theta_deg": 45.0,
+      "phi_IF_deg": 0.0,
+      "coefficient": 1.2692057876480423,
+      "normalized_trace": 1.2692057876480423,
+      "error": 0.0
+    },
+    {
+      "twice_J": 3,
+      "d_B": 1.3,
+      "theta_deg": 45.0,
+      "phi_IF_deg": 31.0,
+      "coefficient": 1.2331918116859402,
+      "normalized_trace": 1.2331918116859402,
+      "error": 0.0
+    },
+    {
+      "twice_J": 3,
+      "d_B": 1.3,
+      "theta_deg": 45.0,
+      "phi_IF_deg": 90.0,
+      "coefficient": 1.13343935766658,
+      "normalized_trace": 1.1334393576665802,
+      "error": 2.220446049250313e-16
+    },
+    {
+      "twice_J": 3,
+      "d_B": 1.3,
+      "theta_deg": 90.0,
+      "phi_IF_deg": 0.0,
+      "coefficient": 0.7331212846668387,
+      "normalized_trace": 0.7331212846668391,
+      "error": 4.440892098500626e-16
+    },
+    {
+      "twice_J": 3,
+      "d_B": 1.3,
+      "theta_deg": 90.0,
+      "phi_IF_deg": 31.0,
+      "coefficient": 0.6610933327426349,
+      "normalized_trace": 0.6610933327426352,
+      "error": 2.220446049250313e-16
+    },
+    {
+      "twice_J": 3,
+      "d_B": 1.3,
+      "theta_deg": 90.0,
+      "phi_IF_deg": 90.0,
+      "coefficient": 0.46158842470391453,
+      "normalized_trace": 0.46158842470391515,
+      "error": 6.106226635438361e-16
+    },
+    {
+      "twice_J": 3,
+      "d_B": 1.3,
+      "theta_deg": 121.0,
+      "phi_IF_deg": 0.0,
+      "coefficient": 1.017529358248159,
+      "normalized_trace": 1.017529358248159,
+      "error": 0.0
+    },
+    {
+      "twice_J": 3,
+      "d_B": 1.3,
+      "theta_deg": 121.0,
+      "phi_IF_deg": 31.0,
+      "coefficient": 0.9646078447089957,
+      "normalized_trace": 0.9646078447089957,
+      "error": 0.0
+    },
+    {
+      "twice_J": 3,
+      "d_B": 1.3,
+      "theta_deg": 121.0,
+      "phi_IF_deg": 90.0,
+      "coefficient": 0.8180244502094388,
+      "normalized_trace": 0.818024450209439,
+      "error": 2.220446049250313e-16
+    },
+    {
+      "twice_J": 5,
+      "d_B": -2.0,
+      "theta_deg": 37.0,
+      "phi_IF_deg": 0.0,
+      "coefficient": 1.5085478253229598,
+      "normalized_trace": 1.5085478253229603,
+      "error": 4.440892098500626e-16
+    },
+    {
+      "twice_J": 5,
+      "d_B": -2.0,
+      "theta_deg": 37.0,
+      "phi_IF_deg": 31.0,
+      "coefficient": 1.3110986281202017,
+      "normalized_trace": 1.3110986281202015,
+      "error": 2.220446049250313e-16
+    },
+    {
+      "twice_J": 5,
+      "d_B": -2.0,
+      "theta_deg": 37.0,
+      "phi_IF_deg": 90.0,
+      "coefficient": 0.7641986694526506,
+      "normalized_trace": 0.7641986694526501,
+      "error": 4.440892098500626e-16
+    },
+    {
+      "twice_J": 5,
+      "d_B": -2.0,
+      "theta_deg": 45.0,
+      "phi_IF_deg": 0.0,
+      "coefficient": 1.4043836734693875,
+      "normalized_trace": 1.404383673469388,
+      "error": 4.440892098500626e-16
+    },
+    {
+      "twice_J": 5,
+      "d_B": -2.0,
+      "theta_deg": 45.0,
+      "phi_IF_deg": 31.0,
+      "coefficient": 1.1827333351521807,
+      "normalized_trace": 1.1827333351521807,
+      "error": 0.0
+    },
+    {
+      "twice_J": 5,
+      "d_B": -2.0,
+      "theta_deg": 45.0,
+      "phi_IF_deg": 90.0,
+      "coefficient": 0.5688004218679139,
+      "normalized_trace": 0.5688004218679135,
+      "error": 4.440892098500626e-16
+    },
+    {
+      "twice_J": 5,
+      "d_B": -2.0,
+      "theta_deg": 90.0,
+      "phi_IF_deg": 0.0,
+      "coefficient": 1.026480788917234,
+      "normalized_trace": 1.0264807889172345,
+      "error": 4.440892098500626e-16
+    },
+    {
+      "twice_J": 5,
+      "d_B": -2.0,
+      "theta_deg": 90.0,
+      "phi_IF_deg": 31.0,
+      "coefficient": 0.9527454998387711,
+      "normalized_trace": 0.9527454998387711,
+      "error": 0.0
+    },
+    {
+      "twice_J": 5,
+      "d_B": -2.0,
+      "theta_deg": 90.0,
+      "phi_IF_deg": 90.0,
+      "coefficient": 0.74851156462585,
+      "normalized_trace": 0.7485115646258503,
+      "error": 3.3306690738754696e-16
+    },
+    {
+      "twice_J": 5,
+      "d_B": -2.0,
+      "theta_deg": 121.0,
+      "phi_IF_deg": 0.0,
+      "coefficient": 1.2269690156773922,
+      "normalized_trace": 1.2269690156773922,
+      "error": 0.0
+    },
+    {
+      "twice_J": 5,
+      "d_B": -2.0,
+      "theta_deg": 121.0,
+      "phi_IF_deg": 31.0,
+      "coefficient": 1.0287371280286792,
+      "normalized_trace": 1.0287371280286797,
+      "error": 4.440892098500626e-16
+    },
+    {
+      "twice_J": 5,
+      "d_B": -2.0,
+      "theta_deg": 121.0,
+      "phi_IF_deg": 90.0,
+      "coefficient": 0.4796692528610548,
+      "normalized_trace": 0.4796692528610548,
+      "error": 0.0
+    },
+    {
+      "twice_J": 5,
+      "d_B": -0.3,
+      "theta_deg": 37.0,
+      "phi_IF_deg": 0.0,
+      "coefficient": 1.2607933185000084,
+      "normalized_trace": 1.2607933185000086,
+      "error": 2.220446049250313e-16
+    },
+    {
+      "twice_J": 5,
+      "d_B": -0.3,
+      "theta_deg": 37.0,
+      "phi_IF_deg": 31.0,
+      "coefficient": 1.2969600685050853,
+      "normalized_trace": 1.2969600685050853,
+      "error": 0.0
+    },
+    {
+      "twice_J": 5,
+      "d_B": -0.3,
+      "theta_deg": 37.0,
+      "phi_IF_deg": 90.0,
+      "coefficient": 1.3971356800706503,
+      "normalized_trace": 1.3971356800706507,
+      "error": 4.440892098500626e-16
+    },
+    {
+      "twice_J": 5,
+      "d_B": -0.3,
+      "theta_deg": 45.0,
+      "phi_IF_deg": 0.0,
+      "coefficient": 1.0839932218994828,
+      "normalized_trace": 1.0839932218994826,
+      "error": 2.220446049250313e-16
+    },
+    {
+      "twice_J": 5,
+      "d_B": -0.3,
+      "theta_deg": 45.0,
+      "phi_IF_deg": 31.0,
+      "coefficient": 1.1344648520891667,
+      "normalized_trace": 1.1344648520891665,
+      "error": 2.220446049250313e-16
+    },
+    {
+      "twice_J": 5,
+      "d_B": -0.3,
+      "theta_deg": 45.0,
+      "phi_IF_deg": 90.0,
+      "coefficient": 1.274262495511727,
+      "normalized_trace": 1.2742624955117268,
+      "error": 2.220446049250313e-16
+    },
+    {
+      "twice_J": 5,
+      "d_B": -0.3,
+      "theta_deg": 90.0,
+      "phi_IF_deg": 0.0,
+      "coefficient": 0.4425703781906403,
+      "normalized_trace": 0.44257037819064055,
+      "error": 2.220446049250313e-16
+    },
+    {
+      "twice_J": 5,
+      "d_B": -0.3,
+      "theta_deg": 90.0,
+      "phi_IF_deg": 31.0,
+      "coefficient": 0.5474504384490206,
+      "normalized_trace": 0.547450438449021,
+      "error": 3.3306690738754696e-16
+    },
+    {
+      "twice_J": 5,
+      "d_B": -0.3,
+      "theta_deg": 90.0,
+      "phi_IF_deg": 90.0,
+      "coefficient": 0.8379499767249715,
+      "normalized_trace": 0.8379499767249716,
+      "error": 1.1102230246251565e-16
+    },
+    {
+      "twice_J": 5,
+      "d_B": -0.3,
+      "theta_deg": 121.0,
+      "phi_IF_deg": 0.0,
+      "coefficient": 0.7828634370569225,
+      "normalized_trace": 0.7828634370569226,
+      "error": 1.1102230246251565e-16
+    },
+    {
+      "twice_J": 5,
+      "d_B": -0.3,
+      "theta_deg": 121.0,
+      "phi_IF_deg": 31.0,
+      "coefficient": 0.8583880124749674,
+      "normalized_trace": 0.8583880124749675,
+      "error": 1.1102230246251565e-16
+    },
+    {
+      "twice_J": 5,
+      "d_B": -0.3,
+      "theta_deg": 121.0,
+      "phi_IF_deg": 90.0,
+      "coefficient": 1.0675779598622852,
+      "normalized_trace": 1.0675779598622854,
+      "error": 2.220446049250313e-16
+    },
+    {
+      "twice_J": 5,
+      "d_B": 0.0,
+      "theta_deg": 37.0,
+      "phi_IF_deg": 0.0,
+      "coefficient": 0.9878838447215699,
+      "normalized_trace": 0.98788384472157,
+      "error": 1.1102230246251565e-16
+    },
+    {
+      "twice_J": 5,
+      "d_B": 0.0,
+      "theta_deg": 37.0,
+      "phi_IF_deg": 31.0,
+      "coefficient": 1.028234817789012,
+      "normalized_trace": 1.0282348177890124,
+      "error": 4.440892098500626e-16
+    },
+    {
+      "twice_J": 5,
+      "d_B": 0.0,
+      "theta_deg": 37.0,
+      "phi_IF_deg": 90.0,
+      "coefficient": 1.14,
+      "normalized_trace": 1.1400000000000001,
+      "error": 2.220446049250313e-16
+    },
+    {
+      "twice_J": 5,
+      "d_B": 0.0,
+      "theta_deg": 45.0,
+      "phi_IF_deg": 0.0,
+      "coefficient": 0.9299999999999999,
+      "normalized_trace": 0.93,
+      "error": 1.1102230246251565e-16
+    },
+    {
+      "twice_J": 5,
+      "d_B": 0.0,
+      "theta_deg": 45.0,
+      "phi_IF_deg": 31.0,
+      "coefficient": 0.9857054859074814,
+      "normalized_trace": 0.9857054859074816,
+      "error": 2.220446049250313e-16
+    },
+    {
+      "twice_J": 5,
+      "d_B": 0.0,
+      "theta_deg": 45.0,
+      "phi_IF_deg": 90.0,
+      "coefficient": 1.14,
+      "normalized_trace": 1.14,
+      "error": 0.0
+    },
+    {
+      "twice_J": 5,
+      "d_B": 0.0,
+      "theta_deg": 90.0,
+      "phi_IF_deg": 0.0,
+      "coefficient": 0.72,
+      "normalized_trace": 0.7200000000000002,
+      "error": 2.220446049250313e-16
+    },
+    {
+      "twice_J": 5,
+      "d_B": 0.0,
+      "theta_deg": 90.0,
+      "phi_IF_deg": 31.0,
+      "coefficient": 0.8314109718149629,
+      "normalized_trace": 0.8314109718149633,
+      "error": 3.3306690738754696e-16
+    },
+    {
+      "twice_J": 5,
+      "d_B": 0.0,
+      "theta_deg": 90.0,
+      "phi_IF_deg": 90.0,
+      "coefficient": 1.14,
+      "normalized_trace": 1.1400000000000001,
+      "error": 2.220446049250313e-16
+    },
+    {
+      "twice_J": 5,
+      "d_B": 0.0,
+      "theta_deg": 121.0,
+      "phi_IF_deg": 0.0,
+      "coefficient": 0.8314109718149629,
+      "normalized_trace": 0.8314109718149629,
+      "error": 0.0
+    },
+    {
+      "twice_J": 5,
+      "d_B": 0.0,
+      "theta_deg": 121.0,
+      "phi_IF_deg": 31.0,
+      "coefficient": 0.9132685992471772,
+      "normalized_trace": 0.9132685992471772,
+      "error": 0.0
+    },
+    {
+      "twice_J": 5,
+      "d_B": 0.0,
+      "theta_deg": 121.0,
+      "phi_IF_deg": 90.0,
+      "coefficient": 1.1400000000000001,
+      "normalized_trace": 1.1400000000000001,
+      "error": 0.0
+    },
+    {
+      "twice_J": 5,
+      "d_B": 0.2,
+      "theta_deg": 37.0,
+      "phi_IF_deg": 0.0,
+      "coefficient": 1.0036788879322134,
+      "normalized_trace": 1.0036788879322136,
+      "error": 2.220446049250313e-16
+    },
+    {
+      "twice_J": 5,
+      "d_B": 0.2,
+      "theta_deg": 37.0,
+      "phi_IF_deg": 31.0,
+      "coefficient": 1.001672112802122,
+      "normalized_trace": 1.001672112802122,
+      "error": 0.0
+    },
+    {
+      "twice_J": 5,
+      "d_B": 0.2,
+      "theta_deg": 37.0,
+      "phi_IF_deg": 90.0,
+      "coefficient": 0.9961136944785722,
+      "normalized_trace": 0.9961136944785721,
+      "error": 1.1102230246251565e-16
+    },
+    {
+      "twice_J": 5,
+      "d_B": 0.2,
+      "theta_deg": 45.0,
+      "phi_IF_deg": 0.0,
+      "coefficient": 1.0047397657287769,
+      "normalized_trace": 1.0047397657287767,
+      "error": 2.220446049250313e-16
+    },
+    {
+      "twice_J": 5,
+      "d_B": 0.2,
+      "theta_deg": 45.0,
+      "phi_IF_deg": 31.0,
+      "coefficient": 1.0020870906249384,
+      "normalized_trace": 1.0020870906249384,
+      "error": 0.0
+    },
+    {
+      "twice_J": 5,
+      "d_B": 0.2,
+      "theta_deg": 45.0,
+      "phi_IF_deg": 90.0,
+      "coefficient": 0.9947396416345129,
+      "normalized_trace": 0.9947396416345129,
+      "error": 0.0
+    },
+    {
+      "twice_J": 5,
+      "d_B": 0.2,
+      "theta_deg": 90.0,
+      "phi_IF_deg": 0.0,
+      "coefficient": 1.0085885829307084,
+      "normalized_trace": 1.0085885829307082,
+      "error": 2.220446049250313e-16
+    },
+    {
+      "twice_J": 5,
+      "d_B": 0.2,
+      "theta_deg": 90.0,
+      "phi_IF_deg": 31.0,
+      "coefficient": 1.0041374426609846,
+      "normalized_trace": 1.0041374426609848,
+      "error": 2.220446049250313e-16
+    },
+    {
+      "twice_J": 5,
+      "d_B": 0.2,
+      "theta_deg": 90.0,
+      "phi_IF_deg": 90.0,
+      "coefficient": 0.9918085577426236,
+      "normalized_trace": 0.9918085577426238,
+      "error": 2.220446049250313e-16
+    },
+    {
+      "twice_J": 5,
+      "d_B": 0.2,
+      "theta_deg": 121.0,
+      "phi_IF_deg": 0.0,
+      "coefficient": 1.006546675955445,
+      "normalized_trace": 1.0065466759554447,
+      "error": 2.220446049250313e-16
+    },
+    {
+      "twice_J": 5,
+      "d_B": 0.2,
+      "theta_deg": 121.0,
+      "phi_IF_deg": 31.0,
+      "coefficient": 1.002943294412947,
+      "normalized_trace": 1.002943294412947,
+      "error": 0.0
+    },
+    {
+      "twice_J": 5,
+      "d_B": 0.2,
+      "theta_deg": 121.0,
+      "phi_IF_deg": 90.0,
+      "coefficient": 0.992962553824613,
+      "normalized_trace": 0.9929625538246131,
+      "error": 1.1102230246251565e-16
+    },
+    {
+      "twice_J": 5,
+      "d_B": 1.3,
+      "theta_deg": 37.0,
+      "phi_IF_deg": 0.0,
+      "coefficient": 1.6340305657162542,
+      "normalized_trace": 1.634030565716254,
+      "error": 2.220446049250313e-16
+    },
+    {
+      "twice_J": 5,
+      "d_B": 1.3,
+      "theta_deg": 37.0,
+      "phi_IF_deg": 31.0,
+      "coefficient": 1.468267019513233,
+      "normalized_trace": 1.468267019513233,
+      "error": 0.0
+    },
+    {
+      "twice_J": 5,
+      "d_B": 1.3,
+      "theta_deg": 37.0,
+      "phi_IF_deg": 90.0,
+      "coefficient": 1.009130807002199,
+      "normalized_trace": 1.0091308070021987,
+      "error": 2.220446049250313e-16
+    },
+    {
+      "twice_J": 5,
+      "d_B": 1.3,
+      "theta_deg": 45.0,
+      "phi_IF_deg": 0.0,
+      "coefficient": 1.4938555665767637,
+      "normalized_trace": 1.4938555665767639,
+      "error": 2.220446049250313e-16
+    },
+    {
+      "twice_J": 5,
+      "d_B": 1.3,
+      "theta_deg": 45.0,
+      "phi_IF_deg": 31.0,
+      "coefficient": 1.2964264849394345,
+      "normalized_trace": 1.296426484939435,
+      "error": 4.440892098500626e-16
+    },
+    {
+      "twice_J": 5,
+      "d_B": 1.3,
+      "theta_deg": 45.0,
+      "phi_IF_deg": 90.0,
+      "coefficient": 0.7495822428919441,
+      "normalized_trace": 0.7495822428919441,
+      "error": 0.0
+    },
+    {
+      "twice_J": 5,
+      "d_B": 1.3,
+      "theta_deg": 90.0,
+      "phi_IF_deg": 0.0,
+      "coefficient": 0.9853069385288473,
+      "normalized_trace": 0.9853069385288477,
+      "error": 3.3306690738754696e-16
+    },
+    {
+      "twice_J": 5,
+      "d_B": 1.3,
+      "theta_deg": 90.0,
+      "phi_IF_deg": 31.0,
+      "coefficient": 0.8183675832530053,
+      "normalized_trace": 0.8183675832530058,
+      "error": 5.551115123125783e-16
+    },
+    {
+      "twice_J": 5,
+      "d_B": 1.3,
+      "theta_deg": 90.0,
+      "phi_IF_deg": 90.0,
+      "coefficient": 0.35597458397131404,
+      "normalized_trace": 0.3559745839713147,
+      "error": 6.661338147750939e-16
+    },
+    {
+      "twice_J": 5,
+      "d_B": 1.3,
+      "theta_deg": 121.0,
+      "phi_IF_deg": 0.0,
+      "coefficient": 1.255106447414488,
+      "normalized_trace": 1.2551064474144875,
+      "error": 4.440892098500626e-16
+    },
+    {
+      "twice_J": 5,
+      "d_B": 1.3,
+      "theta_deg": 121.0,
+      "phi_IF_deg": 31.0,
+      "coefficient": 1.043607782770841,
+      "normalized_trace": 1.0436077827708412,
+      "error": 2.220446049250313e-16
+    },
+    {
+      "twice_J": 5,
+      "d_B": 1.3,
+      "theta_deg": 121.0,
+      "phi_IF_deg": 90.0,
+      "coefficient": 0.4577932411544783,
+      "normalized_trace": 0.4577932411544784,
+      "error": 1.1102230246251565e-16
+    }
+  ],
+  "inversions": [
+    {
+      "E_keV": "4443.93",
+      "variants": [
+        {
+          "dB1_over_dB2": 1,
+          "C": 0.95,
+          "interpretation": "physicalelasticBiedenharn",
+          "inversions": [
+            {
+              "observed_asymmetry": 0.006999999999999999,
+              "all_real_roots": [
+                {
+                  "delta": -2.771884548103989,
+                  "arctan_delta_deg": -70.16231104966478,
+                  "E2_radiative_fraction": 0.8848369929849096
+                },
+                {
+                  "delta": -0.52312004220061,
+                  "arctan_delta_deg": -27.61496758571591,
+                  "E2_radiative_fraction": 0.2148577669018306
+                },
+                {
+                  "delta": 0.18821331198209287,
+                  "arctan_delta_deg": 10.659131905641443,
+                  "E2_radiative_fraction": 0.034212305515975795
+                },
+                {
+                  "delta": 2.084830995896385,
+                  "arctan_delta_deg": 64.37505319716871,
+                  "E2_radiative_fraction": 0.812962460187519
+                }
+              ],
+              "other_complex_roots": [],
+              "polynomial_coefficients": [
+                0.10075326476883717,
+                -0.35469210981542154,
+                -1.0,
+                0.18096536215072517,
+                0.17707670763986613
+              ]
+            },
+            {
+              "observed_asymmetry": 0.026,
+              "all_real_roots": [
+                {
+                  "delta": -2.9144935692548226,
+                  "arctan_delta_deg": -71.06225017732473,
+                  "E2_radiative_fraction": 0.8946733441593917
+                },
+                {
+                  "delta": -0.5126754199776066,
+                  "arctan_delta_deg": -27.143099119140228,
+                  "E2_radiative_fraction": 0.2081315929368728
+                },
+                {
+                  "delta": 0.17306190242311323,
+                  "arctan_delta_deg": 9.818465047181638,
+                  "E2_radiative_fraction": 0.029079479389021185
+                },
+                {
+                  "delta": 2.1388669465696686,
+                  "arctan_delta_deg": 64.9421590664199,
+                  "E2_radiative_fraction": 0.8206198171394302
+                }
+              ],
+              "other_complex_roots": [],
+              "polynomial_coefficients": [
+                0.09128261581030016,
+                -0.36076275991315243,
+                -1.0,
+                0.18406263260875114,
+                0.16504304854844842
+              ]
+            },
+            {
+              "observed_asymmetry": 0.045,
+              "all_real_roots": [
+                {
+                  "delta": -3.075161228802526,
+                  "arctan_delta_deg": -71.98618955761869,
+                  "E2_radiative_fraction": 0.9043667717899012
+                },
+                {
+                  "delta": -0.5020557502790102,
+                  "arctan_delta_deg": -26.659202323541802,
+                  "E2_radiative_fraction": 0.2013162157897018
+                },
+                {
+                  "delta": 0.1576662477275792,
+                  "arctan_delta_deg": 8.959853144524777,
+                  "E2_radiative_fraction": 0.024255682261608444
+                },
+                {
+                  "delta": 2.1969818454934664,
+                  "arctan_delta_deg": 65.52640064117055,
+                  "E2_radiative_fraction": 0.8283771288101903
+                }
+              ],
+              "other_complex_roots": [],
+              "polynomial_coefficients": [
+                0.08186269055302099,
+                -0.36680089631057133,
+                -1.0,
+                0.18714331444416893,
+                0.15307384034434204
+              ]
+            }
+          ],
+          "at_quoted_large_minus1p30": -0.4178599232656204
+        },
+        {
+          "dB1_over_dB2": -1,
+          "C": 0.95,
+          "interpretation": "unmodifiedSteffenequalSdiagnosticviaEq18",
+          "inversions": [
+            {
+              "observed_asymmetry": 0.006999999999999999,
+              "all_real_roots": [
+                {
+                  "delta": 0.18339320030879758,
+                  "arctan_delta_deg": 10.392176363966726,
+                  "E2_radiative_fraction": 0.0325386900133495
+                },
+                {
+                  "delta": 0.5052720779554475,
+                  "arctan_delta_deg": 26.80619547049805,
+                  "E2_radiative_fraction": 0.20337759789603554
+                }
+              ],
+              "other_complex_roots": [
+                [
+                  -1.3588177679772802,
+                  -2.072174751505611
+                ],
+                [
+                  -1.3588177679772802,
+                  2.072174751505611
+                ]
+              ],
+              "polynomial_coefficients": [
+                0.13045783318687043,
+                -0.9118097335496783,
+                1.0,
+                0.4652090477294275,
+                0.229283325354902
+              ]
+            },
+            {
+              "observed_asymmetry": 0.026,
+              "all_real_roots": [
+                {
+                  "delta": 0.15824163862472143,
+                  "arctan_delta_deg": 8.992018115426037,
+                  "E2_radiative_fraction": 0.024428711101555436
+                },
+                {
+                  "delta": 0.5478618026165,
+                  "arctan_delta_deg": 28.71665148754875,
+                  "E2_radiative_fraction": 0.23085948926983846
+                }
+              ],
+              "other_complex_roots": [
+                [
+                  -1.4385825948292874,
+                  -2.076093045493034
+                ],
+                [
+                  -1.4385825948292874,
+                  2.076093045493034
+                ]
+              ],
+              "polynomial_coefficients": [
+                0.12471444250233722,
+                -0.959520277003677,
+                1.0,
+                0.4895511617365697,
+                0.22548928518198036
+              ]
+            },
+            {
+              "observed_asymmetry": 0.045,
+              "all_real_roots": [
+                {
+                  "delta": 0.13671683016061995,
+                  "arctan_delta_deg": 7.785032162944534,
+                  "E2_radiative_fraction": 0.018348530249239634
+                },
+                {
+                  "delta": 0.5877701572070984,
+                  "arctan_delta_deg": 30.445741510785943,
+                  "E2_radiative_fraction": 0.256767369653486
+                }
+              ],
+              "other_complex_roots": [
+                [
+                  -1.5295203193798055,
+                  -2.077421953163132
+                ],
+                [
+                  -1.5295203193798055,
+                  2.077421953163132
+                ]
+              ],
+              "polynomial_coefficients": [
+                0.11687593706837772,
+                -1.0,
+                0.9876548875276672,
+                0.5102040816326529,
+                0.21854459473589827
+              ]
+            }
+          ],
+          "at_quoted_large_minus1p30": 0.36809827560750746
+        }
+      ]
+    },
+    {
+      "E_keV": "5019.08",
+      "variants": [
+        {
+          "dB1_over_dB2": 1,
+          "C": 0.941,
+          "interpretation": "physicalelasticBiedenharn",
+          "inversions": [
+            {
+              "observed_asymmetry": 0.184,
+              "all_real_roots": [
+                {
+                  "delta": -0.07170974727015028,
+                  "arctan_delta_deg": -4.101644870697078,
+                  "E2_radiative_fraction": 0.005115980011675787
+                },
+                {
+                  "delta": 0.5913093451245146,
+                  "arctan_delta_deg": 30.596221614972887,
+                  "E2_radiative_fraction": 0.25906537677325536
+                }
+              ],
+              "other_complex_roots": [
+                [
+                  -0.259799798927182,
+                  -2.6798968211489615
+                ],
+                [
+                  -0.259799798927182,
+                  2.6798968211489615
+                ]
+              ],
+              "polynomial_coefficients": [
+                0.04431212785960513,
+                0.5461743985563577,
+                -1.0,
+                0.0,
+                -0.14415543716703225
+              ]
+            },
+            {
+              "observed_asymmetry": 0.2,
+              "all_real_roots": [
+                {
+                  "delta": -0.05387969696327932,
+                  "arctan_delta_deg": -3.084097143916925,
+                  "E2_radiative_fraction": 0.0028946186041040353
+                },
+                {
+                  "delta": 0.575312968564182,
+                  "arctan_delta_deg": 29.912376222989238,
+                  "E2_radiative_fraction": 0.2486767385539361
+                }
+              ],
+              "other_complex_roots": [
+                [
+                  -0.2607166358004508,
+                  -2.584747024556677
+                ],
+                [
+                  -0.2607166358004508,
+                  2.584747024556677
+                ]
+              ],
+              "polynomial_coefficients": [
+                0.032454235184610596,
+                0.5484423205737092,
+                -1.0,
+                0.0,
+                -0.15513496742165683
+              ]
+            },
+            {
+              "observed_asymmetry": 0.21600000000000003,
+              "all_real_roots": [
+                {
+                  "delta": -0.035532729752146386,
+                  "arctan_delta_deg": -2.03501928279851,
+                  "E2_radiative_fraction": 0.0012609827984290717
+                },
+                {
+                  "delta": 0.5589583206125928,
+                  "arctan_delta_deg": 29.203370843237934,
+                  "E2_radiative_fraction": 0.2380571578941264
+                }
+              ],
+              "other_complex_roots": [
+                [
+                  -0.26171279543022236,
+                  -2.500623893071993
+                ],
+                [
+                  -0.26171279543022236,
+                  2.500623893071993
+                ]
+              ],
+              "polynomial_coefficients": [
+                0.020829493087557587,
+                0.5506656505759732,
+                -1.0,
+                0.0,
+                -0.16589861751152074
+              ]
+            }
+          ],
+          "at_quoted_large_minus1p30": -0.4113061479422229
+        },
+        {
+          "dB1_over_dB2": -1,
+          "C": 0.941,
+          "interpretation": "unmodifiedSteffenequalSdiagnosticviaEq18",
+          "inversions": [
+            {
+              "observed_asymmetry": 0.184,
+              "all_real_roots": [
+                {
+                  "delta": -0.04963883607046853,
+                  "arctan_delta_deg": -2.8417632902161243,
+                  "E2_radiative_fraction": 0.002457957604368153
+                },
+                {
+                  "delta": 2.3783020784532236,
+                  "arctan_delta_deg": 67.19480277780136,
+                  "E2_radiative_fraction": 0.8497668556555643
+                }
+              ],
+              "other_complex_roots": [
+                [
+                  -1.1643316211913772,
+                  -1.1171857489145138
+                ],
+                [
+                  -1.1643316211913772,
+                  1.1171857489145138
+                ]
+              ],
+              "polynomial_coefficients": [
+                0.048498038005112355,
+                1.0,
+                0.4633723433161729,
+                0.0,
+                -0.1577729666361505
+              ]
+            },
+            {
+              "observed_asymmetry": 0.2,
+              "all_real_roots": [
+                {
+                  "delta": -0.03643267826113167,
+                  "arctan_delta_deg": -2.086515855240799,
+                  "E2_radiative_fraction": 0.0013255805491330288
+                },
+                {
+                  "delta": 2.25289139578443,
+                  "arctan_delta_deg": 66.06480787973842,
+                  "E2_radiative_fraction": 0.8354050255687158
+                }
+              ],
+              "other_complex_roots": [
+                [
+                  -1.1082293587616494,
+                  -1.1491717897005893
+                ],
+                [
+                  -1.1082293587616494,
+                  1.1491717897005893
+                ]
+              ],
+              "polynomial_coefficients": [
+                0.0358762006742203,
+                1.0,
+                0.4194703004261136,
+                0.0,
+                -0.17149235503929405
+              ]
+            },
+            {
+              "observed_asymmetry": 0.21600000000000003,
+              "all_real_roots": [
+                {
+                  "delta": -0.0234610274396146,
+                  "arctan_delta_deg": -1.3439713087030527,
+                  "E2_radiative_fraction": 0.0005501170132212671
+                },
+                {
+                  "delta": 2.1397441327153377,
+                  "arctan_delta_deg": 64.95117151329345,
+                  "E2_radiative_fraction": 0.8207405015613662
+                }
+              ],
+              "other_complex_roots": [
+                [
+                  -1.0581415526378621,
+                  -1.175335464576052
+                ],
+                [
+                  -1.0581415526378621,
+                  1.175335464576052
+                ]
+              ],
+              "polynomial_coefficients": [
+                0.02325436334332825,
+                1.0,
+                0.3755682575360543,
+                0.0,
+                -0.1852117434424376
+              ]
+            }
+          ],
+          "at_quoted_large_minus1p30": 0.06729951015636049
+        }
+      ]
+    },
+    {
+      "E_keV": "8916.3",
+      "variants": [
+        {
+          "dB1_over_dB2": 1,
+          "C": 0.95,
+          "interpretation": "physicalelasticBiedenharn",
+          "inversions": [
+            {
+              "observed_asymmetry": 0.195,
+              "all_real_roots": [
+                {
+                  "delta": -6.015748004214828,
+                  "arctan_delta_deg": -80.56200200214926,
+                  "E2_radiative_fraction": 0.9731104903224184
+                },
+                {
+                  "delta": -0.40549538011736413,
+                  "arctan_delta_deg": -22.07232692022324,
+                  "E2_radiative_fraction": 0.14120814223227435
+                },
+                {
+                  "delta": 0.021241664339148376,
+                  "arctan_delta_deg": 1.2168747171573489,
+                  "E2_radiative_fraction": 0.0004510048067831298
+                },
+                {
+                  "delta": 2.930402108989753,
+                  "arctan_delta_deg": 71.15778795273533,
+                  "E2_radiative_fraction": 0.895694873932377
+                }
+              ],
+              "other_complex_roots": [],
+              "polynomial_coefficients": [
+                0.00922959572845155,
+                -0.41335843488323776,
+                -1.0,
+                0.21089716065471303,
+                0.060784293376643705
+              ]
+            },
+            {
+              "observed_asymmetry": 0.215,
+              "all_real_roots": [
+                {
+                  "delta": -7.104080120756282,
+                  "arctan_delta_deg": -81.9874516072343,
+                  "E2_radiative_fraction": 0.9805704343140573
+                },
+                {
+                  "delta": -0.3892831475267168,
+                  "arctan_delta_deg": -21.270124746907776,
+                  "E2_radiative_fraction": 0.13159871892983654
+                },
+                {
+                  "delta": -0.000544798459659308,
+                  "arctan_delta_deg": -0.031214649335481737,
+                  "E2_radiative_fraction": 2.968052735537581e-07
+                },
+                {
+                  "delta": 3.1058916885801633,
+                  "arctan_delta_deg": 72.15306483272497,
+                  "E2_radiative_fraction": 0.9060729755714368
+                }
+              ],
+              "other_complex_roots": [],
+              "polynomial_coefficients": [
+                -0.000228202991994801,
+                -0.4194208480270426,
+                -1.0,
+                0.21399022858522568,
+                0.048766962140381814
+              ]
+            },
+            {
+              "observed_asymmetry": 0.235,
+              "all_real_roots": [
+                {
+                  "delta": -8.825704839678869,
+                  "arctan_delta_deg": -83.53564818162789,
+                  "E2_radiative_fraction": 0.9873246148013769
+                },
+                {
+                  "delta": -0.3714506230455343,
+                  "arctan_delta_deg": -20.377545495740613,
+                  "E2_radiative_fraction": 0.12124650964465643
+                },
+                {
+                  "delta": -0.0240059951184003,
+                  "arctan_delta_deg": -1.3751780777628415,
+                  "E2_radiative_fraction": 0.0005759558852737018
+                },
+                {
+                  "delta": 3.325122127226519,
+                  "arctan_delta_deg": 73.26182184606871,
+                  "E2_radiative_fraction": 0.917056756764166
+                }
+              ],
+              "other_complex_roots": [],
+              "polynomial_coefficients": [
+                -0.009634071451793524,
+                -0.4254499740705383,
+                -1.0,
+                0.21706631330129494,
+                0.03681561487796353
+              ]
+            }
+          ],
+          "at_quoted_large_minus1p30": -0.4178599232656204
+        },
+        {
+          "dB1_over_dB2": -1,
+          "C": 0.95,
+          "interpretation": "unmodifiedSteffenequalSdiagnosticviaEq18",
+          "inversions": [
+            {
+              "observed_asymmetry": 0.195,
+              "all_real_roots": [
+                {
+                  "delta": 0.013559454416295302,
+                  "arctan_delta_deg": 0.7768519025338975,
+                  "E2_radiative_fraction": 0.0001838250062217885
+                },
+                {
+                  "delta": 0.9034355938587423,
+                  "arctan_delta_deg": 42.095781056534626,
+                  "E2_radiative_fraction": 0.4493985944585084
+                }
+              ],
+              "other_complex_roots": [
+                [
+                  -3.337204624969944,
+                  -1.1217033236905949
+                ],
+                [
+                  -3.337204624969944,
+                  1.1217033236905949
+                ]
+              ],
+              "polynomial_coefficients": [
+                0.013455745371335572,
+                -1.0,
+                0.5571345810776145,
+                0.5102040816326529,
+                0.08861687968969101
+              ]
+            },
+            {
+              "observed_asymmetry": 0.215,
+              "all_real_roots": [
+                {
+                  "delta": -5.3608288464782,
+                  "arctan_delta_deg": -79.43358293019116,
+                  "E2_radiative_fraction": 0.9663735402451671
+                },
+                {
+                  "delta": -2.7476757052686263,
+                  "arctan_delta_deg": -70.00132889286722,
+                  "E2_radiative_fraction": 0.8830371296777794
+                },
+                {
+                  "delta": -0.00033355793991962646,
+                  "arctan_delta_deg": -0.01911146147168677,
+                  "E2_radiative_fraction": 1.112608869044388e-07
+                },
+                {
+                  "delta": 0.9524165487350363,
+                  "arctan_delta_deg": 43.603888428955834,
+                  "E2_radiative_fraction": 0.4756429001924361
+                }
+              ],
+              "other_complex_roots": [],
+              "polynomial_coefficients": [
+                -0.0003336135216033868,
+                -1.0,
+                0.49973187355094084,
+                0.5102040816326529,
+                0.07129318435019671
+              ]
+            },
+            {
+              "observed_asymmetry": 0.235,
+              "all_real_roots": [
+                {
+                  "delta": -8.17405295811698,
+                  "arctan_delta_deg": -83.02518869733025,
+                  "E2_radiative_fraction": 0.9852540306778677
+                },
+                {
+                  "delta": -2.2701163126250874,
+                  "arctan_delta_deg": -66.22621774012599,
+                  "E2_radiative_fraction": 0.8374889592985185
+                },
+                {
+                  "delta": -0.014037223366952789,
+                  "arctan_delta_deg": -0.8042208355838387,
+                  "E2_radiative_fraction": 0.0001970048213066664
+                },
+                {
+                  "delta": 1.0046413226567492,
+                  "arctan_delta_deg": 45.13265601253025,
+                  "E2_radiative_fraction": 0.5023152759171117
+                }
+              ],
+              "other_complex_roots": [],
+              "polynomial_coefficients": [
+                -0.014122972414542323,
+                -1.0,
+                0.44232916602426714,
+                0.5102040816326529,
+                0.053969489010702455
+              ]
+            }
+          ],
+          "at_quoted_large_minus1p30": 0.36809827560750746
+        }
+      ]
+    }
+  ],
+  "scope": "Comparison uses explicitIF21Biedenharnandrotatedaxes. It is not originalRU09producercode, a newexperimentalfit or a blanket verdict on modifiedKSWexpressions. OriginalRU09firstprobe/results remain preserved."
+}

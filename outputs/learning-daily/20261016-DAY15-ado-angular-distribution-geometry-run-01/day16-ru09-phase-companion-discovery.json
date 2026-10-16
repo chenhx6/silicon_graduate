@@ -1,0 +1,142 @@
+[
+  {
+    "label": "rusev-crossref",
+    "at": "2026-10-17T06:07:55.899133+08:00",
+    "url": "https://api.crossref.org/works/10.1103/PhysRevC.79.047601",
+    "parameters": null,
+    "scope": "metadataandpubliccompaniondiscovery, notfulltextread",
+    "status": 200,
+    "sha256": "3a7c34debddb8967db8fabbeeb3826e146f0546461a937f8b16721bb6bcf411e",
+    "metadata": {
+      "title": [
+        "Multipole mixing ratios of transitions in<mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mml:mmultiscripts><mml:mi mathvariant=\"normal\">B</mml:mi><mml:mprescripts/><mml:none/><mml:mrow><mml:mn>11</mml:mn></mml:mrow></mml:mmultiscripts></mml:math>"
+      ],
+      "DOI": "10.1103/physrevc.79.047601",
+      "relation": {},
+      "update-to": null,
+      "updated-by": null,
+      "link": [
+        {
+          "URL": "http://link.aps.org/article/10.1103/PhysRevC.79.047601",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "syndication"
+        },
+        {
+          "URL": "http://harvest.aps.org/v2/journals/articles/10.1103/PhysRevC.79.047601/fulltext",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ]
+    }
+  },
+  {
+    "label": "pietralla-openalex",
+    "at": "2026-10-17T06:07:56.940544+08:00",
+    "url": "https://api.openalex.org/works/https://doi.org/10.1063/1.1556666",
+    "parameters": {
+      "select": "id,title,doi,open_access,best_oa_location,locations"
+    },
+    "scope": "metadataandpubliccompaniondiscovery, notfulltextread",
+    "status": 200,
+    "sha256": "c82f5b51952ea6a952f21778b43610a2ca91631494aa41dcf6f8ee382fcad72b",
+    "metadata": {
+      "id": "https://openalex.org/W1492329881",
+      "title": "Nuclear Structure Physics With A Free Electron Laser",
+      "doi": "https://doi.org/10.1063/1.1556666",
+      "open_access": {
+        "is_oa": false,
+        "oa_status": "closed",
+        "oa_url": null,
+        "any_repository_has_fulltext": false
+      },
+      "best_oa_location": null,
+      "locations": [
+        {
+          "id": "doi:10.1063/1.1556666",
+          "doi": "https://doi.org/10.1063/1.1556666",
+          "is_oa": false,
+          "landing_page_url": "https://doi.org/10.1063/1.1556666",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S2764696622",
+            "display_name": "AIP conference proceedings",
+            "issn_l": "0094-243X",
+            "issn": [
+              "0094-243X",
+              "1551-7616",
+              "1935-0465"
+            ],
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": true,
+            "listed_in": [
+              "cwts-core",
+              "jufo-1",
+              "norway-1"
+            ],
+            "host_organization": "https://openalex.org/P4310320257",
+            "host_organization_name": "American Institute of Physics",
+            "host_organization_lineage": [
+              "https://openalex.org/P4310320257"
+            ],
+            "host_organization_lineage_names": [
+              "American Institute of Physics"
+            ],
+            "type": "journal"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": "AIP Conference Proceedings",
+          "raw_type": "proceedings-article"
+        }
+      ]
+    }
+  },
+  {
+    "label": "rusev-inspire",
+    "at": "2026-10-17T06:07:57.632953+08:00",
+    "url": "https://inspirehep.net/api/literature",
+    "parameters": {
+      "q": "doi:10.1103/PhysRevC.79.047601",
+      "fields": "dois,titles,documents,arxiv_eprints,report_numbers",
+      "size": 2
+    },
+    "scope": "metadataandpubliccompaniondiscovery, notfulltextread",
+    "status": 200,
+    "sha256": "3169c07330785b49bb4538555452058926758251a608b2f8c3e06c3240a364e1",
+    "hits": [
+      {
+        "updated": "2024-05-07T11:21:45.388086+00:00",
+        "created": "2009-12-30T00:00:00+00:00",
+        "id": "841199",
+        "metadata": {
+          "control_number": 841199,
+          "dois": [
+            {
+              "value": "10.1103/PhysRevC.79.047601"
+            }
+          ],
+          "titles": [
+            {
+              "title": "Multipole mixing ratios of transitions in B-11"
+            }
+          ]
+        },
+        "links": {
+          "bibtex": "https://inspirehep.net/api/literature/841199?format=bibtex",
+          "latex-eu": "https://inspirehep.net/api/literature/841199?format=latex-eu",
+          "latex-us": "https://inspirehep.net/api/literature/841199?format=latex-us",
+          "json": "https://inspirehep.net/api/literature/841199?format=json",
+          "json-expanded": "https://inspirehep.net/api/literature/841199?format=json-expanded",
+          "cv": "https://inspirehep.net/api/literature/841199?format=cv",
+          "citations": "https://inspirehep.net/api/literature/?q=refersto%3Arecid%3A841199"
+        }
+      }
+    ]
+  }
+]

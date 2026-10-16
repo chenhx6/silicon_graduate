@@ -1,0 +1,39 @@
+{
+  "commit": "f173c2d2e2fd855451e06446a2cfcce679c42d24",
+  "objects": [
+    {
+      "path": "README.md",
+      "sha256": "22634e072725892b6b1a931c461f9472cb368724f17c50be90a6f25f32c3bafb",
+      "Gitblob": "8e61a7e91a1a7fc8f3b55a0d1c74d3b3f36b4218",
+      "retrieval": "rawfixedcommitresponse, noexecution"
+    },
+    {
+      "path": "COPYING",
+      "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986",
+      "Gitblob": "f288702d2fa16d3cdf0035b15a9fcbc552cd88e7",
+      "retrieval": "rawfixedcommitresponse, noexecution"
+    },
+    {
+      "path": "source/W_pol_dir.cc",
+      "status": "notretrieved:firstbatchendedReadTimeout, noautomaticretry"
+    },
+    {
+      "path": "include/W_pol_dir.hh",
+      "status": "notretrieved:firstbatchendedReadTimeout, noautomaticretry"
+    },
+    {
+      "path": "source/W_gamma_gamma.cc",
+      "status": "notretrieved:firstbatchendedReadTimeout, noautomaticretry"
+    },
+    {
+      "path": "test/test_w_pol_dir.cc",
+      "status": "notretrieved:firstbatchendedReadTimeout, noautomaticretry"
+    },
+    {
+      "path": "python/test/test_analyzing_power.py",
+      "status": "notretrieved:firstbatchendedReadTimeout, noautomaticretry"
+    }
+  ],
+  "initial_batch_exit": 1,
+  "cause": "rawhostReadTimeout ononeor morefiles; partialdownloadsretained, noexternalcodeexecuted"
+}

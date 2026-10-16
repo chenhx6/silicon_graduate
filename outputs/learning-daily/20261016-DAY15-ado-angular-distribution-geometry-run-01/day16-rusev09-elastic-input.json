@@ -1,0 +1,110 @@
+{
+  "identity": "DAY16-PREVIEW-RU09-ELASTIC-BRANCHES-01",
+  "frozen_at": "2026-10-17T06:03:42.470031+08:00",
+  "session_id": "01a14510-aec7-7e00-aa23-f7c77a5124bc",
+  "source": "knowledge/sources/rusev-2009-multipole-mixing-ratios-11b.md",
+  "raw_file": "raw/papers/2009_Rusev et al_Multipole mixing ratios of transitions in B 11.pdf",
+  "raw_sha256": "acf557c95f557a3de075ae263e2ef3bc9f6b2e3f9e905928445df20fad3896f9",
+  "scope": "sourcetable-drivenconditionalNRFpointamplitudes, notrawHIgammaS/GEANTreplay ornew11Blevelmap",
+  "priming": "Full4pageoriginalandFigs/TableIread, smalldeltavaluesandquotedlarge-1.30knownbeforecode, notblind",
+  "source_inputs": {
+    "ground_twice_spin": 3,
+    "ground_Jpi": "3/2-",
+    "P_gamma": 1.0,
+    "P_gamma_scope": "chosenexact1asapproximationtosourcenearly100%, notmeasuredwithgivenuncertainty",
+    "calibrated_efficiency_h_over_v": "1.011(10)",
+    "C_5over2": 0.95,
+    "C_3over2": 0.941,
+    "C_scope": "sourceGEANT3 at10MeV, multiplyasymmetryinprintedEq2; actualcode/energyandδresponseCovnotobtained"
+  },
+  "elastic_rows": [
+    {
+      "E_keV": "4443.93",
+      "excited_twice_spin": 5,
+      "gamma_types": [
+        "M1",
+        "E2"
+      ],
+      "asymmetry": "0.026(19)",
+      "C": 0.95,
+      "reported_delta": "0.158",
+      "reported_dminus": 0.021,
+      "reported_dplus": 0.025,
+      "reported_branch": 100.0
+    },
+    {
+      "E_keV": "5019.08",
+      "excited_twice_spin": 3,
+      "gamma_types": [
+        "M1",
+        "E2"
+      ],
+      "asymmetry": "0.200(16)",
+      "C": 0.941,
+      "reported_delta": "-0.036",
+      "reported_dminus": 0.013,
+      "reported_dplus": 0.013,
+      "reported_branch": 85.8
+    },
+    {
+      "E_keV": "8916.3",
+      "excited_twice_spin": 5,
+      "gamma_types": [
+        "M1",
+        "E2"
+      ],
+      "asymmetry": "0.215(20)",
+      "C": 0.95,
+      "reported_delta": "0.000",
+      "reported_dminus": 0.014,
+      "reported_dplus": 0.014,
+      "reported_other_root_approx": -1.3,
+      "reported_branch": 97.3
+    }
+  ],
+  "isotropic_control": {
+    "E_keV": "2124.47",
+    "excited_twice_spin": 1,
+    "asymmetry": "-0.008(27)",
+    "gamma_types": [
+      "M1",
+      "E2"
+    ],
+    "C_not_needed_for_exactisotropic": true
+  },
+  "model": {
+    "incoming_direction": "theta0, phi0 withlinearEalongx",
+    "ground_density": "identity/(2Jg+1)",
+    "absorption": "Hermitianconjugateofemissionoperator foridenticalphotonmode",
+    "source_KS_delta1_equals_delta2": true,
+    "native_to_RB_amplitude": "(-1)^L asalreadyderivedfromKS/D96/RB, nofittedsign",
+    "outgoing_detectors_deg": {
+      "H": [
+        90,
+        0
+      ],
+      "V": [
+        90,
+        90
+      ]
+    },
+    "emitted_polarization": "summed/unobserved",
+    "W_polynomial": "unnormalizedamplitudes(1,delta)producequarticdensities, common(1+δ²)^-2cancelsasymmetry",
+    "unknowns_not_fitted": [
+      "sigma",
+      "P_gamma",
+      "C",
+      "efficiencies",
+      "highermultipoles",
+      "background"
+    ]
+  },
+  "inverse": "allrealrootsofquarticforcentralandprintedasymerroendpoints, checkdirectsubstitution; do notdiscardlargerabsrootsbyprior. EndpointimagesnotjointCI orsourceprogramreplay.",
+  "failure_contract": [
+    "recordmismatchbeforeanyconventioncorrection",
+    "checkpureandisotropic/positivity/densityandH-Vswaps",
+    "do not tunephaseorCtofitreportedroots",
+    "ifnotmatchedlocalizeoperator/role/finitegeometryratherthanclaimauthorerror"
+  ],
+  "stop_contract": "onefixedsourcebatch; nofreephysicalfitormoreenergies. Ifnewunresolvedconventiondiagnosis, preservefirstresult/inputsandperformonlythealgebraiccrosscheckrequired."
+}

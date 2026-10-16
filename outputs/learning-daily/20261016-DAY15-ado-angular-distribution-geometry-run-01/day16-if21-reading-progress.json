@@ -1,0 +1,78 @@
+{
+  "at": "2026-10-17T06:29:18.601203+08:00",
+  "v1_textmainline_read_PDFpages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18
+  ],
+  "v1_version": "arXiv2104.00228v1 31Mar2021",
+  "v1_visualmainlinecontact": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17
+  ],
+  "v1_selected_appendix_visual": [
+    20,
+    21,
+    22,
+    23,
+    28,
+    29,
+    30,
+    31
+  ],
+  "VoR_direct_targeted_text": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    16
+  ],
+  "VoR_direct_targeted_visual": [
+    3,
+    5,
+    14,
+    16
+  ],
+  "VoR_not_claimed_complete39pagelinebyline": true,
+  "versionboundary": "KeyEq2–18/phasecriticismconfirmedVoR; mainlinefullreadwasv1, actualcounterreview2022footnote2notyetobtained",
+  "source_if21_not_yet_written": true,
+  "codecomparison": "IF21Eq3–9 contraction vsretaineddirecttrace max8.88e−16, normalizationpass. OriginalunmodifiedprobephysicalHamiltonianmatchesIF21, notliteralRU09producer. OppositedB1throughIFEq18closessmallRU09rootsbutnotquotedlarge−1.30; sourceproducer/responseactualmissing. Allrootspreserved.",
+  "diagnostic_rank2": "postcalculationdeliberatedrop4didnotcloseallsourcecurves; notactualauthorrankcutoffclaim",
+  "external_code_status": "ALPACAfixedcommit7Gitblobsread/verified, GPLnotcopied/executed; independentimplementationpublishedformulasonly",
+  "new_raws_agentmanaged_neverstage": [
+    "IF21v1 58c0294f6b3d",
+    "IF21VoR4c0b226de8e5"
+  ]
+}

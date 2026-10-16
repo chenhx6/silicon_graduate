@@ -1,0 +1,20 @@
+{
+  "at": "2026-10-17T06:00:26.783898+08:00",
+  "raw": "raw/papers/2009_Rusev et al_Multipole mixing ratios of transitions in B 11.pdf",
+  "sha256": "acf557c95f557a3de075ae263e2ef3bc9f6b2e3f9e905928445df20fad3896f9",
+  "pages": 4,
+  "reading_status": "full4pagesmainlineandkeypixelsinspected",
+  "old_review_preserved": true,
+  "text_pages_read": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "visual_pages": [
+    2,
+    3,
+    4
+  ],
+  "actual_scope": "Eq1–4/TableI/Fig1–4/controls/modelandpriorlimits; originalproducerC/eventCovnotobtained"
+}

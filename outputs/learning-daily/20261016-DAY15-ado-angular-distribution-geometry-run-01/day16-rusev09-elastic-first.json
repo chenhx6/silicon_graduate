@@ -1,0 +1,379 @@
+{
+  "identity": "DAY16-PREVIEW-RU09-ELASTIC-BRANCHES-01",
+  "input_sha256": "507029204a85b75d93d37dda9d319f8b36ecea16185fa7594509ac478cf21d59",
+  "script_sha256": "58d95141f552788fdad38bb6ca73c22dc0ada9ffff22c1aae0751111fe381486",
+  "rows": [
+    {
+      "E_keV": "4443.93",
+      "excited_twice_spin": 5,
+      "H_coefficients": [
+        0.005414350750887425,
+        1.0570971181733668e-18,
+        -0.008277578842208845,
+        -2.710505431213761e-20,
+        0.007285690979383664
+      ],
+      "V_coefficients": [
+        0.0034195899479289,
+        0.006743522319144279,
+        0.010855841104536194,
+        -0.003440572611808306,
+        0.00381246800695021
+      ],
+      "source_C": 0.95,
+      "inversions": [
+        {
+          "observed_asymmetry": 0.006999999999999999,
+          "all_real_roots": [
+            {
+              "delta": -2.7718845481039884,
+              "arctan_delta_deg": -70.16231104966478,
+              "E2_radiative_fraction": 0.8848369929849097
+            },
+            {
+              "delta": -0.5231200422006103,
+              "arctan_delta_deg": -27.61496758571592,
+              "E2_radiative_fraction": 0.21485776690183073
+            },
+            {
+              "delta": 0.18821331198209307,
+              "arctan_delta_deg": 10.659131905641454,
+              "E2_radiative_fraction": 0.03421230551597587
+            },
+            {
+              "delta": 2.084830995896385,
+              "arctan_delta_deg": 64.37505319716871,
+              "E2_radiative_fraction": 0.812962460187519
+            }
+          ],
+          "other_complex_roots": [],
+          "polynomial_coefficients": [
+            0.10075326476883721,
+            -0.3546921098154217,
+            -1.0,
+            0.1809653621507254,
+            0.17707670763986624
+          ]
+        },
+        {
+          "observed_asymmetry": 0.026,
+          "all_real_roots": [
+            {
+              "delta": -2.9144935692548217,
+              "arctan_delta_deg": -71.06225017732473,
+              "E2_radiative_fraction": 0.8946733441593917
+            },
+            {
+              "delta": -0.5126754199776071,
+              "arctan_delta_deg": -27.143099119140253,
+              "E2_radiative_fraction": 0.20813159293687317
+            },
+            {
+              "delta": 0.17306190242311245,
+              "arctan_delta_deg": 9.818465047181595,
+              "E2_radiative_fraction": 0.029079479389020932
+            },
+            {
+              "delta": 2.138866946569667,
+              "arctan_delta_deg": 64.94215906641989,
+              "E2_radiative_fraction": 0.82061981713943
+            }
+          ],
+          "other_complex_roots": [],
+          "polynomial_coefficients": [
+            0.0912826158103002,
+            -0.3607627599131526,
+            -1.0,
+            0.18406263260875136,
+            0.16504304854844853
+          ]
+        },
+        {
+          "observed_asymmetry": 0.045,
+          "all_real_roots": [
+            {
+              "delta": -3.075161228802525,
+              "arctan_delta_deg": -71.98618955761869,
+              "E2_radiative_fraction": 0.9043667717899011
+            },
+            {
+              "delta": -0.5020557502790107,
+              "arctan_delta_deg": -26.659202323541827,
+              "E2_radiative_fraction": 0.20131621578970216
+            },
+            {
+              "delta": 0.15766624772757912,
+              "arctan_delta_deg": 8.959853144524772,
+              "E2_radiative_fraction": 0.024255682261608416
+            },
+            {
+              "delta": 2.1969818454934646,
+              "arctan_delta_deg": 65.52640064117054,
+              "E2_radiative_fraction": 0.82837712881019
+            }
+          ],
+          "other_complex_roots": [],
+          "polynomial_coefficients": [
+            0.08186269055302103,
+            -0.36680089631057144,
+            -1.0,
+            0.18714331444416915,
+            0.15307384034434215
+          ]
+        }
+      ],
+      "reported_delta": 0.158,
+      "predicted_at_reported_delta": 0.0445915940980061,
+      "observed_central": 0.026,
+      "central_residual": 0.018591594098006103
+    },
+    {
+      "E_keV": "5019.08",
+      "excited_twice_spin": 3,
+      "H_coefficients": [
+        0.003672892907034745,
+        -5.421010862427522e-19,
+        -0.0012665147955292226,
+        5.421010862427522e-20,
+        0.003166286988823057
+      ],
+      "V_coefficients": [
+        0.0021530751523996783,
+        -0.003924152568647977,
+        0.006332573977646113,
+        -5.421010862427522e-20,
+        0.003166286988823057
+      ],
+      "source_C": 0.941,
+      "inversions": [
+        {
+          "observed_asymmetry": 0.184,
+          "all_real_roots": [
+            {
+              "delta": -0.07170974727015067,
+              "arctan_delta_deg": -4.1016448706971005,
+              "E2_radiative_fraction": 0.005115980011675842
+            },
+            {
+              "delta": 0.5913093451245137,
+              "arctan_delta_deg": 30.596221614972848,
+              "E2_radiative_fraction": 0.25906537677325475
+            }
+          ],
+          "other_complex_roots": [
+            [
+              -0.25979979892718236,
+              -2.6798968211489584
+            ],
+            [
+              -0.25979979892718236,
+              2.6798968211489584
+            ]
+          ],
+          "polynomial_coefficients": [
+            0.04431212785960511,
+            0.5461743985563577,
+            -1.0,
+            1.2622135240078715e-17,
+            -0.14415543716703233
+          ]
+        },
+        {
+          "observed_asymmetry": 0.2,
+          "all_real_roots": [
+            {
+              "delta": -0.05387969696327921,
+              "arctan_delta_deg": -3.0840971439169187,
+              "E2_radiative_fraction": 0.0028946186041040236
+            },
+            {
+              "delta": 0.5753129685641821,
+              "arctan_delta_deg": 29.912376222989245,
+              "E2_radiative_fraction": 0.24867673855393616
+            }
+          ],
+          "other_complex_roots": [
+            [
+              -0.2607166358004509,
+              -2.5847470245566777
+            ],
+            [
+              -0.2607166358004509,
+              2.5847470245566777
+            ]
+          ],
+          "polynomial_coefficients": [
+            0.03245423518461056,
+            0.5484423205737095,
+            -1.0,
+            1.2496814629565989e-17,
+            -0.15513496742165694
+          ]
+        },
+        {
+          "observed_asymmetry": 0.21600000000000003,
+          "all_real_roots": [
+            {
+              "delta": -0.035532729752146386,
+              "arctan_delta_deg": -2.03501928279851,
+              "E2_radiative_fraction": 0.0012609827984290717
+            },
+            {
+              "delta": 0.5589583206125928,
+              "arctan_delta_deg": 29.203370843237934,
+              "E2_radiative_fraction": 0.2380571578941264
+            }
+          ],
+          "other_complex_roots": [
+            [
+              -0.2617127954302226,
+              -2.500623893071992
+            ],
+            [
+              -0.2617127954302226,
+              2.500623893071992
+            ]
+          ],
+          "polynomial_coefficients": [
+            0.02082949308755756,
+            0.5506656505759732,
+            -1.0,
+            1.2373958080212342e-17,
+            -0.1658986175115208
+          ]
+        }
+      ],
+      "reported_delta": -0.036,
+      "predicted_at_reported_delta": 0.21559871052162902,
+      "observed_central": 0.2,
+      "central_residual": 0.015598710521629006
+    },
+    {
+      "E_keV": "8916.3",
+      "excited_twice_spin": 5,
+      "H_coefficients": [
+        0.005414350750887425,
+        1.0570971181733668e-18,
+        -0.008277578842208845,
+        -2.710505431213761e-20,
+        0.007285690979383664
+      ],
+      "V_coefficients": [
+        0.0034195899479289,
+        0.006743522319144279,
+        0.010855841104536194,
+        -0.003440572611808306,
+        0.00381246800695021
+      ],
+      "source_C": 0.95,
+      "inversions": [
+        {
+          "observed_asymmetry": 0.195,
+          "all_real_roots": [
+            {
+              "delta": -6.0157480042148235,
+              "arctan_delta_deg": -80.56200200214924,
+              "E2_radiative_fraction": 0.9731104903224184
+            },
+            {
+              "delta": -0.40549538011736397,
+              "arctan_delta_deg": -22.072326920223237,
+              "E2_radiative_fraction": 0.1412081422322742
+            },
+            {
+              "delta": 0.021241664339148227,
+              "arctan_delta_deg": 1.2168747171573404,
+              "E2_radiative_fraction": 0.0004510048067831235
+            },
+            {
+              "delta": 2.9304021089897487,
+              "arctan_delta_deg": 71.1577879527353,
+              "E2_radiative_fraction": 0.8956948739323767
+            }
+          ],
+          "other_complex_roots": [],
+          "polynomial_coefficients": [
+            0.009229595728451551,
+            -0.4133584348832378,
+            -1.0,
+            0.21089716065471323,
+            0.0607842933766438
+          ]
+        },
+        {
+          "observed_asymmetry": 0.215,
+          "all_real_roots": [
+            {
+              "delta": -7.104080120756275,
+              "arctan_delta_deg": -81.98745160723429,
+              "E2_radiative_fraction": 0.9805704343140573
+            },
+            {
+              "delta": -0.3892831475267166,
+              "arctan_delta_deg": -21.270124746907765,
+              "E2_radiative_fraction": 0.13159871892983646
+            },
+            {
+              "delta": -0.000544798459659489,
+              "arctan_delta_deg": -0.031214649335492103,
+              "E2_radiative_fraction": 2.9680527355395523e-07
+            },
+            {
+              "delta": 3.10589168858016,
+              "arctan_delta_deg": 72.15306483272497,
+              "E2_radiative_fraction": 0.9060729755714366
+            }
+          ],
+          "other_complex_roots": [],
+          "polynomial_coefficients": [
+            -0.00022820299199479335,
+            -0.4194208480270427,
+            -1.0,
+            0.21399022858522587,
+            0.048766962140381905
+          ]
+        },
+        {
+          "observed_asymmetry": 0.235,
+          "all_real_roots": [
+            {
+              "delta": -8.825704839678858,
+              "arctan_delta_deg": -83.53564818162789,
+              "E2_radiative_fraction": 0.9873246148013769
+            },
+            {
+              "delta": -0.37145062304553433,
+              "arctan_delta_deg": -20.377545495740613,
+              "E2_radiative_fraction": 0.12124650964465647
+            },
+            {
+              "delta": -0.024005995118400333,
+              "arctan_delta_deg": -1.3751780777628435,
+              "E2_radiative_fraction": 0.0005759558852737035
+            },
+            {
+              "delta": 3.3251221272265137,
+              "arctan_delta_deg": 73.26182184606868,
+              "E2_radiative_fraction": 0.9170567567641658
+            }
+          ],
+          "other_complex_roots": [],
+          "polynomial_coefficients": [
+            -0.009634071451793513,
+            -0.42544997407053836,
+            -1.0,
+            0.21706631330129514,
+            0.036815614877963615
+          ]
+        }
+      ],
+      "reported_delta": 0.0,
+      "predicted_at_reported_delta": 0.21451612903225806,
+      "observed_central": 0.215,
+      "central_residual": -0.0004838709677419395
+    }
+  ],
+  "max_polynomial_direct_error": 1.734723475976807e-18,
+  "isotropic_excited_halfspin_max_asymmetry": 8.765969640024949e-17,
+  "scope": "Conditional source-informed real-amplitude/integer-rank/halfspin NRF model. No original event/GEANT code, exact beamP/theoryCov or new spin assignment. All real roots retained, larger roots not discarded by a plausibility prior."
+}

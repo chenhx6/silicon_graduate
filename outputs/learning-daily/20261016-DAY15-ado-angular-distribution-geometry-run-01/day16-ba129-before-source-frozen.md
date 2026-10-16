@@ -1,0 +1,11 @@
+# A≈130/129Ba365keV分支：来源前回忆（primed）
+
+已见本session文献provider返回arXiv2108.05313v3的title/abstract，知道作者S.Chakraborty对Gizon1978PRC17,596的365keV mixingratio作重新评价并称较大E2更合polarization；这些只算discovery，不作事实来源。已有Wiki文件chakraborty-2024-possibility-wobbling-129ba.md的名称已发现，但source正文/raw均尚未在本段打开。强priming，不计Day16正式学分或盲测。
+
+1. 旧数据重新解δ不是独立采集；须先对齐同一个parent/daughter、transitionenergy、A2/A4/P的measurementcondition和δconvention。只因新root与期望模式相符不能选它。
+2. 若只给α2A2、α4A4的部分取向coeff，核attenuation/geometry/referenceCov未知时，两参数δ/sigma可能仍不唯一。既有SE21必要正性条件也不能跨对象直接裁决。
+3. 异号或大小不同的δ可能分别来自convention、branch、printedcoefficient、不同datacut或新的独立polarization；需要原件/locator识别，不能把这些原因混写。
+4. δradiativeE2fraction不直接给B(E2)或wobbling身份；同作者2024可能复用旧physicsinputs，必须核source独立性，不打开无关课题/新卡。
+5. 本段最高信息目标是一个A130实际reanalysis中的反证/必要companion，可复算则保留全部根与missingCov；若只是重复已知双根/旧paper无body，写边界而不堆toy。
+
+原deadline2026-10-17 15:00上海不变，formal15once、onlypartial16、不打开17。准备当前数据身份/原件后再决定boundedquantitativeexercise。

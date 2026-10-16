@@ -1,0 +1,136 @@
+#!/usr/bin/env python3
+"""Published IF21 coefficient route versus the retained NRF photon trace.
+
+This implements published equations, not copied ALPACA implementation code.
+The two routes share signed CG/6j primitives but contract different quantities.
+"""
+from __future__ import annotations
+
+import argparse
+import hashlib
+import json
+import math
+from pathlib import Path
+
+import numpy as np
+from scipy.special import eval_legendre, lpmv
+
+from day16_se21_m3_reference import native_f
+from day16_rusev09_elastic_branches import direct, components, quoted, roots
+
+
+def a_coefficient(excited: int, ground: int, rank: int, delta: float) -> float:
+    return (native_f(excited,ground,rank,1,1)
+            +2*delta*native_f(excited,ground,rank,1,2)
+            +delta*delta*native_f(excited,ground,rank,2,2))
+
+
+def e_coefficient(excited: int, ground: int, rank: int, delta: float) -> float:
+    assert rank>=2
+    nn=rank*(rank+1)
+    def diagonal(ell: int, magnetic: bool) -> float:
+        return ((-1 if magnetic else 1)*native_f(excited,ground,rank,ell,ell)
+                *2*nn*ell*(ell+1)/(nn-2*ell*(ell+1)))
+    return math.factorial(rank-2)/math.factorial(rank+2)*(
+        diagonal(1,True)+2*delta*native_f(excited,ground,rank,1,2)*(2-1)*(2+1+1)
+        +delta*delta*diagonal(2,False))
+
+
+def coefficient_w(ground: int, excited: int, d1: float, d2: float,
+                  theta: float, phi_IF: float) -> float:
+    total=0.
+    for rank in range(0,min(4,excited)+1,2):
+        a1=a_coefficient(excited,ground,rank,d1)
+        a2=a_coefficient(excited,ground,rank,d2)
+        total+=a1*a2*eval_legendre(rank,math.cos(theta))
+        if rank>=2:
+            total+=e_coefficient(excited,ground,rank,d1)*a2*lpmv(2,rank,math.cos(theta))*math.cos(2*phi_IF)
+    return float(total/((1+d1*d1)*(1+d2*d2)))
+
+
+def absorption_rate(ground: int, excited: int, d: float) -> float:
+    inp={h:components(ground,excited,0.,0.,h) for h in (-1,1)}
+    amps=[(-inp[1][k]+inp[-1][k])/math.sqrt(2) for k in (0,1)]
+    amp=(amps[0]+d*amps[1])/math.sqrt(1+d*d)
+    return float(np.trace(amp@amp.conj().T).real/(ground+1))
+
+
+def raw_coefficient_polynomials(ground: int, excited: int, sign: int) -> tuple:
+    # A and E are quadratics. Products yield quartics directly, no curve fit.
+    w={0:np.zeros(5),90:np.zeros(5)}
+    for rank in range(0,min(4,excited)+1,2):
+        aa=np.array([native_f(excited,ground,rank,1,1),
+                     2*native_f(excited,ground,rank,1,2),
+                     native_f(excited,ground,rank,2,2)])
+        ab=aa*np.array([1,sign,1])
+        for phi in (0,90):
+            w[phi]+=np.convolve(ab,aa)*eval_legendre(rank,0.)
+        if rank>=2:
+            ee=np.array([e_coefficient(excited,ground,rank,0.),
+                         (e_coefficient(excited,ground,rank,1.)-e_coefficient(excited,ground,rank,-1.))/2,
+                         (e_coefficient(excited,ground,rank,1.)+e_coefficient(excited,ground,rank,-1.))/2
+                         -e_coefficient(excited,ground,rank,0.)])
+            ee*=np.array([1,sign,1])
+            modulation=np.convolve(ee,aa)*lpmv(2,rank,0.)
+            w[0]+=modulation;w[90]-=modulation
+    # RU09 H is parallel E, i.e. IFphi90; V is IFphi0.
+    return w[90],w[0]
+
+
+def main() -> None:
+    p=argparse.ArgumentParser(description=__doc__)
+    p.add_argument("--input",type=Path,required=True)
+    p.add_argument("--output",type=Path,required=True)
+    args=p.parse_args();cfg=json.loads(args.input.read_text())
+    root=Path(__file__).resolve().parents[2]
+    for path,key in [(cfg["arxiv_raw"],"arxiv_sha256"),(cfg["vor_raw"],"vor_sha256")]:
+        assert hashlib.sha256((root/path).read_bytes()).hexdigest()==cfg[key]
+    ru=Path(cfg["rou09_frozen_input"]);assert hashlib.sha256(ru.read_bytes()).hexdigest()==cfg["rou09_input_sha256"]
+    ru_cfg=json.loads(ru.read_text());errors=[];samples=[];reciprocity=[];normalization=[]
+    for j in cfg["checks"]["chosen_excited_twice_spins"]:
+        for d in cfg["checks"]["delta_B_values_chosen"]:
+            absorption=absorption_rate(3,j,d)
+            for theta in np.deg2rad(cfg["checks"]["theta_degrees"]):
+                for phi in np.deg2rad(cfg["checks"]["phi_IF_degrees"]):
+                    c=coefficient_w(3,j,d,d,float(theta),float(phi))
+                    amp=direct(3,j,float(theta),float(math.pi/2-phi),d)*4*math.pi/absorption
+                    errors.append(abs(c-amp));samples.append({"twice_J":j,"d_B":d,"theta_deg":float(np.rad2deg(theta)),
+                                                               "phi_IF_deg":float(np.rad2deg(phi)),"coefficient":c,
+                                                               "normalized_trace":amp,"error":abs(c-amp)})
+            x,weights=np.polynomial.legendre.leggauss(8)
+            mean=sum(weight*coefficient_w(3,j,d,d,float(np.arccos(cost)),float(phi))
+                     for cost,weight in zip(x,weights) for phi in np.arange(12)*math.pi/6)/24
+            normalization.append({"twice_J":j,"d_B":d,"angular_mean":mean})
+    inversions=[]
+    for row in ru_cfg["elastic_rows"]:
+        a,sa=quoted(row["asymmetry"]);j=row["excited_twice_spin"]
+        variants=[]
+        for sign in (1,-1):
+            h,v=raw_coefficient_polynomials(3,j,sign)
+            inverse_results=[roots(h,v,row["C"],value) for value in (a-sa,a,a+sa)]
+            for result in inverse_results:
+                for root_value in result["all_real_roots"]:
+                    d=root_value["delta"]
+                    parallel=coefficient_w(3,j,sign*d,d,math.pi/4,math.pi/2)
+                    perpendicular=coefficient_w(3,j,sign*d,d,math.pi/4,0.)
+                    root_value["ideal_RU_parallel_minus_perp_at45"]=(parallel-perpendicular)/(parallel+perpendicular)
+                    root_value["theta45_acceptance_correction_known"]=False
+            variants.append({"dB1_over_dB2":sign,"C":row["C"],
+                             "interpretation":"physicalelasticBiedenharn" if sign==1 else "unmodifiedSteffenequalSdiagnosticviaEq18",
+                             "inversions":inverse_results,
+                             "at_quoted_large_minus1p30":row["C"]*float(np.polynomial.polynomial.polyval(-1.3,h-v)/
+                                                                 np.polynomial.polynomial.polyval(-1.3,h+v))})
+        inversions.append({"E_keV":row["E_keV"],"variants":variants})
+    out={"identity":cfg["identity"],"input_sha256":hashlib.sha256(args.input.read_bytes()).hexdigest(),
+         "script_sha256":hashlib.sha256(Path(__file__).read_bytes()).hexdigest(),
+         "max_coefficient_trace_difference":max(errors),"normalization":normalization,
+         "samples":samples,"inversions":inversions,
+         "scope":"Comparison uses explicitIF21Biedenharnandrotatedaxes. It is not originalRU09producercode, a newexperimentalfit or a blanket verdict on modifiedKSWexpressions. OriginalRU09firstprobe/results remain preserved."}
+    args.output.write_text(json.dumps(out,ensure_ascii=False,indent=2)+"\n")
+    print(json.dumps({"max_error":max(errors),"normalization_range":[min(x["angular_mean"] for x in normalization),max(x["angular_mean"] for x in normalization)],"inversions":[{"E":x["E_keV"],"roots":[{"model":v["interpretation"],"roots":[r["delta"] for r in v["inversions"][1]["all_real_roots"]],"a_at_minus1p30":v["at_quoted_large_minus1p30"]} for v in x["variants"]]} for x in inversions]},ensure_ascii=False,indent=2))
+    assert max(errors)<2e-12
+    assert all(abs(x["angular_mean"]-1)<2e-12 for x in normalization)
+
+
+if __name__=="__main__":
+    main()

@@ -1,0 +1,264 @@
+{
+  "postcalculationdiagnostic": true,
+  "not_original_frozenphysics_or_authorimplementation_claim": "Truncateallrank4deliberatelyasdiagnosticdespitebothpapersallowingrank4. Nochangefrozeninput; noactualcodeobtained.",
+  "items": [
+    {
+      "E": "4443.93",
+      "variants": [
+        {
+          "dB1sign": 1,
+          "deliberate_rankcutoff": 2,
+          "F2E2E2": -0.1909008870803031,
+          "F4E2E2": 0.7053867426838486,
+          "root_result": {
+            "observed_asymmetry": 0.026,
+            "all_real_roots": [
+              {
+                "delta": -17.46543017978112,
+                "arctan_delta_deg": -86.72305280108434,
+                "E2_radiative_fraction": 0.9967324666346761
+              },
+              {
+                "delta": -0.49937037890832336,
+                "arctan_delta_deg": -26.536184204421563,
+                "E2_radiative_fraction": 0.199597093396848
+              },
+              {
+                "delta": 0.17286518051607708,
+                "arctan_delta_deg": 9.807521115105656,
+                "E2_radiative_fraction": 0.029015323969897033
+              },
+              {
+                "delta": 4.4038409501718725,
+                "arctan_delta_deg": 77.20653392046229,
+                "E2_radiative_fraction": 0.9509655258523267
+              }
+            ],
+            "other_complex_roots": [],
+            "polynomial_coefficients": [
+              0.09128261581030016,
+              -0.36076275991315243,
+              -1.0,
+              0.18406263260875114,
+              0.013748232326758921
+            ]
+          },
+          "a_at_source_small_delta": 0.04442088148305607,
+          "a_at_minus1p30": -0.6801728956307229
+        },
+        {
+          "dB1sign": -1,
+          "deliberate_rankcutoff": 2,
+          "F2E2E2": -0.1909008870803031,
+          "F4E2E2": 0.7053867426838486,
+          "root_result": {
+            "observed_asymmetry": 0.026,
+            "all_real_roots": [
+              {
+                "delta": -23.727964501206273,
+                "arctan_delta_deg": -87.58673384327574,
+                "E2_radiative_fraction": 0.9982270015935424
+              },
+              {
+                "delta": -3.069772841351267,
+                "arctan_delta_deg": -71.95661767456215,
+                "E2_radiative_fraction": 0.9040629834725511
+              },
+              {
+                "delta": 0.1580278423850826,
+                "arctan_delta_deg": 8.980067341438875,
+                "E2_radiative_fraction": 0.024364352882346705
+              },
+              {
+                "delta": 0.5768207571367525,
+                "arctan_delta_deg": 29.977240678442403,
+                "E2_radiative_fraction": 0.24965607190530817
+              }
+            ],
+            "other_complex_roots": [],
+            "polynomial_coefficients": [
+              0.12471444250233722,
+              -0.959520277003677,
+              1.0,
+              0.4895511617365697,
+              0.018783457450294458
+            ]
+          },
+          "a_at_source_small_delta": 0.02602310952478606,
+          "a_at_minus1p30": 0.30508053235494276
+        }
+      ]
+    },
+    {
+      "E": "5019.08",
+      "variants": [
+        {
+          "dB1sign": 1,
+          "deliberate_rankcutoff": 2,
+          "F2E2E2": 0.0,
+          "F4E2E2": 0.0,
+          "root_result": {
+            "observed_asymmetry": 0.2,
+            "all_real_roots": [
+              {
+                "delta": -0.05387969696327932,
+                "arctan_delta_deg": -3.084097143916925,
+                "E2_radiative_fraction": 0.0028946186041040353
+              },
+              {
+                "delta": 0.575312968564182,
+                "arctan_delta_deg": 29.912376222989238,
+                "E2_radiative_fraction": 0.2486767385539361
+              }
+            ],
+            "other_complex_roots": [
+              [
+                -0.2607166358004508,
+                -2.584747024556677
+              ],
+              [
+                -0.2607166358004508,
+                2.584747024556677
+              ]
+            ],
+            "polynomial_coefficients": [
+              0.032454235184610596,
+              0.5484423205737092,
+              -1.0,
+              0.0,
+              -0.15513496742165683
+            ]
+          },
+          "a_at_source_small_delta": 0.2155987105216291,
+          "a_at_minus1p30": -0.41130614794222287
+        },
+        {
+          "dB1sign": -1,
+          "deliberate_rankcutoff": 2,
+          "F2E2E2": 0.0,
+          "F4E2E2": 0.0,
+          "root_result": {
+            "observed_asymmetry": 0.2,
+            "all_real_roots": [
+              {
+                "delta": -0.03643267826113167,
+                "arctan_delta_deg": -2.086515855240799,
+                "E2_radiative_fraction": 0.0013255805491330288
+              },
+              {
+                "delta": 2.25289139578443,
+                "arctan_delta_deg": 66.06480787973842,
+                "E2_radiative_fraction": 0.8354050255687158
+              }
+            ],
+            "other_complex_roots": [
+              [
+                -1.1082293587616494,
+                -1.1491717897005893
+              ],
+              [
+                -1.1082293587616494,
+                1.1491717897005893
+              ]
+            ],
+            "polynomial_coefficients": [
+              0.0358762006742203,
+              1.0,
+              0.4194703004261136,
+              0.0,
+              -0.17149235503929405
+            ]
+          },
+          "a_at_source_small_delta": 0.20052944764640535,
+          "a_at_minus1p30": 0.06729951015636049
+        }
+      ]
+    },
+    {
+      "E": "8916.3",
+      "variants": [
+        {
+          "dB1sign": 1,
+          "deliberate_rankcutoff": 2,
+          "F2E2E2": -0.1909008870803031,
+          "F4E2E2": 0.7053867426838486,
+          "root_result": {
+            "observed_asymmetry": 0.215,
+            "all_real_roots": [
+              {
+                "delta": -0.38291707171271594,
+                "arctan_delta_deg": -20.952696117959604,
+                "E2_radiative_fraction": 0.12787565415165691
+              },
+              {
+                "delta": -0.0005447984596866906,
+                "arctan_delta_deg": -0.031214649337050645,
+                "E2_radiative_fraction": 2.968052735835941e-07
+              }
+            ],
+            "other_complex_roots": [
+              [
+                1.5174335010318578,
+                -3.3542886119510458
+              ],
+              [
+                1.5174335010318578,
+                3.3542886119510458
+              ]
+            ],
+            "polynomial_coefficients": [
+              -0.000228202991994801,
+              -0.4194208480270426,
+              -1.0,
+              0.21399022858522568,
+              -0.08070823504538552
+            ]
+          },
+          "a_at_source_small_delta": 0.21451612903225803,
+          "a_at_minus1p30": -0.6801728956307229
+        },
+        {
+          "dB1sign": -1,
+          "deliberate_rankcutoff": 2,
+          "F2E2E2": -0.1909008870803031,
+          "F4E2E2": 0.7053867426838486,
+          "root_result": {
+            "observed_asymmetry": 0.215,
+            "all_real_roots": [
+              {
+                "delta": -1.6048716621086692,
+                "arctan_delta_deg": -58.07285153668633,
+                "E2_radiative_fraction": 0.7203276793372373
+              },
+              {
+                "delta": -0.0003335579399217914,
+                "arctan_delta_deg": -0.019111461471810812,
+                "E2_radiative_fraction": 1.1126088690588305e-07
+              },
+              {
+                "delta": 1.091865488802329,
+                "arctan_delta_deg": 47.5145617802954,
+                "E2_radiative_fraction": 0.543831049623078
+              },
+              {
+                "delta": 4.837519774674163,
+                "arctan_delta_deg": 78.32046889592107,
+                "E2_radiative_fraction": 0.9590190766355999
+              }
+            ],
+            "other_complex_roots": [],
+            "polynomial_coefficients": [
+              -0.0003336135216033868,
+              -1.0,
+              0.49973187355094084,
+              0.5102040816326529,
+              -0.11798863056317142
+            ]
+          },
+          "a_at_source_small_delta": 0.21451612903225803,
+          "a_at_minus1p30": 0.30508053235494276
+        }
+      ]
+    }
+  ]
+}

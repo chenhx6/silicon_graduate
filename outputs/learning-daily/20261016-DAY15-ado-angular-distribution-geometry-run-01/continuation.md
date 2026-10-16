@@ -1,17 +1,19 @@
 # Day15同session持续学习续接
 
-- generated_at: 2026-10-17T05:59:26.747913+08:00
+- generated_at: 2026-10-17T06:40:42.753731+08:00
 - run_id: 2026-10-16-day-15-01
 - session_id: 01a14510-aec7-7e00-aa23-f7c77a5124bc
 - resume_command: `codex resume 01a14510-aec7-7e00-aa23-f7c77a5124bc -C /workspace/wiki -s danger-full-access -a never`
-- 原研究截止2026-10-17T15:00:00+08:00；15–16仅收束，日期不改。
+- 原2026-10-17T15:00:00+08:00研究截止、15–16只收束，不改日期。
 
-看activehandoff/research-checkpoint/run/latestpublication。Goal/windowactive，formal15complete/creditedonce next16/count15，completed15/partial16，无formal16/17。启动治理已读不重扫历史，不新建goal/session/daemon或伪造scheduler事件。
+Readactivehandoff/research-checkpoint/run/latestpublication。Goal/windowactive，formal15complete/creditedonce、next16/count15、completed15/partial16、无formal16/17。启动治理已读不重扫历史，不新建goal/session/daemon/伪造scheduler事件。
 
-Published001–009实际H3/push；010稳定指针main / Add shell-matched conversion references and E0 conditioning limits，actual只凭publication010。33writeback/36mappedpaths，KB08原历史prefix34,020bytes/pagehumanreview/全部oldflags保留。FOnew2queries(E489.8,Z70M1/E2)加newboundedE0query1，共3POST0retry；rawHTML3份hash/不stage。actualv2.3(2011)，E0actualBeOmg；FO N6/N7blank和>398warning，programTot不complete，E0只有K/L1/L2也不complete，无均一E0error。A173reference非A164recalc、.1keV未输入/δerror/Σ未得。Kfixedpoint/countκalias/E0K-L1condition437/ranklossscope均canonicalICCmethod/source/ST99note，boundedstopcontractmet，不加更多ICCquery或旧toy。
+001–010实际published；011稳定指针main / Audit polarized-photon branches with explicit phase roles，actualH3/push只publication011。36writeback/39mapped，NRFnewsource/method与actualRU09sourceappend已canonical，原RU09/KB08全humanreviewprefix/flags保持。RU09-6实际false，回忆沿旧project误以true不回写；新增8–14true。
 
-下一高信息RU09实际分支/knowninitialdensityroute已selected，primedfreeze day16-rusev09-before-source-frozen.md、candidate-refresh010、beforeappendbaseline在run。已读旧Wiki source rusev-2009-multipole-mixing-ratios-11b.md，raw4pages尚未开。当前RU09-6false/pagehumanreviewed，冻结回忆沿project以为needsreview是priming错误，纠正在baseline，**不改冻结原答/旧flag**。下步核rawhash/完整4page/GEANT/beamP/控线/TableI/Fig4双根与physical-prior，并保存trueexp/authorinterpretation层；原整个sourceprefix保留新appendtrue，无新11B页/不打开新课程卡。
+IF21v1 mainline1–18text/fig1–11和selectedappendix完整当前范围，VoRcriticalEq3–18/p5criticism/p14/16已direct核，**不是全39pageVoR逐行read**。DirectprobephysicalelasticBiedenharn与独立IFcoef max8.89e−16/normalization通过，但不是RU09producerreplay：5/2givena有4conditionalroots，source−1.30未闭合，不推荐新δ。a±errors全根/ideal45伴随已存，C45/actualΣ未知；诊断fixedin0/oppositesigndelta/rank2cut均explicitnotauthorcodeclaim，不继续自由调参。原firstcode/result/input保存。IF21作者批评sameKSWsign，ALPACA READMEreportsmodifiedincomingcoeffdifferentinterpretation；2022reviewfootnote2和2023corrigendumbody未得，不能只引用title判改了什么。
 
-05:56:04上海余543.93min，current及恰好Day16仍有此高信息actualsource，不提前closeout。N164 source已含647EKCprior/489theoryCC/time/derivedB/unknown302；secondary150Sm16/18O冲突隔离且NSR+Lundabstract支持18，无primarybody。Xie/Jo publisher403、OAclosed、Lund无file、INSPIRE无docs、OSTIfail/Scholarfail、Elsevier未配不重复；未声称机构无权限或全部合法路线耗尽。
+ALPACA publiccommit f173c2d2e2fd855451e06446a2cfcce679c42d24，7Gitblobs只读/验证，无build/执行/GPLcopy；实现独立按发表公式。KSW73仅targetroles前10页，不宣称56页full重读。SourceIF21 rawVoR4c0b226…/v1 58c029… untracked neverstage。Review22 publisherrobot/机构metadata/404/APIcoredataonly，不绕CAPTCHA/改credentials，不原样重试失败。
 
-ProtectPLAN/Bib/原raw/review/credentials/继承receipts/daemon/旧log。Explicitmanifest/log仅HEAD+ownentry，freshchecks/stagedaudit/commit/一次reconciliation/H3非force HEAD:main，自身hash只事后receipt。最终closeout才一次overview对账。
+下一A130129Ba365route已selected并primedfreeze day16-ba129-before-source-frozen.md/candidate-refresh011。已读旧CH24humanreviewsource，claims1–6true/AR保持，beforeappendbaseline在run；raw2024原件尚未开，新arxiv2108.05313v3尚未下载。先核其官方v3/title/year/DOI，完整短文主线/图表/uncertainty，再按需要读CH24原件/原Gizon数据identity。它们是reanalysis不同版本/同旧数据，不计新实验；新boundedworksheet只为coef/phase/P/δ分支，不做新collectivemode裁决或新卡。06:39:11上海余500.82min，当前和允许partial16仍有高信息路线，不提前closeout。
+
+ProtectPLAN/Bib/原userraw/review/credentials/继承receipts/daemon/旧log。Exactmanifest/log HEAD+ownentry，freshchecks/stagedaudit/commit/一次reconciliation/H3非force HEAD:main，自身hash只事后receipt。最终closeout才一次overview对账。

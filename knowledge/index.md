@@ -108,6 +108,7 @@ updated: 2026-10-17
 - [[summary-bases-spin-parity-assignments]] - Spin/parity assignment strong/weak evidence checklist；保留 DCO/偏振/角分布 setup boundaries。
 - [[droste-1999-ppco-polarization]] - PPCO 两个偏振探测器的四计数 formalism、PP1/PP2/AA1/AA2 与 DCO 联合判别。
 - [[starosta-1999-pdco-experimental-test]] - EUROGAM-II CLOVER PDCO 实验验证；`Q(E)`、积分偏振和 DCO 联合约束，并保留 `490 keV` E2/M1-E2 多解。
+- [[iliadis-friman-gayer-2021-polarization-direction-correlations]] - NRF偏振–方向关联的显式相位角色、rank与detector几何；对RU09的publishedcriticism和modified-KSW反方定义边界分层。
 - [[rees-2011-156er-nonyrast-gamma-soft]] - `156Er` Gammasphere 非 yrast 结构、γ-band staggering/`S(4)` γ-soft 证据与竞争准粒子 alignment。
 - [[hamilton-1969-mixing-ratios-pt194-196]] - `194,196Pt` 高分辨 γγ 角关联与线偏振提取 E2/M1 `δ`；保留 Biedenharn convention、196Pt theory conflict 与 759-keV 未解析警告。
 - [[jones-1995-clover-compton-calibration]] - 四晶体 CLOVER/EUROGAM Compton 偏振标定；`P/A/Q` 分离、197–1368 keV `Q(E)`、60-keV threshold 与几何边界。
@@ -471,6 +472,7 @@ updated: 2026-10-17
 - [[ado-covariance-calibration]] - ADO的独立本征参考/gate几何两路校验、共享背景和效率latent Cov；自设数值与实际joint响应分层。
 - [[event-mixing-statistics]] - mixed-partner复用的精确矩/退化控制、physical-event与pair entries及ratio cross Cov；条件推导不代实际Σ。
 - [[dco-pdco-ambiguity-worksheet]] - D96点响应下的精确同R双根、PDCO模式与相位基底核对；原文近似示例/本任务模型/真实数据分层。
+- [[polarized-photon-branch-audit]] - 已知NRF beamdensity仍有多根：RU09实际摘要/IF21一致模型、相位/角度映射、四根与45°companion；不重测δ。
 - [[gamma-gamma-coincidence]] - 建立级联与能级纲图。
 - [[level-scheme-reconstruction]] - 从谱峰、符合、能量和到逐线 multipolarity/Jπ 的证据审计；保留复合峰、共享数据和未知绝对能级边界。
 - [[angular-correlation]] - γ/particle-γ angular correlation 的 alignment、multipolarity 与 deorientation correction 入口。

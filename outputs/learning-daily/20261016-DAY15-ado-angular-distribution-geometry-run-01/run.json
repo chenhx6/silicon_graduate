@@ -50,7 +50,7 @@
   "active_recall_sha256": "91eee8abb4bce71d0447617b1d5cb0d64240259115b9522a012963872cb25c67",
   "continuation_prompt": "/workspace/wiki/outputs/learning-daily/20261016-DAY15-ado-angular-distribution-geometry-run-01/continuation.md",
   "research_checkpoint": "/workspace/wiki/outputs/learning-daily/20261016-DAY15-ado-angular-distribution-geometry-run-01/research-checkpoint.json",
-  "last_agent_checkpoint_at": "2026-10-17T05:59:26.747913+08:00",
+  "last_agent_checkpoint_at": "2026-10-17T06:40:42.753731+08:00",
   "agent_goal_state": "active",
   "publications": [
     {
@@ -124,6 +124,14 @@
       "commit_hash": "8fcbb7dd40bc0dacc0fa1095567e3aacc6c2ef7f",
       "status": "checkpoint-pushed",
       "receipt": "outputs/learning-daily/20261016-DAY15-ado-angular-distribution-geometry-run-01/publication-009.json"
+    },
+    {
+      "checkpoint": 10,
+      "branch": "main",
+      "subject": "Add shell-matched conversion references and E0 conditioning limits",
+      "commit_hash": "b63617e56178f8e31e83c3275e64c74a97dbb760",
+      "status": "checkpoint-pushed",
+      "receipt": "outputs/learning-daily/20261016-DAY15-ado-angular-distribution-geometry-run-01/publication-010.json"
     }
   ],
   "formal_day15_card_audit": "complete",
@@ -144,12 +152,12 @@
     "run_window_complete": false
   },
   "study_window_status": "active-partial16",
-  "latest_verification": "outputs/learning-daily/20261016-DAY15-ado-angular-distribution-geometry-run-01/verification-prepublication-010.json",
+  "latest_verification": "outputs/learning-daily/20261016-DAY15-ado-angular-distribution-geometry-run-01/verification-prepublication-011.json",
   "agent_clock_observation": {
-    "clock_tool_UTC": "2026-10-16 21:56:04 UTC",
-    "now_local": "2026-10-17T05:56:04+08:00",
+    "clock_tool_UTC": "2026-10-16 22:39:11 UTC",
+    "now_local": "2026-10-17T06:39:11+08:00",
     "hard_deadline": "2026-10-17T15:00:00+08:00",
-    "minutes_to_deadline": 543.9333333333333,
+    "minutes_to_deadline": 500.81666666666666,
     "decision": "continue",
     "kind": "manualagentobservation,notscheduler"
   }

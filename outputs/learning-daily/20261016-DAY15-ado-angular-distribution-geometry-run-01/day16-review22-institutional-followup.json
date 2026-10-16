@@ -1,0 +1,75 @@
+[
+  {
+    "at": "2026-10-17T06:30:21.879568+08:00",
+    "label": "review22-tubiblio",
+    "url": "https://tubiblio.ulb.tu-darmstadt.de/141016/",
+    "parameters": null,
+    "scope": "boundedpubliccounterviewidentity/access, noauthenticationorCAPTCHAsolved",
+    "status": 200,
+    "content_type": "text/html; charset=utf-8",
+    "bytes": 42937,
+    "sha256": "fc2ec6f87b3226ecf6fea448af4d43a10475d36b9392d48198b36c1a9f0a9195",
+    "final_url": "https://tubiblio.ulb.tu-darmstadt.de/141016/",
+    "title": " Photonuclear reactions - From basic research to applications  - TUbiblio",
+    "relevant_links": [
+      {
+        "text": "10.1016/j.ppnp.2021.103903",
+        "url": "https://doi.org/10.1016/j.ppnp.2021.103903"
+      },
+      {
+        "text": "10.1016/j.ppnp.2021.103903",
+        "url": "https://doi.org/10.1016/j.ppnp.2021.103903"
+      }
+    ],
+    "text_excerpt": "Photonuclear reactions - From basic research to applications  - TUbiblio TU Darmstadt ULB TUbiblio Photonuclear reactions - From basic research to applications Zilges, A. ; Balabanski, D. L. ; Isaak, J. ; Pietralla, N. (2022) Photonuclear reactions - From basic research to applications. In: Progress in Particle and Nuclear Physics, 122 doi: 10.1016/j.ppnp.2021.103903 Artikel, Bibliographie Kurzbeschreibung (Abstract) Nuclear reactions induced by photons play a vital role for very different aspects of basic research and applications in physics. They are a key ingredient for the synthesis of nuclei in the Universe and provide, due to the selectivity and the model-independence of the reaction mechanism, an extremely valuable probe for researchers. The penetrability of photons in the MeV energy range makes them, in addition, an ideal tool for meeting various societal challenges. The last two decades saw a rapid development of advanced photon sources and detection methods for photonuclear reaction products. Bremsstrahlung and quasi-monoenergetic photon beams with unprecedented intensity a"
+  },
+  {
+    "at": "2026-10-17T06:30:21.879319+08:00",
+    "label": "review22-kups-query",
+    "url": "https://kups.ub.uni-koeln.de/cgi/search/simple",
+    "parameters": {
+      "q": "Photonuclear reactions",
+      "_action_search": "Search",
+      "_order": "bytitle",
+      "basic_srchtype": "ALL",
+      "_satisfyall": "ALL"
+    },
+    "scope": "boundedpubliccounterviewidentity/access, noauthenticationorCAPTCHAsolved",
+    "status": 200,
+    "content_type": "text/html; charset=utf-8",
+    "bytes": 65743,
+    "sha256": "3c86453c07f1ea35662da1e06e4b9c1dcd2c0096d9c0484dacb789b3ebe359b2",
+    "final_url": "https://kups.ub.uni-koeln.de/cgi/search/simple?q=Photonuclear+reactions&_action_search=Search&_order=bytitle&basic_srchtype=ALL&_satisfyall=ALL",
+    "title": "Item matches \"Photonuclear reactions\" - Kölner UniversitätsPublikationsServer",
+    "relevant_links": [
+      {
+        "text": "",
+        "url": "http://kups.ub.uni-koeln.de/80133/1/PhD_Thesis_Svenja_Wilden_reworked.pdf"
+      },
+      {
+        "text": "",
+        "url": "http://kups.ub.uni-koeln.de/80995/1/s10050-025-01634-1.pdf"
+      },
+      {
+        "text": "",
+        "url": "http://kups.ub.uni-koeln.de/1989/1/Dissertation_Spahn.pdf"
+      }
+    ],
+    "text_excerpt": "Item matches \"Photonuclear reactions\" - Kölner UniversitätsPublikationsServer Bitte aktivieren Sie Javascript in Ihrem Browser! zum Inhalt springen Universität zu Köln Login Register Suche in KUPS Suche Sprache wechseln English Deutsch Abschicken Kölner UniversitätsPublikationsServer Hauptnavigation About KUPS Menü schließen KUPS repository Policy Data Protection Notice (in German) Search Menü schließen Advanced Search Browse Menü schließen Latest publications with fulltext Browse by \n\t\t    Division Browse by \n\t\t    Author Browse by \n\t\t      ORCID Browse by \n\t\t      Cologne Series Browse by \n\t\t      OA Funders Statistics Menü schließen Statistics Sie sind hier: Start Simple search Displaying results 1 to 3 of 3 . Refine search | New search Order the results: by title by author's name by year (oldest first) by year (most recent first) Export 3 results as ASCII Citation BibTeX Dublin Core EP3 XML EndNote HTML Citation JSON METS Multiline CSV Object IDs OpenURL ContextObject RDF+N-Triples RDF+N3 RDF+XML Refer Reference Manager Zip Atom RSS 1.0 RSS 2.0 1. Wilden, Svenja ORCID: 0000-0003-"
+  },
+  {
+    "at": "2026-10-17T06:30:23.561834+08:00",
+    "label": "corrigendum-public-xml",
+    "url": "https://api.elsevier.com/content/article/PII:S0146641023000406",
+    "parameters": {
+      "httpAccept": "text/xml"
+    },
+    "scope": "boundedpubliccounterviewidentity/access, noauthenticationorCAPTCHAsolved",
+    "status": 200,
+    "content_type": "text/xml;charset=UTF-8",
+    "bytes": 1895,
+    "sha256": "a1e0a94fa4973b29b891908ce3d784d6945980ee7e376f0a5b39123d09883bfd",
+    "final_url": "https://api.elsevier.com/content/article/PII:S0146641023000406?httpAccept=text%2Fxml",
+    "body_excerpt": "<full-text-retrieval-response xmlns=\"http://www.elsevier.com/xml/svapi/article/dtd\" xmlns:bk=\"http://www.elsevier.com/xml/bk/dtd\" xmlns:cals=\"http://www.elsevier.com/xml/common/cals/dtd\" xmlns:ce=\"http://www.elsevier.com/xml/common/dtd\" xmlns:ja=\"http://www.elsevier.com/xml/ja/dtd\" xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:sa=\"http://www.elsevier.com/xml/common/struct-aff/dtd\" xmlns:sb=\"http://www.elsevier.com/xml/common/struct-bib/dtd\" xmlns:tb=\"http://www.elsevier.com/xml/common/table/dtd\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" xmlns:xocs=\"http://www.elsevier.com/xml/xocs/dtd\""
+  }
+]

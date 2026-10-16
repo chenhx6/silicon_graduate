@@ -1,0 +1,21 @@
+{
+  "at": "2026-10-17T06:37:19.812000+08:00",
+  "fullold_RU09_prefix_preserved": true,
+  "old_RU09_6_flag_still_false": true,
+  "raws": {
+    "raw/papers/gpt/day15-20261016/iliadis-friman-gayer-2021-arxiv2104.00228-58c0294f6b3d.pdf": true,
+    "raw/papers/gpt/day15-20261016/iliadis-friman-gayer-2021-vor-4c0b226de8e5.pdf": true
+  },
+  "firstRU09code_andfirstIF21code_hashes_match": true,
+  "unchanged_generic_dependencies": {
+    "system/scripts/day16_se21_m3_reference.py": "f8e6268e32c37f5dc7c254a013a8abe0b8e3ae88b78626be1984b5217f6918f4",
+    "system/scripts/day16_pdco_ambiguity_preview.py": "619b42017ba91a946942b2c592f927a4299372fb29cd8b75b0964c982b5d9198",
+    "system/scripts/day16_st99_table_replay.py": "de909be78ecc70f42d56c53788c52bbc6a6dabb17a58bbb2e2a99adfa411388e"
+  },
+  "IF21_coefficient_trace_max_error": 8.881784197001252e-16,
+  "actual_RU09_producer_obtained": false,
+  "externalALPACAexecuted": false,
+  "externalGPLcode_copied_into_repository_implementation": false,
+  "counterreview_2022_footnote_or2023corrigendum_body_obtained": false,
+  "newscience_state": "conditionalreproductionboundary, noactualcorrectedmeasurement"
+}

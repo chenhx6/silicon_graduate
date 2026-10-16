@@ -1,0 +1,145 @@
+[
+  {
+    "at": "2026-10-17T06:28:28.467766+08:00",
+    "label": "review22-corrigendum-crossref",
+    "url": "https://api.crossref.org/works/10.1016/j.ppnp.2023.104059",
+    "parameters": null,
+    "role": "publicmetadata/officialOAfulltextroute, noAPIkeyorcredentialsconfiguredorread",
+    "status": 200,
+    "content_type": "application/json",
+    "bytes": 4956,
+    "sha256": "e5b16d55f722781d2ece3f2fd5c776367a94837fe0afdd0ceb4ae333f601cdc9",
+    "metadata": {
+      "title": [
+        "Corrigendum to “Photonuclear reactions—From basic research to applications” [Prog. Part. Nucl. Phys. 122 (2022) 1-96/103903]"
+      ],
+      "DOI": "10.1016/j.ppnp.2023.104059",
+      "relation": {},
+      "link": [
+        {
+          "URL": "https://api.elsevier.com/content/article/PII:S0146641023000406?httpAccept=text/xml",
+          "content-type": "text/xml",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://api.elsevier.com/content/article/PII:S0146641023000406?httpAccept=text/plain",
+          "content-type": "text/plain",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        }
+      ],
+      "alternative-id": [
+        "S0146641023000406"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2023,
+            11
+          ]
+        ]
+      },
+      "volume": "133",
+      "author": [
+        {
+          "given": "A.",
+          "family": "Zilges",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "D.L.",
+          "family": "Balabanski",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "J.",
+          "family": "Isaak",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "N.",
+          "family": "Pietralla",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "at": "2026-10-17T06:28:28.468042+08:00",
+    "label": "review22-full-inspire",
+    "url": "https://inspirehep.net/api/literature/1980458",
+    "parameters": null,
+    "role": "publicmetadata/officialOAfulltextroute, noAPIkeyorcredentialsconfiguredorread",
+    "status": 200,
+    "content_type": "application/json",
+    "bytes": 1191579,
+    "sha256": "9b6a0595b2cad22085c1b810e5ff92442e46c348b7ab144ac855c84410ba9509",
+    "metadata": {
+      "dois": [
+        {
+          "value": "10.1016/j.ppnp.2023.104059",
+          "source": "Elsevier B.V.",
+          "material": "erratum"
+        },
+        {
+          "value": "10.1016/j.ppnp.2021.103903",
+          "source": "Elsevier B.V.",
+          "material": "publication"
+        }
+      ],
+      "documents": null,
+      "arxiv_eprints": null,
+      "urls": null,
+      "report_numbers": null,
+      "external_system_identifiers": [
+        {
+          "value": "2022ZI01",
+          "schema": "NSR"
+        }
+      ]
+    }
+  },
+  {
+    "at": "2026-10-17T06:28:29.493253+08:00",
+    "label": "review22-public-xml",
+    "url": "https://api.elsevier.com/content/article/pii/S0146641021000624",
+    "parameters": {
+      "httpAccept": "text/xml"
+    },
+    "role": "publicmetadata/officialOAfulltextroute, noAPIkeyorcredentialsconfiguredorread",
+    "status": 200,
+    "content_type": "text/xml;charset=UTF-8",
+    "bytes": 1824,
+    "sha256": "7bbaaef3331048998273a17e4af71e00f5c9606cd0b352a821ad02f808818acf",
+    "text_excerpt": "<full-text-retrieval-response xmlns=\"http://www.elsevier.com/xml/svapi/article/dtd\" xmlns:bk=\"http://www.elsevier.com/xml/bk/dtd\" xmlns:cals=\"http://www.elsevier.com/xml/common/cals/dtd\" xmlns:ce=\"http://www.elsevier.com/xml/common/dtd\" xmlns:ja=\"http://www.elsevier.com/xml/ja/dtd\" xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:sa=\"http://www.elsevier.com/xml/common/struct-aff/dtd\" xmlns:sb="
+  }
+]

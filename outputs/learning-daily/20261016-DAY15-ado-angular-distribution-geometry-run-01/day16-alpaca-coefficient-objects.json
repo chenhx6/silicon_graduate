@@ -1,0 +1,91 @@
+{
+  "commit": "f173c2d2e2fd855451e06446a2cfcce679c42d24",
+  "objects": [
+    {
+      "path": "source/W_pol_dir.cc",
+      "Gitblob": "be653ffff726a05bf1f4846b1ab910d0a33e2c5d",
+      "at": "2026-10-17T06:21:55.436259+08:00",
+      "executed": false,
+      "url": "https://api.github.com/repos/u-eff-gee/alpaca/git/blobs/be653ffff726a05bf1f4846b1ab910d0a33e2c5d",
+      "status": 200,
+      "route": "GitblobAPI, changedtransportafterrawhosttimeout",
+      "sha256": "c6c9fb9d1179c05502fe99be2e39111fec7352ac05404e12dfbebd791fadbf39",
+      "bytes": 5663,
+      "git_blob_verified": true
+    },
+    {
+      "path": "include/W_pol_dir.hh",
+      "Gitblob": "d9e8d6f9d2bf36e10e44583c8ff745e5f90682d4",
+      "at": "2026-10-17T06:21:55.436415+08:00",
+      "executed": false,
+      "url": "https://api.github.com/repos/u-eff-gee/alpaca/git/blobs/d9e8d6f9d2bf36e10e44583c8ff745e5f90682d4",
+      "status": 200,
+      "route": "GitblobAPI, changedtransportafterrawhosttimeout",
+      "sha256": "bc76dad9be042cbffc1852f1093e2037acc2aeea79c6d2eeb77b52c0a37cc03d",
+      "bytes": 10638,
+      "git_blob_verified": true
+    },
+    {
+      "path": "source/EvCoefficient.cc",
+      "Gitblob": "c12e9d670b35935869657e9b1ec3a18b0c16624a",
+      "at": "2026-10-17T06:21:56.154950+08:00",
+      "executed": false,
+      "url": "https://api.github.com/repos/u-eff-gee/alpaca/git/blobs/c12e9d670b35935869657e9b1ec3a18b0c16624a",
+      "status": 200,
+      "route": "GitblobAPI, changedtransportafterrawhosttimeout",
+      "sha256": "1c4c7eeba60829d129859f0e0ff9a6fc33741feed86d750db71fccabfd657478",
+      "bytes": 2340,
+      "git_blob_verified": true
+    },
+    {
+      "path": "include/EvCoefficient.hh",
+      "Gitblob": "4a6ff91e731b1ef2bbe4cd5208a1874c827930fa",
+      "at": "2026-10-17T06:21:56.160651+08:00",
+      "executed": false,
+      "url": "https://api.github.com/repos/u-eff-gee/alpaca/git/blobs/4a6ff91e731b1ef2bbe4cd5208a1874c827930fa",
+      "status": 200,
+      "route": "GitblobAPI, changedtransportafterrawhosttimeout",
+      "sha256": "eb77e1ea365111443de00d41e815e1464c0432c7f1f99f965416b3ac543ff2c4",
+      "bytes": 4050,
+      "git_blob_verified": true
+    },
+    {
+      "path": "source/AvCoefficient.cc",
+      "Gitblob": "c2793f0e974635d27e8f8534f43aef533fda7106",
+      "at": "2026-10-17T06:21:56.785905+08:00",
+      "executed": false,
+      "url": "https://api.github.com/repos/u-eff-gee/alpaca/git/blobs/c2793f0e974635d27e8f8534f43aef533fda7106",
+      "status": 200,
+      "route": "GitblobAPI, changedtransportafterrawhosttimeout",
+      "sha256": "2278bb711ca31da74de222d7c2a7cb4ef9ea6c4b2d7639a24e4ee5ef62485d94",
+      "bytes": 2225,
+      "git_blob_verified": true
+    },
+    {
+      "path": "source/FCoefficient.cc",
+      "Gitblob": "fa638b5aa1ea0dfa0693dfd464444a8e753dd62f",
+      "at": "2026-10-17T06:21:56.786607+08:00",
+      "executed": false,
+      "url": "https://api.github.com/repos/u-eff-gee/alpaca/git/blobs/fa638b5aa1ea0dfa0693dfd464444a8e753dd62f",
+      "status": 200,
+      "route": "GitblobAPI, changedtransportafterrawhosttimeout",
+      "sha256": "bd00a633c83f923f8e002a1b371f707eecfcbc860576fae2e8c77f09b1d0f815",
+      "bytes": 3865,
+      "git_blob_verified": true
+    },
+    {
+      "path": "test/test_w_pol_dir.cc",
+      "Gitblob": "b2483f1914fe38be6675197bfa78ef59e8c65410",
+      "at": "2026-10-17T06:21:57.444204+08:00",
+      "executed": false,
+      "url": "https://api.github.com/repos/u-eff-gee/alpaca/git/blobs/b2483f1914fe38be6675197bfa78ef59e8c65410",
+      "status": 200,
+      "route": "GitblobAPI, changedtransportafterrawhosttimeout",
+      "sha256": "905a986d49e5add00c1ed2ba6c86319213052ecf88ee22f99b64151897a931c7",
+      "bytes": 8145,
+      "git_blob_verified": true
+    }
+  ],
+  "rawhostbatchfailurepreserved": true,
+  "externalexecution": false
+}

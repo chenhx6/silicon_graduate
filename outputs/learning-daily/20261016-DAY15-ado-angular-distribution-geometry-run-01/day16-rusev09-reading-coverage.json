@@ -1,0 +1,20 @@
+{
+  "at": "2026-10-17T06:37:19.812000+08:00",
+  "rawsha": "acf557c95f557a3de075ae263e2ef3bc9f6b2e3f9e905928445df20fad3896f9",
+  "text_pages": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "visual_pages": [
+    2,
+    3,
+    4
+  ],
+  "mainline": "beam/setup->Eq1/2calibration/control->Eq3roles->TableI/Fig3/4branches->conditionalphysicalprior/brancherrorpropagation/normalization",
+  "new_claims": "RU09-8..14 true",
+  "old_fullsource_preserved": true,
+  "new_source_not_human_reviewed": true,
+  "actualCov/producer_missing": true
+}

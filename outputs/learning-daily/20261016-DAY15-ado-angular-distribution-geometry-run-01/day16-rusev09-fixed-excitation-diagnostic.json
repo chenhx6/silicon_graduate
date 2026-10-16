@@ -1,0 +1,85 @@
+{
+  "kind": "post-first-runphysical-modeldiagnostic, explicitlyviolatesprintedδ1=δ2formixedelastic andnotasourcecodereplay",
+  "frozen_input_not_changed": true,
+  "no_author_implementation_obtained": true,
+  "results": [
+    {
+      "E": "4443.93",
+      "diagnostic_incoming_delta": 0.0,
+      "outgoing_roots": {
+        "observed_asymmetry": 0.026,
+        "all_real_roots": [
+          {
+            "delta": -8.099523981354901,
+            "arctan_delta_deg": -82.96164975718489,
+            "E2_radiative_fraction": 0.9849855009617485
+          },
+          {
+            "delta": 0.1681687187559131,
+            "arctan_delta_deg": 9.546037023237567,
+            "E2_radiative_fraction": 0.027502915763986294
+          }
+        ],
+        "other_complex_roots": [],
+        "polynomial_coefficients": [
+          0.17173440419448718,
+          -1.0,
+          -0.12608185699556154
+        ]
+      },
+      "predicted_at_reported_delta": 0.03668041342736998
+    },
+    {
+      "E": "5019.08",
+      "diagnostic_incoming_delta": 0.0,
+      "outgoing_roots": {
+        "observed_asymmetry": 0.2,
+        "all_real_roots": [
+          {
+            "delta": -0.04425206011867644,
+            "arctan_delta_deg": -2.533803206685338,
+            "E2_radiative_fraction": 0.0019544175966030113
+          },
+          {
+            "delta": 4.727463522352683,
+            "arctan_delta_deg": 78.05629102075541,
+            "E2_radiative_fraction": 0.9571714507461029
+          }
+        ],
+        "other_complex_roots": [],
+        "polynomial_coefficients": [
+          0.04467020156723952,
+          1.0,
+          -0.21352868817992163
+        ]
+      },
+      "predicted_at_reported_delta": 0.20843120366004764
+    },
+    {
+      "E": "8916.3",
+      "diagnostic_incoming_delta": 0.0,
+      "outgoing_roots": {
+        "observed_asymmetry": 0.215,
+        "all_real_roots": [
+          {
+            "delta": -3.3527044423836183,
+            "arctan_delta_deg": -73.39191139117187,
+            "E2_radiative_fraction": 0.9183048389899059
+          },
+          {
+            "delta": -0.00041366649217078333,
+            "arctan_delta_deg": -0.023701342775443127,
+            "E2_radiative_fraction": 1.7111993746284275e-07
+          }
+        ],
+        "other_complex_roots": [],
+        "polynomial_coefficients": [
+          -0.0004136154590841199,
+          -1.0,
+          -0.2982298766491328
+        ]
+      },
+      "predicted_at_reported_delta": 0.21451612903225806
+    }
+  ]
+}

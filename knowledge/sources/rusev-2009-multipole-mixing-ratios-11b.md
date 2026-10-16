@@ -100,3 +100,32 @@ The `11B` transitions are treated here as a calibration and method-validation da
 ## Personal Notes
 
 This is a very useful counterexample to the idea that "a polarization-like observable automatically resolves `delta`." Here the asymmetry itself is measured cleanly, but the inversion to `delta` still branches, so outside information remains necessary.
+
+## 2026-10-17 Supplement — 原件重读与后续相位批评
+
+本节为Codex新self-audit，**不在人审范围内**。原page review、RU09-1–7及全部旧正文逐字保持；包括原RU09-6目前为false，不因project摘要曾提“待复核”或本次primed回忆误以为true而回写旧flag。新claims均needs_reviewtrue。
+
+原4页PDF hash `acf557c95f557a3de075ae263e2ef3bc9f6b2e3f9e905928445df20fad3896f9`匹配，完整读text、视觉核pp2–4 Eq1–4、TableI、Fig1–4。source Eq3说Krane–Steffen coefficients且elastic取δ1=δ2；作者选smallroot的physical-plausibility理由及−1.30/约63%E2原文确认。标题中的“model-independent”不自动消除multipole截断、已知spin、beam/geometry和先验选择。
+
+### 当前使用时的精确量与边界
+
+- Eq1的Ah/Av是峰计数，须除th/tv，再用epsilon_h/epsilon_v=1.011(.010)归一；它由>2MeV的56Co线weightedmean得到，不能当每个高能physics点的独立exactefficiency。
+- Eq2的a=C P_gamma Sigma，C=.950/.941由10MeV GEANT3方向响应取得，P仅称nearly100%。本任务nominal P=1是选择，不是补出的实测精度。
+- 2.125MeV intermediateJ=1/2给a≈0，可检offset，但不能独立认证非零beamP×response。7.283MeV nearpureE1控制还用“小M2需异常strength”的物理合理性论证，不是无先验的独立M2零测量。
+- blankcontainer控制在同beamflux条件未见可影响4.444峰的12C线，作者据此不修correction；不扩成任何背景/feeding均为0。Fig1 caption的12C4.437、正文4.439与Fig2 caption的beam8.02/正文8.92保留原出版label范围，不修raw或据caption单独改transitionidentity。
+- TableI的目标energy是8916.3keV，旧summary的8916.39多出的末位不受此table支持；当前引用以原行8916.3为准，旧人审行作为历史不重写。
+- branching ratios由同γareas/GEANTefficiency/W计算，δ2误差沿已选δ1±error传播；不是独立排除δ1其它根，也不自动覆盖全部non-gamma decay inventory。
+
+[[iliadis-friman-gayer-2021-polarization-direction-correlations]] VoRp5 Sec3明确批评本篇Steffen同号文字。该作者判断与对本篇producer的实证核验有区别：本session未得到RU09程序、full response或Cov。ALPACA README又报告modified-KSW体系可以同时改incoming系数以保留same-sign convention，原review脚注尚未取得，不能只凭两个相同符号判全部实现错误。
+
+[[polarized-photon-branch-audit]]给出来源后一致IF21定义的conditional四/两根及45°companion；数学由两个不同收缩路线核对，非本篇δ的新实验推荐。旧table值与原文−1.30保持，unrounded implementation/response未闭合仍open。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+| --- | --- | --- | --- | --- | --- |
+| RU09-8 | a为水平/垂直散射方向的rate/efficiency不对称，epsilon_h/v=1.011(.010)；不是outgoinggamma的ComptonA或P。 | observable-and-calibration-definition | direct | printed047601-2 Eq1/2 | true |
+| RU09-9 | C=.950/.941源自作者10MeVGEANT3，Pbeam只称nearly100%；scalarC/beamuncertainty及actualΣ未给，不把本任务P1/Cnominal反演写成完整experimentalCI。 | response-and-error-boundary | direct-and-self-audit | printed047601-2 paragraphbelowEq2 | true |
+| RU09-10 | 2.125isotropic与blankcontainer分别检验特定offset/contamination；7.283nearE1论证还用M2strength合理性。控制不能扩成对全部beamP/response/feeding无模型认证。 | counter-evidence-and-control-scope | direct-and-self-audit | printed047601-2 Fig1/discussion；printed047601-3 paragraphbelowTableI | true |
+| RU09-11 | Eq3声明KScoefficients并取elasticδ1=δ2；IF21VoRp5对这种文字提出已发表criticism。改坐标必须连系数定义，当前未得RU09producer，不能据任务模型直接判代码错误或更正发表δ。 | phase-source-dispute-and-use-boundary | direct-and-later-source-attribution | printed047601-2 Eq3；IF21VoRp5 Sec3 | true |
+| RU09-12 | TableI本线energy为8916.3，不是旧Wiki8916.39；Fig2caption beam8.02与正文8.92不一致，raw原样保留，不用caption作新能量赋值。 | print-label-boundary | direct-and-self-audit | printed047601-3 TableI/Fig2caption andbody | true |
+| RU09-13 | smallroot选择以另支E2unusuallylarge为物理先验，作者−1.30约63%为radiativefraction；branchδ2和B由相同选定δ1/峰面积/GEANT推得，非独立选根measurement。 | attributed-interpretation-and-dependence | direct | printed047601-3–4 Fig4discussion/Eq4 | true |
+| RU09-14 | 一致IF21摘要模型的all-real-root反演与本篇producer不等同；所选point/P1/Cnominal下5/2路径可有4根、3/2路径2根，−1.30未闭合。保留来源值和模型边界，未据此新增实测δ/置信域。 | bounded-reproduction-boundary | task-calculation | printed047601-3 TableI；IF21Eq3–9/18；本任务rootmatrix | true |
