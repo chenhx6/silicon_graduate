@@ -1,18 +1,19 @@
 # Day15同session持续学习续接
 
-- generated_at: 2026-10-16T22:49:37.917559+08:00
+- generated_at: 2026-10-16T23:32:55.539318+08:00
 - run_id: 2026-10-16-day-15-01
 - session_id: 01a14510-aec7-7e00-aa23-f7c77a5124bc
 - resume_command: `codex resume 01a14510-aec7-7e00-aa23-f7c77a5124bc -C /workspace/wiki -s danger-full-access -a never`
-- 原始研究硬截止：2026-10-17T15:00:00+08:00；15:00–16:00只做收束。
-- 当前goal/run仍active，Day15正式交付正在逐项验收，course next15/count14；completed[]、partial[15]。不把checkpoint当完成，不重计Day14或预习分。不打开Day17；若后续当前问题饱和，刷新clock/候选池并至多预习Day16，只列partial16。
+- 原研究硬截止：2026-10-17T15:00:00+08:00；15:00–16:00只收束，不延长。Goal/run仍active，formal Day15已审计complete，completed[15]/partial[16]，Day16只预习、不计卡；不开Day17。
 
-先读system/handoff.md的Day15 active区、本run research-checkpoint.json、日报的Run state/Verification及run.json，检查实际Git/receipt状态。已读启动文件无需重新全扫。若状态completed，只交付/讨论；若closing-out，只做未完收束；当前running时继续下一项实质研究。
+先读active handoff、本run research-checkpoint.json、run.json、最新publication receipt及日报Run state/Verification。检查真实Git/课程状态；若课程已next16/count15，不重复增计。若receipt completed，只交付/讨论；若closing-out，只做剩余收束；running则继续原window的高信息问题。启动治理文件已读，不重扫全部历史。
 
-已完成：22:17 primed recall冻结不回写，Zheng2002五页原件及方法/系数页正式复核；新的chosen ADO计算、共享背景/效率latent Cov、两路f、MC和敏感性图已canonical。GRIFFIN28页v1主文/附录与关键图表已读，source及角关联方法写回；新PDF只在Wiki新raw路径、已有raw未动，VoR未获，官方XML一次ConnectionError不原样重试。Z02-10与SG19-13/14/15的歧义保留，旧review flags不改。不得把自设数或v1歧义写成新实验事实。
+当前已完成：本session22:17 primed recall先冻结，Zheng5页原件重核，新的ADO两路f/共享背景及效率latent Cov、解析/pair/MC/敏感性图已canonical。GRIFFIN28页v1主线/附录及关键图表已读、保留VoR未得/多spin/表文歧义；当前公开固定软件归档经byte/MD5/SHA验证，只做有限setup/CMake/header检查，README/constructor comment明确缺NDA几何/源码，不冒称build或full response重放。精确mixed-partner U统计量、finite-K噪声、prompt/mixed Cov、balanced/弱分母控制及独立枚举/MC/图已写knowledge/methods/event-mixing-statistics.md。所有数为chosen模型，不补真实Σ/Jpi/δ。
 
-当前最高信息路线：在明确的physical-event/partner-selection模型内推导mixed histogram方差与prompt/mixed cross Cov，检验增加同一interaction的partners是否有方差floor；与SG19-4的描述区分。这是新的统计问题，不重跑旧ADO脚本加检查数，不宣称GRIFFIN实际Cov或否定其实测闭合。先冻结预测，再做解析/独立枚举或MC，写回适当knowledge并更新唯一writeback。随后可检查Z模板的线性/曝光归一与共享reference Cov合同；若要读paper引用代码，先查固定Zenodo release metadata/许可/文件大小，再决定有限下载，不能把metadata当成功运行。
+检查点00144文件已实际H3非force Gitee push，指针main / Establish DAY15 ADO covariance and independent response evidence；完整hash只在publication001/runreceipt。检查点002的实际结果以publication002为准；没有结果不能称已push。正式卡的7项审计、freshchecks、continuation、receipt和次日独立入口均存在；课程通过发布后用runner的幂等状态函数对账next16/count15。
 
-所有可复用公式、矩阵、反证和下一观测必须canonical。保持原deadline；每个问题完成后读clock并刷新候选池。有研究窗口时继续有价值当前问题，必要时恰好Day16知识预习。接近截止按time gate，不通过空转或重复toy填时间。
+下一优先路线为恰好Day16无学分预习。已检查其课程卡，并在day16-preview-recall-frozen.md保存primed来源前回忆/时间/session/hash；未打开Droste1996或Krane–Steffen1970 source/raw，下一步先核其页和原件身份、沿主线读定义/公式/图表/误差与phase约定，再选一项真实RDCO/δ或明确条件设计给两个候选解，比较两篇phase/convention原件并做物理observable不变/pure limit失败控制。需要的新知写knowledge，保留本run唯一writeback；只列partial16，不授16、不推进next_day超过16、不打开17。次日20261017-DAY16独立prompt只是准备，未启动新session/daemon/调度；其自己的硬截止不改变当前Day15截止。
 
-发布：按入口baseline保护继承Day6–9/Day13/14 receipts、旧log、daemon、PLAN/Bib/credentials，显式manifest仅纳本run。先fresh boundary/lint/diff与knowledge-writeback/card审计，检查staged paths；H3 fresh fetch/ancestry/dry-run与非force HEAD:main。不要把commit自身hash写入该commit内文件；精确hash只写receipt。若已有检查点发布，继续新增高价值研究，不重复无变化的Git操作。
+可选continuity companion：GRIFFIN Ref16/18的Crossref身份已核，OpenAlex无OA，Drijard1984的CERN record150008已一次命中bot-verification边界、未得正文，不原样重试；不得把metadata当正文或原样重试已终态失败的Elsevier XML。若边际收益低，优先Day16的新phase/双解问题，不重复旧toy或堆check数量。
+
+每个问题/来源局部完成后用clock刷新原deadline和候选池。现在还约15.5小时，不能在本checkpoint提前结束。不要等待没有实际live handle的任务；不要伪造scheduled/runtime事件。保护PLAN/Bib/原raw/review/继承Day6–9/13/14 receipts、daemon与旧log；只显式stage本run路径，log只追加并隔离stage；每次commit后完整H3，成功结果只存receipt，当前commit自身hash不得写进它包含的文件。

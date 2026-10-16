@@ -1,0 +1,12 @@
+{
+  "at": "2026-10-16T23:35:16.371581+08:00",
+  "prompt": "outputs/learning-daily/prompts/20261017-DAY16-dco-rdco-mixing-ratio-convention.md",
+  "scope": "pure render only; no runner main/session/lock/daemon/scheduler invocation",
+  "passed": true,
+  "validation_run_id": "validation-day16-run-01 (synthetic render sentinel, not an actual session)",
+  "actual_run_id_dynamic": true,
+  "actual_output_dir_dynamic": true,
+  "planned_deadline": "2026-10-18T15:00:00+08:00",
+  "today_deadline_unchanged": "2026-10-17T15:00:00+08:00",
+  "only_own_formal_card": 16
+}

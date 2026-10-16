@@ -227,3 +227,5 @@ SG19-7的正输入Z0/Z2/Z4模板可线性合成物理correlation，允许负线�
 原文各方法重用同一套数据（SG19-10），且若干cascade仍有多个Ji/δ候选（SG19-9）；更多opening-angle bins不保证spin唯一。新trigger、initial alignment、addback或angle regrouping先验验算条件见SG19-12，不能直接迁移GRIFFIN11cm的beta/gamma。v1 Table5精度、Table4/8的Gd a4符号与简化Q范围等差别保留SG19-13/14/15；VoR未取得，不用这些歧义数值重造实验Σ或新显著性。
 
 下一项高信息问题是：同一interaction与多个partners配对时，mixed histogram的方差和prompt/mixed cross covariance如何随partner数变化？SG19-4只提供方法描述，没有给实际event-ID/完整Σ。需要以physical-event为单位保存重用关系或作block重采样，而非默认每个mixed pair都是新的独立衰变；本段未声称已求出GRIFFIN实际Cov。
+
+Day15后续[[event-mixing-statistics]]已在明示的固定N、binary tags、逐row无放回算法下推导精确矩：增加K只消去配对噪声，一阶投影非退化时仍留1/N事件方差；平衡控制没有该主导项。独立small-N有理枚举与MC验证，ratio还需prompt/mixed cross Cov；均不是SG19实测Σ。SG19-16/17另把公开固定代码归档和NDA输入缺口分开，未将公开zip冒称full GEANT4重放。

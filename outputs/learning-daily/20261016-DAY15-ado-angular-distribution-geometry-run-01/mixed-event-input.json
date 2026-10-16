@@ -1,0 +1,35 @@
+{
+  "data_identity": "DAY15-20261016-SYNTHETIC-MIXED-EVENT-01",
+  "data_kind": "chosen probability/partner-selection model, not GRIFFIN events or geometry",
+  "physical_events_independent": true,
+  "fixed_event_count_for_target_table": 10000,
+  "p_X1": 0.35,
+  "p_Y1": 0.6,
+  "cov_XY_same_event": 0.02,
+  "coarse_bin": "H(X,Y)=1 if X equals Y; two binary photon direction/response tags, no actual angular kernel",
+  "prompt": "average H(X_i,Y_i) from the same physical event",
+  "mixed": "for each X_i select K distinct Y_j uniformly without replacement among j != i; choices independent between trigger rows",
+  "full_mixing": "all N*(N-1) ordered cross-event pairs",
+  "monte_carlo": {
+    "events": 400,
+    "repetitions": 20000,
+    "partner_counts": [
+      1,
+      10,
+      100,
+      399
+    ],
+    "seed": 2026101602
+  },
+  "degenerate_control": {
+    "p_X1": 0.5,
+    "p_Y1": 0.5,
+    "cov_XY_same_event": 0.0
+  },
+  "boundaries": [
+    "conditioned on fixed N and full two-tag detection for every event",
+    "no time drift/background/DAQ/gate/efficiency or physical Legendre kernel",
+    "ratio delta approximation requires positive non-small denominator; small-N zero denominators are explicitly counted",
+    "not a recalculation of GRIFFIN experimental covariance"
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "at": "2026-10-16T23:31:03.168589+08:00",
+  "basis": "this-session recall/full anchor/new worksheet/convention/counterevidence/canonical delta; actual checkpoint001 H3/push plus fresh extended checks",
+  "coverage": {
+    "valid": true,
+    "completed_day_indices": [
+      15
+    ],
+    "partial_day_indices": [
+      16
+    ],
+    "curriculum_cards_completed": 1,
+    "next_day_index": 16,
+    "error": null
+  },
+  "writeback": {
+    "valid": true,
+    "mode": "updated",
+    "knowledge_paths": [
+      "knowledge/methods/ado-covariance-calibration.md",
+      "knowledge/sources/zheng-2002-ado-coincidence-angular-anisotropy.md",
+      "knowledge/methods/angular-distribution.md",
+      "knowledge/sources/smith-2019-griffin-angular-correlation-analysis.md",
+      "knowledge/methods/angular-correlation.md",
+      "knowledge/index.md",
+      "knowledge/methods/event-mixing-statistics.md"
+    ],
+    "changed_paths": [
+      "knowledge/index.md",
+      "knowledge/methods/ado-covariance-calibration.md",
+      "knowledge/methods/angular-correlation.md",
+      "knowledge/methods/angular-distribution.md",
+      "knowledge/methods/event-mixing-statistics.md",
+      "knowledge/sources/smith-2019-griffin-angular-correlation-analysis.md",
+      "knowledge/sources/zheng-2002-ado-coincidence-angular-anisotropy.md"
+    ],
+    "change_check": "run-snapshot",
+    "error": null
+  },
+  "next_prompt_exists": true,
+  "state_reconciliation": "after current explicit publication, idempotent runner function sets next16/count15; no Day16 credit",
+  "study_window": "active until original 2026-10-17T15:00+08"
+}

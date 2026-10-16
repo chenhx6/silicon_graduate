@@ -104,6 +104,8 @@ Method4再以两能量函数积`f(E1,E2)=g(E1)g(E2)`近似beta/gamma，Eq29的�
 | SG19-13 | v1 Table5把Zn0+的beta印为.955706(27)，相邻正文为.9557(27)；按括号误差的末位语义差两个小数位，不能静默选定其一。 | source-consistency-boundary | direct-and-self-audit | PDF p.10，Table5与左栏末段 | true |
 | SG19-14 | v1 Gd Method2 a4在Table4为−.002(3)，Table8为+.002(3)；Appendix A.16(c)图注Ji=1与Table4的3/4候选不一致。保留对象/表版本边界，未裁决VoR。 | source-consistency-boundary | direct-and-self-audit | PDF p.10，Table4；PDF p.14，Table8；PDF p.24，FigA.16(c)图注 | true |
 | SG19-15 | v1正文给简化几何Q22=.923–.941、Q44=.761–.814，却称Table5的约.95/.84值在范围内；字面范围不覆盖，不能当独立定量一致性证明。 | source-consistency-boundary | direct-and-self-audit | PDF p.11，Eq25/26后简化几何段落 | true |
+| SG19-16 | 本session取得Ref21/22所指2017固定公开软件归档：angular extension v1.0、detectorSimulations v1.0.0；Zenodo byte/MD5及本地SHA核过，非当前版本或成功执行证明。 | software-object-identity | direct | Zenodo records1120421/1123461的version/files；本页软件对象表 | true |
+| SG19-17 | 固定detectorSimulations v1.0.0 README明确NDA/第三方IP源码被省略并需另取，要求旧Geant4/ROOT；公开源文件还说明constructor/geometry在local NDA文件。当前只做有限静态核查，未build或重放论文full response。 | software-readiness-boundary | direct-and-self-audit | archive v1.0.0 README.md L4/L10/L18/L34；src/DetectionSystemGriffin.cc L40–44 | true |
 
 ## Nuclear Structure Information
 
@@ -146,7 +148,22 @@ Method1–4的仪器响应模拟与实验fit必须分开。TableA.10给response�
 
 ## Non-source Notes and Follow-up
 
-本文Ref21指向angular-correlation模拟修改的固定软件DOI `10.5281/zenodo.1120421`，Ref22指向GRIFFIN模拟`10.5281/zenodo.1123461`。目前只核到paper引用，未把链接当作已取得/可build的代码或真实响应。若继续，先读公开release metadata/文件大小和许可，取得有限对象后核hash/版本，再决定可复算内容；缺文件时记录失败而不是宣称软件运行成功。
+本文Ref21指向angular-correlation模拟修改的固定软件DOI `10.5281/zenodo.1120421`，Ref22指向GRIFFIN模拟`10.5281/zenodo.1123461`。初次主文核读时只核到paper引用；本run随后已取得公开归档并做下述有限静态检查，仍没有build或重放full response。未取得的private inputs不以默认几何或新版本软件补造。
+
+## Day15固定软件对象：公开归档与完整重放的边界
+
+以下是独立于论文正文的公开代码原件补核；paper的deep-read不扩张成整个代码包已精审。Zenodo两记录均HTTP200，原文件byte数与MD5匹配，再核SHA-256；只在Wiki新增raw归档，未覆盖旧raw或将zip纳Git。[软件manifest](../../outputs/literature-acquisition/20261016-day15-griffin-software.json)保留固定版本、文件身份和检查范围。metadata license字段均为`other-open`，本次未把包集成到tools或重新许可。
+
+| 原对象 | 版本/日期 | raw归档/SHA-256 |
+| --- | --- | --- |
+| [Zenodo1120421](https://doi.org/10.5281/zenodo.1120421)，paper Ref21 | v1.0，2017-12-20 | `raw/papers/gpt/day15/zenodo-1120421-v1.0.zip`；`62c8c36d216fd6b3b1d3c8b8e300ef5606d473592ce18b5f92eca8e7afd28664` |
+| [Zenodo1123461](https://doi.org/10.5281/zenodo.1123461)，paper Ref22 | v1.0.0，2017-12-21 | `raw/papers/gpt/day15/zenodo-1123461-v1.0.0.zip`；`09acdabb08f58724574ce16490b0c41c3c713ae03767744ec5dd193ac7a7834e` |
+
+angular包根目录`README.md`共4行，L4说明扩展旧Geant4.10.01的radioactive-decay module；没有据此认证现版接口。detector包`README.md`的setup区L1–42已核，L4/L18/L34明确第三方IP/NDA源码省略、需要额外文件且公开/保留部分都需要；L10列Geant4.10.01、ROOT6.04.00，L39还提示usage可能过时。`CMakeLists.txt`111行读完，实际依赖Geant4；`src/DetectionSystemGriffin.cc`只核header/dependency和L40–44的constructor/local-NDA说明，未将3049行全文件称为已读。
+
+这是**当前公开输入不足以重放full response**的readiness boundary，不是已经观测到build失败或判作者没有这些材料。没有执行README的外部安装/private-access脚本，没有读凭据、访问private collaboration仓库或改变本机软件配置。没有补production宏、原事件、拟合Cov或源文χ²；继续可做明确条件的统计推导或公开接口核查，而不假造原阵列响应。
+
+SG19-4的partner复用问题现由[[event-mixing-statistics]]保存精确U统计量矩、finite-K噪声、ratio cross Cov及一阶投影退化控制；所有概率和MC为本任务自设，不改本文实验error bars。SG19-2的48-pair/64-crystal表值只给该方法中uniform-tag条件界的离散输入，不是测得efficiency/Σ。
 
 ## Extracted Pages
 

@@ -1,0 +1,27 @@
+{
+  "question": "更多mixed partners是否等价于更多独立衰变，prompt/mixed Cov怎样改变ratio误差？",
+  "claim": "在明示非退化event模型内，pair数增加只压低配对噪声，event-level方差留下floor；ratio还需prompt/mixed cross Cov。退化控制可无1/N floor。",
+  "backend": "python",
+  "backend_reason": "same task Python3 choice, same backend retained",
+  "archetype": "quantitative grid",
+  "panels": {
+    "a": "mixed estimator sigma versus K and independent-pair counterfactual",
+    "b": "ratio delta sigma with full cross Cov, zero cross Cov, and fixed denominator"
+  },
+  "data": "analytic chosen model at fixed N=10000; MC independently checks moments at N=400, not displayed as mismatched experimental points",
+  "formats": [
+    "svg",
+    "pdf",
+    "png"
+  ],
+  "size_mm": [
+    183,
+    80
+  ],
+  "units": "all ratios/sigmas dimensionless; N/K count physical events/partners separately",
+  "risks": [
+    "conditional sampling algorithm differs from unknown production GRIFFIN event-mixer",
+    "nonzero floor not universal: degenerate projection control required",
+    "no experimental significance or event-Cov inference"
+  ]
+}

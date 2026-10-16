@@ -1,0 +1,32 @@
+[
+  {
+    "doi": "10.1016/0167-5087(84)90275-8",
+    "metadata": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\n  \"title\": \"Study of event mixing and its application to the extraction of resonance signals\",\n  \"authors\": [\n    \"D. Drijard\",\n    \"H.G. Fischer\",\n    \"T. Nakada\"\n  ],\n  \"year\": 1984,\n  \"doi\": \"10.1016/0167-5087(84)90275-8\",\n  \"journal\": \"Nuclear Instruments and Methods in Physics Research\",\n  \"source\": \"crossref\",\n  \"citation_count\": 66,\n  \"abstract\": \"\",\n  \"volume\": \"225\",\n  \"issue\": \"2\",\n  \"pages\": \"367-377\",\n  \"publisher\": \"Elsevier BV\",\n  \"type\": \"journal-article\",\n  \"references_count\": 12,\n  \"url\": \"https://doi.org/10.1016/0167-5087(84)90275-8\"\n}"
+        }
+      ],
+      "structuredContent": {
+        "result": "{\n  \"title\": \"Study of event mixing and its application to the extraction of resonance signals\",\n  \"authors\": [\n    \"D. Drijard\",\n    \"H.G. Fischer\",\n    \"T. Nakada\"\n  ],\n  \"year\": 1984,\n  \"doi\": \"10.1016/0167-5087(84)90275-8\",\n  \"journal\": \"Nuclear Instruments and Methods in Physics Research\",\n  \"source\": \"crossref\",\n  \"citation_count\": 66,\n  \"abstract\": \"\",\n  \"volume\": \"225\",\n  \"issue\": \"2\",\n  \"pages\": \"367-377\",\n  \"publisher\": \"Elsevier BV\",\n  \"type\": \"journal-article\",\n  \"references_count\": 12,\n  \"url\": \"https://doi.org/10.1016/0167-5087(84)90275-8\"\n}"
+      },
+      "isError": false
+    }
+  },
+  {
+    "doi": "10.1016/0168-9002(94)91126-6",
+    "metadata": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\n  \"title\": \"About resonance signal extraction from multiparticle data: combinatorics and event mixing methods\",\n  \"authors\": [\n    \"D. L'Hôte\"\n  ],\n  \"year\": 1994,\n  \"doi\": \"10.1016/0168-9002(94)91126-6\",\n  \"journal\": \"Nuclear Instruments and Methods in Physics Research Section A: Accelerators, Spectrometers, Detectors and Associated Equipment\",\n  \"source\": \"crossref\",\n  \"citation_count\": 30,\n  \"abstract\": \"\",\n  \"volume\": \"337\",\n  \"issue\": \"2-3\",\n  \"pages\": \"544-556\",\n  \"publisher\": \"Elsevier BV\",\n  \"type\": \"journal-article\",\n  \"references_count\": 39,\n  \"url\": \"https://doi.org/10.1016/0168-9002(94)91126-6\"\n}"
+        }
+      ],
+      "structuredContent": {
+        "result": "{\n  \"title\": \"About resonance signal extraction from multiparticle data: combinatorics and event mixing methods\",\n  \"authors\": [\n    \"D. L'Hôte\"\n  ],\n  \"year\": 1994,\n  \"doi\": \"10.1016/0168-9002(94)91126-6\",\n  \"journal\": \"Nuclear Instruments and Methods in Physics Research Section A: Accelerators, Spectrometers, Detectors and Associated Equipment\",\n  \"source\": \"crossref\",\n  \"citation_count\": 30,\n  \"abstract\": \"\",\n  \"volume\": \"337\",\n  \"issue\": \"2-3\",\n  \"pages\": \"544-556\",\n  \"publisher\": \"Elsevier BV\",\n  \"type\": \"journal-article\",\n  \"references_count\": 39,\n  \"url\": \"https://doi.org/10.1016/0168-9002(94)91126-6\"\n}"
+      },
+      "isError": false
+    }
+  }
+]

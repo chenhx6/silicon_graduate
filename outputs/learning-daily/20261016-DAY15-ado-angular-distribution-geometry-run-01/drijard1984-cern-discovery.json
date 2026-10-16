@@ -1,0 +1,15 @@
+{
+  "url": "https://cds.cern.ch/record/150008?ln=en",
+  "purpose": "bounded discovery of public primary full text; no credential/private-access step",
+  "attempts": 1,
+  "status_code": 200,
+  "content_type": "text/html; charset=utf-8",
+  "bytes": 7505,
+  "page_title": "Making sure you're not a bot!",
+  "public_pdf_links": [],
+  "discovery_only": true,
+  "status": "verification-boundary-no-body",
+  "body_obtained": false,
+  "auto_retry": false,
+  "stop_reason": "Official CERN landing page is a bot-verification challenge, not article metadata/full text; no bypass or unchanged retry"
+}

@@ -1,0 +1,13 @@
+{
+  "at": "2026-10-16T23:31:03.168589+08:00",
+  "session_id": "01a14510-aec7-7e00-aa23-f7c77a5124bc",
+  "primed": true,
+  "credit": "none",
+  "day_index": 15,
+  "partial_day_indices": [
+    16
+  ],
+  "path": "outputs/learning-daily/20261016-DAY15-ado-angular-distribution-geometry-run-01/day16-preview-recall-frozen.md",
+  "sha256": "9bb24d810df0c0ebba4d8422177ece6f7319368892d81988df94f4706a2859a0",
+  "next_day_prompt": "/workspace/wiki/outputs/learning-daily/prompts/20261017-DAY16-dco-rdco-mixing-ratio-convention.md"
+}

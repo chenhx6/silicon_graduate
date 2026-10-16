@@ -1730,3 +1730,8 @@ Zobel1983六页/metadata/raw与958parent10个Pubfit rows，38-check条件Gaussia
 ## 2026-10-16T22:56:54.236055+08:00 — DAY15 ADO/independent response checkpoint
 
 本session primed回忆先冻结、Zheng原件5页/图式全核，新增chosen ADO两路f、共享背景/效率latent Cov与MC/敏感性图；canonical ado-covariance-calibration。独立GRIFFIN28页v1及关键图表读完，保留VoR未得、event-mixing/finite-response、多spin/共享数据与表文歧义。六份knowledge改动由唯一writeback映射，fresh lint0errors/146warnings、boundary/diff0及runner contract通过。Goal/run仍active至2026-10-17 15:00上海，next15/count14不提前授卡；下一当前问题mixed-partner的event-level Cov。检查点commit target：main / `Establish DAY15 ADO covariance and independent response evidence`；实际H3/push只见Day15 run receipt。原raw/PLAN/Bib/review与继承工作保留，仅新公开PDF逐文件进入raw/gpt且不stage。
+
+
+## 2026-10-16T23:32:55.539318+08:00 — DAY15 extended statistics and formal-card audit
+
+本session精确mixed-event U统计量/finiteK/Cov、平衡与弱分母反例、独立枚举/MC/图已canonical；Gri固定软件归档/hash/有限静态读取及NDA构造/源码缺口保留，未build或重放。Fresh lint0error/146warning及boundary/diff/writeback/图审核通过，Day15七项正式审计complete，仅15计卡；goal/run仍active至2026-10-17 15:00。Day16只冻结无学分预习/准备次日独立入口，partial16不授卡、不越16、不开17。检查点002 commit target main / `Extend DAY15 event-mixing statistics and audit formal card completion`；实际发布与课程一次对账见本runreceipt。继承日志/daemon/旧receipts、原raw/PLAN/Bib/review保留。

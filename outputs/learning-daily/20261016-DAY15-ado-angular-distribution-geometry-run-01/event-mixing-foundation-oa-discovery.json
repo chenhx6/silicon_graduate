@@ -1,0 +1,48 @@
+[
+  {
+    "doi": "10.1016/0167-5087(84)90275-8",
+    "api_url": "https://api.openalex.org/works/https://doi.org/10.1016/0167-5087(84)90275-8",
+    "http_status": 200,
+    "title": "Study of event mixing and its application to the extraction of resonance signals",
+    "open_access": {
+      "is_oa": false,
+      "oa_status": "closed",
+      "oa_url": null,
+      "any_repository_has_fulltext": false
+    },
+    "locations": [
+      {
+        "landing_page_url": "https://doi.org/10.1016/0167-5087(84)90275-8",
+        "pdf_url": null,
+        "is_oa": false,
+        "source": "Nuclear Instruments and Methods in Physics Research"
+      },
+      {
+        "landing_page_url": "http://cds.cern.ch/record/150008",
+        "pdf_url": null,
+        "is_oa": false,
+        "source": "CERN Document Server (European Organization for Nuclear Research)"
+      }
+    ]
+  },
+  {
+    "doi": "10.1016/0168-9002(94)91126-6",
+    "api_url": "https://api.openalex.org/works/https://doi.org/10.1016/0168-9002(94)91126-6",
+    "http_status": 200,
+    "title": "About resonance signal extraction from multiparticle data: combinatorics and event mixing methods",
+    "open_access": {
+      "is_oa": false,
+      "oa_status": "closed",
+      "oa_url": null,
+      "any_repository_has_fulltext": false
+    },
+    "locations": [
+      {
+        "landing_page_url": "https://doi.org/10.1016/0168-9002(94)91126-6",
+        "pdf_url": null,
+        "is_oa": false,
+        "source": "Nuclear Instruments and Methods in Physics Research Section A Accelerators Spectrometers Detectors and Associated Equipment"
+      }
+    ]
+  }
+]

@@ -1,0 +1,5 @@
+
+
+## 2026-10-16T23:32:55.539318+08:00 — DAY15 extended statistics and formal-card audit
+
+本session精确mixed-event U统计量/finiteK/Cov、平衡与弱分母反例、独立枚举/MC/图已canonical；Gri固定软件归档/hash/有限静态读取及NDA构造/源码缺口保留，未build或重放。Fresh lint0error/146warning及boundary/diff/writeback/图审核通过，Day15七项正式审计complete，仅15计卡；goal/run仍active至2026-10-17 15:00。Day16只冻结无学分预习/准备次日独立入口，partial16不授卡、不越16、不开17。检查点002 commit target main / `Extend DAY15 event-mixing statistics and audit formal card completion`；实际发布与课程一次对账见本runreceipt。继承日志/daemon/旧receipts、原raw/PLAN/Bib/review保留。

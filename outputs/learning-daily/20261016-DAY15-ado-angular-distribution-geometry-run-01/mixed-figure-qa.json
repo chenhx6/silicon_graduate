@@ -1,0 +1,36 @@
+{
+  "checks": [
+    {
+      "check": "source",
+      "exit_code": 0,
+      "ready": true,
+      "strict": false,
+      "counts": {
+        "PASS": 17,
+        "WARN": 4,
+        "FAIL": 0
+      },
+      "warnings": [
+        "EXPORT-RASTER",
+        "RASTER-DPI",
+        "DEMO-DATA",
+        "UNCERTAINTY-ENCODING"
+      ]
+    },
+    {
+      "check": "glyph",
+      "exit_code": 0,
+      "minimum_found_pt": 5.25
+    },
+    {
+      "check": "collision",
+      "exit_code": 0
+    }
+  ],
+  "first_collision_audit": {
+    "exit_code": 1,
+    "finding": "All-partner-limit legend was crossed by a curve"
+  },
+  "correction": "Create data-derived upper y headroom; no masking, point removal or data/uncertainty change",
+  "source_warning_review": "PNG300dpi is a report preview beside vector SVG/PDF; no TIFF submission requested. Entire model visibly chosen/synthetic, not production data; plotted curves are exact analytic standard deviations, not MC replicate aggregates requiring a separate error band."
+}

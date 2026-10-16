@@ -6,15 +6,17 @@ updated: 2026-10-16
 
 # 跨会话交接
 
-## Active handoff — DAY15 continuous study in progress
+## Active handoff — DAY15 card complete, study window active
 
-Run2026-10-16-day-15-01/session01a14510-aec7-7e00-aa23-f7c77a5124bc已正式启动，原研究截止2026-10-17 15:00上海、15–16收束。Goal/run仍active；course基线next15/count14，completed[]/partial[15]，尚不授Day15，不开Day16/17。本检查点不是整段学习结束。
+Run2026-10-16-day-15-01/session01a14510-aec7-7e00-aa23-f7c77a5124bc，原硬截止2026-10-17 15:00上海、15–16收束；goal/run仍active，不能因checkpoint结束。Day15本session正式回忆/Zheng5页/新ADO两路f-Cov-图/convention/反证/7页writeback与卡审计已complete；completed[15]/partial[16]，state须在实际发布后幂等对账next16/count15，不授16/不开17。
 
-22:17先冻结本session primed回忆/hash，再视觉重读Zheng5页。正式新ADO工作单已保存完整chosen输入/hash、共享背景/效率latent Cov、R=1.090909、fgeo=.969076、独立参考f=.974026、解析/pair/scale/MC与SVG/PDF；canonical为knowledge/methods/ado-covariance-calibration.md。Zheng新增Z02-10保留Fig1(a)与正文3.2%图文边界，旧review flags未改。独立GRIFFIN全文28页和关键图表已读，source为smith-2019-griffin-angular-correlation-analysis，实际2018v1；VoR正文单次官方XMLConnectionError，不归罪期刊版。新公开PDF按逐文件hash验证进入raw/papers/gpt/day15，不纳Git；source/knowledge及acquisition manifest保存版本/Cov/多spin边界。
+Checkpoint00144文件已H3非force发布，稳定指针main / `Establish DAY15 ADO covariance and independent response evidence`。本次新增精确mixed-event方差/finiteK/Cov/退化及弱分母控制、独立枚举/MC与图，canonical event-mixing-statistics；Gri fixed software对象只读setup/CMake/header，SG19-16/17保留NDA几何/源码缺口，未build/private-access或fullresponse重放。新raw/zip逐文件hash验证、不stage；Zheng及其旧flags/PLAN/Bib/daemon保留。
 
-本次脚本/图检查已过；lint首轮6个本次method schema/wikilink错误已修复，复跑exit0/0error/145warning（新增GRIFFIN source后fresh lint exit0/0error/146warning）；boundary/diff此前exit0。报告唯一writeback/逐卡审计、course暂不推进；检查点稳定指针：main / `Establish DAY15 ADO covariance and independent response evidence`；H3/push实际结果只写run receipt。下一项当前问题为mixed-partner复用的event-level covariance与模板/归一合同；仍有充足原窗口，不能因来源完成提前结束。
+Fresh extended checks exit0、lint0error/146warning、unique7-item writeback及runner contract通过；2nd figure source/alignment/glyph/collision通过，minimum5.25pt，初轮legend已修复留证。检查点002稳定指针：main / `Extend DAY15 event-mixing statistics and audit formal card completion`，实际H3/hash/push只在publication002/runreceipt；pub后课程只计15一次。
 
-Resume `codex resume 01a14510-aec7-7e00-aa23-f7c77a5124bc -C /workspace/wiki -s danger-full-access -a never`。保存入口dirty baseline；继承Day6–9/Day13/14 receipts、旧log、daemon、PLAN/Bib/credentials不stage。只按Day15显式manifest/H3非force发布，不改原raw/审核范围。
+23:29时距原截止930.6min，候选池已刷新并检查矩阵Day16。已冻结Day16无学分primed回忆，尚未读Droste1996/Krane–Steffen1970的source/raw；下一步沿原件读DCO/PDCO及phase convention，做独立双解/转换控制，只partial16。次日独立prompt已准备未启动。旧Ref16/18仅metadata，CERN150008一次bot边界、未得body、不重试；Elsevier原失败不重复。
+
+Resume `codex resume 01a14510-aec7-7e00-aa23-f7c77a5124bc -C /workspace/wiki -s danger-full-access -a never`。保护继承Day6–9/13/14 receipts、旧log/daemon/credentials等；只按Day15 manifest/H3发布，log用HEAD+own entry隔离，不改宿主机/GUI scheduler，不重开旧completed runs。
 
 ## Previous active handoff — DAY14 completed after authorized extension
 

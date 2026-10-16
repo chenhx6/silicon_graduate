@@ -1,0 +1,257 @@
+[
+  {
+    "record_id": "1120421",
+    "version": "v1.0",
+    "doi": "10.5281/zenodo.1120421",
+    "metadata_license": {
+      "id": "other-open"
+    },
+    "http_status": 200,
+    "tmp_file": "tmp/20261016-day15-ado/zenodo-1120421-v1.0.zip",
+    "bytes": 1686410,
+    "md5_matches": true,
+    "sha256": "62c8c36d216fd6b3b1d3c8b8e300ef5606d473592ce18b5f92eca8e7afd28664",
+    "files_count": 87,
+    "uncompressed_bytes": 2002858,
+    "readme_license_files": [
+      "GRIFFINCollaboration-Geant4GammaGammaAngularCorrelations10.01.p01-738ce6f/README.md",
+      "GRIFFINCollaboration-Geant4GammaGammaAngularCorrelations10.01.p01-738ce6f/README.pdf",
+      "GRIFFINCollaboration-Geant4GammaGammaAngularCorrelations10.01.p01-738ce6f/example_simulation_rdecay01_ggac/rdecay01_ggac/.README",
+      "GRIFFINCollaboration-Geant4GammaGammaAngularCorrelations10.01.p01-738ce6f/example_simulation_rdecay01_ggac/rdecay01_ggac/README",
+      "GRIFFINCollaboration-Geant4GammaGammaAngularCorrelations10.01.p01-738ce6f/example_simulation_rdecay01_ggac/rdecay01_ggac/UserData/PhotonEvaporation-readme",
+      "GRIFFINCollaboration-Geant4GammaGammaAngularCorrelations10.01.p01-738ce6f/example_simulation_rdecay01_ggac/rdecay01_ggac/UserData/RadioactiveDecay-readme",
+      "GRIFFINCollaboration-Geant4GammaGammaAngularCorrelations10.01.p01-738ce6f/photon_evaporation/README-LevelGammaData",
+      "GRIFFINCollaboration-Geant4GammaGammaAngularCorrelations10.01.p01-738ce6f/photon_evaporation/README-Mulitpole",
+      "GRIFFINCollaboration-Geant4GammaGammaAngularCorrelations10.01.p01-738ce6f/radioactive_decay/README_RDM"
+    ],
+    "source_candidates": [
+      "GRIFFINCollaboration-Geant4GammaGammaAngularCorrelations10.01.p01-738ce6f/",
+      "GRIFFINCollaboration-Geant4GammaGammaAngularCorrelations10.01.p01-738ce6f/.gitattributes",
+      "GRIFFINCollaboration-Geant4GammaGammaAngularCorrelations10.01.p01-738ce6f/.gitignore",
+      "GRIFFINCollaboration-Geant4GammaGammaAngularCorrelations10.01.p01-738ce6f/1_billion_decays_of_60Co_fit.pdf",
+      "GRIFFINCollaboration-Geant4GammaGammaAngularCorrelations10.01.p01-738ce6f/README.md",
+      "GRIFFINCollaboration-Geant4GammaGammaAngularCorrelations10.01.p01-738ce6f/README.pdf",
+      "GRIFFINCollaboration-Geant4GammaGammaAngularCorrelations10.01.p01-738ce6f/example_simulation_rdecay01_ggac/",
+      "GRIFFINCollaboration-Geant4GammaGammaAngularCorrelations10.01.p01-738ce6f/example_simulation_rdecay01_ggac/rdecay01_ggac/",
+      "GRIFFINCollaboration-Geant4GammaGammaAngularCorrelations10.01.p01-738ce6f/example_simulation_rdecay01_ggac/rdecay01_ggac/.README",
+      "GRIFFINCollaboration-Geant4GammaGammaAngularCorrelations10.01.p01-738ce6f/example_simulation_rdecay01_ggac/rdecay01_ggac/CMakeLists.txt",
+      "GRIFFINCollaboration-Geant4GammaGammaAngularCorrelations10.01.p01-738ce6f/example_simulation_rdecay01_ggac/rdecay01_ggac/Cf238.mac",
+      "GRIFFINCollaboration-Geant4GammaGammaAngularCorrelations10.01.p01-738ce6f/example_simulation_rdecay01_ggac/rdecay01_ggac/Co60.mac",
+      "GRIFFINCollaboration-Geant4GammaGammaAngularCorrelations10.01.p01-738ce6f/example_simulation_rdecay01_ggac/rdecay01_ggac/GNUmakefile",
+      "GRIFFINCollaboration-Geant4GammaGammaAngularCorrelations10.01.p01-738ce6f/example_simulation_rdecay01_ggac/rdecay01_ggac/History",
+      "GRIFFINCollaboration-Geant4GammaGammaAngularCorrelations10.01.p01-738ce6f/example_simulation_rdecay01_ggac/rdecay01_ggac/No252.mac",
+      "GRIFFINCollaboration-Geant4GammaGammaAngularCorrelations10.01.p01-738ce6f/example_simulation_rdecay01_ggac/rdecay01_ggac/README",
+      "GRIFFINCollaboration-Geant4GammaGammaAngularCorrelations10.01.p01-738ce6f/example_simulation_rdecay01_ggac/rdecay01_ggac/UserData/",
+      "GRIFFINCollaboration-Geant4GammaGammaAngularCorrelations10.01.p01-738ce6f/example_simulation_rdecay01_ggac/rdecay01_ggac/UserData/PhotonEvaporation-readme",
+      "GRIFFINCollaboration-Geant4GammaGammaAngularCorrelations10.01.p01-738ce6f/example_simulation_rdecay01_ggac/rdecay01_ggac/UserData/RadioactiveDecay-readme",
+      "GRIFFINCollaboration-Geant4GammaGammaAngularCorrelations10.01.p01-738ce6f/example_simulation_rdecay01_ggac/rdecay01_ggac/UserData/UserEvapData_z102.a252",
+      "GRIFFINCollaboration-Geant4GammaGammaAngularCorrelations10.01.p01-738ce6f/example_simulation_rdecay01_ggac/rdecay01_ggac/UserData/UserRadData_z98.a238",
+      "GRIFFINCollaboration-Geant4GammaGammaAngularCorrelations10.01.p01-738ce6f/example_simulation_rdecay01_ggac/rdecay01_ggac/alpha.mac",
+      "GRIFFINCollaboration-Geant4GammaGammaAngularCorrelations10.01.p01-738ce6f/example_simulation_rdecay01_ggac/rdecay01_ggac/debug.mac",
+      "GRIFFINCollaboration-Geant4GammaGammaAngularCorrelations10.01.p01-738ce6f/example_simulation_rdecay01_ggac/rdecay01_ggac/electronicCapture.mac",
+      "GRIFFINCollaboration-Geant4GammaGammaAngularCorrelations10.01.p01-738ce6f/example_simulation_rdecay01_ggac/rdecay01_ggac/fullChain.mac",
+      "GRIFFINCollaboration-Geant4GammaGammaAngularCorrelations10.01.p01-738ce6f/example_simulation_rdecay01_ggac/rdecay01_ggac/include/",
+      "GRIFFINCollaboration-Geant4GammaGammaAngularCorrelations10.01.p01-738ce6f/example_simulation_rdecay01_ggac/rdecay01_ggac/include/ActionInitialization.hh",
+      "GRIFFINCollaboration-Geant4GammaGammaAngularCorrelations10.01.p01-738ce6f/example_simulation_rdecay01_ggac/rdecay01_ggac/include/DetectorConstruction.hh",
+      "GRIFFINCollaboration-Geant4GammaGammaAngularCorrelations10.01.p01-738ce6f/example_simulation_rdecay01_ggac/rdecay01_ggac/include/EventAction.hh",
+      "GRIFFINCollaboration-Geant4GammaGammaAngularCorrelations10.01.p01-738ce6f/example_simulation_rdecay01_ggac/rdecay01_ggac/include/EventMessenger.hh",
+      "GRIFFINCollaboration-Geant4GammaGammaAngularCorrelations10.01.p01-738ce6f/example_simulation_rdecay01_ggac/rdecay01_ggac/include/HistoManager.hh",
+      "GRIFFINCollaboration-Geant4GammaGammaAngularCorrelations10.01.p01-738ce6f/example_simulation_rdecay01_ggac/rdecay01_ggac/include/PhysicsList.hh",
+      "GRIFFINCollaboration-Geant4GammaGammaAngularCorrelations10.01.p01-738ce6f/example_simulation_rdecay01_ggac/rdecay01_ggac/include/PrimaryGeneratorAction.hh",
+      "GRIFFINCollaboration-Geant4GammaGammaAngularCorrelations10.01.p01-738ce6f/example_simulation_rdecay01_ggac/rdecay01_ggac/include/Run.hh",
+      "GRIFFINCollaboration-Geant4GammaGammaAngularCorrelations10.01.p01-738ce6f/example_simulation_rdecay01_ggac/rdecay01_ggac/include/RunAction.hh",
+      "GRIFFINCollaboration-Geant4GammaGammaAngularCorrelations10.01.p01-738ce6f/example_simulation_rdecay01_ggac/rdecay01_ggac/include/SteppingAction.hh",
+      "GRIFFINCollaboration-Geant4GammaGammaAngularCorrelations10.01.p01-738ce6f/example_simulation_rdecay01_ggac/rdecay01_ggac/include/SteppingAction.hh~",
+      "GRIFFINCollaboration-Geant4GammaGammaAngularCorrelations10.01.p01-738ce6f/example_simulation_rdecay01_ggac/rdecay01_ggac/include/SteppingVerbose.hh",
+      "GRIFFINCollaboration-Geant4GammaGammaAngularCorrelations10.01.p01-738ce6f/example_simulation_rdecay01_ggac/rdecay01_ggac/include/TrackingAction.hh",
+      "GRIFFINCollaboration-Geant4GammaGammaAngularCorrelations10.01.p01-738ce6f/example_simulation_rdecay01_ggac/rdecay01_ggac/include/TrackingMessenger.hh",
+      "GRIFFINCollaboration-Geant4GammaGammaAngularCorrelations10.01.p01-738ce6f/example_simulation_rdecay01_ggac/rdecay01_ggac/plotHisto.C",
+      "GRIFFINCollaboration-Geant4GammaGammaAngularCorrelations10.01.p01-738ce6f/example_simulation_rdecay01_ggac/rdecay01_ggac/rdecay01.cc",
+      "GRIFFINCollaboration-Geant4GammaGammaAngularCorrelations10.01.p01-738ce6f/example_simulation_rdecay01_ggac/rdecay01_ggac/rdecay01.in",
+      "GRIFFINCollaboration-Geant4GammaGammaAngularCorrelations10.01.p01-738ce6f/example_simulation_rdecay01_ggac/rdecay01_ggac/rdecay01.out",
+      "GRIFFINCollaboration-Geant4GammaGammaAngularCorrelations10.01.p01-738ce6f/example_simulation_rdecay01_ggac/rdecay01_ggac/singleDecay.mac",
+      "GRIFFINCollaboration-Geant4GammaGammaAngularCorrelations10.01.p01-738ce6f/example_simulation_rdecay01_ggac/rdecay01_ggac/src/",
+      "GRIFFINCollaboration-Geant4GammaGammaAngularCorrelations10.01.p01-738ce6f/example_simulation_rdecay01_ggac/rdecay01_ggac/src/ActionInitialization.cc",
+      "GRIFFINCollaboration-Geant4GammaGammaAngularCorrelations10.01.p01-738ce6f/example_simulation_rdecay01_ggac/rdecay01_ggac/src/DetectorConstruction.cc",
+      "GRIFFINCollaboration-Geant4GammaGammaAngularCorrelations10.01.p01-738ce6f/example_simulation_rdecay01_ggac/rdecay01_ggac/src/EventAction.cc",
+      "GRIFFINCollaboration-Geant4GammaGammaAngularCorrelations10.01.p01-738ce6f/example_simulation_rdecay01_ggac/rdecay01_ggac/src/EventMessenger.cc",
+      "GRIFFINCollaboration-Geant4GammaGammaAngularCorrelations10.01.p01-738ce6f/example_simulation_rdecay01_ggac/rdecay01_ggac/src/HistoManager.cc",
+      "GRIFFINCollaboration-Geant4GammaGammaAngularCorrelations10.01.p01-738ce6f/example_simulation_rdecay01_ggac/rdecay01_ggac/src/HistoManager.cc~",
+      "GRIFFINCollaboration-Geant4GammaGammaAngularCorrelations10.01.p01-738ce6f/example_simulation_rdecay01_ggac/rdecay01_ggac/src/PhysicsList.cc",
+      "GRIFFINCollaboration-Geant4GammaGammaAngularCorrelations10.01.p01-738ce6f/example_simulation_rdecay01_ggac/rdecay01_ggac/src/PrimaryGeneratorAction.cc",
+      "GRIFFINCollaboration-Geant4GammaGammaAngularCorrelations10.01.p01-738ce6f/example_simulation_rdecay01_ggac/rdecay01_ggac/src/Run.cc",
+      "GRIFFINCollaboration-Geant4GammaGammaAngularCorrelations10.01.p01-738ce6f/example_simulation_rdecay01_ggac/rdecay01_ggac/src/RunAction.cc",
+      "GRIFFINCollaboration-Geant4GammaGammaAngularCorrelations10.01.p01-738ce6f/example_simulation_rdecay01_ggac/rdecay01_ggac/src/SteppingAction.cc",
+      "GRIFFINCollaboration-Geant4GammaGammaAngularCorrelations10.01.p01-738ce6f/example_simulation_rdecay01_ggac/rdecay01_ggac/src/SteppingAction.cc~",
+      "GRIFFINCollaboration-Geant4GammaGammaAngularCorrelations10.01.p01-738ce6f/example_simulation_rdecay01_ggac/rdecay01_ggac/src/SteppingVerbose.cc",
+      "GRIFFINCollaboration-Geant4GammaGammaAngularCorrelations10.01.p01-738ce6f/example_simulation_rdecay01_ggac/rdecay01_ggac/src/TrackingAction.cc",
+      "GRIFFINCollaboration-Geant4GammaGammaAngularCorrelations10.01.p01-738ce6f/example_simulation_rdecay01_ggac/rdecay01_ggac/src/TrackingAction.cc~",
+      "GRIFFINCollaboration-Geant4GammaGammaAngularCorrelations10.01.p01-738ce6f/example_simulation_rdecay01_ggac/rdecay01_ggac/src/TrackingMessenger.cc",
+      "GRIFFINCollaboration-Geant4GammaGammaAngularCorrelations10.01.p01-738ce6f/example_simulation_rdecay01_ggac/rdecay01_ggac/vis.mac",
+      "GRIFFINCollaboration-Geant4GammaGammaAngularCorrelations10.01.p01-738ce6f/photon_evaporation/",
+      "GRIFFINCollaboration-Geant4GammaGammaAngularCorrelations10.01.p01-738ce6f/photon_evaporation/README-LevelGammaData"
+    ],
+    "readme_license_text": {
+      "GRIFFINCollaboration-Geant4GammaGammaAngularCorrelations10.01.p01-738ce6f/README.md": "Geant4GammaGammaAngularCorrelations10.01\n===================================\n\nThe gamma-gamma angular correlations code was written as an extension to the existing radioactive decay module in Geant4.10.01.\n",
+      "GRIFFINCollaboration-Geant4GammaGammaAngularCorrelations10.01.p01-738ce6f/example_simulation_rdecay01_ggac/rdecay01_ggac/.README": "//$Id$\n\n///\\file \"radioactivedecay/rdecay01/.README\"\n///\\brief Example rdecay01 README page\n\n/*! \\page Examplerdecay01 Example rdecay01 \n\t\t\t    \n Survey G4RadioactiveDecay process. See Physics Reference Manual, chapter 36.\n See also http://ie.lbl.gov/decay.html\n \t\n\\section rdecay01_s1 Geometry construction\n\n It is a simple box which represente an 'infinite' homogeneous medium.\n  \n\\section rdecay01_s2 Physics list\n\n PhysicsList.cc defines only G4RadioactiveDecay, G4Transportation processes,\n and relevant particle definitions.\n Therefore, once created, particles or ions travel as geantino.\n         \t\n\\section rdecay01_s3 Primary generator\n \n Default kinematic is an ion (Ne24), at rest, at coordinate origin.\n Can be changed with particleGun commands.\n         \t\n\\section rdecay01_s4 Physics\n\n As said above, all particles and ions behave as geantino, eg. no energy loss.\n     \n A flag:\n\\verbatim\n/rdecay01/fullChain (true or false)\n\\endverbatim\nallows to limit to single decay or full decay chain (default). \n In case of full decay chain, G4TrackStatus of ions is set to fStopButAlive\n in order to force decay at rest.  \n In case of single decay, G4TrackStatus of secondary ion is set to fStopAndKill.\n    \n At each decay, one counts and plots energy spectrum of created particles and\n ions, and energy-momentum balance of that decay.\n \n Total time of life of decay chain is plotted. Activity is computed.\n \n Few macros are given in example. Debug.mac is to be run in interactive mode. \n \n\\section rdecay01_s5 User data files\n\n Users can redefine RadioactiveDecay and PhotonEvaporation data, via commands:\n\\verbatim\n/grdm/setRadioactiveDecayFile\n/grdm/setPhotoEvaporationFile \n\\endverbatim\n Examples of such files are given in subdirectory UserData. \\n\n Formats are described in readme \\n\n Examples in macros Cf238.mac and No252.mac \n  \t\n\\section rdecay01_s6 Visualisation\n \n Visualization Manager is set in the main () (see rdecay01.cc).\n Initialisation of the drawing is done via the commands\n /vis/.. in the macro vis.mac. This macro is automatically read from the main \n in case of interactive running mode.\n \n - e- red\n - e+ blue\n - nu_e white\n - anti_nu_e white\n - gamma green\n - alpha yellow\n - GenericIon grey\n \n\\section rdecay01_s7 How to start ?\n \n  - Execute rdecay01 in 'batch' mode from macro files\n\\verbatim\n% rdecay01   singleDecay.mac\n\\endverbatim\n \t\t\n  - Execute rdecay01 in 'interactive mode' with visualization\n\\verbatim\n% rdecay01\n....\nIdle>   ---> type your commands. For instance:\nIdle> /control/execute debug.mac \n....\nIdle> /run/beamOn 1\n....\t\t\t\t\nIdle> exit\n\\endverbatim\n\t\n\\section rdecay01_s8 Histograms\n \n  rdecay01 produces several 1D histograms which are saved as\n  rdecay01.root by default.\n\n    - 1 : energy spectrum: e+ e-\n    - 2 : energy spectrum: nu_e anti_nu_ev\n    - 3 : energy spectrum: gamma\n    - 4 : energy spectrum: alpha\n    - 5 : energy spectrum: ions\n    - 6 : total kinetic energy (Q)\n    - 7 : momentum balance\n    - 8 : total time of life of decay chain          \n                            \n   The histograms are managed by G4AnalysiManager and its Messenger. \n   The histos can be individually activated with the command :\n\\verbatim\n/analysis/h1/set id nbBins  valMin valMax unit \n\\endverbatim\n   where unit is the desired unit for the histo (MeV or keV, deg or mrad, etc..)\n   \n   One can control the name of the histograms file with the command:\n\\verbatim\n/analysis/setFileName  name  (default rdecay1)\n\\endverbatim\n   \n   It is possible to choose the format of the histogram file : root (default),\n   xml, csv, by using namespace in HistoManager.hh\n   \n   It is also possible to print selected histograms on an ascii file:\n\\verbatim\n/analysis/h1/setAscii id\n\\endverbatim\n   All selected histos will be written on a file name.ascii (default rdecay1)\n\n*/\n"
+    },
+    "readme_sha256": "649b9a7dc573d99cc3b6fafbe491073a686c56d132e8ec28922f4ddba7256200",
+    "readme_file": "GRIFFINCollaboration-Geant4GammaGammaAngularCorrelations10.01.p01-738ce6f/README.md",
+    "readme_contract_lines": [
+      {
+        "line": 1,
+        "text": "Geant4GammaGammaAngularCorrelations10.01"
+      },
+      {
+        "line": 4,
+        "text": "The gamma-gamma angular correlations code was written as an extension to the existing radioactive decay module in Geant4.10.01."
+      }
+    ],
+    "symlinks": [],
+    "static_read_files": [
+      {
+        "path": "README.md",
+        "sha256": "649b9a7dc573d99cc3b6fafbe491073a686c56d132e8ec28922f4ddba7256200",
+        "total_lines": 4,
+        "scope": "whole file read"
+      }
+    ],
+    "build_executed": false,
+    "full_response_readiness": "unbuilt, historical Geant4.10.01 extension only",
+    "raw_file": "raw/papers/gpt/day15/zenodo-1120421-v1.0.zip"
+  },
+  {
+    "record_id": "1123461",
+    "version": "v1.0.0",
+    "doi": "10.5281/zenodo.1123461",
+    "metadata_license": {
+      "id": "other-open"
+    },
+    "http_status": 200,
+    "tmp_file": "tmp/20261016-day15-ado/zenodo-1123461-v1.0.0.zip",
+    "bytes": 2806289,
+    "md5_matches": true,
+    "sha256": "09acdabb08f58724574ce16490b0c41c3c713ae03767744ec5dd193ac7a7834e",
+    "files_count": 131,
+    "uncompressed_bytes": 6919870,
+    "readme_license_files": [
+      "GRIFFINCollaboration-detectorSimulations_v10-3a1f002/LICENSE",
+      "GRIFFINCollaboration-detectorSimulations_v10-3a1f002/README.md",
+      "GRIFFINCollaboration-detectorSimulations_v10-3a1f002/example_simulations/Co60_griffin_plus_full_structure/README",
+      "GRIFFINCollaboration-detectorSimulations_v10-3a1f002/example_simulations/Co60_griffin_plus_full_structure/README~",
+      "GRIFFINCollaboration-detectorSimulations_v10-3a1f002/example_simulations/Co60_griffin_plus_full_structure/UserData/PhotonEvaporation-readme",
+      "GRIFFINCollaboration-detectorSimulations_v10-3a1f002/example_simulations/Co60_griffin_plus_full_structure/UserData/RadioactiveDecay-readme"
+    ],
+    "source_candidates": [
+      "GRIFFINCollaboration-detectorSimulations_v10-3a1f002/CMakeLists.txt",
+      "GRIFFINCollaboration-detectorSimulations_v10-3a1f002/Griffinv10.cc",
+      "GRIFFINCollaboration-detectorSimulations_v10-3a1f002/Griffinv10.in",
+      "GRIFFINCollaboration-detectorSimulations_v10-3a1f002/README.md",
+      "GRIFFINCollaboration-detectorSimulations_v10-3a1f002/example_simulations/Co60_griffin_plus_full_structure/README",
+      "GRIFFINCollaboration-detectorSimulations_v10-3a1f002/example_simulations/Co60_griffin_plus_full_structure/README~",
+      "GRIFFINCollaboration-detectorSimulations_v10-3a1f002/include/ApparatusGriffinStructure.hh",
+      "GRIFFINCollaboration-detectorSimulations_v10-3a1f002/include/DetectionSystemGriffin.hh",
+      "GRIFFINCollaboration-detectorSimulations_v10-3a1f002/include/DetectorConstruction.hh",
+      "GRIFFINCollaboration-detectorSimulations_v10-3a1f002/include/PrimaryGeneratorAction.hh",
+      "GRIFFINCollaboration-detectorSimulations_v10-3a1f002/include/PrimaryGeneratorMessenger.hh",
+      "GRIFFINCollaboration-detectorSimulations_v10-3a1f002/src/ApparatusGriffinStructure.cc",
+      "GRIFFINCollaboration-detectorSimulations_v10-3a1f002/src/DetectionSystemGriffin.cc",
+      "GRIFFINCollaboration-detectorSimulations_v10-3a1f002/src/DetectorConstruction.cc",
+      "GRIFFINCollaboration-detectorSimulations_v10-3a1f002/src/PrimaryGeneratorAction.cc",
+      "GRIFFINCollaboration-detectorSimulations_v10-3a1f002/src/PrimaryGeneratorMessenger.cc"
+    ],
+    "readme_license_text": {
+      "GRIFFINCollaboration-detectorSimulations_v10-3a1f002/LICENSE": "The MIT License (MIT)\n\nCopyright (c) 2015 GRIFFIN Collaboration\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.\n",
+      "GRIFFINCollaboration-detectorSimulations_v10-3a1f002/README.md": "detectorSimulations_v10\n===================\n\nThe detectorSimulations_v10 package contains the Geant4 simulations for GRIFFIN, TIGRESS, and all of their auxiliary detectors.  Please note that in order to respect our non-disclosure agreements, all source containing third party IP have been omitted from this repo, and can be obtained from your colleagues directly at the lab.\n\n\n# Setup\n\n### Requirements\ndetectorSimulations is confirmed to run on geant4.10.01 and ROOT 6.04.00.\n\n### Getting the code\n\nTo setup the simulation package on a computer with GEANT4 already present, just copy the code to your machine:\n\n    git clone https://github.com/GRIFFINCollaboration/detectorSimulations_v10.git\n    \nThen you'll need to get the files containing our NDA-protected parameters. To do this register on gitlab.com, have your account added to the GRIFFINCollaboration, and register your ssh-keys with gitlab. Then you can run the script SetupSuppressed.sh (in the detectorSimulation_v10 folder). This script can either be run as is, which will install the suppressed files in a sub-folder \"suppressed\" and create symbolic links in the src directory, or you can give it the path of the directory where you want the suppressed files installed (this directory has to be empty!).\n\n### Building\n\nThe build process is pretty standard for a geant simulation; in a build directory (ie any clean new directory that isn't the source directory), do \n\n```\ncmake path/to/detectorSimulations\nmake clean\nmake\n```\n\nKeep in mind that cmake does not regenerate all the files it uses every time it runs!  So if something changes and this build process suddenly fails, try deleting the build directory and starting over.\n\n### Setup FAQ\n\n- Yes, you need both the secret suppressed files AND their unsuppressed equivalents, not just either / or.\n\n\n# Usage\n\nThe following might be out of date with the change to geant4.10, we haven't had time yet to verify the information below.\n\n### Particle Emission\n\n#### General\n| Command | Brief Description | Default |\n| :------ | :---------------- | :------ |\n| ``` /DetSys/gun/energy double unit ``` | Set energy of particle | 1000 keV |\n| ``` /DetSys/gun/particle string ``` | Set particle type (e-, e+, gamma, proton, alpha) | gamma |\n| ``` /DetSys/gun/ion Z A E ``` | Set ion type (excitation energy E in keV) | |\n| ``` /DetSys/gun/direction x y z ``` | Set momentum direction | |\n| ``` /DetSys/gun/position x y z  unit``` | Set particle position | 0.0 0.0 0.0 mm |\n| ``` /DetSys/gun/radius r unit``` | Set source radius | 0.0 mm |\n| ``` /DetSys/gun/energyrange min max step ``` | Set energy (keV) of particle, loops from min to max | |\n\n#### Decay Schemes\n| Command | Brief Description | Default |\n| :------ | :---------------- | :------ |\n| ``` /DetSys/gun/betaPlusEmission filename ``` | Simulate beta plus decay with energy distribution input file | |\n| ``` /DetSys/gun/betaMinusEmission filename ``` | Simulate beta negative decay with energy distribution input file | |\n| ``` /DetSys/gun/polarization double``` | Set Polarization of Nuclei (before radioactiveBetaDecay) | |\n| ``` /DetSys/gun/radioactiveBetaDecay directory ``` | Simulate complete beta negative decay with simulation directory | |\n| ``` /DetSys/gun/emitBetaParticle 0/1 ``` | Emit Beta Particle? True/False | |\n| ``` /DetSys/gun/includeXRayInputFileKShell 0/1 ``` | Emit X-rays from K-shell vacancies using input file? True/False | |\n| ``` /DetSys/gun/includeXRayInputFileLShell 0/1 ``` | Emit X-rays from L-shell vacancies using input file? True/False | |\n| ``` /DetSys/gun/includeXRayInputFileMShell 0/1 ``` | Emit X-rays from M-shell vacancies using input file? True/False | |\n| ``` /DetSys/gun/radioactiveDecayHalflife double ``` | Half-life of radioactive isotope simulation (seconds) | |\n| ``` /DetSys/gun/numberOfRadioactiveNuclei int ``` | Set the number of radioactive nuclei | |\n| ``` /DetSys/gun/radioactiveSourceDecay filename ``` | Simulate source decay with a file containing the decay data | |\n\n#### Kinematics\nWhenever an electron or positron is emitted, you can choose to simulate kinematic effects (i.e. shifting of energy due to relativistic speeds of ions).  You must specify the ion with ``` /DetSys/gun/ion Z A E ``` first.\n\n| Command | Brief Description | Default |\n| :------ | :---------------- | :------ |\n| ``` /DetSys/gun/simulateKinematics 0/1 ``` | Choose to simulate kinematic effects | False |\n| ``` /DetSys/gun/kinematicsBetaValue double ```* | Specify beta value of incident ion | 0 |\n| ``` /DetSys/gun/kinematicsIonEnergy double unit ```* | Specify energy of heavy ion | 0 MeV |\n\n*Only one of these should be specified\n\n### Detector Specific\n\n#### GRIFFIN\n| Command | Brief Description | Default |\n| :------ | :---------------- | :------ |\n| ``` /DetSys/det/addGriffinForward int ``` | Add Detection System GriffinForward |  |\n| ``` /DetSys/det/addGriffinForwardDetector int ``` | Add GriffinForward Detector |  |\n| ``` /DetSys/det/addGriffinBack int ``` | Add Detection System G",
+      "GRIFFINCollaboration-detectorSimulations_v10-3a1f002/example_simulations/Co60_griffin_plus_full_structure/README": "This is an example simulation of the full GRIFFIN array including the new GRIFFIN structure. The simulation is of only a single 60Co decay, eg /beamOn 1. \nThe purpose of this simulation is to output a visulization of the geometry. See vis_example.png\n\n-Evan Rand\n"
+    },
+    "readme_sha256": "8a181e866c0f62fd3f4077b27ddb566046b7ee77332df5eff6f207b8bafc3ada",
+    "readme_file": "GRIFFINCollaboration-detectorSimulations_v10-3a1f002/README.md",
+    "readme_contract_lines": [
+      {
+        "line": 4,
+        "text": "The detectorSimulations_v10 package contains the Geant4 simulations for GRIFFIN, TIGRESS, and all of their auxiliary detectors.  Please note that in order to respect our non-disclosure agreements, all source containing third party IP have been omitted from this repo, and can be obtained from your colleagues directly at the lab."
+      },
+      {
+        "line": 10,
+        "text": "detectorSimulations is confirmed to run on geant4.10.01 and ROOT 6.04.00."
+      },
+      {
+        "line": 14,
+        "text": "To setup the simulation package on a computer with GEANT4 already present, just copy the code to your machine:"
+      },
+      {
+        "line": 18,
+        "text": "Then you'll need to get the files containing our NDA-protected parameters. To do this register on gitlab.com, have your account added to the GRIFFINCollaboration, and register your ssh-keys with gitlab. Then you can run the script SetupSuppressed.sh (in the detectorSimulation_v10 folder). This script can either be run as is, which will install the suppressed files in a sub-folder \"suppressed\" and create symbolic links in the src directory, or you can give it the path of the directory where you want the suppressed files installed (this directory has to be empty!)."
+      },
+      {
+        "line": 20,
+        "text": "### Building"
+      },
+      {
+        "line": 22,
+        "text": "The build process is pretty standard for a geant simulation; in a build directory (ie any clean new directory that isn't the source directory), do "
+      },
+      {
+        "line": 30,
+        "text": "Keep in mind that cmake does not regenerate all the files it uses every time it runs!  So if something changes and this build process suddenly fails, try deleting the build directory and starting over."
+      },
+      {
+        "line": 34,
+        "text": "- Yes, you need both the secret suppressed files AND their unsuppressed equivalents, not just either / or."
+      },
+      {
+        "line": 39,
+        "text": "The following might be out of date with the change to geant4.10, we haven't had time yet to verify the information below."
+      },
+      {
+        "line": 92,
+        "text": "| ``` /DetSys/det/SetCustomShieldsPresent 0/1 ``` | Selects whether or not the detector suppressors are included | True |"
+      },
+      {
+        "line": 94,
+        "text": "| ``` /DetSys/det/SetCustomExtensionSuppressorLocation 0/1 ``` | Selects a position for the extension suppressors. Either forward (0) or back (1) | Forward (0) |"
+      },
+      {
+        "line": 142,
+        "text": "Requires all three commands to build"
+      },
+      {
+        "line": 151,
+        "text": "Requires all four commands to build"
+      },
+      {
+        "line": 160,
+        "text": "| ``` /DetSys/det/addBox ``` | Build/add box (if thickness is not 0) |  |"
+      },
+      {
+        "line": 169,
+        "text": "| ``` /DetSys/det/addGrid ``` | Build/add grid (if grid size is not 0) |  |"
+      }
+    ],
+    "symlinks": [],
+    "static_read_files": [
+      {
+        "path": "README.md",
+        "sha256": "8a181e866c0f62fd3f4077b27ddb566046b7ee77332df5eff6f207b8bafc3ada",
+        "total_lines": 186,
+        "scope": "setup lines1–42 plus selected matching contract lines only; usage not certified"
+      },
+      {
+        "path": "CMakeLists.txt",
+        "sha256": "9b60f648b8c614c92d72e6935cff878256f7169bfa33ef9ae9a0d43b7b8725f1",
+        "total_lines": 111,
+        "scope": "whole file read"
+      },
+      {
+        "path": "src/DetectionSystemGriffin.cc",
+        "sha256": "51a8e70a1ad8436f35e450a20499e8d638c978ecc817691eedb012407b1d33a6",
+        "total_lines": 3049,
+        "scope": "header/dependency matches and constructor/local-NDA comment L40–44 only; not whole source file"
+      }
+    ],
+    "build_executed": false,
+    "full_response_readiness": "not-ready: unpublished detector parameters and production data/Cov not acquired",
+    "raw_file": "raw/papers/gpt/day15/zenodo-1123461-v1.0.0.zip"
+  }
+]

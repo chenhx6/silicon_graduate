@@ -19,11 +19,11 @@ updated: 2026-10-16
 - resume_command: `codex resume 01a14510-aec7-7e00-aa23-f7c77a5124bc -C /workspace/wiki -s danger-full-access -a never`
 - hard_deadline: 2026-10-17T15:00:00+08:00
 - status: in-progress
-- completed_day_indices: []
-- partial_day_indices: [15]
-- Day 15 card audit: in-progress
+- completed_day_indices: [15]
+- partial_day_indices: [16]
+- Day 15 card audit: complete
 
-本次是独立session；课程基线next15/count14未推进。本页是持续学习检查点，不表示整个时段完成。15:00前仍有高价值当前问题时继续；最多预习恰好Day16并只记partial16，不开Day17。receipt见[run.json](20261016-DAY15-ado-angular-distribution-geometry-run-01/run.json)。
+本次是独立session；Day15正式卡已通过本session科学交付、检查与首批实际发布，课程将按回执一次对账至next16/count15。整段run仍active；Day16只作无学分预习。本页是持续学习检查点，不表示整个时段完成。15:00前仍有高价值当前问题时继续；最多预习恰好Day16并只记partial16，不开Day17。receipt见[run.json](20261016-DAY15-ado-angular-distribution-geometry-run-01/run.json)。
 
 ### 本session主动回忆
 
@@ -124,6 +124,25 @@ a展示效率比偏移对R与修正r中心值的影响；b展示固定各背景�
 | 数据身份 | 全部自设；原Fig1 deviation不是计数/背景/效率/总sigma |
 | joint response | single-γ校准、gate marginal与full γγ pair kernel分别保存，Z02-9限制跨cascade迁移 |
 
+
+### Mixed-partner复用：精确矩、比值Cov与退化控制
+
+本段[计算前预测](20261016-DAY15-ado-angular-distribution-geometry-run-01/mixed-event-before-analysis-frozen.md)先于推导冻结。新的[输入JSON](20261016-DAY15-ado-angular-distribution-geometry-run-01/mixed-event-input.json)身份`DAY15-20261016-SYNTHETIC-MIXED-EVENT-01`，SHA-256 `b0a0bb6503d01e8dc432e1a866960872b4fbc1bebd89a1737ca766eab9bab72c`。不同physical events独立、固定N，二元tag的p=.35/q=.60/Cov=.02；prompt同event配对，mixed每trigger从其余events无放回选K个partners、不同行选择条件独立。全部自设，非GRIFFIN实际angular kernel、DAQ或事件数据。
+
+[canonical统计方法](../../knowledge/methods/event-mixing-statistics.md#复用事件的精确方差与退化控制)保存完整证明：全配对mixed是二阶U统计量，`Var(M)=V1/N+V2/[N(N−1)]`、`Cov(P,M)=C/N`；本例V1=.0283、V2=.22、C=.0331。有限K再加`q(1−q)(N−1−K)/[N(N−1)K]`的配对随机性。增加partners只消去后一项；balanced p=q=.5,c=0控制则V1=0，防止把非零1/N floor说成通则。
+
+N=10000、K=9999给mixed sigma=.001682914，独立pair反事实=.000049912；ratio完整delta sigma=.009782928，删cross Cov=.011323625，固定mixed分母=.010636170。K=1时完整sigma=.014953905，因此忽略mixed误差在同模型中也可随K低估或高估。small-N有理枚举独立验证矩；N=2有P(M=0)=.2801，不能声称线性传播给精确弱分母CI。
+
+独立MC按N=400/20000重复、seed2026101602实际hypergeometric选择partners，variance/Cov最大|z|=1.2080，ratio MC/delta sigma四值为1.009452/1.005228/.999728/.999587，未丢弃样本。[完整结果](20261016-DAY15-ado-angular-distribution-geometry-run-01/mixed-event-covariance.json)含公式系数、枚举、MC和两套N的清晰身份。SG19-2 Table1的48-pair/64-crystal数另给uniform independent photon-tags条件下的degree离散界；不是实际GRIFFIN Σ。
+
+![自设解析模型的mixed-partner统计](20261016-DAY15-ado-angular-distribution-geometry-run-01/mixed-event-partner-sensitivity.svg)
+
+图a画event reuse与独立pairs反事实，图b画ratio cross Cov；均为N=10000的解析曲线，没有把N=400 MC当实验点。panel alignment/source/glyph/collision最终通过，minimum glyph5.25pt；首轮legend被curve穿过已用数据导出的留白修复，记录[QA](20261016-DAY15-ado-angular-distribution-geometry-run-01/mixed-figure-qa.json)。四项source warnings的报告预览/自设/解析sigma解释与首图一致。
+
+### 固定软件原件的readiness边界
+
+paper Ref21/22的两个2017 Zenodo公开zip已核byte/MD5/SHA，仅新增到Wiki raw/gpt、不纳Git；[软件manifest](../literature-acquisition/20261016-day15-griffin-software.json)保存版本与有限静态阅读范围。[SG19-16/17](../../knowledge/sources/smith-2019-griffin-angular-correlation-analysis.md#day15固定软件对象公开归档与完整重放的边界)明确：angular extension v1.0不等于detectorSimulations v1.0.0，更不等于已运行论文response；后者README L4/L18/L34说明NDA/第三方IP源码省略、需另取，src/DetectionSystemGriffin.cc L40–44还说明constructor/geometry在local NDA文件。本次未执行build/private-access脚本、未补private几何或实际events/Cov。这个具体缺口阻止当前full-response重放，不阻止上述可独立验证的L2统计问题。
+
 ## Counter-evidence and missing companion observables
 
 同一自设几何只把gate系数换为A2=−.30、A4=0，f从.969076变为1.016554；在相同本征r0=1.12下预计R从1.085365变为1.138540。这说明阈值需要门条件；数值不是实测换门效应。真实换门还可能改变feeding和条件density，因此要用同一target/gate身份的逐pair观测区别几何与布居效应。
@@ -141,7 +160,7 @@ a展示效率比偏移对R与修正r中心值的影响；b展示固定各背景�
 
 ## Durable knowledge delta
 
-已实际新增[ADO两路校验与共享校准Cov](../../knowledge/methods/ado-covariance-calibration.md)，保存完整chosen输入、等价族、解析Jacobian、共享sideband矩阵、效率latent模型、数值、换门/finite-cone边界与复算入口；来源原子入口为Z02-6/9。Zheng source新增Z02-10并保持旧flags；[角分布方法页](../../knowledge/methods/angular-distribution.md#误差传播与可识别性)和index已给反向入口。可复用内容的唯一副本不在outputs。
+已实际新增[ADO两路校验与共享校准Cov](../../knowledge/methods/ado-covariance-calibration.md)，保存完整chosen输入、等价族、解析Jacobian、共享sideband矩阵、效率latent模型、数值、换门/finite-cone边界与复算入口；来源原子入口为Z02-6/9。Zheng source新增Z02-10并保持旧flags；[角分布方法页](../../knowledge/methods/angular-distribution.md#误差传播与可识别性)和index已给反向入口。新增[event-mixing统计方法](../../knowledge/methods/event-mixing-statistics.md)保存完整证明、概率、数值和退化/弱分母边界；source软件补充给SG19-16/17的版本/hash/NDA缺口。可复用内容的唯一副本不在outputs。
 
 ```knowledge-writeback
 {
@@ -190,7 +209,7 @@ a展示效率比偏移对R与修正r中心值的影响；b展示固定各背景�
     },
     {
       "knowledge": "knowledge/sources/smith-2019-griffin-angular-correlation-analysis.md",
-      "summary": "完整读2018v1主线/附录，保存独立装置效率/finite-response验证、多spin与版本/Cov边界，2019VoR未得。",
+      "summary": "完整读2018v1主线/附录，保存独立装置效率/finite-response验证、多spin与版本/Cov边界，2019VoR未得。 本run进一步核固定公开软件归档/README，保存NDA输入缺口，不冒称已build或full-response重放。",
       "anchor": "事件混合只先消去匹配的效率权重",
       "sources": [
         {
@@ -200,12 +219,20 @@ a展示效率比偏移对R与修正r中心值的影响；b展示固定各背景�
         {
           "path": "knowledge/sources/smith-2019-griffin-angular-correlation-analysis.md",
           "locator": "SG19-6"
+        },
+        {
+          "path": "knowledge/sources/smith-2019-griffin-angular-correlation-analysis.md",
+          "locator": "SG19-16"
+        },
+        {
+          "path": "knowledge/sources/smith-2019-griffin-angular-correlation-analysis.md",
+          "locator": "SG19-17"
         }
       ]
     },
     {
       "knowledge": "knowledge/methods/angular-correlation.md",
-      "summary": "新增GRIFFIN同数据归一校验、finite-response卷积与event reuse/initial alignment迁移边界。",
+      "summary": "新增GRIFFIN同数据归一校验、finite-response卷积与event reuse/initial alignment迁移边界。 追加event-reuse精确统计/退化控制入口与软件输入边界。",
       "anchor": "事件混合：效率归一之后仍有有限响应",
       "sources": [
         {
@@ -219,17 +246,36 @@ a展示效率比偏移对R与修正r中心值的影响；b展示固定各背景�
         {
           "path": "knowledge/sources/smith-2019-griffin-angular-correlation-analysis.md",
           "locator": "SG19-12"
+        },
+        {
+          "path": "knowledge/sources/smith-2019-griffin-angular-correlation-analysis.md",
+          "locator": "SG19-4"
         }
       ]
     },
     {
       "knowledge": "knowledge/index.md",
-      "summary": "为正式Day15新ADO协方差方法及独立GRIFFIN source建立可检索入口。",
+      "summary": "为正式Day15新ADO协方差方法及独立GRIFFIN source建立可检索入口。 新增event-mixing-statistics方法入口。",
       "anchor": "GRIFFIN的event-mixing/finite-response实验校验",
       "sources": [
         {
           "path": "knowledge/sources/smith-2019-griffin-angular-correlation-analysis.md",
           "locator": "SG19-5"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/methods/event-mixing-statistics.md",
+      "summary": "新增chosen配对算法的精确U统计量方差、finite-K噪声、prompt/mixed Cov、退化/弱分母反例及独立枚举/MC；source Table1只作条件界离散输入。",
+      "anchor": "复用事件的精确方差与退化控制",
+      "sources": [
+        {
+          "path": "knowledge/sources/smith-2019-griffin-angular-correlation-analysis.md",
+          "locator": "SG19-4"
+        },
+        {
+          "path": "knowledge/sources/smith-2019-griffin-angular-correlation-analysis.md",
+          "locator": "SG19-2"
         }
       ]
     }
@@ -241,11 +287,11 @@ a展示效率比偏移对R与修正r中心值的影响；b展示固定各背景�
 
 1. 原Fig1(a)和正文3.2%的差异能否由作者计算表/更清楚版本解释？没有这类输入时保留Z02-10，不自行裁决。
 2. 实际阵列的target/gate两能量校准是否共享同一geometry/normalization mode，sideband和参考比的cross covariance是什么？只有两角error不能恢复它们。
-3. GRIFFIN提供同数据效率处理及已知pure-E2 finite-response反证（SG19-3/5/6）；复用同一interaction的多个mixed partners时，分母及prompt/mixed cross Cov怎样随partner数变化？本文未给实际event ledger/Σ，下一步做明示条件推导。
+3. mixed-partner的chosen row-wise模型现已有精确矩与退化控制；真实mixer是否满足这些采样/时间/权重条件？SG19没有actual event ledger/Σ；固定软件公开包另缺NDA构造/参数。需真实recipe/response后才能判断何种Cov模型适用。
 
 ## L0–L4 state
 
-L0完成Zheng主线；L1把source/方法/observable连通；L2完成有输入/hash/Cov/失败控制的本session计算；L3以joint-response可迁移性、GRIFFIN独立方法对照和真实companion设计继续。全部合成计算保持L2身份，未包装为新experimental L4。真实数据研究缺events、可重放sorter、逐pair响应及实际Σ，readiness为not-ready；这不阻止继续有价值的方法阅读。
+L0完成Zheng主线；L1把source/方法/observable连通；L2完成有输入/hash/Cov/失败控制的本session计算；L3以joint-response可迁移性、GRIFFIN独立方法对照、mixed-event统计/退化控制和真实companion设计继续。全部合成计算保持L2身份，未包装为新experimental L4。真实数据研究缺events、可重放sorter、逐pair响应及实际Σ，readiness为not-ready；这不阻止继续有价值的方法阅读。
 
 ## Verification and continuation
 
@@ -253,7 +299,7 @@ L0完成Zheng主线；L1把source/方法/observable连通；L2完成有输入/ha
 
 计算脚本实际exit0；PSD、解析/数值梯度、独立ordered-pair、共同scale抵消、不可识别族和200000次MC均通过。图的panel alignment、glyph（minimum7pt）和collision（0fail/0warn）通过；source validator最终exit0、0fail，保留4项warning：仅交付PNG预览而非TIFF投稿栅格、300非600dpi、通用demo警告和MC/uncertainty模式误报。前两项符合本日报SVG/PDF+预览合同；后两项由显著自设标识及直接画sigma解释，不虚报实验。首次source audit的export/DPI失败及修正保留于[figure QA](20261016-DAY15-ado-angular-distribution-geometry-run-01/figure-qa.json)。
 
-首轮仓库lint实际exit1（本次新method缺5个固定英文schema标题，且inline数组被当wikilink），已修复并重跑exit0、0error/145warning（3reaction parser、114citation key、28既有raw slots）；全局diff exit0。新增GRIFFIN source后fresh lint实际exit0、0error/146warning（3reaction parser、115citation key、28既有raw slots）；boundary/diff/preflight exit0。EOL exit1按治理规则分类为4份本次substantive知识改动、0unsafe/mixed，均保留。实际runner report/writeback/partial curriculum校验通过，[检查回执](20261016-DAY15-ado-angular-distribution-geometry-run-01/prepublication-checks-002.json)和[同session续接](20261016-DAY15-ado-angular-distribution-geometry-run-01/continuation.md)已保存。检查点稳定指针：main / `Establish DAY15 ADO covariance and independent response evidence`，H3/push结果只写run receipt。原15:00研究截止不变，继续mixed-event Cov，不在此结束或授卡。
+首轮仓库lint实际exit1（本次新method缺5个固定英文schema标题，且inline数组被当wikilink），已修复并重跑exit0、0error/145warning（3reaction parser、114citation key、28既有raw slots）；全局diff exit0。新增GRIFFIN source后fresh lint实际exit0、0error/146warning（3reaction parser、115citation key、28既有raw slots）；boundary/diff/preflight exit0。EOL exit1按治理规则分类为4份本次substantive知识改动、0unsafe/mixed，均保留。实际runner report/writeback/partial curriculum校验通过，[检查回执](20261016-DAY15-ado-angular-distribution-geometry-run-01/prepublication-checks-002.json)和[同session续接](20261016-DAY15-ado-angular-distribution-geometry-run-01/continuation.md)已保存。检查点稳定指针：main / `Establish DAY15 ADO covariance and independent response evidence`，H3/push结果只写run receipt。首批44-path检查点的H3 fresh fetch/ancestry/dry-run/non-force push均exit0，实际结果见[发布回执](20261016-DAY15-ado-angular-distribution-geometry-run-01/publication-001.json)。新增统计与软件补充的fresh boundary/lint/diff均exit0、lint0error/146warning，七页writeback实际runner验收通过；检查点002稳定指针：main / `Extend DAY15 event-mixing statistics and audit formal card completion`，actual H3/push只看publication002。原15:00研究截止不变，formal15完成与window仍active分开。
 
 ### Day 15 card completion audit
 
@@ -265,6 +311,15 @@ L0完成Zheng主线；L1把source/方法/observable连通；L2完成有输入/ha
 | 不确定度与图 | [敏感性SVG](20261016-DAY15-ado-angular-distribution-geometry-run-01/ado-covariance-sensitivity.svg)、[figure QA](20261016-DAY15-ado-angular-distribution-geometry-run-01/figure-qa.json)，解析/MC与chosen Cov见计算JSON；原Fig1不作实验sigma | complete |
 | convention注记 | 本日报逐项表，source Z02-6/9/10及canonical方法页 | complete |
 | 反证与必要观测 | [换门/有限几何控制](../../knowledge/methods/ado-covariance-calibration.md#换门与有限几何的失败控制)；[SG19-6](../../knowledge/sources/smith-2019-griffin-angular-correlation-analysis.md#key-results) PDF7 Fig3的已知pure-E2反证及逐pair/E-M companion | complete |
-| 知识/检查/续接/receipt/发布 | 六项真实knowledge-writeback已写；仓库检查与显式发布尚待本run后续 | in-progress |
+| 知识/检查/续接/receipt/发布 | 唯一七项writeback、[fresh checks](20261016-DAY15-ado-angular-distribution-geometry-run-01/verification-checkpoint-002-extended.json)、[continuation](20261016-DAY15-ado-angular-distribution-geometry-run-01/continuation.md)、[run receipt](20261016-DAY15-ado-angular-distribution-geometry-run-01/run.json)、[首批实际H3/push](20261016-DAY15-ado-angular-distribution-geometry-run-01/publication-001.json)；[次日独立入口](prompts/20261017-DAY16-dco-rdco-mixing-ratio-convention.md) | complete |
 
-只有所有行complete、要求的检查/续接/receipt/发布实际完成后才可计Day15；Day14的partial15不会自动转学分。
+本表七行均已complete；依据本session实际交付与首批H3发布计Day15，Day14的partial15/成绩/脚本不授本日学分。新增扩展研究继续按其实际检查/发布执行，不将本卡完成当整个研究时段结束。
+
+
+### 时间门与下一卡无学分预习
+
+2026-10-16T23:29:24+08调用current-time并刷新候选池，距原2026-10-17 15:00硬截止约930.6分钟。[候选刷新](20261016-DAY15-ado-angular-distribution-geometry-run-01/candidate-refresh-002.json)确认当前chosen统计问题已解、真实full response受实际输入限制；旧event-mixing参考只核metadata，CERN150008仍是有界访问候选，不称已读。已检查矩阵Day16，选择恰好这张下一卡作高信息预习；当前day_index仍15，不计16，不打开17。
+
+[Day16预习回忆](20261016-DAY15-ado-angular-distribution-geometry-run-01/day16-preview-recall-frozen.md)在打开两张指定source/raw前冻结并显式primed。当前只开始无学分回忆，后续source主线/双解/phase转换尚未完成；次日正式run仍须独立冻结回忆、执行卡并过发布门。准备下一日prompt不会启动新session或授卡。
+
+CERN150008后续有界访问实际返回bot-verification页面，未取得正文；[访问回执](20261016-DAY15-ado-angular-distribution-geometry-run-01/drijard1984-cern-discovery.json)明确body=false/不原样重试。两个旧参考仍只作metadata，不以此中止其它高价值路线。

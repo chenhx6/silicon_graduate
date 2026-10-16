@@ -1,16 +1,19 @@
 {
-  "captured_at": "2026-10-16T23:03:08.416104+08:00",
+  "captured_at": "2026-10-16T23:32:55.539318+08:00",
   "session_id": "01a14510-aec7-7e00-aa23-f7c77a5124bc",
   "run_id": "2026-10-16-day-15-01",
   "hard_deadline": "2026-10-17T15:00:00+08:00",
   "course_credit": {
-    "completed_day_indices": [],
-    "partial_day_indices": [
+    "completed_day_indices": [
       15
     ],
-    "day15_audit": "in-progress",
-    "next_day_index": 15,
-    "completed_day_count": 14
+    "partial_day_indices": [
+      16
+    ],
+    "day15_audit": "complete",
+    "course_file_next_day_index": 15,
+    "course_file_completed_day_count": 14,
+    "reconciliation": "after actual checkpoint002 publication, next16/count15; no duplicatecredit"
   },
   "selection": [
     {
@@ -118,7 +121,7 @@
       "visual_appendix": "A.10–A.19 whole-page contact sheets; no precise covariance digitization"
     }
   },
-  "current_status": "Formal Day15 primed recall/Zheng mainline/new ADO Cov worksheet and GRIFFIN28-page-v1 source complete; six canonical pages mapped, required checks pass, explicit44-path checkpoint staged; goal/run active and credit not advanced",
+  "current_status": "Checkpoint00144paths actually pushed; extended exact mixed-event statistics/MC/figure and fixed public software-readiness boundary canonical; fresh checks/publication002 pending",
   "worksheet": {
     "input_sha256": "e8e31f0691862296b62adffb34e6e5395d22ba6cdc59f629a00c71a89eeadf04",
     "script": "system/scripts/day15_ado_covariance_worksheet.py",
@@ -128,9 +131,27 @@
     "figure_source_warnings": 4
   },
   "next_actions": [
-    "perform H3 non-force publication of checkpoint44 paths, preserve inherited log via isolated stage",
-    "derive exact mixed-event U-statistic covariance and partner-count floor with a degenerate counterexample, then independent MC/enumeration",
-    "inspect fixed small Zenodo software releases/license/geometry only if decision-relevant; no execution attested yet",
-    "refresh clock/candidate pool at next saturation; only a Day16 uncredited preview permitted, never Day17"
-  ]
+    "H3 checkpoint002 publication; idempotent formal15 course-state reconciliation only after successful gate",
+    "uncredited Day16 source/raw full mainline and phase/double-solution exercise; recall already frozen, no formal16",
+    "optional bounded CERN150008 primary-statistics companion if informative",
+    "refresh original clock/pool; remain active until deadline/schedule-level audited saturation, never17"
+  ],
+  "mixed_event_analysis": {
+    "input_sha256": "b0a0bb6503d01e8dc432e1a866960872b4fbc1bebd89a1737ca766eab9bab72c",
+    "canonical": "knowledge/methods/event-mixing-statistics.md",
+    "script": "system/scripts/day15_event_mixing_covariance.py",
+    "actual_exit": 0,
+    "mc_max_abs_z": 1.208006932675981,
+    "degenerate_control": "V1=0; not universal1/N floor",
+    "scope": "chosen model, no experimental Cov"
+  },
+  "software_readiness": {
+    "records": [
+      "1120421/v1.0",
+      "1123461/v1.0.0"
+    ],
+    "archives_verified": true,
+    "full_response": "not-ready: NDA/source geometry inputs missing, no build/private-access attempted",
+    "canonical": "knowledge/sources/smith-2019-griffin-angular-correlation-analysis.md#day15固定软件对象公开归档与完整重放的边界"
+  }
 }

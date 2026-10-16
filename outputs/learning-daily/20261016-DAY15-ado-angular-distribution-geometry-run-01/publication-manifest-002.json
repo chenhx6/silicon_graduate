@@ -1,0 +1,63 @@
+{
+  "checkpoint": "002",
+  "branch": "main",
+  "subject": "Extend DAY15 event-mixing statistics and audit formal card completion",
+  "paths": [
+    "knowledge/index.md",
+    "knowledge/methods/angular-correlation.md",
+    "knowledge/methods/event-mixing-statistics.md",
+    "knowledge/sources/smith-2019-griffin-angular-correlation-analysis.md",
+    "system/scripts/day15_event_mixing_covariance.py",
+    "system/handoff.md",
+    "system/log.md",
+    "outputs/learning-daily/20261016-DAY15-ado-angular-distribution-geometry.md",
+    "outputs/literature-acquisition/20261016-day15-griffin-software.json",
+    "outputs/learning-daily/prompts/20261017-DAY16-dco-rdco-mixing-ratio-convention.md",
+    "outputs/learning-daily/20261016-DAY15-ado-angular-distribution-geometry-run-01/run.json",
+    "outputs/learning-daily/20261016-DAY15-ado-angular-distribution-geometry-run-01/continuation.md",
+    "outputs/learning-daily/20261016-DAY15-ado-angular-distribution-geometry-run-01/research-checkpoint.json",
+    "outputs/learning-daily/20261016-DAY15-ado-angular-distribution-geometry-run-01/publication-001.json",
+    "outputs/learning-daily/20261016-DAY15-ado-angular-distribution-geometry-run-01/mixed-event-input.json",
+    "outputs/learning-daily/20261016-DAY15-ado-angular-distribution-geometry-run-01/mixed-event-figure-contract.json",
+    "outputs/learning-daily/20261016-DAY15-ado-angular-distribution-geometry-run-01/mixed-event-covariance.json",
+    "outputs/learning-daily/20261016-DAY15-ado-angular-distribution-geometry-run-01/mixed-event-partner-sensitivity.csv",
+    "outputs/learning-daily/20261016-DAY15-ado-angular-distribution-geometry-run-01/mixed-event-partner-sensitivity.svg",
+    "outputs/learning-daily/20261016-DAY15-ado-angular-distribution-geometry-run-01/mixed-event-partner-sensitivity.pdf",
+    "outputs/learning-daily/20261016-DAY15-ado-angular-distribution-geometry-run-01/mixed-event-partner-sensitivity.png",
+    "outputs/learning-daily/20261016-DAY15-ado-angular-distribution-geometry-run-01/mixed-event-partner-sensitivity.alignment.json",
+    "outputs/learning-daily/20261016-DAY15-ado-angular-distribution-geometry-run-01/mixed-event-partner-sensitivity.collision-audit.json",
+    "outputs/learning-daily/20261016-DAY15-ado-angular-distribution-geometry-run-01/mixed-figure-qa.json",
+    "outputs/learning-daily/20261016-DAY15-ado-angular-distribution-geometry-run-01/griffin-software-download-audit.json",
+    "outputs/learning-daily/20261016-DAY15-ado-angular-distribution-geometry-run-01/event-mixing-foundation-discovery.json",
+    "outputs/learning-daily/20261016-DAY15-ado-angular-distribution-geometry-run-01/event-mixing-foundation-oa-discovery.json",
+    "outputs/learning-daily/20261016-DAY15-ado-angular-distribution-geometry-run-01/candidate-refresh-002.json",
+    "outputs/learning-daily/20261016-DAY15-ado-angular-distribution-geometry-run-01/day16-preview-recall-frozen.md",
+    "outputs/learning-daily/20261016-DAY15-ado-angular-distribution-geometry-run-01/day16-preview-recall-freeze.json",
+    "outputs/learning-daily/20261016-DAY15-ado-angular-distribution-geometry-run-01/day15-formal-card-audit.json",
+    "outputs/learning-daily/20261016-DAY15-ado-angular-distribution-geometry-run-01/verification-checkpoint-002-extended.json",
+    "outputs/learning-daily/20261016-DAY15-ado-angular-distribution-geometry-run-01/task-log-entry-002.txt",
+    "outputs/learning-daily/20261016-DAY15-ado-angular-distribution-geometry-run-01/prepublication-checks-003.json",
+    "outputs/learning-daily/20261016-DAY15-ado-angular-distribution-geometry-run-01/publication-manifest-002.json",
+    "outputs/learning-daily/20261016-DAY15-ado-angular-distribution-geometry-run-01/next-prompt-validation-001.json",
+    "outputs/learning-daily/20261016-DAY15-ado-angular-distribution-geometry-run-01/drijard1984-cern-discovery.json"
+  ],
+  "special_staging": {
+    "system/log.md": "HEAD plus exactly own entry002; original inherited log body remains in worktree"
+  },
+  "gitignore_exceptions": {
+    "paths": [
+      "outputs/learning-daily/20261016-DAY15-ado-angular-distribution-geometry-run-01/mixed-event-partner-sensitivity.pdf",
+      "outputs/learning-daily/20261016-DAY15-ado-angular-distribution-geometry-run-01/mixed-event-partner-sensitivity.png"
+    ],
+    "reason": "self-generated report figure only; raw PDFs/zips excluded"
+  },
+  "excluded": [
+    "raw/",
+    "tmp/",
+    "PLAN.md",
+    "protected Bib/credentials",
+    "inherited daemon/receipts/log edits",
+    "large transient audit logs"
+  ],
+  "course": "formal15 only, report partial16; actual course file updated idempotently after this publication; window active"
+}
