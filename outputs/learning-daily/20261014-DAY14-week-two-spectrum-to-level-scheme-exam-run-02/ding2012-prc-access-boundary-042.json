@@ -1,0 +1,19 @@
+{
+  "at": "2026-10-16T12:25:15.757301+08:00",
+  "identity_verified": "Crossref exactDOI title/authors/PRC86(3),034302/2012-09-04 and NSR2012DI14 agree",
+  "doi": "10.1103/PhysRevC.86.034302",
+  "publisher_API": "401 JSON notPDF",
+  "citation_pdf": "403 HTML notPDF",
+  "normal_publisher_pdf": "403 HTML notPDF",
+  "OpenAlex": "closed, no repositorylocation",
+  "SemanticScholar": "CLOSED, empty openAccessPdf.url; authornames not authoritative",
+  "arxiv_selectedquery": "0results, not globalabsence",
+  "Scholar": "toolerror",
+  "local_lookup": "corrected rg --files --no-ignore;310PDFmetadata checked, noexactDOI match; Ding.pdf is same100page thesis hash; unrelated PRC105.034302 rejected by fullDOI",
+  "body_obtained": false,
+  "fulltext_read": false,
+  "all_attempted_handles_terminal": true,
+  "no_bypass_or_configuration_change": true,
+  "no_metadata_only_source_created": true,
+  "topology_conflict_resolved": false
+}

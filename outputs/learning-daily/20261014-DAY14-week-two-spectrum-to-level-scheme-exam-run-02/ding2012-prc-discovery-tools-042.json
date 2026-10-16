@@ -1,0 +1,24 @@
+{
+  "publisher": {
+    "status": "fulfilled",
+    "value": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\n  \"doi\": \"10.1103/PhysRevC.86.034302\",\n  \"accessDiscovery\": {\n    \"status\": \"oa_candidate\",\n    \"landingUrl\": \"https://journals.aps.org/prc/abstract/10.1103/PhysRevC.86.034302\",\n    \"landingHost\": \"journals.aps.org\",\n    \"candidateUrl\": \"http://link.aps.org/pdf/10.1103/PhysRevC.86.034302\",\n    \"candidateUrls\": [\n      \"http://link.aps.org/pdf/10.1103/PhysRevC.86.034302\"\n    ],\n    \"method\": \"citation_pdf_url\",\n    \"evidence\": {\n      \"url\": \"http://link.aps.org/pdf/10.1103/PhysRevC.86.034302\",\n      \"method\": \"citation_pdf_url\",\n      \"source\": {\n        \"provenance\": \"trusted_direct\",\n        \"finalUrl\": \"https://journals.aps.org/prc/abstract/10.1103/PhysRevC.86.034302\"\n      }\n    },\n    \"candidatesTruncated\": false,\n    \"candidateCount\": 1,\n    \"provider\": \"direct\",\n    \"strategy\": \"direct\",\n    \"proxyType\": \"datacenter\",\n    \"creditsCost\": 0,\n    \"targetStatus\": 200,\n    \"fetchedAt\": \"2026-10-16T04:17:55.888Z\",\n    \"verification\": {\n      \"status\": \"inconclusive\",\n      \"reason\": \"aborted_or_timeout\"\n    }\n  },\n  \"pdfUrl\": \"http://link.aps.org/pdf/10.1103/PhysRevC.86.034302\"\n}"
+        }
+      ]
+    }
+  },
+  "arxiv": {
+    "status": "fulfilled",
+    "value": {
+      "content": [
+        {
+          "type": "text",
+          "text": "Found 0 arXiv papers.\n\n[]"
+        }
+      ]
+    }
+  }
+}

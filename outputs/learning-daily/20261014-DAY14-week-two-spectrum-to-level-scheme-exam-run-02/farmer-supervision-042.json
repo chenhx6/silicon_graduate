@@ -1,0 +1,18 @@
+{
+  "at": "2026-10-16T12:35:36.916057+08:00",
+  "exit_code": 0,
+  "running": true,
+  "owner": {
+    "pid": 42019,
+    "root": "/workspace/wiki",
+    "started_at": "2026-10-16T01:21:37.124848+00:00"
+  },
+  "current_session": {
+    "status": "running",
+    "event_key": "01a13a0e-e8bd-7251-b970-f6975679e281:01a142ea-ccb6-7670-be71-962f8497d47c:2026-10-16T04:14:06.526Z",
+    "attempts": 0,
+    "pending": false,
+    "next_at": 0,
+    "last_event_timestamp": "2026-10-16T04:14:06.526Z"
+  }
+}

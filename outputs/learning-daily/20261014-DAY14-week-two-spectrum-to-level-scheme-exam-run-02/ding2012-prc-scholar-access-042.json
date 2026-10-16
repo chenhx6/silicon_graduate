@@ -1,0 +1,12 @@
+{
+  "status": "fulfilled",
+  "value": {
+    "content": [
+      {
+        "type": "text",
+        "text": "Error executing tool 'search_google_scholar': google_scholar search failed: Dire****************** out"
+      }
+    ],
+    "isError": true
+  }
+}

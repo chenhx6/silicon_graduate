@@ -1,0 +1,279 @@
+{
+  "kind": "source-conditioned coarse supports plus declared independent-state-tag specification",
+  "checks": {
+    "thesis_hash": true,
+    "CPL_hash": true,
+    "ENSDFreaction_hash": true,
+    "primary_coarse_support": true,
+    "evaluated_coarse_support": true,
+    "source_topologies_differ_despite_support_equality": true,
+    "primary183_decay_not_invented": true,
+    "15_discarding_is_declared_projection_not_detector_fact": true,
+    "support_not_actual_likelihood_equivalence": true,
+    "Gaussian_tag_class_error_target": true,
+    "broader_tag_cannot_meet_same_target": true,
+    "zero_separation_has_no_tag_discrimination": true,
+    "Gaussian_FWHM_conversion": true,
+    "no_actual_tag_or_covariance_claim": true
+  },
+  "check_count": 14,
+  "passed": true,
+  "inputs": {
+    "kind": "source-conditioned coarse-observation support and independent-state-tag design, not actualresponse",
+    "sources": {
+      "thesis": {
+        "path": "raw/papers/degree dissertation/丁兵 - 博士论文.pdf",
+        "sha256": "ca7765ad962ea0c106791532f5a7d9f359533d25bb0170f03197bfec414be5c7"
+      },
+      "CPL": {
+        "path": "tmp/day14-20261014/128i-related-primary/wang2010-cpl-publisher.pdf",
+        "sha256": "28b81f5be7dfbe3b7efbb7efb37576eef7e4ac6060baac6c19d54e9c0187c387"
+      },
+      "ENSDFreaction": {
+        "path": "tmp/day14-20261014/nndc128i/li7-reaction.ens",
+        "sha256": "126efa18a375524a26f26d62a32be280c663b3db3f470a9b9e5db94690b28114",
+        "datasetcheck": "128053024,128I",
+        "response_sha256": "2fc295d1340b476c102d28cbe0b58aab33d1fefc1348bad3ce607a9a7e6a80d4"
+      }
+    },
+    "roles": {
+      "P": "about285",
+      "A": "about183",
+      "B": "about270",
+      "D": "about167",
+      "Q": "about1562",
+      "R": "about1461",
+      "S": "about696",
+      "H": "about1042"
+    },
+    "common_upper_skeleton_assumed_sourcecompatible": [
+      {
+        "id": "t101",
+        "p": "Q",
+        "d": "R",
+        "group": "101"
+      },
+      {
+        "id": "t764",
+        "p": "R",
+        "d": "S",
+        "group": "764"
+      },
+      {
+        "id": "t411",
+        "p": "S",
+        "d": "P",
+        "group": "411"
+      },
+      {
+        "id": "t756",
+        "p": "H",
+        "d": "P",
+        "group": "756"
+      },
+      {
+        "id": "t117",
+        "p": "P",
+        "d": "D",
+        "group": "117"
+      }
+    ],
+    "primary_edges": [
+      {
+        "id": "t102a",
+        "p": "P",
+        "d": "A",
+        "group": "102"
+      },
+      {
+        "id": "t102b",
+        "p": "B",
+        "d": "D",
+        "group": "102"
+      }
+    ],
+    "evaluated_edges": [
+      {
+        "id": "t15",
+        "p": "P",
+        "d": "B",
+        "group": "15.6"
+      },
+      {
+        "id": "t102e",
+        "p": "B",
+        "d": "D",
+        "group": "102"
+      }
+    ],
+    "primary_A_further_decay": "unmeasured here; do not add an observed15.6transition",
+    "coarse_target_groups": [
+      "101",
+      "102"
+    ],
+    "gates": [
+      "t756",
+      "t764",
+      "t117"
+    ],
+    "invisible15_projection_is_our_condition": true,
+    "actual_detector15_response_known": false,
+    "actual_gate_intensities_or_likelihood_matched": false,
+    "state_tag_separation_keV": "15.6",
+    "chosen_class_error_target": ".05",
+    "chosen_response_model": "independentGaussian Ex tag, commonwidth, knowncenters, midpointthreshold, balancedpriors; actualtagnotprovided",
+    "actual_state_tag_resolution_keV": null,
+    "actual_calibration_bias_bound_keV": null,
+    "actual_full_response_covariance": null
+  },
+  "primary_support": {
+    "t756": [
+      "102"
+    ],
+    "t764": [
+      "101",
+      "102"
+    ],
+    "t117": [
+      "101"
+    ]
+  },
+  "evaluated_support": {
+    "t756": [
+      "102"
+    ],
+    "t764": [
+      "101",
+      "102"
+    ],
+    "t117": [
+      "101"
+    ]
+  },
+  "source_path_sets": {
+    "primary": [
+      [
+        "t102b"
+      ],
+      [
+        "t756",
+        "t117"
+      ],
+      [
+        "t756",
+        "t102a"
+      ],
+      [
+        "t117"
+      ],
+      [
+        "t102a"
+      ],
+      [
+        "t101",
+        "t764",
+        "t411",
+        "t117"
+      ],
+      [
+        "t101",
+        "t764",
+        "t411",
+        "t102a"
+      ],
+      [
+        "t764",
+        "t411",
+        "t117"
+      ],
+      [
+        "t764",
+        "t411",
+        "t102a"
+      ],
+      [
+        "t411",
+        "t117"
+      ],
+      [
+        "t411",
+        "t102a"
+      ]
+    ],
+    "evaluated": [
+      [
+        "t102e"
+      ],
+      [
+        "t756",
+        "t117"
+      ],
+      [
+        "t756",
+        "t15",
+        "t102e"
+      ],
+      [
+        "t117"
+      ],
+      [
+        "t15",
+        "t102e"
+      ],
+      [
+        "t101",
+        "t764",
+        "t411",
+        "t117"
+      ],
+      [
+        "t101",
+        "t764",
+        "t411",
+        "t15",
+        "t102e"
+      ],
+      [
+        "t764",
+        "t411",
+        "t117"
+      ],
+      [
+        "t764",
+        "t411",
+        "t15",
+        "t102e"
+      ],
+      [
+        "t411",
+        "t117"
+      ],
+      [
+        "t411",
+        "t15",
+        "t102e"
+      ]
+    ]
+  },
+  "tag_design": {
+    "separation_keV": 15.6,
+    "per_class_error_target": 0.05,
+    "z": 1.6448536269514715,
+    "sigma_max_keV": 4.742063288911801,
+    "FWHM_max_keV": 11.166705687534899,
+    "calculated_error": 0.050000000000000155,
+    "with_known_bias_budget": "sigma <= (Delta/2-bmax)/z, requiring0<=bmax<Delta/2",
+    "observed_detector_performance": null
+  },
+  "full_likelihood_equivalence_claimed": false,
+  "topology_choice": null,
+  "input_sha256": "efbeada586633515f18c8c13d70cb9d4c2233bd80f0d469495f1a04db7a19cd1",
+  "limitations": [
+    "support equality only for declared selected graphs and coarse observation; not actual data likelihood",
+    "same102 group and hidden15.6 are analysis conditions, not proved detector limitations",
+    "a positive15.6 coincidence alone still needs order/endpoint; primaryfurtherdecay is unknown",
+    "source lowenergy ICC without parenttag cannot uniquely label sameE/samemultipole parent",
+    "Gaussian state-tag requirement is not existing gamma-detector resolution or experimental CI",
+    "actual tag implementation, tails, priors, calibration, efficiency and covariance are missing"
+  ]
+}

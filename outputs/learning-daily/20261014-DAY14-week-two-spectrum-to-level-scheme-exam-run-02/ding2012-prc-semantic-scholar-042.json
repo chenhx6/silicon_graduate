@@ -1,0 +1,103 @@
+{
+  "url": "https://api.semanticscholar.org/graph/v1/paper/DOI:10.1103/PhysRevC.86.034302?fields=title,year,authors,openAccessPdf,url",
+  "at": "2026-10-16T12:19:49.886140+08:00",
+  "purpose": "boundedauthorcopy/normalpublisheraccess discovery, no bypass",
+  "status": 200,
+  "final_url": "https://api.semanticscholar.org/graph/v1/paper/DOI:10.1103/PhysRevC.86.034302?fields=title,year,authors,openAccessPdf,url",
+  "content_type": "application/json",
+  "bytes": 1288,
+  "is_pdf": false,
+  "metadata": {
+    "paperId": "42792fe689729981b4f7e70df93383468ecc2911",
+    "url": "https://www.semanticscholar.org/paper/42792fe689729981b4f7e70df93383468ecc2911",
+    "title": "High-spin level scheme of doubly odd 128 I",
+    "year": 2012,
+    "openAccessPdf": {
+      "url": "",
+      "status": "CLOSED",
+      "license": null
+    },
+    "authors": [
+      {
+        "authorId": "2064493536",
+        "name": "B. Ding"
+      },
+      {
+        "authorId": "2462014347",
+        "name": "H.-X. Wang"
+      },
+      {
+        "authorId": "2220435123",
+        "name": "H. Jiang"
+      },
+      {
+        "authorId": "2504324232",
+        "name": "Y.-H. Zhang"
+      },
+      {
+        "authorId": "50177639",
+        "name": "Xiaoping Zhou"
+      },
+      {
+        "authorId": "11232704",
+        "name": "Yu-Min Zhao"
+      },
+      {
+        "authorId": "2504022161",
+        "name": "S.-T. Wang"
+      },
+      {
+        "authorId": "2107809495",
+        "name": "M. Liu"
+      },
+      {
+        "authorId": "2026729105",
+        "name": "Guang-Shun Li"
+      },
+      {
+        "authorId": "47330458",
+        "name": "Yang-Heng Zheng"
+      },
+      {
+        "authorId": "2218849626",
+        "name": "Ning Zhang"
+      },
+      {
+        "authorId": "2503985749",
+        "name": "H.-B. Zhou"
+      },
+      {
+        "authorId": "145088377",
+        "name": "Yong-Liang Ma"
+      },
+      {
+        "authorId": "102734602",
+        "name": "Y. Sasakiz"
+      },
+      {
+        "authorId": "2107463409",
+        "name": "K. Yamada"
+      },
+      {
+        "authorId": "71681151",
+        "name": "H. Ohshima"
+      },
+      {
+        "authorId": "31814135",
+        "name": "S. Yokose"
+      },
+      {
+        "authorId": "2057349731",
+        "name": "M. Ishizuka"
+      },
+      {
+        "authorId": "93398696",
+        "name": "T. Komatsubara"
+      },
+      {
+        "authorId": "102420357",
+        "name": "K. Furuno"
+      }
+    ]
+  }
+}

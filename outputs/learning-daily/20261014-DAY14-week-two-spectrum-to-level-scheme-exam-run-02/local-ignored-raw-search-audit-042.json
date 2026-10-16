@@ -1,0 +1,22 @@
+{
+  "at": "2026-10-16T12:21:13.891811+08:00",
+  "command": [
+    "rg",
+    "--files",
+    "--no-ignore",
+    "raw/papers"
+  ],
+  "enumerated_paths": 346,
+  "current_matches": [
+    "raw/papers/degree dissertation/丁兵.pdf",
+    "raw/papers/degree dissertation/丁兵 - 博士论文.pdf",
+    "raw/papers/gpt/day3-mean-field-20260929/2203-12851-tpsm-odd-neutron-xe-20260930/manifest.json",
+    "raw/papers/gpt/day3-mean-field-20260929/2203-12851-tpsm-odd-neutron-xe-20260930/PDFs/Extended_triaxial_projected_shell_model_approach_for_odd-neutron_nuclei.pdf"
+  ],
+  "pending_route_filename_matches": [
+    "raw/papers/gpt/high-spin-20260920/multipolarity/angular distribution/DCO/1973_Krane et al_Directional correlations of gamma radiations emitted from nuclear states.pdf"
+  ],
+  "scope": "filename identity candidates only, no fullPDFcontent absenceclaim",
+  "initial_default_rg_failure": "rg --files respected .gitignore and gave empty set; do not use that to claim localabsence",
+  "protected_raw_written": false
+}

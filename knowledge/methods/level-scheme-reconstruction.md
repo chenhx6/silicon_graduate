@@ -774,3 +774,39 @@ adopted167.368(4)的175(15)ns、29.512(5)(E2)支和理论CC175.0属于同一pare
 header“几乎同2012Wa27”的key在getrefs实际指Uoctupolepaper，2012Di14则准确为PRC86,034302；旧2009在header的32MeV和refs摘要42MeV也未静默统一。这是引用/metadata边界，不作为旧paper正文或run差异的证据。评价summary称2009CIAE14Ge而2010Tsukuba9Ge+planar，提示另实验谱系；旧原件未读，不以二级资料认证其全部采集。
 
 [28-check脚本](../../system/scripts/day14_ensdf128_lowanchor_crosswalk.py)、[输入](../../outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/nndc128i-crosswalk-input.json)和[结果](../../outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/nndc128i-crosswalk-audit.json)保存固定列/rawlines/limit/CC与ECC/EKC/sourcehash/primaryrow及引用边界。Decision: **revises** 更新compiled版本即可覆盖primary的捷径；**supports** 逐object/parent/field/来源对账；**limits** 同energy迁移、共用数据计独立与由新增perlineerrors补原Σ。FormalDay14 21/24、completed14/partial15不变。
+
+## 128I未定位置：三张门谱的区分力与最小独立tag
+
+[[nndc-2015-128i-selected-level-gamma-records]] N128-10记录：2012Di14身份已核但正文未取得，不能据metadata消除前节的primary/evaluation差别。N128-11/12是本任务的L2设计，不是作者数据/代码。实际来源为Ding/CPL门图和选定ENSDF位置，所有结论限定观察投影与selectedgraph。
+
+### 已公开门对什么有区分力
+
+取前节两拓扑的共同上层101.3、764.7、411.0、756.5与117.8路径。Primary图保留285→183的102a和270→167的102b，不补183下方已测decay；evaluation图保留285→270的15.6和270→167的102。现在**另声明分析投影**：不记录15.6，并只把近能102作为一个group来问“某能量组是否可在门内出现”。这不是声称原阵列没有15.6响应或不能进行更精细能谱分析。
+
+| 已公开gate | primary选定图的可出现group | evaluation选定图的可出现group |
+| --- | --- | --- |
+| 756.5 | 102 | 102 |
+| 764.7 | 101、102 | 101、102 |
+| 117.8 | 101 | 101 |
+
+因此这些已公开的coarse支持模式区分101与102的位置很有价值，却不单独定位同102 group的辐射parent。此处只算支持集；没有让branchweights、netcounts、角响应、timing和Cov相等，也不证明它们在真实实验中不可区分。额外branch/不同效率或更精细energy/angle/time输入可能提供信息，须实际核验。
+
+在相同Z/E/multipolarity、同一原子响应及忽略核穿透差异的标准转换模型下，纯多极ICC不提供这个parent标签。混峰一个ICC、更多相同门计数或仅15.6与102的无序符合，不必提供顺序；若primary未列的后续15.6也可能存在，更不能从单一coincidence反推“先15后102”。需要测到直接对准parent/finalnode或时间顺序的量。
+
+### 最小falsifier与可行性输入
+
+最高价值候选是独立的辐射前parentEx或辐射后state tag，区分约285与270或183与167；这两个nominal差都约15.6keV。另一路是ordered15.6/102时序，但必须先有可解析的中间寿命、时间零点/响应、转换电子/γ选择和真实efficiency/background。本文没有提供这些实际tag或性能，不能承诺装置可实现。
+
+为把“需要分辨”写成可审计要求，单独声明一个independentGaussianEx-tag模型：两类中心已知、commonσ、等先验、midpoint阈值。每类误标概率`p_wrong=Phi[−Delta/(2sigma)]`。选设计目标p≤.05、nominalDelta=15.6keV，则
+
+`σ_max=Delta/[2 Phi_inverse(.95)]=4.742063keV`，
+
+`FWHM_max=2sqrt(2ln2) σ_max=11.166706keV`。
+
+这是独立state-tag通道的设计要求，既不是现有detector performance、tag已存在的证明，也不是实验CI。CPL所报1332-keV γ线的2–2.5keV分辨不等于该Ex-tag分辨，不能直接借用。若fixedmidpoint下校准偏差有已知上界bmax，需`σ≤(Delta/2−bmax)/z_.95`且bmax<Delta/2；tails、不同宽度/先验、leakage与选择相关须改用实际响应评估。无这些inputs时只保留readiness。
+
+### 复算与决定
+
+[14-check程序](../../system/scripts/day14_128i_discriminating_design.py)、[显式输入](../../outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/128i-discriminating-design-input.json)和[结果](../../outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/128i-discriminating-design-audit.json)保留两graph/paths、投影条件/三个sourcehash及state-tag公式。没有把unknown primarydecay补为observed，也不将缺路径当absence。
+
+Decision: **revises** “重画同一门谱或补一个混峰ICC即可定位parent”的测量提议；**supports** 对准具体未定state/时间顺序并先量化tagresponse；**limits** 将粗支持相同当full likelihood相同、Gaussian设计当既有性能或metadata当body。Formal14 21/24、completed14/partial15和review状态保持。

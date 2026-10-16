@@ -1,0 +1,11 @@
+{
+  "url": "https://harvest.aps.org/v2/journals/articles/10.1103/PhysRevC.86.034302/fulltext",
+  "derived_from": "Crossref exactDOI fulltext link; HTTPS equivalent",
+  "at": "2026-10-16T12:16:26.475047+08:00",
+  "purpose": "boundedpublisher maintext candidate, no newOA licenseclaim",
+  "status": 401,
+  "final_url": "https://harvest.aps.org/v2/journals/articles/10.1103/PhysRevC.86.034302/fulltext",
+  "content_type": "application/json",
+  "bytes": 66,
+  "is_pdf": false
+}

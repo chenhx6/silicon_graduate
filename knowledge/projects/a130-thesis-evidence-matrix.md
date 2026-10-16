@@ -110,3 +110,8 @@ A new line or energy-sum closure may strengthen placement. It cannot by itself p
 ## 128I选定评价与primary的102-keV位置冲突
 
 [[nndc-2015-128i-selected-level-gamma-records]] N128-3–9与[[ding-2012-phd-thesis-127-128i-high-spin]] D12-33、[[wang-2010-128i-new-high-spin-level-scheme]] W10I-10并列保存285→183强102与评价285→270的15.6/270→167的102/ECC绑定差别。能量和不能裁决中间node；评价复用同Tsukuba材料，非独立反证实验。下一必要输入是2012Di14原文/版本、原门谱/转换分析与correctcomponentidentity，未得时不升级Jπ、absoluteB或模式。[[level-scheme-reconstruction]]保存28项固定列/归一/误差来源检查，不能把评价者赋的error当原Cov。
+
+
+## 128I下一步：独立定位102-keV母态或末态
+
+[[nndc-2015-128i-selected-level-gamma-records]] N128-10–12与[[level-scheme-reconstruction]]的判别设计把下一步从重复756/764/117门转向独立parent/finalstate或可解析的orderedtiming。三门coarse support在声明投影下可相同，不等于实际likelihood相同；单个混峰ICC也不贴parent标签。15.6keV间隔和Gaussian5%/11.17keV只是nominal独立state-tag设计，不代表existingperformance。2012Di14body/真实tag和响应/原Cov仍缺，不裁决primary/evaluation图或升级mode证据。

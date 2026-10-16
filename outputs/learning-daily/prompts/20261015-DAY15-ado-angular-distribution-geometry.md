@@ -391,3 +391,8 @@ CPL2010 128I四页primary现已读，新增source保留Channel轴/roughly14%与D
 ## DAY14原课程迁移041的priming
 
 新增128I selectedENSDF2015低位/反应/capture对象：评价保留(5,6,7)−、102/15.6位置/ECC与thesis/CPL不同，text和独立PDF表均核但不裁决物理拓扑。28checks分开parent/RIlimit/归一、理论CC/实验ECC/EKC及evaluatorassignederrors；不能按sameenergy搬数或借adopted覆盖primary。2012Di14身份PRC86,034302已核，body尚未读。正式Day15记录此priming/缺口，独立执行卡，不提前加分或进Day16。
+
+
+## DAY14原课程迁移042的priming
+
+2012PRC86,034302仅核metadata，选定合法API/PDF/OA/localmetadata路线未得body；不填图/数值或裁决2015对象冲突。14项设计比较只在声明projection下让三coarsegate support相同，full响应/likelihood未匹配；独立state-tag/orderedtiming有区分力但实际输入未给。Gaussian5%/FWHM11.17keV是设计要求非existingperformance。正式Day15记录priming/边界，独立执行本卡，不提前credit/开Day16。

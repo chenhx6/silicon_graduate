@@ -70,6 +70,9 @@ POST [DatasetFetchServlet](https://www.nndc.bnl.gov/ensdf/DatasetFetchServlet)�
 | N128-7 | Reaction102的CC.703为理论totalICC，XG ECC=.60(7)为实验total估计；capture102.344在L269.711下，CC.700为理论total而EKC=.55(11)是实验K-shell。两个实验alpha对象不同，不能混同K/total或将相同ECC跨primaryparent自动迁移。 | conversion-field-identity | direct-and-derived | reaction L269.57/G102.2 XG/S G; capture L269.711/G102.344 XG; reaction PDF3 double-dagger | true |
 | N128-8 | adopted167.368的175(15)ns与29.512(5)(E2)支属于该parent；其CC175.0在理论字段。下方137.851(3)4−的T1/2=.845(20)μs是另一parent。不得借这些寿命给225/285/1562算B；本轮不重算absoluteB。 | timing-parent-and-ICC-boundary | direct-and-derived | adopted L137.851 and L167.368/G29.512; capture corresponding lowlevelblocks | true |
 | N128-9 | getrefs将2012Di14识别为PRC86,034302 DOI10.1103/PhysRevC.86.034302；header“几乎同2012Wa27”中的该key在refs实际是Uoctupole论文，保留不静默改。2009header32MeV与reference-summary42MeV也并列，不借二级metadata裁决旧原件。 | reference-key-and-metadata-boundary | direct-and-derived | reaction header adoption comment; getrefs recid128053024 entries2012DI14/2012WA27/2009ZH51 | true |
+| N128-10 | 2012Di14的exactDOI/title/authors/PRC86(3),034302和2012-09-04身份已核；本轮API401、publisherPDF403、OpenAlex/S2无可用副本、选定arXiv0/Scholar失败，body未取得。310本地PDF的metadata检查未匹配该fullDOI，PRC105.034302误候选按卷/DOI排除；不建未读source、不以metadata裁决N128-4。 | exact-primary-access-and-fingerprint-boundary | direct-and-derived | getrefs2012DI14; exactCrossref10.1103/PhysRevC.86.034302; boundedaccess audit2026-10-16 | true |
+| N128-11 | 在本任务声明的selectedgraphs、忽略15.6观察且将两个近能102投影为同group时，756.5/764.7/117.8三门的101/102支持集在两拓扑都为{102}/{101,102}/{101}。这只限制coarse support的区分力，不证明actualcounts/angular/timinglikelihood相同，也不证明原detector看不见15.6。 | our-source-conditioned-observability-design | derived | N128-4 records; CPL printed082701-3 Fig4; DingPDF82 Fig6.5 | true |
+| N128-12 | 用printed节点差15.6keV作为nominal独立state-tag间隔，在另声明knowncenters/commonGaussianwidth/midpoint/balancedprior设计下，每类wrongtag≤5%要求σ≤4.74206keV、FWHM≤11.16671keV。非现有γ探测器或Ex-tag性能/实验CI；实际tag、tails/calbias/响应/Cov缺失。 | our-conditional-measurement-specification | derived | N128-4 lowlevelrecords; DingPDF78 endpoints; boundeddesigninput2026-10-16 | true |
 
 ## Theory/Analysis Exercise
 
@@ -92,3 +95,11 @@ P0：对象身份/哈希/原列与独立PDF表示已核；N128-4/9冲突在sourc
 - [[level-scheme-reconstruction]]、[[a130-thesis-evidence-matrix]]：低位/transitionidentity冲突与输入合同。
 - [[ding-2012-phd-thesis-127-128i-high-spin]]、[[wang-2010-128i-new-high-spin-level-scheme]]：primary对照。
 - [[tsukuba-127-128i-li7-28-32mev]]、[[128i]]：谱系与核素入口，未因database对象新造独立实验。
+
+## 2012原文未得后的最小判别设计
+
+本轮exactCrossref核2012Di14的题名/作者/PRC86/034302/2012-09-04；公开来源路线未取得body。不能把“曾尝试读取”写成全文已读。本地初次rg默认被Gitignore过滤，已用no-ignore重新枚举，再读310PDF文档metadata；丁兵另名PDF与thesis同hash/100页，PRC105.034302只是相同article-number的不同paper，未读其科学body。没有对原目录作“全球/本地全文不存在”断言，也不改raw/配置或绕验证。
+
+[[level-scheme-reconstruction]]“128I未定位置：三张门谱的区分力与最小独立tag”将不能获取primary之后的工作限定为设计，不编正文或数据。14项check只证明在明确粗化/selectedpath条件下三门support可相同，并计算一个自选Gaussianstate-tag要求；不把它升为fullresponse同值、现有detector性能或对任何图的裁决。G15.6只有record/未给RI也不自动意味着本任务已验证其observed状态；primary183下方未列的decay保持未知，不补成已测线。
+
+Decision: **limits** 用相同峰出现模式/混峰ICC单独定位parent；**supports** 将下一观测对准独立母态/末态或可解析的时间顺序。新10–12 true，旧1–9/review保持。原文与actualresponse/数据边界仍在，formal14/partial15不变。

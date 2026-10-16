@@ -8,15 +8,15 @@ updated: 2026-10-16
 
 ## Active handoff — DAY14 extended continuous study
 
-同run2026-10-14-day-14-02/session01a13a0e-e8bd-7251-b970-f6975679e281，goal/runactive。研究加时2026-10-16 15:00上海止、16:00交付；formal14 primedrecall/Herzáň七边35checks/21/24/REFLECT具备，completed14/partial15、officialnext14count13待最终一次只计14，不开Day16。
+同run2026-10-14-day-14-02/session01a13a0e-e8bd-7251-b970-f6975679e281，goal/runactive。研究加时2026-10-16 15:00上海止、16:00交付。Formal14 primedrecall/Herzáň七边35checks/21/24/REFLECT具备；completed14/partial15，officialnext14count13待最终一次只计14，不开Day16。
 
-041取得2015 selected128I ENSDF3对象：reaction230行全读，adopted/capture仅header/低记录，另reactionPDF6页的1–3/页2表核。28checks真实冲突：ENSDF G102在269.57/RI≤632/ECC.60(7)，285列15.6；Ding/CPL强102为285→183且.60(7)随强component。Text/PDF一致但同data，不能判哪图正确；评价低J保留5,6,7，errors由evaluator按RI区间赋，RI归一/CC-ECC-EKC/tauparent分开。新N1281–9/D12-33/W10I9–10true，旧review保持，144items44pages以actualvalidator核。新source/raw保留槽未填/实际对象只tmp。
+042 exact2012Di14 PRC86,034302 metadata核，但API401/PDF403/OA无副本/选定arxiv0/Scholarfailed，正文未读，不建空source/不裁决topology。Local初rg被ignore过滤已纠正；no-ignore346paths/310PDFmetadata，丁兵两个PDF同100页hash、PRC105.034302为误候选未读scientificbody，不作globalabsence。14design checks说明仅在selectedgraph/隐藏15.6/合102group投影下三门support同；不等full likelihood。独立Ex/state-tag nominal15.6keV的自选Gaussian5%要求FWHM≤11.1667keV，非existingperformance/CI。新N12810–12true、旧9/review保持，canonical3pages/147items44pages以validator核。
 
-旧2009 Ref16身份CPC33(S1)179–181/DOI33/S1/057已核，但官方连接/验证页/发现restricted仍无body。NNDCgetrefs已识别2012Di14=PRC86,034302 DOI10.1103/PhysRevC.86.034302，body未读，是下一最高信息route；header2012Wa27却指Uoctupole、2009beam32/42差别原样留，不静默改。实验页旧“期刊未得”标为10/12历史，CPL2010当前已读且共享谱系，时间窗/runIDs未解。
+Stable main / `Specify DAY14 iodine parent-state discrimination inputs`，actualchecks/H3/hash/push只content-checkpoint-042.json/publication-042.json。041真实ENSDF/primary102位置-ECC冲突仍待原2012body/数据；040及039/035–038已published，无新独立实验或actualσδ/B。
 
-Stable main / `Cross-check DAY14 iodine evaluated topology and field provenance`，actualchecks/H3/hash/push只content-checkpoint-041.json/publication-041.json。040/039及035–038已published。下一先clock/pool/primedrecall，再合法获取准确2012primary并读主线/关键图表，不能从NSR猜正文；<90min不新source/card，15:00后只closeout。
+下一先clock/pool，沿已读128I审计58.5“假设集是否完整”：旧H0/H2候选集是明示限制，genericM1(+E2)ΔI1及两companion是否stretched须分开；captureallowedset与reactiontrend也不是同种prior，不把条件唯一升级完整物理唯一。先保存primed问题，不补缺RADOresponse/Cov/新spin。<90min不新source/card，15:00止后只closeout。
 
-Farmer42019最近running/currentthreadrunning，Clock四项actualACK，无新研究session/goal/daily scheduler。Resume `codex resume 01a13a0e-e8bd-7251-b970-f6975679e281 -C /workspace/wiki -s danger-full-access -a never`；先run.json/continuation/clock。Preserve inheritedDay6–9/Day13/log/daemon/raw/PLAN/Bib/credentials/review，exactmanifest/H3非force发布。新A知识页需手动分类EOLhelper的REVIEW-UNSAFE，不让非零检查后误继续commit；分类有证据/H3通过后才push。
+Farmer42019最近running/currentthreadrunning，四ClockactualACK，无新研究session/goal/daily scheduler。Resume `codex resume 01a13a0e-e8bd-7251-b970-f6975679e281 -C /workspace/wiki -s danger-full-access -a never`；先run.json/continuation/clock。Preserve inheritedDay6–9/Day13/log/daemon/raw/PLAN/Bib/credentials/review，exactmanifest/H3非force发布；先检查工具exit再mutation，新A页EOL需明确归属分类。
 
 ## Previous active handoff — DAY13 continuous study reopened by user
 
