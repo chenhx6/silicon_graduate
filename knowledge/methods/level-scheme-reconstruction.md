@@ -3,7 +3,7 @@ type: method
 title: "从 γ 谱重建能级纲图的证据审计"
 aliases: [level scheme reconstruction, spectrum to level scheme evidence audit]
 created: 2026-10-13
-updated: 2026-10-15
+updated: 2026-10-16
 status: ai-draft
 review_status: unreviewed
 method_type: gamma-ray-spectroscopy
@@ -672,3 +672,38 @@ Fixed purecrossover时R(δ)=R0/(1+δ²)：未知dipoleδ只能下调R，不能�
 [71-check回执](../../outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/pr136-sameparent-strength.json)保留逐源行、梯度/方差项、SI系数与边界。独立σ在弱分母处可达约70%相对幅度，不能作完整似然/置信区间或称“已重现作者误差提取”。
 
 决定supports源表/图的条件内部一致性，revisesτ/ICC/completeinventory对所有strength quantities一概必需的说法，limits未知component/response和同source derivedratio作为模式独立证明。未重测B、未做真实L4fit、未在D4/D6的MR/shape-coexistence间选胜者。
+
+## 128I：58.5-keV局部三边与spin先验
+
+原DAY14的迁移练习沿[[ding-2012-phd-thesis-127-128i-high-spin]] D12-22–27的Fig6.2/Table6.1/PDF79论证。此前193Bi练习区分了lineidentity、energyclosure、multipolarity与Jπ；128I的实际三节点说明“伴随线已经找到”仍需核约束是否真的唯一。此为source-conditionedL2审计，formal21/24不变，不增加课程卡。
+
+### 三边的逐项证据
+
+| 边/原Table6.1端点 | 能量与relativeIγ | 角/多极性材料 | 符合与Jπ层级 |
+| --- | --- | --- | --- |
+| 225.9→167.4 | 58.5keV，Iγ5；Eγ−ΔE0 | RADO1.66(60)，作者明确四极ΔI2/偶极ΔI0不能据此分开 | source已放置并借旧低位输入；(6−)→(6−)是source建议label，本任务未取58component原门谱 |
+| 481.8→225.9 | 255.6keV，Iγ4；Eγ−ΔE−.3keV | RADO.92(20)，PDF79称偶极 | Fig6.2/Table6.1与同source符合/assignment链；(7−)→(6−)不是新独立spin测量 |
+| 481.8→167.4 | 314.3keV，Iγ6；Eγ−ΔE−.1keV | RADO.91(15)，PDF79称偶极 | 与上一支同parent；source图表/峰量共享acquisition，不能再计独立已知7anchor |
+
+表中Iγ以866.0=100归一，误差只给5–30%总体范围；能量误差只给.1–.5keV范围。三边triangle`255.6+58.5−314.3=−.2keV`是印刷数算术，不以它生成χ²/CI。即使取每条.1的半宽绝对值和.3也覆盖中央残差，但这不是实际共同误差分布。Fig6.2的226.0/481.7与Table225.9/481.8及正文旧225.6分别保存，不修原件或以浮点近似“拉平”。
+
+### 固定哪些输入，才剩哪个spin集合
+
+本任务先**条件固定**source采用的J(481)=7、J(167)=6；不在同一练习中把它们重新称为独立测定。对photon L≥1，exact条件是`abs(Ji−Jf)≤L≤Ji+Jf`；能量下降不要求自旋一定下降。
+
+| 所用材料/附加前提 | 中间Jx候选 | 解读 |
+| --- | --- | --- |
+| 58的局部H0=ΔJ0,L1 或 H2=absΔJ2,L2 | 6 或4/8 | 保留方向；没有先默删spin-up解 |
+| 再给314/255两支L1及上层7/下层6 | 6、8 | 7→8的偶极仍过triangle；不唯一 |
+| 再加source的随激发能增加spin不下降的局部prior | 6 | 这是反应布居倾向作的选择，不是exact selection rule |
+| 或再加原正文回述的Jx∈{5,6,7}历史prior | 6 | 旧Sakh/Nati原件本任务未读，不能另计独立核验 |
+
+Jx8只证明某套条件不够唯一，不是被实验支持的替代赋值或要求改sourceJ6。实际角分布/ADO对于不同spinsequence和feeding也可能不同；原response/netcounts/likelihood未得，本任务没有拟合它们，不能声称RADO统计上同样支持两解。E/M与parity仍需同一规范的转换/偏振/旧资料等，非三角条件自动给出。
+
+### 必要companion、falsifier与时间身份
+
+真正能改变局部判断的输入应对准未定量：独立J(225)或J(481)anchor，58的可靠E/M与mixing/内转换、匹配门/角响应下的spinsequence检验，或新的排他branch/级联直接约束这些节点。若58被可靠证实有stretchedE2 character且J(167)=6固定，sourceJ(225)=6需要重审；但仅给一个大RADO仍不满足前提。反之，独立确认58为M1会排除Jx8→6的纯L2方案，但M1本身的ΔJ0/1与其余材料也要一起看。
+
+175±15ns属于167.4的daughterisomer，不能给225或481的parent寿命/absoluteB。58的parentτ、conversion-correctedbranches、δ、响应/喂入和原共同Cov未得，L4notready。图6.3的星号污染、239.0/239.2标签差异与图6.5的低线/横轴标记都提示原图不能代逐门校准输入；不把未展示58cleancomponent称为absence或估计检出限。
+
+[16-check脚本](../../system/scripts/day14_ding128i_local_evidence.py)、[原表输入](../../outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/ding128i-local-evidence-input.json)和[审计](../../outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/ding128i-local-evidence-audit.json)保留sourcehash/Decimal残差/候选集合及null实际data。Decision: **revises** 把伴随线存在等同唯一Jπ的省略；**supports** 给定输入、exact约束、物理prior和sourceinterpretation分别列出。没有新spin/组态/shape判决或正式分数变化。

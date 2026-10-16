@@ -376,3 +376,8 @@ DAY14延期中已完成[[angular-distribution]]“有限几何：共同响应、
 ## DAY14预习038：经典方向与量子迹（无学分）
 
 Ref39书段本轮未得（Crossref过滤无item/宽匹配为无关文/同题期刊条目，两目录连接失败，publisher403），未猜ISBN/DOI/原书结论。L25 Eq42的Legendre输入下，独立22项符号推导解释q2/q4经典投影形式、量子离散迹/正交化的T4修正与低spin零范数；这是我们的解释，非已核作者code/1976书论证。正式Day15仍须记录priming独立完成卡，不给本预习信用或打开Day16。
+
+
+## DAY14原课程迁移039的priming
+
+Ding128I实际三边58.5/255.6/314.3与225.9/481.8/167.4核过：sourceADO歧义/两伴随dipole仍需旧资料或reactionspintrend，exacttriangle允许6/8不等后者被实验支持。16checks/逐边E/C/M/J矩阵和parent-vs-daughterτ边界已canonical；是原Day14迁移练习，不给正式Day15信用/沿用为其考试。正式15仍先保存自身primed回忆、matchedgeometry/gate/response核验，不开Day16。

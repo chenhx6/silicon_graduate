@@ -77,6 +77,10 @@ Matev2007局部算符/表检验完成后，选择Riley2001公开作者实验报�
 
 037发布后10:19上海重建池并核Day15卡，研究距离15:00仍约281分钟。连续性槽选择Ref39原近似说明；novelty不凑新书/核素。[来源前记录](20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/day15-reference39-before-discovery.md)冻结后才查外部目录，未将metadata当正文。选定路线未取到书段后，转为[量化前冻结](20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/classical-quantum-moments-before-derivation.md)的经典方向—量子迹解释，补“为何有这些有限J修正”的理解，不重复逐spin数字表。仍Day14/partial15，无Day16。
 
+### 第039批：128I实际三节点
+
+10:46上海重核clock，距研究截止约254分钟，返回原Day14从谱到纲图的实际证据迁移。先保存[通用primed回忆](20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/day14-ding-transfer-before-sources.md)，读Ding旧card去重后，再冻结[58.5原件前问题](20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/ding128i-58keV-before-raw.md)。旧矩阵只有ADO歧义摘要，未有三边/前提分解，因此选择此增量，不重复反应道/61rowcount或重评formal14。Day15仍partial，不开Day16。
+
 ## Sources and evidence
 
 | 来源 / 身份 | 本轮实际覆盖与locator | 证据分层与独立性 |
@@ -187,6 +191,12 @@ L25 publisher PDF6/HTML的Eq13确为2σ分母，Eq14是S=J(J+1)下的二/四阶�
 Crossref宽查询含NBS报告/会议文及Gelletly1977同题期刊条目，都不是Morinaga/Yamazaki1976原书；精确book/author过滤返回0。GoogleBooks和OpenLibrary各ConnectionError，ScienceDirect题名检索HTTP403，protected Bib无对应entry。所有请求均实际终态，不重启相同请求、不猜书ISBN/DOI或绕过验证。[访问边界](20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/ref39-access-boundary-038.json)及逐服务receipts保留；这只说明本轮选定路线未取得原书，不证明全球不存在/无机构权限。
 
 转用已得L25 publisher PDF19 AppendixA1 Eq42/HTML Equ42的直接Legendre定义，结合YA67-13的量子张量/参考。新L25-29明确经典投影形式是本任务独立解释，不归给未读Ref39或作者code。无新书source/no metadata-only空页，无新采集或实验重复计权。
+
+### 第039批：Fig6.2/Table6.1和真实spin论证
+
+[[ding-2012-phd-thesis-127-128i-high-spin]] raw100页、4045752bytes/SHA256ca7765ad…已核；本次只读PDF74–82相关章引言/placement/assignment及Figs6.2–6.5/Table6.1，并视觉核主要图/表，不声称100页再全读。实际58.5/255.6/314.3为225.9→167.4、481.8→225.9、481.8→167.4，RADO1.66(60)/.92(20)/.91(15)，括号Jπ和Iγliteral均保存（D12-22）。
+
+PDF79先回述旧(5,6,7)−/M1资料，再明确合用reactionspintrend、已知anchor与其它ADO给建议标签，不把6赋值仅写成两个偶极的exact结果（D12-23）。表能量/强度误差是范围，Fig6.2的226.0/481.7与表225.9/481.8、正文旧225.6保留。Fig6.3标污染星号，Fig6.5的低线101.3/102.2与横轴475–550keV标记不一致，不能据此直接digitize calibratedenergy或补58独立raw门谱（D12-24/26）。旧Sakh/Nati原文仍未读，无新独立采集。
 
 ## Theory/analysis exercise
 
@@ -475,6 +485,14 @@ Eq19字面theta在Eq18后缺lab标记（PDF/HTML一致）。若把它当lab可�
 
 量子monic quartic平方迹范数为4S(S−2)(4S−3)(4S−15)/11025；J<2允许spin给零范数，不能作rank4归一。经典范数64S4/11025是其最高次项。该范数是迹内积，不是实验variance/χ²。所有关系为符号恒等式，覆盖所有整数N，不是多次换spin抽样；仅解释数学形式，未认证book/actualcode近似。
 
+### 第039批：16项真实三边/条件候选集
+
+[量化前冻结](20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/ding128i-local-before-calculation.md)、[原表输入](20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/ding128i-local-evidence-input.json)、[代码](../../system/scripts/day14_ding128i_local_evidence.py)与[16-check审计](20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/ding128i-local-evidence-audit.json)将literal energy与条件selection区分。完整逐边证据矩阵在[[level-scheme-reconstruction]]“128I：58.5-keV局部三边与spin先验”。
+
+三边Eγ−ΔE为0/−.3/−.1keV，triangle为−.2keV；不从.1–.5能量误差范围补perlineσ/Cov/χ²。第一版本任务断言误把314残差期望0，自测捕获后只改为−.1，原source/input不改，失败receipt保留。
+
+固定source的parent7/anchor6，58的H0=L1ΔJ0给6、H2=L2absΔJ2给4/8；两伴随L1加入后剩6/8。再加作者reactionspintrend或其引用历史(5,6,7)prior才剩6。J8是exacttriangle不足唯一的反例，不是实测替代spin或同RADOlikelihood支持。原netcounts/response/Σ未得，不能判实际两解等好。原175±15ns为daughter167.4，不能给225/481 parentabsoluteB（D12-25/27）。
+
 ## Counter-evidence and missing companion observables
 
 HE15-9的实际未定双线是核心反例：energy sum、共享R/A和假设的ΔI=2均不足以裁决order。若一条线出现可独立定位的旁路或延迟顺序，应重审中间level；source仍保留括号Jπ与(E2)。HE15-5的quadruplet限制“一个峰是一条γ”的简化；干净622.4直接分支门与323.4级联门的299-keVcomponent差异可能迫使拆峰，但必须控制622/626门纯度、feeding、response和random。
@@ -568,6 +586,12 @@ Ref39原书对应段、code参数定义/约定与actualpopulation/data仍缺；�
 ### 第038批：形式匹配不等于作者采用
 
 同题期刊条目或索引无结果都不提供原书近似声明；目录网络失败也不是科学反证。独立证明q4有经典Legendre形式仍不能推断1976书/2025代码实现，不能据它修订实验σ/δ或还原实际角动量方向。量子/经典测度的四阶矩不同与低spin零范数给明确适用边界。Ref39原段、implementation和actualresponse/Cov仍缺，继续优先能改变理解或原Day14证据判断的路线。
+
+### 第039批：伴随边存在仍须核唯一性
+
+三节点已经有真实companion，不等于它们在指定前提下只许一个spin；能量下降不要求spin精确下降。原文还合用了旧低位输入和reaction先验，均须作为依赖列出。选择定则允许的J8不代表其角响应与sourceRADO相容，缺actualresponse/likelihood时不做新assignment。
+
+最高信息falsifier是独立spinanchor或58的可靠E/M/混合/转换、匹配门下spinsequence检验；若58被可靠证明stretchedE2且anchor6固定，中间source6需重审。只有大RADO不够。Parentτ/branch/ICC/δ/feeding/response与Cov缺，不能借daughter175ns或relativeIγ计算B。图中未给clean58component不是absence/upperlimit；保留污染/axis与label差异。
 
 ## Knowledge Impact and Learning Decision
 
@@ -664,6 +688,10 @@ Decision: **revises** “打印多项式必为exact tensor、同sigma/J必为同
 ### 第038批后的认识决定
 
 Decision: **supports** 用投影测度、离散迹和低rank正交理解finite-J修正，**limits** 公式形状/同题metadata作为作者原论证或代码证据。没有把推导变成实验结果/shape证据，也未给Day15信用。正式21/24、completed14/partial15、官方课程state和原review保持。
+
+### 第039批后的认识决定
+
+Decision: **revises** “伴随线已见所以Jπ唯一”的省略，**supports** givenanchors/exactselection/反应prior/历史输入/source建议分别记账；**limits** energyclosure、relativeIγ与daughterτ直接升级为parentstrength。A130矩阵新增三节点行以接回论文问题，不将Herzáň/Ding不同实验的相似方法当重复测量。正式21/24、completed14/partial15和课程state保持。
 
 ## Durable knowledge delta
 
@@ -3777,6 +3805,91 @@ Decision: **supports** 用投影测度、离散迹和低rank正交理解finite-J
           "locator": "YA67-13"
         }
       ]
+    },
+    {
+      "knowledge": "knowledge/sources/ding-2012-phd-thesis-127-128i-high-spin.md",
+      "summary": "核58.5/255.6/314.3原表三边、Fig6.2与PDF79论证前提、标签/axis与parentτ边界，新增条件候选集而非实验重指认。",
+      "anchor": "DAY14三节点局部证据：58.5-keV与spin先验",
+      "sources": [
+        {
+          "path": "knowledge/sources/ding-2012-phd-thesis-127-128i-high-spin.md",
+          "locator": "D12-22"
+        },
+        {
+          "path": "knowledge/sources/ding-2012-phd-thesis-127-128i-high-spin.md",
+          "locator": "D12-23"
+        },
+        {
+          "path": "knowledge/sources/ding-2012-phd-thesis-127-128i-high-spin.md",
+          "locator": "D12-24"
+        },
+        {
+          "path": "knowledge/sources/ding-2012-phd-thesis-127-128i-high-spin.md",
+          "locator": "D12-25"
+        },
+        {
+          "path": "knowledge/sources/ding-2012-phd-thesis-127-128i-high-spin.md",
+          "locator": "D12-26"
+        },
+        {
+          "path": "knowledge/sources/ding-2012-phd-thesis-127-128i-high-spin.md",
+          "locator": "D12-27"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/methods/level-scheme-reconstruction.md",
+      "summary": "保存真实三节点的逐边证据矩阵、literal能量残差、exactselection/反应prior/历史输入分层及最小falsifier，不借daughterτ给parentB。",
+      "anchor": "128I：58.5-keV局部三边与spin先验",
+      "sources": [
+        {
+          "path": "knowledge/sources/ding-2012-phd-thesis-127-128i-high-spin.md",
+          "locator": "D12-22"
+        },
+        {
+          "path": "knowledge/sources/ding-2012-phd-thesis-127-128i-high-spin.md",
+          "locator": "D12-23"
+        },
+        {
+          "path": "knowledge/sources/ding-2012-phd-thesis-127-128i-high-spin.md",
+          "locator": "D12-24"
+        },
+        {
+          "path": "knowledge/sources/ding-2012-phd-thesis-127-128i-high-spin.md",
+          "locator": "D12-25"
+        },
+        {
+          "path": "knowledge/sources/ding-2012-phd-thesis-127-128i-high-spin.md",
+          "locator": "D12-26"
+        },
+        {
+          "path": "knowledge/sources/ding-2012-phd-thesis-127-128i-high-spin.md",
+          "locator": "D12-27"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/projects/a130-thesis-evidence-matrix.md",
+      "summary": "将58.5局部的伴随线/条件spin唯一性/必要观测和source依赖写为A130矩阵行，连接方法与核素入口。",
+      "anchor": "128I 58.5-keV局部：伴随线与spin先验",
+      "sources": [
+        {
+          "path": "knowledge/sources/ding-2012-phd-thesis-127-128i-high-spin.md",
+          "locator": "D12-22"
+        },
+        {
+          "path": "knowledge/sources/ding-2012-phd-thesis-127-128i-high-spin.md",
+          "locator": "D12-23"
+        },
+        {
+          "path": "knowledge/sources/ding-2012-phd-thesis-127-128i-high-spin.md",
+          "locator": "D12-25"
+        },
+        {
+          "path": "knowledge/sources/ding-2012-phd-thesis-127-128i-high-spin.md",
+          "locator": "D12-27"
+        }
+      ]
     }
   ]
 }
@@ -3925,6 +4038,8 @@ Danko99primary合法OA/publicPDF/官方API/repo均未提供正文（403HTML/401J
 
 第038批在`knowledge/sources/lauritsen-2025-gamma-angular-formalism-tracking-arrays.md`新增L25-29与“Ref39检索与经典权重的解释边界”（publisher PDF19 Eq42/PDF6 Eq14）；在`knowledge/methods/angular-distribution.md`新增“经典方向权重与量子迹：四阶修正从何而来”，保存经典/量子mu矩、Gram正交系数、范数分解及book访问/作者归因边界。新知已在canonical，不以outputs目录作唯一知识副本。
 
+第039批在`knowledge/sources/ding-2012-phd-thesis-127-128i-high-spin.md`新增D12-22–27及“DAY14三节点局部证据：58.5-keV与spin先验”，原Table/Fig/论证locator精确保留；在`knowledge/methods/level-scheme-reconstruction.md`写入“128I：58.5-keV局部三边与spin先验”，保存逐边E/C/M/J证据矩阵、候选集、falsifier与lifetime身份；在`knowledge/projects/a130-thesis-evidence-matrix.md`新增“128I 58.5-keV局部”行。可复用知识已canonical，代码/日报不是唯一副本；旧21行flags/review/raw保持。
+
 ## Open questions and belief revision
 
 1. 哪个旁路、time/tag或独立spin anchor能裁决393/394的顺序？重复同一能量和不能裁决。
@@ -3944,6 +4059,8 @@ Danko99primary合法OA/publicPDF/官方API/repo均未提供正文（403HTML/401J
 
 第038批仍需Ref39对应原文或actualcode才能核对作者近似的归因；本轮停止扩展相同访问失败路线。当前finite-J物理图像已得到解释，下一候选优先回到原Day14从谱到纲图的真实证据迁移/延迟回忆，避免继续用同一公式换数字填窗口。
 
+第039批新问题：实际58的multipolarity/独立spin材料能否把source采用的历史prior/reactiontrend变为独立判别？当前旧primary和actual门/角谱未得。相邻102.2/101.3的lineidentity与表/图axis边界是下一潜在高信息route，须另冻结来源前问题，不直接继承“同能量同transition”。
+
 ## L0–L4 state
 
 最新moment放宽与图仍为L2 source-conditioned分析；fullbranch/转换/response/Cov不全，真实167Tm experimental refit仍not-ready，不以高精度计算冒充L4或新实测分支。
@@ -3962,6 +4079,8 @@ Danko99primary合法OA/publicPDF/官方API/repo均未提供正文（403HTML/401J
 第037批为L1字面/原定义核验与L2数学一致性审计，58checks不等于experimentalL4或新的σ/δ。三页canonical旧review/flags保持，Formal14与Day15无信用状态不变。
 
 第038批是L1访问/直接多项式输入核查与L2符号推导；原书未读、未新建booksource、无experimentalL4。数学Gram范数与实验误差分开，正式卡和Day15信用状态不变。
+
+第039批为L1本地raw/图表/正文核验和L2真实source条件选择集/算术，无actualspin重拟或experimentalL4；没有把100页重复读或16checks作新学分，formal14/partial15保持。
 
 ## Verification and continuation
 
@@ -4243,3 +4362,9 @@ Farmer42019于10:13上海核running/currentthreadrunning，未新session/goal或
 Farmer42019于10:39上海核running/currentthreadrunning，未新session/goal或重启daily scheduler。Stablepointer main / `Explain DAY14 classical and quantum alignment weights`，actualH3/hash/push只publication-038.json。原书对应段仍未读，未赋同题期刊条目未经核实的genre或内容；所有discovery handle均实际终态。
 
 当前仍active，研究2026-10-16 15:00止、16:00交付；下一actualclock/候选池后优先原Day14真实纲图证据的迁移/延迟回忆，Ding127/128I为既定另anchor候选，先primed回忆/重叠和真实图表定位。既有129项是累计本run写回，不作为预习信用或新独立实验数量。Preserve inherited/raw/PLAN/Bib/review，显式manifest/H3非force发布。
+
+### 第039批验收与续接
+
+16项实际source三边/Decimal残差/selection与prior分解检查最终exit0，首次断言错误exit1及修复已留证。report/card/writeback valid，唯一block132items/41changedknowledge页；Ding旧21行/flags与review保持，新22–27true，原三页只增量/日期更新。rawmetadata/PLAN/Bib/source/input哈希、AST、state14/count13通过。`wiki_lint.py --fail-on error`实际exit0，0errors/141warnings（112citekeys/26rawslots/3reactionparser），`git diff --check`、boundary/preflight exit0。EOLexit1仅保留本批3页substantive，0restore/unsafe。
+
+Farmer42019于11:07上海核running/currentthreadrunning，未新session/goal或重启daily scheduler。Stablepointer main / `Audit DAY14 iodine local spin-assignment evidence`，actualH3/hash/push只publication-039.json。当前仍active，研究2026-10-16 15:00止、16:00交付；下一clock/pool可继续101/102身份/真实历史方案与逐gate材料，先保存独立primed问题、不把同峰和图轴作校准数据。Formal21/24、completed14/partial15不变；preserve inherited/raw/PLAN/Bib/review，显式manifest/H3非force发布。

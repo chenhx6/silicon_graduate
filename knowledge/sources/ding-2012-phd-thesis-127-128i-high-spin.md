@@ -3,7 +3,7 @@ type: source
 title: "丁兵 2012 博士论文：过渡区核 127, 128I 高自旋态能级结构研究"
 aliases: ["丁兵2012博士论文", "Ding2012Thesis", "High-spin studies of transitional nuclei 127, 128I"]
 created: 2026-09-02
-updated: 2026-10-12
+updated: 2026-10-16
 status: ai-draft
 review_status: unreviewed
 source_type: thesis
@@ -98,6 +98,12 @@ tags: [high-spin, transitional-nuclei, iodine-isotopes, decoupled-band, gamma-so
 | D12-19 | The thesis publication list also includes Wang et al. 2010, “A New High-Spin Level Scheme of 128I”; Crossref verifies `Chinese Physics Letters` 27(8), 082701 and DOI `10.1088/0256-307X/27/8/082701`. The publisher access probe on 2026-10-12 returned a restricted status, so this related publication was not read or used to claim level revisions; it is conservatively not counted as an independent acquisition. | synthesis | direct | PDF p.99; Crossref DOI 10.1088/0256-307X/27/8/082701 | true |
 | D12-20 | The thesis reports the `127I` experiment as `67×10^6` `γ-γ-t` events with a 100-ns coincidence-time window and `3×10^6` X-γ events; its `128I` chapter states that `127I` and `128I` are different evaporation channels from the same fusion-evaporation experiment and use the same offline analysis method. | experimental-fact | direct | PDF p.57 (printed p.49); PDF pp.75-76 (printed pp.67-68) | true |
 | D12-21 | A reproducible text extraction of Table 6.1 yields 61 rows containing a transition-energy and level arrow on PDF pp.78-79. The earlier 20-level/31-transition summary was not located as an explicit total in those chapter pages; whether it denotes a subset or reflects an earlier source-page error remains unresolved. | synthesis | direct | PDF pp.78-79, Table 6.1 | true |
+| D12-22 | Table6.1把58.5/255.6/314.3分别列为225.9→167.4、481.8→225.9、481.8→167.4；Iγ为5/4/6、RADO为1.66(60)/.92(20)/.91(15)，Jπ箭头为(6−)→(6−)/(7−)→(6−)/(7−)→(6−)。这些表行与括号标签不能当本任务重拟的新观测。 | literal-transition-and-assignment-crosswalk | direct | PDF78 Table6.1 rows58.5/255.6/314.3; PDF77 Fig6.2 | true |
+| D12-23 | PDF79先引用旧167.4(6−)175±15ns、225.6/269.6的(5,6,7)−/M1资料，再明确结合反应布居中spin随激发能增大倾向、ADO与其它线作建议赋值；58.5的ΔI2四极/ΔI0偶极歧义及314/255偶极被一同讨论。旧Sakh/Nati原件本任务未读，不能只将6赋值归因于两个ADO或计独立复核。 | source-reasoning-and-prior-dependency | direct-and-derived | PDF79 printed71 paragraphs below Table6.1 | true |
+| D12-24 | 原Table能量误差只给.1–.5keV、强度误差5–30%且866=100；Fig6.2标226.0/481.7，Table为225.9/481.8，正文回述旧225.6。本任务保留这些literal差异；三边Eγ−ΔE为0/−.3/−.1keV，255.6+58.5−314.3=−.2keV，不补每行std/Cov或χ²。 | source-label-and-our-arithmetic-boundary | direct-and-derived | PDF77 Fig6.2; PDF78–79 Table6.1 and footnotes; PDF79 body | true |
+| D12-25 | 条件固定source采用的parent7/anchor6并把314/255均当L1时，exacttriangle允许中间J6和J8；加源reactionspintrend或所引用历史(5,6,7)先验才只留6。J8只是本任务的selection-rule反例，不是其被实验支持或重指认；源actualangularresponse/likelihood仍缺。 | our-conditional-constraint-audit | derived | PDF78 Table6.1 three local rows; PDF79 assignment discussion | true |
+| D12-26 | Fig6.3为117.8/641.2/239.0 gates且星号为污染，图文例不提供本任务可重放的58.5逐component净峰/Σ。Fig6.5用小平面detector分101.3/102.2并比较756.5/764.7/117.8门，但原横轴印475–550、能量keV与这些低线标签不一致；保留原图、不据该轴直接digitize低线能量或补校准。 | gate-component-and-figure-axis-boundary | direct-and-derived | PDF80 Fig6.3 and text; PDF82 Fig6.5 | true |
+| D12-27 | 原175±15ns属于daughter167.4的isomer，当前局部没有225.9/481.8的parentτ；relativeIγ亦非含转换的branch概率。58的absoluteB/δ需parentτ/分支/ICC/响应等实际输入，不能借isomerτ或从ADO表补出。 | parent-identity-and-strength-readiness | direct-and-derived | PDF79 first paragraph; PDF78–79 Table6.1 and footnote b | true |
 
 ### 2026-10-12 reaction-channel evidence addendum
 
@@ -191,3 +197,13 @@ P0: none remaining after source-level correction; all source claims still retain
 ## Non-source Notes and Follow-up
 
 - 本学位论文提供了较详尽的实验背景介绍（包含熔合蒸发反应截面、符合线路、DCO/ADO 理论基础）与数据图表；用于方法学或论文写作时，应优先引用实际 ADO 表格和原始能级纲图。
+
+## DAY14三节点局部证据：58.5-keV与spin先验
+
+2026-10-16原DAY14证据迁移练习：来源前primed回忆先保存，再读旧card/核raw SHA256；本轮读PDF74–82对应章引言、placement/assignment与Figures6.2–6.5/Table6.1相关段，并对主要图表视觉核验。不声称100页重新全读，也不以新练习加正式成绩。原raw4045752bytes/SHA`ca7765ad962ea0c106791532f5a7d9f359533d25bb0170f03197bfec414be5c7`不改。
+
+本次增量不同于旧D12-17的“RADO有歧义”：把58.5的具体parent/daughter、共同481.8上层的314.3/255.6三条边与Fig6.2、Table6.1和PDF79论证绑定。原文同时引旧低位资料和reaction-spin增长倾向。若只给exactradiativetriangle条件，7→8的L1即使能量下降也允许，故两伴随偶极本身不唯一选中J6。加入已标明的历史prior或source reactiontrend则保留6，这解释了source采用多项材料的依赖；不提出J8新experimentalassignment。
+
+[[level-scheme-reconstruction]]“128I：58.5-keV局部三边与spin先验”保存16项条件核验、逐边证据/parentstrength边界和falsifier。表/图节点与能量有细微literal差异，未静默修原件；PDF82 Fig6.5的energy-axis标记亦保持，不能拿图上475–550当101/102物理能量作数字拟合。OldSakh/Nati原件、逐门counts/response/Cov未恢复，同一thesis/acquisition与表中spin不计为独立数据。
+
+Agent self-audit：D12-22–27 true，旧1–21/原review保持。初次本任务断言误将314.3−(481.8−167.4)记0，自测捕获后仅修断言为−.1；source/input原值不改。Decision: **supports** 合并能量/placement/角数据/旧anchor的分层链；**limits** selectiontriangle或一个ADO值直接推出唯一Jπ、相对强度/isomerτ推出parentabsoluteB。科学边界可发布，不代表独立重测或正式论文裁决。

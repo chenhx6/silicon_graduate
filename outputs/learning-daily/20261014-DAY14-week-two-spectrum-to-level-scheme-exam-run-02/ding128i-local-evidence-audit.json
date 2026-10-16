@@ -1,0 +1,190 @@
+{
+  "kind": "published local scheme plus conditional selection-rule compatibility audit",
+  "checks": {
+    "source_hash": true,
+    "literal_energy_residuals_retained": true,
+    "triangle_central_residual_not_silently_zeroed": true,
+    "central_triangle_below_even_smallest_sum_halfwidth": true,
+    "figure_table_label_difference_preserved": true,
+    "H0_H2_declared_sets": true,
+    "dipole_companions_allow_both_J6_and_J8": true,
+    "J7_to_J8_dipole_allowed_while_energy_falls": true,
+    "explicit_nondecreasing_excitation_spin_prior_selects6": true,
+    "separate_historical_prior_selects6": true,
+    "historical_primary_not_newly_verified": true,
+    "all_adopted_spins_and_parities_tentative": true,
+    "daughter_isomer_lifetime_not_parent_lifetime": true,
+    "no_ratio_threshold_or_likelihood_used": true,
+    "relative_intensity_not_branch_probability": true,
+    "no_raw_counts_or_actual_spin_inferred": true
+  },
+  "check_count": 16,
+  "passed": true,
+  "inputs": {
+    "kind": "literal local scheme plus explicitly stated spin-constraint contracts, no angular likelihood",
+    "source": {
+      "path": "raw/papers/degree dissertation/丁兵 - 博士论文.pdf",
+      "sha256": "ca7765ad962ea0c106791532f5a7d9f359533d25bb0170f03197bfec414be5c7"
+    },
+    "nodes": [
+      {
+        "id": "L167",
+        "E_keV": "167.4",
+        "adopted_spin": 6,
+        "parity": "-",
+        "tentative": true,
+        "role": "daughter isomer anchor",
+        "half_life_ns": "175",
+        "half_life_quoted_error_ns": "15"
+      },
+      {
+        "id": "L226",
+        "E_keV": "225.9",
+        "adopted_spin": 6,
+        "parity": "-",
+        "tentative": true,
+        "role": "58.5 parent",
+        "half_life_ns": null
+      },
+      {
+        "id": "L482",
+        "E_keV": "481.8",
+        "adopted_spin": 7,
+        "parity": "-",
+        "tentative": true,
+        "role": "common feeder",
+        "half_life_ns": null
+      }
+    ],
+    "rows": [
+      {
+        "id": "D12T6p70r58",
+        "E_gamma_keV": "58.5",
+        "I_gamma_literal": "5",
+        "R_ADO_literal": "1.66(60)",
+        "parent": "L226",
+        "daughter": "L167",
+        "spin_arrow_literal": "(6-) -> (6-)",
+        "source": "PDF78 Table6.1 row58.5",
+        "kind": "source ambiguity H0 dipole deltaI0 versus H2 quadrupole deltaI2"
+      },
+      {
+        "id": "D12T6p70r255",
+        "E_gamma_keV": "255.6",
+        "I_gamma_literal": "4",
+        "R_ADO_literal": "0.92(20)",
+        "parent": "L482",
+        "daughter": "L226",
+        "spin_arrow_literal": "(7-) -> (6-)",
+        "source": "PDF78 Table6.1 row255.6",
+        "source_interpretation": "dipole, PDF79 discussion"
+      },
+      {
+        "id": "D12T6p70r314",
+        "E_gamma_keV": "314.3",
+        "I_gamma_literal": "6",
+        "R_ADO_literal": "0.91(15)",
+        "parent": "L482",
+        "daughter": "L167",
+        "spin_arrow_literal": "(7-) -> (6-)",
+        "source": "PDF78 Table6.1 row314.3",
+        "source_interpretation": "dipole, PDF79 discussion"
+      }
+    ],
+    "figure_node_labels_keV": {
+      "L226": "226.0",
+      "L482": "481.7"
+    },
+    "historical_node_label_in_body_keV": "225.6",
+    "energy_uncertainty_range_keV": [
+      "0.1",
+      "0.5"
+    ],
+    "relative_intensity_reference": "866.0-keV = 100; quoted intensity errors 5-30 percent",
+    "anchor_J_given": 6,
+    "common_feeder_J_given": 7,
+    "historical_prior_J_values": [
+      5,
+      6,
+      7
+    ],
+    "H0": {
+      "L": 1,
+      "deltaI": 0
+    },
+    "H2": {
+      "L": 2,
+      "deltaI": 2
+    },
+    "actual_net_gate_counts": null,
+    "actual_angular_response": null,
+    "actual_joint_covariance": null,
+    "true_spin_inferred_by_this_task": null,
+    "fig6_5_axis_literal": "energy(keV) ticks475..550, lowgamma labels101.3/102.2; no calibrateddigitization",
+    "historical_primary_ref_bodies_checked": false
+  },
+  "central_energy_crosscheck": [
+    {
+      "id": "D12T6p70r58",
+      "transition": "L226->L167",
+      "E_gamma_keV": "58.5",
+      "level_difference_keV": "58.5",
+      "gamma_minus_level_difference_keV": "0.0",
+      "R_ADO_literal": "1.66(60)",
+      "source": "PDF78 Table6.1 row58.5"
+    },
+    {
+      "id": "D12T6p70r255",
+      "transition": "L482->L226",
+      "E_gamma_keV": "255.6",
+      "level_difference_keV": "255.9",
+      "gamma_minus_level_difference_keV": "-0.3",
+      "R_ADO_literal": "0.92(20)",
+      "source": "PDF78 Table6.1 row255.6"
+    },
+    {
+      "id": "D12T6p70r314",
+      "transition": "L482->L167",
+      "E_gamma_keV": "314.3",
+      "level_difference_keV": "314.4",
+      "gamma_minus_level_difference_keV": "-0.1",
+      "R_ADO_literal": "0.91(15)",
+      "source": "PDF78 Table6.1 row314.3"
+    }
+  ],
+  "triangle_residual_keV": "-0.2",
+  "sum_three_possible_energy_halfwidth_range_keV": [
+    "0.3",
+    "1.5"
+  ],
+  "no_chi2_or_confidence_from_ranges": true,
+  "spin_sets": {
+    "H0": [
+      6
+    ],
+    "H2_before_companions": [
+      4,
+      8
+    ],
+    "exact_triangles_with_given_parent7_anchor6": [
+      6,
+      8
+    ],
+    "plus_source_reaction_spin_trend": [
+      6
+    ],
+    "plus_historical_5_6_7_prior": [
+      6
+    ]
+  },
+  "input_sha256": "614701759fa754ee1ff16ff4ac76e3d06dd3a278728a4000901096ebc49e0d32",
+  "new_experimental_assignment": null,
+  "limitations": [
+    "given feeder7/anchor6 and source dipole interpretation remain conditioned inputs",
+    "candidate J8 is compatibility counterexample, not evidence or a proposed reassignment",
+    "reaction spin trend is a physical prior, not an exact selection rule",
+    "historical reference bodies, raw component spectra, timing and covariance not recovered",
+    "range-only energy/intensity errors do not define a likelihood or CI",
+    "daughter isomer lifetime cannot supply the two parents' transition rates"
+  ]
+}
