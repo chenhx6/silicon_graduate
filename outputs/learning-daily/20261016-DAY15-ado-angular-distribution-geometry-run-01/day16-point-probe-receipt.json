@@ -1,0 +1,51 @@
+{
+  "stage": "scratch prototype, not final validated source reanalysis",
+  "first_attempt": {
+    "exit_code": 1,
+    "error": "ModuleNotFoundError: sympy; no numeric result produced"
+  },
+  "implementation_adjustment": "self-contained exact-factorial Racah CG sum in the same frozen Condon-Shortley convention; no physics/sign/sigma/ratio change",
+  "current_exit": 0,
+  "result": {
+    "R_chosen": 0.4062005480236296,
+    "coeff_numerator": [
+      0.0036224402083479684,
+      -0.008056482443155925,
+      0.006922436804921226
+    ],
+    "coeff_denominator": [
+      0.008917861450391846,
+      0.006488398328245755,
+      0.008803926631209432
+    ],
+    "delta_a_second_root": 3.1952146984832126,
+    "atan_delta_deg": 72.62154906453404,
+    "cases": {
+      "pureE1": {
+        "R": 0.4062005480236296,
+        "P_singles": 0.3434287074784541,
+        "P_POL_DIR": 0.5604081304753572,
+        "P_DIR_POL": 0.5604081304753572
+      },
+      "pureM1": {
+        "R": 0.4062005480236296,
+        "P_singles": -0.3434287074784541,
+        "P_POL_DIR": -0.5604081304753572,
+        "P_DIR_POL": 0.5604081304753572
+      },
+      "mixed_exact_root": {
+        "R": 0.4062005480236297,
+        "P_singles": 0.26900590118692597,
+        "P_POL_DIR": 0.3849487877252732,
+        "P_DIR_POL": 0.2088207279256314
+      },
+      "mixed_source_angle": {
+        "R": 1.3555879165648927,
+        "P_singles": -0.17771713473677875,
+        "P_POL_DIR": -0.4988269231825815,
+        "P_DIR_POL": 0.6759599273829437
+      }
+    }
+  },
+  "error": ""
+}

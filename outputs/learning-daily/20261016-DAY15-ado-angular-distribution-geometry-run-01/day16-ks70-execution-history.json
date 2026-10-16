@@ -1,0 +1,37 @@
+{
+  "attempts": [
+    {
+      "exit_code": 1,
+      "stage": "strict all-fields error-rounding assumption",
+      "audit": "day16-ks70-first-unit-audit.json",
+      "handling": "source values/tolerance unchanged; central transform separated from uncertainty-format diagnostic"
+    },
+    {
+      "exit_code": 1,
+      "stage": "NumPy bool output serialization",
+      "handling": "explicit native float/bool cast; no physics/data change"
+    },
+    {
+      "exit_code": 0,
+      "stage": "final calculations/outputs/figure",
+      "scientific_boundaries": [
+        "620.2 quoted-error precision not fully closed",
+        "actualjointCov absent, preimages notCI",
+        "TableIII summaries notindependentdata"
+      ]
+    }
+  ],
+  "fig_QA": {
+    "source_exit": 0,
+    "alignment_exit": 0,
+    "glyph_exit": 0,
+    "minimum_pt": 7,
+    "collision_exit": 0,
+    "collision_fail": 0,
+    "collision_warn": 0,
+    "source_warnings": [
+      "PNG_preview_noTIFF",
+      "300dpi_preview_not600"
+    ]
+  }
+}

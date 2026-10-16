@@ -1,0 +1,66 @@
+{
+  "data_identity": "DAY16-PREVIEW-D96-5-4-2-POINT-MODEL-01",
+  "run_day_index": 15,
+  "preview_card": 16,
+  "formal_day16_credit": false,
+  "kind": "independent point-response calculation motivated by Droste1996 Fig7; not experimental data or authors FORTRAN replay",
+  "spins": [
+    5,
+    4,
+    2
+  ],
+  "initial_density": "diagonal finite Gaussian p(M0) proportional exp(-M0^2/(2*sigma^2))",
+  "sigma_over_I0": 0.3,
+  "sigma": 1.5,
+  "angle_unit": "degree externally, radian in Wigner functions",
+  "dco_chosen_convention": "R*=W00(gamma1 theta0,gamma2 theta90)/W00(gamma1 theta90,gamma2 theta0); not yet independently mapped to Ref1 Kramer1989 definition",
+  "pdco_geometry": {
+    "theta1": 90,
+    "phi1": 0,
+    "theta2": 90,
+    "phi2": 180,
+    "note": "use physical opposite directions; sourceFig7 phi0 maps to180 by stated thetaPOL90 symmetry, to be checked numerically"
+  },
+  "reference_gamma2": {
+    "multipole": "E2",
+    "spin_path": "4 to2",
+    "amplitude": 1
+  },
+  "first_gamma_candidates": [
+    "pureE1,5 to4,parity-changing hypothesis",
+    "M1+E2,5 to4,parity-conserving hypothesis; define delta_a=a(E2)/a(M1) in this implementation"
+  ],
+  "transition_kernel": "sqrt((2L+1)/(8*pi))*CG(JfMf,Lmu|JiMi)*Dconjugate^L_mu,lambda(phi,theta,0)*eta_T(lambda)",
+  "helicity_factor": {
+    "E": 1,
+    "M": "lambda"
+  },
+  "d_convention": "exp(-i theta Jy), d^1_(0,+1)=+sin(theta)/sqrt2; CG Condon-Shortley",
+  "linear_analyzer_amplitude": "(-exp(i*psi)*A_plus + exp(-i*psi)*A_minus)/sqrt2; psi0 is electric field in emission plane",
+  "normalization": "individual multipole channel integrates to identity after angular/helicity sum; normalized mixed amplitudes when comparing probabilities",
+  "source_amplitude_note": "D96Eq5 has i^(L+delta_TM); M1 andE2 both i^2. Exact inter-source delta symbol/phase mapping remains pending original KS70. Numeric resemblance alone will not establish it.",
+  "source_printed_model_benchmarks": {
+    "R_DCO_approx": 0.4,
+    "atan_delta_degrees_approx": -70,
+    "P_gamma1_singles_E1_mixed": [
+      0.34,
+      0.27
+    ],
+    "P_POL_DIR_E1_mixed": [
+      0.56,
+      0.44
+    ],
+    "P_DIR_POL_E1_mixed": [
+      0.56,
+      0.17
+    ],
+    "scope": "author calculation, no quoted counting/fit covariance; rounded values, not measured points"
+  },
+  "boundaries": [
+    "point detectors, no finite acceptance/FEP/polarimeter Q/background",
+    "no unobserved intervening transitions, sidefeeding or external deorientation",
+    "same chosen initial population for competing hypotheses",
+    "delta_a has no claimed KS70 or D96 symbol identity until exact operator/order comparison",
+    "conditional identifiability witness only; no measured RDCO or uncertainty invented"
+  ]
+}

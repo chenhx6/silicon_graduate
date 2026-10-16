@@ -1,0 +1,38 @@
+{
+  "first_full_script_exit": 1,
+  "failure_stage": "strictall-fields last-digit rounding assertion inunitcheck, before final outputs/plot",
+  "actual_issues": [
+    {
+      "E_keV": "620.2",
+      "input_field": "delta_error_lower",
+      "input_printed": "0.50",
+      "output_field": "Delta_eb_error_lower",
+      "output_printed": "0.95",
+      "propagated_last_digit_interval": [
+        0.956075784269101,
+        0.9755477295650025
+      ],
+      "output_display_interval": [
+        0.945,
+        0.955
+      ]
+    },
+    {
+      "E_keV": "620.2",
+      "input_field": "delta_error_upper",
+      "input_printed": "0.50",
+      "output_field": "Delta_eb_error_upper",
+      "output_printed": "0.95",
+      "propagated_last_digit_interval": [
+        0.956075784269101,
+        0.9755477295650025
+      ],
+      "output_display_interval": [
+        0.945,
+        0.955
+      ]
+    }
+  ],
+  "diagnostic_assumption": "every printed trailingzero treated assignificant; source doesnotexplicitlyspecifyroundingofquotederrors",
+  "boundary": "Do not alter sourcevalues or inflate tolerance; record exactlywhich uncertaintyfield fails this strict diagnostic. Central conversion and inverse coefficient checks remain separate."
+}

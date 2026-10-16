@@ -2,7 +2,7 @@
 type: learning-daily
 graph-excluded: true
 created: 2026-10-16
-updated: 2026-10-16
+updated: 2026-10-17
 ---
 
 # Day15：ADO、角分布系数与几何修正
@@ -80,6 +80,18 @@ Crossref/官方arXiv history核到2019NIM A922,47–63，DOI[10.1016/j.nima.2018
 
 这是一项独立装置的方法反证，与Zheng/145Tb并非同采集；其四种分析不是四次独立采集。新可复用内容已写回[角关联方法](../../knowledge/methods/angular-correlation.md#事件混合效率归一之后仍有有限响应)。下一项当前问题是复用mixed partners的event-level Cov，不以增加pair条目数默认降低所有误差。
 
+
+### Day16无学分预习：Droste1996完整主线
+
+[Droste1996 source](../../knowledge/sources/droste-1996-pdco-formalism.md#2026-10-17原件复核完整主线模式与相位坐标)的8页（printed518–525）本session已完整读，视觉核Eq1–21、geometry/U/Gaussian/Fig4–7；raw SHA-256 `dbfd6796aafc53693b446533c89094a14427e25624321bc16a6edae1b5d84247`匹配。Crossref exact title/作者/年匹配DOI `10.1016/0168-9002(96)00426-3`。来源前[Day16 primed回忆](20261016-DAY15-ado-angular-distribution-geometry-run-01/day16-preview-recall-frozen.md)先冻结；旧DR96-1/2/3 flags不改，新DR96-4–7均true。
+
+- DR96-4，printed520 Eq12/printed521 Eq13–16：完整积分下游gamma2返回gamma1 singles；不观测上游gamma1则给带U传播的daughter取向，不把二者合成“任何门都能消掉”。
+- DR96-5，printed519 Eq3–6/520 Eq7：a(TL)与广义F的CG/9j/phase/初末态顺序必须作为整体约定；pure-reference通过不等于mixed interference实现也对。
+- DR96-6，printed523–524/Fig7：5→4→2、sigma/I0=.3、DCO0/90、PDCO90/90/phi0；原文是作者计算的近似R/P例，没有实测counts/Cov。
+- DR96-7，printed521–522：作者说FORTRAN可向作者取得，本session没有取得/运行它。独立推导与paper code replay分开。
+
+Krane–Steffen1970的raw身份（11页）也核过，现阶段只读已有source摘要，原件主线和跨文献phase转换仍未完成；不计Day16正式学分。所有新增source/模型内容都在本Day15 run的partial16知识预习内，不打开17。
+
 ## Theory/analysis exercise
 
 ### 新ADO计算单
@@ -142,6 +154,47 @@ N=10000、K=9999给mixed sigma=.001682914，独立pair反事实=.000049912；rat
 ### 固定软件原件的readiness边界
 
 paper Ref21/22的两个2017 Zenodo公开zip已核byte/MD5/SHA，仅新增到Wiki raw/gpt、不纳Git；[软件manifest](../literature-acquisition/20261016-day15-griffin-software.json)保存版本与有限静态阅读范围。[SG19-16/17](../../knowledge/sources/smith-2019-griffin-angular-correlation-analysis.md#day15固定软件对象公开归档与完整重放的边界)明确：angular extension v1.0不等于detectorSimulations v1.0.0，更不等于已运行论文response；后者README L4/L18/L34说明NDA/第三方IP源码省略、需另取，src/DetectionSystemGriffin.cc L40–44还说明constructor/geometry在local NDA文件。本次未执行build/private-access脚本、未补private几何或实际events/Cov。这个具体缺口阻止当前full-response重放，不阻止上述可独立验证的L2统计问题。
+
+
+### Day16无学分点响应双解与相位坐标核对
+
+[规范计算单](../../knowledge/methods/dco-pdco-ambiguity-worksheet.md)保存完整模型、两个δ坐标、精确/近似点的身份、U/trace/symmetry控制及缺失的实际response。冻结输入身份`DAY16-PREVIEW-D96-5-4-2-POINT-MODEL-01`、SHA-256 `9cf693c7416634e007601cfeeb13b632f086681a17e7c12ba134494e526efa7d`；spins5/4/2、sigma1.5、gamma2 pureE2和point geometry来自明确source模型，初始Gauss之外没有重设daughter Gauss。
+
+首scratch缺SymPy未产生数值，改同Condon–Shortley约定的有理Racah CG；首次数值probe的pureE1/M1基准通过，但mixed项与source不符，原输出保留。[独立F核对](20261016-DAY15-ado-angular-distribution-geometry-run-01/day16-d96-derived-phase-map.json)由Eq3/7、六CG重耦合的9j求F，再与direct photon kernel的Legendre投影比较，推得`delta_probe=−d_source`。这不是直接翻符号匹配图，也不是KS70/Rose–Brink/D96的全局转换；完整跨文献映射仍待后续原件。
+
+固定本计算单自己声明的R*分子/分母后，以模型pure dipole的R*=.406200548构造逆问题witness，M1/E2两根d=0与−3.195214698（atan−72.621549°）；pureE1亦有同directional R。没有把这个主动构造值冒充实测RDCO。主要预测为：
+
+| 候选/模型点 | R* | P1 singles | P1 POL-DIR | P2 DIR-POL |
+| --- | ---: | ---: | ---: | ---: |
+| pureE1 | .406200548 | .343429 | .560408 | .560408 |
+| pureM1/d=0 | .406200548 | −.343429 | −.560408 | .560408 |
+| 精确同R的mixed根 | .406200548 | .269006 | .384949 | .208821 |
+| source −70°近似说明点 | .362034032 | .273255 | .437181 | .173583 |
+
+最后一行与原文印刷P约.27/.44/.17吻合；R约.4的文字没有统计误差，不能将近似说明点的P移到精确同R根，也不能据此算实际CI。对只剩E1/mixed的候选，测gamma2的条件P有更大物理分离；若pureM1尚未排除，P2相同，所以仍需要gamma1 P或别的matched companion。实际Q/counts/background/Σ未得，未声称可测significance或唯一Jpi。
+
+[完整结果](20261016-DAY15-ado-angular-distribution-geometry-run-01/day16-pdco-ambiguity-preview.json)中source F/direct-kernel坐标转换最大差6.7e−16，channel quadrature最大误差6.8e−15；isotropic R*=1/singlesP0、linear analyzer completeness、phi0/180以及unobserved feeding tensor B×U控制通过。phi90的isotropic条件P可非零，防止把单γ极限误套joint response。原Ref1的RDCO分子/分母和KS70算符转换尚未核完；partial16保持。
+
+
+### Day16预习续段：KS70实际系数、两篇原式的桥与Ref1更正
+
+KS70原件11页（printed724–734）已完整读，放大Eq3–19与TableI–III/abstract，查实验/纲图/Compton图；raw hash保持匹配。Parent是110mAg，253day仅作其历史source身份；818.0keV path是2+(1475.7)→2+(657.7)→0+，658门为已知pureE2。本文初态无取向，所测是opening-angle correlation，**不是beam-oriented RDCO swapped ratio**。
+
+[KS70 source补充](../../knowledge/sources/krane-steffen-1970-cd110-mixing-ratios.md#2026-10-17原件复核发射约定实际数据与精度边界)保存：Eq4b magnetic负号与i幂、Eq9 natural k/BM moment单位、Eq10/11 first/second角色不同的干涉项、Eq12的Biedenharn–Rose与Eq5的Rose–Brink是不同来源，以及Qbar/background/shared-data边界。局部原687扫描歧义已读为delta=−1.1^(+.8/−.4)，旧review flags不清除。原δKS/BM公式已有Wiki记录，本次属于primary-source核准；新的D96桥是`a_D96=sqrt(8pi k/(2Ii+1))*t_KS`，同gamma ratio相同，不把probe/source负号误说成两文delta相反。
+
+实际TableII `(A22,A44)=(.375±.050,.180±.050)`与TableI658门 `(.481±.082,.155±.112)`分开输入，来源/hash先冻结。[反演结果](20261016-DAY15-ado-angular-distribution-geometry-run-01/day16-ks70-convention-inversion.json)及[canonical worksheet实际数据段](../../knowledge/methods/dco-pdco-ambiguity-worksheet.md#ks70已校正818658点的受限双根)给central A22的两根−1.426985941/−.194000621，预测A44=.218987942/.011843635。A44增加形状约束但共享同fit/背景/几何，不当独立重复实验；quoted-range rectangle preimages不称置信区间。TableIII最终delta−1.20±.15是共同network summary，不再叠作独立约束。
+
+![原已校正系数及其quoted ranges，非jointconfidencefit](20261016-DAY15-ado-angular-distribution-geometry-run-01/day16-ks70-inverse.svg)
+
+单位列按8个finite mixed rows核，7个pureE2限值保留∞。central moment列与Fig5的M1百分比一致；但将尾零全视significant的严格diagnostic在620.2keV `.50→.95`误差字段不闭合。数据/容差未改，保留[首轮失败与精度诊断](20261016-DAY15-ado-angular-distribution-geometry-run-01/day16-ks70-first-unit-audit.json)，不宣称全部误差数字精确重现。另一次NumPy bool JSON序列化失败已用显式类型修正，最终脚本exit0；图source/alignment/glyph/collision exit0，minimum7pt，PNG300dpi/TIFF两项report-preview warning保留。
+
+Ref1 Kramer-Flecken1989的7页主线text也已重读，printed334原件清楚给门gamma1、待测gamma2：`W(theta1,theta2)=I_gamma2@theta2(Gate_gamma1@theta1)`，所以实验分式的分子是`I_gamma2@theta1(Gate_gamma1@theta2)`。**旧Wiki源页和DCO方法页将该实验式写成了倒数，原论文两个公式一致。** [KF89-9](../../knowledge/sources/kramer-flecken-1989-use-dco-ratios.md#2026-10-17使用更正实验dco分式)作current-use更正；源页原human-review状态/原1–8行保留历史，新9–14仅self-audit true。[DCO方法操作定义](../../knowledge/methods/dco-ratio.md#原件复核后的强度比与标签)已替换错误分式。物理发射先后、gate/observed与detector labels要逐项映射，R*的四种标签映射保存在source/worksheet，不只凭约.4认证源图标签。
+
+KF Table1还直接限制“sameL则R1”：nonstretched L2/L2可为.66/.57；其width半宽词未给指数，不自动等同D96 std。182-keV generic ratio可能是M2/E1，不把任意delta平方称E2fraction。178W I14是作者结合DCO/decay intensities在alignment假设下的采用值，非DCO直接唯一测量，source未见weakbranch不被本任务升级为敏感的排除。
+
+### Thematic REFLECT：响应、约定、候选与证据依赖
+
+[canonical worksheet反思矩阵](../../knowledge/methods/dco-pdco-ambiguity-worksheet.md#thematic-reflect比值响应与参数的使用门)综合Zheng/Gri/D96/KS70/KF：两角信息不足、efficiency与fullresponse分层、pure/reference对mixedphase的盲区、sameR/近似point的身份以及derived列与实际独立数据分开。它修正方法合同，不给新A130模式结论。下一原件核验仍可检查Rose–Brink literal definition/原dataset Cov边界，只有partial16，不打开17。
 
 ## Counter-evidence and missing companion observables
 
@@ -232,7 +285,7 @@ paper Ref21/22的两个2017 Zenodo公开zip已核byte/MD5/SHA，仅新增到Wiki
     },
     {
       "knowledge": "knowledge/methods/angular-correlation.md",
-      "summary": "新增GRIFFIN同数据归一校验、finite-response卷积与event reuse/initial alignment迁移边界。 追加event-reuse精确统计/退化控制入口与软件输入边界。",
+      "summary": "新增GRIFFIN同数据归一校验、finite-response卷积与event reuse/initial alignment迁移边界。 追加event-reuse精确统计/退化控制入口与软件输入边界。 另接D96双解/PDCO模式选择与relative-basis相位控制。",
       "anchor": "事件混合：效率归一之后仍有有限响应",
       "sources": [
         {
@@ -250,17 +303,29 @@ paper Ref21/22的两个2017 Zenodo公开zip已核byte/MD5/SHA，仅新增到Wiki
         {
           "path": "knowledge/sources/smith-2019-griffin-angular-correlation-analysis.md",
           "locator": "SG19-4"
+        },
+        {
+          "path": "knowledge/sources/droste-1996-pdco-formalism.md",
+          "locator": "DR96-6"
+        },
+        {
+          "path": "knowledge/sources/kramer-flecken-1989-use-dco-ratios.md",
+          "locator": "KF89-9"
         }
       ]
     },
     {
       "knowledge": "knowledge/index.md",
-      "summary": "为正式Day15新ADO协方差方法及独立GRIFFIN source建立可检索入口。 新增event-mixing-statistics方法入口。",
+      "summary": "为正式Day15新ADO协方差方法及独立GRIFFIN source建立可检索入口。 新增event-mixing-statistics方法入口。 新增DCO/PDCO双解worksheet检索入口。",
       "anchor": "GRIFFIN的event-mixing/finite-response实验校验",
       "sources": [
         {
           "path": "knowledge/sources/smith-2019-griffin-angular-correlation-analysis.md",
           "locator": "SG19-5"
+        },
+        {
+          "path": "knowledge/sources/droste-1996-pdco-formalism.md",
+          "locator": "DR96-6"
         }
       ]
     },
@@ -276,6 +341,144 @@ paper Ref21/22的两个2017 Zenodo公开zip已核byte/MD5/SHA，仅新增到Wiki
         {
           "path": "knowledge/sources/smith-2019-griffin-angular-correlation-analysis.md",
           "locator": "SG19-2"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/sources/droste-1996-pdco-formalism.md",
+      "summary": "完整重读8页，补注册DOI及4π/上游U传播、a/F相位输入、Fig7作者模型/无实际Cov与FORTRAN未取得边界，保留旧flags。",
+      "anchor": "2026-10-17原件复核：完整主线、模式与相位坐标",
+      "sources": [
+        {
+          "path": "knowledge/sources/droste-1996-pdco-formalism.md",
+          "locator": "DR96-4"
+        },
+        {
+          "path": "knowledge/sources/droste-1996-pdco-formalism.md",
+          "locator": "DR96-5"
+        },
+        {
+          "path": "knowledge/sources/droste-1996-pdco-formalism.md",
+          "locator": "DR96-6"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/methods/dco-pdco-ambiguity-worksheet.md",
+      "summary": "新增D96整数点模型的exact同R双根、source近似点交叉表与probe/source F坐标核验；无实测RDCO、全局文献转换或Day16学分。 追加KS70 actualcorrected数据双根/矩形preimage/单位依赖、两原式BM桥、KF比值标签及跨source反思矩阵。",
+      "anchor": "精确同R双根与近似source点分开",
+      "sources": [
+        {
+          "path": "knowledge/sources/droste-1996-pdco-formalism.md",
+          "locator": "DR96-5"
+        },
+        {
+          "path": "knowledge/sources/droste-1996-pdco-formalism.md",
+          "locator": "DR96-6"
+        },
+        {
+          "path": "knowledge/sources/droste-1996-pdco-formalism.md",
+          "locator": "DR96-4"
+        },
+        {
+          "path": "knowledge/sources/krane-steffen-1970-cd110-mixing-ratios.md",
+          "locator": "KS70-5"
+        },
+        {
+          "path": "knowledge/sources/krane-steffen-1970-cd110-mixing-ratios.md",
+          "locator": "KS70-10"
+        },
+        {
+          "path": "knowledge/sources/kramer-flecken-1989-use-dco-ratios.md",
+          "locator": "KF89-9"
+        },
+        {
+          "path": "knowledge/sources/zheng-2002-ado-coincidence-angular-anisotropy.md",
+          "locator": "Z02-6"
+        },
+        {
+          "path": "knowledge/sources/smith-2019-griffin-angular-correlation-analysis.md",
+          "locator": "SG19-6"
+        },
+        {
+          "path": "knowledge/sources/smith-2019-griffin-angular-correlation-analysis.md",
+          "locator": "SG19-10"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/sources/krane-steffen-1970-cd110-mixing-ratios.md",
+      "summary": "完整核11页，补发射/BM单位与gamma-role约定、BR/RB来源区别、actual818系数/共享network与687不对称误差及precision边界；旧flags保留。",
+      "anchor": "2026-10-17原件复核：发射约定、实际数据与精度边界",
+      "sources": [
+        {
+          "path": "knowledge/sources/krane-steffen-1970-cd110-mixing-ratios.md",
+          "locator": "KS70-5"
+        },
+        {
+          "path": "knowledge/sources/krane-steffen-1970-cd110-mixing-ratios.md",
+          "locator": "KS70-7"
+        },
+        {
+          "path": "knowledge/sources/krane-steffen-1970-cd110-mixing-ratios.md",
+          "locator": "KS70-10"
+        },
+        {
+          "path": "knowledge/sources/krane-steffen-1970-cd110-mixing-ratios.md",
+          "locator": "KS70-11"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/sources/kramer-flecken-1989-use-dco-ratios.md",
+      "summary": "原件证实旧实验分式倒置，新增current-use更正与标签/同L/width/mixedpair/assignment边界；旧human-review记录与flags不扩新更正。",
+      "anchor": "2026-10-17使用更正：实验DCO分式",
+      "sources": [
+        {
+          "path": "knowledge/sources/kramer-flecken-1989-use-dco-ratios.md",
+          "locator": "KF89-9"
+        },
+        {
+          "path": "knowledge/sources/kramer-flecken-1989-use-dco-ratios.md",
+          "locator": "KF89-10"
+        },
+        {
+          "path": "knowledge/sources/kramer-flecken-1989-use-dco-ratios.md",
+          "locator": "KF89-11"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/methods/dco-ratio.md",
+      "summary": "操作定义按KF原件修正实验强度比，明确gate/observed/detector及发射先后不同标签、matched互反与非普适标定。",
+      "anchor": "原件复核后的强度比与标签",
+      "sources": [
+        {
+          "path": "knowledge/sources/kramer-flecken-1989-use-dco-ratios.md",
+          "locator": "KF89-9"
+        },
+        {
+          "path": "knowledge/sources/kramer-flecken-1989-use-dco-ratios.md",
+          "locator": "KF89-11"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/observables/multipole-mixing-ratio.md",
+      "summary": "以原始KS70/D96算符补充现有约定链，区分magneticminus/共同归一、gamma-role与不同BR/RB、坐标改写和真实双根，链接新worksheet/原件更正。",
+      "anchor": "2026-10-17原始振幅定义复核补充",
+      "sources": [
+        {
+          "path": "knowledge/sources/krane-steffen-1970-cd110-mixing-ratios.md",
+          "locator": "KS70-5"
+        },
+        {
+          "path": "knowledge/sources/krane-steffen-1970-cd110-mixing-ratios.md",
+          "locator": "KS70-7"
+        },
+        {
+          "path": "knowledge/sources/droste-1996-pdco-formalism.md",
+          "locator": "DR96-5"
         }
       ]
     }
@@ -299,7 +502,7 @@ L0完成Zheng主线；L1把source/方法/observable连通；L2完成有输入/ha
 
 计算脚本实际exit0；PSD、解析/数值梯度、独立ordered-pair、共同scale抵消、不可识别族和200000次MC均通过。图的panel alignment、glyph（minimum7pt）和collision（0fail/0warn）通过；source validator最终exit0、0fail，保留4项warning：仅交付PNG预览而非TIFF投稿栅格、300非600dpi、通用demo警告和MC/uncertainty模式误报。前两项符合本日报SVG/PDF+预览合同；后两项由显著自设标识及直接画sigma解释，不虚报实验。首次source audit的export/DPI失败及修正保留于[figure QA](20261016-DAY15-ado-angular-distribution-geometry-run-01/figure-qa.json)。
 
-首轮仓库lint实际exit1（本次新method缺5个固定英文schema标题，且inline数组被当wikilink），已修复并重跑exit0、0error/145warning（3reaction parser、114citation key、28既有raw slots）；全局diff exit0。新增GRIFFIN source后fresh lint实际exit0、0error/146warning（3reaction parser、115citation key、28既有raw slots）；boundary/diff/preflight exit0。EOL exit1按治理规则分类为4份本次substantive知识改动、0unsafe/mixed，均保留。实际runner report/writeback/partial curriculum校验通过，[检查回执](20261016-DAY15-ado-angular-distribution-geometry-run-01/prepublication-checks-002.json)和[同session续接](20261016-DAY15-ado-angular-distribution-geometry-run-01/continuation.md)已保存。检查点稳定指针：main / `Establish DAY15 ADO covariance and independent response evidence`，H3/push结果只写run receipt。首批44-path检查点的H3 fresh fetch/ancestry/dry-run/non-force push均exit0，实际结果见[发布回执](20261016-DAY15-ado-angular-distribution-geometry-run-01/publication-001.json)。新增统计与软件补充的fresh boundary/lint/diff均exit0、lint0error/146warning，七页writeback实际runner验收通过；检查点002稳定指针：main / `Extend DAY15 event-mixing statistics and audit formal card completion`，actual H3/push只看publication002。原15:00研究截止不变，formal15完成与window仍active分开。
+首轮仓库lint实际exit1（本次新method缺5个固定英文schema标题，且inline数组被当wikilink），已修复并重跑exit0、0error/145warning（3reaction parser、114citation key、28既有raw slots）；全局diff exit0。新增GRIFFIN source后fresh lint实际exit0、0error/146warning（3reaction parser、115citation key、28既有raw slots）；boundary/diff/preflight exit0。EOL exit1按治理规则分类为4份本次substantive知识改动、0unsafe/mixed，均保留。实际runner report/writeback/partial curriculum校验通过，[检查回执](20261016-DAY15-ado-angular-distribution-geometry-run-01/prepublication-checks-002.json)和[同session续接](20261016-DAY15-ado-angular-distribution-geometry-run-01/continuation.md)已保存。检查点稳定指针：main / `Establish DAY15 ADO covariance and independent response evidence`，H3/push结果只写run receipt。首批44-path检查点的H3 fresh fetch/ancestry/dry-run/non-force push均exit0，实际结果见[发布回执](20261016-DAY15-ado-angular-distribution-geometry-run-01/publication-001.json)。新增统计与软件补充的fresh boundary/lint/diff均exit0、lint0error/146warning，截至检查点002的七页writeback实际runner验收通过；当前十三项writeback已由run入口snapshot验证（verification-checkpoint-003-expanded.json），覆盖十三份canonical页；检查点002稳定指针：main / `Extend DAY15 event-mixing statistics and audit formal card completion`，actual H3/push只看publication002。原15:00研究截止不变，formal15完成与window仍active分开。
 
 ### Day 15 card completion audit
 
@@ -311,7 +514,7 @@ L0完成Zheng主线；L1把source/方法/observable连通；L2完成有输入/ha
 | 不确定度与图 | [敏感性SVG](20261016-DAY15-ado-angular-distribution-geometry-run-01/ado-covariance-sensitivity.svg)、[figure QA](20261016-DAY15-ado-angular-distribution-geometry-run-01/figure-qa.json)，解析/MC与chosen Cov见计算JSON；原Fig1不作实验sigma | complete |
 | convention注记 | 本日报逐项表，source Z02-6/9/10及canonical方法页 | complete |
 | 反证与必要观测 | [换门/有限几何控制](../../knowledge/methods/ado-covariance-calibration.md#换门与有限几何的失败控制)；[SG19-6](../../knowledge/sources/smith-2019-griffin-angular-correlation-analysis.md#key-results) PDF7 Fig3的已知pure-E2反证及逐pair/E-M companion | complete |
-| 知识/检查/续接/receipt/发布 | 唯一七项writeback、[fresh checks](20261016-DAY15-ado-angular-distribution-geometry-run-01/verification-checkpoint-002-extended.json)、[continuation](20261016-DAY15-ado-angular-distribution-geometry-run-01/continuation.md)、[run receipt](20261016-DAY15-ado-angular-distribution-geometry-run-01/run.json)、[首批实际H3/push](20261016-DAY15-ado-angular-distribution-geometry-run-01/publication-001.json)；[次日独立入口](prompts/20261017-DAY16-dco-rdco-mixing-ratio-convention.md) | complete |
+| 知识/检查/续接/receipt/发布 | 唯一writeback（截至检查点002七项，当前十三项）、[fresh checks](20261016-DAY15-ado-angular-distribution-geometry-run-01/verification-checkpoint-002-extended.json)、[continuation](20261016-DAY15-ado-angular-distribution-geometry-run-01/continuation.md)、[run receipt](20261016-DAY15-ado-angular-distribution-geometry-run-01/run.json)、[首批实际H3/push](20261016-DAY15-ado-angular-distribution-geometry-run-01/publication-001.json)；[次日独立入口](prompts/20261017-DAY16-dco-rdco-mixing-ratio-convention.md) | complete |
 
 本表七行均已complete；依据本session实际交付与首批H3发布计Day15，Day14的partial15/成绩/脚本不授本日学分。新增扩展研究继续按其实际检查/发布执行，不将本卡完成当整个研究时段结束。
 
@@ -320,6 +523,12 @@ L0完成Zheng主线；L1把source/方法/observable连通；L2完成有输入/ha
 
 2026-10-16T23:29:24+08调用current-time并刷新候选池，距原2026-10-17 15:00硬截止约930.6分钟。[候选刷新](20261016-DAY15-ado-angular-distribution-geometry-run-01/candidate-refresh-002.json)确认当前chosen统计问题已解、真实full response受实际输入限制；旧event-mixing参考只核metadata，CERN150008仍是有界访问候选，不称已读。已检查矩阵Day16，选择恰好这张下一卡作高信息预习；当前day_index仍15，不计16，不打开17。
 
-[Day16预习回忆](20261016-DAY15-ado-angular-distribution-geometry-run-01/day16-preview-recall-frozen.md)在打开两张指定source/raw前冻结并显式primed。当前只开始无学分回忆，后续source主线/双解/phase转换尚未完成；次日正式run仍须独立冻结回忆、执行卡并过发布门。准备下一日prompt不会启动新session或授卡。
+[Day16预习回忆](20261016-DAY15-ado-angular-distribution-geometry-run-01/day16-preview-recall-frozen.md)在打开两张指定source/raw前冻结并显式primed。目前Droste、Krane–Steffen和Kramer–Flecken主线已核，条件点模型双解、KS70实际系数受限双根及同BM定义下phase桥已保存；Ref1的旧Wiki实验分式倒置已由KF89-9更正；次日正式run仍须独立冻结回忆、执行卡并过发布门。准备下一日prompt不会启动新session或授卡。
 
 CERN150008后续有界访问实际返回bot-verification页面，未取得正文；[访问回执](20261016-DAY15-ado-angular-distribution-geometry-run-01/drijard1984-cern-discovery.json)明确body=false/不原样重试。两个旧参考仍只作metadata，不以此中止其它高价值路线。
+
+00:01:15上海时间再次调用clock，原run_date仍2026-10-16，距同一2026-10-17 15:00截止898.7分钟；环境日期变化不重置run或deadline。继续partial16，不因card15/两批push完成而收束。
+
+01:36:31再次调用clock，距原硬截止约803.5分钟。课程文件已在实际publication002后对账next16/count15，第二次应用不重复增计；本run仍running。检查点003包含本次partial16实质增量，十三项writeback、旧审核范围与受保护文件重新核验；最新实际退出码与警告分类见[prepublication003](20261016-DAY15-ado-angular-distribution-geometry-run-01/verification-prepublication-003.json)。本批已提交，稳定指针为main / `Verify Day16 mixing-ratio phases and correct DCO ratio transcription`；其实际H3/push结果只由publication003回执确认。下一问题为Rose–Brink normalized振幅约定，尚未开始原件复核。
+
+检查点003最新实测：boundary/preflight/lint/diff均exit0，lint0error/146warnings（115citation key、28raw占位、3reaction parser）；EOL exit1为7项本批substantive、0unsafe/mixed且全部保留。脚本AST与结果中的script hash吻合，KS1–4/DR1–3/KF1–8及page review逐行不变，受保护文件hash不变。

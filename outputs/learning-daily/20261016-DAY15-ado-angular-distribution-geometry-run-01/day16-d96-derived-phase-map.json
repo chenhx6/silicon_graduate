@@ -1,0 +1,155 @@
+{
+  "ninej_scalar_diagonal": [
+    0.05802588531856593,
+    0.04494665749754949
+  ],
+  "F": {
+    "0": [
+      [
+        0.9999999999999997,
+        0.0
+      ],
+      [
+        -0.0,
+        1.0000000000000004
+      ]
+    ],
+    "2": [
+      [
+        0.29439202887759497,
+        -0.9309493362512627
+      ],
+      [
+        -0.9309493362512626,
+        5.157495310852385e-18
+      ]
+    ],
+    "4": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        -0.0,
+        0.5665577237325317
+      ]
+    ]
+  },
+  "B": {
+    "0": 1.0000000000000002,
+    "2": -0.8782518416241498,
+    "4": 0.5041242660159766
+  },
+  "comparison": [
+    {
+      "source_delta": 0,
+      "source_coefficients": [
+        0.9999999999999999,
+        -0.2585503415212177,
+        0.0
+      ],
+      "same_probe_coefficients": [
+        1.0,
+        -0.25855034152121775,
+        1.1958406278886733e-16
+      ],
+      "opposite_probe_coefficients": [
+        1.0,
+        -0.25855034152121775,
+        1.1958406278886733e-16
+      ],
+      "max_error_same": 1.1958406278886733e-16,
+      "max_error_opposite": 1.1958406278886733e-16
+    },
+    {
+      "source_delta": 0.3,
+      "source_coefficients": [
+        0.9999999999999998,
+        0.21285728430426892,
+        0.02358293091459729
+      ],
+      "same_probe_coefficients": [
+        1.0,
+        -0.687261580673476,
+        0.023582930914597497
+      ],
+      "opposite_probe_coefficients": [
+        1.0,
+        0.21285728430426892,
+        0.023582930914597316
+      ],
+      "max_error_same": 0.900118864977745,
+      "max_error_opposite": 2.220446049250313e-16
+    },
+    {
+      "source_delta": 1.0,
+      "source_coefficients": [
+        1.0000000000000002,
+        0.6883327982608426,
+        0.1428077483161725
+      ],
+      "same_probe_coefficients": [
+        1.0,
+        -0.9468831397820601,
+        0.1428077483161723
+      ],
+      "opposite_probe_coefficients": [
+        1.0,
+        0.6883327982608423,
+        0.14280774831617274
+      ],
+      "max_error_same": 1.6352159380429026,
+      "max_error_opposite": 3.3306690738754696e-16
+    },
+    {
+      "source_delta": -2.747477419454621,
+      "source_coefficients": [
+        1.0000000000000004,
+        -0.5557929166341524,
+        0.2522048303481099
+      ],
+      "same_probe_coefficients": [
+        1.0,
+        0.49530362750177737,
+        0.25220483034811036
+      ],
+      "opposite_probe_coefficients": [
+        1.0,
+        -0.5557929166341524,
+        0.25220483034810987
+      ],
+      "max_error_same": 1.05109654413593,
+      "max_error_opposite": 4.440892098500626e-16
+    },
+    {
+      "source_delta": 10.0,
+      "source_coefficients": [
+        1.0000000000000007,
+        0.15934266375156245,
+        0.2827876204280643
+      ],
+      "same_probe_coefficients": [
+        1.0,
+        -0.1644624724945569,
+        0.2827876204280644
+      ],
+      "opposite_probe_coefficients": [
+        1.0,
+        0.15934266375156214,
+        0.2827876204280643
+      ],
+      "max_error_same": 0.32380513624611934,
+      "max_error_opposite": 6.661338147750939e-16
+    }
+  ],
+  "scope": "Independent source Eq3/7 recoupling versus frozen probe-basis photon amplitudes; integer5->4 only. Not yet a KS70-to-D96 convention map.",
+  "derived_map": "delta_probe = -d_source, where d_source=a(E2)/a(M1) in Eq3; original frozen probe basis unchanged",
+  "relative_basis_matrix": [
+    1,
+    -1
+  ],
+  "basis_order": [
+    "M1",
+    "E2"
+  ]
+}

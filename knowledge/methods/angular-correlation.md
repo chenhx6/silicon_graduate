@@ -229,3 +229,9 @@ SG19-7的正输入Z0/Z2/Z4模板可线性合成物理correlation，允许负线�
 下一项高信息问题是：同一interaction与多个partners配对时，mixed histogram的方差和prompt/mixed cross covariance如何随partner数变化？SG19-4只提供方法描述，没有给实际event-ID/完整Σ。需要以physical-event为单位保存重用关系或作block重采样，而非默认每个mixed pair都是新的独立衰变；本段未声称已求出GRIFFIN实际Cov。
 
 Day15后续[[event-mixing-statistics]]已在明示的固定N、binary tags、逐row无放回算法下推导精确矩：增加K只消去配对噪声，一阶投影非退化时仍留1/N事件方差；平衡控制没有该主导项。独立small-N有理枚举与MC验证，ratio还需prompt/mixed cross Cov；均不是SG19实测Σ。SG19-16/17另把公开固定代码归档和NDA输入缺口分开，未将公开zip冒称full GEANT4重放。
+
+## DCO双解与PDCO模式的条件选择
+
+[[droste-1996-pdco-formalism]] DR96-4/5/6的5→4→2模型现由[[dco-pdco-ambiguity-worksheet]]独立复算：同R*的M1/E2两根、pureE1替代及第一/第二photon条件P分开保存；source近似−70°例不与本任务精确同R根混成一个点。一般选择更大预测分离的DIR-POL前，还要确认当前候选已排除同P2的pureM1/E1歧义，并取得matched Q/counts/Cov；没有普适的单observable唯一赋值。
+
+该计算还以source广义F核对实现的相对multipole基底：pure limits可全部通过而混合干涉项坐标仍错；必须显式转换参数/系数。完整4π积分下游光子的singles边缘，与trace上游后带U的daughter density是不同运算，finite gate不能无条件替代它们。此为条件模型/文献复核，不认证其它source的delta符号或实际array response。

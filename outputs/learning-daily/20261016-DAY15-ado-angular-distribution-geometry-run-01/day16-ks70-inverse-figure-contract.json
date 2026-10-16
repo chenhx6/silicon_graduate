@@ -1,0 +1,28 @@
+{
+  "question": "同一已校正A22为何有两个delta根，A44增加什么约束，原文不同config与共同network结果如何分层？",
+  "claim": "fixed-spin2->2->0模型下A22为Rayleigh quotient，两个central-value根不能凭一个比或一个符号裁决；A44是额外形状信息，但实际联合Cov未给。",
+  "backend": "python",
+  "archetype": "quantitative grid",
+  "panels": {
+    "a": "forwardA22 versusatan(delta),TableI/II central/quoted ranges andtwo modelroots",
+    "b": "forwardA44 withsame modelroots andboth published marginalquoted ranges"
+  },
+  "data": "alltwoTableI/IIcoefficientpairs shown; finalnetworkdelta is compared only asdependentcontext, not extra likelihood; TableIII unitcheck uses8finite rows plus7explicitpurelimits",
+  "size_mm": [
+    183,
+    90
+  ],
+  "formats": [
+    "svg",
+    "pdf",
+    "png"
+  ],
+  "uncertainty": "literal quoted marginal +/- ranges, not a joint confidence region; no covariance/independence or Gaussian coverage assumed",
+  "model_marker_identity": "roots inferred fromcentralTableIIA22 underdeclaredpointspinmodel, not separatelyobservedδpoints",
+  "review_risks": [
+    "angleopening correlation is not oriented DCO swapped ratio",
+    "publishedcoefficients alreadygeometry-corrected",
+    "background/calibration/systematic covariance unknown",
+    "operator/phase roles andintensity/momentamplitudeunits differ"
+  ]
+}

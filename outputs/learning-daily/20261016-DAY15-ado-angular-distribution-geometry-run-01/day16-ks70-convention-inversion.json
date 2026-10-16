@@ -1,0 +1,317 @@
+{
+  "data_identity": "DAY16-PREVIEW-KS70-818-658-TABLEII-01",
+  "data_kind": "published geometry-corrected angular coefficients plus declared point-model inversion; no raw event/response replay",
+  "input_sha256": "a195a5d0a44433b4148f5a54bc069a5654dc7a916880c1d4992e5d06c7992673",
+  "unit_input_sha256": "1fb5a92c5145a6db90aaf743d2898bf7197cac0f0ae8dae1940adc1a1119f2bc",
+  "script_sha256": "d2db86669214a7ad46e8151b6c25bc708f0210b9dfc2d10eb73afa938d1841bd",
+  "kernel_script_sha256": "619b42017ba91a946942b2c592f927a4299372fb29cd8b75b0964c982b5d9198",
+  "physical_matrices": {
+    "0": [
+      [
+        0.9999999999999994,
+        0.0
+      ],
+      [
+        0.0,
+        0.9999999999999997
+      ]
+    ],
+    "2": [
+      [
+        0.24999999999999994,
+        -0.36596252735569973
+      ],
+      [
+        -0.36596252735569973,
+        -0.07653061224489792
+      ]
+    ],
+    "4": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.32653061224489766
+      ]
+    ]
+  },
+  "independent_F_vs_kernel_max_error": 5.551115123125783e-16,
+  "A22_physical_range": [
+    -0.31399480542569247,
+    0.4874641931807945
+  ],
+  "A44_physical_range": [
+    0.0,
+    0.32653061224489766
+  ],
+  "direct_A22_central_roots": [
+    {
+      "delta_KS": -1.4269859412444832,
+      "atan_delta_degrees": -54.97808340879966,
+      "A22_model": 0.375,
+      "A44_model": 0.21898794238527486,
+      "A44_minus_direct": 0.038987942385274865,
+      "M1_fraction_model": 0.329349426445097,
+      "within_literal_A44_quoted_range": true
+    },
+    {
+      "delta_KS": -0.1940006206022324,
+      "atan_delta_degrees": -10.97903600068829,
+      "A22_model": 0.37500000000000006,
+      "A44_model": 0.01184363485576976,
+      "A44_minus_direct": -0.16815636514423024,
+      "M1_fraction_model": 0.9637288682542061,
+      "within_literal_A44_quoted_range": false
+    }
+  ],
+  "indirect_A22_central_roots": [
+    -0.7849781458018854,
+    -0.5278198219443196
+  ],
+  "quoted_marginal_boxes_not_confidence_regions": {
+    "direct_TableII": {
+      "preimages_atan_degrees": {
+        "A22": [
+          [
+            -59.737250268028504,
+            -49.18947018062467
+          ],
+          [
+            -16.767649228863288,
+            -6.219869141459444
+          ]
+        ],
+        "A44": [
+          [
+            -57.063167956680736,
+            -39.12183248923994
+          ],
+          [
+            39.12183248923994,
+            57.063167956680736
+          ]
+        ]
+      },
+      "intersection_atan_degrees": [
+        [
+          -57.063167956680736,
+          -49.18947018062467
+        ]
+      ],
+      "confidence_level": null,
+      "scope": "preimage of a rectangular product of quoted marginal +/- ranges only"
+    },
+    "indirect_TableI_658gate": {
+      "preimages_atan_degrees": {
+        "A22": [
+          [
+            -52.38294107598714,
+            -13.574178333500813
+          ]
+        ],
+        "A44": [
+          [
+            -64.72390153380402,
+            -21.277647292433585
+          ],
+          [
+            21.277647292433585,
+            64.72390153380402
+          ]
+        ]
+      },
+      "intersection_atan_degrees": [
+        [
+          -52.38294107598714,
+          -21.277647292433585
+        ]
+      ],
+      "confidence_level": null,
+      "scope": "preimage of a rectangular product of quoted marginal +/- ranges only"
+    }
+  },
+  "common_literal_box_intersection": [
+    [
+      -52.38294107598714,
+      -49.18947018062467
+    ]
+  ],
+  "network_result_context_only": {
+    "delta": -1.2,
+    "predicted_A22_A44": [
+      0.41725655082828933,
+      0.1927065908330549
+    ],
+    "added_independent_constraints": 0
+  },
+  "phase_bridge_and_units": {
+    "declared_unit_inputs": {
+      "electron_rest_energy_MeV": 0.511,
+      "proton_rest_energy_MeV": 938.3,
+      "hbar_c_MeV_fm": 197.33,
+      "barn_fm2": 100.0,
+      "origin": "declared rounded standard unit inputs for this consistency check, not measured by KS70 or a claimed exact historical constant set"
+    },
+    "natural_per_eb_per_muN": 2.4626709099288555,
+    "delta_per_Egamma_MeV_Delta_eb_muN": 0.8347301640545316,
+    "rows": [
+      {
+        "E_keV_TableIII": "446.7",
+        "delta_KS": -0.45,
+        "Delta_natural_calculated": -2.972054945156805,
+        "Delta_natural_printed": "-3.0",
+        "Delta_eb_per_muN_calculated": -1.2068421051201945,
+        "Delta_eb_per_muN_printed": "-1.2",
+        "M1_percent_from_delta": 83.16008316008315,
+        "M1_percent_Fig5": 83,
+        "central_last_digit_rounding_overlap": true,
+        "all_displayed_fields_strict_rounding_overlap": true,
+        "new_independent_observations": 0
+      },
+      {
+        "E_keV_TableIII": "620.2",
+        "delta_KS": -0.8,
+        "Delta_natural_calculated": -3.8055593364192037,
+        "Delta_natural_printed": "-3.8",
+        "Delta_eb_per_muN_calculated": -1.5452975552178603,
+        "Delta_eb_per_muN_printed": "-1.55",
+        "M1_percent_from_delta": 60.975609756097555,
+        "M1_percent_Fig5": 61,
+        "central_last_digit_rounding_overlap": true,
+        "all_displayed_fields_strict_rounding_overlap": false,
+        "new_independent_observations": 0
+      },
+      {
+        "E_keV_TableIII": "677.5",
+        "delta_KS": -0.25,
+        "Delta_natural_calculated": -1.088656780649073,
+        "Delta_natural_printed": "-1.09",
+        "Delta_eb_per_muN_calculated": -0.44206344268732334,
+        "Delta_eb_per_muN_printed": "-0.44",
+        "M1_percent_from_delta": 94.11764705882354,
+        "M1_percent_Fig5": 94,
+        "central_last_digit_rounding_overlap": true,
+        "all_displayed_fields_strict_rounding_overlap": true,
+        "new_independent_observations": 0
+      },
+      {
+        "E_keV_TableIII": "686.6",
+        "delta_KS": -1.1,
+        "Delta_natural_calculated": -4.726603354376474,
+        "Delta_natural_printed": "-4.7",
+        "Delta_eb_per_muN_calculated": -1.9192996251833834,
+        "Delta_eb_per_muN_printed": "-1.9",
+        "M1_percent_from_delta": 45.248868778280546,
+        "M1_percent_Fig5": 45,
+        "central_last_digit_rounding_overlap": true,
+        "all_displayed_fields_strict_rounding_overlap": true,
+        "new_independent_observations": 0
+      },
+      {
+        "E_keV_TableIII": "706.7",
+        "delta_KS": -1.0,
+        "Delta_natural_calculated": -4.174699130549014,
+        "Delta_natural_printed": "-4.2",
+        "Delta_eb_per_muN_calculated": -1.6951916367378608,
+        "Delta_eb_per_muN_printed": "-1.7",
+        "M1_percent_from_delta": 50.0,
+        "M1_percent_Fig5": 50,
+        "central_last_digit_rounding_overlap": true,
+        "all_displayed_fields_strict_rounding_overlap": true,
+        "new_independent_observations": 0
+      },
+      {
+        "E_keV_TableIII": "818.0",
+        "delta_KS": -1.2,
+        "Delta_natural_calculated": -4.328009597397048,
+        "Delta_natural_printed": "-4.3",
+        "Delta_eb_per_muN_calculated": -1.757445373617574,
+        "Delta_eb_per_muN_printed": "-1.75",
+        "M1_percent_from_delta": 40.98360655737705,
+        "M1_percent_Fig5": 41,
+        "central_last_digit_rounding_overlap": true,
+        "all_displayed_fields_strict_rounding_overlap": true,
+        "new_independent_observations": 0
+      },
+      {
+        "E_keV_TableIII": "1384.2",
+        "delta_KS": -0.37,
+        "Delta_natural_calculated": -0.7886115835549959,
+        "Delta_natural_printed": "-0.79",
+        "Delta_eb_per_muN_calculated": -0.32022613349413315,
+        "Delta_eb_per_muN_printed": "-0.32",
+        "M1_percent_from_delta": 87.9584835957428,
+        "M1_percent_Fig5": 88,
+        "central_last_digit_rounding_overlap": true,
+        "all_displayed_fields_strict_rounding_overlap": true,
+        "new_independent_observations": 0
+      },
+      {
+        "E_keV_TableIII": "1504.9",
+        "delta_KS": -0.55,
+        "Delta_natural_calculated": -1.0782397046697079,
+        "Delta_natural_printed": "-1.08",
+        "Delta_eb_per_muN_calculated": -0.43783345160838294,
+        "Delta_eb_per_muN_printed": "-0.44",
+        "M1_percent_from_delta": 76.77543186180422,
+        "M1_percent_Fig5": 77,
+        "central_last_digit_rounding_overlap": true,
+        "all_displayed_fields_strict_rounding_overlap": true,
+        "new_independent_observations": 0
+      }
+    ],
+    "rows_used": 8,
+    "pure_E2_limits_retained": [
+      "657.7",
+      "744.2",
+      "763.9",
+      "884.7",
+      "937.5",
+      "1475.7",
+      "1562.2"
+    ],
+    "strict_uncertainty_rounding_boundaries": [
+      {
+        "E_keV": "620.2",
+        "input_field": "delta_error_lower",
+        "input_printed": "0.50",
+        "output_field": "Delta_eb_error_lower",
+        "output_printed": "0.95",
+        "strict_last_digit_interval": [
+          0.956075784269101,
+          0.9755477295650025
+        ],
+        "scope": "Strict trailing-zero significance assumption did not close; source error-rounding recipe unknown. Data and tolerance unchanged."
+      },
+      {
+        "E_keV": "620.2",
+        "input_field": "delta_error_upper",
+        "input_printed": "0.50",
+        "output_field": "Delta_eb_error_upper",
+        "output_printed": "0.95",
+        "strict_last_digit_interval": [
+          0.956075784269101,
+          0.9755477295650025
+        ],
+        "scope": "Strict trailing-zero significance assumption did not close; source error-rounding recipe unknown. Data and tolerance unchanged."
+      }
+    ],
+    "operator_bridge": "a_D96=sqrt(8*pi*k/(2Ii+1))*t_KS for same BM definitions/units/state phases; mixing ratios equal for that transition",
+    "operator_bridge_component_max_error": 0.0,
+    "frozen_alias_note": "Frozen input used U_KS as an engineering alias for emission RME; current text uses t_KS to avoid collision with source U_lambda deorientation. Frozen input is unchanged.",
+    "precision_scope": "Central values overlap under declared rounding inputs. Printed error fields are diagnostic only: trailing zeros may be typographic, source rounding recipe is not specified. No error value or tolerance was changed; no uncertainty/confidence or historical-constants fit."
+  },
+  "interpretation_boundaries": [
+    "actualjointCov(A22,A44), includingbackground andcalibration",
+    "original events/gatedspectra/geometry nuisancefit",
+    "published rawchi2 likelihood grid/confidence definition",
+    "noexperimental delta CI fromassumed independent errors",
+    "no new spinparity orM1/E2strengthmeasurement",
+    "no Day16formalcredit; currentrunDay15partial16",
+    "Unoriented opening-angle correlation, not an oriented DCO swapped detector-cell ratio",
+    "A44 is additional functional information from the same fit, not statistically independent data",
+    "Biedenharn–Rose gamma-role conversion and Rose–Brink reversed-state operator normalization are different mappings"
+  ]
+}

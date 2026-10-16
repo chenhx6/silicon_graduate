@@ -1,5 +1,5 @@
 {
-  "captured_at": "2026-10-16T23:32:55.539318+08:00",
+  "captured_at": "2026-10-17T01:37:55.055316+08:00",
   "session_id": "01a14510-aec7-7e00-aa23-f7c77a5124bc",
   "run_id": "2026-10-16-day-15-01",
   "hard_deadline": "2026-10-17T15:00:00+08:00",
@@ -11,9 +11,9 @@
       16
     ],
     "day15_audit": "complete",
-    "course_file_next_day_index": 15,
-    "course_file_completed_day_count": 14,
-    "reconciliation": "after actual checkpoint002 publication, next16/count15; no duplicatecredit"
+    "next_day_index": 16,
+    "completed_day_count": 15,
+    "reconciliation": "actually applied after successful checkpoint002 H3/push; idempotent verified; no Day16 credit"
   },
   "selection": [
     {
@@ -121,7 +121,7 @@
       "visual_appendix": "A.10–A.19 whole-page contact sheets; no precise covariance digitization"
     }
   },
-  "current_status": "Checkpoint00144paths actually pushed; extended exact mixed-event statistics/MC/figure and fixed public software-readiness boundary canonical; fresh checks/publication002 pending",
+  "current_status": "Card15 complete; state16/count15; windowactive. Partial16 D96/KS70/KF89 mainline and phase/ratio correction complete, thirteen mapped writebacks; preparing packet003. Noformal16/no17.",
   "worksheet": {
     "input_sha256": "e8e31f0691862296b62adffb34e6e5395d22ba6cdc59f629a00c71a89eeadf04",
     "script": "system/scripts/day15_ado_covariance_worksheet.py",
@@ -131,10 +131,9 @@
     "figure_source_warnings": 4
   },
   "next_actions": [
-    "H3 checkpoint002 publication; idempotent formal15 course-state reconciliation only after successful gate",
-    "uncredited Day16 source/raw full mainline and phase/double-solution exercise; recall already frozen, no formal16",
-    "optional bounded CERN150008 primary-statistics companion if informative",
-    "refresh original clock/pool; remain active until deadline/schedule-level audited saturation, never17"
+    "Fresh prepublication003 checks, explicit packet003 and H3 push",
+    "Freeze then inspect Rose–Brink normalized delta original against KS Eq5",
+    "Rebuild candidate pool within current15 and uncredited16; keep original15:00 deadline"
   ],
   "mixed_event_analysis": {
     "input_sha256": "b0a0bb6503d01e8dc432e1a866960872b4fbc1bebd89a1737ca766eab9bab72c",
@@ -153,5 +152,77 @@
     "archives_verified": true,
     "full_response": "not-ready: NDA/source geometry inputs missing, no build/private-access attempted",
     "canonical": "knowledge/sources/smith-2019-griffin-angular-correlation-analysis.md#day15固定软件对象公开归档与完整重放的边界"
+  },
+  "day16_preview": {
+    "recall_frozen": true,
+    "sources_opened_after_freeze": [
+      "droste-1996-pdco-formalism",
+      "krane-steffen-1970-cd110-mixing-ratios"
+    ],
+    "raw_identities_verified": true,
+    "droste_text_read_pages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "droste_visual_pages": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "krane_text_read_pages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "krane_scope": "full11pages/keyoperators/TableI–III/abstract andfigures, oldflagsunchanged",
+    "scientific_deltas": "pending exact original-geometry/model and phase comparison; no previewcardcredit",
+    "canonical_delta": [
+      "knowledge/sources/droste-1996-pdco-formalism.md",
+      "knowledge/methods/dco-pdco-ambiguity-worksheet.md"
+    ],
+    "point_model": {
+      "script": "system/scripts/day16_pdco_ambiguity_preview.py",
+      "actual_exit": 0,
+      "R_star": 0.40620054802362954,
+      "source_coordinate_roots": [
+        0.0,
+        -3.195214698483211
+      ],
+      "basis_map": "delta_probe=-d_source derived from F; not KS70 mapping",
+      "F_maxerror": 6.661338147750939e-16,
+      "quadrature_maxerror": 6.7723604533418824e-15,
+      "source_minus70_is_separate_approximate_point": true
+    },
+    "kf89": "full7page text, originalprinted334 formula/335Table/contours viewed; legacyIratio inversion correctednewKF89-9, oldhuman-reviewrows preserved",
+    "actual_data_inverse": {
+      "input_sha256": "a195a5d0a44433b4148f5a54bc069a5654dc7a916880c1d4992e5d06c7992673",
+      "delta_roots": [
+        -1.4269859412444832,
+        -0.1940006206022324
+      ],
+      "A44_predictions": [
+        0.21898794238527486,
+        0.01184363485576976
+      ],
+      "no_joint_confidence": true
+    },
+    "convention_bridge": "same BM: a_D96=positivecommonfactor*t_KS, E2/M1 ratios same; probebasisminus distinct; BR/Biedenharn–Rose role map differs from Rose–Brink operator map"
   }
 }

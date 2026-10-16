@@ -1,0 +1,301 @@
+{
+  "data_identity": "DAY16-PREVIEW-D96-5-4-2-POINT-MODEL-01",
+  "data_kind": "independent point-response calculation motivated by Droste1996 Fig7; not experimental data or authors FORTRAN replay",
+  "input_sha256": "9cf693c7416634e007601cfeeb13b632f086681a17e7c12ba134494e526efa7d",
+  "script_sha256": "619b42017ba91a946942b2c592f927a4299372fb29cd8b75b0964c982b5d9198",
+  "source_scope": "Droste1996 printed519–524 Eqs2–7/12–21 and Fig7; model output only, not an experimental RDCO",
+  "phase_map": {
+    "d_source_definition": "a(E2)/a(M1) in D96 Eq3, for real amplitudes in this example",
+    "frozen_probe_definition": "same positive CG/Wigner basis with eta_M=lambda",
+    "derived_relation": "delta_probe=-d_source",
+    "basis_order": [
+      "M1",
+      "E2"
+    ],
+    "relative_basis_matrix": [
+      1,
+      -1
+    ],
+    "source_F": {
+      "0": [
+        [
+          0.9999999999999997,
+          0.0
+        ],
+        [
+          0.0,
+          1.0000000000000004
+        ]
+      ],
+      "2": [
+        [
+          0.29439202887759497,
+          -0.9309493362512627
+        ],
+        [
+          -0.9309493362512626,
+          5.157495310852385e-18
+        ]
+      ],
+      "4": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.5665577237325317
+        ]
+      ]
+    },
+    "comparison": [
+      {
+        "d_source": 0.0,
+        "source_F_coefficients": [
+          0.9999999999999999,
+          -0.2585503415212177,
+          0.0
+        ],
+        "mapped_kernel_coefficients": [
+          1.0,
+          -0.25855034152121764,
+          -3.986135426295578e-17
+        ],
+        "mapped_max_error": 1.1102230246251565e-16,
+        "unmapped_max_error": 1.1102230246251565e-16
+      },
+      {
+        "d_source": 0.3,
+        "source_F_coefficients": [
+          0.9999999999999998,
+          0.21285728430426892,
+          0.023582930914597285
+        ],
+        "mapped_kernel_coefficients": [
+          1.0,
+          0.21285728430426923,
+          0.02358293091459716
+        ],
+        "mapped_max_error": 3.0531133177191805e-16,
+        "unmapped_max_error": 0.9001188649777447
+      },
+      {
+        "d_source": 1.0,
+        "source_F_coefficients": [
+          1.0,
+          0.6883327982608424,
+          0.14280774831617246
+        ],
+        "mapped_kernel_coefficients": [
+          1.0,
+          0.6883327982608423,
+          0.1428077483161726
+        ],
+        "mapped_max_error": 1.3877787807814457e-16,
+        "unmapped_max_error": 1.6352159380429026
+      },
+      {
+        "d_source": -2.7474774194546216,
+        "source_F_coefficients": [
+          1.0000000000000004,
+          -0.5557929166341523,
+          0.25220483034811
+        ],
+        "mapped_kernel_coefficients": [
+          1.0,
+          -0.5557929166341524,
+          0.25220483034811
+        ],
+        "mapped_max_error": 4.440892098500626e-16,
+        "unmapped_max_error": 1.0510965441359295
+      },
+      {
+        "d_source": 10.0,
+        "source_F_coefficients": [
+          1.0000000000000007,
+          0.1593426637515625,
+          0.2827876204280643
+        ],
+        "mapped_kernel_coefficients": [
+          1.0,
+          0.15934266375156206,
+          0.2827876204280645
+        ],
+        "mapped_max_error": 6.661338147750939e-16,
+        "unmapped_max_error": 0.32380513624611945
+      }
+    ],
+    "not_yet_established": "No global KS70/Rose–Brink/D96 symbol conversion is claimed from this internal basis comparison"
+  },
+  "initial_population": [
+    0.00102838008447911,
+    0.007598758135239185,
+    0.03600077212843083,
+    0.10936068950970002,
+    0.2130055377112537,
+    0.26601172486179436,
+    0.2130055377112537,
+    0.10936068950970002,
+    0.03600077212843083,
+    0.007598758135239185,
+    0.00102838008447911
+  ],
+  "source_B": {
+    "0": 1.0000000000000002,
+    "2": -0.8782518416241498,
+    "4": 0.5041242660159766
+  },
+  "R_star_definition": "R*=W00(gamma1 theta0,gamma2 theta90)/W00(gamma1 theta90,gamma2 theta0); not yet independently mapped to Ref1 Kramer1989 definition",
+  "R_star_model_target": 0.40620054802362954,
+  "source_coordinate_roots": [
+    0.0,
+    -3.195214698483211
+  ],
+  "root_atan_degrees": [
+    0.0,
+    -72.62154906453402
+  ],
+  "R_numerator_coefficients": [
+    0.0036224402083479684,
+    0.008056482443155922,
+    0.006922436804921227
+  ],
+  "R_denominator_coefficients": [
+    0.008917861450391848,
+    -0.006488398328245758,
+    0.008803926631209432
+  ],
+  "cases": {
+    "E1_parity_changing": {
+      "R_star": 0.40620054802362954,
+      "P_singles_gamma1": 0.3434287074784541,
+      "P_POL_DIR_gamma1": 0.5604081304753572,
+      "P_DIR_POL_gamma2": 0.5604081304753572
+    },
+    "M1_d0_same_parity": {
+      "R_star": 0.40620054802362954,
+      "P_singles_gamma1": -0.3434287074784541,
+      "P_POL_DIR_gamma1": -0.5604081304753572,
+      "P_DIR_POL_gamma2": 0.5604081304753572
+    },
+    "M1_E2_exact_same_R": {
+      "R_star": 0.40620054802362954,
+      "P_singles_gamma1": 0.2690059011869258,
+      "P_POL_DIR_gamma1": 0.3849487877252733,
+      "P_DIR_POL_gamma2": 0.2088207279256313
+    },
+    "source_minus70_degrees_illustration": {
+      "R_star": 0.3620340320548822,
+      "P_singles_gamma1": 0.2732550035272434,
+      "P_POL_DIR_gamma1": 0.43718126492149106,
+      "P_DIR_POL_gamma2": 0.17358268917807657
+    }
+  },
+  "controls": [
+    {
+      "d_source": 0.0,
+      "channel_identity_max_errors": [
+        1.3322676730976334e-15,
+        6.7723604533418824e-15
+      ],
+      "isotropic_R": 0.9999999999999998,
+      "isotropic_singles_P": -8.719671245021581e-17,
+      "isotropic_conditional_P1": 0.0,
+      "isotropic_conditional_P1_phi90": 0.10344827586206896,
+      "phi0_pi_density_difference": 0.0,
+      "daughter_tensor_checks": [
+        {
+          "rank": 0,
+          "U": 0.9999999999999997,
+          "daughter_B": 1.0000000000000018,
+          "source_B_times_U": 0.9999999999999999
+        },
+        {
+          "rank": 2,
+          "U": 0.9393743888483665,
+          "daughter_B": -0.8250072869806397,
+          "source_B_times_U": -0.8250072869806382
+        },
+        {
+          "rank": 4,
+          "U": 0.7977240352174655,
+          "daughter_B": 0.40215204373730906,
+          "source_B_times_U": 0.40215204373730784
+        }
+      ]
+    },
+    {
+      "d_source": 0.3,
+      "channel_identity_max_errors": [
+        1.3322676599180388e-15,
+        5.995204333062576e-15
+      ],
+      "isotropic_R": 0.9999999999999999,
+      "isotropic_singles_P": 0.0,
+      "isotropic_conditional_P1": -6.194445215789467e-17,
+      "isotropic_conditional_P1_phi90": 0.22311619675266248,
+      "phi0_pi_density_difference": 0.0,
+      "daughter_tensor_checks": [
+        {
+          "rank": 0,
+          "U": 0.9999999999999998,
+          "daughter_B": 1.0000000000000009,
+          "source_B_times_U": 1.0
+        },
+        {
+          "rank": 2,
+          "U": 0.9199836331152581,
+          "daughter_B": -0.8079773200475525,
+          "source_B_times_U": -0.8079773200475516
+        },
+        {
+          "rank": 4,
+          "U": 0.7428347667391995,
+          "daughter_B": 0.3744810315535483,
+          "source_B_times_U": 0.3744810315535481
+        }
+      ]
+    },
+    {
+      "d_source": -3.195214698483211,
+      "channel_identity_max_errors": [
+        7.77156291802102e-16,
+        3.996802900308305e-15
+      ],
+      "isotropic_R": 1.0,
+      "isotropic_singles_P": -8.719671245021578e-17,
+      "isotropic_conditional_P1": 0.0,
+      "isotropic_conditional_P1_phi90": 0.10617659795654638,
+      "phi0_pi_density_difference": 0.0,
+      "daughter_tensor_checks": [
+        {
+          "rank": 0,
+          "U": 1.0000000000000004,
+          "daughter_B": 1.0000000000000009,
+          "source_B_times_U": 1.0000000000000007
+        },
+        {
+          "rank": 2,
+          "U": 0.7254813920881203,
+          "daughter_B": -0.6371553686654444,
+          "source_B_times_U": -0.6371553686654436
+        },
+        {
+          "rank": 4,
+          "U": 0.19225871522748716,
+          "daughter_B": 0.0969222836992325,
+          "source_B_times_U": 0.09692228369923163
+        }
+      ]
+    }
+  ],
+  "benchmark_rounding": "P compared at0.005 rounding halfwidth and R at0.05; these are printed precision checks, never experimental uncertainties",
+  "boundaries": [
+    "point detectors, no finite acceptance/FEP/polarimeter Q/background",
+    "no unobserved intervening transitions, sidefeeding or external deorientation",
+    "same chosen initial population for competing hypotheses",
+    "delta_a has no claimed KS70 or D96 symbol identity until exact operator/order comparison",
+    "conditional identifiability witness only; no measured RDCO or uncertainty invented",
+    "Full inter-source phase mapping and original Ref1 DCO numerator check remain separate tasks"
+  ]
+}

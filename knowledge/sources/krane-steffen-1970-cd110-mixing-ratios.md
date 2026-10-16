@@ -3,7 +3,7 @@ type: source
 title: "Krane and Steffen 1970 - E2/M1 mixing ratios in 110Cd"
 aliases: [Krane Steffen 1970 Cd110 mixing ratios]
 created: 2026-09-21
-updated: 2026-09-21
+updated: 2026-10-17
 status: ai-draft
 review_status: unreviewed
 source_type: experiment-and-formalism
@@ -46,7 +46,7 @@ tags: [110Cd, mixing-ratio, angular-correlation, vibrational-nucleus]
 ## Key Results
 
 - High-resolution two-Ge(Li) directional correlations and coincidence gating determine a consistent set of 25 cascade correlations. Compton background was explicitly investigated and shown to bias directional-correlation coefficients if untreated (PDF pp.724–727).
-- The reported E2/M1 amplitude ratios are `δ(447)=−0.45(20)`, `δ(620)=−0.80(50)`, `δ(678)=−0.25(20)`, `δ(687)=−1.1(+?−?)`, `δ(707)=−1.0(3)`, `δ(818)=−1.20(15)`, `δ(1384)=−0.37(3)`, `δ(1505)=−0.55(10)`; the paper also gives corresponding Bohr–Mottelson multipole-moment ratios (PDF p.724, abstract and conclusion tables).
+- The reported E2/M1 amplitude ratios are `δ(447)=−0.45(20)`, `δ(620)=−0.80(50)`, `δ(678)=−0.25(20)`, `δ(687)=−1.1(+.8/−.4)`, `δ(707)=−1.0(3)`, `δ(818)=−1.20(15)`, `δ(1384)=−0.37(3)`, `δ(1505)=−0.55(10)`; the paper also gives corresponding Bohr–Mottelson multipole-moment ratios (printed724 abstract and printed733 TableIII). The previously unreadable 687-keV interval was resolved by this session's enlarged original, not by symmetrizing an error.
 - The formalism defines δ using reduced emission matrix elements with the initial state on the right and maps them explicitly to Rose–Brink and Biedenharn conventions. This resolves sign/order ambiguity before comparing the 25 fits (PDF pp.726–728, Eqs.3–14).
 - The measured nonzero M1 admixtures and crossover E2 transitions challenge a pure harmonic-vibration picture of `110Cd`; the authors discuss extra-pair/anharmonic and microscopic quadrupole–pairing interpretations (PDF pp.724–726).
 
@@ -58,6 +58,14 @@ tags: [110Cd, mixing-ratio, angular-correlation, vibrational-nucleus]
 | KS70-2 | Explicit operator/state-order definitions and conversion to Rose–Brink/Biedenharn conventions are necessary for δ sign comparison. | convention-boundary | direct | PDF pp.726–728, Eqs.3–14 | false |
 | KS70-3 | Nonzero M1 admixtures and crossover E2 decay challenge a pure harmonic-vibration description of `110Cd`. | structure-interpretation | mixed | PDF pp.724–726 | true |
 | KS70-4 | Directional-correlation coefficients require explicit Compton-background and detector-response checks. | method-boundary | direct | PDF pp.724–725 | false |
+| KS70-5 | Eq9以初态在右的radiative emission RME的E2/M1比定义delta，并给delta=(sqrt3/10)k Delta_BM；natural units中的m在正文明确为electron mass。TableIII的BM矩比和Fig5的M1 percentages是同一delta的派生量，不增独立观测。 | definition-unit-and-dependency | direct | printed727 Eq4/9；printed732 Eq20/单位说明；printed733 TableIII/Fig5 | true |
+| KS70-6 | 相同KS emission delta用于两photon时，第一条orientation B有负线性干涉项、第二条distribution A有正干涉项；未观测中间跃迁的U只含multipole intensities、无干涉，不能由U或delta平方确定符号。 | role-and-interference-boundary | direct | printed727 Eq7–11；printed728 Eq13–15 | true |
+| KS70-7 | Eq12所称BR是Biedenharn–Rose1953（Ref29），并给gamma1处delta_KS=−delta_BR、gamma2处delta_KS=+delta_BR；Rose–Brink1967是另一个Ref30，Eq5对其初态在左的T矩元另有L-dependent相位/归一。不能混用二者缩写。 | convention-identity | direct | printed727 Eq5/12与上下文；printed734 Refs29/30 | true |
+| KS70-8 | 源文用几何校正后的A_lambda,lambda=(A'_lambda,lambda/A'_00)/(Qbar_lambda(gamma1)Qbar_lambda(gamma2))；这些Qbar是有限geometry因子，不是polarimeterQ或ADO f，能量独立性只在其测量范围/装置下检验。 | response-convention | direct | printed728 Eq18/19；printed729 calibration说明 | true |
+| KS70-9 | 937–885强线的直接A22=.055±.010偏离pure6→4→2期望.102；作者用约10%Compton污染解释，background-corrected谱法给.098±.010。强峰不能保证background不改角系数，未给两结果Cov时不重算显著性。 | experimental-counterexample | direct-and-self-audit | printed730 Compton例；printed731 Fig4及正文 | true |
+| KS70-10 | TableII的818–658 direct corrected(A22,A44)=(.375±.050,.180±.050)；TableI的658门818行是(.481±.082,.155±.112)。两配置分开，TableIII最终delta818=−1.20±.15是network summary，不能再当独立数据和前述系数重复拟合。 | published-data-and-dependency | direct-and-self-audit | printed732 TableI gamma9/gamma3门；printed733 TableII/III | true |
+| KS70-11 | 放大原件读得nominal687（TableIII能量686.6）的delta=−1.1^(+.8/−.4)，natural Delta=−4.7^(+3.4/−1.7)。保留不对称误差，旧扫描歧义在此局部解决，原claims的review flags不清除。 | source-reading-resolution | direct | printed724 abstract；printed733 TableIII | true |
+| KS70-12 | Parent在abstract/Fig5是110mAg，文中采用253day历史半衰期；658/764/937门有90/135/180三角，885门只有90/180且只提取anisotropy。不能把全部表列强行当同样two-coefficient/full-Cov观测。 | measurement-identity-boundary | direct | printed724 abstract；printed729 source；printed730 angles；printed733 Fig5 | true |
 
 ## Summary
 
@@ -65,7 +73,7 @@ Krane and Steffen demonstrate how a complete high-resolution directional-correla
 
 ## Competing Interpretations and Limitations
 
-- Some δ uncertainties are broad/asymmetric and branch solutions depend on the adopted spin sequence and convention. The printed scan/OCR obscures part of the 687-keV asymmetric interval; retain the source locator rather than silently symmetrizing it.
+- Some δ uncertainties are broad/asymmetric and branch solutions depend on the adopted spin sequence and convention. The 687-keV asymmetric interval is now locally resolved as `−1.1(+.8/−.4)` by the original image; this does not recover the fit likelihood or joint covariance and does not change the old review flags.
 - Pure-vibration, displaced-oscillator and extra-pair models can reproduce different subsets of level energies, moments and transition strengths; δ data alone do not select a unique microscopic Hamiltonian.
 - Ge(Li) Compton background and unresolved coincidence contributions can distort A coefficients; high-resolution gating is part of the measurement identity.
 
@@ -92,3 +100,27 @@ Krane and Steffen demonstrate how a complete high-resolution directional-correla
 ## Extracted Pages
 
 - Methods/observables: [[multipole-mixing-ratio]], [[angular-correlation]], [[angular-distribution]]。
+
+## 2026-10-17原件复核：发射约定、实际数据与精度边界
+
+本次primed来源前回忆先冻结，随后重核raw SHA-256 `ab82cb483425ba984a8c30b35f118b4713e186d53899fcbbba6a19dd444377f1`，完整读11页（printed724–734），放大Eq3–19、TableI–III/abstract，查Fig1–5与实验/讨论主线。旧KS70-1–4的flags和page review不改，新KS70-5–12 true。没有取得原event spectra、完整fit Cov或25-correlation likelihood；纸中253day是历史source身份，不作当前评价寿命。
+
+### 同BM定义下的两文振幅桥
+
+本节以t_KS表示发射RME（不是source的去取向U_lambda）。KS70 Eq4a以`C_L i^L M(EL)`给electric t_KS，Eq4b以`−C_L i^(L−1) M(ML)`给magnetic t_KS，其中`C_L=k^L sqrt((L+1)/L)/(2L+1)!!`。必须保留Eq4b前的负号；它与i幂合成i^(L+1)。在同一BM算符、state order、units及同一transition下，[[droste-1996-pdco-formalism]] Eq5因此为
+
+\[
+a_{D96}(TL)=\sqrt{8\pi k/(2I_i+1)}\,t_{KS70}(TL).
+\]
+
+共同positive normalization在同gamma的multipole ratio中抵消，故本例的`d_D96=a(E2)/a(M1)=delta_KS`。这与本任务probe→source的relative-basis负号是不同操作，不能误说两篇delta相反。两文共享BM理论定义，符合是一项定义/实现核对，不是新的独立实验。
+
+Eq5对Rose–Brink的**literal T_RB matrix ratio**给`delta_KS=−sqrt(3/5) [<Ii||T_E2||If>_RB/<Ii||T_M1||If>_RB]`。尚未把这个裸T比无条件命名为另文的delta：归一和发射notation要一并保存。Rose–Brink初态在左在此仍指**发射**，不能仅凭bra/ket位置把它叫作实际吸收。Eq12的Biedenharn–Rose转换又依赖gamma1/gamma2角色，两个BR/RB来源不是同一篇。
+
+### 实际818–658系数与derived列
+
+Fig5对应818.0keV的`2+(1475.7)→2+(657.7)`，gamma3/657.7（nominal658）是`2+→0+` pureE2参考；source无取向，角度是两gamma的opening angle，不是beam-oriented DCO的交换探测器比。[[dco-pdco-ambiguity-worksheet]]保存该**已校正**TableII单A22的条件反演及A44比较；不将其造作raw RDCO或原文global delta重拟合。
+
+TableIII的15行中8行为finite mixed ratio，7个pureE2限值保留∞（在文中dipole/quadrupole截断内）；M1百分比、natural Delta与eb/muN Delta都是同一delta的派生表，不独立计入likelihood。本任务按声明单位常数核8行，中央值/百分比与印刷精度一致；但若把所有尾随零都视为有效位，620.2keV的`delta error .50 → Delta_(eb/muN) error .95`严格rounding检验不闭合。原件已放大确认这两个数，未改数据/扩大容差；source没给其error rounding recipe或unrounded estimates，保留精度边界，不据此宣布原误差错误或给出新CI。
+
+885门只有两角的coverage、quoted errors主要受Compton background subtraction影响（printed731约5%说明），以及normalized coefficients/geometry correction共享的Cov均需保留。TableI/II与global delta相容性不能靠把所有derived列当独立测量来加强。

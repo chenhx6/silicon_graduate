@@ -1,0 +1,139 @@
+{
+  "data_identity": "DAY16-PREVIEW-KS70-TABLEIII-UNIT-CHECK-01",
+  "source": "printed733 TableIII/ Fig5; printed727Eq4–12; printed732Eq20 and electron-massunits",
+  "kind": "published fitted amplitudes and their dependent derived moment/fraction summaries, not independent measurements",
+  "rows": [
+    {
+      "E_keV": "446.7",
+      "delta": "-0.45",
+      "delta_error_lower": "0.20",
+      "delta_error_upper": "0.20",
+      "Delta_natural": "-3.0",
+      "Delta_error_lower": "1.3",
+      "Delta_error_upper": "1.3",
+      "Delta_eb_per_muN": "-1.2",
+      "Delta_eb_error_lower": "0.5",
+      "Delta_eb_error_upper": "0.5",
+      "Fig5_M1_percent": 83
+    },
+    {
+      "E_keV": "620.2",
+      "delta": "-0.80",
+      "delta_error_lower": "0.50",
+      "delta_error_upper": "0.50",
+      "Delta_natural": "-3.8",
+      "Delta_error_lower": "2.4",
+      "Delta_error_upper": "2.4",
+      "Delta_eb_per_muN": "-1.55",
+      "Delta_eb_error_lower": "0.95",
+      "Delta_eb_error_upper": "0.95",
+      "Fig5_M1_percent": 61
+    },
+    {
+      "E_keV": "677.5",
+      "delta": "-0.25",
+      "delta_error_lower": "0.20",
+      "delta_error_upper": "0.20",
+      "Delta_natural": "-1.09",
+      "Delta_error_lower": "0.88",
+      "Delta_error_upper": "0.88",
+      "Delta_eb_per_muN": "-0.44",
+      "Delta_eb_error_lower": "0.36",
+      "Delta_eb_error_upper": "0.36",
+      "Fig5_M1_percent": 94
+    },
+    {
+      "E_keV": "686.6",
+      "delta": "-1.1",
+      "delta_error_lower": "0.4",
+      "delta_error_upper": "0.8",
+      "Delta_natural": "-4.7",
+      "Delta_error_lower": "1.7",
+      "Delta_error_upper": "3.4",
+      "Delta_eb_per_muN": "-1.9",
+      "Delta_eb_error_lower": "0.7",
+      "Delta_eb_error_upper": "1.4",
+      "Fig5_M1_percent": 45
+    },
+    {
+      "E_keV": "706.7",
+      "delta": "-1.0",
+      "delta_error_lower": "0.3",
+      "delta_error_upper": "0.3",
+      "Delta_natural": "-4.2",
+      "Delta_error_lower": "1.3",
+      "Delta_error_upper": "1.3",
+      "Delta_eb_per_muN": "-1.7",
+      "Delta_eb_error_lower": "0.5",
+      "Delta_eb_error_upper": "0.5",
+      "Fig5_M1_percent": 50
+    },
+    {
+      "E_keV": "818.0",
+      "delta": "-1.20",
+      "delta_error_lower": "0.15",
+      "delta_error_upper": "0.15",
+      "Delta_natural": "-4.3",
+      "Delta_error_lower": "0.5",
+      "Delta_error_upper": "0.5",
+      "Delta_eb_per_muN": "-1.75",
+      "Delta_eb_error_lower": "0.22",
+      "Delta_eb_error_upper": "0.22",
+      "Fig5_M1_percent": 41
+    },
+    {
+      "E_keV": "1384.2",
+      "delta": "-0.37",
+      "delta_error_lower": "0.03",
+      "delta_error_upper": "0.03",
+      "Delta_natural": "-0.79",
+      "Delta_error_lower": "0.06",
+      "Delta_error_upper": "0.06",
+      "Delta_eb_per_muN": "-0.32",
+      "Delta_eb_error_lower": "0.03",
+      "Delta_eb_error_upper": "0.03",
+      "Fig5_M1_percent": 88
+    },
+    {
+      "E_keV": "1504.9",
+      "delta": "-0.55",
+      "delta_error_lower": "0.10",
+      "delta_error_upper": "0.10",
+      "Delta_natural": "-1.08",
+      "Delta_error_lower": "0.20",
+      "Delta_error_upper": "0.20",
+      "Delta_eb_per_muN": "-0.44",
+      "Delta_eb_error_lower": "0.08",
+      "Delta_eb_error_upper": "0.08",
+      "Fig5_M1_percent": 77
+    }
+  ],
+  "table_rows_total": 15,
+  "finite_mixed_rows_selected": 8,
+  "selection_rule": "finiteE2/M1 rows for finite-ratio unit arithmetic; all7pureE2 limits retained separately",
+  "pure_E2_rows_keV": [
+    "657.7",
+    "744.2",
+    "763.9",
+    "884.7",
+    "937.5",
+    "1475.7",
+    "1562.2"
+  ],
+  "pure_E2_scope": "within source dipole/quadrupole truncation, M1 forbidden by DeltaI2; not a precision limit on higher multipoles",
+  "units_inputs": {
+    "electron_rest_energy_MeV": 0.511,
+    "proton_rest_energy_MeV": 938.3,
+    "hbar_c_MeV_fm": 197.33,
+    "barn_fm2": 100.0,
+    "origin": "declared rounded standard unit inputs for this consistency check, not measured by KS70 or a claimed exact historical constant set"
+  },
+  "precision_rule": "preserve decimal strings; interval propagation of the last printed digit is a rounding consistency check, not an uncertainty or confidence model",
+  "phase_bridge": "D96 a(TL)=sqrt(8*pi*k/(2Ii+1))*KS emission U_TL with same BM operators/units; keep KS magnetic minus in Eq4b. E2/M1 d_D96=delta_KS.",
+  "BR_boundary": "Biedenharn–Rose1953 Eq12 relation is role dependent and is not the Rose–Brink1967 operator relation of Eq5.",
+  "no_claims": [
+    "no refit of25correlations",
+    "no new physicalδconfidenceinterval",
+    "no Day16formalcredit"
+  ]
+}

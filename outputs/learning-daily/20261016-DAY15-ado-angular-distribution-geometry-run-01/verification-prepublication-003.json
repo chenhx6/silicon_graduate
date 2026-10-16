@@ -1,0 +1,168 @@
+{
+  "at": "2026-10-17T01:38:48.348196+08:00",
+  "checks": [
+    {
+      "check": "eol",
+      "command": [
+        "python3",
+        "system/scripts/clean_knowledge_eol_dirty.py"
+      ],
+      "exit_code": 1,
+      "accepted": true,
+      "classification": "Seven own substantive paths preserved, zero unsafe/mixed, no EOL-only restores",
+      "output_file": "outputs/learning-daily/20261016-DAY15-ado-angular-distribution-geometry-run-01/eol-prepublication-003-current.txt"
+    },
+    {
+      "check": "preflight",
+      "command": [
+        "python3",
+        "system/scripts/wiki_automation_preflight.py",
+        "--root",
+        "."
+      ],
+      "exit_code": 0
+    },
+    {
+      "check": "boundary",
+      "command": [
+        "python3",
+        "system/scripts/wiki_boundary_check.py",
+        "--root",
+        "."
+      ],
+      "exit_code": 0
+    },
+    {
+      "check": "lint",
+      "command": [
+        "python3",
+        "system/scripts/wiki_lint.py",
+        "--fail-on",
+        "error"
+      ],
+      "exit_code": 0,
+      "errors": [],
+      "summary": [
+        "SUMMARY pages=608 wikilinks=6219 hashes=282 errors=0 warnings=146 info=2034"
+      ],
+      "warning_classes": {
+        "REACTION_PARSE": 3,
+        "CITATION_KEY_MISSING": 115,
+        "RAW_MISSING": 28
+      }
+    },
+    {
+      "check": "diff",
+      "command": [
+        "git",
+        "diff",
+        "--check"
+      ],
+      "exit_code": 0
+    }
+  ],
+  "report": {
+    "valid": true,
+    "missing_headings": []
+  },
+  "writeback": {
+    "valid": true,
+    "mode": "updated",
+    "knowledge_paths": [
+      "knowledge/methods/ado-covariance-calibration.md",
+      "knowledge/sources/zheng-2002-ado-coincidence-angular-anisotropy.md",
+      "knowledge/methods/angular-distribution.md",
+      "knowledge/sources/smith-2019-griffin-angular-correlation-analysis.md",
+      "knowledge/methods/angular-correlation.md",
+      "knowledge/sources/droste-1996-pdco-formalism.md",
+      "knowledge/sources/kramer-flecken-1989-use-dco-ratios.md",
+      "knowledge/index.md",
+      "knowledge/methods/event-mixing-statistics.md",
+      "knowledge/methods/dco-pdco-ambiguity-worksheet.md",
+      "knowledge/sources/krane-steffen-1970-cd110-mixing-ratios.md",
+      "knowledge/methods/dco-ratio.md",
+      "knowledge/observables/multipole-mixing-ratio.md"
+    ],
+    "changed_paths": [
+      "knowledge/index.md",
+      "knowledge/methods/ado-covariance-calibration.md",
+      "knowledge/methods/angular-correlation.md",
+      "knowledge/methods/angular-distribution.md",
+      "knowledge/methods/dco-pdco-ambiguity-worksheet.md",
+      "knowledge/methods/dco-ratio.md",
+      "knowledge/methods/event-mixing-statistics.md",
+      "knowledge/observables/multipole-mixing-ratio.md",
+      "knowledge/sources/droste-1996-pdco-formalism.md",
+      "knowledge/sources/kramer-flecken-1989-use-dco-ratios.md",
+      "knowledge/sources/krane-steffen-1970-cd110-mixing-ratios.md",
+      "knowledge/sources/smith-2019-griffin-angular-correlation-analysis.md",
+      "knowledge/sources/zheng-2002-ado-coincidence-angular-anisotropy.md"
+    ],
+    "change_check": "run-snapshot",
+    "error": null
+  },
+  "coverage": {
+    "valid": true,
+    "completed_day_indices": [
+      15
+    ],
+    "partial_day_indices": [
+      16
+    ],
+    "curriculum_cards_completed": 1,
+    "next_day_index": 16,
+    "error": null
+  },
+  "review_scope_proof": {
+    "knowledge/sources/krane-steffen-1970-cd110-mixing-ratios.md": {
+      "old_rows_unchanged": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "page_review_unchanged": true,
+      "review": "review_status: unreviewed"
+    },
+    "knowledge/sources/droste-1996-pdco-formalism.md": {
+      "old_rows_unchanged": [
+        true,
+        true,
+        true
+      ],
+      "page_review_unchanged": true,
+      "review": "review_status: unreviewed"
+    },
+    "knowledge/sources/kramer-flecken-1989-use-dco-ratios.md": {
+      "old_rows_unchanged": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "page_review_unchanged": true,
+      "review": "review_status: human-reviewed"
+    }
+  },
+  "protected": {
+    "PLAN.md": true,
+    "raw/zotero/wiki-inbox.bib": true,
+    "system/scripts/run_daily_learning_daemon.py": true
+  },
+  "artifacts": {
+    "system/scripts/day16_pdco_ambiguity_preview.py": {
+      "AST_valid": true,
+      "output_script_hash_matches": true
+    },
+    "system/scripts/day16_ks70_convention_inversion.py": {
+      "AST_valid": true,
+      "output_script_hash_matches": true
+    }
+  },
+  "next_prompt_exists": true,
+  "git_index_before": ""
+}

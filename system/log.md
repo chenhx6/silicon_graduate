@@ -1735,3 +1735,11 @@ Zobel1983六页/metadata/raw与958parent10个Pubfit rows，38-check条件Gaussia
 ## 2026-10-16T23:32:55.539318+08:00 — DAY15 extended statistics and formal-card audit
 
 本session精确mixed-event U统计量/finiteK/Cov、平衡与弱分母反例、独立枚举/MC/图已canonical；Gri固定软件归档/hash/有限静态读取及NDA构造/源码缺口保留，未build或重放。Fresh lint0error/146warning及boundary/diff/writeback/图审核通过，Day15七项正式审计complete，仅15计卡；goal/run仍active至2026-10-17 15:00。Day16只冻结无学分预习/准备次日独立入口，partial16不授卡、不越16、不开17。检查点002 commit target main / `Extend DAY15 event-mixing statistics and audit formal card completion`；实际发布与课程一次对账见本runreceipt。继承日志/daemon/旧receipts、原raw/PLAN/Bib/review保留。
+
+## 2026-10-17 — Day15持续窗口：Day16无学分预习与DCO原式更正
+
+- 同run/session保持原15:00硬截止、Day15正式卡complete；课程publication002后幂等对账next16/count15，只partial16、不授16/不开17。
+- D96/KS70/KF89主线与source F/实现相位映射、同BM定义桥、精确同R双根/P1/P2和实际818–658系数受限反演已canonical；quoted-box不是jointCI，单位误差精度边界保留。
+- KF89原件更正旧Wiki实验I分式倒置；原human-reviewed页/旧claim行保留，新更正仅self-audit。十三项writeback、旧review/protected与脚本输出hash验收通过。
+- fresh boundary/preflight/lint/diff exit0，lint0error/146warnings；EOL exit1为7项own substantive/0unsafe保留。研究仍active，下一核RB67归一振幅，不将checkpoint当收束。
+- 本批commit target：main / Verify Day16 mixing-ratio phases and correct DCO ratio transcription；实际H3/push结果只在publication003/runreceipt，exactmanifest排除raw/PLAN/Bib/daemon和继承receipts/旧log。

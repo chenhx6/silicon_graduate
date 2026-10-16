@@ -3,7 +3,7 @@ type: observable
 title: 多极混合比
 aliases: [multipole mixing ratio, E2/M1 mixing ratio, mixing ratio, δ]
 created: 2026-07-01
-updated: 2026-10-15
+updated: 2026-10-17
 status: active
 review_status: unreviewed
 observable_kind: electromagnetic-transition-observable
@@ -33,6 +33,14 @@ tags: [gamma-transition, multipolarity, wobbling]
 [[rose-brink-1967-phase-defined-angular-distributions]] 的 RB67-6（printed p.319 / PDF p.14, Eq.3.39）使用相位定义的 interaction operator，初态 `J1` 在 RME 左侧，并对每个振幅除以 `√(2L+1)`：`δ_(L′π′)=a_(L′π′)/a_(Lbar πbar)`，`a_(Lπ)=⟨J1||T_L^π||J2⟩/√(2L+1)`；最低阶成分的 δ 为 1。其模的平方对应部分 γ 宽度比。`π=0/1` 是该文的 E/M 标签，核态宇称另记 `πi,πf`。实数性与相位条件回到 Eq.3.32 note(v) 和 Eq.3.39 footnote17，不凭名称互换 BM 与 RB 的矩阵元。
 
 在 LKH82-4 的发射级联 `J1→J2→J3` 下，`δKS(γ1)=−δBR(γ1)=−δRB(γ1)`，`δKS(γ2)=+δBR(γ2)=−δRB(γ2)`；第一、第二 γ 的 BR 转换不同。吸收、电/磁算符与几何系数须再核对 Eqs.2.9–2.11。共同核态的任意整体相位在比值中抵消，算符/约化定义的相位及发射吸收映射仍需保持。
+
+### 2026-10-17原始振幅定义复核补充
+
+[[krane-steffen-1970-cd110-mixing-ratios]] KS70-5/6/7与[[droste-1996-pdco-formalism]] DR96-5补强上述约定链：KS70 Eq4b的magnetic显式负号和i^(L−1)必须一起保留，才得到D96 Eq5的i^(L+1)。同BM算符/初末态/单位下，`a_D96(TL)=sqrt(8pi k/(2Ii+1)) t_KS(TL)（发射RME，非U_lambda去取向）`，同gamma的E2/M1 ratio相同；这不是一个任意全局换号。
+
+KS70的B(first gamma)和A(second gamma)干涉项本来就不同，Eq12的BR是Biedenharn–Rose1953，Eq5的Rose–Brink1967是另一份operator/state-order映射。不能将initial-left emission notation直接认作吸收，也不能把bare T_RB matrix ratio省掉sqrt(2L+1)便叫作同一个delta。现有LKH82/RB67约定段保留，本次只是明确的primary-source桥，不把共同理论源当独立实验。
+
+[[dco-pdco-ambiguity-worksheet]]提供D96模型及KS70实际818–658 corrected coefficients的条件双根；[[kramer-flecken-1989-use-dco-ratios]] KF89-9更正旧Wiki的实验R分式。**坐标/符号改写不是新增物理解；固定operators/cascade后同一观测的两个根才是逆问题的候选。** Phase、gamma角色、detector labels和核态顺序应与数据一起保存。
 
 ## Angular-Momentum and Parity Filters
 

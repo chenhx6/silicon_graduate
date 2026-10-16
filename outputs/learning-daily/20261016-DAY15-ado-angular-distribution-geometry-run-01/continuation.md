@@ -1,19 +1,21 @@
 # Day15同session持续学习续接
 
-- generated_at: 2026-10-16T23:32:55.539318+08:00
+- generated_at: 2026-10-17T01:37:55.055316+08:00
 - run_id: 2026-10-16-day-15-01
 - session_id: 01a14510-aec7-7e00-aa23-f7c77a5124bc
 - resume_command: `codex resume 01a14510-aec7-7e00-aa23-f7c77a5124bc -C /workspace/wiki -s danger-full-access -a never`
-- 原研究硬截止：2026-10-17T15:00:00+08:00；15:00–16:00只收束，不延长。Goal/run仍active，formal Day15已审计complete，completed[15]/partial[16]，Day16只预习、不计卡；不开Day17。
+- 原硬截止：2026-10-17T15:00:00+08:00；15:00–16:00只收束。
 
-先读active handoff、本run research-checkpoint.json、run.json、最新publication receipt及日报Run state/Verification。检查真实Git/课程状态；若课程已next16/count15，不重复增计。若receipt completed，只交付/讨论；若closing-out，只做剩余收束；running则继续原window的高信息问题。启动治理文件已读，不重扫全部历史。
+Goal/run仍active，Day15正式卡complete且已发布/幂等对账next16/count15。completed[15]/partial[16]，Day16不计卡，不打开Day17。先检查真实时间、active handoff、research-checkpoint和最新publication/runreceipt，不因日期变化重置deadline；不重复增计课程或重开completed的旧run。
 
-当前已完成：本session22:17 primed recall先冻结，Zheng5页原件重核，新的ADO两路f/共享背景及效率latent Cov、解析/pair/MC/敏感性图已canonical。GRIFFIN28页v1主线/附录及关键图表已读、保留VoR未得/多spin/表文歧义；当前公开固定软件归档经byte/MD5/SHA验证，只做有限setup/CMake/header检查，README/constructor comment明确缺NDA几何/源码，不冒称build或full response重放。精确mixed-partner U统计量、finite-K噪声、prompt/mixed Cov、balanced/弱分母控制及独立枚举/MC/图已写knowledge/methods/event-mixing-statistics.md。所有数为chosen模型，不补真实Σ/Jpi/δ。
+已完成：Zheng5页与本session primed回忆、新ADO两路f/共享背景和效率Cov/敏感性图；GRIFFIN28页v1及fixed公开软件有限审计，有限接受与NDA几何/代码缺口保留；mixed-event exact U统计量、finiteK/Cov/退化/弱分母及独立枚举MC。前两批实际非force Gitee push已在publication001/002确认。
 
-检查点00144文件已实际H3非force Gitee push，指针main / Establish DAY15 ADO covariance and independent response evidence；完整hash只在publication001/runreceipt。检查点002的实际结果以publication002为准；没有结果不能称已push。正式卡的7项审计、freshchecks、continuation、receipt和次日独立入口均存在；课程通过发布后用runner的幂等状态函数对账next16/count15。
+Day16无学分预习的回忆先冻结。D96八页、KS70十一页、KF89七页主线已读；点响应的source F与direct kernel桥、精确同R两根与polarization、KS70实际818–658系数central双根/box preimage及单位列边界已canonical。delta_probe=−d_source是implementation basis变换；同BM定义下D96 d=KS delta。旧Wiki KF89实验I分式写反，原件一致；新KF89-9和方法页已更正，旧审核flags与行未改、不称新增人审。
 
-下一优先路线为恰好Day16无学分预习。已检查其课程卡，并在day16-preview-recall-frozen.md保存primed来源前回忆/时间/session/hash；未打开Droste1996或Krane–Steffen1970 source/raw，下一步先核其页和原件身份、沿主线读定义/公式/图表/误差与phase约定，再选一项真实RDCO/δ或明确条件设计给两个候选解，比较两篇phase/convention原件并做物理observable不变/pure limit失败控制。需要的新知写knowledge，保留本run唯一writeback；只列partial16，不授16、不推进next_day超过16、不打开17。次日20261017-DAY16独立prompt只是准备，未启动新session/daemon/调度；其自己的硬截止不改变当前Day15截止。
+当前唯一knowledge-writeback十三项。检查点003已提交，稳定指针为 main / Verify Day16 mixing-ratio phases and correct DCO ratio transcription，实际H3/push结果必须看publication003，不能据提交补写推送成功。fresh verification-prepublication-003.json保存边界/lint/diff/contract及旧review/protected核验。课程milestone已next16/count15，包含于本包，不给16正式学分。
 
-可选continuity companion：GRIFFIN Ref16/18的Crossref身份已核，OpenAlex无OA，Drijard1984的CERN record150008已一次命中bot-verification边界、未得正文，不原样重试；不得把metadata当正文或原样重试已终态失败的Elsevier XML。若边际收益低，优先Day16的新phase/双解问题，不重复旧toy或堆check数量。
+下一优先路线：在打开原件前冻结针对Rose–Brink1967 Eq3.39/normalized delta的预期，核现有RB67-6与KS70 Eq5逐定义映射，特别是state order、sqrt(2L+1)、multipole phase。若已覆盖则verified no-op，不制造增量。之后刷新候选池；可做A130 delta分支方法的primary对照，但不以仅integer控制的kernel模拟135Pr half-spin，不给collective-mode结论。
 
-每个问题/来源局部完成后用clock刷新原deadline和候选池。现在还约15.5小时，不能在本checkpoint提前结束。不要等待没有实际live handle的任务；不要伪造scheduled/runtime事件。保护PLAN/Bib/原raw/review/继承Day6–9/13/14 receipts、daemon与旧log；只显式stage本run路径，log只追加并隔离stage；每次commit后完整H3，成功结果只存receipt，当前commit自身hash不得写进它包含的文件。
+真实实验L4仍缺events、production sorter、完整joint response/background/Σ；合成数和已corrected coefficients不补这些输入。CERN150008 bot、Elsevier XML失败已记录，不原样重试。不要重复旧toy或按checks数量填窗口；当前仍有十余小时，研究局部饱和后检查当前候选池及恰好partial16，不凭卡/推送完成提前结束。
+
+保护PLAN/Bib/原raw/review/继承Day6–9/13/14 receipts、daemon及旧log；exactmanifest stage、log只stage HEAD+own append、H3 freshfetch/ancestry/dryrun/HEAD:main非force；commit自身hash只在事后receipt。不要新建goal/session/daemon或伪造scheduler事件。

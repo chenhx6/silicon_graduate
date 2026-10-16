@@ -1,0 +1,19 @@
+{
+  "purpose": "exact Crossref title/PII/author/year match; original8-page PDF hash separately verified",
+  "selected": {
+    "title": "PDCO: Polarizational-directional correlation from oriented nuclei",
+    "authors": [
+      "Ch Droste",
+      "S.G Rohoziński",
+      "K Starosta",
+      "T Morek",
+      "J Srebrny",
+      "et al."
+    ],
+    "year": 1996,
+    "doi": "10.1016/0168-9002(96)00426-3",
+    "journal": "Nuclear Instruments and Methods in Physics Research Section A: Accelerators, Spectrometers, Detectors and Associated Equipment",
+    "source": "crossref",
+    "citation_count": 62
+  }
+}

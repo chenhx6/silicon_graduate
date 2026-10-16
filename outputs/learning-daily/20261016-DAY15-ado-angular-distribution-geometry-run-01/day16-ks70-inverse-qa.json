@@ -1,0 +1,29 @@
+{
+  "at": "2026-10-17T01:31:31.536475+08:00",
+  "checks": [
+    {
+      "check": "source",
+      "exit_code": 0,
+      "ready": true,
+      "strict": false,
+      "counts": {
+        "PASS": 19,
+        "WARN": 2,
+        "FAIL": 0
+      }
+    },
+    {
+      "check": "glyph",
+      "exit_code": 0,
+      "minimum_pt": 7.0
+    },
+    {
+      "check": "collision",
+      "exit_code": 0
+    }
+  ],
+  "alignment": "passedatfinalrender",
+  "pdf_sha256": "b0c2de9d665fa1076677cf3d2b28c9ff5581b39643dc968ee552af4074e41602",
+  "warning_review": "PNG300dpi is a report preview with vectorSVG/PDF, not aTIFF submission claim. Modelroot points are not observed deltapoints; bandsarequotedmarginalrangeswith no confidencelevel.",
+  "scientific_precision_boundary": "620.2errorrow didnotclose understrict trailing-zero significance diagnostic; retainedinput andoutputflag, notdata correction."
+}

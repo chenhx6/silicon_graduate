@@ -1,0 +1,16 @@
+{
+  "source": "knowledge/sources/kramer-flecken-1989-use-dco-ratios.md",
+  "existing_page_review": "human-reviewed",
+  "old_claim_rows_preserve": [
+    "| KF89-1 | 本文先把理论 DCO ratio 定义为 `R_DCO = W(theta_2,theta_1,phi) / W(theta_1,theta_2,phi)`，并紧接着给出实验上对应的 `R_DCO = I_{theta_2}(Gate_{theta_1}) / I_{theta_1}(Gate_{theta_2})`；交换角度或交换 gate 与被观察跃迁会把 DCO ratio 取倒数。 | method-formalism | direct | p.334, Sec.2 around the definition of `R_DCO` | false |",
+    "| KF89-2 | 作者采用以 `m=0` 为中心的 Gaussian magnetic-substate population 描述初态取向，并指出 `sigma/I` 在较宽自旋区间内近似常数，但在低自旋 `I < 6` 区域会偏离这一经验规律。 | method-boundary | direct | p.334, Sec.2 first paragraph | false |",
+    "| KF89-3 | DCO 对几何强烈依赖：区分不同 cascades 的效果在一个探测器接近 `0°/180°`、另一个接近 `90°` 时最大；对大阵列，应选择能放大该差异的 detector combinations。 | experimental-criterion | direct | pp.334--335, Fig.2 and text below | false |",
+    "| KF89-4 | 实验 DCO ratios 需要做相对效率修正；推荐用能量相近、已知 multipolarity 与 spin 的 cascades 来标定平均修正因子。 | experimental-practice | direct | p.335, Sec.2 paragraph below Fig.2 | false |",
+    "| KF89-5 | DCO 依赖初态 alignment：当 `a/I` 很大时，DCO ratio 会趋近 `1`，与放射源无取向情形相符。 | method-boundary | direct | p.335, Fig.3 and surrounding text | false |",
+    "| KF89-6 | 在允许 dipole-quadrupole mixing 的情况下，同一个实验 DCO ratio 可对应若干不同的自旋或 mixing-ratio 解；一般而言 `Delta I = ±1` 不能仅靠 DCO 唯一区分，因此单靠 DCO 不能总是给出无歧义自旋指定。 | method-boundary | direct | p.337, top paragraph; Fig.4 discussion | false |",
+    "| KF89-7 | 作者总结 DCO method 相对角分布的三项实践优势是：可研究弱跃迁、可处理 multiplets、且不需要 beam-charge normalization。 | author-interpretation | direct | p.337, paragraph below Fig.4 | false |",
+    "| KF89-8 | 在 `178W` 的 OSIRIS 示例中，作者结合多条 cascade 的 DCO ratios 与强度信息，把 `3527 keV`、`35 ns` isomer 的自旋定为 `I=14`。 | observed-fact | direct | pp.338--339, Sec.4 and Fig.8 discussion | false |"
+  ],
+  "baseline_match": true,
+  "new_correction_review_scope": "Codex self-audit only, no new human-reviewed claim or old flag change"
+}

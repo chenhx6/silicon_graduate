@@ -1,0 +1,58 @@
+{
+  "data_identity": "DAY16-PREVIEW-KS70-818-658-TABLEII-01",
+  "kind": "published geometry-corrected angular coefficients plus declared point-model inversion; no raw event/response replay",
+  "source": "knowledge/sources/krane-steffen-1970-cd110-mixing-ratios.md",
+  "source_locator": "printed733 TableII row818-658; printed732 TableI 658-gated818 row; printed733 Fig5/TableIII; printed727 Eq4–12",
+  "transition_identity": {
+    "target_gamma": "818.0keV,2+(1475.7)->2+(657.7)",
+    "gate_gamma": "657.7keV/nominal658,2+(657.7)->0+(0),pureE2",
+    "parent": "110mAg; historical article quotes253days, not a present evaluation",
+    "spin_path": [
+      2,
+      2,
+      0
+    ],
+    "initial_density": "unoriented,identity/5; this is gamma-gamma directional correlation, not an oriented DCO swapped-cell measurement"
+  },
+  "direct_TableII": {
+    "A22": 0.375,
+    "quoted_error_A22": 0.05,
+    "A44": 0.18,
+    "quoted_error_A44": 0.05
+  },
+  "indirect_TableI_658gate": {
+    "A22": 0.481,
+    "quoted_error_A22": 0.082,
+    "A44": 0.155,
+    "quoted_error_A44": 0.112
+  },
+  "final_network_TableIII": {
+    "delta_KS": -1.2,
+    "quoted_error_delta": 0.15,
+    "note": "derived from shared network ofcorrelations,not anotherindependent observable to refit"
+  },
+  "point_model": "integerCG/photon kernel and independent generalizedF fromD96, with source amplitude basis mapped toKS emission convention by explicitBM factors; pureE2 gamma2",
+  "input_conventions": {
+    "KS_delta": "Eq9:emission reducedU_E2/U_M1,initial state right",
+    "BM_bridge": "Eq4b has explicit magnetic minus; d_D96=delta_KS if same BM operators/units/state phases",
+    "different_role": "Eq10B(first) has minus interference;Eq11A(second) has plus; do not swap without state/role mapping",
+    "BR_names": "Eq12 means Biedenharn–Rose1953,not Rose–Brink1967 Eq5"
+  },
+  "analysis_plan": [
+    "use only central TableII A22 for explicit quadratic inversion and keep every real root",
+    "predictA44 and compare to printed marginal errorswithoutinventedjointCov",
+    "compare indirectcentralA22to exactphysical range; if no realrootsdo not fabricatevalues",
+    "networkdelta and TableIII moments are dependent summaries; do not add them as independentchi2constraints"
+  ],
+  "priming": "sourcefinaldelta -1.20 andGRIFFIN2->2->0 example already known; notblindprediction",
+  "missing": [
+    "actualjointCov(A22,A44), includingbackground andcalibration",
+    "original events/gatedspectra/geometry nuisancefit",
+    "published rawchi2 likelihood grid/confidence definition"
+  ],
+  "no_claims": [
+    "noexperimental delta CI fromassumed independent errors",
+    "no new spinparity orM1/E2strengthmeasurement",
+    "no Day16formalcredit; currentrunDay15partial16"
+  ]
+}

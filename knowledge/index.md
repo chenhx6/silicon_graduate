@@ -2,7 +2,7 @@
 type: system-index
 graph-excluded: true
 created: 2026-07-01
-updated: 2026-10-16
+updated: 2026-10-17
 ---
 
 # Wiki Index
@@ -469,6 +469,7 @@ updated: 2026-10-16
 - [[angular-distribution]] - 完整角分布与 ADO ratio 的阵列特定 multipolarity calibration；可与偏振联合使用。
 - [[ado-covariance-calibration]] - ADO的独立本征参考/gate几何两路校验、共享背景和效率latent Cov；自设数值与实际joint响应分层。
 - [[event-mixing-statistics]] - mixed-partner复用的精确矩/退化控制、physical-event与pair entries及ratio cross Cov；条件推导不代实际Σ。
+- [[dco-pdco-ambiguity-worksheet]] - D96点响应下的精确同R双根、PDCO模式与相位基底核对；原文近似示例/本任务模型/真实数据分层。
 - [[gamma-gamma-coincidence]] - 建立级联与能级纲图。
 - [[level-scheme-reconstruction]] - 从谱峰、符合、能量和到逐线 multipolarity/Jπ 的证据审计；保留复合峰、共享数据和未知绝对能级边界。
 - [[angular-correlation]] - γ/particle-γ angular correlation 的 alignment、multipolarity 与 deorientation correction 入口。
