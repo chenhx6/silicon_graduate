@@ -36,7 +36,7 @@ tags: [high-spin, transitional-nuclei, iodine-isotopes, decoupled-band, gamma-so
 - 英文题目：*High-spin studies of transitional nuclei 127, 128I*
 - 作者：丁兵（指导教师：张玉虎 研究员、博士）
 - 学位授予单位：中国科学院研究生院 / 中国科学院近代物理研究所
-- 答辩与提交日期：2012 年 4 月
+- 论文提交日期：2012 年 4 月；论文答辩日期：2012 年 5 月（PDF p.1 封面，D12-36）
 - 原始文件：`raw/papers/degree dissertation/丁兵 - 博士论文.pdf` (SHA-256: `ca7765ad962ea0c106791532f5a7d9f359533d25bb0170f03197bfec414be5c7`)
 
 ## Scope and Reading Depth
@@ -112,6 +112,7 @@ tags: [high-spin, transitional-nuclei, iodine-isotopes, decoupled-band, gamma-so
 | D12-33 | 本文/CPL强102.2为285.2→183.0、ECC=.60(7)随该component；2015选定ENSDF却把102.2/ECC放269.57→167.367并在285.19列15.6。Text/PDF均核，属于sourceobject拓扑/字段冲突，非rounding；未读2012Di14/body/erratum前不裁决哪图正确、不将评价当独立新测量。 | primary-versus-evaluation-conflict-boundary | direct-and-derived | PDF77 Fig6.2; PDF79–80 conversiontext; NNDC128053024 L269.57/G102.2 and renderedPDF2 | true |
 | D12-34 | D12-25的6/8→6只限其明示H0/H2集合。本任务扩到M1component-present族后，fixedupper7/anchor6与两genericL1可留6/7，nondecreasingtrend不再唯一；需要独立stretched255或实际角response/spin材料。该scope修订不改本文建议6、也未证明J7匹配RADO。 | conditional-inference-scope-audit | derived | PDF78 Table6.1 three localrows; PDF79 discussion; CPLgeneralwarning; selectedENSDFreactionADOcomments | true |
 | D12-35 | 同parent314/255的RADO.91(15)/.92(20)仍可含spinsequence信息；本任务pureL1/commonparentdensity/point37-90/fADO1 baseline给Hx7的a2比例−13/8与异号必要约束，但positivequotedboxwitness存在，实际gate/δ/Σ未核。不因前述kinematic7候选忽略RADO，亦不据打印中心作实验排除。 | our-conditional-angular-consistency-audit | derived | PDF78 Table6.1 rows255.6/314.3; PDF54–55 ADO; PDF57 geometry | true |
+| D12-36 | 封面分别列论文提交日期为2012年4月、论文答辩日期为2012年5月；旧书目摘要将两者合写为4月，本轮据同一哈希原件纠正。此为书目字段核验，不改变论文的实验或模型结论。 | bibliographic-fact | direct | PDF p.1 cover: submission and defense dates | true |
 
 ### 2026-10-12 reaction-channel evidence addendum
 

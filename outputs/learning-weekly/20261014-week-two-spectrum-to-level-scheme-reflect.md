@@ -2,12 +2,12 @@
 type: learning-report
 graph-excluded: true
 created: 2026-10-14
-updated: 2026-10-14
+updated: 2026-10-16
 ---
 
 # 第二周 weekly REFLECT
 
-本回执对应正式Day14 session `01a13a0e-e8bd-7251-b970-f6975679e281`，有Day13预习priming。正式六维self-score为理论3、判图4、误差3、证据分层4、反证4、可证伪问题3，21/24；不是独立盲测，预习19/24不进入成绩。每日学习仍active至原2026-10-15 15:00，不以这份周考结束时窗。
+本回执对应正式Day14 session `01a13a0e-e8bd-7251-b970-f6975679e281`，有Day13预习priming。正式六维self-score为理论3、判图4、误差3、证据分层4、反证4、可证伪问题3，21/24；不是独立盲测，预习19/24不进入成绩。因用户明确说明断网并授权加时，本run研究截止为2026-10-16 15:00（上海），15:00–16:00收束交付；原2026-10-15 15:00仅为历史截止。正式卡完成后继续同session学习，当前仍待最终回执、检查与课程状态对账。
 
 ## weekly REFLECT
 
@@ -25,3 +25,7 @@ updated: 2026-10-14
 ## 下周短板
 
 真实gate/response功效、完整calibration covariance及角关联前向模型仍需增强。formal Day15必须重新保存自己的来源前回忆并做阵列/门定义核验；任何本次预习只计partial，不给其学分。所有source的既有needs_review/review_status保留。
+
+## 延期学习的回看
+
+正式成绩固定为21/24。后续练习进一步暴露两类边界：同母态不保证相同门选择后的布居，期刊原文与评价库的相同能量也不保证相同transition绑定。可复用的条件推导和128I来源冲突保存在[[level-scheme-reconstruction]]、[[nndc-2015-128i-selected-level-gamma-records]]及[[ding-2012-phd-thesis-127-128i-high-spin]]，未把访问失败写成已读，未据此重指认实验spin或模式。Day15只作预习，正式运行仍须保存自己的primed回忆和课程审计。

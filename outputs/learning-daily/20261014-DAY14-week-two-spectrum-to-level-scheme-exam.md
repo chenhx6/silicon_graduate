@@ -835,6 +835,8 @@ Decision: **supports** 使用共有parent的联合radiation约束，**limits** k
 
 ## Durable knowledge delta
 
+最终交付审计另据同哈希原件封面修正[丁兵论文书目日期](../../knowledge/sources/ding-2012-phd-thesis-127-128i-high-spin.md)：提交为2012年4月、答辩为5月，定位D12-36 / PDF p.1 cover。旧claim与review状态保留；以下唯一写回块累计156项、44份本run修改的知识页。
+
 本run累计修改的knowledge Markdown以本节唯一机器块和最新验收回执为准；超出昨日预习的增量为七边逐条证据、相关cycle/标定nullspace、未定doublet shared-quantity边界和parent-lifetime契约。canonical知识路径：
 
 - [Herzáň source](../../knowledge/sources/herzan-2015-193bi-spectroscopy.md)：HE15-8–14及正式来源主线/triage。
@@ -4591,6 +4593,17 @@ Decision: **supports** 使用共有parent的联合radiation约束，**limits** k
           "locator": "N128-18"
         }
       ]
+    },
+    {
+      "knowledge": "knowledge/sources/ding-2012-phd-thesis-127-128i-high-spin.md",
+      "summary": "据同哈希原件封面纠正书目日期：提交2012年4月、答辩2012年5月；原审核状态与科学结论保持。",
+      "anchor": "论文提交日期：2012 年 4 月；论文答辩日期：2012 年 5 月",
+      "sources": [
+        {
+          "path": "knowledge/sources/ding-2012-phd-thesis-127-128i-high-spin.md",
+          "locator": "D12-36"
+        }
+      ]
     }
   ]
 }
@@ -5141,3 +5154,12 @@ Stablepointer main / `Clarify DAY14 iodine spin-hypothesis scope and evidence ro
 `wiki_lint.py --fail-on error`实际exit0，0errors/145warnings（114citekeys/28rawslots/3reactionparser）；`git diff --check`、boundary/preflight exit0。EOLexit1仅保留4页本批substantive，0restore/unsafe。Farmer42019于13:14上海核running/currentthreadrunning，无新session/goal/daily scheduler。
 
 Stablepointer main / `Bound DAY14 common-parent angular consistency assumptions`，actualH3/hash/push只publication-044.json。当前bounded主分析具备，下一按原Day14卡核source定位/模型条件/复算边界和wholeobjective交付证据，run仍active到研究截止；<90min不新source/card，15:00后仅closeout。原primarybody/actualgate/δ/响应Cov未决不变成experimental结果，formal21/24/partial15不变；preserve inherited/raw/PLAN/Bib/review，显式manifest/H3非force发布。
+
+
+### Checkpoint045 正式交付逐项审计
+
+同session于2026-10-16 13:41上海完成41/41项整体审计，详见[审计代码](20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/objective-audit-045.py)与[逐项结果](20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/objective-audit-045.json)。七条跃迁的八个表格字段直接从原PDF再次核验；正式重建35/35且结果与冻结产物相同；来源前回忆与首次发布逐字一致；六维0–4分合21、REFLECT和课程审计完整。旧review和claim flags无提升，新claims保留needs_review。
+
+报告中的229个相对链接（214个不同artifact）均存在且已跟踪，实际[恢复链接审计](20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/linked-artifact-recovery-audit-045.json)保存当时结果。本批单独纠正Ding封面提交/答辩月份，累计唯一writeback156项、44份修改知识页。当前lint exit0（0 errors/145 warnings：114 citation key、28未填raw保留槽、3 reaction parser），boundary/preflight/diff均0；EOL exit1为保留本任务一份实质source修改，unsafe/mixed为0。
+
+下一正式入口按延期收束实际日期准备为[20261016 Day15 prompt](prompts/20261016-DAY15-ado-angular-distribution-geometry.md)，仅生成入口、不启动、不计卡。当前课程next14/count13仍保持，最终closeout通过所有门后一次只计14。Farmer状态正常且无pending；当前<90分钟，只核既有分析，不新开来源或课程卡；run/goal仍active，15:00研究停止，15:00–16:00收束。

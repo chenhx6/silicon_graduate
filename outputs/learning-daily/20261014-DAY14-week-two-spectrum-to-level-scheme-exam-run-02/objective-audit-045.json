@@ -1,0 +1,322 @@
+{
+  "at": "2026-10-16T13:41:23.430109+08:00",
+  "run_id": "2026-10-14-day-14-02",
+  "session_id": "01a13a0e-e8bd-7251-b970-f6975679e281",
+  "scope": "核验既有正式Day14与收束准备；不新开来源或课程卡",
+  "checks": {
+    "report_headings": true,
+    "formal14_only_partial15": true,
+    "one_atomic_grounded_writeback": true,
+    "156items_44_changed_pages": true,
+    "all_existing_review_status_preserved": true,
+    "all_old_claim_flags_preserved": true,
+    "new_source_claims_need_review": true,
+    "recall_frozen_since_initial_publication": true,
+    "recall_priming_and_original_timestamp": true,
+    "anchor_raw_hash": true,
+    "anchor_twenty_pages": true,
+    "direct_original_table_L323.4": true,
+    "direct_original_table_L299.2": true,
+    "direct_original_table_L327.4": true,
+    "direct_original_table_L319.8": true,
+    "direct_original_table_L622.4": true,
+    "direct_original_table_L626.2": true,
+    "direct_original_table_L646.9": true,
+    "figure2_five_labels_present": true,
+    "3198_in_other_transitions": true,
+    "doublet_footnote_real_counterevidence": true,
+    "formal35_rerun_exit0": true,
+    "formal_analysis_semantically_frozen": true,
+    "seven_explicit_ECMJ_rows": true,
+    "companion_and_independence_boundaries": true,
+    "experimental_criteria_matrix": true,
+    "six_dimensions_each0to4_sum21": true,
+    "weekly_reflect_substantive": true,
+    "weekly_extension_metadata_current": true,
+    "card_audit_minimum4_deliverables_complete": true,
+    "ding_cover_submission_april_defense_may": true,
+    "ding_prior35_rows_exact": true,
+    "PLAN_Bib_protected_hashes": true,
+    "all_raw_metadata_preserved": true,
+    "same_session_thread_started": true,
+    "only_actual_four_clock_acknowledgements": true,
+    "user_extension_research_and_delivery_split": true,
+    "actual_extension_scheduler_event_preserved": true,
+    "next_prompt_actual_date_and_no_credit": true,
+    "course_not_advanced_before_closeout": true,
+    "44_prior_publications_have_success_receipts": true
+  },
+  "checks_passed": 41,
+  "checks_total": 41,
+  "all_passed": true,
+  "evidence": {
+    "review_audit": {
+      "review_differences": [],
+      "flag_differences": [],
+      "new_flag_issues": []
+    },
+    "recall": {
+      "path": "outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/active-recall-before-sources.md",
+      "sha256": "2d6df2dfdfc8303e646dcb7354d9453e307351a80ae497341625c7012272869b",
+      "locator": "三层级联与门（先写后查）"
+    },
+    "table_rows_directly_rechecked": [
+      {
+        "transition": "L323.4",
+        "page": 3,
+        "cells": [
+          "323.4(1)",
+          "1000(57)",
+          "929",
+          "15/2+",
+          "13/2+",
+          "0.74(4)",
+          "−0.012(1)",
+          "M1"
+        ],
+        "source": "knowledge/sources/herzan-2015-193bi-spectroscopy.md",
+        "locator": "HE15-4"
+      },
+      {
+        "transition": "L299.2",
+        "page": 3,
+        "cells": [
+          "299.2(1)",
+          "258(8)",
+          "1228",
+          "17/2+",
+          "15/2+",
+          "0.68(2)",
+          "−0.032(1)",
+          "M1"
+        ],
+        "source": "knowledge/sources/herzan-2015-193bi-spectroscopy.md",
+        "locator": "HE15-4"
+      },
+      {
+        "transition": "L327.4",
+        "page": 3,
+        "cells": [
+          "327.4(1)",
+          "196(6)",
+          "1556",
+          "19/2+",
+          "17/2+",
+          "0.68(2)",
+          "−0.004(1)",
+          "M1"
+        ],
+        "source": "knowledge/sources/herzan-2015-193bi-spectroscopy.md",
+        "locator": "HE15-8"
+      },
+      {
+        "transition": "L319.8",
+        "page": 7,
+        "cells": [
+          "319.8(1)",
+          "125(4)",
+          "1875",
+          "21/2+",
+          "19/2+",
+          "0.60(2)",
+          "−0.039(2)",
+          "M1"
+        ],
+        "source": "knowledge/sources/herzan-2015-193bi-spectroscopy.md",
+        "locator": "HE15-8"
+      },
+      {
+        "transition": "L622.4",
+        "page": 3,
+        "cells": [
+          "622.4(1)",
+          "121(5)",
+          "1228",
+          "17/2+",
+          "13/2+",
+          "1.30(16)",
+          "0.086(10)",
+          "E2"
+        ],
+        "source": "knowledge/sources/herzan-2015-193bi-spectroscopy.md",
+        "locator": "HE15-4"
+      },
+      {
+        "transition": "L626.2",
+        "page": 3,
+        "cells": [
+          "626.2(1)",
+          "102(4)",
+          "1556",
+          "19/2+",
+          "15/2+",
+          "1.48(6)",
+          "0.094(9)",
+          "E2"
+        ],
+        "source": "knowledge/sources/herzan-2015-193bi-spectroscopy.md",
+        "locator": "HE15-8"
+      },
+      {
+        "transition": "L646.9",
+        "page": 3,
+        "cells": [
+          "646.9(1)",
+          "108(4)",
+          "1875",
+          "21/2+",
+          "17/2+",
+          "1.47(6)",
+          "0.091(4)",
+          "E2"
+        ],
+        "source": "knowledge/sources/herzan-2015-193bi-spectroscopy.md",
+        "locator": "HE15-8"
+      }
+    ],
+    "visual_recheck": [
+      "PDF p.3 Table I",
+      "PDF p.7 Table I / footnote f",
+      "PDF p.8 Figure 2 (rotated)"
+    ],
+    "formal_reconstruction": {
+      "command": [
+        "/opt/venv/bin/python3",
+        "system/scripts/day14_level_scheme_audit.py",
+        "--fixture",
+        "/workspace/wiki/outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/level-scheme-fixture.json",
+        "--output",
+        "/workspace/wiki/tmp/day14-20261014/formal-level-scheme-recheck-045.json"
+      ],
+      "exit_code": 0,
+      "checks_passed": 35,
+      "original_sha256": "e4f3d1a857faba86cac514283d0379acd4651145178a8c99146ad6c3760f2655",
+      "fixture_sha256": "4c45b92d534e4914fb7c7d33310c658682e16fc6cf6f73a920f6385e76f61b76"
+    },
+    "metadata_correction": {
+      "knowledge": "knowledge/sources/ding-2012-phd-thesis-127-128i-high-spin.md",
+      "locator": "D12-36",
+      "original_page": "PDF p.1 cover",
+      "raw_sha256": "ca7765ad962ea0c106791532f5a7d9f359533d25bb0170f03197bfec414be5c7"
+    },
+    "publication_issues": []
+  },
+  "report": {
+    "valid": true,
+    "missing_headings": []
+  },
+  "coverage": {
+    "valid": true,
+    "completed_day_indices": [
+      14
+    ],
+    "partial_day_indices": [
+      15
+    ],
+    "curriculum_cards_completed": 1,
+    "next_day_index": 15,
+    "error": null
+  },
+  "writeback": {
+    "valid": true,
+    "mode": "updated",
+    "knowledge_paths": [
+      "knowledge/sources/herzan-2015-193bi-spectroscopy.md",
+      "knowledge/methods/level-scheme-reconstruction.md",
+      "knowledge/projects/a130-thesis-evidence-matrix.md",
+      "knowledge/sources/nndc-2017-193bi-level-scheme-evaluation.md",
+      "knowledge/index.md",
+      "knowledge/methods/linear-polarization-asymmetry.md",
+      "knowledge/sources/rose-brink-1967-phase-defined-angular-distributions.md",
+      "knowledge/sources/zheng-2002-ado-coincidence-angular-anisotropy.md",
+      "knowledge/methods/angular-distribution.md",
+      "knowledge/methods/angular-correlation.md",
+      "knowledge/sources/zobel-1983-energy-projectile-alignment.md",
+      "knowledge/observables/angular-distribution-coefficient.md",
+      "knowledge/sources/zobel-1980-magnetic-substate-distributions.md",
+      "knowledge/sources/nndc-2005-67ga-selected-level-gamma-records.md",
+      "knowledge/sources/lange-kumar-hamilton-1982-multipole-admixtures.md",
+      "knowledge/sources/kibedi-2008-evaluation-theoretical-conversion-coefficients-bricc.md",
+      "knowledge/sources/lv-2025-136pr-tac-covariant-density-functional.md",
+      "knowledge/nuclei/136pr.md",
+      "knowledge/sources/lv-2019-chirality-135nd-reexamined.md",
+      "knowledge/experiments/jurogam2-135nd-ar40-152mev.md",
+      "knowledge/sources/nndc-2018-136pr-selected-level-gamma-records.md",
+      "knowledge/observables/bm1-be2-ratio.md",
+      "knowledge/methods/configuration-occupation-audit.md",
+      "knowledge/projects/a130-model-choice-card.md",
+      "knowledge/questions.md",
+      "knowledge/sources/wang-2017-109ag-tac-separable-pairing.md",
+      "knowledge/models/tilted-axis-cranking.md",
+      "knowledge/sources/zhao-2015-pairing-spin-orientation-tac.md",
+      "knowledge/concepts/triaxial-deformation.md",
+      "knowledge/sources/petrache-2015-nd-exotic-rotations-triaxiality.md",
+      "knowledge/observables/moments-of-inertia.md",
+      "knowledge/sources/peng-chen-2022-chiral-rotation-rhodium-isotopes.md",
+      "knowledge/sources/matev-2007-a130-quadrupole-alignment-additivity.md",
+      "knowledge/observables/transition-quadrupole-moment.md",
+      "knowledge/sources/riley-2001-global-lifetime-a135.md",
+      "knowledge/methods/doppler-shift-attenuation-method.md",
+      "knowledge/sources/petrache-1998-highly-deformed-lifetimes-131ce-nd.md",
+      "knowledge/sources/ionescu-1981-improved-angular-distribution-analysis-particle-xn.md",
+      "knowledge/observables/multipole-mixing-ratio.md",
+      "knowledge/sources/yamazaki-1967-aligned-angular-coefficients.md",
+      "knowledge/sources/lauritsen-2025-gamma-angular-formalism-tracking-arrays.md",
+      "knowledge/sources/ding-2012-phd-thesis-127-128i-high-spin.md",
+      "knowledge/sources/wang-2010-128i-new-high-spin-level-scheme.md",
+      "knowledge/sources/nndc-2015-128i-selected-level-gamma-records.md",
+      "knowledge/experiments/tsukuba-127-128i-li7-28-32mev.md"
+    ],
+    "changed_paths": [
+      "knowledge/concepts/triaxial-deformation.md",
+      "knowledge/experiments/jurogam2-135nd-ar40-152mev.md",
+      "knowledge/experiments/tsukuba-127-128i-li7-28-32mev.md",
+      "knowledge/index.md",
+      "knowledge/methods/angular-correlation.md",
+      "knowledge/methods/angular-distribution.md",
+      "knowledge/methods/configuration-occupation-audit.md",
+      "knowledge/methods/doppler-shift-attenuation-method.md",
+      "knowledge/methods/level-scheme-reconstruction.md",
+      "knowledge/methods/linear-polarization-asymmetry.md",
+      "knowledge/models/tilted-axis-cranking.md",
+      "knowledge/nuclei/136pr.md",
+      "knowledge/observables/angular-distribution-coefficient.md",
+      "knowledge/observables/bm1-be2-ratio.md",
+      "knowledge/observables/moments-of-inertia.md",
+      "knowledge/observables/multipole-mixing-ratio.md",
+      "knowledge/observables/transition-quadrupole-moment.md",
+      "knowledge/projects/a130-model-choice-card.md",
+      "knowledge/projects/a130-thesis-evidence-matrix.md",
+      "knowledge/questions.md",
+      "knowledge/sources/ding-2012-phd-thesis-127-128i-high-spin.md",
+      "knowledge/sources/herzan-2015-193bi-spectroscopy.md",
+      "knowledge/sources/ionescu-1981-improved-angular-distribution-analysis-particle-xn.md",
+      "knowledge/sources/kibedi-2008-evaluation-theoretical-conversion-coefficients-bricc.md",
+      "knowledge/sources/lauritsen-2025-gamma-angular-formalism-tracking-arrays.md",
+      "knowledge/sources/lv-2019-chirality-135nd-reexamined.md",
+      "knowledge/sources/lv-2025-136pr-tac-covariant-density-functional.md",
+      "knowledge/sources/matev-2007-a130-quadrupole-alignment-additivity.md",
+      "knowledge/sources/nndc-2005-67ga-selected-level-gamma-records.md",
+      "knowledge/sources/nndc-2015-128i-selected-level-gamma-records.md",
+      "knowledge/sources/nndc-2017-193bi-level-scheme-evaluation.md",
+      "knowledge/sources/nndc-2018-136pr-selected-level-gamma-records.md",
+      "knowledge/sources/peng-chen-2022-chiral-rotation-rhodium-isotopes.md",
+      "knowledge/sources/petrache-1998-highly-deformed-lifetimes-131ce-nd.md",
+      "knowledge/sources/petrache-2015-nd-exotic-rotations-triaxiality.md",
+      "knowledge/sources/riley-2001-global-lifetime-a135.md",
+      "knowledge/sources/rose-brink-1967-phase-defined-angular-distributions.md",
+      "knowledge/sources/wang-2010-128i-new-high-spin-level-scheme.md",
+      "knowledge/sources/wang-2017-109ag-tac-separable-pairing.md",
+      "knowledge/sources/yamazaki-1967-aligned-angular-coefficients.md",
+      "knowledge/sources/zhao-2015-pairing-spin-orientation-tac.md",
+      "knowledge/sources/zheng-2002-ado-coincidence-angular-anisotropy.md",
+      "knowledge/sources/zobel-1980-magnetic-substate-distributions.md",
+      "knowledge/sources/zobel-1983-energy-projectile-alignment.md"
+    ],
+    "change_check": "run-snapshot",
+    "error": null
+  },
+  "source_count_not_experiment_count": true,
+  "no_course_credit_changed": true,
+  "formal_score": 21
+}
