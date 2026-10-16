@@ -1,0 +1,863 @@
+{
+  "kind": "selected evaluated ENSDF records with preserved primary topology/field conflict",
+  "checks": {
+    "adopted_object_hash": true,
+    "adopted_version_cutoff": true,
+    "li7-reaction_object_hash": true,
+    "li7-reaction_version_cutoff": true,
+    "thermal-secondary_object_hash": true,
+    "thermal-secondary_version_cutoff": true,
+    "independent_rendered_PDF_hash": true,
+    "reaction102_parent_and_limit": true,
+    "reaction102_total_theoreticalCC_vs_experimentalECC": true,
+    "reaction285_has15_6_and117_8_not102": true,
+    "adopted285_has_same_topology": true,
+    "adopted183_is_level_without_outgoing_gamma_record": true,
+    "two_low_spins_not_promoted_to_unique_values": true,
+    "captureK_shell_experiment_not_totalICC": true,
+    "capture_normalization_is_different": true,
+    "adopted_and_reactionRI_scale_not_directly_equal": true,
+    "source_explicit_evaluator_uncertainty_assignment": true,
+    "evaluator_error_class_101.3": true,
+    "evaluator_error_class_345.4": true,
+    "evaluator_error_class_255.6": true,
+    "isomer_tau_identity_and_units": true,
+    "large_conversion_is_theoretical_field": true,
+    "same_energy_different_parent_explicitly_retained": true,
+    "rounded_energy_sums_do_not_resolve_node_order": true,
+    "2012Di14_exact_primary_identified_not_read": true,
+    "literal2012Wa27_reference_identity_boundary": true,
+    "2009_secondary_metadata_beam_boundary": true,
+    "no_actual_refit_or_topology_adjudication": true
+  },
+  "check_count": 28,
+  "passed": true,
+  "inputs": {
+    "kind": "selected evaluatedobject crosswalk and explicitpapercomparison, no topology adjudication",
+    "objects": {
+      "adopted": {
+        "path": "tmp/day14-20261014/nndc128i/adopted.ens",
+        "sha256": "27afae52bb7be1c4aa50e332e60abfe30a3d615d7e1586cd1b8b98bc65e5527e",
+        "datasetcheck": "128053001,128I",
+        "response_sha256": "c36cc45daecc7b34c0866ac90d488ea1640753a713eca5c0d11c798c7f22b8a9"
+      },
+      "li7-reaction": {
+        "path": "tmp/day14-20261014/nndc128i/li7-reaction.ens",
+        "sha256": "126efa18a375524a26f26d62a32be280c663b3db3f470a9b9e5db94690b28114",
+        "datasetcheck": "128053024,128I",
+        "response_sha256": "2fc295d1340b476c102d28cbe0b58aab33d1fefc1348bad3ce607a9a7e6a80d4"
+      },
+      "thermal-secondary": {
+        "path": "tmp/day14-20261014/nndc128i/thermal-secondary.ens",
+        "sha256": "5a5315c8888c159014784c0beb9e7af8ac2b20c117a388c8b2ddd48c0d8a5239",
+        "datasetcheck": "128053003,128I",
+        "response_sha256": "36893377d450e055d49da45f2913ff8b92cbef7e000ac45c825c6cb7111e1a93"
+      }
+    },
+    "rendered_reaction_pdf": {
+      "path": "tmp/day14-20261014/nndc128i/li7-reaction-rendered.pdf",
+      "sha256": "3d38146944df96e0762fe0e85ba9e4c1bb1511396a35e7be41cc564990bf6370"
+    },
+    "primary_thesis_input": "ding128i-lowenergy-typed-input.json",
+    "scientific_scope": "full230line reaction object; adopted/capture headers plus selectedlowblocks, not wholeNDSarticle",
+    "evaluation_citation": "Elekes/Timar NDS129,191-436(2015), DOI10.1016/j.nds.2015.09.002",
+    "2009_body_read": false,
+    "2012Di14_body_read": false,
+    "primary_topology_adjudicated": false,
+    "full_covariance": null,
+    "actual_event_refit": false,
+    "refs_object": "nndc128i-li7-reference-keys-041.json",
+    "typed_thesis_row_a": "t102a 285.2->183.0, alphaTexp0.60(7)",
+    "typed_thesis_row_b": "t102b 269.6->167.4, experimentalICCnotgiveninthesis"
+  },
+  "selected_source_records": {
+    "adopted": {
+      "levels": [
+        {
+          "line": 70,
+          "E": "137.851",
+          "DE": "3",
+          "Jpi": "4-",
+          "half_life": "0.845 US",
+          "Dhalf": "20",
+          "raw": "128I   L 137.851   3  4-                0.845 US  20                            ",
+          "comments": [
+            {
+              "line": 71,
+              "text": "128I X L XREF=BDEFG                                                             "
+            },
+            {
+              "line": 72,
+              "text": "128I 2 L MOMM1=-0.72 3 (2001StZZ)                                               "
+            },
+            {
+              "line": 73,
+              "text": "128I  cL J$E1 |g to 3+, no |g's to 1+ and 2+: |m indicates 4- with              "
+            },
+            {
+              "line": 74,
+              "text": "128I 2cL configuration=(|p1g{-7/2})(|n1h{-11/2}).                               "
+            }
+          ]
+        },
+        {
+          "line": 104,
+          "E": "167.368",
+          "DE": "4",
+          "Jpi": "(6)-",
+          "half_life": "175 NS",
+          "Dhalf": "15",
+          "raw": "128I   L 167.368   4  (6)-              175 NS    15                            ",
+          "comments": [
+            {
+              "line": 105,
+              "text": "128I X L XREF=ABEFG(166.0)                                                      "
+            },
+            {
+              "line": 106,
+              "text": "128I  cL J$(E2) |g to 4-, L(d,p)=5 for 5/2+ target, no |g's to 2- and 3-.       "
+            }
+          ]
+        },
+        {
+          "line": 125,
+          "E": "183.0",
+          "DE": "8",
+          "Jpi": "(7-)",
+          "half_life": "",
+          "Dhalf": "",
+          "raw": "128I   L 183.0     8  (7-)                                                  A   ",
+          "comments": [
+            {
+              "line": 126,
+              "text": "128I X L XREF=A                                                                 "
+            }
+          ]
+        },
+        {
+          "line": 136,
+          "E": "226.102",
+          "DE": "5",
+          "Jpi": "(5,6,7)-",
+          "half_life": "",
+          "Dhalf": "",
+          "raw": "128I   L 226.102   5  (5,6,7)-                                                  ",
+          "comments": [
+            {
+              "line": 137,
+              "text": "128I X L XREF=ABEF(224.0)G                                                      "
+            },
+            {
+              "line": 138,
+              "text": "128I  cL J$M1 |g to (6)-.                                                       "
+            }
+          ]
+        },
+        {
+          "line": 162,
+          "E": "269.712",
+          "DE": "7",
+          "Jpi": "(5,6,7)-",
+          "half_life": "",
+          "Dhalf": "",
+          "raw": "128I   L 269.712   7  (5,6,7)-                                                  ",
+          "comments": [
+            {
+              "line": 163,
+              "text": "128I X L XREF=AEFG                                                              "
+            },
+            {
+              "line": 164,
+              "text": "128I  cL J$M1 |g to (6)-.                                                       "
+            }
+          ]
+        },
+        {
+          "line": 168,
+          "E": "285.24",
+          "DE": "18",
+          "Jpi": "(8-)",
+          "half_life": "",
+          "Dhalf": "",
+          "raw": "128I   L 285.24    18 (8-)                                                  A   ",
+          "comments": [
+            {
+              "line": 169,
+              "text": "128I X L XREF=AFG                                                               "
+            }
+          ]
+        },
+        {
+          "line": 969,
+          "E": "1562.27",
+          "DE": "20",
+          "Jpi": "(10+)",
+          "half_life": "",
+          "Dhalf": "",
+          "raw": "128I   L 1562.27   20 (10+)                                                 A   ",
+          "comments": [
+            {
+              "line": 970,
+              "text": "128I X L XREF=A                                                                 "
+            }
+          ]
+        }
+      ],
+      "gammas": [
+        {
+          "line": 75,
+          "E": "4.240",
+          "DE": "5",
+          "RI": "",
+          "DRI_or_limit": "",
+          "multipolarity": "",
+          "mixing_ratio": "",
+          "CC": "",
+          "parent_E": "137.851",
+          "raw": "128I   G 4.240     5                                                            ",
+          "comments": []
+        },
+        {
+          "line": 76,
+          "E": "52.378",
+          "DE": "5",
+          "RI": "100",
+          "DRI_or_limit": "",
+          "multipolarity": "E1",
+          "mixing_ratio": "",
+          "CC": "1.220",
+          "parent_E": "137.851",
+          "raw": "128I   G 52.378    5  100       E1                      1.220                C  ",
+          "comments": [
+            {
+              "line": 77,
+              "text": "128I S G KC=1.036 15$LC=0.1475 21$MC=0.0295 5$NC=0.00580 9$OC=0.000616 9        "
+            },
+            {
+              "line": 78,
+              "text": "128I B G BE1W=9.9E-7 3                                                          "
+            }
+          ]
+        },
+        {
+          "line": 107,
+          "E": "29.512",
+          "DE": "5",
+          "RI": "100",
+          "DRI_or_limit": "",
+          "multipolarity": "(E2)",
+          "mixing_ratio": "",
+          "CC": "175.0",
+          "parent_E": "167.368",
+          "raw": "128I   G 29.512    5  100       (E2)                    175.0                   ",
+          "comments": [
+            {
+              "line": 108,
+              "text": "128I S G LC=139.2 20$MC=29.8 5$NC=5.64 8$OC=0.482 7                             "
+            },
+            {
+              "line": 109,
+              "text": "128I B G BE2W=21.4 19                                                           "
+            }
+          ]
+        },
+        {
+          "line": 139,
+          "E": "58.74",
+          "DE": "3",
+          "RI": "100",
+          "DRI_or_limit": "",
+          "multipolarity": "M1",
+          "mixing_ratio": "",
+          "CC": "3.46",
+          "parent_E": "226.102",
+          "raw": "128I   G 58.74     3  100       M1                      3.46                 C  ",
+          "comments": [
+            {
+              "line": 140,
+              "text": "128I S G KC=2.97 5$LC=0.392 6$MC=0.0790 12$NC=0.01597 23$OC=0.00186 3           "
+            }
+          ]
+        },
+        {
+          "line": 165,
+          "E": "102.344",
+          "DE": "5",
+          "RI": "100",
+          "DRI_or_limit": "",
+          "multipolarity": "M1",
+          "mixing_ratio": "",
+          "CC": "0.700",
+          "parent_E": "269.712",
+          "raw": "128I   G 102.344   5  100       M1                      0.700                C  ",
+          "comments": [
+            {
+              "line": 166,
+              "text": "128I S G KC=0.602 9$LC=0.0788 11$MC=0.01587 23$NC=0.00321 5$OC=0.000376 6       "
+            },
+            {
+              "line": 167,
+              "text": "128I  cG M$also from |a(exp) in {+124}Sn({+7}Li,3n|g)                           "
+            }
+          ]
+        },
+        {
+          "line": 170,
+          "E": "15.6",
+          "DE": "3",
+          "RI": "",
+          "DRI_or_limit": "",
+          "multipolarity": "",
+          "mixing_ratio": "",
+          "CC": "",
+          "parent_E": "285.24",
+          "raw": "128I   G 15.6      3                                                            ",
+          "comments": [
+            {
+              "line": 171,
+              "text": "128I F G FLAG=BC                                                                "
+            }
+          ]
+        },
+        {
+          "line": 172,
+          "E": "117.8",
+          "DE": "3",
+          "RI": "",
+          "DRI_or_limit": "",
+          "multipolarity": "",
+          "mixing_ratio": "",
+          "CC": "",
+          "parent_E": "285.24",
+          "raw": "128I   G 117.8     3                                                            ",
+          "comments": [
+            {
+              "line": 173,
+              "text": "128I F G FLAG=BC                                                                "
+            }
+          ]
+        },
+        {
+          "line": 971,
+          "E": "101.3",
+          "DE": "1",
+          "RI": "100",
+          "DRI_or_limit": "5",
+          "multipolarity": "M1",
+          "mixing_ratio": "",
+          "CC": "0.721",
+          "parent_E": "1562.27",
+          "raw": "128I   G 101.3     1  100    5  M1                      0.721                   ",
+          "comments": [
+            {
+              "line": 972,
+              "text": "128I F G FLAG=BC                                                                "
+            },
+            {
+              "line": 973,
+              "text": "128I S G KC=0.620 9$LC=0.0811 12$MC=0.01634 24$NC=0.00331 5$OC=0.000387 6       "
+            },
+            {
+              "line": 974,
+              "text": "128I  cG M$from |a(exp) in {+124}Sn({+7}Li,3n|g)                                "
+            }
+          ]
+        },
+        {
+          "line": 975,
+          "E": "412.3",
+          "DE": "5",
+          "RI": "6.2",
+          "DRI_or_limit": "21",
+          "multipolarity": "",
+          "mixing_ratio": "",
+          "CC": "",
+          "parent_E": "1562.27",
+          "raw": "128I   G 412.3     5  6.2    21                                                 ",
+          "comments": [
+            {
+              "line": 976,
+              "text": "128I F G FLAG=BC                                                                "
+            }
+          ]
+        },
+        {
+          "line": 977,
+          "E": "866.0",
+          "DE": "1",
+          "RI": "69",
+          "DRI_or_limit": "3",
+          "multipolarity": "",
+          "mixing_ratio": "",
+          "CC": "",
+          "parent_E": "1562.27",
+          "raw": "128I   G 866.0     1  69     3                                                  ",
+          "comments": [
+            {
+              "line": 978,
+              "text": "128I F G FLAG=BC                                                                "
+            }
+          ]
+        }
+      ]
+    },
+    "li7-reaction": {
+      "levels": [
+        {
+          "line": 36,
+          "E": "167.367",
+          "DE": "4",
+          "Jpi": "(6)-",
+          "half_life": "175 NS",
+          "Dhalf": "15",
+          "raw": "128I   L 167.367   4  (6)-              175 NS    15                            ",
+          "comments": [
+            {
+              "line": 37,
+              "text": "128I  cL E,J,T$from Adopted Levels                                              "
+            }
+          ]
+        },
+        {
+          "line": 38,
+          "E": "182.99",
+          "DE": "25",
+          "Jpi": "(7-)",
+          "half_life": "",
+          "Dhalf": "",
+          "raw": "128I   L 182.99    25 (7-)                                                      ",
+          "comments": []
+        },
+        {
+          "line": 39,
+          "E": "226.0",
+          "DE": "4",
+          "Jpi": "(5,6,7)-",
+          "half_life": "",
+          "Dhalf": "",
+          "raw": "128I   L 226.0     4  (5,6,7)-                                                  ",
+          "comments": []
+        },
+        {
+          "line": 42,
+          "E": "269.57",
+          "DE": "10",
+          "Jpi": "(5,6,7)-",
+          "half_life": "",
+          "Dhalf": "",
+          "raw": "128I   L 269.57    10 (5,6,7)-                                                  ",
+          "comments": []
+        },
+        {
+          "line": 48,
+          "E": "285.19",
+          "DE": "23",
+          "Jpi": "(8-)",
+          "half_life": "",
+          "Dhalf": "",
+          "raw": "128I   L 285.19    23 (8-)                                                  A   ",
+          "comments": []
+        },
+        {
+          "line": 107,
+          "E": "1562.21",
+          "DE": "24",
+          "Jpi": "(10+)",
+          "half_life": "",
+          "Dhalf": "",
+          "raw": "128I   L 1562.21   24 (10+)                                                     ",
+          "comments": []
+        }
+      ],
+      "gammas": [
+        {
+          "line": 40,
+          "E": "58.5",
+          "DE": "5",
+          "RI": "5",
+          "DRI_or_limit": "2",
+          "multipolarity": "",
+          "mixing_ratio": "",
+          "CC": "",
+          "parent_E": "226.0",
+          "raw": "128I   G 58.5      5  5      2                                                  ",
+          "comments": [
+            {
+              "line": 41,
+              "text": "128I  cG $R{-ADO}=1.7 {I6}.                                                     "
+            }
+          ]
+        },
+        {
+          "line": 43,
+          "E": "102.2",
+          "DE": "1",
+          "RI": "632",
+          "DRI_or_limit": "LE",
+          "multipolarity": "M1",
+          "mixing_ratio": "",
+          "CC": "0.703",
+          "parent_E": "269.57",
+          "raw": "128I   G 102.2     1  632    LE M1                      0.703                   ",
+          "comments": [
+            {
+              "line": 44,
+              "text": "128I X G ECC=0.60 7 (2012Di14)                                                  "
+            },
+            {
+              "line": 45,
+              "text": "128I S G KC=0.604 9$LC=0.0791 12$MC=0.01594 23$NC=0.00322 5$OC=0.000377 6       "
+            },
+            {
+              "line": 46,
+              "text": "128I  cG $R{-ADO}=0.90 {I17}                                                    "
+            },
+            {
+              "line": 47,
+              "text": "128I  cG M$from |a(exp)                                                         "
+            }
+          ]
+        },
+        {
+          "line": 49,
+          "E": "15.6",
+          "DE": "",
+          "RI": "",
+          "DRI_or_limit": "",
+          "multipolarity": "",
+          "mixing_ratio": "",
+          "CC": "",
+          "parent_E": "285.19",
+          "raw": "128I   G 15.6                                                                   ",
+          "comments": []
+        },
+        {
+          "line": 50,
+          "E": "117.8",
+          "DE": "3",
+          "RI": "49",
+          "DRI_or_limit": "7",
+          "multipolarity": "",
+          "mixing_ratio": "",
+          "CC": "",
+          "parent_E": "285.19",
+          "raw": "128I   G 117.8     3  49     7                                                  ",
+          "comments": [
+            {
+              "line": 51,
+              "text": "128I  cG $R{-ADO}=1.54 {I13}                                                    "
+            }
+          ]
+        },
+        {
+          "line": 108,
+          "E": "101.3",
+          "DE": "1",
+          "RI": "146",
+          "DRI_or_limit": "7",
+          "multipolarity": "M1",
+          "mixing_ratio": "",
+          "CC": "0.721",
+          "parent_E": "1562.21",
+          "raw": "128I   G 101.3     1  146    7  M1                      0.721                   ",
+          "comments": [
+            {
+              "line": 109,
+              "text": "128I X G ECC=0.88 21 (2012Di14)                                                 "
+            },
+            {
+              "line": 110,
+              "text": "128I S G KC=0.620 9$LC=0.0811 12$MC=0.01634 24$NC=0.00331 5$OC=0.000387 6       "
+            },
+            {
+              "line": 111,
+              "text": "128I  cG $R{-ADO}=0.70 {I8}                                                     "
+            },
+            {
+              "line": 112,
+              "text": "128I  cG M$from |a(exp)                                                         "
+            }
+          ]
+        },
+        {
+          "line": 113,
+          "E": "412.3",
+          "DE": "5",
+          "RI": "9",
+          "DRI_or_limit": "3",
+          "multipolarity": "",
+          "mixing_ratio": "",
+          "CC": "",
+          "parent_E": "1562.21",
+          "raw": "128I   G 412.3     5  9      3                                                  ",
+          "comments": [
+            {
+              "line": 114,
+              "text": "128I  cG $R{-ADO}=0.8 {I3}                                                      "
+            }
+          ]
+        },
+        {
+          "line": 115,
+          "E": "866.0",
+          "DE": "1",
+          "RI": "100",
+          "DRI_or_limit": "5",
+          "multipolarity": "",
+          "mixing_ratio": "",
+          "CC": "",
+          "parent_E": "1562.21",
+          "raw": "128I   G 866.0     1  100    5                                                  ",
+          "comments": [
+            {
+              "line": 116,
+              "text": "128I  cG $R{-ADO}=0.97 {I8}                                                     "
+            }
+          ]
+        }
+      ]
+    },
+    "thermal-secondary": {
+      "levels": [
+        {
+          "line": 366,
+          "E": "137.850",
+          "DE": "3",
+          "Jpi": "4-",
+          "half_life": "0.845 US",
+          "Dhalf": "20",
+          "raw": "128I   L 137.850   3  4-                0.845 US  20                            ",
+          "comments": []
+        },
+        {
+          "line": 391,
+          "E": "167.367",
+          "DE": "4",
+          "Jpi": "(6)-",
+          "half_life": "175 NS",
+          "Dhalf": "15",
+          "raw": "128I   L 167.367   4  (6)-              175 NS    15                            ",
+          "comments": []
+        },
+        {
+          "line": 412,
+          "E": "226.101",
+          "DE": "5",
+          "Jpi": "(5,6,7)-",
+          "half_life": "",
+          "Dhalf": "",
+          "raw": "128I   L 226.101   5  (5,6,7)-                                                  ",
+          "comments": []
+        },
+        {
+          "line": 430,
+          "E": "269.711",
+          "DE": "6",
+          "Jpi": "(5,6,7)-",
+          "half_life": "",
+          "Dhalf": "",
+          "raw": "128I   L 269.711   6  (5,6,7)-                                                  ",
+          "comments": []
+        }
+      ],
+      "gammas": [
+        {
+          "line": 367,
+          "E": "4.240",
+          "DE": "4",
+          "RI": "",
+          "DRI_or_limit": "",
+          "multipolarity": "",
+          "mixing_ratio": "",
+          "CC": "",
+          "parent_E": "137.850",
+          "raw": "128I   G 4.240     4                                                            ",
+          "comments": [
+            {
+              "line": 368,
+              "text": "128I  cG $not observed, but required by |g|g. E|g from E(level) difference.     "
+            }
+          ]
+        },
+        {
+          "line": 369,
+          "E": "52.378",
+          "DE": "5",
+          "RI": "5.5",
+          "DRI_or_limit": "3",
+          "multipolarity": "E1",
+          "mixing_ratio": "",
+          "CC": "1.220",
+          "parent_E": "137.850",
+          "raw": "128I   G 52.378    5  5.5    3  E1                      1.220                   ",
+          "comments": [
+            {
+              "line": 370,
+              "text": "128I X G ELC=0.14 3                                                             "
+            },
+            {
+              "line": 371,
+              "text": "128I S G KC=1.036 15$LC=0.1475 21$MC=0.0295 5$NC=0.00580 9$OC=0.000616 9        "
+            },
+            {
+              "line": 372,
+              "text": "128I B G BE1W=9.9E-7 8                                                          "
+            }
+          ]
+        },
+        {
+          "line": 392,
+          "E": "29.512",
+          "DE": "5",
+          "RI": "0.109",
+          "DRI_or_limit": "11",
+          "multipolarity": "(E2)",
+          "mixing_ratio": "",
+          "CC": "175.0",
+          "parent_E": "167.367",
+          "raw": "128I   G 29.512    5  0.109  11 (E2)                    175.0                   ",
+          "comments": [
+            {
+              "line": 393,
+              "text": "128I S G LC=139.2 20$MC=29.8 5$NC=5.64 8$OC=0.482 7                             "
+            },
+            {
+              "line": 394,
+              "text": "128I B G BE2W=21.4 19                                                           "
+            }
+          ]
+        },
+        {
+          "line": 413,
+          "E": "58.74",
+          "DE": "3",
+          "RI": "0.93",
+          "DRI_or_limit": "3",
+          "multipolarity": "M1",
+          "mixing_ratio": "",
+          "CC": "3.46",
+          "parent_E": "226.101",
+          "raw": "128I   G 58.74     3  0.93   3  M1                      3.46                    ",
+          "comments": [
+            {
+              "line": 414,
+              "text": "128I X G EKC=2.1 6$ELC=0.58 13                                                  "
+            },
+            {
+              "line": 415,
+              "text": "128I S G KC=2.97 5$LC=0.392 6$MC=0.0790 12$NC=0.01597 23$OC=0.00186 3           "
+            }
+          ]
+        },
+        {
+          "line": 431,
+          "E": "102.344",
+          "DE": "5",
+          "RI": "0.67",
+          "DRI_or_limit": "11",
+          "multipolarity": "M1",
+          "mixing_ratio": "",
+          "CC": "0.700",
+          "parent_E": "269.711",
+          "raw": "128I   G 102.344   5  0.67   11 M1                      0.700                   ",
+          "comments": [
+            {
+              "line": 432,
+              "text": "128I X G EKC=0.55 11                                                            "
+            },
+            {
+              "line": 433,
+              "text": "128I S G KC=0.602 9$LC=0.0788 11$MC=0.01587 23$NC=0.00321 5$OC=0.000376 6       "
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "primary_102a": {
+    "id": "t102a",
+    "E_gamma_keV": "102.2",
+    "parent_keV": "285.2",
+    "daughter_keV": "183.0",
+    "I_gamma_literal": "563",
+    "R_ADO_literal": "0.90(7)",
+    "source_parent_spin": "8-",
+    "source_daughter_spin": "7-",
+    "locator": "DingPDF78-79 Table6.1",
+    "spinlabels_tentative": true
+  },
+  "primary_102b": {
+    "id": "t102b",
+    "E_gamma_keV": "102.2",
+    "parent_keV": "269.6",
+    "daughter_keV": "167.4",
+    "I_gamma_literal": ">=79",
+    "R_ADO_literal": "0.95(16)",
+    "source_parent_spin": "7-",
+    "source_daughter_spin": "6-",
+    "locator": "DingPDF78-79 Table6.1",
+    "spinlabels_tentative": true
+  },
+  "evaluated_reaction_102": {
+    "line": 43,
+    "E": "102.2",
+    "DE": "1",
+    "RI": "632",
+    "DRI_or_limit": "LE",
+    "multipolarity": "M1",
+    "mixing_ratio": "",
+    "CC": "0.703",
+    "parent_E": "269.57",
+    "raw": "128I   G 102.2     1  632    LE M1                      0.703                   ",
+    "comments": [
+      {
+        "line": 44,
+        "text": "128I X G ECC=0.60 7 (2012Di14)                                                  "
+      },
+      {
+        "line": 45,
+        "text": "128I S G KC=0.604 9$LC=0.0791 12$MC=0.01594 23$NC=0.00322 5$OC=0.000377 6       "
+      },
+      {
+        "line": 46,
+        "text": "128I  cG $R{-ADO}=0.90 {I17}                                                    "
+      },
+      {
+        "line": 47,
+        "text": "128I  cG M$from |a(exp)                                                         "
+      }
+    ]
+  },
+  "evaluated15": {
+    "line": 49,
+    "E": "15.6",
+    "DE": "",
+    "RI": "",
+    "DRI_or_limit": "",
+    "multipolarity": "",
+    "mixing_ratio": "",
+    "CC": "",
+    "parent_E": "285.19",
+    "raw": "128I   G 15.6                                                                   ",
+    "comments": []
+  },
+  "parent_difference_not_rounding": true,
+  "energy_sums": {
+    "primary_285_to167": "117.8",
+    "evaluation_285_to167": "117.823",
+    "reported_gamma_15plus102": "117.8"
+  },
+  "topology_choice": null,
+  "actual_full_covariance": null,
+  "input_sha256": "2f5fe88dd0fd64cca31067acf199c492778460186646973b315bc7e5d0aa1829",
+  "thesis_input_sha256": "504444fabf35b8c672a5911052fab100e912828d22fe8fd862fd96df43fb531c",
+  "references_sha256": "4c3dd9926237795500f4fde4ee06caf0bcda605ccedc391716ddb3aef7d913bf",
+  "limitations": [
+    "evaluation reuses Tsukuba sources, not a new independent measurement",
+    "raw text and rendered PDF are two representations of the same evaluated data",
+    "no attribution of cause until original2012Di14/errata/data verified",
+    "theory CC, experimental totalECC and K-shellEKC are different quantities",
+    "evaluator-added perrowerrors do not restore actual covariance or selection likelihood",
+    "lowlevel half-life/decay belongs to that parent, not higher cascade parents"
+  ]
+}

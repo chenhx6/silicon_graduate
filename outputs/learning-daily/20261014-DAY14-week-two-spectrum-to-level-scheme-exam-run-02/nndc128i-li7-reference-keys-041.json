@@ -1,0 +1,50 @@
+{
+  "url": "https://www.nndc.bnl.gov/ensdf/getrefs.jsp",
+  "params": {
+    "recid": "128053024",
+    "dsid": "124SN(7LI,3NG)"
+  },
+  "at": "2026-10-16T11:53:43.290425+08:00",
+  "purpose": "dataset-published reference keys and exactpaperidentities, not bodyreading",
+  "status": 200,
+  "final_url": "https://www.nndc.bnl.gov/ensdf/getrefs.jsp?recid=128053024&dsid=124SN%287LI%2C3NG%29",
+  "bytes": 4511,
+  "content_type": "text/html;charset=UTF-8",
+  "path": "tmp/day14-20261014/nndc128i/li7-allrefs.html",
+  "sha256": "2038aecbdffa34efe3c194e0d9647ddc9adc269770cc0239170063c625574ea9",
+  "text": "References from selected dataset References quoted in the ENSDF dataset: 128I 124SN(7LI,3NG) 4 references found. Clicking on a keynumber will list datasets\nthat reference the given article. Return to 124SN(7LI,3NG) 2009ZH51 Chin.Phys.C 33, Supplement 1, 179 (2009) Y.Zheng, L.-H.Zhu, X.-G.Wu, G.-S.Li, X.Hao, L.-L.Wang, C.-Y.He, Y.Liu, X.-Q.Li, B.Pan, L.Wang, Z.-Y.Li, H.-B.Ding High-spin states in 128 I NUCLEAR REACTIONS 124 Sn( 7 Li, 3n) 128 I, E=25, 28, 42 MeV; measured Eγ, Iγ, γ-γ-coin.; deduced high-spin states, level scheme, J, π, energies, σ. doi: 10.1088/1674-1137/33/S1/057 2010WA27 Chin.Phys.Lett. 27, 082701 (2010) H.-X.Wang, Y.-H.Zhang, B.Ding, X.-H.Zhou, N.-T.Zhang, M.-L.Liu, Y.-J.Ma, Y.Sasakiz, K.Yamada, H.Ohshima, S.Yokose, M.Ishizuka, T.Komatsubara, K.Furuno A New High-Spin Level Scheme of 128 I NUCLEAR REACTIONS 124 Sn( 7 Li, 3n), E=28, 32 MeV; measured Eγ, Iγ, γ-γ-coin.; deduced high spin states, J, π, level scheme. doi: 10.1088/0256-307X/27/8/082701 2012DI14 Phys.Rev. C 86, 034302 (2012) B.Ding, H.X.Wang, H.Jiang, Y.H.Zhang, X.H.Zhou, Y.M.Zhao, S.T.Wang, M.L.Liu, G.S.Li, Y.Zheng, N.T.Zhang, H.B.Zhou, Y.J.Ma, Y.Sasakiz, K.Yamada, H.Ohshima, S.Yokose, M.Ishizuka, T.Komatsubara, K.Furuno High-spin level scheme of doubly odd 128 I NUCLEAR REACTIONS 124 Sn( 7 Li, 3n), E=28, 32 MeV; measured Eγ, Iγ, γγ-coin, γγ(θ)(ADO). 128 I; deduced levels, J, π, bands, multipolarity, configurations. Comparison with nucleon pair approximation, and empirical shell-model calculations. Systematics of levels in doubly odd A=116-128 Iodine isotopes, and 11/2- states in A=117-127 Iodine, A=117-127 Te, and A=119-129 Xe isotopes. doi: 10.1103/PhysRevC.86.034302 2012WA27 Phys.Scr. 86, 035201 (2012) H.-L.Wang, H.-L.Liu, F.-R.Xu Total Routhian surface calculations of octupole properties in neutron-deficient U isotopes NUCLEAR STRUCTURE 220,222,224,226,228,230 U, 226 Th, 230 Pu; calculated total Routhian surfaces, ground state deformation parameters; deduced evolution of octupole properties with increasing nucleon and rotational frequency. Comparison with available data. doi: 10.1088/0031-8949/86/03/035201",
+  "links": [
+    {
+      "text": "2009ZH51",
+      "href": "./DSfromRefServlet?kn=2009ZH51&searchType=references"
+    },
+    {
+      "text": "10.1088/1674-1137/33/S1/057",
+      "href": "http://dx.doi.org/10.1088/1674-1137/33/S1/057"
+    },
+    {
+      "text": "2010WA27",
+      "href": "./DSfromRefServlet?kn=2010WA27&searchType=references"
+    },
+    {
+      "text": "10.1088/0256-307X/27/8/082701",
+      "href": "http://dx.doi.org/10.1088/0256-307X/27/8/082701"
+    },
+    {
+      "text": "2012DI14",
+      "href": "./DSfromRefServlet?kn=2012DI14&searchType=references"
+    },
+    {
+      "text": "10.1103/PhysRevC.86.034302",
+      "href": "http://dx.doi.org/10.1103/PhysRevC.86.034302"
+    },
+    {
+      "text": "2012WA27",
+      "href": "./DSfromRefServlet?kn=2012WA27&searchType=references"
+    },
+    {
+      "text": "10.1088/0031-8949/86/03/035201",
+      "href": "http://dx.doi.org/10.1088/0031-8949/86/03/035201"
+    }
+  ]
+}

@@ -9,6 +9,8 @@ updated: 2026-10-16
 
 ## Sources
 
+- [[nndc-2015-128i-selected-level-gamma-records]] - 2015选定128I低位/反应/capture对象，102/15.6位置与ICC绑定冲突、评价误差及谱系边界，不代原实验。
+
 - [[wang-2010-128i-new-high-spin-level-scheme]] - 128I低能triplet的逐门身份、Channel轴与48/72口径；和thesis按依赖谱系，14%/10%版本及实际响应缺口保留。
 
 - [[riley-2001-global-lifetime-a135]] - 质心位移DSAM/恒定Qt与33行typed原表；门、侧馈、上限、外源数据及systematics分层。

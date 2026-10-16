@@ -8,13 +8,15 @@ updated: 2026-10-16
 
 ## Active handoff — DAY14 extended continuous study
 
-同run2026-10-14-day-14-02/session01a13a0e-e8bd-7251-b970-f6975679e281，goal/runactive。研究加时2026-10-16 15:00上海止、16:00交付。Formal14 primedrecall/Herzáň七边35checks/21/24/weeklyREFLECT具备；completed14/partial15，officialnext14count13待最终一次只计14，不开Day16。
+同run2026-10-14-day-14-02/session01a13a0e-e8bd-7251-b970-f6975679e281，goal/runactive。研究加时2026-10-16 15:00上海止、16:00交付；formal14 primedrecall/Herzáň七边35checks/21/24/REFLECT具备，completed14/partial15、officialnext14count13待最终一次只计14，不开Day16。
 
-040直接取得CPL2010四页公开PDF、全文/Figs1–4已读（仅tmp不改raw/不进Git），新sourceW10I1–8 true，和thesis按依赖谱系。19checks typed101/两个102/chain/ICC身份：a=285.2→183的.60(7)带866/117pureE2，101的.88(21)带866/402，b=269.6→167实验ICC未知。commonphotonRI/fixed563+weak≥79给79/642只条件界，非actualfraction/CI。CPLChannel轴/rough14%、48/72与Ding轴标/约10%/61rows分别保留，不补校准或判冲突。新D12-28–32 true，137items42pages（actualvalidator核）；freshraw/旧review不变。2011仍仅空SPA，2009Ref16未读。
+041取得2015 selected128I ENSDF3对象：reaction230行全读，adopted/capture仅header/低记录，另reactionPDF6页的1–3/页2表核。28checks真实冲突：ENSDF G102在269.57/RI≤632/ECC.60(7)，285列15.6；Ding/CPL强102为285→183且.60(7)随强component。Text/PDF一致但同data，不能判哪图正确；评价低J保留5,6,7，errors由evaluator按RI区间赋，RI归一/CC-ECC-EKC/tauparent分开。新N1281–9/D12-33/W10I9–10true，旧review保持，144items44pages以actualvalidator核。新source/raw保留槽未填/实际对象只tmp。
 
-Stablepointer main / `Audit DAY14 iodine triplet identities against primary spectra`，actualchecks/H3/hash/push只content-checkpoint-040.json/publication-040.json。039及035–038已published，原58spinprior与响应/finiteJ/原书边界保持，actualR/Cov/code/时间窗/runIDs缺，不宣称新独立beamrun。
+旧2009 Ref16身份CPC33(S1)179–181/DOI33/S1/057已核，但官方连接/验证页/发现restricted仍无body。NNDCgetrefs已识别2012Di14=PRC86,034302 DOI10.1103/PhysRevC.86.034302，body未读，是下一最高信息route；header2012Wa27却指Uoctupole、2009beam32/42差别原样留，不静默改。实验页旧“期刊未得”标为10/12历史，CPL2010当前已读且共享谱系，时间窗/runIDs未解。
 
-下一先clock/pool，可核2009旧图primary或真实timewindow/eventlineage，新issue先保存primed回忆；不重复toy/同失败请求/不联系作者。<90min不新source/card，15:00后只closeout。Farmer42019最近running/currentthreadrunning，Clock四项actualACK保持，无新研究session/goal/daily scheduler。Resume `codex resume 01a13a0e-e8bd-7251-b970-f6975679e281 -C /workspace/wiki -s danger-full-access -a never`；先run.json/continuation/clock。Preserve inheritedDay6–9/Day13/log/daemon/raw/PLAN/Bib/credentials/review，exactmanifest/H3非force发布。
+Stable main / `Cross-check DAY14 iodine evaluated topology and field provenance`，actualchecks/H3/hash/push只content-checkpoint-041.json/publication-041.json。040/039及035–038已published。下一先clock/pool/primedrecall，再合法获取准确2012primary并读主线/关键图表，不能从NSR猜正文；<90min不新source/card，15:00后只closeout。
+
+Farmer42019最近running/currentthreadrunning，Clock四项actualACK，无新研究session/goal/daily scheduler。Resume `codex resume 01a13a0e-e8bd-7251-b970-f6975679e281 -C /workspace/wiki -s danger-full-access -a never`；先run.json/continuation/clock。Preserve inheritedDay6–9/Day13/log/daemon/raw/PLAN/Bib/credentials/review，exactmanifest/H3非force发布。新A知识页需手动分类EOLhelper的REVIEW-UNSAFE，不让非零检查后误继续commit；分类有证据/H3通过后才push。
 
 ## Previous active handoff — DAY13 continuous study reopened by user
 

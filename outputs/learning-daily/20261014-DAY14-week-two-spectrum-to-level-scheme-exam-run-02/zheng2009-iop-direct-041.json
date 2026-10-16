@@ -1,0 +1,16 @@
+{
+  "url": "https://iopscience.iop.org/article/10.1088/1674-1137/33/S1/057",
+  "at": "2026-10-16T11:41:07.895712+08:00",
+  "purpose": "bounded exactcandidate legalaccess, notbodyproof",
+  "status": 200,
+  "final_url": "https://validate.perfdrive.com/fb803c746e9148689b3984a31fccd902/",
+  "content_type": "text/html; charset=UTF-8",
+  "bytes": 14371,
+  "path": "tmp/day14-20261014/128i-old-primary/zheng2009-iop.html",
+  "sha256": "4ac3928fb387ddd842dcd4e9d6f59170b9a10564bcbef1b8a5ccd024e74e85e1",
+  "title": "Radware Bot Manager Captcha",
+  "citation_meta": {},
+  "pdf_links": [],
+  "redirect_query_omitted": "verification challenge parameters are not scientificprovenance",
+  "body_classification": "Radware Bot Manager Captcha, not articlebody; no bypass attempted"
+}

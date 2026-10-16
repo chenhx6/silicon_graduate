@@ -1,0 +1,21 @@
+{
+  "url": "https://www.nndc.bnl.gov/ensdf/EnsdfDispatcherServlet",
+  "method": "POST",
+  "params": {
+    "dbclass": "ensdf",
+    "page-source": "singular",
+    "chooseit": "ENSDF text format",
+    "datasetcheck": "128053024,128I"
+  },
+  "at": "2026-10-16T11:48:07.124182+08:00",
+  "selection": "only adopted, exact7Lireaction and thermal-capturesecondary for lowanchors/lineidentity; no wholemasschain claim",
+  "status": 200,
+  "content_type": "text/html;charset=UTF-8",
+  "bytes": 19106,
+  "response_path": "tmp/day14-20261014/nndc128i/li7-reaction-response.html",
+  "response_sha256": "2fc295d1340b476c102d28cbe0b58aab33d1fefc1348bad3ce607a9a7e6a80d4",
+  "text_path": "tmp/day14-20261014/nndc128i/li7-reaction.ens",
+  "text_sha256": "126efa18a375524a26f26d62a32be280c663b3db3f470a9b9e5db94690b28114",
+  "text_lines": 230,
+  "preview": "\n128I     124SN(7LI,3NG)                2010WA27,2012DI14         15NDS    201510\n128I   H TYP=FUL$AUT=ZOLTAN ELEKES AND JANOS TIMAR$CIT=NDS 129, 191 (2015)$     \n128I 2 H CUT=28-Feb-2015$                                                       \n128I  c  2010Wa27: E=28, 32 MeV; measured E|g, I|g, |g|g and |g|g(|q) using a   \n128I 2c  planar detector and nine BGO-Compton-suppressed Ge detectors at        \n128I 3c  University of Tsukuba, Japan.                                          \n128I  c  2009Zh51: E=25, 28, 32 MeV; measured E|g, I|g, |g|g and excitation     \n128I 2c  functions using an array of 14 BGO-Compton-suppressed Ge detectors at  \n128I 3c  China Institute of Atomic Energy. Data are not analyzed fully,         \n128I 4c  preliminary results and level scheme given.                            \n128I  cG $R{-ADO}=I; g(37|')/I|g(90|') in a gated spectrum. Expected ratios are \n128I 2cG >1 for |DJ=2, quadrupole and <1 for |DJ=1, dipole. This ratio can      \n128I 3cG also be >1 for |DJ=0, dipole and for a certain |d(Q/D) admixture in    \n128I 4cG |DJ=1 transitions.                                                     \n128I  cG E,RI$From e-mail reply of Aug 24, 2010 received from one of the        \n128I 2cG authors (Y.-H. Zhang) of 2010Wa27. The authors state uncertainty       \n128I 3cG of 0.1-0.5 keV in energy and 5-30% in intensity. Evaluator assigns as  \n128I 4cG follows in energy and intensity, respectively: 0.1 keV and 5% for      \n128I 5cG I|g>50, 0.3 keV and 15% for I|g=20-50, 0.5 keV and 30% for I|g<20.     \n128I  CL BAND(A)$|pg{-7/2}~#|nh{-11/2}, |a=0                                    \n128I  CL BAND(a)$|pg{-7/2}~#|nh{-11/2}, |a=1                                    \n128I  c  All data are from 2010Wa27 and 2012Di14 except as noted otherwise.     \n128I 2c  Level scheme from 2012Di14, which is almost identical to that of       \n128I 3c  2012Wa27, is adopted.                                                  \n128I  c  2012Di14: {+7}Li beam at E=28 and 32 MeV provided by the tandem        \n128I 2c  accelerator laboratory in the University of Tsukuba, Japan. Target=4   \n128I 3c  mg/cm{+2} {+124}Sn. Gamma rays detected by an array consisting of one  \n128I 4c  planar detector and nine BGO Compton-suppressed Ge detectors.          \n128I 5c  Measured E|g, I|g, |g|g-coincidence, |g(|q). Deduced levels, J, |p,    \n128I 6c  bands, multipolarity and configurations. Comparison with structure of  \n128I 7c  doubly odd I isotopes. Same authors as 2010Wa27, almost identical      \n128I 8c  results.                                                               \n128I  cL E$From Adopted Levels                                                  \n128I  PN                                                                     5  \n128I   L 167.367   4  (6)-              175 NS    15                            \n128I  cL E,J,T$from Adopted Levels                                              \n128I   L 182.99    25 (7-)                                                      \n128I   L 226.0     4  (5,6,7)-                                                  \n128I   G 58.5      5  5      2                                                  \n128I  cG $R{-ADO}=1.7 {I6}.                                                     \n128I   L 269.57    10 (5,6,7)-                                                  "
+}

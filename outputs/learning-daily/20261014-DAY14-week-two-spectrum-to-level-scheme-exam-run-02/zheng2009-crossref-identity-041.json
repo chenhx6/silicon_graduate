@@ -1,0 +1,193 @@
+{
+  "url": "https://api.crossref.org/works/10.1088/1674-1137/33/S1/057",
+  "at": "2026-10-16T11:39:48.228199+08:00",
+  "purpose": "exactcandidate identity and legalpublisher access, body notassumed",
+  "status": 200,
+  "final_url": "https://api.crossref.org/works/10.1088/1674-1137/33/S1/057",
+  "content_type": "application/json",
+  "bytes": 4027,
+  "metadata": {
+    "title": [
+      "High-spin states in<sup>128</sup>I"
+    ],
+    "author": [
+      {
+        "given": "Zheng",
+        "family": "Yun",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Zhu",
+        "family": "Li-Hua",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Wu",
+        "family": "Xiao-Guang",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Li",
+        "family": "Guang-Sheng",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Hao",
+        "family": "Xin",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Wang",
+        "family": "Lie-Lin",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "He",
+        "family": "Chuang-Ye",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Liu",
+        "family": "Ying",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Li",
+        "family": "Xue-Qin",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Pan",
+        "family": "Bo",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Wang",
+        "family": "Lei",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Li",
+        "family": "Zhong-Yu",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Ding",
+        "family": "Huai-Bo",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      }
+    ],
+    "DOI": "10.1088/1674-1137/33/s1/057",
+    "published": {
+      "date-parts": [
+        [
+          2009,
+          3
+        ]
+      ]
+    },
+    "container-title": [
+      "Chinese Physics C"
+    ],
+    "volume": "33",
+    "issue": "S1",
+    "page": "179-181",
+    "link": null,
+    "resource": {
+      "primary": {
+        "URL": "https://iopscience.iop.org/article/10.1088/1674-1137/33/S1/057"
+      }
+    }
+  }
+}

@@ -105,3 +105,8 @@ A new line or energy-sum closure may strengthen placement. It cannot by itself p
 ## 128I低能triplet的身份与出版版本
 
 [[ding-2012-phd-thesis-127-128i-high-spin]] D12-28–32和[[wang-2010-128i-new-high-spin-level-scheme]] W10I-1–8把101.3/两个102.2的端点、门和ICC字段分开；[[level-scheme-reconstruction]]保存typedgraph/19checks和具体数据缺口。新读CPL全文直接提供48/72口径、Channel轴和roughly14%版本文字；thesis61表行/约10%不静默统一，也不据不完整误差合同判冲突。装置/事件指纹匹配保守按依赖谱系，未恢复原runID/响应/Σ，不能作为独立复测或新absolute-strength/集体模式证据。
+
+
+## 128I选定评价与primary的102-keV位置冲突
+
+[[nndc-2015-128i-selected-level-gamma-records]] N128-3–9与[[ding-2012-phd-thesis-127-128i-high-spin]] D12-33、[[wang-2010-128i-new-high-spin-level-scheme]] W10I-10并列保存285→183强102与评价285→270的15.6/270→167的102/ECC绑定差别。能量和不能裁决中间node；评价复用同Tsukuba材料，非独立反证实验。下一必要输入是2012Di14原文/版本、原门谱/转换分析与correctcomponentidentity，未得时不升级Jπ、absoluteB或模式。[[level-scheme-reconstruction]]保存28项固定列/归一/误差来源检查，不能把评价者赋的error当原Cov。

@@ -1,0 +1,415 @@
+{
+  "url": "https://api.crossref.org/works",
+  "params": {
+    "query.bibliographic": "Ding 2012 High spin states doubly odd128I",
+    "query.author": "Ding",
+    "filter": "from-pub-date:2012-01-01,until-pub-date:2012-12-31",
+    "rows": 4
+  },
+  "at": "2026-10-16T11:52:34.743594+08:00",
+  "purpose": "identify evaluation2012Di14 primary candidate, no identity assumed",
+  "status": 200,
+  "items": [
+    {
+      "title": [
+        "Spin 3/2 particle as a dark matter candidate: an effective field theory approach"
+      ],
+      "author": [
+        {
+          "given": "Ran",
+          "family": "Ding",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Yi",
+          "family": "Liao",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "DOI": "10.1007/jhep04(2012)054",
+      "published": {
+        "date-parts": [
+          [
+            2012,
+            4
+          ]
+        ]
+      },
+      "container-title": [
+        "Journal of High Energy Physics"
+      ],
+      "volume": "2012",
+      "page": null,
+      "resource": {
+        "primary": {
+          "URL": "http://link.springer.com/10.1007/JHEP04(2012)054"
+        }
+      }
+    },
+    {
+      "title": [
+        "Baotou City High-Rise Buildings Urban Environment Research"
+      ],
+      "author": [
+        {
+          "given": "Yu Xian",
+          "family": "Ding",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Inner Mongolia University of Science and Technology,"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Ning Bo",
+          "family": "Ma",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Inner Mongolia University"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Lei",
+          "family": "Ding",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "The Baochang Architectural Engineering Co., Ltd"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "DOI": "10.4028/www.scientific.net/amr.518-523.4421",
+      "published": {
+        "date-parts": [
+          [
+            2012,
+            5,
+            14
+          ]
+        ]
+      },
+      "container-title": [
+        "Advanced Materials Research"
+      ],
+      "volume": "518-523",
+      "page": "4421-4424",
+      "resource": {
+        "primary": {
+          "URL": "https://www.scientific.net/AMR.518-523.4421"
+        }
+      }
+    },
+    {
+      "title": [
+        "High-Spin States in<sup>141</sup>Pm"
+      ],
+      "author": [
+        {
+          "given": "Shengjiang",
+          "family": "Zhu",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Long",
+          "family": "Gu",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Jianguo",
+          "family": "Wang",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Zhigang",
+          "family": "Xiao",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Eingyee",
+          "family": "Yeoh",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Ming",
+          "family": "Zhang",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Yu",
+          "family": "Liu",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Huaibo",
+          "family": "Ding",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Lihua",
+          "family": "Zhu",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Xiaoguang",
+          "family": "Wu",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Chuangye",
+          "family": "He",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Guangsheng",
+          "family": "Li",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Lielin",
+          "family": "Wang",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Yun",
+          "family": "Zheng",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Biao",
+          "family": "Zhang",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "DOI": "10.1088/1009-0630/14/6/13",
+      "published": {
+        "date-parts": [
+          [
+            2012,
+            6
+          ]
+        ]
+      },
+      "container-title": [
+        "Plasma Science and Technology"
+      ],
+      "volume": "14",
+      "page": "496-498",
+      "resource": {
+        "primary": {
+          "URL": "https://iopscience.iop.org/article/10.1088/1009-0630/14/6/13"
+        }
+      }
+    },
+    {
+      "title": [
+        "Performance analysis of 4-ary OPPM UWB communication system based on time reversal technique"
+      ],
+      "author": [
+        {
+          "family": "Rui Zang",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "family": "Bing-Zhong Wang",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "family": "Guang-Ding Ge",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "family": "Shuai Ding",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "DOI": "10.1109/hsic.2012.6213012",
+      "published": {
+        "date-parts": [
+          [
+            2012,
+            5
+          ]
+        ]
+      },
+      "container-title": [
+        "2012 4th International High Speed Intelligent Communication Forum"
+      ],
+      "volume": null,
+      "page": "1-4",
+      "resource": {
+        "primary": {
+          "URL": "http://ieeexplore.ieee.org/document/6213012/"
+        }
+      }
+    }
+  ]
+}

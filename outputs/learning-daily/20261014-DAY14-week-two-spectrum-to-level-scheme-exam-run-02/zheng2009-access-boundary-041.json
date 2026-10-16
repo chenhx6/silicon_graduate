@@ -1,0 +1,17 @@
+{
+  "at": "2026-10-16T11:43:46.605614+08:00",
+  "candidate_identity_verified": true,
+  "doi": "10.1088/1674-1137/33/S1/057",
+  "title": "High-spin states in128I",
+  "journal": "ChinesePhysicsC33(S1),179–181(2009)",
+  "crossref_status": 200,
+  "cpc_official": "ConnectionError",
+  "IOP": "HTTP200 redirected verificationpage, not body; no challenge bypass",
+  "OpenAlex": "bronze metadata and IOPpdf candidate only; no institutional/repository alternative",
+  "Scholar": "toolsearch error",
+  "publisher_discovery": "restricted_target",
+  "body_obtained": false,
+  "all_attempted_handles_terminal": true,
+  "scientific_oldtopology_inferred": false,
+  "scope": "boundedroutes only; no globalabsence/entitlement claim"
+}

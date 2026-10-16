@@ -3,7 +3,7 @@ type: experiment
 title: "University of Tsukuba 124Sn(7Li,xn)127,128I in-beam gamma spectroscopy experiment"
 aliases: ["124Sn 7Li 4n 127I 32 MeV", "124Sn 7Li 3n 128I 28 MeV", "Ding 2012 127,128I Experiment", "日本筑波大学串列加速器 127,128I 实验"]
 created: 2026-09-02
-updated: 2026-10-12
+updated: 2026-10-16
 status: active
 review_status: unreviewed
 experiment_id: tsukuba-127-128i-li7-28-32mev
@@ -102,7 +102,7 @@ $$R_{ADO}(\gamma_x)=\frac{A_S(\gamma_x|\gamma_0)/\epsilon_S}{A_L(\gamma_x|\gamma
 - `R_ADO` 是对同一符合门下不同角组强度的实验判别量；`58.5-keV` 线的 `R_ADO=1.66(60)` 仍不能区分 `ΔI=0` 与 `ΔI=2`，须依赖其它级联/能级信息（[D12-17](../sources/ding-2012-phd-thesis-127-128i-high-spin.md)）。
 - Ding 论文未报告 lifetime fit 或 side-feeding 参数，因此不能把观察到的 γ 强度直接变成绝对布居、`B(Eλ)` 或通用 alignment 宽度。Draper 1970 的 stretched-E2 推导显示 cascade feeding 与 side feeding 可混成非单一 Gaussian 的磁次态分布（[DR70-3](../sources/draper-1970-gaussian-substate-side-feeding.md)）；Ekstrom 1979 则警告忽略较高激发能态的 γ feeding 会使 direct-population alignment 预测偏低（[EK79-7](../sources/ekstrom-1979-spin-alignment-attenuation-a61-a67.md)）。两者是方法边界，不是对本实验的拟合。
 - 跨质量区对照：Herzáň 2015 的 `193Bi` 使用 `165Ho(32S,4n)`、JUROGAM II–RITU–GREAT、recoil gating 和 isomer tagging；该独立实验的 916-keV gate 谱仍标出 `165Ho` 峰，说明门与 recoil/isomer tag 能加强归属但须逐门检查污染。它不是 `127/128I` 的重复测量（[HE15-1](../sources/herzan-2015-193bi-spectroscopy.md)）。
-- Wang thesis 追溯到 Zheng 等 2009 `High-spin states in 128I`（Crossref DOI [`10.1088/1674-1137/33/S1/057`](https://doi.org/10.1088/1674-1137/33/S1/057)），并说该报告未给能级激发能、自旋宇称和组态；该项 publisher access probe 也返回 restricted。2010 Wang et al. 与 2011 Ding et al. DOI 元数据均含这两篇 thesis 的作者及共同团队，但期刊全文/逐事件 acquisition comparison 当前不可得。Ding 与 Wang 两本论文所报的 67M γγt、3M Xγ、28/32-MeV束流及阵列指纹完全吻合，故目前按高度可能共享的 Tsukuba acquisition lineage、不得重复计独立实验；100/200-ns 时间窗和方案总数差异继续标为未决，不能据此断言方法修订或独立重复（[WHX12-8](../sources/wang-haixia-2012-173w-128i-high-spin-thesis.md)，[D12-16](../sources/ding-2012-phd-thesis-127-128i-high-spin.md)，[D12-19](../sources/ding-2012-phd-thesis-127-128i-high-spin.md)）。
+- 2026-10-12历史记录（当前可用性见下方新增核验）：Wang thesis 追溯到 Zheng 等 2009 `High-spin states in 128I`（Crossref DOI [`10.1088/1674-1137/33/S1/057`](https://doi.org/10.1088/1674-1137/33/S1/057)），并说该报告未给能级激发能、自旋宇称和组态；该项 publisher access probe 也返回 restricted。2010 Wang et al. 与 2011 Ding et al. DOI 元数据均含这两篇 thesis 的作者及共同团队，但期刊全文/逐事件 acquisition comparison 当前不可得。Ding 与 Wang 两本论文所报的 67M γγt、3M Xγ、28/32-MeV束流及阵列指纹完全吻合，故目前按高度可能共享的 Tsukuba acquisition lineage、不得重复计独立实验；100/200-ns 时间窗和方案总数差异继续标为未决，不能据此断言方法修订或独立重复（[WHX12-8](../sources/wang-haixia-2012-173w-128i-high-spin-thesis.md)，[D12-16](../sources/ding-2012-phd-thesis-127-128i-high-spin.md)，[D12-19](../sources/ding-2012-phd-thesis-127-128i-high-spin.md)）。
 
 ## Sources
 
@@ -111,3 +111,10 @@ $$R_{ADO}(\gamma_x)=\frac{A_S(\gamma_x|\gamma_0)/\epsilon_S}{A_L(\gamma_x|\gamma
 - [[draper-1970-gaussian-substate-side-feeding]]：DR70-1、DR70-3、DR70-7；population/feeding 的方法边界。
 - [[ekstrom-1979-spin-alignment-attenuation-a61-a67]]：EK79-2、EK79-5、EK79-7；CNR alignment 预测不确定度与 feeding 边界。
 - [[herzan-2015-193bi-spectroscopy]]：HE15-1；跨质量区 RDT/isomer-tagging 门控对照，不与 I 数据合并。
+
+
+## 2026-10-16期刊读取与评价对象的新状态
+
+[[wang-2010-128i-new-high-spin-level-scheme]] W10I-1–10的四页CPL正文现已取得，故旧“相关期刊全文不可得”只保留为10月12日历史记录。它给的67Mγγ/3MXγ、28/32MeV、4mg/cm²和9Ge+planar与两thesis指纹匹配，保守仍按依赖/重叠谱系；正文未解决100/200ns时间窗定义或给rawrunIDs，不能从事件总数相同保证每个selectedevent/Σ相同。
+
+[[nndc-2015-128i-selected-level-gamma-records]] N128-2/9在评价summary中将2009Zh51另记为CIAE14Ge实验；这是另一来源的编译描述，旧paper正文未得，不混入Tsukuba采集或计已经独立验证。2009 DOI/33(S1)179–181身份已核，但header32MeV/refs摘要42MeV的差别不在此裁决。N128-4/5显示评价还有拓扑/字段和赋误差来源边界，不能因其“adopted”就替原输入。未新增人审或实验复测信用。

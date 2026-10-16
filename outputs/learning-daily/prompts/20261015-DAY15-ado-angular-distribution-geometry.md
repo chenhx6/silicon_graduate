@@ -386,3 +386,8 @@ Ding128I实际三边58.5/255.6/314.3与225.9/481.8/167.4核过：sourceADO歧义
 ## DAY14原课程迁移040的priming
 
 CPL2010 128I四页primary现已读，新增source保留Channel轴/roughly14%与Ding约10%和61table rows/48levels72γ的口径；同Tsukuba指纹保守按依赖采集。19checks typedID/paths与两102.2/101.3各自ICC/gate、commonphotonRI条件界不等actualfraction/CI。正式15记录此priming，独立回忆/本卡交付后计卡，不沿用Day14分数或当新独立实验。
+
+
+## DAY14原课程迁移041的priming
+
+新增128I selectedENSDF2015低位/反应/capture对象：评价保留(5,6,7)−、102/15.6位置/ECC与thesis/CPL不同，text和独立PDF表均核但不裁决物理拓扑。28checks分开parent/RIlimit/归一、理论CC/实验ECC/EKC及evaluatorassignederrors；不能按sameenergy搬数或借adopted覆盖primary。2012Di14身份PRC86,034302已核，body尚未读。正式Day15记录此priming/缺口，独立执行卡，不提前加分或进Day16。

@@ -1,0 +1,26 @@
+{
+  "url": "https://www.nndc.bnl.gov/ensdf/DatasetFetchServlet",
+  "params": {
+    "nuc": "128I",
+    "nsrch": "Search",
+    "searchType": "quick",
+    "datasource": "ensdf"
+  },
+  "at": "2026-10-16T11:45:13.526906+08:00",
+  "scope": "dataset discovery only; no scientific values yet",
+  "status": 200,
+  "final_url": "https://www.nndc.bnl.gov/ensdf/DatasetFetchServlet?nuc=128I&nsrch=Search&searchType=quick&datasource=ensdf",
+  "content_type": "text/html;charset=UTF-8",
+  "bytes": 1112,
+  "path": "tmp/day14-20261014/nndc128i/dataset-list.html",
+  "sha256": "bdee2d08a8810d12f75283499ecff92f5c65f11b2f697e05efce566e39bf4932",
+  "text": "Search Error Not a valid input method",
+  "input_fields": [
+    {
+      "type": "button",
+      "name": null,
+      "value": "Return to Make a Selection"
+    }
+  ],
+  "form": []
+}

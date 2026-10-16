@@ -1,0 +1,25 @@
+{
+  "Scholar": {
+    "status": "fulfilled",
+    "value": {
+      "content": [
+        {
+          "type": "text",
+          "text": "Error executing tool 'search_google_scholar': google_scholar search failed: Dire****************** out"
+        }
+      ],
+      "isError": true
+    }
+  },
+  "PublisherDiscovery": {
+    "status": "fulfilled",
+    "value": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\n  \"doi\": \"10.1088/1674-1137/33/S1/057\",\n  \"accessDiscovery\": {\n    \"status\": \"restricted\",\n    \"reason\": \"restricted_target\",\n    \"fetchedAt\": \"2026-10-16T03:42:19.868Z\"\n  }\n}"
+        }
+      ]
+    }
+  }
+}

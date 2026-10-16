@@ -1,0 +1,107 @@
+{
+  "url": "https://api.openalex.org/works/https://doi.org/10.1088/1674-1137/33/S1/057",
+  "at": "2026-10-16T11:41:07.896129+08:00",
+  "purpose": "bounded exactcandidate legalaccess, notbodyproof",
+  "status": 200,
+  "final_url": "https://api.openalex.org/works/https://doi.org/10.1088/1674-1137/33/S1/057",
+  "content_type": "application/json",
+  "bytes": 21731,
+  "metadata": {
+    "title": "High-spin states in128I",
+    "doi": "https://doi.org/10.1088/1674-1137/33/s1/057",
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "bronze",
+      "oa_url": "https://iopscience.iop.org/article/10.1088/1674-1137/33/S1/057/pdf",
+      "any_repository_has_fulltext": false
+    },
+    "best_oa_location": {
+      "id": "doi:10.1088/1674-1137/33/s1/057",
+      "doi": "https://doi.org/10.1088/1674-1137/33/s1/057",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1088/1674-1137/33/s1/057",
+      "pdf_url": "https://iopscience.iop.org/article/10.1088/1674-1137/33/S1/057/pdf",
+      "source": {
+        "id": "https://openalex.org/S959143335",
+        "display_name": "Chinese Physics C",
+        "issn_l": "1674-1137",
+        "issn": [
+          "1674-1137",
+          "2058-6132"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "listed_in": [
+          "cwts-core",
+          "jufo-1",
+          "ki-jl-1",
+          "norway-1"
+        ],
+        "host_organization": "https://openalex.org/P4310320083",
+        "host_organization_name": "IOP Publishing",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320083",
+          "https://openalex.org/P4310311669"
+        ],
+        "host_organization_lineage_names": [
+          "IOP Publishing",
+          "Institute of Physics"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Chinese Physics C",
+      "raw_type": "journal-article"
+    },
+    "locations": [
+      {
+        "id": "doi:10.1088/1674-1137/33/s1/057",
+        "doi": "https://doi.org/10.1088/1674-1137/33/s1/057",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1088/1674-1137/33/s1/057",
+        "pdf_url": "https://iopscience.iop.org/article/10.1088/1674-1137/33/S1/057/pdf",
+        "source": {
+          "id": "https://openalex.org/S959143335",
+          "display_name": "Chinese Physics C",
+          "issn_l": "1674-1137",
+          "issn": [
+            "1674-1137",
+            "2058-6132"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "listed_in": [
+            "cwts-core",
+            "jufo-1",
+            "ki-jl-1",
+            "norway-1"
+          ],
+          "host_organization": "https://openalex.org/P4310320083",
+          "host_organization_name": "IOP Publishing",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320083",
+            "https://openalex.org/P4310311669"
+          ],
+          "host_organization_lineage_names": [
+            "IOP Publishing",
+            "Institute of Physics"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Chinese Physics C",
+        "raw_type": "journal-article"
+      }
+    ]
+  }
+}

@@ -1,0 +1,214 @@
+{
+  "url": "https://api.crossref.org/works",
+  "params": {
+    "query.title": "Nuclear Data Sheets for A=128",
+    "query.author": "Elekes",
+    "rows": 3
+  },
+  "at": "2026-10-16T11:49:55.957283+08:00",
+  "use": "evaluation metadata identity, not fullpaperreading",
+  "status": 200,
+  "items": [
+    {
+      "title": [
+        "Nuclear Data Sheets for A = 128"
+      ],
+      "author": [
+        {
+          "given": "Zoltan",
+          "family": "Elekes",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Janos",
+          "family": "Timar",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "DOI": "10.1016/j.nds.2015.09.002",
+      "published": {
+        "date-parts": [
+          [
+            2015,
+            11
+          ]
+        ]
+      },
+      "container-title": [
+        "Nuclear Data Sheets"
+      ],
+      "volume": "129",
+      "page": "191-436",
+      "link": [
+        {
+          "URL": "https://api.elsevier.com/content/article/PII:S0090375215000472?httpAccept=text/xml",
+          "content-type": "text/xml",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://api.elsevier.com/content/article/PII:S0090375215000472?httpAccept=text/plain",
+          "content-type": "text/plain",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        }
+      ]
+    },
+    {
+      "title": [
+        "Nuclear Data Sheets for A = 129"
+      ],
+      "author": [
+        {
+          "given": "Janos",
+          "family": "Timar",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Zoltan",
+          "family": "Elekes",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Balraj",
+          "family": "Singh",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "DOI": "10.1016/j.nds.2014.09.002",
+      "published": {
+        "date-parts": [
+          [
+            2014,
+            9
+          ]
+        ]
+      },
+      "container-title": [
+        "Nuclear Data Sheets"
+      ],
+      "volume": "121",
+      "page": "143-394",
+      "link": [
+        {
+          "URL": "https://api.elsevier.com/content/article/PII:S0090375214006565?httpAccept=text/xml",
+          "content-type": "text/xml",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://api.elsevier.com/content/article/PII:S0090375214006565?httpAccept=text/plain",
+          "content-type": "text/plain",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        }
+      ]
+    },
+    {
+      "title": [
+        "Nuclear Data Sheets for A = 50"
+      ],
+      "author": [
+        {
+          "given": "Zoltan",
+          "family": "Elekes",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Janos",
+          "family": "Timar",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Balraj",
+          "family": "Singh",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "DOI": "10.1016/j.nds.2010.12.001",
+      "published": {
+        "date-parts": [
+          [
+            2011,
+            1
+          ]
+        ]
+      },
+      "container-title": [
+        "Nuclear Data Sheets"
+      ],
+      "volume": "112",
+      "page": "1-131",
+      "link": [
+        {
+          "URL": "https://api.elsevier.com/content/article/PII:S0090375210001201?httpAccept=text/xml",
+          "content-type": "text/xml",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://api.elsevier.com/content/article/PII:S0090375210001201?httpAccept=text/plain",
+          "content-type": "text/plain",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        }
+      ]
+    }
+  ]
+}

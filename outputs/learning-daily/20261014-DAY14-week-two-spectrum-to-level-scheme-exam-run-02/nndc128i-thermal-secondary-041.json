@@ -1,0 +1,21 @@
+{
+  "url": "https://www.nndc.bnl.gov/ensdf/EnsdfDispatcherServlet",
+  "method": "POST",
+  "params": {
+    "dbclass": "ensdf",
+    "page-source": "singular",
+    "chooseit": "ENSDF text format",
+    "datasetcheck": "128053003,128I"
+  },
+  "at": "2026-10-16T11:48:07.124409+08:00",
+  "selection": "only adopted, exact7Lireaction and thermal-capturesecondary for lowanchors/lineidentity; no wholemasschain claim",
+  "status": 200,
+  "content_type": "text/html;charset=UTF-8",
+  "bytes": 102956,
+  "response_path": "tmp/day14-20261014/nndc128i/thermal-secondary-response.html",
+  "response_sha256": "36893377d450e055d49da45f2913ff8b92cbef7e000ac45c825c6cb7111e1a93",
+  "text_path": "tmp/day14-20261014/nndc128i/thermal-secondary.ens",
+  "text_sha256": "5a5315c8888c159014784c0beb9e7af8ac2b20c117a388c8b2ddd48c0d8a5239",
+  "text_lines": 1265,
+  "preview": "\n128I     127I(N,G) E=THERMAL:SECONDARY 1991SA07,1997AL29         15NDS    201510\n128I   H TYP=FUL$AUT=ZOLTAN ELEKES AND JANOS TIMAR$CIT=NDS 129, 191 (2015)$     \n128I 2 H CUT=28-Feb-2015$                                                       \n128I  c  1991Sa07, 1982Al10: Crystal spectrometer, semi E|g, I|g; magnetic      \n128I 2c  spectrometer E(ce), Ice; |g|g, |g|g(t).                                \n128I  c  1997Al29: E=thermal; semi |g, sum coincidence of two cascade |g's.     \n128I  c  1971Sc07: Ge-scintillator-scintillator anti-Compton spectrometer; E|g, \n128I 2c  I|g.                                                                   \n128I  c  1989Du03: Measured |g's of low-energy (<40 keV ) using Si(Li).         \n128I  c  Others: |g|g(t) (1969Ko23,1970Fu03,1974Iv02); |g (1960Ko07,1966Ar09)   \n128I 2c  evaluation (2007ChZX).                                                 \n128I  c  1991Sa07 also reported the results of {+127}I(d,p) and {+129}I(d,t).   \n128I 2c  1982Al10 was preliminary report of 1991Sa07.                           \n128I  cL $The level scheme up to 940 keV is mainly from that proposed by        \n128I 2cL 1991Sa07. That above 942 keV is based on the results of sum            \n128I 3cL coincidence experiments by 1997Al29.                                   \n128I  cL T$From time distribution of |g's, unless otherwise noted. Upper limits \n128I 2cL are from 1991Sa07 and are quoted at three standard deviations, unless  \n128I 3cL otherwise noted.                                                       \n128I  cL E(Y)$From 1997Al29.                                                    \n128I  cL E(Z)$Populated by primary |g from (n,|g).                              \n128I  cG E$From 1991Sa07, unless otherwise noted.                               \n128I  cG E(A)$Energy from 1989Du03. 1989Du03 also reports 9.58|g, 11.23|g,      \n128I 2cG 14.43|g and 19.58|g, which are not confirmed by 1991Sa07.              \n128I  cG E(B)$From 1971Sc07; those were adopted by 1991Sa07.                    \n128I  cG E(C)$From 1971Sc07.                                                    \n128I  cG E(D)$From 1997Al29.                                                    \n128I  cG E(E)$Placed |g in 1997Al29, but moved by evaluators based on results   \n128I 2cG of a least-squares fit to E|g's.                                       \n128I  cG RI$Relative to I(133.61|g)=46.9. The normalization is calculated from  \n128I 2cG I(442.88|g of {+128}Xe)=16.9 {I17} per 100 decays of the {+128}I g.s.. \n128I  cG M$From |a(exp) data of 1991Sa07 based on relative I|g and Ice data.    \n128I  c  J|p(target)=5/2+                                                       \n128I   N 1.06      13                                                           \n128I  PN                                                                     5  \n128I   G 244.44    15 0.20   5                                                  \n128I X G FLAG=C                                                                 \n128I   G 397.37    23 0.32   9                                                  \n128I   G 409.79    25 0.30   5                                                  \n128I X G FLAG=C                                                                 \n128I   G 412.094   21 0.45   4                                                  "
+}

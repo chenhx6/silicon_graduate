@@ -1,0 +1,38 @@
+{
+  "kind": "selected evaluatedobject crosswalk and explicitpapercomparison, no topology adjudication",
+  "objects": {
+    "adopted": {
+      "path": "tmp/day14-20261014/nndc128i/adopted.ens",
+      "sha256": "27afae52bb7be1c4aa50e332e60abfe30a3d615d7e1586cd1b8b98bc65e5527e",
+      "datasetcheck": "128053001,128I",
+      "response_sha256": "c36cc45daecc7b34c0866ac90d488ea1640753a713eca5c0d11c798c7f22b8a9"
+    },
+    "li7-reaction": {
+      "path": "tmp/day14-20261014/nndc128i/li7-reaction.ens",
+      "sha256": "126efa18a375524a26f26d62a32be280c663b3db3f470a9b9e5db94690b28114",
+      "datasetcheck": "128053024,128I",
+      "response_sha256": "2fc295d1340b476c102d28cbe0b58aab33d1fefc1348bad3ce607a9a7e6a80d4"
+    },
+    "thermal-secondary": {
+      "path": "tmp/day14-20261014/nndc128i/thermal-secondary.ens",
+      "sha256": "5a5315c8888c159014784c0beb9e7af8ac2b20c117a388c8b2ddd48c0d8a5239",
+      "datasetcheck": "128053003,128I",
+      "response_sha256": "36893377d450e055d49da45f2913ff8b92cbef7e000ac45c825c6cb7111e1a93"
+    }
+  },
+  "rendered_reaction_pdf": {
+    "path": "tmp/day14-20261014/nndc128i/li7-reaction-rendered.pdf",
+    "sha256": "3d38146944df96e0762fe0e85ba9e4c1bb1511396a35e7be41cc564990bf6370"
+  },
+  "primary_thesis_input": "ding128i-lowenergy-typed-input.json",
+  "scientific_scope": "full230line reaction object; adopted/capture headers plus selectedlowblocks, not wholeNDSarticle",
+  "evaluation_citation": "Elekes/Timar NDS129,191-436(2015), DOI10.1016/j.nds.2015.09.002",
+  "2009_body_read": false,
+  "2012Di14_body_read": false,
+  "primary_topology_adjudicated": false,
+  "full_covariance": null,
+  "actual_event_refit": false,
+  "refs_object": "nndc128i-li7-reference-keys-041.json",
+  "typed_thesis_row_a": "t102a 285.2->183.0, alphaTexp0.60(7)",
+  "typed_thesis_row_b": "t102b 269.6->167.4, experimentalICCnotgiveninthesis"
+}

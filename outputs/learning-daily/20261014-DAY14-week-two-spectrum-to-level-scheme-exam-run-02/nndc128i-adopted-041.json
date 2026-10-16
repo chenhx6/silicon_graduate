@@ -1,0 +1,21 @@
+{
+  "url": "https://www.nndc.bnl.gov/ensdf/EnsdfDispatcherServlet",
+  "method": "POST",
+  "params": {
+    "dbclass": "ensdf",
+    "page-source": "singular",
+    "chooseit": "ENSDF text format",
+    "datasetcheck": "128053001,128I"
+  },
+  "at": "2026-10-16T11:48:07.123856+08:00",
+  "selection": "only adopted, exact7Lireaction and thermal-capturesecondary for lowanchors/lineidentity; no wholemasschain claim",
+  "status": 200,
+  "content_type": "text/html;charset=UTF-8",
+  "bytes": 189017,
+  "response_path": "tmp/day14-20261014/nndc128i/adopted-response.html",
+  "response_sha256": "c36cc45daecc7b34c0866ac90d488ea1640753a713eca5c0d11c798c7f22b8a9",
+  "text_path": "tmp/day14-20261014/nndc128i/adopted.ens",
+  "text_sha256": "27afae52bb7be1c4aa50e332e60abfe30a3d615d7e1586cd1b8b98bc65e5527e",
+  "text_lines": 2327,
+  "preview": "\n128I     ADOPTED LEVELS, GAMMAS                                  15NDS    201510\n128I   H TYP=FUL$AUT=ZOLTAN ELEKES AND JANOS TIMAR$CIT=NDS 129, 191 (2015)$     \n128I 2 H CUT=28-Feb-2015$                                                       \n128I   Q 2122      4  6826.135  6746   4  -2543   4    2012WA38                 \n128I  cL T$From |g|g(t) in {+127}I(n,|g) E=thermal:secondary, unless otherwise  \n128I xcL noted.                                                                 \n128I  cG E,RI$From {+127}I(n,|g) E=thermal:secondary, unless otherwise noted.   \n128I  cG E(A),RI(F)$From {+128}Te(p,n|g).                                       \n128I  cG E(D)$From {+127}I(n,|g) E=thermal:secondary.                           \n128I  cG M$From |a(exp) data based on relative I|g and Ice data in {+127}I(n,|g)\n128I 2cG E=thermal:secondary.                                                   \n128I  cL J(A)$From ADO values and high-spin ordering in {+124}Sn({+7}Li,3n|g).  \n128I  cG E(B),RI(C)$From {+124}Sn({+7}Li,3n|g).                                 \n128I  cL E(B)$From {+127}I(n,X): resonances, if S(n)=6826.13 {I5} keV           \n128I  cL J(C)$From {+127}I(n,X): resonances based on the statistical evaluation \n128I 2cL of the measured experimental widths using codes ESTIMA and CALENDF.    \n128I  cG E(E)$From {+127}I(n,|g) E=thermal:primary.                             \n128I  cL E(E)$From {+127}I(n,|g) E=thermal:primary.                             \n128I   XA124SN(7LI,3NG)                                                         \n128I   XB128TE(P,NG)                                                            \n128I   XC127I(N,X): RESONANCES                                                  \n128I   XD127I(N,G) E=THERMAL:PRIMARY                                            \n128I   XE127I(N,G) E=THERMAL:SECONDARY                                          \n128I   XF127I(D,P)                                                              \n128I   XG129I(D,T)                                                              \n128I   XH128TE(3HE,T)                                                           \n128I  PN                                                                     6  \n128I   L 0.0          1+                24.99 M   2                             \n128I X L XREF=BDEFGH                                                            \n128I 2 L %B-=93.1 8$%EC+%B+=6.9 8                                               \n128I  cL J$atomic beam J=1; L(d,p)=2 for 5/2+ target,                           \n128I 2cL configuration=(|p2d{-5/2})(|n2d{-3/2})                                 \n128I  cL T$weighted average of 24.99 min {I2} (1941Hu04), 25.03 min {I4}        \n128I 2cL (1958Gu09), 25.0 min {I5} (1959Gi42), 25.5 min {I3} (1968Qa02), 25.08  \n128I 3cL min {I5} (1968Re04), 24.97 min 3 (1972Em01). Other: 24.92 min {I6}     \n128I 4cL (1994Ya02); value is an average from three values given in the         \n128I xcL authors' table.                                                        \n128I   L 27.3620   11 2+                                                        \n128I X L XREF=BDEFG                                                             \n128I  cL J$M1 |g to 1+ g.s.; M1 |g from 3+.                                     \n128I   G 27.362    5  100       M1                      4.64                 C  "
+}

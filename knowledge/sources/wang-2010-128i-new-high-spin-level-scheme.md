@@ -70,6 +70,8 @@ Wang等，*Chinese Physics Letters* **27**(8), 082701 (2010)，DOI [10.1088/0256
 | W10I-6 | 作者将101.3放为高位(10+)→(9+)、强102.2放为低位(8−)→(7−)，411只在纲图使用一次；其对Ref16错误方案的比较是作者陈述，Ref16原件本任务未读，不能重建旧拓扑。 | author-placement-and-primary-comparison-boundary | direct | printed082701-3 Fig3 and paragraphs below Fig4 | true |
 | W10I-7 | 本文说已知弱102.2占总强度roughly14%；Ding thesis说约10%，两者分别保留。未给共同计数/误差/归一合同，不能作独立实验差异显著性或静默选其一。 | version-specific-intensity-summary | direct-and-derived | printed082701-3 top right paragraph; DingPDF81 printed73 | true |
 | W10I-8 | 1461/1562的positiveπ与2qp组态借同位素系统学；无明显collectivefeatures和quasiparticle解释是作者判断，不是寿命/absoluteB/Qt直接测量，文末还说需进一步研究。 | author-interpretation-and-limit | direct | printed082701-3 lower text; printed082701-4 Discussion/Summary | true |
+| W10I-9 | Ref16的Zheng2009/CPC33,179可与Crossref和NNDCgetrefs的33(S1)179–181、DOI10.1088/1674-1137/33/S1/057核身份；旧正文在本轮选定入口仍未得，IOP200是验证页，不能按本文批评重建旧图或核独立实验。 | reference-identity-not-body-evidence | direct-and-derived | printed082701-4 Ref16; Crossref DOI record; NNDCgetrefs128053024 entry2009ZH51 | true |
+| W10I-10 | 本文Fig3/4的强102.2在285→183，与2015选定ENSDF的15.6/102位置和ECC绑定不同。NNDCtext与PDF是同评价的两表示，不能以adopted或来源较新裁决本文；须核2012Di14原文/版本和原门谱，当前保留冲突。 | direct-primary-versus-compiled-object-boundary | direct-and-derived | printed082701-3 Figs3–4; NNDCreaction PDF2 gamma table | true |
 
 ## Nuclear Structure Information
 
@@ -106,3 +108,12 @@ P0：本轮公开PDF身份/哈希/四页正文与DOI/元数据一致，无技术
 - 来源版本与依赖回链：[[ding-2012-phd-thesis-127-128i-high-spin]]。
 - 方法与证据矩阵：[[level-scheme-reconstruction]]、[[a130-thesis-evidence-matrix]]。
 - 核素/实验复用既有[[128i]]和[[tsukuba-127-128i-li7-28-32mev]]，没有为本次四页文章另造独立实验页。
+
+
+## 旧方案身份与2015评价的新增边界
+
+2026-10-16本轮把Ref16精确核为CPC33(S1),179–181(2009)，DOI[10.1088/1674-1137/33/S1/057](https://doi.org/10.1088/1674-1137/33/S1/057)。原旧paper正文仍未取得；CPC连接失败、IOP验证页、Scholar/发现工具失败或restricted只属于所试路线，不证明全球无原文，也不据本文批评填旧图。本文与旧实验的比较目前只按作者陈述与二级评价报告分层。
+
+新[[nndc-2015-128i-selected-level-gamma-records]] N128-4保存实际text/PDF的位置与ECC冲突：NNDC在约285列15.6到270、102在270到167；本文/[[ding-2012-phd-thesis-127-128i-high-spin]]强102为285到183。能量和不足判中间node，版本/更精确能量不能独立裁决。N128-9进一步识别2012Di14为PRC86,034302，但其正文尚未读，未归因错误或改变本sourceassignment。
+
+新W10I-9/10 true，旧1–8/review保持；当前只新增可核身份/冲突边界，没有新增独立采集或假定2012图。下一信息增益来自对应primary/版本，而非重复sameenergy匹配。

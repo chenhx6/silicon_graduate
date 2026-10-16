@@ -85,6 +85,10 @@ Matev2007局部算符/表检验完成后，选择Riley2001公开作者实验报�
 
 039三节点完成后，11:12上海冻结[primed issue](20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/ding128i-lowenergy-identity-before-sources.md)，选择101.3/两个102.2的真实身份/门/转换合同，仍原Day14谱到图路线，无新卡/Day16。原2010/2011相关论文先前未读；本轮用新的CPL publisher直达入口发现正文，不重复旧受限路径。2011仅空SPA、没有内容证据。研究距15:00仍有充分窗口，source/卡局部完成不是closeout。
 
+### 第041批：旧方案访问与实际评价crosswalk
+
+11:37上海先冻结[旧primary发现前问题](20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/ding128i-old-scheme-before-discovery.md)，核Ref16身份后，限定官方/发现路线未得正文，不据2010批评反推旧图；所有已试handle终态。11:44重建池/时钟仍有约195分钟，转向[查询前冻结](20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/day14-128i-evaluation-before-query.md)的128I公开选定ENSDF低锚点/谱系，是原Day14实际证据比较，无新卡/Day16。
+
 ## Sources and evidence
 
 | 来源 / 身份 | 本轮实际覆盖与locator | 证据分层与独立性 |
@@ -209,6 +213,14 @@ PDF79先回述旧(5,6,7)−/M1资料，再明确合用reactionspintrend、已知
 W10I-1–8直接支持48levels/72γ、Channel轴、roughly14%弱分量、ADO/spin/positiveπ系统学边界。Thesis约10%、61表行及Fig6.5原轴分别保留；没有rawrunID/共同误差合同，不相减计新增或作版本差异显著性。Tsukuba/28&32MeV/4mgcm²/9Ge+planar/67Mγγ/3MXγ高度匹配，保守按共享/重叠acquisition，不能作为新增独立实验。旧References15/16正文仍未读。
 
 Ding新D12-28–32定位三个低能row、.60(7)/.88(21)各自gate和117.8pureE2条件、主链与axis/分母边界。2010期刊本轮读到只更新当前可用性，旧D12-19的2026-10-12受限记录作为历史保持；2011入口HTTP200仅空网页框架，不能计其全文。
+
+### 第041批：selected2015对象与未得旧primary
+
+Ref16 DOI[10.1088/1674-1137/33/S1/057](https://doi.org/10.1088/1674-1137/33/S1/057)已核CPC33(S1),179–181(2009)；CPC连接失败、IOP200重定向验证页（非正文）、Scholar失败、发现工具restricted，OpenAlex仅同IOP候选。没有绕验证/读旧图/作全网无原件断言。[边界](20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/zheng2009-access-boundary-041.json)可核。
+
+新[[nndc-2015-128i-selected-level-gamma-records]]实际取得201510的adopted128053001、reaction128053024、capture-secondary128053003；header/lowblocks、reaction230lines全读，另独立NNDCreactionPDF6页中的页1–3及页2gamma表视觉核。没有读NDS191–436整篇或所有adopted/capture记录。三对象/HTML及PDF SHA/POST参数都在source与receipts，原件只Wiki内tmp/raw保留槽未填，不进Git。
+
+实际评价保留226.102/269.712的(5,6,7)−，给167.368的175(15)ns。更关键的是reaction/adopted把约285下列15.6到270、102/ECC放270到167，与Ding/CPL强102为285→183不同；text和独立PDF表均确认（N128-3/4）。评价者按强度区间赋perlineerrors、RI归一及CC/ECC/EKC各对象不同（N128-5–8）。getrefs识别2012Di14为PRC86,034302 DOI10.1103/PhysRevC.86.034302，正文尚未读；header2012Wa27 key实际指Uoctupolepaper及2009beam32/42二级差别并列，不静默改（N128-9）。
 
 ## Theory/analysis exercise
 
@@ -513,6 +525,14 @@ Eq19字面theta在Eq18后缺lab标记（PDF/HTML一致）。若把它当lab可�
 
 仅在共同scale/角平均photon强度、固定strongcenter563与weak≥79条件下，twocomponentfraction≥79/642≈.123052960。不是actualfraction/CL，不把≥79当测得79或调数据证明约10%/14%相容。源给的5–30%范围不定义jointCov或版本检验；混峰转换只保留含未知alpha_b的symbolic式，没有替其填值。
 
+### 第041批：28项固定列/parent/limit合同
+
+[量化前冻结](20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/nndc128i-before-crosswalk.md)、[输入](20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/nndc128i-crosswalk-input.json)、[脚本](../../system/scripts/day14_ensdf128_lowanchor_crosswalk.py)与[28-check审计](20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/nndc128i-crosswalk-audit.json)保存fixedcolumn/rawline/sourcehash、limit和typedprimaryrow。Canonical解释在[[level-scheme-reconstruction]]“128I评价对象：102-keV位置与字段不能随能量迁移”。
+
+ReactionG102.2在L269.57、RI≤632/ECC.60(7)；L285.19有G15.6与117.8。Primary两个102row仍分别保存，不以energynearest映射ECC。15.6+102.2=117.8，primary285.2−167.4=117.8，评价285.19−167.367=117.823；总和不足裁决中间183还是270，primary中183−167差额不补成已测线。
+
+评价perlineerror源自RI>50/20–50/<20三档（.1/5%、.3/15%、.5/30%），不等恢复原fitCov。Adopted101.3 RI100对reaction146，capture用I133.61=46.9/N1.06(13)，不能直接相加/branch化。CC是理论total、ECC实验total、EKC实验K-shell；capture.55(11)不等reaction.60(7)相同对象。175ns仅167parent，137.851的.845μs是另一parent，不借给上方节点或新算B。
+
 ## Counter-evidence and missing companion observables
 
 HE15-9的实际未定双线是核心反例：energy sum、共享R/A和假设的ΔI=2均不足以裁决order。若一条线出现可独立定位的旁路或延迟顺序，应重审中间level；source仍保留括号Jπ与(E2)。HE15-5的quadruplet限制“一个峰是一条γ”的简化；干净622.4直接分支门与323.4级联门的299-keVcomponent差异可能迫使拆峰，但必须控制622/626门纯度、feeding、response和random。
@@ -619,6 +639,12 @@ Ref39原书对应段、code参数定义/约定与actualpopulation/data仍缺；�
 
 如果未来在clean756门证实101.3且排除串扰/污染/未列级联，需要回审source拓扑；当前图无此峰的显示不提供量化上限。Ref16旧图未直接读，不仅凭当前作者比较重建它。0.60(7)不是所有102.2的experimentalICC，14%/10%也不是独立样本差异。
 
+### 第041批：评价不能自动覆盖primary
+
+这是实质sourceobject冲突，不是rounding；text/PDF复核减少parser错误但不提供独立采集或物理裁决。2015评价复用2010/2012Tsukuba材料，不能拿更新adopted标签当独立反证。下一必须读2012Di14/正式版本或erratum并核原门/转换分析，才可追原因。原2009body仍缺，评价summary中的CIAE14Ge与Tsukuba指纹差别只能作为编译线索，不认证旧数据细节。
+
+SourceM/R/RI/normalization与时间身份均须匹配，实际response/Cov/runIDs/原counts还未取得。metadata里的2012Wa27引用key和2009beam不一致已隔离，不能据它们新增结构/实验事实或静默修源。
+
 ## Knowledge Impact and Learning Decision
 
 - **supports：** 一图一表的逐边source-level纲图和DCO/偏振/转换联合证据链。
@@ -722,6 +748,10 @@ Decision: **revises** “伴随线已见所以Jπ唯一”的省略，**supports
 ### 第040批后的认识决定
 
 Decision: **supports** componentID/端点/gate/ICC先于spin和strength，**revises** 2010primary当前未读状态及对thesis轴/分母的版本认识，**limits** sameenergy合row、口径相减计新增、sharedpaper计独立实验和selectedgraph不连通计absence。没有改变正式21/24、completed14/partial15、课程state或实验模式排序。
+
+### 第041批后的认识决定
+
+Decision: **revises** “更新评价已经adopted就可替代逐row校验”的捷径，**supports** source/object/parent/field/limit/provenance分别对账，**limits** 从perlineerror补原Σ、sameenergy搬ICC、同评价多表示算独立实验。来源差别不是新的spin/σ/δ/absoluteB/模式结果；formal21/24、completed14/partial15及course状态不变。
 
 ## Durable knowledge delta
 
@@ -4067,6 +4097,183 @@ Decision: **supports** componentID/端点/gate/ICC先于spin和strength，**revi
           "locator": "W10I-1"
         }
       ]
+    },
+    {
+      "knowledge": "knowledge/sources/nndc-2015-128i-selected-level-gamma-records.md",
+      "summary": "选定2015ENSDF对象的lowanchors/拓扑/CC字段、评价赋误差与refs边界，保存text/PDF一致而primary冲突的实际证据。",
+      "anchor": "128I选定评价对象与primary的拓扑边界",
+      "sources": [
+        {
+          "path": "knowledge/sources/nndc-2015-128i-selected-level-gamma-records.md",
+          "locator": "N128-1"
+        },
+        {
+          "path": "knowledge/sources/nndc-2015-128i-selected-level-gamma-records.md",
+          "locator": "N128-2"
+        },
+        {
+          "path": "knowledge/sources/nndc-2015-128i-selected-level-gamma-records.md",
+          "locator": "N128-3"
+        },
+        {
+          "path": "knowledge/sources/nndc-2015-128i-selected-level-gamma-records.md",
+          "locator": "N128-4"
+        },
+        {
+          "path": "knowledge/sources/nndc-2015-128i-selected-level-gamma-records.md",
+          "locator": "N128-5"
+        },
+        {
+          "path": "knowledge/sources/nndc-2015-128i-selected-level-gamma-records.md",
+          "locator": "N128-6"
+        },
+        {
+          "path": "knowledge/sources/nndc-2015-128i-selected-level-gamma-records.md",
+          "locator": "N128-7"
+        },
+        {
+          "path": "knowledge/sources/nndc-2015-128i-selected-level-gamma-records.md",
+          "locator": "N128-8"
+        },
+        {
+          "path": "knowledge/sources/nndc-2015-128i-selected-level-gamma-records.md",
+          "locator": "N128-9"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/sources/ding-2012-phd-thesis-127-128i-high-spin.md",
+      "summary": "在保留thesis原值的前提下新增评价102/ECC绑定冲突和2012primary待核边界。",
+      "anchor": "选定ENSDF与本thesis的102-keV位置冲突",
+      "sources": [
+        {
+          "path": "knowledge/sources/ding-2012-phd-thesis-127-128i-high-spin.md",
+          "locator": "D12-33"
+        },
+        {
+          "path": "knowledge/sources/nndc-2015-128i-selected-level-gamma-records.md",
+          "locator": "N128-4"
+        },
+        {
+          "path": "knowledge/sources/nndc-2015-128i-selected-level-gamma-records.md",
+          "locator": "N128-9"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/sources/wang-2010-128i-new-high-spin-level-scheme.md",
+      "summary": "核2009Ref16确切身份而不读到正文即复原旧图，并保存本primary与评价的位置差别。",
+      "anchor": "旧方案身份与2015评价的新增边界",
+      "sources": [
+        {
+          "path": "knowledge/sources/wang-2010-128i-new-high-spin-level-scheme.md",
+          "locator": "W10I-9"
+        },
+        {
+          "path": "knowledge/sources/wang-2010-128i-new-high-spin-level-scheme.md",
+          "locator": "W10I-10"
+        },
+        {
+          "path": "knowledge/sources/nndc-2015-128i-selected-level-gamma-records.md",
+          "locator": "N128-4"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/methods/level-scheme-reconstruction.md",
+      "summary": "28项fixedcolumn/typedparent/limit/RI/CC-ECC-EKC/时间与引用合同，能量和不足裁决source拓扑，不推广actualfit。",
+      "anchor": "128I评价对象：102-keV位置与字段不能随能量迁移",
+      "sources": [
+        {
+          "path": "knowledge/sources/nndc-2015-128i-selected-level-gamma-records.md",
+          "locator": "N128-3"
+        },
+        {
+          "path": "knowledge/sources/nndc-2015-128i-selected-level-gamma-records.md",
+          "locator": "N128-4"
+        },
+        {
+          "path": "knowledge/sources/nndc-2015-128i-selected-level-gamma-records.md",
+          "locator": "N128-5"
+        },
+        {
+          "path": "knowledge/sources/nndc-2015-128i-selected-level-gamma-records.md",
+          "locator": "N128-6"
+        },
+        {
+          "path": "knowledge/sources/nndc-2015-128i-selected-level-gamma-records.md",
+          "locator": "N128-7"
+        },
+        {
+          "path": "knowledge/sources/nndc-2015-128i-selected-level-gamma-records.md",
+          "locator": "N128-8"
+        },
+        {
+          "path": "knowledge/sources/nndc-2015-128i-selected-level-gamma-records.md",
+          "locator": "N128-9"
+        },
+        {
+          "path": "knowledge/sources/ding-2012-phd-thesis-127-128i-high-spin.md",
+          "locator": "D12-33"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/projects/a130-thesis-evidence-matrix.md",
+      "summary": "将actualprimary-vs-evaluated位置冲突和必要2012原文/门/转换证据接回论文矩阵。",
+      "anchor": "128I选定评价与primary的102-keV位置冲突",
+      "sources": [
+        {
+          "path": "knowledge/sources/nndc-2015-128i-selected-level-gamma-records.md",
+          "locator": "N128-4"
+        },
+        {
+          "path": "knowledge/sources/nndc-2015-128i-selected-level-gamma-records.md",
+          "locator": "N128-5"
+        },
+        {
+          "path": "knowledge/sources/ding-2012-phd-thesis-127-128i-high-spin.md",
+          "locator": "D12-33"
+        },
+        {
+          "path": "knowledge/sources/wang-2010-128i-new-high-spin-level-scheme.md",
+          "locator": "W10I-10"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/experiments/tsukuba-127-128i-li7-28-32mev.md",
+      "summary": "把旧未读期刊可用性标历史、补2010当前读取及2009二级谱系/时间窗未决边界，未合并新独立采集。",
+      "anchor": "2026-10-16期刊读取与评价对象的新状态",
+      "sources": [
+        {
+          "path": "knowledge/sources/wang-2010-128i-new-high-spin-level-scheme.md",
+          "locator": "W10I-2"
+        },
+        {
+          "path": "knowledge/sources/wang-2010-128i-new-high-spin-level-scheme.md",
+          "locator": "W10I-9"
+        },
+        {
+          "path": "knowledge/sources/nndc-2015-128i-selected-level-gamma-records.md",
+          "locator": "N128-2"
+        },
+        {
+          "path": "knowledge/sources/nndc-2015-128i-selected-level-gamma-records.md",
+          "locator": "N128-9"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/index.md",
+      "summary": "添加128I选定ENSDF对象的canonical入口。",
+      "anchor": "nndc-2015-128i-selected-level-gamma-records",
+      "sources": [
+        {
+          "path": "knowledge/sources/nndc-2015-128i-selected-level-gamma-records.md",
+          "locator": "N128-1"
+        }
+      ]
     }
   ]
 }
@@ -4219,6 +4426,8 @@ Danko99primary合法OA/publicPDF/官方API/repo均未提供正文（403HTML/401J
 
 第040批新建`knowledge/sources/wang-2010-128i-new-high-spin-level-scheme.md`，保存W10I-1–8的四页primary、图/页/URL/hash、谱系与版本边界；Ding source新增D12-28–32；`knowledge/methods/level-scheme-reconstruction.md`新增“128I低能triplet：transition ID、门与转换字段”；`knowledge/projects/a130-thesis-evidence-matrix.md`新增“128I低能triplet的身份与出版版本”；`knowledge/index.md`加入回链。长期知识在canonical，原PDF仅tmp/不改raw，所有新claims true、旧review保持。
 
+第041批新建`knowledge/sources/nndc-2015-128i-selected-level-gamma-records.md`，N128-1–9保存exact对象/headers/records/PDF/sourcehash及冲突；Ding source新增D12-33、CPL source新增W10I-9/10；`knowledge/methods/level-scheme-reconstruction.md`新增评价crosswalk节，`knowledge/projects/a130-thesis-evidence-matrix.md`新增102位置冲突接口；`knowledge/experiments/tsukuba-127-128i-li7-28-32mev.md`把10月12日未得期刊状态明确标历史并新增当前谱系状态；`knowledge/index.md`加入口。未改raw/旧review，新的知识不只存在outputs。
+
 ## Open questions and belief revision
 
 1. 哪个旁路、time/tag或独立spin anchor能裁决393/394的顺序？重复同一能量和不能裁决。
@@ -4242,6 +4451,8 @@ Danko99primary合法OA/publicPDF/官方API/repo均未提供正文（403HTML/401J
 
 第040批还缺原Ref15/16、exactevent lineage/时间窗定义、planar能量校准/混峰响应与共同Cov，才可对102分量/方案版本做实际重分析。2011空SPA没有补此缺口。下一高信息route可核2009旧方案primary或现有源的timewindow/事件口径；先新issue回忆/时钟，不由新论文可用性增加学分。
 
+第041批下一最高信息路线是准确的2012Di14 PRC86,034302正式原文：它是否真的改变102/15.6的placement或RI/ICC合同，还是评价层发生绑定/引用问题？目前只知exactreference身份、不猜正文。旧2009body仍未得，原数据/Cov缺口保持；下轮先clock/primedrecall再取得合法原件，<90min不新source/card。
+
 ## L0–L4 state
 
 最新moment放宽与图仍为L2 source-conditioned分析；fullbranch/转换/response/Cov不全，真实167Tm experimental refit仍not-ready，不以高精度计算冒充L4或新实测分支。
@@ -4264,6 +4475,8 @@ Danko99primary合法OA/publicPDF/官方API/repo均未提供正文（403HTML/401J
 第039批为L1本地raw/图表/正文核验和L2真实source条件选择集/算术，无actualspin重拟或experimentalL4；没有把100页重复读或16checks作新学分，formal14/partial15保持。
 
 第040批为L0/L1直接CPL2010四页primary读取与L2 typedgraph/强度字段条件核算。19checks没有实际分峰/角fit或L4实验refit；新publicsource原件只tmp、有URL/hash而raw槽未归档，风险在source记录。Day14成绩、Day15无信用状态保持。
+
+第041批为L1选定公开ENSDF低记录/反应对象及独立PDF表读取与L2 sourcecrosswalk，28checks不等实际event-levelL4。NDS质量链论文没有全读，adopted/capture只核指定scope，未裁决topology/σδ/模式；原Day14信用和Day15partial保持。
 
 ## Verification and continuation
 
@@ -4559,3 +4772,13 @@ Farmer42019于11:07上海核running/currentthreadrunning，未新session/goal或
 `git diff --check`、boundary/preflight实际exit0；EOLexit1仅保留4页既有本批substantive，加新未跟踪source，0restore/unsafe。Farmer42019于11:29上海核running/currentthreadrunning，未新session/goal或重启daily scheduler。Stablepointer main / `Audit DAY14 iodine triplet identities against primary spectra`，actualH3/hash/push只publication-040.json。
 
 仍active，研究2026-10-16 15:00上海止、16:00交付；下一clock/pool可核2009Ref16真实旧方案或timewindow/eventlineage，新issue先回忆。原缺失inputs/independence边界不因新读4页而消失，不提前信用或closeout；preserve inherited/raw/PLAN/Bib/review，显式manifest/H3非force发布。
+
+### 第041批验收与续接
+
+28项fixedcolumn/objecthash/parent-limit/RI/CC-ECC-EKC/时间与引用合同检查实际exit0；report/card/writeback valid，唯一block144items/44changedknowledge页。Ding旧32行/W10I旧8行逐行flags与review保持，新D33/W9–10/N1281–9 true；实验页仅加明确历史前缀与新当前状态，rawmetadata/PLAN/Bib/所有对象-PDF-input-thesis-refs哈希、AST与state14/count13通过。
+
+`wiki_lint.py --fail-on error`最终exit0，0errors/145warnings（114citekeys/28rawslots/3reactionparser）。首次exit1的2项为新source通用NNDC canonical_source重复和requiredlimitations小节名，改为精确datasetidentity/规定标题后同命令通过，科学字段不变。新增warnings仍是新source无唯一Bibkey/未填raw保留槽。`git diff --check`、boundary/preflight exit0；EOLexit1仅保留6页本批substantive加新untrackedsource，0restore/unsafe。
+
+Farmer42019于12:07上海核running/currentthreadrunning，未新session/goal或重启daily scheduler。Stablepointer main / `Cross-check DAY14 iodine evaluated topology and field provenance`，actualH3/hash/push只publication-041.json；新A知识页在stage后若helper一律待分类，须先明确baseline/归属/UTF8-LF/index一致后再commit，必要检查未过不push。
+
+当前仍active，研究2026-10-16 15:00止、16:00交付；下一clock/pool和primedrecall后核准确2012Di14正式原文。旧2009访问边界与primary/compiled冲突未因checks通过而裁决，formal21/24/completed14/partial15不变；preserve inherited/raw/PLAN/Bib/review，显式manifest/H3非force发布。

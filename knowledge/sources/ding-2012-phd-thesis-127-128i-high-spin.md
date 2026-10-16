@@ -109,6 +109,7 @@ tags: [high-spin, transitional-nuclei, iodine-isotopes, decoupled-band, gamma-so
 | D12-30 | 作者以Fig6.5/其它符合与energy sums支持101.3→764.7→411.0→102.2的顺序并只用一次411，称旧弱102约总强度10%。本任务选定端点图给chain1379.2keV；若仅固定common-scale photon Istrong563与Iweak≥79，twocomponentfraction≥79/642只是条件算术非真实fraction或CI。 | source-chain-and-conditional-intensity-audit | direct-and-derived | PDF80–81 chain discussion; PDF78 Table6.1 two102.2 rows | true |
 | D12-31 | 2010CPL正文现已直接读到，Fig4横轴为Channel且正文弱102说roughly14%，与thesisFig6.5轴标/10%分别保留。2010报告48/72与thesis61表行不是可直接相减的同口径计数；指纹匹配保守按共享/重叠采集，无新独立复测。 | newly-read-dependent-publication-crosswalk | direct-and-derived | PDF81–82; Wang2010 printed082701-1/3 Fig4 | true |
 | D12-32 | Fig6.5中756.5/764.7/117.8门的低峰差异有助拆101/102；由source采用端点看，756.5下方285.2的102.2和117.8是竞争分支，另一102.2来自269.6。选定图中某路径不存在不等于完整实验absence或上限，原raw/校准/response/Cov仍缺。 | source-selected-graph-and-negative-evidence-boundary | direct-and-derived | PDF77 Fig6.2; PDF82 Fig6.5; PDF78–79 Table6.1 | true |
+| D12-33 | 本文/CPL强102.2为285.2→183.0、ECC=.60(7)随该component；2015选定ENSDF却把102.2/ECC放269.57→167.367并在285.19列15.6。Text/PDF均核，属于sourceobject拓扑/字段冲突，非rounding；未读2012Di14/body/erratum前不裁决哪图正确、不将评价当独立新测量。 | primary-versus-evaluation-conflict-boundary | direct-and-derived | PDF77 Fig6.2; PDF79–80 conversiontext; NNDC128053024 L269.57/G102.2 and renderedPDF2 | true |
 
 ### 2026-10-12 reaction-channel evidence addendum
 
@@ -222,3 +223,10 @@ Agent self-audit：D12-22–27 true，旧1–21/原review保持。初次本任�
 2010 Fig4原横轴Channel，thesisFig6.5印能量keV却在475–550附近画101/102标签；保留两版，不猜精确rebin/calibration或修原图。本文约10%与2010 roughly14%分别记录；在固定RI中心/下界合同下的79/642≠实测componentfraction，原5–30%范围没有给fullCov/相同归一/门以检验版本一致性。CPL48/72、thesis61表行也不用于计新增。共同装置/束流/事件指纹匹配，保守不计独立重复，未恢复原runIDs/时间窗定义。
 
 Agent self-audit：新D12-28–32 true，旧1–27逐行/flags与review保持；原raw/PLAN/Bib未改。Decision: **supports** 逐rowID/端点/gate/转换的身份合同；**revises** 当前2010primary可读状态；**limits** 同峰合并、混用fraction/branch分母和图坐标、由selectedgraph不连通宣称实验absence。Formal14分数与课程信用不变。
+
+
+## 选定ENSDF与本thesis的102-keV位置冲突
+
+[[nndc-2015-128i-selected-level-gamma-records]] N128-3–9补直接对象/独立PDF表示，保留更宽的(5,6,7)−标签、15.6/102位置及ECC绑定差别。D12-28/29仍是本thesis实际表/论证，不能将数据库的269.57 parent/ECC反向抄来变成另一102的独立实测ICC；两source版本必须分开。评价者还按RI区间赋error，不能用那些值补本thesis原fitCov。
+
+28项选定记录检查与能量和歧义在[[level-scheme-reconstruction]]新评价节保存。2012Di14精确为PRC86,034302/DOI10.1103/PhysRevC.86.034302，正文未读；source争点不以paper年/compiled标签判决。本段D12-33 true，旧1–32/原review/raw保持，没有新spin、真实σ/δ/absoluteB或模式结论。

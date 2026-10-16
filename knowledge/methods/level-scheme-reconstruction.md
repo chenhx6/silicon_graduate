@@ -741,3 +741,36 @@ CPL正文说weak roughly14% total，Ding正文说约10%，分别保留为版本�
 CPL Fig4横轴明确Channel（约900–1100），Ding Fig6.5印能量keV（约475–550）而线标101.3/102.2；不能从标签推准确校准或重bin映射、把像素横坐标直接作低线keV。图/表/作者解释的版本映射可重用，calibratednetcounts/逐门Σ仍未得。2010报告48levels/72γ、Ding原表61rows口径不同，不能相减计新线或独立采集。
 
 [19-check程序](../../system/scripts/day14_ding128i_transition_identity.py)、[输入](../../outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/ding128i-lowenergy-typed-input.json)与[结果](../../outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/ding128i-lowenergy-typed-audit.json)保存两个primaryhash、typedID/paths、literal energy、ICC合同和强度条件界。Decision: **supports** 先辨component/门/端点再接spin、ICC与strength；**limits** 仅按energy去重、同一谱系重复计权以及把图不连通当experimentalabsence。正式Day14 21/24、completed14/partial15不变。
+
+## 128I评价对象：102-keV位置与字段不能随能量迁移
+
+[[nndc-2015-128i-selected-level-gamma-records]] N128-1–9的实际201510对象和NNDC独立生成reactionPDF，给前节triplet身份问题新的source级反证。评价复用2010Wa27/2012Di14，并不是独立实验；adopted、reaction和capture也有各自来源/归一，不能按同energy拼数值。
+
+### 先核版本、parent和limit
+
+| 材料 | 约102-keV所在边/关联量 | 约285-keV下的报告路径 | 应保留的边界 |
+| --- | --- | --- | --- |
+| DingFig6.2/Table6.1/CPLFig3–4 | 强102.2：285.2→183.0；另弱102.2：269.6→167.4；.60(7)在thesis针对强component | 强102.2到183及117.8到167 | 两低线同energy而ID不同，不以energy去重 |
+| ENSDFreaction128053024 text/PDF2 | 102.2：269.57→167.367、RI≤632、ECC=.60(7)、CC理论.703 | 15.6：285.19→269.57；117.8：285.19→167.367 | 只有一个102.2gamma record；它的parent/ECC与上行不同，不能称rounding |
+| ENSDFadopted128053001 | 102.344：269.712→约167；M1/RI100/CC理论.700 | L285.24有15.6/117.8；L183.0虽存在但无outgoingG记录 | 不能由空G记录宣布真实无衰变，或以adopted标签裁决primary |
+| thermal-secondary128053003 | 102.344：269.711→约167；RI.67(11)、实验EKC=.55(11) | 本次未核高自旋完整路径 | EKC为K-shell，不能与ECCtotal或reactionRI混合 |
+
+NNDC reactionPDF页2直接列Ei/Ef，独立确认了text的parent绑定；这减少parser错误的可能，但text/PDF仍是同一评价对象。需要2012Di14原文、正式版本/erratum及原component门谱，才能判差别原因；当前不指定数据库错或primary图错。
+
+primary节点的数值差285.2−183.0=102.2，183.0−167.4=15.6；后一个只是节点差，不在此补成已测15.6线。评价的两段15.6+102.2同样为117.8，285.19−167.367=117.823。能量和近相同不能选择中间183或270，这与原193Bi未定顺序问题共享方法边界；不是二者物理结构相同的证据。
+
+### 评价误差、强度归一和conversion分层
+
+reaction明确说能量/强度来自2010作者邮件给的总体range，evaluator按RI>50、20–50、<20分别赋.1keV/5%、.3keV/15%、.5keV/30%。例如101.3的RI146(7)/Eerr.1、345.4的45(7)/.3、255.6的4(1)/.5为评价字段。它们有明确provenance，但不恢复原谱拟合Cov或许可将同值补给thesis原误差。
+
+adopted101.3归一RI100、reaction146，capture另用I(133.61)=46.9和N1.06(13)，各对象不能直接相加/求fraction。Reaction102为≤632，thesisweak为≥79；方向不能互换，更不能把两者视为同一component的新版置信界。前节79/642只限其明示primaryRI合同，不改为实验结论。
+
+CC字段为理论total，ECC为实验total，EKC为实验K-shell。反应对象在不同parent下复用了.60(7)，保留为binding冲突；不能用它“补齐”thesis另一102的独立实验ICC。转换代码/原分析和原parent身份未合一前，不做无条件branch/B。
+
+### 时间与引用也属于身份
+
+adopted167.368(4)的175(15)ns、29.512(5)(E2)支和理论CC175.0属于同一parent；其下137.851(3)4−的.845(20)μs为另一个parent。减Eγ的中心数137.856不能替原level137.851，它们有各自precision。没有将这些寿命借给226、285或1562，亦未由数据库的B标记生成新实测strength。
+
+header“几乎同2012Wa27”的key在getrefs实际指Uoctupolepaper，2012Di14则准确为PRC86,034302；旧2009在header的32MeV和refs摘要42MeV也未静默统一。这是引用/metadata边界，不作为旧paper正文或run差异的证据。评价summary称2009CIAE14Ge而2010Tsukuba9Ge+planar，提示另实验谱系；旧原件未读，不以二级资料认证其全部采集。
+
+[28-check脚本](../../system/scripts/day14_ensdf128_lowanchor_crosswalk.py)、[输入](../../outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/nndc128i-crosswalk-input.json)和[结果](../../outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/nndc128i-crosswalk-audit.json)保存固定列/rawlines/limit/CC与ECC/EKC/sourcehash/primaryrow及引用边界。Decision: **revises** 更新compiled版本即可覆盖primary的捷径；**supports** 逐object/parent/field/来源对账；**limits** 同energy迁移、共用数据计独立与由新增perlineerrors补原Σ。FormalDay14 21/24、completed14/partial15不变。

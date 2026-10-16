@@ -1,0 +1,155 @@
+{
+  "url": "https://www.nndc.bnl.gov/ensdf/DatasetFetchServlet",
+  "method": "POST",
+  "params": {
+    "nuc": "128I",
+    "nsrch": "Search",
+    "searchType": "quick",
+    "datasource": "ensdf"
+  },
+  "at": "2026-10-16T11:46:08.076289+08:00",
+  "scope": "correct documented form method after GET returned notvalidinputmethod; no values assumed",
+  "status": 200,
+  "final_url": "https://www.nndc.bnl.gov/ensdf/DatasetFetchServlet",
+  "content_type": "text/html;charset=UTF-8",
+  "bytes": 9163,
+  "path": "tmp/day14-20261014/nndc128i/dataset-list-post.html",
+  "sha256": "a4c5d9ddc6226109cb4569471bd2121a5f3b17f600f735d1dd7ae5671520a609",
+  "text": "Datasets for 128I Nuclide, Mass, or Symbol: Search Datasets for 128 I There are 6 corresponding XUNDL (unevaluated) sets Matching datasets in\n\n\nENSDF Retrieve selected ENSDF datasets: Dataset Last Revised References Select All ADOPTED LEVELS, GAMMAS 2015-10 All references 124SN(7LI,3NG) 2015-10 All references 127I(N,G) E=THERMAL:PRIMARY 2015-10 All references 127I(N,G) E=THERMAL:SECONDARY 2015-10 All references 127I(N,X): RESONANCES 2015-10 All references 127I(D,P) 2015-10 All references 128TE(P,NG) 2015-10 All references 128TE(3HE,T) 2015-10 All references 129I(D,T) 2015-10 All references Retrieve selected ENSDF datasets: Here are the XUNDL datasets which came in after the cutoff date of the last ENSDF evaluation. Nuclide Dataset Last Revised References 128 I 128TE(3HE,T):XUNDL-6 2017-05 All references Retrieve selected XUNDL datasets:",
+  "input_fields": [
+    {
+      "type": "text",
+      "name": "nuc",
+      "value": ""
+    },
+    {
+      "type": "hidden",
+      "name": "searchType",
+      "value": "quick"
+    },
+    {
+      "type": "hidden",
+      "name": "datasource",
+      "value": "ensdf"
+    },
+    {
+      "type": "hidden",
+      "name": "dbclass",
+      "value": "ensdf"
+    },
+    {
+      "type": "hidden",
+      "name": "page-source",
+      "value": "singular"
+    },
+    {
+      "type": "submit",
+      "name": "chooseit",
+      "value": "PDF Version"
+    },
+    {
+      "type": "submit",
+      "name": "chooseit",
+      "value": "ENSDF text format"
+    },
+    {
+      "type": "checkbox",
+      "name": "pcheckboxall",
+      "value": null
+    },
+    {
+      "type": "checkbox",
+      "name": "datasetcheck",
+      "value": "128053001,128I"
+    },
+    {
+      "type": "checkbox",
+      "name": "datasetcheck",
+      "value": "128053024,128I"
+    },
+    {
+      "type": "checkbox",
+      "name": "datasetcheck",
+      "value": "128053002,128I"
+    },
+    {
+      "type": "checkbox",
+      "name": "datasetcheck",
+      "value": "128053003,128I"
+    },
+    {
+      "type": "checkbox",
+      "name": "datasetcheck",
+      "value": "128053025,128I"
+    },
+    {
+      "type": "checkbox",
+      "name": "datasetcheck",
+      "value": "128053004,128I"
+    },
+    {
+      "type": "checkbox",
+      "name": "datasetcheck",
+      "value": "128053005,128I"
+    },
+    {
+      "type": "checkbox",
+      "name": "datasetcheck",
+      "value": "128053026,128I"
+    },
+    {
+      "type": "checkbox",
+      "name": "datasetcheck",
+      "value": "128053007,128I"
+    },
+    {
+      "type": "submit",
+      "name": "chooseit",
+      "value": "PDF Version"
+    },
+    {
+      "type": "submit",
+      "name": "chooseit",
+      "value": "ENSDF text format"
+    },
+    {
+      "type": "hidden",
+      "name": "page-source",
+      "value": "coupled-xun"
+    },
+    {
+      "type": "hidden",
+      "name": "dbclass",
+      "value": "xundl"
+    },
+    {
+      "type": "checkbox",
+      "name": "xunpostcheck",
+      "value": "128053006,128I"
+    },
+    {
+      "type": "submit",
+      "name": "postButton",
+      "value": "PDF Version"
+    },
+    {
+      "type": "submit",
+      "name": "postButton",
+      "value": "ENSDF text format"
+    }
+  ],
+  "form": [
+    {
+      "method": "post",
+      "action": "/ensdf/DatasetFetchServlet"
+    },
+    {
+      "method": "post",
+      "action": "/ensdf/EnsdfDispatcherServlet"
+    },
+    {
+      "method": "post",
+      "action": "/ensdf/EnsdfDispatcherServlet"
+    }
+  ]
+}
