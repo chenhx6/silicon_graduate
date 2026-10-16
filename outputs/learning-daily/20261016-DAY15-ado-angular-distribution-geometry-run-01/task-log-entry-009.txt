@@ -1,0 +1,5 @@
+
+
+## 2026-10-17T05:36:11.409405+08:00 — DAY15 checkpoint009: evaluated 164Yb reference lineage
+
+同run/session继续partial16，归档三NNDC公共raw对象（不stage/不覆盖），核EKC/theoryCC/half-life/derivedBE2/RI/LS谱系；隔离150Sm16/18O secondarymetadata冲突，primarybody未得不假读。31writeback/34mapped/31changed、lint0error/146warnings及保护文件通过；genericcanonical_source碰撞修复，原失败保留。下一BrIcc明确壳层/ΔJ0 E0合同，query-v2 centralonly尚未执行，旧KB08人审范围不扩。formal15一次next16/count15，原15:00deadline/windowactive。稳定指针main / Trace evaluated 164Yb references without collapsing PDCO alternatives；actualH3/push仅publication009。

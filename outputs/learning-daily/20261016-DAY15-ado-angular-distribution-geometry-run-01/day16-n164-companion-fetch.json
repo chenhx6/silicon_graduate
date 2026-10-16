@@ -1,0 +1,37 @@
+[
+  {
+    "at": "2026-10-17T05:07:59.567198+08:00",
+    "kind": "ca44",
+    "record": "164070003",
+    "url": "https://www.nndc.bnl.gov/ensdf/EnsdfDispatcherServlet",
+    "method": "POST",
+    "parameters": {
+      "dbclass": "ensdf",
+      "page-source": "singular",
+      "chooseit": "ENSDF text format",
+      "datasetcheck": "164070003,164YB"
+    },
+    "status": 200,
+    "response_sha256": "10194fd7716fae453f90717febd5c0a7d4972952c225f3c3d9a53ad7133b2820",
+    "bytes": 16823,
+    "text_sha256": "a46a5830695aa2f345fa3e2fa8f83c821a26a0568df57d45b6f81405f7ac0db2",
+    "lines": 202,
+    "excerpt": "\n164YB    124SN(44CA,4NG)               1996XI01                  18NDS    201712\n164YB  H TYP=FUL$AUT=BALRAJ SINGH AND JUN CHEN{+#}$CIT=NDS 147, 1 (2018)$       \n164YB2 H CUT=30-Nov-2017$                                                       \n164YB c  Includes {+138}Ba({+30}Si,4n|g) (1998Fr14) and {+128}Te({+40}Ar,4n|g)  \n164YBxc  (1976Bo27).                                                            \n164YB c  1996Xi01: E=189 MeV. Measured E|g, |g|g|g, lifetimes by                \n164YB2c  Doppler-broadened line-shape analysis using an array of 20             \n164YB3c  Compton-suppressed Ge detectors.                                       \n164YB c  1976Bo27 (also 1976Bo30,1972Bo61,1972Bo32): {+128}Te({+40}Ar,4n|g)     \n164YB2c  E=170-190 MeV. Measured lifetimes by recoil-distance Doppler-shift     \n164YB3c  (RDDS) method for members of the ground-state band.                    \n164YB c  Others:                                                                \n164YB c  2000Le17: {+138}Ba({+30}Si,4n|g) E=140-155 MeV. Measured E|g, |g|g     \n164YB2c  coin. Study of rotational continuum, statistical analysis, deduced     \n164YB3c  properties of feeding transitions for high-spin levels                 \n164YB c  1998Fr14 (also 1999Fr37,1999Fr11,1999Le20,1999Dr12):                   \n164YB2c  {+138}Ba({+30}Si,4n|g) E=150 MeV. DSA measurement of unresolved |g     \n164YB3c  transitions forming the rotational quasi-continuum spectrum            \n164YB c  Others (dealing with the measurements of continuum spectra):           \n164YB c  1993Le03: {+124}Sn({+44}Ca,4n) E=189 MeV. Measured |g|g coin, |g|g(|q),\n164YB2c  T{-1/2} of continuum states.                                           \n164YB c  1993Th02: {+100}Mo({+64}Ni,X) E=232 MeV and {+148}Sm({+16}O,X) E=82    \n164YB2c  MeV. Mea"
+  },
+  {
+    "at": "2026-10-17T05:07:59.567799+08:00",
+    "kind": "refs-sm16o",
+    "url": "https://www.nndc.bnl.gov/ensdf/getrefs.jsp",
+    "method": "GET",
+    "parameters": {
+      "recid": "164070004",
+      "dsid": "152SM(16O,4NG)"
+    },
+    "status": 200,
+    "response_sha256": "eb62a2fcb82ff53d0224eb7953a45ff7a6f3210cb8af2e19b070016c5a7168b4",
+    "bytes": 14605,
+    "text_sha256": "0c359b06779604ff9cca9c90dc274eb684ced6a634da3cc0940e9637185eb999",
+    "lines": 2,
+    "excerpt": "References from selected dataset References quoted in the ENSDF dataset: 164YB 152SM(16O,4NG) 17 references found. Clicking on a keynumber will list datasets\nthat reference the given article. Return to 152SM(16O,4NG) 1965ST03 Nucl.Phys. 63, 82 (1965) F.S.Stephens, N.L.Lark, R.M.Diamond Rotational States Produced in Heavy-Ion Nuclear Reactions NUCLEAR REACTIONS 159 Tb, 165 Ho, 169 Tm( 11 B, xnγ), ( 14 N, xnγ), ( 19 F, xnγ), E < approx 120 MeV; measured E(ce). 164,166 Yb, 166,168,170,172 Hf, 172,174,176 W deduced levels. doi: 10.1016/0029-5582(65)90854-0 1972DA33 Phys.Scr. 6, 251 (1972) W.F.Davidson, R.M.Lieder, H.Beuscher, C.Mayer-Boricke The Backbending Effect in 158,160 Er, 164,166 Yb, and 168 Hf; and Some Remarks on its Systematics NUCLEAR REACTIONS 162,164 Dy, 168,170 Er, 172 Yb(α, 8nγ), E=90-112 MeV; measured Eγ, γ(t), γ(θ), γγ-coin. 158,160 Er, 164,166 Yb, 168 Hf deduced levels, J, π. 1972LI14 Phys.Lett. 39B, 196 (1972) R.M.Lieder, H.Beuscher, W.F.Davidson, P.Jahn, H.-J.Probst, C.Mayer-Boricke Observation of Anomalous Behaviour of the Nuclear Moment of Inertia at Large Rotational Frequencies in 164 Yb and 168 Hf NUCLEAR REACTIONS 168 Er, 172 Yb(α, 8nγ), E=110 MeV; measured γγ-coin. 164 Yb, 168 Hf deduced transitions, moment of inertia vs squared rotational frequency. doi: 10.1016/0370-2693(72)90773-3 1972LI34 Z.Phys. 257, 147 (1972) R.M.Lieder, H.Beuscher, W.F.Davidson, P.Jahn, H.-J.Probst, C.Mayer-Boricke Experimental Study of High Spin States in the Ground State Bands of 158,160 Er, 164,166 Yb, and 168 Hf NUCLEAR REACTIONS 162,164 Dy, 168,170 Er, 172 Yb(α, 8nγ), E=100-112 MeV; measured σ(E;Eγ, θ(γ)), Iγ. 158,160 Er, 164,166 Yb, 168 Hf deduced levels, moment of inertia, ground-state rotational band structure. 1978BA16 Z.Phys. A285, 159 (1978) H.Backe, L.Richter, R"
+  }
+]

@@ -1,0 +1,80 @@
+[
+  {
+    "record": "164070001",
+    "label": "adopted",
+    "method": "POST",
+    "url": "https://www.nndc.bnl.gov/ensdf/EnsdfDispatcherServlet",
+    "parameters": {
+      "dbclass": "ensdf",
+      "page-source": "singular",
+      "chooseit": "ENSDF text format",
+      "datasetcheck": "164070001,164YB"
+    },
+    "at": "2026-10-17T05:05:17.286396+08:00",
+    "status": 200,
+    "content_type": "text/html;charset=UTF-8",
+    "response_sha256": "500e6c10478b82a64d0e3a7424ed5d1dd2945eea81386d00ba5f0930ff85232d",
+    "response_bytes": 53381,
+    "text_sha256": "606ddb5aaea1a6563da05ed19c906e839b577b28dadc62707bf6a0b2c27fc569",
+    "text_lines": 653,
+    "header_excerpt": [
+      "",
+      "164YB    ADOPTED LEVELS, GAMMAS                                  18NDS    201712",
+      "164YB  H TYP=FUL$AUT=BALRAJ SINGH AND JUN CHEN{+#}$CIT=NDS 147, 1 (2018)$       ",
+      "164YB2 H CUT=30-Nov-2017$                                                       ",
+      "164YB  Q -6380     30 9790   21 5578   16 2622   29    2017WA10                 ",
+      "164YB cQ $S(2n)=17334 {I21}, S(2p)=9261 {I15} (2017Wa10)                        ",
+      "164YB c  Identification and production of {+164}Yb by 1960Bu27 from spallation  ",
+      "164YB2c  reactions by bombardment of Tm{-2}O{-3} by protons                     ",
+      "164YB c  For theoretical nuclear structure calculations, consult NSR database,  ",
+      "164YB2c  for about 130 references. About 40 of these back to 1999 are listed    ",
+      "164YB3c  in the ENSDF dataset as document records                               ",
+      "164YB d  Nuclear structure calculations: 2017Bo12, 2017Ch31, 2016In03, 2016Ma54,",
+      "164YB2d  2016Sh11, 2015Gu19, 2014Gu08, 2013Bl07, 2013Bo24, 2012Ze02, 2011Bo12,  ",
+      "164YB3d  2011Gu18, 2011Hu07, 2010Bu02, 2009Ch71, 2008Bi13, 2008Bo15, 2008Bu03,  ",
+      "164YB4d  2007Bi02, 2007Bo46, 2007Na25, 2007Wa01, 2006Fi03, 2006Hi12, 2005Mc14,  ",
+      "164YB5d  2005Pa21, 2004Li18, 2004Mc06, 2004Pa09, 2004Pi05, 2001An05, 2001Gr21,  ",
+      "164YB6d  2001Je09, 2001Le29, 2001Ur04, 2000Af25, 2000Bh01, 2000En03, 1999Fr37,  ",
+      "164YB7d  1999Xu04. Consult NSR database or another about 90 older references    "
+    ]
+  },
+  {
+    "record": "164070004",
+    "label": "sm16o",
+    "method": "POST",
+    "url": "https://www.nndc.bnl.gov/ensdf/EnsdfDispatcherServlet",
+    "parameters": {
+      "dbclass": "ensdf",
+      "page-source": "singular",
+      "chooseit": "ENSDF text format",
+      "datasetcheck": "164070004,164YB"
+    },
+    "at": "2026-10-17T05:05:17.286550+08:00",
+    "status": 200,
+    "content_type": "text/html;charset=UTF-8",
+    "response_sha256": "0d31ca592d514721f8e3adbe3bc695685a49734761e0052c5ae2eecf6954de0f",
+    "response_bytes": 43154,
+    "text_sha256": "eec3131d9213eba97bdcdeca9cb2d6963b045e87520df08ea224675ca0e347d8",
+    "text_lines": 527,
+    "header_excerpt": [
+      "",
+      "164YB    152SM(16O,4NG)                1995NO04                  18NDS    201712",
+      "164YB  H TYP=FUL$AUT=BALRAJ SINGH AND JUN CHEN{+#}$CIT=NDS 147, 1 (2018)$       ",
+      "164YB2 H CUT=30-Nov-2017$                                                       ",
+      "164YB c  Includes {+168}Er(|a,8n|g) (1972Li34); {+159}Tb({+14}N,x) (1978Zo02);  ",
+      "164YB2c  {+159}Tb({+11}B,6n|g) (1965St03) and {+150}Sm({+16}O,4n|g) (1986Jo02)  ",
+      "164YB c  1995No04 (also 1992Ek01,1996No12): E=83.2 MeV. Measured E|g, I|g, |g|g,",
+      "164YB2c  |g|g(|q) using NORDBALL array of 20 Compton-suppressed HPGe            ",
+      "164YB3c  detectors, Cranked Shell-model calculations.                           ",
+      "164YB c  1986Jo02: {+152}Sm({+16}O,4n|g) E=81 MeV and {+150}Sm({+16}O,4n|g)     ",
+      "164YB2c  E=81-84 MeV. Measured E|g, I|g, ce, |g|g coin, |g(|q)                  ",
+      "164YB3c  using Ge detectors and mini-orange spectrometer with a Si(Li)          ",
+      "164YB4c  detector for electrons. Cranked Shell-model calculations.              ",
+      "164YB5c  This work is from the same laboratory as 1995No04                      ",
+      "164YB c  1979Ri06, 1978Ba16: {+152}Sm({+16}O,4n|g) E=85, 90 MeV. Measured ce(t);",
+      "164YB2c  recoil-shadow method for level half-lives                              ",
+      "164YB c  1972Li14,1972Li34, 1972Da33: {+168}Er(|a,8n|g) E=100-112 MeV, measured ",
+      "164YB2c  E|g, |g|g coin, |g(|q). The ground-state band reported up to 16+       "
+    ]
+  }
+]

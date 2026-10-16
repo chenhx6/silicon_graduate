@@ -1,0 +1,14 @@
+{
+  "at": "2026-10-17T05:31:12.644711+08:00",
+  "three_raw_files_verified": {
+    "raw/papers/gpt/day15-20261016/nndc-164yb-164070001-201712-606ddb5aaea1.ens": true,
+    "raw/papers/gpt/day15-20261016/nndc-164yb-164070004-201712-eec3131d9213.ens": true,
+    "raw/papers/gpt/day15-20261016/nndc-164yb-164070003-201712-a46a5830695a.ens": true
+  },
+  "raw_never_stage": true,
+  "source_scope": "selected3objects/not381pagepaper",
+  "parser_input_output_hashes_match": true,
+  "primary_pdf_obtained": false,
+  "metadata_conflict_isolated": "onlysecondary150Smprojectile; main152Sm16O/164YBheadersverified",
+  "body_reaction_not_silently_repaired": true
+}

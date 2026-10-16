@@ -7,7 +7,7 @@ updated: 2026-10-17
 status: ai-draft
 review_status: unreviewed
 reasoning_status: provisional
-evidence_sources: [starosta-1999-pdco-experimental-test, droste-1996-pdco-formalism]
+evidence_sources: [starosta-1999-pdco-experimental-test, droste-1996-pdco-formalism, nndc-2018-164yb-pdco-reference-records]
 created_from: Day15 daily-learning uncredited Day16 preview
 promotion_target: dco-pdco-ambiguity-worksheet
 tags: [pdco, calibration, covariance, table-replay, mixing-ratio, provisional]
@@ -115,6 +115,35 @@ D为印刷边际sigma，rho取−.2,0,.2,.5,.8，均正定（−1/3<rho<1）。�
 
 E1/M2 alternative的≥4ns来自Weisskopf和推荐强度上限；无预期约.9keV Doppler偏移/展宽与约400ps飞行作反证。速度.0163/.0183等属于作者setup计算。这里既有transition-strength假设又有响应检测前提，不是直接寿命测量或无需效率的普适上限。
 
+## NNDC实际参考记录：有寿命不等于已测490转换
+
+[[nndc-2018-164yb-pdco-reference-records]]保存本session新取得的三份官方对象、原始text hash和sourcekeys；不是第二个164Yb实验。三者header201712、评价2018/cutoff2017-11-30，2026只是retrieval date。ADOPTED高spin E/RI主要采用1995NO04，AD/ce主要追1986JO02；BrIcc理论字段与实测字段分层。
+
+| 同一目标 | ADOPTED | 152Sm16O对象 | 124Sn44Ca合并对象 |
+| --- | --- | --- | --- |
+| 490 parent/γ→ground14+ | 3388.98(13), J=(16+)；489.8(1)→2899.20(13) | 3389.26(18), J=16+；489.8(1)→2899.48 | 3390.0,16+；489.9→2900.1 |
+| 647 parent/γ→ground10+ | 2400.80(12), J=(11)-；647.4(1)→1753.35(11) | 2401.09(17),11-；647.4(1)→1753.63 | 2401.2,11-；647.3→1753.9 |
+
+三种level-energy基准不应当独立加权平均；source都做LS fit且采用的low-spin anchors不同。selectedground references的ADOPTED减152Sm差为−.28/−.26/−.34/−.28/−.28/−.29/−.28keV，未给jointlevel/γcalibrationCov。字面target490/647在ADOPTED的energy residual为−.02/+.05keV，只做identity sanity，不是χ²或placement的唯一证据。附近492.6/491.8/650.4/645.7等属于不同parents，不能只靠最近energy取记录，也未据此宣称ST99实测峰被污染。
+
+### 647的实验EKC与490的理论KC不能互换
+
+152Sm对象G647.4明确写`EKC LT 0.0042`，缺省来源为1986JO02，未给CL；同时的CC=.00351(.00010)、KC=.00298(.00009)是BrIcc Frozen Orbitals。其MR=+.016(.026)对应**M2/E1**，不是别的M1/E2 δ。ST99本已用该647已知性质校准sigma/I，数据库再引用它不能变成新的独立确认。
+
+G489.8在所查块没有EKC；CC=.0188、KC=.01475(.00021)均为理论字段，来自采用E2而非测量证明E2。ST99原alpha_κ预测的历史shell notation边界仍保留，不用这些theory数值倒推一份不存在的490实测ICC。现在的高信息下一输入仍是matched shell/electron–γ measurement或其它独立spin约束。
+
+### 母态时间与derived strength的使用门
+
+ADOPTED母态与124Sn对象均列T1/2=1.75(.35)ps；换成mean tau为2.524716(.504943)ps，lambda为3.960841e11s^-1（局部sigma=.792168e11）。这是同一时间的定义换算，非两次测量。Ca对象以1996XI01为main reference，但它混收RDDS、DSAM及quasicontinuum工作，g.s. global规则不能替sideband行自动确认primary fit定义；原文/feeding/response未得。
+
+ADOPTED的BE2W=210(50)沿采用E2与branch/time模型导出，不能反过来作δ选解的独立证据。302.3的CC/M空白保留unknown；同parent RI比，ADOPTED2.9/100=.029，reaction.8/27.2=.029412，主要是同primary强度的rescaling，未给Cov。原ST99 alternative atanδ=−21°只给radiative component fractions M1=.871572、E2=.128428；它不是整个state的decay分支。若改变候选，必须同时改变其ICC/γbranch/strength model，不能沿用pureE2 CC或直接把210乘.128当新B(E2)。
+
+### 隔离的reaction metadata冲突
+
+ENSDF152Sm对象的secondary comment写150Sm(16O,4n)，质量平衡只到162；NSR1986JO02及Lund作者机构abstract均写150Sm(18O,4n)，可到164。raw如实保留16O的原行；本任务不把它定义为另一个164采集，不从这处comment推广错nuclide。primary全文尚未取得，机构abstract属于外部核验的摘要/metadata层。可靠主152Sm(16O,4n)与三对象header身份不受该隔离冲突影响。
+
+[冻结crosswalk input](../../outputs/learning-daily/20261016-DAY15-ado-angular-distribution-geometry-run-01/day16-n164-record-crosswalk-input.json) hash `d412f15d95efeb69ba48a18d95f2ef790eb5561cc6e4de1afbb8ddb90bd6138c`，[脚本](../../system/scripts/day16_n164_record_crosswalk.py)与[结果](../../outputs/learning-daily/20261016-DAY15-ado-angular-distribution-geometry-run-01/day16-n164-record-crosswalk.json)核三raw、fixedcolumns、unknown和unique selectors；首轮col77 comment flag的off-by-one在无numeric output时失败并修正，原selectors/raw不变。actualevent/response/Σ/302ICC及两primary body仍缺，实际L4未开始。
+
 ## Competing Explanations
 
 表值重放差异可能涉及未公开的unrounded producer output、表列值与minimum的对应、误差预算或原出版转录；现有输入无法选择其一。未知Cov不是事后强行使79.5成立的拟合旋钮。物理候选歧义、相位约定错误和印刷表重放缺口分别保留。
@@ -147,6 +176,7 @@ E1/M2 alternative的≥4ns来自Weisskopf和推荐强度上限；无预期约.9k
 
 - [[starosta-1999-pdco-experimental-test]] ST99-5–13；原子入口分别见上文，不把组合ID充作单一locator。
 - [[droste-1996-pdco-formalism]] DR96-8：已发表Eq4勘误；理论与实验复用边界。
+- [[nndc-2018-164yb-pdco-reference-records]] N164-1–13：三个官方selectedobjects、EKC/理论CC、time/RI/strength依赖与隔离的secondaryreaction冲突。
 - [[dco-pdco-ambiguity-worksheet]]：本实验与独立point-response练习对照。
 
 ## Human Review

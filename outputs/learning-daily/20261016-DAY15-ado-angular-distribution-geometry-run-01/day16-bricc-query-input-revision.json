@@ -1,0 +1,9 @@
+{
+  "at": "2026-10-17T05:36:11.377287+08:00",
+  "superseded_input": "outputs/learning-daily/20261016-DAY15-ado-angular-distribution-geometry-run-01/day16-bricc-z70-489p8-query-input.json",
+  "executed_queries_before_revision": 0,
+  "active_input": "outputs/learning-daily/20261016-DAY15-ado-angular-distribution-geometry-run-01/day16-bricc-z70-489p8-query-input-v2.json",
+  "active_sha256": "5a4deef640bd8177002fc24c929641f7ee29300b9b1a4eb1ae1a03acc2858a9c",
+  "reason": "UseonlynominalEreference; ambiguouswireerrorformatnotturnedintophysicaluncertainty",
+  "newly_computed_data_before_revision": false
+}

@@ -1,17 +1,17 @@
 # Day15同session持续学习续接
 
-- generated_at: 2026-10-17T05:01:09.757637+08:00
+- generated_at: 2026-10-17T05:31:12.644711+08:00
 - run_id: 2026-10-16-day-15-01
 - session_id: 01a14510-aec7-7e00-aa23-f7c77a5124bc
 - resume_command: `codex resume 01a14510-aec7-7e00-aa23-f7c77a5124bc -C /workspace/wiki -s danger-full-access -a never`
-- 原研究截止2026-10-17T15:00:00+08:00；15–16只收束，日期不改。
+- 原研究截止2026-10-17T15:00:00+08:00；15–16只收束，不改日期。
 
-先看active handoff/research-checkpoint/run和最新publication。Formal15complete/credited once，next16/count15，completed15/partial16，无formal16/17；goal/windowactive，不新建session/goal/daemon、不伪造scheduler事件。启动治理已读不重扫历史。
+Readactivehandoff/research-checkpoint/run/latestpublication。Goal/windowactive；formal15complete/creditedonce、next16/count15、completed15/partial16，无formal16/17。不新建goal/session/daemon，不伪造scheduler事件。启动治理已读不重扫历史。
 
-Published001–007实际H3/push；008稳定指针main / Verify PDCO erratum and polarimeter calibration response boundaries，实际只凭publication008。30项writeback含D96 correctedEq4+psi map、JO95 C/P90/errorbudget、S83 epsilon分母及mask/Cov可识别性，旧flags/人审范围/raw保护。三新boundedexercise已满足stopcontract，不调整参数重跑。数据身份、失败code snapshot、input/script/dependencyhash都在run，完整knowledge在DCO worksheet与Compton方法和source。
+001–008实际published；009稳定指针main / Trace evaluated 164Yb references without collapsing PDCO alternatives，actualH3/push只看publication009。新NNDC164Yb三对象source canonical nndc-2018-164yb-pdco-reference-records.md和ST99note；31writeback。三新raw .ens文件hash/rawmanifest在run，绝不stage，没改原raw。Target489只有theoryCC/KC、无selectedEKC，647实测limit是旧prior，不双算；parenttime/BE2/RI/levelenergy表示依赖详见source。302ICC/Σ缺。Secondary150Sm16O vs18O的metadata已隔离(主reaction正常)，NSR+Lundabstract支持18，未得primarybody不假读。
 
-下一选择：NNDC/ENSDF当前164Yb490/647数据是否有独立conversion/spin依据。还没访问，先冻结primed查询预测；原ST99 E2 vsΔI0 M1/E2、alpha_kappa=.012/.033预测及壳层定义边界保留，不把databaseadopted或theoryCC写新measurement。Day16卡只要求delta-double-solution/reference，最新已定向重读，无Day17暴露。时间20:59:29UTC距原截止600.52min，仍有有价值实际data/source-lineageroute，不提前closeout。
+PrimaryXie96/Jo86：publisherPDF403HTML，OpenAlexclosed、Lund无publicfile、INSPIREmeta无docs、OSTIConnectionError，Scholar失败，两个Elsevierprovider缺配置；不改credentials/SSL/Git，不等价机构entitlement判无权限，未称全部合法路线耗尽。不要原样重复终态失败。
 
-NNDC已知可用POST DatasetFetchServlet(nuc=164YB,nsrch=Search,searchType=quick,datasource=ensdf)，再EnsdfDispatcherServlet选择exactrecord的ENSDFtext；旧getdataset404/IAEA403不原样重试。当前无164Ybcanonical对象，先核选定header/comments/目标levelγ/refkey，实际只selectedscope，不称全文质量链。新raw对象只有明确命名/hash后归档且绝不stage，不覆盖用户PDF/raw。
+下一高信息route已在primedfreeze day16-icc-reference-before-source-frozen.md冻结：explicitBrIcc Z70/E489.8 K/total、twohypothesis/E0/finiteelectronacceptance输入门，仍current+恰好partial16。已看旧Wiki KB08/ICC方法/既有E0公式，原KB08 PDF1–8已读（202–209），mainline9–13和Appendix还没读完；currentserver仅GETform，无POST。使用query-input-v2 central-only，保留data.1keV但未传播，v1未执行/已supersede。此source human-reviewed，旧KB08-1..8、AR以及D8增补/其它body均保留，新appendtrue。可复用genericwebfunction但不执行oldphysicalbatch或oldtoy/check数授卡；官网已有FO-only先例，旧All空/NNDC旧404/IAEA403不重试。理论值/同表lookup不算独立实验；不补missingN6、不把table1.4%与interp.3%重复加，默认A/radius与actualisotope不同不能手改。
 
-实际135Pr producer/response/Σ仍notready；SH26source.tar只有图/TeX/Bib，无event包。Cieplicka403/OSTIConnectionError、CurateND未变失败不重试；Matta2017仅publicrestrictedmeta。保护PLAN/Bib/原raw/review/credentials/继承receipts/daemon/旧log，exactmanifest/log仅HEAD+ownappend。先checks/stagedaudit/commit/一次reconciliation，再H3freshfetch/ancestry/dryrun/nonforce HEAD:main，自身hash只事后receipt。最终closeout才一次overview对账。
+21:26:52UTC距原deadline573.13min，继续有高信息route，不提前closeout。ProtectPLAN/Bib/原userraw/review/credentials/继承receipts/daemon/旧log；explicitmanifest/log只HEAD+ownentry。Freshchecks/stagedaudit/commit/一次reconciliation/H3非force HEAD:main，自身hash只事后receipt。最终closeout才一次overview对账。

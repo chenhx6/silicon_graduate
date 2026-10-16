@@ -1,5 +1,5 @@
 {
-  "captured_at": "2026-10-17T05:01:09.757637+08:00",
+  "captured_at": "2026-10-17T05:31:12.644711+08:00",
   "session_id": "01a14510-aec7-7e00-aa23-f7c77a5124bc",
   "run_id": "2026-10-16-day-15-01",
   "hard_deadline": "2026-10-17T15:00:00+08:00",
@@ -178,7 +178,7 @@
       "human_review_created": false
     }
   },
-  "current_status": "Published001–007; checkpoint008committed D96Eq4/JO95/S83 fullprimaryandboundedcalculations passfreshchecks. ActualH3/push onlypublication008. Onlyformal15/partial16;164Ybactualdata-lineageroute remains, goal/windowactive.",
+  "current_status": "Published001–008 actualH3/push; checkpoint009committed NNDC164Ybselectedobjects/crosswalk. Actualpublicationonlyreceipt009. Goal/windowactive, formal15only/partial16.",
   "worksheet": {
     "input_sha256": "e8e31f0691862296b62adffb34e6e5395d22ba6cdc59f629a00c71a89eeadf04",
     "script": "system/scripts/day15_ado_covariance_worksheet.py",
@@ -188,9 +188,10 @@
     "figure_source_warnings": 4
   },
   "next_actions": [
-    "Confirmactualpublication008",
-    "Freezeprimed164Ybqueryrecall thenNNDCcurrentENSDFformfor490/647 independentconversion/sourcekeys",
-    "NoDay17, nofreefit/oldtoyloop, retainoriginal15:00cutoff"
+    "Confirmactualpublication009",
+    "FinishKB08Secs4.2–6 andselectedAppendix; exactlytwoFO-onlypureM1/E2POSTsusingfrozenv2, noautomaticretry",
+    "Case-specificE0/reference/electrongammaresponsecontract; reuseexistingE0derivations, nooldtoy/checkcredit",
+    "Original15:00cutoff,noformal16/17"
   ],
   "mixed_event_analysis": {
     "input_sha256": "b0a0bb6503d01e8dc432e1a866960872b4fbc1bebd89a1737ca766eab9bab72c",
@@ -423,5 +424,48 @@
     ],
     "actualtransport_or_Cov": false,
     "stop_contract_met": true
+  },
+  "N164_reference": {
+    "source": "knowledge/sources/nndc-2018-164yb-pdco-reference-records.md",
+    "canonical": "knowledge/research-notes/st99-pdco-calibration-table-replay.md",
+    "objects": [
+      "164070001",
+      "164070004",
+      "164070003"
+    ],
+    "raw_manifest": "day16-n164-raw-manifest.json",
+    "script": "system/scripts/day16_n164_record_crosswalk.py",
+    "input": "day16-n164-record-crosswalk-input.json",
+    "result": "day16-n164-record-crosswalk.json",
+    "exit": 0,
+    "target490_measuredICC_available_in_selected_blocks": false,
+    "EKC647_upper_limit": 0.0042,
+    "derived_time_not_independent": true,
+    "primary_body_ready": false
+  },
+  "ICC_next": {
+    "primedfreeze": "day16-icc-reference-before-source-frozen.md",
+    "KB08_raw_verified": true,
+    "KB08_mainline_PDFpages_read": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "KB08_mainline_remaining": [
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
+    "web_form_GET": 200,
+    "POST_queries_executed": 0,
+    "active_query_input": "day16-bricc-z70-489p8-query-input-v2.json",
+    "scope": "nominalenergyonly; data.1keVunc retainedbutnotpropagated; preservealloldKB08body/flags"
   }
 }

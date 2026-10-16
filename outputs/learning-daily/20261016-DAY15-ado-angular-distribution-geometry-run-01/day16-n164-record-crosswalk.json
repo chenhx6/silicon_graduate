@@ -1,0 +1,1065 @@
+{
+  "identity": "DAY16-PREVIEW-N164-EVALUATED-RECORD-CROSSWALK-01",
+  "input_sha256": "d412f15d95efeb69ba48a18d95f2ef790eb5561cc6e4de1afbb8ddb90bd6138c",
+  "script_sha256": "f9913cc67f9c089e9f25d26b13d0890aee27c46b5806f35b8a4d5dafeaf255b8",
+  "selected_objects": {
+    "adopted": {
+      "record": "164070001",
+      "raw": "raw/papers/gpt/day15-20261016/nndc-164yb-164070001-201712-606ddb5aaea1.ens",
+      "sha256": "606ddb5aaea1a6563da05ed19c906e839b577b28dadc62707bf6a0b2c27fc569",
+      "header": "164YB    ADOPTED LEVELS, GAMMAS                                  18NDS    201712",
+      "targets": {
+        "490": {
+          "parent": {
+            "line": 340,
+            "record": "164YB  L    3388.9813(16+)             1.75 PS    35                        K   ",
+            "energy": {
+              "raw": "3388.98",
+              "uncertainty_raw": "13",
+              "value": 3388.98,
+              "sigma": 0.13
+            },
+            "Jpi": "(16+)",
+            "time_raw": "1.75 PS",
+            "time_uncertainty_raw": "35",
+            "comment_flag": "K",
+            "band_flag": "K",
+            "continuation": [
+              {
+                "line": 341,
+                "text": "164YBX L XREF=BC                                                                "
+              }
+            ],
+            "gammas": [
+              {
+                "line": 342,
+                "record": "164YB  G 302.3     1  2.9    7                                                  ",
+                "energy": {
+                  "raw": "302.3",
+                  "uncertainty_raw": "1",
+                  "value": 302.3,
+                  "sigma": 0.1
+                },
+                "RI": {
+                  "raw": "2.9",
+                  "uncertainty_raw": "7",
+                  "value": 2.9,
+                  "sigma": 0.7
+                },
+                "multipolarity": "",
+                "mixing_ratio": {
+                  "raw": "",
+                  "uncertainty_raw": "",
+                  "value": null,
+                  "sigma": null
+                },
+                "CC": {
+                  "raw": "",
+                  "uncertainty_raw": "",
+                  "value": null,
+                  "sigma": null
+                },
+                "continuation": []
+              },
+              {
+                "line": 343,
+                "record": "164YB  G 489.8     1 100.0   22E2                      0.0188                   ",
+                "energy": {
+                  "raw": "489.8",
+                  "uncertainty_raw": "1",
+                  "value": 489.8,
+                  "sigma": 0.1
+                },
+                "RI": {
+                  "raw": "100.0",
+                  "uncertainty_raw": "22",
+                  "value": 100.0,
+                  "sigma": 2.2
+                },
+                "multipolarity": "E2",
+                "mixing_ratio": {
+                  "raw": "",
+                  "uncertainty_raw": "",
+                  "value": null,
+                  "sigma": null
+                },
+                "CC": {
+                  "raw": "0.0188",
+                  "uncertainty_raw": "",
+                  "value": 0.0188,
+                  "sigma": null
+                },
+                "continuation": [
+                  {
+                    "line": 344,
+                    "text": "164YBB G BE2W=2.1E+2 5                                                          "
+                  }
+                ]
+              }
+            ]
+          },
+          "selected_gamma_line": 343,
+          "daughter_groundband": {
+            "line": 308,
+            "record": "164YB  L    2899.201314+               0.73 PS    20                        I   ",
+            "energy": {
+              "raw": "2899.20",
+              "uncertainty_raw": "13",
+              "value": 2899.2,
+              "sigma": 0.13
+            },
+            "Jpi": "14+",
+            "band_flag": "I"
+          },
+          "literal_energy_residual_keV": -0.01999999999981128,
+          "residual_not_a_chi_square": true
+        },
+        "647": {
+          "parent": {
+            "line": 268,
+            "record": "164YB  L    2400.8012(11)-                                                  F   ",
+            "energy": {
+              "raw": "2400.80",
+              "uncertainty_raw": "12",
+              "value": 2400.8,
+              "sigma": 0.12
+            },
+            "Jpi": "(11)-",
+            "time_raw": "",
+            "time_uncertainty_raw": "",
+            "comment_flag": "F",
+            "band_flag": "F",
+            "continuation": [
+              {
+                "line": 269,
+                "text": "164YBX L XREF=BC                                                                "
+              },
+              {
+                "line": 270,
+                "text": "164YB cL J$|DJ=1, E1 |g to 10+                                                  "
+              }
+            ],
+            "gammas": [
+              {
+                "line": 271,
+                "record": "164YB  G 401.1     1  30.9   15                                                 ",
+                "energy": {
+                  "raw": "401.1",
+                  "uncertainty_raw": "1",
+                  "value": 401.1,
+                  "sigma": 0.1
+                },
+                "RI": {
+                  "raw": "30.9",
+                  "uncertainty_raw": "15",
+                  "value": 30.9,
+                  "sigma": 1.5
+                },
+                "multipolarity": "",
+                "mixing_ratio": {
+                  "raw": "",
+                  "uncertainty_raw": "",
+                  "value": null,
+                  "sigma": null
+                },
+                "CC": {
+                  "raw": "",
+                  "uncertainty_raw": "",
+                  "value": null,
+                  "sigma": null
+                },
+                "continuation": []
+              },
+              {
+                "line": 272,
+                "record": "164YB  G 647.4     1 100.0   22E1(+M2)   +0.016  26                             ",
+                "energy": {
+                  "raw": "647.4",
+                  "uncertainty_raw": "1",
+                  "value": 647.4,
+                  "sigma": 0.1
+                },
+                "RI": {
+                  "raw": "100.0",
+                  "uncertainty_raw": "22",
+                  "value": 100.0,
+                  "sigma": 2.2
+                },
+                "multipolarity": "E1(+M2)",
+                "mixing_ratio": {
+                  "raw": "+0.016",
+                  "uncertainty_raw": "26",
+                  "value": 0.016,
+                  "sigma": 0.026
+                },
+                "CC": {
+                  "raw": "",
+                  "uncertainty_raw": "",
+                  "value": null,
+                  "sigma": null
+                },
+                "continuation": []
+              }
+            ]
+          },
+          "selected_gamma_line": 272,
+          "daughter_groundband": {
+            "line": 202,
+            "record": "164YB  L    1753.351110+               0.82 PS    30                        I   ",
+            "energy": {
+              "raw": "1753.35",
+              "uncertainty_raw": "11",
+              "value": 1753.35,
+              "sigma": 0.11
+            },
+            "Jpi": "10+",
+            "band_flag": "I"
+          },
+          "literal_energy_residual_keV": 0.050000000000295586,
+          "residual_not_a_chi_square": true
+        }
+      },
+      "nearby_energy_candidates": [
+        {
+          "parent_Ex": 1873.54,
+          "parent_Jpi": "(8+)",
+          "parent_band": "H",
+          "gamma_line": 232,
+          "gamma_energy": 650.4,
+          "multipolarity": ""
+        },
+        {
+          "parent_Ex": 2272.19,
+          "parent_Jpi": "(9+)",
+          "parent_band": "A",
+          "gamma_line": 250,
+          "gamma_energy": 492.6,
+          "multipolarity": ""
+        },
+        {
+          "parent_Ex": 2400.8,
+          "parent_Jpi": "(11)-",
+          "parent_band": "F",
+          "gamma_line": 272,
+          "gamma_energy": 647.4,
+          "multipolarity": "E1(+M2)"
+        },
+        {
+          "parent_Ex": 3388.98,
+          "parent_Jpi": "(16+)",
+          "parent_band": "K",
+          "gamma_line": 343,
+          "gamma_energy": 489.8,
+          "multipolarity": "E2"
+        },
+        {
+          "parent_Ex": 3504.3,
+          "parent_Jpi": "(14-)",
+          "parent_band": "B",
+          "gamma_line": 347,
+          "gamma_energy": 491.8,
+          "multipolarity": ""
+        },
+        {
+          "parent_Ex": 5611.06,
+          "parent_Jpi": "(21+)",
+          "parent_band": "L",
+          "gamma_line": 466,
+          "gamma_energy": 645.7,
+          "multipolarity": ""
+        }
+      ]
+    },
+    "sm16o": {
+      "record": "164070004",
+      "raw": "raw/papers/gpt/day15-20261016/nndc-164yb-164070004-201712-eec3131d9213.ens",
+      "sha256": "eec3131d9213eba97bdcdeca9cb2d6963b045e87520df08ea224675ca0e347d8",
+      "header": "164YB    152SM(16O,4NG)                1995NO04                  18NDS    201712",
+      "targets": {
+        "490": {
+          "parent": {
+            "line": 269,
+            "record": "164YB  L    3389.261816+                                                    K   ",
+            "energy": {
+              "raw": "3389.26",
+              "uncertainty_raw": "18",
+              "value": 3389.26,
+              "sigma": 0.18
+            },
+            "Jpi": "16+",
+            "time_raw": "",
+            "time_uncertainty_raw": "",
+            "comment_flag": "K",
+            "band_flag": "K",
+            "continuation": [],
+            "gammas": [
+              {
+                "line": 270,
+                "record": "164YB  G      302.3 1     0.8 2                                                 ",
+                "energy": {
+                  "raw": "302.3",
+                  "uncertainty_raw": "1",
+                  "value": 302.3,
+                  "sigma": 0.1
+                },
+                "RI": {
+                  "raw": "0.8",
+                  "uncertainty_raw": "2",
+                  "value": 0.8,
+                  "sigma": 0.2
+                },
+                "multipolarity": "",
+                "mixing_ratio": {
+                  "raw": "",
+                  "uncertainty_raw": "",
+                  "value": null,
+                  "sigma": null
+                },
+                "CC": {
+                  "raw": "",
+                  "uncertainty_raw": "",
+                  "value": null,
+                  "sigma": null
+                },
+                "continuation": []
+              },
+              {
+                "line": 271,
+                "record": "164YB  G 489.8     1     27.2 6 (E2)                   0.0188                   ",
+                "energy": {
+                  "raw": "489.8",
+                  "uncertainty_raw": "1",
+                  "value": 489.8,
+                  "sigma": 0.1
+                },
+                "RI": {
+                  "raw": "27.2",
+                  "uncertainty_raw": "6",
+                  "value": 27.2,
+                  "sigma": 0.6
+                },
+                "multipolarity": "(E2)",
+                "mixing_ratio": {
+                  "raw": "",
+                  "uncertainty_raw": "",
+                  "value": null,
+                  "sigma": null
+                },
+                "CC": {
+                  "raw": "0.0188",
+                  "uncertainty_raw": "",
+                  "value": 0.0188,
+                  "sigma": null
+                },
+                "continuation": [
+                  {
+                    "line": 272,
+                    "text": "164YB2 G A2=+0.30 1 $ A4=-0.08 1                                                "
+                  },
+                  {
+                    "line": 273,
+                    "text": "164YBS G KC=0.01475 21$LC=0.00314 5$MC=0.000726 11                              "
+                  },
+                  {
+                    "line": 274,
+                    "text": "164YBS G NC=0.0001686 24$OC=2.23E-5 4$PC=8.07E-7 12                             "
+                  },
+                  {
+                    "line": 275,
+                    "text": "164YB2 G A2=+0.33 5 $ A4=-0.03 7 (1972Li34)                                     "
+                  }
+                ]
+              }
+            ]
+          },
+          "selected_gamma_line": 271,
+          "daughter_groundband": {
+            "line": 233,
+            "record": "164YB  L    2899.481814+                                                    I   ",
+            "energy": {
+              "raw": "2899.48",
+              "uncertainty_raw": "18",
+              "value": 2899.48,
+              "sigma": 0.18
+            },
+            "Jpi": "14+",
+            "band_flag": "I"
+          },
+          "literal_energy_residual_keV": -0.01999999999981128,
+          "residual_not_a_chi_square": true
+        },
+        "647": {
+          "parent": {
+            "line": 185,
+            "record": "164YB  L    2401.091711-                                                    F   ",
+            "energy": {
+              "raw": "2401.09",
+              "uncertainty_raw": "17",
+              "value": 2401.09,
+              "sigma": 0.17
+            },
+            "Jpi": "11-",
+            "time_raw": "",
+            "time_uncertainty_raw": "",
+            "comment_flag": "F",
+            "band_flag": "F",
+            "continuation": [],
+            "gammas": [
+              {
+                "line": 186,
+                "record": "164YB  G      401.1 1     4.0 3                                                 ",
+                "energy": {
+                  "raw": "401.1",
+                  "uncertainty_raw": "1",
+                  "value": 401.1,
+                  "sigma": 0.1
+                },
+                "RI": {
+                  "raw": "4.0",
+                  "uncertainty_raw": "3",
+                  "value": 4.0,
+                  "sigma": 0.3
+                },
+                "multipolarity": "",
+                "mixing_ratio": {
+                  "raw": "",
+                  "uncertainty_raw": "",
+                  "value": null,
+                  "sigma": null
+                },
+                "CC": {
+                  "raw": "",
+                  "uncertainty_raw": "",
+                  "value": null,
+                  "sigma": null
+                },
+                "continuation": [
+                  {
+                    "line": 187,
+                    "text": "164YB2 G A2=+0.21 4 $ A4=+0.03 4                                                "
+                  }
+                ]
+              },
+              {
+                "line": 188,
+                "record": "164YB  G 647.4     1    13.4  3E1(+M2)   +0.016  26    0.0035110            B   ",
+                "energy": {
+                  "raw": "647.4",
+                  "uncertainty_raw": "1",
+                  "value": 647.4,
+                  "sigma": 0.1
+                },
+                "RI": {
+                  "raw": "13.4",
+                  "uncertainty_raw": "3",
+                  "value": 13.4,
+                  "sigma": 0.3
+                },
+                "multipolarity": "E1(+M2)",
+                "mixing_ratio": {
+                  "raw": "+0.016",
+                  "uncertainty_raw": "26",
+                  "value": 0.016,
+                  "sigma": 0.026
+                },
+                "CC": {
+                  "raw": "0.00351",
+                  "uncertainty_raw": "10",
+                  "value": 0.00351,
+                  "sigma": 0.0001
+                },
+                "continuation": [
+                  {
+                    "line": 189,
+                    "text": "164YB2 G A2=-0.17 1 $ A4=-0.04 1 $ EKC LT 0.0042                                "
+                  },
+                  {
+                    "line": 190,
+                    "text": "164YBS G KC=0.00298 9$LC=0.000418 14$MC=9.3E-5 3                                "
+                  },
+                  {
+                    "line": 191,
+                    "text": "164YBS G NC=2.17E-5 7$OC=3.06E-6 10$PC=1.59E-7 6                                "
+                  }
+                ]
+              }
+            ]
+          },
+          "selected_gamma_line": 188,
+          "daughter_groundband": {
+            "line": 127,
+            "record": "164YB  L    1753.631610+                                                    I   ",
+            "energy": {
+              "raw": "1753.63",
+              "uncertainty_raw": "16",
+              "value": 1753.63,
+              "sigma": 0.16
+            },
+            "Jpi": "10+",
+            "band_flag": "I"
+          },
+          "literal_energy_residual_keV": 0.06000000000005912,
+          "residual_not_a_chi_square": true
+        }
+      },
+      "nearby_energy_candidates": [
+        {
+          "parent_Ex": 1873.84,
+          "parent_Jpi": "8+",
+          "parent_band": "H",
+          "gamma_line": 148,
+          "gamma_energy": 650.4,
+          "multipolarity": ""
+        },
+        {
+          "parent_Ex": 2272.48,
+          "parent_Jpi": "9+",
+          "parent_band": "A",
+          "gamma_line": 166,
+          "gamma_energy": 492.6,
+          "multipolarity": ""
+        },
+        {
+          "parent_Ex": 2401.09,
+          "parent_Jpi": "11-",
+          "parent_band": "F",
+          "gamma_line": 188,
+          "gamma_energy": 647.4,
+          "multipolarity": "E1(+M2)"
+        },
+        {
+          "parent_Ex": 3389.26,
+          "parent_Jpi": "16+",
+          "parent_band": "K",
+          "gamma_line": 271,
+          "gamma_energy": 489.8,
+          "multipolarity": "(E2)"
+        },
+        {
+          "parent_Ex": 3504.58,
+          "parent_Jpi": "14-",
+          "parent_band": "B",
+          "gamma_line": 277,
+          "gamma_energy": 491.8,
+          "multipolarity": ""
+        },
+        {
+          "parent_Ex": 5611.33,
+          "parent_Jpi": "(21+)",
+          "parent_band": "L",
+          "gamma_line": 390,
+          "gamma_energy": 645.7,
+          "multipolarity": ""
+        }
+      ]
+    },
+    "ca44": {
+      "record": "164070003",
+      "raw": "raw/papers/gpt/day15-20261016/nndc-164yb-164070003-201712-a46a5830695a.ens",
+      "sha256": "a46a5830695aa2f345fa3e2fa8f83c821a26a0568df57d45b6f81405f7ac0db2",
+      "header": "164YB    124SN(44CA,4NG)               1996XI01                  18NDS    201712",
+      "targets": {
+        "490": {
+          "parent": {
+            "line": 119,
+            "record": "164YB  L    3390.0   16+                1.75 PS  35                         E   ",
+            "energy": {
+              "raw": "3390.0",
+              "uncertainty_raw": "",
+              "value": 3390.0,
+              "sigma": null
+            },
+            "Jpi": "16+",
+            "time_raw": "1.75 PS",
+            "time_uncertainty_raw": "35",
+            "comment_flag": "E",
+            "band_flag": "E",
+            "continuation": [],
+            "gammas": [
+              {
+                "line": 120,
+                "record": "164YB  G      489.9                                                             ",
+                "energy": {
+                  "raw": "489.9",
+                  "uncertainty_raw": "",
+                  "value": 489.9,
+                  "sigma": null
+                },
+                "RI": {
+                  "raw": "",
+                  "uncertainty_raw": "",
+                  "value": null,
+                  "sigma": null
+                },
+                "multipolarity": "",
+                "mixing_ratio": {
+                  "raw": "",
+                  "uncertainty_raw": "",
+                  "value": null,
+                  "sigma": null
+                },
+                "CC": {
+                  "raw": "",
+                  "uncertainty_raw": "",
+                  "value": null,
+                  "sigma": null
+                },
+                "continuation": []
+              }
+            ]
+          },
+          "selected_gamma_line": 120,
+          "daughter_groundband": {
+            "line": 103,
+            "record": "164YB  L    2900.1   14+                 0.73 PS 21                         D   ",
+            "energy": {
+              "raw": "2900.1",
+              "uncertainty_raw": "",
+              "value": 2900.1,
+              "sigma": null
+            },
+            "Jpi": "14+",
+            "band_flag": "D"
+          },
+          "literal_energy_residual_keV": 1.1368683772161603e-13,
+          "residual_not_a_chi_square": true
+        },
+        "647": {
+          "parent": {
+            "line": 88,
+            "record": "164YB  L    2401.2   11-                                                    b   ",
+            "energy": {
+              "raw": "2401.2",
+              "uncertainty_raw": "",
+              "value": 2401.2,
+              "sigma": null
+            },
+            "Jpi": "11-",
+            "time_raw": "",
+            "time_uncertainty_raw": "",
+            "comment_flag": "b",
+            "band_flag": "b",
+            "continuation": [],
+            "gammas": [
+              {
+                "line": 89,
+                "record": "164YB  G      401.1       4.4 2                                                 ",
+                "energy": {
+                  "raw": "401.1",
+                  "uncertainty_raw": "",
+                  "value": 401.1,
+                  "sigma": null
+                },
+                "RI": {
+                  "raw": "4.4",
+                  "uncertainty_raw": "2",
+                  "value": 4.4,
+                  "sigma": 0.2
+                },
+                "multipolarity": "",
+                "mixing_ratio": {
+                  "raw": "",
+                  "uncertainty_raw": "",
+                  "value": null,
+                  "sigma": null
+                },
+                "CC": {
+                  "raw": "",
+                  "uncertainty_raw": "",
+                  "value": null,
+                  "sigma": null
+                },
+                "continuation": []
+              },
+              {
+                "line": 90,
+                "record": "164YB  G      647.3      13.8 6                                                 ",
+                "energy": {
+                  "raw": "647.3",
+                  "uncertainty_raw": "",
+                  "value": 647.3,
+                  "sigma": null
+                },
+                "RI": {
+                  "raw": "13.8",
+                  "uncertainty_raw": "6",
+                  "value": 13.8,
+                  "sigma": 0.6
+                },
+                "multipolarity": "",
+                "mixing_ratio": {
+                  "raw": "",
+                  "uncertainty_raw": "",
+                  "value": null,
+                  "sigma": null
+                },
+                "CC": {
+                  "raw": "",
+                  "uncertainty_raw": "",
+                  "value": null,
+                  "sigma": null
+                },
+                "continuation": []
+              }
+            ]
+          },
+          "selected_gamma_line": 90,
+          "daughter_groundband": {
+            "line": 73,
+            "record": "164YB  L    1753.9   10+                 0.82 PS 28                         D   ",
+            "energy": {
+              "raw": "1753.9",
+              "uncertainty_raw": "",
+              "value": 1753.9,
+              "sigma": null
+            },
+            "Jpi": "10+",
+            "band_flag": "D"
+          },
+          "literal_energy_residual_keV": -2.2737367544323206e-13,
+          "residual_not_a_chi_square": true
+        }
+      },
+      "nearby_energy_candidates": [
+        {
+          "parent_Ex": 2401.2,
+          "parent_Jpi": "11-",
+          "parent_band": "b",
+          "gamma_line": 90,
+          "gamma_energy": 647.3,
+          "multipolarity": ""
+        },
+        {
+          "parent_Ex": 3030.4,
+          "parent_Jpi": "12-",
+          "parent_band": "A",
+          "gamma_line": 107,
+          "gamma_energy": 491.6,
+          "multipolarity": ""
+        },
+        {
+          "parent_Ex": 3390.0,
+          "parent_Jpi": "16+",
+          "parent_band": "E",
+          "gamma_line": 120,
+          "gamma_energy": 489.9,
+          "multipolarity": ""
+        }
+      ]
+    }
+  },
+  "ground_reference_crosswalk": {
+    "adopted": {
+      "2+": {
+        "energy": {
+          "raw": "123.310",
+          "uncertainty_raw": "23",
+          "value": 123.31,
+          "sigma": 0.023
+        },
+        "line": 82,
+        "Jpi": "2+"
+      },
+      "4+": {
+        "energy": {
+          "raw": "385.56",
+          "uncertainty_raw": "4",
+          "value": 385.56,
+          "sigma": 0.04
+        },
+        "line": 98,
+        "Jpi": "4+"
+      },
+      "6+": {
+        "energy": {
+          "raw": "760.05",
+          "uncertainty_raw": "7",
+          "value": 760.05,
+          "sigma": 0.07
+        },
+        "line": 105,
+        "Jpi": "6+"
+      },
+      "8+": {
+        "energy": {
+          "raw": "1223.09",
+          "uncertainty_raw": "9",
+          "value": 1223.09,
+          "sigma": 0.09
+        },
+        "line": 135,
+        "Jpi": "8+"
+      },
+      "10+": {
+        "energy": {
+          "raw": "1753.35",
+          "uncertainty_raw": "11",
+          "value": 1753.35,
+          "sigma": 0.11
+        },
+        "line": 202,
+        "Jpi": "10+"
+      },
+      "12+": {
+        "energy": {
+          "raw": "2329.89",
+          "uncertainty_raw": "12",
+          "value": 2329.89,
+          "sigma": 0.12
+        },
+        "line": 263,
+        "Jpi": "12+"
+      },
+      "14+": {
+        "energy": {
+          "raw": "2899.20",
+          "uncertainty_raw": "13",
+          "value": 2899.2,
+          "sigma": 0.13
+        },
+        "line": 308,
+        "Jpi": "14+"
+      }
+    },
+    "sm16o": {
+      "2+": {
+        "energy": {
+          "raw": "123.59",
+          "uncertainty_raw": "10",
+          "value": 123.59,
+          "sigma": 0.1
+        },
+        "line": 77,
+        "Jpi": "2+"
+      },
+      "4+": {
+        "energy": {
+          "raw": "385.82",
+          "uncertainty_raw": "13",
+          "value": 385.82,
+          "sigma": 0.13
+        },
+        "line": 84,
+        "Jpi": "4+"
+      },
+      "6+": {
+        "energy": {
+          "raw": "760.39",
+          "uncertainty_raw": "14",
+          "value": 760.39,
+          "sigma": 0.14
+        },
+        "line": 90,
+        "Jpi": "6+"
+      },
+      "8+": {
+        "energy": {
+          "raw": "1223.37",
+          "uncertainty_raw": "15",
+          "value": 1223.37,
+          "sigma": 0.15
+        },
+        "line": 98,
+        "Jpi": "8+"
+      },
+      "10+": {
+        "energy": {
+          "raw": "1753.63",
+          "uncertainty_raw": "16",
+          "value": 1753.63,
+          "sigma": 0.16
+        },
+        "line": 127,
+        "Jpi": "10+"
+      },
+      "12+": {
+        "energy": {
+          "raw": "2330.18",
+          "uncertainty_raw": "17",
+          "value": 2330.18,
+          "sigma": 0.17
+        },
+        "line": 179,
+        "Jpi": "12+"
+      },
+      "14+": {
+        "energy": {
+          "raw": "2899.48",
+          "uncertainty_raw": "18",
+          "value": 2899.48,
+          "sigma": 0.18
+        },
+        "line": 233,
+        "Jpi": "14+"
+      }
+    },
+    "ca44": {
+      "2+": {
+        "energy": {
+          "raw": "123.3",
+          "uncertainty_raw": "",
+          "value": 123.3,
+          "sigma": null
+        },
+        "line": 57,
+        "Jpi": "2+"
+      },
+      "4+": {
+        "energy": {
+          "raw": "385.5",
+          "uncertainty_raw": "",
+          "value": 385.5,
+          "sigma": null
+        },
+        "line": 60,
+        "Jpi": "4+"
+      },
+      "6+": {
+        "energy": {
+          "raw": "760.4",
+          "uncertainty_raw": "",
+          "value": 760.4,
+          "sigma": null
+        },
+        "line": 63,
+        "Jpi": "6+"
+      },
+      "8+": {
+        "energy": {
+          "raw": "1223.6",
+          "uncertainty_raw": "",
+          "value": 1223.6,
+          "sigma": null
+        },
+        "line": 66,
+        "Jpi": "8+"
+      },
+      "10+": {
+        "energy": {
+          "raw": "1753.9",
+          "uncertainty_raw": "",
+          "value": 1753.9,
+          "sigma": null
+        },
+        "line": 73,
+        "Jpi": "10+"
+      },
+      "12+": {
+        "energy": {
+          "raw": "2330.6",
+          "uncertainty_raw": "",
+          "value": 2330.6,
+          "sigma": null
+        },
+        "line": 86,
+        "Jpi": "12+"
+      },
+      "14+": {
+        "energy": {
+          "raw": "2900.1",
+          "uncertainty_raw": "",
+          "value": 2900.1,
+          "sigma": null
+        },
+        "line": 103,
+        "Jpi": "14+"
+      }
+    }
+  },
+  "evaluated_energy_shifts": [
+    {
+      "spin": "2+",
+      "adopted": 123.31,
+      "sm16o": 123.59,
+      "adopted_minus_sm16o_keV": -0.28000000000000114
+    },
+    {
+      "spin": "4+",
+      "adopted": 385.56,
+      "sm16o": 385.82,
+      "adopted_minus_sm16o_keV": -0.2599999999999909
+    },
+    {
+      "spin": "6+",
+      "adopted": 760.05,
+      "sm16o": 760.39,
+      "adopted_minus_sm16o_keV": -0.34000000000003183
+    },
+    {
+      "spin": "8+",
+      "adopted": 1223.09,
+      "sm16o": 1223.37,
+      "adopted_minus_sm16o_keV": -0.2799999999999727
+    },
+    {
+      "spin": "10+",
+      "adopted": 1753.35,
+      "sm16o": 1753.63,
+      "adopted_minus_sm16o_keV": -0.2800000000002001
+    },
+    {
+      "spin": "12+",
+      "adopted": 2329.89,
+      "sm16o": 2330.18,
+      "adopted_minus_sm16o_keV": -0.2899999999999636
+    },
+    {
+      "spin": "14+",
+      "adopted": 2899.2,
+      "sm16o": 2899.48,
+      "adopted_minus_sm16o_keV": -0.2800000000002001
+    }
+  ],
+  "time_conversion": {
+    "ENSDF_T_half_ps": 1.75,
+    "sigma_T_half_ps": 0.35,
+    "mean_tau_ps": 2.5247163215556863,
+    "sigma_mean_tau_ps": 0.5049432643111372,
+    "total_decay_rate_per_second": 396084103177.1116,
+    "local_sigma_decay_rate_per_second": 79216820635.42232,
+    "primary_fit_definition_verified": false
+  },
+  "radiative_component_hypothesis": {
+    "arctan_delta_deg": -21,
+    "delta": -0.3838640350354158,
+    "fractions": {
+      "M1": 0.8715724127386971,
+      "E2": 0.12842758726130285
+    },
+    "meaning": "ST99alternativecomponentfractions, not observedbranch/totaldecay or newfit"
+  },
+  "RI_normalization": {
+    "adopted_I302_over_I490": 0.028999999999999998,
+    "reaction_I302_over_I490": 0.029411764705882356,
+    "same_primary_intensity_lineage_not_independent": true,
+    "Cov_available": false
+  },
+  "ICC_identity": {
+    "G489_CC_theoretical": {
+      "raw": "0.0188",
+      "uncertainty_raw": "",
+      "value": 0.0188,
+      "sigma": null
+    },
+    "G302_CC_unknown": {
+      "raw": "",
+      "uncertainty_raw": "",
+      "value": null,
+      "sigma": null
+    },
+    "G489_EKC_in_selected_adopted_block": [],
+    "G647_experimental_EKC_limit_line": [
+      {
+        "line": 189,
+        "text": "164YB2 G A2=-0.17 1 $ A4=-0.04 1 $ EKC LT 0.0042                                "
+      }
+    ],
+    "G647_mixing_M2_over_E1_not_E2_over_M1": {
+      "raw": "+0.016",
+      "uncertainty_raw": "26",
+      "value": 0.016,
+      "sigma": 0.026
+    }
+  },
+  "readiness": "Evaluatedsummaryreadinessonly. Nooriginalcount/feeding/response/Cov or unknown302ICC. NoabsoluteB, uniqueJpi, directlifetimefit, measured489ICC or newexperiment claimed."
+}

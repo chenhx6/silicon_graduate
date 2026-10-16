@@ -134,6 +134,8 @@ d=0,\quad d=-3.1952146985,
 
 ## 必要观测与失败控制
 
+实际164Yb reference的后续核验见[[st99-pdco-calibration-table-replay]]与[[nndc-2018-164yb-pdco-reference-records]]。N164-6的647实测EKC上限是ST99原已使用的prior；N164-4的489 KC/CC为采用E2的BrIcc，不是新增转换测量。目标T1/2及其derived BE2也不能循环选δ，302未知ICC/branch Cov要保留。这给“补一个独立观测”设定了具体数据身份门，而不是只再取一个adopted标签。
+
 只有R时，M1/E2两根都容许；测gamma1的P符号可区分pureM1与mixed根，但引入未知初态宇称后，pureE1和mixed仍可能都给positive P。若当前候选已限定为E1/mixed，测已知gamma2(E2)在两种上游选择下的条件P，在本模型给更大分离（.5604对.2088）；这来自条件daughter density，不是gamma2的多极性改变。
 
 DIR-POL不能单独区分pureE1和pureM1，因为第一条未测偏振时两者在此几何给同一条件density。实际需要同一transition/cuts下的DCO、第一条/第二条polarization及可比较的alignment/response；不能称某一个新增observable普适唯一赋值。没有Q(E)、selected counts、background/Cov时，不算实际significance或所需束流时间。

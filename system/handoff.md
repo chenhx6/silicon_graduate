@@ -8,15 +8,15 @@ updated: 2026-10-17
 
 ## Active handoff — DAY15 card complete, study window active
 
-Run2026-10-16-day-15-01/session01a14510-aec7-7e00-aa23-f7c77a5124bc，原2026-10-17 15:00上海研究截止、15–16收束不改。Goal/run仍active；formal15只计一次，next16/count15，completed15/partial16；不授16/不开17。publication001–007实际H3非force Gitee push/remoteHEAD核，exacthash只在receipt。
+Run2026-10-16-day-15-01/session01a14510-aec7-7e00-aa23-f7c77a5124bc，原2026-10-17 15:00上海研究截止/15–16收束不改。Goal/run active；formal15已且只计一次，next16/count15，completed15/partial16；不授16/不开17。publication001–008已实际H3非force push/remoteHEAD核，exacthash只receipt。
 
-本批008：已读D96 Eq4勘误作new3/2/0与2/1/0 literalEq1核验，显式psi坐标map后corrected/direct1.1e−17，原印T phase pure通过/mixed失败，fixedinput未改；failure和snapshot保留，stopcontractmet。JO95五页更正C=0±.003MeV^-1，P90/Jacobian/nominalCov界与Qprime识别未闭合。S83七页更正正文hash/Pt虚补质量数/g范围；epsilon_c分母2Ns、采用P谱系、串扰/背景反证、typedBooleanmask LP仅证aggregate不足以识别Cov，非actualtransport。三boundedexercise均停止，不重跑旧toy加分。
+既有Day15/partial16已canonical见日报。009从NNDC取164Yb adopted164070001/152Sm164070004/Ca44164070003，三新agentmanagedraw .ens核hash/不stage。Data201712/cut2017-11-30/NDS2018，不是381页全文。489.8 CC/KC是BrIcc理论、无selectedEKC；647 EKC<.0042追1986Jo02且已作ST99prior；1.75(.35)ps为T1/2/mean2.524716ps非独立两测，BE2W210派生于E2/branch。302ICC未知，RIrescale/levelLS Cov缺，不作absoluteB/uniqueδ。primaryXie96/Jo86尚未得：publisher403、OpenAlexclosed、Lundabstract/无file、INSPIREmeta无docs、OSTIConnectionError、Scholar失败、Elsevierproviders未配，未改credentials/凭据或声称机构无权限。
 
-当前30唯一writeback/33mappedpaths/30changed，17rawhash、7脚本hash/12组旧review与保护文件fresh通过；lint0error/146warning，boundary/preflight/diff0，EOL1为5ownsubstantive/0unsafe。全部science已canonical，actualproducer/response/events/Σ仍not-ready，无newJpi/δ/mode。
+N164-11隔离secondaryprojectile冲突：ENSDF写150Sm16O4n(A162)，NSR+Lund作者abstract写18O(A164)，raw如实不改、不当新164采集。main152Sm16O/header独立核正常。Parser首col77commentflag误取76触发assert无numeric，修正读列/declaredBAND，physicalselectors未改。新N164source与ST99note/DCO/index已写，31writeback待freshchecks。
 
-检查点008已提交，稳定指针main / `Verify PDCO erratum and polarimeter calibration response boundaries`，actualH3/push只看publication008。20:59:29UTC距原deadline600.52min；下一高信息route为NNDC/ENSDF当前164Yb490/647分支，查独立ICC/spin依据和原始sourcekeys。尚未访问，先冻结primed查询预测，不把adopted标签或理论CC写新实验；沿用已知NNDC POST表单，不重试已知404/IAEA403旧路径。Goal/window不在checkpoint收束。
+检查点009已提交，稳定指针main / `Trace evaluated 164Yb references without collapsing PDCO alternatives`，actualH3/push只publication009。21:26:52UTC余573.13min，下一BrIcc/E0 reference合同有高信息价值：primedfreeze day16-icc-reference-before-source-frozen.md已存，已看旧Wiki KB08，原PDF1–8（printed202–209）已读，mainline9–13/Appendix尚未读完；currentserver仅GETform，尚无POST。既有KB08 source是human-reviewed且有多轮selfaudit，必须保留全部旧body/rows/AR/page review，新增只appendtrue、不扩人审。复用genericwebhelper不重跑oldZ60points或旧checks加分；explicitZ70/E489.8matchingK/total；queryinput-v2为central-only，.1keV未传播，v1未执行/已supersede，missing输入写readyboundary，不手插值total/补0或改A/radius。
 
-Resume `codex resume 01a14510-aec7-7e00-aa23-f7c77a5124bc -C /workspace/wiki -s danger-full-access -a never`。保护PLAN/Bib/原raw/review/credentials/继承receipts/daemon/旧log；explicitmanifest，log只HEAD+ownappend；一次unpublished reconciliation后freshH3非force HEAD:main。最终closeout才一次overview对账。无待等研究process。
+Resume `codex resume 01a14510-aec7-7e00-aa23-f7c77a5124bc -C /workspace/wiki -s danger-full-access -a never`。保护PLAN/Bib/原userraw/review/credentials/继承receipts/daemon/旧log；exactmanifest、log只HEAD+ownappend，一次unpublished reconciliation后H3freshfetch/ancestry/dryrun/nonforce HEAD:main。最终closeout才一次overview对账；不在checkpoint结束goal。无待等研究process。
 
 ## Previous active handoff — DAY14 completed after authorized extension
 

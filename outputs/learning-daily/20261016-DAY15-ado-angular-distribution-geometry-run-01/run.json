@@ -50,7 +50,7 @@
   "active_recall_sha256": "91eee8abb4bce71d0447617b1d5cb0d64240259115b9522a012963872cb25c67",
   "continuation_prompt": "/workspace/wiki/outputs/learning-daily/20261016-DAY15-ado-angular-distribution-geometry-run-01/continuation.md",
   "research_checkpoint": "/workspace/wiki/outputs/learning-daily/20261016-DAY15-ado-angular-distribution-geometry-run-01/research-checkpoint.json",
-  "last_agent_checkpoint_at": "2026-10-17T05:01:09.757637+08:00",
+  "last_agent_checkpoint_at": "2026-10-17T05:31:12.644711+08:00",
   "agent_goal_state": "active",
   "publications": [
     {
@@ -108,6 +108,14 @@
       "commit_hash": "15cbdfee7c30862c9620a5b36b3ea35dcc4423e5",
       "status": "checkpoint-pushed",
       "receipt": "outputs/learning-daily/20261016-DAY15-ado-angular-distribution-geometry-run-01/publication-007.json"
+    },
+    {
+      "checkpoint": 8,
+      "branch": "main",
+      "subject": "Verify PDCO erratum and polarimeter calibration response boundaries",
+      "commit_hash": "ba82c60cc7865da70bd658c0232dbe9ebaf75fd1",
+      "status": "checkpoint-pushed",
+      "receipt": "outputs/learning-daily/20261016-DAY15-ado-angular-distribution-geometry-run-01/publication-008.json"
     }
   ],
   "formal_day15_card_audit": "complete",
@@ -128,13 +136,13 @@
     "run_window_complete": false
   },
   "study_window_status": "active-partial16",
-  "latest_verification": "outputs/learning-daily/20261016-DAY15-ado-angular-distribution-geometry-run-01/verification-prepublication-008.json",
+  "latest_verification": "outputs/learning-daily/20261016-DAY15-ado-angular-distribution-geometry-run-01/verification-prepublication-009.json",
   "agent_clock_observation": {
-    "clock_tool_UTC": "2026-10-16 20:59:29 UTC",
-    "now_local": "2026-10-17T04:59:29+08:00",
+    "clock_tool_UTC": "2026-10-16 21:26:52 UTC",
+    "now_local": "2026-10-17T05:26:52+08:00",
     "hard_deadline": "2026-10-17T15:00:00+08:00",
-    "minutes_to_deadline": 600.5166666666667,
+    "minutes_to_deadline": 573.1333333333333,
     "decision": "continue",
-    "kind": "manual agent observation, not scheduler event"
+    "kind": "manualagentobservation,notschedulerevent"
   }
 }

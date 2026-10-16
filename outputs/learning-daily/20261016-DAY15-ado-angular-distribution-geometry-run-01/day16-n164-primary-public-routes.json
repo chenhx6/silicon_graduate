@@ -1,0 +1,153 @@
+[
+  {
+    "at": "2026-10-17T05:21:02.749200+08:00",
+    "label": "lund-jonsson",
+    "url": "https://lup.lub.lu.se/record/389c199a-7493-48eb-8cc0-9ea30c4745f7",
+    "parameters": null,
+    "scope": "metadata/prefixonly, nofulltextread",
+    "status": 200,
+    "content_type": "text/html; charset=utf-8",
+    "final_url": "https://lup.lub.lu.se/search/publication/389c199a-7493-48eb-8cc0-9ea30c4745f7",
+    "sha256": "b397b3e90e5eb0861a69c23b427af389e1144579165ce857073f9b3f338f4b81",
+    "bytes": 47057,
+    "title": "Near-Yrast spectroscopy of <sup>164</sup>Yb and neighbouring nuclei : Systematics of octupole bands and bandcrossings | Lund University Publications",
+    "file_links": [],
+    "record_text_excerpt": "Near-Yrast spectroscopy of <sup>164</sup>Yb and neighbouring nuclei : Systematics of octupole bands and bandcrossings | Lund University Publications Skip to main content LUND UNIVERSITY | LUND UNIVERSITY LIBRARIES search all top articles Lund University Publications LUND UNIVERSITY LIBRARIES Register publications | Statistics | Marked list 0 | Saved searches 0 Advanced Home Publications Departments Near-Yrast spectroscopy of 164 Yb and neighbouring nuclei : Systematics of octupole bands and bandcrossings Mark Jónsson, S. ; Roy, N. ; Ryde, H. LU ; Waluś, W. ; Kownacki, J. ; Garrett, J. D. ; Hagemann, G. B. ; Herskind, B. ; Bengtsson, R. LU and Åberg, S. LU ( 1986 )\n\n\n        In Nuclear Physics, Section A 449 (3) . p.537-578 Abstract High-spin states in 164 Yb have been populated in the 152 Sm( 16 O, 4n) and 150 Sm( 18 O, 4n) reactions. From studies of γγ coincidences, γ-ray angular distributions and conversion electron measurements the level scheme has been constructed. The g-band and the S-band have been established to spin and parity 22 + and 26 +' , respectively, and the rotational sequences (π, α) = (-, 1) 1 , (-, 0) 1 and (-, 0) 2 to 23 - , 24 - and 18 - , respectively. Constructed two-quasineutron configurations and cranked shell model calculations are compared with the experimental results. Residual interactions between quasiparticles... (More) High-spin states in 164 Yb have been populated in the 152 Sm( 16 O, 4n) and 150 Sm( 18 O, 4n) reactions. From studies of γγ coi"
+  },
+  {
+    "at": "2026-10-17T05:21:02.749417+08:00",
+    "label": "inspire-xie",
+    "url": "https://inspirehep.net/api/literature",
+    "parameters": {
+      "q": "doi:10.1016/0375-9474(95)00446-7",
+      "fields": "dois,titles,documents,arxiv_eprints,report_numbers,external_system_identifiers",
+      "size": 2
+    },
+    "scope": "metadata/prefixonly, nofulltextread",
+    "status": 200,
+    "content_type": "application/json",
+    "final_url": "https://inspirehep.net/api/literature?q=doi%3A10.1016%2F0375-9474%2895%2900446-7&fields=dois%2Ctitles%2Cdocuments%2Carxiv_eprints%2Creport_numbers%2Cexternal_system_identifiers&size=2",
+    "sha256": "56e8acb055097e0565935245b255ba1228cea21dd4c272e38f7c2e6df8bf48cd",
+    "bytes": 1965,
+    "hits": [
+      {
+        "updated": "2024-05-07T11:33:17.000281+00:00",
+        "created": "2016-05-20T00:00:00+00:00",
+        "id": "1461569",
+        "links": {
+          "bibtex": "https://inspirehep.net/api/literature/1461569?format=bibtex",
+          "latex-eu": "https://inspirehep.net/api/literature/1461569?format=latex-eu",
+          "latex-us": "https://inspirehep.net/api/literature/1461569?format=latex-us",
+          "json": "https://inspirehep.net/api/literature/1461569?format=json",
+          "json-expanded": "https://inspirehep.net/api/literature/1461569?format=json-expanded",
+          "cv": "https://inspirehep.net/api/literature/1461569?format=cv",
+          "citations": "https://inspirehep.net/api/literature/?q=refersto%3Arecid%3A1461569"
+        },
+        "metadata": {
+          "control_number": 1461569,
+          "dois": [
+            {
+              "source": "Elsevier",
+              "value": "10.1016/0375-9474(95)00446-7"
+            }
+          ],
+          "external_system_identifiers": [
+            {
+              "schema": "NSR",
+              "value": "1996XI01"
+            }
+          ],
+          "titles": [
+            {
+              "title": "The loss of collectivity at high spins in 164 Yb and its neighboring even-even nuclei"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "at": "2026-10-17T05:21:03.884263+08:00",
+    "label": "inspire-jonsson",
+    "url": "https://inspirehep.net/api/literature",
+    "parameters": {
+      "q": "doi:10.1016/0375-9474(86)90234-4",
+      "fields": "dois,titles,documents,arxiv_eprints,report_numbers,external_system_identifiers",
+      "size": 2
+    },
+    "scope": "metadata/prefixonly, nofulltextread",
+    "status": 200,
+    "content_type": "application/json",
+    "final_url": "https://inspirehep.net/api/literature?q=doi%3A10.1016%2F0375-9474%2886%2990234-4&fields=dois%2Ctitles%2Cdocuments%2Carxiv_eprints%2Creport_numbers%2Cexternal_system_identifiers&size=2",
+    "sha256": "960dabeb4481da72c51dfa01987cdd0f64b56d10c4ec9a3d20d1311fd8ca212e",
+    "bytes": 1986,
+    "hits": [
+      {
+        "created": "2016-04-26T00:00:00+00:00",
+        "updated": "2024-06-13T18:00:58.318878+00:00",
+        "id": "1452198",
+        "links": {
+          "bibtex": "https://inspirehep.net/api/literature/1452198?format=bibtex",
+          "latex-eu": "https://inspirehep.net/api/literature/1452198?format=latex-eu",
+          "latex-us": "https://inspirehep.net/api/literature/1452198?format=latex-us",
+          "json": "https://inspirehep.net/api/literature/1452198?format=json",
+          "json-expanded": "https://inspirehep.net/api/literature/1452198?format=json-expanded",
+          "cv": "https://inspirehep.net/api/literature/1452198?format=cv",
+          "citations": "https://inspirehep.net/api/literature/?q=refersto%3Arecid%3A1452198"
+        },
+        "metadata": {
+          "control_number": 1452198,
+          "dois": [
+            {
+              "source": "Elsevier",
+              "value": "10.1016/0375-9474(86)90234-4"
+            }
+          ],
+          "external_system_identifiers": [
+            {
+              "schema": "NSR",
+              "value": "1986JO02"
+            }
+          ],
+          "titles": [
+            {
+              "title": "Near-Yrast spectroscopy of 164 Yb and neighbouring nuclei: Systematics of octupole bands and bandcrossings"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "at": "2026-10-17T05:21:04.725462+08:00",
+    "label": "publisher-xie-prefix",
+    "url": "https://www.sciencedirect.com/science/article/pii/0375947495004467/pdfft",
+    "parameters": {
+      "isDTMRedir": "true",
+      "download": "true"
+    },
+    "scope": "metadata/prefixonly, nofulltextread",
+    "status": 403,
+    "content_type": "text/html; charset=UTF-8",
+    "final_url": "https://www.sciencedirect.com/science/article/pii/0375947495004467/pdfft?isDTMRedir=true&download=true",
+    "prefix_bytes": 1601,
+    "looks_like_PDF": false,
+    "prefix_sha256": "d668c2777d9d9a04432ac3c13a9fbc34f047d27a4969977835ec9b2b36ea9ab6"
+  },
+  {
+    "at": "2026-10-17T05:21:04.790915+08:00",
+    "label": "publisher-jonsson-prefix",
+    "url": "https://www.sciencedirect.com/science/article/pii/0375947486902344/pdfft",
+    "parameters": {
+      "isDTMRedir": "true",
+      "download": "true"
+    },
+    "scope": "metadata/prefixonly, nofulltextread",
+    "status": 403,
+    "content_type": "text/html; charset=UTF-8",
+    "final_url": "https://www.sciencedirect.com/science/article/pii/0375947486902344/pdfft?isDTMRedir=true&download=true",
+    "prefix_bytes": 68,
+    "looks_like_PDF": false,
+    "prefix_sha256": "c4a6a126b6913099ee4bd8caf87aa027239a8184152afc1b0a18f71311b566ec"
+  }
+]

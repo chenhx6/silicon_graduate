@@ -1,0 +1,119 @@
+{
+  "at": "2026-10-17T05:32:11.609586+08:00",
+  "url": "https://bricc.anu.edu.au/",
+  "method": "GET",
+  "scope": "formdiscoveryonly, nonumericalqueryyet",
+  "status": 200,
+  "content_type": "text/html; charset=utf-8",
+  "sha256": "e6755568567f03177523c76e5bb602105e988164b7bf3160a6624b96f0ebe4a7",
+  "forms": [
+    {
+      "action": "//find.anu.edu.au/search",
+      "method": "get",
+      "fields": [
+        {
+          "tag": "input",
+          "type": "search",
+          "name": "q",
+          "value": null,
+          "options": []
+        }
+      ]
+    },
+    {
+      "action": null,
+      "method": "post",
+      "fields": [
+        {
+          "tag": "input",
+          "type": "text",
+          "name": "atomic",
+          "value": "",
+          "options": []
+        },
+        {
+          "tag": "input",
+          "type": "text",
+          "name": "energy",
+          "value": "",
+          "options": []
+        },
+        {
+          "tag": "input",
+          "type": "text",
+          "name": "eerror",
+          "value": "",
+          "options": []
+        },
+        {
+          "tag": "input",
+          "type": "text",
+          "name": "multipole",
+          "value": "",
+          "options": []
+        },
+        {
+          "tag": "input",
+          "type": "text",
+          "name": "delta",
+          "value": "",
+          "options": []
+        },
+        {
+          "tag": "input",
+          "type": "text",
+          "name": "derror",
+          "value": "",
+          "options": []
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "name": "subshells",
+          "value": null,
+          "options": []
+        },
+        {
+          "tag": "select",
+          "type": null,
+          "name": "dataset",
+          "value": null,
+          "options": [
+            {
+              "value": "BrIccFO",
+              "text": "BrIccFO",
+              "selected": false
+            },
+            {
+              "value": "BrIccNH",
+              "text": "BrIccNH",
+              "selected": false
+            },
+            {
+              "value": "HsIcc",
+              "text": "HsIcc",
+              "selected": false
+            },
+            {
+              "value": "RpIcc",
+              "text": "RpIcc",
+              "selected": false
+            },
+            {
+              "value": "All",
+              "text": "All",
+              "selected": false
+            }
+          ]
+        },
+        {
+          "tag": "input",
+          "type": "submit",
+          "name": "calculate",
+          "value": "Calculate",
+          "options": []
+        }
+      ]
+    }
+  ]
+}

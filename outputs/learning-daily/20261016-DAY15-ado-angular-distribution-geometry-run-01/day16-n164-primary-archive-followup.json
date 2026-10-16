@@ -1,0 +1,48 @@
+[
+  {
+    "at": "2026-10-17T05:23:05.452839+08:00",
+    "label": "inspire-xie-full",
+    "url": "https://inspirehep.net/api/literature/1461569",
+    "parameters": {},
+    "kind": "boundedmetadatafollowup; nofulltextassertion",
+    "status": 200,
+    "sha256": "2150fd45d62683f0ca7448a6b2bfda8b98be44ecbde6b80708077005cd181b85",
+    "bytes": 26027,
+    "access_fields": {
+      "dois": [
+        {
+          "value": "10.1016/0375-9474(95)00446-7",
+          "source": "Elsevier"
+        }
+      ],
+      "titles": [
+        {
+          "title": "The loss of collectivity at high spins in 164 Yb and its neighboring even-even nuclei"
+        }
+      ],
+      "urls": null,
+      "documents": null,
+      "arxiv_eprints": null,
+      "report_numbers": null,
+      "external_system_identifiers": [
+        {
+          "value": "1996XI01",
+          "schema": "NSR"
+        }
+      ]
+    }
+  },
+  {
+    "at": "2026-10-17T05:23:05.452644+08:00",
+    "label": "osti-xie",
+    "url": "https://www.osti.gov/api/v1/records",
+    "parameters": {
+      "search": "10.1016/0375-9474(95)00446-7",
+      "rows": 3
+    },
+    "kind": "boundedmetadatafollowup; nofulltextassertion",
+    "status": "failed",
+    "error_type": "ConnectionError",
+    "error": "HTTPSConnectionPool(host='www.osti.gov', port=443): Max retries exceeded with url: /api/v1/records?search=10.1016%2F0375-9474%2895%2900446-7&rows=3 (Caused by NewConnectionError(\"HTTPSConnection(host='www.osti.gov', port=443): Failed to establish a new connection: [Errno 111] Connection refused\"))"
+  }
+]

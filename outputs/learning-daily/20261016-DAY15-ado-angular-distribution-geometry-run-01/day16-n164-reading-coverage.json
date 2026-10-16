@@ -1,0 +1,21 @@
+{
+  "at": "2026-10-17T05:26:52.401972+08:00",
+  "objects": {
+    "164070001": "header/globalcomments andselected7GSreference/targets2400.80+3388.98/companionlevels; notall653linephysicsaudit",
+    "164070004": "globalcomments/1986defaultdatafields andselectedreference/targetblocks/neighborcandidates; not527linefullphysicsaudit",
+    "164070003": "full202linesheader/comments+L/Glistread"
+  },
+  "metadata_references_read": [
+    "1986JO02",
+    "1995NO04",
+    "1996NO12",
+    "1996XI01",
+    "1976BO27"
+  ],
+  "primary_bodies_read": [],
+  "raw_hash_manifest": "day16-n164-raw-manifest.json",
+  "new_claims": "N164-1..13",
+  "all_new_needs_review": true,
+  "not_human_reviewed": true,
+  "actual_L4": false
+}

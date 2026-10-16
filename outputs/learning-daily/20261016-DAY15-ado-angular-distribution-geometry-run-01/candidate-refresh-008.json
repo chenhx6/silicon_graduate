@@ -1,0 +1,29 @@
+{
+  "at": "2026-10-17T05:04:01.739168+08:00",
+  "hard_deadline": "2026-10-17T15:00:00+08:00",
+  "scope": "currentDay15responseplusonlypartial16branch/reference",
+  "pool": [
+    {
+      "candidate": "NNDC164Ybselected490/647independentconversion/spin/source-lineage",
+      "information_gain": "potentialactualinputtohistoricaltwobranches, notanothermodel",
+      "decision": "selectbeforedataquery"
+    },
+    {
+      "candidate": "morefixedspins/thresholdtoygrids",
+      "decision": "rejectstopcontractsmet"
+    },
+    {
+      "candidate": "Zhengfigpercentprecisionandproductiongeometry",
+      "decision": "rawresolution/actualinputsunchanged; keepneedsreview, noexactfigureinvented"
+    },
+    {
+      "candidate": "135Practualfitdata/Σ",
+      "decision": "publicsourcepackage/methodsprobed,actualproducerabsent; failedURLsunchanged"
+    },
+    {
+      "candidate": "Ptisotopeverification/unrelatedmassnewtopic/Day17",
+      "decision": "notneededforcurrentbranchcalibration, noDay17"
+    }
+  ],
+  "decision": "continue, viableactualdata route remains; notearlycloseout"
+}

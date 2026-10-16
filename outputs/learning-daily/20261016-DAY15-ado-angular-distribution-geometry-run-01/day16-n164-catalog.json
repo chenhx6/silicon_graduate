@@ -1,0 +1,38 @@
+{
+  "at": "2026-10-17T05:04:01.944666+08:00",
+  "url": "https://www.nndc.bnl.gov/ensdf/DatasetFetchServlet",
+  "method": "POST",
+  "parameters": {
+    "nuc": "164YB",
+    "nsrch": "Search",
+    "searchType": "quick",
+    "datasource": "ensdf"
+  },
+  "scope": "catalog discovery only; not scientificdataread",
+  "status": 200,
+  "content_type": "text/html;charset=UTF-8",
+  "response_sha256": "6596a68e61e41f9918354d099ec0b3f1422e60114054815addffa64c720e7ded",
+  "bytes": 6091,
+  "datasets": [
+    {
+      "value": "164070001,164YB",
+      "label": "ADOPTED LEVELS, GAMMAS 2017-12 All references"
+    },
+    {
+      "value": "164070002,164YB",
+      "label": "164LU EC DECAY (3.14 M) 2017-12 All references"
+    },
+    {
+      "value": "164070003,164YB",
+      "label": "124SN(44CA,4NG) 2017-12 All references"
+    },
+    {
+      "value": "164070004,164YB",
+      "label": "152SM(16O,4NG) 2017-12 All references"
+    },
+    {
+      "value": "164070013,164YB",
+      "label": "186W(N,XG) 2017-12 All references"
+    }
+  ]
+}

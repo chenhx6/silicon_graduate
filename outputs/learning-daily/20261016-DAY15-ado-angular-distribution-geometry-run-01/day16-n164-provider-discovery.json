@@ -1,0 +1,18 @@
+{
+  "papers": [
+    {
+      "doi": "10.1016/0375-9474(95)00446-7",
+      "public_discovery": "no_candidate",
+      "landing": "https://linkinghub.elsevier.com/retrieve/pii/0375947495004467",
+      "target_status": 200
+    },
+    {
+      "doi": "10.1016/0375-9474(86)90234-4",
+      "public_discovery": "no_candidate",
+      "landing": "https://linkinghub.elsevier.com/retrieve/pii/0375947486902344",
+      "target_status": 200
+    }
+  ],
+  "sciencedirect_metadata_provider": "pybliometrics config absent; no new configuration/credentials; does not establish fulltextentitlement",
+  "access_scope": "metadata/publicdiscovery only sofar, no fulltext read or privatebrowser"
+}

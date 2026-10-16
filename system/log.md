@@ -1780,3 +1780,8 @@ Zobel1983六页/metadata/raw与958parent10个Pubfit rows，38-check条件Gaussia
 ## 2026-10-17T05:01:09.757637+08:00 — DAY15 checkpoint008: formula, calibration and event-pattern boundaries
 
 同run/session继续恰好partial16：D96 Eq4公开勘误与有向analyzer map核验、JO95 C中心/误差和nominalP预算、S83效率分母/采用P/typedbitpatternCov界均canonical。新fixed模型stopcontract满足，actualproducer/Σ未得；未清旧flags或动原raw。fresh检查30writeback/33mapped/30changed、17rawhash、lint0error/146warnings通过。formal15只计一次next16/count15，原15:00deadline/windowactive。下一NNDC164Yb独立转换谱系route。稳定指针main / Verify PDCO erratum and polarimeter calibration response boundaries；actualH3/push仅publication008。
+
+
+## 2026-10-17T05:36:11.409405+08:00 — DAY15 checkpoint009: evaluated 164Yb reference lineage
+
+同run/session继续partial16，归档三NNDC公共raw对象（不stage/不覆盖），核EKC/theoryCC/half-life/derivedBE2/RI/LS谱系；隔离150Sm16/18O secondarymetadata冲突，primarybody未得不假读。31writeback/34mapped/31changed、lint0error/146warnings及保护文件通过；genericcanonical_source碰撞修复，原失败保留。下一BrIcc明确壳层/ΔJ0 E0合同，query-v2 centralonly尚未执行，旧KB08人审范围不扩。formal15一次next16/count15，原15:00deadline/windowactive。稳定指针main / Trace evaluated 164Yb references without collapsing PDCO alternatives；actualH3/push仅publication009。

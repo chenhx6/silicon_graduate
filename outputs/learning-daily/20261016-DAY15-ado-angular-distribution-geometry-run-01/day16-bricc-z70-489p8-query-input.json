@@ -1,0 +1,49 @@
+{
+  "identity": "DAY16-PREVIEW-BRICC-Z70-E489P8-FO-SHELL-REFERENCE-01",
+  "frozen_at": "2026-10-17T05:34:02.675676+08:00",
+  "session_id": "01a14510-aec7-7e00-aa23-f7c77a5124bc",
+  "endpoint": "https://bricc.anu.edu.au/",
+  "form_sha256": "e6755568567f03177523c76e5bb602105e988164b7bf3160a6624b96f0ebe4a7",
+  "requests": [
+    {
+      "atomic": "70",
+      "energy": "489.8",
+      "eerror": "0.1",
+      "multipole": "M1",
+      "delta": "",
+      "derror": "",
+      "subshells": "on",
+      "dataset": "BrIccFO",
+      "calculate": "Calculate"
+    },
+    {
+      "atomic": "70",
+      "energy": "489.8",
+      "eerror": "0.1",
+      "multipole": "E2",
+      "delta": "",
+      "derror": "",
+      "subshells": "on",
+      "dataset": "BrIccFO",
+      "calculate": "Calculate"
+    }
+  ],
+  "model_role": "purecomponenttheoryreference toconstruct explicitlydefinedK/total predictions; neithermeasuredCC norindependenttheorytestofENSDFsameBrIcc",
+  "source_energy": "NNDCrecord164070001G489.8(1)",
+  "model_dataset": "FOonly; noAll/NHbatch/no newlocalbinaryexecution",
+  "source_hypotheses": {
+    "E2": "ST99stretchedpoint",
+    "M1_E2": "ST99ΔJ0point arctanδ=-21deg; useδ²; notnewfit/wholeδconfidencefamily"
+  },
+  "boundaries": [
+    "atomicinputZonly, noA164radiusinput; recorddefaultmass/radius fromsourceifavailable",
+    "captureversion/params/coveragewarnings andmissingcellsasunknown",
+    "do notreplaceN6missingbyzeroorinterpolateTotal",
+    "reportedtable1.4%alreadyincludesinterpolation, neveradd.3%again",
+    "noelectrongeometry/a/calibrationCov/response/electroncounts supplied",
+    "E0allowedin14to14counterhypothesis, noE0measuredorboundhere",
+    "producernoactualmetadatauniform1sigmaassumptionunlessexplicitlydeclared"
+  ],
+  "max_queries": 2,
+  "retry_policy": "onePOSTperpurecomponent, noautomaticretry; failurebody/echoaloneisnotnumericlookup"
+}

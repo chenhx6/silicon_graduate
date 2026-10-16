@@ -1,0 +1,141 @@
+[
+  {
+    "kind": "refs-ca44",
+    "at": "2026-10-17T05:10:40.176218+08:00",
+    "url": "https://www.nndc.bnl.gov/ensdf/getrefs.jsp",
+    "parameters": {
+      "recid": "164070003",
+      "dsid": "124SN(44CA,4NG)"
+    },
+    "status": 200,
+    "sha256": "8cc906e1be8421a36101bb3e043a2d6bd6676e95382f136c077645eed4f46aa4",
+    "excerpt": "References from selected dataset References quoted in the ENSDF dataset: 164YB 124SN(44CA,4NG) 15 references found. Clicking on a keynumber will list datasets\nthat reference the given article. Return to 124SN(44CA,4NG) 1972BO32 Yad.Fiz. 16, 633 (1972); Sov.J.Nucl.Phys. 16, 355 (1973) B.Bochev, S.A.Karamyan, T.Kutsarova, Y.Ukhrin, E.Nadzhakov, T.Venkova, R.Kalpakchieva Lifetimes of the Rotational Levels of Yb 164 Measured by the Doppler Effect in the Recoil Nuclei NUCLEAR REACTIONS 128 Te( 40 Ar, 4n); measured DSA. 164 Yb level deduced T 1/2 , B(E2). 1972BO61 Phys.Scr. 6, 243 (1972) B.Bochev, S.A.Karamian, T.Kutsarova, E.Nadjakov, T.Venkova, R.Kalpakchieva Lifetimes of Rotational States in 164 Yb and 162 Yb NUCLEAR REACTIONS 126,128 Te( 40 Ar, 4nγ); measured Doppler shift. 162,164 Yb levels deduced T 1/2 . 1976BO27 Nucl.Phys. A267, 344 (1976) B.Bochev, S.A.Karamian, T.Kutsarova, E.Nadjakov, Y.T.Oganessian The Feeding Times and Lifetimes of High-Spin Levels in Ytterbium Doubly Even Isoto"
+  },
+  {
+    "kind": "crossref-a164",
+    "at": "2026-10-17T05:10:40.176678+08:00",
+    "url": "https://api.crossref.org/works",
+    "parameters": {
+      "query.bibliographic": "Nuclear Data Sheets for A=164 Balraj Singh Jun Chen 2018 147 1",
+      "rows": 3
+    },
+    "status": 200,
+    "sha256": "12f28ce7a2336b9818a826fd8d313680f82462dc3fc76ffa55c8f045b3c9532f",
+    "matches": [
+      {
+        "DOI": "10.1016/j.nds.2018.01.001",
+        "title": [
+          "Nuclear Data Sheets for A=164"
+        ],
+        "author": [
+          {
+            "given": "Balraj",
+            "family": "Singh",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Jun",
+            "family": "Chen",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "year": {
+          "date-parts": [
+            [
+              2018,
+              1
+            ]
+          ]
+        },
+        "volume": "147",
+        "pages": "1-381"
+      },
+      {
+        "DOI": "10.1016/j.nds.2024.02.001",
+        "title": [
+          "In memory of Dr. Balraj Singh"
+        ],
+        "author": [
+          {
+            "given": "Vivian",
+            "family": "Dimitriou",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "year": {
+          "date-parts": [
+            [
+              2024,
+              4
+            ]
+          ]
+        },
+        "volume": "194",
+        "pages": "1-2"
+      },
+      {
+        "DOI": "10.1016/j.nds.2020.01.001",
+        "title": [
+          "Nuclear Data Sheets for A=98"
+        ],
+        "author": [
+          {
+            "given": "Jun",
+            "family": "Chen",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Balraj",
+            "family": "Singh",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "year": {
+          "date-parts": [
+            [
+              2020,
+              2
+            ]
+          ]
+        },
+        "volume": "164",
+        "pages": "1-477"
+      }
+    ]
+  }
+]

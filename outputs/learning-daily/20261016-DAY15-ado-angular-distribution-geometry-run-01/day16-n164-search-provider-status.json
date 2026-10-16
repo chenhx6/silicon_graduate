@@ -1,0 +1,11 @@
+{
+  "scholar": {
+    "first_status": "clientserverargumenttypemismatch",
+    "reason": "toolmetadata declaredyearstring butruntime expectednumber; optionalyearfiltersomittedforonecorrectedattempt",
+    "corrected_status": "toolreportedsearch_failed; noresults/bodyobtained",
+    "do_not_repeat_unchanged": true
+  },
+  "sciencedirect_node_provider": "ELSEVIER_API_KEY notconfigured; credentialsnotmodified",
+  "sciencedirect_academic_provider": "pybliometricsconfigabsent",
+  "entitlement": "notestablished; providerconfigurationisnotinstitutionalpermissiondecision"
+}

@@ -1,0 +1,42 @@
+[
+  {
+    "key": "1986JO02",
+    "text": "1986JO02 Nucl.Phys. A449, 537 (1986) S.Jonsson, N.Roy, H.Ryde, W.Walus, J.Kownacki, J.D.Garrett, G.B.Hagemann, B.Herskind, R.Bengtsson, S.Aberg Near-Yrast Spectroscopy of 164 Yb and Neighbouring Nuclei: Systematics of octupole bands and bandcrossings NUCLEAR STRUCTURE 164 Yb; calculated levels, octupole band structure, routhians; deduced two-quasineutron routhians, alignments and two-quasineutron residual interaction. Cranked-shell-model comaprison. Octupole-phonon plus rotor calculation of octupole bands. NUCLEAR REACTIONS 152 Sm( 16 O, 4n), 150 Sm( 18 O, 4n), E=81-84 MeV; measured γγ-coin, γ(θ). 164 Yb deduced levels, J, π, ICC, rotational band characteristics. Enriched targets, Ge(Li) detectors, Compton-suppressed Ge(Li) coincidence set-up, mini-orange spectrometer, Si(Li) detector. Cranked shell model calculations. doi: 10.1016/0375-9474(86)90234-4",
+    "links": [
+      "./DSfromRefServlet?kn=1986JO02&searchType=references",
+      "http://dx.doi.org/10.1016/0375-9474(86)90234-4"
+    ]
+  },
+  {
+    "key": "1995NO04",
+    "text": "1995NO04 Nucl.Phys. A591, 117 (1995) A.Nordlund, R.Bengtsson, P.Ekstrom, M.Bergstrom, A.Brockstedt, H.Carlsson, H.Ryde, Y.Sun, A.Atac, G.B.Hagemann, B.Herskind, H.J.Jensen, J.Jongman, S.Leoni, A.Maj, J.Nyberg, P.O.Tjom Probing the Limits of Complete Spectroscopy in 164 Yb NUCLEAR REACTIONS 152 Sm( 16 O, 4n), E=83.2 MeV; measured Eγ, Iγ, γγ-coin, γγ(θ). 164 Yb deduced levels, J, configurations, routhians, alignments. Cranked shell model calculations. Array of Compton-suppressed Ge-dectors. doi: 10.1016/0375-9474(95)00124-J",
+    "links": [
+      "./DSfromRefServlet?kn=1995NO04&searchType=references",
+      "http://dx.doi.org/10.1016/0375-9474(95)00124-J"
+    ]
+  },
+  {
+    "key": "1996NO12",
+    "text": "1996NO12 Nucl.Instrum.Methods Phys.Res. A368, 731 (1996) A.Nordlund Experience with Angular Correlations in Large Detector Arrays RADIOACTIVITY 164 Yb(EC); analyzed γγ(θ), DCO ratios data; deduced methods relative advantages, disadvantages. doi: 10.1016/0168-9002(95)00593-5",
+    "links": [
+      "./DSfromRefServlet?kn=1996NO12&searchType=references",
+      "http://dx.doi.org/10.1016/0168-9002(95)00593-5"
+    ]
+  },
+  {
+    "key": "1976BO27",
+    "text": "1976BO27 Nucl.Phys. A267, 344 (1976) B.Bochev, S.A.Karamian, T.Kutsarova, E.Nadjakov, Y.T.Oganessian The Feeding Times and Lifetimes of High-Spin Levels in Ytterbium Doubly Even Isotopes NUCLEAR REACTIONS 124,126,128,130 Te( 40 Ar, 4n), E=170-190 MeV; measured recoil distance Doppler-shift, Eγ. 160,162,164,166 Yb levels deduced T 1/2 , retardation factors in backbending region, Q, β, B(E2). Enriched targets. Ge(Li) detectors. doi: 10.1016/0375-9474(76)90665-5",
+    "links": [
+      "./DSfromRefServlet?kn=1976BO27&searchType=references",
+      "http://dx.doi.org/10.1016/0375-9474(76)90665-5"
+    ]
+  },
+  {
+    "key": "1996XI01",
+    "text": "1996XI01 Nucl.Phys. A599, 560 (1996) H.Xie, F.K.McGowan, C.Baktash, J.D.Garrett, J.H.Hamilton, N.R.Johnson, I.Y.Lee, J.C.Wells, R.Wyss, C.-H.Yu The Loss of Collectivity at High Spins in 164 Yb and Its Neighboring Even-Even Nuclei NUCLEAR REACTIONS 124 Sn( 44 Ca, 4n), E=189 MeV; measured Iγ, γγγ-coin spectra, Doppler broadened line-shape method. 164 Yb deduced high-spin states T 1/2 , transition quadrupole moments. NUCLEAR STRUCTURE 160,162,164,166,168 Yb; calculated potential energy surfaces; deduced deformation parameters β 2 β 4 , γ. Cranked-Strutinsky type calculations. doi: 10.1016/0375-9474(95)00446-7",
+    "links": [
+      "./DSfromRefServlet?kn=1996XI01&searchType=references",
+      "http://dx.doi.org/10.1016/0375-9474(95)00446-7"
+    ]
+  }
+]
