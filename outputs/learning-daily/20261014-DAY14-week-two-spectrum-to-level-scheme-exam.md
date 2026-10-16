@@ -69,6 +69,10 @@ Matev2007局部算符/表检验完成后，选择Riley2001公开作者实验报�
 
 第035批共同cone域问题完成后于09:35上海重建候选池，距离15:00仍约325分钟；继续现有Day15无学分路线。Krane/Olbrich原件及193Bi/Pr实际inputs缺口保持；选择本地已有Lauritsen2025的实际152Dy/source-response示例，信息增益是区分finite-angle近unity、能量角响应和quotedfit误差。先冻结[primed来源前回忆](20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/day15-tracking-response-before-sources.md)，没有打开Day16卡或以DCO/偏振另开专项。
 
+### 第037批：finite-J与参数合同
+
+036发布后09:56上海再核恰好Day15卡，研究距15:00仍约304分钟。actualresponse/code等缺口不原样重试；选择已核L25 Eq13/14的uniform/reference/large-J与sigma参数一致性，预期信息增益是防止把近似权重或同名参数直接迁移。[问题前primed记录](20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/day15-alignment-formula-before-analysis.md)与[量化前预测](20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/alignment-formula-before-calculation.md)已冻结，仍Day15无学分，不开Day16。
+
 ## Sources and evidence
 
 | 来源 / 身份 | 本轮实际覆盖与locator | 证据分层与独立性 |
@@ -167,6 +171,12 @@ Krane1972 DOI[10.1016/0029-554X(72)90099-7](https://doi.org/10.1016/0029-554X(72
 [[lauritsen-2025-gamma-angular-formalism-tracking-arrays]]原本地raw为25页manuscript（2372132bytes，SHA5ee6a654…），本轮取得[正式24页PDF](https://link.springer.com/content/pdf/10.1140/epja/s10050-025-01533-5.pdf)（2248094bytes，SHA0d89c27c…）并核HTML。Publisher首页/HTML、[Crossref](https://api.crossref.org/works/10.1140/epja/s10050-025-01533-5)及只读Bib均为EPJ A61,article76，故修正source旧81；原raw未替换，新PDF只放Wiki内tmp且不公开。新source L25-17–23 true；旧16个flag/人审事件保持，不把新核验写成人审。
 
 本次复核Intro/Sec3.1–3.2、Figures6–10、Eq18/19、Summary和AppB相关段；publisher关键页6/8视觉核验，不宣称重新认证24页全部公式或作者代码。Fig6/7的归一源角谱按能量插值/外推，作者明确另调variance；它不是已公布的完整迁移核。Fig8/9/10的captionχ²为35/21/142，正文明确A2/A4 fiterrors未全包含systematic fluctuations（L25-19/20）。AppB含isomertrigger及部分源数据阵列不同配置；data/code availability是reasonable request，未取得原events/response/Cov/code，也未联系作者（L25-23）。两PDF与同采集图表不重复计独立实验。
+
+### 第037批：字面式与独立定义
+
+L25 publisher PDF6/HTML的Eq13确为2σ分母，Eq14是S=J(J+1)下的二/四阶多项式；Ref39为Morinaga/Yamazaki1976专著，本轮raw文件名检索无match且未读对应书段，不把1967表或本任务推断当成该书原话（L25-24）。
+
+[[yamazaki-1967-aligned-angular-coefficients]] p1 Eq1/p2 Eqs6/10/11定义exact tensor、integer/half参考与明确2σ²的Gaussian；本轮hash复核、p2视觉核，新增YA67-13为true，旧12行和review不变。两种字面参数必须先映射；书中近似上下文/作者代码尚未得到。[原字面与Ref39](20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/lauritsen2025-alignment-literal-037.json)与[YA身份核验](20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/yamazaki-definition-verification-037.json)可核。无新采集或实验重复计权。
 
 ## Theory/analysis exercise
 
@@ -439,6 +449,14 @@ Eq19字面theta在Eq18后缺lab标记（PDF/HTML一致）。若把它当lab可�
 
 另选独立Poisson源counts与unit-sum归一/线性插值，用有理数核一阶Jacobian Cov。t=.5时Var(r0)=7/256000，简单线性插variance为7/128000；另选beamcounts时contrast方差保留Cov为123750、只留diagonal为99750。这不是作者未公开算法或真实152Dy误差；delta-method不保证有限计数coverage。
 
+### 第037批：58项finite-J/换基/参数核验
+
+[输入](20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/alignment-formula-contract-input.json)、[代码](../../system/scripts/day14_alignment_formula_contract.py)与[审计](20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/alignment-formula-contract-audit.json)验证多个spin逐m的CG与exact多项式一致。Canonical公式在[[angular-distribution]]“Finite-J张量权重与Gaussian参数：先做极限再转移”。
+
+字面q4的uniform均值为−7/(9S)，exact a4为0；J23与13/2分别−7/4968、−28/1755。其exact基底有rank4、rank2与constant分量；半整数参考归一也不同。自选2→2未观测E2保持uniform，q4原/child均−7/54，误按pureU4=2/7乘法却给−1/27。此限制有限J直接抄式/直接传播，不判定作者实际code。
+
+对整数J证明逐m差的统一界35/[3(S−2)]，q4与large-J主项相容；uniform残差小不保证任意布居/实际σ或δ误差小。另以明确chosen sigma/J=.3比较width与literalvariance合同，J23的exact(a2,a4)为(.743365,.393630)对(.962500,.880223)，J13/2为(.778940,.444096)对(.893751,.684153)。仅variance=width²时同布居；这不是152Dy/67Ga实测alpha、Fig8重拟合或CI。
+
 ## Counter-evidence and missing companion observables
 
 HE15-9的实际未定双线是核心反例：energy sum、共享R/A和假设的ΔI=2均不足以裁决order。若一条线出现可独立定位的旁路或延迟顺序，应重审中间level；source仍保留括号Jπ与(E2)。HE15-5的quadruplet限制“一个峰是一条γ”的简化；干净622.4直接分支门与323.4级联门的299-keVcomponent差异可能迫使拆峰，但必须控制622/626门纯度、feeding、response和random。
@@ -522,6 +540,12 @@ isotropicreference对各chosencone均只有Q0=1，所以相同scalar效率/归�
 高位置精度/finite-angle近unity与实际epsilon(E,theta)平坦是不同命题；isotropic baseline相除也不自动恢复angular migration的高rank。原Fig8–10自身的systematic声明、432上方stoppedline/mask、gate对m-population的改变及源/beam不同配置构成实际边界，不能以小括号误差补totalerror/完整Cov，或凭captionχ²猜ndf后乘sqrt(χ²)。
 
 原response归一常数/插值算法、lab/restenergy与measure、PSA/tracking/threshold/multiplicity匹配、trigger/门选择、angle migration和jointCov是必要companion。本文Data/Code Availability只给reasonable request；本任务未取到这些inputs，无actual refit/新σ/δ或机制判断。
+
+### 第037批：uniform、half-reference与feeding反例
+
+若按exact normalized tensor解释，uniform的k>0期望应0、reference应匹配m0或abs(m).5、pureU应作用在同rank。字面q4的uniform剩余和正feeding反例是三个必要检查的实际数学反证，不代表作者未公开implementation必然使用字面式。Large-J近似的误差须按真实population/辐射因子/响应/likelihood评估，不能用一个小uniform残差认证实际分析。
+
+Ref39原书对应段、code参数定义/约定与actualpopulation/data仍缺；新YA/L25比较不能作为Zobel table重新赋义、sourceσ移植或解释真实GRETINA systematics的依据。原PDF/HTML与旧review状态均保留。
 
 ## Knowledge Impact and Learning Decision
 
@@ -610,6 +634,10 @@ Decision: **revises** 共同卷积“自动保持数值sharp界”的省略条�
 ### 第036批后的认识决定
 
 Decision: **revises** article81/版本混读和“源谱相除=完整响应”的捷径；**supports** 把measure、能量、selection与Cov一起列为输入；**limits** 近unity、拟合曲线或quotedfit误差直接升级为totaluncertainty。Source-to-beam合同中有些量可由运动学核验，但不能填真实response/code缺口。正式21/24、completed14/partial15和officialstate保持，没有因为新publisher版本增加独立实验计数。
+
+### 第037批后的认识决定
+
+Decision: **revises** “打印多项式必为exact tensor、同sigma/J必为同prior”的快捷读法；**supports** uniform/参考/absentrank/large-J极限及换基后再传播；**limits** 数学自审直接升级为作者code错误/官方erratum或实验σ/δ修订。没有改变正式21/24、completed14/partial15、课程state或核结构模式排序。
 
 ## Durable knowledge delta
 
@@ -3624,6 +3652,75 @@ Decision: **revises** article81/版本混读和“源谱相除=完整响应”�
           "locator": "L25-23"
         }
       ]
+    },
+    {
+      "knowledge": "knowledge/sources/lauritsen-2025-gamma-angular-formalism-tracking-arrays.md",
+      "summary": "保存Eq13/14字面、1976书Ref39范围与本任务finite-J/换基/large-J/Gaussian合同推导；不判作者actualcode或重拟sigma/delta。",
+      "anchor": "DAY14 finite-J attenuation与Gaussian参数合同",
+      "sources": [
+        {
+          "path": "knowledge/sources/lauritsen-2025-gamma-angular-formalism-tracking-arrays.md",
+          "locator": "L25-24"
+        },
+        {
+          "path": "knowledge/sources/lauritsen-2025-gamma-angular-formalism-tracking-arrays.md",
+          "locator": "L25-25"
+        },
+        {
+          "path": "knowledge/sources/lauritsen-2025-gamma-angular-formalism-tracking-arrays.md",
+          "locator": "L25-26"
+        },
+        {
+          "path": "knowledge/sources/lauritsen-2025-gamma-angular-formalism-tracking-arrays.md",
+          "locator": "L25-27"
+        },
+        {
+          "path": "knowledge/sources/lauritsen-2025-gamma-angular-formalism-tracking-arrays.md",
+          "locator": "L25-28"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/sources/yamazaki-1967-aligned-angular-coefficients.md",
+      "summary": "回核Eq1/6/10参考张量及Eq11的2sigma²，建立与L25字面参数的精确映射边界，旧review/表行保持。",
+      "anchor": "Gaussian指数与finite-J定义的补核",
+      "sources": [
+        {
+          "path": "knowledge/sources/yamazaki-1967-aligned-angular-coefficients.md",
+          "locator": "YA67-13"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/methods/angular-distribution.md",
+      "summary": "推导finite-J权重/低rank混合、uniform/reference/正feeding反例、整数large-J一致界和width/variance参数合同；无actualfit。",
+      "anchor": "Finite-J张量权重与Gaussian参数：先做极限再转移",
+      "sources": [
+        {
+          "path": "knowledge/sources/lauritsen-2025-gamma-angular-formalism-tracking-arrays.md",
+          "locator": "L25-24"
+        },
+        {
+          "path": "knowledge/sources/lauritsen-2025-gamma-angular-formalism-tracking-arrays.md",
+          "locator": "L25-25"
+        },
+        {
+          "path": "knowledge/sources/lauritsen-2025-gamma-angular-formalism-tracking-arrays.md",
+          "locator": "L25-26"
+        },
+        {
+          "path": "knowledge/sources/lauritsen-2025-gamma-angular-formalism-tracking-arrays.md",
+          "locator": "L25-27"
+        },
+        {
+          "path": "knowledge/sources/lauritsen-2025-gamma-angular-formalism-tracking-arrays.md",
+          "locator": "L25-28"
+        },
+        {
+          "path": "knowledge/sources/yamazaki-1967-aligned-angular-coefficients.md",
+          "locator": "YA67-13"
+        }
+      ]
     }
   ]
 }
@@ -3768,6 +3865,8 @@ Danko99primary合法OA/publicPDF/官方API/repo均未提供正文（403HTML/401J
 
 第036批修订`knowledge/sources/lauritsen-2025-gamma-angular-formalism-tracking-arrays.md`的article76/版本身份，并新增L25-17–23（publisher PDF1、6–9、19–20及HTML公式等精确locators）；在`knowledge/methods/angular-distribution.md`保存“Tracking响应：源到在束的measure、能量与Cov合同”，包含光子Jacobian/991条件能量表、自选归一插值Cov及实际反证/readiness。原raw/旧review不变，新数学控制非原作者重放或实验结果。
 
+第037批在`knowledge/sources/lauritsen-2025-gamma-angular-formalism-tracking-arrays.md`新增L25-24–28与“DAY14 finite-J attenuation与Gaussian参数合同”，在`knowledge/sources/yamazaki-1967-aligned-angular-coefficients.md`新增YA67-13及精确Gaussian字面/参考定位；在`knowledge/methods/angular-distribution.md`保存“Finite-J张量权重与Gaussian参数：先做极限再转移”的换基式、large-J界、正feeding和Gaussian合同例。所有数值区分作者字面/一般定义/本任务推导，原raw/人审/旧flags不改。
+
 ## Open questions and belief revision
 
 1. 哪个旁路、time/tag或独立spin anchor能裁决393/394的顺序？重复同一能量和不能裁决。
@@ -3783,6 +3882,8 @@ Danko99primary合法OA/publicPDF/官方API/repo均未提供正文（403HTML/401J
 
 第036批新增：在可得到真实sorter/response/原谱后，如何验证rest/labenergy轴、单源归一/插值、trigger/角mask与jointCov的一致性？publisher的式标记不能反推作者代码；“reasonable request”不是已经取得data。canonical方法页保留此路线，不转成用户待办。
 
+第037批下一证据缺口是Ref39书中对应近似声明、作者实际Gaussian参数/完整angular代码，以及这些定义如何进入实际response/fit。已经证明的finite-J恒等与参数映射保存在canonical，不以未得代码推定实际错误；后续路线仍在当前问题/恰好Day15预习内。
+
 ## L0–L4 state
 
 最新moment放宽与图仍为L2 source-conditioned分析；fullbranch/转换/response/Cov不全，真实167Tm experimental refit仍not-ready，不以高精度计算冒充L4或新实测分支。
@@ -3797,6 +3898,8 @@ Danko99primary合法OA/publicPDF/官方API/repo均未提供正文（403HTML/401J
 第035批为L2一般理论/精确概率核设计。两Kranebody未取得，无新L0全文完成声明、实际响应校正或experimental L4。formal成绩与Day15无学分状态保持。
 
 第036批为L1直接版本/response段核查与L2 source-to-beam合同。Published24页只核相关段，旧25页raw全读记录不混用；29checks为声明运动学/一阶统计，不是experimentalL4。正式14成绩和Day15无学分状态保持。
+
+第037批为L1字面/原定义核验与L2数学一致性审计，58checks不等于experimentalL4或新的σ/δ。三页canonical旧review/flags保持，Formal14与Day15无信用状态不变。
 
 ## Verification and continuation
 
@@ -4064,3 +4167,9 @@ report/card/writeback valid，唯一block120items/39changed knowledge页。新IO
 本批29项光子/sourcehash/measure/归一/自选一阶Cov检查实际exit0；report/card/writeback valid，唯一block124items/40changedknowledge页。原source16条旧行/flags与人审保持，仅明确修正日期/article号81→76；新17–23true。rawmetadata/PLAN/Bib、两PDF哈希、输入哈希/AST和state next14/count13均通过。`wiki_lint.py --fail-on error`实际exit0，0errors/141warnings（112citekeys/26rawslots/3reactionparser）；`git diff --check`、boundary和preflight实际exit0。EOL脚本exit1保留本批两页substantive，0restore/unsafe；不将其当科学审核。
 
 Farmer于09:51上海核watcher42019/currentthreadrunning，未新session/goal或重启daily scheduler。Stablepointer main / `Audit DAY14 tracking response and published source version`；actualH3/hash/push只publication-036.json。当前仍active，研究2026-10-16 15:00上海止、16:00交付；下一先clock/pool选择能改变输入或判决的current/Day15preview路线，不能以本批/卡完成提前closeout。保留继承dirty/raw/PLAN/Bib/review，只显式manifest/H3非force发布。
+
+### 第037批验收与续接
+
+58项finite-J/CG/换基/极限/正feeding/参数合同检查实际exit0；report/card/writeback valid，唯一block127items/40changedknowledge页。L25旧23行/YA旧12行与flags逐行保持，新24–28/13 true、人审不扩展；rawmetadata/PLAN/Bib/source/helper/input/literal哈希、AST与state14/count13均通过。`wiki_lint.py --fail-on error`实际exit0，0errors/141warnings（112citekeys/26rawslots/3reactionparser），`git diff --check`、boundary/preflight exit0。EOLexit1只保留3页本批substantive，0restore/unsafe。
+
+Farmer42019于10:13上海核running/currentthreadrunning，未新session/goal或重启daily scheduler。Stablepointer main / `Audit DAY14 finite-spin alignment and Gaussian parameter contracts`；actualH3/hash/push只publication-037.json。仍active，研究2026-10-16 15:00止、16:00交付；下一先clock/重建池，继续高信息current或恰好Day15无信用路线，本批局部完成不结束窗口。原raw/PLAN/Bib/旧review与继承dirty保持，显式manifest/H3非force发布。

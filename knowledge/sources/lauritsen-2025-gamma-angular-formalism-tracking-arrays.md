@@ -79,6 +79,11 @@ For the current project, the most important section is Sec.3.1: the angular-dist
 | L25-21 | 本例角覆盖约70–175°、3°bin；432上方stoppedline使其只用接近/高于90°数据。Sec3.1明确额外符合选择在非4π阵列可改m-population，Eqs6–19可能需修改；source-response除法不认证相同selection/alignment。 | selection-support-and-population-boundary | direct-and-derived | publisher PDF7 paragraph before Sec3.2; publisher PDF8 Sec3.2; publisher PDF9 Fig10 | true |
 | L25-22 | Eq18将theta定义为CM、theta_lab为lab，而紧接Eq19分母仍字面cos(theta)，HTML/两版PDF一致。本任务从Eq18独立推得光子数Jacobian应为(1−beta²)/(1−beta*x)²、x=cos(theta_lab)；若Eq19字面用CM变量会有条件差异。未取得作者code，保留原标记，不称官方erratum或已知实际fit错误。 | printed-frame-marker-and-independent-derivation | direct-and-derived | publisher PDF6 Eqs18–19; publisher HTML Equ18/Equ19; manuscript PDF7 Eqs18–19 | true |
 | L25-23 | AppB1是2022 exp1909、47crystal的152Dy数据，含17+60ns isomer下方gamma trigger；B2说部分源数据阵列配置不同。publisher Data/Code Availability仅给reasonable request，没有本任务可下载的events/response/Cov/code；稿件/期刊与其图表不重复计实验。 | acquisition-lineage-and-data-readiness | direct-and-derived | publisher PDF20 Appendix B1–B2; publisher PDF19 Data/Code Availability | true |
+| L25-24 | publisherPDF/HTML Eq13字面为exp[−m²/(2σ)]，Eq14字面为1−3m²/S及1−10m²/S+35m4/(3S²)，S=J(J+1)。Ref39是Morinaga/Yamazaki1976专著，非1967表；未取该书原近似上下文/作者code，保留字面与两种参数合同。 | literal-formula-and-cited-source-scope | direct | publisher PDF6 Eqs13–14; publisher HTML Equ13/Equ14; References39 | true |
+| L25-25 | 以Eq10/12和YA67归一张量作exact finite-J解释时，uniform population的true k>0 tensor为0，而Eq14字面第四阶平均为−7/(9S)。J23为−7/4968，J13/2为−28/1755；半整数complete-alignment参考也不为字面两权重同时1。本任务独立CG/多项式核验，不指认作者实际程序。 | our-finite-J-limit-audit | derived | publisher PDF6 Eqs10/12/14; YA67 PDF1 Eq1 and PDF2 Eqs6/10 | true |
+| L25-26 | 字面第四阶可写A*a4+B*a2−7/(9S)，a是相同mref归一的exact权重。它在finiteJ含低rank分量，未换基不能直接照pure-U4传播；自选2→2未观测E2的uniform例给原/child均−7/54，而pureU4乘法给−1/27。 | our-basis-and-feeding-consistency-control | derived | publisher PDF6 Eqs14–16; YA67 PDF3 Eqs12–15 | true |
+| L25-27 | 对整数J，本任务证明字面与exact第四阶逐m差为35m²(2m²−S)/[3S²(S−2)]，绝对值≤35/[3(S−2)]，故可视为large-J主项而非exact finite-J恒等式。该数学极限不证明实际σ/δ偏差可忽略或作者明确作此近似。 | our-large-J-scope-boundary | derived | publisher PDF6 Eq14; YA67 PDF1 Eq1 | true |
+| L25-28 | Gaussian width合同W用exp[−m²/(2s²)]，literal variance合同V用exp[−m²/(2v)]，仅v=s²时同布居。两者同标sigma/J=.3的示例会不同；J23时literal v/J=.3等效width/J≈.114208，不是.3。未重拟Fig8/恢复actualσ；旧flags/humanreview不扩展。 | our-parameter-contract-not-fit | derived | publisher PDF6 Eq13 and text sigma/J; YA67 PDF2 Eq11 | true |
 
 ## Nuclear Structure Information
 
@@ -123,3 +128,11 @@ DOI[10.1140/epja/s10050-025-01533-5](https://doi.org/10.1140/epja/s10050-025-015
 本任务的[[angular-distribution]]“Tracking响应：源到在束的measure、能量与Cov合同”由Eq18独立推导dOmega_CM/dOmega_lab，再对source beta=.027、991-keV能量和声明collinear固定速度作条件表；另用明确自选计数/归一/插值验证一阶Cov合同。29checks只是本任务数学/输入检查，非原GRETINA response重放或新实测σ/δ。Eq19字面CM代入给出的归一/0.146%差别是条件反例，不能据此解释原systematics或指认作者程序错误。
 
 Agent self-audit：metadata81→76已由直接publisher与Crossref/Bib处置；新L25-17–23 true，旧L25-1–16全部flag和页面既有人审事件保持，不扩展为新内容human-reviewed。实际responseaxis/单源归一常数/插值算法、原角fit Cov、trigger/selection与moving-source传递未恢复，scientific P1/readiness保留。没有向作者发送数据/code请求。Decision: **revises** article号和版本误读；**supports** 独立source response校准；**limits** near-unity几何、漂亮曲线或quotedfit误差代替完整响应/不确定度。
+
+## DAY14 finite-J attenuation与Gaussian参数合同
+
+本段核publisher PDF6 Eqs10、12–16及HTML同号公式，不改原件。Ref39实际为H.Morinaga/T.Yamazaki, *In-Beam Gamma-Ray Spectroscopy* (North-Holland,1976)，本轮raw文件名检索无match，未读该书对应段，不能把本任务的large-J解释写成该书原话。[[yamazaki-1967-aligned-angular-coefficients]] YA67-13另核Eq1/6/10的精确张量/参考与Eq11明确的2σ²；两来源提供定义对照，不形成新独立实验。
+
+58-check独立CG finite-sum与多项式逐m比较：Eq14字面第四阶在uniform布居下不是0，并可精确分解为rank4/rank2/constant；半整数mref=.5的归一也需显式处理。证明整数J下与精确权重的差有O(1/S)一致界，所以“与large-J主项相容”和“finite-J exact tensor”须分开。不能未换基就把字面组合当pureU4作用的张量。
+
+[[angular-distribution]]“Finite-J张量权重与Gaussian参数：先做极限再转移”保存公式、source/J23/13/2的条件数值、uniform与feeding反例。相同sigma/J数值在width/variance合同下不同，但没有原code/Ref39近似说明时，不倒推作者实际用了哪个合同、补σ/δ、解释原Fig8systematics或更改Zobel表列。L25-24–28 true，旧1–23原文/flags和legacyhumanreview保持；属于L2公式自审，非officialerratum或experimental refit。Decision: **limits** 直接抄式为精确finite-J定义；**supports** 定义/参考/参数重映射和极限检查。

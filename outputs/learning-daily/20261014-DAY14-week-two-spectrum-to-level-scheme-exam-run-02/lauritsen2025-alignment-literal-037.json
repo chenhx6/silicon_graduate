@@ -1,0 +1,11 @@
+{
+  "Equ10": "$$\\begin{aligned}  &   B_k(J)=(2J+1)^{1/2} (-1)^J C(J,0,J,0 | k,0) \\nonumber \\\\  &   B_k(J)=(2J+1)^{1/2} (-1)^{J-\\frac{1}{2}} C(J,\\frac{1}{2},J, -\\frac{1}{2}| k,0), \\end{aligned}$$ (10)",
+  "Equ12": "$$\\begin{aligned} \\alpha _k(J) = \\sum _m \\alpha _k^{(m)}(J) P(m)(J), \\end{aligned}$$ (12)",
+  "Equ13": "$$\\begin{aligned} P_m(J)=\\frac{e^{-\\frac{m^2}{2\\sigma }}}{\\displaystyle \\sum \\nolimits _{m^{\\prime }=-J}^{+J}e^{-\\frac{m^{\\prime 2}}{2\\sigma }}} \\end{aligned}$$ (13)",
+  "Equ14": "$$\\begin{aligned}  &   \\alpha _2^{(m)}(J) = 1-\\frac{3m^2}{J(J+1)} \\nonumber \\\\  &   \\alpha _4^{(m)}(J) = 1-10\\frac{m^2}{J(J+1)}+\\frac{35}{3}\\frac{m^4}{J^2(J+1)^2} \\end{aligned}$$ (14)",
+  "Equ15": "$$\\begin{aligned} \\alpha _k(I_f)= U_k(I_i L_1 L_1^{\\prime } I_f) \\frac{B_k(I_i)}{B_k(I_f)} \\alpha _k(I_i) \\end{aligned}$$ (15)",
+  "CR39": null,
+  "Ref39": "H. Morinaga, T. Yamazaki, In-Beam Gamma-Ray Spectroscopy (North-Holland Publishing Company, Amsterdam, 1976)",
+  "Ref40": "H. Olliver, T. Glasmacher, A.E. Stuchbery, Phys. Rev. C 69 , 024301 (2004)",
+  "Ref41": "A.E. Stuchbery, A.D. Davies, P.F. Mantica, P.M. Davidson, A.N. Wilson, A. Becerril, B.A. Brown, C.M. Campbell, J.M. Cook, D.C. Dinca, A. Gade, S.N. Liddick, T.J. Mertzimekis, W.F. Mueller, J.R. Terry, B.E. Tomlin, K. Yoneda, H. Zwahlen, Phys. Rev. C 74 , 054307 (2006)"
+}

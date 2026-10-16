@@ -506,3 +506,51 @@ L25-20的Figs8/9/10给χ²35/21/142，正文明确A2/A4 fiterrors未完全包含
 [29-check代码](../../system/scripts/day14_tracking_response_contract.py)、[声明输入](../../outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/tracking-response-contract-input.json)与[结果](../../outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/tracking-response-contract-audit.json)核sourcehash、光子boost/导数/measure/归一与自选Cov。真实校正还需lab/rest axes、PSA/tracking cuts与multiplicity、source位置/阵列配置、原谱归一/插值/外推算法、共同Cov和angle migration；无输入时不恢复σ/δ/actualQ或宣称experimental L4。
 
 Decision: **revises** “source比值就是完整响应”的读法；**supports** 将定义、measure、能量、selection与Cov一起记录；**limits** 以旧人审、nearunity或小括号误差替代实际source-to-beam核验。FormalDay14 21/24、completed14/partial15和review状态不变。
+
+## Finite-J张量权重与Gaussian参数：先做极限再转移
+
+[[lauritsen-2025-gamma-angular-formalism-tracking-arrays]] L25-24–28记录publisher PDF6/HTML的Eq13/14字面。其Ref39是Morinaga/Yamazaki1976专著，当前对应段未读；[[yamazaki-1967-aligned-angular-coefficients]] YA67-13则是1967表的精确CG/complete-alignment与Gaussian定义。这是DAY14内Day15无学分的L2一致性审计，不是原作者code/实际σ或δ重放。
+
+### 精确权重、参考与字面多项式
+
+沿本页正布居矩域的定义，S=J(J+1)、h=0（整数）或1/2（半整数），`T2=3m²−S`，`T4=35m4−(30S−25)m²+3S²−6S`。对存在的rank且T_k(h)非零，精确normalized权重为`a_k(m)=T_k(m)/T_k(h)`；uniform m布居给a2/a4平均0。58-check中的多个整数/半整数spin逐m与独立CG有限和相等；rank不存在时不作除法。alpha是相对参考张量，不是概率，不能先强制0–1。
+
+L25 Eq14字面写`q2=1−3m²/S`、`q4=1−10m²/S+35m4/(3S²)`。本任务精确代数给
+
+`q2=[(S−3h²)/S] a2`，
+
+`q4=[T4(h)/(3S²)] a4 + [25(S−3h²)/(9S²)] a2 − 7/(9S)`。
+
+所以q4在finiteJ含rank0/2成分，若按该source的exact α=p/B解释，不是纯rank4。uniform平均为−7/(9S)，不是0。若在近似或其它定义中使用，需要显式换基/适用条件；原书近似背景与actualcode尚未知。
+
+| J / 参考 | uniform字面q4 | exact uniform a4 | 字面参考(q2,q4) |
+| --- | --- | --- | --- |
+| 2 / m0 | −7/54 | 0 | (1,1) |
+| 5/2 / abs(m)=1/2 | −4/45 | 0 | (32/35,76/105) |
+| 13/2 / abs(m)=1/2 | −28/1755 | 0 | (64/65,21652/22815) |
+| 23 / m0 | −7/4968 | 0 | (1,1) |
+
+### 转移与large-J边界
+
+真正的未观测feeding对tensor各rank用U_k，对normalized alpha再含B_parent/B_child。自选同spin2→2 pureE2使B比为1，U4=2/7；uniform state经正kernel仍uniform。其字面q4原/child均−7/54，直接乘pureU4却为−1/27。这个反例要求按上式连同a2/constant换基传播，不意味着物理channel混合了不可约rank，也不表明作者实际程序做了该错用。
+
+对整数J≥2，`a4−q4=35m²(2m²−S)/[3S²(S−2)]`，绝对值统一不超过`35/[3(S−2)]`。因此q4是large-J主项；uniform残差很小也不自动表示任意population/混合比拟合影响很小。J23的最大逐m差为161/8640≈.01863，大于uniform残差约.001409；需要实际布居/辐射系数/响应及likelihood才能传到实际σ/δ误差。
+
+### Gaussian的width和variance合同
+
+YA67 Eq11明确`P_W(m)∝exp[−m²/(2s²)]`；L25 Eq13字面对应`P_V(m)∝exp[−m²/(2v)]`。若v=s²，两者是同一分布的重参数化；如果把同样的数值sigma/J直接传给两式，则是不同模型。参数width/J不等于有限m截断后的实测RMS/J，也不能由名词variance倒推作者code。
+
+自选标签.3（数值取自caption但用法未从code恢复）得到以下精确张量的条件比较：
+
+| J | width合同s/J=.3的(a2,a4) | literal variance合同v/J=.3的(a2,a4) | 后者等效width参数/J |
+| --- | --- | --- | --- |
+| 13/2 | (.778939752,.444095877) | (.893751079,.684153476) | .214834462 |
+| 23 | (.743364756,.393629974) | (.962500000,.880223485) | .114208048 |
+
+表中都是声明Gaussian的计算，不是152Dy或67Ga测得的alpha/σ，也没有用publishedfit errors选模型或生成CI。Gaussian单参先验本身的适用性、反应/feeding与source表列定义仍须各自核验；不能据相近数字将不同来源参数或Zobel正布居边界重新解释。
+
+### 可复算判断与缺失输入
+
+[58-check程序](../../system/scripts/day14_alignment_formula_contract.py)、[冻结输入](../../outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/alignment-formula-contract-input.json)和[审计](../../outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/alignment-formula-contract-audit.json)保存source/helper哈希、逐spin残差/参考/换基、正feeding反例、large-J一致界及两种Gaussian参数。所有原PDF/HTML字面保留；Ref39对应书段与作者implementation未得。
+
+Decision: **revises** 将打印多项式或同名sigma直接当exacttensor/相同prior的读法；**supports** 先做uniform/参考/absentrank/large-J极限，再用同一规范传播；**limits** 由这些控制判定作者code、解释其真实systematics或重拟实验。Formal14 21/24和completed14/partial15保持，新claims needs_review，旧review事件不扩展。

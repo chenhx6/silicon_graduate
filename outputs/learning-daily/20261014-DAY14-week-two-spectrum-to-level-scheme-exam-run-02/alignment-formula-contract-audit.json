@@ -1,0 +1,288 @@
+{
+  "kind": "literal formula versus exact finite-J tensor and declared Gaussian parameter contracts",
+  "checks": {
+    "publisher_pdf_hash": true,
+    "YA67_definition_hash": true,
+    "literal_Gaussian_denominator_sigma_not_sigma_squared": true,
+    "polynomial_matches_independent_CG_J4_rank2": true,
+    "polynomial_matches_independent_CG_J4_rank4": true,
+    "exact_uniform_tensors_zero_J4": true,
+    "printed_uniform_residual_J4": true,
+    "rank4_rank2_rank0_basis_identity_J4": true,
+    "reference_convention_J4": true,
+    "polynomial_matches_independent_CG_J5_rank2": true,
+    "polynomial_matches_independent_CG_J5_rank4": true,
+    "exact_uniform_tensors_zero_J5": true,
+    "printed_uniform_residual_J5": true,
+    "rank4_rank2_rank0_basis_identity_J5": true,
+    "reference_convention_J5": true,
+    "polynomial_matches_independent_CG_J6_rank2": true,
+    "polynomial_matches_independent_CG_J6_rank4": true,
+    "exact_uniform_tensors_zero_J6": true,
+    "printed_uniform_residual_J6": true,
+    "rank4_rank2_rank0_basis_identity_J6": true,
+    "reference_convention_J6": true,
+    "polynomial_matches_independent_CG_J13_rank2": true,
+    "polynomial_matches_independent_CG_J13_rank4": true,
+    "exact_uniform_tensors_zero_J13": true,
+    "printed_uniform_residual_J13": true,
+    "rank4_rank2_rank0_basis_identity_J13": true,
+    "reference_convention_J13": true,
+    "polynomial_matches_independent_CG_J17_rank2": true,
+    "polynomial_matches_independent_CG_J17_rank4": true,
+    "exact_uniform_tensors_zero_J17": true,
+    "printed_uniform_residual_J17": true,
+    "rank4_rank2_rank0_basis_identity_J17": true,
+    "reference_convention_J17": true,
+    "polynomial_matches_independent_CG_J46_rank2": true,
+    "polynomial_matches_independent_CG_J46_rank4": true,
+    "exact_uniform_tensors_zero_J46": true,
+    "printed_uniform_residual_J46": true,
+    "rank4_rank2_rank0_basis_identity_J46": true,
+    "reference_convention_J46": true,
+    "positive_unobserved_channel_preserves_uniform_state": true,
+    "printed_rank4_not_pure_U4_without_change_of_basis": true,
+    "integer_uniform_pointwise_O_inverse_S_bound_J20": true,
+    "integer_exact_difference_identity_J20": true,
+    "integer_uniform_pointwise_O_inverse_S_bound_J40": true,
+    "integer_exact_difference_identity_J40": true,
+    "integer_uniform_pointwise_O_inverse_S_bound_J80": true,
+    "integer_exact_difference_identity_J80": true,
+    "integer_uniform_pointwise_O_inverse_S_bound_J160": true,
+    "integer_exact_difference_identity_J160": true,
+    "large_J_difference_decreases_on_declared_sequence": true,
+    "variance_equals_width_squared_mapping_J13": true,
+    "same_numeric_label_different_population_J13": true,
+    "chosen_Gaussians_positive_normalized_J13": true,
+    "variance_equals_width_squared_mapping_J46": true,
+    "same_numeric_label_different_population_J46": true,
+    "chosen_Gaussians_positive_normalized_J46": true,
+    "absent_rank_not_divided": true,
+    "author_code_and_experimental_fit_not_invented": true
+  },
+  "check_count": 58,
+  "passed": true,
+  "inputs": {
+    "kind": "literal finite-J and Gaussian parameter contracts; no authorcode replay",
+    "publisher_pdf": {
+      "path": "tmp/day14-20261014/lauritsen2025/publisher-pdf.pdf",
+      "sha256": "0d89c27c0a354b1b215f8a9196142f76bd873fe9335d64ca6318f0f303422099"
+    },
+    "YA67_definition": {
+      "path": "raw/papers/gpt/high-spin-20260920/multipolarity/angular distribution/ADO/1967_Yamazaki_Tables of coefficients for angular distribution of gamma rays from aligned.pdf",
+      "sha256": "e807782c580a0313ee3763f56df1dd424e5c97925d70e3d30a79a8b534c81f70"
+    },
+    "literal_record": "lauritsen2025-alignment-literal-037.json",
+    "literal_source_locators": [
+      "publisher PDF6 Eq10",
+      "publisher PDF6 Eq12",
+      "publisher PDF6 Eq13",
+      "publisher PDF6 Eq14",
+      "publisher PDF6 Eq15"
+    ],
+    "chosen_spin_twice": [
+      4,
+      5,
+      6,
+      13,
+      17,
+      46
+    ],
+    "chosen_large_integer_J": [
+      20,
+      40,
+      80,
+      160
+    ],
+    "chosen_gaussian_spin_twice": [
+      13,
+      46
+    ],
+    "chosen_same_label_ratio": ".3",
+    "Ref39_identity": "Morinaga and Yamazaki, In-Beam Gamma-Ray Spectroscopy, 1976",
+    "Ref39_body_read": false,
+    "author_implementation": null,
+    "actual_sigma_or_delta_fit": null,
+    "actual_response_covariance": null
+  },
+  "finite_spin_rows": [
+    {
+      "spin_twice": 4,
+      "uniform_exact_alpha2": "0",
+      "uniform_exact_alpha4": "0",
+      "uniform_printed_alpha4": "-7/54",
+      "printed_reference_alpha2": "1",
+      "printed_reference_alpha4": "1",
+      "printed_rank4_basis": {
+        "rank4": "2/3",
+        "rank2": "25/54",
+        "rank0": "-7/54"
+      },
+      "max_pointwise_rank4_difference": "35/54"
+    },
+    {
+      "spin_twice": 5,
+      "uniform_exact_alpha2": "0",
+      "uniform_exact_alpha4": "0",
+      "uniform_printed_alpha4": "-4/45",
+      "printed_reference_alpha2": "32/35",
+      "printed_reference_alpha4": "76/105",
+      "printed_rank4_basis": {
+        "rank4": "128/245",
+        "rank2": "128/441",
+        "rank0": "-4/45"
+      },
+      "max_pointwise_rank4_difference": "7/10"
+    },
+    {
+      "spin_twice": 6,
+      "uniform_exact_alpha2": "0",
+      "uniform_exact_alpha4": "0",
+      "uniform_printed_alpha4": "-7/108",
+      "printed_reference_alpha2": "1",
+      "printed_reference_alpha4": "1",
+      "printed_rank4_basis": {
+        "rank4": "5/6",
+        "rank2": "25/108",
+        "rank0": "-7/108"
+      },
+      "max_pointwise_rank4_difference": "7/16"
+    },
+    {
+      "spin_twice": 13,
+      "uniform_exact_alpha2": "0",
+      "uniform_exact_alpha4": "0",
+      "uniform_printed_alpha4": "-28/1755",
+      "printed_reference_alpha2": "64/65",
+      "printed_reference_alpha4": "21652/22815",
+      "printed_rank4_basis": {
+        "rank4": "768/845",
+        "rank2": "256/4563",
+        "rank0": "-28/1755"
+      },
+      "max_pointwise_rank4_difference": "41/180"
+    },
+    {
+      "spin_twice": 17,
+      "uniform_exact_alpha2": "0",
+      "uniform_exact_alpha4": "0",
+      "uniform_printed_alpha4": "-28/2907",
+      "printed_reference_alpha2": "320/323",
+      "printed_reference_alpha4": "303332/312987",
+      "printed_rank4_basis": {
+        "rank4": "98560/104329",
+        "rank2": "32000/938961",
+        "rank0": "-28/2907"
+      },
+      "max_pointwise_rank4_difference": "1823/11913"
+    },
+    {
+      "spin_twice": 46,
+      "uniform_exact_alpha2": "0",
+      "uniform_exact_alpha4": "0",
+      "uniform_printed_alpha4": "-7/4968",
+      "printed_reference_alpha2": "1",
+      "printed_reference_alpha4": "1",
+      "printed_rank4_basis": {
+        "rank4": "275/276",
+        "rank2": "25/4968",
+        "rank0": "-7/4968"
+      },
+      "max_pointwise_rank4_difference": "161/8640"
+    }
+  ],
+  "large_integer_J": [
+    {
+      "J": 20,
+      "S": "420",
+      "maximum_difference": "50/2079",
+      "bound": "35/1254"
+    },
+    {
+      "J": 40,
+      "S": "1640",
+      "maximum_difference": "100/15129",
+      "bound": "5/702"
+    },
+    {
+      "J": 80,
+      "S": "6480",
+      "maximum_difference": "1400/807003",
+      "bound": "35/19434"
+    },
+    {
+      "J": 160,
+      "S": "25760",
+      "maximum_difference": "400/899829",
+      "bound": "35/77274"
+    }
+  ],
+  "chosen_Gaussian_contracts": [
+    {
+      "spin_twice": 13,
+      "same_numeric_label": 0.3,
+      "width_parameter": 1.95,
+      "literal_variance_parameter": 1.95,
+      "literal_equivalent_width_over_J": 0.21483446221182986,
+      "remapped_variance_parameter": 3.8024999999999998,
+      "width_contract_exact_alpha": {
+        "2": 0.7789397518030394,
+        "4": 0.4440958768305212
+      },
+      "literal_variance_contract_exact_alpha": {
+        "2": 0.893751079071578,
+        "4": 0.6841534762077535
+      },
+      "width_contract_printed_alpha": {
+        "2": 0.7669560633137619,
+        "4": 0.431374752762024
+      },
+      "literal_variance_contract_printed_alpha": {
+        "2": 0.8800010624704768,
+        "4": 0.6559985914466621
+      }
+    },
+    {
+      "spin_twice": 46,
+      "same_numeric_label": 0.3,
+      "width_parameter": 6.8999999999999995,
+      "literal_variance_parameter": 6.8999999999999995,
+      "literal_equivalent_width_over_J": 0.11420804814403215,
+      "remapped_variance_parameter": 47.60999999999999,
+      "width_contract_exact_alpha": {
+        "2": 0.7433647562752984,
+        "4": 0.39362997443805414
+      },
+      "literal_variance_contract_exact_alpha": {
+        "2": 0.9625,
+        "4": 0.8802234848484849
+      },
+      "width_contract_printed_alpha": {
+        "2": 0.7433647562752984,
+        "4": 0.39453552584042884
+      },
+      "literal_variance_contract_printed_alpha": {
+        "2": 0.9625,
+        "4": 0.88046875
+      }
+    }
+  ],
+  "unobserved_channel_control": {
+    "J": "2->2",
+    "L": 2,
+    "U4": "2/7",
+    "parent_uniform_printed_rank4": "-7/54",
+    "child_uniform_printed_rank4": "-7/54",
+    "inappropriate_pure_U4_prediction": "-1/27"
+  },
+  "input_sha256": "2b72113b000643a7bd662efb6a598c54b6b35395e208d6802e9c92871a01d91f",
+  "literal_sha256": "dc0c2c75bda4abca5cf075399b4f2fa93cd22f64278f028faa875d6031a9abe9",
+  "helper_sha256": "c2e9856c254082077288059ebab443abbe8244331413713393783fc7ecd1837c",
+  "limitations": [
+    "no read of Morinaga/Yamazaki1976 textbook approximation context",
+    "no assertion of official erratum or author's numerical implementation",
+    "no actual response, fit, sigma/delta or confidence interval recovered",
+    "large-J approximation and exact finite-J reference are separate contracts",
+    "same numeric Gaussian label is a chosen comparison, not original code input"
+  ]
+}

@@ -10,13 +10,13 @@ updated: 2026-10-16
 
 同run2026-10-14-day-14-02/session01a13a0e-e8bd-7251-b970-f6975679e281，goal/runactive。用户断网延期研究2026-10-16 15:00上海止、16:00交付。Formal14 primedrecall/七边35checks/21/24/weeklyREFLECT具备；completed14/partial15、officialnext14count13待最终一次只计14，不开Day16。
 
-第036批tracking source-to-beam合同：publisher24页已得并核相关段，article76替旧81；原25页raw/旧16flags/legacyhumanreview保持，新L25-17–23 true。29checks核beta.027/991条件能量与measure/Jacobian、Eq19frame两读法、自选归一/插值Cov，非作者code/actualfit。Figs8–10 quotederrors未全含systematic，responsevariance不等fullCov/迁移核；124items40pages。需要actualaxis/response/sorter/trigger/Cov，不用reasonable-request声明当数据已取得。
+第037批finite-J/参数合同：58checks逐m CG/T2,T4、uniform/reference/低rank换基、正feeding反例/整数large-J一致界和Gaussian width-vs-variance。L25 Eq14字面q4有rank0/2成分，未换基不等pure-U4；Eq13的2sigma与YA67 Eq11的2sigma²须v=s²重映射。新L25-24–28/YA67-13 true，旧23/12行和review保持；127items40pages。Ref39为Morinaga/Yamazaki1976书未读对应段，作者code未得，不称officialerratum或actualsigma/delta修订。
 
-第035批已published：68chosen-cone checks/P→QP sharp域、differentkernel反例仍有效，非actualQ/w。Krane1972/1973body、原Ref5/ICC/全弱边、193Biresponse/τ/events、Prinput/1996primary等缺口保留，不重复同失败请求。下一actualclock/pool后仍在current或恰好Day15知识preview选高信息路线，<90min不新source，15:00后仅closeout。
+036已published：article76/24页publisher与25页raw区分、29source-to-beam checks/原systematic/trigger/mask与actualresponse/Cov缺口保持。035 positivegeometry/域与differentkernel控制仍有效。Krane/Olbrich正文、193Biresponse/τ/events、Prinput/1996primary等边界不变，不原样重复失败请求。
 
-稳定指针main / `Audit DAY14 tracking response and published source version`；actualchecks/H3/hash/push仅content-checkpoint-036.json与publication-036.json。Farmer监督watcher42019已按用户最新$farmer授权恢复，最近dryrun currentthreadrunning/actions0；未新研究session/goal或重启daily scheduler。Clock001/002/005/008actualACK保持。
+稳定指针main / `Audit DAY14 finite-spin alignment and Gaussian parameter contracts`；actualchecks/H3/hash/push只content-checkpoint-037.json/publication-037.json。Farmer42019最近核running/currentthreadrunning，未新研究session/goal或重启daily scheduler；Clock001/002/005/008actualACK保持。
 
-Resume `codex resume 01a13a0e-e8bd-7251-b970-f6975679e281 -C /workspace/wiki -s danger-full-access -a never`，先run.json/continuation/clock。保留继承Day6–9/Day13/log/daemon/raw/PLAN/Bib/credentials/review；exactmanifest/H3非force发布。最终只计14一次，不提前给Day15学分。
+续接先run.json/continuation/clock/pool。>=120min继续当前高信息问题或恰好Day15知识preview，<90min不新source/card，15:00后仅closeout；最终只计14一次。Resume `codex resume 01a13a0e-e8bd-7251-b970-f6975679e281 -C /workspace/wiki -s danger-full-access -a never`。Preserve inheritedDay6–9/Day13/log/daemon/raw/PLAN/Bib/credentials/review，exactmanifest/H3非force发布。
 
 ## Previous active handoff — DAY13 continuous study reopened by user
 

@@ -70,6 +70,7 @@ The practical one-parameter approximation is a Gaussian magnetic-substate popula
 | YA67-10 | p19的17/2→13/2 L2行F2/F4=−.37757/−.16697，p18的13/2→9/2 L2行为−.39621/−.19702；乘IO81相应ρ2/4与其A2/4在印刷精度相容。此为符号/归一cross-check，不是独立新测量或完整角数据重拟合。 | radiation-coefficient-and-source-convention-crosscheck | direct-and-derived | printed19 TableIIb Ji17/2 Jf13/2; printed18 TableIIb Ji13/2 Jf9/2 | true |
 | YA67-11 | TableIIb p18的15/2→13/2 pureL1给U2=.97321、U4=.91069，pureL2给.86752/.58103；本任务CG²计算与五位舍入相容，供IO81 218.90支的source-conditioned参考，不作实测alignment。 | source-table-second-feeder-transfer | direct-and-derived | printed18 TableIIb Ji15/2 Jf13/2 pureL1/pureL2 | true |
 | YA67-12 | 在IO81 Table3正确spin解的arctanδ=.2°±2°端点区间内，按Eq13的radiative E1/M2 U变化在U2<.0002、U4<.0006；δ0仅参考，未认证conversion-weighted总转移或给该区间统计覆盖。 | radiative-mixing-sensitivity-and-domain | derived | printed3 Eq.(13); printed18 TableIIb; IO81 printed22 Table3 row218.90 | true |
+| YA67-13 | Eq1定义statistical tensor，Eq6区分integer m0与half-integer abs(m)=1/2的complete-alignment参考，Eq10为alpha=p/B；Eq11的Gaussian明确用exp[−m²/(2σ²)]。本任务对照L25 Eq13的2σ字面，须以variance=width²映射，不能同标签直接替换。 | direct-definition-and-parameter-crosswalk | direct-and-derived | printed PDF1 Eq1; PDF2 Eqs6/10/11 | true |
 
 ## Summary
 
@@ -164,3 +165,9 @@ YA67-10给两个pureL2行：17/2→13/2的(F2,F4)=(−.37757,−.16697)，13/2�
 YA67-11补p18两条pure-mode：Ji15/2→Jf13/2的L1为(.97321,.91069)，L2为(.86752,.58103)。[[ionescu-1981-improved-angular-distribution-analysis-particle-xn]] IO81-30将它们用于218.90 E1/M2的显式pureE1参考；上一级ρ来自318.135 pureE2原表行，未用E1自身反推parent取向。
 
 在arctanδ=.2°±2°的无覆盖声明端点范围，radiativeU的名义变化小于.0002/.0006。此处δ=M2/E1辐射振幅，不是E2/M1；符号在未观测核中平方消去。small-M2并不替代完整rate/内转换合同；[[kibedi-2008-evaluation-theoretical-conversion-coefficients-bricc]] KB08-2给αeff的率权重。本轮未提供actualICC或认证converted-total核，pureE1控制与mixed sensitivity分别记录，不生成新实测ρ/σ/δ。
+
+## Gaussian指数与finite-J定义的补核
+
+2026-10-16 DAY14内Day15无信用预习，视觉回核printed p2 Eq11，分母为2σ²；Eq1/6/10给精确张量及integer/half-integer参考。[[lauritsen-2025-gamma-angular-formalism-tracking-arrays]] L25-24–28的publisher字面2σ及finite-J多项式须与本定义分开，不能按同符号直接替代。该刊Ref39是1976专著，本轮未读其对应书段，不把本表当作那本书或宣称作者代码错误。
+
+[[angular-distribution]]“Finite-J张量权重与Gaussian参数：先做极限再转移”用本任务CG有限和核精确权重、uniform/reference/feeding与large-J控制。YA67-13 true，旧1–12及review状态保持，未新增独立实验或重新认证全23页/全部表。
