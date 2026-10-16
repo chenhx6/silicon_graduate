@@ -1,0 +1,21 @@
+{
+  "files": [
+    "knowledge/methods/configuration-occupation-audit.md",
+    "knowledge/sources/lv-2025-136pr-tac-covariant-density-functional.md",
+    "knowledge/projects/a130-model-choice-card.md",
+    "knowledge/nuclei/136pr.md",
+    "knowledge/questions.md",
+    "knowledge/index.md",
+    "system/scripts/day14_pr136_configuration_ledger.py",
+    "outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam.md",
+    "outputs/learning-daily/prompts/20261015-DAY15-ado-angular-distribution-geometry.md",
+    "system/handoff.md",
+    "outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/pr136-configuration-before-calculation.md",
+    "outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/pr136-configuration-ledger.json",
+    "outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/pr136-configuration-scope-note.md",
+    "outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/checkpoint-022.md",
+    "outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/content-checkpoint-022.json",
+    "outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/continuation-prompt.md"
+  ],
+  "exclude": "raw/PLAN/Bib/tmp/runtime/inherited/log/daemon/statecredit; companionwork separate"
+}

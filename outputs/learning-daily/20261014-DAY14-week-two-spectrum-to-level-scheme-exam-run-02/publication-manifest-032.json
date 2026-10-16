@@ -1,0 +1,24 @@
+{
+  "files": [
+    "knowledge/sources/yamazaki-1967-aligned-angular-coefficients.md",
+    "knowledge/sources/ionescu-1981-improved-angular-distribution-analysis-particle-xn.md",
+    "knowledge/methods/angular-distribution.md",
+    "system/scripts/day14_unobserved_feeding_transfer.py",
+    "system/handoff.md",
+    "outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam.md",
+    "outputs/learning-daily/prompts/20261015-DAY15-ado-angular-distribution-geometry.md",
+    "outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/yamazaki1967-crossref-metadata.json",
+    "outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/yamazaki1967-pdf-verification-working.json",
+    "outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/yamazaki1967-before-calculation.md",
+    "outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/yamazaki1967-reading-audit.json",
+    "outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/yamazaki1967-U-table-input.json",
+    "outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/yamazaki1967-U-transfer-audit.json",
+    "outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/poletti1965-crossref-metadata.json",
+    "outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/tm167-full-source-before-discovery.md",
+    "outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/tm167-1980-crossref-discovery.json",
+    "outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/checkpoint-032.md",
+    "outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/content-checkpoint-032.json",
+    "outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/continuation-prompt.md"
+  ],
+  "exclude": "raw/tmp/PLAN/Bib/credentials/inherited/log/daemon/runtime/coursecredit; selected tables only, no original1965/1980 fullread claim"
+}

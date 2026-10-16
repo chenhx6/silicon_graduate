@@ -1,17 +1,11 @@
-# DAY14同session：045整体审计后等待最终收束
+# DAY14 已完成：同session只交付或讨论既有成果
 
-先run.json；completed只交付。Run2026-10-14-day-14-02/session01a13a0e-e8bd-7251-b970-f6975679e281，goal/runactive。研究截止2026-10-16 15:00上海、16:00前交付；用户断网加时覆盖旧截止。
+先读run.json核对最终状态。Run2026-10-14-day-14-02/session01a13a0e-e8bd-7251-b970-f6975679e281；用户断网加时研究2026-10-16 15:00上海止、16:00前交付。不要由Farmer/clock旧提醒重开研究，不新建session/goal/daemon。
 
-Resume `codex resume 01a13a0e-e8bd-7251-b970-f6975679e281 -C /workspace/wiki -s danger-full-access -a never`；不新session/goal/daily scheduler。
+Resume `codex resume 01a13a0e-e8bd-7251-b970-f6975679e281 -C /workspace/wiki -s danger-full-access -a never`。正式Day14：primed冻结回忆、Herzáň20页一图一表、七边35checks、判据矩阵、六维21/24、weekly REFLECT；整体审计41/41，唯一writeback156项44份修改知识页，旧review/raw/PLAN/Bib保留。D12-36只纠正封面提交4月/答辩5月。
 
-正式Day14全交付具备：primed冻结回忆/Herzáň20页一图一表/五节点七边35checks/实验判据矩阵/六维21分/REFLECT。045完成41项逐项审计、原表七行回核、冻结产物/旧review和新claimflags/原rawPLANBib、214个artifact链接均通过。source D12-36据同hash封面纠正提交2012年4月/答辩5月，旧35行不变；唯一writeback156项44份修改知识页。实际结果看objective-audit-045.json/content-checkpoint-045.json。
+课程已只计14一次至next15/count14；completed14/partial15。Day15正式入口outputs/learning-daily/prompts/20261016-DAY15-ado-angular-distribution-geometry.md仅准备，未启动Day15。其正式run须新session和自身primed回忆；不能把本次预习当正式学分，当前不打开Day16。
 
-已准备实际日期入口outputs/learning-daily/prompts/20261016-DAY15-ado-angular-distribution-geometry.md；旧15日prompt为历史。Day15仅partial、不启动/不计学分；Day16不开。课程目前next14/count13，最终门后只计14一次到next15/count14。
+2012 PRC86,034302正文未得；Ding/CPL与ENSDF2015的102/ECC绑定冲突、actualgate/δ/finiteQ/Σ仍未裁决。所有反事实/条件计算不等新实验spin/B或L4重拟合，不重试相同失败访问。
 
-当前不足90分钟，不再开source/card/新科学路线；仅完成既有58/255/314等分析的定位、条件和复算核验，准备最终报告/回执。15:00后只closeout。不能因本审计完成提前markgoal或runcomplete。若实际时钟仍早且审计饱和，可用明确foreground句柄每≤30s等待/≤60s poll并记录真实监督，不造研究活动、不另建daemon。
-
-标准finalize_interactive_closeout强制原run_date14的标准15日15:00及queuedclock，不能用于用户延期16日16:00。不要改治理脚本或造clock ledger。用实际时间/同session/原baseline/完整门和H3手动对账；可调用纯update_state_for_curriculum_cards，只在最终真实closeout后一次更新state。保留旧runner失败/未知exit，不声称其exit0；全局scheduler只append实际manual-completed事件，并在本run保存副本。
-
-2012 PRC86,034302body未得；ENSDF2015与Ding/CPL的102/ECC绑定冲突、actualgate/δ/finiteQ/Σ未解，不重试相同失败route，不改spin/B或模式结论。044commonparent23checks均为pureL1/matched/point/fADO1的条件控制，positivebox非jointCI或实际J7支持，58parent未fit。其余模型/推导与实验分层保持。
-
-Farmer42019 running/currentthreadrunning/nopending，四实际Clock ACK不增造。Preserve inheritedDay6–9/Day13/log/daemon/raw/PLAN/Bib/credentials/review；显式manifest/H3非force发布。45批subject `Audit DAY14 formal exam artifacts and thesis metadata`，actualhash/push仅publication-045.json；先核再称published。
+最终门/课程前后值/实际发布见final-checks-046.json、course-state-reconciliation-046.json、publication-046.json与run.json。标准normalfinalizer不支持此用户延期，已做真实时间同session手动对账，未伪造clock ledger或原runnerexit0。恢复时若publication失败，只处理已授权本地提交的H3重试与交付；不重计卡。Preserve inheritedDay6–9/Day13/log/daemon/raw/PLAN/Bib/credentials/review。

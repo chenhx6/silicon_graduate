@@ -1,0 +1,19 @@
+{
+  "files": [
+    "knowledge/observables/moments-of-inertia.md",
+    "knowledge/methods/level-scheme-reconstruction.md",
+    "knowledge/sources/lv-2025-136pr-tac-covariant-density-functional.md",
+    "knowledge/sources/peng-chen-2022-chiral-rotation-rhodium-isotopes.md",
+    "system/scripts/day14_pr136_inertia_paths.py",
+    "outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam.md",
+    "outputs/learning-daily/prompts/20261015-DAY15-ado-angular-distribution-geometry.md",
+    "system/handoff.md",
+    "outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/pr136-j2-before-calculation.md",
+    "outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/pr136-inertia-paths.json",
+    "outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/pr136-inertia-source-audit.json",
+    "outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/checkpoint-027.md",
+    "outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/content-checkpoint-027.json",
+    "outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/continuation-prompt.md"
+  ],
+  "exclude": "raw/PLAN/Bib/tmp/runtime/inherited/log/daemon/statecredit; nextQt companion metadata/download separate"
+}

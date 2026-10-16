@@ -1,0 +1,17 @@
+{
+  "files": [
+    "knowledge/methods/level-scheme-reconstruction.md",
+    "system/scripts/day14_doublet_time_identifiability.py",
+    "outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam.md",
+    "outputs/learning-daily/prompts/20261015-DAY15-ado-angular-distribution-geometry.md",
+    "system/handoff.md",
+    "outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/clock-checkpoint-005.md",
+    "outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/doublet-time-before-calculation.md",
+    "outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/doublet-time-numerical-boundary.md",
+    "outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/doublet-time-identifiability.json",
+    "outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/checkpoint-014.md",
+    "outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/content-checkpoint-014.json",
+    "outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/continuation-prompt.md"
+  ],
+  "exclude": "raw/PLAN/Bib/tmp/credentials/runtime/inherited/daemon/oldlog; no futurecard credit"
+}

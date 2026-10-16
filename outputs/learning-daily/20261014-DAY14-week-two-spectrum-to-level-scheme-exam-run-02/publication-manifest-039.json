@@ -1,0 +1,26 @@
+{
+  "at": "2026-10-16T11:10:07.171136+08:00",
+  "base_head": "34d05a18c42a6db3ba53097d22bed716a1d35fd5",
+  "subject": "Audit DAY14 iodine local spin-assignment evidence",
+  "paths": [
+    "knowledge/sources/ding-2012-phd-thesis-127-128i-high-spin.md",
+    "knowledge/methods/level-scheme-reconstruction.md",
+    "knowledge/projects/a130-thesis-evidence-matrix.md",
+    "system/scripts/day14_ding128i_local_evidence.py",
+    "outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam.md",
+    "outputs/learning-daily/prompts/20261015-DAY15-ado-angular-distribution-geometry.md",
+    "system/handoff.md",
+    "outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/day14-ding-transfer-before-sources.md",
+    "outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/ding128i-58keV-before-raw.md",
+    "outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/ding128i-local-before-calculation.md",
+    "outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/ding128i-local-evidence-input.json",
+    "outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/ding128i-local-evidence-audit.json",
+    "outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/ding2012-local-raw-verification-039.json",
+    "outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/ding-local-analysis-correction-039.json",
+    "outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/farmer-supervision-039.json",
+    "outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/checkpoint-039.md",
+    "outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/content-checkpoint-039.json",
+    "outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/continuation-prompt.md"
+  ],
+  "exclude": "raw/tmp/PDF/PLAN/Bib/credentials/inherited Day6-9/Day13/log/daemon/runtime/coursecredit; no rawangularcount or newassignment"
+}

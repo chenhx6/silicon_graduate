@@ -1,0 +1,27 @@
+{
+  "at": "2026-10-16T09:53:34.025767+08:00",
+  "base_head": "e95f5e118a308faa35a2ae804d94a59f592af4cf",
+  "subject": "Audit DAY14 tracking response and published source version",
+  "paths": [
+    "knowledge/methods/angular-distribution.md",
+    "knowledge/sources/lauritsen-2025-gamma-angular-formalism-tracking-arrays.md",
+    "system/scripts/day14_tracking_response_contract.py",
+    "outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam.md",
+    "outputs/learning-daily/prompts/20261015-DAY15-ado-angular-distribution-geometry.md",
+    "system/handoff.md",
+    "outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/day15-tracking-response-before-sources.md",
+    "outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/tracking-response-before-calculation.md",
+    "outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/tracking-response-contract-input.json",
+    "outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/tracking-response-contract-audit.json",
+    "outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/lauritsen2025-raw-verification.json",
+    "outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/lauritsen2025-crossref-verification-036.json",
+    "outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/lauritsen2025-publisher-page-036.json",
+    "outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/lauritsen2025-publisher-pdf-036.json",
+    "outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/lauritsen2025-published-verification-036.json",
+    "outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/farmer-supervision-036.json",
+    "outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/checkpoint-036.md",
+    "outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/content-checkpoint-036.json",
+    "outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/continuation-prompt.md"
+  ],
+  "exclude": "raw/tmp/PDF/PLAN/Bib/credentials/other inherited Day6-9/Day13/log/daemon/runtime/coursecredit; no actualresponse/events/code published"
+}

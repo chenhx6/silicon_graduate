@@ -1,0 +1,18 @@
+{
+  "files": [
+    "knowledge/sources/lv-2025-136pr-tac-covariant-density-functional.md",
+    "knowledge/sources/nndc-2018-136pr-selected-level-gamma-records.md",
+    "knowledge/methods/level-scheme-reconstruction.md",
+    "knowledge/projects/a130-thesis-evidence-matrix.md",
+    "system/scripts/day14_pr136_transition_candidates.py",
+    "outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam.md",
+    "outputs/learning-daily/prompts/20261015-DAY15-ado-angular-distribution-geometry.md",
+    "system/handoff.md",
+    "outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/pr136-identity-before-calculation.md",
+    "outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/pr136-transition-candidates.json",
+    "outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/checkpoint-019.md",
+    "outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/content-checkpoint-019.json",
+    "outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/continuation-prompt.md"
+  ],
+  "exclude": "raw/PLAN/Bib/tmp/runtime/inherited/log/daemon/statecredit"
+}

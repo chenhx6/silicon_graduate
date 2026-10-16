@@ -1,0 +1,30 @@
+{
+  "files": [
+    "knowledge/index.md",
+    "knowledge/methods/level-scheme-reconstruction.md",
+    "knowledge/projects/a130-thesis-evidence-matrix.md",
+    "knowledge/sources/herzan-2015-193bi-spectroscopy.md",
+    "knowledge/sources/nndc-2017-193bi-level-scheme-evaluation.md",
+    "system/scripts/day14_conditional_gate_design.py",
+    "system/scripts/day14_ensdf_crosswalk.py",
+    "outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam.md",
+    "system/handoff.md",
+    "outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/conditional-gate-design.json",
+    "outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/gate-design-before-analysis.md",
+    "outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/ensdf-crosswalk.json",
+    "outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/evaluation-before-source-recall.md",
+    "outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/evaluation-discovery.json",
+    "outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/evaluation-discovery-002.json",
+    "outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/nndc-193bi-dataset-discovery.json",
+    "outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/nndc-193bi-retrieval.json",
+    "outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/nieminen-before-source-recall.md",
+    "outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/nieminen-crossref-metadata.json",
+    "outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/nieminen-bounded-access.json",
+    "outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/nieminen-access-recap.json",
+    "outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/continuation-prompt.md",
+    "outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/content-checkpoint-002.json",
+    "system/log.md"
+  ],
+  "log_stage": "HEAD plus taskentry2; old worktree changes preserved",
+  "exclude": "raw/PLAN/Bib/credentials/tmp/runtime receipt and inherited changes"
+}

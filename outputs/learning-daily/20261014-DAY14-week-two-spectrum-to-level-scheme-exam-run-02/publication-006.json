@@ -1,0 +1,184 @@
+{
+  "steps": [
+    {
+      "argv": [
+        "git",
+        "branch",
+        "--show-current"
+      ],
+      "exit_code": 0,
+      "stdout_tail": "main\n",
+      "stderr_tail": ""
+    },
+    {
+      "argv": [
+        "git",
+        "rev-parse",
+        "HEAD"
+      ],
+      "exit_code": 0,
+      "stdout_tail": "347a986160a9df838110ab4a268e39b85c3e8af4\n",
+      "stderr_tail": ""
+    },
+    {
+      "argv": [
+        "git",
+        "log",
+        "-1",
+        "--format=%s"
+      ],
+      "exit_code": 0,
+      "stdout_tail": "Audit DAY14 empirical alignment and covariance limits\n",
+      "stderr_tail": ""
+    },
+    {
+      "argv": [
+        "git",
+        "show",
+        "--format=",
+        "--name-only",
+        "HEAD"
+      ],
+      "exit_code": 0,
+      "stdout_tail": "14-week-two-spectrum-to-level-scheme-exam-run-02/zobel83-alpha-data-model.svg\noutputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/zobel83-before-source-recall.md\noutputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/zobel83-crossref-metadata.json\noutputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/zobel83-figure-contract.json\noutputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/zobel83-figure-qa-codes.json\noutputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/zobel83-figure-qa.md\noutputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/zobel83-source-identity.json\noutputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam.md\noutputs/learning-daily/prompts/20261015-DAY15-ado-angular-distribution-geometry.md\nsystem/handoff.md\nsystem/log.md\nsystem/scripts/day14_zobel83_alignment_worksheet.py\n",
+      "stderr_tail": ""
+    },
+    {
+      "argv": [
+        "python3",
+        "system/scripts/clean_knowledge_eol_dirty.py"
+      ],
+      "exit_code": 0,
+      "stdout_tail": "ning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/task-log-entry-003.txt\n?? outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/task-log-entry-004.txt\n?? outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/task-log-entry-005.txt\n?? outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/task-log-entry-006.txt\n?? outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/zobel83-alpha-data-model.alignment.svg\n?? outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/zobel83-figure-collision-audit.txt\n?? outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/zobel83-figure-glyph-audit.txt\n?? outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/zobel83-figure-source-audit.txt\n?? outputs/learning-daily/prompts/20261005-DAY6-rotation-vibration-alignment-signature.md\n",
+      "stderr_tail": ""
+    },
+    {
+      "argv": [
+        "git",
+        "status",
+        "-sb",
+        "--untracked-files=no"
+      ],
+      "exit_code": 0,
+      "stdout_tail": "## main...origin/main [ahead 1]\n M outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/completion-audit.json\n M outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/progress.jsonl\n M outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/research-checkpoint.json\n M outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/run.json\n M outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/schedule-resume-process.log\n M outputs/learning-daily/20261008-DAY9-be2-bm1-reduced-matrix-elements-strengths-run-01/run.json\n M outputs/learning-daily/20261008-clock-reminder-delivery-fix-run-01/repair-receipt.json\n M outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity-run-01/run.json\n M system/log.md\n M system/scripts/run_daily_learning_daemon.py\n",
+      "stderr_tail": ""
+    },
+    {
+      "argv": [
+        "git",
+        "status",
+        "--short",
+        "--untracked-files=no"
+      ],
+      "exit_code": 0,
+      "stdout_tail": " M outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/completion-audit.json\n M outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/progress.jsonl\n M outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/research-checkpoint.json\n M outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/run.json\n M outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/schedule-resume-process.log\n M outputs/learning-daily/20261008-DAY9-be2-bm1-reduced-matrix-elements-strengths-run-01/run.json\n M outputs/learning-daily/20261008-clock-reminder-delivery-fix-run-01/repair-receipt.json\n M outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity-run-01/run.json\n M system/log.md\n M system/scripts/run_daily_learning_daemon.py\n",
+      "stderr_tail": ""
+    },
+    {
+      "argv": [
+        "git",
+        "diff",
+        "--stat"
+      ],
+      "exit_code": 0,
+      "stdout_tail": " .../completion-audit.json                          |  15 +-\n .../progress.jsonl                                 |  17 ++\n .../research-checkpoint.json                       |  28 ++-\n .../run.json                                       | 258 ++++++++++++++++++++-\n .../schedule-resume-process.log                    |   1 +\n .../run.json                                       | 122 +++++++++-\n .../repair-receipt.json                            |  16 +-\n .../run.json                                       | 100 +++++++-\n system/log.md                                      |  26 +++\n system/scripts/run_daily_learning_daemon.py        |  12 +-\n 10 files changed, 577 insertions(+), 18 deletions(-)\n",
+      "stderr_tail": ""
+    },
+    {
+      "argv": [
+        "git",
+        "diff",
+        "--cached",
+        "--name-only"
+      ],
+      "exit_code": 0,
+      "stdout_tail": "",
+      "stderr_tail": ""
+    },
+    {
+      "argv": [
+        "git",
+        "diff",
+        "--cached",
+        "--check"
+      ],
+      "exit_code": 0,
+      "stdout_tail": "",
+      "stderr_tail": ""
+    },
+    {
+      "argv": [
+        "git",
+        "diff",
+        "--check"
+      ],
+      "exit_code": 0,
+      "stdout_tail": "",
+      "stderr_tail": ""
+    },
+    {
+      "argv": [
+        "git",
+        "fetch",
+        "origin",
+        "main"
+      ],
+      "exit_code": 0,
+      "stdout_tail": "",
+      "stderr_tail": "From gitee.com:chx6/silicon_graduate\n * branch            main       -> FETCH_HEAD\n"
+    },
+    {
+      "argv": [
+        "git",
+        "merge-base",
+        "--is-ancestor",
+        "origin/main",
+        "HEAD"
+      ],
+      "exit_code": 0,
+      "stdout_tail": "",
+      "stderr_tail": ""
+    },
+    {
+      "argv": [
+        "git",
+        "push",
+        "--dry-run",
+        "origin",
+        "HEAD:main"
+      ],
+      "exit_code": 0,
+      "stdout_tail": "",
+      "stderr_tail": "To gitee.com:chx6/silicon_graduate.git\n   9695678..347a986  HEAD -> main\n"
+    },
+    {
+      "argv": [
+        "git",
+        "push",
+        "origin",
+        "HEAD:main"
+      ],
+      "exit_code": 0,
+      "stdout_tail": "",
+      "stderr_tail": "remote: Powered by \u001b[01;33mGITEE.COM \u001b[0m[1.1.23]        \nremote: Set trace flag 6448a8b7        \nTo gitee.com:chx6/silicon_graduate.git\n   9695678..347a986  HEAD -> main\n"
+    },
+    {
+      "argv": [
+        "git",
+        "rev-parse",
+        "origin/main"
+      ],
+      "exit_code": 0,
+      "stdout_tail": "347a986160a9df838110ab4a268e39b85c3e8af4\n",
+      "stderr_tail": ""
+    }
+  ],
+  "outcome": "published",
+  "refspec": "HEAD:main",
+  "branch": "main",
+  "commit": "347a986160a9df838110ab4a268e39b85c3e8af4",
+  "subject": "Audit DAY14 empirical alignment and covariance limits",
+  "origin_matches_head": true,
+  "push_exit_code": 0,
+  "recorded_at": "2026-10-15T03:11:13.045503+08:00"
+}

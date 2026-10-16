@@ -1,0 +1,24 @@
+{
+  "run_id": "2026-10-14-day-14-02",
+  "checkpoint": 1,
+  "files": [
+    "knowledge/sources/herzan-2015-193bi-spectroscopy.md",
+    "knowledge/methods/level-scheme-reconstruction.md",
+    "knowledge/projects/a130-thesis-evidence-matrix.md",
+    "system/scripts/day14_level_scheme_audit.py",
+    "outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam.md",
+    "outputs/learning-weekly/20261014-week-two-spectrum-to-level-scheme-reflect.md",
+    "outputs/learning-daily/prompts/20261015-DAY15-ado-angular-distribution-geometry.md",
+    "system/handoff.md",
+    "outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/active-recall-before-sources.md",
+    "outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/source-identity.json",
+    "outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/crossref-herzan-metadata.json",
+    "outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/level-scheme-fixture.json",
+    "outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/level-scheme-analysis.json",
+    "outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/continuation-prompt.md",
+    "outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/content-checkpoint-001.json",
+    "system/log.md"
+  ],
+  "log_stage": "HEAD plus task-owned appended entry; inherited worktree log untouched",
+  "excluded": "raw/PLAN/Bib/credentials/tmp/run receipt and inherited Day6–9/Day13/daemon changes"
+}

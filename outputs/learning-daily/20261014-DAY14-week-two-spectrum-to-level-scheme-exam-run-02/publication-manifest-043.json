@@ -1,0 +1,23 @@
+{
+  "at": "2026-10-16T12:54:18.741214+08:00",
+  "base_head": "197c61f333eba383efa911f79085e303376e47a7",
+  "subject": "Clarify DAY14 iodine spin-hypothesis scope and evidence roles",
+  "paths": [
+    "knowledge/sources/nndc-2015-128i-selected-level-gamma-records.md",
+    "knowledge/sources/ding-2012-phd-thesis-127-128i-high-spin.md",
+    "knowledge/methods/level-scheme-reconstruction.md",
+    "knowledge/projects/a130-thesis-evidence-matrix.md",
+    "system/scripts/day14_128i_hypothesis_domain.py",
+    "outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam.md",
+    "outputs/learning-daily/prompts/20261015-DAY15-ado-angular-distribution-geometry.md",
+    "system/handoff.md",
+    "outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/128i-hypothesis-domain-before-analysis.md",
+    "outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/128i-hypothesis-domain-input.json",
+    "outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/128i-hypothesis-domain-audit.json",
+    "outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/farmer-supervision-043.json",
+    "outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/checkpoint-043.md",
+    "outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/content-checkpoint-043.json",
+    "outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/continuation-prompt.md"
+  ],
+  "exclude": "raw/tmp/PDF/PLAN/Bib/credentials/inheritedDay6-9/Day13/log/daemon/runtime/coursecredit; no actualRADOlikelihood/δ/newspin"
+}

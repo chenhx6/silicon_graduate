@@ -1,0 +1,26 @@
+{
+  "files": [
+    "knowledge/methods/angular-distribution.md",
+    "knowledge/methods/level-scheme-reconstruction.md",
+    "knowledge/methods/linear-polarization-asymmetry.md",
+    "knowledge/sources/zheng-2002-ado-coincidence-angular-anisotropy.md",
+    "system/scripts/day14_shared_polarization_limits.py",
+    "system/scripts/day15_ado_preview_worksheet.py",
+    "outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam.md",
+    "system/handoff.md",
+    "outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/continuation-prompt.md",
+    "outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/checkpoint-003.md",
+    "outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/content-checkpoint-003.json",
+    "outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/shared-polarization-before-calculation.md",
+    "outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/shared-polarization-limits.json",
+    "outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/shared-E2-response-region.svg",
+    "outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/day15-preview-before-sources.md",
+    "outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/day15-ado-preview-worksheet.json",
+    "outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/day15-ado-input-uncertainty.svg",
+    "outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/zheng02-preview-source-identity.json",
+    "system/log.md"
+  ],
+  "log_stage": "HEAD plus task-log-entry-003 only; inherited worktree bytes retained",
+  "exclude": "raw/PLAN/Bib/credentials/tmp/runtime receipts and inherited changes",
+  "review": "all files checked against entry-baseline; 4 knowledge paths were clean at original entry; no staged overlap"
+}

@@ -1,0 +1,23 @@
+{
+  "files": [
+    "knowledge/sources/riley-2001-global-lifetime-a135.md",
+    "knowledge/observables/transition-quadrupole-moment.md",
+    "knowledge/methods/doppler-shift-attenuation-method.md",
+    "knowledge/sources/matev-2007-a130-quadrupole-alignment-additivity.md",
+    "knowledge/index.md",
+    "system/scripts/day14_riley_global_qt_ledger.py",
+    "system/handoff.md",
+    "outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam.md",
+    "outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/riley2001-before-calculation.md",
+    "outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/riley2001-table-I-input.json",
+    "outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/riley2001-global-qt-audit.json",
+    "outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/riley2001-pdf-verification-working.json",
+    "outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/riley2001-reading-audit.json",
+    "outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/checkpoint-029.md",
+    "outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/content-checkpoint-029.json",
+    "outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/ce131-reference-before-source.md",
+    "outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/continuation-prompt.md",
+    "outputs/learning-daily/prompts/20261015-DAY15-ado-angular-distribution-geometry.md"
+  ],
+  "exclude": "raw/tmp/PLAN/Bib/inherited runtime/daemon/log/coursecredit; baseline/status and generated verification logs stay local receipts"
+}

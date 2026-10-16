@@ -1,0 +1,31 @@
+{
+  "at": "2026-10-16T11:33:44.303001+08:00",
+  "base_head": "7163438eaec45fd20906d398fb7a87337aa3f373",
+  "subject": "Audit DAY14 iodine triplet identities against primary spectra",
+  "paths": [
+    "knowledge/sources/wang-2010-128i-new-high-spin-level-scheme.md",
+    "knowledge/sources/ding-2012-phd-thesis-127-128i-high-spin.md",
+    "knowledge/methods/level-scheme-reconstruction.md",
+    "knowledge/projects/a130-thesis-evidence-matrix.md",
+    "knowledge/index.md",
+    "system/scripts/day14_ding128i_transition_identity.py",
+    "outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam.md",
+    "outputs/learning-daily/prompts/20261015-DAY15-ado-angular-distribution-geometry.md",
+    "system/handoff.md",
+    "outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/ding128i-lowenergy-identity-before-sources.md",
+    "outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/ding128i-lowenergy-before-calculation.md",
+    "outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/ding128i-lowenergy-typed-input.json",
+    "outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/ding128i-lowenergy-typed-audit.json",
+    "outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/wang2010-128i-primary-metadata.json",
+    "outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/ding2011-128i-primary-metadata.json",
+    "outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/wang2010-cpl-publisher-access-040.json",
+    "outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/ding2011-scichina-publisher-access-040.json",
+    "outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/wang2010-cpl-pdf-access-040.json",
+    "outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/wang2010-primary-reading-audit-040.json",
+    "outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/farmer-supervision-040.json",
+    "outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/checkpoint-040.md",
+    "outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/content-checkpoint-040.json",
+    "outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/continuation-prompt.md"
+  ],
+  "exclude": "raw/tmp/PDF/PLAN/Bib/credentials/inheritedDay6-9/Day13/log/daemon/runtime/coursecredit; sourceonly publicnotes; no rawcounts or actualfraction"
+}

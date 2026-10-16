@@ -1,0 +1,41 @@
+{
+  "path": "outputs/learning-milestones/2026-09-one-month-scheduler.jsonl",
+  "event": {
+    "event": "user-extended-run-manually-completed",
+    "at": "2026-10-16T15:03:35.090080+08:00",
+    "schedule_id": "wiki-daily-learning",
+    "run_id": "2026-10-14-day-14-02",
+    "run_date": "2026-10-14",
+    "day_index": 14,
+    "session_id": "01a13a0e-e8bd-7251-b970-f6975679e281",
+    "resume_command": [
+      "codex",
+      "resume",
+      "01a13a0e-e8bd-7251-b970-f6975679e281",
+      "-C",
+      "/workspace/wiki",
+      "-s",
+      "danger-full-access",
+      "-a",
+      "never"
+    ],
+    "completed_day_indices": [
+      14
+    ],
+    "partial_day_indices": [
+      15
+    ],
+    "next_day_index": 15,
+    "completed_day_count": 14,
+    "deliverables_passed": true,
+    "original_runner_exit_code": null,
+    "manual_validation_exit_code": 0,
+    "completion_mode": "authorized-extension-same-session-manual-reconciliation",
+    "overnight_until": "2026-10-16T16:00:00+08:00",
+    "research_cutoff_at": "2026-10-16T15:00:00+08:00",
+    "new_session_created": false,
+    "daemon_restarted": false,
+    "published_scientific_content_receipt": "publication-045.json"
+  },
+  "publication": "isolated actual event copy; inherited global scheduler log remains unstaged"
+}

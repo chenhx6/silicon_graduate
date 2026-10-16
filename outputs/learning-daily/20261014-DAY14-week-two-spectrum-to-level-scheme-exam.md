@@ -17,13 +17,13 @@ updated: 2026-10-16
 - resume_command: `codex resume 01a13a0e-e8bd-7251-b970-f6975679e281 -C /workspace/wiki -s danger-full-access -a never`
 - overnight_until: `2026-10-16T16:00:00+08:00`；用户因断网明确延长至次日16:00最终交付；预留15:00–16:00收束，不延到17:00。原截止`2026-10-15T15:00:00+08:00`保留为历史。
 - planned_research_cutoff_at: `2026-10-16T15:00:00+08:00`；15:00–16:00仅closeout。
-- research_status: active-user-extended；15:37曾按原截止转closeout，15:45用户明确加时并恢复，当前截止2026-10-16 16:00上海。中间未观察时段不补造研究。
+- research_status: closed-at-user-extended-cutoff；实际收束观察 `2026-10-16T15:00:52.514562+08:00`；15:00后仅核验、回执、课程对账和发布。
 - completed_day_indices: [14]
 - partial_day_indices: [15]
 - Day 14 card audit: complete
 - Day 14 scorecard: complete
 - Day 14 weekly REFLECT: complete
-- course_credit: 尚未推进；需report/writeback/checks/continuation/publication通过后才计Day14，持续研究不重复计卡。
+- course_credit: 已按最终审计一次只计Day14；next_day_index=15、completed_day_count=14。Day15仍为无学分预习。
 
 本次session身份由run-02 `events.jsonl` 的thread.started与原生goal threadId交叉确认；补记receipt和scheduler事件。run-01是此前已取消的另一session，不接管、不自动重启。恢复任务使用用户已给出的持续学习、写入与Gitee授权，Farmer只监督allowlisted瞬时错误，没有Git角色。已有Day6–9/Day13回执、旧log与daemon修改保留。
 
@@ -5163,3 +5163,16 @@ Stablepointer main / `Bound DAY14 common-parent angular consistency assumptions`
 报告中的229个相对链接（214个不同artifact）均存在且已跟踪，实际[恢复链接审计](20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/linked-artifact-recovery-audit-045.json)保存当时结果。本批单独纠正Ding封面提交/答辩月份，累计唯一writeback156项、44份修改知识页。当前lint exit0（0 errors/145 warnings：114 citation key、28未填raw保留槽、3 reaction parser），boundary/preflight/diff均0；EOL exit1为保留本任务一份实质source修改，unsafe/mixed为0。
 
 下一正式入口按延期收束实际日期准备为[20261016 Day15 prompt](prompts/20261016-DAY15-ado-angular-distribution-geometry.md)，仅生成入口、不启动、不计卡。当前课程next14/count13仍保持，最终closeout通过所有门后一次只计14。Farmer状态正常且无pending；当前<90分钟，只核既有分析，不新开来源或课程卡；run/goal仍active，15:00研究停止，15:00–16:00收束。
+
+
+### 最终收束（用户授权加时）
+
+研究截止2026-10-16 15:00上海已实际观察。当前会话沿用原run/session，未重新启动每日调度器；原runner没有可核的成功退出码，本次采用明确标注的手动对账，不伪造normal-runner或clock-closeout事件。既有分析核验于13:41完成，后续前台监督等待逐条记录在[监督日志](20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/window-supervision-045.jsonl)，等待不计研究成果。
+
+正式Day14完成：Herzáň原图/表的五节点七跃迁、逐边E/C/M/J证据、35项重建检查、实验判据矩阵、六维自评21/24和weekly REFLECT；来源前回忆明确受Day13 priming影响。最终整体审计41/41，唯一knowledge-writeback156项、44份修改知识页。可复用的方法与证据留在knowledge，全部科学内容已通过前批显式发布。
+
+保留的实质边界是128I原文与评价的102-keV placement/ECC绑定冲突，以及实际gate、δ、响应和协方差缺口；未读2012正文、未完成事件级L4重拟合，没有新的spin/B值或模式裁决。Day15只列partial，不给学分；下一正式入口为20261016 Day15 prompt，未启动Day15。最终课程只计14一次至next15/count14。
+
+最终检查实际退出码、警告分类、状态前后值、报告哈希与发布文件清单分别保存在[最终验收](20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/final-checks-046.json)、[课程对账](20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/course-state-reconciliation-046.json)与[最终发布清单](20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/publication-manifest-046.json)。最终稳定指针为main / `Complete DAY14 extended study and credit only Day14`，精确hash与真实push结果只写本run回执。
+
+最终实际验收：wiki_lint --fail-on error exit0，0 errors/145 warnings（114 citation key、28未填raw保留槽、3 reaction parser）；git diff --check exit0；boundary exit0。日报、唯一知识写回与续接入口存在且验收通过；课程只计Day14。

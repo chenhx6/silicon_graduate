@@ -1,0 +1,34 @@
+{
+  "at": "2026-10-16T13:47:04.892226+08:00",
+  "research_cutoff": "2026-10-16T15:00:00+08:00",
+  "minutes_to_cutoff": 72.9184629,
+  "completed_day_indices": [
+    14
+  ],
+  "partial_day_indices": [
+    15
+  ],
+  "day_index": 14,
+  "pool": [
+    {
+      "issue": "正式Herzáň一图一表与逐边证据",
+      "state": "35项重建/41项整体审计通过；source figure/table重新核验",
+      "remaining_gap": "actual events/逐门响应/Σ/目标parentτ/δ",
+      "information_gain_without_new_inputs": "既有分析已审计；重复同能量算术不能缩小实验证据缺口"
+    },
+    {
+      "issue": "128I低能triplet/source-evaluation conflict及commonparent角判据",
+      "state": "既有原件定位/分层/23check baseline完备；2012Di14正文未取得",
+      "remaining_gap": "合法2012primary正文、line/gate calibration和Cov",
+      "information_gain_without_new_inputs": "current条件结论已收敛；不重复失败访问或升级为实际spin fit"
+    },
+    {
+      "issue": "恰好Day15知识预习",
+      "state": "已有ADO/geometry/feeding/convention计算与source边界，正式课未计",
+      "remaining_gap": "actual geometry/gate/source counts与完整Cov",
+      "information_gain_without_new_inputs": "当前可复用预习已固化；<90分钟不再新source/card"
+    }
+  ],
+  "decision": "既有有界分析完成后同session监督至研究截止；等待不冒充研究，不提前结束run/goal，不开Day16",
+  "new_source_or_card_opened": false
+}

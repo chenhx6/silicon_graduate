@@ -1,0 +1,29 @@
+{
+  "at": "2026-10-16T09:31:52.362644+08:00",
+  "base_head": "b9a6c28f01e28ab0841d42da806bc8902d0c3181",
+  "subject": "Audit DAY14 finite geometry and positive feeding domains",
+  "paths": [
+    "knowledge/methods/angular-distribution.md",
+    "knowledge/sources/ionescu-1981-improved-angular-distribution-analysis-particle-xn.md",
+    "system/scripts/day14_finite_geometry_feeding.py",
+    "outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam.md",
+    "outputs/learning-daily/prompts/20261015-DAY15-ado-angular-distribution-geometry.md",
+    "system/handoff.md",
+    "outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/day15-finite-geometry-before-calculation.md",
+    "outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/geometry-035-pre-analysis.json",
+    "outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/finite-geometry-design-input.json",
+    "outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/finite-geometry-feeding-audit.json",
+    "outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/krane1973-geometry-openalex.json",
+    "outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/krane1973-geometry-publisher-access.json",
+    "outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/krane1973-geometry-institution-download.json",
+    "outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/krane1973-institution-landing.json",
+    "outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/krane1972-openalex.json",
+    "outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/krane1973-geometry-osti-discovery.json",
+    "outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/farmer-supervision-035.json",
+    "outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/farmer-supervision-status-035.json",
+    "outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/checkpoint-035.md",
+    "outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/content-checkpoint-035.json",
+    "outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/continuation-prompt.md"
+  ],
+  "exclude": "raw/tmp/PLAN/Bib/credentials/other inherited Day6-9/Day13/log/daemon/runtime/coursecredit; no original Krane fulltext or actual geometry inferred"
+}

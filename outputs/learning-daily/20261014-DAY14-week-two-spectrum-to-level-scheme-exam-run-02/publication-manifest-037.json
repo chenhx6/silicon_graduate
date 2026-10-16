@@ -1,0 +1,25 @@
+{
+  "at": "2026-10-16T10:15:42.583696+08:00",
+  "base_head": "ef821d25f5743f0b626419fefd13cac2a8a8a9c9",
+  "subject": "Audit DAY14 finite-spin alignment and Gaussian parameter contracts",
+  "paths": [
+    "knowledge/methods/angular-distribution.md",
+    "knowledge/sources/lauritsen-2025-gamma-angular-formalism-tracking-arrays.md",
+    "knowledge/sources/yamazaki-1967-aligned-angular-coefficients.md",
+    "system/scripts/day14_alignment_formula_contract.py",
+    "outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam.md",
+    "outputs/learning-daily/prompts/20261015-DAY15-ado-angular-distribution-geometry.md",
+    "system/handoff.md",
+    "outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/day15-alignment-formula-before-analysis.md",
+    "outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/alignment-formula-before-calculation.md",
+    "outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/alignment-formula-contract-input.json",
+    "outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/alignment-formula-contract-audit.json",
+    "outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/lauritsen2025-alignment-literal-037.json",
+    "outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/yamazaki-definition-verification-037.json",
+    "outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/farmer-supervision-037.json",
+    "outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/checkpoint-037.md",
+    "outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/content-checkpoint-037.json",
+    "outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/continuation-prompt.md"
+  ],
+  "exclude": "raw/tmp/PDF/PLAN/Bib/credentials/inherited Day6-9/Day13/log/daemon/runtime/coursecredit; no authorcode or experimentalrefit"
+}

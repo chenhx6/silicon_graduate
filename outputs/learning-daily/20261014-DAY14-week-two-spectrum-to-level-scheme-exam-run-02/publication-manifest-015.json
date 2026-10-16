@@ -1,0 +1,23 @@
+{
+  "files": [
+    "knowledge/sources/lv-2025-136pr-tac-covariant-density-functional.md",
+    "knowledge/methods/level-scheme-reconstruction.md",
+    "knowledge/nuclei/136pr.md",
+    "knowledge/projects/a130-thesis-evidence-matrix.md",
+    "knowledge/sources/lv-2019-chirality-135nd-reexamined.md",
+    "knowledge/experiments/jurogam2-135nd-ar40-152mev.md",
+    "system/scripts/day14_pr136_scheme_crosswalk.py",
+    "outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam.md",
+    "outputs/learning-daily/prompts/20261015-DAY15-ado-angular-distribution-geometry.md",
+    "system/handoff.md",
+    "outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/lv25-before-source-recall.md",
+    "outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/lv25-identity-receipt.json",
+    "outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/lv25-publisher-version-receipt.json",
+    "outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/pr136-transition-fixture.json",
+    "outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/pr136-scheme-crosswalk.json",
+    "outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/checkpoint-015.md",
+    "outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/content-checkpoint-015.json",
+    "outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/continuation-prompt.md"
+  ],
+  "exclude": "raw/PLAN/Bib/tmp/credentials/runtime/inherited/daemon/oldlog; companion requests not yet part ofthisbatch"
+}

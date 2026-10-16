@@ -1,0 +1,61 @@
+{
+  "at": "2026-10-16T15:02:20.822094+08:00",
+  "method": "run_daily_learning.update_state_for_curriculum_cards pure function; guarded once from next14/count13",
+  "before": {
+    "schema_version": 1,
+    "cycle": "2026-09-30-day-substantive",
+    "counting_policy": "30 fully completed substantive curriculum cards; a run may complete multiple contiguous cards; acceptance-only runs are excluded",
+    "next_day_index": 14,
+    "last_success": "2026-10-13",
+    "last_run_id": "2026-10-13-day-13-01",
+    "status": "active",
+    "acceptance_runs_excluded": [
+      "2026-09-22-day-01-01",
+      "2026-09-22-day-01-02",
+      "2026-09-22-day-01-03",
+      "2026-09-22-day-01-04",
+      "2026-09-22-day-01-05",
+      "2026-09-22-day-02-06"
+    ],
+    "reset_at": "2026-09-23",
+    "reset_reason": "Manual Docker/runner instance acceptance before the substantive 30-day test reset",
+    "completed_day_count": 13
+  },
+  "before_sha256": "0a248f25b53f6456cf74ecc1719a7158be3abf278ab7eeac96fcb98813645717",
+  "after": {
+    "schema_version": 1,
+    "cycle": "2026-09-30-day-substantive",
+    "counting_policy": "30 fully completed substantive curriculum cards; a run may complete multiple contiguous cards; acceptance-only runs are excluded",
+    "next_day_index": 15,
+    "last_success": "2026-10-14",
+    "last_run_id": "2026-10-14-day-14-02",
+    "status": "active",
+    "acceptance_runs_excluded": [
+      "2026-09-22-day-01-01",
+      "2026-09-22-day-01-02",
+      "2026-09-22-day-01-03",
+      "2026-09-22-day-01-04",
+      "2026-09-22-day-01-05",
+      "2026-09-22-day-02-06"
+    ],
+    "reset_at": "2026-09-23",
+    "reset_reason": "Manual Docker/runner instance acceptance before the substantive 30-day test reset",
+    "completed_day_count": 14
+  },
+  "after_sha256": "4c0baa613ffff093613ca95073c2e831c4f4c7ba869f422c04717110e1898df6",
+  "credit_delta": 1,
+  "credited_day_indices": [
+    14
+  ],
+  "partial_day_indices": [
+    15
+  ],
+  "Day15_credit": false,
+  "course_status": "active",
+  "last_success_semantics": "logical run_date 2026-10-14, despite user-authorized Oct16 closeout",
+  "precredit_required_exit_codes": {
+    "boundary-final-precredit-046": 0,
+    "lint-final-precredit-046": 0,
+    "diff-final-precredit-046": 0
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "files": [
+    "knowledge/methods/angular-correlation.md",
+    "knowledge/methods/angular-distribution.md",
+    "knowledge/methods/level-scheme-reconstruction.md",
+    "knowledge/sources/rose-brink-1967-phase-defined-angular-distributions.md",
+    "knowledge/sources/zheng-2002-ado-coincidence-angular-anisotropy.md",
+    "system/scripts/day14_conditional_angular_response.py",
+    "outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam.md",
+    "system/handoff.md",
+    "outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/conditional-correlation-before-source-recall.md",
+    "outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/conditional-angular-response.json",
+    "outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/checkpoint-004.md",
+    "outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/content-checkpoint-004.json",
+    "outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/continuation-prompt.md",
+    "outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/order-correlation-before-calculation.md",
+    "system/log.md"
+  ],
+  "log_stage": "HEAD + own entry004 only; inherited worktree changes retained",
+  "exclude": "raw/PLAN/Bib/tmp/credentials/runtime receipts and inherited changes"
+}

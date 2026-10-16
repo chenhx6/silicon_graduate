@@ -1,0 +1,18 @@
+{
+  "files": [
+    "knowledge/methods/angular-correlation.md",
+    "knowledge/methods/level-scheme-reconstruction.md",
+    "knowledge/sources/rose-brink-1967-phase-defined-angular-distributions.md",
+    "system/scripts/day14_cascade_order_identifiability.py",
+    "outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam.md",
+    "outputs/learning-daily/prompts/20261015-DAY15-ado-angular-distribution-geometry.md",
+    "system/handoff.md",
+    "outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/cascade-order-identifiability.json",
+    "outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/checkpoint-005.md",
+    "outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/content-checkpoint-005.json",
+    "outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/continuation-prompt.md",
+    "system/log.md"
+  ],
+  "log_stage": "HEAD plus own entry005; inherited worktree bytes retained",
+  "exclude": "raw/PLAN/Bib/tmp/credentials/runtime receipts and inherited changes"
+}
