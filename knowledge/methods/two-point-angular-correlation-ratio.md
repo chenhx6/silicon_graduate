@@ -3,7 +3,7 @@ type: method
 title: 两点角关联比
 aliases: [two-point angular-correlation ratio, angular-correlation ratio, Rac, R_ac]
 created: 2026-07-01
-updated: 2026-07-04
+updated: 2026-10-17
 status: active
 review_status: unreviewed
 method_type: gamma-ray-angular-correlation
@@ -23,6 +23,14 @@ tags: [multipolarity, gamma-spectroscopy, angular-correlation]
 ## Procedure
 
 建立 `Eγ(forward/backward)-Eγ(any)` 与 `Eγ(~90°)-Eγ(any)` 非对称矩阵，在相同 gate 下取目标峰强度比并用已知多极性跃迁标定。
+
+### 135Pr原式与门条件边界
+
+[[lv-2022-evidence-against-wobbling-135pr]] L22-17的SI Eq1具体使用target在157.6°+133.6°与75.5°+104.5°角组，另轴为all detectors，放置相同energy gates。它没有交换target/gate的角组，不能与[[dco-ratio]]的KF89公式共用一个未标记的R。
+
+历史Evolution Log中“不依赖gate多极性”是采用all-angle gates的实验设计目标，不是任意finite acceptance、cuts、feeding和self-exclusion下的严格joint-response定理。[[zheng-2002-ado-coincidence-angular-anisotropy]] Z02-6/9与[[angular-distribution]]及[[angular-correlation]]说明single-gamma效率并不认证gamma-gamma response；实际迁移仍须matched-gate controls。
+
+[[135pr-mixing-branch-input-contract]]保存747/813的Rac/P/Ap和calibration采用链。mixed line的.37/.48与本文pure stretched dipole≈.8不同，不能仅凭经验阈值替换成某个pure multipole或唯一定delta。
 
 ## What It Can Establish
 
@@ -51,6 +59,8 @@ tags: [multipolarity, gamma-spectroscopy, angular-correlation]
 - [[lv-2021-tilted-precession-135nd]] 以 133.6°+157.6° 对 75.5°+104.5°谱、相同 all-angle gates 构造 `R_ac`，并用它补充统计不足以获得 `R_DCO` 的弱 transitions。
 
 ## Sources
+
+- [[lv-2022-evidence-against-wobbling-135pr]] L22-16/17/18/19：135Pr原几何、A/P、宽度与shared-data边界。
 
 - [[ayangeakaa-2016-133ce-in-beam]]
 - [[petrache-2020-137nd-multiple-chiral-bands]]

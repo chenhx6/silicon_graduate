@@ -1,0 +1,185 @@
+{
+  "at": "2026-10-17T02:05:53.504895+08:00",
+  "checks": [
+    {
+      "check": "eol",
+      "command": [
+        "python3",
+        "system/scripts/clean_knowledge_eol_dirty.py"
+      ],
+      "exit_code": 1,
+      "accepted": true,
+      "substantive": [
+        "knowledge/index.md",
+        "knowledge/methods/dco-pdco-ambiguity-worksheet.md",
+        "knowledge/methods/linear-polarization-asymmetry.md",
+        "knowledge/methods/two-point-angular-correlation-ratio.md",
+        "knowledge/observables/multipole-mixing-ratio.md",
+        "knowledge/projects/135pr-wobbling-controversy.md",
+        "knowledge/sources/krane-steffen-1970-cd110-mixing-ratios.md",
+        "knowledge/sources/lv-2022-evidence-against-wobbling-135pr.md",
+        "knowledge/sources/matta-2015-transverse-wobbling-135pr.md"
+      ],
+      "classification": "Only own substantive changes retained; no unsafe/mixed or EOL-only content"
+    },
+    {
+      "check": "preflight",
+      "command": [
+        "python3",
+        "system/scripts/wiki_automation_preflight.py",
+        "--root",
+        "."
+      ],
+      "exit_code": 0
+    },
+    {
+      "check": "boundary",
+      "command": [
+        "python3",
+        "system/scripts/wiki_boundary_check.py",
+        "--root",
+        "."
+      ],
+      "exit_code": 0
+    },
+    {
+      "check": "lint",
+      "command": [
+        "python3",
+        "system/scripts/wiki_lint.py",
+        "--fail-on",
+        "error"
+      ],
+      "exit_code": 0,
+      "summary": [
+        "SUMMARY pages=609 wikilinks=6241 hashes=282 errors=0 warnings=146 info=2041"
+      ],
+      "warning_classes": {
+        "REACTION_PARSE": 3,
+        "CITATION_KEY_MISSING": 115,
+        "RAW_MISSING": 28
+      },
+      "errors": []
+    },
+    {
+      "check": "diff",
+      "command": [
+        "git",
+        "diff",
+        "--check"
+      ],
+      "exit_code": 0
+    }
+  ],
+  "report": {
+    "valid": true,
+    "missing_headings": []
+  },
+  "writeback": {
+    "valid": true,
+    "mode": "updated",
+    "knowledge_paths": [
+      "knowledge/methods/ado-covariance-calibration.md",
+      "knowledge/sources/zheng-2002-ado-coincidence-angular-anisotropy.md",
+      "knowledge/methods/angular-distribution.md",
+      "knowledge/sources/smith-2019-griffin-angular-correlation-analysis.md",
+      "knowledge/methods/angular-correlation.md",
+      "knowledge/sources/droste-1996-pdco-formalism.md",
+      "knowledge/sources/kramer-flecken-1989-use-dco-ratios.md",
+      "knowledge/index.md",
+      "knowledge/methods/event-mixing-statistics.md",
+      "knowledge/methods/dco-pdco-ambiguity-worksheet.md",
+      "knowledge/sources/krane-steffen-1970-cd110-mixing-ratios.md",
+      "knowledge/sources/rose-brink-1967-phase-defined-angular-distributions.md",
+      "knowledge/methods/dco-ratio.md",
+      "knowledge/observables/multipole-mixing-ratio.md",
+      "knowledge/research-notes/135pr-mixing-branch-input-contract.md",
+      "knowledge/sources/matta-2015-transverse-wobbling-135pr.md",
+      "knowledge/sources/lv-2022-evidence-against-wobbling-135pr.md",
+      "knowledge/sources/herzan-2015-193bi-spectroscopy.md",
+      "knowledge/methods/two-point-angular-correlation-ratio.md",
+      "knowledge/methods/linear-polarization-asymmetry.md",
+      "knowledge/projects/135pr-wobbling-controversy.md"
+    ],
+    "changed_paths": [
+      "knowledge/index.md",
+      "knowledge/methods/ado-covariance-calibration.md",
+      "knowledge/methods/angular-correlation.md",
+      "knowledge/methods/angular-distribution.md",
+      "knowledge/methods/dco-pdco-ambiguity-worksheet.md",
+      "knowledge/methods/dco-ratio.md",
+      "knowledge/methods/event-mixing-statistics.md",
+      "knowledge/methods/linear-polarization-asymmetry.md",
+      "knowledge/methods/two-point-angular-correlation-ratio.md",
+      "knowledge/observables/multipole-mixing-ratio.md",
+      "knowledge/projects/135pr-wobbling-controversy.md",
+      "knowledge/research-notes/135pr-mixing-branch-input-contract.md",
+      "knowledge/sources/droste-1996-pdco-formalism.md",
+      "knowledge/sources/kramer-flecken-1989-use-dco-ratios.md",
+      "knowledge/sources/krane-steffen-1970-cd110-mixing-ratios.md",
+      "knowledge/sources/lv-2022-evidence-against-wobbling-135pr.md",
+      "knowledge/sources/matta-2015-transverse-wobbling-135pr.md",
+      "knowledge/sources/smith-2019-griffin-angular-correlation-analysis.md",
+      "knowledge/sources/zheng-2002-ado-coincidence-angular-anisotropy.md"
+    ],
+    "change_check": "run-snapshot",
+    "error": null
+  },
+  "coverage": {
+    "valid": true,
+    "completed_day_indices": [
+      15
+    ],
+    "partial_day_indices": [
+      16
+    ],
+    "curriculum_cards_completed": 1,
+    "next_day_index": 16,
+    "error": null
+  },
+  "review_scope_proof": {
+    "knowledge/sources/krane-steffen-1970-cd110-mixing-ratios.md": {
+      "old_rows_unchanged": true,
+      "old_row_count": 4,
+      "page_review_unchanged": true
+    },
+    "knowledge/sources/droste-1996-pdco-formalism.md": {
+      "old_rows_unchanged": true,
+      "old_row_count": 3,
+      "page_review_unchanged": true
+    },
+    "knowledge/sources/kramer-flecken-1989-use-dco-ratios.md": {
+      "old_rows_unchanged": true,
+      "old_row_count": 8,
+      "page_review_unchanged": true
+    },
+    "knowledge/sources/matta-2015-transverse-wobbling-135pr.md": {
+      "old_rows_unchanged": true,
+      "old_row_count": 15,
+      "page_review_unchanged": true
+    },
+    "knowledge/sources/lv-2022-evidence-against-wobbling-135pr.md": {
+      "old_rows_unchanged": true,
+      "old_row_count": 15,
+      "page_review_unchanged": true
+    },
+    "knowledge/projects/135pr-wobbling-controversy.md": {
+      "old_rows_unchanged": true,
+      "old_row_count": 0,
+      "page_review_unchanged": true
+    }
+  },
+  "protected": {
+    "PLAN.md": true,
+    "raw/zotero/wiki-inbox.bib": true,
+    "system/scripts/run_daily_learning_daemon.py": true
+  },
+  "artifact_hash_checks": {
+    "script_output_match": true,
+    "frozen_input_output_match": true,
+    "AST_valid": true
+  },
+  "new_LaTeX_control_characters": [],
+  "index_before": "",
+  "next_prompt_exists": true
+}

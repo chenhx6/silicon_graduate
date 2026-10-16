@@ -66,6 +66,7 @@ tags: [110Cd, mixing-ratio, angular-correlation, vibrational-nucleus]
 | KS70-10 | TableII的818–658 direct corrected(A22,A44)=(.375±.050,.180±.050)；TableI的658门818行是(.481±.082,.155±.112)。两配置分开，TableIII最终delta818=−1.20±.15是network summary，不能再当独立数据和前述系数重复拟合。 | published-data-and-dependency | direct-and-self-audit | printed732 TableI gamma9/gamma3门；printed733 TableII/III | true |
 | KS70-11 | 放大原件读得nominal687（TableIII能量686.6）的delta=−1.1^(+.8/−.4)，natural Delta=−4.7^(+3.4/−1.7)。保留不对称误差，旧扫描歧义在此局部解决，原claims的review flags不清除。 | source-reading-resolution | direct | printed724 abstract；printed733 TableIII | true |
 | KS70-12 | Parent在abstract/Fig5是110mAg，文中采用253day历史半衰期；658/764/937门有90/135/180三角，885门只有90/180且只提取anisotropy。不能把全部表列强行当同样two-coefficient/full-Cov观测。 | measurement-identity-boundary | direct | printed724 abstract；printed729 source；printed730 angles；printed733 Fig5 | true |
+| KS70-13 | Eq5的每L因子为(-1)^(Ii−If+L) sqrt((2Ii+1)/(2pi)) / sqrt(2L+1)。把Rose–Brink Eq3.39的normalized a_RB定义代入，同一transition的ratio得到delta_KS(Lprime/L)=(-1)^(Lprime−L) delta_RB；相邻E2/M1为负号。该桥是两篇原式的代数核对，不是新的实验结果。 | cross-source-convention-derivation | direct-and-self-audit | printed727 Eq5/9；companion RB67-6的printed319 Eq3.39 | true |
 
 ## Summary
 
@@ -115,7 +116,7 @@ a_{D96}(TL)=\sqrt{8\pi k/(2I_i+1)}\,t_{KS70}(TL).
 
 共同positive normalization在同gamma的multipole ratio中抵消，故本例的`d_D96=a(E2)/a(M1)=delta_KS`。这与本任务probe→source的relative-basis负号是不同操作，不能误说两篇delta相反。两文共享BM理论定义，符合是一项定义/实现核对，不是新的独立实验。
 
-Eq5对Rose–Brink的**literal T_RB matrix ratio**给`delta_KS=−sqrt(3/5) [<Ii||T_E2||If>_RB/<Ii||T_M1||If>_RB]`。尚未把这个裸T比无条件命名为另文的delta：归一和发射notation要一并保存。Rose–Brink初态在左在此仍指**发射**，不能仅凭bra/ket位置把它叫作实际吸收。Eq12的Biedenharn–Rose转换又依赖gamma1/gamma2角色，两个BR/RB来源不是同一篇。
+Eq5对Rose–Brink的**literal T_RB matrix ratio**给`delta_KS=−sqrt(3/5) [<Ii||T_E2||If>_RB/<Ii||T_M1||If>_RB]`。本run随后定向原图核[[rose-brink-1967-phase-defined-angular-distributions]] RB67-6的Eq3.39，确认其每个振幅已除sqrt(2L+1)，所以同一E2/M1跃迁确为`delta_KS=−delta_RB`。这里的负号来自Eq5的L-dependent factor，不能把裸T比本身当delta。Rose–Brink初态在左在此仍指**发射**，不能仅凭bra/ket位置把它叫作实际吸收。Eq12的Biedenharn–Rose转换又依赖gamma1/gamma2角色，两个BR/RB来源不是同一篇。
 
 ### 实际818–658系数与derived列
 

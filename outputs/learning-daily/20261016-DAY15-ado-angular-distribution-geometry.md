@@ -92,6 +92,12 @@ Crossref/官方arXiv history核到2019NIM A922,47–63，DOI[10.1016/j.nima.2018
 
 Krane–Steffen1970的raw身份（11页）也核过，现阶段只读已有source摘要，原件主线和跨文献phase转换仍未完成；不计Day16正式学分。所有新增source/模型内容都在本Day15 run的partial16知识预习内，不打开17。
 
+### Day16预习：135Pr主线与标定原件
+
+本段另先[冻结primed回忆](20261016-DAY15-ado-angular-distribution-geometry-run-01/day16-pr135-branch-before-source-frozen.md)，再核原始hash并读Matta2015的6页文章（raw另有1页版权附页）、Lv2022主文6页/SI7页的实验—分析—反证—QTR主线。视觉检查Matta Fig1/2/TableI/Fig3、Lv Fig2/Table1、SI Eq1/2/Table1/Fig3–5；Herzan2015只定向核PDF7/10的a/Q原式与图，不称新通读20页。两DOI的Crossref身份另核，但metadata不作science evidence。
+
+[Matta source](../../knowledge/sources/matta-2015-transverse-wobbling-135pr.md) M15-16和[Lv source](../../knowledge/sources/lv-2022-evidence-against-wobbling-135pr.md) L22-16–19新增为self-audit，旧各1–15行及human-reviewed范围保留。[HE15-10](../../knowledge/sources/herzan-2015-193bi-spectroscopy.md)是Lv明示采用的Q校准，不是一场新的135Pr采集。完整QTR作者解释/反方仍见原project，本段不更新模式排序。
+
 ## Theory/analysis exercise
 
 ### 新ADO计算单
@@ -191,6 +197,22 @@ KS70原件11页（printed724–734）已完整读，放大Eq3–19与TableI–II
 Ref1 Kramer-Flecken1989的7页主线text也已重读，printed334原件清楚给门gamma1、待测gamma2：`W(theta1,theta2)=I_gamma2@theta2(Gate_gamma1@theta1)`，所以实验分式的分子是`I_gamma2@theta1(Gate_gamma1@theta2)`。**旧Wiki源页和DCO方法页将该实验式写成了倒数，原论文两个公式一致。** [KF89-9](../../knowledge/sources/kramer-flecken-1989-use-dco-ratios.md#2026-10-17使用更正实验dco分式)作current-use更正；源页原human-review状态/原1–8行保留历史，新9–14仅self-audit true。[DCO方法操作定义](../../knowledge/methods/dco-ratio.md#原件复核后的强度比与标签)已替换错误分式。物理发射先后、gate/observed与detector labels要逐项映射，R*的四种标签映射保存在source/worksheet，不只凭约.4认证源图标签。
 
 KF Table1还直接限制“sameL则R1”：nonstretched L2/L2可为.66/.57；其width半宽词未给指数，不自动等同D96 std。182-keV generic ratio可能是M2/E1，不把任意delta平方称E2fraction。178W I14是作者结合DCO/decay intensities在alignment假设下的采用值，非DCO直接唯一测量，source未见weakbranch不被本任务升级为敏感的排除。
+
+### Day16定向原件补核：RB67归一化与KS70符号桥
+
+[来源前primed回忆](20261016-DAY15-ado-angular-distribution-geometry-run-01/day16-rb67-before-source-frozen.md)于01:41冻结，之后核两原件hash并定向读RB67 PDF10/11/13/14/21、KS70 PDF4；原图实际检查KS Eq5及RB Eq3.39，不称新通读42页。RB67-6现有定义与observable原有E2/M1符号链为verified no-op；新增的是[canonical计算单的逐振幅推导/六坐标表](../../knowledge/methods/dco-pdco-ambiguity-worksheet.md#rosebrink归一化坐标的闭合)与KS70-13，明确同transition逐L的sqrt(2L+1)抵消后只余(-1)^(Lprime−L)。
+
+故相邻E2/M1的D96 d=KS delta=−RB delta；此前probe的负号是实现基底，对BR1953还须分别标第一/第二gamma。原系数两根在RB坐标只换成正号，A22线性项同时变号，A44/width不变；不能把符号改写当新分支或独立证据。不另造一组toy或把此核验计为正式Day16。
+
+### Day16实际摘要复算：A/P身份和共享校准
+
+[冻结输入](20261016-DAY15-ado-angular-distribution-geometry-run-01/day16-pr135-branch-calibration-input.json)身份DAY16-PREVIEW-PR135-PUBLISHED-OBSERVABLES-01，hash 1d8f5fedd1c6044c788b6a21274a058163abfa15d6150af7a30269350fc36861；[复算脚本](../../system/scripts/day16_pr135_branch_calibration.py)使用原表舍入数据与明示采用的Q，未创造raw counts或半整数响应。INGA/Matta表列A不等于JUROGAM/Lv主文P；Lv的SI Ap和主文P又是同一数据，不能两次计证据。
+
+由Herzan的Qpoint及Fig4的p0=.42、p1=−1.9e−4/keV，在747.3/813.2/450.2keV得到Q=.148787/.134271/.236763；SI Ap除Q后P=.040326/−.029791/−.071802，与主文.04/−.03/−.07及上下误差的印刷精度均闭合。只采用Q，a用Lv自己的.9844+2e−5 E，不复制Herzan的a。这是独立原件的归一化核对，未认证完整误差预算。
+
+取原四个calibration边际误差尺度作std的chosen sensitivity模型，截距/斜率相关各取−1/0/+1、a与Q cross block设零、计数比/能量固定。747/813/450的条件sigmaP在不相关模型为.027795/.032214/.015198；九点相关网格范围分别.018155–.034864、.022527–.039599、.005420–.020798。它们不是实验总误差/CI，真实count/background/P–Rac及calibration Cov仍缺。有限差分gradient与PSD传播通过；首轮仅NumPy bool的JSON序列化exit1，修为builtin bool后exit0，输入/科学容差未改，[执行记录](20261016-DAY15-ado-angular-distribution-geometry-run-01/day16-pr135-execution-history.json)保留失败。
+
+两篇已选delta的E2份额及字面误差端点像也分开保存：747为Matta [.5520,.6524]、Lv [.1262,.3225]；813为Matta [.6777,.7265]、Lv [.0679,.2064]。这些不是共同置信区间或显著性，说明已报告分支的模不同，换号不能消除；不推出absolute B(E2)。Lv Fig2旧小模再分析−.64/−.5与新数据−.47/−.37另标身份。完整表、公式和反证在[canonical合同](../../knowledge/research-notes/135pr-mixing-branch-input-contract.md)，而非只留outputs。
 
 ### Thematic REFLECT：响应、约定、候选与证据依赖
 
@@ -316,7 +338,7 @@ KF Table1还直接限制“sameL则R1”：nonstretched L2/L2可为.66/.57；其
     },
     {
       "knowledge": "knowledge/index.md",
-      "summary": "为正式Day15新ADO协方差方法及独立GRIFFIN source建立可检索入口。 新增event-mixing-statistics方法入口。 新增DCO/PDCO双解worksheet检索入口。",
+      "summary": "为正式Day15新ADO协方差方法及独立GRIFFIN source建立可检索入口。 新增event-mixing-statistics方法入口。 新增DCO/PDCO双解worksheet检索入口。；新增135Pr观测量/标定合同入口。",
       "anchor": "GRIFFIN的event-mixing/finite-response实验校验",
       "sources": [
         {
@@ -365,7 +387,7 @@ KF Table1还直接限制“sameL则R1”：nonstretched L2/L2可为.66/.57；其
     },
     {
       "knowledge": "knowledge/methods/dco-pdco-ambiguity-worksheet.md",
-      "summary": "新增D96整数点模型的exact同R双根、source近似点交叉表与probe/source F坐标核验；无实测RDCO、全局文献转换或Day16学分。 追加KS70 actualcorrected数据双根/矩形preimage/单位依赖、两原式BM桥、KF比值标签及跨source反思矩阵。",
+      "summary": "新增D96整数点模型的exact同R双根、source近似点交叉表与probe/source F坐标核验；无实测RDCO、全局文献转换或Day16学分。 追加KS70 actualcorrected数据双根/矩形preimage/单位依赖、两原式BM桥、KF比值标签及跨source反思矩阵。；补核RB Eq3.39逐振幅归一及KS Eq5的初态spin因子，闭合绝对width和相邻ratio符号。",
       "anchor": "精确同R双根与近似source点分开",
       "sources": [
         {
@@ -403,12 +425,20 @@ KF Table1还直接限制“sameL则R1”：nonstretched L2/L2可为.66/.57；其
         {
           "path": "knowledge/sources/smith-2019-griffin-angular-correlation-analysis.md",
           "locator": "SG19-10"
+        },
+        {
+          "path": "knowledge/sources/krane-steffen-1970-cd110-mixing-ratios.md",
+          "locator": "KS70-13"
+        },
+        {
+          "path": "knowledge/sources/rose-brink-1967-phase-defined-angular-distributions.md",
+          "locator": "RB67-6"
         }
       ]
     },
     {
       "knowledge": "knowledge/sources/krane-steffen-1970-cd110-mixing-ratios.md",
-      "summary": "完整核11页，补发射/BM单位与gamma-role约定、BR/RB来源区别、actual818系数/共享network与687不对称误差及precision边界；旧flags保留。",
+      "summary": "完整核11页，补发射/BM单位与gamma-role约定、BR/RB来源区别、actual818系数/共享network与687不对称误差及precision边界；旧flags保留。；补核RB Eq3.39逐振幅归一及KS Eq5的初态spin因子，闭合绝对width和相邻ratio符号。",
       "anchor": "2026-10-17原件复核：发射约定、实际数据与精度边界",
       "sources": [
         {
@@ -426,6 +456,14 @@ KF Table1还直接限制“sameL则R1”：nonstretched L2/L2可为.66/.57；其
         {
           "path": "knowledge/sources/krane-steffen-1970-cd110-mixing-ratios.md",
           "locator": "KS70-11"
+        },
+        {
+          "path": "knowledge/sources/krane-steffen-1970-cd110-mixing-ratios.md",
+          "locator": "KS70-13"
+        },
+        {
+          "path": "knowledge/sources/rose-brink-1967-phase-defined-angular-distributions.md",
+          "locator": "RB67-6"
         }
       ]
     },
@@ -465,7 +503,7 @@ KF Table1还直接限制“sameL则R1”：nonstretched L2/L2可为.66/.57；其
     },
     {
       "knowledge": "knowledge/observables/multipole-mixing-ratio.md",
-      "summary": "以原始KS70/D96算符补充现有约定链，区分magneticminus/共同归一、gamma-role与不同BR/RB、坐标改写和真实双根，链接新worksheet/原件更正。",
+      "summary": "以原始KS70/D96算符补充现有约定链，区分magneticminus/共同归一、gamma-role与不同BR/RB、坐标改写和真实双根，链接新worksheet/原件更正。；补核RB Eq3.39逐振幅归一及KS Eq5的初态spin因子，闭合绝对width和相邻ratio符号。",
       "anchor": "2026-10-17原始振幅定义复核补充",
       "sources": [
         {
@@ -479,6 +517,148 @@ KF Table1还直接限制“sameL则R1”：nonstretched L2/L2可为.66/.57；其
         {
           "path": "knowledge/sources/droste-1996-pdco-formalism.md",
           "locator": "DR96-5"
+        },
+        {
+          "path": "knowledge/sources/krane-steffen-1970-cd110-mixing-ratios.md",
+          "locator": "KS70-13"
+        },
+        {
+          "path": "knowledge/sources/rose-brink-1967-phase-defined-angular-distributions.md",
+          "locator": "RB67-6"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/research-notes/135pr-mixing-branch-input-contract.md",
+      "summary": "逐线A/P/Rac/delta数据身份、Q采用链、共享校准条件Cov与辐射份额端点；不作actual refit/CI或模式裁决。；保存Matta后续全文的注册候选及实际访问边界，不以metadata代正文。",
+      "anchor": "独立标定闭合了 Ap 与 P 的中央值",
+      "sources": [
+        {
+          "path": "knowledge/sources/matta-2015-transverse-wobbling-135pr.md",
+          "locator": "M15-16"
+        },
+        {
+          "path": "knowledge/sources/lv-2022-evidence-against-wobbling-135pr.md",
+          "locator": "L22-16"
+        },
+        {
+          "path": "knowledge/sources/lv-2022-evidence-against-wobbling-135pr.md",
+          "locator": "L22-17"
+        },
+        {
+          "path": "knowledge/sources/lv-2022-evidence-against-wobbling-135pr.md",
+          "locator": "L22-18"
+        },
+        {
+          "path": "knowledge/sources/lv-2022-evidence-against-wobbling-135pr.md",
+          "locator": "L22-19"
+        },
+        {
+          "path": "knowledge/sources/herzan-2015-193bi-spectroscopy.md",
+          "locator": "HE15-10"
+        },
+        {
+          "path": "knowledge/sources/matta-2015-transverse-wobbling-135pr.md",
+          "locator": "M15-17"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/sources/matta-2015-transverse-wobbling-135pr.md",
+      "summary": "添加A而非P的observable身份及双campaign/缺输入边界；旧1–15行/人审范围保持。；保存Matta后续全文的注册候选及实际访问边界，不以metadata代正文。",
+      "anchor": "2026-10-17定向复核：A与P的数据身份",
+      "sources": [
+        {
+          "path": "knowledge/sources/matta-2015-transverse-wobbling-135pr.md",
+          "locator": "M15-16"
+        },
+        {
+          "path": "knowledge/sources/matta-2015-transverse-wobbling-135pr.md",
+          "locator": "M15-17"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/sources/lv-2022-evidence-against-wobbling-135pr.md",
+      "summary": "补主文P与SI Ap、角组/gate和Q/a采用关系、sigma字面与Cov边界、旧曲线再分析；旧1–15保持。",
+      "anchor": "2026-10-17定向复核：标定谱系与逐量对齐",
+      "sources": [
+        {
+          "path": "knowledge/sources/lv-2022-evidence-against-wobbling-135pr.md",
+          "locator": "L22-16"
+        },
+        {
+          "path": "knowledge/sources/lv-2022-evidence-against-wobbling-135pr.md",
+          "locator": "L22-17"
+        },
+        {
+          "path": "knowledge/sources/lv-2022-evidence-against-wobbling-135pr.md",
+          "locator": "L22-18"
+        },
+        {
+          "path": "knowledge/sources/lv-2022-evidence-against-wobbling-135pr.md",
+          "locator": "L22-19"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/methods/two-point-angular-correlation-ratio.md",
+      "summary": "以135Pr原式区分all-angle gated Rac与交换角DCO，保留门/finite joint迁移条件。",
+      "anchor": "135Pr原式与门条件边界",
+      "sources": [
+        {
+          "path": "knowledge/sources/lv-2022-evidence-against-wobbling-135pr.md",
+          "locator": "L22-17"
+        },
+        {
+          "path": "knowledge/sources/zheng-2002-ado-coincidence-angular-anisotropy.md",
+          "locator": "Z02-9"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/methods/linear-polarization-asymmetry.md",
+      "summary": "A/P跨表闭合、Q采用不连带a、共享校准/事件与只用符号的限制。",
+      "anchor": "135Pr的A与P跨表闭合",
+      "sources": [
+        {
+          "path": "knowledge/sources/matta-2015-transverse-wobbling-135pr.md",
+          "locator": "M15-16"
+        },
+        {
+          "path": "knowledge/sources/lv-2022-evidence-against-wobbling-135pr.md",
+          "locator": "L22-16"
+        },
+        {
+          "path": "knowledge/sources/lv-2022-evidence-against-wobbling-135pr.md",
+          "locator": "L22-17"
+        },
+        {
+          "path": "knowledge/sources/herzan-2015-193bi-spectroscopy.md",
+          "locator": "HE15-10"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/projects/135pr-wobbling-controversy.md",
+      "summary": "追加新input/calibration合同回链，原人审与模式分歧保留，下一目标为完整原始分析。",
+      "anchor": "2026-10-17输入身份与标定补核",
+      "sources": [
+        {
+          "path": "knowledge/sources/matta-2015-transverse-wobbling-135pr.md",
+          "locator": "M15-16"
+        },
+        {
+          "path": "knowledge/sources/lv-2022-evidence-against-wobbling-135pr.md",
+          "locator": "L22-16"
+        },
+        {
+          "path": "knowledge/sources/lv-2022-evidence-against-wobbling-135pr.md",
+          "locator": "L22-19"
+        },
+        {
+          "path": "knowledge/sources/herzan-2015-193bi-spectroscopy.md",
+          "locator": "HE15-10"
         }
       ]
     }
@@ -502,7 +682,7 @@ L0完成Zheng主线；L1把source/方法/observable连通；L2完成有输入/ha
 
 计算脚本实际exit0；PSD、解析/数值梯度、独立ordered-pair、共同scale抵消、不可识别族和200000次MC均通过。图的panel alignment、glyph（minimum7pt）和collision（0fail/0warn）通过；source validator最终exit0、0fail，保留4项warning：仅交付PNG预览而非TIFF投稿栅格、300非600dpi、通用demo警告和MC/uncertainty模式误报。前两项符合本日报SVG/PDF+预览合同；后两项由显著自设标识及直接画sigma解释，不虚报实验。首次source audit的export/DPI失败及修正保留于[figure QA](20261016-DAY15-ado-angular-distribution-geometry-run-01/figure-qa.json)。
 
-首轮仓库lint实际exit1（本次新method缺5个固定英文schema标题，且inline数组被当wikilink），已修复并重跑exit0、0error/145warning（3reaction parser、114citation key、28既有raw slots）；全局diff exit0。新增GRIFFIN source后fresh lint实际exit0、0error/146warning（3reaction parser、115citation key、28既有raw slots）；boundary/diff/preflight exit0。EOL exit1按治理规则分类为4份本次substantive知识改动、0unsafe/mixed，均保留。实际runner report/writeback/partial curriculum校验通过，[检查回执](20261016-DAY15-ado-angular-distribution-geometry-run-01/prepublication-checks-002.json)和[同session续接](20261016-DAY15-ado-angular-distribution-geometry-run-01/continuation.md)已保存。检查点稳定指针：main / `Establish DAY15 ADO covariance and independent response evidence`，H3/push结果只写run receipt。首批44-path检查点的H3 fresh fetch/ancestry/dry-run/non-force push均exit0，实际结果见[发布回执](20261016-DAY15-ado-angular-distribution-geometry-run-01/publication-001.json)。新增统计与软件补充的fresh boundary/lint/diff均exit0、lint0error/146warning，截至检查点002的七页writeback实际runner验收通过；当前十三项writeback已由run入口snapshot验证（verification-checkpoint-003-expanded.json），覆盖十三份canonical页；检查点002稳定指针：main / `Extend DAY15 event-mixing statistics and audit formal card completion`，actual H3/push只看publication002。原15:00研究截止不变，formal15完成与window仍active分开。
+首轮仓库lint实际exit1（本次新method缺5个固定英文schema标题，且inline数组被当wikilink），已修复并重跑exit0、0error/145warning（3reaction parser、114citation key、28既有raw slots）；全局diff exit0。新增GRIFFIN source后fresh lint实际exit0、0error/146warning（3reaction parser、115citation key、28既有raw slots）；boundary/diff/preflight exit0。EOL exit1按治理规则分类为4份本次substantive知识改动、0unsafe/mixed，均保留。实际runner report/writeback/partial curriculum校验通过，[检查回执](20261016-DAY15-ado-angular-distribution-geometry-run-01/prepublication-checks-002.json)和[同session续接](20261016-DAY15-ado-angular-distribution-geometry-run-01/continuation.md)已保存。检查点稳定指针：main / `Establish DAY15 ADO covariance and independent response evidence`，H3/push结果只写run receipt。首批44-path检查点的H3 fresh fetch/ancestry/dry-run/non-force push均exit0，实际结果见[发布回执](20261016-DAY15-ado-angular-distribution-geometry-run-01/publication-001.json)。新增统计与软件补充的fresh boundary/lint/diff均exit0、lint0error/146warning，截至检查点002的七页writeback实际runner验收通过；当前十九项writeback已由run入口snapshot验证（verification-checkpoint-003-expanded.json），覆盖十三份canonical页；检查点002稳定指针：main / `Extend DAY15 event-mixing statistics and audit formal card completion`，actual H3/push只看publication002。原15:00研究截止不变，formal15完成与window仍active分开。
 
 ### Day 15 card completion audit
 
@@ -514,7 +694,7 @@ L0完成Zheng主线；L1把source/方法/observable连通；L2完成有输入/ha
 | 不确定度与图 | [敏感性SVG](20261016-DAY15-ado-angular-distribution-geometry-run-01/ado-covariance-sensitivity.svg)、[figure QA](20261016-DAY15-ado-angular-distribution-geometry-run-01/figure-qa.json)，解析/MC与chosen Cov见计算JSON；原Fig1不作实验sigma | complete |
 | convention注记 | 本日报逐项表，source Z02-6/9/10及canonical方法页 | complete |
 | 反证与必要观测 | [换门/有限几何控制](../../knowledge/methods/ado-covariance-calibration.md#换门与有限几何的失败控制)；[SG19-6](../../knowledge/sources/smith-2019-griffin-angular-correlation-analysis.md#key-results) PDF7 Fig3的已知pure-E2反证及逐pair/E-M companion | complete |
-| 知识/检查/续接/receipt/发布 | 唯一writeback（截至检查点002七项，当前十三项）、[fresh checks](20261016-DAY15-ado-angular-distribution-geometry-run-01/verification-checkpoint-002-extended.json)、[continuation](20261016-DAY15-ado-angular-distribution-geometry-run-01/continuation.md)、[run receipt](20261016-DAY15-ado-angular-distribution-geometry-run-01/run.json)、[首批实际H3/push](20261016-DAY15-ado-angular-distribution-geometry-run-01/publication-001.json)；[次日独立入口](prompts/20261017-DAY16-dco-rdco-mixing-ratio-convention.md) | complete |
+| 知识/检查/续接/receipt/发布 | 唯一writeback（截至检查点002七项，当前十九项）、[fresh checks](20261016-DAY15-ado-angular-distribution-geometry-run-01/verification-checkpoint-002-extended.json)、[continuation](20261016-DAY15-ado-angular-distribution-geometry-run-01/continuation.md)、[run receipt](20261016-DAY15-ado-angular-distribution-geometry-run-01/run.json)、[首批实际H3/push](20261016-DAY15-ado-angular-distribution-geometry-run-01/publication-001.json)；[次日独立入口](prompts/20261017-DAY16-dco-rdco-mixing-ratio-convention.md) | complete |
 
 本表七行均已complete；依据本session实际交付与首批H3发布计Day15，Day14的partial15/成绩/脚本不授本日学分。新增扩展研究继续按其实际检查/发布执行，不将本卡完成当整个研究时段结束。
 
@@ -529,6 +709,12 @@ CERN150008后续有界访问实际返回bot-verification页面，未取得正文
 
 00:01:15上海时间再次调用clock，原run_date仍2026-10-16，距同一2026-10-17 15:00截止898.7分钟；环境日期变化不重置run或deadline。继续partial16，不因card15/两批push完成而收束。
 
-01:36:31再次调用clock，距原硬截止约803.5分钟。课程文件已在实际publication002后对账next16/count15，第二次应用不重复增计；本run仍running。检查点003包含本次partial16实质增量，十三项writeback、旧审核范围与受保护文件重新核验；最新实际退出码与警告分类见[prepublication003](20261016-DAY15-ado-angular-distribution-geometry-run-01/verification-prepublication-003.json)。本批已提交，稳定指针为main / `Verify Day16 mixing-ratio phases and correct DCO ratio transcription`；其实际H3/push结果只由publication003回执确认。下一问题为Rose–Brink normalized振幅约定，尚未开始原件复核。
+01:36:31再次调用clock，距原硬截止约803.5分钟。课程文件已在实际publication002后对账next16/count15，第二次应用不重复增计；本run仍running。检查点003包含本次partial16实质增量，十三项writeback、旧审核范围与受保护文件重新核验；最新实际退出码与警告分类见[prepublication003](20261016-DAY15-ado-angular-distribution-geometry-run-01/verification-prepublication-003.json)。本批已提交，稳定指针为main / `Verify Day16 mixing-ratio phases and correct DCO ratio transcription`；其实际H3/push结果只由publication003回执确认。后续Rose–Brink normalized振幅约定已按上文定向原件闭合；下一步重建候选池并选A≈130的实际分支判别问题。
 
 检查点003最新实测：boundary/preflight/lint/diff均exit0，lint0error/146warnings（115citation key、28raw占位、3reaction parser）；EOL exit1为7项本批substantive、0unsafe/mixed且全部保留。脚本AST与结果中的script hash吻合，KS1–4/DR1–3/KF1–8及page review逐行不变，受保护文件hash不变。
+
+01:58:20时间核对，距原硬截止约781.7分钟，window仍active，state16/count15不变。publication003实际H3/非force push均exit0且remote HEAD吻合；本段新增源/标定合同后继续知识写回与fresh核验，Day16只partial、不授卡。Google Scholar thesis检索一次超时，Figshare API403、CurateND目录202空body，均不称取得论文或原样重试；下一有界路线为DOI注册/机构元数据，未用重复toy填时段。
+
+针对Matta后续全文的精炼DataCite检索找到候选DOI10.7274/sj13902283h；题名/creator/year符合线索，但registry资源型仅Text、无contentURL，机构正文未取得。该线索和失败边界已写M15-17及canonical合同Open Questions；不能把登记文本直接宣称为已读PhD。完整记录见[discovery summary](20261016-DAY15-ado-angular-distribution-geometry-run-01/day16-matta-discovery-summary.json)。十九项writeback实际检查21条knowledge/source路径，19页相对入口有改动；首轮机器验收因三个缺失direct source链接失败，补足真实回链后通过，未放宽验收或改变科学输入。
+
+检查点004 fresh核验实际通过：[verification-prepublication-004](20261016-DAY15-ado-angular-distribution-geometry-run-01/verification-prepublication-004.json)。boundary/preflight/lint/diff均exit0，lint0error/146warnings（115citation key、28raw占位、3reaction parser）；EOL exit1为9项own substantive/0unsafe保留。19项writeback/21checkedpaths/19changed、report/card/旧review/protected和script/input hash均通过。本批已提交，稳定指针：main / `Audit 135Pr observable identities and shared calibration response`；实际H3/push只看publication004，goal/window持续active。

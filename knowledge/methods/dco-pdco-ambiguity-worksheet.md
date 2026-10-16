@@ -79,6 +79,39 @@ d_{D96}=\delta_{KS}\quad(\hbox{同一gamma的E2/M1}).
 
 KS70 Eq10的B(first photon)有负线性干涉项，Eq11的A(second photon)有正干涉项。Eq12的BR是**Biedenharn–Rose1953**：gamma1处delta_KS=−delta_BR，gamma2处=+delta_BR；Eq5的**Rose–Brink1967**是另一份state-order/operator-normalization映射。initial-left在这里仍指发射notation，不仅凭bra/ket位置改叫实际吸收。裸T_RB比还需sqrt(2L+1)归一，不能直接同名替换。
 
+### Rose–Brink归一化坐标的闭合
+
+本run针对[[rose-brink-1967-phase-defined-angular-distributions]] RB67-6的printed319/PDF14 Eq3.39及KS70 printed727/PDF4 Eq5作定向原图复核；RB67-6已有的a_RB定义与observable中的E2/M1符号链获确认，没有新的人审或新实验。
+
+令`a_RB(TL)=<Ii||T_L||If>/sqrt(2L+1)`，则KS70 Eq5逐L给
+
+\[
+t_{KS}(TL)=(-1)^{I_i-I_f+L}\sqrt{\frac{2I_i+1}{2\pi}}\,a_{RB}(TL).
+\]
+
+放大KS70 Eq5确认共同因子是2Ii+1（初态），不是2If+1；本段首份未发布草稿的下标误读已修正。与D96桥相乘后得到`a_D96(TL)=(-1)^(Ii−If+L) 2sqrt(k) a_RB(TL)`，其平方和回到RB67 Eq3.29的`Gamma_gamma=4k sum|a_RB|²`。这是absolute normalization的反向检查，非新增实验。
+
+同一transition的spin normalization和共同state phase抵消。因此
+
+\[
+\frac{t_{KS}(T'L')}{t_{KS}(TL)}=(-1)^{L'-L}\frac{a_{RB}(T'L')}{a_{RB}(TL)}.
+\]
+
+对本页相邻E2/M1坐标：`d_D96=delta_KS=−delta_RB`；冻结probe的相对坐标`delta_probe=−d_D96`于是数值等于delta_RB，但这是逐定义闭合后的结果，不能由两个相似符号猜测。高阶与低阶相差偶数时该L-phase为正；不把这里的E2/M1符号链无条件套到任意两算符。
+
+从KS70实际系数方程代换`delta_KS=−delta_RB`，RB形式的A22线性项变为正，A44及所有delta平方份额不变。原两根`−1.426985941/−.194000621`只是在RB坐标中写成`+1.426985941/+.194000621`，并未增加物理候选。若只改delta符号而不改几何/干涉项，预测会变；只核width或pure limits检测不到此错误。精确裸T比还差sqrt(5/3)，不能再把它当已归一delta。
+
+| 同一E2/M1物理振幅的坐标 | 对d_D96的关系 | 角色限制 |
+| --- | --- | --- |
+| D96 Eq3/5 | d_D96 | 当前source BM定义 |
+| KS70 Eq4/9 | +d_D96 | 同BM算符、同transition |
+| RB67 Eq3.39 | −d_D96 | normalized interaction RME；初态在左仍是emission |
+| Biedenharn–Rose1953 γ1 | −d_D96 | KS70 Eq12第一条populating gamma |
+| Biedenharn–Rose1953 γ2 | +d_D96 | KS70 Eq12第二条radiating gamma |
+| 本任务冻结probe | −d_D96 | 固定implementation basis，不是另一实验约定 |
+
+此表的source/坐标桥与候选多解分开保存；同一transition的符号重写不是统计独立证据。source边界见KS70-13及RB67-6，原审核状态保持。
+
 ## 精确同R双根与近似source点分开
 
 从上述模型的pure dipole预测固定`R*=.4062005480`，这是主动构造的逆问题witness，未伪装成观测数据。在M1/E2假设下，R是两个quadratic forms的比；同R约束给source振幅坐标的两根

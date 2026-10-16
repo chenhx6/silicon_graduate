@@ -1,0 +1,25 @@
+{
+  "scope": "Discovery only; body not obtained",
+  "registered_candidate": {
+    "doi": "10.7274/sj13902283h",
+    "title": "Exotic Nuclear Excitations: The Transverse Wobbling Mode in 135Pr",
+    "creator": "J.T. Matta",
+    "year": 2015,
+    "publisher": "Curate ND",
+    "url": "https://curate.nd.edu/show/sj13902283h",
+    "registry_type": "Text; not independently proof of dissertation identity or access"
+  },
+  "access_boundaries": [
+    "GoogleScholar MCP timeout",
+    "Figshare public API403",
+    "CurateND search/home202 empty body",
+    "doi.org landing ConnectionError",
+    "DataCite registry200, no contentURL/files"
+  ],
+  "next_route": "Only use a newly exposed public file or independent institutional catalog; do not unchanged retry failed web routes",
+  "not_claimed": [
+    "thesis fulltext obtained",
+    "actual spectra/Q/covariance obtained",
+    "new scientific result from title/metadata"
+  ]
+}

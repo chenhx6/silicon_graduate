@@ -50,7 +50,7 @@
   "active_recall_sha256": "91eee8abb4bce71d0447617b1d5cb0d64240259115b9522a012963872cb25c67",
   "continuation_prompt": "/workspace/wiki/outputs/learning-daily/20261016-DAY15-ado-angular-distribution-geometry-run-01/continuation.md",
   "research_checkpoint": "/workspace/wiki/outputs/learning-daily/20261016-DAY15-ado-angular-distribution-geometry-run-01/research-checkpoint.json",
-  "last_agent_checkpoint_at": "2026-10-17T01:37:55.055316+08:00",
+  "last_agent_checkpoint_at": "2026-10-17T02:04:42.061260+08:00",
   "agent_goal_state": "active",
   "publications": [
     {
@@ -68,6 +68,14 @@
       "commit_hash": "d87c83dfa4b4c74c9b8f96bd1c19daa31518e8e5",
       "status": "checkpoint-pushed",
       "receipt": "outputs/learning-daily/20261016-DAY15-ado-angular-distribution-geometry-run-01/publication-002.json"
+    },
+    {
+      "checkpoint": 3,
+      "branch": "main",
+      "subject": "Verify Day16 mixing-ratio phases and correct DCO ratio transcription",
+      "commit_hash": "8eaef6fc2f0f6a09fb7798d5724fd672cc207540",
+      "status": "checkpoint-pushed",
+      "receipt": "outputs/learning-daily/20261016-DAY15-ado-angular-distribution-geometry-run-01/publication-003.json"
     }
   ],
   "formal_day15_card_audit": "complete",
@@ -88,5 +96,5 @@
     "run_window_complete": false
   },
   "study_window_status": "active-partial16",
-  "latest_verification": "outputs/learning-daily/20261016-DAY15-ado-angular-distribution-geometry-run-01/verification-prepublication-003.json"
+  "latest_verification": "outputs/learning-daily/20261016-DAY15-ado-angular-distribution-geometry-run-01/verification-prepublication-004.json"
 }

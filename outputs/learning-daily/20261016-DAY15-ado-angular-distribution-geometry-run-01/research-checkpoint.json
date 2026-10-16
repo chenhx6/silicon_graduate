@@ -1,5 +1,5 @@
 {
-  "captured_at": "2026-10-17T01:37:55.055316+08:00",
+  "captured_at": "2026-10-17T02:04:42.061260+08:00",
   "session_id": "01a14510-aec7-7e00-aa23-f7c77a5124bc",
   "run_id": "2026-10-16-day-15-01",
   "hard_deadline": "2026-10-17T15:00:00+08:00",
@@ -121,7 +121,7 @@
       "visual_appendix": "A.10–A.19 whole-page contact sheets; no precise covariance digitization"
     }
   },
-  "current_status": "Card15 complete; state16/count15; windowactive. Partial16 D96/KS70/KF89 mainline and phase/ratio correction complete, thirteen mapped writebacks; preparing packet003. Noformal16/no17.",
+  "current_status": "Formal15complete/credited once; next16/count15; windowactive. Partial16 source phase bridge normalized and actualPr135 A/P calibration identity complete; 19writebackitems/21checkedpaths/19changed. Noformal16/no17.",
   "worksheet": {
     "input_sha256": "e8e31f0691862296b62adffb34e6e5395d22ba6cdc59f629a00c71a89eeadf04",
     "script": "system/scripts/day15_ado_covariance_worksheet.py",
@@ -131,9 +131,9 @@
     "figure_source_warnings": 4
   },
   "next_actions": [
-    "Fresh prepublication003 checks, explicit packet003 and H3 push",
-    "Freeze then inspect Rose–Brink normalized delta original against KS Eq5",
-    "Rebuild candidate pool within current15 and uncredited16; keep original15:00 deadline"
+    "Fresh checks and exact publication004 with prior publication003 receipt",
+    "Inspect supporting Sensharma2026 original chi-square/data-availability within same135Pr branch problem; not an independent olddata campaign",
+    "Rebuild current/partial16 candidate pool with freshclock; noDay17 and no new credit"
   ],
   "mixed_event_analysis": {
     "input_sha256": "b0a0bb6503d01e8dc432e1a866960872b4fbc1bebd89a1737ca766eab9bab72c",
@@ -224,5 +224,23 @@
       "no_joint_confidence": true
     },
     "convention_bridge": "same BM: a_D96=positivecommonfactor*t_KS, E2/M1 ratios same; probebasisminus distinct; BR/Biedenharn–Rose role map differs from Rose–Brink operator map"
+  },
+  "pr135_branch_contract": {
+    "canonical": "knowledge/research-notes/135pr-mixing-branch-input-contract.md",
+    "script": "system/scripts/day16_pr135_branch_calibration.py",
+    "result": "day16-pr135-branch-calibration.json",
+    "kind": "published-summary calibration replay, not counts or delta refit",
+    "Q_adopted": [
+      0.14878680761125632,
+      0.13427094295315378,
+      0.2367627767999923
+    ],
+    "P_reconstructed": [
+      0.04032615590272317,
+      -0.029790510977461243,
+      -0.071801827254125
+    ],
+    "true_covariance_available": false,
+    "thesis_candidate": "10.7274/sj13902283h; metadata only/body not obtained"
   }
 }

@@ -3,7 +3,7 @@ type: source
 title: "Transverse wobbling in 135Pr"
 aliases: [Matta 2015 135Pr, transverse wobbling in 135Pr]
 created: 2026-07-03
-updated: 2026-07-03
+updated: 2026-10-17
 status: active
 review_status: human-reviewed
 source_type: journal-article-experiment-and-model
@@ -77,6 +77,8 @@ J. T. Matta et al., *Physical Review Letters* **114**, 082501 (2015)，DOI `10.1
 | M15-13 | 修改的 QTR 用 `J_m,J_s,J_l=7.4,5.6,1.8 ħ²/MeV` 和 `c=0.116` 拟合 zero-/one-phonon 能量；作者指出该拟合转动惯量比避免了 TAC 转动惯量导致的 transverse regime 过早坍塌。 | model-result | direct | p.4, right column; p.5; Fig.5 | false |
 | M15-14 | QTR 对 zero-/one-phonon 能量及强 nonstretched E2 分量给出定性一致，但低估 `B(E2_out)`、高估 `B(M1_out)`；Table I 显示实验与 QTR 的跃迁概率比并非逐项一致。 | model-result | direct | pp.4-5, Table I, Fig.5 | false |
 | M15-15 | QTR 还预测 one-quasiproton signature partner，但其激发能约高估 500 keV；TAC 对该 signature-partner 激发能给出更接近实验的结果。 | model-result | direct | p.5, left column, paragraph above Summary; Figs.4-5 | false |
+| M15-16 | Table I的0.047/0.054是INGA count asymmetry A，Fig3纵轴有aNperp与Nparallel的归一化分式，不是已除Q的P。本文的angular-distribution数据来自另一次Gammasphere acquisition；短文未列该INGA的逐线Q(E)/a(E)系数、原始双向计数或完整Cov，不能把表列A直接与另一阵列P数值比较。 | observable-identity-and-readiness | direct-and-self-audit | printed082501-2实验；printed082501-3分析段；printed082501-4 TableI/Fig3 | true |
+| M15-17 | 本文Ref21指向J.T.Matta的NotreDame2015 PhD thesis。新检索发现DataCite候选DOI10.7274/sj13902283h，注册题名Exotic Nuclear Excitations: The Transverse Wobbling Mode in 135Pr、creator J.T.Matta/year2015/publisher Curate ND；registry类型仅Text、无contentURL。候选登记不能代替机构/正文身份核验，当前未取得thesis正文、INGA Q或Cov。 | bibliographic-lead-boundary | metadata-and-self-audit | printed082501-6 Ref21；https://api.datacite.org/dois/10.7274/sj13902283h | true |
 
 ## Nuclear Structure Information
 
@@ -125,3 +127,11 @@ J. T. Matta et al., *Physical Review Letters* **114**, 082501 (2015)，DOI `10.1
 ## Personal Notes
 
 本页只建立 Matta 2015 的支持方证据链。用户已完成人工页面级审阅，并确认 M15-1 至 M15-15 与原文对照无误；这不构成对后续争议的裁决。
+
+## 2026-10-17定向复核：A与P的数据身份
+
+本次读6页文章主线及第7页版权附页，视觉核Fig1/2、TableI/Fig3；原SHA-256不变。原page级human-reviewed与M15-1–15逐字保留，新M15-16/17仅Codex self-audit、needs_review:true。原Personal Notes的用户审核范围仍限1–15，不扩到本节。
+
+[[135pr-mixing-branch-input-contract]]把本表与Lv22主文P及SI的Ap逐量对齐；INGA与JUROGAM II不能共用Q或a。角分布/Gammasphere与偏振/INGA是独立采集，但两者分析仍共享transition/spin/取向与理论约定；不能从不同campaign自动推出所有nuisance独立。新计算仅核已发表摘要和标定身份，没有重拟合本文angular distributions或裁决wobbling。
+
+后续全文入口：[注册DOI候选](https://doi.org/10.7274/sj13902283h)、[机构旧show记录](https://curate.nd.edu/show/sj13902283h)、[DataCite元数据](https://api.datacite.org/dois/10.7274/sj13902283h)。本run的GoogleScholar检索超时、Figshare API403、机构search/home202空body、doi landing ConnectionError已记录；未得到公开file URL，不原样重试失败入口，不以登记title补写全文结论。M15-17只是一项可恢复的文献线索。

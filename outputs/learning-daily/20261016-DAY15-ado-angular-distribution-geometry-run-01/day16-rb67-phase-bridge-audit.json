@@ -1,0 +1,28 @@
+{
+  "at": "2026-10-17T01:43:21.276146+08:00",
+  "originals": "day16-rb67-targeted-identity.json",
+  "primed_recall": "day16-rb67-before-source-frozen.md",
+  "checked_pixels": [
+    "KS70 printed727 Eq5",
+    "RB67 printed319 Eq3.39"
+  ],
+  "verified_no_op": [
+    "RB67 source existing RB67-6 definition",
+    "observable preexisting adjacent E2/M1 delta_KS=−delta_RB from LKH82"
+  ],
+  "durable_delta": [
+    "knowledge/sources/krane-steffen-1970-cd110-mixing-ratios.md KS70-13",
+    "knowledge/methods/dco-pdco-ambiguity-worksheet.md Rose–Brink归一化坐标的闭合"
+  ],
+  "formula": "t_KS(TL)=(-1)^(Ii-If+L)*sqrt((2Ii+1)/(2pi))*a_RB(TL)",
+  "ratio": "delta_KS(Lprime/L)=(-1)^(Lprime-L)*delta_RB",
+  "kind": "cross-source algebra, no new experimental dataset or independent evidence",
+  "formal_day16_credit": false,
+  "prepublication_transcription_correction": {
+    "first_draft": "sqrt(2If+1)",
+    "corrected": "sqrt(2Ii+1)",
+    "pixel_locator": "KS70 printed727 Eq5, enlarged raw crop ks70-eq5-large.png",
+    "reverse_check": "with a_D96=sqrt(8pi*k/(2Ii+1))*t_KS, gives a_D96=(-1)^(Ii-If+L)*2sqrt(k)*a_RB and Gamma=4k sum|a_RB|^2",
+    "effect": "Adjacent ratio sign unchanged; wrong absolute-spin factor corrected before any publication"
+  }
+}

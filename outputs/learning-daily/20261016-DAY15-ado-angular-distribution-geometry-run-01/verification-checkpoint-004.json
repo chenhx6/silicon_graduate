@@ -1,0 +1,82 @@
+{
+  "at": "2026-10-17T02:00:23.343751+08:00",
+  "checks": [
+    {
+      "check": "boundary",
+      "exit_code": 0
+    },
+    {
+      "check": "lint",
+      "exit_code": 0,
+      "summary": [
+        "SUMMARY pages=609 wikilinks=6237 hashes=282 errors=0 warnings=146 info=2040"
+      ],
+      "warning_classes": {
+        "REACTION_PARSE": 3,
+        "CITATION_KEY_MISSING": 115,
+        "RAW_MISSING": 28
+      },
+      "errors": []
+    },
+    {
+      "check": "diff",
+      "exit_code": 0
+    }
+  ],
+  "report": {
+    "valid": true,
+    "missing_headings": []
+  },
+  "writeback": {
+    "valid": false,
+    "mode": "updated",
+    "knowledge_paths": [
+      "knowledge/methods/ado-covariance-calibration.md",
+      "knowledge/sources/zheng-2002-ado-coincidence-angular-anisotropy.md",
+      "knowledge/methods/angular-distribution.md",
+      "knowledge/sources/smith-2019-griffin-angular-correlation-analysis.md",
+      "knowledge/methods/angular-correlation.md",
+      "knowledge/sources/droste-1996-pdco-formalism.md",
+      "knowledge/sources/kramer-flecken-1989-use-dco-ratios.md",
+      "knowledge/index.md",
+      "knowledge/methods/event-mixing-statistics.md"
+    ],
+    "changed_paths": [],
+    "change_check": "run-snapshot",
+    "error": "knowledge page does not link to source rose-brink-1967-phase-defined-angular-distributions"
+  },
+  "coverage": {
+    "valid": true,
+    "completed_day_indices": [
+      15
+    ],
+    "partial_day_indices": [
+      16
+    ],
+    "curriculum_cards_completed": 1,
+    "next_day_index": 16,
+    "error": null
+  },
+  "review_scope_proof": {
+    "knowledge/sources/matta-2015-transverse-wobbling-135pr.md": {
+      "old_rows_unchanged": true,
+      "old_row_count": 15,
+      "page_review_unchanged": true
+    },
+    "knowledge/sources/lv-2022-evidence-against-wobbling-135pr.md": {
+      "old_rows_unchanged": true,
+      "old_row_count": 15,
+      "page_review_unchanged": true
+    },
+    "knowledge/projects/135pr-wobbling-controversy.md": {
+      "old_rows_unchanged": true,
+      "old_row_count": 0,
+      "page_review_unchanged": true
+    }
+  },
+  "protected": {
+    "PLAN.md": true,
+    "raw/zotero/wiki-inbox.bib": true,
+    "system/scripts/run_daily_learning_daemon.py": true
+  }
+}

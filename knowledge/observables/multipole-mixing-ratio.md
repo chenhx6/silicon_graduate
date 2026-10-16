@@ -38,7 +38,7 @@ tags: [gamma-transition, multipolarity, wobbling]
 
 [[krane-steffen-1970-cd110-mixing-ratios]] KS70-5/6/7与[[droste-1996-pdco-formalism]] DR96-5补强上述约定链：KS70 Eq4b的magnetic显式负号和i^(L−1)必须一起保留，才得到D96 Eq5的i^(L+1)。同BM算符/初末态/单位下，`a_D96(TL)=sqrt(8pi k/(2Ii+1)) t_KS(TL)（发射RME，非U_lambda去取向）`，同gamma的E2/M1 ratio相同；这不是一个任意全局换号。
 
-KS70的B(first gamma)和A(second gamma)干涉项本来就不同，Eq12的BR是Biedenharn–Rose1953，Eq5的Rose–Brink1967是另一份operator/state-order映射。不能将initial-left emission notation直接认作吸收，也不能把bare T_RB matrix ratio省掉sqrt(2L+1)便叫作同一个delta。现有LKH82/RB67约定段保留，本次只是明确的primary-source桥，不把共同理论源当独立实验。
+KS70的B(first gamma)和A(second gamma)干涉项本来就不同，Eq12的BR是Biedenharn–Rose1953，Eq5的Rose–Brink1967是另一份operator/state-order映射。不能将initial-left emission notation直接认作吸收，也不能把bare T_RB matrix ratio省掉sqrt(2L+1)便叫作同一个delta。现有LKH82/RB67约定段保留，本次只是明确的primary-source桥，不把共同理论源当独立实验。 本次再由KS70-13与RB67-6逐定义闭合：`t_KS(TL)=(-1)^(Ii−If+L) sqrt((2Ii+1)/(2pi)) a_RB(TL)`，故ratio相差`(-1)^(Lprime−L)`；对相邻E2/M1，原有`delta_KS=−delta_RB`得到primary复核，未新增物理解。
 
 [[dco-pdco-ambiguity-worksheet]]提供D96模型及KS70实际818–658 corrected coefficients的条件双根；[[kramer-flecken-1989-use-dco-ratios]] KF89-9更正旧Wiki的实验R分式。**坐标/符号改写不是新增物理解；固定operators/cascade后同一观测的两个根才是逆问题的候选。** Phase、gamma角色、detector labels和核态顺序应与数据一起保存。
 

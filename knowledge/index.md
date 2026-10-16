@@ -558,6 +558,10 @@ updated: 2026-10-17
 - [[experimental-wobbling-evidence-strength-map]]
 - Updated [[low-spin-wobbling-controversies]] and [[nuclear-chirality-and-multiple-chiral-doublet-bands]].
 
+## Research Notes
+
+- [[135pr-mixing-branch-input-contract]] - 135Pr同线A/P/Rac/δ、采用Q与自有a的谱系、共享校准条件敏感性；不重拟合实际分支。
+
 ## Decisions and Failures
 
 尚无正式决策或失败记录。

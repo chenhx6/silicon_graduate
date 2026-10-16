@@ -1743,3 +1743,12 @@ Zobel1983六页/metadata/raw与958parent10个Pubfit rows，38-check条件Gaussia
 - KF89原件更正旧Wiki实验I分式倒置；原human-reviewed页/旧claim行保留，新更正仅self-audit。十三项writeback、旧review/protected与脚本输出hash验收通过。
 - fresh boundary/preflight/lint/diff exit0，lint0error/146warnings；EOL exit1为7项own substantive/0unsafe保留。研究仍active，下一核RB67归一振幅，不将checkpoint当收束。
 - 本批commit target：main / Verify Day16 mixing-ratio phases and correct DCO ratio transcription；实际H3/push结果只在publication003/runreceipt，exactmanifest排除raw/PLAN/Bib/daemon和继承receipts/旧log。
+
+## 2026-10-17 — Day15持续窗口：135Pr观测量与共享标定合同
+
+- Day15正式卡已计一次，课程next16/count15；当前19项writeback/21checkedpaths/19changed，Day16只partial、不授16/不开17，原15:00研究截止不改。
+- RB67/KS70逐振幅归一与初态spin因子经放大原图及总Gamma反向检查闭合；未发布草稿下标误读已修正，旧claim/review保留。
+- Matta A不同于Lv P；Lv采用Herzan Q同时使用自己的a，SI Ap及误差尺度可复现主文P舍入。新135Pr canonical合同/脚本保存共享校准条件Σ和辐射份额端点，未作actual delta refit、CI或模式裁决。
+- Matta完整分析仅发现DataCite候选10.7274/sj13902283h；registry Text/无file URL，机构全文未得，失败路径不原样重试。来源/原raw及M15/L22各旧15行的人审范围保留，新行仅self-audit。
+- fresh boundary/preflight/lint/diff exit0，lint0error/146warnings；EOL exit1为9项own substantive/0unsafe保留；输出script/input hash和AST通过。第一次writeback缺direct links已补，不放宽门。
+- 本批commit target：main / Audit 135Pr observable identities and shared calibration response；actual H3/push结果仅publication004/runreceipt。研究仍active，下一核SH26旧chi²/actual input可用性。

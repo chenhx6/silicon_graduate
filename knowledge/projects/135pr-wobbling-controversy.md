@@ -3,7 +3,7 @@ type: project
 title: "135Pr low-spin wobbling controversy"
 aliases: [135Pr wobbling controversy, 135Pr low-spin bands evidence map]
 created: 2026-07-03
-updated: 2026-09-13
+updated: 2026-10-17
 status: active
 review_status: human-reviewed
 project_stage: competing-evidence-matrix
@@ -218,3 +218,9 @@ Matta 2015 的 yrast/side-band pair 是否满足 transverse-wobbling 判据？Se
 ### Belief-revision conditions
 
 若公开原始 spectra、每环效率/响应文件、polarization calibration、`σ/I`、`R_ac` 和可执行 fit code，使三方对 746/812/754/450/642/573/477 keV 采用同一 likelihood/covariance 后仍只保留一支 mixing-ratio，wobbling/TiP/signature-partner 的排序才可更新。若 partner-resolved lifetime 和 absolute `B(E2)/B(M1)` 显示 DB1/DB2 明显不相同，则应下调 chiral-partner interpretation，但仍保留已观察到的 level scheme 和 links。
+
+## 2026-10-17输入身份与标定补核
+
+本段是Day15窗口内的Day16无学分预习，Codex self-audit，不扩张此前human-reviewed范围。[[135pr-mixing-branch-input-contract]]新增两原表的逐线A/P/Rac/δ合同、Lv采用Herzan Q但保留自有a的谱系（Q原件见[[herzan-2015-193bi-spectroscopy]] HE15-10）、Q变换的舍入闭合和共享校准的条件Σ；原M15-1–15/L22-1–15人审行及本project原判断保留。
+
+大/小模差异不能只靠KS/RB换号消除；Matta A与Lv P又不能直接比数值。实际共同响应/计数/背景及P–Rac Cov未得，新表不是raw likelihood重算，Sensharma2026与Guo/Lv的分支争议仍open，不形成wobbling/TiP排序。下一高价值输入是Matta完整分析/论文的实际角分布与INGA标定，而非重复绘制旧toy。

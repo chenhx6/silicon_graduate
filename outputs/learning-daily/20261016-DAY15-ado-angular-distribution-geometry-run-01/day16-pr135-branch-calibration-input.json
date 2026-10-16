@@ -1,0 +1,185 @@
+{
+  "data_identity": "DAY16-PREVIEW-PR135-PUBLISHED-OBSERVABLES-01",
+  "kind": "Published rounded summaries and adopted calibration; no raw counts or fit replay",
+  "sources": {
+    "matta": "knowledge/sources/matta-2015-transverse-wobbling-135pr.md",
+    "lv": "knowledge/sources/lv-2022-evidence-against-wobbling-135pr.md",
+    "Q": "knowledge/sources/herzan-2015-193bi-spectroscopy.md"
+  },
+  "energy_unit": "keV",
+  "dimensionless": [
+    "delta",
+    "asymmetry",
+    "P",
+    "a",
+    "Q"
+  ],
+  "electron_rest_energy_keV": "510.998950",
+  "electron_constant_scope": "Declared numerical constant for this replay, not exact 2015 constant reconstruction",
+  "matta_rows": [
+    {
+      "line": "747",
+      "E_keV": "747.0",
+      "Ji": "17/2-",
+      "Jf": "15/2-",
+      "delta": "-1.24",
+      "err_plus": "0.13",
+      "err_minus": "0.13",
+      "A": "0.047",
+      "A_plus": "0.012",
+      "A_minus": "0.012",
+      "P": null,
+      "locator": "M15-4; M15-5; printed082501-4 TableI"
+    },
+    {
+      "line": "813",
+      "E_keV": "812.8",
+      "Ji": "21/2-",
+      "Jf": "19/2-",
+      "delta": "-1.54",
+      "err_plus": "0.09",
+      "err_minus": "0.09",
+      "A": "0.054",
+      "A_plus": "0.034",
+      "A_minus": "0.034",
+      "P": null,
+      "locator": "M15-4; M15-5; printed082501-4 TableI"
+    },
+    {
+      "line": "755",
+      "E_keV": "754.6",
+      "Ji": "25/2-",
+      "Jf": "23/2-",
+      "delta": "-2.38",
+      "err_plus": "0.37",
+      "err_minus": "0.37",
+      "A": null,
+      "P": null,
+      "locator": "M15-4; printed082501-4 TableI"
+    },
+    {
+      "line": "594-control",
+      "E_keV": "593.9",
+      "Ji": "13/2-",
+      "Jf": "11/2-",
+      "delta": "-0.16",
+      "err_plus": "0.04",
+      "err_minus": "0.04",
+      "A": "-0.092",
+      "A_plus": "0.023",
+      "A_minus": "0.023",
+      "P": null,
+      "locator": "M15-6; printed082501-4 TableI"
+    }
+  ],
+  "lv_rows": [
+    {
+      "line": "747",
+      "E_keV": "747.3",
+      "Ei_keV": "1477.9",
+      "Ji": "17/2-",
+      "Jf": "15/2-",
+      "delta": "-0.47",
+      "err_plus": "0.09",
+      "err_minus": "0.22",
+      "Rac": "0.37",
+      "Rac_error": "0.04",
+      "A": "0.006",
+      "A_plus": "0.012",
+      "A_minus": "0.019",
+      "P": "0.04",
+      "P_plus": "0.08",
+      "P_minus": "0.13",
+      "pol_gate_keV": "450",
+      "locator": "L22-4; mainp3 Table1; SIp5 Table1; SIp3 Fig3 andp4"
+    },
+    {
+      "line": "813",
+      "E_keV": "813.2",
+      "Ei_keV": "2203.9",
+      "Ji": "21/2-",
+      "Jf": "19/2-",
+      "delta": "-0.37",
+      "err_plus": "0.10",
+      "err_minus": "0.14",
+      "Rac": "0.48",
+      "Rac_error": "0.06",
+      "A": "-0.004",
+      "A_plus": "0.007",
+      "A_minus": "0.016",
+      "P": "-0.03",
+      "P_plus": "0.05",
+      "P_minus": "0.12",
+      "pol_gate_keV": "796.4",
+      "locator": "L22-4; mainp3 Table1; SIp5 Table1; SIp3 Fig4 andp4"
+    },
+    {
+      "line": "450",
+      "E_keV": "450.2",
+      "Ei_keV": "1927.7",
+      "Ji": "19/2-",
+      "Jf": "17/2-",
+      "delta": "-0.31",
+      "err_plus": "0.10",
+      "err_minus": "0.13",
+      "Rac": "0.49",
+      "Rac_error": "0.04",
+      "A": "-0.017",
+      "A_plus": "0.022",
+      "A_minus": "0.023",
+      "P": "-0.07",
+      "P_plus": "0.09",
+      "P_minus": "0.10",
+      "pol_gate_keV": "747.3 narrow",
+      "locator": "L22-4; mainp3 Table1; SIp5 Table1; SIp3 Fig5 andp4"
+    }
+  ],
+  "lv_a": {
+    "intercept": "0.9844",
+    "intercept_error_scale": "0.0021",
+    "slope_per_keV": "0.00002",
+    "slope_error_scale_per_keV": "0.00001",
+    "locator": "Lv22 SI p1 Eq2 and text",
+    "covariance": "not supplied"
+  },
+  "adopted_Q": {
+    "p0": "0.42",
+    "p0_error_scale": "0.04",
+    "p1_per_keV": "-0.00019",
+    "p1_error_scale_per_keV": "0.00007",
+    "formula": "Q=Qpoint*(p0+p1*E); Qpoint=(1+x)/(1+x+x*x); x=E/(me*c*c)",
+    "locator": "Herzan15 PDF10 Fig4 and text; Lv22 SI p1 Ref6 adoption",
+    "covariance": "not supplied"
+  },
+  "sensitivity_model": {
+    "rho_a_values": [
+      -1,
+      0,
+      1
+    ],
+    "rho_Q_values": [
+      -1,
+      0,
+      1
+    ],
+    "cross_a_Q_covariance": "chosen zero for conditional sensitivity only",
+    "printed_error_scales": "Treated as marginal std only in chosen sensitivity model; not actual complete covariance",
+    "fixed": "published central count-ratio proxy; energy and Qpoint exact for this exercise",
+    "not_included": [
+      "count/background covariance",
+      "P-Rac event overlap",
+      "energy uncertainty",
+      "geometry/threshold transfer",
+      "INGA calibration",
+      "alignment/feeding priors"
+    ]
+  },
+  "boundaries": [
+    "No actual Nperp/Nparallel or new count dataset",
+    "No half-integer kernel evaluation or new spin assignment",
+    "Quoted endpoint images are not confidence intervals",
+    "P=A/Q reproduction checks printed rounding only, not proof of error-budget recipe",
+    "Sign conversion cannot change magnitude branch",
+    "No collective-mode verdict or formal Day16 credit"
+  ]
+}

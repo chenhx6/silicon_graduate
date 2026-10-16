@@ -1,0 +1,21 @@
+{
+  "at": "2026-10-17T01:56:40.389760+08:00",
+  "events": [
+    {
+      "url": "https://curate.nd.edu/search?q=Matta",
+      "status": 202,
+      "final_url": "https://curate.nd.edu/search?q=Matta",
+      "title": null,
+      "links": [],
+      "text_excerpt": ""
+    },
+    {
+      "url": "https://curate.nd.edu/",
+      "status": 202,
+      "final_url": "https://curate.nd.edu/",
+      "title": null,
+      "links": [],
+      "text_excerpt": ""
+    }
+  ]
+}

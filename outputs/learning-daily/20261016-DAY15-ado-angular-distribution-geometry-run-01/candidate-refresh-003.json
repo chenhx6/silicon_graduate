@@ -1,0 +1,48 @@
+{
+  "at": "2026-10-17T01:44:29.034214+08:00",
+  "hard_deadline": "2026-10-17T15:00:00+08:00",
+  "minutes_to_deadline": 795.5160964333334,
+  "day_index": 15,
+  "completed": [
+    15
+  ],
+  "partial": [
+    16
+  ],
+  "next_day_index": 16,
+  "current_issue": "ADO/fulljoint/Cov and convention transfer",
+  "saturation_local": [
+    "chosen mixed-event model solved; actual mixer inputs unavailable",
+    "RB67 normalized phase bridge closed; old sign confirmed"
+  ],
+  "selected_next_issue": "135Pr747/813 actual delta branch and observable/lineage crosswalk, within uncredited Day16",
+  "expected_gain": "Separate sign convention from magnitude-branch conflict and identify actual discriminator; answer existing questions24/36",
+  "candidates": [
+    {
+      "topic": "135Pr same-line original data and response/phase",
+      "decision": "selected",
+      "gain": "high; published-primary comparison likely available"
+    },
+    {
+      "topic": "187Au376/462 methodological parallel",
+      "decision": "reserve within same preview only after135Pr saturation",
+      "gain": "potential independent countercase, avoid duplicate before core solved"
+    },
+    {
+      "topic": "Repeat integer PDCO toy or existing checks",
+      "decision": "reject",
+      "gain": "no new input or discriminator"
+    },
+    {
+      "topic": "FullGRIFFIN privategeometry replay",
+      "decision": "not-ready",
+      "missing": "NDA/source/geometry/events"
+    },
+    {
+      "topic": "Re-fetch same CERN bot URL",
+      "decision": "reject",
+      "gain": "terminal unchangedaccess boundary"
+    }
+  ],
+  "stop_decision": "continue; current plus permitted preview has high-value route; noDay17"
+}

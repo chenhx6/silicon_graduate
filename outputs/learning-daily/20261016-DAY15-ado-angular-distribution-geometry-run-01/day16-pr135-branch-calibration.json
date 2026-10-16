@@ -1,0 +1,694 @@
+{
+  "data_identity": "DAY16-PREVIEW-PR135-PUBLISHED-OBSERVABLES-01",
+  "data_kind": "Published rounded summaries and adopted calibration; no raw counts or fit replay",
+  "input_sha256": "1d8f5fedd1c6044c788b6a21274a058163abfa15d6150af7a30269350fc36861",
+  "script_sha256": "4a3d2466ca057b0ab85c97c6047af795a04c2bbad0fc44a4e468ca145bb16ac5",
+  "fraction_images": {
+    "matta_rows": [
+      {
+        "line": "747",
+        "E_keV": "747.0",
+        "delta": -1.24,
+        "literal_delta_endpoints": [
+          -1.37,
+          -1.1099999999999999
+        ],
+        "radiative_E2_fraction": 0.6059268600252207,
+        "literal_fraction_image_not_CI": [
+          0.551991398234846,
+          0.6524036289061143
+        ]
+      },
+      {
+        "line": "813",
+        "E_keV": "812.8",
+        "delta": -1.54,
+        "literal_delta_endpoints": [
+          -1.6300000000000001,
+          -1.45
+        ],
+        "radiative_E2_fraction": 0.7034049116146637,
+        "literal_fraction_image_not_CI": [
+          0.67767929089444,
+          0.7265443408351336
+        ]
+      },
+      {
+        "line": "755",
+        "E_keV": "754.6",
+        "delta": -2.38,
+        "literal_delta_endpoints": [
+          -2.75,
+          -2.01
+        ],
+        "radiative_E2_fraction": 0.8499489826541023,
+        "literal_fraction_image_not_CI": [
+          0.801591238269082,
+          0.8832116788321168
+        ]
+      },
+      {
+        "line": "594-control",
+        "E_keV": "593.9",
+        "delta": -0.16,
+        "literal_delta_endpoints": [
+          -0.2,
+          -0.12
+        ],
+        "radiative_E2_fraction": 0.0249609984399376,
+        "literal_fraction_image_not_CI": [
+          0.014195583596214511,
+          0.03846153846153847
+        ]
+      }
+    ],
+    "lv_rows": [
+      {
+        "line": "747",
+        "E_keV": "747.3",
+        "delta": -0.47,
+        "literal_delta_endpoints": [
+          -0.69,
+          -0.38
+        ],
+        "radiative_E2_fraction": 0.18093209927102957,
+        "literal_fraction_image_not_CI": [
+          0.1261796574624257,
+          0.32253912336562557
+        ]
+      },
+      {
+        "line": "813",
+        "E_keV": "813.2",
+        "delta": -0.37,
+        "literal_delta_endpoints": [
+          -0.51,
+          -0.27
+        ],
+        "radiative_E2_fraction": 0.1204151640425719,
+        "literal_fraction_image_not_CI": [
+          0.06794668655047069,
+          0.20641218950876913
+        ]
+      },
+      {
+        "line": "450",
+        "E_keV": "450.2",
+        "delta": -0.31,
+        "literal_delta_endpoints": [
+          -0.44,
+          -0.21
+        ],
+        "radiative_E2_fraction": 0.08767448225526868,
+        "literal_fraction_image_not_CI": [
+          0.0422373335887367,
+          0.16219839142091153
+        ]
+      }
+    ]
+  },
+  "published_branch_contrast": [
+    {
+      "line": "747",
+      "Matta_literal_image": [
+        0.551991398234846,
+        0.6524036289061143
+      ],
+      "Lv_literal_image": [
+        0.1261796574624257,
+        0.32253912336562557
+      ],
+      "literal_images_disjoint": true,
+      "meaning": "Reported branch-magnitude difference; not a significance or confidence test"
+    },
+    {
+      "line": "813",
+      "Matta_literal_image": [
+        0.67767929089444,
+        0.7265443408351336
+      ],
+      "Lv_literal_image": [
+        0.06794668655047069,
+        0.20641218950876913
+      ],
+      "literal_images_disjoint": true,
+      "meaning": "Reported branch-magnitude difference; not a significance or confidence test"
+    }
+  ],
+  "Lv_calibration_identity": [
+    {
+      "line": "747",
+      "E_keV": 747.3,
+      "a_Lv": 0.9993460000000001,
+      "Qpoint": 0.5351793175544177,
+      "Q_adopted_Herzan": 0.14878680761125632,
+      "P_from_SI_A_and_adopted_Q": 0.04032615590272317,
+      "P_reported": 0.04,
+      "ratio_proxy_Nparallel_over_Nperp": 0.9874253717693838,
+      "a_for_zero_asymmetry_at_fixed_proxy": 0.9874253717693838,
+      "fractional_a_shift_to_zero": -0.011928429423459175,
+      "dP_da0_da1_dp0_dp1": [
+        3.3625911480367043,
+        2512.864364927829,
+        -0.1450513317820504,
+        -108.39686024072626
+      ],
+      "conditional_calibration_sigma_diagonal_model": 0.027794800183374067,
+      "conditional_calibration_sigma_grid_range": [
+        0.018155236639807816,
+        0.03486386692580101
+      ]
+    },
+    {
+      "line": "813",
+      "E_keV": 813.2,
+      "a_Lv": 1.000664,
+      "Qpoint": 0.5057438376793041,
+      "Q_adopted_Herzan": 0.13427094295315378,
+      "P_from_SI_A_and_adopted_Q": -0.029790510977461243,
+      "P_reported": -0.03,
+      "ratio_proxy_Nparallel_over_Nperp": 1.0087014618473895,
+      "a_for_zero_asymmetry_at_fixed_proxy": 1.0087014618473895,
+      "fractional_a_shift_to_zero": 0.008032128514056103,
+      "dP_da0_da1_dp0_dp1": [
+        3.721283359010318,
+        3026.147627547191,
+        0.11220869546902072,
+        91.24811115540766
+      ],
+      "conditional_calibration_sigma_diagonal_model": 0.03221443990615261,
+      "conditional_calibration_sigma_grid_range": [
+        0.022526967483988213,
+        0.039598939542739936
+      ]
+    },
+    {
+      "line": "450",
+      "E_keV": 450.2,
+      "a_Lv": 0.9934040000000001,
+      "Qpoint": 0.7078914100854277,
+      "Q_adopted_Herzan": 0.2367627767999923,
+      "P_from_SI_A_and_adopted_Q": -0.071801827254125,
+      "P_reported": -0.07,
+      "ratio_proxy_Nparallel_over_Nperp": 1.0277638535096643,
+      "a_for_zero_asymmetry_at_fixed_proxy": 1.0277638535096643,
+      "fractional_a_shift_to_zero": 0.034587995930823956,
+      "dP_da0_da1_dp0_dp1": [
+        2.125226124637182,
+        956.7768013116593,
+        0.2146785800901896,
+        96.64829675660336
+      ],
+      "conditional_calibration_sigma_diagonal_model": 0.015197688468045202,
+      "conditional_calibration_sigma_grid_range": [
+        0.005420122828135154,
+        0.02079811861855385
+      ]
+    }
+  ],
+  "rounding_reproduction": [
+    {
+      "line": "747",
+      "reconstructed": [
+        0.04032615590272317,
+        0.08065231180544634,
+        0.12769949369195668
+      ],
+      "reported": [
+        0.04,
+        0.08,
+        0.13
+      ],
+      "half_last_digit": 0.005,
+      "rounding_compatible": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "line": "813",
+      "reconstructed": [
+        -0.029790510977461243,
+        0.052133394210557175,
+        0.11916204390984497
+      ],
+      "reported": [
+        -0.03,
+        0.05,
+        0.12
+      ],
+      "half_last_digit": 0.005,
+      "rounding_compatible": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "line": "450",
+      "reconstructed": [
+        -0.071801827254125,
+        0.09292001174063234,
+        0.09714364863793382
+      ],
+      "reported": [
+        -0.07,
+        0.09,
+        0.1
+      ],
+      "half_last_digit": 0.005,
+      "rounding_compatible": [
+        true,
+        true,
+        true
+      ]
+    }
+  ],
+  "calibration_model": {
+    "rho_a_values": [
+      -1,
+      0,
+      1
+    ],
+    "rho_Q_values": [
+      -1,
+      0,
+      1
+    ],
+    "cross_a_Q_covariance": "chosen zero for conditional sensitivity only",
+    "printed_error_scales": "Treated as marginal std only in chosen sensitivity model; not actual complete covariance",
+    "fixed": "published central count-ratio proxy; energy and Qpoint exact for this exercise",
+    "not_included": [
+      "count/background covariance",
+      "P-Rac event overlap",
+      "energy uncertainty",
+      "geometry/threshold transfer",
+      "INGA calibration",
+      "alignment/feeding priors"
+    ]
+  },
+  "calibration_parameter_order": [
+    "a0",
+    "a1_per_keV",
+    "p0",
+    "p1_per_keV"
+  ],
+  "calibration_covariance_grid": [
+    {
+      "rho_a": -1,
+      "rho_Q": -1,
+      "conditional_P_covariance": [
+        [
+          0.00032961261744742025,
+          0.0004021594048143682,
+          9.548250051198938e-05
+        ],
+        [
+          0.00040215940481436814,
+          0.0005074642640246622,
+          0.00011112661182822988
+        ],
+        [
+          9.548250051198938e-05,
+          0.0001111266118282299,
+          2.9377731472071814e-05
+        ]
+      ],
+      "conditional_P_sigma": [
+        0.018155236639807816,
+        0.022526967483988213,
+        0.005420122828135154
+      ],
+      "conditional_P_correlation": [
+        [
+          1.0000000000000002,
+          0.9833170811014623,
+          0.9703149917611044
+        ],
+        [
+          0.9833170811014622,
+          1.0,
+          0.9101358315202831
+        ],
+        [
+          0.9703149917611044,
+          0.9101358315202833,
+          0.9999999999999999
+        ]
+      ]
+    },
+    {
+      "rho_a": -1,
+      "rho_Q": 0,
+      "conditional_P_covariance": [
+        [
+          0.000417662027505317,
+          0.00033104295990090153,
+          -8.92795445284337e-06
+        ],
+        [
+          0.0003310429599009015,
+          0.0005648017205185209,
+          0.00019634123569215454
+        ],
+        [
+          -8.927954452843359e-06,
+          0.00019634123569215456,
+          0.000145568318520792
+        ]
+      ],
+      "conditional_P_sigma": [
+        0.020436781241313835,
+        0.023765557441779498,
+        0.01206516964326619
+      ],
+      "conditional_P_correlation": [
+        [
+          0.9999999999999999,
+          0.6815910118103897,
+          -0.03620812509654191
+        ],
+        [
+          0.6815910118103896,
+          1.0,
+          0.6847469109314266
+        ],
+        [
+          -0.03620812509654186,
+          0.6847469109314267,
+          1.0
+        ]
+      ]
+    },
+    {
+      "rho_a": -1,
+      "rho_Q": 1,
+      "conditional_P_covariance": [
+        [
+          0.0005057114375632137,
+          0.0002599265149874348,
+          -0.0001133384094176761
+        ],
+        [
+          0.0002599265149874348,
+          0.0006221391770123796,
+          0.0002815558595560792
+        ],
+        [
+          -0.0001133384094176761,
+          0.0002815558595560792,
+          0.00026175890556951213
+        ]
+      ],
+      "conditional_P_sigma": [
+        0.022488028761170103,
+        0.024942717915503506,
+        0.01617896491032452
+      ],
+      "conditional_P_correlation": [
+        [
+          0.9999999999999998,
+          0.46339935047365743,
+          -0.3115121515197735
+        ],
+        [
+          0.46339935047365743,
+          1.0000000000000002,
+          0.69770215075913
+        ],
+        [
+          -0.3115121515197735,
+          0.69770215075913,
+          1.0
+        ]
+      ]
+    },
+    {
+      "rho_a": 0,
+      "rho_Q": -1,
+      "conditional_P_covariance": [
+        [
+          0.0006845015071757943,
+          0.000812221733778035,
+          0.00027519323868577933
+        ],
+        [
+          0.0008122217337780351,
+          0.0009804326819732587,
+          0.00032095200909391654
+        ],
+        [
+          0.0002751932386857793,
+          0.00032095200909391654,
+          0.00011477914772303395
+        ]
+      ],
+      "conditional_P_sigma": [
+        0.026162979707514095,
+        0.031311861681689555,
+        0.010713503055631896
+      ],
+      "conditional_P_correlation": [
+        [
+          1.0,
+          0.9914675671227218,
+          0.9817910238557652
+        ],
+        [
+          0.9914675671227219,
+          1.0,
+          0.9567527318648943
+        ],
+        [
+          0.9817910238557651,
+          0.9567527318648943,
+          0.9999999999999999
+        ]
+      ]
+    },
+    {
+      "rho_a": 0,
+      "rho_Q": 0,
+      "conditional_P_covariance": [
+        [
+          0.0007725509172336911,
+          0.0007411052888645683,
+          0.00017078278372094658
+        ],
+        [
+          0.0007411052888645684,
+          0.0010377701384671177,
+          0.0004061666329578412
+        ],
+        [
+          0.00017078278372094658,
+          0.00040616663295784126,
+          0.00023096973477175413
+        ]
+      ],
+      "conditional_P_sigma": [
+        0.027794800183374067,
+        0.03221443990615261,
+        0.015197688468045202
+      ],
+      "conditional_P_correlation": [
+        [
+          1.0,
+          0.827686308937716,
+          0.40429930438929873
+        ],
+        [
+          0.8276863089377162,
+          1.0,
+          0.8296140911532726
+        ],
+        [
+          0.40429930438929873,
+          0.8296140911532727,
+          1.0
+        ]
+      ]
+    },
+    {
+      "rho_a": 0,
+      "rho_Q": 1,
+      "conditional_P_covariance": [
+        [
+          0.0008606003272915879,
+          0.0006699888439511015,
+          6.637232875611382e-05
+        ],
+        [
+          0.0006699888439511017,
+          0.0010951075949609762,
+          0.0004913812568217659
+        ],
+        [
+          6.637232875611384e-05,
+          0.0004913812568217659,
+          0.0003471603218204743
+        ]
+      ],
+      "conditional_P_sigma": [
+        0.029335990306986193,
+        0.033092409929785654,
+        0.018632238776391696
+      ],
+      "conditional_P_correlation": [
+        [
+          1.0000000000000002,
+          0.6901419432038157,
+          0.12142867638281153
+        ],
+        [
+          0.6901419432038158,
+          1.0,
+          0.796939127801462
+        ],
+        [
+          0.12142867638281156,
+          0.796939127801462,
+          0.9999999999999999
+        ]
+      ]
+    },
+    {
+      "rho_a": 1,
+      "rho_Q": -1,
+      "conditional_P_covariance": [
+        [
+          0.0010393903969041684,
+          0.0012222840627417017,
+          0.0004549039768595692
+        ],
+        [
+          0.0012222840627417017,
+          0.001453401099921855,
+          0.0005307774063596032
+        ],
+        [
+          0.0004549039768595692,
+          0.0005307774063596033,
+          0.00020018056397399608
+        ]
+      ],
+      "conditional_P_sigma": [
+        0.032239578112999066,
+        0.03812349800217518,
+        0.014148518084025482
+      ],
+      "conditional_P_correlation": [
+        [
+          1.0,
+          0.9944662685503444,
+          0.997285326928565
+        ],
+        [
+          0.9944662685503444,
+          1.0,
+          0.9840308893994366
+        ],
+        [
+          0.997285326928565,
+          0.9840308893994368,
+          1.0
+        ]
+      ]
+    },
+    {
+      "rho_a": 1,
+      "rho_Q": 0,
+      "conditional_P_covariance": [
+        [
+          0.0011274398069620651,
+          0.001151167617828235,
+          0.0003504935218947364
+        ],
+        [
+          0.001151167617828235,
+          0.001510738556415714,
+          0.0006159920302235279
+        ],
+        [
+          0.00035049352189473647,
+          0.0006159920302235279,
+          0.0003163711510227162
+        ]
+      ],
+      "conditional_P_sigma": [
+        0.03357737045931478,
+        0.03886822039167363,
+        0.01778682520920235
+      ],
+      "conditional_P_correlation": [
+        [
+          1.0,
+          0.8820581672078754,
+          0.5868604953064244
+        ],
+        [
+          0.8820581672078754,
+          1.0,
+          0.8910088123281671
+        ],
+        [
+          0.5868604953064245,
+          0.8910088123281671,
+          1.0000000000000002
+        ]
+      ]
+    },
+    {
+      "rho_a": 1,
+      "rho_Q": 1,
+      "conditional_P_covariance": [
+        [
+          0.0012154892170199618,
+          0.0010800511729147683,
+          0.0002460830669299037
+        ],
+        [
+          0.0010800511729147683,
+          0.0015680760129095726,
+          0.0007012066540874526
+        ],
+        [
+          0.0002460830669299037,
+          0.0007012066540874526,
+          0.0004325617380714364
+        ]
+      ],
+      "conditional_P_sigma": [
+        0.03486386692580101,
+        0.039598939542739936,
+        0.02079811861855385
+      ],
+      "conditional_P_correlation": [
+        [
+          1.0,
+          0.7823214209923285,
+          0.33937677997446125
+        ],
+        [
+          0.7823214209923285,
+          1.0,
+          0.8514093636619563
+        ],
+        [
+          0.33937677997446125,
+          0.8514093636619563,
+          1.0000000000000002
+        ]
+      ]
+    }
+  ],
+  "boundaries": [
+    "No actual Nperp/Nparallel or new count dataset",
+    "No half-integer kernel evaluation or new spin assignment",
+    "Quoted endpoint images are not confidence intervals",
+    "P=A/Q reproduction checks printed rounding only, not proof of error-budget recipe",
+    "Sign conversion cannot change magnitude branch",
+    "No collective-mode verdict or formal Day16 credit"
+  ]
+}

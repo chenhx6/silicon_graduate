@@ -3,7 +3,7 @@ type: source
 title: "Evidence against the wobbling nature of low-spin bands in 135Pr"
 aliases: [Lv 2022 135Pr, evidence against 135Pr wobbling]
 created: 2026-07-03
-updated: 2026-07-04
+updated: 2026-10-17
 status: active
 review_status: human-reviewed
 source_type: journal-article-experiment-and-model
@@ -82,6 +82,10 @@ B. F. Lv et al., *Physics Letters B* **824**, 136840 (2022)，DOI `10.1016/j.phy
 | L22-13 | 作者在 p.5 正文报告：标准输入 QTR 中五条带均显著受到 Fig.3(d) 所示 single-particle excitation 机制影响，并发生 single-particle 与 total angular momenta 从 short axis 向 intermediate axis 的快速 realignment；逐带性质的细节指向 supplementary material。Fig.4(c) 只显示近似恒定且接近最大值的 `j_parallel=<I·j>/abs(I)`，支持两角动量近乎平行、同步演化，并不直接显示主轴分量。QTR 对 bands 1、3、4 的能量及 747/813 keV mixing ratios、813 keV transition ratio 给出较好比较；作者据此将这些带解释为基于 `πh11/2` 的 tilted-precession bands。 | model-result | direct | pp.4-5, Fig.3(d) as mechanism sketch; p.5 paragraphs before Fig.4 and Summary; Fig.4(a-d) | false |
 | L22-14 | 补充材料给出 747、813、450 keV polarization gates 的逐项污染检查：747 keV 使用 450 keV gated spectra；813 keV 只采用 796 keV suitable gate，并排查邻近 `136,137Nd` 线；450 keV 使用 747 keV gate，并以窄 gate 排除邻近 `136Nd` 449 keV line。作者据联合 `P-R_ac` 中心值选择 `δ`，其误差传播自 `P` 与 `R_ac`，而非不同 `σ/I` 本身。 | experimental-criterion | direct | supplementary material pp.1-4, Figs.2-5 | false |
 | L22-15 | 补充 QTR 计算采用 `ε2=0.16, γ=26°`、Harris `J0=J1=12.5`（相应单位）、10 个负宇称轨道、`g_s,eff=0.6g_s,free` 与 `g_core=Z/A`，不使用 frozen approximation，也不增强 short-axis moment of inertia。波函数把 bands 1-5 描述为 orbitals #14/#15/#16 的竞争与随自旋向 intermediate axis 的 realignment；single-particle 与 total angular momenta 同步转向且相对夹角近乎不变。 | model-result | direct | supplementary material pp.4-6, calculations section | false |
+| L22-16 | 主文Table1列P：747.3为.04(+.08/−.13)、813.2为−.03(+.05/−.12)、450.2为−.07(+.09/−.10)；SI Table1另列Ap分别.006(+.012/−.019)、−.004(+.007/−.016)、−.017(+.022/−.023)。二者是同一次acquisition的A与P，不是两份独立偏振数据。 | published-observable-identity | direct-and-self-audit | mainp3 Table1；SIp5 Table1 | true |
+| L22-17 | SI Eq1的Rac是target在157.6+133.6度对75.5+104.5度、同all-detector轴gates的强度比。Eq2给P=Ap/Q、Ap=(aNperp−Nparallel)/(aNperp+Nparallel)，a(E)=.9844(21)+2(1)×10^−5 E；Q另采用Herzan2015 Ref6，不是继承该文的a。 | geometry-and-calibration-definition | direct | SIp1 Eq1/2及两段说明 | true |
+| L22-18 | SI称sigma为spin projection的variance但未在该段给Gaussian指数式；该字面用语不能自动认证D96 Eq19的std。主文/SI未给a0/a1、Q的p0/p1或P与Rac的完整joint Cov。引用的marginal error传播说明不等于提供了完整likelihood。 | width-and-covariance-boundary | direct-and-self-audit | SIp4 error-propagation段；SIp1 calibration段 | true |
+| L22-19 | Fig2中旧角分布是重用Matta2015/Sensharma2019；747图的旧大/小模曲线标delta−1.24/−.64，813图为−1.54/−.5；新JUROGAM数据另以green/right axis及新P-Rac点给出。旧曲线再分析不能另算一份独立采集，也未由图标给出小模解的jointCI。 | shared-data-and-branch-identity | direct-and-self-audit | mainp3 Fig2(a–f)及图注 | true |
 
 ## Nuclear Structure Information
 
@@ -128,3 +132,11 @@ B. F. Lv et al., *Physics Letters B* **824**, 136840 (2022)，DOI `10.1016/j.phy
 ## Personal Notes
 
 本页建立 counter-source，不裁决争议。用户已完成 source 页面及 L22-1 至 L22-15 的核对，并校正 L22-13 对 Fig.3(d)、p.5 正文与 Fig.4(c) 的证据边界；全部 claims 均为 `needs_review: false`。
+
+## 2026-10-17定向复核：标定谱系与逐量对齐
+
+本次核主文6页、SI7页与各自SHA-256，读实验/分析/反证/QTR主线；视觉核主文Fig2/Table1、SI Eq1/2、SI Table1及Fig3–5的门和污染标签。旧L22-1–15及page级human-reviewed保持；Personal Notes原称“全部claims false”只指当时1–15。新L22-16–19及本节仅Codex self-audit，needs_review:true，不属新增人审。
+
+按SI明确采用的[[herzan-2015-193bi-spectroscopy]] HE15-10，Qpoint=(1+x)/(1+x+x²)、x=E/(me c²)，Q=Qpoint[.42−1.9×10^−4 E(keV)]。[[135pr-mixing-branch-input-contract]]的新计算用独立原件的Q中央系数把SI Ap及其误差尺度变回主文P，三线均在印刷rounding内闭合。它确认两张表的数据身份，不证明完整误差预算已包含/漏掉Q误差，也不恢复原counts/fit Cov。
+
+本文a(E)与Herzan Fig3的a(E)不同；所采用的是其Q(E)，不能因同阵列名称一并复制所有calibration。原件SI p4的width措辞按L22-18保留，不把它改写为方差或标准差已核准的Gaussian prior。没有用本任务integer-only kernel计算135Pr半整数响应，作者模式解释和反方/后续支持方仍并列。

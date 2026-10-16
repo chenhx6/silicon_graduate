@@ -3,7 +3,7 @@ type: method
 title: 线偏振不对称分析
 aliases: [linear polarization asymmetry, polarization asymmetry, Delta asym]
 created: 2026-07-01
-updated: 2026-10-14
+updated: 2026-10-17
 status: active
 review_status: unreviewed
 method_type: gamma-ray-polarimetry
@@ -63,6 +63,12 @@ tags: [multipolarity, electric-magnetic-character]
 The three new method sources make the detector-layer separation explicit: Jones 2002 defines physical polarization `P`, experimental count asymmetry `A` and detector sensitivity `Q`; Go 2024 extracts a polarization from normalized measured/simulated azimuthal distributions; Longfellow 2026 uses `A0=1/2 Q Pbar` after integrating GRETINA coverage. These are related observables, not interchangeable names for the same quantity.
 
 The special `|P|=1` cases in Jones 2002 require particular alignment and pure transitions. Longfellow's Appendix further shows that the sign of `A0` alone cannot generally identify electric or magnetic character for mixed transitions. Use [[gamma-ray-linear-polarization]], [[experimental-asymmetry]] and [[polarization-sensitivity]] for the separate evidence layers.
+
+### 135Pr的A与P跨表闭合
+
+[[135pr-mixing-branch-input-contract]]按M15-16、[[lv-2022-evidence-against-wobbling-135pr]] L22-16/17与HE15-10核对：Matta TableI是INGA不对称度A，Lv主文是P而SI Table1另列Ap。同一次Lv数据满足P=Ap/Q；采用的Q来自Herzan2015，但a(E)使用Lv自己的calibration，不一并复制Herzan的a。独立原件的Q中央系数使三线Ap→P及误差尺度在印刷精度内闭合；这是身份核验，不新增独立偏振实验或完整error-budget认证。
+
+同页的G Sigma_cal G^T给共享截距/斜率的条件敏感性；原calibration Cov与P–Rac overlap未知，不能把该chosen模型当实验Σ。源P区间跨零不禁止联合分析，也不支持仅按符号选择大模delta。无INGA自己的Q/response时，不把其A=.047/.054直接同JUROGAM的P=.04/−.03作数值冲突检验。
 
 ## Examples
 

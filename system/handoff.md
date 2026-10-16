@@ -8,17 +8,17 @@ updated: 2026-10-17
 
 ## Active handoff — DAY15 card complete, study window active
 
-Run2026-10-16-day-15-01/session01a14510-aec7-7e00-aa23-f7c77a5124bc，原硬截止2026-10-17 15:00上海、15–16收束；goal/run仍active。Day15正式卡已完成且只计一次，课程已幂等对账next16/count15，completed[15]/partial[16]；Day16仅预习、不授卡，不开Day17。检查点001/002均已H3非force发布，精确hash与结果仅各publication/runreceipt。
+Run2026-10-16-day-15-01/session01a14510-aec7-7e00-aa23-f7c77a5124bc，原硬截止2026-10-17 15:00上海、15–16收束不改；goal/run仍active。Day15正式卡已完成且只计一次，课程next16/count15，completed[15]/partial[16]，不授16/不开17。publication001/002/003均实际H3非force Gitee push且remote HEAD核对，精确hash/结果仅各receipt。
 
-Day15 canonical交付为Zheng五页重核、ADO的R/f可识别性及共享Cov/敏感性图、GRIFFIN原件与有限响应边界、mixed-event精确U统计量/finiteK/退化控制。固定公开软件缺NDA几何/源码，未build或重放fullresponse；真实event/response/Σ仍not-ready。
+Day15 canonical为Zheng原件、R/f可识别性及共享Cov/敏感性图、GRIFFIN有限响应与固定公开code的NDA缺口、mixed-event exact U统计量/finiteK/退化。真实events/production response/Σ仍not-ready。
 
-01:36后恢复的partial16已完成D96八页、KS70十一页、KF89七页主线。新增点模型的source F/implementation基底映射delta_probe=−d_source；同BM定义下D96 d=KS delta，二者不能混淆。构造同R两根及P1/P2区分，KS70实际818–658已校正系数的central双根/quoted-box preimage与单位列精度边界均已canonical，未声称jointCI或新Jpi。整数5/4/2与2/2/0控制不外推奇半整数。
+Partial16已读D96/KS70/KF89主线、构造同R双根/P1/P2、KS实际818–658受限反演。KF89旧Wiki实验I比倒置已改，新KF89-9优先，旧审核保留。RB67定向原件闭合normalized amplitude：dD96=deltaKS=−deltaRB；KS Eq5共同初态因子2Ii+1已放大核，绝对Gamma也闭合，首份未发布草稿误读有记录。
 
-KF89原件证明旧Wiki实验I分式倒置，现以新KF89-9更正，原human-reviewed页/旧1–8行和flags保留历史，不扩张至新self-audit。另保留sameL/spin-path、width措辞、E1/M2和作者spin adoption边界。十三项唯一writeback已验收；fresh checks实际结果看verification-prepublication-003.json。检查点003已提交，稳定指针：main / `Verify Day16 mixing-ratio phases and correct DCO ratio transcription`；actual H3/push结果仅publication003回执。
+本批新增135Pr输入合同：Matta表A不同于Lv主文P，Lv SI Ap经采用Herzan Q可复现主文三线P及误差印刷精度；a用Lv自身标定。19项writeback检查21路径/19changed，新note与两方法/project回链。校准Cov网格是chosen conditional sensitivity，不是实验总误差或delta refit；oldM15/L22各1–15行与human review逐字保留，新行true。首次writeback缺direct source链接已补，不放宽验收。
 
-下一高信息路线：针对Rose–Brink1967 Eq3.39的normalized delta与KS Eq5逐定义核对；随后重建当前/partial16候选池，必要时只做A130 primary的delta分支方法比较，不开其它课程或以integer kernel重算half-spin。原截止约13小时后，不因本卡或push完成而结束。
+Matta完整分析仅找到DataCite候选10.7274/sj13902283h，Text/无contentURL；GoogleScholar timeout、Figshare403、CurateND202空body、doi landing ConnectionError，不称已得PhD/fullcounts，失败入口不原样重试。约02:00尚余13小时，下一当前高信息路线是SH26原件chi²及公开data/ancillary可用性；随后刷新当前15/partial16池，不因checkpoint结束。
 
-Resume `codex resume 01a14510-aec7-7e00-aa23-f7c77a5124bc -C /workspace/wiki -s danger-full-access -a never`。保护继承Day6–9/13/14 receipts、旧log/daemon/credentials/PLAN/Bib/原raw及review；只按本run exactmanifest/H3发布，log用HEAD+own entry隔离。CERN150008 bot及旧Elsevier失败不原样重试，不改宿主机/GUI scheduler。
+检查点004已提交，稳定指针：main / `Audit 135Pr observable identities and shared calibration response`；actual H3/push仅publication004，不从提交推断推送成功。Resume `codex resume 01a14510-aec7-7e00-aa23-f7c77a5124bc -C /workspace/wiki -s danger-full-access -a never`。保护PLAN/Bib/原raw/review/继承Day6–9/13/14 receipts、daemon、credentials和旧log；exactmanifest/H3，log仅HEAD+own append，不用宿主机/GUI scheduler。
 
 ## Previous active handoff — DAY14 completed after authorized extension
 

@@ -1,0 +1,27 @@
+{
+  "at": "2026-10-17T01:44:49.596801+08:00",
+  "objects": [
+    {
+      "source": "knowledge/sources/matta-2015-transverse-wobbling-135pr.md",
+      "raw": "raw/papers/2015_Matta et al_Transverse Wobbling in Pr 135.pdf",
+      "sha256": "8db644705dccfd58016753b759d19314a65284c48efc1758f95f1b3ce23551d6",
+      "pages": 7,
+      "existing_review_status": "human-reviewed; unchanged",
+      "read_this_segment": "mainline pending, pixels not yet inspected"
+    },
+    {
+      "source": "knowledge/sources/lv-2022-evidence-against-wobbling-135pr.md",
+      "raw": "raw/papers/2022_Lv et al_Evidence against the wobbling nature of low-spin bands in 135Pr.pdf",
+      "sha256": "4b87c540bf9da5141fa88ef8f00859162cb08918d56a5da74726c7537df5e26b",
+      "pages": 6,
+      "existing_review_status": "human-reviewed; unchanged",
+      "read_this_segment": "mainline pending, pixels not yet inspected"
+    },
+    {
+      "role": "Lv22 SI, shared experiment",
+      "raw": "raw/papers/2022_Lv et al_Evidence against the wobbling nature of low-spin bands in 135Pr supplementary.pdf",
+      "sha256": "c25cf17ce10efb2d62fc27a665082df7bffeb30f0044726b2730754b035bf225",
+      "pages": 7
+    }
+  ]
+}

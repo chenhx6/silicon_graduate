@@ -1,0 +1,48 @@
+{
+  "at": "2026-10-17T02:01:14.178694+08:00",
+  "kind": "metadata and access only, no scientific body read yet",
+  "events": [
+    {
+      "url": "https://api.datacite.org/dois/10.7274/sj13902283h",
+      "status": 200,
+      "attributes": {
+        "doi": "10.7274/sj13902283h",
+        "titles": [
+          {
+            "title": "Exotic Nuclear Excitations: The Transverse Wobbling Mode in 135Pr"
+          }
+        ],
+        "creators": [
+          {
+            "name": "J.T. Matta",
+            "affiliation": [],
+            "nameIdentifiers": []
+          }
+        ],
+        "publisher": "Curate ND",
+        "publicationYear": 2015,
+        "url": "https://curate.nd.edu/show/sj13902283h",
+        "types": {
+          "ris": "RPRT",
+          "bibtex": "article",
+          "citeproc": "article-journal",
+          "schemaOrg": "ScholarlyArticle",
+          "resourceTypeGeneral": "Text"
+        },
+        "subjects": [],
+        "descriptions": [],
+        "dates": [],
+        "rightsList": [],
+        "relatedIdentifiers": [],
+        "sizes": [],
+        "formats": [],
+        "contentUrl": null,
+        "alternateIdentifiers": []
+      }
+    },
+    {
+      "url": "https://doi.org/10.7274/sj13902283h",
+      "error": "ConnectionError"
+    }
+  ]
+}

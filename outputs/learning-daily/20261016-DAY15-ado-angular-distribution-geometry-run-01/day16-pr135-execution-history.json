@@ -1,0 +1,19 @@
+{
+  "attempts": [
+    {
+      "at": "2026-10-17T01:50:48.350336+08:00",
+      "script_sha256": "e3cdfb359a8fdbf125e2f252095f1e1d292355af54f6578aab92f7dc3f3890cd",
+      "exit_code": 1,
+      "boundary": "All numerical assertions passed before JSON serialization",
+      "failure": "TypeError: Object of type bool is not JSON serializable; numpy bool in rounding compatibility list",
+      "fix": "Cast comparison outputs to builtin bool; leave scientific inputs and tolerances unchanged"
+    },
+    {
+      "at": "2026-10-17T01:53:37.292802+08:00",
+      "script_sha256": "4a3d2466ca057b0ab85c97c6047af795a04c2bbad0fc44a4e468ca145bb16ac5",
+      "exit_code": 0,
+      "checks": "P=A/Q central/errors reproduce main table rounding; full formula finite-difference gradients; standardized PSD/correlated propagation; sign-invariant fractions",
+      "scientific_inputs_and_tolerances_changed": false
+    }
+  ]
+}
