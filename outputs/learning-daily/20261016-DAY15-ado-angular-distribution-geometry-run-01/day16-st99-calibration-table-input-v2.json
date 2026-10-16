@@ -1,0 +1,372 @@
+{
+  "identity": "DAY16-PREVIEW-ST99-PRINTED-CALIBRATION-TABLE-REPLAY-02",
+  "frozen_at": "2026-10-17T04:24:50.654796+08:00",
+  "session_id": "01a14510-aec7-7e00-aa23-f7c77a5124bc",
+  "scope": "原表文字转录后的受限校准/式7核算；非raw复分析、不重新优化delta/sigma、不声称获得实际Cov或作者程序。",
+  "priming": "已读ST99完整主线与Table1–4、已知部分rounded replay可能不闭合；本文件在本段数值脚本之前冻结。",
+  "source": "knowledge/sources/starosta-1999-pdco-experimental-test.md",
+  "raw_file": "raw/papers/gpt/high-spin-20260920/multipolarity/mixing ratio/1999_Starosta et al_Experimental test of the polarization direction correlation method (PDCO).pdf",
+  "raw_sha256": "883fdd7b08831efefe25f5df610e84b95bb1acbcd7b8e7f684b1a1b31bf8030b",
+  "coordinate_order": [
+    "P_A",
+    "P_B",
+    "P_C",
+    "P_D",
+    "R_DCO"
+  ],
+  "units": {
+    "energy": "keV",
+    "arctan_delta": "degree",
+    "P_A_B_C_D_R_DCO_Q_A_a": "dimensionless"
+  },
+  "calibration": {
+    "locator": "printed19 Table1 Eq5 Eq6 (PDF4)",
+    "rows": [
+      [
+        "256",
+        "114Cd(16O,4n)126Ba",
+        "0.092(9)",
+        "0.31",
+        "0.30(3)"
+      ],
+      [
+        "455",
+        "114Cd(16O,4n)126Ba",
+        "0.100(8)",
+        "0.43",
+        "0.23(2)"
+      ],
+      [
+        "558",
+        "114Cd(16O,16O′)114Cd",
+        "0.059(4)",
+        "0.26",
+        "0.23(2)"
+      ],
+      [
+        "621",
+        "114Cd(16O,4n)126Ba",
+        "0.099(11)",
+        "0.45",
+        "0.22(3)"
+      ],
+      [
+        "757",
+        "114Cd(16O,4n)126Ba",
+        "0.085(13)",
+        "0.44",
+        "0.19(3)"
+      ],
+      [
+        "805",
+        "114Cd(16O,4n)126Ba",
+        "0.08(3)",
+        "0.56",
+        "0.14(6)"
+      ],
+      [
+        "852",
+        "114Cd(16O,4n)126Ba",
+        "0.095(20)",
+        "0.44",
+        "0.22(5)"
+      ],
+      [
+        "1230",
+        "118Sn(16O,16O′)118Sn",
+        "0.067(4)",
+        "0.45",
+        "0.15(1)"
+      ]
+    ],
+    "columns": [
+      "E_keV",
+      "reaction",
+      "A",
+      "P",
+      "Q"
+    ],
+    "Q0": "(1+x)/(1+x+x*x), x=E_keV/511",
+    "fit_intercept": "0.31(2)",
+    "fit_slope_per_keV": "7(2)e-5",
+    "fit_covariance": "not supplied; no diagonal-only fit-parameter error band inferred",
+    "legacy_wrong_slope_negative_control_per_keV": 0.0007,
+    "integrated_490_A": "0.120(12)",
+    "integrated_490_Q_source_approx": 0.24,
+    "integrated_490_P_source": "0.50(5)",
+    "integrated_647_P_source": "0.28(10)",
+    "P_error_budget": "Table1 P calculation errors and total calibration/error budgets not supplied; A/P central replay not independent recalibration."
+  },
+  "observations": {
+    "490": {
+      "values": [
+        "0.71(8)",
+        "0.33(13)",
+        "0.50(8)",
+        "0.54(8)",
+        "0.96(2)"
+      ],
+      "gate": "yrast E2 gates; Fig7 375,463,530 keV; same coincidence acquisition",
+      "integrated_P_overlap": true
+    },
+    "647": {
+      "values": [
+        "0.31(15)",
+        "0.29(15)",
+        "0.37(12)",
+        "0.34(7)",
+        "0.51(3)"
+      ],
+      "gate": "262,374,530 keV in Sec7; original also labels375 in Fig1/7, preserve source energy rounding",
+      "alignment_calibration": "sigma/I=.26(5) from same647 DCO with prior known11−→10+ E1 assignment, not an independent sixth datum"
+    }
+  },
+  "tables": [
+    {
+      "name": "Table2",
+      "locator": "printed23 Table2 Eq7 (PDF8)",
+      "energy": "490",
+      "sigma_I_mode": "fixed .26",
+      "rows": [
+        {
+          "spin": "16+→14+",
+          "kind": "pureE2",
+          "reported_reduced_chi2": "1.4",
+          "arctan_delta": "stretched",
+          "sigma_I": ".26",
+          "ndf": 5,
+          "theory": [
+            ".56",
+            ".32",
+            ".49",
+            ".51",
+            "1.00"
+          ]
+        },
+        {
+          "spin": "15+→14+",
+          "kind": "M1/E2",
+          "reported_reduced_chi2": "79.5",
+          "arctan_delta": "84",
+          "sigma_I": ".26",
+          "ndf": 4,
+          "theory": [
+            "-.31",
+            ".10",
+            "-.51",
+            "-.20",
+            ".86"
+          ]
+        },
+        {
+          "spin": "14+→14+",
+          "kind": "M1/E2",
+          "reported_reduced_chi2": ".7",
+          "arctan_delta": "-21",
+          "sigma_I": ".26",
+          "ndf": 4,
+          "theory": [
+            ".57",
+            ".34",
+            ".52",
+            ".53",
+            ".96"
+          ]
+        },
+        {
+          "spin": "13+→14+",
+          "kind": "M1/E2",
+          "reported_reduced_chi2": "116.8",
+          "arctan_delta": "-81",
+          "sigma_I": ".26",
+          "ndf": 4,
+          "theory": [
+            "-.49",
+            "-.10",
+            "-.32",
+            "-.37",
+            ".85"
+          ]
+        },
+        {
+          "spin": "12+→14+",
+          "kind": "pureE2",
+          "reported_reduced_chi2": "3.1",
+          "arctan_delta": "stretched",
+          "sigma_I": ".26",
+          "ndf": 5,
+          "theory": [
+            ".45",
+            ".16",
+            ".40",
+            ".41",
+            ".95"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Table3",
+      "locator": "printed24 Table3 (PDF9)",
+      "energy": "490",
+      "sigma_I_mode": "varied",
+      "rows": [
+        {
+          "spin": "16+→14+",
+          "kind": "pureE2",
+          "reported_reduced_chi2": "1.4",
+          "arctan_delta": "stretched",
+          "sigma_I": ".19",
+          "ndf": 4,
+          "theory": [
+            ".63",
+            ".37",
+            ".55",
+            ".57",
+            "1.00"
+          ]
+        },
+        {
+          "spin": "14+→14+",
+          "kind": "M1/E2",
+          "reported_reduced_chi2": ".7",
+          "arctan_delta": "-21",
+          "sigma_I": ".22",
+          "ndf": 3,
+          "theory": [
+            ".61",
+            ".37",
+            ".56",
+            ".57",
+            ".96"
+          ]
+        },
+        {
+          "spin": "12+→14+",
+          "kind": "pureE2",
+          "reported_reduced_chi2": "1.1",
+          "arctan_delta": "stretched",
+          "sigma_I": ".00",
+          "ndf": 4,
+          "theory": [
+            ".57",
+            ".23",
+            ".49",
+            ".50",
+            ".94"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Table4",
+      "locator": "printed25 Table4 (PDF10)",
+      "energy": "647",
+      "sigma_I_mode": "varied",
+      "rows": [
+        {
+          "spin": "11−→10+",
+          "kind": "E1/M2",
+          "reported_reduced_chi2": ".6",
+          "arctan_delta": "0",
+          "sigma_I": ".27",
+          "ndf": 3,
+          "theory": [
+            ".44",
+            ".17",
+            ".30",
+            ".33",
+            ".51"
+          ]
+        },
+        {
+          "spin": "9−→10+",
+          "kind": "E1/M2",
+          "reported_reduced_chi2": "1.2",
+          "arctan_delta": "-1",
+          "sigma_I": ".11",
+          "ndf": 3,
+          "theory": [
+            ".49",
+            ".11",
+            ".29",
+            ".32",
+            ".50"
+          ]
+        },
+        {
+          "spin": "11+→10+",
+          "kind": "M1/E2",
+          "reported_reduced_chi2": "4.8",
+          "arctan_delta": "-83",
+          "sigma_I": ".00",
+          "ndf": 3,
+          "theory": [
+            ".07",
+            ".26",
+            ".12",
+            ".15",
+            ".49"
+          ]
+        },
+        {
+          "spin": "10+→10+",
+          "kind": "M1/E2",
+          "reported_reduced_chi2": "7.7",
+          "arctan_delta": "-42",
+          "sigma_I": ".10",
+          "ndf": 3,
+          "theory": [
+            ".21",
+            "-.07",
+            ".16",
+            ".18",
+            ".60"
+          ]
+        },
+        {
+          "spin": "9+→10+",
+          "kind": "M1/E2",
+          "reported_reduced_chi2": "9.2",
+          "arctan_delta": "48",
+          "sigma_I": ".60",
+          "ndf": 3,
+          "theory": [
+            ".07",
+            "-.01",
+            ".07",
+            ".08",
+            ".49"
+          ]
+        }
+      ]
+    }
+  ],
+  "rounding_diagnostic": {
+    "mean_theory_error_last_decimal_halfwidth": 0.005,
+    "score_halfwidth": 0.05,
+    "assumption": "each displayed2-decimal mean/theory/sigma is rounded to nearest .01; allow independent half-last-digit variation as conservative rowwise enclosure, not actual unrounded measurement or joint confidence region"
+  },
+  "chosen_correlation_sensitivity": {
+    "rho_polarization_grid": [
+      -0.2,
+      0,
+      0.2,
+      0.5,
+      0.8
+    ],
+    "model": "4x4 equicorrelation amongP components; DCO independent; preserve reported marginal sigmas. Chosen matrices, not inferred totalCov. No extra calibration variance added atop printed errors."
+  },
+  "forbidden_claims": [
+    "author-error verdict",
+    "new optimizeddelta/sigma",
+    "actual jointCov",
+    "p-values/model probabilities",
+    "new uniqueJpi from this replay"
+  ],
+  "supersedes": {
+    "path": "outputs/learning-daily/20261016-DAY15-ado-angular-distribution-geometry-run-01/day16-st99-calibration-table-input.json",
+    "sha256": "ce45b79010edca177bec2b6cce056477bbaa9c0532828e251bbfcaf7fedfae96",
+    "reason": "输入前置复核发现647 integrated A未在原文报告；首版误填项不得作为source数据或下游计算。纠正在任何numeric script前。"
+  }
+}

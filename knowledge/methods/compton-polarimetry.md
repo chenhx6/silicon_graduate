@@ -3,7 +3,7 @@ type: method
 title: "Gamma-Ray Compton Polarimetry"
 aliases: [Compton polarimetry, gamma-ray Compton polarimeter]
 created: 2026-07-13
-updated: 2026-09-20
+updated: 2026-10-17
 status: active
 review_status: unreviewed
 method_type: gamma-ray-polarimetry
@@ -64,6 +64,8 @@ Physical `P`, measured `A`, sensitivity `Q`, modulation factor `Q'`, and efficie
 [[droste-1999-ppco-polarization]] extends CLOVER polarimetry to PPCO two-γ correlations; alignment and both detector sensitivities remain explicit inputs.
 
 [[starosta-1999-pdco-experimental-test]] provides the complementary single-transition PDCO validation: `A=QP`, a detector-specific `Q(E)` calibration and four polarimeter/gamma-detector geometries are combined with `R_DCO`. Its `490 keV` case remains E2 versus ΔI=0 M1/E2 ambiguous, and integrated-mode `P` is qualitative unless solid-angle and efficiency corrections are known.
+
+2026-10-17原件补核：ST99-6的Q拟合是`Q0[.31(2)+7(2)×10^-5 E_keV]`，旧Wiki10^-4已纠正。NORDBALL79°单CLOVER标定向EUROGAM所选18polarimeters移用，不提供完整gate/pair response；四组P与integrated P也非独立新采集。[[st99-pdco-calibration-table-replay]]保存全部13行式7重算、未闭合行、NDF和chosenCov排序反例；不把printed边际误差当实际完整Sigma。647的共同E1类别不独立唯一固定11−。
 
 [[droste-1996-pdco-formalism]] is the formal precursor: one statistical-tensor expression covers DCO, PDCO and PPCO, with explicit detector-plane, emission-angle, deorientation and Gaussian-alignment terms.
 

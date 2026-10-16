@@ -1,0 +1,57 @@
+{
+  "at": "2026-10-17T04:29:01.258945+08:00",
+  "source": "knowledge/sources/starosta-1999-pdco-experimental-test.md",
+  "raw_sha256": "883fdd7b08831efefe25f5df610e84b95bb1acbcd7b8e7f684b1a1b31bf8030b",
+  "primed_freeze": "day16-st99-recall-freeze.json",
+  "text_mainline_pages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+  ],
+  "key_visual_pages": [
+    2,
+    3,
+    4,
+    5,
+    7,
+    8,
+    9,
+    10,
+    11
+  ],
+  "covered": [
+    "printed16 motivation/abstract",
+    "printed17 Fig1/setup/Eq1/2 andD96footnote",
+    "printed18–19 Q/a/calibration/Tab1/Eq3–6/Fig2/3",
+    "printed20–21 DCO/sigma/flight/integratedP/Fig4",
+    "printed22–23 fourgeometries/Fig5–7/Eq7/Tab2",
+    "printed24–25 Tab3/4/647/assignment/conclusion",
+    "printed26 alpha_kappa/ref/data dependence"
+  ],
+  "not_obtained": [
+    "author code",
+    "raw events",
+    "unrounded theory/minima",
+    "actual totalCov",
+    "matched independent490 electron/γdata",
+    "explicit alpha_kappa shell definition"
+  ],
+  "transcription_corrections": [
+    "nuclei/reactions",
+    "Qfit exponent",
+    "sigma/I",
+    "reducedchi2",
+    "647class notuniquespin"
+  ],
+  "table_replay_exit": 0,
+  "source_rows_added": "ST99-5..13/DR96-8",
+  "human_review_created": false
+}

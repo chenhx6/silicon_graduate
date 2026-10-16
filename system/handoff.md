@@ -8,17 +8,17 @@ updated: 2026-10-17
 
 ## Active handoff — DAY15 card complete, study window active
 
-Run2026-10-16-day-15-01/session01a14510-aec7-7e00-aa23-f7c77a5124bc，原2026-10-17 15:00上海研究截止/15–16收束不改。Goal/run仍active；formal15只计一次、state next16/count15，completed[15]/partial[16]，不授16/不开17。publication001–005实际H3非force Gitee push/remoteHEAD核，exacthash仅receipt。
+Run2026-10-16-day-15-01/session01a14510-aec7-7e00-aa23-f7c77a5124bc，原2026-10-17 15:00上海研究截止/15–16收束不改。Goal/run仍active；formal15只计一次、state next16/count15，completed[15]/partial[16]，不授16/不开17。publication001–006已实际H3非force Gitee push/remoteHEAD核，exacthash仅receipt。
 
-既有Day15 ADO/Zheng/共享Cov/finitejoint/GRIFFIN/mixedevent主线及partial16 D96/KS/KF/RB conventions、双根/实际系数、135Pr A/P/校准链已canonical。SH26 v2 fixedsigma/profile和publicsourcearchive readiness、SE21 J23/2校准条件证书/pureE2参考在publication005；原raw与旧review/claims保留，实际events/producer response/Σ仍not-ready。
+Day15 ADO/Zheng/共享Cov/finitejoint/GRIFFIN/eventmixing及partial16 D96/KS/KF/RB约定、135Pr A/P/SH26版本/SE21条件校准、MS74primary和boundedM3均已canonical；actualevents/producer/response/Σ仍not-ready，原raw/旧review保持。
 
-本批pending006核MS74两独立DOI对象（theory同谱系非独立实验），DA原表J23/2 .2=.894266/.689096、Amax=.40373/−.16149匹配；DMS Ji6→5作者假设例题明确negative-column，局部forward/phase控制复现。旧DA1–3/DMS1–4保持，新DA4–8/DMS5–7 true，DA issue元数据冲突保留。
+本批pending007完整核ST99原11页：纠正旧核素/反应为164Yb/126Ba/114Cd/118Sn，Q指数10^-5；记录1999footnote对D96Eq4 magneticphase用Tprime非T的公开勘误，与内部delta坐标映射分开。原ST99-1..4/flags保留，新5..13和DR96-8 true。原表13行按式7/NDF复算，Table2 15+行108.911451不等原79.5，chosenroundingbox92.2430–132.7572仍不闭合；只立replayboundary不判作者错误。chosenCov可翻Table3候选排序，不是actualSigma。647共同E1类别仍有11−/9−；同647DCO校准sigma不得独立prior双算。alpha_κ预测保留壳层定义缺口。
 
-新单gamma doubled-spin E2/M3模型完成且停止自由调参：source-F/RB直接振幅、primary/limits/rates/symmetry/convergence通过，max差约1.1e−14；fixedsigma.2下源negative ratios与7-angle equal-weightP6遗漏未闭合Table4.3。另一个postcalculation +.04物理相位控制经错误pureE2逆算可制造apparentalpha正性失败，而真实P/rate正常；SE21-16/17与calnote明确仅scope反例，不定位实际原因/改delta/判mode。25项writeback待fresh检查，全部typedinput/hash/JSON可恢复。
+输入v1误填一项原文未给647 integratedA，已在任何numeric前删为冻结v2，纠正记录/首版保留且首版不下游使用。数值脚本day16_st99_table_replay.py、canonical note st99-pdco-calibration-table-replay.md，当前28writebackitems待fresh验收。
 
-03:53:19 clock余666.7min，candidate-refresh005选择Starosta1999 originalPDCO实验作恰好partial16的下一高信息路线（source存在，尚未读本段原件，先冻结primed回忆）。当前Pr135数学/反证段局部完成，actualproducer层仍open；不原样重试publisher/AM403、OSTI/CurateND失败。Matta2017 publicrestricted，仅meta，providerentitlement未认证。全run不得在本checkpoint结束。
+检查点007已提交，稳定指针main / `Correct PDCO calibration transcriptions and audit printed fit tables`；actualH3/push只看publication007。Resume `codex resume 01a14510-aec7-7e00-aa23-f7c77a5124bc -C /workspace/wiki -s danger-full-access -a never`。下一boundedroute核已读D96Eq4勘误与独立polarizationamplitudes，尚未实现，不开新卡。保持原截止，不在checkpoint结束。
 
-检查点006已提交，稳定指针：main / `Validate primary angular tables and reference-multipole boundaries`；actual H3/push仅publication006。Resume `codex resume 01a14510-aec7-7e00-aa23-f7c77a5124bc -C /workspace/wiki -s danger-full-access -a never`。保护PLAN/Bib/原raw/review/继承receipts/daemon/credentials/旧log，exactmanifest/log仅HEAD+ownappend，tmp publish_checkpoint.py可复用H3，不stage任何raw。最终closeout才一次对账overview，现不滚动刷全库统计。无待等研究process。
+保护PLAN/Bib/原raw/review/继承receipts/daemon/credentials/旧log；exactmanifest，log只HEAD+ownappend，tasklocal publish_checkpoint.py可复用H3。无待等process，不重试未变403/OSTI/CurateND失败。最终closeout才一次对账overview，不滚动刷统计。
 
 ## Previous active handoff — DAY14 completed after authorized extension
 

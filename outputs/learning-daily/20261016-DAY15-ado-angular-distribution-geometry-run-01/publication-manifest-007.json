@@ -1,0 +1,46 @@
+{
+  "checkpoint": "007",
+  "branch": "main",
+  "subject": "Correct PDCO calibration transcriptions and audit printed fit tables",
+  "paths": [
+    "knowledge/index.md",
+    "knowledge/methods/compton-polarimetry.md",
+    "knowledge/methods/dco-pdco-ambiguity-worksheet.md",
+    "knowledge/sources/droste-1996-pdco-formalism.md",
+    "knowledge/sources/starosta-1999-pdco-experimental-test.md",
+    "knowledge/research-notes/st99-pdco-calibration-table-replay.md",
+    "system/scripts/day16_st99_table_replay.py",
+    "system/handoff.md",
+    "system/log.md",
+    "outputs/learning-daily/20261016-DAY15-ado-angular-distribution-geometry.md",
+    "outputs/learning-daily/20261016-DAY15-ado-angular-distribution-geometry-run-01/run.json",
+    "outputs/learning-daily/20261016-DAY15-ado-angular-distribution-geometry-run-01/continuation.md",
+    "outputs/learning-daily/20261016-DAY15-ado-angular-distribution-geometry-run-01/research-checkpoint.json",
+    "outputs/learning-daily/20261016-DAY15-ado-angular-distribution-geometry-run-01/publication-006.json",
+    "outputs/learning-daily/20261016-DAY15-ado-angular-distribution-geometry-run-01/publication-manifest-007.json",
+    "outputs/learning-daily/20261016-DAY15-ado-angular-distribution-geometry-run-01/verification-prepublication-007.json",
+    "outputs/learning-daily/20261016-DAY15-ado-angular-distribution-geometry-run-01/verification-prepublication-007-initial.json",
+    "outputs/learning-daily/20261016-DAY15-ado-angular-distribution-geometry-run-01/task-log-entry-007.txt",
+    "outputs/learning-daily/20261016-DAY15-ado-angular-distribution-geometry-run-01/day16-st99-before-source-frozen.md",
+    "outputs/learning-daily/20261016-DAY15-ado-angular-distribution-geometry-run-01/day16-st99-recall-freeze.json",
+    "outputs/learning-daily/20261016-DAY15-ado-angular-distribution-geometry-run-01/day16-st99-source-identity.json",
+    "outputs/learning-daily/20261016-DAY15-ado-angular-distribution-geometry-run-01/day16-st99-legacy-transcription-baseline.json",
+    "outputs/learning-daily/20261016-DAY15-ado-angular-distribution-geometry-run-01/day16-st99-calibration-table-input.json",
+    "outputs/learning-daily/20261016-DAY15-ado-angular-distribution-geometry-run-01/day16-st99-calibration-table-input-v2.json",
+    "outputs/learning-daily/20261016-DAY15-ado-angular-distribution-geometry-run-01/day16-st99-input-correction.json",
+    "outputs/learning-daily/20261016-DAY15-ado-angular-distribution-geometry-run-01/day16-st99-calibration-table-replay.json",
+    "outputs/learning-daily/20261016-DAY15-ado-angular-distribution-geometry-run-01/day16-st99-reading-coverage.json",
+    "outputs/learning-daily/20261016-DAY15-ado-angular-distribution-geometry-run-01/day16-st99-metadata-verification.json"
+  ],
+  "special_staging": {
+    "system/log.md": "HEAD plus own exact append007; inherited worktree edits retained"
+  },
+  "course": "formal15creditedonce next16/count15, partial16only, originalwindowactive",
+  "exclusions": [
+    "raw/userPDF/sourcearchive",
+    "tmp",
+    "PLAN/Bib/credentials",
+    "inheritedreceipts/daemon/log",
+    "transient fullauditlogs"
+  ]
+}

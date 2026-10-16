@@ -1,0 +1,875 @@
+{
+  "at_UTC": "2026-10-17T04:24:59.696922+08:00",
+  "identity": "DAY16-PREVIEW-ST99-PRINTED-CALIBRATION-TABLE-REPLAY-02",
+  "input_sha256": "651c05306a16d12d6121d4e7d097e6906d8d541d2f26d1232eb3aba9b1f4fe6a",
+  "script_sha256": "de909be78ecc70f42d56c53788c52bbc6a6dabb17a58bbb2e2a99adfa411388e",
+  "raw_sha256_verified": "883fdd7b08831efefe25f5df610e84b95bb1acbcd7b8e7f684b1a1b31bf8030b",
+  "calibration_table": [
+    {
+      "E_keV": 256.0,
+      "reaction": "114Cd(16O,4n)126Ba",
+      "A_over_P": 0.2967741935483871,
+      "sigma_from_A_only_P_fixed": 0.029032258064516127,
+      "printed_Q": 0.3,
+      "printed_sigma_Q": 0.03,
+      "correct_printed_central_curve": 0.280943314774861,
+      "legacy_wrong_exponent_control": 0.4191188996946268,
+      "budget_boundary": "P/model/calibration errors and covariance not supplied"
+    },
+    {
+      "E_keV": 455.0,
+      "reaction": "114Cd(16O,4n)126Ba",
+      "A_over_P": 0.23255813953488375,
+      "sigma_from_A_only_P_fixed": 0.018604651162790697,
+      "printed_Q": 0.23,
+      "printed_sigma_Q": 0.02,
+      "correct_printed_central_curve": 0.2408418001258829,
+      "legacy_wrong_exponent_control": 0.44279383173648507,
+      "budget_boundary": "P/model/calibration errors and covariance not supplied"
+    },
+    {
+      "E_keV": 558.0,
+      "reaction": "114Cd(16O,16O′)114Cd",
+      "A_over_P": 0.2269230769230769,
+      "sigma_from_A_only_P_fixed": 0.015384615384615384,
+      "printed_Q": 0.23,
+      "printed_sigma_Q": 0.02,
+      "correct_printed_central_curve": 0.2223321512366156,
+      "legacy_wrong_exponent_control": 0.4462439269935624,
+      "budget_boundary": "P/model/calibration errors and covariance not supplied"
+    },
+    {
+      "E_keV": 621.0,
+      "reaction": "114Cd(16O,4n)126Ba",
+      "A_over_P": 0.22,
+      "sigma_from_A_only_P_fixed": 0.024444444444444442,
+      "printed_Q": 0.22,
+      "printed_sigma_Q": 0.03,
+      "correct_printed_central_curve": 0.21208060678793436,
+      "legacy_wrong_exponent_control": 0.44681706474375393,
+      "budget_boundary": "P/model/calibration errors and covariance not supplied"
+    },
+    {
+      "E_keV": 757.0,
+      "reaction": "114Cd(16O,4n)126Ba",
+      "A_over_P": 0.1931818181818182,
+      "sigma_from_A_only_P_fixed": 0.029545454545454545,
+      "printed_Q": 0.19,
+      "printed_sigma_Q": 0.03,
+      "correct_printed_central_curve": 0.19262835577810591,
+      "legacy_wrong_exponent_control": 0.44571077996096636,
+      "budget_boundary": "P/model/calibration errors and covariance not supplied"
+    },
+    {
+      "E_keV": 805.0,
+      "reaction": "114Cd(16O,4n)126Ba",
+      "A_over_P": 0.14285714285714285,
+      "sigma_from_A_only_P_fixed": 0.05357142857142856,
+      "printed_Q": 0.14,
+      "printed_sigma_Q": 0.06,
+      "correct_printed_central_curve": 0.1865667520130617,
+      "legacy_wrong_exponent_control": 0.44483706259972533,
+      "budget_boundary": "P/model/calibration errors and covariance not supplied"
+    },
+    {
+      "E_keV": 852.0,
+      "reaction": "114Cd(16O,4n)126Ba",
+      "A_over_P": 0.2159090909090909,
+      "sigma_from_A_only_P_fixed": 0.045454545454545456,
+      "printed_Q": 0.22,
+      "printed_sigma_Q": 0.05,
+      "correct_printed_central_curve": 0.1809984642262322,
+      "legacy_wrong_exponent_control": 0.44382915262054135,
+      "budget_boundary": "P/model/calibration errors and covariance not supplied"
+    },
+    {
+      "E_keV": 1230.0,
+      "reaction": "118Sn(16O,16O′)118Sn",
+      "A_over_P": 0.1488888888888889,
+      "sigma_from_A_only_P_fixed": 0.008888888888888889,
+      "printed_Q": 0.15,
+      "printed_sigma_Q": 0.01,
+      "correct_printed_central_curve": 0.14667358199680258,
+      "legacy_wrong_exponent_control": 0.43361465417383444,
+      "budget_boundary": "P/model/calibration errors and covariance not supplied"
+    }
+  ],
+  "integrated_490": {
+    "source_approx_Q": 0.24,
+    "P_using_source_approx_Q": 0.5,
+    "sigma_from_A_only_using_source_approx_Q": 0.05,
+    "printed_central_curve_Q": 0.23431434252558836,
+    "P_using_central_curve": 0.5121325425774795,
+    "sigma_from_A_only_using_central_curve": 0.051213254257747955,
+    "legacy_wrong_exponent_Q": 0.44440100397679116,
+    "legacy_wrong_exponent_P": 0.27002639266374606,
+    "boundary": "Approximate source Q and fitted central curve are different inputs; no extra Q error invented."
+  },
+  "table_replay": [
+    {
+      "table": "Table2",
+      "locator": "printed23 Table2 Eq7 (PDF8)",
+      "energy_keV": 490,
+      "spin": "16+→14+",
+      "kind": "pureE2",
+      "ndf": 5,
+      "arctan_delta_degrees_or_pure_label": "stretched",
+      "sigma_over_I": 0.26,
+      "standardized_residuals": [
+        1.874999999999999,
+        0.07692307692307698,
+        0.1250000000000001,
+        0.37500000000000033,
+        -2.0000000000000018
+      ],
+      "chi2_contributions": [
+        3.515624999999996,
+        0.005917159763313619,
+        0.015625000000000028,
+        0.14062500000000025,
+        4.000000000000007
+      ],
+      "literal_printed_diagonal_reduced_score": 1.5355584319526634,
+      "source_reported_reduced_score": 1.4,
+      "conservative_rowwise_rounding_enclosure": [
+        0.8416332179930794,
+        3.2086755555555584
+      ],
+      "reported_rounding_interval_overlaps_enclosure": true,
+      "chosen_covariance_sensitivity": [
+        {
+          "chosen_rho": -0.2,
+          "reduced_quadratic_score": 1.913959257889547,
+          "smallest_correlation_eigenvalue": 0.40000000000000013
+        },
+        {
+          "chosen_rho": 0,
+          "reduced_quadratic_score": 1.5355584319526634,
+          "smallest_correlation_eigenvalue": 1.0
+        },
+        {
+          "chosen_rho": 0.2,
+          "reduced_quadratic_score": 1.5315753282174562,
+          "smallest_correlation_eigenvalue": 0.7999999999999998
+        },
+        {
+          "chosen_rho": 0.5,
+          "reduced_quadratic_score": 1.7901627218934912,
+          "smallest_correlation_eigenvalue": 0.4999999999999998
+        },
+        {
+          "chosen_rho": 0.8,
+          "reduced_quadratic_score": 3.063221153846153,
+          "smallest_correlation_eigenvalue": 0.19999999999999965
+        }
+      ]
+    },
+    {
+      "table": "Table2",
+      "locator": "printed23 Table2 Eq7 (PDF8)",
+      "energy_keV": 490,
+      "spin": "15+→14+",
+      "kind": "M1/E2",
+      "ndf": 4,
+      "arctan_delta_degrees_or_pure_label": "84",
+      "sigma_over_I": 0.26,
+      "standardized_residuals": [
+        12.75,
+        1.7692307692307692,
+        12.625,
+        9.25,
+        4.999999999999999
+      ],
+      "chi2_contributions": [
+        162.5625,
+        3.130177514792899,
+        159.390625,
+        85.5625,
+        24.999999999999993
+      ],
+      "literal_printed_diagonal_reduced_score": 108.91145062869822,
+      "source_reported_reduced_score": 79.5,
+      "conservative_rowwise_rounding_enclosure": [
+        92.24302352846244,
+        132.75715555555556
+      ],
+      "reported_rounding_interval_overlaps_enclosure": false,
+      "chosen_covariance_sensitivity": [
+        {
+          "chosen_rho": -0.2,
+          "reduced_quadratic_score": 229.77412899100105,
+          "smallest_correlation_eigenvalue": 0.40000000000000013
+        },
+        {
+          "chosen_rho": 0,
+          "reduced_quadratic_score": 108.91145062869822,
+          "smallest_correlation_eigenvalue": 1.0
+        },
+        {
+          "chosen_rho": 0.2,
+          "reduced_quadratic_score": 82.8369682357156,
+          "smallest_correlation_eigenvalue": 0.7999999999999998
+        },
+        {
+          "chosen_rho": 0.5,
+          "reduced_quadratic_score": 79.11889792899407,
+          "smallest_correlation_eigenvalue": 0.4999999999999998
+        },
+        {
+          "chosen_rho": 0.8,
+          "reduced_quadratic_score": 129.9866551187783,
+          "smallest_correlation_eigenvalue": 0.19999999999999965
+        }
+      ]
+    },
+    {
+      "table": "Table2",
+      "locator": "printed23 Table2 Eq7 (PDF8)",
+      "energy_keV": 490,
+      "spin": "14+→14+",
+      "kind": "M1/E2",
+      "ndf": 4,
+      "arctan_delta_degrees_or_pure_label": "-21",
+      "sigma_over_I": 0.26,
+      "standardized_residuals": [
+        1.7500000000000002,
+        -0.07692307692307698,
+        -0.2500000000000002,
+        0.1250000000000001,
+        0.0
+      ],
+      "chi2_contributions": [
+        3.062500000000001,
+        0.005917159763313619,
+        0.06250000000000011,
+        0.015625000000000028,
+        0.0
+      ],
+      "literal_printed_diagonal_reduced_score": 0.7866355399408286,
+      "source_reported_reduced_score": 0.7,
+      "conservative_rowwise_rounding_enclosure": [
+        0.5882352941176471,
+        1.1752888888888895
+      ],
+      "reported_rounding_interval_overlaps_enclosure": true,
+      "chosen_covariance_sensitivity": [
+        {
+          "chosen_rho": -0.2,
+          "reduced_quadratic_score": 0.9051694249260358,
+          "smallest_correlation_eigenvalue": 0.40000000000000013
+        },
+        {
+          "chosen_rho": 0,
+          "reduced_quadratic_score": 0.7866355399408286,
+          "smallest_correlation_eigenvalue": 1.0
+        },
+        {
+          "chosen_rho": 0.2,
+          "reduced_quadratic_score": 0.8896794968102812,
+          "smallest_correlation_eigenvalue": 0.7999999999999998
+        },
+        {
+          "chosen_rho": 0.5,
+          "reduced_quadratic_score": 1.333616863905326,
+          "smallest_correlation_eigenvalue": 0.4999999999999998
+        },
+        {
+          "chosen_rho": 0.8,
+          "reduced_quadratic_score": 3.2283123585972877,
+          "smallest_correlation_eigenvalue": 0.19999999999999965
+        }
+      ]
+    },
+    {
+      "table": "Table2",
+      "locator": "printed23 Table2 Eq7 (PDF8)",
+      "energy_keV": 490,
+      "spin": "13+→14+",
+      "kind": "M1/E2",
+      "ndf": 4,
+      "arctan_delta_degrees_or_pure_label": "-81",
+      "sigma_over_I": 0.26,
+      "standardized_residuals": [
+        15.0,
+        3.307692307692308,
+        10.25,
+        11.375,
+        5.499999999999999
+      ],
+      "chi2_contributions": [
+        225.0,
+        10.940828402366865,
+        105.0625,
+        129.390625,
+        30.24999999999999
+      ],
+      "literal_printed_diagonal_reduced_score": 125.16098835059171,
+      "source_reported_reduced_score": 116.8,
+      "conservative_rowwise_rounding_enclosure": [
+        106.1498568926481,
+        152.40426666666667
+      ],
+      "reported_rounding_interval_overlaps_enclosure": true,
+      "chosen_covariance_sensitivity": [
+        {
+          "chosen_rho": -0.2,
+          "reduced_quadratic_score": 271.6674814318294,
+          "smallest_correlation_eigenvalue": 0.40000000000000013
+        },
+        {
+          "chosen_rho": 0,
+          "reduced_quadratic_score": 125.16098835059171,
+          "smallest_correlation_eigenvalue": 1.0
+        },
+        {
+          "chosen_rho": 0.2,
+          "reduced_quadratic_score": 92.27077001086354,
+          "smallest_correlation_eigenvalue": 0.7999999999999998
+        },
+        {
+          "chosen_rho": 0.5,
+          "reduced_quadratic_score": 83.29748520710058,
+          "smallest_correlation_eigenvalue": 0.4999999999999998
+        },
+        {
+          "chosen_rho": 0.8,
+          "reduced_quadratic_score": 126.54908441742083,
+          "smallest_correlation_eigenvalue": 0.19999999999999965
+        }
+      ]
+    },
+    {
+      "table": "Table2",
+      "locator": "printed23 Table2 Eq7 (PDF8)",
+      "energy_keV": 490,
+      "spin": "12+→14+",
+      "kind": "pureE2",
+      "ndf": 5,
+      "arctan_delta_degrees_or_pure_label": "stretched",
+      "sigma_over_I": 0.26,
+      "standardized_residuals": [
+        3.2499999999999996,
+        1.3076923076923077,
+        1.2499999999999998,
+        1.6250000000000007,
+        0.5000000000000004
+      ],
+      "chi2_contributions": [
+        10.562499999999996,
+        1.7100591715976332,
+        1.5624999999999996,
+        2.640625000000002,
+        0.25000000000000044
+      ],
+      "literal_printed_diagonal_reduced_score": 3.3451368343195265,
+      "source_reported_reduced_score": 3.1,
+      "conservative_rowwise_rounding_enclosure": [
+        2.6338739611070765,
+        4.489386666666667
+      ],
+      "reported_rounding_interval_overlaps_enclosure": true,
+      "chosen_covariance_sensitivity": [
+        {
+          "chosen_rho": -0.2,
+          "reduced_quadratic_score": 7.399690273668639,
+          "smallest_correlation_eigenvalue": 0.40000000000000013
+        },
+        {
+          "chosen_rho": 0,
+          "reduced_quadratic_score": 3.3451368343195265,
+          "smallest_correlation_eigenvalue": 1.0
+        },
+        {
+          "chosen_rho": 0.2,
+          "reduced_quadratic_score": 2.44251745099852,
+          "smallest_correlation_eigenvalue": 0.7999999999999998
+        },
+        {
+          "chosen_rho": 0.5,
+          "reduced_quadratic_score": 2.22068047337278,
+          "smallest_correlation_eigenvalue": 0.4999999999999998
+        },
+        {
+          "chosen_rho": 0.8,
+          "reduced_quadratic_score": 3.526880656108596,
+          "smallest_correlation_eigenvalue": 0.19999999999999965
+        }
+      ]
+    },
+    {
+      "table": "Table3",
+      "locator": "printed24 Table3 (PDF9)",
+      "energy_keV": 490,
+      "spin": "16+→14+",
+      "kind": "pureE2",
+      "ndf": 4,
+      "arctan_delta_degrees_or_pure_label": "stretched",
+      "sigma_over_I": 0.19,
+      "standardized_residuals": [
+        0.9999999999999994,
+        -0.30769230769230754,
+        -0.6250000000000006,
+        -0.37499999999999895,
+        -2.0000000000000018
+      ],
+      "chi2_contributions": [
+        0.9999999999999989,
+        0.09467455621301767,
+        0.3906250000000007,
+        0.14062499999999922,
+        4.000000000000007
+      ],
+      "literal_printed_diagonal_reduced_score": 1.406481139053256,
+      "source_reported_reduced_score": 1.4,
+      "conservative_rowwise_rounding_enclosure": [
+        0.6111000042718617,
+        3.4088888888888933
+      ],
+      "reported_rounding_interval_overlaps_enclosure": true,
+      "chosen_covariance_sensitivity": [
+        {
+          "chosen_rho": -0.2,
+          "reduced_quadratic_score": 1.3485962154832363,
+          "smallest_correlation_eigenvalue": 0.40000000000000013
+        },
+        {
+          "chosen_rho": 0,
+          "reduced_quadratic_score": 1.406481139053256,
+          "smallest_correlation_eigenvalue": 1.0
+        },
+        {
+          "chosen_rho": 0.2,
+          "reduced_quadratic_score": 1.5044031989644986,
+          "smallest_correlation_eigenvalue": 0.7999999999999998
+        },
+        {
+          "chosen_rho": 0.5,
+          "reduced_quadratic_score": 1.803494822485208,
+          "smallest_correlation_eigenvalue": 0.4999999999999998
+        },
+        {
+          "chosen_rho": 0.8,
+          "reduced_quadratic_score": 3.0045602375565625,
+          "smallest_correlation_eigenvalue": 0.19999999999999965
+        }
+      ]
+    },
+    {
+      "table": "Table3",
+      "locator": "printed24 Table3 (PDF9)",
+      "energy_keV": 490,
+      "spin": "14+→14+",
+      "kind": "M1/E2",
+      "ndf": 3,
+      "arctan_delta_degrees_or_pure_label": "-21",
+      "sigma_over_I": 0.22,
+      "standardized_residuals": [
+        1.2499999999999998,
+        -0.30769230769230754,
+        -0.7500000000000007,
+        -0.37499999999999895,
+        0.0
+      ],
+      "chi2_contributions": [
+        1.5624999999999996,
+        0.09467455621301767,
+        0.562500000000001,
+        0.14062499999999922,
+        0.0
+      ],
+      "literal_printed_diagonal_reduced_score": 0.7867665187376724,
+      "source_reported_reduced_score": 0.7,
+      "conservative_rowwise_rounding_enclosure": [
+        0.5239580218434504,
+        1.3037037037037034
+      ],
+      "reported_rounding_interval_overlaps_enclosure": true,
+      "chosen_covariance_sensitivity": [
+        {
+          "chosen_rho": -0.2,
+          "reduced_quadratic_score": 0.6602743877383299,
+          "smallest_correlation_eigenvalue": 0.40000000000000013
+        },
+        {
+          "chosen_rho": 0,
+          "reduced_quadratic_score": 0.7867665187376724,
+          "smallest_correlation_eigenvalue": 1.0
+        },
+        {
+          "chosen_rho": 0.2,
+          "reduced_quadratic_score": 0.9817197901257395,
+          "smallest_correlation_eigenvalue": 0.7999999999999998
+        },
+        {
+          "chosen_rho": 0.5,
+          "reduced_quadratic_score": 1.569082840236686,
+          "smallest_correlation_eigenvalue": 0.4999999999999998
+        },
+        {
+          "chosen_rho": 0.8,
+          "reduced_quadratic_score": 3.920743778280545,
+          "smallest_correlation_eigenvalue": 0.19999999999999965
+        }
+      ]
+    },
+    {
+      "table": "Table3",
+      "locator": "printed24 Table3 (PDF9)",
+      "energy_keV": 490,
+      "spin": "12+→14+",
+      "kind": "pureE2",
+      "ndf": 4,
+      "arctan_delta_degrees_or_pure_label": "stretched",
+      "sigma_over_I": 0.0,
+      "standardized_residuals": [
+        1.7500000000000002,
+        0.7692307692307693,
+        0.1250000000000001,
+        0.5000000000000004,
+        1.0000000000000009
+      ],
+      "chi2_contributions": [
+        3.062500000000001,
+        0.591715976331361,
+        0.015625000000000028,
+        0.25000000000000044,
+        1.0000000000000018
+      ],
+      "literal_printed_diagonal_reduced_score": 1.229960244082841,
+      "source_reported_reduced_score": 1.1,
+      "conservative_rowwise_rounding_enclosure": [
+        0.7670280661284123,
+        2.3224888888888913
+      ],
+      "reported_rounding_interval_overlaps_enclosure": true,
+      "chosen_covariance_sensitivity": [
+        {
+          "chosen_rho": -0.2,
+          "reduced_quadratic_score": 2.096444696129193,
+          "smallest_correlation_eigenvalue": 0.40000000000000013
+        },
+        {
+          "chosen_rho": 0,
+          "reduced_quadratic_score": 1.229960244082841,
+          "smallest_correlation_eigenvalue": 1.0
+        },
+        {
+          "chosen_rho": 0.2,
+          "reduced_quadratic_score": 1.0887711203309918,
+          "smallest_correlation_eigenvalue": 0.7999999999999998
+        },
+        {
+          "chosen_rho": 0.5,
+          "reduced_quadratic_score": 1.2213017751479294,
+          "smallest_correlation_eigenvalue": 0.4999999999999998
+        },
+        {
+          "chosen_rho": 0.8,
+          "reduced_quadratic_score": 2.242099123303169,
+          "smallest_correlation_eigenvalue": 0.19999999999999965
+        }
+      ]
+    },
+    {
+      "table": "Table4",
+      "locator": "printed25 Table4 (PDF10)",
+      "energy_keV": 647,
+      "spin": "11−→10+",
+      "kind": "E1/M2",
+      "ndf": 3,
+      "arctan_delta_degrees_or_pure_label": "0",
+      "sigma_over_I": 0.27,
+      "standardized_residuals": [
+        -0.8666666666666667,
+        0.7999999999999998,
+        0.5833333333333334,
+        0.14285714285714296,
+        0.0
+      ],
+      "chi2_contributions": [
+        0.7511111111111112,
+        0.6399999999999997,
+        0.34027777777777785,
+        0.020408163265306152,
+        0.0
+      ],
+      "literal_printed_diagonal_reduced_score": 0.583932350718065,
+      "source_reported_reduced_score": 0.6,
+      "conservative_rowwise_rounding_enclosure": [
+        0.4444725633021158,
+        0.8248783469127906
+      ],
+      "reported_rounding_interval_overlaps_enclosure": true,
+      "chosen_covariance_sensitivity": [
+        {
+          "chosen_rho": -0.2,
+          "reduced_quadratic_score": 0.5470230221718317,
+          "smallest_correlation_eigenvalue": 0.40000000000000013
+        },
+        {
+          "chosen_rho": 0,
+          "reduced_quadratic_score": 0.583932350718065,
+          "smallest_correlation_eigenvalue": 1.0
+        },
+        {
+          "chosen_rho": 0.2,
+          "reduced_quadratic_score": 0.7072606646825396,
+          "smallest_correlation_eigenvalue": 0.7999999999999998
+        },
+        {
+          "chosen_rho": 0.5,
+          "reduced_quadratic_score": 1.1098684807256234,
+          "smallest_correlation_eigenvalue": 0.4999999999999998
+        },
+        {
+          "chosen_rho": 0.8,
+          "reduced_quadratic_score": 2.7490846338535433,
+          "smallest_correlation_eigenvalue": 0.19999999999999965
+        }
+      ]
+    },
+    {
+      "table": "Table4",
+      "locator": "printed25 Table4 (PDF10)",
+      "energy_keV": 647,
+      "spin": "9−→10+",
+      "kind": "E1/M2",
+      "ndf": 3,
+      "arctan_delta_degrees_or_pure_label": "-1",
+      "sigma_over_I": 0.11,
+      "standardized_residuals": [
+        -1.2,
+        1.2,
+        0.6666666666666669,
+        0.2857142857142859,
+        0.33333333333333365
+      ],
+      "chi2_contributions": [
+        1.44,
+        1.44,
+        0.4444444444444447,
+        0.08163265306122461,
+        0.11111111111111133
+      ],
+      "literal_printed_diagonal_reduced_score": 1.1723960695389268,
+      "source_reported_reduced_score": 1.2,
+      "conservative_rowwise_rounding_enclosure": [
+        0.9124016803484025,
+        1.6331670854511806
+      ],
+      "reported_rounding_interval_overlaps_enclosure": true,
+      "chosen_covariance_sensitivity": [
+        {
+          "chosen_rho": -0.2,
+          "reduced_quadratic_score": 1.109145880574452,
+          "smallest_correlation_eigenvalue": 0.40000000000000013
+        },
+        {
+          "chosen_rho": 0,
+          "reduced_quadratic_score": 1.1723960695389268,
+          "smallest_correlation_eigenvalue": 1.0
+        },
+        {
+          "chosen_rho": 0.2,
+          "reduced_quadratic_score": 1.408994708994709,
+          "smallest_correlation_eigenvalue": 0.7999999999999998
+        },
+        {
+          "chosen_rho": 0.5,
+          "reduced_quadratic_score": 2.1868178382464096,
+          "smallest_correlation_eigenvalue": 0.4999999999999998
+        },
+        {
+          "chosen_rho": 0.8,
+          "reduced_quadratic_score": 5.358134364857057,
+          "smallest_correlation_eigenvalue": 0.19999999999999965
+        }
+      ]
+    },
+    {
+      "table": "Table4",
+      "locator": "printed25 Table4 (PDF10)",
+      "energy_keV": 647,
+      "spin": "11+→10+",
+      "kind": "M1/E2",
+      "ndf": 3,
+      "arctan_delta_degrees_or_pure_label": "-83",
+      "sigma_over_I": 0.0,
+      "standardized_residuals": [
+        1.6,
+        0.19999999999999982,
+        2.0833333333333335,
+        2.7142857142857144,
+        0.6666666666666673
+      ],
+      "chi2_contributions": [
+        2.5600000000000005,
+        0.039999999999999925,
+        4.340277777777779,
+        7.367346938775511,
+        0.4444444444444453
+      ],
+      "literal_printed_diagonal_reduced_score": 4.917356386999245,
+      "source_reported_reduced_score": 4.8,
+      "conservative_rowwise_rounding_enclosure": [
+        3.91551834186328,
+        6.35591276618462
+      ],
+      "reported_rounding_interval_overlaps_enclosure": true,
+      "chosen_covariance_sensitivity": [
+        {
+          "chosen_rho": -0.2,
+          "reduced_quadratic_score": 10.16812405517763,
+          "smallest_correlation_eigenvalue": 0.40000000000000013
+        },
+        {
+          "chosen_rho": 0,
+          "reduced_quadratic_score": 4.917356386999245,
+          "smallest_correlation_eigenvalue": 1.0
+        },
+        {
+          "chosen_rho": 0.2,
+          "reduced_quadratic_score": 3.8425450562169314,
+          "smallest_correlation_eigenvalue": 0.7999999999999998
+        },
+        {
+          "chosen_rho": 0.5,
+          "reduced_quadratic_score": 3.8827543461829177,
+          "smallest_correlation_eigenvalue": 0.4999999999999998
+        },
+        {
+          "chosen_rho": 0.8,
+          "reduced_quadratic_score": 6.924159108087685,
+          "smallest_correlation_eigenvalue": 0.19999999999999965
+        }
+      ]
+    },
+    {
+      "table": "Table4",
+      "locator": "printed25 Table4 (PDF10)",
+      "energy_keV": 647,
+      "spin": "10+→10+",
+      "kind": "M1/E2",
+      "ndf": 3,
+      "arctan_delta_degrees_or_pure_label": "-42",
+      "sigma_over_I": 0.1,
+      "standardized_residuals": [
+        0.6666666666666667,
+        2.4,
+        1.75,
+        2.285714285714286,
+        -2.999999999999999
+      ],
+      "chi2_contributions": [
+        0.44444444444444453,
+        5.76,
+        3.0625,
+        5.224489795918369,
+        8.999999999999995
+      ],
+      "literal_printed_diagonal_reduced_score": 7.830478080120936,
+      "source_reported_reduced_score": 7.7,
+      "conservative_rowwise_rounding_enclosure": [
+        5.740164652749757,
+        11.19559115432658
+      ],
+      "reported_rounding_interval_overlaps_enclosure": true,
+      "chosen_covariance_sensitivity": [
+        {
+          "chosen_rho": -0.2,
+          "reduced_quadratic_score": 14.031483843537416,
+          "smallest_correlation_eigenvalue": 0.40000000000000013
+        },
+        {
+          "chosen_rho": 0,
+          "reduced_quadratic_score": 7.830478080120936,
+          "smallest_correlation_eigenvalue": 1.0
+        },
+        {
+          "chosen_rho": 0.2,
+          "reduced_quadratic_score": 6.410815558862432,
+          "smallest_correlation_eigenvalue": 0.7999999999999998
+        },
+        {
+          "chosen_rho": 0.5,
+          "reduced_quadratic_score": 5.9351141345427045,
+          "smallest_correlation_eigenvalue": 0.4999999999999998
+        },
+        {
+          "chosen_rho": 0.8,
+          "reduced_quadratic_score": 7.370502089724778,
+          "smallest_correlation_eigenvalue": 0.19999999999999965
+        }
+      ]
+    },
+    {
+      "table": "Table4",
+      "locator": "printed25 Table4 (PDF10)",
+      "energy_keV": 647,
+      "spin": "9+→10+",
+      "kind": "M1/E2",
+      "ndf": 3,
+      "arctan_delta_degrees_or_pure_label": "48",
+      "sigma_over_I": 0.6,
+      "standardized_residuals": [
+        1.6,
+        2.0,
+        2.5,
+        3.714285714285714,
+        0.6666666666666673
+      ],
+      "chi2_contributions": [
+        2.5600000000000005,
+        4.0,
+        6.25,
+        13.795918367346937,
+        0.4444444444444453
+      ],
+      "literal_printed_diagonal_reduced_score": 9.016787603930462,
+      "source_reported_reduced_score": 9.2,
+      "conservative_rowwise_rounding_enclosure": [
+        7.42584570148096,
+        11.168126408660333
+      ],
+      "reported_rounding_interval_overlaps_enclosure": true,
+      "chosen_covariance_sensitivity": [
+        {
+          "chosen_rho": -0.2,
+          "reduced_quadratic_score": 20.916487150415723,
+          "smallest_correlation_eigenvalue": 0.40000000000000013
+        },
+        {
+          "chosen_rho": 0,
+          "reduced_quadratic_score": 9.016787603930462,
+          "smallest_correlation_eigenvalue": 1.0
+        },
+        {
+          "chosen_rho": 0.2,
+          "reduced_quadratic_score": 6.217270171957672,
+          "smallest_correlation_eigenvalue": 0.7999999999999998
+        },
+        {
+          "chosen_rho": 0.5,
+          "reduced_quadratic_score": 5.0427331821617525,
+          "smallest_correlation_eigenvalue": 0.4999999999999998
+        },
+        {
+          "chosen_rho": 0.8,
+          "reduced_quadratic_score": 6.718716375439066,
+          "smallest_correlation_eigenvalue": 0.19999999999999965
+        }
+      ]
+    }
+  ],
+  "controls": {
+    "printed_number_parser": true,
+    "raw_hash": true,
+    "rounding_encloses_central": true,
+    "all_chosen_covariances_PD": true,
+    "covariance_inverse_and_analytic_decomposition_agree": true,
+    "rho0_recovers_diagonal": true,
+    "optimized_source_parameters": false,
+    "actual_event_covariance_obtained": false
+  },
+  "boundary": "Rounding enclosures are conditional decimal boxes, not confidence intervals. A mismatch remains a reproduction boundary, not an author-error verdict. No p-values, model probabilities or independent sixth integrated-P datum."
+}

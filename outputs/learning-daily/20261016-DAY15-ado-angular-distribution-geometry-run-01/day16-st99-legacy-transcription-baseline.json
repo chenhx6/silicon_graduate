@@ -1,0 +1,16 @@
+{
+  "captured_at": "2026-10-17T04:12:29.845549+08:00",
+  "path": "knowledge/sources/starosta-1999-pdco-experimental-test.md",
+  "source_page_sha256_before_this_segment_correction": "b38ddb535e1606d53f92407b3d255a22395bb29a0a54992b86814089e4e058ab",
+  "head_subject": "Validate primary angular tables and reference-multipole boundaries",
+  "old_metadata_lines": [
+    "review_status: unreviewed",
+    "raw_sha256: \"883fdd7b08831efefe25f5df610e84b95bb1acbcd7b8e7f684b1a1b31bf8030b\"",
+    "nuclei: [162Yb, 152Ba, 130Cd, 132Sn]",
+    "reactions: [136Ba-30Si-4n, 112Cd-16O-4n, 112Cd-16O-Coulomb-excitation, 114Sn-16O-Coulomb-excitation]"
+  ],
+  "old_Qfit_bullet": [
+    "- The CLOVER asymmetry is related to physical polarization by `A=QP`; calibration reactions give `Q=0.30(3)` at 256 keV down to `0.15(1)` at 1230 keV, and the fitted response is `Q=Q0(0.31(2)+7(2)×10^-4 Eγ)` (PDF pp.18–19, Table 1, Eq.5)."
+  ],
+  "scope": "Freeze legacy transcriptions before correcting from original. Do not overwrite raw or old ST99-1..4 flags."
+}

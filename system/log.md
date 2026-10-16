@@ -1770,3 +1770,8 @@ Zobel1983六页/metadata/raw与958parent10个Pubfit rows，38-check条件Gaussia
 - Postcalculation scope控制显示：真实P/rate正常时，错误pureE2逆算可制造apparentalpha正性失败。因此不从calibration条件失配直接判实验/作者code错误，不改实际delta或mode。
 - fresh boundary/preflight/lint/diff exit0，lint0error/146warnings；25writeback/28mapped/25changed、14mappedraw hashes、3script/inputhash和原review/PLAN/Bib/daemon通过；EOL exit1为8项own substantive/0unsafe保留。已过图未改变，不重复渲染刷检查数。
 - 本批commit target：main / Validate primary angular tables and reference-multipole boundaries；actual H3/push/hash仅publication006/runreceipt。原始PDF/archives/credentials和继承receipts/旧log排除。
+
+
+## 2026-10-17T04:29:01.258945+08:00 — DAY15 checkpoint007: ST99 original and printed replay
+
+同run/session继续partial16：核11页原件，修正身份/Q指数与D96公开Eq4勘误；13行印刷replay中Table2 15+行在chosenroundingbox外，保留原表/原因未决；chosenCov、五点NDF、647类别/同DCO校准依赖及alpha_κ定义缺口写canonical。输入误填未报告647A在任何numeric前更正为v2并保留failure记录。formal15只计一次、next16/count15，goal/windowactive原15:00截止。稳定指针main / Correct PDCO calibration transcriptions and audit printed fit tables；actualH3/push仅publication007。

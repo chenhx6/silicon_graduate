@@ -42,6 +42,7 @@ tags: [PDCO, DCO, CLOVER, polarization, angular-correlation]
 
 - PDF pp.518–525 fully read: general two-polarized-γ correlation Eq.1, generalized F coefficients, DCO/PDCO/PPCO cases, emission geometry, deorientation, Gaussian alignment, POL-DIR/DIR-POL modes, symmetries, discussion and conclusion.
 - Not covered: source code and later experimental calibrations.
+- 当前使用Eq4时先应用[[starosta-1999-pdco-experimental-test]] printed17 footnote1的已发表勘误，见DR96-8；本次已核1999原件，并非仅凭1996印本转录。
 
 ## Key Results
 
@@ -61,6 +62,7 @@ tags: [PDCO, DCO, CLOVER, polarization, angular-correlation]
 | DR96-5 | Eq5的绝对辐射振幅含i^(L+delta_TM)、能量和初末态约化算符矩阵元，alpha为模方之和；Eq7的广义F还含CG/9j及L−1相位。沿用同一delta符号或pure limits不构成全部相位定义相同的证明。 | convention-and-use-boundary | direct-and-self-audit | printed519 Eq3–6；printed520 Eq7及Bohr–Mottelson说明 | true |
 | DR96-6 | Fig7/正文给5→4→2的作者模型例：sigma/I0=.3，DCO取0/90度、PDCO取90/90度phi0；R_DCO约.4时比较pureE1与M1+E2/arctanδ约−70°。其singles、POL-DIR、DIR-POL的P分别约(.34,.27)、(.56,.44)、(.56,.17)。无实测计数或误差，近似R/P不应混成一个精确实验点。 | author-model-calculation | direct | printed523 Sec3例；printed524 Fig7及图注 | true |
 | DR96-7 | 作者说FORTRAN代码可向作者取得；本session未得到或运行它，只做独立点响应推导。代码可得的文字声明不等于论文响应已重放。 | reproducibility-boundary | direct-and-self-audit | printed521末段–printed522首段 | true |
+| DR96-8 | Eq4 polarization系数的印刷磁项相位错误已由Starosta1999脚注公开更正：应以Tprime而非T判magnetic，即(-1)^(delta_(Tprime,M))。原件Eq4与脚注均核；作者称程序无此误，但本session未取得代码。此勘误不同于本任务delta_probe=−d_source的相对基底映射。 | published-erratum-and-use-boundary | direct-later-source-and-self-audit | printed519 Eq4；Starosta1999 printed17 footnote1 | true |
 
 ## Summary
 
@@ -105,3 +107,9 @@ DR96-4特别区分先后顺序：积分下游gamma2不会改变已发射gamma1�
 DR96-6是**作者计算**。Fig7图注的state parities unchanged对应M1/E2曲线，正文另用pureE1的电磁性质比较；其相位/分子分母依赖与sourceRef1应逐项保存。正文的.34/.27等值不完全相同，又未给实测sigma，不能将“难区分”的叙述改写为对全部联合observable严格不可识别。
 
 [[dco-pdco-ambiguity-worksheet]]给本任务独立模型复算，保留原冻结probe与首轮mixed-sign不一致。使用Eq3/7的F矩阵（9j用六CG重耦合求得）独立校验后，推得该probe基底与source振幅坐标的相对变换；pure校验看不出这个相位差。它**没有**据此声称KS70/Rose–Brink/D96的全局delta定义已互换。source的−70°例与本任务精确同R根分开列，模型不是新增实测RDCO或作者FORTRAN重放。
+
+### Eq4已发表勘误与实现基底分开
+
+[[starosta-1999-pdco-experimental-test]] ST99-8（printed17 footnote1）将本篇Eq4的`(-1)^(delta_(T,M))`改成`(-1)^(delta_(Tprime,M))`。这改变复共轭振幅一侧的magnetic判别，不能在逐字实现原式时漏掉。作者表示其computer code没有该错误；这仍只是作者声明，本任务没有验证其producer代码。
+
+本run早前的phase worksheet用Eq3/7的directional F和独立RB/Jones photon amplitudes核对，未将原印Eq4逐字作为PDCO kernel，因此不能把该勘误事后当作早前内部坐标换号的原因，也不据此宣称重放了作者PDCO程序。当前使用者须同时保存正确公式和自己的operator/basis定义。

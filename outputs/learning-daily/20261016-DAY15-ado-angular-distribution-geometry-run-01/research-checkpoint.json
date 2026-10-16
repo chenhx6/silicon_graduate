@@ -1,5 +1,5 @@
 {
-  "captured_at": "2026-10-17T03:54:30.606242+08:00",
+  "captured_at": "2026-10-17T04:29:01.258945+08:00",
   "session_id": "01a14510-aec7-7e00-aa23-f7c77a5124bc",
   "run_id": "2026-10-16-day-15-01",
   "hard_deadline": "2026-10-17T15:00:00+08:00",
@@ -119,9 +119,66 @@
         17
       ],
       "visual_appendix": "A.10–A.19 whole-page contact sheets; no precise covariance digitization"
+    },
+    "starosta1999": {
+      "at": "2026-10-17T04:29:01.258945+08:00",
+      "source": "knowledge/sources/starosta-1999-pdco-experimental-test.md",
+      "raw_sha256": "883fdd7b08831efefe25f5df610e84b95bb1acbcd7b8e7f684b1a1b31bf8030b",
+      "primed_freeze": "day16-st99-recall-freeze.json",
+      "text_mainline_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "key_visual_pages": [
+        2,
+        3,
+        4,
+        5,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "covered": [
+        "printed16 motivation/abstract",
+        "printed17 Fig1/setup/Eq1/2 andD96footnote",
+        "printed18–19 Q/a/calibration/Tab1/Eq3–6/Fig2/3",
+        "printed20–21 DCO/sigma/flight/integratedP/Fig4",
+        "printed22–23 fourgeometries/Fig5–7/Eq7/Tab2",
+        "printed24–25 Tab3/4/647/assignment/conclusion",
+        "printed26 alpha_kappa/ref/data dependence"
+      ],
+      "not_obtained": [
+        "author code",
+        "raw events",
+        "unrounded theory/minima",
+        "actual totalCov",
+        "matched independent490 electron/γdata",
+        "explicit alpha_kappa shell definition"
+      ],
+      "transcription_corrections": [
+        "nuclei/reactions",
+        "Qfit exponent",
+        "sigma/I",
+        "reducedchi2",
+        "647class notuniquespin"
+      ],
+      "table_replay_exit": 0,
+      "source_rows_added": "ST99-5..13/DR96-8",
+      "human_review_created": false
     }
   },
-  "current_status": "Formal15creditedonce next16/count15; windowactive. Publication005 actuallypushed. Pending006: MS74 primary tables/negative-column example plusboundedhalfspinE2M3single-gamma/scopereversal completed,25owningwritebackitems. Actualproducer/response/Σ missing; noformal16/no17.",
+  "current_status": "Formal15creditedonce next16/count15; windowactive. Published001–006. Checkpoint007committed ST99 full11pages/identity/Q/erratum/13rowreplay/dependence; actualH3/push onlypublication007; onlypartial16.",
   "worksheet": {
     "input_sha256": "e8e31f0691862296b62adffb34e6e5395d22ba6cdc59f629a00c71a89eeadf04",
     "script": "system/scripts/day15_ado_covariance_worksheet.py",
@@ -131,9 +188,10 @@
     "figure_source_warnings": 4
   },
   "next_actions": [
-    "Freshchecks/exactmanifest publish006 includingpub005receipt",
-    "Freeze primedrecall then readStarosta1999 originalmainline/figs/tables/uncertainty andactualresponse/counterbranch",
-    "Rebuildcurrent/partial16 pool withfreshclock,original15:00deadline; noDay17/noformal16"
+    "Confirmactualpublication007 thenboundedEq4audit; nocloseout",
+    "BoundedD96Eq4corrected-polarization coefficient audit againstindependentamplitudes; no newcard",
+    "Actualproducer/response/Σ requestsremainreadiness; donotrepeatfailedaccess",
+    "Atoriginal15:00 stopnewresearch andcloseout; noformal16/17"
   ],
   "mixed_event_analysis": {
     "input_sha256": "b0a0bb6503d01e8dc432e1a866960872b4fbc1bebd89a1737ca766eab9bab72c",
@@ -317,5 +375,17 @@
     "scope_counterexample": "postcalculation physical+delta.04 control andwrongpureE2inverse givesapparentalpha1.009932/.464384,dual-1.706165 whiletrueP/ratesphysical; not sourceorcoordinate rewrite",
     "stop_contract_met": true,
     "free_sigma_delta_fit": false
+  },
+  "ST99_replay": {
+    "canonical": "knowledge/research-notes/st99-pdco-calibration-table-replay.md",
+    "input": "day16-st99-calibration-table-input-v2.json",
+    "input_sha256": "651c05306a16d12d6121d4e7d097e6906d8d541d2f26d1232eb3aba9b1f4fe6a",
+    "script": "system/scripts/day16_st99_table_replay.py",
+    "result": "day16-st99-calibration-table-replay.json",
+    "actual_exit": 0,
+    "rows": 13,
+    "not_rounding_closed": "Table2 15+→14+ 108.911451 versus79.5, chosenenclosure92.243024–132.757156",
+    "actual_covariance_obtained": false,
+    "input_error_pre_numeric_correction": "unsupported647Aremoved,v1preservedbutnotused"
   }
 }

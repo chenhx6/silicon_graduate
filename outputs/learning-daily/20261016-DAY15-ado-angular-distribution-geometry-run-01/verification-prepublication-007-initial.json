@@ -1,0 +1,363 @@
+{
+  "at": "2026-10-17T04:29:41.002570+08:00",
+  "checks": [
+    {
+      "check": "eol",
+      "command": [
+        "python3",
+        "system/scripts/clean_knowledge_eol_dirty.py"
+      ],
+      "exit_code": 1,
+      "accepted": true,
+      "substantive": [
+        "knowledge/index.md",
+        "knowledge/methods/compton-polarimetry.md",
+        "knowledge/methods/dco-pdco-ambiguity-worksheet.md",
+        "knowledge/sources/droste-1996-pdco-formalism.md",
+        "knowledge/sources/starosta-1999-pdco-experimental-test.md"
+      ]
+    },
+    {
+      "check": "preflight",
+      "command": [
+        "python3",
+        "system/scripts/wiki_automation_preflight.py",
+        "--root",
+        "."
+      ],
+      "exit_code": 0
+    },
+    {
+      "check": "boundary",
+      "command": [
+        "python3",
+        "system/scripts/wiki_boundary_check.py",
+        "--root",
+        "."
+      ],
+      "exit_code": 0
+    },
+    {
+      "check": "lint",
+      "command": [
+        "python3",
+        "system/scripts/wiki_lint.py",
+        "--fail-on",
+        "error"
+      ],
+      "exit_code": 1,
+      "errors": [],
+      "summary": [
+        "SUMMARY pages=611 wikilinks=6284 hashes=282 errors=7 warnings=146 info=2072"
+      ],
+      "warning_classes": {
+        "REACTION_PARSE": 3,
+        "CITATION_KEY_MISSING": 115,
+        "RAW_MISSING": 28
+      }
+    },
+    {
+      "check": "diff",
+      "command": [
+        "git",
+        "diff",
+        "--check"
+      ],
+      "exit_code": 0
+    }
+  ],
+  "report": {
+    "valid": true,
+    "missing_headings": []
+  },
+  "writeback": {
+    "valid": true,
+    "mode": "updated",
+    "knowledge_paths": [
+      "knowledge/methods/ado-covariance-calibration.md",
+      "knowledge/sources/zheng-2002-ado-coincidence-angular-anisotropy.md",
+      "knowledge/methods/angular-distribution.md",
+      "knowledge/sources/sensharma-2021-wobbling-motion-135pr-187au.md",
+      "knowledge/sources/smith-2019-griffin-angular-correlation-analysis.md",
+      "knowledge/methods/angular-correlation.md",
+      "knowledge/sources/droste-1996-pdco-formalism.md",
+      "knowledge/sources/kramer-flecken-1989-use-dco-ratios.md",
+      "knowledge/index.md",
+      "knowledge/sources/starosta-1999-pdco-experimental-test.md",
+      "knowledge/methods/event-mixing-statistics.md",
+      "knowledge/methods/dco-pdco-ambiguity-worksheet.md",
+      "knowledge/sources/krane-steffen-1970-cd110-mixing-ratios.md",
+      "knowledge/sources/rose-brink-1967-phase-defined-angular-distributions.md",
+      "knowledge/methods/dco-ratio.md",
+      "knowledge/observables/multipole-mixing-ratio.md",
+      "knowledge/research-notes/135pr-mixing-branch-input-contract.md",
+      "knowledge/sources/matta-2015-transverse-wobbling-135pr.md",
+      "knowledge/sources/lv-2022-evidence-against-wobbling-135pr.md",
+      "knowledge/sources/herzan-2015-193bi-spectroscopy.md",
+      "knowledge/sources/sensharma-2026-evolution-chirality-transverse-wobbling-135pr.md",
+      "knowledge/methods/two-point-angular-correlation-ratio.md",
+      "knowledge/methods/linear-polarization-asymmetry.md",
+      "knowledge/projects/135pr-wobbling-controversy.md",
+      "knowledge/research-notes/se21-alignment-calibration-consistency.md",
+      "knowledge/sources/yamazaki-1967-aligned-angular-coefficients.md",
+      "knowledge/sources/der-mateosian-sunyar-1974-attenuation-coefficients.md",
+      "knowledge/sources/der-mateosian-sunyar-1974-angular-coefficients.md",
+      "knowledge/observables/spin-alignment-attenuation-factor.md",
+      "knowledge/research-notes/st99-pdco-calibration-table-replay.md",
+      "knowledge/methods/compton-polarimetry.md"
+    ],
+    "changed_paths": [
+      "knowledge/index.md",
+      "knowledge/methods/ado-covariance-calibration.md",
+      "knowledge/methods/angular-correlation.md",
+      "knowledge/methods/angular-distribution.md",
+      "knowledge/methods/compton-polarimetry.md",
+      "knowledge/methods/dco-pdco-ambiguity-worksheet.md",
+      "knowledge/methods/dco-ratio.md",
+      "knowledge/methods/event-mixing-statistics.md",
+      "knowledge/methods/linear-polarization-asymmetry.md",
+      "knowledge/methods/two-point-angular-correlation-ratio.md",
+      "knowledge/observables/multipole-mixing-ratio.md",
+      "knowledge/observables/spin-alignment-attenuation-factor.md",
+      "knowledge/projects/135pr-wobbling-controversy.md",
+      "knowledge/research-notes/135pr-mixing-branch-input-contract.md",
+      "knowledge/research-notes/se21-alignment-calibration-consistency.md",
+      "knowledge/research-notes/st99-pdco-calibration-table-replay.md",
+      "knowledge/sources/der-mateosian-sunyar-1974-angular-coefficients.md",
+      "knowledge/sources/der-mateosian-sunyar-1974-attenuation-coefficients.md",
+      "knowledge/sources/droste-1996-pdco-formalism.md",
+      "knowledge/sources/kramer-flecken-1989-use-dco-ratios.md",
+      "knowledge/sources/krane-steffen-1970-cd110-mixing-ratios.md",
+      "knowledge/sources/lv-2022-evidence-against-wobbling-135pr.md",
+      "knowledge/sources/matta-2015-transverse-wobbling-135pr.md",
+      "knowledge/sources/sensharma-2021-wobbling-motion-135pr-187au.md",
+      "knowledge/sources/sensharma-2026-evolution-chirality-transverse-wobbling-135pr.md",
+      "knowledge/sources/smith-2019-griffin-angular-correlation-analysis.md",
+      "knowledge/sources/starosta-1999-pdco-experimental-test.md",
+      "knowledge/sources/zheng-2002-ado-coincidence-angular-anisotropy.md"
+    ],
+    "change_check": "run-snapshot",
+    "error": null
+  },
+  "coverage": {
+    "valid": true,
+    "completed_day_indices": [
+      15
+    ],
+    "partial_day_indices": [
+      16
+    ],
+    "curriculum_cards_completed": 1,
+    "next_day_index": 16,
+    "error": null
+  },
+  "review_scope_proof": {
+    "knowledge/sources/krane-steffen-1970-cd110-mixing-ratios.md": {
+      "old_row_count": 4,
+      "old_rows_unchanged": true,
+      "page_review_unchanged": true
+    },
+    "knowledge/sources/droste-1996-pdco-formalism.md": {
+      "old_row_count": 3,
+      "old_rows_unchanged": true,
+      "page_review_unchanged": true
+    },
+    "knowledge/sources/kramer-flecken-1989-use-dco-ratios.md": {
+      "old_row_count": 8,
+      "old_rows_unchanged": true,
+      "page_review_unchanged": true
+    },
+    "knowledge/sources/matta-2015-transverse-wobbling-135pr.md": {
+      "old_row_count": 15,
+      "old_rows_unchanged": true,
+      "page_review_unchanged": true
+    },
+    "knowledge/sources/lv-2022-evidence-against-wobbling-135pr.md": {
+      "old_row_count": 15,
+      "old_rows_unchanged": true,
+      "page_review_unchanged": true
+    },
+    "knowledge/sources/sensharma-2021-wobbling-motion-135pr-187au.md": {
+      "old_row_count": 8,
+      "old_rows_unchanged": true,
+      "page_review_unchanged": true
+    },
+    "knowledge/sources/sensharma-2026-evolution-chirality-transverse-wobbling-135pr.md": {
+      "old_row_count": 11,
+      "old_rows_unchanged": true,
+      "page_review_unchanged": true
+    },
+    "knowledge/sources/der-mateosian-sunyar-1974-attenuation-coefficients.md": {
+      "old_row_count": 3,
+      "old_rows_unchanged": true,
+      "page_review_unchanged": true
+    },
+    "knowledge/sources/der-mateosian-sunyar-1974-angular-coefficients.md": {
+      "old_row_count": 4,
+      "old_rows_unchanged": true,
+      "page_review_unchanged": true
+    },
+    "knowledge/sources/starosta-1999-pdco-experimental-test.md": {
+      "old_row_count": 4,
+      "old_rows_unchanged": true,
+      "page_review_unchanged": true
+    },
+    "knowledge/observables/spin-alignment-attenuation-factor.md": {
+      "original_body_unchanged": true,
+      "page_review_unchanged": true
+    },
+    "knowledge/projects/135pr-wobbling-controversy.md": {
+      "original_body_unchanged": true,
+      "page_review_unchanged": true
+    }
+  },
+  "protected": {
+    "PLAN.md": true,
+    "raw/zotero/wiki-inbox.bib": true,
+    "system/scripts/run_daily_learning_daemon.py": true
+  },
+  "artifact_hashes": {
+    "day16_st99_table_replay.py": {
+      "AST_valid": true,
+      "script_output_hash_match": true,
+      "input_output_hash_match": true
+    },
+    "day16_ms74_primary_controls.py": {
+      "AST_valid": true,
+      "script_output_hash_match": true,
+      "input_output_hash_match": true
+    },
+    "day16_se21_m3_reference.py": {
+      "AST_valid": true,
+      "script_output_hash_match": true,
+      "input_output_hash_match": true
+    },
+    "day16_se21_alignment_audit.py": {
+      "AST_valid": true,
+      "script_output_hash_match": true,
+      "input_output_hash_match": true
+    }
+  },
+  "mapped_raw_hashes": {
+    "knowledge/sources/zheng-2002-ado-coincidence-angular-anisotropy.md": {
+      "raw": "raw/papers/gpt/high-spin-20260920/multipolarity/angular distribution/ADO/2002_郑 et al_符合模式下的γ射线各向异性度测量.pdf",
+      "hash_match": true
+    },
+    "knowledge/sources/sensharma-2021-wobbling-motion-135pr-187au.md": {
+      "raw": "raw/papers/degree dissertation/Wobbling_Motion_in_Nuclei.pdf",
+      "hash_match": true
+    },
+    "knowledge/sources/smith-2019-griffin-angular-correlation-analysis.md": {
+      "raw": "raw/papers/gpt/day15/smith-2018-griffin-angular-correlation-arxiv1807.07570v1.pdf",
+      "hash_match": true
+    },
+    "knowledge/sources/droste-1996-pdco-formalism.md": {
+      "raw": "raw/papers/gpt/high-spin-20260920/multipolarity/mixing ratio/1996_Droste et al_PDCO Polarizational-directional correlation from oriented nuclei.pdf",
+      "hash_match": true
+    },
+    "knowledge/sources/kramer-flecken-1989-use-dco-ratios.md": {
+      "raw": "raw/papers/1989_Krämer-Flecken et al_Use of DCO ratios for spin determination in γ-γ coincidence measurements.pdf",
+      "hash_match": true
+    },
+    "knowledge/sources/starosta-1999-pdco-experimental-test.md": {
+      "raw": "raw/papers/gpt/high-spin-20260920/multipolarity/mixing ratio/1999_Starosta et al_Experimental test of the polarization direction correlation method (PDCO).pdf",
+      "hash_match": true
+    },
+    "knowledge/sources/krane-steffen-1970-cd110-mixing-ratios.md": {
+      "raw": "raw/papers/gpt/high-spin-20260920/multipolarity/mixing ratio/1970_Krane et al_Determination of the E2M1 Multipole Mixing Ratios of the Gamma Transitions in Cd110.pdf",
+      "hash_match": true
+    },
+    "knowledge/sources/rose-brink-1967-phase-defined-angular-distributions.md": {
+      "raw": "raw/papers/gpt/high-spin-20260920/multipolarity/mixing ratio/1967_Rose et al_Angular Distributions of Gamma Rays in Terms of Phase-Defined Reduced Matrix Elements.pdf",
+      "hash_match": true
+    },
+    "knowledge/sources/matta-2015-transverse-wobbling-135pr.md": {
+      "raw": "raw/papers/2015_Matta et al_Transverse Wobbling in Pr 135.pdf",
+      "hash_match": true
+    },
+    "knowledge/sources/lv-2022-evidence-against-wobbling-135pr.md": {
+      "raw": "raw/papers/2022_Lv et al_Evidence against the wobbling nature of low-spin bands in 135Pr.pdf",
+      "hash_match": true
+    },
+    "knowledge/sources/herzan-2015-193bi-spectroscopy.md": {
+      "raw": "raw/papers/gpt/high-spin-20260920/纲图/2015_Herzáň et al_Detailed spectroscopy of Bi 193.pdf",
+      "hash_match": true
+    },
+    "knowledge/sources/sensharma-2026-evolution-chirality-transverse-wobbling-135pr.md": {
+      "raw": "raw/papers/gpt/_incoming/20260912-135pr-refresh/sensharma-2026-135pr-chirality-wobbling.pdf",
+      "hash_match": true
+    },
+    "knowledge/sources/yamazaki-1967-aligned-angular-coefficients.md": {
+      "raw": "raw/papers/gpt/high-spin-20260920/multipolarity/angular distribution/ADO/1967_Yamazaki_Tables of coefficients for angular distribution of gamma rays from aligned.pdf",
+      "hash_match": true
+    },
+    "knowledge/sources/der-mateosian-sunyar-1974-attenuation-coefficients.md": {
+      "raw": "raw/papers/gpt/high-spin-20260920/multipolarity/angular distribution/ADO/1974_Der Mateosian_Sunyar_Tables of attenuation coefficients for angular distribution of gamma rays from.pdf",
+      "hash_match": true
+    },
+    "knowledge/sources/der-mateosian-sunyar-1974-angular-coefficients.md": {
+      "raw": "raw/papers/gpt/high-spin-20260920/multipolarity/angular distribution/ADO/1974_Der Mateosian_Sunyar_Tables of angular-distribution coefficients for gamma rays of mixed.pdf",
+      "hash_match": true
+    }
+  },
+  "control_characters": [],
+  "unchanged_figure_QA_reused": {
+    "at": "2026-10-17T02:39:55.788489+08:00",
+    "checks": [
+      {
+        "check": "source",
+        "exit_code": 0,
+        "summary": {
+          "ready": true,
+          "strict": false,
+          "counts": {
+            "PASS": 18,
+            "WARN": 3,
+            "FAIL": 0
+          }
+        }
+      },
+      {
+        "check": "glyph",
+        "exit_code": 0,
+        "minimum_pt": 7.0
+      },
+      {
+        "check": "collision",
+        "exit_code": 0,
+        "summary": {
+          "fail": 0,
+          "warn": 0,
+          "contained_fill_overlays": 0,
+          "contained_image_overlays": 0
+        }
+      }
+    ],
+    "physical_size_mm": [
+      88.99999927944606,
+      88.00000110202365
+    ],
+    "unchanged_numerics_after_render_fix": true,
+    "first_collision": "one off-viewport hull stroke was seen by auditor across tick; displayed polygon now explicitly clipped to viewport, source data unchanged",
+    "warning_review": [
+      "Mathtext rendered minimum7pt passes, source heuristic4.9 falsepositive",
+      "Actual89mm PDFwidth checked, source parser misread89/25.4 as89inches",
+      "PNG600dpi is reportpreview alongside editableSVG/PDF, noTIFFsubmission claim"
+    ],
+    "pdf_sha256": "7045d140043788f10e1edd6f4dc5a61d4763997deeebe7da8a0ca1475ee1c6b1",
+    "alignment": "single panel not applicable, render-time JSON recorded",
+    "additional_pure_E2_model": "New doubled-spin CG pure-E2 reference check added without changing displayed alpha hull/source data."
+  },
+  "index_before": "",
+  "next_prompt_exists": true,
+  "initial_lint_errors": [
+    "[ERROR  ] SECTION_REQUIRED       knowledge/research-notes/st99-pdco-calibration-table-replay.md - missing ## Assumptions",
+    "[ERROR  ] SECTION_REQUIRED       knowledge/research-notes/st99-pdco-calibration-table-replay.md - missing ## Competing Explanations",
+    "[ERROR  ] SECTION_REQUIRED       knowledge/research-notes/st99-pdco-calibration-table-replay.md - missing ## Transfer Conditions",
+    "[ERROR  ] SECTION_REQUIRED       knowledge/research-notes/st99-pdco-calibration-table-replay.md - missing ## Failure Conditions",
+    "[ERROR  ] SECTION_REQUIRED       knowledge/research-notes/st99-pdco-calibration-table-replay.md - missing ## Falsification or Reverse Tests",
+    "[ERROR  ] SECTION_REQUIRED       knowledge/research-notes/st99-pdco-calibration-table-replay.md - missing ## Human Review",
+    "[ERROR  ] SECTION_REQUIRED       knowledge/research-notes/st99-pdco-calibration-table-replay.md - missing ## Promotion or Rejection History"
+  ],
+  "classification": "New research-note lacked seven required schema headings; meaningful sections added before rerun, no scientific input/value changed."
+}

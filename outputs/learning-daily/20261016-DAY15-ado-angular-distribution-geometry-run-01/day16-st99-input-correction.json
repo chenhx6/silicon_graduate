@@ -1,0 +1,12 @@
+{
+  "at": "2026-10-17T04:24:50.654796+08:00",
+  "superseded": "outputs/learning-daily/20261016-DAY15-ado-angular-distribution-geometry-run-01/day16-st99-calibration-table-input.json",
+  "valid_input": "outputs/learning-daily/20261016-DAY15-ado-angular-distribution-geometry-run-01/day16-st99-calibration-table-input-v2.json",
+  "valid_input_sha256": "651c05306a16d12d6121d4e7d097e6906d8d541d2f26d1232eb3aba9b1f4fe6a",
+  "discarded_field": "calibration.integrated_647_A",
+  "discarded_value": "0.055(18)",
+  "error_class": "agent unsupported entry, not source datum",
+  "checked_original": "fullPDF1–11 text andPDF9 Sec7 reports onlyP=.28(10),R=.51(3); no647 integratedA reported",
+  "numeric_results_generated_before_correction": false,
+  "source_or_raw_altered": false
+}

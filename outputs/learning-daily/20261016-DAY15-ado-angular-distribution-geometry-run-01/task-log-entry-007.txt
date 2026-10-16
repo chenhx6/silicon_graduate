@@ -1,0 +1,5 @@
+
+
+## 2026-10-17T04:29:01.258945+08:00 — DAY15 checkpoint007: ST99 original and printed replay
+
+同run/session继续partial16：核11页原件，修正身份/Q指数与D96公开Eq4勘误；13行印刷replay中Table2 15+行在chosenroundingbox外，保留原表/原因未决；chosenCov、五点NDF、647类别/同DCO校准依赖及alpha_κ定义缺口写canonical。输入误填未报告647A在任何numeric前更正为v2并保留failure记录。formal15只计一次、next16/count15，goal/windowactive原15:00截止。稳定指针main / Correct PDCO calibration transcriptions and audit printed fit tables；actualH3/push仅publication007。

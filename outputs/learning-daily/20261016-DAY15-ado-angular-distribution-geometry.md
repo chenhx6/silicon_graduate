@@ -114,6 +114,17 @@ DA74-5的half-width以明确2sigma²指数为准；J23/2 .2原表.894266/.689096
 
 Cieplicka2012目前只有meta，publisherPDF/acceptedAM403，OSTIAPI/record ConnectionError；MCP下载器拒绝绝对Wiki保存目录后未绕过其限制。Matta2017 public discovery restricted，未核body/entitlement；不以这些记录宣称所有合法渠道都不存在。未读primary的producer operation不由本任务猜补，仍见SE21-15和canonical open questions。
 
+### Day16预习续段：Starosta1999真实PDCO实验
+
+先保存[primed回忆](20261016-DAY15-ado-angular-distribution-geometry-run-01/day16-st99-before-source-frozen.md)及冻结hash，再完整读11页原件（printed16–26）；主线覆盖setup→NORDBALL标定→DCO/取向→integrated P→四组PDCO→两条实际线→companion，视觉核Fig1–7、Eq1–7、Table1–4及脚注。原件SHA-256为`883fdd7b08831efefe25f5df610e84b95bb1acbcd7b8e7f684b1a1b31bf8030b`，身份/覆盖在本run记录。精确canonical入口为[ST99 source](../../knowledge/sources/starosta-1999-pdco-experimental-test.md) ST99-5–13。
+
+- ST99-5（printed17 Sec2、printed18–19 Table1）纠正旧Wiki身份：主采集为138Ba(30Si,4n)164Yb、150/155MeV；标定为114Cd(16O,4n)126Ba、83MeV及44MeV16O Coulomb excitation的114Cd/118Sn。旧review/claims不扩张。
+- ST99-6（printed19 Eq5/6）纠正旧Q拟合指数：`7(2)×10^-5 E_keV`，不是10^-4；490keV近似Q=.24与印式central Q=.234314的精度分开。
+- ST99-7/13（printed18/21/22/25）核NORDBALL79°单CLOVER向EUROGAM所选18/24 polarimeters的迁移近似、a修正、四组gate/pair及integrated定性边界；D96和旧能级/assignment文章不是多场独立采集。
+- ST99-8（printed17 footnote1）公开更正D96 Eq4的磁项相位：应为Tprime而非T。原D96 printed519 Eq4已视觉对照；作者说代码无误，本run未得代码。新增DR96-8与owner注记，和实现坐标换号分开。
+- ST99-9/11（printed20 Fig4、printed23 Eq7、printed24 Table3 footnote、printed25 Table4）核五点NDF和依赖：647的同一RDCO参与sigma/I=.26(5)校准，不能独立prior双算；Table4选择共同|ΔI|=1 E1类别仍有11−/9−，不是PDCO唯一spin指认。
+- ST99-12（printed20–21 Sec4、printed26结论）保留alpha_κ=.012/.033为两候选理论预测，未补total/K-shell定义或伪作测量；≥4ns是strength/Weisskopf估算，Doppler/flight反证不是直接寿命结果。
+
 ## Theory/analysis exercise
 
 ### 新ADO计算单
@@ -251,6 +262,16 @@ KF Table1还直接限制“sameL则R1”：nonstretched L2/L2可为.66/.57；其
 计算后在已经检查的**opposite physical phase** delta=+.04控制上，用错误pureE2除数反演出apparentalpha=(1.009932,.464384)，必要式为−1.706165；真实nuclearalpha仍(.894266,.689096)、必要式+.124626且发射physical。它是标明的scope反例，不是源报告delta或只改KS/RB坐标；coordinate rewrite须同步变系数且observable保持。因而不能由alpha_exp正性失配直接叫原数据不物理。源negative配置及actualproducer层仍未闭合；按预设停止freeparameter调参，模型不作具体归因。
 
 完整公式/分层/全部数字写在[canonical calibration note](../../knowledge/research-notes/se21-alignment-calibration-consistency.md)，[model JSON](20261016-DAY15-ado-angular-distribution-geometry-run-01/day16-se21-m3-reference-model.json)不是唯一知识副本；source SE21-16/17为our-inference/newtrue，oldflags与模式排序不改。
+
+### Starosta原表的校准与五点式7核算
+
+正式输入为[冻结v2](20261016-DAY15-ado-angular-distribution-geometry-run-01/day16-st99-calibration-table-input-v2.json)，SHA-256 `651c05306a16d12d6121d4e7d097e6906d8d541d2f26d1232eb3aba9b1f4fe6a`；[脚本](../../system/scripts/day16_st99_table_replay.py)执行exit0，[完整结果](20261016-DAY15-ado-angular-distribution-geometry-run-01/day16-st99-calibration-table-replay.json)核input/script/raw hash。首版agent误填原文未报告的647 integrated A，已在生成任何numeric result前移除；[纠正记录](20261016-DAY15-ado-angular-distribution-geometry-run-01/day16-st99-input-correction.json)保留首版和身份，不作source输入。
+
+本轮不是再优化delta/sigma。用Table1核A/P；490的源approx Q=.24给P=.50、仅A的sigma=.05，印式central曲线给Q=.234314、P=.512133。错误指数负控制会给P=.270026，说明转录错误可实质改变比较。Q拟合参数Cov未知，不另造置信带，也不把校准方差叠加到预算未知的原P误差。
+
+按向量(P_A,P_B,P_C,P_D,R_DCO)重算全部13行及原NDF；完整table/推导写入[canonical笔记](../../knowledge/research-notes/st99-pdco-calibration-table-replay.md#五点式7与ndf)。Table2 15+→14+字面score=108.911451，原表79.5；即使每个两位小数的mean/theory/sigma末位独立±.005，rowwise包络92.243024–132.757156仍不含79.5±.05。保留原值及复现缺口，未得unrounded producer output/code，不能判作者计算错误；其余12行区间相交也不等于原程序复现。
+
+另声明chosen四P等相关、RDCO独立的Sigma，rho=−.2/0/.2/.5/.8，保持printed marginal errors、全部正定，矩阵逆与common/contrast解析分解一致。Table3两保留候选在rho0时1.406481/.786767，rho.8时3.004560/3.920744，排序可翻转；这是未知off-diagonal可能重要的设计反例，非actualSigma、置信检验或新拟合。integrated P不加作第六独立点，alpha_κ的独立匹配转换观测优先于继续改写同数据ratio。
 
 ### Thematic REFLECT：响应、约定、候选与证据依赖
 
@@ -408,7 +429,7 @@ KF Table1还直接限制“sameL则R1”：nonstretched L2/L2可为.66/.57；其
     },
     {
       "knowledge": "knowledge/index.md",
-      "summary": "为正式Day15新ADO协方差方法及独立GRIFFIN source建立可检索入口。 新增event-mixing-statistics方法入口。 新增DCO/PDCO双解worksheet检索入口。；新增135Pr观测量/标定合同入口。",
+      "summary": "为正式Day15新ADO协方差方法及独立GRIFFIN source建立可检索入口。 新增event-mixing-statistics方法入口。 新增DCO/PDCO双解worksheet检索入口。；新增135Pr观测量/标定合同入口。；新增ST99原表/校准实验笔记入口。",
       "anchor": "GRIFFIN的event-mixing/finite-response实验校验",
       "sources": [
         {
@@ -418,6 +439,14 @@ KF Table1还直接限制“sameL则R1”：nonstretched L2/L2可为.66/.57；其
         {
           "path": "knowledge/sources/droste-1996-pdco-formalism.md",
           "locator": "DR96-6"
+        },
+        {
+          "path": "knowledge/sources/starosta-1999-pdco-experimental-test.md",
+          "locator": "ST99-6"
+        },
+        {
+          "path": "knowledge/sources/starosta-1999-pdco-experimental-test.md",
+          "locator": "ST99-10"
         }
       ]
     },
@@ -438,7 +467,7 @@ KF Table1还直接限制“sameL则R1”：nonstretched L2/L2可为.66/.57；其
     },
     {
       "knowledge": "knowledge/sources/droste-1996-pdco-formalism.md",
-      "summary": "完整重读8页，补注册DOI及4π/上游U传播、a/F相位输入、Fig7作者模型/无实际Cov与FORTRAN未取得边界，保留旧flags。",
+      "summary": "完整重读8页，补注册DOI及4π/上游U传播、a/F相位输入、Fig7作者模型/无实际Cov与FORTRAN未取得边界，保留旧flags。；新增DR96-8及Starosta脚注的Eq4磁项相位勘误，与实现基底映射分开。",
       "anchor": "2026-10-17原件复核：完整主线、模式与相位坐标",
       "sources": [
         {
@@ -452,12 +481,20 @@ KF Table1还直接限制“sameL则R1”：nonstretched L2/L2可为.66/.57；其
         {
           "path": "knowledge/sources/droste-1996-pdco-formalism.md",
           "locator": "DR96-6"
+        },
+        {
+          "path": "knowledge/sources/droste-1996-pdco-formalism.md",
+          "locator": "DR96-8"
+        },
+        {
+          "path": "knowledge/sources/starosta-1999-pdco-experimental-test.md",
+          "locator": "ST99-8"
         }
       ]
     },
     {
       "knowledge": "knowledge/methods/dco-pdco-ambiguity-worksheet.md",
-      "summary": "新增D96整数点模型的exact同R双根、source近似点交叉表与probe/source F坐标核验；无实测RDCO、全局文献转换或Day16学分。 追加KS70 actualcorrected数据双根/矩形preimage/单位依赖、两原式BM桥、KF比值标签及跨source反思矩阵。；补核RB Eq3.39逐振幅归一及KS Eq5的初态spin因子，闭合绝对width和相邻ratio符号。",
+      "summary": "新增D96整数点模型的exact同R双根、source近似点交叉表与probe/source F坐标核验；无实测RDCO、全局文献转换或Day16学分。 追加KS70 actualcorrected数据双根/矩形preimage/单位依赖、两原式BM桥、KF比值标签及跨source反思矩阵。；补核RB Eq3.39逐振幅归一及KS Eq5的初态spin因子，闭合绝对width和相邻ratio符号。；联结真实164Yb五点/标定/残余分支，并分开已发表Eq4勘误与内部坐标映射。",
       "anchor": "精确同R双根与近似source点分开",
       "sources": [
         {
@@ -503,6 +540,14 @@ KF Table1还直接限制“sameL则R1”：nonstretched L2/L2可为.66/.57；其
         {
           "path": "knowledge/sources/rose-brink-1967-phase-defined-angular-distributions.md",
           "locator": "RB67-6"
+        },
+        {
+          "path": "knowledge/sources/starosta-1999-pdco-experimental-test.md",
+          "locator": "ST99-8"
+        },
+        {
+          "path": "knowledge/sources/starosta-1999-pdco-experimental-test.md",
+          "locator": "ST99-9"
         }
       ]
     },
@@ -1005,6 +1050,91 @@ KF Table1还直接限制“sameL则R1”：nonstretched L2/L2可为.66/.57；其
           "locator": "DMS74-7"
         }
       ]
+    },
+    {
+      "knowledge": "knowledge/sources/starosta-1999-pdco-experimental-test.md",
+      "summary": "完整重核11页，纠正核素/反应/Q指数和sigma/chi符号，新增D96公开勘误、五点NDF/非闭合表行、647类别/自旋及companion边界。",
+      "anchor": "2026-10-17原件复核：校准、勘误与五点重放边界",
+      "sources": [
+        {
+          "path": "knowledge/sources/starosta-1999-pdco-experimental-test.md",
+          "locator": "ST99-5"
+        },
+        {
+          "path": "knowledge/sources/starosta-1999-pdco-experimental-test.md",
+          "locator": "ST99-6"
+        },
+        {
+          "path": "knowledge/sources/starosta-1999-pdco-experimental-test.md",
+          "locator": "ST99-8"
+        },
+        {
+          "path": "knowledge/sources/starosta-1999-pdco-experimental-test.md",
+          "locator": "ST99-10"
+        },
+        {
+          "path": "knowledge/sources/starosta-1999-pdco-experimental-test.md",
+          "locator": "ST99-11"
+        },
+        {
+          "path": "knowledge/sources/starosta-1999-pdco-experimental-test.md",
+          "locator": "ST99-12"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/research-notes/st99-pdco-calibration-table-replay.md",
+      "summary": "保存Q/A/P逐量定义、全部13行式7重算/舍入包络、chosenCov排序反例及同数据/独立companion输入边界。",
+      "anchor": "五点式7与NDF",
+      "sources": [
+        {
+          "path": "knowledge/sources/starosta-1999-pdco-experimental-test.md",
+          "locator": "ST99-6"
+        },
+        {
+          "path": "knowledge/sources/starosta-1999-pdco-experimental-test.md",
+          "locator": "ST99-7"
+        },
+        {
+          "path": "knowledge/sources/starosta-1999-pdco-experimental-test.md",
+          "locator": "ST99-9"
+        },
+        {
+          "path": "knowledge/sources/starosta-1999-pdco-experimental-test.md",
+          "locator": "ST99-10"
+        },
+        {
+          "path": "knowledge/sources/starosta-1999-pdco-experimental-test.md",
+          "locator": "ST99-11"
+        },
+        {
+          "path": "knowledge/sources/starosta-1999-pdco-experimental-test.md",
+          "locator": "ST99-12"
+        },
+        {
+          "path": "knowledge/sources/starosta-1999-pdco-experimental-test.md",
+          "locator": "ST99-13"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/methods/compton-polarimetry.md",
+      "summary": "加入正确Q指数与原NORDBALL→18polarimeter移用限制，联结五点重放/实际Sigma与647自旋边界。",
+      "anchor": "2026-10-17原件补核",
+      "sources": [
+        {
+          "path": "knowledge/sources/starosta-1999-pdco-experimental-test.md",
+          "locator": "ST99-6"
+        },
+        {
+          "path": "knowledge/sources/starosta-1999-pdco-experimental-test.md",
+          "locator": "ST99-7"
+        },
+        {
+          "path": "knowledge/sources/starosta-1999-pdco-experimental-test.md",
+          "locator": "ST99-11"
+        }
+      ]
     }
   ]
 }
@@ -1026,7 +1156,7 @@ L0完成Zheng主线；L1把source/方法/observable连通；L2完成有输入/ha
 
 计算脚本实际exit0；PSD、解析/数值梯度、独立ordered-pair、共同scale抵消、不可识别族和200000次MC均通过。图的panel alignment、glyph（minimum7pt）和collision（0fail/0warn）通过；source validator最终exit0、0fail，保留4项warning：仅交付PNG预览而非TIFF投稿栅格、300非600dpi、通用demo警告和MC/uncertainty模式误报。前两项符合本日报SVG/PDF+预览合同；后两项由显著自设标识及直接画sigma解释，不虚报实验。首次source audit的export/DPI失败及修正保留于[figure QA](20261016-DAY15-ado-angular-distribution-geometry-run-01/figure-qa.json)。
 
-首轮仓库lint实际exit1（本次新method缺5个固定英文schema标题，且inline数组被当wikilink），已修复并重跑exit0、0error/145warning（3reaction parser、114citation key、28既有raw slots）；全局diff exit0。新增GRIFFIN source后fresh lint实际exit0、0error/146warning（3reaction parser、115citation key、28既有raw slots）；boundary/diff/preflight exit0。EOL exit1按治理规则分类为4份本次substantive知识改动、0unsafe/mixed，均保留。实际runner report/writeback/partial curriculum校验通过，[检查回执](20261016-DAY15-ado-angular-distribution-geometry-run-01/prepublication-checks-002.json)和[同session续接](20261016-DAY15-ado-angular-distribution-geometry-run-01/continuation.md)已保存。检查点稳定指针：main / `Establish DAY15 ADO covariance and independent response evidence`，H3/push结果只写run receipt。首批44-path检查点的H3 fresh fetch/ancestry/dry-run/non-force push均exit0，实际结果见[发布回执](20261016-DAY15-ado-angular-distribution-geometry-run-01/publication-001.json)。新增统计与软件补充的fresh boundary/lint/diff均exit0、lint0error/146warning，截至检查点002的七页writeback实际runner验收通过；当前二十五项writeback已由run入口snapshot验证（verification-checkpoint-003-expanded.json），覆盖十三份canonical页；检查点002稳定指针：main / `Extend DAY15 event-mixing statistics and audit formal card completion`，actual H3/push只看publication002。原15:00研究截止不变，formal15完成与window仍active分开。
+首轮仓库lint实际exit1（本次新method缺5个固定英文schema标题，且inline数组被当wikilink），已修复并重跑exit0、0error/145warning（3reaction parser、114citation key、28既有raw slots）；全局diff exit0。新增GRIFFIN source后fresh lint实际exit0、0error/146warning（3reaction parser、115citation key、28既有raw slots）；boundary/diff/preflight exit0。EOL exit1按治理规则分类为4份本次substantive知识改动、0unsafe/mixed，均保留。实际runner report/writeback/partial curriculum校验通过，[检查回执](20261016-DAY15-ado-angular-distribution-geometry-run-01/prepublication-checks-002.json)和[同session续接](20261016-DAY15-ado-angular-distribution-geometry-run-01/continuation.md)已保存。检查点稳定指针：main / `Establish DAY15 ADO covariance and independent response evidence`，H3/push结果只写run receipt。首批44-path检查点的H3 fresh fetch/ancestry/dry-run/non-force push均exit0，实际结果见[发布回执](20261016-DAY15-ado-angular-distribution-geometry-run-01/publication-001.json)。新增统计与软件补充的fresh boundary/lint/diff均exit0、lint0error/146warning，截至检查点002的七页writeback实际runner验收通过；当前二十八项writeback已由run入口snapshot验证（verification-checkpoint-003-expanded.json），覆盖十三份canonical页；检查点002稳定指针：main / `Extend DAY15 event-mixing statistics and audit formal card completion`，actual H3/push只看publication002。原15:00研究截止不变，formal15完成与window仍active分开。
 
 ### Day 15 card completion audit
 
@@ -1038,7 +1168,7 @@ L0完成Zheng主线；L1把source/方法/observable连通；L2完成有输入/ha
 | 不确定度与图 | [敏感性SVG](20261016-DAY15-ado-angular-distribution-geometry-run-01/ado-covariance-sensitivity.svg)、[figure QA](20261016-DAY15-ado-angular-distribution-geometry-run-01/figure-qa.json)，解析/MC与chosen Cov见计算JSON；原Fig1不作实验sigma | complete |
 | convention注记 | 本日报逐项表，source Z02-6/9/10及canonical方法页 | complete |
 | 反证与必要观测 | [换门/有限几何控制](../../knowledge/methods/ado-covariance-calibration.md#换门与有限几何的失败控制)；[SG19-6](../../knowledge/sources/smith-2019-griffin-angular-correlation-analysis.md#key-results) PDF7 Fig3的已知pure-E2反证及逐pair/E-M companion | complete |
-| 知识/检查/续接/receipt/发布 | 唯一writeback（截至检查点002七项，当前二十五项）、[fresh checks](20261016-DAY15-ado-angular-distribution-geometry-run-01/verification-checkpoint-002-extended.json)、[continuation](20261016-DAY15-ado-angular-distribution-geometry-run-01/continuation.md)、[run receipt](20261016-DAY15-ado-angular-distribution-geometry-run-01/run.json)、[首批实际H3/push](20261016-DAY15-ado-angular-distribution-geometry-run-01/publication-001.json)；[次日独立入口](prompts/20261017-DAY16-dco-rdco-mixing-ratio-convention.md) | complete |
+| 知识/检查/续接/receipt/发布 | 唯一writeback（截至检查点002七项，当前二十八项）、[fresh checks](20261016-DAY15-ado-angular-distribution-geometry-run-01/verification-checkpoint-002-extended.json)、[continuation](20261016-DAY15-ado-angular-distribution-geometry-run-01/continuation.md)、[run receipt](20261016-DAY15-ado-angular-distribution-geometry-run-01/run.json)、[首批实际H3/push](20261016-DAY15-ado-angular-distribution-geometry-run-01/publication-001.json)；[次日独立入口](prompts/20261017-DAY16-dco-rdco-mixing-ratio-convention.md) | complete |
 
 本表七行均已complete；依据本session实际交付与首批H3发布计Day15，Day14的partial15/成绩/脚本不授本日学分。新增扩展研究继续按其实际检查/发布执行，不将本卡完成当整个研究时段结束。
 
@@ -1068,3 +1198,5 @@ CERN150008后续有界访问实际返回bot-verification页面，未取得正文
 检查点005 fresh核验实际通过：[verification-prepublication-005](20261016-DAY15-ado-angular-distribution-geometry-run-01/verification-prepublication-005.json)。boundary/preflight/lint/diff均exit0；lint0error/146warnings（115citation key、28raw占位、3reaction parser）；EOL exit1为7项own substantive/0unsafe保留。23项唯一writeback验证26路径、23页相对入口有改动；七组旧source claims/页review、原spinobservable全文、PLAN/Bib/daemon及script/input/archive hash均保留/通过。图0fail、minimum7pt，无新增人审或actualL4。本批已提交，稳定指针：main / `Audit 135Pr alignment calibration and conditional branch profiles`，actual H3/push仅publication005；下一1974方法原件路线仍有高信息价值，window/goal active。
 
 检查点006 fresh核验通过：[verification-prepublication-006](20261016-DAY15-ado-angular-distribution-geometry-run-01/verification-prepublication-006.json)。boundary/preflight/lint/diff均exit0，lint0error/146warning（115citation key、28raw slots、3reaction parser）；EOL exit1为8项own substantive/0unsafe保留。25项writeback/28mappedpaths/25changed、14mapped来源main raw hash、三组script/input/output hash、九组旧source rows/页review、原spinobservable/project人审正文、PLAN/Bib/daemon均通过。已通过图文件未变，沿用带hash的QA，不重新渲染充数。本批已提交，稳定指针：main / `Validate primary angular tables and reference-multipole boundaries`；actual H3/push仅publication006，studywindow仍active，下一Starosta1999原始实验路线不计新卡。
+
+检查点007 fresh验证实际通过：[verification-prepublication-007](20261016-DAY15-ado-angular-distribution-geometry-run-01/verification-prepublication-007.json)。boundary/preflight/lint/diff均exit0，lint0error/146warnings（115citationkey、28rawslots、3reactionparser）；EOL exit1为5项ownsubstantive/0unsafe保留。唯一writeback28项/31mappedpaths/28changed、15来源rawhash、4组script/input/outputhash及10组旧source rows/review/原人审正文/PLAN/Bib/daemon通过。首轮lint exit1因新note缺7个固定schema标题，补充实际Assumptions/Transfer/Failure/Reverse/Review/History等后重跑exit0，失败回执保留。本批已提交，稳定指针main / `Correct PDCO calibration transcriptions and audit printed fit tables`；actualH3/push只看publication007。04:31:51clock距原截止628.15min，研究window/goal仍active，无formal16/17。

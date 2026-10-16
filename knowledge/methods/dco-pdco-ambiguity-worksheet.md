@@ -186,6 +186,8 @@ KS70 Eq9在electron-mass natural units给`delta=(sqrt3/10)k Delta_BM`。本任�
 
 ## Thematic REFLECT：比值、响应与参数的使用门
 
+2026-10-17实验对照：[[st99-pdco-calibration-table-replay]]以实际164Yb来源保存Q/a/geometry、五点NDF和非唯一候选。[[starosta-1999-pdco-experimental-test]] ST99-8还明确更正D96 Eq4磁相位为Tprime而非T（DR96-8）；本页早前用Eq3/7与独立Jones/RB路径得到的实现坐标映射不是该印刷勘误。原式逐字实现、振幅基底转换、真实物理双解是三个不同检查。
+
 本组来源改变的是判读合同，不是某核已确定的结构模式。可复用的认识修正为：
 
 | 先前容易混用的量/假设 | 本组来源给出的更严格判断 | 证据与可触发修正的下一输入 |
