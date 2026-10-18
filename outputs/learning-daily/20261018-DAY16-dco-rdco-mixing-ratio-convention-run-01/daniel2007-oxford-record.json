@@ -1,0 +1,120 @@
+{
+  "at": "2026-10-18T19:00:57.284022+08:00",
+  "url": "https://ora.ox.ac.uk/objects/uuid:227e0362-36bf-492a-9f38-4c0f0b81af25",
+  "status": 200,
+  "bytes": 85535,
+  "sha256": "2b159b5278cb1cd732a69877ccada42dc0e17183a6793e3d6cfefeac6b9bfa7e",
+  "text": "Technique for measuring angular correlations and g-factors of excited states with large multi-detector arrays: An application to neutron rich nuclei produced by the spontaneous fission of Cf-252 - ORA - Oxford University Research Archive Logos Header links Search History Bookmarks 0 New Search Collections About Deposit Help Footer links Policies Disclaimer Privacy Policy Cookies Accessibility Statement Copyright API Contact Feedback Skip to main NEW SEARCH Collections About Deposit HELP 0 Back to Search CONTACT Name Email - Comment Send message FEEDBACK We welcome feedback about our service. I like... I dislike... I have a suggestion... I need help... Name Email - Comment Send message Export BibTeX EndNote RefWorks CC0 version of this metadata Journal article Technique for measuring angular correlations and g-factors of excited states with large multi-detector arrays: An application to neutron rich nuclei produced by the spontaneous fission of Cf-252 Abstract: Triple coincidences between prompt γ-rays emitted in the spontaneous fission of 252Cf were measured with Gammasphere. These data are used to measure the angular correlation of cascades of γ-rays from excited states of neutron rich fission fragments stopped in an unmagnetized iron foil. The hyperfine fields in the iron lattice cause attenuations of the angular correlations between γ-rays emitted from the excited states which have sufficiently long lifetimes. This attenuation is measured and used to calculate the g-factors of excited states in many neutron rich nuclei. © 2007 Elsevier B.V. All rights reserved. Publication status: Published Actions Email Email this record Send the bibliographic details of this record to your email address. × Your Email Please enter the email address that the record information will be sent to. - Your message (optional) Please add any additional information to be included within the email. Send Share Cite Cite this record × APA Style Daniel, A., Goodin, C., Li, K., Ramayya, A., Stone, N., Hwang, J., Hamilton, J., Stone, J., Luo, Y., Rasmussen, J., Stoyer, M., Zhu, S., Ter-Akopian, G., & Lee, I. (2007). Technique for measuring angular correlations and g-factors of excited states with large multi-detector arrays: An application to neutron rich nuclei produced by the spontaneous fission of Cf-252. NUCLEAR INSTRUMENTS and METHODS IN PHYSICS RESEARCH SECTION B-BEAM INTERACTIONS WITH MATERIALS AND ATOMS, 262(2), 399–406. Copy APA Style MLA Style Daniel, A., et al. “Technique for Measuring Angular Correlations and g-Factors of Excited States with Large Multi-Detector Arrays: An Application to Neutron Rich Nuclei Produced by the Spontaneous Fission of Cf-252.” NUCLEAR INSTRUMENTS and METHODS IN PHYSICS RESEARCH SECTION B-BEAM INTERACTIONS WITH MATERIALS AND ATOMS, vol. 262, no. 2, 2007, pp. 399–406. Copy MLA Style Chicago Style Daniel, A., C. Goodin, K. Li, et al. 2007. “Technique for Measuring Angular Correlations and g-Factors of Excited States with Large Multi-Detector Arrays: An Application to Neutron Rich Nuclei Produced by the Spontaneous Fission of Cf-252.” NUCLEAR INSTRUMENTS and METHODS IN PHYSICS RESEARCH SECTION B-BEAM INTERACTIONS WITH MATERIALS AND ATOMS 262 (2): 399–406. Copy Chicago Style Print Access Document Generating preview... Publisher copy: 10.1016/j.nimb.2007.06.008 Authors + Daniel, A More by this author Role: Author + Goodin, C More by this author Role: Author + Li, K More by this author Role: Author + Ramayya, A More by this author Role: Author + Stone, N More by this author Institution: University of Oxford Division: MPLS Department: Physics Role: Author Expand all More authors... Bibliographic Details Journal: NUCLEAR INSTRUMENTS and METHODS IN PHYSICS RESEARCH SECTION B-BEAM INTERACTIONS WITH MATERIALS AND ATOMS More from this journal Volume: 262 Issue: 2 Pages: 399-406 Publication date: 2007-09-01 DOI: 10.1016/j.nimb.2007.06.008 ISSN: 0168-583X Item Description Language: English Keywords: Cf-252 Angular correlation g-Factor Pubs id: pubs:25846 UUID: uuid:227e0362-36bf-492a-9f38-4c0f0b81af25 Local pid: pubs:25846 Source identifiers: 25846 Deposit date: 2012-12-19 ARK identifier: ark:/29072/ora_227e036236bf492a9f384c0f0b81af25 Terms of use Copyright date: 2007 Licence: Terms and Conditions of Use for Oxford University Research Archive Metrics Views and Downloads Views and downloads will return soon More info Altmetrics Dimensions If you are the owner of this record, you can report an update to it here: Report update to this record Report an update × Your name Your Email We require your email address in order to let you know the outcome of your enquiry. - Reason for update PDF can now be made available Paper now published Error in record Other Update details Please add any additional information to be included within the email. Request update Actions Access Document Authors Bibliographic Details Item Description Terms of Use Metrics TO TOP © Copyright - Bodleian Libraries 2026 Disclaimer | Privacy Policy | Policies | Cookies | Accessibility | Copyright | API | Contact",
+  "metas": [
+    {
+      "name": "citation_title",
+      "content": "Technique for measuring angular correlations and g-factors of excited states with large multi-detector arrays: An application to neutron rich nuclei produced by the spontaneous fission of Cf-252"
+    },
+    {
+      "name": "citation_abstract",
+      "content": "Triple coincidences between prompt γ-rays emitted in the spontaneous fission of 252Cf were measured with Gammasphere. These data are used to measure the angular correlation of cascades of γ-rays from excited states of neutron rich fission fragments stopped in an unmagnetized iron foil. The hyperfine fields in the iron lattice cause attenuations of the angular correlations between γ-rays emitted from the excited states which have sufficiently long lifetimes. This attenuation is measured and used to calculate the g-factors of excited states in many neutron rich nuclei. © 2007 Elsevier B.V. All rights reserved."
+    },
+    {
+      "name": "citation_author",
+      "content": "Daniel, A"
+    },
+    {
+      "name": "citation_author",
+      "content": "Goodin, C"
+    },
+    {
+      "name": "citation_author",
+      "content": "Li, K"
+    },
+    {
+      "name": "citation_author",
+      "content": "Ramayya, A"
+    },
+    {
+      "name": "citation_author",
+      "content": "Stone, N"
+    },
+    {
+      "name": "citation_author",
+      "content": "Hwang, J"
+    },
+    {
+      "name": "citation_author",
+      "content": "Hamilton, J"
+    },
+    {
+      "name": "citation_author",
+      "content": "Stone, JR"
+    },
+    {
+      "name": "citation_author",
+      "content": "Luo, Y"
+    },
+    {
+      "name": "citation_author",
+      "content": "Rasmussen, J"
+    },
+    {
+      "name": "citation_author",
+      "content": "Stoyer, M"
+    },
+    {
+      "name": "citation_author",
+      "content": "Zhu, S"
+    },
+    {
+      "name": "citation_author",
+      "content": "Ter-Akopian, G"
+    },
+    {
+      "name": "citation_author",
+      "content": "Lee, I"
+    },
+    {
+      "name": "citation_date",
+      "content": "2007"
+    },
+    {
+      "name": "citation_publication_date",
+      "content": "2007-09-01"
+    },
+    {
+      "name": "DC.type",
+      "content": "http://purl.org/dc/dcmitype/Text"
+    },
+    {
+      "name": "DC.language",
+      "content": "English"
+    },
+    {
+      "name": "citation_issn",
+      "content": "0168-583X"
+    },
+    {
+      "name": "citation_journal_title",
+      "content": "NUCLEAR INSTRUMENTS and METHODS IN PHYSICS RESEARCH SECTION B-BEAM INTERACTIONS WITH MATERIALS AND ATOMS"
+    },
+    {
+      "name": "citation_volume",
+      "content": "262"
+    },
+    {
+      "name": "citation_issue",
+      "content": "2"
+    }
+  ],
+  "links": [
+    {
+      "text": "BibTeX",
+      "href": "/objects/uuid:227e0362-36bf-492a-9f38-4c0f0b81af25/export_record.bibtex"
+    },
+    {
+      "text": "EndNote",
+      "href": "/objects/uuid:227e0362-36bf-492a-9f38-4c0f0b81af25/export_record.endnote"
+    },
+    {
+      "text": "RefWorks",
+      "href": "/objects/uuid:227e0362-36bf-492a-9f38-4c0f0b81af25/export_record.refworks"
+    }
+  ]
+}

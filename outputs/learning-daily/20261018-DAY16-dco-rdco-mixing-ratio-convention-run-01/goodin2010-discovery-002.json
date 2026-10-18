@@ -1,0 +1,70 @@
+{
+  "at": "2026-10-18T18:31:59.482963+08:00",
+  "results": [
+    {
+      "name": "duckduckgo",
+      "url": "https://html.duckduckgo.com/html/?q=%22Goodin%22+%22Vanderbilt%22+%222010%22",
+      "error": "ConnectionErrorHTTPSConnectionPool(host='html.duckduckgo.com', port=443): Max retries exceeded with url: /html/?q=%22Goodin%22+%22Vanderbilt%22+%222010%22 (Caused by NewConnectionError(\"HTTPSConnection(host='html.duckduckgo.com', port="
+    },
+    {
+      "name": "openalexsource",
+      "url": "https://api.openalex.org/works/https://doi.org/10.1140/epja/i2018-12426-5",
+      "final_url": "https://api.openalex.org/works/https://doi.org/10.1140/epja/i2018-12426-5",
+      "status": 200,
+      "bytes": 23313,
+      "sha256": "c4f8c5abbdc29a6c0fab20d6f3f1b2d01258781df89eff9cb746e93187d59cd1",
+      "authorships": [
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5038963892",
+            "display_name": "Christopher T. Goodin",
+            "orcid": "https://orcid.org/0000-0001-7763-4464",
+            "observed_orcids": [
+              "https://orcid.org/0000-0001-7763-4464"
+            ]
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I200719446",
+              "display_name": "Vanderbilt University",
+              "ror": "https://ror.org/02vm5rt34",
+              "country_code": "US",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I200719446"
+              ]
+            }
+          ],
+          "countries": [
+            "US"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "C. Goodin",
+          "raw_affiliation_strings": [
+            "Department of Physics and Astronomy, Vanderbilt University, 37240, Nashville, TN, USA"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Department of Physics and Astronomy, Vanderbilt University, 37240, Nashville, TN, USA",
+              "institution_ids": [
+                "https://openalex.org/I200719446"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "vanderbilt-old-etd",
+      "url": "https://etd.library.vanderbilt.edu/",
+      "final_url": "https://etd.library.vanderbilt.edu/",
+      "status": 403,
+      "bytes": 118,
+      "sha256": "58bf2215b395dcac74c009aa98701854e43cbe54a1cd3a95fee6a647ca9910d4",
+      "text_excerpt": "403 Forbidden 403 Forbidden",
+      "links": []
+    }
+  ]
+}

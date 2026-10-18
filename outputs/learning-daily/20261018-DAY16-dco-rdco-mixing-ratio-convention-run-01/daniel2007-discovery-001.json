@@ -1,0 +1,341 @@
+{
+  "at": "2026-10-18T18:59:17.487728+08:00",
+  "results": [
+    {
+      "name": "crossref",
+      "url": "https://api.crossref.org/works/10.1016/j.nimb.2007.06.008",
+      "status": 200,
+      "bytes": 8301,
+      "sha256": "943e59f66b79b7661329dcf8b4c428049db16b16b62ed075588a3c85209f805c",
+      "metadata": {
+        "DOI": "10.1016/j.nimb.2007.06.008",
+        "title": [
+          "Technique for measuring angular correlations and g-factors of excited states with large multi-detector arrays: An application to neutron rich nuclei produced by the spontaneous fission of 252Cf"
+        ],
+        "author": [
+          {
+            "given": "A.V.",
+            "family": "Daniel",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "C.",
+            "family": "Goodin",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "K.",
+            "family": "Li",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "A.V.",
+            "family": "Ramayya",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "N.J.",
+            "family": "Stone",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "J.K.",
+            "family": "Hwang",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "J.H.",
+            "family": "Hamilton",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "J.R.",
+            "family": "Stone",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Y.X.",
+            "family": "Luo",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "J.O.",
+            "family": "Rasmussen",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "M.A.",
+            "family": "Stoyer",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "S.J.",
+            "family": "Zhu",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "G.M.",
+            "family": "Ter-Akopian",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "I.Y.",
+            "family": "Lee",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2007,
+              9
+            ]
+          ]
+        },
+        "volume": "262",
+        "issue": "2",
+        "page": "399-406",
+        "link": [
+          {
+            "URL": "https://api.elsevier.com/content/article/PII:S0168583X07011688?httpAccept=text/xml",
+            "content-type": "text/xml",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://api.elsevier.com/content/article/PII:S0168583X07011688?httpAccept=text/plain",
+            "content-type": "text/plain",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          }
+        ],
+        "resource": {
+          "primary": {
+            "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0168583X07011688"
+          }
+        }
+      }
+    },
+    {
+      "name": "openalex",
+      "url": "https://api.openalex.org/works/https://doi.org/10.1016/j.nimb.2007.06.008",
+      "status": 200,
+      "bytes": 26090,
+      "sha256": "2b76c553532c7f16ead9878b7550a42bab444a5942aa3e0c05542ee1d171739f",
+      "metadata": {
+        "id": "https://openalex.org/W2021306834",
+        "title": "Technique for measuring angular correlations and g-factors of excited states with large multi-detector arrays: An application to neutron rich nuclei produced by the spontaneous fission of 252Cf",
+        "doi": "https://doi.org/10.1016/j.nimb.2007.06.008",
+        "publication_year": 2007,
+        "open_access": {
+          "is_oa": false,
+          "oa_status": "closed",
+          "oa_url": null,
+          "any_repository_has_fulltext": false
+        },
+        "best_oa_location": null,
+        "locations": [
+          {
+            "id": "doi:10.1016/j.nimb.2007.06.008",
+            "doi": "https://doi.org/10.1016/j.nimb.2007.06.008",
+            "is_oa": false,
+            "landing_page_url": "https://doi.org/10.1016/j.nimb.2007.06.008",
+            "pdf_url": null,
+            "source": {
+              "id": "https://openalex.org/S113542562",
+              "display_name": "Nuclear Instruments and Methods in Physics Research Section B Beam Interactions with Materials and Atoms",
+              "issn_l": "0168-583X",
+              "issn": [
+                "0168-583X",
+                "1872-9584"
+              ],
+              "is_oa": false,
+              "is_in_doaj": false,
+              "is_core": true,
+              "listed_in": [
+                "anvur-scientific",
+                "cwts-core",
+                "dongbi-b",
+                "jufo-2",
+                "ki-jl-1",
+                "norway-1",
+                "poland-70",
+                "russia-white-list-2",
+                "vabb-shw"
+              ],
+              "host_organization": "https://openalex.org/P4310320990",
+              "host_organization_name": "Elsevier BV",
+              "host_organization_lineage": [
+                "https://openalex.org/P4310320990"
+              ],
+              "host_organization_lineage_names": [
+                "Elsevier BV"
+              ],
+              "type": "journal"
+            },
+            "license": null,
+            "license_id": null,
+            "version": "publishedVersion",
+            "is_accepted": true,
+            "is_published": true,
+            "raw_source_name": "Nuclear Instruments and Methods in Physics Research Section B: Beam Interactions with Materials and Atoms",
+            "raw_type": "journal-article"
+          }
+        ]
+      }
+    },
+    {
+      "name": "openaire",
+      "url": "https://api.openaire.eu/search/publications?doi=10.1016%2Fj.nimb.2007.06.008&format=json",
+      "status": 200,
+      "bytes": 21238,
+      "sha256": "3dbdea35dbd952b5c5251857aa847ff4941d3d6bcc94606ef4234b281e9dc632",
+      "total": {
+        "$": 1
+      },
+      "locations": [
+        {
+          "url": {
+            "$": "https://doi.org/10.1016/j.nimb.2007.06.008"
+          }
+        },
+        {
+          "webresource": {
+            "url": {
+              "$": "https://doi.org/10.1016/j.nimb.2007.06.008"
+            }
+          }
+        },
+        {
+          "url": [
+            {
+              "$": "https://doi.org/10.1016/j.nimb.2007.06.008"
+            },
+            {
+              "$": "https://ora.ox.ac.uk/objects/uuid:227e0362-36bf-492a-9f38-4c0f0b81af25"
+            }
+          ]
+        },
+        {
+          "webresource": [
+            {
+              "url": {
+                "$": "https://doi.org/10.1016/j.nimb.2007.06.008"
+              }
+            },
+            {
+              "url": {
+                "$": "https://ora.ox.ac.uk/objects/uuid:227e0362-36bf-492a-9f38-4c0f0b81af25"
+              }
+            }
+          ]
+        },
+        {
+          "webresource": {
+            "url": {
+              "$": "https://doi.org/10.1016/j.nimb.2007.06.008"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

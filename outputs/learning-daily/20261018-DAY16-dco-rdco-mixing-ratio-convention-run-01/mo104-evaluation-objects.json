@@ -1,0 +1,84 @@
+{
+  "at": "2026-10-18T18:45:30.477668+08:00",
+  "records": [
+    {
+      "value": "104042001,104MO",
+      "url": "https://www.nndc.bnl.gov/ensdf/EnsdfDispatcherServlet",
+      "request": {
+        "dbclass": "ensdf",
+        "page-source": "singular",
+        "chooseit": "ENSDF text format",
+        "datasetcheck": "104042001,104MO"
+      },
+      "status": 200,
+      "text_sha256": "303ccb20a7798348aed1ab93467d7fb73357dd4ac39ce0b2ed6d84309475022e",
+      "bytes": 26085,
+      "line_count": 325,
+      "path": "tmp/day16-mo104-evaluation/104042001.ens",
+      "top": [
+        "",
+        "104MO    ADOPTED LEVELS, GAMMAS                                  07NDS    200709",
+        "104MO  H TYP=ERR$AUT=J. Tuli$DAT=14-Dec-2007$COM=Fixed typos noted by PNPI group",
+        "104MO  H TYP=FUL$AUT=JEAN BLACHOT$CIT=NDS 108,2035 (2007)$CUT=30-Mar-2007$      ",
+        "104MO  Q 2151      257460    1312620   10-6399   12    2012WA38                 ",
+        "104MO cQ $Note: Current evaluation has used the following Q record              ",
+        "104MO2cQ 2157      287550    9012300   90-6150   70    2003Au03                 ",
+        "104MO cG RI$Photon branching from each level                                    ",
+        "104MO cG E$|DE(|g) assumed to be 0.5 keV for those only given by 2004Hu02       ",
+        "104MO cG M$From DCO in {+248}Cm SF decay                                        ",
+        "104MO cL J$J|p without comments are from band assignments in SF decay,          ",
+        "104MO2cL (|a,F|g) studies.                                                      ",
+        "104MO cL E$Level energies are from least-squares adjustment                     ",
+        "104MO CL BAND(A)$ GS Band.                                                      ",
+        "104MO CL BAND(B)$ GAMMA BAND                                                    ",
+        "104MO CL BAND(C)$ Band based on 4+.                                             ",
+        "104MO CL BAND(D)$ Band based on (4-).                                           ",
+        "104MO CL BAND(F)$ Band based on (5-).                                           ",
+        "104MO CL BAND(G)$ Band based on (6+).                                           ",
+        "104MO  XA104NB B- DECAY (4.8 S)                                                 ",
+        "104MO  XB252CF SF DECAY                                                         ",
+        "104MO  XC248CM SF DECAY                                                         "
+      ]
+    },
+    {
+      "value": "104042005,104MO",
+      "url": "https://www.nndc.bnl.gov/ensdf/EnsdfDispatcherServlet",
+      "request": {
+        "dbclass": "ensdf",
+        "page-source": "singular",
+        "chooseit": "ENSDF text format",
+        "datasetcheck": "104042005,104MO"
+      },
+      "status": 200,
+      "text_sha256": "563aa499c2a6d802790a8c217264cc3bba7c307513f402c4c1914058c3038245",
+      "bytes": 16041,
+      "line_count": 201,
+      "path": "tmp/day16-mo104-evaluation/104042005.ens",
+      "top": [
+        "",
+        "104MO    252CF SF DECAY                2006JO05,2003HA49,2001YA0607NDS    200709",
+        "104MO  H TYP=FUL$AUT=JEAN BLACHOT$CIT=NDS 108,2035 (2007)$CUT=30-Mar-2007$      ",
+        "104MO c  2006Jo05: Measured E|g, |g|g using Gammasphere of 102                  ",
+        "104MO2c  Compton-suppressed Ge detectors.                                       ",
+        "104MO3c  Others of the same group  2003Ha49,2001Ya06                            ",
+        "104MO c  2002Sm10: Measured lifetimes by differential-plunger method            ",
+        "104MO2c  using the EUROBALL and SAPHIR array consisting of 48 square solar      ",
+        "104MO3c  cells.                                                                 ",
+        "104MO c  Other papers : 2005Sm08, 2004Sm04; 2003Hu07, 2002Ha46                  ",
+        "104MO2c   2002Pa14, 2002Sm10, 2001Kr13.                                         ",
+        "104MO3c  Some of these papers report lifetime and g factor measurements.        ",
+        "104MO c  Older papers: 1986Ma22,1970Ch11,1972Wi15, 1970Wa05, 1970HoZJ,          ",
+        "104MO2c  1971Sh12, 1972Ho08                                                     ",
+        "104MO c  Measured: K| x ray, K| x ray-|g, |g(t) (1970Ch11,1986Ma22), |g(|q)     ",
+        "104MOxc  (1972Wi15)                                                             ",
+        "104MO c  Assignment: (fragment)(fragment)(K| x ray)(|g)-coin                    ",
+        "104MO c  All data are from 2006Jo05 unless otherwise noted.                     ",
+        "104MO cG E(X)$ From 2001Ya06 and 2003Ha49 only                                  ",
+        "104MO cL E$From least-squares fit to E|g's, assuming |D(E|g)=0.3 keV for        ",
+        "104MO2cL each |g ray.                                                           ",
+        "104MO cL T$From 2002Sm10, unless otherwise noted                                "
+      ]
+    }
+  ],
+  "evaluation_date_is_not_retrieval_date": true
+}

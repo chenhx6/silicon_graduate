@@ -1,0 +1,19 @@
+{
+  "at": "2026-10-18T18:45:28.461206+08:00",
+  "queryDOI": "10.1103/PhysRevC.8.1494",
+  "OpenAIRE_returned_multiple_article_pids": [
+    "10.1103/physrevc.8.1494",
+    "10.1103/physrevc.10.1197"
+  ],
+  "classification": "merged deformed1973 and spherical1974articles; not an erratum/corrigendum identity; do not conflate sources",
+  "primary1973_body_obtained": false,
+  "failed_routes": [
+    "APSarticle403challenge",
+    "APSHarvest401notauthorized",
+    "OSUchallenge",
+    "ADSAccessDenied"
+  ],
+  "stop_unchanged_routes": true,
+  "Goodin2010_primary_status": "title/authoridentity not independentlycertified; specifiedinstitution403 and federationsearch no matchingthesis; no imagineddata",
+  "next_high_information_route": "104Mo NNDCselectedobjects for target/reference/cutoff/phase preservation; no new card"
+}

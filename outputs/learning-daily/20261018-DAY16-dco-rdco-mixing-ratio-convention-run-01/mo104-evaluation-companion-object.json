@@ -1,0 +1,15 @@
+{
+  "at": "2026-10-18T18:47:58.079008+08:00",
+  "record": "104042004",
+  "request": {
+    "dbclass": "ensdf",
+    "page-source": "singular",
+    "chooseit": "ENSDF text format",
+    "datasetcheck": "104042004,104MO"
+  },
+  "url": "https://www.nndc.bnl.gov/ensdf/EnsdfDispatcherServlet",
+  "http_status": 200,
+  "sha256": "d00045878869edafeb02a3e76e5c0928a4565ff1571ac5dbd679735227e4c3a6",
+  "line_count": 96,
+  "path": "tmp/day16-mo104-evaluation/104042004.ens"
+}

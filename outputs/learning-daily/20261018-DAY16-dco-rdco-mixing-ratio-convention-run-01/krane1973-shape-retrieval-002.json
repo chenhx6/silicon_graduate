@@ -1,0 +1,49 @@
+{
+  "at": "2026-10-18T18:42:33.513710+08:00",
+  "ADS_candidate_bibcode": "derived discoverable bibcode candidate only; no scientificidentity claim until contentverified",
+  "results": [
+    {
+      "name": "osu",
+      "url": "https://ir.library.oregonstate.edu/catalog?search_field=all_fields&q=%22E2%2FM1%22",
+      "final_url": "https://ir.library.oregonstate.edu/challenge?dest=/catalog?search_field=all_fields&q=%22E2%2FM1%22",
+      "status": 200,
+      "bytes": 11447,
+      "sha256": "728b3bcfc3e8e6466fa4a043901087c56e00112c9b644f426bc2a5f9dcbb176d",
+      "pdf_header": false,
+      "path": "tmp/day16-krane1973-shape/osu.data",
+      "text_excerpt": "Challenge Bot Detection // ScholarsArchive@OSU Skip to Content Toggle navigation Switch language English Switch language Deutsch English Español Français Italiano Português do Brasil 中文 Login ScholarsArchive@OSU Home About Help Contact Search ScholarsArchive@OSU Go Advanced Search Traffic control and bot detection... Sorry, Javascript is required to be enabled for our traffic check, and does not appear available. Scholars Archive is a service of Oregon State University Libraries & Press 121 The Valley Library Corvallis, OR 97331-4501 Contact Us Services for Persons with Disabilities Powered by Hyrax 3.6.0 Copyright © 2026 Oregon State University Licensed under the Apache License, Version 2.0 Core Trust application (pdf)",
+      "links": [
+        {
+          "text": "Core Trust application (pdf)",
+          "href": "https://doi.org/10.34894/GRLULI"
+        }
+      ]
+    },
+    {
+      "name": "ads",
+      "url": "https://articles.adsabs.harvard.edu/pdf/1973PhRvC...8.1494K",
+      "final_url": "https://articles.adsabs.harvard.edu/pdf/1973PhRvC...8.1494K",
+      "status": 403,
+      "bytes": 243,
+      "sha256": "3343510014d117fe746e2d39f74903049a12671628be616673ca187d26167a09",
+      "pdf_header": false,
+      "path": "tmp/day16-krane1973-shape/ads.data",
+      "text_excerpt": "AccessDenied Access Denied 5HVDC40AEGGDQMCC fJE/+bqbGNpC/1cnW1amrO9Lp+KBYi4vCIf5wSTbaRl/tUyWOKHMiX/QiSCklvNgk6SoDabgMIc=",
+      "links": []
+    },
+    {
+      "name": "openaire",
+      "url": "https://api.openaire.eu/search/publications?doi=10.1103%2FPhysRevC.8.1494&format=json",
+      "final_url": "https://api.openaire.eu/search/publications?doi=10.1103%2FPhysRevC.8.1494&format=json",
+      "status": 200,
+      "bytes": 12649,
+      "sha256": "b870c88f1c74e2089a8f9054fd950f936977def9a73e1e94bde66075e804a87c",
+      "pdf_header": false,
+      "path": "tmp/day16-krane1973-shape/openaire.data",
+      "total": {
+        "$": 1
+      },
+      "description_excerpt": "{ \"response\" : { \"header\" : { \"query\" : { \"$\" : \"(oaftype exact result) and (resulttypeid exact publication) and ((pidclassid exact \\\"doi\\\" and pid exact \\\"10.1103/PhysRevC.8.1494\\\"))\" }, \"locale\" : { \"$\" : \"en_US\" }, \"size\" : { \"$\" : 10 }, \"page\" : { \"$\" : 1 }, \"total\" : { \"$\" : 1 }, \"fields\" : null }, \"results\" : { \"result\" : [{ \"header\" : { \"dri:objIdentifier\" : { \"$\" : \"doi_dedup___::5ff10e4bc29e650dee8cfbc1aa11d5d2\" }, \"dri:dateOfCollection\" : { \"$\" : \"2026-08-19T07:01:10.913592460\" }, \"dri:dateOfTransformation\" : null }, \"metadata\" : { \"oaf:entity\" : { \"@xsi:schemaLocation\" : \"http://namespace.openaire.eu/oaf https://www.openaire.eu/schema/1.0/oaf-1.0.xsd\", \"oaf:result\" : { \"collectedfrom\" : { \"@name\" : \"Crossref\", \"@id\" : \"openaire____::081b82f96300b6a6e3d282bad31cb6e2\" }, \"originalId\" : [ { \"$\" : \"10.1103/physrevc.8.1494\" }, { \"$\" : \"50|doiboost____|5ff10e4bc29e650dee8cfbc1aa11d5d2\" }, { \"$\" : \"10.1103/physrevc.10.1197\" }, { \"$\" : \"50|doiboost____|6cf224c7808f6a8bbb9c7d616f7b4958\" } ], \"pid\" : [ { \"@classid\" : \"doi\", \"@classname\" : \"Digital Object Identifier\", \"@schemeid\" : \"dnet:pid_types\", \"@schemename\" : \"dnet:pid_types\", \"$\" : \"10.1103/physrevc.8.1494\" }, { \"@classid\" : \"doi\", \"@classname\" : \"Digital Object Identifier\", \"@schemeid\" : \"dnet:pid_types\", \"@schemename\" : \"dnet:pid_types\", \"$\" : \"10.1103/physrevc.10.1197\" } ], \"measure\" : [ { \"@id\" : \"influence\", \"@score\" : \"5.5985705E-9\", \"@class\" : \"C4\" }, { \"@id\" : \"popularity\", \"@score\" : \"2.9581906E-9\", \"@class\" : \"C5\" }, { \"@id\" : \"influence_alt\", \"@score\" : \"38\", \"@class\" : \"C4\" }, { \"@id\" : \"citationCount\", \"@score\" : \"38\", \"@class\" : \"C4\" }, { \"@id\" : \"popularity_alt\", \"@score\" : \"0.701008\", \"@class\" : \"C5\" }, { \"@id\" : \"impulse\", \"@score\" : \"5\", \"@class\" : \"C4\" } ], \"title\" : [ { \"@classid\" : \"main title\", \"@classname\" : \"main title\", \"@schemeid\" : \"dnet:dataCite_title\", \"@schemename\" : \"dnet:dataCite_title\", \"$\" : \"<mml:math xmlns:mml=\\\"http://www.w3.org/1998/Math/MathML\\\" display=\\\"inline\\\"><mml:mfrac><mml:mrow><mml:mi>E</mml:mi><mml:mi/><mml:mn>2</mml:mn></mml:mrow><mml:mrow><mml:mi>M</mml:mi><mml:mi/><mml:mn>1</mml:mn></mml:mrow></mml:mfrac></mml:math>Multipole Mixing Ratios of<mml:math xmlns:mml=\\\"http://www.w3.org/1998/Math/MathML\\\" display=\\\"inline\\\"><mml:mi>γ</mml:mi></mml:math>Transitions in Even-Even Deformed Nuclei\" }, { \"@classid\" : \"main title\", \"@classname\" : \"main title\", \"@schemeid\" : \"dnet:dataCite_title\", \"@schemename\" : \"dnet:dataCite_title\", \"$\" : \"<mml:math xmlns:mml=\\\"http://www.w3.org/1998/Math/MathML\\\" display=\\\"inline\\\"><mml:mfrac><mml:mrow><mml:mi>E</mml:mi><mml:mn>2</mml:mn><mml:mn/></mml:mrow><mml:mrow><mml:mi>M</mml:mi><mml:mn>1</mml:mn><mml:mn/></mml:mrow></mml:mfrac></mml:math>multipole mixing ratios of<mml:math xmlns:mml=\\\"http://www.w3.org/1998/Math/MathML\\\" display=\\\"inline\\\"><mml:mrow><mml:msup><mml:mrow><mml:mn>2</mml:mn></mml:mrow><mml:mrow><mml:mo>′</mml:mo></mml:mrow></mml:msup></mml:mrow><mml:mo>→</mml:mo><mml:mn>2</mml:mn></mml:math>gamma transitions in even-even spherical nuclei\" } ], \"bestaccessright\" : { \"@classid\" : \"CLOSED\", \"@classname\" : \"Closed Access\", \"@schemeid\" : \"dnet:access_modes\", \"@schemename\" : \"dnet:access_modes\" }, \"creator\" : { \"@rank\" : \"1\", \"@name\" : \"K. S.\", \"@surname\" : \"Krane\", \"$\" : \"K. S. Krane\" }, \"dateofacceptance\" : { \"$\" : \"1973-10-01\" }, \"subject\" : [ { \"@classid\" : \"FOS\", \"@classname\" : \"Fields of Science and Technology classification\", \"@schemeid\" : \"dnet:subject_classification_typologies\", \"@schemename\" : \"dnet:subject_classification_typologies\", \"@inferred\" : true, \"@inferenceprovenance\" : \"update\", \"@provenanceaction\" : \"subject:fos\", \"$\" : \"0103 physical sciences\" }, { \"@classid\" : \"FOS\", \"@classname\" : \"Fields of Science and Technology classification\", \"@schemeid\" : \"dnet:subject_classification_typologies\", \"@schemename\" : \"dnet:subject_classification_typologies\", \"@inferred\" : true, \"@inferenceprovenance\" : \"update\", \"@provenanceaction\" : \"subject:fos\", \"$\" : \"01 natural sciences\" } ], \"language\" : { \"@classid\" : \"eng\", \"@classname\" : \"English\", \"@schemeid\" : \"dnet:languages\", \"@schemename\" : \"dnet:languages\" }, \"relevantdate\" : [ { \"@classid\" : \"created\", \"@classname\" : \"created\", \"@schemeid\" : \"dnet:dataCite_date\", \"@schemename\" : \"dnet:dataCite_date\", \"$\" : \"2002-07-26\" }, { \"@classid\" : \"published-online\", \"@classname\" : \"published-online\", \"@schemeid\" : \"dnet:dataCite_date\", \"@schemename\" : \"dnet:dataCite_date\", \"$\" : \"1973-10-01\" }, { \"@classid\" : \"published-online\", \"@classname\" : \"published-online\", \"@schemeid\" : \"dnet:dataCite_date\", \"@schemename\" : \"dnet:dataCite_date\", \"$\" : \"1974-09-01\" } ], \"publisher\" : { \"$\" : \"American Physical Society (APS)\" }, \"source\" : { \"$\" : \"Crossref\" }, \"resulttype\" : { \"@classid\" : \"publication\", \"@classname\" : \"publication\", \"@schemeid\" : \"dnet:result_typologies\", \"@schemename\" : \"dnet:result_typologies\" }, \"resourcetype\" : { \"@classid\" : \"publication\", \"@classname\" : \"publication\", \"@schemeid\" : \"dnet:result_typologie"
+    }
+  ]
+}

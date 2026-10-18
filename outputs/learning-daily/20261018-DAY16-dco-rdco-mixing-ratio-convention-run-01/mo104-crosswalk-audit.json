@@ -1,0 +1,229 @@
+{
+  "identity": "DAY16-N104-EL18-REFERENCE-CROSSWALK-01",
+  "input_sha256": "6bbcc65916f22cf4517433caacd1a6fdc313f895e23034970443eff73d124968",
+  "script_sha256": "a984ee1d80cc275eb66173d0feb512da5b14f57197c9dfe50966382d504b7c90",
+  "targets": {
+    "adopted": {
+      "line": 62,
+      "energy": 836.3,
+      "energy_uncertainty_literal": "1 ",
+      "parent": {
+        "line": 57,
+        "energy": 1028.35,
+        "energy_uncertainty_literal": "12",
+        "Jpi": "3+",
+        "T_literal": "",
+        "DT_literal": "",
+        "band_marker": "B",
+        "raw": "104MO  L    1028.3512 3+                                                    B   "
+      },
+      "RI_literal": "100     ",
+      "DRI_literal": "10",
+      "M_literal": "M1",
+      "MR_literal": "",
+      "DMR_literal": "",
+      "CC_literal": "",
+      "raw": "104MO  G 836.3     1 100     10 M1                                              "
+    },
+    "Cf": {
+      "line": 47,
+      "energy": 835.5,
+      "energy_uncertainty_literal": "  ",
+      "parent": {
+        "line": 44,
+        "energy": 1027.9,
+        "energy_uncertainty_literal": " 3",
+        "Jpi": "3+",
+        "T_literal": "",
+        "DT_literal": "",
+        "band_marker": "B",
+        "raw": "104MO  L 1027.9     3 3+                                                    B   "
+      },
+      "RI_literal": "        ",
+      "DRI_literal": "  ",
+      "M_literal": "",
+      "MR_literal": "",
+      "DMR_literal": "",
+      "CC_literal": "",
+      "raw": "104MO  G 835.5                                                                  "
+    },
+    "Cm": {
+      "line": 23,
+      "energy": 835.8,
+      "energy_uncertainty_literal": "  ",
+      "parent": {
+        "line": 21,
+        "energy": 1028.0,
+        "energy_uncertainty_literal": "  ",
+        "Jpi": "3+",
+        "T_literal": "",
+        "DT_literal": "",
+        "band_marker": "B",
+        "raw": "104MO  L     1028.0  3+                                                     B   "
+      },
+      "RI_literal": "      89",
+      "DRI_literal": " 1",
+      "M_literal": "",
+      "MR_literal": "",
+      "DMR_literal": "",
+      "CC_literal": "",
+      "raw": "104MO  G      835.8        89 1                                                 "
+    }
+  },
+  "references": {
+    "adopted": {
+      "line": 37,
+      "energy": 192.2,
+      "energy_uncertainty_literal": "1 ",
+      "parent": {
+        "line": 31,
+        "energy": 192.19,
+        "energy_uncertainty_literal": " 9",
+        "Jpi": "2+",
+        "T_literal": "0.97 NS",
+        "DT_literal": "8",
+        "band_marker": "A",
+        "raw": "104MO  L     192.19 92+                0.97 NS   8                          A   "
+      },
+      "RI_literal": "100     ",
+      "DRI_literal": "  ",
+      "M_literal": "E2",
+      "MR_literal": "",
+      "DMR_literal": "",
+      "CC_literal": "0.12",
+      "raw": "104MO  G 192.2     1 100       E2                      0.12                     "
+    },
+    "Cf": {
+      "line": 36,
+      "energy": 192.4,
+      "energy_uncertainty_literal": "  ",
+      "parent": {
+        "line": 31,
+        "energy": 192.4,
+        "energy_uncertainty_literal": "2 ",
+        "Jpi": "2+",
+        "T_literal": "0.97 NS",
+        "DT_literal": "8",
+        "band_marker": "A",
+        "raw": "104MO  L 192.4     2  2+               0.97 NS   8                          A   "
+      },
+      "RI_literal": "        ",
+      "DRI_literal": "  ",
+      "M_literal": "",
+      "MR_literal": "",
+      "DMR_literal": "",
+      "CC_literal": "",
+      "raw": "104MO  G 192.4                                                                  "
+    },
+    "Cm": {
+      "line": 15,
+      "energy": 192.0,
+      "energy_uncertainty_literal": "  ",
+      "parent": {
+        "line": 14,
+        "energy": 192.1,
+        "energy_uncertainty_literal": "  ",
+        "Jpi": "2+",
+        "T_literal": "",
+        "DT_literal": "",
+        "band_marker": "A",
+        "raw": "104MO  L      192.1  2+                                                     A   "
+      },
+      "RI_literal": "        ",
+      "DRI_literal": "  ",
+      "M_literal": "",
+      "MR_literal": "",
+      "DMR_literal": "",
+      "CC_literal": "",
+      "raw": "104MO  G      192.0                                                             "
+    }
+  },
+  "selected_feeders": {
+    "adopted555p5": {
+      "line": 94,
+      "energy": 555.5,
+      "energy_uncertainty_literal": " 2",
+      "parent": {
+        "line": 91,
+        "energy": 1583.5,
+        "energy_uncertainty_literal": "14",
+        "Jpi": "4+",
+        "T_literal": "",
+        "DT_literal": "",
+        "band_marker": "C",
+        "raw": "104MO  L    1583.50144+                                                     C   "
+      },
+      "RI_literal": " 75     ",
+      "DRI_literal": " 4",
+      "M_literal": "",
+      "MR_literal": "",
+      "DMR_literal": "",
+      "CC_literal": "",
+      "raw": "104MO  G      555.5 2 75      4                                                 "
+    },
+    "Cf555p5": {
+      "line": 64,
+      "energy": 555.5,
+      "energy_uncertainty_literal": "  ",
+      "parent": {
+        "line": 62,
+        "energy": 1583.4,
+        "energy_uncertainty_literal": " 3",
+        "Jpi": "4+",
+        "T_literal": "",
+        "DT_literal": "",
+        "band_marker": "C",
+        "raw": "104MO  L 1583.4     3 4+                                                    C   "
+      },
+      "RI_literal": "        ",
+      "DRI_literal": "  ",
+      "M_literal": "",
+      "MR_literal": "",
+      "DMR_literal": "",
+      "CC_literal": "",
+      "raw": "104MO  G 555.5                                                                  "
+    },
+    "Cf477p4": {
+      "line": 89,
+      "energy": 477.4,
+      "energy_uncertainty_literal": "  ",
+      "parent": {
+        "line": 87,
+        "energy": 2060.8,
+        "energy_uncertainty_literal": " 3",
+        "Jpi": "(4-)",
+        "T_literal": "",
+        "DT_literal": "",
+        "band_marker": "D",
+        "raw": "104MO  L 2060.8     3 (4-)                                                  D   "
+      },
+      "RI_literal": "        ",
+      "DRI_literal": "  ",
+      "M_literal": "",
+      "MR_literal": "",
+      "DMR_literal": "",
+      "CC_literal": "",
+      "raw": "104MO  G 477.4                                                                  "
+    }
+  },
+  "band_B_identification": "B=GAMMA BAND/gamma band in these objects; permits a band/spin crosswalk, not a certified EL18 peak-ledger match.",
+  "adopted_target_energy_closure_residual_keV": -0.1400000000000432,
+  "Cf_target_energy_closure_residual_keV": 8.526512829121202e-14,
+  "energies_averaged_or_silently_substituted": false,
+  "all_selected_target_and_reference_MR_fields_empty": true,
+  "adopted_M_source_rule": "DCO in248Cm object; inspected96line object gives no actual target DCO ratio, reference gate, angles or MR.",
+  "cutoff_precedes_EL18": true,
+  "evaluation_base": "200709/07NDS, 30-Mar-2007 cutoff; adopted14-Dec-2007ERR and2012Q composite update do not create new2018gamma evaluation.",
+  "calibration_mean_lifetime_conversion_ns": [
+    1.3994141896622945,
+    0.11541560327111708
+  ],
+  "EL18_printed_calibration_tau_ns": [
+    1.4,
+    0.12
+  ],
+  "conversion_interpretation": "T1/2/ln2 matches1.40(.12) input precision; no new tau measurement or next-day card credit.",
+  "all_internal_field_and_identity_checks_passed": true,
+  "independent_EL18_delta_confirmation": false,
+  "source_2018_actual_gate_response_covariance_recovered": false
+}

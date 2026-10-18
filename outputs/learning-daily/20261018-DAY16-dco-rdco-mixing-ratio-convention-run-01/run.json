@@ -220,16 +220,36 @@
       "goal_status": "active",
       "research_deadline": "2026-10-19T15:00:00+08:00",
       "curriculum_retained_once": true
+    },
+    {
+      "publication_index": 12,
+      "at": "2026-10-18T18:38:00.016983+08:00",
+      "branch": "main",
+      "subject": "Validate DAY16 DELTA source contracts and interpolation controls",
+      "commit": "8d865de027fc8cb5de7d2575b1e1e9eba073c960",
+      "origin_main": "8d865de027fc8cb5de7d2575b1e1e9eba073c960",
+      "status": "published",
+      "required_exit_codes": {
+        "fresh_fetch": 0,
+        "ancestry": 0,
+        "dry_run_HEAD_main": 0,
+        "push_HEAD_main": 0,
+        "post_commit_eol": 0,
+        "cached_check": 0
+      },
+      "goal_status": "active",
+      "research_deadline": "2026-10-19T15:00:00+08:00",
+      "credit_retained_once": true
     }
   ],
-  "last_checkpoint": "reopened-006",
-  "last_verification": "verification-reopened-006.json",
-  "knowledge_writeback_items": 28,
-  "last_learning_summary": "DELTA1.01公开副本实际编译/七case，原pure插值失败/Σ假设/sentinel/phase已canonical；实际EL18producer仍未认证。",
-  "knowledge_changed_pages": 28,
+  "last_checkpoint": "reopened-007",
+  "last_verification": "verification-reopened-007.json",
+  "knowledge_writeback_items": 29,
+  "last_learning_summary": "N104actualobjects层/emptyMR/oldM1provenance/reference/companion独立性canonical，Goodin/Krane73body边界仍未解。",
+  "knowledge_changed_pages": 29,
   "uncredited_day17_preview_started": true,
   "preview_time_gate": "outputs/learning-daily/20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/day17-preview-time-gate.json",
-  "current_research_route": "Goodin2010 Vanderbilt thesis identity/primary/method andEL18reanalysis sourceindependence；sourcebefore已冻，institutionaldiscovery在执行",
+  "current_research_route": "EL18Ref10 Daniel2007 NIMB262399–406 DOI10.1016/j.nimb.2007.06.008，ORA机构记录uuid227e0362...；sourcebefore已冻，查询body/response方法，metadata不当正文",
   "research_status": "active-user-resumed-original-window",
   "research_stopped_at": null,
   "original_minutes_to_deadline_at_research_stop": 1523.8833333333334,
@@ -331,13 +351,16 @@
     }
   ],
   "last_runtime_snapshot": {
-    "now_local": "2026-10-18T16:31:18.642920+08:00",
+    "now_local": "2026-10-18T18:38:57.835628+08:00",
     "hard_deadline": "2026-10-19T15:00:00+08:00",
-    "minutes_to_deadline": 1348.6892846666667,
-    "source": "manualresume localclock after current-time tool; not runnerinjection",
-    "decision": "continue-current-high-information-route",
-    "next_card_checked": 17,
-    "next_card_credited": false
+    "decision": "continue-current-high-information-primary-route",
+    "source": "manual currentclock after originalreceipt compare",
+    "completed_day_indices": [
+      16
+    ],
+    "partial_day_indices": [
+      17
+    ]
   },
   "goal_resumed_by_user_at": "2026-10-18T16:34:00+08:00 (approximate; exact server timestamp held by native goal)",
   "goal_continuation_decision": {
@@ -349,5 +372,5 @@
     "deadline": "2026-10-19T15:00:00+08:00",
     "credit_policy": "Day16 kept once; partial17 only; no Day18"
   },
-  "last_publication": "publication-011.json"
+  "last_publication": "publication-012.json"
 }

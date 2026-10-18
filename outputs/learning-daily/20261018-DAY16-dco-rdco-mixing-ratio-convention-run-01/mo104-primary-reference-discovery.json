@@ -1,0 +1,192 @@
+{
+  "at": "2026-10-18T18:51:39.344481+08:00",
+  "results": [
+    {
+      "name": "cmrefs",
+      "url": "https://www.nndc.bnl.gov/ensdf/getrefs.jsp?recid=104042004&dsid=248CM%20SF%20DECAY",
+      "status": 200,
+      "bytes": 3141,
+      "sha256": "62796e229f7c8a8a092f242e9bccf6ccd655678de35e448159131d222abdc5d0",
+      "text": "References from selected dataset References quoted in the ENSDF dataset: 104MO 248CM SF DECAY 2 references found. Clicking on a keynumber will list datasets\nthat reference the given article. Return to 248CM SF DECAY 1996GU04 Phys.Rev. C53, 1191 (1996) A.Guessous, N.Schulz, M.Bentaleb, E.Lubkiewicz, J.L.Durell, C.J.Pearson, W.R.Phillips, J.A.Shannon, W.Urban, B.J.Varley, I.Ahmad, C.J.Lister, L.R.Morss, K.L.Nash, C.W.Williams, S.Khazrouni Prompt γ-Ray Spectroscopy of the 104 Mo and 108 Mo Fission Fragments RADIOACTIVITY 248 Cm(SF); measured Eγ, multi-fold γγ-coin. 104,108 Mo deduced levels, J, π, γ-branching. doi: 10.1103/PhysRevC.53.1191 2002SM10 J.Phys.(London) G28, 2307 (2002) A.G.Smith, R.M.Wall, D.Patel, G.S.Simpson, D.M.Cullen, J.L.Durell, S.J.Freeman, J.C.Lisle, J.F.Smith, B.J.Varley, G.Barreau, M.Petit, C.Theisen, E.Bouchez, M.Houry, R.Lucas, B.Cahan, A.Le Coguie, B.J.P.Gall, O.Dorvaux, N.Schulz Lifetimes of Yrast Rotational States of the Fission Fragments 100 Zr and 104 Mo Measured using a Differential Plunger RADIOACTIVITY 252 Cf(SF); measured Eγ, Iγ, γγ-, (particle)γ-coin, Doppler shifts. 100 Zr, 104 Mo levels deduced T 1/2 , transition quadrupole moments. Euroball, Saphir arrays, recoil-distance technique. doi: 10.1088/0954-3899/28/8/316",
+      "links": [
+        {
+          "text": "10.1103/PhysRevC.53.1191",
+          "href": "http://dx.doi.org/10.1103/PhysRevC.53.1191"
+        },
+        {
+          "text": "10.1088/0954-3899/28/8/316",
+          "href": "http://dx.doi.org/10.1088/0954-3899/28/8/316"
+        }
+      ]
+    },
+    {
+      "name": "cfrefs",
+      "url": "https://www.nndc.bnl.gov/ensdf/getrefs.jsp?recid=104042005&dsid=252CF%20SF%20DECAY",
+      "status": 200,
+      "bytes": 16330,
+      "sha256": "737f6217e01a5606360c1a245651b160296a5a5370b936b20eded3d3c91e67ce",
+      "text": "References from selected dataset References quoted in the ENSDF dataset: 104MO 252CF SF DECAY 18 references found. Clicking on a keynumber will list datasets\nthat reference the given article. Return to 252CF SF DECAY 1970CH11 Phys.Rev.Lett. 25, 38 (1970) E.Cheifetz, R.C.Jared, S.G.Thompson, J.B.Wilhelmy Experimental Information Concerning Deformation of Neutron Rich Nuclei In the A Approx. 100 Region RADIOACTIVITY, Fission 252 Cf(SF); measured (fragment)(fragment)(X)-, (fragment)(fragment)(γ)-, γγ-, X(K)γ-coin. 96 Sr, 100,102 Zr, 102,104,106 Mo, 108,110,112 Ru, 112,114,116 Pd; measured Eγ, Iγ; deduced levels, T 1/2 , B(E2). doi: 10.1103/PhysRevLett.25.38 1970HOZJ Proc.Int.Conf.Prop.Nuclei Far from Region of Beta-Stability, Switzerland, Vol.2, p.917 (1970); CERN-70-30 (1970) F.Horsch Prompt Gamma Transitions in Primary Fragments from Neutron-Induced Fission NUCLEAR REACTIONS, Fission 235 U(n, F), E=thermal; measured (fragment)(fragment)(γ)-coin, Eγ, Iγ. 88 Br, 91 Kr, 93,95 Sr, 96 Y, 99,100 Zr, 101 Zr, 101,102,103 Nb, 104 Nb, 104 Mo, 131,132 Sb, 134,135 Te, 135,138 I, 138,139 Xe, 140 Xe, 140,141 Xe, 142,143,144 Ba, 146 La, 146,147 Ce deduced transitions. 1970WA05 Nucl.Phys. A141, 449 (1970) R.L.Watson, J.B.Wilhelmy, R.C.Jared, C.Rugge, H.R.Bowman, S.G.Thompson, J.O.Rasmussen A Study of the Low-Energy Transitions Arising from the Prompt de-Excitation of Fission Fragments RADIOACTIVITY, Fission 252 Cf(SF); measured E(ce), I(ce), E(X-ray), I(X-ray), I(ce)(t), (fragment)(fragment)(ce)(X)-coin. 102 Zr, 106 Mo, 108,109 Tc, 110 Ru, 116 Rh, 140 Cs, 144 Ba, 146 La, 148 Ce, 149,150 Pr; measured E(ce), I(ce); deduced Eγ, K/L, T 1/2 (level). Detector - Si(Li), Si(P) fragment detectors. doi: 10.1016/0375-9474(70)90982-6 1971SH12 Phys.Rev. C3, 2464 (1971) N.L.Shapiro, B.W.Wehring, M.E.Wyman Internal-Conversion Electrons Emitted by Different Elements in the Fission of Cf 252 RADIOACTIVITY, Fission 252 Cf(SF); Xce-coin, (fragment)(X)(ce)-coin. doi: 10.1103/PhysRevC.3.2464 1972HO08 Phys.Rev. C5, 1015 (1972) F.F.Hopkins, J.R.White, G.W.Phillips, C.F.Moore, P.Richard Further Measurements of Gamma Transitions in Spontaneous-Fission Fragments of 252 Cf RADIOACTIVITY, Fission 252 Cf(SF); measured Xγ-coin. 100,102,104 Zr, 146,147,148 Ce, 141,142,143,144,146 La, 102,104,106 Mo, 139,142,144,146 Ba, 105,106,108,110 Tc, 138,139,142 Cs, 106,109,111 Ru, 137,138,142 Xe, 109,111 Pd, 137 Te, 108,109,112,113 Rh, 132,134,136 I, 114 Pd, 132,134 Te, 98 Y, 95,98 Sr, 143,145,147,153 Pr, 147,151,154 Nd, 94 Rb, 149,154 Pm, 91 Kr, 156 Sm, 156,158 Eu; measured Eγ; deduced transitions. Ge(Li) detectors. doi: 10.1103/PhysRevC.5.1015 1972WI15 Phys.Rev. C5, 2041 (1972) J.B.Wilhelmy, E.Cheifetz, R.C.Jared, S.G.Thompson, H.R.Bowman, J.O.Rasmussen Angular Momentum of Primary Products Formed in the Spontaneous Fission Of 252 Cf RADIOACTIVITY, Fission 252 Cf(SF); measured (fragment)(fragment)(γ)-, (fragment)(fragment)(γ)(γ)-, (fragment)(fragment)(X)(γ)-coin, γγ-coin, Iγ(θ); deduced angular momentum of primary products. 100,102 Zr, 104,106 Mo, 108,110,112 Ru, 112,114,116 Pd, 118 Cd, 138,140 Xe, 142,144,146 Ba, 146,148,150 Ce, 152,154 Nd, 158 Sm; measured Iγ. doi: 10.1103/PhysRevC.5.2041 1974JAZN LBL-2366, p.38 (1974) R.C.Jared, H.Nifenecker, S.G.Thompson Measurement of Prompt Gamma Ray Lifetimes of Fission Fragments of 252 Cf RADIOACTIVITY, Fission 252 Cf(SF); measured Eγ, Iγ, γ(fragment mass), DSA, αγ-coin. 100,102 Zr, 104,106 Mo, 108,110,112 Ru, 114,116 Pd, 142,144,146 Ba, 146,148,150 Ce, 154 Nd deduced levels, T 1/2 , quadrupole moment, B(E2), β 2 . 1986MA22 Nucl.Phys. A454, 213 (1986) G.Mamane, E.Cheifetz, E.Dafni, A.Zemel, J.B.Wilhelmy Lifetime Measurements of Excited Levels in Prompt Fission Products of 252 Cf RADIOACTIVITY 252 Cf(SF); measured prompt fission fragment decay γ-spectra, recoil. 108,110 Ru, 104,106 Mo, 142,144 Ba, 112,114 Pd transitions; deduced T 1/2 . doi: 10.1016/0375-9474(86)90265-4 2001KR13 Phys.Rev. C64, 017305 (2001) R.Krucken, W.-T.Chou, J.R.Cooper, C.W.Beausang, C.J.Barton, M.A.Caprio, R.F.Casten, A.A.Hecht, J.R.Novak, N.Pietralla, A.Wolf, N.V.Zamfir Lifetimes in Neutron-Rich Fission Fragments using the Differential Recoil Distance Method RADIOACTIVITY 252 Cf(SF); measured Doppler-shifted Eγ, Iγ, γγ-, (fragment)γ-coin. 104 Mo, 110 Ru, 144 Ba deduced levels T 1/2 , transition quadrupole moments. Differential recoil distance method. doi: 10.1103/PhysRevC.64.017305 2001YA06 Chin.Phys.Lett. 18, 24 (2001) L.-M.Yang, S.-J.Zhu, K.Li, J.H.Hamilton, A.V.Ramayya, J.K.Hwang, X.Q.Zhang, L.-Y.Zhu, C.-Y.Gan, M.Sakhaee, G.-L.Long, R.-Q.Xu, Z.Zhang, Z.Jiang, M.-G.Jon, W.C.Ma, B.R.S.Babu, J.Kormicki, E.F.Jones, J.D.Cole, R.Aryaeinejad, M.W.Drigert, I.Y.Lee, J.O.Rasmussen, M.A.Stoyer, G.M.Ter-Akopian, A.V.Daniel Collective Bands in Neutron-Rich 104 Mo Nucleus RADIOACTIVITY 252 Cf(SF); measured Eγ, Iγ, γγ-coin. 104 Mo deduced levels, J, π, configurations, vibrational and rotational bands. Gammasphere array. Comparisons with general collective model calculations. doi: 10.1088/0256-307X/18/1/309 2002HA46 Eur.Phys.J. A 15, 175 (2002) J.H.Hamilton, A.V.Ramayya, J.K.Hwang, X.Y.Luo, J.O.Rasmussen, E.F.Jones, X.Q.Zhang, S.J.Zhu, P.M.Gore, T.N.Ginter, I.Y.Lee, R.V.F.Janssens, I.Ahmed, J.D.Cole, W.Greiner, G.Ter-Akopian, Y.Oganessian New insights into neutron-rich nuclei at high spin RADIOACTIVITY 252 Cf(SF); measured Eγ, Iγ, γγ-coin. 135 Te, 139,141 Ba, 106 Mo; deduced high-spin levels, J, π. 104,106 Mo, 108,110,112 Ru, 112,114,116,118 Pd; deduced rotational band features. 162,164 Gd deduced levels. doi: 10.1140/epja/i2001-10249-1 2002PA14 J.Phys.(London) G28, 649 (2002) D.Patel, A.G.Smith, G.S.Simpson, R.M.Wall, J.F.Smith, O.J.Onakanmi, I.Ahmad, J.P.Greene, M.P.Carpenter, T.Lauritsen, C.J.Lister, R.F.Janssens, F.G.Kondev, D.Seweryniak, B.J.P.Gall, O.Dorveaux, B.Roux A New Technique for Measuring g Factors of Excited States in Fission Fragments using Large Arrays of Ge Detectors RADIOACTIVITY 252 Cf(SF); measured Eγ, Iγ(θ, H), γγ-coin. 104 Mo levels deduced g factors. Gammasphere array, time-integral perturbed angular correlation. doi: 10.1088/0954-3899/28/4/306 2002SM10 J.Phys.(London) G28, 2307 (2002) A.G.Smith, R.M.Wall, D.Patel, G.S.Simpson, D.M.Cullen, J.L.Durell, S.J.Freeman, J.C.Lisle, J.F.Smith, B.J.Varley, G.Barreau, M.Petit, C.Theisen, E.Bouchez, M.Houry, R.Lucas, B.Cahan, A.Le Coguie, B.J.P.Gall, O.Dorvaux, N.Schulz Lifetimes of Yrast Rotational States of the Fission Fragments 100 Zr and 104 Mo Measured using a Differential Plunger RADIOACTIVITY 252 Cf(SF); measured Eγ, Iγ, γγ-, (particle)γ-coin, Doppler shifts. 100 Zr, 104 Mo levels deduced T 1/2 , transition quadrupole moments. Euroball, Saphir arrays, recoil-distance technique. doi: 10.1088/0954-3899/28/8/316 2003HA49 Fizika(Zagreb) B 12, 85 (2003) J.H.Hamilton, S.J.Zhu, Y.X.Luo, J.K.Hwang, A.V.Ramayya, P.M.Gore, J.O.Rasmussen, and the GANDS Collaborations Collective and single-particle structures in neutron-rich nuclei RADIOACTIVITY 252 Cf(SF); measured Eγ, Iγ, γγ-coin. 104,106 Mo, 133,135 Te, 139,141 Ba, 139 Xe, 115,117 Ag deduced levels, J, π, rotational bands. Gammasphere array. 2003HU07 Phys.Rev. C 67, 054315 (2003) C.Hutter, R.Krucken, A.Aprahamian, C.J.Barton, C.W.Beausang, M.A.Caprio, R.F.Casten, W.-T.Chou, R.M.Clark, D.Cline, J.R.Cooper, M.Cromaz, A.A.Hecht, A.O.Macchiavelli, N.Pietralla, M.Shawcross, M.A.Stoyer, C.Y.Wu, N.V.Zamfir B(E2) values and the search for the critical point symmetry X(5) in 104 Mo and 106 Mo RADIOACTIVITY 252 Cf(SF); measured Doppler-shifted Eγ, Iγ, γγ-coin. 104,106 Mo deduced levels T 1/2 , B(E2), transition quadrupole moments. Recoil-distance technique, Gammasphere array, comparison with model predictions. doi: 10.1103/PhysRevC.67.054315 2004SM04 Phys.Lett. B 591, 55 (2004) A.G.Smith, D.Patel, G.S.Simpson, R.M.Wall, J.F.Smith, O.J.Onakanmi, I.Ahmad, J.P.Greene, M.P.Carpenter, T.Lauritsen, C.J.Lister, R.V.F.Janssens, F.G.Kondev, D.Seweryniak, B.J.P.Gall, O.Dorvaux, B.Roux The influence of νh 11/2 occupancy on the magnetic moments of collective 2 + 1 states in A ∼ 100 fission fragments RADIOACTIVITY 252 Cf(SF); measured Eγ, Iγ(θ, H), γγ-coin. 98,100,102 Zr, 102,104,106,108 Mo, 106,108,110,112 Ru, 110,114,116 Pd levels deduced g factors. Gammasphere array, time-integral perturbed angular correlation technique. Interacting boson model analysis. doi: 10.1016/j.physletb.2004.03.091 2005SM08 J.Phys.(London) G31, S1433 (2005) A.G.Smith, R.Orlandi, D.Patel, G.S.Simpson, R.M.Wall, J.F.Smith, O.J.Onakanmi, I.Ahmad, J.P.Greene, M.P.Carpenter, T.Lauritsen, C.J.Lister, R.V.F.Janssens, F.G.Kondev, D.Seweryniak, B.J.P.Gall, O.Dorvaux, B.Roux The magnetic properties of collective states in A ∼ 100 fission fragments RADIOACTIVITY 252 Cf(SF); measured Eγ, Iγ(θ, H, t), γγ-coin. 96,100,102 Zr, 102,104,106,108 Mo, 106,108,110,112 Ru, 110,114,116 Pd levels deduced g factors, B(E2). Gammasphere array, time-integral perturbed angular correlation technique. Comparison with interacting boson model predictio",
+      "links": [
+        {
+          "text": "10.1103/PhysRevLett.25.38",
+          "href": "http://dx.doi.org/10.1103/PhysRevLett.25.38"
+        },
+        {
+          "text": "10.1016/0375-9474(70)90982-6",
+          "href": "http://dx.doi.org/10.1016/0375-9474(70)90982-6"
+        },
+        {
+          "text": "10.1103/PhysRevC.3.2464",
+          "href": "http://dx.doi.org/10.1103/PhysRevC.3.2464"
+        },
+        {
+          "text": "10.1103/PhysRevC.5.1015",
+          "href": "http://dx.doi.org/10.1103/PhysRevC.5.1015"
+        },
+        {
+          "text": "10.1103/PhysRevC.5.2041",
+          "href": "http://dx.doi.org/10.1103/PhysRevC.5.2041"
+        },
+        {
+          "text": "10.1016/0375-9474(86)90265-4",
+          "href": "http://dx.doi.org/10.1016/0375-9474(86)90265-4"
+        },
+        {
+          "text": "10.1103/PhysRevC.64.017305",
+          "href": "http://dx.doi.org/10.1103/PhysRevC.64.017305"
+        },
+        {
+          "text": "10.1088/0256-307X/18/1/309",
+          "href": "http://dx.doi.org/10.1088/0256-307X/18/1/309"
+        },
+        {
+          "text": "10.1140/epja/i2001-10249-1",
+          "href": "http://dx.doi.org/10.1140/epja/i2001-10249-1"
+        },
+        {
+          "text": "10.1088/0954-3899/28/4/306",
+          "href": "http://dx.doi.org/10.1088/0954-3899/28/4/306"
+        },
+        {
+          "text": "10.1088/0954-3899/28/8/316",
+          "href": "http://dx.doi.org/10.1088/0954-3899/28/8/316"
+        },
+        {
+          "text": "10.1103/PhysRevC.67.054315",
+          "href": "http://dx.doi.org/10.1103/PhysRevC.67.054315"
+        },
+        {
+          "text": "10.1016/j.physletb.2004.03.091",
+          "href": "http://dx.doi.org/10.1016/j.physletb.2004.03.091"
+        },
+        {
+          "text": "10.1088/0954-3899/31/10/009",
+          "href": "http://dx.doi.org/10.1088/0954-3899/31/10/009"
+        },
+        {
+          "text": "10.1134/S1063778806070167",
+          "href": "http://dx.doi.org/10.1134/S1063778806070167"
+        }
+      ]
+    },
+    {
+      "name": "evalmetadata",
+      "url": "https://api.crossref.org/works?query.bibliographic=Jean%20Blachot%20Nuclear%20Data%20Sheets%20A104%20108%202035%202007&rows=3",
+      "status": 200,
+      "bytes": 182102,
+      "sha256": "529f2333f07f812da9205f6fc145bd37addb61d3816436d79cbe7150f5285039",
+      "results": [
+        {
+          "DOI": "10.1016/j.nds.2007.09.001",
+          "title": [
+            "Nuclear Data Sheets for A = 104"
+          ],
+          "author": [
+            {
+              "given": "Jean",
+              "family": "Blachot",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2007,
+                10
+              ]
+            ]
+          },
+          "volume": "108",
+          "page": "2035-2172"
+        },
+        {
+          "DOI": "10.1006/ndsh.1997.0016",
+          "title": [
+            "Nuclear Data Sheets for A = 108"
+          ],
+          "author": [
+            {
+              "given": "Jean",
+              "family": "Blachot",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                1997,
+                8
+              ]
+            ]
+          },
+          "volume": "81",
+          "page": "599-752"
+        },
+        {
+          "DOI": "10.1016/0090-3752(91)80022-x",
+          "title": [
+            "Nuclear data sheets update for A = 108"
+          ],
+          "author": [
+            {
+              "given": "Jean",
+              "family": "Blachot",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                1991,
+                1
+              ]
+            ]
+          },
+          "volume": "62",
+          "page": "803-869"
+        }
+      ]
+    }
+  ]
+}

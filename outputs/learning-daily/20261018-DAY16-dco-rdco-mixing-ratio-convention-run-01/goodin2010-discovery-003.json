@@ -1,0 +1,869 @@
+{
+  "at": "2026-10-18T18:34:20.352822+08:00",
+  "identity_boundary": "OpenAlex fullauthor/ORCID is discovery linkage, not yet thesisidentitycertificate",
+  "results": [
+    {
+      "name": "author2010works",
+      "url": "https://api.openalex.org/works?filter=author.id:A5038963892,publication_year:2010&per-page=20",
+      "status": 200,
+      "bytes": 249308,
+      "sha256": "f55eb1b8a216163a082b25299629824ed8be6e5bee066067fddf17e71b0e262e",
+      "results": [
+        {
+          "id": "https://openalex.org/W1998074044",
+          "title": "New subshell closure at N=58 emerging in neutron-rich nuclei beyond Ni78",
+          "doi": "https://doi.org/10.1103/physrevc.81.044303",
+          "publication_year": 2010,
+          "type": "article",
+          "primary_location": {
+            "id": "doi:10.1103/physrevc.81.044303",
+            "doi": "https://doi.org/10.1103/physrevc.81.044303",
+            "is_oa": false,
+            "landing_page_url": "https://doi.org/10.1103/physrevc.81.044303",
+            "pdf_url": null,
+            "source": {
+              "id": "https://openalex.org/S4210168441",
+              "display_name": "Physical Review C",
+              "issn_l": "0556-2813",
+              "issn": [
+                "0556-2813",
+                "1089-490X",
+                "1538-4497",
+                "2469-9985",
+                "2469-9993",
+                "2470-0002"
+              ],
+              "is_oa": false,
+              "is_in_doaj": false,
+              "is_core": true,
+              "listed_in": [
+                "anvur-scientific",
+                "cwts-core",
+                "dongbi-a",
+                "jufo-2",
+                "ki-jl-1",
+                "norway-1",
+                "poland-140",
+                "russia-white-list-1",
+                "vabb-shw"
+              ],
+              "host_organization": "https://openalex.org/P4310320261",
+              "host_organization_name": "American Physical Society",
+              "host_organization_lineage": [
+                "https://openalex.org/P4310320261"
+              ],
+              "host_organization_lineage_names": [
+                "American Physical Society"
+              ],
+              "type": "journal"
+            },
+            "license": null,
+            "license_id": null,
+            "version": "publishedVersion",
+            "is_accepted": true,
+            "is_published": true,
+            "raw_source_name": "Physical Review C",
+            "raw_type": "journal-article"
+          },
+          "locations": [
+            {
+              "id": "doi:10.1103/physrevc.81.044303",
+              "doi": "https://doi.org/10.1103/physrevc.81.044303",
+              "is_oa": false,
+              "landing_page_url": "https://doi.org/10.1103/physrevc.81.044303",
+              "pdf_url": null,
+              "source": {
+                "id": "https://openalex.org/S4210168441",
+                "display_name": "Physical Review C",
+                "issn_l": "0556-2813",
+                "issn": [
+                  "0556-2813",
+                  "1089-490X",
+                  "1538-4497",
+                  "2469-9985",
+                  "2469-9993",
+                  "2470-0002"
+                ],
+                "is_oa": false,
+                "is_in_doaj": false,
+                "is_core": true,
+                "listed_in": [
+                  "anvur-scientific",
+                  "cwts-core",
+                  "dongbi-a",
+                  "jufo-2",
+                  "ki-jl-1",
+                  "norway-1",
+                  "poland-140",
+                  "russia-white-list-1",
+                  "vabb-shw"
+                ],
+                "host_organization": "https://openalex.org/P4310320261",
+                "host_organization_name": "American Physical Society",
+                "host_organization_lineage": [
+                  "https://openalex.org/P4310320261"
+                ],
+                "host_organization_lineage_names": [
+                  "American Physical Society"
+                ],
+                "type": "journal"
+              },
+              "license": null,
+              "license_id": null,
+              "version": "publishedVersion",
+              "is_accepted": true,
+              "is_published": true,
+              "raw_source_name": "Physical Review C",
+              "raw_type": "journal-article"
+            },
+            {
+              "id": "pmh:oai:digitalcommons.lsu.edu:physics_astronomy_pubs-7183",
+              "doi": null,
+              "is_oa": false,
+              "landing_page_url": "https://digitalcommons.lsu.edu/physics_astronomy_pubs/6103",
+              "pdf_url": null,
+              "source": {
+                "id": "https://openalex.org/S4210169993",
+                "display_name": "Civil War Book Review",
+                "issn_l": "1528-6592",
+                "issn": [
+                  "1528-6592"
+                ],
+                "is_oa": false,
+                "is_in_doaj": false,
+                "is_core": false,
+                "listed_in": [],
+                "host_organization": "https://openalex.org/P4310315936",
+                "host_organization_name": "Louisiana State University",
+                "host_organization_lineage": [
+                  "https://openalex.org/P4310315936"
+                ],
+                "host_organization_lineage_names": [
+                  "Louisiana State University"
+                ],
+                "type": "journal"
+              },
+              "license": null,
+              "license_id": null,
+              "version": "submittedVersion",
+              "is_accepted": false,
+              "is_published": false,
+              "raw_source_name": "Faculty Publications",
+              "raw_type": "text"
+            },
+            {
+              "id": "pmh:oai:repository.lsu.edu:physics_astronomy_pubs-7183",
+              "doi": null,
+              "is_oa": false,
+              "landing_page_url": "https://repository.lsu.edu/physics_astronomy_pubs/6103",
+              "pdf_url": null,
+              "source": {
+                "id": "https://openalex.org/S4210169993",
+                "display_name": "Civil War Book Review",
+                "issn_l": "1528-6592",
+                "issn": [
+                  "1528-6592"
+                ],
+                "is_oa": false,
+                "is_in_doaj": false,
+                "is_core": false,
+                "listed_in": [],
+                "host_organization": "https://openalex.org/P4310315936",
+                "host_organization_name": "Louisiana State University",
+                "host_organization_lineage": [
+                  "https://openalex.org/P4310315936"
+                ],
+                "host_organization_lineage_names": [
+                  "Louisiana State University"
+                ],
+                "type": "journal"
+              },
+              "license": null,
+              "license_id": null,
+              "version": "submittedVersion",
+              "is_accepted": false,
+              "is_published": false,
+              "raw_source_name": "Faculty Publications",
+              "raw_type": "text"
+            }
+          ]
+        },
+        {
+          "id": "https://openalex.org/W1568245934",
+          "title": "High Fidelity Sensor Simulations for the Virtual Autonomous Navigation Environment",
+          "doi": "https://doi.org/10.1007/978-3-642-17319-6_10",
+          "publication_year": 2010,
+          "type": "conference-paper",
+          "primary_location": {
+            "id": "doi:10.1007/978-3-642-17319-6_10",
+            "doi": "https://doi.org/10.1007/978-3-642-17319-6_10",
+            "is_oa": false,
+            "landing_page_url": "https://doi.org/10.1007/978-3-642-17319-6_10",
+            "pdf_url": null,
+            "source": {
+              "id": "https://openalex.org/S106296714",
+              "display_name": "Lecture notes in computer science",
+              "issn_l": "0302-9743",
+              "issn": [
+                "0302-9743",
+                "1611-3349"
+              ],
+              "is_oa": false,
+              "is_in_doaj": false,
+              "is_core": true,
+              "listed_in": [
+                "cwts-core",
+                "jufo-1",
+                "ki-jl-1",
+                "norway-1",
+                "vabb-shw"
+              ],
+              "host_organization": "https://openalex.org/P4310319900",
+              "host_organization_name": "Springer Science+Business Media",
+              "host_organization_lineage": [
+                "https://openalex.org/P4310319900",
+                "https://openalex.org/P4310319965"
+              ],
+              "host_organization_lineage_names": [
+                "Springer Science+Business Media",
+                "Springer Nature"
+              ],
+              "type": "book series"
+            },
+            "license": null,
+            "license_id": null,
+            "version": "publishedVersion",
+            "is_accepted": true,
+            "is_published": true,
+            "raw_source_name": "Lecture Notes in Computer Science",
+            "raw_type": "book-chapter"
+          },
+          "locations": [
+            {
+              "id": "doi:10.1007/978-3-642-17319-6_10",
+              "doi": "https://doi.org/10.1007/978-3-642-17319-6_10",
+              "is_oa": false,
+              "landing_page_url": "https://doi.org/10.1007/978-3-642-17319-6_10",
+              "pdf_url": null,
+              "source": {
+                "id": "https://openalex.org/S106296714",
+                "display_name": "Lecture notes in computer science",
+                "issn_l": "0302-9743",
+                "issn": [
+                  "0302-9743",
+                  "1611-3349"
+                ],
+                "is_oa": false,
+                "is_in_doaj": false,
+                "is_core": true,
+                "listed_in": [
+                  "cwts-core",
+                  "jufo-1",
+                  "ki-jl-1",
+                  "norway-1",
+                  "vabb-shw"
+                ],
+                "host_organization": "https://openalex.org/P4310319900",
+                "host_organization_name": "Springer Science+Business Media",
+                "host_organization_lineage": [
+                  "https://openalex.org/P4310319900",
+                  "https://openalex.org/P4310319965"
+                ],
+                "host_organization_lineage_names": [
+                  "Springer Science+Business Media",
+                  "Springer Nature"
+                ],
+                "type": "book series"
+              },
+              "license": null,
+              "license_id": null,
+              "version": "publishedVersion",
+              "is_accepted": true,
+              "is_published": true,
+              "raw_source_name": "Lecture Notes in Computer Science",
+              "raw_type": "book-chapter"
+            }
+          ]
+        },
+        {
+          "id": "https://openalex.org/W2061363239",
+          "title": "Octupole excitations in 141,144Cs and the pronounced decrease of dipole moments with neutron number in odd-Z neutron-rich 141,143,144Cs",
+          "doi": "https://doi.org/10.1016/j.nuclphysa.2010.03.003",
+          "publication_year": 2010,
+          "type": "article",
+          "primary_location": {
+            "id": "doi:10.1016/j.nuclphysa.2010.03.003",
+            "doi": "https://doi.org/10.1016/j.nuclphysa.2010.03.003",
+            "is_oa": false,
+            "landing_page_url": "https://doi.org/10.1016/j.nuclphysa.2010.03.003",
+            "pdf_url": null,
+            "source": {
+              "id": "https://openalex.org/S62159105",
+              "display_name": "Nuclear Physics A",
+              "issn_l": "0375-9474",
+              "issn": [
+                "0375-9474",
+                "1873-1554"
+              ],
+              "is_oa": false,
+              "is_in_doaj": false,
+              "is_core": true,
+              "listed_in": [
+                "anvur-scientific",
+                "cwts-core",
+                "dongbi-c",
+                "jufo-1",
+                "ki-jl-1",
+                "norway-1",
+                "poland-100",
+                "russia-white-list-2"
+              ],
+              "host_organization": "https://openalex.org/P4310320990",
+              "host_organization_name": "Elsevier BV",
+              "host_organization_lineage": [
+                "https://openalex.org/P4310320990"
+              ],
+              "host_organization_lineage_names": [
+                "Elsevier BV"
+              ],
+              "type": "journal"
+            },
+            "license": null,
+            "license_id": null,
+            "version": "publishedVersion",
+            "is_accepted": true,
+            "is_published": true,
+            "raw_source_name": "Nuclear Physics A",
+            "raw_type": "journal-article"
+          },
+          "locations": [
+            {
+              "id": "doi:10.1016/j.nuclphysa.2010.03.003",
+              "doi": "https://doi.org/10.1016/j.nuclphysa.2010.03.003",
+              "is_oa": false,
+              "landing_page_url": "https://doi.org/10.1016/j.nuclphysa.2010.03.003",
+              "pdf_url": null,
+              "source": {
+                "id": "https://openalex.org/S62159105",
+                "display_name": "Nuclear Physics A",
+                "issn_l": "0375-9474",
+                "issn": [
+                  "0375-9474",
+                  "1873-1554"
+                ],
+                "is_oa": false,
+                "is_in_doaj": false,
+                "is_core": true,
+                "listed_in": [
+                  "anvur-scientific",
+                  "cwts-core",
+                  "dongbi-c",
+                  "jufo-1",
+                  "ki-jl-1",
+                  "norway-1",
+                  "poland-100",
+                  "russia-white-list-2"
+                ],
+                "host_organization": "https://openalex.org/P4310320990",
+                "host_organization_name": "Elsevier BV",
+                "host_organization_lineage": [
+                  "https://openalex.org/P4310320990"
+                ],
+                "host_organization_lineage_names": [
+                  "Elsevier BV"
+                ],
+                "type": "journal"
+              },
+              "license": null,
+              "license_id": null,
+              "version": "publishedVersion",
+              "is_accepted": true,
+              "is_published": true,
+              "raw_source_name": "Nuclear Physics A",
+              "raw_type": "journal-article"
+            }
+          ]
+        },
+        {
+          "id": "https://openalex.org/W1616723525",
+          "title": "Alpha decay of 112and 111Xe",
+          "doi": null,
+          "publication_year": 2010,
+          "type": "article",
+          "primary_location": {
+            "id": "mag:1616723525",
+            "doi": null,
+            "is_oa": false,
+            "landing_page_url": "http://absimage.aps.org/image/DNP10/MWS_DNP10-2010-020036.pdf",
+            "pdf_url": null,
+            "source": {
+              "id": "https://openalex.org/S2764664775",
+              "display_name": "Bulletin of the American Physical Society",
+              "issn_l": "0003-0503",
+              "issn": [
+                "0003-0503"
+              ],
+              "is_oa": false,
+              "is_in_doaj": false,
+              "is_core": true,
+              "listed_in": [
+                "cwts-core"
+              ],
+              "host_organization": "https://openalex.org/P4310311721",
+              "host_organization_name": "Cambridge University Press",
+              "host_organization_lineage": [
+                "https://openalex.org/P4310311721",
+                "https://openalex.org/P4310311702"
+              ],
+              "host_organization_lineage_names": [
+                "Cambridge University Press",
+                "University of Cambridge"
+              ],
+              "type": "journal"
+            },
+            "license": null,
+            "license_id": null,
+            "version": null,
+            "is_accepted": false,
+            "is_published": false,
+            "raw_source_name": "Bulletin of the American Physical Society",
+            "raw_type": null
+          },
+          "locations": [
+            {
+              "id": "mag:1616723525",
+              "doi": null,
+              "is_oa": false,
+              "landing_page_url": "http://absimage.aps.org/image/DNP10/MWS_DNP10-2010-020036.pdf",
+              "pdf_url": null,
+              "source": {
+                "id": "https://openalex.org/S2764664775",
+                "display_name": "Bulletin of the American Physical Society",
+                "issn_l": "0003-0503",
+                "issn": [
+                  "0003-0503"
+                ],
+                "is_oa": false,
+                "is_in_doaj": false,
+                "is_core": true,
+                "listed_in": [
+                  "cwts-core"
+                ],
+                "host_organization": "https://openalex.org/P4310311721",
+                "host_organization_name": "Cambridge University Press",
+                "host_organization_lineage": [
+                  "https://openalex.org/P4310311721",
+                  "https://openalex.org/P4310311702"
+                ],
+                "host_organization_lineage_names": [
+                  "Cambridge University Press",
+                  "University of Cambridge"
+                ],
+                "type": "journal"
+              },
+              "license": null,
+              "license_id": null,
+              "version": null,
+              "is_accepted": false,
+              "is_published": null,
+              "raw_source_name": "Bulletin of the American Physical Society",
+              "raw_type": null
+            }
+          ]
+        },
+        {
+          "id": "https://openalex.org/W1974885182",
+          "title": "Neutron-Rich Nuclei Beyond [sup 132]Sn: Spherical Shapes and Octupole Correlations",
+          "doi": "https://doi.org/10.1063/1.3431475",
+          "publication_year": 2010,
+          "type": "conference-paper",
+          "primary_location": {
+            "id": "doi:10.1063/1.3431475",
+            "doi": "https://doi.org/10.1063/1.3431475",
+            "is_oa": false,
+            "landing_page_url": "https://doi.org/10.1063/1.3431475",
+            "pdf_url": null,
+            "source": {
+              "id": "https://openalex.org/S2764696622",
+              "display_name": "AIP conference proceedings",
+              "issn_l": "0094-243X",
+              "issn": [
+                "0094-243X",
+                "1551-7616",
+                "1935-0465"
+              ],
+              "is_oa": false,
+              "is_in_doaj": false,
+              "is_core": true,
+              "listed_in": [
+                "cwts-core",
+                "jufo-1",
+                "norway-1"
+              ],
+              "host_organization": "https://openalex.org/P4310320257",
+              "host_organization_name": "American Institute of Physics",
+              "host_organization_lineage": [
+                "https://openalex.org/P4310320257"
+              ],
+              "host_organization_lineage_names": [
+                "American Institute of Physics"
+              ],
+              "type": "journal"
+            },
+            "license": null,
+            "license_id": null,
+            "version": "publishedVersion",
+            "is_accepted": true,
+            "is_published": true,
+            "raw_source_name": "AIP Conference Proceedings",
+            "raw_type": "proceedings-article"
+          },
+          "locations": [
+            {
+              "id": "doi:10.1063/1.3431475",
+              "doi": "https://doi.org/10.1063/1.3431475",
+              "is_oa": false,
+              "landing_page_url": "https://doi.org/10.1063/1.3431475",
+              "pdf_url": null,
+              "source": {
+                "id": "https://openalex.org/S2764696622",
+                "display_name": "AIP conference proceedings",
+                "issn_l": "0094-243X",
+                "issn": [
+                  "0094-243X",
+                  "1551-7616",
+                  "1935-0465"
+                ],
+                "is_oa": false,
+                "is_in_doaj": false,
+                "is_core": true,
+                "listed_in": [
+                  "cwts-core",
+                  "jufo-1",
+                  "norway-1"
+                ],
+                "host_organization": "https://openalex.org/P4310320257",
+                "host_organization_name": "American Institute of Physics",
+                "host_organization_lineage": [
+                  "https://openalex.org/P4310320257"
+                ],
+                "host_organization_lineage_names": [
+                  "American Institute of Physics"
+                ],
+                "type": "journal"
+              },
+              "license": null,
+              "license_id": null,
+              "version": "publishedVersion",
+              "is_accepted": true,
+              "is_published": true,
+              "raw_source_name": "AIP Conference Proceedings",
+              "raw_type": "proceedings-article"
+            }
+          ]
+        },
+        {
+          "id": "https://openalex.org/W2031588274",
+          "title": "Collective Motions in A = 100–112 Nuclei",
+          "doi": "https://doi.org/10.1063/1.3507206",
+          "publication_year": 2010,
+          "type": "conference-paper",
+          "primary_location": {
+            "id": "doi:10.1063/1.3507206",
+            "doi": "https://doi.org/10.1063/1.3507206",
+            "is_oa": false,
+            "landing_page_url": "https://doi.org/10.1063/1.3507206",
+            "pdf_url": null,
+            "source": {
+              "id": "https://openalex.org/S2764696622",
+              "display_name": "AIP conference proceedings",
+              "issn_l": "0094-243X",
+              "issn": [
+                "0094-243X",
+                "1551-7616",
+                "1935-0465"
+              ],
+              "is_oa": false,
+              "is_in_doaj": false,
+              "is_core": true,
+              "listed_in": [
+                "cwts-core",
+                "jufo-1",
+                "norway-1"
+              ],
+              "host_organization": "https://openalex.org/P4310320257",
+              "host_organization_name": "American Institute of Physics",
+              "host_organization_lineage": [
+                "https://openalex.org/P4310320257"
+              ],
+              "host_organization_lineage_names": [
+                "American Institute of Physics"
+              ],
+              "type": "journal"
+            },
+            "license": null,
+            "license_id": null,
+            "version": "publishedVersion",
+            "is_accepted": true,
+            "is_published": true,
+            "raw_source_name": "AIP Conference Proceedings",
+            "raw_type": "proceedings-article"
+          },
+          "locations": [
+            {
+              "id": "doi:10.1063/1.3507206",
+              "doi": "https://doi.org/10.1063/1.3507206",
+              "is_oa": false,
+              "landing_page_url": "https://doi.org/10.1063/1.3507206",
+              "pdf_url": null,
+              "source": {
+                "id": "https://openalex.org/S2764696622",
+                "display_name": "AIP conference proceedings",
+                "issn_l": "0094-243X",
+                "issn": [
+                  "0094-243X",
+                  "1551-7616",
+                  "1935-0465"
+                ],
+                "is_oa": false,
+                "is_in_doaj": false,
+                "is_core": true,
+                "listed_in": [
+                  "cwts-core",
+                  "jufo-1",
+                  "norway-1"
+                ],
+                "host_organization": "https://openalex.org/P4310320257",
+                "host_organization_name": "American Institute of Physics",
+                "host_organization_lineage": [
+                  "https://openalex.org/P4310320257"
+                ],
+                "host_organization_lineage_names": [
+                  "American Institute of Physics"
+                ],
+                "type": "journal"
+              },
+              "license": null,
+              "license_id": null,
+              "version": "publishedVersion",
+              "is_accepted": true,
+              "is_published": true,
+              "raw_source_name": "AIP Conference Proceedings",
+              "raw_type": "proceedings-article"
+            }
+          ]
+        },
+        {
+          "id": "https://openalex.org/W3025612420",
+          "title": "Octupole Deformation in 143-146 Barium",
+          "doi": null,
+          "publication_year": 2010,
+          "type": "article",
+          "primary_location": {
+            "id": "mag:3025612420",
+            "doi": null,
+            "is_oa": false,
+            "landing_page_url": "https://ui.adsabs.harvard.edu/abs/2010APS..DNP.DG008B/abstract",
+            "pdf_url": null,
+            "source": {
+              "id": "https://openalex.org/S4306502653",
+              "display_name": "APS",
+              "issn_l": null,
+              "issn": null,
+              "is_oa": false,
+              "is_in_doaj": false,
+              "is_core": false,
+              "listed_in": [],
+              "host_organization": null,
+              "host_organization_name": null,
+              "host_organization_lineage": [],
+              "host_organization_lineage_names": [],
+              "type": "journal"
+            },
+            "license": null,
+            "license_id": null,
+            "version": null,
+            "is_accepted": false,
+            "is_published": false,
+            "raw_source_name": "APS",
+            "raw_type": null
+          },
+          "locations": [
+            {
+              "id": "mag:3025612420",
+              "doi": null,
+              "is_oa": false,
+              "landing_page_url": "https://ui.adsabs.harvard.edu/abs/2010APS..DNP.DG008B/abstract",
+              "pdf_url": null,
+              "source": {
+                "id": "https://openalex.org/S4306502653",
+                "display_name": "APS",
+                "issn_l": null,
+                "issn": null,
+                "is_oa": false,
+                "is_in_doaj": false,
+                "is_core": false,
+                "listed_in": [],
+                "host_organization": null,
+                "host_organization_name": null,
+                "host_organization_lineage": [],
+                "host_organization_lineage_names": [],
+                "type": "journal"
+              },
+              "license": null,
+              "license_id": null,
+              "version": null,
+              "is_accepted": false,
+              "is_published": null,
+              "raw_source_name": "APS",
+              "raw_type": null
+            }
+          ]
+        },
+        {
+          "id": "https://openalex.org/W3197285351",
+          "title": "Multipole mixing ratios of γ-band to ground band transitions in neutron-rich Mo and Ru isotopes",
+          "doi": null,
+          "publication_year": 2010,
+          "type": "conference-abstract",
+          "primary_location": {
+            "id": "mag:3197285351",
+            "doi": null,
+            "is_oa": false,
+            "landing_page_url": "http://ui.adsabs.harvard.edu/abs/2010APS..DNP.CH005F/abstract",
+            "pdf_url": null,
+            "source": {
+              "id": "https://openalex.org/S4306502658",
+              "display_name": "APS Division of Nuclear Physics Meeting Abstracts",
+              "issn_l": null,
+              "issn": null,
+              "is_oa": false,
+              "is_in_doaj": false,
+              "is_core": false,
+              "listed_in": [],
+              "host_organization": null,
+              "host_organization_name": null,
+              "host_organization_lineage": [],
+              "host_organization_lineage_names": [],
+              "type": "journal"
+            },
+            "license": null,
+            "license_id": null,
+            "version": null,
+            "is_accepted": false,
+            "is_published": false,
+            "raw_source_name": "APS Division of Nuclear Physics Meeting Abstracts",
+            "raw_type": null
+          },
+          "locations": [
+            {
+              "id": "mag:3197285351",
+              "doi": null,
+              "is_oa": false,
+              "landing_page_url": "http://ui.adsabs.harvard.edu/abs/2010APS..DNP.CH005F/abstract",
+              "pdf_url": null,
+              "source": {
+                "id": "https://openalex.org/S4306502658",
+                "display_name": "APS Division of Nuclear Physics Meeting Abstracts",
+                "issn_l": null,
+                "issn": null,
+                "is_oa": false,
+                "is_in_doaj": false,
+                "is_core": false,
+                "listed_in": [],
+                "host_organization": null,
+                "host_organization_name": null,
+                "host_organization_lineage": [],
+                "host_organization_lineage_names": [],
+                "type": "journal"
+              },
+              "license": null,
+              "license_id": null,
+              "version": null,
+              "is_accepted": false,
+              "is_published": null,
+              "raw_source_name": "APS Division of Nuclear Physics Meeting Abstracts",
+              "raw_type": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "datacite",
+      "url": "https://api.datacite.org/dois?query=creators.name%3AGoodin%20AND%20publicationYear%3A2010&page%5Bsize%5D=10",
+      "status": 200,
+      "bytes": 4976,
+      "sha256": "543e0028c7665661fda93498b0e266eb0c8fcfce7610a04819a7460f07ac1c41",
+      "meta": {
+        "total": 1,
+        "totalPages": 1,
+        "page": 1
+      },
+      "results": [
+        {
+          "doi": "10.13016/m2dssh-yhy3",
+          "titles": [
+            {
+              "title": "Anger Suppression Predicts Pain, Emotional, and Cardiovascular Responses to the Cold Pressor"
+            }
+          ],
+          "creators": [
+            {
+              "nameType": "Personal",
+              "affiliation": [],
+              "givenName": "Phillip J.",
+              "familyName": "Quartana",
+              "name": "Quartana, Phillip J.",
+              "nameIdentifiers": []
+            },
+            {
+              "nameType": "Personal",
+              "affiliation": [],
+              "givenName": "Sara",
+              "familyName": "Bounds",
+              "name": "Bounds, Sara",
+              "nameIdentifiers": []
+            },
+            {
+              "nameType": "Personal",
+              "affiliation": [],
+              "givenName": "K. Lira",
+              "familyName": "Yoon",
+              "name": "Yoon, K. Lira",
+              "nameIdentifiers": []
+            },
+            {
+              "nameType": "Personal",
+              "affiliation": [],
+              "givenName": "Burel R.",
+              "familyName": "Goodin",
+              "name": "Goodin, Burel R.",
+              "nameIdentifiers": []
+            },
+            {
+              "nameType": "Personal",
+              "affiliation": [],
+              "givenName": "John W.",
+              "familyName": "Burns",
+              "name": "Burns, John W.",
+              "nameIdentifiers": []
+            }
+          ],
+          "publisher": "Oxford University Press",
+          "publicationYear": 2010,
+          "url": "https://mdsoar.org/handle/11603/29357",
+          "relatedIdentifiers": []
+        }
+      ]
+    },
+    {
+      "name": "orcidworks",
+      "url": "https://pub.orcid.org/v3.0/0000-0001-7763-4464/works",
+      "status": 200,
+      "bytes": 8026,
+      "sha256": "81906ac0d086596b387a97df27c8ed627c3e39097b1b70c52fe9bf96212076b0",
+      "titles_identifiers": []
+    }
+  ]
+}

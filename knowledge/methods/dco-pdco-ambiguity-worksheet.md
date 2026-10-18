@@ -275,3 +275,9 @@ EL18-6的G2来自参考A2、G4由samephi模型推得并组平均，不能把二�
 [[ekstrom-1993-delta101-angular-correlation-code]] D101-5/6/7实际执行的是内容hash固定的公开1993副本，不自动等于EL18 2018producer。它的SIGMA是absoluteχ²threshold，poorfit时还采用F表放宽；1000是未找到scan边界的初值，不应以parser变成有限±1000实验误差，亦不自动给完整wrappedCI。
 
 knownpure4→2→0的exactgridχ²0，默认2度局部抛物线却报告.199，改1度为.012、已知pure点local.1度后printed0。无需改source便可检数值近似，首failure要保留；数据若近pure点或给很小error，须核grid/插值，不能仅看退出码0或曲线漂亮。D101-8的内部PURE标记可表示fixednonzeroδ，更不能当作physicalpure reference的证据。
+
+## 已采用多极标签不替空MR或新分支作裁决
+
+[[nndc-2007-mo104-selected-gamma-reference-records]] N104-2/3的新104Mo对照保留旧adoptedM1与EL18大E2支的冲突信号。adopted本行MR空、globalM来源只指CmDCO；实际选定Cm对象并无该target的R/gate/角度或MR。不能以M1标签自动填δ0，再用它“证实”smallbranch；也不能只因EL18年份较新便抹旧记录。应回原primary/具体conditionalresponse与全部可接受分支。
+
+跨对象的836.3/835.5/835.8与1028.35/1027.9/1028.0保留LS/实验层，结构相配不等于已恢复2018peakledger。time/companion、不同sourcearray与旧评价cutoff分别核，不能把online检索日期或标题当实验年份/独立性。

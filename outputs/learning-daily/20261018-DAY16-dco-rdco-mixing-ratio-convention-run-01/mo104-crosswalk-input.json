@@ -1,0 +1,62 @@
+{
+  "identity": "DAY16-N104-EL18-REFERENCE-CROSSWALK-01",
+  "frozen_at": "2026-10-18T18:47:57.045982+08:00",
+  "read_after_sourcebefore_freeze": "mo104-evaluation-before-freeze.json",
+  "objects": [
+    {
+      "record": "104042001",
+      "sha256": "303ccb20a7798348aed1ab93467d7fb73357dd4ac39ce0b2ed6d84309475022e",
+      "scope": "selected global/target/ref/feeders; not325lineall deepread"
+    },
+    {
+      "record": "104042005",
+      "sha256": "563aa499c2a6d802790a8c217264cc3bba7c307513f402c4c1914058c3038245",
+      "scope": "full201lines mainline"
+    }
+  ],
+  "adopted_target": {
+    "parent_energy_keV": 1028.35,
+    "parent_spin": "3+",
+    "band_flag": "B",
+    "band_meaning": "GAMMA BAND",
+    "target_energy_keV": 836.3,
+    "daughter_energy_keV_candidate": 192.19,
+    "M_literal": "M1",
+    "MR_literal": ""
+  },
+  "fission_target": {
+    "parent_energy_keV": 1027.9,
+    "target_energy_keV": 835.5,
+    "reference_energy_keV": 192.4,
+    "M_literal": "",
+    "MR_literal": ""
+  },
+  "candidate_feeders": {
+    "adopted_or_Cf_parent": 1583.5,
+    "gamma555p5": "to gamma-band3+1028 candidate",
+    "parent2060p8": "4- candidate -> 1583p4 via477p4",
+    "EL18_extra_gates_integer": [
+      556,
+      478
+    ],
+    "EL18_fission_partner_gates": [
+      200,
+      331
+    ]
+  },
+  "compatibility_boundary": "Candidate band/spin/feeding crosswalk only. EL18targetenergy/actualpeakcalibration notprinted, different evaluation objects LSenergies not averaged or silently substituted.",
+  "calibration_time_conversion_only": {
+    "source_half_life_ns": [
+      0.97,
+      0.08
+    ],
+    "EL18_mean_lifetime_ns": [
+      1.4,
+      0.12
+    ],
+    "compute": "divide ln2 as calibration input identity, not new lifetime study/Day18card"
+  },
+  "required_companion": "104042004 source of adoptedM viaDCO; not yet used as matched独立δ",
+  "no_new_measured_delta": true,
+  "no_original_EL18_recipe_recovered": true
+}

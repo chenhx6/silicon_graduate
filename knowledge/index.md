@@ -9,6 +9,8 @@ updated: 2026-10-18
 
 ## Sources
 
+- [[nndc-2007-mo104-selected-gamma-reference-records]] - 104Mo三旧ENSDF对象：gamma-bandidentity/空MR/旧M1标签、reference与2007cutoff；不替2018mixedbranch裁决。
+
 - [[ekstrom-1993-delta101-angular-correlation-code]] - PyNE公开DELTA1.01内容对象实际Fortran执行；KS/RB、独立误差、SIGMA/1000和pure插值边界，不等于2018exactproducer。
 
 - [[martin-1987-ensdf-mixing-ratio-phase-conventions]] - 原ENSDF相位九页章：first/last、NRF、总衰变与光子U权重分开。

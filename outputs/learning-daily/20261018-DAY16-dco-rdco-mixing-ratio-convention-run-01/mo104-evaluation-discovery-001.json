@@ -1,0 +1,40 @@
+{
+  "at": "2026-10-18T18:43:33.733372+08:00",
+  "url": "https://www.nndc.bnl.gov/ensdf/DatasetFetchServlet",
+  "request": {
+    "nuc": "104MO",
+    "nsrch": "Search",
+    "searchType": "quick",
+    "datasource": "ensdf"
+  },
+  "status": 200,
+  "sha256": "c2e29cd2bfc1d90d566007c378f7e2ae0e90ad36088a2c3b653bea0bf4498d23",
+  "bytes": 9912,
+  "rows": [
+    {
+      "value": "104042001,104MO",
+      "text": "ADOPTED LEVELS, GAMMAS 2007-09 All references"
+    },
+    {
+      "value": "104042002,104MO",
+      "text": "104NB B- DECAY (4.8 S) 2007-09 All references"
+    },
+    {
+      "value": "104042003,104MO",
+      "text": "104NB B- DECAY (0.94 S) 2007-09 All references"
+    },
+    {
+      "value": "104042004,104MO",
+      "text": "248CM SF DECAY 2007-09 All references"
+    },
+    {
+      "value": "104042005,104MO",
+      "text": "252CF SF DECAY 2007-09 All references"
+    },
+    {
+      "value": "104042006,104MO",
+      "text": "238U(A,FG) 2007-09 All references"
+    }
+  ],
+  "text_prefix_if_no_rows": null
+}

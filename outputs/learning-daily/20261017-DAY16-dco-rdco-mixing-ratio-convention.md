@@ -207,6 +207,14 @@ Literal普通positivePi卷积mean2.55349，在theoryerror→0时也会多平移2
 
 knownpurecontrol的exactgridχ²0，但三点插值报告.199；[预冻结数值followup](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/delta-pure-followup-input.json)只改step/range，1度报告.012、已知pure点local.1度printed0，未改源码。两followupexit0。[完整offline审计](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/delta101-output-audit.json)核printedgridcoefficients到F9.3精度，明确firstpureminimumtest失败、processexit不代科学通过；actualEL18response/Σ/2018binary仍缺。source还直接注明忽略Anicin混合conversion退取向，印证前面的sample合同。[双解单](../../knowledge/methods/dco-pdco-ambiguity-worksheet.md)/[角关联](../../knowledge/methods/angular-correlation.md)已固化。
 
+### 104Mo官方旧对象：targetidentity与标签不能替分支选根
+
+Goodin2010指定机构403/目录未得准确thesis题名，OpenAlex的fullname/ORCIDlink也只发现用途，未写进primary身份。Krane1973已核DOI/卷页但APS/OSU/ADS无body；OpenAIRE把1973deformed与1974spherical两个DOI合一，已拆为metadata边界不作同一文/erratum。上述访问不添加新科学模型。
+
+[三个104Mo官方对象](../../knowledge/sources/nndc-2007-mo104-selected-gamma-reference-records.md) N104-1至7实际取得：Cf201行/Cm96行全部主线，adopted325行定向所选parent/gamma/global。base200709/cutMar2007、ERR2007与Q2012分层，未含2018EL18。adopted1028.35/3+/B给836.3/M1/MR空；Cf1027.9/835.5和Cm1028.0/835.8是不同energy层，结构候选不等于已复原EL18未列energy的actualgate。
+
+[冻结输入](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/mo104-crosswalk-input.json)/[crosswalk结果](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/mo104-crosswalk-audit.json)核MR空、旧globalM来自CmDCO但该对象无targetR/gate/angles；旧M1标签不填δ0，也不单靠版本裁决EL18大E2支。reference192层/T1/2 .97(.08)→mean1.3994(.1154)只核EL18calibrationinput，不开Day18。Cm对象T还引自Cfplungerprimary，数据集标题不当独立采集。知识已同步EL18/双解单和source，不新测δ/τ或补旧DCO。
+
 ## Counter-evidence and missing companion observables
 
 最直接反例是一个已知pure参考也无法验证混合项相位：两纯端点通过，错误换号仍改R。另一个反例是本点模型部分Table1不吻合（例如.637341对印值.66；1.188657对1.12），且两比值rectangle没有复现作者>85支；原因未裁决，不能报告原文错误或实验新δ。
@@ -364,7 +372,7 @@ canonical [178W知识单](../../knowledge/research-notes/w178-921-dco-gate-doubl
     },
     {
       "knowledge": "knowledge/methods/dco-pdco-ambiguity-worksheet.md",
-      "summary": "将本session178W新交付与Day15预习分开，增加canonical反链。 恢复批次新增：同一mixed跃迁的上游与下游参考：1505-keV真实表值。 新增固定ALPACA独立实现/观测对象边界。 新增原ENSDF章/total-decay和MR字段边界。 新增EL18独立裂变样本projectivebranch/校准边界。 新增公开DELTAactualrun/误差与数值failure边界。",
+      "summary": "将本session178W新交付与Day15预习分开，增加canonical反链。 恢复批次新增：同一mixed跃迁的上游与下游参考：1505-keV真实表值。 新增固定ALPACA独立实现/观测对象边界。 新增原ENSDF章/total-decay和MR字段边界。 新增EL18独立裂变样本projectivebranch/校准边界。 新增公开DELTAactualrun/误差与数值failure边界。 新增104Mo评价时层/target身份及标签使用边界。",
       "anchor": "独立正式Day16的新实测对象",
       "sources": [
         {
@@ -438,12 +446,20 @@ canonical [178W知识单](../../knowledge/research-notes/w178-921-dco-gate-doubl
         {
           "path": "knowledge/sources/ekstrom-1993-delta101-angular-correlation-code.md",
           "locator": "D101-8"
+        },
+        {
+          "path": "knowledge/sources/nndc-2007-mo104-selected-gamma-reference-records.md",
+          "locator": "N104-2"
+        },
+        {
+          "path": "knowledge/sources/nndc-2007-mo104-selected-gamma-reference-records.md",
+          "locator": "N104-3"
         }
       ]
     },
     {
       "knowledge": "knowledge/index.md",
-      "summary": "最小索引新增178W921计算单导航，不添加独立科学结论。 新增固定ALPACA独立实现/观测对象边界。 新增原ENSDF章/total-decay和MR字段边界。 加入ICC概率物理域方法入口。 新增公开DELTAactualrun/误差与数值failure边界。",
+      "summary": "最小索引新增178W921计算单导航，不添加独立科学结论。 新增固定ALPACA独立实现/观测对象边界。 新增原ENSDF章/total-decay和MR字段边界。 加入ICC概率物理域方法入口。 新增公开DELTAactualrun/误差与数值failure边界。 新增104Mo评价时层/target身份及标签使用边界。",
       "anchor": "w178-921-dco-gate-double-solutions",
       "sources": [
         {
@@ -465,6 +481,10 @@ canonical [178W知识单](../../knowledge/research-notes/w178-921-dco-gate-doubl
         {
           "path": "knowledge/sources/ekstrom-1993-delta101-angular-correlation-code.md",
           "locator": "D101-1"
+        },
+        {
+          "path": "knowledge/sources/nndc-2007-mo104-selected-gamma-reference-records.md",
+          "locator": "N104-1"
         }
       ]
     },
@@ -1125,7 +1145,7 @@ canonical [178W知识单](../../knowledge/research-notes/w178-921-dco-gate-doubl
     },
     {
       "knowledge": "knowledge/sources/eldridge-2018-gamma-band-mixing-ratios.md",
-      "summary": "EL18实际104Mo分支/共享G校准/打印重放边界，原δ/review保持。 新增公开DELTAactualrun/误差与数值failure边界。",
+      "summary": "EL18实际104Mo分支/共享G校准/打印重放边界，原δ/review保持。 新增公开DELTAactualrun/误差与数值failure边界。 新增104Mo评价时层/target身份及标签使用边界。",
       "anchor": "2026-10-18 Day16独立复读：projective分支与共享衰减",
       "sources": [
         {
@@ -1167,6 +1187,26 @@ canonical [178W知识单](../../knowledge/research-notes/w178-921-dco-gate-doubl
         {
           "path": "knowledge/sources/ekstrom-1993-delta101-angular-correlation-code.md",
           "locator": "D101-7"
+        },
+        {
+          "path": "knowledge/sources/nndc-2007-mo104-selected-gamma-reference-records.md",
+          "locator": "N104-1"
+        },
+        {
+          "path": "knowledge/sources/nndc-2007-mo104-selected-gamma-reference-records.md",
+          "locator": "N104-2"
+        },
+        {
+          "path": "knowledge/sources/nndc-2007-mo104-selected-gamma-reference-records.md",
+          "locator": "N104-3"
+        },
+        {
+          "path": "knowledge/sources/nndc-2007-mo104-selected-gamma-reference-records.md",
+          "locator": "N104-4"
+        },
+        {
+          "path": "knowledge/sources/nndc-2007-mo104-selected-gamma-reference-records.md",
+          "locator": "N104-7"
         }
       ]
     },
@@ -1206,6 +1246,41 @@ canonical [178W知识单](../../knowledge/research-notes/w178-921-dco-gate-doubl
         {
           "path": "knowledge/sources/ekstrom-1993-delta101-angular-correlation-code.md",
           "locator": "D101-8"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/sources/nndc-2007-mo104-selected-gamma-reference-records.md",
+      "summary": "实际104Mo对象target/ref/空MR/旧标签与评价时层、companion谱系核验。",
+      "anchor": "104Mo：旧评价标签不替后来混合比分支选根",
+      "sources": [
+        {
+          "path": "knowledge/sources/nndc-2007-mo104-selected-gamma-reference-records.md",
+          "locator": "N104-1"
+        },
+        {
+          "path": "knowledge/sources/nndc-2007-mo104-selected-gamma-reference-records.md",
+          "locator": "N104-2"
+        },
+        {
+          "path": "knowledge/sources/nndc-2007-mo104-selected-gamma-reference-records.md",
+          "locator": "N104-3"
+        },
+        {
+          "path": "knowledge/sources/nndc-2007-mo104-selected-gamma-reference-records.md",
+          "locator": "N104-4"
+        },
+        {
+          "path": "knowledge/sources/nndc-2007-mo104-selected-gamma-reference-records.md",
+          "locator": "N104-5"
+        },
+        {
+          "path": "knowledge/sources/nndc-2007-mo104-selected-gamma-reference-records.md",
+          "locator": "N104-6"
+        },
+        {
+          "path": "knowledge/sources/nndc-2007-mo104-selected-gamma-reference-records.md",
+          "locator": "N104-7"
         }
       ]
     }
@@ -1274,3 +1349,8 @@ KS70追加twoangle问题因旧KS70-12已经覆盖而verified-no-op；NRF追加�
 ### 恢复checkpoint012（研究继续）
 
 2026-10-18T18:30:38.431770+08:00：DELTAactualpubliccode/execution/数值failure已canonical，[verification006](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/verification-reopened-006.json)通过28changed/28items、singlecard、actualboundary/lint/diff0，0errors158warnings、继承dirty保护。稳定指针main / `Validate DAY16 DELTA source contracts and interpolation controls`，actualhash/H3/push只回执。下一Goodin机构primary路线继续，原deadline/goalactive不变，无重复学分。
+
+
+### 恢复checkpoint013（研究继续）
+
+2026-10-18T19:02:26.083951+08:00：N104实际reference/object时层已canonical，验收007通过29changed/29items与singlecreditcoverage；actualboundary/diff0、lint-first缺Scope已修后0/0errors160warnings。稳定指针main / `Trace DAY16 Mo104 reference identities across evaluated data`，exacthash/actualH3/push只receipt。继续EL18引Daniel2007原方法/ORA可访问原件路线，不以metadata补原文，goal/window保持active至原15:00。

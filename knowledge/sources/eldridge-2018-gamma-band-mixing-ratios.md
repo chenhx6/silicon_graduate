@@ -126,3 +126,9 @@ Eq9的G2/G4范围分别[1/5,1]、[1/9,1]，偶函数只给|phi|。Table1 102MoG2
 [[ekstrom-1993-delta101-angular-correlation-code]] D101-1至8给一个PyNE namedtag0.7.8保存的1993v1.01源码内容对象，已未改编译/执行。它按所声明printed104Moinput给两根，且揭示独立data/有限grid/抛物线/poorfit阈值与1000sentinel；这些事实不认证本篇实际用同hash或同unroundedinput。原2度purecontrol的插值失败/细步长恢复也保留，不把processexit0当实验分析正确性。
 
 此新层使“generic DELTA源码不可得”的边界得到限定推进，而actualEL18paircounts/9binresponse/groupG与Σ/inputrecipe继续开放；未改原50/negativebound或source人审/flags。
+
+## 104Mo的旧评价identity与反证层
+
+[[nndc-2007-mo104-selected-gamma-reference-records]] N104-1至7实际取三个官方对象。2007base的adopted3+/gamma-bandparent1028.35给836.3/M1/MR空，Cf1027.9给835.5、Cm1028.0给835.8且M/MR空；可为本篇104Mo3gamma→2+表行提供结构候选，但本篇未给targetenergy/原peakledger，不把这些数无记录代入其actualgate。旧adoptedM1与本篇大E2支是需追来源的冲突信号，不由版本先后或空MR擅裁决。
+
+adoptedglobalM说来自CmDCO，但96行Cm对象无actualtargetR/gate/angles，不能当独立δ0；相同.97ns half-life换成1.40ns mean与本篇calibration相容，却不是另一份新测量。N104-6/7保留不同array配置/同组paper、Cm标题下引Cfplungertime的谱系。currentonline仍2007base，不宣称已采用本篇2018结果。

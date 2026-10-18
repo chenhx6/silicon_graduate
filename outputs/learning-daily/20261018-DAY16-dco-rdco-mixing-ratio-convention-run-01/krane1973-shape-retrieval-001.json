@@ -1,0 +1,97 @@
+{
+  "at": "2026-10-18T18:38:57.859443+08:00",
+  "results": [
+    {
+      "name": "openalex",
+      "url": "https://api.openalex.org/works/https://doi.org/10.1103/PhysRevC.8.1494",
+      "final_url": "https://api.openalex.org/works/https://doi.org/10.1103/PhysRevC.8.1494",
+      "status": 200,
+      "bytes": 10441,
+      "sha256": "b9a9d7322f43ce82b5ee8033ad0a1ec7bdd8b4878e8fcacd8404cdab69205539",
+      "pdf_header": false,
+      "path": "tmp/day16-krane1973-shape/openalex.data",
+      "selected": {
+        "id": "https://openalex.org/W2317685085",
+        "title": "E2M1 Multipole Mixing Ratios of γ Transitions in Even-Even Deformed Nuclei",
+        "doi": "https://doi.org/10.1103/physrevc.8.1494",
+        "publication_year": 1973,
+        "open_access": {
+          "is_oa": false,
+          "oa_status": "closed",
+          "oa_url": null,
+          "any_repository_has_fulltext": false
+        },
+        "best_oa_location": null,
+        "locations": [
+          {
+            "id": "doi:10.1103/physrevc.8.1494",
+            "doi": "https://doi.org/10.1103/physrevc.8.1494",
+            "is_oa": false,
+            "landing_page_url": "https://doi.org/10.1103/physrevc.8.1494",
+            "pdf_url": null,
+            "source": {
+              "id": "https://openalex.org/S4210168441",
+              "display_name": "Physical Review C",
+              "issn_l": "0556-2813",
+              "issn": [
+                "0556-2813",
+                "1089-490X",
+                "1538-4497",
+                "2469-9985",
+                "2469-9993",
+                "2470-0002"
+              ],
+              "is_oa": false,
+              "is_in_doaj": false,
+              "is_core": true,
+              "listed_in": [
+                "cwts-core",
+                "jufo-2",
+                "ki-jl-1",
+                "norway-1"
+              ],
+              "host_organization": "https://openalex.org/P4310320261",
+              "host_organization_name": "American Physical Society",
+              "host_organization_lineage": [
+                "https://openalex.org/P4310320261"
+              ],
+              "host_organization_lineage_names": [
+                "American Physical Society"
+              ],
+              "type": "journal"
+            },
+            "license": null,
+            "license_id": null,
+            "version": "publishedVersion",
+            "is_accepted": true,
+            "is_published": true,
+            "raw_source_name": "Physical Review C",
+            "raw_type": "journal-article"
+          }
+        ]
+      }
+    },
+    {
+      "name": "aps-pdf",
+      "url": "https://journals.aps.org/prc/pdf/10.1103/PhysRevC.8.1494",
+      "final_url": "https://journals.aps.org/prc/pdf/10.1103/PhysRevC.8.1494",
+      "status": 403,
+      "bytes": 5553,
+      "sha256": "c51cb4763fb44fe88749fddc135ad80fb8622bf126c4e3fdbb5339ee5e7c30aa",
+      "pdf_header": false,
+      "path": "tmp/day16-krane1973-shape/aps-pdf.data",
+      "text_prefix": "<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\"><meta name=\"robots\" content=\"noindex,nofollow\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><meta http-equiv=\"content-security-policy\" content=\"default-src &#39;none&#39;; script-src &#39;nonce-gxDe6seECeahXXSFeFGLx1&#39; &#39;unsafe-eval&#39; https://challenges.cloudflare.com; script-s"
+    },
+    {
+      "name": "aps-harvest",
+      "url": "https://harvest.aps.org/v2/journals/articles/10.1103/PhysRevC.8.1494/fulltext",
+      "final_url": "https://harvest.aps.org/v2/journals/articles/10.1103/PhysRevC.8.1494/fulltext",
+      "status": 401,
+      "bytes": 63,
+      "sha256": "3ca545a4063ac069797cc9a996a73496f8b673de2a92e262617f7b8aec50bf7f",
+      "pdf_header": false,
+      "path": "tmp/day16-krane1973-shape/aps-harvest.data",
+      "text_prefix": "{\"errors\":[{\"title\":\"10.1103/PhysRevC.8.1494 not authorized\"}]}"
+    }
+  ]
+}

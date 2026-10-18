@@ -1,0 +1,171 @@
+{
+  "at": "2026-10-18T18:36:35.738219+08:00",
+  "discarded_identity_leads": [
+    "DataCite2010 unrelated Goodin psychology",
+    "OpenAlex ORCID/fullname link not thesis certificate; public ORCIDworks no nuclear titles matched"
+  ],
+  "results": [
+    {
+      "name": "openairethesis",
+      "url": "https://api.openaire.eu/search/publications?author=Goodin&keywords=Vanderbilt&size=20&format=json",
+      "status": 200,
+      "bytes": 330,
+      "sha256": "e83bda13cdb44fcb636fbc61afa964c7102f8ef7ca3e53729f63688cd862d049",
+      "total": {
+        "$": "0"
+      },
+      "titles_urls": []
+    },
+    {
+      "name": "ndltd",
+      "url": "http://search.ndltd.org/search.php?q=Goodin+Vanderbilt",
+      "status": 503,
+      "bytes": 505,
+      "sha256": "9505a2792b7db7cd85bac61161ec91e0515cf25d886c9afdbec9eb4d5a34a3d4",
+      "text_excerpt": "503 Service Unavailable 503 Service Unavailable NDLTD services are currently under redevelopment. Please check back later. Visit the main NDLTD page at NDLTD.org Document Archive at NDLTD Docs",
+      "links": []
+    },
+    {
+      "name": "crossref",
+      "url": "https://api.crossref.org/works?filter=type%3Adissertation&query.author=Goodin&rows=10",
+      "status": 200,
+      "bytes": 7677,
+      "sha256": "3f3dce414def401afc0d5c45cdf948563e3337cb1c5fffc08b8c4628296212fe",
+      "results": [
+        {
+          "title": [
+            "Development and evaluation of a modeling platform for evaluating immunotherapeutic efficacy in the tumor microenvironment."
+          ],
+          "author": [
+            {
+              "given": "Dylan",
+              "family": "Goodin",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            }
+          ],
+          "DOI": "10.18297/etd/4280",
+          "published": null,
+          "publisher": "University of Louisville",
+          "link": null
+        },
+        {
+          "title": [
+            "Remediation of an Oil Contaminated Wetland and the Effects of Crude Oil and Brine on Two-Year Old Loblolly Pine (Pinus Taeda) Seedlings."
+          ],
+          "author": [
+            {
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Dean",
+              "family": "Goodin",
+              "sequence": "first",
+              "affiliation": [
+                {
+                  "name": "Louisiana State University and Agricultural & Mechanical College"
+                }
+              ],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            }
+          ],
+          "DOI": "10.31390/gradschool_disstheses.340",
+          "published": null,
+          "publisher": "Louisiana State University Libraries",
+          "link": null
+        },
+        {
+          "title": [
+            "Simulation of a continuum tumor model using distributed computing."
+          ],
+          "author": [
+            {
+              "given": "Dylan A",
+              "family": "Goodin",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            }
+          ],
+          "DOI": "10.18297/etd/3250",
+          "published": null,
+          "publisher": "University of Louisville",
+          "link": null
+        },
+        {
+          "title": [
+            "On the cryoaggregation of bovine serum albumin"
+          ],
+          "author": [
+            {
+              "given": "Richard Allen",
+              "family": "Goodin",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            }
+          ],
+          "DOI": "10.32469/10355/102721",
+          "published": null,
+          "publisher": "University of Missouri Libraries",
+          "link": null
+        },
+        {
+          "title": [
+            "Visions of violet: Hollywood images of lesbians in The Color Purple and Boys on the Side"
+          ],
+          "author": [
+            {
+              "given": "Sharon V.",
+              "family": "Goodin",
+              "sequence": "first",
+              "affiliation": [
+                {
+                  "name": "Iowa State University"
+                }
+              ],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            }
+          ],
+          "DOI": "10.31274/rtd-180813-6343",
+          "published": null,
+          "publisher": "Iowa State University",
+          "link": null
+        }
+      ]
+    }
+  ]
+}
