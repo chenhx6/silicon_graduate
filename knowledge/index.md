@@ -475,6 +475,8 @@ updated: 2026-10-18
 
 ## Methods
 
+- [[icc-mixing-probability-domain]] - ICC实际参数的物理域/Jacobian、sharedCov、convolutionrecipe与pure端点尾部；mean相合不认证interval。
+
 - [[configuration-occupation-audit]] - 组态valence/unpaired列的Z/N和条件number-parity审计；完整输入与active标签/旁观者分开。
 
 - [[recoil-distance-doppler-shift]] - RDDS/coincidence-plunger 的 DDCM `τ(x)`、feeding/deorientation control 与 finite-stopping boundary。

@@ -10,11 +10,11 @@ updated: 2026-10-18
 
 2026-10-18T16:31:18.642920+08:00：用户明确恢复持续学习，同run2026-10-18-day-16-01/session01a14ce6-425e-77c1-a127-2ac980bd76b5，原2026-10-19 15:00上海研究截止不变，15–16点收束。此前completed/closeout-only已被本次用户指令覆盖；前次成果/发布历史保留，next17/count16、completed16/partial17不重复计卡，不开Day18。Farmer PID42019 running保留，无新session/daemon/nativegoal；用户/goal resume已恢复原生goal为active，保留原objective并持续pursuing。
 
-恢复checkpoint009：NNDC官方Martin1987phase9页已完整读、Tuli2001format定向原图，原NRFδ1=−δ2和unsignedMRsignunknown；未观测U的totaldecay权重与168.71W74FO新两POST条件设计canonical。固定ALPACA执行/旧sourceprior边界保持。KB08全部旧字节prefix保护，累计24changed/24writeback，fresh boundary/lint-fixed/diff0、0errors/156warnings(120key/33raw/3parser)。新Anicin机构route无body，验证不绕过；不能将title/abstract当原式。
+恢复checkpoint010：RZ17原三页/Table1真参数下physicalpushforward mean.92439、图解界复现；literalpositivePi卷积/原区间RooFitrecipe尚未闭合，非新δ或宣布sourcecode错。独立bivariate ratio共享Cov/GHGL/800kMC/尾部证明canonical，旧RZ17整prefix/flags保护。累计26changed/26items；fresh boundary/diff0，lint first1缺method两标准栏目、修后actual0/0errors156warnings；verification最初误记lint0已history纠正。
 
-稳定指针main / `Separate DAY16 phase conventions and unobserved decay channels`；exacthash/actualH3/push仅publication009/runreceipt。下一RZ17原3页ICC概率传播/Jacobian/物理域/卷积含义/大δ尾部；primedfreeze已保存，原rawhash动态核相符（第一次guard手抄多c失败留证）、全3页主线和原图已加载但numeric待冻。原RZ17人审prefix/flags完整保留；新判断须独立selfaudit，不先宣称原文错。
+稳定指针main / `Audit DAY16 ICC probability measures and pure-limit tails`；actualhash/H3/push仅publication010/runreceipt。最新clock17:47距原15:00约1272min，candidate刷新保留continuityRZ概率边界，将已饱和130Ba novelty换为独立252Cf EL18 Mo/Ru/Pd的实际branch/±infinity/Gk/sharedcalibration与signtrend。已el18-before-source-freeze，原hash相符/11页PDF与layout在tmp/day16-el18-reading，读title/intro与refs，下一继续方法至结果/完整图表主线再挑明确数据identity，不先造Cov或新spin。
 
-Goal/window持续active至原2026-10-19 15:00上海后收束，checkpoint不得结束run。Day16credit一次next17/count16、partial17，无formal17/Day18；保护raw/PLAN/Bib/继承dirty/reviews、log只ownentry，精确manifest/H3/Gitee非force。原17日文件名日报/18日run-dir/continuation沿用。
+Goal/window持续active/pursuing至原2026-10-19 15:00上海后closeout；Day16credit一次next17/count16、partial17，无formal17/Day18。raw/PLAN/Bib/credentials/继承dirty/review保护，显式manifest、log仅HEAD+ownentry、H3/Gitee非force。原17日文件名report/18日run-dir/continuation沿用。
 
 ## Previous active handoff — DAY16 completed; Day17 is next
 

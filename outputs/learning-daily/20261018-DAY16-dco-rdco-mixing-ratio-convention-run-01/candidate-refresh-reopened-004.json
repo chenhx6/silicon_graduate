@@ -1,0 +1,35 @@
+{
+  "at": "2026-10-18T17:47:37.252453+08:00",
+  "original_deadline": "2026-10-19T15:00:00+08:00",
+  "minutes_to_deadline": 1272.3791257833334,
+  "decision": "continue-high-information-route",
+  "active_goal": true,
+  "completed_day_indices": [
+    16
+  ],
+  "partial_day_indices": [
+    17
+  ],
+  "next_card_formal_credit": false,
+  "pool": [
+    {
+      "slot": "continuity",
+      "candidate": "RZ17actualprobabilitymeasure",
+      "status": "boundedmathclosed; producerrecipe/actualCIremaining; checkpointnotend"
+    },
+    {
+      "slot": "novelty",
+      "candidate": "EL18independent252CfIPAC/Mo-Ru-Pd",
+      "status": "selected new route after130Ba noveltymainline saturated",
+      "gain": "realcoeffbranch/infinity/Gk/sharedcalibration and signtrend boundary"
+    },
+    {
+      "candidate": "Anicin1972primary",
+      "status": "blockedonselectedinstitutionverification/metadata-onlyroutes; no repeated bypass"
+    },
+    {
+      "candidate": "Day17partial",
+      "status": "retained uncredited; SG98alreadydone; no formal17/Day18"
+    }
+  ]
+}

@@ -99,3 +99,43 @@ The nucleus-specific content is only a worked `251Fm` example for method illustr
 ## Personal Notes
 
 This paper is small but high-yield. Its real value is the warning that even after choosing an ICC calculation, `delta` extraction can remain asymmetric and non-Gaussian. That makes it a good complement to BrIcc and to the general "one observable, one answer" simplifications often used in practice.
+
+## 2026-10-18原式复核：P(delta)的测度与卷积配方边界
+
+本节是新Codex self-audit，**全部旧字节prefix、page human-reviewed和RZ17-1–7/needs_review:false保留**，不把新检查冒充人审。新使用时先看本节的复现边界：旧摘要对“convolution/true68%”的记录是作者方法声明，尚不是本Wiki对其RooFit配方/覆盖性的独立证明。
+
+本session先冻结primed预期，再核source-declared原SHA-256 `af87b4e5ce2ffccee5484902b252e8fcd4fd0940ee996b204bf7983fd2a41e72`、重读完整三页并放大Eqs7–17/Table1/Figs1–3。首hardcodedhash手抄多一个c导致guard失败，改为从source读hash核actual后确认原raw未变，不当来源身份异常。Crossref重新核三作者/NIMA844/96–98/2017，原PDFonline2016与volume2017分开。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+| --- | --- | --- | --- | --- | --- |
+| RZ17-8 | Eq3–5仅得到abs(delta)，作者示例为251Fm/200keV/M2-E3/5/2+→9/2−、K-shell，Table1输入alphaexp8.8(3.1)、alphaM214.49(.21)、alphaE3.227(.004)。它不是新采集或本任务重测；不要换作E2/M1数据。 | published-example-and-coordinate | direct | printed96 Eq3–5；printed97 Table1 | true |
+| RZ17-9 | Eq7/8以变量变换写partialPi，Eq11–13各Pi将另两alpha固定在中央值，Eq14写P=P1⊗P2⊗Pexp且说RooFit。三页未给可复跑的centering/FFT范围/support/归一recipe；若将其读成三个正deltaPDF的普通未平移sum convolution，会多加两个centraldelta，不能直接重建所报mean。 | literal-formula-and-producer-boundary | direct-and-task-invariant | printed97 Eqs7–15/Fig1/Table1 | true |
+| RZ17-10 | 作者Eq15均值与“34%各在mean两边”区间为.92^(+.42/−.37)，Fig1上error却标+.43；graphical.81^(+.47/−.36)由Eq17 band交点定义。“conservative/true”是该文方法解释，本文未给频率学coverage保证或实际RooFitcode。 | reported-interval-definition-and-printing | direct | printed97 Eq15正文/Table1/Fig1annotation；printed98 Eq17/Conclusions | true |
+| RZ17-11 | 显式选independentGaussian三alpha并condition alpha1>alphaexp>alpha2>0的joint pushforward，本任务均值.924386996与原.92打印相容，equaltailed16/84为[.5093701,1.2714561]，按本分布mean左右各.34则[.6156646,1.6700673]；均不以此更改发表δ或认作新实验CI。 | declared-probability-measure-audit | task-calculation | printed97 Table1/Eqs7–15；DAY16-RZ17-PDF-MEASURE-01 | true |
+| RZ17-12 | 同一声明measure的PDF尾为C/delta³、C=.08320715>0，mean有限但secondmoment对数发散；flat-delta Gaussian likelihood则趋正常数，0到∞不proper。故68%概率区间与sqrtVar(delta)、“flatprior无选择”不能混同。此结论限该Gaussian/物理域模型，不是原作者code已被证明使用无限域。 | derived-tail-and-parameterization-boundary | task-derivation-and-numeric-check | printed96 Eq4/5；printed97 Eq13/15；本任务tail/coordinate audit | true |
+
+### 实际复算与尚未闭合的内容
+
+冻结identity `DAY16-RZ17-PDF-MEASURE-01`、Table1参数在数值前固化。令A1/A2/E为三个独立Gaussian random inputs，对物理域H={A1>E>A2>0}显式条件化；从E=a(d)=(A1+d²A2)/(1+d²)变换到d>0的密度含绝对Jacobian `2d(A1−A2)/(1+d²)²`，并除Z=P(H)。这是**本任务声明的概率传播选择**，不是未注明prior/采样模型的普适“truePDF”。Z=.9636291873，其余约3.637%物理域外概率未静默夹到pure端点。
+
+GaussHermite12/20与theta=atan(d)的Legendre80/160/320/640均值稳定约5e−14；独立bivariate ratio路线以X=A1−E、Y=E−A2给Cov(X,Y)=−Var(E)=−9.61、correlation≈−.99771255，八点PDF差≤2.62e−13；independentGaussian原inputs不使这两个差或最后ratio独立。独立800000抽样/seed2026101804在物理域保留770970，分位数与积分相符。MC sampleSE不被用来证明无限域variance有限。
+
+| 统计/算法对象 | 本任务数值与意义 |
+| --- | --- |
+| Eq5 direct inverse | .8146850022；不是P的mean或mode证明 |
+| declared joint pushforward mean | .9243869963；与作者.92在打印精度内相符 |
+| sourceEq17实际band交点 | [.4515408969,1.2823631086]，准确回到source图解约.81^(+.47/−.36) |
+| 上述graphical区间在本joint分布的概率 | .7280638427；不是频率覆盖率/普适保守性证明 |
+| sourceanalytical打印界[.55,1.34]在本joint的概率 | .6710446540；在sourcecentral.92两边分别.40043746/.27060720，不能称本measure中各.34 |
+| Pi三个positive均值 | .81454611/.81468507/.92426038；普通sumconvolution mean2.55349156 |
+| theoryerror→0控制 | 普通positive convolution会把Pexp平移2δ0；必须另给error-kernel居中或实际producerrecipe，不能仅抄Eq14便称精确复现 |
+
+新harness没有为了配source区间改Gaussian尺度/截断/δ号，也未把literal卷积failure归给实际RooFit代码。作者的mean可相容而interval/普通卷积口径尚未复现是当前结论；原文的所有数值仍按原样保留。
+
+### 尾部与有界parameter的使用门
+
+在E接近A2的物理端点时，a(d)=A2+(A1−A2)/(1+d²)，于是非零Gaussian密度乘Jacobian给p(d)∼C/d³。数值dmax2/10/100/1000的未重归一secondmoment分别约.839912/1.120635/1.316718/1.508353，随logcutoff增长；不能通过一次finitegrid MonteCarlo的有限samplevariance宣称真实Var有限。均值partial在dmax2仅.8299368，至1000才.9243038，故隐含plot/FFT边界也需保存。
+
+若改为f=d²/(1+d²)∈[0,1]，其moment有界；但flatf与flatdelta是不同概率/先验选择。固定purealphas时a(f)=A1(1−f)+A2f的Jacobian是常数，本任务的E-transform可对应flatf的条件posterior；有theory nuisance时仍须完整写明joint模型。有限ICC数据本身在pureE3极限饱和，不能无声明地把flatdelta likelihood归一到∞。ICC仍不给sign。
+
+原创[程序](../../system/scripts/day16_rz17_probability_measure_audit.py)、[输入](../../outputs/learning-daily/20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/rz17-pdf-measure-input.json)、[结果](../../outputs/learning-daily/20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/rz17-pdf-measure-audit.json)含全部模型、归一、变换、MC与failurecontrols；本节只新增selfaudit。决定`supports`非Gaussian/理论误差和图解交点方法，`limits`Eq14/“68%”转录为完整可运行算法或任何输入下的exactcoverage。新canonicalowner为[[icc-mixing-probability-domain]]，不覆盖旧人审事件。

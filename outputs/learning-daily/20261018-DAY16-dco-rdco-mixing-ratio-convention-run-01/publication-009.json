@@ -1,0 +1,22 @@
+{
+  "publication_index": 9,
+  "at": "2026-10-18T17:38:32.077266+08:00",
+  "branch": "main",
+  "subject": "Separate DAY16 phase conventions and unobserved decay channels",
+  "commit": "f410e559bbf83225d0f58b97906fe35f6923f07b",
+  "origin_main": "f410e559bbf83225d0f58b97906fe35f6923f07b",
+  "status": "published",
+  "commands_exit": {
+    "fresh_fetch": 0,
+    "ancestry": 0,
+    "dry_run_HEAD_main": 0,
+    "push_HEAD_main": 0,
+    "post_commit_eol": 0,
+    "cached_check": 0
+  },
+  "exact_manifest_matches_actual_commit": true,
+  "local_manifest_amend": "once before any push; removed unchanged already-published retrieval record, no unrelated paths staged",
+  "goal_status": "active",
+  "study_window": "active until2026-10-19T15:00:00+08:00",
+  "credit_unchanged_once": true
+}

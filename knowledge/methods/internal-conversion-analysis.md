@@ -173,3 +173,9 @@ $$U_k^{\rm all}-U_k^\gamma=\frac{q(c-1)[U_k(L')-U_k(L)]}{(1+q)(1+cq)},\quad c=\f
 独立GSL6j与CG channelpureU差≤4.45e−16，trace/U0/limits与identity均核。用名义11→10→9→7、首921/末225.83pureE2、point90/38/phi18、fixedstdGaussian.3和旧两个firstδ候选作**另一个没有实测endpointRDCO的设计**：按显式R=W(first90,last38)/W(first38,last90)，小候选Rgamma1.48134383→Rall1.48360244（相对+.15247%），大候选1.49070324→1.49234834（+.11036%）。不可将此两值套到原921(G)–306/.66或169门/.47；原168middle并不是那两项测量的未观测对象。未据此解释历史偏差、改δ或选branch。
 
 给定puretotalquotedmarginals，c的字面box[.739942529,.758503401]无CI；实际theoryCov未知，局部rho−1/0/+1分别给sc≈.00927995/.00665418/.00156167，未再叠加interpolation，能量.05keV/原responseΣ未传播。[冻结input](../../outputs/learning-daily/20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/w178-unobserved-ic-input.json)和[结果](../../outputs/learning-daily/20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/w178-unobserved-ic-audit.json)、[原创程序](../../system/scripts/day16_unobserved_conversion_audit.py)保留query/hash/normalization/role；首JSONnumpybool序列化失败不改physics输入、已留回执。
+
+## 从quotedICC到delta概率还需测度与物理域
+
+[[rezynkina-2017-graphical-extraction-multipole-mixing-ratios]]新RZ17-8–12重核原Table1/Eqs7–17。原图解交点可复算，但印刷convolution缺居中/范围/producerrecipe；本任务显式jointGaussianphysicalpushforward mean≈.92439与source.92相容，区间口径尚未复现，不能拿mean相合说完整truePDF已认证。
+
+[[icc-mixing-probability-domain]]给Jacobian/物理域归一、共享差值Cov、独立积分/MC与pure端点尾部。其δ^-3尾使declared无限域模型的secondmoment发散，68%概率区间不自动等于sqrtVar；flatdelta likelihood另有非proper边界。这些是source参数下的统计选择与解析结果，不是新251Fm/W178δ或频率覆盖率，也未改source旧review。

@@ -377,3 +377,7 @@ ICC-based `delta` extraction 也可能带来明显非对称误差；当 experime
 [[martin-1987-ensdf-mixing-ratio-phase-conventions]] MA87-3/4给三层：δgamma是归一辐射振幅比；观测i-shell电子的deltacei=sqrt(alpha_i(Lprime)/alpha_i(L))*δgamma（电子角式另有particleparameters）；完全未观测branch的Delta²=(1+alpha_Lprime)/(1+alpha_L)*δgamma²。后者只定义强度权重，不由无干涉的Uk测得sign；alphaK不能代total。[[internal-conversion-analysis]]保存gate/selection与新W178条件例，不把effectiveDelta当另一个measuredMR。
 
 [[tuli-2001-ensdf-format-manual]] TU01-1/2则规定ENSDF MR42–49列的sign若已知必须显式写出，省略时视为未知；一般float将unsignedMR=.5读成正数只能保存magnitude，不能增加+phase证据。空MR≠0，CC≠MR。DMR的+x−y按代数端点映射，例如source MR−3、DMR+1−4就是[−7,−2]。显式`−0.00(1)`保留minusmarker但误差跨零，不证明sign统计上显著；operatorconvention/quotedinterval/marker/provenance要各自保存。
+
+## ICC反演的P(delta)与pure端点
+
+[[icc-mixing-probability-domain]]依据[[rezynkina-2017-graphical-extraction-multipole-mixing-ratios]] RZ17-8–12区分direct逆算、概率变量pushforward、likelihood/prior、图解界与原producer。ICC只给absdelta，物理域/绝对Jacobian、theory共同Cov和delta→∞端点都需保存；有限MC或68%massinterval不能无条件当作delta的有限Gaussian方差。使用有界f=delta²/(1+delta²)可避免坐标尾部不便，但不增加sign或独立实验信息。

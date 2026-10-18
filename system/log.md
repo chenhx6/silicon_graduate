@@ -1844,3 +1844,8 @@ Sciencepublication005 actualGitee成功后，依据validDay16audit/report/writeb
 ## 2026-10-18T17:32:44.322159+08:00 — DAY16 checkpoint009：原ENSDF相位章与未观测转换
 
 同run/session原2026-10-19 15:00上海窗口/goalactive持续pursuing，next17/count16/partial17不变。NNDC官方Martin1987完整9页phase章与Tuli2001定向format原图核；NRF原δ1=−δ2与MRunsignedsignunknown获直接locator。完全未观测U须totalICC重权；新168.71W74FO纯M1/E2各1POST/0retry、Tot1.073/.553无missingwarning，条件q3.61→2.70445/U2/U4与另gate端点R变化canonical，非原DCO重放或新δ。KB08整个旧字节prefix保留。累计24changed/24writeback，requiredchecks0、0errors/156warnings(120key/33raw/3parser)；首lint缺Tuli限制栏目、LaTeXescape/JSONbool故障已修留界。Anicin新机构route验证页/metadata无body不绕过。下一RZ17原3页概率传播已primedfreeze/原读、数值输入待冻结；不因checkpoint停止。稳定指针main / `Separate DAY16 phase conventions and unobserved decay channels`；actualH3/hash/push仅publication009。
+
+
+## 2026-10-18T17:49:31.347570+08:00 — DAY16 checkpoint010：RZ17实际参数的概率测度
+
+同run/session原2026-10-19 15:00上海window/goal持续active，next17/count16/partial17不变。RZ17原3页/Table1/图式复核且全部旧人审prefix/flags保留；实际Gaussianphysicalpushforward mean.92439、图解交点复现，但interval/positivePi普通卷积与原RooFitrecipe未闭合。独立bivariate-ratio/Cov、GH/GL/800kMC及delta^-3尾部写canonical，不新测δ/不称sourcecode错误或覆盖保证。累计26changed/26items，boundary/diff0、lint-first1因新method缺两标题，修后actual0/0errors156warnings；先前verification误记首次lint0已纠正并留history。下一独立252Cf EL18实际branch/Gk/phase route已primedfreeze与原件开读，仍Day16不打开18。稳定指针main / `Audit DAY16 ICC probability measures and pure-limit tails`；actualhash/H3/push只publication010。

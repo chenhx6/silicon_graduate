@@ -1,0 +1,6 @@
+{
+  "first_name_set_check_failed": true,
+  "reason": "One selected reference file unchanged from published008, no unrelated staged file; exact mutation manifest now excludes it",
+  "issue": "Commit ran after the check script exited1 because orchestration lacked an exit-code gate; current local commit inspected, only owned paths, no push before reconciliation",
+  "mitigation": "amend same unpublishedcommit manifest once, then rerun full H3 before push"
+}

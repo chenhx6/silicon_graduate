@@ -1,0 +1,140 @@
+{
+  "identity": "DAY16-RZ17-PDF-MEASURE-01",
+  "input_sha256": "5583d9c3a3f2845be88e59a89426f4680ef9680b9b561500be0c28f8033d52db",
+  "script_sha256": "7d59a818c594c0892432ba806f1da422d2a21a63a3f928d4da7b8c6a0ab393f0",
+  "arithmetic_inverse_abs_delta": 0.8146850022331585,
+  "joint_Gaussian_physical_domain_probability": 0.9636291872710945,
+  "joint_pushforward_conditional_mean_abs_delta": 0.9243869962675316,
+  "joint_cdf_at_mean": 0.600214150891908,
+  "joint_34percent_each_side_mean_interval": [
+    0.615664632109022,
+    1.67006727256592
+  ],
+  "joint_equal_tailed_16_84_interval": [
+    0.5093700974240919,
+    1.2714560939419466
+  ],
+  "source_graphical_Eq17_intersections": [
+    0.4515408968859604,
+    1.2823631085525984
+  ],
+  "source_graphical_interval_probability_under_declared_joint": 0.7280638427062822,
+  "source_analytical_printed_bounds": [
+    0.55,
+    1.34
+  ],
+  "source_analytical_printed_bounds_probability_under_declared_joint": 0.6710446540037178,
+  "probability_left_right_of_reported_mean_within_printed_bounds": [
+    0.400437458441583,
+    0.27060719556213475
+  ],
+  "partialPDF_means_P1_P2_Pexp": [
+    0.8145461125405424,
+    0.8146850687414102,
+    0.9242603806173475
+  ],
+  "ordinary_convolution_mean_of_positive_partials": 2.5534915618993,
+  "ordinary_convolution_shift_required_to_match_joint_mean": 1.6291045656317684,
+  "zero_theory_error_control": {
+    "Pexp_mean": 0.9242603806173475,
+    "joint_minus_Pexp_mean": 0.00012661565018412535,
+    "ordinary_convolution_zero_theory_error_mean": 2.5536303850836646,
+    "meaning": "delta-like P1 and P2 at positive delta0 add two shifts under an ordinary convolution, rather than acting as zero-centered error kernels."
+  },
+  "tail": {
+    "lim_delta_cubed_Pdelta": 0.0832071530579787,
+    "asymptotic_density": "P(delta) ~ tail_coefficient/delta^3",
+    "mean_finite": true,
+    "second_moment_finite": false,
+    "logarithmic_second_moment_growth_per_log_cutoff": 0.0832071530579787,
+    "flat_delta_Gaussian_likelihood_limit_at_infinity": 0.002810785871996489,
+    "flat_delta_prior_posterior_proper_without_cutoff": false
+  },
+  "independent_bivariate_ratio_check": {
+    "X_Y_means": [
+      5.6899999999999995,
+      8.573
+    ],
+    "X_Y_covariance": [
+      [
+        9.654100000000001,
+        -9.610000000000001
+      ],
+      [
+        -9.610000000000001,
+        9.610016000000002
+      ]
+    ],
+    "correlation_X_Y": -0.9977125514399002,
+    "identity": "p(delta)=2delta/Z * integral_0^infinity y f_XY(delta^2*y,y)dy; shared measured E gives Cov(X,Y)=-sigma_E^2.",
+    "alpha2_positive_boundary": "Gaussian P(alpha2<0) is below1e-700 for this frozen example; the bivariate reduction does not impose this negligible extra cut.",
+    "samples": [
+      {
+        "delta": 0.01,
+        "joint_bivariate_ratio_pdf": 0.00709812172716201,
+        "theory_GH_pushforward_pdf": 0.007098121727163415,
+        "absolute_difference": 1.4051260155412137e-15
+      },
+      {
+        "delta": 0.1,
+        "joint_bivariate_ratio_pdf": 0.07549284927601577,
+        "theory_GH_pushforward_pdf": 0.07549284927606931,
+        "absolute_difference": 5.3540505362548174e-14
+      },
+      {
+        "delta": 0.3,
+        "joint_bivariate_ratio_pdf": 0.3337541252084785,
+        "theory_GH_pushforward_pdf": 0.3337541252084704,
+        "absolute_difference": 8.104628079763643e-15
+      },
+      {
+        "delta": 0.8,
+        "joint_bivariate_ratio_pdf": 1.1312386888943757,
+        "theory_GH_pushforward_pdf": 1.1312386888946375,
+        "absolute_difference": 2.617905892066119e-13
+      },
+      {
+        "delta": 1.0,
+        "joint_bivariate_ratio_pdf": 0.8546178371229332,
+        "theory_GH_pushforward_pdf": 0.8546178371231589,
+        "absolute_difference": 2.2570834090629432e-13
+      },
+      {
+        "delta": 2.0,
+        "joint_bivariate_ratio_pdf": 0.05556713169820458,
+        "theory_GH_pushforward_pdf": 0.055567131698196305,
+        "absolute_difference": 8.278100427361323e-15
+      },
+      {
+        "delta": 10.0,
+        "joint_bivariate_ratio_pdf": 9.242544386829182e-05,
+        "theory_GH_pushforward_pdf": 9.242544386830253e-05,
+        "absolute_difference": 1.0706496453294356e-17
+      },
+      {
+        "delta": 100.0,
+        "joint_bivariate_ratio_pdf": 8.329643561262245e-08,
+        "theory_GH_pushforward_pdf": 8.329643561256536e-08,
+        "absolute_difference": 5.709531460086018e-20
+      }
+    ]
+  },
+  "Monte_Carlo": {
+    "seed": 2026101804,
+    "draws": 800000,
+    "accepted": 770970,
+    "physical_fraction": 0.9637125,
+    "physical_fraction_standard_error": 0.00020930831538171267,
+    "quantiles_16_50_84": [
+      0.5088999516787335,
+      0.8284851233708266,
+      1.2710052000593242
+    ],
+    "sample_mean": 0.9239148762185029,
+    "naive_sample_mean_standard_error_not_a_finite_variance_guarantee": 0.0008228354270054873
+  },
+  "all_internal_checks_passed": true,
+  "new_measured_delta": false,
+  "source_RooFit_recipe_recovered": false,
+  "boundary": "The printed Eq14 symbol does not specify centering, support shifts, FFT range or RooFit recipe. Literal ordinary convolution fails this mean invariant; direct joint Gaussian pushforward is an explicitly defined alternative, not an assertion about unpublished author code or true experimental coverage."
+}

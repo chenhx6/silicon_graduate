@@ -183,6 +183,14 @@ MA87-3原Eq9新增有意义的sample条件：完全未观测mixedbranch用Delta�
 
 新知识已回写[internal-conversion-analysis](../../knowledge/methods/internal-conversion-analysis.md)/[deorientation](../../knowledge/concepts/deorientation.md)/[multipole-mixing-ratio](../../knowledge/observables/multipole-mixing-ratio.md)、双解单与NRF边界，source见MA87-3/4、KB08-D16-5、N178-4；电子/γselection、response/Σ与operator假设逐项保留。首JSONnumpybool序列化failure已记，未修改输入或网络重试。研究继续至原deadline，不因本条完成结束。
 
+### RZ17实际参数：概率测度、卷积与大delta尾部
+
+[primed来源前冻结](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/rz17-before-source-freeze.json)后完整重读原三页/Eqs7–17/Table1/Figs1–3，[Table1输入](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/rz17-pdf-measure-input.json)在数值前冻结。原RZ17人审page/7claims全字节prefix保留；[source新RZ17-8至12](../../knowledge/sources/rezynkina-2017-graphical-extraction-multipole-mixing-ratios.md)明确原作者结果/本任务measure/未得RooFitrecipe分层。首hashguard多写c失败已动态对照source hash核相符，未改raw。
+
+实际M2/E3/K示例三alpha为8.8(3.1)/14.49(.21)/.227(.004)。本任务显式independentGaussian+physicaldomainpushforward，Z=.9636292、mean.924387；Eq17图解交点[.451541,1.282363]复现source图解，但equaltailed16/84 [.509370,1.271456]与mean左右各.34 [.615665,1.670067]不同。原所报.92^(+.42/−.37)不被改写。[完整结果](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/rz17-pdf-measure-audit.json)含GH/GL收敛、独立ratio解析式与800000MC，mean相合不能认证全interval/producer或truecoverage。
+
+Literal普通positivePi卷积mean2.55349，在theoryerror→0时也会多平移2delta0；Eq14缺实际centering/FFT/supportrecipe，未将此failure归给实际RooFit。Declaredpushforward尾p~.083207/d³：mean有限、secondmoment无限，flatdelta likelihood又不能在0∞归一。新[canonical概率方法](../../knowledge/methods/icc-mixing-probability-domain.md)与[ICC方法](../../knowledge/methods/internal-conversion-analysis.md)保存proof、同数据sharedCov与物理域边界，不生成新实验δ。
+
 ## Counter-evidence and missing companion observables
 
 最直接反例是一个已知pure参考也无法验证混合项相位：两纯端点通过，错误换号仍改R。另一个反例是本点模型部分Table1不吻合（例如.637341对印值.66；1.188657对1.12），且两比值rectangle没有复现作者>85支；原因未裁决，不能报告原文错误或实验新δ。
@@ -383,7 +391,7 @@ canonical [178W知识单](../../knowledge/research-notes/w178-921-dco-gate-doubl
     },
     {
       "knowledge": "knowledge/index.md",
-      "summary": "最小索引新增178W921计算单导航，不添加独立科学结论。 新增固定ALPACA独立实现/观测对象边界。 新增原ENSDF章/total-decay和MR字段边界。",
+      "summary": "最小索引新增178W921计算单导航，不添加独立科学结论。 新增固定ALPACA独立实现/观测对象边界。 新增原ENSDF章/total-decay和MR字段边界。 加入ICC概率物理域方法入口。",
       "anchor": "w178-921-dco-gate-double-solutions",
       "sources": [
         {
@@ -397,6 +405,10 @@ canonical [178W知识单](../../knowledge/research-notes/w178-921-dco-gate-doubl
         {
           "path": "knowledge/sources/martin-1987-ensdf-mixing-ratio-phase-conventions.md",
           "locator": "MA87-1"
+        },
+        {
+          "path": "knowledge/sources/rezynkina-2017-graphical-extraction-multipole-mixing-ratios.md",
+          "locator": "RZ17-11"
         }
       ]
     },
@@ -554,7 +566,7 @@ canonical [178W知识单](../../knowledge/research-notes/w178-921-dco-gate-doubl
     },
     {
       "knowledge": "knowledge/methods/internal-conversion-analysis.md",
-      "summary": "保存实际W178 Kexp与shell匹配理论、两固定DCO点均在literal box外的反向检验；名义abs(delta)映射不当实验新测量。 新增原ENSDF章/total-decay和MR字段边界。",
+      "summary": "保存实际W178 Kexp与shell匹配理论、两固定DCO点均在literal box外的反向检验；名义abs(delta)映射不当实验新测量。 新增原ENSDF章/total-decay和MR字段边界。 新增RZ17实际参数的概率测度/producer和尾部边界。",
       "anchor": "178W 921-keV：真实K-shell companion不能自动替两个DCO点选支",
       "sources": [
         {
@@ -580,6 +592,18 @@ canonical [178W知识单](../../knowledge/research-notes/w178-921-dco-gate-doubl
         {
           "path": "knowledge/sources/nndc-2009-178w-dco-reference-records.md",
           "locator": "N178-4"
+        },
+        {
+          "path": "knowledge/sources/rezynkina-2017-graphical-extraction-multipole-mixing-ratios.md",
+          "locator": "RZ17-9"
+        },
+        {
+          "path": "knowledge/sources/rezynkina-2017-graphical-extraction-multipole-mixing-ratios.md",
+          "locator": "RZ17-11"
+        },
+        {
+          "path": "knowledge/sources/rezynkina-2017-graphical-extraction-multipole-mixing-ratios.md",
+          "locator": "RZ17-12"
         }
       ]
     },
@@ -917,7 +941,7 @@ canonical [178W知识单](../../knowledge/research-notes/w178-921-dco-gate-doubl
     },
     {
       "knowledge": "knowledge/observables/multipole-mixing-ratio.md",
-      "summary": "新增ENSDF原相位/format与total-decay条件权重；Radiative、电子与总衰变权重：同符号不等于同对象",
+      "summary": "新增ENSDF原相位/format与total-decay条件权重；Radiative、电子与总衰变权重：同符号不等于同对象 新增RZ17实际参数的概率测度/producer和尾部边界。",
       "anchor": "Radiative、电子与总衰变权重：同符号不等于同对象",
       "sources": [
         {
@@ -935,6 +959,14 @@ canonical [178W知识单](../../knowledge/research-notes/w178-921-dco-gate-doubl
         {
           "path": "knowledge/sources/tuli-2001-ensdf-format-manual.md",
           "locator": "TU01-2"
+        },
+        {
+          "path": "knowledge/sources/rezynkina-2017-graphical-extraction-multipole-mixing-ratios.md",
+          "locator": "RZ17-8"
+        },
+        {
+          "path": "knowledge/sources/rezynkina-2017-graphical-extraction-multipole-mixing-ratios.md",
+          "locator": "RZ17-12"
         }
       ]
     },
@@ -950,6 +982,56 @@ canonical [178W知识单](../../knowledge/research-notes/w178-921-dco-gate-doubl
         {
           "path": "knowledge/sources/martin-1987-ensdf-mixing-ratio-phase-conventions.md",
           "locator": "MA87-5"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/sources/rezynkina-2017-graphical-extraction-multipole-mixing-ratios.md",
+      "summary": "实际RZ17参数的测度/变量变换/卷积与尾部自审；保留作者结果和review。",
+      "anchor": "2026-10-18原式复核：P(delta)的测度与卷积配方边界",
+      "sources": [
+        {
+          "path": "knowledge/sources/rezynkina-2017-graphical-extraction-multipole-mixing-ratios.md",
+          "locator": "RZ17-8"
+        },
+        {
+          "path": "knowledge/sources/rezynkina-2017-graphical-extraction-multipole-mixing-ratios.md",
+          "locator": "RZ17-9"
+        },
+        {
+          "path": "knowledge/sources/rezynkina-2017-graphical-extraction-multipole-mixing-ratios.md",
+          "locator": "RZ17-10"
+        },
+        {
+          "path": "knowledge/sources/rezynkina-2017-graphical-extraction-multipole-mixing-ratios.md",
+          "locator": "RZ17-11"
+        },
+        {
+          "path": "knowledge/sources/rezynkina-2017-graphical-extraction-multipole-mixing-ratios.md",
+          "locator": "RZ17-12"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/methods/icc-mixing-probability-domain.md",
+      "summary": "实际RZ17参数的测度/变量变换/卷积与尾部自审；保留作者结果和review。",
+      "anchor": "ICC反演混合比：先定义概率对象",
+      "sources": [
+        {
+          "path": "knowledge/sources/rezynkina-2017-graphical-extraction-multipole-mixing-ratios.md",
+          "locator": "RZ17-8"
+        },
+        {
+          "path": "knowledge/sources/rezynkina-2017-graphical-extraction-multipole-mixing-ratios.md",
+          "locator": "RZ17-9"
+        },
+        {
+          "path": "knowledge/sources/rezynkina-2017-graphical-extraction-multipole-mixing-ratios.md",
+          "locator": "RZ17-11"
+        },
+        {
+          "path": "knowledge/sources/rezynkina-2017-graphical-extraction-multipole-mixing-ratios.md",
+          "locator": "RZ17-12"
         }
       ]
     }
@@ -1001,3 +1083,8 @@ KS70追加twoangle问题因旧KS70-12已经覆盖而verified-no-op；NRF追加�
 ### 恢复checkpoint009（研究继续）
 
 2026-10-18T17:32:44.322159+08:00：累计24changed/24writeback，原phase章和168.71conditionalexercise已canonical。Boundary/diff/lint-fixed实际exit0，0errors/156warnings；首Tuli缺required限制栏目lint1已修并保留。[verification003](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/verification-reopened-003.json)通过单卡coverage/writeback/hash/KB08旧prefix保护。稳定指针main / `Separate DAY16 phase conventions and unobserved decay channels`，实际hash/remote只回执。下一继续RZ17变量变换/概率域，goal/windowactive原15:00，不重计卡。
+
+
+### 恢复checkpoint010（研究继续）
+
+2026-10-18T17:49:31.347570+08:00：actual RZ17/Table1 probabilitymeasure/tail exercise已canonical；累计26changed/26items，boundary/diff0，method栏目缺项造成的首次lint1已补齐、fixed lint实际0/0errors156warnings。验收004保留initialexit/history纠正。[候选刷新](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/candidate-refresh-reopened-004.json)在原截止前仍约1272min，下一独立EL18实测branch/Gk问题已冻结/开读，window/goal继续active。稳定指针main / `Audit DAY16 ICC probability measures and pure-limit tails`，exacthash/actualH3/push只回执，不重计Day16或开Day18。

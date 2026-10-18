@@ -1,0 +1,7 @@
+# Eldridge2018：实际多branch与衰减参考的来源前回忆
+
+已读既有source四条claim/summary，含37transitions/10isotopes、IPAC的G2/G4和“pure-nearpureE2”比例，故明确primed。新问题是一个实际coeffpair如何在projectiveatanδ oval上容许large/opposite-sign或跨±infinity支；其ellipse/几sigma/参考衰减和shareddata究竟怎样定义，作者据sign趋势作structure解释时哪些支仍兼容。
+
+先核原11页完整主线、原Eq/convention/G2G4 calibration、Table1–4/Figs1–11与contaminationcontrols；选择最多一个明确identitytransition及必要reference做受限重算。没有原Cov就不伪造jointCI；文中sigma ellipse不是自动多重比较的globalconfidence。源“37newratios”不等于37independentexperiments，同252Cf acquisition与参考G/literature输入要分层。
+
+预计信息增益：给W178/130Ba以外的独立fission sample反证/方法边界，检验“largeδ符号趋势”是否受pureE2项目坐标拓扑与Gk影响。不要为了moredata改sigma/G/δ逼合；实际系数和等权/误差约定冻结后才算。该route仍是Day16mixing/phase方法，不开Day18寿命卡；任何lifetime数字仅为本源Gk输入身份，不开展新卡。

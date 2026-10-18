@@ -158,16 +158,38 @@
       "goal_status": "active",
       "research_deadline": "2026-10-19T15:00:00+08:00",
       "curriculum_unchanged": true
+    },
+    {
+      "publication_index": 9,
+      "at": "2026-10-18T17:38:32.077266+08:00",
+      "branch": "main",
+      "subject": "Separate DAY16 phase conventions and unobserved decay channels",
+      "commit": "f410e559bbf83225d0f58b97906fe35f6923f07b",
+      "origin_main": "f410e559bbf83225d0f58b97906fe35f6923f07b",
+      "status": "published",
+      "commands_exit": {
+        "fresh_fetch": 0,
+        "ancestry": 0,
+        "dry_run_HEAD_main": 0,
+        "push_HEAD_main": 0,
+        "post_commit_eol": 0,
+        "cached_check": 0
+      },
+      "exact_manifest_matches_actual_commit": true,
+      "local_manifest_amend": "once before any push; removed unchanged already-published retrieval record, no unrelated paths staged",
+      "goal_status": "active",
+      "study_window": "active until2026-10-19T15:00:00+08:00",
+      "credit_unchanged_once": true
     }
   ],
-  "last_checkpoint": "reopened-003",
-  "last_verification": "verification-reopened-003.json",
-  "knowledge_writeback_items": 24,
-  "last_learning_summary": "Martin原phase章/format与168.71nominalIC总衰变vs光子选择canonical；原experimentproducer/Σ边界不变。",
-  "knowledge_changed_pages": 24,
+  "last_checkpoint": "reopened-004",
+  "last_verification": "verification-reopened-004.json",
+  "knowledge_writeback_items": 26,
+  "last_learning_summary": "RZ17真实参数的图解/mean可复算，literalconvolution/interval仍producer边界；boundedphysics/probability/tailcanonical，旧人审不动。",
+  "knowledge_changed_pages": 26,
   "uncredited_day17_preview_started": true,
   "preview_time_gate": "outputs/learning-daily/20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/day17-preview-time-gate.json",
-  "current_research_route": "RZ17原3页ICC概率传播的变量变换/物理域/卷积与尾部；primedsourcebefore已冻，源已读，numeric尚未执行",
+  "current_research_route": "EL18 252Cf/Mo-Ru-Pd实际mixing分支、±infinity/Gk/sharedcalibration与signtrend；primedfreeze已存、原11页开读，不是Day18卡",
   "research_status": "active-user-resumed-original-window",
   "research_stopped_at": null,
   "original_minutes_to_deadline_at_research_stop": 1523.8833333333334,
@@ -287,5 +309,5 @@
     "deadline": "2026-10-19T15:00:00+08:00",
     "credit_policy": "Day16 kept once; partial17 only; no Day18"
   },
-  "last_publication": "publication-008.json"
+  "last_publication": "publication-009.json"
 }

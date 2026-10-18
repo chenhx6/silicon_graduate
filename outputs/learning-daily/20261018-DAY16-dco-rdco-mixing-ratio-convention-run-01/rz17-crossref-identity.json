@@ -1,0 +1,62 @@
+{
+  "url": "https://api.crossref.org/works/10.1016/j.nima.2016.11.029",
+  "sha256": "a7d11ef1dd54ef3efec46dcaa4b21cba534bc97f6d598d48ffaed432c67aa8d4",
+  "metadata": {
+    "DOI": "10.1016/j.nima.2016.11.029",
+    "title": [
+      "On the graphical extraction of multipole mixing ratios of nuclear transitions"
+    ],
+    "author": [
+      {
+        "given": "K.",
+        "family": "Rezynkina",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "A.",
+        "family": "Lopez-Martens",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "K.",
+        "family": "Hauschild",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2017,
+          2
+        ]
+      ]
+    },
+    "published-online": null,
+    "volume": "844",
+    "page": "96-98",
+    "relation": {},
+    "update-to": null
+  },
+  "metadata_not_formula_evidence": true
+}
