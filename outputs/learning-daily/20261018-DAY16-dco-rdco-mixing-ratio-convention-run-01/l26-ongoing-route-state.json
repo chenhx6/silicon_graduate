@@ -33,5 +33,9 @@
   "pending_executable_replay": "M22cuts/physicaldensity/calibrationselection andL26primaryRcoefficients/Qnormalization; first sourceRacah exploration may require trianglezero guard, no data changed",
   "additional_working_convention": "Operational mapping tocheck: L26Π mayactasuppermultipoleE/Msign, whileMorseΠstatesphotonparity; withΠ_L26*(-1)^Lprime=photonparity, pure/mixedlimitscontinuous. Do not prematurelycallEq13wrong; sourceambiguity/crosswalkpending. L26p7vsTable3specificsignconflict remainsdirect.",
   "scientific_annotation_status": "canonical35pages/items in report; newM22source/L26append17–26/L25append30/new25Na note; fulloldhumanprefixbytepreserved",
-  "new_experimental_refit": false
+  "new_experimental_refit": false,
+  "averaging_stage": "completed actualplot integration/declaredkernels,sourceproseapproxnotliterallyclosed;newcanonicalwritebackpending",
+  "latest_publication": "publication-016.json,pushed",
+  "averaging_result": "l26-coverage-average-audit.json",
+  "source_figure_vs_actual_events": "218Cpoints/2908redPpoints;no rawresponse restored"
 }

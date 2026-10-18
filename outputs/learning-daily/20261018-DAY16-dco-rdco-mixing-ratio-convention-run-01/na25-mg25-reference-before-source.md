@@ -1,0 +1,7 @@
+# 25Na/25Mg官方reference对象前回忆（明确priming）
+
+当前Day16正式一次、partial17同卡知识preview，原截止仍2026-10-19 15:00上海；不进入Day18寿命。已受L26/M22全文与printedδ表/25Na1041同spin双支、官方ENSDF字段规则等priming，非独立盲测。
+
+问题：L26 Table1的25Na1041 9/2+→9/2+对应哪两个实际level，MR空或旧δ的来源/版本/符号是什么；25Mg1612/1793/3970的Ref40 Firestone2009 knownMR究竟来自哪项measurement，与L26/其它source是否共用采集或只共享引用。可先取selectedadopted/具体reactionobjects及NSRreferences；metadata/indexing不当primary body，evaluationlabels不替实验分支裁决。
+
+预期官方谱表能补identity/provenance但未必提供actualresponse/ξ/Σ。精确gamma/parent/child及energyuncertainties按原行保留，LSlevel差与gamma不强配闭合。MRsign按明列KS/unknown阅读，lower/upper及δratio要sourceconventioncrosswalk；不把空MR设0、不将文献δ“mixingangle”误当atan度，不从寿命条目开展B/Q课题。若需要primary且legalbody可得，先recall/depth再读；终态失败不重试。不默认latestonline就是新evaluation，也不由旧adoptedlabel判L26wrong。

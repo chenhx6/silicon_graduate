@@ -1,0 +1,389 @@
+{
+  "at": "2026-10-18T14:54:38.788484+00:00",
+  "results": [
+    {
+      "nucleus": "25NA",
+      "index_status": 200,
+      "query_status": 200,
+      "payload": {
+        "nuc": "25NA",
+        "nsrch": "Search",
+        "searchType": "quick",
+        "datasource": "ensdf"
+      },
+      "forms": [
+        {
+          "action": "/ensdf/DatasetFetchServlet",
+          "method": "post",
+          "inputs": [
+            {
+              "type": "text",
+              "name": "nuc",
+              "value": ""
+            },
+            {
+              "type": "hidden",
+              "name": "searchType",
+              "value": "quick"
+            },
+            {
+              "type": "hidden",
+              "name": "datasource",
+              "value": "ensdf"
+            }
+          ]
+        },
+        {
+          "action": "/ensdf/EnsdfDispatcherServlet",
+          "method": "post",
+          "inputs": [
+            {
+              "type": "hidden",
+              "name": "dbclass",
+              "value": "ensdf"
+            },
+            {
+              "type": "hidden",
+              "name": "page-source",
+              "value": "singular"
+            },
+            {
+              "type": "submit",
+              "name": "chooseit",
+              "value": "PDF Version"
+            },
+            {
+              "type": "submit",
+              "name": "chooseit",
+              "value": "ENSDF text format"
+            },
+            {
+              "type": "checkbox",
+              "name": "pcheckboxall",
+              "value": null
+            },
+            {
+              "type": "checkbox",
+              "name": "datasetcheck",
+              "value": "25011001,25NA"
+            },
+            {
+              "type": "checkbox",
+              "name": "datasetcheck",
+              "value": "25011009,25NA"
+            },
+            {
+              "type": "checkbox",
+              "name": "datasetcheck",
+              "value": "25011011,25NA"
+            },
+            {
+              "type": "checkbox",
+              "name": "datasetcheck",
+              "value": "25011010,25NA"
+            },
+            {
+              "type": "checkbox",
+              "name": "datasetcheck",
+              "value": "25011012,25NA"
+            },
+            {
+              "type": "checkbox",
+              "name": "datasetcheck",
+              "value": "25011013,25NA"
+            },
+            {
+              "type": "checkbox",
+              "name": "datasetcheck",
+              "value": "25011014,25NA"
+            },
+            {
+              "type": "checkbox",
+              "name": "datasetcheck",
+              "value": "25011003,25NA"
+            },
+            {
+              "type": "checkbox",
+              "name": "datasetcheck",
+              "value": "25011004,25NA"
+            },
+            {
+              "type": "submit",
+              "name": "chooseit",
+              "value": "PDF Version"
+            },
+            {
+              "type": "submit",
+              "name": "chooseit",
+              "value": "ENSDF text format"
+            }
+          ]
+        },
+        {
+          "action": "/ensdf/EnsdfDispatcherServlet",
+          "method": "post",
+          "inputs": [
+            {
+              "type": "hidden",
+              "name": "page-source",
+              "value": "coupled-xun"
+            },
+            {
+              "type": "hidden",
+              "name": "dbclass",
+              "value": "xundl"
+            },
+            {
+              "type": "checkbox",
+              "name": "xunpostcheck",
+              "value": "25011015,25NA"
+            },
+            {
+              "type": "submit",
+              "name": "postButton",
+              "value": "PDF Version"
+            },
+            {
+              "type": "submit",
+              "name": "postButton",
+              "value": "ENSDF text format"
+            }
+          ]
+        }
+      ],
+      "text": "Datasets for 25NA Nuclide, Mass, or Symbol: Search Datasets for 25 Na There are 5 corresponding XUNDL (unevaluated) sets Matching datasets in\n\n\nENSDF Retrieve selected ENSDF datasets: Dataset Last Revised References Select All ADOPTED LEVELS, GAMMAS 2025-08 All references 25NE B- DECAY (603 MS) 2025-08 All references 2H(25NA,25NA'G) 2025-08 All references 2H(24NA,P) 2025-08 All references 9BE(18O,PNG) 2025-08 All references 12C(18O,APG) 2025-08 All references 23NA(T,P),26MG(T,A) 2025-08 All references 23NA(T,PG),26MG(T,AG) 2025-08 All references 26MG(D,3HE),(POL D,3HE) 2025-08 All references Retrieve selected ENSDF datasets: Here are the XUNDL datasets which came in after the cutoff date of the last ENSDF evaluation. Nuclide Dataset Last Revised References 25 Na 9BE(18O,XG):XUNDL-5 2026-02 All references Retrieve selected XUNDL datasets:"
+    },
+    {
+      "nucleus": "25MG",
+      "index_status": 200,
+      "query_status": 200,
+      "payload": {
+        "nuc": "25MG",
+        "nsrch": "Search",
+        "searchType": "quick",
+        "datasource": "ensdf"
+      },
+      "forms": [
+        {
+          "action": "/ensdf/DatasetFetchServlet",
+          "method": "post",
+          "inputs": [
+            {
+              "type": "text",
+              "name": "nuc",
+              "value": ""
+            },
+            {
+              "type": "hidden",
+              "name": "searchType",
+              "value": "quick"
+            },
+            {
+              "type": "hidden",
+              "name": "datasource",
+              "value": "ensdf"
+            }
+          ]
+        },
+        {
+          "action": "/ensdf/EnsdfDispatcherServlet",
+          "method": "post",
+          "inputs": [
+            {
+              "type": "hidden",
+              "name": "dbclass",
+              "value": "ensdf"
+            },
+            {
+              "type": "hidden",
+              "name": "page-source",
+              "value": "singular"
+            },
+            {
+              "type": "submit",
+              "name": "chooseit",
+              "value": "PDF Version"
+            },
+            {
+              "type": "submit",
+              "name": "chooseit",
+              "value": "ENSDF text format"
+            },
+            {
+              "type": "checkbox",
+              "name": "pcheckboxall",
+              "value": null
+            },
+            {
+              "type": "checkbox",
+              "name": "datasetcheck",
+              "value": "25012001,25MG"
+            },
+            {
+              "type": "checkbox",
+              "name": "datasetcheck",
+              "value": "25012019,25MG"
+            },
+            {
+              "type": "checkbox",
+              "name": "datasetcheck",
+              "value": "25012020,25MG"
+            },
+            {
+              "type": "checkbox",
+              "name": "datasetcheck",
+              "value": "25012021,25MG"
+            },
+            {
+              "type": "checkbox",
+              "name": "datasetcheck",
+              "value": "25012022,25MG"
+            },
+            {
+              "type": "checkbox",
+              "name": "datasetcheck",
+              "value": "25012023,25MG"
+            },
+            {
+              "type": "checkbox",
+              "name": "datasetcheck",
+              "value": "25012024,25MG"
+            },
+            {
+              "type": "checkbox",
+              "name": "datasetcheck",
+              "value": "25012005,25MG"
+            },
+            {
+              "type": "checkbox",
+              "name": "datasetcheck",
+              "value": "25012025,25MG"
+            },
+            {
+              "type": "checkbox",
+              "name": "datasetcheck",
+              "value": "25012006,25MG"
+            },
+            {
+              "type": "checkbox",
+              "name": "datasetcheck",
+              "value": "25012007,25MG"
+            },
+            {
+              "type": "checkbox",
+              "name": "datasetcheck",
+              "value": "25012026,25MG"
+            },
+            {
+              "type": "checkbox",
+              "name": "datasetcheck",
+              "value": "25012027,25MG"
+            },
+            {
+              "type": "checkbox",
+              "name": "datasetcheck",
+              "value": "25012009,25MG"
+            },
+            {
+              "type": "checkbox",
+              "name": "datasetcheck",
+              "value": "25012010,25MG"
+            },
+            {
+              "type": "checkbox",
+              "name": "datasetcheck",
+              "value": "25012028,25MG"
+            },
+            {
+              "type": "checkbox",
+              "name": "datasetcheck",
+              "value": "25012011,25MG"
+            },
+            {
+              "type": "checkbox",
+              "name": "datasetcheck",
+              "value": "25012029,25MG"
+            },
+            {
+              "type": "checkbox",
+              "name": "datasetcheck",
+              "value": "25012030,25MG"
+            },
+            {
+              "type": "checkbox",
+              "name": "datasetcheck",
+              "value": "25012031,25MG"
+            },
+            {
+              "type": "checkbox",
+              "name": "datasetcheck",
+              "value": "25012032,25MG"
+            },
+            {
+              "type": "checkbox",
+              "name": "datasetcheck",
+              "value": "25012033,25MG"
+            },
+            {
+              "type": "checkbox",
+              "name": "datasetcheck",
+              "value": "25012034,25MG"
+            },
+            {
+              "type": "checkbox",
+              "name": "datasetcheck",
+              "value": "25012013,25MG"
+            },
+            {
+              "type": "checkbox",
+              "name": "datasetcheck",
+              "value": "25012035,25MG"
+            },
+            {
+              "type": "submit",
+              "name": "chooseit",
+              "value": "PDF Version"
+            },
+            {
+              "type": "submit",
+              "name": "chooseit",
+              "value": "ENSDF text format"
+            }
+          ]
+        },
+        {
+          "action": "/ensdf/EnsdfDispatcherServlet",
+          "method": "post",
+          "inputs": [
+            {
+              "type": "hidden",
+              "name": "page-source",
+              "value": "coupled-xun"
+            },
+            {
+              "type": "hidden",
+              "name": "dbclass",
+              "value": "xundl"
+            },
+            {
+              "type": "checkbox",
+              "name": "xunpostcheck",
+              "value": "25012036,25MG"
+            },
+            {
+              "type": "submit",
+              "name": "postButton",
+              "value": "PDF Version"
+            },
+            {
+              "type": "submit",
+              "name": "postButton",
+              "value": "ENSDF text format"
+            }
+          ]
+        }
+      ],
+      "text": "Datasets for 25MG Nuclide, Mass, or Symbol: Search Datasets for 25 Mg There are 6 corresponding XUNDL (unevaluated) sets Matching datasets in\n\n\nENSDF Retrieve selected ENSDF datasets: Dataset Last Revised References Select All ADOPTED LEVELS, GAMMAS 2025-08 All references 25NA B- DECAY (59.3 S) 2025-08 All references 25AL EC DECAY (7.168 S) 2025-08 All references 6LI(22NE,T),(22NE,TG) 2025-08 All references 9BE(18O,2NG) 2025-08 All references 12C(14N,PG),(15N,PNG) 2025-08 All references 21NE(6LI,D) 2025-08 All references 22NE(A,NG) 2025-08 All references 23NA(3HE,P) 2025-08 All references 24MG(N,G) E=THERMAL 2025-08 All references 24MG(N,G) E=RESONANCE 2025-08 All references 24MG(D,P),(POL D,P) 2025-08 All references 24MG(D,PG) 2025-08 All references 25MG(G,G') 2025-08 All references 25MG(E,E') 2025-08 All references 25MG(N,N'G) 2025-08 All references 25MG(P,P'G) 2025-08 All references 25MG(D,D') 2025-08 All references 25MG(A,A) 2025-08 All references COULOMB EXCITATION 2025-08 All references 26MG(G,N),(G,NG') 2025-08 All references 26MG(3HE,A),(D,T),(P,D) 2025-08 All references 27AL(MU-,NU2NG) 2025-08 All references 27AL(D,A),(D,AG) 2025-08 All references 28SI(MU-,NUP2NG) 2025-08 All references Retrieve selected ENSDF datasets: Here are the XUNDL datasets which came in after the cutoff date of the last ENSDF evaluation. Nuclide Dataset Last Revised References 25 Mg 9BE(18O,XG):XUNDL-6 2026-02 All references Retrieve selected XUNDL datasets:"
+    }
+  ]
+}

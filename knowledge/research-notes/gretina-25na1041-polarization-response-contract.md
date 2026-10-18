@@ -118,3 +118,10 @@ M22-6/11的Ft≤.1将Q从.196提高至.314，但中央F降为baseline的.25；F/
 ## Reproducibility
 
 [L26冻结8行](../../outputs/learning-daily/20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/l26-primary-input.json)、[M22冻结标定/四cut/模型](../../outputs/learning-daily/20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/morse2022-calibration-input.json)、[事前约定](../../outputs/learning-daily/20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/gretina-replay-contract.json)、[程序](../../system/scripts/day16_gretina_convention_audit.py)、[结果](../../outputs/learning-daily/20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/gretina-convention-audit.json)。SymPy1.14/mpmath1.3只在repo tmp，按既有PYTHONPATH重放。首尝试的symbolic vector `==` guard未先simplify而exit1；仅修algebraic guard后exit0，原inputs/helpers不变。
+
+
+## 22Ne图形平均的续核：不能替1041补响应
+
+L26-27–29从同paper原Fig4取实际vector黑C/红P，得到sourcecoverage均值约.377923/.543870，正文about.35/.53保持未闭合；不是rawevent重放或作者错误归因。该C来自1238-keV56Co、用于22Ne1275案例，不能未验证energy/points/角门就迁给1041。
+
+sourcecoverage与event-weighted平均在声明kernel下不同；Q作为A/(κPbar)的经验校准量也随平均定义改变。保持旧Q、只改target平均来强配A0不是独立标定。真实kernel需joint θ/ψ/ξ、multiplicity和source/背景选择；已有0/−.85两分支的误差/response缺口仍保持。图示cut保留比例不是polarimetry实际count ratio，不把更漂亮ξ振幅直接当更优统计设计。

@@ -1,0 +1,38 @@
+{
+  "at": "2026-10-18T22:53:36.927360+08:00",
+  "hard_deadline": "2026-10-19T15:00:00+08:00",
+  "minutes_remaining": 966.384544,
+  "day_index": 16,
+  "completed_day_indices": [
+    16
+  ],
+  "partial_day_indices": [
+    17
+  ],
+  "next_card_checked": "Day17 matrix154–160; same knowledgepreview only",
+  "continuity_problem": "mixedratio/phase/companion-calibration contracts; currentactualFig4 arithmetic boundedcomplete, actualkernelunavailable",
+  "novelty_problem": "GRETINAresponse transfer and independentproducer audit remains useful",
+  "current_source_route_status": "L26/M22 read,actualtables/vectorreplayed; moreunknownQtoyordataparametertuning will notresolvekernel; no newexperimentalresult",
+  "candidate_pool": [
+    {
+      "candidate": "official25Na25Mg selectedENSDF/NSR targetidentity andknownMRprovenance",
+      "information_gain": "high: resolves missingEi/Ef/whicholdMRmeasurementandobjectversion,avoidsameenergywrongreference; data objects publiclyaccessible",
+      "selected": true,
+      "scope": "same25Na/25Mgpolarimetry issue, not newcard orlifetime study"
+    },
+    {
+      "candidate": "UCGretina2021 publiccode orseparateStokesimplementation",
+      "information_gain": "high iffixedversion/publicproducer canbeauthenticated;otherwise code/generationboundary",
+      "selected": false,
+      "reason": "defer while officialtargetidentity route active; no guessinggithubrepo"
+    },
+    {
+      "candidate": "Alikhani2012 body",
+      "selected": false,
+      "reason": "currently closed/failedspecificroutes; no identicalretry"
+    }
+  ],
+  "decision": "continue-with-current-case-official-reference-route",
+  "why_not_closeout": "originaldeadline>120minutes, viableactualdatareference route; goaluserexplicitcontinuous",
+  "no_Day18_opened": true
+}

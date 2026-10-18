@@ -257,6 +257,16 @@ Z13-13、原正文044328-5的1368比较句/等式(8)–(9)，另核arxiv v1 p.10
 
 Canonical [25Na ledger](../../knowledge/research-notes/gretina-25na1041-polarization-response-contract.md)与三source/方法页保存全部复用内容、角色/单位及独立性。Alikhani2012 body仍未得，未据两篇转述认证其原式；source MD tool provider unavailable/attemptedfalse与closed目录边界保留。所有新增均self-audit/needs_review，仍只formal16/partial17。
 
+### 同一response问题延续：公开Fig4平均未按字面闭合
+
+[事前问题/priming](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/l26-averaging-before-analysis.md)、[218点原coverage/axis冻结](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/l26-coverage-vector-input.json)及[模型合同](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/l26-coverage-averaging-contract.json)先于均值计算。原PDF5无embedded raster；从vector取黑C218点/红P2908点，按原0/π、y0/1 ticks及affinematrix映射，未为目标约.35/.53调curve/axis/δ。初stroke-style查询空是parser未读stroke属性/transform，不是原图无数据；后按实际attributes解析。redcutline自动隔离未闭合，门用sourcecaption/text的1.40–1.75，未反推选择。
+
+[实际程序](../../system/scripts/day16_gretina_coverage_average.py)/[完整结果](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/l26-coverage-average-audit.json)使两个积分坐标/16或32Gauss/overallCscale控制差≤1.12×10^-16。按图中红P×黑C literal平均为.377923/.543870，source正文为about.35/.53，保留未闭合；approx没有声明末位/CI精度，不能由图示kernel不足就判实验错。原Table1sigma=.55的publishedmodel同红curve RMS差9.81×10^-5；direct印刷a2/a4模型RMS .003295，两模型事前固定，未调参数。
+
+声明factorized point-response下，direct AD模型的sourcecoverage平均.381428/.547017，event平均.362301/.546949；publishedsigma模型event均值.358972/.543766。改变平均必须同时处理校准Q和calibrator/target的weighting-ratio，不固定Q去强配A0。C若是theta-bin counts，额外乘sin会改成另一对象；joint〈SigmaP〉与分别平均之积及fit统计Cov也须区分。±.01 pagept registration只作数值敏感性，9个negative-C corner拒绝而非clip，非experimentalerror。
+
+图中sourcecut质量约.19669、声明event模型约.16288不是实际polarimetry counts；观测振幅比1.5714的break-even fraction .40496只适用固定角形状的共同scale、knownresponse/无背景uniformξ模型，不给实际delta误差/切门最优。新增L26-27–29/Compton方法/案例note保存artifact与边界，35items不变，仍formal16一次/partial17。
+
 ## Counter-evidence and missing companion observables
 
 最直接反例是一个已知pure参考也无法验证混合项相位：两纯端点通过，错误换号仍改R。另一个反例是本点模型部分Table1不吻合（例如.637341对印值.66；1.188657对1.12），且两比值rectangle没有复现作者>85支；原因未裁决，不能报告原文错误或实验新δ。
@@ -963,7 +973,7 @@ canonical [178W知识单](../../knowledge/research-notes/w178-921-dco-gate-doubl
     },
     {
       "knowledge": "knowledge/methods/compton-polarimetry.md",
-      "summary": "保存PAQ分层、双分段actual432计数公式/derivatives、fiterrors与理想Poisson层区别、printingfailure和matchedeta/Q/fullCov门。 新增EXOGAM比值误差的任意Cov必要界及原表条件不闭合；回代不是独立P验证。 补1368文字Q与外推curve的未闭合、FOM因子化与同response身份条件。 新增GRETINA normalization/真实cut tradeoff与不同reference/Q谱系。",
+      "summary": "保存PAQ分层、双分段actual432计数公式/derivatives、fiterrors与理想Poisson层区别、printingfailure和matchedeta/Q/fullCov门。 新增EXOGAM比值误差的任意Cov必要界及原表条件不闭合；回代不是独立P验证。 补1368文字Q与外推curve的未闭合、FOM因子化与同response身份条件。 新增GRETINA normalization/真实cut tradeoff与不同reference/Q谱系。 新增C(theta)测度/Jacobian、平均产品与经验Q重标的条件设计，实际jointkernel未恢复。",
       "anchor": "Gammasphere双分段的P/A/Q与actual峰面积",
       "sources": [
         {
@@ -1045,6 +1055,18 @@ canonical [178W知识单](../../knowledge/research-notes/w178-921-dco-gate-doubl
         {
           "path": "knowledge/sources/longfellow-2026-gretina-energy-ordering-polarization.md",
           "locator": "L26-24"
+        },
+        {
+          "path": "knowledge/sources/longfellow-2026-gretina-energy-ordering-polarization.md",
+          "locator": "L26-27"
+        },
+        {
+          "path": "knowledge/sources/longfellow-2026-gretina-energy-ordering-polarization.md",
+          "locator": "L26-28"
+        },
+        {
+          "path": "knowledge/sources/longfellow-2026-gretina-energy-ordering-polarization.md",
+          "locator": "L26-29"
         }
       ]
     },
@@ -1594,7 +1616,7 @@ canonical [178W知识单](../../knowledge/research-notes/w178-921-dco-gate-doubl
     {
       "knowledge": "knowledge/sources/longfellow-2026-gretina-energy-ordering-polarization.md",
       "anchor": "DAY16无学分预习增量：数据身份与新约定自审",
-      "summary": "完整10页三表七图重核，8行实测/作者分支与符号冲突、RB/native单emitter桥、Pi/Q/排序合同；旧人审fullprefix不动。",
+      "summary": "完整10页三表七图重核，8行实测/作者分支与符号冲突、RB/native单emitter桥、Pi/Q/排序合同；旧人审fullprefix不动。 新增公开Fig4矢量积分、literalprose未闭合及source/event平均/Q一致迁移条件；不判实验错误。",
       "sources": [
         {
           "path": "knowledge/sources/longfellow-2026-gretina-energy-ordering-polarization.md",
@@ -1635,6 +1657,18 @@ canonical [178W知识单](../../knowledge/research-notes/w178-921-dco-gate-doubl
         {
           "path": "knowledge/sources/longfellow-2026-gretina-energy-ordering-polarization.md",
           "locator": "L26-26"
+        },
+        {
+          "path": "knowledge/sources/longfellow-2026-gretina-energy-ordering-polarization.md",
+          "locator": "L26-27"
+        },
+        {
+          "path": "knowledge/sources/longfellow-2026-gretina-energy-ordering-polarization.md",
+          "locator": "L26-28"
+        },
+        {
+          "path": "knowledge/sources/longfellow-2026-gretina-energy-ordering-polarization.md",
+          "locator": "L26-29"
         }
       ]
     },
@@ -1652,7 +1686,7 @@ canonical [178W知识单](../../knowledge/research-notes/w178-921-dco-gate-doubl
     {
       "knowledge": "knowledge/research-notes/gretina-25na1041-polarization-response-contract.md",
       "anchor": "25Na1041：同号偏振如何参与分支判别",
-      "summary": "真实AD/偏振双候选与matched response/calibration谱系，明确无RDCO与无新实验CI；保存phase/pure/physical/选择失败控制。",
+      "summary": "真实AD/偏振双候选与matched response/calibration谱系，明确无RDCO与无新实验CI；保存phase/pure/physical/选择失败控制。 补22Ne参考图平均边界，不迁sourceC到1041或据cut图给实际最优/新CI。",
       "sources": [
         {
           "path": "knowledge/sources/longfellow-2026-gretina-energy-ordering-polarization.md",
@@ -1705,6 +1739,18 @@ canonical [178W知识单](../../knowledge/research-notes/w178-921-dco-gate-doubl
         {
           "path": "knowledge/sources/lauritsen-2025-gamma-angular-formalism-tracking-arrays.md",
           "locator": "L25-30"
+        },
+        {
+          "path": "knowledge/sources/longfellow-2026-gretina-energy-ordering-polarization.md",
+          "locator": "L26-27"
+        },
+        {
+          "path": "knowledge/sources/longfellow-2026-gretina-energy-ordering-polarization.md",
+          "locator": "L26-28"
+        },
+        {
+          "path": "knowledge/sources/longfellow-2026-gretina-energy-ordering-polarization.md",
+          "locator": "L26-29"
         }
       ]
     }
@@ -1713,6 +1759,8 @@ canonical [178W知识单](../../knowledge/research-notes/w178-921-dco-gate-doubl
 ```
 
 ## Open questions and belief revision
+
+GRETINA新增belief revision：Pbar并非脱离selection/kernel的通用一个数；Q本来按特定平均/归一校准，改变target平均而固定旧Q不能当响应修正。Fig4 literal曲线积分未闭合prose about值，下一须核实际≥2hit/θψ/source normalization/未舍入producer，而非调坐标或sigma追目标。当前publiccurve可复算不等于rawresponse恢复，作者1041选支保留adopted-response条件。精确target Ei/Ef与knownδ reference谱系尚可用官方数据再核。
 
 新增Z13问题：Table I括号σ的实际定义、原a/Q/AD联合Cov及未舍入producer；同校准回代不独立。
 
@@ -1798,3 +1846,9 @@ KS70追加twoangle问题因旧KS70-12已经覆盖而verified-no-op；NRF追加�
 [verification-reopened-010](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/verification-reopened-010.json)最终boundary/lint/diff均exit0、report/card/writeback通过，35 changed knowledge页/35 items；lint0errors162warnings（123key/36raw/3parser）。首次新research-note缺schema及M22缺ExtractedPages共17error、writeback缺directsource link均已修，保留初exit1/false日志；fixed actual0/true。两旧human source全prefix bytehash通过，protected raw/PLAN/Bib不变。代码首symbolic == guard exit1，component simplification后0；新增parity标签/pure-contract控制后再跑0，frozeninputs/旧helpers不变。
 
 [timegate/pool011](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/candidate-refresh-reopened-011.json)余1028.48min，继续原goal。下一L26Fig4公开C(theta)平均问题先冻回忆/边界；PDF5的vectorSVG已提取，尚未digitize/计算，不称rawresponse或新P/Q测量。prepared17 prompt补完整priming，未启动session/授学分。沿用[续接](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/continuation-current.md)和原deadline；稳定发布指针main / `Audit DAY16 GRETINA calibration conventions and branch evidence`，实际hash/结果仅receipt。
+
+### 恢复checkpoint017（研究继续）
+
+[verification-reopened-011](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/verification-reopened-011.json)实际boundary/lint/diff均exit0，report/card/writeback通过；35 changed knowledge页/35 items，lint0errors162warnings（123key/36raw/3parser）。旧两source人审prefix逐字节/protected hash保持，source/coverage/script哈希与numericcontrols通过。图形axis不是拟合误差，literalapprox未闭合与jointkernel/实际Qcov缺口保持，不造新实验结果。
+
+[timegate/pool012](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/candidate-refresh-reopened-012.json)余966.38min，检查恰好下一卡后继续同案例official25Na/25Mg targetreferenceidentity。source-before回忆已冻，NNDC lists实际2025-08ENSDF与2026-02postcutoffXUNDL发现，未授独立实验/课程credit；selecteddata下载后按实际scope/原字段审计。prepared17prompt补Fig4priming，未启动session。沿用[续接](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/continuation-current.md)/原deadline；发布稳定指针main / `Trace DAY16 polarization averaging and calibration transfer`，actualhash/H3/结果仅receipt。

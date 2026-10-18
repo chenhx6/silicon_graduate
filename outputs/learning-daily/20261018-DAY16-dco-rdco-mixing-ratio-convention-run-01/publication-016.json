@@ -1,0 +1,26 @@
+{
+  "publication_index": 16,
+  "at": "2026-10-18T22:15:24.515827+08:00",
+  "branch": "main",
+  "subject": "Audit DAY16 GRETINA calibration conventions and branch evidence",
+  "commit": "fbc310ca879db7650b2790b0cd90822464c7d237",
+  "origin_main": "fbc310ca879db7650b2790b0cd90822464c7d237",
+  "status": "published",
+  "required_exit_codes": {
+    "fresh_fetch": 0,
+    "ancestry": 0,
+    "dry_run_HEAD_main": 0,
+    "push_HEAD_main": 0,
+    "post_commit_eol": 0,
+    "cached_check": 0
+  },
+  "push_observation": {
+    "exec_session_id": 8240,
+    "exit_code": 0,
+    "result": "d881831..fbc310c HEAD -> main"
+  },
+  "initial_required_failures": "17note/source schema errors and directlink writeback failure corrected; originals retained inrunfolder",
+  "goal_status": "active",
+  "research_deadline": "2026-10-19T15:00:00+08:00",
+  "credit_retained_once": true
+}

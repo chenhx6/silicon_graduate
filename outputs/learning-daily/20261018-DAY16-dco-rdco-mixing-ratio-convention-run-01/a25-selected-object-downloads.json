@@ -1,0 +1,161 @@
+{
+  "at": "2026-10-18T14:58:36.510619+00:00",
+  "results": [
+    {
+      "label": "25Na-adopted",
+      "key": "25011001,25NA",
+      "dbclass": "ensdf",
+      "status": 200,
+      "payload": {
+        "dbclass": "ensdf",
+        "page-source": "singular",
+        "chooseit": "ENSDF text format",
+        "datasetcheck": "25011001,25NA"
+      },
+      "pre_found": true,
+      "bytes_response": 32225,
+      "path": "tmp/day16-a25-reference/25Na-adopted.ens",
+      "sha256": "48559d5bc395ad41db7b29dc19384ce45955e5c0a285ead4d362c6c690c86186",
+      "lines": 392,
+      "header_first_nonempty_lines": [
+        " 25NA    ADOPTED LEVELS, GAMMAS                                  25NDS    202508",
+        " 25NA  H TYP=FUL$AUT=M. Shamsuzzoha Basunia, Anagha Chakraborty$",
+        " 25NA2 H CIT=NDS 205, 1 (2025)$CUT=31-May-2025$",
+        " 25NA dG $Transition strength is calculated by Java-RULER (version 08-Feb-2024)",
+        " 25NA  Q 3835.0    12 9011.2 12 10695.113-11735.122    2021WA16",
+        " 25NA cQ $S(2n)=15970.6 {I12}, S(2p)=27220 {I30} (2021Wa16)",
+        " 25NA cG E,RI$From ({+18}O,pn|g), except where otherwise noted.",
+        " 25NA cG E(A)$From {+25}Ne |b- decay (603 ms)",
+        " 25NA cG E(BC),RI(CG),M(Y)$From ({+18}O,|ap|g)",
+        " 25NA cG E(EF),RI(DF)$From (t,p|g),(t,|a|g)",
+        " 25NA cG M$From ({+18}O,pn|g) based on |g(|q), except where noted otherwise.",
+        " 25NA cL E$From a least-squares fit to E|g, except where otherwise noted."
+      ]
+    },
+    {
+      "label": "25Na-BeO",
+      "key": "25011012,25NA",
+      "dbclass": "ensdf",
+      "status": 200,
+      "payload": {
+        "dbclass": "ensdf",
+        "page-source": "singular",
+        "chooseit": "ENSDF text format",
+        "datasetcheck": "25011012,25NA"
+      },
+      "pre_found": true,
+      "bytes_response": 11963,
+      "path": "tmp/day16-a25-reference/25Na-BeO.ens",
+      "sha256": "dc765c3a15be3f3ac7737f213c6234304445a9895a8168c8db55370281c23f0d",
+      "lines": 142,
+      "header_first_nonempty_lines": [
+        " 25NA    9BE(18O,PNG)                  2015VO12                  25NDS    202508",
+        " 25NA  H TYP=FUL$AUT=M. Shamsuzzoha Basunia, Anagha Chakraborty$",
+        " 25NA2 H CIT=NDS 205, 1 (2025)$CUT=31-May-2025$",
+        " 25NA c  Adapted/Edited the XUNDL dataset compiled by B. Singh (McMaster),",
+        " 25NA2c  Sept 5, 2015.",
+        " 25NA c  2015Vo12: E({+18}O)=35 MeV beam from FSU tandem accelerator facility.",
+        " 25NA2c  Measured E|g, I|g, E(p), |g|g-coin, p|g-coin, |g(|q), level half-lives",
+        " 25NA3c  by DSAM using E-|DE Si detectors for protons, and seven Compton-",
+        " 25NA4c  suppressed single crystal Ge detectors, and three four-crystal Compton-",
+        " 25NA5c  suppressed Clover Ge detectors for |g rays. The |g detectors were",
+        " 25NA6c  placed at 35|', 90|' and 145|'. Target was thick enough to stop the",
+        " 25NA7c  incident beam. Deduced levels, J, |p, multipolarity. Comparison with"
+      ]
+    },
+    {
+      "label": "25Na-new-XUNDL",
+      "key": "25011015,25NA",
+      "dbclass": "xundl",
+      "status": 200,
+      "payload": {
+        "dbclass": "xundl",
+        "page-source": "coupled-xun",
+        "postButton": "ENSDF text format",
+        "xunpostcheck": "25011015,25NA"
+      },
+      "pre_found": true,
+      "bytes_response": 2324,
+      "path": "tmp/day16-a25-reference/25Na-new-XUNDL.ens",
+      "sha256": "f26740d6bd99d308b30c4496320276c0a54f6ee573d178b8d50b5bccd292a076",
+      "lines": 23,
+      "header_first_nonempty_lines": [
+        " 25NA    9BE(18O,XG):XUNDL-5           2026LO01                           202602",
+        " 25NA c  Compiled (unevaluated) dataset from 2026Lo01:",
+        " 25NA c  Nucl.Instrum.Methods Phys.Res. A1082, 170932",
+        " 25NA c  Compiled by E.A. McCutchan (NNDC,BNL) January 19, 2026",
+        " 25NA c  {+18}O beam at 55 MeV incident on 1.152 |mg/cm{+2} {+9}Be target.",
+        " 25NA2c  Measured E|g, I|g, |g|g, |g(|q), linear polarization using the",
+        " 25NA3c  GRETINA array consisting of 12 modules each with four, 36-fold",
+        " 25NA4c  segmented HPGe detectors.  Employed recoil-|g using the",
+        " 25NA5c  Fragment Mass Analyzer (FMA).",
+        " 25NA cL E$Rounded values from the Adopted Levels of {+25}Na in ENSDF",
+        " 25NA cG E$Rounded values from the Adopted Gammas of {+25}Na in ENSDF",
+        " 25NA cG M$From |g(|q) and linear polarization measurements (2026Lo01)"
+      ]
+    },
+    {
+      "label": "25Mg-adopted",
+      "key": "25012001,25MG",
+      "dbclass": "ensdf",
+      "status": 200,
+      "payload": {
+        "dbclass": "ensdf",
+        "page-source": "singular",
+        "chooseit": "ENSDF text format",
+        "datasetcheck": "25012001,25MG"
+      },
+      "pre_found": true,
+      "bytes_response": 105101,
+      "path": "tmp/day16-a25-reference/25Mg-adopted.ens",
+      "sha256": "18d5f7ec5728299cacefc78d9c1f9a49748dd105a7176a18a3a5164afec70a80",
+      "lines": 1291,
+      "header_first_nonempty_lines": [
+        " 25MG    ADOPTED LEVELS, GAMMAS                                  25NDS    202508",
+        " 25MG  H TYP=FUL$AUT=M. Shamsuzzoha Basunia, Anagha Chakraborty$",
+        " 25MG2 H CIT=NDS 205, 1 (2025)$CUT=31-May-2025$",
+        " 25MG dG $Transition strength is calculated by Java-RULER (version 19-Aug-2022)",
+        " 25MG  Q -4276.81  4 7330.52 5 12063.855 -9885.926     2021WA16",
+        " 25MG cQ $S(2n)=23861.74 {I6}, S(2p)=22616.68 {I11} (2021Wa16)",
+        " 25MG c  Other reaction:",
+        " 25MG c  {+28}Si(n,|a): 1962Ai01, 1962Co07, 1962Co12, 1963An03, 1963Ma38,",
+        " 25MG2c  1966Fo03, and 1971Mi25.",
+        " 25MG cG E$From {+25}Na |b- decay, except where otherwise noted. E|g without",
+        " 25MG2cG uncertainty: from level energy differences, recoil value subtracted.",
+        " 25MG cG E(AH),RI(HW)$From (n,|g) E=Thermal"
+      ]
+    },
+    {
+      "label": "25Mg-new-XUNDL",
+      "key": "25012036,25MG",
+      "dbclass": "xundl",
+      "status": 200,
+      "payload": {
+        "dbclass": "xundl",
+        "page-source": "coupled-xun",
+        "postButton": "ENSDF text format",
+        "xunpostcheck": "25012036,25MG"
+      },
+      "pre_found": true,
+      "bytes_response": 2486,
+      "path": "tmp/day16-a25-reference/25Mg-new-XUNDL.ens",
+      "sha256": "5aec3b8a43f94570fec2cc1e21d0c8b3965397f5806c54f51ea45fb32f4730ae",
+      "lines": 25,
+      "header_first_nonempty_lines": [
+        " 25MG    9BE(18O,XG):XUNDL-6           2026LO01                           202602",
+        " 25MG c  Compiled (unevaluated) dataset from 2026Lo01:",
+        " 25MG c  Nucl.Instrum.Methods Phys.Res. A1082, 170932",
+        " 25MG c  Compiled by E.A. McCutchan (NNDC,BNL) January 19, 2026",
+        " 25MG c  {+18}O beam at 55 MeV incident on 1.152 |mg/cm{+2} {+9}Be target.",
+        " 25MG2c  Measured E|g, I|g, |g|g, |g(|q), linear polarization using the",
+        " 25MG3c  GRETINA array consisting of 12 modules each with four, 36-fold",
+        " 25MG4c  segmented HPGe detectors.  Employed recoil-|g using the",
+        " 25MG5c  Fragment Mass Analyzer (FMA).",
+        " 25MG cL E$Rounded values from the Adopted Levels of {+25}Mg in ENSDF",
+        " 25MG cG E$Rounded values from the Adopted Gammas of {+25}Mg in ENSDF",
+        " 25MG cG M$From |g(|q) and linear polarization measurements (2026Lo01)"
+      ]
+    }
+  ],
+  "scope": "selectedretrievalonly,adopted25Mgfullobjectmaylarge-notfulldepthreadclaimed;XUNDLnotindependentexperiment"
+}

@@ -270,3 +270,14 @@ Morse的6-quad tracking与L26的12-quad energy-order/noaddback不同；L26 Eq19�
 [[lauritsen-2025-gamma-angular-formalism-tracking-arrays]] L25-30的Q=.33(.04)来自1173 coincidence polarizing 60Co1333，measured/ideal amplitudes .016/.048。未加γγ条件的source singles可为unpolarized reference；同源γ在coincidence条件下却能polarize，不能只按能量或核素名当同一reference。其Q也不能未经gates/角响应/归一转换直接替代Morse .196。
 
 详细matched transition/plane/phase/数据独立性账见[[gretina-25na1041-polarization-response-contract]]。源A2=0可用未相除系数连续计算P，actual intensity=0则P undefined；两种0/0边界须分开。两点energy-ordering的Compton plane换序不变不代表reaction plane/Doppler方向不变，≥3hit与其它拓扑也需实际response。
+
+
+### 角覆盖平均、event平均与Q重标必须一致
+
+[[longfellow-2026-gretina-energy-ordering-polarization]] L26-27–29实际公开Fig4的218点coverage与2908点P曲线重放，按图示CθP/Cθ给约.377923/.543870，正文写about.35/.53；原approx不是精确误差声明，未取得实际kernel/未舍入producer，因此只记录重放未闭合。Cθ若是counts per θ-bin就用dθ；改用cosθ要1/sinθ Jacobian，不能再随意乘sin。图形提取不等于rawresponse。
+
+在声明factorized kernel下，event-weighted平均为∫CθWlabP/∫CθWlab，与sourcecoverage平均∫CθP/∫Cθ不同。更一般harmonic涉及〈Sigma P〉，不自动等于〈Sigma〉〈P〉；缺joint θ/ψ/point/ξ kernel时，分别平均不能恢复其相关。统计fitCov与这种响应measure中的相关是不同对象。
+
+经验Q本来由A/(κPbar)校准，换平均定义须同时换Q。若true A=κq Pbar_event，则Q_C=q Pbar_event/Pbar_C；校准核与目标核只有相同weighting-ratio才会在transfer时抵消。把target换成更合A的平均却固定旧Q不是独立response修正。
+
+真实cut .044/.028的gain1.5714在声明knownresponse/uniformξ/无背景且固定角形状的共同偏振幅度模型中需retained fraction>.40496才提高counting information。sourceC图积分约.19669不是实际Compton-selected count retention，不能拿图形就判原cut优劣或给束流时间。此例的完整identity/readiness保留在[[gretina-25na1041-polarization-response-contract]]，不将22Ne的C迁给25Na1041。

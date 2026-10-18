@@ -1,0 +1,8 @@
+{
+  "at": "2026-10-18T14:39:16.788743+00:00",
+  "exit_code": 0,
+  "script_sha256": "ea68fa176cbc35e1578887876494e9a805be13de69be91b56aae8751625f56ae",
+  "result_sha256_before_summary_metadata_update": "d3b09f913a86995cd547dc0dfa6bed5a8de7b356b73a4a3327376c4144ed03a6",
+  "internal_checks_passed": true,
+  "source_prose_approx_not_yet_classified": true
+}

@@ -1,0 +1,50 @@
+{
+  "at": "2026-10-18T22:42:41.397268+08:00",
+  "source_prose_comparison": {
+    "prose_approx_full_cut": [
+      0.35,
+      0.53
+    ],
+    "literal_red_curve_C_average_full_cut": [
+      0.37792304965934165,
+      0.5438701753429311
+    ],
+    "differences": [
+      0.02792304965934167,
+      0.013870175342931113
+    ],
+    "literal_last_printed_half_unit_agreement": [
+      false,
+      false
+    ],
+    "approx_word_is_not_a_precision_or_CI_specification": true,
+    "status": "literal published-curve arithmetic not closed to prose approximations; actual kernel, selection and unrounded producer remain unknown"
+  },
+  "model_ratios": [
+    {
+      "label": "printed-direct-AD",
+      "source_ratio": 1.4341309073874957,
+      "declared_event_ratio": 1.5096531354726985
+    },
+    {
+      "label": "source-second-fit-sigma0.55-Qgeometry1",
+      "source_ratio": 1.4390633476759516,
+      "declared_event_ratio": 1.5147852203588807
+    }
+  ],
+  "registration_not_CI": {
+    "evaluated": 18,
+    "negative_C_rejected": 9,
+    "Pbar_full_range": [
+      0.3813517823060849,
+      0.3814734251482222
+    ],
+    "Pbar_cut_range": [
+      0.5470164233776293,
+      0.5470175723453428
+    ]
+  },
+  "bounds_source": "1.40–1.75 frompapertext/caption;redcutlineautomaticisolationnotclosed;axisverifiedagainstmajor/minorticksandredphysicscurve",
+  "interpretation": "literalplottedC/Pmeanunclosedtoproseapprox;noactual2Dresponse,calibrationorproducerfitclaim",
+  "source_input_or_axis_tuning": false
+}

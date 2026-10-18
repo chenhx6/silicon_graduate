@@ -146,3 +146,54 @@ Morse已实际取得/读完13页author preprint，见[[morse-2022-gretina-polari
 1041的作者选支可以作为**adopted response下的解释**；没有matched角/point/energy response、AD–A0及a/Q联合Cov，不能将原quoted margins做独立z test或新δ posterior。当前无R_DCO数据；FMA species/峰门与γγ reference gate须区分。案例的durable ledger见[[gretina-25na1041-polarization-response-contract]]。
 
 角coverage的平均P、Compton analyzing-power的平均Q与二者joint平均也不是自动同一对象；实际theta/psi/cut kernel缺失时不能从一条Q(E)补全。本文Fig.4的无cut/有cut A0=.028/.044及Pbar约.35/.53保留作原作者报告，不据此反推一份独立Q标定。
+
+
+## Fig.4的公开矢量曲线：平均的测度与校准范围
+
+本session从原PDF5直接提取vector SVG，而非从示意图造raw响应：Fig.4 top的黑coverage路径218点、红P路径2908点；坐标用图框/0、π/2、π和y=0/1原刻度锁定。公开PDF/SVG/path的hash、完整coverage坐标在冻结input/结果中保留。均值计算前已经暴露原.35/.53/.028/.044，明确primed重放；未调axis/curve/δ/sigma强配这些目标。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+| --- | --- | --- | --- | --- | --- |
+| L26-27 | 原Fig.4 top黑/红路径按“归一source coverage乘P”逐段积分，full/cut给.37792305/.54387018，未按最后印刷位闭合正文约.35/.53。另原Table1第二种fit的sigma/J=.55/Racah模型同红曲线最大差.0002641，printed direct a2=.34/a4=−.12模型最大差.004542。原approx没有声明精确误差，实际selection/kernel/未舍入producer缺失，未判实验错误。 | published-vector-arithmetic | conditional-replay | PDF5 Fig.4 top/caption；PDF6首段.35/.53；PDF5 Table1；Eq.(12) | true |
+| L26-28 | 对Fig.4 coverage Cθ与声明factorized point-response，coverage平均CP/C与event平均CWlabP/CWlab不同；direct-AD模型full为.3814275/.3623012，cut约.547017/.546949。改平均须相应重定义经验Q，不能保留同Q来“修正”A0。真实joint θ–ψ/cut/point kernel未给，这不是实际response重建。 | Codex-response-average-and-calibration | conditional-design | PDF2 Eqs.(12)/(16)；PDF3 Eq.(17)前平均说明；PDF5 Fig.4与Sec.5 | true |
+| L26-29 | Fig.4 cut1.40–1.75的公开source覆盖积分约余.19669；声明factorized event模型约余.16288。实测A0比.044/.028=1.57143，仅在knownresponse、无背景、同uniform-ξ模型且比较固定角形状的共同偏振幅度scale时，需要保留fraction>.40496才增加counting information。图中C不是实际Compton-selected counts，故不据此宣判真实cut有害或给新束流时间。 | Codex-cut-design-and-missing-input | conditional-design | PDF5 Fig.4；PDF6 cut比较段；Eq.(17) | true |
+
+### 图示算术与物理响应各算哪一个平均
+
+令Cθ是source每θ-bin的coverage直方图（图中纵向overall scale任意），与Wlab相乘前不再额外乘sinθ。正文所描述的算术对应
+
+\[
+\overline P_C=\frac{\int C_\theta(\theta)P(\theta)\,d\theta}
+{\int C_\theta(\theta)\,d\theta}.
+\]
+
+若改变量x=cosθ，测度须带1/sinθ；本run两种积分结果最大差1.12×10^-16。随意再乘sinθ会把direct-AD的full结果改成.422054，不是同一个average。16/32点Gauss积分与C overall scale×7的控制均通过。零P、constant P和所有positive intensity控制也保持；vertical step对积分测度贡献0。
+
+| 原件/声明模型 | full的source平均 | cut的source平均 | full的声明event平均 | cut的声明event平均 |
+| --- | --- | --- | --- | --- |
+| 实际公开红P×黑C路径 | .37792305 | .54387018 | 不从两条图补joint response | 同左 |
+| printed direct a2=.34/a4=−.12，β=.044 | .38142750 | .54701697 | .36230124 | .54694921 |
+| 原sigma/J=.55/纯E2 source-coefficient模型，β=.044 | .37790650 | .54383139 | .35897240 | .54376609 |
+
+这里event平均额外**声明**相同source C可作factorized polarimeter acceptance，Wlab含原aberration/Jacobian：
+
+\[
+\overline P_{CW}=\frac{\int C_\theta W_{\rm lab}P\,d\theta}
+{\int C_\theta W_{\rm lab}\,d\theta}.
+\]
+
+实际polarimetry含≥2points、峰/背景/source除法、可能的θ预归一与非factorized响应；一条1238-source coverage不足以证明这个声明kernel就是原producer。因此原均值不闭合、两平均差与caption“measured coefficients”对红curve的匹配，均保留为**重放边界**，不擅自给原结果原因。两组published模型都是事前固定，未优化参数或声称已恢复未舍入fit。
+
+±.01 page-point的axis/zero独立扰动只检digitization registration，18个保持非负C的corner给direct-AD full约.381352–.381473；9个产生negative C的corner明确拒绝，没有clip或移动baseline。它不是统计error或总图形误差界，也不把prose的“about”当±.005 CI。red cutline自动隔离没有成功；积分门取作者caption/text明确1.40–1.75，未靠反推Pbar选门。
+
+### 一个Q平均不能补回joint kernel
+
+声明η(θ,ψ,ξ)等响应后，实际归一ξ harmonic一般涉及带响应的〈Sigma(ψ)P(θ)〉。分别求Q=〈Sigma〉和Pbar=〈P〉再相乘，除非证明对应measure下独立/可分或采用一致的**有效定义**，不自动等于joint平均；差异可写成同measure下Cov_kernel(Sigma,P)。这是detector weighting中的函数相关，不是fit统计Cov，两者都不能从单Cθ图恢复。
+
+假设只为说明identity，true harmonic为A=κq Pbar_event，则按另一平均标出的经验Q_C=A/(κPbar_C)=q Pbar_event/Pbar_C。换定义后应同时变Q；仅在实际response q本已相同的条件下，从calibrator c迁target t会留下ratio[(P_event/P_C)_t/(P_event/P_C)_c]，只有两ratio相同才抵消。不能只改target的Pbar并固定由另kernel标的Q，来把prediction向A0fit调近。
+
+图中红/黑积分得到的cut/full约1.439；声明event模型约1.515，原作者约.53/.35=1.514、A0比1.571。这种相近不是原producer采用某kernel的证据，不能据接近程度选择或调整模型。对sourceC的cut retention也不能当实测polarimetry yield；下一必要输入是实际Compton θ/ψ/ξ与cut/background/source ledger、matching Qcal与完整Cov。
+
+[218点/axis冻结输入](../../outputs/learning-daily/20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/l26-coverage-vector-input.json)、[事前模型合同](../../outputs/learning-daily/20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/l26-coverage-averaging-contract.json)、[代码](../../system/scripts/day16_gretina_coverage_average.py)、[完整路径/平均/registration结果](../../outputs/learning-daily/20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/l26-coverage-average-audit.json)。原PDF与上方humanprefix保持，新增claims仍needs_review，无新P/Q测量或正式Day17信用。
+
+这里的cut counting-information条件比较固定P(theta)形状下的共同scale，不直接给混合比delta的likelihood信息。不同delta会改变角形状/强度；matched joint响应/布居及Cov仍需另外处理。

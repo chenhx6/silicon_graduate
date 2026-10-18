@@ -1,0 +1,8 @@
+{
+  "at": "2026-10-18T22:25:35.874205+08:00",
+  "sha256": "d931741c8d84811eb304d4d6ee1c9da6fd1dbab591e9d97e8daf765decff51fc",
+  "before_any_mean_computation": true,
+  "sourcecurve_points": 218,
+  "axis_from_original_ticks_not_targetfitting": true,
+  "extraction_revision": "initialstyle/strokeandtransforminventorywasincomplete;currentparserusesstrokeattributeandaffinematrix;nochangingcurve"
+}

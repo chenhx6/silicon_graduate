@@ -1,0 +1,52 @@
+{
+  "identity": "L26-FIG4-PLOT-AND-DECLARED-KERNEL-CONTRACT-01",
+  "day_index": 16,
+  "partial_day_indices": [
+    17
+  ],
+  "formal17": false,
+  "coverage_input_sha256": "d931741c8d84811eb304d4d6ee1c9da6fd1dbab591e9d97e8daf765decff51fc",
+  "source_svg": "tmp/day16-l26-preview/l26-page5.svg",
+  "source_svg_sha256": "5ea9cb6c89efd7209dea36a36917b7863afb032f0c3ea517b80cc78183ca244b",
+  "plotted_P_path_d_sha256": "99e4fd7a08a6cecf05a9e229ab6e3b82ffd0fa9bb251c325ffc570f0e03e41d3",
+  "plotted_P_attrs_except_d": {
+    "fill": "none",
+    "stroke-width": "0.553",
+    "stroke-linecap": "butt",
+    "stroke-linejoin": "miter",
+    "stroke": "rgb(92.976379%, 11.483765%, 14.033508%)",
+    "stroke-opacity": "1",
+    "stroke-dasharray": "3.8682 1.6578",
+    "stroke-miterlimit": "10",
+    "transform": "matrix(0.998785, 0, 0, -0.998785, 43.077607, 644.649117)"
+  },
+  "physics_models": [
+    {
+      "label": "printed-direct-AD",
+      "a2": 0.34,
+      "a4": -0.12,
+      "beta": 0.044
+    },
+    {
+      "label": "source-second-fit-sigma0.55-Qgeometry1",
+      "a2": 0.33748151125870723,
+      "a4": -0.11517951670058801,
+      "beta": 0.044,
+      "basis": "L26Table1sigma/J=.55,pure2->0,sourceR/tensorreplay;notfittedtoredcurve"
+    }
+  ],
+  "axis_registration": {
+    "theta0_x": 71.79296884701185,
+    "thetaPi_x": 277.3281249667318,
+    "zero_y": 490.074218706799,
+    "thetaPiOver2_tick_x": 174.5625001404369,
+    "y1_tick_y": 396.66015622993365,
+    "y1_value": 1.0
+  },
+  "zero_semantics": "C outside plotted active-support zero by sourcepath; no inventedcounts. RegistrationcornersthatmakeCnegative rejected ratherthanclipped.",
+  "averaging_contract": "plotCtimesplottedP = publishedarithmetic; modelCtimesP vs CtimesWlabP = differentdeclaredkernels; notoriginalproducerverification",
+  "calibration_contract": "ChangingPbarweightingrequiresconsistentQrecalibration; do not keepempiricalQfixedtoimproveA0match. Calibrator-to-targetaverage-ratio cancellation is an explicittransfercondition.",
+  "registration_control": "±.01pagept onaxisendpointsandbaseline,notexperimentalerror/CI",
+  "source_physics_known_before_compute": "Pbar.35/.53andA0.028/.044priming;redcurvecomparisonusesonlypublishedmodeloptions,nooptimization",
+  "vector_curve_points_stored_in_source_svg": true
+}

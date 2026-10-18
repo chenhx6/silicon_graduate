@@ -1,0 +1,12 @@
+{
+  "at": "2026-10-18T22:53:36.927360+08:00",
+  "session_id": "01a14ce6-425e-77c1-a127-2ac980bd76b5",
+  "sha256": "6ae283359e931e05f1c5c1a0d8dcc1fbcbd2159af2a215841bcf039406c3c661",
+  "primed": true,
+  "scope": "selectedreferenceidentityonly,nolifetimeorDay18",
+  "day_index": 16,
+  "partial_day_indices": [
+    17
+  ],
+  "formal17": false
+}
