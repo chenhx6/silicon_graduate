@@ -126,3 +126,9 @@ G.D. Jones、P.A. Butler、T.H. Hoare、P.M. Jones，*European Physical Journal 
 [原表/phase程序](../../system/scripts/day16_jones1998_reference_audit.py)、[舍入交集程序](../../system/scripts/day16_jones1998_rounding_audit.py)，实际exit0。输入v1的46行人工清单保留；v2在完整分析前补329.86/300.00及2002首行对应，47条以parent/Eγ复合键区分。依赖为已有repo SymPy1.14.0，原PDF/J02raw不变。
 
 [完整主线/视觉记录](../../outputs/learning-daily/20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/jones1998-full-mainline-reading.json)、[结果](../../outputs/learning-daily/20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/jones1998-reference-audit-result.json)与[舍入结果](../../outputs/learning-daily/20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/jones1998-rounding-audit-result.json)仅证明本run执行。长期可引用的版本、条件、数与反证保存在本页原子claims。
+
+### 后续官方对象与回忆纠正
+
+[[nndc-2001-223ra-reference-and-2026-intensity-records]] N223-1–10已核旧评价2003Jπ/2012NR修改与2026编译的不同层。旧MR62.45 unsigned0.29(5)不认证正号；新XUNDL只有2019绝对Iγ且全部MR空。&未分/ @已分的两版强度保留，不用其RI强配本实验α门或解释全部theory非闭合。
+
+主动回忆曾误写该62.45终态为61.431，已用官方能量记录纠正：342.654到280.182为相容候选，281.42才带FL61.424；冻结回忆不覆写。47行算符原输入为正确Ji9/2/Jf7/2且不含错误Ef，既有角数不变。这一错误未进入本source原子claim的终态赋值；后续identity guard仍保留没有显式FL的界限。

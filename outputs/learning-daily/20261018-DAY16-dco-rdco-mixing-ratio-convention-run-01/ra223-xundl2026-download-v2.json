@@ -1,0 +1,18 @@
+{
+  "at": "2026-10-19T06:40:24.621754+08:00",
+  "url": "https://www.nndc.bnl.gov/ensdf/EnsdfDispatcherServlet",
+  "payload": {
+    "dbclass": "xundl",
+    "page-source": "coupled-xun",
+    "xunpostcheck": "223088009,223RA",
+    "postButton": "ENSDF text format"
+  },
+  "status": 200,
+  "responsepath": "tmp/day16-ra223-reference/xundl2026-v2-response.html",
+  "response_sha256": "a6218987a029d72920d2d246ea97a86743022cce5753324b5ac057384d00e80e",
+  "textpath": "tmp/day16-ra223-reference/xundl2026-v2.ens",
+  "text_sha256": "30a38a663859a9df19fd75ff58eef143b52f13b962464f2d60a8f0c7330b329f",
+  "lines": 143,
+  "looks_likeENSDF": true,
+  "correction": "officialXUNDLform submitname postButton, notENSDFchooseit; first500retained"
+}

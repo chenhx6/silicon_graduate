@@ -1,0 +1,368 @@
+{
+  "at": "2026-10-19T06:53:02.763505+08:00",
+  "script_sha256": "eb1e7ac5246232789c76cadcb7d6d4fc892390ca42878fb870452041ef7cdd99",
+  "contract_sha256": "b32e2fb3267713f88d7c131ed239c0b9a680563ffcccbab8fd967e9c73d99fd2",
+  "source_hashes": {
+    "adopted": "691b1924ddb45793d68f03b3aafe4c09c456a30f85e5c316bc316b69cb1fc090",
+    "alpha": "782c225e071facafce81f60c6a56b08d752ea2733dab3101d073c12aa8e655fc",
+    "xundl2026": "30a38a663859a9df19fd75ff58eef143b52f13b962464f2d60a8f0c7330b329f"
+  },
+  "selected_unsigned_MR_records": [
+    {
+      "dataset": "adopted",
+      "record": {
+        "line": 262,
+        "parent": {
+          "line": 258,
+          "E": "342.654",
+          "DE": "21",
+          "Jpi": "(9/2)+"
+        },
+        "E": "62.45",
+        "DE": "5",
+        "RI": "256",
+        "DRI": "33",
+        "M": "M1+E2",
+        "MR": "0.29",
+        "DMR": "5",
+        "attached": [],
+        "raw": "223RA  G      62.45 5   256  33   M1+E2     0.29  5      19.0 21            &   ",
+        "sign_status": "unknown-sign-unsigned-token",
+        "comment_flag_col77": "&",
+        "coincidence_flag_col78": " ",
+        "CC": "19.0",
+        "LC": null,
+        "MC": null
+      },
+      "sigma_magnitude": 0.05,
+      "sign_would_be_lost_by_plain_float": true
+    },
+    {
+      "dataset": "alpha",
+      "record": {
+        "line": 492,
+        "parent": {
+          "line": 490,
+          "E": "342.654",
+          "DE": "21",
+          "Jpi": "(9/2)+"
+        },
+        "E": "62.45",
+        "DE": "5",
+        "RI": "1.57",
+        "DRI": "20",
+        "M": "M1+E2",
+        "MR": "0.29",
+        "DMR": "5",
+        "attached": [
+          {
+            "line": 493,
+            "raw": "223RAS G LC=14.2 15$MC=3.6 4$NC+=1.27 15                                        "
+          },
+          {
+            "line": 494,
+            "raw": "223RA cG M,MR$from A{-2}=0.29 {I6}, A{-4}=-0.07 {I8}, |a|g(|q) (1998Jo08).      "
+          },
+          {
+            "line": 495,
+            "raw": "223RA2cG Other value: |?0.2, from ce(L1):ce(L2) exp=0.07:0.023 {I2} (1971Br28). "
+          }
+        ],
+        "raw": "223RA  G      62.45 5   1.57 20   M1+E2     0.29  5      19.0 21            &   ",
+        "sign_status": "unknown-sign-unsigned-token",
+        "comment_flag_col77": "&",
+        "coincidence_flag_col78": " ",
+        "CC": "19.0",
+        "LC": 14.2,
+        "MC": 3.6
+      },
+      "sigma_magnitude": 0.05,
+      "sign_would_be_lost_by_plain_float": true
+    }
+  ],
+  "two_assumed_sign_predictions": [
+    {
+      "delta_RB_assumed": -0.29,
+      "native_IQUV_model": {
+        "a0": 0.9999999999999998,
+        "a2": 0.24518425202339778,
+        "a4": 0.048358983512573395,
+        "W90": 0.8955424928055159,
+        "Q90": -0.7039589189825848,
+        "P90": -0.7860698120278508
+      },
+      "bridge_residual": 0.0
+    },
+    {
+      "delta_RB_assumed": 0.29,
+      "native_IQUV_model": {
+        "a0": 0.9999999999999989,
+        "a2": -0.8567754096896331,
+        "a4": 0.04835898351256862,
+        "W90": 1.44652232366203,
+        "Q90": -0.1529790881260707,
+        "P90": -0.10575646543690204
+      },
+      "bridge_residual": 0.0
+    }
+  ],
+  "old_divided113_records": [
+    {
+      "line": 251,
+      "parent": {
+        "line": 232,
+        "E": "174.569",
+        "DE": "24",
+        "Jpi": "9/2-"
+      },
+      "E": "113.11",
+      "DE": "5",
+      "RI": "4.2",
+      "DRI": "",
+      "M": "E1",
+      "MR": "",
+      "DMR": "",
+      "attached": [
+        {
+          "line": 252,
+          "raw": "223RAS G KC=    0.281  $LC=   0.0611   $MC=    0.0147  $NC+=     0.00506        "
+        },
+        {
+          "line": 253,
+          "raw": "223RA cG E         other value: 113.1 {I1} (1968Da10).                          "
+        },
+        {
+          "line": 254,
+          "raw": "223RA cG RI        from 1971Br29. I|g=6.6 {I3} (1993Ab01).                      "
+        },
+        {
+          "line": 255,
+          "raw": "223RA cG M         from |a(L1)exp=0.032 (1971Br29,1977Ma32). A{-2}=-0.18 {I1},  "
+        },
+        {
+          "line": 256,
+          "raw": "223RA2cG A{-4}=-0.035 15, |a|g(|q) (1998Jo08).                                  "
+        }
+      ],
+      "raw": "223RA  G   113.11  5    4.2        E1                    0.362              @   ",
+      "sign_status": "not-recorded",
+      "comment_flag_col77": "@",
+      "coincidence_flag_col78": " ",
+      "CC": "0.362",
+      "LC": 0.0611,
+      "MC": 0.0147
+    },
+    {
+      "line": 265,
+      "parent": {
+        "line": 257,
+        "E": "174.58",
+        "DE": "4",
+        "Jpi": "11/2+"
+      },
+      "E": "113.11",
+      "DE": "5",
+      "RI": "1.2",
+      "DRI": "",
+      "M": "E2",
+      "MR": "",
+      "DMR": "",
+      "attached": [
+        {
+          "line": 266,
+          "raw": "223RAS G KC=    0.304  $LC=     4.00   $MC=      1.09  $NC+=       0.394        "
+        },
+        {
+          "line": 267,
+          "raw": "223RA cG RI        from 1971Br29. I|g=6.6 {I3} (1993Ab01).                      "
+        },
+        {
+          "line": 268,
+          "raw": "223RA cG M$from ce(L2):ce(L3) exp=0.35:0.24 (1971Br27) and |a(L)exp=3.99        "
+        },
+        {
+          "line": 269,
+          "raw": "223RA2cG (1971Br29,1977Ma32). A{-2}=-0.18 {I1}, A{-4}=-0.035 {I15}, |a|g(|q)    "
+        },
+        {
+          "line": 270,
+          "raw": "223RAxcG (1998Jo08).                                                            "
+        }
+      ],
+      "raw": "223RA  G   113.11  5    1.2        E2                    5.78               @   ",
+      "sign_status": "not-recorded",
+      "comment_flag_col77": "@",
+      "coincidence_flag_col78": " ",
+      "CC": "5.78",
+      "LC": 4.0,
+      "MC": 1.09
+    }
+  ],
+  "conditional_E2_fractions_equal_response": {
+    "photon": 0.2222222222222222,
+    "total": 0.5871654975318263,
+    "L_electrons": 0.9492506852403384,
+    "M_electrons": 0.9549257523325595
+  },
+  "old_normalization": {
+    "NR_token": "0.129",
+    "DNR_token": "11",
+    "NR": 0.129,
+    "sigma_NR": 0.011,
+    "raw": "223RA  N   0.129   11             1.0                                           "
+  },
+  "modern_normalization": {
+    "NR_token": "1.0",
+    "DNR_token": "",
+    "NR": 1.0,
+    "sigma_NR": null,
+    "raw": "223RA  N 1.0                   1.0                                              "
+  },
+  "old113_aggregate_photon_per100_central": 0.6966000000000001,
+  "modern_undivided_pairs": [
+    {
+      "energy_token": "113.1",
+      "records": [
+        {
+          "line": 46,
+          "parent": {
+            "line": 45,
+            "E": "174.6",
+            "DE": "",
+            "Jpi": "9/2-"
+          },
+          "E": "113.1",
+          "DE": "",
+          "RI": "0.8026",
+          "DRI": "38",
+          "M": "",
+          "MR": "",
+          "DMR": "",
+          "attached": [],
+          "raw": "223RA  G 113.1        0.8026 38                                             &   ",
+          "sign_status": "not-recorded",
+          "comment_flag_col77": "&",
+          "coincidence_flag_col78": " ",
+          "CC": "",
+          "LC": null,
+          "MC": null
+        },
+        {
+          "line": 48,
+          "parent": {
+            "line": 47,
+            "E": "174.6",
+            "DE": "",
+            "Jpi": "11/2+"
+          },
+          "E": "113.1",
+          "DE": "",
+          "RI": "0.8026",
+          "DRI": "38",
+          "M": "",
+          "MR": "",
+          "DMR": "",
+          "attached": [],
+          "raw": "223RA  G 113.1        0.8026 38                                             &   ",
+          "sign_status": "not-recorded",
+          "comment_flag_col77": "&",
+          "coincidence_flag_col78": " ",
+          "CC": "",
+          "LC": null,
+          "MC": null
+        }
+      ],
+      "one_shared_undivided_I": 0.8026,
+      "sigma_shared_I": 0.0038,
+      "naive_placement_sum_wrong": 1.6052,
+      "component_partition_or_covariance_identified": false
+    },
+    {
+      "energy_token": "314.9",
+      "records": [
+        {
+          "line": 114,
+          "parent": {
+            "line": 107,
+            "E": "376.3",
+            "DE": "",
+            "Jpi": "7/2-"
+          },
+          "E": "314.9",
+          "DE": "",
+          "RI": "0.4754",
+          "DRI": "10",
+          "M": "",
+          "MR": "",
+          "DMR": "",
+          "attached": [],
+          "raw": "223RA  G 314.9        0.4754 10                                             &   ",
+          "sign_status": "not-recorded",
+          "comment_flag_col77": "&",
+          "coincidence_flag_col78": " ",
+          "CC": "",
+          "LC": null,
+          "MC": null
+        },
+        {
+          "line": 134,
+          "parent": {
+            "line": 130,
+            "E": "445.1",
+            "DE": "",
+            "Jpi": "9/2+"
+          },
+          "E": "314.9",
+          "DE": "",
+          "RI": "0.4754",
+          "DRI": "10",
+          "M": "",
+          "MR": "",
+          "DMR": "",
+          "attached": [],
+          "raw": "223RA  G 314.9        0.4754 10                                             &   ",
+          "sign_status": "not-recorded",
+          "comment_flag_col77": "&",
+          "coincidence_flag_col78": " ",
+          "CC": "",
+          "LC": null,
+          "MC": null
+        }
+      ],
+      "one_shared_undivided_I": 0.4754,
+      "sigma_shared_I": 0.001,
+      "naive_placement_sum_wrong": 0.9508,
+      "component_partition_or_covariance_identified": false
+    }
+  ],
+  "recall_energy_identity_control": {
+    "parent": {
+      "line": 258,
+      "E": "342.654",
+      "DE": "21",
+      "Jpi": "(9/2)+"
+    },
+    "gamma_keV": 62.45,
+    "energy_compatible_candidate": {
+      "line": 183,
+      "E": "280.182",
+      "DE": "22",
+      "Jpi": "(7/2)+"
+    },
+    "candidate_gap_minus_gamma_keV": 0.02199999999997715,
+    "rejected_recalled_daughter": {
+      "line": 107,
+      "E": "61.424",
+      "DE": "10",
+      "Jpi": "(7/2)+"
+    },
+    "wrong_gap_minus_gamma_keV": 218.78000000000003,
+    "explicit_FL_for62p45_recovered": false,
+    "boundary": "The 61.424 daughter is attached to281.42/FL in the source, not62.45; .1keV is a search guard, not a covariance-based significance test."
+  },
+  "all_modern_MR_fields_blank": true,
+  "rounded_level_energy_only_selector_rejected": true,
+  "old_and_new_dataset_difference_significance_calculated": false,
+  "actual_J98_gate_fraction_P_or_new_delta_measured": false,
+  "boundary": "Old evaluated divided intensities and LC/MC only under equal-response model; modern shared totals do not identify component weights. Unsigned ENSDF MR remains sign unknown."
+}

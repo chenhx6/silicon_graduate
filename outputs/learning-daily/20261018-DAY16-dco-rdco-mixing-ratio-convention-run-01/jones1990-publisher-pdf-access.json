@@ -1,0 +1,12 @@
+{
+  "at": "2026-10-19T06:35:45.533468+08:00",
+  "url": "https://iopscience.iop.org/article/10.1088/0954-3899/17/5/017/pdf",
+  "final_url_query_omitted": "https://validate.perfdrive.com/fb803c746e9148689b3984a31fccd902/",
+  "status": 200,
+  "is_pdf": false,
+  "path": "tmp/day16-ni60-reference/jones1990-discovery/publisher-pdf-response.txt",
+  "sha256": "921dca754f60085a919c7e2519a3bffe4726dd8b38de1988c8797d81c0ebe860",
+  "bytes": 14371,
+  "discovery_basis": "OpenAlexpublisherpdfurl",
+  "outcome": "publisherresponse-notPDF"
+}

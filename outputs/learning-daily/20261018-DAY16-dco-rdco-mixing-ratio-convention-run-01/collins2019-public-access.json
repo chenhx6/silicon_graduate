@@ -1,0 +1,33 @@
+{
+  "at": "2026-10-19T06:52:10.349842+08:00",
+  "rows": [
+    {
+      "name": "nplsearch",
+      "url": "https://eprintspublications.npl.co.uk/cgi/search/simple?q=10.1016%2Fj.apradiso.2018.10.023&_action_search=Search",
+      "status": 200,
+      "path": "tmp/day16-ra223-reference/collins2019-discovery/nplsearch.txt",
+      "sha256": "3dd3e6c647db5b242260e958677077e0c5e6322fb10fbbda25eedc719fca2ce6",
+      "bytes": 20212,
+      "text": "Search results for 10.1016/j.apradiso.2018.10.023 | NPL Publications Home < back to main site Browse Search Publications We use cookies to ensure that we give you the best experience on our website Learn more Agree Publications Login Search results for 10.1016/j.apradiso.2018.10.023 Displaying results 1 to 1 of 1 . Refine search | New search Order the results: by year (oldest first) by relevance match by title by year (most recent first) by author's name Export 1 results as ASCII Citation BibTeX Dublin Core EndNote HTML Citation METS Object IDs OpenURL ContextObject RefWorks Refer Reference Manager RSS 1. Collins, S M ; Keightley, J D ; Ivanov, P ; Arinc, A ; Fenwick, A J ; Pearce, A K (2019) The potential radio-immunotherapeutic \u03b1-emitter 227Th \u2013 part II: Absolute \u03b3-ray emission intensities from the excited levels of 223Ra. Applied Radiation and Isotopes, 145.\n     pp. 251-257.\n    \n     ISSN 09698043 Displaying results 1 to 1 of 1 . Refine search | New search Order the results: by year (oldest first) by relevance match by title by year (most recent first) by author's name \u00a9 National Physical Laboratory 2026 National Physical Laboratory | Hampton Road, Teddington, Middlesex, TW11 0LW | Tel: 020 8977 3222",
+      "links": []
+    },
+    {
+      "name": "publisher",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0969804318305359",
+      "status": 403,
+      "path": "tmp/day16-ra223-reference/collins2019-discovery/publisher.txt",
+      "sha256": "0c76b5a4970b473e1186e959d01d973f31d5ca24ef922de586630d93e9bd124b",
+      "bytes": 832804
+    },
+    {
+      "name": "publisher-api-public",
+      "url": "https://api.elsevier.com/content/article/PII:S0969804318305359?httpAccept=text/xml",
+      "status": 429,
+      "path": "tmp/day16-ra223-reference/collins2019-discovery/publisher-api-public.txt",
+      "sha256": "02f6d1d49ded4e0b0898231f5939ef4ad814352d39372ed5e91b8f5b69bf0d8c",
+      "bytes": 180,
+      "ce_section_present": false,
+      "original_text_present": false
+    }
+  ]
+}

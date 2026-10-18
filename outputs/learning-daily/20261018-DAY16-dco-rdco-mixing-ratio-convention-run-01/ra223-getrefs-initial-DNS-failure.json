@@ -1,0 +1,12 @@
+{
+  "at": "2026-10-19T06:43:30.934607+08:00",
+  "exit_code": 1,
+  "request_batch": [
+    "https://www.nndc.bnl.gov/ensdf/getrefs.jsp?recid=223088009",
+    "https://www.nndc.bnl.gov/ensdf/getrefs.jsp?recid=223088003"
+  ],
+  "observed_failure": "NameResolutionError Errno-5 www.nndc.bnl.gov onxundl009; ThreadPoolfirstexceptionpreventednormalreceipt",
+  "retained_files": [],
+  "status": "transientnetworkboundary; exactprimarykey2019Co05 inlocaldownload remainsavailable; notarticleevidence",
+  "no_credentials_or_DNS_configuration_changed": true
+}

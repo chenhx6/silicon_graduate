@@ -66,6 +66,17 @@ updated: 2026-10-19
 
 ## Sources and evidence
 
+### Checkpoint030：223Ra符号未知与多重放置
+
+新增[官方对象source](../../knowledge/sources/nndc-2001-223ra-reference-and-2026-intensity-records.md) N223-1–10，旧Adopted/α定向读、2026XUNDL完整143行。基版200110不覆盖2003Jπ/2012NR更正史；新编译实为2019Co05 absoluteγ而非新2026δ/P。MR0.29(5)无显式号，按TU01 sign未知；&总强度未分/@已分的格式原页已视觉核并新增TU01-4。
+
+[fixed-column/权重/phase脚本](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/ra223-official-audit-result.json)实际exit0：同组113.1/314.9的重复& RI不可相加或当各自独立分量；旧@RI在声明同响应下给E2 photon/total/L/M份额.2222/.5872/.9493/.9549，不作实际门纯度。未做跨版本RI差异z检验或恢复联合Cov。
+
+主动回忆把62.45终态误写61.431，已由能量闭合纠正为280.182相容候选；281.42才有FL61.424。冻结原文/hash保留，[纠正回执](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/ra223-recall-correction.json)另存，既有J9/2→7/2模型输入和结果不变。source/G4字段或同spin本身不能替代正确level identity。
+
+Collins2019 DOI10.1016/j.apradiso.2018.10.023原件前回忆已冻，NSR/Crossref/NPL记录核身份，但NPL明确fulltextnotavailable、publisher403/API429，正文未读；不由metadata补calibrationCov。1990apparatus亦仅验证页/仓储边界，后续只沿新合法输入继续。formal16一次/partial17、原15:00上海截止不改。
+
+
 ### Checkpoint029：223Ra原实验与matching companion
 
 新增[Jones1998原source](../../knowledge/sources/jones-1998-ra223-alpha-gamma-correlations.md) J98-1–13，出版商真实13页PDF/hash/identity核后完整主线、9图3表视觉读。原227Ac/Th源、α–γ/α–eL,M选择、Qk/fit/phase和两314.78原Fig8已定位；2002转录AD/新增理论P与1998是同谱系。
@@ -468,6 +479,8 @@ pointgate本批 `limits`仅以角色不同就推physicalP不同的强断言：pu
 
 ## Durable knowledge delta
 
+本批新[223Ra官方source](../../knowledge/sources/nndc-2001-223ra-reference-and-2026-intensity-records.md)保存N223-1–10，及[Tuli格式页](../../knowledge/sources/tuli-2001-ensdf-format-manual.md) TU01-4的col77规则；Compton/混合比/转换方法保存其sign/parent/RI/response使用合同。回忆纠正有独立记录，未覆写原冻结。
+
 本批新增[Jones1998 source](../../knowledge/sources/jones-1998-ra223-alpha-gamma-correlations.md)的“先识别α门、母态与粒子通道，再谈偏振reference”锚点；J98-4/6/8/10–12分别把phase/sourcepreparation、真实companion、分母、附条件sign与版本核验写入[混合比](../../knowledge/observables/multipole-mixing-ratio.md)、[转换系数方法](../../knowledge/methods/internal-conversion-analysis.md)及Compton/J02源页。输出回执不是唯一知识副本。
 
 本批在[Jones2002 source](../../knowledge/sources/jones-2002-calibration-compton-polarimeters.md)“2026-10-19 Codex追加：校准态、零强度与相对效率边界”追加J02-14–21，并写入[不对称方法](../../knowledge/methods/linear-polarization-asymmetry.md)的cross-ratio公式及[Compton方法](../../knowledge/methods/compton-polarimetry.md)的node/reference界限；均为新self-audit，不改旧人审prefix。
@@ -773,7 +786,7 @@ canonical [178W知识单](../../knowledge/research-notes/w178-921-dco-gate-doubl
     },
     {
       "knowledge": "knowledge/index.md",
-      "summary": "最小索引新增178W921计算单导航，不添加独立科学结论。 新增固定ALPACA独立实现/观测对象边界。 新增原ENSDF章/total-decay和MR字段边界。 加入ICC概率物理域方法入口。 新增公开DELTAactualrun/误差与数值failure边界。 新增104Mo评价时层/target身份及标签使用边界。 加入Morse新primary与25Na1041 durable ledger导航。 加入A25官方对象/历史版本入口。 新增UCGretina固定公开代码入口。 加实际Eu152 sourcecalibration数据入口。 G411新批补入truth/geometry实际控制与历史源response边界。 Riley2021原件已另读并核当前模型/原论文响应迁移边界。 Co60 gate/source与选择对象控制和原producer缺口已关联。 补Ni60官方reference/共同δ误差与actualSDK总分支归一，保留primaryphase缺口。 补原Jones1998 α–γ/electron主线、source版本/phase/同能标母态与共同误差边界。",
+      "summary": "最小索引新增178W921计算单导航，不添加独立科学结论。 新增固定ALPACA独立实现/观测对象边界。 新增原ENSDF章/total-decay和MR字段边界。 加入ICC概率物理域方法入口。 新增公开DELTAactualrun/误差与数值failure边界。 新增104Mo评价时层/target身份及标签使用边界。 加入Morse新primary与25Na1041 durable ledger导航。 加入A25官方对象/历史版本入口。 新增UCGretina固定公开代码入口。 加实际Eu152 sourcecalibration数据入口。 G411新批补入truth/geometry实际控制与历史源response边界。 Riley2021原件已另读并核当前模型/原论文响应迁移边界。 Co60 gate/source与选择对象控制和原producer缺口已关联。 补Ni60官方reference/共同δ误差与actualSDK总分支归一，保留primaryphase缺口。 补原Jones1998 α–γ/electron主线、source版本/phase/同能标母态与共同误差边界。 补223Ra真实unsignedMR、multipletflag/NR、同源与分母合同，并显式纠正冻结回忆的终态误认。",
       "anchor": "w178-921-dco-gate-double-solutions",
       "sources": [
         {
@@ -855,6 +868,10 @@ canonical [178W知识单](../../knowledge/research-notes/w178-921-dco-gate-doubl
         {
           "path": "knowledge/sources/jones-1998-ra223-alpha-gamma-correlations.md",
           "locator": "J98-1"
+        },
+        {
+          "path": "knowledge/sources/nndc-2001-223ra-reference-and-2026-intensity-records.md",
+          "locator": "N223-1"
         }
       ]
     },
@@ -1080,7 +1097,7 @@ canonical [178W知识单](../../knowledge/research-notes/w178-921-dco-gate-doubl
     },
     {
       "knowledge": "knowledge/methods/internal-conversion-analysis.md",
-      "summary": "保存实际W178 Kexp与shell匹配理论、两固定DCO点均在literal box外的反向检验；名义abs(delta)映射不当实验新测量。 新增原ENSDF章/total-decay和MR字段边界。 新增RZ17实际参数的概率测度/producer和尾部边界。 补原Jones1998 α–γ/electron主线、source版本/phase/同能标母态与共同误差边界。",
+      "summary": "保存实际W178 Kexp与shell匹配理论、两固定DCO点均在literal box外的反向检验；名义abs(delta)映射不当实验新测量。 新增原ENSDF章/total-decay和MR字段边界。 新增RZ17实际参数的概率测度/producer和尾部边界。 补原Jones1998 α–γ/electron主线、source版本/phase/同能标母态与共同误差边界。 补223Ra真实unsignedMR、multipletflag/NR、同源与分母合同，并显式纠正冻结回忆的终态误认。",
       "anchor": "178W 921-keV：真实K-shell companion不能自动替两个DCO点选支",
       "sources": [
         {
@@ -1138,6 +1155,22 @@ canonical [178W知识单](../../knowledge/research-notes/w178-921-dco-gate-doubl
         {
           "path": "knowledge/sources/jones-1998-ra223-alpha-gamma-correlations.md",
           "locator": "J98-11"
+        },
+        {
+          "path": "knowledge/sources/nndc-2001-223ra-reference-and-2026-intensity-records.md",
+          "locator": "N223-2"
+        },
+        {
+          "path": "knowledge/sources/nndc-2001-223ra-reference-and-2026-intensity-records.md",
+          "locator": "N223-5"
+        },
+        {
+          "path": "knowledge/sources/nndc-2001-223ra-reference-and-2026-intensity-records.md",
+          "locator": "N223-7"
+        },
+        {
+          "path": "knowledge/sources/nndc-2001-223ra-reference-and-2026-intensity-records.md",
+          "locator": "N223-10"
         }
       ]
     },
@@ -1279,7 +1312,7 @@ canonical [178W知识单](../../knowledge/research-notes/w178-921-dco-gate-doubl
     },
     {
       "knowledge": "knowledge/methods/compton-polarimetry.md",
-      "summary": "保存PAQ分层、双分段actual432计数公式/derivatives、fiterrors与理想Poisson层区别、printingfailure和matchedeta/Q/fullCov门。 新增EXOGAM比值误差的任意Cov必要界及原表条件不闭合；回代不是独立P验证。 补1368文字Q与外推curve的未闭合、FOM因子化与同response身份条件。 新增GRETINA normalization/真实cut tradeoff与不同reference/Q谱系。 新增C(theta)测度/Jacobian、平均产品与经验Q重标的条件设计，实际jointkernel未恢复。 补XUNDL POL=A0与target/单位转录边界。 保存实际Stokes禁戒比值/pure反证及KN/Q归一合同。 补有限H解析消CG、actualsame-tensor dκ0/d0κ与literalevenκ U控制/消费端及真zeroI边界。 补另名fullq/Jones finiteIQUV设计、事前冻结12PSD/540点与rotation/pure/zero/nonPSD域控制，不认证原实验producer。 新增实际public能谱/共享Cov/event单位与sorting/decoder反证、P/Q readiness。 G411新批补入truth/geometry实际控制与历史源response边界。 Riley2021原件已另读并核当前模型/原论文响应迁移边界。 Co60 gate/source与选择对象控制和原producer缺口已关联。 新joint pointgate相位/firstlast/pure/KN/共同轴平均控制与闭式已写，非实验或arrayQ。 补Ni60官方reference/共同δ误差与actualSDK总分支归一，保留primaryphase缺口。 补Jones2002校准态节点、reference母态身份及有稳定性条件的cross-ratio。 补原Jones1998 α–γ/electron主线、source版本/phase/同能标母态与共同误差边界。",
+      "summary": "保存PAQ分层、双分段actual432计数公式/derivatives、fiterrors与理想Poisson层区别、printingfailure和matchedeta/Q/fullCov门。 新增EXOGAM比值误差的任意Cov必要界及原表条件不闭合；回代不是独立P验证。 补1368文字Q与外推curve的未闭合、FOM因子化与同response身份条件。 新增GRETINA normalization/真实cut tradeoff与不同reference/Q谱系。 新增C(theta)测度/Jacobian、平均产品与经验Q重标的条件设计，实际jointkernel未恢复。 补XUNDL POL=A0与target/单位转录边界。 保存实际Stokes禁戒比值/pure反证及KN/Q归一合同。 补有限H解析消CG、actualsame-tensor dκ0/d0κ与literalevenκ U控制/消费端及真zeroI边界。 补另名fullq/Jones finiteIQUV设计、事前冻结12PSD/540点与rotation/pure/zero/nonPSD域控制，不认证原实验producer。 新增实际public能谱/共享Cov/event单位与sorting/decoder反证、P/Q readiness。 G411新批补入truth/geometry实际控制与历史源response边界。 Riley2021原件已另读并核当前模型/原论文响应迁移边界。 Co60 gate/source与选择对象控制和原producer缺口已关联。 新joint pointgate相位/firstlast/pure/KN/共同轴平均控制与闭式已写，非实验或arrayQ。 补Ni60官方reference/共同δ误差与actualSDK总分支归一，保留primaryphase缺口。 补Jones2002校准态节点、reference母态身份及有稳定性条件的cross-ratio。 补原Jones1998 α–γ/electron主线、source版本/phase/同能标母态与共同误差边界。 补223Ra真实unsignedMR、multipletflag/NR、同源与分母合同，并显式纠正冻结回忆的终态误认。",
       "anchor": "Gammasphere双分段的P/A/Q与actual峰面积",
       "sources": [
         {
@@ -1577,6 +1610,22 @@ canonical [178W知识单](../../knowledge/research-notes/w178-921-dco-gate-doubl
         {
           "path": "knowledge/sources/jones-1998-ra223-alpha-gamma-correlations.md",
           "locator": "J98-11"
+        },
+        {
+          "path": "knowledge/sources/nndc-2001-223ra-reference-and-2026-intensity-records.md",
+          "locator": "N223-2"
+        },
+        {
+          "path": "knowledge/sources/nndc-2001-223ra-reference-and-2026-intensity-records.md",
+          "locator": "N223-5"
+        },
+        {
+          "path": "knowledge/sources/nndc-2001-223ra-reference-and-2026-intensity-records.md",
+          "locator": "N223-7"
+        },
+        {
+          "path": "knowledge/sources/nndc-2001-223ra-reference-and-2026-intensity-records.md",
+          "locator": "N223-10"
         }
       ]
     },
@@ -1745,7 +1794,7 @@ canonical [178W知识单](../../knowledge/research-notes/w178-921-dco-gate-doubl
     },
     {
       "knowledge": "knowledge/sources/tuli-2001-ensdf-format-manual.md",
-      "summary": "新增ENSDF原相位/format与total-decay条件权重；Tuli 2001：不能把MR省略符号读成已知正号",
+      "summary": "新增ENSDF原相位/format与total-decay条件权重；Tuli 2001：不能把MR省略符号读成已知正号 补223Ra真实unsignedMR、multipletflag/NR、同源与分母合同，并显式纠正冻结回忆的终态误认。",
       "anchor": "Tuli 2001：不能把MR省略符号读成已知正号",
       "sources": [
         {
@@ -1759,6 +1808,26 @@ canonical [178W知识单](../../knowledge/research-notes/w178-921-dco-gate-doubl
         {
           "path": "knowledge/sources/tuli-2001-ensdf-format-manual.md",
           "locator": "TU01-3"
+        },
+        {
+          "path": "knowledge/sources/nndc-2001-223ra-reference-and-2026-intensity-records.md",
+          "locator": "N223-2"
+        },
+        {
+          "path": "knowledge/sources/nndc-2001-223ra-reference-and-2026-intensity-records.md",
+          "locator": "N223-5"
+        },
+        {
+          "path": "knowledge/sources/nndc-2001-223ra-reference-and-2026-intensity-records.md",
+          "locator": "N223-7"
+        },
+        {
+          "path": "knowledge/sources/nndc-2001-223ra-reference-and-2026-intensity-records.md",
+          "locator": "N223-10"
+        },
+        {
+          "path": "knowledge/sources/tuli-2001-ensdf-format-manual.md",
+          "locator": "TU01-4"
         }
       ]
     },
@@ -1775,7 +1844,7 @@ canonical [178W知识单](../../knowledge/research-notes/w178-921-dco-gate-doubl
     },
     {
       "knowledge": "knowledge/observables/multipole-mixing-ratio.md",
-      "summary": "新增ENSDF原相位/format与total-decay条件权重；Radiative、电子与总衰变权重：同符号不等于同对象 新增RZ17实际参数的概率测度/producer和尾部边界。 新增先相位后版本及字段参考flag的真实A25案例。 补原Jones1998 α–γ/electron主线、source版本/phase/同能标母态与共同误差边界。",
+      "summary": "新增ENSDF原相位/format与total-decay条件权重；Radiative、电子与总衰变权重：同符号不等于同对象 新增RZ17实际参数的概率测度/producer和尾部边界。 新增先相位后版本及字段参考flag的真实A25案例。 补原Jones1998 α–γ/electron主线、source版本/phase/同能标母态与共同误差边界。 补223Ra真实unsignedMR、multipletflag/NR、同源与分母合同，并显式纠正冻结回忆的终态误认。",
       "anchor": "Radiative、电子与总衰变权重：同符号不等于同对象",
       "sources": [
         {
@@ -1829,6 +1898,22 @@ canonical [178W知识单](../../knowledge/research-notes/w178-921-dco-gate-doubl
         {
           "path": "knowledge/sources/jones-1998-ra223-alpha-gamma-correlations.md",
           "locator": "J98-11"
+        },
+        {
+          "path": "knowledge/sources/nndc-2001-223ra-reference-and-2026-intensity-records.md",
+          "locator": "N223-2"
+        },
+        {
+          "path": "knowledge/sources/nndc-2001-223ra-reference-and-2026-intensity-records.md",
+          "locator": "N223-5"
+        },
+        {
+          "path": "knowledge/sources/nndc-2001-223ra-reference-and-2026-intensity-records.md",
+          "locator": "N223-7"
+        },
+        {
+          "path": "knowledge/sources/nndc-2001-223ra-reference-and-2026-intensity-records.md",
+          "locator": "N223-10"
         }
       ]
     },
@@ -3157,7 +3242,7 @@ canonical [178W知识单](../../knowledge/research-notes/w178-921-dco-gate-doubl
     },
     {
       "knowledge": "knowledge/sources/jones-1998-ra223-alpha-gamma-correlations.md",
-      "summary": "新原读13页/9图3表：源/门/phase/实际electroncompanion、附条件spin/sign、2002同源版本及47行point/舍入核验；不恢复实际response/Σ/δfit。",
+      "summary": "新原读13页/9图3表：源/门/phase/实际electroncompanion、附条件spin/sign、2002同源版本及47行point/舍入核验；不恢复实际response/Σ/δfit。 补223Ra真实unsignedMR、multipletflag/NR、同源与分母合同，并显式纠正冻结回忆的终态误认。",
       "anchor": "先识别α门、母态与粒子通道，再谈偏振reference",
       "sources": [
         {
@@ -3211,6 +3296,73 @@ canonical [178W知识单](../../knowledge/research-notes/w178-921-dco-gate-doubl
         {
           "path": "knowledge/sources/jones-1998-ra223-alpha-gamma-correlations.md",
           "locator": "J98-13"
+        },
+        {
+          "path": "knowledge/sources/nndc-2001-223ra-reference-and-2026-intensity-records.md",
+          "locator": "N223-2"
+        },
+        {
+          "path": "knowledge/sources/nndc-2001-223ra-reference-and-2026-intensity-records.md",
+          "locator": "N223-5"
+        },
+        {
+          "path": "knowledge/sources/nndc-2001-223ra-reference-and-2026-intensity-records.md",
+          "locator": "N223-7"
+        },
+        {
+          "path": "knowledge/sources/nndc-2001-223ra-reference-and-2026-intensity-records.md",
+          "locator": "N223-10"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/sources/nndc-2001-223ra-reference-and-2026-intensity-records.md",
+      "summary": "新增旧2001ENSDF/2003Jpi/2012NR与2026XUNDL2019强度谱系，unsignedMR/&/@/NR/parent层与subshell份额，保持phase/response/分区Cov缺口；纠正回忆但不改原source或计算。",
+      "anchor": "记录的符号、placement与分母必须一起读",
+      "sources": [
+        {
+          "path": "knowledge/sources/nndc-2001-223ra-reference-and-2026-intensity-records.md",
+          "locator": "N223-1"
+        },
+        {
+          "path": "knowledge/sources/nndc-2001-223ra-reference-and-2026-intensity-records.md",
+          "locator": "N223-2"
+        },
+        {
+          "path": "knowledge/sources/nndc-2001-223ra-reference-and-2026-intensity-records.md",
+          "locator": "N223-3"
+        },
+        {
+          "path": "knowledge/sources/nndc-2001-223ra-reference-and-2026-intensity-records.md",
+          "locator": "N223-4"
+        },
+        {
+          "path": "knowledge/sources/nndc-2001-223ra-reference-and-2026-intensity-records.md",
+          "locator": "N223-5"
+        },
+        {
+          "path": "knowledge/sources/nndc-2001-223ra-reference-and-2026-intensity-records.md",
+          "locator": "N223-6"
+        },
+        {
+          "path": "knowledge/sources/nndc-2001-223ra-reference-and-2026-intensity-records.md",
+          "locator": "N223-7"
+        },
+        {
+          "path": "knowledge/sources/nndc-2001-223ra-reference-and-2026-intensity-records.md",
+          "locator": "N223-8"
+        },
+        {
+          "path": "knowledge/sources/nndc-2001-223ra-reference-and-2026-intensity-records.md",
+          "locator": "N223-9"
+        },
+        {
+          "path": "knowledge/sources/nndc-2001-223ra-reference-and-2026-intensity-records.md",
+          "locator": "N223-10"
+        },
+        {
+          "path": "knowledge/sources/tuli-2001-ensdf-format-manual.md",
+          "locator": "TU01-4"
         }
       ]
     }
@@ -3408,3 +3560,10 @@ CSU真实REST已由其官方hashedconfig修正主机，exacttitle查询200/0对�
 [verification-reopened-023](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/verification-reopened-023.json)实际通过report/card/唯一writeback（45 changed knowledge pages/45 items）；boundary/lint/diff exit0，0errors176warnings(130citation-key43raw槽3reaction-parser)。原J02全人审prefix、L25/L26prefix、PLAN/Bib、两原PDF与两新script-resulthash保持。初writeback wrapper猜错internal-conversion方法路径造成exit1，已按rg实际路径续写缺失尾部，未重复append/改物理输入；失败回执保留。
 
 稳定发布指针main / `Trace DAY16 alpha gamma reference identities and conversion companions`，actualhash/H3/push仅publication029/runreceipt。1990装置原件前回忆已冻，新的合法检索进行中；尚未取得或读正文。研究/goal保持active至原15:00上海，formal16只计一次、partial17，不开18。
+
+
+### Checkpoint030实际验收与持续窗口
+
+[verification-reopened-024](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/verification-reopened-024.json)实际report/card/唯一writeback通过（46 changed knowledge pages/46 items），boundary/lint/diff exit0，0errors178warnings(131key44raw槽3reaction-parser)。J02/L25/L26旧humanprefix、PLAN/Bib、三ENSDF hash及新script/result/v1snapshot guards通过；冻结回忆保留、纠正另存。
+
+Collins2019 NPL/8371明确“Full text not available from this repository”，publisher403/API429、MCPpublicdiscovery no_candidate已分别记录；没有原文证据，不能由metadata补calibration/分区Cov。新路线只在当前问题或唯一Day17知识preview内继续；原15:00上海deadline/goalactive与formal16一次partial17不变。稳定发布指针main / `Preserve DAY16 unsigned mixing ratios and shared intensity records`，actualhash/H3/push仅publication030/runreceipt。

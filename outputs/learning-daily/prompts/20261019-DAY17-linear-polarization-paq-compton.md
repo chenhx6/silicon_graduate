@@ -318,3 +318,8 @@ Day16已独立读原八页并追加J02-14–21：m0 pureE2在90°零强度、0�
 ### Jones1998原实验priming
 
 Day16已原读13页/9图3表，canonical `knowledge/sources/jones-1998-ra223-alpha-gamma-correlations.md`：2002 calibration表的AD上游、两314.78异母态、113.159 E1/E2γ重叠与L/M电子companion，photon/total/subshell权重不同；47行point/phase重放不认证原fitCov/Qk。342.84 spin与Table2大部分δ号附条件，新追加全needs_review。正式17回忆需承认priming，独立逐卡，preview不计信用。
+
+
+### 223Ra官方字段priming
+
+Day16已核旧2001对象/2003Jπ/2012NR与2026编译的2019绝对I：MR0.29无显式号仍signunknown，&为未分区总强度、@为已分区，重复placement RI不提供偏振份额；原回忆终态误认已能量纠正。source `knowledge/sources/nndc-2001-223ra-reference-and-2026-intensity-records.md` 与TU01-4保持响应/原门/Σ缺口，不授17信用。

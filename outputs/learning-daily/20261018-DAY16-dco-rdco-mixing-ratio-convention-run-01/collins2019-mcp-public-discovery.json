@@ -1,0 +1,8 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "{\n  \"doi\": \"10.1016/j.apradiso.2018.10.023\",\n  \"accessDiscovery\": {\n    \"status\": \"not_found\",\n    \"landingUrl\": \"https://linkinghub.elsevier.com/retrieve/pii/S0969804318305359\",\n    \"landingHost\": \"linkinghub.elsevier.com\",\n    \"reason\": \"no_candidate\",\n    \"fallback\": {\n      \"attempted\": false,\n      \"combinationsAttempted\": 0\n    },\n    \"targetStatus\": 200,\n    \"candidateCount\": 0,\n    \"candidatesTruncated\": false,\n    \"candidateUrls\": [],\n    \"fetchedAt\": \"2026-10-18T22:59:53.895Z\"\n  }\n}"
+    }
+  ]
+}

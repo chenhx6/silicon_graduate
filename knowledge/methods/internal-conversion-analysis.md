@@ -185,3 +185,7 @@ $$U_k^{\rm all}-U_k^\gamma=\frac{q(c-1)[U_k(L')-U_k(L)]}{(1+q)(1+cq)},\quad c=\f
 [[jones-1998-ra223-alpha-gamma-correlations]] J98-7–9给实际反例：174.58 E1与174.62 E2母态仅差.04keV，原α分辨约25keV，γ峰composite。旧总CC分别.362/5.78，等total时E1光子强约4.98倍；若同corrected photon coefficient层E2 A0份额为f，则Ftotal=f(1+α2)/[f(1+α2)+(1−f)(1+α1)]。原电子L/M选择可使E2贡献更强，不能以γ份额当电子份额。
 
 由印刷a2/a4分别推得的条件f .1923/.1458只是固定theory/同layer设计；实际subshell系数/效率、α门、电子峰面积与Cov仍缺。不能用αT替αL/αM，也不由此重做原Jπ或给新branching。[[compton-polarimetry]]把此companion用于reference纯度边界。
+
+### ENSDF多重放置与subshell权重的输入门
+
+[[tuli-2001-ensdf-format-manual]] TU01-4：col77 &未分强度、@已分强度。[[nndc-2001-223ra-reference-and-2026-intensity-records]] N223-5–8的两版113-keV真实记录说明，RI列表不能丢parent/flag/N record；重复未分区总强度不提供branching，更不能乘两次CC冒充两个实验。旧@ RI4.2/1.2只在同接受响应下给photon/total/L/M的E2份额.2222/.5872/.9493/.9549，不是J98实测gate比例或新subshell计数。新XUNDL未分区的组总量不能倒推出这些份额。

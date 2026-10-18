@@ -1,0 +1,82 @@
+{
+  "identity": "N223-FLAGS-SIGNS-AND-COMPANION-01",
+  "at": "2026-10-19T06:45:52.532522+08:00",
+  "files": {
+    "adopted": {
+      "path": "tmp/day16-ra223-reference/adopted.ens",
+      "sha256": "691b1924ddb45793d68f03b3aafe4c09c456a30f85e5c316bc316b69cb1fc090"
+    },
+    "alpha": {
+      "path": "tmp/day16-ra223-reference/th227alpha.ens",
+      "sha256": "782c225e071facafce81f60c6a56b08d752ea2733dab3101d073c12aa8e655fc"
+    },
+    "xundl2026": {
+      "path": "tmp/day16-ra223-reference/xundl2026-v2.ens",
+      "sha256": "30a38a663859a9df19fd75ff58eef143b52f13b962464f2d60a8f0c7330b329f"
+    }
+  },
+  "selected_unsigned_MR": {
+    "parent": "342.654",
+    "gamma": "62.45",
+    "MR": "0.29",
+    "DMR": "5",
+    "Jpi": "(9/2)+",
+    "sign_interpretation": "unsigned-signunknown perTU01, notpositivebyfloat"
+  },
+  "doublet_113old": {
+    "parents": [
+      "174.569",
+      "174.58"
+    ],
+    "Egamma": "113.11",
+    "relative_RI": [
+      4.2,
+      1.2
+    ],
+    "flag": "@",
+    "CC": [
+      0.362,
+      5.78
+    ],
+    "LC": [
+      0.0611,
+      4.0
+    ],
+    "MC": [
+      0.0147,
+      1.09
+    ],
+    "N_NR": 0.129,
+    "N_DNR": 0.011,
+    "RIpartition_covariance_known": false
+  },
+  "xundl_pairs": {
+    "113.1": {
+      "parent_tokens": [
+        "174.6",
+        "174.6"
+      ],
+      "expected_shared_RI": 0.8026,
+      "expected_DRI": "38",
+      "flag": "&"
+    },
+    "314.9": {
+      "parent_tokens": [
+        "376.3",
+        "445.1"
+      ],
+      "expected_shared_RI": 0.4754,
+      "expected_DRI": "10",
+      "flag": "&"
+    }
+  },
+  "normalization_boundary": "2019Co05absoluteI directcounts vslegacyRI*NR fromdifferentdatasets; noindependentdifferenceztest",
+  "conditional_subshell_exercise": "oldcentraldividedRI timesLC/MC, equal response only; noactualJ98 gates orcurrentexperimentfraction",
+  "MRsign_candidates_RB": [
+    -0.29,
+    0.29
+  ],
+  "pure_null_or_phasecontrol": "native/RB sync for each physicalcandidate; oppositecandidatesdochangeobservable",
+  "sourceformat_locator": "TU01printed28 GammaRecord C col77/PDF34 &notdivided @suitablydivided",
+  "new_experimentalfit": false
+}

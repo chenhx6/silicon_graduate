@@ -8,15 +8,17 @@ updated: 2026-10-19
 
 ## Active handoff — DAY16 original window pursuing
 
-同run2026-10-18-day-16-01/session01a14ce6-425e-77c1-a127-2ac980bd76b5；原2026-10-19 15:00上海研究截止/15–16收束不改，goalactive/pursuing。formal16一次next17/count16、partial17，不正式17/不开18；Farmer42019保留，无新session/daemon。
+原run2026-10-18-day-16-01/session01a14ce6-425e-77c1-a127-2ac980bd76b5；原2026-10-19 15:00上海研究截止/15–16收束不改，goalactive/pursuing，formal16一次next17/count16、partial17，不正式17/不开18。Farmer42019保留，无新session/daemon。
 
-Checkpoint029 verification023实际通过45pages/items、boundary/lint/diff0、0errors176warnings(130key43raw3parser)，J02/L25/L26旧humanprefix与PLAN/Bib/raw/scriptresultguards过。Jones1998新source1–13完整13页/9图3表：source/α门/Qk/RB/fit与两314.78、113.159电子companion；47行point/Racah–helicity≤7.92e−15，phase桥0，36行J02theory/P舍入闭合，原1998central8项/δrounding后6项不闭合仅representation边界。342.84/G62.45符号敏感不改原号，spin/actualproducer未解。
+Checkpoint030 verification024实际通过46pages/items、boundary/lint/diff0、0errors178warnings(131key44raw3parser)。N223新source1–10、TU01-4 col77、Compton/MR/ICC/J98写回；J02/L25/L26全旧humanprefix、PLAN/Bib、三ENSDF/新script/v1snapshot guards过。MR0.29(5)unsigned→signunknown；&是未分区总RI、@已分区，两个placement不可双加/默认独立。旧113.11条件photon/total/L/M E2份额.2222/.5872/.9493/.9549，非actualJ98gatefraction/新Q。202602XUNDL实为2019Co05绝对I、全部MR空。
 
-113.159的E1/E2gamma与total/subshell分母分开，条件f.1923/.1458有marginal重叠，非actualfit/CI；原L/M选择是实际不同particlecompanion。J342.84和Table2多数δ号有model/systematics条件，gK/β3保持作者解释/模型层。新claims全部needs_review。初wrapper路径错exit1已按rg恢复缺失尾部，不重复append，原科学输入不变。
+初冻结回忆把62.45终态错记61.431，已能量identityguard纠正为280.182相容候选，281.42才FL61.424；保留before/另存纠正。旧正确Ji9/2→7/2计算不变，不补无显式FL的确定终态。原unsignedMR不独立修复J98符号敏感printed非闭合。
 
-029待本批actualH3，稳定指针main / `Trace DAY16 alpha gamma reference identities and conversion companions`；精确hash/outcome只publication029/runreceipt。028已actualGitee，main / `Audit DAY16 calibration nodes reference states and rotation controls`。下一1990Ref15 apparatus DOI10.1088/0954-3899/17/5/017，回忆已冻、当前合法检索进行中，未读正文，需核原peak/gate/normalization而不猜。
+030内容待actualH3，稳定指针main / `Preserve DAY16 unsigned mixing ratios and shared intensity records`，精确hash/outcome只publication030/runreceipt。029已actualGitee main / `Trace DAY16 alpha gamma reference identities and conversion companions`；J98/J02原件与conditionalphase/companion成果保持。
 
-详continuation-current.md。保护raw/PLAN/Bib/credentials/旧prefix/继承receipts/daemon/log，exactmanifest/HEAD+ownlog，cached实际通过后commit，freshfetch/ancestor/dryrun/nonforceH3。当前仍约8h+窗口，继续而不提前结束goal。
+Collins2019 DOI10.1016/j.apradiso.2018.10.023（XUNDL上游）回忆已冻，metadata已核；NPL8371明确无fulltext、publisher403/API429/MCPno_candidate，未读正文/未得calibrationCov。J90apparatus仍publisher验证页/HAL0/Liverpool403，不能从页面壳补数据。下一先刷新pool/clock，继续有信息增益的合法source/response路线，不重试终态或堆更多roundingtoy。
+
+详continuation-current.md；保护raw/PLAN/Bib/credentials/旧人审prefix/继承dirty/log。exactmanifest/HEAD+ownlog，cached实际0再commit，freshfetch/ancestor/dryrun/nonforceH3。当前约8h窗口，继续原goal而非提前final。
 
 ## Previous active handoff — DAY16 completed; Day17 is next
 

@@ -393,3 +393,7 @@ ICC-based `delta` extraction 也可能带来明显非对称误差；当 experime
 [[jones-1998-ra223-alpha-gamma-correlations]] J98-4/5/10–12：原α–γ用RB整体合同，转native相邻M1/E2同时改δ/算符，47行的两数学路线闭合而非原实验重拟。342.84的J9/2+来自band系统学favoured、并非原angular唯一解；Table2只有29.858/31.58符号由本α–γ工作支持，其余正号含gR物理选择。不能把表中符号全当独立直接测得。
 
 原1998一行342.84/G62.45的δRB+.29/theorya2+.24与同point模型不闭合（预测−.8568）；反号控制给+.2452，但不得据此局部换号修原文或宣布实际δ。原spin/未舍入fit/phaseproducer与表版本缺口保留。[[jones-2002-calibration-compton-polarimeters]]新增P表与同源AD不增加实验样本；其它行2002theory更新需和原δ/系数定义一并追溯。
+
+### Unsigned MR的具体reference反例
+
+[[nndc-2001-223ra-reference-and-2026-intensity-records]] N223-2/3：342.654(9/2)+的62.45 MR token为`0.29`，不能由正float推成已知+δ。按TU01保留unsigned/signunknown，conditionalδRB±.29各有不同W/P；每个候选的phase/算符同步转换仍不改observable。数据库同源转录既非原δ号修复，也非新的独立选根。J98原表不闭合、附条件spin与actualproducer缺口保持。

@@ -356,3 +356,9 @@ J02 Table1两条314.78的母态376.28/445.00与理论P−.94/+.96不同；需同
 113.159是174.58/174.62 E1/E2未分开的γ峰；同correctedcoefficient层的E2光子份额f与总分支份额F相差(1+CC)权重，原L/M电子companion又是subshell响应。固定印刷纯系数的条件mixing可同时容纳a2/a4的marginal误差，不能把centralf差叫冲突或恢复实际jointCI。原PIN单component的uniformcap衰减估计也不能替actualsource/Ge/门完整Qk，Qk不等于polarimeterQ。
 
 新original读取支持reference与companion的身份；原逐峰窗口/面积、响应、完整Cov仍缺。2002理论列与1998局部theory差别须source版本核，不以自设舍入cell否定原采集。
+
+### 223Ra校准：重复placement不提供分量偏振权重
+
+[[nndc-2001-223ra-reference-and-2026-intensity-records]] N223-1–10：旧342.654/G62.45 MR0.29(5)无显式号，按[[tuli-2001-ensdf-format-manual]] sign未知；2026XUNDL实为2019绝对γ强度编译、无新MR/P。新113.1/314.9的两个placement各重复同一组RI且col77为&未分区，不能相加或默认各一半来构造P_eff；旧113.11的@分区也不能裸迁到J98的α门。
+
+同旧RI/同响应条件下，113.11 E2份额由photon .2222变为total .5872、L/M electron .9493/.9549，支持电子选择与γ选择的区别，非新实测reference纯度。真实α门/背景/峰面积、分量与response/Cov仍需matching输入。回忆里误把62.45终态写成61.431已由能量闭合纠正为280.182相容候选；原47行计算始终使用正确J9/2→7/2，不更改原数。

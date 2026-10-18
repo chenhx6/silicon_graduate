@@ -1,0 +1,14 @@
+{
+  "at": "2026-10-19T06:52:07.634529+08:00",
+  "original_frozen_recall": "ra223-evaluation-before.md",
+  "original_wrong_recalled_identity": "342.84 ->61.431 assignedto62.45",
+  "correction": "62.45 near342.654 ->280.182 (gap62.472), not61.424; latter attached281.42 withFL61.424",
+  "evidence": [
+    "223088001 L342.654/G62.45 andL280.182",
+    "223088001 L342.654/G281.42/FL61.424",
+    "J98Table1 parent342.84 andJ9/2->7/2 only, notgroundsiblinglabel"
+  ],
+  "before_recall_preserved": true,
+  "physics_calculation_affected": false,
+  "why_calculation_unchanged": "typed47rowskeptcorrectparentandJi9/2,Jf7/2; nofinalenergyinoperator, notclaimactualgateproducer"
+}

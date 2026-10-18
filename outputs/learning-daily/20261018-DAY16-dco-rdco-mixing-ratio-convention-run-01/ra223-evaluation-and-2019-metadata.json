@@ -1,0 +1,149 @@
+{
+  "at": "2026-10-19T06:44:13.260934+08:00",
+  "rows": [
+    {
+      "name": "2019crossref",
+      "url": "https://api.crossref.org/works?query.bibliographic=Applied%20Radiation%20Isotopes%20145%20251%202019%20thorium%20227&rows=3",
+      "status": 429,
+      "path": "tmp/day16-ra223-reference/2019crossref.json",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "name": "2001crossref",
+      "url": "https://api.crossref.org/works?query.bibliographic=Browne%20Nuclear%20Data%20Sheets%2093%20846%202001%20A%20223&rows=3",
+      "status": 200,
+      "path": "tmp/day16-ra223-reference/2001crossref.json",
+      "sha256": "d1289b07ec2c93f6c573698f3bcc324f5222ce007708a7bcb72cb794450e6100",
+      "items": [
+        {
+          "title": [
+            "Nuclear Data Sheets for A=223, NDS 93, 763 (2001) - E. Browne"
+          ],
+          "author": null,
+          "container-title": [
+            "Nuclear Data Sheets"
+          ],
+          "volume": "96",
+          "page": "391",
+          "DOI": "10.1006/ndsh.2002.0013",
+          "link": [
+            {
+              "URL": "https://api.elsevier.com/content/article/PII:S009037520290013X?httpAccept=text/xml",
+              "content-type": "text/xml",
+              "content-version": "vor",
+              "intended-application": "text-mining"
+            },
+            {
+              "URL": "https://api.elsevier.com/content/article/PII:S009037520290013X?httpAccept=text/plain",
+              "content-type": "text/plain",
+              "content-version": "vor",
+              "intended-application": "text-mining"
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2002,
+                6
+              ]
+            ]
+          }
+        },
+        {
+          "title": [
+            "Nuclear Data Sheets for A = 215,219,223,227,231"
+          ],
+          "author": [
+            {
+              "given": "E.",
+              "family": "BROWNE",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            }
+          ],
+          "container-title": [
+            "Nuclear Data Sheets"
+          ],
+          "volume": "93",
+          "page": "763-1061",
+          "DOI": "10.1006/ndsh.2001.0016",
+          "link": [
+            {
+              "URL": "https://api.elsevier.com/content/article/PII:S009037520190016X?httpAccept=text/xml",
+              "content-type": "text/xml",
+              "content-version": "vor",
+              "intended-application": "text-mining"
+            },
+            {
+              "URL": "https://api.elsevier.com/content/article/PII:S009037520190016X?httpAccept=text/plain",
+              "content-type": "text/plain",
+              "content-version": "vor",
+              "intended-application": "text-mining"
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2001,
+                8
+              ]
+            ]
+          }
+        },
+        {
+          "title": [
+            "Nuclear Data Sheets for A = 130"
+          ],
+          "author": [
+            {
+              "given": "BALRAJ",
+              "family": "SINGH",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            }
+          ],
+          "container-title": [
+            "Nuclear Data Sheets"
+          ],
+          "volume": "93",
+          "page": "33-242",
+          "DOI": "10.1006/ndsh.2001.0012",
+          "link": [
+            {
+              "URL": "https://api.elsevier.com/content/article/PII:S0090375201900122?httpAccept=text/xml",
+              "content-type": "text/xml",
+              "content-version": "vor",
+              "intended-application": "text-mining"
+            },
+            {
+              "URL": "https://api.elsevier.com/content/article/PII:S0090375201900122?httpAccept=text/plain",
+              "content-type": "text/plain",
+              "content-version": "vor",
+              "intended-application": "text-mining"
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2001,
+                5
+              ]
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

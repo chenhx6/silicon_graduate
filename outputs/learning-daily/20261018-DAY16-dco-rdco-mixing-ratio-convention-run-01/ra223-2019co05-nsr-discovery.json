@@ -1,0 +1,156 @@
+{
+  "at": "2026-10-19T06:48:23.884236+08:00",
+  "url": "https://www.nndc.bnl.gov/nsr/KeyNumberSearchServlet?search-type=keynumber&key=2019Co05&page=1&size=100",
+  "status": 200,
+  "path": "tmp/day16-ra223-reference/2019co05-nsr.json",
+  "sha256": "dc034fa13ba60474b753b1000f741913dbe71e8fbda7724ca91c7ae54b38fefc",
+  "entry": {
+    "totalResults": 1,
+    "data": [
+      {
+        "keyNumber": "2019CO05",
+        "publicationYear": 2019,
+        "isPrimary": true,
+        "entryDate": "2019-03-07",
+        "codenText": "JOUR ARISE 145 251",
+        "referenceType": "JOURNAL",
+        "journalCode": "ARISE",
+        "indexInformation": "145 251",
+        "referenceText": "Appl.Radiat.Isot. 145, 251 (2019)",
+        "authors": [
+          {
+            "initials": [
+              "S",
+              "M"
+            ],
+            "lastName": "Collins"
+          },
+          {
+            "initials": [
+              "J",
+              "D"
+            ],
+            "lastName": "Keightley"
+          },
+          {
+            "initials": [
+              "P"
+            ],
+            "lastName": "Ivanov"
+          },
+          {
+            "initials": [
+              "A"
+            ],
+            "lastName": "Arinc"
+          },
+          {
+            "initials": [
+              "A",
+              "J"
+            ],
+            "lastName": "Fenwick"
+          },
+          {
+            "initials": [
+              "A",
+              "K"
+            ],
+            "lastName": "Pearce"
+          }
+        ],
+        "collaborations": [],
+        "title": "The potential radio-immunotherapeutic |a-emitter {+227}Th - part II: Absolute |g-ray emission intensities from the excited levels of {+223}Ra",
+        "doi": "10.1016/j.apradiso.2018.10.023",
+        "sentenceGroups": [
+          {
+            "topic": "RADIOACTIVITY",
+            "textFormat": "EXCHANGE",
+            "sentences": [
+              {
+                "indexed": true,
+                "phrases": [
+                  {
+                    "primaryType": "DECAY",
+                    "text": "{+227}Th(|a)"
+                  },
+                  {
+                    "primaryType": "MEASURED",
+                    "text": "measured decay products, E|g,I|g"
+                  },
+                  {
+                    "primaryType": "DEDUCED",
+                    "text": "deduced |g-ray energies and intensities"
+                  }
+                ]
+              },
+              {
+                "indexed": false,
+                "phrases": [
+                  {
+                    "text": "Comparison with available data"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "selectorGroups": [
+          {
+            "selectors": [
+              "P:227TH;A.",
+              "S:A-DECAY;A.",
+              "G:223RA;A.",
+              "M:G-SPECTRA;A.",
+              "D:G-SPECTRA;A."
+            ]
+          }
+        ],
+        "atomicMassSelectors": [],
+        "atomicNumberSelectors": [],
+        "nuclideSelectors": [
+          {
+            "nuclideSubType": "PARENT",
+            "z": 90,
+            "n": 137,
+            "a": 227,
+            "elementName": "Thorium",
+            "elementSymbol": "Th",
+            "selectorFlag": "A"
+          },
+          {
+            "nuclideSubType": "DAUGHTER",
+            "z": 88,
+            "n": 135,
+            "a": 223,
+            "elementName": "Radium",
+            "elementSymbol": "Ra",
+            "selectorFlag": "A"
+          }
+        ],
+        "reactionSelectors": [],
+        "subjectSelectors": [
+          {
+            "subjectCode": "A-DECAY",
+            "selectorFlag": "A"
+          },
+          {
+            "subjectSubType": "MEASURED",
+            "subjectCode": "G-SPECTRA",
+            "selectorFlag": "A"
+          },
+          {
+            "subjectSubType": "DEDUCED",
+            "subjectCode": "G-SPECTRA",
+            "selectorFlag": "A"
+          }
+        ],
+        "errataEntries": [],
+        "pdfAvailable": false,
+        "xundlAvailable": true,
+        "exforKeys": []
+      }
+    ],
+    "last_page": 1
+  }
+}

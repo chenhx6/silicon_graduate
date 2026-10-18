@@ -1,0 +1,56 @@
+{
+  "at": "2026-10-19T06:37:10.630124+08:00",
+  "url": "https://www.nndc.bnl.gov/ensdf/DatasetFetchServlet",
+  "method": "POST",
+  "payload": {
+    "nuc": "223RA",
+    "nsrch": "Search",
+    "searchType": "quick",
+    "datasource": "ensdf"
+  },
+  "status": 200,
+  "path": "tmp/day16-ra223-reference/dataset-list.html",
+  "sha256": "88e43c8cb2dc3115981135be51e958cab3c867dd8d7320da07f5bf2424a86795",
+  "rows": [
+    {
+      "name": "datasetcheck",
+      "value": "223088001,223RA",
+      "row": "ADOPTED LEVELS, GAMMAS 2001-10 All references"
+    },
+    {
+      "name": "datasetcheck",
+      "value": "223088002,223RA",
+      "row": "223FR B- DECAY 2001-10 All references"
+    },
+    {
+      "name": "datasetcheck",
+      "value": "223088003,223RA",
+      "row": "227TH A DECAY 2001-10 All references"
+    },
+    {
+      "name": "xunpostcheck",
+      "value": "223088005,223RA",
+      "row": "223 Ra 227TH A DECAY:T1/2:XUNDL-1 2015-08 All references"
+    },
+    {
+      "name": "xunpostcheck",
+      "value": "223088006,223RA",
+      "row": "223FR B- DECAY:XUNDL-2 2016-12 All references"
+    },
+    {
+      "name": "xunpostcheck",
+      "value": "223088007,223RA",
+      "row": "U(P,X):HF:RAD,MOMENT:XUNDL-3 2018-03 All references"
+    },
+    {
+      "name": "xunpostcheck",
+      "value": "223088008,223RA",
+      "row": "227TH A DECAY:XUNDL-4 2019-03 All references"
+    },
+    {
+      "name": "xunpostcheck",
+      "value": "223088009,223RA",
+      "row": "227TH A DECAY:XUNDL-5 2026-02 All references"
+    }
+  ]
+}

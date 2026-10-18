@@ -1,0 +1,12 @@
+{
+  "at": "2026-10-19T06:56:46.381952+08:00",
+  "latest_script_matches_result": true,
+  "v1_snapshot_exact_hash_reconstructs_original": true,
+  "preserved_v1_numbers_equal_latest": true,
+  "all_three_original_inputs_unchanged": {
+    "adopted": true,
+    "alpha": true,
+    "xundl2026": true
+  },
+  "corrected_recall_preserved": true
+}

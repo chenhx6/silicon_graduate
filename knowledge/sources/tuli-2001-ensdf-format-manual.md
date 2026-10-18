@@ -46,6 +46,8 @@ NNDC首页独立链接的Format Manual是JagdishK.Tuli February2001、BNL-NCS-51
 | TU01-1 | gammaMR在42–49列、DMR50–55，CCtotal56–62/DCC63–64；原文明确“Sign must be shown explicitly if known. If no sign is given, it will be assumed to be unknown.” unsignedMR不能因float正值自动认定phase已测正。 | fixed-field-and-sign-semantics | direct-manual | printed28 GammaRecord MR/CC rows/PDF34 | true |
 | TU01-2 | DMR可存+x−y不对称误差；原例MR=−3、DMR=+1−4表示−3^(+1/−4)、范围−7到−2，误差按代数上下端，不随负central翻向。字段空白和numeric0不同，不补0或把unsignedmagnitude当signed值。 | uncertainty-field-semantics | direct-manual-and-use-boundary | printed43 V.10–11/PDF49；printed44 V.12/PDF50 | true |
 | TU01-3 | RI是relativephoton、TI是relativetotaltransition，单位由N record定义；M/MR/CC各字段不互代。强度字段带括号表示deduced或fromotherexperiment，不由括号决定一项新的独立采集。 | intensity-object-and-provenance | direct-manual | printed28 GammaRecord/footnote/PDF34；printed44 V.13/PDF50 | true |
+| TU01-4 | Gamma record的C在col77；&是multiply-placed transition且intensity not divided，@是intensity suitably divided。相同RI重复到两个placement不等于两次独立测量，也不能相加求总强度或默认对半分区。需同时保存level/placement和共享观测身份。 | multiplet-placement-and-intensity-semantics | direct-manual-and-use-boundary | printed28 GammaRecord C row/PDF34 | true |
+
 
 ## Summary
 
@@ -63,3 +65,7 @@ MR的**显式signmarker、统计误差范围、operatorconvention和sourceproven
 
 - [[multipole-mixing-ratio]]：MRfield显式号/未知/不对称误差。
 - [[dco-pdco-ambiguity-worksheet]]、[[nndc-2009-178w-dco-reference-records]]：blankMR不借CC填δ的既有规则。
+
+### 223Ra多重放置的实际应用
+
+2026-10-19再次视觉核PDF34/printed28的col77 C；既有图片/hash保持。[[nndc-2001-223ra-reference-and-2026-intensity-records]]的113.1/314.9各重复两条& RI，是同一未分区观测在不同母态的placement；旧113.11两@ RI则已有分区。`float(RI)`列表若丢掉C/parent/版本，既可能多加一次总量，也可能凭空确定偏振weight。规则本身不恢复primarygate、分区Cov或具体响应。

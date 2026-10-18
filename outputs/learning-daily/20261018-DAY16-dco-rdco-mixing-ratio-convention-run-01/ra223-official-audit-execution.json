@@ -1,0 +1,20 @@
+{
+  "at": "2026-10-19T06:53:02.831796+08:00",
+  "command": [
+    "python3",
+    "system/scripts/day16_ra223_reference_audit.py",
+    "--contract",
+    "outputs/learning-daily/20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/ra223-official-analysis-contract.json",
+    "--output",
+    "outputs/learning-daily/20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/ra223-official-audit-result.json"
+  ],
+  "environment_override": {
+    "PYTHONPATH": "/workspace/wiki/tmp/day16-jt74/python-deps"
+  },
+  "exit_code": 0,
+  "stdout": "{\n  \"conditional_E2_fractions_equal_response\": {\n    \"photon\": 0.2222222222222222,\n    \"total\": 0.5871654975318263,\n    \"L_electrons\": 0.9492506852403384,\n    \"M_electrons\": 0.9549257523325595\n  },\n  \"old113_aggregate_photon_per100_central\": 0.6966000000000001,\n  \"all_modern_MR_fields_blank\": true,\n  \"rounded_level_energy_only_selector_rejected\": true,\n  \"two_assumed_sign_predictions\": [\n    {\n      \"delta_RB_assumed\": -0.29,\n      \"native_IQUV_model\": {\n        \"a0\": 0.9999999999999998,\n        \"a2\": 0.24518425202339778,\n        \"a4\": 0.048358983512573395,\n        \"W90\": 0.8955424928055159,\n        \"Q90\": -0.7039589189825848,\n        \"P90\": -0.7860698120278508\n      },\n      \"bridge_residual\": 0.0\n    },\n    {\n      \"delta_RB_assumed\": 0.29,\n      \"native_IQUV_model\": {\n        \"a0\": 0.9999999999999989,\n        \"a2\": -0.8567754096896331,\n        \"a4\": 0.04835898351256862,\n        \"W90\": 1.44652232366203,\n        \"Q90\": -0.1529790881260707,\n        \"P90\": -0.10575646543690204\n      },\n      \"bridge_residual\": 0.0\n    }\n  ]\n}\n",
+  "stderr": "",
+  "script_sha256": "eb1e7ac5246232789c76cadcb7d6d4fc892390ca42878fb870452041ef7cdd99",
+  "previous_success_v1_retained": "outputs/learning-daily/20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/ra223-official-audit-result-v1.json",
+  "new_guard": "explicitenergyidentitycontrol afterwrongrecallcandidate, nochangedsourceorphysicalspininputs"
+}

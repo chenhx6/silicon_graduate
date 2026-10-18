@@ -1,0 +1,38 @@
+{
+  "at": "2026-10-19T06:36:14.562606+08:00",
+  "hard_deadline": "2026-10-19T15:00:00+08:00",
+  "minutes_to_deadline": 503.7572899,
+  "goal_status": "active",
+  "day_index": 16,
+  "completed_day_indices": [
+    16
+  ],
+  "partial_day_indices": [
+    17
+  ],
+  "next_day_index": 17,
+  "candidate_pool": [
+    {
+      "route": "J98primaryreference/47rows",
+      "status": "mainline/canonical/verification023complete, publication029running",
+      "gain": "newactualgateledger/response/\u03a3only; no moreroundingtoys"
+    },
+    {
+      "route": "J90apparatus/earlyreport",
+      "status": "beforefrozen andexactmetadata; publisherchallenge, OAurlPDFprobeinprogress",
+      "gain": "possiblyspecificgate/normalization/finitegeometrysource; nocredentialsorverificationbypass"
+    },
+    {
+      "route": "J98G62.45 sign-sensitive row",
+      "status": "producer/nonuniqueJ missing; source controlnotrepair",
+      "gain": "specificcurrentofficial223Raevaluation/primary couldresolveprovenance, notfittingunknownraw"
+    },
+    {
+      "route": "onlyDay17calibrationpreview",
+      "status": "allowedbutuncredited; noDay18",
+      "gain": "anothercalibrationinputonlyifexistingroutesexhausted"
+    }
+  ],
+  "decision": "continue-current-evidence-route",
+  "no_early_closeout": true
+}
