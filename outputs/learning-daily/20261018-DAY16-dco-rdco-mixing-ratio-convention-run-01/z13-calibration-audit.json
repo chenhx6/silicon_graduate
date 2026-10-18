@@ -1,0 +1,647 @@
+{
+  "identity": "DAY16-PARTIAL17-Z13-PRINTED-CALIBRATION-01",
+  "input_sha256": "7a540d762c971e7ade8eeb739a85a7f226a4af1d42dc30a6b0c9edfc53a0aeea",
+  "script_sha256": "4030898a88ef878aa3b606081721306e545caed96980231b104842f6eb5d8b29",
+  "TableI_replay": [
+    {
+      "E_keV": 316,
+      "nucleus": "91Tc",
+      "particle_channel": "3p",
+      "spin_path": "21/2+ -> 17/2+",
+      "A": "0.17(2)",
+      "A2": "0.336(2)",
+      "A4": "-0.178(2)",
+      "P": "0.513(2)",
+      "Q": "0.331(8)",
+      "P90_from_printed_coefficients": 0.5132309702711533,
+      "P90_printing_box": [
+        0.511800734993875,
+        0.514661439189741
+      ],
+      "P90_printing_boxes_overlap": true,
+      "P90_error_local_covariance_envelope": [
+        0.003460508589316587,
+        0.005721408353567838
+      ],
+      "rho_A2_A4_required_if_quoted_errors_same_marginals": -1.7683383969461612,
+      "A_over_P": 0.33138401559454195,
+      "Q_printing_box_from_A_P": [
+        0.3213242453748783,
+        0.3414634146341463
+      ],
+      "Q_printing_boxes_overlap": true,
+      "sigma_Q_if_A_P_independent": 0.03900775540619837,
+      "sigma_Q_any_local_covariance_envelope": [
+        0.03769440929592771,
+        0.040278300255729205
+      ],
+      "rho_A_P_required_if_quoted_errors_same_marginals": 14.469483567838548,
+      "sigma_Q_nominal_outside_local_envelope": true,
+      "sigma_Q_relaxed_rounding_lower_bound": 0.027545619840742545,
+      "sigma_Q_printed_rounding_upper": 0.0085,
+      "sigma_Q_exclusion_survives_liberal_rounding": true
+    },
+    {
+      "E_keV": 477,
+      "nucleus": "90Mo",
+      "particle_channel": "4p",
+      "spin_path": "12+ -> 10+",
+      "A": "0.16(4)",
+      "A2": "0.32(8)",
+      "A4": "-0.10(1)",
+      "P": "0.51(9)",
+      "Q": "0.31(4)",
+      "P90_from_printed_coefficients": 0.5202492211838006,
+      "P90_printing_box": [
+        0.506614785992218,
+        0.5339049103663289
+      ],
+      "P90_printing_boxes_overlap": true,
+      "P90_error_local_covariance_envelope": [
+        0.17010704476858726,
+        0.18082122650207197
+      ],
+      "rho_A2_A4_required_if_quoted_errors_same_marginals": -12.083462478752844,
+      "A_over_P": 0.3137254901960784,
+      "Q_printing_box_from_A_P": [
+        0.30097087378640774,
+        0.32673267326732675
+      ],
+      "Q_printing_boxes_overlap": true,
+      "sigma_Q_if_A_P_independent": 0.09600300828920329,
+      "sigma_Q_any_local_covariance_envelope": [
+        0.023068050749711647,
+        0.13379469434832758
+      ],
+      "rho_A_P_required_if_quoted_errors_same_marginals": 0.8770370098039216,
+      "sigma_Q_nominal_outside_local_envelope": false,
+      "sigma_Q_relaxed_rounding_lower_bound": 0.006496602750729753,
+      "sigma_Q_printed_rounding_upper": 0.045,
+      "sigma_Q_exclusion_survives_liberal_rounding": false
+    },
+    {
+      "E_keV": 497,
+      "nucleus": "91Ru",
+      "particle_channel": "2p1n",
+      "spin_path": "21/2+ -> 17/2+",
+      "A": "0.17(3)",
+      "A2": "0.39(7)",
+      "A4": "-0.16(8)",
+      "P": "0.65(8)",
+      "Q": "0.26(3)",
+      "P90_from_printed_coefficients": 0.651006711409396,
+      "P90_printing_box": [
+        0.636211232187762,
+        0.6658270361041142
+      ],
+      "P90_printing_boxes_overlap": true,
+      "P90_error_local_covariance_envelope": [
+        0.13062474663303458,
+        0.21242286383496245
+      ],
+      "rho_A2_A4_required_if_quoted_errors_same_marginals": -1.7599841733609747,
+      "A_over_P": 0.26153846153846155,
+      "Q_printing_box_from_A_P": [
+        0.25190839694656486,
+        0.2713178294573644
+      ],
+      "Q_printing_boxes_overlap": true,
+      "sigma_Q_if_A_P_independent": 0.05627016714987207,
+      "sigma_Q_any_local_covariance_envelope": [
+        0.013964497041420117,
+        0.07834319526627218
+      ],
+      "rho_A_P_required_if_quoted_errors_same_marginals": 0.7627344928355958,
+      "sigma_Q_nominal_outside_local_envelope": false,
+      "sigma_Q_relaxed_rounding_lower_bound": 0.0024128761345907704,
+      "sigma_Q_printed_rounding_upper": 0.034999999999999996,
+      "sigma_Q_exclusion_survives_liberal_rounding": false
+    },
+    {
+      "E_keV": 586,
+      "nucleus": "88Mo",
+      "particle_channel": "2p1alpha",
+      "spin_path": "8+ -> 6+",
+      "A": "0.11(3)",
+      "A2": "0.27(2)",
+      "A4": "-0.08(3)",
+      "P": "0.42(4)",
+      "Q": "0.26(2)",
+      "P90_from_printed_coefficients": 0.42514970059880247,
+      "P90_printing_box": [
+        0.4121166791323859,
+        0.43820224719101125
+      ],
+      "P90_printing_boxes_overlap": true,
+      "P90_error_local_covariance_envelope": [
+        0.024292731901466528,
+        0.05774678188533114
+      ],
+      "rho_A2_A4_required_if_quoted_errors_same_marginals": -0.26409669574798184,
+      "A_over_P": 0.2619047619047619,
+      "Q_printing_box_from_A_P": [
+        0.24705882352941178,
+        0.27710843373493976
+      ],
+      "Q_printing_boxes_overlap": true,
+      "sigma_Q_if_A_P_independent": 0.07565850621633956,
+      "sigma_Q_any_local_covariance_envelope": [
+        0.04648526077097505,
+        0.0963718820861678
+      ],
+      "rho_A_P_required_if_quoted_errors_same_marginals": 1.4941668109668107,
+      "sigma_Q_nominal_outside_local_envelope": true,
+      "sigma_Q_relaxed_rounding_lower_bound": 0.028775626958578465,
+      "sigma_Q_printed_rounding_upper": 0.025,
+      "sigma_Q_exclusion_survives_liberal_rounding": true
+    },
+    {
+      "E_keV": 741,
+      "nucleus": "88Mo",
+      "particle_channel": "2p1alpha",
+      "spin_path": "2+ -> 0+",
+      "A": "0.068(7)",
+      "A2": "0.22(2)",
+      "A4": "-0.15(3)",
+      "P": "0.28(5)",
+      "Q": "0.24(2)",
+      "P90_from_printed_coefficients": 0.28335832083958024,
+      "P90_printing_box": [
+        0.2704119850187266,
+        0.2963240810202551
+      ],
+      "P90_printing_boxes_overlap": true,
+      "P90_error_local_covariance_envelope": [
+        0.020715279541638473,
+        0.05804593954896614
+      ],
+      "rho_A2_A4_required_if_quoted_errors_same_marginals": 0.40866019554070115,
+      "A_over_P": 0.24285714285714285,
+      "Q_printing_box_from_A_P": [
+        0.23684210526315788,
+        0.24909090909090909
+      ],
+      "Q_printing_boxes_overlap": true,
+      "sigma_Q_if_A_P_independent": 0.05005723504657565,
+      "sigma_Q_any_local_covariance_envelope": [
+        0.018367346938775512,
+        0.06836734693877551
+      ],
+      "rho_A_P_required_if_quoted_errors_same_marginals": 0.971111644657863,
+      "sigma_Q_nominal_outside_local_envelope": false,
+      "sigma_Q_relaxed_rounding_lower_bound": 0.010123394610929239,
+      "sigma_Q_printed_rounding_upper": 0.025,
+      "sigma_Q_exclusion_survives_liberal_rounding": false
+    },
+    {
+      "E_keV": 823,
+      "nucleus": "91Ru",
+      "particle_channel": "2p1n",
+      "spin_path": "25/2+ -> 21/2+",
+      "A": "0.073(6)",
+      "A2": "0.205(5)",
+      "A4": "-0.02(1)",
+      "P": "0.33(1)",
+      "Q": "0.220(6)",
+      "P90_from_printed_coefficients": 0.33146067415730335,
+      "P90_printing_box": [
+        0.32770507949908534,
+        0.33520257955979244
+      ],
+      "P90_printing_boxes_overlap": true,
+      "P90_error_local_covariance_envelope": [
+        0.003732167655599041,
+        0.014983903547531877
+      ],
+      "rho_A2_A4_required_if_quoted_errors_same_marginals": -0.18256685075294046,
+      "A_over_P": 0.2212121212121212,
+      "Q_printing_box_from_A_P": [
+        0.21641791044776115,
+        0.22615384615384612
+      ],
+      "Q_printing_boxes_overlap": true,
+      "sigma_Q_if_A_P_independent": 0.019378184949778218,
+      "sigma_Q_any_local_covariance_envelope": [
+        0.01147842056932966,
+        0.024885215794306702
+      ],
+      "rho_A_P_required_if_quoted_errors_same_marginals": 1.3928215165352151,
+      "sigma_Q_nominal_outside_local_envelope": true,
+      "sigma_Q_relaxed_rounding_lower_bound": 0.005980040625275988,
+      "sigma_Q_printed_rounding_upper": 0.006500000000000001,
+      "sigma_Q_exclusion_survives_liberal_rounding": false
+    },
+    {
+      "E_keV": 871,
+      "nucleus": "91Ru",
+      "particle_channel": "2p1n",
+      "spin_path": "25/2- -> 21/2-",
+      "A": "0.081(9)",
+      "A2": "0.23(3)",
+      "A4": "-0.01(1)",
+      "P": "0.39(6)",
+      "Q": "0.21(1)",
+      "P90_from_printed_coefficients": 0.38439716312056743,
+      "P90_printing_box": [
+        0.3720765414599575,
+        0.3967352732434351
+      ],
+      "P90_printing_boxes_overlap": true,
+      "P90_error_local_covariance_envelope": [
+        0.05215029425079221,
+        0.0630632261958654
+      ],
+      "rho_A2_A4_required_if_quoted_errors_same_marginals": 0.4003574182964414,
+      "A_over_P": 0.2076923076923077,
+      "Q_printing_box_from_A_P": [
+        0.20379746835443038,
+        0.2116883116883117
+      ],
+      "Q_printing_boxes_overlap": true,
+      "sigma_Q_if_A_P_independent": 0.039414680434037605,
+      "sigma_Q_any_local_covariance_envelope": [
+        0.008875739644970411,
+        0.05502958579881657
+      ],
+      "rho_A_P_required_if_quoted_errors_same_marginals": 0.9856101614434948,
+      "sigma_Q_nominal_outside_local_envelope": false,
+      "sigma_Q_relaxed_rounding_lower_bound": 0.003701538006937774,
+      "sigma_Q_printed_rounding_upper": 0.015,
+      "sigma_Q_exclusion_survives_liberal_rounding": false
+    },
+    {
+      "E_keV": 898,
+      "nucleus": "91Ru",
+      "particle_channel": "2p1n",
+      "spin_path": "17/2+ -> 13/2+",
+      "A": "0.131(6)",
+      "A2": "0.33(1)",
+      "A4": "-0.01(2)",
+      "P": "0.60(3)",
+      "Q": "0.220(4)",
+      "P90_from_printed_coefficients": 0.5879699248120301,
+      "P90_printing_box": [
+        0.574755822689707,
+        0.6012039127163281
+      ],
+      "P90_printing_boxes_overlap": true,
+      "P90_error_local_covariance_envelope": [
+        0.011849171801684665,
+        0.03131437616597886
+      ],
+      "rho_A2_A4_required_if_quoted_errors_same_marginals": 0.8081614507521113,
+      "A_over_P": 0.21833333333333335,
+      "Q_printing_box_from_A_P": [
+        0.21570247933884298,
+        0.22100840336134456
+      ],
+      "Q_printing_boxes_overlap": true,
+      "sigma_Q_if_A_P_independent": 0.01480451320074764,
+      "sigma_Q_any_local_covariance_envelope": [
+        0.0009166666666666681,
+        0.020916666666666667
+      ],
+      "rho_A_P_required_if_quoted_errors_same_marginals": 0.9305661577608142,
+      "sigma_Q_nominal_outside_local_envelope": false,
+      "sigma_Q_relaxed_rounding_lower_bound": 0.0,
+      "sigma_Q_printed_rounding_upper": 0.0045000000000000005,
+      "sigma_Q_exclusion_survives_liberal_rounding": false
+    },
+    {
+      "E_keV": 974,
+      "nucleus": "91Ru",
+      "particle_channel": "2p1n",
+      "spin_path": "13/2+ -> 9/2+",
+      "A": "0.139(4)",
+      "A2": "0.39(3)",
+      "A4": "-0.02(5)",
+      "P": "0.71(8)",
+      "Q": "0.195(6)",
+      "P90_from_printed_coefficients": 0.7178683385579937,
+      "P90_printing_box": [
+        0.7039937353171496,
+        0.731764705882353
+      ],
+      "P90_printing_boxes_overlap": true,
+      "P90_error_local_covariance_envelope": [
+        0.04762138736844174,
+        0.09223572881555803
+      ],
+      "rho_A2_A4_required_if_quoted_errors_same_marginals": 0.3245020582270393,
+      "A_over_P": 0.19577464788732396,
+      "Q_printing_box_from_A_P": [
+        0.19370629370629372,
+        0.19787234042553195
+      ],
+      "Q_printing_boxes_overlap": true,
+      "sigma_Q_if_A_P_independent": 0.022767175933987027,
+      "sigma_Q_any_local_covariance_envelope": [
+        0.016425312438008335,
+        0.02769291807181115
+      ],
+      "rho_A_P_required_if_quoted_errors_same_marginals": 1.9406062360674843,
+      "sigma_Q_nominal_outside_local_envelope": true,
+      "sigma_Q_relaxed_rounding_lower_bound": 0.013935863273759421,
+      "sigma_Q_printed_rounding_upper": 0.006500000000000001,
+      "sigma_Q_exclusion_survives_liberal_rounding": true
+    },
+    {
+      "E_keV": 1054,
+      "nucleus": "90Mo",
+      "particle_channel": "4p",
+      "spin_path": "4+ -> 2+",
+      "A": "0.114(5)",
+      "A2": "0.32(3)",
+      "A4": "-0.02(1)",
+      "P": "0.57(6)",
+      "Q": "0.201(6)",
+      "P90_from_printed_coefficients": 0.5615615615615616,
+      "P90_printing_box": [
+        0.5483870967741936,
+        0.574755822689707
+      ],
+      "P90_printing_boxes_overlap": true,
+      "P90_error_local_covariance_envelope": [
+        0.059194329464599724,
+        0.06915023131239346
+      ],
+      "rho_A2_A4_required_if_quoted_errors_same_marginals": -0.8496909959491147,
+      "A_over_P": 0.2,
+      "Q_printing_box_from_A_P": [
+        0.19739130434782612,
+        0.2026548672566372
+      ],
+      "Q_printing_boxes_overlap": true,
+      "sigma_Q_if_A_P_independent": 0.02280701754385965,
+      "sigma_Q_any_local_covariance_envelope": [
+        0.012280701754385967,
+        0.029824561403508774
+      ],
+      "rho_A_P_required_if_quoted_errors_same_marginals": 1.3108633333333335,
+      "sigma_Q_nominal_outside_local_envelope": true,
+      "sigma_Q_relaxed_rounding_lower_bound": 0.009146394098064479,
+      "sigma_Q_printed_rounding_upper": 0.006500000000000001,
+      "sigma_Q_exclusion_survives_liberal_rounding": true
+    },
+    {
+      "E_keV": 1264,
+      "nucleus": "91Ru",
+      "particle_channel": "2p1n",
+      "spin_path": "25/2+ -> 21/2+",
+      "A": "0.12(2)",
+      "A2": "0.41(4)",
+      "A4": "-0.01(1)",
+      "P": "0.8(1)",
+      "Q": "0.16(1)",
+      "P90_from_printed_coefficients": 0.7693522906793049,
+      "P90_printing_box": [
+        0.7553275453827939,
+        0.7833992094861658
+      ],
+      "P90_printing_boxes_overlap": true,
+      "P90_error_local_covariance_envelope": [
+        0.09102321251644044,
+        0.09952856205186567
+      ],
+      "rho_A2_A4_required_if_quoted_errors_same_marginals": 1.1160792096876984,
+      "A_over_P": 0.15,
+      "Q_printing_box_from_A_P": [
+        0.1352941176470588,
+        0.16666666666666666
+      ],
+      "Q_printing_boxes_overlap": true,
+      "sigma_Q_if_A_P_independent": 0.031249999999999997,
+      "sigma_Q_any_local_covariance_envelope": [
+        0.006250000000000002,
+        0.04375
+      ],
+      "rho_A_P_required_if_quoted_errors_same_marginals": 0.9349999999999999,
+      "sigma_Q_nominal_outside_local_envelope": false,
+      "sigma_Q_relaxed_rounding_lower_bound": 0.0,
+      "sigma_Q_printed_rounding_upper": 0.015,
+      "sigma_Q_exclusion_survives_liberal_rounding": false
+    }
+  ],
+  "central_P_printing_nonclosures_keV": [],
+  "central_Q_printing_nonclosures_keV": [],
+  "nominal_local_Q_error_exclusions_keV": [
+    316,
+    586,
+    823,
+    974,
+    1054
+  ],
+  "rounding_robust_local_Q_error_exclusions_keV": [
+    316,
+    586,
+    974,
+    1054
+  ],
+  "diagonal_quoted_Q_fit": {
+    "p0_p1": [
+      0.3861611539521688,
+      7.3966835711039e-05
+    ],
+    "unscaled_conditional_covariance": [
+      [
+        0.00019931231934157238,
+        -2.2863249884276068e-07
+      ],
+      [
+        -2.2863249884276063e-07,
+        2.931697937668375e-10
+      ]
+    ],
+    "parameter_error_if_independent_Q_rows": [
+      0.014117801505247635,
+      1.7122201779176575e-05
+    ],
+    "parameter_correlation": -0.9458260708380378,
+    "chi2": 9.980292006916828,
+    "n_rows": 11,
+    "n_params": 2,
+    "chi2_at_printed_params": 13.013599666603625,
+    "hat_diagonal": [
+      0.8596658588491739,
+      0.014226305109193448,
+      0.022570416179326983,
+      0.030791335540340664,
+      0.015531755865573644,
+      0.15065059034491862,
+      0.05449145521598621,
+      0.3490660237817513,
+      0.17588144275525805,
+      0.20946287150666634,
+      0.1176619448518121
+    ],
+    "reuse_boundary": "Q_i=A_i/P_i calibrated from these same transitions; A_i/Qfit(E_i) is an in-sample residual, not an independent P validation.",
+    "missing": [
+      "full Q_i covariance",
+      "A_i-Qfit covariance",
+      "original least-squares/error recipe"
+    ]
+  },
+  "Fig2_area_replay": [
+    {
+      "E_keV": 616,
+      "target_135": [
+        2414,
+        62
+      ],
+      "target_90": [
+        4821,
+        80
+      ],
+      "R_printed": "0.50(2)",
+      "gate_keV": 497,
+      "R_from_areas": 0.5007259904584112,
+      "sigma_R_independent_area_diagnostic": 0.015311132427134916,
+      "sigma_R_any_local_area_covariance_envelope": [
+        0.00455132146096808,
+        0.02116948335131153
+      ],
+      "spurious_extra_Reff_factor_result": 0.896299522920556
+    },
+    {
+      "E_keV": 898,
+      "target_135": [
+        6879,
+        90
+      ],
+      "target_90": [
+        7134,
+        92
+      ],
+      "R_printed": "0.96(2)",
+      "gate_keV": 497,
+      "R_from_areas": 0.964255677039529,
+      "sigma_R_independent_area_diagnostic": 0.017713963224673203,
+      "sigma_R_any_local_area_covariance_envelope": [
+        0.00018061083716895514,
+        0.02505067595845762
+      ],
+      "spurious_extra_Reff_factor_result": 1.7260176619007568
+    },
+    {
+      "E_keV": 974,
+      "target_135": [
+        6731,
+        88
+      ],
+      "target_90": [
+        7062,
+        90
+      ],
+      "R_printed": "0.95(2)",
+      "gate_keV": 497,
+      "R_from_areas": 0.9531294250920419,
+      "sigma_R_independent_area_diagnostic": 0.017401896532930575,
+      "sigma_R_any_local_area_covariance_envelope": [
+        0.0003141251404299387,
+        0.024607993239632364
+      ],
+      "spurious_extra_Reff_factor_result": 1.706101670914755
+    }
+  ],
+  "efficiency_product_control": 1.0,
+  "TableII_identity_controls": [
+    {
+      "E_keV": 328.0,
+      "Ei_keV": 2200,
+      "Ef_keV": 1872,
+      "spin_path": "17/2- -> 17/2+",
+      "R": "1.06(5)",
+      "DCO_gate_keV": 898,
+      "A": "-0.25(4)",
+      "author_character": "nonstretched E1"
+    },
+    {
+      "E_keV": 919.8,
+      "Ei_keV": 1893,
+      "Ef_keV": 974,
+      "spin_path": "13/2- -> 13/2+",
+      "R": "0.99(4)",
+      "DCO_gate_keV": 974,
+      "A": "-0.07(1)",
+      "author_character": "nonstretched E1"
+    },
+    {
+      "E_keV": 615.8,
+      "Ei_keV": 2985,
+      "Ef_keV": 2369,
+      "spin_path": "23/2+ -> 21/2+",
+      "R": "0.50(2)",
+      "DCO_gate_keV": 497,
+      "A": "-0.07(1)",
+      "author_character": "stretched M1"
+    },
+    {
+      "E_keV": 898.5,
+      "Ei_keV": 1872,
+      "Ef_keV": 974,
+      "spin_path": "17/2+ -> 13/2+",
+      "R": "1.01(1)",
+      "DCO_gate_keV": 974,
+      "A": "0.131(6)",
+      "author_character": "stretched E2"
+    },
+    {
+      "E_keV": 973.5,
+      "Ei_keV": 974,
+      "Ef_keV": 0,
+      "spin_path": "13/2+ -> 9/2+",
+      "R": "0.95(2)",
+      "DCO_gate_keV": 497,
+      "A": "0.139(4)",
+      "author_character": "stretched E2"
+    },
+    {
+      "E_keV": 435.9,
+      "Ei_keV": 2799,
+      "Ef_keV": 2363,
+      "spin_path": "21/2+ -> 17/2+",
+      "R": "1.02(8)",
+      "DCO_gate_keV": 974,
+      "A": "0.17(5)",
+      "author_character": "stretched E2, upper member of 436-keV doublet"
+    },
+    {
+      "E_keV": 436.0,
+      "Ei_keV": 436,
+      "Ef_keV": 0,
+      "spin_path": "11/2+ -> 9/2+",
+      "R": null,
+      "DCO_gate_keV": null,
+      "A": null,
+      "author_character": "weak lower member of 436-keV doublet"
+    },
+    {
+      "E_keV": 538.0,
+      "Ei_keV": 974,
+      "Ef_keV": 436,
+      "spin_path": "13/2+ -> 11/2+",
+      "R": "1.1(6)",
+      "DCO_gate_keV": 361,
+      "A": "-0.19(8)",
+      "author_character": "M1; not the upper 436-keV branch"
+    },
+    {
+      "E_keV": 1280.7,
+      "Ei_keV": 2254,
+      "Ef_keV": 974,
+      "spin_path": "15/2- -> 13/2+",
+      "R": "0.6(1)",
+      "DCO_gate_keV": 974,
+      "A": "0.14(4)",
+      "author_character": "stretched E1"
+    }
+  ],
+  "gradient_max_abs_error": 9.359224506511055e-11,
+  "status": "conditional-printed-data-audit; source uncertainty semantics remain unresolved",
+  "all_internal_checks_passed": true,
+  "day_index": 16,
+  "partial_day_indices": [
+    17
+  ],
+  "formal_day17_credit": false
+}

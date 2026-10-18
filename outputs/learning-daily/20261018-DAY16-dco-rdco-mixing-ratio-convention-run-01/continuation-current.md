@@ -1,11 +1,11 @@
-# Day16 checkpoint013之后持续研究
+# Day16 checkpoint014之后持续研究
 
-原goalactive/pursuing，用户要求持续至原2026-10-19T15:00:00+08:00，15–16closeout。旧completed/局部saturation不提前结束。Day16credit一次next17/count16、partial17，无formal17/Day18。
+Goal active/pursuing，同run2026-10-18-day-16-01/session01a14ce6-425e-77c1-a127-2ac980bd76b5，原研究截止2026-10-19 15:00上海，15–16收束。next17/count16、正式仅16一次、partial17，不开Day18；checkpoint不是全窗完成。
 
-Canonical29changed/29items：W178/KS70/ALPACA/Martin-Tuli/totalIC/RZ17/EL18/DELTA以及三个104Mo官方对象。N104旧2007M1标签与空MR/缺targetDCO不能替2018δ选根；各energy/object/companion时层保持，referenceτ换算非新lifetimecard。freshrequired最终均0、0errors160warnings(122key35raw3parser)，lintfirst缺Scopeheading已修、旧flags/review/继承dirty保护。
+Z13原11页主线/两表八图已读，冻结11行TableI、3行Fig2counts、9项TableII身份。真实898不同门、nonstretchedE1负A、Q校准回代依赖已canonical。全部中央P/Q舍入相容；一阶marginalσ条件四项宽松舍入仍不闭合，不判实验错。arxivv1定向两表同TableI但435.9σ不同。30changed/30writeback；verification-reopened008实际required0，0errors160warnings(122key35raw3parser)，旧flags保留。
 
-当前Daniel2007原方法route：EL18Ref10 NIMB262399–406 DOI10.1016/j.nimb.2007.06.008，sourcebeforefreezerecall已存。OpenAIRE给OxfordORA https://ora.ox.ac.uk/objects/uuid:227e0362-36bf-492a-9f38-4c0f0b81af25，recordGET tool session结果待恢复；先看daniel2007-oxford-record.json/GET是否完，再合法body取得/原方法主线。作者body/EL18actualproducer/Σ不可据metadata补。
+当前Gu96新primary route：doi10.1103/PhysRevC.53.1191，gu96-before-source.md/gu96-before-freeze.json已冻primed回忆。Crossref/OpenAlex元数据已核title Prompt gamma-ray spectroscopy of the104Mo and108Mo fission fragments；OpenAlex无OA、OSTI连接失败。PublisherPDF/Harvest/OpenAIRE过程session38486执行中，先取fulltext-routes001结果；按合法body完整主线查104Mo旧M1label实际DCO/gate/reference/误差及数据谱系，不从evaluation补正文，不强配EL18δ。source未读则不编claim。
 
-Goodin2010指定机构403/联邦目录无确切thesis题名；OpenAlex可能混ORCID/engineering同名，只作发现不证作者全名。Krane1973 PRC8,1494 body未得，APS401/403、OSUchallenge、ADSdeny，OpenAIRE合1974PRC10.1197不同文章已分清，别当erratum/原文。所有终态route不原样重试。
+已终态：Daniel2007 ORA/publisher仅metadata无body；Goodin2010机构403/身份未认证；Krane1973 APS401/403、OSUchallenge/ADSdeny且OpenAIRE合1974不同文已拆；Jül-Spez458仅目录。原样失败route不重试。
 
-下一publication014+ exactmanifest/HEAD+ownlog/H3/Gitee非force；新publicPDF/data/code只tmp，第三方源码/binary不stage，raw归档槽显式未填。唯一reportwriteback在固定17日文件名日报，18日run-dir/session/resume/deadline不变；持续高价值实际证据/反证/模型边界学习。
+Farmer42019保留，无新session/daemon。原raw/PLAN/Bib/credentials/继承dirty与review不动。Publication014精确manifest、log仅HEAD+ownentry、H3/Gitee非force；实际hash/结果仅publication/runreceipt。下一仍在原时间门内选高信息路线，不能因来源/候选局部饱和提前结束。

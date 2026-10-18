@@ -8,13 +8,15 @@ updated: 2026-10-18
 
 ## Active handoff — DAY16 user-resumed original study window
 
-2026-10-18T16:31:18.642920+08:00：用户明确恢复持续学习，同run2026-10-18-day-16-01/session01a14ce6-425e-77c1-a127-2ac980bd76b5，原2026-10-19 15:00上海研究截止不变，15–16点收束。此前completed/closeout-only已被本次用户指令覆盖；前次成果/发布历史保留，next17/count16、completed16/partial17不重复计卡，不开Day18。Farmer PID42019 running保留，无新session/daemon/nativegoal；用户/goal resume已恢复原生goal为active，保留原objective并持续pursuing。
+同run2026-10-18-day-16-01/session01a14ce6-425e-77c1-a127-2ac980bd76b5，原2026-10-19 15:00上海研究截止不变，15–16点收束。用户恢复覆盖旧completed/closeout-only；goal active/pursuing，next17/count16、completed16/partial17不重计，不开Day18。Farmer PID42019 running保留，无新session/daemon。
 
-恢复checkpoint013：三个官方104Mo对象（Cf201/Cm96全主线、adoptedselected）version/target/ref/MR空/旧M1global来源与actualobject缺targetDCO核。旧2007label不能独立代EL18新δ裁决；crosswalk保留835.5/835.8/836.3与LS层，.97half→1.40mean只作calibration身份，无Day18。29changed/29writeback、actualboundary/diff0，lint-first缺新sourceScope已修后0/0errors160warnings(122key/35raw/3parser)，旧review/继承dirty保护。
+恢复checkpoint014（verification-reopened-008）：Z13原11页全文主线/两表八图复核，三项Fig2真实DCOcounts及898不同门、nonstretched E1与M1同A负号反例；11项P/Q中央值舍入相容，条件一阶误差四项在宽松舍入下仍不闭合，原error semantics/producer未知，不判实验错。arXiv v1两表定向核：TableI同值，upper435.9 A误差.07对期刊.05，保留版本边界。30changed/30writeback，actualboundary/diff/lint均0，0errors160warnings(122key/35raw/3parser)，旧review/继承dirty保护。
 
-稳定指针main / `Trace DAY16 Mo104 reference identities across evaluated data`，actualhash/H3/push仅publication013/runreceipt。下一Daniel2007原IPAC方法/response/误差：sourcebefore已冻，Crossref/doi核10.1016/j.nimb.2007.06.008/NIMB262399–406；OpenAlex无OA但OpenAIRE给OxfordORA uuid227e0362-36bf-492a-9f38-4c0f0b81af25，recordGET执行中/先恢复结果；metadata不当原文。Goodin2010指定机构403/准确题名仍未知，Krane1973paperbody未得且OpenAIRE合1974不同文已拆，终态不重试。
+稳定指针main / `Audit DAY16 EXOGAM gate identities and calibration uncertainties`，actualhash/H3/远端结果仅publication014/runreceipt。上一013实际push已观察exit0及HEAD=origin/main，已补receipt。当前Gu96（PRC53,1191，doi10.1103/PhysRevC.53.1191）primary前回忆已冻；Crossref/OpenAlex元数据已核题名Prompt gamma-ray spectroscopy of the104Mo and108Mo fission fragments；OpenAlex无OA、OSTI连接失败，合法publisher/OpenAIRE body查询继续。查104Mo旧M1label实际DCO/gate/reference与事件谱系，不从adopted空MR造δ0或代EL18选根。
 
-Goal/window继续active/pursuing至原2026-10-19 15:00上海后15–16closeout。Day16credit一次next17/count16、partial17，无formal17/Day18；保护raw/PLAN/Bib/credentials/继承dirty/reviews，exactmanifest/HEAD+ownlog/H3/Gitee非force。原17日文件名日报/18日run-dir/session/resume沿用，不因checkpoint提前停。
+Daniel2007 ORA只有metadata/abstract、AccessDocument空，publisherXML无body；Jül原thesis仅目录，无DCOMAP正文。Goodin2010机构403/身份未认证，Krane1973 body未得；终态不原样重试。Z13缺逐线Compton gate/counts/背景及AD/a/Q全Cov，未把DCO门当polarization门。
+
+沿用17日固定日报/18日run-dir/session/resume及原deadline，持续高信息学习；exactmanifest/HEAD+ownlog/H3/Gitee非force，保护raw/PLAN/Bib/credentials/继承dirty/旧flags。恰好partial17不授正式17学分。
 
 ## Previous active handoff — DAY16 completed; Day17 is next
 

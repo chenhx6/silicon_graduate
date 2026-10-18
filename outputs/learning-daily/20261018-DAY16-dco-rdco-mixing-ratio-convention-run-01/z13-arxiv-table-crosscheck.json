@@ -1,0 +1,65 @@
+{
+  "at": "2026-10-18T11:25:48.604073+00:00",
+  "identity": "arXiv:1304.3287v1, 11 Apr 2013; same experiment and journal author manuscript",
+  "arxiv_pdf_pages": 19,
+  "arxiv_sha256": "a757073de7473e2fec971d8b2f2c65b4247354e6907c326dcda6c355e8a97961",
+  "scope": "定向Table I pp18、Table II pp19及Eqs4-7/Fig5；不称19页全文精读",
+  "tableI_checks": [
+    {
+      "E_keV": 316,
+      "A_A2_A4_P_Q_same_printed_tokens": true
+    },
+    {
+      "E_keV": 477,
+      "A_A2_A4_P_Q_same_printed_tokens": true
+    },
+    {
+      "E_keV": 497,
+      "A_A2_A4_P_Q_same_printed_tokens": true
+    },
+    {
+      "E_keV": 586,
+      "A_A2_A4_P_Q_same_printed_tokens": true
+    },
+    {
+      "E_keV": 741,
+      "A_A2_A4_P_Q_same_printed_tokens": true
+    },
+    {
+      "E_keV": 823,
+      "A_A2_A4_P_Q_same_printed_tokens": true
+    },
+    {
+      "E_keV": 871,
+      "A_A2_A4_P_Q_same_printed_tokens": true
+    },
+    {
+      "E_keV": 898,
+      "A_A2_A4_P_Q_same_printed_tokens": true
+    },
+    {
+      "E_keV": 974,
+      "A_A2_A4_P_Q_same_printed_tokens": true
+    },
+    {
+      "E_keV": 1054,
+      "A_A2_A4_P_Q_same_printed_tokens": true
+    },
+    {
+      "E_keV": 1264,
+      "A_A2_A4_P_Q_same_printed_tokens": true
+    }
+  ],
+  "selected_tableII_difference": {
+    "E_keV": 435.9,
+    "arxiv_v1_A": "0.17(7)",
+    "journal_A": "0.17(5)",
+    "source_identity": "2799 -> 2363; upper 436-keV doublet; Table II"
+  },
+  "independent_experiment_added": false,
+  "initial_parse_failure": {
+    "exit_code": 1,
+    "cause": "single text-line check did not encompass wrapped row 871; fixed to span each full row; PDFs and input unchanged"
+  },
+  "conclusion": "Table I error differences are not caused by this arXiv-versus-journal version distinction; original error semantics remain missing."
+}

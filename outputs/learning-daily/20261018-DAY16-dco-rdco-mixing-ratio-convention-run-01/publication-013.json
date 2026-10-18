@@ -1,0 +1,25 @@
+{
+  "publication_index": 13,
+  "at": "2026-10-18T19:16:29.787763+08:00",
+  "branch": "main",
+  "subject": "Trace DAY16 Mo104 reference identities across evaluated data",
+  "commit": "d91cc429e02a78d945b4e5c9e7bccddf7f9f4551",
+  "origin_main": "d91cc429e02a78d945b4e5c9e7bccddf7f9f4551",
+  "status": "published",
+  "required_exit_codes": {
+    "fresh_fetch": 0,
+    "ancestry": 0,
+    "dry_run_HEAD_main": 0,
+    "push_HEAD_main": 0,
+    "post_commit_eol": 0,
+    "cached_check": 0
+  },
+  "push_observation": {
+    "exec_session_id": 12245,
+    "poll_exit_code": 0,
+    "result": "8d865de..d91cc42 HEAD -> main; observed after context recovery"
+  },
+  "goal_status": "active",
+  "research_deadline": "2026-10-19T15:00:00+08:00",
+  "credit_retained_once": true
+}

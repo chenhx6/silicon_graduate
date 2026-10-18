@@ -1,0 +1,30 @@
+{
+  "at": "2026-10-18T11:19:21.388866+00:00",
+  "url": "https://api.crossref.org/works/10.1103/PhysRevC.87.044328",
+  "http_status": 200,
+  "title": [
+    "<mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mml:mi>γ</mml:mi></mml:math>-ray linear polarization measurements and<mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mml:msup><mml:mrow><mml:mo>(</mml:mo><mml:msub><mml:mi>g</mml:mi><mml:mrow><mml:mn>9</mml:mn><mml:mo>/</mml:mo><mml:mn>2</mml:mn></mml:mrow></mml:msub><mml:mo>)</mml:mo></mml:mrow><mml:mrow><mml:mo>−</mml:mo><mml:mn>3</mml:mn></mml:mrow></mml:msup></mml:math>neutron alignment in<mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mml:msup><mml:mrow/><mml:mn>91</mml:mn></mml:msup></mml:math>Ru"
+  ],
+  "DOI": "10.1103/physrevc.87.044328",
+  "link": [
+    {
+      "URL": "http://link.aps.org/article/10.1103/PhysRevC.87.044328",
+      "content-type": "unspecified",
+      "content-version": "vor",
+      "intended-application": "syndication"
+    },
+    {
+      "URL": "http://harvest.aps.org/v2/journals/articles/10.1103/PhysRevC.87.044328/fulltext",
+      "content-type": "unspecified",
+      "content-version": "vor",
+      "intended-application": "similarity-checking"
+    }
+  ],
+  "relation": {},
+  "update-to": null,
+  "resource": {
+    "primary": {
+      "URL": "https://link.aps.org/doi/10.1103/PhysRevC.87.044328"
+    }
+  }
+}

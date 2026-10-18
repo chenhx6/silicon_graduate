@@ -1,0 +1,299 @@
+{
+  "identity": "DAY16-PARTIAL17-Z13-PRINTED-CALIBRATION-01",
+  "day_index": 16,
+  "partial_day_index": 17,
+  "formal_day17_credit": false,
+  "source": {
+    "doi": "10.1103/PhysRevC.87.044328",
+    "path": "knowledge/sources/zheng-2013-linear-polarization-91ru.md",
+    "raw_sha256": "0688633ba372e7f3f60b2e9fd69e556d28070b2f5bde62d13d01d1bd9a5483ef",
+    "page_offset": "physical 044328-n = PDF page n+1",
+    "table_locator": "Table I, physical 044328-5 / PDF6"
+  },
+  "TableI": [
+    {
+      "E_keV": 316,
+      "nucleus": "91Tc",
+      "particle_channel": "3p",
+      "spin_path": "21/2+ -> 17/2+",
+      "A": "0.17(2)",
+      "A2": "0.336(2)",
+      "A4": "-0.178(2)",
+      "P": "0.513(2)",
+      "Q": "0.331(8)"
+    },
+    {
+      "E_keV": 477,
+      "nucleus": "90Mo",
+      "particle_channel": "4p",
+      "spin_path": "12+ -> 10+",
+      "A": "0.16(4)",
+      "A2": "0.32(8)",
+      "A4": "-0.10(1)",
+      "P": "0.51(9)",
+      "Q": "0.31(4)"
+    },
+    {
+      "E_keV": 497,
+      "nucleus": "91Ru",
+      "particle_channel": "2p1n",
+      "spin_path": "21/2+ -> 17/2+",
+      "A": "0.17(3)",
+      "A2": "0.39(7)",
+      "A4": "-0.16(8)",
+      "P": "0.65(8)",
+      "Q": "0.26(3)"
+    },
+    {
+      "E_keV": 586,
+      "nucleus": "88Mo",
+      "particle_channel": "2p1alpha",
+      "spin_path": "8+ -> 6+",
+      "A": "0.11(3)",
+      "A2": "0.27(2)",
+      "A4": "-0.08(3)",
+      "P": "0.42(4)",
+      "Q": "0.26(2)"
+    },
+    {
+      "E_keV": 741,
+      "nucleus": "88Mo",
+      "particle_channel": "2p1alpha",
+      "spin_path": "2+ -> 0+",
+      "A": "0.068(7)",
+      "A2": "0.22(2)",
+      "A4": "-0.15(3)",
+      "P": "0.28(5)",
+      "Q": "0.24(2)"
+    },
+    {
+      "E_keV": 823,
+      "nucleus": "91Ru",
+      "particle_channel": "2p1n",
+      "spin_path": "25/2+ -> 21/2+",
+      "A": "0.073(6)",
+      "A2": "0.205(5)",
+      "A4": "-0.02(1)",
+      "P": "0.33(1)",
+      "Q": "0.220(6)"
+    },
+    {
+      "E_keV": 871,
+      "nucleus": "91Ru",
+      "particle_channel": "2p1n",
+      "spin_path": "25/2- -> 21/2-",
+      "A": "0.081(9)",
+      "A2": "0.23(3)",
+      "A4": "-0.01(1)",
+      "P": "0.39(6)",
+      "Q": "0.21(1)"
+    },
+    {
+      "E_keV": 898,
+      "nucleus": "91Ru",
+      "particle_channel": "2p1n",
+      "spin_path": "17/2+ -> 13/2+",
+      "A": "0.131(6)",
+      "A2": "0.33(1)",
+      "A4": "-0.01(2)",
+      "P": "0.60(3)",
+      "Q": "0.220(4)"
+    },
+    {
+      "E_keV": 974,
+      "nucleus": "91Ru",
+      "particle_channel": "2p1n",
+      "spin_path": "13/2+ -> 9/2+",
+      "A": "0.139(4)",
+      "A2": "0.39(3)",
+      "A4": "-0.02(5)",
+      "P": "0.71(8)",
+      "Q": "0.195(6)"
+    },
+    {
+      "E_keV": 1054,
+      "nucleus": "90Mo",
+      "particle_channel": "4p",
+      "spin_path": "4+ -> 2+",
+      "A": "0.114(5)",
+      "A2": "0.32(3)",
+      "A4": "-0.02(1)",
+      "P": "0.57(6)",
+      "Q": "0.201(6)"
+    },
+    {
+      "E_keV": 1264,
+      "nucleus": "91Ru",
+      "particle_channel": "2p1n",
+      "spin_path": "25/2+ -> 21/2+",
+      "A": "0.12(2)",
+      "A2": "0.41(4)",
+      "A4": "-0.01(1)",
+      "P": "0.8(1)",
+      "Q": "0.16(1)"
+    }
+  ],
+  "Fig2": {
+    "locator": "Fig.2 + Sec.II, physical 044328-3 / PDF4",
+    "angles_deg": {
+      "numerator_target": 135,
+      "numerator_gate": 90,
+      "denominator_target": 90,
+      "denominator_gate": 135
+    },
+    "gate_E_keV": 497,
+    "gate_spin_path": "21/2+ -> 17/2+",
+    "rows": [
+      {
+        "E_keV": 616,
+        "target_135": [
+          2414,
+          62
+        ],
+        "target_90": [
+          4821,
+          80
+        ],
+        "R_printed": "0.50(2)"
+      },
+      {
+        "E_keV": 898,
+        "target_135": [
+          6879,
+          90
+        ],
+        "target_90": [
+          7134,
+          92
+        ],
+        "R_printed": "0.96(2)"
+      },
+      {
+        "E_keV": 974,
+        "target_135": [
+          6731,
+          88
+        ],
+        "target_90": [
+          7062,
+          90
+        ],
+        "R_printed": "0.95(2)"
+      }
+    ]
+  },
+  "TableII_selected": [
+    {
+      "E_keV": 328.0,
+      "Ei_keV": 2200,
+      "Ef_keV": 1872,
+      "spin_path": "17/2- -> 17/2+",
+      "R": "1.06(5)",
+      "DCO_gate_keV": 898,
+      "A": "-0.25(4)",
+      "author_character": "nonstretched E1"
+    },
+    {
+      "E_keV": 919.8,
+      "Ei_keV": 1893,
+      "Ef_keV": 974,
+      "spin_path": "13/2- -> 13/2+",
+      "R": "0.99(4)",
+      "DCO_gate_keV": 974,
+      "A": "-0.07(1)",
+      "author_character": "nonstretched E1"
+    },
+    {
+      "E_keV": 615.8,
+      "Ei_keV": 2985,
+      "Ef_keV": 2369,
+      "spin_path": "23/2+ -> 21/2+",
+      "R": "0.50(2)",
+      "DCO_gate_keV": 497,
+      "A": "-0.07(1)",
+      "author_character": "stretched M1"
+    },
+    {
+      "E_keV": 898.5,
+      "Ei_keV": 1872,
+      "Ef_keV": 974,
+      "spin_path": "17/2+ -> 13/2+",
+      "R": "1.01(1)",
+      "DCO_gate_keV": 974,
+      "A": "0.131(6)",
+      "author_character": "stretched E2"
+    },
+    {
+      "E_keV": 973.5,
+      "Ei_keV": 974,
+      "Ef_keV": 0,
+      "spin_path": "13/2+ -> 9/2+",
+      "R": "0.95(2)",
+      "DCO_gate_keV": 497,
+      "A": "0.139(4)",
+      "author_character": "stretched E2"
+    },
+    {
+      "E_keV": 435.9,
+      "Ei_keV": 2799,
+      "Ef_keV": 2363,
+      "spin_path": "21/2+ -> 17/2+",
+      "R": "1.02(8)",
+      "DCO_gate_keV": 974,
+      "A": "0.17(5)",
+      "author_character": "stretched E2, upper member of 436-keV doublet"
+    },
+    {
+      "E_keV": 436.0,
+      "Ei_keV": 436,
+      "Ef_keV": 0,
+      "spin_path": "11/2+ -> 9/2+",
+      "R": null,
+      "DCO_gate_keV": null,
+      "A": null,
+      "author_character": "weak lower member of 436-keV doublet"
+    },
+    {
+      "E_keV": 538.0,
+      "Ei_keV": 974,
+      "Ef_keV": 436,
+      "spin_path": "13/2+ -> 11/2+",
+      "R": "1.1(6)",
+      "DCO_gate_keV": 361,
+      "A": "-0.19(8)",
+      "author_character": "M1; not the upper 436-keV branch"
+    },
+    {
+      "E_keV": 1280.7,
+      "Ei_keV": 2254,
+      "Ef_keV": 974,
+      "spin_path": "15/2- -> 13/2+",
+      "R": "0.6(1)",
+      "DCO_gate_keV": 974,
+      "A": "0.14(4)",
+      "author_character": "stretched E1"
+    }
+  ],
+  "calibration": {
+    "a0": "1.05(3)",
+    "a1_keV_inv": "0.000039(9)",
+    "p0": "0.39(2)",
+    "p1_keV_inv": "0.00006(3)",
+    "R_eff": "1.79(5)",
+    "mec2_keV": 511.0,
+    "source_fit_chi2_labels": {
+      "Fig4": 2.0,
+      "Fig5": 11.0
+    },
+    "a0_a1_covariance": null,
+    "p0_p1_covariance": null,
+    "cross_transition_covariance": null
+  },
+  "analysis_contract": {
+    "error_test": "First-order delta-method only; quoted parenthetical values treated as marginal standard deviations for this conditional check, not asserted original error semantics. rho_AP in [-1,1].",
+    "rounding_test": "Separate conservative relaxation: each central value and each printed sigma varies by half of its last decimal unit. Not a confidence interval.",
+    "fit_test": "Declared diagonal-quoted-Q weighted least-squares reconstruction; cross-transition calibration covariance missing. Not original producer or independent P validation.",
+    "DCO_error": "Use stated area uncertainties with Cov(area135,area90)=0 only as a diagnostic. Missing full peak/gate/background covariance.",
+    "polarization_gate_boundary": "Table II names DCO gates, not per-line Compton gate ledgers. Do not assume the polarization and DCO event selections are identical."
+  }
+}

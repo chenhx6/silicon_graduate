@@ -1,0 +1,23 @@
+{
+  "at": "2026-10-18T19:17:29.429629+08:00",
+  "session_id": "01a14ce6-425e-77c1-a127-2ac980bd76b5",
+  "input_path": "outputs/learning-daily/20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/z13-calibration-input.json",
+  "input_sha256": "7a540d762c971e7ade8eeb739a85a7f226a4af1d42dc30a6b0c9edfc53a0aeea",
+  "raw_sha256": "0688633ba372e7f3f60b2e9fd69e556d28070b2f5bde62d13d01d1bd9a5483ef",
+  "source_before_sha256": "352b3950647e1fbccecb0811dca85ab335e6fbf1191ee05403ffea96b70872f1",
+  "visual_checks": [
+    "PDF4 Fig1/2/3",
+    "PDF5 Eqs2-7/Fig4",
+    "PDF6 TableI/Fig5",
+    "PDF7 TableII",
+    "PDF8 Fig6 + assignment discussion",
+    "PDF9 Fig7",
+    "PDF10 Fig8 + conclusion"
+  ],
+  "main_line": "全文文字主线、实验/分析/两表/八图/模型/总结；无event矩阵或response/完整Cov。",
+  "status": "frozen-before-analysis",
+  "day_index": 16,
+  "partial_day_indices": [
+    17
+  ]
+}

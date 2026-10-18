@@ -1,0 +1,13 @@
+{
+  "at": "2026-10-18T19:04:37.840023+08:00",
+  "url": "https://api.elsevier.com/content/article/PII:S0168583X07011688?httpAccept=text/xml",
+  "status": 200,
+  "bytes": 2024,
+  "sha256": "7a93cce474b5ec396dcdecf08bbb4594b5776754414e30509cfce3fca84d7953",
+  "tags": [
+    "full-text-retrieval-response"
+  ],
+  "text_excerpt": "https://api.elsevier.com/content/article/pii/S0168583X07011688 doi:10.1016/j.nimb.2007.06.008 1-s2.0-S0168583X07011688 10.1016/j.nimb.2007.06.008 S0168-583X(07)01168-8 Technique for measuring angular correlations and g-factors of excited states with large multi-detector arrays: An application to neutron rich nuclei produced by the spontaneous fission of 252Cf Nuclear Instruments and Methods in Physics Research Section B: Beam Interactions with Materials and Atoms Journal 0168583X 2007-09-30 September 2007 0 false false",
+  "body_obtained": false,
+  "ORA_record_pdf_links_found": false
+}

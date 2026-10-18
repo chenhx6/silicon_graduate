@@ -235,3 +235,20 @@ nearA0才回到1/n及F形式；sourceEq17是独立Poisson层的相应误差式�
 两种calibration反应、同197Pb数据的不同处理、alternate44pagepreprint/16page期刊版都不自动增加独立实验。实际197Pb为12台80–100度、60keV side threshold、约270/271-keV bandgate；精确energy/gate选择应回原谱，不能仅凭近似label匹配其它measurement。
 
 复算[day16_sg98_polarimetry_preview.py](../../system/scripts/day16_sg98_polarimetry_preview.py)的冻结input/actualtableaudit保存七行、原errors、梯度与printingfailures；这是本日恰好Day17无学分知识preview，不重记formal17。下一高信息输入是matchingeta/Q与background/fitCov和event/cut ledger，而非任意加counts或Q插值调参。
+
+
+## EXOGAM已知E2校准：比值误差与回代依赖
+
+[[zheng-2013-linear-polarization-91ru]] Z13-7/9/10/11的原Eq.(4)与Table I给Q=A/P。必须把“中央值可以复算”和“同一误差预算可复现”分开：11项中央值在printing rounding下相容；若括号σ是同一比值的marginal标准差，一阶局部传播须满足
+
+\[
+\left|\frac{\sigma_A}{P}-\frac{A\sigma_P}{P^2}\right|
+\le\sigma_Q\le
+\frac{\sigma_A}{P}+\frac{A\sigma_P}{P^2}.
+\]
+
+这是Cov正半定/Cauchy–Schwarz的必要界，不是独立误差假设。原316-keV项A=.17(.02)、P=.513(.002)、Q=.331(.008)的名义下界约.03769，已高于.008；即宽松允许所有中央值/误差末位各半位，保守下界.02755仍高于.0085。586、974、1054也保留这种条件不闭合；823的名义不闭合不能通过宽松rounding检查，故不将其列为稳健排除。原σ定义/producer缺失，不据此宣布原实验错误或重估P/δ。
+
+以printed11个Q为独立输入的声明拟合是p0=.38616115、p1=7.39668×10^-5/keV、χ²=9.98029；作者.39(.02)、.00006(.00003)及Fig.5标签11不改。这些数并非原协方差/拟合配方的认证。Q_i本就来自A_i/P_i，以相同A_i/Qfit(E_i)回到P_i只检查样本内残差；应保留Cov(A_i,Qfit)与跨点calibration Cov。更多反应道或更多回代处理不自动增加独立标定。
+
+复核原件和[冻结input/计算](../../outputs/learning-daily/20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/z13-calibration-audit.json)的目的是定位缺哪一层误差。应取得matching Compton净计数/门/背景、a与Q拟合Cov、A2/A4联合Cov/未舍入参数后才作实验error-budget或δ联合拟合；当前仍是Day16下的partial17知识预习，无正式17学分。

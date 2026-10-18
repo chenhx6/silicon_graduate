@@ -1,0 +1,85 @@
+{
+  "at": "2026-10-18T11:20:33.326240+00:00",
+  "results": [
+    {
+      "label": "openalex",
+      "url": "https://api.openalex.org/works/https://doi.org/10.1103/PhysRevC.87.044328",
+      "http_status": 200,
+      "data": {
+        "id": "https://openalex.org/W1868805622",
+        "locations": [
+          {
+            "landing_page_url": "https://doi.org/10.1103/physrevc.87.044328",
+            "pdf_url": "http://link.aps.org/pdf/10.1103/PhysRevC.87.044328",
+            "source": "Physical Review C"
+          },
+          {
+            "landing_page_url": "https://research.manchester.ac.uk/en/publications/97aaa09d-363c-4865-827e-7a5f4a2b0b48",
+            "pdf_url": null,
+            "source": "Research Explorer (The University of Manchester)"
+          },
+          {
+            "landing_page_url": "https://real.mtak.hu/196742/1/1304.3287v1.pdf",
+            "pdf_url": "https://real.mtak.hu/196742/1/1304.3287v1.pdf",
+            "source": "Repository of the Academy's Library (Library of the Hungarian Academy of Sciences)"
+          },
+          {
+            "landing_page_url": "http://arxiv.org/abs/1304.3287",
+            "pdf_url": "https://arxiv.org/pdf/1304.3287",
+            "source": "arXiv (Cornell University)"
+          },
+          {
+            "landing_page_url": "https://in2p3.hal.science/in2p3-00812347",
+            "pdf_url": null,
+            "source": "HAL (Le Centre pour la Communication Scientifique Directe)"
+          },
+          {
+            "landing_page_url": "http://hdl.handle.net/10261/125443",
+            "pdf_url": null,
+            "source": "DIGITAL.CSIC (Spanish National Research Council (CSIC))"
+          },
+          {
+            "landing_page_url": "http://hdl.handle.net/10550/31493",
+            "pdf_url": null,
+            "source": "LA Referencia (Red Federada de Repositorios Institucionales de Publicaciones Científicas)"
+          },
+          {
+            "landing_page_url": "http://urn.fi/URN:NBN:fi:jyu-201602021397",
+            "pdf_url": null,
+            "source": "Jyväskylä University Digital Archive (University of Jyväskylä)"
+          },
+          {
+            "landing_page_url": "https://researchprofiles.ku.dk/da/publications/2558cdb8-f235-42bc-a599-ee19f67cbff5",
+            "pdf_url": null,
+            "source": "Research at the University of Copenhagen (University of Copenhagen)"
+          },
+          {
+            "landing_page_url": "https://researchprofiles.ku.dk/da/publications/b63337bc-e33b-4175-a785-3a303e6f148e",
+            "pdf_url": null,
+            "source": "Research at the University of Copenhagen (University of Copenhagen)"
+          },
+          {
+            "landing_page_url": "http://hdl.handle.net/10550/31493",
+            "pdf_url": null,
+            "source": "Repository of Digital Objects for Teaching Research and Culture (University of Valencia)"
+          },
+          {
+            "landing_page_url": "http://prc.aps.org/abstract/PRC/v87/i4/e044328",
+            "pdf_url": null,
+            "source": "Padua Research Archive (University of Padova)"
+          },
+          {
+            "landing_page_url": "https://doi.org/10.48550/arxiv.1304.3287",
+            "pdf_url": null,
+            "source": "arXiv (Cornell University)"
+          }
+        ]
+      }
+    },
+    {
+      "label": "openaire",
+      "url": "https://api.openaire.eu/search/publications?doi=10.1103/PhysRevC.87.044328&format=json",
+      "error": "ReadTimeout: HTTPSConnectionPool(host='api.openaire.eu', port=443): Read timed out. (read timeout=35)"
+    }
+  ]
+}

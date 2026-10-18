@@ -1,0 +1,23 @@
+{
+  "at": "2026-10-18T19:27:28.267645+08:00",
+  "hard_deadline": "2026-10-19T15:00:00+08:00",
+  "minutes_remaining": 1172.5288725833334,
+  "completed_day_indices": [
+    16
+  ],
+  "partial_day_indices": [
+    17
+  ],
+  "next_card_checked": "Day17, matrix154-160; current uncredited preview only",
+  "current_issue": "Zheng2013 printed calibration audit reached bounded closure; uncertainty recipe and event/gate Cov unavailable. No fit tuning to close error budget.",
+  "continuity_problem": "Day16 reference/phase/mixing-branch identity; W178 actual producer gap remains",
+  "novelty_problem": "104Mo old Cm/Cf evaluation label against newer gamma-band large/small-delta branch; follow actual Gu96 cited primary, not evaluated label as adjudicator",
+  "permitted_next_card_preview": "Day17 preview Z13 now complete as knowledge checkpoint; no formal credit",
+  "next_route": "Gu96 PhysRevC53.1191 primary body and reported DCO/reference/spin/multipole; quantify only if actual inputs supplied",
+  "not_opened": [
+    "formal Day17 run",
+    "Day18"
+  ],
+  "decision": "continue-current-high-information-primary-route",
+  "why_not_closeout": "Original deadline still more than 120 min away, viable new primary reference route remains."
+}

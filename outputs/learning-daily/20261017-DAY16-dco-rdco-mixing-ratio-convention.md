@@ -215,6 +215,16 @@ Goodin2010指定机构403/目录未得准确thesis题名，OpenAlex的fullname/O
 
 [冻结输入](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/mo104-crosswalk-input.json)/[crosswalk结果](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/mo104-crosswalk-audit.json)核MR空、旧globalM来自CmDCO但该对象无targetR/gate/angles；旧M1标签不填δ0，也不单靠版本裁决EL18大E2支。reference192层/T1/2 .97(.08)→mean1.3994(.1154)只核EL18calibrationinput，不开Day18。Cm对象T还引自Cfplungerprimary，数据集标题不当独立采集。知识已同步EL18/双解单和source，不新测δ/τ或补旧DCO。
 
+### 恰好Day17预习延续：91Ru真实门、偏振符号与校准误差
+
+先冻结[primed回忆](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/z13-preview-before-source.md)及hash，后沿[Zheng2013 source](../../knowledge/sources/zheng-2013-linear-polarization-91ru.md)的原11页全文主线、两表/八图/Eqs.(1)–(9)重新阅读。正文044328-n=PDF第n+1页；本run正式16/partial17不变。Table I十一项、Fig.2三组真实峰面积及Table II九项身份[冻结输入](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/z13-calibration-input.json)，原PDF hash已核，未改raw。
+
+Z13-6/8：Fig.2的497门三比值复算.500726/.964256/.953129；仅声明独立拟峰面积时σ为.01531/.01771/.01740，未恢复全Cov。R_eff=1.79是效率曲线常数比例，在两光子乘积中相消，不能再乘入R。898.5在Table II用了974门，R=1.01(.01)，不是Fig.2的同一观测。919.8 nonstretched E1与615.8 stretched M1连A=−.07(.01)都相同；DCO/spin/geometry共同区分，负A不能独判M1。436 doublet按parent/child隔离，绝对Jπ仍保留作者基态假设。
+
+Z13-7/9/10/11：[实际程序](../../system/scripts/day16_z13_calibration_audit.py)与[11行结果](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/z13-calibration-audit.json)显示全部P/Q中央值在末位舍入下相容；若括号σ均属同一Q=A/P的一阶marginal标准差，316/586/823/974/1054不满足任意合法Cov的局部必要界。宽松允许所有中央值及σ各末位±半位后，只有316/586/974/1054仍稳健排除这套条件包，823降级。源误差定义/producer未得，不改原表或判实验错。声明独立Q加权拟合得p0=.38616115、p1=7.39668×10^-5、χ²=9.98029；原.39(.02)/.00006(.00003)/标签11保留，未称精确复现。Q由同校准A/P得到，A/Qfit回代有共同输入，不是独立P验证。
+
+`supports`联合判据，`limits`单独符号和误差独立假设；canonical为source新增Z13-6–11、[Compton方法](../../knowledge/methods/compton-polarimetry.md)的“EXOGAM已知E2校准：比值误差与回代依赖”、[偏振方法](../../knowledge/methods/linear-polarization-asymmetry.md)的真实nonstretched E1反例。缺逐线polarization gate/净counts/背景、A2/A4与a/Q的实际联合Cov；Table II只列DCO门，未擅自等同选样。没有新实验δ/Jπ/显著性，没有正式17或Day18。Z13-12另定向核arXiv v1的两表/Eqs/Fig.5，Table I十一行token均相同，upper435.9的A在v1为.17(.07)、期刊为.17(.05)，[版本核验](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/z13-arxiv-table-crosscheck.json)保留；未混σ或增计独立实验。
+
 ## Counter-evidence and missing companion observables
 
 最直接反例是一个已知pure参考也无法验证混合项相位：两纯端点通过，错误换号仍改R。另一个反例是本点模型部分Table1不吻合（例如.637341对印值.66；1.188657对1.12），且两比值rectangle没有复现作者>85支；原因未裁决，不能报告原文错误或实验新δ。
@@ -223,7 +233,7 @@ Goodin2010指定机构403/目录未得准确thesis题名，OpenAlex的fullname/O
 
 ## Knowledge Impact and Learning Decision
 
-`supports` DCO多解与phase/response合同；`revises` 不分gate角色直接联合同名R的做法；`limits` 偏振符号挑根和pure reference认证全部相位。没有新Jπ、B值、wobbling/chirality结论；178W条件计算不外推A≈130。本轮已按当前池/唯一Day17预习重查公开来源和必要输入；在原始response/producer/Σ及特定未得正文边界收束，不由同一模型重复或标签复用补成确定结论。
+`supports` DCO多解与phase/response合同；`revises` 不分gate角色直接联合同名R的做法；`limits` 偏振符号挑根和pure reference认证全部相位。没有新Jπ、B值、wobbling/chirality结论；178W条件计算不外推A≈130。本轮按当前池/唯一Day17预习持续重查公开来源和必要输入；各问题保留原始response/producer/Σ及未得正文边界，当前原研究窗口继续，不由同一模型重复或标签复用补成确定结论。
 
 ## Durable knowledge delta
 
@@ -853,7 +863,7 @@ canonical [178W知识单](../../knowledge/research-notes/w178-921-dco-gate-doubl
     },
     {
       "knowledge": "knowledge/methods/compton-polarimetry.md",
-      "summary": "保存PAQ分层、双分段actual432计数公式/derivatives、fiterrors与理想Poisson层区别、printingfailure和matchedeta/Q/fullCov门。",
+      "summary": "保存PAQ分层、双分段actual432计数公式/derivatives、fiterrors与理想Poisson层区别、printingfailure和matchedeta/Q/fullCov门。 新增EXOGAM比值误差的任意Cov必要界及原表条件不闭合；回代不是独立P验证。",
       "anchor": "Gammasphere双分段的P/A/Q与actual峰面积",
       "sources": [
         {
@@ -887,12 +897,28 @@ canonical [178W知识单](../../knowledge/research-notes/w178-921-dco-gate-doubl
         {
           "path": "knowledge/sources/schmid-1998-gammasphere-polarization.md",
           "locator": "SG98-12"
+        },
+        {
+          "path": "knowledge/sources/zheng-2013-linear-polarization-91ru.md",
+          "locator": "Z13-7"
+        },
+        {
+          "path": "knowledge/sources/zheng-2013-linear-polarization-91ru.md",
+          "locator": "Z13-9"
+        },
+        {
+          "path": "knowledge/sources/zheng-2013-linear-polarization-91ru.md",
+          "locator": "Z13-10"
+        },
+        {
+          "path": "knowledge/sources/zheng-2013-linear-polarization-91ru.md",
+          "locator": "Z13-11"
         }
       ]
     },
     {
       "knowledge": "knowledge/methods/linear-polarization-asymmetry.md",
-      "summary": "区分GammasphereA与genericclover计数式，链接实际data/eta/Q共同校准与sourcebound，不扩展sourceparity结论。",
+      "summary": "区分GammasphereA与genericclover计数式，链接实际data/eta/Q共同校准与sourcebound，不扩展sourceparity结论。 新增同一A/σ的nonstretched E1与stretched M1真实反例，保留DCO门/能级/选样身份。",
       "anchor": "双分段Gammasphere的A须随定义携带Q",
       "sources": [
         {
@@ -906,6 +932,14 @@ canonical [178W知识单](../../knowledge/research-notes/w178-921-dco-gate-doubl
         {
           "path": "knowledge/sources/schmid-1998-gammasphere-polarization.md",
           "locator": "SG98-9"
+        },
+        {
+          "path": "knowledge/sources/zheng-2013-linear-polarization-91ru.md",
+          "locator": "Z13-6"
+        },
+        {
+          "path": "knowledge/sources/zheng-2013-linear-polarization-91ru.md",
+          "locator": "Z13-8"
         }
       ]
     },
@@ -1283,12 +1317,49 @@ canonical [178W知识单](../../knowledge/research-notes/w178-921-dco-gate-doubl
           "locator": "N104-7"
         }
       ]
+    },
+    {
+      "knowledge": "knowledge/sources/zheng-2013-linear-polarization-91ru.md",
+      "summary": "本session原11页主线/两表八图重核；真实DCO门/峰面积、nonstretched E1负偏振、Q误差条件边界与共享校准回代，恰好partial17不授学分。",
+      "anchor": "DAY16延续：EXOGAM原表、门身份与校准误差边界",
+      "sources": [
+        {
+          "path": "knowledge/sources/zheng-2013-linear-polarization-91ru.md",
+          "locator": "Z13-6"
+        },
+        {
+          "path": "knowledge/sources/zheng-2013-linear-polarization-91ru.md",
+          "locator": "Z13-7"
+        },
+        {
+          "path": "knowledge/sources/zheng-2013-linear-polarization-91ru.md",
+          "locator": "Z13-8"
+        },
+        {
+          "path": "knowledge/sources/zheng-2013-linear-polarization-91ru.md",
+          "locator": "Z13-9"
+        },
+        {
+          "path": "knowledge/sources/zheng-2013-linear-polarization-91ru.md",
+          "locator": "Z13-10"
+        },
+        {
+          "path": "knowledge/sources/zheng-2013-linear-polarization-91ru.md",
+          "locator": "Z13-11"
+        },
+        {
+          "path": "knowledge/sources/zheng-2013-linear-polarization-91ru.md",
+          "locator": "Z13-12"
+        }
+      ]
     }
   ]
 }
 ```
 
 ## Open questions and belief revision
+
+新增Z13问题：Table I括号σ的实际定义、原a/Q/AD联合Cov及未舍入producer；同校准回代不独立。
 
 新增当前问题：RZ17实际RooFit居中/physicaldomain/区间recipe；EL18groupG与106Mo更正列、unroundedΣ/DELTA版本；Goodin2010是否同events及何处被修订。公开DELTAgeneric程序已取到且实际运行，仍不能以同名程序回答这些actualproducer问题。各canonical source/method保留精确locator与下一输入，不把它们转为默认用户待办。
 
@@ -1354,3 +1425,9 @@ KS70追加twoangle问题因旧KS70-12已经覆盖而verified-no-op；NRF追加�
 ### 恢复checkpoint013（研究继续）
 
 2026-10-18T19:02:26.083951+08:00：N104实际reference/object时层已canonical，验收007通过29changed/29items与singlecreditcoverage；actualboundary/diff0、lint-first缺Scope已修后0/0errors160warnings。稳定指针main / `Trace DAY16 Mo104 reference identities across evaluated data`，exacthash/actualH3/push只receipt。继续EL18引Daniel2007原方法/ORA可访问原件路线，不以metadata补原文，goal/window保持active至原15:00。
+
+### 恢复checkpoint014（研究继续）
+
+[verification-reopened-008](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/verification-reopened-008.json)实际boundary/lint/diff均exit0，report/card/writeback通过，30 changed knowledge页/30 writeback items；lint为0 errors、160 warnings（122 citation key、35 raw归档槽、3 reaction parser）。Z13旧正文/claim flags除updated日期外完整保留，原PDF/PLAN/Bib/protected hashes未变。arxiv表初次逐行text检查因871换行exit1，改按完整行段后11项通过，输入未改；失败在版本核验回执保留。
+
+[最新时间门/候选池](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/candidate-refresh-reopened-009.json)余1172.5分钟，原次日15:00截止不变。下一Gu96 primary前回忆已冻，追104Mo旧DCO/reference与谱系；本checkpoint继续原goal，不重授16或正式17。续接[continuation-current.md](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/continuation-current.md)已更新；发布稳定指针main / `Audit DAY16 EXOGAM gate identities and calibration uncertainties`，实际hash及结果仅回执。

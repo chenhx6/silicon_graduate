@@ -148,3 +148,19 @@ Self-audit：`supports`shared observable对joint假设的条件约束；`limits`
 [[schmid-1998-gammasphere-polarization]] SG98-4/5/6/7定义A=(etaC−S)/(sqrteta(C+S))，C包括sideADCzero所代表的另一侧photopeak，eta来自unpolarizedS/C。它不是本页genericclover平行/垂直计数式；改分母、丢zero或改threshold后不能沿用原Q。[[compton-polarimetry]]保存actual197Pb峰面积、PAQ分层、梯度/fullCov、294打印closure失败及高背景限制。
 
 432-keV中央A符号支持源的E1link解释，但sourceP幅值和带内scatter的系统边界保留；不能把同data的TableA/P/curve当多份独立实证，或用Q=Acal/Pcal的同calibrationroundtrip当P的独立验证。原197Pb结果、userreview和未解Cov不被本preview重新认证；Day17仅无学分预习。
+
+
+## EXOGAM真实反例：负A也可以是nonstretched E1
+
+[[zheng-2013-linear-polarization-91ru]] Z13-6/8、原Table II及Fig.6/正文044328-7给出同一EXOGAM数据中的对照：
+
+| target / keV | spin path与作者性质 | RDCO及其门 / keV | A |
+| --- | --- | --- | --- |
+| 919.8 | 13/2−→13/2+，nonstretched E1 | .99(.04)，974门 | −.07(.01) |
+| 615.8 | 23/2+→21/2+，stretched M1 | .50(.02)，497门 | −.07(.01) |
+| 328.0 | 17/2−→17/2+，nonstretched E1 | 1.06(.05)，898门 | −.25(.04) |
+| 1280.7 | 15/2−→13/2+，stretched E1 | .6(.1)，974门 | +.14(.04) |
+
+前两项A与σ相同，不能仅用负号把两者都判成磁跃迁。spin path、geometry与DCO支持不同ΔJ，再同偏振一起限制性质；本例绝对Jπ仍依赖作者采用的(9/2+)基态。这里各门是原表DCO门，论文未给逐线Compton gate ledger，不能声称偏振选样已与它完全匹配或与R统计独立。
+
+同target也须保留门身份：898.5在Table II用974门得1.01(.01)，Fig.2的497门由两角净面积得.96426并印.96(.02)。二者不是同一观测。436-keV doublet也需parent/child，不能将upper435.9的E2偏振移给436→0弱线。Q(E)>0只允许从该约定的A得到P的符号，不能取消这些谱学/选择条件。参见[[compton-polarimetry]]的校准Cov与同数据回代边界（Z13-7/9/10/11）。

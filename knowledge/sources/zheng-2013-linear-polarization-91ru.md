@@ -3,7 +3,7 @@ type: source
 title: "γ-ray linear polarization measurement and (g9/2)−3 neutron alignment in 91Ru"
 aliases: ["Zheng 2013 91Ru polarization", "91Ru EXOGAM linear polarization"]
 created: 2026-09-20
-updated: 2026-09-20
+updated: 2026-10-18
 status: ai-draft
 review_status: unreviewed
 source_type: experiment
@@ -167,3 +167,72 @@ tags: [91Ru, 91Tc, EXOGAM, clover-polarimeter, linear-polarization, neutron-alig
 ## Non-source Notes and Follow-up
 
 - 下一步：将 EXOGAM `A/Q/P` 校准、`F=1.51×10−5` 和基态假设边界加入方法页；后续处理 HS-005 等方法/纲图来源时比较独立性。
+
+
+## DAY16延续：EXOGAM原表、门身份与校准误差边界
+
+这是本run恰好Day17的无学分知识预习；正式课程仍只计Day16。2026-10-18本session沿原PDF全文主线重新阅读，视觉复核Figs.1–8、Tables I–II及Eqs.(1)–(9)中影响判读的内容。PDF第1页是电子重印wrapper；**正文044328-n对应PDF第n+1页**。旧字段、旧claim及其review标记原样保留；下列新增计算不由旧审阅状态背书。
+
+### 新增原件证据与任务推断
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+| --- | --- | --- | --- | --- | --- |
+| Z13-6 | Fig.2三峰均用497-keV stretched E2门：616/898/974的135°/90°净面积分别2414(62)/4821(80)、6879(90)/7134(92)、6731(88)/7062(90)。Table II的898.5行改用974门，R=1.01(1)，不是Fig.2的497门R=.96(2)。 | experimental-fact | direct | 正文044328-3，Fig.2及其上方文字；044328-6，Table II的898.5行 | true |
+| Z13-7 | 原Eq.(2)是aN⊥与N∥的差/和；a由无偏振152Eu定，Q由已知pure E2的A及角分布推得的P校准。Table II明列DCO门，但没有逐线Compton门、净散射计数或完整校准/背景Cov。 | method-calibration | direct | 正文044328-4，Eqs.(2)–(7)；044328-5，Table I；044328-6，Table II | true |
+| Z13-8 | 328.0、919.8两条ΔJ=0的nonstretched E1都A<0；615.8 stretched M1也A<0。1280.7 stretched E1则A>0。电/磁判读须与spin path、门和geometry共同使用；绝对Jπ仍依赖(9/2+)基态假设。 | experimental-fact/author-interpretation | direct | 正文044328-6，Table II；044328-7，Fig.6及328/919/1280讨论；044328-9，Summary | true |
+| Z13-9 | 条件性一阶传播中，若Table I的A、P、Q括号误差都是同一比值Q=A/P的marginal标准差，则σQ须在|σA/P−AσP/P²|到σA/P+AσP/P²之间。316、586、823、974、1054的印刷中央输入不满足；宽松允许中央值与各误差末位各±半位后，316、586、974、1054仍被保守下界排除。原误差语义/producer未得，不能由此判原实验错误。 | Codex-analysis | conditional-calculation | 正文044328-4，Eq.(4)；044328-5，Table I | true |
+| Z13-10 | 以Table I十一项Q及括号误差为相互独立输入，声明的加权线性拟合得p0=.38616115、p1=7.3966836×10^-5 keV^-1，χ²=9.98029；原文p0=.39(2)、p1=.00006(3)、Fig.5标签χ²=11原样保留。没有原未舍入数据/权重/Cov，未认证原拟合复现。 | Codex-analysis | conditional-calculation | 正文044328-4，Eqs.(5)–(6)；044328-5，Table I及Fig.5 | true |
+| Z13-11 | Q_i=A_i/P_i的校准点与相同A_i除回Qfit(E_i)共享输入；这种回代只检查样本内残差，不独立验证P。四个reaction-channel校准核素不自动代表四项独立Q标定；DCO/偏振/角分布及壳模型比较也不增计独立实验。 | Codex-inference | source-conditioned | 正文044328-4至5，校准程序；Table I；Fig.5 | true |
+| Z13-12 | arXiv:1304.3287v1（2013-04-11）Table I的十一行A/A2/A4/P/Q印刷token与期刊一致；Table II upper435.9的A却是.17(7)，期刊为.17(5)。本次按期刊冻结输入，未把不同版本算独立实验或混用误差。 | source-version-audit | direct | arXiv v1 p.18，Table I；p.19，Table II的435.9行；期刊044328-6，同一行 | true |
+
+### 明确门和能级身份的DCO重放
+
+原Eq.(1)定义target在135°、gate在90°的yield为分子，互换两角为分母。若两个角组的效率曲线仅差常数c，符合效率乘积比为
+
+\[
+\frac{\epsilon_{135}(E_t)\epsilon_{90}(E_g)}
+{\epsilon_{90}(E_t)\epsilon_{135}(E_g)}=1.
+\]
+
+所以原文测得R_eff=1.79(.05)后说“不需效率修正”，不能再给Fig.2的yield比额外乘1.79。由原面积直接重算三个R为.50072599、.96425568、.95312943。仅作诊断假设两拟峰面积独立时，σR为.015311、.017714、.017402；这没有补出实际背景/门共享Cov，也没有改写作者的.50(.02)、.96(.02)、.95(.02)。
+
+898.5是1872→974、17/2+→13/2+；Table II用974门，Fig.2用497门。相同target能量不足以把这两项合成同一观测或声称数值冲突。436附近也要按parent/child区分：435.9是2799→2363的upper E2支，有R=1.02(.08)、A=.17(.05)；436.0是436→0的弱支，Table II未给R/A。538是974→436，DCO门361；不能把它的M1判据移给upper 436支。
+
+### Table I：中央值相容与误差定义分开
+
+全部11项的Eq.(7)中央P、及A/P中央Q在各输入与输出最后位舍入盒下相容。这个结论只涉及印刷中央值，并不认证同一误差预算。
+
+对正A、P，令u=σA/P、v=AσP/P²，则一阶delta method给
+
+\[
+\sigma_Q^2=u^2+v^2-2\rho_{AP}uv,\qquad -1\le\rho_{AP}\le1.
+\]
+
+| Eγ / keV | 印刷A、P、Q | 名义σQ局部下界 | 印刷σQ | 宽松舍入后保守下界 / σQ上界 |
+| --- | --- | --- | --- | --- |
+| 316 | .17(2)、.513(2)、.331(8) | .0376944 | .008 | .0275456 / .0085 |
+| 586 | .11(3)、.42(4)、.26(2) | .0464853 | .02 | .0287756 / .025 |
+| 823 | .073(6)、.33(1)、.220(6) | .0114784 | .006 | .0059800 / .0065，不能稳健排除 |
+| 974 | .139(4)、.71(8)、.195(6) | .0164253 | .006 | .0139359 / .0065 |
+| 1054 | .114(5)、.57(6)、.201(6) | .0122807 | .006 | .0091464 / .0065 |
+
+保守检查让每一中央值和每一括号σ都在最后位±半位内独立变化，再用u、v各自区间之间的距离作下界；它放宽了依赖约束，因此仍被排除的四项不能仅用这种printing rounding挽回。**这只否定“同一组marginal标准差经该一阶比值传播”的条件包**；原文未交代这些误差是否包含相同分量、拟合参数化/归一、其它处理或不同的σ含义，故保持未闭合，不更正原表，不设新实验显著性。对A2/A4→P的相同检查也在程序结果中保留为诊断，不据此替换源误差。
+
+十一项Q的声明独立加权拟合参数相关为−.945826；其条件误差.0141178与1.71222×10^-5未包含未知跨点Cov。原printed参数的同一诊断χ²=13.0136，不能称原Fig.5精确重放或猜标签是reducedχ²。拟合的hat matrix trace=2，316点杠杆约.8597；同校准点回代的误差明显不应当作独立A与独立Q相加。
+
+### 有符号偏振的真实反例及必要companion
+
+| target / keV | Table II的parent→child / keV | ΔJ及作者性质 | RDCO（门 / keV） | A |
+| --- | --- | --- | --- | --- |
+| 328.0 | 2200→1872 | ΔJ=0，nonstretched E1 | 1.06(.05)，898 | −.25(.04) |
+| 919.8 | 1893→974 | ΔJ=0，nonstretched E1 | .99(.04)，974 | −.07(.01) |
+| 615.8 | 2985→2369 | ΔJ=1，stretched M1 | .50(.02)，497 | −.07(.01) |
+| 1280.7 | 2254→974 | ΔJ=1，stretched E1 | .6(.1)，974 | +.14(.04) |
+
+919.8与615.8连印刷A及σ都相同，电磁性质却不同。这直接限制了脱离spin/geometry的“负A必是M1”规则；由A=QP且本calibration Q>0可得偏振符号，但不能跳过ΔJ、相对宇称与branch身份。本文DCO/偏振组合支持作者的这些conditional assignments，未解除基态假设。Table II的gate栏仅是DCO门，未据它制造逐线polarization gate或假定Cov=0。
+
+下一高信息输入是同门/同cut的Compton净面积和background ledger、校准A2/A4联合Cov、a0/a1与p0/p1及其跨点Cov/原拟合程序；不是强调某一个Q中央值或调响应来缩误差。当前结论为`supports`联合判据、`limits`单独符号与独立误差假设，未产生新Jπ、δ或独立实验。
+
+复算材料：[冻结输入](../../outputs/learning-daily/20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/z13-calibration-input.json)，SHA-256 `7a540d762c971e7ade8eeb739a85a7f226a4af1d42dc30a6b0c9edfc53a0aeea`；[程序](../../system/scripts/day16_z13_calibration_audit.py)；[完整11行结果](../../outputs/learning-daily/20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/z13-calibration-audit.json)。actual原件hash仍为本页raw_sha256，未改raw。
+
+同版本控制另核[arXiv:1304.3287v1](https://arxiv.org/pdf/1304.3287v1)，19页，SHA-256 `a757073de7473e2fec971d8b2f2c65b4247354e6907c326dcda6c355e8a97961`；本次只定向Table I（p.18）、Table II（p.19）、Eqs.(4)–(7)/Fig.5，不称此副本全文精读。Z13-12说明Table I所有括号误差相同，因此版本差异未消除该表误差语义缺口；upper435.9的版本差异则保留，未选取较小σ反推显著性。新PDF只在repo tmp，原raw未覆盖。
