@@ -1,0 +1,19 @@
+{
+  "at": "2026-10-18T16:04:34.418130+00:00",
+  "execution_exit_code": 1,
+  "compile_exit_code": 0,
+  "stage": "ctypes dynamic load before any physicscase",
+  "failure": "libG4processes_hadronic.so: cannot allocate memory in static TLS block",
+  "scientific_result_produced": false,
+  "next": "command-scoped preloading of installed Geant4 hadronic library atprocessstartup; no systemconfig orscientificinput change",
+  "build_log": "tmp/day16-ucgretina/build-core/build.json",
+  "recovery": {
+    "at": "2026-10-18T16:06:16.159226+00:00",
+    "command_scoped_LD_PRELOAD": "/opt/geant4/11.4.2/lib/libG4processes_hadronic.so",
+    "compile_exit": 0,
+    "execution_exit": 0,
+    "data_input_changed": false,
+    "algorithm_body_changed": false,
+    "result": "ucgretina-core-audit.json"
+  }
+}

@@ -1,0 +1,128 @@
+{
+  "at": "2026-10-18T15:55:52.946714+00:00",
+  "ref_url": "https://api.github.com/repos/Geant4/geant4/git/ref/tags/v10.7.4",
+  "ref_status": 200,
+  "ref": {
+    "ref": "refs/tags/v10.7.4",
+    "node_id": "MDM6UmVmNjE2MTYxNTA6cmVmcy90YWdzL3YxMC43LjQ=",
+    "url": "https://api.github.com/repos/Geant4/geant4/git/refs/tags/v10.7.4",
+    "object": {
+      "sha": "ecea27359fb186ec23b858c874491d9686994205",
+      "type": "tag",
+      "url": "https://api.github.com/repos/Geant4/geant4/git/tags/ecea27359fb186ec23b858c874491d9686994205"
+    }
+  },
+  "rate_remaining": "55",
+  "annotated_tag": {
+    "node_id": "TA_kwDOA6wwFtoAKGVjZWEyNzM1OWZiMTg2ZWMyM2I4NThjODc0NDkxZDk2ODY5OTQyMDU",
+    "sha": "ecea27359fb186ec23b858c874491d9686994205",
+    "url": "https://api.github.com/repos/Geant4/geant4/git/tags/ecea27359fb186ec23b858c874491d9686994205",
+    "tagger": {
+      "name": "Gabriele Cosmo",
+      "email": "Gabriele.Cosmo@cern.ch",
+      "date": "2022-09-09T12:32:44Z"
+    },
+    "object": {
+      "sha": "098f6c74e60fbe2dbde3c347fdf5e0e321e311a2",
+      "type": "commit",
+      "url": "https://api.github.com/repos/Geant4/geant4/git/commits/098f6c74e60fbe2dbde3c347fdf5e0e321e311a2"
+    },
+    "tag": "v10.7.4",
+    "message": "Geant4 10.7.4\n",
+    "verification": {
+      "verified": false,
+      "reason": "unsigned",
+      "signature": null,
+      "payload": null,
+      "verified_at": null
+    }
+  },
+  "commit": "098f6c74e60fbe2dbde3c347fdf5e0e321e311a2",
+  "tree_status": 200,
+  "tree_path": "tmp/day16-ucgretina/geant4-v10.7.4-tree.json",
+  "tree_sha256": "c47e91f94b6b30a0c715fbeafc8a589ca064c0da1d318f2d67a0e2cb2a1c65f2",
+  "truncated": false,
+  "entries_count": 18401,
+  "selected": [
+    {
+      "path": "source/processes/electromagnetic/polarisation/include/G4StokesVector.hh",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b8e7e9ddb33c870d7bcc1b24aa3840bfe4a07d74",
+      "size": 3815,
+      "url": "https://api.github.com/repos/Geant4/geant4/git/blobs/b8e7e9ddb33c870d7bcc1b24aa3840bfe4a07d74"
+    },
+    {
+      "path": "source/processes/electromagnetic/polarisation/src/G4PolarizedComptonModel.cc",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "92cf14de9a997bb68e709d63c746d38aa680dd36",
+      "size": 15121,
+      "url": "https://api.github.com/repos/Geant4/geant4/git/blobs/92cf14de9a997bb68e709d63c746d38aa680dd36"
+    },
+    {
+      "path": "source/processes/electromagnetic/polarisation/src/G4StokesVector.cc",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "33af94907c8b46780bd743ff25f2a62e7f4849c4",
+      "size": 6780,
+      "url": "https://api.github.com/repos/Geant4/geant4/git/blobs/33af94907c8b46780bd743ff25f2a62e7f4849c4"
+    },
+    {
+      "path": "source/processes/hadronic/models/de_excitation/management/include/G4LevelManager.hh",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0d96d35e6ccbda6a956dc26b0d7e8f74d1d13d12",
+      "size": 6758,
+      "url": "https://api.github.com/repos/Geant4/geant4/git/blobs/0d96d35e6ccbda6a956dc26b0d7e8f74d1d13d12"
+    },
+    {
+      "path": "source/processes/hadronic/models/de_excitation/management/include/G4NucLevel.hh",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "757302acd646a0ccd7ce7a3e56c9d8789e404188",
+      "size": 5787,
+      "url": "https://api.github.com/repos/Geant4/geant4/git/blobs/757302acd646a0ccd7ce7a3e56c9d8789e404188"
+    },
+    {
+      "path": "source/processes/hadronic/models/de_excitation/photon_evaporation/include/G4PolarizationTransition.hh",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bb89369c9cd3b31478acfef97d21612f1f2c402c",
+      "size": 4524,
+      "url": "https://api.github.com/repos/Geant4/geant4/git/blobs/bb89369c9cd3b31478acfef97d21612f1f2c402c"
+    },
+    {
+      "path": "source/processes/hadronic/models/de_excitation/photon_evaporation/src/G4GammaTransition.cc",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9b50e121b353b867da507426b5c97c3772878c8c",
+      "size": 6719,
+      "url": "https://api.github.com/repos/Geant4/geant4/git/blobs/9b50e121b353b867da507426b5c97c3772878c8c"
+    },
+    {
+      "path": "source/processes/hadronic/models/de_excitation/photon_evaporation/src/G4PolarizationTransition.cc",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c59f93f22a68eda762d4099bdd63a67bbb43809a",
+      "size": 15397,
+      "url": "https://api.github.com/repos/Geant4/geant4/git/blobs/c59f93f22a68eda762d4099bdd63a67bbb43809a"
+    },
+    {
+      "path": "source/processes/hadronic/models/util/include/G4Clebsch.hh",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5ff7f7ca635b33ee597eab74e2fef50b6594b5cc",
+      "size": 5699,
+      "url": "https://api.github.com/repos/Geant4/geant4/git/blobs/5ff7f7ca635b33ee597eab74e2fef50b6594b5cc"
+    },
+    {
+      "path": "source/processes/hadronic/models/util/src/G4Clebsch.cc",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7918fbc555c6f1ea677afec0d02c29c33d21c06b",
+      "size": 22617,
+      "url": "https://api.github.com/repos/Geant4/geant4/git/blobs/7918fbc555c6f1ea677afec0d02c29c33d21c06b"
+    }
+  ]
+}

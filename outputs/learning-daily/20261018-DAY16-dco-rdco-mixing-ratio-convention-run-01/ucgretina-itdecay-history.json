@@ -1,0 +1,22 @@
+{
+  "at": "2026-10-18T15:54:57.359726+00:00",
+  "url": "https://api.github.com/repos/rileyle/UCGretina/commits?sha=geant4.10&path=src%2FITDecay.cc&per_page=100",
+  "status": 200,
+  "commits": [
+    {
+      "sha": "54b88e8e461fdbdca78add9b9a32d536e149a098",
+      "date": "2021-03-03T03:25:30Z",
+      "message": "EM and nuclear polarization are now only included with the POL=1 compilation\nflag to avoid the warning messages from HepRotation."
+    },
+    {
+      "sha": "47087e75470c86caf4f258b18fbd5d8f6fa5c8e6",
+      "date": "2020-02-12T12:25:53Z",
+      "message": "In-beam simulations are now correctly identified, triggering output of\nsimulated S800 data.\n\nFixed bug in ITDecay affecting access to transition properties\nfor calculating Stokes parameters of emitted gamma rays."
+    },
+    {
+      "sha": "4f32aae4d31769666cc78b18dc516f02f7d6bb81",
+      "date": "2019-04-12T16:28:44Z",
+      "message": "Added support for polarized gamma-ray physics by modifying G4ITDecay (now included as ITDecay.cc)"
+    }
+  ]
+}

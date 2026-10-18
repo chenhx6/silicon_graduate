@@ -1,0 +1,12 @@
+{
+  "at": "2026-10-18T16:06:38.469467+00:00",
+  "source_body": "ITDecay.cc135–272 SHA256cc15968679ec3960a5151cc19a1ef9bacad07fabef52a823b672d7289a9711b5",
+  "literal_loop_result": "pureE2/spin1M1finite; spin2M1/mixedincludingdelta0NaN P1/P2 withpositivefinite norm",
+  "next_needed_validation": [
+    "independentphotonkernel finite/physical control fordeclaredintegerpaths",
+    "actualCGzeroandFCoeffzero log atK0cross andK4dipole",
+    "mixedphase/regularizeddesignonlyseparatefromliteraloriginal; do notoverwritecode",
+    "SDKvsold identicalobservedhelperoutcomes;notexactMorseproducer"
+  ],
+  "no_physics_claim_before_confirmation": true
+}

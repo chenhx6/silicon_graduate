@@ -1,5 +1,5 @@
 {
-  "at": "2026-10-18T23:41:46.034199+08:00",
+  "at": "2026-10-19T00:19:56.121480+08:00",
   "published_checkpoint": 15,
   "branch_subject": "main / Trace DAY16 profile thresholds and conditional identifiability",
   "original_deadline": "2026-10-19T15:00:00+08:00",
@@ -25,9 +25,8 @@
   "L25_targeted_companion_scope": "manuscript Sec5.1-5.5,Eq27-38/sourcecalTable2; oldsource/prefixhashfrozen; sourceQ.33=measuredamp.016/.048, gate/polarizingphotonandnormalizationdifferent. Not currentfull25pageread.",
   "Alikhani2012_body_status": "not obtained; exactDOIrecordclosed,ChalmersDNSfail,configuredpublisherMarkdownproviderunavailable attemptedfalse; OpenAIRErelatedURLsnotallsamepaper, useexactDOIinstancesonly",
   "next_actions": [
-    "requiredchecks/verification-reopened012",
-    "exactmanifest/H3/publication018",
-    "freeze2015Vo12 primaryquestionandseeklawfulbody"
+    "exactmanifest/H3/publication019",
+    "finiteCGproduct derivationandPSD/generalκ tests undernewfrozencontract"
   ],
   "M22_input": "morse2022-calibration-input.json",
   "pending_executable_replay": "M22cuts/physicaldensity/calibrationselection andL26primaryRcoefficients/Qnormalization; first sourceRacah exploration may require trianglezero guard, no data changed",
@@ -35,10 +34,10 @@
   "scientific_annotation_status": "canonical35pages/items in report; newM22source/L26append17–26/L25append30/new25Na note; fulloldhumanprefixbytepreserved",
   "new_experimental_refit": false,
   "averaging_stage": "completed actualplot integration/declaredkernels,sourceproseapproxnotliterallyclosed;newcanonicalwritebackpending",
-  "latest_publication": "publication-017.json,pushedandHEADoriginmatched",
+  "latest_publication": "publication-018.json,pushedHEADoriginmatched",
   "averaging_result": "l26-coverage-average-audit.json",
   "source_figure_vs_actual_events": "218Cpoints/2908redPpoints;no rawresponse restored",
-  "current_route": "A25 official crosswalk arithmetic/canonical complete, requiredchecks then publication018, next2015Vo12 primary bounded route",
+  "current_route": "UCGretina literalcore andcorrectedoracle canonical37pages/items;checks013pass,publication019;nextfiniteproduct/generalκfrozen",
   "current_source_scope": {
     "current9objects": "NaBeO142/XUNDL23,25/NRF15whole;othersselected",
     "oldMgAdopted793": "header/targetsselected"
@@ -58,5 +57,10 @@
   "A25_flags": "3970 MR(F)->1972Ke13, defaultBu14doesnotapply",
   "A25_XUNDL_render": "actualPDFp1 visuallyread µg versusprimarymg",
   "A25_reference_matches_L26": "all3old2009MRafterphasebridge",
-  "A25_covariance_or_experimental_refit_recovered": false
+  "A25_covariance_or_experimental_refit_recovered": false,
+  "UCGretina_source": "knowledge/sources/ucgretina-2021-polarized-emission-code.md",
+  "UCGretina_core": "ucgretina-core-audit-v2.json",
+  "UCGretina_oracle": "ucgretina-core-validation-v2.json",
+  "A25_complete": true,
+  "FSU_body": "notobtainedafterlegitimatediscovery;closedroutefornow"
 }

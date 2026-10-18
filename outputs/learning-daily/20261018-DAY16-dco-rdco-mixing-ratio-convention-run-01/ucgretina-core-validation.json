@@ -1,0 +1,3322 @@
+{
+  "identity": "UCGRETINA-STOKES-PHYSICAL-ORACLE-01",
+  "input_sha256": "9d5adf61215f8f10a755f3603857070a995cd5b9436e06c8e24207324d91c388",
+  "script_sha256": "0c2fc353da0ac7af535bfa61b15fd52e43bcb2ba65a3b58e57dd02eb6bea6598",
+  "max_finite_pure_control_Stokes_error": 1.1102230246251565e-15,
+  "max_all_case_intensity_norm_error": 8.881784197001252e-16,
+  "all_photon_trace_Stokes_physical": true,
+  "actual_zero_ratio_factors": [
+    {
+      "helper": "old",
+      "rank": 0,
+      "L": 1,
+      "Lp": 2,
+      "numerator": 0.0,
+      "denominator": 0.0,
+      "F": 0.0
+    },
+    {
+      "helper": "old",
+      "rank": 4,
+      "L": 1,
+      "Lp": 1,
+      "numerator": 0.0,
+      "denominator": 0.0,
+      "F": 0.0
+    },
+    {
+      "helper": "sdk",
+      "rank": 0,
+      "L": 1,
+      "Lp": 2,
+      "numerator": 0.0,
+      "denominator": 0.0,
+      "F": 0.0
+    },
+    {
+      "helper": "sdk",
+      "rank": 4,
+      "L": 1,
+      "Lp": 1,
+      "numerator": 0.0,
+      "denominator": 0.0,
+      "F": 0.0
+    }
+  ],
+  "same_path_pure_limit_controls": [
+    {
+      "helper": "old",
+      "same_Ji2": 2,
+      "same_Jf2": 2,
+      "delta": 0,
+      "pure_vs_mixed_label": {
+        "3": {
+          "finite": true,
+          "Stokes": [
+            0.6363636363636379,
+            0.0,
+            0.0
+          ],
+          "norm": 1.6499999999999992
+        },
+        "304": {
+          "finite": false,
+          "Stokes": [
+            null,
+            null,
+            0.0
+          ],
+          "norm": 1.6499999999999992
+        }
+      }
+    },
+    {
+      "helper": "sdk",
+      "same_Ji2": 2,
+      "same_Jf2": 2,
+      "delta": 0,
+      "pure_vs_mixed_label": {
+        "3": {
+          "finite": true,
+          "Stokes": [
+            0.6363636363636379,
+            0.0,
+            0.0
+          ],
+          "norm": 1.6499999999999992
+        },
+        "304": {
+          "finite": false,
+          "Stokes": [
+            null,
+            null,
+            0.0
+          ],
+          "norm": 1.6499999999999992
+        }
+      }
+    }
+  ],
+  "rows": [
+    {
+      "case": "M22-E2-control",
+      "helper": "old",
+      "delta": 0.0,
+      "theta_deg": 23.4,
+      "phi_rad": 0.0,
+      "photon_trace": {
+        "W": 1.3046373541903522,
+        "Stokes": [
+          0.22528029700294527,
+          0.0,
+          0.0
+        ]
+      },
+      "literal_nonfinite": [],
+      "finite_Stokes_max_error": 3.3306690738754696e-16
+    },
+    {
+      "case": "M22-E2-control",
+      "helper": "old",
+      "delta": 0.0,
+      "theta_deg": 23.4,
+      "phi_rad": 0.37,
+      "photon_trace": {
+        "W": 1.3046373541903522,
+        "Stokes": [
+          0.2252802970029456,
+          -1.3367195438663395e-16,
+          0.0
+        ]
+      },
+      "literal_nonfinite": [],
+      "finite_Stokes_max_error": 6.661338147750939e-16
+    },
+    {
+      "case": "M22-E2-control",
+      "helper": "old",
+      "delta": 0.0,
+      "theta_deg": 23.4,
+      "phi_rad": 1.17,
+      "photon_trace": {
+        "W": 1.3046373541903522,
+        "Stokes": [
+          0.22528029700294527,
+          0.0,
+          0.0
+        ]
+      },
+      "literal_nonfinite": [],
+      "finite_Stokes_max_error": 3.3306690738754696e-16
+    },
+    {
+      "case": "M22-E2-control",
+      "helper": "old",
+      "delta": 0.0,
+      "theta_deg": 45,
+      "phi_rad": 0.0,
+      "photon_trace": {
+        "W": 1.2749999999999997,
+        "Stokes": [
+          0.5294117647058824,
+          0.0,
+          0.0
+        ]
+      },
+      "literal_nonfinite": [],
+      "finite_Stokes_max_error": 7.771561172376096e-16
+    },
+    {
+      "case": "M22-E2-control",
+      "helper": "old",
+      "delta": 0.0,
+      "theta_deg": 45,
+      "phi_rad": 0.37,
+      "photon_trace": {
+        "W": 1.275,
+        "Stokes": [
+          0.5294117647058821,
+          1.3677915678465223e-16,
+          0.0
+        ]
+      },
+      "literal_nonfinite": [],
+      "finite_Stokes_max_error": 5.551115123125783e-16
+    },
+    {
+      "case": "M22-E2-control",
+      "helper": "old",
+      "delta": 0.0,
+      "theta_deg": 45,
+      "phi_rad": 1.17,
+      "photon_trace": {
+        "W": 1.275,
+        "Stokes": [
+          0.5294117647058821,
+          1.3677915678465223e-16,
+          0.0
+        ]
+      },
+      "literal_nonfinite": [],
+      "finite_Stokes_max_error": 5.551115123125783e-16
+    },
+    {
+      "case": "M22-E2-control",
+      "helper": "old",
+      "delta": 0.0,
+      "theta_deg": 90,
+      "phi_rad": 0.0,
+      "photon_trace": {
+        "W": 0.6,
+        "Stokes": [
+          1.0,
+          2.179917811255395e-16,
+          0.0
+        ]
+      },
+      "literal_nonfinite": [],
+      "finite_Stokes_max_error": 1.1102230246251565e-15
+    },
+    {
+      "case": "M22-E2-control",
+      "helper": "old",
+      "delta": 0.0,
+      "theta_deg": 90,
+      "phi_rad": 0.37,
+      "photon_trace": {
+        "W": 0.6000000000000004,
+        "Stokes": [
+          1.0,
+          0.0,
+          0.0
+        ]
+      },
+      "literal_nonfinite": [],
+      "finite_Stokes_max_error": 1.1102230246251565e-15
+    },
+    {
+      "case": "M22-E2-control",
+      "helper": "old",
+      "delta": 0.0,
+      "theta_deg": 90,
+      "phi_rad": 1.17,
+      "photon_trace": {
+        "W": 0.6000000000000001,
+        "Stokes": [
+          1.0,
+          3.633196352092324e-16,
+          0.0
+        ]
+      },
+      "literal_nonfinite": [],
+      "finite_Stokes_max_error": 1.1102230246251565e-15
+    },
+    {
+      "case": "M22-E2-control",
+      "helper": "old",
+      "delta": 0.0,
+      "theta_deg": 131.4,
+      "phi_rad": 0.0,
+      "photon_trace": {
+        "W": 1.231509372642327,
+        "Stokes": [
+          0.5738562194330634,
+          2.1241424804537172e-16,
+          0.0
+        ]
+      },
+      "literal_nonfinite": [],
+      "finite_Stokes_max_error": 6.661338147750939e-16
+    },
+    {
+      "case": "M22-E2-control",
+      "helper": "old",
+      "delta": 0.0,
+      "theta_deg": 131.4,
+      "phi_rad": 0.37,
+      "photon_trace": {
+        "W": 1.231509372642327,
+        "Stokes": [
+          0.5738562194330634,
+          1.4160949869691448e-16,
+          0.0
+        ]
+      },
+      "literal_nonfinite": [],
+      "finite_Stokes_max_error": 6.661338147750939e-16
+    },
+    {
+      "case": "M22-E2-control",
+      "helper": "old",
+      "delta": 0.0,
+      "theta_deg": 131.4,
+      "phi_rad": 1.17,
+      "photon_trace": {
+        "W": 1.231509372642327,
+        "Stokes": [
+          0.5738562194330634,
+          2.1241424804537172e-16,
+          0.0
+        ]
+      },
+      "literal_nonfinite": [],
+      "finite_Stokes_max_error": 6.661338147750939e-16
+    },
+    {
+      "case": "M22-E2-control",
+      "helper": "sdk",
+      "delta": 0.0,
+      "theta_deg": 23.4,
+      "phi_rad": 0.0,
+      "photon_trace": {
+        "W": 1.3046373541903522,
+        "Stokes": [
+          0.22528029700294527,
+          0.0,
+          0.0
+        ]
+      },
+      "literal_nonfinite": [],
+      "finite_Stokes_max_error": 3.3306690738754696e-16
+    },
+    {
+      "case": "M22-E2-control",
+      "helper": "sdk",
+      "delta": 0.0,
+      "theta_deg": 23.4,
+      "phi_rad": 0.37,
+      "photon_trace": {
+        "W": 1.3046373541903522,
+        "Stokes": [
+          0.2252802970029456,
+          -1.3367195438663395e-16,
+          0.0
+        ]
+      },
+      "literal_nonfinite": [],
+      "finite_Stokes_max_error": 6.661338147750939e-16
+    },
+    {
+      "case": "M22-E2-control",
+      "helper": "sdk",
+      "delta": 0.0,
+      "theta_deg": 23.4,
+      "phi_rad": 1.17,
+      "photon_trace": {
+        "W": 1.3046373541903522,
+        "Stokes": [
+          0.22528029700294527,
+          0.0,
+          0.0
+        ]
+      },
+      "literal_nonfinite": [],
+      "finite_Stokes_max_error": 3.3306690738754696e-16
+    },
+    {
+      "case": "M22-E2-control",
+      "helper": "sdk",
+      "delta": 0.0,
+      "theta_deg": 45,
+      "phi_rad": 0.0,
+      "photon_trace": {
+        "W": 1.2749999999999997,
+        "Stokes": [
+          0.5294117647058824,
+          0.0,
+          0.0
+        ]
+      },
+      "literal_nonfinite": [],
+      "finite_Stokes_max_error": 7.771561172376096e-16
+    },
+    {
+      "case": "M22-E2-control",
+      "helper": "sdk",
+      "delta": 0.0,
+      "theta_deg": 45,
+      "phi_rad": 0.37,
+      "photon_trace": {
+        "W": 1.275,
+        "Stokes": [
+          0.5294117647058821,
+          1.3677915678465223e-16,
+          0.0
+        ]
+      },
+      "literal_nonfinite": [],
+      "finite_Stokes_max_error": 5.551115123125783e-16
+    },
+    {
+      "case": "M22-E2-control",
+      "helper": "sdk",
+      "delta": 0.0,
+      "theta_deg": 45,
+      "phi_rad": 1.17,
+      "photon_trace": {
+        "W": 1.275,
+        "Stokes": [
+          0.5294117647058821,
+          1.3677915678465223e-16,
+          0.0
+        ]
+      },
+      "literal_nonfinite": [],
+      "finite_Stokes_max_error": 5.551115123125783e-16
+    },
+    {
+      "case": "M22-E2-control",
+      "helper": "sdk",
+      "delta": 0.0,
+      "theta_deg": 90,
+      "phi_rad": 0.0,
+      "photon_trace": {
+        "W": 0.6,
+        "Stokes": [
+          1.0,
+          2.179917811255395e-16,
+          0.0
+        ]
+      },
+      "literal_nonfinite": [],
+      "finite_Stokes_max_error": 1.1102230246251565e-15
+    },
+    {
+      "case": "M22-E2-control",
+      "helper": "sdk",
+      "delta": 0.0,
+      "theta_deg": 90,
+      "phi_rad": 0.37,
+      "photon_trace": {
+        "W": 0.6000000000000004,
+        "Stokes": [
+          1.0,
+          0.0,
+          0.0
+        ]
+      },
+      "literal_nonfinite": [],
+      "finite_Stokes_max_error": 1.1102230246251565e-15
+    },
+    {
+      "case": "M22-E2-control",
+      "helper": "sdk",
+      "delta": 0.0,
+      "theta_deg": 90,
+      "phi_rad": 1.17,
+      "photon_trace": {
+        "W": 0.6000000000000001,
+        "Stokes": [
+          1.0,
+          3.633196352092324e-16,
+          0.0
+        ]
+      },
+      "literal_nonfinite": [],
+      "finite_Stokes_max_error": 1.1102230246251565e-15
+    },
+    {
+      "case": "M22-E2-control",
+      "helper": "sdk",
+      "delta": 0.0,
+      "theta_deg": 131.4,
+      "phi_rad": 0.0,
+      "photon_trace": {
+        "W": 1.231509372642327,
+        "Stokes": [
+          0.5738562194330634,
+          2.1241424804537172e-16,
+          0.0
+        ]
+      },
+      "literal_nonfinite": [],
+      "finite_Stokes_max_error": 6.661338147750939e-16
+    },
+    {
+      "case": "M22-E2-control",
+      "helper": "sdk",
+      "delta": 0.0,
+      "theta_deg": 131.4,
+      "phi_rad": 0.37,
+      "photon_trace": {
+        "W": 1.231509372642327,
+        "Stokes": [
+          0.5738562194330634,
+          1.4160949869691448e-16,
+          0.0
+        ]
+      },
+      "literal_nonfinite": [],
+      "finite_Stokes_max_error": 6.661338147750939e-16
+    },
+    {
+      "case": "M22-E2-control",
+      "helper": "sdk",
+      "delta": 0.0,
+      "theta_deg": 131.4,
+      "phi_rad": 1.17,
+      "photon_trace": {
+        "W": 1.231509372642327,
+        "Stokes": [
+          0.5738562194330634,
+          2.1241424804537172e-16,
+          0.0
+        ]
+      },
+      "literal_nonfinite": [],
+      "finite_Stokes_max_error": 6.661338147750939e-16
+    },
+    {
+      "case": "spin1-pureM1-control",
+      "helper": "old",
+      "delta": 0.0,
+      "theta_deg": 23.4,
+      "phi_rad": 0.0,
+      "photon_trace": {
+        "W": 0.46561276938743834,
+        "Stokes": [
+          -0.35568777378103084,
+          -9.363651319628977e-17,
+          0.0
+        ]
+      },
+      "literal_nonfinite": [],
+      "finite_Stokes_max_error": 3.3306690738754696e-16
+    },
+    {
+      "case": "spin1-pureM1-control",
+      "helper": "old",
+      "delta": 0.0,
+      "theta_deg": 23.4,
+      "phi_rad": 0.37,
+      "photon_trace": {
+        "W": 0.4656127693874384,
+        "Stokes": [
+          -0.3556877737810306,
+          9.363651319628976e-17,
+          0.0
+        ]
+      },
+      "literal_nonfinite": [],
+      "finite_Stokes_max_error": 5.551115123125783e-16
+    },
+    {
+      "case": "spin1-pureM1-control",
+      "helper": "old",
+      "delta": 0.0,
+      "theta_deg": 23.4,
+      "phi_rad": 1.17,
+      "photon_trace": {
+        "W": 0.4656127693874384,
+        "Stokes": [
+          -0.35568777378103056,
+          0.0,
+          0.0
+        ]
+      },
+      "literal_nonfinite": [],
+      "finite_Stokes_max_error": 6.106226635438361e-16
+    },
+    {
+      "case": "spin1-pureM1-control",
+      "helper": "old",
+      "delta": 0.0,
+      "theta_deg": 45,
+      "phi_rad": 0.0,
+      "photon_trace": {
+        "W": 0.825,
+        "Stokes": [
+          -0.6363636363636365,
+          -2.1138596957628075e-16,
+          0.0
+        ]
+      },
+      "literal_nonfinite": [],
+      "finite_Stokes_max_error": 5.551115123125783e-16
+    },
+    {
+      "case": "spin1-pureM1-control",
+      "helper": "old",
+      "delta": 0.0,
+      "theta_deg": 45,
+      "phi_rad": 0.37,
+      "photon_trace": {
+        "W": 0.8250000000000001,
+        "Stokes": [
+          -0.6363636363636364,
+          -3.1707895436442104e-16,
+          0.0
+        ]
+      },
+      "literal_nonfinite": [],
+      "finite_Stokes_max_error": 6.661338147750939e-16
+    },
+    {
+      "case": "spin1-pureM1-control",
+      "helper": "old",
+      "delta": 0.0,
+      "theta_deg": 45,
+      "phi_rad": 1.17,
+      "photon_trace": {
+        "W": 0.8250000000000001,
+        "Stokes": [
+          -0.6363636363636364,
+          -1.0569298478814035e-16,
+          0.0
+        ]
+      },
+      "literal_nonfinite": [],
+      "finite_Stokes_max_error": 6.661338147750939e-16
+    },
+    {
+      "case": "spin1-pureM1-control",
+      "helper": "old",
+      "delta": 0.0,
+      "theta_deg": 90,
+      "phi_rad": 0.0,
+      "photon_trace": {
+        "W": 1.3500000000000003,
+        "Stokes": [
+          -0.7777777777777778,
+          0.0,
+          0.0
+        ]
+      },
+      "literal_nonfinite": [],
+      "finite_Stokes_max_error": 6.661338147750939e-16
+    },
+    {
+      "case": "spin1-pureM1-control",
+      "helper": "old",
+      "delta": 0.0,
+      "theta_deg": 90,
+      "phi_rad": 0.37,
+      "photon_trace": {
+        "W": 1.3500000000000003,
+        "Stokes": [
+          -0.7777777777777778,
+          6.45901573705302e-17,
+          0.0
+        ]
+      },
+      "literal_nonfinite": [],
+      "finite_Stokes_max_error": 6.661338147750939e-16
+    },
+    {
+      "case": "spin1-pureM1-control",
+      "helper": "old",
+      "delta": 0.0,
+      "theta_deg": 90,
+      "phi_rad": 1.17,
+      "photon_trace": {
+        "W": 1.3500000000000003,
+        "Stokes": [
+          -0.7777777777777778,
+          -1.291803147410604e-16,
+          0.0
+        ]
+      },
+      "literal_nonfinite": [],
+      "finite_Stokes_max_error": 6.661338147750939e-16
+    },
+    {
+      "case": "spin1-pureM1-control",
+      "helper": "old",
+      "delta": 0.0,
+      "theta_deg": 131.4,
+      "phi_rad": 0.0,
+      "photon_trace": {
+        "W": 0.8907999476212595,
+        "Stokes": [
+          -0.6632240484509427,
+          9.78858526912365e-17,
+          0.0
+        ]
+      },
+      "literal_nonfinite": [],
+      "finite_Stokes_max_error": 6.661338147750939e-16
+    },
+    {
+      "case": "spin1-pureM1-control",
+      "helper": "old",
+      "delta": 0.0,
+      "theta_deg": 131.4,
+      "phi_rad": 0.37,
+      "photon_trace": {
+        "W": 0.8907999476212595,
+        "Stokes": [
+          -0.6632240484509426,
+          0.0,
+          0.0
+        ]
+      },
+      "literal_nonfinite": [],
+      "finite_Stokes_max_error": 7.771561172376096e-16
+    },
+    {
+      "case": "spin1-pureM1-control",
+      "helper": "old",
+      "delta": 0.0,
+      "theta_deg": 131.4,
+      "phi_rad": 1.17,
+      "photon_trace": {
+        "W": 0.8907999476212595,
+        "Stokes": [
+          -0.6632240484509427,
+          -9.78858526912365e-17,
+          0.0
+        ]
+      },
+      "literal_nonfinite": [],
+      "finite_Stokes_max_error": 6.661338147750939e-16
+    },
+    {
+      "case": "spin1-pureM1-control",
+      "helper": "sdk",
+      "delta": 0.0,
+      "theta_deg": 23.4,
+      "phi_rad": 0.0,
+      "photon_trace": {
+        "W": 0.46561276938743834,
+        "Stokes": [
+          -0.35568777378103084,
+          -9.363651319628977e-17,
+          0.0
+        ]
+      },
+      "literal_nonfinite": [],
+      "finite_Stokes_max_error": 3.3306690738754696e-16
+    },
+    {
+      "case": "spin1-pureM1-control",
+      "helper": "sdk",
+      "delta": 0.0,
+      "theta_deg": 23.4,
+      "phi_rad": 0.37,
+      "photon_trace": {
+        "W": 0.4656127693874384,
+        "Stokes": [
+          -0.3556877737810306,
+          9.363651319628976e-17,
+          0.0
+        ]
+      },
+      "literal_nonfinite": [],
+      "finite_Stokes_max_error": 5.551115123125783e-16
+    },
+    {
+      "case": "spin1-pureM1-control",
+      "helper": "sdk",
+      "delta": 0.0,
+      "theta_deg": 23.4,
+      "phi_rad": 1.17,
+      "photon_trace": {
+        "W": 0.4656127693874384,
+        "Stokes": [
+          -0.35568777378103056,
+          0.0,
+          0.0
+        ]
+      },
+      "literal_nonfinite": [],
+      "finite_Stokes_max_error": 6.106226635438361e-16
+    },
+    {
+      "case": "spin1-pureM1-control",
+      "helper": "sdk",
+      "delta": 0.0,
+      "theta_deg": 45,
+      "phi_rad": 0.0,
+      "photon_trace": {
+        "W": 0.825,
+        "Stokes": [
+          -0.6363636363636365,
+          -2.1138596957628075e-16,
+          0.0
+        ]
+      },
+      "literal_nonfinite": [],
+      "finite_Stokes_max_error": 5.551115123125783e-16
+    },
+    {
+      "case": "spin1-pureM1-control",
+      "helper": "sdk",
+      "delta": 0.0,
+      "theta_deg": 45,
+      "phi_rad": 0.37,
+      "photon_trace": {
+        "W": 0.8250000000000001,
+        "Stokes": [
+          -0.6363636363636364,
+          -3.1707895436442104e-16,
+          0.0
+        ]
+      },
+      "literal_nonfinite": [],
+      "finite_Stokes_max_error": 6.661338147750939e-16
+    },
+    {
+      "case": "spin1-pureM1-control",
+      "helper": "sdk",
+      "delta": 0.0,
+      "theta_deg": 45,
+      "phi_rad": 1.17,
+      "photon_trace": {
+        "W": 0.8250000000000001,
+        "Stokes": [
+          -0.6363636363636364,
+          -1.0569298478814035e-16,
+          0.0
+        ]
+      },
+      "literal_nonfinite": [],
+      "finite_Stokes_max_error": 6.661338147750939e-16
+    },
+    {
+      "case": "spin1-pureM1-control",
+      "helper": "sdk",
+      "delta": 0.0,
+      "theta_deg": 90,
+      "phi_rad": 0.0,
+      "photon_trace": {
+        "W": 1.3500000000000003,
+        "Stokes": [
+          -0.7777777777777778,
+          0.0,
+          0.0
+        ]
+      },
+      "literal_nonfinite": [],
+      "finite_Stokes_max_error": 6.661338147750939e-16
+    },
+    {
+      "case": "spin1-pureM1-control",
+      "helper": "sdk",
+      "delta": 0.0,
+      "theta_deg": 90,
+      "phi_rad": 0.37,
+      "photon_trace": {
+        "W": 1.3500000000000003,
+        "Stokes": [
+          -0.7777777777777778,
+          6.45901573705302e-17,
+          0.0
+        ]
+      },
+      "literal_nonfinite": [],
+      "finite_Stokes_max_error": 6.661338147750939e-16
+    },
+    {
+      "case": "spin1-pureM1-control",
+      "helper": "sdk",
+      "delta": 0.0,
+      "theta_deg": 90,
+      "phi_rad": 1.17,
+      "photon_trace": {
+        "W": 1.3500000000000003,
+        "Stokes": [
+          -0.7777777777777778,
+          -1.291803147410604e-16,
+          0.0
+        ]
+      },
+      "literal_nonfinite": [],
+      "finite_Stokes_max_error": 6.661338147750939e-16
+    },
+    {
+      "case": "spin1-pureM1-control",
+      "helper": "sdk",
+      "delta": 0.0,
+      "theta_deg": 131.4,
+      "phi_rad": 0.0,
+      "photon_trace": {
+        "W": 0.8907999476212595,
+        "Stokes": [
+          -0.6632240484509427,
+          9.78858526912365e-17,
+          0.0
+        ]
+      },
+      "literal_nonfinite": [],
+      "finite_Stokes_max_error": 6.661338147750939e-16
+    },
+    {
+      "case": "spin1-pureM1-control",
+      "helper": "sdk",
+      "delta": 0.0,
+      "theta_deg": 131.4,
+      "phi_rad": 0.37,
+      "photon_trace": {
+        "W": 0.8907999476212595,
+        "Stokes": [
+          -0.6632240484509426,
+          0.0,
+          0.0
+        ]
+      },
+      "literal_nonfinite": [],
+      "finite_Stokes_max_error": 7.771561172376096e-16
+    },
+    {
+      "case": "spin1-pureM1-control",
+      "helper": "sdk",
+      "delta": 0.0,
+      "theta_deg": 131.4,
+      "phi_rad": 1.17,
+      "photon_trace": {
+        "W": 0.8907999476212595,
+        "Stokes": [
+          -0.6632240484509427,
+          -9.78858526912365e-17,
+          0.0
+        ]
+      },
+      "literal_nonfinite": [],
+      "finite_Stokes_max_error": 6.661338147750939e-16
+    },
+    {
+      "case": "spin2-pureM1-highrank",
+      "helper": "old",
+      "delta": 0.0,
+      "theta_deg": 23.4,
+      "phi_rad": 0.0,
+      "photon_trace": {
+        "W": 0.7709769011660449,
+        "Stokes": [
+          -0.09206099567794808,
+          -1.130989946888646e-16,
+          0.0
+        ]
+      },
+      "literal_nonfinite": [
+        1,
+        2
+      ],
+      "finite_Stokes_max_error": null
+    },
+    {
+      "case": "spin2-pureM1-highrank",
+      "helper": "old",
+      "delta": 0.0,
+      "theta_deg": 23.4,
+      "phi_rad": 0.37,
+      "photon_trace": {
+        "W": 0.7709769011660449,
+        "Stokes": [
+          -0.09206099567794818,
+          0.0,
+          0.0
+        ]
+      },
+      "literal_nonfinite": [
+        1,
+        2
+      ],
+      "finite_Stokes_max_error": null
+    },
+    {
+      "case": "spin2-pureM1-highrank",
+      "helper": "old",
+      "delta": 0.0,
+      "theta_deg": 23.4,
+      "phi_rad": 1.17,
+      "photon_trace": {
+        "W": 0.7709769011660452,
+        "Stokes": [
+          -0.09206099567794787,
+          0.0,
+          0.0
+        ]
+      },
+      "literal_nonfinite": [
+        1,
+        2
+      ],
+      "finite_Stokes_max_error": null
+    },
+    {
+      "case": "spin2-pureM1-highrank",
+      "helper": "old",
+      "delta": 0.0,
+      "theta_deg": 45,
+      "phi_rad": 0.0,
+      "photon_trace": {
+        "W": 0.9249999999999997,
+        "Stokes": [
+          -0.24324324324324337,
+          -9.426671616239548e-17,
+          0.0
+        ]
+      },
+      "literal_nonfinite": [
+        1,
+        2
+      ],
+      "finite_Stokes_max_error": null
+    },
+    {
+      "case": "spin2-pureM1-highrank",
+      "helper": "old",
+      "delta": 0.0,
+      "theta_deg": 45,
+      "phi_rad": 0.37,
+      "photon_trace": {
+        "W": 0.9249999999999999,
+        "Stokes": [
+          -0.24324324324324317,
+          -9.426671616239546e-17,
+          0.0
+        ]
+      },
+      "literal_nonfinite": [
+        1,
+        2
+      ],
+      "finite_Stokes_max_error": null
+    },
+    {
+      "case": "spin2-pureM1-highrank",
+      "helper": "old",
+      "delta": 0.0,
+      "theta_deg": 45,
+      "phi_rad": 1.17,
+      "photon_trace": {
+        "W": 0.925,
+        "Stokes": [
+          -0.2432432432432431,
+          9.426671616239544e-17,
+          0.0
+        ]
+      },
+      "literal_nonfinite": [
+        1,
+        2
+      ],
+      "finite_Stokes_max_error": null
+    },
+    {
+      "case": "spin2-pureM1-highrank",
+      "helper": "old",
+      "delta": 0.0,
+      "theta_deg": 90,
+      "phi_rad": 0.0,
+      "photon_trace": {
+        "W": 1.1500000000000001,
+        "Stokes": [
+          -0.39130434782608686,
+          0.0,
+          0.0
+        ]
+      },
+      "literal_nonfinite": [
+        1,
+        2
+      ],
+      "finite_Stokes_max_error": null
+    },
+    {
+      "case": "spin2-pureM1-highrank",
+      "helper": "old",
+      "delta": 0.0,
+      "theta_deg": 90,
+      "phi_rad": 0.37,
+      "photon_trace": {
+        "W": 1.1500000000000001,
+        "Stokes": [
+          -0.39130434782608686,
+          0.0,
+          0.0
+        ]
+      },
+      "literal_nonfinite": [
+        1,
+        2
+      ],
+      "finite_Stokes_max_error": null
+    },
+    {
+      "case": "spin2-pureM1-highrank",
+      "helper": "old",
+      "delta": 0.0,
+      "theta_deg": 90,
+      "phi_rad": 1.17,
+      "photon_trace": {
+        "W": 1.1500000000000001,
+        "Stokes": [
+          -0.39130434782608686,
+          7.582322821757894e-17,
+          0.0
+        ]
+      },
+      "literal_nonfinite": [
+        1,
+        2
+      ],
+      "finite_Stokes_max_error": null
+    },
+    {
+      "case": "spin2-pureM1-highrank",
+      "helper": "old",
+      "delta": 0.0,
+      "theta_deg": 131.4,
+      "phi_rad": 0.0,
+      "photon_trace": {
+        "W": 0.9531999775519686,
+        "Stokes": [
+          -0.26563153956659,
+          -9.147787925274244e-17,
+          0.0
+        ]
+      },
+      "literal_nonfinite": [
+        1,
+        2
+      ],
+      "finite_Stokes_max_error": null
+    },
+    {
+      "case": "spin2-pureM1-highrank",
+      "helper": "old",
+      "delta": 0.0,
+      "theta_deg": 131.4,
+      "phi_rad": 0.37,
+      "photon_trace": {
+        "W": 0.9531999775519686,
+        "Stokes": [
+          -0.26563153956659,
+          -1.829557585054849e-16,
+          0.0
+        ]
+      },
+      "literal_nonfinite": [
+        1,
+        2
+      ],
+      "finite_Stokes_max_error": null
+    },
+    {
+      "case": "spin2-pureM1-highrank",
+      "helper": "old",
+      "delta": 0.0,
+      "theta_deg": 131.4,
+      "phi_rad": 1.17,
+      "photon_trace": {
+        "W": 0.9531999775519686,
+        "Stokes": [
+          -0.26563153956658997,
+          -2.7443363775822735e-16,
+          0.0
+        ]
+      },
+      "literal_nonfinite": [
+        1,
+        2
+      ],
+      "finite_Stokes_max_error": null
+    },
+    {
+      "case": "spin2-pureM1-highrank",
+      "helper": "sdk",
+      "delta": 0.0,
+      "theta_deg": 23.4,
+      "phi_rad": 0.0,
+      "photon_trace": {
+        "W": 0.7709769011660449,
+        "Stokes": [
+          -0.09206099567794808,
+          -1.130989946888646e-16,
+          0.0
+        ]
+      },
+      "literal_nonfinite": [
+        1,
+        2
+      ],
+      "finite_Stokes_max_error": null
+    },
+    {
+      "case": "spin2-pureM1-highrank",
+      "helper": "sdk",
+      "delta": 0.0,
+      "theta_deg": 23.4,
+      "phi_rad": 0.37,
+      "photon_trace": {
+        "W": 0.7709769011660449,
+        "Stokes": [
+          -0.09206099567794818,
+          0.0,
+          0.0
+        ]
+      },
+      "literal_nonfinite": [
+        1,
+        2
+      ],
+      "finite_Stokes_max_error": null
+    },
+    {
+      "case": "spin2-pureM1-highrank",
+      "helper": "sdk",
+      "delta": 0.0,
+      "theta_deg": 23.4,
+      "phi_rad": 1.17,
+      "photon_trace": {
+        "W": 0.7709769011660452,
+        "Stokes": [
+          -0.09206099567794787,
+          0.0,
+          0.0
+        ]
+      },
+      "literal_nonfinite": [
+        1,
+        2
+      ],
+      "finite_Stokes_max_error": null
+    },
+    {
+      "case": "spin2-pureM1-highrank",
+      "helper": "sdk",
+      "delta": 0.0,
+      "theta_deg": 45,
+      "phi_rad": 0.0,
+      "photon_trace": {
+        "W": 0.9249999999999997,
+        "Stokes": [
+          -0.24324324324324337,
+          -9.426671616239548e-17,
+          0.0
+        ]
+      },
+      "literal_nonfinite": [
+        1,
+        2
+      ],
+      "finite_Stokes_max_error": null
+    },
+    {
+      "case": "spin2-pureM1-highrank",
+      "helper": "sdk",
+      "delta": 0.0,
+      "theta_deg": 45,
+      "phi_rad": 0.37,
+      "photon_trace": {
+        "W": 0.9249999999999999,
+        "Stokes": [
+          -0.24324324324324317,
+          -9.426671616239546e-17,
+          0.0
+        ]
+      },
+      "literal_nonfinite": [
+        1,
+        2
+      ],
+      "finite_Stokes_max_error": null
+    },
+    {
+      "case": "spin2-pureM1-highrank",
+      "helper": "sdk",
+      "delta": 0.0,
+      "theta_deg": 45,
+      "phi_rad": 1.17,
+      "photon_trace": {
+        "W": 0.925,
+        "Stokes": [
+          -0.2432432432432431,
+          9.426671616239544e-17,
+          0.0
+        ]
+      },
+      "literal_nonfinite": [
+        1,
+        2
+      ],
+      "finite_Stokes_max_error": null
+    },
+    {
+      "case": "spin2-pureM1-highrank",
+      "helper": "sdk",
+      "delta": 0.0,
+      "theta_deg": 90,
+      "phi_rad": 0.0,
+      "photon_trace": {
+        "W": 1.1500000000000001,
+        "Stokes": [
+          -0.39130434782608686,
+          0.0,
+          0.0
+        ]
+      },
+      "literal_nonfinite": [
+        1,
+        2
+      ],
+      "finite_Stokes_max_error": null
+    },
+    {
+      "case": "spin2-pureM1-highrank",
+      "helper": "sdk",
+      "delta": 0.0,
+      "theta_deg": 90,
+      "phi_rad": 0.37,
+      "photon_trace": {
+        "W": 1.1500000000000001,
+        "Stokes": [
+          -0.39130434782608686,
+          0.0,
+          0.0
+        ]
+      },
+      "literal_nonfinite": [
+        1,
+        2
+      ],
+      "finite_Stokes_max_error": null
+    },
+    {
+      "case": "spin2-pureM1-highrank",
+      "helper": "sdk",
+      "delta": 0.0,
+      "theta_deg": 90,
+      "phi_rad": 1.17,
+      "photon_trace": {
+        "W": 1.1500000000000001,
+        "Stokes": [
+          -0.39130434782608686,
+          7.582322821757894e-17,
+          0.0
+        ]
+      },
+      "literal_nonfinite": [
+        1,
+        2
+      ],
+      "finite_Stokes_max_error": null
+    },
+    {
+      "case": "spin2-pureM1-highrank",
+      "helper": "sdk",
+      "delta": 0.0,
+      "theta_deg": 131.4,
+      "phi_rad": 0.0,
+      "photon_trace": {
+        "W": 0.9531999775519686,
+        "Stokes": [
+          -0.26563153956659,
+          -9.147787925274244e-17,
+          0.0
+        ]
+      },
+      "literal_nonfinite": [
+        1,
+        2
+      ],
+      "finite_Stokes_max_error": null
+    },
+    {
+      "case": "spin2-pureM1-highrank",
+      "helper": "sdk",
+      "delta": 0.0,
+      "theta_deg": 131.4,
+      "phi_rad": 0.37,
+      "photon_trace": {
+        "W": 0.9531999775519686,
+        "Stokes": [
+          -0.26563153956659,
+          -1.829557585054849e-16,
+          0.0
+        ]
+      },
+      "literal_nonfinite": [
+        1,
+        2
+      ],
+      "finite_Stokes_max_error": null
+    },
+    {
+      "case": "spin2-pureM1-highrank",
+      "helper": "sdk",
+      "delta": 0.0,
+      "theta_deg": 131.4,
+      "phi_rad": 1.17,
+      "photon_trace": {
+        "W": 0.9531999775519686,
+        "Stokes": [
+          -0.26563153956658997,
+          -2.7443363775822735e-16,
+          0.0
+        ]
+      },
+      "literal_nonfinite": [
+        1,
+        2
+      ],
+      "finite_Stokes_max_error": null
+    },
+    {
+      "case": "spin1-mixedM1E2",
+      "helper": "old",
+      "delta": 0.2,
+      "theta_deg": 23.4,
+      "phi_rad": 0.0,
+      "photon_trace": {
+        "W": 1.5754939406596815,
+        "Stokes": [
+          0.03234399947917169,
+          1.1069126982958156e-16,
+          -1.1674469864838682e-17
+        ]
+      },
+      "literal_nonfinite": [
+        1,
+        2
+      ],
+      "finite_Stokes_max_error": null
+    },
+    {
+      "case": "spin1-mixedM1E2",
+      "helper": "old",
+      "delta": 0.2,
+      "theta_deg": 23.4,
+      "phi_rad": 0.37,
+      "photon_trace": {
+        "W": 1.5754939406596815,
+        "Stokes": [
+          0.0323439994791718,
+          -2.2138253965916313e-16,
+          -1.1674469864838682e-17
+        ]
+      },
+      "literal_nonfinite": [
+        1,
+        2
+      ],
+      "finite_Stokes_max_error": null
+    },
+    {
+      "case": "spin1-mixedM1E2",
+      "helper": "old",
+      "delta": 0.2,
+      "theta_deg": 23.4,
+      "phi_rad": 1.17,
+      "photon_trace": {
+        "W": 1.5754939406596815,
+        "Stokes": [
+          0.03234399947917174,
+          2.2138253965916313e-16,
+          -1.1674469864838682e-17
+        ]
+      },
+      "literal_nonfinite": [
+        1,
+        2
+      ],
+      "finite_Stokes_max_error": null
+    },
+    {
+      "case": "spin1-mixedM1E2",
+      "helper": "old",
+      "delta": 0.2,
+      "theta_deg": 45,
+      "phi_rad": 0.0,
+      "photon_trace": {
+        "W": 1.1884615384615385,
+        "Stokes": [
+          0.13592233009708748,
+          -1.467388041233405e-16,
+          -1.4903159793776768e-17
+        ]
+      },
+      "literal_nonfinite": [
+        1,
+        2
+      ],
+      "finite_Stokes_max_error": null
+    },
+    {
+      "case": "spin1-mixedM1E2",
+      "helper": "old",
+      "delta": 0.2,
+      "theta_deg": 45,
+      "phi_rad": 0.37,
+      "photon_trace": {
+        "W": 1.1884615384615385,
+        "Stokes": [
+          0.13592233009708748,
+          1.467388041233405e-16,
+          -1.4903159793776768e-17
+        ]
+      },
+      "literal_nonfinite": [
+        1,
+        2
+      ],
+      "finite_Stokes_max_error": null
+    },
+    {
+      "case": "spin1-mixedM1E2",
+      "helper": "old",
+      "delta": 0.2,
+      "theta_deg": 45,
+      "phi_rad": 1.17,
+      "photon_trace": {
+        "W": 1.1884615384615382,
+        "Stokes": [
+          0.1359223300970873,
+          7.336940206167026e-17,
+          -1.490315979377677e-17
+        ]
+      },
+      "literal_nonfinite": [
+        1,
+        2
+      ],
+      "finite_Stokes_max_error": null
+    },
+    {
+      "case": "spin1-mixedM1E2",
+      "helper": "old",
+      "delta": 0.2,
+      "theta_deg": 90,
+      "phi_rad": 0.0,
+      "photon_trace": {
+        "W": 0.6230769230769231,
+        "Stokes": [
+          0.5185185185185184,
+          1.3994534096948216e-16,
+          0.0
+        ]
+      },
+      "literal_nonfinite": [
+        1,
+        2
+      ],
+      "finite_Stokes_max_error": null
+    },
+    {
+      "case": "spin1-mixedM1E2",
+      "helper": "old",
+      "delta": 0.2,
+      "theta_deg": 90,
+      "phi_rad": 0.37,
+      "photon_trace": {
+        "W": 0.6230769230769232,
+        "Stokes": [
+          0.5185185185185185,
+          1.399453409694821e-16,
+          0.0
+        ]
+      },
+      "literal_nonfinite": [
+        1,
+        2
+      ],
+      "finite_Stokes_max_error": null
+    },
+    {
+      "case": "spin1-mixedM1E2",
+      "helper": "old",
+      "delta": 0.2,
+      "theta_deg": 90,
+      "phi_rad": 1.17,
+      "photon_trace": {
+        "W": 0.6230769230769231,
+        "Stokes": [
+          0.5185185185185184,
+          0.0,
+          0.0
+        ]
+      },
+      "literal_nonfinite": [
+        1,
+        2
+      ],
+      "finite_Stokes_max_error": null
+    },
+    {
+      "case": "spin1-mixedM1E2",
+      "helper": "old",
+      "delta": 0.2,
+      "theta_deg": 131.4,
+      "phi_rad": 0.0,
+      "photon_trace": {
+        "W": 1.1176000564078743,
+        "Stokes": [
+          0.1626562187660955,
+          1.5604278462633304e-16,
+          8.655498209741911e-17
+        ]
+      },
+      "literal_nonfinite": [
+        1,
+        2
+      ],
+      "finite_Stokes_max_error": null
+    },
+    {
+      "case": "spin1-mixedM1E2",
+      "helper": "old",
+      "delta": 0.2,
+      "theta_deg": 131.4,
+      "phi_rad": 0.37,
+      "photon_trace": {
+        "W": 1.1176000564078745,
+        "Stokes": [
+          0.16265621876609557,
+          0.0,
+          8.65549820974191e-17
+        ]
+      },
+      "literal_nonfinite": [
+        1,
+        2
+      ],
+      "finite_Stokes_max_error": null
+    },
+    {
+      "case": "spin1-mixedM1E2",
+      "helper": "old",
+      "delta": 0.2,
+      "theta_deg": 131.4,
+      "phi_rad": 1.17,
+      "photon_trace": {
+        "W": 1.1176000564078745,
+        "Stokes": [
+          0.16265621876609557,
+          -7.802139231316651e-17,
+          8.533589784252588e-18
+        ]
+      },
+      "literal_nonfinite": [
+        1,
+        2
+      ],
+      "finite_Stokes_max_error": null
+    },
+    {
+      "case": "spin1-mixedM1E2",
+      "helper": "sdk",
+      "delta": 0.2,
+      "theta_deg": 23.4,
+      "phi_rad": 0.0,
+      "photon_trace": {
+        "W": 1.5754939406596815,
+        "Stokes": [
+          0.03234399947917169,
+          1.1069126982958156e-16,
+          -1.1674469864838682e-17
+        ]
+      },
+      "literal_nonfinite": [
+        1,
+        2
+      ],
+      "finite_Stokes_max_error": null
+    },
+    {
+      "case": "spin1-mixedM1E2",
+      "helper": "sdk",
+      "delta": 0.2,
+      "theta_deg": 23.4,
+      "phi_rad": 0.37,
+      "photon_trace": {
+        "W": 1.5754939406596815,
+        "Stokes": [
+          0.0323439994791718,
+          -2.2138253965916313e-16,
+          -1.1674469864838682e-17
+        ]
+      },
+      "literal_nonfinite": [
+        1,
+        2
+      ],
+      "finite_Stokes_max_error": null
+    },
+    {
+      "case": "spin1-mixedM1E2",
+      "helper": "sdk",
+      "delta": 0.2,
+      "theta_deg": 23.4,
+      "phi_rad": 1.17,
+      "photon_trace": {
+        "W": 1.5754939406596815,
+        "Stokes": [
+          0.03234399947917174,
+          2.2138253965916313e-16,
+          -1.1674469864838682e-17
+        ]
+      },
+      "literal_nonfinite": [
+        1,
+        2
+      ],
+      "finite_Stokes_max_error": null
+    },
+    {
+      "case": "spin1-mixedM1E2",
+      "helper": "sdk",
+      "delta": 0.2,
+      "theta_deg": 45,
+      "phi_rad": 0.0,
+      "photon_trace": {
+        "W": 1.1884615384615385,
+        "Stokes": [
+          0.13592233009708748,
+          -1.467388041233405e-16,
+          -1.4903159793776768e-17
+        ]
+      },
+      "literal_nonfinite": [
+        1,
+        2
+      ],
+      "finite_Stokes_max_error": null
+    },
+    {
+      "case": "spin1-mixedM1E2",
+      "helper": "sdk",
+      "delta": 0.2,
+      "theta_deg": 45,
+      "phi_rad": 0.37,
+      "photon_trace": {
+        "W": 1.1884615384615385,
+        "Stokes": [
+          0.13592233009708748,
+          1.467388041233405e-16,
+          -1.4903159793776768e-17
+        ]
+      },
+      "literal_nonfinite": [
+        1,
+        2
+      ],
+      "finite_Stokes_max_error": null
+    },
+    {
+      "case": "spin1-mixedM1E2",
+      "helper": "sdk",
+      "delta": 0.2,
+      "theta_deg": 45,
+      "phi_rad": 1.17,
+      "photon_trace": {
+        "W": 1.1884615384615382,
+        "Stokes": [
+          0.1359223300970873,
+          7.336940206167026e-17,
+          -1.490315979377677e-17
+        ]
+      },
+      "literal_nonfinite": [
+        1,
+        2
+      ],
+      "finite_Stokes_max_error": null
+    },
+    {
+      "case": "spin1-mixedM1E2",
+      "helper": "sdk",
+      "delta": 0.2,
+      "theta_deg": 90,
+      "phi_rad": 0.0,
+      "photon_trace": {
+        "W": 0.6230769230769231,
+        "Stokes": [
+          0.5185185185185184,
+          1.3994534096948216e-16,
+          0.0
+        ]
+      },
+      "literal_nonfinite": [
+        1,
+        2
+      ],
+      "finite_Stokes_max_error": null
+    },
+    {
+      "case": "spin1-mixedM1E2",
+      "helper": "sdk",
+      "delta": 0.2,
+      "theta_deg": 90,
+      "phi_rad": 0.37,
+      "photon_trace": {
+        "W": 0.6230769230769232,
+        "Stokes": [
+          0.5185185185185185,
+          1.399453409694821e-16,
+          0.0
+        ]
+      },
+      "literal_nonfinite": [
+        1,
+        2
+      ],
+      "finite_Stokes_max_error": null
+    },
+    {
+      "case": "spin1-mixedM1E2",
+      "helper": "sdk",
+      "delta": 0.2,
+      "theta_deg": 90,
+      "phi_rad": 1.17,
+      "photon_trace": {
+        "W": 0.6230769230769231,
+        "Stokes": [
+          0.5185185185185184,
+          0.0,
+          0.0
+        ]
+      },
+      "literal_nonfinite": [
+        1,
+        2
+      ],
+      "finite_Stokes_max_error": null
+    },
+    {
+      "case": "spin1-mixedM1E2",
+      "helper": "sdk",
+      "delta": 0.2,
+      "theta_deg": 131.4,
+      "phi_rad": 0.0,
+      "photon_trace": {
+        "W": 1.1176000564078743,
+        "Stokes": [
+          0.1626562187660955,
+          1.5604278462633304e-16,
+          8.655498209741911e-17
+        ]
+      },
+      "literal_nonfinite": [
+        1,
+        2
+      ],
+      "finite_Stokes_max_error": null
+    },
+    {
+      "case": "spin1-mixedM1E2",
+      "helper": "sdk",
+      "delta": 0.2,
+      "theta_deg": 131.4,
+      "phi_rad": 0.37,
+      "photon_trace": {
+        "W": 1.1176000564078745,
+        "Stokes": [
+          0.16265621876609557,
+          0.0,
+          8.65549820974191e-17
+        ]
+      },
+      "literal_nonfinite": [
+        1,
+        2
+      ],
+      "finite_Stokes_max_error": null
+    },
+    {
+      "case": "spin1-mixedM1E2",
+      "helper": "sdk",
+      "delta": 0.2,
+      "theta_deg": 131.4,
+      "phi_rad": 1.17,
+      "photon_trace": {
+        "W": 1.1176000564078745,
+        "Stokes": [
+          0.16265621876609557,
+          -7.802139231316651e-17,
+          8.533589784252588e-18
+        ]
+      },
+      "literal_nonfinite": [
+        1,
+        2
+      ],
+      "finite_Stokes_max_error": null
+    },
+    {
+      "case": "spin1-mixedlabel-delta0",
+      "helper": "old",
+      "delta": 0.0,
+      "theta_deg": 23.4,
+      "phi_rad": 0.0,
+      "photon_trace": {
+        "W": 1.2671936153062806,
+        "Stokes": [
+          0.06534627675953433,
+          0.0,
+          0.0
+        ]
+      },
+      "literal_nonfinite": [
+        1,
+        2
+      ],
+      "finite_Stokes_max_error": null
+    },
+    {
+      "case": "spin1-mixedlabel-delta0",
+      "helper": "old",
+      "delta": 0.0,
+      "theta_deg": 23.4,
+      "phi_rad": 0.37,
+      "photon_trace": {
+        "W": 1.2671936153062806,
+        "Stokes": [
+          0.06534627675953433,
+          0.0,
+          0.0
+        ]
+      },
+      "literal_nonfinite": [
+        1,
+        2
+      ],
+      "finite_Stokes_max_error": null
+    },
+    {
+      "case": "spin1-mixedlabel-delta0",
+      "helper": "old",
+      "delta": 0.0,
+      "theta_deg": 23.4,
+      "phi_rad": 1.17,
+      "photon_trace": {
+        "W": 1.2671936153062813,
+        "Stokes": [
+          0.06534627675953443,
+          -1.3762176734001347e-16,
+          0.0
+        ]
+      },
+      "literal_nonfinite": [
+        1,
+        2
+      ],
+      "finite_Stokes_max_error": null
+    },
+    {
+      "case": "spin1-mixedlabel-delta0",
+      "helper": "old",
+      "delta": 0.0,
+      "theta_deg": 45,
+      "phi_rad": 0.0,
+      "photon_trace": {
+        "W": 1.0875,
+        "Stokes": [
+          0.24137931034482746,
+          -8.018088501169269e-17,
+          0.0
+        ]
+      },
+      "literal_nonfinite": [
+        1,
+        2
+      ],
+      "finite_Stokes_max_error": null
+    },
+    {
+      "case": "spin1-mixedlabel-delta0",
+      "helper": "old",
+      "delta": 0.0,
+      "theta_deg": 45,
+      "phi_rad": 0.37,
+      "photon_trace": {
+        "W": 1.0875000000000004,
+        "Stokes": [
+          0.24137931034482785,
+          -8.018088501169266e-17,
+          0.0
+        ]
+      },
+      "literal_nonfinite": [
+        1,
+        2
+      ],
+      "finite_Stokes_max_error": null
+    },
+    {
+      "case": "spin1-mixedlabel-delta0",
+      "helper": "old",
+      "delta": 0.0,
+      "theta_deg": 45,
+      "phi_rad": 1.17,
+      "photon_trace": {
+        "W": 1.0875000000000001,
+        "Stokes": [
+          0.24137931034482765,
+          8.018088501169267e-17,
+          0.0
+        ]
+      },
+      "literal_nonfinite": [
+        1,
+        2
+      ],
+      "finite_Stokes_max_error": null
+    },
+    {
+      "case": "spin1-mixedlabel-delta0",
+      "helper": "old",
+      "delta": 0.0,
+      "theta_deg": 90,
+      "phi_rad": 0.0,
+      "photon_trace": {
+        "W": 0.8250000000000001,
+        "Stokes": [
+          0.6363636363636365,
+          0.0,
+          0.0
+        ]
+      },
+      "literal_nonfinite": [
+        1,
+        2
+      ],
+      "finite_Stokes_max_error": null
+    },
+    {
+      "case": "spin1-mixedlabel-delta0",
+      "helper": "old",
+      "delta": 0.0,
+      "theta_deg": 90,
+      "phi_rad": 0.37,
+      "photon_trace": {
+        "W": 0.8250000000000004,
+        "Stokes": [
+          0.6363636363636364,
+          1.056929847881403e-16,
+          0.0
+        ]
+      },
+      "literal_nonfinite": [
+        1,
+        2
+      ],
+      "finite_Stokes_max_error": null
+    },
+    {
+      "case": "spin1-mixedlabel-delta0",
+      "helper": "old",
+      "delta": 0.0,
+      "theta_deg": 90,
+      "phi_rad": 1.17,
+      "photon_trace": {
+        "W": 0.8250000000000004,
+        "Stokes": [
+          0.6363636363636364,
+          0.0,
+          0.0
+        ]
+      },
+      "literal_nonfinite": [
+        1,
+        2
+      ],
+      "finite_Stokes_max_error": null
+    },
+    {
+      "case": "spin1-mixedlabel-delta0",
+      "helper": "old",
+      "delta": 0.0,
+      "theta_deg": 131.4,
+      "phi_rad": 0.0,
+      "photon_trace": {
+        "W": 1.0546000261893704,
+        "Stokes": [
+          0.2801061696139063,
+          0.0,
+          0.0
+        ]
+      },
+      "literal_nonfinite": [
+        1,
+        2
+      ],
+      "finite_Stokes_max_error": null
+    },
+    {
+      "case": "spin1-mixedlabel-delta0",
+      "helper": "old",
+      "delta": 0.0,
+      "theta_deg": 131.4,
+      "phi_rad": 0.37,
+      "photon_trace": {
+        "W": 1.0546000261893707,
+        "Stokes": [
+          0.28010616961390633,
+          0.0,
+          0.0
+        ]
+      },
+      "literal_nonfinite": [
+        1,
+        2
+      ],
+      "finite_Stokes_max_error": null
+    },
+    {
+      "case": "spin1-mixedlabel-delta0",
+      "helper": "old",
+      "delta": 0.0,
+      "theta_deg": 131.4,
+      "phi_rad": 1.17,
+      "photon_trace": {
+        "W": 1.0546000261893707,
+        "Stokes": [
+          0.2801061696139065,
+          0.0,
+          0.0
+        ]
+      },
+      "literal_nonfinite": [
+        1,
+        2
+      ],
+      "finite_Stokes_max_error": null
+    },
+    {
+      "case": "spin1-mixedlabel-delta0",
+      "helper": "sdk",
+      "delta": 0.0,
+      "theta_deg": 23.4,
+      "phi_rad": 0.0,
+      "photon_trace": {
+        "W": 1.2671936153062806,
+        "Stokes": [
+          0.06534627675953433,
+          0.0,
+          0.0
+        ]
+      },
+      "literal_nonfinite": [
+        1,
+        2
+      ],
+      "finite_Stokes_max_error": null
+    },
+    {
+      "case": "spin1-mixedlabel-delta0",
+      "helper": "sdk",
+      "delta": 0.0,
+      "theta_deg": 23.4,
+      "phi_rad": 0.37,
+      "photon_trace": {
+        "W": 1.2671936153062806,
+        "Stokes": [
+          0.06534627675953433,
+          0.0,
+          0.0
+        ]
+      },
+      "literal_nonfinite": [
+        1,
+        2
+      ],
+      "finite_Stokes_max_error": null
+    },
+    {
+      "case": "spin1-mixedlabel-delta0",
+      "helper": "sdk",
+      "delta": 0.0,
+      "theta_deg": 23.4,
+      "phi_rad": 1.17,
+      "photon_trace": {
+        "W": 1.2671936153062813,
+        "Stokes": [
+          0.06534627675953443,
+          -1.3762176734001347e-16,
+          0.0
+        ]
+      },
+      "literal_nonfinite": [
+        1,
+        2
+      ],
+      "finite_Stokes_max_error": null
+    },
+    {
+      "case": "spin1-mixedlabel-delta0",
+      "helper": "sdk",
+      "delta": 0.0,
+      "theta_deg": 45,
+      "phi_rad": 0.0,
+      "photon_trace": {
+        "W": 1.0875,
+        "Stokes": [
+          0.24137931034482746,
+          -8.018088501169269e-17,
+          0.0
+        ]
+      },
+      "literal_nonfinite": [
+        1,
+        2
+      ],
+      "finite_Stokes_max_error": null
+    },
+    {
+      "case": "spin1-mixedlabel-delta0",
+      "helper": "sdk",
+      "delta": 0.0,
+      "theta_deg": 45,
+      "phi_rad": 0.37,
+      "photon_trace": {
+        "W": 1.0875000000000004,
+        "Stokes": [
+          0.24137931034482785,
+          -8.018088501169266e-17,
+          0.0
+        ]
+      },
+      "literal_nonfinite": [
+        1,
+        2
+      ],
+      "finite_Stokes_max_error": null
+    },
+    {
+      "case": "spin1-mixedlabel-delta0",
+      "helper": "sdk",
+      "delta": 0.0,
+      "theta_deg": 45,
+      "phi_rad": 1.17,
+      "photon_trace": {
+        "W": 1.0875000000000001,
+        "Stokes": [
+          0.24137931034482765,
+          8.018088501169267e-17,
+          0.0
+        ]
+      },
+      "literal_nonfinite": [
+        1,
+        2
+      ],
+      "finite_Stokes_max_error": null
+    },
+    {
+      "case": "spin1-mixedlabel-delta0",
+      "helper": "sdk",
+      "delta": 0.0,
+      "theta_deg": 90,
+      "phi_rad": 0.0,
+      "photon_trace": {
+        "W": 0.8250000000000001,
+        "Stokes": [
+          0.6363636363636365,
+          0.0,
+          0.0
+        ]
+      },
+      "literal_nonfinite": [
+        1,
+        2
+      ],
+      "finite_Stokes_max_error": null
+    },
+    {
+      "case": "spin1-mixedlabel-delta0",
+      "helper": "sdk",
+      "delta": 0.0,
+      "theta_deg": 90,
+      "phi_rad": 0.37,
+      "photon_trace": {
+        "W": 0.8250000000000004,
+        "Stokes": [
+          0.6363636363636364,
+          1.056929847881403e-16,
+          0.0
+        ]
+      },
+      "literal_nonfinite": [
+        1,
+        2
+      ],
+      "finite_Stokes_max_error": null
+    },
+    {
+      "case": "spin1-mixedlabel-delta0",
+      "helper": "sdk",
+      "delta": 0.0,
+      "theta_deg": 90,
+      "phi_rad": 1.17,
+      "photon_trace": {
+        "W": 0.8250000000000004,
+        "Stokes": [
+          0.6363636363636364,
+          0.0,
+          0.0
+        ]
+      },
+      "literal_nonfinite": [
+        1,
+        2
+      ],
+      "finite_Stokes_max_error": null
+    },
+    {
+      "case": "spin1-mixedlabel-delta0",
+      "helper": "sdk",
+      "delta": 0.0,
+      "theta_deg": 131.4,
+      "phi_rad": 0.0,
+      "photon_trace": {
+        "W": 1.0546000261893704,
+        "Stokes": [
+          0.2801061696139063,
+          0.0,
+          0.0
+        ]
+      },
+      "literal_nonfinite": [
+        1,
+        2
+      ],
+      "finite_Stokes_max_error": null
+    },
+    {
+      "case": "spin1-mixedlabel-delta0",
+      "helper": "sdk",
+      "delta": 0.0,
+      "theta_deg": 131.4,
+      "phi_rad": 0.37,
+      "photon_trace": {
+        "W": 1.0546000261893707,
+        "Stokes": [
+          0.28010616961390633,
+          0.0,
+          0.0
+        ]
+      },
+      "literal_nonfinite": [
+        1,
+        2
+      ],
+      "finite_Stokes_max_error": null
+    },
+    {
+      "case": "spin1-mixedlabel-delta0",
+      "helper": "sdk",
+      "delta": 0.0,
+      "theta_deg": 131.4,
+      "phi_rad": 1.17,
+      "photon_trace": {
+        "W": 1.0546000261893707,
+        "Stokes": [
+          0.2801061696139065,
+          0.0,
+          0.0
+        ]
+      },
+      "literal_nonfinite": [
+        1,
+        2
+      ],
+      "finite_Stokes_max_error": null
+    },
+    {
+      "case": "Na1041-two-branch",
+      "helper": "old",
+      "delta": 0.0,
+      "theta_deg": 23.4,
+      "phi_rad": 0.0,
+      "photon_trace": {
+        "W": 1.1555429158637534,
+        "Stokes": [
+          0.041715927525583577,
+          -7.545951885745185e-17,
+          0.0
+        ]
+      },
+      "literal_nonfinite": [
+        1,
+        2
+      ],
+      "finite_Stokes_max_error": null
+    },
+    {
+      "case": "Na1041-two-branch",
+      "helper": "old",
+      "delta": 0.0,
+      "theta_deg": 23.4,
+      "phi_rad": 0.37,
+      "photon_trace": {
+        "W": 1.1555429158637536,
+        "Stokes": [
+          0.041715927525583646,
+          0.0,
+          4.71621992859074e-18
+        ]
+      },
+      "literal_nonfinite": [
+        1,
+        2
+      ],
+      "finite_Stokes_max_error": null
+    },
+    {
+      "case": "Na1041-two-branch",
+      "helper": "old",
+      "delta": 0.0,
+      "theta_deg": 23.4,
+      "phi_rad": 1.17,
+      "photon_trace": {
+        "W": 1.1555429158637536,
+        "Stokes": [
+          0.04171592752558349,
+          0.0,
+          0.0
+        ]
+      },
+      "literal_nonfinite": [
+        1,
+        2
+      ],
+      "finite_Stokes_max_error": null
+    },
+    {
+      "case": "Na1041-two-branch",
+      "helper": "old",
+      "delta": 0.0,
+      "theta_deg": 45,
+      "phi_rad": 0.0,
+      "photon_trace": {
+        "W": 1.0509368650986566,
+        "Stokes": [
+          0.14540416305752618,
+          1.6594091490363736e-16,
+          1.2964133976846669e-18
+        ]
+      },
+      "literal_nonfinite": [
+        1,
+        2
+      ],
+      "finite_Stokes_max_error": null
+    },
+    {
+      "case": "Na1041-two-branch",
+      "helper": "old",
+      "delta": 0.0,
+      "theta_deg": 45,
+      "phi_rad": 0.37,
+      "photon_trace": {
+        "W": 1.0509368650986568,
+        "Stokes": [
+          0.14540416305752638,
+          8.297045745181866e-17,
+          6.4820669884233325e-18
+        ]
+      },
+      "literal_nonfinite": [
+        1,
+        2
+      ],
+      "finite_Stokes_max_error": null
+    },
+    {
+      "case": "Na1041-two-branch",
+      "helper": "old",
+      "delta": 0.0,
+      "theta_deg": 45,
+      "phi_rad": 1.17,
+      "photon_trace": {
+        "W": 1.050936865098657,
+        "Stokes": [
+          0.14540416305752635,
+          0.0,
+          -9.074893783792665e-18
+        ]
+      },
+      "literal_nonfinite": [
+        1,
+        2
+      ],
+      "finite_Stokes_max_error": null
+    },
+    {
+      "case": "Na1041-two-branch",
+      "helper": "old",
+      "delta": 0.0,
+      "theta_deg": 90,
+      "phi_rad": 0.0,
+      "photon_trace": {
+        "W": 0.8981262698026864,
+        "Stokes": [
+          0.34028755295074986,
+          0.0,
+          0.0
+        ]
+      },
+      "literal_nonfinite": [
+        1,
+        2
+      ],
+      "finite_Stokes_max_error": null
+    },
+    {
+      "case": "Na1041-two-branch",
+      "helper": "old",
+      "delta": 0.0,
+      "theta_deg": 90,
+      "phi_rad": 0.37,
+      "photon_trace": {
+        "W": 0.8981262698026865,
+        "Stokes": [
+          0.34028755295074997,
+          0.0,
+          0.0
+        ]
+      },
+      "literal_nonfinite": [
+        1,
+        2
+      ],
+      "finite_Stokes_max_error": null
+    },
+    {
+      "case": "Na1041-two-branch",
+      "helper": "old",
+      "delta": 0.0,
+      "theta_deg": 90,
+      "phi_rad": 1.17,
+      "photon_trace": {
+        "W": 0.8981262698026865,
+        "Stokes": [
+          0.34028755295074997,
+          -9.708736441856048e-17,
+          1.3473578422207377e-33
+        ]
+      },
+      "literal_nonfinite": [
+        1,
+        2
+      ],
+      "finite_Stokes_max_error": null
+    },
+    {
+      "case": "Na1041-two-branch",
+      "helper": "old",
+      "delta": 0.0,
+      "theta_deg": 131.4,
+      "phi_rad": 0.0,
+      "photon_trace": {
+        "W": 1.0317846190673265,
+        "Stokes": [
+          0.16666544368799105,
+          0.0,
+          2.6409554995425237e-18
+        ]
+      },
+      "literal_nonfinite": [
+        1,
+        2
+      ],
+      "finite_Stokes_max_error": null
+    },
+    {
+      "case": "Na1041-two-branch",
+      "helper": "old",
+      "delta": 0.0,
+      "theta_deg": 131.4,
+      "phi_rad": 0.37,
+      "photon_trace": {
+        "W": 1.0317846190673265,
+        "Stokes": [
+          0.16666544368799105,
+          0.0,
+          2.6409554995425237e-18
+        ]
+      },
+      "literal_nonfinite": [
+        1,
+        2
+      ],
+      "finite_Stokes_max_error": null
+    },
+    {
+      "case": "Na1041-two-branch",
+      "helper": "old",
+      "delta": 0.0,
+      "theta_deg": 131.4,
+      "phi_rad": 1.17,
+      "photon_trace": {
+        "W": 1.0317846190673268,
+        "Stokes": [
+          0.16666544368799116,
+          0.0,
+          2.6409554995425225e-18
+        ]
+      },
+      "literal_nonfinite": [
+        1,
+        2
+      ],
+      "finite_Stokes_max_error": null
+    },
+    {
+      "case": "Na1041-two-branch",
+      "helper": "sdk",
+      "delta": 0.0,
+      "theta_deg": 23.4,
+      "phi_rad": 0.0,
+      "photon_trace": {
+        "W": 1.1555429158637534,
+        "Stokes": [
+          0.041715927525583577,
+          -7.545951885745185e-17,
+          0.0
+        ]
+      },
+      "literal_nonfinite": [
+        1,
+        2
+      ],
+      "finite_Stokes_max_error": null
+    },
+    {
+      "case": "Na1041-two-branch",
+      "helper": "sdk",
+      "delta": 0.0,
+      "theta_deg": 23.4,
+      "phi_rad": 0.37,
+      "photon_trace": {
+        "W": 1.1555429158637536,
+        "Stokes": [
+          0.041715927525583646,
+          0.0,
+          4.71621992859074e-18
+        ]
+      },
+      "literal_nonfinite": [
+        1,
+        2
+      ],
+      "finite_Stokes_max_error": null
+    },
+    {
+      "case": "Na1041-two-branch",
+      "helper": "sdk",
+      "delta": 0.0,
+      "theta_deg": 23.4,
+      "phi_rad": 1.17,
+      "photon_trace": {
+        "W": 1.1555429158637536,
+        "Stokes": [
+          0.04171592752558349,
+          0.0,
+          0.0
+        ]
+      },
+      "literal_nonfinite": [
+        1,
+        2
+      ],
+      "finite_Stokes_max_error": null
+    },
+    {
+      "case": "Na1041-two-branch",
+      "helper": "sdk",
+      "delta": 0.0,
+      "theta_deg": 45,
+      "phi_rad": 0.0,
+      "photon_trace": {
+        "W": 1.0509368650986566,
+        "Stokes": [
+          0.14540416305752618,
+          1.6594091490363736e-16,
+          1.2964133976846669e-18
+        ]
+      },
+      "literal_nonfinite": [
+        1,
+        2
+      ],
+      "finite_Stokes_max_error": null
+    },
+    {
+      "case": "Na1041-two-branch",
+      "helper": "sdk",
+      "delta": 0.0,
+      "theta_deg": 45,
+      "phi_rad": 0.37,
+      "photon_trace": {
+        "W": 1.0509368650986568,
+        "Stokes": [
+          0.14540416305752638,
+          8.297045745181866e-17,
+          6.4820669884233325e-18
+        ]
+      },
+      "literal_nonfinite": [
+        1,
+        2
+      ],
+      "finite_Stokes_max_error": null
+    },
+    {
+      "case": "Na1041-two-branch",
+      "helper": "sdk",
+      "delta": 0.0,
+      "theta_deg": 45,
+      "phi_rad": 1.17,
+      "photon_trace": {
+        "W": 1.050936865098657,
+        "Stokes": [
+          0.14540416305752635,
+          0.0,
+          -9.074893783792665e-18
+        ]
+      },
+      "literal_nonfinite": [
+        1,
+        2
+      ],
+      "finite_Stokes_max_error": null
+    },
+    {
+      "case": "Na1041-two-branch",
+      "helper": "sdk",
+      "delta": 0.0,
+      "theta_deg": 90,
+      "phi_rad": 0.0,
+      "photon_trace": {
+        "W": 0.8981262698026864,
+        "Stokes": [
+          0.34028755295074986,
+          0.0,
+          0.0
+        ]
+      },
+      "literal_nonfinite": [
+        1,
+        2
+      ],
+      "finite_Stokes_max_error": null
+    },
+    {
+      "case": "Na1041-two-branch",
+      "helper": "sdk",
+      "delta": 0.0,
+      "theta_deg": 90,
+      "phi_rad": 0.37,
+      "photon_trace": {
+        "W": 0.8981262698026865,
+        "Stokes": [
+          0.34028755295074997,
+          0.0,
+          0.0
+        ]
+      },
+      "literal_nonfinite": [
+        1,
+        2
+      ],
+      "finite_Stokes_max_error": null
+    },
+    {
+      "case": "Na1041-two-branch",
+      "helper": "sdk",
+      "delta": 0.0,
+      "theta_deg": 90,
+      "phi_rad": 1.17,
+      "photon_trace": {
+        "W": 0.8981262698026865,
+        "Stokes": [
+          0.34028755295074997,
+          -9.708736441856048e-17,
+          1.3473578422207377e-33
+        ]
+      },
+      "literal_nonfinite": [
+        1,
+        2
+      ],
+      "finite_Stokes_max_error": null
+    },
+    {
+      "case": "Na1041-two-branch",
+      "helper": "sdk",
+      "delta": 0.0,
+      "theta_deg": 131.4,
+      "phi_rad": 0.0,
+      "photon_trace": {
+        "W": 1.0317846190673265,
+        "Stokes": [
+          0.16666544368799105,
+          0.0,
+          2.6409554995425237e-18
+        ]
+      },
+      "literal_nonfinite": [
+        1,
+        2
+      ],
+      "finite_Stokes_max_error": null
+    },
+    {
+      "case": "Na1041-two-branch",
+      "helper": "sdk",
+      "delta": 0.0,
+      "theta_deg": 131.4,
+      "phi_rad": 0.37,
+      "photon_trace": {
+        "W": 1.0317846190673265,
+        "Stokes": [
+          0.16666544368799105,
+          0.0,
+          2.6409554995425237e-18
+        ]
+      },
+      "literal_nonfinite": [
+        1,
+        2
+      ],
+      "finite_Stokes_max_error": null
+    },
+    {
+      "case": "Na1041-two-branch",
+      "helper": "sdk",
+      "delta": 0.0,
+      "theta_deg": 131.4,
+      "phi_rad": 1.17,
+      "photon_trace": {
+        "W": 1.0317846190673268,
+        "Stokes": [
+          0.16666544368799116,
+          0.0,
+          2.6409554995425225e-18
+        ]
+      },
+      "literal_nonfinite": [
+        1,
+        2
+      ],
+      "finite_Stokes_max_error": null
+    },
+    {
+      "case": "Na1041-two-branch",
+      "helper": "old",
+      "delta": -0.85,
+      "theta_deg": 23.4,
+      "phi_rad": 0.0,
+      "photon_trace": {
+        "W": 0.9376184525289002,
+        "Stokes": [
+          0.03888664115814646,
+          0.0,
+          -1.4530949432147902e-18
+        ]
+      },
+      "literal_nonfinite": [
+        1,
+        2
+      ],
+      "finite_Stokes_max_error": null
+    },
+    {
+      "case": "Na1041-two-branch",
+      "helper": "old",
+      "delta": -0.85,
+      "theta_deg": 23.4,
+      "phi_rad": 0.37,
+      "photon_trace": {
+        "W": 0.9376184525289002,
+        "Stokes": [
+          0.03888664115814646,
+          0.0,
+          1.4530949432147902e-18
+        ]
+      },
+      "literal_nonfinite": [
+        1,
+        2
+      ],
+      "finite_Stokes_max_error": null
+    },
+    {
+      "case": "Na1041-two-branch",
+      "helper": "old",
+      "delta": -0.85,
+      "theta_deg": 23.4,
+      "phi_rad": 1.17,
+      "photon_trace": {
+        "W": 0.9376184525289004,
+        "Stokes": [
+          0.038886641158146454,
+          0.0,
+          -5.81237977285916e-18
+        ]
+      },
+      "literal_nonfinite": [
+        1,
+        2
+      ],
+      "finite_Stokes_max_error": null
+    },
+    {
+      "case": "Na1041-two-branch",
+      "helper": "old",
+      "delta": -0.85,
+      "theta_deg": 45,
+      "phi_rad": 0.0,
+      "photon_trace": {
+        "W": 0.9904317580915236,
+        "Stokes": [
+          0.10063616131008728,
+          8.803909177774783e-17,
+          0.0
+        ]
+      },
+      "literal_nonfinite": [
+        1,
+        2
+      ],
+      "finite_Stokes_max_error": null
+    },
+    {
+      "case": "Na1041-two-branch",
+      "helper": "old",
+      "delta": -0.85,
+      "theta_deg": 45,
+      "phi_rad": 0.37,
+      "photon_trace": {
+        "W": 0.9904317580915236,
+        "Stokes": [
+          0.10063616131008728,
+          0.0,
+          0.0
+        ]
+      },
+      "literal_nonfinite": [
+        1,
+        2
+      ],
+      "finite_Stokes_max_error": null
+    },
+    {
+      "case": "Na1041-two-branch",
+      "helper": "old",
+      "delta": -0.85,
+      "theta_deg": 45,
+      "phi_rad": 1.17,
+      "photon_trace": {
+        "W": 0.990431758091524,
+        "Stokes": [
+          0.10063616131008715,
+          -8.803909177774781e-17,
+          -5.502443236109238e-18
+        ]
+      },
+      "literal_nonfinite": [
+        1,
+        2
+      ],
+      "finite_Stokes_max_error": null
+    },
+    {
+      "case": "Na1041-two-branch",
+      "helper": "old",
+      "delta": -0.85,
+      "theta_deg": 90,
+      "phi_rad": 0.0,
+      "photon_trace": {
+        "W": 1.0284326996137436,
+        "Stokes": [
+          0.14863920742827502,
+          8.4786017094716e-17,
+          0.0
+        ]
+      },
+      "literal_nonfinite": [
+        1,
+        2
+      ],
+      "finite_Stokes_max_error": null
+    },
+    {
+      "case": "Na1041-two-branch",
+      "helper": "old",
+      "delta": -0.85,
+      "theta_deg": 90,
+      "phi_rad": 0.37,
+      "photon_trace": {
+        "W": 1.0284326996137438,
+        "Stokes": [
+          0.14863920742827516,
+          8.478601709471599e-17,
+          -2.3532847086203953e-33
+        ]
+      },
+      "literal_nonfinite": [
+        1,
+        2
+      ],
+      "finite_Stokes_max_error": null
+    },
+    {
+      "case": "Na1041-two-branch",
+      "helper": "old",
+      "delta": -0.85,
+      "theta_deg": 90,
+      "phi_rad": 1.17,
+      "photon_trace": {
+        "W": 1.0284326996137438,
+        "Stokes": [
+          0.14863920742827524,
+          8.478601709471599e-17,
+          -2.3532847086203953e-33
+        ]
+      },
+      "literal_nonfinite": [
+        1,
+        2
+      ],
+      "finite_Stokes_max_error": null
+    },
+    {
+      "case": "Na1041-two-branch",
+      "helper": "old",
+      "delta": -0.85,
+      "theta_deg": 131.4,
+      "phi_rad": 0.0,
+      "photon_trace": {
+        "W": 0.9977422787930488,
+        "Stokes": [
+          0.10913413125406915,
+          -8.739402379108975e-17,
+          5.462126486943109e-18
+        ]
+      },
+      "literal_nonfinite": [
+        1,
+        2
+      ],
+      "finite_Stokes_max_error": null
+    },
+    {
+      "case": "Na1041-two-branch",
+      "helper": "old",
+      "delta": -0.85,
+      "theta_deg": 131.4,
+      "phi_rad": 0.37,
+      "photon_trace": {
+        "W": 0.9977422787930488,
+        "Stokes": [
+          0.10913413125406915,
+          0.0,
+          5.462126486943109e-18
+        ]
+      },
+      "literal_nonfinite": [
+        1,
+        2
+      ],
+      "finite_Stokes_max_error": null
+    },
+    {
+      "case": "Na1041-two-branch",
+      "helper": "old",
+      "delta": -0.85,
+      "theta_deg": 131.4,
+      "phi_rad": 1.17,
+      "photon_trace": {
+        "W": 0.9977422787930488,
+        "Stokes": [
+          0.10913413125406933,
+          0.0,
+          5.462126486943109e-18
+        ]
+      },
+      "literal_nonfinite": [
+        1,
+        2
+      ],
+      "finite_Stokes_max_error": null
+    },
+    {
+      "case": "Na1041-two-branch",
+      "helper": "sdk",
+      "delta": -0.85,
+      "theta_deg": 23.4,
+      "phi_rad": 0.0,
+      "photon_trace": {
+        "W": 0.9376184525289002,
+        "Stokes": [
+          0.03888664115814646,
+          0.0,
+          -1.4530949432147902e-18
+        ]
+      },
+      "literal_nonfinite": [
+        1,
+        2
+      ],
+      "finite_Stokes_max_error": null
+    },
+    {
+      "case": "Na1041-two-branch",
+      "helper": "sdk",
+      "delta": -0.85,
+      "theta_deg": 23.4,
+      "phi_rad": 0.37,
+      "photon_trace": {
+        "W": 0.9376184525289002,
+        "Stokes": [
+          0.03888664115814646,
+          0.0,
+          1.4530949432147902e-18
+        ]
+      },
+      "literal_nonfinite": [
+        1,
+        2
+      ],
+      "finite_Stokes_max_error": null
+    },
+    {
+      "case": "Na1041-two-branch",
+      "helper": "sdk",
+      "delta": -0.85,
+      "theta_deg": 23.4,
+      "phi_rad": 1.17,
+      "photon_trace": {
+        "W": 0.9376184525289004,
+        "Stokes": [
+          0.038886641158146454,
+          0.0,
+          -5.81237977285916e-18
+        ]
+      },
+      "literal_nonfinite": [
+        1,
+        2
+      ],
+      "finite_Stokes_max_error": null
+    },
+    {
+      "case": "Na1041-two-branch",
+      "helper": "sdk",
+      "delta": -0.85,
+      "theta_deg": 45,
+      "phi_rad": 0.0,
+      "photon_trace": {
+        "W": 0.9904317580915236,
+        "Stokes": [
+          0.10063616131008728,
+          8.803909177774783e-17,
+          0.0
+        ]
+      },
+      "literal_nonfinite": [
+        1,
+        2
+      ],
+      "finite_Stokes_max_error": null
+    },
+    {
+      "case": "Na1041-two-branch",
+      "helper": "sdk",
+      "delta": -0.85,
+      "theta_deg": 45,
+      "phi_rad": 0.37,
+      "photon_trace": {
+        "W": 0.9904317580915236,
+        "Stokes": [
+          0.10063616131008728,
+          0.0,
+          0.0
+        ]
+      },
+      "literal_nonfinite": [
+        1,
+        2
+      ],
+      "finite_Stokes_max_error": null
+    },
+    {
+      "case": "Na1041-two-branch",
+      "helper": "sdk",
+      "delta": -0.85,
+      "theta_deg": 45,
+      "phi_rad": 1.17,
+      "photon_trace": {
+        "W": 0.990431758091524,
+        "Stokes": [
+          0.10063616131008715,
+          -8.803909177774781e-17,
+          -5.502443236109238e-18
+        ]
+      },
+      "literal_nonfinite": [
+        1,
+        2
+      ],
+      "finite_Stokes_max_error": null
+    },
+    {
+      "case": "Na1041-two-branch",
+      "helper": "sdk",
+      "delta": -0.85,
+      "theta_deg": 90,
+      "phi_rad": 0.0,
+      "photon_trace": {
+        "W": 1.0284326996137436,
+        "Stokes": [
+          0.14863920742827502,
+          8.4786017094716e-17,
+          0.0
+        ]
+      },
+      "literal_nonfinite": [
+        1,
+        2
+      ],
+      "finite_Stokes_max_error": null
+    },
+    {
+      "case": "Na1041-two-branch",
+      "helper": "sdk",
+      "delta": -0.85,
+      "theta_deg": 90,
+      "phi_rad": 0.37,
+      "photon_trace": {
+        "W": 1.0284326996137438,
+        "Stokes": [
+          0.14863920742827516,
+          8.478601709471599e-17,
+          -2.3532847086203953e-33
+        ]
+      },
+      "literal_nonfinite": [
+        1,
+        2
+      ],
+      "finite_Stokes_max_error": null
+    },
+    {
+      "case": "Na1041-two-branch",
+      "helper": "sdk",
+      "delta": -0.85,
+      "theta_deg": 90,
+      "phi_rad": 1.17,
+      "photon_trace": {
+        "W": 1.0284326996137438,
+        "Stokes": [
+          0.14863920742827524,
+          8.478601709471599e-17,
+          -2.3532847086203953e-33
+        ]
+      },
+      "literal_nonfinite": [
+        1,
+        2
+      ],
+      "finite_Stokes_max_error": null
+    },
+    {
+      "case": "Na1041-two-branch",
+      "helper": "sdk",
+      "delta": -0.85,
+      "theta_deg": 131.4,
+      "phi_rad": 0.0,
+      "photon_trace": {
+        "W": 0.9977422787930488,
+        "Stokes": [
+          0.10913413125406915,
+          -8.739402379108975e-17,
+          5.462126486943109e-18
+        ]
+      },
+      "literal_nonfinite": [
+        1,
+        2
+      ],
+      "finite_Stokes_max_error": null
+    },
+    {
+      "case": "Na1041-two-branch",
+      "helper": "sdk",
+      "delta": -0.85,
+      "theta_deg": 131.4,
+      "phi_rad": 0.37,
+      "photon_trace": {
+        "W": 0.9977422787930488,
+        "Stokes": [
+          0.10913413125406915,
+          0.0,
+          5.462126486943109e-18
+        ]
+      },
+      "literal_nonfinite": [
+        1,
+        2
+      ],
+      "finite_Stokes_max_error": null
+    },
+    {
+      "case": "Na1041-two-branch",
+      "helper": "sdk",
+      "delta": -0.85,
+      "theta_deg": 131.4,
+      "phi_rad": 1.17,
+      "photon_trace": {
+        "W": 0.9977422787930488,
+        "Stokes": [
+          0.10913413125406933,
+          0.0,
+          5.462126486943109e-18
+        ]
+      },
+      "literal_nonfinite": [
+        1,
+        2
+      ],
+      "finite_Stokes_max_error": null
+    }
+  ],
+  "core_nans_are_not_zero_intensity_boundaries": true,
+  "original_source_modified_or_patched": false,
+  "full_event_geometry_response_validated": false,
+  "experimental_paper_claim_falsified": false
+}

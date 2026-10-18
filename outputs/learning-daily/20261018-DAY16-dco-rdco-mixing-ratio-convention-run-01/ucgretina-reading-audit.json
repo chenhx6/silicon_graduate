@@ -1,0 +1,28 @@
+{
+  "at": "2026-10-18T16:12:25.141711+00:00",
+  "scope": "selectedcodeprimary/relevantpipeline,notwhole788filesorfullGeant4",
+  "whole_relevant_files": [
+    "UCGretina src/ITDecay.cc 436lines; activephotonbody135–272; inactiveoldalgorithm andARM role read",
+    "Reaction.cc currentand2021 tensorconstruction;fullcurrentreactionmainline",
+    "GNUmakefile POLflag",
+    "examples/inbeam/angdist/README/pol.C/nopolmacro",
+    "G4GammaTransition.cc v10.7.4"
+  ],
+  "targeted": [
+    "README compilation/EM/angles/alignment/source blocks, notall33787bytes",
+    "PhysicsList constructor/processreplacement/flags; messenger2021whole",
+    "G4Clebsch CG/triangle/W3j/W6j/LittleD exactfunctions",
+    "G4PolarizationTransition F/GammaTransF/anglePDF andtensorupdate boundary",
+    "G4StokesVector photonfactor2rotation; G4PolarizationHelper X/Yframe; G4PolarizedComptonModel inputStokes/KNharmonic",
+    "G4NuclearPolarization copy/noRanktrim",
+    "G4LevelManager/G4NucLevel transitionidentity accessor semantics;G4LevelReader targetparsing"
+  ],
+  "source_figure_or_table_coverage": "software no paperfigures;M22all12figs/2tables previouslyread,onlysourcecalcontextreused",
+  "counterevidence": "actualpureE2 spin2Morsecontrol finitephysical, so do notfalsifycalibration paper",
+  "necessary_companion": "photontrace positivePSD/intensity/sourceflags, actualarrayselection/response neededforQ/experimentalfit",
+  "source_independence": "publiccodetheory andM22sameupstreamimplementation;SDK/newoldhelpers sharemath, notindependentexperiments",
+  "initial_errors_retained": [
+    "ctypesstaticTLS firstfailure beforephysics; correctedcommandscopedpreload",
+    "initialNa−.85 native mislabeledRBbranch; v2uses+.85 withactualcoeffphasecheck"
+  ]
+}

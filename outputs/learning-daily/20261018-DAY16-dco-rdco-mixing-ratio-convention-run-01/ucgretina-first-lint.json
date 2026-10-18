@@ -1,0 +1,16 @@
+{
+  "at": "2026-10-18T16:16:41.369052+00:00",
+  "initial_lint_exit": 1,
+  "initial_lint_errors": 1,
+  "initial_lint_warnings": 167,
+  "cause": "newsource missingtitle_original;initial source-onlypass beforemethodbacklinks alsoorphannavwarning",
+  "correction": "add precise code title_original; after canonicalbacklinks rerun",
+  "source_code_or_frozen_data_changed": false,
+  "second_pass": {
+    "lint_exit": 1,
+    "writeback_valid": false,
+    "cause": "broad evidence_sources replacement alsoalteredoneN25wikilink;brokenlink caughtbeforepublication",
+    "correction": "restoreexactN25wiki target;keepnewUC21source inevidence_sources array andownbodylink",
+    "scientific_frozen_input_unchanged": true
+  }
+}

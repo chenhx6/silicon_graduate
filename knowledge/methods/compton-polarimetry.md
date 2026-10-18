@@ -3,7 +3,7 @@ type: method
 title: "Gamma-Ray Compton Polarimetry"
 aliases: [Compton polarimetry, gamma-ray Compton polarimeter]
 created: 2026-07-13
-updated: 2026-10-18
+updated: 2026-10-19
 status: active
 review_status: unreviewed
 method_type: gamma-ray-polarimetry
@@ -287,3 +287,11 @@ Morse的6-quad tracking与L26的12-quad energy-order/noaddback不同；L26 Eq19�
 [[nndc-2025-a25-mixing-reference-records]] N25-4/5/10实际核了2026Lo01的Na/Mg XUNDL。Na1041的POL=.043(.008)转录L26的A0；该实验定义A0=Q Pbar/2，所以不能直接把POL放进physical-P栏。XUNDL的编译、原paper表与多种处理仍是同一采集，不是三次独立偏振证据。
 
 target/gamma identity还要保留版本：25Na1041在当前Adopted为3459.4→2418.3，XUNDL用3459→2419；Mg XUNDL原G3971不能静默改成Adopted3970.3。官方PDF的靶厚度µg与primary mg相差1000，也限制从转录对象直接构建response。可复用的身份与MR谱系写在[[gretina-25na1041-polarization-response-contract]]；尚未取得actualresponse、jointCov或新的独立选根证据。
+
+### 统计张量到Stokes：纯标定通过不认证任意mixed路径
+
+[[ucgretina-2021-polarized-emission-code]] UC21-1–9固定公开代码并实际抽取编译。POL编译门、nuclear angular correlation与polarized EM开关分开；Reaction的P(m)→rho保留全部rank，ITDecay在衰变更新前取parent tensor。仅计算出W或启用alignment，不证明光子Stokes与Compton分析已一致启用。
+
+原Stokes表达式中Cplus/Cminus×F在禁戒CG处可字面0/0；本run的mixed k0和pureM1 k4失败控制显示：norm有限正而P1/P2为NaN。独立helicitytrace给物理有限值；同1→1 pureM1与mixedlabel δ0的norm相同、代码却一过一失败。应保持原失败，解析约去公共CG后再作另名验证；不能遇NaN置0、截断rho或把calibrator pureE2通过当作任意mixed producer认证。
+
+Morse spin2→0 pureE2控制确实通过，这限制对其原标定的归因；当前只有内核/明示helpers，未取得其exactbinary、geometry、macro、后处理或actualresponse/Cov。若同一selection经reference校正后的ξ acceptance均匀且只留cos2项，源码KN核对无偏振电子给A0=〈Sigma P〉（该声明jointkernel下），若另用Morse的A0=Q Pbar/2，则Q=2〈Sigma P〉/Pbar；只有附加factorization才可写2〈Sigma〉。Stokes的2φ轴旋转、经验Q半因子与finiteangularattenuation是三种不同的因子。

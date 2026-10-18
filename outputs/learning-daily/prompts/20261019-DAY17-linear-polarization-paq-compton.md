@@ -284,3 +284,5 @@ Day16预习入口（仅priming）：knowledge/sources/schmid-1998-gammasphere-po
 Day16 Fig4追加priming：新L26-27–29公开vector曲线的literalCP/C均值约.377923/.543870，与prose about.35/.53未按字面闭合；actualkernel/selection/producer未知，不判实验错。另event-weight平均/Q重标必须配套，不能固定Q只改Pbar；来源图C不是actualComptoncountretention，不迁给1041。正式17若续查，需要新的matchinginput或更高信息独立核验，不能只把Day16旧scriptcheck数当新交付。
 
 Day16 A25追加priming：[[nndc-2025-a25-mixing-reference-records]] N25-1–10与1041ledger补当前Ei/Ef、2009MR经phasebridge逐项匹配L26、当前评价版本更新。XUNDL POL=A0非P，NaMR值在comment；靶厚度µg/mg转录差和MgG3971身份保留。FSU2015原文尚未取得，仅评价角度35/145与概述45/135的未决口径；不能从旧M1标签替δ唯一选根。
+
+Day16 UCGretina追加priming：[[ucgretina-2021-polarized-emission-code]] UC21-1–9固定公开2021/2026内核与old10.7.4函数/installed11.4.2helpers，literalmixed/highrank 0/0×F失败、pureE2反证及photontrace已核；不是exactpaperproducer/全阵列重放。correctednative0/+.85映L26RB0/−.85，首轮identity错误与TLS失败保留。正式17不能只重跑旧168calls授卡；可沿新finite-expression/generalκ/response合同推进，原实验event/geometry/postprocess/Σ仍缺。

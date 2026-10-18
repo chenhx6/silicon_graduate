@@ -1,0 +1,17 @@
+{
+  "identity": "UCGRETINA-STOKES-PHYSICAL-ORACLE-01",
+  "core_input": "ucgretina-core-audit-input-v2.json",
+  "core_input_sha256": "89f7ec8bef91ec6dd2418a2f5f0baab13f7918a57be3c94cd34e607462593a48",
+  "core_result": "ucgretina-core-audit-v2.json",
+  "core_result_sha256": "b3ed9d715ac5a9e8b9e83b4f700ce4e7dfc7fbc7be73509ba6c483873cb7fc37",
+  "binary": "tmp/day16-ucgretina/build-core-v2/literal-stokes.so",
+  "binary_sha256": "d82a858753cd02fbfcffafd0b0c9c534e38728ed4d68a72f4ee2bb7162f0a17e",
+  "oracle": "independent sympyCG photonhelicitytrace with D96nativephase, meridianEtheta/Ephi; sum overunobservedMf; PSD diagonal population, no fit",
+  "scope": "confirm finitephysical emission for literalNaNcases; pure finitecontrols match;notmodifyoriginalcore",
+  "failure_locator_checks": [
+    "K0 lower1/upper2 CGdenominator0/FCoeff0",
+    "K4 pureL1 denominator0/FCoeff0",
+    "pureMP3 vs mixedMP304 delta0 sameJi1Jf1 population"
+  ],
+  "no_array_Q_fit": true
+}

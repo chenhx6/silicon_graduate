@@ -1,0 +1,26 @@
+{
+  "at": "2026-10-18T16:01:22.360401+00:00",
+  "results": [
+    {
+      "url": "https://raw.githubusercontent.com/Geant4/geant4/098f6c74e60fbe2dbde3c347fdf5e0e321e311a2/source/processes/electromagnetic/polarisation/src/G4PolarizationHelper.cc",
+      "status": 200,
+      "path": "tmp/day16-ucgretina/geant4-v1074/G4PolarizationHelper.cc",
+      "sha256": "2c917848de0c49c19046a4694f78abf0a1173af64deb56154fc3de37fb84b7b5",
+      "matches_tree_blob": true
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Geant4/geant4/098f6c74e60fbe2dbde3c347fdf5e0e321e311a2/source/processes/hadronic/models/de_excitation/management/src/G4LevelReader.cc",
+      "status": 200,
+      "path": "tmp/day16-ucgretina/geant4-v1074/G4LevelReader.cc",
+      "sha256": "cf43649298ae21f56ba661f40d6293905aeb0f1b8c1674b2bd3e352202a75e86",
+      "matches_tree_blob": true
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Geant4/geant4/098f6c74e60fbe2dbde3c347fdf5e0e321e311a2/source/processes/hadronic/util/include/G4NuclearPolarization.hh",
+      "status": 200,
+      "path": "tmp/day16-ucgretina/geant4-v1074/G4NuclearPolarization.hh",
+      "sha256": "98682caf4142b7b4d22bae36f84ba101a5afece0a26a797d75f22362a3f1f919",
+      "matches_tree_blob": true
+    }
+  ]
+}

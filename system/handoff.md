@@ -1,22 +1,22 @@
 ---
 type: system-handoff
 graph-excluded: true
-updated: 2026-10-18
+updated: 2026-10-19
 ---
 
 # 跨会话交接
 
 ## Active handoff — DAY16 user-resumed original study window
 
-同run2026-10-18-day-16-01/session01a14ce6-425e-77c1-a127-2ac980bd76b5，原2026-10-19 15:00上海截止不变，15–16收束；goal active/pursuing。正式16仅一次next17/count16、partial17，不正式17/不开18；Farmer42019保留，无新session/daemon。
+同run2026-10-18-day-16-01/session01a14ce6-425e-77c1-a127-2ac980bd76b5，原2026-10-19 15:00上海截止不变，15–16收束；goal active/pursuing。formal16一次next17/count16、partial17，不正式17/不开18；Farmer42019保留，无新session/daemon。
 
-Checkpoint018：A25十官方对象/旧2009archive已核hash与field；新source N25-1–10、1041ledger/Compton/MR/index写回，36changed/36items。Na1041 Ei/Ef版本补齐；2009三个MgMR经完整KS/RB桥与L26引用全闭合，1612当前−.207(.013)是更新；条件均值−.206805±.013098。1793采用σ.02不由简单独立公式重现，保留未知producer；3970MR(F)指Kean1972覆盖默认Bu14。XUNDL POL转录A0非P；官方PDFµg对primarymg千倍差、MgG3971不静默更正；同paper转录不是独立实验，未恢复response/Σ/新δ。
+Checkpoint019：固定UCGretina2021/2026公开ITDecay相同，README关联Morse但exactproducer未认证；新sourceUC21-1–9/Compton/note/index。literalcore实际抽取编译，old10.7.4函数rename-only+installed11.4.2mathservices，另SDKhelper；不是完整10.7.4运行。corrected168calls中48pure有限、120mixed/highrank NaN，norm全正；独立tracephysical、pure差1.11e−15/norm7.78e−16。actualCGzero、same1→1pure/mixedδ0一过一败；Morse2→0pureE2过，不能归因原实验错。
 
-verification-reopened012 required0、lint0errors164warnings(124key37raw3parser)，report/card/writeback通过，原humanprefix/raw/PLAN/Bib保持。初标题/表格pipe/EOF失败记录已保留。此前017公开Fig4literal平均与about未闭合、eventweight/Q重标/实际counts边界仍有效，不迁22NeC到Na1041。
+首TLS加载失败发生physics前，命令级preload后0；首Na−.85误作native且命名RB，保留oldinput/result后v2重冻0/+.85。F_G4/R_RB实际phasebridge1.56e−15；v2Na条件P1=.340288/.017054非新实测/δfit。verification-reopened013 required0/reportcardwriteback37changed37items、lint0errors166warnings(125key38raw3parser)。初title字段/一处wikilink替换错误已fix留档。原humanprefix/raw/PLAN/Bib保持。
 
-本批内容指针main / `Trace DAY16 A25 reference identities and evaluated mixing versions`；精确hash/H3/push只记publication018/runreceipt。下一FSU2015Vo12 primed回忆已冻，目标1041 AD/angle/Jpi论证；primarybody未得。accepted403/harvest401、Scholar timeout与arXiv错误身份拒绝有记录；inspire/S2发现请求待核。禁止由metadata冒称正文/旧M1唯一选根；不开展寿命/强度课。详continuation-current.md与A25新source。
+本批内容指针main / `Validate DAY16 public Stokes emission and zero-CG boundaries`；精确hash/H3/push仅publication019/runreceipt。下一regularized-before-analysis/hash已冻：解析消公共CG的另名实现及generalκ/PSD/poles/truezeroI；不patch原publiccode/NaN置0或用控制通过冒充全阵列response。commandscope LD_PRELOAD libG4processes_hadronic.so+PYTHONPATH repo tmp，源码/生成binary/第三方只tmp。不得改binary后仍用旧frozenhash；新builddir与合同。
 
-L26旧humanprefix/1–16、L25旧prefix/1–29每字节保留，新claims true；Morseactual13pageauthorpreprint、VoR未得。L26p7sign例与Table3冲突须同时说明；Qhalf/Π/RB角色不混。旧终态Alikhani/Gu96/Daniel/Jül/Goodin/Krane不原样重试。SymPy仅repo tmp，旧helperhash/原raw/PLAN/Bib/credentials/继承dirty/log保持。exactmanifest、HEAD+ownlog、H3/Gitee HEAD:main非force；准备17prompt不启动/授信用。
+A25source/ledger的旧2009三MR经phasebridge匹配L26/currentversion/POL=A0/MRflag/靶厚度µg-vs-mg边界保留，018actualpush已receipt。FSU2015body未得：合法书目/机构页无PDF，AP403/401、Scholar/Google失败/Bing无关身份拒绝；不重试终态或读19O替身。原17日报/18run-dir/session/resume/deadline不变，exactmanifest/HEAD+ownlog/H3Gitee非force，保护raw/PLAN/Bib/credentials/继承dirty/log/旧review。
 
 ## Previous active handoff — DAY16 completed; Day17 is next
 

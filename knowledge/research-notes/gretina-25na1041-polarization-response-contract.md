@@ -3,11 +3,11 @@ type: research-note
 title: "25Na1041：混合比分支与GRETINA偏振响应合同"
 aliases: [25Na 1041 mixing branches, GRETINA Q convention audit]
 created: 2026-10-18
-updated: 2026-10-18
+updated: 2026-10-19
 status: ai-draft
 review_status: unreviewed
 reasoning_status: provisional
-evidence_sources: [longfellow-2026-gretina-energy-ordering-polarization, morse-2022-gretina-polarization-sensitivity, lauritsen-2025-gamma-angular-formalism-tracking-arrays, nndc-2025-a25-mixing-reference-records]
+evidence_sources: [longfellow-2026-gretina-energy-ordering-polarization, morse-2022-gretina-polarization-sensitivity, lauritsen-2025-gamma-angular-formalism-tracking-arrays, nndc-2025-a25-mixing-reference-records, ucgretina-2021-polarized-emission-code]
 created_from: Day16 independent daily-learning run with uncredited Day17 preview
 promotion_target: compton-polarimetry
 tags: [mixing-ratio, polarization, GRETINA, response-calibration, phase-convention]
@@ -58,6 +58,12 @@ NaXUNDL的δ0.0(.2)在comment，numeric MR仍空；POL=.043(.008)是L26 A0，非
 [[lauritsen-2025-gamma-angular-formalism-tracking-arrays]] L25-30另用60Co1173 coincidence来polarize1333，measured/ideal amplitudes .016/.048给Q=.33(.04)。它的reference、polar angles、ξ normalization和ideal-curve定义与无γγ条件的source singles/beam reaction plane不同；.33无法直接替.196。
 
 L26的AD、ξ和不同拟合处理属于同一fusion acquisition；不同核素/图表不增加独立实验。Morse是另一反应/配置，但它的fit、tuning和GRETA曲线共享输入。L25 source events是否部分与其它calibration采集共享未认证，不按paper数量计独立验证。
+
+### 公开Stokes内核的可运行边界
+
+[[ucgretina-2021-polarized-emission-code]] UC21-1–9取得与Morse README显式关联的公开实现，2021与2026的ITDecay相同；没有认证exact论文producer。固定core抽取执行暴露mixed k0/pureM1高rank的0/0×F，而强度norm仍正。独立photontrace物理有限，Morse2→0 pureE2则通过；因此不能把这个代码边界外推成原实验错误。
+
+具体F_G4与R_RB系数核验要求delta_native=−delta_RB；本note的RB0/−.85在代码应送native0/+.85。本run初次Na benchmark命名曾混用坐标，原输入/结果保留，canonical采用更正后v2。固定Gaussianσ/J=.56的独立trace在θ90°给P1≈.340288/.017054，两支仍同号；这些是条件理论值，不能替换实测A0=.043(.008)、恢复Q或重做联合CI。正确phase、finite/PSD/强度及纯极限是阵列响应重放前的必要条件。
 
 ## Assumptions
 

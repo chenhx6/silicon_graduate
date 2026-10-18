@@ -1,0 +1,107 @@
+{
+  "at": "2026-10-18T15:56:46.544889+00:00",
+  "version": "v10.7.4",
+  "commit": "098f6c74e60fbe2dbde3c347fdf5e0e321e311a2",
+  "files": [
+    {
+      "url": "https://raw.githubusercontent.com/Geant4/geant4/098f6c74e60fbe2dbde3c347fdf5e0e321e311a2/source/processes/electromagnetic/polarisation/include/G4StokesVector.hh",
+      "path": "tmp/day16-ucgretina/geant4-v1074/G4StokesVector.hh",
+      "source_path": "source/processes/electromagnetic/polarisation/include/G4StokesVector.hh",
+      "status": 200,
+      "bytes": 3815,
+      "sha256": "4403e5db3c6650a04460a7b708969ed044e01cc96beb68e5bce18ffd79e7502e",
+      "git_blob": "b8e7e9ddb33c870d7bcc1b24aa3840bfe4a07d74",
+      "matches_tree_blob": true
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Geant4/geant4/098f6c74e60fbe2dbde3c347fdf5e0e321e311a2/source/processes/electromagnetic/polarisation/src/G4PolarizedComptonModel.cc",
+      "path": "tmp/day16-ucgretina/geant4-v1074/G4PolarizedComptonModel.cc",
+      "source_path": "source/processes/electromagnetic/polarisation/src/G4PolarizedComptonModel.cc",
+      "status": 200,
+      "bytes": 15121,
+      "sha256": "6a09855ef7b3e53db9030d900fe53a5fa6c1942fc957d7f2fd98ba80d7421e87",
+      "git_blob": "92cf14de9a997bb68e709d63c746d38aa680dd36",
+      "matches_tree_blob": true
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Geant4/geant4/098f6c74e60fbe2dbde3c347fdf5e0e321e311a2/source/processes/electromagnetic/polarisation/src/G4StokesVector.cc",
+      "path": "tmp/day16-ucgretina/geant4-v1074/G4StokesVector.cc",
+      "source_path": "source/processes/electromagnetic/polarisation/src/G4StokesVector.cc",
+      "status": 200,
+      "bytes": 6780,
+      "sha256": "105f3ab61742ab9eecf3b600dedbf63af74d471192a70bd533319320ca368782",
+      "git_blob": "33af94907c8b46780bd743ff25f2a62e7f4849c4",
+      "matches_tree_blob": true
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Geant4/geant4/098f6c74e60fbe2dbde3c347fdf5e0e321e311a2/source/processes/hadronic/models/de_excitation/management/include/G4LevelManager.hh",
+      "path": "tmp/day16-ucgretina/geant4-v1074/G4LevelManager.hh",
+      "source_path": "source/processes/hadronic/models/de_excitation/management/include/G4LevelManager.hh",
+      "status": 200,
+      "bytes": 6758,
+      "sha256": "7190375d83e29289ec63373fd93ef73eb6d999fc5eb58d8447583561dc2f4143",
+      "git_blob": "0d96d35e6ccbda6a956dc26b0d7e8f74d1d13d12",
+      "matches_tree_blob": true
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Geant4/geant4/098f6c74e60fbe2dbde3c347fdf5e0e321e311a2/source/processes/hadronic/models/de_excitation/management/include/G4NucLevel.hh",
+      "path": "tmp/day16-ucgretina/geant4-v1074/G4NucLevel.hh",
+      "source_path": "source/processes/hadronic/models/de_excitation/management/include/G4NucLevel.hh",
+      "status": 200,
+      "bytes": 5787,
+      "sha256": "45545f233252297ab4d97bacc83220a63eb59561c1b0ee7920ed04c377e0bc8c",
+      "git_blob": "757302acd646a0ccd7ce7a3e56c9d8789e404188",
+      "matches_tree_blob": true
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Geant4/geant4/098f6c74e60fbe2dbde3c347fdf5e0e321e311a2/source/processes/hadronic/models/de_excitation/photon_evaporation/include/G4PolarizationTransition.hh",
+      "path": "tmp/day16-ucgretina/geant4-v1074/G4PolarizationTransition.hh",
+      "source_path": "source/processes/hadronic/models/de_excitation/photon_evaporation/include/G4PolarizationTransition.hh",
+      "status": 200,
+      "bytes": 4524,
+      "sha256": "3930fbe54d04bc5aa064a2b2314e8e16cca3058be123b89ae1cdb0cb67cad729",
+      "git_blob": "bb89369c9cd3b31478acfef97d21612f1f2c402c",
+      "matches_tree_blob": true
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Geant4/geant4/098f6c74e60fbe2dbde3c347fdf5e0e321e311a2/source/processes/hadronic/models/de_excitation/photon_evaporation/src/G4GammaTransition.cc",
+      "path": "tmp/day16-ucgretina/geant4-v1074/G4GammaTransition.cc",
+      "source_path": "source/processes/hadronic/models/de_excitation/photon_evaporation/src/G4GammaTransition.cc",
+      "status": 200,
+      "bytes": 6719,
+      "sha256": "efe24c72f94ba863755d438d547e864362b0948df846fb640dba162a56ab7181",
+      "git_blob": "9b50e121b353b867da507426b5c97c3772878c8c",
+      "matches_tree_blob": true
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Geant4/geant4/098f6c74e60fbe2dbde3c347fdf5e0e321e311a2/source/processes/hadronic/models/de_excitation/photon_evaporation/src/G4PolarizationTransition.cc",
+      "path": "tmp/day16-ucgretina/geant4-v1074/G4PolarizationTransition.cc",
+      "source_path": "source/processes/hadronic/models/de_excitation/photon_evaporation/src/G4PolarizationTransition.cc",
+      "status": 200,
+      "bytes": 15397,
+      "sha256": "6e8ed892cec94eb63241f160211d670e6ae84ac0239fa2ba4b2bd943683fb518",
+      "git_blob": "c59f93f22a68eda762d4099bdd63a67bbb43809a",
+      "matches_tree_blob": true
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Geant4/geant4/098f6c74e60fbe2dbde3c347fdf5e0e321e311a2/source/processes/hadronic/models/util/include/G4Clebsch.hh",
+      "path": "tmp/day16-ucgretina/geant4-v1074/G4Clebsch.hh",
+      "source_path": "source/processes/hadronic/models/util/include/G4Clebsch.hh",
+      "status": 200,
+      "bytes": 5699,
+      "sha256": "2f1582b1cc1283c129a76fe899bda5c78055da266fcbc8253af055383bf2eb21",
+      "git_blob": "5ff7f7ca635b33ee597eab74e2fef50b6594b5cc",
+      "matches_tree_blob": true
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Geant4/geant4/098f6c74e60fbe2dbde3c347fdf5e0e321e311a2/source/processes/hadronic/models/util/src/G4Clebsch.cc",
+      "path": "tmp/day16-ucgretina/geant4-v1074/G4Clebsch.cc",
+      "source_path": "source/processes/hadronic/models/util/src/G4Clebsch.cc",
+      "status": 200,
+      "bytes": 22617,
+      "sha256": "4d44d9f3c2fc871b416e52c78a86ce158ff757611b53bf558971c5a7e589757c",
+      "git_blob": "7918fbc555c6f1ea677afec0d02c29c33d21c06b",
+      "matches_tree_blob": true
+    }
+  ]
+}

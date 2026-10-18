@@ -1,0 +1,9 @@
+{
+  "at": "2026-10-19T00:10:10.939644+08:00",
+  "initial_execution_kept": true,
+  "initial_Na_test_error": "case name suggested L26branches butinput−.85wasusedasG4native; L26−.85 isRB andrequiresnative+.85",
+  "actual_initial_result_valid_scope": "literalalgorithmNaNforselectednativevalues;notcorrectlyidentifiedL26two-branchbenchmark",
+  "correction": "v2freeze0/+.85native; directFCoefficientcrosswalkbeforeaccepting",
+  "validation_comment_typo": "initialvalidationcontract sayspure4 butactualsamepathcontrolandcode usedMP3/M1; willmakev2commentaccurate",
+  "scientific_originals_modified": false
+}

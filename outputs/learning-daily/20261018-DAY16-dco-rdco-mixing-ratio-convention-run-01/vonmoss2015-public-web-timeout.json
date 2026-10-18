@@ -1,0 +1,12 @@
+{
+  "at": "2026-10-18T15:53:29.630913+00:00",
+  "pid": 263266,
+  "request_exec_session": 50304,
+  "result": "process already finished",
+  "nominal_requests_timeout_s": 35,
+  "failure_boundary": "requests DNS/network call exceeded intended wall limit; no targetbody obtained",
+  "restart": false,
+  "result_observed": "process finished before termination; actual Google refused andBing200irrelevant higherdictionary/music, identityrejected",
+  "signal_sent": false,
+  "actual_output": "vonmoss2015-public-web-discovery.json"
+}

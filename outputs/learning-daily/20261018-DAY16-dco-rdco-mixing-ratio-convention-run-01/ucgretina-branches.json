@@ -1,0 +1,87 @@
+{
+  "at": "2026-10-18T15:54:19.302823+00:00",
+  "url": "https://api.github.com/repos/rileyle/UCGretina/branches",
+  "status": 200,
+  "results": [
+    {
+      "name": "GRTSchool",
+      "commit": {
+        "sha": "4e7e6fcdfbb34d716bc9d9d7bb081b5a5828f0b9",
+        "url": "https://api.github.com/repos/rileyle/UCGretina/commits/4e7e6fcdfbb34d716bc9d9d7bb081b5a5828f0b9"
+      },
+      "protected": false
+    },
+    {
+      "name": "cache",
+      "commit": {
+        "sha": "c9736520e54b9d26955c74c7658eb8e72dd7995f",
+        "url": "https://api.github.com/repos/rileyle/UCGretina/commits/c9736520e54b9d26955c74c7658eb8e72dd7995f"
+      },
+      "protected": false
+    },
+    {
+      "name": "fdsi",
+      "commit": {
+        "sha": "b483e31b47b799cf27aa9bc7b36daf719661a4dc",
+        "url": "https://api.github.com/repos/rileyle/UCGretina/commits/b483e31b47b799cf27aa9bc7b36daf719661a4dc"
+      },
+      "protected": false
+    },
+    {
+      "name": "geant4.9",
+      "commit": {
+        "sha": "d201f9a58da2b0c02cfdfdf396df28bc6a300b80",
+        "url": "https://api.github.com/repos/rileyle/UCGretina/commits/d201f9a58da2b0c02cfdfdf396df28bc6a300b80"
+      },
+      "protected": false
+    },
+    {
+      "name": "geant4.10",
+      "commit": {
+        "sha": "1271388e03ec9b3f8e055a988aeb4c2e4d2efedf",
+        "url": "https://api.github.com/repos/rileyle/UCGretina/commits/1271388e03ec9b3f8e055a988aeb4c2e4d2efedf"
+      },
+      "protected": false
+    },
+    {
+      "name": "geant4.11",
+      "commit": {
+        "sha": "02e5a9241322f661c6918f6705cab813c691cd21",
+        "url": "https://api.github.com/repos/rileyle/UCGretina/commits/02e5a9241322f661c6918f6705cab813c691cd21"
+      },
+      "protected": false
+    },
+    {
+      "name": "greta_shell",
+      "commit": {
+        "sha": "a8531bb8dd265095e57f127d842dc90d1d8882c1",
+        "url": "https://api.github.com/repos/rileyle/UCGretina/commits/a8531bb8dd265095e57f127d842dc90d1d8882c1"
+      },
+      "protected": false
+    },
+    {
+      "name": "neutrons",
+      "commit": {
+        "sha": "695beb41be0d2405a3b48f3722b3e51cbd78d0bd",
+        "url": "https://api.github.com/repos/rileyle/UCGretina/commits/695beb41be0d2405a3b48f3722b3e51cbd78d0bd"
+      },
+      "protected": false
+    },
+    {
+      "name": "order",
+      "commit": {
+        "sha": "45aca4286054211e5590d72ec3d56476254f8f0e",
+        "url": "https://api.github.com/repos/rileyle/UCGretina/commits/45aca4286054211e5590d72ec3d56476254f8f0e"
+      },
+      "protected": false
+    },
+    {
+      "name": "passive",
+      "commit": {
+        "sha": "7e1c9205f1e540f0f8c58b2f92710a8b0e2eccac",
+        "url": "https://api.github.com/repos/rileyle/UCGretina/commits/7e1c9205f1e540f0f8c58b2f92710a8b0e2eccac"
+      },
+      "protected": false
+    }
+  ]
+}

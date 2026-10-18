@@ -3,7 +3,7 @@ type: source
 title: "Morse2022：GRETINA偏振标定、跟踪响应与GRETA外推"
 aliases: [Morse 2022 GRETINA polarization sensitivity]
 created: 2026-10-18
-updated: 2026-10-18
+updated: 2026-10-19
 status: ai-draft
 review_status: unreviewed
 source_type: experimental-method-paper
@@ -99,6 +99,8 @@ Table2同一归一下的名义tradeoff：
 `supports`真实source/Compton calibration与cut tradeoff；`limits`把调参分辨率当实测、跨mode裸迁Q、同源回代当独立验证。保持needs_review；本页没有human review或新实验credit。
 
 ## Related Knowledge
+
+- [[ucgretina-2021-polarized-emission-code]]：另行固定的公开代码内核与pureE2反证，不认证本篇exactproducer或全阵列response。
 
 - [[longfellow-2026-gretina-energy-ordering-polarization]]：Eq.(19)所引calibration/模拟曲线的上游来源。
 - [[lauritsen-2025-gamma-angular-formalism-tracking-arrays]]：另有γγ-polarized source/reference和自己的Q定义/角门。

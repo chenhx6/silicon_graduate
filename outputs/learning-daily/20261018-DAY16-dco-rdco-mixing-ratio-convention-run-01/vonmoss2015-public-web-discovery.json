@@ -1,0 +1,80 @@
+{
+  "at": "2026-10-18T15:49:49.799384+00:00",
+  "discovery_only": true,
+  "results": [
+    {
+      "name": "Google",
+      "url": "https://www.google.com/search?q=%22Higher-spin+structures%22+%22VonMoss%22",
+      "error": "HTTPSConnectionPool(host='www.google.com', port=443): Max retries exceeded with url: /search?q=%22Higher-spin+structures%22+%22VonMoss%22 (Caused by NewConnectionError(\"HTTPSConnection(host='www.google.com', port=443): Failed to establish a new connection: [Errno 111] Connection refused\"))"
+    },
+    {
+      "name": "Bing",
+      "url": "https://www.bing.com/search?q=%22Higher-spin+structures%22+%22VonMoss%22",
+      "status": 200,
+      "path": "tmp/day16-vonmoss2015/Bing-search.html",
+      "links": [
+        {
+          "text": "图片",
+          "href": "/images/search?q=%22Higher-spin+structures%22+%22VonMoss%22&FORM=HDRSC2"
+        },
+        {
+          "text": "视频",
+          "href": "/videos/search?q=%22Higher-spin+structures%22+%22VonMoss%22&FORM=HDRSC3"
+        },
+        {
+          "text": "学术",
+          "href": "/academic/search?q=%22Higher-spin+structures%22+%22VonMoss%22&FORM=HDRSC4"
+        },
+        {
+          "text": "词典",
+          "href": "/dict/search?q=%22Higher-spin+structures%22+%22VonMoss%22&FORM=HDRSC6"
+        },
+        {
+          "text": "地图",
+          "href": "/maps?q=%22Higher-spin+structures%22+%22VonMoss%22&FORM=HDRSC7"
+        },
+        {
+          "text": "航班",
+          "href": "/travel/search?q=%22Higher-spin+structures%22+%22VonMoss%22&m=flights&FORM=FBSCOP"
+        },
+        {
+          "text": "2",
+          "href": "/search?q=%22Higher-spin+structures%22+%22VonMoss%22&FPIG=25A6E150A5F24043AF668D1A8DAD3989&first=11&FORM=PERE"
+        },
+        {
+          "text": "3",
+          "href": "/search?q=%22Higher-spin+structures%22+%22VonMoss%22&FPIG=25A6E150A5F24043AF668D1A8DAD3989&first=21&FORM=PERE1"
+        },
+        {
+          "text": "4",
+          "href": "/search?q=%22Higher-spin+structures%22+%22VonMoss%22&FPIG=25A6E150A5F24043AF668D1A8DAD3989&first=31&FORM=PERE2"
+        },
+        {
+          "text": "下一页",
+          "href": "/search?q=%22Higher-spin+structures%22+%22VonMoss%22&FPIG=25A6E150A5F24043AF668D1A8DAD3989&first=11&FORM=PORE"
+        },
+        {
+          "text": "全部",
+          "href": "/search?q=%22Higher-spin+structures%22+%22VonMoss%22&FORM=000017&qpvt=%22Higher-spin+structures%22+%22VonMoss%22"
+        },
+        {
+          "text": "24 小时内",
+          "href": "/search?q=%22Higher-spin+structures%22+%22VonMoss%22&filters=ex1%3a%22ez1%22&FORM=000017"
+        },
+        {
+          "text": "一周内",
+          "href": "/search?q=%22Higher-spin+structures%22+%22VonMoss%22&filters=ex1%3a%22ez2%22&FORM=000017"
+        },
+        {
+          "text": "一个月内",
+          "href": "/search?q=%22Higher-spin+structures%22+%22VonMoss%22&filters=ex1%3a%22ez3%22&FORM=000017"
+        },
+        {
+          "text": "去年",
+          "href": "/search?q=%22Higher-spin+structures%22+%22VonMoss%22&filters=ex1%3a%22ez5_20379_20744%22&FORM=000017"
+        }
+      ],
+      "text": "\"Higher-spin structures\" \"VonMoss\" - 搜索 自适应缩放 跳至内容 辅助功能反馈 国内版 国际版 网页 图片 视频 学术 词典 地图 航班 约 212,000 个结果 在新选项卡中打开链接 时间不限 163.com https://music.163.com › song Higher - Tobu - 单曲 - 网易云音乐 歌曲名《Higher》，由 Tobu 演唱，收录于《Higher》专辑中 iciba.com https://www.iciba.com › word higher 是什么意思_ higher 的翻译_音标_读音_用法_例句_爱 ... 爱词霸权威在线词典,为您提供higher 的中文意思,higher 的用法讲解,higher 的读音,higher 的同义词,higher 的反义词,higher 的例句等 … bilibili.com https://www.bilibili.com › video 【“老实了半辈子才告诉我”】|【 Higher 】_哔哩哔哩_bilibili 2026年9月2日 · 【“老实了半辈子才告诉我”】|【Higher】, 视频播放量 897694、弹幕量 4、点赞数 9630、投硬币枚数 380、收藏人数 … baidu.com https://baike.baidu.com › item › higher higher （英语单词）_百度百科 该词在苏格兰地区特指高级水平教育证书（Scottish Certificate of Education）或其相关范畴。 该词用于描述物理高度或抽象层次的相 … bing.com https://global.bing.com › dict › search Higher - 搜索 词典 必应词典为您提供Higher的释义，美 [ˈhaɪər]，英 [ˈhaɪə (r)]，n. （苏格兰）学生高级证书考试（应试年龄一般在 17 至 18 岁）； 网络 … cambridge.org https://dictionary.cambridge.org › zhs › 词典 › 英语-汉语... HIGHER 中文 (简体)翻译：剑桥词典 - Cambridge Dictionary A greater proportion of people with first degrees are now going on to study for higher degrees. 现在有更多具有学士学位的人继续深造 … higequ.com https://higequ.com › higher higher 歌曲大全 - Hi歌曲音乐网 higher歌曲大全，整理higher相关歌曲、歌手及专辑信息，提供歌曲列表和MP3下载。Hi歌曲音乐网方便查找更多相关音乐作品。 baidu.com https://baike.baidu.com › item › higher higher （2016年蕾哈娜演唱的歌曲）_百度百科 《Higher》是巴巴多斯歌手蕾哈娜演唱的歌曲，由Ernest Dion Wilson、Badriia “Bibi” Bourelly、Robyn Fenty及James Fauntleroy共同 … kugou.com https://www.kugou.com › song Higher _Tobu_高音质在线试听_ Higher 歌词|歌曲下载_酷狗音乐 2026年9月11日 · 酷狗音乐为您提供由Tobu演唱的高清音质无损Highermp3在线听,听Higher,只来酷狗音乐! koolearn.com https://www.koolearn.com › dict higher 是什么意思_ higher 怎么读_ higher 翻译_用法_发音_词组 ... higher是什么意思？ higher怎么读？ 新东方在线字典为用户提供单词higher的释义、higher的音标和发音、higher的用法、例句、词组 … 为回应符合本地法律要求的通知，部分搜索结果未予显示。有关详细信息，请参阅 此处 。 分页 1 2 3 4 下一页 © 2026 Microsoft 增值电信业务经营许可证：合字B2-20090007 京ICP备10036305号-7 京公网安备11010802047360号 隐私声明和 Cookie 法律声明 广告 帮助 反馈 全部 24 小时内 一周内 一个月内 去年"
+    }
+  ]
+}

@@ -2,12 +2,14 @@
 type: system-index
 graph-excluded: true
 created: 2026-07-01
-updated: 2026-10-18
+updated: 2026-10-19
 ---
 
 # Wiki Index
 
 ## Sources
+
+- [[ucgretina-2021-polarized-emission-code]] - 固定公开tensor→Stokes内核与实际编译：pureE2控制、mixed/高rank的零CG比值边界；不代原阵列response。
 
 - [[nndc-2025-a25-mixing-reference-records]] - Na1041能级身份、2009/2025 Mg混合比和相位谱系；XUNDL的POL/靶厚度/字段标记边界。
 

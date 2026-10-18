@@ -1,0 +1,31 @@
+{
+  "at": "2026-10-18T15:52:09.257488+00:00",
+  "url": "https://www.physics.fsu.edu/people",
+  "status": 200,
+  "links": [
+    {
+      "text": "",
+      "href": "/person/samuel-tabor"
+    },
+    {
+      "text": "Samuel Tabor",
+      "href": "/person/samuel-tabor"
+    },
+    {
+      "text": "stabor@fsu.edu",
+      "href": "mailto:stabor@fsu.edu"
+    },
+    {
+      "text": "",
+      "href": "/person/alexander-volya"
+    },
+    {
+      "text": "Alexander Volya",
+      "href": "/person/alexander-volya"
+    },
+    {
+      "text": "avolya@fsu.edu",
+      "href": "mailto:avolya@fsu.edu"
+    }
+  ]
+}

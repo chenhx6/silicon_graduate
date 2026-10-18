@@ -1,0 +1,2840 @@
+{
+  "identity": "UCGRETINA-STOKES-LITERAL-CORE-AUDIT-01",
+  "input_sha256": "89f7ec8bef91ec6dd2418a2f5f0baab13f7918a57be3c94cd34e607462593a48",
+  "script_sha256": "818eabd499a70b6c921904c23efe534a54c1ea7cd7516a665486b0549be5e695",
+  "build": {
+    "command": [
+      "g++",
+      "-O0",
+      "-fno-fast-math",
+      "-fPIC",
+      "-shared",
+      "-DG4VIS_USE_OPENGL",
+      "-DG4UI_USE_TCSH",
+      "-DG4VIS_USE_OPENGLX",
+      "-DG4VIS_USE_TOOLSSG_X11_GLES",
+      "-W",
+      "-Wall",
+      "-pedantic",
+      "-Wno-non-virtual-dtor",
+      "-Wno-long-long",
+      "-Wwrite-strings",
+      "-Wpointer-arith",
+      "-Woverloaded-virtual",
+      "-Wno-variadic-macros",
+      "-Wshadow",
+      "-pipe",
+      "-pthread",
+      "-ftls-model=initial-exec",
+      "-std=c++17",
+      "-I/opt/geant4/11.4.2/include/Geant4",
+      "tmp/day16-ucgretina/build-core-v2/literal-stokes.cc",
+      "-o",
+      "tmp/day16-ucgretina/build-core-v2/literal-stokes.so",
+      "-L/opt/geant4/11.4.2/lib",
+      "-lG4OpenGL",
+      "-lG4Tree",
+      "-lG4FR",
+      "-lG4GMocren",
+      "-lG4RayTracer",
+      "-lG4VRML",
+      "-lG4ToolsSG",
+      "-lG4vis_management",
+      "-lG4modeling",
+      "-lG4gdml",
+      "-lG4interfaces",
+      "-lG4geomtext",
+      "-lG4mctruth",
+      "-lG4analysis",
+      "-lG4error_propagation",
+      "-lG4readout",
+      "-lG4physicslists",
+      "-lG4run",
+      "-lG4event",
+      "-lG4tracking",
+      "-lG4parmodels",
+      "-lG4processes_hadronic",
+      "-lG4processes_core",
+      "-lG4digits_hits",
+      "-lG4track",
+      "-lG4particles",
+      "-lG4geometry",
+      "-lG4materials",
+      "-lG4graphics_reps",
+      "-lG4intercoms",
+      "-lG4global",
+      "-lG4clhep",
+      "-lG4ptl",
+      "-Wl,-rpath,/opt/geant4/11.4.2/lib"
+    ],
+    "exit_code": 0,
+    "stdout": "",
+    "stderr": "",
+    "sdk_version": "11.4.2",
+    "literal_stokes_body_sha256": "cc15968679ec3960a5151cc19a1ef9bacad07fabef52a823b672d7289a9711b5",
+    "body_start_line": 135,
+    "body_end_line": 272,
+    "old_utility_functions_sha256": "a6ea08c1c2393ea4397d2d2b1557f3c57c893dab2f8c5f40884a880b07fa8d07",
+    "old_function_adaptation": "class names only; compiled against installed G4Pow/Exp/Log math services",
+    "full_Geant4_event_run": false
+  },
+  "generated_cpp_sha256": "69ae3f06ea313b2b47ffb7b18d2a5112bea149e239d90e9d0914896f6acd05bd",
+  "binary_sha256": "d82a858753cd02fbfcffafd0b0c9c534e38728ed4d68a72f4ee2bb7162f0a17e",
+  "max_CG_oracle_error": 9.992007221626409e-16,
+  "case_summary": {
+    "M22-E2-control": {
+      "calls": 24,
+      "finite_calls": 24,
+      "nonfinite_calls": 0,
+      "all_norms_finite_and_positive": true
+    },
+    "spin1-pureM1-control": {
+      "calls": 24,
+      "finite_calls": 24,
+      "nonfinite_calls": 0,
+      "all_norms_finite_and_positive": true
+    },
+    "spin2-pureM1-highrank": {
+      "calls": 24,
+      "finite_calls": 0,
+      "nonfinite_calls": 24,
+      "all_norms_finite_and_positive": true
+    },
+    "spin1-mixedM1E2": {
+      "calls": 24,
+      "finite_calls": 0,
+      "nonfinite_calls": 24,
+      "all_norms_finite_and_positive": true
+    },
+    "spin1-mixedlabel-delta0": {
+      "calls": 24,
+      "finite_calls": 0,
+      "nonfinite_calls": 24,
+      "all_norms_finite_and_positive": true
+    },
+    "Na1041-RB-branches-mapped-to-native": {
+      "calls": 48,
+      "finite_calls": 0,
+      "nonfinite_calls": 48,
+      "all_norms_finite_and_positive": true
+    }
+  },
+  "rows": [
+    {
+      "case": "M22-E2-control",
+      "helper": "old",
+      "delta": 0.0,
+      "theta_deg": 23.4,
+      "phi_rad": 0.0,
+      "Stokes": [
+        0.22528029700294494,
+        -0.0,
+        0.0
+      ],
+      "nonfinite_components": [],
+      "norm": 2.6092747083807057
+    },
+    {
+      "case": "M22-E2-control",
+      "helper": "old",
+      "delta": 0.0,
+      "theta_deg": 23.4,
+      "phi_rad": 0.37,
+      "Stokes": [
+        0.22528029700294494,
+        -0.0,
+        0.0
+      ],
+      "nonfinite_components": [],
+      "norm": 2.6092747083807057
+    },
+    {
+      "case": "M22-E2-control",
+      "helper": "old",
+      "delta": 0.0,
+      "theta_deg": 23.4,
+      "phi_rad": 1.17,
+      "Stokes": [
+        0.22528029700294494,
+        -0.0,
+        0.0
+      ],
+      "nonfinite_components": [],
+      "norm": 2.6092747083807057
+    },
+    {
+      "case": "M22-E2-control",
+      "helper": "old",
+      "delta": 0.0,
+      "theta_deg": 45,
+      "phi_rad": 0.0,
+      "Stokes": [
+        0.5294117647058816,
+        -0.0,
+        0.0
+      ],
+      "nonfinite_components": [],
+      "norm": 2.549999999999999
+    },
+    {
+      "case": "M22-E2-control",
+      "helper": "old",
+      "delta": 0.0,
+      "theta_deg": 45,
+      "phi_rad": 0.37,
+      "Stokes": [
+        0.5294117647058816,
+        -0.0,
+        0.0
+      ],
+      "nonfinite_components": [],
+      "norm": 2.549999999999999
+    },
+    {
+      "case": "M22-E2-control",
+      "helper": "old",
+      "delta": 0.0,
+      "theta_deg": 45,
+      "phi_rad": 1.17,
+      "Stokes": [
+        0.5294117647058816,
+        -0.0,
+        0.0
+      ],
+      "nonfinite_components": [],
+      "norm": 2.549999999999999
+    },
+    {
+      "case": "M22-E2-control",
+      "helper": "old",
+      "delta": 0.0,
+      "theta_deg": 90,
+      "phi_rad": 0.0,
+      "Stokes": [
+        0.9999999999999989,
+        -0.0,
+        0.0
+      ],
+      "nonfinite_components": [],
+      "norm": 1.2000000000000015
+    },
+    {
+      "case": "M22-E2-control",
+      "helper": "old",
+      "delta": 0.0,
+      "theta_deg": 90,
+      "phi_rad": 0.37,
+      "Stokes": [
+        0.9999999999999989,
+        -0.0,
+        0.0
+      ],
+      "nonfinite_components": [],
+      "norm": 1.2000000000000015
+    },
+    {
+      "case": "M22-E2-control",
+      "helper": "old",
+      "delta": 0.0,
+      "theta_deg": 90,
+      "phi_rad": 1.17,
+      "Stokes": [
+        0.9999999999999989,
+        -0.0,
+        0.0
+      ],
+      "nonfinite_components": [],
+      "norm": 1.2000000000000015
+    },
+    {
+      "case": "M22-E2-control",
+      "helper": "old",
+      "delta": 0.0,
+      "theta_deg": 131.4,
+      "phi_rad": 0.0,
+      "Stokes": [
+        0.5738562194330628,
+        -0.0,
+        0.0
+      ],
+      "nonfinite_components": [],
+      "norm": 2.4630187452846535
+    },
+    {
+      "case": "M22-E2-control",
+      "helper": "old",
+      "delta": 0.0,
+      "theta_deg": 131.4,
+      "phi_rad": 0.37,
+      "Stokes": [
+        0.5738562194330628,
+        -0.0,
+        0.0
+      ],
+      "nonfinite_components": [],
+      "norm": 2.4630187452846535
+    },
+    {
+      "case": "M22-E2-control",
+      "helper": "old",
+      "delta": 0.0,
+      "theta_deg": 131.4,
+      "phi_rad": 1.17,
+      "Stokes": [
+        0.5738562194330628,
+        -0.0,
+        0.0
+      ],
+      "nonfinite_components": [],
+      "norm": 2.4630187452846535
+    },
+    {
+      "case": "M22-E2-control",
+      "helper": "sdk",
+      "delta": 0.0,
+      "theta_deg": 23.4,
+      "phi_rad": 0.0,
+      "Stokes": [
+        0.22528029700294494,
+        -0.0,
+        0.0
+      ],
+      "nonfinite_components": [],
+      "norm": 2.6092747083807057
+    },
+    {
+      "case": "M22-E2-control",
+      "helper": "sdk",
+      "delta": 0.0,
+      "theta_deg": 23.4,
+      "phi_rad": 0.37,
+      "Stokes": [
+        0.22528029700294494,
+        -0.0,
+        0.0
+      ],
+      "nonfinite_components": [],
+      "norm": 2.6092747083807057
+    },
+    {
+      "case": "M22-E2-control",
+      "helper": "sdk",
+      "delta": 0.0,
+      "theta_deg": 23.4,
+      "phi_rad": 1.17,
+      "Stokes": [
+        0.22528029700294494,
+        -0.0,
+        0.0
+      ],
+      "nonfinite_components": [],
+      "norm": 2.6092747083807057
+    },
+    {
+      "case": "M22-E2-control",
+      "helper": "sdk",
+      "delta": 0.0,
+      "theta_deg": 45,
+      "phi_rad": 0.0,
+      "Stokes": [
+        0.5294117647058816,
+        -0.0,
+        0.0
+      ],
+      "nonfinite_components": [],
+      "norm": 2.549999999999999
+    },
+    {
+      "case": "M22-E2-control",
+      "helper": "sdk",
+      "delta": 0.0,
+      "theta_deg": 45,
+      "phi_rad": 0.37,
+      "Stokes": [
+        0.5294117647058816,
+        -0.0,
+        0.0
+      ],
+      "nonfinite_components": [],
+      "norm": 2.549999999999999
+    },
+    {
+      "case": "M22-E2-control",
+      "helper": "sdk",
+      "delta": 0.0,
+      "theta_deg": 45,
+      "phi_rad": 1.17,
+      "Stokes": [
+        0.5294117647058816,
+        -0.0,
+        0.0
+      ],
+      "nonfinite_components": [],
+      "norm": 2.549999999999999
+    },
+    {
+      "case": "M22-E2-control",
+      "helper": "sdk",
+      "delta": 0.0,
+      "theta_deg": 90,
+      "phi_rad": 0.0,
+      "Stokes": [
+        0.9999999999999989,
+        -0.0,
+        0.0
+      ],
+      "nonfinite_components": [],
+      "norm": 1.2000000000000015
+    },
+    {
+      "case": "M22-E2-control",
+      "helper": "sdk",
+      "delta": 0.0,
+      "theta_deg": 90,
+      "phi_rad": 0.37,
+      "Stokes": [
+        0.9999999999999989,
+        -0.0,
+        0.0
+      ],
+      "nonfinite_components": [],
+      "norm": 1.2000000000000015
+    },
+    {
+      "case": "M22-E2-control",
+      "helper": "sdk",
+      "delta": 0.0,
+      "theta_deg": 90,
+      "phi_rad": 1.17,
+      "Stokes": [
+        0.9999999999999989,
+        -0.0,
+        0.0
+      ],
+      "nonfinite_components": [],
+      "norm": 1.2000000000000015
+    },
+    {
+      "case": "M22-E2-control",
+      "helper": "sdk",
+      "delta": 0.0,
+      "theta_deg": 131.4,
+      "phi_rad": 0.0,
+      "Stokes": [
+        0.5738562194330628,
+        -0.0,
+        0.0
+      ],
+      "nonfinite_components": [],
+      "norm": 2.4630187452846535
+    },
+    {
+      "case": "M22-E2-control",
+      "helper": "sdk",
+      "delta": 0.0,
+      "theta_deg": 131.4,
+      "phi_rad": 0.37,
+      "Stokes": [
+        0.5738562194330628,
+        -0.0,
+        0.0
+      ],
+      "nonfinite_components": [],
+      "norm": 2.4630187452846535
+    },
+    {
+      "case": "M22-E2-control",
+      "helper": "sdk",
+      "delta": 0.0,
+      "theta_deg": 131.4,
+      "phi_rad": 1.17,
+      "Stokes": [
+        0.5738562194330628,
+        -0.0,
+        0.0
+      ],
+      "nonfinite_components": [],
+      "norm": 2.4630187452846535
+    },
+    {
+      "case": "spin1-pureM1-control",
+      "helper": "old",
+      "delta": 0.0,
+      "theta_deg": 23.4,
+      "phi_rad": 0.0,
+      "Stokes": [
+        -0.35568777378103117,
+        0.0,
+        0.0
+      ],
+      "nonfinite_components": [],
+      "norm": 0.931225538774876
+    },
+    {
+      "case": "spin1-pureM1-control",
+      "helper": "old",
+      "delta": 0.0,
+      "theta_deg": 23.4,
+      "phi_rad": 0.37,
+      "Stokes": [
+        -0.35568777378103117,
+        0.0,
+        0.0
+      ],
+      "nonfinite_components": [],
+      "norm": 0.931225538774876
+    },
+    {
+      "case": "spin1-pureM1-control",
+      "helper": "old",
+      "delta": 0.0,
+      "theta_deg": 23.4,
+      "phi_rad": 1.17,
+      "Stokes": [
+        -0.35568777378103117,
+        0.0,
+        0.0
+      ],
+      "nonfinite_components": [],
+      "norm": 0.931225538774876
+    },
+    {
+      "case": "spin1-pureM1-control",
+      "helper": "old",
+      "delta": 0.0,
+      "theta_deg": 45,
+      "phi_rad": 0.0,
+      "Stokes": [
+        -0.636363636363637,
+        0.0,
+        0.0
+      ],
+      "nonfinite_components": [],
+      "norm": 1.6499999999999995
+    },
+    {
+      "case": "spin1-pureM1-control",
+      "helper": "old",
+      "delta": 0.0,
+      "theta_deg": 45,
+      "phi_rad": 0.37,
+      "Stokes": [
+        -0.636363636363637,
+        0.0,
+        0.0
+      ],
+      "nonfinite_components": [],
+      "norm": 1.6499999999999995
+    },
+    {
+      "case": "spin1-pureM1-control",
+      "helper": "old",
+      "delta": 0.0,
+      "theta_deg": 45,
+      "phi_rad": 1.17,
+      "Stokes": [
+        -0.636363636363637,
+        0.0,
+        0.0
+      ],
+      "nonfinite_components": [],
+      "norm": 1.6499999999999995
+    },
+    {
+      "case": "spin1-pureM1-control",
+      "helper": "old",
+      "delta": 0.0,
+      "theta_deg": 90,
+      "phi_rad": 0.0,
+      "Stokes": [
+        -0.7777777777777785,
+        0.0,
+        0.0
+      ],
+      "nonfinite_components": [],
+      "norm": 2.7
+    },
+    {
+      "case": "spin1-pureM1-control",
+      "helper": "old",
+      "delta": 0.0,
+      "theta_deg": 90,
+      "phi_rad": 0.37,
+      "Stokes": [
+        -0.7777777777777785,
+        0.0,
+        0.0
+      ],
+      "nonfinite_components": [],
+      "norm": 2.7
+    },
+    {
+      "case": "spin1-pureM1-control",
+      "helper": "old",
+      "delta": 0.0,
+      "theta_deg": 90,
+      "phi_rad": 1.17,
+      "Stokes": [
+        -0.7777777777777785,
+        0.0,
+        0.0
+      ],
+      "nonfinite_components": [],
+      "norm": 2.7
+    },
+    {
+      "case": "spin1-pureM1-control",
+      "helper": "old",
+      "delta": 0.0,
+      "theta_deg": 131.4,
+      "phi_rad": 0.0,
+      "Stokes": [
+        -0.6632240484509434,
+        0.0,
+        0.0
+      ],
+      "nonfinite_components": [],
+      "norm": 1.7815998952425185
+    },
+    {
+      "case": "spin1-pureM1-control",
+      "helper": "old",
+      "delta": 0.0,
+      "theta_deg": 131.4,
+      "phi_rad": 0.37,
+      "Stokes": [
+        -0.6632240484509434,
+        0.0,
+        0.0
+      ],
+      "nonfinite_components": [],
+      "norm": 1.7815998952425185
+    },
+    {
+      "case": "spin1-pureM1-control",
+      "helper": "old",
+      "delta": 0.0,
+      "theta_deg": 131.4,
+      "phi_rad": 1.17,
+      "Stokes": [
+        -0.6632240484509434,
+        0.0,
+        0.0
+      ],
+      "nonfinite_components": [],
+      "norm": 1.7815998952425185
+    },
+    {
+      "case": "spin1-pureM1-control",
+      "helper": "sdk",
+      "delta": 0.0,
+      "theta_deg": 23.4,
+      "phi_rad": 0.0,
+      "Stokes": [
+        -0.35568777378103117,
+        0.0,
+        0.0
+      ],
+      "nonfinite_components": [],
+      "norm": 0.931225538774876
+    },
+    {
+      "case": "spin1-pureM1-control",
+      "helper": "sdk",
+      "delta": 0.0,
+      "theta_deg": 23.4,
+      "phi_rad": 0.37,
+      "Stokes": [
+        -0.35568777378103117,
+        0.0,
+        0.0
+      ],
+      "nonfinite_components": [],
+      "norm": 0.931225538774876
+    },
+    {
+      "case": "spin1-pureM1-control",
+      "helper": "sdk",
+      "delta": 0.0,
+      "theta_deg": 23.4,
+      "phi_rad": 1.17,
+      "Stokes": [
+        -0.35568777378103117,
+        0.0,
+        0.0
+      ],
+      "nonfinite_components": [],
+      "norm": 0.931225538774876
+    },
+    {
+      "case": "spin1-pureM1-control",
+      "helper": "sdk",
+      "delta": 0.0,
+      "theta_deg": 45,
+      "phi_rad": 0.0,
+      "Stokes": [
+        -0.636363636363637,
+        0.0,
+        0.0
+      ],
+      "nonfinite_components": [],
+      "norm": 1.6499999999999995
+    },
+    {
+      "case": "spin1-pureM1-control",
+      "helper": "sdk",
+      "delta": 0.0,
+      "theta_deg": 45,
+      "phi_rad": 0.37,
+      "Stokes": [
+        -0.636363636363637,
+        0.0,
+        0.0
+      ],
+      "nonfinite_components": [],
+      "norm": 1.6499999999999995
+    },
+    {
+      "case": "spin1-pureM1-control",
+      "helper": "sdk",
+      "delta": 0.0,
+      "theta_deg": 45,
+      "phi_rad": 1.17,
+      "Stokes": [
+        -0.636363636363637,
+        0.0,
+        0.0
+      ],
+      "nonfinite_components": [],
+      "norm": 1.6499999999999995
+    },
+    {
+      "case": "spin1-pureM1-control",
+      "helper": "sdk",
+      "delta": 0.0,
+      "theta_deg": 90,
+      "phi_rad": 0.0,
+      "Stokes": [
+        -0.7777777777777785,
+        0.0,
+        0.0
+      ],
+      "nonfinite_components": [],
+      "norm": 2.7
+    },
+    {
+      "case": "spin1-pureM1-control",
+      "helper": "sdk",
+      "delta": 0.0,
+      "theta_deg": 90,
+      "phi_rad": 0.37,
+      "Stokes": [
+        -0.7777777777777785,
+        0.0,
+        0.0
+      ],
+      "nonfinite_components": [],
+      "norm": 2.7
+    },
+    {
+      "case": "spin1-pureM1-control",
+      "helper": "sdk",
+      "delta": 0.0,
+      "theta_deg": 90,
+      "phi_rad": 1.17,
+      "Stokes": [
+        -0.7777777777777785,
+        0.0,
+        0.0
+      ],
+      "nonfinite_components": [],
+      "norm": 2.7
+    },
+    {
+      "case": "spin1-pureM1-control",
+      "helper": "sdk",
+      "delta": 0.0,
+      "theta_deg": 131.4,
+      "phi_rad": 0.0,
+      "Stokes": [
+        -0.6632240484509434,
+        0.0,
+        0.0
+      ],
+      "nonfinite_components": [],
+      "norm": 1.7815998952425185
+    },
+    {
+      "case": "spin1-pureM1-control",
+      "helper": "sdk",
+      "delta": 0.0,
+      "theta_deg": 131.4,
+      "phi_rad": 0.37,
+      "Stokes": [
+        -0.6632240484509434,
+        0.0,
+        0.0
+      ],
+      "nonfinite_components": [],
+      "norm": 1.7815998952425185
+    },
+    {
+      "case": "spin1-pureM1-control",
+      "helper": "sdk",
+      "delta": 0.0,
+      "theta_deg": 131.4,
+      "phi_rad": 1.17,
+      "Stokes": [
+        -0.6632240484509434,
+        0.0,
+        0.0
+      ],
+      "nonfinite_components": [],
+      "norm": 1.7815998952425185
+    },
+    {
+      "case": "spin2-pureM1-highrank",
+      "helper": "old",
+      "delta": 0.0,
+      "theta_deg": 23.4,
+      "phi_rad": 0.0,
+      "Stokes": [
+        null,
+        null,
+        0.0
+      ],
+      "nonfinite_components": [
+        1,
+        2
+      ],
+      "norm": 1.5419538023320902
+    },
+    {
+      "case": "spin2-pureM1-highrank",
+      "helper": "old",
+      "delta": 0.0,
+      "theta_deg": 23.4,
+      "phi_rad": 0.37,
+      "Stokes": [
+        null,
+        null,
+        0.0
+      ],
+      "nonfinite_components": [
+        1,
+        2
+      ],
+      "norm": 1.5419538023320902
+    },
+    {
+      "case": "spin2-pureM1-highrank",
+      "helper": "old",
+      "delta": 0.0,
+      "theta_deg": 23.4,
+      "phi_rad": 1.17,
+      "Stokes": [
+        null,
+        null,
+        0.0
+      ],
+      "nonfinite_components": [
+        1,
+        2
+      ],
+      "norm": 1.5419538023320902
+    },
+    {
+      "case": "spin2-pureM1-highrank",
+      "helper": "old",
+      "delta": 0.0,
+      "theta_deg": 45,
+      "phi_rad": 0.0,
+      "Stokes": [
+        null,
+        null,
+        0.0
+      ],
+      "nonfinite_components": [
+        1,
+        2
+      ],
+      "norm": 1.8499999999999999
+    },
+    {
+      "case": "spin2-pureM1-highrank",
+      "helper": "old",
+      "delta": 0.0,
+      "theta_deg": 45,
+      "phi_rad": 0.37,
+      "Stokes": [
+        null,
+        null,
+        0.0
+      ],
+      "nonfinite_components": [
+        1,
+        2
+      ],
+      "norm": 1.8499999999999999
+    },
+    {
+      "case": "spin2-pureM1-highrank",
+      "helper": "old",
+      "delta": 0.0,
+      "theta_deg": 45,
+      "phi_rad": 1.17,
+      "Stokes": [
+        null,
+        null,
+        0.0
+      ],
+      "nonfinite_components": [
+        1,
+        2
+      ],
+      "norm": 1.8499999999999999
+    },
+    {
+      "case": "spin2-pureM1-highrank",
+      "helper": "old",
+      "delta": 0.0,
+      "theta_deg": 90,
+      "phi_rad": 0.0,
+      "Stokes": [
+        null,
+        null,
+        0.0
+      ],
+      "nonfinite_components": [
+        1,
+        2
+      ],
+      "norm": 2.2999999999999994
+    },
+    {
+      "case": "spin2-pureM1-highrank",
+      "helper": "old",
+      "delta": 0.0,
+      "theta_deg": 90,
+      "phi_rad": 0.37,
+      "Stokes": [
+        null,
+        null,
+        0.0
+      ],
+      "nonfinite_components": [
+        1,
+        2
+      ],
+      "norm": 2.2999999999999994
+    },
+    {
+      "case": "spin2-pureM1-highrank",
+      "helper": "old",
+      "delta": 0.0,
+      "theta_deg": 90,
+      "phi_rad": 1.17,
+      "Stokes": [
+        null,
+        null,
+        0.0
+      ],
+      "nonfinite_components": [
+        1,
+        2
+      ],
+      "norm": 2.2999999999999994
+    },
+    {
+      "case": "spin2-pureM1-highrank",
+      "helper": "old",
+      "delta": 0.0,
+      "theta_deg": 131.4,
+      "phi_rad": 0.0,
+      "Stokes": [
+        null,
+        null,
+        0.0
+      ],
+      "nonfinite_components": [
+        1,
+        2
+      ],
+      "norm": 1.9063999551039366
+    },
+    {
+      "case": "spin2-pureM1-highrank",
+      "helper": "old",
+      "delta": 0.0,
+      "theta_deg": 131.4,
+      "phi_rad": 0.37,
+      "Stokes": [
+        null,
+        null,
+        0.0
+      ],
+      "nonfinite_components": [
+        1,
+        2
+      ],
+      "norm": 1.9063999551039366
+    },
+    {
+      "case": "spin2-pureM1-highrank",
+      "helper": "old",
+      "delta": 0.0,
+      "theta_deg": 131.4,
+      "phi_rad": 1.17,
+      "Stokes": [
+        null,
+        null,
+        0.0
+      ],
+      "nonfinite_components": [
+        1,
+        2
+      ],
+      "norm": 1.9063999551039366
+    },
+    {
+      "case": "spin2-pureM1-highrank",
+      "helper": "sdk",
+      "delta": 0.0,
+      "theta_deg": 23.4,
+      "phi_rad": 0.0,
+      "Stokes": [
+        null,
+        null,
+        0.0
+      ],
+      "nonfinite_components": [
+        1,
+        2
+      ],
+      "norm": 1.5419538023320902
+    },
+    {
+      "case": "spin2-pureM1-highrank",
+      "helper": "sdk",
+      "delta": 0.0,
+      "theta_deg": 23.4,
+      "phi_rad": 0.37,
+      "Stokes": [
+        null,
+        null,
+        0.0
+      ],
+      "nonfinite_components": [
+        1,
+        2
+      ],
+      "norm": 1.5419538023320902
+    },
+    {
+      "case": "spin2-pureM1-highrank",
+      "helper": "sdk",
+      "delta": 0.0,
+      "theta_deg": 23.4,
+      "phi_rad": 1.17,
+      "Stokes": [
+        null,
+        null,
+        0.0
+      ],
+      "nonfinite_components": [
+        1,
+        2
+      ],
+      "norm": 1.5419538023320902
+    },
+    {
+      "case": "spin2-pureM1-highrank",
+      "helper": "sdk",
+      "delta": 0.0,
+      "theta_deg": 45,
+      "phi_rad": 0.0,
+      "Stokes": [
+        null,
+        null,
+        0.0
+      ],
+      "nonfinite_components": [
+        1,
+        2
+      ],
+      "norm": 1.8499999999999999
+    },
+    {
+      "case": "spin2-pureM1-highrank",
+      "helper": "sdk",
+      "delta": 0.0,
+      "theta_deg": 45,
+      "phi_rad": 0.37,
+      "Stokes": [
+        null,
+        null,
+        0.0
+      ],
+      "nonfinite_components": [
+        1,
+        2
+      ],
+      "norm": 1.8499999999999999
+    },
+    {
+      "case": "spin2-pureM1-highrank",
+      "helper": "sdk",
+      "delta": 0.0,
+      "theta_deg": 45,
+      "phi_rad": 1.17,
+      "Stokes": [
+        null,
+        null,
+        0.0
+      ],
+      "nonfinite_components": [
+        1,
+        2
+      ],
+      "norm": 1.8499999999999999
+    },
+    {
+      "case": "spin2-pureM1-highrank",
+      "helper": "sdk",
+      "delta": 0.0,
+      "theta_deg": 90,
+      "phi_rad": 0.0,
+      "Stokes": [
+        null,
+        null,
+        0.0
+      ],
+      "nonfinite_components": [
+        1,
+        2
+      ],
+      "norm": 2.2999999999999994
+    },
+    {
+      "case": "spin2-pureM1-highrank",
+      "helper": "sdk",
+      "delta": 0.0,
+      "theta_deg": 90,
+      "phi_rad": 0.37,
+      "Stokes": [
+        null,
+        null,
+        0.0
+      ],
+      "nonfinite_components": [
+        1,
+        2
+      ],
+      "norm": 2.2999999999999994
+    },
+    {
+      "case": "spin2-pureM1-highrank",
+      "helper": "sdk",
+      "delta": 0.0,
+      "theta_deg": 90,
+      "phi_rad": 1.17,
+      "Stokes": [
+        null,
+        null,
+        0.0
+      ],
+      "nonfinite_components": [
+        1,
+        2
+      ],
+      "norm": 2.2999999999999994
+    },
+    {
+      "case": "spin2-pureM1-highrank",
+      "helper": "sdk",
+      "delta": 0.0,
+      "theta_deg": 131.4,
+      "phi_rad": 0.0,
+      "Stokes": [
+        null,
+        null,
+        0.0
+      ],
+      "nonfinite_components": [
+        1,
+        2
+      ],
+      "norm": 1.9063999551039366
+    },
+    {
+      "case": "spin2-pureM1-highrank",
+      "helper": "sdk",
+      "delta": 0.0,
+      "theta_deg": 131.4,
+      "phi_rad": 0.37,
+      "Stokes": [
+        null,
+        null,
+        0.0
+      ],
+      "nonfinite_components": [
+        1,
+        2
+      ],
+      "norm": 1.9063999551039366
+    },
+    {
+      "case": "spin2-pureM1-highrank",
+      "helper": "sdk",
+      "delta": 0.0,
+      "theta_deg": 131.4,
+      "phi_rad": 1.17,
+      "Stokes": [
+        null,
+        null,
+        0.0
+      ],
+      "nonfinite_components": [
+        1,
+        2
+      ],
+      "norm": 1.9063999551039366
+    },
+    {
+      "case": "spin1-mixedM1E2",
+      "helper": "old",
+      "delta": 0.2,
+      "theta_deg": 23.4,
+      "phi_rad": 0.0,
+      "Stokes": [
+        null,
+        null,
+        0.0
+      ],
+      "nonfinite_components": [
+        1,
+        2
+      ],
+      "norm": 3.277027396572139
+    },
+    {
+      "case": "spin1-mixedM1E2",
+      "helper": "old",
+      "delta": 0.2,
+      "theta_deg": 23.4,
+      "phi_rad": 0.37,
+      "Stokes": [
+        null,
+        null,
+        0.0
+      ],
+      "nonfinite_components": [
+        1,
+        2
+      ],
+      "norm": 3.277027396572139
+    },
+    {
+      "case": "spin1-mixedM1E2",
+      "helper": "old",
+      "delta": 0.2,
+      "theta_deg": 23.4,
+      "phi_rad": 1.17,
+      "Stokes": [
+        null,
+        null,
+        0.0
+      ],
+      "nonfinite_components": [
+        1,
+        2
+      ],
+      "norm": 3.277027396572139
+    },
+    {
+      "case": "spin1-mixedM1E2",
+      "helper": "old",
+      "delta": 0.2,
+      "theta_deg": 45,
+      "phi_rad": 0.0,
+      "Stokes": [
+        null,
+        null,
+        0.0
+      ],
+      "nonfinite_components": [
+        1,
+        2
+      ],
+      "norm": 2.4720000000000004
+    },
+    {
+      "case": "spin1-mixedM1E2",
+      "helper": "old",
+      "delta": 0.2,
+      "theta_deg": 45,
+      "phi_rad": 0.37,
+      "Stokes": [
+        null,
+        null,
+        0.0
+      ],
+      "nonfinite_components": [
+        1,
+        2
+      ],
+      "norm": 2.4720000000000004
+    },
+    {
+      "case": "spin1-mixedM1E2",
+      "helper": "old",
+      "delta": 0.2,
+      "theta_deg": 45,
+      "phi_rad": 1.17,
+      "Stokes": [
+        null,
+        null,
+        0.0
+      ],
+      "nonfinite_components": [
+        1,
+        2
+      ],
+      "norm": 2.4720000000000004
+    },
+    {
+      "case": "spin1-mixedM1E2",
+      "helper": "old",
+      "delta": 0.2,
+      "theta_deg": 90,
+      "phi_rad": 0.0,
+      "Stokes": [
+        null,
+        null,
+        0.0
+      ],
+      "nonfinite_components": [
+        1,
+        2
+      ],
+      "norm": 1.295999999999999
+    },
+    {
+      "case": "spin1-mixedM1E2",
+      "helper": "old",
+      "delta": 0.2,
+      "theta_deg": 90,
+      "phi_rad": 0.37,
+      "Stokes": [
+        null,
+        null,
+        0.0
+      ],
+      "nonfinite_components": [
+        1,
+        2
+      ],
+      "norm": 1.295999999999999
+    },
+    {
+      "case": "spin1-mixedM1E2",
+      "helper": "old",
+      "delta": 0.2,
+      "theta_deg": 90,
+      "phi_rad": 1.17,
+      "Stokes": [
+        null,
+        null,
+        0.0
+      ],
+      "nonfinite_components": [
+        1,
+        2
+      ],
+      "norm": 1.295999999999999
+    },
+    {
+      "case": "spin1-mixedM1E2",
+      "helper": "old",
+      "delta": 0.2,
+      "theta_deg": 131.4,
+      "phi_rad": 0.0,
+      "Stokes": [
+        null,
+        null,
+        0.0
+      ],
+      "nonfinite_components": [
+        1,
+        2
+      ],
+      "norm": 2.3246081173283786
+    },
+    {
+      "case": "spin1-mixedM1E2",
+      "helper": "old",
+      "delta": 0.2,
+      "theta_deg": 131.4,
+      "phi_rad": 0.37,
+      "Stokes": [
+        null,
+        null,
+        0.0
+      ],
+      "nonfinite_components": [
+        1,
+        2
+      ],
+      "norm": 2.3246081173283786
+    },
+    {
+      "case": "spin1-mixedM1E2",
+      "helper": "old",
+      "delta": 0.2,
+      "theta_deg": 131.4,
+      "phi_rad": 1.17,
+      "Stokes": [
+        null,
+        null,
+        0.0
+      ],
+      "nonfinite_components": [
+        1,
+        2
+      ],
+      "norm": 2.3246081173283786
+    },
+    {
+      "case": "spin1-mixedM1E2",
+      "helper": "sdk",
+      "delta": 0.2,
+      "theta_deg": 23.4,
+      "phi_rad": 0.0,
+      "Stokes": [
+        null,
+        null,
+        0.0
+      ],
+      "nonfinite_components": [
+        1,
+        2
+      ],
+      "norm": 3.277027396572139
+    },
+    {
+      "case": "spin1-mixedM1E2",
+      "helper": "sdk",
+      "delta": 0.2,
+      "theta_deg": 23.4,
+      "phi_rad": 0.37,
+      "Stokes": [
+        null,
+        null,
+        0.0
+      ],
+      "nonfinite_components": [
+        1,
+        2
+      ],
+      "norm": 3.277027396572139
+    },
+    {
+      "case": "spin1-mixedM1E2",
+      "helper": "sdk",
+      "delta": 0.2,
+      "theta_deg": 23.4,
+      "phi_rad": 1.17,
+      "Stokes": [
+        null,
+        null,
+        0.0
+      ],
+      "nonfinite_components": [
+        1,
+        2
+      ],
+      "norm": 3.277027396572139
+    },
+    {
+      "case": "spin1-mixedM1E2",
+      "helper": "sdk",
+      "delta": 0.2,
+      "theta_deg": 45,
+      "phi_rad": 0.0,
+      "Stokes": [
+        null,
+        null,
+        0.0
+      ],
+      "nonfinite_components": [
+        1,
+        2
+      ],
+      "norm": 2.4720000000000004
+    },
+    {
+      "case": "spin1-mixedM1E2",
+      "helper": "sdk",
+      "delta": 0.2,
+      "theta_deg": 45,
+      "phi_rad": 0.37,
+      "Stokes": [
+        null,
+        null,
+        0.0
+      ],
+      "nonfinite_components": [
+        1,
+        2
+      ],
+      "norm": 2.4720000000000004
+    },
+    {
+      "case": "spin1-mixedM1E2",
+      "helper": "sdk",
+      "delta": 0.2,
+      "theta_deg": 45,
+      "phi_rad": 1.17,
+      "Stokes": [
+        null,
+        null,
+        0.0
+      ],
+      "nonfinite_components": [
+        1,
+        2
+      ],
+      "norm": 2.4720000000000004
+    },
+    {
+      "case": "spin1-mixedM1E2",
+      "helper": "sdk",
+      "delta": 0.2,
+      "theta_deg": 90,
+      "phi_rad": 0.0,
+      "Stokes": [
+        null,
+        null,
+        0.0
+      ],
+      "nonfinite_components": [
+        1,
+        2
+      ],
+      "norm": 1.295999999999999
+    },
+    {
+      "case": "spin1-mixedM1E2",
+      "helper": "sdk",
+      "delta": 0.2,
+      "theta_deg": 90,
+      "phi_rad": 0.37,
+      "Stokes": [
+        null,
+        null,
+        0.0
+      ],
+      "nonfinite_components": [
+        1,
+        2
+      ],
+      "norm": 1.295999999999999
+    },
+    {
+      "case": "spin1-mixedM1E2",
+      "helper": "sdk",
+      "delta": 0.2,
+      "theta_deg": 90,
+      "phi_rad": 1.17,
+      "Stokes": [
+        null,
+        null,
+        0.0
+      ],
+      "nonfinite_components": [
+        1,
+        2
+      ],
+      "norm": 1.295999999999999
+    },
+    {
+      "case": "spin1-mixedM1E2",
+      "helper": "sdk",
+      "delta": 0.2,
+      "theta_deg": 131.4,
+      "phi_rad": 0.0,
+      "Stokes": [
+        null,
+        null,
+        0.0
+      ],
+      "nonfinite_components": [
+        1,
+        2
+      ],
+      "norm": 2.3246081173283786
+    },
+    {
+      "case": "spin1-mixedM1E2",
+      "helper": "sdk",
+      "delta": 0.2,
+      "theta_deg": 131.4,
+      "phi_rad": 0.37,
+      "Stokes": [
+        null,
+        null,
+        0.0
+      ],
+      "nonfinite_components": [
+        1,
+        2
+      ],
+      "norm": 2.3246081173283786
+    },
+    {
+      "case": "spin1-mixedM1E2",
+      "helper": "sdk",
+      "delta": 0.2,
+      "theta_deg": 131.4,
+      "phi_rad": 1.17,
+      "Stokes": [
+        null,
+        null,
+        0.0
+      ],
+      "nonfinite_components": [
+        1,
+        2
+      ],
+      "norm": 2.3246081173283786
+    },
+    {
+      "case": "spin1-mixedlabel-delta0",
+      "helper": "old",
+      "delta": 0.0,
+      "theta_deg": 23.4,
+      "phi_rad": 0.0,
+      "Stokes": [
+        null,
+        null,
+        0.0
+      ],
+      "nonfinite_components": [
+        1,
+        2
+      ],
+      "norm": 2.5343872306125625
+    },
+    {
+      "case": "spin1-mixedlabel-delta0",
+      "helper": "old",
+      "delta": 0.0,
+      "theta_deg": 23.4,
+      "phi_rad": 0.37,
+      "Stokes": [
+        null,
+        null,
+        0.0
+      ],
+      "nonfinite_components": [
+        1,
+        2
+      ],
+      "norm": 2.5343872306125625
+    },
+    {
+      "case": "spin1-mixedlabel-delta0",
+      "helper": "old",
+      "delta": 0.0,
+      "theta_deg": 23.4,
+      "phi_rad": 1.17,
+      "Stokes": [
+        null,
+        null,
+        0.0
+      ],
+      "nonfinite_components": [
+        1,
+        2
+      ],
+      "norm": 2.5343872306125625
+    },
+    {
+      "case": "spin1-mixedlabel-delta0",
+      "helper": "old",
+      "delta": 0.0,
+      "theta_deg": 45,
+      "phi_rad": 0.0,
+      "Stokes": [
+        null,
+        null,
+        0.0
+      ],
+      "nonfinite_components": [
+        1,
+        2
+      ],
+      "norm": 2.1750000000000003
+    },
+    {
+      "case": "spin1-mixedlabel-delta0",
+      "helper": "old",
+      "delta": 0.0,
+      "theta_deg": 45,
+      "phi_rad": 0.37,
+      "Stokes": [
+        null,
+        null,
+        0.0
+      ],
+      "nonfinite_components": [
+        1,
+        2
+      ],
+      "norm": 2.1750000000000003
+    },
+    {
+      "case": "spin1-mixedlabel-delta0",
+      "helper": "old",
+      "delta": 0.0,
+      "theta_deg": 45,
+      "phi_rad": 1.17,
+      "Stokes": [
+        null,
+        null,
+        0.0
+      ],
+      "nonfinite_components": [
+        1,
+        2
+      ],
+      "norm": 2.1750000000000003
+    },
+    {
+      "case": "spin1-mixedlabel-delta0",
+      "helper": "old",
+      "delta": 0.0,
+      "theta_deg": 90,
+      "phi_rad": 0.0,
+      "Stokes": [
+        null,
+        null,
+        0.0
+      ],
+      "nonfinite_components": [
+        1,
+        2
+      ],
+      "norm": 1.6499999999999992
+    },
+    {
+      "case": "spin1-mixedlabel-delta0",
+      "helper": "old",
+      "delta": 0.0,
+      "theta_deg": 90,
+      "phi_rad": 0.37,
+      "Stokes": [
+        null,
+        null,
+        0.0
+      ],
+      "nonfinite_components": [
+        1,
+        2
+      ],
+      "norm": 1.6499999999999992
+    },
+    {
+      "case": "spin1-mixedlabel-delta0",
+      "helper": "old",
+      "delta": 0.0,
+      "theta_deg": 90,
+      "phi_rad": 1.17,
+      "Stokes": [
+        null,
+        null,
+        0.0
+      ],
+      "nonfinite_components": [
+        1,
+        2
+      ],
+      "norm": 1.6499999999999992
+    },
+    {
+      "case": "spin1-mixedlabel-delta0",
+      "helper": "old",
+      "delta": 0.0,
+      "theta_deg": 131.4,
+      "phi_rad": 0.0,
+      "Stokes": [
+        null,
+        null,
+        0.0
+      ],
+      "nonfinite_components": [
+        1,
+        2
+      ],
+      "norm": 2.1092000523787404
+    },
+    {
+      "case": "spin1-mixedlabel-delta0",
+      "helper": "old",
+      "delta": 0.0,
+      "theta_deg": 131.4,
+      "phi_rad": 0.37,
+      "Stokes": [
+        null,
+        null,
+        0.0
+      ],
+      "nonfinite_components": [
+        1,
+        2
+      ],
+      "norm": 2.1092000523787404
+    },
+    {
+      "case": "spin1-mixedlabel-delta0",
+      "helper": "old",
+      "delta": 0.0,
+      "theta_deg": 131.4,
+      "phi_rad": 1.17,
+      "Stokes": [
+        null,
+        null,
+        0.0
+      ],
+      "nonfinite_components": [
+        1,
+        2
+      ],
+      "norm": 2.1092000523787404
+    },
+    {
+      "case": "spin1-mixedlabel-delta0",
+      "helper": "sdk",
+      "delta": 0.0,
+      "theta_deg": 23.4,
+      "phi_rad": 0.0,
+      "Stokes": [
+        null,
+        null,
+        0.0
+      ],
+      "nonfinite_components": [
+        1,
+        2
+      ],
+      "norm": 2.5343872306125625
+    },
+    {
+      "case": "spin1-mixedlabel-delta0",
+      "helper": "sdk",
+      "delta": 0.0,
+      "theta_deg": 23.4,
+      "phi_rad": 0.37,
+      "Stokes": [
+        null,
+        null,
+        0.0
+      ],
+      "nonfinite_components": [
+        1,
+        2
+      ],
+      "norm": 2.5343872306125625
+    },
+    {
+      "case": "spin1-mixedlabel-delta0",
+      "helper": "sdk",
+      "delta": 0.0,
+      "theta_deg": 23.4,
+      "phi_rad": 1.17,
+      "Stokes": [
+        null,
+        null,
+        0.0
+      ],
+      "nonfinite_components": [
+        1,
+        2
+      ],
+      "norm": 2.5343872306125625
+    },
+    {
+      "case": "spin1-mixedlabel-delta0",
+      "helper": "sdk",
+      "delta": 0.0,
+      "theta_deg": 45,
+      "phi_rad": 0.0,
+      "Stokes": [
+        null,
+        null,
+        0.0
+      ],
+      "nonfinite_components": [
+        1,
+        2
+      ],
+      "norm": 2.1750000000000003
+    },
+    {
+      "case": "spin1-mixedlabel-delta0",
+      "helper": "sdk",
+      "delta": 0.0,
+      "theta_deg": 45,
+      "phi_rad": 0.37,
+      "Stokes": [
+        null,
+        null,
+        0.0
+      ],
+      "nonfinite_components": [
+        1,
+        2
+      ],
+      "norm": 2.1750000000000003
+    },
+    {
+      "case": "spin1-mixedlabel-delta0",
+      "helper": "sdk",
+      "delta": 0.0,
+      "theta_deg": 45,
+      "phi_rad": 1.17,
+      "Stokes": [
+        null,
+        null,
+        0.0
+      ],
+      "nonfinite_components": [
+        1,
+        2
+      ],
+      "norm": 2.1750000000000003
+    },
+    {
+      "case": "spin1-mixedlabel-delta0",
+      "helper": "sdk",
+      "delta": 0.0,
+      "theta_deg": 90,
+      "phi_rad": 0.0,
+      "Stokes": [
+        null,
+        null,
+        0.0
+      ],
+      "nonfinite_components": [
+        1,
+        2
+      ],
+      "norm": 1.6499999999999992
+    },
+    {
+      "case": "spin1-mixedlabel-delta0",
+      "helper": "sdk",
+      "delta": 0.0,
+      "theta_deg": 90,
+      "phi_rad": 0.37,
+      "Stokes": [
+        null,
+        null,
+        0.0
+      ],
+      "nonfinite_components": [
+        1,
+        2
+      ],
+      "norm": 1.6499999999999992
+    },
+    {
+      "case": "spin1-mixedlabel-delta0",
+      "helper": "sdk",
+      "delta": 0.0,
+      "theta_deg": 90,
+      "phi_rad": 1.17,
+      "Stokes": [
+        null,
+        null,
+        0.0
+      ],
+      "nonfinite_components": [
+        1,
+        2
+      ],
+      "norm": 1.6499999999999992
+    },
+    {
+      "case": "spin1-mixedlabel-delta0",
+      "helper": "sdk",
+      "delta": 0.0,
+      "theta_deg": 131.4,
+      "phi_rad": 0.0,
+      "Stokes": [
+        null,
+        null,
+        0.0
+      ],
+      "nonfinite_components": [
+        1,
+        2
+      ],
+      "norm": 2.1092000523787404
+    },
+    {
+      "case": "spin1-mixedlabel-delta0",
+      "helper": "sdk",
+      "delta": 0.0,
+      "theta_deg": 131.4,
+      "phi_rad": 0.37,
+      "Stokes": [
+        null,
+        null,
+        0.0
+      ],
+      "nonfinite_components": [
+        1,
+        2
+      ],
+      "norm": 2.1092000523787404
+    },
+    {
+      "case": "spin1-mixedlabel-delta0",
+      "helper": "sdk",
+      "delta": 0.0,
+      "theta_deg": 131.4,
+      "phi_rad": 1.17,
+      "Stokes": [
+        null,
+        null,
+        0.0
+      ],
+      "nonfinite_components": [
+        1,
+        2
+      ],
+      "norm": 2.1092000523787404
+    },
+    {
+      "case": "Na1041-RB-branches-mapped-to-native",
+      "helper": "old",
+      "delta": 0.0,
+      "theta_deg": 23.4,
+      "phi_rad": 0.0,
+      "Stokes": [
+        null,
+        null,
+        -7.47733642325721e-18
+      ],
+      "nonfinite_components": [
+        1,
+        2
+      ],
+      "norm": 2.3110858317275076
+    },
+    {
+      "case": "Na1041-RB-branches-mapped-to-native",
+      "helper": "old",
+      "delta": 0.0,
+      "theta_deg": 23.4,
+      "phi_rad": 0.37,
+      "Stokes": [
+        null,
+        null,
+        -7.47733642325721e-18
+      ],
+      "nonfinite_components": [
+        1,
+        2
+      ],
+      "norm": 2.3110858317275076
+    },
+    {
+      "case": "Na1041-RB-branches-mapped-to-native",
+      "helper": "old",
+      "delta": 0.0,
+      "theta_deg": 23.4,
+      "phi_rad": 1.17,
+      "Stokes": [
+        null,
+        null,
+        -7.47733642325721e-18
+      ],
+      "nonfinite_components": [
+        1,
+        2
+      ],
+      "norm": 2.3110858317275076
+    },
+    {
+      "case": "Na1041-RB-branches-mapped-to-native",
+      "helper": "old",
+      "delta": 0.0,
+      "theta_deg": 45,
+      "phi_rad": 0.0,
+      "Stokes": [
+        null,
+        null,
+        -6.334535784891104e-18
+      ],
+      "nonfinite_components": [
+        1,
+        2
+      ],
+      "norm": 2.101873730197314
+    },
+    {
+      "case": "Na1041-RB-branches-mapped-to-native",
+      "helper": "old",
+      "delta": 0.0,
+      "theta_deg": 45,
+      "phi_rad": 0.37,
+      "Stokes": [
+        null,
+        null,
+        -6.334535784891104e-18
+      ],
+      "nonfinite_components": [
+        1,
+        2
+      ],
+      "norm": 2.101873730197314
+    },
+    {
+      "case": "Na1041-RB-branches-mapped-to-native",
+      "helper": "old",
+      "delta": 0.0,
+      "theta_deg": 45,
+      "phi_rad": 1.17,
+      "Stokes": [
+        null,
+        null,
+        -6.334535784891104e-18
+      ],
+      "nonfinite_components": [
+        1,
+        2
+      ],
+      "norm": 2.101873730197314
+    },
+    {
+      "case": "Na1041-RB-branches-mapped-to-native",
+      "helper": "old",
+      "delta": 0.0,
+      "theta_deg": 90,
+      "phi_rad": 0.0,
+      "Stokes": [
+        null,
+        null,
+        -5.819012002623133e-34
+      ],
+      "nonfinite_components": [
+        1,
+        2
+      ],
+      "norm": 1.7962525396053723
+    },
+    {
+      "case": "Na1041-RB-branches-mapped-to-native",
+      "helper": "old",
+      "delta": 0.0,
+      "theta_deg": 90,
+      "phi_rad": 0.37,
+      "Stokes": [
+        null,
+        null,
+        -5.819012002623133e-34
+      ],
+      "nonfinite_components": [
+        1,
+        2
+      ],
+      "norm": 1.7962525396053723
+    },
+    {
+      "case": "Na1041-RB-branches-mapped-to-native",
+      "helper": "old",
+      "delta": 0.0,
+      "theta_deg": 90,
+      "phi_rad": 1.17,
+      "Stokes": [
+        null,
+        null,
+        -5.819012002623133e-34
+      ],
+      "nonfinite_components": [
+        1,
+        2
+      ],
+      "norm": 1.7962525396053723
+    },
+    {
+      "case": "Na1041-RB-branches-mapped-to-native",
+      "helper": "old",
+      "delta": 0.0,
+      "theta_deg": 131.4,
+      "phi_rad": 0.0,
+      "Stokes": [
+        null,
+        null,
+        6.034255344683069e-18
+      ],
+      "nonfinite_components": [
+        1,
+        2
+      ],
+      "norm": 2.0635692381346535
+    },
+    {
+      "case": "Na1041-RB-branches-mapped-to-native",
+      "helper": "old",
+      "delta": 0.0,
+      "theta_deg": 131.4,
+      "phi_rad": 0.37,
+      "Stokes": [
+        null,
+        null,
+        6.034255344683069e-18
+      ],
+      "nonfinite_components": [
+        1,
+        2
+      ],
+      "norm": 2.0635692381346535
+    },
+    {
+      "case": "Na1041-RB-branches-mapped-to-native",
+      "helper": "old",
+      "delta": 0.0,
+      "theta_deg": 131.4,
+      "phi_rad": 1.17,
+      "Stokes": [
+        null,
+        null,
+        6.034255344683069e-18
+      ],
+      "nonfinite_components": [
+        1,
+        2
+      ],
+      "norm": 2.0635692381346535
+    },
+    {
+      "case": "Na1041-RB-branches-mapped-to-native",
+      "helper": "sdk",
+      "delta": 0.0,
+      "theta_deg": 23.4,
+      "phi_rad": 0.0,
+      "Stokes": [
+        null,
+        null,
+        -7.47733642325721e-18
+      ],
+      "nonfinite_components": [
+        1,
+        2
+      ],
+      "norm": 2.3110858317275076
+    },
+    {
+      "case": "Na1041-RB-branches-mapped-to-native",
+      "helper": "sdk",
+      "delta": 0.0,
+      "theta_deg": 23.4,
+      "phi_rad": 0.37,
+      "Stokes": [
+        null,
+        null,
+        -7.47733642325721e-18
+      ],
+      "nonfinite_components": [
+        1,
+        2
+      ],
+      "norm": 2.3110858317275076
+    },
+    {
+      "case": "Na1041-RB-branches-mapped-to-native",
+      "helper": "sdk",
+      "delta": 0.0,
+      "theta_deg": 23.4,
+      "phi_rad": 1.17,
+      "Stokes": [
+        null,
+        null,
+        -7.47733642325721e-18
+      ],
+      "nonfinite_components": [
+        1,
+        2
+      ],
+      "norm": 2.3110858317275076
+    },
+    {
+      "case": "Na1041-RB-branches-mapped-to-native",
+      "helper": "sdk",
+      "delta": 0.0,
+      "theta_deg": 45,
+      "phi_rad": 0.0,
+      "Stokes": [
+        null,
+        null,
+        -6.334535784891104e-18
+      ],
+      "nonfinite_components": [
+        1,
+        2
+      ],
+      "norm": 2.101873730197314
+    },
+    {
+      "case": "Na1041-RB-branches-mapped-to-native",
+      "helper": "sdk",
+      "delta": 0.0,
+      "theta_deg": 45,
+      "phi_rad": 0.37,
+      "Stokes": [
+        null,
+        null,
+        -6.334535784891104e-18
+      ],
+      "nonfinite_components": [
+        1,
+        2
+      ],
+      "norm": 2.101873730197314
+    },
+    {
+      "case": "Na1041-RB-branches-mapped-to-native",
+      "helper": "sdk",
+      "delta": 0.0,
+      "theta_deg": 45,
+      "phi_rad": 1.17,
+      "Stokes": [
+        null,
+        null,
+        -6.334535784891104e-18
+      ],
+      "nonfinite_components": [
+        1,
+        2
+      ],
+      "norm": 2.101873730197314
+    },
+    {
+      "case": "Na1041-RB-branches-mapped-to-native",
+      "helper": "sdk",
+      "delta": 0.0,
+      "theta_deg": 90,
+      "phi_rad": 0.0,
+      "Stokes": [
+        null,
+        null,
+        -5.819012002623133e-34
+      ],
+      "nonfinite_components": [
+        1,
+        2
+      ],
+      "norm": 1.7962525396053723
+    },
+    {
+      "case": "Na1041-RB-branches-mapped-to-native",
+      "helper": "sdk",
+      "delta": 0.0,
+      "theta_deg": 90,
+      "phi_rad": 0.37,
+      "Stokes": [
+        null,
+        null,
+        -5.819012002623133e-34
+      ],
+      "nonfinite_components": [
+        1,
+        2
+      ],
+      "norm": 1.7962525396053723
+    },
+    {
+      "case": "Na1041-RB-branches-mapped-to-native",
+      "helper": "sdk",
+      "delta": 0.0,
+      "theta_deg": 90,
+      "phi_rad": 1.17,
+      "Stokes": [
+        null,
+        null,
+        -5.819012002623133e-34
+      ],
+      "nonfinite_components": [
+        1,
+        2
+      ],
+      "norm": 1.7962525396053723
+    },
+    {
+      "case": "Na1041-RB-branches-mapped-to-native",
+      "helper": "sdk",
+      "delta": 0.0,
+      "theta_deg": 131.4,
+      "phi_rad": 0.0,
+      "Stokes": [
+        null,
+        null,
+        6.034255344683069e-18
+      ],
+      "nonfinite_components": [
+        1,
+        2
+      ],
+      "norm": 2.0635692381346535
+    },
+    {
+      "case": "Na1041-RB-branches-mapped-to-native",
+      "helper": "sdk",
+      "delta": 0.0,
+      "theta_deg": 131.4,
+      "phi_rad": 0.37,
+      "Stokes": [
+        null,
+        null,
+        6.034255344683069e-18
+      ],
+      "nonfinite_components": [
+        1,
+        2
+      ],
+      "norm": 2.0635692381346535
+    },
+    {
+      "case": "Na1041-RB-branches-mapped-to-native",
+      "helper": "sdk",
+      "delta": 0.0,
+      "theta_deg": 131.4,
+      "phi_rad": 1.17,
+      "Stokes": [
+        null,
+        null,
+        6.034255344683069e-18
+      ],
+      "nonfinite_components": [
+        1,
+        2
+      ],
+      "norm": 2.0635692381346535
+    },
+    {
+      "case": "Na1041-RB-branches-mapped-to-native",
+      "helper": "old",
+      "delta": 0.85,
+      "theta_deg": 23.4,
+      "phi_rad": 0.0,
+      "Stokes": [
+        null,
+        null,
+        1.3418154765528487e-18
+      ],
+      "nonfinite_components": [
+        1,
+        2
+      ],
+      "norm": 3.9542476602310628
+    },
+    {
+      "case": "Na1041-RB-branches-mapped-to-native",
+      "helper": "old",
+      "delta": 0.85,
+      "theta_deg": 23.4,
+      "phi_rad": 0.37,
+      "Stokes": [
+        null,
+        null,
+        1.3418154765528487e-18
+      ],
+      "nonfinite_components": [
+        1,
+        2
+      ],
+      "norm": 3.9542476602310628
+    },
+    {
+      "case": "Na1041-RB-branches-mapped-to-native",
+      "helper": "old",
+      "delta": 0.85,
+      "theta_deg": 23.4,
+      "phi_rad": 1.17,
+      "Stokes": [
+        null,
+        null,
+        1.3418154765528487e-18
+      ],
+      "nonfinite_components": [
+        1,
+        2
+      ],
+      "norm": 3.9542476602310628
+    },
+    {
+      "case": "Na1041-RB-branches-mapped-to-native",
+      "helper": "old",
+      "delta": 0.85,
+      "theta_deg": 45,
+      "phi_rad": 0.0,
+      "Stokes": [
+        null,
+        null,
+        2.9055447424514853e-17
+      ],
+      "nonfinite_components": [
+        1,
+        2
+      ],
+      "norm": 3.64918120182192
+    },
+    {
+      "case": "Na1041-RB-branches-mapped-to-native",
+      "helper": "old",
+      "delta": 0.85,
+      "theta_deg": 45,
+      "phi_rad": 0.37,
+      "Stokes": [
+        null,
+        null,
+        2.9055447424514853e-17
+      ],
+      "nonfinite_components": [
+        1,
+        2
+      ],
+      "norm": 3.64918120182192
+    },
+    {
+      "case": "Na1041-RB-branches-mapped-to-native",
+      "helper": "old",
+      "delta": 0.85,
+      "theta_deg": 45,
+      "phi_rad": 1.17,
+      "Stokes": [
+        null,
+        null,
+        2.9055447424514853e-17
+      ],
+      "nonfinite_components": [
+        1,
+        2
+      ],
+      "norm": 3.64918120182192
+    },
+    {
+      "case": "Na1041-RB-branches-mapped-to-native",
+      "helper": "old",
+      "delta": 0.85,
+      "theta_deg": 90,
+      "phi_rad": 0.0,
+      "Stokes": [
+        null,
+        null,
+        4.266812936215025e-34
+      ],
+      "nonfinite_components": [
+        1,
+        2
+      ],
+      "norm": 3.0686630597761053
+    },
+    {
+      "case": "Na1041-RB-branches-mapped-to-native",
+      "helper": "old",
+      "delta": 0.85,
+      "theta_deg": 90,
+      "phi_rad": 0.37,
+      "Stokes": [
+        null,
+        null,
+        4.266812936215025e-34
+      ],
+      "nonfinite_components": [
+        1,
+        2
+      ],
+      "norm": 3.0686630597761053
+    },
+    {
+      "case": "Na1041-RB-branches-mapped-to-native",
+      "helper": "old",
+      "delta": 0.85,
+      "theta_deg": 90,
+      "phi_rad": 1.17,
+      "Stokes": [
+        null,
+        null,
+        4.266812936215025e-34
+      ],
+      "nonfinite_components": [
+        1,
+        2
+      ],
+      "norm": 3.0686630597761053
+    },
+    {
+      "case": "Na1041-RB-branches-mapped-to-native",
+      "helper": "old",
+      "delta": 0.85,
+      "theta_deg": 131.4,
+      "phi_rad": 0.0,
+      "Stokes": [
+        null,
+        null,
+        -3.2527400642993376e-17
+      ],
+      "nonfinite_components": [
+        1,
+        2
+      ],
+      "norm": 3.5851999496235623
+    },
+    {
+      "case": "Na1041-RB-branches-mapped-to-native",
+      "helper": "old",
+      "delta": 0.85,
+      "theta_deg": 131.4,
+      "phi_rad": 0.37,
+      "Stokes": [
+        null,
+        null,
+        -3.2527400642993376e-17
+      ],
+      "nonfinite_components": [
+        1,
+        2
+      ],
+      "norm": 3.5851999496235623
+    },
+    {
+      "case": "Na1041-RB-branches-mapped-to-native",
+      "helper": "old",
+      "delta": 0.85,
+      "theta_deg": 131.4,
+      "phi_rad": 1.17,
+      "Stokes": [
+        null,
+        null,
+        -3.2527400642993376e-17
+      ],
+      "nonfinite_components": [
+        1,
+        2
+      ],
+      "norm": 3.5851999496235623
+    },
+    {
+      "case": "Na1041-RB-branches-mapped-to-native",
+      "helper": "sdk",
+      "delta": 0.85,
+      "theta_deg": 23.4,
+      "phi_rad": 0.0,
+      "Stokes": [
+        null,
+        null,
+        1.3418154765528487e-18
+      ],
+      "nonfinite_components": [
+        1,
+        2
+      ],
+      "norm": 3.9542476602310628
+    },
+    {
+      "case": "Na1041-RB-branches-mapped-to-native",
+      "helper": "sdk",
+      "delta": 0.85,
+      "theta_deg": 23.4,
+      "phi_rad": 0.37,
+      "Stokes": [
+        null,
+        null,
+        1.3418154765528487e-18
+      ],
+      "nonfinite_components": [
+        1,
+        2
+      ],
+      "norm": 3.9542476602310628
+    },
+    {
+      "case": "Na1041-RB-branches-mapped-to-native",
+      "helper": "sdk",
+      "delta": 0.85,
+      "theta_deg": 23.4,
+      "phi_rad": 1.17,
+      "Stokes": [
+        null,
+        null,
+        1.3418154765528487e-18
+      ],
+      "nonfinite_components": [
+        1,
+        2
+      ],
+      "norm": 3.9542476602310628
+    },
+    {
+      "case": "Na1041-RB-branches-mapped-to-native",
+      "helper": "sdk",
+      "delta": 0.85,
+      "theta_deg": 45,
+      "phi_rad": 0.0,
+      "Stokes": [
+        null,
+        null,
+        2.9055447424514853e-17
+      ],
+      "nonfinite_components": [
+        1,
+        2
+      ],
+      "norm": 3.64918120182192
+    },
+    {
+      "case": "Na1041-RB-branches-mapped-to-native",
+      "helper": "sdk",
+      "delta": 0.85,
+      "theta_deg": 45,
+      "phi_rad": 0.37,
+      "Stokes": [
+        null,
+        null,
+        2.9055447424514853e-17
+      ],
+      "nonfinite_components": [
+        1,
+        2
+      ],
+      "norm": 3.64918120182192
+    },
+    {
+      "case": "Na1041-RB-branches-mapped-to-native",
+      "helper": "sdk",
+      "delta": 0.85,
+      "theta_deg": 45,
+      "phi_rad": 1.17,
+      "Stokes": [
+        null,
+        null,
+        2.9055447424514853e-17
+      ],
+      "nonfinite_components": [
+        1,
+        2
+      ],
+      "norm": 3.64918120182192
+    },
+    {
+      "case": "Na1041-RB-branches-mapped-to-native",
+      "helper": "sdk",
+      "delta": 0.85,
+      "theta_deg": 90,
+      "phi_rad": 0.0,
+      "Stokes": [
+        null,
+        null,
+        4.266812936215025e-34
+      ],
+      "nonfinite_components": [
+        1,
+        2
+      ],
+      "norm": 3.0686630597761053
+    },
+    {
+      "case": "Na1041-RB-branches-mapped-to-native",
+      "helper": "sdk",
+      "delta": 0.85,
+      "theta_deg": 90,
+      "phi_rad": 0.37,
+      "Stokes": [
+        null,
+        null,
+        4.266812936215025e-34
+      ],
+      "nonfinite_components": [
+        1,
+        2
+      ],
+      "norm": 3.0686630597761053
+    },
+    {
+      "case": "Na1041-RB-branches-mapped-to-native",
+      "helper": "sdk",
+      "delta": 0.85,
+      "theta_deg": 90,
+      "phi_rad": 1.17,
+      "Stokes": [
+        null,
+        null,
+        4.266812936215025e-34
+      ],
+      "nonfinite_components": [
+        1,
+        2
+      ],
+      "norm": 3.0686630597761053
+    },
+    {
+      "case": "Na1041-RB-branches-mapped-to-native",
+      "helper": "sdk",
+      "delta": 0.85,
+      "theta_deg": 131.4,
+      "phi_rad": 0.0,
+      "Stokes": [
+        null,
+        null,
+        -3.2527400642993376e-17
+      ],
+      "nonfinite_components": [
+        1,
+        2
+      ],
+      "norm": 3.5851999496235623
+    },
+    {
+      "case": "Na1041-RB-branches-mapped-to-native",
+      "helper": "sdk",
+      "delta": 0.85,
+      "theta_deg": 131.4,
+      "phi_rad": 0.37,
+      "Stokes": [
+        null,
+        null,
+        -3.2527400642993376e-17
+      ],
+      "nonfinite_components": [
+        1,
+        2
+      ],
+      "norm": 3.5851999496235623
+    },
+    {
+      "case": "Na1041-RB-branches-mapped-to-native",
+      "helper": "sdk",
+      "delta": 0.85,
+      "theta_deg": 131.4,
+      "phi_rad": 1.17,
+      "Stokes": [
+        null,
+        null,
+        -3.2527400642993376e-17
+      ],
+      "nonfinite_components": [
+        1,
+        2
+      ],
+      "norm": 3.5851999496235623
+    }
+  ],
+  "NaN_saved_as_null_with_explicit_component_list": true,
+  "source_files_modified": false,
+  "exact_paper_producer_certified": false,
+  "full_detector_response_or_new_experimental_delta": false
+}

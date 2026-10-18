@@ -1,0 +1,232 @@
+{
+  "at": "2026-10-18T15:53:30.713140+00:00",
+  "url": "https://api.github.com/repos/rileyle/UCGretina/commits/geant4.10",
+  "status": 200,
+  "commit": "1271388e03ec9b3f8e055a988aeb4c2e4d2efedf",
+  "commit_metadata": {
+    "author": {
+      "name": "Lew Riley",
+      "email": "lriley@ursinus.edu",
+      "date": "2026-08-04T12:21:56Z"
+    },
+    "committer": {
+      "name": "Lew Riley",
+      "email": "lriley@ursinus.edu",
+      "date": "2026-08-04T12:21:56Z"
+    },
+    "message": "Updated Greta_Shell class (developed by Blake McNulty). A simple,\ncomputationally efficient model of the full shell is now available.\nOffsets of the hemispheres are supported.\nfull shell is now implemented.",
+    "tree": {
+      "sha": "51ad77d261e6ae280d970bc0d9bc61ed6ba48094",
+      "url": "https://api.github.com/repos/rileyle/UCGretina/git/trees/51ad77d261e6ae280d970bc0d9bc61ed6ba48094"
+    },
+    "url": "https://api.github.com/repos/rileyle/UCGretina/git/commits/1271388e03ec9b3f8e055a988aeb4c2e4d2efedf",
+    "comment_count": 0,
+    "verification": {
+      "verified": false,
+      "reason": "unsigned",
+      "signature": null,
+      "payload": null,
+      "verified_at": null
+    }
+  },
+  "html_url": "https://github.com/rileyle/UCGretina/commit/1271388e03ec9b3f8e055a988aeb4c2e4d2efedf",
+  "tree_status": 200,
+  "tree_path": "tmp/day16-ucgretina/tree.json",
+  "tree_sha256": "41aeb91ca17040dab0b6a212af946437d99620ba4e6f4747863d418f661cddef",
+  "truncated": false,
+  "entries_count": 788,
+  "relevant_paths": [
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7f99785b2fc576167e9b3845cc339c0678c87da3",
+      "size": 33787,
+      "url": "https://api.github.com/repos/rileyle/UCGretina/git/blobs/7f99785b2fc576167e9b3845cc339c0678c87da3"
+    },
+    {
+      "path": "examples/inbeam/angdist/README",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6f8eb68ebbf9347472ce3e7334dbe807bcd89e72",
+      "size": 699,
+      "url": "https://api.github.com/repos/rileyle/UCGretina/git/blobs/6f8eb68ebbf9347472ce3e7334dbe807bcd89e72"
+    },
+    {
+      "path": "examples/inbeam/cache/README",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2dc63ace5f707750973a4ae1699c1587f0b2e54e",
+      "size": 5101,
+      "url": "https://api.github.com/repos/rileyle/UCGretina/git/blobs/2dc63ace5f707750973a4ae1699c1587f0b2e54e"
+    },
+    {
+      "path": "examples/inbeam/fit/README",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d02d7604092feca0fe2cd014a1c9b47f54bc0865",
+      "size": 5257,
+      "url": "https://api.github.com/repos/rileyle/UCGretina/git/blobs/d02d7604092feca0fe2cd014a1c9b47f54bc0865"
+    },
+    {
+      "path": "examples/inbeam/fitLH/README",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2dc63ace5f707750973a4ae1699c1587f0b2e54e",
+      "size": 5101,
+      "url": "https://api.github.com/repos/rileyle/UCGretina/git/blobs/2dc63ace5f707750973a4ae1699c1587f0b2e54e"
+    },
+    {
+      "path": "examples/inbeam/parallel/README",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "85b9602657169afcbdfd888f55df23974d8b410b",
+      "size": 1228,
+      "url": "https://api.github.com/repos/rileyle/UCGretina/git/blobs/85b9602657169afcbdfd888f55df23974d8b410b"
+    },
+    {
+      "path": "examples/inbeam/targetEx/README",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ef2afa69543049671605ef05080438d3b7fdc2cf",
+      "size": 527,
+      "url": "https://api.github.com/repos/rileyle/UCGretina/git/blobs/ef2afa69543049671605ef05080438d3b7fdc2cf"
+    },
+    {
+      "path": "examples/scan/README",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a4374242668d520dea923fc71696dc1b090ec9d6",
+      "size": 2370,
+      "url": "https://api.github.com/repos/rileyle/UCGretina/git/blobs/a4374242668d520dea923fc71696dc1b090ec9d6"
+    },
+    {
+      "path": "examples/sources/co60/README",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6bc23971254b886e0238dac097722fb7488747c7",
+      "size": 1815,
+      "url": "https://api.github.com/repos/rileyle/UCGretina/git/blobs/6bc23971254b886e0238dac097722fb7488747c7"
+    },
+    {
+      "path": "examples/sources/eu152/README",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fc580f97459020a1a9ffbcaa1eb3286315931fc4",
+      "size": 4240,
+      "url": "https://api.github.com/repos/rileyle/UCGretina/git/blobs/fc580f97459020a1a9ffbcaa1eb3286315931fc4"
+    },
+    {
+      "path": "examples/sources/ho166/README",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "57e80351ce1869b6b88736d493124edc7be312e1",
+      "size": 1534,
+      "url": "https://api.github.com/repos/rileyle/UCGretina/git/blobs/57e80351ce1869b6b88736d493124edc7be312e1"
+    },
+    {
+      "path": "examples/sources/ho166/z67.a166.decaydata",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e990f983cf4b67437f141042e47208bb48e358b8",
+      "size": 915,
+      "url": "https://api.github.com/repos/rileyle/UCGretina/git/blobs/e990f983cf4b67437f141042e47208bb48e358b8"
+    },
+    {
+      "path": "include/EmStandardPhysics_option4_Atima.hh",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f5833e6d2619c07b75ca48acc7d58c28122b2485",
+      "size": 2789,
+      "url": "https://api.github.com/repos/rileyle/UCGretina/git/blobs/f5833e6d2619c07b75ca48acc7d58c28122b2485"
+    },
+    {
+      "path": "include/PhysicsList.hh",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "472cb71d347c46525b74cbadcee29b47e36131c2",
+      "size": 3644,
+      "url": "https://api.github.com/repos/rileyle/UCGretina/git/blobs/472cb71d347c46525b74cbadcee29b47e36131c2"
+    },
+    {
+      "path": "include/PhysicsList_Messenger.hh",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "12ece2950fdc0239c9b7bee6ba074e41a637d010",
+      "size": 567,
+      "url": "https://api.github.com/repos/rileyle/UCGretina/git/blobs/12ece2950fdc0239c9b7bee6ba074e41a637d010"
+    },
+    {
+      "path": "include/PrimaryGeneratorAction.hh",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c6a96592a234ef7a30b10ea1e1815b2ea436d748",
+      "size": 3613,
+      "url": "https://api.github.com/repos/rileyle/UCGretina/git/blobs/c6a96592a234ef7a30b10ea1e1815b2ea436d748"
+    },
+    {
+      "path": "include/PrimaryGeneratorAction_Messenger.hh",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ead9a527a93fa7312f5993945521267388adfcd5",
+      "size": 1780,
+      "url": "https://api.github.com/repos/rileyle/UCGretina/git/blobs/ead9a527a93fa7312f5993945521267388adfcd5"
+    },
+    {
+      "path": "src/.PrimaryGeneratorAction.cc.swp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bcb01754c6bef2ca23c764ac5954e6416c06020e",
+      "size": 16384,
+      "url": "https://api.github.com/repos/rileyle/UCGretina/git/blobs/bcb01754c6bef2ca23c764ac5954e6416c06020e"
+    },
+    {
+      "path": "src/EmStandardPhysics_option4_Atima.cc",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "805adc635476797f3dad4f4798f53e6dd2d85a37",
+      "size": 11560,
+      "url": "https://api.github.com/repos/rileyle/UCGretina/git/blobs/805adc635476797f3dad4f4798f53e6dd2d85a37"
+    },
+    {
+      "path": "src/ITDecay.cc",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0a3fc920add0110002a3752303f01713df080267",
+      "size": 19258,
+      "url": "https://api.github.com/repos/rileyle/UCGretina/git/blobs/0a3fc920add0110002a3752303f01713df080267"
+    },
+    {
+      "path": "src/PhysicsList.cc",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3502b48a50008af477e3ef377a442648c846d880",
+      "size": 31364,
+      "url": "https://api.github.com/repos/rileyle/UCGretina/git/blobs/3502b48a50008af477e3ef377a442648c846d880"
+    },
+    {
+      "path": "src/PhysicsList_Messenger.cc",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "833eecff713a14428ca6e68a6480ace8ccda2001",
+      "size": 1389,
+      "url": "https://api.github.com/repos/rileyle/UCGretina/git/blobs/833eecff713a14428ca6e68a6480ace8ccda2001"
+    },
+    {
+      "path": "src/PrimaryGeneratorAction.cc",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6fbb13796d1eaaf1247df9698247caad727b9ea9",
+      "size": 43899,
+      "url": "https://api.github.com/repos/rileyle/UCGretina/git/blobs/6fbb13796d1eaaf1247df9698247caad727b9ea9"
+    },
+    {
+      "path": "src/PrimaryGeneratorAction_Messenger.cc",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e1e9651acf5c039ca19cf08107b4577a31300e13",
+      "size": 8427,
+      "url": "https://api.github.com/repos/rileyle/UCGretina/git/blobs/e1e9651acf5c039ca19cf08107b4577a31300e13"
+    }
+  ]
+}

@@ -1,0 +1,141 @@
+{
+  "identity": "UCGRETINA-STOKES-LITERAL-CORE-AUDIT-01",
+  "day_index": 16,
+  "partial_day_indices": [
+    17
+  ],
+  "source_hashes": {
+    "tmp/day16-ucgretina/pinned-head/src/ITDecay.cc": "6f89e531060cdcf1420f160f2ff4626afa4c21112426db29d0e83fdebf3218c9",
+    "tmp/day16-ucgretina/pinned-2021/src/ITDecay.cc": "6f89e531060cdcf1420f160f2ff4626afa4c21112426db29d0e83fdebf3218c9",
+    "tmp/day16-ucgretina/pinned-head/src/Reaction.cc": "643300cb746626e5edf000c7401c9aac9ec9ef1c3dd4ebe7b845c6c94ec3c84f",
+    "tmp/day16-ucgretina/pinned-2021/src/Reaction.cc": "f67e4f362ee97d658124d53f5d15f15163e6f1e618b39fab726f14ac6c7f9446",
+    "tmp/day16-ucgretina/geant4-v1074/G4Clebsch.cc": "4d44d9f3c2fc871b416e52c78a86ce158ff757611b53bf558971c5a7e589757c",
+    "tmp/day16-ucgretina/geant4-v1074/G4PolarizationTransition.cc": "6e8ed892cec94eb63241f160211d670e6ae84ac0239fa2ba4b2bd943683fb518"
+  },
+  "pinned_UCGretina_head": "1271388e03ec9b3f8e055a988aeb4c2e4d2efedf",
+  "historical_2021_commit": "1cd773473028ee4d2a30b848187471a06089fc99",
+  "itdecay_identical_at_both": true,
+  "geant4_old_source": "v10.7.4 /098f6c74e60fbe2dbde3c347fdf5e0e321e311a2",
+  "installed_sdk": "11.4.2",
+  "source_algorithm_replay": "extract literal activeStokesbody and actualoldCG/W3j/W6j/LittleD/FCoeff functions;onlyrenameclassscope toavoidSDKsymbols; actualSDKmathsupport; dualcompilewithactualSDKfunctions;noEDItsoriginalfiles",
+  "cases": [
+    {
+      "id": "M22-E2-control",
+      "Ji2": 4,
+      "Jf2": 0,
+      "MP": 4,
+      "delta": 0.0,
+      "population": [
+        0,
+        0.24,
+        0.52,
+        0.24,
+        0
+      ]
+    },
+    {
+      "id": "spin1-pureM1-control",
+      "Ji2": 2,
+      "Jf2": 0,
+      "MP": 3,
+      "delta": 0.0,
+      "population": [
+        0.1,
+        0.8,
+        0.1
+      ]
+    },
+    {
+      "id": "spin2-pureM1-highrank",
+      "Ji2": 4,
+      "Jf2": 2,
+      "MP": 3,
+      "delta": 0.0,
+      "population": [
+        0.05,
+        0.2,
+        0.5,
+        0.2,
+        0.05
+      ]
+    },
+    {
+      "id": "spin1-mixedM1E2",
+      "Ji2": 2,
+      "Jf2": 2,
+      "MP": 304,
+      "delta": 0.2,
+      "population": [
+        0.1,
+        0.8,
+        0.1
+      ]
+    },
+    {
+      "id": "spin1-mixedlabel-delta0",
+      "Ji2": 2,
+      "Jf2": 2,
+      "MP": 304,
+      "delta": 0.0,
+      "population": [
+        0.1,
+        0.8,
+        0.1
+      ]
+    },
+    {
+      "id": "Na1041-RB-branches-mapped-to-native",
+      "Ji2": 9,
+      "Jf2": 9,
+      "MP": 304,
+      "deltas": [
+        0.0,
+        0.85
+      ],
+      "population_model": "Gaussian sigma/J=.56; authorcentral onlydeclaredcontrol,notactualeventrefit",
+      "delta_RB_labels": [
+        0.0,
+        -0.85
+      ]
+    }
+  ],
+  "angles_deg": [
+    23.4,
+    45,
+    90,
+    131.4
+  ],
+  "phi_rad": [
+    0.0,
+    0.37,
+    1.17
+  ],
+  "mathematical_hypotheses_before_execute": [
+    "mixedtermK0 has CG(1,1;2,-1|0,0)=0 so literal0/0*F0 mayyieldNaN even delta0;must actualcompile beforeclaim",
+    "pureM1Ji2 bodyloopsrank4 despiteF4=0;ratio0/0possibleevenrho4=0",
+    "pureE2Ji2 shouldprovide finitephysical positivecontrol",
+    "norm0 endpoints physicallyundefined;donotcliporacceptsentinel"
+  ],
+  "scope_limits": [
+    "nofullUCGretinaeventrun",
+    "noMorseexactproducer/covariance/responsecertification",
+    "noDay18",
+    "missinginstitutionalFSUprimarybodyremains"
+  ],
+  "version_note": "v2 corrects initial Na case identity: G4same-emitter delta isnative/KS, notRB; originalinput/resultkept",
+  "base_input_sha256": "99dd9e692718c171c6ddf5469433f5c02c0a4ba4e24e3e211fafead3901d74f7",
+  "phase_contract": {
+    "definition": "sameFCoefficient/SameJi/Jf/K operators; compareG4F toL26sourceR for12and21cross terms; no relabelwithoutcoefficientcheck",
+    "expected_bridge": "delta_G4native = -delta_RB for adjacentM1/E2 inselectedsingle-emittercontract",
+    "L26_RB_branches": [
+      0.0,
+      -0.85
+    ],
+    "G4_native_branches": [
+      0.0,
+      0.85
+    ],
+    "sigma_over_J": 0.56,
+    "no_experimental_refit": true
+  }
+}
