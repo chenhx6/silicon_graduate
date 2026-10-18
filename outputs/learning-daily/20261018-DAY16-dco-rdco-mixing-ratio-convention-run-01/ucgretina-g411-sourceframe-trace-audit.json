@@ -1,0 +1,56 @@
+{
+  "at": "2026-10-19T02:30:45.036979+08:00",
+  "rows": [
+    {
+      "mode": "decay-preinit",
+      "log": "tmp/day16-ucgretina/g411-sourceframe-trace-005/decay-preinit/run.log",
+      "log_sha256": "5dc7d20d4c46d40368ed5de0b9d652e640547d14a8d8836aae10ec54e9e4caa2",
+      "polyethylene_material_present": false,
+      "primary": {
+        "line": 9649,
+        "particle_and_ids": "* G4Track Information:   Particle = Eu152,   Track ID = 1,   Parent ID = 0",
+        "initial_step": [
+          9653,
+          "    0    0.000    0.000    0.000     0.000    0.000    0.000     0.000      Target initStep"
+        ]
+      },
+      "euTape_initial_steps": 0,
+      "Target_initial_steps": 10,
+      "first_gamma": {
+        "line": 9690,
+        "particle_and_ids": "* G4Track Information:   Particle = gamma,   Track ID = 8,   Parent ID = 5",
+        "initial_step": [
+          9694,
+          "    0   -0.000    0.000    0.000     0.444    0.000    0.000     0.000      Target initStep"
+        ]
+      }
+    },
+    {
+      "mode": "decay-postinit",
+      "log": "tmp/day16-ucgretina/g411-sourceframe-trace-005/decay-postinit/run.log",
+      "log_sha256": "4d50ec5972f41e5bef8b1338035bda1b438d60a5fb96bd0a73a122070a033656",
+      "polyethylene_material_present": true,
+      "primary": {
+        "line": 9649,
+        "particle_and_ids": "* G4Track Information:   Particle = Eu152,   Track ID = 1,   Parent ID = 0",
+        "initial_step": [
+          9653,
+          "    0    0.000    0.000    0.000     0.000    0.000    0.000     0.000      euTape initStep"
+        ]
+      },
+      "euTape_initial_steps": 10,
+      "Target_initial_steps": 0,
+      "first_gamma": {
+        "line": 9678,
+        "particle_and_ids": "* G4Track Information:   Particle = gamma,   Track ID = 8,   Parent ID = 5",
+        "initial_step": [
+          9682,
+          "    0   -0.000    0.000    0.000     0.444    0.000    0.000     0.000      euTape initStep"
+        ]
+      }
+    }
+  ],
+  "scope": "onehistorysameoriginalseeds; actualnavigation/materialdifference; not fullgeometrybenchmark",
+  "prediction_supported": true,
+  "originalsource_modified": false
+}

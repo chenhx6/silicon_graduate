@@ -1,0 +1,7 @@
+{
+  "at": "2026-10-19T02:45:14.814471+08:00",
+  "before_cov_and_spectrum": true,
+  "region_design_beforeMC": "ucgretina-g411-eu152-100k-contract.json",
+  "contract_sha256": "bf96743a6e9aaee470f6f828c7b7263bcfa6128959f8b18ac394e72817384aa6",
+  "script_sha256": "3bd61b79dc005b9da5d2323fff97927289a50f96bef42ea3c1a98b0a826e16f0"
+}

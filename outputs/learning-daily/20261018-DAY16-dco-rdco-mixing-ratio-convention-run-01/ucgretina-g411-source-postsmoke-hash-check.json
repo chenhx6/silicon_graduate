@@ -1,0 +1,7 @@
+{
+  "at": "2026-10-19T02:41:26.631918+08:00",
+  "verified_original_blobs": 724,
+  "mismatches": [],
+  "after_builds_and_sourceframe_smokes": true,
+  "100k_MC_executing_in_separate_workdirs": true
+}

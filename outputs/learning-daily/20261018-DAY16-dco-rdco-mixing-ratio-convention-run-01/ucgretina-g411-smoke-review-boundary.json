@@ -1,0 +1,16 @@
+{
+  "at": "2026-10-19T01:56:10.872945+08:00",
+  "first_wrapper_exit": 1,
+  "program_gamma_exit": 0,
+  "gamma_events_processed_log": 1000,
+  "gamma_output_bytes": 395840,
+  "decay_smoke_executed": false,
+  "guard_trigger": "6G4Exception-STARTrecords; allactualGeomMgt1001 JustWarning fromCConvexPolyhedron missingBoundingLimits returnsinfinitebox",
+  "other_geometry_log_messages": [
+    "duplicateG4_Galactic materialname",
+    "wallverticesoutsideplanesbyapprox.002–.0036mm"
+  ],
+  "not_assumed_benign_or_fatal": "reviewactualCalculateExtent/Inside andparseenergy/GEBbeforelargerMC; scopeordinarysimulationcompatibility/readiness notuserpermission",
+  "source_modified": false,
+  "MCfullresponse_notvalidated": true
+}

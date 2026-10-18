@@ -1,0 +1,12 @@
+{
+  "at": "2026-10-19T02:05:17.076940+08:00",
+  "program_decay_exit": 0,
+  "decay_events_processed": 1000,
+  "smoke_wrapper_exit": 1,
+  "extra_unreviewed_runtime_warning": "PART102/He1 duringOutgoing_BeamUpdate defaulttarget bookkeeping",
+  "decoder_first_exit": 1,
+  "decoder_error": "ValueError max() emptyemittedgamma iterable, before resultserialization",
+  "scientific_observation_pending_validation": "all parsedG4SIMevents hadnum0; no syntheticgammafields maybefilled",
+  "parser_fix": "handleemptytruthasexplicitissueandnullmax notcrash;retainfirstscriptSnapshot008",
+  "next": "actualSDKRadioactivationname/headerandTrackingActionpredicate contract;do notyetclaimdecaytruthvalid"
+}

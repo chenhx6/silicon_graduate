@@ -1,0 +1,18 @@
+{
+  "at": "2026-10-18T17:39:40.137896+00:00",
+  "url": "https://api.github.com/repos/rileyle/UCGretina/tarball/02e5a9241322f661c6918f6705cab813c691cd21",
+  "commit": "02e5a9241322f661c6918f6705cab813c691cd21",
+  "status": 200,
+  "final_url": "https://codeload.github.com/rileyle/UCGretina/legacy.tar.gz/02e5a9241322f661c6918f6705cab813c691cd21",
+  "bytes": 16909304,
+  "path": "tmp/day16-ucgretina/ucgretina-g411.tar.gz",
+  "sha256": "0a8b686fd54aab33542b76f2b599696a40e6e2b9301dde2053472bd7e7dc5024",
+  "is_tar": true,
+  "members": 794,
+  "archive_top_dirs": [
+    "rileyle-UCGretina-02e5a92"
+  ],
+  "extract_dir": "tmp/day16-ucgretina/g411-original",
+  "source_dir": "tmp/day16-ucgretina/g411-original/rileyle-UCGretina-02e5a92",
+  "safe_data_filter": true
+}

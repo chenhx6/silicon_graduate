@@ -1,0 +1,28 @@
+{
+  "identity": "UCGRETINA-SOURCE-HISTORY-COV-01",
+  "native_audit": "outputs/learning-daily/20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/ucgretina-g411-v4-gamma-GEB-audit.json",
+  "native_audit_sha256": "cf31556e4e7ad4c80a2a59891e198f0daad1875b871ac3cc2923ce4e142a1816",
+  "data": "tmp/day16-ucgretina/g411-smoke-004-source-append/gamma/gamma-smoke.dat",
+  "data_sha256": "3e66d748fccb0ed2d64b6a353f9fd64dd27904a675e6593ccc7ba6eee713272f",
+  "histories": 1000,
+  "regions_half_open_keV": [
+    [
+      120,
+      128
+    ],
+    [
+      1404,
+      1412
+    ],
+    [
+      1540,
+      1800
+    ],
+    [
+      1800,
+      3000
+    ]
+  ],
+  "mode": "gamma",
+  "scope": "1000eventsourceonlyfiniteMCmodel; notexperimentSigma"
+}

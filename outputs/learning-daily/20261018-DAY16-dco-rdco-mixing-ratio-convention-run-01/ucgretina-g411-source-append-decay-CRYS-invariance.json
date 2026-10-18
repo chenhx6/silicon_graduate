@@ -1,0 +1,19 @@
+{
+  "at": "2026-10-18T18:27:31.183364+00:00",
+  "script_sha256": "988326e68be08e5279f5a58aeae6d3b50a247f44791dec094ec23d444e003415",
+  "old": "tmp/day16-ucgretina/g411-smoke-002/decay/decay-smoke.dat",
+  "new": "tmp/day16-ucgretina/g411-smoke-004-source-append/decay/decay-smoke.dat",
+  "old_sha256": "35e2a16cfa7ad36d5a1d6284ff8ee9e338aca80d6db1732f1b64d3fe05281da8",
+  "new_sha256": "f4044af1a7c9d4a91d3de04cb3082aedd759d54d870f75e7ceeb5100d52fc1ac",
+  "old_CRYS_records": 349,
+  "new_CRYS_records": 349,
+  "same_timestamp_crystal_keys": true,
+  "mismatch_timestamp_crystals": [],
+  "all_known_CRYS_fields_bitwise_equal": true,
+  "excluded_fields": [
+    "trig_time bytes40:48",
+    "unused IP tail",
+    "type11 capacity/padding/beta"
+  ],
+  "scope": "chosen same-seed source histories only; not full geometry/response proof"
+}

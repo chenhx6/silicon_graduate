@@ -1,0 +1,43 @@
+{
+  "identity": "UCGRETINA-G411-HEADLESS-SOURCE-BUILD-01",
+  "contract_sha256": "0f777933e0c0b4969e82e7e5bb1738069fb12676ad6aaf3a9ce47831fae4faa8",
+  "script_sha256": "b4254d80c81413facc77672d57e75b6191d43bf93944f3ad148ba43d3de26072",
+  "source_commit": "02e5a9241322f661c6918f6705cab813c691cd21",
+  "source_blobs_after_build_unchanged": true,
+  "generated_header_sha256": "32273a9d6eada9524115c42e69baeeb16ee4cfc36a05ed52fe8539cf10591274",
+  "CMake_wrapper_sha256": "23b9b8be8e26ca2c5ebb4eed68e92cd0fd16a890135d6284fbd512ed62e7610d",
+  "commands": [
+    {
+      "command": [
+        "cmake",
+        "-S",
+        "/workspace/wiki/tmp/day16-ucgretina/g411-headless-build/wrapper",
+        "-B",
+        "/workspace/wiki/tmp/day16-ucgretina/g411-headless-build/build",
+        "-G",
+        "Ninja",
+        "-DCMAKE_BUILD_TYPE=Release"
+      ],
+      "exit_code": 0,
+      "elapsed_s": 2.217100630979985,
+      "log": "tmp/day16-ucgretina/g411-headless-build/configure.log"
+    },
+    {
+      "command": [
+        "cmake",
+        "--build",
+        "/workspace/wiki/tmp/day16-ucgretina/g411-headless-build/build",
+        "--parallel",
+        "2"
+      ],
+      "exit_code": 0,
+      "elapsed_s": 54.86832206801046,
+      "log": "tmp/day16-ucgretina/g411-headless-build/build.log"
+    }
+  ],
+  "binary": "tmp/day16-ucgretina/g411-headless-build/build/UCGretina",
+  "binary_sha256": "b8ccd8f4ccd8667e5fd1e90ccf9707b43886d3c465bdd1f41e9ef5f0c11c87c0",
+  "MC_executed": false,
+  "global_install_or_configuration_changed": false,
+  "polarized_EM_or_original_paper_response_validated": false
+}

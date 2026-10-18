@@ -1,0 +1,13 @@
+{
+  "at": "2026-10-19T02:42:33.835246+08:00",
+  "session_id": "01a14ce6-425e-77c1-a127-2ac980bd76b5",
+  "sha256": "ecd509c4b89a35475dc9b17733ee3705b9ac8de28857eff0ae5b3d58b201a02c",
+  "before_metadata_and_fulltext": true,
+  "primed": true,
+  "day_index": 16,
+  "partial_day_indices": [
+    17
+  ],
+  "goal_status": "active",
+  "original_deadline": "2026-10-19T15:00:00+08:00"
+}

@@ -1,0 +1,17 @@
+{
+  "identity": "UCGRETINA-G411-HEADLESS-SOURCE-BUILD-01",
+  "source": "tmp/day16-ucgretina/g411-original/rileyle-UCGretina-02e5a92",
+  "source_commit": "02e5a9241322f661c6918f6705cab813c691cd21",
+  "source_archive_sha256": "0a8b686fd54aab33542b76f2b599696a40e6e2b9301dde2053472bd7e7dc5024",
+  "source_verification": "ucgretina-g411-source-tree-verification.json",
+  "SDK": "11.4.2",
+  "mode": "noPOL/noSCANNING/noLHTARGET/noNEUTRONS,standardem_opt4, sourceenergycalibrationonly",
+  "wrapper": "newCMake wrapper/headlessconfiglibs/sourcepinnedGit_Hash.hh inbuilddir;neverexecuteGNUmakefilegenerationorclean;nevermodifyoriginal724blobs",
+  "build_dir": "tmp/day16-ucgretina/g411-headless-build",
+  "compile_parallel_jobs": 2,
+  "source_units": "originalUCGretina.cc +src/*.cc, inactivepreprocessbranchesremaininactive",
+  "metadata_precedence": "generatedinclude before sourceinclude soGit_Hash usesactualpinnedpublicsha, no outerWikiHEAD",
+  "runtime_dependency_boundary": "READMEbranchsaysPOLnotworking/notextensivelytested; scopeonlyunpolarizedsourceenergies;noQoractualMorseproducerclaim",
+  "no_global_install_or_env_changes": true,
+  "before_compile": true
+}

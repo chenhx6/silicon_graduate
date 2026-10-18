@@ -1,0 +1,62 @@
+{
+  "identity": "UCGRETINA-G411-HEADLESS-SOURCE-BUILD-01",
+  "contract_sha256": "ac37455b397a1b7058aabf451c29e79adfc713cd59fee356984908dffd90e3c8",
+  "script_sha256": "82e5e4d41338aae63c8f92fade6d72b83b3a3ca5c8a9f2d36c5fe3d70cdbdfd3",
+  "source_commit": "02e5a9241322f661c6918f6705cab813c691cd21",
+  "source_blobs_after_build_unchanged": true,
+  "overlay_files": [
+    {
+      "original_relative": "src/TrackingAction.cc",
+      "original_sha256": "98f41a10eeaabeba2535386542bfc88272ffee9888df11a27ec6467f8db9149d",
+      "overlay_path": "tmp/day16-ucgretina/g411-truth-append-build/overlays/TrackingAction.cc",
+      "overlay_sha256": "da672a3464f521f5af48e5c03870a28de5e88edab1f33513cbfadae88ce11cba",
+      "purpose": "source-onlyeligiblephotonrecordappend/old-newprocessname;capacityfatalguard;βmetadataexplicitlyunvalidatednotzero-filled"
+    },
+    {
+      "original_relative": "src/EventInformation.cc",
+      "original_sha256": "9553242625625579cd659f60d24fb6684fac2aecbcbb566c096708466d2448e2",
+      "overlay_path": "tmp/day16-ucgretina/g411-truth-append-build/overlays/EventInformation.cc",
+      "overlay_sha256": "cf7fb3667001eb6e7f878efc863ae14e0a702f15dd2d7ac2a6129d1dc5104327",
+      "purpose": "source-onlyeligiblephotonrecordappend/old-newprocessname;capacityfatalguard;βmetadataexplicitlyunvalidatednotzero-filled"
+    }
+  ],
+  "additional_definitions": [
+    "HIGHMULT"
+  ],
+  "generated_header_sha256": "3ad1b0ff95d0ff1d50a2de1e8f7660497f3642a44cbca08142d498f9edbfd859",
+  "CMake_wrapper_sha256": "7d83d05fe620fbae79ac18e6fc484f7ac328930950eb96cd3eb4128500aeb5a2",
+  "commands": [
+    {
+      "command": [
+        "cmake",
+        "-S",
+        "/workspace/wiki/tmp/day16-ucgretina/g411-truth-append-build/wrapper",
+        "-B",
+        "/workspace/wiki/tmp/day16-ucgretina/g411-truth-append-build/build",
+        "-G",
+        "Ninja",
+        "-DCMAKE_BUILD_TYPE=Release"
+      ],
+      "exit_code": 0,
+      "elapsed_s": 2.1500026649446227,
+      "log": "tmp/day16-ucgretina/g411-truth-append-build/configure.log"
+    },
+    {
+      "command": [
+        "cmake",
+        "--build",
+        "/workspace/wiki/tmp/day16-ucgretina/g411-truth-append-build/build",
+        "--parallel",
+        "2"
+      ],
+      "exit_code": 0,
+      "elapsed_s": 53.207611809019,
+      "log": "tmp/day16-ucgretina/g411-truth-append-build/build.log"
+    }
+  ],
+  "binary": "tmp/day16-ucgretina/g411-truth-append-build/build/UCGretina",
+  "binary_sha256": "d39e218fe44899e526c9a6c99cfa309b28dd891fdcae5e65483423c5c6516347",
+  "MC_executed": false,
+  "global_install_or_configuration_changed": false,
+  "polarized_EM_or_original_paper_response_validated": false
+}

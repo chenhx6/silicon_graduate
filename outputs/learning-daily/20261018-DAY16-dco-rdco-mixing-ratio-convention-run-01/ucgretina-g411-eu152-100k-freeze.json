@@ -1,0 +1,14 @@
+{
+  "at": "2026-10-19T02:32:17.189928+08:00",
+  "session_id": "01a14ce6-425e-77c1-a127-2ac980bd76b5",
+  "primed": true,
+  "before_large_MC": true,
+  "contract_sha256": "6def08c576ac336b56d3361573e3715fde4512ef1ecb991dd1fcaa2ea9fdf13d",
+  "script_sha256": "39b7ccb304c1285446a6956b11831d9fa616ae9b84b4c7a1c06382c4e8efe390",
+  "sourceframe_smoke_decode_passed": true,
+  "formal_day16_once": true,
+  "partial_day_indices": [
+    17
+  ],
+  "hard_deadline": "2026-10-19T15:00:00+08:00"
+}

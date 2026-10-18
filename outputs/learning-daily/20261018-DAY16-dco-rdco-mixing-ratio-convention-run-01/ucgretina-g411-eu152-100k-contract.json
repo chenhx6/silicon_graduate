@@ -1,0 +1,180 @@
+{
+  "identity": "UCGRETINA-G411-EU152-SMOKE-01",
+  "day_index": 16,
+  "partial_day_indices": [
+    17
+  ],
+  "source_commit": "02e5a9241322f661c6918f6705cab813c691cd21",
+  "binary": "tmp/day16-ucgretina/g411-truth-append-build/build/UCGretina",
+  "binary_sha256": "d39e218fe44899e526c9a6c99cfa309b28dd891fdcae5e65483423c5c6516347",
+  "input_files": [
+    {
+      "name": "aclust",
+      "path": "tmp/day16-ucgretina/g411-original/rileyle-UCGretina-02e5a92/examples/sources/eu152/aclust",
+      "resolved": "/workspace/wiki/tmp/day16-ucgretina/g411-original/rileyle-UCGretina-02e5a92/GretinaGeometry/Slot0/G120C4clust.list",
+      "bytes": 424,
+      "sha256": "9055e9d738bc174fa927e566f470ef499cafaa3d8dba5906e810703839d93800",
+      "is_symlink": true
+    },
+    {
+      "name": "aeuler",
+      "path": "tmp/day16-ucgretina/g411-original/rileyle-UCGretina-02e5a92/examples/sources/eu152/aeuler",
+      "resolved": "/workspace/wiki/tmp/day16-ucgretina/g411-original/rileyle-UCGretina-02e5a92/GretinaGeometry/GretinaNSCL/G120C4euler.list",
+      "bytes": 357,
+      "sha256": "cb6f01afddabe9fbaccd8e4835921a47f7857991ec0aca99ce8cb1759378dab3",
+      "is_symlink": true
+    },
+    {
+      "name": "aslice",
+      "path": "tmp/day16-ucgretina/g411-original/rileyle-UCGretina-02e5a92/examples/sources/eu152/aslice",
+      "resolved": "/workspace/wiki/tmp/day16-ucgretina/g411-original/rileyle-UCGretina-02e5a92/GretinaGeometry/Slot0/G120C4slice.list",
+      "bytes": 453,
+      "sha256": "85c030e7e5888a9bb7ce58028310316a3b29ec30bbcfe8b69ea979626576aad8",
+      "is_symlink": true
+    },
+    {
+      "name": "asolid",
+      "path": "tmp/day16-ucgretina/g411-original/rileyle-UCGretina-02e5a92/examples/sources/eu152/asolid",
+      "resolved": "/workspace/wiki/tmp/day16-ucgretina/g411-original/rileyle-UCGretina-02e5a92/GretinaGeometry/Slot0/G120C4solid.list",
+      "bytes": 1726,
+      "sha256": "bf5518bf42628a8c7caf812285f998863a93658a790bfef15ff9e9705bb794dd",
+      "is_symlink": true
+    },
+    {
+      "name": "awalls",
+      "path": "tmp/day16-ucgretina/g411-original/rileyle-UCGretina-02e5a92/examples/sources/eu152/awalls",
+      "resolved": "/workspace/wiki/tmp/day16-ucgretina/g411-original/rileyle-UCGretina-02e5a92/GretinaGeometry/Slot0/G120C4walls.list",
+      "bytes": 11235,
+      "sha256": "9bba9cfdd283258f1f8cc85ce7379df256e6d71341dc858fb420d791203614c7",
+      "is_symlink": true
+    },
+    {
+      "name": "crmat.LINUX",
+      "path": "tmp/day16-ucgretina/g411-original/rileyle-UCGretina-02e5a92/examples/sources/eu152/crmat.LINUX",
+      "resolved": "/workspace/wiki/tmp/day16-ucgretina/g411-original/rileyle-UCGretina-02e5a92/examples/sources/eu152/crmat.LINUX",
+      "bytes": 7936,
+      "sha256": "5c29ed50f6d059caea631648407680f74bb93982fdba8d2643f99351f3cb77cc",
+      "is_symlink": false
+    },
+    {
+      "name": "z62.a152.lvldata",
+      "path": "tmp/day16-ucgretina/g411-original/rileyle-UCGretina-02e5a92/examples/sources/eu152/z62.a152.lvldata",
+      "resolved": "/workspace/wiki/tmp/day16-ucgretina/g411-original/rileyle-UCGretina-02e5a92/examples/sources/eu152/z62.a152.lvldata",
+      "bytes": 83399,
+      "sha256": "0f91bc3518cfc943ceefe93c8da7b5acc004d9d3506a25483ab7db05e89989d2",
+      "is_symlink": false
+    },
+    {
+      "name": "z64.a152.lvldata",
+      "path": "tmp/day16-ucgretina/g411-original/rileyle-UCGretina-02e5a92/examples/sources/eu152/z64.a152.lvldata",
+      "resolved": "/workspace/wiki/tmp/day16-ucgretina/g411-original/rileyle-UCGretina-02e5a92/examples/sources/eu152/z64.a152.lvldata",
+      "bytes": 88711,
+      "sha256": "439140c0cef7a4830266d7c59ef277ab56be80eb18e2fcfa42babe3290d51025",
+      "is_symlink": false
+    },
+    {
+      "name": "eu152_gammas.mac",
+      "path": "tmp/day16-ucgretina/g411-original/rileyle-UCGretina-02e5a92/examples/sources/eu152/eu152_gammas.mac",
+      "resolved": "/workspace/wiki/tmp/day16-ucgretina/g411-original/rileyle-UCGretina-02e5a92/examples/sources/eu152/eu152_gammas.mac",
+      "bytes": 819,
+      "sha256": "a9d7edebab1d2fe0b2b898ea5e0de51419471e72b5b6b22cb9ddb711601ea5a1",
+      "is_symlink": false
+    },
+    {
+      "name": "eu152.mac",
+      "path": "tmp/day16-ucgretina/g411-original/rileyle-UCGretina-02e5a92/examples/sources/eu152/eu152.mac",
+      "resolved": "/workspace/wiki/tmp/day16-ucgretina/g411-original/rileyle-UCGretina-02e5a92/examples/sources/eu152/eu152.mac",
+      "bytes": 1558,
+      "sha256": "9f7de954ebccdabe447a491c144ddfdf7b00cfb6525807b1679a694e0f63222e",
+      "is_symlink": false
+    }
+  ],
+  "work_root": "tmp/day16-ucgretina/g411-eu152-statistics-007",
+  "modes": [
+    {
+      "id": "gamma",
+      "macro": "eu152_gammas.mac",
+      "events": 100000,
+      "seeds": [
+        20261019,
+        152101
+      ],
+      "output_file": "gamma-100k.dat"
+    },
+    {
+      "id": "decay",
+      "macro": "eu152.mac",
+      "events": 100000,
+      "seeds": [
+        20261019,
+        152102
+      ],
+      "output_file": "decay-100k.dat",
+      "sourceframe_after_initialize": true
+    }
+  ],
+  "macro_changes": "newnamedmatchedframe: originalgammaalreadyafterinit, moveonlydecaylineafterruninitialize; fixed100000count/newseeds/output, no parameter tuning",
+  "runtime_env": "onlycommandlevelG4datasetvarsfromSDKdatasets andTMPDIR/G4WORKDIRinsideworkroot; noSDKinstall/globalenv",
+  "checks": [
+    "exitcodeandactualSimulating1000line/runcompletion",
+    "noCOMMANDNOTFOUND/invalidparameter/abortedmacro/FatalException/datafilemissing",
+    "nativeGEBstructABIbycompiler; no truncatedrecords/payloadlength/magic/numoverflow",
+    "alltimestampsin0..999*10000; gamma mode exactlyoneemitted\u03b3 perevent",
+    "finitepositivevalidenergies/core/IPcount; maxdeposit<=emittedtotal withdeclaredtolerance ignoringtruthuninitializedbeta",
+    "geo7quad/28crystalidentities; sourcefile/report expectedpubliccommit",
+    "postrunoriginalsource724hashes andcopiedinputs unchanged"
+  ],
+  "scope_boundary": "newG411/11.4.2 SOURCE ENERGY MODEL ONLY; noPOL/Q/original2012template; geometrywarning and betaunvalidated retained",
+  "before_MC": true,
+  "reviewed_warning_blocks": [
+    {
+      "code": "GeomMgt1001",
+      "message_contains": "Not implemented for solid: CConvexPolyhedron",
+      "requires_just_warning": true,
+      "max_count": 6
+    },
+    {
+      "code": "PART102",
+      "message_contains": "Strange PDGEncoding",
+      "requires_just_warning": true,
+      "max_count": 1
+    }
+  ],
+  "reviewed_PART102_context": "onlyHe1unusedtargetkinematicsfromdefaultTarA=TarZ=1andDZ=-1; Reactioninactivated; finalprimarylogA152/Z63. Keepblock,requirecoherentphysicalcorecomparisons",
+  "compile_definitions": [
+    "HIGHMULT"
+  ],
+  "validation_addition": "same1000seeds/macroknownphysicalCRYSfieldsbitwiseoldmatch; positiveE/finiteactualemissiondata/nooverflow40; stopwiderpatchifadditionalgaps",
+  "overlay_input_contract": "ucgretina-g411-source-truth-append-build-contract.json",
+  "source_only_recording": "denseappendactualeligiblecallbacks; \u03b2/boostperphotonnotvalidated/ignored; no syntheticfields",
+  "timeout_seconds": 1800,
+  "analysis_before_run": {
+    "event_unit": {
+      "gamma": "one primary photon",
+      "decay": "one Eu152 decay history"
+    },
+    "postprocess": "native CRYS tot_e, 8000 bins0..8000keV then Rebin4 equivalent, no energy smearing/threshold/addback/Compton selection",
+    "regions_half_open_keV": [
+      [
+        120,
+        128
+      ],
+      [
+        1404,
+        1412
+      ],
+      [
+        1540,
+        1800
+      ],
+      [
+        1800,
+        3000
+      ]
+    ],
+    "covariance": "perhistory vector counts: fixedN Cov(total)=N/(N-1)*(sumccT-SS^T/N); compoundPoisson contrast=sumccT; neither is experimentalCov",
+    "highwindow_question": "does this version-limited decay model predict source counts above1800 and/or1540; gamma listmax1408 energyconservationcontrol",
+    "not_fit": "no retunedactivity/background/sourcegeometrytoforce historicfit; originaldatahasnoeventSigma",
+    "failure_controls": "nativeABI/hash/magic/timestamp/finitecore andtruth/40capacity; retainedreviewedwarnings only; stopunknownwarning/nonpositive/overflow/decoderissue"
+  }
+}

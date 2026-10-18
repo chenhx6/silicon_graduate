@@ -1,0 +1,16 @@
+[
+  {
+    "url": "https://raw.githubusercontent.com/Geant4/geant4/v11.4.2/source/processes/hadronic/models/radioactive_decay/include/G4Radioactivation.hh",
+    "file": "tmp/day16-ucgretina/geant4-11.4.2-interface/G4Radioactivation.hh",
+    "http_status": 200,
+    "sha256": "1c164b2b68cb557975964e3c3b8076844de0c944c685e9f515f2c3409454c718",
+    "matches_installed": true
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Geant4/geant4/v11.4.2/source/processes/hadronic/models/radioactive_decay/include/G4RadioactiveDecay.hh",
+    "file": "tmp/day16-ucgretina/geant4-11.4.2-interface/G4RadioactiveDecay.hh",
+    "http_status": 200,
+    "sha256": "7ffc97f3141a64deac3de6194a454c2b76edcee4bf203c18a07feceac090765a",
+    "matches_installed": true
+  }
+]

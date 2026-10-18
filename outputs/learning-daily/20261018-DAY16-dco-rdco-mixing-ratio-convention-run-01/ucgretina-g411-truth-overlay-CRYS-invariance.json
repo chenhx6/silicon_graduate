@@ -1,0 +1,30 @@
+{
+  "at": "2026-10-18T18:15:15.550358+00:00",
+  "comparison": "same-mode/seeds/macrophysics, original vs truthcompat overlay+HIGHMULT40",
+  "results": [
+    {
+      "mode": "gamma",
+      "old": "tmp/day16-ucgretina/g411-smoke-001/gamma/gamma-smoke.dat",
+      "new": "tmp/day16-ucgretina/g411-smoke-003-truth-compat/gamma/gamma-smoke.dat",
+      "old_sha256": "9bc488f7cef316979f0a253a1273270b13213ca54a24243a0605692c216aa1ba",
+      "new_sha256": "bc55a313778c4fe1de237f30e5fbabda0ab0cbaca2ab449eb34e64564ff79bb8",
+      "old_CRYS_records": 183,
+      "new_CRYS_records": 183,
+      "all_known_CRYS_fields_bitwise_equal": true,
+      "uninitializedtrig_time_IPtailandG4truthcapacityexcluded": true
+    },
+    {
+      "mode": "decay",
+      "old": "tmp/day16-ucgretina/g411-smoke-002/decay/decay-smoke.dat",
+      "new": "tmp/day16-ucgretina/g411-smoke-003-truth-compat/decay/decay-smoke.dat",
+      "old_sha256": "35e2a16cfa7ad36d5a1d6284ff8ee9e338aca80d6db1732f1b64d3fe05281da8",
+      "new_sha256": "17a874dd116b984c3bc0b1df0edb707091c19865c0166487e17465138cdf823e",
+      "old_CRYS_records": 349,
+      "new_CRYS_records": 349,
+      "all_known_CRYS_fields_bitwise_equal": true,
+      "uninitializedtrig_time_IPtailandG4truthcapacityexcluded": true
+    }
+  ],
+  "scope": "chosen1000eventruns physicaldetectorrecordsinvariant; notallseedsorfullresponseproof",
+  "original_source_and_data_modified": false
+}

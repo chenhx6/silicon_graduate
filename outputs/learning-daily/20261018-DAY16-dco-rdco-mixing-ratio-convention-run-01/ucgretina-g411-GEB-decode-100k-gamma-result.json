@@ -1,0 +1,73 @@
+{
+  "identity": "UCGRETINA-NATIVE-GEB-SMOKE-DECODE-01",
+  "contract_sha256": "9113f4000bcc265f095b168648192e891737c80503ced83d5e5bb36e164b9949",
+  "script_sha256": "e51f5527b273f694c8d34ed5d41399fd4276725c760318f7e9cb2c024ea0874c",
+  "binary_data_sha256": "1e88a205b634b38d6d559c0c4f5673781cc8c115950107957963323cd8f942c8",
+  "ABI_sizes_header_crys_IP_offset_sim_EG_offset_maxIP_maxGamma": [
+    16,
+    464,
+    24,
+    80,
+    1132,
+    28,
+    12,
+    16,
+    40
+  ],
+  "record_count": 120431,
+  "record_types": {
+    "11": 100000,
+    "1": 20431
+  },
+  "sim_events": 100000,
+  "sim_multiplicity": {
+    "1": 100000
+  },
+  "crystal_record_count": 20431,
+  "crystal_id_counts": {
+    "24": 772,
+    "25": 714,
+    "26": 731,
+    "27": 682,
+    "28": 781,
+    "29": 728,
+    "30": 779,
+    "31": 699,
+    "32": 786,
+    "33": 693,
+    "34": 704,
+    "35": 698,
+    "36": 723,
+    "37": 646,
+    "38": 769,
+    "39": 727,
+    "60": 727,
+    "61": 675,
+    "62": 741,
+    "63": 753,
+    "64": 766,
+    "65": 752,
+    "66": 745,
+    "67": 751,
+    "68": 765,
+    "69": 668,
+    "70": 711,
+    "71": 745
+  },
+  "detected_event_count": 17576,
+  "timestamp_contract_passed": true,
+  "gamma_energy_excesses": [],
+  "producer_definitions": [
+    "HIGHMULT"
+  ],
+  "inconsistent_point_sums": [],
+  "nonpositive_gamma_truth_records": 0,
+  "max_abs_core_minus_untruncated_IPsum_keV": 0.00029754638671875,
+  "max_num_IP_records": 0,
+  "max_emitted_gamma_keV": 1408.02197265625,
+  "issues": [],
+  "valid_fields_only_padding_beta_ignored": true,
+  "all_declared_bookkeeping_controls_passed": true,
+  "geometry_warning_or_full_response_resolved": false,
+  "original_data_modified": false
+}

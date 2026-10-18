@@ -287,8 +287,13 @@ Day16 A25追加priming：[[nndc-2025-a25-mixing-reference-records]] N25-1–10�
 
 Day16 UCGretina追加priming：[[ucgretina-2021-polarized-emission-code]] UC21-1–9固定公开2021/2026内核与old10.7.4函数/installed11.4.2helpers，literalmixed/highrank 0/0×F失败、pureE2反证及photontrace已核；不是exactpaperproducer/全阵列重放。correctednative0/+.85映L26RB0/−.85，首轮identity错误与TLS失败保留。正式17不能只重跑旧168calls授卡；可沿新finite-expression/generalκ/response合同推进，原实验event/geometry/postprocess/Σ仍缺。
 
-Day16 finite/κ priming：UC21-10–13与Compton新段保存H解析消CG、samepol dκ0/d0κ及literalpureM1/evenκ U反号控制；消NaN不等于完整general Stokes通过。已冻结fullfinite/Jones代数合同待另验证；原Morseκ0/pureE2控制仍过，真实response/Cov缺口不变。正式17需新session自审，不换算旧检查数授卡。
+Day16 finite/κ priming：UC21-10–13与Compton新段保存H解析消CG、samepol dκ0/d0κ及literalpureM1/evenκ U反号控制；消NaN不等于完整general Stokes通过。fullfinite/Jones已另名验证，见UC21-14–16，未修成原producer；原Morseκ0/pureE2控制仍过，真实response/Cov缺口不变。正式17需新session自审，不换算旧检查数授卡。
 
 Day16 fullfinite追加priming：UC21-14–16另名fullq/Jones模型已在18声明case/540点及12新PSD态核IQUV/旋转/相位坐标/pure/zero/nonPSD；它不认证原publicproducer或实验response。首script少执行phasecontrol的记录/snapshot和补核已保留。下一source/sorting/公开ROOT数据readiness尚待实际新读，别把未读对象算证据。
 
-Day16 publicdata priming：UE12-1–11实际Eu152七quad source/bgROOT与a/window/sharedCov已核，normalGRUT排序反证使无序selector担忧收窄；truthFEP例不等原Comptonselection。无TTree/ξ/MCtemplate/fitCov/P/Q，不能转当前1041response。固定g411build可行性仅已冻结/metadata，未跑MC，正式17不得将未执行路线当交付。
+Day16 publicdata priming：UE12-1–11实际Eu152七quad source/bgROOT与a/window/sharedCov已核，normalGRUT排序反证使无序selector担忧收窄；truthFEP例不等原Comptonselection。无TTree/ξ/MCtemplate/fitCov/P/Q，不能转当前1041response。固定g411路线随后已有实际无POL源MC/几何/有限统计结果，见下段；历史MCtemplate仍未取得，新的模型不替原producer。
+
+
+Day16 source-MC checkpoint023 priming：[[ucgretina-2024-geant4-11-source-replay]] UG24-1–17与[[gretina-eu152-source-response-replay]]已核固定724blob/SDK11.4.2、原truth双失败/source-only记录副本、同1000seed有效CRYS不变及sourceFrame实际Target/euTape导航。各100000history新模型run/native/PSD/双算法/求和/hash通过，低区crossCov的fixedN与Poissonized条件化分开；1540–1800的decay三条与1800–3000零hit均只模型，不是实验sourcefree/P/Q/δ或2012exacttemplate。beta/boost/fullgeometry仍不认证。正式17不能用旧20万history或旧check数授分；需本session新问题/新artifact/主动回忆。
+
+Riley2021 DOI10.1016/j.nima.2021.165305/arxiv2104.09986v1已取得公开26页原件；截至checkpoint023只identity首页已读，全文/12fig主线尚未作为新证据写入。后续以current canonical source/原runreceipt核最新实际阅读进度；preparedprompt不替科学body。

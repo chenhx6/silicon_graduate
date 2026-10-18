@@ -8,15 +8,15 @@ updated: 2026-10-19
 
 ## Active handoff — DAY16 user-resumed original study window
 
-同run2026-10-18-day-16-01/session01a14ce6-425e-77c1-a127-2ac980bd76b5，原2026-10-19 15:00上海截止/15–16收束不变；goal active/pursuing。formal16一次next17/count16、partial17，不正式17/不开18；Farmer42019保留，无新session/daemon。
+同run2026-10-18-day-16-01/session01a14ce6-425e-77c1-a127-2ac980bd76b5，原2026-10-19 15:00上海截止/15–16收束不改；goal active/pursuing。formal16一次next17/count16、partial17，不正式17/不开18；Farmer42019保留，无新session/daemon。
 
-Checkpoint022：新sourceUE12-1–11/publicROOT source20/bg7及sorting/GRUT反证canonical，38changed/38items。actualegam11249812/1731654 counts，1800–3000 a.45673918/conditionalσ.00468656，1540–3000a.49262791；真实grossROI共享aCov1387.57counts²，非fitarea/eventΣ/P/Q。无TTree/Comptonξ/MCtemplate，lab方向hist不等于偏振面。README/code窗口/run号/fixed参数差别与γ/event-vs-decay/event分母保留。
+Checkpoint023：新G411 source UG24-1–17/Eu152response note与Compton/index/UE12联接，40changed/40items。固定source724blob与官方SDKheader核准；无POL。原truth全0、nameonly26空槽失败保留，source-onlyappend另名+40槽，beta/boost不认证；同种子183/349有效CRYS逐位不变。实际sourceFrame前/后init使primary Target/euTape不同，另名postinitdecay1k367/287、native0；几何warning未闭合。
 
-selector32无序distinct16fail不能外推normalchain：fixedGRUT BuildFrom->SortInts/comparator保证decompE降序，降序distinct控制已过；ties/原binary未认证。truthIsFEP/同crystal两IP例不冒称Morse/L26实际sorting。verification-reopened016 required0/reportcardwriteback38/38valid，lint0errors168warnings(126key39raw3parser)，原ROOT/humanprefix/PLAN/Bib保持；初numericdoublebracket表示法lint失败已fix留档。上批021actualpush已receipt；本批内容指针main / `Audit DAY16 public calibration counts and sorting contracts`，hash/H3/push仅publication022/runreceipt。
+各100k run/native/history实际0：CRYS20431/32976、detect17576/26257，四区counts(2364,555,0,0)/(3611,850,3,0)，fixedN Cov12−13.120331/+7.306573，PoissonizedH12=0/38；PSD/双算法/求和/hash过。1800–3000零只modelhistory概率界2.9956874e−5，非实验sourcefree/Q/δ/旧fullfit。3高区history中60023两γsum/core闭合，不造逐track归属。
 
-下一source-response-build-before/hash已冻：先读固定UCGgeant4.11 sha02e5a9241322f661c6918f6705cab813c691cd21（2024-01-21）README/build/geometry/source依赖，实际SDK11.4.2/ROOT/cmake存在但UCG/grutbinary无；branchmetadata已得、body未新读，不造MC/fullfit/Q。全部第三方/build/MC输出只tmp，禁止默认G4WORKDIR跑HOME或全局安装/凭据改动；wrapper/sourcegitheader要防读到外层WikiHEAD。可行才smoke/前置seed+输入后大统计；源校准不扩成寿命/B课。详continuation-current.md，仍约13h+至原15:00继续有价值路线。
+required017初三检查0，wrappertextlint误按JSON的exit1与correction保留；最终以verification-reopened017。内容稳定指针main / `Validate DAY16 source replay and geometry order controls`；精确hash/H3/实际push只publication023/runreceipt，前022actualpush已记录。
 
-原UC21有限fullq540模型/旧literal失败及pureE2反证保持，原17日报/18run-dir/session/resume/deadline/旧L26L25humanprefix不变。exactmanifest/HEAD+ownlog/H3非force，保护raw/PLAN/Bib/credentials/继承dirty/log/review；无新session/daemon。
+下一Riley2021 primary回忆已冻并标priming，DOI/arXiv身份与OA26页PDF核，仅首identity页读过，12fig/全文主线待读。见continuation-current.md和acquisition；先核passivelayers/source/efficiency/continuum/tuning与同数据谱系，未读不造科学claim。所有source/build/MC/ROOT在tmp、无全局安装/SDK改动；exactmanifest/HEAD+ownlog/H3非force，保护继承dirty/log/raw/PLAN/Bib/L26L25旧人审prefix。
 
 ## Previous active handoff — DAY16 completed; Day17 is next
 

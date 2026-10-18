@@ -1,0 +1,15 @@
+{
+  "identity": "UCGRETINA-NATIVE-GEB-SMOKE-DECODE-01",
+  "source_include": "tmp/day16-ucgretina/g411-original/rileyle-UCGretina-02e5a92/include",
+  "GEB_header_sha256": "82c32282095bb5dbc45de86a57dac2660fc9b136dfbbe168d7ac91d0bf0025df",
+  "binary_data": "tmp/day16-ucgretina/g411-smoke-001/gamma/gamma-smoke.dat",
+  "binary_sha256": "9bc488f7cef316979f0a253a1273270b13213ca54a24243a0605692c216aa1ba",
+  "mode": "gamma",
+  "requested_events": 1000,
+  "timestamp_step": 10000,
+  "valid_fields": "header/type/len/ts;CRYS_IPS type/id/num/tot_e/ips;G4SIM type/num/e/phi/theta/sourcepos;ignoreuninitializedpaddingandbeta",
+  "ABI": "compileactualGEB.hh offsetof/sizes before decoding,hostlittleendianrequired",
+  "checks": "no payloadtruncation/magicmisidentify,num1..MAX_INTPTS,finiteenergies,1000uniquesimtimestamp0..999;exactlyoneemittedgamma;deposit<=emittedenergy tolerance .05keV+1e-5*E;pointsumvscore onlyifnottruncated",
+  "scope": "smallrunparser/energy/bookkeepingreadiness,notfullgeometryresponseorcalibrationfit",
+  "geometry_log_warning_retained": "6GeomMgt1001JustWarning missingBoundingLimits, wallpoint/duplicatematerialmessages"
+}

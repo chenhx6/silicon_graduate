@@ -1,0 +1,10 @@
+{
+  "at": "2026-10-19T02:29:41.717488+08:00",
+  "primed": true,
+  "observed_before_control": "originalgamma frameafterinitialize andPOLYusedyes; originaldecayframebeforeinitialize andPOLYnotlistedused; TargetsetSourceFrame immediately placesvolumeswith expHall_log, noclear deferredconstruct",
+  "prediction": "movingonlydecaysourceFrameafterinitialize mayattachsourceframeandchangephysicalhistories; exactmainworldnavigationstillunverified",
+  "trace_control": "new1eventsame152002seeds pre/post, trackingverbose1 noRNGchange; inspectprimaryEu preStepvolume and materialcouples; no sourceoriginal edits/noQ",
+  "script_before_sha256": "dabf11c3a0b25e8ef02d41066ff6895fabdb2d1da1fd7a63a5b2a590e1380651",
+  "script_snapshot": "tmp/day16-ucgretina/script-snapshots/day16_ucgretina_g411_smoke.pre-geometry-control.py",
+  "before_geometry_control": true
+}

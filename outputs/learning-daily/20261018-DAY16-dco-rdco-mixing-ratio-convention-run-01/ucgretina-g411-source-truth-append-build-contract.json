@@ -1,0 +1,42 @@
+{
+  "identity": "UCGRETINA-G411-HEADLESS-SOURCE-BUILD-01",
+  "source": "tmp/day16-ucgretina/g411-original/rileyle-UCGretina-02e5a92",
+  "source_commit": "02e5a9241322f661c6918f6705cab813c691cd21",
+  "source_archive_sha256": "0a8b686fd54aab33542b76f2b599696a40e6e2b9301dde2053472bd7e7dc5024",
+  "source_verification": "ucgretina-g411-source-tree-verification.json",
+  "SDK": "11.4.2",
+  "mode": "SOURCE CALIBRATION ONLY noPOL/inbeam;HIGHMULT40;beta/boostmetadata remainsnotcertified",
+  "wrapper": "newCMake wrapper/headlessconfiglibs/sourcepinnedGit_Hash.hh inbuilddir;neverexecuteGNUmakefilegenerationorclean;nevermodifyoriginal724blobs",
+  "build_dir": "tmp/day16-ucgretina/g411-truth-append-build",
+  "compile_parallel_jobs": 2,
+  "source_units": "originalUCGretina.cc +src/*.cc, inactivepreprocessbranchesremaininactive",
+  "metadata_precedence": "generatedinclude before sourceinclude soGit_Hash usesactualpinnedpublicsha, no outerWikiHEAD",
+  "runtime_dependency_boundary": "READMEbranchsaysPOLnotworking/notextensivelytested; scopeonlyunpolarizedsourceenergies;noQoractualMorseproducerclaim",
+  "no_global_install_or_env_changes": true,
+  "before_compile": true,
+  "overlay_files": [
+    {
+      "original_relative": "src/TrackingAction.cc",
+      "original_sha256": "98f41a10eeaabeba2535386542bfc88272ffee9888df11a27ec6467f8db9149d",
+      "overlay_path": "tmp/day16-ucgretina/g411-truth-append-build/overlays/TrackingAction.cc",
+      "overlay_sha256": "da672a3464f521f5af48e5c03870a28de5e88edab1f33513cbfadae88ce11cba",
+      "purpose": "source-onlyeligiblephotonrecordappend/old-newprocessname;capacityfatalguard;βmetadataexplicitlyunvalidatednotzero-filled"
+    },
+    {
+      "original_relative": "src/EventInformation.cc",
+      "original_sha256": "9553242625625579cd659f60d24fb6684fac2aecbcbb566c096708466d2448e2",
+      "overlay_path": "tmp/day16-ucgretina/g411-truth-append-build/overlays/EventInformation.cc",
+      "overlay_sha256": "cf7fb3667001eb6e7f878efc863ae14e0a702f15dd2d7ac2a6129d1dc5104327",
+      "purpose": "source-onlyeligiblephotonrecordappend/old-newprocessname;capacityfatalguard;βmetadataexplicitlyunvalidatednotzero-filled"
+    }
+  ],
+  "additional_definitions": [
+    "HIGHMULT"
+  ],
+  "branch_label": "geant4.11-fixed-public-archive+source-truth-append-overlay",
+  "validation_plan": "same1000seeds; appendrealeligiblecallbacksonly; sourcecorefields identicaltosourceoriginals;noinbeamβ/Q/fullproducerclaim",
+  "rootcause": "installedG4Radioactivation.hh aliasG4RadioactiveDecay withdefaultnameRadioactiveDecay whileoriginalTrackingActionnameRadioactivation; originaldecaysimrecords1000 allnum0",
+  "source_originals_policy": "724originalblobsreadonly; twooverlaysnewfiles; source/data/package/physicsparametersnotedited",
+  "rootcause_second": "oldAddEmittedGammawritesmatchednuclearbetaindexiand incrementsphotoncount; multiplephotons overwritesameindex/leavesholes. Actual26nonpositivefields undernamefix",
+  "stop_if_more_truth_gaps": "do notwidenframeworkpatch;marktruthunavailableandcontinueonlyvalidatedenergy/timestamp modelsubspace"
+}

@@ -98,6 +98,7 @@ SourcesSim以core energy生成能谱/对称γγ矩阵、角分布与addback；In
 
 ## Extracted Pages
 
+- [[ucgretina-2024-geant4-11-source-replay]]：本日另名G411/11.4.2源模拟已过小规模记录/几何控制，不等于取得本2012采集的历史MC模板；两个sourceframe宏顺序不能据名称视为同几何。
 - [[compton-polarimetry]]：actual calibration输入与Q/response readiness分层。
 - [[event-mixing-statistics]]：共同归一带来的条件跨ROI误差，不据更多hist认证独立数据。
 - [[gretina-25na1041-polarization-response-contract]]：不迁NSCL七quad校准到当前1041响应。

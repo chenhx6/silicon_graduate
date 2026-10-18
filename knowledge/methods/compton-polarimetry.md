@@ -308,6 +308,12 @@ Morse spin2→0 pureE2控制确实通过，这限制对其原标定的归因；�
 
 使用时先保存density/EM/nativeδ/轴与Stokes定义，再将光子密度矩阵通过matching response作用到实际事件/参考归一。单emitter正性只保证该模型的光子域；Q、计数FOM、实验branch CI及gatedreference仍须各自真实输入。新的数值零门不是能量阈值，absδ很大也仍是含小干涉的有限值。
 
+### 源能谱实际运行后的三层检查
+
+[[ucgretina-2024-geant4-11-source-replay]] UG24-3–11实际构建G411/11.4.2无POL源程序，保留all-empty decay truth和仅process-name兼容后的空槽失败；另名source-only记录副本的有效core/IP在同种子1000history下逐位不变，beta/boost未认证。程序exit0不足以确认truth，整个binary文件SHA不同也不足以判定物理记录改变。
+
+实际geometry companion进一步区分宏语句与有效volume：原decay的preinitialize源框命令下Eu152从Target出发；仅移到initialize后，primary从euTape出发并有有效POLYETHYLENE。新几何recipe的探测记录可以改变，不能和仅记录层改动混作同一不变性要求。源能谱/finite-MC合同见[[gretina-eu152-source-response-replay]]；全阵列几何warning、历史模板与matching Compton Q仍缺。
+
 ### 公开源能谱能约束什么：Eu152实际数据的readiness门
 
 [[ucgretina-2012-eu152-public-calibration-data]] UE12-1–11取得NSCL2012七quad的run20源/run7背景ROOT。实际egam1keV/bin，source/background entries约1125万/173万；按宏1800–3000而非README1540门计算，a=13836/30293=.45673918，与printedp0接近，声明finitePoisson背景时σa=.00468656。该数只支持对应window的归一算术，没有MC模板/拟合Cov便不称fullresponse复现。

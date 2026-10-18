@@ -1,0 +1,22 @@
+{
+  "at": "2026-10-19T02:44:22.908401+08:00",
+  "route": "nature-downloader publicdirect/arXiv",
+  "doi": "10.1016/j.nima.2021.165305",
+  "arxiv": "2104.09986v1",
+  "url": "https://arxiv.org/pdf/2104.09986v1",
+  "PDF": "tmp/day16-ucgretina/riley2021/download/PDFs/article.pdf",
+  "bytes": 806228,
+  "sha256": "68644a73a5bb0ecb66ee504d162e0acdefa6a1e5b7c8dc44e846c322264364d1",
+  "pages": 26,
+  "identity_checked": "actualtitle/authors/arxivstamp/abstract match Crossref+arxiv; actualfirstpageonly",
+  "manifest": "tmp/day16-ucgretina/riley2021/download/manifest.json",
+  "manifest_sha256": "cedadd3ee665d862fd99e0e4ec55a130ee617942a6b2346738877fe829d9c15d",
+  "reading_depth": "first-page-identity-only; fullmainline/12figuresnotyetread",
+  "SI": {
+    "requested": true,
+    "status": "not_found",
+    "reason": "directPDF does not identifySIlanding; notproofnosupplementexists"
+  },
+  "raw_modified": false,
+  "new_scientific_claims_from_abstract": false
+}

@@ -1,0 +1,7 @@
+{
+  "at": "2026-10-18T18:13:44.710409+00:00",
+  "source_of_capacity": "actualbuildadditional_definitionsHIGHMULT;GEB.hh MAX_SIM_GAMMAS40",
+  "decoder_change": "passmatchingproducerdefinitiontocompiledABIhelper; preserveolddecoderSnapshot010",
+  "additional_predeclared_gate": "explicitcore/IPsumthresholdandnonpositivephotontruthissues, donotfixbadvalues",
+  "physical_data_or_model_parameters_changed": false
+}

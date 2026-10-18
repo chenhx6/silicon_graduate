@@ -1,0 +1,28 @@
+{
+  "identity": "UCGRETINA-SOURCE-HISTORY-COV-01",
+  "native_audit": "outputs/learning-daily/20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/ucgretina-g411-GEB-decode-100k-decay-result.json",
+  "native_audit_sha256": "16bcda0e46efec1fcd3913792d0c16d5f1c67e9eb7a689fb727151f6b701b08c",
+  "data": "tmp/day16-ucgretina/g411-eu152-statistics-007/decay/decay-100k.dat",
+  "data_sha256": "0b1a691814bf986860b4d68aa6e315316e1ea66239197ffc21038e138a48eb40",
+  "histories": 100000,
+  "regions_half_open_keV": [
+    [
+      120,
+      128
+    ],
+    [
+      1404,
+      1412
+    ],
+    [
+      1540,
+      1800
+    ],
+    [
+      1800,
+      3000
+    ]
+  ],
+  "mode": "decay",
+  "scope": "source-only finiteMC; neitherQnorexperimentCov"
+}

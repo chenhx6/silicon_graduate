@@ -9,6 +9,8 @@ updated: 2026-10-19
 
 ## Sources
 
+- [[ucgretina-2024-geant4-11-source-replay]] - G411实际编译/源模拟：truth双失败、有效CRYS同种子对照与sourceFrame前后导航；不代偏振Q或历史producer。
+
 - [[ucgretina-2012-eu152-public-calibration-data]] - 公开NSCL七quad实际ROOT能谱、背景窗口/共享Cov与sorting降序反证；不代Compton Q/原producer。
 
 - [[ucgretina-2021-polarized-emission-code]] - 固定公开tensor→Stokes内核与实际编译：pureE2控制、mixed/高rank的零CG比值边界；不代原阵列response。
@@ -587,6 +589,8 @@ updated: 2026-10-19
 - Updated [[low-spin-wobbling-controversies]] and [[nuclear-chirality-and-multiple-chiral-doublet-bands]].
 
 ## Research Notes
+
+- [[gretina-eu152-source-response-replay]] - 无偏振源的事件单位、几何、有效字段与finite-MC矩阵合同；保留实验Σ/Q缺口。
 
 - [[gretina-25na1041-polarization-response-contract]] - 真实25Na AD双支/同号偏振、matched Q/Π/phase与calibration谱系；无新实验CI。
 - [[w178-921-dco-gate-double-solutions]] - 178W921实测两支、门角色与相同target比的倒数；新条件反演/相位控制保留原producer、response及Cov缺口。

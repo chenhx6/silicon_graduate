@@ -1,0 +1,13 @@
+{
+  "at": "2026-10-19T02:27:30.749003+08:00",
+  "before_comparison": true,
+  "script_sha256": "988326e68be08e5279f5a58aeae6d3b50a247f44791dec094ec23d444e003415",
+  "same_seeds": [
+    20261019,
+    152001,
+    152002
+  ],
+  "compared_fields": "timestamp/crystal; bytes0:40+48:80+validIPprefix; actualwriteDecomplines638-661",
+  "excluded": "trig_time/unusedIPtail/type11/beta",
+  "existing_v3_result_priming": true
+}

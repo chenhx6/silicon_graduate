@@ -1,0 +1,8 @@
+{
+  "at": "2026-10-19T02:30:45.050608+08:00",
+  "before_MC": true,
+  "contract_sha256": "57ecce73f6479d187c3300aebbc9d7007f1a2d554fc3af7c30e03428617da35a",
+  "expected_physical_CRYS_invariance": false,
+  "reason": "sourceframe changesphysicalgeometry; old1ksame-seeds kept",
+  "script_sha256": "39b7ccb304c1285446a6956b11831d9fa616ae9b84b4c7a1c06382c4e8efe390"
+}

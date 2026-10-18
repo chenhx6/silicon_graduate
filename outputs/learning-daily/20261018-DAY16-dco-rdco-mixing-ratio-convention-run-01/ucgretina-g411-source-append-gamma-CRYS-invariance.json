@@ -1,0 +1,19 @@
+{
+  "at": "2026-10-18T18:27:31.062603+00:00",
+  "script_sha256": "988326e68be08e5279f5a58aeae6d3b50a247f44791dec094ec23d444e003415",
+  "old": "tmp/day16-ucgretina/g411-smoke-001/gamma/gamma-smoke.dat",
+  "new": "tmp/day16-ucgretina/g411-smoke-004-source-append/gamma/gamma-smoke.dat",
+  "old_sha256": "9bc488f7cef316979f0a253a1273270b13213ca54a24243a0605692c216aa1ba",
+  "new_sha256": "3e66d748fccb0ed2d64b6a353f9fd64dd27904a675e6593ccc7ba6eee713272f",
+  "old_CRYS_records": 183,
+  "new_CRYS_records": 183,
+  "same_timestamp_crystal_keys": true,
+  "mismatch_timestamp_crystals": [],
+  "all_known_CRYS_fields_bitwise_equal": true,
+  "excluded_fields": [
+    "trig_time bytes40:48",
+    "unused IP tail",
+    "type11 capacity/padding/beta"
+  ],
+  "scope": "chosen same-seed source histories only; not full geometry/response proof"
+}

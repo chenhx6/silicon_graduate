@@ -1,0 +1,108 @@
+{
+  "identity": "UCGRETINA-G411-EU152-SMOKE-01",
+  "contract_sha256": "6b084a0c512ad58d42708cb580ebebef2b77b0ed2175541a6c2affd45bf1d7d5",
+  "script_sha256": "426cb34d4b179923aa3393317bb69524cc356a18d84bbd4ea067a0a20566ced6",
+  "binary_sha256": "b8ccd8f4ccd8667e5fd1e90ccf9707b43886d3c465bdd1f41e9ef5f0c11c87c0",
+  "datasets": [
+    {
+      "label": "G4NDL",
+      "environment_variable": "G4NEUTRONHPDATA",
+      "path": "/opt/geant4/11.4.2/share/Geant4/data/G4NDL4.7.1"
+    },
+    {
+      "label": "G4EMLOW",
+      "environment_variable": "G4LEDATA",
+      "path": "/opt/geant4/11.4.2/share/Geant4/data/G4EMLOW8.8"
+    },
+    {
+      "label": "PhotonEvaporation",
+      "environment_variable": "G4LEVELGAMMADATA",
+      "path": "/opt/geant4/11.4.2/share/Geant4/data/PhotonEvaporation6.1.2"
+    },
+    {
+      "label": "RadioactiveDecay",
+      "environment_variable": "G4RADIOACTIVEDATA",
+      "path": "/opt/geant4/11.4.2/share/Geant4/data/RadioactiveDecay6.1.2"
+    },
+    {
+      "label": "G4PARTICLEXS",
+      "environment_variable": "G4PARTICLEXSDATA",
+      "path": "/opt/geant4/11.4.2/share/Geant4/data/G4PARTICLEXS4.2"
+    },
+    {
+      "label": "G4PII",
+      "environment_variable": "G4PIIDATA",
+      "path": "/opt/geant4/11.4.2/share/Geant4/data/G4PII1.3"
+    },
+    {
+      "label": "RealSurface",
+      "environment_variable": "G4REALSURFACEDATA",
+      "path": "/opt/geant4/11.4.2/share/Geant4/data/RealSurface2.2"
+    },
+    {
+      "label": "G4SAIDDATA",
+      "environment_variable": "G4SAIDXSDATA",
+      "path": "/opt/geant4/11.4.2/share/Geant4/data/G4SAIDDATA2.0"
+    },
+    {
+      "label": "G4ABLA",
+      "environment_variable": "G4ABLADATA",
+      "path": "/opt/geant4/11.4.2/share/Geant4/data/G4ABLA3.3"
+    },
+    {
+      "label": "G4INCL",
+      "environment_variable": "G4INCLDATA",
+      "path": "/opt/geant4/11.4.2/share/Geant4/data/G4INCL1.3"
+    },
+    {
+      "label": "G4ENSDFSTATE",
+      "environment_variable": "G4ENSDFSTATEDATA",
+      "path": "/opt/geant4/11.4.2/share/Geant4/data/G4ENSDFSTATE3.0"
+    },
+    {
+      "label": "G4CHANNELING",
+      "environment_variable": "G4CHANNELINGDATA",
+      "path": "/opt/geant4/11.4.2/share/Geant4/data/G4CHANNELING2.0"
+    }
+  ],
+  "modes": [
+    {
+      "mode": "gamma",
+      "events_requested": 1000,
+      "seeds": [
+        20261019,
+        152001
+      ],
+      "exit_code": 0,
+      "elapsed_s": 7.126428645977285,
+      "working_directory": "tmp/day16-ucgretina/g411-smoke-001/gamma",
+      "macro_sha256": "af3b8dd6a60d823da5fc3dcd26a922d251a5dcef42d984b58ef0255720a22540",
+      "log": "tmp/day16-ucgretina/g411-smoke-001/gamma/run.log",
+      "declared_event_count_found": true,
+      "run_completion_time_found": true,
+      "source_commit_found": true,
+      "failure_pattern_hits": [
+        {
+          "pattern": "G4Exception-START",
+          "count": 6
+        }
+      ],
+      "output": "tmp/day16-ucgretina/g411-smoke-001/gamma/gamma-smoke.dat",
+      "output_exists": true,
+      "output_bytes": 395840,
+      "output_sha256": "9bc488f7cef316979f0a253a1273270b13213ca54a24243a0605692c216aa1ba",
+      "copied_inputs_after_run": {
+        "aclust": true,
+        "aeuler": true,
+        "aslice": true,
+        "asolid": true,
+        "awalls": true,
+        "crmat.LINUX": true,
+        "z62.a152.lvldata": true,
+        "z64.a152.lvldata": true
+      }
+    }
+  ],
+  "source_originals_modified": false,
+  "full_response_or_Q_validated": false
+}

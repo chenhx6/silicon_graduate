@@ -1,0 +1,18 @@
+{
+  "at": "2026-10-18T17:40:29.751500+00:00",
+  "Geant4_config_version": "11.4.2",
+  "ROOT_version": "6.40.04",
+  "tool_availability": {
+    "UCGretina": false,
+    "UCGretina_Pol": false,
+    "grutinizer": false,
+    "cmake": true,
+    "ninja": true
+  },
+  "datasets_check_exit": 0,
+  "datasets": "allconfiguredpackagesINSTALLED; PhotonEvaporation6.1.2/RadioactiveDecay6.1.2 differfromoldREADME5.2",
+  "no_dataset_install_requested": true,
+  "source_acquisition_session": 80680,
+  "source_dir_before_archive_result": "unconfirmed; mustverifyarchive/tree/readREADMEbeforebuild",
+  "full_MC_executed": false
+}

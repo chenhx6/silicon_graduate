@@ -1,0 +1,68 @@
+{
+  "at": "2026-10-19T02:46:41.015420+08:00",
+  "data": "tmp/day16-ucgretina/g411-eu152-statistics-007/decay/decay-100k.dat",
+  "data_sha256": "0b1a691814bf986860b4d68aa6e315316e1ea66239197ffc21038e138a48eb40",
+  "selection": "1540<=CRYS tot_e<3000; all valid type11 emittedenergies ofsame10000timestamp",
+  "scope": "followup to three observed100kmodelhistories; guided audit not blinded; no experimentalcontaminationestimate",
+  "ABI": "native header16/CRYS464/G4SIM1132/EGoffset12 step28 validatedpreviously",
+  "rows": [
+    {
+      "timestamp": 525860000,
+      "history_index": 52586,
+      "high_crystals": [
+        {
+          "crystal": 30,
+          "core_keV": 1647.340576171875,
+          "num_IP": 3
+        }
+      ],
+      "recorded_emitted_gamma_keV": [
+        1647.340576171875,
+        121.78174591064453
+      ],
+      "nearest_gamma_gap_keV": [
+        0.0
+      ],
+      "not_assigning_single_gamma_origin_from_energy_match_alone": true
+    },
+    {
+      "timestamp": 600230000,
+      "history_index": 60023,
+      "high_crystals": [
+        {
+          "crystal": 62,
+          "core_keV": 1643.41162109375,
+          "num_IP": 4
+        }
+      ],
+      "recorded_emitted_gamma_keV": [
+        1299.133056640625,
+        344.2785949707031
+      ],
+      "nearest_gamma_gap_keV": [
+        344.278564453125
+      ],
+      "not_assigning_single_gamma_origin_from_energy_match_alone": true
+    },
+    {
+      "timestamp": 813720000,
+      "history_index": 81372,
+      "high_crystals": [
+        {
+          "crystal": 61,
+          "core_keV": 1608.4140625,
+          "num_IP": 3
+        }
+      ],
+      "recorded_emitted_gamma_keV": [
+        1608.4140625,
+        121.78174591064453
+      ],
+      "nearest_gamma_gap_keV": [
+        0.0
+      ],
+      "not_assigning_single_gamma_origin_from_energy_match_alone": true
+    }
+  ],
+  "original_data_modified": false
+}

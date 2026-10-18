@@ -1,0 +1,14 @@
+{
+  "at": "2026-10-19T02:41:26.667983+08:00",
+  "initial_required_checks": {
+    "boundary": 0,
+    "diff": 0,
+    "lint": 0
+  },
+  "wrapper_exit": 1,
+  "reason": "wrapper attempted json.loads on default text lintstdout; KeyError lint_counts in summary printing",
+  "science_or_lint_failure": false,
+  "correction": "final requiredcheck uses --format json and actual counts; preserveinitialreceipt",
+  "L26guard_source": "knowledge/sources/longfellow-2026-gretina-energy-ordering-polarization.md",
+  "L26guard_keys": "source_prefix_bytes/source_prefix_sha256"
+}

@@ -1905,3 +1905,8 @@ Fullq/Jones finiteIQUV实际18cases/540points与12新PSD事前输入验证通过
 ## 2026-10-19 — DAY16实际源校准counts与sorting合同
 
 新增UE12-1–11：publicROOT actualsource/bg能谱、窗口a/条件共享Cov、event分母与truthselection，GRUT降序反证限制无序selector担忧；无MCtemplate/Compton事件/P/Q。38pages/items、required0/lint0errors168warnings；原数据/人审prefix/PLAN/Bib保持。内容指针main / `Audit DAY16 public calibration counts and sorting contracts`，hash/push仅receipt。下一g411source-response build可行性已冻未build，原15:00截止、formal16一次partial17/goalactive不变。
+
+
+## 2026-10-19 DAY16 checkpoint023：源能谱记录与几何对照
+
+固定G411/Geant4 11.4.2实际headless构建、原truth双失败和source-only记录副本，同种子有效CRYS不变及Target/euTape源框顺序对照已canonical；各100000history run/native/有限MC矩阵/求和/hash通过，3条1540–1800源模型计数与零高区边界保留。非实验Q/δ/原fullfit。新source/note、Compton/UE12/index与唯一40项writeback；formal16一次/partial17，原15:00上海截止及goalactive不改。内容指针main / `Validate DAY16 source replay and geometry order controls`，实际hash/push仅publication023/runreceipt；下一已冻Riley2021原件主线，未以metadata授科学结论。

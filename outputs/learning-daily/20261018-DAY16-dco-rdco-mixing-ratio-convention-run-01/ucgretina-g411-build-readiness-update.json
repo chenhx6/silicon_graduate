@@ -1,0 +1,12 @@
+{
+  "at": "2026-10-19T01:47:35.993873+08:00",
+  "build_exit_code": 0,
+  "source724unchanged": true,
+  "binary": "tmp/day16-ucgretina/g411-headless-build/build/UCGretina",
+  "binary_sha256": "b8ccd8f4ccd8667e5fd1e90ccf9707b43886d3c465bdd1f41e9ef5f0c11c87c0",
+  "one_compile_warning": "Gretina_Array.cc1316 movePlane setbutunused",
+  "headless": true,
+  "noPOL": true,
+  "noMCyet": true,
+  "next": "freeze1000eventseededsource/decay smoke in copiedexamplefiles withcorrectsourcecommit,parseGEBproducerstructs andcommandfailures"
+}
