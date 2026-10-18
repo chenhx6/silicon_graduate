@@ -120,3 +120,9 @@ Eq9的G2/G4范围分别[1/5,1]、[1/9,1]，偶函数只给|phi|。Table1 102MoG2
 新[程序](../../system/scripts/day16_el18_projective_branch_audit.py)/[结果](../../outputs/learning-daily/20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/el18-projective-branch-audit.json)保存central所有根、projectivejoins、correctionJacobian、lastdigitfailure和samephi/Gsign控制。未取得原paircounts/9binledger/finiteacceptance、raw-background/附加门、actualΣ和DELTA输入recipe，因此只做L2表/定义核验，不是experimentalrefit。
 
 `supports`δ区间需保留pure点与small/large多根；`limits`37行独立显著性、±∞符号趋势直接证明shape、或G2/G4独立校准。`revises`以表中central数值“看起来符合”便认定原程序闭合的做法。[[dco-pdco-ambiguity-worksheet]]补本例；[[angular-correlation]]补共享衰减/ORgate与观测对象。下一可复用高信息输入为NNDC DELTA原程序/说明和Goodin/实际校准ledger，不是自由调G/δ强配表。
+
+## 公开DELTA副本已实际运行，原2018producer仍未认证
+
+[[ekstrom-1993-delta101-angular-correlation-code]] D101-1至8给一个PyNE namedtag0.7.8保存的1993v1.01源码内容对象，已未改编译/执行。它按所声明printed104Moinput给两根，且揭示独立data/有限grid/抛物线/poorfit阈值与1000sentinel；这些事实不认证本篇实际用同hash或同unroundedinput。原2度purecontrol的插值失败/细步长恢复也保留，不把processexit0当实验分析正确性。
+
+此新层使“generic DELTA源码不可得”的边界得到限定推进，而actualEL18paircounts/9binresponse/groupG与Σ/inputrecipe继续开放；未改原50/negativebound或source人审/flags。

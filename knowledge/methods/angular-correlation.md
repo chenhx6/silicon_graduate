@@ -327,3 +327,9 @@ KO01的2+_3→2+_1有91.7%radiativeM1、4+_3→4+_1有97.8%，但作者明确要
 其G2以pure4→2→0的A2ratio校准，再用同一phi/g模型给G4并按组平均；G4不是新增独立观测。更正a=Y/G的Jacobian须保留raw/G及calibration crossCov和各line共用G造成的相关；仅对角quotederrors无法重建完整Σ。Eq9对phi/g是偶函数，所以衰减本身不认证g符号；centralG2>1没有realphi，边界处理必须显式，不剪裁成1再声称精确fit。
 
 EL18-7的真实104Mo大δ支跨同一pureE2点，EL18-9的部分打印更正未闭合则说明：publishedcorrected列/原producer/本任务重算是不同验证层。可用新增[projective脚本](../../system/scripts/day16_el18_projective_branch_audit.py)核所声明输入，但缺actual门/response/Σ时不替代原δ或形变结论。
+
+## Genericproducer的输入误差与实验Σ
+
+[[ekstrom-1993-delta101-angular-correlation-code]] D101-2/5/8的公开源码将每dataitem独立加入standardizedsquares，没有fullΣ/theorycomponenterror输入，DIPS另有F阈值和1000limit sentinel。输入uncertainty0可关闭A2/A4项或把δ固定；内部PURE名不自动是实际multipolepurity。用于来源论文的methodreference不证明实际producer/file/version/选择和误差口径一致。
+
+D101-4还明确忽略mixed未观测跃迁的conversion-deorientation，SUK直接用δ²。若middlephoton被postselect与全部γ/ce未观测是不同条件，须回[[martin-1987-ensdf-mixing-ratio-phase-conventions]] MA87-3及[[internal-conversion-analysis]]处理totalweight；不能只因两个generic数学实现相符而抹掉sample条件。

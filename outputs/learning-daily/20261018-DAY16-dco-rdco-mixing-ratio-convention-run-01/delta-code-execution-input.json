@@ -1,0 +1,90 @@
+{
+  "identity": "DAY16-DELTA101-PUBLIC-FORTRAN-01",
+  "frozen_at": "2026-10-18T18:16:53.777309+08:00",
+  "source_url": "https://raw.githubusercontent.com/pyne/pyne/0.7.8/src/ensdf_processing/DELTA/delta.for",
+  "source_sha256": "6e118b8c79784f67b33ea0388f84f5a187af33563653443076afe4cd568837fc",
+  "source_git_blob_sha1": "9fd195047cfbaa293be46c26c5702d7b7580334a",
+  "version_header": "1.01,15-Apr-1993; L.P.Ekstrom August1983 original; PyNE-vendoredcopy",
+  "public_source_boundary": "IAEA directchallenge/NNDC404; no directNNDC-source equivalence or2018producer claimed. PyNE namedtag0.7.8 anddevelop filebytes agree, remoteHEAD couldnotbequeried; exact contenthash is identity.",
+  "compile": {
+    "compiler": "gfortran",
+    "flags": [
+      "-std=legacy",
+      "-O0",
+      "-ffixed-form"
+    ],
+    "modify_source": false,
+    "cwd": "tmp/day16-delta-code/build"
+  },
+  "cases": [
+    {
+      "id": "Mo104_A2_only_default2deg",
+      "cards": [
+        "HE Day16 published104Mo A2 only; separate from actualEL18recipe",
+        "A2 -0.19 0.02",
+        "ST 2",
+        "OU 1",
+        "GO 3 2 0",
+        "EN"
+      ]
+    },
+    {
+      "id": "Mo104_A2_A4_default2deg",
+      "cards": [
+        "HE Day16 published104Mo A2 A4 independent-input diagnostic",
+        "A2 -0.19 0.02",
+        "A4 -0.12 0.04",
+        "ST 2",
+        "OU 1",
+        "GO 3 2 0",
+        "EN"
+      ]
+    },
+    {
+      "id": "Mo104_A2_only_1deg",
+      "cards": [
+        "HE Day16 printed104Mo A2 only finer1deg",
+        "A2 -0.19 0.02",
+        "ST 1",
+        "OU 1",
+        "GO 3 2 0",
+        "EN"
+      ]
+    },
+    {
+      "id": "Mo104_A2_A4_1deg",
+      "cards": [
+        "HE Day16 printed104Mo A2 A4 finer1deg",
+        "A2 -0.19 0.02",
+        "A4 -0.12 0.04",
+        "ST 1",
+        "OU 1",
+        "GO 3 2 0",
+        "EN"
+      ]
+    },
+    {
+      "id": "pure_4_2_0",
+      "cards": [
+        "HE Day16 explicitpureE2 4 to2 to0 benchmark",
+        "A2 0.1020408163 0.001",
+        "A4 0.0090702948 0.001",
+        "ST 2",
+        "OU 1",
+        "GO 4 2 0",
+        "EN"
+      ]
+    }
+  ],
+  "timeout_s_per_case": 20,
+  "maximum_expected_grid_points": 181,
+  "analysis_boundary": "actual unmodifiedpublicprogram on declaredprintedinput, coefficients/errors independent as documented, noactualEL18Cov/G/response/DELTAinputfile; all minima/limits retained, no selection of preferredbranch",
+  "failure_controls": [
+    "no installation/fullPyNE setup; onlyFortran",
+    "no raw/credentials/host writes",
+    "sourcehashunchanged before/after",
+    "A2only vsA2A4 differinformation, not samefit",
+    "1degree vs2degree actualcap181",
+    "pure reference and KS/RB rolemapping primarydefinitions"
+  ]
+}

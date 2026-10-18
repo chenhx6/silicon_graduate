@@ -1,0 +1,5 @@
+# Goodin2010 producer与EL18修订：原件前假设
+
+已受EL18Intro/Ref2/Method对C.Goodin PhD/Vanderbilt2010的引用和“纠正先前mixingmeasurements”的表述priming。当前未知该作者全名、论文题名、是否sameacquisition与具体错误环节，不能由C.猜姓名或把旧thesis与EL18当独立实验。新路线先用Vanderbilt机构/公开元数据核身份与全文，再看能提供actualIPAC gate/background/efficiency/G2G4/DELTArecipe哪些信息。
+
+只有合法publicsource/body到手才读到对应方法主线/selected实验，不假称整本已读。若数据文件/源程序/实际协方差仍缺，保持缺口；不能为了证明EL18central校正打印错误而只摘一段。优先核sourceindependence与被修订的旧结果，反证能改变什么。只属于本Day16fissionmixing问题，不开启其它正式日卡或另建session/daemon。

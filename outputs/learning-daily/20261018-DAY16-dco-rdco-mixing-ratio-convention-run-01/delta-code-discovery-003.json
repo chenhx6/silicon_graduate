@@ -1,0 +1,121 @@
+{
+  "at": "2026-10-18T18:09:15.892485+08:00",
+  "previous_org_timeout": {
+    "url": "https://github.com/IAEA-NDS",
+    "exit": 1,
+    "reason": "ConnectionError/read timeout; no page obtained, no retry"
+  },
+  "results": [
+    {
+      "name": "pyne-docs",
+      "url": "https://pyne.io/pyapi/ensdf_processing.html",
+      "error": "ConnectionErrorHTTPSConnectionPool(host='pyne.io', port=443): Max retries exceeded with url: /pyapi/ensdf_processing.html (Caused by NameResolutionError(\"HTTPSConnection(host='pyne.io', port=443): Failed to resolve 'pyne.io' ([Errno -5"
+    },
+    {
+      "name": "pyne-implementation",
+      "url": "https://raw.githubusercontent.com/pyne/pyne/develop/pyne/ensdf_processing.py",
+      "status": 200,
+      "bytes": 26340,
+      "sha256": "0921f5361c8b96a2dc638eb29999428fa8ede7927e043a84e7e35daee6aece61",
+      "selected": [
+        {
+          "line": 22,
+          "text": "            \"This ensdf analysis module requires additional setup.  Run \\\n                    pyne.ensdf_processing.setup_additional_downloads to download the \\\n                    additional executables and complete this modules instalation. \\\n                    (following executable not yet installed/downloaded: \""
+        },
+        {
+          "line": 24,
+          "text": "                    additional executables and complete this modules instalation. \\\n                    (following executable not yet installed/downloaded: \"\n            + repr(self.value)\n        )"
+        },
+        {
+          "line": 36,
+          "text": "\ndef download_exe(exe_path, exe_url, compressed=0, decomp_path=\"\", dl_size=0):\n    if not os.path.exists(exe_path):\n        msg = \"Downloading {0!r} to {1!r}\".format(exe_url, exe_path)"
+        },
+        {
+          "line": 38,
+          "text": "    if not os.path.exists(exe_path):\n        msg = \"Downloading {0!r} to {1!r}\".format(exe_url, exe_path)\n        print(msg)\n        req = urllib.Request(exe_url, headers={\"User-Agent\": \"Mozilla/5.0\"})"
+        },
+        {
+          "line": 49,
+          "text": "\n        # set proper permissions on newly downloaded file\n        os.chmod(exe_path, 744)\n        if compressed:"
+        },
+        {
+          "line": 57,
+          "text": "\ndef setup_additional_downloads():\n    print(\"Downloading BRICC executable\")\n    setup_bricc()"
+        },
+        {
+          "line": 58,
+          "text": "def setup_additional_downloads():\n    print(\"Downloading BRICC executable\")\n    setup_bricc()\n    print(\"Downloading GABS executable\")"
+        },
+        {
+          "line": 60,
+          "text": "    setup_bricc()\n    print(\"Downloading GABS executable\")\n    setup_gabs()\n    print(\"Downloading RADLIST executable\")"
+        },
+        {
+          "line": 62,
+          "text": "    setup_gabs()\n    print(\"Downloading RADLIST executable\")\n    setup_radlist()\n"
+        },
+        {
+          "line": 72,
+          "text": "    bricc_url = (\n        \"http://www.nndc.bnl.gov/nndcscr/ensdf_pgm/analysis/\"\n        + \"BrIcc/Linux/BriccV23-Linux.tgz\"\n    )"
+        },
+        {
+          "line": 77,
+          "text": "    decomp_options = [\"bricc\", \".tgz\", True]\n    download_exe(\n        compressed_exe_path,\n        bricc_url,"
+        },
+        {
+          "line": 88,
+          "text": "    exe_path = path_to_exe(\"gabs\")\n    gabs_url = \"http://www.nndc.bnl.gov/nndcscr/ensdf_pgm/analysis/\" + \"gabs/unx/gabs\"\n    download_exe(exe_path, gabs_url, dl_size=8704)\n"
+        },
+        {
+          "line": 89,
+          "text": "    gabs_url = \"http://www.nndc.bnl.gov/nndcscr/ensdf_pgm/analysis/\" + \"gabs/unx/gabs\"\n    download_exe(exe_path, gabs_url, dl_size=8704)\n\n"
+        },
+        {
+          "line": 95,
+          "text": "    radlist_url = (\n        \"http://www.nndc.bnl.gov/nndcscr/ensdf_pgm/analysis/\" + \"radlst/unx/radlist\"\n    )\n    download_exe(exe_path, radlist_url, dl_size=8704)"
+        },
+        {
+          "line": 97,
+          "text": "    )\n    download_exe(exe_path, radlist_url, dl_size=8704)\n\n"
+        },
+        {
+          "line": 100,
+          "text": "\ndef verify_download_exe(exe_path):\n    if not os.path.exists(exe_path):\n        raise SetupIncompleteError(exe_path)"
+        },
+        {
+          "line": 126,
+          "text": "    behind ALPHAD can be found at:\n    http://www.nndc.bnl.gov/nndcscr/ensdf_pgm/analysis/alphad/readme-alphad.pdf\n    \"\"\"\n    inputdict = {}"
+        },
+        {
+          "line": 181,
+          "text": "\n    verify_download_exe(compressed_exe_path)\n    # check if BriIccHome environment variable has been set (needed by BRICC executable)\n    if not os.environ.get(\"BrIccHome\"):"
+        },
+        {
+          "line": 283,
+          "text": "    rtn : dictionary\n        Everything in input dictionary is returned if DELTA completes successfully.\n    \"\"\"\n    inputdict = {}"
+        },
+        {
+          "line": 299,
+          "text": "\ndef delta(inputdict_unchecked):\n    \"\"\"\n    This function calculates the best values of mixing ratios based of its"
+        },
+        {
+          "line": 315,
+          "text": "    rtn : dictionary\n        Everything in input dictionary is returned if DELTA completes\n        successfully.\n    \"\"\""
+        },
+        {
+          "line": 322,
+          "text": "\n    exe_path = path_to_exe(\"delta\")\n    proc = subprocess.Popen([exe_path], stdout=subprocess.PIPE, stdin=subprocess.PIPE)\n    inp = input_file + \"\\n\" + output_file + \"\\n\""
+        },
+        {
+          "line": 352,
+          "text": "    exe_path = path_to_exe(\"gabs\")\n    verify_download_exe(exe_path)\n\n    inputdict = {}"
+        },
+        {
+          "line": 688,
+          "text": "    print(exe_path)\n    verify_download_exe(exe_path)\n\n    inputdict = {}"
+        }
+      ],
+      "links": []
+    }
+  ]
+}

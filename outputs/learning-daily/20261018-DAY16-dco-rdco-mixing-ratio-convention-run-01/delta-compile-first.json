@@ -1,0 +1,18 @@
+{
+  "command": [
+    "gfortran",
+    "-std=legacy",
+    "-O0",
+    "-ffixed-form",
+    "-x",
+    "f77",
+    "/workspace/wiki/tmp/day16-delta-code/pinned-tag-source.data",
+    "-o",
+    "/workspace/wiki/tmp/day16-delta-code/build/delta101"
+  ],
+  "exit_code": 0,
+  "compiler": "GNU Fortran (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0",
+  "stdout": "",
+  "stderr": "",
+  "source_sha256": "6e118b8c79784f67b33ea0388f84f5a187af33563653443076afe4cd568837fc"
+}

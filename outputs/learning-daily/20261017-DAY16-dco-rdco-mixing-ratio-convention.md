@@ -199,6 +199,14 @@ Literal普通positivePi卷积mean2.55349，在theoryerror→0时也会多平移2
 
 另原图核106Mo2gamma→2的raw/corrected同印−.18/.27而groupG=.78/.6：中央相除−.230769/.45、lastdigitbox不交，保留未闭合；110RuTablebound−41/正文−46同样不擅改。共享G/raw校正Cov未知，g符号不能从evenphi衰减单独得到；代数constantE2/M1穿零说明δsigntrend不是唯一shape证明，而非实际替代模型。[angular-correlation](../../knowledge/methods/angular-correlation.md)与source保存这些实际控制和限制。下一原DELTA/producer说明仍值得追，研究继续原deadline。
 
+### DELTA1.01公开producer：实际Fortran执行与输出合同
+
+官方IAEA目录challenge、旧NNDC404后，从实际PyNECMake发现DELTA文件，取得namedtag0.7.8与develop相同207603byte/hash副本；sourceheaderv1.01/1993。GitremoteHEAD未得，内容hash固定而不伪报commit。[canonical DELTA source](../../knowledge/sources/ekstrom-1993-delta101-angular-correlation-code.md) D101-1至8区分公开mirror/当前内容与2018actualproducer，原license/source/binary都只repo tmp、不redistribute/sourceinstall。
+
+[五组card预冻结](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/delta-code-execution-input.json)后GNUFortran13.3未改sourcecompileexit0/五caseexit0；104MoA2only2度实际根约−.151/55.9、1度约−.151/55.8，不改成论文50。DIPS的SIGMA是absoluteχ²threshold且poorfit用F规则；+1000为没找到scan内crossing的sentinel，不能当有限实验error。内部PURE也能表示fixednonzeroδ，非physicallypure标签。
+
+knownpurecontrol的exactgridχ²0，但三点插值报告.199；[预冻结数值followup](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/delta-pure-followup-input.json)只改step/range，1度报告.012、已知pure点local.1度printed0，未改源码。两followupexit0。[完整offline审计](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/delta101-output-audit.json)核printedgridcoefficients到F9.3精度，明确firstpureminimumtest失败、processexit不代科学通过；actualEL18response/Σ/2018binary仍缺。source还直接注明忽略Anicin混合conversion退取向，印证前面的sample合同。[双解单](../../knowledge/methods/dco-pdco-ambiguity-worksheet.md)/[角关联](../../knowledge/methods/angular-correlation.md)已固化。
+
 ## Counter-evidence and missing companion observables
 
 最直接反例是一个已知pure参考也无法验证混合项相位：两纯端点通过，错误换号仍改R。另一个反例是本点模型部分Table1不吻合（例如.637341对印值.66；1.188657对1.12），且两比值rectangle没有复现作者>85支；原因未裁决，不能报告原文错误或实验新δ。
@@ -356,7 +364,7 @@ canonical [178W知识单](../../knowledge/research-notes/w178-921-dco-gate-doubl
     },
     {
       "knowledge": "knowledge/methods/dco-pdco-ambiguity-worksheet.md",
-      "summary": "将本session178W新交付与Day15预习分开，增加canonical反链。 恢复批次新增：同一mixed跃迁的上游与下游参考：1505-keV真实表值。 新增固定ALPACA独立实现/观测对象边界。 新增原ENSDF章/total-decay和MR字段边界。 新增EL18独立裂变样本projectivebranch/校准边界。",
+      "summary": "将本session178W新交付与Day15预习分开，增加canonical反链。 恢复批次新增：同一mixed跃迁的上游与下游参考：1505-keV真实表值。 新增固定ALPACA独立实现/观测对象边界。 新增原ENSDF章/total-decay和MR字段边界。 新增EL18独立裂变样本projectivebranch/校准边界。 新增公开DELTAactualrun/误差与数值failure边界。",
       "anchor": "独立正式Day16的新实测对象",
       "sources": [
         {
@@ -414,12 +422,28 @@ canonical [178W知识单](../../knowledge/research-notes/w178-921-dco-gate-doubl
         {
           "path": "knowledge/sources/eldridge-2018-gamma-band-mixing-ratios.md",
           "locator": "EL18-10"
+        },
+        {
+          "path": "knowledge/sources/ekstrom-1993-delta101-angular-correlation-code.md",
+          "locator": "D101-5"
+        },
+        {
+          "path": "knowledge/sources/ekstrom-1993-delta101-angular-correlation-code.md",
+          "locator": "D101-6"
+        },
+        {
+          "path": "knowledge/sources/ekstrom-1993-delta101-angular-correlation-code.md",
+          "locator": "D101-7"
+        },
+        {
+          "path": "knowledge/sources/ekstrom-1993-delta101-angular-correlation-code.md",
+          "locator": "D101-8"
         }
       ]
     },
     {
       "knowledge": "knowledge/index.md",
-      "summary": "最小索引新增178W921计算单导航，不添加独立科学结论。 新增固定ALPACA独立实现/观测对象边界。 新增原ENSDF章/total-decay和MR字段边界。 加入ICC概率物理域方法入口。",
+      "summary": "最小索引新增178W921计算单导航，不添加独立科学结论。 新增固定ALPACA独立实现/观测对象边界。 新增原ENSDF章/total-decay和MR字段边界。 加入ICC概率物理域方法入口。 新增公开DELTAactualrun/误差与数值failure边界。",
       "anchor": "w178-921-dco-gate-double-solutions",
       "sources": [
         {
@@ -437,6 +461,10 @@ canonical [178W知识单](../../knowledge/research-notes/w178-921-dco-gate-doubl
         {
           "path": "knowledge/sources/rezynkina-2017-graphical-extraction-multipole-mixing-ratios.md",
           "locator": "RZ17-11"
+        },
+        {
+          "path": "knowledge/sources/ekstrom-1993-delta101-angular-correlation-code.md",
+          "locator": "D101-1"
         }
       ]
     },
@@ -465,7 +493,7 @@ canonical [178W知识单](../../knowledge/research-notes/w178-921-dco-gate-doubl
     },
     {
       "knowledge": "knowledge/methods/angular-correlation.md",
-      "summary": "保存高自旋factorization公式、十行反向检验和finite系数替换失去exact交换R=1的条件控制，分开absolute/relative误差。 同页保存独立130Ba真实三角度实验的两个shape信息与shared-denominator门。 新增EL18独立裂变样本projectivebranch/校准边界。",
+      "summary": "保存高自旋factorization公式、十行反向检验和finite系数替换失去exact交换R=1的条件控制，分开absolute/relative误差。 同页保存独立130Ba真实三角度实验的两个shape信息与shared-denominator门。 新增EL18独立裂变样本projectivebranch/校准边界。 新增公开DELTAactualrun/误差与数值failure边界。",
       "anchor": "高自旋factorization的使用边界",
       "sources": [
         {
@@ -519,6 +547,22 @@ canonical [178W知识单](../../knowledge/research-notes/w178-921-dco-gate-doubl
         {
           "path": "knowledge/sources/eldridge-2018-gamma-band-mixing-ratios.md",
           "locator": "EL18-9"
+        },
+        {
+          "path": "knowledge/sources/ekstrom-1993-delta101-angular-correlation-code.md",
+          "locator": "D101-2"
+        },
+        {
+          "path": "knowledge/sources/ekstrom-1993-delta101-angular-correlation-code.md",
+          "locator": "D101-4"
+        },
+        {
+          "path": "knowledge/sources/ekstrom-1993-delta101-angular-correlation-code.md",
+          "locator": "D101-5"
+        },
+        {
+          "path": "knowledge/sources/ekstrom-1993-delta101-angular-correlation-code.md",
+          "locator": "D101-8"
         }
       ]
     },
@@ -1081,7 +1125,7 @@ canonical [178W知识单](../../knowledge/research-notes/w178-921-dco-gate-doubl
     },
     {
       "knowledge": "knowledge/sources/eldridge-2018-gamma-band-mixing-ratios.md",
-      "summary": "EL18实际104Mo分支/共享G校准/打印重放边界，原δ/review保持。",
+      "summary": "EL18实际104Mo分支/共享G校准/打印重放边界，原δ/review保持。 新增公开DELTAactualrun/误差与数值failure边界。",
       "anchor": "2026-10-18 Day16独立复读：projective分支与共享衰减",
       "sources": [
         {
@@ -1111,6 +1155,57 @@ canonical [178W知识单](../../knowledge/research-notes/w178-921-dco-gate-doubl
         {
           "path": "knowledge/sources/eldridge-2018-gamma-band-mixing-ratios.md",
           "locator": "EL18-11"
+        },
+        {
+          "path": "knowledge/sources/ekstrom-1993-delta101-angular-correlation-code.md",
+          "locator": "D101-1"
+        },
+        {
+          "path": "knowledge/sources/ekstrom-1993-delta101-angular-correlation-code.md",
+          "locator": "D101-5"
+        },
+        {
+          "path": "knowledge/sources/ekstrom-1993-delta101-angular-correlation-code.md",
+          "locator": "D101-7"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/sources/ekstrom-1993-delta101-angular-correlation-code.md",
+      "summary": "固定内容的公开DELTA实际执行和phase/error/limit/pure数值边界。",
+      "anchor": "DELTA1.01：generic producer与实际实验分析要分开",
+      "sources": [
+        {
+          "path": "knowledge/sources/ekstrom-1993-delta101-angular-correlation-code.md",
+          "locator": "D101-1"
+        },
+        {
+          "path": "knowledge/sources/ekstrom-1993-delta101-angular-correlation-code.md",
+          "locator": "D101-2"
+        },
+        {
+          "path": "knowledge/sources/ekstrom-1993-delta101-angular-correlation-code.md",
+          "locator": "D101-3"
+        },
+        {
+          "path": "knowledge/sources/ekstrom-1993-delta101-angular-correlation-code.md",
+          "locator": "D101-4"
+        },
+        {
+          "path": "knowledge/sources/ekstrom-1993-delta101-angular-correlation-code.md",
+          "locator": "D101-5"
+        },
+        {
+          "path": "knowledge/sources/ekstrom-1993-delta101-angular-correlation-code.md",
+          "locator": "D101-6"
+        },
+        {
+          "path": "knowledge/sources/ekstrom-1993-delta101-angular-correlation-code.md",
+          "locator": "D101-7"
+        },
+        {
+          "path": "knowledge/sources/ekstrom-1993-delta101-angular-correlation-code.md",
+          "locator": "D101-8"
         }
       ]
     }
@@ -1119,6 +1214,8 @@ canonical [178W知识单](../../knowledge/research-notes/w178-921-dco-gate-doubl
 ```
 
 ## Open questions and belief revision
+
+新增当前问题：RZ17实际RooFit居中/physicaldomain/区间recipe；EL18groupG与106Mo更正列、unroundedΣ/DELTA版本；Goodin2010是否同events及何处被修订。公开DELTAgeneric程序已取到且实际运行，仍不能以同名程序回答这些actualproducer问题。各canonical source/method保留精确locator与下一输入，不把它们转为默认用户待办。
 
 Dors[3]身份冲突已经定位到准确DOI，尚待全文给169/137的约定与误差。DCOMAP/width/finite response/feeding与Table1差异未决；两R与强度的Cov未得。原先“加P符号便能选两支”的直觉被本次同号例限制；更高信息输入是matched P幅值校准。缺口由Codex跟踪，不转为默认用户审核任务。
 
@@ -1172,3 +1269,8 @@ KS70追加twoangle问题因旧KS70-12已经覆盖而verified-no-op；NRF追加�
 ### 恢复checkpoint011（研究继续）
 
 2026-10-18T18:05:06.303600+08:00：EL18实际branch/G校准/printing边界已canonical；[验收005](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/verification-reopened-005.json)通过27changed/27items、单卡coverage、actualboundary/lint/diff0，0errors156warnings。稳定指针main / `Trace DAY16 projective mixing branches and shared IPAC calibration`，exacthash/actualH3/push只回执。继续官方DELTA原程序route，window/goal保持active至原15:00，不重计卡。
+
+
+### 恢复checkpoint012（研究继续）
+
+2026-10-18T18:30:38.431770+08:00：DELTAactualpubliccode/execution/数值failure已canonical，[verification006](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/verification-reopened-006.json)通过28changed/28items、singlecard、actualboundary/lint/diff0，0errors158warnings、继承dirty保护。稳定指针main / `Validate DAY16 DELTA source contracts and interpolation controls`，actualhash/H3/push只回执。下一Goodin机构primary路线继续，原deadline/goalactive不变，无重复学分。

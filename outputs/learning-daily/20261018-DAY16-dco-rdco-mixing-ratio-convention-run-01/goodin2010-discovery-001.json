@@ -1,0 +1,183 @@
+{
+  "at": "2026-10-18T18:29:17.959654+08:00",
+  "query_role": "discovery, not scientificbodyevidence",
+  "results": [
+    {
+      "name": "vanderbilt",
+      "url": "https://ir.vanderbilt.edu/discover?query=Goodin",
+      "status": 403,
+      "bytes": 118,
+      "sha256": "58bf2215b395dcac74c009aa98701854e43cbe54a1cd3a95fee6a647ca9910d4",
+      "text_excerpt": "403 Forbidden 403 Forbidden",
+      "links": []
+    },
+    {
+      "name": "openaire",
+      "url": "https://api.openaire.eu/search/publications?author=Goodin&title=mixing%20ratios&format=json",
+      "error": "ReadTimeoutHTTPSConnectionPool(host='api.openaire.eu', port=443): Read timed out. (read timeout=22)"
+    },
+    {
+      "name": "openalex",
+      "url": "https://api.openalex.org/works?search=Goodin%20Vanderbilt%202010%20angular%20correlations&per-page=6",
+      "status": 200,
+      "bytes": 58133,
+      "sha256": "e7f38fd8eb08998568ecaa0a2194ca4da50a52168e073d00750d6c312d8ca155",
+      "selected": [
+        {
+          "id": "https://openalex.org/W7217073784",
+          "title": "A Study on the Evidence for Octupole Correlations in 140,142CS: Studying Octupole Correlations in Cs Isotopes",
+          "doi": null,
+          "publication_year": 2017,
+          "primary_location": {
+            "id": "pmh:oai:ojs2.172.17.26.55:8340:article/6275",
+            "doi": null,
+            "is_oa": true,
+            "landing_page_url": "https://www.ignited.in/index.php/jasrae/article/view/6275",
+            "pdf_url": "https://www.ignited.in/index.php/jasrae/article/download/6275/12352",
+            "source": {
+              "id": "https://openalex.org/S4210210275",
+              "display_name": "Journal of Advances and Scholarly Researches in Allied Education",
+              "issn_l": "2230-7540",
+              "issn": [
+                "2230-7540"
+              ],
+              "is_oa": true,
+              "is_in_doaj": false,
+              "is_core": false,
+              "listed_in": [],
+              "host_organization": null,
+              "host_organization_name": null,
+              "host_organization_lineage": [],
+              "host_organization_lineage_names": [],
+              "type": "journal"
+            },
+            "license": null,
+            "license_id": null,
+            "version": "publishedVersion",
+            "is_accepted": true,
+            "is_published": true,
+            "raw_source_name": "2230-7540",
+            "raw_type": "info:eu-repo/semantics/article"
+          },
+          "open_access": {
+            "is_oa": true,
+            "oa_status": "diamond",
+            "oa_url": "https://www.ignited.in/index.php/jasrae/article/download/6275/12352",
+            "any_repository_has_fulltext": false
+          }
+        },
+        {
+          "id": "https://openalex.org/W2043492541",
+          "title": "Nuclear Structure Studies of Some Neutron Rich Nuclei Produced in252Cf Spontaneous Fission",
+          "doi": "https://doi.org/10.1088/1742-6596/580/1/012017",
+          "publication_year": 2015,
+          "primary_location": {
+            "id": "doi:10.1088/1742-6596/580/1/012017",
+            "doi": "https://doi.org/10.1088/1742-6596/580/1/012017",
+            "is_oa": true,
+            "landing_page_url": "https://doi.org/10.1088/1742-6596/580/1/012017",
+            "pdf_url": "https://iopscience.iop.org/article/10.1088/1742-6596/580/1/012017/pdf",
+            "source": {
+              "id": "https://openalex.org/S4210187594",
+              "display_name": "Journal of Physics Conference Series",
+              "issn_l": "1742-6588",
+              "issn": [
+                "1742-6588",
+                "1742-6596"
+              ],
+              "is_oa": true,
+              "is_in_doaj": false,
+              "is_core": true,
+              "listed_in": [
+                "anvur-class-a",
+                "anvur-scientific",
+                "cwts-core",
+                "jufo-1",
+                "norway-1",
+                "poland-40",
+                "vabb-shw"
+              ],
+              "host_organization": "https://openalex.org/P4310320083",
+              "host_organization_name": "IOP Publishing",
+              "host_organization_lineage": [
+                "https://openalex.org/P4310320083",
+                "https://openalex.org/P4310311669"
+              ],
+              "host_organization_lineage_names": [
+                "IOP Publishing",
+                "Institute of Physics"
+              ],
+              "type": "journal"
+            },
+            "license": "cc-by",
+            "license_id": "https://openalex.org/licenses/cc-by",
+            "version": "publishedVersion",
+            "is_accepted": true,
+            "is_published": true,
+            "raw_source_name": "Journal of Physics: Conference Series",
+            "raw_type": "journal-article"
+          },
+          "open_access": {
+            "is_oa": true,
+            "oa_status": "diamond",
+            "oa_url": "https://iopscience.iop.org/article/10.1088/1742-6596/580/1/012017/pdf",
+            "any_repository_has_fulltext": false
+          }
+        },
+        {
+          "id": "https://openalex.org/W1968712307",
+          "title": "Structures of the neutron-rich nuclei observed in fission of 252Cf",
+          "doi": "https://doi.org/10.1063/1.4893263",
+          "publication_year": 2014,
+          "primary_location": {
+            "id": "doi:10.1063/1.4893263",
+            "doi": "https://doi.org/10.1063/1.4893263",
+            "is_oa": true,
+            "landing_page_url": "https://doi.org/10.1063/1.4893263",
+            "pdf_url": "https://pubs.aip.org/aip/acp/article-pdf/1609/1/113/11754258/113_1_online.pdf",
+            "source": {
+              "id": "https://openalex.org/S2764696622",
+              "display_name": "AIP conference proceedings",
+              "issn_l": "0094-243X",
+              "issn": [
+                "0094-243X",
+                "1551-7616",
+                "1935-0465"
+              ],
+              "is_oa": false,
+              "is_in_doaj": false,
+              "is_core": true,
+              "listed_in": [
+                "cwts-core",
+                "jufo-1",
+                "norway-1"
+              ],
+              "host_organization": "https://openalex.org/P4310320257",
+              "host_organization_name": "American Institute of Physics",
+              "host_organization_lineage": [
+                "https://openalex.org/P4310320257"
+              ],
+              "host_organization_lineage_names": [
+                "American Institute of Physics"
+              ],
+              "type": "journal"
+            },
+            "license": null,
+            "license_id": null,
+            "version": "publishedVersion",
+            "is_accepted": true,
+            "is_published": true,
+            "raw_source_name": "AIP Conference Proceedings",
+            "raw_type": "proceedings-article"
+          },
+          "open_access": {
+            "is_oa": true,
+            "oa_status": "bronze",
+            "oa_url": "https://pubs.aip.org/aip/acp/article-pdf/1609/1/113/11754258/113_1_online.pdf",
+            "any_repository_has_fulltext": false
+          }
+        }
+      ]
+    }
+  ]
+}

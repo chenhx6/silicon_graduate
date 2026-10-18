@@ -269,3 +269,9 @@ KS70-17进一步提醒：例如764/658包含三条中间路径，公式应为`Ck
 只用printedcentralA2的相同KS模型给−.151126/+55.7172，不擅改成作者50；unrounded/DELTArecipe未得。一倍printedmarginalrectangle约给δ≤−132.0316或δ≥23.0837，经±∞为同一连通projectivebranch，三倍矩形再纳入小负支。该矩形不是jointCI，不替代作者的δ界。把v=(cosα,sinα)、α=atanδ写全，α=−90/+90只是同pureE2点；平均δ端点或在大值截断会损坏原允许域。
 
 EL18-6的G2来自参考A2、G4由samephi模型推得并组平均，不能把二者或受它们更正的不同line当独立校准。EL18-9保存106Mo raw/corrected打印更正规则不闭合与110Ru−41/−46边界，不调G或扩大容差掩盖。EL18-10说明ratio跨∞的signchange并不只对应E2numerator变化：固定E2=1而M1穿零也可给负∞→正∞，角系数仍连续；这只是代数的非唯一性控制，不是实际shape替代模型。
+
+## 公开DELTA输出的SIGMA、sentinel与数值纯极限
+
+[[ekstrom-1993-delta101-angular-correlation-code]] D101-5/6/7实际执行的是内容hash固定的公开1993副本，不自动等于EL18 2018producer。它的SIGMA是absoluteχ²threshold，poorfit时还采用F表放宽；1000是未找到scan边界的初值，不应以parser变成有限±1000实验误差，亦不自动给完整wrappedCI。
+
+knownpure4→2→0的exactgridχ²0，默认2度局部抛物线却报告.199，改1度为.012、已知pure点local.1度后printed0。无需改source便可检数值近似，首failure要保留；数据若近pure点或给很小error，须核grid/插值，不能仅看退出码0或曲线漂亮。D101-8的内部PURE标记可表示fixednonzeroδ，更不能当作physicalpure reference的证据。

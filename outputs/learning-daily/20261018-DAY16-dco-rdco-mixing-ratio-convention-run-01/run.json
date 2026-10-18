@@ -200,16 +200,36 @@
       "goal_status": "active",
       "research_deadline": "2026-10-19T15:00:00+08:00",
       "curriculum_retained_once": true
+    },
+    {
+      "publication_index": 11,
+      "at": "2026-10-18T18:12:20.643441+08:00",
+      "branch": "main",
+      "subject": "Trace DAY16 projective mixing branches and shared IPAC calibration",
+      "commit": "511d23147b3fda7874149131ef92c40e05283579",
+      "origin_main": "511d23147b3fda7874149131ef92c40e05283579",
+      "status": "published",
+      "required_exit_codes": {
+        "fresh_fetch": 0,
+        "ancestry": 0,
+        "dry_run_HEAD_main": 0,
+        "push_HEAD_main": 0,
+        "post_commit_eol": 0,
+        "cached_check": 0
+      },
+      "goal_status": "active",
+      "research_deadline": "2026-10-19T15:00:00+08:00",
+      "curriculum_retained_once": true
     }
   ],
-  "last_checkpoint": "reopened-005",
-  "last_verification": "verification-reopened-005.json",
-  "knowledge_writeback_items": 27,
-  "last_learning_summary": "EL18独立fission真实104Mo两branch/±infinity、共享G/OR门和printingcontrols canonical；旧数据/未得Σ/response保持。",
-  "knowledge_changed_pages": 27,
+  "last_checkpoint": "reopened-006",
+  "last_verification": "verification-reopened-006.json",
+  "knowledge_writeback_items": 28,
+  "last_learning_summary": "DELTA1.01公开副本实际编译/七case，原pure插值失败/Σ假设/sentinel/phase已canonical；实际EL18producer仍未认证。",
+  "knowledge_changed_pages": 28,
   "uncredited_day17_preview_started": true,
   "preview_time_gate": "outputs/learning-daily/20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/day17-preview-time-gate.json",
-  "current_research_route": "NNDC/IAEA官方DELTA code/docs/phase-input/branchinterval producer审计；sourcebefore已冻，当前version不自动是EL18actualproducer",
+  "current_research_route": "Goodin2010 Vanderbilt thesis identity/primary/method andEL18reanalysis sourceindependence；sourcebefore已冻，institutionaldiscovery在执行",
   "research_status": "active-user-resumed-original-window",
   "research_stopped_at": null,
   "original_minutes_to_deadline_at_research_stop": 1523.8833333333334,
@@ -329,5 +349,5 @@
     "deadline": "2026-10-19T15:00:00+08:00",
     "credit_policy": "Day16 kept once; partial17 only; no Day18"
   },
-  "last_publication": "publication-010.json"
+  "last_publication": "publication-011.json"
 }

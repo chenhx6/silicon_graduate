@@ -10,11 +10,11 @@ updated: 2026-10-18
 
 2026-10-18T16:31:18.642920+08:00：用户明确恢复持续学习，同run2026-10-18-day-16-01/session01a14ce6-425e-77c1-a127-2ac980bd76b5，原2026-10-19 15:00上海研究截止不变，15–16点收束。此前completed/closeout-only已被本次用户指令覆盖；前次成果/发布历史保留，next17/count16、completed16/partial17不重复计卡，不开Day18。Farmer PID42019 running保留，无新session/daemon/nativegoal；用户/goal resume已恢复原生goal为active，保留原objective并持续pursuing。
 
-恢复checkpoint011：完整EL18原11页/四表/11图与104Mo3gamma→2→0实际多支/OR门/G2G4共享校准canonical。±infinity是同pureE2点，printedboxes非jointCI；106Mo raw/corrected/groupG中央规则和110Ru−41/−46打印界未闭合，未改原δ/g/shape或声称原DELTA重放。27changed/27writeback、actualboundary/lint/diff0、0errors156warnings；旧EL18prefix/flags与原review保持。
+恢复checkpoint012：PyNE0.7.8/develop同字节DELTA1.01/1993源码内容对象实际Fortran编译和7case进程0；source不改、原license/binary只tmp。Independenterrors/SIGMA绝对χ²max+F/1000sentinel/PURE可fixednonzeroδ/忽略ICdeorientation合同canonical。knownpurecontrol2deg插值χ².199而exactgrid0的失败保留，1deg.012、已知purelocal.1degprinted0；不称fullscientificpassed/EL18exactproducer。28changed/28writeback、actualrequired0、0errors158warnings(121key/34raw/3parser)，继承dirty与oldreview保护。
 
-稳定指针main / `Trace DAY16 projective mixing branches and shared IPAC calibration`，actualhash/H3/push只publication011/runreceipt。下一NNDC首页实际指到IAEA publicENSDFcode目录；delta-code-before-freeze/source已存，discovery001查询IAEA和老NNDC地址，先核当前下载/版本/license/CMake或Fortran入口/风险，再决定合法在repo tmp构建，不把generic/current版当2018paper exactproducer；不补rawcounts/Σ。
+稳定指针main / `Validate DAY16 DELTA source contracts and interpolation controls`，actualhash/H3/push仅publication012/runreceipt。下一Goodin2010Vanderbiltthesis来源身份/actualIPACproducer与EL18修订：goodin2010-before-freeze/source已冻，不猜C.Goodin全名/题名，不把relatedthesis自动计independentexperiment；discovery001在NNDC项目下tmp/day16-goodin-discovery，先恢复结果再原件读取。
 
-Goal/window持续active/pursuing至原2026-10-19 15:00上海、15–16closeout，checkpoint不得提前停。Day16credit一次next17/count16、partial17，不formal17/Day18；保护raw/PLAN/Bib/credentials/继承dirty/reviews，精确manifest/HEAD+ownlog/H3/Gitee非force。原17日文件名日报/18日run-dir/session/resume沿用。
+Goal/windowactive至原2026-10-19 15:00上海、15–16closeout，不能因checkpoint提前结束。Day16credit一次next17/count16、partial17，不formal17/Day18。保护raw/PLAN/Bib/credentials/继承dirty/reviews，exactmanifest/HEAD+ownlog/H3/Gitee非force；原17日文件名日报/18日run-dir/session/resume沿用。
 
 ## Previous active handoff — DAY16 completed; Day17 is next
 

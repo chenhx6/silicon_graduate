@@ -1,0 +1,17 @@
+{
+  "identity": "DAY16-DELTA101-CONTENT-PROVENANCE",
+  "source_url": "https://raw.githubusercontent.com/pyne/pyne/0.7.8/src/ensdf_processing/DELTA/delta.for",
+  "source_sha256": "6e118b8c79784f67b33ea0388f84f5a187af33563653443076afe4cd568837fc",
+  "byte_length": 207603,
+  "line_count": 2563,
+  "branch_develop_and_release078_identical": true,
+  "binary_sha256": "3c506ab2653509708b393a4f3708c08d1cc9ac06456f076f72334fc0f251f92d",
+  "build": "gfortran13.3 -std=legacy -O0 -ffixed-form -x f77; source unchanged",
+  "reading_scope": "complete header/input docs/main process and selected AK/SRK/SUK/WORK/RMINIM/DIPS/SETUP/SETVAL/SQRES/OPENFI/CGnumericalguard; not every outputformat or primitive branch audited",
+  "full_package_read": false,
+  "EL18_actual_producer_or_covariance_recovered": false,
+  "ordinary_cases_exit_zero": 5,
+  "pure_followup_cases_exit_zero": 2,
+  "exit_zero_not_scientific_success": true,
+  "initial_pure_control_interpolation_exact_minimum_passed": false
+}
