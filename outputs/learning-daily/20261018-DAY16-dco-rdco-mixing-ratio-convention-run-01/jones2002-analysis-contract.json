@@ -1,0 +1,86 @@
+{
+  "identity": "J02-RECALIBRATION-BOUNDARIES-01",
+  "at": "2026-10-19T06:06:55.672976+08:00",
+  "raw": "raw/papers/2002_Jones_Calibration of Compton polarimeters.pdf",
+  "raw_sha256": "96157e69e7d77f038d372f20448f59f52b89b25fdd90ede21b88128b60688475",
+  "source_prefix_freeze": "jones2002-original-prefix-freeze.json",
+  "visual_confirmed": [
+    "p453Fig1/Eq1-3",
+    "p454Eq4/Eq7-8/countcase",
+    "p455Eq9/alignmenttext",
+    "p457Table1/0-2-0",
+    "p458w2/a2a4/Eq10-12"
+  ],
+  "scientific_status": "newselfaudit-not-humanreview",
+  "conditions": [
+    "0->2->0 with unobservedfirsthelicity andpointreference",
+    "pureE2singleemitter2->0, positivePSDdiagonalpop",
+    "crossratio fourindependentPoissonmeans expecteddesign, notmeasuredcount"
+  ],
+  "design_counts_order": [
+    "a0_A1",
+    "a90_A2",
+    "b0_A2",
+    "b90_A1"
+  ],
+  "design_inputs": {
+    "A": 0.2,
+    "exposure_a": 5000,
+    "exposure_b": 7000,
+    "efficiency_A1": 0.8,
+    "efficiency_A2": 0.4,
+    "efficiency_ratio_product_drift": 1.1
+  },
+  "quoted_actual_example": {
+    "P": 0.23,
+    "sigma_P": 0.06,
+    "A": 0.077,
+    "sigma_A": 0.008,
+    "cov_AP_known": false,
+    "source_locator": "p454Sec3/ref7"
+  },
+  "author_hypothetical_count_cases": [
+    [
+      857,
+      1000
+    ],
+    [
+      493,
+      1000
+    ]
+  ],
+  "population_checks": {
+    "m0": [
+      0,
+      0,
+      1,
+      0,
+      0
+    ],
+    "abs1": [
+      0,
+      0.5,
+      0,
+      0.5,
+      0
+    ],
+    "abs2": [
+      0.5,
+      0,
+      0,
+      0,
+      0.5
+    ]
+  },
+  "node_rule": "Compute I and Q before ratio. ExactI0 -> P undefined eveniflimit1. Noepsilon/clip.",
+  "shared_cov_rule": "generalgradientSigmaGradient; notassumedindependentactualfit",
+  "not_observed": [
+    "newexperimentalcalibration",
+    "actualjointCov",
+    "realfinitearrayresponse"
+  ],
+  "day_index": 16,
+  "partial_day_indices": [
+    17
+  ]
+}

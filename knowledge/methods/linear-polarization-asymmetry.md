@@ -171,3 +171,11 @@ Self-audit：`supports`shared observable对joint假设的条件约束；`limits`
 [[longfellow-2026-gretina-energy-ordering-polarization]] L26-18的9/2+→9/2+真实AD数据允许作者δRB约0/−.85，两支predicted A0分别+.021/.002，同为正；实测+.043(.008)。作者在adopted response/布居下偏好0，不能只由符号作同一选择。AD与ξ共享当前事件，Q又借上游model calibration，完整Cov和另一支sigma/error未给；不把quoted margins当独立联合显著性。
 
 L26-19原件p7的positive E1+M2 ΔJ0例句与p8 Table3 negative冲突；在其Fig7条件下，δ0的M1/E2 P90=.726274而E1/M2为−.726274。旧L26-15须连同新对照使用，不把p7单句当普遍规则；旧人审prefix/flags保留，新自审needs_review。[[gretina-25na1041-polarization-response-contract]]另将Pi、upper multipole、RB/nativeδ及A0=Q Pbar/2定义分开，避免从同名符号推断同一observable。
+
+### 交换分析晶体的cross-ratio与稳定性条件
+
+[[jones-2002-calibration-compton-polarimeters]] J02-17/18核p458Eq10–12。四峰顺序为(Na0[A1],Na90[A2],Nb0[A2],Nb90[A1])，定义R=sqrt(Na0 Nb0/(Na90 Nb90))、A=(1−R)/(1+R)。只有两orientation相同物理A、对应效率可因子分离且比值稳定时，Ta/Tb与晶体效率才消去；若效率比产品残留κ，则Ahat=tanh(atanhA−lnκ/4)。能窗/角门/偏振参考面/response/切选变化不能靠产品一概取消。
+
+一般VarA=gᵀΣg，g_i=−(1−A²)s_i/(4N_i)、s=(+1,−1,+1,−1)；四独立Poisson时才化为(1−A²)²Σ_i1/N_i/16。原background/netpeak/sharedfit和calibration需实际Σ，零或负峰面积不能套log delta-method，不加伪计数或clip成结果。
+
+声明设计A=.2、曝光5000/7000、效率.8/.4给期望四峰3200/2400/2240/6720；裸单orientation A=−.142857，cross-ratio=.2±.008734（仅独立Poisson一阶）。比值产品κ=1.1使Ahat=.1770204。共同纯曝光rank1Cov控制抵消，不代表共同background也抵消；不是实测counts/漂移或exactCI。[[compton-polarimetry]]保存校准P与Q的另层误差。

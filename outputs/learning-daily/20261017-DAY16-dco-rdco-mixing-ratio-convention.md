@@ -141,6 +141,17 @@ actualasolid两shape/usePassive/parser/doc核得coax1.5/back2.5/outer.9mm，恰�
 
 ## Theory/analysis exercise
 
+### Checkpoint028：Jones2002校准原件与失败控制
+
+[原source追加](../../knowledge/sources/jones-2002-calibration-compton-polarimeters.md) J02-14–21：本session完整8页Sections1–8/Refs及Fig1、Table1、Eq1–12，相关五页视觉核对。全旧人审前缀/raw hash冻结保留，新条目needs_review。
+
+[独立CG/密度矩阵、Racah与逐式结果](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/jones2002-calibration-audit-result.json)实际exit0。0→2→0的pointreference制备w±1=.5，与5/14、8/7一致；原w±2文字不闭合。m0纯E2的W/Q在90°同零，不把化简P极限写成节点偏振；与Co60的4→2→0 P90=1/6分开。最大WQ差7.50e−16，非原producer复现。
+
+p458两orientation cross-ratio推导含实际稳定性假设；声明期望四峰3200/2400/2240/6720、A=.2、σ=.008734，κ1.1漂移给.1770204。原文1000/857、1000/493是作者假设，非新counts。p457 Table1两314.78的母态376.28/445.00、理论P−.94/+.96不同，[混合设计](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/jones2002-ra223-doublet-design-result.json)仅说明matched gate/response必要，不测污染或Q。2002转录角数据与1998原实验不独立。
+
+Ref12真实1998出版商PDF已HTTP200/%PDF取得，回忆先冻，正文尚未读取；后续核原alpha gate/Σ和同源转录，不能先补原文。仍formal16一次/partial17，原deadline不改。
+
+
 ### 两光子joint density、pure闭式与参考面spin2
 
 [新joint代码](../../system/scripts/day16_co60_conditional_stokes.py)先构造A(λ1,λ2,Mi)再对unpolarized Mi和reference helicity求迹，未交换物理级联顺序。IQUV的Q_J是光子密度分量，polarimeterQ(E)另定义。native−.0025→RB+.0025连operator相位配套后结果0差；pureM3幅度±global号不影响observable。
@@ -445,6 +456,8 @@ pointgate本批 `limits`仅以角色不同就推physicalP不同的强断言：pu
 `supports` DCO多解与phase/response合同；`revises` 不分gate角色直接联合同名R的做法；`limits` 偏振符号挑根和pure reference认证全部相位。没有新Jπ、B值、wobbling/chirality结论；178W条件计算不外推A≈130。本轮按当前池/唯一Day17预习持续重查公开来源和必要输入；各问题保留原始response/producer/Σ及未得正文边界，当前原研究窗口继续，不由同一模型重复或标签复用补成确定结论。
 
 ## Durable knowledge delta
+
+本批在[Jones2002 source](../../knowledge/sources/jones-2002-calibration-compton-polarimeters.md)“2026-10-19 Codex追加：校准态、零强度与相对效率边界”追加J02-14–21，并写入[不对称方法](../../knowledge/methods/linear-polarization-asymmetry.md)的cross-ratio公式及[Compton方法](../../knowledge/methods/compton-polarimetry.md)的node/reference界限；均为新self-audit，不改旧人审prefix。
 
 本批新增[Ni60官方reference源页](../../knowledge/sources/nndc-2013-ni60-co60-reference-records.md)及[Co60笔记](../../knowledge/research-notes/co60-gate-role-response-benchmark.md)的“评价reference、共同δ误差与实际分支权重”锚点；N60-3/9/11分别支持MR误差/依赖、共享误差分量及actualSDK内部控制。原phase正文缺口仍保留；outputs仅为执行证据。
 
@@ -1229,7 +1242,7 @@ canonical [178W知识单](../../knowledge/research-notes/w178-921-dco-gate-doubl
     },
     {
       "knowledge": "knowledge/methods/compton-polarimetry.md",
-      "summary": "保存PAQ分层、双分段actual432计数公式/derivatives、fiterrors与理想Poisson层区别、printingfailure和matchedeta/Q/fullCov门。 新增EXOGAM比值误差的任意Cov必要界及原表条件不闭合；回代不是独立P验证。 补1368文字Q与外推curve的未闭合、FOM因子化与同response身份条件。 新增GRETINA normalization/真实cut tradeoff与不同reference/Q谱系。 新增C(theta)测度/Jacobian、平均产品与经验Q重标的条件设计，实际jointkernel未恢复。 补XUNDL POL=A0与target/单位转录边界。 保存实际Stokes禁戒比值/pure反证及KN/Q归一合同。 补有限H解析消CG、actualsame-tensor dκ0/d0κ与literalevenκ U控制/消费端及真zeroI边界。 补另名fullq/Jones finiteIQUV设计、事前冻结12PSD/540点与rotation/pure/zero/nonPSD域控制，不认证原实验producer。 新增实际public能谱/共享Cov/event单位与sorting/decoder反证、P/Q readiness。 G411新批补入truth/geometry实际控制与历史源response边界。 Riley2021原件已另读并核当前模型/原论文响应迁移边界。 Co60 gate/source与选择对象控制和原producer缺口已关联。 新joint pointgate相位/firstlast/pure/KN/共同轴平均控制与闭式已写，非实验或arrayQ。 补Ni60官方reference/共同δ误差与actualSDK总分支归一，保留primaryphase缺口。",
+      "summary": "保存PAQ分层、双分段actual432计数公式/derivatives、fiterrors与理想Poisson层区别、printingfailure和matchedeta/Q/fullCov门。 新增EXOGAM比值误差的任意Cov必要界及原表条件不闭合；回代不是独立P验证。 补1368文字Q与外推curve的未闭合、FOM因子化与同response身份条件。 新增GRETINA normalization/真实cut tradeoff与不同reference/Q谱系。 新增C(theta)测度/Jacobian、平均产品与经验Q重标的条件设计，实际jointkernel未恢复。 补XUNDL POL=A0与target/单位转录边界。 保存实际Stokes禁戒比值/pure反证及KN/Q归一合同。 补有限H解析消CG、actualsame-tensor dκ0/d0κ与literalevenκ U控制/消费端及真zeroI边界。 补另名fullq/Jones finiteIQUV设计、事前冻结12PSD/540点与rotation/pure/zero/nonPSD域控制，不认证原实验producer。 新增实际public能谱/共享Cov/event单位与sorting/decoder反证、P/Q readiness。 G411新批补入truth/geometry实际控制与历史源response边界。 Riley2021原件已另读并核当前模型/原论文响应迁移边界。 Co60 gate/source与选择对象控制和原producer缺口已关联。 新joint pointgate相位/firstlast/pure/KN/共同轴平均控制与闭式已写，非实验或arrayQ。 补Ni60官方reference/共同δ误差与actualSDK总分支归一，保留primaryphase缺口。 补Jones2002校准态节点、reference母态身份及有稳定性条件的cross-ratio。",
       "anchor": "Gammasphere双分段的P/A/Q与actual峰面积",
       "sources": [
         {
@@ -1487,12 +1500,32 @@ canonical [178W知识单](../../knowledge/research-notes/w178-921-dco-gate-doubl
         {
           "path": "knowledge/sources/nndc-2013-ni60-co60-reference-records.md",
           "locator": "N60-11"
+        },
+        {
+          "path": "knowledge/sources/jones-2002-calibration-compton-polarimeters.md",
+          "locator": "J02-14"
+        },
+        {
+          "path": "knowledge/sources/jones-2002-calibration-compton-polarimeters.md",
+          "locator": "J02-17"
+        },
+        {
+          "path": "knowledge/sources/jones-2002-calibration-compton-polarimeters.md",
+          "locator": "J02-18"
+        },
+        {
+          "path": "knowledge/sources/jones-2002-calibration-compton-polarimeters.md",
+          "locator": "J02-20"
+        },
+        {
+          "path": "knowledge/sources/jones-2002-calibration-compton-polarimeters.md",
+          "locator": "J02-21"
         }
       ]
     },
     {
       "knowledge": "knowledge/methods/linear-polarization-asymmetry.md",
-      "summary": "区分GammasphereA与genericclover计数式，链接实际data/eta/Q共同校准与sourcebound，不扩展sourceparity结论。 新增同一A/σ的nonstretched E1与stretched M1真实反例，保留DCO门/能级/选样身份。 新增真实同号A0双支、source例句/Table3冲突与needs-review边界。",
+      "summary": "区分GammasphereA与genericclover计数式，链接实际data/eta/Q共同校准与sourcebound，不扩展sourceparity结论。 新增同一A/σ的nonstretched E1与stretched M1真实反例，保留DCO门/能级/选样身份。 新增真实同号A0双支、source例句/Table3冲突与needs-review边界。 补Jones2002校准态节点、reference母态身份及有稳定性条件的cross-ratio。",
       "anchor": "双分段Gammasphere的A须随定义携带Q",
       "sources": [
         {
@@ -1522,6 +1555,26 @@ canonical [178W知识单](../../knowledge/research-notes/w178-921-dco-gate-doubl
         {
           "path": "knowledge/sources/longfellow-2026-gretina-energy-ordering-polarization.md",
           "locator": "L26-19"
+        },
+        {
+          "path": "knowledge/sources/jones-2002-calibration-compton-polarimeters.md",
+          "locator": "J02-14"
+        },
+        {
+          "path": "knowledge/sources/jones-2002-calibration-compton-polarimeters.md",
+          "locator": "J02-17"
+        },
+        {
+          "path": "knowledge/sources/jones-2002-calibration-compton-polarimeters.md",
+          "locator": "J02-18"
+        },
+        {
+          "path": "knowledge/sources/jones-2002-calibration-compton-polarimeters.md",
+          "locator": "J02-20"
+        },
+        {
+          "path": "knowledge/sources/jones-2002-calibration-compton-polarimeters.md",
+          "locator": "J02-21"
         }
       ]
     },
@@ -2814,7 +2867,7 @@ canonical [178W知识单](../../knowledge/research-notes/w178-921-dco-gate-doubl
     },
     {
       "knowledge": "knowledge/research-notes/co60-gate-role-response-benchmark.md",
-      "summary": "新建Co60同源不同target/gate/响应对象表、实际小样本门/缺失/坐标/backflag控制、声明混合级联相位与有限MC设计；100k实际结果已写回。 两组100k实际source moment/cov与detectorstatistics通过，控制图/CSV/PDF及QA已交付；不拟Q或实验δ。 新joint pointgate相位/firstlast/pure/KN/共同轴平均控制与闭式已写，非实验或arrayQ。 补Ni60官方reference/共同δ误差与actualSDK总分支归一，保留primaryphase缺口。",
+      "summary": "新建Co60同源不同target/gate/响应对象表、实际小样本门/缺失/坐标/backflag控制、声明混合级联相位与有限MC设计；100k实际结果已写回。 两组100k实际source moment/cov与detectorstatistics通过，控制图/CSV/PDF及QA已交付；不拟Q或实验δ。 新joint pointgate相位/firstlast/pure/KN/共同轴平均控制与闭式已写，非实验或arrayQ。 补Ni60官方reference/共同δ误差与actualSDK总分支归一，保留primaryphase缺口。 补Jones2002校准态节点、reference母态身份及有稳定性条件的cross-ratio。",
       "anchor": "同一个60Co源需要分别保存γ角色和响应对象",
       "sources": [
         {
@@ -2900,6 +2953,18 @@ canonical [178W知识单](../../knowledge/research-notes/w178-921-dco-gate-doubl
         {
           "path": "knowledge/sources/nndc-2013-ni60-co60-reference-records.md",
           "locator": "N60-11"
+        },
+        {
+          "path": "knowledge/sources/jones-2002-calibration-compton-polarimeters.md",
+          "locator": "J02-14"
+        },
+        {
+          "path": "knowledge/sources/jones-2002-calibration-compton-polarimeters.md",
+          "locator": "J02-15"
+        },
+        {
+          "path": "knowledge/sources/jones-2002-calibration-compton-polarimeters.md",
+          "locator": "J02-20"
         }
       ]
     },
@@ -2951,6 +3016,45 @@ canonical [178W知识单](../../knowledge/research-notes/w178-921-dco-gate-doubl
         {
           "path": "knowledge/sources/nndc-2013-ni60-co60-reference-records.md",
           "locator": "N60-11"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/sources/jones-2002-calibration-compton-polarimeters.md",
+      "summary": "保留完整旧人审前缀，追加八页原读/独立CG与WQ核验：m0零强度节点、0→2→0布居文字不闭合、旋转crossratio条件/误差、223Ra同能标异母态校准边界，新增均needs_review。",
+      "anchor": "2026-10-19 Codex追加：校准态、零强度与相对效率边界",
+      "sources": [
+        {
+          "path": "knowledge/sources/jones-2002-calibration-compton-polarimeters.md",
+          "locator": "J02-14"
+        },
+        {
+          "path": "knowledge/sources/jones-2002-calibration-compton-polarimeters.md",
+          "locator": "J02-15"
+        },
+        {
+          "path": "knowledge/sources/jones-2002-calibration-compton-polarimeters.md",
+          "locator": "J02-16"
+        },
+        {
+          "path": "knowledge/sources/jones-2002-calibration-compton-polarimeters.md",
+          "locator": "J02-17"
+        },
+        {
+          "path": "knowledge/sources/jones-2002-calibration-compton-polarimeters.md",
+          "locator": "J02-18"
+        },
+        {
+          "path": "knowledge/sources/jones-2002-calibration-compton-polarimeters.md",
+          "locator": "J02-19"
+        },
+        {
+          "path": "knowledge/sources/jones-2002-calibration-compton-polarimeters.md",
+          "locator": "J02-20"
+        },
+        {
+          "path": "knowledge/sources/jones-2002-calibration-compton-polarimeters.md",
+          "locator": "J02-21"
         }
       ]
     }
@@ -3134,3 +3238,10 @@ KS70追加twoangle问题因旧KS70-12已经覆盖而verified-no-op；NRF追加�
 [verification-reopened-021](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/verification-reopened-021.json)实际通过report/card/唯一writeback（43 changed knowledge pages/43 items）、新script/inputhash、旧人审prefix/PLAN/Bib保护；boundary/lint/diff各exit0。Lint为0errors174warnings：129citation-key、42raw归档槽、3reaction-parser。SDKhelper编译/执行0、原输入不变；共同δ误差仍只为模型分量。
 
 CSU真实REST已由其官方hashedconfig修正主机，exacttitle查询200/0对象，区别于UI同host/server404；没有取得1980正文。发布稳定指针main / `Audit DAY16 Ni60 reference uncertainties and source branches`，actualhash/H3/push仅publication027/runreceipt。当前06:02上海距原15:00仍约538分钟，goalactive/学分16一次partial17保持；继续有价值新来源或matching response输入，不以本checkpoint收束。
+
+
+### Checkpoint028实际验收与1998原实验续接
+
+[verification-reopened-022](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/verification-reopened-022.json)实际report/card/唯一writeback通过（44 changed knowledge pages/44 items）；boundary/lint/diff exit0，0errors174warnings(129key42raw3parser)。J02完整旧人审prefix、L25/L26prefix、原PDF/PLAN/Bib及script-resulthash通过；新J02-14–21全部needs_review。稳定发布指针main / `Audit DAY16 calibration nodes reference states and rotation controls`，actualhash/H3/push仅publication028/runreceipt。
+
+1998原实验当前已读前段至p137的一部分，仍在主线阅读；装置/角correction、α门、两314.78和113.159重叠例需完整原读/视觉/数值核完再写下一批canonical，不把已下载或摘要当完成。原15:00上海deadline/goalactive及formal16一次/partial17保持。

@@ -1,0 +1,22 @@
+{
+  "at": "2026-10-19T06:09:53.211322+08:00",
+  "exit_code": 0,
+  "exit_observed_from_exec_session": 54467,
+  "script_sha256": "6b3eb1bd5cb81a3cfa0d322a96ba2d884f2435ded456aad00eef1d4ab15b4e11",
+  "result_script_hash_matches": true,
+  "environment": "PYTHONPATH=/workspace/wiki/tmp/day16-jt74/python-deps",
+  "symbolic_version": "1.14.0",
+  "mainline_pages_read": 8,
+  "visual_pages": [
+    2,
+    3,
+    4,
+    6,
+    7
+  ],
+  "figure": "Fig1",
+  "table": "Table1",
+  "equations": "Eq1-12",
+  "actual_new_experiment": false,
+  "new_claims_need_review": true
+}

@@ -107,6 +107,10 @@ pure闭式`P_parallel=(1−x²)(4−x²)/(24+3x²+x⁴)`在所有非共线角非
 
 迁移到同一实验reference时，还须给actual target与gate、能区/角区、源或reaction plane、threshold、efficiency/归一、背景、interaction ordering和joint Cov。静态matrix一致只支持坐标合同；实验P/Q与δ支判别须另外的matching inputs。
 
+### 高P参考不能换成相同source preparation
+
+[[jones-2002-calibration-compton-polarimeters]] J02-14–16的原读/独立核验：0→2→0 pointfirstγ只能给中间w(±1)=.5、P90=1；不是本note的unpolarized4→2→0。原2002w±2文字与a2/a4并列不闭合已隔离；m0 pureE2虽然非零强度处P=1，在90°却没有光子。finite接受角/参考面/response必须明确，不能拿另一个级联的“已知满偏振”替Co60实际门。
+
 ## Competing Explanations
 
 small-N source曲线看似非平坦，可同时容纳真实correlation、有限统计和缺失占位路径；只有具备两光子的truth/iso控制才有明确比较对象。detector形状还包含finite geometry与门选择，其corr/iso ratio也不自动等于point W。

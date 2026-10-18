@@ -1,0 +1,302 @@
+{
+  "at": "2026-10-19T06:09:31.127256+08:00",
+  "url": "https://api.crossref.org/works?query.bibliographic=G+D+Jones+European+Physical+Journal+A+2+129+1998+alpha+gamma+223Ra&rows=4",
+  "status": 200,
+  "path": "tmp/day16-ni60-reference/jones1998-reference-crossref.json",
+  "sha256": "cbaf6311bb3785518c58a6c1701dfebdb87d015f832a895e902ecb3d7b72f073",
+  "items": [
+    {
+      "title": [
+        "A study of 223Ra populated by \u03b1-decay"
+      ],
+      "author": [
+        {
+          "given": "G.D.",
+          "family": "Jones",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "P.A.",
+          "family": "Butler",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "T.H.",
+          "family": "Hoare",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "P.M.",
+          "family": "Jones",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "container-title": [
+        "The European Physical Journal A"
+      ],
+      "volume": "2",
+      "page": "129-141",
+      "DOI": "10.1007/s100500050101",
+      "published": {
+        "date-parts": [
+          [
+            1998,
+            6
+          ]
+        ]
+      },
+      "link": [
+        {
+          "URL": "http://link.springer.com/content/pdf/10.1007/s100500050101.pdf",
+          "content-type": "application/pdf",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "http://link.springer.com/article/10.1007/s100500050101/fulltext.html",
+          "content-type": "text/html",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "http://link.springer.com/content/pdf/10.1007/s100500050101",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ]
+    },
+    {
+      "title": [
+        "Thermodynamic topology of 4D charged AdS black holes with $$F^{\\alpha \\beta }F^{\\gamma \\lambda }R_{\\alpha \\gamma \\beta \\lambda }$$ coupling"
+      ],
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0001-9869-751X",
+          "authenticated-orcid": false,
+          "given": "Mehdi",
+          "family": "Sadeghi",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "id": [
+                {
+                  "id": "https://ror.org/0377qcz53",
+                  "id-type": "ROR",
+                  "asserted-by": "publisher"
+                }
+              ],
+              "name": "Ayatollah Boroujerdi University"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0009-0006-7599-585X",
+          "authenticated-orcid": false,
+          "given": "Faramaz",
+          "family": "Rahmani",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "id": [
+                {
+                  "id": "https://ror.org/0377qcz53",
+                  "id-type": "ROR",
+                  "asserted-by": "publisher"
+                }
+              ],
+              "name": "Ayatollah Boroujerdi University"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "container-title": [
+        "The European Physical Journal C"
+      ],
+      "volume": "86",
+      "page": null,
+      "DOI": "10.1140/epjc/s10052-026-15747-4",
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            5,
+            27
+          ]
+        ]
+      },
+      "link": [
+        {
+          "URL": "https://link.springer.com/content/pdf/10.1140/epjc/s10052-026-15747-4.pdf",
+          "content-type": "application/pdf",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://link.springer.com/article/10.1140/epjc/s10052-026-15747-4",
+          "content-type": "text/html",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://link.springer.com/content/pdf/10.1140/epjc/s10052-026-15747-4.pdf",
+          "content-type": "application/pdf",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ]
+    },
+    {
+      "title": [
+        "The full electroweak $\\mathcal{O}(\\alpha)$ corrections to $\\gamma\\gamma\\rightarrow \\ell^- \\ell^+$"
+      ],
+      "author": [
+        {
+          "given": "Mehmet",
+          "family": "Demirci",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Muhammad Fauzi",
+          "family": "Mustamin",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "container-title": [
+        "Proceedings of The European Physical Society Conference on High Energy Physics \u2014 PoS(EPS-HEP2021)"
+      ],
+      "volume": null,
+      "page": "431",
+      "DOI": "10.22323/1.398.0431",
+      "published": {
+        "date-parts": [
+          [
+            2022,
+            1,
+            12
+          ]
+        ]
+      },
+      "link": null
+    },
+    {
+      "title": [
+        "Bayesian analysis of capture reactions $$\\varvec{^3}\\hbox {He}\\varvec{(\\alpha ,\\gamma )^7}\\hbox {Be}$$ and $$\\varvec{^3}\\hbox {H}\\varvec{(\\alpha ,\\gamma )^7}\\hbox {Li}$$"
+      ],
+      "author": [
+        {
+          "given": "Pradeepa",
+          "family": "Premarathna",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Gautam",
+          "family": "Rupak",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "container-title": [
+        "The European Physical Journal A"
+      ],
+      "volume": "56",
+      "page": null,
+      "DOI": "10.1140/epja/s10050-020-00113-z",
+      "published": {
+        "date-parts": [
+          [
+            2020,
+            6
+          ]
+        ]
+      },
+      "link": [
+        {
+          "URL": "https://link.springer.com/content/pdf/10.1140/epja/s10050-020-00113-z.pdf",
+          "content-type": "application/pdf",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://link.springer.com/article/10.1140/epja/s10050-020-00113-z/fulltext.html",
+          "content-type": "text/html",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://link.springer.com/content/pdf/10.1140/epja/s10050-020-00113-z.pdf",
+          "content-type": "application/pdf",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ]
+    }
+  ]
+}

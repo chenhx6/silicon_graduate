@@ -1,0 +1,33 @@
+{
+  "at": "2026-10-19T06:09:29.918812+08:00",
+  "reference": "J02p457Table1 two314.78 rows; nooriginal1998dataopened",
+  "same_energy_keV": 314.78,
+  "identities": [
+    {
+      "parent_keV": 376.28,
+      "Ji": "7/2-",
+      "Jf": "7/2+",
+      "P90_theory_from_table": -0.94
+    },
+    {
+      "parent_keV": 445.0,
+      "Ji": "9/2+",
+      "Jf": "9/2+",
+      "M": "M1",
+      "P90_theory_from_table": 0.96
+    }
+  ],
+  "conditions": "same response/axes; f is accepted photon-count fraction of first component, not raw branch or a2 weight",
+  "P_eff_formula": ".96-1.90*f",
+  "zero_fraction_exact": "48/95",
+  "zero_fraction": 0.5052631578947369,
+  "declared_five_percent_wrong_component": {
+    "target_P": -0.94,
+    "wrong_component_fraction": 0.05,
+    "P_eff": -0.845,
+    "A_Q0p3": -0.2535,
+    "Qinferred_if_wrongly_use_pure_target_ratio": 0.898936170212766
+  },
+  "source_table_is_independent_new_experiment": false,
+  "actual_contamination_or_Q_measured": false
+}

@@ -340,3 +340,11 @@ UG24-21/27的实际记录控制显示，缺失γ占位和跨晶体prefix back标
 ### 60Co参考输入的共同误差分量
 
 [[nndc-2013-ni60-co60-reference-records]] N60-3/5/9/11：1173 MR−.0025(22)的σ=.0022、两评价对象同源；S CC为理论更新而旧comment另含实测评价。pointgate模型在明确phase假设下给Covδ=Jσδ²Jᵀ；角色差的σ≈.0008204，误当独立会得.0023719。此项共享误差并非完整reference/arrayQ calibrationCov，不能用小central差重测δ。真实response还须同target/reference/选择/角/归一匹配，原1980phase正文未取。[[co60-gate-role-response-benchmark]]保留实际branch抽样与同输入MC的内部核验，不能把pair相容性变成实验Q验证。
+
+### Jones2002：校准态节点与reference身份
+
+[[jones-2002-calibration-compton-polarimeters]] J02-14–21的新self-audit与原human-reviewed前缀分开。pure2→0/m0的W=(15/2)x²(1−x²)、Q_J=W，θ90°也为零强度，P未定义；不能先约因子再将极限P=1填回节点。0→2→0 pointfirstγ的物理helicity±1给中间w(±1)=.5，a2=5/14/a4=8/7、P90=+1；原w±2文字与同段系数不合，保留printed边界，不声称正式勘误。
+
+p456 onlym0/±1 family在p0<1时P90=1，而W90=5(1−p0)/4；p0=1正好无光子，p0=.4在60°仅P=.6。它与[[co60-gate-role-response-benchmark]]的4→2→0 unpolarized/identitypointtag P90=1/6是不同source preparation，不能借高P校准数填Co60。
+
+J02 Table1两条314.78的母态376.28/445.00与理论P−.94/+.96不同；需同alpha门/母态/response。假定同响应、接受后光子份额f时Peff=.96−1.90f，f=48/95时零，目标−.94含声明5%错分量得到−.845；这些仅污染设计，未测真实分量或Q。P列为2002理论，实验角系数转录1998原数据，不计两个独立实验。

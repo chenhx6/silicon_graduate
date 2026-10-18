@@ -1,0 +1,12 @@
+{
+  "command": [
+    "pdftotext",
+    "-layout",
+    "tmp/day16-ni60-reference/jones1998-discovery/publisher-pdf.pdf",
+    "tmp/day16-ni60-reference/jones1998-mainline.txt"
+  ],
+  "exit_code": 0,
+  "raw_sha256": "19d50c6b0b8bf558839253cedb766a758fed89102bd95f9a9420484092dc164d",
+  "body_read": false,
+  "stderr": ""
+}

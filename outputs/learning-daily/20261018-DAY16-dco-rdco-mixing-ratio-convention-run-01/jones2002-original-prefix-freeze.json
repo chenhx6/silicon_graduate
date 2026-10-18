@@ -1,0 +1,10 @@
+{
+  "at": "2026-10-19T06:04:38.192349+08:00",
+  "source": "knowledge/sources/jones-2002-calibration-compton-polarimeters.md",
+  "prefix_bytes": 9256,
+  "prefix_sha256": "1d23465fd3829b1e7cd731def050cf1dd3c95810d20e18dd664f3dc428371d59",
+  "source_status": "human-reviewed oldclaims retained; any newAIappend is needs_review true, nohumanpromotion",
+  "raw": "raw/papers/2002_Jones_Calibration of Compton polarimeters.pdf",
+  "raw_sha256": "96157e69e7d77f038d372f20448f59f52b89b25fdd90ede21b88128b60688475",
+  "primary_reading_this_route": "notyet, hashonly"
+}

@@ -99,3 +99,51 @@ The user-reviewed source has no remaining claim-level `needs_review: true` items
 ## Project Relation
 
 This source is the formalism and calibration anchor for [[gamma-ray-linear-polarization-in-nuclear-spectroscopy]]. It supplies the definitions used to compare later Clover, tracking-array and CdTe Compton measurements, while leaving detector-specific sensitivity and nuclear alignment as separate evidence layers.
+
+
+## 2026-10-19 Codex追加：校准态、零强度与相对效率边界
+
+以下为本session对本地八页原件的新self-audit，不继承旧人审结论；原frontmatter与全部旧页面前缀逐字节保留，新claims均needs_review。已读Sections1–8、References、Fig.1、Table1及Eqs.(1)–(12)，并视觉核p453–455/457–458。原PDF SHA256不变，原八页不因旧ExtractedPages的页数摘要扩大为九页。
+
+| ID | 新核查陈述 | claim_kind | evidence_level | locator | needs_review |
+| --- | --- | --- | --- | --- | --- |
+| J02-14 | p455 Eq9的m0 pure2→0 E2给W=(15/2)x²(1−x²)、Q=W，x=cosθ。非零强度处P=+1，但θ90°也有I=Q=0，P未定义；p455/458文字只列0/180°例外不足以覆盖这个节点，不把约去公共因子的极限充作节点偏振。 | Codex-node-domain-audit | exact-polynomial-and-independent-helicity-check | p455 Eq9及其后m0文字；p458 Sec7；本追加W/Q公式 | true |
+| J02-15 | p457–458视觉确认0→2→0中间态文字写w(±2)=.5，却并列a2=5/14/a4=8/7。pointfirstγ物理helicity±1的独立CG/density trace给w(±1)=.5，与所列系数/P90=+1相符；w(±2)则给a2=−5/7/a4=−2/7、P90=−1。隔离为printed population/coefficient不闭合，未把它归为正式corrigendum或原实验重测。 | Codex-printed-state-consistency-audit | visual-source-and-two-calculation-routes | p457末段至p458首段；本追加population对照 | true |
+| J02-16 | p456的onlym0/±1 family满足P90=1仅在有光子的p0<1；W90=5(1−p0)/4，p0=1为节点。p0=.4给P60=3/5；不能把某角fullP与各角constantP、0→2→0与4→2→0门制备等同。 | calibration-family-boundary | source-and-exact-calculation | p456 Sec5 family；p455Eq9；本追加family公式 | true |
+| J02-17 | p458 Eq10–12的90°交换法给R=sqrt(Na0 Nb0/(Na90 Nb90))，A=(1−R)/(1+R)；仅在两orientation的物理A与对应效率比可因子分离且稳定时消除效率。若比值产品残留κ，则Ahat=tanh(atanhA−lnκ/4)，不能宣称所有系统误差无条件消除。 | relative-efficiency-design-boundary | original-equations-and-declared-model | p458 Eqs10–12；本追加cross-ratio模型 | true |
+| J02-18 | 对四独立Poisson峰面积，一阶VarA=(1−A²)²Σ1/Ni/16；一般应gᵀΣg，gi=−(1−A²)si/(4Ni)、s=(+1,−1,+1,−1)。共享背景/同事件/校准需实际Σ，零或负netarea不能使用本log近似。 | conditional-statistical-derivation | derivative-and-PSD-controls | p458 Eq10–12；本追加误差公式；designresult | true |
+| J02-19 | p454的19F P=.23(.06)/A=.077(.008)来自Ref7旧实验；1000/857与1000/493是作者假设计数。按独立Poisson得到A相对σ约30.05%/7.17%；由舍入A/P及假定独立得到Q=.3348、σ=.0940，非新实验Q或已恢复A–P Cov。 | reported-versus-hypothetical-input | source-and-conditional-arithmetic | p454 Sec3 casea/b；Refs7；本追加计数复算 | true |
+| J02-20 | Table1的两个314.78keV分别属于母态376.28(7/2−→7/2+)和445.00(9/2+→9/2+、M1)，所列理论P90为−.94/+.96。Eγ本身不能识别校准reference，须同α门/母态/response；实验a2/a4转录自1998Ref12，P列为本文理论，非新增独立采集。 | transition-and-data-lineage-boundary | direct-Table1-and-caption | p457 Table1 parent376.28/445.00 rows；p456Sec6/Ref12 | true |
+| J02-21 | 假定两314.78分量同响应/共同轴、f为接受后第一分量光子份额，则P_eff=.96−1.90f，f=48/95时为0；目标−.94中声明5%错分量给−.845、若误用纯reference则Q低估约10.1%。这是污染设计，不是实测含量、谱峰分解或actualQ。 | conditional-unresolved-reference-design | Stokes-mixture-arithmetic | p457 Table1两314.78理论P；本追加混合公式 | true |
+
+### 不可先约去的零强度
+
+这里`W`以角平均1归一，`Q=I_parallel−I_perp`为光子Stokes分量，不是polarimeter Q。对2→0 pureE2，独立Racah和helicity trace给：
+
+| 布居 | a2 | a4 | W90 | P90 |
+| --- | --- | --- | --- | --- |
+| m0=1 | 5/7 | −12/7 | 0 | undefined |
+| w(+1)=w(−1)=.5 | 5/14 | 8/7 | 5/4 | +1 |
+| w(+2)=w(−2)=.5 | −5/7 | −2/7 | 5/4 | −1 |
+
+m0的`W=(15/2)x²(1−x²)`和`Q=W`在x=0、±1同时零。数值trigonometric残差约10^-32不构成信号；程序先保存原W/Q节点，再在定义域内化简P。两计算路线a2/a4及九角W/Q误差≤7.50×10^-16。字面w±2与其后所列系数不合，不能靠换δ号、EM标签或旧review状态将其消掉；原图/原文/旧claims保持。
+
+### Cross-ratio何时真正消效率
+
+按原Eq10–11顺序四峰为`(Na0[A1],Na90[A2],Nb0[A2],Nb90[A1])`。声明模型：`Na0=Ta ε1(1−A)`、`Na90=Ta ε2(1+A)`、`Nb0=Tb ε2(1−A)`、`Nb90=Tb ε1(1+A)`；相同A/response才有原产品。曝光Ta/Tb可不同；角门、偏振参考面、interaction selection、能窗/背景方法仍须匹配。
+
+设计输入A=.2、Ta/Tb=5000/7000、ε1/ε2=.8/.4给期望峰面积3200/2400/2240/6720。单orientation裸不对称为−.142857，而cross-ratio回到.2，四独立Poisson一阶σ=.008734。共享纯乘性曝光rank1 Cov控制抵消；这不代表共享background也抵消。效率比产品漂移κ=1.1给Ahat=.1770204，偏差大于此例两倍统计σ；未将它说成实际装置漂移。
+
+一般`VarA=gᵀΣg`；只有独立Poisson才可代入`Σ=diag(N)`。实验netpeak area、sharedfit/subtraction与Qcalibration需实际Cov；设计程序对零输入拒绝log近似，不加伪计数或clip。边界处应另用声明的原count likelihood，不将此一阶近似当exact CI。
+
+### 同能标reference仍需母态门
+
+两314.78的`P_eff=f*(−.94)+(1−f)*.96`仅是相同响应下的密度矩阵混合。f必须是相应接受后的光子数权重，不能直接用a2、未修强度或母态branch替代；若response不同，应先对每分量的I/Q与响应积分。没有新的数据证明实际峰未分开/污染5%；这里标出单能标匹配会丢失的必要身份。
+
+Ref12书目已外核为G.D.Jones/P.A.Butler/T.H.Hoare/P.M.Jones，*EPJ A*2,129–141(1998)，DOI10.1007/s100500050101，题名*A study of223Ra populated byα-decay*；在取得正文前不补原α门或fitCov。2002重列表与1998原实验不计两次独立数据。
+
+### 续接与证据状态
+
+`supports`source中的高P校准/旋转法思想；`revises`其实际使用中的节点与布居文字合同；`limits`跨父态/响应裸迁reference和宣称所有系统项消除。新结论只为Codex self-audit，未清needs_review或更改原human-reviewed前缀。
+
+[新审计脚本](../../system/scripts/day16_jones2002_calibration_audit.py)、[冻结合同/数值结果](../../outputs/learning-daily/20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/jones2002-calibration-audit-result.json)；[双314.78设计](../../outputs/learning-daily/20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/jones2002-ra223-doublet-design-result.json)。原件与依赖hash、主动回忆/完整八页阅读和视觉记录在同run回执。[[compton-polarimetry]]、[[linear-polarization-asymmetry]]和[[co60-gate-role-response-benchmark]]保存可复用边界；这些outputs是执行证据，知识判断在本source。

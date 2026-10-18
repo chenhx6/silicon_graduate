@@ -1,0 +1,38 @@
+{
+  "at": "2026-10-19T06:04:14.065532+08:00",
+  "original_hard_deadline": "2026-10-19T15:00:00+08:00",
+  "minutes_to_deadline": 535.7655744666666,
+  "day_index": 16,
+  "completed_day_indices": [
+    16
+  ],
+  "partial_day_indices": [
+    17
+  ],
+  "course_next_day_index": 17,
+  "goal_status": "active",
+  "candidate_pool": [
+    {
+      "route": "Co60/Ni60 original reference and conditionalP",
+      "status": "currentofficialMR/RI/CC/sharedCov andSDKbranches locallycomplete; primary1980body unavailable afterboundedaccess",
+      "gain": "new primarybody only; do notrepeatterminalroutes or moreprecisiontoys"
+    },
+    {
+      "route": "Day17 existing Jones2002 calibration primary",
+      "status": "Wiki candidateonly, new originalnotyetopenedthissession",
+      "gain": "examine absoluteP/calibrationroute vsconditionalCo60point/source-frame transfer, finiteacceptance/uncertainty and independentdataset"
+    },
+    {
+      "route": "R21 and L26/SG98 originalproducerjointCov",
+      "status": "missingdata; existingpubliccode notexactproducer",
+      "gain": "newmatchinginput needed, no unilateralfit"
+    },
+    {
+      "route": "Day18",
+      "status": "notopened/notpermitted",
+      "gain": "none for this run"
+    }
+  ],
+  "selection": "One next-card knowledge preview route Jones2002 afterpublication027 checkpoint; noformal17/noDay18",
+  "stop_decision": "continue; noearlycloseout"
+}

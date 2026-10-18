@@ -1,0 +1,73 @@
+{
+  "at": "2026-10-19T06:10:28.847130+08:00",
+  "rows": [
+    {
+      "name": "publisher-pdf",
+      "url": "https://link.springer.com/content/pdf/10.1007/s100500050101.pdf",
+      "final_url": "https://link.springer.com/content/pdf/10.1007/s100500050101.pdf",
+      "status": 200,
+      "path": "tmp/day16-ni60-reference/jones1998-discovery/publisher-pdf.pdf",
+      "sha256": "19d50c6b0b8bf558839253cedb766a758fed89102bd95f9a9420484092dc164d",
+      "bytes": 478742,
+      "is_pdf": true
+    },
+    {
+      "name": "openalex",
+      "url": "https://api.openalex.org/works/https://doi.org/10.1007/s100500050101",
+      "final_url": "https://api.openalex.org/works/https://doi.org/10.1007/s100500050101",
+      "status": 200,
+      "path": "tmp/day16-ni60-reference/jones1998-discovery/openalex.txt",
+      "sha256": "64b11e8e18c2078fd49d9562642f63b63d68a1f02a98893757a2409c412c3138",
+      "bytes": 12442,
+      "is_pdf": false,
+      "locations": [
+        {
+          "id": "doi:10.1007/s100500050101",
+          "doi": "https://doi.org/10.1007/s100500050101",
+          "is_oa": false,
+          "landing_page_url": "https://doi.org/10.1007/s100500050101",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S4210173186",
+            "display_name": "The European Physical Journal A",
+            "issn_l": "1434-6001",
+            "issn": [
+              "1434-6001",
+              "1434-601X"
+            ],
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": true,
+            "listed_in": [
+              "anvur-scientific",
+              "cwts-core",
+              "dongbi-b",
+              "jufo-2",
+              "norway-1",
+              "poland-100",
+              "russia-white-list-2"
+            ],
+            "host_organization": "https://openalex.org/P4310319900",
+            "host_organization_name": "Springer Science+Business Media",
+            "host_organization_lineage": [
+              "https://openalex.org/P4310319900",
+              "https://openalex.org/P4310319965"
+            ],
+            "host_organization_lineage_names": [
+              "Springer Science+Business Media",
+              "Springer Nature"
+            ],
+            "type": "journal"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": "The European Physical Journal A",
+          "raw_type": "journal-article"
+        }
+      ]
+    }
+  ]
+}

@@ -308,3 +308,8 @@ Day16 pointgate026 priming：UG24-30–34/Co60note实际jointPSD/spin2/firstlast
 ### Day16后续priming：60Co正式reference输入
 
 Day16的[[nndc-2013-ni60-co60-reference-records]]已核201312 Adopted/longβ−两个官方对象：1173 MR−.0025(22)误差.0022且同源1980Kr05；原phase/operator/fitCov正文仍未取得。pointP共同δ-only误差与actualSDK Ig(1+CC) branch/pair控制只为条件模型，不能当实验P/Q CI或独立测量。正式17回忆应声明已经看过这些知识；本预备文件未开session或授17学分。
+
+
+### Jones2002追加priming
+
+Day16已独立读原八页并追加J02-14–21：m0 pureE2在90°零强度、0→2→0的printedw±2与a2/a4不闭合而pointCG给w±1、cross-ratio稳定性/Cov条件、223Ra两314.78母态/理论P异号。原全人审prefix保持，新追加均needs_review。1998Ref12出版商PDF已得，后续原读范围以本日source/回执为准，正式17需声明priming且重新逐卡，不授preview信用。

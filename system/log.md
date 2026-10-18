@@ -1930,3 +1930,8 @@ actualjoint/闭式、fullPSD/spin2/相位/纯极限控制写回UG24-30–34/Co60
 ## 2026-10-19 — Day16 checkpoint027：Ni60正式reference与源分支
 
 同run/session持续学习至原19日15:00上海，formal16一次/partial17不变。新增N60-1–11，MR误差.0022与共享谱系、理论CC/RI归一/静止recoil分层；primary1980Kr05 identity已核、原phase/Cov正文未取。SDK实际level对象按Ig(1+CC)归一并核pair .9983894029；初gamma-only试算先隔离，不以同模型MC相容认证实验Q。verification021实际43pages/items、required0、0errors174warnings；原raw/PLAN/Bib、人审prefix/继承dirty保持。发布指针main / Audit DAY16 Ni60 reference uncertainties and source branches，exacthash/outcome仅receipt。
+
+
+## 2026-10-19 — Day16 checkpoint028：校准态、节点与交换响应
+
+同run/goal持续原15:00截止，formal16一次partial17。Jones2002八页原件/visual追加J02-14–21，原humanprefix不变：m0 E2零强度节点、0→2→0 printedpopulation与系数不闭合、crossratio稳定性/Cov及同314.78异母态reference。新独立计算/设计实际0，未测新Q/P/污染。verification022实际44/44、required0、0errors174warnings。1998primary已合法取得、读到p137部分继续，未预报全文完成。发布指针main / Audit DAY16 calibration nodes reference states and rotation controls，exacthash/actualpush只receipt。

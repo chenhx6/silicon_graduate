@@ -1,0 +1,415 @@
+{
+  "identity": "J02-RECALIBRATION-BOUNDARIES-01",
+  "at": "2026-10-19T06:08:32.236322+08:00",
+  "script_sha256": "6b3eb1bd5cb81a3cfa0d322a96ba2d884f2435ded456aad00eef1d4ab15b4e11",
+  "contract_sha256": "895438fa17941aadc5b383039fdeffea9ded4a683bd6f011134b3d9401d76277",
+  "raw_sha256": "96157e69e7d77f038d372f20448f59f52b89b25fdd90ede21b88128b60688475",
+  "population_rows": {
+    "m0": {
+      "population": [
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      "a2": "5/7",
+      "a4": "-12/7",
+      "W_polynomial": "-15*x**2*(x - 1)*(x + 1)/2",
+      "Q_polynomial": "-15*x**2*(x - 1)*(x + 1)/2",
+      "P_simplified_only_away_from_nodes": "1",
+      "I_zero_cosines": [
+        "-1",
+        "0",
+        "1"
+      ],
+      "W_at90_exact": "0",
+      "Q_at90_exact": "0",
+      "Racah_vs_direct_trace_error": 4.440892098500626e-16,
+      "angle_controls": [
+        {
+          "theta_deg": 10,
+          "I_numeric": 0.21933333457595802,
+          "Q_numeric": 0.21933333457595802,
+          "exact_node": false,
+          "P_defined": true,
+          "P": 1.0,
+          "note": ""
+        },
+        {
+          "theta_deg": 30,
+          "I_numeric": 1.4062499999999996,
+          "Q_numeric": 1.4062499999999996,
+          "exact_node": false,
+          "P_defined": true,
+          "P": 1.0,
+          "note": ""
+        },
+        {
+          "theta_deg": 60,
+          "I_numeric": 1.4062500000000002,
+          "Q_numeric": 1.4062500000000002,
+          "exact_node": false,
+          "P_defined": true,
+          "P": 1.0,
+          "note": ""
+        },
+        {
+          "theta_deg": 89,
+          "I_numeric": 0.00228370288141478,
+          "Q_numeric": 0.00228370288141478,
+          "exact_node": false,
+          "P_defined": true,
+          "P": 1.0,
+          "note": ""
+        },
+        {
+          "theta_deg": 90,
+          "I_numeric": 2.465190328815662e-31,
+          "Q_numeric": 2.465190328815662e-31,
+          "exact_node": true,
+          "P_defined": false,
+          "P": null,
+          "note": "Exact polynomial I=0; floating trigonometric residue is not a signal"
+        },
+        {
+          "theta_deg": 91,
+          "I_numeric": 0.00228370288141478,
+          "Q_numeric": 0.00228370288141478,
+          "exact_node": false,
+          "P_defined": true,
+          "P": 1.0,
+          "note": ""
+        },
+        {
+          "theta_deg": 120,
+          "I_numeric": 1.4062499999999987,
+          "Q_numeric": 1.4062499999999987,
+          "exact_node": false,
+          "P_defined": true,
+          "P": 1.0,
+          "note": ""
+        },
+        {
+          "theta_deg": 150,
+          "I_numeric": 1.4062500000000002,
+          "Q_numeric": 1.4062500000000002,
+          "exact_node": false,
+          "P_defined": true,
+          "P": 1.0,
+          "note": ""
+        },
+        {
+          "theta_deg": 170,
+          "I_numeric": 0.21933333457595788,
+          "Q_numeric": 0.21933333457595788,
+          "exact_node": false,
+          "P_defined": true,
+          "P": 1.0,
+          "note": ""
+        }
+      ]
+    },
+    "abs1": {
+      "population": [
+        0,
+        0.5,
+        0,
+        0.5,
+        0
+      ],
+      "a2": "5/14",
+      "a4": "8/7",
+      "W_polynomial": "5*(4*x**4 - 3*x**2 + 1)/4",
+      "Q_polynomial": "5*(x - 1)*(x + 1)*(2*x - 1)*(2*x + 1)/4",
+      "P_simplified_only_away_from_nodes": "(4*x**4 - 5*x**2 + 1)/(4*x**4 - 3*x**2 + 1)",
+      "I_zero_cosines": [],
+      "W_at90_exact": "5/4",
+      "Q_at90_exact": "5/4",
+      "Racah_vs_direct_trace_error": 2.220446049250313e-16,
+      "angle_controls": [
+        {
+          "theta_deg": 10,
+          "I_numeric": 2.316085664940554,
+          "Q_numeric": -0.10853011104183165,
+          "exact_node": false,
+          "P_defined": true,
+          "P": -0.046859281884384554,
+          "note": ""
+        },
+        {
+          "theta_deg": 30,
+          "I_numeric": 1.25,
+          "Q_numeric": -0.6249999999999999,
+          "exact_node": false,
+          "P_defined": true,
+          "P": -0.4999999999999999,
+          "note": ""
+        },
+        {
+          "theta_deg": 60,
+          "I_numeric": 0.6249999999999999,
+          "Q_numeric": -3.051884935757553e-16,
+          "exact_node": false,
+          "P_defined": true,
+          "P": -4.883015897212085e-16,
+          "note": ""
+        },
+        {
+          "theta_deg": 89,
+          "I_numeric": 1.248858264525455,
+          "Q_numeric": 1.2480967982993247,
+          "exact_node": false,
+          "P_defined": true,
+          "P": 0.9993902700988895,
+          "note": ""
+        },
+        {
+          "theta_deg": 90,
+          "I_numeric": 1.25,
+          "Q_numeric": 1.25,
+          "exact_node": false,
+          "P_defined": true,
+          "P": 1.0,
+          "note": ""
+        },
+        {
+          "theta_deg": 91,
+          "I_numeric": 1.248858264525455,
+          "Q_numeric": 1.2480967982993247,
+          "exact_node": false,
+          "P_defined": true,
+          "P": 0.9993902700988895,
+          "note": ""
+        },
+        {
+          "theta_deg": 120,
+          "I_numeric": 0.6249999999999999,
+          "Q_numeric": 5.667786309264027e-16,
+          "exact_node": false,
+          "P_defined": true,
+          "P": 9.068458094822445e-16,
+          "note": ""
+        },
+        {
+          "theta_deg": 150,
+          "I_numeric": 1.25,
+          "Q_numeric": -0.6249999999999999,
+          "exact_node": false,
+          "P_defined": true,
+          "P": -0.4999999999999999,
+          "note": ""
+        },
+        {
+          "theta_deg": 170,
+          "I_numeric": 2.316085664940554,
+          "Q_numeric": -0.10853011104183147,
+          "exact_node": false,
+          "P_defined": true,
+          "P": -0.04685928188438448,
+          "note": ""
+        }
+      ]
+    },
+    "abs2": {
+      "population": [
+        0.5,
+        0,
+        0,
+        0,
+        0.5
+      ],
+      "a2": "-5/7",
+      "a4": "-2/7",
+      "W_polynomial": "-5*(x - 1)*(x + 1)*(x**2 + 1)/4",
+      "Q_polynomial": "-5*(x - 1)**2*(x + 1)**2/4",
+      "P_simplified_only_away_from_nodes": "(x**2 - 1)/(x**2 + 1)",
+      "I_zero_cosines": [
+        "-1",
+        "1"
+      ],
+      "W_at90_exact": "5/4",
+      "Q_at90_exact": "-5/4",
+      "Racah_vs_direct_trace_error": 1.1102230246251565e-16,
+      "angle_controls": [
+        {
+          "theta_deg": 10,
+          "I_numeric": 0.07424766777146692,
+          "Q_numeric": -0.001136556246147577,
+          "exact_node": false,
+          "P_defined": true,
+          "P": -0.015307635650534885,
+          "note": ""
+        },
+        {
+          "theta_deg": 30,
+          "I_numeric": 0.546875,
+          "Q_numeric": -0.07812499999999996,
+          "exact_node": false,
+          "P_defined": true,
+          "P": -0.1428571428571428,
+          "note": ""
+        },
+        {
+          "theta_deg": 60,
+          "I_numeric": 1.1718749999999998,
+          "Q_numeric": -0.7031249999999997,
+          "exact_node": false,
+          "P_defined": true,
+          "P": -0.5999999999999999,
+          "note": ""
+        },
+        {
+          "theta_deg": 89,
+          "I_numeric": 1.2499998840338375,
+          "Q_numeric": -1.2492386497400325,
+          "exact_node": false,
+          "P_defined": true,
+          "P": -0.9993910125084584,
+          "note": ""
+        },
+        {
+          "theta_deg": 90,
+          "I_numeric": 1.25,
+          "Q_numeric": -1.25,
+          "exact_node": false,
+          "P_defined": true,
+          "P": -1.0,
+          "note": ""
+        },
+        {
+          "theta_deg": 91,
+          "I_numeric": 1.2499998840338375,
+          "Q_numeric": -1.2492386497400325,
+          "exact_node": false,
+          "P_defined": true,
+          "P": -0.9993910125084584,
+          "note": ""
+        },
+        {
+          "theta_deg": 120,
+          "I_numeric": 1.1718750000000002,
+          "Q_numeric": -0.7031250000000004,
+          "exact_node": false,
+          "P_defined": true,
+          "P": -0.6000000000000003,
+          "note": ""
+        },
+        {
+          "theta_deg": 150,
+          "I_numeric": 0.546875,
+          "Q_numeric": -0.07812499999999996,
+          "exact_node": false,
+          "P_defined": true,
+          "P": -0.1428571428571428,
+          "note": ""
+        },
+        {
+          "theta_deg": 170,
+          "I_numeric": 0.07424766777146688,
+          "Q_numeric": -0.0011365562461475825,
+          "exact_node": false,
+          "P_defined": true,
+          "P": -0.015307635650534966,
+          "note": ""
+        }
+      ]
+    }
+  },
+  "point_0_to2_reference_daughter_population_m_minus2_to2": [
+    0.0,
+    0.5,
+    0.0,
+    0.5,
+    0.0
+  ],
+  "maximum_W_Q_trace_vs_polynomial_error": 7.494005416219807e-16,
+  "printed_w_abs2_matches_quoted_a2a4": false,
+  "printed_a2a4_matches_physical_point_reference_abs1": true,
+  "m0_node90_ratio_undefined": true,
+  "only_m0_abs1_family_W90": "-5*(p0 - 1)/4",
+  "family_P_at60_example_p0_point4": "3/5",
+  "cross_ratio_design": {
+    "counts_order": [
+      "a0_A1",
+      "a90_A2",
+      "b0_A2",
+      "b90_A1"
+    ],
+    "expected_counts": [
+      3200.0,
+      2400.0,
+      2240.0,
+      6720.0
+    ],
+    "independent_Poisson_delta_method": {
+      "A": 0.19999999999999973,
+      "R": 0.6666666666666671,
+      "log_R": -0.4054651081081637,
+      "gradient_counts": [
+        -7.500000000000001e-05,
+        0.0001,
+        -0.00010714285714285715,
+        3.571428571428572e-05
+      ],
+      "variance_delta_method": 7.62857142857143e-05,
+      "sigma_delta_method": 0.008734169352933013
+    },
+    "common_exposure_covariance_control": {
+      "A": 0.19999999999999973,
+      "R": 0.6666666666666671,
+      "log_R": -0.4054651081081637,
+      "gradient_counts": [
+        -7.500000000000001e-05,
+        0.0001,
+        -0.00010714285714285715,
+        3.571428571428572e-05
+      ],
+      "variance_delta_method": 7.628571428571424e-05,
+      "sigma_delta_method": 0.008734169352933011
+    },
+    "naive_first_orientation_asymmetry": -0.14285714285714285,
+    "efficiency_ratio_drift_kappa": 1.1,
+    "drift_result": {
+      "A": 0.17702039607786546,
+      "R": 0.6992058987801012,
+      "log_R": -0.3578100182060018,
+      "gradient_counts": [
+        -6.879714342133775e-05,
+        0.00010090247701796204,
+        -0.00010810979680495934,
+        3.6036598934986444e-05
+      ],
+      "variance_delta_method": 7.600281704329265e-05,
+      "sigma_delta_method": 0.008717959454097767
+    },
+    "predicted_drift_A": 0.1770203960778655,
+    "zero_count_control_rejected": true
+  },
+  "author_hypothetical_count_cases": [
+    {
+      "n0": 857,
+      "n90": 1000,
+      "A": 0.07700592353257943,
+      "sigma_Poisson_A": 0.023136760500375744,
+      "relative_sigma_A": 0.30045429544893537,
+      "status": "author hypothetical counts"
+    },
+    {
+      "n0": 493,
+      "n90": 1000,
+      "A": 0.33958472873409246,
+      "sigma_Poisson_A": 0.02434241956946851,
+      "relative_sigma_A": 0.0716829041759694,
+      "status": "author hypothetical counts"
+    }
+  ],
+  "actual_quoted_example_conditional_arithmetic": {
+    "Q_from_rounded_A_P": 0.33478260869565213,
+    "sigma_Q_if_A_P_independent": 0.09400617587263786,
+    "AP_cov_known": false,
+    "new_experimental_Q": false
+  },
+  "human_prefix_or_claim_review_changed": false,
+  "new_experiment_or_full_detector_response": false
+}

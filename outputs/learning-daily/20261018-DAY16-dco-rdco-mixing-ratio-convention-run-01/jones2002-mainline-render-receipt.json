@@ -1,0 +1,109 @@
+{
+  "at": "2026-10-19T06:05:44.362376+08:00",
+  "raw_sha256": "96157e69e7d77f038d372f20448f59f52b89b25fdd90ede21b88128b60688475",
+  "fullmainline_text_read_pages": 8,
+  "rendered_pages": [
+    {
+      "page": 2,
+      "command": [
+        "pdftoppm",
+        "-f",
+        "2",
+        "-l",
+        "2",
+        "-scale-to",
+        "1600",
+        "-singlefile",
+        "-png",
+        "raw/papers/2002_Jones_Calibration of Compton polarimeters.pdf",
+        "tmp/day16-ni60-reference/jones2002-figures/p2"
+      ],
+      "exit_code": 0,
+      "stderr": "",
+      "image_path": "tmp/day16-ni60-reference/jones2002-figures/p2.png",
+      "sha256": "6d732aa482602494361b4d3e94aac85f52e7ef02ad8de30bf282b5b094d2db6a"
+    },
+    {
+      "page": 3,
+      "command": [
+        "pdftoppm",
+        "-f",
+        "3",
+        "-l",
+        "3",
+        "-scale-to",
+        "1600",
+        "-singlefile",
+        "-png",
+        "raw/papers/2002_Jones_Calibration of Compton polarimeters.pdf",
+        "tmp/day16-ni60-reference/jones2002-figures/p3"
+      ],
+      "exit_code": 0,
+      "stderr": "",
+      "image_path": "tmp/day16-ni60-reference/jones2002-figures/p3.png",
+      "sha256": "51c7decaef833ee7602fa91f795c5c8657bf5b33bcaeb4155f5293ed0fbb1a0c"
+    },
+    {
+      "page": 4,
+      "command": [
+        "pdftoppm",
+        "-f",
+        "4",
+        "-l",
+        "4",
+        "-scale-to",
+        "1600",
+        "-singlefile",
+        "-png",
+        "raw/papers/2002_Jones_Calibration of Compton polarimeters.pdf",
+        "tmp/day16-ni60-reference/jones2002-figures/p4"
+      ],
+      "exit_code": 0,
+      "stderr": "",
+      "image_path": "tmp/day16-ni60-reference/jones2002-figures/p4.png",
+      "sha256": "90cd42bdd4f936be60a3962da7d5214f52bad901d563340d0a6c813f097cab4a"
+    },
+    {
+      "page": 6,
+      "command": [
+        "pdftoppm",
+        "-f",
+        "6",
+        "-l",
+        "6",
+        "-scale-to",
+        "1600",
+        "-singlefile",
+        "-png",
+        "raw/papers/2002_Jones_Calibration of Compton polarimeters.pdf",
+        "tmp/day16-ni60-reference/jones2002-figures/p6"
+      ],
+      "exit_code": 0,
+      "stderr": "",
+      "image_path": "tmp/day16-ni60-reference/jones2002-figures/p6.png",
+      "sha256": "c5ea8f9c12f8adf36fe8be68be7d104e82181ded8d3f51acb22f4a7fdfe745ad"
+    },
+    {
+      "page": 7,
+      "command": [
+        "pdftoppm",
+        "-f",
+        "7",
+        "-l",
+        "7",
+        "-scale-to",
+        "1600",
+        "-singlefile",
+        "-png",
+        "raw/papers/2002_Jones_Calibration of Compton polarimeters.pdf",
+        "tmp/day16-ni60-reference/jones2002-figures/p7"
+      ],
+      "exit_code": 0,
+      "stderr": "",
+      "image_path": "tmp/day16-ni60-reference/jones2002-figures/p7.png",
+      "sha256": "e17912e5a8734fe1294e3541bc348578b852876bc456332b561a3eb9cf6e8b8f"
+    }
+  ],
+  "reading_scope": "full8pages Sections1-8 refs/table/figure/formulas; visualreview next",
+  "preserve_human_prefix": true
+}
