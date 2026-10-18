@@ -1,0 +1,23 @@
+{
+  "at": "2026-10-19T03:39:39.612224+08:00",
+  "identity": "CO60-GATE-ROLE-ANALYSIS-DESIGN-01",
+  "before_analysis": true,
+  "primed": true,
+  "input_1k_native_exits": {
+    "corr": 0,
+    "iso": 0
+  },
+  "source_code_versions": {
+    "UCG": "02e5a9241322f661c6918f6705cab813c691cd21",
+    "GRUT": "f648d7cb4fc0609f13aaad7148977f87641ecac9"
+  },
+  "emitted_pair": "require exactly onegamma1171<E<1175 and1331<E<1334perhistory; nativevalidphi/theta; skip explicitmissing not fallback",
+  "literal_missing_control": "replay originalx1..z2=-1 anddot/len2/len2 aswritten; compare missinghistoryseparately; notcalledphysicalcos",
+  "truth_analysis": "100equalcosbins\u22121..1; reportPl mean/coeff5meanP2,9meanP4 andconditionalfixedselectedNcov; noexperimentalclaim",
+  "detector_analysis": "nativecore noenergyresmearing/threshold/addback; unique distinctcrystal gates1168<Elow<1178 and1328<Ehigh<1337; requireboth; highestdepositIP direction viaactualcrmat inverseforward, stabletiepolicyrecorded; originalGRUTnotexecuted",
+  "crosscheck_crmat": "7936bytes=>31x4x4x4float32; producerEventActiondetnum+4 cid meansmatrixcid//4,cid%4; positionworld=R@local+10translationcm; orthogonalityandroundtripcheck, no guessedaxis",
+  "ratio": "10coarsecosbins counts_corr/counts_iso separatelynormalizedbyall histories; bothfiniteMC historiesCov anddenominatorzerosreported; no fit normalization tuning",
+  "scope": "full12quad/noPOL/angularcorrelationonly source model; target/gate roles both1173/1332; notR21LaBr orL25producer/Q",
+  "theory_control": "pureE2 4->2->0 helicitytrace and exactCG/Racah branch; actualnativeMP407delta\u2212.0025 not silentlypure; nodeclareforcedfit",
+  "stop": "badABI/NaNtruth/capacity/nonPSD/transforms unresolved blocksdetectorangle claim; noframeworkrewrite"
+}

@@ -1,6 +1,6 @@
 ---
 type: source
-title: "UCGretina G411：实际源能谱构建、记录兼容与源框顺序"
+title: "UCGretina G411：源能谱、角关联与记录/几何合同"
 aliases: [UCGretina G411 source replay, Eu152 Geant4 11 compatibility]
 created: 2026-10-19
 updated: 2026-10-19
@@ -19,12 +19,12 @@ source_url: "https://github.com/rileyle/UCGretina/tree/02e5a9241322f661c6918f670
 raw_file: "raw/data/gpt/day16-20261018/ucgretina-g411-02e5a924.tar.gz"
 raw_sha256: "0a8b686fd54aab33542b76f2b599696a40e6e2b9301dde2053472bd7e7dc5024"
 raw_storage_status: public-staging-verified-raw-archive-deferred
-nuclei: [152Eu, 152Sm, 152Gd]
+nuclei: [152Eu, 152Sm, 152Gd, 60Co, 60Ni]
 reactions: []
 experiments: []
-models: [Geant4, unpolarized-source-energy-response]
+models: [Geant4, unpolarized-source-energy-response, gamma-gamma-angular-correlation]
 methods: [fixed-source-build, native-binary-ABI, same-seed-control]
-observables: [gamma-ray-energy-spectrum]
+observables: [gamma-ray-energy-spectrum, gamma-gamma-angular-correlation]
 tags: [software-validation, calibration-identity, geometry, response-readiness]
 ---
 
@@ -40,7 +40,7 @@ README关联Riley2021 DOI10.1016/j.nima.2021.165305及Morse2022 DOI10.1016/j.nim
 
 本批读README的版本/build/geometry/source/output主线、GNUmakefile与source宏/输入依赖，定向沿`UCGretina.cc`初始化、`PhysicsList`、`TrackingAction`、`EventInformation`、`EventAction`输出、`PrimaryGeneratorAction`源表、`Target`与messenger的源框/Construct路径追踪。没有通读724个对象、整个Geant4或偏振实现。自有headless CMake wrapper明确记录public commit；不执行原Makefile的安装/清理，不以外层Wiki HEAD冒充第三方版本。
 
-实际SDK为11.4.2，README说11.2.0；配置的数据包均已安装，但版本不等于历史2012/2021包。构建未启用POL、SCANNING、LHTARGET或NEUTRONS，使用原默认非偏振EM。README明确“not extensively tested”“polarized electromagnetic physics does not appear to be functional”；本页只研究无偏振源能谱。
+实际SDK为11.4.2，README说11.2.0；配置的数据包均已安装，但版本不等于历史2012/2021包。构建未启用POL、SCANNING、LHTARGET或NEUTRONS，使用原默认非偏振EM。README明确“not extensively tested”“polarized electromagnetic physics does not appear to be functional”；本页研究关闭polarized EM的源能谱与native核γγ角关联，不认证Compton Q。
 
 两个官方[11.4.2头文件](https://github.com/Geant4/geant4/tree/v11.4.2/source/processes/hadronic/models/radioactive_decay/include)已HTTP200取得，与安装副本逐字节相同：`G4Radioactivation.hh` SHA256=`1c164b2b68cb557975964e3c3b8076844de0c944c685e9f515f2c3409454c718`，`G4RadioactiveDecay.hh` SHA256=`7ffc97f3141a64deac3de6194a454c2b76edcee4bf203c18a07feceac090765a`。安装metadata不是核结构实验事实，实际接口正文才支撑以下兼容判断。
 
@@ -66,6 +66,17 @@ README关联Riley2021 DOI10.1016/j.nima.2021.165305及Morse2022 DOI10.1016/j.nim
 | UG24-16 | 100k模型γ的1540–1800/1800–3000计数0/0，decay为3/0；后一高区零观测给history-hit概率单侧95%上限2.9956874×10^-5，仅限该模型。它没有证明真实数据高区无source或恢复旧alpha/fitCov。 | source-window-counterexample | actual-model-counts-and-binomial-bound | source-cov-100k regional highcounts/zero-hit bound | true |
 | UG24-17 | 三个decay高区history为52586/60023/81372，coreE1647.3406/1643.4116/1608.4141keV；中间history的两记录γ1299.1331+344.2786与core在3.06×10^-5keV内闭合，core大于任一单γ。支持保留sum-in竞争解释，未以能量相符替代逐track归属。 | identified-history-energy-closure | direct-valid-binary-fields | highregion-history-audit history60023；GEB timestamp600230000 | true |
 | UG24-18 | 当前两shape的asolid行按holeL/thickB/thickC/capS/capT/thickO解析，得到coax1.5/back2.5/outer.9mm，usePassive默认true；与Riley2021 Table2 II数值相同。仅这个tuple相同不能认证十二quad原实验/材料/producer，100k输入未被改写。 | actual-geometry-input-crosswalk | fixed-file-parser-and-source-table | G120C4solid.list9/21；geometry_description34–37；Gretina_Array.cc359–365 | true |
+| UG24-19 | co60/iso宏使用native AngularCorrelations true/false，同时SetGammaPolarization false且binary无POL；实际co60几何symlink是NSCLstd12quads/48crystals，与Eu例七quad分开。源无sourceFrame，不能直接充R21/LaBr或L25实际reference。 | source-control-identity | direct-macro-code-input | co60/co60.mac/iso.mac；aeuler12行；PhysicsList.cc439–445 | true |
+| UG24-20 | 固定Ni60level文件给2505.753(4)→1332.514(2)的1173.239keV、MP407/δ−.0025，按实际G4编码为E2/M3；1332.514(2)→0是MP4/pureE2。这是本模型输入，不是新测的实验δ。 | multipole-order-and-input | direct-level-file-and-SDK | z28.a60.lvldata level4→1与level1→0；G4GammaTransition SampleDirection | true |
+| UG24-21 | 原sorting未在填emitted_delta前确认两目标γ都存在，缺失时−1占位仍进入dot/len²/len²；合法unit方向时该式才退化为cos。实际1k corr/iso各1/6history缺完整pair，本分析显式排除并保存literal无效值，不把非平坦占位谱当物理角关联。 | selection-precondition-and-control | literal-code-and-actual-histories | MakeHistos60CoSim.cxx truth-loop；smoke pair analysis missing-pair rows | true |
+| UG24-22 | native crmat.LINUX与固定GRUT crmat.dat对12quad的48矩阵，索引转换及cm→mm后R最大差2.96×10^-8、translation差1.22×10^-5mm；native最高deposit点往返误差约.0012mm。只核静态文件/数值，不认证实际GRUTSYS/binary或PSA分辨率。 | coordinate-and-unit-crosscheck | fixed-public-matrix-and-native-fields | EventAction.cc450–487；TGretina CrystalToGlobal/SetCRMAT；crmat-crosscheck | true |
+| UG24-23 | 两组1000Co60history实际程序/native检查0，CRYS773/712、探测history518/481，全部48crystal出现；truth有效前缀正finite、无容量/能量求和异常。原六GeomMgt1001保留，完整几何/Q未认证。 | source-model-bookkeeping | actual-simulation | co60-smoke-run/native corr/iso results | true |
+| UG24-24 | 1k完整unique emitted pairs999/994；声明无smearing/rawcore双门detector pairs仅7/4，10bins中7个iso denominator为0。源moment a2为.13998±.07327/.09773±.07094；这些误差不支持精确detector W、a4或Q，ratio一阶Cov不是exact CI。 | finite-MC-statistical-boundary | actual-history-analysis | co60-gate-smoke-analysis-result emitted_moments/coarse bins | true |
+| UG24-25 | 声明unpolarized4→2→0 joint-amplitude模型及nativeδ−.0025给a2=.1005293099、a4=.00940581308；RBδ+.0025配套operator phase后同observable。pureE2给5/49、4/441；与实际G4 F/F3公式收缩差≤1.48×10^-15，不从此拟实验δ或认证完整MC。 | phase-and-conditional-theory | independent-amplitude-and-source-algebra | 本页joint-cascade模型；G4PolarizationTransition F/F3/daughter update；theory/F3 results | true |
+| UG24-26 | 原生GammaTransition仅在gamma/discrete、核correlation flag及spin限制满足时用核ρ采样方向；PhotonEvaporation从CorrelatedGamma设这个flag并在RDM中保存/移除核tensor。这个核状态传播与polarized EM消费光子Stokes分开；本Co60无POL控制不给Compton Q。 | state-and-observable-contract | official11.4.2-code | G4GammaTransition SampleTransition/SampleDirection；G4PhotonEvaporation Initialise/EmittedFragment | true |
+| UG24-27 | 原Co60 sorting的max_layer在晶体循环外初始化并累计；对实际1k rawbank顺序，corr/iso的per-crystal back记录为103/78、prefix为123/89、whole-event类为166/126，reverse顺序改变48/35个history的标签。只是已定义输入上的选择对象反证，不是原R21实验back fraction或normalGRUT顺序偏差认证。 | selection-object-and-order-boundary | actual-history-literal-predicate | MakeHistos60CoSim max_layer/energy_involves_phi；backflag-result actualhistory witnesses | true |
+| UG24-28 | 新seed各100000Co60history run/native/angle分析均0：完整truth pairs99840/99845，a2=.105902±.007183/.006829±.007092、a4=.007674±.009631/.008455±.009514。前者与预定mixed point、后者与0的条件2D moment比较均相容；支持局部source开关控制，不据此唯一分辨tinyM3/相位或认证全producer。 | source-model-control-and-uncertainty | actual-MC-moments | co60-100k gate-analysis emitted_moments；moment-comparison | true |
+| UG24-29 | 相同100k数据的rawcore detector pairs507/549；10个iso bins均非零、最小39，比值SE约.135–.245。矩阵/Cov/求和/hash/无IP截断检查通过，但不是原README10^7精度、实验W或Q标定；source图与detector图保留不同population/分母。 | response-statistical-readiness | actual-named-detector-recipe | co60-100k-gate-analysis detector counts/ratioCov；control figure source CSV | true |
 
 ## Summary
 
@@ -104,6 +115,30 @@ decay高区三条记录的actual emitted energies和timestamp已保存，单γli
 
 ## Competing Interpretations and Limitations
 
+### 60Co控制例的实际读取范围
+
+另沿固定Co60例完整读README、co60/iso宏、angCorr.C、两Makefile和source.set；source.res/threshold各108记录以值集合核，Ni60level文件只读与source可达级联有关的前50行（全文件hash固定），未声称精读373个高激发level。MakeHistos60CoSim完整约490行已读；README提及的co60_gammas.mac在此版本未提供。未运行带rm规则的Makefile、GRUT/GrROOT；source.set九detector映射也不代实际十二quad输入。
+
+官方11.4.2的GammaTransition/PolarizationTransition主线和PhotonEvaporation的correlation/transition路径定向核准，三文件实际HTTP200/hash另存`co60-sdk-transition-source-discovery.json`。GRUT第五份matrix文件已对Git tree blob核准，原四代码文件不改。
+
+source真值只在唯一1171–1175与1331–1334keV光子均存在时入角谱；detector另名recipe使用未smear core能量的1168–1178/1328–1337双门，最高deposit IP经producer自己的crmat转回公共坐标。原例另外的1327.5–1337.5 raw gate、反复Gaussian measuredE和runtime矩阵/threshold没有被此recipe重放。角γγ的cosθ不是Compton ξ。
+
+### 级联相位与pure控制
+
+模型取第一光子方向为z并对未观测helicity求和，从unpolarized Ji4得到intermediate J2的PSD布居，再计算第二E2光子。native amplitudes含`(−1)^L A_L h_EM(λ)`；RB基去掉该L相位并对相邻E2/M3使用`δ_RB=−δ_native`，两套表达连同算符一起转换。实际输入给中间m=−2…2布居约(.159318,.221987,.237390,.221987,.159318)。
+
+pureE2极限a2=5/49、a4=4/441；actual mixed给.1005293099/.00940581308。若只抄同符号δ到RB而不换operator，会得到.1035476991/.00873505993；这是一项错误约定控制，不是另一个物理解。忽略核反冲、point/source/rest-frame及未包含detector response的假设均明示。
+
+将官方F/F3源码在初态P00=1、第一光子沿z收缩，得到`a_k=(−1)^k F_second(k) F3_first(k,k,0)/F3_first(0,0,0)`。独立CG/helicity trace与有理数/Wigner9j源码表达式闭合到1.48×10^-15；不是把同一程序两次运行计为独立实验。代码：[cascade theory](../../system/scripts/day16_co60_cascade_theory.py)、[F3 crosscheck](../../system/scripts/day16_co60_g4f3_crosscheck.py)、[native gate audit](../../system/scripts/day16_co60_gate_audit.py)。
+
+各100000history的corr/iso run/新seed/门与moment-Cov设计事前冻结，现已实际完成。run约549.21/646.01s，76667/76330条CRYS、50920/50888个探测history，无IP截断/坏truth/新异常；原六geometry警告保留。完整truth pairs99840/99845，余160/155history按冻结能窗规则排除；不是把每个event的num2当成目标pair。
+
+corr的source a2/a4为.105902±.007183/.007674±.009631，iso为.006829±.007092/.008455±.009514。同history moment Cov进入预定2D Gaussian比较，对mixed理论/iso0的D²约.6023/1.7086（χ²df2 tail近似.740/.426）。这些是条件MC近似相容性，不是实验CI；a4与微小M3/错误相位曲线的差未被该N唯一分辨。
+
+source-level效应与detector角响应分开：[实际控制图](../../outputs/learning-daily/20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/co60-control-figure/co60-control.svg)及CSV/PDF/PNG保留全部冻结bins/不确定度。source归一用完整pair N，detector ratio用所有generated N，后者507/549pairs、10bins的iso最小39，SE约.135–.245。图为当前无polarized EM/未smear rawcore模型；没有将零/小误差强补、拟Q或重放原GRUT。README所称约10^7events的detector W精度未被本诊断宣称复现。
+
+back-slice选择另有实际控制：[backflag脚本](../../system/scripts/day16_co60_backflag_audit.py)仅重放原max_layer的布尔predicate，segment0–35和无IP截断先核；没有smear或选择FEP。nativebank每晶体的`b_j`、prefix `B_j=OR_(k≤j)b_k`和whole-event `OR_all b`给不同数目，原代码在循环中使用prefix。倒序同一history保留了全部能量/IP却改变一部分prefix标签，证明这三种观察对象不能互换。尚未核原论文actual sorting/denominator及runtime晶体顺序，不以这个控制解释R21图5/10的量级或重算效率。
+
 - 原几何/SDK警告未被“允许继续”消除。精确reviewed warning之外的新异常、容量越界、坏truth或native解析失败都会阻止扩大模型结论。
 - 源框顺序对照只针对所选公开版本和SDK；不声称历史2012采集或Morse/L26实际producer采用同样错误。preinit指针/母volume尚未就所有平台作通用修复；本run明确另命名宏recipe。
 - beta/boost字段仍不认证。源能谱读coreE/timestamp，不读beta；这个子空间可继续，不据source-only instrumentation推广到in-beam偏振。
@@ -116,6 +151,7 @@ decay高区三条记录的actual emitted energies和timestamp已保存，单γli
 
 ## Extracted Pages
 
+- [[co60-gate-role-response-benchmark]]：实际target/gate、δ多极子顺序、角关联/偏振响应及有限MC比较对象。
 - [[gretina-eu152-source-response-replay]]：source event单位、geometry、truth、finite-MC与实验response的分层合同。
 - [[compton-polarimetry]]：无偏振能谱模拟通过仍不足以恢复Q或选择δ支。
 - [[ucgretina-2012-eu152-public-calibration-data]]：历史processedhist和当前新模型的版本边界。

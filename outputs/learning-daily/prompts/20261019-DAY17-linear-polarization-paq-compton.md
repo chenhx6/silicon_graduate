@@ -299,3 +299,5 @@ Day16 source-MC checkpoint023 priming：[[ucgretina-2024-geant4-11-source-replay
 Riley2021 DOI10.1016/j.nima.2021.165305/arxiv2104.09986v1已取得公开26页原件；checkpoint024已完整主线/12图/两表/Eq1核并写入[[riley-2021-ucgretina-energy-response]] R21-1–18；actualasolid对应II数值、七quad/十二quad和SDK/producer边界保持。后续以current canonical source/原runreceipt核最新实际阅读进度；preparedprompt不替科学body。
 
 Riley2021 priming还包括：I/II共用flood数据、极小stat interval不等真实层精度、target1172/1173＋LaBr1332gate和L25 reversedroles、有限能区/continuum失败及Q需现实segmentation/partialcollection；5733点/Compton209.8keV核验是旧Day16成果，不兑换formal17新证据。
+
+Day16 Co60 checkpoint025 priming：[[co60-gate-role-response-benchmark]]及UG24-19–29已做actual12quad nativecorrelation/noPOL、NiE2/M3配置、1k/各100k、missingγ占位/坐标/累计back选择、F3与jointphase控制，source switch获局部支持，detector507/549pairs不能作Q或原producer。图及数据是旧Day16成果，formal17不得用旧20万history/检查数授分；下一point gate conditional Stokes若续做须按最新canonical核实际完成状态，不预填结果。

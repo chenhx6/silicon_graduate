@@ -26,7 +26,10 @@ def main() -> int:
     p.add_argument("--output", type=Path, required=True)
     a = p.parse_args()
     cfg = json.loads(a.contract.read_text())
-    assert cfg["identity"] == "UCGRETINA-G411-EU152-SMOKE-01"
+    assert cfg["identity"] in {
+        "UCGRETINA-G411-EU152-SMOKE-01",
+        "UCGRETINA-G411-SOURCE-MACRO-01",
+    }
     binary = (ROOT/cfg["binary"]).resolve()
     assert sha(binary) == cfg["binary_sha256"]
     work = (ROOT/cfg["work_root"]).resolve()

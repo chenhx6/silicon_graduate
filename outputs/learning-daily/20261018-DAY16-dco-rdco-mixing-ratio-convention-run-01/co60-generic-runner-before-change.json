@@ -1,0 +1,7 @@
+{
+  "at": "2026-10-19T03:36:47.804924+08:00",
+  "script_before_sha256": "39b7ccb304c1285446a6956b11831d9fa616ae9b84b4c7a1c06382c4e8efe390",
+  "originalscript_published_in": "main / Validate DAY16 source replay and geometry order controls",
+  "change": "accept explicit generic source macro identity; oldEU152 contract remainsaccepted; nophysics/geometry/binarychange",
+  "before_change": true
+}

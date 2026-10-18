@@ -1,0 +1,24 @@
+{
+  "at": "2026-10-19T04:40:07.897184+08:00",
+  "stage_command_exit": 1,
+  "stage_reason": "two taskownedgeneratedPDFsignoredbyglobal*.pdf; gitaddstagedotherpaths before nonzero",
+  "unsafe_followup_corrected": "localcommit wasinvokeddespite failedstageandcachedwhitespace; neverpushed; blockgateand amendoneunpublishedcommit",
+  "first_commit_files": 87,
+  "missing_from_manifest": [
+    "outputs/learning-daily/20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/co60-control-figure/co60-control.pdf",
+    "system/log.md"
+  ],
+  "extra_in_commit": [],
+  "first_commit_whitespace_exit": 2,
+  "first_commit_whitespace_output_sha256": "cf49cf81f42afd71119794d1a4eedf163c0d350fbcaf66571bacd15f3c172cae",
+  "safe_resolution": "normalizegeneratedCSV/SVGinexporter, exactforceaddonly2generatedPDFs, reconstructHEAD^log+ownentry, inspectmanifest/cachedchecks, amend sameunpublishedcommitonce, freshrequired andH3",
+  "original_data_or_gitignore_modified": false,
+  "initial_H3_status": "blocked-beforefetchpush pendingmanifestandwhitespacecorrection",
+  "generated_PDFs_to_include": 1,
+  "CSV_cells_and_PNG_pixels_unchanged": true,
+  "final_figure_source_fonts_collisions_exits": [
+    0,
+    0,
+    0
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "identity": "UCGRETINA-NATIVE-GEB-SMOKE-DECODE-01",
+  "source_include": "tmp/day16-ucgretina/g411-original/rileyle-UCGretina-02e5a92/include",
+  "GEB_header_sha256": "82c32282095bb5dbc45de86a57dac2660fc9b136dfbbe168d7ac91d0bf0025df",
+  "binary_data": "tmp/day16-ucgretina/g411-co60-statistics-009/iso/iso-100k.dat",
+  "binary_sha256": "947f12e4c9d3ace8419fbec12366c23dc569e93b2838b8da5cbf81f9bfb827c9",
+  "mode": "decay",
+  "requested_events": 100000,
+  "timestamp_step": 10000,
+  "valid_fields": "header/type/len/ts;CRYS_IPS type/id/num/tot_e/ips;G4SIM type/num/e/phi/theta/sourcepos;ignoreuninitializedpaddingandbeta",
+  "ABI": "compileactualGEB.hh offsetof/sizes before decoding,hostlittleendianrequired",
+  "checks": "no payloadtruncation/magicmisidentify,num1..MAX_INTPTS,finiteenergies,1000uniquesimtimestamp0..999;exactlyoneemittedgammaonlyprimarygammamode;deposit<=emittedenergy tolerance .05keV+1e-5*E;pointsumvscore onlyifnottruncated",
+  "scope": "12quadCo60iso100k/noPOL/nativeknownfields only; notQ",
+  "geometry_log_warning_retained": "6GeomMgt1001JustWarning missingBoundingLimits, wallpoint/duplicatematerialmessages",
+  "producer_definitions": [
+    "HIGHMULT"
+  ]
+}

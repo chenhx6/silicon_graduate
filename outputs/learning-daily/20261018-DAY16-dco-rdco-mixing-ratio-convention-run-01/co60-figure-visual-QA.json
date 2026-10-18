@@ -1,0 +1,28 @@
+{
+  "at": "2026-10-19T04:29:28.530364+08:00",
+  "backend": "python/matplotlib only; repo-localpreference/cache",
+  "PDF_sha256": "d5a47bec70cd35d30559f1d7699e9ce177cf916f222f1d1c095525d078b94a48",
+  "PNG_sha256": "ac1e4ed63952d5d38cffe5594d90e36509b8b3f76ef16d7fb3069540a643af81",
+  "actual_PDF_size_mm": [
+    179.99999491373697,
+    85.99999936421712
+  ],
+  "actual_PNG_pixels": [
+    4251,
+    2031
+  ],
+  "alignment": "PASS",
+  "source_preflight_exit": 0,
+  "font_audit_exit": 0,
+  "min_text_pt": 7.0,
+  "collision_verdict": "PASS",
+  "panel_a_visual": "all20bins on/off,errorbars/model legible; no legend/titlecollision, no clippeduncertainty, modelnotfit",
+  "panel_b_visual": "all10ratio points/SE legible; unityreferenceonly notpointmodel fit, noQ claim",
+  "whole_visual": "viewed finalPNG atlarge/physical180x86mm contract, readablepanels/footnotes",
+  "accepted_source_warning": "PNG preview present without TIFF; declaredresearch-noteexports arePDF/SVG/600dpiPNG, notsubmissionraster",
+  "initial_layout_boundary": "first axeslegend clipped/overlapped, savedtmp firstlayout thenfixedgloballegend; staticdynamic-export/width expression flags corrected; dependentdraft renderjobsclosed beforefinalsequentialrender andQA; initial4572mm staticparserwidthwarning resolvedbyliteral7.0866inch figsize; finalwarningonlynoTIFF",
+  "original_source_data_unchanged": true,
+  "data_exclusions": "160/155 incomplete gammaenergy pairs excludedbyfrozenrule; no other20bin exclusions; detector all507/549 rawpairs",
+  "not_experimental_Q_or_journal_clearance": true,
+  "post_format_QA": "CSVcells identical, PNGbitwiseidentical, SVGline-endspacestrimmed only; PDFfont/collision/source rerun0 afterexporterLFfix"
+}

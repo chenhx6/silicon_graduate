@@ -1,0 +1,46 @@
+{
+  "source_formula": "actual11.4.2G4PolarizationTransitionFCoefficient/F3Coefficient/SampleGammaTransition k1=0,n1=z",
+  "before": "co60-G4F3-crosscheck-before.json",
+  "rows": [
+    {
+      "delta_native": 0.0,
+      "a0_a2_a4_exact": [
+        "1",
+        "5/49",
+        "4/441"
+      ],
+      "a0_a2_a4": [
+        1.0,
+        0.10204081632653061,
+        0.009070294784580499
+      ],
+      "helicitytrace": [
+        0.9999999999999998,
+        0.1020408163265317,
+        0.009070294784579026
+      ],
+      "max_difference": 1.4727802311043092e-15
+    },
+    {
+      "delta_native": -0.0025,
+      "a0_a2_a4_exact": [
+        "1",
+        "6399895/62720392 - 2000*sqrt(35)/7840049",
+        "4000*sqrt(35)/70560441 + 213338/23520147"
+      ],
+      "a0_a2_a4": [
+        1.0,
+        0.10052930988490005,
+        0.009405813083458456
+      ],
+      "helicitytrace": [
+        0.9999999999999997,
+        0.10052930988490114,
+        0.009405813083457101
+      ],
+      "max_difference": 1.3548190347378863e-15
+    }
+  ],
+  "no_new_experimental_fit": true,
+  "passed": true
+}

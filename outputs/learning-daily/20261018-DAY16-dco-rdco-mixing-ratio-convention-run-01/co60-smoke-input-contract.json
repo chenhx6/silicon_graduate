@@ -1,0 +1,130 @@
+{
+  "identity": "UCGRETINA-G411-SOURCE-MACRO-01",
+  "day_index": 16,
+  "partial_day_indices": [
+    17
+  ],
+  "source_commit": "02e5a9241322f661c6918f6705cab813c691cd21",
+  "binary": "tmp/day16-ucgretina/g411-truth-append-build/build/UCGretina",
+  "binary_sha256": "d39e218fe44899e526c9a6c99cfa309b28dd891fdcae5e65483423c5c6516347",
+  "input_files": [
+    {
+      "name": "aclust",
+      "path": "tmp/day16-ucgretina/g411-original/rileyle-UCGretina-02e5a92/examples/sources/co60/aclust",
+      "resolved": "/workspace/wiki/tmp/day16-ucgretina/g411-original/rileyle-UCGretina-02e5a92/GretinaGeometry/Slot0/G120C4clust.list",
+      "bytes": 424,
+      "sha256": "9055e9d738bc174fa927e566f470ef499cafaa3d8dba5906e810703839d93800",
+      "is_symlink": true
+    },
+    {
+      "name": "aeuler",
+      "path": "tmp/day16-ucgretina/g411-original/rileyle-UCGretina-02e5a92/examples/sources/co60/aeuler",
+      "resolved": "/workspace/wiki/tmp/day16-ucgretina/g411-original/rileyle-UCGretina-02e5a92/GretinaGeometry/NSCLstd12quads/G120C4euler.list",
+      "bytes": 612,
+      "sha256": "4ffc25c08e85285afcf1b3fee69f0e68e5be350e992b5a511e9c10eb778a88fa",
+      "is_symlink": true
+    },
+    {
+      "name": "aslice",
+      "path": "tmp/day16-ucgretina/g411-original/rileyle-UCGretina-02e5a92/examples/sources/co60/aslice",
+      "resolved": "/workspace/wiki/tmp/day16-ucgretina/g411-original/rileyle-UCGretina-02e5a92/GretinaGeometry/Slot0/G120C4slice.list",
+      "bytes": 453,
+      "sha256": "85c030e7e5888a9bb7ce58028310316a3b29ec30bbcfe8b69ea979626576aad8",
+      "is_symlink": true
+    },
+    {
+      "name": "asolid",
+      "path": "tmp/day16-ucgretina/g411-original/rileyle-UCGretina-02e5a92/examples/sources/co60/asolid",
+      "resolved": "/workspace/wiki/tmp/day16-ucgretina/g411-original/rileyle-UCGretina-02e5a92/GretinaGeometry/Slot0/G120C4solid.list",
+      "bytes": 1726,
+      "sha256": "bf5518bf42628a8c7caf812285f998863a93658a790bfef15ff9e9705bb794dd",
+      "is_symlink": true
+    },
+    {
+      "name": "awalls",
+      "path": "tmp/day16-ucgretina/g411-original/rileyle-UCGretina-02e5a92/examples/sources/co60/awalls",
+      "resolved": "/workspace/wiki/tmp/day16-ucgretina/g411-original/rileyle-UCGretina-02e5a92/GretinaGeometry/Slot0/G120C4walls.list",
+      "bytes": 11235,
+      "sha256": "9bba9cfdd283258f1f8cc85ce7379df256e6d71341dc858fb420d791203614c7",
+      "is_symlink": true
+    },
+    {
+      "name": "crmat.LINUX",
+      "path": "tmp/day16-ucgretina/g411-original/rileyle-UCGretina-02e5a92/examples/sources/co60/crmat.LINUX",
+      "resolved": "/workspace/wiki/tmp/day16-ucgretina/g411-original/rileyle-UCGretina-02e5a92/examples/sources/co60/crmat.LINUX",
+      "bytes": 7936,
+      "sha256": "5c29ed50f6d059caea631648407680f74bb93982fdba8d2643f99351f3cb77cc",
+      "is_symlink": false
+    },
+    {
+      "name": "z28.a60.lvldata",
+      "path": "tmp/day16-ucgretina/g411-original/rileyle-UCGretina-02e5a92/examples/sources/co60/z28.a60.lvldata",
+      "resolved": "/workspace/wiki/tmp/day16-ucgretina/g411-original/rileyle-UCGretina-02e5a92/examples/sources/co60/z28.a60.lvldata",
+      "bytes": 91470,
+      "sha256": "ba3adf4390fb57de00341f19f0d42976083f13f82d2864c8382ddefb6d65268a",
+      "is_symlink": false
+    },
+    {
+      "name": "co60.mac",
+      "path": "tmp/day16-ucgretina/g411-original/rileyle-UCGretina-02e5a92/examples/sources/co60/co60.mac",
+      "resolved": "/workspace/wiki/tmp/day16-ucgretina/g411-original/rileyle-UCGretina-02e5a92/examples/sources/co60/co60.mac",
+      "bytes": 1629,
+      "sha256": "eb4930ad84110f50be1ec246b241f3ae8584d78cfaab496e626a95826695ddef",
+      "is_symlink": false
+    },
+    {
+      "name": "iso.mac",
+      "path": "tmp/day16-ucgretina/g411-original/rileyle-UCGretina-02e5a92/examples/sources/co60/iso.mac",
+      "resolved": "/workspace/wiki/tmp/day16-ucgretina/g411-original/rileyle-UCGretina-02e5a92/examples/sources/co60/iso.mac",
+      "bytes": 1629,
+      "sha256": "8d3cc0e25a2d1eaf11de64c6eed0309f71bef59f727cbccb2a1dbc536cb2e77e",
+      "is_symlink": false
+    }
+  ],
+  "work_root": "tmp/day16-ucgretina/g411-co60-smoke-008",
+  "modes": [
+    {
+      "id": "corr",
+      "macro": "co60.mac",
+      "events": 1000,
+      "seeds": [
+        20261019,
+        601001
+      ],
+      "output_file": "corr-smoke.dat"
+    },
+    {
+      "id": "iso",
+      "macro": "iso.mac",
+      "events": 1000,
+      "seeds": [
+        20261019,
+        601002
+      ],
+      "output_file": "iso-smoke.dat"
+    }
+  ],
+  "source_identity": "stationary60CoZ27A60, ownz28a60 lvldata; nativeAngularCorrelations true/false; SetGammaPolarizationfalse/noPOL",
+  "geometry": "originalco60 symlinksNSCLstd12quads/48crystals, Slot0activepassivelayers1.5/2.5/.9; vacuumTarget/sled/beamTube/shell/capsule/cryostats; no sourceframe in macro; notactualR21/L25exactresponse",
+  "macro_changes": "prependverbosity/seed; replaceN/output only, preserveoriginalmacroorder and allphysics/source/geometry parameters",
+  "compile_definitions": [
+    "HIGHMULT"
+  ],
+  "scope_boundary": "source-only truthappend betaunvalidated; angularcorrelations doesnotenablepolarizedEM; noQ oractualexperimentMCclaim",
+  "reviewed_warning_blocks": [
+    {
+      "code": "GeomMgt1001",
+      "message_contains": "Not implemented for solid: CConvexPolyhedron",
+      "requires_just_warning": true,
+      "max_count": 6
+    }
+  ],
+  "checks": [
+    "actualSimulating1000/runcompletion/nativeABI1132/timestamps/positiveknowntruth/coreIPsum/capacity",
+    "1000historyincluded, uniquebothgammaenergywindowsbeforecos; compareliteralplaceholderboundarywithoutcallingnonflatresultphysical",
+    "do notinterpret G4SIMfullEnergy flag asuniquegammaFEP in cascade",
+    "Ni1173transitionMP407delta\u2212.0025 E2/M3, final1332pureE2; theoreticalpureE2onlycontrolnotsameinput",
+    "geometrytransforms/matchedresponse before anydetectorangle; nodefaultsource.set/GRUTbinaryclaim"
+  ],
+  "before_MC": true
+}

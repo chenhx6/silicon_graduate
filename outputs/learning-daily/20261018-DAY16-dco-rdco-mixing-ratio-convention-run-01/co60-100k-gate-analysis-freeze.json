@@ -1,0 +1,9 @@
+{
+  "at": "2026-10-19T04:12:37.888210+08:00",
+  "before_angleanalysis": true,
+  "primed": "100k nativecounts but notanglevaluesread; 1ksourceanglesalreadyknown",
+  "contract_sha256": "5fbaa0e4bdb037c071b0f1efd1e4521c49de7580f6cfdb6017a95140a4a21192",
+  "script_sha256": "99957bdd555323833452f8e1c0472643a98ddc06d9a13b0b5b854471ae35b492",
+  "frozen_source_benchmark": "co60-cascade-theory-result.json",
+  "guards": "allknownABI/num16possibletruncationblocked; ratiosdeltaapprox/undefinedbinssaved"
+}

@@ -1,0 +1,29 @@
+{
+  "script_sha256": "51809c0156e9f225af1adbaecf9a5e26a053675015bfad77d24c100f98049d4e",
+  "contract_sha256": "c17afd146bc55050527ae62521cb3911e4aca592ef12662d55f1e3714e94223a",
+  "data_sha256": "09f81080701795d8a3d8fee57268db809168ba834ed4d39c45c98035fb8f650c",
+  "theory_sha256": "2e9832732d970d074f033fbac157f312a657fa17524655b8f2662a554a9b4428",
+  "alignment_verdict": "PASS",
+  "size_mm": [
+    180,
+    86
+  ],
+  "source_complete_pairs_corr_iso": [
+    99840,
+    99845
+  ],
+  "detector_pairs_corr_iso": [
+    507,
+    549
+  ],
+  "all_source_bins_included": true,
+  "no_journal_submission_claim": true,
+  "exports": {
+    "co60-control.svg": "afb25b523929743f8a52b92b685d98f7159337621b1dfb249e5fd575a2748541",
+    "co60-control.pdf": "d5a47bec70cd35d30559f1d7699e9ce177cf916f222f1d1c095525d078b94a48",
+    "co60-control.png": "ac1e4ed63952d5d38cffe5594d90e36509b8b3f76ef16d7fb3069540a643af81",
+    "co60-control.source-data.csv": "c6ae68184d711e03ee170befe652955b9b84df41f7353ef570778622e5b30d57",
+    "co60-control.alignment.json": "e69970d7083986d040de2107e456356e22fe8a0ed7788e45aeeb1c93d5e950cb",
+    "co60-control.alignment.svg": "f4690ec602f904eabee82033f07bd4f890ecbc3b41afcf881e2a844fdf670664"
+  }
+}

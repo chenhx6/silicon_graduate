@@ -1,0 +1,26 @@
+[
+  {
+    "source_path": "source/processes/hadronic/models/de_excitation/photon_evaporation/src/G4GammaTransition.cc",
+    "url": "https://raw.githubusercontent.com/Geant4/geant4/v11.4.2/source/processes/hadronic/models/de_excitation/photon_evaporation/src/G4GammaTransition.cc",
+    "http_status": 200,
+    "path": "tmp/day16-ucgretina/geant4-11.4.2-co60/G4GammaTransition.cc",
+    "bytes": 7075,
+    "sha256": "add65e01f9d4136e69001fa65ecc7c713bc2ca551766cf19b8e81c9b5e3d3232"
+  },
+  {
+    "source_path": "source/processes/hadronic/models/de_excitation/photon_evaporation/src/G4PhotonEvaporation.cc",
+    "url": "https://raw.githubusercontent.com/Geant4/geant4/v11.4.2/source/processes/hadronic/models/de_excitation/photon_evaporation/src/G4PhotonEvaporation.cc",
+    "http_status": 200,
+    "path": "tmp/day16-ucgretina/geant4-11.4.2-co60/G4PhotonEvaporation.cc",
+    "bytes": 20570,
+    "sha256": "d856164c2e5b55e37b4525ca8d0d08759b7be105a6a9c0d9845f118ec217f94e"
+  },
+  {
+    "source_path": "source/processes/hadronic/models/de_excitation/photon_evaporation/src/G4PolarizationTransition.cc",
+    "url": "https://raw.githubusercontent.com/Geant4/geant4/v11.4.2/source/processes/hadronic/models/de_excitation/photon_evaporation/src/G4PolarizationTransition.cc",
+    "http_status": 200,
+    "path": "tmp/day16-ucgretina/geant4-11.4.2-co60/G4PolarizationTransition.cc",
+    "bytes": 14961,
+    "sha256": "bf3919dba0085c0cc3dafd6a85114dbcadc825cc6fa3ac9f18678774ea6753e7"
+  }
+]

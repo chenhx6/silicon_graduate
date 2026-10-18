@@ -8,15 +8,17 @@ updated: 2026-10-19
 
 ## Active handoff — DAY16 user-resumed original study window
 
-同run2026-10-18-day-16-01/session01a14ce6-425e-77c1-a127-2ac980bd76b5，原2026-10-19 15:00上海截止/15–16收束不改；goalactive/pursuing。formal16一次next17/count16、partial17，不正式17/不开18；Farmer42019保留，无新session/daemon。
+同run2026-10-18-day-16-01/session01a14ce6-425e-77c1-a127-2ac980bd76b5；原2026-10-19 15:00上海研究截止/15–16收束不改，goalactive/pursuing。formal16一次next17/count16、partial17，不正式17/不开18；Farmer42019保留，无新session/daemon。
 
-Checkpoint024：Riley2021 actual arxivv1全26页/12fig/两表/Eq1，新sourceR21-1–18与Eu152note/Compton/index/UE12/UC21关联；UG24新增18实参crosswalk，41changed/41items。12quad论文与公开7quad/data/SDK分开；I/II同flood数据不同能区、quotedstat非真实层precision，低能/continuum反证及polarimetry partialcharge/segmentation边界保留。1172/1173target＋LaBr1332gate不迁为L25 reversedreference。
+Checkpoint025：actual12quad/noPOL Co60例、sourceMP407δ配置、1k/各100k native/angle/moment与sourceF3/独立helicitytrace已canonical，新增Co60benchmark note与UG24-19–29，42pages/42items。source pairs99840/99845，a2.105902±.007183/.006829±.007092与预定mixed/iso0相容；a4/小相位差未唯一分辨。detector rawpairs507/549、10bin ratioSE.135–.245，不拟Q/实验CI。
 
-实际typedtable/parser/doc/hash练习0：5733点inclusive闭合、currentasolid两shape1.5/2.5/.9mm/usePassive对应Table2 II但不认证paperproducer；Eback≈210keV只机制核，不digitizecounts或fitQ/CI。I53/58、3548/3549、Fig7/8d轴/图注和backfractionledger未决，不补确定解释。verification018 actualreport/card/唯一writeback41/41、boundary/diff/lint0，0errors172warnings(128key41raw3parser)，旧人审prefix/PLAN/Bib保持；显式manifest发布；内容指针main / `Read DAY16 primary energy response and calibration boundaries`，hash/H3/push仅publication024/runreceipt。
+理论actualE2/M3native−.0025→RB+.0025同步变换，pureE2/源码F3与trace≤1.48e−15；静态48matrixunit/index核不认证runtimeGRUT。缺γ占位160/155排除；actual1k back单晶/prefix/eventwide103/123/166与78/89/126，orderdependence48/35history仅codepredicate边界，未归因原论文。figure180×86mm、600dpiPNG、min7pt/alignment/font/collision/visual过；finalsourceQA仅noTIFFwarning按researchnote合同保留，初layout/静态检查失败已隔离。
 
-上批023 actualGitee/HEADorigin已通过，原truth双失败、sourceframe Target/euTape控制、各100k finiteMC/PSD/双算法/求和/hash与高区model边界保持；不是实验Σ/Q/δ/旧fullfit。H3/验收wrapper的text/JSON错误已隔离修正并留receipt，原检查实际0，不隐去失败。
+verification019 actualreport/card/唯一writeback42/42、boundary/diff/lint0、0errors172warnings(128key41raw3parser)，prefix/PLAN/Bib/724sourceguard保持；explicitpublication；内容指针main / `Validate DAY16 Co60 gate roles and source angular correlation`，hash/H3/push仅publication025/runreceipt；前024actualGitee/HEADorigin已记录。首次stage PDFignore/生成文本whitespace与门未确认前localcommit错误已隔离：CSV/SVG导出修正、单个generatedPDF精确纳入、ownlog补齐、未push，sameunpublished amend一次后重跑门；原data cells/PNG不变。所有MC/原724tree/binary保留，原Geowarnings与beta/P/Q/原producer边界不变。
 
-下一沿真实校准分母/选择/原producer缺口重建continuity候选，不盲加MC或重试终态；详continuation-current.md。全部source/PDF/build/MC/ROOT只tmp，不动raw/PLAN/Bib/凭据；保护L26/L25人审prefix/继承dirty/log，exactmanifest/HEAD+ownlog/H3 freshfetch非force。仍余11h+继续至原15:00窗口。
+Weisshaar2017正文仍未取得：metadata精确doi2016.12.001，XML仅coredata、仓储403/refused、configuredpublisher缺credentials；这些route终态，不询问/改凭据、不补原backfraction。下一已冻理想Co60 first/last conditionalStokes问题（pureE2可因对称相同，actualM3需整套amplitudes/轴相位核，不预设结论）；先结束025门再做，不冒称MC photonpolarization。
+
+详continuation-current.md，仍10h+窗口至原15:00。exactmanifest/HEAD+ownlog/H3 freshfetch非force；保护raw/PLAN/Bib/凭据/L26L25旧人审prefix/继承receipts/daemon/log。
 
 ## Previous active handoff — DAY16 completed; Day17 is next
 

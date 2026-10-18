@@ -1,0 +1,369 @@
+[
+  {
+    "name": "osti",
+    "url": "https://www.osti.gov/api/v1/records?doi=10.1016%2Fj.nima.2016.12.001",
+    "error": "URLError: <urlopen error [Errno 111] Connection refused>"
+  },
+  {
+    "name": "openalex-exact",
+    "url": "https://api.openalex.org/works/https://doi.org/10.1016/j.nima.2016.12.001",
+    "http_status": 200,
+    "path": "tmp/day16-ucgretina/weisshaar2017/openalex-exact.json",
+    "sha256": "b7cf78fc8e1e14c146a71cd1cb8ddf6e13898b8bacbef51f62b19f4890b17421",
+    "bytes": 58336,
+    "metadata": {
+      "id": "https://openalex.org/W2559486805",
+      "doi": "https://doi.org/10.1016/j.nima.2016.12.001",
+      "title": "The performance of the \u03b3-ray tracking array GRETINA for \u03b3-ray spectroscopy with fast beams of rare isotopes",
+      "publication_date": "2016-12-03",
+      "open_access": {
+        "is_oa": true,
+        "oa_status": "bronze",
+        "oa_url": "https://doi.org/10.1016/j.nima.2016.12.001",
+        "any_repository_has_fulltext": true
+      },
+      "best_oa_location": {
+        "id": "doi:10.1016/j.nima.2016.12.001",
+        "doi": "https://doi.org/10.1016/j.nima.2016.12.001",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1016/j.nima.2016.12.001",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S145630073",
+          "display_name": "Nuclear Instruments and Methods in Physics Research Section A Accelerators Spectrometers Detectors and Associated Equipment",
+          "issn_l": "0168-9002",
+          "issn": [
+            "0168-9002",
+            "1872-9576"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "listed_in": [
+            "anvur-scientific",
+            "cwts-core",
+            "dongbi-b",
+            "jufo-1",
+            "ki-jl-1",
+            "norway-1",
+            "poland-70",
+            "russia-white-list-2",
+            "vabb-shw"
+          ],
+          "host_organization": "https://openalex.org/P4310320990",
+          "host_organization_name": "Elsevier BV",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320990"
+          ],
+          "host_organization_lineage_names": [
+            "Elsevier BV"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "acceptedVersion",
+        "is_accepted": true,
+        "is_published": false,
+        "raw_source_name": "Nuclear Instruments and Methods in Physics Research Section A: Accelerators, Spectrometers, Detectors and Associated Equipment",
+        "raw_type": "journal-article"
+      },
+      "locations": [
+        {
+          "id": "doi:10.1016/j.nima.2016.12.001",
+          "doi": "https://doi.org/10.1016/j.nima.2016.12.001",
+          "is_oa": true,
+          "landing_page_url": "https://doi.org/10.1016/j.nima.2016.12.001",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S145630073",
+            "display_name": "Nuclear Instruments and Methods in Physics Research Section A Accelerators Spectrometers Detectors and Associated Equipment",
+            "issn_l": "0168-9002",
+            "issn": [
+              "0168-9002",
+              "1872-9576"
+            ],
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": true,
+            "listed_in": [
+              "anvur-scientific",
+              "cwts-core",
+              "dongbi-b",
+              "jufo-1",
+              "ki-jl-1",
+              "norway-1",
+              "poland-70",
+              "russia-white-list-2",
+              "vabb-shw"
+            ],
+            "host_organization": "https://openalex.org/P4310320990",
+            "host_organization_name": "Elsevier BV",
+            "host_organization_lineage": [
+              "https://openalex.org/P4310320990"
+            ],
+            "host_organization_lineage_names": [
+              "Elsevier BV"
+            ],
+            "type": "journal"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "acceptedVersion",
+          "is_accepted": true,
+          "is_published": false,
+          "raw_source_name": "Nuclear Instruments and Methods in Physics Research Section A: Accelerators, Spectrometers, Detectors and Associated Equipment",
+          "raw_type": "journal-article"
+        },
+        {
+          "id": "pmh:oai:escholarship.org:ark:/13030/qt5pz3n235",
+          "doi": null,
+          "is_oa": true,
+          "landing_page_url": "https://escholarship.org/uc/item/5pz3n235",
+          "pdf_url": "https://escholarship.org/content/qt5pz3n235/qt5pz3n235.pdf",
+          "source": {
+            "id": "https://openalex.org/S4306400115",
+            "display_name": "eScholarship (California Digital Library)",
+            "issn_l": null,
+            "issn": null,
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": false,
+            "listed_in": [],
+            "host_organization": "https://openalex.org/I2801248553",
+            "host_organization_name": "California Digital Library",
+            "host_organization_lineage": [
+              "https://openalex.org/I2801248553"
+            ],
+            "host_organization_lineage_names": [],
+            "type": "repository"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "submittedVersion",
+          "is_accepted": false,
+          "is_published": false,
+          "raw_source_name": "Nuclear Instruments and Methods in Physics Research Section A Accelerators Spectrometers Detectors and Associated Equipment, vol 847",
+          "raw_type": "article"
+        },
+        {
+          "id": "pmh:oai:osti.gov:1372693",
+          "doi": null,
+          "is_oa": true,
+          "landing_page_url": "https://www.osti.gov/biblio/1372693",
+          "pdf_url": "https://www.osti.gov/servlets/purl/1372693",
+          "source": {
+            "id": "https://openalex.org/S4306402487",
+            "display_name": "OSTI OAI (U.S. Department of Energy Office of Scientific and Technical Information)",
+            "issn_l": null,
+            "issn": null,
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": false,
+            "listed_in": [],
+            "host_organization": "https://openalex.org/I139351228",
+            "host_organization_name": "Office of Scientific and Technical Information",
+            "host_organization_lineage": [
+              "https://openalex.org/I139351228"
+            ],
+            "host_organization_lineage_names": [],
+            "type": "repository"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "submittedVersion",
+          "is_accepted": false,
+          "is_published": false,
+          "raw_source_name": null,
+          "raw_type": null
+        },
+        {
+          "id": "pmh:oai:escholarship.org/ark:/13030/qt5pz3n235",
+          "doi": null,
+          "is_oa": false,
+          "landing_page_url": "https://escholarship.org/uc/item/5pz3n235",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S4306400115",
+            "display_name": "eScholarship (California Digital Library)",
+            "issn_l": null,
+            "issn": null,
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": false,
+            "listed_in": [],
+            "host_organization": "https://openalex.org/I2801248553",
+            "host_organization_name": "California Digital Library",
+            "host_organization_lineage": [
+              "https://openalex.org/I2801248553"
+            ],
+            "host_organization_lineage_names": [],
+            "type": "repository"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "submittedVersion",
+          "is_accepted": false,
+          "is_published": false,
+          "raw_source_name": "",
+          "raw_type": "article"
+        },
+        {
+          "id": "pmh:oai:osti.gov:1379753",
+          "doi": null,
+          "is_oa": false,
+          "landing_page_url": "https://www.osti.gov/biblio/1379753",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S4306402487",
+            "display_name": "OSTI OAI (U.S. Department of Energy Office of Scientific and Technical Information)",
+            "issn_l": null,
+            "issn": null,
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": false,
+            "listed_in": [],
+            "host_organization": "https://openalex.org/I139351228",
+            "host_organization_name": "Office of Scientific and Technical Information",
+            "host_organization_lineage": [
+              "https://openalex.org/I139351228"
+            ],
+            "host_organization_lineage_names": [],
+            "type": "repository"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "submittedVersion",
+          "is_accepted": false,
+          "is_published": false,
+          "raw_source_name": null,
+          "raw_type": null
+        },
+        {
+          "id": "pmh:oai:osti.gov:1405146",
+          "doi": null,
+          "is_oa": false,
+          "landing_page_url": "https://www.osti.gov/biblio/1405146",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S4306402487",
+            "display_name": "OSTI OAI (U.S. Department of Energy Office of Scientific and Technical Information)",
+            "issn_l": null,
+            "issn": null,
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": false,
+            "listed_in": [],
+            "host_organization": "https://openalex.org/I139351228",
+            "host_organization_name": "Office of Scientific and Technical Information",
+            "host_organization_lineage": [
+              "https://openalex.org/I139351228"
+            ],
+            "host_organization_lineage_names": [],
+            "type": "repository"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "submittedVersion",
+          "is_accepted": false,
+          "is_published": false,
+          "raw_source_name": null,
+          "raw_type": null
+        },
+        {
+          "id": "pmh:oai:osti.gov:1416765",
+          "doi": null,
+          "is_oa": false,
+          "landing_page_url": "https://www.osti.gov/biblio/1416765",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S4306402487",
+            "display_name": "OSTI OAI (U.S. Department of Energy Office of Scientific and Technical Information)",
+            "issn_l": null,
+            "issn": null,
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": false,
+            "listed_in": [],
+            "host_organization": "https://openalex.org/I139351228",
+            "host_organization_name": "Office of Scientific and Technical Information",
+            "host_organization_lineage": [
+              "https://openalex.org/I139351228"
+            ],
+            "host_organization_lineage_names": [],
+            "type": "repository"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "submittedVersion",
+          "is_accepted": false,
+          "is_published": false,
+          "raw_source_name": null,
+          "raw_type": null
+        },
+        {
+          "id": "pmh:oai:osti.gov:1481697",
+          "doi": null,
+          "is_oa": false,
+          "landing_page_url": "https://www.osti.gov/biblio/1481697",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S4306402487",
+            "display_name": "OSTI OAI (U.S. Department of Energy Office of Scientific and Technical Information)",
+            "issn_l": null,
+            "issn": null,
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": false,
+            "listed_in": [],
+            "host_organization": "https://openalex.org/I139351228",
+            "host_organization_name": "Office of Scientific and Technical Information",
+            "host_organization_lineage": [
+              "https://openalex.org/I139351228"
+            ],
+            "host_organization_lineage_names": [],
+            "type": "repository"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "submittedVersion",
+          "is_accepted": false,
+          "is_published": false,
+          "raw_source_name": null,
+          "raw_type": null
+        },
+        {
+          "id": "pmh:oai:www.research.unipd.it:11577/3221406",
+          "doi": null,
+          "is_oa": false,
+          "landing_page_url": "http://hdl.handle.net/11577/3221406",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S4306402547",
+            "display_name": "Padua Research Archive (University of Padova)",
+            "issn_l": null,
+            "issn": null,
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": false,
+            "listed_in": [],
+            "host_organization": "https://openalex.org/I138689650",
+            "host_organization_name": "University of Padua",
+            "host_organization_lineage": [
+              "https://openalex.org/I138689650"
+            ],
+            "host_organization_lineage_names": [],
+            "type": "repository"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "submittedVersion",
+          "is_accepted": false,
+          "is_published": false,
+          "raw_source_name": null,
+          "raw_type": "info:eu-repo/semantics/article"
+        }
+      ]
+    }
+  }
+]

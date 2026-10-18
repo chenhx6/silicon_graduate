@@ -1,0 +1,18 @@
+{
+  "at": "2026-10-19T03:22:52.744415+08:00",
+  "target_DOI": "10.1016/j.nima.2016.12.001",
+  "Crossref_match": "exacttitle volume847 pages187\u2013198 print2017",
+  "OpenAlex_exacttitle_match": {
+    "doi": "10.1016/j.nima.2016.12.001",
+    "year": 2016,
+    "open_access_url": "https://doi.org/10.1016/j.nima.2016.12.001"
+  },
+  "rejected_discovery_results": [
+    "arxivRiley2021 differenttitle/doi",
+    "firstOpenAlexDOItextsearchcitingpapers"
+  ],
+  "Scholar": "toolerror timeout; not evidence, do not retryidenticalquery",
+  "downloader_first_error": "unknown --doi, beforefetch; parser--dois nowused",
+  "body_obtained": false,
+  "source_metadata_not_scientific_evidence": true
+}

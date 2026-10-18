@@ -1,0 +1,73 @@
+{
+  "version": 2,
+  "generated_at": "2026-10-18T19:23:11.630Z",
+  "request": {
+    "topic": "",
+    "title": "",
+    "dois": [
+      "10.1016/j.nima.2016.12.001"
+    ],
+    "pdf_url": "",
+    "si_requested": true,
+    "language_override": "",
+    "route_override": "open_access",
+    "source_url": "",
+    "api_fallback_web": null,
+    "api_fallback_web_for": [],
+    "no_api_fallback_web_for": []
+  },
+  "summary": {
+    "total": 1,
+    "downloaded": 0,
+    "seconds": 21.1
+  },
+  "results": [
+    {
+      "doi": "10.1016/j.nima.2016.12.001",
+      "title": "The performance of the \u03b3-ray tracking array GRETINA for \u03b3-ray spectroscopy with fast beams of rare isotopes",
+      "language": "en",
+      "publisher": "Elsevier BV",
+      "route": "open_access",
+      "route_reason": "explicit_override",
+      "si_requested": true,
+      "status": "oa_not_found",
+      "provider": "open_access",
+      "oaAssessment": "confirmed_oa",
+      "oaChecks": {
+        "pmc": {
+          "checked": true,
+          "pmcid": "",
+          "error": ""
+        },
+        "unpaywall": {
+          "checked": true,
+          "error": "",
+          "is_oa": true
+        },
+        "crossref_license": "https://www.elsevier.com/tdm/userlicense/1.0/"
+      },
+      "oaAttempts": [
+        {
+          "source": "publisher_oa",
+          "url": "https://doi.org/10.1016/j.nima.2016.12.001",
+          "status": "invalid_or_unavailable",
+          "http_status": 200,
+          "reason": "not_fulltext_html"
+        },
+        {
+          "source": "repository",
+          "url": "https://escholarship.org/content/qt5pz3n235/qt5pz3n235.pdf",
+          "status": "invalid_or_unavailable",
+          "http_status": 403,
+          "reason": "invalid content"
+        },
+        {
+          "source": "repository",
+          "url": "https://www.osti.gov/servlets/purl/1372693",
+          "status": "request_failed",
+          "reason": "fetch failed"
+        }
+      ]
+    }
+  ]
+}

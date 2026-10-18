@@ -1,0 +1,41 @@
+{
+  "source": {
+    "cmd": [
+      "python3",
+      "/root/.codex/skills/nature-figure/scripts/validate_figure.py",
+      "system/scripts/day16_co60_control_figure.py",
+      "--json"
+    ],
+    "exit_code": 0,
+    "stdout": "{\n  \"source\": \"system/scripts/day16_co60_control_figure.py\",\n  \"backend\": \"python\",\n  \"summary\": {\n    \"ready\": true,\n    \"strict\": false,\n    \"counts\": {\n      \"PASS\": 20,\n      \"WARN\": 1,\n      \"FAIL\": 0\n    }\n  },\n  \"findings\": [\n    {\n      \"check_id\": \"SOURCE-SYNTAX\",\n      \"level\": \"PASS\",\n      \"message\": \"Python source parses successfully\",\n      \"evidence\": []\n    },\n    {\n      \"check_id\": \"FONT-FAMILY\",\n      \"level\": \"PASS\",\n      \"message\": \"A publication-safe sans-serif family is configured\",\n      \"evidence\": [\n        \"sans-serif\"\n      ]\n    },\n    {\n      \"check_id\": \"FONT-SIZE\",\n      \"level\": \"PASS\",\n      \"message\": \"All detected text sizes are at least 5 pt (minimum 7 pt)\",\n      \"evidence\": []\n    },\n    {\n      \"check_id\": \"FONT-GLYPH-FLOOR\",\n      \"level\": \"PASS\",\n      \"message\": \"No mathtext superscript/subscript expression detected\",\n      \"evidence\": []\n    },\n    {\n      \"check_id\": \"LEGEND-LABEL-CASE\",\n      \"level\": \"PASS\",\n      \"message\": \"Detected literal legend labels start with display-style capitalization\",\n      \"evidence\": []\n    },\n    {\n      \"check_id\": \"COLOR-MAP\",\n      \"level\": \"PASS\",\n      \"message\": \"No rainbow/jet/hsv color mapping detected\",\n      \"evidence\": []\n    },\n    {\n      \"check_id\": \"EDITABLE-TEXT\",\n      \"level\": \"PASS\",\n      \"message\": \"SVG and PDF editable-text settings are configured\",\n      \"evidence\": []\n    },\n    {\n      \"check_id\": \"EXPORT-VECTOR\",\n      \"level\": \"PASS\",\n      \"message\": \"Both SVG and PDF exports are present\",\n      \"evidence\": []\n    },\n    {\n      \"check_id\": \"EXPORT-RASTER\",\n      \"level\": \"WARN\",\n      \"message\": \"PNG preview is present but no TIFF submission raster was found\",\n      \"evidence\": []\n    },\n    {\n      \"check_id\": \"RASTER-DPI\",\n      \"level\": \"PASS\",\n      \"message\": \"A raster export of at least 600 dpi is configured\",\n      \"evidence\": [\n        \"600\"\n      ]\n    },\n    {\n      \"check_id\": \"FINAL-WIDTH\",\n      \"level\": \"PASS\",\n      \"message\": \"Detected width 180.0 mm matches a common journal column width\",\n      \"evidence\": []\n    },\n    {\n      \"check_id\": \"DATA-SAMPLING\",\n      \"level\": \"PASS\",\n      \"message\": \"No high-confidence row-sampling operation detected\",\n      \"evidence\": []\n    },\n    {\n      \"check_id\": \"DATA-EXCLUSION\",\n      \"level\": \"PASS\",\n      \"message\": \"No high-confidence missing-data exclusion detected\",\n      \"evidence\": []\n    },\n    {\n      \"check_id\": \"DEMO-DATA\",\n      \"level\": \"PASS\",\n      \"message\": \"No obvious simulated-data generator detected\",\n      \"evidence\": []\n    },\n    {\n      \"check_id\": \"LOG-GUARD\",\n      \"level\": \"PASS\",\n      \"message\": \"No logarithmic transform or axis detected\",\n      \"evidence\": []\n    },\n    {\n      \"check_id\": \"INTERP-MONOTONIC\",\n      \"level\": \"PASS\",\n      \"message\": \"No NumPy interpolation requiring an increasing x-grid detected\",\n      \"evidence\": []\n    },\n    {\n      \"check_id\": \"UNCERTAINTY-ENCODING\",\n      \"level\": \"PASS\",\n      \"message\": \"No stochastic aggregate requiring a variability audit was inferred\",\n      \"evidence\": []\n    },\n    {\n      \"check_id\": \"ROTATION-ANCHOR\",\n      \"level\": \"PASS\",\n      \"message\": \"No rotated Matplotlib text detected\",\n      \"evidence\": []\n    },\n    {\n      \"check_id\": \"ANNOTATION-WORKAROUND\",\n      \"level\": \"PASS\",\n      \"message\": \"No high-risk hard-coded label height or opaque white text mask detected\",\n      \"evidence\": []\n    },\n    {\n      \"check_id\": \"PANEL-ALIGNMENT-GATE\",\n      \"level\": \"PASS\",\n      \"message\": \"Render-time panel-alignment gate is wired into the plotting source\",\n      \"evidence\": [\n        \"require_matplotlib_panel_alignment(\"\n      ]\n    },\n    {\n      \"check_id\": \"BACKEND-EXCLUSIVE\",\n      \"level\": \"PASS\",\n      \"message\": \"No obvious cross-backend plotting reference found for python\",\n      \"evidence\": []\n    }\n  ]\n}\n",
+    "stderr": ""
+  },
+  "PDF_fonts": {
+    "cmd": [
+      "python3",
+      "/root/.codex/skills/nature-figure/scripts/audit_pdf_text.py",
+      "outputs/learning-daily/20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/co60-control-figure/co60-control.pdf",
+      "--min-pt",
+      "5",
+      "--json"
+    ],
+    "exit_code": 0,
+    "stdout": "{\n  \"pdf\": \"outputs/learning-daily/20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/co60-control-figure/co60-control.pdf\",\n  \"auditable\": true,\n  \"minimum_required_pt\": 5.0,\n  \"minimum_found_pt\": 7.0,\n  \"text_run_count\": 49,\n  \"below_minimum_count\": 0,\n  \"below_minimum\": [],\n  \"warnings\": []\n}\n",
+    "stderr": ""
+  },
+  "collisions": {
+    "cmd": [
+      "python3",
+      "/root/.codex/skills/nature-figure/scripts/audit_figure_collisions.py",
+      "outputs/learning-daily/20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/co60-control-figure/co60-control.pdf",
+      "--json-out",
+      "outputs/learning-daily/20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/co60-control-figure/co60-control.collision-audit.json",
+      "--overlay-pdf",
+      "outputs/learning-daily/20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/co60-control-figure/co60-control.collision-audit.pdf",
+      "--json"
+    ],
+    "exit_code": 0,
+    "stdout": "{\n  \"pdf\": \"outputs/learning-daily/20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/co60-control-figure/co60-control.pdf\",\n  \"auditable\": true,\n  \"verdict\": \"PASS\",\n  \"page_count\": 1,\n  \"visible_text_box_count\": 34,\n  \"text_trace_count\": 49,\n  \"stroke_path_count\": 237,\n  \"filled_region_count\": 180,\n  \"image_region_count\": 0,\n  \"summary\": {\n    \"fail\": 0,\n    \"warn\": 0,\n    \"contained_fill_overlays\": 0,\n    \"contained_image_overlays\": 0\n  },\n  \"thresholds\": {\n    \"text_inset_pt\": 0.6,\n    \"min_overlap_ratio\": 0.05,\n    \"clipping_tolerance_pt\": 0.5\n  },\n  \"findings\": []\n}\n",
+    "stderr": ""
+  }
+}

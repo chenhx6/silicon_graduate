@@ -1,0 +1,18 @@
+[
+  {
+    "name": "escholarship-landing",
+    "url": "https://escholarship.org/uc/item/5pz3n235",
+    "error": "HTTPError: HTTP Error 403: Forbidden"
+  },
+  {
+    "name": "elsevier-accepted",
+    "url": "https://api.elsevier.com/content/article/PII:S0168900216312402?httpAccept=text/xml",
+    "http_status": 200,
+    "content_type": "text/xml;charset=UTF-8",
+    "final_url": "https://api.elsevier.com/content/article/PII:S0168900216312402?httpAccept=text/xml",
+    "path": "tmp/day16-ucgretina/weisshaar2017/elsevier-accepted.txt",
+    "sha256": "ef5bd845e6348c001f66fe4931357871d9a658c367c5374f35fb8d1b76d01d2b",
+    "bytes": 1959,
+    "preview": "<full-text-retrieval-response xmlns=\"http://www.elsevier.com/xml/svapi/article/dtd\" xmlns:bk=\"http://www.elsevier.com/xml/bk/dtd\" xmlns:cals=\"http://www.elsevier.com/xml/common/cals/dtd\" xmlns:ce=\"http://www.elsevier.com/xml/common/dtd\" xmlns:ja=\"http://www.elsevier.com/xml/ja/dtd\" xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:sa=\"http://www.elsevier.com/xml/common/struct-aff/dtd\" xmlns:sb=\"http://www.elsevier.com/xml/common/struct-bib/dtd\" xmlns:tb=\"http://www.elsevier.com/xml/common/table/dtd\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" xmlns:xocs=\"http://www.elsevier.com/xml/xocs/dtd\""
+  }
+]

@@ -1,0 +1,23 @@
+{
+  "identity": "CO60-GATE-ROLE-NATIVE-ANALYSIS-01",
+  "crmat": "tmp/day16-ucgretina/g411-original/rileyle-UCGretina-02e5a92/examples/sources/co60/crmat.LINUX",
+  "crmat_sha256": "5c29ed50f6d059caea631648407680f74bb93982fdba8d2643f99351f3cb77cc",
+  "detector_cos_bins": 10,
+  "inputs": [
+    {
+      "mode": "corr",
+      "native_audit": "outputs/learning-daily/20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/co60-smoke-native-corr-result.json",
+      "native_audit_sha256": "261734ded0abbcb62735c64d366bd9a4ebe42d04da16f47b8a99c6bf63347d5e",
+      "data": "tmp/day16-ucgretina/g411-co60-smoke-008/corr/corr-smoke.dat",
+      "data_sha256": "ef503469f27b5cbee816fa5eafcecd5970d2e35e5cc21fcae08f3c2f9f38422f"
+    },
+    {
+      "mode": "iso",
+      "native_audit": "outputs/learning-daily/20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/co60-smoke-native-iso-result.json",
+      "native_audit_sha256": "260b3124b4df2abc41a7ce137bd42352a3b24457e45d506925486918e8989e10",
+      "data": "tmp/day16-ucgretina/g411-co60-smoke-008/iso/iso-smoke.dat",
+      "data_sha256": "39e4f4245f2ae3dda5dc77dc363cff44f30d549c1a0842b9309ace9a63608458"
+    }
+  ],
+  "declared_recipe": "co60-gate-analysis-before.json; unsmearednative pair; not GRUTproducer or Q"
+}

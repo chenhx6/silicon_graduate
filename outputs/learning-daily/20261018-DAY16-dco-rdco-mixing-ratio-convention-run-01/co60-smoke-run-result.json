@@ -1,0 +1,190 @@
+{
+  "identity": "UCGRETINA-G411-SOURCE-MACRO-01",
+  "contract_sha256": "37f488753677c7f7ae4f0c22de0542dbd84bb84f6ad3b19876728b576e9883be",
+  "script_sha256": "a16767bc72be438c74c978adce731ff580f3c8475807ea38a49db22b1004288c",
+  "binary_sha256": "d39e218fe44899e526c9a6c99cfa309b28dd891fdcae5e65483423c5c6516347",
+  "datasets": [
+    {
+      "label": "G4NDL",
+      "environment_variable": "G4NEUTRONHPDATA",
+      "path": "/opt/geant4/11.4.2/share/Geant4/data/G4NDL4.7.1"
+    },
+    {
+      "label": "G4EMLOW",
+      "environment_variable": "G4LEDATA",
+      "path": "/opt/geant4/11.4.2/share/Geant4/data/G4EMLOW8.8"
+    },
+    {
+      "label": "PhotonEvaporation",
+      "environment_variable": "G4LEVELGAMMADATA",
+      "path": "/opt/geant4/11.4.2/share/Geant4/data/PhotonEvaporation6.1.2"
+    },
+    {
+      "label": "RadioactiveDecay",
+      "environment_variable": "G4RADIOACTIVEDATA",
+      "path": "/opt/geant4/11.4.2/share/Geant4/data/RadioactiveDecay6.1.2"
+    },
+    {
+      "label": "G4PARTICLEXS",
+      "environment_variable": "G4PARTICLEXSDATA",
+      "path": "/opt/geant4/11.4.2/share/Geant4/data/G4PARTICLEXS4.2"
+    },
+    {
+      "label": "G4PII",
+      "environment_variable": "G4PIIDATA",
+      "path": "/opt/geant4/11.4.2/share/Geant4/data/G4PII1.3"
+    },
+    {
+      "label": "RealSurface",
+      "environment_variable": "G4REALSURFACEDATA",
+      "path": "/opt/geant4/11.4.2/share/Geant4/data/RealSurface2.2"
+    },
+    {
+      "label": "G4SAIDDATA",
+      "environment_variable": "G4SAIDXSDATA",
+      "path": "/opt/geant4/11.4.2/share/Geant4/data/G4SAIDDATA2.0"
+    },
+    {
+      "label": "G4ABLA",
+      "environment_variable": "G4ABLADATA",
+      "path": "/opt/geant4/11.4.2/share/Geant4/data/G4ABLA3.3"
+    },
+    {
+      "label": "G4INCL",
+      "environment_variable": "G4INCLDATA",
+      "path": "/opt/geant4/11.4.2/share/Geant4/data/G4INCL1.3"
+    },
+    {
+      "label": "G4ENSDFSTATE",
+      "environment_variable": "G4ENSDFSTATEDATA",
+      "path": "/opt/geant4/11.4.2/share/Geant4/data/G4ENSDFSTATE3.0"
+    },
+    {
+      "label": "G4CHANNELING",
+      "environment_variable": "G4CHANNELINGDATA",
+      "path": "/opt/geant4/11.4.2/share/Geant4/data/G4CHANNELING2.0"
+    }
+  ],
+  "modes": [
+    {
+      "mode": "corr",
+      "events_requested": 1000,
+      "seeds": [
+        20261019,
+        601001
+      ],
+      "exit_code": 0,
+      "elapsed_s": 17.516621719987597,
+      "working_directory": "tmp/day16-ucgretina/g411-co60-smoke-008/corr",
+      "macro_sha256": "9906aa6b8e368f6af472fc3757c75b05e94fe88c58e5b601028a607ed0a32a59",
+      "log": "tmp/day16-ucgretina/g411-co60-smoke-008/corr/run.log",
+      "sourceframe_after_initialize": false,
+      "tracking_verbose": 0,
+      "declared_event_count_found": true,
+      "run_completion_time_found": true,
+      "source_commit_found": true,
+      "failure_pattern_hits": [],
+      "output": "tmp/day16-ucgretina/g411-co60-smoke-008/corr/corr-smoke.dat",
+      "reviewed_warning_blocks_retained": [
+        {
+          "code": "GeomMgt1001",
+          "block": " -------- WWWW -------\n*** G4Exception : GeomMgt1001\n      issued by : G4VSolid::BoundingLimits()\nNot implemented for solid: CConvexPolyhedron !\nReturning infinite boundinx box.\n*** This is just a warning message. ***\n-------- WWWW -------- "
+        },
+        {
+          "code": "GeomMgt1001",
+          "block": " -------- WWWW -------\n*** G4Exception : GeomMgt1001\n      issued by : G4VSolid::BoundingLimits()\nNot implemented for solid: CConvexPolyhedron !\nReturning infinite boundinx box.\n*** This is just a warning message. ***\n-------- WWWW -------- "
+        },
+        {
+          "code": "GeomMgt1001",
+          "block": " -------- WWWW -------\n*** G4Exception : GeomMgt1001\n      issued by : G4VSolid::BoundingLimits()\nNot implemented for solid: CConvexPolyhedron !\nReturning infinite boundinx box.\n*** This is just a warning message. ***\n-------- WWWW -------- "
+        },
+        {
+          "code": "GeomMgt1001",
+          "block": " -------- WWWW -------\n*** G4Exception : GeomMgt1001\n      issued by : G4VSolid::BoundingLimits()\nNot implemented for solid: CConvexPolyhedron !\nReturning infinite boundinx box.\n*** This is just a warning message. ***\n-------- WWWW -------- "
+        },
+        {
+          "code": "GeomMgt1001",
+          "block": " -------- WWWW -------\n*** G4Exception : GeomMgt1001\n      issued by : G4VSolid::BoundingLimits()\nNot implemented for solid: CConvexPolyhedron !\nReturning infinite boundinx box.\n*** This is just a warning message. ***\n-------- WWWW -------- "
+        },
+        {
+          "code": "GeomMgt1001",
+          "block": " -------- WWWW -------\n*** G4Exception : GeomMgt1001\n      issued by : G4VSolid::BoundingLimits()\nNot implemented for solid: CConvexPolyhedron !\nReturning infinite boundinx box.\n*** This is just a warning message. ***\n-------- WWWW -------- "
+        }
+      ],
+      "unreviewed_exception_blocks": [],
+      "output_exists": true,
+      "output_bytes": 1519040,
+      "output_sha256": "ef503469f27b5cbee816fa5eafcecd5970d2e35e5cc21fcae08f3c2f9f38422f",
+      "copied_inputs_after_run": {
+        "aclust": true,
+        "aeuler": true,
+        "aslice": true,
+        "asolid": true,
+        "awalls": true,
+        "crmat.LINUX": true,
+        "z28.a60.lvldata": true
+      }
+    },
+    {
+      "mode": "iso",
+      "events_requested": 1000,
+      "seeds": [
+        20261019,
+        601002
+      ],
+      "exit_code": 0,
+      "elapsed_s": 16.895133220998105,
+      "working_directory": "tmp/day16-ucgretina/g411-co60-smoke-008/iso",
+      "macro_sha256": "ffae4a8f8dd0410a3ab4c61020d3f98149072fc613e1f9f67ea0ef4b1e81a638",
+      "log": "tmp/day16-ucgretina/g411-co60-smoke-008/iso/run.log",
+      "sourceframe_after_initialize": false,
+      "tracking_verbose": 0,
+      "declared_event_count_found": true,
+      "run_completion_time_found": true,
+      "source_commit_found": true,
+      "failure_pattern_hits": [],
+      "output": "tmp/day16-ucgretina/g411-co60-smoke-008/iso/iso-smoke.dat",
+      "reviewed_warning_blocks_retained": [
+        {
+          "code": "GeomMgt1001",
+          "block": " -------- WWWW -------\n*** G4Exception : GeomMgt1001\n      issued by : G4VSolid::BoundingLimits()\nNot implemented for solid: CConvexPolyhedron !\nReturning infinite boundinx box.\n*** This is just a warning message. ***\n-------- WWWW -------- "
+        },
+        {
+          "code": "GeomMgt1001",
+          "block": " -------- WWWW -------\n*** G4Exception : GeomMgt1001\n      issued by : G4VSolid::BoundingLimits()\nNot implemented for solid: CConvexPolyhedron !\nReturning infinite boundinx box.\n*** This is just a warning message. ***\n-------- WWWW -------- "
+        },
+        {
+          "code": "GeomMgt1001",
+          "block": " -------- WWWW -------\n*** G4Exception : GeomMgt1001\n      issued by : G4VSolid::BoundingLimits()\nNot implemented for solid: CConvexPolyhedron !\nReturning infinite boundinx box.\n*** This is just a warning message. ***\n-------- WWWW -------- "
+        },
+        {
+          "code": "GeomMgt1001",
+          "block": " -------- WWWW -------\n*** G4Exception : GeomMgt1001\n      issued by : G4VSolid::BoundingLimits()\nNot implemented for solid: CConvexPolyhedron !\nReturning infinite boundinx box.\n*** This is just a warning message. ***\n-------- WWWW -------- "
+        },
+        {
+          "code": "GeomMgt1001",
+          "block": " -------- WWWW -------\n*** G4Exception : GeomMgt1001\n      issued by : G4VSolid::BoundingLimits()\nNot implemented for solid: CConvexPolyhedron !\nReturning infinite boundinx box.\n*** This is just a warning message. ***\n-------- WWWW -------- "
+        },
+        {
+          "code": "GeomMgt1001",
+          "block": " -------- WWWW -------\n*** G4Exception : GeomMgt1001\n      issued by : G4VSolid::BoundingLimits()\nNot implemented for solid: CConvexPolyhedron !\nReturning infinite boundinx box.\n*** This is just a warning message. ***\n-------- WWWW -------- "
+        }
+      ],
+      "unreviewed_exception_blocks": [],
+      "output_exists": true,
+      "output_bytes": 1489760,
+      "output_sha256": "39e4f4245f2ae3dda5dc77dc363cff44f30d549c1a0842b9309ace9a63608458",
+      "copied_inputs_after_run": {
+        "aclust": true,
+        "aeuler": true,
+        "aslice": true,
+        "asolid": true,
+        "awalls": true,
+        "crmat.LINUX": true,
+        "z28.a60.lvldata": true
+      }
+    }
+  ],
+  "source_originals_modified": false,
+  "full_response_or_Q_validated": false
+}

@@ -1,0 +1,24 @@
+{
+  "source_benchmark_beforeMC": "co60-cascade-theory-result.json",
+  "rows": [
+    {
+      "mode": "corr",
+      "expected_a2_a4": [
+        0.10052930988490114,
+        0.009405813083457101
+      ],
+      "Gaussian_moment_D2": 0.6023047666976376,
+      "chi2df2_tail_approx": 0.7399650058094301
+    },
+    {
+      "mode": "iso",
+      "expected_a2_a4": [
+        0.0,
+        0.0
+      ],
+      "Gaussian_moment_D2": 1.708587815916402,
+      "chi2df2_tail_approx": 0.42558358619982856
+    }
+  ],
+  "scope": "asymptotic 2Dmoment comparison conditionalonuniquepair; notexperimentalQ/phaseCI and notfullproducerproof"
+}

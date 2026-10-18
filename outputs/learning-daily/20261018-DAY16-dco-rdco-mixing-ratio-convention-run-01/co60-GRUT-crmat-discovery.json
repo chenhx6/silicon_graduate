@@ -1,0 +1,11 @@
+{
+  "commit": "f648d7cb4fc0609f13aaad7148977f87641ecac9",
+  "path": "libraries/TDetSystems/TGretina/crmat.dat",
+  "expected_Git_blob": "f630c5c54fd672fee97673409645f1c20853c930",
+  "url": "https://api.github.com/repos/pcbend/GRUTinizer/git/blobs/f630c5c54fd672fee97673409645f1c20853c930",
+  "http_status": 200,
+  "local_path": "tmp/day16-ucgretina/grutinizer-pinned/libraries/TDetSystems/TGretina/crmat.dat",
+  "bytes": 22164,
+  "sha256": "37cf53004c006578fccecb2b58aafd64afefd4374d72a4a60ec09271e0690767",
+  "Git_blob_verified": true
+}

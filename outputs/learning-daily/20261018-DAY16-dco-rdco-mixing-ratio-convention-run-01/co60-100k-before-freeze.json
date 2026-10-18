@@ -1,0 +1,11 @@
+{
+  "at": "2026-10-19T03:50:30.359183+08:00",
+  "session_id": "01a14ce6-425e-77c1-a127-2ac980bd76b5",
+  "primed": true,
+  "before_MC": true,
+  "contract_sha256": "7411583b4bf7a60465cd22652a067220c128adc11fb704978715e79d20a0c527",
+  "runner_sha256": "a16767bc72be438c74c978adce731ff580f3c8475807ea38a49db22b1004288c",
+  "pair_analysis_sha256": "ce3339b60c980655e8f5fa7b88ab52319039719615627219333ae43631fa506e",
+  "co60_truth_native_smoke_passed": true,
+  "original_deadline": "2026-10-19T15:00:00+08:00"
+}

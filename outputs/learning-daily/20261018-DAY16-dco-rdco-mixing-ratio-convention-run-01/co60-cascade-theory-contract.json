@@ -1,0 +1,25 @@
+{
+  "identity": "CO60-CASCADE-THEORY-01",
+  "source_leveldata": "tmp/day16-ucgretina/g411-original/rileyle-UCGretina-02e5a92/examples/sources/co60/z28.a60.lvldata",
+  "source_leveldata_sha256": "ba3adf4390fb57de00341f19f0d42976083f13f82d2864c8382ddefb6d65268a",
+  "source_1173_row": {
+    "energy_keV": 1173.239,
+    "MP": 407,
+    "delta_native": -0.0025
+  },
+  "source_1332_row": {
+    "energy_keV": 1332.514,
+    "MP": 4,
+    "delta_native": 0
+  },
+  "assumptions": "unpolarizedJi4 firstphotonfixedz rotationallyequivalent; unobservedfirsthelicity; daughterrhoPSD; second2->0E2; pointrestframe/no recoil or detectorresponse",
+  "basis": "nativeamplitudes(-1)^L*A_L*h_EM(lambda); RB removesLphase anddelta_RB=-delta_native foradjacentmultipoles; unchangedEM/helicityaxes",
+  "pure_control": {
+    "MP_first": 4,
+    "delta": 0,
+    "a2": 0.10204081632653061,
+    "a4": 0.009070294784580499
+  },
+  "quadrature_order": 12,
+  "not_experimental_delta_or_Q": true
+}

@@ -113,6 +113,8 @@ Morse pureE2偏振校准的成功控制仍保留于[[ucgretina-2021-polarized-em
 
 ## Open Questions
 
+Weisshaar2017（R21 ref8、DOI10.1016/j.nima.2016.12.001）正确元数据已核，正文未取得；XML只有coredata，仓储403/连接失败，配置publisher route缺credentials。停止这些终态路线，不从metadata填back fraction。可用Co60原例的actual rawbank控制另见[[co60-gate-role-response-benchmark]]，它不能被写成原R21实验producer。
+
 各100000history检查及Riley2021原件主线/图表、5733点网格、实际II参数和Compton机制核验已通过。原back-fraction计数分母/归一ledger、联合误差与exact response仍缺；需要新的原producer/实验方法输入来决定可重放的空间子类或门控校准，而非盲加统计或调source geometry、α/Q追印刷值。此路线仍是Day16下partial17，不开Day18。
 
 ## Human Review

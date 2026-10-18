@@ -1,0 +1,24 @@
+{
+  "identity": "CO60-GATE-ROLE-NATIVE-ANALYSIS-01",
+  "crmat": "tmp/day16-ucgretina/g411-original/rileyle-UCGretina-02e5a92/examples/sources/co60/crmat.LINUX",
+  "crmat_sha256": "5c29ed50f6d059caea631648407680f74bb93982fdba8d2643f99351f3cb77cc",
+  "detector_cos_bins": 10,
+  "inputs": [
+    {
+      "mode": "corr",
+      "native_audit": "outputs/learning-daily/20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/co60-100k-native-corr-result.json",
+      "native_audit_sha256": "d908712e690f9697787b6cabdea8a8e5a38de707aefba766186d19c53daa0711",
+      "data": "tmp/day16-ucgretina/g411-co60-statistics-009/corr/corr-100k.dat",
+      "data_sha256": "121c5d86146202d8349da8c9839cd5861cc3fc51cf288ac2743f549a938b3013"
+    },
+    {
+      "mode": "iso",
+      "native_audit": "outputs/learning-daily/20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/co60-100k-native-iso-result.json",
+      "native_audit_sha256": "9113ea230f604f75af6b75da37ebaac33d88cfd3d712570aca57b194f6357936",
+      "data": "tmp/day16-ucgretina/g411-co60-statistics-009/iso/iso-100k.dat",
+      "data_sha256": "947f12e4c9d3ace8419fbec12366c23dc569e93b2838b8da5cbf81f9bfb827c9"
+    }
+  ],
+  "declared_recipe": "co60-gate-analysis-before.json; unsmearednative pair; not GRUTproducer or Q",
+  "moment_comparison": "pre-existingtheory actual source a2.1005293099/a4.0094058131; iso0/0; report2DGaussianmomentchi2/pconditionalCov but no uniquephase/M3assignment or fullMCcertification"
+}

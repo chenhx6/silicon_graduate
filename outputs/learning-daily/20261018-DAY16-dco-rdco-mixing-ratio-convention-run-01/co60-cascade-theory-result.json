@@ -1,0 +1,85 @@
+{
+  "identity": "CO60-CASCADE-THEORY-01",
+  "contract_sha256": "0bc0c54570772b97cf4eaee90e11458831efefdad52b2e7b262b81145e58664d",
+  "script_sha256": "9d8a8e885dc2c2e539c594313d102e8411421b5e4c844f95de5ce3202147dece",
+  "source_leveldata_sha256": "ba3adf4390fb57de00341f19f0d42976083f13f82d2864c8382ddefb6d65268a",
+  "native_input_delta": -0.0025,
+  "RB_input_delta": 0.0025,
+  "actual_source_mixed": {
+    "population_m_minus2_to_plus2": [
+      0.15931798539186703,
+      0.2219870245936717,
+      0.23738998002892245,
+      0.2219870245936717,
+      0.15931798539186703
+    ],
+    "a0_to_a4": [
+      0.9999999999999997,
+      -1.7694179454963432e-16,
+      0.10052930988490114,
+      5.100087019371813e-16,
+      0.009405813083457101
+    ],
+    "W_parallel": 1.1099351229683585,
+    "W_perpendicular": 0.9532625249638468
+  },
+  "RB_same_physics": {
+    "population_m_minus2_to_plus2": [
+      0.15931798539186703,
+      0.2219870245936717,
+      0.23738998002892245,
+      0.2219870245936717,
+      0.15931798539186703
+    ],
+    "a0_to_a4": [
+      0.9999999999999997,
+      -1.7694179454963432e-16,
+      0.10052930988490114,
+      5.100087019371813e-16,
+      0.009405813083457101
+    ],
+    "W_parallel": 1.1099351229683585,
+    "W_perpendicular": 0.9532625249638468
+  },
+  "wrong_same_signed_amplitude_in_RB": {
+    "population_m_minus2_to_plus2": [
+      0.15814416737444004,
+      0.2224565518006425,
+      0.23879856164983482,
+      0.2224565518006425,
+      0.15814416737444004
+    ],
+    "a0_to_a4": [
+      0.9999999999999997,
+      -3.3306690738754696e-16,
+      0.10354769907257066,
+      3.642919299551295e-16,
+      0.008735059930641689
+    ],
+    "W_parallel": 1.1122827590032125,
+    "W_perpendicular": 0.9515017979377063
+  },
+  "pure_E2_control": {
+    "population_m_minus2_to_plus2": [
+      0.15873015873015875,
+      0.2222222222222222,
+      0.23809523809523803,
+      0.2222222222222222,
+      0.15873015873015875
+    ],
+    "a0_to_a4": [
+      0.9999999999999998,
+      -1.6653345369377348e-16,
+      0.1020408163265317,
+      4.128641872824801e-16,
+      0.009070294784579026
+    ],
+    "W_parallel": 1.111111111111111,
+    "W_perpendicular": 0.9523809523809522
+  },
+  "pure_expected_coefficient_error": 1.4727802311043092e-15,
+  "native_RB_coefficient_error": 0.0,
+  "source_input_after_run_unchanged": true,
+  "MC_or_experimental_fit_executed": false,
+  "scope": "unpolarizedJi4 firstphotonfixedz rotationallyequivalent; unobservedfirsthelicity; daughterrhoPSD; second2->0E2; pointrestframe/no recoil or detectorresponse"
+}

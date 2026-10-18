@@ -1915,3 +1915,8 @@ Fullq/Jones finiteIQUV实际18cases/540points与12新PSD事前输入验证通过
 ## 2026-10-19 DAY16 checkpoint024：Riley2021原件与能谱响应边界
 
 实际全26页/12图/两表/Eq1与sourcecode参数crosswalk，新增R21-1–18并同步UG24/Eu152note/Compton/index/UE12/UC21；5733点/当前II参数/Compton背散射练习0。保留能区退化、95%stat条件、同flood数据/不同七十二quad、reference角色与polarimetry未建partialcharge边界，不造实验Q/δ或CI。唯一41项writeback；内容指针main / `Read DAY16 primary energy response and calibration boundaries`，actualhash/push仅publication024/runreceipt；原formal16一次/partial17与15:00窗口/goalactive保持。
+
+
+## 2026-10-19 DAY16 checkpoint025：Co60门角色与native角关联
+
+固定12quad/noPOL/sourcelevel E2M3输入，实际1k/各100k run-native-angle、missing/coordinate/backflag控制及F3/独立amplitudes核通过。sourcea2.105902±.007183/iso.006829±.007092支持局部开关；detpairs507/549仍宽误差，不拟Q/实验δ/CI。新Co60note/UG24-19–29与canonicalmethods/index/唯一42writeback，图PDF/SVG/600dpiPNG/CSV+QA过（source仅noTIFF warning）；内容指针main / `Validate DAY16 Co60 gate roles and source angular correlation`，hash/push只publication025/runreceipt。正式16一次partial17、原15:00/goalactive不改，下一first/last pointconditionalStokes已冻，不预设对称性结论。

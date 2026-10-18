@@ -1,0 +1,47 @@
+{
+  "at": "2026-10-19T04:19:05.630146+08:00",
+  "identity": "CO60-NATIVE-CONTROL-FIGURE-01",
+  "before_plotting_code": true,
+  "backend": "python",
+  "backend_basis": "allsourceanalysisinputs/workflowPython; taskscopedpersisted configinside repo tmp, noglobalpreferencechange",
+  "purpose": "research-note modelvalidation, nojournal submissioneligibilityclaim",
+  "claim": "native sourcecorrelation is distinguishable from isotropic control; sparse detector pair response doesnotcalibrateQ",
+  "archetype": "quantitative grid",
+  "panels": {
+    "a": "emitted completeunique photonpairs normalizeddensity andconfiguredpointmodel; implementation/sourcephysicscheck",
+    "b": "named rawcore detectorcorr/iso perhistory ratio withfiniteMCdelta-methodSE; response/statisticalreadinessboundary"
+  },
+  "data": "outputs/learning-daily/20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/co60-100k-gate-analysis-result.json",
+  "data_sha256": "09f81080701795d8a3d8fee57268db809168ba834ed4d39c45c98035fb8f650c",
+  "theory": "outputs/learning-daily/20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/co60-cascade-theory-result.json",
+  "theory_sha256": "2e9832732d970d074f033fbac157f312a657fa17524655b8f2662a554a9b4428",
+  "aggregation": "emitted100cosbins group5=>20, allcompletepairs retained; detector10bins allobservations/denominatorzero=>undefined",
+  "exclusions": {
+    "source_before_each": 100000,
+    "source_after_corr": 99840,
+    "source_after_iso": 99845,
+    "reason": "requiretwo uniquegammas inenergywindows; exactexcluded160/155 reported",
+    "detector_after_corr": 507,
+    "detector_after_iso": 549,
+    "detector_rule": "distinctrawcore gates/highestIP/nativecrmat no truthFEPtag/smear/addback; notmatchingactualpaperresponse"
+  },
+  "uncertainty": "a conditionalmultinomialnormalized-binSE; b firstorderdeltaSEM finiteMCcounts conditionalfixedN inindependentseedruns; notexperimentalCI",
+  "size_mm": [
+    180,
+    86
+  ],
+  "font_min_pt": 5,
+  "exports": [
+    "svg",
+    "pdf",
+    "png",
+    "sourceCSV",
+    "alignmentJSON",
+    "sourcevalidator",
+    "PDFfontaudit",
+    "PDFcollisionaudit",
+    "visualQA"
+  ],
+  "privacy": "legend generic/no privatepaths; fulltracepaths explicitlyauthorized inrunartifacts",
+  "no_mockdata_or_fits": true
+}

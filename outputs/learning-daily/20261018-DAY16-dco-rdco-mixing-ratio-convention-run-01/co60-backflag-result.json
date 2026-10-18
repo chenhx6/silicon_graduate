@@ -1,0 +1,419 @@
+{
+  "contract_sha256": "ec24d8dbcfa80ff32ef974791ee58b5032058d889da130c9888b37417c07d28d",
+  "script_sha256": "b145499270d5a037e78d1064fb3981593c166827009de8663dc9999146b31f8f",
+  "summaries": [
+    {
+      "mode": "corr",
+      "input_sha256": "ef503469f27b5cbee816fa5eafcecd5970d2e35e5cc21fcae08f3c2f9f38422f",
+      "histories_with_crystals": 518,
+      "excluded_possible_IP_truncation_histories": 0,
+      "analyzed_crystal_records": 773,
+      "per_crystal_back_records": 103,
+      "bank_order_cumulative_back_records": 123,
+      "event_wide_back_class_records": 166,
+      "prefix_extra_over_per_crystal": 20,
+      "histories_with_order_dependent_labels": 48,
+      "actual_history_witnesses": [
+        {
+          "timestamp": 460000,
+          "rows_in_native_bank_order": [
+            {
+              "crystal": 39,
+              "core_energy_keV": 967.2445678710938,
+              "segments": [
+                22,
+                22,
+                28
+              ],
+              "has_back_IP": false
+            },
+            {
+              "crystal": 33,
+              "core_energy_keV": 205.9821014404297,
+              "segments": [
+                15,
+                15,
+                15
+              ],
+              "has_back_IP": false
+            },
+            {
+              "crystal": 46,
+              "core_energy_keV": 1332.498046875,
+              "segments": [
+                2,
+                31,
+                31,
+                31,
+                25
+              ],
+              "has_back_IP": true
+            }
+          ],
+          "forward_cumulative": {
+            "39": false,
+            "33": false,
+            "46": true
+          },
+          "reversed_cumulative": {
+            "46": true,
+            "33": true,
+            "39": true
+          },
+          "per_crystal": {
+            "39": false,
+            "33": false,
+            "46": true
+          },
+          "changed_crystals": [
+            39,
+            33
+          ]
+        },
+        {
+          "timestamp": 790000,
+          "rows_in_native_bank_order": [
+            {
+              "crystal": 60,
+              "core_energy_keV": 960.5698852539062,
+              "segments": [
+                12,
+                24,
+                35
+              ],
+              "has_back_IP": true
+            },
+            {
+              "crystal": 61,
+              "core_energy_keV": 212.65676879882812,
+              "segments": [
+                24,
+                18
+              ],
+              "has_back_IP": false
+            }
+          ],
+          "forward_cumulative": {
+            "60": true,
+            "61": true
+          },
+          "reversed_cumulative": {
+            "61": false,
+            "60": true
+          },
+          "per_crystal": {
+            "60": true,
+            "61": false
+          },
+          "changed_crystals": [
+            61
+          ]
+        },
+        {
+          "timestamp": 1280000,
+          "rows_in_native_bank_order": [
+            {
+              "crystal": 59,
+              "core_energy_keV": 9.84018325805664,
+              "segments": [
+                7
+              ],
+              "has_back_IP": false
+            },
+            {
+              "crystal": 58,
+              "core_energy_keV": 520.240478515625,
+              "segments": [
+                31,
+                29,
+                29,
+                29
+              ],
+              "has_back_IP": true
+            }
+          ],
+          "forward_cumulative": {
+            "59": false,
+            "58": true
+          },
+          "reversed_cumulative": {
+            "58": true,
+            "59": true
+          },
+          "per_crystal": {
+            "59": false,
+            "58": true
+          },
+          "changed_crystals": [
+            59
+          ]
+        },
+        {
+          "timestamp": 1350000,
+          "rows_in_native_bank_order": [
+            {
+              "crystal": 45,
+              "core_energy_keV": 1173.2266845703125,
+              "segments": [
+                6,
+                30,
+                18
+              ],
+              "has_back_IP": true
+            },
+            {
+              "crystal": 80,
+              "core_energy_keV": 435.6506652832031,
+              "segments": [
+                13,
+                26
+              ],
+              "has_back_IP": false
+            }
+          ],
+          "forward_cumulative": {
+            "45": true,
+            "80": true
+          },
+          "reversed_cumulative": {
+            "80": false,
+            "45": true
+          },
+          "per_crystal": {
+            "45": true,
+            "80": false
+          },
+          "changed_crystals": [
+            80
+          ]
+        }
+      ],
+      "input_after_read_unchanged": true
+    },
+    {
+      "mode": "iso",
+      "input_sha256": "39e4f4245f2ae3dda5dc77dc363cff44f30d549c1a0842b9309ace9a63608458",
+      "histories_with_crystals": 481,
+      "excluded_possible_IP_truncation_histories": 0,
+      "analyzed_crystal_records": 712,
+      "per_crystal_back_records": 78,
+      "bank_order_cumulative_back_records": 89,
+      "event_wide_back_class_records": 126,
+      "prefix_extra_over_per_crystal": 11,
+      "histories_with_order_dependent_labels": 35,
+      "actual_history_witnesses": [
+        {
+          "timestamp": 140000,
+          "rows_in_native_bank_order": [
+            {
+              "crystal": 32,
+              "core_energy_keV": 911.5772094726562,
+              "segments": [
+                2,
+                8,
+                22,
+                22,
+                16,
+                16
+              ],
+              "has_back_IP": false
+            },
+            {
+              "crystal": 35,
+              "core_energy_keV": 228.45303344726562,
+              "segments": [
+                1
+              ],
+              "has_back_IP": false
+            },
+            {
+              "crystal": 67,
+              "core_energy_keV": 111.25,
+              "segments": [
+                25,
+                25
+              ],
+              "has_back_IP": false
+            },
+            {
+              "crystal": 66,
+              "core_energy_keV": 281.30963134765625,
+              "segments": [
+                24,
+                24,
+                35,
+                35,
+                35,
+                35
+              ],
+              "has_back_IP": true
+            }
+          ],
+          "forward_cumulative": {
+            "32": false,
+            "35": false,
+            "67": false,
+            "66": true
+          },
+          "reversed_cumulative": {
+            "66": true,
+            "67": true,
+            "35": true,
+            "32": true
+          },
+          "per_crystal": {
+            "32": false,
+            "35": false,
+            "67": false,
+            "66": true
+          },
+          "changed_crystals": [
+            32,
+            35,
+            67
+          ]
+        },
+        {
+          "timestamp": 940000,
+          "rows_in_native_bank_order": [
+            {
+              "crystal": 71,
+              "core_energy_keV": 907.2410888671875,
+              "segments": [
+                29,
+                29,
+                29
+              ],
+              "has_back_IP": false
+            },
+            {
+              "crystal": 68,
+              "core_energy_keV": 425.2569580078125,
+              "segments": [
+                30,
+                30
+              ],
+              "has_back_IP": true
+            }
+          ],
+          "forward_cumulative": {
+            "71": false,
+            "68": true
+          },
+          "reversed_cumulative": {
+            "68": true,
+            "71": true
+          },
+          "per_crystal": {
+            "71": false,
+            "68": true
+          },
+          "changed_crystals": [
+            71
+          ]
+        },
+        {
+          "timestamp": 1570000,
+          "rows_in_native_bank_order": [
+            {
+              "crystal": 25,
+              "core_energy_keV": 70.58073425292969,
+              "segments": [
+                30
+              ],
+              "has_back_IP": true
+            },
+            {
+              "crystal": 27,
+              "core_energy_keV": 147.8448486328125,
+              "segments": [
+                18
+              ],
+              "has_back_IP": false
+            }
+          ],
+          "forward_cumulative": {
+            "25": true,
+            "27": true
+          },
+          "reversed_cumulative": {
+            "27": false,
+            "25": true
+          },
+          "per_crystal": {
+            "25": true,
+            "27": false
+          },
+          "changed_crystals": [
+            27
+          ]
+        },
+        {
+          "timestamp": 1660000,
+          "rows_in_native_bank_order": [
+            {
+              "crystal": 77,
+              "core_energy_keV": 904.8804321289062,
+              "segments": [
+                19,
+                19,
+                19
+              ],
+              "has_back_IP": false
+            },
+            {
+              "crystal": 78,
+              "core_energy_keV": 40.48606491088867,
+              "segments": [
+                15
+              ],
+              "has_back_IP": false
+            },
+            {
+              "crystal": 80,
+              "core_energy_keV": 227.86016845703125,
+              "segments": [
+                4
+              ],
+              "has_back_IP": false
+            },
+            {
+              "crystal": 32,
+              "core_energy_keV": 784.6687622070312,
+              "segments": [
+                31
+              ],
+              "has_back_IP": true
+            }
+          ],
+          "forward_cumulative": {
+            "77": false,
+            "78": false,
+            "80": false,
+            "32": true
+          },
+          "reversed_cumulative": {
+            "32": true,
+            "80": true,
+            "78": true,
+            "77": true
+          },
+          "per_crystal": {
+            "77": false,
+            "78": false,
+            "80": false,
+            "32": true
+          },
+          "changed_crystals": [
+            77,
+            78,
+            80
+          ]
+        }
+      ],
+      "input_after_read_unchanged": true
+    }
+  ],
+  "scope": "native bank-order control of a public-code selection; original experimental producer/order/FEP denominator not identified",
+  "not_new_experimental_backfraction_or_efficiency": true
+}

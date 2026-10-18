@@ -351,3 +351,10 @@ JT74-8/9与[[ekstrom-1993-delta101-angular-correlation-code]] D101-9另核原Tab
 JT74-11是由原Fig.2路径出发的本任务推导，非新实验。对3→2的声明positive family p0=1−u、p±1=u/2、0<u<1，明确D96 nativeδ约定下a4=(6−5u)δ²/[7(1+δ²)]。纯M1时(a2,a4)对(δ,u)只rank1；profile未知u后，true-center距离首项为(6−5u0)²δ^4/(49Σ44)，不满足通常的δ二次近似。保留一般已知正定Σ与interior u时，局部λ=δ²≥0给半质量0+半χ1²的LR极限；ΔS=1在该点覆盖约84.13%，不能统称68%。这仅检验该条件族regularity，不把新阈值移植到真实DCO或其它混合比。
 
 同density/gamma/方向下matched P90让(a2,P)的Jacobian determinant为2√30(4−u)/[5(24−u)]非零；已知非零Q的A=QP可增加局部信息。但Q自由时三参数(δ,u,Q)仍缺一rank，必须有独立且匹配的Q校准及其Cov；用同一A/P校Q后回代不增加该row。完整isotropy或Q=0是明确失败控制。局部fullrank也不证明global唯一解；原Fig2的δ相位/“equal population”口径未认证，所以未声称逐点复现原curve。完整方程与actual symbolic/trace controls见[[james-twin-butler-1974-angular-correlation-statistics]]的JT74-11。
+
+
+## 60Co源控制：两个光子都存在后才计算角关联
+
+[[ucgretina-2024-geant4-11-source-replay]] UG24-19–27实际原生gamma-correlation/noPOL控制与[[co60-gate-role-response-benchmark]]保存各source/gate角色。当前Ni60文件的1173为E2/M3小混合，1332为E2；不是仅因Co60常作标定就把first/last或相位约定省略。
+
+源级cosθ只在两条能窗光子唯一存在时有效；缺失占位向量仍可产生有限数，需显式排除。detector角还依赖原矩阵单位/索引、interaction排序、门/能量处理与iso response；cosθ不是Comptonξ，corr/iso ratio及其finite-MC Cov不提供Q。actual小样本的空denominator与统计不足应保留，不能填平后唯一指定多极性。

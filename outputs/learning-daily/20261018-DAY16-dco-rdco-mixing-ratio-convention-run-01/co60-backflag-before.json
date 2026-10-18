@@ -1,0 +1,22 @@
+{
+  "at": "2026-10-19T04:03:55.363786+08:00",
+  "before_native_backflag_analysis": true,
+  "primed": "staticfullsortingcodehasmax_layer initializedoncebeforecrystallloop; 1kMC alreadyexists butbacklabelsnotanalysed",
+  "source": "tmp/day16-ucgretina/g411-original/rileyle-UCGretina-02e5a92/util/GRUTinizer/MakeHistos60CoSim.cxx",
+  "source_sha256": "12c33b9219ccc2fa3cc4303cd5821b1cd91769744a0d321ed9132bc7c729251e",
+  "predicate": "literalprefix B_j=OR_{k<=j}b_k vsphysicalpercrystal b_j=anyseg//6==5; wholeeventB=ORallb; preservebankorder and compare reversedorder withoutchanginghistory",
+  "data_scope": "1k corr/iso existingnativevalid; excludeany numIP==16history; requireseg0..35; noFEP/normalizedfractionclaim",
+  "not_claiming": "no originalRiley/actualexperimentalproduceridentified; no assumptionnormalGRUTcrystalorder; namedbankordercontrol only",
+  "inputs": [
+    {
+      "mode": "corr",
+      "data": "tmp/day16-ucgretina/g411-co60-smoke-008/corr/corr-smoke.dat",
+      "sha256": "ef503469f27b5cbee816fa5eafcecd5970d2e35e5cc21fcae08f3c2f9f38422f"
+    },
+    {
+      "mode": "iso",
+      "data": "tmp/day16-ucgretina/g411-co60-smoke-008/iso/iso-smoke.dat",
+      "sha256": "39e4f4245f2ae3dda5dc77dc363cff44f30d549c1a0842b9309ace9a63608458"
+    }
+  ]
+}

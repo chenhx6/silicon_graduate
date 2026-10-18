@@ -1,0 +1,9 @@
+{
+  "at": "2026-10-19T03:36:47.979806+08:00",
+  "before_MC": true,
+  "primed": true,
+  "contract_sha256": "37f488753677c7f7ae4f0c22de0542dbd84bb84f6ad3b19876728b576e9883be",
+  "runner_sha256": "a16767bc72be438c74c978adce731ff580f3c8475807ea38a49db22b1004288c",
+  "noPOL": true,
+  "unknownwarningsblock": true
+}

@@ -325,3 +325,10 @@ Morse spin2→0 pureE2控制确实通过，这限制对其原标定的归因；�
 两个grossROI经同a扣背景会共享Cov：n_i=y_i−a b_i，条件Var≈y_i+a²b_i+b_i²Var(a)，非对角≈b_i b_j Var(a)。实际预选121/1408附近grossROI给crossCov≈1387.57counts²；它既非净Gaussian峰面积，也非已测eventCov。Sumw2N0/defaultsqrtN不证明独立事件；同数据更多hist/拟合不增加独立校准。
 
 公开InBeam例的ξ还有truthIsFEP/同crystal/two-IP选择；isolated selector无序反例必须连同上游GRUT BuildFrom的decompE降序排序反证，不能直接归因原实验。相等最大值和binary版本仍需actualinput核查。两校准ROOT只有energy/labθφhist而无TTree/Comptonξ，不足以识别P或Q；这份七quad数据也不能裸迁到Morse六quad或L26十二quad。unpolarized geometricalreference、polarizedQcalibrator与γγ-gated reference的统计对象要随事件分母保存。
+
+
+### 60Co校准要保存目标、门和选择定义
+
+[[co60-gate-role-response-benchmark]]将R21的1173target＋LaBr1332gate、L25的1333target＋1173gate和公开两GRETINA-crystal pair例分别保存。原生nuclear angular correlation可在photon polarized EM关闭时运行；这约束方向分布，不认证target的polarized response。矩阵数值一致也不认证实际post-processing或Q。
+
+UG24-21/27的实际记录控制显示，缺失γ占位和跨晶体prefix back标记会改变相应输入对象。逐晶体back、整event back和prefix不是同一个选择；没有原producer时，不据公开hist名字替原校准分母。

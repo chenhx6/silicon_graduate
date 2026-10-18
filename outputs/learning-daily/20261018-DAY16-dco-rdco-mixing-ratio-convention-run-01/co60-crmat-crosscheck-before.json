@@ -1,0 +1,35 @@
+{
+  "at": "2026-10-19T03:53:03.273760+08:00",
+  "before_comparison": true,
+  "primed": "ownproducerroundtripalreadyread; GRUTtextmappingnowread",
+  "mapping": "nativecrysid//4 == ASCIImappos; nativeR matchesASCII R, nativerightcolcm*10 matchesASCIImm; GRUTreaderstorepos-1 andgettercid//4-1 consistent",
+  "files": {
+    "producer": {
+      "path": "tmp/day16-ucgretina/g411-original/rileyle-UCGretina-02e5a92/examples/sources/co60/crmat.LINUX",
+      "sha256": "5c29ed50f6d059caea631648407680f74bb93982fdba8d2643f99351f3cb77cc"
+    },
+    "GRUT": {
+      "path": "tmp/day16-ucgretina/grutinizer-pinned/libraries/TDetSystems/TGretina/crmat.dat",
+      "sha256": "37cf53004c006578fccecb2b58aafd64afefd4374d72a4a60ec09271e0690767"
+    },
+    "GRUT_reader": {
+      "path": "tmp/day16-ucgretina/grutinizer-pinned/libraries/TDetSystems/TGretina/TGretina.cxx",
+      "sha256": "f50666a27e123c7d317da2badbf5c6b1c2e7d6377eddb3feaad72027d749e7fa"
+    }
+  },
+  "scope": "fixedpublicGRUTdefaultmatrixnotactualruntime GRUTSYS/file/binary; mismatchbounds donotauthenticateexperiment",
+  "all12geometryholes": [
+    6,
+    7,
+    8,
+    9,
+    11,
+    12,
+    14,
+    15,
+    16,
+    17,
+    19,
+    20
+  ]
+}

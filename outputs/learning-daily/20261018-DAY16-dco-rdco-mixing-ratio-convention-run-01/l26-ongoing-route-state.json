@@ -226,5 +226,22 @@
     "array_SDK_exactproducer_matched": false,
     "fit_Q_delta_or_CI": false,
     "status": "canonical pendingverification018/publication024"
+  },
+  "Co60_checkpoint025": {
+    "canonical": "knowledge/research-notes/co60-gate-role-response-benchmark.md",
+    "UG24_claims": "19–29",
+    "actual100k_bothdone": true,
+    "sourcepairs": [
+      99840,
+      99845
+    ],
+    "detectorpairs": [
+      507,
+      549
+    ],
+    "noQ_or_experimentalCI": true,
+    "figureQA": "alignment/fonts/collision/visual pass; sourceonlynoTIFFwarning",
+    "status": "canonical; verification019; actualpublication025receiptgoverns",
+    "next": "jointfirst/lastconditionaltargetpolarization pointmodel freeze"
   }
 }

@@ -1,0 +1,129 @@
+[
+  {
+    "name": "crossref",
+    "url": "https://api.crossref.org/works?query.title=The+performance+of+the+gamma-ray+tracking+array+GRETINA+for+gamma-ray+spectroscopy+with+fast+beams+of+rare+isotopes&rows=3",
+    "http_status": 200,
+    "path": "tmp/day16-ucgretina/weisshaar2017/crossref.json",
+    "candidates": [
+      {
+        "title": [
+          "The performance of the \u03b3-ray tracking array GRETINA for \u03b3-ray spectroscopy with fast beams of rare isotopes"
+        ],
+        "DOI": "10.1016/j.nima.2016.12.001",
+        "volume": "847",
+        "page": "187-198",
+        "published": {
+          "date-parts": [
+            [
+              2017,
+              3
+            ]
+          ]
+        },
+        "link": [
+          {
+            "URL": "https://api.elsevier.com/content/article/PII:S0168900216312402?httpAccept=text/xml",
+            "content-type": "text/xml",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://api.elsevier.com/content/article/PII:S0168900216312402?httpAccept=text/plain",
+            "content-type": "text/plain",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          }
+        ],
+        "URL": "https://doi.org/10.1016/j.nima.2016.12.001"
+      },
+      {
+        "title": [
+          "Gamma-ray energy tracking array: GRETINA"
+        ],
+        "DOI": "10.1088/1742-6596/420/1/012156",
+        "volume": "420",
+        "page": "012156",
+        "published": {
+          "date-parts": [
+            [
+              2013,
+              3,
+              25
+            ]
+          ]
+        },
+        "link": [
+          {
+            "URL": "http://stacks.iop.org/1742-6596/420/i=1/a=012156/pdf",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "http://stacks.iop.org/1742-6596/420/i=1/a=012156?key=crossref.8a87940debc8720d6971804e9597d09c",
+            "content-type": "text/html",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "http://stacks.iop.org/1742-6596/420/i=1/a=012156/pdf",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          },
+          {
+            "URL": "http://stacks.iop.org/1742-6596/420/i=1/a=012156/pdf",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          },
+          {
+            "URL": "http://stacks.iop.org/1742-6596/420/i=1/a=012156?key=crossref.8a87940debc8720d6971804e9597d09c",
+            "content-type": "text/html",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "URL": "https://doi.org/10.1088/1742-6596/420/1/012156"
+      },
+      {
+        "title": [
+          "GRETINA: A gamma ray energy tracking array"
+        ],
+        "DOI": "10.1016/j.nuclphysa.2004.09.038",
+        "volume": "746",
+        "page": "255-259",
+        "published": {
+          "date-parts": [
+            [
+              2004,
+              12
+            ]
+          ]
+        },
+        "link": [
+          {
+            "URL": "https://api.elsevier.com/content/article/PII:S0375947404009637?httpAccept=text/xml",
+            "content-type": "text/xml",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://api.elsevier.com/content/article/PII:S0375947404009637?httpAccept=text/plain",
+            "content-type": "text/plain",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          }
+        ],
+        "URL": "https://doi.org/10.1016/j.nuclphysa.2004.09.038"
+      }
+    ]
+  },
+  {
+    "name": "arxiv",
+    "url": "https://export.arxiv.org/api/query?search_query=ti%3AGRETINA+AND+au%3AWeisshaar&max_results=5",
+    "http_status": 200,
+    "path": "tmp/day16-ucgretina/weisshaar2017/arxiv.xml",
+    "body_preview": "<?xml version='1.0' encoding='UTF-8'?>\n<feed xmlns:opensearch=\"http://a9.com/-/spec/opensearch/1.1/\" xmlns:arxiv=\"http://arxiv.org/schemas/atom\" xmlns=\"http://www.w3.org/2005/Atom\">\n  <id>https://arxiv.org/api/TZ1sXyc7jQ0mh5iEvSNjGb8Xc08</id>\n  <title>arXiv Query: search_query=ti:GRETINA AND au:Weisshaar&amp;id_list=&amp;start=0&amp;max_results=5</title>\n  <updated>2026-10-18T19:17:36Z</updated>\n  <link href=\"https://arxiv.org/api/query?search_query=ti:GRETINA+AND+au:Weisshaar&amp;start=0&amp;max_results=5&amp;id_list=\" type=\"application/atom+xml\"/>\n  <opensearch:itemsPerPage>5</opensearch:itemsPerPage>\n  <opensearch:totalResults>1</opensearch:totalResults>\n  <opensearch:startIndex>0</opensearch:startIndex>\n  <entry>\n    <id>http://arxiv.org/abs/2104.09986v1</id>\n    <title>UCGretina GEANT4 Simulation of the GRETINA Gamma-Ray Energy Tracking Array</title>\n    <updated>2021-04-17T13:32:03Z</updated>\n    <link href=\"https://arxiv.org/abs/2104.09986v1\" rel=\"alternate\" type=\"text/html\"/>\n    <link href=\"https://arxiv.org/pdf/2104.09986v1\" rel=\"related\" type=\"application/pdf\" title=\"pdf\"/>\n    <summary>UCGretina, a GEANT4 simulation of the GRETINA gamma-ray tracking array of highly-segmented high-purity germanium detectors is described. We have developed a model of the array, in particular of the Quad Module and the capsules, that gives good agreement between simulated and measured photopeak efficiencies over a broad range of gamma-ray energies and reproduces the shape of the measured Compton continuum. Both of these features are needed in order to accurately extract gamma-ray yields from spectra collected in in-beam gamma-ray spectroscopy measurements with beams traveling at $v/c \\gtrsim 0.3$ at the National Superconducting Cyclotron Laboratory and the Facility for Rare Isotope Beams. In the process of developing the model, we determined that millimeter-scale layers of passive germanium surrounding the active volumes of the simulated crystals must be included in order to reproduce measured photopeak efficiencies. We adopted a simple model of effective passive layers and developed heuristic methods of determining passive-layer thicknesses by comparison of simulations and measurements for a single crystal and for the full array. Prospects for future development of the model are discussed.</summary>\n    <category term=\"physics.ins-det\" scheme=\"http://arxiv.org/schemas/atom\"/>\n    <category term=\"astro-ph.IM\" scheme=\"http://arxiv.org/schemas/atom\"/>\n    <category term=\"nucl-ex\" scheme=\"http://arxiv.org/schemas/atom\"/>\n    <published>2021-04-17T13:32:03Z</published>\n    <arxiv:comment>26 pages, 12 figures</arxiv:comment>\n    <arxiv:primary_category term=\"physics.ins-det\"/>\n    <arxiv:journal_ref>Nucl. Instrum. Methods Phys. Res. A 1003, 165305 (2021)</arxiv:journal_ref>\n    <author>\n      <name>L. A. Riley</name>\n    </author>\n    <author>\n      <name>D. Weisshaar</name>\n    </author>\n    <author>\n      <name>H. L. Crawford</name>\n    </author>\n    <author>\n      <name>M. L. Agiorgousis</name>\n    </author>\n    <author>\n      <name>C. M. Campbell</name>\n    </author>\n    <author>\n      <name>M. Cromaz</name>\n    </author>\n    <author>\n      <name>P. Fallon</name>\n    </author>\n    <author>\n      <name>A. Gade</name>\n    </author>\n    <author>\n      <name>S. D. Gregory</name>\n    </author>\n    <author>\n      <name>E. B. Haldeman</name>\n    </author>\n    <author>\n      <name>L. R. Jarvis</name>\n    </author>\n    <author>\n      <name>E. D. Lawson-John</name>\n    </author>\n    <author>\n      <name>B. Roberts</name>\n    </author>\n    <author>\n      <name>B. V. Sadler</name>\n    </author>\n    <author>\n      <name>C. G. Stine</name>\n    </author>\n    <arxiv:doi>10.1016/j.nima.2021.165305</arxiv:doi>\n    <link rel=\"related\" href=\"https://doi.org/10.1016/j.nima.2021.165305\" title=\"doi\"/>\n  </entry>\n</feed>\n"
+  }
+]
