@@ -9,6 +9,8 @@ updated: 2026-10-18
 
 ## Sources
 
+- [[nndc-2009-178w-dco-reference-records]] - 178W137/169参考的AD、空MR/CC与125度RI字段；保留1989DCO/1979/13C谱系、same-parent条件与raw归档缺口。
+
 - [[smith-2019-griffin-angular-correlation-analysis]] - GRIFFIN的event-mixing/finite-response实验校验、正Z基函数与Cov/多spin边界；实际读2018v1，2019VoR未取得。
 
 - [[nndc-2015-128i-selected-level-gamma-records]] - 2015选定128I低位/反应/capture对象，102/15.6位置与ICC绑定冲突、评价误差及谱系边界，不代原实验。

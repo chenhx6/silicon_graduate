@@ -1,0 +1,1704 @@
+{
+  "identity": "DAY16-BT87-KF89-FACTORISATION-01",
+  "input_sha256": "bab4cfda43848dbda9a1e45588450936ff5fbd46266855233703b01aa6214d80",
+  "script_sha256": "2ec01875996578030eac085639d50da4b51aee5743c2ca3028f984f4f3fff5cf",
+  "source_Table1_limit_control": [
+    {
+      "delta_J": 0,
+      "L": 1,
+      "A0_A2_A4": [
+        0.9999999999999999,
+        -0.4472135954999579,
+        0.0
+      ],
+      "printed_A2_A4": [
+        -0.447,
+        0.0
+      ]
+    },
+    {
+      "delta_J": 1,
+      "L": 1,
+      "A0_A2_A4": [
+        0.9999999999999999,
+        0.22360679774997896,
+        0.0
+      ],
+      "printed_A2_A4": [
+        0.224,
+        0.0
+      ]
+    },
+    {
+      "delta_J": 0,
+      "L": 2,
+      "A0_A2_A4": [
+        1.0,
+        0.31943828249997,
+        -0.5714285714285713
+      ],
+      "printed_A2_A4": [
+        0.319,
+        -0.571
+      ]
+    },
+    {
+      "delta_J": 1,
+      "L": 2,
+      "A0_A2_A4": [
+        1.0,
+        0.159719141249985,
+        0.3809523809523808
+      ],
+      "printed_A2_A4": [
+        0.16,
+        0.381
+      ]
+    },
+    {
+      "delta_J": 2,
+      "L": 2,
+      "A0_A2_A4": [
+        1.0,
+        -0.31943828249997,
+        -0.0952380952380952
+      ],
+      "printed_A2_A4": [
+        -0.319,
+        -0.095
+      ]
+    }
+  ],
+  "KF89_pure_table_comparison": [
+    {
+      "spins": [
+        10,
+        8,
+        6
+      ],
+      "ranks": [
+        2,
+        2
+      ],
+      "printed": 1.0,
+      "exact": 1.0000000000000002,
+      "infinite": 0.9999999999999998,
+      "finite_improvement": 1.0137425151661417,
+      "within_printed_half_unit": {
+        "exact": true,
+        "infinite": true,
+        "finite_improvement": false
+      }
+    },
+    {
+      "spins": [
+        10,
+        8,
+        7
+      ],
+      "ranks": [
+        2,
+        1
+      ],
+      "printed": 0.56,
+      "exact": 0.5602087944884242,
+      "infinite": 0.6281312554410432,
+      "finite_improvement": 0.5515337854379696,
+      "within_printed_half_unit": {
+        "exact": true,
+        "infinite": false,
+        "finite_improvement": false
+      }
+    },
+    {
+      "spins": [
+        10,
+        8,
+        7
+      ],
+      "ranks": [
+        2,
+        2
+      ],
+      "printed": 0.66,
+      "exact": 0.6373407586503952,
+      "infinite": 0.6461427985965462,
+      "finite_improvement": 0.6524391222724429,
+      "within_printed_half_unit": {
+        "exact": false,
+        "infinite": false,
+        "finite_improvement": false
+      }
+    },
+    {
+      "spins": [
+        10,
+        8,
+        8
+      ],
+      "ranks": [
+        2,
+        1
+      ],
+      "printed": 1.07,
+      "exact": 1.0292799311535308,
+      "infinite": 1.097269077049091,
+      "finite_improvement": 1.0514643337866523,
+      "within_printed_half_unit": {
+        "exact": false,
+        "infinite": false,
+        "finite_improvement": false
+      }
+    },
+    {
+      "spins": [
+        10,
+        8,
+        8
+      ],
+      "ranks": [
+        2,
+        2
+      ],
+      "printed": 0.57,
+      "exact": 0.5701216214260234,
+      "infinite": 0.5985563375700913,
+      "finite_improvement": 0.537153435142292,
+      "within_printed_half_unit": {
+        "exact": true,
+        "infinite": false,
+        "finite_improvement": false
+      }
+    },
+    {
+      "spins": [
+        9,
+        8,
+        6
+      ],
+      "ranks": [
+        1,
+        2
+      ],
+      "printed": 1.81,
+      "exact": 1.8108635742084005,
+      "infinite": 1.5920239461700543,
+      "finite_improvement": 1.847013864589991,
+      "within_printed_half_unit": {
+        "exact": true,
+        "infinite": false,
+        "finite_improvement": false
+      }
+    },
+    {
+      "spins": [
+        9,
+        8,
+        7
+      ],
+      "ranks": [
+        1,
+        2
+      ],
+      "printed": 0.92,
+      "exact": 0.9707042997274083,
+      "infinite": 0.9083117017613126,
+      "finite_improvement": 0.9406202946063373,
+      "within_printed_half_unit": {
+        "exact": false,
+        "infinite": false,
+        "finite_improvement": false
+      }
+    },
+    {
+      "spins": [
+        9,
+        8,
+        7
+      ],
+      "ranks": [
+        1,
+        1
+      ],
+      "printed": 1.0,
+      "exact": 1.0,
+      "infinite": 1.0000000000000002,
+      "finite_improvement": 0.996183629785753,
+      "within_printed_half_unit": {
+        "exact": true,
+        "infinite": true,
+        "finite_improvement": true
+      }
+    },
+    {
+      "spins": [
+        9,
+        8,
+        8
+      ],
+      "ranks": [
+        1,
+        1
+      ],
+      "printed": 1.79,
+      "exact": 1.7878307735874988,
+      "infinite": 1.7114777148854021,
+      "finite_improvement": 1.8090935612639245,
+      "within_printed_half_unit": {
+        "exact": true,
+        "infinite": false,
+        "finite_improvement": false
+      }
+    },
+    {
+      "spins": [
+        9,
+        8,
+        8
+      ],
+      "ranks": [
+        1,
+        2
+      ],
+      "printed": 1.12,
+      "exact": 1.1886574665312757,
+      "infinite": 1.1494848568840785,
+      "finite_improvement": 1.219006909658366,
+      "within_printed_half_unit": {
+        "exact": false,
+        "infinite": false,
+        "finite_improvement": false
+      }
+    }
+  ],
+  "BT87_Fig2_conditions_point_control": [
+    {
+      "initial_J": 10,
+      "first_delta_J": 0,
+      "first_L": 1,
+      "points": [
+        {
+          "theta1_deg": 0,
+          "exact_W": 1.7478715170278647,
+          "finite_W": 1.7618331591290173,
+          "infinite_W": 1.6992187500000018,
+          "finite_absolute_error": 0.013961642101152583,
+          "infinite_absolute_error": -0.04865276702786292,
+          "finite_fractional_error": 0.007987796565787282,
+          "infinite_fractional_error": -0.027835436731982226
+        },
+        {
+          "theta1_deg": 15,
+          "exact_W": 1.6925370016211079,
+          "finite_W": 1.7055751647983435,
+          "infinite_W": 1.6462307505202143,
+          "finite_absolute_error": 0.013038163177235607,
+          "infinite_absolute_error": -0.04630625110089359,
+          "finite_fractional_error": 0.00770332534222158,
+          "infinite_fractional_error": -0.027359077560219703
+        },
+        {
+          "theta1_deg": 30,
+          "exact_W": 1.5413602941176479,
+          "finite_W": 1.5527535472250464,
+          "infinite_W": 1.5014648437500018,
+          "finite_absolute_error": 0.011393253107398582,
+          "infinite_absolute_error": -0.03989545036764608,
+          "finite_fractional_error": 0.007391687168067771,
+          "infinite_fractional_error": -0.025883273703040496
+        },
+        {
+          "theta1_deg": 45,
+          "exact_W": 1.3348490712074306,
+          "finite_W": 1.3443167354239085,
+          "infinite_W": 1.3037109375000018,
+          "finite_absolute_error": 0.009467664216477933,
+          "infinite_absolute_error": -0.031138133707428794,
+          "finite_fractional_error": 0.007092685173698333,
+          "infinite_fractional_error": -0.023327081974341086
+        },
+        {
+          "theta1_deg": 60,
+          "exact_W": 1.1283378482972142,
+          "finite_W": 1.1361152047899625,
+          "infinite_W": 1.1059570312500022,
+          "finite_absolute_error": 0.007777356492748355,
+          "infinite_absolute_error": -0.022380817047211954,
+          "finite_fractional_error": 0.006892755130464906,
+          "infinite_fractional_error": -0.019835209003213946
+        },
+        {
+          "theta1_deg": 75,
+          "exact_W": 0.9771611407937535,
+          "finite_W": 0.9839363873194982,
+          "infinite_W": 0.9611911244797895,
+          "finite_absolute_error": 0.0067752465257446826,
+          "infinite_absolute_error": -0.015970016313963997,
+          "finite_fractional_error": 0.006933602087615879,
+          "infinite_fractional_error": -0.016343278142427423
+        },
+        {
+          "theta1_deg": 90,
+          "exact_W": 0.9218266253869973,
+          "finite_W": 0.9285564742588496,
+          "infinite_W": 0.9082031250000021,
+          "finite_absolute_error": 0.00672984887185224,
+          "infinite_absolute_error": -0.013623500386995224,
+          "finite_fractional_error": 0.0073005581380630475,
+          "infinite_fractional_error": -0.014778809823675753
+        },
+        {
+          "theta1_deg": 105,
+          "exact_W": 0.9771611407937534,
+          "finite_W": 0.9848144685895233,
+          "infinite_W": 0.9611911244797893,
+          "finite_absolute_error": 0.007653327795769882,
+          "infinite_absolute_error": -0.015970016313964108,
+          "finite_fractional_error": 0.007832206456299564,
+          "infinite_fractional_error": -0.016343278142427538
+        },
+        {
+          "theta1_deg": 120,
+          "exact_W": 1.128337848297214,
+          "finite_W": 1.13763608616282,
+          "infinite_W": 1.1059570312500018,
+          "finite_absolute_error": 0.00929823786560613,
+          "infinite_absolute_error": -0.022380817047212176,
+          "finite_fractional_error": 0.008240650510517035,
+          "infinite_fractional_error": -0.019835209003214147
+        },
+        {
+          "theta1_deg": 135,
+          "exact_W": 1.3348490712074306,
+          "finite_W": 1.3460728979639582,
+          "infinite_W": 1.3037109375000018,
+          "finite_absolute_error": 0.011223826756527666,
+          "infinite_absolute_error": -0.031138133707428794,
+          "finite_fractional_error": 0.008408311470281217,
+          "infinite_fractional_error": -0.023327081974341086
+        },
+        {
+          "theta1_deg": 150,
+          "exact_W": 1.5413602941176479,
+          "finite_W": 1.5542744285979047,
+          "infinite_W": 1.5014648437500018,
+          "finite_absolute_error": 0.0129141344802568,
+          "infinite_absolute_error": -0.03989545036764608,
+          "finite_fractional_error": 0.008378400903112338,
+          "infinite_fractional_error": -0.025883273703040496
+        },
+        {
+          "theta1_deg": 165,
+          "exact_W": 1.6925370016211083,
+          "finite_W": 1.7064532460683686,
+          "infinite_W": 1.646230750520214,
+          "finite_absolute_error": 0.013916244447260251,
+          "infinite_absolute_error": -0.04630625110089426,
+          "finite_fractional_error": 0.008222121249893681,
+          "infinite_fractional_error": -0.027359077560220088
+        },
+        {
+          "theta1_deg": 180,
+          "exact_W": 1.7478715170278647,
+          "finite_W": 1.7618331591290173,
+          "infinite_W": 1.6992187500000018,
+          "finite_absolute_error": 0.013961642101152583,
+          "infinite_absolute_error": -0.04865276702786292,
+          "finite_fractional_error": 0.007987796565787282,
+          "infinite_fractional_error": -0.027835436731982226
+        }
+      ],
+      "max_abs_error_finite": 0.013961642101152583,
+      "max_abs_error_infinite": 0.04865276702786292,
+      "max_abs_fractional_error_finite": 0.008408311470281217,
+      "max_abs_fractional_error_infinite": 0.027835436731982226
+    },
+    {
+      "initial_J": 10,
+      "first_delta_J": 1,
+      "first_L": 1,
+      "points": [
+        {
+          "theta1_deg": 0,
+          "exact_W": 0.830108359133127,
+          "finite_W": 0.8383100266185936,
+          "infinite_W": 0.8496093750000019,
+          "finite_absolute_error": 0.00820166748546658,
+          "infinite_absolute_error": 0.019501015866874916,
+          "finite_fractional_error": 0.009880237194613352,
+          "infinite_fractional_error": 0.023492132867135095
+        },
+        {
+          "theta1_deg": 15,
+          "exact_W": 0.8734171855477261,
+          "finite_W": 0.8711082461913437,
+          "infinite_W": 0.8761033747398957,
+          "finite_absolute_error": -0.0023089393563823224,
+          "infinite_absolute_error": 0.0026861891921696746,
+          "finite_fractional_error": -0.0026435698708336844,
+          "infinite_fractional_error": 0.0030754938609149833
+        },
+        {
+          "theta1_deg": 30,
+          "exact_W": 0.9714217622672925,
+          "finite_W": 0.9602027802363804,
+          "infinite_W": 0.9484863281250018,
+          "finite_absolute_error": -0.011218982030912095,
+          "infinite_absolute_error": -0.02293543414229071,
+          "finite_fractional_error": -0.011549033042791895,
+          "infinite_fractional_error": -0.023610171228570738
+        },
+        {
+          "theta1_deg": 45,
+          "exact_W": 1.097861842105263,
+          "finite_W": 1.081720820306309,
+          "infinite_W": 1.0473632812500018,
+          "finite_absolute_error": -0.016141021798954158,
+          "infinite_absolute_error": -0.050498560855261276,
+          "finite_fractional_error": -0.01470223408803615,
+          "infinite_fractional_error": -0.04599719101123424
+        },
+        {
+          "theta1_deg": 60,
+          "exact_W": 1.2188579077781283,
+          "finite_W": 1.2031017056985787,
+          "infinite_W": 1.1462402343750018,
+          "finite_absolute_error": -0.01575620207954964,
+          "infinite_absolute_error": -0.07261767340312653,
+          "finite_fractional_error": -0.012927021254078602,
+          "infinite_fractional_error": -0.059578456963455415
+        },
+        {
+          "theta1_deg": 75,
+          "exact_W": 1.3019891612015007,
+          "finite_W": 1.2918215261957564,
+          "infinite_W": 1.2186231877601081,
+          "finite_absolute_error": -0.010167635005744247,
+          "infinite_absolute_error": -0.08336597344139252,
+          "finite_fractional_error": -0.007809308486378917,
+          "infinite_fractional_error": -0.06402969849953342
+        },
+        {
+          "theta1_deg": 90,
+          "exact_W": 1.3249806501547994,
+          "finite_W": 1.32410787754299,
+          "infinite_W": 1.2451171875000016,
+          "finite_absolute_error": -0.0008727726118094026,
+          "infinite_absolute_error": -0.07986346265479782,
+          "finite_fractional_error": -0.000658705930314858,
+          "infinite_fractional_error": -0.06027519167579335
+        },
+        {
+          "theta1_deg": 105,
+          "exact_W": 1.2816718237401998,
+          "finite_W": 1.2913096579702397,
+          "infinite_W": 1.2186231877601081,
+          "finite_absolute_error": 0.009637834230039832,
+          "infinite_absolute_error": -0.0630486359800917,
+          "finite_fractional_error": 0.007519736372072623,
+          "infinite_fractional_error": -0.049192495935583516
+        },
+        {
+          "theta1_deg": 120,
+          "exact_W": 1.1836672470206338,
+          "finite_W": 1.202215123925203,
+          "infinite_W": 1.146240234375002,
+          "finite_absolute_error": 0.01854787690456927,
+          "infinite_absolute_error": -0.03742701264563175,
+          "finite_fractional_error": 0.015669840448196456,
+          "infinite_fractional_error": -0.03161953897080277
+        },
+        {
+          "theta1_deg": 135,
+          "exact_W": 1.057227167182663,
+          "finite_W": 1.0806970838552747,
+          "infinite_W": 1.0473632812500022,
+          "finite_absolute_error": 0.02346991667261178,
+          "infinite_absolute_error": -0.009863885932660743,
+          "finite_fractional_error": 0.02219950205702267,
+          "infinite_fractional_error": -0.009329958819490405
+        },
+        {
+          "theta1_deg": 150,
+          "exact_W": 0.9362311015097977,
+          "finite_W": 0.959316198463005,
+          "infinite_W": 0.9484863281250018,
+          "finite_absolute_error": 0.023085096953207263,
+          "infinite_absolute_error": 0.012255226615204062,
+          "finite_fractional_error": 0.024657477107927157,
+          "infinite_fractional_error": 0.013089958873872992
+        },
+        {
+          "theta1_deg": 165,
+          "exact_W": 0.8530998480864259,
+          "finite_W": 0.870596377965827,
+          "infinite_W": 0.8761033747398957,
+          "finite_absolute_error": 0.01749652987940109,
+          "infinite_absolute_error": 0.02300352665346983,
+          "finite_fractional_error": 0.020509357631052525,
+          "infinite_fractional_error": 0.026964635739964857
+        },
+        {
+          "theta1_deg": 180,
+          "exact_W": 0.830108359133127,
+          "finite_W": 0.8383100266185937,
+          "infinite_W": 0.8496093750000019,
+          "finite_absolute_error": 0.00820166748546669,
+          "infinite_absolute_error": 0.019501015866874916,
+          "finite_fractional_error": 0.009880237194613485,
+          "infinite_fractional_error": 0.023492132867135095
+        }
+      ],
+      "max_abs_error_finite": 0.02346991667261178,
+      "max_abs_error_infinite": 0.08336597344139252,
+      "max_abs_fractional_error_finite": 0.024657477107927157,
+      "max_abs_fractional_error_infinite": 0.06402969849953342
+    },
+    {
+      "initial_J": 10,
+      "first_delta_J": 0,
+      "first_L": 2,
+      "points": [
+        {
+          "theta1_deg": 0,
+          "exact_W": 0.019998529943110577,
+          "finite_W": 0.02000337664905532,
+          "infinite_W": 8.881784197001252e-16,
+          "finite_absolute_error": 4.846705944742957e-06,
+          "infinite_absolute_error": -0.01999852994310969,
+          "finite_fractional_error": 0.000242353110880164,
+          "infinite_fractional_error": -0.9999999999999556
+        },
+        {
+          "theta1_deg": 15,
+          "exact_W": 0.2678247323826206,
+          "finite_W": 0.28381114114645156,
+          "infinite_W": 0.2520401108708335,
+          "finite_absolute_error": 0.01598640876383095,
+          "infinite_absolute_error": -0.01578462151178711,
+          "finite_fractional_error": 0.05968981513250388,
+          "infinite_fractional_error": -0.05893638489382241
+        },
+        {
+          "theta1_deg": 30,
+          "exact_W": 0.8295091546858735,
+          "finite_W": 0.8620328782305048,
+          "infinite_W": 0.8090972900390643,
+          "finite_absolute_error": 0.03252372354463129,
+          "infinite_absolute_error": -0.02041186464680922,
+          "finite_fractional_error": 0.03920839614717415,
+          "infinite_fractional_error": -0.02460716018804998
+        },
+        {
+          "theta1_deg": 45,
+          "exact_W": 1.285352211461484,
+          "finite_W": 1.325048167648183,
+          "infinite_W": 1.2588500976562522,
+          "finite_absolute_error": 0.039695956186698966,
+          "infinite_absolute_error": -0.02650211380523171,
+          "finite_fractional_error": 0.03088332974629847,
+          "infinite_fractional_error": -0.020618561643191955
+        },
+        {
+          "theta1_deg": 60,
+          "exact_W": 1.375505243289473,
+          "finite_W": 1.4126921829264345,
+          "infinite_W": 1.3492584228515647,
+          "finite_absolute_error": 0.037186939636961514,
+          "infinite_absolute_error": -0.02624682043790827,
+          "finite_fractional_error": 0.027035112965494948,
+          "infinite_fractional_error": -0.01908158516003902
+        },
+        {
+          "theta1_deg": 75,
+          "exact_W": 1.2073026356487775,
+          "finite_W": 1.2400669001149485,
+          "infinite_W": 1.1876266371760442,
+          "finite_absolute_error": 0.03276426446617098,
+          "infinite_absolute_error": -0.01967599847273327,
+          "finite_fractional_error": 0.027138402169199435,
+          "infinite_fractional_error": -0.016297486555357205
+        },
+        {
+          "theta1_deg": 90,
+          "exact_W": 1.095010839455618,
+          "finite_W": 1.1281134970914968,
+          "infinite_W": 1.0803222656250016,
+          "finite_absolute_error": 0.03310265763587883,
+          "infinite_absolute_error": -0.014688573830616392,
+          "finite_fractional_error": 0.030230438314506308,
+          "infinite_fractional_error": -0.013414089889666098
+        },
+        {
+          "theta1_deg": 105,
+          "exact_W": 1.2064242312982116,
+          "finite_W": 1.2429300513764505,
+          "infinite_W": 1.1876266371760444,
+          "finite_absolute_error": 0.03650582007823888,
+          "infinite_absolute_error": -0.018797594122167194,
+          "finite_fractional_error": 0.030259521593789293,
+          "infinite_fractional_error": -0.01558124715543838
+        },
+        {
+          "theta1_deg": 120,
+          "exact_W": 1.3801988652538593,
+          "finite_W": 1.4151654408065149,
+          "infinite_W": 1.3492584228515652,
+          "finite_absolute_error": 0.03496657555265559,
+          "infinite_absolute_error": -0.0309404424022941,
+          "finite_fractional_error": 0.025334447399523258,
+          "infinite_fractional_error": -0.022417379974155566
+        },
+        {
+          "theta1_deg": 135,
+          "exact_W": 1.3005752704550444,
+          "finite_W": 1.3239829591206043,
+          "infinite_W": 1.2588500976562527,
+          "finite_absolute_error": 0.023407688665559867,
+          "infinite_absolute_error": -0.04172517279879173,
+          "finite_fractional_error": 0.017997949982064474,
+          "infinite_fractional_error": -0.03208208993870301
+        },
+        {
+          "theta1_deg": 150,
+          "exact_W": 0.8511826443449516,
+          "finite_W": 0.8577146250600022,
+          "infinite_W": 0.8090972900390642,
+          "finite_absolute_error": 0.006531980715050567,
+          "infinite_absolute_error": -0.042085354305887446,
+          "finite_fractional_error": 0.0076740059944213415,
+          "infinite_fractional_error": -0.04944338866104966
+        },
+        {
+          "theta1_deg": 165,
+          "exact_W": 0.2839261957267471,
+          "finite_W": 0.2798827813573711,
+          "infinite_W": 0.2520401108708339,
+          "finite_absolute_error": -0.004043414369375997,
+          "infinite_absolute_error": -0.03188608485591321,
+          "finite_fractional_error": -0.014241075428163072,
+          "infinite_fractional_error": -0.11230413162229187
+        },
+        {
+          "theta1_deg": 180,
+          "exact_W": 0.019998529943110577,
+          "finite_W": 0.020003376649055216,
+          "infinite_W": 7.979727989493313e-16,
+          "finite_absolute_error": 4.846705944638874e-06,
+          "infinite_absolute_error": -0.01999852994310978,
+          "finite_fractional_error": 0.00024235311087495944,
+          "infinite_fractional_error": -0.9999999999999601
+        }
+      ],
+      "max_abs_error_finite": 0.039695956186698966,
+      "max_abs_error_infinite": 0.042085354305887446,
+      "max_abs_fractional_error_finite": 0.05968981513250388,
+      "max_abs_fractional_error_infinite": 0.9999999999999601
+    },
+    {
+      "initial_J": 10,
+      "first_delta_J": 1,
+      "first_L": 2,
+      "points": [
+        {
+          "theta1_deg": 0,
+          "exact_W": 1.6909614723082216,
+          "finite_W": 1.707818131735543,
+          "infinite_W": 1.4160156250000027,
+          "finite_absolute_error": 0.016856659427321397,
+          "infinite_absolute_error": -0.2749458473082189,
+          "finite_fractional_error": 0.009968683322105185,
+          "infinite_fractional_error": -0.16259734583598065
+        },
+        {
+          "theta1_deg": 15,
+          "exact_W": 1.4619849149066684,
+          "finite_W": 1.5256989220961028,
+          "infinite_W": 1.2921455506526036,
+          "finite_absolute_error": 0.06371400718943443,
+          "infinite_absolute_error": -0.16983936425406476,
+          "finite_fractional_error": 0.043580481946013695,
+          "infinite_fractional_error": -0.11617039445643468
+        },
+        {
+          "theta1_deg": 30,
+          "exact_W": 1.0662387645663778,
+          "finite_W": 1.1497578425385184,
+          "infinite_W": 1.0414123535156268,
+          "finite_absolute_error": 0.08351907797214064,
+          "infinite_absolute_error": -0.024826411050751007,
+          "finite_fractional_error": 0.07833055854624317,
+          "infinite_fractional_error": -0.023284100968555117
+        },
+        {
+          "theta1_deg": 45,
+          "exact_W": 0.8467572884416925,
+          "finite_W": 0.9164636855796598,
+          "infinite_W": 0.9063720703125017,
+          "finite_absolute_error": 0.06970639713796734,
+          "infinite_absolute_error": 0.05961478187080915,
+          "finite_fractional_error": 0.08232157914607345,
+          "infinite_fractional_error": 0.07040362413711213
+        },
+        {
+          "theta1_deg": 60,
+          "exact_W": 0.9621058496284522,
+          "finite_W": 1.0051223022432014,
+          "infinite_W": 1.0108947753906268,
+          "finite_absolute_error": 0.04301645261474918,
+          "infinite_absolute_error": 0.04878892576217453,
+          "finite_fractional_error": 0.04471072765160024,
+          "infinite_fractional_error": 0.05071055932256926
+        },
+        {
+          "theta1_deg": 75,
+          "exact_W": 1.2441379673602737,
+          "finite_W": 1.2730368740120048,
+          "infinite_W": 1.2392875548161508,
+          "finite_absolute_error": 0.028898906651731116,
+          "infinite_absolute_error": -0.004850412544122884,
+          "finite_fractional_error": 0.02322805622036182,
+          "infinite_fractional_error": -0.0038986130729650147
+        },
+        {
+          "theta1_deg": 90,
+          "exact_W": 1.380288957688339,
+          "finite_W": 1.4126842238923587,
+          "infinite_W": 1.354980468750002,
+          "finite_absolute_error": 0.03239526620401967,
+          "infinite_absolute_error": -0.025308488938337037,
+          "finite_fractional_error": 0.02346991622556639,
+          "infinite_fractional_error": -0.018335645443924173
+        },
+        {
+          "theta1_deg": 105,
+          "exact_W": 1.2343217938909066,
+          "finite_W": 1.2698510871910271,
+          "infinite_W": 1.2392875548161508,
+          "finite_absolute_error": 0.03552929330012056,
+          "infinite_absolute_error": 0.004965760925244256,
+          "finite_fractional_error": 0.028784465668489002,
+          "infinite_fractional_error": 0.004023068335843664
+        },
+        {
+          "theta1_deg": 120,
+          "exact_W": 0.9825871865772584,
+          "finite_W": 1.0017503013196174,
+          "infinite_W": 1.0108947753906268,
+          "finite_absolute_error": 0.01916311474235899,
+          "infinite_absolute_error": 0.028307588813368367,
+          "finite_fractional_error": 0.019502711824598215,
+          "infinite_fractional_error": 0.02880923871191008
+        },
+        {
+          "theta1_deg": 135,
+          "exact_W": 0.9295316262469899,
+          "finite_W": 0.9159549391902544,
+          "infinite_W": 0.9063720703125017,
+          "finite_absolute_error": -0.013576687056735537,
+          "infinite_absolute_error": -0.023159555934488263,
+          "finite_fractional_error": -0.014605944191002723,
+          "infinite_fractional_error": -0.024915296349835477
+        },
+        {
+          "theta1_deg": 150,
+          "exact_W": 1.189126786259216,
+          "finite_W": 1.1522486688674847,
+          "infinite_W": 1.041412353515627,
+          "finite_absolute_error": -0.03687811739173141,
+          "infinite_absolute_error": -0.14771443274358909,
+          "finite_fractional_error": -0.031012771571434776,
+          "infinite_fractional_error": -0.12422092786949383
+        },
+        {
+          "theta1_deg": 165,
+          "exact_W": 1.5545754261813332,
+          "finite_W": 1.5283759625276745,
+          "infinite_W": 1.2921455506526036,
+          "finite_absolute_error": -0.02619946365365866,
+          "infinite_absolute_error": -0.26242987552872954,
+          "finite_fractional_error": -0.01685313122311161,
+          "infinite_fractional_error": -0.16881128513227794
+        },
+        {
+          "theta1_deg": 180,
+          "exact_W": 1.6909614723082216,
+          "finite_W": 1.707818131735543,
+          "infinite_W": 1.4160156250000027,
+          "finite_absolute_error": 0.016856659427321397,
+          "infinite_absolute_error": -0.2749458473082189,
+          "finite_fractional_error": 0.009968683322105185,
+          "infinite_fractional_error": -0.16259734583598065
+        }
+      ],
+      "max_abs_error_finite": 0.08351907797214064,
+      "max_abs_error_infinite": 0.2749458473082189,
+      "max_abs_fractional_error_finite": 0.08232157914607345,
+      "max_abs_fractional_error_infinite": 0.16881128513227794
+    },
+    {
+      "initial_J": 10,
+      "first_delta_J": 2,
+      "first_L": 2,
+      "points": [
+        {
+          "theta1_deg": 0,
+          "exact_W": 1.4512383900928802,
+          "finite_W": 1.4697086481166317,
+          "infinite_W": 1.4160156250000016,
+          "finite_absolute_error": 0.018470258023751462,
+          "infinite_absolute_error": -0.035222765092878694,
+          "finite_fractional_error": 0.012727239128899665,
+          "infinite_fractional_error": -0.02427083333333293
+        },
+        {
+          "theta1_deg": 15,
+          "exact_W": 1.473665425826957,
+          "finite_W": 1.4853602703158486,
+          "infinite_W": 1.413865643911984,
+          "finite_absolute_error": 0.011694844488891576,
+          "infinite_absolute_error": -0.05979978191497293,
+          "finite_fractional_error": 0.007935888488616021,
+          "infinite_fractional_error": -0.04057894069233244
+        },
+        {
+          "theta1_deg": 30,
+          "exact_W": 1.4733503667244168,
+          "finite_W": 1.4890712859691895,
+          "infinite_W": 1.386070251464846,
+          "finite_absolute_error": 0.015720919244772702,
+          "infinite_absolute_error": -0.0872801152595708,
+          "finite_fractional_error": 0.010670183820379247,
+          "infinite_fractional_error": -0.05923921236305372
+        },
+        {
+          "theta1_deg": 45,
+          "exact_W": 1.3674898413312695,
+          "finite_W": 1.4028306652854912,
+          "infinite_W": 1.2962341308593772,
+          "finite_absolute_error": 0.03534082395422167,
+          "infinite_absolute_error": -0.07125571047189228,
+          "finite_fractional_error": 0.025843573302026805,
+          "infinite_fractional_error": -0.05210693953128302
+        },
+        {
+          "theta1_deg": 60,
+          "exact_W": 1.155980236032478,
+          "finite_W": 1.211591038450187,
+          "infinite_W": 1.146507263183596,
+          "finite_absolute_error": 0.05561080241770888,
+          "infinite_absolute_error": -0.009472972848882044,
+          "finite_fractional_error": 0.04810705294458552,
+          "infinite_fractional_error": -0.008194753295605562
+        },
+        {
+          "theta1_deg": 75,
+          "exact_W": 0.9499143141408936,
+          "finite_W": 1.0054561006968523,
+          "infinite_W": 0.998930376595832,
+          "finite_absolute_error": 0.05554178655595876,
+          "infinite_absolute_error": 0.04901606245493839,
+          "finite_fractional_error": 0.05847031224725883,
+          "infinite_fractional_error": 0.05160050935675048
+        },
+        {
+          "theta1_deg": 90,
+          "exact_W": 0.8873950643010244,
+          "finite_W": 0.9166762082720843,
+          "infinite_W": 0.9368896484375021,
+          "finite_absolute_error": 0.029281143971059853,
+          "infinite_absolute_error": 0.04949458413647767,
+          "finite_fractional_error": 0.032996739726205,
+          "infinite_fractional_error": 0.05577514021386081
+        },
+        {
+          "theta1_deg": 105,
+          "exact_W": 1.0136433249233296,
+          "finite_W": 1.0071953361367445,
+          "infinite_W": 0.9989303765958318,
+          "finite_absolute_error": -0.006447988786585146,
+          "infinite_absolute_error": -0.01471294832749781,
+          "finite_fractional_error": -0.006361200856398735,
+          "infinite_fractional_error": -0.014514916604033942
+        },
+        {
+          "theta1_deg": 120,
+          "exact_W": 1.240412041146613,
+          "finite_W": 1.2138977654177001,
+          "infinite_W": 1.1465072631835955,
+          "finite_absolute_error": -0.02651427572891296,
+          "infinite_absolute_error": -0.09390477796301755,
+          "finite_fractional_error": -0.021375377575667254,
+          "infinite_fractional_error": -0.07570450370363527
+        },
+        {
+          "theta1_deg": 135,
+          "exact_W": 1.4240509273041204,
+          "finite_W": 1.4043810809718176,
+          "infinite_W": 1.296234130859377,
+          "finite_absolute_error": -0.019669846332302843,
+          "infinite_absolute_error": -0.12781679644474342,
+          "finite_fractional_error": -0.013812600346772674,
+          "infinite_fractional_error": -0.0897557762816209
+        },
+        {
+          "theta1_deg": 150,
+          "exact_W": 1.4868852362465306,
+          "finite_W": 1.489449957743245,
+          "infinite_W": 1.3860702514648455,
+          "finite_absolute_error": 0.002564721496714384,
+          "infinite_absolute_error": -0.10081498478168505,
+          "finite_fractional_error": 0.0017248953948784413,
+          "infinite_fractional_error": -0.06780280167162113
+        },
+        {
+          "theta1_deg": 165,
+          "exact_W": 1.4664975010173713,
+          "finite_W": 1.485171450562283,
+          "infinite_W": 1.4138656439119843,
+          "finite_absolute_error": 0.01867394954491175,
+          "infinite_absolute_error": -0.05263185710538698,
+          "finite_fractional_error": 0.012733707034588768,
+          "infinite_fractional_error": -0.03588949661958103
+        },
+        {
+          "theta1_deg": 180,
+          "exact_W": 1.4512383900928798,
+          "finite_W": 1.469708648116632,
+          "infinite_W": 1.4160156250000018,
+          "finite_absolute_error": 0.01847025802375213,
+          "infinite_absolute_error": -0.03522276509287803,
+          "finite_fractional_error": 0.012727239128900128,
+          "infinite_fractional_error": -0.02427083333333248
+        }
+      ],
+      "max_abs_error_finite": 0.05561080241770888,
+      "max_abs_error_infinite": 0.12781679644474342,
+      "max_abs_fractional_error_finite": 0.05847031224725883,
+      "max_abs_fractional_error_infinite": 0.0897557762816209
+    },
+    {
+      "initial_J": 20,
+      "first_delta_J": 0,
+      "first_L": 1,
+      "points": [
+        {
+          "theta1_deg": 0,
+          "exact_W": 1.7248245841995848,
+          "finite_W": 1.727847235528499,
+          "infinite_W": 1.6992187500000018,
+          "finite_absolute_error": 0.0030226513289142165,
+          "infinite_absolute_error": -0.025605834199583066,
+          "finite_fractional_error": 0.001752439846117393,
+          "infinite_fractional_error": -0.01484547149556406
+        },
+        {
+          "theta1_deg": 15,
+          "exact_W": 1.6707096666127428,
+          "finite_W": 1.6735166929049807,
+          "infinite_W": 1.6462307505202143,
+          "finite_absolute_error": 0.0028070262922379463,
+          "infinite_absolute_error": -0.024478916092528502,
+          "finite_fractional_error": 0.001680140091563014,
+          "infinite_fractional_error": -0.01465180730183835
+        },
+        {
+          "theta1_deg": 30,
+          "exact_W": 1.5228649623180877,
+          "finite_W": 1.5253027222457103,
+          "infinite_W": 1.5014648437500018,
+          "finite_absolute_error": 0.002437759927622629,
+          "infinite_absolute_error": -0.02140011856808588,
+          "finite_fractional_error": 0.001600772220743656,
+          "infinite_fractional_error": -0.014052538535991308
+        },
+        {
+          "theta1_deg": 45,
+          "exact_W": 1.3209053404365905,
+          "finite_W": 1.32291913729585,
+          "infinite_W": 1.3037109375000018,
+          "finite_absolute_error": 0.002013796859259509,
+          "infinite_absolute_error": -0.017194402936588693,
+          "finite_fractional_error": 0.0015245580418305385,
+          "infinite_fractional_error": -0.013017134847002386
+        },
+        {
+          "theta1_deg": 60,
+          "exact_W": 1.118945718555094,
+          "finite_W": 1.1205944562040295,
+          "infinite_W": 1.1059570312500022,
+          "finite_absolute_error": 0.0016487376489355832,
+          "infinite_absolute_error": -0.012988687305091728,
+          "finite_fractional_error": 0.0014734742012906712,
+          "infinite_fractional_error": -0.011607969081703225
+        },
+        {
+          "theta1_deg": 75,
+          "exact_W": 0.9711010142604388,
+          "finite_W": 0.9725414138776873,
+          "infinite_W": 0.9611911244797895,
+          "finite_absolute_error": 0.0014403996172485112,
+          "infinite_absolute_error": -0.009909889780649328,
+          "finite_fractional_error": 0.0014832644555988607,
+          "infinite_fractional_error": -0.010204798095279924
+        },
+        {
+          "theta1_deg": 90,
+          "exact_W": 0.916986096673597,
+          "finite_W": 0.9184307034451376,
+          "infinite_W": 0.9082031250000021,
+          "finite_absolute_error": 0.0014446067715405686,
+          "infinite_absolute_error": -0.008782971673594875,
+          "finite_fractional_error": 0.001575385686632476,
+          "infinite_fractional_error": -0.009578085976936235
+        },
+        {
+          "theta1_deg": 105,
+          "exact_W": 0.9711010142604388,
+          "finite_W": 0.9727612460686559,
+          "infinite_W": 0.9611911244797893,
+          "finite_absolute_error": 0.0016602318082170608,
+          "infinite_absolute_error": -0.00990988978064955,
+          "finite_fractional_error": 0.001709638630623245,
+          "infinite_fractional_error": -0.010204798095280153
+        },
+        {
+          "theta1_deg": 120,
+          "exact_W": 1.1189457185550935,
+          "finite_W": 1.1209752167279263,
+          "infinite_W": 1.1059570312500018,
+          "finite_absolute_error": 0.002029498172832822,
+          "infinite_absolute_error": -0.012988687305091728,
+          "finite_fractional_error": 0.0018137592728390208,
+          "infinite_fractional_error": -0.011607969081703228
+        },
+        {
+          "theta1_deg": 135,
+          "exact_W": 1.3209053404365907,
+          "finite_W": 1.3233588016777869,
+          "infinite_W": 1.3037109375000018,
+          "finite_absolute_error": 0.0024534612411961643,
+          "infinite_absolute_error": -0.017194402936588915,
+          "finite_fractional_error": 0.0018574088286941416,
+          "infinite_fractional_error": -0.013017134847002553
+        },
+        {
+          "theta1_deg": 150,
+          "exact_W": 1.5228649623180879,
+          "finite_W": 1.5256834827696073,
+          "infinite_W": 1.5014648437500018,
+          "finite_absolute_error": 0.002818520451519424,
+          "infinite_absolute_error": -0.0214001185680861,
+          "finite_fractional_error": 0.0018508012996957418,
+          "infinite_fractional_error": -0.014052538535991452
+        },
+        {
+          "theta1_deg": 165,
+          "exact_W": 1.6707096666127423,
+          "finite_W": 1.6737365250959493,
+          "infinite_W": 1.646230750520214,
+          "finite_absolute_error": 0.00302685848320694,
+          "infinite_absolute_error": -0.02447891609252828,
+          "finite_fractional_error": 0.0018117202190753485,
+          "infinite_fractional_error": -0.014651807301838222
+        },
+        {
+          "theta1_deg": 180,
+          "exact_W": 1.7248245841995848,
+          "finite_W": 1.727847235528499,
+          "infinite_W": 1.6992187500000018,
+          "finite_absolute_error": 0.0030226513289142165,
+          "infinite_absolute_error": -0.025605834199583066,
+          "finite_fractional_error": 0.001752439846117393,
+          "infinite_fractional_error": -0.01484547149556406
+        }
+      ],
+      "max_abs_error_finite": 0.00302685848320694,
+      "max_abs_error_infinite": 0.025605834199583066,
+      "max_abs_fractional_error_finite": 0.0018574088286941416,
+      "max_abs_fractional_error_infinite": 0.01484547149556406
+    },
+    {
+      "initial_J": 20,
+      "first_delta_J": 1,
+      "first_L": 1,
+      "points": [
+        {
+          "theta1_deg": 0,
+          "exact_W": 0.8409284971784973,
+          "finite_W": 0.8425507032068668,
+          "infinite_W": 0.8496093750000019,
+          "finite_absolute_error": 0.0016222060283694884,
+          "infinite_absolute_error": 0.008680877821504618,
+          "finite_fractional_error": 0.0019290653531332943,
+          "infinite_fractional_error": 0.010322967827384729
+        },
+        {
+          "theta1_deg": 15,
+          "exact_W": 0.8751364376210703,
+          "finite_W": 0.8718444202636065,
+          "infinite_W": 0.8761033747398957,
+          "finite_absolute_error": -0.0032920173574637612,
+          "infinite_absolute_error": 0.0009669371188254505,
+          "finite_fractional_error": -0.003761718991398217,
+          "infinite_fractional_error": 0.0011048987075134558
+        },
+        {
+          "theta1_deg": 30,
+          "exact_W": 0.9591273844655865,
+          "finite_W": 0.9517577123582046,
+          "infinite_W": 0.9484863281250018,
+          "finite_absolute_error": -0.0073696721073819305,
+          "infinite_absolute_error": -0.010641056340584765,
+          "finite_fractional_error": -0.007683726089718747,
+          "infinite_fractional_error": -0.011094518322520657
+        },
+        {
+          "theta1_deg": 45,
+          "exact_W": 1.0703960313335312,
+          "finite_W": 1.0608778774094012,
+          "infinite_W": 1.0473632812500018,
+          "finite_absolute_error": -0.009518153924130024,
+          "infinite_absolute_error": -0.023032750083529452,
+          "finite_fractional_error": -0.008892179759179436,
+          "infinite_fractional_error": -0.021517970367317753
+        },
+        {
+          "theta1_deg": 60,
+          "exact_W": 1.1791280341537356,
+          "finite_W": 1.1699662553137777,
+          "infinite_W": 1.1462402343750018,
+          "finite_absolute_error": -0.009161778839957835,
+          "infinite_absolute_error": -0.032887799778733795,
+          "finite_fractional_error": -0.007769961000489041,
+          "infinite_fractional_error": -0.02789162739425281
+        },
+        {
+          "theta1_deg": 75,
+          "exact_W": 1.2561887405791077,
+          "finite_W": 1.2497927033082346,
+          "infinite_W": 1.2186231877601081,
+          "finite_absolute_error": -0.006396037270873123,
+          "infinite_absolute_error": -0.03756555281899954,
+          "finite_fractional_error": -0.00509162123832166,
+          "infinite_fractional_error": -0.029904385866157086
+        },
+        {
+          "theta1_deg": 90,
+          "exact_W": 1.2809297965547963,
+          "finite_W": 1.2789677891180125,
+          "infinite_W": 1.2451171875000016,
+          "finite_absolute_error": -0.0019620074367838747,
+          "infinite_absolute_error": -0.035812609054794775,
+          "finite_fractional_error": -0.0015317056735356712,
+          "infinite_fractional_error": -0.027958291821391604
+        },
+        {
+          "theta1_deg": 105,
+          "exact_W": 1.246721856112223,
+          "finite_W": 1.2496740720612727,
+          "infinite_W": 1.2186231877601081,
+          "finite_absolute_error": 0.002952215949049597,
+          "infinite_absolute_error": -0.02809866835211494,
+          "finite_fractional_error": 0.002367982829992077,
+          "infinite_fractional_error": -0.022538041034860668
+        },
+        {
+          "theta1_deg": 120,
+          "exact_W": 1.1627309092677072,
+          "finite_W": 1.1697607799666747,
+          "infinite_W": 1.146240234375002,
+          "finite_absolute_error": 0.007029870698967544,
+          "infinite_absolute_error": -0.01649067489270517,
+          "finite_fractional_error": 0.006045999674503352,
+          "infinite_fractional_error": -0.014182709654713717
+        },
+        {
+          "theta1_deg": 135,
+          "exact_W": 1.051462262399762,
+          "finite_W": 1.060640614915478,
+          "infinite_W": 1.0473632812500022,
+          "finite_absolute_error": 0.00917835251571586,
+          "infinite_absolute_error": -0.004098981149759817,
+          "finite_fractional_error": 0.008729131652112764,
+          "infinite_fractional_error": -0.003898362591163923
+        },
+        {
+          "theta1_deg": 150,
+          "exact_W": 0.9427302595795579,
+          "finite_W": 0.9515522370111017,
+          "infinite_W": 0.9484863281250018,
+          "finite_absolute_error": 0.008821977431543782,
+          "infinite_absolute_error": 0.00575606854544386,
+          "finite_fractional_error": 0.009357902052998954,
+          "infinite_fractional_error": 0.006105742853752219
+        },
+        {
+          "theta1_deg": 165,
+          "exact_W": 0.865669553154186,
+          "finite_W": 0.8717257890166449,
+          "infinite_W": 0.8761033747398957,
+          "finite_absolute_error": 0.0060562358624588475,
+          "infinite_absolute_error": 0.010433821585709713,
+          "finite_fractional_error": 0.006996013479268295,
+          "infinite_fractional_error": 0.012052891946693341
+        },
+        {
+          "theta1_deg": 180,
+          "exact_W": 0.8409284971784973,
+          "finite_W": 0.8425507032068668,
+          "infinite_W": 0.8496093750000019,
+          "finite_absolute_error": 0.0016222060283694884,
+          "infinite_absolute_error": 0.008680877821504618,
+          "finite_fractional_error": 0.0019290653531332943,
+          "infinite_fractional_error": 0.010322967827384729
+        }
+      ],
+      "max_abs_error_finite": 0.009518153924130024,
+      "max_abs_error_infinite": 0.03756555281899954,
+      "max_abs_fractional_error_finite": 0.009357902052998954,
+      "max_abs_fractional_error_infinite": 0.029904385866157086
+    },
+    {
+      "initial_J": 20,
+      "first_delta_J": 0,
+      "first_L": 2,
+      "points": [
+        {
+          "theta1_deg": 0,
+          "exact_W": 0.005142589696480573,
+          "finite_W": 0.0051435176009380565,
+          "infinite_W": 8.881784197001252e-16,
+          "finite_absolute_error": 9.279044574832598e-07,
+          "infinite_absolute_error": -0.005142589696479685,
+          "finite_fractional_error": 0.0001804352499905424,
+          "infinite_fractional_error": -0.9999999999998272
+        },
+        {
+          "theta1_deg": 15,
+          "exact_W": 0.2587728103593125,
+          "finite_W": 0.2625971018459371,
+          "infinite_W": 0.2520401108708335,
+          "finite_absolute_error": 0.003824291486624609,
+          "infinite_absolute_error": -0.006732699488478988,
+          "finite_fractional_error": 0.014778567660622789,
+          "infinite_fractional_error": -0.026017801016770144
+        },
+        {
+          "theta1_deg": 30,
+          "exact_W": 0.8228564186739475,
+          "finite_W": 0.830407900825878,
+          "infinite_W": 0.8090972900390643,
+          "finite_absolute_error": 0.0075514821519304665,
+          "infinite_absolute_error": -0.013759128634883266,
+          "finite_fractional_error": 0.009177156525192885,
+          "infinite_fractional_error": -0.016721177987596456
+        },
+        {
+          "theta1_deg": 45,
+          "exact_W": 1.2788642701503274,
+          "finite_W": 1.2878513286314055,
+          "infinite_W": 1.2588500976562522,
+          "finite_absolute_error": 0.008987058481078058,
+          "infinite_absolute_error": -0.020014172494075222,
+          "finite_fractional_error": 0.0070273747502709195,
+          "infinite_fractional_error": -0.01564995829598289
+        },
+        {
+          "theta1_deg": 60,
+          "exact_W": 1.3701197480021456,
+          "finite_W": 1.378364060518143,
+          "infinite_W": 1.3492584228515647,
+          "finite_absolute_error": 0.008244312515997443,
+          "infinite_absolute_error": -0.020861325150580923,
+          "finite_fractional_error": 0.006017220413047088,
+          "infinite_fractional_error": -0.015225913779434302
+        },
+        {
+          "theta1_deg": 75,
+          "exact_W": 1.2050647365716485,
+          "finite_W": 1.2122816962603549,
+          "infinite_W": 1.1876266371760442,
+          "finite_absolute_error": 0.0072169596887063925,
+          "infinite_absolute_error": -0.017438099395604256,
+          "finite_fractional_error": 0.00598885642379537,
+          "infinite_fractional_error": -0.014470674368262418
+        },
+        {
+          "theta1_deg": 90,
+          "exact_W": 1.0953089900568656,
+          "finite_W": 1.1026860121069766,
+          "infinite_W": 1.0803222656250016,
+          "finite_absolute_error": 0.007377022050111037,
+          "infinite_absolute_error": -0.014986724431863996,
+          "finite_fractional_error": 0.006735105908085391,
+          "infinite_fractional_error": -0.013682645324663978
+        },
+        {
+          "theta1_deg": 105,
+          "exact_W": 1.2047511533420672,
+          "finite_W": 1.2129348108018023,
+          "infinite_W": 1.1876266371760444,
+          "finite_absolute_error": 0.00818365745973515,
+          "infinite_absolute_error": -0.01712451616602273,
+          "finite_fractional_error": 0.006792819776128115,
+          "infinite_fractional_error": -0.014214152124708973
+        },
+        {
+          "theta1_deg": 120,
+          "exact_W": 1.371172571219511,
+          "finite_W": 1.3788986025800027,
+          "infinite_W": 1.3492584228515652,
+          "finite_absolute_error": 0.007726031360491659,
+          "infinite_absolute_error": -0.021914148367945918,
+          "finite_fractional_error": 0.0056346163295989665,
+          "infinite_fractional_error": -0.015982049836699718
+        },
+        {
+          "theta1_deg": 135,
+          "exact_W": 1.2825973619871762,
+          "finite_W": 1.2875273825927918,
+          "infinite_W": 1.2588500976562527,
+          "finite_absolute_error": 0.004930020605615537,
+          "infinite_absolute_error": -0.023747264330923556,
+          "finite_fractional_error": 0.0038437788441863558,
+          "infinite_fractional_error": -0.01851497986408691
+        },
+        {
+          "theta1_deg": 150,
+          "exact_W": 0.8282695001873245,
+          "finite_W": 0.8293122677662288,
+          "infinite_W": 0.8090972900390642,
+          "finite_absolute_error": 0.0010427675789043134,
+          "infinite_absolute_error": -0.019172210148260316,
+          "finite_fractional_error": 0.0012589713597669324,
+          "infinite_fractional_error": -0.02314730911125456
+        },
+        {
+          "theta1_deg": 165,
+          "exact_W": 0.26281948542574296,
+          "finite_W": 0.26162004126587646,
+          "infinite_W": 0.2520401108708339,
+          "finite_absolute_error": -0.0011994441598665029,
+          "infinite_absolute_error": -0.010779374554909071,
+          "finite_fractional_error": -0.004563756594848802,
+          "infinite_fractional_error": -0.04101436595329868
+        },
+        {
+          "theta1_deg": 180,
+          "exact_W": 0.005142589696480573,
+          "finite_W": 0.005143517600938022,
+          "infinite_W": 7.979727989493313e-16,
+          "finite_absolute_error": 9.279044574485654e-07,
+          "infinite_absolute_error": -0.005142589696479775,
+          "finite_fractional_error": 0.0001804352499837959,
+          "infinite_fractional_error": -0.9999999999998448
+        }
+      ],
+      "max_abs_error_finite": 0.008987058481078058,
+      "max_abs_error_infinite": 0.023747264330923556,
+      "max_abs_fractional_error_finite": 0.014778567660622789,
+      "max_abs_fractional_error_infinite": 0.9999999999998448
+    },
+    {
+      "initial_J": 20,
+      "first_delta_J": 1,
+      "first_L": 2,
+      "points": [
+        {
+          "theta1_deg": 0,
+          "exact_W": 1.5490788105919688,
+          "finite_W": 1.5520735332996365,
+          "infinite_W": 1.4160156250000027,
+          "finite_absolute_error": 0.002994722707667652,
+          "infinite_absolute_error": -0.13306318559196617,
+          "finite_fractional_error": 0.0019332281141482021,
+          "infinite_fractional_error": -0.08589826720379519
+        },
+        {
+          "theta1_deg": 15,
+          "exact_W": 1.3760815544893967,
+          "finite_W": 1.4016478326742674,
+          "infinite_W": 1.2921455506526036,
+          "finite_absolute_error": 0.025566278184870672,
+          "infinite_absolute_error": -0.08393600383679312,
+          "finite_fractional_error": 0.01857904286374741,
+          "infinite_fractional_error": -0.060996387578160706
+        },
+        {
+          "theta1_deg": 30,
+          "exact_W": 1.057510221091027,
+          "finite_W": 1.092909638496669,
+          "infinite_W": 1.0414123535156268,
+          "finite_absolute_error": 0.03539941740564201,
+          "infinite_absolute_error": -0.016097867575400215,
+          "finite_fractional_error": 0.03347430284798632,
+          "infinite_fractional_error": -0.015222422681449018
+        },
+        {
+          "theta1_deg": 45,
+          "exact_W": 0.8826569167852063,
+          "finite_W": 0.9114779671066091,
+          "infinite_W": 0.9063720703125017,
+          "finite_absolute_error": 0.028821050321402808,
+          "infinite_absolute_error": 0.023715153527295363,
+          "finite_fractional_error": 0.032652608021669624,
+          "infinite_fractional_error": 0.026867917847027332
+        },
+        {
+          "theta1_deg": 60,
+          "exact_W": 0.9918303375551775,
+          "finite_W": 1.0071878803909615,
+          "infinite_W": 1.0108947753906268,
+          "finite_absolute_error": 0.015357542835784055,
+          "infinite_absolute_error": 0.01906443783544931,
+          "finite_fractional_error": 0.015484042234118176,
+          "infinite_fractional_error": 0.01922147076327832
+        },
+        {
+          "theta1_deg": 75,
+          "exact_W": 1.2453032728987201,
+          "finite_W": 1.2527217098967736,
+          "infinite_W": 1.2392875548161508,
+          "finite_absolute_error": 0.007418436998053446,
+          "infinite_absolute_error": -0.006015718082569288,
+          "finite_fractional_error": 0.0059571328201727,
+          "infinite_fractional_error": -0.0048307253449726886
+        },
+        {
+          "theta1_deg": 90,
+          "exact_W": 1.3712266796148378,
+          "finite_W": 1.379395997756203,
+          "infinite_W": 1.354980468750002,
+          "finite_absolute_error": 0.008169318141365123,
+          "infinite_absolute_error": -0.016246210864835797,
+          "finite_fractional_error": 0.005957671523471081,
+          "infinite_fractional_error": -0.011847939590410519
+        },
+        {
+          "theta1_deg": 105,
+          "exact_W": 1.242402588265186,
+          "finite_W": 1.2520478787790503,
+          "infinite_W": 1.2392875548161508,
+          "finite_absolute_error": 0.009645290513864424,
+          "infinite_absolute_error": -0.003115033449035076,
+          "finite_fractional_error": 0.0077634179169994415,
+          "infinite_fractional_error": -0.0025072657433728596
+        },
+        {
+          "theta1_deg": 120,
+          "exact_W": 1.0038235906645403,
+          "finite_W": 1.0064724530836249,
+          "infinite_W": 1.0108947753906268,
+          "finite_absolute_error": 0.0026488624190845744,
+          "infinite_absolute_error": 0.007071184726086477,
+          "finite_fractional_error": 0.002638772831918608,
+          "infinite_fractional_error": 0.007044250396033519
+        },
+        {
+          "theta1_deg": 135,
+          "exact_W": 0.9233479114235695,
+          "finite_W": 0.9113643242031825,
+          "infinite_W": 0.9063720703125017,
+          "finite_absolute_error": -0.01198358722038706,
+          "infinite_absolute_error": -0.01697584111106787,
+          "finite_fractional_error": -0.012978409407902803,
+          "infinite_fractional_error": -0.018385097210969377
+        },
+        {
+          "theta1_deg": 150,
+          "exact_W": 1.115995838105822,
+          "finite_W": 1.0934282305213516,
+          "infinite_W": 1.041412353515627,
+          "finite_absolute_error": -0.022567607584470295,
+          "infinite_absolute_error": -0.07458348459019493,
+          "finite_fractional_error": -0.020221946009022992,
+          "infinite_fractional_error": -0.06683132861569212
+        },
+        {
+          "theta1_deg": 165,
+          "exact_W": 1.419673233761294,
+          "finite_W": 1.4022080208885637,
+          "infinite_W": 1.2921455506526036,
+          "finite_absolute_error": -0.017465212872730396,
+          "infinite_absolute_error": -0.12752768310869045,
+          "finite_fractional_error": -0.01230227664887216,
+          "infinite_fractional_error": -0.08982889870425854
+        },
+        {
+          "theta1_deg": 180,
+          "exact_W": 1.5490788105919688,
+          "finite_W": 1.5520735332996365,
+          "infinite_W": 1.4160156250000027,
+          "finite_absolute_error": 0.002994722707667652,
+          "infinite_absolute_error": -0.13306318559196617,
+          "finite_fractional_error": 0.0019332281141482021,
+          "infinite_fractional_error": -0.08589826720379519
+        }
+      ],
+      "max_abs_error_finite": 0.03539941740564201,
+      "max_abs_error_infinite": 0.13306318559196617,
+      "max_abs_fractional_error_finite": 0.03347430284798632,
+      "max_abs_fractional_error_infinite": 0.08982889870425854
+    },
+    {
+      "initial_J": 20,
+      "first_delta_J": 2,
+      "first_L": 2,
+      "points": [
+        {
+          "theta1_deg": 0,
+          "exact_W": 1.436626436626437,
+          "finite_W": 1.4397024720884022,
+          "infinite_W": 1.4160156250000016,
+          "finite_absolute_error": 0.003076035461965221,
+          "infinite_absolute_error": -0.02061081162643541,
+          "finite_fractional_error": 0.002141151926167064,
+          "infinite_fractional_error": -0.014346674334376598
+        },
+        {
+          "theta1_deg": 15,
+          "exact_W": 1.4424663483092115,
+          "finite_W": 1.4447914191697735,
+          "infinite_W": 1.413865643911984,
+          "finite_absolute_error": 0.002325070860561995,
+          "infinite_absolute_error": -0.028600704397227394,
+          "finite_fractional_error": 0.0016118718216805055,
+          "infinite_fractional_error": -0.019827640645309848
+        },
+        {
+          "theta1_deg": 30,
+          "exact_W": 1.4233952955798737,
+          "finite_W": 1.4297901234135442,
+          "infinite_W": 1.386070251464846,
+          "finite_absolute_error": 0.006394827833670513,
+          "infinite_absolute_error": -0.037325044115027683,
+          "finite_fractional_error": 0.004492657699184919,
+          "infinite_fractional_error": -0.02622254283889699
+        },
+        {
+          "theta1_deg": 45,
+          "exact_W": 1.325523786461286,
+          "finite_W": 1.3410510308213828,
+          "infinite_W": 1.2962341308593772,
+          "finite_absolute_error": 0.01552724436009667,
+          "infinite_absolute_error": -0.02928965560190888,
+          "finite_fractional_error": 0.011714044303610215,
+          "infinite_fractional_error": -0.022096665409605858
+        },
+        {
+          "theta1_deg": 60,
+          "exact_W": 1.1505691851441582,
+          "finite_W": 1.1735824747288752,
+          "infinite_W": 1.146507263183596,
+          "finite_absolute_error": 0.023013289584717045,
+          "infinite_absolute_error": -0.004061921960562209,
+          "finite_fractional_error": 0.020001656468692616,
+          "infinite_fractional_error": -0.0035303587241937817
+        },
+        {
+          "theta1_deg": 75,
+          "exact_W": 0.9799027732786602,
+          "finite_W": 1.0011554237186928,
+          "infinite_W": 0.998930376595832,
+          "finite_absolute_error": 0.02125265044003266,
+          "infinite_absolute_error": 0.019027603317171793,
+          "finite_fractional_error": 0.021688529739459093,
+          "infinite_fractional_error": 0.019417848215193094
+        },
+        {
+          "theta1_deg": 90,
+          "exact_W": 0.9182540432540435,
+          "finite_W": 0.927638705943929,
+          "infinite_W": 0.9368896484375021,
+          "finite_absolute_error": 0.009384662689885581,
+          "infinite_absolute_error": 0.018635605183458637,
+          "finite_fractional_error": 0.010220115837038822,
+          "infinite_fractional_error": 0.02029460727166428
+        },
+        {
+          "theta1_deg": 105,
+          "exact_W": 1.0066489501344416,
+          "finite_W": 1.001500301424072,
+          "infinite_W": 0.9989303765958318,
+          "finite_absolute_error": -0.005148648710369574,
+          "infinite_absolute_error": -0.007718573538609719,
+          "finite_fractional_error": -0.00511464171266652,
+          "infinite_fractional_error": -0.00766759210107841
+        },
+        {
+          "theta1_deg": 120,
+          "exact_W": 1.1869098124910895,
+          "finite_W": 1.1740511510784646,
+          "infinite_W": 1.1465072631835955,
+          "finite_absolute_error": -0.012858661412624928,
+          "infinite_absolute_error": -0.040402549307493985,
+          "finite_fractional_error": -0.010833730817034138,
+          "infinite_fractional_error": -0.034040117355418106
+        },
+        {
+          "theta1_deg": 135,
+          "exact_W": 1.3517363126738124,
+          "finite_W": 1.341389255007275,
+          "infinite_W": 1.296234130859377,
+          "finite_absolute_error": -0.01034705766653743,
+          "infinite_absolute_error": -0.05550218181443545,
+          "finite_fractional_error": -0.0076546420847941506,
+          "infinite_fractional_error": -0.04105991774730748
+        },
+        {
+          "theta1_deg": 150,
+          "exact_W": 1.4324560954277683,
+          "finite_W": 1.4299072685382685,
+          "infinite_W": 1.3860702514648455,
+          "finite_absolute_error": -0.0025488268894997557,
+          "infinite_absolute_error": -0.04638584396292278,
+          "finite_fractional_error": -0.0017793403215884324,
+          "infinite_fractional_error": -0.03238203538033797
+        },
+        {
+          "theta1_deg": 165,
+          "exact_W": 1.4419326976659563,
+          "finite_W": 1.4447847656502872,
+          "infinite_W": 1.4138656439119843,
+          "finite_absolute_error": 0.0028520679843309082,
+          "infinite_absolute_error": -0.028067053753972004,
+          "finite_fractional_error": 0.0019779480616172484,
+          "infinite_fractional_error": -0.019464884733804772
+        },
+        {
+          "theta1_deg": 180,
+          "exact_W": 1.4366264366264374,
+          "finite_W": 1.4397024720884022,
+          "infinite_W": 1.4160156250000018,
+          "finite_absolute_error": 0.0030760354619647767,
+          "infinite_absolute_error": -0.020610811626435632,
+          "finite_fractional_error": 0.002141151926166754,
+          "infinite_fractional_error": -0.014346674334376747
+        }
+      ],
+      "max_abs_error_finite": 0.023013289584717045,
+      "max_abs_error_infinite": 0.05550218181443545,
+      "max_abs_fractional_error_finite": 0.021688529739459093,
+      "max_abs_fractional_error_infinite": 0.04105991774730748
+    }
+  ],
+  "quadrature_max_difference": 2.886579864025407e-15,
+  "Eq10_algebra_vs_Eq12_axis_integral_max_difference": 1.7763568394002505e-15,
+  "finite_B_classical_axis_boundary": {
+    "J": 20,
+    "M": 0,
+    "B2": -1.119033572310083,
+    "formal_P2_moment_B2_over_sqrt5": -0.5004470273579544,
+    "independent_quadrupole_formula": -0.5004470273579544,
+    "positive_classical_axis_P2_lower_bound": -0.5,
+    "interpretation": "Exact finite-spin tensor cannot simply be read as the moments of a positive classical unit-axis probability; the finite-spin Eq10 substitution remains formal."
+  },
+  "rounding_matches": {
+    "exact": 6,
+    "infinite": 2,
+    "finite_improvement": 1
+  },
+  "scientific_boundary": "All results use stated point/Gaussian or complete-alignment inputs; neither printed values nor producer provenance are refitted.",
+  "all_internal_checks_passed": true
+}

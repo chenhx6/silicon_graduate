@@ -1,0 +1,386 @@
+{
+  "identity": "DAY16-N178-SAME-PARENT-REFERENCE-01",
+  "input_sha256": "ff6533995ce9eaf83a3854380d67f2b3523659f271451afe242be215bef3f9f2",
+  "script_sha256": "a38257c08c91779547b462d3880447f0c0e822cc46e7ba8f87766bd951d05468",
+  "same_parent_checks": [
+    {
+      "pair": "137-225",
+      "source_target": {
+        "line": 117,
+        "energy_keV": 137.34,
+        "energy_uncertainty_keV": 0.05,
+        "parent": {
+          "line": 116,
+          "energy_text": "1965.20",
+          "energy_keV": 1965.2,
+          "Jpi_literal": "(9-)",
+          "raw": "178W   L 1965.20   11(9-)                                                   F   ",
+          "comments": []
+        },
+        "multipolarity_literal": "M1,E2",
+        "MR_literal": "",
+        "MR_uncertainty_literal": "",
+        "CC": 1.5,
+        "CC_uncertainty": 0.4,
+        "RI": 8.4,
+        "RI_uncertainty": 0.5,
+        "RI_field": "     8.4",
+        "RI_uncertainty_field": " 5",
+        "raw": "178W   G 137.34    5      8.4 5M1,E2                   1.5    4                 ",
+        "comments": [
+          {
+            "line": 118,
+            "text": "178W  cG M$A{-2}=-0.64 {I5}, A{-4}=0.06 {I5}                                    "
+          }
+        ]
+      },
+      "source_reference": {
+        "line": 119,
+        "energy_keV": 225.83,
+        "energy_uncertainty_keV": 0.05,
+        "parent": {
+          "line": 116,
+          "energy_text": "1965.20",
+          "energy_keV": 1965.2,
+          "Jpi_literal": "(9-)",
+          "raw": "178W   L 1965.20   11(9-)                                                   F   ",
+          "comments": []
+        },
+        "multipolarity_literal": "E2",
+        "MR_literal": "",
+        "MR_uncertainty_literal": "",
+        "CC": 0.206,
+        "CC_uncertainty": null,
+        "RI": 3.5,
+        "RI_uncertainty": 0.2,
+        "RI_field": "     3.5",
+        "RI_uncertainty_field": " 2",
+        "raw": "178W   G 225.83    5      3.5 2E2                      0.206                    ",
+        "comments": [
+          {
+            "line": 120,
+            "text": "178W  cG M$A{-2}=0.30 {I3}, A{-4}=-0.04 {I4}                                    "
+          }
+        ]
+      },
+      "F2_target_M1_E2_matrix": [
+        [
+          0.26196841599779186,
+          -0.9074852129730303
+        ],
+        [
+          -0.9074852129730303,
+          0.07484811885651203
+        ]
+      ],
+      "F2_reference_pure_E2": -0.3742405942825599,
+      "Qratio_one_intrinsic_ratio_range": [
+        -2.8877243486497814,
+        1.9877243486497809
+      ],
+      "observed_central_ratio": -2.1333333333333333,
+      "central_all_roots_D96": [
+        {
+          "d": -2.16624583689044,
+          "atan_d_deg": -65.22062449101335
+        },
+        {
+          "d": -0.34224153958862197,
+          "atan_d_deg": -18.893077062383423
+        }
+      ],
+      "necessary_positive_s2_for_central": 0.7387593398001508,
+      "ratio_at_assumed_D96_d_minus1point9": -2.3072690447432596,
+      "quoted_margin_checks": [
+        {
+          "quoted_margin_scale": 1,
+          "ratio_rectangle_image": [
+            -2.555555555555556,
+            -1.787878787878788
+          ],
+          "atan_d_preimage_degrees": [
+            [
+              -70.41370479854267,
+              -57.187385264831555
+            ],
+            [
+              -26.926316288568504,
+              -13.699996754857395
+            ]
+          ],
+          "necessary_positive_s2_for_any_margin_value": 0.6191306967075129,
+          "confidence_level": null
+        },
+        {
+          "quoted_margin_scale": 2,
+          "ratio_rectangle_image": [
+            -3.0833333333333335,
+            -1.5000000000000002
+          ],
+          "atan_d_preimage_degrees": [
+            [
+              -74.29991556292974,
+              -9.813785990464595
+            ]
+          ],
+          "necessary_positive_s2_for_any_margin_value": 0.5194401607969812,
+          "confidence_level": null
+        }
+      ],
+      "sourceF_vs_photon_max_error": 4.440892098500626e-16,
+      "boundary": "No sigma fitted. s2=1 and matched same-parent coefficient layer are conditional. No experimental confidence or new measured mixing ratio."
+    },
+    {
+      "pair": "169-306",
+      "source_target": {
+        "line": 132,
+        "energy_keV": 168.71,
+        "energy_uncertainty_keV": 0.05,
+        "parent": {
+          "line": 131,
+          "energy_text": "2133.93",
+          "energy_keV": 2133.93,
+          "Jpi_literal": "(10-)",
+          "raw": "178W   L 2133.93   11(10-)                                                  F   ",
+          "comments": []
+        },
+        "multipolarity_literal": "M1,E2",
+        "MR_literal": "",
+        "MR_uncertainty_literal": "",
+        "CC": 0.8,
+        "CC_uncertainty": 0.3,
+        "RI": 3.6,
+        "RI_uncertainty": 0.2,
+        "RI_field": "     3.6",
+        "RI_uncertainty_field": " 2",
+        "raw": "178W   G 168.71    5      3.6 2M1,E2                   0.8    3                 ",
+        "comments": [
+          {
+            "line": 133,
+            "text": "178W  cG M$A{-2}=-0.79 {I4}, A{-4}=0.04 {I5}                                    "
+          }
+        ]
+      },
+      "source_reference": {
+        "line": 134,
+        "energy_keV": 306.05,
+        "energy_uncertainty_keV": 0.05,
+        "parent": {
+          "line": 131,
+          "energy_text": "2133.93",
+          "energy_keV": 2133.93,
+          "Jpi_literal": "(10-)",
+          "raw": "178W   L 2133.93   11(10-)                                                  F   ",
+          "comments": []
+        },
+        "multipolarity_literal": "E2",
+        "MR_literal": "",
+        "MR_uncertainty_literal": "",
+        "CC": 0.0801,
+        "CC_uncertainty": null,
+        "RI": 5.74,
+        "RI_uncertainty": 0.03,
+        "RI_field": "    5.74",
+        "RI_uncertainty_field": " 3",
+        "raw": "178W   G 306.05    5     5.74 3E2                      0.0801                   ",
+        "comments": [
+          {
+            "line": 135,
+            "text": "178W  cG M$A{-2}=0.22 {I4}                                                      "
+          }
+        ]
+      },
+      "F2_target_M1_E2_matrix": [
+        [
+          0.25802896614221627,
+          -0.9039387496716224
+        ],
+        [
+          -0.9039387496716221,
+          0.08377563835786239
+        ]
+      ],
+      "F2_reference_pure_E2": -0.36861280877459485,
+      "Qratio_one_intrinsic_ratio_range": [
+        -2.9272727272727286,
+        2.0000000000000013
+      ],
+      "observed_central_ratio": -3.5909090909090913,
+      "central_all_roots_D96": [],
+      "necessary_positive_s2_for_central": 1.226708074534161,
+      "ratio_at_assumed_D96_d_minus1point9": -2.3512119104268936,
+      "quoted_margin_checks": [
+        {
+          "quoted_margin_scale": 1,
+          "ratio_rectangle_image": [
+            -4.611111111111112,
+            -2.8846153846153846
+          ],
+          "atan_d_preimage_degrees": [
+            [
+              -47.58607490021592,
+              -36.90844489192649
+            ]
+          ],
+          "necessary_positive_s2_for_any_margin_value": 0.985427615862398,
+          "confidence_level": null
+        },
+        {
+          "quoted_margin_scale": 2,
+          "ratio_rectangle_image": [
+            -6.2142857142857135,
+            -2.366666666666667
+          ],
+          "atan_d_preimage_degrees": [
+            [
+              -61.960157854657524,
+              -22.534361937484896
+            ]
+          ],
+          "necessary_positive_s2_for_any_margin_value": 0.8084886128364387,
+          "confidence_level": null
+        }
+      ],
+      "sourceF_vs_photon_max_error": 5.551115123125783e-16,
+      "boundary": "No sigma fitted. s2=1 and matched same-parent coefficient layer are conditional. No experimental confidence or new measured mixing ratio."
+    }
+  ],
+  "typed_crosswalk": {
+    "CC_not_MR": {
+      "line": 132,
+      "energy_keV": 168.71,
+      "energy_uncertainty_keV": 0.05,
+      "parent": {
+        "line": 131,
+        "energy_text": "2133.93",
+        "energy_keV": 2133.93,
+        "Jpi_literal": "(10-)",
+        "raw": "178W   L 2133.93   11(10-)                                                  F   ",
+        "comments": []
+      },
+      "multipolarity_literal": "M1,E2",
+      "MR_literal": "",
+      "MR_uncertainty_literal": "",
+      "CC": 0.8,
+      "CC_uncertainty": 0.3,
+      "RI": 3.6,
+      "RI_uncertainty": 0.2,
+      "RI_field": "     3.6",
+      "RI_uncertainty_field": " 2",
+      "raw": "178W   G 168.71    5      3.6 2M1,E2                   0.8    3                 ",
+      "comments": [
+        {
+          "line": 133,
+          "text": "178W  cG M$A{-2}=-0.79 {I4}, A{-4}=0.04 {I5}                                    "
+        }
+      ]
+    },
+    "weak_RI_fixed_fields": {
+      "line": 194,
+      "energy_keV": 1089.7,
+      "energy_uncertainty_keV": 0.1,
+      "parent": {
+        "line": 192,
+        "energy_text": "3054.89",
+        "energy_keV": 3054.89,
+        "Jpi_literal": "",
+        "raw": "178W   L 3054.89   14                                                           ",
+        "comments": []
+      },
+      "multipolarity_literal": "",
+      "MR_literal": "",
+      "MR_uncertainty_literal": "",
+      "CC": null,
+      "CC_uncertainty": null,
+      "RI": 1.3,
+      "RI_uncertainty": 1.4,
+      "RI_field": "     1.3",
+      "RI_uncertainty_field": "14",
+      "raw": "178W   G     1089.7 1     1.314                                                 ",
+      "comments": []
+    },
+    "oxygen_target": {
+      "line": 89,
+      "energy_keV": 920.9,
+      "energy_uncertainty_keV": null,
+      "parent": {
+        "line": 87,
+        "energy_text": "3055.2",
+        "energy_keV": 3055.2,
+        "Jpi_literal": "(11)",
+        "raw": "178W   L 3055.2    20      (11)                                             X   ",
+        "comments": []
+      },
+      "multipolarity_literal": "D",
+      "MR_literal": "",
+      "MR_uncertainty_literal": "",
+      "CC": null,
+      "CC_uncertainty": null,
+      "RI": null,
+      "RI_uncertainty": null,
+      "RI_field": "        ",
+      "RI_uncertainty_field": "  ",
+      "raw": "178W   G      920.9                D                                        Y   ",
+      "comments": []
+    },
+    "adopted_target": {
+      "line": 515,
+      "energy_keV": 920.8,
+      "energy_uncertainty_keV": 0.1,
+      "parent": {
+        "line": 503,
+        "energy_text": "3053.81",
+        "energy_keV": 3053.81,
+        "Jpi_literal": "11-",
+        "raw": "178W   L 3053.81   1311-               2 NS      LT                             ",
+        "comments": [
+          {
+            "line": 504,
+            "text": "178W X L XREF=CDFG                                                              "
+          },
+          {
+            "line": 505,
+            "text": "178W  cL J         From |g-ray DCO ratios in {+164}Dy({+18}O,4n|g).             "
+          },
+          {
+            "line": 506,
+            "text": "178W  cL J         921|g M1+E2 to 10-, 1090|g E2 to 9-.                         "
+          },
+          {
+            "line": 507,
+            "text": "178W  cL           K|p=11-.                                                     "
+          },
+          {
+            "line": 508,
+            "text": "178W 2cL Configuration=|n(1/2[521]5/2[512]7/2[514]9/2[624])                     "
+          }
+        ]
+      },
+      "multipolarity_literal": "M1+E2",
+      "MR_literal": "",
+      "MR_uncertainty_literal": "",
+      "CC": 0.009,
+      "CC_uncertainty": 0.004,
+      "RI": 79.0,
+      "RI_uncertainty": 5.0,
+      "RI_field": "79      ",
+      "RI_uncertainty_field": " 5",
+      "raw": "178W   G 920.8     1 79       5M1+E2                   0.009  4                 ",
+      "comments": []
+    },
+    "near137_energy_only_ambiguity": [
+      {
+        "energy": 137.0,
+        "parent_energy": 1875.7,
+        "line": 307
+      },
+      {
+        "energy": 136.9,
+        "parent_energy": 1964.46,
+        "line": 326
+      }
+    ]
+  },
+  "raw_storage_boundary": "Public text objects remain in repository tmp; raw archive untouched. Exact excerpts/provenance must be preserved in the source page.",
+  "all_internal_checks_passed": true
+}

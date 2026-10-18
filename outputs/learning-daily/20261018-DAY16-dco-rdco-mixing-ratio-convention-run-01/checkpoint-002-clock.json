@@ -1,0 +1,11 @@
+{
+  "current_time_UTC": "2026-10-18T04:00:09Z",
+  "now_local": "2026-10-18T12:00:09+08:00",
+  "timezone": "Asia/Shanghai",
+  "original_hard_deadline": "2026-10-19T15:00:00+08:00",
+  "minutes_to_deadline": 1619.85,
+  "decision": "continue-current",
+  "basis": "clock tool converted to Asia/Shanghai; original receipt unchanged",
+  "next_route": "matched K-shell theory and actual primary calibration",
+  "next_day_preview_started": false
+}

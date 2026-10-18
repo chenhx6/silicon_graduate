@@ -21,7 +21,7 @@ updated: 2026-10-18
 - partial_day_indices: [16]
 - Day 16 card audit: partial
 
-原始回执为[run.json](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/run.json)，本次按用户指定固定日报路径保留文件名中的20261017；实际run_date与截止按runner注入的20261018回执，不从旧预备段落延长或缩短。课程仍next16/count15。Day15 partial16、旧分数、旧程序检查不计本session学分；没有开展Day17科学预习或Day18。
+原始回执为[run.json](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/run.json)，本次按用户指定固定日报路径保留文件名中的20261017；实际run_date与截止按runner注入的20261018回执，不从旧预备段落延长或缩短。课程仍next16/count15。Day15 partial16、旧分数、旧程序检查不计本session学分；没有开展Day17科学预习或Day18。首个科学checkpoint已发布到Gitee，原run/goal继续active，学分仍未授予。
 
 启动已核README/index/profile/PLAN/active handoff、学习workflow、三份计划与矩阵Day16。入口工作树存在旧Day8/9/13/14/15回执、log和daemon脚本修改；[entry-baseline.json](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/entry-baseline.json)保存完整状态、620份knowledge快照与保护文件hash。首写前boundary exit0；EOL清理在首批回执/回忆写入之后、科学写入之前执行，恢复0份、index为空，明确这一执行顺序，不伪称所有H1步骤均在第一次输出写入前完成。
 
@@ -53,7 +53,7 @@ updated: 2026-10-18
 | 135Pr/129Ba真实response/Σ | 核心影响高，但Day15已记录缺口；重复toy或原样重试终态失败不增加信息 | 保留候选，需新可用primary/数据才提升 |
 | Day17 P/A/Q与真实polarimeter response | 下一张卡已在矩阵中看见；目前未开展科学预习 | 当前问题饱和后才按时间门考虑恰好一张无学分预习 |
 
-本轮没有再开第二个独立核素研究槽位。当前问题尚有Dors原件及BT87 approximation路线，不满足提前关闭条件。最近时钟为上海10月18日10:55:30，距离原硬截止仍约1684.5分钟；这只是checkpoint。
+本轮没有再开第二个独立核素研究槽位。当前问题尚有Dors原件及BT87 approximation路线，不满足提前关闭条件。最新checkpoint时钟为2026-10-18T12:00:09+08:00，距原硬截止约1619.85分钟；原截止不改，当前K-shell/primary路线仍有信息增益，继续研究。
 
 ## Sources and evidence
 
@@ -62,9 +62,11 @@ updated: 2026-10-18
 | [D96](../../knowledge/sources/droste-1996-pdco-formalism.md) | 8页全文主线；原图printed519/520/521/524及geometry/σ/结论；DR96-4/5/6 | formalism/作者模型，不是新实验；FORTRAN未得 |
 | [KS70](../../knowledge/sources/krane-steffen-1970-cd110-mixing-ratios.md) | 11页全文主线；原图Eq3/4/5/9–12、Fig4/TableI–III/Fig5 | 110Cd Ge(Li)实验与定义；25个correlations不是25个独立实验 |
 | [KF89](../../knowledge/sources/kramer-flecken-1989-use-dco-ratios.md) | 7页全文主线；原图定义/Table1/Fig6/7/8、实测两行和References | 178W OSIRIS实验；两门、强度比和处理共享数据，reference另导入旧文 |
+| [BT87](../../knowledge/sources/bargholtz-1987-high-spin-gamma-gamma-directional-correlations.md) | 8页完整主线和Eq7/10/12、Fig2/Table1原图 | 高自旋近似/方法验证，与KF89引用有理论谱系，非独立实验 |
+| [NNDC178W](../../knowledge/sources/nndc-2009-178w-dco-reference-records.md) | 四个官方选定对象/固定栏与所选AD/Kexp记录 | 评价转述旧采集，不计新实验；raw归档/Bib缺口保留 |
 | Dors1979 | Crossref核六作者、NPA314(1)61–79、DOI10.1016/0375-9474(79)90555-4；全文未取得 | 元数据可定位177Hf(α,3nγ)，不据题名补写δ定义或当新增实证 |
 
-三份实际raw的SHA-256分别与source页匹配；KF89存大写hex，首个提取器因case-sensitive比较退出1，归一hex大小写后确认同一hash，raw未改。渲染与OCR均在`tmp/day16-source-reading/`；无raw/PLAN/Bib写入。Crossref题名/作者/年份/卷页是外部元数据核对，不替代原件数值和locator。
+四份实际raw的SHA-256分别与source页匹配；KF89存大写hex，首个提取器因case-sensitive比较退出1，归一hex大小写后确认同一hash，raw未改。渲染与OCR均在`tmp/day16-source-reading/`；无raw/PLAN/Bib写入。Crossref题名/作者/年份/卷页是外部元数据核对，不替代原件数值和locator。
 
 实测摘要新写KF89-15–18，均needs_review:true。原KF89 page human-reviewed及所有旧claim flags保留；这次self-audit不冒充人审。
 
@@ -77,6 +79,26 @@ updated: 2026-10-18
 用二次型的generalized eigenvalues检查完整R范围，用projective α=atan d求全部根，不用单optimizer选支。两quoted-margin rectangle在声明ref d=−1.9时仍留下两段；不称置信区间。literal-HWHM和仅改reference符号均按冻结配置作为诊断，未调σ/参考去强求作者支。
 
 本session原图确认KS70 Eq4b前有负号，结合Eq9的正√3/10比例，核D96/KS70同BM条件下d相同。first B与second A的干涉符号、历史Biedenharn–Rose与Rose–Brink身份、裸T比与normalized δ逐项保留。S同时变换参数和kernels使R差0；只改参数时mixed R最大差3.66而pure仍过。新spin11→10的F/photons差1.11e−15，完整D96 tensor/trace24个比较差≤1.22e−17 sr⁻²；共享基础函数，不算独立实验或producer。
+
+### 后续：高自旋factorization没有解释原表差异
+
+来源前[BT87假设冻结](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/bt87-before-source-recall.json)明确已受摘要/Ref6 priming；随后完整读printed513–520八页，核Eq1–16/Table1/Fig2/AppendixA-B。新[固定输入](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/bt87-factorization-input.json)和[计算结果](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/bt87-factorization-audit.json)由[新脚本](../../system/scripts/day16_bt87_factorization_audit.py)产生。没有改σ/角度/印表或拟合reference。
+
+[BT87来源](../../knowledge/sources/bargholtz-1987-high-spin-gamma-gamma-directional-correlations.md) BT87-4：finite improvement只把ordinary A/B换exact，joint仍factorized。Eq10 harmonic contraction与Eq12轴积分差1.78e−15，两个quadrature差2.89e−15；无限spin五个A2/A4印值校验通过。KF89十行的舍入相容计数为exact6/10、infinite2/10、finite improvement1/10，原四项差异均未由这些近似解决。有限改进还将10→8→6/E2-E2的exact R1变成1.0137425；不是所有ordinary系数改进都保全joint交换不变量。[angular-correlation知识页](../../knowledge/methods/angular-correlation.md)保存公式、数值及限制。
+
+Fig2条件的13个角采样显示I20 finite改进absolute W误差较小，不能称全角误差上界；angular node附近infinite W0对exact小非零会给100%relative误差，不据此反驳源的absolute W比较。另从exact B2与独立quadrupole式核J20/M0的形式轴矩−.500447027，越过正经典unit-axis分布的P2下界−.5；finite moment substitution不能被当作实测正经典P(Ωs)。决定limits最初“用近似解释原表差异”的假设，停止这套固定网格的参数尝试，转回primary/producer与NNDC谱系输入。
+
+### 后续：官方178W评价对象与同母态参考
+
+通过普通ENSDF首页session初始化后取得[四对象manifest](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/n178-public-objects-manifest.json)：178074001/004/006/005，均200907 header、2008cutoff，检索日不当新实验年份。004/006分别回指1989KR01/1979DO02，005混收1998Pu01/1999Cu02，adopted E/RI默认来自13C数据。
+
+[canonical source](../../knowledge/sources/nndc-2009-178w-dco-reference-records.md)保留原行/field空白和scope：18O102行与alpha223行主线读完；adopted1434行及13C1028行只核header/global rules/所选parent-gamma。未通读216页NDS或取得Dors/Purry完整primary。原始快照在repo tmp；保持raw不变，新增raw归档槽位未填充、Bib key无唯一命中，两项缺口不能当论文ready。
+
+[冻结v1](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/n178-reference-input.json)先于数值；[v1结果](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/n178-reference-audit.json)与[新脚本](../../system/scripts/day16_ensdf178_reference_audit.py)核MR/CC/RI固定栏和parent identity。137.34/225.83的同母态A2 central比在声明same-layer、pureE2 reference、s2=Q2t/Q2r=1条件下给d=−2.16625或−.342242。169/306 central比−3.59091超全δ范围[−2.92727,2]，但一倍quoted边界的ratio像已相交；不能由central无根称源数据矛盾。未调σ或Q强配旧平均−1.9，也不叫新MR/置信区间。
+
+更重要的新companion是N178-12：同一921-keV目标的explicit alphaKexp=.0067(.0011)，同母态1090参考为.0031(.0005)，来自1998Pu01缺省层；[独立冻结v2](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/n178-reference-input-v2.json)和[v2 typed audit](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/n178-reference-audit-v2.json)核K-shell实验标记、空MR及实际母态。它们不是total CC .009(.004)/.00380；还缺primary的electron/photon calibration、门/峰分解、Q/efficiency/Σ与匹配理论K系数。1998Pu01已由官方Refs/Crossref定位Purry等NPA632,229–274(1998)，DOI10.1016/S0375-9474(97)00654-4，目前元数据不当46页已读。
+
+原169附近另有来自18-母态的168.0，和10-母态168.3共享literal A2=−.67且均无error；原峰分解未核，不能计两次独立校准。alpha对象RI125度以及1089.7的1.3±1.4 fixed-field precision同样保留，拒绝把邻近CC数读成δ或把不同反应RI平均成新branch。
 
 ## Counter-evidence and missing companion observables
 
@@ -101,39 +123,220 @@ canonical [178W知识单](../../knowledge/research-notes/w178-921-dco-gate-doubl
       "summary": "新建178W921实测双支计算单，保留门角色、倒数与Cov、条件矩阵全根、相位控制及producer边界。",
       "anchor": "delta-double-solution-sheet：先固定实测对象",
       "sources": [
-        {"path": "knowledge/sources/kramer-flecken-1989-use-dco-ratios.md", "locator": "KF89-15"},
-        {"path": "knowledge/sources/kramer-flecken-1989-use-dco-ratios.md", "locator": "KF89-16"},
-        {"path": "knowledge/sources/kramer-flecken-1989-use-dco-ratios.md", "locator": "KF89-17"},
-        {"path": "knowledge/sources/kramer-flecken-1989-use-dco-ratios.md", "locator": "KF89-18"},
-        {"path": "knowledge/sources/droste-1996-pdco-formalism.md", "locator": "DR96-5"},
-        {"path": "knowledge/sources/krane-steffen-1970-cd110-mixing-ratios.md", "locator": "KS70-6"},
-        {"path": "knowledge/sources/krane-steffen-1970-cd110-mixing-ratios.md", "locator": "KS70-13"},
-        {"path": "knowledge/sources/rose-brink-1967-phase-defined-angular-distributions.md", "locator": "RB67-6"}
+        {
+          "path": "knowledge/sources/kramer-flecken-1989-use-dco-ratios.md",
+          "locator": "KF89-15"
+        },
+        {
+          "path": "knowledge/sources/kramer-flecken-1989-use-dco-ratios.md",
+          "locator": "KF89-16"
+        },
+        {
+          "path": "knowledge/sources/kramer-flecken-1989-use-dco-ratios.md",
+          "locator": "KF89-17"
+        },
+        {
+          "path": "knowledge/sources/kramer-flecken-1989-use-dco-ratios.md",
+          "locator": "KF89-18"
+        },
+        {
+          "path": "knowledge/sources/droste-1996-pdco-formalism.md",
+          "locator": "DR96-5"
+        },
+        {
+          "path": "knowledge/sources/krane-steffen-1970-cd110-mixing-ratios.md",
+          "locator": "KS70-6"
+        },
+        {
+          "path": "knowledge/sources/krane-steffen-1970-cd110-mixing-ratios.md",
+          "locator": "KS70-13"
+        },
+        {
+          "path": "knowledge/sources/rose-brink-1967-phase-defined-angular-distributions.md",
+          "locator": "RB67-6"
+        },
+        {
+          "path": "knowledge/sources/bargholtz-1987-high-spin-gamma-gamma-directional-correlations.md",
+          "locator": "BT87-6"
+        },
+        {
+          "path": "knowledge/sources/nndc-2009-178w-dco-reference-records.md",
+          "locator": "N178-3"
+        },
+        {
+          "path": "knowledge/sources/nndc-2009-178w-dco-reference-records.md",
+          "locator": "N178-4"
+        },
+        {
+          "path": "knowledge/sources/nndc-2009-178w-dco-reference-records.md",
+          "locator": "N178-5"
+        },
+        {
+          "path": "knowledge/sources/nndc-2009-178w-dco-reference-records.md",
+          "locator": "N178-10"
+        },
+        {
+          "path": "knowledge/sources/nndc-2009-178w-dco-reference-records.md",
+          "locator": "N178-12"
+        }
       ]
     },
     {
       "knowledge": "knowledge/sources/kramer-flecken-1989-use-dco-ratios.md",
       "summary": "本session重新核7页主线，新增四项实测双候选、强度prior、参考编号冲突和response边界；旧review不动。",
       "anchor": "2026-10-18独立Day16复核：921-keV实测双候选",
-      "sources": [{"path": "knowledge/sources/kramer-flecken-1989-use-dco-ratios.md", "locator": "KF89-15"}]
+      "sources": [
+        {
+          "path": "knowledge/sources/kramer-flecken-1989-use-dco-ratios.md",
+          "locator": "KF89-15"
+        },
+        {
+          "path": "knowledge/sources/kramer-flecken-1989-use-dco-ratios.md",
+          "locator": "KF89-19"
+        },
+        {
+          "path": "knowledge/sources/nndc-2009-178w-dco-reference-records.md",
+          "locator": "N178-6"
+        }
+      ]
     },
     {
       "knowledge": "knowledge/methods/dco-ratio.md",
       "summary": "加入同一target在两数据行中的gate角色及非对称倒数误差实例。",
       "anchor": "同一target在两组数据中的gate角色",
-      "sources": [{"path": "knowledge/sources/kramer-flecken-1989-use-dco-ratios.md", "locator": "KF89-15"}]
+      "sources": [
+        {
+          "path": "knowledge/sources/kramer-flecken-1989-use-dco-ratios.md",
+          "locator": "KF89-15"
+        }
+      ]
     },
     {
       "knowledge": "knowledge/methods/dco-pdco-ambiguity-worksheet.md",
       "summary": "将本session178W新交付与Day15预习分开，增加canonical反链。",
       "anchor": "独立正式Day16的新实测对象",
-      "sources": [{"path": "knowledge/sources/kramer-flecken-1989-use-dco-ratios.md", "locator": "KF89-15"}]
+      "sources": [
+        {
+          "path": "knowledge/sources/kramer-flecken-1989-use-dco-ratios.md",
+          "locator": "KF89-15"
+        }
+      ]
     },
     {
       "knowledge": "knowledge/index.md",
       "summary": "最小索引新增178W921计算单导航，不添加独立科学结论。",
       "anchor": "w178-921-dco-gate-double-solutions",
-      "sources": [{"path": "knowledge/sources/kramer-flecken-1989-use-dco-ratios.md", "locator": "KF89-15"}]
+      "sources": [
+        {
+          "path": "knowledge/sources/kramer-flecken-1989-use-dco-ratios.md",
+          "locator": "KF89-15"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/sources/bargholtz-1987-high-spin-gamma-gamma-directional-correlations.md",
+      "summary": "完整核8页原件，区分exact、infinite与finite improvement；固定原表诊断未解释差异，保留同rank交换不变量限制。",
+      "anchor": "2026-10-18独立Day16实际覆盖与决定",
+      "sources": [
+        {
+          "path": "knowledge/sources/bargholtz-1987-high-spin-gamma-gamma-directional-correlations.md",
+          "locator": "BT87-4"
+        },
+        {
+          "path": "knowledge/sources/bargholtz-1987-high-spin-gamma-gamma-directional-correlations.md",
+          "locator": "BT87-5"
+        },
+        {
+          "path": "knowledge/sources/bargholtz-1987-high-spin-gamma-gamma-directional-correlations.md",
+          "locator": "BT87-6"
+        },
+        {
+          "path": "knowledge/sources/bargholtz-1987-high-spin-gamma-gamma-directional-correlations.md",
+          "locator": "BT87-7"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/methods/angular-correlation.md",
+      "summary": "保存高自旋factorization公式、十行反向检验和finite系数替换失去exact交换R=1的条件控制，分开absolute/relative误差。",
+      "anchor": "高自旋factorization的使用边界",
+      "sources": [
+        {
+          "path": "knowledge/sources/bargholtz-1987-high-spin-gamma-gamma-directional-correlations.md",
+          "locator": "BT87-4"
+        },
+        {
+          "path": "knowledge/sources/bargholtz-1987-high-spin-gamma-gamma-directional-correlations.md",
+          "locator": "BT87-6"
+        },
+        {
+          "path": "knowledge/sources/kramer-flecken-1989-use-dco-ratios.md",
+          "locator": "KF89-11"
+        },
+        {
+          "path": "knowledge/sources/bargholtz-1987-high-spin-gamma-gamma-directional-correlations.md",
+          "locator": "BT87-7"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/sources/nndc-2009-178w-dco-reference-records.md",
+      "summary": "保存四个2009 ENSDF选定对象的hash、MR/CC固定栏、同母态AD、RI角度/弱线精度、三反应谱系及实际921 K-shell companion；raw archive/Bib key缺口显式保留。",
+      "anchor": "178W评价记录：参考行里没有已给出的signed δ",
+      "sources": [
+        {
+          "path": "knowledge/sources/nndc-2009-178w-dco-reference-records.md",
+          "locator": "N178-1"
+        },
+        {
+          "path": "knowledge/sources/nndc-2009-178w-dco-reference-records.md",
+          "locator": "N178-2"
+        },
+        {
+          "path": "knowledge/sources/nndc-2009-178w-dco-reference-records.md",
+          "locator": "N178-3"
+        },
+        {
+          "path": "knowledge/sources/nndc-2009-178w-dco-reference-records.md",
+          "locator": "N178-4"
+        },
+        {
+          "path": "knowledge/sources/nndc-2009-178w-dco-reference-records.md",
+          "locator": "N178-5"
+        },
+        {
+          "path": "knowledge/sources/nndc-2009-178w-dco-reference-records.md",
+          "locator": "N178-6"
+        },
+        {
+          "path": "knowledge/sources/nndc-2009-178w-dco-reference-records.md",
+          "locator": "N178-7"
+        },
+        {
+          "path": "knowledge/sources/nndc-2009-178w-dco-reference-records.md",
+          "locator": "N178-8"
+        },
+        {
+          "path": "knowledge/sources/nndc-2009-178w-dco-reference-records.md",
+          "locator": "N178-9"
+        },
+        {
+          "path": "knowledge/sources/nndc-2009-178w-dco-reference-records.md",
+          "locator": "N178-10"
+        },
+        {
+          "path": "knowledge/sources/nndc-2009-178w-dco-reference-records.md",
+          "locator": "N178-11"
+        },
+        {
+          "path": "knowledge/sources/nndc-2009-178w-dco-reference-records.md",
+          "locator": "N178-12"
+        },
+        {
+          "path": "knowledge/sources/nndc-2009-178w-dco-reference-records.md",
+          "locator": "N178-13"
+        }
+      ]
     }
   ]
 }
@@ -153,7 +356,10 @@ L0为三篇主线/原图回核；L1/L2为新证据单和反向验证；L3当前�
 - 新计算脚本exit0，模型内部/F/tensor/phase/全部根检查通过；原表复现未通过的诊断明确保留。
 - 首轮wiki_lint exit1：6个SECTION_REQUIRED，全在新research-note；已补六栏目。fresh lint exit0（0 errors、146 warnings：115 citation-key missing、28 raw missing、3 reaction parser）；不抹去首轮失败。
 - [verification-checkpoint-001.json](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/verification-checkpoint-001.json)：git diff --check exit0、boundary exit0、writeback valid（5 changed knowledge pages）、PLAN/Bib保护与14条旧KF89 rows保留通过。
-- 当前科学checkpoint的稳定提交指针为main / `Audit DAY16 W178 DCO gate roles and conditional double solutions`；实际commit hash、staged清单与H3/push outcome只记run receipt，尚不据此授Day16学分。
+- 已发布checkpoint001的稳定提交指针为main / `Audit DAY16 W178 DCO gate roles and conditional double solutions`；实际commit hash、staged清单与H3/push outcome只记run receipt，尚不据此授Day16学分。
+- 最新[verification-checkpoint-004.json](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/verification-checkpoint-004.json)：8 changed知识页/writeback有效；boundary/diff/lint exit0，0errors/148warnings（116 citation-key missing、29 raw missing、3 reaction parser）。新source曾缺Extracted Pages导致exit1，已补且留失败回执；四public text hash与v1 code/output精确重放通过。
+- 本扩展checkpoint稳定指针main / `Audit DAY16 evaluated W178 references and correlation approximation limits`；实际hash/H3/push只在本run publication receipt。原run仍active，不授正式学分。
+- QMD status exit0：562 indexed/2459 vectors、349 orphan chunks、38 pending，更新停于11天前；本轮直接查canonical与原件，外部cache刷新deferred，不称索引已包含新页。
 - 当前续接：[continuation-current.md](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/continuation-current.md)。原run/goal仍active，不能以本页完成提前结束学习窗口。
 
-下一步优先Dors1979合法全文/参考约定与BT87 exact-versus-high-spin方法；用新证据查当前差异，不重复旧toy或终态失败。只有当前问题饱和才按原时间门检查恰好Day17知识预习；不授Day17学分、不打开Day18。
+下一步优先1998Pu01原件与921 K-shell companion的理论/校准匹配；169/137 primary/producer仍缺。四个NNDC对象已取得并canonical；BT87固定检查已完成，不再扩大同网格。Dors的OA-only/public discovery无PDF、S2无OA URL、Scholar一次timeout，均留证；不把TDM许可标签当OA或全文证据。只有当前问题饱和才按原时间门检查恰好Day17知识预习；不授Day17学分、不打开Day18。

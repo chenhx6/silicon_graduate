@@ -1,15 +1,11 @@
-# Day16同session继续；非正式下一日启动
+# Day16 同session继续；不是下一日启动
 
-继续run `2026-10-18-day-16-01`，session `01a14ce6-425e-77c1-a127-2ac980bd76b5`。
-命令：`codex resume 01a14ce6-425e-77c1-a127-2ac980bd76b5 -C /workspace/wiki -s danger-full-access -a never`。
-原研究硬截止2026-10-19 15:00上海、收束至16:00；先刷新clock并对原run-entry-original.json，不改日期。Goal/run active，当前partial16、课程next16/count15，未计正式16或预习17。保持用户持续学习/不要中断的指令，不再等待常规确认。
+Run2026-10-18-day-16-01 / session01a14ce6-425e-77c1-a127-2ac980bd76b5。命令：`codex resume 01a14ce6-425e-77c1-a127-2ac980bd76b5 -C /workspace/wiki -s danger-full-access -a never`。原deadline2026-10-19T15:00+08:00，closeout至16:00；先clock对original receipt，不改截止。User持续学习/不要中断/native goal active，不等待常规确认。
 
-日报按用户固定路径`outputs/learning-daily/20261017-DAY16-dco-rdco-mixing-ratio-convention.md`，实际run_date18独立记录。读最新日报/active handoff与kf89-w178-921-audit.json，不重置TODO：回忆冻结与D96/KS70/KF89主线完成；新178W真实双候选/role/Cov/phase计算单已canonical；fresh验证、首checkpoint发布及后续研究未完成。
+继承TODO：primed recall冻结完成；D96/KS70/KF89/BT87完整主线已读；真实178W921双支、phase/fulltensor、BT两近似反向检验、四NNDC对象与sameparent数据包已canonical。日报固定17日文件名、actual run_date18；课程next16/count15、partial16，无formal16/partial17/Day18。只有发布/全部验收后才授16，不能把partial15的旧结果算本session独立交付。
 
-当前最高信息路线：Dors1979 DOI10.1016/0375-9474(79)90555-4已有准确Crossref身份（177Hf alpha,3n；NPA314,61–79），未取全文。KF89 printed338把−1.9归Dors[3]，文末Dors是Ref2、Ref3是Gast待发表，不能静默认证坐标。先用nature-downloader公开/已配置合法route，不问SI常规确认，按本轮primary-only范围选择no-si，未读不能补定义。
+最新科学见日报、active handoff、n178-reference-input-v2.json/audit-v2和BT87 audit。137/225在s2=1条件下两根；169 central比无根但一倍quoted边界已相交，不是实验证明不相容。MR空栏，.8(.3)是CC；alpha对象125度RI不能造integratedbranch，1089.7 fixedfields为1.3±1.4。原始public ENSDF只在tmp，canonical source有excerpt/hash、archive/Bib缺口。v1input/output及code-snapshot-001 hash保留。
 
-另有BT87原件（source/raw已存在、全文尚未在本session读），可核high-spin approximation是否与KF89差异有关。先冻结这一路的预期/可证伪判据再开raw，不调σ/phi/reference强求原表。178W模型F与完整tensor/trace已吻合，但Table1四项和作者>85支未复现；真实response/producer/Σ仍缺。这些差异不得隐藏、改数据或写成作者错误。
+下一最高信息问题：1998Pu01/13C对象same921 target有alphaKexp=.0067(.0011)，1090参考.0031(.0005)，officialRefs/Crossref匹配C.S.Purry等1998NPA632,229–274(46页)。OA-only/public discovery未得PDF，S2/OpenAlex无OA URL；不得称已读primary。新BrIcc K-shell reference可检验大小delta的条件区分力：先冻结Z74、E920.8keV、FO pureM1/E2各1POST、nominal only、unknownCov/energy-budget/核尺寸默认边界。旧day16_bricc_reference_query/capture硬编码Z70/E489.8，只可借鉴，不原样套到W178。只写repo tmp+当前run，不改raw或KB08人审prefix；必要时新建独立程序/理论对象source。未知N6/N7等shell保留，不能用total代K或造actual significance。Purry原校准/门/Σ仍需primary，可按信息增益查其1997 thesis合法公开入口。
 
-首轮lint exit1因新research-note少六必需heading，已补；重新跑lint和writeback/protected/diff，再显式manifest/H3/Gitee发布checkpoint。科学checks通过不等于原producer复现。日报唯一knowledge-writeback映射五页；所有新knowledge须同步加入，保留旧review/needs_review、raw/PLAN/Bib/凭据与入口继承修改。log只stage本任务追加段，不stage旧log或daemon/旧receipts。
-
-Farmer已有PID42019 watcher在运行，不新开daily daemon/其它session/宿主任务，不假造runner退出或queued delivery。scheduler已追加manual-resume-observed事件，明确不是runner thread.started证明。后续在当前问题饱和后按时间门可恰好partial17，不正式计17、不看18。
+Checkpoint001已实际push。Checkpoint002主题`Audit DAY16 evaluated W178 references and correlation approximation limits`，先核publication-002是否已存在/完成，再继续未做的发布；别重复commit或把计划当成功。当前8页writeback，N178 source初lint缺Extracted Pages已补，verification-checkpoint-004实际0errors/148warnings及boundary/diff/hash/v1replay均通过。下一按explicit manifest/H3精准HEAD:main Gitee，不force；继承dirty全部保留，log只stage taskentry。当前问题仍有可用高信息路线，不能因一个source完成结束窗口；当前饱和后才恰好partial17，绝不正式计17或打开18。

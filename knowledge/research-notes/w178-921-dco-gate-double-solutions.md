@@ -7,7 +7,7 @@ updated: 2026-10-18
 status: ai-draft
 review_status: unreviewed
 reasoning_status: provisional
-evidence_sources: [kramer-flecken-1989-use-dco-ratios, droste-1996-pdco-formalism, krane-steffen-1970-cd110-mixing-ratios]
+evidence_sources: [kramer-flecken-1989-use-dco-ratios, droste-1996-pdco-formalism, krane-steffen-1970-cd110-mixing-ratios, nndc-2009-178w-dco-reference-records]
 created_from: Day16 independent daily-learning run
 promotion_target: dco-ratio
 tags: [dco, mixing-ratio, phase-convention, gate-identity, provisional]
@@ -120,7 +120,35 @@ t_{KS}(EL)=C_L i^L\langle M(EL)\rangle,
 
 完整tensor与trace相符只认证本任务声明的forward model内部一致；它不自动认证原producer。尤其不能拿本任务不包含作者>85支的rectangle交集去推翻原文选支。
 
+后续已先冻结假设、再全文核[[bargholtz-1987-high-spin-gamma-gamma-directional-correlations]] BT87-4/5，按其infinite/finite-improvement形式检查这十行。两近似只有2/10和1/10落入.01半单位舍入，原四项差异均未被解释；不能据KF89 Ref6就归因为此近似。[[angular-correlation]]保存Eq10/Eq12核验和finite改进破坏stretched E2交换R=1的控制，故本问题转回实际producer/reference，停止在该固定近似网格继续调参数。
+
 ## Competing Explanations
+
+### 新取得的评价参考与same-parent条件检验
+
+[[nndc-2009-178w-dco-reference-records]] N178-2–9来自本session实际取得的三个200907 header官方对象。Dors的1979DO02对象给137.34/225.83及168.71/306.05的同母态AD，但MR栏空；1.5(.4)/.8(.3)是CC。RI注明125度，连写1.314按固定栏为1.3±1.4。18O的1989KR01对象只给920.9 D/(11)，adopted 11-/M1+E2不构成新独立赋值或完整δ。
+
+这允许一个不拟合σ的必要条件检验。若同母态两线有共同postselection density和同层angular coefficients、target仅M1/E2、reference pureE2，定义s2=Q2,target/Q2,reference，则
+
+\[
+\frac{A_{2,t}}{A_{2,r}}=s_2\frac{v^T F_{2,t}v}{F_{2,r}(E2)},\qquad
+v=(1,d)/\sqrt{1+d^2}.
+\]
+
+共同B2在非零reference时消去，不需Gaussian；也因此不能通过调σ来修复该条件包。原件未认证Q2比/共同选择/修正层，所以下面先固定**诊断假设s2=1**，不把它当仪器测量。
+
+| 同母态pair | 评价A2 central比 | 全real d理论range | central条件根 |
+| --- | ---: | --- | --- |
+| 137.34 / 225.83，J9→8及9→7 | −2.1333333 | [−2.8877243,1.9877243] | d=−2.1662458或−.34224154 |
+| 168.71 / 306.05，J10→9及10→8 | −3.5909091 | [−2.9272727,2.0000000] | 无real根 |
+
+这是D96/KS共同BM坐标中的**条件反演**，不是重测137/169的δ，更没有给KF89的原−1.9约定认证。169 central比无根所需的positive s2必要下界为1.226708；这个由target数据推得的相容性条件不是独立Q校准。
+
+反证必须保留误差层：169两quoted一倍边界的ratio像为[−4.611111,−2.884615]，已经与理论range相交，允许α约[−47.5861°,−36.9084°]；所以不能由central无根宣称数据不相容。137一倍边界给两段，二倍边界因经过fold而连成一段。所有rectangle/preimage均无置信水平，缺真实Cov时不叫1σ/2σ联合区间。
+
+把旧平均−1.9仅作为未认证诊断坐标代入，137比预测−2.307269、169比−2.351212；后者又依赖Q/层/selection和原平均值精度。不得反求一个Q或alpha强配−1.9再声称校准独立。137有A4 target/reference，但reference误差边界到0、Cov未知；169 reference A4未列，更不能补0拼成唯一解。
+
+新代码[day16_ensdf178_reference_audit.py](../../system/scripts/day16_ensdf178_reference_audit.py)核typed fields、parent/line identity、source F/photon矩阵和全范围/全根；输入identity为`DAY16-N178-SAME-PARENT-REFERENCE-01`，在数值前冻结。原δ平均、branching与response仍需1979primary；评价不是原文producer或新的独立测量。
 
 - 实际小D/Q分量与近纯quadrupole分量仍是原文DCO允许候选；强度companion使作者偏好小支，没有给独立校准的唯一δ新测量。
 - 模型/印表偏差可能来自输入、width/feeding、response、approximation或程序层；当前不归因为原文错误，也不把变动一个参数后凑中值当恢复原分析。
@@ -129,6 +157,8 @@ t_{KS}(EL)=C_L i^L\langle M(EL)\rangle,
 ## Verification Path
 
 下一项有用输入是169-keV参考的原始角分布/强度与operator convention、DCOMAP定义及实际pair response。原件printed338把−1.9归给“Dors et al.[3]”，但printed339的Ref3为Gast et al.待发表、Dors1979为Ref2；先查该引文身份，不静默修正为已取到primary。
+
+2026-10-18外部metadata已由Crossref与Semantic Scholar一致定位Dors六作者、*Nuclear Physics A*314(1),61–79(1979)，DOI[10.1016/0375-9474(79)90555-4](https://doi.org/10.1016/0375-9474(79)90555-4)，题名明确177Hf(α,3nγ)布居178W。metadata支持身份，不支持其δ算符定义/原误差。OA-only downloader与出版商public discovery未得PDF；Scholar一次timeout留证，不重试为新证据。TDM license不充当OA证明，raw归档未新增；尚未读取这篇19页primary。
 
 能够分离上表候选的建议是**同一921 target、同一306 reference、同一角组/门/cuts**下的calibrated polarization amplitude，记录Q(921)、平行/垂直净计数、背景和与DCO共享事件Cov；不能借用182-keV的conversion结论或其它能量的P。实际Q/计数未提供，不报所需束流时间或显著性。
 
@@ -167,3 +197,4 @@ t_{KS}(EL)=C_L i^L\langle M(EL)\rangle,
 - [[kramer-flecken-1989-use-dco-ratios]] KF89-9/15/16/17/18：原式、实测两行、双候选、companion及谱系边界。
 - [[droste-1996-pdco-formalism]] DR96-4/5：条件态、绝对振幅与generalized F；不以1996原印Eq4代替已勘误偏振系数。
 - [[krane-steffen-1970-cd110-mixing-ratios]] KS70-5/6/7/13：单位、先后角色、BR身份和归一相位桥。
+- [[nndc-2009-178w-dco-reference-records]] N178-2/3/4/5/6/7/8/9/10：评价系数、空MR/CC栏、RI角度/精度与same-parent条件包。

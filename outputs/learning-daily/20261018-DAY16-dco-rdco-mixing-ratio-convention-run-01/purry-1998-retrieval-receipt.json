@@ -1,0 +1,15 @@
+{
+  "checked_at": "2026-10-18T11:56:54.649794+08:00",
+  "doi": "10.1016/S0375-9474(97)00654-4",
+  "official_NSR_match": "1998PU01; Crossref full metadata agrees with official ENSDF References",
+  "doi_status": "verified metadata only",
+  "OA_only_download_status": "oa_not_found",
+  "downloaded": 0,
+  "publisher_public_discovery": "no_candidate (landingHTTP200)",
+  "semantic_scholar_OA_url": null,
+  "openalex_OA_url": null,
+  "manifest_sha256": "49319f6729a46d6a7ddb0f77f199f49b93bc795c8453de16fce397533b0b095b",
+  "primary_reading": false,
+  "license_boundary": "TDM license and downloader confirmed_oa label are not proof of lawful OA; no PDF obtained.",
+  "next_route": "Specific 1997 Purry thesis institutional/public discovery may add the same producer; do not count thesis and paper as independent data."
+}

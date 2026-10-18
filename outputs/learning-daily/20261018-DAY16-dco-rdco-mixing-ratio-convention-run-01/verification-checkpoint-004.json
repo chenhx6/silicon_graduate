@@ -1,0 +1,66 @@
+{
+  "checked_at": "2026-10-18T11:57:14.588070+08:00",
+  "checks": {
+    "boundary": {
+      "exit_code": 0
+    },
+    "diff": {
+      "exit_code": 0
+    },
+    "lint": {
+      "exit_code": 0,
+      "counts": {
+        "warning": 148,
+        "info": 2173
+      },
+      "errors": [],
+      "warning_codes": {
+        "REACTION_PARSE": 3,
+        "CITATION_KEY_MISSING": 116,
+        "RAW_MISSING": 29
+      }
+    }
+  },
+  "writeback": {
+    "valid": true,
+    "mode": "updated",
+    "knowledge_paths": [
+      "knowledge/research-notes/w178-921-dco-gate-double-solutions.md",
+      "knowledge/sources/kramer-flecken-1989-use-dco-ratios.md",
+      "knowledge/sources/droste-1996-pdco-formalism.md",
+      "knowledge/sources/krane-steffen-1970-cd110-mixing-ratios.md",
+      "knowledge/sources/rose-brink-1967-phase-defined-angular-distributions.md",
+      "knowledge/sources/bargholtz-1987-high-spin-gamma-gamma-directional-correlations.md",
+      "knowledge/sources/nndc-2009-178w-dco-reference-records.md",
+      "knowledge/methods/dco-ratio.md",
+      "knowledge/methods/dco-pdco-ambiguity-worksheet.md",
+      "knowledge/index.md",
+      "knowledge/methods/angular-correlation.md"
+    ],
+    "changed_paths": [
+      "knowledge/index.md",
+      "knowledge/methods/angular-correlation.md",
+      "knowledge/methods/dco-pdco-ambiguity-worksheet.md",
+      "knowledge/methods/dco-ratio.md",
+      "knowledge/research-notes/w178-921-dco-gate-double-solutions.md",
+      "knowledge/sources/bargholtz-1987-high-spin-gamma-gamma-directional-correlations.md",
+      "knowledge/sources/kramer-flecken-1989-use-dco-ratios.md",
+      "knowledge/sources/nndc-2009-178w-dco-reference-records.md"
+    ],
+    "change_check": "run-snapshot",
+    "error": null
+  },
+  "protected": {
+    "PLAN.md": true,
+    "raw/zotero/wiki-inbox.bib": true
+  },
+  "v1_code_snapshot_and_output_replay_exact": true,
+  "public_text_hashes": {
+    "178074001": true,
+    "178074004": true,
+    "178074006": true,
+    "178074005": true
+  },
+  "completion_claimed": false,
+  "raw_archive_boundary": "Four public ENSDF snapshots remain in tmp; one declared raw slot unfilled and local Bib key missing; neither is represented as archived or manuscript-ready."
+}

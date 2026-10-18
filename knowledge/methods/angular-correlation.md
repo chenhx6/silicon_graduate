@@ -3,7 +3,7 @@ type: method
 title: γ 射线角关联分析
 aliases: [angular correlation, gamma-ray angular correlation, particle-gamma angular correlation, gamma-gamma angular correlation]
 created: 2026-07-09
-updated: 2026-10-15
+updated: 2026-10-18
 status: ai-draft
 review_status: unreviewed
 method_type: gamma-ray-angular-correlation
@@ -235,3 +235,48 @@ Day15后续[[event-mixing-statistics]]已在明示的固定N、binary tags、逐
 [[droste-1996-pdco-formalism]] DR96-4/5/6的5→4→2模型现由[[dco-pdco-ambiguity-worksheet]]独立复算：同R*的M1/E2两根、pureE1替代及第一/第二photon条件P分开保存；source近似−70°例不与本任务精确同R根混成一个点。一般选择更大预测分离的DIR-POL前，还要确认当前候选已排除同P2的pureM1/E1歧义，并取得matched Q/counts/Cov；没有普适的单observable唯一赋值。
 
 该计算还以source广义F核对实现的相对multipole基底：pure limits可全部通过而混合干涉项坐标仍错；必须显式转换参数/系数。完整4π积分下游光子的singles边缘，与trace上游后带U的daughter density是不同运算，finite gate不能无条件替代它们。此为条件模型/文献复核，不认证其它source的delta符号或实际array response。
+
+## 高自旋factorization的使用边界
+
+[[bargholtz-1987-high-spin-gamma-gamma-directional-correlations]] BT87-4/5从exact generalized F在fixed小DeltaI/L、I→∞的极限得到ordinary A的factorization。printed517 Eq12写成
+
+\[
+W_\infty(\Omega_1,\Omega_2)
+=\int d\Omega_s\,P(\Omega_s)w_1(\hat n_1\cdot\hat s)w_2(\hat n_2\cdot\hat s),\quad
+w_i(x)=\sum_{k=0,2,4}\sqrt{2k+1}A_{k,i}P_k(x).
+\]
+
+I→∞使低阶辐射不会明显改变spin-axis，是这个共同轴乘积图像的条件。作者printed518的finite-spin improvement把ordinary A和initial B换成exact Eq2/3/B1，**仍保留factorized joint**；它不等于exact generalized-coefficient Eq1。有限B的形式矩代入不能自动作为已经测得、处处为正的classical spin-axis probability。
+
+### 对实际方法表的有界反向检验
+
+为查[[kramer-flecken-1989-use-dco-ratios]] printed334 Table1的producer边界，本任务固定90°/38°/φ18°、声明的`p(M)∝exp(−M²/(2(.3I)²))`，不调角度/σ或印值。无限spin采用相同固定width/I的连续cos-axis Gaussian极限；finite改进用exact ordinary F/B。十行印值的.01半单位舍入诊断分别通过exact6行、infinite2行、finite-improvement1行。四项exact未复现行如下，所有数都是本任务模型值，不是新的实测表：
+
+| spin sequence / ranks | KF89印值 | exact | infinite | finite improvement |
+| --- | ---: | ---: | ---: | ---: |
+| 10→8→7 / 2,2 | .66 | .637341 | .646143 | .652439 |
+| 10→8→8 / 2,1 | 1.07 | 1.029280 | 1.097269 | 1.051464 |
+| 9→8→7 / 1,2 | .92 | .970704 | .908312 | .940620 |
+| 9→8→8 / 1,2 | 1.12 | 1.188657 | 1.149485 | 1.219007 |
+
+因此“KF89用了这种近似，故差异已解释”的假设未通过。部分行偏差变小并不恢复十行共同producer；KF89 Ref6引用BT87也不能证明实际用了哪套式/width/response。
+
+### 检查近似是否保全exact不变量
+
+本页既有maximal-CG证明表明，同rank纯stretched两步在共同ρ/response、无中间作用的条件下有完整photon交换对称。对于10→8→6的pureE2/E2，上述exact与infinite模型都给R=1；finite improvement却给`R=1.013742515`。原因可以从乘积式看到：infinite A只依赖相同DeltaI/L，两条w相同；finite ordinary A取不同自旋，w1与w2一般不相同，交换两个方向后的乘积不必相等。ordinary系数更精确没有恢复所有joint结构。
+
+这限制近似的使用，不声称原作者在其Fig2条件下的比较错误。完整Eq10 harmonic contraction与Eq12轴积分按两阶quadrature核验到约3e−15，source Table1的五个无限spin A2/A4在印刷精度内；但两代数路径仍共享CG/Wigner primitives，不是独立producer。代码[day16_bt87_factorization_audit.py](../../system/scripts/day16_bt87_factorization_audit.py)，冻结input和audit JSON位于本日run目录，十行与控制条件在JSON保留。
+
+Fig2的I20、M0、theta2=45°/phi相同控制下，本任务13点采样的finite改进最大absolute W误差约.0030/.0095/.0090/.0354/.0230（依次五个pure路径），不能说连续角度的全局上界。在接近angular node处，infinite式可给0而exact为小非零，relative误差约100%仍可有很小absolute W差；不把不同误差分母混成对源文的反证。
+
+真正要解释RDCO或反演δ时，还须检查分子/分母误差和`dR/dδ`：小的W误差可能被近零分母、近pure端点或fold放大。应在目标observable、真实自旋/布居/response上核近似和不变量，不能只引用“spin约20就很好”。本检查没有真实178W响应/计数/Σ，不改变核结构模式或作者δ支。
+
+### Exact有限B不是任意正的经典轴分布
+
+从BT87 AppendixB EqB1的exact tensor与独立quadrupole对角元可核，整数J≥1、M=0时
+
+\[
+\frac{B_2}{\sqrt5}=-\sqrt{\frac{J(J+1)}{(2J-1)(2J+3)}}<-\frac12.
+\]
+
+若把finite B直接按无限spin Eq15当作正的unit-axis概率的Legendre矩，就要求`⟨P2(cosθs)⟩<−1/2`；但P2在实单位球面上的最小值就是−1/2，不可能。J20/M0的任务核验仍给约−.500447，而非严格经典下界。这个有限J量子修正不否定positive核density；它限制把finite moment substitution解释成实测的正经典P(Ωs)。Eq10的形式替换和真正的classical probability必须分开，不能据此采样伪布居或认证全部joint响应。

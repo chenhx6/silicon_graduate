@@ -1,0 +1,99 @@
+{
+  "retrieved_at": "2026-10-18T11:41:53.840557+08:00",
+  "objects": [
+    {
+      "record": "178074001",
+      "url": "https://www.nndc.bnl.gov/ensdf/EnsdfDispatcherServlet",
+      "post_datasetcheck": "178074001,178W",
+      "retrieved_at": "2026-10-18T11:29:03.446237+08:00",
+      "status_code": 200,
+      "response_sha256": "44cb0dac6f8f9fdc9e24dacd0d06f0d4fa9ddaf0c183418ae370901ff530d780",
+      "text_sha256": "a758b17a8a52102c12ba87b66ea6d7c4cdd499dbd831d78e911d2fe08f51fd21",
+      "text_path": "tmp/day16-nndc-w178/178074001.ens",
+      "lines": 1434,
+      "header": [
+        "",
+        "178W     ADOPTED LEVELS, GAMMAS                                  09NDS    200907",
+        "178W   H TYP=FUL$AUT=E. Achterberg, O.A. Capurro, G.V. Marti$                   ",
+        "178W 2 H CIT=NDS 110, 1473 (2009)$CUT=31-May-2008$                              ",
+        "178W   XA178RE EC DECAY                                                         ",
+        "178W   XC48CA(136XE,6NG)                                                        ",
+        "178W   XD164DY(18O,4NG)                                                         ",
+        "178W   XF170ER(13C,5NG)                                                         ",
+        "178W   XG177HF(A,3NG)                                                           ",
+        "178W   XB180W(P,T)                                                              ",
+        "178W   XH181TA(P,4NG)                                                           ",
+        "178W   Q -4.76E3   4 8.78E3  4 5981    163012    16    2012WA38                 ",
+        "178W  cQ $Note: Current evaluation has used the following Q record              ",
+        "178W 2cQ -4760     308790    305981    153006     15   2003Au03                 "
+      ]
+    },
+    {
+      "record": "178074004",
+      "url": "https://www.nndc.bnl.gov/ensdf/EnsdfDispatcherServlet",
+      "post_datasetcheck": "178074004,178W",
+      "retrieved_at": "2026-10-18T11:29:03.777983+08:00",
+      "status_code": 200,
+      "response_sha256": "ffdd6218323cb981d325ee135f99c24d67d394981943d4a40003c2bb69d32c5f",
+      "text_sha256": "01476a95d302609746ee6057fe7f5e47d70782c4d73cb109d3b7b074e66f6c6f",
+      "text_path": "tmp/day16-nndc-w178/178074004.ens",
+      "lines": 102,
+      "header": [
+        "",
+        "178W     164DY(18O,4NG)                1989KR01                  09NDS    200907",
+        "178W   H TYP=FUL$AUT=E. Achterberg, O.A. Capurro, G.V. Marti$                   ",
+        "178W 2 H CIT=NDS 110, 1473 (2009)$CUT=31-May-2008$                              ",
+        "178W  c  Target: {+164}Dy. Projectile: {+18}O, E=80 MeV. Measured |g|g coin,    ",
+        "178W 2c  |g|g(|q). Deduced |g-ray mixing ratios and levels spin, based on       ",
+        "178W 3c  measurements of directional correlations of |g rays deexciting         ",
+        "178W 4c  oriented states (DCO ratio method). Detector: OSIRIS array of twelve   ",
+        "178W 5c  Compton-suppressed hyperpure germanium detectors.                      ",
+        "178W  cG M(Y)      From DCO ratios.                                             ",
+        "178W  cL J         From adopted levels, unless otherwise specified.             ",
+        "178W  cL J(X)      From DCO ratios.                                             ",
+        "178W  cL E(A)      K|p=0+ rotational band                                       ",
+        "178W  cL E(B)      K|p=0+ rotational band                                       "
+      ]
+    },
+    {
+      "record": "178074006",
+      "url": "https://www.nndc.bnl.gov/ensdf/EnsdfDispatcherServlet",
+      "post_datasetcheck": "178074006,178W",
+      "retrieved_at": "2026-10-18T11:29:04.119533+08:00",
+      "status_code": 200,
+      "response_sha256": "27a7e1162bbde5da858c737ee4ba47b44f7e26e09fc6678b10afcaefd5d340c8",
+      "text_sha256": "317c67228e1bb1ae88421e2d7fdd73bddf2e6743902c9106ecfa7db8ba802251",
+      "text_path": "tmp/day16-nndc-w178/178074006.ens",
+      "lines": 223,
+      "header": [
+        "",
+        "178W     177HF(A,3NG)                  1979DO02                  09NDS    200907",
+        "178W   H TYP=FUL$AUT=E. Achterberg, O.A. Capurro, G.V. Marti$                   ",
+        "178W 2 H CIT=NDS 110, 1473 (2009)$CUT=31-May-2008$                              ",
+        "178W  c  Target: 91.7% enriched {+177}Hf, E(|a)=38 MeV.                         ",
+        "178W 2c  Measured E|g, I|g, |g|g coin, |g|g(t), |a|g(|q) at seven angles from   ",
+        "178W 3c  |q=90|' to 155|'. Detectors: Ge(Li). Complementary experiments using   ",
+        "178W xc  the {+164}Dy({+18}O,4n) reaction.                                      ",
+        "178W 4c  Others: 1976Be47, 1969Mi03, 1965La02.                                  ",
+        "178W  cG RI        Measured at |q=125|'.                                        ",
+        "178W  cG M         From angular distribution coefficients determined            ",
+        "178W 2cG in |a|g(|q) and decay scheme arguments.                                ",
+        "178W  cG E(A)      Doublet.                                                     ",
+        "178W  cG E(B)      Possible multiplet.                                          "
+      ]
+    },
+    {
+      "record": "178074005",
+      "url": "https://www.nndc.bnl.gov/ensdf/EnsdfDispatcherServlet",
+      "post_datasetcheck": "178074005,178W",
+      "status_code": 200,
+      "response_sha256": "0293b1ac2d8a49559b497d978fadc07dfec0a370acbb4621faee72881439a5c9",
+      "text_sha256": "b3215bcbf6609924392278f9e60df57550dfd2f7dd9c3c5f42f155f96bc58d9e",
+      "text_path": "tmp/day16-nndc-w178/178074005.ens",
+      "lines": 1028,
+      "scope": "header/global source rules and selected reference/target gamma records only"
+    }
+  ],
+  "raw_archive_written": false,
+  "boundary": "Objects verified in repository tmp; canonical source page preserves exact selected records and field/provenance boundaries. No claim of complete mass-chain review."
+}

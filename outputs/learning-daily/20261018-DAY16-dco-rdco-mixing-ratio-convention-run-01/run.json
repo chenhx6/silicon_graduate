@@ -50,5 +50,17 @@
   "report_path_reason": "Preserve user exact Required persisted output path; actual run_date remains 2026-10-18",
   "continuation_prompt": "outputs/learning-daily/20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/continuation-current.md",
   "goal_status": "active",
-  "card_audit": "partial"
+  "card_audit": "partial",
+  "publications": [
+    {
+      "receipt": "outputs/learning-daily/20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/publication-001.json",
+      "commit_hash": "2d644d1329dcb6ba9a903d4a6752aab2569e12a8",
+      "subject": "Audit DAY16 W178 DCO gate roles and conditional double solutions",
+      "outcome": "pushed"
+    }
+  ],
+  "last_checkpoint": "002-content",
+  "last_verification": "outputs/learning-daily/20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/verification-checkpoint-004.json",
+  "knowledge_writeback_items": 8,
+  "last_learning_summary": "BT87 approximation limits and four evaluated W178 objects; matched K-shell companion located, theory/primary route remains active"
 }

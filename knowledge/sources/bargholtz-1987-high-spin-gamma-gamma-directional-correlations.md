@@ -3,7 +3,7 @@ type: source
 title: "Gamma-gamma directional correlations: simplifications at high spin"
 aliases: ["Bargholtz Tegner 1987 high-spin DCO", "High-spin gamma-gamma directional correlations"]
 created: 2026-09-20
-updated: 2026-09-20
+updated: 2026-10-18
 status: ai-draft
 review_status: unreviewed
 source_type: method
@@ -73,6 +73,10 @@ Bargholtz and Tegnér derive a high-spin limit for γγ directional correlations
 | BT87-1 | Exact γγ directional correlations require many generalized coefficients; high-spin factorization reduces the description to ordinary `A_k` coefficients. | formalism | direct | PDF pp.513-517，Eq.(1)-(10) | false |
 | BT87-2 | At spin about `20 ħ`, the high-spin approximation agrees closely with exact quantum correlation for tested cascades. | formalism-validation | direct | PDF pp.516-518，Fig.2 | true |
 | BT87-3 | The spin-axis integral form can be extended to triple correlations. | formalism | direct | PDF p.517，Eq.(12)-(13) | false |
+| BT87-4 | 作者的finite-spin improvement仍用Eq12的factorized joint形式，只将已知跃迁的ordinary A及initial statistical tensor换成Eq2/3/B1的exact表达式；它不是重新计算原exact Eq1的全部generalized F。 | approximation-definition | direct | printed518首段；printed515 Eq9/10；printed517 Eq12 | true |
+| BT87-5 | Fig2实际条件为complete alignment、initial I20、第二条stretched E2、theta2=45度、phi1=phi2、无未观测中间跃迁；第一条五种pure transition按DeltaI/L分开。其几何/布居下W的比较不认证任意低spin或RDCO比值。 | numerical-validation-scope | direct-and-self-audit | printed516 Fig2及caption；printed517讨论 | true |
+| BT87-6 | 本任务对KF89同几何/声明std-Gaussian的十行pure表作exact/infinite/finite-improvement比较，按印刷.01的半单位分别6/2/1行相容；没有一种近似解释全部原表差异。10→8→6 pureE2两步的finite-improvement给R1.0137425而exact和infinite均1，显示有限ordinary系数替换并不保全所有joint对称。 | bounded-approximation-audit | task-calculation | 本篇Eq10/12/printed518；KF89 printed334 Table1；day16_bt87_factorization_audit.py固定输入 | true |
+| BT87-7 | 本任务从EqB1推得整数J≥1/M0的B2/sqrt5=−sqrt[J(J+1)/((2J−1)(2J+3))]<−1/2；J20为−.500447027，CG与quadrupole矩元两路相符。若机械按infinite Eq15当正unit-axis概率的P2矩，会越过经典下界−1/2；finite代入须保留形式近似/量子边界，非实测经典轴分布。 | bounded-quantum-classical-corollary | task-calculation | printed519 EqB1；printed517 Eq15；day16_bt87_factorization_audit.py | true |
 
 ## Nuclear Structure Information
 
@@ -111,6 +115,14 @@ Bargholtz and Tegnér derive a high-spin limit for γγ directional correlations
 | supports | [[angular-distribution]] | Links ordinary `A2/A4` coefficients to high-spin coincidence correlation。 |
 
 ## Human Review Triage
+
+### 2026-10-18独立Day16实际覆盖与决定
+
+来源前已冻结受Wiki摘要/KF89 Ref6 priming影响的假设，随后完整读8页原件（printed513–520），核Eq1–16、Table1、Fig2及AppendixA/B；raw SHA-256匹配。新BT87-4–6为Codex self-audit，原page/BT87-1–3的review flags未改，没有新实验或人审。
+
+本次用Eq7的CG/3j极限、Eq10的spherical harmonic contraction与Eq12的spin-axis积分核对，后两路差在约3e−15内，仍共享CG基础函数。KF89十行/原几何和Fig2条件均不调参数；原表不匹配仍保留，不能将BT87的背景引用当成DCOMAP实际实现的证明。
+
+[[angular-correlation]]“高自旋factorization的使用边界”保存公式、四项未复现行和交换对称控制；[[w178-921-dco-gate-double-solutions]]保存实测对象。决定limits“finite improvement必使任意比值更准确”及“近似解释了KF89差异”的说法；supports在真实spin/geometry/observable层作exact对照。下一输入是producer或参考primary，不通过更多参数调节假装重放。
 
 ### P0
 

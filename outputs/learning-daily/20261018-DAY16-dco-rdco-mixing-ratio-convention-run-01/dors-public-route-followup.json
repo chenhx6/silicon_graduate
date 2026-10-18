@@ -1,0 +1,100 @@
+{
+  "retrieved_date": "2026-10-18",
+  "routes": [
+    {
+      "route": "day16-dors-route-0",
+      "result": {
+        "doi": "10.1016/0375-9474(79)90555-4",
+        "accessDiscovery": {
+          "status": "not_found",
+          "landingUrl": "https://linkinghub.elsevier.com/retrieve/pii/0375947479905554",
+          "landingHost": "linkinghub.elsevier.com",
+          "reason": "no_candidate",
+          "fallback": {
+            "attempted": false,
+            "combinationsAttempted": 0
+          },
+          "targetStatus": 200,
+          "candidateCount": 0,
+          "candidatesTruncated": false,
+          "candidateUrls": [],
+          "fetchedAt": "2026-10-18T03:07:03.472Z"
+        }
+      }
+    },
+    {
+      "route": "day16-dors-route-1",
+      "result": {
+        "source": "semantic_scholar",
+        "total": 212,
+        "results": [
+          {
+            "title": "High-spin rotational levels in 178W populated in the 177Hf(α, 3nγ) reaction☆",
+            "doi": "10.1016/0375-9474(79)90555-4",
+            "year": 1979,
+            "authors": [
+              "C. L. Dors",
+              "F. Bernthal",
+              "T. Khoo",
+              "C. H. King",
+              "J. Borggreen",
+              "G. Sletten"
+            ],
+            "journal": "",
+            "citation_count": 16,
+            "open_access_url": "",
+            "source": "semantic_scholar"
+          },
+          {
+            "title": "Microscopic calculations of high-spin rotational states",
+            "doi": "10.1103/PHYSREVC.16.1179",
+            "year": 1977,
+            "authors": [
+              "Chin W. Ma",
+              "J. Rasmussen"
+            ],
+            "journal": "",
+            "citation_count": 10,
+            "open_access_url": "https://escholarship.org/content/qt0wk076qq/qt0wk076qq.pdf",
+            "source": "semantic_scholar"
+          },
+          {
+            "title": "Yrast isomers and very high spin states in 148, 149, 151, 152Dy and 147Gd",
+            "doi": "10.1016/0375-9474(81)90680-1",
+            "year": 1981,
+            "authors": [
+              "B. Haas",
+              "D. Ward",
+              "H. R. Andrews",
+              "O. Hāusser",
+              "A. J. Ferguson",
+              "J. Sharpey-Schafer",
+              "T. Alexander",
+              "W. Trautmann",
+              "D. Horn",
+              "P. Taras",
+              "P. Skensved",
+              "T. Khoo",
+              "R. Smither",
+              "I. Ahmad",
+              "C. Davids",
+              "W. Kutschera",
+              "S. Levenson",
+              "C. L. Dors"
+            ],
+            "journal": "",
+            "citation_count": 49,
+            "open_access_url": "",
+            "source": "semantic_scholar"
+          }
+        ]
+      }
+    }
+  ],
+  "google_scholar": {
+    "attempts": 1,
+    "status": "tool-error-timeout",
+    "retry": false
+  },
+  "boundary": "Metadata/public discovery only. No authorized PDF candidate or primary definition obtained."
+}

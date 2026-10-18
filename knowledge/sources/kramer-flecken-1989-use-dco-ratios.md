@@ -87,6 +87,7 @@ KF89-1–8是原2026-07-12审核记录；其中KF89-1的实验分式有上述转
 | KF89-16 | 原文用Igamma(1090)/Igamma(921)=1.2±.2对照pure-quadrupole预期2.3来偏好921小混合支；本7页方法文没有给2.3的完整模型推导/误差，也没有两DCO与强度的联合Cov。不能将偏好改写为DCO独自唯一确定delta。 | author-branch-preference-and-boundary | direct-and-self-audit | printed338末段–printed339首段 | true |
 | KF89-17 | 137/169-keV参考导入平均mixing parameter delta=−1.9，正文归给Dors et al.[3]的angular distributions/branching；但Ref3实际是Gast待发表，Dors1979在Ref2。本文未显式定义其operator ratio，未经primary不能认证该delta与D96/KS70数值坐标相同。 | reference-provenance-and-convention-boundary | direct-and-self-audit | printed338首段；printed339 Refs2/3 | true |
 | KF89-18 | 本文给OSIRIS十二台Ge但DCO实际选择六台，角组90/38度、phi18度，要求相对效率修正；sigma/I=.3及35ns异构体不强改width是假设，缺实际pair响应、feeding、producer和Cov。条件点模型不能凭这些文字自称重放原分析。 | experimental-response-readiness | direct-and-self-audit | printed335效率段；printed337 Sec3/4；printed338 Fig7图注 | true |
+| KF89-19 | Ref2的Dors NPA314,61(1979)由Crossref/SemanticScholar定位为六作者的High-spin rotational levels in178W populated in177Hf(alpha,3ngamma)，DOI10.1016/0375-9474(79)90555-4、pages61–79；只核metadata，未得全文，不能由此填169/137的delta算符/误差或消除Ref2/3编号边界。 | external-reference-identity | verified-metadata-only | printed339 Ref2；Crossref DOI10.1016/0375-9474(79)90555-4 retrieved2026-10-18 | true |
 
 ## Nuclear Structure Information
 
@@ -146,3 +147,7 @@ This is one of the clearest sources for the sentence "DCO is compressed angular-
 新KF89-15–18及[[w178-921-dco-gate-double-solutions]]是本session的Codex self-audit，均needs_review:true；原page human-reviewed及KF89-1–14的文字/flags不扩大、不清除。新note把两实测gate角色、作者支、相同目标比的倒数及误差像与本任务条件点模型分开。额外的D96 tensor/photon一致性不代表DCOMAP已重放；部分Table1点值和作者大delta支未复现，保留原因未决。
 
 本轮决定supports多解性，revises不分gate角色直接联合比值的做法，limits强度prior和偏振符号的唯一赋值。下一原件是169/137参考的primary及完整response；printed338的Dors[3]与文末Ref2/3冲突仍开放，不把参考标签自动改成已取得的独立实验。
+
+KF89-19只解决文献身份，网页入口[DOI](https://doi.org/10.1016/0375-9474(79)90555-4)。OA-only下载得到oa_not_found，public publisher discovery无候选、S2没有OA URL，Scholar一次timeout；没有取得或新归档Dors PDF。下载器的TDM license/confirmed_oa标签与Unpaywall is_oa:false不一致，本任务按未取全文保留边界，不把TDM许可当开放全文。另对[[bargholtz-1987-high-spin-gamma-gamma-directional-correlations]]原件/两近似作固定检查后，KF89 Table1差异仍未解释，见[[angular-correlation]]。
+
+本session随后实际取得[[nndc-2009-178w-dco-reference-records]]的178074004/006：前者明确1989KR01、后者1979DO02并列137/169的AD；MR栏仍空，CC不能搬作delta。adopted对象默认E/RI另来自170Er(13C,5n)，其M1+E2/11-标签不算本原实验的新独立确认。新的same-parent诊断不替换本篇−1.9 reference输入或原921两支，完整边界见[[w178-921-dco-gate-double-solutions]]。

@@ -1,0 +1,36 @@
+{
+  "routes": [
+    {
+      "url": "https://www.nndc.bnl.gov/ensdf/DatasetFetchServlet",
+      "method": "POST",
+      "status": "ConnectionError",
+      "scientific_data_obtained": false
+    },
+    {
+      "url": "https://www.nndc.bnl.gov/ensdf/DatasetFetchServlet?nuc=178W&nsrch=Search&searchType=quick&datasource=ensdf",
+      "method": "GET",
+      "status": 200,
+      "page_message": "Search Error Not a valid input method",
+      "scientific_data_obtained": false
+    },
+    {
+      "url": "https://www.nndc.bnl.gov/nudat3/getdataset.jsp?nucleus=178W&unc=nds",
+      "method": "GET",
+      "status": 429,
+      "retry": false,
+      "scientific_data_obtained": false
+    },
+    {
+      "url": "https://nds.iaea.org/relnsd/v1/data?fields=gammas&nuclides=178w",
+      "method": "GET",
+      "status": 403,
+      "page_title": "Just a moment...",
+      "classification": "verification page, not CSV; no challenge interaction",
+      "response_sha256": "20adcb557c6ad7fa248b2d9bbd442142bbb337fc8cf08a6c55b478523987d5ea",
+      "scientific_data_obtained": false
+    }
+  ],
+  "boundary": "Responses remain in repo tmp and are not nuclear evidence or public deliverables; no raw archive changed. Temporary verification scripts/tokens are not copied into this receipt.",
+  "followup_success_manifest": "outputs/learning-daily/20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/n178-public-objects-manifest.json",
+  "followup_boundary": "Official session initialization later returned four valid evaluated datasets; the failed responses remain historical failures."
+}

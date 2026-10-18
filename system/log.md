@@ -1804,3 +1804,8 @@ Run2026-10-16-day-15-01/session01a14510-aec7-7e00-aa23-f7c77a5124bc：07:28:56�
 ## 2026-10-18T11:09:08.282250+08:00 — DAY16 checkpoint001: W178 gate roles and phase audit
 
 独立run2026-10-18-day-16-01/session01a14ce6-425e-77c1-a127-2ac980bd76b5，原2026-10-19 15:00上海截止不改。primed回忆先冻结，D96/KS70/KF89原件主线与实际178W921两候选已核；gate倒数/Cov与新point双根、F/fulltensor/phase控制canonical，原producer/Table1差异保持。writeback5changed、保护文件/旧review、lint0errors/146warnings、boundary/diff通过。研究/goal仍active、next16/count15，partial16无正式学分或17预习。下一Dors1979 primary和BT87三路近似审计，输入已冻结；Farmer旧watcher保留。稳定指针main / Audit DAY16 W178 DCO gate roles and conditional double solutions；actual hash/H3/push仅runreceipt。
+
+
+## 2026-10-18T11:59:10.287892+08:00 — DAY16 checkpoint002: evaluated references and approximation limits
+
+同run/session持续active，原2026-10-19 15:00上海截止不改。BT87原件与exact/infinite/finite三路未解释KF89表差异，exchange与finiteB经典矩边界canonical。四NNDC178W对象、空MR/CC字段、125度RI/弱线精度及同母态参考诊断已写回；137有双根，169central无根但quotedbox相交，非实测CI。13C921 Kexp .0067(.0011)定位到Purry1998，primary/theoryK/校准仍缺、继续该高信息路线。Writeback8changed/8items、lint0errors/148warnings、boundary/diff、v1精确重放与publichash/PLAN/Bib保护通过；raw不动、归档/Bib缺口显式隔离。课程next16/count15、partial16，无formal16/partial17。稳定指针main / Audit DAY16 evaluated W178 references and correlation approximation limits；exacthash/H3/push只receipt。

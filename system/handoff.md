@@ -6,15 +6,17 @@ updated: 2026-10-18
 
 # 跨会话交接
 
-## Active handoff — DAY16 running, W178 gate/phase checkpoint
+## Active handoff — DAY16 running, evaluated W178 references
 
-Run `2026-10-18-day-16-01` / session `01a14ce6-425e-77c1-a127-2ac980bd76b5`，原硬截止2026-10-19 15:00上海、收束至16:00。用户已恢复并要求持续学习/不要中断；原生goal active。Resume `codex resume 01a14ce6-425e-77c1-a127-2ac980bd76b5 -C /workspace/wiki -s danger-full-access -a never`。课程next16/count15，当前partial16，未正式计16或预习17。
+Run `2026-10-18-day-16-01` / session `01a14ce6-425e-77c1-a127-2ac980bd76b5`，原硬截止2026-10-19 15:00上海、收束至16:00；user持续学习/不要中断与native goal均active。Resume `codex resume 01a14ce6-425e-77c1-a127-2ac980bd76b5 -C /workspace/wiki -s danger-full-access -a never`。课程next16/count15，当前partial16，未正式计16或科学预习17。日报遵固定路径`outputs/learning-daily/20261017-DAY16-dco-rdco-mixing-ratio-convention.md`，actual run_date18；receipt/current continuation在18日run-dir。
 
-日报遵用户固定路径`outputs/learning-daily/20261017-DAY16-dco-rdco-mixing-ratio-convention.md`；run-date仍18，receipt与`continuation-current.md`在`outputs/learning-daily/20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/`。primed回忆10:48已冻结/hash。D96/KS70/KF89全文主线重核；新canonical `knowledge/research-notes/w178-921-dco-gate-double-solutions.md`保存178W实测两支、门角色/Cov倒数、新point双根、同号P和完整tensor/phase控制。不是DCOMAP重放；部分Table1与作者>85支未复现，不改原数据/调σ/作新δ或Jπ赋值。
+Checkpoint001已H3/Gitee发布；新的BT87/NNDC科学checkpoint稳定提交指针main / `Audit DAY16 evaluated W178 references and correlation approximation limits`，实际hash/H3/push仅run receipts。Primed回忆先冻结，D96/KS70/KF89/BT87主线已核；canonical `knowledge/research-notes/w178-921-dco-gate-double-solutions.md`与angular-correlation保存gate倒数/Cov、同号P双根、F/fulltensor/phase、两个factorization未解释原表及finite-B经典轴边界。不是DCOMAP或实验L4重放，不调σ/phi/alpha强配作者支。
 
-Fresh检查writeback五项/五changed知识页、raw/PLAN/Bib/旧KF89 rows保护、boundary/diff/lint全部exit0；lint0errors/146warnings。首轮缺六research-note栏目的lint exit1已修复并留证。当前checkpoint以main / `Audit DAY16 W178 DCO gate roles and conditional double solutions`为稳定提交指针；实际hash/H3/push只记本run receipt。候选/研究仍active，不把checkpoint当提前收束。
+官方ENSDF经首页session初始化成功取得001/004/006/005四对象，hash/原行/typed fields与MR空栏在新source `knowledge/sources/nndc-2009-178w-dco-reference-records.md`。169行.8(.3)是CC不是δ；1979 RI125度/弱1089.7为1.3±1.4；137 sameparent诊断两根、169 central无根但quoted box已相交，不报矛盾/CI。原始快照只在repo tmp，raw未动、source归档槽与Bib key空缺显式隔离。v1冻结/输出/精确code snapshot及v2含13C actual K-companion均保留。
 
-下一当前路线BT87：已先冻结来源前假设，再读8页原件；fixed输入`bt87-factorization-input.json`，待实现exact/finite/improved三路，不拟合原表。Dors1979 DOI10.1016/0375-9474(79)90555-4的Crossref/S2身份已核；OA/出版商discovery未得PDF，不能补169参考δ定义。KF89 Dors[3]/文末Ref2/3冲突保持。Farmer已有PID42019保留；不另启daily daemon/session/宿主任务或伪造runner exit。继承Day8–15 receipts/daemon/旧log/raw/PLAN/Bib/凭据/review均保护，log仅任务entry可隔离发布。
+最高信息下一路线：13C1998Pu01层实际921 alphaKexp=.0067(.0011)、1090 .0031(.0005)已typed核；官方Refs/Crossref匹配Purry等NPA632,229–274(1998), DOI10.1016/S0375-9474(97)00654-4。OA-only/public discovery未得46页primary，S2/OpenAlex无OA URL；未读不假称。先冻结Z74/E920.8/FO pureM1/E2的**两次**K-shell理论查询，读旧BrIcc脚本只是priming；旧query/capture硬编码Z70/E489.8不能原样跑。新查询只写tmp与本run回执，不改raw/KB08原humanreview前缀；不以total CC替Kexp、不造实际Cov/显著性。另可定向核Purry1997 thesis公开路线；Dors1979原件/原−1.9坐标仍缺。
+
+Writeback现8 changed知识页；最新verification-checkpoint-004实际boundary/diff/lint均exit0，0errors/148warnings（116citation-key、29raw、3parser）。N178缺Extracted Pages的exit1已修且留证，v1 snapshot/output精确重放与四text hash通过。QMD只读562/2459、38pending/349orphans，外部cache刷新deferred。保留PLAN/Bib/raw/旧review、继承Day8–15 receipts/daemon/旧log；log只隔离本task entry。Farmer旧PID42019保留，不另启daily daemon/session/宿主任务、不伪造runner exit。当前问题仍有高价值route，checkpoint不能提前收束；之后仅可partial17知识预习，禁止formal17/Day18。
 
 ## Previous active handoff — DAY15 complete; final content publication
 

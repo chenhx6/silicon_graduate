@@ -1,0 +1,27 @@
+{
+  "checked_at": "2026-10-18T11:23:45.188537+08:00",
+  "run_deadline": "2026-10-19T15:00:00+08:00",
+  "continuation_decision": "continue-current",
+  "current_candidates": [
+    {
+      "problem": "KF89 original operator/reference/producer",
+      "status": "primary unavailable from first public routes; new selected-data identity route active",
+      "evidence": "Dors external metadata and actual failed retrieval receipts"
+    },
+    {
+      "problem": "BT87 exact versus two factorisations",
+      "status": "fixed hypothesis checked; not explanation for whole KF89 table",
+      "next": "no new parameter tuning; durable result written"
+    },
+    {
+      "problem": "Nuclear-level reference identification",
+      "status": "NNDC POST connection failure; GET empty servlet; NuDat429",
+      "next": "one public IAEA selected-gamma query; no repeated NuDat429 requests"
+    }
+  ],
+  "next_card_checked": "Day17 matrix already read only as governance; no scientific preview begun",
+  "partial_day_indices": [
+    16
+  ],
+  "no_early_closeout": true
+}

@@ -1,0 +1,7 @@
+{
+  "frozen_at": "2026-10-18T11:19:24.350610+08:00",
+  "problem": "178W169/137 reference provenance and level/gamma identity",
+  "priming": "KF89 source/raw, Dors Crossref/S2 metadata and prior 164Yb ENSDF workflow already read; no178W ENSDF object opened in this session",
+  "expectation": "Evaluation may expose primary NSR key, MR sign convention or level/line matching. Adopted multipolarity/theoretical CC must not be counted as independent measurement or original producer replay.",
+  "boundary": "Public selected data only; preserve dataset version and exact L/G records. No raw overwrite or archive; download staging remains inside repository tmp."
+}

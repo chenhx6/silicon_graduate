@@ -1,0 +1,119 @@
+{
+  "identity": "DAY16-N178-SAME-PARENT-REFERENCE-02",
+  "frozen_at": "2026-10-18T11:45:35.973550+08:00",
+  "source_objects": {
+    "178074001": {
+      "path": "tmp/day16-nndc-w178/178074001.ens",
+      "sha256": "a758b17a8a52102c12ba87b66ea6d7c4cdd499dbd831d78e911d2fe08f51fd21"
+    },
+    "178074004": {
+      "path": "tmp/day16-nndc-w178/178074004.ens",
+      "sha256": "01476a95d302609746ee6057fe7f5e47d70782c4d73cb109d3b7b074e66f6c6f"
+    },
+    "178074006": {
+      "path": "tmp/day16-nndc-w178/178074006.ens",
+      "sha256": "317c67228e1bb1ae88421e2d7fdd73bddf2e6743902c9106ecfa7db8ba802251"
+    },
+    "178074005": {
+      "path": "tmp/day16-nndc-w178/178074005.ens",
+      "sha256": "b3215bcbf6609924392278f9e60df57550dfd2f7dd9c3c5f42f155f96bc58d9e"
+    }
+  },
+  "pairs": [
+    {
+      "id": "137-225",
+      "record": "178074006",
+      "parent_energy_keV": 1965.2,
+      "spins": [
+        9,
+        8,
+        7
+      ],
+      "target_energy_keV": 137.34,
+      "reference_energy_keV": 225.83,
+      "target_A2": [
+        -0.64,
+        0.05
+      ],
+      "target_A4": [
+        0.06,
+        0.05
+      ],
+      "reference_A2": [
+        0.3,
+        0.03
+      ],
+      "reference_A4": [
+        -0.04,
+        0.04
+      ]
+    },
+    {
+      "id": "169-306",
+      "record": "178074006",
+      "parent_energy_keV": 2133.93,
+      "spins": [
+        10,
+        9,
+        8
+      ],
+      "target_energy_keV": 168.71,
+      "reference_energy_keV": 306.05,
+      "target_A2": [
+        -0.79,
+        0.04
+      ],
+      "target_A4": [
+        0.04,
+        0.05
+      ],
+      "reference_A2": [
+        0.22,
+        0.04
+      ],
+      "reference_A4": null
+    }
+  ],
+  "declared_model": "same conditional parent density and same angular coefficient layer for each pair; target real M1/E2, reference pure E2; intrinsic F from D96/KS common BM coordinate",
+  "s2_Qtarget_over_Qreference_diagnostic": 1.0,
+  "uncertainty_scales": [
+    1,
+    2
+  ],
+  "signed_delta_source_prior_not_to_fit": -1.9,
+  "failures_to_preserve": [
+    "MR fields may be blank; CC is not delta",
+    "RI at125deg is not a measured angle-integrated branch",
+    "Do not identify gamma by energy alone",
+    "No sigma or Q adjustment to force -1.9",
+    "No experimental confidence or new MR from quoted rectangles",
+    "Same-parent cancellation requires same selection/correction layer; actual response remains missing"
+  ],
+  "hypothesis": "Some reference A2 ratios may be incompatible with the common-layer s2=1 condition even allowing all delta; use full eigenvalue range, not an optimizer root. If so, audit the condition package instead of reporting a new measured delta.",
+  "v1_input_preserved": "outputs/learning-daily/20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/n178-reference-input.json",
+  "new_companion": {
+    "source_record": "178074005",
+    "source_default": "1998PU01, subject to primary verification",
+    "parent_energy_keV": 3053.61,
+    "target_energy_keV": 920.8,
+    "reference_energy_keV": 1089.6,
+    "target_experimental_KICC": [
+      0.0067,
+      0.0011
+    ],
+    "reference_experimental_KICC": [
+      0.0031,
+      0.0005
+    ],
+    "target_A2": [
+      -0.03,
+      0.12
+    ],
+    "reference_A2": [
+      0.07,
+      0.1
+    ],
+    "theory_input_available": false,
+    "forbidden_inference": "Do not use CC total as K shell, infer sign from ICC, use adoption as independent evidence, or make a fit without primary calibration/theoretical coefficients."
+  }
+}
