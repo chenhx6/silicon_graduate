@@ -1,0 +1,7 @@
+# ICC不确定度到混合比：RZ17原式前冻结
+
+已读既有human-reviewedsource摘要，知道其251Fm200keVM2/E3只是workedexample，旧摘要说convolution/asymmetric68%与mean.92；这构成priming，不用旧人审替代当前定量核原式。新问题是其P(delta)用的概率空间/变量变换/Jacobian、物理域归一与大delta尾部是什么；图解“conservative”的适用定义是否只是示例。
+
+预测：若把alpha作为随机变量并单调映到absdelta，Jacobian不可丢；若改作带flat-delta prior的likelihood会是不同对象。对于finitepurecoefficients、alpha接近pureE2端点，delta的尾部可能让高阶矩或数值截断敏感；须先读三页原式再判断，不能按模型记忆宣布论文有错。不把W178的quotederrors/Cov缺口填成作者数据，也不重测251Fm。
+
+若有可核的源参数，冻结source-example输入后比较变量变换/积分/端点与controlledlimits，记录choice/截断/概率含义；没有参数就不虚拟复现。原humanreview全prefix和flags保持，任何新批注needsreviewtrue。

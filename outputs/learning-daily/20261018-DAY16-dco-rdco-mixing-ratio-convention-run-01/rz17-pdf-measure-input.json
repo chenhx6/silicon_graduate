@@ -1,0 +1,91 @@
+{
+  "identity": "DAY16-RZ17-PDF-MEASURE-01",
+  "frozen_at": "2026-10-18T17:33:19.124386+08:00",
+  "source": "knowledge/sources/rezynkina-2017-graphical-extraction-multipole-mixing-ratios.md",
+  "locators": [
+    "printed97 Table1",
+    "printed97 Eq7",
+    "printed97 Eq8",
+    "printed97 Eq11",
+    "printed97 Eq12",
+    "printed97 Eq13",
+    "printed97 Eq14",
+    "printed97 Eq15",
+    "printed98 Eq17",
+    "printed98 Fig3"
+  ],
+  "source_case": {
+    "nucleus": "251Fm",
+    "energy_keV": 200,
+    "spin_path": "5/2+ -> 9/2-",
+    "multipoles": [
+      "M2",
+      "E3"
+    ],
+    "shell": "K",
+    "alpha_exp": [
+      8.8,
+      3.1
+    ],
+    "alpha1": [
+      14.49,
+      0.21
+    ],
+    "alpha2": [
+      0.227,
+      0.004
+    ],
+    "published_mean": [
+      0.92,
+      -0.37,
+      0.42
+    ],
+    "figure1_positive_error_printed": 0.43,
+    "published_graphical": [
+      0.81,
+      -0.36,
+      0.47
+    ]
+  },
+  "statistical_contract": {
+    "joint": "independent Gaussian alpha1/alpha2/alphaexp as stated bysource; explicitly condition alpha1>alphaexp>alpha2>0. Positive absdelta only, no sign inference.",
+    "full_pushforward": "integrate exact delta=sqrt((alpha1-alphaexp)/(alphaexp-alpha2)) over physical domain; alphaexp -> delta includes abs Jacobian",
+    "partial_Pi": "one input varies while two fixed atsource central; conditional physical support retained; each partial normalized separately",
+    "literal_convolution": "ordinary independent sum convolution of positive Pi, no recentering shifts because printedEq14 specifies none; report only mathematical literal implication, not claim actual RooFit recipe recovered",
+    "likelihood_comparison": "fixed purealpha Gaussian likelihood in delta with flat delta coordinate, explicitly a different object and may be improper on0infinity",
+    "interval_definition": "author says34% probability each side of mean; compute that and equal-tailed16/84 separately, neither a frequentist coverage proof",
+    "tails": "derive d^-3 from alphaexp endpoint with nonzero density; first moment finite, second moment logarithmic divergent under chosenGaussian/domain model, not empirical heavy-tail data"
+  },
+  "numeric_design": {
+    "gauss_hermite_orders": [
+      12,
+      20
+    ],
+    "gauss_legendre_theta_orders": [
+      80,
+      160,
+      320,
+      640
+    ],
+    "delta_cutoffs": [
+      2,
+      5,
+      10,
+      30,
+      100,
+      300,
+      1000
+    ],
+    "seed": 2026101804,
+    "MC_draws": 800000,
+    "MC_role": "independent check of joint physical probability and quantiles; finite sample mean may be tail-unstable",
+    "quadrature": "CDF analytic in alphaexp; GaussHermite over theory normals; theta=atan(delta) compact integration for mean"
+  },
+  "failure_controls": [
+    "zero_theoryerrors converge to Pexp",
+    "probability domain rejected explicitly not silently clamp",
+    "ordinaryconvolution expectation sum not authors .92 unless hidden centering recipe",
+    "keep all old source prefixes/review",
+    "no new measured251Fm or W178delta"
+  ]
+}

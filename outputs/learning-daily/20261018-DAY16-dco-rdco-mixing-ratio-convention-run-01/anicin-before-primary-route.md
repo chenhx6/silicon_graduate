@@ -1,0 +1,5 @@
+# Anicin1972 primary：下一source问题
+
+Martin1987原章Eq9归给Anicin/Vukanovic/Kukoc NIM103395–396；Crossref已核准确题名/DOI，publicpublisherdiscovery无PDF、公开ElsevierXML只有metadata。这些已受priming，不再重试同publisher终态。下一通过Serbian/Vinca institutional repository或其它未查合法metadata-to-fulltext入口找这两页primary。期望核其totalICC修正推导、适用的gamma/ce未观测selection、是否真的宣称δ替代为Delta而非另一normalization。
+
+如果取得原primary，metadata/标题/两页完整主线与原式原图核；如果没有，只把Martin为直接方法证据，Anicin保持metadata-only，不据搜索片段补原文。不得将primary年代/原physicaldata归属与现在nominalBrIcc理论查询混为同一实验。读得新范围才更新review/reading，原flags不清。

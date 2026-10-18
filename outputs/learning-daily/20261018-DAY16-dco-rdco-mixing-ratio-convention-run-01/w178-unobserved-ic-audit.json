@@ -1,0 +1,112 @@
+{
+  "identity": "DAY16-W178-168P71-UNOBSERVED-IC-01",
+  "input_sha256": "b6a47887c989f64fbaf5156d12ffec3bc529a646bb11ff77e05729c43cd34ffd",
+  "captured_theory_sha256": "97d9f390f100a1f6cea71cc68bae99f660df58b2f8cb24d1772495f26f5c0498",
+  "script_sha256": "e3a6ddb69fc979c99231db2d1d4ccc7d5f4114dd0cbb0e85c1709f82536fabe4",
+  "alpha_total_M1_E2": [
+    1.073,
+    0.553
+  ],
+  "q_gamma": 3.61,
+  "ICC_weight_factor_c": 0.7491558128316449,
+  "q_total_decay": 2.704452484322238,
+  "abs_effective_total_mixing_coordinate": 1.644521962249893,
+  "radiative_E2_fraction": 0.7830802603036877,
+  "total_decay_E2_fraction": 0.7300545750736067,
+  "radiative_fraction_of_middle_decays": 0.6003127877041355,
+  "theory_c_literal_margin_box": [
+    0.7399425287356322,
+    0.7585034013605443
+  ],
+  "theory_c_local_error_covariance_family": {
+    "-1": 0.009279950406403606,
+    "0": 0.006654182354971645,
+    "1": 0.0015616677243003739
+  },
+  "confidence_level": null,
+  "pure_U_GSL_vs_channel_max_error": 4.440892098500626e-16,
+  "U_records": [
+    {
+      "rank": 0,
+      "U_M1": 1.0,
+      "U_E2": 1.0000000000000002,
+      "photon_conditioned": 1.0000000000000004,
+      "total_decay_marginal": 1.0000000000000002,
+      "difference": -2.220446049250313e-16,
+      "analytic_difference": -1.1774067327792399e-17,
+      "theory_literal_margin_image": [
+        1.0000000000000002,
+        1.0000000000000002
+      ]
+    },
+    {
+      "rank": 2,
+      "U_M1": 0.9849621190380116,
+      "U_E2": 0.9252674451569198,
+      "photon_conditioned": 0.9382163982764626,
+      "total_decay_marginal": 0.9413817492635936,
+      "difference": 0.0031653509871309993,
+      "analytic_difference": 0.0031653509871311064,
+      "theory_literal_margin_image": [
+        0.9412362850621463,
+        0.9415277402555401
+      ]
+    },
+    {
+      "rank": 4,
+      "U_M1": 0.9498713802919553,
+      "U_E2": 0.7579781721521663,
+      "photon_conditioned": 0.7996035969113398,
+      "total_decay_marginal": 0.8097788657639505,
+      "difference": 0.010175268852610775,
+      "analytic_difference": 0.010175268852610862,
+      "theory_literal_margin_image": [
+        0.8093112596867177,
+        0.8102481652505336
+      ]
+    }
+  ],
+  "endpoint_design": [
+    {
+      "delta_first_conditional_candidate": 0.091860035,
+      "predictions": {
+        "gamma_postselected_middle": {
+          "W_first90_last38": 0.007476989003800581,
+          "W_first38_last90": 0.005047436552208309,
+          "R_W90_38_over_W38_90": 1.4813438319555134
+        },
+        "middle_gamma_or_conversion_unobserved": {
+          "W_first90_last38": 0.00748111316792776,
+          "W_first38_last90": 0.005042532264784768,
+          "R_W90_38_over_W38_90": 1.4836024392294254
+        }
+      },
+      "R_total_minus_gamma": 0.0022586072739119167,
+      "fractional_R_change": 0.0015247015751436166,
+      "measured_ratio_for_this_gate_available": false
+    },
+    {
+      "delta_first_conditional_candidate": 46.26909,
+      "predictions": {
+        "gamma_postselected_middle": {
+          "W_first90_last38": 0.007861505803928331,
+          "W_first38_last90": 0.0052736893374002,
+          "R_W90_38_over_W38_90": 1.490703244155042
+        },
+        "middle_gamma_or_conversion_unobserved": {
+          "W_first90_last38": 0.007866593799286104,
+          "W_first38_last90": 0.005271285237214934,
+          "R_W90_38_over_W38_90": 1.4923483449061832
+        }
+      },
+      "R_total_minus_gamma": 0.0016451007511411042,
+      "fractional_R_change": 0.0011035736036608679,
+      "measured_ratio_for_this_gate_available": false
+    }
+  ],
+  "identifiability_boundary": "q_gamma_B=q_gamma_A*c_A/c_B => c_B*q_gamma_B=c_A*q_gamma_A => all U_k equal (c_A,c_B>0). No parity identification from U alone when q_gamma is free.",
+  "missing_companion": "Independent radiative |delta_gamma| or matched measured ICC/branch/response; ENSDF CC.8(.3) has no certified producer here and is not treated as an independent measurement.",
+  "all_internal_checks_passed": true,
+  "new_experimental_result": false,
+  "scope": "Martin Eq9 total-decay versus explicitly photon-conditioned channels; chosen endpoint/gate/spin/alignment/point response. No new W178 delta, DCO or experimental significance."
+}

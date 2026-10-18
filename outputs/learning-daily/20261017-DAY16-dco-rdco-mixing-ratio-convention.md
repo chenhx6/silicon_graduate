@@ -173,6 +173,16 @@ source原197Pb正link/负inband pattern对E1/负宇称的支持保留为作者�
 
 [首Python包装失败](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/alpaca-first-wrapper-failure.json)保留undefined evaluate_angular_correlation_rotated；未改upstream source，改从实际导出的create/evaluate/free CABI执行，不声称Python/rotation全部ready。[最终结果](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/alpaca-comparison-result.json)另核API对象切换：填first EM会启用pol-dir，theta135示例Wdir=.89954143而pol两轴=.92027694/.87880592、平均回dir；仅90度检查会漏此例差别。新知识已写[双解方法单](../../knowledge/methods/dco-pdco-ambiguity-worksheet.md)与IF21/KS70反链。
 
+### 官方ENSDF原相位章：完全未观测转换与MR字段
+
+[来源前冻结](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/ensdf-phase-before-freeze.json)后，从NNDC官方首页取得两份不同manual：[Martin1987原phase章](../../knowledge/sources/martin-1987-ensdf-mixing-ratio-phase-conventions.md)实际完整九页PDF132–140、章内1–9；[Tuli2001格式](../../knowledge/sources/tuli-2001-ensdf-format-manual.md)仅定向GammaRecord/V.9–14，whole112页skimmed。MA87-1/2/5给first/last相位、原NRFδ1=−δ2直接locator，保留RB术语/算符归一边界；TU01-1说明unsignedMR符号未知，不能被普通float自动认正，DMR也保留代数不对称范围。rawarchive/Bib缺口仍显式，不称186页整本精读。
+
+MA87-3原Eq9新增有意义的sample条件：完全未观测mixedbranch用Delta²=δgamma²(1+alpha_Lprime)/(1+alpha_L)而非总沿radiativeδ²；观测electron则另用shellratio和particleparameters。按[新冻结168.71输入](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/w178-unobserved-ic-input.json)各1POST/0retry，KB08-D16-5给nominalW74FO totalM1=1.073(.015)/E2=.553(.008)、所有列明shell数值/无warnings。旧920.8/Kquery不重跑、不代total。Ref21 Anicin1972只取得metadata，无body，未借chapter转述假称原读。
+
+[新程序](../../system/scripts/day16_unobserved_conversion_audit.py)与[结果](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/w178-unobserved-ic-audit.json)：声明middle168.71radiativeδ=−1.9后qgamma3.61→qtot2.70445，fE2 .78308→.73005；10→9的U2 .938216→.941382、U4 .799604→.809779。没有测得的新endpointgate 11→10→9→7设计中，两个旧first候选的R变化约+.152%/+.110%；不是原两DCO测量重放或差异解释。q/c精确缩放还能保持所有Uk，故paritysensitivity不保证自由q下唯一parity。
+
+新知识已回写[internal-conversion-analysis](../../knowledge/methods/internal-conversion-analysis.md)/[deorientation](../../knowledge/concepts/deorientation.md)/[multipole-mixing-ratio](../../knowledge/observables/multipole-mixing-ratio.md)、双解单与NRF边界，source见MA87-3/4、KB08-D16-5、N178-4；电子/γselection、response/Σ与operator假设逐项保留。首JSONnumpybool序列化failure已记，未修改输入或网络重试。研究继续至原deadline，不因本条完成结束。
+
 ## Counter-evidence and missing companion observables
 
 最直接反例是一个已知pure参考也无法验证混合项相位：两纯端点通过，错误换号仍改R。另一个反例是本点模型部分Table1不吻合（例如.637341对印值.66；1.188657对1.12），且两比值rectangle没有复现作者>85支；原因未裁决，不能报告原文错误或实验新δ。
@@ -330,7 +340,7 @@ canonical [178W知识单](../../knowledge/research-notes/w178-921-dco-gate-doubl
     },
     {
       "knowledge": "knowledge/methods/dco-pdco-ambiguity-worksheet.md",
-      "summary": "将本session178W新交付与Day15预习分开，增加canonical反链。 恢复批次新增：同一mixed跃迁的上游与下游参考：1505-keV真实表值。 新增固定ALPACA独立实现/观测对象边界。",
+      "summary": "将本session178W新交付与Day15预习分开，增加canonical反链。 恢复批次新增：同一mixed跃迁的上游与下游参考：1505-keV真实表值。 新增固定ALPACA独立实现/观测对象边界。 新增原ENSDF章/total-decay和MR字段边界。",
       "anchor": "独立正式Day16的新实测对象",
       "sources": [
         {
@@ -364,12 +374,16 @@ canonical [178W知识单](../../knowledge/research-notes/w178-921-dco-gate-doubl
         {
           "path": "knowledge/sources/alpaca-2023-v105-angular-correlation-code.md",
           "locator": "AC23-6"
+        },
+        {
+          "path": "knowledge/sources/martin-1987-ensdf-mixing-ratio-phase-conventions.md",
+          "locator": "MA87-3"
         }
       ]
     },
     {
       "knowledge": "knowledge/index.md",
-      "summary": "最小索引新增178W921计算单导航，不添加独立科学结论。 新增固定ALPACA独立实现/观测对象边界。",
+      "summary": "最小索引新增178W921计算单导航，不添加独立科学结论。 新增固定ALPACA独立实现/观测对象边界。 新增原ENSDF章/total-decay和MR字段边界。",
       "anchor": "w178-921-dco-gate-double-solutions",
       "sources": [
         {
@@ -379,6 +393,10 @@ canonical [178W知识单](../../knowledge/research-notes/w178-921-dco-gate-doubl
         {
           "path": "knowledge/sources/alpaca-2023-v105-angular-correlation-code.md",
           "locator": "AC23-1"
+        },
+        {
+          "path": "knowledge/sources/martin-1987-ensdf-mixing-ratio-phase-conventions.md",
+          "locator": "MA87-1"
         }
       ]
     },
@@ -509,7 +527,7 @@ canonical [178W知识单](../../knowledge/research-notes/w178-921-dco-gate-doubl
     },
     {
       "knowledge": "knowledge/sources/kibedi-2008-evaluation-theoretical-conversion-coefficients-bricc.md",
-      "summary": "精确保留既有人审全字节前缀；追加KB08原式默认/SC/误差边界、两次Z74 FO理论查询和K-companion固定点检查，均新Codex-only claims。",
+      "summary": "精确保留既有人审全字节前缀；追加KB08原式默认/SC/误差边界、两次Z74 FO理论查询和K-companion固定点检查，均新Codex-only claims。 新增原ENSDF章/total-decay和MR字段边界。",
       "anchor": "2026-10-18 W178 K-shell理论输入与使用边界",
       "sources": [
         {
@@ -527,12 +545,16 @@ canonical [178W知识单](../../knowledge/research-notes/w178-921-dco-gate-doubl
         {
           "path": "knowledge/sources/kibedi-2008-evaluation-theoretical-conversion-coefficients-bricc.md",
           "locator": "KB08-D16-4"
+        },
+        {
+          "path": "knowledge/sources/kibedi-2008-evaluation-theoretical-conversion-coefficients-bricc.md",
+          "locator": "KB08-D16-5"
         }
       ]
     },
     {
       "knowledge": "knowledge/methods/internal-conversion-analysis.md",
-      "summary": "保存实际W178 Kexp与shell匹配理论、两固定DCO点均在literal box外的反向检验；名义abs(delta)映射不当实验新测量。",
+      "summary": "保存实际W178 Kexp与shell匹配理论、两固定DCO点均在literal box外的反向检验；名义abs(delta)映射不当实验新测量。 新增原ENSDF章/total-decay和MR字段边界。",
       "anchor": "178W 921-keV：真实K-shell companion不能自动替两个DCO点选支",
       "sources": [
         {
@@ -542,6 +564,22 @@ canonical [178W知识单](../../knowledge/research-notes/w178-921-dco-gate-doubl
         {
           "path": "knowledge/sources/nndc-2009-178w-dco-reference-records.md",
           "locator": "N178-12"
+        },
+        {
+          "path": "knowledge/sources/martin-1987-ensdf-mixing-ratio-phase-conventions.md",
+          "locator": "MA87-3"
+        },
+        {
+          "path": "knowledge/sources/martin-1987-ensdf-mixing-ratio-phase-conventions.md",
+          "locator": "MA87-4"
+        },
+        {
+          "path": "knowledge/sources/kibedi-2008-evaluation-theoretical-conversion-coefficients-bricc.md",
+          "locator": "KB08-D16-5"
+        },
+        {
+          "path": "knowledge/sources/nndc-2009-178w-dco-reference-records.md",
+          "locator": "N178-4"
         }
       ]
     },
@@ -815,6 +853,105 @@ canonical [178W知识单](../../knowledge/research-notes/w178-921-dco-gate-doubl
           "locator": "AC23-5"
         }
       ]
+    },
+    {
+      "knowledge": "knowledge/sources/martin-1987-ensdf-mixing-ratio-phase-conventions.md",
+      "summary": "新增ENSDF原相位/format与total-decay条件权重；Martin 1987：相位定义与完全未观测跃迁",
+      "anchor": "Martin 1987：相位定义与完全未观测跃迁",
+      "sources": [
+        {
+          "path": "knowledge/sources/martin-1987-ensdf-mixing-ratio-phase-conventions.md",
+          "locator": "MA87-1"
+        },
+        {
+          "path": "knowledge/sources/martin-1987-ensdf-mixing-ratio-phase-conventions.md",
+          "locator": "MA87-2"
+        },
+        {
+          "path": "knowledge/sources/martin-1987-ensdf-mixing-ratio-phase-conventions.md",
+          "locator": "MA87-3"
+        },
+        {
+          "path": "knowledge/sources/martin-1987-ensdf-mixing-ratio-phase-conventions.md",
+          "locator": "MA87-4"
+        },
+        {
+          "path": "knowledge/sources/martin-1987-ensdf-mixing-ratio-phase-conventions.md",
+          "locator": "MA87-5"
+        },
+        {
+          "path": "knowledge/sources/martin-1987-ensdf-mixing-ratio-phase-conventions.md",
+          "locator": "MA87-6"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/sources/tuli-2001-ensdf-format-manual.md",
+      "summary": "新增ENSDF原相位/format与total-decay条件权重；Tuli 2001：不能把MR省略符号读成已知正号",
+      "anchor": "Tuli 2001：不能把MR省略符号读成已知正号",
+      "sources": [
+        {
+          "path": "knowledge/sources/tuli-2001-ensdf-format-manual.md",
+          "locator": "TU01-1"
+        },
+        {
+          "path": "knowledge/sources/tuli-2001-ensdf-format-manual.md",
+          "locator": "TU01-2"
+        },
+        {
+          "path": "knowledge/sources/tuli-2001-ensdf-format-manual.md",
+          "locator": "TU01-3"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/concepts/deorientation.md",
+      "summary": "新增ENSDF原相位/format与total-decay条件权重；未观测γ与全部衰变的条件权重",
+      "anchor": "未观测γ与全部衰变的条件权重",
+      "sources": [
+        {
+          "path": "knowledge/sources/martin-1987-ensdf-mixing-ratio-phase-conventions.md",
+          "locator": "MA87-3"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/observables/multipole-mixing-ratio.md",
+      "summary": "新增ENSDF原相位/format与total-decay条件权重；Radiative、电子与总衰变权重：同符号不等于同对象",
+      "anchor": "Radiative、电子与总衰变权重：同符号不等于同对象",
+      "sources": [
+        {
+          "path": "knowledge/sources/martin-1987-ensdf-mixing-ratio-phase-conventions.md",
+          "locator": "MA87-3"
+        },
+        {
+          "path": "knowledge/sources/martin-1987-ensdf-mixing-ratio-phase-conventions.md",
+          "locator": "MA87-4"
+        },
+        {
+          "path": "knowledge/sources/tuli-2001-ensdf-format-manual.md",
+          "locator": "TU01-1"
+        },
+        {
+          "path": "knowledge/sources/tuli-2001-ensdf-format-manual.md",
+          "locator": "TU01-2"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/methods/polarized-photon-branch-audit.md",
+      "summary": "新增ENSDF原相位/format与total-decay条件权重；ENSDF原1987相位章与固定程序执行：新直接来源",
+      "anchor": "ENSDF原1987相位章与固定程序执行：新直接来源",
+      "sources": [
+        {
+          "path": "knowledge/sources/martin-1987-ensdf-mixing-ratio-phase-conventions.md",
+          "locator": "MA87-2"
+        },
+        {
+          "path": "knowledge/sources/martin-1987-ensdf-mixing-ratio-phase-conventions.md",
+          "locator": "MA87-5"
+        }
+      ]
     }
   ]
 }
@@ -859,3 +996,8 @@ KS70追加twoangle问题因旧KS70-12已经覆盖而verified-no-op；NRF追加�
 ### 恢复checkpoint008（研究继续）
 
 2026-10-18T17:06:46.396253+08:00：actual ALPACA C++/GSL及selectedtests/CABI已核，required boundary/lint/diff均0，0errors/152warnings；[验收002](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/verification-reopened-002.json)通过19changed/19items和单卡coverage。稳定指针main / `Validate DAY16 phases with the pinned ALPACA C++ implementation`，actualhash/H3/push只回执。Goal/window继续active，当前转官方ENSDF原manual相位说明，不重计Day16或开启Day18。
+
+
+### 恢复checkpoint009（研究继续）
+
+2026-10-18T17:32:44.322159+08:00：累计24changed/24writeback，原phase章和168.71conditionalexercise已canonical。Boundary/diff/lint-fixed实际exit0，0errors/156warnings；首Tuli缺required限制栏目lint1已修并保留。[verification003](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/verification-reopened-003.json)通过单卡coverage/writeback/hash/KB08旧prefix保护。稳定指针main / `Separate DAY16 phase conventions and unobserved decay channels`，实际hash/remote只回执。下一继续RZ17变量变换/概率域，goal/windowactive原15:00，不重计卡。

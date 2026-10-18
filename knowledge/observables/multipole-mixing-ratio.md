@@ -371,3 +371,9 @@ ICC-based `delta` extraction 也可能带来明显非对称误差；当 experime
 [[sensharma-2021-wobbling-motion-135pr-187au]] SE21-16/17及[[se21-alignment-calibration-consistency]]给出新条件forward检查：在23/2→19/2、固定Gaussian width和point single-gamma模型中，M3/E2仅.04的振幅仍能线性改变A4。误按pureE2参考除maximum系数可让apparent alignment越出核正性域，虽然真实布居和发射均物理。此为明确选定的模型scope反例，不是新的实验delta/归因，也不把七角equalweight projection当actualSigma。
 
 物理相对相位控制delta→−delta时operators固定，observable可改变；KS/RB重参数化须同时变系数与振幅，observable不变。小fraction、native sign、参考纯性和响应/核取向都应随输入保存，不能以一个“delta很小”跳过校准条件。
+
+## Radiative、电子与总衰变权重：同符号不等于同对象
+
+[[martin-1987-ensdf-mixing-ratio-phase-conventions]] MA87-3/4给三层：δgamma是归一辐射振幅比；观测i-shell电子的deltacei=sqrt(alpha_i(Lprime)/alpha_i(L))*δgamma（电子角式另有particleparameters）；完全未观测branch的Delta²=(1+alpha_Lprime)/(1+alpha_L)*δgamma²。后者只定义强度权重，不由无干涉的Uk测得sign；alphaK不能代total。[[internal-conversion-analysis]]保存gate/selection与新W178条件例，不把effectiveDelta当另一个measuredMR。
+
+[[tuli-2001-ensdf-format-manual]] TU01-1/2则规定ENSDF MR42–49列的sign若已知必须显式写出，省略时视为未知；一般float将unsignedMR=.5读成正数只能保存magnitude，不能增加+phase证据。空MR≠0，CC≠MR。DMR的+x−y按代数端点映射，例如source MR−3、DMR+1−4就是[−7,−2]。显式`−0.00(1)`保留minusmarker但误差跨零，不证明sign统计上显著；operatorconvention/quotedinterval/marker/provenance要各自保存。

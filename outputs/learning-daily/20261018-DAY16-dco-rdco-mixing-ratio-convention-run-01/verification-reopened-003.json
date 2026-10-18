@@ -1,0 +1,101 @@
+{
+  "at": "2026-10-18T17:29:29.103794+08:00",
+  "report": {
+    "valid": true,
+    "missing_headings": []
+  },
+  "coverage": {
+    "valid": true,
+    "completed_day_indices": [
+      16
+    ],
+    "partial_day_indices": [
+      17
+    ],
+    "curriculum_cards_completed": 1,
+    "next_day_index": 17,
+    "error": null
+  },
+  "writeback": {
+    "valid": true,
+    "mode": "updated",
+    "knowledge_paths": [
+      "knowledge/research-notes/w178-921-dco-gate-double-solutions.md",
+      "knowledge/sources/kramer-flecken-1989-use-dco-ratios.md",
+      "knowledge/sources/droste-1996-pdco-formalism.md",
+      "knowledge/sources/krane-steffen-1970-cd110-mixing-ratios.md",
+      "knowledge/sources/rose-brink-1967-phase-defined-angular-distributions.md",
+      "knowledge/sources/bargholtz-1987-high-spin-gamma-gamma-directional-correlations.md",
+      "knowledge/sources/nndc-2009-178w-dco-reference-records.md",
+      "knowledge/sources/kibedi-2008-evaluation-theoretical-conversion-coefficients-bricc.md",
+      "knowledge/sources/purry-1997-phd-w178-multiparticle-structure.md",
+      "knowledge/methods/dco-ratio.md",
+      "knowledge/methods/dco-pdco-ambiguity-worksheet.md",
+      "knowledge/sources/alpaca-2023-v105-angular-correlation-code.md",
+      "knowledge/sources/martin-1987-ensdf-mixing-ratio-phase-conventions.md",
+      "knowledge/index.md",
+      "knowledge/methods/angular-correlation.md",
+      "knowledge/sources/konigshofen-2001-mixing-ratios-130ba.md",
+      "knowledge/methods/internal-conversion-analysis.md",
+      "knowledge/methods/angular-distribution.md",
+      "knowledge/sources/schmid-1998-gammasphere-polarization.md",
+      "knowledge/methods/compton-polarimetry.md",
+      "knowledge/methods/linear-polarization-asymmetry.md",
+      "knowledge/sources/iliadis-friman-gayer-2021-polarization-direction-correlations.md",
+      "knowledge/sources/tuli-2001-ensdf-format-manual.md",
+      "knowledge/concepts/deorientation.md",
+      "knowledge/observables/multipole-mixing-ratio.md",
+      "knowledge/methods/polarized-photon-branch-audit.md"
+    ],
+    "changed_paths": [
+      "knowledge/concepts/deorientation.md",
+      "knowledge/index.md",
+      "knowledge/methods/angular-correlation.md",
+      "knowledge/methods/angular-distribution.md",
+      "knowledge/methods/compton-polarimetry.md",
+      "knowledge/methods/dco-pdco-ambiguity-worksheet.md",
+      "knowledge/methods/dco-ratio.md",
+      "knowledge/methods/internal-conversion-analysis.md",
+      "knowledge/methods/linear-polarization-asymmetry.md",
+      "knowledge/methods/polarized-photon-branch-audit.md",
+      "knowledge/observables/multipole-mixing-ratio.md",
+      "knowledge/research-notes/w178-921-dco-gate-double-solutions.md",
+      "knowledge/sources/alpaca-2023-v105-angular-correlation-code.md",
+      "knowledge/sources/bargholtz-1987-high-spin-gamma-gamma-directional-correlations.md",
+      "knowledge/sources/iliadis-friman-gayer-2021-polarization-direction-correlations.md",
+      "knowledge/sources/kibedi-2008-evaluation-theoretical-conversion-coefficients-bricc.md",
+      "knowledge/sources/konigshofen-2001-mixing-ratios-130ba.md",
+      "knowledge/sources/kramer-flecken-1989-use-dco-ratios.md",
+      "knowledge/sources/krane-steffen-1970-cd110-mixing-ratios.md",
+      "knowledge/sources/martin-1987-ensdf-mixing-ratio-phase-conventions.md",
+      "knowledge/sources/nndc-2009-178w-dco-reference-records.md",
+      "knowledge/sources/purry-1997-phd-w178-multiparticle-structure.md",
+      "knowledge/sources/schmid-1998-gammasphere-polarization.md",
+      "knowledge/sources/tuli-2001-ensdf-format-manual.md"
+    ],
+    "change_check": "run-snapshot",
+    "error": null
+  },
+  "required_exit_codes": {
+    "boundary": 0,
+    "lint_first": 1,
+    "lint_after_source_required_section_fix": 0,
+    "git_diff_check": 0
+  },
+  "errors_after_fix": 0,
+  "warnings": 156,
+  "warning_classes": {
+    "citation_key_missing": 120,
+    "raw_missing": 33,
+    "reaction_parser": 3
+  },
+  "protected_plan_bib": {
+    "PLAN.md": true,
+    "raw/zotero/wiki-inbox.bib": true
+  },
+  "KB08_previous_whole_byte_prefix_preserved": true,
+  "primary_hashes": {
+    "tmp/day16-ensdf-phase-manual/procedures.pdf": "f08bf2c3e7802ed741377c13344a701f54670f19e6c143be5901cd151cc256c8",
+    "tmp/day16-ensdf-phase-manual/format.pdf": "3400f0ae84d24f252f5bed4e6f0227304df9a4608aceb1d67e609db12605a0e9"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "exit_code": 1,
+  "stage": "after numeric controls, at JSON serialization; no final result file written",
+  "exception": "TypeError: Object of type bool is not JSON serializable",
+  "cause": "NumPy comparison produced numpy.bool_ in all_internal_checks_passed; cast to Python bool only",
+  "input_unchanged": true,
+  "script_before_fix_sha256": "528c002b5f55a0558b089e5009009529448321a9c2221aec1c5afe8ccededde7"
+}

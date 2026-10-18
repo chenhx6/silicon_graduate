@@ -1,0 +1,78 @@
+{
+  "identity": "DAY16-W178-168P71-UNOBSERVED-IC-01",
+  "frozen_at": "2026-10-18T17:15:30.558267+08:00",
+  "source_primary": "M.J.Martin August1987 phase chapter p4Eq9, proceduresPDF135; p5Eq10/12/14",
+  "source_evaluated_identity": {
+    "path": "knowledge/sources/nndc-2009-178w-dco-reference-records.md",
+    "locator": "N178-4",
+    "parent_energy_keV": 2133.93,
+    "parent_spin_literal": "(10-)",
+    "gamma_energy_keV": 168.71,
+    "daughter_energy_keV": 1965.2,
+    "daughter_spin_literal": "(9-)",
+    "energy_uncertainty_keV_not_propagated": 0.05
+  },
+  "endpoint_design": {
+    "spins": [
+      11,
+      10,
+      9,
+      7
+    ],
+    "first_energy_nominal_keV": 920.9,
+    "last_energy_keV": 225.83,
+    "last_multipole": "E2",
+    "source_identity_scope": "source-literal historical reference structure; fixed-spin conditional design, no measured endpoint DCO is supplied",
+    "angles_AB_deg": [
+      90.0,
+      38.0,
+      18.0
+    ],
+    "sigma_std_over_J": 0.3,
+    "first_delta_KS_D96_candidates": [
+      0.091860035,
+      46.26909
+    ]
+  },
+  "middle_delta_gamma": -1.9,
+  "middle_delta_boundary": "Declared radiative amplitude coordinate from oldKF89 nominal reference input. Primary normalization/operator convention not certified, no new measureddelta or error supplied. Phase sign immaterial to q but amplitude-normalization assumption remains.",
+  "endpoint_selection": "Observe first/last photons only; middle gamma neither required nor vetoed, no multiplicity condition selecting its photon channel. Compare against the explicitly gamma-postselected alternative. No finite response/timing/feeding or Sigma supplied.",
+  "endpoint": "https://bricc.anu.edu.au/",
+  "requests": [
+    {
+      "atomic": "74",
+      "energy": "168.71",
+      "eerror": "",
+      "multipole": "M1",
+      "delta": "",
+      "derror": "",
+      "subshells": "on",
+      "dataset": "BrIccFO",
+      "calculate": "Calculate"
+    },
+    {
+      "atomic": "74",
+      "energy": "168.71",
+      "eerror": "",
+      "multipole": "E2",
+      "delta": "",
+      "derror": "",
+      "subshells": "on",
+      "dataset": "BrIccFO",
+      "calculate": "Calculate"
+    }
+  ],
+  "max_attempts_per_multipole": 1,
+  "theory_dataset": "BrIccFO",
+  "requested_result": "all shell rows and printed Tot, known cells/missingwarnings and version echo; no total certification if table incomplete",
+  "physics_relation": "q_total_decay=q_gamma*(1+alpha_E2_total)/(1+alpha_M1_total); U=(U_M1+q*U_E2)/(1+q)",
+  "failure_controls": [
+    "equal ICCs recover gamma-only",
+    "zero ICCs recover gamma-only",
+    "delta0 and pureE2 limits",
+    "delta sign blind",
+    "U0=1 and photon/total channels trace preserving",
+    "keep source-only coefficient errors/Cov separate from experiment"
+  ],
+  "no_new_measured_observable": true
+}

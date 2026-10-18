@@ -1,0 +1,33 @@
+{
+  "url": "https://api.elsevier.com/content/article/PII:0029554X72904016?httpAccept=text/xml",
+  "status": 200,
+  "bytes": 1841,
+  "sha256": "af506e5abc9afa5cb4ab1ebe7a2acdb212a5c2508cecf63ad5119b851ae53542",
+  "tags": [
+    "full-text-retrieval-response",
+    "coredata",
+    "url",
+    "identifier",
+    "eid",
+    "doi",
+    "pii",
+    "title",
+    "publicationName",
+    "aggregationType",
+    "issn",
+    "coverDate",
+    "coverDisplayDate",
+    "openaccess",
+    "openaccessArticle",
+    "openaccessType",
+    "openArchiveArticle",
+    "openaccessSponsorName",
+    "openaccessSponsorType",
+    "openaccessUserLicense",
+    "link",
+    "link"
+  ],
+  "text_excerpt": "https://api.elsevier.com/content/article/pii/0029554X72904016 doi:10.1016/0029-554X(72)90401-6 1-s2.0-0029554X72904016 10.1016/0029-554X(72)90401-6 0029-554X(72)90401-6 The new feature of 1–3 directional correlations with mixed unobserved transitions Nuclear Instruments and Methods Journal 0029554X 1972-09-01 1 September 1972 0 false false",
+  "body_read": false,
+  "discovery": "public publisher PDF discovery200/no_candidate; Crossref TDM license is not OA/full-body proof"
+}

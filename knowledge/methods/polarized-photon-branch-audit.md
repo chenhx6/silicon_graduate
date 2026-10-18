@@ -93,3 +93,9 @@ theta90数据在每行刻意相同，45°增加了不同direction的约束；但
 - [[rusev-2009-multipole-mixing-ratios-11b]] RU09-8–14；actualasymmetry/控制/作者选根与数据依赖。
 - [[iliadis-friman-gayer-2021-polarization-direction-correlations]] IF21-1–11；完整显式definition、publishedcriticism、geometry、rank与response。
 - [[krane-steffen-1970-cd110-mixing-ratios]]与[[rose-brink-1967-phase-defined-angular-distributions]]：本run先前核过的operator/state桥，不能仅由符号名推另一NRF角色关系。
+
+## ENSDF原1987相位章与固定程序执行：新直接来源
+
+本日取得[[martin-1987-ensdf-mixing-ratio-phase-conventions]]完整九页章。MA87-5的原p5Eq14在其未改SteffenEqs1–5下明确elasticexcitation/deexcitation δ1=−δ2；这给ALPACA README所述ENSDF原立场直接locator。MA87-2又保留RBabsorption wording与KS70initialleftemission的文字差别，不由左右态标签代替实际process或完整式变换。
+
+[[alpaca-2023-v105-angular-correlation-code]] AC23-4/5把此前仅blobread推进到固定C++实际执行，同时保留Pythonwrapper缺rotation symbol；独立程序与同formalism的trace相容不认证RU09actualproducer，2022reviewfootnote2/2023corrigendumbody仍未得。此处补的是两个新验证层，不把旧未读文献或旧实验claim转为完成/错误。

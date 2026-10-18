@@ -60,3 +60,9 @@ Deorientation is a necessary background concept for P-ADO `sigma/I` uncertainty,
 
 - [[cejnar-1996-spin-deorientation-alpha-2n-gamma]]
 - [[radeck-2012-deorientation-lifetime-98ru-rdds]]
+
+## 未观测γ与全部衰变的条件权重
+
+[[martin-1987-ensdf-mixing-ratio-phase-conventions]] MA87-3原Eq9指出：对完全未观测的两multipolebranch，U所用qtot=δgamma²(1+alpha_Lprime)/(1+alpha_L)，alpha是totalICC。若明确postselect其光子通道，才按相应gamma条件权重传播；只检测一shellelectron又是另一对象。混合U无干涉、U0=1，但不同multipole/atomicconversion可影响强度权重。
+
+[[internal-conversion-analysis]]的新168.71W例保持qgamma与qtot分开，并保留trace、pure/equalICC和rank2/4控制。这不是hyperfineGk或任意sigma重设，也不模拟电子轨迹。不同candidate的radiativeq自由时，可抵消ICC因子而保全所有Uk，因此原manual所说paritysensitivity不能自动升级为唯一parity测量。

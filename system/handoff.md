@@ -10,11 +10,11 @@ updated: 2026-10-18
 
 2026-10-18T16:31:18.642920+08:00：用户明确恢复持续学习，同run2026-10-18-day-16-01/session01a14ce6-425e-77c1-a127-2ac980bd76b5，原2026-10-19 15:00上海研究截止不变，15–16点收束。此前completed/closeout-only已被本次用户指令覆盖；前次成果/发布历史保留，next17/count16、completed16/partial17不重复计卡，不开Day18。Farmer PID42019 running保留，无新session/daemon/nativegoal；用户/goal resume已恢复原生goal为active，保留原objective并持续pursuing。
 
-恢复checkpoint008：新ALPACA固定2023 C++/GSL对象actualbuild/8selectedctest/CABI执行0，113源blobs不改、devheaders仅tmp。first/last1505与U/polcontrols核相位/归一，EM标签改观测对象；Pythonwrapper缺rotated导出失败保留，未修upstream/未说全包ready。Canonical19changed/19writeback，fresh boundary/lint/diff0、0errors/152warnings(118key/31raw/3parser)。Jül-Spez458仅目录/DCO46页；KS70印刷/branchweights/原responseΣ仍未闭合。
+恢复checkpoint009：NNDC官方Martin1987phase9页已完整读、Tuli2001format定向原图，原NRFδ1=−δ2和unsignedMRsignunknown；未观测U的totaldecay权重与168.71W74FO新两POST条件设计canonical。固定ALPACA执行/旧sourceprior边界保持。KB08全部旧字节prefix保护，累计24changed/24writeback，fresh boundary/lint-fixed/diff0、0errors/156warnings(120key/33raw/3parser)。新Anicin机构route无body，验证不绕过；不能将title/abstract当原式。
 
-稳定指针main / `Validate DAY16 phases with the pinned ALPACA C++ implementation`，actualhash/H3/push仅publication008/runreceipt。下一ENSDF官方phase/procedures/format原件route已primedfreeze；不靠ALPACA README补原文。Goal/window持续active至原2026-10-19 15:00上海，随后closeout，不因checkpoint完成提前停。累计Day16学分一次、partial17，不开Day18；保护raw/PLAN/Bib/旧review与继承dirty/log，精确manifest/H3/Gitee非force。
+稳定指针main / `Separate DAY16 phase conventions and unobserved decay channels`；exacthash/actualH3/push仅publication009/runreceipt。下一RZ17原3页ICC概率传播/Jacobian/物理域/卷积含义/大δ尾部；primedfreeze已保存，原rawhash动态核相符（第一次guard手抄多c失败留证）、全3页主线和原图已加载但numeric待冻。原RZ17人审prefix/flags完整保留；新判断须独立selfaudit，不先宣称原文错。
 
-原session/resume及deadline、固定17日文件名报告、18日run-dir/continuation沿用。
+Goal/window持续active至原2026-10-19 15:00上海后收束，checkpoint不得结束run。Day16credit一次next17/count16、partial17，无formal17/Day18；保护raw/PLAN/Bib/继承dirty/reviews、log只ownentry，精确manifest/H3/Gitee非force。原17日文件名日报/18日run-dir/continuation沿用。
 
 ## Previous active handoff — DAY16 completed; Day17 is next
 

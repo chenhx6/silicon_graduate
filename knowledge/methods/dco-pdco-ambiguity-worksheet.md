@@ -255,3 +255,9 @@ KS70-17进一步提醒：例如764/658包含三条中间路径，公式应为`Ck
 [[alpaca-2023-v105-angular-correlation-code]] AC23-2/3/5/6给出实际固定C++/GSL交叉核验。其Biedenharn first/last坐标需用`dBfirst=−dKS`、`dBlast=dKS`；角平均1对应本页unpolarized joint density乘16pi²，first已选linear polarization则乘32pi²。该区分由条件概率/首光子率给出，不是拟合scale。对1505两角色/declaredcontrols，外部实现与本页trace差约1e−15；pure仍无法识别只改first干涉坐标的错误。
 
 接口还有一项实际使用门：ALPACA constructor以first EM是否unknown选择dir-dir或pol-dir。给EM类型不能仅当标签美化；同一3→2→0、δKS=−.55的条件例theta135时Wdir=.89954143，Wpol(phi0)=.92027694、Wpol(phi90)=.87880592，两者平均回dir。只核90度可漏掉此例的区别；后者不是直接测量的polarimeter A。此程序不带任意beam初态ρ/sigma输入，不能据此声称重放178W DCO。AC23-4另保留固定Pythonwrapper的rotation符号失败，本次实际用现有CABI，未修原程序或声称全包ready。
+
+## 未观测中间跃迁的光子选择与总衰变选择
+
+[[martin-1987-ensdf-mixing-ratio-phase-conventions]] MA87-3提供此前纯photontrace没有覆盖的条件：若中间mixedbranch的γ和conversionelectron都未观测，U必须按qtot=δgamma²(1+alpha_Lprime)/(1+alpha_L)混合。旧[[alpaca-2023-v105-angular-correlation-code]] AC23-5的764–687–818比较是声明的**光子**全角marginal；ALPACA这份输入没有ICC参数，不能因此把相同输出当all-decayselect下的U重放。
+
+[[internal-conversion-analysis]]保存168.71W实际nominaltheory的qgamma/qtot和11→10→9→7新gate设计，作用只为量化selection条件；原KF89两项数据中的169/306gate不被替换。未观测U还需所有可能branch的conditionalweights、timing/finiteacceptance/电子或γ额外trigger；更多相同photon模型agreement不能填该缺口。

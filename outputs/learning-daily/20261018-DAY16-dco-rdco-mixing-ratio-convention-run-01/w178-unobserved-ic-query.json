@@ -1,0 +1,49 @@
+{
+  "identity": "DAY16-W178-168P71-UNOBSERVED-IC-01",
+  "input_sha256": "b6a47887c989f64fbaf5156d12ffec3bc529a646bb11ff77e05729c43cd34ffd",
+  "requests": [
+    {
+      "parameters": {
+        "atomic": "74",
+        "energy": "168.71",
+        "eerror": "",
+        "multipole": "M1",
+        "delta": "",
+        "derror": "",
+        "subshells": "on",
+        "dataset": "BrIccFO",
+        "calculate": "Calculate"
+      },
+      "started_at": "2026-10-18T17:15:30.808085+08:00",
+      "automatic_retries": 0,
+      "http_status": 200,
+      "bytes": 21166,
+      "sha256": "04e1dcc22d60fa663faadfca5f575a60d2f78fa0f246c0b84c6323df6a137494",
+      "response": "tmp/day16-w178-unobserved-ic/Z74-E168p71-FO-M1.html",
+      "content_type": "text/html; charset=utf-8",
+      "finished_at": "2026-10-18T17:15:33.685360+08:00"
+    },
+    {
+      "parameters": {
+        "atomic": "74",
+        "energy": "168.71",
+        "eerror": "",
+        "multipole": "E2",
+        "delta": "",
+        "derror": "",
+        "subshells": "on",
+        "dataset": "BrIccFO",
+        "calculate": "Calculate"
+      },
+      "started_at": "2026-10-18T17:15:33.694879+08:00",
+      "automatic_retries": 0,
+      "http_status": 200,
+      "bytes": 21157,
+      "sha256": "d6a3a1a7c9712a7a4429751ee640bd0dea05c27a13f4f366e2d3e49d3594298d",
+      "response": "tmp/day16-w178-unobserved-ic/Z74-E168p71-FO-E2.html",
+      "content_type": "text/html; charset=utf-8",
+      "finished_at": "2026-10-18T17:15:34.907313+08:00"
+    }
+  ],
+  "numerical_capture_validated": false
+}

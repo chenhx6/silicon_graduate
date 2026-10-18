@@ -145,3 +145,31 @@ A^{-1}\simeq\begin{pmatrix}1470.1759&-9929.5437\\-30.68229&213.98167\end{pmatrix
 - [[rezynkina-2017-graphical-extraction-multipole-mixing-ratios]]
 - [[nndc-2018-164yb-pdco-reference-records]] N164-4/6/10/13；实际参考记录的同量/独立性边界。
 - [[starosta-1999-pdco-experimental-test]] ST99-2/12；fixed−21°point及独立转换需求。
+
+## 完全未观测跃迁：用总衰变权重而非自动沿用光子δ²
+
+[[martin-1987-ensdf-mixing-ratio-phase-conventions]] MA87-3/4区分三个对象。定义radiativeq=δgamma²=Tγ(Lprime)/Tγ(L)，purecomponent totalICC为alpha_L/alpha_Lprime，则所有该branch衰变均未被区分时
+
+$$q_{\rm tot}=q\frac{1+\alpha_{L'}}{1+\alpha_L},\qquad U_k^{\rm all}=\frac{U_k(L)+q_{\rm tot}U_k(L')}{1+q_{\rm tot}}.$$
+
+若额外要求middleγ且对方向全积分、两multipole的探测选择按声明条件相同，权重回q，得到Ugamma；若完全未观测电子/γ，则用qtot。若只选i-shell电子，deltacei=sqrt(alpha_i(Lprime)/alpha_i(L))*deltagamma，还要在观测electron角式使用particleparametersb_k；不能将alphaK替代Eq9的totalalpha。branch、multiplicity、电子/γveto/threshold或方向cut会改变真实条件权重，以上不自动代表实际DAQ。
+
+由两比值直接推得
+
+$$U_k^{\rm all}-U_k^\gamma=\frac{q(c-1)[U_k(L')-U_k(L)]}{(1+q)(1+cq)},\quad c=\frac{1+\alpha_{L'}}{1+\alpha_L}.$$
+
+因此alpha相等/均0、δ=0或pureLprime极限给相同传播；middleδ反号始终不变。转换率不同可以产生宇称敏感性，但若radiativeq自由，任意cB>0可用qB=qA*cA/cB得到完全相同所有Uk；**单靠totaltransfer也不唯一确定parity或radiativeδ**，仍需独立radiativemixing/ICC/responsecompanion。
+
+### W178168.71：来源身份明确的条件设计
+
+[[nndc-2009-178w-dco-reference-records]] N178-4绑定历史2133.93(10−)→1965.20(9−)/168.71keV；旧KF89 nominalδ=−1.9的operator归属未认证，本例显式**选择它作为radiativeE2/M1坐标**，不能把选择升级成实测定义。[[kibedi-2008-evaluation-theoretical-conversion-coefficients-bricc]] KB08-D16-5的新nominalFO total为M1 1.073(.015)/E2 .553(.008)，故c=.749155813、qgamma3.61、qtot2.70445248，radiativeE2fraction.78308026对totaldecay.73005458；abs(Delta)=1.64452196是effectiveweightcoordinate，不是新测δ。middlebranch辐射率份额约.60031279仅为该二成分设计。
+
+| rank | U_M1 / U_E2 | U_gamma | U_all-decay |
+| --- | --- | --- | --- |
+| 0 | 1 / 1 | 1 | 1 |
+| 2 | .984962119 / .925267445 | .938216398 | .941381749 |
+| 4 | .949871380 / .757978172 | .799603597 | .809778866 |
+
+独立GSL6j与CG channelpureU差≤4.45e−16，trace/U0/limits与identity均核。用名义11→10→9→7、首921/末225.83pureE2、point90/38/phi18、fixedstdGaussian.3和旧两个firstδ候选作**另一个没有实测endpointRDCO的设计**：按显式R=W(first90,last38)/W(first38,last90)，小候选Rgamma1.48134383→Rall1.48360244（相对+.15247%），大候选1.49070324→1.49234834（+.11036%）。不可将此两值套到原921(G)–306/.66或169门/.47；原168middle并不是那两项测量的未观测对象。未据此解释历史偏差、改δ或选branch。
+
+给定puretotalquotedmarginals，c的字面box[.739942529,.758503401]无CI；实际theoryCov未知，局部rho−1/0/+1分别给sc≈.00927995/.00665418/.00156167，未再叠加interpolation，能量.05keV/原responseΣ未传播。[冻结input](../../outputs/learning-daily/20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/w178-unobserved-ic-input.json)和[结果](../../outputs/learning-daily/20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/w178-unobserved-ic-audit.json)、[原创程序](../../system/scripts/day16_unobserved_conversion_audit.py)保留query/hash/normalization/role；首JSONnumpybool序列化失败不改physics输入、已留回执。

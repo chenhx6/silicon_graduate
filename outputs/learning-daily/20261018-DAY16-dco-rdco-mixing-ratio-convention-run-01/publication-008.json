@@ -1,0 +1,21 @@
+{
+  "publication_index": 8,
+  "at": "2026-10-18T17:12:22.465742+08:00",
+  "branch": "main",
+  "subject": "Validate DAY16 phases with the pinned ALPACA C++ implementation",
+  "commit": "2fc010c30950720f783a6dc6acf4f67ca470f84d",
+  "origin_main": "2fc010c30950720f783a6dc6acf4f67ca470f84d",
+  "status": "published",
+  "required_exit_codes": {
+    "fresh_fetch": 0,
+    "ancestry": 0,
+    "dry_run_HEAD_main": 0,
+    "push_HEAD_main": 0,
+    "staged_diff_check_final": 0,
+    "post_commit_eol": 0
+  },
+  "original_CMake_trailing_whitespace_log": "losslessly encoded JSON bundle; first cachedcheck failed then passed",
+  "goal_status": "active",
+  "research_deadline": "2026-10-19T15:00:00+08:00",
+  "curriculum_unchanged": true
+}

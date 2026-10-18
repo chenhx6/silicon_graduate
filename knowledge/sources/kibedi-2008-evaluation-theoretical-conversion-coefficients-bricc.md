@@ -453,3 +453,20 @@ HTTP200与offline数值校验分开：核Z/element/energy/multipole/dataset/vers
 在Eq5名义pure系数下，reported central alphaK映射到radiative E2份额.580357与abs(delta)1.176001；把alphaK的quoted范围[.0056,.0078]反映到名义theory得abs(delta)[.789423,1.865476]，正负两支，**没有置信水平**，未传播物理E误差、theory共同Cov或原DCO的branch family。若观测central在pure envelope之外，程序保留no-physical-central-root而不夹到端点。
 
 这项结果限制的是所声明fixed point model和“额外observable必然挑中其中一根”的预期，不裁决原实验或结构模式。转换delta符号不会改变ICC；不能用phase换号掩盖magnitude/response条件的问题。未自由调sigma、K-efficiency或penetration参数强配数据。当前batch stop contract完成；下一高信息输入为primary calibration/response及同对象联合误差，而非更多任意能量query。
+
+## 2026-10-18未观测168.71-keV参考：新的nominal总转换输入
+
+本节与KB08-D16-5为新增Codex self-audit；本节前全部旧字节/人审prefix保持，未扩人审。因[[martin-1987-ensdf-mixing-ratio-phase-conventions]] MA87-3的Eq9需要totalICC，独立冻结新168.71-keV/W74/FO纯M1/E2请求，各一POST/零retry；不是重复920.8-Kshell查询。实际BrIccS v2.3(9-Dec-2011)，本能量所列N6/N7均有数值且无missingwarnings。
+
+| multipole | programTot | K | Ltot/Mtot/Ntot/Otot/Ptot |
+| --- | --- | --- | --- |
+| M1 | 1.073(.015) | .891(.013) | .1409/.0321/.00772/.001260/.0000897 |
+| E2 | .553(.008) | .265(.004) | .218/.0546/.01289/.00180/.0000204 |
+
+所列shelltotal之和M1=1.0730697、E2=.5523104，差异处于各列打印精度口径，不擅以sum重写programTot或称allphysicalcorrections已认证。输入nominalE168.71，其.05keV误差未传入；Zonly/defaultW184/reference及backend原子数据hash仍不暴露，不声称A178核尺寸重算。total与K不可互代；theoryerror/Cov、能区与noE0等适用条件保持。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+| --- | --- | --- | --- | --- | --- |
+| KB08-D16-5 | 新Z74/E168.71/BrIccFO pureM1/E2实际返回Tot1.073(.015)/.553(.008)、K.891(.013)/.265(.004)，v2.3(2011)；所列shell数值齐全/无warning，与920.8能区N6/N7缺值边界分开。是nominaltheoryinput，不是独立measuredICC或A178专用重算。 | versioned-official-total-conversion-input | direct-online-theory-object | https://bricc.anu.edu.au/；DAY16-W178-168P71-UNOBSERVED-IC-01的M1/E2响应Tot/K行 | true |
+
+HTTP SHA256 M1=`04e1dcc22d60fa663faadfca5f575a60d2f78fa0f246c0b84c6323df6a137494`、E2=`d6a3a1a7c9712a7a4429751ee640bd0dea05c27a13f4f366e2d3e49d3594298d`；raw只在repo tmp，不改旧query或rawarchive。[[internal-conversion-analysis]]保存完全未观测/光子选择两样本的权重和W178有界设计；没有新测delta或加一项samegate实验。

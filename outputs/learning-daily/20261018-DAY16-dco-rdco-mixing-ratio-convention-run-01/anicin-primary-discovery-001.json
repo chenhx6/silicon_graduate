@@ -1,0 +1,116 @@
+{
+  "at": "2026-10-18T17:28:53.902729+08:00",
+  "results": [
+    {
+      "name": "vinca",
+      "url": "https://vinar.vin.bg.ac.rs/discover?query=%22The+new+feature%22",
+      "status": 200,
+      "bytes": 13278,
+      "sha256": "3b77e040e60e79c6e248b90de2e3409f1aaee2690962be54a7de83126920beaa",
+      "text_excerpt": "Secure Verification English Serbian Human Verification Required To ensure the security and authenticity of interactions with our website, please complete the verification process below. This step is necessary to continue accessing the content. 45s Verify",
+      "links": []
+    },
+    {
+      "name": "openalexdoi",
+      "url": "https://api.openalex.org/works/https://doi.org/10.1016/0029-554X(72)90401-6",
+      "status": 200,
+      "bytes": 9242,
+      "sha256": "3b5b87fcdd1c1afe581e63b8922bb533b7f50cdb5985e39eafb73791fe29aa26",
+      "selected": {
+        "id": "https://openalex.org/W1985723935",
+        "doi": "https://doi.org/10.1016/0029-554x(72)90401-6",
+        "title": "The new feature of 1–3 directional correlations with mixed unobserved transitions",
+        "publication_year": 1972,
+        "open_access": {
+          "is_oa": false,
+          "oa_status": "closed",
+          "oa_url": null,
+          "any_repository_has_fulltext": false
+        },
+        "primary_location": {
+          "id": "doi:10.1016/0029-554x(72)90401-6",
+          "doi": "https://doi.org/10.1016/0029-554x(72)90401-6",
+          "is_oa": false,
+          "landing_page_url": "https://doi.org/10.1016/0029-554x(72)90401-6",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S44816201",
+            "display_name": "Nuclear Instruments and Methods",
+            "issn_l": "0029-554X",
+            "issn": [
+              "0029-554X",
+              "1878-3759"
+            ],
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": false,
+            "listed_in": [],
+            "host_organization": "https://openalex.org/P4310320990",
+            "host_organization_name": "Elsevier BV",
+            "host_organization_lineage": [
+              "https://openalex.org/P4310320990"
+            ],
+            "host_organization_lineage_names": [
+              "Elsevier BV"
+            ],
+            "type": "journal"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": "Nuclear Instruments and Methods",
+          "raw_type": "journal-article"
+        },
+        "best_oa_location": null,
+        "locations": [
+          {
+            "id": "doi:10.1016/0029-554x(72)90401-6",
+            "doi": "https://doi.org/10.1016/0029-554x(72)90401-6",
+            "is_oa": false,
+            "landing_page_url": "https://doi.org/10.1016/0029-554x(72)90401-6",
+            "pdf_url": null,
+            "source": {
+              "id": "https://openalex.org/S44816201",
+              "display_name": "Nuclear Instruments and Methods",
+              "issn_l": "0029-554X",
+              "issn": [
+                "0029-554X",
+                "1878-3759"
+              ],
+              "is_oa": false,
+              "is_in_doaj": false,
+              "is_core": false,
+              "listed_in": [],
+              "host_organization": "https://openalex.org/P4310320990",
+              "host_organization_name": "Elsevier BV",
+              "host_organization_lineage": [
+                "https://openalex.org/P4310320990"
+              ],
+              "host_organization_lineage_names": [
+                "Elsevier BV"
+              ],
+              "type": "journal"
+            },
+            "license": null,
+            "license_id": null,
+            "version": "publishedVersion",
+            "is_accepted": true,
+            "is_published": true,
+            "raw_source_name": "Nuclear Instruments and Methods",
+            "raw_type": "journal-article"
+          }
+        ]
+      }
+    },
+    {
+      "name": "openaire",
+      "url": "https://api.openaire.eu/search/publications?doi=10.1016%2F0029-554X%2872%2990401-6&format=json",
+      "status": 200,
+      "bytes": 8871,
+      "sha256": "4d59b0ce7be8a5311c3d32914d1f3159f99f39e9bf85d605c8419fdd8d10c14d",
+      "data_excerpt": "{ \"response\" : { \"header\" : { \"query\" : { \"$\" : \"(oaftype exact result) and (resulttypeid exact publication) and ((pidclassid exact \\\"doi\\\" and pid exact \\\"10.1016/0029-554X(72)90401-6\\\"))\" }, \"locale\" : { \"$\" : \"en_US\" }, \"size\" : { \"$\" : 10 }, \"page\" : { \"$\" : 1 }, \"total\" : { \"$\" : 1 }, \"fields\" : null }, \"results\" : { \"result\" : [{ \"header\" : { \"dri:objIdentifier\" : { \"$\" : \"doi_dedup___::c13de9b82714ebf82b044a3409c11546\" }, \"dri:dateOfCollection\" : { \"$\" : \"2026-08-19T06:58:21.232747467\" }, \"dri:dateOfTransformation\" : null }, \"metadata\" : { \"oaf:entity\" : { \"@xsi:schemaLocation\" : \"http://namespace.openaire.eu/oaf https://www.openaire.eu/schema/1.0/oaf-1.0.xsd\", \"oaf:result\" : { \"collectedfrom\" : [ { \"@name\" : \"Crossref\", \"@id\" : \"openaire____::081b82f96300b6a6e3d282bad31cb6e2\" }, { \"@name\" : \"Microsoft Academic Graph\", \"@id\" : \"openaire____::5f532a3fc4f1ea403f37070f59a7a53a\" } ], \"originalId\" : [ { \"$\" : \"0029554X72904016\" }, { \"$\" : \"10.1016/0029-554x(72)90401-6\" }, { \"$\" : \"50|doiboost____|c13de9b82714ebf82b044a3409c11546\" }, { \"$\" : \"1985723935\" } ], \"pid\" : { \"@classid\" : \"doi\", \"@classname\" : \"Digital Object Identifier\", \"@schemeid\" : \"dnet:pid_types\", \"@schemename\" : \"dnet:pid_types\", \"$\" : \"10.1016/0029-554x(72)90401-6\" }, \"measure\" : [ { \"@id\" : \"influence\", \"@score\" : \"2.55978E-9\", \"@class\" : \"C5\" }, { \"@id\" : \"popularity\", \"@score\" : \"2.3302996E-10\", \"@class\" : \"C5\" }, { \"@id\" : \"influence_alt\", \"@score\" : \"3\", \"@class\" : \"C5\" }, { \"@id\" : \"citationCount\", \"@score\" : \"3\", \"@class\" : \"C5\" }, { \"@id\" : \"popularity_alt\", \"@score\" : \"1.3776746E-5\", \"@class\" : \"C5\" }, { \"@id\" : \"impulse\", \"@score\" : \"0\", \"@class\" : \"C5\" } ], \"title\" : [ { \"@classid\" : \"main title\", \"@classname\" : \"main title\", \"@schemeid\" : \"dnet:dataCite_title\", \"@schemename\" : \"dnet:dataCite_title\", \"$\" : \"The new feature of 1–3 directional correlations with mixed unobserved transitions\" }, { \"@classid\" : \"main title\", \"@classname\" : \"main title\", \"@schemeid\" : \"dnet:dataCite_title\", \"@schemename\" : \"dnet:dataCite_title\", \"$\" : \"the new feature of 1 3 directional correlations with mixed unobserved transitions\" } ], \"bestaccessright\" : { \"@classid\" : \"CLOSED\", \"@classname\" : \"Closed Access\", \"@schemeid\" : \"dnet:access_modes\", \"@schemename\" : \"dnet:access_modes\" }, \"creator\" : [ { \"@rank\" : \"1\", \"@name\" : \"I.V.\", \"@surname\" : \"Aničin\", \"$\" : \"I.V. Aničin\" }, { \"@rank\" : \"2\", \"@name\" : \"R.B.\", \"@surname\" : \"Vukanović\", \"$\" : \"R.B. Vukanović\" }, { \"@rank\" : \"3\", \"@name\" : \"A.H.\", \"@surname\" : \"Kukoč\", \"$\" : \"A.H. Kukoč\" } ], \"dateofacceptance\" : { \"$\" : \"1972-09-01\" }, \"description\" : { \"$\" : \"Abstract   It is shown that 1–3 directional correlations with mixed unobserved transitions are, in general, parity sensitive. Consequences are briefly discussed.\" }, \"subject\" : [ { \"@classid\" : \"FOS\", \"@classname\" : \"Fields of Science and Technology classification\", \"@schemeid\" : \"dnet:subject_classification_typologies\", \"@schemename\" : \"dnet:subject_classification_typologies\", \"@inferred\" : true, \"@inferenceprovenance\" : \"update\", \"@provenanceaction\" : \"subject:fos\", \"$\" : \"0103 physical sciences\" }, { \"@classid\" : \"FOS\", \"@classname\" : \"Fields of Science and Technology classification\", \"@schemeid\" : \"dnet:subject_classification_typologies\", \"@schemename\" : \"dnet:subject_classification_typologies\", \"@inferred\" : true, \"@inferenceprovenance\" : \"update\", \"@provenanceaction\" : \"subject:fos\", \"$\" : \"01 natural sciences\" } ], \"language\" : { \"@classid\" : \"eng\", \"@classname\" : \"English\", \"@schemeid\" : \"dnet:languages\", \"@schemename\" : \"dnet:languages\" }, \"relevantdate\" : [ { \"@classid\" : \"created\", \"@classname\" : \"created\", \"@schemeid\" : \"dnet:dataCite_date\", \"@schemename\" : \"dnet:dataCite_date\", \"$\" : \"2002-11-11\" }, { \"@classid\" : \"published-print\", \"@classname\" : \"published-print\", \"@schemeid\" : \"dnet:dataCite_date\", \"@schemename\" : \"dnet:dataCite_date\", \"$\" : \"1972-09-01\" } ], \"publisher\" : { \"$\" : \"Elsevier BV\" }, \"source\" : { \"$\" : \"Crossref\" }, \"resulttype\" : { \"@classid\" : \"publication\", \"@classname\" : \"publication\", \"@schemeid\" : \"dnet:result_typologies\", \"@schemename\" : \"dnet:result_typologies\" }, \"resourcetype\" : { \"@classid\" : \"publication\", \"@classname\" : \"publication\", \"@schemeid\" : \"dnet:result_typologies\", \"@schemename\" : \"dnet:result_typologies\" }, \"isgreen\" : { \"$\" : false }, \"isindiamondjournal\" : { \"$\" : false }, \"publiclyfunded\" : { \"$\" : false }, \"journal\" : { \"@issn\" : \"0029-554X\", \"@ep\" : \"396\", \"@sp\" : \"395\", \"@vol\" : \"103\", \"$\" : \"Nuclear Instruments and Methods\" }, \"datainfo\" : { \"inferred\" : { \"$\" : true }, \"deletedbyinference\" : { \"$\" : false }, \"trust\" : { \"$\" : \"0.8\" }, \"inferenceprovenance\" : { \"$\" : \"dedup-result-decisiontree-v4\" }, \"provenanceaction\" : { \"@classid\" : \"sysimport:dedup\", \"@classname\" : \"Inferred by OpenAIRE\", \"@schemeid\" : \"dnet:provenanceActions\", \"@schemename\" : \"dnet:provenanceActions\" } }, \"rels\" : null, \"children\" : { \"result\" : [{ \"@objidentifier\" : \"doi_________::c13de9b82714ebf82b044a3409c11546\", \"creator\" : [ { \"$\" : \"I.V. Aničin\" }, { \"$\" : \"A.H. Kukoč\" }, { \"$\" : \"R.B. Vukanović\" } ], \"dateofacceptance\" : { \"$\" : \"1972-09-01\" }, \"resulttype\" : { \"@classid\" : \"publication\", \"@classname\" : \"publication\", \"@schemeid\" : \"dnet:result_typologies\", \"@schemename\" : \"dnet:result_typologies\" }, \"collectedfrom\" : { \"@name\" : \"Crossref\", \"@id\" : \"openaire____::081b82f96300b6a6e3d282bad31cb6e2\" }, \"pid\" : { \"@classid\" : \"doi\", \"@classname\" : \"Digital Object Identifier\", \"@schemeid\" : \"dnet:pid_types\", \"@schemename\" : \"dnet:pid_types\", \"$\" : \"10.1016/0029-554x(72)90401-6\" }, \"publisher\" : { \"$\" : \"Elsevier BV\" }, \"instance\" : { \"accessright\" : { \"@classid\" : \"CLOSED\", \"@classname\" : \"Closed Access\", \"@schemeid\" : \"dnet:access_modes\", \"@schemename\" : \"dnet:access_modes\" }, \"hostedby\" : { \"@name\" : \"Nuclear Instruments and Methods\", \"@id\" : \"issn___print::686a3026cf59594333a86208fa0edfe1\" }, \"dateofacceptance\" : { \"$\" : \"1972-09-01\" }, \"instancetype\" : { \"@classid\" : \"0001\", \"@classname\" : \"Article\", \"@schemeid\" : \"dnet:publication_resource\", \"@schemename\" : \"dnet:publication_resource\" }, \"refereed\" : { \"@classid\" : \"0001\", \"@classname\" : \"peerReviewed\", \"@schemeid\" : \"dnet:review_levels\", \"@schemename\" : \"dnet:review_levels\" }, \"license\" : { \"$\" : \"Elsevier TDM\" }, \"url\" : { \"$\" : \"https://doi.org/10.1016/0029-554x(72)90401-6\" }, \"webresource\" : { \"url\" : { \"$\" : \"https://doi.org/10.1016/0029-554x(72)90401-6\" } } }, \"title\" : { \"@classid\" : \"main title\", \"@classname\" : \"main title\", \"@schemeid\" : \"dnet:dataCite_title\", \"@schemename\" : \"dnet:dataCite_title\", \"$\" : \"The new feature of 1–3 directional correlations with mixed unobserved transitions\" } } ], \"instance\" : { \"accessright\" : { \"@classid\" : \"CLOSED\", \"@classname\" : \"Closed Access\", \"@schemeid\" : \"dnet:access_modes\", \"@schemename\" : \"dnet:access_modes\" }, \"collectedfrom\" : [ { \"@name\" : \"Microsoft Academic Graph\", \"@id\" : \"openaire____::5f532a3fc4f1ea403f37070f59a7a53a\" }, { \"@name\" : \"Microsoft Academic Graph\", \"@id\" : \"openaire____::5f532a3fc4f1ea403f37070f59a7a53a\" }, { \"@name\" : \"Crossref\", \"@id\" : \"openaire____::081b82f96300b6a6e3d282bad31cb6e2\" } ], \"hostedby\" : [ { \"@name\" : \"Unknown Repository\", \"@id\" : \"openaire____::55045bd2a65019fd8e6741a755395c8c\" }, { \"@name\" : \"Unknown Repository\", \"@id\" : \"openaire____::55045bd2a65019fd8e6741a755395c8c\" }, { \"@name\" : \"Nuclear Instruments and Methods\", \"@id\" : \"issn___print::686a3026cf59594333a86208fa0edfe1\" } ], \"dateofacceptance\" : { \"$\" : \"1972-09-01\" }, \"instancetype\" : { \"@classid\" : \"0001\", \"@classname\" : \"Article\", \"@schemeid\" : \"dnet:publication_resource\", \"@schemename\" : \"dnet:publication_resource\" }, \"pid\" : { \"@classid\" : \"doi\", \"@classname\" : \"Digital Object Identifier\", \"@schemeid\" : \"dnet:pid_types\", \"@schemename\" : \"dnet:pid_types\", \"$\" : \"10.1016/0029-554x(72)90401-6\" }, \"alternateidentifier\" : [ { \"@classid\" : \"doi\", \"@classname\" : \"Digital Object Identifier\", \"@schemeid\" : \"dnet:pid_types\", \"@schemename\" : \"dnet:pid_types"
+    }
+  ]
+}

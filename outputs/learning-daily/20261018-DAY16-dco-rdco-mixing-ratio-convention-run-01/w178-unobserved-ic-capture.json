@@ -1,0 +1,1009 @@
+{
+  "identity": "DAY16-W178-168P71-UNOBSERVED-IC-01",
+  "query_input_sha256": "b6a47887c989f64fbaf5156d12ffec3bc529a646bb11ff77e05729c43cd34ffd",
+  "models": [
+    {
+      "multipole": "M1",
+      "Z": 74,
+      "nominal_energy_keV": 168.71,
+      "dataset": "BrIccFO",
+      "version_echo": "BrIccS v2.3 (9-Dec-2011)",
+      "all_printed_rows": [
+        [
+          "Shell",
+          "E(ce)",
+          "M1"
+        ],
+        [
+          "Tot",
+          "",
+          "1.073",
+          "(15)"
+        ],
+        [
+          ""
+        ],
+        [
+          "K",
+          "99.19",
+          "0.891",
+          "(13)"
+        ],
+        [
+          ""
+        ],
+        [
+          "L1",
+          "156.61",
+          "0.1277",
+          "(18)"
+        ],
+        [
+          "L2",
+          "157.17",
+          "0.01181",
+          "(17)"
+        ],
+        [
+          "L3",
+          "158.50",
+          "0.001335",
+          "(19)"
+        ],
+        [
+          "L-tot",
+          "156.67",
+          "0.1409",
+          "(20)"
+        ],
+        [
+          ""
+        ],
+        [
+          "K/L",
+          "",
+          "6.32",
+          "(13)"
+        ],
+        [
+          ""
+        ],
+        [
+          "M1",
+          "165.89",
+          "0.0288",
+          "(4)"
+        ],
+        [
+          "M2",
+          "166.14",
+          "0.00294",
+          "(5)"
+        ],
+        [
+          "M3",
+          "166.43",
+          "0.000336",
+          "(5)"
+        ],
+        [
+          "M4",
+          "166.84",
+          "1.027E-5",
+          "(15)"
+        ],
+        [
+          "M5",
+          "166.90",
+          "7.23E-6",
+          "(11)"
+        ],
+        [
+          "M-tot",
+          "165.92",
+          "0.0321",
+          "(5)"
+        ],
+        [
+          ""
+        ],
+        [
+          "L/M",
+          "",
+          "4.39",
+          "(9)"
+        ],
+        [
+          ""
+        ],
+        [
+          "N1",
+          "168.12",
+          "0.00695",
+          "(10)"
+        ],
+        [
+          "N2",
+          "168.22",
+          "0.000694",
+          "(10)"
+        ],
+        [
+          "N3",
+          "168.28",
+          "7.87E-5",
+          "(11)"
+        ],
+        [
+          "N4",
+          "168.45",
+          "2.51E-6",
+          "(4)"
+        ],
+        [
+          "N5",
+          "168.46",
+          "1.744E-6",
+          "(25)"
+        ],
+        [
+          "N6",
+          "168.67",
+          "4.78E-9",
+          "(7)"
+        ],
+        [
+          "N7",
+          "168.67",
+          "5.18E-9",
+          "(8)"
+        ],
+        [
+          "N-tot",
+          "168.13",
+          "0.00772",
+          "(11)"
+        ],
+        [
+          ""
+        ],
+        [
+          "L/N",
+          "",
+          "18.2",
+          "(4)"
+        ],
+        [
+          ""
+        ],
+        [
+          "O1",
+          "168.63",
+          "0.001154",
+          "(17)"
+        ],
+        [
+          "O2",
+          "168.66",
+          "9.58E-5",
+          "(14)"
+        ],
+        [
+          "O3",
+          "168.67",
+          "1.062E-5",
+          "(15)"
+        ],
+        [
+          "O4",
+          "168.70",
+          "1.544E-7",
+          "(22)"
+        ],
+        [
+          "O-tot",
+          "168.64",
+          "0.001260",
+          "(18)"
+        ],
+        [
+          ""
+        ],
+        [
+          "L/O",
+          "",
+          "111.8",
+          "(23)"
+        ],
+        [
+          ""
+        ],
+        [
+          "P1",
+          "168.70",
+          "8.97E-5",
+          "(13)"
+        ],
+        [
+          "P-tot",
+          "168.70",
+          "8.97E-5",
+          "(13)"
+        ],
+        [
+          ""
+        ],
+        [
+          "L/P",
+          "",
+          "1.57E3",
+          "(4)"
+        ]
+      ],
+      "values": {
+        "Tot": {
+          "value": 1.073,
+          "quoted_error": 0.015,
+          "printed": "1.073",
+          "printed_error": "(15)",
+          "Ece_printed_keV": null,
+          "half_last_digit": 0.0005
+        },
+        "K": {
+          "value": 0.891,
+          "quoted_error": 0.013,
+          "printed": "0.891",
+          "printed_error": "(13)",
+          "Ece_printed_keV": "99.19",
+          "half_last_digit": 0.0005
+        },
+        "L1": {
+          "value": 0.1277,
+          "quoted_error": 0.0018,
+          "printed": "0.1277",
+          "printed_error": "(18)",
+          "Ece_printed_keV": "156.61",
+          "half_last_digit": 5e-05
+        },
+        "L2": {
+          "value": 0.01181,
+          "quoted_error": 0.00017,
+          "printed": "0.01181",
+          "printed_error": "(17)",
+          "Ece_printed_keV": "157.17",
+          "half_last_digit": 5e-06
+        },
+        "L3": {
+          "value": 0.001335,
+          "quoted_error": 1.9e-05,
+          "printed": "0.001335",
+          "printed_error": "(19)",
+          "Ece_printed_keV": "158.50",
+          "half_last_digit": 5e-07
+        },
+        "L-tot": {
+          "value": 0.1409,
+          "quoted_error": 0.002,
+          "printed": "0.1409",
+          "printed_error": "(20)",
+          "Ece_printed_keV": "156.67",
+          "half_last_digit": 5e-05
+        },
+        "K/L": {
+          "value": 6.32,
+          "quoted_error": 0.13,
+          "printed": "6.32",
+          "printed_error": "(13)",
+          "Ece_printed_keV": null,
+          "half_last_digit": 0.005
+        },
+        "M1": {
+          "value": 0.0288,
+          "quoted_error": 0.0004,
+          "printed": "0.0288",
+          "printed_error": "(4)",
+          "Ece_printed_keV": "165.89",
+          "half_last_digit": 5e-05
+        },
+        "M2": {
+          "value": 0.00294,
+          "quoted_error": 5e-05,
+          "printed": "0.00294",
+          "printed_error": "(5)",
+          "Ece_printed_keV": "166.14",
+          "half_last_digit": 5e-06
+        },
+        "M3": {
+          "value": 0.000336,
+          "quoted_error": 5e-06,
+          "printed": "0.000336",
+          "printed_error": "(5)",
+          "Ece_printed_keV": "166.43",
+          "half_last_digit": 5e-07
+        },
+        "M4": {
+          "value": 1.027e-05,
+          "quoted_error": 1.5e-07,
+          "printed": "1.027E-5",
+          "printed_error": "(15)",
+          "Ece_printed_keV": "166.84",
+          "half_last_digit": 5e-09
+        },
+        "M5": {
+          "value": 7.23e-06,
+          "quoted_error": 1.1e-07,
+          "printed": "7.23E-6",
+          "printed_error": "(11)",
+          "Ece_printed_keV": "166.90",
+          "half_last_digit": 5e-09
+        },
+        "M-tot": {
+          "value": 0.0321,
+          "quoted_error": 0.0005,
+          "printed": "0.0321",
+          "printed_error": "(5)",
+          "Ece_printed_keV": "165.92",
+          "half_last_digit": 5e-05
+        },
+        "L/M": {
+          "value": 4.39,
+          "quoted_error": 0.09,
+          "printed": "4.39",
+          "printed_error": "(9)",
+          "Ece_printed_keV": null,
+          "half_last_digit": 0.005
+        },
+        "N1": {
+          "value": 0.00695,
+          "quoted_error": 0.0001,
+          "printed": "0.00695",
+          "printed_error": "(10)",
+          "Ece_printed_keV": "168.12",
+          "half_last_digit": 5e-06
+        },
+        "N2": {
+          "value": 0.000694,
+          "quoted_error": 1e-05,
+          "printed": "0.000694",
+          "printed_error": "(10)",
+          "Ece_printed_keV": "168.22",
+          "half_last_digit": 5e-07
+        },
+        "N3": {
+          "value": 7.87e-05,
+          "quoted_error": 1.1e-06,
+          "printed": "7.87E-5",
+          "printed_error": "(11)",
+          "Ece_printed_keV": "168.28",
+          "half_last_digit": 5e-08
+        },
+        "N4": {
+          "value": 2.51e-06,
+          "quoted_error": 4e-08,
+          "printed": "2.51E-6",
+          "printed_error": "(4)",
+          "Ece_printed_keV": "168.45",
+          "half_last_digit": 5e-09
+        },
+        "N5": {
+          "value": 1.744e-06,
+          "quoted_error": 2.5e-08,
+          "printed": "1.744E-6",
+          "printed_error": "(25)",
+          "Ece_printed_keV": "168.46",
+          "half_last_digit": 5e-10
+        },
+        "N6": {
+          "value": 4.78e-09,
+          "quoted_error": 7e-11,
+          "printed": "4.78E-9",
+          "printed_error": "(7)",
+          "Ece_printed_keV": "168.67",
+          "half_last_digit": 5e-12
+        },
+        "N7": {
+          "value": 5.18e-09,
+          "quoted_error": 8e-11,
+          "printed": "5.18E-9",
+          "printed_error": "(8)",
+          "Ece_printed_keV": "168.67",
+          "half_last_digit": 5e-12
+        },
+        "N-tot": {
+          "value": 0.00772,
+          "quoted_error": 0.00011,
+          "printed": "0.00772",
+          "printed_error": "(11)",
+          "Ece_printed_keV": "168.13",
+          "half_last_digit": 5e-06
+        },
+        "L/N": {
+          "value": 18.2,
+          "quoted_error": 0.4,
+          "printed": "18.2",
+          "printed_error": "(4)",
+          "Ece_printed_keV": null,
+          "half_last_digit": 0.05
+        },
+        "O1": {
+          "value": 0.001154,
+          "quoted_error": 1.7e-05,
+          "printed": "0.001154",
+          "printed_error": "(17)",
+          "Ece_printed_keV": "168.63",
+          "half_last_digit": 5e-07
+        },
+        "O2": {
+          "value": 9.58e-05,
+          "quoted_error": 1.4e-06,
+          "printed": "9.58E-5",
+          "printed_error": "(14)",
+          "Ece_printed_keV": "168.66",
+          "half_last_digit": 5e-08
+        },
+        "O3": {
+          "value": 1.062e-05,
+          "quoted_error": 1.5e-07,
+          "printed": "1.062E-5",
+          "printed_error": "(15)",
+          "Ece_printed_keV": "168.67",
+          "half_last_digit": 5e-09
+        },
+        "O4": {
+          "value": 1.544e-07,
+          "quoted_error": 2.2e-09,
+          "printed": "1.544E-7",
+          "printed_error": "(22)",
+          "Ece_printed_keV": "168.70",
+          "half_last_digit": 5e-11
+        },
+        "O-tot": {
+          "value": 0.00126,
+          "quoted_error": 1.8e-05,
+          "printed": "0.001260",
+          "printed_error": "(18)",
+          "Ece_printed_keV": "168.64",
+          "half_last_digit": 5e-07
+        },
+        "L/O": {
+          "value": 111.8,
+          "quoted_error": 2.3,
+          "printed": "111.8",
+          "printed_error": "(23)",
+          "Ece_printed_keV": null,
+          "half_last_digit": 0.05
+        },
+        "P1": {
+          "value": 8.97e-05,
+          "quoted_error": 1.3e-06,
+          "printed": "8.97E-5",
+          "printed_error": "(13)",
+          "Ece_printed_keV": "168.70",
+          "half_last_digit": 5e-08
+        },
+        "P-tot": {
+          "value": 8.97e-05,
+          "quoted_error": 1.3e-06,
+          "printed": "8.97E-5",
+          "printed_error": "(13)",
+          "Ece_printed_keV": "168.70",
+          "half_last_digit": 5e-08
+        },
+        "L/P": {
+          "value": 1570.0,
+          "quoted_error": 40.0,
+          "printed": "1.57E3",
+          "printed_error": "(4)",
+          "Ece_printed_keV": null,
+          "half_last_digit": 5.0
+        }
+      },
+      "missing_rows": [],
+      "warnings": [],
+      "source_snapshot_sha256": "04e1dcc22d60fa663faadfca5f575a60d2f78fa0f246c0b84c6323df6a137494"
+    },
+    {
+      "multipole": "E2",
+      "Z": 74,
+      "nominal_energy_keV": 168.71,
+      "dataset": "BrIccFO",
+      "version_echo": "BrIccS v2.3 (9-Dec-2011)",
+      "all_printed_rows": [
+        [
+          "Shell",
+          "E(ce)",
+          "E2"
+        ],
+        [
+          "Tot",
+          "",
+          "0.553",
+          "(8)"
+        ],
+        [
+          ""
+        ],
+        [
+          "K",
+          "99.19",
+          "0.265",
+          "(4)"
+        ],
+        [
+          ""
+        ],
+        [
+          "L1",
+          "156.61",
+          "0.0292",
+          "(4)"
+        ],
+        [
+          "L2",
+          "157.17",
+          "0.1084",
+          "(16)"
+        ],
+        [
+          "L3",
+          "158.50",
+          "0.0805",
+          "(12)"
+        ],
+        [
+          "L-tot",
+          "157.59",
+          "0.218",
+          "(3)"
+        ],
+        [
+          ""
+        ],
+        [
+          "K/L",
+          "",
+          "1.217",
+          "(24)"
+        ],
+        [
+          ""
+        ],
+        [
+          "M1",
+          "165.89",
+          "0.00654",
+          "(10)"
+        ],
+        [
+          "M2",
+          "166.14",
+          "0.0269",
+          "(4)"
+        ],
+        [
+          "M3",
+          "166.43",
+          "0.0207",
+          "(3)"
+        ],
+        [
+          "M4",
+          "166.84",
+          "0.000209",
+          "(3)"
+        ],
+        [
+          "M5",
+          "166.90",
+          "0.0001602",
+          "(23)"
+        ],
+        [
+          "M-tot",
+          "166.22",
+          "0.0546",
+          "(8)"
+        ],
+        [
+          ""
+        ],
+        [
+          "L/M",
+          "",
+          "4.00",
+          "(8)"
+        ],
+        [
+          ""
+        ],
+        [
+          "N1",
+          "168.12",
+          "0.001578",
+          "(22)"
+        ],
+        [
+          "N2",
+          "168.22",
+          "0.00635",
+          "(9)"
+        ],
+        [
+          "N3",
+          "168.28",
+          "0.00487",
+          "(7)"
+        ],
+        [
+          "N4",
+          "168.45",
+          "5.11E-5",
+          "(8)"
+        ],
+        [
+          "N5",
+          "168.46",
+          "3.84E-5",
+          "(6)"
+        ],
+        [
+          "N6",
+          "168.67",
+          "8.94E-8",
+          "(13)"
+        ],
+        [
+          "N7",
+          "168.67",
+          "1.051E-7",
+          "(15)"
+        ],
+        [
+          "N-tot",
+          "168.23",
+          "0.01289",
+          "(18)"
+        ],
+        [
+          ""
+        ],
+        [
+          "L/N",
+          "",
+          "16.9",
+          "(4)"
+        ],
+        [
+          ""
+        ],
+        [
+          "O1",
+          "168.63",
+          "0.000262",
+          "(4)"
+        ],
+        [
+          "O2",
+          "168.66",
+          "0.000877",
+          "(13)"
+        ],
+        [
+          "O3",
+          "168.67",
+          "0.000658",
+          "(10)"
+        ],
+        [
+          "O4",
+          "168.70",
+          "3.14E-6",
+          "(5)"
+        ],
+        [
+          "O-tot",
+          "168.66",
+          "0.00180",
+          "(3)"
+        ],
+        [
+          ""
+        ],
+        [
+          "L/O",
+          "",
+          "121.2",
+          "(24)"
+        ],
+        [
+          ""
+        ],
+        [
+          "P1",
+          "168.70",
+          "2.04E-5",
+          "(3)"
+        ],
+        [
+          "P-tot",
+          "168.70",
+          "2.04E-5",
+          "(3)"
+        ],
+        [
+          ""
+        ],
+        [
+          "L/P",
+          "",
+          "1.071E4",
+          "(22)"
+        ]
+      ],
+      "values": {
+        "Tot": {
+          "value": 0.553,
+          "quoted_error": 0.008,
+          "printed": "0.553",
+          "printed_error": "(8)",
+          "Ece_printed_keV": null,
+          "half_last_digit": 0.0005
+        },
+        "K": {
+          "value": 0.265,
+          "quoted_error": 0.004,
+          "printed": "0.265",
+          "printed_error": "(4)",
+          "Ece_printed_keV": "99.19",
+          "half_last_digit": 0.0005
+        },
+        "L1": {
+          "value": 0.0292,
+          "quoted_error": 0.0004,
+          "printed": "0.0292",
+          "printed_error": "(4)",
+          "Ece_printed_keV": "156.61",
+          "half_last_digit": 5e-05
+        },
+        "L2": {
+          "value": 0.1084,
+          "quoted_error": 0.0016,
+          "printed": "0.1084",
+          "printed_error": "(16)",
+          "Ece_printed_keV": "157.17",
+          "half_last_digit": 5e-05
+        },
+        "L3": {
+          "value": 0.0805,
+          "quoted_error": 0.0012,
+          "printed": "0.0805",
+          "printed_error": "(12)",
+          "Ece_printed_keV": "158.50",
+          "half_last_digit": 5e-05
+        },
+        "L-tot": {
+          "value": 0.218,
+          "quoted_error": 0.003,
+          "printed": "0.218",
+          "printed_error": "(3)",
+          "Ece_printed_keV": "157.59",
+          "half_last_digit": 0.0005
+        },
+        "K/L": {
+          "value": 1.217,
+          "quoted_error": 0.024,
+          "printed": "1.217",
+          "printed_error": "(24)",
+          "Ece_printed_keV": null,
+          "half_last_digit": 0.0005
+        },
+        "M1": {
+          "value": 0.00654,
+          "quoted_error": 0.0001,
+          "printed": "0.00654",
+          "printed_error": "(10)",
+          "Ece_printed_keV": "165.89",
+          "half_last_digit": 5e-06
+        },
+        "M2": {
+          "value": 0.0269,
+          "quoted_error": 0.0004,
+          "printed": "0.0269",
+          "printed_error": "(4)",
+          "Ece_printed_keV": "166.14",
+          "half_last_digit": 5e-05
+        },
+        "M3": {
+          "value": 0.0207,
+          "quoted_error": 0.0003,
+          "printed": "0.0207",
+          "printed_error": "(3)",
+          "Ece_printed_keV": "166.43",
+          "half_last_digit": 5e-05
+        },
+        "M4": {
+          "value": 0.000209,
+          "quoted_error": 3e-06,
+          "printed": "0.000209",
+          "printed_error": "(3)",
+          "Ece_printed_keV": "166.84",
+          "half_last_digit": 5e-07
+        },
+        "M5": {
+          "value": 0.0001602,
+          "quoted_error": 2.3e-06,
+          "printed": "0.0001602",
+          "printed_error": "(23)",
+          "Ece_printed_keV": "166.90",
+          "half_last_digit": 5e-08
+        },
+        "M-tot": {
+          "value": 0.0546,
+          "quoted_error": 0.0008,
+          "printed": "0.0546",
+          "printed_error": "(8)",
+          "Ece_printed_keV": "166.22",
+          "half_last_digit": 5e-05
+        },
+        "L/M": {
+          "value": 4.0,
+          "quoted_error": 0.08,
+          "printed": "4.00",
+          "printed_error": "(8)",
+          "Ece_printed_keV": null,
+          "half_last_digit": 0.005
+        },
+        "N1": {
+          "value": 0.001578,
+          "quoted_error": 2.2e-05,
+          "printed": "0.001578",
+          "printed_error": "(22)",
+          "Ece_printed_keV": "168.12",
+          "half_last_digit": 5e-07
+        },
+        "N2": {
+          "value": 0.00635,
+          "quoted_error": 9e-05,
+          "printed": "0.00635",
+          "printed_error": "(9)",
+          "Ece_printed_keV": "168.22",
+          "half_last_digit": 5e-06
+        },
+        "N3": {
+          "value": 0.00487,
+          "quoted_error": 7e-05,
+          "printed": "0.00487",
+          "printed_error": "(7)",
+          "Ece_printed_keV": "168.28",
+          "half_last_digit": 5e-06
+        },
+        "N4": {
+          "value": 5.11e-05,
+          "quoted_error": 8e-07,
+          "printed": "5.11E-5",
+          "printed_error": "(8)",
+          "Ece_printed_keV": "168.45",
+          "half_last_digit": 5e-08
+        },
+        "N5": {
+          "value": 3.84e-05,
+          "quoted_error": 6e-07,
+          "printed": "3.84E-5",
+          "printed_error": "(6)",
+          "Ece_printed_keV": "168.46",
+          "half_last_digit": 5e-08
+        },
+        "N6": {
+          "value": 8.94e-08,
+          "quoted_error": 1.3e-09,
+          "printed": "8.94E-8",
+          "printed_error": "(13)",
+          "Ece_printed_keV": "168.67",
+          "half_last_digit": 5e-11
+        },
+        "N7": {
+          "value": 1.051e-07,
+          "quoted_error": 1.5e-09,
+          "printed": "1.051E-7",
+          "printed_error": "(15)",
+          "Ece_printed_keV": "168.67",
+          "half_last_digit": 5e-11
+        },
+        "N-tot": {
+          "value": 0.01289,
+          "quoted_error": 0.00018,
+          "printed": "0.01289",
+          "printed_error": "(18)",
+          "Ece_printed_keV": "168.23",
+          "half_last_digit": 5e-06
+        },
+        "L/N": {
+          "value": 16.9,
+          "quoted_error": 0.4,
+          "printed": "16.9",
+          "printed_error": "(4)",
+          "Ece_printed_keV": null,
+          "half_last_digit": 0.05
+        },
+        "O1": {
+          "value": 0.000262,
+          "quoted_error": 4e-06,
+          "printed": "0.000262",
+          "printed_error": "(4)",
+          "Ece_printed_keV": "168.63",
+          "half_last_digit": 5e-07
+        },
+        "O2": {
+          "value": 0.000877,
+          "quoted_error": 1.3e-05,
+          "printed": "0.000877",
+          "printed_error": "(13)",
+          "Ece_printed_keV": "168.66",
+          "half_last_digit": 5e-07
+        },
+        "O3": {
+          "value": 0.000658,
+          "quoted_error": 1e-05,
+          "printed": "0.000658",
+          "printed_error": "(10)",
+          "Ece_printed_keV": "168.67",
+          "half_last_digit": 5e-07
+        },
+        "O4": {
+          "value": 3.14e-06,
+          "quoted_error": 5e-08,
+          "printed": "3.14E-6",
+          "printed_error": "(5)",
+          "Ece_printed_keV": "168.70",
+          "half_last_digit": 5e-09
+        },
+        "O-tot": {
+          "value": 0.0018,
+          "quoted_error": 3e-05,
+          "printed": "0.00180",
+          "printed_error": "(3)",
+          "Ece_printed_keV": "168.66",
+          "half_last_digit": 5e-06
+        },
+        "L/O": {
+          "value": 121.2,
+          "quoted_error": 2.4,
+          "printed": "121.2",
+          "printed_error": "(24)",
+          "Ece_printed_keV": null,
+          "half_last_digit": 0.05
+        },
+        "P1": {
+          "value": 2.04e-05,
+          "quoted_error": 3e-07,
+          "printed": "2.04E-5",
+          "printed_error": "(3)",
+          "Ece_printed_keV": "168.70",
+          "half_last_digit": 5e-08
+        },
+        "P-tot": {
+          "value": 2.04e-05,
+          "quoted_error": 3e-07,
+          "printed": "2.04E-5",
+          "printed_error": "(3)",
+          "Ece_printed_keV": "168.70",
+          "half_last_digit": 5e-08
+        },
+        "L/P": {
+          "value": 10710.0,
+          "quoted_error": 220.0,
+          "printed": "1.071E4",
+          "printed_error": "(22)",
+          "Ece_printed_keV": null,
+          "half_last_digit": 5.0
+        }
+      },
+      "missing_rows": [],
+      "warnings": [],
+      "source_snapshot_sha256": "d6a3a1a7c9712a7a4429751ee640bd0dea05c27a13f4f366e2d3e49d3594298d"
+    }
+  ],
+  "all_listed_rows_numerical": true,
+  "mass_reference": "PublishedKB08 defaultW184, no backend A178-specific datafile/radius hash exposed",
+  "theory_not_experiment": true
+}

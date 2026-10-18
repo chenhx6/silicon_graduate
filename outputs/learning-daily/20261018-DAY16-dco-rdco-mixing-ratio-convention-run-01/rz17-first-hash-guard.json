@@ -1,0 +1,7 @@
+{
+  "first_exit": 1,
+  "cause": "literal hash mistyped with extra c; actual raw equals source-declared hash read directly",
+  "declared": "af87b4e5ce2ffccee5484902b252e8fcd4fd0940ee996b204bf7983fd2a41e72",
+  "actual": "af87b4e5ce2ffccee5484902b252e8fcd4fd0940ee996b204bf7983fd2a41e72",
+  "raw_modified": false
+}

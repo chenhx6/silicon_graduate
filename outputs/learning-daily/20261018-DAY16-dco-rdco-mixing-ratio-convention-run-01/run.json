@@ -137,16 +137,37 @@
         "next": 17,
         "completed_count": 16
       }
+    },
+    {
+      "publication_index": 8,
+      "at": "2026-10-18T17:12:22.465742+08:00",
+      "branch": "main",
+      "subject": "Validate DAY16 phases with the pinned ALPACA C++ implementation",
+      "commit": "2fc010c30950720f783a6dc6acf4f67ca470f84d",
+      "origin_main": "2fc010c30950720f783a6dc6acf4f67ca470f84d",
+      "status": "published",
+      "required_exit_codes": {
+        "fresh_fetch": 0,
+        "ancestry": 0,
+        "dry_run_HEAD_main": 0,
+        "push_HEAD_main": 0,
+        "staged_diff_check_final": 0,
+        "post_commit_eol": 0
+      },
+      "original_CMake_trailing_whitespace_log": "losslessly encoded JSON bundle; first cachedcheck failed then passed",
+      "goal_status": "active",
+      "research_deadline": "2026-10-19T15:00:00+08:00",
+      "curriculum_unchanged": true
     }
   ],
-  "last_checkpoint": "reopened-002",
-  "last_verification": "verification-reopened-002.json",
-  "knowledge_writeback_items": 19,
-  "last_learning_summary": "固定ALPACA C++/GSL实际执行核first/last/U/偏振与接口对象；independent implementation非独立实验。原Pythonwrapper的rotation symbol边界隔离，原response/Σ仍缺。",
-  "knowledge_changed_pages": 19,
+  "last_checkpoint": "reopened-003",
+  "last_verification": "verification-reopened-003.json",
+  "knowledge_writeback_items": 24,
+  "last_learning_summary": "Martin原phase章/format与168.71nominalIC总衰变vs光子选择canonical；原experimentproducer/Σ边界不变。",
+  "knowledge_changed_pages": 24,
   "uncredited_day17_preview_started": true,
   "preview_time_gate": "outputs/learning-daily/20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/day17-preview-time-gate.json",
-  "current_research_route": "ENSDF官方procedures/format原manual的phase/MR合同；source-before已primedfreeze，按实际取得正文继续。",
+  "current_research_route": "RZ17原3页ICC概率传播的变量变换/物理域/卷积与尾部；primedsourcebefore已冻，源已读，numeric尚未执行",
   "research_status": "active-user-resumed-original-window",
   "research_stopped_at": null,
   "original_minutes_to_deadline_at_research_stop": 1523.8833333333334,
@@ -266,5 +287,5 @@
     "deadline": "2026-10-19T15:00:00+08:00",
     "credit_policy": "Day16 kept once; partial17 only; no Day18"
   },
-  "last_publication": "publication-007.json"
+  "last_publication": "publication-008.json"
 }
