@@ -1,15 +1,15 @@
-# Day16 checkpoint020后的持续学习
+# Day16 checkpoint021后的持续学习
 
-同run2026-10-18-day-16-01/session01a14ce6-425e-77c1-a127-2ac980bd76b5，goal active/pursuing；原截止2026-10-19 15:00上海，15–16收束。formal16一次next17/count16、partial17，不正式17/不开18。Farmer42019保留，无新session/daemon。
+同run2026-10-18-day-16-01/session01a14ce6-425e-77c1-a127-2ac980bd76b5，goal active/pursuing；原截止2026-10-19 15:00上海，15–16收束。formal16一次next17/count16、partial17，不正式17/不开18；Farmer42019保留，无新session/daemon。
 
-本批canonicalsource ucgretina-2021-polarized-emission-code新增UC21-10–13、Compton/note/report唯一writeback仍37pages/items。finiteH解析消公共CG，不NaN置0；在原denom非零处差2e−15。新6PSD一般桥初始不闭合保留first-result，不能称general通过。sourceLegendre实际原函数抽取编译：Pnorm=dκ0差5.45e−15，dκ0=(-1)^κd0κ差4.27e−15；G4角sampler用前者，ITStokesnorm用后者。samepol samplerI与photontrace≤1.34e−15，ITsamepolnonaxial差.48–.74。
+Fullfinite设计canonicalsource UC21-14–16、Compton/note/report唯一37items，actual18cases/540points（12个新PCG64PSD全值事前冻，6旧case primed regression），IQUV差4.56e−15、Rz3.34e−16、native–RB同步振幅/coeff变换0、pureδ0exact/δ1e6upper差≤1.05e−6，nonPSD拒绝不clip；truezeroI设计残差2.89e−15在预定1e−14数值门下normalizedNone，traceexact0，非detectorcut。源body/binary/hash不改，另名mathematicaldesign，不认证Morse/L26exactproducer/arrayresponse/newδ。
 
-诊断dq0收缩后I/Q/V闭合但U反号；U_variant+U_trace≤5.1e−16。另frozenoriginalpureM1 1→0、v=[i,0,1]/sqrt2仅q0/2、CG全finite的16calls也确核literalU反号，I/Q/V过。固定G4X=eθ/Y=eφ和KN消费端−P2sin2Phi；theta45行原U−.942809/Jones+.942809，511keV/90deg点model K45/K135=4.38415/.228094。不是实际计数/实验Q。truezeroI normalizedundefined；actualold/sdkd_k00(-1)均1，poleNaN猜测未观察。所有原source/binary不动，无全producer/response/实验refit。
+script system/scripts/day16_ucgretina_full_finite_design.py；输入input.json SHAff03a78…/freeze，最终full-finite-design-final-result.json。首脚本少执行了预列nativeRBcontrol，snapshot006+firstresult保留；补明确coordinate参数和control后actualexit0、不改冻结ρ或物理式。UC21旧10–13的literalNaN/κodd norm/Uevenκ反号、初generalfail、pureE2反证均保留。
 
-verification-reopened014 report/card/writebackvalid，required0、lint0errors166warnings(125key38raw3parser)，原humanprefix/raw/PLAN/Bib保持。publication019actualGitee成功、HEAD/origin对账在publication019/runreceipt；当前内容稳定指针main / Derive DAY16 finite polarization coefficients and kappa contracts，actualhash/H3/push只在publication020。
+verification-reopened015 required0、reportcardwriteback37/37valid，lint0errors166warnings(125key38raw3parser)，L26/L25旧humanprefix与PLAN/Bib保持。publication020actualGitee成功、HEAD/origin对账已receipt；本批内容指针main / Validate DAY16 finite tensor polarization with frozen PSD inputs，actualhash/push只记publication021/runreceipt。
 
-**下一新问题已冻，未执行**：ucgretina-full-finite-design-before.md/freezefile。按Jones代数Q+iU=-2tau_plusminus*，不是事后flipU；fullq S_km=sum rho_kq exp(iqφ)d_(q,m)。T0evenF/S0、T2evenH/S2、T3oddF/S0；I=T0/Namp，Q=ReT2/(sEM Namp)、U=-ImT2/(sEM Namp)、V=T3/Namp。rho_-q=(-1)^q rho_q*；sourceadjacentrealδ。先推导/冻结具体新PSDseed20261019输入再跑旧6cases回归+新densities。若失败保留，不重新挑axes/sign。目标有限general数学设计，非原源码patch。
+**下一实际source/sorting route已冻**：ucgretina-sorting-source-before.md/freezefile；candidate-refresh-reopened014于00:59核840.8min，matrix17only重查，别开18。发射代数当前局部饱和，不继续堆toy。UCG已固定tree有Eu152公开ROOT run007_cal_histos.root/run020_cal_histos.root，以及README/Makefile/eu152Fit.C/macros；先完整读这些相关mainline，再决定是否下载ROOT/查Sumw2/keys及dataidentity。不要把另array/source的singles能谱当ComptonP/Q或actualMorse/L26response。代码README引GRUTinizer；实际ξ/角/firstpoint/sumphotopeak/背景selection若可定位，是高信息route。
 
-复跑现有script均commandscope LD_PRELOAD=/opt/geant4/11.4.2/lib/libG4processes_hadronic.so PYTHONPATH=/workspace/wiki/tmp/day16-jt74/python-deps；新3script为day16_ucgretina_finite_product.py/angle_kernel_audit.py/even_kappa_u.py，sourceinputs/results在此run。不要覆盖old frozenbinaryhash；新builddir。第三方/source/binary仅tmp不stage；原helpers/raw/PLAN/Bib/credentials/继承dirty/旧reviews保留，exactmanifest/HEAD+ownlog/H3非force。
+七个example小文本已按固定head下载到tmp/day16-ucgretina/pinned-head/examples/...，下载回执ucgretina-example-source-sorting-downloads.json；本checkpoint尚未打开新正文，先核回执/hash并读Eu152README/Makefile/Fit宏及angdist Makefile/angDist.C。ROOT二进制尚未下载或原读，别称已取得。source singles一γ/event与radioactivedecay/cascade source的口径必须分开；更不能因同Co60名把γγ-gated reference当unpolarized。
 
-上游A25/FSU、L26/Morse/Z13/JT74已canonical，旧terminalprimary/网页失败不原样重试。Geant4PRM猜测页404、真实documentationDNS失败，只有代码来源已读，不造manual引文。当前00:44仍余约14h，继续当前高信息数学与response合同路线至原15:00；不因checkpoint或跨午夜创建新run/授卡。
+复跑数学脚本commandscope LD_PRELOAD=/opt/geant4/11.4.2/lib/libG4processes_hadronic.so PYTHONPATH=/workspace/wiki/tmp/day16-jt74/python-deps；新script/seed域明确，原SDK/thirdparty只读，所有新第三方数据tmp，不stage。保留raw/PLAN/Bib/credentials/继承dirty/log/旧review；exactmanifest/HEAD+ownlog/H3非force。原17日报/18run-dir/session/resume/deadline不变；14h substantivewindow继续，不因checkpoint结束。

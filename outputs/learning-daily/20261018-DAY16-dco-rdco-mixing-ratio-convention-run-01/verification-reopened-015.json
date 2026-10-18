@@ -1,0 +1,138 @@
+{
+  "at": "2026-10-19T00:59:47.128106+08:00",
+  "report": {
+    "valid": true,
+    "missing_headings": []
+  },
+  "coverage": {
+    "valid": true,
+    "completed_day_indices": [
+      16
+    ],
+    "partial_day_indices": [
+      17
+    ],
+    "curriculum_cards_completed": 1,
+    "next_day_index": 17,
+    "error": null
+  },
+  "writeback": {
+    "valid": true,
+    "mode": "updated",
+    "knowledge_paths": [
+      "knowledge/research-notes/w178-921-dco-gate-double-solutions.md",
+      "knowledge/sources/kramer-flecken-1989-use-dco-ratios.md",
+      "knowledge/sources/droste-1996-pdco-formalism.md",
+      "knowledge/sources/krane-steffen-1970-cd110-mixing-ratios.md",
+      "knowledge/sources/rose-brink-1967-phase-defined-angular-distributions.md",
+      "knowledge/sources/bargholtz-1987-high-spin-gamma-gamma-directional-correlations.md",
+      "knowledge/sources/nndc-2009-178w-dco-reference-records.md",
+      "knowledge/sources/kibedi-2008-evaluation-theoretical-conversion-coefficients-bricc.md",
+      "knowledge/sources/purry-1997-phd-w178-multiparticle-structure.md",
+      "knowledge/methods/dco-ratio.md",
+      "knowledge/methods/dco-pdco-ambiguity-worksheet.md",
+      "knowledge/sources/alpaca-2023-v105-angular-correlation-code.md",
+      "knowledge/sources/martin-1987-ensdf-mixing-ratio-phase-conventions.md",
+      "knowledge/sources/eldridge-2018-gamma-band-mixing-ratios.md",
+      "knowledge/sources/ekstrom-1993-delta101-angular-correlation-code.md",
+      "knowledge/sources/nndc-2007-mo104-selected-gamma-reference-records.md",
+      "knowledge/sources/james-twin-butler-1974-angular-correlation-statistics.md",
+      "knowledge/sources/longfellow-2026-gretina-energy-ordering-polarization.md",
+      "knowledge/sources/lauritsen-2025-gamma-angular-formalism-tracking-arrays.md",
+      "knowledge/index.md",
+      "knowledge/sources/rezynkina-2017-graphical-extraction-multipole-mixing-ratios.md",
+      "knowledge/sources/morse-2022-gretina-polarization-sensitivity.md",
+      "knowledge/sources/nndc-2025-a25-mixing-reference-records.md",
+      "knowledge/sources/ucgretina-2021-polarized-emission-code.md",
+      "knowledge/methods/angular-correlation.md",
+      "knowledge/sources/konigshofen-2001-mixing-ratios-130ba.md",
+      "knowledge/methods/internal-conversion-analysis.md",
+      "knowledge/methods/angular-distribution.md",
+      "knowledge/sources/schmid-1998-gammasphere-polarization.md",
+      "knowledge/methods/compton-polarimetry.md",
+      "knowledge/sources/zheng-2013-linear-polarization-91ru.md",
+      "knowledge/methods/linear-polarization-asymmetry.md",
+      "knowledge/sources/iliadis-friman-gayer-2021-polarization-direction-correlations.md",
+      "knowledge/sources/tuli-2001-ensdf-format-manual.md",
+      "knowledge/concepts/deorientation.md",
+      "knowledge/observables/multipole-mixing-ratio.md",
+      "knowledge/methods/polarized-photon-branch-audit.md",
+      "knowledge/methods/icc-mixing-probability-domain.md",
+      "knowledge/research-notes/gretina-25na1041-polarization-response-contract.md"
+    ],
+    "changed_paths": [
+      "knowledge/concepts/deorientation.md",
+      "knowledge/index.md",
+      "knowledge/methods/angular-correlation.md",
+      "knowledge/methods/angular-distribution.md",
+      "knowledge/methods/compton-polarimetry.md",
+      "knowledge/methods/dco-pdco-ambiguity-worksheet.md",
+      "knowledge/methods/dco-ratio.md",
+      "knowledge/methods/icc-mixing-probability-domain.md",
+      "knowledge/methods/internal-conversion-analysis.md",
+      "knowledge/methods/linear-polarization-asymmetry.md",
+      "knowledge/methods/polarized-photon-branch-audit.md",
+      "knowledge/observables/multipole-mixing-ratio.md",
+      "knowledge/research-notes/gretina-25na1041-polarization-response-contract.md",
+      "knowledge/research-notes/w178-921-dco-gate-double-solutions.md",
+      "knowledge/sources/alpaca-2023-v105-angular-correlation-code.md",
+      "knowledge/sources/bargholtz-1987-high-spin-gamma-gamma-directional-correlations.md",
+      "knowledge/sources/ekstrom-1993-delta101-angular-correlation-code.md",
+      "knowledge/sources/eldridge-2018-gamma-band-mixing-ratios.md",
+      "knowledge/sources/iliadis-friman-gayer-2021-polarization-direction-correlations.md",
+      "knowledge/sources/james-twin-butler-1974-angular-correlation-statistics.md",
+      "knowledge/sources/kibedi-2008-evaluation-theoretical-conversion-coefficients-bricc.md",
+      "knowledge/sources/konigshofen-2001-mixing-ratios-130ba.md",
+      "knowledge/sources/kramer-flecken-1989-use-dco-ratios.md",
+      "knowledge/sources/krane-steffen-1970-cd110-mixing-ratios.md",
+      "knowledge/sources/lauritsen-2025-gamma-angular-formalism-tracking-arrays.md",
+      "knowledge/sources/longfellow-2026-gretina-energy-ordering-polarization.md",
+      "knowledge/sources/martin-1987-ensdf-mixing-ratio-phase-conventions.md",
+      "knowledge/sources/morse-2022-gretina-polarization-sensitivity.md",
+      "knowledge/sources/nndc-2007-mo104-selected-gamma-reference-records.md",
+      "knowledge/sources/nndc-2009-178w-dco-reference-records.md",
+      "knowledge/sources/nndc-2025-a25-mixing-reference-records.md",
+      "knowledge/sources/purry-1997-phd-w178-multiparticle-structure.md",
+      "knowledge/sources/rezynkina-2017-graphical-extraction-multipole-mixing-ratios.md",
+      "knowledge/sources/schmid-1998-gammasphere-polarization.md",
+      "knowledge/sources/tuli-2001-ensdf-format-manual.md",
+      "knowledge/sources/ucgretina-2021-polarized-emission-code.md",
+      "knowledge/sources/zheng-2013-linear-polarization-91ru.md"
+    ],
+    "change_check": "run-snapshot",
+    "error": null
+  },
+  "required_exit_codes": {
+    "boundary": 0,
+    "diff": 0,
+    "lint": 0
+  },
+  "lint_counts": {
+    "warning": 166,
+    "info": 2318
+  },
+  "warning_classes": {
+    "REACTION_PARSE": 3,
+    "CITATION_KEY_MISSING": 125,
+    "RAW_MISSING": 38
+  },
+  "goal_status": "active",
+  "original_deadline": "2026-10-19T15:00:00+08:00",
+  "fullfinite_design_execution_exit": 0,
+  "design_calls": 540,
+  "new_frozen_PSDcases": 12,
+  "max_IQUV_error": 4.551914400963142e-15,
+  "nooriginalproducer_or_experimental_fit_claim": true,
+  "unchanged_formal16_partial17": true,
+  "human_prefix_guards": {
+    "knowledge/sources/longfellow-2026-gretina-energy-ordering-polarization.md": true,
+    "knowledge/sources/lauritsen-2025-gamma-angular-formalism-tracking-arrays.md": true
+  },
+  "protected_file_guards": {
+    "PLAN.md": true,
+    "raw/zotero/wiki-inbox.bib": true
+  },
+  "native_RB_synchronized_error": 0,
+  "final_design_result": "ucgretina-full-finite-design-final-result.json",
+  "candidate_timegate": "candidate-refresh-reopened-014.json"
+}

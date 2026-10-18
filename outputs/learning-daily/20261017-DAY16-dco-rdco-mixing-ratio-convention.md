@@ -93,6 +93,11 @@ updated: 2026-10-19
 
 ## Theory/analysis exercise
 
+### 完整finite IQUV设计的前置合同与验证
+
+[代数前置冻结](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/ucgretina-full-finite-design-freeze.json)固定Q+iU=−2tau_plusminus*及fullq d_(q,m)；[12新PSD全值冻结](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/ucgretina-full-finite-design-input-freeze.json)早于执行。另名[设计结果](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/ucgretina-full-finite-design-final-result.json)实际exit0：18cases/540points全IQUV对独立trace最大差4.56e−15，Rz3.34e−16、同步native/RB系数变换残差0；δ0与purelowerexact、δ1e6与upper差≤1.05e−6，nonPSD拒绝不clip。trueIzero的设计残差2.89e−15在预定1e−14数值门下normalizedNone，独立traceexact0；门不是探测阈值。原source/binary和literal失败不改。
+
+
 ### 有限H、同tensor角采样核与evenκ U控制
 
 [finite-product-first-result](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/ucgretina-finite-product-first-result.json)实际exit0，解析H与原非零分母乘积差≤2.00e−15，但六个一般PSD案例最初并未整体闭合；原结果保留。随后[同tensor角核比较](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/ucgretina-angle-kernel-comparison.json)抽取actualoldLegendre编译，核Pnorm=dκ0及dκ0=(−1)^κd0κ；同pol samplerI与photontrace≤1.34e−15，原IT Stokes归一核在nonaxial可差.48–.74。按恒等式作诊断收缩后I/Q/V闭合，U仍反号，不称完整修复。
@@ -316,6 +321,11 @@ N25-4/5/10给三项实际边界：POL=.043(.008)是A0而非P；官方PDF靶厚�
 
 ## Knowledge Impact and Learning Decision
 
+### 完整finite设计的作用范围
+
+`supports`所声明singleemitter/realδ/fullq/Jones合同下的有限IQUV模型；`revises`“尚无一般PSD闭合设计”的readiness边界。`limits`把该模型通过称为原UCGretina/Morse exactproducer验证、独立实验或新的1041 branchfit；原literal失败、先前general失配和原pureE2反证都保留。
+
+
 ### 一般tensor结果的修订
 
 `revises`只消除0/0便足以验证general Stokes的初始设想：实际还需同tensor angle kernel与分析轴消费端核验。`supports`公共CG的解析有限化与pure/PSD/truezeroI分层；`limits`把代码控制直接推广为Morse标定错误、通用patch或新的实验δ。原κ0/pureE2反证保留。
@@ -334,6 +344,11 @@ N25-4/5/10给三项实际边界：POL=.043(.008)是A0而非P；官方PDF靶厚�
 `supports` DCO多解与phase/response合同；`revises` 不分gate角色直接联合同名R的做法；`limits` 偏振符号挑根和pure reference认证全部相位。没有新Jπ、B值、wobbling/chirality结论；178W条件计算不外推A≈130。本轮按当前池/唯一Day17预习持续重查公开来源和必要输入；各问题保留原始response/producer/Σ及未得正文边界，当前原研究窗口继续，不由同一模型重复或标签复用补成确定结论。
 
 ## Durable knowledge delta
+
+### 从literal边界到另名finite模型的durable增量
+
+UC21source新增UC21-14–16与fullq/Jones公式、12新PSD范围/纯端点/数值zero门；Compton方法及1041ledger同步数学模型readiness与真实response缺口。system/scripts/day16_ucgretina_full_finite_design.py为可复现设计，原实验δ、globalQ或全array认证仍未取得；新增科学知识的canonical副本在knowledge而非仅outputs。
+
 
 ### 有限系数与Stokes消费端的新durable增量
 
@@ -1052,7 +1067,7 @@ canonical [178W知识单](../../knowledge/research-notes/w178-921-dco-gate-doubl
     },
     {
       "knowledge": "knowledge/methods/compton-polarimetry.md",
-      "summary": "保存PAQ分层、双分段actual432计数公式/derivatives、fiterrors与理想Poisson层区别、printingfailure和matchedeta/Q/fullCov门。 新增EXOGAM比值误差的任意Cov必要界及原表条件不闭合；回代不是独立P验证。 补1368文字Q与外推curve的未闭合、FOM因子化与同response身份条件。 新增GRETINA normalization/真实cut tradeoff与不同reference/Q谱系。 新增C(theta)测度/Jacobian、平均产品与经验Q重标的条件设计，实际jointkernel未恢复。 补XUNDL POL=A0与target/单位转录边界。 保存实际Stokes禁戒比值/pure反证及KN/Q归一合同。 补有限H解析消CG、actualsame-tensor dκ0/d0κ与literalevenκ U控制/消费端及真zeroI边界。",
+      "summary": "保存PAQ分层、双分段actual432计数公式/derivatives、fiterrors与理想Poisson层区别、printingfailure和matchedeta/Q/fullCov门。 新增EXOGAM比值误差的任意Cov必要界及原表条件不闭合；回代不是独立P验证。 补1368文字Q与外推curve的未闭合、FOM因子化与同response身份条件。 新增GRETINA normalization/真实cut tradeoff与不同reference/Q谱系。 新增C(theta)测度/Jacobian、平均产品与经验Q重标的条件设计，实际jointkernel未恢复。 补XUNDL POL=A0与target/单位转录边界。 保存实际Stokes禁戒比值/pure反证及KN/Q归一合同。 补有限H解析消CG、actualsame-tensor dκ0/d0κ与literalevenκ U控制/消费端及真zeroI边界。 补另名fullq/Jones finiteIQUV设计、事前冻结12PSD/540点与rotation/pure/zero/nonPSD域控制，不认证原实验producer。",
       "anchor": "Gammasphere双分段的P/A/Q与actual峰面积",
       "sources": [
         {
@@ -1194,6 +1209,18 @@ canonical [178W知识单](../../knowledge/research-notes/w178-921-dco-gate-doubl
         {
           "path": "knowledge/sources/ucgretina-2021-polarized-emission-code.md",
           "locator": "UC21-13"
+        },
+        {
+          "path": "knowledge/sources/ucgretina-2021-polarized-emission-code.md",
+          "locator": "UC21-14"
+        },
+        {
+          "path": "knowledge/sources/ucgretina-2021-polarized-emission-code.md",
+          "locator": "UC21-15"
+        },
+        {
+          "path": "knowledge/sources/ucgretina-2021-polarized-emission-code.md",
+          "locator": "UC21-16"
         }
       ]
     },
@@ -1829,7 +1856,7 @@ canonical [178W知识单](../../knowledge/research-notes/w178-921-dco-gate-doubl
     {
       "knowledge": "knowledge/research-notes/gretina-25na1041-polarization-response-contract.md",
       "anchor": "25Na1041：同号偏振如何参与分支判别",
-      "summary": "真实AD/偏振双候选与matched response/calibration谱系，明确无RDCO与无新实验CI；保存phase/pure/physical/选择失败控制。 补22Ne参考图平均边界，不迁sourceC到1041或据cut图给实际最优/新CI。 官方Ei/Ef和2009/2025 MR版本已直接补齐，不增加独立δ证据。 补publiccore边界、正确native分支及初始identity纠错。 补有限H解析消CG、actualsame-tensor dκ0/d0κ与literalevenκ U控制/消费端及真zeroI边界。",
+      "summary": "真实AD/偏振双候选与matched response/calibration谱系，明确无RDCO与无新实验CI；保存phase/pure/physical/选择失败控制。 补22Ne参考图平均边界，不迁sourceC到1041或据cut图给实际最优/新CI。 官方Ei/Ef和2009/2025 MR版本已直接补齐，不增加独立δ证据。 补publiccore边界、正确native分支及初始identity纠错。 补有限H解析消CG、actualsame-tensor dκ0/d0κ与literalevenκ U控制/消费端及真zeroI边界。 补另名fullq/Jones finiteIQUV设计、事前冻结12PSD/540点与rotation/pure/zero/nonPSD域控制，不认证原实验producer。",
       "sources": [
         {
           "path": "knowledge/sources/longfellow-2026-gretina-energy-ordering-polarization.md",
@@ -1950,6 +1977,18 @@ canonical [178W知识单](../../knowledge/research-notes/w178-921-dco-gate-doubl
         {
           "path": "knowledge/sources/ucgretina-2021-polarized-emission-code.md",
           "locator": "UC21-13"
+        },
+        {
+          "path": "knowledge/sources/ucgretina-2021-polarized-emission-code.md",
+          "locator": "UC21-14"
+        },
+        {
+          "path": "knowledge/sources/ucgretina-2021-polarized-emission-code.md",
+          "locator": "UC21-15"
+        },
+        {
+          "path": "knowledge/sources/ucgretina-2021-polarized-emission-code.md",
+          "locator": "UC21-16"
         }
       ]
     },
@@ -2003,7 +2042,7 @@ canonical [178W知识单](../../knowledge/research-notes/w178-921-dco-gate-doubl
     {
       "knowledge": "knowledge/sources/ucgretina-2021-polarized-emission-code.md",
       "anchor": "UCGretina：发射代数、软件实现与阵列响应分开",
-      "summary": "固定公开2021/2026 Stokes代码和Geant4原函数，实际core/独立trace/phase/purelimit核验；保存mixed高rank浮点失败、反证与producer边界。 补有限H解析消CG、actualsame-tensor dκ0/d0κ与literalevenκ U控制/消费端及真zeroI边界。",
+      "summary": "固定公开2021/2026 Stokes代码和Geant4原函数，实际core/独立trace/phase/purelimit核验；保存mixed高rank浮点失败、反证与producer边界。 补有限H解析消CG、actualsame-tensor dκ0/d0κ与literalevenκ U控制/消费端及真zeroI边界。 补另名fullq/Jones finiteIQUV设计、事前冻结12PSD/540点与rotation/pure/zero/nonPSD域控制，不认证原实验producer。",
       "sources": [
         {
           "path": "knowledge/sources/ucgretina-2021-polarized-emission-code.md",
@@ -2056,6 +2095,18 @@ canonical [178W知识单](../../knowledge/research-notes/w178-921-dco-gate-doubl
         {
           "path": "knowledge/sources/ucgretina-2021-polarized-emission-code.md",
           "locator": "UC21-13"
+        },
+        {
+          "path": "knowledge/sources/ucgretina-2021-polarized-emission-code.md",
+          "locator": "UC21-14"
+        },
+        {
+          "path": "knowledge/sources/ucgretina-2021-polarized-emission-code.md",
+          "locator": "UC21-15"
+        },
+        {
+          "path": "knowledge/sources/ucgretina-2021-polarized-emission-code.md",
+          "locator": "UC21-16"
         }
       ]
     }
@@ -2093,6 +2144,13 @@ Dors[3]身份冲突已经定位到准确DOI，尚待全文给169/137的约定与
 L0为三篇主线/原图回核；L1/L2为新证据单和反向验证；L3调查已由用户恢复至原15:00截止，169参考定义/producer与新原件缺口保持开放。尚未进行experimental L4 refit；已有条件设计不冒充实际数据分析，也未取得完整input/response/Σ。未新增人审或修改旧needs_review。
 
 ## Verification and continuation
+
+
+### Fullfinite checkpoint021检查与候选池重建
+
+[verification-reopened-015](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/verification-reopened-015.json)实际report/card/writebackvalid，37 changed pages/37 items；required boundary/lint/diff均0，lint0errors166warnings(125key38raw3parser)。完整设计原540点/PSDrho控制通过，清单里native–RB同步变换控制曾首脚本未执行，已保留首脚本snapshot006/结果并补实际control残差0，最终结果另存未覆旧。原source/binary、人审prefix/PLAN/Bib保持。
+
+[新timegate/pool](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/candidate-refresh-reopened-014.json)于00:59上海核剩840.8分钟，Day17卡154–161重新读取，formal16/partial17不变。单emitter代数局部饱和后不继续堆toy；已冻结真实公开sorting/source-calibration入口的primed回忆，下一核actualUCG例的ROOT/sorting是否真有P/A/Q所需同对象数据，缺则写精确readiness，不裸迁几何。原15:00截止/goalactive保持。
 
 
 ### 有限H与一般tensor checkpoint020验收

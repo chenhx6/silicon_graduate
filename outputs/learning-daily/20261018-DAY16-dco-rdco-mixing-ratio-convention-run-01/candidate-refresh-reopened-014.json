@@ -1,0 +1,33 @@
+{
+  "at": "2026-10-19T00:59:10.020509+08:00",
+  "original_deadline": "2026-10-19T15:00:00+08:00",
+  "minutes_to_deadline": 840.8329915166667,
+  "decision": "continue-current-preview17",
+  "formal16_once": true,
+  "partial_day_indices": [
+    17
+  ],
+  "next_day_index": 17,
+  "next_card_rechecked": "Day17only actualmatrix154–161",
+  "current_pool": [
+    {
+      "route": "fullfinite emitteralgebra",
+      "state": "selectedmodelinputs/controls now locallysaturated,canonicalUC21-14–16, notfullproducer; no moretoyextensionsselected"
+    },
+    {
+      "route": "actualpublicsorting/sourcecalibration inputs",
+      "state": "before-sourceprimedrecallfrozen, actualpinnedUCGtreegivesGRUTexamplesandEu152ROOTobjects; selectedmatchingobservables/readinessroute"
+    },
+    {
+      "route": "FSU2015/A25directMRhistory",
+      "state": "A25identity/versionclosed;FSUprimarybodymissingterminalsrecorded,notrepeated"
+    },
+    {
+      "route": "135Pr/NRF/Gu96originalresponse",
+      "state": "no newactualinput; no repetitionof terminalURLs/toys"
+    }
+  ],
+  "source_independence_boundary": "publiccode/models/calibration transfer are notnewindependentexperiments",
+  "no_Day18_research": true,
+  "goal_status": "active"
+}

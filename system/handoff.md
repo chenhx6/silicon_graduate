@@ -8,15 +8,15 @@ updated: 2026-10-19
 
 ## Active handoff — DAY16 user-resumed original study window
 
-同run2026-10-18-day-16-01/session01a14ce6-425e-77c1-a127-2ac980bd76b5；原2026-10-19 15:00上海截止，15–16收束不变；goal active/pursuing。formal16一次next17/count16、partial17，不正式17/不开18；Farmer42019保留，无新session/daemon。
+同run2026-10-18-day-16-01/session01a14ce6-425e-77c1-a127-2ac980bd76b5；原2026-10-19 15:00上海截止，15–16收束；goal active/pursuing。formal16一次next17/count16、partial17，不正式17/不开18；Farmer42019保留，无新session/daemon。
 
-Checkpoint020：UC21source新增10–13，有限CG乘积H与原finite处差2e−15；generalPSD初始未闭合保留。实际oldLegendre编译核Pnorm=dκ0、dκ0=(-1)^κd0κ，sampler核与ITStokesnorm核不同；samepol samplerI对photontrace1.34e−15，ITnonaxial差.48–.74。diagnosticdq0后I/Q/V闭合但U反号。另originalpure1→0M1仅偶κcoherent态/无禁戒CG的16calls，I/Q/V过、U反号；fixedJones/G4axes+KN消费者合同与truezeroI/未观察poleNaN均保留。不宣判Morseκ0pureE2标定错，不认证exactproducer或全阵列response/新δ。
+Checkpoint021：另名fullq/Jones finiteIQUV设计actual18cases/540points，12新PSD全值事前冻，max4.56e−15/Rz3.34e−16、nativeRB同步变换0、purelimits/nonPSD/zeroI门过。UC21-14–16/Compton/note/report已canonical，唯一37items。首script未执行预列phasecontrol，snapshot006/firstresult保持，补actualcontrol后finalresult另存、不改ρ/物理式。旧literal0/0、samepolκ核差/evenκU反号、generalfirstfail及MorsepureE2反证保留；无原producer/response/实验δ认证。
 
-verification-reopened014 required0/reportcardwriteback37changed37items、lint0errors166warnings(125key38raw3parser)；humanprefix/raw/PLAN/Bib保持。上批019actualGitee已receipt；本批内容指针main / `Derive DAY16 finite polarization coefficients and kappa contracts`，精确hash/H3/push只在publication020/runreceipt。
+verification-reopened015 required0/reportcardwriteback37/37valid，lint0errors166warnings(125key38raw3parser)；humanprefix/raw/PLAN/Bib保持。上批020actualGitee已receipt；本批内容指针main / `Validate DAY16 finite tensor polarization with frozen PSD inputs`，精确hash/H3/push仅publication021/runreceipt。
 
-下一full-finite-design-before.md/hash已冻未执行：由Jones代数Q+iU=-2tau_plusminus*，fullq d_(q,m)收缩构建finiteIQUV，按具体新PSDseed合同验证，不能只flipU凑残差或patch原source。详continuation-current.md。actualGeant4SDK11.4.2，old10.7.4原函数rename-only，commandscope LD_PRELOAD hadroniclib+PYTHONPATH repo tmp；原binaryhash不覆盖，新builddir。Geant4PRM网页404/DNS失败仅boundary，不能造manual证据。
+下一route source/sorting primed回忆已冻，pool014于00:59核840.8min、矩阵17only重查。发射代数局部饱和，不继续toy；核固定UCG例Eu152真实公开ROOT与sorting是否matchingP/A/Q。七小文本已下载/hash，尚未打开新正文；ROOT run007/020尚未下载/读，别称actualresponse已得。先Eu152README/Makefile/Fit/macros、angdist Makefile/angDist.C，再判断ROOT或GRUTinizer ξ/firstpoint/gate/背景code入口。严格区分singles一γ/event、cascade source、gatedreference和独立实验。
 
-原17日报/18run-dir/session/resume/deadline及旧L26/L25humanprefix不变，Morse/FSU/A25旧证据边界仍有效；科学source/model/expt分层与partial17保留。exactmanifest、HEAD+ownlog、H3/Gitee非force，保护raw/PLAN/Bib/credentials/继承dirty/log/review；还有14h有高信息currentroute，不提前结束。
+详continuation-current.md；source/historical/SDK数学服务与commandpreload/PYTHONPATH均显式，不覆盖旧frozenbinary，第三方source/data/binary只tmp。exactmanifest/HEAD+ownlog/H3Gitee非force，保护raw/PLAN/Bib/credentials/继承dirty/log/review与L26/L25旧humanprefix。原17日报/18run-dir/session/resume/deadline不变，当前仍约14h有高信息路线，继续至原15:00。
 
 ## Previous active handoff — DAY16 completed; Day17 is next
 

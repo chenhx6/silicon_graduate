@@ -1,0 +1,85 @@
+{
+  "at": "2026-10-18T17:01:45.095538+00:00",
+  "first_attempt": {
+    "exec_session": 89540,
+    "exit_code": 1,
+    "cause": "onefutureRemoteDisconnected causedaggregateabort; partialfilespreserved, firstreceiptwasnotwritten",
+    "initial_claim_correction": "do notassumeallsevenuntilverifiedbelow"
+  },
+  "results": [
+    {
+      "source_path": "examples/sources/eu152/README",
+      "path": "tmp/day16-ucgretina/pinned-head/examples/sources/eu152/README",
+      "expected_git_blob": "fc580f97459020a1a9ffbcaa1eb3286315931fc4",
+      "url": "https://api.github.com/repos/rileyle/UCGretina/git/blobs/fc580f97459020a1a9ffbcaa1eb3286315931fc4",
+      "status": 200,
+      "matches_tree_blob": true,
+      "bytes": 4240,
+      "sha256": "02ac05b5df8681effd0b1a15e5f5b68166db3e0ede21f7292b385e4207bb5701",
+      "retrieval": "actualobservedGitblobURLaftertransientrawdisconnect"
+    },
+    {
+      "source_path": "examples/sources/eu152/Makefile",
+      "path": "tmp/day16-ucgretina/pinned-head/examples/sources/eu152/Makefile",
+      "expected_git_blob": "17d2553256d79eff52faae8463cbccba2d8c274e",
+      "url": "https://api.github.com/repos/rileyle/UCGretina/git/blobs/17d2553256d79eff52faae8463cbccba2d8c274e",
+      "status": 200,
+      "matches_tree_blob": true,
+      "bytes": 524,
+      "sha256": "8ef32b66c42d813864f3639f19912b0958b387ac56d83de0de3b174d7ddfc3a2",
+      "retrieval": "actualobservedGitblobURLaftertransientrawdisconnect"
+    },
+    {
+      "source_path": "examples/sources/eu152/eu152.mac",
+      "path": "tmp/day16-ucgretina/pinned-head/examples/sources/eu152/eu152.mac",
+      "expected_git_blob": "238501e3260c6a59a4325548ea358b263f1c5c81",
+      "url": "https://api.github.com/repos/rileyle/UCGretina/git/blobs/238501e3260c6a59a4325548ea358b263f1c5c81",
+      "status": 200,
+      "matches_tree_blob": true,
+      "bytes": 1436,
+      "sha256": "00460c2aca5dbb6565232cea55970b4db6dd2725baa0ee07168c358f0ecd5095",
+      "retrieval": "actualobservedGitblobURLaftertransientrawdisconnect"
+    },
+    {
+      "source_path": "examples/sources/eu152/eu152_gammas.mac",
+      "path": "tmp/day16-ucgretina/pinned-head/examples/sources/eu152/eu152_gammas.mac",
+      "expected_git_blob": "dde6df0711b7e24295af7333c666873715e6bcc2",
+      "url": "https://api.github.com/repos/rileyle/UCGretina/git/blobs/dde6df0711b7e24295af7333c666873715e6bcc2",
+      "status": 200,
+      "matches_tree_blob": true,
+      "bytes": 819,
+      "sha256": "cc26469ecc1f74adacc75289f99ddac93171154cdfc380c74bc3acc9dd56a869",
+      "retrieval": "actualobservedGitblobURLaftertransientrawdisconnect"
+    },
+    {
+      "source_path": "examples/sources/eu152/eu152Fit.C",
+      "path": "tmp/day16-ucgretina/pinned-head/examples/sources/eu152/eu152Fit.C",
+      "expected_git_blob": "0299155e46a75c3a7d8ae8a24a055196c6434b9d",
+      "retrieval": "existingpartialdownloadverified/reused",
+      "status": 200,
+      "bytes": 5351,
+      "sha256": "56e7ded14cf12b5eb139754478b1ac7c32104885e7eba48b4e49876406236cbb",
+      "matches_tree_blob": true
+    },
+    {
+      "source_path": "examples/inbeam/angdist/Makefile",
+      "path": "tmp/day16-ucgretina/pinned-head/examples/inbeam/angdist/Makefile",
+      "expected_git_blob": "4cefecad741d444cdcb2c93c4c66efe23dcdf18b",
+      "retrieval": "existingpartialdownloadverified/reused",
+      "status": 200,
+      "bytes": 552,
+      "sha256": "0ddab513b590db83abaeb50b5372e36f44940ee8164f5c92956e3bc1ee1c75db",
+      "matches_tree_blob": true
+    },
+    {
+      "source_path": "examples/inbeam/angdist/angDist.C",
+      "path": "tmp/day16-ucgretina/pinned-head/examples/inbeam/angdist/angDist.C",
+      "expected_git_blob": "d1779b4bd55c68b622faa9a0e326f03de76bcf9c",
+      "retrieval": "existingpartialdownloadverified/reused",
+      "status": 200,
+      "bytes": 1479,
+      "sha256": "cab3915ac41972577140a39251943930af602253ed88ced90fe058996074297f",
+      "matches_tree_blob": true
+    }
+  ]
+}

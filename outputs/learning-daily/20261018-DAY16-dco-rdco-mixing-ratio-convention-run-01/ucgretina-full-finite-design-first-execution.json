@@ -1,0 +1,24 @@
+{
+  "at": "2026-10-19T00:53:04.788500+08:00",
+  "execution_exit_code": 0,
+  "fullfinite_design_passed_declared_controls": true,
+  "case_count": 18,
+  "calls": 540,
+  "new_frozen_PSDcases": 12,
+  "max_IQUV_error": 4.551914400963142e-15,
+  "max_Rz_covariance_error": 3.3306690738754696e-16,
+  "truezeroI_design_residual": 2.886579864025407e-15,
+  "normalized_zeroI": "None atdeclared1e-14numericalguard; independentphotonIexact0; notdetectorcut",
+  "oldsource_and_binary_unchanged": true,
+  "canonical_status": "pendingappenddesignresult/contractnotwholeproducer",
+  "next": "writeknowledge/reportunique37items andchecks/publication021; thenrefreshpool/clock legitimatecurrentroute/publicresponse input notmoretoys",
+  "final_execution": {
+    "at": "2026-10-18T16:58:29.036510+00:00",
+    "exit_code": 0,
+    "result": "ucgretina-full-finite-design-final-result.json",
+    "nativeRB_synchronized_error": 0.0,
+    "first_script_saved": "code-snapshot-006/day16_ucgretina_full_finite_design.py",
+    "frozen_input_unchanged": true,
+    "no_physical_formula_changed": "only explicitcoordinateparameterandadditionalrequestedcontrol"
+  }
+}

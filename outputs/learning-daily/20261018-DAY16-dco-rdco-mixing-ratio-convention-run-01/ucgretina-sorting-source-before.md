@@ -1,0 +1,9 @@
+# 公开sorting/source data路线前的primed回忆
+
+同Day16/partial17，19日15:00上海原deadline。刚完成发射数学模型，未取得exactMorse/L26全producer/response。本route不以更多toy填窗口：查UCGretina已固定repo中的实际example sorting与公开Eu152 measured histogram输入，只有适用层能提高readiness才继续；不把source P0当Q敏感性测量。
+
+已预暴露README引GRUTinizer，以及tree中examples/sources/eu152/data/run007_cal_histos.root、run020_cal_histos.root；还未读这两个ROOT对象或该例README/实际MakeHistos。索引本身priming，不称盲测。
+
+要核：代码身份/版本是否真与Morse/Q校准匹配，ξ/θ/Comptonψ/firstpoint/threshold/背景/source比值的真实selection，是否只singles能谱/效率而无polarimetry。实际Histogram若有Sumw2需区分weighted/fiterror/Poissoncounts，两个run名不证明独立采集或同response。source singles无偏振可校geometricalasymmetry，却不独立测Q；source decayevents与sourceprimaryγevents计数口径也不同。
+
+若只给nonmatchingEu source能谱，应写具体readiness边界并优先能连到原GRETINA polarimetry sorting的actualcode；不能将另几何/source直接拿来替1041/1368response。先read所选完整mainline再决定是否下载/定量，全部新对象tmp/hash，原raw/PLAN/review不改。不研究寿命/强度/Day18。

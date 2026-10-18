@@ -301,3 +301,9 @@ Morse spin2→0 pureE2控制确实通过，这限制对其原标定的归因；�
 [[ucgretina-2021-polarized-emission-code]] UC21-10–13保存实际对照。Cplus/Cminus×F的公共CG应解析消去，不能浮点0/0后置0；有限H只解决这层数值表达，不自动修复所有Stokes。源码角采样使用P_k^κ的dκ0合同，Stokes归一使用d0κ，二者对奇κ差(−1)^κ；相同PSD tensor的角采样I与独立trace匹配，但Stokes归一核不匹配。轴对称κ0 benchmark看不见这一条件。
 
 另外，原literal pureM1 1→0且只含偶κ的coherent态，I/Q/V过而U反号，CG比全有限，隔离了另一个linear-analyser相位问题。eθ/eφ轴、Jones U=2ReJθφ和Compton消费端−U sin2Φ必须一起核，不能仅把拟合cos2振幅正负当完整Stokes验证。声明511keV/90°散射的K45/K135对照是点模型，不是阵列计数或Q标定。真实I=0时保留P undefined；单个helper极限猜测未观察则如实撤回。
+
+### 有限fullq设计与数据响应仍是两层
+
+[[ucgretina-2021-polarized-emission-code]] UC21-14–16把Jones代数、fullq d_(q,m)收缩与有限H放在同一合同中，另名计算IQUV；Q+iU=−2tau_plusminus*的conjugation决定虚部符号。18个声明case/540点（12个新PSD矩阵事前冻结）与独立photontrace闭合，Rz/纯极限/nonPSD/truezeroI控制也过。这个数学证据没有把原public代码修成已验证producer，也没有补actualgeometry、interactionorder、后处理、background与共享Cov。
+
+使用时先保存density/EM/nativeδ/轴与Stokes定义，再将光子密度矩阵通过matching response作用到实际事件/参考归一。单emitter正性只保证该模型的光子域；Q、计数FOM、实验branch CI及gatedreference仍须各自真实输入。新的数值零门不是能量阈值，absδ很大也仍是含小干涉的有限值。

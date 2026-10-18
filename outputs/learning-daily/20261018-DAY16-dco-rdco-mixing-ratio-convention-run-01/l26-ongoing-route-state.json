@@ -1,5 +1,5 @@
 {
-  "at": "2026-10-19T00:46:10.911380+08:00",
+  "at": "2026-10-19T01:01:08.332918+08:00",
   "published_checkpoint": 15,
   "branch_subject": "main / Trace DAY16 profile thresholds and conditional identifiability",
   "original_deadline": "2026-10-19T15:00:00+08:00",
@@ -25,8 +25,9 @@
   "L25_targeted_companion_scope": "manuscript Sec5.1-5.5,Eq27-38/sourcecalTable2; oldsource/prefixhashfrozen; sourceQ.33=measuredamp.016/.048, gate/polarizingphotonandnormalizationdifferent. Not currentfull25pageread.",
   "Alikhani2012_body_status": "not obtained; exactDOIrecordclosed,ChalmersDNSfail,configuredpublisherMarkdownproviderunavailable attemptedfalse; OpenAIRErelatedURLsnotallsamepaper, useexactDOIinstancesonly",
   "next_actions": [
-    "exactmanifest/H3/publication020",
-    "concretefullfinitePSDinputfreeze and execute derivedformula, no originalpatch"
+    "exactpublication021/H3",
+    "readfrozen-sourceexampleREADME/macros/fit/angdist mainline",
+    "onlythen decideactualROOT/calibrationorGRUTsortingidentityroute"
   ],
   "M22_input": "morse2022-calibration-input.json",
   "pending_executable_replay": "M22cuts/physicaldensity/calibrationselection andL26primaryRcoefficients/Qnormalization; first sourceRacah exploration may require trianglezero guard, no data changed",
@@ -34,10 +35,10 @@
   "scientific_annotation_status": "canonical35pages/items in report; newM22source/L26append17–26/L25append30/new25Na note; fulloldhumanprefixbytepreserved",
   "new_experimental_refit": false,
   "averaging_stage": "completed actualplot integration/declaredkernels,sourceproseapproxnotliterallyclosed;newcanonicalwritebackpending",
-  "latest_publication": "publication-019.json,pushedandHEADoriginmatched",
+  "latest_publication": "publication-020.json,pushedHEADoriginmatched",
   "averaging_result": "l26-coverage-average-audit.json",
   "source_figure_vs_actual_events": "218Cpoints/2908redPpoints;no rawresponse restored",
-  "current_route": "fullfiniteJones/generalPSDnewcontractfrozen notexecuted",
+  "current_route": "publicexample source/sortingfilesdownloaded notread; ROOTnotdownloaded",
   "current_source_scope": {
     "current9objects": "NaBeO142/XUNDL23,25/NRF15whole;othersselected",
     "oldMgAdopted793": "header/targetsselected"
@@ -134,5 +135,28 @@
   "new_analysis_canonical_status": "UC21-10–13/method/note/report37items;required014pass;publication020next",
   "finite_general_status": "samplerI matchesindependenttrace; ITκoddcontractdiff; pureM1qeven isolatesUopposite; nofullproducerclaim",
   "even_kappa_U_result": "ucgretina-even-kappa-U-audit.json",
-  "next_contract": "ucgretina-full-finite-design-before.md"
+  "next_contract": "ucgretina-full-finite-design-before.md",
+  "full_finite_input": "ucgretina-full-finite-design-input.json",
+  "full_finite_input_freeze": "ucgretina-full-finite-design-input-freeze.json",
+  "full_finite_script_created": true,
+  "full_finite_executed": true,
+  "full_finite_result": "ucgretina-full-finite-design-final-result.json",
+  "full_finite_summary": {
+    "at": "2026-10-19T00:53:04.788500+08:00",
+    "execution_exit_code": 0,
+    "fullfinite_design_passed_declared_controls": true,
+    "case_count": 18,
+    "calls": 540,
+    "new_frozen_PSDcases": 12,
+    "max_IQUV_error": 4.551914400963142e-15,
+    "max_Rz_covariance_error": 3.3306690738754696e-16,
+    "truezeroI_design_residual": 2.886579864025407e-15,
+    "normalized_zeroI": "None atdeclared1e-14numericalguard; independentphotonIexact0; notdetectorcut",
+    "oldsource_and_binary_unchanged": true,
+    "canonical_status": "pendingappenddesignresult/contractnotwholeproducer",
+    "next": "writeknowledge/reportunique37items andchecks/publication021; thenrefreshpool/clock legitimatecurrentroute/publicresponse input notmoretoys"
+  },
+  "full_finite_native_RB_error": 0,
+  "full_finite_canonical": "UC21-14–16/method/note/report37items;015passed,publication021next",
+  "next_source_freeze": "ucgretina-sorting-source-before-freeze.json"
 }

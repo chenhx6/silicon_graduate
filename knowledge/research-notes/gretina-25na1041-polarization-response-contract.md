@@ -92,6 +92,9 @@ L26的AD、ξ和不同拟合处理属于同一fusion acquisition；不同核素/
 
 UC21-10–13补了有限CG乘积设计、同tensor角采样/归一的dκ0与d0κ区别，以及literalpureM1/evenκ控制的U反号。一般PSD案例是声明的数学压力测试；Morse实际κ0/pureE2控制仍通过，不用general失败改写其标定实验。不能把只消除NaN称为完整response修复，也不能把新的点Compton K比当实际Q或1041偏振。原实验two-branch inference仍等待matching jointresponse/Cov，所有新推断保持provisional。
 
+
+UC21-14–16后来从同一Jones/fullq合同构造另名finite IQUV，540点及12新PSD态验证已过；前述初始general未闭合与literal失败保持不变。这改善了光子域模型readiness，不提供1041实验response、Q或jointCov，不能据此宣称δ0支被本run重新拟合选中。
+
 ## Failure Conditions
 
 ### 三项真实失败或表示边界

@@ -1,0 +1,8 @@
+{
+  "at": "2026-10-18T16:57:53.327627+00:00",
+  "first_execution_exit": 0,
+  "first_native_oracle_validation_valid": true,
+  "additional_contract_control": "inputlistrequestednative/RBcoefficient-synchronizedinvariance; initialscriptdidnotyetexecutethisforallnewcases",
+  "action": "preservefirstscript/result;addexplicitreparameterizationcontrol,thenrunnewfinalresult; noalteringfrozenPSDdata/physicalformula",
+  "snapshot": "outputs/learning-daily/20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/code-snapshot-006/day16_ucgretina_full_finite_design.py"
+}

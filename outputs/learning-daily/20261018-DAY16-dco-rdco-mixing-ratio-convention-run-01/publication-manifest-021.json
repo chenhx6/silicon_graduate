@@ -1,0 +1,46 @@
+{
+  "at": "2026-10-18T17:02:50.234971+00:00",
+  "subject": "Validate DAY16 finite tensor polarization with frozen PSD inputs",
+  "paths": [
+    "knowledge/methods/compton-polarimetry.md",
+    "knowledge/research-notes/gretina-25na1041-polarization-response-contract.md",
+    "knowledge/sources/ucgretina-2021-polarized-emission-code.md",
+    "system/scripts/day16_ucgretina_full_finite_design.py",
+    "outputs/learning-daily/20261017-DAY16-dco-rdco-mixing-ratio-convention.md",
+    "outputs/learning-daily/prompts/20261019-DAY17-linear-polarization-paq-compton.md",
+    "system/handoff.md",
+    "system/log.md",
+    "outputs/learning-daily/20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/candidate-refresh-reopened-014.json",
+    "outputs/learning-daily/20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/continuation-current.md",
+    "outputs/learning-daily/20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/l26-ongoing-route-state.json",
+    "outputs/learning-daily/20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/publication-020.json",
+    "outputs/learning-daily/20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/required-checks-reopened-015.json",
+    "outputs/learning-daily/20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/run.json",
+    "outputs/learning-daily/20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/task-log-entry-021.md",
+    "outputs/learning-daily/20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/ucgretina-example-source-sorting-downloads.json",
+    "outputs/learning-daily/20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/ucgretina-full-finite-design-final-result.json",
+    "outputs/learning-daily/20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/ucgretina-full-finite-design-first-execution.json",
+    "outputs/learning-daily/20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/ucgretina-full-finite-design-first-result.json",
+    "outputs/learning-daily/20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/ucgretina-full-finite-design-input-freeze.json",
+    "outputs/learning-daily/20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/ucgretina-full-finite-design-input.json",
+    "outputs/learning-daily/20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/ucgretina-full-finite-design-phase-control-gap.json",
+    "outputs/learning-daily/20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/ucgretina-sorting-source-before-freeze.json",
+    "outputs/learning-daily/20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/ucgretina-sorting-source-before.md",
+    "outputs/learning-daily/20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/verification-reopened-015.json",
+    "outputs/learning-daily/20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/code-snapshot-006/day16_ucgretina_full_finite_design.py",
+    "outputs/learning-daily/20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/publication-manifest-021.json"
+  ],
+  "unchanged_excluded": [
+    "outputs/learning-daily/20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/ucgretina-full-finite-design-before.md",
+    "outputs/learning-daily/20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/ucgretina-full-finite-design-freeze.json"
+  ],
+  "log_staging": "HEAD:system/log.md+task-log-entry-021.md only",
+  "excluded": [
+    "raw",
+    "PLAN",
+    "protectedBib",
+    "tmp/thirdparty/ROOT/binaries",
+    "credentials",
+    "inheritedreceipts/daemon/log"
+  ]
+}

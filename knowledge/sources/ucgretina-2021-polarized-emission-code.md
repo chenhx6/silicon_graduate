@@ -59,6 +59,9 @@ tags: [software-validation, pure-limit, polarization, response-readiness]
 | UC21-11 | 实际10.7.4 Legendre函数含CS相位，sqrt((k−κ)!/(k+κ)!)P_k^κ=d_{κ0}=(−1)^κd_{0κ}；原角度sampler用前者，ITDecay Stokes归一用d_{0κ}。对相同声明PSD tensor，sampler I与独立trace差≤1.34×10^-15，IT归一核可差.48–.74；κ0轴对称控制不受此区别影响。 | source-internal-kernel-contract | direct-code-and-same-input-comparison | G4LegendrePolynomial EvalAssocLegendrePoly；G4PolarizationTransition GenerateGammaPhi；ITDecay preNorm | true |
 | UC21-12 | 仅偶κ的pure1→0 M1、态v=[i,0,1]/sqrt2使原CG比值全有限、κ转置phase恒为+。16次literal调用的I/Q/V与固定eθ/eφ Jones trace相符，但U反号，最大(I,Q,Uopposite,V)残差6.67×10^-16；θ45°/φ0给原U=−.942809、JonesU=+.942809。该控制独立于mixed NaN及κodd问题。 | isolated-linear-Stokes-sign-control | actual-original-core-and-independent-trace | ITDecay pre2/P2；G4PolarizationHelper axes；本页evenκ控制；ucgretina-even-kappa-U-audit | true |
 | UC21-13 | 在无偏振电子、511keV入射/90°Compton、相同G4正Φ轴的声明点模型中，核B=1.5，K45/K135=(B−U)/(B+U)；上述θ45°行分别给4.38415与.228094。此为消费端符号影响的条件计算，不是实际计数比或Q。另真实I=0控制保留Stokes undefined；预想d_k00(−1)NaN未观察，实际旧/新helpers均为1。 | consumer-and-failure-boundaries | source-code-and-conditional-calculation | G4PolarizedComptonModel gdist/dirx-diry；G4Clebsch WignerLittleD；本页零强度/极限控制 | true |
+| UC21-14 | 从固定Jones基的Aθ/Aφ出发，Q+iU=−2τ+−*、V=τ−−−τ++；以fullq d_(q,m)收缩和有限H构建另名IQUV表达式。负q由rho_k,-q=(−1)^q rho_kq*重构，公共CG/κ次序/U虚部均从同一代数合同处理，未patch原代码或仅按残差flipU。 | finite-tensor-design | derivation-and-explicit-convention | 本页完整finite tensor公式；G4F/CG定义；ITDecay Stokes表达式对照 | true |
+| UC21-15 | 计算前冻结12个seed20261019的新PSD矩阵，加6个已暴露回归case；18case/540角点全IQUV对独立photontrace最大差4.56×10^-15，Rz共旋转差3.34×10^-16，同步变换振幅/交叉系数的native–RB IQUV残差0。限定real δ、所列pure/相邻multipoles及singleemitter；这些不是18次实验或完整arrayproducer认证。 | declared-model-validation | fixed-input-actual-computation | ucgretina-full-finite-design-input；本页验证范围；full-finite-design-first-result | true |
+| UC21-16 | 同模型δ0与purelower的IQUV完全相同，absδ=10^6与pureupper差≤1.05×10^-6；非PSD输入被拒绝、未clip。truezeroI的设计残差2.89×10^-15在预定10^-14数值门下normalizedNone，独立photontrace给exact0；该门不是探测阈值。 | pure-limit-and-domain-control | actual-conditional-computation | 本页finite-design controls；full-finite-design-first-result pure/zero/nonPSD | true |
 
 ## Summary
 
@@ -109,6 +112,18 @@ pole和零强度分别处理：actual old/SDK `d_k00(cosθ=−1)`在k0/2/4均给
 
 复跑还包括[angle-kernel比较](../../system/scripts/day16_ucgretina_angle_kernel_audit.py)与[evenκ U控制](../../system/scripts/day16_ucgretina_even_kappa_u.py)，均在同一命令级preload/PYTHONPATH下执行exit0。真实event/geometry/response/Cov、一般量子相位和后处理重建仍有范围边界，未发布通用patch或新实验结论。
 
+### 另名完整finite tensor设计：数学闭合与producer认证分开
+
+定义`τ_hh′=Tr(A_h rho A_h′†)`；固定Jones幅度`Aθ=(−A+ +A−)/sqrt2`、`Aφ=−i(A+ +A−)/sqrt2`。于是`Q=−2Reτ+−`、`U=+2Imτ+−`、`V=τ−−−τ++`，即`Q+iU=−2τ+−*`。这是虚部符号的代数来源，与软件variable同名不能替代它。
+
+令`S_km=Σ_(q=−k…k) rho_kq exp(iqφ)d^k_(q,m)(θ)`。对本页两相邻multipole/实δ合同，`Fmix=Fll+2δFlh+δ²Fhh`、`Hmix=Hll−2δHlh−δ²Hhh`；`T0=Σ_evenk sqrt(2k+1)Fmix S_k0`、`T2=Σ_evenk sqrt(2k+1)Hmix S_k2`、`T3=Σ_oddk sqrt(2k+1)Fmix S_k0`。以lower M取sEM=+1、lower E取−1，`Namp=1+δ²`（pure为1），则另名设计为：
+
+`I=T0/Namp, Q=Re(T2)/(sEM Namp), U=−Im(T2)/(sEM Namp), V=T3/Namp`。
+
+公式在数值执行前写入`ucgretina-full-finite-design-before.md`并冻结hash；12个新PSD矩阵全值也在前置JSON冻结，不由先前误差选择。新path包括pureE1/M1/E2/E3/M3、M1/E2、E1/M2、E2/M3、M2/E3及M3/E4，Ji最高9/2；每项是声明模型输入，未被认作实测的mixing ratio。540点由六个θ和五个φ组成。
+
+[独立设计程序](../../system/scripts/day16_ucgretina_full_finite_design.py)实际执行exit0；全IQUV与photontrace、Rz共旋转、PSD不等式和pure端点均通过已声明门。δ=10^6的上端误差仍含预期1/δ干涉项，不能因数值很小称exactpure。零强度门仅处理有限精度残差，不给undefined点P=0。旧CG NaN、samepol核差及U反号结果继续保留；通过的是这个另名设计的声明域，**没有修改或认证原整套UCGretina、Morse/L26响应或实验δ**。
+
 ## Knowledge Impact and Learning Decision
 
 `supports`统计张量/P-A-Q分层和完整phase合同；`revises`“public producer入口尚未找到”的缺口，新增可复核literal-core边界；`limits`将pureE2 benchmark推广到任意mixed/highrank路径。保留所有needs_review，不新增独立实验或正式Day17信用；Day16同session继续到原deadline。
@@ -118,3 +133,5 @@ pole和零强度分别处理：actual old/SDK `d_k00(cosθ=−1)`在k0/2/4均给
 - [[compton-polarimetry]]：开关/统计张量/Stokes/阵列响应的独立合同。
 - [[gretina-25na1041-polarization-response-contract]]：正确native branch与public-code readiness，未重测δ。
 - [[multipole-mixing-ratio]]：符号桥不等于第二物理解，purelimit还须检查代码分支。
+
+首轮design脚本/结果也保留；在核合同清单时补了先前列出但未执行的native–RB同步系数重参数化控制，最终result为`ucgretina-full-finite-design-final-result.json`，残差0。此补充未改变冻结PSD输入或物理公式；旧脚本SHA与snapshot可复跑首结果。
