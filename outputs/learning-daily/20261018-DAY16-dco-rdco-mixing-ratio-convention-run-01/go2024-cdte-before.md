@@ -1,0 +1,7 @@
+# Go2024 CdTe原件前主动回忆
+
+已读现有Wiki source摘要和方法页，本session也强primed于Jones/Morse/GRETINA与所有P/A/Q/normalization知识，不是盲测。现有source标human-reviewed，任何新审计只能保留完整旧prefix/flags并另追加needs_review，不能回溯授人审。
+
+候选价值：56Fe847 pure2→0反应校准的pixelCdTe，和旧GRETINA/Co60有不同realresponse/experiment；须核knownreferenceP从何来、beam/gate/geometry、twohitselection、unpolarized/100%/backgroundtemplates、每azimuthdivision归一νj是fixed还是fit以及共享count/Cov、Poissonlikelihood是否包含归一数据。若νj和P同时自由可能可辨识性不同，但未读正文不能先判循环；依据实际式子和原数据身份判断。
+
+还须读Data/codeavailability，查是否实际提供templates/counts/response；有真实可用输入才L4replay，无则写readiness，不造counts或把模型输出当实测。原参数、图表、polarizationcentral与原threshold未从memory补。反证要核finiteangle/energyresolution/position/selectiontradeoff以及监测GRAPE的独立性/共同beam。仅Day17无学分preview，不开Day18。

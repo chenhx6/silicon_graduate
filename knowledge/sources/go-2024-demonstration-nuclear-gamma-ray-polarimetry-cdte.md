@@ -107,3 +107,55 @@ The user-reviewed source has no remaining claim-level `needs_review: true` items
 ## Project Relation
 
 This source is the detector-demonstration branch of [[gamma-ray-linear-polarization-in-nuclear-spectroscopy]]. It supplies a concrete CdTe response, normalization and likelihood chain that can be compared with Jones's calibration formalism and Longfellow's GRETINA in-beam treatment without conflating detector simulation with nuclear-structure evidence.
+
+
+## 2026-10-19 Codex追加：归一、似然与跨探测器Q定义
+
+本session重新完整读九页文字主线/References，视觉核Figs.1–6、Table1及Eqs.(1)–(7)；另取当前publisher HTML及独立Table1页面HTTP200。原localPDF与全旧human-reviewed前缀逐字节保留；以下为新self-audit，均needs_review，不继承旧人审。
+
+| ID | 新核查陈述 | claim_kind | evidence_level | locator | needs_review |
+| --- | --- | --- | --- | --- | --- |
+| G24-16 | 847已知约50%偏振是选择反应的动机，作者的P=.57(.04)由本实验模板似然推断，并非把.50固定后另独立拟Q。CNS-GRAPE在对侧同beam同步监测强度/不对称，本文未给可组合的独立P/联合Cov。 | calibration-input-and-dependence | direct-mainline | PDF3 production；PDF5 Pparagraph；Fig3 | true |
+| G24-17 | νj来自各division的能谱Eq3拟合；Eq4明确innerlikelihood固定νj并迭代P，Fig5说明归一先于40–120°选择。不能把它简化成每φbin任意free scale，也不能在缺原energy–φ/eventledger/νCov时认证jointprofile或原CI。 | normalization-and-likelihood-readiness | direct | PDF4Eq3；PDF5Eq4–5/Fig5caption | true |
+| G24-18 | 作者说P=.57(.04)误差主要为不同eventselection的systematic，rotation系统项由模拟估为较小；它不是已知纯Poissonσ。0.1%能量校准、坏pixel、背景live-time/实际threshold与位置/选择响应仍需匹配。 | reported-error-layer | direct-author-assessment | PDF3energyparagraph；PDF4noisepixels；PDF5Puncertainty | true |
+| G24-19 | 正文Q′=.203(.009)，Fig6caption=.203(.008)，当前HTML也保留两值。Q=Q′/P的共同count/selection/模板Cov未给；不能用独立误差代数把报告Q=.35(.04)重新定义为新校准。 | printing-and-covariance-boundary | direct-PDF-and-current-HTML | PDF5Qprimeparagraph；PDF6Fig6caption；currentHTMLsameanchors | true |
+| G24-20 | Table1 Clover847标b、GRETINA847标c，但b注给Morse参数/c注给Kojima参数；p6正文对应相反。Eq7复算Morse参数得.199759、Kojima得.228589，支持正文/数值归属。原PDF及当前Table1均保留错配，非本run正式corrigendum。 | isolated-footnote-crosswalk | visual-PDF-current-table-and-arithmetic | PDF6Eq7/text；PDF7Table1b/c；publisherTable1 | true |
+| G24-21 | εcoin=3e−5、选后ε≈1.9e−5为ComptonSoft估计，含badpixel，beamduct/refrigerator未计。40–120°Q提高1.5/eff留.64给条件F增1.44；若窄门所说65% loss相对adopted门，则F比≈.457。baseline/完整systematics未给，不据此保证真实beamtime最优。 | response-and-cut-design-boundary | direct-and-conditional-arithmetic | PDF6FOMparagraph；Eq7附近cuttext | true |
+| G24-22 | Go定义Q′=Q_G P，而Morse2022已读UNC author-preprint定义A0=Q_M Pbar/2。只有sameharmonic/相同P与response对象时Q_G=Q_M/2、同ε时F_G=F_M/4。Table1裸Q/不同能区、门、布居与模拟曲线不能直接当统一技术排名；本run不重标实际实验Q。 | normalization-transfer-boundary | two-primary-definitions-and-algebra | G24PDF5Eq6/拟合式；M22UNCpreprint PDF3Eq7–9 | true |
+| G24-23 | 另声明singlehist/positive signal-only Poisson模型μi=νsi(P)时，νprofile=D/S，shape likelihood等价于条件multinomial；Fisher有效信息为ν[Σs′²/s−(Σs′)²/S]。纯scale变化时信息0，S′=0时profile/fixedscale信息相等；不是对原Eq3–5实际输入的拟合。 | conditional-statistical-derivation | symbolic-identity-and-failure-controls | 本追加profile公式；原PDF4–5Eq3–5为触发 | true |
+| G24-24 | Dataavailability为向correspondingauthor reasonable request；当前publisher页面未提供本实验count/response/partition/code的明确下载入口。未联系作者、未造hist/templates；experimentalL4refit仍notready，公开toolkit名不等于exactproducer。 | data-and-producer-readiness | direct-statement-and-bounded-link-audit | PDF7Dataavailability；currentpublisherHTML；PDF4ComptonSoft/Ref48 | true |
+| G24-25 | p6正文称GRETA、Table1的847行却标GRETINA；上游Morse Eq13实际拟合四个GRETA模拟能量并沿用position tuning，不是GRETINA847的独立实测Q。当前算术input沿用被核原表label，producer/model身份另列；不因curve数值重放而认证实际response。 | curve-provenance-and-version-boundary | upstream-primary-and-source-crosswalk | G24PDF6Eq7text/PDF7Table1；M22PDF10Sec4.4/PDF11Eq13 | true |
+
+### 归一式没有提供完整联合误差
+
+原文定义i为φbin、j为division，νj从能谱中获得；内层Poisson mean为νj[(1−P)d0ij+P d100ij]+dbgij。background取实测并按live time缩放，noisypixel在data/simulation两边处理。没有原division划分、能量–φ event交叉表、finiteMC模板与backgroundCov时，既不能重放P=.57，也不能断言所有ν是不受约束的free parameters。
+
+作为可复用推导，单组signal-only `ni~Pois[νsi(P)]`、`si>0`、`D=Σni>0`、`S=Σsi` 时：
+
+`νhat=D/S`，`ℓprofile=Σni ln(si/S)+D lnD−D+constant`。
+
+`Ieff=ν[Σ(s′i)²/si−(Σs′i)²/S]=ν/S Σi<j si sj(s′i/si−s′j/sj)²`。
+
+该非负平方和表明shape相同、仅总率随P改变时P与scale不可辨；S′=0时profile不自动损失相对于固定scale的P信息。不是所有data-driven归一都造成完全失辨识。已用符号表达式验证profile/Schur、pure-scale及zero-sumshape极限，没有生成替代实验计数。
+
+若能谱与φ谱是同一批Poisson二维cells的marginals，则`Cov(Ee,Dφ)=μeφ`；将两个marginal likelihood直接相乘通常需要额外条件。原文并未把二者独立乘入一个联合式，本run也不据此指认作者doublecount；需要原producer/事件账本来决定实际统计模型。含background、有限MC和选择系统项时，以上纯信号式须扩展。
+
+### 报告误差、印刷差与Q定义
+
+舍入central Q′/P=.35614，保留原报.35(.04)。固定两marginal误差作一阶敏感度，text .009给独立σQ=.02956、任意Cov范围.00920–.04078；caption .008给.02866和.01096–.03903。它们不是原systematic decomposition或CI，也不用于宣布报告误差矛盾。两个observable共享data与selection，原Cov必须保持缺口。
+
+当前p6正文的Morse `a=3.25e−4/keV,b=.131`与Kojima `a=1.470e−4/keV,b=.3404`分别给847的.199759/.228589；Table1行值与正文相符，b/c脚注映射则相反。只隔离这个具体版本问题，不更改原file或扩大成实验错误。
+
+同字母Q的另一边界来自[[morse-2022-gretina-polarization-sensitivity]] M22-5：Wc=b(1−A0cos2ξ)、A0=Q_M Pbar/2，而这里modulation factor Q′=Q_G P。旋转/EM符号可以改变相位但不消除幅度因子；only在同harmonic/P合同下才有Q_G=Q_M/2。真实θ平均、event selection、效率分母及arrayresponse不同仍要分别核，不能仅做factor2换算就认证detector迁移。
+
+### 效率、F与可重放输入
+
+`.64×1.5²=1.44`复现40–120°选择的名义F收益；按ε≈1.9e−5/Q=.35得F≈2.3275e−6，与作者约2.4e−6的粗摘要分开保留。60–100°的effloss参照和实际系统项需要逐cut ledger，不用更高Q自动决定更优F。近距离/side sensor/250µm等仍是发展建议。
+
+原Dataavailability不等于数据已公开。下一实际可复算P需要完整dexp/dbg/d0/d100、ej各分区、νfit/误差及eventcuts/finiteMC/rotationgeometry；当前不从曲线图像补伪rawcounts，不把reportedP与同data的modulationfit当两个独立实验。
+
+`supports`独立56Fe/CdTe实验对P/response分层的价值；`limits`exactfit、无条件技术排名与跨normalization裸迁Q；新条目保持needs_review。相关[脚本](../../system/scripts/day16_go2024_calibration_audit.py)/[结果](../../outputs/learning-daily/20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/go2024-calibration-audit-result.json)为印刷summary算术及解析设计，不重放原experimentalproducer。[[compton-polarimetry]]、[[modulation-curve]]保存使用合同。
+
+当前原表把Morse曲线标成GRETINA847，而其上游Eq13明确是GRETA四点模拟/position tuning；这与b/c脚注错配是两个分别保留的对象边界。回放输入的`Morse2022_GRETINA`键只镜像原表label，不据此升级为GRETINA独立标定。
+
+Morse上游的实际原件版本是UNC author-preprint（M22-1），其Eq8/13已核，VoR正文尚未取得。以上半因子与GRETAcurve crosswalk限于这些已读式/版本，不宣称VoR仍逐字同式，也不据此断言Go实际producer使用了错误归一。

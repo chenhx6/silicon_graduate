@@ -1,0 +1,5 @@
+# Tsuzuki2021方法companion原件前回忆
+
+已primed于Go2024全部9页与其Ref37：Y.Tsuzuki等An application ofaSi/CdTeComptoncamera forpolarizationmeasurementofhardxraysfromhighlychargedheavyions，RSI92,063101 DOI10.1063/5.0050826。Go说更多方法细节见该工作，未读该原件，不知道division/normalization/背景/finiteMC/统计Cov如何实现。
+
+目标仅核模板polarimetry归一/似然方法、software版本和数据可用性/数据重用。原子硬X射线与核847γ的emitter/density/gate不同，不借原子近满P替核reference，也不把另设施experiment当同sourceproducer。若有公开算法/数据可复算，仅在实际输入/单位/frames/control齐时推进；无则写精确缺口，不能原样复制Go δ/P或造hist。全文原件主线可读，但本run不另开原子结构课程或新Day卡。

@@ -1,0 +1,264 @@
+{
+  "at": "2026-10-19T07:07:16.758513+08:00",
+  "rows": [
+    {
+      "name": "publisher",
+      "url": "https://www.nature.com/articles/s41598-024-52692-2",
+      "status": 200,
+      "path": "tmp/day16-go2024/publisher.html",
+      "sha256": "b6875fee3160e6a76a34037fcd017e25866b67abd3c535a397638cc79ff1a2bf",
+      "bytes": 467631,
+      "textpath": "tmp/day16-go2024/publisher-readable.txt",
+      "specific_links": [],
+      "dataavailability_excerpt": "Data availability The data used and analyzed during the present study available from the corresponding author on reasonable request. References Thibault, C. et al. Direct measurement of the masses of 11 Li and 26\u201332 Na with an on-line mass spectrometer. Phys. Rev. C 12 , 644\u2013657. https://doi.org/10.1103/PhysRevC.12.644 (1975). Article CAS ADS Google Scholar Motobayashi, T. et al. Large deformation of the very neutron-rich nucleus 32 Mg from inter"
+    },
+    {
+      "name": "crossref",
+      "url": "https://api.crossref.org/works/10.1038/s41598-024-52692-2",
+      "status": 200,
+      "path": "tmp/day16-go2024/crossref.json",
+      "sha256": "454aff03b20a3ad0f983e6b77aae4098a1c79210f55ae02a6f40f06885157f1e",
+      "bytes": 29491,
+      "metadata": {
+        "title": [
+          "Demonstration of nuclear gamma-ray polarimetry based on a multi-layer CdTe Compton camera"
+        ],
+        "author": [
+          {
+            "given": "S.",
+            "family": "Go",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Y.",
+            "family": "Tsuzuki",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "H.",
+            "family": "Yoneda",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Y.",
+            "family": "Ichikawa",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "T.",
+            "family": "Ikeda",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "N.",
+            "family": "Imai",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "K.",
+            "family": "Imamura",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "M.",
+            "family": "Niikura",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "D.",
+            "family": "Nishimura",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "R.",
+            "family": "Mizuno",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "S.",
+            "family": "Takeda",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "H.",
+            "family": "Ueno",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "S.",
+            "family": "Watanabe",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "T. Y.",
+            "family": "Saito",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "S.",
+            "family": "Shimoura",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "S.",
+            "family": "Sugawara",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "A.",
+            "family": "Takamine",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "T.",
+            "family": "Takahashi",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "Scientific Reports"
+        ],
+        "volume": "14",
+        "page": null,
+        "DOI": "10.1038/s41598-024-52692-2",
+        "published": {
+          "date-parts": [
+            [
+              2024,
+              2,
+              9
+            ]
+          ]
+        },
+        "relation": {},
+        "update-to": null
+      }
+    }
+  ]
+}

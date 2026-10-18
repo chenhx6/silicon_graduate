@@ -323,3 +323,8 @@ Day16已原读13页/9图3表，canonical `knowledge/sources/jones-1998-ra223-alp
 ### 223Ra官方字段priming
 
 Day16已核旧2001对象/2003Jπ/2012NR与2026编译的2019绝对I：MR0.29无显式号仍signunknown，&为未分区总强度、@为已分区，重复placement RI不提供偏振份额；原回忆终态误认已能量纠正。source `knowledge/sources/nndc-2001-223ra-reference-and-2026-intensity-records.md` 与TU01-4保持响应/原门/Σ缺口，不授17信用。
+
+
+### Go2024原件与归一priming
+
+Day16已本session原读九页/6图1表与currentHTML，G24-16–25新self-audit保留旧humanprefix。νj能谱fit/固定innerlikelihood、shareddata/Cov缺口、Q′caption/text末位、Table1脚注b/c与GRETINA/GRETA模型label边界均canonical；Go与Morse的Q半因子只在matchingobservable/P下转换。未取实际counts/templates，作者reasonable request不等于已公开，不造L4fit或独立P/Q确认。正式17需声明priming，preview无学分。

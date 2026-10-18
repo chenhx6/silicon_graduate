@@ -163,6 +163,17 @@ actualasolid两shape/usePassive/parser/doc核得coax1.5/back2.5/outer.9mm，恰�
 
 ## Theory/analysis exercise
 
+### Checkpoint031：CdTe实际模板方法与normalization合同
+
+本session完整读Go2024原九页/6图1表/Eq1–7，并取currentpublisherHTML及独立Table1页面200；[source新追加](../../knowledge/sources/go-2024-demonstration-nuclear-gamma-ray-polarimetry-cdte.md) G24-16–25全部needs_review，原humanprefix/rawhash保持。νj由energyfit、innerazimuthlikelihood固定ν并迭代P，P误差主要selectionsystematic，actualcounts/templates/partition/Cov仍缺。数据声明为作者reasonable request，未联系/未造hist，experimentalL4notready。
+
+[实际算术/符号推导](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/go2024-calibration-audit-result.json)exit0：b/c脚注参数错配与正文curve归属分别核；正文Q′误差.009/图注.008保留。sourceTable1的847GRETINA标签实际引用上游GRETA模拟curve，不计新实验。M22半因子Q与Go Q′/P定义只能在matchingharmonic/P/response下换算，不裸比实际Q/F。
+
+无虚构计数的signal-only推导给νhat=D/S、multinomialshape及FisherSchur平方和；pure-scale/zero-sumshape控制过，不认证原Eq3–5jointfit。summary F重放2.3275e−6，widecut名义F增1.44，narrowcutF比.457仅在相同lossbaseline条件；不能用提高Q替代实际信息/beamtime。
+
+继续原15:00上海窗口，formal16一次partial17；下一可核Ref37方法/公开producer输入，但必须先冻回忆、确认actual版本和数据身份，不能把publictoolkit当原实验模板。
+
+
 ### Checkpoint028：Jones2002校准原件与失败控制
 
 [原source追加](../../knowledge/sources/jones-2002-calibration-compton-polarimeters.md) J02-14–21：本session完整8页Sections1–8/Refs及Fig1、Table1、Eq1–12，相关五页视觉核对。全旧人审前缀/raw hash冻结保留，新条目needs_review。
@@ -478,6 +489,8 @@ pointgate本批 `limits`仅以角色不同就推physicalP不同的强断言：pu
 `supports` DCO多解与phase/response合同；`revises` 不分gate角色直接联合同名R的做法；`limits` 偏振符号挑根和pure reference认证全部相位。没有新Jπ、B值、wobbling/chirality结论；178W条件计算不外推A≈130。本轮按当前池/唯一Day17预习持续重查公开来源和必要输入；各问题保留原始response/producer/Σ及未得正文边界，当前原研究窗口继续，不由同一模型重复或标签复用补成确定结论。
 
 ## Durable knowledge delta
+
+本批[Go2024 source](../../knowledge/sources/go-2024-demonstration-nuclear-gamma-ray-polarimetry-cdte.md)“2026-10-19 Codex追加：归一、似然与跨探测器Q定义”保存G24-16–25；[modulation方法](../../knowledge/methods/modulation-curve.md)“模板归一应保留统计对象”保存profile/共有Cov与归一转换。均非原实验重拟，旧人审prefix保持，新条目待复核。
 
 本批新[223Ra官方source](../../knowledge/sources/nndc-2001-223ra-reference-and-2026-intensity-records.md)保存N223-1–10，及[Tuli格式页](../../knowledge/sources/tuli-2001-ensdf-format-manual.md) TU01-4的col77规则；Compton/混合比/转换方法保存其sign/parent/RI/response使用合同。回忆纠正有独立记录，未覆写原冻结。
 
@@ -1312,7 +1325,7 @@ canonical [178W知识单](../../knowledge/research-notes/w178-921-dco-gate-doubl
     },
     {
       "knowledge": "knowledge/methods/compton-polarimetry.md",
-      "summary": "保存PAQ分层、双分段actual432计数公式/derivatives、fiterrors与理想Poisson层区别、printingfailure和matchedeta/Q/fullCov门。 新增EXOGAM比值误差的任意Cov必要界及原表条件不闭合；回代不是独立P验证。 补1368文字Q与外推curve的未闭合、FOM因子化与同response身份条件。 新增GRETINA normalization/真实cut tradeoff与不同reference/Q谱系。 新增C(theta)测度/Jacobian、平均产品与经验Q重标的条件设计，实际jointkernel未恢复。 补XUNDL POL=A0与target/单位转录边界。 保存实际Stokes禁戒比值/pure反证及KN/Q归一合同。 补有限H解析消CG、actualsame-tensor dκ0/d0κ与literalevenκ U控制/消费端及真zeroI边界。 补另名fullq/Jones finiteIQUV设计、事前冻结12PSD/540点与rotation/pure/zero/nonPSD域控制，不认证原实验producer。 新增实际public能谱/共享Cov/event单位与sorting/decoder反证、P/Q readiness。 G411新批补入truth/geometry实际控制与历史源response边界。 Riley2021原件已另读并核当前模型/原论文响应迁移边界。 Co60 gate/source与选择对象控制和原producer缺口已关联。 新joint pointgate相位/firstlast/pure/KN/共同轴平均控制与闭式已写，非实验或arrayQ。 补Ni60官方reference/共同δ误差与actualSDK总分支归一，保留primaryphase缺口。 补Jones2002校准态节点、reference母态身份及有稳定性条件的cross-ratio。 补原Jones1998 α–γ/electron主线、source版本/phase/同能标母态与共同误差边界。 补223Ra真实unsignedMR、multipletflag/NR、同源与分母合同，并显式纠正冻结回忆的终态误认。",
+      "summary": "保存PAQ分层、双分段actual432计数公式/derivatives、fiterrors与理想Poisson层区别、printingfailure和matchedeta/Q/fullCov门。 新增EXOGAM比值误差的任意Cov必要界及原表条件不闭合；回代不是独立P验证。 补1368文字Q与外推curve的未闭合、FOM因子化与同response身份条件。 新增GRETINA normalization/真实cut tradeoff与不同reference/Q谱系。 新增C(theta)测度/Jacobian、平均产品与经验Q重标的条件设计，实际jointkernel未恢复。 补XUNDL POL=A0与target/单位转录边界。 保存实际Stokes禁戒比值/pure反证及KN/Q归一合同。 补有限H解析消CG、actualsame-tensor dκ0/d0κ与literalevenκ U控制/消费端及真zeroI边界。 补另名fullq/Jones finiteIQUV设计、事前冻结12PSD/540点与rotation/pure/zero/nonPSD域控制，不认证原实验producer。 新增实际public能谱/共享Cov/event单位与sorting/decoder反证、P/Q readiness。 G411新批补入truth/geometry实际控制与历史源response边界。 Riley2021原件已另读并核当前模型/原论文响应迁移边界。 Co60 gate/source与选择对象控制和原producer缺口已关联。 新joint pointgate相位/firstlast/pure/KN/共同轴平均控制与闭式已写，非实验或arrayQ。 补Ni60官方reference/共同δ误差与actualSDK总分支归一，保留primaryphase缺口。 补Jones2002校准态节点、reference母态身份及有稳定性条件的cross-ratio。 补原Jones1998 α–γ/electron主线、source版本/phase/同能标母态与共同误差边界。 补223Ra真实unsignedMR、multipletflag/NR、同源与分母合同，并显式纠正冻结回忆的终态误认。 补CdTe真实归一/系统误差/模板likelihood门、sourcefootnote/model谱系及Q定义半因子。",
       "anchor": "Gammasphere双分段的P/A/Q与actual峰面积",
       "sources": [
         {
@@ -1626,6 +1639,46 @@ canonical [178W知识单](../../knowledge/research-notes/w178-921-dco-gate-doubl
         {
           "path": "knowledge/sources/nndc-2001-223ra-reference-and-2026-intensity-records.md",
           "locator": "N223-10"
+        },
+        {
+          "path": "knowledge/sources/go-2024-demonstration-nuclear-gamma-ray-polarimetry-cdte.md",
+          "locator": "G24-16"
+        },
+        {
+          "path": "knowledge/sources/go-2024-demonstration-nuclear-gamma-ray-polarimetry-cdte.md",
+          "locator": "G24-17"
+        },
+        {
+          "path": "knowledge/sources/go-2024-demonstration-nuclear-gamma-ray-polarimetry-cdte.md",
+          "locator": "G24-18"
+        },
+        {
+          "path": "knowledge/sources/go-2024-demonstration-nuclear-gamma-ray-polarimetry-cdte.md",
+          "locator": "G24-19"
+        },
+        {
+          "path": "knowledge/sources/go-2024-demonstration-nuclear-gamma-ray-polarimetry-cdte.md",
+          "locator": "G24-20"
+        },
+        {
+          "path": "knowledge/sources/go-2024-demonstration-nuclear-gamma-ray-polarimetry-cdte.md",
+          "locator": "G24-21"
+        },
+        {
+          "path": "knowledge/sources/go-2024-demonstration-nuclear-gamma-ray-polarimetry-cdte.md",
+          "locator": "G24-22"
+        },
+        {
+          "path": "knowledge/sources/go-2024-demonstration-nuclear-gamma-ray-polarimetry-cdte.md",
+          "locator": "G24-23"
+        },
+        {
+          "path": "knowledge/sources/go-2024-demonstration-nuclear-gamma-ray-polarimetry-cdte.md",
+          "locator": "G24-24"
+        },
+        {
+          "path": "knowledge/sources/go-2024-demonstration-nuclear-gamma-ray-polarimetry-cdte.md",
+          "locator": "G24-25"
         }
       ]
     },
@@ -3365,6 +3418,88 @@ canonical [178W知识单](../../knowledge/research-notes/w178-921-dco-gate-doubl
           "locator": "TU01-4"
         }
       ]
+    },
+    {
+      "knowledge": "knowledge/sources/go-2024-demonstration-nuclear-gamma-ray-polarimetry-cdte.md",
+      "summary": "完整九页原读与当前publisher/Table1核，保留旧人审prefix，追加分区归一/共有data/系统误差、caption/text与b/c脚注差、GRETA模型谱系、Q归一和数据可用性/解析profile边界；新全部needs_review。",
+      "anchor": "2026-10-19 Codex追加：归一、似然与跨探测器Q定义",
+      "sources": [
+        {
+          "path": "knowledge/sources/go-2024-demonstration-nuclear-gamma-ray-polarimetry-cdte.md",
+          "locator": "G24-16"
+        },
+        {
+          "path": "knowledge/sources/go-2024-demonstration-nuclear-gamma-ray-polarimetry-cdte.md",
+          "locator": "G24-17"
+        },
+        {
+          "path": "knowledge/sources/go-2024-demonstration-nuclear-gamma-ray-polarimetry-cdte.md",
+          "locator": "G24-18"
+        },
+        {
+          "path": "knowledge/sources/go-2024-demonstration-nuclear-gamma-ray-polarimetry-cdte.md",
+          "locator": "G24-19"
+        },
+        {
+          "path": "knowledge/sources/go-2024-demonstration-nuclear-gamma-ray-polarimetry-cdte.md",
+          "locator": "G24-20"
+        },
+        {
+          "path": "knowledge/sources/go-2024-demonstration-nuclear-gamma-ray-polarimetry-cdte.md",
+          "locator": "G24-21"
+        },
+        {
+          "path": "knowledge/sources/go-2024-demonstration-nuclear-gamma-ray-polarimetry-cdte.md",
+          "locator": "G24-22"
+        },
+        {
+          "path": "knowledge/sources/go-2024-demonstration-nuclear-gamma-ray-polarimetry-cdte.md",
+          "locator": "G24-23"
+        },
+        {
+          "path": "knowledge/sources/go-2024-demonstration-nuclear-gamma-ray-polarimetry-cdte.md",
+          "locator": "G24-24"
+        },
+        {
+          "path": "knowledge/sources/go-2024-demonstration-nuclear-gamma-ray-polarimetry-cdte.md",
+          "locator": "G24-25"
+        },
+        {
+          "path": "knowledge/sources/morse-2022-gretina-polarization-sensitivity.md",
+          "locator": "M22-5"
+        },
+        {
+          "path": "knowledge/sources/morse-2022-gretina-polarization-sensitivity.md",
+          "locator": "M22-9"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/methods/modulation-curve.md",
+      "summary": "新增signal-only scaleprofile/multinomial和FisherSchur边界、sameeventenergy/phi共有Cov与Q定义迁移；不是原实验fit或CI。",
+      "anchor": "模板归一应保留统计对象",
+      "sources": [
+        {
+          "path": "knowledge/sources/go-2024-demonstration-nuclear-gamma-ray-polarimetry-cdte.md",
+          "locator": "G24-17"
+        },
+        {
+          "path": "knowledge/sources/go-2024-demonstration-nuclear-gamma-ray-polarimetry-cdte.md",
+          "locator": "G24-22"
+        },
+        {
+          "path": "knowledge/sources/go-2024-demonstration-nuclear-gamma-ray-polarimetry-cdte.md",
+          "locator": "G24-23"
+        },
+        {
+          "path": "knowledge/sources/go-2024-demonstration-nuclear-gamma-ray-polarimetry-cdte.md",
+          "locator": "G24-24"
+        },
+        {
+          "path": "knowledge/sources/morse-2022-gretina-polarization-sensitivity.md",
+          "locator": "M22-5"
+        }
+      ]
     }
   ]
 }
@@ -3567,3 +3702,10 @@ CSU真实REST已由其官方hashedconfig修正主机，exacttitle查询200/0对�
 [verification-reopened-024](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/verification-reopened-024.json)实际report/card/唯一writeback通过（46 changed knowledge pages/46 items），boundary/lint/diff exit0，0errors178warnings(131key44raw槽3reaction-parser)。J02/L25/L26旧humanprefix、PLAN/Bib、三ENSDF hash及新script/result/v1snapshot guards通过；冻结回忆保留、纠正另存。
 
 Collins2019 NPL/8371明确“Full text not available from this repository”，publisher403/API429、MCPpublicdiscovery no_candidate已分别记录；没有原文证据，不能由metadata补calibration/分区Cov。新路线只在当前问题或唯一Day17知识preview内继续；原15:00上海deadline/goalactive与formal16一次partial17不变。稳定发布指针main / `Preserve DAY16 unsigned mixing ratios and shared intensity records`，actualhash/H3/push仅publication030/runreceipt。
+
+
+### Checkpoint031实际验收与下一方法companion
+
+[verification-reopened-025](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/verification-reopened-025.json)实际report/card/唯一writeback通过（48 changed knowledge pages/48 items），boundary/lint/diff exit0，0errors178warnings(131key44raw3parser)。G24完整旧humanprefix及J02/L25/L26prefix、raw/PLAN/Bib/脚本结果hash保护通过，新G24-16–25全部needs_review。Morse比较以实际UNC author-preprint为限，VoR未取得；不由此指认Go真实producer误用或VoR仍逐字同式。
+
+稳定发布指针main / `Audit DAY16 CdTe normalization likelihood and sensitivity conventions`，actualhash/H3/push仅publication031/runreceipt。下一原方法companion Tsuzuki2021 RSI92,063101/DOI10.1063/5.0050826，原文前回忆已冻，尚未取得/读正文。研究/goal保持active至原15:00上海，formal16一次、partial17，不开18。

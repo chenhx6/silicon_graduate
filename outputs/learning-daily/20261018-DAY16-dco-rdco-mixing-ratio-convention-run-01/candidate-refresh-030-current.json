@@ -1,0 +1,39 @@
+{
+  "at": "2026-10-19T07:03:51.006205+08:00",
+  "hard_deadline": "2026-10-19T15:00:00+08:00",
+  "minutes_to_deadline": 476.1498965833333,
+  "goal_status": "active",
+  "day_index": 16,
+  "completed_day_indices": [
+    16
+  ],
+  "partial_day_indices": [
+    17
+  ],
+  "next_day_index": 17,
+  "current_problem": "matchingcalibration/reference andactualresponse forbranchdiscrimination",
+  "candidate_pool": [
+    {
+      "route": "N223/Collins2019/J90primary",
+      "status": "specificcanonicalinputscomplete; primarybodyaccessboundariesretained",
+      "gain": "newlegitimatebody/actualgateCov only; nopaddingwithmoretoy"
+    },
+    {
+      "route": "Go2024CdTe actualtemplate/calibration/likelihood",
+      "status": "Wikihumanreviewedcandidate; primarynotopenedthisroute",
+      "gain": "explicitdataavailability/actualresponse orlikelihoodidentity, independent56Febenchmarkwithnewdetector"
+    },
+    {
+      "route": "oldG411unpolarizedsourcemoreMC",
+      "status": "locallysaturated",
+      "gain": "notactualpolarizationresponse/Q, donotextendNtofillwindow"
+    },
+    {
+      "route": "Day18",
+      "status": "notpermitted/notopened",
+      "gain": "none"
+    }
+  ],
+  "selected_route": "Go2024asoneDay17uncreditedknowledgepreview, reuseformalDay16",
+  "stop_decision": "continuewindow; underconcreteinputboundariesdonotclaimallresearchgloballysaturated"
+}

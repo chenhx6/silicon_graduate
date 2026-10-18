@@ -1,0 +1,27 @@
+{
+  "at": "2026-10-19T07:07:24.002739+08:00",
+  "command": [
+    "pdftoppm",
+    "-f",
+    "2",
+    "-l",
+    "7",
+    "-scale-to",
+    "1800",
+    "-png",
+    "raw/papers/2024_Go et al_Demonstration of nuclear gamma-ray polarimetry based on a multi-layer CdTe Compton camera.pdf",
+    "tmp/day16-go2024/figures/p"
+  ],
+  "exit_code": 0,
+  "stderr": "",
+  "raw_sha256": "cb16b9b16e4932385ce027bf4af56cac72025fdd89f3adc90384a9e48c0c78ea",
+  "fulltext_read_pages": 9,
+  "visual_pending_pages": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ]
+}

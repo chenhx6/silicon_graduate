@@ -362,3 +362,13 @@ J02 Table1两条314.78的母态376.28/445.00与理论P−.94/+.96不同；需同
 [[nndc-2001-223ra-reference-and-2026-intensity-records]] N223-1–10：旧342.654/G62.45 MR0.29(5)无显式号，按[[tuli-2001-ensdf-format-manual]] sign未知；2026XUNDL实为2019绝对γ强度编译、无新MR/P。新113.1/314.9的两个placement各重复同一组RI且col77为&未分区，不能相加或默认各一半来构造P_eff；旧113.11的@分区也不能裸迁到J98的α门。
 
 同旧RI/同响应条件下，113.11 E2份额由photon .2222变为total .5872、L/M electron .9493/.9549，支持电子选择与γ选择的区别，非新实测reference纯度。真实α门/背景/峰面积、分量与response/Cov仍需matching输入。回忆里误把62.45终态写成61.431已由能量闭合纠正为280.182相容候选；原47行计算始终使用正确J9/2→7/2，不更改原数。
+
+### CdTe模板推断、能谱归一与Q定义的迁移门
+
+[[go-2024-demonstration-nuclear-gamma-ray-polarimetry-cdte]] G24-16–25的新self-audit保留旧humanprefix。原νj来自各division能谱fit，azimuthinnerlikelihood固定ν并迭代P；Fig5先归一后cut，不能简化成每φbin任意free scale，也未恢复真实jointprofile/Cov。P=.57(.04)主要eventselection系统项、Q′/P共享同data，GRAPE同步monitor未给可合并的独立P，所以reportedP、modulationcurve和Q不是三次独立实验。
+
+G24的Q′=Q_G P与[[morse-2022-gretina-polarization-sensitivity]] M22-5所据UNC author-preprint的A0=Q_M Pbar/2有半因子差。只在sameharmonic、P/response/ε全匹配时Q_G=Q_M/2、F_G=F_M/4；不同实际selection/角平均不能只靠数字转换认证迁移。G24Table1b/c参数错配与847GRETINA标签引用GRETA模型曲线的边界另存，不重写原值或给统一技术排名。
+
+当前Dataavailability为作者reasonable request，原count/templates/partition/Cov未取得，experimentalL4fit notready。单signalhist的解析profile/Schur只作使用前设计，见[[modulation-curve]]；没有造假raw或联系作者。印刷summary重放给F约2.3275e−6、40–120°名义收益1.44，窄cut的F比.457仅在loss参照相同条件成立，不保证真实beamtime最优。
+
+Go/Morse这个公式比较以上游实际读到的UNC preprint为限，VoR未得，不据此断言作者真实producer误用或VoR仍逐字相同。

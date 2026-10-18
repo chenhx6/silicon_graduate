@@ -1,0 +1,10 @@
+{
+  "at": "2026-10-19T07:03:51.006205+08:00",
+  "source": "knowledge/sources/go-2024-demonstration-nuclear-gamma-ray-polarimetry-cdte.md",
+  "prefix_bytes": 11340,
+  "prefix_sha256": "df635e31c62605610c8f1b15f616c551e1c3914390263d9515a1b60bdaaf3774",
+  "raw": "raw/papers/2024_Go et al_Demonstration of nuclear gamma-ray polarimetry based on a multi-layer CdTe Compton camera.pdf",
+  "raw_sha256": "cb16b9b16e4932385ce027bf4af56cac72025fdd89f3adc90384a9e48c0c78ea",
+  "old_human_reviewed_prefix_preserved": true,
+  "new_append_claims_require_needs_review": true
+}

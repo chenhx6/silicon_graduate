@@ -1,0 +1,31 @@
+{
+  "publication_index": 30,
+  "at": "2026-10-19T07:05:41.548487+08:00",
+  "branch": "main",
+  "subject": "Preserve DAY16 unsigned mixing ratios and shared intensity records",
+  "commit": "d99484eeb7af07b3a3b9ca23c807f729d690db5b",
+  "origin_main": "d99484eeb7af07b3a3b9ca23c807f729d690db5b",
+  "status": "published",
+  "required_exit_codes": {
+    "fresh_fetch": 0,
+    "ancestry": 0,
+    "dry_run_HEAD_main": 0,
+    "push_HEAD_main": 0,
+    "post_commit_eol": 0,
+    "cached_check": 0
+  },
+  "push_observation": {
+    "cmd": [
+      "git",
+      "push",
+      "origin",
+      "HEAD:main"
+    ],
+    "exit_code": 0,
+    "stdout": "",
+    "stderr": "remote: Powered by \u001b[01;33mGITEE.COM \u001b[0m[1.1.23]        \nremote: Set trace flag e34227aa        \nTo gitee.com:chx6/silicon_graduate.git\n   9d0746b..d99484e  HEAD -> main\n"
+  },
+  "goal_status": "active",
+  "research_deadline": "2026-10-19T15:00:00+08:00",
+  "credit_retained_once": "formal16/next17/count16,partial17"
+}

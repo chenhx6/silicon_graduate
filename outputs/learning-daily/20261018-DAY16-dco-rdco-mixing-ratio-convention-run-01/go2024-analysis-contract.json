@@ -1,0 +1,46 @@
+{
+  "identity": "GO24-CALIBRATION-NORMALIZATION-AUDIT-01",
+  "at": "2026-10-19T07:09:38.668024+08:00",
+  "raw": "raw/papers/2024_Go et al_Demonstration of nuclear gamma-ray polarimetry based on a multi-layer CdTe Compton camera.pdf",
+  "raw_sha256": "cb16b9b16e4932385ce027bf4af56cac72025fdd89f3adc90384a9e48c0c78ea",
+  "quoted": {
+    "E_keV": 847.0,
+    "electron_rest_keV": 511.0,
+    "P": 0.57,
+    "P_sigma_reported_dominated_systematic": 0.04,
+    "Qprime": 0.203,
+    "Qprime_sigma_text": 0.009,
+    "Qprime_sigma_Fig6": 0.008,
+    "Q_reported": 0.35,
+    "Q_sigma_reported": 0.04,
+    "epsilon_coin_MC_before_cut": 3e-05,
+    "epsilon_selected_approx": 1.9e-05,
+    "F_selected_approx": 2.4e-06,
+    "selection_gain_Q": 1.5,
+    "selection_efficiency_retention": 0.64,
+    "narrow_Q": 0.4,
+    "narrow_efficiency_retention_if_same_baseline": 0.35
+  },
+  "reference_curves": {
+    "Morse2022_GRETINA": {
+      "a_per_keV": 0.000325,
+      "b": 0.131,
+      "source": "G24p6Ref29/M22Eq13",
+      "Q_847_printed": 0.2
+    },
+    "Kojima2021_Clover": {
+      "a_per_keV": 0.000147,
+      "b": 0.3404,
+      "source": "G24p6Ref24",
+      "Q_847_printed": 0.229
+    }
+  },
+  "Table1b_c_footnote_mapping": "bmarkedCloverbutgivesMorseparams, cmarkedGRETINAhasKojima; detectmappingonly notrepairraw",
+  "factor2_comparison": "M22A0=Q_M Pbar/2; G24Qprime=Q_G P; sameharmonic/P impliesQ_G=Q_M/2, notactualarraytransfer",
+  "likelihood_derivation_scope": "onepositivesignal-onlyPoissonhistogram n_i, mu_i=nu*s_i(P); symbolicprofile and FisherSchur, nochosenexperimentalcounts/templates",
+  "data_boundary": "raw/templates/partition/cuts/Cov notdownloaded; authoronreasonablerequest/noauthorcontact",
+  "day_index": 16,
+  "partial_day_indices": [
+    17
+  ]
+}

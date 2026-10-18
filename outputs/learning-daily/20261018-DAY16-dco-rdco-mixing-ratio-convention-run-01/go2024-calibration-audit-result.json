@@ -1,0 +1,61 @@
+{
+  "at": "2026-10-19T07:12:25.527070+08:00",
+  "script_sha256": "d22966f3cf75c634145e98d84301984538d8c482409ba2b524f6c971a2f6e372",
+  "contract_sha256": "11290a0773121f32b61b900878089a17b5b7293a25ca1abae962421c6c967999",
+  "source_sha256": "cb16b9b16e4932385ce027bf4af56cac72025fdd89f3adc90384a9e48c0c78ea",
+  "point_KN_Q0_847": 0.4916848939346596,
+  "printed_curve_replays": {
+    "Morse2022_GRETINA": {
+      "Q": 0.1997592802833038,
+      "Q_printed": 0.2,
+      "parameter_source": "G24p6Ref29/M22Eq13"
+    },
+    "Kojima2021_Clover": {
+      "Q": 0.22858873235426863,
+      "Q_printed": 0.229,
+      "parameter_source": "G24p6Ref24"
+    }
+  },
+  "Table1_b_c_mapping_matches_p6_text": false,
+  "rounded_Qprime_over_P": 0.35614035087719303,
+  "Q_ratio_uncertainty_component_bounds": [
+    {
+      "marginal_case": "Qprime_sigma_text",
+      "sigma_Q_if_independent": 0.029562185383834018,
+      "sigma_Q_possible_interval_for_any_Cov": [
+        0.009202831640504776,
+        0.04078177900892583
+      ],
+      "not_recovered": "The actual Qprime-P covariance and shared selection systematics"
+    },
+    {
+      "marginal_case": "Qprime_sigma_Fig6",
+      "sigma_Q_if_independent": 0.02866354850209913,
+      "sigma_Q_possible_interval_for_any_Cov": [
+        0.010957217605417055,
+        0.03902739304401355
+      ],
+      "not_recovered": "The actual Qprime-P covariance and shared selection systematics"
+    }
+  ],
+  "F_selected_from_rounded_centrals": 2.3274999999999997e-06,
+  "selected_over_uncut_F_using_reported_relative_changes": 1.44,
+  "narrow_over_selected_F_if_same_efficiency_baseline": 0.45714285714285724,
+  "efficiency_after_36percentloss_from_MC_central": 1.9200000000000003e-05,
+  "pure_signal_profile": {
+    "nu_hat": "(n1 + n2 + n3)/(s1 + s2 + s3)",
+    "loglikelihood_matches_conditional_shape_plus_constant": true,
+    "Fisher_Schur_identity": "nu*(sum(sprime_i^2/s_i)-(sum(sprime_i))^2/S) = nu/S * sum_i<j s_i*s_j*(sprime_i/s_i-sprime_j/s_j)^2",
+    "zero_information_for_pure_scale_change_control": true,
+    "fixed_scale_and_profile_information_equal_if_Sprime0": true,
+    "actual_G24_nuisance_profile_or_confidence_interval_recovered": false
+  },
+  "same_event_marginal_boundary": "If underlying independent Poisson energy-phi cells have means mu_ephi, Cov(E_e,D_phi)=mu_ephi. Full event/partition ledger is required; two marginal histograms are not automatically independent.",
+  "normalization_conversion_same_harmonic_and_P_only": {
+    "Q_Go_equals_Q_Morse_over2": true,
+    "F_Go_equals_F_Morse_over4_if_same_epsilon": true,
+    "certifies_detector_response_transfer_or_rewrites_reported_table": false
+  },
+  "actual_counts_templates_or_Cov_downloaded": false,
+  "new_experimental_fit": false
+}

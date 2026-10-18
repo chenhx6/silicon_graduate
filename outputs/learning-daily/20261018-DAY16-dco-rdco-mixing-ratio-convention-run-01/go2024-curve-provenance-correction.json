@@ -1,0 +1,11 @@
+{
+  "at": "2026-10-19T07:15:54.353940+08:00",
+  "frozen_input_label": "Morse2022_GRETINA",
+  "interpretation": "The label mirrors G24Table1, not the producer identity. M22Eq13 is a fit to four GRETA simulated energies, not independent GRETINA847measurement. G24p6bodycallsGRETA, Table1callsGRETINA. Preservequotedlabelandnumericreplay, do notturnitintonewexperimentalcalibration.",
+  "locators": [
+    "G24PDF6afterEq7",
+    "G24Table1GRETINA847",
+    "M22PDF10Sec4.4",
+    "M22PDF11Eq13"
+  ]
+}

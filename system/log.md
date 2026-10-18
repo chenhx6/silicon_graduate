@@ -1945,3 +1945,8 @@ actualjoint/闭式、fullPSD/spin2/相位/纯极限控制写回UG24-30–34/Co60
 ## 2026-10-19 — Day16 checkpoint030：unsignedMR与共享强度placement
 
 同run/session持续至原15:00，formal16一次partial17。N223新source/TU01-4及方法写回：unsignedMR signunknown、&未分/@已分、2026编译2019I而无新MR/P，photon/total/L/M分母不能混用。主动回忆终态误认已能量guard纠正，原冻结和正确Ji/Jf计算保持。verification024实际46/46、required0、0errors178warnings，原prefix/raw/PLAN/Bib保护过。Collins2019NPL明确无全文、publisher/MCP路线未得body，J90亦未得原件；不补缺Cov/门。发布指针main / Preserve DAY16 unsigned mixing ratios and shared intensity records，exacthash/actualpush只receipt。
+
+
+## 2026-10-19 — Day16 checkpoint031：CdTe实际归一/似然与Q合同
+
+同run/goal持续原15:00，formal16一次partial17。Go2024原九页/6图1表与currentHTML复核，oldhumanprefix不变，新16–25全needs_review；νenergyfit/inner固定ν、selectionsystematic、Qprime误差/脚注/模型标签边界保留。Q half-factor比较限实际MorseUNCpreprint/同observable，不判未读VoR/producer；纯signal profile/Fisher只解析设计、无fakehist，原counts/templates/Σ未得。verification025实际48/48、required0/0errors178warnings，原raw/PLAN/Bib/prefix保护过。下一Tsuzuki2021原方法前回忆已冻。发布指针main / Audit DAY16 CdTe normalization likelihood and sensitivity conventions，exacthash/actualpush只receipt。
