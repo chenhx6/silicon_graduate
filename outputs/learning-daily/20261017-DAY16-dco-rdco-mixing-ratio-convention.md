@@ -64,6 +64,8 @@ updated: 2026-10-18
 | [KF89](../../knowledge/sources/kramer-flecken-1989-use-dco-ratios.md) | 7页全文主线；原图定义/Table1/Fig6/7/8、实测两行和References | 178W OSIRIS实验；两门、强度比和处理共享数据，reference另导入旧文 |
 | [BT87](../../knowledge/sources/bargholtz-1987-high-spin-gamma-gamma-directional-correlations.md) | 8页完整主线和Eq7/10/12、Fig2/Table1原图 | 高自旋近似/方法验证，与KF89引用有理论谱系，非独立实验 |
 | [NNDC178W](../../knowledge/sources/nndc-2009-178w-dco-reference-records.md) | 四个官方选定对象/固定栏与所选AD/Kexp记录 | 评价转述旧采集，不计新实验；raw归档/Bib缺口保留 |
+| [KB08](../../knowledge/sources/kibedi-2008-evaluation-theoretical-conversion-coefficients-bricc.md) | 13页正文主线+AppendixA/selected W row与实际两次新FO查询 | 理论数据与reported Kexp分层；旧人审prefix完整保留，新claims true |
+| [Purry1997](../../knowledge/sources/purry-1997-phd-w178-multiparticle-structure.md) | Surrey112页实际PDF；定向实验/分析主线、原表、目标与反证/summary | primary；与1998paper/评价重复数值按依赖，wholethesis仅skimmed |
 | Dors1979 | Crossref核六作者、NPA314(1)61–79、DOI10.1016/0375-9474(79)90555-4；全文未取得 | 元数据可定位177Hf(α,3nγ)，不据题名补写δ定义或当新增实证 |
 
 四份实际raw的SHA-256分别与source页匹配；KF89存大写hex，首个提取器因case-sensitive比较退出1，归一hex大小写后确认同一hash，raw未改。渲染与OCR均在`tmp/day16-source-reading/`；无raw/PLAN/Bib写入。Crossref题名/作者/年份/卷页是外部元数据核对，不替代原件数值和locator。
@@ -99,6 +101,26 @@ Fig2条件的13个角采样显示I20 finite改进absolute W误差较小，不能
 更重要的新companion是N178-12：同一921-keV目标的explicit alphaKexp=.0067(.0011)，同母态1090参考为.0031(.0005)，来自1998Pu01缺省层；[独立冻结v2](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/n178-reference-input-v2.json)和[v2 typed audit](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/n178-reference-audit-v2.json)核K-shell实验标记、空MR及实际母态。它们不是total CC .009(.004)/.00380；还缺primary的electron/photon calibration、门/峰分解、Q/efficiency/Σ与匹配理论K系数。1998Pu01已由官方Refs/Crossref定位Purry等NPA632,229–274(1998)，DOI10.1016/S0375-9474(97)00654-4，目前元数据不当46页已读。
 
 原169附近另有来自18-母态的168.0，和10-母态168.3共享literal A2=−.67且均无error；原峰分解未核，不能计两次独立校准。alpha对象RI125度以及1089.7的1.3±1.4 fixed-field precision同样保留，拒绝把邻近CC数读成δ或把不同反应RI平均成新branch。
+
+### 后续：真实K-shell companion的匹配理论与认识修正
+
+[来源前回忆](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/w178-kicc-before-source-recall.md)与[时间/hash](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/w178-kicc-recall-freeze.json)在重开KB08 raw之前冻结，明确受旧Yb查询/ENSDF数值priming。随后重读KB08 printed202–214完整主线、AppendixA215、定向TableB1 printed223/W184及Eq1/5/20/24、Table2；不是宣称重新逐格读全部AppendixB。原PDF hash匹配，旧humanreview source的全字节前缀保存并核hash，新KB08-D16-1–4只为Codex self-audit。
+
+[冻结query input](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/bricc-w178-query-input.json)限定Z74/E920.8、FO pureM1/E2各一POST，零自动retry、nominal energy、无A178-specific radius计算。[query receipt](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/bricc-w178-query-receipt.json)与[offline capture](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/bricc-w178-captured.json)分开：HTTP200之后核program v2.3(2011)/Z/element/E/multipole/FO echo、全rows、N6/N7 empty及398keV warnings。K系数M1=.00995(.00014)、E2=.00435(.00006)是新理论输入，不是实际K测量或旧Yb平移；K有效不代表programTot完整。raw网页留repo tmp、关键数值/hash已canonical。
+
+[可运行三阶段程序](../../system/scripts/day16_bricc_w178_reference.py)与[结果](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/bricc-w178-conditional-comparison.json)给本任务两个固定R根的nominal K预测.00990314/.00435261，理论quoted误差盒的像均不与reported[.0056,.0078]相交。它没有自动选择一根，也未传播R/ρ/reference/response误差至整族DCO分支。普通FO/M1E2的central算术逆映射abs(d)=1.176001、fE2=.580357，仍±两sign；quoted alpha边界名义像abs(d)[.789423,1.865476]无置信水平、不是新测δ或联合fit。
+
+决定revises“额外observable会自动在现有两点中选一个”的预期，limits仅靠phase换号修复magnitude差异。新必要输入为原electron/photon校准、门/分峰/normalization/Σ以及该普通模型的适用条件；没有自由调sigma、efficiency或penetration参数强配。源Sec4.1.2的NP/SC/核参数条件和Table2误差定义保留。其后已成功取得Purry1997thesis（见下一段），1998paper仍未取得；两者严格分开，currentbatch不再任意开更多能量/modelquery。
+
+### 后续：已取得Purry1997 primary，原K测量与真实反证
+
+OpenAIRE定向thesis检索返回Surrey公开delivery，nature-downloader实际下载[112页PDF身份/覆盖回执](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/purry-thesis-identity-and-coverage.json)：Christopher Stephen Purry、Surrey、May1997、3,748,295bytes，hash b8ee1308d4871c1514d0ed54b3d523104da143bb346088a24eb008d97fc96753。原title页、wrapper/2017reproduction与原日期分开；旧epubs文件名只作discovery，不冒称同一hash。原PDF只在repo tmp、raw槽未归档。
+
+[新primary source](../../knowledge/sources/purry-1997-phd-w178-multiparticle-structure.md)实际定向读Ch1、Ch3printed12–24完整实验/分析、Ch4intro/所选表行和printed49–54/summary95–97；wholethesis仍skimmed，不冒充完整112页精读。P97-2/3/5的原图确认K=.0067(.0011)/.0031(.0005)、独立SiLi磁透镜+单Ge、1.5mg/cm²斜靶、beam后50–400ns、152Eu/internal lines和timeenergycorrection。此后不能继续说完全无primary/完全无校准；实际efficiencycurve/internalcalibrator逐线/peakledger/Cov仍缺。
+
+P97-4原AD采用另一prompt/earlydelayedselection、拟合W0(1+a2P2)；它不直接等于fullA2，也不自动与delayedK共用ρ。[冻结estimator input](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/purry-estimator-input.json)、[target ledger](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/purry-thesis-target-input.json)、[程序](../../system/scripts/day16_purry_observable_ledger.py)/[核验](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/purry-observable-ledger-audit.json)核实际47/97/148三角full设计秩3；equalweight point诊断c0=−.00954915/c2=−.44481479，reported a2=(A2+c2A4)/(1+c0A4)。实际weights未知，不能用此反解原A4；任意positive diagonalweights的c2界跨零[−1.100076,.954230]，原geometry本身不恢复estimator。
+
+P97-8是比条件toy更直接的反证：作者用290KICC=.027(+.004/−.007)、prompttiming和68/61低能符合，把旧3525态I14/35ns改为13-/T1/2<1ns，30±1ns改归3654态。旧KF89历史结论保留，新KF89-20链接此后续原件；不能仅凭原abstractestablished14忽略修订，也不能把另一态spin改变误贴到921的11→10路径或量化原δ变化。原producer/response不足仍有真实适用边界。
 
 ## Counter-evidence and missing companion observables
 
@@ -178,6 +200,38 @@ canonical [178W知识单](../../knowledge/research-notes/w178-921-dco-gate-doubl
         {
           "path": "knowledge/sources/nndc-2009-178w-dco-reference-records.md",
           "locator": "N178-12"
+        },
+        {
+          "path": "knowledge/sources/kibedi-2008-evaluation-theoretical-conversion-coefficients-bricc.md",
+          "locator": "KB08-D16-2"
+        },
+        {
+          "path": "knowledge/sources/kibedi-2008-evaluation-theoretical-conversion-coefficients-bricc.md",
+          "locator": "KB08-D16-4"
+        },
+        {
+          "path": "knowledge/sources/purry-1997-phd-w178-multiparticle-structure.md",
+          "locator": "P97-2"
+        },
+        {
+          "path": "knowledge/sources/purry-1997-phd-w178-multiparticle-structure.md",
+          "locator": "P97-3"
+        },
+        {
+          "path": "knowledge/sources/purry-1997-phd-w178-multiparticle-structure.md",
+          "locator": "P97-4"
+        },
+        {
+          "path": "knowledge/sources/purry-1997-phd-w178-multiparticle-structure.md",
+          "locator": "P97-5"
+        },
+        {
+          "path": "knowledge/sources/purry-1997-phd-w178-multiparticle-structure.md",
+          "locator": "P97-8"
+        },
+        {
+          "path": "knowledge/sources/purry-1997-phd-w178-multiparticle-structure.md",
+          "locator": "P97-10"
         }
       ]
     },
@@ -197,6 +251,10 @@ canonical [178W知识单](../../knowledge/research-notes/w178-921-dco-gate-doubl
         {
           "path": "knowledge/sources/nndc-2009-178w-dco-reference-records.md",
           "locator": "N178-6"
+        },
+        {
+          "path": "knowledge/sources/kramer-flecken-1989-use-dco-ratios.md",
+          "locator": "KF89-20"
         }
       ]
     },
@@ -337,6 +395,106 @@ canonical [178W知识单](../../knowledge/research-notes/w178-921-dco-gate-doubl
           "locator": "N178-13"
         }
       ]
+    },
+    {
+      "knowledge": "knowledge/sources/kibedi-2008-evaluation-theoretical-conversion-coefficients-bricc.md",
+      "summary": "精确保留既有人审全字节前缀；追加KB08原式默认/SC/误差边界、两次Z74 FO理论查询和K-companion固定点检查，均新Codex-only claims。",
+      "anchor": "2026-10-18 W178 K-shell理论输入与使用边界",
+      "sources": [
+        {
+          "path": "knowledge/sources/kibedi-2008-evaluation-theoretical-conversion-coefficients-bricc.md",
+          "locator": "KB08-D16-1"
+        },
+        {
+          "path": "knowledge/sources/kibedi-2008-evaluation-theoretical-conversion-coefficients-bricc.md",
+          "locator": "KB08-D16-2"
+        },
+        {
+          "path": "knowledge/sources/kibedi-2008-evaluation-theoretical-conversion-coefficients-bricc.md",
+          "locator": "KB08-D16-3"
+        },
+        {
+          "path": "knowledge/sources/kibedi-2008-evaluation-theoretical-conversion-coefficients-bricc.md",
+          "locator": "KB08-D16-4"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/methods/internal-conversion-analysis.md",
+      "summary": "保存实际W178 Kexp与shell匹配理论、两固定DCO点均在literal box外的反向检验；名义abs(delta)映射不当实验新测量。",
+      "anchor": "178W 921-keV：真实K-shell companion不能自动替两个DCO点选支",
+      "sources": [
+        {
+          "path": "knowledge/sources/kibedi-2008-evaluation-theoretical-conversion-coefficients-bricc.md",
+          "locator": "KB08-D16-4"
+        },
+        {
+          "path": "knowledge/sources/nndc-2009-178w-dco-reference-records.md",
+          "locator": "N178-12"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/sources/purry-1997-phd-w178-multiparticle-structure.md",
+      "summary": "Surrey1997实际112页primary按定向scope读实验/分析/原表/目标/后续赋值反证，核electron装置50–400ns/K表与truncateda2；整体仍skimmed、raw归档/Bib缺口公开。",
+      "anchor": "Purry 1997：先核实际测量，再使用K-shell companion",
+      "sources": [
+        {
+          "path": "knowledge/sources/purry-1997-phd-w178-multiparticle-structure.md",
+          "locator": "P97-1"
+        },
+        {
+          "path": "knowledge/sources/purry-1997-phd-w178-multiparticle-structure.md",
+          "locator": "P97-2"
+        },
+        {
+          "path": "knowledge/sources/purry-1997-phd-w178-multiparticle-structure.md",
+          "locator": "P97-3"
+        },
+        {
+          "path": "knowledge/sources/purry-1997-phd-w178-multiparticle-structure.md",
+          "locator": "P97-4"
+        },
+        {
+          "path": "knowledge/sources/purry-1997-phd-w178-multiparticle-structure.md",
+          "locator": "P97-5"
+        },
+        {
+          "path": "knowledge/sources/purry-1997-phd-w178-multiparticle-structure.md",
+          "locator": "P97-6"
+        },
+        {
+          "path": "knowledge/sources/purry-1997-phd-w178-multiparticle-structure.md",
+          "locator": "P97-7"
+        },
+        {
+          "path": "knowledge/sources/purry-1997-phd-w178-multiparticle-structure.md",
+          "locator": "P97-8"
+        },
+        {
+          "path": "knowledge/sources/purry-1997-phd-w178-multiparticle-structure.md",
+          "locator": "P97-9"
+        },
+        {
+          "path": "knowledge/sources/purry-1997-phd-w178-multiparticle-structure.md",
+          "locator": "P97-10"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/methods/angular-distribution.md",
+      "summary": "从Purry原P2-only estimator和实际三极角导出omittedP4的投影/正weight界，保留原weights未知，不重造测量A4。",
+      "anchor": "原文a2拟合系数与完整A2不是同一个自动可移植对象",
+      "sources": [
+        {
+          "path": "knowledge/sources/purry-1997-phd-w178-multiparticle-structure.md",
+          "locator": "P97-4"
+        },
+        {
+          "path": "knowledge/sources/purry-1997-phd-w178-multiparticle-structure.md",
+          "locator": "P97-10"
+        }
+      ]
     }
   ]
 }
@@ -360,6 +518,8 @@ L0为三篇主线/原图回核；L1/L2为新证据单和反向验证；L3当前�
 - 最新[verification-checkpoint-004.json](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/verification-checkpoint-004.json)：8 changed知识页/writeback有效；boundary/diff/lint exit0，0errors/148warnings（116 citation-key missing、29 raw missing、3 reaction parser）。新source曾缺Extracted Pages导致exit1，已补且留失败回执；四public text hash与v1 code/output精确重放通过。
 - 本扩展checkpoint稳定指针main / `Audit DAY16 evaluated W178 references and correlation approximation limits`；实际hash/H3/push只在本run publication receipt。原run仍active，不授正式学分。
 - QMD status exit0：562 indexed/2459 vectors、349 orphan chunks、38 pending，更新停于11天前；本轮直接查canonical与原件，外部cache刷新deferred，不称索引已包含新页。
+- 最新[verification-checkpoint-006.json](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/verification-checkpoint-006.json)：12 changed知识页/writeback有效，boundary/diff/lint exit0；0 errors/150 warnings（117 citation-key missing、30 raw missing、3 reaction parser）；primary PDF hash、保护文件及KB08既有人审prefix保持通过。新增Purry archive/Bib缺口显式保留。
+- 新科学checkpoint稳定指针main / `Trace DAY16 W178 conversion measurements and revised DCO assignments`；actualhash/H3/push outcome只记receipt。研究与goal继续active，无formal16或Day17credit。
 - 当前续接：[continuation-current.md](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/continuation-current.md)。原run/goal仍active，不能以本页完成提前结束学习窗口。
 
-下一步优先1998Pu01原件与921 K-shell companion的理论/校准匹配；169/137 primary/producer仍缺。四个NNDC对象已取得并canonical；BT87固定检查已完成，不再扩大同网格。Dors的OA-only/public discovery无PDF、S2无OA URL、Scholar一次timeout，均留证；不把TDM许可标签当OA或全文证据。只有当前问题饱和才按原时间门检查恰好Day17知识预习；不授Day17学分、不打开Day18。
+下一步围绕新取得thesis的Ki90磁透镜方法与实际校准/峰分解边界继续当前问题；thesis定向主线已核，1998paper仍未取得，不重复终态失败。本次K-shell理论batch已完成，不再任意query强配。169/137 primary/producer仍缺。四个NNDC对象已取得并canonical；BT87固定检查已完成，不再扩大同网格。Dors的OA-only/public discovery无PDF、S2无OA URL、Scholar一次timeout，均留证；不把TDM许可标签当OA或全文证据。只有当前问题饱和才按原时间门检查恰好Day17知识预习；不授Day17学分、不打开Day18。

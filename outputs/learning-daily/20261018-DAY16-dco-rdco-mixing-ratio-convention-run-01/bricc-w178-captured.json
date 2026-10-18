@@ -1,0 +1,964 @@
+{
+  "identity": "DAY16-BRICC-W178-K-REFERENCE-01",
+  "input_sha256": "e2d0cd1737398b4b2698cb5c2fbf4f49399e126300dad228a1e205cbcaeba934",
+  "capture_script_sha256": "26d587052554fdea2e2ea022c4fb68bd2bc8deadd0927edeaa20d4f69bc10690",
+  "query_receipt_sha256": "988fe51cb3ef4d6d1a096dd50f4fcce6f603feec6d500308b48501ddc6411812",
+  "models": [
+    {
+      "multipolarity": "M1",
+      "program_version_echo": "BrIccS v2.3 (9-Dec-2011)",
+      "dataset": "BrIccFO",
+      "Z": 74,
+      "energy_keV": 920.8,
+      "raw_snapshot": "tmp/day16-bricc-w178/responses/bricc-Z74-E920p8-FO-M1.html",
+      "raw_sha256": "293b1fe91a101ce879518952c49614f24fc0232d529dfd32e76c0bd07d8507cd",
+      "all_printed_rows": [
+        [
+          "Shell",
+          "E(ce)",
+          "M1"
+        ],
+        [
+          "Tot",
+          "",
+          "0.01188",
+          "(17)"
+        ],
+        [
+          ""
+        ],
+        [
+          "K",
+          "851.27",
+          "0.00995",
+          "(14)"
+        ],
+        [
+          ""
+        ],
+        [
+          "L1",
+          "908.70",
+          "0.001391",
+          "(20)"
+        ],
+        [
+          "L2",
+          "909.26",
+          "9.74E-5",
+          "(14)"
+        ],
+        [
+          "L3",
+          "910.59",
+          "1.153E-5",
+          "(17)"
+        ],
+        [
+          "L-tot",
+          "908.75",
+          "0.001500",
+          "(21)"
+        ],
+        [
+          ""
+        ],
+        [
+          "K/L",
+          "",
+          "6.63",
+          "(14)"
+        ],
+        [
+          ""
+        ],
+        [
+          "M1",
+          "917.98",
+          "0.000312",
+          "(5)"
+        ],
+        [
+          "M2",
+          "918.23",
+          "2.44E-5",
+          "(4)"
+        ],
+        [
+          "M3",
+          "918.52",
+          "2.96E-6",
+          "(5)"
+        ],
+        [
+          "M4",
+          "918.93",
+          "1.772E-8",
+          "(25)"
+        ],
+        [
+          "M5",
+          "918.99",
+          "2.49E-8",
+          "(4)"
+        ],
+        [
+          "M-tot",
+          "918.00",
+          "0.000340",
+          "(5)"
+        ],
+        [
+          ""
+        ],
+        [
+          "L/M",
+          "",
+          "4.42",
+          "(9)"
+        ],
+        [
+          ""
+        ],
+        [
+          "N1",
+          "920.20",
+          "7.53E-5",
+          "(11)"
+        ],
+        [
+          "N2",
+          "920.31",
+          "5.77E-6",
+          "(8)"
+        ],
+        [
+          "N3",
+          "920.37",
+          "6.95E-7",
+          "(10)"
+        ],
+        [
+          "N4",
+          "920.54",
+          "4.38E-9",
+          "(7)"
+        ],
+        [
+          "N5",
+          "920.55",
+          "6.08E-9",
+          "(9)"
+        ],
+        [
+          "N6",
+          "920.76",
+          ""
+        ],
+        [
+          "N7",
+          "920.76",
+          ""
+        ],
+        [
+          "N-tot",
+          "920.21",
+          "8.18E-5",
+          "(12)"
+        ],
+        [
+          ""
+        ],
+        [
+          "L/N",
+          "",
+          "18.3",
+          "(4)"
+        ],
+        [
+          ""
+        ],
+        [
+          "O1",
+          "920.72",
+          "1.250E-5",
+          "(18)"
+        ],
+        [
+          "O2",
+          "920.75",
+          "7.97E-7",
+          "(12)"
+        ],
+        [
+          "O3",
+          "920.76",
+          "9.39E-8",
+          "(14)"
+        ],
+        [
+          "O4",
+          "920.79",
+          "2.70E-10",
+          "(4)"
+        ],
+        [
+          "O-tot",
+          "920.72",
+          "1.339E-5",
+          "(19)"
+        ],
+        [
+          ""
+        ],
+        [
+          "L/O",
+          "",
+          "112.0",
+          "(23)"
+        ],
+        [
+          ""
+        ],
+        [
+          "P1",
+          "920.79",
+          "9.72E-7",
+          "(14)"
+        ],
+        [
+          "P-tot",
+          "920.79",
+          "9.72E-7",
+          "(14)"
+        ],
+        [
+          ""
+        ],
+        [
+          "L/P",
+          "",
+          "1.54E3",
+          "(3)"
+        ]
+      ],
+      "coefficients": {
+        "Tot": {
+          "printed": "0.01188",
+          "printed_error": "(17)",
+          "value": 0.01188,
+          "quoted_error": 0.00017,
+          "Ece_printed_keV": null
+        },
+        "K": {
+          "printed": "0.00995",
+          "printed_error": "(14)",
+          "value": 0.00995,
+          "quoted_error": 0.00014,
+          "Ece_printed_keV": "851.27"
+        },
+        "L1": {
+          "printed": "0.001391",
+          "printed_error": "(20)",
+          "value": 0.001391,
+          "quoted_error": 2e-05,
+          "Ece_printed_keV": "908.70"
+        },
+        "L2": {
+          "printed": "9.74E-5",
+          "printed_error": "(14)",
+          "value": 9.74e-05,
+          "quoted_error": 1.4e-06,
+          "Ece_printed_keV": "909.26"
+        },
+        "L3": {
+          "printed": "1.153E-5",
+          "printed_error": "(17)",
+          "value": 1.153e-05,
+          "quoted_error": 1.7e-07,
+          "Ece_printed_keV": "910.59"
+        },
+        "L-tot": {
+          "printed": "0.001500",
+          "printed_error": "(21)",
+          "value": 0.0015,
+          "quoted_error": 2.1e-05,
+          "Ece_printed_keV": "908.75"
+        },
+        "K/L": {
+          "printed": "6.63",
+          "printed_error": "(14)",
+          "value": 6.63,
+          "quoted_error": 0.14,
+          "Ece_printed_keV": null
+        },
+        "M1": {
+          "printed": "0.000312",
+          "printed_error": "(5)",
+          "value": 0.000312,
+          "quoted_error": 5e-06,
+          "Ece_printed_keV": "917.98"
+        },
+        "M2": {
+          "printed": "2.44E-5",
+          "printed_error": "(4)",
+          "value": 2.44e-05,
+          "quoted_error": 4e-07,
+          "Ece_printed_keV": "918.23"
+        },
+        "M3": {
+          "printed": "2.96E-6",
+          "printed_error": "(5)",
+          "value": 2.96e-06,
+          "quoted_error": 5e-08,
+          "Ece_printed_keV": "918.52"
+        },
+        "M4": {
+          "printed": "1.772E-8",
+          "printed_error": "(25)",
+          "value": 1.772e-08,
+          "quoted_error": 2.5e-10,
+          "Ece_printed_keV": "918.93"
+        },
+        "M5": {
+          "printed": "2.49E-8",
+          "printed_error": "(4)",
+          "value": 2.49e-08,
+          "quoted_error": 4e-10,
+          "Ece_printed_keV": "918.99"
+        },
+        "M-tot": {
+          "printed": "0.000340",
+          "printed_error": "(5)",
+          "value": 0.00034,
+          "quoted_error": 5e-06,
+          "Ece_printed_keV": "918.00"
+        },
+        "L/M": {
+          "printed": "4.42",
+          "printed_error": "(9)",
+          "value": 4.42,
+          "quoted_error": 0.09,
+          "Ece_printed_keV": null
+        },
+        "N1": {
+          "printed": "7.53E-5",
+          "printed_error": "(11)",
+          "value": 7.53e-05,
+          "quoted_error": 1.1e-06,
+          "Ece_printed_keV": "920.20"
+        },
+        "N2": {
+          "printed": "5.77E-6",
+          "printed_error": "(8)",
+          "value": 5.77e-06,
+          "quoted_error": 8e-08,
+          "Ece_printed_keV": "920.31"
+        },
+        "N3": {
+          "printed": "6.95E-7",
+          "printed_error": "(10)",
+          "value": 6.95e-07,
+          "quoted_error": 1e-08,
+          "Ece_printed_keV": "920.37"
+        },
+        "N4": {
+          "printed": "4.38E-9",
+          "printed_error": "(7)",
+          "value": 4.38e-09,
+          "quoted_error": 7e-11,
+          "Ece_printed_keV": "920.54"
+        },
+        "N5": {
+          "printed": "6.08E-9",
+          "printed_error": "(9)",
+          "value": 6.08e-09,
+          "quoted_error": 9e-11,
+          "Ece_printed_keV": "920.55"
+        },
+        "N-tot": {
+          "printed": "8.18E-5",
+          "printed_error": "(12)",
+          "value": 8.18e-05,
+          "quoted_error": 1.2e-06,
+          "Ece_printed_keV": "920.21"
+        },
+        "L/N": {
+          "printed": "18.3",
+          "printed_error": "(4)",
+          "value": 18.3,
+          "quoted_error": 0.4,
+          "Ece_printed_keV": null
+        },
+        "O1": {
+          "printed": "1.250E-5",
+          "printed_error": "(18)",
+          "value": 1.25e-05,
+          "quoted_error": 1.8e-07,
+          "Ece_printed_keV": "920.72"
+        },
+        "O2": {
+          "printed": "7.97E-7",
+          "printed_error": "(12)",
+          "value": 7.97e-07,
+          "quoted_error": 1.2e-08,
+          "Ece_printed_keV": "920.75"
+        },
+        "O3": {
+          "printed": "9.39E-8",
+          "printed_error": "(14)",
+          "value": 9.39e-08,
+          "quoted_error": 1.4e-09,
+          "Ece_printed_keV": "920.76"
+        },
+        "O4": {
+          "printed": "2.70E-10",
+          "printed_error": "(4)",
+          "value": 2.7e-10,
+          "quoted_error": 4e-12,
+          "Ece_printed_keV": "920.79"
+        },
+        "O-tot": {
+          "printed": "1.339E-5",
+          "printed_error": "(19)",
+          "value": 1.339e-05,
+          "quoted_error": 1.9e-07,
+          "Ece_printed_keV": "920.72"
+        },
+        "L/O": {
+          "printed": "112.0",
+          "printed_error": "(23)",
+          "value": 112.0,
+          "quoted_error": 2.3,
+          "Ece_printed_keV": null
+        },
+        "P1": {
+          "printed": "9.72E-7",
+          "printed_error": "(14)",
+          "value": 9.72e-07,
+          "quoted_error": 1.4e-08,
+          "Ece_printed_keV": "920.79"
+        },
+        "P-tot": {
+          "printed": "9.72E-7",
+          "printed_error": "(14)",
+          "value": 9.72e-07,
+          "quoted_error": 1.4e-08,
+          "Ece_printed_keV": "920.79"
+        },
+        "L/P": {
+          "printed": "1.54E3",
+          "printed_error": "(3)",
+          "value": 1540.0,
+          "quoted_error": 30.0,
+          "Ece_printed_keV": null
+        }
+      },
+      "unknown_cells_not_zero": [
+        {
+          "shell": "N6",
+          "row": [
+            "N6",
+            "920.76",
+            ""
+          ]
+        },
+        {
+          "shell": "N7",
+          "row": [
+            "N7",
+            "920.76",
+            ""
+          ]
+        }
+      ],
+      "warnings": [
+        "ICC could not be calculated for EG above 398.000 keV",
+        "ICC could not be calculated for EG above 398.000 keV"
+      ],
+      "implied_K_binding_from_display_keV": 69.52999999999997,
+      "published_2008_binding_reference_keV": 69.525,
+      "published_2008_mass_reference": 184,
+      "current_backend_mass_or_datafile_hash_exposed": false
+    },
+    {
+      "multipolarity": "E2",
+      "program_version_echo": "BrIccS v2.3 (9-Dec-2011)",
+      "dataset": "BrIccFO",
+      "Z": 74,
+      "energy_keV": 920.8,
+      "raw_snapshot": "tmp/day16-bricc-w178/responses/bricc-Z74-E920p8-FO-E2.html",
+      "raw_sha256": "c585c7e826cdc09e1d614cb6224e0d8447217ad81bc55af8e88cd42d1d157256",
+      "all_printed_rows": [
+        [
+          "Shell",
+          "E(ce)",
+          "E2"
+        ],
+        [
+          "Tot",
+          "",
+          "0.00533",
+          "(8)"
+        ],
+        [
+          ""
+        ],
+        [
+          "K",
+          "851.27",
+          "0.00435",
+          "(6)"
+        ],
+        [
+          ""
+        ],
+        [
+          "L1",
+          "908.70",
+          "0.000583",
+          "(9)"
+        ],
+        [
+          "L2",
+          "909.26",
+          "0.0001235",
+          "(18)"
+        ],
+        [
+          "L3",
+          "910.59",
+          "4.54E-5",
+          "(7)"
+        ],
+        [
+          "L-tot",
+          "908.91",
+          "0.000752",
+          "(11)"
+        ],
+        [
+          ""
+        ],
+        [
+          "K/L",
+          "",
+          "5.79",
+          "(12)"
+        ],
+        [
+          ""
+        ],
+        [
+          "M1",
+          "917.98",
+          "0.0001300",
+          "(19)"
+        ],
+        [
+          "M2",
+          "918.23",
+          "3.10E-5",
+          "(5)"
+        ],
+        [
+          "M3",
+          "918.52",
+          "1.176E-5",
+          "(17)"
+        ],
+        [
+          "M4",
+          "918.93",
+          "7.41E-8",
+          "(11)"
+        ],
+        [
+          "M5",
+          "918.99",
+          "6.40E-8",
+          "(9)"
+        ],
+        [
+          "M-tot",
+          "918.06",
+          "0.0001729",
+          "(25)"
+        ],
+        [
+          ""
+        ],
+        [
+          "L/M",
+          "",
+          "4.35",
+          "(9)"
+        ],
+        [
+          ""
+        ],
+        [
+          "N1",
+          "920.20",
+          "3.13E-5",
+          "(5)"
+        ],
+        [
+          "N2",
+          "920.31",
+          "7.32E-6",
+          "(11)"
+        ],
+        [
+          "N3",
+          "920.37",
+          "2.77E-6",
+          "(4)"
+        ],
+        [
+          "N4",
+          "920.54",
+          "1.83E-8",
+          "(3)"
+        ],
+        [
+          "N5",
+          "920.55",
+          "1.562E-8",
+          "(22)"
+        ],
+        [
+          "N6",
+          "920.76",
+          ""
+        ],
+        [
+          "N7",
+          "920.76",
+          ""
+        ],
+        [
+          "N-tot",
+          "920.23",
+          "4.15E-5",
+          "(6)"
+        ],
+        [
+          ""
+        ],
+        [
+          "L/N",
+          "",
+          "18.1",
+          "(4)"
+        ],
+        [
+          ""
+        ],
+        [
+          "O1",
+          "920.72",
+          "5.20E-6",
+          "(8)"
+        ],
+        [
+          "O2",
+          "920.75",
+          "1.012E-6",
+          "(15)"
+        ],
+        [
+          "O3",
+          "920.76",
+          "3.74E-7",
+          "(6)"
+        ],
+        [
+          "O4",
+          "920.79",
+          "1.128E-9",
+          "(16)"
+        ],
+        [
+          "O-tot",
+          "920.73",
+          "6.59E-6",
+          "(10)"
+        ],
+        [
+          ""
+        ],
+        [
+          "L/O",
+          "",
+          "114.1",
+          "(23)"
+        ],
+        [
+          ""
+        ],
+        [
+          "P1",
+          "920.79",
+          "4.04E-7",
+          "(6)"
+        ],
+        [
+          "P-tot",
+          "920.79",
+          "4.04E-7",
+          "(6)"
+        ],
+        [
+          ""
+        ],
+        [
+          "L/P",
+          "",
+          "1.86E3",
+          "(4)"
+        ]
+      ],
+      "coefficients": {
+        "Tot": {
+          "printed": "0.00533",
+          "printed_error": "(8)",
+          "value": 0.00533,
+          "quoted_error": 8e-05,
+          "Ece_printed_keV": null
+        },
+        "K": {
+          "printed": "0.00435",
+          "printed_error": "(6)",
+          "value": 0.00435,
+          "quoted_error": 6e-05,
+          "Ece_printed_keV": "851.27"
+        },
+        "L1": {
+          "printed": "0.000583",
+          "printed_error": "(9)",
+          "value": 0.000583,
+          "quoted_error": 9e-06,
+          "Ece_printed_keV": "908.70"
+        },
+        "L2": {
+          "printed": "0.0001235",
+          "printed_error": "(18)",
+          "value": 0.0001235,
+          "quoted_error": 1.8e-06,
+          "Ece_printed_keV": "909.26"
+        },
+        "L3": {
+          "printed": "4.54E-5",
+          "printed_error": "(7)",
+          "value": 4.54e-05,
+          "quoted_error": 7e-07,
+          "Ece_printed_keV": "910.59"
+        },
+        "L-tot": {
+          "printed": "0.000752",
+          "printed_error": "(11)",
+          "value": 0.000752,
+          "quoted_error": 1.1e-05,
+          "Ece_printed_keV": "908.91"
+        },
+        "K/L": {
+          "printed": "5.79",
+          "printed_error": "(12)",
+          "value": 5.79,
+          "quoted_error": 0.12,
+          "Ece_printed_keV": null
+        },
+        "M1": {
+          "printed": "0.0001300",
+          "printed_error": "(19)",
+          "value": 0.00013,
+          "quoted_error": 1.9e-06,
+          "Ece_printed_keV": "917.98"
+        },
+        "M2": {
+          "printed": "3.10E-5",
+          "printed_error": "(5)",
+          "value": 3.1e-05,
+          "quoted_error": 5e-07,
+          "Ece_printed_keV": "918.23"
+        },
+        "M3": {
+          "printed": "1.176E-5",
+          "printed_error": "(17)",
+          "value": 1.176e-05,
+          "quoted_error": 1.7e-07,
+          "Ece_printed_keV": "918.52"
+        },
+        "M4": {
+          "printed": "7.41E-8",
+          "printed_error": "(11)",
+          "value": 7.41e-08,
+          "quoted_error": 1.1e-09,
+          "Ece_printed_keV": "918.93"
+        },
+        "M5": {
+          "printed": "6.40E-8",
+          "printed_error": "(9)",
+          "value": 6.4e-08,
+          "quoted_error": 9e-10,
+          "Ece_printed_keV": "918.99"
+        },
+        "M-tot": {
+          "printed": "0.0001729",
+          "printed_error": "(25)",
+          "value": 0.0001729,
+          "quoted_error": 2.5e-06,
+          "Ece_printed_keV": "918.06"
+        },
+        "L/M": {
+          "printed": "4.35",
+          "printed_error": "(9)",
+          "value": 4.35,
+          "quoted_error": 0.09,
+          "Ece_printed_keV": null
+        },
+        "N1": {
+          "printed": "3.13E-5",
+          "printed_error": "(5)",
+          "value": 3.13e-05,
+          "quoted_error": 5e-07,
+          "Ece_printed_keV": "920.20"
+        },
+        "N2": {
+          "printed": "7.32E-6",
+          "printed_error": "(11)",
+          "value": 7.32e-06,
+          "quoted_error": 1.1e-07,
+          "Ece_printed_keV": "920.31"
+        },
+        "N3": {
+          "printed": "2.77E-6",
+          "printed_error": "(4)",
+          "value": 2.77e-06,
+          "quoted_error": 4e-08,
+          "Ece_printed_keV": "920.37"
+        },
+        "N4": {
+          "printed": "1.83E-8",
+          "printed_error": "(3)",
+          "value": 1.83e-08,
+          "quoted_error": 3e-10,
+          "Ece_printed_keV": "920.54"
+        },
+        "N5": {
+          "printed": "1.562E-8",
+          "printed_error": "(22)",
+          "value": 1.562e-08,
+          "quoted_error": 2.2e-10,
+          "Ece_printed_keV": "920.55"
+        },
+        "N-tot": {
+          "printed": "4.15E-5",
+          "printed_error": "(6)",
+          "value": 4.15e-05,
+          "quoted_error": 6e-07,
+          "Ece_printed_keV": "920.23"
+        },
+        "L/N": {
+          "printed": "18.1",
+          "printed_error": "(4)",
+          "value": 18.1,
+          "quoted_error": 0.4,
+          "Ece_printed_keV": null
+        },
+        "O1": {
+          "printed": "5.20E-6",
+          "printed_error": "(8)",
+          "value": 5.2e-06,
+          "quoted_error": 8e-08,
+          "Ece_printed_keV": "920.72"
+        },
+        "O2": {
+          "printed": "1.012E-6",
+          "printed_error": "(15)",
+          "value": 1.012e-06,
+          "quoted_error": 1.5e-08,
+          "Ece_printed_keV": "920.75"
+        },
+        "O3": {
+          "printed": "3.74E-7",
+          "printed_error": "(6)",
+          "value": 3.74e-07,
+          "quoted_error": 6e-09,
+          "Ece_printed_keV": "920.76"
+        },
+        "O4": {
+          "printed": "1.128E-9",
+          "printed_error": "(16)",
+          "value": 1.128e-09,
+          "quoted_error": 1.6e-11,
+          "Ece_printed_keV": "920.79"
+        },
+        "O-tot": {
+          "printed": "6.59E-6",
+          "printed_error": "(10)",
+          "value": 6.59e-06,
+          "quoted_error": 1e-07,
+          "Ece_printed_keV": "920.73"
+        },
+        "L/O": {
+          "printed": "114.1",
+          "printed_error": "(23)",
+          "value": 114.1,
+          "quoted_error": 2.3,
+          "Ece_printed_keV": null
+        },
+        "P1": {
+          "printed": "4.04E-7",
+          "printed_error": "(6)",
+          "value": 4.04e-07,
+          "quoted_error": 6e-09,
+          "Ece_printed_keV": "920.79"
+        },
+        "P-tot": {
+          "printed": "4.04E-7",
+          "printed_error": "(6)",
+          "value": 4.04e-07,
+          "quoted_error": 6e-09,
+          "Ece_printed_keV": "920.79"
+        },
+        "L/P": {
+          "printed": "1.86E3",
+          "printed_error": "(4)",
+          "value": 1860.0,
+          "quoted_error": 40.0,
+          "Ece_printed_keV": null
+        }
+      },
+      "unknown_cells_not_zero": [
+        {
+          "shell": "N6",
+          "row": [
+            "N6",
+            "920.76",
+            ""
+          ]
+        },
+        {
+          "shell": "N7",
+          "row": [
+            "N7",
+            "920.76",
+            ""
+          ]
+        }
+      ],
+      "warnings": [
+        "ICC could not be calculated for EG above 398.000 keV",
+        "ICC could not be calculated for EG above 398.000 keV"
+      ],
+      "implied_K_binding_from_display_keV": 69.52999999999997,
+      "published_2008_binding_reference_keV": 69.525,
+      "published_2008_mass_reference": 184,
+      "current_backend_mass_or_datafile_hash_exposed": false
+    }
+  ],
+  "numerically_validated": true,
+  "boundary": "Nominal-energy theoretical K-shell input; no A178-specific radius recalculation, measured ICC, complete total certification or experimental uncertainty budget."
+}

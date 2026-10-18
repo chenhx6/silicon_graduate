@@ -1,0 +1,69 @@
+{
+  "identity": "DAY16-BRICC-W178-K-REFERENCE-01",
+  "frozen_at": "2026-10-18T12:13:13.408841+08:00",
+  "session_id": "01a14ce6-425e-77c1-a127-2ac980bd76b5",
+  "endpoint": "https://bricc.anu.edu.au/",
+  "form_sha256": "b0dffc229e1eff2d00f349b209fcb1680c1189fd9adfee7839d54c36c167da39",
+  "max_queries": 2,
+  "requests": [
+    {
+      "atomic": "74",
+      "energy": "920.8",
+      "eerror": "",
+      "multipole": "M1",
+      "delta": "",
+      "derror": "",
+      "subshells": "on",
+      "dataset": "BrIccFO",
+      "calculate": "Calculate"
+    },
+    {
+      "atomic": "74",
+      "energy": "920.8",
+      "eerror": "",
+      "multipole": "E2",
+      "delta": "",
+      "derror": "",
+      "subshells": "on",
+      "dataset": "BrIccFO",
+      "calculate": "Calculate"
+    }
+  ],
+  "physical_energy_keV": [
+    920.8,
+    0.1
+  ],
+  "energy_scope": "Nominal only; physical .1keV error retained but not sent or propagated; do not silently infer web uncertainty wire format.",
+  "model_scope": "FO only, pure component theory, no isotope-A input, no NH/All/E0 queries; the 2008 published default reference is W184, not an A178 nuclear-radius recalculation.",
+  "documented_2008_K_binding_keV": 69.525,
+  "documented_2008_mass_number": 184,
+  "observed_KICC": {
+    "value": 0.0067,
+    "quoted_error": 0.0011,
+    "source": "knowledge/sources/nndc-2009-178w-dco-reference-records.md",
+    "locator": "N178-12",
+    "source_record": "178074005",
+    "parent_keV": 3053.61,
+    "gamma_keV": 920.8,
+    "primary_calibration_verified": false
+  },
+  "fixed_D96_point_candidates": [
+    {
+      "id": "model-small",
+      "d": 0.09186003498052088
+    },
+    {
+      "id": "model-large",
+      "d": 46.269091988700396
+    }
+  ],
+  "candidate_boundary": "These are current point-response R=.66 roots, not the authors exact .07/greater85 result or a new 178W delta measurement. Author near-pure dipole/quadrupole interpretations may also be compared only as pure limits.",
+  "theory_error_scope": "Record actual printed errors and missing shells; adopted1.4percent includes interpolation; no actual pure-component Cov supplied.",
+  "physics_boundaries": [
+    "alphaK not alphaTotal; E0 forbidden under assumed11to10 but nuclear model remains M1/E2 truncation",
+    "BrIccDF uses surface-current approximation; no dynamic-penetration parameter fit or double application of NP correction",
+    "Reported Kexp depends on original electron/photon efficiency, gates, angular response and normalization; no actual raw counts/Cov supplied",
+    "Do not clip out-of-envelope data to a physical root or report a confidence/uniqueJpi",
+    "one POST per component; no automatic retries, preserve failure body and hash; HTTP200 alone is not numeric success"
+  ]
+}

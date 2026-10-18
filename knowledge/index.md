@@ -9,6 +9,8 @@ updated: 2026-10-18
 
 ## Sources
 
+- [[purry-1997-phd-w178-multiparticle-structure]] - Surrey1997primary定向原读：921KICC的独立电子装置/延迟选择、truncateda2、原表及旧3525/35ns赋值修订；非整本精读/新δfit。
+
 - [[nndc-2009-178w-dco-reference-records]] - 178W137/169参考的AD、空MR/CC与125度RI字段；保留1989DCO/1979/13C谱系、same-parent条件与raw归档缺口。
 
 - [[smith-2019-griffin-angular-correlation-analysis]] - GRIFFIN的event-mixing/finite-response实验校验、正Z基函数与Cov/多spin边界；实际读2018v1，2019VoR未取得。

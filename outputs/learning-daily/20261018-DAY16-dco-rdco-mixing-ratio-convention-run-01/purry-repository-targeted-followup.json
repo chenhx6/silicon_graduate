@@ -1,0 +1,53 @@
+[
+  {
+    "name": "openaire-thesis",
+    "url": "https://api.openaire.eu/search/publications",
+    "params": {
+      "title": "High-spin multi-particle and collective structure",
+      "author": "Purry",
+      "format": "json",
+      "size": 5
+    },
+    "status_code": 200,
+    "sha256": "b8d607e01e41da01a0877b59fc4d0a0dda29f081966f78cb4c18694553d3c233",
+    "candidate_urls": [
+      "http://epubs.surrey.ac.uk/843753/",
+      "http://epubs.surrey.ac.uk/843753/1/10147989.pdf",
+      "http://www.surrey.ac.uk/",
+      "https://openresearch.surrey.ac.uk/esploro/outputs/doctoral/High-spin-multi-particle-and-collective-structure-in/99513285802346",
+      "https://openresearch.surrey.ac.uk/view/delivery/44SUR_INST/12139097650002346/13140443510002346"
+    ],
+    "metadata": []
+  },
+  {
+    "name": "hal-details",
+    "url": "https://api.archives-ouvertes.fr/search/",
+    "params": {
+      "q": "halId_s:in2p3-00005620",
+      "fl": "halId_s,title_s,docType_s,doiId_s,fileMain_s,linkExtUrl_s,uri_s,files_s,noticeId_i",
+      "wt": "json"
+    },
+    "status_code": 200,
+    "sha256": "6971796d3771c28ea2c12cd253d26fe970c4df822a5f1f620cfca61cb3069df7",
+    "candidate_urls": [
+      "https://in2p3.hal.science/in2p3-00005620v1"
+    ],
+    "metadata": [
+      {
+        "title_s": [
+          "Multi-quasiparticle isomers and rotationnal bands in $^{178}$W"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "surrey-record-meta",
+    "url": "https://openresearch.surrey.ac.uk/esploro/outputs/99510978402346",
+    "params": {},
+    "status_code": 200,
+    "sha256": "af1743206dc653d1e48304d896aa243be2755efd6ca1937752ee5f90cf72a52f",
+    "page_title": "Research Portal",
+    "candidate_urls": [],
+    "metadata": []
+  }
+]

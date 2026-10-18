@@ -1,0 +1,7 @@
+{
+  "engine": "Google public HTML discovery",
+  "query": "\"Purry\" \"High-spin\" \"thesis\"",
+  "scientific_evidence": false,
+  "status": "request-failed",
+  "error_type": "SSLError"
+}

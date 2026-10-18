@@ -1,0 +1,14 @@
+{
+  "url": "https://openresearch.surrey.ac.uk/esploro/",
+  "params": {
+    "query": "any,contains,High-spin multi-particle and collective structure",
+    "tab": "research",
+    "scope": "Research",
+    "institution": "44SUR_INST"
+  },
+  "purpose": "Bounded institutional thesis discovery from S2 exact1997Purry thesis candidate, no new-source read",
+  "status_code": 200,
+  "sha256": "af1743206dc653d1e48304d896aa243be2755efd6ca1937752ee5f90cf72a52f",
+  "title": "Research Portal",
+  "matching_links": []
+}

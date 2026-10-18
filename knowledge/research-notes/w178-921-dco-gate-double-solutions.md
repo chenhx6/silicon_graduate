@@ -7,7 +7,7 @@ updated: 2026-10-18
 status: ai-draft
 review_status: unreviewed
 reasoning_status: provisional
-evidence_sources: [kramer-flecken-1989-use-dco-ratios, droste-1996-pdco-formalism, krane-steffen-1970-cd110-mixing-ratios, nndc-2009-178w-dco-reference-records]
+evidence_sources: [kramer-flecken-1989-use-dco-ratios, droste-1996-pdco-formalism, krane-steffen-1970-cd110-mixing-ratios, nndc-2009-178w-dco-reference-records, purry-1997-phd-w178-multiparticle-structure]
 created_from: Day16 independent daily-learning run
 promotion_target: dco-ratio
 tags: [dco, mixing-ratio, phase-convention, gate-identity, provisional]
@@ -150,6 +150,49 @@ v=(1,d)/\sqrt{1+d^2}.
 
 新代码[day16_ensdf178_reference_audit.py](../../system/scripts/day16_ensdf178_reference_audit.py)核typed fields、parent/line identity、source F/photon矩阵和全范围/全根；输入identity为`DAY16-N178-SAME-PARENT-REFERENCE-01`，在数值前冻结。原δ平均、branching与response仍需1979primary；评价不是原文producer或新的独立测量。
 
+### 921-keV K-shell对固定DCO点的检查
+
+[[kibedi-2008-evaluation-theoretical-conversion-coefficients-bricc]] KB08-D16-1–4重新核原件并提供两个新FO reference：Z74/E920.8的pureM1 alphaK=.00995(.00014)、pureE2=.00435(.00006)，actualweb v2.3(2011)，不是Yb数值迁移或新的实验。两次POST零重试；N6/N7 missing/398-keV warnings不影响已给K行，但不能把program total当完整total。旧人审source全部字节前缀保留，新section/claims仅self-audit。
+
+按普通M1/E2的radiative份额加权，本页R=.66两个固定点的K预测为.00990314与.00435261。两理论marginal误差盒的像分别约[.00976381,.01004247]和[.00429258,.00441265]，都不与reported Kexp字面范围[.0056,.0078]相交。它是**固定模型点**的有边界反检验，没有传播原DCO的R/reference/ρ/response误差到整族branch families，不能变成实验排除或作者哪支错误。
+
+名义theory+reported central Kexp的Eq5逆映射给fE2=.580357、abs(d)=1.176001及±两个sign；只以nominal theory映射quoted alpha边界得到abs(d)[.789423,1.865476]，无置信水平。这是条件算术，不是新测178W δ、原文globalfit或联合两实验重分析。ICC对sign不敏感，phase坐标翻号不能改变上述fractions/预测；不能用换号消除magnitude/校准条件差异。
+
+原始electron/photon接受、门、峰分解、calibrator/normalization、共同Σ和数据版本仍需primary。KB08 Sec4.1.2还区分NP correction与DF的SC近似，动态penetration的核参数不是任意修正旋钮；本run没有调这些参数或宣称此跃迁存在异常转换。同一11→10的M1/E2模型不容E0；没有借额外成分强配数据。这个精确batch stop contract已满足，下一条高信息路线为producer原件/匹配response。
+
+### Thematic REFLECT：原件、响应与companion的共同使用门
+
+#### 后续primary使响应合同具体化
+
+[[purry-1997-phd-w178-multiparticle-structure]]的实际Surrey1997PDF已经取得；P97-2/3/5原图确认921 K=.0067(.0011)、1090 K=.0031(.0005)，电子测量不是六台CAESAR的同一配置：1.5mg/cm²斜靶、SiLi磁透镜、单独simultaneousGe、beam后50–400ns，152Eu/internal lines与energy-dependent timing correction。不能继续笼统说“完全无primary/没有校准”；目前缺实际校准曲线、internal calibrator逐线、原peak/time/selection ledger及Σ。
+
+P97-4的AD数据采用另一套prompt/early-delayed选择，只拟合`W0(1+a2P2)`。所以reported a2不能直接作为前面fullA2、不能无条件与delayedK共用ρ。实际47/97/148度三独立角的[1,P2,P4]设计满秩；但保存下来的只有truncatedfit系数，不提供原三个计数。若另**声明equal weights/point angles**，P4在[1,P2]的投影为(c0,c2)=(−.00954915,−.44481479)，使
+
+\[
+\widetilde a_2=\frac{A_2-.44481479A_4}{1-.00954915A_4}.
+\]
+
+实际weights/finiteangles未知，不能用此数值反解原A4或改原a2。正diagonal-weight下的slope可写成角对secant slopes的正加权平均，界约[−1.100076,.954230]，甚至不保证相同符号；固定geometry本身不恢复原fit。完整强度比43/34=1.264706及rho−1/0/+1局部误差尺度.16263/.11541/.01384也只作算术，不声称新branch或与KF89独立叠加。
+
+P97-8为更直接的真实反证：290KICC及time/低能符合将旧约3525、I14、35ns方案修订为该态13-/T1/2<1ns，约30ns改归3654态。它说明新的matched observable可改变旧assignment和feeding历史，不证明本页点模型的δ已经重新确定。921依旧是3053→2132的11-→10-，不能把另一处spin修订误贴到它上面。
+
+新[observable-ledger程序](../../system/scripts/day16_purry_observable_ledger.py)保存原PDF hash、表行、两个measurement ledger、actualgeometry设计和unknownweight边界。整份112页thesis只完成相关实验/分析/目标及summary定向阅读，source整体仍skimmed；1998paper未取得，按依赖谱系关联而不称其46页已读。该新增primary是本run的信息增益，不把此前公开路线失败抹去。
+
+| 先前容易采用的判断 | 本组证据后的修正 | source/locator |
+| --- | --- | --- |
+| 同名921两组DCO可直接联合 | 一组gate=921、一组observed=921，先统一角色/倒数及Cov | KF89-15；printed338 Fig7c/d |
+| pure校准通过即可核准mixed相位 | diagonal端点不检查off-diagonal，必须同步参数/核转换 | DR96-5、KS70-6；本任务F/fulltensor控制 |
+| finite ordinary系数更精确便使joint比值更准确 | factorization仍是近似，可能失去exact交换R1 | BT87-4/6；Eq10/12和固定表检验 |
+| 评价标签/邻近CC就是新的δ约束 | MR栏为空，CC可能来自默认平均；Kexp与total分开 | N178-5/6/12；KB08-D16-1 |
+| 同母态reference自动消除所有响应问题 | 只在同层、同选择、已匹配Q比时消去B2；169central与误差盒给不同判断 | N178-3/4/10 |
+| 再补一个observable便自动选择原两点 | 实际K配对后两固定点均不在所列一倍边界盒，必须重查联合条件 | N178-12；KB08-D16-4 |
+| 多论文/多处理可累加独立实证 | 1979参考导入、1995/1997/1998组内复用、1999采集与2009评价各有谱系 | KF89-17；N178-2/7/11 |
+| reportedKexp没有primary，只能停在评价 | thesis原装置/时间窗/校准类别和原表已核；仍需原曲线与event/fitΣ | P97-2/3/5/7 |
+| 新的Purry a2可直接接旧全A2矩阵 | prompt/truncatedP2fit与delayedK的sample/estimator不同 | P97-4/10；原p23方法 |
+| KF89采用I14说明该赋值无后续反证 | P97用290KICC及timing修订3525/3654的spin/35ns归属 | P97-8；KF89-20 |
+
+决定supports逐对象证据链，revises自动选支与同标签合并，limits未核response/Cov下的唯一δ/Jpi/collective-mode结论。没有改变A≈130争议解释排序；本组结构信息的价值在于可迁移的实验判读合同。
+
 - 实际小D/Q分量与近纯quadrupole分量仍是原文DCO允许候选；强度companion使作者偏好小支，没有给独立校准的唯一δ新测量。
 - 模型/印表偏差可能来自输入、width/feeding、response、approximation或程序层；当前不归因为原文错误，也不把变动一个参数后凑中值当恢复原分析。
 - 一个negative target P仍可能对应上表两根；改变E/M类型又改变偏振解释。应保留spin/parity/reference假设，而非给每个比值贴固定阈值。
@@ -198,3 +241,4 @@ v=(1,d)/\sqrt{1+d^2}.
 - [[droste-1996-pdco-formalism]] DR96-4/5：条件态、绝对振幅与generalized F；不以1996原印Eq4代替已勘误偏振系数。
 - [[krane-steffen-1970-cd110-mixing-ratios]] KS70-5/6/7/13：单位、先后角色、BR身份和归一相位桥。
 - [[nndc-2009-178w-dco-reference-records]] N178-2/3/4/5/6/7/8/9/10：评价系数、空MR/CC栏、RI角度/精度与same-parent条件包。
+- [[purry-1997-phd-w178-multiparticle-structure]] P97-2/3/4/5/7/8/10：原电子测量合同、原K表、AD estimator、后续赋值反证及实际权重缺口。

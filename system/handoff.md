@@ -6,17 +6,21 @@ updated: 2026-10-18
 
 # 跨会话交接
 
-## Active handoff — DAY16 running, evaluated W178 references
+## Active handoff — DAY16 running, Purry primary and K-shell contract
 
-Run `2026-10-18-day-16-01` / session `01a14ce6-425e-77c1-a127-2ac980bd76b5`，原硬截止2026-10-19 15:00上海、收束至16:00；user持续学习/不要中断与native goal均active。Resume `codex resume 01a14ce6-425e-77c1-a127-2ac980bd76b5 -C /workspace/wiki -s danger-full-access -a never`。课程next16/count15，当前partial16，未正式计16或科学预习17。日报遵固定路径`outputs/learning-daily/20261017-DAY16-dco-rdco-mixing-ratio-convention.md`，actual run_date18；receipt/current continuation在18日run-dir。
+Run2026-10-18-day-16-01/session01a14ce6-425e-77c1-a127-2ac980bd76b5，原deadline2026-10-19 15:00上海、closeout16:00。User持续学习/不要中断/原生goalactive；course next16/count15、partial16，无formal16/partial17/Day18。Resume `codex resume 01a14ce6-425e-77c1-a127-2ac980bd76b5 -C /workspace/wiki -s danger-full-access -a never`。固定日报17日文件名，actualrun18；receipt/currentcontinuation在18日run-dir。
 
-Checkpoint001已H3/Gitee发布；新的BT87/NNDC科学checkpoint稳定提交指针main / `Audit DAY16 evaluated W178 references and correlation approximation limits`，实际hash/H3/push仅run receipts。Primed回忆先冻结，D96/KS70/KF89/BT87主线已核；canonical `knowledge/research-notes/w178-921-dco-gate-double-solutions.md`与angular-correlation保存gate倒数/Cov、同号P双根、F/fulltensor/phase、两个factorization未解释原表及finite-B经典轴边界。不是DCOMAP或实验L4重放，不调σ/phi/alpha强配作者支。
+001/002已actual H3/Gitee push、originHEAD匹配。当前第三科学checkpoint稳定指针main / `Trace DAY16 W178 conversion measurements and revised DCO assignments`；actualhash/H3/push只publicationreceipt。研究继续，checkpoint不是窗口结束。
 
-官方ENSDF经首页session初始化成功取得001/004/006/005四对象，hash/原行/typed fields与MR空栏在新source `knowledge/sources/nndc-2009-178w-dco-reference-records.md`。169行.8(.3)是CC不是δ；1979 RI125度/弱1089.7为1.3±1.4；137 sameparent诊断两根、169 central无根但quoted box已相交，不报矛盾/CI。原始快照只在repo tmp，raw未动、source归档槽与Bib key空缺显式隔离。v1冻结/输出/精确code snapshot及v2含13C actual K-companion均保留。
+**新取得primary已实际读**：Surrey delivery下载Purry May1997 thesis112页/hashb8ee1308…，完整身份/覆盖回执purry-thesis-identity-and-coverage.json。actualPDF只在tmp，不改raw；定向读Ch3printed12–24完整实验/analysis、Ch4intro/所选Table4.1与target49–54、summary95–97，整体source仅skimmed，未读完整Ch2/5/318rows或1998paper。新canonical source`purry-1997-phd-w178-multiparticle-structure`记录targetK表、50–400ns electron/γ独立SiLi+单Ge/1.5mg靶/30度、152Eu+internal-lines calibration及timingcorrection；AD另用prompt/earlydelayed且只fitP2，实际efficiency curves/internalcalibrator逐线/峰ledger/Σ仍缺，不能再说完全无primary/无校准。
 
-最高信息下一路线：13C1998Pu01层实际921 alphaKexp=.0067(.0011)、1090 .0031(.0005)已typed核；官方Refs/Crossref匹配Purry等NPA632,229–274(1998), DOI10.1016/S0375-9474(97)00654-4。OA-only/public discovery未得46页primary，S2/OpenAlex无OA URL；未读不假称。先冻结Z74/E920.8/FO pureM1/E2的**两次**K-shell理论查询，读旧BrIcc脚本只是priming；旧query/capture硬编码Z70/E489.8不能原样跑。新查询只写tmp与本run回执，不改raw/KB08原humanreview前缀；不以total CC替Kexp、不造实际Cov/显著性。另可定向核Purry1997 thesis公开路线；Dors1979原件/原−1.9坐标仍缺。
+P97原printed52–54用290KICC/时序/61+68低能符合将旧3525 I14/35ns改13-/T<1ns，30±1ns归3654态；KF89-20保留此真实反证但不改历史原文或把别态revision误贴921。921路径仍11→10。原169−1.9坐标/producer未认证，实验L4仍notready。
 
-Writeback现8 changed知识页；最新verification-checkpoint-004实际boundary/diff/lint均exit0，0errors/148warnings（116citation-key、29raw、3parser）。N178缺Extracted Pages的exit1已修且留证，v1 snapshot/output精确重放与四text hash通过。QMD只读562/2459、38pending/349orphans，外部cache刷新deferred。保留PLAN/Bib/raw/旧review、继承Day8–15 receipts/daemon/旧log；log只隔离本task entry。Farmer旧PID42019保留，不另启daily daemon/session/宿主任务、不伪造runner exit。当前问题仍有高价值route，checkpoint不能提前收束；之后仅可partial17知识预习，禁止formal17/Day18。
+新observable-ledger脚本核PDF/原rows及actual47/97/148三角geometry，P2-only对P4投影只是equalweight诊断、实际weights未知。BrIcc固定batch两POST/0retry已完，K=.00995(.00014)/.00435(.00006)，两固定DCO点K=.009903/.004353均不在reportedbox，不是整族支排除/新δ。KB08旧人审prefix全部字节完整，新claims仅selfaudit；N6/N7/398keVwarn、W184default/unknownbackendCov保留。W178note/internalconversion/angular-distribution与source均canonical，日报unique writeback现12changed/12items，verification-checkpoint-006实际boundary/diff/lint0、0errors/150warnings（117key/30raw/3parser），primaryhash/保护/prefix通过；旧QMDcache不冒称已刷新。
+
+**下一当前问题**：thesis引用Ki90磁透镜方法DOI10.1016/0168-9002(90)90294-G，Crossref已核294,523–533(1990)，body未得。OpenAIRE只有UQ record（域已403不重试）；publisherpublicdiscovery/OAonlyroute正检查，先核实际process/receipt。不把一般instrumentpaper当actual1997W178response。若所有当前reference/producer/calibration高信息路线饱和，刷新clock/candidatepool再看恰好Day17无学分知识预习，绝不正式计17/开18。130Ba2001只读了已有source摘要作为候选，raw未开/无本run交付，不能伪称已研究。
+
+保护raw/PLAN/Bib/credentials/review与继承receipts/daemon/旧log；log只stage taskentry。Farmer旧PID42019保留，不新启dailydaemon/session/hosttask，不造runner exit。当前所有newraw只是repo tmp快照，canonical有hash/原行/coverage、未填archive槽与Bib缺口明确，不当论文ready。
 
 ## Previous active handoff — DAY15 complete; final content publication
 

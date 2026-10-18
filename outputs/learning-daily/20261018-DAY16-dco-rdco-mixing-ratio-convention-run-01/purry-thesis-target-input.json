@@ -1,0 +1,87 @@
+{
+  "identity": "DAY16-PURRY97-TARGET-OBSERVATION-LEDGER-01",
+  "frozen_at": "2026-10-18T12:39:12.239852+08:00",
+  "PDF_path": "tmp/day16-purry-thesis-retrieval/PDFs/High-spin_multi-particle_and_collective_structure_in_178W.pdf",
+  "PDF_sha256": "b8ee1308d4871c1514d0ed54b3d523104da143bb346088a24eb008d97fc96753",
+  "rows": [
+    {
+      "id": "P97-921",
+      "printed_page": 39,
+      "PDF_page": 48,
+      "energy_keV": 920.8,
+      "energy_error_keV": 0.1,
+      "parent_rounded_keV": 3053,
+      "final_rounded_keV": 2132,
+      "Jpi": "11- to10-",
+      "relative_gamma_intensity": [
+        34,
+        2
+      ],
+      "a2_truncated_fit": [
+        -0.03,
+        0.12
+      ],
+      "K_ICC": [
+        0.0067,
+        0.0011
+      ]
+    },
+    {
+      "id": "P97-1090",
+      "printed_page": 39,
+      "PDF_page": 48,
+      "energy_keV": 1089.6,
+      "energy_error_keV": 0.1,
+      "parent_rounded_keV": 3053,
+      "final_rounded_keV": 1964,
+      "Jpi": "11- to9-",
+      "relative_gamma_intensity": [
+        43,
+        3
+      ],
+      "a2_truncated_fit": [
+        0.07,
+        0.1
+      ],
+      "K_ICC": [
+        0.0031,
+        0.0005
+      ]
+    }
+  ],
+  "ledger_entries": [
+    {
+      "observable": "gamma angular distribution",
+      "angles_deg": [
+        47,
+        97,
+        148
+      ],
+      "duplicated_angles": "sixcoax ±angles",
+      "selection": "prompt-gated singles or early-delayed angle matrices depending online; target-specific gate ledger not reported",
+      "model": "W0(1+a2P2)",
+      "source_locator": "printed23Sec3.7.2/PDF32",
+      "actual_counts_weights_cov_available": false
+    },
+    {
+      "observable": "K conversion",
+      "detectors": "cooledSiLi lenssolenoid plussimultaneous Compton-suppressedGe",
+      "target_mg_cm2": 1.5,
+      "target_plane_to_beam_deg": 30,
+      "beam": "1nson/1.7microsoff",
+      "time_window_ns": [
+        50,
+        400
+      ],
+      "calibration": "152Eu andinternal lines, timeenergyresponse corrected",
+      "source_locator": "printed21–22Sec3.6/PDF30–31",
+      "actual_efficiency_curves_reference_identifiers_cov_available": false
+    }
+  ],
+  "comparison_checks": [
+    "table rows agreewithN178-12secondary values; noindependentreplication",
+    "intensityratio formed onlyasconditional arithmetic withunknownCov, notnewbranch",
+    "actualthreeanglesdesignrank/omittedP4leakage maybediagnosed underexplicit chosen equalweights, nottargetdatarefit",
+    "primary3500keV levelrevision separatedfrom921mixinghypothesis; noqtr/modeclaim"
+  ]
+}

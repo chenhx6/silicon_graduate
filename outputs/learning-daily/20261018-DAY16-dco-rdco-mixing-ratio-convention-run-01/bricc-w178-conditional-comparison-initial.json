@@ -1,0 +1,102 @@
+{
+  "identity": "DAY16-W178-K-COMPANION-CONDITIONAL-CHECK-01",
+  "query_input_sha256": "e2d0cd1737398b4b2698cb5c2fbf4f49399e126300dad228a1e205cbcaeba934",
+  "captured_theory_sha256": "1459647811c49b7ee80e7856248d7ee6fab103d36bee80282d4271834cc5c05e",
+  "experimental_input": {
+    "value": 0.0067,
+    "quoted_error": 0.0011,
+    "source": "knowledge/sources/nndc-2009-178w-dco-reference-records.md",
+    "locator": "N178-12",
+    "source_record": "178074005",
+    "parent_keV": 3053.61,
+    "gamma_keV": 920.8,
+    "primary_calibration_verified": false
+  },
+  "theory_pure_K": {
+    "M1": {
+      "printed": "0.00995",
+      "printed_error": "(14)",
+      "value": 0.00995,
+      "quoted_error": 0.00014,
+      "Ece_printed_keV": "851.27"
+    },
+    "E2": {
+      "printed": "0.00435",
+      "printed_error": "(6)",
+      "value": 0.00435,
+      "quoted_error": 6e-05,
+      "Ece_printed_keV": "851.27"
+    }
+  },
+  "fixed_point_predictions": [
+    {
+      "id": "model-small",
+      "d": 0.09186003498052088,
+      "radiative_M1_fraction": 0.9916323424934376,
+      "radiative_E2_fraction": 0.008367657506562431,
+      "predicted_K": 0.009903141117963251,
+      "theory_error_covariance_family": {
+        "rho_minus1": 0.00013832646849868752,
+        "rho_zero": 0.0001388294357699424,
+        "rho_plus1": 0.000139330587399475,
+        "interpretation": "Given quoted pure error scales only; actual covariance/distribution not known"
+      },
+      "literal_theory_marginal_box_image": [
+        0.009763810530563776,
+        0.010042471705362726
+      ],
+      "reported_experimental_literal_margin": [
+        0.0056,
+        0.0078000000000000005
+      ],
+      "central_residual_Kexp_minus_model": -0.0032031411179632508,
+      "experimental_confidence_or_pvalue": null,
+      "literal_boxes_overlap": false
+    },
+    {
+      "id": "model-large",
+      "d": 46.269091988700396,
+      "radiative_M1_fraction": 0.00046689070839964425,
+      "radiative_E2_fraction": 0.9995331092916003,
+      "predicted_K": 0.004352614587967037,
+      "theory_error_covariance_family": {
+        "rho_minus1": 5.990662185832007e-05,
+        "rho_zero": 5.9972022178649116e-05,
+        "rho_plus1": 6.003735125667197e-05,
+        "interpretation": "Given quoted pure error scales only; actual covariance/distribution not known"
+      },
+      "literal_theory_marginal_box_image": [
+        0.004292577236710365,
+        0.004412651939223709
+      ],
+      "reported_experimental_literal_margin": [
+        0.0056,
+        0.0078000000000000005
+      ],
+      "central_residual_Kexp_minus_model": 0.002347385412032963,
+      "experimental_confidence_or_pvalue": null,
+      "literal_boxes_overlap": false
+    }
+  ],
+  "central_conditional_inverse_only": {
+    "radiative_E2_fraction": 0.5803571428571428,
+    "abs_d": 1.1760011579094023,
+    "two_signs": [
+      -1.1760011579094023,
+      1.1760011579094023
+    ],
+    "not_a_new_measured_delta": true
+  },
+  "experimental_literal_margin_preimage_nominal_theory_only": {
+    "f_E2": [
+      0.3839285714285714,
+      0.7767857142857143
+    ],
+    "abs_d": [
+      0.7894228308055837,
+      1.8654758106177631
+    ],
+    "confidence_level": null
+  },
+  "boundary": "Declared ordinary BrIccFO M1/E2 model with reported secondary Kexp. No actual calibration/gates/normalization covariance/penetration parameters, no energy uncertainty propagation, no re-fit of DCO or source publication. Both current point-root predictions lie outside the displayed one-margin boxes, but this is not experimental exclusion or a preferred unique assignment."
+}

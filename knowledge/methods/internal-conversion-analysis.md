@@ -3,7 +3,7 @@ type: method
 title: 内转换系数分析
 aliases: [internal conversion analysis, internal conversion coefficient analysis, ICC analysis, ICE gamma ratio method]
 created: 2026-07-12
-updated: 2026-10-17
+updated: 2026-10-18
 status: ai-draft
 review_status: unreviewed
 method_type: conversion-coefficient-analysis
@@ -117,6 +117,27 @@ A^{-1}\simeq\begin{pmatrix}1470.1759&-9929.5437\\-30.68229&213.98167\end{pmatrix
 当前下一观测不能只说“补L1即可”。需先取得calibratedshellresponse、joint计数/背景/calibrationΣ，验证reference uncertainty的相关结构，再选择能提供独立direction的shell或matched photon interference观测，并检验condition。既有DCO/PDCO的取向和gate约束不能丢掉。actual164Yb并无这些电子数据，ordinaryICC/Ωscope已满足stop contract，不再自由query更多能量或参数以充窗口。
 
 [E0冻结输入](../../outputs/learning-daily/20261016-DAY15-ado-angular-distribution-geometry-run-01/day16-bricc-e0-shell-rank-input.json) hash `0082add7f6e8821a4fc05a639f47af915c85d1a0492e82f337450e2056f9a723`，[原HTTP回执](../../outputs/learning-daily/20261016-DAY15-ado-angular-distribution-geometry-run-01/day16-bricc-e0-query-receipt.json)、[离线计算脚本](../../system/scripts/day16_bricc_e0_shell_rank.py)/[完整结果](../../outputs/learning-daily/20261016-DAY15-ado-angular-distribution-geometry-run-01/day16-bricc-e0-shell-rank.json)。mainline原件和query有scope，不重放作者代码、不重算A164电子波函数或实际L4。
+
+## 178W 921-keV：真实K-shell companion不能自动替两个DCO点选支
+
+[[nndc-2009-178w-dco-reference-records]] N178-12实际列同一约921-keV branch的alphaKexp=.0067(.0011)，来自1998Pu01缺省层；同母态1090为.0031(.0005)，但原calibrator/效率/角接受/门/Cov未取得。它与adopted CC total .009(.004)是不同对象；adopted多极标签不能再作为该K数据的独立确认。
+
+新[[kibedi-2008-evaluation-theoretical-conversion-coefficients-bricc]] KB08-D16-1–4核原Eq5/20、SC模型边界与**两次**Z74/E920.8 nominalFO查询，actualweb v2.3(2011)：pureM1 alphaK=.00995(.00014)，pureE2=.00435(.00006)。K有数值不代表N6/N7也有，raw警告398keV/unknown保留；没有用programTot .01188/.00533代K或重新插值total。2008表mass参考W184，当前Z-onlybackend未给A/datafile hash，不称A178波函数重算。
+
+在[[w178-921-dco-gate-double-solutions]]的**固定点设计**中，R=.66两D96坐标根约.09186/46.2691分别给
+
+| 固定模型点 | radiative E2份额 | nominal alphaK | 与reported literal[.0056,.0078]的关系 |
+| --- | ---: | ---: | --- |
+| d=.0918600 | .00836766 | .00990314 | 两pure理论marginal误差盒传播后仍无交集 |
+| d=46.2691 | .99953311 | .00435261 | 同上，无交集 |
+
+它没有选中一根。两点不代表全部DCO允许branch families，且没有原response/Σ，所以不能把这张表变成实验排除。普通混合公式的名义中央映射为fE2=.580357、abs(d)=1.176001，两sign都给同ICC；这是条件计算，不是新实验delta或原文联合fit。quoted alpha边界的名义theory像abs(d)[.789423,1.865476]无置信水平。
+
+理论component errors可有共同Cov；给定quoted尺度时Var(alpha)=wM²sM²+wE²sE²+2rho wMwE sM sE，只列rho−1/0/+1敏感性，不把它当actual covariance。Table2的1.4%已经含interpolation，不再独立加.3%；物理gamma .1keV和原calibration误差未完整传播。
+
+判定`revises`“补一个reported ICC即可自动选原DCO根”，`limits` phase换号作为修复magnitude差异的办法；继续查same-transition matched response及原producer。J11→10条件下不容E0；没有借未知额外成分或任意核penetration参数强配，DF的SC近似与NP校正式也不能无定义叠加。程序[day16_bricc_w178_reference.py](../../system/scripts/day16_bricc_w178_reference.py)的三阶段、冻结input/hash、actualrows/coverage与oldcode snapshot均在本日run-dir，关键知识已在本页与source保存。
+
+随后取得的[[purry-1997-phd-w178-multiparticle-structure]] P97-2/3/5原图确认这些Kexp数值，并将原测量合同具体化：独立SiLi磁透镜/单Ge、beam后50–400ns的matched spectra，152Eu/internal lines与energy-dependent timing correction。不是完全未校准，也不是与prompt angular distribution相同sample；缺的是原efficiency/angle/peakledger、calibrator逐线与Σ。论文P97-8用290KICC和符合timing修订旧3525/35ns方案，说明实际companion可以改变assignment；本页固定921两点仍只是条件检查，不重做原实验。
 
 ## Sources
 

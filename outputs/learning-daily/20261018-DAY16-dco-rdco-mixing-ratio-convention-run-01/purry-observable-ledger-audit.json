@@ -1,0 +1,82 @@
+{
+  "identity": "DAY16-PURRY97-A2-ESTIMATOR-01",
+  "input_sha256": "a789d5537fb88f24a547008e01027401d72eed14b2306c40a369bf487ece2fad",
+  "ledger_sha256": "8db108aada657f4f133abadf3d9ebd0c633c7b835940d08fb5efb229e5e87103",
+  "script_sha256": "8039e616c7ea4d1e2469c00b79e99bfc42321964bdceeb4a2f89fd058526c9d3",
+  "verified_PDF_sha256": "b8ee1308d4871c1514d0ed54b3d523104da143bb346088a24eb008d97fc96753",
+  "PDF_selected_target_row_tokens_verified": true,
+  "angles_deg": [
+    47.0,
+    97.0,
+    148.0
+  ],
+  "P2": [
+    0.19768264469190588,
+    -0.4777217947069974,
+    0.5787783600918082
+  ],
+  "P4": [
+    -0.4227267481380854,
+    0.3202695503834769,
+    -0.05907388594713259
+  ],
+  "full_design_rank": 3,
+  "full_design_singular_values": [
+    1.7465094723119918,
+    0.8409043451270519,
+    0.3600356777141477
+  ],
+  "equal_weight_P4_projection_on_constant_P2": {
+    "c0": -0.009549154931174272,
+    "c2": -0.444814789709371
+  },
+  "reported_a2_identity": "(A2+c2*A4)/(1+c0*A4) for the stated weights; source actual weights/response unknown",
+  "P4_projection_residual_norm": 0.4034617417926981,
+  "positive_diagonal_weight_slope_bounds": [
+    -1.1000761250293447,
+    0.9542297315238881
+  ],
+  "pair_slopes": [
+    {
+      "angle_pair_deg": [
+        47.0,
+        97.0
+      ],
+      "P4_on_P2_secant_slope": -1.1000761250293447
+    },
+    {
+      "angle_pair_deg": [
+        47.0,
+        148.0
+      ],
+      "P4_on_P2_secant_slope": 0.9542297315238881
+    },
+    {
+      "angle_pair_deg": [
+        97.0,
+        148.0
+      ],
+      "P4_on_P2_secant_slope": -0.3590566784184236
+    }
+  ],
+  "same_parent_gamma_intensity_arithmetic": {
+    "central_ratio_1090_over921": 1.2647058823529411,
+    "rho_sensitivity": [
+      {
+        "rho": -1,
+        "local_ratio_error_scale": 0.16262975778546712
+      },
+      {
+        "rho": 0,
+        "local_ratio_error_scale": 0.11541231889382642
+      },
+      {
+        "rho": 1,
+        "local_ratio_error_scale": 0.013840830449827066
+      }
+    ],
+    "not_a_new_branch_or_independent_measurement": true
+  },
+  "boundary": "P2 estimator geometry and table arithmetic only; no measured A4, actual weighting, matched density, reconstructed covariance, significance or new delta fit.",
+  "all_checks_passed": true
+}

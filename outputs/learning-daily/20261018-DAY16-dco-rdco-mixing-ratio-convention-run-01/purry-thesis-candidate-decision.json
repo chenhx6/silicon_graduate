@@ -1,0 +1,14 @@
+{
+  "discovery": "OpenAIRE exact thesis title + author after failed paper-specific routes",
+  "urls": [
+    "http://epubs.surrey.ac.uk/843753/",
+    "http://epubs.surrey.ac.uk/843753/1/10147989.pdf",
+    "http://www.surrey.ac.uk/",
+    "https://openresearch.surrey.ac.uk/esploro/outputs/doctoral/High-spin-multi-particle-and-collective-structure-in/99513285802346",
+    "https://openresearch.surrey.ac.uk/view/delivery/44SUR_INST/12139097650002346/13140443510002346"
+  ],
+  "primary_verification_status": "not-yet-read",
+  "scientific_evidence": false,
+  "download_decision": "One publicly linked Surrey institutional delivery URL; no credentials or access-control bypass. Validate actual PDF title/author/year and hash before use.",
+  "data_dependency_boundary": "If thesis covers same CAESAR experiment as1998paper, not a separate independent measurement."
+}

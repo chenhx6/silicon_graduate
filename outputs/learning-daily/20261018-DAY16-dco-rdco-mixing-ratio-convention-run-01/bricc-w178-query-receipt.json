@@ -1,0 +1,54 @@
+{
+  "identity": "DAY16-BRICC-W178-K-REFERENCE-01",
+  "input_sha256": "e2d0cd1737398b4b2698cb5c2fbf4f49399e126300dad228a1e205cbcaeba934",
+  "query_script_sha256": "26d587052554fdea2e2ea022c4fb68bd2bc8deadd0927edeaa20d4f69bc10690",
+  "requests": [
+    {
+      "parameters": {
+        "atomic": "74",
+        "energy": "920.8",
+        "eerror": "",
+        "multipole": "M1",
+        "delta": "",
+        "derror": "",
+        "subshells": "on",
+        "dataset": "BrIccFO",
+        "calculate": "Calculate"
+      },
+      "attempt_started_at": "2026-10-18T12:13:13.797684+08:00",
+      "automatic_retries": 0,
+      "status": "http-response",
+      "http_status": 200,
+      "response": "tmp/day16-bricc-w178/responses/bricc-Z74-E920p8-FO-M1.html",
+      "sha256": "293b1fe91a101ce879518952c49614f24fc0232d529dfd32e76c0bd07d8507cd",
+      "bytes": 21281,
+      "content_type": "text/html; charset=utf-8",
+      "redirect_statuses": [],
+      "completed_at": "2026-10-18T12:13:15.105619+08:00"
+    },
+    {
+      "parameters": {
+        "atomic": "74",
+        "energy": "920.8",
+        "eerror": "",
+        "multipole": "E2",
+        "delta": "",
+        "derror": "",
+        "subshells": "on",
+        "dataset": "BrIccFO",
+        "calculate": "Calculate"
+      },
+      "attempt_started_at": "2026-10-18T12:13:15.119078+08:00",
+      "automatic_retries": 0,
+      "status": "http-response",
+      "http_status": 200,
+      "response": "tmp/day16-bricc-w178/responses/bricc-Z74-E920p8-FO-E2.html",
+      "sha256": "c585c7e826cdc09e1d614cb6224e0d8447217ad81bc55af8e88cd42d1d157256",
+      "bytes": 21276,
+      "content_type": "text/html; charset=utf-8",
+      "redirect_statuses": [],
+      "completed_at": "2026-10-18T12:13:17.722267+08:00"
+    }
+  ],
+  "numerical_validation_performed": false
+}

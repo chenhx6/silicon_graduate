@@ -1,0 +1,17 @@
+[
+  {
+    "name": "hal-landing",
+    "url": "https://in2p3.hal.science/in2p3-00005620v1",
+    "status": "request-failed",
+    "error_type": "ConnectionError"
+  },
+  {
+    "name": "uq-record",
+    "url": "https://api.library.uq.edu.au/view/UQ:514dc13",
+    "status_code": 403,
+    "sha256": "0ff05d3431dc4eca745027c0f161d213af2c76015bcf1622e569c1a842937694",
+    "title": "ERROR: The request could not be satisfied",
+    "public_file_links": [],
+    "citation_pdf": []
+  }
+]

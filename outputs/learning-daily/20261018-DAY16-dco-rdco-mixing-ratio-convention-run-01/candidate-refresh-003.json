@@ -1,0 +1,11 @@
+{
+  "now_local": "2026-10-18T12:33:58+08:00",
+  "hard_deadline": "2026-10-19T15:00:00+08:00",
+  "minutes_to_deadline": 1586.0333333333333,
+  "decision": "continue-current",
+  "current_problem": "Purry primary calibration and ICC response matching",
+  "next_card": "Day17",
+  "next_card_preview_started": false,
+  "course_state": "next16/count15; partial16 only",
+  "boundary": "Refreshing candidate pool before any stop; K-theory fixed batch done, producer route remains useful."
+}

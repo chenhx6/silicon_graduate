@@ -3,7 +3,7 @@ type: method
 title: γ 射线角分布分析
 aliases: [angular distribution, gamma-ray angular distribution, gamma angular distribution, in-beam angular distribution, ADO]
 created: 2026-07-08
-updated: 2026-10-16
+updated: 2026-10-18
 status: ai-draft
 review_status: unreviewed
 method_type: gamma-ray-angular-distribution
@@ -623,3 +623,16 @@ Decision: **supports** 从内积/测度与极限理解公式、用正交化构�
 同源Gaussian .2给(.894266,.689096)，pureE2 point reference的Amax=(65/161,−26/161)还不能将Table4.3(.352,−.212)直接变成Table4.1的pair。需要primary attenuation提取规则、reference E2/M3、actualgate/response和归一/背景/Σ；换一种positive非Gaussian feeding本身不足以修复同定义的正性失配。书中MCMC不另解A4二次式不等于W(theta) likelihood从未使用A4；后验相关与原始code仍须另核。
 
 后续[[se21-alignment-calibration-consistency]]以原文small E2/M3 reference构建有界single-gamma模型（SE21-16/17）：两种源ratio在fixedsigma/J=.2下明显线性干涉A4，但未连接Table4.3；七角equal-weight P6截断控制很小，仍不代表actual response。另一个明示的opposite-physical-phase模型控制可在真实positiveP下，经错误pureE2反演制造apparent alpha正性失配。故正性筛查必须以reference纯性/参数层匹配为前提，不能直接判实际数据错误；未对sigma/delta自由调参或改变任何mode排序。
+
+
+## 原文a2拟合系数与完整A2不是同一个自动可移植对象
+
+[[purry-1997-phd-w178-multiparticle-structure]] P97-4的原方法（printed23）明确用`W0(1+a2P2)`拟合prompt-gated singles或early-delayed角矩阵；P97-1的六台coax仅三组独立极角47/97/148度。报告的a2有其truncatedfit/selection身份，不能不经response核查便当作完整`W0(1+A2P2+A4P4)`的A2或与50–400ns电子样本共用ρ。
+
+对一般正权W，设X=[1,P2]、z=P4；投影`c=(XᵀWX)^−1XᵀWz`后，若真实分布只有rank≤4，截断线性fit的参数为`b0=W0(1+c0A4)`、`b2=W0(A2+c2A4)`，reported a2=b2/b0。这是估计器映射，不是物理A4已测或原fit出错。
+
+按这三个角、**另声明equal weights与point detectors**，本任务算c0=−.0095491549、c2=−.4448147897；三列full设计秩3，所以原三角计数若可得，在该层次有机会同时拟合A2/A4。只有一个已报告a2和误差，丢失的信息不能用这个矩阵凭空恢复；实际计数权重/有限角/背景/selection的Cov仍缺。
+
+更一般地，`P4=(35P2²−10P2−7)/18`，weighted regression的slope是三组角对secant slopes的正加权平均（权∝wiwj(xi−xj)²）。因此任意正diagonalweights时c2在[−1.1000761,.9542297]内；不能只凭角度就认定实际leakage符号，更不能将equalweight数值当作者response。这个界没有包括off-diagonal共同误差、finite angles或额外ranks。
+
+代码[day16_purry_observable_ledger.py](../../system/scripts/day16_purry_observable_ledger.py)核actualPDF hash/target rows、满秩、独立lstsq/投影与pureP4zero控制；不是新实验a2/A4拟合。[[w178-921-dco-gate-double-solutions]]把这项原测量合同与旧DCO/K-shell比较分开。此结论限制的是无定义的coefficient层迁移，不能据此重新给178W δ、Jpi或模式。

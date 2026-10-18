@@ -1,0 +1,19 @@
+{
+  "url": "https://api.openaire.eu/search/publications",
+  "params": {
+    "doi": "10.1016/0168-9002(90)90294-G",
+    "format": "json",
+    "size": 4
+  },
+  "purpose": "Thesis instrument-reference discovery; no assumption of actualW178 acceptance/producer equivalence",
+  "status_code": 200,
+  "sha256": "81a9085bdcb5442770619c36659630e30bcca509231d452d485af3e54f9e6ba9",
+  "candidate_urls": [
+    "http://www.anu.edu.au/",
+    "http://www.uq.edu.au/",
+    "https://api.library.uq.edu.au/view/UQ:6892e69",
+    "https://doi.org/10.1016/0168-9002(90)90294-g",
+    "https://doi.org/https://doi.org/10.1016/0168-9002(90)90294-G",
+    "https://www.uq.edu.au/"
+  ]
+}

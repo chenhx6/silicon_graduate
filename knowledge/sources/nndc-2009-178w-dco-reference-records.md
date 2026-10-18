@@ -111,6 +111,8 @@ HTTP wrapper hashes及成功/失败访问回执保存在本日run目录的选定
 
 ## Summary
 
+本session后来取得并定向原读[[purry-1997-phd-w178-multiparticle-structure]]：P97-2/3/5/7核921/1090两个K值、electron装置、50–400ns与校准类别。它解决“完全没有primary”的一部分缺口，但不是1998paper全文；实际efficiency曲线/internal-calibrator逐线/targetpeakledger/Σ仍未恢复。原先“未取得1998primary”的记录不改成已读46页；thesis、paper、评价按依赖数据，不能增加独立次数。
+
 评价记录提供了137/169参考的真实AD摘要和对象映射，同时证明这些行**没有已填入的MR**。其CC栏、adopted M1+E2标签或125度RI均不能补造原KF89 reference的完整signed δ定义/测量。[[w178-921-dco-gate-double-solutions]]保留原实验双候选和本任务的新条件检验。
 
 ## Competing Interpretations and Limitations

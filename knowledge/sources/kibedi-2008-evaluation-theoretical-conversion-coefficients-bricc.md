@@ -420,3 +420,36 @@ M1/E2 ICC的quoted误差共享table/energy来源，Cov未给；只把两quoted m
 | --- | --- | --- | --- | --- | --- |
 | KB08-D15-5 | 官方E0新一次POST实际返回BeOmg/v2.3(2011)，K/L1/L2 Omega为5.595E10/8.284E9/1.616E8s^-1，programTot6.440E10/Kratio.8688；只有列明shell，无reportedtheoryerror，不将其当ICC或完整total。 | theory-electronic-factor-lookup | direct-program-output | officialANU Z70 E489.8 E0 responsef6bf17c5f153 | true |
 | KB08-D15-6 | 以新printedK/L1 pureICC和Omega作条件M1fraction/E0rate线性模型，中心column-normalizedcondition437、夹角.2622°；printedmarginalbox存在ranklosswitness，只证明边际摘要不足以认证stableactualinversion，不给真实Cov/δ/E0。 | conditional-identifiability-and-scope-test | task-calculation | printed204 Eq7/11；本节K/L1matrix与rankcontrol | true |
+
+
+## 2026-10-18 W178 K-shell理论输入与使用边界：新增Codex self-audit
+
+**原页面全部字节前缀与既有人审范围保持不变。本节及KB08-D16-1–4是新Codex self-audit，needs_review:true，不扩张为human-reviewed。** 本session在来源前冻结primed回忆后，重核原PDF SHA-256，重读printed202–214完整主线及AppendixA printed215，定向原图核Eq1/5、Eq20、Table2、Sec4.1.2/Eq24和printed223/TableB1的74-W-184行；未逐行重读整个AppendixB。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+| --- | --- | --- | --- | --- | --- |
+| KB08-D16-1 | 原Eq20对有效mixed多极且MR缺失的情形可用delta=1作默认平均alpha，误差取pure差的一半；这不是实测delta=1。Table2的1.4%含interpolation。Sec4.1.2区分NP correction与DF的surface-current近似，动态penetration需核参数，本run没有拟合lambda/eta/chi或认定W178存在异常转换。 | original-rule-and-model-boundary-recheck | direct-and-self-audit | printed205 Eq20；printed206 Table2脚注；printed207 Eq24与208 Sec4.1.2 | true |
+| KB08-D16-2 | 两次官方nominal lookup只取Z74/E920.8/BrIccFO、pureM1/E2，actual程序echo BrIccS v2.3(9-Dec-2011)。K为.00995(.00014)/.00435(.00006)，programTot为.01188(.00017)/.00533(.00008)。是理论reference，不是测量或A178专门波函数重算。 | versioned-official-theory-query | direct-online-theory-object | https://bricc.anu.edu.au/；DAY16-BRICC-W178-K-REFERENCE-01的M1/E2响应K与Tot行 | true |
+| KB08-D16-3 | 两响应N6/N7均空并警告EG>398.000keV，未补0/认证completeTotal；K行有效且Ece851.27keV。published TableB1给74-W-184、Kbinding69.5250keV，当前Z-only接口未暴露实际mass或datafile hash；物理Egamma误差.1keV未传入nominal查询，实际Cov也缺。 | shell-coverage-and-reference-boundary | direct-and-self-audit | 两web响应N6/N7/K行和warnings；printed208 Sec4.1.4/4.1.6；printed223 TableB1 | true |
+| KB08-D16-4 | 将新K理论与N178-12 reported Kexp=.0067(.0011)作明确条件比较，本任务R=.66两个固定point根预测K=.00990314/.00435261，均不与所列一倍quoted marginal boxes相交；这不是实验排除或整族delta分支检验。名义Eq5中央映射给abs(delta)=1.176001，正负仍双解，不是新测delta或联合fit。 | bounded-companion-forward-check | task-calculation | 本篇printed203 Eq5；N178-12；day16_bricc_w178_reference.py analyze及冻结input | true |
+
+### 实际查询对象与可复现性
+
+输入identity `DAY16-BRICC-W178-K-REFERENCE-01`，输入SHA-256 `e2d0cd1737398b4b2698cb5c2fbf4f49399e126300dad228a1e205cbcaeba934`。先保存query input，再pure M1/E2各一POST，零automatic retry；没有NH/All/其它能量或E0新查询。实际HTTP raw hashes：
+
+| mode | raw HTTP SHA-256 | 临时快照 |
+| --- | --- | --- |
+| M1 | `293b1fe91a101ce879518952c49614f24fc0232d529dfd32e76c0bd07d8507cd` | `tmp/day16-bricc-w178/responses/bricc-Z74-E920p8-FO-M1.html` |
+| E2 | `c585c7e826cdc09e1d614cb6224e0d8447217ad81bc55af8e88cd42d1d157256` | `tmp/day16-bricc-w178/responses/bricc-Z74-E920p8-FO-E2.html` |
+
+HTTP200与offline数值校验分开：核Z/element/energy/multipole/dataset/version echo，逐行保存所有coef/error/Ece、unknown cells与warnings；没有将404/HTML说明或参数回显当数据。原网页仅在repo tmp，本次保持raw归档不变；关键K/程序Tot数值、覆盖与hash已在本source保存。旧Z70/E489.8的程序/结果没有被本次W query替换。
+
+程序[day16_bricc_w178_reference.py](../../system/scripts/day16_bricc_w178_reference.py)提供query/capture/analyze三个独立阶段。query/capture时的准确旧code hash及snapshot在本日run-dir的code-snapshot-002；后续增加analyze未重复网络查询。query receipt/capture/conditional comparison保存输入输出hash及真实状态。
+
+### 从theory input到真实companion的门
+
+[[nndc-2009-178w-dco-reference-records]] N178-12是13C1998Pu01层的reported K-shell experiment；不以CC total或adopted多极标签增加独立似然。当前只能做普通FO/M1-E2、已报告alpha定义正确的条件检验。原electron/photon efficiency、角接受、门/峰分解、normalization/Σ及可能共享reference仍未取得。
+
+在Eq5名义pure系数下，reported central alphaK映射到radiative E2份额.580357与abs(delta)1.176001；把alphaK的quoted范围[.0056,.0078]反映到名义theory得abs(delta)[.789423,1.865476]，正负两支，**没有置信水平**，未传播物理E误差、theory共同Cov或原DCO的branch family。若观测central在pure envelope之外，程序保留no-physical-central-root而不夹到端点。
+
+这项结果限制的是所声明fixed point model和“额外observable必然挑中其中一根”的预期，不裁决原实验或结构模式。转换delta符号不会改变ICC；不能用phase换号掩盖magnitude/response条件的问题。未自由调sigma、K-efficiency或penetration参数强配数据。当前batch stop contract完成；下一高信息输入为primary calibration/response及同对象联合误差，而非更多任意能量query。

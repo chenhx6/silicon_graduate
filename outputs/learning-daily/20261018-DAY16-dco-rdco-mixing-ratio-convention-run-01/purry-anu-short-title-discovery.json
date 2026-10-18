@@ -1,0 +1,78 @@
+{
+  "url": "https://openresearch-repository.anu.edu.au/server/api/discover/search/objects",
+  "params": {
+    "query": "\"Multi-quasiparticle isomers and rotational bands\"",
+    "dsoType": "item",
+    "size": 5
+  },
+  "change_basis": "Exact title including178W returned no parsed items; broaden only isotope typography, preserve target title identity.",
+  "status_code": 200,
+  "sha256": "d01344d943ea9736d82c3e84b54494edcf1a8405e703b01665ba2a0537a55c02",
+  "candidate_items": [
+    {
+      "name": "Multi-quasiparticle isomers and rotational bands in 181Re",
+      "uuid": "7b3d0fb2-1b30-4733-b519-d54ce63ab15e",
+      "metadata": {
+        "dc.date.issued": [
+          {
+            "value": "2000",
+            "language": null,
+            "authority": null,
+            "confidence": -1,
+            "place": 0
+          }
+        ],
+        "dc.identifier.uri": [
+          {
+            "value": "http://hdl.handle.net/1885/89508",
+            "language": null,
+            "authority": null,
+            "confidence": -1,
+            "place": 0
+          }
+        ],
+        "dc.title": [
+          {
+            "value": "Multi-quasiparticle isomers and rotational bands in 181Re",
+            "language": null,
+            "authority": null,
+            "confidence": -1,
+            "place": 0
+          }
+        ]
+      },
+      "links": {
+        "accessStatus": {
+          "href": "https://openresearch-repository.anu.edu.au/server/api/core/items/7b3d0fb2-1b30-4733-b519-d54ce63ab15e/accessStatus"
+        },
+        "bundles": {
+          "href": "https://openresearch-repository.anu.edu.au/server/api/core/items/7b3d0fb2-1b30-4733-b519-d54ce63ab15e/bundles"
+        },
+        "identifiers": {
+          "href": "https://openresearch-repository.anu.edu.au/server/api/core/items/7b3d0fb2-1b30-4733-b519-d54ce63ab15e/identifiers"
+        },
+        "mappedCollections": {
+          "href": "https://openresearch-repository.anu.edu.au/server/api/core/items/7b3d0fb2-1b30-4733-b519-d54ce63ab15e/mappedCollections"
+        },
+        "owningCollection": {
+          "href": "https://openresearch-repository.anu.edu.au/server/api/core/items/7b3d0fb2-1b30-4733-b519-d54ce63ab15e/owningCollection"
+        },
+        "relationships": {
+          "href": "https://openresearch-repository.anu.edu.au/server/api/core/items/7b3d0fb2-1b30-4733-b519-d54ce63ab15e/relationships"
+        },
+        "version": {
+          "href": "https://openresearch-repository.anu.edu.au/server/api/core/items/7b3d0fb2-1b30-4733-b519-d54ce63ab15e/version"
+        },
+        "templateItemOf": {
+          "href": "https://openresearch-repository.anu.edu.au/server/api/core/items/7b3d0fb2-1b30-4733-b519-d54ce63ab15e/templateItemOf"
+        },
+        "thumbnail": {
+          "href": "https://openresearch-repository.anu.edu.au/server/api/core/items/7b3d0fb2-1b30-4733-b519-d54ce63ab15e/thumbnail"
+        },
+        "self": {
+          "href": "https://openresearch-repository.anu.edu.au/server/api/core/items/7b3d0fb2-1b30-4733-b519-d54ce63ab15e"
+        }
+      }
+    }
+  ]
+}

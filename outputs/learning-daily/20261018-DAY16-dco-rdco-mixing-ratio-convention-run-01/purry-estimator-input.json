@@ -1,0 +1,45 @@
+{
+  "identity": "DAY16-PURRY97-A2-ESTIMATOR-01",
+  "frozen_at": "2026-10-18T12:40:21.114446+08:00",
+  "basis_source": "Purry1997 printed19/23; targetTable4.1printed39",
+  "question": "Reported a2 is a truncated P2 fit. Quantify actualgeometry omittedP4 projection and the source intensity ratio without treating chosen weights as actual fit covariance.",
+  "angles_unique_deg": [
+    47,
+    97,
+    148
+  ],
+  "declared_equal_weights": [
+    1,
+    1,
+    1
+  ],
+  "angle_duplicates": "two detectors at each plus/minus angle, samecos for axially symmetric P2/P4; collapsed only under equalresponse diagnostic",
+  "model_full": "I(theta)=W0[1+A2P2(cos theta)+A4P4(cos theta)]",
+  "model_reported": "I_fit(theta)=b0+b2P2(cos theta); a2_reported=b2/b0",
+  "input_audit": "source ledger purry-thesis-target-input.json",
+  "no_free_parameter_grid": true,
+  "arithmetic_companion": {
+    "I1090": [
+      43,
+      3
+    ],
+    "I921": [
+      34,
+      2
+    ],
+    "correlation_sensitivity": [
+      -1,
+      0,
+      1
+    ],
+    "boundary": "sameparent source gamma intensities; actualjointCov/normalization/branchcomplete unknown, not anewbranch measurement"
+  },
+  "failure_controls": [
+    "fullrank3geometry",
+    "omittedP4 projection exactlinearalgebra versus directleast squares",
+    "pureP4 zero givescorrecta2",
+    "projectiondependsunknownweight; sourceactualweightsnotrecovered",
+    "do not treat observedtruncateda2asfullA2 without A4/response/weights",
+    "samePDF/TableandENSDFderivedvaluesaredependent"
+  ]
+}

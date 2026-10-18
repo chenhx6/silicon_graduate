@@ -1,0 +1,12 @@
+{
+  "url": "https://openresearch-repository.anu.edu.au/server/api/discover/search/objects",
+  "params": {
+    "query": "\"Multi-quasiparticle isomers and rotational bands in 178W\"",
+    "dsoType": "item",
+    "size": 5
+  },
+  "query_kind": "bounded exact-title public institutional-repository metadata",
+  "status_code": 200,
+  "response_sha256": "459f24dce47d63dddb7bbaea8165535e0fb1814ab5a82582425e44cf49e5b433",
+  "candidate_items": []
+}

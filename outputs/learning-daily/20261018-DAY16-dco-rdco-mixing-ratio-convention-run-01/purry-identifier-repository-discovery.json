@@ -1,0 +1,52 @@
+[
+  {
+    "name": "anu-doi",
+    "url": "https://openresearch-repository.anu.edu.au/server/api/discover/search/objects",
+    "params": {
+      "query": "\"10.1016/S0375-9474(97)00654-4\"",
+      "dsoType": "item",
+      "size": 5
+    },
+    "status_code": 200,
+    "sha256": "a4156442612c482982da5aa521d7b2d78729f1ff51a9b5441a6e8c93d26d7764",
+    "candidate_items": [],
+    "discovered_urls": [
+      "https://openresearch-repository.anu.edu.au/server/api/discover/facets/author?query=%2210.1016%2FS0375-9474%2897%2900654-4%22&dsoType=item",
+      "https://openresearch-repository.anu.edu.au/server/api/discover/facets/dateIssued?query=%2210.1016%2FS0375-9474%2897%2900654-4%22&dsoType=item",
+      "https://openresearch-repository.anu.edu.au/server/api/discover/facets/entityType?query=%2210.1016%2FS0375-9474%2897%2900654-4%22&dsoType=item",
+      "https://openresearch-repository.anu.edu.au/server/api/discover/facets/has_content_in_original_bundle?query=%2210.1016%2FS0375-9474%2897%2900654-4%22&dsoType=item",
+      "https://openresearch-repository.anu.edu.au/server/api/discover/facets/itemtype?query=%2210.1016%2FS0375-9474%2897%2900654-4%22&dsoType=item",
+      "https://openresearch-repository.anu.edu.au/server/api/discover/facets/subject?query=%2210.1016%2FS0375-9474%2897%2900654-4%22&dsoType=item",
+      "https://openresearch-repository.anu.edu.au/server/api/discover/search/objects?query=%2210.1016%2FS0375-9474%2897%2900654-4%22&dsoType=item&size=5",
+      "https://openresearch-repository.anu.edu.au/server/api/discover/search/objects?query=%252210.1016%252FS0375-9474%252897%252900654-4%2522&dsoType=item"
+    ]
+  },
+  {
+    "name": "openaire-doi",
+    "url": "https://api.openaire.eu/search/publications",
+    "params": {
+      "doi": "10.1016/S0375-9474(97)00654-4",
+      "format": "json",
+      "size": 5
+    },
+    "status_code": 200,
+    "sha256": "95215fccb1510569614a1b2df2a1b3406ee6f36d68512172c6d3687816f91b9c",
+    "candidate_items": [],
+    "discovered_urls": [
+      "http://namespace.openaire.eu/oaf https://www.openaire.eu/schema/1.0/oaf-1.0.xsd",
+      "http://www.anu.edu.au/",
+      "http://www.brighton.ac.uk/",
+      "http://www.cnrs.fr/index.php",
+      "http://www.in2p3.fr/",
+      "http://www.surrey.ac.uk/",
+      "http://www.uq.edu.au/",
+      "https://api.library.uq.edu.au/view/UQ:514dc13",
+      "https://doi.org/10.1016/s0375-9474(97)00654-4",
+      "https://doi.org/https://doi.org/10.1016/S0375-9474(97)00654-4",
+      "https://in2p3.hal.science/in2p3-00005620v1",
+      "https://openresearch.surrey.ac.uk/esploro/outputs/journalArticle/Multi-quasiparticle-isomers-and-rotational-bands-in/99510978402346",
+      "https://univoak.eu/",
+      "https://www.uq.edu.au/"
+    ]
+  }
+]

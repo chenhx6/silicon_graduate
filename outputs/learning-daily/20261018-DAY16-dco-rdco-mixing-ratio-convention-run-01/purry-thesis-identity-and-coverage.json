@@ -1,0 +1,25 @@
+{
+  "retrieved_from": "https://openresearch.surrey.ac.uk/view/delivery/44SUR_INST/12139097650002346/13140443510002346",
+  "institutional_record": "https://openresearch.surrey.ac.uk/esploro/outputs/doctoral/High-spin-multi-particle-and-collective-structure-in/99513285802346",
+  "actual_title": "High-Spin Multi-Particle and Collective Structure in 178W",
+  "author": "Christopher Stephen Purry",
+  "degree": "PhD",
+  "institution": "University of Surrey, Department of Physics",
+  "date_original": "May1997",
+  "PDF_pages": 112,
+  "PDF_sha256": "b8ee1308d4871c1514d0ed54b3d523104da143bb346088a24eb008d97fc96753",
+  "downloaded_bytes": 3748295,
+  "source_identity_verified_pages": [
+    1,
+    4,
+    5,
+    7,
+    8
+  ],
+  "candidate_old_epubs_file_id": "10147989.pdf was discovery only; actual downloaded delivery titlepage/author/date verified.",
+  "repository_wrapper": "CC BY-NC-SA V4.0 and downloaded timestamp; ProQuest2017 reproduction page separate, not original thesis date",
+  "reading_scope": "Ch3 printed12–24 complete experiment/analysis mainline; Ch4 intro25–31, selectedTable4.1p32/p39/p40, target discussionp49–54 and summary95–97; bibliographyDo79/Kr88/Kr89/Pu95/Ro78. Not full112page read.",
+  "raw_archive_written": false,
+  "new_reading_state": "targeted-reading, whole-thesis skimmed",
+  "checked_at": "2026-10-18T12:39:12.234296+08:00"
+}

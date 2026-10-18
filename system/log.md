@@ -1809,3 +1809,8 @@ Run2026-10-16-day-15-01/session01a14510-aec7-7e00-aa23-f7c77a5124bc：07:28:56�
 ## 2026-10-18T11:59:10.287892+08:00 — DAY16 checkpoint002: evaluated references and approximation limits
 
 同run/session持续active，原2026-10-19 15:00上海截止不改。BT87原件与exact/infinite/finite三路未解释KF89表差异，exchange与finiteB经典矩边界canonical。四NNDC178W对象、空MR/CC字段、125度RI/弱线精度及同母态参考诊断已写回；137有双根，169central无根但quotedbox相交，非实测CI。13C921 Kexp .0067(.0011)定位到Purry1998，primary/theoryK/校准仍缺、继续该高信息路线。Writeback8changed/8items、lint0errors/148warnings、boundary/diff、v1精确重放与publichash/PLAN/Bib保护通过；raw不动、归档/Bib缺口显式隔离。课程next16/count15、partial16，无formal16/partial17。稳定指针main / Audit DAY16 evaluated W178 references and correlation approximation limits；exacthash/H3/push只receipt。
+
+
+## 2026-10-18T12:46:32.280990+08:00 — DAY16 checkpoint003: actual Purry primary and K-shell contract
+
+同run/session持续active、原2026-10-19 15:00上海截止不改。两新W74FO理论K与reportedKcompanion比较未自动选现有两点；KB08旧prefix全字节保留。公开Surrey1997thesis实际下载112页、May1997/作者/hash核准，实验/analysis/目标表与summary定向读，整体skimmed不假称全书。原K装置/50–400ns与AD prompt/P2only合同、actualgeometryestimator及后续3525 I14/35ns→13-/<1ns、3654~30ns反证canonical；不改KF89历史/新测921δ或模式。writeback12changed/12items、lint0errors/150warnings、boundary/diff/primaryhash/保护/prefix均通过；raw/PLAN/Bib/旧review不动。Ki90原装置方法body未得，仍可评估当前高信息route后再partial17。课程next16/count15、partial16无formal16/17。稳定指针main / Trace DAY16 W178 conversion measurements and revised DCO assignments；actualhash/H3/push只receipt。

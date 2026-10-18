@@ -1,0 +1,7 @@
+{
+  "source": "knowledge/sources/kibedi-2008-evaluation-theoretical-conversion-coefficients-bricc.md",
+  "prefix_bytes": 44961,
+  "prefix_sha256": "1faff76e13019bb4966e1b1f5941e0a6f98c8fcf7ae552e3d7d78dd46a5b098e",
+  "review_status": "human-reviewed",
+  "planned_change": "append new dated Codex-only section; do not modify any existing bytes or claim flags"
+}

@@ -1,0 +1,38 @@
+{
+  "url": "https://api.archives-ouvertes.fr/search/",
+  "params": {
+    "q": "halId_s:in2p3-00005620",
+    "fl": "halId_s,title_s,authFullName_s,docType_s,doiId_s,fileMain_s,uri_s,version_i,producedDateY_i",
+    "wt": "json"
+  },
+  "source_discovery": "OpenAIRE DOI-exact result; not yet a verified fulltext",
+  "status_code": 200,
+  "sha256": "5de89c590c00ae6edf6a1153230f7a25b09e4cf0402d6ce3f2b15f6f52522f4d",
+  "docs": [
+    {
+      "title_s": [
+        "Multi-quasiparticle isomers and rotationnal bands in $^{178}$W"
+      ],
+      "authFullName_s": [
+        "C.S. Purry",
+        "P.M. Walker",
+        "G.D. Dracoulis",
+        "T. Kibedi",
+        "F.G. Kondev",
+        "S. Bayer",
+        "A.M. Bruce",
+        "A.P. Byrne",
+        "W. Gelletly",
+        "P.H. Reagan",
+        "C. Thwaites",
+        "O. Burglin",
+        "N. Rowley"
+      ],
+      "halId_s": "in2p3-00005620",
+      "uri_s": "https://in2p3.hal.science/in2p3-00005620v1",
+      "version_i": 1,
+      "docType_s": "ART",
+      "producedDateY_i": 1998
+    }
+  ]
+}
