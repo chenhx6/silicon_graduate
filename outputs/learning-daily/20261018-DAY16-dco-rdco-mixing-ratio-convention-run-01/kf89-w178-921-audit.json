@@ -1,0 +1,705 @@
+{
+  "identity": "DAY16-KF89-W178-921-GATE-CROSSWALK-01",
+  "input_sha256": "d686f653ee6a67d20beba402c7f679a00674cb4e500a446b2cb927c86e6e0690",
+  "script_sha256": "bd39c4ceec5c88bac2cd2bd1861475da532fb3e7e33f63a0e0a6fff83d847034",
+  "boundary": "Conditional point design with no experimental likelihood, detector response or covariance; source candidates are not refitted.",
+  "role_reciprocal": {
+    "central": 1.5151515151515151,
+    "literal_margin_image": [
+      1.3157894736842106,
+      1.7857142857142856
+    ],
+    "first_order_sigma_if_small_error": 0.2295684113865932,
+    "cross_covariance_jacobian_multiplier": -2.295684113865932,
+    "confidence_label": null
+  },
+  "source_phase_crosscheck": {
+    "F_matrices_11_to_10": {
+      "0": [
+        [
+          0.9999999999999996,
+          0.0
+        ],
+        [
+          0.0,
+          1.0000000000000009
+        ]
+      ],
+      "2": [
+        [
+          0.25482359571881286,
+          -0.9009374626955587
+        ],
+        [
+          -0.9009374626955589,
+          0.09100842704243314
+        ]
+      ],
+      "4": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.467137192902329
+        ]
+      ]
+    },
+    "source_F_vs_photon_single_distribution_max_error": 1.1102230246251565e-15,
+    "independence_boundary": "Different contractions share CG/Wigner primitives; no independent experiment or producer replay."
+  },
+  "full_tensor_check": {
+    "max_density_error_sr_minus2": 1.214306433183765e-17,
+    "comparisons": 24,
+    "rank_truncation": "algebraic: second rank<=4, first rank<=4 hence initial rank<=8",
+    "scope": "integer spins 11/10/8 and 11/10/9; real amplitudes; same CG/Wigner primitives"
+  },
+  "cases": [
+    {
+      "width_choice": {
+        "label": "D96-standard-deviation-interpretation",
+        "sigma_std_over_J": 0.3
+      },
+      "ref169_d_D96_diagnostic": -1.9,
+      "rows": [
+        {
+          "id": "KF89-F7c",
+          "common_target_numerator_gram": [
+            [
+              0.00797911241009052,
+              -0.0024247050942940076
+            ],
+            [
+              -0.0024247050942940076,
+              0.008041434040567272
+            ]
+          ],
+          "common_target_denominator_gram": [
+            [
+              0.004521547183485986,
+              0.0024610115479813876
+            ],
+            [
+              0.0024610115479813876,
+              0.005132142260090252
+            ]
+          ],
+          "raw_ratio_range_generalized_eigenvalues": [
+            0.22530734615881767,
+            1.3058785911435038
+          ],
+          "central_all_roots": [
+            {
+              "d_D96": 0.09186003498052088,
+              "atan_d_deg": 5.248462741621669,
+              "raw_row_prediction": 0.66,
+              "common_target_prediction": 1.5151515151515151,
+              "other_raw_row_prediction": 0.4872845242459716,
+              "ideal_target_P_same_gate": -0.39845548654271207
+            },
+            {
+              "d_D96": 46.269091988700396,
+              "atan_d_deg": 88.76187626708483,
+              "raw_row_prediction": 0.6600000000000003,
+              "common_target_prediction": 1.5151515151515147,
+              "other_raw_row_prediction": 0.6490423229242364,
+              "ideal_target_P_same_gate": -0.019921990608157768
+            }
+          ],
+          "quoted_margin_preimage_atan_deg": [
+            [
+              -90.0000000000002,
+              -85.2898066404972
+            ],
+            [
+              -0.39964603683400945,
+              10.371652228406479
+            ],
+            [
+              83.37211993378814,
+              90.0000000000002
+            ]
+          ],
+          "pure_dipole_raw_ratio": 0.566672951964928,
+          "pure_quadrupole_raw_ratio": 0.6382123181263093
+        },
+        {
+          "id": "KF89-F7d",
+          "common_target_numerator_gram": [
+            [
+              0.004733025792238538,
+              -0.002355448459479422
+            ],
+            [
+              -0.002355448459479422,
+              0.004829864740170708
+            ]
+          ],
+          "common_target_denominator_gram": [
+            [
+              0.008629673631174693,
+              0.001186185365554475
+            ],
+            [
+              0.001186185365554475,
+              0.007232757184098918
+            ]
+          ],
+          "raw_ratio_range_generalized_eigenvalues": [
+            0.2649665493877525,
+            1.0709114567359153
+          ],
+          "central_all_roots": [
+            {
+              "d_D96": 0.11973893679079367,
+              "atan_d_deg": 6.828027472471136,
+              "raw_row_prediction": 0.4699999999999998,
+              "common_target_prediction": 0.4699999999999998,
+              "other_raw_row_prediction": 0.6900005694674495,
+              "ideal_target_P_same_gate": -0.30237200818174664
+            },
+            {
+              "d_D96": 3.952989460623002,
+              "atan_d_deg": 75.80354327767526,
+              "raw_row_prediction": 0.4699999999999999,
+              "common_target_prediction": 0.4699999999999999,
+              "other_raw_row_prediction": 0.9100854396864114,
+              "ideal_target_P_same_gate": -0.0431637783943722
+            }
+          ],
+          "quoted_margin_preimage_atan_deg": [
+            [
+              -5.671924998225013,
+              24.516323218588337
+            ],
+            [
+              59.80578800390675,
+              86.81817466359769
+            ]
+          ],
+          "pure_dipole_raw_ratio": 0.5484594197329182,
+          "pure_quadrupole_raw_ratio": 0.6677764256747173
+        }
+      ],
+      "two_printed_margin_intersection_atan_deg": [
+        [
+          -0.39964603683400945,
+          10.371652228406479
+        ],
+        [
+          83.37211993378814,
+          86.81817466359769
+        ]
+      ],
+      "checks": {
+        "simultaneous_phase_map_max_ratio_error": 0.0,
+        "wrong_phase_map_max_ratio_change": 3.662855727786833,
+        "direct_vs_quadratic_max_density_error": 5.204170427930421e-18,
+        "same_cells_reciprocal_max_error": 2.220446049250313e-16
+      }
+    },
+    {
+      "width_choice": {
+        "label": "D96-standard-deviation-interpretation",
+        "sigma_std_over_J": 0.3
+      },
+      "ref169_d_D96_diagnostic": 1.9,
+      "rows": [
+        {
+          "id": "KF89-F7c",
+          "common_target_numerator_gram": [
+            [
+              0.00797911241009052,
+              -0.0024247050942940076
+            ],
+            [
+              -0.0024247050942940076,
+              0.008041434040567272
+            ]
+          ],
+          "common_target_denominator_gram": [
+            [
+              0.004521547183485986,
+              0.0024610115479813876
+            ],
+            [
+              0.0024610115479813876,
+              0.005132142260090252
+            ]
+          ],
+          "raw_ratio_range_generalized_eigenvalues": [
+            0.22530734615881767,
+            1.3058785911435038
+          ],
+          "central_all_roots": [
+            {
+              "d_D96": 0.09186003498052088,
+              "atan_d_deg": 5.248462741621669,
+              "raw_row_prediction": 0.66,
+              "common_target_prediction": 1.5151515151515151,
+              "other_raw_row_prediction": 1.5756186482012466,
+              "ideal_target_P_same_gate": -0.39845548654271207
+            },
+            {
+              "d_D96": 46.269091988700396,
+              "atan_d_deg": 88.76187626708483,
+              "raw_row_prediction": 0.6600000000000003,
+              "common_target_prediction": 1.5151515151515147,
+              "other_raw_row_prediction": 1.4784023813936464,
+              "ideal_target_P_same_gate": -0.019921990608157768
+            }
+          ],
+          "quoted_margin_preimage_atan_deg": [
+            [
+              -90.0000000000002,
+              -85.2898066404972
+            ],
+            [
+              -0.39964603683400945,
+              10.371652228406479
+            ],
+            [
+              83.37211993378814,
+              90.0000000000002
+            ]
+          ],
+          "pure_dipole_raw_ratio": 0.566672951964928,
+          "pure_quadrupole_raw_ratio": 0.6382123181263093
+        },
+        {
+          "id": "KF89-F7d",
+          "common_target_numerator_gram": [
+            [
+              0.0078037840724700346,
+              -0.0009036985742558214
+            ],
+            [
+              -0.0009036985742558214,
+              0.007521169297650263
+            ]
+          ],
+          "common_target_denominator_gram": [
+            [
+              0.004361356331147317,
+              0.0026379352507780772
+            ],
+            [
+              0.0026379352507780772,
+              0.004947343164595459
+            ]
+          ],
+          "raw_ratio_range_generalized_eigenvalues": [
+            0.9233701015276381,
+            4.287745237137812
+          ],
+          "central_all_roots": [],
+          "quoted_margin_preimage_atan_deg": [],
+          "pure_dipole_raw_ratio": 1.7893021069473443,
+          "pure_quadrupole_raw_ratio": 1.5202441082870113
+        }
+      ],
+      "two_printed_margin_intersection_atan_deg": [],
+      "checks": {
+        "simultaneous_phase_map_max_ratio_error": 0.0,
+        "wrong_phase_map_max_ratio_change": 3.662855727786833,
+        "direct_vs_quadratic_max_density_error": 5.204170427930421e-18,
+        "same_cells_reciprocal_max_error": 2.220446049250313e-16
+      }
+    },
+    {
+      "width_choice": {
+        "label": "literal-HWHM-diagnostic",
+        "sigma_std_over_J": 0.25479654008640573
+      },
+      "ref169_d_D96_diagnostic": -1.9,
+      "rows": [
+        {
+          "id": "KF89-F7c",
+          "common_target_numerator_gram": [
+            [
+              0.008172718234266551,
+              -0.0027135481603799763
+            ],
+            [
+              -0.0027135481603799763,
+              0.008313572549156026
+            ]
+          ],
+          "common_target_denominator_gram": [
+            [
+              0.004336986473733293,
+              0.002654222919031394
+            ],
+            [
+              0.002654222919031394,
+              0.004971762368441459
+            ]
+          ],
+          "raw_ratio_range_generalized_eigenvalues": [
+            0.1812076978692785,
+            1.322451437140975
+          ],
+          "central_all_roots": [
+            {
+              "d_D96": 0.11972474036148244,
+              "atan_d_deg": 6.82722557279126,
+              "raw_row_prediction": 0.66,
+              "common_target_prediction": 1.5151515151515151,
+              "other_raw_row_prediction": 0.4264325108374891,
+              "ideal_target_P_same_gate": -0.4543681375434407
+            },
+            {
+              "d_D96": 17.136499679593644,
+              "atan_d_deg": 86.66029372130511,
+              "raw_row_prediction": 0.6600000000000001,
+              "common_target_prediction": 1.515151515151515,
+              "other_raw_row_prediction": 0.6088360297907152,
+              "ideal_target_P_same_gate": -0.023497099470812542
+            }
+          ],
+          "quoted_margin_preimage_atan_deg": [
+            [
+              -90.0000000000002,
+              -87.83334091062267
+            ],
+            [
+              1.6432439142544768,
+              11.567141720034376
+            ],
+            [
+              81.63490400068244,
+              90.0000000000002
+            ]
+          ],
+          "pure_dipole_raw_ratio": 0.5306663400616441,
+          "pure_quadrupole_raw_ratio": 0.5980295882479766
+        },
+        {
+          "id": "KF89-F7d",
+          "common_target_numerator_gram": [
+            [
+              0.0044788825694441195,
+              -0.0023954016611619786
+            ],
+            [
+              -0.0023954016611619786,
+              0.004759231112950317
+            ]
+          ],
+          "common_target_denominator_gram": [
+            [
+              0.008890198720951533,
+              0.0013561898268493761
+            ],
+            [
+              0.0013561898268493761,
+              0.007194247336943599
+            ]
+          ],
+          "raw_ratio_range_generalized_eigenvalues": [
+            0.2343556805226689,
+            1.0700743488983309
+          ],
+          "central_all_roots": [
+            {
+              "d_D96": 0.050110147674320885,
+              "atan_d_deg": 2.8687004502176414,
+              "raw_row_prediction": 0.4699999999999999,
+              "common_target_prediction": 0.4699999999999999,
+              "other_raw_row_prediction": 0.5826415975583875,
+              "ideal_target_P_same_gate": -0.2903098310040149
+            },
+            {
+              "d_D96": 4.351855370036236,
+              "atan_d_deg": 77.05882424389023,
+              "raw_row_prediction": 0.47,
+              "common_target_prediction": 0.47,
+              "other_raw_row_prediction": 0.8563014692784313,
+              "ideal_target_P_same_gate": -0.022895813404411946
+            }
+          ],
+          "quoted_margin_preimage_atan_deg": [
+            [
+              -9.003448575874241,
+              18.70178244690077
+            ],
+            [
+              63.022722105305874,
+              87.376020377097
+            ]
+          ],
+          "pure_dipole_raw_ratio": 0.5038000510482107,
+          "pure_quadrupole_raw_ratio": 0.661532873426649
+        }
+      ],
+      "two_printed_margin_intersection_atan_deg": [
+        [
+          1.6432439142544768,
+          11.567141720034376
+        ],
+        [
+          81.63490400068244,
+          87.376020377097
+        ]
+      ],
+      "checks": {
+        "simultaneous_phase_map_max_ratio_error": 0.0,
+        "wrong_phase_map_max_ratio_change": 4.751773323923889,
+        "direct_vs_quadratic_max_density_error": 3.469446951953614e-18,
+        "same_cells_reciprocal_max_error": 2.220446049250313e-16
+      }
+    },
+    {
+      "width_choice": {
+        "label": "literal-HWHM-diagnostic",
+        "sigma_std_over_J": 0.25479654008640573
+      },
+      "ref169_d_D96_diagnostic": 1.9,
+      "rows": [
+        {
+          "id": "KF89-F7c",
+          "common_target_numerator_gram": [
+            [
+              0.008172718234266551,
+              -0.0027135481603799763
+            ],
+            [
+              -0.0027135481603799763,
+              0.008313572549156026
+            ]
+          ],
+          "common_target_denominator_gram": [
+            [
+              0.004336986473733293,
+              0.002654222919031394
+            ],
+            [
+              0.002654222919031394,
+              0.004971762368441459
+            ]
+          ],
+          "raw_ratio_range_generalized_eigenvalues": [
+            0.1812076978692785,
+            1.322451437140975
+          ],
+          "central_all_roots": [
+            {
+              "d_D96": 0.11972474036148244,
+              "atan_d_deg": 6.82722557279126,
+              "raw_row_prediction": 0.66,
+              "common_target_prediction": 1.5151515151515151,
+              "other_raw_row_prediction": 1.5426728066177213,
+              "ideal_target_P_same_gate": -0.4543681375434407
+            },
+            {
+              "d_D96": 17.136499679593644,
+              "atan_d_deg": 86.66029372130511,
+              "raw_row_prediction": 0.6600000000000001,
+              "common_target_prediction": 1.515151515151515,
+              "other_raw_row_prediction": 1.4428645641586648,
+              "ideal_target_P_same_gate": -0.023497099470812542
+            }
+          ],
+          "quoted_margin_preimage_atan_deg": [
+            [
+              -90.0000000000002,
+              -87.83334091062267
+            ],
+            [
+              1.6432439142544768,
+              11.567141720034376
+            ],
+            [
+              81.63490400068244,
+              90.0000000000002
+            ]
+          ],
+          "pure_dipole_raw_ratio": 0.5306663400616441,
+          "pure_quadrupole_raw_ratio": 0.5980295882479766
+        },
+        {
+          "id": "KF89-F7d",
+          "common_target_numerator_gram": [
+            [
+              0.00786709759981566,
+              -0.0009461078256235069
+            ],
+            [
+              -0.0009461078256235069,
+              0.00766891699739863
+            ]
+          ],
+          "common_target_denominator_gram": [
+            [
+              0.00428183420440713,
+              0.0028054836623878504
+            ],
+            [
+              0.0028054836623878504,
+              0.004915093526013424
+            ]
+          ],
+          "raw_ratio_range_generalized_eigenvalues": [
+            0.9184813709575377,
+            4.911791784591412
+          ],
+          "central_all_roots": [],
+          "quoted_margin_preimage_atan_deg": [],
+          "pure_dipole_raw_ratio": 1.8373195280934405,
+          "pure_quadrupole_raw_ratio": 1.5602789564044777
+        }
+      ],
+      "two_printed_margin_intersection_atan_deg": [],
+      "checks": {
+        "simultaneous_phase_map_max_ratio_error": 0.0,
+        "wrong_phase_map_max_ratio_change": 4.751773323923889,
+        "direct_vs_quadratic_max_density_error": 3.469446951953614e-18,
+        "same_cells_reciprocal_max_error": 2.220446049250313e-16
+      }
+    }
+  ],
+  "pure_table_diagnostic": [
+    {
+      "spins": [
+        10,
+        8,
+        6
+      ],
+      "ranks": [
+        2,
+        2
+      ],
+      "printed": 1.0,
+      "conditional_point_std_prediction": 1.0000000000000002,
+      "difference": 2.220446049250313e-16
+    },
+    {
+      "spins": [
+        10,
+        8,
+        7
+      ],
+      "ranks": [
+        2,
+        1
+      ],
+      "printed": 0.56,
+      "conditional_point_std_prediction": 0.5602087944884242,
+      "difference": 0.0002087944884241466
+    },
+    {
+      "spins": [
+        10,
+        8,
+        7
+      ],
+      "ranks": [
+        2,
+        2
+      ],
+      "printed": 0.66,
+      "conditional_point_std_prediction": 0.6373407586503952,
+      "difference": -0.02265924134960484
+    },
+    {
+      "spins": [
+        10,
+        8,
+        8
+      ],
+      "ranks": [
+        2,
+        1
+      ],
+      "printed": 1.07,
+      "conditional_point_std_prediction": 1.0292799311535308,
+      "difference": -0.04072006884646928
+    },
+    {
+      "spins": [
+        10,
+        8,
+        8
+      ],
+      "ranks": [
+        2,
+        2
+      ],
+      "printed": 0.57,
+      "conditional_point_std_prediction": 0.5701216214260234,
+      "difference": 0.00012162142602345494
+    },
+    {
+      "spins": [
+        9,
+        8,
+        6
+      ],
+      "ranks": [
+        1,
+        2
+      ],
+      "printed": 1.81,
+      "conditional_point_std_prediction": 1.8108635742084007,
+      "difference": 0.0008635742084006637
+    },
+    {
+      "spins": [
+        9,
+        8,
+        7
+      ],
+      "ranks": [
+        1,
+        2
+      ],
+      "printed": 0.92,
+      "conditional_point_std_prediction": 0.9707042997274085,
+      "difference": 0.05070429972740842
+    },
+    {
+      "spins": [
+        9,
+        8,
+        7
+      ],
+      "ranks": [
+        1,
+        1
+      ],
+      "printed": 1.0,
+      "conditional_point_std_prediction": 0.9999999999999999,
+      "difference": -1.1102230246251565e-16
+    },
+    {
+      "spins": [
+        9,
+        8,
+        8
+      ],
+      "ranks": [
+        1,
+        1
+      ],
+      "printed": 1.79,
+      "conditional_point_std_prediction": 1.7878307735874988,
+      "difference": -0.0021692264125012795
+    },
+    {
+      "spins": [
+        9,
+        8,
+        8
+      ],
+      "ranks": [
+        1,
+        2
+      ],
+      "printed": 1.12,
+      "conditional_point_std_prediction": 1.188657466531276,
+      "difference": 0.0686574665312758
+    }
+  ],
+  "all_checks_passed": true
+}

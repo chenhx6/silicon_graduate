@@ -1,0 +1,87 @@
+{
+  "identity": "DAY16-BT87-KF89-FACTORISATION-01",
+  "frozen_at": "2026-10-18T11:07:50.238621+08:00",
+  "source": "knowledge/sources/bargholtz-1987-high-spin-gamma-gamma-directional-correlations.md",
+  "source_raw_sha256": "1be5667433cc44b2c53f67e5f23a0c0721d2e56d6cc6c284d5da807badbcff17",
+  "equations": [
+    "printed515 Eq7",
+    "printed515 Eq10",
+    "printed517 Eq12/15/16",
+    "printed518 finite-spin improvement",
+    "printed519 EqB1"
+  ],
+  "KF89_geometry": [
+    90.0,
+    38.0,
+    18.0
+  ],
+  "KF89_std_width_over_initial_J": 0.3,
+  "methods": [
+    "exact photon channel",
+    "BT87 infinite-spin F and continuous Gaussian cos-axis with width .3",
+    "BT87 finite-spin improvement: exact ordinary F and exact initial B, but factorized generalized coefficients"
+  ],
+  "spin_axis_quadrature": [
+    16,
+    32
+  ],
+  "quadrature_repeat": [
+    20,
+    40
+  ],
+  "source_Fig2_control": {
+    "initial_spin_choices": [
+      10,
+      20
+    ],
+    "population": "M=0 only; complete alignment",
+    "theta1_degrees": [
+      0,
+      15,
+      30,
+      45,
+      60,
+      75,
+      90,
+      105,
+      120,
+      135,
+      150,
+      165,
+      180
+    ],
+    "theta2_degrees": 45,
+    "relative_phi_degrees": 0,
+    "first_pure_transition_choices": [
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        2
+      ]
+    ],
+    "second_transition": "stretched E2"
+  },
+  "forbidden_adjustments": [
+    "sigma fit",
+    "angular fit",
+    "reference fitting",
+    "printed-value changes",
+    "claiming DCOMAP provenance from numerical agreement"
+  ],
+  "interpretation_boundary": "Approximation checks and diagnostics, not actual 178W likelihood or an attribution of the original producer."
+}

@@ -1,12 +1,22 @@
 ---
 type: system-handoff
 graph-excluded: true
-updated: 2026-10-17
+updated: 2026-10-18
 ---
 
 # 跨会话交接
 
-## Active handoff — DAY15 complete; final content publication
+## Active handoff — DAY16 running, W178 gate/phase checkpoint
+
+Run `2026-10-18-day-16-01` / session `01a14ce6-425e-77c1-a127-2ac980bd76b5`，原硬截止2026-10-19 15:00上海、收束至16:00。用户已恢复并要求持续学习/不要中断；原生goal active。Resume `codex resume 01a14ce6-425e-77c1-a127-2ac980bd76b5 -C /workspace/wiki -s danger-full-access -a never`。课程next16/count15，当前partial16，未正式计16或预习17。
+
+日报遵用户固定路径`outputs/learning-daily/20261017-DAY16-dco-rdco-mixing-ratio-convention.md`；run-date仍18，receipt与`continuation-current.md`在`outputs/learning-daily/20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/`。primed回忆10:48已冻结/hash。D96/KS70/KF89全文主线重核；新canonical `knowledge/research-notes/w178-921-dco-gate-double-solutions.md`保存178W实测两支、门角色/Cov倒数、新point双根、同号P和完整tensor/phase控制。不是DCOMAP重放；部分Table1与作者>85支未复现，不改原数据/调σ/作新δ或Jπ赋值。
+
+Fresh检查writeback五项/五changed知识页、raw/PLAN/Bib/旧KF89 rows保护、boundary/diff/lint全部exit0；lint0errors/146warnings。首轮缺六research-note栏目的lint exit1已修复并留证。当前checkpoint以main / `Audit DAY16 W178 DCO gate roles and conditional double solutions`为稳定提交指针；实际hash/H3/push只记本run receipt。候选/研究仍active，不把checkpoint当提前收束。
+
+下一当前路线BT87：已先冻结来源前假设，再读8页原件；fixed输入`bt87-factorization-input.json`，待实现exact/finite/improved三路，不拟合原表。Dors1979 DOI10.1016/0375-9474(79)90555-4的Crossref/S2身份已核；OA/出版商discovery未得PDF，不能补169参考δ定义。KF89 Dors[3]/文末Ref2/3冲突保持。Farmer已有PID42019保留；不另启daily daemon/session/宿主任务或伪造runner exit。继承Day8–15 receipts/daemon/旧log/raw/PLAN/Bib/凭据/review均保护，log仅任务entry可隔离发布。
+
+## Previous active handoff — DAY15 complete; final content publication
 
 Run `2026-10-16-day-15-01` / session `01a14510-aec7-7e00-aa23-f7c77a5124bc`；原2026-10-17 15:00上海硬截止不改。07:28:56刷新clock，余451.07分钟；重建整体候选池、核下一张Day16卡后按工作流饱和条款提前关闭研究。证据见本run的candidate-refresh-012.json；仍缺原primary/producer/response/Sigma，未宣称所有合法全文路线穷尽。
 

@@ -1,0 +1,14 @@
+{
+  "frozen_at": "2026-10-18T11:05:13.762265+08:00",
+  "session_id": "01a14ce6-425e-77c1-a127-2ac980bd76b5",
+  "problem": "BT87 high-spin reduction versus KF89 printed pure table differences",
+  "priming": "Have read BT87 Wiki summary and KF89 citation Ref6; have not opened BT87 raw in this session. Already know exact point-model discrepancies. Not blind.",
+  "hypothesis": "A declared high-spin factorization or its finite-spin improvement could account for some printed pure-table discrepancies. KF89 does not explicitly identify this as its producer algorithm; agreement alone cannot establish provenance.",
+  "fixed_controls": [
+    "Keep original KF geometry 90/38/phi18 and declared standard-deviation Gaussian .3J",
+    "No fit of sigma, phase, geometry or printed values",
+    "Compare exact model with each explicit BT87 approximation; preserve failures",
+    "Keep complete all ten pure rows; do not select only rows that improve"
+  ],
+  "falsification": "If the prescribed approximations do not improve the mismatching rows within printed precision, do not attribute the discrepancy to that simplification. If they do, label it a model-level explanation candidate until actual DCOMAP provenance is obtained."
+}

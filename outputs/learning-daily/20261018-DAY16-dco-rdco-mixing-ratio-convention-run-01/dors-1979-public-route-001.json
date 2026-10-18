@@ -1,0 +1,12 @@
+{
+  "observed_at": "2026-10-18T11:07:05.574115+08:00",
+  "doi": "10.1016/0375-9474(79)90555-4",
+  "command": "node nature-downloader/scripts/batch_download.mjs --dois <DOI> --open-access --no-si --out /workspace/wiki/tmp/day16-dors-retrieval",
+  "process_exit": 0,
+  "downloaded": 0,
+  "manifest_sha256": "30c38ae903e0333ddf2b369b7c46b9e305c361002eaec692991678b58c7dadc2",
+  "status": "oa_not_found",
+  "si_requested": false,
+  "raw_unchanged": true,
+  "boundary": "Downloader reports oaAssessment confirmed_oa but Unpaywall is_oa false and only Elsevier TDM license; this is not proof of open access. No PDF obtained, and no full-text scientific claim added."
+}

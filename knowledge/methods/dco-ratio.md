@@ -3,7 +3,7 @@ type: method
 title: DCO 比值分析
 aliases: [DCO ratio, RDCO, directional correlation from oriented states]
 created: 2026-07-01
-updated: 2026-10-17
+updated: 2026-10-18
 status: active
 review_status: unreviewed
 method_type: gamma-ray-angular-correlation
@@ -67,6 +67,12 @@ R_DCO 的“dipole≈0.5 / quadrupole≈1”等经验值只对特定门和几何
 [[summary-2013-bases-spin-parity-assignments]] records DCO-ratio practice as part of a spin/parity-assignment guide for high-spin work. Its quoted typical orientation parameter is `σ/I = 0.3`. For the sigma-over-I project this is useful background evidence that practical assignment workflows often assume a typical orientation scale, but it is not enough to justify one universal default across different reactions and fitting contexts.
 
 ## Examples
+
+### 同一target在两组数据中的gate角色
+
+[[kramer-flecken-1989-use-dco-ratios]] KF89-15的178W实例：921(G)–306的R=.66±.10以921作上游门，921–169(G)的R=.47±.15却以921作观测线。统一为target921在90°/38°的同方向joint比时，前者取倒数为1.51515，后者保留.47；须先确认same corrected cells/selection。字面前者边界取倒数得到[1.31579,1.78571]，没有独立Gaussian或置信水平承诺。
+
+[[w178-921-dco-gate-double-solutions]]保留作者小delta/近纯四极两支、强度偏好及新条件反演。其单比两根的预测P同为负，说明偏振符号不能自动挑根；matched Q/净计数/背景/Cov和reference convention才让幅值比较有实验含义。部分原表未被point模型复现，不能称为实验delta新拟合。
 
 [[chakraborty-2023-131xe-wobbling-origin]] 使用 40°、90°、125° INGA 数据约束 671、882、1055 keV 等跃迁。
 

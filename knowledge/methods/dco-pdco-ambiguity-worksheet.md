@@ -3,7 +3,7 @@ type: method
 title: DCO与PDCO双解：点响应与相位坐标
 aliases: [delta-double-solution-sheet, DCO PDCO ambiguity worksheet, D96 point-response ambiguity]
 created: 2026-10-17
-updated: 2026-10-17
+updated: 2026-10-18
 status: ai-draft
 review_status: unreviewed
 method_type: gamma-gamma-directional-correlation
@@ -218,6 +218,8 @@ KS70 Eq9在electron-mass natural units给`delta=(sqrt3/10)k Delta_BM`。本任�
 停止本层实际实验反演的输入缺口是original event/selection、geometry/response、背景与normalized-coefficient Cov。知识预习与条件计算仍可继续，但不能以这些练习给实际Jpi、delta confidence或collective-mode裁决。当前优先补的是会改变候选排序的独立约束与完整input identity，而不是再测一个同counts的ratio变形。
 
 ## What It Can Establish
+
+独立正式Day16的新实测对象见[[w178-921-dco-gate-double-solutions]]：KF89-15/16的178W921两组gate角色、作者两候选和强度companion，与本页Day15预习计算分开。新高自旋point反演和完整D96 tensor核验是本session交付；未恢复DCOMAP/response/Cov时不把其根替换作者支，也不将旧预习重记为新学分。
 
 提供一个可复算的理论双解、精确/近似数据身份交叉表，以及source F/实现基底的相位核对；说明为何pure reference、一个directional ratio或一个polarity符号不够。可用于设计能改变候选排序的下一测量和代码验证。
 

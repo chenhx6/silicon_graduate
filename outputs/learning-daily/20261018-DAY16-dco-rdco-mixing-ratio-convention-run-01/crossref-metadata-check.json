@@ -1,0 +1,74 @@
+{
+  "workflow": "citation-verification",
+  "source": "academic-search MCP Crossref",
+  "retrieved_date": "2026-10-18",
+  "records": [
+    {
+      "title": "Use of DCO ratios for spin determination in γ-γ coincidence measurements",
+      "authors": [
+        "A. Krämer-Flecken",
+        "T. Morek",
+        "R.M. Lieder",
+        "W. Gast",
+        "G. Hebbinghaus",
+        "H.M. Jäger",
+        "W. Urban"
+      ],
+      "year": 1989,
+      "doi": "10.1016/0168-9002(89)90706-7",
+      "journal": "Nuclear Instruments and Methods in Physics Research Section A: Accelerators, Spectrometers, Detectors and Associated Equipment",
+      "source": "crossref",
+      "abstract": "",
+      "volume": "275",
+      "issue": "2",
+      "pages": "333-339",
+      "publisher": "Elsevier BV",
+      "type": "journal-article",
+      "references_count": 7,
+      "url": "https://doi.org/10.1016/0168-9002(89)90706-7"
+    },
+    {
+      "title": "Determination of the<mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mml:mfrac><mml:mrow><mml:mi>E</mml:mi><mml:mn>2</mml:mn><mml:mn/></mml:mrow><mml:mrow><mml:mi>M</mml:mi><mml:mn>1</mml:mn><mml:mn/></mml:mrow></mml:mfrac></mml:math>Multipole Mixing Ratios of the Gamma Transitions in<mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mml:mrow><mml:msup><mml:mrow><mml:mi mathvariant=\"normal\">Cd</mml:mi></mml:mrow><mml:mrow><mml:mn>110</mml:mn></mml:mrow></mml:msup></mml:mrow></mml:math>",
+      "authors": [
+        "K. S. Krane",
+        "R. M. Steffen"
+      ],
+      "year": 1970,
+      "doi": "10.1103/physrevc.2.724",
+      "journal": "Physical Review C",
+      "source": "crossref",
+      "abstract": "",
+      "volume": "2",
+      "issue": "2",
+      "pages": "724-734",
+      "publisher": "American Physical Society (APS)",
+      "type": "journal-article",
+      "references_count": 48,
+      "url": "https://doi.org/10.1103/physrevc.2.724"
+    },
+    {
+      "title": "High-spin rotational levels in 178W populated in the 177Hf(α, 3nγ) reaction",
+      "authors": [
+        "C.L. Dors",
+        "F.M. Bernthal",
+        "T.L. Khoo",
+        "C.H. King",
+        "J. Borggreen",
+        "G. Sletten"
+      ],
+      "year": 1979,
+      "doi": "10.1016/0375-9474(79)90555-4",
+      "journal": "Nuclear Physics A",
+      "source": "crossref",
+      "abstract": "",
+      "volume": "314",
+      "issue": "1",
+      "pages": "61-79",
+      "publisher": "Elsevier BV",
+      "type": "journal-article",
+      "references_count": 27,
+      "url": "https://doi.org/10.1016/0375-9474(79)90555-4"
+    }
+  ],
+  "scientific_evidence_boundary": "Bibliographic metadata only; Dors full text not yet obtained. No citation metrics used."
+}

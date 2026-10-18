@@ -1,0 +1,115 @@
+{
+  "identity": "DAY16-KF89-W178-921-GATE-CROSSWALK-01",
+  "kind": "printed-measurements-and-explicit-conditional-point-design",
+  "frozen_at": "2026-10-18T10:53:26.596644+08:00",
+  "session_id": "01a14ce6-425e-77c1-a127-2ac980bd76b5",
+  "source": "knowledge/sources/kramer-flecken-1989-use-dco-ratios.md",
+  "source_raw_sha256": "30cdf474db5fbfaa6a27f6d2e0d11ea39bbb61a05c8153e740f2f3dcca52220f",
+  "locators": [
+    "printed338 Fig7c",
+    "printed338 Fig7d",
+    "printed339 first paragraph",
+    "printed334 Sec2 definition"
+  ],
+  "target": {
+    "energy_keV_rounded": 921,
+    "energy_keV_Fig6": 920.9,
+    "initial_level_keV_rounded": 3055,
+    "spin_i": 11,
+    "spin_m": 10,
+    "parity_boundary": "do not newly assign parity from DCO; M1/E2 versus E1/M2 retained as electromagnetic hypotheses"
+  },
+  "printed_rows": [
+    {
+      "id": "KF89-F7c",
+      "physical_spins": [
+        11,
+        10,
+        8
+      ],
+      "gate_keV": 921,
+      "observed_keV": 306,
+      "raw_RDCO": 0.66,
+      "quoted_margin": 0.1,
+      "source_gate_role": "physical-first photon",
+      "reference_for_common_target_keV": 306,
+      "reference_model": "pure E2",
+      "common_target_ratio": "reciprocal of raw_RDCO"
+    },
+    {
+      "id": "KF89-F7d",
+      "physical_spins": [
+        11,
+        10,
+        9
+      ],
+      "gate_keV": 169,
+      "observed_keV": 921,
+      "raw_RDCO": 0.47,
+      "quoted_margin": 0.15,
+      "source_gate_role": "physical-second photon",
+      "reference_model": "mixed dipole/quadrupole; paper imports delta=-1.9",
+      "reference_delta_source": -1.9,
+      "common_target_ratio": "same as raw_RDCO"
+    }
+  ],
+  "author_candidates": [
+    {
+      "delta_central": 0.07,
+      "quoted_margin": 0.1
+    },
+    {
+      "delta_greater_than": 85
+    }
+  ],
+  "branch_companion": {
+    "observed_ratio_I1090_over_I921": 1.2,
+    "quoted_margin": 0.2,
+    "author_pure_quadrupole_expected": 2.3,
+    "expected_model_derivation_available_in_article": false
+  },
+  "design": {
+    "polar_angle_A_deg": 90,
+    "polar_angle_B_deg": 38,
+    "relative_azimuth_deg": 18,
+    "common_target_ratio_definition": "W(physical-first target at A,physical-second reference at B)/W(target at B,reference at A)",
+    "initial_density": "diagonal symmetric Gaussian exp(-M^2/(2*sigma_std^2)); no daughter Gaussian reset",
+    "sigma_choices": [
+      {
+        "label": "D96-standard-deviation-interpretation",
+        "sigma_std_over_J": 0.3
+      },
+      {
+        "label": "literal-HWHM-diagnostic",
+        "sigma_std_over_J": 0.25479654008640573
+      }
+    ],
+    "reference_delta_D96_diagnostic_choices": [
+      -1.9,
+      1.9
+    ],
+    "target_coordinate": "D96 absolute radiative a(E2)/a(M1), same as KS70 only under the explicitly verified common BM/operator assumptions",
+    "detectors": "ideal points; matched efficiency factor set to one as design; actual response unavailable",
+    "deorientation": "none in two-step conditional design; no source producer reconstruction claimed",
+    "companion_polarization": "target at 90 deg, same reference at 38 deg and same phi; ideal P only, no invented Q/counts/Cov"
+  },
+  "missing_actual_inputs": [
+    "DCOMAP source/operator convention",
+    "sigma exponent/definition in KF89",
+    "all event-ID/count/background ledgers",
+    "energy-pair efficiencies and calibration factor uncertainty",
+    "finite solid angle geometry/response",
+    "feeding/time/isomer deorientation",
+    "joint covariance of both RDCO rows and intensity ratios",
+    "matched target polarization/Q calibration"
+  ],
+  "failure_controls": [
+    "pure limits and positivity",
+    "source/operator F versus direct photon signs at J=11/10",
+    "phase simultaneous coordinate/kernel conversion",
+    "wrong conversion changes mixed term but passes pure limits",
+    "gate swap gives reciprocal only for same corrected cells",
+    "range/all-root inversion without selecting optimizer branch",
+    "quoted marginal boxes are not confidence sets"
+  ]
+}

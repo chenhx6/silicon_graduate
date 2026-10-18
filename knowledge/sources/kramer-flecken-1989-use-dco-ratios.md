@@ -3,7 +3,7 @@ type: source
 title: "Use of DCO Ratios for Spin Determination in gamma-gamma Coincidence Measurements"
 aliases: [Kramer-Flecken 1989 DCO, Kramer-Flecken 1989 use of DCO ratios, DCO spin determination OSIRIS]
 created: 2026-07-12
-updated: 2026-10-17
+updated: 2026-10-18
 status: ai-draft
 review_status: human-reviewed
 source_type: experiment-method-article
@@ -83,6 +83,10 @@ KF89-1–8是原2026-07-12审核记录；其中KF89-1的实验分式有上述转
 | KF89-12 | 178W例假设35ns异构体不强烈改变width/I；DCO容许isomer I12或14，作者另用decay-pattern/intensity偏好14。不能把其最终采用值说成一项DCO直接唯一测量，本文未给未见弱branch的完整upper-limit/Cov输入。 | author-assignment-and-boundary | direct-and-self-audit | printed337 Sec4末段；printed339 isomer讨论 | true |
 | KF89-13 | 原文称Gaussian的half width sigma，未在本文写明指数式；printed334低spin边界印为I≤6。表中sigma/I值不能仅凭同字母自动转成HWHM或D96Eq19的std。 | width-convention-boundary | direct-and-self-audit | printed334 Sec2首段 | true |
 | KF89-14 | 182-keV例以E1/小M2解释generic dipole/quadrupole ratio；不能把本文所有delta都当E2/M1或把平方份额无条件称为E2份额。 | multipole-pair-boundary | direct-and-self-audit | printed339 182-keV讨论 | true |
+| KF89-15 | 对采用I=11的3055-keV态，921(G)–306给RDCO=.66±.10，921–169(G)给.47±.15；Fig7c/d分别是11→10→8及11→10→9。作者仍报告921的delta1=.07±.10或delta1>85两支。第一行gate在物理第一条，第二行gate在物理第二条，不能当同方向target比。 | experimental-summary-and-multisolution | direct | printed338 Sec4，Fig7c/d及正文；printed337 Fig6的920.9-keV标记 | true |
+| KF89-16 | 原文用Igamma(1090)/Igamma(921)=1.2±.2对照pure-quadrupole预期2.3来偏好921小混合支；本7页方法文没有给2.3的完整模型推导/误差，也没有两DCO与强度的联合Cov。不能将偏好改写为DCO独自唯一确定delta。 | author-branch-preference-and-boundary | direct-and-self-audit | printed338末段–printed339首段 | true |
+| KF89-17 | 137/169-keV参考导入平均mixing parameter delta=−1.9，正文归给Dors et al.[3]的angular distributions/branching；但Ref3实际是Gast待发表，Dors1979在Ref2。本文未显式定义其operator ratio，未经primary不能认证该delta与D96/KS70数值坐标相同。 | reference-provenance-and-convention-boundary | direct-and-self-audit | printed338首段；printed339 Refs2/3 | true |
+| KF89-18 | 本文给OSIRIS十二台Ge但DCO实际选择六台，角组90/38度、phi18度，要求相对效率修正；sigma/I=.3及35ns异构体不强改width是假设，缺实际pair响应、feeding、producer和Cov。条件点模型不能凭这些文字自称重放原分析。 | experimental-response-readiness | direct-and-self-audit | printed335效率段；printed337 Sec3/4；printed338 Fig7图注 | true |
 
 ## Nuclear Structure Information
 
@@ -134,3 +138,11 @@ This is one of the clearest sources for the sentence "DCO is compressed angular-
 这是原定义的代数标签映射，要求同一corrected joint cells/selection/normalization；不同门后密度或不同pair cuts不能当作机械互反。D96 Fig7只列0/90角组，不在图注重写上述全部gate/detector标签，故数值约.4本身不认证唯一的标签解释；保留worksheet的显式R*定义。
 
 新的corrected source入口已同步到[[dco-ratio]]；本页旧实验转写不再作为该方法的操作定义。KF89-2旧I<6摘要与原件I≤6的差别、half-width用语和generic delta的多极子类型分别保留在KF89-13/14，不能靠字母相同填入原文没有的定义。
+
+## 2026-10-18独立Day16复核：921-keV实测双候选
+
+本session在带priming声明的主动回忆冻结后重新读完7页主线，原图核printed334的定义/Table1、337的Fig6、338的Fig7与两候选、339的companion/References。原SHA-256按hex大小写归一后完全匹配；首个提取器只因大小写敏感比较而退出，未改raw。Crossref按DOI重新核题名、七作者、1989/275/333–339，metadata不作为图表数值证据。
+
+新KF89-15–18及[[w178-921-dco-gate-double-solutions]]是本session的Codex self-audit，均needs_review:true；原page human-reviewed及KF89-1–14的文字/flags不扩大、不清除。新note把两实测gate角色、作者支、相同目标比的倒数及误差像与本任务条件点模型分开。额外的D96 tensor/photon一致性不代表DCOMAP已重放；部分Table1点值和作者大delta支未复现，保留原因未决。
+
+本轮决定supports多解性，revises不分gate角色直接联合比值的做法，limits强度prior和偏振符号的唯一赋值。下一原件是169/137参考的primary及完整response；printed338的Dors[3]与文末Ref2/3冲突仍开放，不把参考标签自动改成已取得的独立实验。

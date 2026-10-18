@@ -1,0 +1,31 @@
+{
+  "subject": "Audit DAY16 W178 DCO gate roles and conditional double solutions",
+  "paths": [
+    "knowledge/index.md",
+    "knowledge/methods/dco-ratio.md",
+    "knowledge/methods/dco-pdco-ambiguity-worksheet.md",
+    "knowledge/sources/kramer-flecken-1989-use-dco-ratios.md",
+    "knowledge/research-notes/w178-921-dco-gate-double-solutions.md",
+    "system/scripts/day16_kf89_w178_gate_audit.py",
+    "system/handoff.md",
+    "outputs/learning-daily/20261017-DAY16-dco-rdco-mixing-ratio-convention.md",
+    "outputs/learning-daily/20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/run.json",
+    "outputs/learning-daily/20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/run-entry-original.json",
+    "outputs/learning-daily/20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/entry-baseline.json",
+    "outputs/learning-daily/20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/active-recall-frozen.md",
+    "outputs/learning-daily/20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/active-recall-freeze.json",
+    "outputs/learning-daily/20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/kf89-w178-921-input.json",
+    "outputs/learning-daily/20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/kf89-w178-921-audit.json",
+    "outputs/learning-daily/20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/crossref-metadata-check.json",
+    "outputs/learning-daily/20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/dors-1979-public-route-001.json",
+    "outputs/learning-daily/20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/bt87-before-source-recall.json",
+    "outputs/learning-daily/20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/bt87-factorization-input.json",
+    "outputs/learning-daily/20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/continuation-current.md",
+    "outputs/learning-daily/20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/verification-checkpoint-001.json",
+    "outputs/learning-daily/20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/task-log-entry-001.md"
+  ],
+  "isolated_log_path": "system/log.md",
+  "log_entry": "outputs/learning-daily/20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/task-log-entry-001.md",
+  "excluded_inherited": "All entry baseline dirty paths, except task-only appended log entry; raw/PLAN/Bib/credentials/tmp excluded.",
+  "run_status": "running; no card credit"
+}

@@ -1799,3 +1799,8 @@ Zobel1983六页/metadata/raw与958parent10个Pubfit rows，38-check条件Gaussia
 ## 2026-10-17 Day15最终收束与129Ba系数输入审计
 
 Run2026-10-16-day-15-01/session01a14510-aec7-7e00-aa23-f7c77a5124bc：07:28:56上海刷新clock，距原15:00硬截止451.07min；重建当前及恰好Day16预习候选、复核课程卡后，按输入饱和条款提前收束。正式15只计一次next16/count15，partial16，无formal16/Day17。CH24现代δ≈−2与历史区间归属更正、arXivv3/NNDC对象谱系、chosenreference不匹配及同母态rank4−8/3条件边界写回canonical；无新experimentalδ或模式裁决。42writeback=41科学+1overview治理、45mapped/42changed；fresh boundary/preflight/lint/diff0，lint0error/146warnings，旧review/raw/protected及14scriptinputhash通过。QMD外部缓存未写，refresh deferred。最终提交指针main / `Close DAY15 ADO study and audit 129Ba reference boundaries`；实际H3/push及精确hash只run/publication012。原runner退出未观察，不补scheduler/clock事件；完成后只讨论既有成果。
+
+
+## 2026-10-18T11:09:08.282250+08:00 — DAY16 checkpoint001: W178 gate roles and phase audit
+
+独立run2026-10-18-day-16-01/session01a14ce6-425e-77c1-a127-2ac980bd76b5，原2026-10-19 15:00上海截止不改。primed回忆先冻结，D96/KS70/KF89原件主线与实际178W921两候选已核；gate倒数/Cov与新point双根、F/fulltensor/phase控制canonical，原producer/Table1差异保持。writeback5changed、保护文件/旧review、lint0errors/146warnings、boundary/diff通过。研究/goal仍active、next16/count15，partial16无正式学分或17预习。下一Dors1979 primary和BT87三路近似审计，输入已冻结；Farmer旧watcher保留。稳定指针main / Audit DAY16 W178 DCO gate roles and conditional double solutions；actual hash/H3/push仅runreceipt。

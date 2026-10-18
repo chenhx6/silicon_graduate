@@ -2,7 +2,7 @@
 type: system-index
 graph-excluded: true
 created: 2026-07-01
-updated: 2026-10-17
+updated: 2026-10-18
 ---
 
 # Wiki Index
@@ -564,6 +564,8 @@ updated: 2026-10-17
 - Updated [[low-spin-wobbling-controversies]] and [[nuclear-chirality-and-multiple-chiral-doublet-bands]].
 
 ## Research Notes
+
+- [[w178-921-dco-gate-double-solutions]] - 178W921实测两支、门角色与相同target比的倒数；新条件反演/相位控制保留原producer、response及Cov缺口。
 
 - [[se21-alignment-calibration-consistency]] - 135Pr854.3参考的alpha参数层、positive-population条件证书、Gaussian与pureE2核验；保持实际响应/归一边界。
 - [[135pr-mixing-branch-input-contract]] - 135Pr同线A/P/Rac/δ、采用Q与自有a的谱系、共享校准条件敏感性；不重拟合实际分支。
