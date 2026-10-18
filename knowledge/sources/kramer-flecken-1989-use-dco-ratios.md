@@ -154,3 +154,15 @@ KF89-19只解决文献身份，网页入口[DOI](https://doi.org/10.1016/0375-94
 本session随后实际取得[[nndc-2009-178w-dco-reference-records]]的178074004/006：前者明确1989KR01、后者1979DO02并列137/169的AD；MR栏仍空，CC不能搬作delta。adopted对象默认E/RI另来自170Er(13C,5n)，其M1+E2/11-标签不算本原实验的新独立确认。新的same-parent诊断不替换本篇−1.9 reference输入或原921两支，完整边界见[[w178-921-dco-gate-double-solutions]]。
 
 新KF89-20链接[[purry-1997-phd-w178-multiparticle-structure]] P97-8/9：后续实验确实改变约3525能级和35ns归属，不能只引用本篇abstract“established14”便声称无后续反证。原page人审历史/KF89-1–19均保留；新条只为Codex self-audit。旧DCO两候选、spin/feeding/width与必要观测的使用门进一步得到现实例子支持，未自造原921重新拟合结果。
+
+## 1988原学位论文的目录取证与未读边界
+
+2026-10-18用户恢复Day16原学习窗口后，以Purry printed101的Kr88为线索，新查德国国家图书馆SRU。DNB记录[881391638](https://d-nb.info/881391638)的MARC088明确`Jül-Spez 458`，245题名为*Untersuchung zum Zerfall von Hochspin-Isomeren in den W- und Os-Isotopen und Entwicklung von Programmen zur Steuerung der Experimentlogik und der Datenerfassung*，100作者Andreas Krämer-Flecken，264出版1988，300为123页，502为Bonn大学学位论文。另一个[890076413](https://d-nb.info/890076413)题名用复数*Untersuchungen*、300为123Bl.，同为Bonn1988；保留目录版本差别，不补ISBN/DOI。
+
+两条856明确标为**Inhaltsverzeichnis**。实际取得[881391638目录PDF](https://d-nb.info/881391638/04)和[890076413目录PDF](https://d-nb.info/890076413/04)，均只有两页，SHA-256分别`e7efc704bd296289a6f99566140784c01a4bce95d779f5c17df18020aaa0fd37`、`366628ce2d21d6249565ef93f69334fde80d905c4a5f966e73b59ecdc11a07d7`。原图核目录第一、二页：Sec3为178W实验，printed38；Sec3.2“Bestimmung der Spins mit Hilfe von DCO-Verhältnissen”从printed46开始；下一Sec3.3时间分析从printed58开始；Anhang93、Referenzliste95。这里只确认原件的可定位章节，**尚未读其DCO正文、Gaussian指数、DCOMAP输入或代码**。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+| --- | --- | --- | --- | --- | --- |
+| KF89-21 | Purry的Kr88可由DNB881391638的Jül-Spez458/作者/1988/Bonn论文记录定位；公开下载是两页目录，Sec3.2 DCO从printed46开始、Sec3.3从58开始。目录未提供其正文/宽度约定或producer，不算新独立DCO实验。 | external-reference-identity-and-availability | direct-catalog-and-original-contents | DNB881391638 MARC088/100/245/264/300/502；881391638/04 PDF1 Sec3.2 | true |
+
+本批原件/元数据只在repo tmp隔离，未修改raw或Bib。Jülich公开检索返回fast-challenge shell，未绕过；Bonn repository精确题名/authorfilter均无match；DataCite特定query零结果。Scholar超时、若干外部目录网络失败，不据此宣称全球无全文。决定`supports`较高信息的原producer追源，`limits`将目录PDF当整本论文。下一精确目标为该论文printed46的Sec3.2正文；不自由调σ解释KF89印表。所有旧人审/claim flags保持。

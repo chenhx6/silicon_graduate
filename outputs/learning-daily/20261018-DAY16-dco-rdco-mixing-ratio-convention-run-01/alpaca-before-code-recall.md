@@ -1,0 +1,7 @@
+# ALPACA固定公开代码对象：执行前问题冻结
+
+已受Day15/16的IF21原式、ALPACA README及七个旧Gitblob核验priming。新目标是审核并按许可证在repo tmp构建固定commit f173c2d2e2fd855451e06446a2cfcce679c42d24 的真实公开实现，检查同一明确spin/phase例的代码输出与本任务已核张量/photons是否一致。旧README或只读blob结果不当新执行；不在wiki复制GPL实现，不运行未经检查的安装器/下载脚本，不改系统/credentials/raw。
+
+先核实际tree/license/build dependencies，再决定能否局部构建或只读代码。若代码只是无取向/第一gamma有偏振的correlation，不把它套成beamDCO或KF89实际producer。若需要missing依赖而代价高，写readiness并继续其他有用路线。期望收益：得到独立于自写CG代码的数学producer交叉核验；不会增加独立实验数，也不证明RU09实际采用某套公式、未取得的review脚注或2023勘误内容。
+
+固定spin路径和相位映射后才冻结数值输入，不以output调整phase逼合。pure limits不足以验证干涉；需mixed/role变化、无观测中间radiation及polarized符号控制。若发现不一致，保留首失败和代码locator，先检查定义/输入对象，不先宣布外部code错。

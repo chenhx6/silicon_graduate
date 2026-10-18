@@ -1,0 +1,29 @@
+{
+  "at": "2026-10-18T16:38:19.084122+08:00",
+  "results": [
+    {
+      "name": "datacite",
+      "url": "https://api.datacite.org/dois?query=titles.title%3AHochspin%20AND%20creators.name%3AFlecken&page%5Bsize%5D=10",
+      "status": 200,
+      "sha256": "0931e94671d01a1944a34ac91f16d6efdad31ba2448d8ee063812595664d5a38",
+      "data": {
+        "meta": {
+          "total": 0,
+          "totalPages": 0,
+          "page": 1
+        },
+        "data": []
+      }
+    },
+    {
+      "name": "archive",
+      "url": "https://archive.org/advancedsearch.php?q=%22J%C3%BCl-Spez%22+AND+458&output=json",
+      "error": "ConnectionErrorHTTPSConnectionPool(host='archive.org', port=443): Max retries exceeded with url: /advancedsearch.php?q=%22J%C3%BCl-Spez%22+AND+458&output=json (Caused by NewConnectionError(\"HTTPSConnection(host='archive.org', port=443)"
+    },
+    {
+      "name": "books",
+      "url": "https://www.googleapis.com/books/v1/volumes?q=%22Untersuchung+zum+Zerfall%22&maxResults=10",
+      "error": "ConnectionErrorHTTPSConnectionPool(host='www.googleapis.com', port=443): Max retries exceeded with url: /books/v1/volumes?q=%22Untersuchung+zum+Zerfall%22&maxResults=10 (Caused by NewConnectionError(\"HTTPSConnection(host='www.googleapi"
+    }
+  ]
+}

@@ -1,0 +1,124 @@
+{
+  "at": "2026-10-18T16:47:05.760260+08:00",
+  "report": {
+    "valid": true,
+    "missing_headings": []
+  },
+  "coverage": {
+    "valid": true,
+    "completed_day_indices": [
+      16
+    ],
+    "partial_day_indices": [
+      17
+    ],
+    "curriculum_cards_completed": 1,
+    "next_day_index": 17,
+    "error": null
+  },
+  "writeback_original": {
+    "valid": true,
+    "mode": "updated",
+    "knowledge_paths": [
+      "knowledge/research-notes/w178-921-dco-gate-double-solutions.md",
+      "knowledge/sources/kramer-flecken-1989-use-dco-ratios.md",
+      "knowledge/sources/droste-1996-pdco-formalism.md",
+      "knowledge/sources/krane-steffen-1970-cd110-mixing-ratios.md",
+      "knowledge/sources/rose-brink-1967-phase-defined-angular-distributions.md",
+      "knowledge/sources/bargholtz-1987-high-spin-gamma-gamma-directional-correlations.md",
+      "knowledge/sources/nndc-2009-178w-dco-reference-records.md",
+      "knowledge/sources/kibedi-2008-evaluation-theoretical-conversion-coefficients-bricc.md",
+      "knowledge/sources/purry-1997-phd-w178-multiparticle-structure.md",
+      "knowledge/methods/dco-ratio.md",
+      "knowledge/methods/dco-pdco-ambiguity-worksheet.md",
+      "knowledge/index.md",
+      "knowledge/methods/angular-correlation.md",
+      "knowledge/sources/konigshofen-2001-mixing-ratios-130ba.md",
+      "knowledge/methods/internal-conversion-analysis.md",
+      "knowledge/methods/angular-distribution.md",
+      "knowledge/sources/schmid-1998-gammasphere-polarization.md",
+      "knowledge/methods/compton-polarimetry.md",
+      "knowledge/methods/linear-polarization-asymmetry.md"
+    ],
+    "changed_paths": [
+      "knowledge/index.md",
+      "knowledge/methods/angular-correlation.md",
+      "knowledge/methods/angular-distribution.md",
+      "knowledge/methods/compton-polarimetry.md",
+      "knowledge/methods/dco-pdco-ambiguity-worksheet.md",
+      "knowledge/methods/dco-ratio.md",
+      "knowledge/methods/internal-conversion-analysis.md",
+      "knowledge/methods/linear-polarization-asymmetry.md",
+      "knowledge/research-notes/w178-921-dco-gate-double-solutions.md",
+      "knowledge/sources/bargholtz-1987-high-spin-gamma-gamma-directional-correlations.md",
+      "knowledge/sources/kibedi-2008-evaluation-theoretical-conversion-coefficients-bricc.md",
+      "knowledge/sources/konigshofen-2001-mixing-ratios-130ba.md",
+      "knowledge/sources/kramer-flecken-1989-use-dco-ratios.md",
+      "knowledge/sources/krane-steffen-1970-cd110-mixing-ratios.md",
+      "knowledge/sources/nndc-2009-178w-dco-reference-records.md",
+      "knowledge/sources/purry-1997-phd-w178-multiparticle-structure.md",
+      "knowledge/sources/schmid-1998-gammasphere-polarization.md"
+    ],
+    "change_check": "run-snapshot",
+    "error": null
+  },
+  "writeback_reopened": {
+    "valid": true,
+    "mode": "updated",
+    "knowledge_paths": [
+      "knowledge/research-notes/w178-921-dco-gate-double-solutions.md",
+      "knowledge/sources/kramer-flecken-1989-use-dco-ratios.md",
+      "knowledge/sources/droste-1996-pdco-formalism.md",
+      "knowledge/sources/krane-steffen-1970-cd110-mixing-ratios.md",
+      "knowledge/sources/rose-brink-1967-phase-defined-angular-distributions.md",
+      "knowledge/sources/bargholtz-1987-high-spin-gamma-gamma-directional-correlations.md",
+      "knowledge/sources/nndc-2009-178w-dco-reference-records.md",
+      "knowledge/sources/kibedi-2008-evaluation-theoretical-conversion-coefficients-bricc.md",
+      "knowledge/sources/purry-1997-phd-w178-multiparticle-structure.md",
+      "knowledge/methods/dco-ratio.md",
+      "knowledge/methods/dco-pdco-ambiguity-worksheet.md",
+      "knowledge/index.md",
+      "knowledge/methods/angular-correlation.md",
+      "knowledge/sources/konigshofen-2001-mixing-ratios-130ba.md",
+      "knowledge/methods/internal-conversion-analysis.md",
+      "knowledge/methods/angular-distribution.md",
+      "knowledge/sources/schmid-1998-gammasphere-polarization.md",
+      "knowledge/methods/compton-polarimetry.md",
+      "knowledge/methods/linear-polarization-asymmetry.md"
+    ],
+    "changed_paths": [
+      "knowledge/methods/dco-pdco-ambiguity-worksheet.md",
+      "knowledge/research-notes/w178-921-dco-gate-double-solutions.md",
+      "knowledge/sources/kramer-flecken-1989-use-dco-ratios.md",
+      "knowledge/sources/krane-steffen-1970-cd110-mixing-ratios.md"
+    ],
+    "change_check": "run-snapshot",
+    "error": null
+  },
+  "required_check_exit_codes": {
+    "boundary": 0,
+    "lint": 0,
+    "git_diff_check": 0
+  },
+  "warnings": 150,
+  "errors": 0,
+  "protected_inherited_dirty": {
+    "outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/completion-audit.json": true,
+    "outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/progress.jsonl": true,
+    "outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/research-checkpoint.json": true,
+    "outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/run.json": true,
+    "outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/schedule-resume-process.log": true,
+    "outputs/learning-daily/20261008-DAY9-be2-bm1-reduced-matrix-elements-strengths-run-01/run.json": true,
+    "outputs/learning-daily/20261008-clock-reminder-delivery-fix-run-01/repair-receipt.json": true,
+    "outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity-run-01/run.json": true,
+    "outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/run.json": true,
+    "outputs/learning-daily/20261016-DAY15-ado-angular-distribution-geometry-run-01/run.json": true,
+    "outputs/learning-daily/prompt-maintenance/20261016-day15-consolidation.json": true,
+    "system/log.md": true,
+    "system/scripts/run_daily_learning_daemon.py": true
+  },
+  "protected_plan_bib": {
+    "PLAN.md": true,
+    "raw/zotero/wiki-inbox.bib": true
+  }
+}

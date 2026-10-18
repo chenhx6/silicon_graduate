@@ -242,3 +242,7 @@ P97-8为更直接的真实反证：290KICC及time/低能符合将旧约3525、I1
 - [[krane-steffen-1970-cd110-mixing-ratios]] KS70-5/6/7/13：单位、先后角色、BR身份和归一相位桥。
 - [[nndc-2009-178w-dco-reference-records]] N178-2/3/4/5/6/7/8/9/10：评价系数、空MR/CC栏、RI角度/精度与same-parent条件包。
 - [[purry-1997-phd-w178-multiparticle-structure]] P97-2/3/4/5/7/8/10：原电子测量合同、原K表、AD estimator、后续赋值反证及实际权重缺口。
+
+## DCOMAP原件的新定位：Jül-Spez458
+
+用户恢复Day16后实际取得德国国家图书馆两页目录，[[kramer-flecken-1989-use-dco-ratios]] KF89-21确认Kr88是Andreas Krämer-Flecken/Bonn1988/Jül-Spez458，并定位原论文printed46的Sec3.2 DCO。**目录不是正文**；Gaussian指数/width、DCOMAP输入/代码和旧169参考的operator定义均未因此补齐。Jülich页面验证边界不绕过，Bonn精确repository查询未匹配；这是新增的可回访locator，不是新实验或producer重放。

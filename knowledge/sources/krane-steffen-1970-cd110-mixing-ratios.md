@@ -125,3 +125,21 @@ Fig5对应818.0keV的`2+(1475.7)→2+(657.7)`，gamma3/657.7（nominal658）是`
 TableIII的15行中8行为finite mixed ratio，7个pureE2限值保留∞（在文中dipole/quadrupole截断内）；M1百分比、natural Delta与eb/muN Delta都是同一delta的派生表，不独立计入likelihood。本任务按声明单位常数核8行，中央值/百分比与印刷精度一致；但若把所有尾随零都视为有效位，620.2keV的`delta error .50 → Delta_(eb/muN) error .95`严格rounding检验不闭合。原件已放大确认这两个数，未改数据/扩大容差；source没给其error rounding recipe或unrounded estimates，保留精度边界，不据此宣布原误差错误或给出新CI。
 
 885门只有两角的coverage、quoted errors主要受Compton background subtraction影响（printed731约5%说明），以及normalized coefficients/geometry correction共享的Cov均需保留。TableI/II与global delta相容性不能靠把所有derived列当独立测量来加强。
+
+## Day16恢复批次：完整相关网络与1505-keV参考角色
+
+本批来源前primed假设已冻结，随后重新核原件全部主线，重点放大printed732 TableI、733 TableII/Fig5及727–728 Eq10/11/17。以15个gamma编号和箭头端点重建选定网络；9个图示能级含无本表连接的tentative1473.2-keV0+，不是新完整评价。冻结输入`DAY16-KS70-NETWORK-1505-ROLE-REFERENCE-01`保留Fig5和TableIII的energy写法差别，不把图上整数/小数当新的测量精度。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+| --- | --- | --- | --- | --- | --- |
+| KS70-14 | TableI可逐格读出31个有向target/gate条目，按无向gamma对去重为26对；TableII四行均为已在TableI出现的gamma对。此count与abstract的25correlations口径未恢复，既不擅改作者数字，也不当作26/35个独立实验；885门只有两角的边界仍在。 | printed-network-identity-and-counting-boundary | direct-and-task-enumeration | printed732 TableI；printed733 TableII；printed724 abstract | true |
+| KS70-15 | gamma14=1505：Fig5的3+(2162.2)→2+(657.7)；下游gamma3=658是2+→0+，上游gamma8=764是5+(2926.6)→3+。TableII分别给1505–658的A22=−.403(.014)/A44=−.027(.020)及764–1505的−.184(.024)/−.031(.037)；同target的first/second角色要分别用Eq10/11，不能机械倒数或仅翻δ。 | measured-reference-role-identity | direct | printed733 TableII/Fig5；printed727 Eq10/11 | true |
+| KS70-16 | TableI同1505/658行A22=−.471(.010)，与TableII−.403(.014)中央差−.068，两个字面一倍quoted-margin区间不交；源文仍称总体内部相容。此处保存印刷差异，不虚构联合Cov/totalbudget或宣称原实验矛盾、哪种处理必然正确。 | direct-indirect-response-countercheck | direct-and-task-arithmetic | printed732 TableI gamma14/gamma3；printed733 TableII firstrow；printed731 internal-consistency discussion | true |
+| KS70-17 | 图示764到658有764–620–885–658、764–687–818–658、764–1505–658三条路径；707到658也有经678/885、744/818或1562的三路。未额外指定branch/gate时endpoint相关是路径加权和，不能任选一条未观测U链；当前输入无这些path weights。 | cascade-path-and-branch-boundary | direct-graph-and-derived | printed733 Fig5；printed728 Eq17；printed732 TableI gamma3/gamma8与gamma6/gamma3 | true |
+| KS70-18 | 放大Fig5确认2162.2等能级与所印620.2/686.8/763.9/1505.0不能全以0.1keV内的能差闭合，最大字面残差.5keV；TableIII还用686.6/1504.9等值。以箭头/编号/spin映射身份，保留两个energy层，不改原值、不补能量误差或重评能级。 | printed-drawing-precision-boundary | direct-and-task-arithmetic | printed733 Fig5/TableIII | true |
+
+新[计算程序](../../system/scripts/day16_ks70_network_reference_audit.py)使用先前已证明的KS70=D96发射坐标，复用同一F/CG底层，**不算独立producer实现**。同target1505的两种角色用不同二次型，TableII单A22给δ≈−3.45050或−.483082；在上游参考的A22预测分别约−.08660/−.20632，后一值落在其字面quoted区间。全部四项TableII marginalboxes交得δ约[−.495802,−.454731]，只是固定spin/已校正系数/截断的必要条件区间，不是新实验δ或CI，作者summary−.55(.10)不再作独立拟合输入。
+
+同样条件套TableI四项时无一倍margin共同交，不能强称四个central或marginalboxes都已被同δ复现。其764/1505 A44中央−.047在此模型全δ范围[−.01360544,0]外，quotedbox上端−.014也略低于该下界；这是一项打印输入/声明条件的未闭合，非统计排除源的全实验结果。缺原counts/background/response与完整Σ，不自由调误差、分支或相位补闭合。
+
+首run在任何反演前因图示能差0.11keV守卫失败；放大原图确认这是源所印数值，并非OCR错读。最终保留能差residual ledger而不把drawing当精密能量fit；相同冻结数据未修改。two-role directphoton/F核对误差1.12e−15以内，只证明本任务代数相容。决定`supports`用上/下游匹配reference和多rank共同约束；`limits`仅凭“25consistent”摘要恢复全likelihood或忽略direct/indirect口径。新claims true；所有旧flags/review保留。

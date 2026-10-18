@@ -6,7 +6,15 @@ updated: 2026-10-18
 
 # 跨会话交接
 
-## Active handoff — DAY16 completed; Day17 is next
+## Active handoff — DAY16 user-resumed original study window
+
+2026-10-18T16:31:18.642920+08:00：用户明确恢复持续学习，同run2026-10-18-day-16-01/session01a14ce6-425e-77c1-a127-2ac980bd76b5，原2026-10-19 15:00上海研究截止不变，15–16点收束。此前completed/closeout-only已被本次用户指令覆盖；前次成果/发布历史保留，next17/count16、completed16/partial17不重复计卡，不开Day18。Farmer PID42019 running保留，无新session/daemon/nativegoal；用户/goal resume已恢复原生goal为active，保留原objective并持续pursuing。
+
+恢复checkpoint007已把Jül-Spez458目录/DCO46页取证、KS70 actual15gamma/31cells/26pairs和1505上下游reference/两支、direct-indirect未闭合写canonical。fresh boundary/lint/diff0、0error/150warnings，累计17changed/17writeback；旧raw/PLAN/Bib/reviews及继承dirty保护。稳定指针main / `Extend DAY16 with Cd110 reference-role and network audits`，exacthash/actualH3/push只runreceipt。下一路线ALPACA固定commit公开code-object构建/phase-role交叉核验已primedfreeze，尚未build；不当DCOMAP/原实验producer或新增独立实验。研究/goal持续active至原deadline，不因该checkpoint停止。
+
+恢复baseline/冻结/输入/结果/continuation均在原18日run-dir；日报固定17日文件名、唯一writeback沿用。新checkpoint显式manifest007+，log仅ownentry，H3/Gitee非force发布。
+
+## Previous active handoff — DAY16 completed; Day17 is next
 
 Run2026-10-18-day-16-01/session01a14ce6-425e-77c1-a127-2ac980bd76b5。科学研究于2026-10-18T13:36:07+08:00提前收束，距原2026-10-19 15:00上海deadline仍1523.88min；原截止不改、不是userstop/截止已到。candidate-refresh007重建continuityW178/相位、novelty独立130Ba与恰好partial17知识池，matrix17再次检查后按source/data-boundary停止；不声称全部合法路线穷尽。之后closeout-only，不自动重开研究。Resume `codex resume 01a14ce6-425e-77c1-a127-2ac980bd76b5 -C /workspace/wiki -s danger-full-access -a never`供本日讨论。
 

@@ -1,11 +1,5 @@
-# Day16完成后的讨论/对账续接
+# Day16同会话持续学习
 
-Run2026-10-18-day-16-01，session01a14ce6-425e-77c1-a127-2ac980bd76b5。命令：`codex resume 01a14ce6-425e-77c1-a127-2ac980bd76b5 -C /workspace/wiki -s danger-full-access -a never`。
+用户已明确恢复研究，继续本run/session至原2026-10-19T15:00:00+08:00；15–16点收束。不要执行旧completed/closeout-only指令；先核当前clock，保留Day16学分一次、Day17仅partial，禁止Day18。当前新route：Juel-Spez-458 Krämer-Flecken1988thesis原DCOMAP定义；freeze与baseline见reopened-*001。原始raw/PLAN/Bib和继承dirty保护。日报固定20261017文件名，所有增量canonical写回并延伸现有唯一writeback。新checkpoint发布从007编号；不要重复计卡/新session/daemon或重跑终态失败填时段。
 
-Day16completed，只计一次next17/count16，completed[16]/partial[17]。科学提前停止的原clock/候选池/剩余input边界见candidate-refresh007与日报；原2026-10-19 15:00上海截止未改。若run.json是completed，只交付/讨论已得结果，不自动恢复研究、不重计学分。若final-not-pushed，只续接安全的必要发布/回执，不开新科学source。
-
-Science release005实际Gitee成功；最终course/receipt主题`Complete DAY16 card and reconcile course state`，H3/实际hash/远端结果只见publication006/runreceipt。继承dirty/raw/PLAN/Bib/credentials/review保护，log只隔离taskentry，不force或改凭据/SSL。原runner成功退出未观察，manualreconciliation与实际事件分开。
-
-下一正式prompt：outputs/learning-daily/prompts/20261019-DAY17-linear-polarization-paq-compton.md。它仅准备新session，不启动学习/调度。Day16已作SG98真数据P/A/Q无学分preview；正式17需自己的带priming说明的新回忆与逐卡实际交付。无formal17或Day18。
-
-Canonical核心是knowledge/research-notes/w178-921-dco-gate-double-solutions.md及日报唯一writeback所列16知识页；source/角色/相位/真实反证与actualCov/producer边界保持。新实验δ/Jpi/B/模式或L4fit均未声称。
+原生goal由用户/goal resume恢复为active；现有objective已覆盖任务不必重建。保持pursuing，单个checkpoint/文献完成不调用complete。原deadline15:00后完成closeout必要交付才可最终结束。

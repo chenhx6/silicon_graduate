@@ -1,0 +1,766 @@
+{
+  "identity": "DAY16-KS70-NETWORK-1505-ROLE-REFERENCE-01",
+  "source": "knowledge/sources/krane-steffen-1970-cd110-mixing-ratios.md",
+  "raw_sha256": "ab82cb483425ba984a8c30b35f118b4713e186d53899fcbbba6a19dd444377f1",
+  "locators": [
+    "printed733 Fig5",
+    "printed732 TableI",
+    "printed733 TableII",
+    "printed727 Eq10",
+    "printed727 Eq11",
+    "printed728 Eq17"
+  ],
+  "levels": [
+    {
+      "id": "L0",
+      "energy_keV_fig5": 0.0,
+      "spin": 0,
+      "parity": "+"
+    },
+    {
+      "id": "L658",
+      "energy_keV_fig5": 657.7,
+      "spin": 2,
+      "parity": "+"
+    },
+    {
+      "id": "L1473",
+      "energy_keV_fig5": 1473.2,
+      "spin": 0,
+      "parity": "+"
+    },
+    {
+      "id": "L1476",
+      "energy_keV_fig5": 1475.7,
+      "spin": 2,
+      "parity": "+"
+    },
+    {
+      "id": "L1542",
+      "energy_keV_fig5": 1542.4,
+      "spin": 4,
+      "parity": "+"
+    },
+    {
+      "id": "L2162",
+      "energy_keV_fig5": 2162.2,
+      "spin": 3,
+      "parity": "+"
+    },
+    {
+      "id": "L2220",
+      "energy_keV_fig5": 2219.9,
+      "spin": 4,
+      "parity": "+"
+    },
+    {
+      "id": "L2480",
+      "energy_keV_fig5": 2479.9,
+      "spin": 6,
+      "parity": "+"
+    },
+    {
+      "id": "L2927",
+      "energy_keV_fig5": 2926.6,
+      "spin": 5,
+      "parity": "+"
+    }
+  ],
+  "transitions": [
+    {
+      "id": 1,
+      "nominal_keV": 447,
+      "fig5_energy_keV": 446.8,
+      "parent": "L2927",
+      "daughter": "L2480",
+      "multipoles": "M1/E2",
+      "energy_boundary": "Fig5 rounding differs TableIII; identity is gamma index and endpoints."
+    },
+    {
+      "id": 2,
+      "nominal_keV": 620,
+      "fig5_energy_keV": 620.2,
+      "parent": "L2162",
+      "daughter": "L1542",
+      "multipoles": "M1/E2",
+      "energy_boundary": "Fig5 rounding differs TableIII; identity is gamma index and endpoints."
+    },
+    {
+      "id": 3,
+      "nominal_keV": 658,
+      "fig5_energy_keV": 657.7,
+      "parent": "L658",
+      "daughter": "L0",
+      "multipoles": "E2",
+      "energy_boundary": "Fig5 rounding differs TableIII; identity is gamma index and endpoints."
+    },
+    {
+      "id": 4,
+      "nominal_keV": 678,
+      "fig5_energy_keV": 677.6,
+      "parent": "L2220",
+      "daughter": "L1542",
+      "multipoles": "M1/E2",
+      "energy_boundary": "Fig5 rounding differs TableIII; identity is gamma index and endpoints."
+    },
+    {
+      "id": 5,
+      "nominal_keV": 687,
+      "fig5_energy_keV": 686.8,
+      "parent": "L2162",
+      "daughter": "L1476",
+      "multipoles": "M1/E2",
+      "energy_boundary": "Fig5 rounding differs TableIII; identity is gamma index and endpoints."
+    },
+    {
+      "id": 6,
+      "nominal_keV": 707,
+      "fig5_energy_keV": 706.7,
+      "parent": "L2927",
+      "daughter": "L2220",
+      "multipoles": "M1/E2",
+      "energy_boundary": "Fig5 rounding differs TableIII; identity is gamma index and endpoints."
+    },
+    {
+      "id": 7,
+      "nominal_keV": 744,
+      "fig5_energy_keV": 744.2,
+      "parent": "L2220",
+      "daughter": "L1476",
+      "multipoles": "E2",
+      "energy_boundary": "Fig5 rounding differs TableIII; identity is gamma index and endpoints."
+    },
+    {
+      "id": 8,
+      "nominal_keV": 764,
+      "fig5_energy_keV": 763.9,
+      "parent": "L2927",
+      "daughter": "L2162",
+      "multipoles": "E2",
+      "energy_boundary": "Fig5 rounding differs TableIII; identity is gamma index and endpoints."
+    },
+    {
+      "id": 9,
+      "nominal_keV": 818,
+      "fig5_energy_keV": 818.0,
+      "parent": "L1476",
+      "daughter": "L658",
+      "multipoles": "M1/E2",
+      "energy_boundary": "Fig5 rounding differs TableIII; identity is gamma index and endpoints."
+    },
+    {
+      "id": 10,
+      "nominal_keV": 885,
+      "fig5_energy_keV": 884.7,
+      "parent": "L1542",
+      "daughter": "L658",
+      "multipoles": "E2",
+      "energy_boundary": "Fig5 rounding differs TableIII; identity is gamma index and endpoints."
+    },
+    {
+      "id": 11,
+      "nominal_keV": 937,
+      "fig5_energy_keV": 937.5,
+      "parent": "L2480",
+      "daughter": "L1542",
+      "multipoles": "E2",
+      "energy_boundary": "Fig5 rounding differs TableIII; identity is gamma index and endpoints."
+    },
+    {
+      "id": 12,
+      "nominal_keV": 1384,
+      "fig5_energy_keV": 1384.3,
+      "parent": "L2927",
+      "daughter": "L1542",
+      "multipoles": "M1/E2",
+      "energy_boundary": "Fig5 rounding differs TableIII; identity is gamma index and endpoints."
+    },
+    {
+      "id": 13,
+      "nominal_keV": 1476,
+      "fig5_energy_keV": 1475.7,
+      "parent": "L1476",
+      "daughter": "L0",
+      "multipoles": "E2",
+      "energy_boundary": "Fig5 rounding differs TableIII; identity is gamma index and endpoints."
+    },
+    {
+      "id": 14,
+      "nominal_keV": 1505,
+      "fig5_energy_keV": 1505.0,
+      "parent": "L2162",
+      "daughter": "L658",
+      "multipoles": "M1/E2",
+      "energy_boundary": "Fig5 rounding differs TableIII; identity is gamma index and endpoints."
+    },
+    {
+      "id": 15,
+      "nominal_keV": 1562,
+      "fig5_energy_keV": 1562.2,
+      "parent": "L2220",
+      "daughter": "L658",
+      "multipoles": "E2",
+      "energy_boundary": "Fig5 rounding differs TableIII; identity is gamma index and endpoints."
+    }
+  ],
+  "tableI_cells": [
+    {
+      "target": 1,
+      "gate": 3,
+      "A22_printed": [
+        0.23,
+        0.2
+      ],
+      "A44_printed": [
+        -0.01,
+        0.29
+      ],
+      "angle_coverage_deg": [
+        90,
+        135,
+        180
+      ]
+    },
+    {
+      "target": 1,
+      "gate": 10,
+      "A22_printed": [
+        0.21,
+        0.22
+      ],
+      "A44_printed": null,
+      "angle_coverage_deg": [
+        90,
+        180
+      ]
+    },
+    {
+      "target": 1,
+      "gate": 11,
+      "A22_printed": [
+        0.2,
+        0.15
+      ],
+      "A44_printed": [
+        0.02,
+        0.18
+      ],
+      "angle_coverage_deg": [
+        90,
+        135,
+        180
+      ]
+    },
+    {
+      "target": 2,
+      "gate": 3,
+      "A22_printed": [
+        0.42,
+        0.4
+      ],
+      "A44_printed": [
+        -0.18,
+        0.59
+      ],
+      "angle_coverage_deg": [
+        90,
+        135,
+        180
+      ]
+    },
+    {
+      "target": 2,
+      "gate": 8,
+      "A22_printed": [
+        0.04,
+        0.105
+      ],
+      "A44_printed": [
+        -0.05,
+        0.103
+      ],
+      "angle_coverage_deg": [
+        90,
+        135,
+        180
+      ]
+    },
+    {
+      "target": 2,
+      "gate": 10,
+      "A22_printed": [
+        0.4,
+        0.15
+      ],
+      "A44_printed": null,
+      "angle_coverage_deg": [
+        90,
+        180
+      ]
+    },
+    {
+      "target": 3,
+      "gate": 8,
+      "A22_printed": [
+        0.05,
+        0.028
+      ],
+      "A44_printed": [
+        0.001,
+        0.035
+      ],
+      "angle_coverage_deg": [
+        90,
+        135,
+        180
+      ]
+    },
+    {
+      "target": 3,
+      "gate": 10,
+      "A22_printed": [
+        0.102,
+        0.011
+      ],
+      "A44_printed": null,
+      "angle_coverage_deg": [
+        90,
+        180
+      ]
+    },
+    {
+      "target": 3,
+      "gate": 11,
+      "A22_printed": [
+        0.097,
+        0.025
+      ],
+      "A44_printed": [
+        0.025,
+        0.035
+      ],
+      "angle_coverage_deg": [
+        90,
+        135,
+        180
+      ]
+    },
+    {
+      "target": 4,
+      "gate": 3,
+      "A22_printed": [
+        0.25,
+        0.091
+      ],
+      "A44_printed": [
+        -0.066,
+        0.12
+      ],
+      "angle_coverage_deg": [
+        90,
+        135,
+        180
+      ]
+    },
+    {
+      "target": 4,
+      "gate": 10,
+      "A22_printed": [
+        0.241,
+        0.046
+      ],
+      "A44_printed": null,
+      "angle_coverage_deg": [
+        90,
+        180
+      ]
+    },
+    {
+      "target": 5,
+      "gate": 3,
+      "A22_printed": [
+        -0.06,
+        0.26
+      ],
+      "A44_printed": [
+        0.03,
+        0.34
+      ],
+      "angle_coverage_deg": [
+        90,
+        135,
+        180
+      ]
+    },
+    {
+      "target": 5,
+      "gate": 8,
+      "A22_printed": [
+        -0.233,
+        0.05
+      ],
+      "A44_printed": [
+        -0.094,
+        0.065
+      ],
+      "angle_coverage_deg": [
+        90,
+        135,
+        180
+      ]
+    },
+    {
+      "target": 6,
+      "gate": 3,
+      "A22_printed": [
+        -0.283,
+        0.08
+      ],
+      "A44_printed": [
+        -0.076,
+        0.133
+      ],
+      "angle_coverage_deg": [
+        90,
+        135,
+        180
+      ]
+    },
+    {
+      "target": 6,
+      "gate": 10,
+      "A22_printed": [
+        -0.339,
+        0.05
+      ],
+      "A44_printed": null,
+      "angle_coverage_deg": [
+        90,
+        180
+      ]
+    },
+    {
+      "target": 7,
+      "gate": 3,
+      "A22_printed": [
+        0.1,
+        0.4
+      ],
+      "A44_printed": [
+        -0.07,
+        0.54
+      ],
+      "angle_coverage_deg": [
+        90,
+        135,
+        180
+      ]
+    },
+    {
+      "target": 8,
+      "gate": 3,
+      "A22_printed": [
+        0.064,
+        0.04
+      ],
+      "A44_printed": [
+        -0.027,
+        0.043
+      ],
+      "angle_coverage_deg": [
+        90,
+        135,
+        180
+      ]
+    },
+    {
+      "target": 8,
+      "gate": 10,
+      "A22_printed": [
+        -0.073,
+        0.102
+      ],
+      "A44_printed": null,
+      "angle_coverage_deg": [
+        90,
+        180
+      ]
+    },
+    {
+      "target": 9,
+      "gate": 3,
+      "A22_printed": [
+        0.481,
+        0.082
+      ],
+      "A44_printed": [
+        0.155,
+        0.112
+      ],
+      "angle_coverage_deg": [
+        90,
+        135,
+        180
+      ]
+    },
+    {
+      "target": 9,
+      "gate": 8,
+      "A22_printed": [
+        0.032,
+        0.05
+      ],
+      "A44_printed": [
+        0.018,
+        0.056
+      ],
+      "angle_coverage_deg": [
+        90,
+        135,
+        180
+      ]
+    },
+    {
+      "target": 10,
+      "gate": 3,
+      "A22_printed": [
+        0.098,
+        0.013
+      ],
+      "A44_printed": [
+        0.016,
+        0.016
+      ],
+      "angle_coverage_deg": [
+        90,
+        135,
+        180
+      ]
+    },
+    {
+      "target": 10,
+      "gate": 8,
+      "A22_printed": [
+        0.201,
+        0.1
+      ],
+      "A44_printed": [
+        0.018,
+        0.13
+      ],
+      "angle_coverage_deg": [
+        90,
+        135,
+        180
+      ]
+    },
+    {
+      "target": 10,
+      "gate": 11,
+      "A22_printed": [
+        0.102,
+        0.016
+      ],
+      "A44_printed": [
+        0.028,
+        0.02
+      ],
+      "angle_coverage_deg": [
+        90,
+        135,
+        180
+      ]
+    },
+    {
+      "target": 11,
+      "gate": 3,
+      "A22_printed": [
+        0.102,
+        0.018
+      ],
+      "A44_printed": [
+        0.015,
+        0.025
+      ],
+      "angle_coverage_deg": [
+        90,
+        135,
+        180
+      ]
+    },
+    {
+      "target": 11,
+      "gate": 10,
+      "A22_printed": [
+        0.098,
+        0.01
+      ],
+      "A44_printed": null,
+      "angle_coverage_deg": [
+        90,
+        180
+      ]
+    },
+    {
+      "target": 12,
+      "gate": 3,
+      "A22_printed": [
+        -0.308,
+        0.02
+      ],
+      "A44_printed": [
+        -0.018,
+        0.026
+      ],
+      "angle_coverage_deg": [
+        90,
+        135,
+        180
+      ]
+    },
+    {
+      "target": 12,
+      "gate": 10,
+      "A22_printed": [
+        -0.292,
+        0.012
+      ],
+      "A44_printed": null,
+      "angle_coverage_deg": [
+        90,
+        180
+      ]
+    },
+    {
+      "target": 13,
+      "gate": 8,
+      "A22_printed": [
+        0.017,
+        0.06
+      ],
+      "A44_printed": [
+        0.095,
+        0.078
+      ],
+      "angle_coverage_deg": [
+        90,
+        135,
+        180
+      ]
+    },
+    {
+      "target": 14,
+      "gate": 3,
+      "A22_printed": [
+        -0.471,
+        0.01
+      ],
+      "A44_printed": [
+        -0.04,
+        0.02
+      ],
+      "angle_coverage_deg": [
+        90,
+        135,
+        180
+      ]
+    },
+    {
+      "target": 14,
+      "gate": 8,
+      "A22_printed": [
+        -0.178,
+        0.026
+      ],
+      "A44_printed": [
+        -0.047,
+        0.033
+      ],
+      "angle_coverage_deg": [
+        90,
+        135,
+        180
+      ]
+    },
+    {
+      "target": 15,
+      "gate": 3,
+      "A22_printed": [
+        0.12,
+        0.05
+      ],
+      "A44_printed": [
+        0.04,
+        0.06
+      ],
+      "angle_coverage_deg": [
+        90,
+        135,
+        180
+      ]
+    }
+  ],
+  "tableII_direct": [
+    {
+      "first": 14,
+      "second": 3,
+      "A22": [
+        -0.403,
+        0.014
+      ],
+      "A44": [
+        -0.027,
+        0.02
+      ]
+    },
+    {
+      "first": 8,
+      "second": 14,
+      "A22": [
+        -0.184,
+        0.024
+      ],
+      "A44": [
+        -0.031,
+        0.037
+      ]
+    },
+    {
+      "first": 12,
+      "second": 10,
+      "A22": [
+        -0.281,
+        0.013
+      ],
+      "A44": [
+        -0.01,
+        0.019
+      ]
+    },
+    {
+      "first": 9,
+      "second": 3,
+      "A22": [
+        0.375,
+        0.05
+      ],
+      "A44": [
+        0.18,
+        0.05
+      ]
+    }
+  ],
+  "inverse_target": 14,
+  "inverse_reference_upstream": 8,
+  "inverse_reference_downstream": 3,
+  "source_summary_delta_1505": [
+    -0.55,
+    0.1
+  ],
+  "summary_delta_role": "comparison only, never likelihood input",
+  "mixed_intermediate_U": "sign-blind; path branch weights missing",
+  "experimental_covariance_known": false,
+  "inverse_meaning": "central quadratic roots and simultaneous quoted-margin preimages only; not a confidence fit",
+  "tableI_gate885_boundary": "only two-angle anisotropy measured; printed A22 not promoted into independently determined full A2; no invented A44=0",
+  "frozen_at": "2026-10-18T16:39:05.104114+08:00"
+}

@@ -1,0 +1,354 @@
+[
+  {
+    "id": "881391638",
+    "fields": {
+      "015": [
+        {
+          "a": "88,B48,0316",
+          "2": "dnb"
+        }
+      ],
+      "016": [
+        {
+          "2": "DE-101",
+          "a": "881391638"
+        }
+      ],
+      "020": [
+        {
+          "c": "kart. (Pr. nicht mitget.)"
+        }
+      ],
+      "035": [
+        {
+          "a": "(DE-599)DNB881391638"
+        },
+        {
+          "a": "(OCoLC)75051739"
+        }
+      ],
+      "040": [
+        {
+          "a": "1200",
+          "b": "ger",
+          "c": "DE-101",
+          "d": "0292"
+        }
+      ],
+      "041": [
+        {
+          "a": "ger"
+        }
+      ],
+      "044": [
+        {
+          "c": "XA-DE"
+        }
+      ],
+      "084": [
+        {
+          "a": "510",
+          "q": "DE-101",
+          "2": "sdnb"
+        }
+      ],
+      "088": [
+        {
+          "a": "Jül-Spez 458"
+        }
+      ],
+      "100": [
+        {
+          "8": "1\\p",
+          "0": "(DE-101)115879620X",
+          "a": "Krämer-Flecken, Andreas",
+          "e": "Verfasser",
+          "4": "aut",
+          "2": "gnd"
+        }
+      ],
+      "245": [
+        {
+          "a": "Untersuchung zum Zerfall von Hochspin-Isomeren in den W- und Os-Isotopen und Entwicklung von Programmen zur Steuerung der Experimentlogik und der Datenerfassung",
+          "c": "von Andreas Krämer-Flecken. [KfA, Kernforschungsanlage Jülich, GmbH, Inst. für Kernphysik]"
+        }
+      ],
+      "264": [
+        {
+          "a": "Jülich",
+          "b": "Zentralbibliothek d. Kernforschungsanlage",
+          "c": "1988"
+        }
+      ],
+      "300": [
+        {
+          "a": "123 S.",
+          "b": "graph. Darst.",
+          "c": "30 cm"
+        }
+      ],
+      "336": [
+        {
+          "a": "Text",
+          "b": "txt",
+          "2": "rdacontent"
+        }
+      ],
+      "337": [
+        {
+          "a": "ohne Hilfsmittel zu benutzen",
+          "b": "n",
+          "2": "rdamedia"
+        }
+      ],
+      "338": [
+        {
+          "a": "Band",
+          "b": "nc",
+          "2": "rdacarrier"
+        }
+      ],
+      "366": [
+        {
+          "c": "OP 20221008",
+          "2": "onixas"
+        }
+      ],
+      "500": [
+        {
+          "a": "Als Ms. gedr."
+        }
+      ],
+      "502": [
+        {
+          "a": "Zugl.: Bonn, Univ., Diss."
+        }
+      ],
+      "650": [
+        {
+          "a": "Wolframisotope",
+          "x": "Zerfall v. Hochspin-Isomeren",
+          "2": "local"
+        },
+        {
+          "a": "Osmiumisotope",
+          "2": "local"
+        },
+        {
+          "a": "Kernspektroskopie",
+          "x": "Zerfall v. Hochspin-Isomeren in W- u. Os-Isotopen",
+          "2": "local"
+        },
+        {
+          "8": "2\\p",
+          "0": "(DE-101)944502164",
+          "a": "Wolframion",
+          "2": "gnd"
+        },
+        {
+          "8": "3\\p",
+          "0": "(DE-101)042850665",
+          "a": "Osmiumisotop",
+          "2": "gnd"
+        },
+        {
+          "8": "4\\p",
+          "0": "(DE-101)041636333",
+          "a": "Kernspektroskopie",
+          "2": "gnd"
+        }
+      ],
+      "655": [
+        {
+          "0": "(DE-101)041139372",
+          "a": "Hochschulschrift",
+          "2": "gnd-content"
+        }
+      ],
+      "850": [
+        {
+          "a": "DE-101b"
+        }
+      ],
+      "856": [
+        {
+          "m": "B:DE-101",
+          "q": "application/pdf",
+          "u": "https://d-nb.info/881391638/04",
+          "3": "Inhaltsverzeichnis"
+        }
+      ],
+      "883": [
+        {
+          "8": "1\\p",
+          "a": "cgwrk",
+          "d": "20210314",
+          "q": "DE-101",
+          "u": "https://d-nb.info/provenance/plan#cgwrk"
+        },
+        {
+          "8": "2\\p",
+          "a": "kasw",
+          "c": "1,000",
+          "d": "20230820",
+          "q": "DE-101",
+          "u": "https://d-nb.info/provenance/plan#kasw"
+        },
+        {
+          "8": "3\\p",
+          "a": "kasw",
+          "c": "1,000",
+          "d": "20230820",
+          "q": "DE-101",
+          "u": "https://d-nb.info/provenance/plan#kasw"
+        },
+        {
+          "8": "4\\p",
+          "a": "kasw",
+          "c": "1,000",
+          "d": "20230820",
+          "q": "DE-101",
+          "u": "https://d-nb.info/provenance/plan#kasw"
+        }
+      ]
+    }
+  },
+  {
+    "id": "890076413",
+    "fields": {
+      "015": [
+        {
+          "a": "89,H01,0322",
+          "2": "dnb"
+        }
+      ],
+      "016": [
+        {
+          "2": "DE-101",
+          "a": "890076413"
+        }
+      ],
+      "035": [
+        {
+          "a": "(DE-599)DNB890076413"
+        },
+        {
+          "a": "(OCoLC)630550215"
+        },
+        {
+          "a": "(OCoLC)721505546"
+        }
+      ],
+      "040": [
+        {
+          "a": "1200",
+          "b": "ger",
+          "c": "DE-101",
+          "d": "0292"
+        }
+      ],
+      "041": [
+        {
+          "8": "1\\p",
+          "a": "ger"
+        }
+      ],
+      "044": [
+        {
+          "c": "XA-DE"
+        }
+      ],
+      "084": [
+        {
+          "a": "530",
+          "q": "DE-101",
+          "2": "sdnb"
+        }
+      ],
+      "100": [
+        {
+          "8": "2\\p",
+          "0": "(DE-101)115879620X",
+          "a": "Krämer-Flecken, Andreas",
+          "e": "Verfasser",
+          "4": "aut",
+          "2": "gnd"
+        }
+      ],
+      "245": [
+        {
+          "a": "Untersuchungen zum Zerfall von Hochspin-Isomeren in den W- und Os-Isotopen und Entwicklung von Programmen zur Steuerung der Experimentlogik und der Datenerfassung"
+        }
+      ],
+      "300": [
+        {
+          "a": "123 Bl.",
+          "b": "graph. Darst.",
+          "c": "30 cm"
+        }
+      ],
+      "336": [
+        {
+          "a": "Text",
+          "b": "txt",
+          "2": "rdacontent"
+        }
+      ],
+      "337": [
+        {
+          "a": "ohne Hilfsmittel zu benutzen",
+          "b": "n",
+          "2": "rdamedia"
+        }
+      ],
+      "338": [
+        {
+          "a": "Band",
+          "b": "nc",
+          "2": "rdacarrier"
+        }
+      ],
+      "502": [
+        {
+          "a": "Bonn, Univ., Diss., 1988 (Nicht f.d. Austausch)"
+        }
+      ],
+      "655": [
+        {
+          "0": "(DE-101)041139372",
+          "a": "Hochschulschrift",
+          "2": "gnd-content"
+        }
+      ],
+      "850": [
+        {
+          "a": "DE-101b"
+        }
+      ],
+      "856": [
+        {
+          "m": "B:DE-101",
+          "q": "application/pdf",
+          "u": "https://d-nb.info/890076413/04",
+          "3": "Inhaltsverzeichnis"
+        }
+      ],
+      "883": [
+        {
+          "8": "1\\p",
+          "a": "ka003lc",
+          "d": "20190828",
+          "q": "DE-101",
+          "u": "https://d-nb.info/provenance/plan#ka003lc"
+        },
+        {
+          "8": "2\\p",
+          "a": "cgwrk",
+          "d": "20210314",
+          "q": "DE-101",
+          "u": "https://d-nb.info/provenance/plan#cgwrk"
+        }
+      ]
+    }
+  }
+]

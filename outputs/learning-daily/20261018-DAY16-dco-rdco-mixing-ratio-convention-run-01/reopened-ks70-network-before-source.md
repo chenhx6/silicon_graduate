@@ -1,0 +1,7 @@
+# KS70完整相关网络：来源前假设冻结
+
+恢复批次已受原KS70 source页、Day15/16的818–658双解和885两角边界priming。旧818练习不作为新交付。新的问题是：原25个correlations具体连接哪些8条mixed transitions，哪些经过未观测中间gamma，以及哪项独立于818系数的同跃迁约束能消去一支？
+
+预测：纯E2参考把若干unknown隔离；mixed–mixed correlation与unobserved U提供不同函数，但同样本/同参考的数值仍有Cov。U只依赖delta平方可能不能判sign；数个处理配置不自动增加独立实验。必须从原Fig1/TableI/II的gamma编号、spin与门、A22/A44映射实际网络，不假称恢复原global likelihood。不预设network一定唯一；若公开表/图不足则以可核的局部子图和readiness边界收束本条，继续其他问题。
+
+新quantitative路线只使用原件实际数值和明确delta/phase定义作必要条件/中心值代数，不将quoted margins矩形说成confidence region，不拟造missingCov，不用TableIII summary再当独立输入。反证控制包括错误gate/physical gamma-order、pure limit sign盲区、intermediate U的符号不变，以及原文Compton校正前后数据身份。

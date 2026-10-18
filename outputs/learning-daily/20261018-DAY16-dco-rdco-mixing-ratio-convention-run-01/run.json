@@ -20,7 +20,7 @@
   "session_reuse": false,
   "session_scope": "one-new-session-for-each-schedule-run",
   "codex_home": "/root/.codex",
-  "status": "completed",
+  "status": "running",
   "started_at": "2026-10-18T10:45:14.763821+08:00",
   "report": "/workspace/wiki/outputs/learning-daily/20261017-DAY16-dco-rdco-mixing-ratio-convention.md",
   "completed_day_indices": [
@@ -81,18 +81,24 @@
       "subject": "Finalize DAY16 evidence and uncredited Day17 polarimetry preview",
       "commit_hash": "82167f9dc37a73a596775fd6eb7e28f13f79ab29",
       "outcome": "pushed"
+    },
+    {
+      "receipt": "outputs/learning-daily/20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/publication-006.json",
+      "subject": "Complete DAY16 card and reconcile course state",
+      "commit_hash": "48c938e3618eaa8c2a074504fa68c017ce3b8f9d",
+      "outcome": "pushed"
     }
   ],
-  "last_checkpoint": "final",
-  "last_verification": "outputs/learning-daily/20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/verification-checkpoint-008.json",
-  "knowledge_writeback_items": 16,
-  "last_learning_summary": "Independent130Ba three-angle source confirms conditional branch selection, shared90 covariance and40rows/18finite scope; W178 primary/calibration and true counter-evidence preserved.",
-  "knowledge_changed_pages": 16,
+  "last_checkpoint": "reopened-001",
+  "last_verification": "verification-reopened-001.json",
+  "knowledge_writeback_items": 17,
+  "last_learning_summary": "新DNB定位Jül-Spez458的DCO46页但body未得；KS70实际15gamma/31cells/26pairs、1505上下游reference及direct/indirect未闭合canonical。",
+  "knowledge_changed_pages": 17,
   "uncredited_day17_preview_started": true,
   "preview_time_gate": "outputs/learning-daily/20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/day17-preview-time-gate.json",
-  "current_research_route": "New public repository discovery for NRF reviewfootnote/corrigendum, not publisherrepeat",
-  "research_status": "stopped-source-data-boundary-after-schedule-pool-and-next-card-audit",
-  "research_stopped_at": "2026-10-18T13:36:07+08:00",
+  "current_research_route": "新ALPACA固定公开代码对象的合法本地构建/phase角色交叉核验；不是DCOMAP或原实验producer",
+  "research_status": "active-user-resumed-original-window",
+  "research_stopped_at": null,
   "original_minutes_to_deadline_at_research_stop": 1523.8833333333334,
   "early_stop_snapshot": "outputs/learning-daily/20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/candidate-refresh-007-closeout.json",
   "next_prompt": "outputs/learning-daily/prompts/20261019-DAY17-linear-polarization-paq-compton.md",
@@ -100,7 +106,7 @@
   "final_verification": "outputs/learning-daily/20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/final-verification.json",
   "runner_exit_observed": false,
   "completion_mode": "manual-reconciliation-after-verified-science-publication; runner final exit not observed",
-  "finished_at": "2026-10-18T13:47:41.079850+08:00",
+  "finished_at": null,
   "deliverables_passed": true,
   "curriculum_coverage": {
     "valid": true,
@@ -119,7 +125,7 @@
     "completed_day_count": 16
   },
   "course_state_counted_once": true,
-  "early_closeout": true,
+  "early_closeout": false,
   "deadline_reached": false,
   "final_release": {
     "branch": "main",
@@ -127,7 +133,7 @@
     "commit_hash": "82167f9dc37a73a596775fd6eb7e28f13f79ab29",
     "push_outcome": "pushed"
   },
-  "post_commit_reconciliation": "Actualsciencepublication005verified; courseadvancedonlyDay16, finalcourseandreceiptmatchreportandpreparedprompt. ExactfinalstatecommitH3/hash/outcome retainedonlyinthe corresponding publicationreceipt.",
+  "post_commit_reconciliation": "Completedreport, exactfinalcommitpaths, currentcourse17/count16, actualGiteeH3 and receipt agree; finalownhashonlyreceipt. Inheriteddirty preserved.",
   "final_receipt_commit_pointer": {
     "branch": "main",
     "subject": "Complete DAY16 card and reconcile course state"
@@ -145,5 +151,69 @@
     "decision": "continue-or-advance"
   },
   "closeout_window_used": "Earlysource/data-boundarycloseout, not claimednormal15–16 execution",
-  "schedule_session_index_event": "manual-run-completed-after-publication"
+  "schedule_session_index_event": "manual-run-completed-after-publication",
+  "final_receipt_publication": {
+    "branch": "main",
+    "subject": "Complete DAY16 card and reconcile course state",
+    "commit_hash": "48c938e3618eaa8c2a074504fa68c017ce3b8f9d",
+    "outcome": "pushed",
+    "origin_tracking_matches_HEAD": true
+  },
+  "goal_final_usage": {
+    "tokens_used": 2248168,
+    "elapsed_seconds": 11186,
+    "token_budget": null,
+    "basis": "Actual nativeupdate_goal completion result; executionmetadata, notscientific evidence"
+  },
+  "resumption_history": [
+    {
+      "at": "2026-10-18T16:31:18.642920+08:00",
+      "trigger": "用户：继续学习，一般情况下需要学习到次日下午3点前；farmer/go-on/all/auto持续Day16",
+      "previous": {
+        "status": "completed",
+        "research_status": "stopped-source-data-boundary-after-schedule-pool-and-next-card-audit",
+        "research_stopped_at": "2026-10-18T13:36:07+08:00",
+        "finished_at": "2026-10-18T13:47:41.079850+08:00",
+        "early_closeout": true,
+        "last_closeout_snapshot": {
+          "now_local": "2026-10-18T13:36:07+08:00",
+          "hard_deadline": "2026-10-19T15:00:00+08:00",
+          "next_scheduled_start": "2026-10-19T16:00:00+08:00",
+          "minutes_to_deadline": 1523.8833333333334,
+          "decision": "early-closeout-for-bounded-source-and-data-saturation",
+          "source": "manual clocktoolrefresh and rebuiltpool atresearchstop; not a forgedrunnerinjection",
+          "next_card_checked": 17,
+          "next_card_credited": false
+        },
+        "goal_status": "complete"
+      },
+      "credit_retained_once": [
+        16
+      ],
+      "uncredited_preview_retained": [
+        17
+      ],
+      "new_session_started": false,
+      "new_native_goal_created": false
+    }
+  ],
+  "last_runtime_snapshot": {
+    "now_local": "2026-10-18T16:31:18.642920+08:00",
+    "hard_deadline": "2026-10-19T15:00:00+08:00",
+    "minutes_to_deadline": 1348.6892846666667,
+    "source": "manualresume localclock after current-time tool; not runnerinjection",
+    "decision": "continue-current-high-information-route",
+    "next_card_checked": 17,
+    "next_card_credited": false
+  },
+  "goal_resumed_by_user_at": "2026-10-18T16:34:00+08:00 (approximate; exact server timestamp held by native goal)",
+  "goal_continuation_decision": {
+    "at": "2026-10-18T16:35:01.983591+08:00",
+    "user_instruction": "/goal resume后自行裁决是否改目标并保持pursuing goal，无需询问",
+    "decision": "retain existing objective; pursue active goal until original research deadline, then closeout",
+    "objective_changed": false,
+    "status_observed": "active via get_goal",
+    "deadline": "2026-10-19T15:00:00+08:00",
+    "credit_policy": "Day16 kept once; partial17 only; no Day18"
+  }
 }

@@ -234,3 +234,18 @@ KS70 Eq9在electron-mass natural units给`delta=(sqrt3/10)k Delta_BM`。本任�
 - [[kramer-flecken-1989-use-dco-ratios]] KF89-9/10/11/13/14：原件分式与标签、同L/width/mixed-pair迁移边界。
 - [[angular-correlation]]与[[multipole-mixing-ratio]]：本页为条件方法练习，不替换其通用定义；跨文献算符/状态顺序仍须原文映射。
 - [脚本](../../system/scripts/day16_pdco_ambiguity_preview.py)、[冻结输入](../../outputs/learning-daily/20261016-DAY15-ado-angular-distribution-geometry-run-01/day16-pdco-point-model-input.json)、[完整模型与控制](../../outputs/learning-daily/20261016-DAY15-ado-angular-distribution-geometry-run-01/day16-pdco-ambiguity-preview.json)、[F基底核对](../../outputs/learning-daily/20261016-DAY15-ado-angular-distribution-geometry-run-01/day16-d96-derived-phase-map.json)。参数、证明、数据表和边界已在本页保存，不只留在outputs。
+
+## 同一mixed跃迁的上游与下游参考：1505-keV真实表值
+
+[[krane-steffen-1970-cd110-mixing-ratios]] KS70-15把1505-keV目标绑定到两个**不同物理发射角色**：`1505–658:3→2→0`与`764–1505:5→3→2`；source无取向，两角变量为opening angle，不是beamDCO交换角度比。δ用已核的KS70=D96发射坐标。以v=(1,δ)/sqrt(1+δ²)，四个系数均为vᵀMv：
+
+| target角色 | M2的(M1,M1)、offdiag、(E2,E2) | M4的(E2,E2)，其它为0 |
+| --- | --- | --- |
+| first：1505后接658 pureE2 | −1/14，+.3912303982，−10/49 | −4/49 |
+| second：764 pureE2后接1505 | −1/14，+.1956151991，+5/196 | −2/147 |
+
+不能把两角色当同一公式只交换能量标签；它们的linear interference和pureE2限值不同。TableII的first A22=−.403(.014)单项有δ=−3.4504955/−.4830819两根，预言second A22分别−.0865994/−.2063225；实测second为−.184(.024)，其字面区间已不含前者。first A44也可提供条件区分。TableII四项marginalboxes相交的δ约[−.4958020,−.4547305]**不是confidence interval**，不取代作者综合−.55(.10)，不以其再增一份数据。
+
+KS70-16保留同targetfirst的direct/indirect A22差−.068；TableI四项在相同forwardmodel下无一倍margin共同交。不能从无交直接判experiment错误或调Cov/误差逼合；完整producer、correctionrecipe和Σ未取到，两个configuration分开追踪。[相关程序](../../system/scripts/day16_ks70_network_reference_audit.py)只是本任务计算；实际路径为`system/scripts/day16_ks70_network_reference_audit.py`，输入/结果receipt保存sourcehash和phase依赖。
+
+KS70-17进一步提醒：例如764/658包含三条中间路径，公式应为`Ck=Bk(first) [sum_p w_p product_(u in p) Uk(u)] Ak(last)`，w是**在同一selection及响应下**的条件路径权重；不能任选branch，也不能用δ²导出的U来认定符号。原图各M1百分比是TableIII δ的派生量，不能代path强度。此边界不要求本任务编造missingbranchweights。

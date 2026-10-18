@@ -1,0 +1,138 @@
+{
+  "at": "2026-10-18T16:34:02.753230+08:00",
+  "results": [
+    {
+      "name": "dnb881toc",
+      "url": "https://d-nb.info/881391638/04",
+      "final_url": "https://d-nb.info/881391638/04",
+      "status": 200,
+      "bytes": 133979,
+      "sha256": "e7efc704bd296289a6f99566140784c01a4bce95d779f5c17df18020aaa0fd37",
+      "path": "tmp/day16-juel-discovery/dnb881toc.pdf",
+      "pdf_header": true
+    },
+    {
+      "name": "dnb890toc",
+      "url": "https://d-nb.info/890076413/04",
+      "final_url": "https://d-nb.info/890076413/04",
+      "status": 200,
+      "bytes": 141085,
+      "sha256": "366628ce2d21d6249565ef93f69334fde80d905c4a5f966e73b59ecdc11a07d7",
+      "path": "tmp/day16-juel-discovery/dnb890toc.pdf",
+      "pdf_header": true
+    },
+    {
+      "name": "bonndoc",
+      "url": "https://bonndoc.ulb.uni-bonn.de/xmlui/discover?query=Kr%C3%A4mer-Flecken",
+      "final_url": "https://bonndoc.ulb.uni-bonn.de/xmlui/discover?query=Kr%C3%A4mer-Flecken",
+      "status": 200,
+      "bytes": 39491,
+      "sha256": "fd6c8c14d7907f227013debf2edf77fbb9202d2639f03fb5e2847842a299f3a1",
+      "path": "tmp/day16-juel-discovery/bonndoc.html",
+      "pdf_header": false,
+      "excerpt": "Suche Toggle navigation Deutsch English Über bonndoc Leitlinien Deutsch Deutsch English Einloggen Toggle navigation Suche bonndoc Startseite Suche bonndoc Startseite Suche JavaScript is disabled for your browser. Some features of this site may not work without it. Suche Gesamter Bestand Angegliederte Institute, verbundene wissenschaftliche Einrichtungen Bonner Zentrum für Lehrerbildung (BZL) Bonn University Press Exzellenzcluster Fakultäten der Universität Bonn Interdisziplinäre Zentren Transdisziplinäre Forschungsbereiche (TRA) Universitätsverwaltung Weitere Einrichtungen Zentrale wissenschaftliche Einrichtungen Los Erweiterte Filter Erweiterte Filter ausblenden Filter Verwenden Sie Filter, um die Suchergebnisse zu verfeinern. Reset Add New Filter Anwenden Anzeige der Dokumente 1-10 von 102 Sortiermöglichkeiten: Relevanz Titel aufsteigend Titel absteigend Erscheinungsdatum aufsteigend Erscheinungsdatum absteigend Ergebnisse pro Seite: 5 10 20 40 60 80 100 Samenverzeichnis 2010: Seed list; Index seminum Lobin, Wolfram ( 2010-01 ) Warmhäuser Bernd Reinken \nFreiland 1 Stefan Giefer \nFreiland 2 Anett Krämer \n \n \nNutzpflanzengarten am Katzenburgweg:  \n \nTechnische Leitung Josef Manner (stellv. Technischer Leiter) \nGewächshäuser Thomas Niemz \n \n \nIndex Seminum \nErstellung & Versand: Anett... Krämer, Christian Kunath und Mitarbeiter \n \n \nRedaktion: Dr. Wolfram Lobin \n \n \nHerstellung: Digital-Druckerei der Universität Bonn \n Bonn, Januar 2010 \nSehr verehrte Kolleginnen und Kollegen, Januar 2010 \nliebe Freunde der Botanischen Gärten \nder... Samenverzeichnis 2021: Seed list; Index seminum Krämer , Anett ; Löhne, Cornelia ( 2021-01 ) . Maximilian Weigend \nStellv. Direktor: Prof. Dr. Ing. T. Kötter \nKustodin: Dr. Cornelia Löhne \nTechnischer Leiter: Markus Radscheit MSc. \n \n \nKalthäuser: Klaus-Jürgen Bahr \nWarmhäuser: Bernd Reinken \nFreiland 1: Stefan Giefer \nFreiland 2: Anett Krämer... Betriebstechnik: Werner Fischenich \nNutzpflanzengarten: Josef Manner \n \n \n \n \n \nIndex Seminum \nErstellung & Versand: Anett Krämer, Christian Kunath und Mitarbeiter \n \n \nRedaktion: Anett Krämer & Dr. Cornelia Löhne \n \nHerstellung: Digital-Druckerei der Universität... Kommunikation mittels selbst generierter elektrischer Signale innerhalb sozialer Gruppen des schwach elektrischen Fisches Mormyrus rume Gebhardt, Kristina ( 2012-12-04 ) marianne von Vorteil ist. Bei beiden \nArten basiert die Paarung auf insgesamt fünf knurrenden und grunzenden Tönen von \nArtgenossen (Crawford et al., 1986;",
+      "links": [
+        {
+          "text": "",
+          "href": "/xmlui/handle/20.500.11811/14587"
+        },
+        {
+          "text": "Samenverzeichnis 2010: Seed list; Index seminum",
+          "href": "/xmlui/handle/20.500.11811/14587"
+        },
+        {
+          "text": "",
+          "href": "/xmlui/handle/20.500.11811/12541"
+        },
+        {
+          "text": "Samenverzeichnis 2021: Seed list; Index seminum",
+          "href": "/xmlui/handle/20.500.11811/12541"
+        },
+        {
+          "text": "",
+          "href": "/xmlui/handle/20.500.11811/5423"
+        },
+        {
+          "text": "Kommunikation mittels selbst generierter elektrischer Signale innerhalb sozialer Gruppen des schwach elektrischen Fische",
+          "href": "/xmlui/handle/20.500.11811/5423"
+        },
+        {
+          "text": "",
+          "href": "/xmlui/handle/20.500.11811/11417"
+        },
+        {
+          "text": "Immuntherapie des hepatozellulären Karzinoms mit adenoviral transduzierten dendritischen Zellen und regulatorischem T-Ze",
+          "href": "/xmlui/handle/20.500.11811/11417"
+        },
+        {
+          "text": "",
+          "href": "/xmlui/handle/20.500.11811/4141"
+        },
+        {
+          "text": "Untersuchungen zur Adhäsionsdynamik migrierender Keratinozyten",
+          "href": "/xmlui/handle/20.500.11811/4141"
+        },
+        {
+          "text": "",
+          "href": "/xmlui/handle/20.500.11811/8636"
+        },
+        {
+          "text": "Bevölkerungsgeographische Untersuchung von Kleinstädten der Eifel: Ein Versuch zur Trend-Typisierung",
+          "href": "/xmlui/handle/20.500.11811/8636"
+        },
+        {
+          "text": "",
+          "href": "/xmlui/handle/20.500.11811/1204"
+        },
+        {
+          "text": "Untersuchungen zum Vorkommen von Mycotoxinen bei Auftreten der Rußfleckenkrankheit an Apfelfrüchten",
+          "href": "/xmlui/handle/20.500.11811/1204"
+        },
+        {
+          "text": "",
+          "href": "/xmlui/handle/20.500.11811/8638"
+        },
+        {
+          "text": "Historische Wirtschaftskarte der Rheinlande um 1820",
+          "href": "/xmlui/handle/20.500.11811/8638"
+        },
+        {
+          "text": "",
+          "href": "/xmlui/handle/20.500.11811/6795"
+        },
+        {
+          "text": "Studien zum zeichnerischen Werk Hermann Weyers",
+          "href": "/xmlui/handle/20.500.11811/6795"
+        },
+        {
+          "text": "",
+          "href": "/xmlui/handle/20.500.11811/8138"
+        },
+        {
+          "text": "Selbst- und Fremdeinschätzungen von politischen Fertigkeiten und die Vorhersage von Leistungsbeurteilungen",
+          "href": "/xmlui/handle/20.500.11811/8138"
+        },
+        {
+          "text": "",
+          "href": "discover?rpp=10&etal=0&query=Kr%C3%A4mer-Flecken&group_by=none&page=0"
+        },
+        {
+          "text": "1",
+          "href": "discover?rpp=10&etal=0&query=Kr%C3%A4mer-Flecken&group_by=none&page=1"
+        },
+        {
+          "text": "2",
+          "href": "discover?rpp=10&etal=0&query=Kr%C3%A4mer-Flecken&group_by=none&page=2"
+        },
+        {
+          "text": "3",
+          "href": "discover?rpp=10&etal=0&query=Kr%C3%A4mer-Flecken&group_by=none&page=3"
+        },
+        {
+          "text": "4",
+          "href": "discover?rpp=10&etal=0&query=Kr%C3%A4mer-Flecken&group_by=none&page=4"
+        }
+      ]
+    }
+  ]
+}

@@ -1829,3 +1829,8 @@ Run2026-10-16-day-15-01/session01a14510-aec7-7e00-aa23-f7c77a5124bc：07:28:56�
 ## 2026-10-18T13:49:29.829742+08:00 — DAY16 completion and course reconciliation
 
 Sciencepublication005 actualGitee成功后，依据validDay16audit/report/writeback/checks/nextprompt，仅把course由next16/count15推进next17/count16；completed16/partial17，无formal17/Day18。Runreceipt保存current session/resume、earlysource-data-boundary时间与manualreconciliation，normalrunnerexit未观察。科学release主题Finalize DAY16 evidence and uncredited Day17 polarimetry preview已发布；完成课程/回执stablepointermain / Complete DAY16 card and reconcile course state，exacthash/H3/push只receipt。之后只交付/讨论旧Day16，不重开/重计；raw/PLAN/Bib/review/credentials与继承dirty保留。
+
+
+## 2026-10-18T16:48:11.960721+08:00 — DAY16用户恢复checkpoint007：Cd110参考角色与原producer取证
+
+用户明确恢复原2026-10-19 15:00上海窗口、/goal resume恢复active；同run/session持续pursuing，既有Day16学分一次next17/count16、partial17不变。新DNB两页目录核Jül-Spez458/Bonn1988/Sec3.2从46页开始，body/DCOMAP仍未得。KS70原网络15gamma/31cells/26pairs、1505first/second两种reference与两个TableII候选canonical；direct/indirect字面一倍margin未闭合、图示energy残差.5keV保持，不造CI或新δ。fresh boundary/lint/diff0、0errors/150warnings，4newchanged/累计17writeback/17changed及继承保护通过。下一固定ALPACA code-object执行审计已primedfreeze，未称已build。稳定指针main / `Extend DAY16 with Cd110 reference-role and network audits`；actualH3/push/hash只本run publication007。研究继续，不以本checkpoint结束。

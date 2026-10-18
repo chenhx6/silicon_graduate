@@ -16,7 +16,7 @@ updated: 2026-10-18
 - session_id: `01a14ce6-425e-77c1-a127-2ac980bd76b5`
 - resume_command: `codex resume 01a14ce6-425e-77c1-a127-2ac980bd76b5 -C /workspace/wiki -s danger-full-access -a never`
 - original overnight_until: `2026-10-19T15:00:00+08:00`；15:00–16:00仅收束。
-- status: `completed`；科学研究按下述来源/数据边界提前收束，原deadline未到、未改；报告/检查/科学发布通过后仅对账Day16一次。
+- status: `running`；用户明确恢复原研究窗口，Day16已获学分保留一次，研究持续到2026-10-19 15:00上海；前次提前收束记录保留为历史。
 - completed_day_indices: [16]
 - partial_day_indices: [17]
 - Day 16 card audit: complete
@@ -24,6 +24,10 @@ updated: 2026-10-18
 原始回执为[run.json](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/run.json)，本次按用户指定固定日报路径保留文件名中的20261017；实际run_date与截止按runner注入的20261018回执，不从旧预备段落延长或缩短。课程已依据本session独立交付与实际publication005对账为next17/count16，只计Day16一次。Day15 partial16、旧分数、旧程序检查不计本session学分；13:00上海按原时间门开始恰好Day17知识预习，只列partial17，不正式计17，未打开Day18。首个科学checkpoint已发布到Gitee，原run/goal继续active，学分仍未授予。
 
 启动已核README/index/profile/PLAN/active handoff、学习workflow、三份计划与矩阵Day16。入口工作树存在旧Day8/9/13/14/15回执、log和daemon脚本修改；[entry-baseline.json](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/entry-baseline.json)保存完整状态、620份knowledge快照与保护文件hash。首写前boundary exit0；EOL清理在首批回执/回忆写入之后、科学写入之前执行，恢复0份、index为空，明确这一执行顺序，不伪称所有H1步骤均在第一次输出写入前完成。
+
+### 用户恢复原研究窗口
+
+2026-10-18T16:31:18.642920+08:00，用户明确要求持续学习至次日下午15:00前。同run/session重新开放研究，原deadline不变；课程next17/count16与completed16/partial17保持，不重复授分。前次局部证据饱和不足以结束整段窗口，此后检查新的高价值primary路线，不以重复toy填时段。恢复baseline、primed假设冻结和原学分状态见本run的reopened-baseline-001.json及reopened-source-before-freeze-001.json。
 
 ### 主动回忆与本session独立交付
 
@@ -151,6 +155,16 @@ printingclosure保存失败：294行按原eta.061/C16622/S1226得−.048106，�
 
 source原197Pb正link/负inband pattern对E1/负宇称的支持保留为作者解释；过高幅值、带内散布及AD形状反查支持其高背景拟峰系统边界。约36%是specificpurehighspindipole/maximumalignment比较，不是通用physicalP上限。缺的是matchedeta/Q、actualpeak/cut/efficiency/Σ，不能以更多同data处理或任意Q插值取代。该preview不计正式Day17、不给其day-index前进。
 
+### 用户恢复后的新追源与1505-keV相关网络
+
+恢复时间、primed冻结和baseline见[恢复回忆](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/reopened-source-before-freeze-001.json)与[KS70网络冻结](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/reopened-ks70-network-freeze.json)。新DNB SRU记录核Jül-Spez458完整身份；两页目录实得并原图确认DCO Sec3.2从printed46开始，正文未得。Canonical [KF89-21](../../knowledge/sources/kramer-flecken-1989-use-dco-ratios.md)和[W178追源单](../../knowledge/research-notes/w178-921-dco-gate-double-solutions.md)保留URL/hash/目录与正文边界，访问发现记录001–005不当科学证据。
+
+重新原图核KS70 TableI/II/Fig5、Eq10/11/17，冻结[15transitions/31cells/4direct输入](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/ks70-network-reference-input.json)，[新程序](../../system/scripts/day16_ks70_network_reference_audit.py)与[结果](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/ks70-network-reference-audit.json)回链[KS70-14至18](../../knowledge/sources/krane-steffen-1970-cd110-mixing-ratios.md)。31个target/gatecell按无向gamma对为26对；作者25correlations的countdefinition未知，不擅改或计独立实验。764/658和707/658各有3条图示路径，缺branch/selectionweights时不能任选一条U链。
+
+真实1505分别在3→2→0与5→3→2中作first/second。TableII单A22留下δ−3.45050/−.483082两支，上游reference的A22预测−.08660/−.20632对照实测−.184(.024)有区分力；四项TableII marginalboxes交约[−.495802,−.454731]，明确非CI或新δ。TableI四项同条件无一倍margin共同交，direct/indirect1505/658中央差−.068；缺实际response/Σ，不宣称原实验矛盾或用summary−.55(.10)重复拟合。[canonical双解计算单](../../knowledge/methods/dco-pdco-ambiguity-worksheet.md)保存二次型、物理角色、pure/rank4与多path边界。
+
+[first-run failure](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/ks70-network-first-run-failure.json)保留在任何inverse前因图示energyclosure0.11keV守卫失败；放大确认源标签最大残差.5keV，最终保留源两层energy/residual，不篡改值/补uncertainty。新photon/F只核代数和同坐标，复用底层不算独立producer。支持matchedreference/多rank，限制总体“consistent”摘要与精确单fit混同。研究继续，原deadline与仅16学分不变。
+
 ## Counter-evidence and missing companion observables
 
 最直接反例是一个已知pure参考也无法验证混合项相位：两纯端点通过，错误换号仍改R。另一个反例是本点模型部分Table1不吻合（例如.637341对印值.66；1.188657对1.12），且两比值rectangle没有复现作者>85支；原因未裁决，不能报告原文错误或实验新δ。
@@ -171,7 +185,7 @@ canonical [178W知识单](../../knowledge/research-notes/w178-921-dco-gate-doubl
   "items": [
     {
       "knowledge": "knowledge/research-notes/w178-921-dco-gate-double-solutions.md",
-      "summary": "新建178W921实测双支计算单，保留门角色、倒数与Cov、条件矩阵全根、相位控制及producer边界。",
+      "summary": "新建178W921实测双支计算单，保留门角色、倒数与Cov、条件矩阵全根、相位控制及producer边界。 恢复批次新增：DCOMAP原件的新定位：Jül-Spez458。",
       "anchor": "delta-double-solution-sheet：先固定实测对象",
       "sources": [
         {
@@ -261,12 +275,16 @@ canonical [178W知识单](../../knowledge/research-notes/w178-921-dco-gate-doubl
         {
           "path": "knowledge/sources/purry-1997-phd-w178-multiparticle-structure.md",
           "locator": "P97-10"
+        },
+        {
+          "path": "knowledge/sources/kramer-flecken-1989-use-dco-ratios.md",
+          "locator": "KF89-21"
         }
       ]
     },
     {
       "knowledge": "knowledge/sources/kramer-flecken-1989-use-dco-ratios.md",
-      "summary": "本session重新核7页主线，新增四项实测双候选、强度prior、参考编号冲突和response边界；旧review不动。",
+      "summary": "本session重新核7页主线，新增四项实测双候选、强度prior、参考编号冲突和response边界；旧review不动。 恢复批次新增：1988原学位论文的目录取证与未读边界。",
       "anchor": "2026-10-18独立Day16复核：921-keV实测双候选",
       "sources": [
         {
@@ -284,6 +302,10 @@ canonical [178W知识单](../../knowledge/research-notes/w178-921-dco-gate-doubl
         {
           "path": "knowledge/sources/kramer-flecken-1989-use-dco-ratios.md",
           "locator": "KF89-20"
+        },
+        {
+          "path": "knowledge/sources/kramer-flecken-1989-use-dco-ratios.md",
+          "locator": "KF89-21"
         }
       ]
     },
@@ -300,12 +322,24 @@ canonical [178W知识单](../../knowledge/research-notes/w178-921-dco-gate-doubl
     },
     {
       "knowledge": "knowledge/methods/dco-pdco-ambiguity-worksheet.md",
-      "summary": "将本session178W新交付与Day15预习分开，增加canonical反链。",
+      "summary": "将本session178W新交付与Day15预习分开，增加canonical反链。 恢复批次新增：同一mixed跃迁的上游与下游参考：1505-keV真实表值。",
       "anchor": "独立正式Day16的新实测对象",
       "sources": [
         {
           "path": "knowledge/sources/kramer-flecken-1989-use-dco-ratios.md",
           "locator": "KF89-15"
+        },
+        {
+          "path": "knowledge/sources/krane-steffen-1970-cd110-mixing-ratios.md",
+          "locator": "KS70-15"
+        },
+        {
+          "path": "knowledge/sources/krane-steffen-1970-cd110-mixing-ratios.md",
+          "locator": "KS70-16"
+        },
+        {
+          "path": "knowledge/sources/krane-steffen-1970-cd110-mixing-ratios.md",
+          "locator": "KS70-17"
         }
       ]
     },
@@ -676,6 +710,33 @@ canonical [178W知识单](../../knowledge/research-notes/w178-921-dco-gate-doubl
           "locator": "SG98-9"
         }
       ]
+    },
+    {
+      "knowledge": "knowledge/sources/krane-steffen-1970-cd110-mixing-ratios.md",
+      "summary": "用户恢复批次新增：Day16恢复批次：完整相关网络与1505-keV参考角色；actual source与条件计算分层。",
+      "anchor": "Day16恢复批次：完整相关网络与1505-keV参考角色",
+      "sources": [
+        {
+          "path": "knowledge/sources/krane-steffen-1970-cd110-mixing-ratios.md",
+          "locator": "KS70-14"
+        },
+        {
+          "path": "knowledge/sources/krane-steffen-1970-cd110-mixing-ratios.md",
+          "locator": "KS70-15"
+        },
+        {
+          "path": "knowledge/sources/krane-steffen-1970-cd110-mixing-ratios.md",
+          "locator": "KS70-16"
+        },
+        {
+          "path": "knowledge/sources/krane-steffen-1970-cd110-mixing-ratios.md",
+          "locator": "KS70-17"
+        },
+        {
+          "path": "knowledge/sources/krane-steffen-1970-cd110-mixing-ratios.md",
+          "locator": "KS70-18"
+        }
+      ]
     }
   ]
 }
@@ -687,11 +748,11 @@ Dors[3]身份冲突已经定位到准确DOI，尚待全文给169/137的约定与
 
 ## L0–L4 state
 
-L0为三篇主线/原图回核；L1/L2为新证据单和反向验证；L3的本轮调查阶段按source/response边界收束，169参考定义/producer与新原件缺口保持开放。尚未进行experimental L4 refit；已有条件设计不冒充实际数据分析，也未取得完整input/response/Σ。未新增人审或修改旧needs_review。
+L0为三篇主线/原图回核；L1/L2为新证据单和反向验证；L3调查已由用户恢复至原15:00截止，169参考定义/producer与新原件缺口保持开放。尚未进行experimental L4 refit；已有条件设计不冒充实际数据分析，也未取得完整input/response/Σ。未新增人审或修改旧needs_review。
 
 ## Verification and continuation
 
-### 提前收束时间门与候选池
+### 历史提前收束时间门与候选池（已由用户恢复）
 
 [最终候选/clock审计](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/candidate-refresh-007-closeout.json)记录科学研究停于 **2026-10-18T13:36:07+08:00**，距原研究硬截止仍 **1523.88 min**。截止不是停止原因，也未被改写。已再次查原receipt与matrixDay17，重建W178/相位continuity、独立130Ba novelty及恰好Day17preview候选池；新NRF公开路线仍无body，源/数据缺口构成本轮继续高价值判断的边界。
 
@@ -707,6 +768,11 @@ KS70追加twoangle问题因旧KS70-12已经覆盖而verified-no-op；NRF追加�
 - QMD status exit0：562indexed/2459vectors、349orphanchunks、38pending，外部cache更新deferred；直接原件/知识检查不冒称新页已被旧索引收录。Farmer watcher PID42019实际运行，无Git角色；没有新daemon/session/hosttask或GUI Scheduled。
 - [下一正式Day17prompt](prompts/20261019-DAY17-linear-polarization-paq-compton.md)只准备2026-10-19的独立run，未启动、未授学分。[本日续接](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/continuation-current.md)与[run.json](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/run.json)保存session/resume。原runner成功退出未观察，使用manual reconciliation，不伪造normalrunner/clock/scheduler事件。
 
-[final-verification.json](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/final-verification.json)已实际验证报告/card/writeback有效（只completed16/partial17）、preflight/boundary/lint/diff均exit0、0errors/150warnings；8份mappedoriginalraw与3份共享helper的freshhash另核通过。发布与课程最终结果只在run.json按实际命令更新；课程只计Day16一次、保留partial17，不开Day18。科学收束后仅继续必要验收/回执/课程对账和发布。
+[final-verification.json](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/final-verification.json)已实际验证报告/card/writeback有效（只completed16/partial17）、preflight/boundary/lint/diff均exit0、0errors/150warnings；8份mappedoriginalraw与3份共享helper的freshhash另核通过。发布与课程最终结果只在run.json按实际命令更新；课程只计Day16一次、保留partial17，不开Day18。此前科学收束后的closeout-only现已被用户恢复指令覆盖；当前继续研究至原截止。
 
 最终科学发布已成功（main / `Finalize DAY16 evidence and uncredited Day17 polarimetry preview`）；课程与完成回执稳定指针main / `Complete DAY16 card and reconcile course state`。正式coverage为completed[16]/partial[17]、next17/count16，normalrunnerexit未观察，不伪造退出码。下一正式17仅有准备prompt，未启动。
+
+
+### 恢复checkpoint007（研究继续）
+
+2026-10-18 16:47上海，fresh boundary/lint/diff均exit0，0errors/150warnings；[恢复验收](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/verification-reopened-001.json)通过report/逐卡/唯一writeback与保护状态，累计17changed/17items，本批4页知识变化。稳定指针main / `Extend DAY16 with Cd110 reference-role and network audits`，exacthash/actualpush只回执。此为checkpoint，goal/window仍active至原2026-10-19 15:00，下一ALPACA code-object新路线已冻结问题但未执行。

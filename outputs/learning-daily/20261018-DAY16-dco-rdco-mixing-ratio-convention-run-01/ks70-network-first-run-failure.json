@@ -1,0 +1,96 @@
+{
+  "exit_code": 1,
+  "failure": "input source identity check required all Eparent-Edaughter-Egamma within0.11keV; actual printed drawing may differ or transcription uncertain; no inverse executed",
+  "residuals": [
+    {
+      "gamma": 1,
+      "level_difference": 446.6999999999998,
+      "printed_energy": 446.8,
+      "difference_keV": -0.10000000000019327
+    },
+    {
+      "gamma": 2,
+      "level_difference": 619.7999999999997,
+      "printed_energy": 620.2,
+      "difference_keV": -0.4000000000003183
+    },
+    {
+      "gamma": 3,
+      "level_difference": 657.7,
+      "printed_energy": 657.7,
+      "difference_keV": 0.0
+    },
+    {
+      "gamma": 4,
+      "level_difference": 677.5,
+      "printed_energy": 677.6,
+      "difference_keV": -0.10000000000002274
+    },
+    {
+      "gamma": 5,
+      "level_difference": 686.4999999999998,
+      "printed_energy": 686.8,
+      "difference_keV": -0.3000000000001819
+    },
+    {
+      "gamma": 6,
+      "level_difference": 706.6999999999998,
+      "printed_energy": 706.7,
+      "difference_keV": -2.2737367544323206e-13
+    },
+    {
+      "gamma": 7,
+      "level_difference": 744.2,
+      "printed_energy": 744.2,
+      "difference_keV": 0.0
+    },
+    {
+      "gamma": 8,
+      "level_difference": 764.4000000000001,
+      "printed_energy": 763.9,
+      "difference_keV": 0.5000000000001137
+    },
+    {
+      "gamma": 9,
+      "level_difference": 818.0,
+      "printed_energy": 818.0,
+      "difference_keV": 0.0
+    },
+    {
+      "gamma": 10,
+      "level_difference": 884.7,
+      "printed_energy": 884.7,
+      "difference_keV": 0.0
+    },
+    {
+      "gamma": 11,
+      "level_difference": 937.5,
+      "printed_energy": 937.5,
+      "difference_keV": 0.0
+    },
+    {
+      "gamma": 12,
+      "level_difference": 1384.1999999999998,
+      "printed_energy": 1384.3,
+      "difference_keV": -0.10000000000013642
+    },
+    {
+      "gamma": 13,
+      "level_difference": 1475.7,
+      "printed_energy": 1475.7,
+      "difference_keV": 0.0
+    },
+    {
+      "gamma": 14,
+      "level_difference": 1504.4999999999998,
+      "printed_energy": 1505.0,
+      "difference_keV": -0.5000000000002274
+    },
+    {
+      "gamma": 15,
+      "level_difference": 1562.2,
+      "printed_energy": 1562.2,
+      "difference_keV": 0.0
+    }
+  ]
+}
