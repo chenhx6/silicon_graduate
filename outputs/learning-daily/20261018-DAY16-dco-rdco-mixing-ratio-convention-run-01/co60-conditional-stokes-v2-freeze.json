@@ -1,0 +1,8 @@
+{
+  "at": "2026-10-19T04:59:35.974597+08:00",
+  "contract_sha256": "d68d48e1b42b7b4102138472231759ded68c25de7dd74aacbcd90d3a43db92a7",
+  "before_v2scriptchange_andrun": true,
+  "v1_script_sha256": "0d8eb61b11c9aa5484990192a71ee27281b96a6ab3a58f6c25f1bdc2cc2fb53d",
+  "v1_result_sha256": "fd2bc9c7853be80c5ffa8c234ee571f975e507ea4d285a1ca9868cec4425b78f",
+  "primed": "v1 numericalP/role/marginal resultsseen; explicitPSD/spin2 controls notyetexecuted"
+}

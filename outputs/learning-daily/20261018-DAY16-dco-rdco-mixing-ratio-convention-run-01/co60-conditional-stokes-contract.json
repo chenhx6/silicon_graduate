@@ -1,0 +1,83 @@
+{
+  "identity": "CO60-JOINT-CONDITIONAL-STOKES-01",
+  "at": "2026-10-19T04:49:33.348797+08:00",
+  "before_new_calculation": true,
+  "primed": true,
+  "leveldata": "tmp/day16-ucgretina/g411-original/rileyle-UCGretina-02e5a92/examples/sources/co60/z28.a60.lvldata",
+  "leveldata_sha256": "ba3adf4390fb57de00341f19f0d42976083f13f82d2864c8382ddefb6d65268a",
+  "first_gamma": {
+    "Ji2": 8,
+    "Jf2": 4,
+    "lower": {
+      "kind": "E",
+      "L": 2
+    },
+    "upper": {
+      "kind": "M",
+      "L": 3
+    },
+    "delta_native": -0.0025,
+    "energy_keV": 1173.239
+  },
+  "last_gamma": {
+    "Ji2": 4,
+    "Jf2": 0,
+    "kind": "E",
+    "L": 2,
+    "energy_keV": 1332.514
+  },
+  "parent": "I9/9, unpolarized",
+  "basis": "helicityordered[-1,+1]; native (-1)^L amp*sqrt((2L+1)/(8pi))*CG*exp(i mu phi)*d(mu,lambda)*[lambdaifM]; RBremoves(-1)^L/adjacentdelta signflip",
+  "Jones": "e_theta=(Hminus\u2212Hplus)/sqrt2; e_phi=\u2212i(Hminus+Hplus)/sqrt2; Q=Jtt\u2212Jpp,U=2ReJtp,V=\u22122ImJtp; normalizedStokes bytrace",
+  "joint": "A(lambda1,lambda2,Mi)=sum_m2 H2(lambda2,0,m2)*H1(lambda1,m2,Mi); D=AA\u2020/9; partialtraceunobservedreferencehelicity",
+  "roles": {
+    "last_target": "n1=z, n2=(theta,phi); traceoutlambda1",
+    "first_target": "n2=z, n1=(theta,phi); traceoutlambda2"
+  },
+  "angles_deg": [
+    0,
+    15,
+    30,
+    45,
+    60,
+    75,
+    90,
+    105,
+    120,
+    135,
+    150,
+    165,
+    180
+  ],
+  "cases": [
+    "pureE2first",
+    "actualmixednative",
+    "actualmixedRBsamephysics",
+    "pureM3upperpositive",
+    "pureM3uppernegativeglobalphasecontrol"
+  ],
+  "controls": [
+    "pureE2firstlast comparison notpresetequal",
+    "Wscalarroleinvariance",
+    "lasttargetmatchesindependentintermediatepopulation/photontrace",
+    "nativeRB IQUV/jointobservables invariant",
+    "upperpure\u00b1globalphase invariant",
+    "joint HermitianPSD/trace/degree<=1; no clipnegativeeigenvalues",
+    "globalRz .37rad covariance inlocalaxes; U/V zero forxzreflectioncase",
+    "ungatedreference fullsolidangle average withGauss12xphi16 atfixedtarget60deg yields unpolarizedisotropicsingles",
+    "collinearplane flagundefined, noanalysisharmonicrelativeundefinedplane"
+  ],
+  "KNconditionaldesign": {
+    "photon_energies": "levelnominal1173.239/1332.514keV, notmeasuredfullenergy",
+    "electron_rest_keV": 510.99895,
+    "scatter_polar_angle_deg": 90,
+    "kernel": "sigmaKN=sin\u00b2psi/[r+1/r\u2212sin\u00b2psi], r=1/[1+E/mec\u00b2(1\u2212cospsi)]; idealpoint A=sigmaKN*Qnorm whereplaneisdefined",
+    "scope": "free stationary electron atonepoint; neitherarrayQ, finitegate norL25renormalization"
+  },
+  "no_MC_photon_polarization_or_experimental_refit": true,
+  "original_deadline": "2026-10-19T15:00:00+08:00",
+  "day_index": 16,
+  "partial_day_indices": [
+    17
+  ]
+}

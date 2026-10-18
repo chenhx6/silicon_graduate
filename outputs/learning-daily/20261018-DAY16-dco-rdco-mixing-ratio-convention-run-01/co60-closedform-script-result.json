@@ -1,0 +1,20 @@
+{
+  "contract_sha256": "63d9ea27075af767d9bfeea771ec071463a9c2a057414a5afd450655a8cb0c76",
+  "joint_result_sha256": "b00986bec561e0efb894fa08974795c4203afb3c76d94b1439c1c9b23eb1a64b",
+  "script_sha256": "3b9856eb879d5455e6f65baa0e9c6165dda0adc81689f655b435e377e775309a",
+  "W_formula": "5*x**4/126 + 5*x**2/42 + 20/21",
+  "Q_J_unnormalized_formula": "(5/126 - 5*x**2/126)*(4 - x**2)",
+  "P_parallel_formula": "(x - 2)*(x - 1)*(x + 1)*(x + 2)/(x**4 + 3*x**2 + 24)",
+  "max_error_all_pure_roles_and_angles": 3.3306690738754696e-16,
+  "W_integral_dx": "2",
+  "naive_local_P_event_weighted_average": "19/189",
+  "common_axes_ungated_reference_Stokes": [
+    0.0,
+    -4.890977706405533e-18,
+    -8.212768857261507e-20
+  ],
+  "P90_exact": "1/6",
+  "P60_exact": "45/397",
+  "scope": "Q_J is a photon density component; local scalar average is not the ungated lab observable",
+  "experimental_Q_or_delta_fit": false
+}

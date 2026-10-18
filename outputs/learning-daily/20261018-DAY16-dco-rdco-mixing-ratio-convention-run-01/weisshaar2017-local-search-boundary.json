@@ -1,0 +1,10 @@
+{
+  "scope": "raw filenames patternWeisshaar/GRETINA/PII/2017performance andexactDOI inprotected localBib",
+  "commands_exit": [
+    1,
+    1
+  ],
+  "matches": 0,
+  "raw_or_Bib_modified": false,
+  "not_proof_all_opaque_rawPDFcontents_lack_article": true
+}

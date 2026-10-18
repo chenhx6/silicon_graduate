@@ -301,3 +301,5 @@ Riley2021 DOI10.1016/j.nima.2021.165305/arxiv2104.09986v1已取得公开26页原
 Riley2021 priming还包括：I/II共用flood数据、极小stat interval不等真实层精度、target1172/1173＋LaBr1332gate和L25 reversedroles、有限能区/continuum失败及Q需现实segmentation/partialcollection；5733点/Compton209.8keV核验是旧Day16成果，不兑换formal17新证据。
 
 Day16 Co60 checkpoint025 priming：[[co60-gate-role-response-benchmark]]及UG24-19–29已做actual12quad nativecorrelation/noPOL、NiE2/M3配置、1k/各100k、missingγ占位/坐标/累计back选择、F3与jointphase控制，source switch获局部支持，detector507/549pairs不能作Q或原producer。图及数据是旧Day16成果，formal17不得用旧20万history/检查数授分；下一point gate conditional Stokes若续做须按最新canonical核实际完成状态，不预填结果。
+
+Day16 pointgate026 priming：UG24-30–34/Co60note实际jointPSD/spin2/firstlast/nativeRB/purelimits与closedform核，pureE2同P90=1/6、actual小M3稍异；局部scalar均值19/189不等commonaxes无gateStokes0，KNpoint能量依赖不当arrayQ。此为旧Day16条件模型，不替formal17新session交付。Ni60官方source/MR下一route已冻/metadata，读取物理行是否完成看最新source/receipt，不预填。

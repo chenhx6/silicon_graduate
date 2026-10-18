@@ -77,6 +77,11 @@ README关联Riley2021 DOI10.1016/j.nima.2021.165305及Morse2022 DOI10.1016/j.nim
 | UG24-27 | 原Co60 sorting的max_layer在晶体循环外初始化并累计；对实际1k rawbank顺序，corr/iso的per-crystal back记录为103/78、prefix为123/89、whole-event类为166/126，reverse顺序改变48/35个history的标签。只是已定义输入上的选择对象反证，不是原R21实验back fraction或normalGRUT顺序偏差认证。 | selection-object-and-order-boundary | actual-history-literal-predicate | MakeHistos60CoSim max_layer/energy_involves_phi；backflag-result actualhistory witnesses | true |
 | UG24-28 | 新seed各100000Co60history run/native/angle分析均0：完整truth pairs99840/99845，a2=.105902±.007183/.006829±.007092、a4=.007674±.009631/.008455±.009514。前者与预定mixed point、后者与0的条件2D moment比较均相容；支持局部source开关控制，不据此唯一分辨tinyM3/相位或认证全producer。 | source-model-control-and-uncertainty | actual-MC-moments | co60-100k gate-analysis emitted_moments；moment-comparison | true |
 | UG24-29 | 相同100k数据的rawcore detector pairs507/549；10个iso bins均非零、最小39，比值SE约.135–.245。矩阵/Cov/求和/hash/无IP截断检查通过，但不是原README10^7精度、实验W或Q标定；source图与detector图保留不同population/分母。 | response-statistical-readiness | actual-named-detector-recipe | co60-100k-gate-analysis detector counts/ratioCov；control figure source CSV | true |
+| UG24-30 | 声明unpolarized4→2→0、point gate不分析reference helicity的完整joint-photon模型，pureE2 first/last的P_parallel相同（全13角最大差2.09×10^-16），90°均1/6。角色不同本身不保证这个理想极限的physical P不同，仍不许可跨实际能量/响应迁Q。 | conditional-joint-cascade-design | declared-amplitude-calculation | 本页point-gate joint density；conditional-stokes-v2 pureE2 rows | true |
+| UG24-31 | 实际level配置MP407/nativeδ−.0025的同point模型在90°给P_first=.1652824009、P_last=.1643540933，scalarW两角色差≤4.45×10^-16；native→RB连同算符转换后IQUV0差。它是固定输入forward量，不是MC photon Stokes、实测P或δ重拟合。 | conditional-mixing-and-role | declared-physical-model | conditional-stokes-v2 actualmixed rows/control_residuals | true |
+| UG24-32 | 同pureP=1/6、自由静止电子/Comptonψ90°、nominal1173.239/1332.514keV的point contrast为.0641180/.0577730；小M3配置为.0635855/.0569714。不同E即使同P也有不同KN分析能力；这些数不叫array Q或L25标定复现。 | conditional-analyser-design | stated-Klein-Nishina-model | conditional-stokes contract KNconditionaldesign；90° rows | true |
+| UG24-33 | pureE2模型对x=cosθγγ给W=5(24+3x²+x⁴)/126、P_parallel=(1−x²)(4−x²)/(24+3x²+x⁴)，与joint两角色/13角到3.34×10^-16相符。若直接平均局部W P得19/189，正确在共同目标轴积分全部reference方向却给Stokes≈0；不能用局部偏振幅度均值代全局observable。 | closed-form-and-axis-average-control | analytic-and-joint-density-calculation | 本页pure闭式；closedform-script-result；ungated controls | true |
+| UG24-34 | 130个完整joint-density配置显式Hermitian/PSD/trace检查通过；native/RB、pureM3全局号、Rz、独立intermediate-density路线残差≤8.89×10^-16。固定target轴时参考面旋转使Q_J+iU_J按e^(2iφ)变换，12控制残差≤9.74×10^-17；Q_J是Stokes分量，不是polarimeterQ。 | mathematical-failure-controls | explicit-density-and-symmetry-validation | conditional-stokes-v2 jointPSD/spin2/control_residuals | true |
 
 ## Summary
 
@@ -146,6 +151,22 @@ back-slice选择另有实际控制：[backflag脚本](../../system/scripts/day16
 - 本页已执行1000控制与各100000history统计；后者仍不是历史2012模板。未拟历史p1、threshold或resolution，未认证真实高区source-free、整响应或Q。
 
 ## Knowledge Impact and Learning Decision
+
+### Point gate的first/last偏振：存在相同极限，不能替实际response
+
+本批把两光子振幅写成`A_(λ1λ2,Mi)=Σ_m H2_(λ2,0m) H1_(λ1,mMi)`，对unpolarized Mi平均成4×4联合光子密度矩阵，再对reference helicity作partial trace。两target角色只改变哪个方向固定为reference z，级联顺序始终4→2→0；不是把first transition的spin/order反过来。reference partial trace假设偏振等效率的identity tag；真实tagger不主动分析偏振也未必具有这个response。Jones轴与Q_J/U_J/V_J定义见冻结合同，不以同字母δ或Q猜转换。
+
+pureE2在这组明确假设下对first/last确有相同P；actual小M3给轻微差别。pureM3上极限控制则在90°给first P≈+.303030、last≈−.333333，整体振幅号±不改observable；这是另一个理论limit而非对Co60的物理赋值。source态、multipole/phase、门角色、reference选择和能量响应都须保存，不能概括成“角色互换总相同”或“总不同”。
+
+纯模型的解析式令`x=cos θγγ`、`Q_J=I_parallel−I_perp`：
+
+`W(x)=5(24+3x²+x⁴)/126`，`Q_J(x)=5(1−x²)(4−x²)/126`，`P_parallel=Q_J/W`。
+
+由此P90=1/6、P60=45/397，积分W dx=2。将每个不同reference面的正局部P直接以W平均会得19/189≈.1005291；真正无gate的reference全立体角平均必须先把密度矩阵转到共同目标轴，得I=1、Q_J/U_J/V_J≤1.75×10^-16。固定target z时，reference方位φ旋转给`Q_J+iU_J=e^(2iφ)(Q_J+iU_J)_0`，这正是标量平均漏掉的信息。
+
+自由电子KN point例使用`Σ_KN=sin²ψ/(r+1/r−sin²ψ)`、`r=1/[1+E(1−cosψ)/(m_ec²)]`及`A_point=Σ_KN P_parallel`。只比较单个散射点的理想分析能力，不提供detector Q、finite gate、photopeak切选或其它论文幅度归一。collinear γγ时reference plane标undefined，不报告相对该plane的harmonic。
+
+脚本：[joint Stokes](../../system/scripts/day16_co60_conditional_stokes.py)、[纯闭式](../../system/scripts/day16_co60_closedform.py)。v1/v2结果与v1源码snapshot保留；v2增加显式完整joint PSD及reference面spin2检查，没有更改level输入。此前100k MC关闭polarized EM，未参与生成这些photon Stokes值。
 
 `supports`用实际可用版本建立源能谱/finite-MC分析输入；`revises`以宏含sourceFrame或程序exit0代替有效geometry/truth核验的做法；`limits`将源能谱重放提升为偏振response认证。仍是Day16下partial17知识预习，不给Day17正式学分，所有新claims保留needs_review。
 

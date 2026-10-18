@@ -243,5 +243,21 @@
     "figureQA": "alignment/fonts/collision/visual pass; sourceonlynoTIFFwarning",
     "status": "canonical; verification019; actualpublication025receiptgoverns",
     "next": "jointfirst/lastconditionaltargetpolarization pointmodel freeze"
+  },
+  "Co60_point_reference026": {
+    "claims": "UG24-30–34",
+    "actualjoint_closedform_exits": [
+      0,
+      0
+    ],
+    "pureP90_roles": "1/6/1/6",
+    "actualMixedP90_roles": [
+      0.16528240086511434,
+      0.1643540933390345
+    ],
+    "correct_unobservedreference_Stokes": "zero within1.75e−16",
+    "naiveLocalScalarAverage": "19/189",
+    "real_P_Q_or_delta_inferred": false,
+    "next": "officialNi60referenceidentityandMR"
   }
 }

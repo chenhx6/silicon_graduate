@@ -1,0 +1,13 @@
+{
+  "cmd": [
+    "git",
+    "show",
+    "--format=",
+    "--check",
+    "HEAD"
+  ],
+  "exit_code": 0,
+  "stdout": "",
+  "stderr": "",
+  "same_unpublished_commit_amended_once": true
+}

@@ -79,6 +79,22 @@ detector rawcore pairs507/549，全部10bin有iso支撑（最小39），ratioSE�
 
 ## Transfer Conditions
 
+### 理想门下角色等价的条件与失败控制
+
+这里partial trace还假设reference探测对两种偏振等效率；“没有主动分析它的偏振”本身不足以证明实际tagger满足此条件。模型没有加入这个真实response或finitegate。real/unpolarized情形的V近0，当前suite不据此额外认证任意圆偏振符号。
+
+UG24-30–34的完整joint amplitudes在unpolarized4→2→0、point reference且不分析gate helicity下，pureE2两target角色给相同P_parallel，90°均1/6。此前“角色不能无条件迁移”需要保留这个相同的物理极限；角色标签本身不能证明理想P一定不同。
+
+actual MP407/nativeδ−.0025在同条件下P_first=.1652824、P_last=.1643541，W仍相同。native/RB同步operator/δ桥不改IQUV；pureM3上极限的两个P甚至可不同号，但不作为Co60结构赋值。矩阵PSD、pure/上极限全局相位、Rz和独立intermediate-state路线控制均通过。
+
+同pureP仍有不同E响应：free-electronψ90°的point KN contrast约.064118/.057773，小M3时.063586/.056971。此处不是Morse/L25阵列Q，也不是对现有MC的photon Stokes重放；真实接受角/门/反应或reference plane、切选/背景和归一尚须匹配。
+
+### 参考面不同时不能直接平均标量P
+
+pure闭式`P_parallel=(1−x²)(4−x²)/(24+3x²+x⁴)`在所有非共线角非负，盲目W加权平均为19/189。joint density在共同目标轴积分无观测reference全立体角却给无偏振，数值残差约10^-16；固定target轴的Q_J+iU_J随reference方位φ以e^(2iφ)旋转，不能先丢掉plane再平均局部幅值。
+
+这是具体的条件平均反证：只有事件的偏振轴已投影到共同实验分析角、并有matching response权重时，scalar Pbar才有原定义。它不会自动推翻L25/L26已经定义reaction/reference plane的加权式，也不允许固定旧Q改平均来追实验A0。
+
 迁移到同一实验reference时，还须给actual target与gate、能区/角区、源或reaction plane、threshold、efficiency/归一、背景、interaction ordering和joint Cov。静态matrix一致只支持坐标合同；实验P/Q与δ支判别须另外的matching inputs。
 
 ## Competing Explanations
@@ -91,7 +107,7 @@ pureE2控制、native/RB同步转换和源码F3/独立trace提供不变性检查
 
 ## Open Questions
 
-100k两mode的run/native/moment Cov已实际交付，detector统计/readiness边界保持。下一可问在理想point reference下first/last photons的conditional Stokes是否因pureE2对称而相同，以及小M3如何改变；必须整套joint amplitudes/轴/相位核，不能预设角色互换必有或必无影响。原Weisshaar2017 DOI10.1016/j.nima.2016.12.001的题名/卷页已核，正确正文未取得：出版商XML仅coredata、仓储403/连接失败、配置provider缺credentials；不重试终态或从metadata补原back-fraction分母。
+100k角关联和point first/last joint Stokes均已实际交付，detector统计/readiness边界保持。下一输入可核当前Ni60评价的spin/MR/phase与source配置版本；在新原件前先冻回忆，不将G4配置值变成新实测δ。原Weisshaar2017 DOI10.1016/j.nima.2016.12.001正确正文未取得：出版商XML仅coredata、仓储403/连接失败、配置provider缺credentials；不重试终态或从metadata补原back-fraction分母。
 
 ## Human Review
 

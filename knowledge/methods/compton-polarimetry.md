@@ -329,6 +329,10 @@ Morse spin2→0 pureE2控制确实通过，这限制对其原标定的归因；�
 
 ### 60Co校准要保存目标、门和选择定义
 
+UG24-30–34另给可核的相同极限：unpolarized4→2→0 pureE2、point reference不分析其helicity时，first/last P在90°均1/6；同一个P不等于相同能量的KN分析能力或实际arrayQ。小M3/finitegate/response可改变结果，须带条件而非只靠角色名字判断。
+
+同pure模型把各reference平面的正局部P直接平均会得19/189，正确在共同目标轴积分无gate的reference方向却恢复无偏振。Q_J+iU_J的spin2轴旋转需先进入平均；Q_J为光子密度分量，polarimeterQ(E)另定义。这个反证说明scalar Pbar必须依附原分析plane/weight合同，不能任意混合局部轴。
+
 [[co60-gate-role-response-benchmark]]将R21的1173target＋LaBr1332gate、L25的1333target＋1173gate和公开两GRETINA-crystal pair例分别保存。原生nuclear angular correlation可在photon polarized EM关闭时运行；这约束方向分布，不认证target的polarized response。矩阵数值一致也不认证实际post-processing或Q。
 
 UG24-21/27的实际记录控制显示，缺失γ占位和跨晶体prefix back标记会改变相应输入对象。逐晶体back、整event back和prefix不是同一个选择；没有原producer时，不据公开hist名字替原校准分母。

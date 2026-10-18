@@ -1,0 +1,37 @@
+{
+  "at": "2026-10-19T04:54:49.195982+08:00",
+  "hard_deadline": "2026-10-19T15:00:00+08:00",
+  "minutes_to_deadline": 605.1800669666667,
+  "decision": "continue-current-issue",
+  "candidate_pool": [
+    {
+      "route": "Co60 pointgate first/last conditionalStokes",
+      "status": "primedrecall/contractfrozen; jointcalculationinprogress; no fullMCphotonStokes claim",
+      "gain": "testpureE2roleequivalence/smallM3andenergydependence vsblanketgateinterchangeability"
+    },
+    {
+      "route": "R21backfractionrawproducer/unroundedcounts",
+      "status": "missingactualinput; publicprefixcounterretainednotexperiment",
+      "gain": "needsnewvaliddata, no moreMCsubstitute"
+    },
+    {
+      "route": "Weisshaar2017correctbody",
+      "status": "boundedterminalaccess/credentials_missing",
+      "gain": "closeduntilnewinput/authorizedpublicroute; no identicalretry"
+    },
+    {
+      "route": "anotherDay17calibrationobservable",
+      "status": "rebuildaftercurrentissue, onlyDay17preview permitted",
+      "gain": "noDay18 opened"
+    }
+  ],
+  "completed_day_indices": [
+    16
+  ],
+  "partial_day_indices": [
+    17
+  ],
+  "course_next_day_index": 17,
+  "goal_status": "active",
+  "no_early_closeout": true
+}

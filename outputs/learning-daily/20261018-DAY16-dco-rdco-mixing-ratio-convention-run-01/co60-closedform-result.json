@@ -1,0 +1,18 @@
+{
+  "pure_W_formula": "5*x**4/126 + 5*x**2/42 + 20/21",
+  "pure_Qunnormalized_formula": "(5/126 - 5*x**2/126)*(4 - x**2)",
+  "pure_Pparallel_formula": "(x - 2)*(x - 1)*(x + 1)*(x + 2)/(x**4 + 3*x**2 + 24)",
+  "max_error_allpure_angles_and_bothroles": 3.3306690738754696e-16,
+  "W_integral_dx": "2",
+  "naive_scalar_event_weighted_P_average": "19/189",
+  "naive_average_numeric": 0.10052910052910052,
+  "correct_common_axes_ungated_Stokes": [
+    0.0,
+    -4.890977706405533e-18,
+    -8.212768857261507e-20
+  ],
+  "P90_exact": "1/6",
+  "P60_exact": "45/397",
+  "scope": "pointpureE2cascade; localpolarizationmagnitude averagescannotreplaceproperdensity/axisaverage",
+  "no_arrayQ_or_realdatafit": true
+}

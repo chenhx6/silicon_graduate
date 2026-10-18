@@ -1,0 +1,386 @@
+{
+  "at": "2026-10-19T05:14:09.124998+08:00",
+  "nucleus": "60NI",
+  "source": "NNDC ENSDF public dataset index",
+  "index_status": 200,
+  "index_sha256": "d6143657cad8649f70c887bd747e1f13ac139713a95508e270afda9a9735b84a",
+  "query_status": 200,
+  "payload": {
+    "nuc": "60NI",
+    "nsrch": "Search",
+    "searchType": "quick",
+    "datasource": "ensdf"
+  },
+  "url": "https://www.nndc.bnl.gov/ensdf/DatasetFetchServlet",
+  "bytes": 22441,
+  "path": "tmp/day16-ni60-reference/ni60-datasets.html",
+  "sha256": "67c5e86eda62aa3f7357da799c31f311a2b6714f66a3be2e7448d89561c46b60",
+  "title": "Datasets for 60NI",
+  "datasets": [
+    {
+      "name": "datasetcheck",
+      "value": "60028001,60NI",
+      "row": "ADOPTED LEVELS, GAMMAS 2013-12 All references"
+    },
+    {
+      "name": "datasetcheck",
+      "value": "60028002,60NI",
+      "row": "60CO B- DECAY (1925.28 D) 2013-12 All references"
+    },
+    {
+      "name": "datasetcheck",
+      "value": "60028003,60NI",
+      "row": "60CO B- DECAY (10.467 M) 2013-12 All references"
+    },
+    {
+      "name": "datasetcheck",
+      "value": "60028004,60NI",
+      "row": "60CU EC DECAY 2013-12 All references"
+    },
+    {
+      "name": "datasetcheck",
+      "value": "60028005,60NI",
+      "row": "28SI(35CL,3PG) 2013-12 All references"
+    },
+    {
+      "name": "datasetcheck",
+      "value": "60028102,60NI",
+      "row": "28SI(36AR,4PG) 2013-12 All references"
+    },
+    {
+      "name": "datasetcheck",
+      "value": "60028006,60NI",
+      "row": "50CR(12C,2PG) 2013-12 All references"
+    },
+    {
+      "name": "datasetcheck",
+      "value": "60028007,60NI",
+      "row": "51V(12C,2NPG) 2013-12 All references"
+    },
+    {
+      "name": "datasetcheck",
+      "value": "60028008,60NI",
+      "row": "56FE(6LI,D) 2013-12 All references"
+    },
+    {
+      "name": "datasetcheck",
+      "value": "60028009,60NI",
+      "row": "56FE(7LI,2NPG) 2013-12 All references"
+    },
+    {
+      "name": "datasetcheck",
+      "value": "60028010,60NI",
+      "row": "56FE(16O,12C) 2013-12 All references"
+    },
+    {
+      "name": "datasetcheck",
+      "value": "60028011,60NI",
+      "row": "58FE(3HE,N) 2013-12 All references"
+    },
+    {
+      "name": "datasetcheck",
+      "value": "60028012,60NI",
+      "row": "58FE(16O,14C) 2013-12 All references"
+    },
+    {
+      "name": "datasetcheck",
+      "value": "60028013,60NI",
+      "row": "58NI(T,P), (POL T,P) 2013-12 All references"
+    },
+    {
+      "name": "datasetcheck",
+      "value": "60028014,60NI",
+      "row": "58NI(A,2HE), (A,2P) 2013-12 All references"
+    },
+    {
+      "name": "datasetcheck",
+      "value": "60028015,60NI",
+      "row": "58NI(A,2PG) 2013-12 All references"
+    },
+    {
+      "name": "datasetcheck",
+      "value": "60028016,60NI",
+      "row": "58NI(12C,10C) 2013-12 All references"
+    },
+    {
+      "name": "datasetcheck",
+      "value": "60028017,60NI",
+      "row": "58NI(14C,12C), (16O,14O) 2013-12 All references"
+    },
+    {
+      "name": "datasetcheck",
+      "value": "60028018,60NI",
+      "row": "59CO(P,G) 2013-12 All references"
+    },
+    {
+      "name": "datasetcheck",
+      "value": "60028019,60NI",
+      "row": "59CO(3HE,D) 2013-12 All references"
+    },
+    {
+      "name": "datasetcheck",
+      "value": "60028020,60NI",
+      "row": "59CO(3HE,DG) 2013-12 All references"
+    },
+    {
+      "name": "datasetcheck",
+      "value": "60028022,60NI",
+      "row": "59CO(A,T) 2013-12 All references"
+    },
+    {
+      "name": "datasetcheck",
+      "value": "60028023,60NI",
+      "row": "59NI(N,G) E=THERMAL 2013-12 All references"
+    },
+    {
+      "name": "datasetcheck",
+      "value": "60028024,60NI",
+      "row": "60NI(G,G') 2013-12 All references"
+    },
+    {
+      "name": "datasetcheck",
+      "value": "60028101,60NI",
+      "row": "60NI(G,G'),(POL G,G') 2013-12 All references"
+    },
+    {
+      "name": "datasetcheck",
+      "value": "60028100,60NI",
+      "row": "60NI(POL G,G'):RES 2013-12 All references"
+    },
+    {
+      "name": "datasetcheck",
+      "value": "60028025,60NI",
+      "row": "60NI(E,E') 2013-12 All references"
+    },
+    {
+      "name": "datasetcheck",
+      "value": "60028026,60NI",
+      "row": "60NI(PI,X): MESIC ATOM 2013-12 All references"
+    },
+    {
+      "name": "datasetcheck",
+      "value": "60028027,60NI",
+      "row": "60NI(PI+,PI0), (PI-,PI0) 2013-12 All references"
+    },
+    {
+      "name": "datasetcheck",
+      "value": "60028028,60NI",
+      "row": "60NI(PI+,PI+'), (PI-,PI-') 2013-12 All references"
+    },
+    {
+      "name": "datasetcheck",
+      "value": "60028030,60NI",
+      "row": "60NI(N,N') 2013-12 All references"
+    },
+    {
+      "name": "datasetcheck",
+      "value": "60028029,60NI",
+      "row": "60NI(N,N'G) 2013-12 All references"
+    },
+    {
+      "name": "datasetcheck",
+      "value": "60028031,60NI",
+      "row": "60NI(P,P'), (POL P,P') 2013-12 All references"
+    },
+    {
+      "name": "datasetcheck",
+      "value": "60028032,60NI",
+      "row": "60NI(P,P'G) 2013-12 All references"
+    },
+    {
+      "name": "datasetcheck",
+      "value": "60028033,60NI",
+      "row": "60NI(D,D'), (POL D,D') 2013-12 All references"
+    },
+    {
+      "name": "datasetcheck",
+      "value": "60028034,60NI",
+      "row": "60NI(POL T,T) 2013-12 All references"
+    },
+    {
+      "name": "datasetcheck",
+      "value": "60028035,60NI",
+      "row": "60NI(3HE,3HE') 2013-12 All references"
+    },
+    {
+      "name": "datasetcheck",
+      "value": "60028036,60NI",
+      "row": "60NI(A,A') 2013-12 All references"
+    },
+    {
+      "name": "datasetcheck",
+      "value": "60028037,60NI",
+      "row": "60NI(16O,16O'), (6LI,6LI') 2013-12 All references"
+    },
+    {
+      "name": "datasetcheck",
+      "value": "60028038,60NI",
+      "row": "60NI(17O,17O),(17O,17O') 2013-12 All references"
+    },
+    {
+      "name": "datasetcheck",
+      "value": "60028039,60NI",
+      "row": "60NI(40AR,40AR) 2013-12 All references"
+    },
+    {
+      "name": "datasetcheck",
+      "value": "60028040,60NI",
+      "row": "COULOMB EXCITATION 2013-12 All references"
+    },
+    {
+      "name": "datasetcheck",
+      "value": "60028041,60NI",
+      "row": "61NI(P,D), (POL P,D) 2013-12 All references"
+    },
+    {
+      "name": "datasetcheck",
+      "value": "60028042,60NI",
+      "row": "61NI(3HE,A) 2013-12 All references"
+    },
+    {
+      "name": "datasetcheck",
+      "value": "60028043,60NI",
+      "row": "62NI(P,T) 2013-12 All references"
+    },
+    {
+      "name": "datasetcheck",
+      "value": "60028044,60NI",
+      "row": "62NI(28SI,30SI) 2013-12 All references"
+    },
+    {
+      "name": "datasetcheck",
+      "value": "60028045,60NI",
+      "row": "63CU(P,A) 2013-12 All references"
+    },
+    {
+      "name": "datasetcheck",
+      "value": "60028046,60NI",
+      "row": "64ZN(D,6LI) 2013-12 All references"
+    }
+  ],
+  "forms": [
+    {
+      "action": "/ensdf/DatasetFetchServlet",
+      "method": "post",
+      "controls": [
+        {
+          "name": "nuc",
+          "value": "",
+          "type": "text"
+        },
+        {
+          "name": "searchType",
+          "value": "quick",
+          "type": "hidden"
+        },
+        {
+          "name": "datasource",
+          "value": "ensdf",
+          "type": "hidden"
+        }
+      ]
+    },
+    {
+      "action": "/ensdf/EnsdfDispatcherServlet",
+      "method": "post",
+      "controls": [
+        {
+          "name": "dbclass",
+          "value": "ensdf",
+          "type": "hidden"
+        },
+        {
+          "name": "page-source",
+          "value": "singular",
+          "type": "hidden"
+        },
+        {
+          "name": "chooseit",
+          "value": "PDF Version",
+          "type": "submit"
+        },
+        {
+          "name": "chooseit",
+          "value": "ENSDF text format",
+          "type": "submit"
+        },
+        {
+          "name": "chooseit",
+          "value": "PDF Version",
+          "type": "submit"
+        },
+        {
+          "name": "chooseit",
+          "value": "ENSDF text format",
+          "type": "submit"
+        }
+      ]
+    },
+    {
+      "action": "/ensdf/EnsdfDispatcherServlet",
+      "method": "post",
+      "controls": [
+        {
+          "name": "page-source",
+          "value": "coupled-xun",
+          "type": "hidden"
+        },
+        {
+          "name": "dbclass",
+          "value": "xundl",
+          "type": "hidden"
+        },
+        {
+          "name": "xunsamall",
+          "value": null,
+          "type": "checkbox"
+        },
+        {
+          "name": "xunpostcheck",
+          "value": "60028099,60NI",
+          "type": "checkbox"
+        },
+        {
+          "name": "xunpostcheck",
+          "value": "60028071,60NI",
+          "type": "checkbox"
+        },
+        {
+          "name": "xunpostcheck",
+          "value": "60028103,60NI",
+          "type": "checkbox"
+        },
+        {
+          "name": "xunpostcheck",
+          "value": "60028021,60NI",
+          "type": "checkbox"
+        },
+        {
+          "name": "xunpostcheck",
+          "value": "60028098,60NI",
+          "type": "checkbox"
+        },
+        {
+          "name": "xunpostcheck",
+          "value": "60028104,60NI",
+          "type": "checkbox"
+        },
+        {
+          "name": "xunpostcheck",
+          "value": "60028105,60NI",
+          "type": "checkbox"
+        },
+        {
+          "name": "postButton",
+          "value": "PDF Version",
+          "type": "submit"
+        },
+        {
+          "name": "postButton",
+          "value": "ENSDF text format",
+          "type": "submit"
+        }
+      ]
+    }
+  ]
+}

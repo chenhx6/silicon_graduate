@@ -1,0 +1,20 @@
+{
+  "at": "2026-10-19T04:57:55.242785+08:00",
+  "before_closedform_comparison": true,
+  "primed": "joint130rows alreadygenerated; 90deg andungatedcontrol observed; formulasderivedfromknownpureintermediatepop, notfittoMCrecords",
+  "x_definition": "cosgamma_gamma_angle",
+  "pure_rho2_mminus2_to2": [
+    "10/63",
+    "14/63",
+    "15/63",
+    "14/63",
+    "10/63"
+  ],
+  "W_formula": "5/126*(24+3*x\u00b2+x\u2074)",
+  "Qunnorm_formula": "5/126*(1-x\u00b2)*(4-x\u00b2)",
+  "Pparallel_formula": "(1-x\u00b2)*(4-x\u00b2)/(24+3*x\u00b2+x\u2074)",
+  "naive_scalar_average": "integral W*P dx / integral W dx =19/189 iflocalplanesincorrectlyco-oriented",
+  "correct_unobserved_reference": "densityintegratesincommonspecifiedtargetaxes =>Stokeszero",
+  "comparison": "allprefrozenpureangles/roles, scalar W&Q polynomial, exactrationalintegral andindependentjointfullsphere control",
+  "not_new_experiment_or_arrayQ": true
+}

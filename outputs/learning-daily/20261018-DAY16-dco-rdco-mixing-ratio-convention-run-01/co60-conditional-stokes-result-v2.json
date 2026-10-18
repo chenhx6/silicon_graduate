@@ -1,0 +1,4796 @@
+{
+  "identity": "CO60-JOINT-CONDITIONAL-STOKES-01",
+  "contract_sha256": "d68d48e1b42b7b4102138472231759ded68c25de7dd74aacbcd90d3a43db92a7",
+  "script_sha256": "cf6987cac158e5f0c26b6240da65333b8343291838877c95b11d4c9e06e51e67",
+  "leveldata_sha256": "ba3adf4390fb57de00341f19f0d42976083f13f82d2864c8382ddefb6d65268a",
+  "rows": [
+    {
+      "IQUV": [
+        1.1111111111111114,
+        0.0,
+        0.0,
+        1.0879070911803534e-17
+      ],
+      "normalized_Stokes": [
+        0.0,
+        0.0,
+        9.791163820623179e-18
+      ],
+      "linear_density_eigenvalues_over_trace": [
+        0.5,
+        0.5
+      ],
+      "case": "pureE2first",
+      "target_photon": "first",
+      "gamma_gamma_angle_deg": 0,
+      "reference_plane_defined": false,
+      "free_electron_point_KN_analyzing_power": 0.38470828634072246,
+      "conditional_point_cos2_amplitude": null
+    },
+    {
+      "IQUV": [
+        1.1111111111111114,
+        0.0,
+        0.0,
+        1.0879070911803534e-17
+      ],
+      "normalized_Stokes": [
+        0.0,
+        0.0,
+        9.791163820623179e-18
+      ],
+      "linear_density_eigenvalues_over_trace": [
+        0.5,
+        0.5
+      ],
+      "case": "pureE2first",
+      "target_photon": "last",
+      "gamma_gamma_angle_deg": 0,
+      "reference_plane_defined": false,
+      "free_electron_point_KN_analyzing_power": 0.34663817779585576,
+      "conditional_point_cos2_amplitude": null
+    },
+    {
+      "IQUV": [
+        1.0979980479193998,
+        0.008152745731393745,
+        0.0,
+        3.0602214837422734e-17
+      ],
+      "normalized_Stokes": [
+        0.007425100387785216,
+        0.0,
+        2.7870919165485746e-17
+      ],
+      "linear_density_eigenvalues_over_trace": [
+        0.49628744980610734,
+        0.5037125501938926
+      ],
+      "case": "pureE2first",
+      "target_photon": "first",
+      "gamma_gamma_angle_deg": 15,
+      "reference_plane_defined": true,
+      "free_electron_point_KN_analyzing_power": 0.38470828634072246,
+      "conditional_point_cos2_amplitude": 0.002856497646092684
+    },
+    {
+      "IQUV": [
+        1.0979980479193998,
+        0.008152745731393745,
+        0.0,
+        -6.624898166471849e-17
+      ],
+      "normalized_Stokes": [
+        0.007425100387785216,
+        0.0,
+        -6.033615614367796e-17
+      ],
+      "linear_density_eigenvalues_over_trace": [
+        0.49628744980610734,
+        0.5037125501938926
+      ],
+      "case": "pureE2first",
+      "target_photon": "last",
+      "gamma_gamma_angle_deg": 15,
+      "reference_plane_defined": true,
+      "free_electron_point_KN_analyzing_power": 0.34663817779585576,
+      "conditional_point_cos2_amplitude": 0.0025738232683731694
+    },
+    {
+      "IQUV": [
+        1.0639880952380953,
+        0.0322420634920634,
+        0.0,
+        -1.1878687249377946e-16
+      ],
+      "normalized_Stokes": [
+        0.03030303030303021,
+        0.0,
+        -1.1164304659555216e-16
+      ],
+      "linear_density_eigenvalues_over_trace": [
+        0.4848484848484849,
+        0.5151515151515151
+      ],
+      "case": "pureE2first",
+      "target_photon": "first",
+      "gamma_gamma_angle_deg": 30,
+      "reference_plane_defined": true,
+      "free_electron_point_KN_analyzing_power": 0.38470828634072246,
+      "conditional_point_cos2_amplitude": 0.011657826858809736
+    },
+    {
+      "IQUV": [
+        1.0639880952380953,
+        0.03224206349206347,
+        0.0,
+        1.1503259963375155e-16
+      ],
+      "normalized_Stokes": [
+        0.030303030303030276,
+        0.0,
+        1.0811455518025319e-16
+      ],
+      "linear_density_eigenvalues_over_trace": [
+        0.4848484848484848,
+        0.5151515151515151
+      ],
+      "case": "pureE2first",
+      "target_photon": "last",
+      "gamma_gamma_angle_deg": 30,
+      "reference_plane_defined": true,
+      "free_electron_point_KN_analyzing_power": 0.34663817779585576,
+      "conditional_point_cos2_amplitude": 0.010504187205935014
+    },
+    {
+      "IQUV": [
+        1.0218253968253967,
+        0.06944444444444442,
+        0.0,
+        2.6154526623427286e-17
+      ],
+      "normalized_Stokes": [
+        0.06796116504854367,
+        0.0,
+        2.5595886248946316e-17
+      ],
+      "linear_density_eigenvalues_over_trace": [
+        0.46601941747572817,
+        0.5339805825242718
+      ],
+      "case": "pureE2first",
+      "target_photon": "first",
+      "gamma_gamma_angle_deg": 45,
+      "reference_plane_defined": true,
+      "free_electron_point_KN_analyzing_power": 0.38470828634072246,
+      "conditional_point_cos2_amplitude": 0.02614522334354424
+    },
+    {
+      "IQUV": [
+        1.0218253968253967,
+        0.06944444444444421,
+        0.0,
+        -2.212532066019041e-18
+      ],
+      "normalized_Stokes": [
+        0.06796116504854346,
+        0.0,
+        -2.1652740995603818e-18
+      ],
+      "linear_density_eigenvalues_over_trace": [
+        0.4660194174757283,
+        0.5339805825242717
+      ],
+      "case": "pureE2first",
+      "target_photon": "last",
+      "gamma_gamma_angle_deg": 45,
+      "reference_plane_defined": true,
+      "free_electron_point_KN_analyzing_power": 0.34663817779585576,
+      "conditional_point_cos2_amplitude": 0.023557934413310506
+    },
+    {
+      "IQUV": [
+        0.984623015873016,
+        0.11160714285714285,
+        0.0,
+        -2.1935675991638243e-17
+      ],
+      "normalized_Stokes": [
+        0.11335012594458435,
+        0.0,
+        -2.227824826153284e-17
+      ],
+      "linear_density_eigenvalues_over_trace": [
+        0.4433249370277078,
+        0.5566750629722922
+      ],
+      "case": "pureE2first",
+      "target_photon": "first",
+      "gamma_gamma_angle_deg": 60,
+      "reference_plane_defined": true,
+      "free_electron_point_KN_analyzing_power": 0.38470828634072246,
+      "conditional_point_cos2_amplitude": 0.04360673270864611
+    },
+    {
+      "IQUV": [
+        0.9846230158730159,
+        0.11160714285714278,
+        0.0,
+        1.8181403131610328e-17
+      ],
+      "normalized_Stokes": [
+        0.1133501259445843,
+        0.0,
+        1.846534443996293e-17
+      ],
+      "linear_density_eigenvalues_over_trace": [
+        0.4433249370277078,
+        0.5566750629722921
+      ],
+      "case": "pureE2first",
+      "target_photon": "last",
+      "gamma_gamma_angle_deg": 60,
+      "reference_plane_defined": true,
+      "free_electron_point_KN_analyzing_power": 0.34663817779585576,
+      "conditional_point_cos2_amplitude": 0.03929148111036145
+    },
+    {
+      "IQUV": [
+        0.960533698112346,
+        0.14561709553844754,
+        0.0,
+        -6.624898166471849e-17
+      ],
+      "normalized_Stokes": [
+        0.151600194584132,
+        0.0,
+        -6.897101246412478e-17
+      ],
+      "linear_density_eigenvalues_over_trace": [
+        0.424199902707934,
+        0.5758000972920659
+      ],
+      "case": "pureE2first",
+      "target_photon": "first",
+      "gamma_gamma_angle_deg": 75,
+      "reference_plane_defined": true,
+      "free_electron_point_KN_analyzing_power": 0.38470828634072246,
+      "conditional_point_cos2_amplitude": 0.05832185106738149
+    },
+    {
+      "IQUV": [
+        0.960533698112346,
+        0.14561709553844754,
+        0.0,
+        3.0602214837422734e-17
+      ],
+      "normalized_Stokes": [
+        0.151600194584132,
+        0.0,
+        3.1859595241231644e-17
+      ],
+      "linear_density_eigenvalues_over_trace": [
+        0.424199902707934,
+        0.5758000972920659
+      ],
+      "case": "pureE2first",
+      "target_photon": "last",
+      "gamma_gamma_angle_deg": 75,
+      "reference_plane_defined": true,
+      "free_electron_point_KN_analyzing_power": 0.34663817779585576,
+      "conditional_point_cos2_amplitude": 0.05255041520414067
+    },
+    {
+      "IQUV": [
+        0.9523809523809527,
+        0.15873015873015883,
+        0.0,
+        7.936320872449843e-17
+      ],
+      "normalized_Stokes": [
+        0.1666666666666667,
+        0.0,
+        8.333136916072333e-17
+      ],
+      "linear_density_eigenvalues_over_trace": [
+        0.4166666666666666,
+        0.5833333333333334
+      ],
+      "case": "pureE2first",
+      "target_photon": "first",
+      "gamma_gamma_angle_deg": 90,
+      "reference_plane_defined": true,
+      "free_electron_point_KN_analyzing_power": 0.38470828634072246,
+      "conditional_point_cos2_amplitude": 0.06411804772345377
+    },
+    {
+      "IQUV": [
+        0.9523809523809523,
+        0.15873015873015883,
+        0.0,
+        -8.597212559033769e-17
+      ],
+      "normalized_Stokes": [
+        0.1666666666666668,
+        0.0,
+        -9.027073186985458e-17
+      ],
+      "linear_density_eigenvalues_over_trace": [
+        0.41666666666666663,
+        0.5833333333333335
+      ],
+      "case": "pureE2first",
+      "target_photon": "last",
+      "gamma_gamma_angle_deg": 90,
+      "reference_plane_defined": true,
+      "free_electron_point_KN_analyzing_power": 0.34663817779585576,
+      "conditional_point_cos2_amplitude": 0.05777302963264267
+    },
+    {
+      "IQUV": [
+        0.960533698112346,
+        0.1456170955384474,
+        0.0,
+        2.23515614797641e-18
+      ],
+      "normalized_Stokes": [
+        0.15160019458413182,
+        0.0,
+        2.326993995493307e-18
+      ],
+      "linear_density_eigenvalues_over_trace": [
+        0.42419990270793406,
+        0.5758000972920659
+      ],
+      "case": "pureE2first",
+      "target_photon": "first",
+      "gamma_gamma_angle_deg": 105,
+      "reference_plane_defined": true,
+      "free_electron_point_KN_analyzing_power": 0.38470828634072246,
+      "conditional_point_cos2_amplitude": 0.05832185106738143
+    },
+    {
+      "IQUV": [
+        0.9605336981123461,
+        0.14561709553844748,
+        0.0,
+        3.0602214837422734e-17
+      ],
+      "normalized_Stokes": [
+        0.1516001945841319,
+        0.0,
+        3.1859595241231644e-17
+      ],
+      "linear_density_eigenvalues_over_trace": [
+        0.424199902707934,
+        0.5758000972920659
+      ],
+      "case": "pureE2first",
+      "target_photon": "last",
+      "gamma_gamma_angle_deg": 105,
+      "reference_plane_defined": true,
+      "free_electron_point_KN_analyzing_power": 0.34663817779585576,
+      "conditional_point_cos2_amplitude": 0.052550415204140645
+    },
+    {
+      "IQUV": [
+        0.9846230158730156,
+        0.11160714285714278,
+        0.0,
+        -1.0185655557835999e-17
+      ],
+      "normalized_Stokes": [
+        0.11335012594458434,
+        0.0,
+        -1.0344726249167445e-17
+      ],
+      "linear_density_eigenvalues_over_trace": [
+        0.4433249370277079,
+        0.5566750629722922
+      ],
+      "case": "pureE2first",
+      "target_photon": "first",
+      "gamma_gamma_angle_deg": 120,
+      "reference_plane_defined": true,
+      "free_electron_point_KN_analyzing_power": 0.38470828634072246,
+      "conditional_point_cos2_amplitude": 0.0436067327086461
+    },
+    {
+      "IQUV": [
+        0.9846230158730156,
+        0.11160714285714278,
+        0.0,
+        -1.0185655557835999e-17
+      ],
+      "normalized_Stokes": [
+        0.11335012594458434,
+        0.0,
+        -1.0344726249167445e-17
+      ],
+      "linear_density_eigenvalues_over_trace": [
+        0.4433249370277079,
+        0.5566750629722922
+      ],
+      "case": "pureE2first",
+      "target_photon": "last",
+      "gamma_gamma_angle_deg": 120,
+      "reference_plane_defined": true,
+      "free_electron_point_KN_analyzing_power": 0.34663817779585576,
+      "conditional_point_cos2_amplitude": 0.039291481110361466
+    },
+    {
+      "IQUV": [
+        1.0218253968253967,
+        0.06944444444444442,
+        0.0,
+        2.6154526623427286e-17
+      ],
+      "normalized_Stokes": [
+        0.06796116504854367,
+        0.0,
+        2.5595886248946316e-17
+      ],
+      "linear_density_eigenvalues_over_trace": [
+        0.46601941747572817,
+        0.5339805825242718
+      ],
+      "case": "pureE2first",
+      "target_photon": "first",
+      "gamma_gamma_angle_deg": 135,
+      "reference_plane_defined": true,
+      "free_electron_point_KN_analyzing_power": 0.38470828634072246,
+      "conditional_point_cos2_amplitude": 0.02614522334354424
+    },
+    {
+      "IQUV": [
+        1.0218253968253967,
+        0.06944444444444421,
+        0.0,
+        -2.212532066019041e-18
+      ],
+      "normalized_Stokes": [
+        0.06796116504854346,
+        0.0,
+        -2.1652740995603818e-18
+      ],
+      "linear_density_eigenvalues_over_trace": [
+        0.4660194174757283,
+        0.5339805825242717
+      ],
+      "case": "pureE2first",
+      "target_photon": "last",
+      "gamma_gamma_angle_deg": 135,
+      "reference_plane_defined": true,
+      "free_electron_point_KN_analyzing_power": 0.34663817779585576,
+      "conditional_point_cos2_amplitude": 0.023557934413310506
+    },
+    {
+      "IQUV": [
+        1.0639880952380953,
+        0.03224206349206347,
+        0.0,
+        -2.1935675991638243e-17
+      ],
+      "normalized_Stokes": [
+        0.030303030303030276,
+        0.0,
+        -2.061646750542783e-17
+      ],
+      "linear_density_eigenvalues_over_trace": [
+        0.4848484848484849,
+        0.5151515151515151
+      ],
+      "case": "pureE2first",
+      "target_photon": "first",
+      "gamma_gamma_angle_deg": 150,
+      "reference_plane_defined": true,
+      "free_electron_point_KN_analyzing_power": 0.38470828634072246,
+      "conditional_point_cos2_amplitude": 0.01165782685880976
+    },
+    {
+      "IQUV": [
+        1.0639880952380953,
+        0.03224206349206347,
+        0.0,
+        -2.1935675991638243e-17
+      ],
+      "normalized_Stokes": [
+        0.030303030303030276,
+        0.0,
+        -2.061646750542783e-17
+      ],
+      "linear_density_eigenvalues_over_trace": [
+        0.4848484848484849,
+        0.5151515151515151
+      ],
+      "case": "pureE2first",
+      "target_photon": "last",
+      "gamma_gamma_angle_deg": 150,
+      "reference_plane_defined": true,
+      "free_electron_point_KN_analyzing_power": 0.34663817779585576,
+      "conditional_point_cos2_amplitude": 0.010504187205935014
+    },
+    {
+      "IQUV": [
+        1.0979980479193998,
+        0.008152745731393745,
+        0.0,
+        1.2745341133956397e-16
+      ],
+      "normalized_Stokes": [
+        0.007425100387785216,
+        0.0,
+        1.1607799447464945e-16
+      ],
+      "linear_density_eigenvalues_over_trace": [
+        0.49628744980610745,
+        0.5037125501938926
+      ],
+      "case": "pureE2first",
+      "target_photon": "first",
+      "gamma_gamma_angle_deg": 165,
+      "reference_plane_defined": true,
+      "free_electron_point_KN_analyzing_power": 0.38470828634072246,
+      "conditional_point_cos2_amplitude": 0.002856497646092684
+    },
+    {
+      "IQUV": [
+        1.0979980479193998,
+        0.008152745731393745,
+        0.0,
+        1.2745341133956397e-16
+      ],
+      "normalized_Stokes": [
+        0.007425100387785216,
+        0.0,
+        1.1607799447464945e-16
+      ],
+      "linear_density_eigenvalues_over_trace": [
+        0.49628744980610745,
+        0.5037125501938926
+      ],
+      "case": "pureE2first",
+      "target_photon": "last",
+      "gamma_gamma_angle_deg": 165,
+      "reference_plane_defined": true,
+      "free_electron_point_KN_analyzing_power": 0.34663817779585576,
+      "conditional_point_cos2_amplitude": 0.0025738232683731694
+    },
+    {
+      "IQUV": [
+        1.1111111111111114,
+        0.0,
+        0.0,
+        1.0879070911803534e-17
+      ],
+      "normalized_Stokes": [
+        0.0,
+        0.0,
+        9.791163820623179e-18
+      ],
+      "linear_density_eigenvalues_over_trace": [
+        0.5,
+        0.5
+      ],
+      "case": "pureE2first",
+      "target_photon": "first",
+      "gamma_gamma_angle_deg": 180,
+      "reference_plane_defined": false,
+      "free_electron_point_KN_analyzing_power": 0.38470828634072246,
+      "conditional_point_cos2_amplitude": null
+    },
+    {
+      "IQUV": [
+        1.1111111111111114,
+        0.0,
+        0.0,
+        1.0879070911803534e-17
+      ],
+      "normalized_Stokes": [
+        0.0,
+        0.0,
+        9.791163820623179e-18
+      ],
+      "linear_density_eigenvalues_over_trace": [
+        0.5,
+        0.5
+      ],
+      "case": "pureE2first",
+      "target_photon": "last",
+      "gamma_gamma_angle_deg": 180,
+      "reference_plane_defined": false,
+      "free_electron_point_KN_analyzing_power": 0.34663817779585576,
+      "conditional_point_cos2_amplitude": null
+    },
+    {
+      "IQUV": [
+        1.1099351229683585,
+        0.0,
+        0.0,
+        1.2873688118395145e-17
+      ],
+      "normalized_Stokes": [
+        0.0,
+        0.0,
+        1.1598595135872768e-17
+      ],
+      "linear_density_eigenvalues_over_trace": [
+        0.5,
+        0.5
+      ],
+      "case": "actualmixednative",
+      "target_photon": "first",
+      "gamma_gamma_angle_deg": 0,
+      "reference_plane_defined": false,
+      "free_electron_point_KN_analyzing_power": 0.38470828634072246,
+      "conditional_point_cos2_amplitude": null
+    },
+    {
+      "IQUV": [
+        1.1099351229683585,
+        0.0,
+        0.0,
+        1.2873688118395145e-17
+      ],
+      "normalized_Stokes": [
+        0.0,
+        0.0,
+        1.1598595135872768e-17
+      ],
+      "linear_density_eigenvalues_over_trace": [
+        0.5,
+        0.5
+      ],
+      "case": "actualmixednative",
+      "target_photon": "last",
+      "gamma_gamma_angle_deg": 0,
+      "reference_plane_defined": false,
+      "free_electron_point_KN_analyzing_power": 0.34663817779585576,
+      "conditional_point_cos2_amplitude": null
+    },
+    {
+      "IQUV": [
+        1.0968681469255017,
+        0.008092333144415443,
+        0.0,
+        -2.071944132217624e-16
+      ],
+      "normalized_Stokes": [
+        0.007377671753070852,
+        0.0,
+        -1.8889637173120943e-16
+      ],
+      "linear_density_eigenvalues_over_trace": [
+        0.4963111641234645,
+        0.5036888358765355
+      ],
+      "case": "actualmixednative",
+      "target_photon": "first",
+      "gamma_gamma_angle_deg": 15,
+      "reference_plane_defined": true,
+      "free_electron_point_KN_analyzing_power": 0.38470828634072246,
+      "conditional_point_cos2_amplitude": 0.002838251457308241
+    },
+    {
+      "IQUV": [
+        1.0968681469255013,
+        0.00792317201284042,
+        0.0,
+        -1.0747382613370688e-16
+      ],
+      "normalized_Stokes": [
+        0.007223449814865085,
+        0.0,
+        -9.798244796783806e-17
+      ],
+      "linear_density_eigenvalues_over_trace": [
+        0.49638827509256744,
+        0.5036117249074326
+      ],
+      "case": "actualmixednative",
+      "target_photon": "last",
+      "gamma_gamma_angle_deg": 15,
+      "reference_plane_defined": true,
+      "free_electron_point_KN_analyzing_power": 0.34663817779585576,
+      "conditional_point_cos2_amplitude": 0.0025039234812246447
+    },
+    {
+      "IQUV": [
+        1.0630512674222063,
+        0.03200332168936988,
+        0.0,
+        9.487137095654973e-17
+      ],
+      "normalized_Stokes": [
+        0.030105153599011978,
+        0.0,
+        8.924439851955906e-17
+      ],
+      "linear_density_eigenvalues_over_trace": [
+        0.484947423200494,
+        0.515052576799506
+      ],
+      "case": "actualmixednative",
+      "target_photon": "first",
+      "gamma_gamma_angle_deg": 30,
+      "reference_plane_defined": true,
+      "free_electron_point_KN_analyzing_power": 0.38470828634072246,
+      "conditional_point_cos2_amplitude": 0.011581702051100132
+    },
+    {
+      "IQUV": [
+        1.0630512674222061,
+        0.03145244345610315,
+        0.0,
+        2.7485910936851726e-17
+      ],
+      "normalized_Stokes": [
+        0.029586948833024967,
+        0.0,
+        2.5855677688529863e-17
+      ],
+      "linear_density_eigenvalues_over_trace": [
+        0.4852065255834875,
+        0.5147934744165125
+      ],
+      "case": "actualmixednative",
+      "target_photon": "last",
+      "gamma_gamma_angle_deg": 30,
+      "reference_plane_defined": true,
+      "free_electron_point_KN_analyzing_power": 0.34663817779585576,
+      "conditional_point_cos2_amplitude": 0.010255966030018996
+    },
+    {
+      "IQUV": [
+        1.0213112159060695,
+        0.06893068204928736,
+        0.0,
+        1.5460405171209922e-17
+      ],
+      "normalized_Stokes": [
+        0.06749233825669348,
+        0.0,
+        1.5137800241911592e-17
+      ],
+      "linear_density_eigenvalues_over_trace": [
+        0.4662538308716533,
+        0.5337461691283468
+      ],
+      "case": "actualmixednative",
+      "target_photon": "first",
+      "gamma_gamma_angle_deg": 45,
+      "reference_plane_defined": true,
+      "free_electron_point_KN_analyzing_power": 0.38470828634072246,
+      "conditional_point_cos2_amplitude": 0.025964861791860933
+    },
+    {
+      "IQUV": [
+        1.0213112159060695,
+        0.06804869094222282,
+        0.0,
+        3.989593186890926e-18
+      ],
+      "normalized_Stokes": [
+        0.06662875123901635,
+        0.0,
+        3.906344241359875e-18
+      ],
+      "linear_density_eigenvalues_over_trace": [
+        0.4666856243804919,
+        0.5333143756195082
+      ],
+      "case": "actualmixednative",
+      "target_photon": "last",
+      "gamma_gamma_angle_deg": 45,
+      "reference_plane_defined": true,
+      "free_electron_point_KN_analyzing_power": 0.34663817779585576,
+      "conditional_point_cos2_amplitude": 0.023096068918305995
+    },
+    {
+      "IQUV": [
+        0.9847149684199502,
+        0.11078208107975268,
+        0.0,
+        2.994431896739264e-17
+      ],
+      "normalized_Stokes": [
+        0.1125016726997772,
+        0.0,
+        3.0409123378555495e-17
+      ],
+      "linear_density_eigenvalues_over_trace": [
+        0.4437491636501114,
+        0.5562508363498886
+      ],
+      "case": "actualmixednative",
+      "target_photon": "first",
+      "gamma_gamma_angle_deg": 60,
+      "reference_plane_defined": true,
+      "free_electron_point_KN_analyzing_power": 0.38470828634072246,
+      "conditional_point_cos2_amplitude": 0.043280325714796127
+    },
+    {
+      "IQUV": [
+        0.9847149684199501,
+        0.10978874245835896,
+        0.0,
+        -6.93652855652895e-17
+      ],
+      "normalized_Stokes": [
+        0.11149291518795873,
+        0.0,
+        -7.044199366298998e-17
+      ],
+      "linear_density_eigenvalues_over_trace": [
+        0.4442535424060206,
+        0.5557464575939793
+      ],
+      "case": "actualmixednative",
+      "target_photon": "last",
+      "gamma_gamma_angle_deg": 60,
+      "reference_plane_defined": true,
+      "free_electron_point_KN_analyzing_power": 0.34663817779585576,
+      "conditional_point_cos2_amplitude": 0.038647700957901904
+    },
+    {
+      "IQUV": [
+        0.9611856969766873,
+        0.14454114696580223,
+        0.0,
+        -8.27913727815834e-17
+      ],
+      "normalized_Stokes": [
+        0.15037796278122098,
+        0.0,
+        -8.613462834704606e-17
+      ],
+      "linear_density_eigenvalues_over_trace": [
+        0.42481101860938947,
+        0.5751889813906105
+      ],
+      "case": "actualmixednative",
+      "target_photon": "first",
+      "gamma_gamma_angle_deg": 75,
+      "reference_plane_defined": true,
+      "free_electron_point_KN_analyzing_power": 0.38470828634072246,
+      "conditional_point_cos2_amplitude": 0.05785164836497247
+    },
+    {
+      "IQUV": [
+        0.9611856969766873,
+        0.1436056219616546,
+        0.0,
+        -7.910676744426055e-17
+      ],
+      "normalized_Stokes": [
+        0.14940465969619773,
+        0.0,
+        -8.230123241854608e-17
+      ],
+      "linear_density_eigenvalues_over_trace": [
+        0.4252976701519011,
+        0.5747023298480989
+      ],
+      "case": "actualmixednative",
+      "target_photon": "last",
+      "gamma_gamma_angle_deg": 75,
+      "reference_plane_defined": true,
+      "free_electron_point_KN_analyzing_power": 0.34663817779585576,
+      "conditional_point_cos2_amplitude": 0.05178935899129992
+    },
+    {
+      "IQUV": [
+        0.9532625249638468,
+        0.1575575187807656,
+        0.0,
+        -8.861335717047272e-17
+      ],
+      "normalized_Stokes": [
+        0.16528240086511434,
+        0.0,
+        -9.295797836365533e-17
+      ],
+      "linear_density_eigenvalues_over_trace": [
+        0.4173587995674428,
+        0.5826412004325572
+      ],
+      "case": "actualmixednative",
+      "target_photon": "first",
+      "gamma_gamma_angle_deg": 90,
+      "reference_plane_defined": true,
+      "free_electron_point_KN_analyzing_power": 0.38470828634072246,
+      "conditional_point_cos2_amplitude": 0.06358550919909849
+    },
+    {
+      "IQUV": [
+        0.9532625249638471,
+        0.15667259800451183,
+        0.0,
+        6.96078054972878e-17
+      ],
+      "normalized_Stokes": [
+        0.1643540933390345,
+        0.0,
+        7.302060416140632e-17
+      ],
+      "linear_density_eigenvalues_over_trace": [
+        0.41782295333048275,
+        0.5821770466695172
+      ],
+      "case": "actualmixednative",
+      "target_photon": "last",
+      "gamma_gamma_angle_deg": 90,
+      "reference_plane_defined": true,
+      "free_electron_point_KN_analyzing_power": 0.34663817779585576,
+      "conditional_point_cos2_amplitude": 0.056971403428332915
+    },
+    {
+      "IQUV": [
+        0.961185696976687,
+        0.14454114696580223,
+        0.0,
+        1.2266104065650128e-16
+      ],
+      "normalized_Stokes": [
+        0.15037796278122104,
+        0.0,
+        1.276143007977743e-16
+      ],
+      "linear_density_eigenvalues_over_trace": [
+        0.4248110186093896,
+        0.5751889813906105
+      ],
+      "case": "actualmixednative",
+      "target_photon": "first",
+      "gamma_gamma_angle_deg": 105,
+      "reference_plane_defined": true,
+      "free_electron_point_KN_analyzing_power": 0.38470828634072246,
+      "conditional_point_cos2_amplitude": 0.05785164836497249
+    },
+    {
+      "IQUV": [
+        0.9611856969766873,
+        0.14360562196165466,
+        0.0,
+        8.622856687057557e-17
+      ],
+      "normalized_Stokes": [
+        0.1494046596961978,
+        0.0,
+        8.971062214283757e-17
+      ],
+      "linear_density_eigenvalues_over_trace": [
+        0.42529767015190123,
+        0.5747023298480989
+      ],
+      "case": "actualmixednative",
+      "target_photon": "last",
+      "gamma_gamma_angle_deg": 105,
+      "reference_plane_defined": true,
+      "free_electron_point_KN_analyzing_power": 0.34663817779585576,
+      "conditional_point_cos2_amplitude": 0.05178935899129993
+    },
+    {
+      "IQUV": [
+        0.9847149684199501,
+        0.11078208107975268,
+        0.0,
+        1.5772602779463151e-18
+      ],
+      "normalized_Stokes": [
+        0.11250167269977722,
+        0.0,
+        1.6017429698231854e-18
+      ],
+      "linear_density_eigenvalues_over_trace": [
+        0.4437491636501114,
+        0.5562508363498886
+      ],
+      "case": "actualmixednative",
+      "target_photon": "first",
+      "gamma_gamma_angle_deg": 120,
+      "reference_plane_defined": true,
+      "free_electron_point_KN_analyzing_power": 0.38470828634072246,
+      "conditional_point_cos2_amplitude": 0.04328032571479613
+    },
+    {
+      "IQUV": [
+        0.98471496841995,
+        0.10978874245835889,
+        0.0,
+        -9.773234425473582e-17
+      ],
+      "normalized_Stokes": [
+        0.11149291518795867,
+        0.0,
+        -9.924937407172229e-17
+      ],
+      "linear_density_eigenvalues_over_trace": [
+        0.44425354240602066,
+        0.5557464575939793
+      ],
+      "case": "actualmixednative",
+      "target_photon": "last",
+      "gamma_gamma_angle_deg": 120,
+      "reference_plane_defined": true,
+      "free_electron_point_KN_analyzing_power": 0.34663817779585576,
+      "conditional_point_cos2_amplitude": 0.03864770095790188
+    },
+    {
+      "IQUV": [
+        1.02131121590607,
+        0.06893068204928736,
+        0.0,
+        1.1231160167335116e-16
+      ],
+      "normalized_Stokes": [
+        0.06749233825669346,
+        0.0,
+        1.099680488417161e-16
+      ],
+      "linear_density_eigenvalues_over_trace": [
+        0.46625383087165323,
+        0.5337461691283467
+      ],
+      "case": "actualmixednative",
+      "target_photon": "first",
+      "gamma_gamma_angle_deg": 135,
+      "reference_plane_defined": true,
+      "free_electron_point_KN_analyzing_power": 0.38470828634072246,
+      "conditional_point_cos2_amplitude": 0.025964861791860923
+    },
+    {
+      "IQUV": [
+        1.0213112159060695,
+        0.06804869094222282,
+        0.0,
+        3.989593186890926e-18
+      ],
+      "normalized_Stokes": [
+        0.06662875123901635,
+        0.0,
+        3.906344241359875e-18
+      ],
+      "linear_density_eigenvalues_over_trace": [
+        0.4666856243804919,
+        0.5333143756195082
+      ],
+      "case": "actualmixednative",
+      "target_photon": "last",
+      "gamma_gamma_angle_deg": 135,
+      "reference_plane_defined": true,
+      "free_electron_point_KN_analyzing_power": 0.34663817779585576,
+      "conditional_point_cos2_amplitude": 0.023096068918305995
+    },
+    {
+      "IQUV": [
+        1.0630512674222063,
+        0.03200332168937002,
+        0.0,
+        -1.1058104248153496e-16
+      ],
+      "normalized_Stokes": [
+        0.03010515359901211,
+        0.0,
+        -1.0402230435196507e-16
+      ],
+      "linear_density_eigenvalues_over_trace": [
+        0.4849474232004939,
+        0.515052576799506
+      ],
+      "case": "actualmixednative",
+      "target_photon": "first",
+      "gamma_gamma_angle_deg": 150,
+      "reference_plane_defined": true,
+      "free_electron_point_KN_analyzing_power": 0.38470828634072246,
+      "conditional_point_cos2_amplitude": 0.011581702051100182
+    },
+    {
+      "IQUV": [
+        1.0630512674222061,
+        0.03145244345610322,
+        0.0,
+        -1.0948236468853807e-16
+      ],
+      "normalized_Stokes": [
+        0.02958694883302503,
+        0.0,
+        -1.0298879089248625e-16
+      ],
+      "linear_density_eigenvalues_over_trace": [
+        0.4852065255834875,
+        0.5147934744165125
+      ],
+      "case": "actualmixednative",
+      "target_photon": "last",
+      "gamma_gamma_angle_deg": 150,
+      "reference_plane_defined": true,
+      "free_electron_point_KN_analyzing_power": 0.34663817779585576,
+      "conditional_point_cos2_amplitude": 0.010255966030019017
+    },
+    {
+      "IQUV": [
+        1.0968681469255015,
+        0.008092333144415511,
+        0.0,
+        1.9196039322060474e-16
+      ],
+      "normalized_Stokes": [
+        0.007377671753070915,
+        0.0,
+        1.7500771971422974e-16
+      ],
+      "linear_density_eigenvalues_over_trace": [
+        0.49631116412346454,
+        0.5036888358765355
+      ],
+      "case": "actualmixednative",
+      "target_photon": "first",
+      "gamma_gamma_angle_deg": 165,
+      "reference_plane_defined": true,
+      "free_electron_point_KN_analyzing_power": 0.38470828634072246,
+      "conditional_point_cos2_amplitude": 0.0028382514573082654
+    },
+    {
+      "IQUV": [
+        1.0968681469255015,
+        0.007923172012840558,
+        0.0,
+        1.145956255600219e-16
+      ],
+      "normalized_Stokes": [
+        0.007223449814865208,
+        0.0,
+        1.044752971277642e-16
+      ],
+      "linear_density_eigenvalues_over_trace": [
+        0.4963882750925674,
+        0.5036117249074326
+      ],
+      "case": "actualmixednative",
+      "target_photon": "last",
+      "gamma_gamma_angle_deg": 165,
+      "reference_plane_defined": true,
+      "free_electron_point_KN_analyzing_power": 0.34663817779585576,
+      "conditional_point_cos2_amplitude": 0.0025039234812246876
+    },
+    {
+      "IQUV": [
+        1.1099351229683585,
+        0.0,
+        0.0,
+        1.2873688118395145e-17
+      ],
+      "normalized_Stokes": [
+        0.0,
+        0.0,
+        1.1598595135872768e-17
+      ],
+      "linear_density_eigenvalues_over_trace": [
+        0.5,
+        0.5
+      ],
+      "case": "actualmixednative",
+      "target_photon": "first",
+      "gamma_gamma_angle_deg": 180,
+      "reference_plane_defined": false,
+      "free_electron_point_KN_analyzing_power": 0.38470828634072246,
+      "conditional_point_cos2_amplitude": null
+    },
+    {
+      "IQUV": [
+        1.1099351229683585,
+        0.0,
+        0.0,
+        1.2873688118395145e-17
+      ],
+      "normalized_Stokes": [
+        0.0,
+        0.0,
+        1.1598595135872768e-17
+      ],
+      "linear_density_eigenvalues_over_trace": [
+        0.5,
+        0.5
+      ],
+      "case": "actualmixednative",
+      "target_photon": "last",
+      "gamma_gamma_angle_deg": 180,
+      "reference_plane_defined": false,
+      "free_electron_point_KN_analyzing_power": 0.34663817779585576,
+      "conditional_point_cos2_amplitude": null
+    },
+    {
+      "IQUV": [
+        1.1099351229683585,
+        0.0,
+        0.0,
+        1.2873688118395145e-17
+      ],
+      "normalized_Stokes": [
+        0.0,
+        0.0,
+        1.1598595135872768e-17
+      ],
+      "linear_density_eigenvalues_over_trace": [
+        0.5,
+        0.5
+      ],
+      "case": "actualmixedRBsamephysics",
+      "target_photon": "first",
+      "gamma_gamma_angle_deg": 0,
+      "reference_plane_defined": false,
+      "free_electron_point_KN_analyzing_power": 0.38470828634072246,
+      "conditional_point_cos2_amplitude": null
+    },
+    {
+      "IQUV": [
+        1.1099351229683585,
+        0.0,
+        0.0,
+        1.2873688118395145e-17
+      ],
+      "normalized_Stokes": [
+        0.0,
+        0.0,
+        1.1598595135872768e-17
+      ],
+      "linear_density_eigenvalues_over_trace": [
+        0.5,
+        0.5
+      ],
+      "case": "actualmixedRBsamephysics",
+      "target_photon": "last",
+      "gamma_gamma_angle_deg": 0,
+      "reference_plane_defined": false,
+      "free_electron_point_KN_analyzing_power": 0.34663817779585576,
+      "conditional_point_cos2_amplitude": null
+    },
+    {
+      "IQUV": [
+        1.0968681469255017,
+        0.008092333144415443,
+        0.0,
+        -2.071944132217624e-16
+      ],
+      "normalized_Stokes": [
+        0.007377671753070852,
+        0.0,
+        -1.8889637173120943e-16
+      ],
+      "linear_density_eigenvalues_over_trace": [
+        0.4963111641234645,
+        0.5036888358765355
+      ],
+      "case": "actualmixedRBsamephysics",
+      "target_photon": "first",
+      "gamma_gamma_angle_deg": 15,
+      "reference_plane_defined": true,
+      "free_electron_point_KN_analyzing_power": 0.38470828634072246,
+      "conditional_point_cos2_amplitude": 0.002838251457308241
+    },
+    {
+      "IQUV": [
+        1.0968681469255013,
+        0.00792317201284042,
+        0.0,
+        -1.0747382613370688e-16
+      ],
+      "normalized_Stokes": [
+        0.007223449814865085,
+        0.0,
+        -9.798244796783806e-17
+      ],
+      "linear_density_eigenvalues_over_trace": [
+        0.49638827509256744,
+        0.5036117249074326
+      ],
+      "case": "actualmixedRBsamephysics",
+      "target_photon": "last",
+      "gamma_gamma_angle_deg": 15,
+      "reference_plane_defined": true,
+      "free_electron_point_KN_analyzing_power": 0.34663817779585576,
+      "conditional_point_cos2_amplitude": 0.0025039234812246447
+    },
+    {
+      "IQUV": [
+        1.0630512674222063,
+        0.03200332168936988,
+        0.0,
+        9.487137095654973e-17
+      ],
+      "normalized_Stokes": [
+        0.030105153599011978,
+        0.0,
+        8.924439851955906e-17
+      ],
+      "linear_density_eigenvalues_over_trace": [
+        0.484947423200494,
+        0.515052576799506
+      ],
+      "case": "actualmixedRBsamephysics",
+      "target_photon": "first",
+      "gamma_gamma_angle_deg": 30,
+      "reference_plane_defined": true,
+      "free_electron_point_KN_analyzing_power": 0.38470828634072246,
+      "conditional_point_cos2_amplitude": 0.011581702051100132
+    },
+    {
+      "IQUV": [
+        1.0630512674222061,
+        0.03145244345610315,
+        0.0,
+        2.7485910936851726e-17
+      ],
+      "normalized_Stokes": [
+        0.029586948833024967,
+        0.0,
+        2.5855677688529863e-17
+      ],
+      "linear_density_eigenvalues_over_trace": [
+        0.4852065255834875,
+        0.5147934744165125
+      ],
+      "case": "actualmixedRBsamephysics",
+      "target_photon": "last",
+      "gamma_gamma_angle_deg": 30,
+      "reference_plane_defined": true,
+      "free_electron_point_KN_analyzing_power": 0.34663817779585576,
+      "conditional_point_cos2_amplitude": 0.010255966030018996
+    },
+    {
+      "IQUV": [
+        1.0213112159060695,
+        0.06893068204928736,
+        0.0,
+        1.5460405171209922e-17
+      ],
+      "normalized_Stokes": [
+        0.06749233825669348,
+        0.0,
+        1.5137800241911592e-17
+      ],
+      "linear_density_eigenvalues_over_trace": [
+        0.4662538308716533,
+        0.5337461691283468
+      ],
+      "case": "actualmixedRBsamephysics",
+      "target_photon": "first",
+      "gamma_gamma_angle_deg": 45,
+      "reference_plane_defined": true,
+      "free_electron_point_KN_analyzing_power": 0.38470828634072246,
+      "conditional_point_cos2_amplitude": 0.025964861791860933
+    },
+    {
+      "IQUV": [
+        1.0213112159060695,
+        0.06804869094222282,
+        0.0,
+        3.989593186890926e-18
+      ],
+      "normalized_Stokes": [
+        0.06662875123901635,
+        0.0,
+        3.906344241359875e-18
+      ],
+      "linear_density_eigenvalues_over_trace": [
+        0.4666856243804919,
+        0.5333143756195082
+      ],
+      "case": "actualmixedRBsamephysics",
+      "target_photon": "last",
+      "gamma_gamma_angle_deg": 45,
+      "reference_plane_defined": true,
+      "free_electron_point_KN_analyzing_power": 0.34663817779585576,
+      "conditional_point_cos2_amplitude": 0.023096068918305995
+    },
+    {
+      "IQUV": [
+        0.9847149684199502,
+        0.11078208107975268,
+        0.0,
+        2.994431896739264e-17
+      ],
+      "normalized_Stokes": [
+        0.1125016726997772,
+        0.0,
+        3.0409123378555495e-17
+      ],
+      "linear_density_eigenvalues_over_trace": [
+        0.4437491636501114,
+        0.5562508363498886
+      ],
+      "case": "actualmixedRBsamephysics",
+      "target_photon": "first",
+      "gamma_gamma_angle_deg": 60,
+      "reference_plane_defined": true,
+      "free_electron_point_KN_analyzing_power": 0.38470828634072246,
+      "conditional_point_cos2_amplitude": 0.043280325714796127
+    },
+    {
+      "IQUV": [
+        0.9847149684199501,
+        0.10978874245835896,
+        0.0,
+        -6.93652855652895e-17
+      ],
+      "normalized_Stokes": [
+        0.11149291518795873,
+        0.0,
+        -7.044199366298998e-17
+      ],
+      "linear_density_eigenvalues_over_trace": [
+        0.4442535424060206,
+        0.5557464575939793
+      ],
+      "case": "actualmixedRBsamephysics",
+      "target_photon": "last",
+      "gamma_gamma_angle_deg": 60,
+      "reference_plane_defined": true,
+      "free_electron_point_KN_analyzing_power": 0.34663817779585576,
+      "conditional_point_cos2_amplitude": 0.038647700957901904
+    },
+    {
+      "IQUV": [
+        0.9611856969766873,
+        0.14454114696580223,
+        0.0,
+        -8.27913727815834e-17
+      ],
+      "normalized_Stokes": [
+        0.15037796278122098,
+        0.0,
+        -8.613462834704606e-17
+      ],
+      "linear_density_eigenvalues_over_trace": [
+        0.42481101860938947,
+        0.5751889813906105
+      ],
+      "case": "actualmixedRBsamephysics",
+      "target_photon": "first",
+      "gamma_gamma_angle_deg": 75,
+      "reference_plane_defined": true,
+      "free_electron_point_KN_analyzing_power": 0.38470828634072246,
+      "conditional_point_cos2_amplitude": 0.05785164836497247
+    },
+    {
+      "IQUV": [
+        0.9611856969766873,
+        0.1436056219616546,
+        0.0,
+        -7.910676744426055e-17
+      ],
+      "normalized_Stokes": [
+        0.14940465969619773,
+        0.0,
+        -8.230123241854608e-17
+      ],
+      "linear_density_eigenvalues_over_trace": [
+        0.4252976701519011,
+        0.5747023298480989
+      ],
+      "case": "actualmixedRBsamephysics",
+      "target_photon": "last",
+      "gamma_gamma_angle_deg": 75,
+      "reference_plane_defined": true,
+      "free_electron_point_KN_analyzing_power": 0.34663817779585576,
+      "conditional_point_cos2_amplitude": 0.05178935899129992
+    },
+    {
+      "IQUV": [
+        0.9532625249638468,
+        0.1575575187807656,
+        0.0,
+        -8.861335717047272e-17
+      ],
+      "normalized_Stokes": [
+        0.16528240086511434,
+        0.0,
+        -9.295797836365533e-17
+      ],
+      "linear_density_eigenvalues_over_trace": [
+        0.4173587995674428,
+        0.5826412004325572
+      ],
+      "case": "actualmixedRBsamephysics",
+      "target_photon": "first",
+      "gamma_gamma_angle_deg": 90,
+      "reference_plane_defined": true,
+      "free_electron_point_KN_analyzing_power": 0.38470828634072246,
+      "conditional_point_cos2_amplitude": 0.06358550919909849
+    },
+    {
+      "IQUV": [
+        0.9532625249638471,
+        0.15667259800451183,
+        0.0,
+        6.96078054972878e-17
+      ],
+      "normalized_Stokes": [
+        0.1643540933390345,
+        0.0,
+        7.302060416140632e-17
+      ],
+      "linear_density_eigenvalues_over_trace": [
+        0.41782295333048275,
+        0.5821770466695172
+      ],
+      "case": "actualmixedRBsamephysics",
+      "target_photon": "last",
+      "gamma_gamma_angle_deg": 90,
+      "reference_plane_defined": true,
+      "free_electron_point_KN_analyzing_power": 0.34663817779585576,
+      "conditional_point_cos2_amplitude": 0.056971403428332915
+    },
+    {
+      "IQUV": [
+        0.961185696976687,
+        0.14454114696580223,
+        0.0,
+        1.2266104065650128e-16
+      ],
+      "normalized_Stokes": [
+        0.15037796278122104,
+        0.0,
+        1.276143007977743e-16
+      ],
+      "linear_density_eigenvalues_over_trace": [
+        0.4248110186093896,
+        0.5751889813906105
+      ],
+      "case": "actualmixedRBsamephysics",
+      "target_photon": "first",
+      "gamma_gamma_angle_deg": 105,
+      "reference_plane_defined": true,
+      "free_electron_point_KN_analyzing_power": 0.38470828634072246,
+      "conditional_point_cos2_amplitude": 0.05785164836497249
+    },
+    {
+      "IQUV": [
+        0.9611856969766873,
+        0.14360562196165466,
+        0.0,
+        8.622856687057557e-17
+      ],
+      "normalized_Stokes": [
+        0.1494046596961978,
+        0.0,
+        8.971062214283757e-17
+      ],
+      "linear_density_eigenvalues_over_trace": [
+        0.42529767015190123,
+        0.5747023298480989
+      ],
+      "case": "actualmixedRBsamephysics",
+      "target_photon": "last",
+      "gamma_gamma_angle_deg": 105,
+      "reference_plane_defined": true,
+      "free_electron_point_KN_analyzing_power": 0.34663817779585576,
+      "conditional_point_cos2_amplitude": 0.05178935899129993
+    },
+    {
+      "IQUV": [
+        0.9847149684199501,
+        0.11078208107975268,
+        0.0,
+        1.5772602779463151e-18
+      ],
+      "normalized_Stokes": [
+        0.11250167269977722,
+        0.0,
+        1.6017429698231854e-18
+      ],
+      "linear_density_eigenvalues_over_trace": [
+        0.4437491636501114,
+        0.5562508363498886
+      ],
+      "case": "actualmixedRBsamephysics",
+      "target_photon": "first",
+      "gamma_gamma_angle_deg": 120,
+      "reference_plane_defined": true,
+      "free_electron_point_KN_analyzing_power": 0.38470828634072246,
+      "conditional_point_cos2_amplitude": 0.04328032571479613
+    },
+    {
+      "IQUV": [
+        0.98471496841995,
+        0.10978874245835889,
+        0.0,
+        -9.773234425473582e-17
+      ],
+      "normalized_Stokes": [
+        0.11149291518795867,
+        0.0,
+        -9.924937407172229e-17
+      ],
+      "linear_density_eigenvalues_over_trace": [
+        0.44425354240602066,
+        0.5557464575939793
+      ],
+      "case": "actualmixedRBsamephysics",
+      "target_photon": "last",
+      "gamma_gamma_angle_deg": 120,
+      "reference_plane_defined": true,
+      "free_electron_point_KN_analyzing_power": 0.34663817779585576,
+      "conditional_point_cos2_amplitude": 0.03864770095790188
+    },
+    {
+      "IQUV": [
+        1.02131121590607,
+        0.06893068204928736,
+        0.0,
+        1.1231160167335116e-16
+      ],
+      "normalized_Stokes": [
+        0.06749233825669346,
+        0.0,
+        1.099680488417161e-16
+      ],
+      "linear_density_eigenvalues_over_trace": [
+        0.46625383087165323,
+        0.5337461691283467
+      ],
+      "case": "actualmixedRBsamephysics",
+      "target_photon": "first",
+      "gamma_gamma_angle_deg": 135,
+      "reference_plane_defined": true,
+      "free_electron_point_KN_analyzing_power": 0.38470828634072246,
+      "conditional_point_cos2_amplitude": 0.025964861791860923
+    },
+    {
+      "IQUV": [
+        1.0213112159060695,
+        0.06804869094222282,
+        0.0,
+        3.989593186890926e-18
+      ],
+      "normalized_Stokes": [
+        0.06662875123901635,
+        0.0,
+        3.906344241359875e-18
+      ],
+      "linear_density_eigenvalues_over_trace": [
+        0.4666856243804919,
+        0.5333143756195082
+      ],
+      "case": "actualmixedRBsamephysics",
+      "target_photon": "last",
+      "gamma_gamma_angle_deg": 135,
+      "reference_plane_defined": true,
+      "free_electron_point_KN_analyzing_power": 0.34663817779585576,
+      "conditional_point_cos2_amplitude": 0.023096068918305995
+    },
+    {
+      "IQUV": [
+        1.0630512674222063,
+        0.03200332168937002,
+        0.0,
+        -1.1058104248153496e-16
+      ],
+      "normalized_Stokes": [
+        0.03010515359901211,
+        0.0,
+        -1.0402230435196507e-16
+      ],
+      "linear_density_eigenvalues_over_trace": [
+        0.4849474232004939,
+        0.515052576799506
+      ],
+      "case": "actualmixedRBsamephysics",
+      "target_photon": "first",
+      "gamma_gamma_angle_deg": 150,
+      "reference_plane_defined": true,
+      "free_electron_point_KN_analyzing_power": 0.38470828634072246,
+      "conditional_point_cos2_amplitude": 0.011581702051100182
+    },
+    {
+      "IQUV": [
+        1.0630512674222061,
+        0.03145244345610322,
+        0.0,
+        -1.0948236468853807e-16
+      ],
+      "normalized_Stokes": [
+        0.02958694883302503,
+        0.0,
+        -1.0298879089248625e-16
+      ],
+      "linear_density_eigenvalues_over_trace": [
+        0.4852065255834875,
+        0.5147934744165125
+      ],
+      "case": "actualmixedRBsamephysics",
+      "target_photon": "last",
+      "gamma_gamma_angle_deg": 150,
+      "reference_plane_defined": true,
+      "free_electron_point_KN_analyzing_power": 0.34663817779585576,
+      "conditional_point_cos2_amplitude": 0.010255966030019017
+    },
+    {
+      "IQUV": [
+        1.0968681469255015,
+        0.008092333144415511,
+        0.0,
+        1.9196039322060474e-16
+      ],
+      "normalized_Stokes": [
+        0.007377671753070915,
+        0.0,
+        1.7500771971422974e-16
+      ],
+      "linear_density_eigenvalues_over_trace": [
+        0.49631116412346454,
+        0.5036888358765355
+      ],
+      "case": "actualmixedRBsamephysics",
+      "target_photon": "first",
+      "gamma_gamma_angle_deg": 165,
+      "reference_plane_defined": true,
+      "free_electron_point_KN_analyzing_power": 0.38470828634072246,
+      "conditional_point_cos2_amplitude": 0.0028382514573082654
+    },
+    {
+      "IQUV": [
+        1.0968681469255015,
+        0.007923172012840558,
+        0.0,
+        1.145956255600219e-16
+      ],
+      "normalized_Stokes": [
+        0.007223449814865208,
+        0.0,
+        1.044752971277642e-16
+      ],
+      "linear_density_eigenvalues_over_trace": [
+        0.4963882750925674,
+        0.5036117249074326
+      ],
+      "case": "actualmixedRBsamephysics",
+      "target_photon": "last",
+      "gamma_gamma_angle_deg": 165,
+      "reference_plane_defined": true,
+      "free_electron_point_KN_analyzing_power": 0.34663817779585576,
+      "conditional_point_cos2_amplitude": 0.0025039234812246876
+    },
+    {
+      "IQUV": [
+        1.1099351229683585,
+        0.0,
+        0.0,
+        1.2873688118395145e-17
+      ],
+      "normalized_Stokes": [
+        0.0,
+        0.0,
+        1.1598595135872768e-17
+      ],
+      "linear_density_eigenvalues_over_trace": [
+        0.5,
+        0.5
+      ],
+      "case": "actualmixedRBsamephysics",
+      "target_photon": "first",
+      "gamma_gamma_angle_deg": 180,
+      "reference_plane_defined": false,
+      "free_electron_point_KN_analyzing_power": 0.38470828634072246,
+      "conditional_point_cos2_amplitude": null
+    },
+    {
+      "IQUV": [
+        1.1099351229683585,
+        0.0,
+        0.0,
+        1.2873688118395145e-17
+      ],
+      "normalized_Stokes": [
+        0.0,
+        0.0,
+        1.1598595135872768e-17
+      ],
+      "linear_density_eigenvalues_over_trace": [
+        0.5,
+        0.5
+      ],
+      "case": "actualmixedRBsamephysics",
+      "target_photon": "last",
+      "gamma_gamma_angle_deg": 180,
+      "reference_plane_defined": false,
+      "free_electron_point_KN_analyzing_power": 0.34663817779585576,
+      "conditional_point_cos2_amplitude": null
+    },
+    {
+      "IQUV": [
+        0.7638888888888887,
+        0.0,
+        0.0,
+        -3.2104762717777367e-18
+      ],
+      "normalized_Stokes": [
+        0.0,
+        0.0,
+        -4.202805301236311e-18
+      ],
+      "linear_density_eigenvalues_over_trace": [
+        0.5,
+        0.5
+      ],
+      "case": "pureM3upperpositive",
+      "target_photon": "first",
+      "gamma_gamma_angle_deg": 0,
+      "reference_plane_defined": false,
+      "free_electron_point_KN_analyzing_power": 0.38470828634072246,
+      "conditional_point_cos2_amplitude": null
+    },
+    {
+      "IQUV": [
+        0.7638888888888887,
+        0.0,
+        0.0,
+        -3.2104762717777367e-18
+      ],
+      "normalized_Stokes": [
+        0.0,
+        0.0,
+        -4.202805301236311e-18
+      ],
+      "linear_density_eigenvalues_over_trace": [
+        0.5,
+        0.5
+      ],
+      "case": "pureM3upperpositive",
+      "target_photon": "last",
+      "gamma_gamma_angle_deg": 0,
+      "reference_plane_defined": false,
+      "free_electron_point_KN_analyzing_power": 0.34663817779585576,
+      "conditional_point_cos2_amplitude": null
+    },
+    {
+      "IQUV": [
+        0.7807937596939437,
+        -0.011462743712576178,
+        0.0,
+        6.766683147283665e-17
+      ],
+      "normalized_Stokes": [
+        -0.014680885407011136,
+        0.0,
+        8.666415507644523e-17
+      ],
+      "linear_density_eigenvalues_over_trace": [
+        0.4926595572964944,
+        0.5073404427035055
+      ],
+      "case": "pureM3upperpositive",
+      "target_photon": "first",
+      "gamma_gamma_angle_deg": 15,
+      "reference_plane_defined": true,
+      "free_electron_point_KN_analyzing_power": 0.38470828634072246,
+      "conditional_point_cos2_amplitude": -0.005647858266895774
+    },
+    {
+      "IQUV": [
+        0.7807937596939437,
+        -0.03426598191616626,
+        0.0,
+        5.0629005728107026e-17
+      ],
+      "normalized_Stokes": [
+        -0.04388608578224021,
+        0.0,
+        6.484299483637347e-17
+      ],
+      "linear_density_eigenvalues_over_trace": [
+        0.47805695710887985,
+        0.52194304289112
+      ],
+      "case": "pureM3upperpositive",
+      "target_photon": "last",
+      "gamma_gamma_angle_deg": 15,
+      "reference_plane_defined": true,
+      "free_electron_point_KN_analyzing_power": 0.34663817779585576,
+      "conditional_point_cos2_amplitude": -0.015212592806148359
+    },
+    {
+      "IQUV": [
+        0.8333333333333336,
+        -0.01736111111111136,
+        0.0,
+        -1.2461184314818344e-16
+      ],
+      "normalized_Stokes": [
+        -0.020833333333333627,
+        0.0,
+        -1.495342117778201e-16
+      ],
+      "linear_density_eigenvalues_over_trace": [
+        0.48958333333333304,
+        0.5104166666666669
+      ],
+      "case": "pureM3upperpositive",
+      "target_photon": "first",
+      "gamma_gamma_angle_deg": 30,
+      "reference_plane_defined": true,
+      "free_electron_point_KN_analyzing_power": 0.38470828634072246,
+      "conditional_point_cos2_amplitude": -0.00801475596543183
+    },
+    {
+      "IQUV": [
+        0.8333333333333333,
+        -0.12152777777777768,
+        0.0,
+        -5.889446414401039e-17
+      ],
+      "normalized_Stokes": [
+        -0.14583333333333323,
+        0.0,
+        -7.067335697281248e-17
+      ],
+      "linear_density_eigenvalues_over_trace": [
+        0.42708333333333337,
+        0.5729166666666666
+      ],
+      "case": "pureM3upperpositive",
+      "target_photon": "last",
+      "gamma_gamma_angle_deg": 30,
+      "reference_plane_defined": true,
+      "free_electron_point_KN_analyzing_power": 0.34663817779585576,
+      "conditional_point_cos2_amplitude": -0.050551400928562265
+    },
+    {
+      "IQUV": [
+        0.9201388888888885,
+        0.034722222222222175,
+        0.0,
+        6.447104247297273e-17
+      ],
+      "normalized_Stokes": [
+        0.03773584905660374,
+        0.0,
+        7.006664238572133e-17
+      ],
+      "linear_density_eigenvalues_over_trace": [
+        0.4811320754716981,
+        0.5188679245283019
+      ],
+      "case": "pureM3upperpositive",
+      "target_photon": "first",
+      "gamma_gamma_angle_deg": 45,
+      "reference_plane_defined": true,
+      "free_electron_point_KN_analyzing_power": 0.38470828634072246,
+      "conditional_point_cos2_amplitude": 0.014517293824178192
+    },
+    {
+      "IQUV": [
+        0.9201388888888888,
+        -0.22569444444444456,
+        0.0,
+        -1.0190617864626685e-16
+      ],
+      "normalized_Stokes": [
+        -0.24528301886792467,
+        0.0,
+        -1.1075086584952775e-16
+      ],
+      "linear_density_eigenvalues_over_trace": [
+        0.37735849056603765,
+        0.6226415094339623
+      ],
+      "case": "pureM3upperpositive",
+      "target_photon": "last",
+      "gamma_gamma_angle_deg": 45,
+      "reference_plane_defined": true,
+      "free_electron_point_KN_analyzing_power": 0.34663817779585576,
+      "conditional_point_cos2_amplitude": -0.08502445870464391
+    },
+    {
+      "IQUV": [
+        1.0243055555555551,
+        0.15625000000000014,
+        0.0,
+        2.4473597217953663e-17
+      ],
+      "normalized_Stokes": [
+        0.15254237288135614,
+        0.0,
+        2.389286779244291e-17
+      ],
+      "linear_density_eigenvalues_over_trace": [
+        0.42372881355932196,
+        0.5762711864406781
+      ],
+      "case": "pureM3upperpositive",
+      "target_photon": "first",
+      "gamma_gamma_angle_deg": 60,
+      "reference_plane_defined": true,
+      "free_electron_point_KN_analyzing_power": 0.38470828634072246,
+      "conditional_point_cos2_amplitude": 0.058684314865534014
+    },
+    {
+      "IQUV": [
+        1.0243055555555556,
+        -0.31250000000000006,
+        0.0,
+        2.9648213230308795e-17
+      ],
+      "normalized_Stokes": [
+        -0.3050847457627119,
+        0.0,
+        2.894469630619977e-17
+      ],
+      "linear_density_eigenvalues_over_trace": [
+        0.347457627118644,
+        0.652542372881356
+      ],
+      "case": "pureM3upperpositive",
+      "target_photon": "last",
+      "gamma_gamma_angle_deg": 60,
+      "reference_plane_defined": true,
+      "free_electron_point_KN_analyzing_power": 0.34663817779585576,
+      "conditional_point_cos2_amplitude": -0.10575402034449838
+    },
+    {
+      "IQUV": [
+        1.1115673514171671,
+        0.28924052149035384,
+        0.0,
+        -1.5488529359437468e-16
+      ],
+      "normalized_Stokes": [
+        0.26020962303507145,
+        0.0,
+        -1.39339549148243e-16
+      ],
+      "linear_density_eigenvalues_over_trace": [
+        0.3698951884824643,
+        0.6301048115175357
+      ],
+      "case": "pureM3upperpositive",
+      "target_photon": "first",
+      "gamma_gamma_angle_deg": 75,
+      "reference_plane_defined": true,
+      "free_electron_point_KN_analyzing_power": 0.38470828634072246,
+      "conditional_point_cos2_amplitude": 0.10010479816718772
+    },
+    {
+      "IQUV": [
+        1.111567351417167,
+        -0.3650395736393895,
+        0.0,
+        5.0629005728107026e-17
+      ],
+      "normalized_Stokes": [
+        -0.32840076957459285,
+        0.0,
+        4.554740265046356e-17
+      ],
+      "linear_density_eigenvalues_over_trace": [
+        0.3357996152127036,
+        0.6642003847872965
+      ],
+      "case": "pureM3upperpositive",
+      "target_photon": "last",
+      "gamma_gamma_angle_deg": 75,
+      "reference_plane_defined": true,
+      "free_electron_point_KN_analyzing_power": 0.34663817779585576,
+      "conditional_point_cos2_amplitude": -0.11383624435209358
+    },
+    {
+      "IQUV": [
+        1.145833333333333,
+        0.3472222222222218,
+        0.0,
+        2.3822628708160386e-16
+      ],
+      "normalized_Stokes": [
+        0.30303030303030276,
+        0.0,
+        2.0790657781667252e-16
+      ],
+      "linear_density_eigenvalues_over_trace": [
+        0.34848484848484856,
+        0.6515151515151514
+      ],
+      "case": "pureM3upperpositive",
+      "target_photon": "first",
+      "gamma_gamma_angle_deg": 90,
+      "reference_plane_defined": true,
+      "free_electron_point_KN_analyzing_power": 0.38470828634072246,
+      "conditional_point_cos2_amplitude": 0.11657826858809761
+    },
+    {
+      "IQUV": [
+        1.1458333333333335,
+        -0.3819444444444447,
+        0.0,
+        -9.175315364609692e-17
+      ],
+      "normalized_Stokes": [
+        -0.33333333333333354,
+        0.0,
+        -8.007547954568458e-17
+      ],
+      "linear_density_eigenvalues_over_trace": [
+        0.33333333333333326,
+        0.6666666666666667
+      ],
+      "case": "pureM3upperpositive",
+      "target_photon": "last",
+      "gamma_gamma_angle_deg": 90,
+      "reference_plane_defined": true,
+      "free_electron_point_KN_analyzing_power": 0.34663817779585576,
+      "conditional_point_cos2_amplitude": -0.11554605926528533
+    },
+    {
+      "IQUV": [
+        1.1115673514171671,
+        0.28924052149035384,
+        0.0,
+        -1.5488529359437468e-16
+      ],
+      "normalized_Stokes": [
+        0.26020962303507145,
+        0.0,
+        -1.39339549148243e-16
+      ],
+      "linear_density_eigenvalues_over_trace": [
+        0.3698951884824643,
+        0.6301048115175357
+      ],
+      "case": "pureM3upperpositive",
+      "target_photon": "first",
+      "gamma_gamma_angle_deg": 105,
+      "reference_plane_defined": true,
+      "free_electron_point_KN_analyzing_power": 0.38470828634072246,
+      "conditional_point_cos2_amplitude": 0.10010479816718772
+    },
+    {
+      "IQUV": [
+        1.111567351417167,
+        -0.3650395736393895,
+        0.0,
+        5.0629005728107026e-17
+      ],
+      "normalized_Stokes": [
+        -0.32840076957459285,
+        0.0,
+        4.554740265046356e-17
+      ],
+      "linear_density_eigenvalues_over_trace": [
+        0.3357996152127036,
+        0.6642003847872965
+      ],
+      "case": "pureM3upperpositive",
+      "target_photon": "last",
+      "gamma_gamma_angle_deg": 105,
+      "reference_plane_defined": true,
+      "free_electron_point_KN_analyzing_power": 0.34663817779585576,
+      "conditional_point_cos2_amplitude": -0.11383624435209358
+    },
+    {
+      "IQUV": [
+        1.0243055555555556,
+        0.15625000000000014,
+        0.0,
+        1.272357678415142e-17
+      ],
+      "normalized_Stokes": [
+        0.15254237288135605,
+        0.0,
+        1.2421661402832571e-17
+      ],
+      "linear_density_eigenvalues_over_trace": [
+        0.42372881355932196,
+        0.576271186440678
+      ],
+      "case": "pureM3upperpositive",
+      "target_photon": "first",
+      "gamma_gamma_angle_deg": 120,
+      "reference_plane_defined": true,
+      "free_electron_point_KN_analyzing_power": 0.38470828634072246,
+      "conditional_point_cos2_amplitude": 0.05868431486553398
+    },
+    {
+      "IQUV": [
+        1.0243055555555556,
+        -0.3125000000000003,
+        0.0,
+        1.1819089060462798e-16
+      ],
+      "normalized_Stokes": [
+        -0.3050847457627121,
+        0.0,
+        1.1538636099706053e-16
+      ],
+      "linear_density_eigenvalues_over_trace": [
+        0.3474576271186439,
+        0.6525423728813561
+      ],
+      "case": "pureM3upperpositive",
+      "target_photon": "last",
+      "gamma_gamma_angle_deg": 120,
+      "reference_plane_defined": true,
+      "free_electron_point_KN_analyzing_power": 0.34663817779585576,
+      "conditional_point_cos2_amplitude": -0.10575402034449845
+    },
+    {
+      "IQUV": [
+        0.9201388888888891,
+        0.034722222222222175,
+        0.0,
+        -1.5763115773524416e-17
+      ],
+      "normalized_Stokes": [
+        0.03773584905660372,
+        0.0,
+        -1.7131235255754835e-17
+      ],
+      "linear_density_eigenvalues_over_trace": [
+        0.4811320754716981,
+        0.5188679245283019
+      ],
+      "case": "pureM3upperpositive",
+      "target_photon": "first",
+      "gamma_gamma_angle_deg": 135,
+      "reference_plane_defined": true,
+      "free_electron_point_KN_analyzing_power": 0.38470828634072246,
+      "conditional_point_cos2_amplitude": 0.014517293824178185
+    },
+    {
+      "IQUV": [
+        0.920138888888889,
+        -0.22569444444444448,
+        0.0,
+        -2.511352170574991e-17
+      ],
+      "normalized_Stokes": [
+        -0.24528301886792456,
+        0.0,
+        -2.7293185853796125e-17
+      ],
+      "linear_density_eigenvalues_over_trace": [
+        0.3773584905660377,
+        0.6226415094339622
+      ],
+      "case": "pureM3upperpositive",
+      "target_photon": "last",
+      "gamma_gamma_angle_deg": 135,
+      "reference_plane_defined": true,
+      "free_electron_point_KN_analyzing_power": 0.34663817779585576,
+      "conditional_point_cos2_amplitude": -0.08502445870464388
+    },
+    {
+      "IQUV": [
+        0.8333333333333333,
+        -0.017361111111111088,
+        0.0,
+        2.0664951605028384e-17
+      ],
+      "normalized_Stokes": [
+        -0.020833333333333308,
+        0.0,
+        2.4797941926034063e-17
+      ],
+      "linear_density_eigenvalues_over_trace": [
+        0.48958333333333337,
+        0.5104166666666667
+      ],
+      "case": "pureM3upperpositive",
+      "target_photon": "first",
+      "gamma_gamma_angle_deg": 150,
+      "reference_plane_defined": true,
+      "free_electron_point_KN_analyzing_power": 0.38470828634072246,
+      "conditional_point_cos2_amplitude": -0.008014755965431709
+    },
+    {
+      "IQUV": [
+        0.8333333333333333,
+        -0.12152777777777768,
+        0.0,
+        -1.0468865892939774e-17
+      ],
+      "normalized_Stokes": [
+        -0.14583333333333323,
+        0.0,
+        -1.256263907152773e-17
+      ],
+      "linear_density_eigenvalues_over_trace": [
+        0.42708333333333337,
+        0.5729166666666666
+      ],
+      "case": "pureM3upperpositive",
+      "target_photon": "last",
+      "gamma_gamma_angle_deg": 150,
+      "reference_plane_defined": true,
+      "free_electron_point_KN_analyzing_power": 0.34663817779585576,
+      "conditional_point_cos2_amplitude": -0.050551400928562265
+    },
+    {
+      "IQUV": [
+        0.7807937596939437,
+        -0.011462743712576178,
+        0.0,
+        1.9241233221766044e-17
+      ],
+      "normalized_Stokes": [
+        -0.014680885407011136,
+        0.0,
+        2.4643169829262265e-17
+      ],
+      "linear_density_eigenvalues_over_trace": [
+        0.4926595572964944,
+        0.5073404427035055
+      ],
+      "case": "pureM3upperpositive",
+      "target_photon": "first",
+      "gamma_gamma_angle_deg": 165,
+      "reference_plane_defined": true,
+      "free_electron_point_KN_analyzing_power": 0.38470828634072246,
+      "conditional_point_cos2_amplitude": -0.005647858266895774
+    },
+    {
+      "IQUV": [
+        0.7807937596939437,
+        -0.03426598191616626,
+        0.0,
+        2.203407477036414e-18
+      ],
+      "normalized_Stokes": [
+        -0.04388608578224021,
+        0.0,
+        2.8220095891905022e-18
+      ],
+      "linear_density_eigenvalues_over_trace": [
+        0.47805695710887985,
+        0.52194304289112
+      ],
+      "case": "pureM3upperpositive",
+      "target_photon": "last",
+      "gamma_gamma_angle_deg": 165,
+      "reference_plane_defined": true,
+      "free_electron_point_KN_analyzing_power": 0.34663817779585576,
+      "conditional_point_cos2_amplitude": -0.015212592806148359
+    },
+    {
+      "IQUV": [
+        0.7638888888888887,
+        0.0,
+        0.0,
+        -3.2104762717777367e-18
+      ],
+      "normalized_Stokes": [
+        0.0,
+        0.0,
+        -4.202805301236311e-18
+      ],
+      "linear_density_eigenvalues_over_trace": [
+        0.5,
+        0.5
+      ],
+      "case": "pureM3upperpositive",
+      "target_photon": "first",
+      "gamma_gamma_angle_deg": 180,
+      "reference_plane_defined": false,
+      "free_electron_point_KN_analyzing_power": 0.38470828634072246,
+      "conditional_point_cos2_amplitude": null
+    },
+    {
+      "IQUV": [
+        0.7638888888888887,
+        0.0,
+        0.0,
+        -3.2104762717777367e-18
+      ],
+      "normalized_Stokes": [
+        0.0,
+        0.0,
+        -4.202805301236311e-18
+      ],
+      "linear_density_eigenvalues_over_trace": [
+        0.5,
+        0.5
+      ],
+      "case": "pureM3upperpositive",
+      "target_photon": "last",
+      "gamma_gamma_angle_deg": 180,
+      "reference_plane_defined": false,
+      "free_electron_point_KN_analyzing_power": 0.34663817779585576,
+      "conditional_point_cos2_amplitude": null
+    },
+    {
+      "IQUV": [
+        0.7638888888888887,
+        0.0,
+        0.0,
+        -3.2104762717777367e-18
+      ],
+      "normalized_Stokes": [
+        0.0,
+        0.0,
+        -4.202805301236311e-18
+      ],
+      "linear_density_eigenvalues_over_trace": [
+        0.5,
+        0.5
+      ],
+      "case": "pureM3uppernegativeglobalphasecontrol",
+      "target_photon": "first",
+      "gamma_gamma_angle_deg": 0,
+      "reference_plane_defined": false,
+      "free_electron_point_KN_analyzing_power": 0.38470828634072246,
+      "conditional_point_cos2_amplitude": null
+    },
+    {
+      "IQUV": [
+        0.7638888888888887,
+        0.0,
+        0.0,
+        -3.2104762717777367e-18
+      ],
+      "normalized_Stokes": [
+        0.0,
+        0.0,
+        -4.202805301236311e-18
+      ],
+      "linear_density_eigenvalues_over_trace": [
+        0.5,
+        0.5
+      ],
+      "case": "pureM3uppernegativeglobalphasecontrol",
+      "target_photon": "last",
+      "gamma_gamma_angle_deg": 0,
+      "reference_plane_defined": false,
+      "free_electron_point_KN_analyzing_power": 0.34663817779585576,
+      "conditional_point_cos2_amplitude": null
+    },
+    {
+      "IQUV": [
+        0.7807937596939437,
+        -0.011462743712576178,
+        0.0,
+        6.766683147283665e-17
+      ],
+      "normalized_Stokes": [
+        -0.014680885407011136,
+        0.0,
+        8.666415507644523e-17
+      ],
+      "linear_density_eigenvalues_over_trace": [
+        0.4926595572964944,
+        0.5073404427035055
+      ],
+      "case": "pureM3uppernegativeglobalphasecontrol",
+      "target_photon": "first",
+      "gamma_gamma_angle_deg": 15,
+      "reference_plane_defined": true,
+      "free_electron_point_KN_analyzing_power": 0.38470828634072246,
+      "conditional_point_cos2_amplitude": -0.005647858266895774
+    },
+    {
+      "IQUV": [
+        0.7807937596939437,
+        -0.03426598191616626,
+        0.0,
+        5.0629005728107026e-17
+      ],
+      "normalized_Stokes": [
+        -0.04388608578224021,
+        0.0,
+        6.484299483637347e-17
+      ],
+      "linear_density_eigenvalues_over_trace": [
+        0.47805695710887985,
+        0.52194304289112
+      ],
+      "case": "pureM3uppernegativeglobalphasecontrol",
+      "target_photon": "last",
+      "gamma_gamma_angle_deg": 15,
+      "reference_plane_defined": true,
+      "free_electron_point_KN_analyzing_power": 0.34663817779585576,
+      "conditional_point_cos2_amplitude": -0.015212592806148359
+    },
+    {
+      "IQUV": [
+        0.8333333333333336,
+        -0.01736111111111136,
+        0.0,
+        -1.2461184314818344e-16
+      ],
+      "normalized_Stokes": [
+        -0.020833333333333627,
+        0.0,
+        -1.495342117778201e-16
+      ],
+      "linear_density_eigenvalues_over_trace": [
+        0.48958333333333304,
+        0.5104166666666669
+      ],
+      "case": "pureM3uppernegativeglobalphasecontrol",
+      "target_photon": "first",
+      "gamma_gamma_angle_deg": 30,
+      "reference_plane_defined": true,
+      "free_electron_point_KN_analyzing_power": 0.38470828634072246,
+      "conditional_point_cos2_amplitude": -0.00801475596543183
+    },
+    {
+      "IQUV": [
+        0.8333333333333333,
+        -0.12152777777777768,
+        0.0,
+        -5.889446414401039e-17
+      ],
+      "normalized_Stokes": [
+        -0.14583333333333323,
+        0.0,
+        -7.067335697281248e-17
+      ],
+      "linear_density_eigenvalues_over_trace": [
+        0.42708333333333337,
+        0.5729166666666666
+      ],
+      "case": "pureM3uppernegativeglobalphasecontrol",
+      "target_photon": "last",
+      "gamma_gamma_angle_deg": 30,
+      "reference_plane_defined": true,
+      "free_electron_point_KN_analyzing_power": 0.34663817779585576,
+      "conditional_point_cos2_amplitude": -0.050551400928562265
+    },
+    {
+      "IQUV": [
+        0.9201388888888885,
+        0.034722222222222175,
+        0.0,
+        6.447104247297273e-17
+      ],
+      "normalized_Stokes": [
+        0.03773584905660374,
+        0.0,
+        7.006664238572133e-17
+      ],
+      "linear_density_eigenvalues_over_trace": [
+        0.4811320754716981,
+        0.5188679245283019
+      ],
+      "case": "pureM3uppernegativeglobalphasecontrol",
+      "target_photon": "first",
+      "gamma_gamma_angle_deg": 45,
+      "reference_plane_defined": true,
+      "free_electron_point_KN_analyzing_power": 0.38470828634072246,
+      "conditional_point_cos2_amplitude": 0.014517293824178192
+    },
+    {
+      "IQUV": [
+        0.9201388888888888,
+        -0.22569444444444456,
+        0.0,
+        -1.0190617864626685e-16
+      ],
+      "normalized_Stokes": [
+        -0.24528301886792467,
+        0.0,
+        -1.1075086584952775e-16
+      ],
+      "linear_density_eigenvalues_over_trace": [
+        0.37735849056603765,
+        0.6226415094339623
+      ],
+      "case": "pureM3uppernegativeglobalphasecontrol",
+      "target_photon": "last",
+      "gamma_gamma_angle_deg": 45,
+      "reference_plane_defined": true,
+      "free_electron_point_KN_analyzing_power": 0.34663817779585576,
+      "conditional_point_cos2_amplitude": -0.08502445870464391
+    },
+    {
+      "IQUV": [
+        1.0243055555555551,
+        0.15625000000000014,
+        0.0,
+        2.4473597217953663e-17
+      ],
+      "normalized_Stokes": [
+        0.15254237288135614,
+        0.0,
+        2.389286779244291e-17
+      ],
+      "linear_density_eigenvalues_over_trace": [
+        0.42372881355932196,
+        0.5762711864406781
+      ],
+      "case": "pureM3uppernegativeglobalphasecontrol",
+      "target_photon": "first",
+      "gamma_gamma_angle_deg": 60,
+      "reference_plane_defined": true,
+      "free_electron_point_KN_analyzing_power": 0.38470828634072246,
+      "conditional_point_cos2_amplitude": 0.058684314865534014
+    },
+    {
+      "IQUV": [
+        1.0243055555555556,
+        -0.31250000000000006,
+        0.0,
+        2.9648213230308795e-17
+      ],
+      "normalized_Stokes": [
+        -0.3050847457627119,
+        0.0,
+        2.894469630619977e-17
+      ],
+      "linear_density_eigenvalues_over_trace": [
+        0.347457627118644,
+        0.652542372881356
+      ],
+      "case": "pureM3uppernegativeglobalphasecontrol",
+      "target_photon": "last",
+      "gamma_gamma_angle_deg": 60,
+      "reference_plane_defined": true,
+      "free_electron_point_KN_analyzing_power": 0.34663817779585576,
+      "conditional_point_cos2_amplitude": -0.10575402034449838
+    },
+    {
+      "IQUV": [
+        1.1115673514171671,
+        0.28924052149035384,
+        0.0,
+        -1.5488529359437468e-16
+      ],
+      "normalized_Stokes": [
+        0.26020962303507145,
+        0.0,
+        -1.39339549148243e-16
+      ],
+      "linear_density_eigenvalues_over_trace": [
+        0.3698951884824643,
+        0.6301048115175357
+      ],
+      "case": "pureM3uppernegativeglobalphasecontrol",
+      "target_photon": "first",
+      "gamma_gamma_angle_deg": 75,
+      "reference_plane_defined": true,
+      "free_electron_point_KN_analyzing_power": 0.38470828634072246,
+      "conditional_point_cos2_amplitude": 0.10010479816718772
+    },
+    {
+      "IQUV": [
+        1.111567351417167,
+        -0.3650395736393895,
+        0.0,
+        5.0629005728107026e-17
+      ],
+      "normalized_Stokes": [
+        -0.32840076957459285,
+        0.0,
+        4.554740265046356e-17
+      ],
+      "linear_density_eigenvalues_over_trace": [
+        0.3357996152127036,
+        0.6642003847872965
+      ],
+      "case": "pureM3uppernegativeglobalphasecontrol",
+      "target_photon": "last",
+      "gamma_gamma_angle_deg": 75,
+      "reference_plane_defined": true,
+      "free_electron_point_KN_analyzing_power": 0.34663817779585576,
+      "conditional_point_cos2_amplitude": -0.11383624435209358
+    },
+    {
+      "IQUV": [
+        1.145833333333333,
+        0.3472222222222218,
+        0.0,
+        2.3822628708160386e-16
+      ],
+      "normalized_Stokes": [
+        0.30303030303030276,
+        0.0,
+        2.0790657781667252e-16
+      ],
+      "linear_density_eigenvalues_over_trace": [
+        0.34848484848484856,
+        0.6515151515151514
+      ],
+      "case": "pureM3uppernegativeglobalphasecontrol",
+      "target_photon": "first",
+      "gamma_gamma_angle_deg": 90,
+      "reference_plane_defined": true,
+      "free_electron_point_KN_analyzing_power": 0.38470828634072246,
+      "conditional_point_cos2_amplitude": 0.11657826858809761
+    },
+    {
+      "IQUV": [
+        1.1458333333333335,
+        -0.3819444444444447,
+        0.0,
+        -9.175315364609692e-17
+      ],
+      "normalized_Stokes": [
+        -0.33333333333333354,
+        0.0,
+        -8.007547954568458e-17
+      ],
+      "linear_density_eigenvalues_over_trace": [
+        0.33333333333333326,
+        0.6666666666666667
+      ],
+      "case": "pureM3uppernegativeglobalphasecontrol",
+      "target_photon": "last",
+      "gamma_gamma_angle_deg": 90,
+      "reference_plane_defined": true,
+      "free_electron_point_KN_analyzing_power": 0.34663817779585576,
+      "conditional_point_cos2_amplitude": -0.11554605926528533
+    },
+    {
+      "IQUV": [
+        1.1115673514171671,
+        0.28924052149035384,
+        0.0,
+        -1.5488529359437468e-16
+      ],
+      "normalized_Stokes": [
+        0.26020962303507145,
+        0.0,
+        -1.39339549148243e-16
+      ],
+      "linear_density_eigenvalues_over_trace": [
+        0.3698951884824643,
+        0.6301048115175357
+      ],
+      "case": "pureM3uppernegativeglobalphasecontrol",
+      "target_photon": "first",
+      "gamma_gamma_angle_deg": 105,
+      "reference_plane_defined": true,
+      "free_electron_point_KN_analyzing_power": 0.38470828634072246,
+      "conditional_point_cos2_amplitude": 0.10010479816718772
+    },
+    {
+      "IQUV": [
+        1.111567351417167,
+        -0.3650395736393895,
+        0.0,
+        5.0629005728107026e-17
+      ],
+      "normalized_Stokes": [
+        -0.32840076957459285,
+        0.0,
+        4.554740265046356e-17
+      ],
+      "linear_density_eigenvalues_over_trace": [
+        0.3357996152127036,
+        0.6642003847872965
+      ],
+      "case": "pureM3uppernegativeglobalphasecontrol",
+      "target_photon": "last",
+      "gamma_gamma_angle_deg": 105,
+      "reference_plane_defined": true,
+      "free_electron_point_KN_analyzing_power": 0.34663817779585576,
+      "conditional_point_cos2_amplitude": -0.11383624435209358
+    },
+    {
+      "IQUV": [
+        1.0243055555555556,
+        0.15625000000000014,
+        0.0,
+        1.272357678415142e-17
+      ],
+      "normalized_Stokes": [
+        0.15254237288135605,
+        0.0,
+        1.2421661402832571e-17
+      ],
+      "linear_density_eigenvalues_over_trace": [
+        0.42372881355932196,
+        0.576271186440678
+      ],
+      "case": "pureM3uppernegativeglobalphasecontrol",
+      "target_photon": "first",
+      "gamma_gamma_angle_deg": 120,
+      "reference_plane_defined": true,
+      "free_electron_point_KN_analyzing_power": 0.38470828634072246,
+      "conditional_point_cos2_amplitude": 0.05868431486553398
+    },
+    {
+      "IQUV": [
+        1.0243055555555556,
+        -0.3125000000000003,
+        0.0,
+        1.1819089060462798e-16
+      ],
+      "normalized_Stokes": [
+        -0.3050847457627121,
+        0.0,
+        1.1538636099706053e-16
+      ],
+      "linear_density_eigenvalues_over_trace": [
+        0.3474576271186439,
+        0.6525423728813561
+      ],
+      "case": "pureM3uppernegativeglobalphasecontrol",
+      "target_photon": "last",
+      "gamma_gamma_angle_deg": 120,
+      "reference_plane_defined": true,
+      "free_electron_point_KN_analyzing_power": 0.34663817779585576,
+      "conditional_point_cos2_amplitude": -0.10575402034449845
+    },
+    {
+      "IQUV": [
+        0.9201388888888891,
+        0.034722222222222175,
+        0.0,
+        -1.5763115773524416e-17
+      ],
+      "normalized_Stokes": [
+        0.03773584905660372,
+        0.0,
+        -1.7131235255754835e-17
+      ],
+      "linear_density_eigenvalues_over_trace": [
+        0.4811320754716981,
+        0.5188679245283019
+      ],
+      "case": "pureM3uppernegativeglobalphasecontrol",
+      "target_photon": "first",
+      "gamma_gamma_angle_deg": 135,
+      "reference_plane_defined": true,
+      "free_electron_point_KN_analyzing_power": 0.38470828634072246,
+      "conditional_point_cos2_amplitude": 0.014517293824178185
+    },
+    {
+      "IQUV": [
+        0.920138888888889,
+        -0.22569444444444448,
+        0.0,
+        -2.511352170574991e-17
+      ],
+      "normalized_Stokes": [
+        -0.24528301886792456,
+        0.0,
+        -2.7293185853796125e-17
+      ],
+      "linear_density_eigenvalues_over_trace": [
+        0.3773584905660377,
+        0.6226415094339622
+      ],
+      "case": "pureM3uppernegativeglobalphasecontrol",
+      "target_photon": "last",
+      "gamma_gamma_angle_deg": 135,
+      "reference_plane_defined": true,
+      "free_electron_point_KN_analyzing_power": 0.34663817779585576,
+      "conditional_point_cos2_amplitude": -0.08502445870464388
+    },
+    {
+      "IQUV": [
+        0.8333333333333333,
+        -0.017361111111111088,
+        0.0,
+        2.0664951605028384e-17
+      ],
+      "normalized_Stokes": [
+        -0.020833333333333308,
+        0.0,
+        2.4797941926034063e-17
+      ],
+      "linear_density_eigenvalues_over_trace": [
+        0.48958333333333337,
+        0.5104166666666667
+      ],
+      "case": "pureM3uppernegativeglobalphasecontrol",
+      "target_photon": "first",
+      "gamma_gamma_angle_deg": 150,
+      "reference_plane_defined": true,
+      "free_electron_point_KN_analyzing_power": 0.38470828634072246,
+      "conditional_point_cos2_amplitude": -0.008014755965431709
+    },
+    {
+      "IQUV": [
+        0.8333333333333333,
+        -0.12152777777777768,
+        0.0,
+        -1.0468865892939774e-17
+      ],
+      "normalized_Stokes": [
+        -0.14583333333333323,
+        0.0,
+        -1.256263907152773e-17
+      ],
+      "linear_density_eigenvalues_over_trace": [
+        0.42708333333333337,
+        0.5729166666666666
+      ],
+      "case": "pureM3uppernegativeglobalphasecontrol",
+      "target_photon": "last",
+      "gamma_gamma_angle_deg": 150,
+      "reference_plane_defined": true,
+      "free_electron_point_KN_analyzing_power": 0.34663817779585576,
+      "conditional_point_cos2_amplitude": -0.050551400928562265
+    },
+    {
+      "IQUV": [
+        0.7807937596939437,
+        -0.011462743712576178,
+        0.0,
+        1.9241233221766044e-17
+      ],
+      "normalized_Stokes": [
+        -0.014680885407011136,
+        0.0,
+        2.4643169829262265e-17
+      ],
+      "linear_density_eigenvalues_over_trace": [
+        0.4926595572964944,
+        0.5073404427035055
+      ],
+      "case": "pureM3uppernegativeglobalphasecontrol",
+      "target_photon": "first",
+      "gamma_gamma_angle_deg": 165,
+      "reference_plane_defined": true,
+      "free_electron_point_KN_analyzing_power": 0.38470828634072246,
+      "conditional_point_cos2_amplitude": -0.005647858266895774
+    },
+    {
+      "IQUV": [
+        0.7807937596939437,
+        -0.03426598191616626,
+        0.0,
+        2.203407477036414e-18
+      ],
+      "normalized_Stokes": [
+        -0.04388608578224021,
+        0.0,
+        2.8220095891905022e-18
+      ],
+      "linear_density_eigenvalues_over_trace": [
+        0.47805695710887985,
+        0.52194304289112
+      ],
+      "case": "pureM3uppernegativeglobalphasecontrol",
+      "target_photon": "last",
+      "gamma_gamma_angle_deg": 165,
+      "reference_plane_defined": true,
+      "free_electron_point_KN_analyzing_power": 0.34663817779585576,
+      "conditional_point_cos2_amplitude": -0.015212592806148359
+    },
+    {
+      "IQUV": [
+        0.7638888888888887,
+        0.0,
+        0.0,
+        -3.2104762717777367e-18
+      ],
+      "normalized_Stokes": [
+        0.0,
+        0.0,
+        -4.202805301236311e-18
+      ],
+      "linear_density_eigenvalues_over_trace": [
+        0.5,
+        0.5
+      ],
+      "case": "pureM3uppernegativeglobalphasecontrol",
+      "target_photon": "first",
+      "gamma_gamma_angle_deg": 180,
+      "reference_plane_defined": false,
+      "free_electron_point_KN_analyzing_power": 0.38470828634072246,
+      "conditional_point_cos2_amplitude": null
+    },
+    {
+      "IQUV": [
+        0.7638888888888887,
+        0.0,
+        0.0,
+        -3.2104762717777367e-18
+      ],
+      "normalized_Stokes": [
+        0.0,
+        0.0,
+        -4.202805301236311e-18
+      ],
+      "linear_density_eigenvalues_over_trace": [
+        0.5,
+        0.5
+      ],
+      "case": "pureM3uppernegativeglobalphasecontrol",
+      "target_photon": "last",
+      "gamma_gamma_angle_deg": 180,
+      "reference_plane_defined": false,
+      "free_electron_point_KN_analyzing_power": 0.34663817779585576,
+      "conditional_point_cos2_amplitude": null
+    }
+  ],
+  "control_residuals": {
+    "native_RB_IQUV": 0.0,
+    "pureM3_global_phase": 0.0,
+    "scalar_intensity_first_last_roles": 4.440892098500626e-16,
+    "common_Rz_local_axes": 8.881784197001252e-16,
+    "last_target_independent_population_route": 4.996003610813204e-16,
+    "reference_plane_spin2_in_fixed_target_axes": 9.738106524272991e-17
+  },
+  "pureE2_first_last_Qnorm_difference_observed": 2.0816681711721685e-16,
+  "ungated_full_reference_solidangle_controls": [
+    {
+      "case": "pureE2first",
+      "target_photon": "first",
+      "IQUV": [
+        1.0000000000000007,
+        0.0,
+        -4.890977706405536e-18,
+        -8.212768857261513e-20
+      ],
+      "normalized_Stokes": [
+        0.0,
+        -4.890977706405533e-18,
+        -8.212768857261507e-20
+      ],
+      "linear_density_eigenvalues_over_trace": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "case": "pureE2first",
+      "target_photon": "last",
+      "IQUV": [
+        1.0000000000000007,
+        1.743934249004316e-16,
+        -2.0170626232075064e-18,
+        -2.5621453468067372e-17
+      ],
+      "normalized_Stokes": [
+        1.7439342490043146e-16,
+        -2.0170626232075052e-18,
+        -2.5621453468067353e-17
+      ],
+      "linear_density_eigenvalues_over_trace": [
+        0.4999999999999997,
+        0.5000000000000001
+      ]
+    },
+    {
+      "case": "actualmixednative",
+      "target_photon": "first",
+      "IQUV": [
+        0.9999999999999994,
+        1.743934249004316e-16,
+        -2.1474532149451946e-18,
+        -3.1818333023767196e-17
+      ],
+      "normalized_Stokes": [
+        1.7439342490043169e-16,
+        -2.1474532149451958e-18,
+        -3.1818333023767215e-17
+      ],
+      "linear_density_eigenvalues_over_trace": [
+        0.4999999999999999,
+        0.5000000000000001
+      ]
+    },
+    {
+      "case": "actualmixednative",
+      "target_photon": "last",
+      "IQUV": [
+        0.9999999999999994,
+        1.743934249004316e-16,
+        3.0335770322645874e-19,
+        -3.1818333023767196e-17
+      ],
+      "normalized_Stokes": [
+        1.7439342490043169e-16,
+        3.033577032264589e-19,
+        -3.1818333023767215e-17
+      ],
+      "linear_density_eigenvalues_over_trace": [
+        0.4999999999999999,
+        0.5000000000000001
+      ]
+    }
+  ],
+  "explicit_full_joint_density_controls": [
+    {
+      "case": "pureE2first",
+      "target_photon": "first",
+      "gamma_gamma_angle_deg": 0,
+      "eigenvalues_normalized": [
+        0.0,
+        0.2857142857142857,
+        0.35714285714285715,
+        0.35714285714285715
+      ],
+      "trace": 0.007036193308495682
+    },
+    {
+      "case": "pureE2first",
+      "target_photon": "last",
+      "gamma_gamma_angle_deg": 0,
+      "eigenvalues_normalized": [
+        0.0,
+        0.2857142857142857,
+        0.35714285714285715,
+        0.35714285714285715
+      ],
+      "trace": 0.007036193308495682
+    },
+    {
+      "case": "pureE2first",
+      "target_photon": "first",
+      "gamma_gamma_angle_deg": 15,
+      "eigenvalues_normalized": [
+        0.012003547656179558,
+        0.28883647017291686,
+        0.34940456010625476,
+        0.3497554220646489
+      ],
+      "trace": 0.0069531538657606196
+    },
+    {
+      "case": "pureE2first",
+      "target_photon": "last",
+      "gamma_gamma_angle_deg": 15,
+      "eigenvalues_normalized": [
+        0.012003547656179558,
+        0.2888364701729169,
+        0.34940456010625454,
+        0.34975542206464877
+      ],
+      "trace": 0.006953153865760621
+    },
+    {
+      "case": "pureE2first",
+      "target_photon": "first",
+      "gamma_gamma_angle_deg": 30,
+      "eigenvalues_normalized": [
+        0.04517068003517316,
+        0.29137529137529145,
+        0.3277896929251999,
+        0.3356643356643357
+      ],
+      "trace": 0.006737783324430015
+    },
+    {
+      "case": "pureE2first",
+      "target_photon": "last",
+      "gamma_gamma_angle_deg": 30,
+      "eigenvalues_normalized": [
+        0.04517068003517316,
+        0.2913752913752915,
+        0.3277896929251999,
+        0.33566433566433573
+      ],
+      "trace": 0.006737783324430015
+    },
+    {
+      "case": "pureE2first",
+      "target_photon": "first",
+      "gamma_gamma_angle_deg": 45,
+      "eigenvalues_normalized": [
+        0.09119804157477462,
+        0.2718446601941748,
+        0.2971514729883321,
+        0.3398058252427184
+      ],
+      "trace": 0.00647078491763442
+    },
+    {
+      "case": "pureE2first",
+      "target_photon": "last",
+      "gamma_gamma_angle_deg": 45,
+      "eigenvalues_normalized": [
+        0.09119804157477462,
+        0.2718446601941748,
+        0.2971514729883322,
+        0.33980582524271835
+      ],
+      "trace": 0.006470784917634418
+    },
+    {
+      "case": "pureE2first",
+      "target_photon": "first",
+      "gamma_gamma_angle_deg": 60,
+      "eigenvalues_normalized": [
+        0.1385390428211587,
+        0.24092496281094988,
+        0.2644836272040301,
+        0.3560523671638612
+      ],
+      "trace": 0.006235198088108896
+    },
+    {
+      "case": "pureE2first",
+      "target_photon": "last",
+      "gamma_gamma_angle_deg": 60,
+      "eigenvalues_normalized": [
+        0.1385390428211588,
+        0.2409249628109499,
+        0.26448362720403024,
+        0.3560523671638612
+      ],
+      "trace": 0.006235198088108896
+    },
+    {
+      "case": "pureE2first",
+      "target_photon": "first",
+      "gamma_gamma_angle_deg": 75,
+      "eigenvalues_normalized": [
+        0.17804290189605937,
+        0.21707131633956758,
+        0.23508721275295652,
+        0.3697985690114165
+      ],
+      "trace": 0.006082650701318429
+    },
+    {
+      "case": "pureE2first",
+      "target_photon": "last",
+      "gamma_gamma_angle_deg": 75,
+      "eigenvalues_normalized": [
+        0.17804290189605942,
+        0.21707131633956764,
+        0.2350872127529565,
+        0.36979856901141644
+      ],
+      "trace": 0.006082650701318429
+    },
+    {
+      "case": "pureE2first",
+      "target_photon": "first",
+      "gamma_gamma_angle_deg": 90,
+      "eigenvalues_normalized": [
+        0.20833333333333331,
+        0.20833333333333343,
+        0.20833333333333343,
+        0.3750000000000001
+      ],
+      "trace": 0.006031022835853441
+    },
+    {
+      "case": "pureE2first",
+      "target_photon": "last",
+      "gamma_gamma_angle_deg": 90,
+      "eigenvalues_normalized": [
+        0.2083333333333332,
+        0.20833333333333331,
+        0.2083333333333334,
+        0.375
+      ],
+      "trace": 0.006031022835853441
+    },
+    {
+      "case": "pureE2first",
+      "target_photon": "first",
+      "gamma_gamma_angle_deg": 105,
+      "eigenvalues_normalized": [
+        0.17804290189605948,
+        0.2170713163395676,
+        0.23508721275295658,
+        0.3697985690114165
+      ],
+      "trace": 0.006082650701318429
+    },
+    {
+      "case": "pureE2first",
+      "target_photon": "last",
+      "gamma_gamma_angle_deg": 105,
+      "eigenvalues_normalized": [
+        0.17804290189605954,
+        0.21707131633956767,
+        0.23508721275295663,
+        0.3697985690114165
+      ],
+      "trace": 0.006082650701318429
+    },
+    {
+      "case": "pureE2first",
+      "target_photon": "first",
+      "gamma_gamma_angle_deg": 120,
+      "eigenvalues_normalized": [
+        0.13853904282115864,
+        0.24092496281094994,
+        0.2644836272040302,
+        0.356052367163861
+      ],
+      "trace": 0.006235198088108894
+    },
+    {
+      "case": "pureE2first",
+      "target_photon": "last",
+      "gamma_gamma_angle_deg": 120,
+      "eigenvalues_normalized": [
+        0.1385390428211587,
+        0.2409249628109501,
+        0.2644836272040303,
+        0.3560523671638611
+      ],
+      "trace": 0.006235198088108894
+    },
+    {
+      "case": "pureE2first",
+      "target_photon": "first",
+      "gamma_gamma_angle_deg": 135,
+      "eigenvalues_normalized": [
+        0.09119804157477467,
+        0.2718446601941748,
+        0.2971514729883323,
+        0.33980582524271846
+      ],
+      "trace": 0.00647078491763442
+    },
+    {
+      "case": "pureE2first",
+      "target_photon": "last",
+      "gamma_gamma_angle_deg": 135,
+      "eigenvalues_normalized": [
+        0.09119804157477467,
+        0.27184466019417486,
+        0.2971514729883322,
+        0.3398058252427184
+      ],
+      "trace": 0.006470784917634419
+    },
+    {
+      "case": "pureE2first",
+      "target_photon": "first",
+      "gamma_gamma_angle_deg": 150,
+      "eigenvalues_normalized": [
+        0.04517068003517325,
+        0.2913752913752914,
+        0.3277896929251998,
+        0.3356643356643356
+      ],
+      "trace": 0.0067377833244300165
+    },
+    {
+      "case": "pureE2first",
+      "target_photon": "last",
+      "gamma_gamma_angle_deg": 150,
+      "eigenvalues_normalized": [
+        0.045170680035173265,
+        0.2913752913752914,
+        0.32778969292520005,
+        0.3356643356643356
+      ],
+      "trace": 0.0067377833244300165
+    },
+    {
+      "case": "pureE2first",
+      "target_photon": "first",
+      "gamma_gamma_angle_deg": 165,
+      "eigenvalues_normalized": [
+        0.01200354765617956,
+        0.28883647017291675,
+        0.3494045601062546,
+        0.34975542206464905
+      ],
+      "trace": 0.006953153865760623
+    },
+    {
+      "case": "pureE2first",
+      "target_photon": "last",
+      "gamma_gamma_angle_deg": 165,
+      "eigenvalues_normalized": [
+        0.012003547656179574,
+        0.2888364701729169,
+        0.3494045601062547,
+        0.34975542206464894
+      ],
+      "trace": 0.006953153865760621
+    },
+    {
+      "case": "pureE2first",
+      "target_photon": "first",
+      "gamma_gamma_angle_deg": 180,
+      "eigenvalues_normalized": [
+        0.0,
+        0.2857142857142857,
+        0.35714285714285715,
+        0.35714285714285715
+      ],
+      "trace": 0.007036193308495682
+    },
+    {
+      "case": "pureE2first",
+      "target_photon": "last",
+      "gamma_gamma_angle_deg": 180,
+      "eigenvalues_normalized": [
+        0.0,
+        0.2857142857142857,
+        0.35714285714285715,
+        0.35714285714285715
+      ],
+      "trace": 0.007036193308495682
+    },
+    {
+      "case": "actualmixednative",
+      "target_photon": "first",
+      "gamma_gamma_angle_deg": 0,
+      "eigenvalues_normalized": [
+        0.0,
+        0.2839040147849383,
+        0.35804799260753084,
+        0.35804799260753084
+      ],
+      "trace": 0.007028746276584864
+    },
+    {
+      "case": "actualmixednative",
+      "target_photon": "last",
+      "gamma_gamma_angle_deg": 0,
+      "eigenvalues_normalized": [
+        0.0,
+        0.2839040147849383,
+        0.35804799260753084,
+        0.35804799260753084
+      ],
+      "trace": 0.007028746276584864
+    },
+    {
+      "case": "actualmixednative",
+      "target_photon": "first",
+      "gamma_gamma_angle_deg": 15,
+      "eigenvalues_normalized": [
+        0.012034955288543847,
+        0.28712064974731927,
+        0.3502553908240019,
+        0.35058900414013483
+      ],
+      "trace": 0.0069459986841293436
+    },
+    {
+      "case": "actualmixednative",
+      "target_photon": "last",
+      "gamma_gamma_angle_deg": 15,
+      "eigenvalues_normalized": [
+        0.012034955288543777,
+        0.28712064974731916,
+        0.35025539082400203,
+        0.35058900414013494
+      ],
+      "trace": 0.0069459986841293436
+    },
+    {
+      "case": "actualmixednative",
+      "target_photon": "first",
+      "gamma_gamma_angle_deg": 30,
+      "eigenvalues_normalized": [
+        0.04529600030441132,
+        0.29029410881139756,
+        0.32849202474953765,
+        0.33591786613465313
+      ],
+      "trace": 0.006731850792981581
+    },
+    {
+      "case": "actualmixednative",
+      "target_photon": "last",
+      "gamma_gamma_angle_deg": 30,
+      "eigenvalues_normalized": [
+        0.04529600030441145,
+        0.2902941088113976,
+        0.32849202474953765,
+        0.33591786613465313
+      ],
+      "trace": 0.006731850792981579
+    },
+    {
+      "case": "actualmixednative",
+      "target_photon": "first",
+      "gamma_gamma_angle_deg": 45,
+      "eigenvalues_normalized": [
+        0.09145444729179136,
+        0.27189980559247207,
+        0.29766446313301936,
+        0.3389812839827175
+      ],
+      "trace": 0.006467528828924887
+    },
+    {
+      "case": "actualmixednative",
+      "target_photon": "last",
+      "gamma_gamma_angle_deg": 45,
+      "eigenvalues_normalized": [
+        0.09145444729179127,
+        0.27189980559247207,
+        0.2976644631330193,
+        0.33898128398271743
+      ],
+      "trace": 0.006467528828924887
+    },
+    {
+      "case": "actualmixednative",
+      "target_photon": "first",
+      "gamma_gamma_angle_deg": 60,
+      "eigenvalues_normalized": [
+        0.13889763298889032,
+        0.24132290200405035,
+        0.2648507375805647,
+        0.3549287274264944
+      ],
+      "trace": 0.00623578038441479
+    },
+    {
+      "case": "actualmixednative",
+      "target_photon": "last",
+      "gamma_gamma_angle_deg": 60,
+      "eigenvalues_normalized": [
+        0.13889763298889032,
+        0.24132290200405046,
+        0.26485073758056477,
+        0.3549287274264943
+      ],
+      "trace": 0.00623578038441479
+    },
+    {
+      "case": "actualmixednative",
+      "target_photon": "first",
+      "gamma_gamma_angle_deg": 75,
+      "eigenvalues_normalized": [
+        0.17842423550068237,
+        0.2176021652035198,
+        0.23540622803710423,
+        0.3685673712586936
+      ],
+      "trace": 0.006086779532360212
+    },
+    {
+      "case": "actualmixednative",
+      "target_photon": "last",
+      "gamma_gamma_angle_deg": 75,
+      "eigenvalues_normalized": [
+        0.1784242355006824,
+        0.2176021652035198,
+        0.23540622803710426,
+        0.3685673712586934
+      ],
+      "trace": 0.006086779532360212
+    },
+    {
+      "case": "actualmixednative",
+      "target_photon": "first",
+      "gamma_gamma_angle_deg": 90,
+      "eigenvalues_normalized": [
+        0.20844732290220142,
+        0.2089114766652414,
+        0.2089114766652415,
+        0.3737297237673158
+      ],
+      "trace": 0.006036605459451284
+    },
+    {
+      "case": "actualmixednative",
+      "target_photon": "last",
+      "gamma_gamma_angle_deg": 90,
+      "eigenvalues_normalized": [
+        0.20844732290220155,
+        0.20891147666524146,
+        0.20891147666524157,
+        0.3737297237673159
+      ],
+      "trace": 0.006036605459451285
+    },
+    {
+      "case": "actualmixednative",
+      "target_photon": "first",
+      "gamma_gamma_angle_deg": 105,
+      "eigenvalues_normalized": [
+        0.1784242355006824,
+        0.2176021652035198,
+        0.2354062280371043,
+        0.3685673712586935
+      ],
+      "trace": 0.006086779532360211
+    },
+    {
+      "case": "actualmixednative",
+      "target_photon": "last",
+      "gamma_gamma_angle_deg": 105,
+      "eigenvalues_normalized": [
+        0.17842423550068245,
+        0.21760216520351985,
+        0.23540622803710437,
+        0.36856737125869354
+      ],
+      "trace": 0.006086779532360211
+    },
+    {
+      "case": "actualmixednative",
+      "target_photon": "first",
+      "gamma_gamma_angle_deg": 120,
+      "eigenvalues_normalized": [
+        0.13889763298889035,
+        0.24132290200405032,
+        0.26485073758056465,
+        0.3549287274264945
+      ],
+      "trace": 0.00623578038441479
+    },
+    {
+      "case": "actualmixednative",
+      "target_photon": "last",
+      "gamma_gamma_angle_deg": 120,
+      "eigenvalues_normalized": [
+        0.13889763298889038,
+        0.24132290200405057,
+        0.26485073758056493,
+        0.35492872742649456
+      ],
+      "trace": 0.006235780384414788
+    },
+    {
+      "case": "actualmixednative",
+      "target_photon": "first",
+      "gamma_gamma_angle_deg": 135,
+      "eigenvalues_normalized": [
+        0.09145444729179131,
+        0.27189980559247195,
+        0.29766446313301925,
+        0.33898128398271743
+      ],
+      "trace": 0.006467528828924888
+    },
+    {
+      "case": "actualmixednative",
+      "target_photon": "last",
+      "gamma_gamma_angle_deg": 135,
+      "eigenvalues_normalized": [
+        0.0914544472917912,
+        0.271899805592472,
+        0.29766446313301925,
+        0.33898128398271715
+      ],
+      "trace": 0.006467528828924887
+    },
+    {
+      "case": "actualmixednative",
+      "target_photon": "first",
+      "gamma_gamma_angle_deg": 150,
+      "eigenvalues_normalized": [
+        0.04529600030441143,
+        0.2902941088113977,
+        0.3284920247495375,
+        0.33591786613465313
+      ],
+      "trace": 0.006731850792981581
+    },
+    {
+      "case": "actualmixednative",
+      "target_photon": "last",
+      "gamma_gamma_angle_deg": 150,
+      "eigenvalues_normalized": [
+        0.045296000304411416,
+        0.2902941088113979,
+        0.3284920247495376,
+        0.3359178661346532
+      ],
+      "trace": 0.006731850792981579
+    },
+    {
+      "case": "actualmixednative",
+      "target_photon": "first",
+      "gamma_gamma_angle_deg": 165,
+      "eigenvalues_normalized": [
+        0.012034955288543786,
+        0.2871206497473194,
+        0.35025539082400214,
+        0.35058900414013466
+      ],
+      "trace": 0.0069459986841293436
+    },
+    {
+      "case": "actualmixednative",
+      "target_photon": "last",
+      "gamma_gamma_angle_deg": 165,
+      "eigenvalues_normalized": [
+        0.012034955288543744,
+        0.28712064974731916,
+        0.35025539082400226,
+        0.350589004140135
+      ],
+      "trace": 0.0069459986841293436
+    },
+    {
+      "case": "actualmixednative",
+      "target_photon": "first",
+      "gamma_gamma_angle_deg": 180,
+      "eigenvalues_normalized": [
+        0.0,
+        0.2839040147849383,
+        0.35804799260753084,
+        0.35804799260753084
+      ],
+      "trace": 0.007028746276584864
+    },
+    {
+      "case": "actualmixednative",
+      "target_photon": "last",
+      "gamma_gamma_angle_deg": 180,
+      "eigenvalues_normalized": [
+        0.0,
+        0.2839040147849383,
+        0.35804799260753084,
+        0.35804799260753084
+      ],
+      "trace": 0.007028746276584864
+    },
+    {
+      "case": "actualmixedRBsamephysics",
+      "target_photon": "first",
+      "gamma_gamma_angle_deg": 0,
+      "eigenvalues_normalized": [
+        0.0,
+        0.2839040147849383,
+        0.35804799260753084,
+        0.35804799260753084
+      ],
+      "trace": 0.007028746276584864
+    },
+    {
+      "case": "actualmixedRBsamephysics",
+      "target_photon": "last",
+      "gamma_gamma_angle_deg": 0,
+      "eigenvalues_normalized": [
+        0.0,
+        0.2839040147849383,
+        0.35804799260753084,
+        0.35804799260753084
+      ],
+      "trace": 0.007028746276584864
+    },
+    {
+      "case": "actualmixedRBsamephysics",
+      "target_photon": "first",
+      "gamma_gamma_angle_deg": 15,
+      "eigenvalues_normalized": [
+        0.012034955288543847,
+        0.28712064974731927,
+        0.3502553908240019,
+        0.35058900414013483
+      ],
+      "trace": 0.0069459986841293436
+    },
+    {
+      "case": "actualmixedRBsamephysics",
+      "target_photon": "last",
+      "gamma_gamma_angle_deg": 15,
+      "eigenvalues_normalized": [
+        0.012034955288543777,
+        0.28712064974731916,
+        0.35025539082400203,
+        0.35058900414013494
+      ],
+      "trace": 0.0069459986841293436
+    },
+    {
+      "case": "actualmixedRBsamephysics",
+      "target_photon": "first",
+      "gamma_gamma_angle_deg": 30,
+      "eigenvalues_normalized": [
+        0.04529600030441132,
+        0.29029410881139756,
+        0.32849202474953765,
+        0.33591786613465313
+      ],
+      "trace": 0.006731850792981581
+    },
+    {
+      "case": "actualmixedRBsamephysics",
+      "target_photon": "last",
+      "gamma_gamma_angle_deg": 30,
+      "eigenvalues_normalized": [
+        0.04529600030441145,
+        0.2902941088113976,
+        0.32849202474953765,
+        0.33591786613465313
+      ],
+      "trace": 0.006731850792981579
+    },
+    {
+      "case": "actualmixedRBsamephysics",
+      "target_photon": "first",
+      "gamma_gamma_angle_deg": 45,
+      "eigenvalues_normalized": [
+        0.09145444729179136,
+        0.27189980559247207,
+        0.29766446313301936,
+        0.3389812839827175
+      ],
+      "trace": 0.006467528828924887
+    },
+    {
+      "case": "actualmixedRBsamephysics",
+      "target_photon": "last",
+      "gamma_gamma_angle_deg": 45,
+      "eigenvalues_normalized": [
+        0.09145444729179127,
+        0.27189980559247207,
+        0.2976644631330193,
+        0.33898128398271743
+      ],
+      "trace": 0.006467528828924887
+    },
+    {
+      "case": "actualmixedRBsamephysics",
+      "target_photon": "first",
+      "gamma_gamma_angle_deg": 60,
+      "eigenvalues_normalized": [
+        0.13889763298889032,
+        0.24132290200405035,
+        0.2648507375805647,
+        0.3549287274264944
+      ],
+      "trace": 0.00623578038441479
+    },
+    {
+      "case": "actualmixedRBsamephysics",
+      "target_photon": "last",
+      "gamma_gamma_angle_deg": 60,
+      "eigenvalues_normalized": [
+        0.13889763298889032,
+        0.24132290200405046,
+        0.26485073758056477,
+        0.3549287274264943
+      ],
+      "trace": 0.00623578038441479
+    },
+    {
+      "case": "actualmixedRBsamephysics",
+      "target_photon": "first",
+      "gamma_gamma_angle_deg": 75,
+      "eigenvalues_normalized": [
+        0.17842423550068237,
+        0.2176021652035198,
+        0.23540622803710423,
+        0.3685673712586936
+      ],
+      "trace": 0.006086779532360212
+    },
+    {
+      "case": "actualmixedRBsamephysics",
+      "target_photon": "last",
+      "gamma_gamma_angle_deg": 75,
+      "eigenvalues_normalized": [
+        0.1784242355006824,
+        0.2176021652035198,
+        0.23540622803710426,
+        0.3685673712586934
+      ],
+      "trace": 0.006086779532360212
+    },
+    {
+      "case": "actualmixedRBsamephysics",
+      "target_photon": "first",
+      "gamma_gamma_angle_deg": 90,
+      "eigenvalues_normalized": [
+        0.20844732290220142,
+        0.2089114766652414,
+        0.2089114766652415,
+        0.3737297237673158
+      ],
+      "trace": 0.006036605459451284
+    },
+    {
+      "case": "actualmixedRBsamephysics",
+      "target_photon": "last",
+      "gamma_gamma_angle_deg": 90,
+      "eigenvalues_normalized": [
+        0.20844732290220155,
+        0.20891147666524146,
+        0.20891147666524157,
+        0.3737297237673159
+      ],
+      "trace": 0.006036605459451285
+    },
+    {
+      "case": "actualmixedRBsamephysics",
+      "target_photon": "first",
+      "gamma_gamma_angle_deg": 105,
+      "eigenvalues_normalized": [
+        0.1784242355006824,
+        0.2176021652035198,
+        0.2354062280371043,
+        0.3685673712586935
+      ],
+      "trace": 0.006086779532360211
+    },
+    {
+      "case": "actualmixedRBsamephysics",
+      "target_photon": "last",
+      "gamma_gamma_angle_deg": 105,
+      "eigenvalues_normalized": [
+        0.17842423550068245,
+        0.21760216520351985,
+        0.23540622803710437,
+        0.36856737125869354
+      ],
+      "trace": 0.006086779532360211
+    },
+    {
+      "case": "actualmixedRBsamephysics",
+      "target_photon": "first",
+      "gamma_gamma_angle_deg": 120,
+      "eigenvalues_normalized": [
+        0.13889763298889035,
+        0.24132290200405032,
+        0.26485073758056465,
+        0.3549287274264945
+      ],
+      "trace": 0.00623578038441479
+    },
+    {
+      "case": "actualmixedRBsamephysics",
+      "target_photon": "last",
+      "gamma_gamma_angle_deg": 120,
+      "eigenvalues_normalized": [
+        0.13889763298889038,
+        0.24132290200405057,
+        0.26485073758056493,
+        0.35492872742649456
+      ],
+      "trace": 0.006235780384414788
+    },
+    {
+      "case": "actualmixedRBsamephysics",
+      "target_photon": "first",
+      "gamma_gamma_angle_deg": 135,
+      "eigenvalues_normalized": [
+        0.09145444729179131,
+        0.27189980559247195,
+        0.29766446313301925,
+        0.33898128398271743
+      ],
+      "trace": 0.006467528828924888
+    },
+    {
+      "case": "actualmixedRBsamephysics",
+      "target_photon": "last",
+      "gamma_gamma_angle_deg": 135,
+      "eigenvalues_normalized": [
+        0.0914544472917912,
+        0.271899805592472,
+        0.29766446313301925,
+        0.33898128398271715
+      ],
+      "trace": 0.006467528828924887
+    },
+    {
+      "case": "actualmixedRBsamephysics",
+      "target_photon": "first",
+      "gamma_gamma_angle_deg": 150,
+      "eigenvalues_normalized": [
+        0.04529600030441143,
+        0.2902941088113977,
+        0.3284920247495375,
+        0.33591786613465313
+      ],
+      "trace": 0.006731850792981581
+    },
+    {
+      "case": "actualmixedRBsamephysics",
+      "target_photon": "last",
+      "gamma_gamma_angle_deg": 150,
+      "eigenvalues_normalized": [
+        0.045296000304411416,
+        0.2902941088113979,
+        0.3284920247495376,
+        0.3359178661346532
+      ],
+      "trace": 0.006731850792981579
+    },
+    {
+      "case": "actualmixedRBsamephysics",
+      "target_photon": "first",
+      "gamma_gamma_angle_deg": 165,
+      "eigenvalues_normalized": [
+        0.012034955288543786,
+        0.2871206497473194,
+        0.35025539082400214,
+        0.35058900414013466
+      ],
+      "trace": 0.0069459986841293436
+    },
+    {
+      "case": "actualmixedRBsamephysics",
+      "target_photon": "last",
+      "gamma_gamma_angle_deg": 165,
+      "eigenvalues_normalized": [
+        0.012034955288543744,
+        0.28712064974731916,
+        0.35025539082400226,
+        0.350589004140135
+      ],
+      "trace": 0.0069459986841293436
+    },
+    {
+      "case": "actualmixedRBsamephysics",
+      "target_photon": "first",
+      "gamma_gamma_angle_deg": 180,
+      "eigenvalues_normalized": [
+        0.0,
+        0.2839040147849383,
+        0.35804799260753084,
+        0.35804799260753084
+      ],
+      "trace": 0.007028746276584864
+    },
+    {
+      "case": "actualmixedRBsamephysics",
+      "target_photon": "last",
+      "gamma_gamma_angle_deg": 180,
+      "eigenvalues_normalized": [
+        0.0,
+        0.2839040147849383,
+        0.35804799260753084,
+        0.35804799260753084
+      ],
+      "trace": 0.007028746276584864
+    },
+    {
+      "case": "pureM3upperpositive",
+      "target_photon": "first",
+      "gamma_gamma_angle_deg": 0,
+      "eigenvalues_normalized": [
+        0.0,
+        0.04545454545454547,
+        0.04545454545454547,
+        0.9090909090909091
+      ],
+      "trace": 0.004837382899590779
+    },
+    {
+      "case": "pureM3upperpositive",
+      "target_photon": "last",
+      "gamma_gamma_angle_deg": 0,
+      "eigenvalues_normalized": [
+        0.0,
+        0.04545454545454547,
+        0.04545454545454547,
+        0.9090909090909091
+      ],
+      "trace": 0.004837382899590779
+    },
+    {
+      "case": "pureM3upperpositive",
+      "target_photon": "first",
+      "gamma_gamma_angle_deg": 15,
+      "eigenvalues_normalized": [
+        0.0011207341451685859,
+        0.09130509161830996,
+        0.09145663261071035,
+        0.8161175416258111
+      ],
+      "trace": 0.004944434244546341
+    },
+    {
+      "case": "pureM3upperpositive",
+      "target_photon": "last",
+      "gamma_gamma_angle_deg": 15,
+      "eigenvalues_normalized": [
+        0.001120734145168683,
+        0.09130509161830999,
+        0.09145663261071038,
+        0.8161175416258112
+      ],
+      "trace": 0.004944434244546339
+    },
+    {
+      "case": "pureM3upperpositive",
+      "target_photon": "first",
+      "gamma_gamma_angle_deg": 30,
+      "eigenvalues_normalized": [
+        0.0034880063550864777,
+        0.19442866031158007,
+        0.19825080902154382,
+        0.6038325243117897
+      ],
+      "trace": 0.005277144981371761
+    },
+    {
+      "case": "pureM3upperpositive",
+      "target_photon": "last",
+      "gamma_gamma_angle_deg": 30,
+      "eigenvalues_normalized": [
+        0.0034880063550866156,
+        0.19442866031158001,
+        0.19825080902154388,
+        0.6038325243117897
+      ],
+      "trace": 0.00527714498137176
+    },
+    {
+      "case": "pureM3upperpositive",
+      "target_photon": "first",
+      "gamma_gamma_angle_deg": 45,
+      "eigenvalues_normalized": [
+        0.006855785823640135,
+        0.2855970443650393,
+        0.2882431887290103,
+        0.41930398108231026
+      ],
+      "trace": 0.005826847583597984
+    },
+    {
+      "case": "pureM3upperpositive",
+      "target_photon": "last",
+      "gamma_gamma_angle_deg": 45,
+      "eigenvalues_normalized": [
+        0.006855785823640039,
+        0.2855970443650392,
+        0.28824318872901034,
+        0.4193039810823102
+      ],
+      "trace": 0.005826847583597985
+    },
+    {
+      "case": "pureM3upperpositive",
+      "target_photon": "first",
+      "gamma_gamma_angle_deg": 60,
+      "eigenvalues_normalized": [
+        0.010663857508548185,
+        0.2735015930208742,
+        0.32831919333890947,
+        0.3875153561316682
+      ],
+      "trace": 0.006486490706269454
+    },
+    {
+      "case": "pureM3upperpositive",
+      "target_photon": "last",
+      "gamma_gamma_angle_deg": 60,
+      "eigenvalues_normalized": [
+        0.01066385750854813,
+        0.2735015930208741,
+        0.32831919333890935,
+        0.3875153561316683
+      ],
+      "trace": 0.0064864907062694545
+    },
+    {
+      "case": "pureM3upperpositive",
+      "target_photon": "first",
+      "gamma_gamma_angle_deg": 75,
+      "eigenvalues_normalized": [
+        0.013862280374540466,
+        0.2784341908155711,
+        0.33510796956956895,
+        0.3725955592403197
+      ],
+      "trace": 0.007039082483985364
+    },
+    {
+      "case": "pureM3upperpositive",
+      "target_photon": "last",
+      "gamma_gamma_angle_deg": 75,
+      "eigenvalues_normalized": [
+        0.01386228037454041,
+        0.27843419081557097,
+        0.33510796956956906,
+        0.3725955592403197
+      ],
+      "trace": 0.007039082483985363
+    },
+    {
+      "case": "pureM3upperpositive",
+      "target_photon": "first",
+      "gamma_gamma_angle_deg": 90,
+      "eigenvalues_normalized": [
+        0.01515151515151504,
+        0.318181818181818,
+        0.33333333333333326,
+        0.3333333333333334
+      ],
+      "trace": 0.007256074349386168
+    },
+    {
+      "case": "pureM3upperpositive",
+      "target_photon": "last",
+      "gamma_gamma_angle_deg": 90,
+      "eigenvalues_normalized": [
+        0.015151515151515091,
+        0.3181818181818181,
+        0.3333333333333333,
+        0.33333333333333337
+      ],
+      "trace": 0.0072560743493861705
+    },
+    {
+      "case": "pureM3upperpositive",
+      "target_photon": "first",
+      "gamma_gamma_angle_deg": 105,
+      "eigenvalues_normalized": [
+        0.013862280374540485,
+        0.278434190815571,
+        0.3351079695695691,
+        0.3725955592403196
+      ],
+      "trace": 0.007039082483985364
+    },
+    {
+      "case": "pureM3upperpositive",
+      "target_photon": "last",
+      "gamma_gamma_angle_deg": 105,
+      "eigenvalues_normalized": [
+        0.013862280374540485,
+        0.278434190815571,
+        0.335107969569569,
+        0.37259555924031984
+      ],
+      "trace": 0.0070390824839853625
+    },
+    {
+      "case": "pureM3upperpositive",
+      "target_photon": "first",
+      "gamma_gamma_angle_deg": 120,
+      "eigenvalues_normalized": [
+        0.010663857508548124,
+        0.273501593020874,
+        0.3283191933389094,
+        0.3875153561316683
+      ],
+      "trace": 0.006486490706269455
+    },
+    {
+      "case": "pureM3upperpositive",
+      "target_photon": "last",
+      "gamma_gamma_angle_deg": 120,
+      "eigenvalues_normalized": [
+        0.010663857508548185,
+        0.27350159302087396,
+        0.3283191933389095,
+        0.3875153561316683
+      ],
+      "trace": 0.006486490706269455
+    },
+    {
+      "case": "pureM3upperpositive",
+      "target_photon": "first",
+      "gamma_gamma_angle_deg": 135,
+      "eigenvalues_normalized": [
+        0.006855785823640073,
+        0.2855970443650393,
+        0.2882431887290104,
+        0.4193039810823105
+      ],
+      "trace": 0.0058268475835979855
+    },
+    {
+      "case": "pureM3upperpositive",
+      "target_photon": "last",
+      "gamma_gamma_angle_deg": 135,
+      "eigenvalues_normalized": [
+        0.006855785823640129,
+        0.2855970443650393,
+        0.2882431887290105,
+        0.4193039810823104
+      ],
+      "trace": 0.0058268475835979855
+    },
+    {
+      "case": "pureM3upperpositive",
+      "target_photon": "first",
+      "gamma_gamma_angle_deg": 150,
+      "eigenvalues_normalized": [
+        0.0034880063550866477,
+        0.19442866031158004,
+        0.19825080902154385,
+        0.6038325243117895
+      ],
+      "trace": 0.005277144981371761
+    },
+    {
+      "case": "pureM3upperpositive",
+      "target_photon": "last",
+      "gamma_gamma_angle_deg": 150,
+      "eigenvalues_normalized": [
+        0.0034880063550865544,
+        0.19442866031158004,
+        0.19825080902154388,
+        0.6038325243117895
+      ],
+      "trace": 0.00527714498137176
+    },
+    {
+      "case": "pureM3upperpositive",
+      "target_photon": "first",
+      "gamma_gamma_angle_deg": 165,
+      "eigenvalues_normalized": [
+        0.0011207341451687537,
+        0.09130509161831009,
+        0.09145663261071044,
+        0.8161175416258107
+      ],
+      "trace": 0.004944434244546339
+    },
+    {
+      "case": "pureM3upperpositive",
+      "target_photon": "last",
+      "gamma_gamma_angle_deg": 165,
+      "eigenvalues_normalized": [
+        0.001120734145168712,
+        0.09130509161831014,
+        0.09145663261071052,
+        0.8161175416258107
+      ],
+      "trace": 0.00494443424454634
+    },
+    {
+      "case": "pureM3upperpositive",
+      "target_photon": "first",
+      "gamma_gamma_angle_deg": 180,
+      "eigenvalues_normalized": [
+        0.0,
+        0.04545454545454547,
+        0.04545454545454547,
+        0.9090909090909091
+      ],
+      "trace": 0.004837382899590779
+    },
+    {
+      "case": "pureM3upperpositive",
+      "target_photon": "last",
+      "gamma_gamma_angle_deg": 180,
+      "eigenvalues_normalized": [
+        0.0,
+        0.04545454545454547,
+        0.04545454545454547,
+        0.9090909090909091
+      ],
+      "trace": 0.004837382899590779
+    },
+    {
+      "case": "pureM3uppernegativeglobalphasecontrol",
+      "target_photon": "first",
+      "gamma_gamma_angle_deg": 0,
+      "eigenvalues_normalized": [
+        0.0,
+        0.04545454545454547,
+        0.04545454545454547,
+        0.9090909090909091
+      ],
+      "trace": 0.004837382899590779
+    },
+    {
+      "case": "pureM3uppernegativeglobalphasecontrol",
+      "target_photon": "last",
+      "gamma_gamma_angle_deg": 0,
+      "eigenvalues_normalized": [
+        0.0,
+        0.04545454545454547,
+        0.04545454545454547,
+        0.9090909090909091
+      ],
+      "trace": 0.004837382899590779
+    },
+    {
+      "case": "pureM3uppernegativeglobalphasecontrol",
+      "target_photon": "first",
+      "gamma_gamma_angle_deg": 15,
+      "eigenvalues_normalized": [
+        0.0011207341451685859,
+        0.09130509161830996,
+        0.09145663261071035,
+        0.8161175416258111
+      ],
+      "trace": 0.004944434244546341
+    },
+    {
+      "case": "pureM3uppernegativeglobalphasecontrol",
+      "target_photon": "last",
+      "gamma_gamma_angle_deg": 15,
+      "eigenvalues_normalized": [
+        0.001120734145168683,
+        0.09130509161830999,
+        0.09145663261071038,
+        0.8161175416258112
+      ],
+      "trace": 0.004944434244546339
+    },
+    {
+      "case": "pureM3uppernegativeglobalphasecontrol",
+      "target_photon": "first",
+      "gamma_gamma_angle_deg": 30,
+      "eigenvalues_normalized": [
+        0.0034880063550864777,
+        0.19442866031158007,
+        0.19825080902154382,
+        0.6038325243117897
+      ],
+      "trace": 0.005277144981371761
+    },
+    {
+      "case": "pureM3uppernegativeglobalphasecontrol",
+      "target_photon": "last",
+      "gamma_gamma_angle_deg": 30,
+      "eigenvalues_normalized": [
+        0.0034880063550866156,
+        0.19442866031158001,
+        0.19825080902154388,
+        0.6038325243117897
+      ],
+      "trace": 0.00527714498137176
+    },
+    {
+      "case": "pureM3uppernegativeglobalphasecontrol",
+      "target_photon": "first",
+      "gamma_gamma_angle_deg": 45,
+      "eigenvalues_normalized": [
+        0.006855785823640135,
+        0.2855970443650393,
+        0.2882431887290103,
+        0.41930398108231026
+      ],
+      "trace": 0.005826847583597984
+    },
+    {
+      "case": "pureM3uppernegativeglobalphasecontrol",
+      "target_photon": "last",
+      "gamma_gamma_angle_deg": 45,
+      "eigenvalues_normalized": [
+        0.006855785823640039,
+        0.2855970443650392,
+        0.28824318872901034,
+        0.4193039810823102
+      ],
+      "trace": 0.005826847583597985
+    },
+    {
+      "case": "pureM3uppernegativeglobalphasecontrol",
+      "target_photon": "first",
+      "gamma_gamma_angle_deg": 60,
+      "eigenvalues_normalized": [
+        0.010663857508548185,
+        0.2735015930208742,
+        0.32831919333890947,
+        0.3875153561316682
+      ],
+      "trace": 0.006486490706269454
+    },
+    {
+      "case": "pureM3uppernegativeglobalphasecontrol",
+      "target_photon": "last",
+      "gamma_gamma_angle_deg": 60,
+      "eigenvalues_normalized": [
+        0.01066385750854813,
+        0.2735015930208741,
+        0.32831919333890935,
+        0.3875153561316683
+      ],
+      "trace": 0.0064864907062694545
+    },
+    {
+      "case": "pureM3uppernegativeglobalphasecontrol",
+      "target_photon": "first",
+      "gamma_gamma_angle_deg": 75,
+      "eigenvalues_normalized": [
+        0.013862280374540466,
+        0.2784341908155711,
+        0.33510796956956895,
+        0.3725955592403197
+      ],
+      "trace": 0.007039082483985364
+    },
+    {
+      "case": "pureM3uppernegativeglobalphasecontrol",
+      "target_photon": "last",
+      "gamma_gamma_angle_deg": 75,
+      "eigenvalues_normalized": [
+        0.01386228037454041,
+        0.27843419081557097,
+        0.33510796956956906,
+        0.3725955592403197
+      ],
+      "trace": 0.007039082483985363
+    },
+    {
+      "case": "pureM3uppernegativeglobalphasecontrol",
+      "target_photon": "first",
+      "gamma_gamma_angle_deg": 90,
+      "eigenvalues_normalized": [
+        0.01515151515151504,
+        0.318181818181818,
+        0.33333333333333326,
+        0.3333333333333334
+      ],
+      "trace": 0.007256074349386168
+    },
+    {
+      "case": "pureM3uppernegativeglobalphasecontrol",
+      "target_photon": "last",
+      "gamma_gamma_angle_deg": 90,
+      "eigenvalues_normalized": [
+        0.015151515151515091,
+        0.3181818181818181,
+        0.3333333333333333,
+        0.33333333333333337
+      ],
+      "trace": 0.0072560743493861705
+    },
+    {
+      "case": "pureM3uppernegativeglobalphasecontrol",
+      "target_photon": "first",
+      "gamma_gamma_angle_deg": 105,
+      "eigenvalues_normalized": [
+        0.013862280374540485,
+        0.278434190815571,
+        0.3351079695695691,
+        0.3725955592403196
+      ],
+      "trace": 0.007039082483985364
+    },
+    {
+      "case": "pureM3uppernegativeglobalphasecontrol",
+      "target_photon": "last",
+      "gamma_gamma_angle_deg": 105,
+      "eigenvalues_normalized": [
+        0.013862280374540485,
+        0.278434190815571,
+        0.335107969569569,
+        0.37259555924031984
+      ],
+      "trace": 0.0070390824839853625
+    },
+    {
+      "case": "pureM3uppernegativeglobalphasecontrol",
+      "target_photon": "first",
+      "gamma_gamma_angle_deg": 120,
+      "eigenvalues_normalized": [
+        0.010663857508548124,
+        0.273501593020874,
+        0.3283191933389094,
+        0.3875153561316683
+      ],
+      "trace": 0.006486490706269455
+    },
+    {
+      "case": "pureM3uppernegativeglobalphasecontrol",
+      "target_photon": "last",
+      "gamma_gamma_angle_deg": 120,
+      "eigenvalues_normalized": [
+        0.010663857508548185,
+        0.27350159302087396,
+        0.3283191933389095,
+        0.3875153561316683
+      ],
+      "trace": 0.006486490706269455
+    },
+    {
+      "case": "pureM3uppernegativeglobalphasecontrol",
+      "target_photon": "first",
+      "gamma_gamma_angle_deg": 135,
+      "eigenvalues_normalized": [
+        0.006855785823640073,
+        0.2855970443650393,
+        0.2882431887290104,
+        0.4193039810823105
+      ],
+      "trace": 0.0058268475835979855
+    },
+    {
+      "case": "pureM3uppernegativeglobalphasecontrol",
+      "target_photon": "last",
+      "gamma_gamma_angle_deg": 135,
+      "eigenvalues_normalized": [
+        0.006855785823640129,
+        0.2855970443650393,
+        0.2882431887290105,
+        0.4193039810823104
+      ],
+      "trace": 0.0058268475835979855
+    },
+    {
+      "case": "pureM3uppernegativeglobalphasecontrol",
+      "target_photon": "first",
+      "gamma_gamma_angle_deg": 150,
+      "eigenvalues_normalized": [
+        0.0034880063550866477,
+        0.19442866031158004,
+        0.19825080902154385,
+        0.6038325243117895
+      ],
+      "trace": 0.005277144981371761
+    },
+    {
+      "case": "pureM3uppernegativeglobalphasecontrol",
+      "target_photon": "last",
+      "gamma_gamma_angle_deg": 150,
+      "eigenvalues_normalized": [
+        0.0034880063550865544,
+        0.19442866031158004,
+        0.19825080902154388,
+        0.6038325243117895
+      ],
+      "trace": 0.00527714498137176
+    },
+    {
+      "case": "pureM3uppernegativeglobalphasecontrol",
+      "target_photon": "first",
+      "gamma_gamma_angle_deg": 165,
+      "eigenvalues_normalized": [
+        0.0011207341451687537,
+        0.09130509161831009,
+        0.09145663261071044,
+        0.8161175416258107
+      ],
+      "trace": 0.004944434244546339
+    },
+    {
+      "case": "pureM3uppernegativeglobalphasecontrol",
+      "target_photon": "last",
+      "gamma_gamma_angle_deg": 165,
+      "eigenvalues_normalized": [
+        0.001120734145168712,
+        0.09130509161831014,
+        0.09145663261071052,
+        0.8161175416258107
+      ],
+      "trace": 0.00494443424454634
+    },
+    {
+      "case": "pureM3uppernegativeglobalphasecontrol",
+      "target_photon": "first",
+      "gamma_gamma_angle_deg": 180,
+      "eigenvalues_normalized": [
+        0.0,
+        0.04545454545454547,
+        0.04545454545454547,
+        0.9090909090909091
+      ],
+      "trace": 0.004837382899590779
+    },
+    {
+      "case": "pureM3uppernegativeglobalphasecontrol",
+      "target_photon": "last",
+      "gamma_gamma_angle_deg": 180,
+      "eigenvalues_normalized": [
+        0.0,
+        0.04545454545454547,
+        0.04545454545454547,
+        0.9090909090909091
+      ],
+      "trace": 0.004837382899590779
+    }
+  ],
+  "reference_plane_spin2_controls": [
+    {
+      "case": "pureE2first",
+      "target_photon": "first",
+      "reference_phi_rad": 0.0,
+      "IQUV_in_fixed_target_axes": [
+        0.9846230158730159,
+        0.11160714285714278,
+        0.0,
+        1.8181403131610328e-17
+      ],
+      "spin2_relation_error": 0.0
+    },
+    {
+      "case": "pureE2first",
+      "target_photon": "first",
+      "reference_phi_rad": 0.7853981633974483,
+      "IQUV_in_fixed_target_axes": [
+        0.9846230158730157,
+        0.0,
+        0.11160714285714282,
+        3.324933977771506e-17
+      ],
+      "spin2_relation_error": 4.2190520834076835e-17
+    },
+    {
+      "case": "pureE2first",
+      "target_photon": "first",
+      "reference_phi_rad": 1.5707963267948966,
+      "IQUV_in_fixed_target_axes": [
+        0.9846230158730159,
+        -0.11160714285714278,
+        1.3667933026198134e-17,
+        -2.016686138887511e-17
+      ],
+      "spin2_relation_error": 4.622231866529366e-33
+    },
+    {
+      "case": "pureE2first",
+      "target_photon": "last",
+      "reference_phi_rad": 0.0,
+      "IQUV_in_fixed_target_axes": [
+        0.9846230158730159,
+        0.11160714285714278,
+        0.0,
+        1.8181403131610328e-17
+      ],
+      "spin2_relation_error": 0.0
+    },
+    {
+      "case": "pureE2first",
+      "target_photon": "last",
+      "reference_phi_rad": 0.7853981633974483,
+      "IQUV_in_fixed_target_axes": [
+        0.9846230158730157,
+        0.0,
+        0.11160714285714285,
+        3.324933977771506e-17
+      ],
+      "spin2_relation_error": 6.972465818682979e-17
+    },
+    {
+      "case": "pureE2first",
+      "target_photon": "last",
+      "reference_phi_rad": 1.5707963267948966,
+      "IQUV_in_fixed_target_axes": [
+        0.9846230158730159,
+        -0.11160714285714278,
+        1.3667933026198134e-17,
+        -2.016686138887511e-17
+      ],
+      "spin2_relation_error": 4.622231866529366e-33
+    },
+    {
+      "case": "actualmixednative",
+      "target_photon": "first",
+      "reference_phi_rad": 0.0,
+      "IQUV_in_fixed_target_axes": [
+        0.9847149684199501,
+        0.11078208107975289,
+        0.0,
+        -2.0387515316013839e-16
+      ],
+      "spin2_relation_error": 0.0
+    },
+    {
+      "case": "actualmixednative",
+      "target_photon": "first",
+      "reference_phi_rad": 0.7853981633974483,
+      "IQUV_in_fixed_target_axes": [
+        0.9847149684199502,
+        0.0,
+        0.11078208107975279,
+        -6.725357817325604e-17
+      ],
+      "spin2_relation_error": 9.738106524272991e-17
+    },
+    {
+      "case": "actualmixednative",
+      "target_photon": "first",
+      "reference_phi_rad": 1.5707963267948966,
+      "IQUV_in_fixed_target_axes": [
+        0.9847149684199501,
+        -0.11078208107975289,
+        1.3566892099720177e-17,
+        -9.596733750120982e-17
+      ],
+      "spin2_relation_error": 1.5407439555097887e-32
+    },
+    {
+      "case": "actualmixednative",
+      "target_photon": "last",
+      "reference_phi_rad": 0.0,
+      "IQUV_in_fixed_target_axes": [
+        0.9847149684199502,
+        0.10978874245835916,
+        0.0,
+        -1.2631168186396845e-17
+      ],
+      "spin2_relation_error": 0.0
+    },
+    {
+      "case": "actualmixednative",
+      "target_photon": "last",
+      "reference_phi_rad": 0.7853981633974483,
+      "IQUV_in_fixed_target_axes": [
+        0.9847149684199502,
+        0.0,
+        0.10978874245835915,
+        2.959761832888518e-17
+      ],
+      "spin2_relation_error": 1.5420331891317894e-17
+    },
+    {
+      "case": "actualmixednative",
+      "target_photon": "last",
+      "reference_phi_rad": 1.5707963267948966,
+      "IQUV_in_fixed_target_axes": [
+        0.9847149684199502,
+        -0.10978874245835916,
+        1.3445243203404269e-17,
+        -9.350892947066892e-17
+      ],
+      "spin2_relation_error": 3.0814879110195774e-33
+    }
+  ],
+  "all_density_physicality_controls_passed": true,
+  "new_MC_polarization_or_experimental_Q_delta_fit": false,
+  "scope": "point reference/rest frame/real amplitudes; no finite-detector calibration or measured Stokes"
+}

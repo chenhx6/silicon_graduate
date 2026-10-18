@@ -1,0 +1,14 @@
+{
+  "at": "2026-10-19T05:15:57.262559+08:00",
+  "reference_response_assumption": "point-direction tag withidentityinunobservedhelicity, equalpolarizationefficiency; notmerelynotreadinganalysedpolarization",
+  "parents": "uniformspin4 I9/9; radiationconditionedcascade; no alignment/betadirectionobservation",
+  "matrix_norm": "pointjointI scaled(4pi)^2, singlesmarginalI scaled4pi; nopredicteddetectoractivity",
+  "actual_source_limitations": [
+    "real\u03b4/no recoil/no actualfinitegate/geometry/response weighting",
+    "realcalibrationcasesV\u22480; thissuite doesnot independently test nonzeroV sign",
+    "theta_gamma_gamma andComptonpsi andanalyserxi distinguished",
+    "pureM3upperlimit iscontrol, notactualCo60assignment"
+  ],
+  "v2_input_not_changed": "additionalassumptionsareexplicitstatementsofimplementedpartialtrace/operatornormalization",
+  "no_extra_experimental_fact": true
+}

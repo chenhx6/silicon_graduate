@@ -1,0 +1,48 @@
+{
+  "at": "2026-10-19T05:16:36.814579+08:00",
+  "rows": [
+    {
+      "name": "adopted",
+      "datasetcheck": "60028001,60NI",
+      "payload": {
+        "dbclass": "ensdf",
+        "page-source": "singular",
+        "datasetcheck": "60028001,60NI",
+        "chooseit": "ENSDF text format"
+      },
+      "status": 200,
+      "url": "https://www.nndc.bnl.gov/ensdf/EnsdfDispatcherServlet",
+      "content_type": "text/html;charset=UTF-8",
+      "response_bytes": 214733,
+      "response_path": "tmp/day16-ni60-reference/adopted-response.txt",
+      "response_sha256": "ea17882ec959a4aac07317c607dedfa2a5457ecdbf4ae7992265bbdffc16d57f",
+      "ensdf_path": "tmp/day16-ni60-reference/adopted.ens",
+      "ensdf_sha256": "1acde766a8eec3f2ca12927a39b4f1e13319e9bd5a740eb8366cf0f4ce459c58",
+      "lines": 2645,
+      "firstline": "",
+      "looks_likeENSDF": true
+    },
+    {
+      "name": "co60beta",
+      "datasetcheck": "60028002,60NI",
+      "payload": {
+        "dbclass": "ensdf",
+        "page-source": "singular",
+        "datasetcheck": "60028002,60NI",
+        "chooseit": "ENSDF text format"
+      },
+      "status": 200,
+      "url": "https://www.nndc.bnl.gov/ensdf/EnsdfDispatcherServlet",
+      "content_type": "text/html;charset=UTF-8",
+      "response_bytes": 11831,
+      "response_path": "tmp/day16-ni60-reference/co60beta-response.txt",
+      "response_sha256": "fcf103b98086cc94148d7dff615a452315ef1b3a057390daf7da7a29988dc1c4",
+      "ensdf_path": "tmp/day16-ni60-reference/co60beta.ens",
+      "ensdf_sha256": "45eac223f06bab10a1884307e886d7f5db3c5987f6240046c41a3efc56461a06",
+      "lines": 140,
+      "firstline": "",
+      "looks_likeENSDF": true
+    }
+  ],
+  "reading_status": "downloadonly identity firstline checked, scientificrowsnotread"
+}

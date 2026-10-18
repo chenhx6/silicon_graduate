@@ -1,0 +1,39 @@
+{
+  "at": "2026-10-19T05:08:44.858457+08:00",
+  "files": {
+    "day16_co60_closedform": {
+      "path": "system/scripts/day16_co60_closedform.py",
+      "sha256": "3b9856eb879d5455e6f65baa0e9c6165dda0adc81689f655b435e377e775309a"
+    },
+    "day16_co60_conditional_stokes": {
+      "path": "system/scripts/day16_co60_conditional_stokes.py",
+      "sha256": "cf6987cac158e5f0c26b6240da65333b8343291838877c95b11d4c9e06e51e67"
+    },
+    "day16_co60_cascade_theory": {
+      "path": "system/scripts/day16_co60_cascade_theory.py",
+      "sha256": "9d8a8e885dc2c2e539c594313d102e8411421b5e4c844f95de5ce3202147dece"
+    },
+    "day16_ucgretina_stokes_oracle": {
+      "path": "system/scripts/day16_ucgretina_stokes_oracle.py",
+      "sha256": "0c2fc353da0ac7af535bfa61b15fd52e43bcb2ba65a3b58e57dd02eb6bea6598"
+    },
+    "day16_ucgretina_stokes_audit": {
+      "path": "system/scripts/day16_ucgretina_stokes_audit.py",
+      "sha256": "818eabd499a70b6c921904c23efe534a54c1ea7cd7516a665486b0549be5e695"
+    },
+    "day16_gretina_convention_audit": {
+      "path": "system/scripts/day16_gretina_convention_audit.py",
+      "sha256": "700bc906fd6a8c90f09140a8a24087330f9b4afd8bba696bb08ea56603b262b0"
+    },
+    "day16_d96_eq4_erratum_audit": {
+      "path": "system/scripts/day16_d96_eq4_erratum_audit.py",
+      "sha256": "4bbdd27058914ae6b27c20ac6f1dd46c52f77e0ddae543a22d2a087c88f3fa2d"
+    },
+    "day16_pdco_ambiguity_preview": {
+      "path": "system/scripts/day16_pdco_ambiguity_preview.py",
+      "sha256": "619b42017ba91a946942b2c592f927a4299372fb29cd8b75b0964c982b5d9198"
+    }
+  },
+  "v1script_snapshot": "tmp/day16-ucgretina/script-snapshots/day16_co60_conditional_stokes.v1.py",
+  "v2_only_extra_control_checks_notphysicsinputchange": true
+}

@@ -1,0 +1,8 @@
+{
+  "at": "2026-10-19T04:49:33.348797+08:00",
+  "session_id": "01a14ce6-425e-77c1-a127-2ac980bd76b5",
+  "contract_sha256": "5e42acffc63806925fb88f9dfbad79f51be60654146bc33fa42b12114583714e",
+  "recallfreeze": "co60-conditional-stokes-before-freeze.json",
+  "before_script_and_run": true,
+  "primed": true
+}
