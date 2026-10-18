@@ -1,0 +1,23 @@
+{
+  "at": "2026-10-18T17:21:24.033740+00:00",
+  "hashes_reverified_after_read": {
+    "tmp/day16-ucgretina/pinned-head/examples/sources/eu152/data/run007_cal_histos.root": true,
+    "tmp/day16-ucgretina/pinned-head/examples/sources/eu152/data/run020_cal_histos.root": true
+  },
+  "conditional_Poisson_checks": [
+    {
+      "negativebins": 0,
+      "fractionalcounts": 0.0,
+      "error2_Ndifference": 9.094947017729282e-13,
+      "sumw2N": 0,
+      "supports_declared_count_model_but_not_proves_eventindependence": true
+    },
+    {
+      "negativebins": 0,
+      "fractionalcounts": 0.0,
+      "error2_Ndifference": 5.820766091346741e-11,
+      "sumw2N": 0,
+      "supports_declared_count_model_but_not_proves_eventindependence": true
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "at": "2026-10-18T17:28:59.320359+00:00",
+  "initial_lint_exit": 1,
+  "errors": 1,
+  "warnings": 168,
+  "cause": "inlinebacktick doublebracket numericmatrix mistakenforWiki link bylint",
+  "correction": "usematrix((row);(row)) notation; noscientificnumeric/inputchange",
+  "initial_log": "lint-reopened-016-initial.txt"
+}

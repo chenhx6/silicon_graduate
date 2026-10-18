@@ -9,6 +9,8 @@ updated: 2026-10-19
 
 ## Sources
 
+- [[ucgretina-2012-eu152-public-calibration-data]] - 公开NSCL七quad实际ROOT能谱、背景窗口/共享Cov与sorting降序反证；不代Compton Q/原producer。
+
 - [[ucgretina-2021-polarized-emission-code]] - 固定公开tensor→Stokes内核与实际编译：pureE2控制、mixed/高rank的零CG比值边界；不代原阵列response。
 
 - [[nndc-2025-a25-mixing-reference-records]] - Na1041能级身份、2009/2025 Mg混合比和相位谱系；XUNDL的POL/靶厚度/字段标记边界。

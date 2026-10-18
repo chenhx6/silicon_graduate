@@ -64,6 +64,11 @@ updated: 2026-10-19
 
 ## Sources and evidence
 
+### NSCL公开Eu152实际ROOT与sorting/decoder
+
+新增[公开data source](../../knowledge/sources/ucgretina-2012-eu152-public-calibration-data.md) UE12-1–11。EuREADME/Fit/macros、三sorting主线完整读，GRUT固定2020对象只读Build/Sort/GetIP目标链。两ROOT的blob/SHA/ROOTmagic及读后hash实际核，PyROOT6.40.04读所有keys、egam及角hist descriptor；原ROOT/raw不改。它们是2012七quad source/background processedhist，非Morse六quad或L26十二quad/FMA的数据。metadata2013保存时间不当科学采集日期。
+
+
 ### UCGretina公开代码与Geant4原函数
 
 [代码source](../../knowledge/sources/ucgretina-2021-polarized-emission-code.md) UC21-1–9：实际GitHub官方tree/blob/SHA固定2026与2021对象，ITDecay436行/Reaction主线、编译门与runtime flags已读；Geant4v10.7.4关键原函数、tensorcopy/MP编码/Stokes轴/KN项定向读。不是全788文件精读或Riley2021论文全文。源码/生成binary只在tmp；SDK为实际11.4.2，旧函数抽取只改class名并依赖该SDK数学服务，不冒称原10.7.4 runtime。
@@ -92,6 +97,15 @@ updated: 2026-10-19
 实测摘要新写KF89-15–18，均needs_review:true。原KF89 page human-reviewed及所有旧claim flags保留；这次self-audit不冒充人审。
 
 ## Theory/analysis exercise
+
+### 实际源/背景比例与共享归一Cov
+
+[ROOT合同](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/ucgretina-eu152-input-freeze.json)及[actualaudit](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/ucgretina-eu152-public-data-audit.json)在前置窗口合同后执行exit0。egam均8000×1keV bins、整数非负、Sumw2N0，源11249812/背景1731654条entries；1800–3000 rebin4得13836/30293=.456739181，finite独立Poisson背景假设下σa=.00468656，对照把B当exact则.00388296。1540–3000另得.492627908，不能按相同窗口/独立点处理。
+
+[真实ROI Cov](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/ucgretina-eu152-ROI-cov-audit.json)在source前置ROI冻结后计算：两grossROI Y/B=1299473/50784与276090/1244，共同a使crossCov≈1387.571counts²、ρ=.00225767，matrix正定。它们不是Gaussian净峰或已测eventΣ；仅示范真实hist输入下的条件误差传播。
+
+原InBeam selector299–315抽取编译，[32无序排列16fail](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/ucgretina-point-selection-audit.json)后没有立刻归因paper：追到[GRUT实际反证](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/grutinizer-point-order-counterevidence.json)，normalBuildFrom→SortInts保证decompE降序、descendingdistinct原控制全过。只保留ties/reader版本缺口。
+
 
 ### 完整finite IQUV设计的前置合同与验证
 
@@ -305,6 +319,11 @@ Canonical [25Na ledger](../../knowledge/research-notes/gretina-25na1041-polariza
 
 ## Counter-evidence and missing companion observables
 
+### 实际能谱不替Compton校准
+
+UE12-3/8/9表明两ROOT无TTree/实际Comptonξ，labθφ不是散射平面ξ；MC模板与fullfitCov未取得，p0中央接近不认证整response。README run022/1540/p2p3fixed与实际宏run020/1800/release的字面差别保留。sourceprimary一γ/event与radioactive一decay/event分母不同，不能将两种simulation当独立Q验证。selector的normal降序反证限制原担忧；actualtie率/原binary仍缺。
+
+
 ### 软件pureE2反证与整阵列producer缺口
 
 UC21-8的Morse实际p0=.52/p±1=.24、2→0 pureE2控制通过，不能由mixed/highrank代码失败宣判原标定错误；公开实现与论文的exactbinary/macro/Geant4data/geometry/后处理仍未认证。必需companion为PSD photontrace、强度/purelimit及matching jointresponse；更多同代码helper执行不是独立实验。经验Q半因子须连同KN joint harmonic和平均定义重标，不能固定Q删半因子。
@@ -320,6 +339,11 @@ N25-4/5/10给三项实际边界：POL=.043(.008)是A0而非P；官方PDF靶厚�
 作者的强度比1.2±.2相对预期2.3只支持其branch偏好；模型预期和Cov缺失，不能变成独立、无假设的排除。182-keV E1/ICC结论不是921-keV target的独立companion。下一有判别力测量需同921/306、90°/38°/φ18°及matched cuts的P幅值、Q921、净计数/背景、与DCO共同事件Cov；没有这些输入不计算实验显著性或束流时间。
 
 ## Knowledge Impact and Learning Decision
+
+### publicsource batch的判断
+
+`supports`实际background/计数单位/共享归一Cov合同；`revises`无序selector反例可代表normalproducer偏差的初始担忧，上游降序是真实反证。`limits`将另config的processed energy/labanglehist当当前P/Q或matchingresponse；两源码/数据版本和多种处理不增加独立实验。
+
 
 ### 完整finite设计的作用范围
 
@@ -344,6 +368,11 @@ N25-4/5/10给三项实际边界：POL=.043(.008)是A0而非P；官方PDF靶厚�
 `supports` DCO多解与phase/response合同；`revises` 不分gate角色直接联合同名R的做法；`limits` 偏振符号挑根和pure reference认证全部相位。没有新Jπ、B值、wobbling/chirality结论；178W条件计算不外推A≈130。本轮按当前池/唯一Day17预习持续重查公开来源和必要输入；各问题保留原始response/producer/Σ及未得正文边界，当前原研究窗口继续，不由同一模型重复或标签复用补成确定结论。
 
 ## Durable knowledge delta
+
+### 实际公开校准数据与sorting合同的durable增量
+
+新增canonical [ucgretina-2012-eu152-public-calibration-data](../../knowledge/sources/ucgretina-2012-eu152-public-calibration-data.md) UE12-1–11，保存ROOT身份/actualcounts、两background窗口、共享ROI Cov、event分母、truthsorting与upstream反证。[Compton方法](../../knowledge/methods/compton-polarimetry.md)、[1041ledger](../../knowledge/research-notes/gretina-25na1041-polarization-response-contract.md)及index同步“真实可用hist与matchingresponse之间仍缺哪层”，不只留outputs。
+
 
 ### 从literal边界到另名finite模型的durable增量
 
@@ -629,7 +658,7 @@ canonical [178W知识单](../../knowledge/research-notes/w178-921-dco-gate-doubl
     },
     {
       "knowledge": "knowledge/index.md",
-      "summary": "最小索引新增178W921计算单导航，不添加独立科学结论。 新增固定ALPACA独立实现/观测对象边界。 新增原ENSDF章/total-decay和MR字段边界。 加入ICC概率物理域方法入口。 新增公开DELTAactualrun/误差与数值failure边界。 新增104Mo评价时层/target身份及标签使用边界。 加入Morse新primary与25Na1041 durable ledger导航。 加入A25官方对象/历史版本入口。 新增UCGretina固定公开代码入口。",
+      "summary": "最小索引新增178W921计算单导航，不添加独立科学结论。 新增固定ALPACA独立实现/观测对象边界。 新增原ENSDF章/total-decay和MR字段边界。 加入ICC概率物理域方法入口。 新增公开DELTAactualrun/误差与数值failure边界。 新增104Mo评价时层/target身份及标签使用边界。 加入Morse新primary与25Na1041 durable ledger导航。 加入A25官方对象/历史版本入口。 新增UCGretina固定公开代码入口。 加实际Eu152 sourcecalibration数据入口。",
       "anchor": "w178-921-dco-gate-double-solutions",
       "sources": [
         {
@@ -671,6 +700,10 @@ canonical [178W知识单](../../knowledge/research-notes/w178-921-dco-gate-doubl
         {
           "path": "knowledge/sources/ucgretina-2021-polarized-emission-code.md",
           "locator": "UC21-1"
+        },
+        {
+          "path": "knowledge/sources/ucgretina-2012-eu152-public-calibration-data.md",
+          "locator": "UE12-1"
         }
       ]
     },
@@ -1067,7 +1100,7 @@ canonical [178W知识单](../../knowledge/research-notes/w178-921-dco-gate-doubl
     },
     {
       "knowledge": "knowledge/methods/compton-polarimetry.md",
-      "summary": "保存PAQ分层、双分段actual432计数公式/derivatives、fiterrors与理想Poisson层区别、printingfailure和matchedeta/Q/fullCov门。 新增EXOGAM比值误差的任意Cov必要界及原表条件不闭合；回代不是独立P验证。 补1368文字Q与外推curve的未闭合、FOM因子化与同response身份条件。 新增GRETINA normalization/真实cut tradeoff与不同reference/Q谱系。 新增C(theta)测度/Jacobian、平均产品与经验Q重标的条件设计，实际jointkernel未恢复。 补XUNDL POL=A0与target/单位转录边界。 保存实际Stokes禁戒比值/pure反证及KN/Q归一合同。 补有限H解析消CG、actualsame-tensor dκ0/d0κ与literalevenκ U控制/消费端及真zeroI边界。 补另名fullq/Jones finiteIQUV设计、事前冻结12PSD/540点与rotation/pure/zero/nonPSD域控制，不认证原实验producer。",
+      "summary": "保存PAQ分层、双分段actual432计数公式/derivatives、fiterrors与理想Poisson层区别、printingfailure和matchedeta/Q/fullCov门。 新增EXOGAM比值误差的任意Cov必要界及原表条件不闭合；回代不是独立P验证。 补1368文字Q与外推curve的未闭合、FOM因子化与同response身份条件。 新增GRETINA normalization/真实cut tradeoff与不同reference/Q谱系。 新增C(theta)测度/Jacobian、平均产品与经验Q重标的条件设计，实际jointkernel未恢复。 补XUNDL POL=A0与target/单位转录边界。 保存实际Stokes禁戒比值/pure反证及KN/Q归一合同。 补有限H解析消CG、actualsame-tensor dκ0/d0κ与literalevenκ U控制/消费端及真zeroI边界。 补另名fullq/Jones finiteIQUV设计、事前冻结12PSD/540点与rotation/pure/zero/nonPSD域控制，不认证原实验producer。 新增实际public能谱/共享Cov/event单位与sorting/decoder反证、P/Q readiness。",
       "anchor": "Gammasphere双分段的P/A/Q与actual峰面积",
       "sources": [
         {
@@ -1221,6 +1254,46 @@ canonical [178W知识单](../../knowledge/research-notes/w178-921-dco-gate-doubl
         {
           "path": "knowledge/sources/ucgretina-2021-polarized-emission-code.md",
           "locator": "UC21-16"
+        },
+        {
+          "path": "knowledge/sources/ucgretina-2012-eu152-public-calibration-data.md",
+          "locator": "UE12-2"
+        },
+        {
+          "path": "knowledge/sources/ucgretina-2012-eu152-public-calibration-data.md",
+          "locator": "UE12-3"
+        },
+        {
+          "path": "knowledge/sources/ucgretina-2012-eu152-public-calibration-data.md",
+          "locator": "UE12-4"
+        },
+        {
+          "path": "knowledge/sources/ucgretina-2012-eu152-public-calibration-data.md",
+          "locator": "UE12-5"
+        },
+        {
+          "path": "knowledge/sources/ucgretina-2012-eu152-public-calibration-data.md",
+          "locator": "UE12-6"
+        },
+        {
+          "path": "knowledge/sources/ucgretina-2012-eu152-public-calibration-data.md",
+          "locator": "UE12-7"
+        },
+        {
+          "path": "knowledge/sources/ucgretina-2012-eu152-public-calibration-data.md",
+          "locator": "UE12-8"
+        },
+        {
+          "path": "knowledge/sources/ucgretina-2012-eu152-public-calibration-data.md",
+          "locator": "UE12-9"
+        },
+        {
+          "path": "knowledge/sources/ucgretina-2012-eu152-public-calibration-data.md",
+          "locator": "UE12-10"
+        },
+        {
+          "path": "knowledge/sources/ucgretina-2012-eu152-public-calibration-data.md",
+          "locator": "UE12-11"
         }
       ]
     },
@@ -1856,7 +1929,7 @@ canonical [178W知识单](../../knowledge/research-notes/w178-921-dco-gate-doubl
     {
       "knowledge": "knowledge/research-notes/gretina-25na1041-polarization-response-contract.md",
       "anchor": "25Na1041：同号偏振如何参与分支判别",
-      "summary": "真实AD/偏振双候选与matched response/calibration谱系，明确无RDCO与无新实验CI；保存phase/pure/physical/选择失败控制。 补22Ne参考图平均边界，不迁sourceC到1041或据cut图给实际最优/新CI。 官方Ei/Ef和2009/2025 MR版本已直接补齐，不增加独立δ证据。 补publiccore边界、正确native分支及初始identity纠错。 补有限H解析消CG、actualsame-tensor dκ0/d0κ与literalevenκ U控制/消费端及真zeroI边界。 补另名fullq/Jones finiteIQUV设计、事前冻结12PSD/540点与rotation/pure/zero/nonPSD域控制，不认证原实验producer。",
+      "summary": "真实AD/偏振双候选与matched response/calibration谱系，明确无RDCO与无新实验CI；保存phase/pure/physical/选择失败控制。 补22Ne参考图平均边界，不迁sourceC到1041或据cut图给实际最优/新CI。 官方Ei/Ef和2009/2025 MR版本已直接补齐，不增加独立δ证据。 补publiccore边界、正确native分支及初始identity纠错。 补有限H解析消CG、actualsame-tensor dκ0/d0κ与literalevenκ U控制/消费端及真zeroI边界。 补另名fullq/Jones finiteIQUV设计、事前冻结12PSD/540点与rotation/pure/zero/nonPSD域控制，不认证原实验producer。 保存真实publicsource仍不matching1041response及selector担忧收窄。",
       "sources": [
         {
           "path": "knowledge/sources/longfellow-2026-gretina-energy-ordering-polarization.md",
@@ -1989,6 +2062,22 @@ canonical [178W知识单](../../knowledge/research-notes/w178-921-dco-gate-doubl
         {
           "path": "knowledge/sources/ucgretina-2021-polarized-emission-code.md",
           "locator": "UC21-16"
+        },
+        {
+          "path": "knowledge/sources/ucgretina-2012-eu152-public-calibration-data.md",
+          "locator": "UE12-1"
+        },
+        {
+          "path": "knowledge/sources/ucgretina-2012-eu152-public-calibration-data.md",
+          "locator": "UE12-3"
+        },
+        {
+          "path": "knowledge/sources/ucgretina-2012-eu152-public-calibration-data.md",
+          "locator": "UE12-9"
+        },
+        {
+          "path": "knowledge/sources/ucgretina-2012-eu152-public-calibration-data.md",
+          "locator": "UE12-10"
         }
       ]
     },
@@ -2109,6 +2198,57 @@ canonical [178W知识单](../../knowledge/research-notes/w178-921-dco-gate-doubl
           "locator": "UC21-16"
         }
       ]
+    },
+    {
+      "knowledge": "knowledge/sources/ucgretina-2012-eu152-public-calibration-data.md",
+      "anchor": "Eu152公开能谱：实际数据能支持哪一层校准",
+      "summary": "真实ROOT源/背景counts和window/Cov传播，sourceevent分母及truthsorting、GRUT降序counterevidence；不代原ComptonQ/arrayresponse。",
+      "sources": [
+        {
+          "path": "knowledge/sources/ucgretina-2012-eu152-public-calibration-data.md",
+          "locator": "UE12-1"
+        },
+        {
+          "path": "knowledge/sources/ucgretina-2012-eu152-public-calibration-data.md",
+          "locator": "UE12-2"
+        },
+        {
+          "path": "knowledge/sources/ucgretina-2012-eu152-public-calibration-data.md",
+          "locator": "UE12-3"
+        },
+        {
+          "path": "knowledge/sources/ucgretina-2012-eu152-public-calibration-data.md",
+          "locator": "UE12-4"
+        },
+        {
+          "path": "knowledge/sources/ucgretina-2012-eu152-public-calibration-data.md",
+          "locator": "UE12-5"
+        },
+        {
+          "path": "knowledge/sources/ucgretina-2012-eu152-public-calibration-data.md",
+          "locator": "UE12-6"
+        },
+        {
+          "path": "knowledge/sources/ucgretina-2012-eu152-public-calibration-data.md",
+          "locator": "UE12-7"
+        },
+        {
+          "path": "knowledge/sources/ucgretina-2012-eu152-public-calibration-data.md",
+          "locator": "UE12-8"
+        },
+        {
+          "path": "knowledge/sources/ucgretina-2012-eu152-public-calibration-data.md",
+          "locator": "UE12-9"
+        },
+        {
+          "path": "knowledge/sources/ucgretina-2012-eu152-public-calibration-data.md",
+          "locator": "UE12-10"
+        },
+        {
+          "path": "knowledge/sources/ucgretina-2012-eu152-public-calibration-data.md",
+          "locator": "UE12-11"
+        }
+      ]
     }
   ]
 }
@@ -2144,6 +2284,13 @@ Dors[3]身份冲突已经定位到准确DOI，尚待全文给169/137的约定与
 L0为三篇主线/原图回核；L1/L2为新证据单和反向验证；L3调查已由用户恢复至原15:00截止，169参考定义/producer与新原件缺口保持开放。尚未进行experimental L4 refit；已有条件设计不冒充实际数据分析，也未取得完整input/response/Σ。未新增人审或修改旧needs_review。
 
 ## Verification and continuation
+
+
+### Public-data checkpoint022验收与下一response输入门
+
+[verification-reopened-016](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/verification-reopened-016.json)实际report/card/writebackvalid（38 changed knowledge pages/38 items），boundary/lint/diff均exit0；lint0errors168warnings（126key/39raw/3parser）。原ROOT读后hash、L26/L25旧humanprefix、PLAN/Bib保持。首次数字矩阵doublebracket被lint当wikilink，已只改表示法、原失败/initialverification保留，未改科学数字追检查。
+
+本批实际rawcount/条件Cov/selector/upstream反证均有artifact；没有Compton事件/MC模板/fullfit/Q重建。SDK11.4.2/ROOT存在，UCGretina/grutinizer binary不存在；下一先读固定geant4.11 branch的真实build/geometry/source依赖，判断能否在repo tmp构建有版本限定的source能谱MC。前置primed回忆/输入门已冻于ucgretina-source-response-build-before.md/hash；若缺依赖或matching input如实notready，不造MC或调geometry强配。原19日15:00上海deadline/goalactive、formal16一次partial17不变。
 
 
 ### Fullfinite checkpoint021检查与候选池重建

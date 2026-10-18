@@ -1,0 +1,110 @@
+{
+  "ROI_input_contract_sha256": "a4d9fc65ed7eb2e51a32d15b9da46297153bc562a2585b4f6acc0d7d2be62db3",
+  "script_sha256": "f00819760d166a12e700c72770b2677a2b708e5c6070cfdf84a0edf081cd78b8",
+  "actual_ROI_counts": [
+    {
+      "bounds_keV": [
+        120,
+        128
+      ],
+      "bincenters_keV": [
+        122.0,
+        126.0
+      ],
+      "source_sum": 1299473.0,
+      "background_sum": 50784.0
+    },
+    {
+      "bounds_keV": [
+        1404,
+        1412
+      ],
+      "bincenters_keV": [
+        1406.0,
+        1410.0
+      ],
+      "source_sum": 276090.0,
+      "background_sum": 1244.0
+    }
+  ],
+  "normalization_covariance_models": [
+    {
+      "normalization_window_keV": [
+        1800,
+        3000
+      ],
+      "alpha": 0.45673918066880137,
+      "conditional_var_alpha": 2.196381539718118e-05,
+      "gross_ROI_net_counts_conditional": [
+        1276277.9574489156,
+        275521.816459248
+      ],
+      "conditional_covariance_counts2": [
+        [
+          1366712.0865413689,
+          1387.5705390062788
+        ],
+        [
+          1387.5705390062788,
+          276383.50147989707
+        ]
+      ],
+      "conditional_fixed_alpha_diagonal": [
+        1310067.0847303602,
+        276349.51168487256
+      ],
+      "conditional_correlation": [
+        [
+          1.0,
+          0.002257670173360808
+        ],
+        [
+          0.002257670173360808,
+          1.0
+        ]
+      ],
+      "minimum_Cov_eigenvalue": 276381.73563709616
+    },
+    {
+      "normalization_window_keV": [
+        1540,
+        3000
+      ],
+      "alpha": 0.49262790847844334,
+      "conditional_var_alpha": 1.5827076878329043e-05,
+      "gross_ROI_net_counts_conditional": [
+        1274455.3842958307,
+        275477.1708818528
+      ],
+      "conditional_covariance_counts2": [
+        [
+          1352615.6389303117,
+          999.8802666031933
+        ],
+        [
+          999.8802666031933,
+          276416.3896979715
+        ]
+      ],
+      "conditional_fixed_alpha_diagonal": [
+        1311797.3756994624,
+        276391.89672672754
+      ],
+      "conditional_correlation": [
+        [
+          1.0,
+          0.001635230202765046
+        ],
+        [
+          0.001635230202765046,
+          1.0
+        ]
+      ],
+      "minimum_Cov_eigenvalue": 276415.4607253066
+    }
+  ],
+  "grossROI_not_fitted_peak_area": true,
+  "Poisson_independence_and_sourcefree_highwindow_are_assumptions": true,
+  "eventCov_or_Q_or_response_recovered": false,
+  "original_ROOT_files_modified": false
+}

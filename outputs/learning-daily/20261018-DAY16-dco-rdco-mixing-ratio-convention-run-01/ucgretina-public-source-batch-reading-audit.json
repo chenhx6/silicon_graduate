@@ -1,0 +1,10 @@
+{
+  "at": "2026-10-18T17:24:41.692622+00:00",
+  "current_source_reading_depth": "EuREADME/Fit/macros/angdist plots entire;threeUCGsortingcomplete;GRUT4filesselectedBuild/comparator/Sort/GetIPchain only, notentireGRUTrepo",
+  "actual_companion": "source/background processedhist supportsenergy+countnormalization; noTTree/rawpointCov orComptonxi found",
+  "counterevidence_checked": "normaldecoder descendingorderqualifies permutationfailinterpretation; README code window/versionconflicts kept",
+  "necessary_companion_missing": "MCtemplate/metadata exactproducer, matchingpolarizedcal/gates/response/fullCov",
+  "source_independence": "same2012sourcecalset/twohist/background andtwoMCmodes are notindependentcalibrations ofQ;fixedGRUT code notnewevents",
+  "belief_decision": "supports observable/eventunit/sourceCovcontracts;revises unsortedselectorconcernwithupstreamcounterevidence;limits migrationtoMorse/L26 andP/Q extraction",
+  "ready_for_canonical": true
+}

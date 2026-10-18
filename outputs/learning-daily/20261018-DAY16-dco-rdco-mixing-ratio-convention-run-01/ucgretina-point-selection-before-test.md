@@ -1,0 +1,7 @@
+# 原sorting作用点选择的前置失败控制
+
+已完整读fixedMakeHistosInBeam.cxx，polarization部分用highest/secondhighest变量却在新max出现时未demotepreviousmax；是否实际有影响取决于TGretinaHit interaction-point顺序，现未认证。不得把数学permutation反例直接归因Morse原实验。
+
+独立于fullfinite模型：抽取原i1/i2循环，仅以depositedenergies为输入比较two-largestindices；对两点[5,3]与[3,5]、三点[5,3,7]等全部排列统计。各energy值皆声明人为unitcontrol，不是实测。若降序输入总过，须追sourceeventpacking/TGretina decode是否保证降序后再评价actualproducer。原code/binary不改。
+
+同段还要求gretSimSize>0且IsFEP、singlecrystallocal positions，ξ轴n×z及其交叉形成与eθ/eφ同时转π的轴；cos2/sin2不会因此单独改U号。无θ门/背景扣除/Morse20degtrackingclustering等完整选择，此sort不是exactpaperproducer。EuROOT只有hist无TTree，不能用它补actualpoint-order。

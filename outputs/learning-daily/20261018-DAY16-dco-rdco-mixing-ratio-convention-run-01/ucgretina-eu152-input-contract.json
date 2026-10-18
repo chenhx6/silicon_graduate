@@ -1,0 +1,39 @@
+{
+  "identity": "UCGRETINA-EU152-PUBLIC-CALIBRATION-DATA-01",
+  "day_index": 16,
+  "partial_day_indices": [
+    17
+  ],
+  "objects": [
+    {
+      "path": "tmp/day16-ucgretina/pinned-head/examples/sources/eu152/data/run007_cal_histos.root",
+      "bytes": 7123705,
+      "sha256": "0792a20b82297f966e1e5e95ea722a129ac9a92a7d9f8bee3a83dd4348061f5e",
+      "magic_root": true
+    },
+    {
+      "path": "tmp/day16-ucgretina/pinned-head/examples/sources/eu152/data/run020_cal_histos.root",
+      "bytes": 8788994,
+      "sha256": "58bc3420b3a2af9892bf722411679eefdfb56ddbd554cc8aec59391465504379",
+      "magic_root": true
+    }
+  ],
+  "source_code_read_before_objects": "Eu152README/Fitmacro/macros complete; before-source/freeze alreadyexists",
+  "source_identity": "README NSCLSept2012sevenquads,run020source/run007background;READMEfirstdescriptionrun022typo retained;notMorse6quad/L26twelvequad",
+  "target_object": "egam, actualtypes/axis/Sumw2/error/integral/underflowoverflow beforefitting;fullkeysmetadata andTTreepresence",
+  "preselected_windows_keV": [
+    [
+      1800,
+      3000
+    ],
+    [
+      1540,
+      3000
+    ]
+  ],
+  "binning_contract": "macroRebin4,countsnotdensity; requirematchingoriginalaxes; bincenterwithinclosedbounds,reportexactfirst/lastcenter; do nottune toREADMEp0=.456734",
+  "quantitative_boundary": "no MCsim spectrumprovided, do notclaimreproducefullFit orp1/thresholds; backgroundonlyratio conditional sourcefreeandPoissondatachecks;finitebackgroundtemplateuncertainty separate",
+  "uncertainty": "ifactualegamnonnegativeintegerandsumw2supportsPoisson, conditional aggregatea=Y/B andsigma=a*sqrt(1/Y+1/B); weighted/correlated/noncounts muststopthatinference",
+  "observables_missing": "checkactualROOTkeys forxi/theta/Compton/eventdata. Energyhistograms alone cannotderiveP/Q oractual1041response",
+  "no_lifetime_strength_work": "sourcegamma/event vsdecayonlynormalizationrole; noDSAM/T1/2/Banalysis"
+}

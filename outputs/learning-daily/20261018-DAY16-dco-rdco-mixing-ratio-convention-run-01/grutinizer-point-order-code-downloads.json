@@ -1,0 +1,30 @@
+{
+  "at": "2026-10-18T17:18:38.392123+00:00",
+  "commit": "f648d7cb4fc0609f13aaad7148977f87641ecac9",
+  "results": [
+    {
+      "url": "https://raw.githubusercontent.com/pcbend/GRUTinizer/f648d7cb4fc0609f13aaad7148977f87641ecac9/include/TGretina.h",
+      "source_path": "include/TGretina.h",
+      "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",
+      "matches_tree_blob": false
+    },
+    {
+      "url": "https://raw.githubusercontent.com/pcbend/GRUTinizer/f648d7cb4fc0609f13aaad7148977f87641ecac9/include/TGretinaHit.h",
+      "source_path": "include/TGretinaHit.h",
+      "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",
+      "matches_tree_blob": false
+    },
+    {
+      "url": "https://raw.githubusercontent.com/pcbend/GRUTinizer/f648d7cb4fc0609f13aaad7148977f87641ecac9/libraries/TDetSystems/TGretina/TGretina.cxx",
+      "source_path": "libraries/TDetSystems/TGretina/TGretina.cxx",
+      "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",
+      "matches_tree_blob": false
+    },
+    {
+      "url": "https://raw.githubusercontent.com/pcbend/GRUTinizer/f648d7cb4fc0609f13aaad7148977f87641ecac9/libraries/TDetSystems/TGretina/TGretinaHit.cxx",
+      "source_path": "libraries/TDetSystems/TGretina/TGretinaHit.cxx",
+      "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",
+      "matches_tree_blob": false
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "at": "2026-10-19T01:22:24.218094+08:00",
+  "fixed_GRUT_commit": "f648d7cb4fc0609f13aaad7148977f87641ecac9",
+  "actual_body_read": true,
+  "source_locators": [
+    "TGretina.cxx BuildHits hit.BuildFrom(buf)",
+    "TGretinaHit.cxx BuildFrom140–205 SortInts",
+    "TGretinaHit.cxx359 SortInts std::sort(fInteractions.begin,end)",
+    "TGretinaHit.h50 operator< compares GetDecompE()>rhs.GetDecompE()",
+    "TGretinaHit.h129 GetInteractionPoint returnsfInteractions.at(i)"
+  ],
+  "revised_assessment": "normalBuildFrom->sortenforcesdescending;firstisolatedunsortedpermutationfailuresdo notestablishstandardchainbias",
+  "literal_descending_distinct_controls": "all3sizesalreadycorrect inexistingaudit, no repeatedtestneeded",
+  "remaining_boundary": "equalhighestenergies fail literalstrictcomparison; eventleveldata/binaryversion/tie rateunavailable; donotattributeMorsepapererror",
+  "original_user_data_or_source_modified": false
+}

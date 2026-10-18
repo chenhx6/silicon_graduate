@@ -1,5 +1,5 @@
 {
-  "at": "2026-10-19T01:01:08.332918+08:00",
+  "at": "2026-10-19T01:35:25.722099+08:00",
   "published_checkpoint": 15,
   "branch_subject": "main / Trace DAY16 profile thresholds and conditional identifiability",
   "original_deadline": "2026-10-19T15:00:00+08:00",
@@ -25,9 +25,9 @@
   "L25_targeted_companion_scope": "manuscript Sec5.1-5.5,Eq27-38/sourcecalTable2; oldsource/prefixhashfrozen; sourceQ.33=measuredamp.016/.048, gate/polarizingphotonandnormalizationdifferent. Not currentfull25pageread.",
   "Alikhani2012_body_status": "not obtained; exactDOIrecordclosed,ChalmersDNSfail,configuredpublisherMarkdownproviderunavailable attemptedfalse; OpenAIRErelatedURLsnotallsamepaper, useexactDOIinstancesonly",
   "next_actions": [
-    "exactpublication021/H3",
-    "readfrozen-sourceexampleREADME/macros/fit/angdist mainline",
-    "onlythen decideactualROOT/calibrationorGRUTsortingidentityroute"
+    "exactpublication022/H3",
+    "readg411README/tree/build+geometry+source contract",
+    "ifready repo tmpbuild/smoke/frozenMCinputs;elseexplicitreadiness andhighestnextrealroute"
   ],
   "M22_input": "morse2022-calibration-input.json",
   "pending_executable_replay": "M22cuts/physicaldensity/calibrationselection andL26primaryRcoefficients/Qnormalization; first sourceRacah exploration may require trianglezero guard, no data changed",
@@ -35,10 +35,10 @@
   "scientific_annotation_status": "canonical35pages/items in report; newM22source/L26append17–26/L25append30/new25Na note; fulloldhumanprefixbytepreserved",
   "new_experimental_refit": false,
   "averaging_stage": "completed actualplot integration/declaredkernels,sourceproseapproxnotliterallyclosed;newcanonicalwritebackpending",
-  "latest_publication": "publication-020.json,pushedHEADoriginmatched",
+  "latest_publication": "publication-021.json,pushedHEADoriginmatched",
   "averaging_result": "l26-coverage-average-audit.json",
   "source_figure_vs_actual_events": "218Cpoints/2908redPpoints;no rawresponse restored",
-  "current_route": "publicexample source/sortingfilesdownloaded notread; ROOTnotdownloaded",
+  "current_route": "g411source-responsebuild feasibility frozen;metadataonlybodyunread",
   "current_source_scope": {
     "current9objects": "NaBeO142/XUNDL23,25/NRF15whole;othersselected",
     "oldMgAdopted793": "header/targetsselected"
@@ -158,5 +158,19 @@
   },
   "full_finite_native_RB_error": 0,
   "full_finite_canonical": "UC21-14–16/method/note/report37items;015passed,publication021next",
-  "next_source_freeze": "ucgretina-sorting-source-before-freeze.json"
+  "next_source_freeze": "ucgretina-sorting-source-before-freeze.json",
+  "ROOT_objects_read": true,
+  "public_ROOT_audit": "ucgretina-eu152-public-data-audit.json",
+  "angle_metadata": "ucgretina-eu152-angle-object-descriptors.json",
+  "ROIcov_contract": "ucgretina-eu152-ROI-cov-before.md",
+  "point_selection_contract": "ucgretina-point-selection-before-test.md",
+  "ROI_cov_result": "actualconditionaloffdiag1387.570539,rho.00225767",
+  "point_selection_literal_result": "ucgretina-point-selection-audit.json:32distinctpermutations16fail;descendingdistinctallcorrect;actualinputordernotestablished",
+  "publication21": "actualpushedaf7d069;receipt21/run",
+  "new_source": "knowledge/sources/ucgretina-2012-eu152-public-calibration-data.md",
+  "new_writeback_items": 38,
+  "GRUT_order_counterevidence": "actualnormalBuildFromSortIntsdescendingconfirmed, unsortedcontrolnotnormalbias",
+  "actualpublic_source_canonical": "UE12-1–11/method/note/index/report38items;016passes,publication022next",
+  "g411_sha": "02e5a9241322f661c6918f6705cab813c691cd21",
+  "build_executed": false
 }

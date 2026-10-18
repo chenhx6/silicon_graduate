@@ -1,0 +1,43 @@
+{
+  "at": "2026-10-18T17:20:50.152131+00:00",
+  "commit": "f648d7cb4fc0609f13aaad7148977f87641ecac9",
+  "reason": "actualGitblobURLafterfourrawconnectionaborts,notrepeatingterminalpublisherURL",
+  "results": [
+    {
+      "url": "https://api.github.com/repos/pcbend/GRUTinizer/git/blobs/ed394d3a0a794b88b4e93c0eb36a4ef19c63b411",
+      "source_path": "include/TGretina.h",
+      "status": 200,
+      "path": "tmp/day16-ucgretina/grutinizer-pinned/include/TGretina.h",
+      "bytes": 2735,
+      "sha256": "2569268f87549ee4873f359ca930e28d0556bae277148cc2a08ba764b0cf4382",
+      "matches_tree_blob": true
+    },
+    {
+      "url": "https://api.github.com/repos/pcbend/GRUTinizer/git/blobs/1f53230c9a63e48504e88b7476e29c67893edf2d",
+      "source_path": "include/TGretinaHit.h",
+      "status": 200,
+      "path": "tmp/day16-ucgretina/grutinizer-pinned/include/TGretinaHit.h",
+      "bytes": 6234,
+      "sha256": "80640887841e441d8569e1685d1b417661f08a0f8197dd2f2a4105acf9d4fe46",
+      "matches_tree_blob": true
+    },
+    {
+      "url": "https://api.github.com/repos/pcbend/GRUTinizer/git/blobs/ebd7056e94e916d4a22ce5cc2c93eb739bf79277",
+      "source_path": "libraries/TDetSystems/TGretina/TGretina.cxx",
+      "status": 200,
+      "path": "tmp/day16-ucgretina/grutinizer-pinned/libraries/TDetSystems/TGretina/TGretina.cxx",
+      "bytes": 15795,
+      "sha256": "f50666a27e123c7d317da2badbf5c6b1c2e7d6377eddb3feaad72027d749e7fa",
+      "matches_tree_blob": true
+    },
+    {
+      "url": "https://api.github.com/repos/pcbend/GRUTinizer/git/blobs/a34f47d02ba1a81872b7186313af5e58f28be1c4",
+      "source_path": "libraries/TDetSystems/TGretina/TGretinaHit.cxx",
+      "status": 200,
+      "path": "tmp/day16-ucgretina/grutinizer-pinned/libraries/TDetSystems/TGretina/TGretinaHit.cxx",
+      "bytes": 20529,
+      "sha256": "c172badf1ef8dbda622bb45aa3e82172bc5ded44521edd2e83197a49a45ed61b",
+      "matches_tree_blob": true
+    }
+  ]
+}

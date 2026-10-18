@@ -7,7 +7,7 @@ updated: 2026-10-19
 status: ai-draft
 review_status: unreviewed
 reasoning_status: provisional
-evidence_sources: [longfellow-2026-gretina-energy-ordering-polarization, morse-2022-gretina-polarization-sensitivity, lauritsen-2025-gamma-angular-formalism-tracking-arrays, nndc-2025-a25-mixing-reference-records, ucgretina-2021-polarized-emission-code]
+evidence_sources: [longfellow-2026-gretina-energy-ordering-polarization, morse-2022-gretina-polarization-sensitivity, lauritsen-2025-gamma-angular-formalism-tracking-arrays, nndc-2025-a25-mixing-reference-records, ucgretina-2021-polarized-emission-code, ucgretina-2012-eu152-public-calibration-data]
 created_from: Day16 independent daily-learning run with uncredited Day17 preview
 promotion_target: compton-polarimetry
 tags: [mixing-ratio, polarization, GRETINA, response-calibration, phase-convention]
@@ -104,6 +104,11 @@ L26-19：p7的positive E1+M2、ΔJ0例句与Table3 negative相反。按其Fig.7 
 L26-26：A2=0时，Eq.(11)的(A2prime/A2)a2字面0/0，一致模型中的A2prime B2 Q2却可有限。9/2→9/2、sigma/J=.3、δRB=.57787494给a2=0/P90=.43201160。相反，纯2→0且只布居m0时θ90没有光子，P90物理上undefined，不能用同一“消0/0”手法制造观测。
 
 M22-10：在声明ideal-response/轴对称pureE2模型中，印刷a2/a4给grouped p=(.5233,.4776,−.0009)、P90=1.003776。它不是负核布居的实测；pabs2=0与literal两marginal误差盒有p0区间[.5211,.5246]相容。真实fit/response Cov缺失，不由误差盒造jointCI或夹掉原P。
+
+
+### 实际publicsource数据没有填平1041的response缺口
+
+[[ucgretina-2012-eu152-public-calibration-data]] UE12-1–11核到NSCL2012七quad的实际源/背景能谱及conditional共同归一Cov。它们确为可访问实验processedhist，却只有energy/labdirection而无当前Comptonξ/rawpoints，array/时间/source/selection也不同。新数据不能裸给1041的Q/feeding/AD–A0 Cov；公开simulation sorting还带truth门。上游GRUT降序排序又限制了isolatedselector反例，不能由它宣判正常Morse链路偏差。
 
 ## Transfer Conditions
 

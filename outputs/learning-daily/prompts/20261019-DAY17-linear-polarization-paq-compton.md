@@ -290,3 +290,5 @@ Day16 UCGretina追加priming：[[ucgretina-2021-polarized-emission-code]] UC21-1
 Day16 finite/κ priming：UC21-10–13与Compton新段保存H解析消CG、samepol dκ0/d0κ及literalpureM1/evenκ U反号控制；消NaN不等于完整general Stokes通过。已冻结fullfinite/Jones代数合同待另验证；原Morseκ0/pureE2控制仍过，真实response/Cov缺口不变。正式17需新session自审，不换算旧检查数授卡。
 
 Day16 fullfinite追加priming：UC21-14–16另名fullq/Jones模型已在18声明case/540点及12新PSD态核IQUV/旋转/相位坐标/pure/zero/nonPSD；它不认证原publicproducer或实验response。首script少执行phasecontrol的记录/snapshot和补核已保留。下一source/sorting/公开ROOT数据readiness尚待实际新读，别把未读对象算证据。
+
+Day16 publicdata priming：UE12-1–11实际Eu152七quad source/bgROOT与a/window/sharedCov已核，normalGRUT排序反证使无序selector担忧收窄；truthFEP例不等原Comptonselection。无TTree/ξ/MCtemplate/fitCov/P/Q，不能转当前1041response。固定g411build可行性仅已冻结/metadata，未跑MC，正式17不得将未执行路线当交付。

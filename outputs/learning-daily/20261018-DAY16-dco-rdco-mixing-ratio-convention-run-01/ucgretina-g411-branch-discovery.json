@@ -1,0 +1,33 @@
+{
+  "at": "2026-10-18T17:33:10.141359+00:00",
+  "url": "https://api.github.com/repos/rileyle/UCGretina/commits/02e5a9241322f661c6918f6705cab813c691cd21",
+  "status": 200,
+  "sha": "02e5a9241322f661c6918f6705cab813c691cd21",
+  "commit": {
+    "author": {
+      "name": "Lew Riley",
+      "email": "lriley@ursinus.edu",
+      "date": "2024-01-21T15:38:35Z"
+    },
+    "committer": {
+      "name": "Lew Riley",
+      "email": "lriley@ursinus.edu",
+      "date": "2024-01-21T15:38:35Z"
+    },
+    "message": "Merged changes in the geant4.10 branch.",
+    "tree": {
+      "sha": "cc9e4d7d1072032c177ec22d688bf2a000bbe1d6",
+      "url": "https://api.github.com/repos/rileyle/UCGretina/git/trees/cc9e4d7d1072032c177ec22d688bf2a000bbe1d6"
+    },
+    "url": "https://api.github.com/repos/rileyle/UCGretina/git/commits/02e5a9241322f661c6918f6705cab813c691cd21",
+    "comment_count": 0,
+    "verification": {
+      "verified": false,
+      "reason": "unsigned",
+      "signature": null,
+      "payload": null,
+      "verified_at": null
+    }
+  },
+  "source": "actualbranchesAPI previouslyobserved geant4.11 sha,notguessedrepository"
+}

@@ -495,16 +495,56 @@
       "goal_status": "active",
       "research_deadline": "2026-10-19T15:00:00+08:00",
       "credit_retained_once": true
+    },
+    {
+      "publication_index": 21,
+      "at": "2026-10-19T01:06:12.039553+08:00",
+      "branch": "main",
+      "subject": "Validate DAY16 finite tensor polarization with frozen PSD inputs",
+      "commit": "af7d0699c9743ef07a99083a1356854e3b9eb09d",
+      "origin_main": "af7d0699c9743ef07a99083a1356854e3b9eb09d",
+      "status": "published",
+      "required_exit_codes": {
+        "fresh_fetch": 0,
+        "ancestry": 0,
+        "dry_run_HEAD_main": 0,
+        "push_HEAD_main": 0,
+        "post_commit_eol": 0,
+        "cached_check": 0
+      },
+      "push_observation": {
+        "exec_session_id": 47073,
+        "exit_code": 0,
+        "result": "2f2ddce..af7d069 HEAD -> main"
+      },
+      "manifest_matches_actual_commit": true,
+      "inherited_dirty_preserved": {
+        "outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/completion-audit.json": true,
+        "outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/progress.jsonl": true,
+        "outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/research-checkpoint.json": true,
+        "outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/run.json": true,
+        "outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/schedule-resume-process.log": true,
+        "outputs/learning-daily/20261008-DAY9-be2-bm1-reduced-matrix-elements-strengths-run-01/run.json": true,
+        "outputs/learning-daily/20261008-clock-reminder-delivery-fix-run-01/repair-receipt.json": true,
+        "outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity-run-01/run.json": true,
+        "outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/run.json": true,
+        "outputs/learning-daily/20261016-DAY15-ado-angular-distribution-geometry-run-01/run.json": true,
+        "outputs/learning-daily/prompt-maintenance/20261016-day15-consolidation.json": true,
+        "system/scripts/run_daily_learning_daemon.py": true
+      },
+      "goal_status": "active",
+      "research_deadline": "2026-10-19T15:00:00+08:00",
+      "credit_retained_once": true
     }
   ],
-  "last_checkpoint": "reopened-015",
-  "last_verification": "verification-reopened-015.json",
-  "knowledge_writeback_items": 37,
-  "last_learning_summary": "fullfiniteIQUVselecteddomain passed; actualsource/sortingreadiness routefrozen; noexperimentrefit",
-  "knowledge_changed_pages": 37,
+  "last_checkpoint": "reopened-016",
+  "last_verification": "verification-reopened-016.json",
+  "knowledge_writeback_items": 38,
+  "last_learning_summary": "publicROOTactualcounts/conditionalbgROICov anddecoderpreconditioncounterevidence; noComptonQorfullfit",
+  "knowledge_changed_pages": 38,
   "uncredited_day17_preview_started": true,
   "preview_time_gate": "outputs/learning-daily/20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/day17-preview-time-gate.json",
-  "current_research_route": "publicUCGretina example source/sorting/calibration ROOT identity",
+  "current_research_route": "fixedgeant4.11 sourcecalresponsebuild feasibility afteractualpublicdatacanonical",
   "research_status": "active",
   "research_stopped_at": null,
   "original_minutes_to_deadline_at_research_stop": 1523.8833333333334,
@@ -606,9 +646,9 @@
     }
   ],
   "last_runtime_snapshot": {
-    "now_local": "2026-10-19T01:01:08.332918+08:00",
+    "now_local": "2026-10-19T01:35:25.722099+08:00",
     "hard_deadline": "2026-10-19T15:00:00+08:00",
-    "minutes_to_deadline": 838.8611180333334,
+    "minutes_to_deadline": 804.57129835,
     "decision": "continue-current-preview17"
   },
   "goal_resumed_by_user_at": "2026-10-18T16:34:00+08:00 (approximate; exact server timestamp held by native goal)",
@@ -621,5 +661,5 @@
     "deadline": "2026-10-19T15:00:00+08:00",
     "credit_policy": "Day16 kept once; partial17 only; no Day18"
   },
-  "last_publication": "publication-020.json"
+  "last_publication": "publication-021.json"
 }

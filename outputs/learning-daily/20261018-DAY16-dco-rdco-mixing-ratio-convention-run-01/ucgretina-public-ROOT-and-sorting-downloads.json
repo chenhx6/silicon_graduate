@@ -1,0 +1,66 @@
+{
+  "at": "2026-10-18T17:06:12.394285+00:00",
+  "commit": "1271388e03ec9b3f8e055a988aeb4c2e4d2efedf",
+  "results": [
+    {
+      "source_path": "util/GRUTinizer/MakeHistosSourcesSim.cxx",
+      "url": "https://raw.githubusercontent.com/rileyle/UCGretina/1271388e03ec9b3f8e055a988aeb4c2e4d2efedf/util/GRUTinizer/MakeHistosSourcesSim.cxx",
+      "expected_tree_blob": "606c91d173170a9609fb563822cde9c1f9de1ba7",
+      "expected_bytes": 10078,
+      "status": 200,
+      "bytes": 10078,
+      "path": "tmp/day16-ucgretina/pinned-head/util/GRUTinizer/MakeHistosSourcesSim.cxx",
+      "sha256": "e57c835155acaaccbf4768f9c3fbc474354612e235b4cb05fb8e4e74a8d57f44",
+      "matches_tree_blob": true,
+      "valid_ROOT_magic": null
+    },
+    {
+      "source_path": "util/GRUTinizer/MakeHistosInBeam.cxx",
+      "url": "https://raw.githubusercontent.com/rileyle/UCGretina/1271388e03ec9b3f8e055a988aeb4c2e4d2efedf/util/GRUTinizer/MakeHistosInBeam.cxx",
+      "expected_tree_blob": "117facd339443ada8a6b94afa6558238d22ccd75",
+      "expected_bytes": 16657,
+      "status": 200,
+      "bytes": 16657,
+      "path": "tmp/day16-ucgretina/pinned-head/util/GRUTinizer/MakeHistosInBeam.cxx",
+      "sha256": "156b799b2168981acf7e32d517a5314ce5dd12b3b44996f4597c782ad550c0c4",
+      "matches_tree_blob": true,
+      "valid_ROOT_magic": null
+    },
+    {
+      "source_path": "util/GRUTinizer/MakeHistos60CoSim.cxx",
+      "url": "https://raw.githubusercontent.com/rileyle/UCGretina/1271388e03ec9b3f8e055a988aeb4c2e4d2efedf/util/GRUTinizer/MakeHistos60CoSim.cxx",
+      "expected_tree_blob": "be315ac89eda695ef4b1e349450cea3f0e238ec0",
+      "expected_bytes": 13672,
+      "status": 200,
+      "bytes": 13672,
+      "path": "tmp/day16-ucgretina/pinned-head/util/GRUTinizer/MakeHistos60CoSim.cxx",
+      "sha256": "12c33b9219ccc2fa3cc4303cd5821b1cd91769744a0d321ed9132bc7c729251e",
+      "matches_tree_blob": true,
+      "valid_ROOT_magic": null
+    },
+    {
+      "source_path": "examples/sources/eu152/data/run007_cal_histos.root",
+      "url": "https://raw.githubusercontent.com/rileyle/UCGretina/1271388e03ec9b3f8e055a988aeb4c2e4d2efedf/examples/sources/eu152/data/run007_cal_histos.root",
+      "expected_tree_blob": "066d8ea757e292d6070b9139d4e6cb265ab6e375",
+      "expected_bytes": 7123705,
+      "status": 200,
+      "bytes": 7123705,
+      "path": "tmp/day16-ucgretina/pinned-head/examples/sources/eu152/data/run007_cal_histos.root",
+      "sha256": "0792a20b82297f966e1e5e95ea722a129ac9a92a7d9f8bee3a83dd4348061f5e",
+      "matches_tree_blob": true,
+      "valid_ROOT_magic": true
+    },
+    {
+      "source_path": "examples/sources/eu152/data/run020_cal_histos.root",
+      "url": "https://raw.githubusercontent.com/rileyle/UCGretina/1271388e03ec9b3f8e055a988aeb4c2e4d2efedf/examples/sources/eu152/data/run020_cal_histos.root",
+      "expected_tree_blob": "0ddb17ffc313f4f879a200dcf6cb4272f6a04472",
+      "expected_bytes": 8788994,
+      "status": 200,
+      "bytes": 8788994,
+      "path": "tmp/day16-ucgretina/pinned-head/examples/sources/eu152/data/run020_cal_histos.root",
+      "sha256": "58bc3420b3a2af9892bf722411679eefdfb56ddbd554cc8aec59391465504379",
+      "matches_tree_blob": true,
+      "valid_ROOT_magic": true
+    }
+  ]
+}

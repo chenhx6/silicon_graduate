@@ -1900,3 +1900,8 @@ Sciencepublication005 actualGitee成功后，依据validDay16audit/report/writeb
 ## 2026-10-19 — DAY16另名有限tensor模型与公开数据续接
 
 Fullq/Jones finiteIQUV实际18cases/540points与12新PSD事前输入验证通过，nativeRB/rotation/pure/zero/nonPSD控制保持，原source/binary/实验response不变；补首script遗漏phasecontrol且留snapshot/首结果。UC21-14–16/方法/note共37pages/items，required0/lint0errors166warnings。内容指针main / `Validate DAY16 finite tensor polarization with frozen PSD inputs`，实际hash/push仅receipt。pool重建后转实际source/sorting/ROOTreadiness，原15:00截止、goalactive/formal16一次partial17不变。
+
+
+## 2026-10-19 — DAY16实际源校准counts与sorting合同
+
+新增UE12-1–11：publicROOT actualsource/bg能谱、窗口a/条件共享Cov、event分母与truthselection，GRUT降序反证限制无序selector担忧；无MCtemplate/Compton事件/P/Q。38pages/items、required0/lint0errors168warnings；原数据/人审prefix/PLAN/Bib保持。内容指针main / `Audit DAY16 public calibration counts and sorting contracts`，hash/push仅receipt。下一g411source-response build可行性已冻未build，原15:00截止、formal16一次partial17/goalactive不变。

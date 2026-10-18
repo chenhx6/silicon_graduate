@@ -307,3 +307,11 @@ Morse spin2→0 pureE2控制确实通过，这限制对其原标定的归因；�
 [[ucgretina-2021-polarized-emission-code]] UC21-14–16把Jones代数、fullq d_(q,m)收缩与有限H放在同一合同中，另名计算IQUV；Q+iU=−2tau_plusminus*的conjugation决定虚部符号。18个声明case/540点（12个新PSD矩阵事前冻结）与独立photontrace闭合，Rz/纯极限/nonPSD/truezeroI控制也过。这个数学证据没有把原public代码修成已验证producer，也没有补actualgeometry、interactionorder、后处理、background与共享Cov。
 
 使用时先保存density/EM/nativeδ/轴与Stokes定义，再将光子密度矩阵通过matching response作用到实际事件/参考归一。单emitter正性只保证该模型的光子域；Q、计数FOM、实验branch CI及gatedreference仍须各自真实输入。新的数值零门不是能量阈值，absδ很大也仍是含小干涉的有限值。
+
+### 公开源能谱能约束什么：Eu152实际数据的readiness门
+
+[[ucgretina-2012-eu152-public-calibration-data]] UE12-1–11取得NSCL2012七quad的run20源/run7背景ROOT。实际egam1keV/bin，source/background entries约1125万/173万；按宏1800–3000而非README1540门计算，a=13836/30293=.45673918，与printedp0接近，声明finitePoisson背景时σa=.00468656。该数只支持对应window的归一算术，没有MC模板/拟合Cov便不称fullresponse复现。
+
+两个grossROI经同a扣背景会共享Cov：n_i=y_i−a b_i，条件Var≈y_i+a²b_i+b_i²Var(a)，非对角≈b_i b_j Var(a)。实际预选121/1408附近grossROI给crossCov≈1387.57counts²；它既非净Gaussian峰面积，也非已测eventCov。Sumw2N0/defaultsqrtN不证明独立事件；同数据更多hist/拟合不增加独立校准。
+
+公开InBeam例的ξ还有truthIsFEP/同crystal/two-IP选择；isolated selector无序反例必须连同上游GRUT BuildFrom的decompE降序排序反证，不能直接归因原实验。相等最大值和binary版本仍需actualinput核查。两校准ROOT只有energy/labθφhist而无TTree/Comptonξ，不足以识别P或Q；这份七quad数据也不能裸迁到Morse六quad或L26十二quad。unpolarized geometricalreference、polarizedQcalibrator与γγ-gated reference的统计对象要随事件分母保存。

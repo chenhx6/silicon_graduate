@@ -1,0 +1,2919 @@
+{
+  "identity": "UCGRETINA-EU152-PUBLIC-CALIBRATION-DATA-01",
+  "input_sha256": "da2ddba4eb58991fe551d7fcbdfc719eed15a13d44f87d762fe22db7de58d685",
+  "script_sha256": "0b01a3f706cc53a89832bb53afc1173a28f5d38f68be72824d27c055b5ab5d72",
+  "ROOT_version": "6.40.04",
+  "files": [
+    {
+      "path": "tmp/day16-ucgretina/pinned-head/examples/sources/eu152/data/run007_cal_histos.root",
+      "sha256": "0792a20b82297f966e1e5e95ea722a129ac9a92a7d9f8bee3a83dd4348061f5e",
+      "keys": [
+        {
+          "path": "IC_vs_time",
+          "class": "TH2F",
+          "cycle": 1,
+          "compressed_bytes": 2627
+        },
+        {
+          "path": "ICde_vs_x_0",
+          "class": "TH2F",
+          "cycle": 1,
+          "compressed_bytes": 16117
+        },
+        {
+          "path": "ICde_vs_x_1",
+          "class": "TH2F",
+          "cycle": 1,
+          "compressed_bytes": 16117
+        },
+        {
+          "path": "ICde_vs_y_0",
+          "class": "TH2F",
+          "cycle": 1,
+          "compressed_bytes": 5628
+        },
+        {
+          "path": "ICde_vs_y_1",
+          "class": "TH2F",
+          "cycle": 1,
+          "compressed_bytes": 5628
+        },
+        {
+          "path": "ICsum_vs_x_0",
+          "class": "TH2F",
+          "cycle": 1,
+          "compressed_bytes": 16124
+        },
+        {
+          "path": "ICsum_vs_x_1",
+          "class": "TH2F",
+          "cycle": 1,
+          "compressed_bytes": 16124
+        },
+        {
+          "path": "ICsum_vs_y_0",
+          "class": "TH2F",
+          "cycle": 1,
+          "compressed_bytes": 5640
+        },
+        {
+          "path": "ICsum_vs_y_1",
+          "class": "TH2F",
+          "cycle": 1,
+          "compressed_bytes": 5640
+        },
+        {
+          "path": "afp_vs_obj",
+          "class": "TH2F",
+          "cycle": 1,
+          "compressed_bytes": 7455
+        },
+        {
+          "path": "afp_vs_objC",
+          "class": "TH2F",
+          "cycle": 1,
+          "compressed_bytes": 1750
+        },
+        {
+          "path": "afp_vs_objtac",
+          "class": "TH2F",
+          "cycle": 1,
+          "compressed_bytes": 2120
+        },
+        {
+          "path": "afp_vs_objtacC",
+          "class": "TH2F",
+          "cycle": 1,
+          "compressed_bytes": 2119
+        },
+        {
+          "path": "afp_vs_xfp",
+          "class": "TH2F",
+          "cycle": 1,
+          "compressed_bytes": 7454
+        },
+        {
+          "path": "afp_vs_xfpC",
+          "class": "TH2F",
+          "cycle": 1,
+          "compressed_bytes": 2109
+        },
+        {
+          "path": "afp_vs_xfptac",
+          "class": "TH2F",
+          "cycle": 1,
+          "compressed_bytes": 2118
+        },
+        {
+          "path": "afp_vs_xfptacC",
+          "class": "TH2F",
+          "cycle": 1,
+          "compressed_bytes": 2120
+        },
+        {
+          "path": "ata_all",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 275
+        },
+        {
+          "path": "bta_all",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 275
+        },
+        {
+          "path": "egam",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 8005
+        },
+        {
+          "path": "egamAB",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 8107
+        },
+        {
+          "path": "egamAB_egamAB",
+          "class": "TH2F",
+          "cycle": 1,
+          "compressed_bytes": 187777
+        },
+        {
+          "path": "egamAB_egamAB_dc",
+          "class": "TH2F",
+          "cycle": 1,
+          "compressed_bytes": 176605
+        },
+        {
+          "path": "egamAB_n1",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 7557
+        },
+        {
+          "path": "egamAB_n2",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 5623
+        },
+        {
+          "path": "egamAB_n3",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 3759
+        },
+        {
+          "path": "egamAB_n4",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 1584
+        },
+        {
+          "path": "egamAB_n5",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 712
+        },
+        {
+          "path": "egamAB_n6",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 564
+        },
+        {
+          "path": "egamAB_n7",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 492
+        },
+        {
+          "path": "egamAB_n9",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 465
+        },
+        {
+          "path": "egamABdc",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 7822
+        },
+        {
+          "path": "egamABdc_n1",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 7370
+        },
+        {
+          "path": "egamABdc_n2",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 5461
+        },
+        {
+          "path": "egamABdc_n3",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 3609
+        },
+        {
+          "path": "egamABdc_n4",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 1508
+        },
+        {
+          "path": "egamABdc_n5",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 692
+        },
+        {
+          "path": "egamABdc_n6",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 565
+        },
+        {
+          "path": "egamABdc_n7",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 506
+        },
+        {
+          "path": "egamABdc_n9",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 470
+        },
+        {
+          "path": "egam_egam",
+          "class": "TH2F",
+          "cycle": 1,
+          "compressed_bytes": 294406
+        },
+        {
+          "path": "egam_egam_dc",
+          "class": "TH2F",
+          "cycle": 1,
+          "compressed_bytes": 276622
+        },
+        {
+          "path": "egam_tgam",
+          "class": "TH2F",
+          "cycle": 1,
+          "compressed_bytes": 133367
+        },
+        {
+          "path": "egamdc",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 7789
+        },
+        {
+          "path": "egamdc_grettheta",
+          "class": "TH2F",
+          "cycle": 1,
+          "compressed_bytes": 220223
+        },
+        {
+          "path": "egamdc_phi",
+          "class": "TH2F",
+          "cycle": 1,
+          "compressed_bytes": 34279
+        },
+        {
+          "path": "egamdc_phi_d0_c0",
+          "class": "TH2F",
+          "cycle": 1,
+          "compressed_bytes": 116295
+        },
+        {
+          "path": "egamdc_phi_d0_c1",
+          "class": "TH2F",
+          "cycle": 1,
+          "compressed_bytes": 116501
+        },
+        {
+          "path": "egamdc_phi_d0_c2",
+          "class": "TH2F",
+          "cycle": 1,
+          "compressed_bytes": 116247
+        },
+        {
+          "path": "egamdc_phi_d0_c3",
+          "class": "TH2F",
+          "cycle": 1,
+          "compressed_bytes": 116118
+        },
+        {
+          "path": "egamdc_phi_d1_c0",
+          "class": "TH2F",
+          "cycle": 1,
+          "compressed_bytes": 116530
+        },
+        {
+          "path": "egamdc_phi_d1_c1",
+          "class": "TH2F",
+          "cycle": 1,
+          "compressed_bytes": 116393
+        },
+        {
+          "path": "egamdc_phi_d1_c2",
+          "class": "TH2F",
+          "cycle": 1,
+          "compressed_bytes": 116357
+        },
+        {
+          "path": "egamdc_phi_d1_c3",
+          "class": "TH2F",
+          "cycle": 1,
+          "compressed_bytes": 116368
+        },
+        {
+          "path": "egamdc_phi_d2_c0",
+          "class": "TH2F",
+          "cycle": 1,
+          "compressed_bytes": 116409
+        },
+        {
+          "path": "egamdc_phi_d2_c1",
+          "class": "TH2F",
+          "cycle": 1,
+          "compressed_bytes": 116376
+        },
+        {
+          "path": "egamdc_phi_d2_c2",
+          "class": "TH2F",
+          "cycle": 1,
+          "compressed_bytes": 115882
+        },
+        {
+          "path": "egamdc_phi_d2_c3",
+          "class": "TH2F",
+          "cycle": 1,
+          "compressed_bytes": 116054
+        },
+        {
+          "path": "egamdc_phi_d3_c0",
+          "class": "TH2F",
+          "cycle": 1,
+          "compressed_bytes": 116088
+        },
+        {
+          "path": "egamdc_phi_d3_c1",
+          "class": "TH2F",
+          "cycle": 1,
+          "compressed_bytes": 116300
+        },
+        {
+          "path": "egamdc_phi_d3_c2",
+          "class": "TH2F",
+          "cycle": 1,
+          "compressed_bytes": 116257
+        },
+        {
+          "path": "egamdc_phi_d3_c3",
+          "class": "TH2F",
+          "cycle": 1,
+          "compressed_bytes": 116007
+        },
+        {
+          "path": "egamdc_phi_d4_c0",
+          "class": "TH2F",
+          "cycle": 1,
+          "compressed_bytes": 116448
+        },
+        {
+          "path": "egamdc_phi_d4_c1",
+          "class": "TH2F",
+          "cycle": 1,
+          "compressed_bytes": 116411
+        },
+        {
+          "path": "egamdc_phi_d4_c2",
+          "class": "TH2F",
+          "cycle": 1,
+          "compressed_bytes": 116369
+        },
+        {
+          "path": "egamdc_phi_d4_c3",
+          "class": "TH2F",
+          "cycle": 1,
+          "compressed_bytes": 116333
+        },
+        {
+          "path": "egamdc_phi_d5_c0",
+          "class": "TH2F",
+          "cycle": 1,
+          "compressed_bytes": 116353
+        },
+        {
+          "path": "egamdc_phi_d5_c1",
+          "class": "TH2F",
+          "cycle": 1,
+          "compressed_bytes": 116130
+        },
+        {
+          "path": "egamdc_phi_d5_c2",
+          "class": "TH2F",
+          "cycle": 1,
+          "compressed_bytes": 116279
+        },
+        {
+          "path": "egamdc_phi_d5_c3",
+          "class": "TH2F",
+          "cycle": 1,
+          "compressed_bytes": 116342
+        },
+        {
+          "path": "egamdc_phi_d6_c0",
+          "class": "TH2F",
+          "cycle": 1,
+          "compressed_bytes": 116195
+        },
+        {
+          "path": "egamdc_phi_d6_c1",
+          "class": "TH2F",
+          "cycle": 1,
+          "compressed_bytes": 116450
+        },
+        {
+          "path": "egamdc_phi_d6_c2",
+          "class": "TH2F",
+          "cycle": 1,
+          "compressed_bytes": 116401
+        },
+        {
+          "path": "egamdc_phi_d6_c3",
+          "class": "TH2F",
+          "cycle": 1,
+          "compressed_bytes": 116197
+        },
+        {
+          "path": "hcrdc0xy",
+          "class": "TH2F",
+          "cycle": 1,
+          "compressed_bytes": 6635
+        },
+        {
+          "path": "hcrdc1xy",
+          "class": "TH2F",
+          "cycle": 1,
+          "compressed_bytes": 6635
+        },
+        {
+          "path": "hcrdcrawrange0xy",
+          "class": "TH2F",
+          "cycle": 1,
+          "compressed_bytes": 86336
+        },
+        {
+          "path": "hcrdcrawrange1xy",
+          "class": "TH2F",
+          "cycle": 1,
+          "compressed_bytes": 86335
+        },
+        {
+          "path": "hegamegam_all",
+          "class": "TH2F",
+          "cycle": 1,
+          "compressed_bytes": 612356
+        },
+        {
+          "path": "hegamtdiff",
+          "class": "TH2F",
+          "cycle": 1,
+          "compressed_bytes": 78236
+        },
+        {
+          "path": "hgamma",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 5819
+        },
+        {
+          "path": "hgammaDC_d0_c0",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 3915
+        },
+        {
+          "path": "hgammaDC_d0_c1",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 4083
+        },
+        {
+          "path": "hgammaDC_d0_c2",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 3876
+        },
+        {
+          "path": "hgammaDC_d0_c3",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 3772
+        },
+        {
+          "path": "hgammaDC_d1_c0",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 4115
+        },
+        {
+          "path": "hgammaDC_d1_c1",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 4027
+        },
+        {
+          "path": "hgammaDC_d1_c2",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 3946
+        },
+        {
+          "path": "hgammaDC_d1_c3",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 3970
+        },
+        {
+          "path": "hgammaDC_d2_c0",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 4002
+        },
+        {
+          "path": "hgammaDC_d2_c1",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 3951
+        },
+        {
+          "path": "hgammaDC_d2_c2",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 3527
+        },
+        {
+          "path": "hgammaDC_d2_c3",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 3702
+        },
+        {
+          "path": "hgammaDC_d3_c0",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 3750
+        },
+        {
+          "path": "hgammaDC_d3_c1",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 3901
+        },
+        {
+          "path": "hgammaDC_d3_c2",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 3910
+        },
+        {
+          "path": "hgammaDC_d3_c3",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 3663
+        },
+        {
+          "path": "hgammaDC_d4_c0",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 4057
+        },
+        {
+          "path": "hgammaDC_d4_c1",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 4034
+        },
+        {
+          "path": "hgammaDC_d4_c2",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 4006
+        },
+        {
+          "path": "hgammaDC_d4_c3",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 3924
+        },
+        {
+          "path": "hgammaDC_d5_c0",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 3954
+        },
+        {
+          "path": "hgammaDC_d5_c1",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 3749
+        },
+        {
+          "path": "hgammaDC_d5_c2",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 3853
+        },
+        {
+          "path": "hgammaDC_d5_c3",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 3974
+        },
+        {
+          "path": "hgammaDC_d6_c0",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 3818
+        },
+        {
+          "path": "hgammaDC_d6_c1",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 4075
+        },
+        {
+          "path": "hgammaDC_d6_c2",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 4021
+        },
+        {
+          "path": "hgammaDC_d6_c3",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 3793
+        },
+        {
+          "path": "hgamma_ab",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 5925
+        },
+        {
+          "path": "hgamma_d0_c0",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 3331
+        },
+        {
+          "path": "hgamma_d0_c1",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 3368
+        },
+        {
+          "path": "hgamma_d0_c2",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 3348
+        },
+        {
+          "path": "hgamma_d0_c3",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 3142
+        },
+        {
+          "path": "hgamma_d1_c0",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 3544
+        },
+        {
+          "path": "hgamma_d1_c1",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 3505
+        },
+        {
+          "path": "hgamma_d1_c2",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 3483
+        },
+        {
+          "path": "hgamma_d1_c3",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 3408
+        },
+        {
+          "path": "hgamma_d2_c0",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 3407
+        },
+        {
+          "path": "hgamma_d2_c1",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 3296
+        },
+        {
+          "path": "hgamma_d2_c2",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 2997
+        },
+        {
+          "path": "hgamma_d2_c3",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 3229
+        },
+        {
+          "path": "hgamma_d3_c0",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 3304
+        },
+        {
+          "path": "hgamma_d3_c1",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 3339
+        },
+        {
+          "path": "hgamma_d3_c2",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 3336
+        },
+        {
+          "path": "hgamma_d3_c3",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 3239
+        },
+        {
+          "path": "hgamma_d4_c0",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 3423
+        },
+        {
+          "path": "hgamma_d4_c1",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 3318
+        },
+        {
+          "path": "hgamma_d4_c2",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 3332
+        },
+        {
+          "path": "hgamma_d4_c3",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 3224
+        },
+        {
+          "path": "hgamma_d5_c0",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 3331
+        },
+        {
+          "path": "hgamma_d5_c1",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 3209
+        },
+        {
+          "path": "hgamma_d5_c2",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 3185
+        },
+        {
+          "path": "hgamma_d5_c3",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 3348
+        },
+        {
+          "path": "hgamma_d6_c0",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 3331
+        },
+        {
+          "path": "hgamma_d6_c1",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 3431
+        },
+        {
+          "path": "hgamma_d6_c2",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 3376
+        },
+        {
+          "path": "hgamma_d6_c3",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 3224
+        },
+        {
+          "path": "hmult",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 325
+        },
+        {
+          "path": "hmult_ab",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 300
+        },
+        {
+          "path": "hodo_0",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 315
+        },
+        {
+          "path": "hodo_1",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 330
+        },
+        {
+          "path": "hodo_10",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 318
+        },
+        {
+          "path": "hodo_11",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 327
+        },
+        {
+          "path": "hodo_12",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 329
+        },
+        {
+          "path": "hodo_13",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 321
+        },
+        {
+          "path": "hodo_14",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 307
+        },
+        {
+          "path": "hodo_15",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 327
+        },
+        {
+          "path": "hodo_16",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 326
+        },
+        {
+          "path": "hodo_17",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 321
+        },
+        {
+          "path": "hodo_18",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 325
+        },
+        {
+          "path": "hodo_19",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 314
+        },
+        {
+          "path": "hodo_2",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 326
+        },
+        {
+          "path": "hodo_20",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 332
+        },
+        {
+          "path": "hodo_21",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 320
+        },
+        {
+          "path": "hodo_23",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 320
+        },
+        {
+          "path": "hodo_24",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 321
+        },
+        {
+          "path": "hodo_25",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 325
+        },
+        {
+          "path": "hodo_26",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 320
+        },
+        {
+          "path": "hodo_27",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 322
+        },
+        {
+          "path": "hodo_29",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 317
+        },
+        {
+          "path": "hodo_3",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 326
+        },
+        {
+          "path": "hodo_30",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 323
+        },
+        {
+          "path": "hodo_31",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 313
+        },
+        {
+          "path": "hodo_4",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 324
+        },
+        {
+          "path": "hodo_5",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 332
+        },
+        {
+          "path": "hodo_6",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 316
+        },
+        {
+          "path": "hodo_7",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 311
+        },
+        {
+          "path": "hodo_8",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 334
+        },
+        {
+          "path": "hodo_9",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 323
+        },
+        {
+          "path": "hodo_all",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 340
+        },
+        {
+          "path": "hodo_sum",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 305
+        },
+        {
+          "path": "hodo_vs_ch",
+          "class": "TH2F",
+          "cycle": 1,
+          "compressed_bytes": 814
+        },
+        {
+          "path": "hodotime_0",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 379
+        },
+        {
+          "path": "hodotime_1",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 383
+        },
+        {
+          "path": "hodotime_10",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 384
+        },
+        {
+          "path": "hodotime_11",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 386
+        },
+        {
+          "path": "hodotime_12",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 385
+        },
+        {
+          "path": "hodotime_13",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 386
+        },
+        {
+          "path": "hodotime_14",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 379
+        },
+        {
+          "path": "hodotime_15",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 385
+        },
+        {
+          "path": "hodotime_16",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 385
+        },
+        {
+          "path": "hodotime_17",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 385
+        },
+        {
+          "path": "hodotime_18",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 385
+        },
+        {
+          "path": "hodotime_19",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 383
+        },
+        {
+          "path": "hodotime_2",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 384
+        },
+        {
+          "path": "hodotime_20",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 387
+        },
+        {
+          "path": "hodotime_21",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 386
+        },
+        {
+          "path": "hodotime_23",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 383
+        },
+        {
+          "path": "hodotime_24",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 383
+        },
+        {
+          "path": "hodotime_25",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 384
+        },
+        {
+          "path": "hodotime_26",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 386
+        },
+        {
+          "path": "hodotime_27",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 387
+        },
+        {
+          "path": "hodotime_29",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 382
+        },
+        {
+          "path": "hodotime_3",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 382
+        },
+        {
+          "path": "hodotime_30",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 385
+        },
+        {
+          "path": "hodotime_31",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 384
+        },
+        {
+          "path": "hodotime_4",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 382
+        },
+        {
+          "path": "hodotime_5",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 383
+        },
+        {
+          "path": "hodotime_6",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 381
+        },
+        {
+          "path": "hodotime_7",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 376
+        },
+        {
+          "path": "hodotime_8",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 384
+        },
+        {
+          "path": "hodotime_9",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 383
+        },
+        {
+          "path": "hodotime_all",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 391
+        },
+        {
+          "path": "hodotime_vs_ch",
+          "class": "TH2F",
+          "cycle": 1,
+          "compressed_bytes": 1080
+        },
+        {
+          "path": "hpos_phi_theta",
+          "class": "TH2F",
+          "cycle": 1,
+          "compressed_bytes": 22474
+        },
+        {
+          "path": "hposxy",
+          "class": "TH2F",
+          "cycle": 1,
+          "compressed_bytes": 163803
+        },
+        {
+          "path": "hposxz",
+          "class": "TH2F",
+          "cycle": 1,
+          "compressed_bytes": 128064
+        },
+        {
+          "path": "hposyz",
+          "class": "TH2F",
+          "cycle": 1,
+          "compressed_bytes": 165337
+        },
+        {
+          "path": "htimediff",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 446
+        },
+        {
+          "path": "obj_vs_time",
+          "class": "TH2F",
+          "cycle": 1,
+          "compressed_bytes": 6424
+        },
+        {
+          "path": "objtac_vs_time",
+          "class": "TH2F",
+          "cycle": 1,
+          "compressed_bytes": 1879
+        },
+        {
+          "path": "registr",
+          "class": "TH1I",
+          "cycle": 1,
+          "compressed_bytes": 255
+        },
+        {
+          "path": "trigbit",
+          "class": "TH1I",
+          "cycle": 1,
+          "compressed_bytes": 266
+        },
+        {
+          "path": "x_vs_obj",
+          "class": "TH2F",
+          "cycle": 1,
+          "compressed_bytes": 42378
+        },
+        {
+          "path": "x_vs_objC",
+          "class": "TH2F",
+          "cycle": 1,
+          "compressed_bytes": 8744
+        },
+        {
+          "path": "x_vs_objtac",
+          "class": "TH2F",
+          "cycle": 1,
+          "compressed_bytes": 10864
+        },
+        {
+          "path": "x_vs_objtacC",
+          "class": "TH2F",
+          "cycle": 1,
+          "compressed_bytes": 10855
+        },
+        {
+          "path": "x_vs_xfp",
+          "class": "TH2F",
+          "cycle": 1,
+          "compressed_bytes": 42377
+        },
+        {
+          "path": "x_vs_xfpC",
+          "class": "TH2F",
+          "cycle": 1,
+          "compressed_bytes": 10842
+        },
+        {
+          "path": "x_vs_xfptac",
+          "class": "TH2F",
+          "cycle": 1,
+          "compressed_bytes": 10863
+        },
+        {
+          "path": "x_vs_xfptacC",
+          "class": "TH2F",
+          "cycle": 1,
+          "compressed_bytes": 10856
+        },
+        {
+          "path": "xfp_vs_obj",
+          "class": "TH2F",
+          "cycle": 1,
+          "compressed_bytes": 279933
+        },
+        {
+          "path": "xfp_vs_obj_coinc",
+          "class": "TH2F",
+          "cycle": 1,
+          "compressed_bytes": 279957
+        },
+        {
+          "path": "xfp_vs_objtac",
+          "class": "TH2F",
+          "cycle": 1,
+          "compressed_bytes": 17859
+        },
+        {
+          "path": "xfp_vs_time",
+          "class": "TH2F",
+          "cycle": 1,
+          "compressed_bytes": 6424
+        },
+        {
+          "path": "xfptac_vs_time",
+          "class": "TH2F",
+          "cycle": 1,
+          "compressed_bytes": 1877
+        }
+      ],
+      "original_egam": {
+        "class": "TH1F",
+        "title": "egam",
+        "bins": 8000,
+        "xmin": 0.0,
+        "xmax": 8000.0,
+        "width_first": 1.0,
+        "entries": 1731654.0,
+        "integral_normal_bins": 1731654.0,
+        "underflow": 0.0,
+        "overflow": 0.0,
+        "sumw2_N": 0,
+        "effective_entries": 1731654.0,
+        "negative_bins": 0,
+        "max_fractional_bin_part": 0.0,
+        "max_abs_error2_minus_abs_count": 9.094947017729282e-13,
+        "x_title": "",
+        "y_title": ""
+      },
+      "rebin4_egam": {
+        "class": "TH1F",
+        "title": "egam",
+        "bins": 2000,
+        "xmin": 0.0,
+        "xmax": 8000.0,
+        "width_first": 4.0,
+        "entries": 1731654.0,
+        "integral_normal_bins": 1731654.0,
+        "underflow": 0.0,
+        "overflow": 0.0,
+        "sumw2_N": 0,
+        "effective_entries": 1731654.0,
+        "negative_bins": 0,
+        "max_fractional_bin_part": 0.0,
+        "max_abs_error2_minus_abs_count": 3.637978807091713e-12,
+        "x_title": "",
+        "y_title": ""
+      },
+      "TTree_keys": [],
+      "polarimetry_named_keys": [
+        "egamdc_grettheta",
+        "egamdc_phi",
+        "egamdc_phi_d0_c0",
+        "egamdc_phi_d0_c1",
+        "egamdc_phi_d0_c2",
+        "egamdc_phi_d0_c3",
+        "egamdc_phi_d1_c0",
+        "egamdc_phi_d1_c1",
+        "egamdc_phi_d1_c2",
+        "egamdc_phi_d1_c3",
+        "egamdc_phi_d2_c0",
+        "egamdc_phi_d2_c1",
+        "egamdc_phi_d2_c2",
+        "egamdc_phi_d2_c3",
+        "egamdc_phi_d3_c0",
+        "egamdc_phi_d3_c1",
+        "egamdc_phi_d3_c2",
+        "egamdc_phi_d3_c3",
+        "egamdc_phi_d4_c0",
+        "egamdc_phi_d4_c1",
+        "egamdc_phi_d4_c2",
+        "egamdc_phi_d4_c3",
+        "egamdc_phi_d5_c0",
+        "egamdc_phi_d5_c1",
+        "egamdc_phi_d5_c2",
+        "egamdc_phi_d5_c3",
+        "egamdc_phi_d6_c0",
+        "egamdc_phi_d6_c1",
+        "egamdc_phi_d6_c2",
+        "egamdc_phi_d6_c3",
+        "hpos_phi_theta"
+      ],
+      "file_creation_metadata": "2013-04-23 21:31:50"
+    },
+    {
+      "path": "tmp/day16-ucgretina/pinned-head/examples/sources/eu152/data/run020_cal_histos.root",
+      "sha256": "58bc3420b3a2af9892bf722411679eefdfb56ddbd554cc8aec59391465504379",
+      "keys": [
+        {
+          "path": "IC_vs_time",
+          "class": "TH2F",
+          "cycle": 1,
+          "compressed_bytes": 12333
+        },
+        {
+          "path": "ICde_vs_x_0",
+          "class": "TH2F",
+          "cycle": 1,
+          "compressed_bytes": 16119
+        },
+        {
+          "path": "ICde_vs_x_1",
+          "class": "TH2F",
+          "cycle": 1,
+          "compressed_bytes": 16119
+        },
+        {
+          "path": "ICde_vs_y_0",
+          "class": "TH2F",
+          "cycle": 1,
+          "compressed_bytes": 5630
+        },
+        {
+          "path": "ICde_vs_y_1",
+          "class": "TH2F",
+          "cycle": 1,
+          "compressed_bytes": 5630
+        },
+        {
+          "path": "ICsum_vs_x_0",
+          "class": "TH2F",
+          "cycle": 1,
+          "compressed_bytes": 16128
+        },
+        {
+          "path": "ICsum_vs_x_1",
+          "class": "TH2F",
+          "cycle": 1,
+          "compressed_bytes": 16127
+        },
+        {
+          "path": "ICsum_vs_y_0",
+          "class": "TH2F",
+          "cycle": 1,
+          "compressed_bytes": 5645
+        },
+        {
+          "path": "ICsum_vs_y_1",
+          "class": "TH2F",
+          "cycle": 1,
+          "compressed_bytes": 5645
+        },
+        {
+          "path": "afp_vs_obj",
+          "class": "TH2F",
+          "cycle": 1,
+          "compressed_bytes": 7455
+        },
+        {
+          "path": "afp_vs_objC",
+          "class": "TH2F",
+          "cycle": 1,
+          "compressed_bytes": 1749
+        },
+        {
+          "path": "afp_vs_objtac",
+          "class": "TH2F",
+          "cycle": 1,
+          "compressed_bytes": 2122
+        },
+        {
+          "path": "afp_vs_objtacC",
+          "class": "TH2F",
+          "cycle": 1,
+          "compressed_bytes": 2119
+        },
+        {
+          "path": "afp_vs_xfp",
+          "class": "TH2F",
+          "cycle": 1,
+          "compressed_bytes": 7454
+        },
+        {
+          "path": "afp_vs_xfpC",
+          "class": "TH2F",
+          "cycle": 1,
+          "compressed_bytes": 2109
+        },
+        {
+          "path": "afp_vs_xfptac",
+          "class": "TH2F",
+          "cycle": 1,
+          "compressed_bytes": 2119
+        },
+        {
+          "path": "afp_vs_xfptacC",
+          "class": "TH2F",
+          "cycle": 1,
+          "compressed_bytes": 2121
+        },
+        {
+          "path": "ata_all",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 276
+        },
+        {
+          "path": "bta_all",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 276
+        },
+        {
+          "path": "egam",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 7922
+        },
+        {
+          "path": "egamAB",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 8197
+        },
+        {
+          "path": "egamAB_egamAB",
+          "class": "TH2F",
+          "cycle": 1,
+          "compressed_bytes": 522408
+        },
+        {
+          "path": "egamAB_egamAB_dc",
+          "class": "TH2F",
+          "cycle": 1,
+          "compressed_bytes": 365423
+        },
+        {
+          "path": "egamAB_n1",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 7447
+        },
+        {
+          "path": "egamAB_n2",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 6144
+        },
+        {
+          "path": "egamAB_n3",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 4484
+        },
+        {
+          "path": "egamAB_n4",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 2847
+        },
+        {
+          "path": "egamAB_n5",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 1331
+        },
+        {
+          "path": "egamAB_n6",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 643
+        },
+        {
+          "path": "egamAB_n7",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 489
+        },
+        {
+          "path": "egamAB_n8",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 464
+        },
+        {
+          "path": "egamABdc",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 6846
+        },
+        {
+          "path": "egamABdc_n1",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 6137
+        },
+        {
+          "path": "egamABdc_n2",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 4990
+        },
+        {
+          "path": "egamABdc_n3",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 3726
+        },
+        {
+          "path": "egamABdc_n4",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 2214
+        },
+        {
+          "path": "egamABdc_n5",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 961
+        },
+        {
+          "path": "egamABdc_n6",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 568
+        },
+        {
+          "path": "egamABdc_n7",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 475
+        },
+        {
+          "path": "egamABdc_n8",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 446
+        },
+        {
+          "path": "egam_egam",
+          "class": "TH2F",
+          "cycle": 1,
+          "compressed_bytes": 580632
+        },
+        {
+          "path": "egam_egam_dc",
+          "class": "TH2F",
+          "cycle": 1,
+          "compressed_bytes": 420677
+        },
+        {
+          "path": "egam_tgam",
+          "class": "TH2F",
+          "cycle": 1,
+          "compressed_bytes": 152867
+        },
+        {
+          "path": "egamdc",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 6580
+        },
+        {
+          "path": "egamdc_grettheta",
+          "class": "TH2F",
+          "cycle": 1,
+          "compressed_bytes": 202058
+        },
+        {
+          "path": "egamdc_phi",
+          "class": "TH2F",
+          "cycle": 1,
+          "compressed_bytes": 32786
+        },
+        {
+          "path": "egamdc_phi_d0_c0",
+          "class": "TH2F",
+          "cycle": 1,
+          "compressed_bytes": 115689
+        },
+        {
+          "path": "egamdc_phi_d0_c1",
+          "class": "TH2F",
+          "cycle": 1,
+          "compressed_bytes": 115767
+        },
+        {
+          "path": "egamdc_phi_d0_c2",
+          "class": "TH2F",
+          "cycle": 1,
+          "compressed_bytes": 115737
+        },
+        {
+          "path": "egamdc_phi_d0_c3",
+          "class": "TH2F",
+          "cycle": 1,
+          "compressed_bytes": 115626
+        },
+        {
+          "path": "egamdc_phi_d1_c0",
+          "class": "TH2F",
+          "cycle": 1,
+          "compressed_bytes": 115695
+        },
+        {
+          "path": "egamdc_phi_d1_c1",
+          "class": "TH2F",
+          "cycle": 1,
+          "compressed_bytes": 115682
+        },
+        {
+          "path": "egamdc_phi_d1_c2",
+          "class": "TH2F",
+          "cycle": 1,
+          "compressed_bytes": 115583
+        },
+        {
+          "path": "egamdc_phi_d1_c3",
+          "class": "TH2F",
+          "cycle": 1,
+          "compressed_bytes": 115640
+        },
+        {
+          "path": "egamdc_phi_d2_c0",
+          "class": "TH2F",
+          "cycle": 1,
+          "compressed_bytes": 115704
+        },
+        {
+          "path": "egamdc_phi_d2_c1",
+          "class": "TH2F",
+          "cycle": 1,
+          "compressed_bytes": 115617
+        },
+        {
+          "path": "egamdc_phi_d2_c2",
+          "class": "TH2F",
+          "cycle": 1,
+          "compressed_bytes": 115595
+        },
+        {
+          "path": "egamdc_phi_d2_c3",
+          "class": "TH2F",
+          "cycle": 1,
+          "compressed_bytes": 115583
+        },
+        {
+          "path": "egamdc_phi_d3_c0",
+          "class": "TH2F",
+          "cycle": 1,
+          "compressed_bytes": 115565
+        },
+        {
+          "path": "egamdc_phi_d3_c1",
+          "class": "TH2F",
+          "cycle": 1,
+          "compressed_bytes": 115564
+        },
+        {
+          "path": "egamdc_phi_d3_c2",
+          "class": "TH2F",
+          "cycle": 1,
+          "compressed_bytes": 115597
+        },
+        {
+          "path": "egamdc_phi_d3_c3",
+          "class": "TH2F",
+          "cycle": 1,
+          "compressed_bytes": 115555
+        },
+        {
+          "path": "egamdc_phi_d4_c0",
+          "class": "TH2F",
+          "cycle": 1,
+          "compressed_bytes": 115741
+        },
+        {
+          "path": "egamdc_phi_d4_c1",
+          "class": "TH2F",
+          "cycle": 1,
+          "compressed_bytes": 115674
+        },
+        {
+          "path": "egamdc_phi_d4_c2",
+          "class": "TH2F",
+          "cycle": 1,
+          "compressed_bytes": 115633
+        },
+        {
+          "path": "egamdc_phi_d4_c3",
+          "class": "TH2F",
+          "cycle": 1,
+          "compressed_bytes": 115700
+        },
+        {
+          "path": "egamdc_phi_d5_c0",
+          "class": "TH2F",
+          "cycle": 1,
+          "compressed_bytes": 115667
+        },
+        {
+          "path": "egamdc_phi_d5_c1",
+          "class": "TH2F",
+          "cycle": 1,
+          "compressed_bytes": 115592
+        },
+        {
+          "path": "egamdc_phi_d5_c2",
+          "class": "TH2F",
+          "cycle": 1,
+          "compressed_bytes": 115648
+        },
+        {
+          "path": "egamdc_phi_d5_c3",
+          "class": "TH2F",
+          "cycle": 1,
+          "compressed_bytes": 115709
+        },
+        {
+          "path": "egamdc_phi_d6_c0",
+          "class": "TH2F",
+          "cycle": 1,
+          "compressed_bytes": 115554
+        },
+        {
+          "path": "egamdc_phi_d6_c1",
+          "class": "TH2F",
+          "cycle": 1,
+          "compressed_bytes": 115720
+        },
+        {
+          "path": "egamdc_phi_d6_c2",
+          "class": "TH2F",
+          "cycle": 1,
+          "compressed_bytes": 115728
+        },
+        {
+          "path": "egamdc_phi_d6_c3",
+          "class": "TH2F",
+          "cycle": 1,
+          "compressed_bytes": 115652
+        },
+        {
+          "path": "hcrdc0xy",
+          "class": "TH2F",
+          "cycle": 1,
+          "compressed_bytes": 6635
+        },
+        {
+          "path": "hcrdc1xy",
+          "class": "TH2F",
+          "cycle": 1,
+          "compressed_bytes": 6635
+        },
+        {
+          "path": "hcrdcrawrange0xy",
+          "class": "TH2F",
+          "cycle": 1,
+          "compressed_bytes": 86335
+        },
+        {
+          "path": "hcrdcrawrange1xy",
+          "class": "TH2F",
+          "cycle": 1,
+          "compressed_bytes": 86335
+        },
+        {
+          "path": "hegamegam_all",
+          "class": "TH2F",
+          "cycle": 1,
+          "compressed_bytes": 964014
+        },
+        {
+          "path": "hegamtdiff",
+          "class": "TH2F",
+          "cycle": 1,
+          "compressed_bytes": 283192
+        },
+        {
+          "path": "hgamma",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 6220
+        },
+        {
+          "path": "hgammaDC_d0_c0",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 3382
+        },
+        {
+          "path": "hgammaDC_d0_c1",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 3454
+        },
+        {
+          "path": "hgammaDC_d0_c2",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 3403
+        },
+        {
+          "path": "hgammaDC_d0_c3",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 3298
+        },
+        {
+          "path": "hgammaDC_d1_c0",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 3357
+        },
+        {
+          "path": "hgammaDC_d1_c1",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 3360
+        },
+        {
+          "path": "hgammaDC_d1_c2",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 3283
+        },
+        {
+          "path": "hgammaDC_d1_c3",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 3300
+        },
+        {
+          "path": "hgammaDC_d2_c0",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 3365
+        },
+        {
+          "path": "hgammaDC_d2_c1",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 3289
+        },
+        {
+          "path": "hgammaDC_d2_c2",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 3273
+        },
+        {
+          "path": "hgammaDC_d2_c3",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 3277
+        },
+        {
+          "path": "hgammaDC_d3_c0",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 3247
+        },
+        {
+          "path": "hgammaDC_d3_c1",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 3246
+        },
+        {
+          "path": "hgammaDC_d3_c2",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 3282
+        },
+        {
+          "path": "hgammaDC_d3_c3",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 3241
+        },
+        {
+          "path": "hgammaDC_d4_c0",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 3395
+        },
+        {
+          "path": "hgammaDC_d4_c1",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 3353
+        },
+        {
+          "path": "hgammaDC_d4_c2",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 3298
+        },
+        {
+          "path": "hgammaDC_d4_c3",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 3361
+        },
+        {
+          "path": "hgammaDC_d5_c0",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 3345
+        },
+        {
+          "path": "hgammaDC_d5_c1",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 3272
+        },
+        {
+          "path": "hgammaDC_d5_c2",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 3315
+        },
+        {
+          "path": "hgammaDC_d5_c3",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 3381
+        },
+        {
+          "path": "hgammaDC_d6_c0",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 3242
+        },
+        {
+          "path": "hgammaDC_d6_c1",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 3392
+        },
+        {
+          "path": "hgammaDC_d6_c2",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 3394
+        },
+        {
+          "path": "hgammaDC_d6_c3",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 3323
+        },
+        {
+          "path": "hgamma_ab",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 6466
+        },
+        {
+          "path": "hgamma_d0_c0",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 3118
+        },
+        {
+          "path": "hgamma_d0_c1",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 3249
+        },
+        {
+          "path": "hgamma_d0_c2",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 3201
+        },
+        {
+          "path": "hgamma_d0_c3",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 3113
+        },
+        {
+          "path": "hgamma_d1_c0",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 3224
+        },
+        {
+          "path": "hgamma_d1_c1",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 3172
+        },
+        {
+          "path": "hgamma_d1_c2",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 3153
+        },
+        {
+          "path": "hgamma_d1_c3",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 3149
+        },
+        {
+          "path": "hgamma_d2_c0",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 3199
+        },
+        {
+          "path": "hgamma_d2_c1",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 3055
+        },
+        {
+          "path": "hgamma_d2_c2",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 3168
+        },
+        {
+          "path": "hgamma_d2_c3",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 3129
+        },
+        {
+          "path": "hgamma_d3_c0",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 3151
+        },
+        {
+          "path": "hgamma_d3_c1",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 3119
+        },
+        {
+          "path": "hgamma_d3_c2",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 3103
+        },
+        {
+          "path": "hgamma_d3_c3",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 3111
+        },
+        {
+          "path": "hgamma_d4_c0",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 3259
+        },
+        {
+          "path": "hgamma_d4_c1",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 3149
+        },
+        {
+          "path": "hgamma_d4_c2",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 3208
+        },
+        {
+          "path": "hgamma_d4_c3",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 3127
+        },
+        {
+          "path": "hgamma_d5_c0",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 3122
+        },
+        {
+          "path": "hgamma_d5_c1",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 3132
+        },
+        {
+          "path": "hgamma_d5_c2",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 3163
+        },
+        {
+          "path": "hgamma_d5_c3",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 3123
+        },
+        {
+          "path": "hgamma_d6_c0",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 3047
+        },
+        {
+          "path": "hgamma_d6_c1",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 3232
+        },
+        {
+          "path": "hgamma_d6_c2",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 3156
+        },
+        {
+          "path": "hgamma_d6_c3",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 3139
+        },
+        {
+          "path": "hmult",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 327
+        },
+        {
+          "path": "hmult_ab",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 302
+        },
+        {
+          "path": "hodo_0",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 317
+        },
+        {
+          "path": "hodo_1",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 331
+        },
+        {
+          "path": "hodo_10",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 320
+        },
+        {
+          "path": "hodo_11",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 330
+        },
+        {
+          "path": "hodo_12",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 325
+        },
+        {
+          "path": "hodo_13",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 322
+        },
+        {
+          "path": "hodo_15",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 326
+        },
+        {
+          "path": "hodo_16",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 324
+        },
+        {
+          "path": "hodo_17",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 321
+        },
+        {
+          "path": "hodo_18",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 325
+        },
+        {
+          "path": "hodo_19",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 317
+        },
+        {
+          "path": "hodo_2",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 325
+        },
+        {
+          "path": "hodo_20",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 330
+        },
+        {
+          "path": "hodo_21",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 322
+        },
+        {
+          "path": "hodo_23",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 324
+        },
+        {
+          "path": "hodo_24",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 324
+        },
+        {
+          "path": "hodo_25",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 325
+        },
+        {
+          "path": "hodo_26",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 321
+        },
+        {
+          "path": "hodo_27",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 329
+        },
+        {
+          "path": "hodo_29",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 314
+        },
+        {
+          "path": "hodo_3",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 325
+        },
+        {
+          "path": "hodo_30",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 323
+        },
+        {
+          "path": "hodo_31",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 317
+        },
+        {
+          "path": "hodo_4",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 321
+        },
+        {
+          "path": "hodo_5",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 333
+        },
+        {
+          "path": "hodo_6",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 319
+        },
+        {
+          "path": "hodo_7",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 313
+        },
+        {
+          "path": "hodo_8",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 334
+        },
+        {
+          "path": "hodo_9",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 326
+        },
+        {
+          "path": "hodo_all",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 342
+        },
+        {
+          "path": "hodo_sum",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 306
+        },
+        {
+          "path": "hodo_vs_ch",
+          "class": "TH2F",
+          "cycle": 1,
+          "compressed_bytes": 831
+        },
+        {
+          "path": "hodotime_0",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 381
+        },
+        {
+          "path": "hodotime_1",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 384
+        },
+        {
+          "path": "hodotime_10",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 384
+        },
+        {
+          "path": "hodotime_11",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 384
+        },
+        {
+          "path": "hodotime_12",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 385
+        },
+        {
+          "path": "hodotime_13",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 386
+        },
+        {
+          "path": "hodotime_15",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 386
+        },
+        {
+          "path": "hodotime_16",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 386
+        },
+        {
+          "path": "hodotime_17",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 387
+        },
+        {
+          "path": "hodotime_18",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 383
+        },
+        {
+          "path": "hodotime_19",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 383
+        },
+        {
+          "path": "hodotime_2",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 386
+        },
+        {
+          "path": "hodotime_20",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 389
+        },
+        {
+          "path": "hodotime_21",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 385
+        },
+        {
+          "path": "hodotime_23",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 384
+        },
+        {
+          "path": "hodotime_24",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 386
+        },
+        {
+          "path": "hodotime_25",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 387
+        },
+        {
+          "path": "hodotime_26",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 385
+        },
+        {
+          "path": "hodotime_27",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 386
+        },
+        {
+          "path": "hodotime_29",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 383
+        },
+        {
+          "path": "hodotime_3",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 383
+        },
+        {
+          "path": "hodotime_30",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 385
+        },
+        {
+          "path": "hodotime_31",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 383
+        },
+        {
+          "path": "hodotime_4",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 382
+        },
+        {
+          "path": "hodotime_5",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 383
+        },
+        {
+          "path": "hodotime_6",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 381
+        },
+        {
+          "path": "hodotime_7",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 378
+        },
+        {
+          "path": "hodotime_8",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 383
+        },
+        {
+          "path": "hodotime_9",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 384
+        },
+        {
+          "path": "hodotime_all",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 387
+        },
+        {
+          "path": "hodotime_vs_ch",
+          "class": "TH2F",
+          "cycle": 1,
+          "compressed_bytes": 1093
+        },
+        {
+          "path": "hpos_phi_theta",
+          "class": "TH2F",
+          "cycle": 1,
+          "compressed_bytes": 26284
+        },
+        {
+          "path": "hposxy",
+          "class": "TH2F",
+          "cycle": 1,
+          "compressed_bytes": 205844
+        },
+        {
+          "path": "hposxz",
+          "class": "TH2F",
+          "cycle": 1,
+          "compressed_bytes": 158486
+        },
+        {
+          "path": "hposyz",
+          "class": "TH2F",
+          "cycle": 1,
+          "compressed_bytes": 207944
+        },
+        {
+          "path": "htimediff",
+          "class": "TH1F",
+          "cycle": 1,
+          "compressed_bytes": 610
+        },
+        {
+          "path": "obj_vs_time",
+          "class": "TH2F",
+          "cycle": 1,
+          "compressed_bytes": 32282
+        },
+        {
+          "path": "objtac_vs_time",
+          "class": "TH2F",
+          "cycle": 1,
+          "compressed_bytes": 8361
+        },
+        {
+          "path": "registr",
+          "class": "TH1I",
+          "cycle": 1,
+          "compressed_bytes": 268
+        },
+        {
+          "path": "trigbit",
+          "class": "TH1I",
+          "cycle": 1,
+          "compressed_bytes": 268
+        },
+        {
+          "path": "x_vs_obj",
+          "class": "TH2F",
+          "cycle": 1,
+          "compressed_bytes": 42378
+        },
+        {
+          "path": "x_vs_objC",
+          "class": "TH2F",
+          "cycle": 1,
+          "compressed_bytes": 8742
+        },
+        {
+          "path": "x_vs_objtac",
+          "class": "TH2F",
+          "cycle": 1,
+          "compressed_bytes": 10864
+        },
+        {
+          "path": "x_vs_objtacC",
+          "class": "TH2F",
+          "cycle": 1,
+          "compressed_bytes": 10855
+        },
+        {
+          "path": "x_vs_xfp",
+          "class": "TH2F",
+          "cycle": 1,
+          "compressed_bytes": 42378
+        },
+        {
+          "path": "x_vs_xfpC",
+          "class": "TH2F",
+          "cycle": 1,
+          "compressed_bytes": 10841
+        },
+        {
+          "path": "x_vs_xfptac",
+          "class": "TH2F",
+          "cycle": 1,
+          "compressed_bytes": 10862
+        },
+        {
+          "path": "x_vs_xfptacC",
+          "class": "TH2F",
+          "cycle": 1,
+          "compressed_bytes": 10856
+        },
+        {
+          "path": "xfp_vs_obj",
+          "class": "TH2F",
+          "cycle": 1,
+          "compressed_bytes": 279933
+        },
+        {
+          "path": "xfp_vs_obj_coinc",
+          "class": "TH2F",
+          "cycle": 1,
+          "compressed_bytes": 279959
+        },
+        {
+          "path": "xfp_vs_objtac",
+          "class": "TH2F",
+          "cycle": 1,
+          "compressed_bytes": 17860
+        },
+        {
+          "path": "xfp_vs_time",
+          "class": "TH2F",
+          "cycle": 1,
+          "compressed_bytes": 32280
+        },
+        {
+          "path": "xfptac_vs_time",
+          "class": "TH2F",
+          "cycle": 1,
+          "compressed_bytes": 8363
+        }
+      ],
+      "original_egam": {
+        "class": "TH1F",
+        "title": "egam",
+        "bins": 8000,
+        "xmin": 0.0,
+        "xmax": 8000.0,
+        "width_first": 1.0,
+        "entries": 11249812.0,
+        "integral_normal_bins": 11249812.0,
+        "underflow": 0.0,
+        "overflow": 0.0,
+        "sumw2_N": 0,
+        "effective_entries": 11249812.0,
+        "negative_bins": 0,
+        "max_fractional_bin_part": 0.0,
+        "max_abs_error2_minus_abs_count": 5.820766091346741e-11,
+        "x_title": "",
+        "y_title": ""
+      },
+      "rebin4_egam": {
+        "class": "TH1F",
+        "title": "egam",
+        "bins": 2000,
+        "xmin": 0.0,
+        "xmax": 8000.0,
+        "width_first": 4.0,
+        "entries": 11249812.0,
+        "integral_normal_bins": 11249812.0,
+        "underflow": 0.0,
+        "overflow": 0.0,
+        "sumw2_N": 0,
+        "effective_entries": 11249812.0,
+        "negative_bins": 0,
+        "max_fractional_bin_part": 0.0,
+        "max_abs_error2_minus_abs_count": 2.3283064365386963e-10,
+        "x_title": "",
+        "y_title": ""
+      },
+      "TTree_keys": [],
+      "polarimetry_named_keys": [
+        "egamdc_grettheta",
+        "egamdc_phi",
+        "egamdc_phi_d0_c0",
+        "egamdc_phi_d0_c1",
+        "egamdc_phi_d0_c2",
+        "egamdc_phi_d0_c3",
+        "egamdc_phi_d1_c0",
+        "egamdc_phi_d1_c1",
+        "egamdc_phi_d1_c2",
+        "egamdc_phi_d1_c3",
+        "egamdc_phi_d2_c0",
+        "egamdc_phi_d2_c1",
+        "egamdc_phi_d2_c2",
+        "egamdc_phi_d2_c3",
+        "egamdc_phi_d3_c0",
+        "egamdc_phi_d3_c1",
+        "egamdc_phi_d3_c2",
+        "egamdc_phi_d3_c3",
+        "egamdc_phi_d4_c0",
+        "egamdc_phi_d4_c1",
+        "egamdc_phi_d4_c2",
+        "egamdc_phi_d4_c3",
+        "egamdc_phi_d5_c0",
+        "egamdc_phi_d5_c1",
+        "egamdc_phi_d5_c2",
+        "egamdc_phi_d5_c3",
+        "egamdc_phi_d6_c0",
+        "egamdc_phi_d6_c1",
+        "egamdc_phi_d6_c2",
+        "egamdc_phi_d6_c3",
+        "hpos_phi_theta"
+      ],
+      "file_creation_metadata": "2013-04-23 20:55:38"
+    }
+  ],
+  "windows": [
+    {
+      "bounds_keV": [
+        1800,
+        3000
+      ],
+      "selected_bins": 300,
+      "first_bin_center": 1802.0,
+      "last_bin_center": 2998.0,
+      "source_sum": 13836.0,
+      "background_sum": 30293.0,
+      "conditional_alpha": 0.45673918066880137,
+      "conditional_sigma_finite_independent_background": 0.004686556880822122,
+      "conditional_sigma_if_background_treated_exact": 0.00388296067145086,
+      "published_macro_fixed_p0": 0.456734,
+      "difference_not_a_z_test": 5.180668801396671e-06,
+      "full_template_fit_reproduced": false
+    },
+    {
+      "bounds_keV": [
+        1540,
+        3000
+      ],
+      "selected_bins": 365,
+      "first_bin_center": 1542.0,
+      "last_bin_center": 2998.0,
+      "source_sum": 22887.0,
+      "background_sum": 46459.0,
+      "conditional_alpha": 0.49262790847844334,
+      "conditional_sigma_finite_independent_background": 0.003978325888904659,
+      "conditional_sigma_if_background_treated_exact": 0.0032563012591204205,
+      "published_macro_fixed_p0": 0.456734,
+      "difference_not_a_z_test": 0.03589390847844337,
+      "full_template_fit_reproduced": false
+    }
+  ],
+  "original_data_files_modified": false,
+  "matching_Morse_or_L26_response": false,
+  "MC_simulation_histogram_available_in_this_input": false,
+  "experimental_polarization_or_Q_reestimated": false,
+  "Poisson_independence_sourcefree_window_are_assumptions": true
+}
