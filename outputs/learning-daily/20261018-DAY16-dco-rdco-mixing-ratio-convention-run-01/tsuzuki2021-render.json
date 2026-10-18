@@ -1,0 +1,18 @@
+{
+  "at": "2026-10-19T07:28:17.295124+08:00",
+  "command": [
+    "pdftoppm",
+    "-f",
+    "2",
+    "-l",
+    "10",
+    "-scale-to",
+    "1800",
+    "-png",
+    "tmp/day16-tsuzuki2021/arxiv-pdf.pdf",
+    "tmp/day16-tsuzuki2021/figures/p"
+  ],
+  "exit_code": 0,
+  "stderr": "",
+  "visualpending": true
+}

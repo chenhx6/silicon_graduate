@@ -372,3 +372,11 @@ G24的Q′=Q_G P与[[morse-2022-gretina-polarization-sensitivity]] M22-5所据UN
 当前Dataavailability为作者reasonable request，原count/templates/partition/Cov未取得，experimentalL4fit notready。单signalhist的解析profile/Schur只作使用前设计，见[[modulation-curve]]；没有造假raw或联系作者。印刷summary重放给F约2.3275e−6、40–120°名义收益1.44，窄cut的F比.457仅在loss参照相同条件成立，不保证真实beamtime最优。
 
 Go/Morse这个公式比较以上游实际读到的UNC preprint为限，VoR未得，不据此断言作者真实producer误用或VoR仍逐字相同。
+
+### 上游Si/CdTe方法的空间区与排序能区
+
+[[tsuzuki-2021-sicdte-template-polarimetry]] T21-4–13：其νj按first-hit xy的16个空间region能谱fit，不是每φbin自由scale；Ba unpolarizedsource是独立response null，Kr两种P分析共享数据。Q在T21是modulationfactor，Q100才对应Go的full-sensitivity；不能按字母裸换数。
+
+原75keV twohit ES=min(E1,E2)规则只在一次scatter+completeabsorption、E<255.5keV时对全角成立。847在66.628°跨ES/EA大小，存在两种energyorder都给physicalθK的情况；须实际position/ARM/cut算法，不以此估Go错序率。pointsource两hit互换仅使plane normal反号时，共同轴cos2φ不变，不能泛称错序必翻polarizationsign。真实incomingaxis/response仍会变，需完整角合同。
+
+T21reported.962±.008stat±.015sys合成.023保留；不擅用独立quadrature .017替换。原子Kr高P及约50%作用概率都不能当核847的calibrationP或selectedabsoluteε。数据同为作者reasonable request，experimentalL4输入未齐。

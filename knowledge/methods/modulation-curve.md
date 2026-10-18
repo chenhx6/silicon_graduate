@@ -58,3 +58,9 @@ It cannot make a detector modulation into a unique multipolarity, parity or mixi
 幅度归一另按G24-22与[[morse-2022-gretina-polarization-sensitivity]] M22-5保存：Q′=Q_G P、A0=Q_M Pbar/2，sameharmonic/同P合同下Q_G=Q_M/2。detectorresponse/efficiency/selection不同仍不能裸迁实际Q或F；数据声明/producer缺口需实际输入，不用digitized曲线当rawcounts。
 
 M22这里的原式来自已核UNC author-preprint，VoR未取得，跨版本实际producer仍需另核；不将公式设计当对作者程序的错误判决。
+
+### 分区、角与Q名称的实际对照
+
+[[tsuzuki-2021-sicdte-template-polarimetry]] T21-5/8/9/10：空间16区ν与φbin是两个索引维度；独立Ba null不同于同Krdata的MLE/modulationfit回代。T21 Eq8以Q为modulation、Π=Q/Q100；Go以Q′为modulation、P=Q′/Q_G；Morse已读UNCpreprint又是A0=Q_M Pbar/2。先比同一harmonic/P/response对象，再谈factor/效率/Σ，不能按Q名字对齐。
+
+同pointsource的plane normal反号不改共同轴cos2φ（T21-12）；错误order仍可改incomingaxis、θ/ARM与selection，所以符号控制与全response控制不能互相替代。原T21统计/系统及作者线性合成值分开，两个同data的P不作独立平均。

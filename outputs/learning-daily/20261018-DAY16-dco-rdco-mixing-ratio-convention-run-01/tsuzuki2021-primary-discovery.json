@@ -1,0 +1,366 @@
+{
+  "at": "2026-10-19T07:21:40.979807+08:00",
+  "rows": [
+    {
+      "name": "crossref",
+      "url": "https://api.crossref.org/works/10.1063/5.0050826",
+      "status": 200,
+      "path": "tmp/day16-tsuzuki2021/crossref.json",
+      "sha256": "82da6b56f3492d3d6ff8d9f4c689476f1d6d5ae5aba088d4ddd613e153a5c207",
+      "metadata": {
+        "title": [
+          "An application of a Si/CdTe Compton camera for the polarization measurement of hard x rays from highly charged heavy ions"
+        ],
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0003-2921-1197",
+            "authenticated-orcid": false,
+            "given": "Yutaka",
+            "family": "Tsuzuki",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "Department of Physics, The University of Tokyo 1 , 7-3-1, Hongo, Bunkyo, Tokyo 113-0033, Japan"
+              },
+              {
+                "name": "Kavli Institute for the Physics and Mathematics of the Universe (WPI), Institutes for Advanced Study (UTIAS), The University of Tokyo 2 , 5-1-5 Kashiwa-no-Ha, Kashiwa, Chiba 277-8583, Japan"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Shin",
+            "family": "Watanabe",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Institute of Space and Astronautical Science, Japan Aerospace Exploration Agency 3 , 3-1-1 Yoshinodai, Chuo Sagamihara, Kanagawa 252-5210, Japan"
+              },
+              {
+                "name": "Kavli Institute for the Physics and Mathematics of the Universe (WPI), Institutes for Advanced Study (UTIAS), The University of Tokyo 2 , 5-1-5 Kashiwa-no-Ha, Kashiwa, Chiba 277-8583, Japan"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Shimpei",
+            "family": "Oishi",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Institute for Laser Science, The University of Electro-Communications 4 , Chofu, Tokyo 182-8585, Japan"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Nobuyuki",
+            "family": "Nakamura",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Institute for Laser Science, The University of Electro-Communications 4 , Chofu, Tokyo 182-8585, Japan"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Naoki",
+            "family": "Numadate",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Komaba Institute for Science, The University of Tokyo 5 , 3-8-1 Komaba, Meguro, Tokyo 153-8902, Japan"
+              },
+              {
+                "name": "Institute for Laser Science, The University of Electro-Communications 4 , Chofu, Tokyo 182-8585, Japan"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Hirokazu",
+            "family": "Odaka",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Department of Physics, The University of Tokyo 1 , 7-3-1, Hongo, Bunkyo, Tokyo 113-0033, Japan"
+              },
+              {
+                "name": "Kavli Institute for the Physics and Mathematics of the Universe (WPI), Institutes for Advanced Study (UTIAS), The University of Tokyo 2 , 5-1-5 Kashiwa-no-Ha, Kashiwa, Chiba 277-8583, Japan"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Yuusuke",
+            "family": "Uchida",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Department of Physics, Hiroshima University 6 , 1-3-1 Kagamiyama, Higashi-Hiroshima, Hiroshima 739-8526, Japan"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-5345-5485",
+            "authenticated-orcid": false,
+            "given": "Hiroki",
+            "family": "Yoneda",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "RIKEN Nishina Center 7 , 2-1 Hirosawa, Wako, Saitama 351-0198, Japan"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Tadayuki",
+            "family": "Takahashi",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Kavli Institute for the Physics and Mathematics of the Universe (WPI), Institutes for Advanced Study (UTIAS), The University of Tokyo 2 , 5-1-5 Kashiwa-no-Ha, Kashiwa, Chiba 277-8583, Japan"
+              },
+              {
+                "name": "Department of Physics, The University of Tokyo 1 , 7-3-1, Hongo, Bunkyo, Tokyo 113-0033, Japan"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "Review of Scientific Instruments"
+        ],
+        "volume": "92",
+        "page": null,
+        "article-number": "063101",
+        "DOI": "10.1063/5.0050826",
+        "link": [
+          {
+            "URL": "https://pubs.aip.org/aip/rsi/article-pdf/doi/10.1063/5.0050826/15921720/063101_1_online.pdf",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "syndication"
+          },
+          {
+            "URL": "https://pubs.aip.org/aip/rsi/article-pdf/doi/10.1063/5.0050826/15921720/063101_1_online.pdf",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "relation": {},
+        "published": {
+          "date-parts": [
+            [
+              2021,
+              6,
+              1
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "name": "openalex",
+      "url": "https://api.openalex.org/works/https://doi.org/10.1063/5.0050826",
+      "status": 200,
+      "path": "tmp/day16-tsuzuki2021/openalex.json",
+      "sha256": "f6a5637c034fd67bc8c076081683779c13d7ebe494868f30dcc065aeaa2c1d1e",
+      "locations": [
+        {
+          "id": "doi:10.1063/5.0050826",
+          "doi": "https://doi.org/10.1063/5.0050826",
+          "is_oa": false,
+          "landing_page_url": "https://doi.org/10.1063/5.0050826",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S31010182",
+            "display_name": "Review of Scientific Instruments",
+            "issn_l": "0034-6748",
+            "issn": [
+              "0034-6748",
+              "1089-7623",
+              "1527-2400"
+            ],
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": true,
+            "listed_in": [
+              "cwts-core",
+              "dongbi-c",
+              "jufo-1",
+              "ki-jl-1",
+              "medline",
+              "norway-1",
+              "poland-70",
+              "russia-white-list-2",
+              "vabb-shw"
+            ],
+            "host_organization": "https://openalex.org/P4310320257",
+            "host_organization_name": "American Institute of Physics",
+            "host_organization_lineage": [
+              "https://openalex.org/P4310320257"
+            ],
+            "host_organization_lineage_names": [
+              "American Institute of Physics"
+            ],
+            "type": "journal"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": "Review of Scientific Instruments",
+          "raw_type": "journal-article"
+        },
+        {
+          "id": "pmid:34243506",
+          "doi": null,
+          "is_oa": false,
+          "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/34243506",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S4306525036",
+            "display_name": "PubMed",
+            "issn_l": null,
+            "issn": null,
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": false,
+            "listed_in": [],
+            "host_organization": "https://openalex.org/I1299303238",
+            "host_organization_name": "National Institutes of Health",
+            "host_organization_lineage": [
+              "https://openalex.org/I1299303238"
+            ],
+            "host_organization_lineage_names": [],
+            "type": "repository"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": "The Review of scientific instruments",
+          "raw_type": "Journal Article"
+        },
+        {
+          "id": "pmh:oai:arXiv.org:2105.14236",
+          "doi": null,
+          "is_oa": true,
+          "landing_page_url": "http://arxiv.org/abs/2105.14236",
+          "pdf_url": "https://arxiv.org/pdf/2105.14236",
+          "source": {
+            "id": "https://openalex.org/S4306400194",
+            "display_name": "arXiv (Cornell University)",
+            "issn_l": "2331-8422",
+            "issn": [
+              "2331-8422"
+            ],
+            "is_oa": true,
+            "is_in_doaj": false,
+            "is_core": false,
+            "listed_in": [],
+            "host_organization": "https://openalex.org/I205783295",
+            "host_organization_name": "Cornell University",
+            "host_organization_lineage": [
+              "https://openalex.org/I205783295"
+            ],
+            "host_organization_lineage_names": [],
+            "type": "repository"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "submittedVersion",
+          "is_accepted": false,
+          "is_published": false,
+          "raw_source_name": null,
+          "raw_type": "text"
+        },
+        {
+          "id": "doi:10.48550/arxiv.2105.14236",
+          "doi": "https://doi.org/10.48550/arxiv.2105.14236",
+          "is_oa": true,
+          "landing_page_url": "https://doi.org/10.48550/arxiv.2105.14236",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S4306400194",
+            "display_name": "arXiv (Cornell University)",
+            "issn_l": "2331-8422",
+            "issn": [
+              "2331-8422"
+            ],
+            "is_oa": true,
+            "is_in_doaj": false,
+            "is_core": false,
+            "listed_in": [],
+            "host_organization": "https://openalex.org/I205783295",
+            "host_organization_name": "Cornell University",
+            "host_organization_lineage": [
+              "https://openalex.org/I205783295"
+            ],
+            "host_organization_lineage_names": [],
+            "type": "repository"
+          },
+          "license": null,
+          "license_id": null,
+          "version": null,
+          "is_accepted": false,
+          "is_published": null,
+          "raw_source_name": null,
+          "raw_type": "article-journal"
+        }
+      ]
+    }
+  ]
+}

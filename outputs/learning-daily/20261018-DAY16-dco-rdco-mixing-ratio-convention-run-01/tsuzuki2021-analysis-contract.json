@@ -1,0 +1,48 @@
+{
+  "identity": "T21-ORDERING-AND-NORMALIZATION-CONTRACT-01",
+  "at": "2026-10-19T07:30:56.577238+08:00",
+  "raw": "tmp/day16-tsuzuki2021/arxiv-pdf.pdf",
+  "raw_sha256": "f2c69bdb5ec135a8334ee977e198a79250b3a1b1322703b7277db8fcdc1f218d",
+  "version": "arXiv2105.14236v1, publisherVoRnotobtained",
+  "published_input": {
+    "electron_rest_keV": 511.0,
+    "T21_reference_E_keV": 75.0,
+    "T21_energy_window_keV": [
+      73.0,
+      77.5
+    ],
+    "Si_threshold_approx_keV": 8.0,
+    "G24_reference_E_keV": 847.0,
+    "G24_scatter_cut_deg": [
+      40.0,
+      120.0
+    ],
+    "T21_pi_best": 0.962,
+    "T21_stat": 0.008,
+    "T21_sys": 0.015,
+    "T21_total_reported": 0.023,
+    "Ba_residual_modulation": 0.01,
+    "assumed_Q100_for_sys": 0.7,
+    "registered_events_approx": 38000000.0,
+    "selected_events_approx": 43000.0
+  },
+  "ordering_demo_angles_deg": [
+    40.0,
+    60.0,
+    70.0,
+    90.0,
+    120.0
+  ],
+  "ordering_scope": "freeelectronrest oneComptonscatter+completephotoabsorption; exactenergybeforefinite/doppler/threshold",
+  "geometric_control": "samepointsource nforward=r1 cross r2, nreverse=-nforward, samecommonaxis cos2phi unaffectedby signalone; notactualfiniteaxisresponse",
+  "nu_partition": "16firsthitxydivisions12.8mm squared across51.2mm side, not16phi bins",
+  "likelihood_and_modulation_use_same_Kr_data": true,
+  "fulltext_read": 11,
+  "figures_inspected": "1-15 onrenderedpages2-10; no table",
+  "rawcounts_templates_Cov_notprovided": true,
+  "noauthorcontact": true,
+  "day_index": 16,
+  "partial_day_indices": [
+    17
+  ]
+}

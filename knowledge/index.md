@@ -9,6 +9,8 @@ updated: 2026-10-19
 
 ## Sources
 
+- [[tsuzuki-2021-sicdte-template-polarimetry]] - 已读arXiv11页/15图：16空间区归一、Ba null、共享Kr误差与低能排序的847迁移界限。
+
 - [[nndc-2001-223ra-reference-and-2026-intensity-records]] - MR无号/符号未知、&未分强度与@分区、旧评价/新编译及reference终态能量核对。
 
 - [[jones-1998-ra223-alpha-gamma-correlations]] - 原13页α–γ/electron、同能标母态与δ/coef版本；保留实际Qk/Cov及附条件spin/sign。

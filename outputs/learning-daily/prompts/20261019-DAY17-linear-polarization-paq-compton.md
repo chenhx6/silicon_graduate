@@ -328,3 +328,8 @@ Day16已核旧2001对象/2003Jπ/2012NR与2026编译的2019绝对I：MR0.29无�
 ### Go2024原件与归一priming
 
 Day16已本session原读九页/6图1表与currentHTML，G24-16–25新self-audit保留旧humanprefix。νj能谱fit/固定innerlikelihood、shareddata/Cov缺口、Q′caption/text末位、Table1脚注b/c与GRETINA/GRETA模型label边界均canonical；Go与Morse的Q半因子只在matchingobservable/P下转换。未取实际counts/templates，作者reasonable request不等于已公开，不造L4fit或独立P/Q确认。正式17需声明priming，preview无学分。
+
+
+### Tsuzuki2021方法priming
+
+Day16已读arXiv2105.14236v1完整11页/15图，T21-1–13保存16xy空间ν、独立Ba null/共享Kr、三篇Q命名、低能minenergy排序255.5keV域与847失败控制、法向反号不必翻cos2、stat/sys线性合成及datareadiness。不是原子P到核P的校准迁移；未得原events/templates/Σ，不授17credit或开其它课卡。

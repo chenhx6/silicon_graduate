@@ -1,0 +1,17 @@
+{
+  "at": "2026-10-19T07:24:49.846391+08:00",
+  "download_version": "arXiv2105.14236v1",
+  "title": "Title: An application of a Si/CdTe Compton camera for the polarization measurement of hard x-rays from highly charged heavy ions",
+  "submission_history": "Submission history From: Yutaka Tsuzuki [ view email ] [v1] Sat, 29 May 2021 07:09:04 UTC (1,585 KB)",
+  "raw_sha256": "f2c69bdb5ec135a8334ee977e198a79250b3a1b1322703b7277db8fcdc1f218d",
+  "command": [
+    "pdftotext",
+    "-layout",
+    "tmp/day16-tsuzuki2021/arxiv-pdf.pdf",
+    "tmp/day16-tsuzuki2021/mainline.txt"
+  ],
+  "text_extract_exit": 0,
+  "pdfinfo": "Creator:         TeX\nProducer:        pdfTeX-1.40.21\nCreationDate:    Tue Jun  1 08:57:24 2021 CST\nModDate:         Tue Jun  1 08:57:24 2021 CST\nCustom Metadata: yes\nMetadata Stream: no\nTagged:          no\nUserProperties:  no\nSuspects:        no\nForm:            none\nJavaScript:      no\nPages:           11\nEncrypted:       no\nPage size:       612 x 792 pts (letter)\nPage rot:        0\nFile size:       2235572 bytes\nOptimized:       no\nPDF version:     1.5\n",
+  "publisher_VoR_not_obtained": true,
+  "scientificbody_read_beforethiscall": false
+}

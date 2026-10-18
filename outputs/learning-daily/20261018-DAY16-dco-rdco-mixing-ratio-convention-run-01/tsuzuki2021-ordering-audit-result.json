@@ -1,0 +1,85 @@
+{
+  "at": "2026-10-19T07:32:51.761569+08:00",
+  "script_sha256": "f058fabf868350ea9197f50a03cf686c10e455e9541b626100bde7c114e6c33e",
+  "contract_sha256": "546a216db8456e8764377260530d51920cbaaedcf8abf16f9a47329665d79dfc",
+  "source_sha256": "f2c69bdb5ec135a8334ee977e198a79250b3a1b1322703b7277db8fcdc1f218d",
+  "free_rest_one_scatter_process_only": true,
+  "min_gap_exact": "E*(-2*E + m)/(2*E + m)",
+  "ordering_all_angles_threshold_keV": 255.5,
+  "T21_selected_window_controls": [
+    {
+      "energy_keV": 73.0,
+      "min_EA_minus_ES_keV": 40.55555555555556,
+      "minenergy_order_guaranteed_under_stated_process": true
+    },
+    {
+      "energy_keV": 77.5,
+      "min_EA_minus_ES_keV": 41.426426426426424,
+      "minenergy_order_guaranteed_under_stated_process": true
+    },
+    {
+      "energy_keV": 75.0,
+      "min_EA_minus_ES_keV": 40.960665658093795,
+      "minenergy_order_guaranteed_under_stated_process": true
+    }
+  ],
+  "G24_847_equal_deposits_angle_deg": 66.62832012710717,
+  "G24_847_both_energy_orders_allowed_from_deg": 35.11381352065964,
+  "847_accepted_angle_examples": [
+    {
+      "theta_true_deg": 40.0,
+      "EA_keV": 610.3231743344423,
+      "ES_keV": 236.67682566555766,
+      "minenergy_selects_true_first_hit": true,
+      "reverse_order_also_has_physical_kinematic_cosine": true,
+      "reverse_order_thetaK_deg": 123.76283409493854
+    },
+    {
+      "theta_true_deg": 60.0,
+      "EA_keV": 463.1535580524345,
+      "ES_keV": 383.8464419475655,
+      "minenergy_selects_true_first_hit": true,
+      "reverse_order_also_has_physical_kinematic_cosine": true,
+      "reverse_order_thetaK_deg": 74.21405152911181
+    },
+    {
+      "theta_true_deg": 70.0,
+      "EA_keV": 405.1421684872537,
+      "ES_keV": 441.8578315127463,
+      "minenergy_selects_true_first_hit": false,
+      "reverse_order_also_has_physical_kinematic_cosine": true,
+      "reverse_order_thetaK_deg": 63.459825694937145
+    },
+    {
+      "theta_true_deg": 90.0,
+      "EA_keV": 318.71649484536084,
+      "ES_keV": 528.2835051546392,
+      "minenergy_selects_true_first_hit": false,
+      "reverse_order_also_has_physical_kinematic_cosine": true,
+      "reverse_order_thetaK_deg": 50.50416479831741
+    },
+    {
+      "theta_true_deg": 120.0,
+      "EA_keV": 242.95088408644403,
+      "ES_keV": 604.049115913556,
+      "minenergy_selects_true_first_hit": false,
+      "reverse_order_also_has_physical_kinematic_cosine": true,
+      "reverse_order_thetaK_deg": 40.76903448035477
+    }
+  ],
+  "T21_8keV_threshold_implied_thetaK_deg_ideal": 79.2532876905168,
+  "same_point_source_plane_reverse_normal_identity_passed": true,
+  "common_axis_cos2phi_invariance_passed": true,
+  "order_reversal_always_flips_polarization_sign_claimed": false,
+  "reported_error_layer_arithmetic": {
+    "reported_stat": 0.008,
+    "reported_sys": 0.015,
+    "linear_sum": 0.023,
+    "quadrature_if_independent_not_source_choice": 0.017,
+    "source_total_retained": 0.023,
+    "Ba_residual_over_assumed_Q100": 0.014285714285714287
+  },
+  "selected_over_registered_from_rounded_totals": 0.001131578947368421,
+  "actual_ordering_misassignment_rate_Pfit_or_template_covariance_recovered": false,
+  "boundary": "No raw events, finite-energy response, actual Go event ordering or transfer of atomic P to nuclear gamma reference."
+}

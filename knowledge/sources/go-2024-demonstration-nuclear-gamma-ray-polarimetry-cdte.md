@@ -159,3 +159,12 @@ This source is the detector-demonstration branch of [[gamma-ray-linear-polarizat
 当前原表把Morse曲线标成GRETINA847，而其上游Eq13明确是GRETA四点模拟/position tuning；这与b/c脚注错配是两个分别保留的对象边界。回放输入的`Morse2022_GRETINA`键只镜像原表label，不据此升级为GRETINA独立标定。
 
 Morse上游的实际原件版本是UNC author-preprint（M22-1），其Eq8/13已核，VoR正文尚未取得。以上半因子与GRETAcurve crosswalk限于这些已读式/版本，不宣称VoR仍逐字同式，也不据此断言Go实际producer使用了错误归一。
+
+
+### Ref37原方法读后的适用域
+
+| ID | 新核查陈述 | claim_kind | evidence_level | locator | needs_review |
+| --- | --- | --- | --- | --- | --- |
+| G24-26 | Ref37实际已读arXivv1：16个归一division是first-hit xy空间区，不是16个φbins；其75keV的ES=minenergy规则借助2E<mec²。该域不能裸迁本847keV；也不能因sharedtoolkit自动认定本experiment采用相同16区或低能排序。 | upstream-method-and-transfer-domain | direct-upstream-plus-kinematic-check | Ref37/T21PDF5Eq3/PDF6Eq4；本PDF4–5Eq3–5 | true |
+
+[[tsuzuki-2021-sicdte-template-polarimetry]] T21-1–13补齐独立Ba null、Kr likelihood/modulation共享data、ν空间区/threshold/ARM和arXiv/VoR边界。原子近满P不能填成本核γreference；Goactualproducer/分区/energy ordering/response仍需实际版本，不据T21演示判Go实际错序。此新追加needs_review，原全部humanprefix保留。

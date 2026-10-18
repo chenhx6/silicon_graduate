@@ -1,0 +1,33 @@
+{
+  "at": "2026-10-19T07:23:10.855857+08:00",
+  "rows": [
+    {
+      "name": "arxiv-abs",
+      "url": "https://arxiv.org/abs/2105.14236",
+      "status": 200,
+      "path": "tmp/day16-tsuzuki2021/arxiv-abs.html",
+      "sha256": "4235167c817fcd2bf2a692ed5355406202f82e59b5bfb58d31ce891c1bf8e5a0",
+      "bytes": 45292,
+      "is_pdf": false
+    },
+    {
+      "name": "arxiv-pdf",
+      "url": "https://arxiv.org/pdf/2105.14236v1",
+      "status": 200,
+      "path": "tmp/day16-tsuzuki2021/arxiv-pdf.pdf",
+      "sha256": "f2c69bdb5ec135a8334ee977e198a79250b3a1b1322703b7277db8fcdc1f218d",
+      "bytes": 2235572,
+      "is_pdf": true
+    },
+    {
+      "name": "publisher-pdf",
+      "url": "https://pubs.aip.org/aip/rsi/article-pdf/doi/10.1063/5.0050826/15921720/063101_1_online.pdf",
+      "status": 403,
+      "path": "tmp/day16-tsuzuki2021/publisher-pdf.html",
+      "sha256": "f977d41c29241b596c106791651f78dcf0c92783a4425225e4886fb65e439521",
+      "bytes": 5687,
+      "is_pdf": false
+    }
+  ],
+  "bodyread": false
+}

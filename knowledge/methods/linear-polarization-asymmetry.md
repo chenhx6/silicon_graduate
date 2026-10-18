@@ -179,3 +179,7 @@ L26-19原件p7的positive E1+M2 ΔJ0例句与p8 Table3 negative冲突；在其Fi
 一般VarA=gᵀΣg，g_i=−(1−A²)s_i/(4N_i)、s=(+1,−1,+1,−1)；四独立Poisson时才化为(1−A²)²Σ_i1/N_i/16。原background/netpeak/sharedfit和calibration需实际Σ，零或负峰面积不能套log delta-method，不加伪计数或clip成结果。
 
 声明设计A=.2、曝光5000/7000、效率.8/.4给期望四峰3200/2400/2240/6720；裸单orientation A=−.142857，cross-ratio=.2±.008734（仅独立Poisson一阶）。比值产品κ=1.1使Ahat=.1770204。共同纯曝光rank1Cov控制抵消，不代表共同background也抵消；不是实测counts/漂移或exactCI。[[compton-polarimetry]]保存校准P与Q的另层误差。
+
+### 反序不等于cos2符号必翻
+
+[[tsuzuki-2021-sicdte-template-polarimetry]] T21-11/12：同pointsource两hit反序使scatterplane normal乘−1、在共同轴下φ→φ+π，cos2φ不变。实际错误incomingdirection/referenceplane、kinematicθ、ARM和cut仍可改变观测；不能将一个π反向当成δ/EM符号翻转。75keV的minenergy-order域亦不能迁到847，实际错序率须真实response/事件，未由本设计估计。

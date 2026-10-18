@@ -1,0 +1,40 @@
+{
+  "at": "2026-10-19T07:33:54.563825+08:00",
+  "version": "arxiv2105.14236v1 only; VoR403",
+  "full_text_pages_read": 11,
+  "sections": "I-VI, acknowledgements, dataavailability, references",
+  "figures_visual": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+  ],
+  "visual_pages": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "tables": "none",
+  "mainline": "atomicQEDmotivation -> Comptoncamera -> EBIT/Ge/SiCdTe -> calibration/kinematics/selection ->16spatialdivisions -> Baunpolarizedcontrol -> Krprofile/modulation/systematics ->dataavailability",
+  "selected_quantitative": "publishedenergies/threshold/orderingdomain/errorlayer andsymbolicplane controls; no rawhist fit",
+  "actual_counts_or_templates_provided": false,
+  "data_request_sent": false,
+  "body_source_sha256": "f2c69bdb5ec135a8334ee977e198a79250b3a1b1322703b7277db8fcdc1f218d"
+}

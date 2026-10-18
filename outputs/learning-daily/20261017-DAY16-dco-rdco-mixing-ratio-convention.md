@@ -163,6 +163,17 @@ actualasolid两shape/usePassive/parser/doc核得coax1.5/back2.5/outer.9mm，恰�
 
 ## Theory/analysis exercise
 
+### Checkpoint032：上游Si/CdTe原方法与能区迁移
+
+新增[Tsuzuki2021 source](../../knowledge/sources/tsuzuki-2021-sicdte-template-polarimetry.md) T21-1–13：arXiv2105.14236v1实际200/hash/identity核，完整11页主线/15图/Eq1–8；VoR403未得。16个ν区是firsthitxy空间分区、独立Ba source作零偏振response控制、Ge作两线能谱身份，KrMLE/modulationfit共享采集；不把原子P或作用概率借作核calibrationP/eff。
+
+[实际解析运动学/几何核验](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/tsuzuki2021-ordering-audit-result.json)exit0。全角minenergy排序需E<255.5keV，75keV窗满足，8keV阈给θK≈79.253°；847的equaldeposit角66.628°，反序也有physicalcos的阈35.114°。Go40–120°不能裸迁低能规则，但未得其实际算法/response，不估mistag或判producer错。
+
+共同pointsource反序normal负号与cos2(φ+π)=cos2φ符号控制过，不写“错序必翻偏振号”。T21 source误差stat.008/sys.015与reportedlinear总.023分开，独立quadrature .017只是反证设计，不替作者结果。数据同为reasonable request，原events/templates/νCov未得，experimentalL4notready。
+
+仍formal16一次/partial17、原15:00上海研究截止不变；下一继续matchingconvention/实际response高信息路线，不堆替代raw的toy。
+
+
 ### Checkpoint031：CdTe实际模板方法与normalization合同
 
 本session完整读Go2024原九页/6图1表/Eq1–7，并取currentpublisherHTML及独立Table1页面200；[source新追加](../../knowledge/sources/go-2024-demonstration-nuclear-gamma-ray-polarimetry-cdte.md) G24-16–25全部needs_review，原humanprefix/rawhash保持。νj由energyfit、innerazimuthlikelihood固定ν并迭代P，P误差主要selectionsystematic，actualcounts/templates/partition/Cov仍缺。数据声明为作者reasonable request，未联系/未造hist，experimentalL4notready。
@@ -490,6 +501,8 @@ pointgate本批 `limits`仅以角色不同就推physicalP不同的强断言：pu
 
 ## Durable knowledge delta
 
+本批新增[T21 source](../../knowledge/sources/tsuzuki-2021-sicdte-template-polarimetry.md)“空间归一和能区排序都需要实际响应身份”及T21-1–13，写入Compton/modulation/asymmetry方法，Go旧humanprefix只追加G24-26新needs_review。输出只为执行证据，physicaldomain/independence保存在knowledge。
+
 本批[Go2024 source](../../knowledge/sources/go-2024-demonstration-nuclear-gamma-ray-polarimetry-cdte.md)“2026-10-19 Codex追加：归一、似然与跨探测器Q定义”保存G24-16–25；[modulation方法](../../knowledge/methods/modulation-curve.md)“模板归一应保留统计对象”保存profile/共有Cov与归一转换。均非原实验重拟，旧人审prefix保持，新条目待复核。
 
 本批新[223Ra官方source](../../knowledge/sources/nndc-2001-223ra-reference-and-2026-intensity-records.md)保存N223-1–10，及[Tuli格式页](../../knowledge/sources/tuli-2001-ensdf-format-manual.md) TU01-4的col77规则；Compton/混合比/转换方法保存其sign/parent/RI/response使用合同。回忆纠正有独立记录，未覆写原冻结。
@@ -799,7 +812,7 @@ canonical [178W知识单](../../knowledge/research-notes/w178-921-dco-gate-doubl
     },
     {
       "knowledge": "knowledge/index.md",
-      "summary": "最小索引新增178W921计算单导航，不添加独立科学结论。 新增固定ALPACA独立实现/观测对象边界。 新增原ENSDF章/total-decay和MR字段边界。 加入ICC概率物理域方法入口。 新增公开DELTAactualrun/误差与数值failure边界。 新增104Mo评价时层/target身份及标签使用边界。 加入Morse新primary与25Na1041 durable ledger导航。 加入A25官方对象/历史版本入口。 新增UCGretina固定公开代码入口。 加实际Eu152 sourcecalibration数据入口。 G411新批补入truth/geometry实际控制与历史源response边界。 Riley2021原件已另读并核当前模型/原论文响应迁移边界。 Co60 gate/source与选择对象控制和原producer缺口已关联。 补Ni60官方reference/共同δ误差与actualSDK总分支归一，保留primaryphase缺口。 补原Jones1998 α–γ/electron主线、source版本/phase/同能标母态与共同误差边界。 补223Ra真实unsignedMR、multipletflag/NR、同源与分母合同，并显式纠正冻结回忆的终态误认。",
+      "summary": "最小索引新增178W921计算单导航，不添加独立科学结论。 新增固定ALPACA独立实现/观测对象边界。 新增原ENSDF章/total-decay和MR字段边界。 加入ICC概率物理域方法入口。 新增公开DELTAactualrun/误差与数值failure边界。 新增104Mo评价时层/target身份及标签使用边界。 加入Morse新primary与25Na1041 durable ledger导航。 加入A25官方对象/历史版本入口。 新增UCGretina固定公开代码入口。 加实际Eu152 sourcecalibration数据入口。 G411新批补入truth/geometry实际控制与历史源response边界。 Riley2021原件已另读并核当前模型/原论文响应迁移边界。 Co60 gate/source与选择对象控制和原producer缺口已关联。 补Ni60官方reference/共同δ误差与actualSDK总分支归一，保留primaryphase缺口。 补原Jones1998 α–γ/electron主线、source版本/phase/同能标母态与共同误差边界。 补223Ra真实unsignedMR、multipletflag/NR、同源与分母合同，并显式纠正冻结回忆的终态误认。 补T21原11页/空间ν/独立Ba与sharedKr、能区排序和同平面cos2反序控制。",
       "anchor": "w178-921-dco-gate-double-solutions",
       "sources": [
         {
@@ -885,6 +898,10 @@ canonical [178W知识单](../../knowledge/research-notes/w178-921-dco-gate-doubl
         {
           "path": "knowledge/sources/nndc-2001-223ra-reference-and-2026-intensity-records.md",
           "locator": "N223-1"
+        },
+        {
+          "path": "knowledge/sources/tsuzuki-2021-sicdte-template-polarimetry.md",
+          "locator": "T21-1"
         }
       ]
     },
@@ -1325,7 +1342,7 @@ canonical [178W知识单](../../knowledge/research-notes/w178-921-dco-gate-doubl
     },
     {
       "knowledge": "knowledge/methods/compton-polarimetry.md",
-      "summary": "保存PAQ分层、双分段actual432计数公式/derivatives、fiterrors与理想Poisson层区别、printingfailure和matchedeta/Q/fullCov门。 新增EXOGAM比值误差的任意Cov必要界及原表条件不闭合；回代不是独立P验证。 补1368文字Q与外推curve的未闭合、FOM因子化与同response身份条件。 新增GRETINA normalization/真实cut tradeoff与不同reference/Q谱系。 新增C(theta)测度/Jacobian、平均产品与经验Q重标的条件设计，实际jointkernel未恢复。 补XUNDL POL=A0与target/单位转录边界。 保存实际Stokes禁戒比值/pure反证及KN/Q归一合同。 补有限H解析消CG、actualsame-tensor dκ0/d0κ与literalevenκ U控制/消费端及真zeroI边界。 补另名fullq/Jones finiteIQUV设计、事前冻结12PSD/540点与rotation/pure/zero/nonPSD域控制，不认证原实验producer。 新增实际public能谱/共享Cov/event单位与sorting/decoder反证、P/Q readiness。 G411新批补入truth/geometry实际控制与历史源response边界。 Riley2021原件已另读并核当前模型/原论文响应迁移边界。 Co60 gate/source与选择对象控制和原producer缺口已关联。 新joint pointgate相位/firstlast/pure/KN/共同轴平均控制与闭式已写，非实验或arrayQ。 补Ni60官方reference/共同δ误差与actualSDK总分支归一，保留primaryphase缺口。 补Jones2002校准态节点、reference母态身份及有稳定性条件的cross-ratio。 补原Jones1998 α–γ/electron主线、source版本/phase/同能标母态与共同误差边界。 补223Ra真实unsignedMR、multipletflag/NR、同源与分母合同，并显式纠正冻结回忆的终态误认。 补CdTe真实归一/系统误差/模板likelihood门、sourcefootnote/model谱系及Q定义半因子。",
+      "summary": "保存PAQ分层、双分段actual432计数公式/derivatives、fiterrors与理想Poisson层区别、printingfailure和matchedeta/Q/fullCov门。 新增EXOGAM比值误差的任意Cov必要界及原表条件不闭合；回代不是独立P验证。 补1368文字Q与外推curve的未闭合、FOM因子化与同response身份条件。 新增GRETINA normalization/真实cut tradeoff与不同reference/Q谱系。 新增C(theta)测度/Jacobian、平均产品与经验Q重标的条件设计，实际jointkernel未恢复。 补XUNDL POL=A0与target/单位转录边界。 保存实际Stokes禁戒比值/pure反证及KN/Q归一合同。 补有限H解析消CG、actualsame-tensor dκ0/d0κ与literalevenκ U控制/消费端及真zeroI边界。 补另名fullq/Jones finiteIQUV设计、事前冻结12PSD/540点与rotation/pure/zero/nonPSD域控制，不认证原实验producer。 新增实际public能谱/共享Cov/event单位与sorting/decoder反证、P/Q readiness。 G411新批补入truth/geometry实际控制与历史源response边界。 Riley2021原件已另读并核当前模型/原论文响应迁移边界。 Co60 gate/source与选择对象控制和原producer缺口已关联。 新joint pointgate相位/firstlast/pure/KN/共同轴平均控制与闭式已写，非实验或arrayQ。 补Ni60官方reference/共同δ误差与actualSDK总分支归一，保留primaryphase缺口。 补Jones2002校准态节点、reference母态身份及有稳定性条件的cross-ratio。 补原Jones1998 α–γ/electron主线、source版本/phase/同能标母态与共同误差边界。 补223Ra真实unsignedMR、multipletflag/NR、同源与分母合同，并显式纠正冻结回忆的终态误认。 补CdTe真实归一/系统误差/模板likelihood门、sourcefootnote/model谱系及Q定义半因子。 补T21原11页/空间ν/独立Ba与sharedKr、能区排序和同平面cos2反序控制。",
       "anchor": "Gammasphere双分段的P/A/Q与actual峰面积",
       "sources": [
         {
@@ -1679,12 +1696,40 @@ canonical [178W知识单](../../knowledge/research-notes/w178-921-dco-gate-doubl
         {
           "path": "knowledge/sources/go-2024-demonstration-nuclear-gamma-ray-polarimetry-cdte.md",
           "locator": "G24-25"
+        },
+        {
+          "path": "knowledge/sources/tsuzuki-2021-sicdte-template-polarimetry.md",
+          "locator": "T21-4"
+        },
+        {
+          "path": "knowledge/sources/tsuzuki-2021-sicdte-template-polarimetry.md",
+          "locator": "T21-5"
+        },
+        {
+          "path": "knowledge/sources/tsuzuki-2021-sicdte-template-polarimetry.md",
+          "locator": "T21-8"
+        },
+        {
+          "path": "knowledge/sources/tsuzuki-2021-sicdte-template-polarimetry.md",
+          "locator": "T21-9"
+        },
+        {
+          "path": "knowledge/sources/tsuzuki-2021-sicdte-template-polarimetry.md",
+          "locator": "T21-11"
+        },
+        {
+          "path": "knowledge/sources/tsuzuki-2021-sicdte-template-polarimetry.md",
+          "locator": "T21-12"
+        },
+        {
+          "path": "knowledge/sources/tsuzuki-2021-sicdte-template-polarimetry.md",
+          "locator": "T21-13"
         }
       ]
     },
     {
       "knowledge": "knowledge/methods/linear-polarization-asymmetry.md",
-      "summary": "区分GammasphereA与genericclover计数式，链接实际data/eta/Q共同校准与sourcebound，不扩展sourceparity结论。 新增同一A/σ的nonstretched E1与stretched M1真实反例，保留DCO门/能级/选样身份。 新增真实同号A0双支、source例句/Table3冲突与needs-review边界。 补Jones2002校准态节点、reference母态身份及有稳定性条件的cross-ratio。",
+      "summary": "区分GammasphereA与genericclover计数式，链接实际data/eta/Q共同校准与sourcebound，不扩展sourceparity结论。 新增同一A/σ的nonstretched E1与stretched M1真实反例，保留DCO门/能级/选样身份。 新增真实同号A0双支、source例句/Table3冲突与needs-review边界。 补Jones2002校准态节点、reference母态身份及有稳定性条件的cross-ratio。 补T21原11页/空间ν/独立Ba与sharedKr、能区排序和同平面cos2反序控制。",
       "anchor": "双分段Gammasphere的A须随定义携带Q",
       "sources": [
         {
@@ -1734,6 +1779,34 @@ canonical [178W知识单](../../knowledge/research-notes/w178-921-dco-gate-doubl
         {
           "path": "knowledge/sources/jones-2002-calibration-compton-polarimeters.md",
           "locator": "J02-21"
+        },
+        {
+          "path": "knowledge/sources/tsuzuki-2021-sicdte-template-polarimetry.md",
+          "locator": "T21-4"
+        },
+        {
+          "path": "knowledge/sources/tsuzuki-2021-sicdte-template-polarimetry.md",
+          "locator": "T21-5"
+        },
+        {
+          "path": "knowledge/sources/tsuzuki-2021-sicdte-template-polarimetry.md",
+          "locator": "T21-8"
+        },
+        {
+          "path": "knowledge/sources/tsuzuki-2021-sicdte-template-polarimetry.md",
+          "locator": "T21-9"
+        },
+        {
+          "path": "knowledge/sources/tsuzuki-2021-sicdte-template-polarimetry.md",
+          "locator": "T21-11"
+        },
+        {
+          "path": "knowledge/sources/tsuzuki-2021-sicdte-template-polarimetry.md",
+          "locator": "T21-12"
+        },
+        {
+          "path": "knowledge/sources/tsuzuki-2021-sicdte-template-polarimetry.md",
+          "locator": "T21-13"
         }
       ]
     },
@@ -3421,7 +3494,7 @@ canonical [178W知识单](../../knowledge/research-notes/w178-921-dco-gate-doubl
     },
     {
       "knowledge": "knowledge/sources/go-2024-demonstration-nuclear-gamma-ray-polarimetry-cdte.md",
-      "summary": "完整九页原读与当前publisher/Table1核，保留旧人审prefix，追加分区归一/共有data/系统误差、caption/text与b/c脚注差、GRETA模型谱系、Q归一和数据可用性/解析profile边界；新全部needs_review。",
+      "summary": "完整九页原读与当前publisher/Table1核，保留旧人审prefix，追加分区归一/共有data/系统误差、caption/text与b/c脚注差、GRETA模型谱系、Q归一和数据可用性/解析profile边界；新全部needs_review。 补T21原11页/空间ν/独立Ba与sharedKr、能区排序和同平面cos2反序控制。",
       "anchor": "2026-10-19 Codex追加：归一、似然与跨探测器Q定义",
       "sources": [
         {
@@ -3471,12 +3544,44 @@ canonical [178W知识单](../../knowledge/research-notes/w178-921-dco-gate-doubl
         {
           "path": "knowledge/sources/morse-2022-gretina-polarization-sensitivity.md",
           "locator": "M22-9"
+        },
+        {
+          "path": "knowledge/sources/tsuzuki-2021-sicdte-template-polarimetry.md",
+          "locator": "T21-4"
+        },
+        {
+          "path": "knowledge/sources/tsuzuki-2021-sicdte-template-polarimetry.md",
+          "locator": "T21-5"
+        },
+        {
+          "path": "knowledge/sources/tsuzuki-2021-sicdte-template-polarimetry.md",
+          "locator": "T21-8"
+        },
+        {
+          "path": "knowledge/sources/tsuzuki-2021-sicdte-template-polarimetry.md",
+          "locator": "T21-9"
+        },
+        {
+          "path": "knowledge/sources/tsuzuki-2021-sicdte-template-polarimetry.md",
+          "locator": "T21-11"
+        },
+        {
+          "path": "knowledge/sources/tsuzuki-2021-sicdte-template-polarimetry.md",
+          "locator": "T21-12"
+        },
+        {
+          "path": "knowledge/sources/tsuzuki-2021-sicdte-template-polarimetry.md",
+          "locator": "T21-13"
+        },
+        {
+          "path": "knowledge/sources/go-2024-demonstration-nuclear-gamma-ray-polarimetry-cdte.md",
+          "locator": "G24-26"
         }
       ]
     },
     {
       "knowledge": "knowledge/methods/modulation-curve.md",
-      "summary": "新增signal-only scaleprofile/multinomial和FisherSchur边界、sameeventenergy/phi共有Cov与Q定义迁移；不是原实验fit或CI。",
+      "summary": "新增signal-only scaleprofile/multinomial和FisherSchur边界、sameeventenergy/phi共有Cov与Q定义迁移；不是原实验fit或CI。 补T21原11页/空间ν/独立Ba与sharedKr、能区排序和同平面cos2反序控制。",
       "anchor": "模板归一应保留统计对象",
       "sources": [
         {
@@ -3498,6 +3603,93 @@ canonical [178W知识单](../../knowledge/research-notes/w178-921-dco-gate-doubl
         {
           "path": "knowledge/sources/morse-2022-gretina-polarization-sensitivity.md",
           "locator": "M22-5"
+        },
+        {
+          "path": "knowledge/sources/tsuzuki-2021-sicdte-template-polarimetry.md",
+          "locator": "T21-4"
+        },
+        {
+          "path": "knowledge/sources/tsuzuki-2021-sicdte-template-polarimetry.md",
+          "locator": "T21-5"
+        },
+        {
+          "path": "knowledge/sources/tsuzuki-2021-sicdte-template-polarimetry.md",
+          "locator": "T21-8"
+        },
+        {
+          "path": "knowledge/sources/tsuzuki-2021-sicdte-template-polarimetry.md",
+          "locator": "T21-9"
+        },
+        {
+          "path": "knowledge/sources/tsuzuki-2021-sicdte-template-polarimetry.md",
+          "locator": "T21-11"
+        },
+        {
+          "path": "knowledge/sources/tsuzuki-2021-sicdte-template-polarimetry.md",
+          "locator": "T21-12"
+        },
+        {
+          "path": "knowledge/sources/tsuzuki-2021-sicdte-template-polarimetry.md",
+          "locator": "T21-13"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/sources/tsuzuki-2021-sicdte-template-polarimetry.md",
+      "summary": "新arXivv1完整11页/15图原读：actual16xy空间ν、Ba independentnull与Kr共享分析/误差，75→847排序domain/法向反号控制、误差线性合成与数据readiness；无原实验refit/核P迁移。",
+      "anchor": "空间归一和能区排序都需要实际响应身份",
+      "sources": [
+        {
+          "path": "knowledge/sources/tsuzuki-2021-sicdte-template-polarimetry.md",
+          "locator": "T21-1"
+        },
+        {
+          "path": "knowledge/sources/tsuzuki-2021-sicdte-template-polarimetry.md",
+          "locator": "T21-2"
+        },
+        {
+          "path": "knowledge/sources/tsuzuki-2021-sicdte-template-polarimetry.md",
+          "locator": "T21-3"
+        },
+        {
+          "path": "knowledge/sources/tsuzuki-2021-sicdte-template-polarimetry.md",
+          "locator": "T21-4"
+        },
+        {
+          "path": "knowledge/sources/tsuzuki-2021-sicdte-template-polarimetry.md",
+          "locator": "T21-5"
+        },
+        {
+          "path": "knowledge/sources/tsuzuki-2021-sicdte-template-polarimetry.md",
+          "locator": "T21-6"
+        },
+        {
+          "path": "knowledge/sources/tsuzuki-2021-sicdte-template-polarimetry.md",
+          "locator": "T21-7"
+        },
+        {
+          "path": "knowledge/sources/tsuzuki-2021-sicdte-template-polarimetry.md",
+          "locator": "T21-8"
+        },
+        {
+          "path": "knowledge/sources/tsuzuki-2021-sicdte-template-polarimetry.md",
+          "locator": "T21-9"
+        },
+        {
+          "path": "knowledge/sources/tsuzuki-2021-sicdte-template-polarimetry.md",
+          "locator": "T21-10"
+        },
+        {
+          "path": "knowledge/sources/tsuzuki-2021-sicdte-template-polarimetry.md",
+          "locator": "T21-11"
+        },
+        {
+          "path": "knowledge/sources/tsuzuki-2021-sicdte-template-polarimetry.md",
+          "locator": "T21-12"
+        },
+        {
+          "path": "knowledge/sources/tsuzuki-2021-sicdte-template-polarimetry.md",
+          "locator": "T21-13"
         }
       ]
     }
@@ -3709,3 +3901,10 @@ Collins2019 NPL/8371明确“Full text not available from this repository”，p
 [verification-reopened-025](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/verification-reopened-025.json)实际report/card/唯一writeback通过（48 changed knowledge pages/48 items），boundary/lint/diff exit0，0errors178warnings(131key44raw3parser)。G24完整旧humanprefix及J02/L25/L26prefix、raw/PLAN/Bib/脚本结果hash保护通过，新G24-16–25全部needs_review。Morse比较以实际UNC author-preprint为限，VoR未取得；不由此指认Go真实producer误用或VoR仍逐字同式。
 
 稳定发布指针main / `Audit DAY16 CdTe normalization likelihood and sensitivity conventions`，actualhash/H3/push仅publication031/runreceipt。下一原方法companion Tsuzuki2021 RSI92,063101/DOI10.1063/5.0050826，原文前回忆已冻，尚未取得/读正文。研究/goal保持active至原15:00上海，formal16一次、partial17，不开18。
+
+
+### Checkpoint032实际验收与上游Q定义续接
+
+[verification-reopened-026](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/verification-reopened-026.json)实际report/card/唯一writeback通过（49 changed knowledge pages/49 items），boundary/lint/diff exit0，0errors180warnings(132key45raw3parser)。G24/J02/L25/L26原humanprefix、原raw/PLAN/Bib及T21脚本/结果/sourcehash通过；新claims全needs_review，无原实验重拟。
+
+[候选刷新032](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/candidate-refresh-032-current.json)在原截止前仍438分钟，下一选Morse Ref16/Go Ref27 Alikhani2012原Co60AGATA calibration，原件前回忆已冻；metadata查找进行中，未读正文、不预判半因子。稳定发布指针main / `Trace DAY16 template regions null controls and event ordering domains`，actualhash/H3/push仅publication032/runreceipt。formal16一次/partial17与原15:00上海截止保持。

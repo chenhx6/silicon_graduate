@@ -8,17 +8,17 @@ updated: 2026-10-19
 
 ## Active handoff — DAY16 original window pursuing
 
-同run2026-10-18-day-16-01/session01a14ce6-425e-77c1-a127-2ac980bd76b5，原2026-10-19 15:00上海研究截止/15–16收束不改。goalactive/pursuing，formal16一次next17/count16、partial17，不正式17/不开18；Farmer42019保留，无新session/daemon。
+同run2026-10-18-day-16-01/session01a14ce6-425e-77c1-a127-2ac980bd76b5；原2026-10-19 15:00上海研究截止/15–16收束不改，goalactive/pursuing。formal16一次next17/count16、partial17，不正式17/不开18；Farmer42019保留，无新session/daemon。
 
-Checkpoint031 verification025实际48changed/items、required boundary/lint/diff0、0errors178warnings(131key44raw3parser)，G24/J02/L25/L26完整旧humanprefix/raw/PLAN/Bib/scriptguards过。Go2024本session原9页/6fig1table/当前publisher/Table1已读，新G24-16–25均needs_review：ν能谱fit/inner固定ν迭代P、selectionsystematic、数据reasonable request而未得counts/templates/Σ；原Qprime正文.009/图注.008、b/c脚注swap、GRETA模拟curve被Table1标GRETINA等版本边界已隔离。
+Checkpoint032 verification026实际通过49changed/items、boundary/lint/diff0、0errors180warnings(132key45raw3parser)，G24/J02/L25/L26原humanprefix/raw/PLAN/Bib/T21resultscriptguard过。T21新source1–13已完整arXivv1的11页/15图；VoR403未得。ν16firsthitxy空间区/独立Ba null/Ge谱lineidentity/共享Kr MLE与modulation/linearsys合成.023均分层，不借原子P或作用概率作核calibration。
 
-Go Q′=Q_G P与Morse已读UNCpreprint A0=Q_M Pbar/2的sameobservable转换只作合同，不裸迁实际Q/F或判Go原producer/未得MorseVoR。signal-only profile/multinomial/FisherSchur用符号验证，无fakecounts；reportedsummary F/cut比保留baseline/systematic条件，experimentalL4notready。
+实际解析排序：E<255.5keV全角ES<EA，75窗合法；847equaldeposit66.628°/反序physicalcos阈35.114°，actualGo算法/错序率未得不归罪。pointsource反序只normal负号时commonaxis cos2不变；实际incomingaxis/ARM/cut仍需response。reportedstat/sys和Dataonrequest边界保持，不造实验hist。G24仅新追加26，其原humanprefix保持。
 
-031待actualH3，稳定指针main / `Audit DAY16 CdTe normalization likelihood and sensitivity conventions`；exacthash/outcome只publication031/runreceipt。030已actualGitee，main / `Preserve DAY16 unsigned mixing ratios and shared intensity records`。原N223MRsignunknown/&/@与回忆能量纠正、J98phase/companion成果保持。
+032待actualH3，稳定指针main / `Trace DAY16 template regions null controls and event ordering domains`，actualhash/outcome只publication032/runreceipt。031已actualGitee，main / `Audit DAY16 CdTe normalization likelihood and sensitivity conventions`；G24脚注/curve/preprint版Q合同与旧N223/J98成果保持。
 
-下一GoRef37 Tsuzuki2021 DOI10.1063/5.0050826，method-before/freezes已保存，尚未读body。只核模板likelihood/normalization、publicdata/exactproducer与核γ迁移，不借原子硬XrayP当核reference或开新课卡。先合法metadata/fulltext身份门，missinginput如实记录，不联系作者/改凭据。
+下一Alikhani2012 NIMA675144–154 DOI10.1016/j.nima.2012.02.016，是M22Ref16/GoRef27，上游Co60AGATA真实Q/P定义/finitegate校准价值高。before/freeze及pool032已保存，metadataquery进行中，未读body，不预猜其half-factor。只在exactDay17preview内继续，原截止尚约7h20。
 
-详continuation-current.md；原15:00尚有约7h40，继续研究。保护raw/PLAN/Bib/credentials/旧prefix/继承receipts/daemon/log，exactmanifest/HEAD+ownentry、cached实际过再commit，freshfetch/ancestor/dryrun/nonforceH3，不以checkpointfinal或completegoal。
+详continuation-current.md；保护raw/PLAN/Bib/credentials/旧prefix/继承dirty/log。exactmanifest/HEADownentry，cached实际过再commit，freshfetch/ancestor/dryrun/nonforceH3。不得因checkpoint完成而final/completegoal。
 
 ## Previous active handoff — DAY16 completed; Day17 is next
 

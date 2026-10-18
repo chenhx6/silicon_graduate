@@ -1,0 +1,38 @@
+{
+  "at": "2026-10-19T07:41:41.047524+08:00",
+  "hard_deadline": "2026-10-19T15:00:00+08:00",
+  "minutes_to_deadline": 438.3158746,
+  "goal_status": "active",
+  "day_index": 16,
+  "completed_day_indices": [
+    16
+  ],
+  "partial_day_indices": [
+    17
+  ],
+  "next_day_index": 17,
+  "candidates": [
+    {
+      "route": "T21/G24 actualeventtemplates ororiginalproducer",
+      "status": "mainlines/controlscomplete, inputboundaryonreasonablerequest",
+      "gain": "needsactualnewinputs, nomorechosenhist"
+    },
+    {
+      "route": "M22normalizationRef16 Alikhani2012 originalCo60polarimeter",
+      "status": "exactupstream DOI/name locatedfromM22andGoRefs; originalnotread",
+      "gain": "gamma-gamma referenceP/A/Qdefinition/finiteacceptance, potentialhalf-factor andcalibrationsource check"
+    },
+    {
+      "route": "Bizzeti2015 AGATApower",
+      "status": "reserveonlyifneeded afterspecificRef16",
+      "gain": "do notopenconcurrentsource beforecurrentresolve"
+    },
+    {
+      "route": "Day18",
+      "status": "notopened/notpermitted",
+      "gain": "none"
+    }
+  ],
+  "selected": "Alikhani2012 boundedcalibrationknowledge routeunderonlyDay17preview",
+  "stop_decision": "continue"
+}
