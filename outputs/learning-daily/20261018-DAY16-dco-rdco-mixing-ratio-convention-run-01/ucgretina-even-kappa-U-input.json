@@ -1,0 +1,30 @@
+{
+  "identity": "UCGRETINA-PURE-M1-EVEN-KAPPA-STOKES-U-CONTROL-01",
+  "purpose": "isolateU sign withliteraloriginalcore whereCGfinite andqoddabsent; separatefromdiagnosticdtransposeandfiniteHmodel",
+  "Ji2": 2,
+  "Jf2": 0,
+  "MP": 3,
+  "delta": 0.0,
+  "state_ascendingM": [
+    "i/sqrt2",
+    "0",
+    "1/sqrt2"
+  ],
+  "tensor_convention": "samefrozenCGtensor; nonzeroqonly0,2 so(-1)^qcontractvariantidentical",
+  "theta_deg": [
+    23.4,
+    45,
+    90,
+    131.4
+  ],
+  "phi_rad": [
+    0,
+    0.37
+  ],
+  "original_binary": "tmp/day16-ucgretina/build-core-v2/literal-stokes.so",
+  "binary_sha256": "d82a858753cd02fbfcffafd0b0c9c534e38728ed4d68a72f4ee2bb7162f0a17e",
+  "axes": "G4GetParticleFrameX=etheta,Y=ephi;originalpositivePhi rotatesXtoY;analysisJonesetheta/ephi as priorfreeze",
+  "physical_check": "independentphotonJones J andIQUV;atn=+z analyticalstate yieldsatheta=aphi=(1+i)/2 up tocommonamplitude henceUpositive; actualselectednonpoleanglesused",
+  "Compton_conditional": "unpolarizedelectrons,Egamma511keV,psi90deg,epsilon.5;K=B−Qcos2Phi−Usin2Phi,B=1.5;Phi45/135suppressEparallel plane. Noactualdata/arrayacceptance",
+  "expected_test": "saveoriginalStokes/directIQUV/crosssection ratio undereach; nofit/axesflip/sourcepatch; mismatchesdo notaloneprovepaperwrong"
+}

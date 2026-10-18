@@ -295,3 +295,9 @@ target/gamma identity还要保留版本：25Na1041在当前Adopted为3459.4→24
 原Stokes表达式中Cplus/Cminus×F在禁戒CG处可字面0/0；本run的mixed k0和pureM1 k4失败控制显示：norm有限正而P1/P2为NaN。独立helicitytrace给物理有限值；同1→1 pureM1与mixedlabel δ0的norm相同、代码却一过一失败。应保持原失败，解析约去公共CG后再作另名验证；不能遇NaN置0、截断rho或把calibrator pureE2通过当作任意mixed producer认证。
 
 Morse spin2→0 pureE2控制确实通过，这限制对其原标定的归因；当前只有内核/明示helpers，未取得其exactbinary、geometry、macro、后处理或actualresponse/Cov。若同一selection经reference校正后的ξ acceptance均匀且只留cos2项，源码KN核对无偏振电子给A0=〈Sigma P〉（该声明jointkernel下），若另用Morse的A0=Q Pbar/2，则Q=2〈Sigma P〉/Pbar；只有附加factorization才可写2〈Sigma〉。Stokes的2φ轴旋转、经验Q半因子与finiteangularattenuation是三种不同的因子。
+
+### 非轴对称输入需核同一tensor的两个收缩核
+
+[[ucgretina-2021-polarized-emission-code]] UC21-10–13保存实际对照。Cplus/Cminus×F的公共CG应解析消去，不能浮点0/0后置0；有限H只解决这层数值表达，不自动修复所有Stokes。源码角采样使用P_k^κ的dκ0合同，Stokes归一使用d0κ，二者对奇κ差(−1)^κ；相同PSD tensor的角采样I与独立trace匹配，但Stokes归一核不匹配。轴对称κ0 benchmark看不见这一条件。
+
+另外，原literal pureM1 1→0且只含偶κ的coherent态，I/Q/V过而U反号，CG比全有限，隔离了另一个linear-analyser相位问题。eθ/eφ轴、Jones U=2ReJθφ和Compton消费端−U sin2Φ必须一起核，不能仅把拟合cos2振幅正负当完整Stokes验证。声明511keV/90°散射的K45/K135对照是点模型，不是阵列计数或Q标定。真实I=0时保留P undefined；单个helper极限猜测未观察则如实撤回。

@@ -1,17 +1,15 @@
-# Day16 checkpoint019后的持续学习
+# Day16 checkpoint020后的持续学习
 
 同run2026-10-18-day-16-01/session01a14ce6-425e-77c1-a127-2ac980bd76b5，goal active/pursuing；原截止2026-10-19 15:00上海，15–16收束。formal16一次next17/count16、partial17，不正式17/不开18。Farmer42019保留，无新session/daemon。
 
-新canonical source ucgretina-2021-polarized-emission-code UC21-1–9及Compton/note/Morse/index：公开rileyle/UCGretina head1271388e…与historical1cd7734…，ITDecay SHA6f89e5…相同。README关联Morse；未认证exactproducer。literalStokesbody135–272 SHA cc1596…实际抽取编译，原第三方files都在tmp不改/stage。旧10.7.4CG/F函数仅renameclass、数学服务为installed11.4.2SDK；另实际SDKhelpers。首次ctypesTLS失败physics未开始，命令级LD_PRELOAD后0，不改系统。
+本批canonicalsource ucgretina-2021-polarized-emission-code新增UC21-10–13、Compton/note/report唯一writeback仍37pages/items。finiteH解析消公共CG，不NaN置0；在原denom非零处差2e−15。新6PSD一般桥初始不闭合保留first-result，不能称general通过。sourceLegendre实际原函数抽取编译：Pnorm=dκ0差5.45e−15，dκ0=(-1)^κd0κ差4.27e−15；G4角sampler用前者，ITStokesnorm用后者。samepol samplerI与photontrace≤1.34e−15，ITsamepolnonaxial差.48–.74。
 
-correctedv2 core168calls：48pureE2/低spinM1 finite、120mixed/highrank P1/P2NaN，norm全正有限。独立helicitytraceallphysical，pure误差1.11e−15、全部norm误差7.78e−16；CGzero因素实际核：mixedk0与dipolek4分子/分母/F全0。same1→1 pureMP3 vs mixedMP304delta0 norm1.65相同但一过一败。Morse2→0pureE2实际control过，不能判原实验错。
+诊断dq0收缩后I/Q/V闭合但U反号；U_variant+U_trace≤5.1e−16。另frozenoriginalpureM1 1→0、v=[i,0,1]/sqrt2仅q0/2、CG全finite的16calls也确核literalU反号，I/Q/V过。固定G4X=eθ/Y=eφ和KN消费端−P2sin2Phi；theta45行原U−.942809/Jones+.942809，511keV/90deg点model K45/K135=4.38415/.228094。不是实际计数/实验Q。truezeroI normalizedundefined；actualold/sdkd_k00(-1)均1，poleNaN猜测未观察。所有原source/binary不动，无全producer/response/实验refit。
 
-phasebridge actual F_G4=(-1)^(Lp−L)R_RB max1.56e−15。首轮Na误把−.85作native且命名RB，记录保留；v2正确native0/+.85，Gaussian.56 θ90°trace P1=.340288/.017054，仅designforward，无新δfit。结果/冻输入core-audit-v2/validation-v2、identity-correction与phase-crosscheck均在此run。
+verification-reopened014 report/card/writebackvalid，required0、lint0errors166warnings(125key38raw3parser)，原humanprefix/raw/PLAN/Bib保持。publication019actualGitee成功、HEAD/origin对账在publication019/runreceipt；当前内容稳定指针main / Derive DAY16 finite polarization coefficients and kappa contracts，actualhash/H3/push只在publication020。
 
-verification-reopened013 required0/reportcardwriteback37changed37items，lint0errors166warnings(125key38raw3parser)。初source缺title_original、替换误伤N25wikilink已fix且留日志。humanprefix/raw/PLAN/Bib保持，N25旧version/POL/A0/单位边界不变；publication018actualGitee成功已receipt。
+**下一新问题已冻，未执行**：ucgretina-full-finite-design-before.md/freezefile。按Jones代数Q+iU=-2tau_plusminus*，不是事后flipU；fullq S_km=sum rho_kq exp(iqφ)d_(q,m)。T0evenF/S0、T2evenH/S2、T3oddF/S0；I=T0/Namp，Q=ReT2/(sEM Namp)、U=-ImT2/(sEM Namp)、V=T3/Namp。rho_-q=(-1)^q rho_q*；sourceadjacentrealδ。先推导/冻结具体新PSDseed20261019输入再跑旧6cases回归+新densities。若失败保留，不重新挑axes/sign。目标有限general数学设计，非原源码patch。
 
-下一已经ucgretina-regularized-before-analysis.md/hash冻：推导(CGplus/CGminus)*F解析消除公共CG，另名finiteimplementation，不patch原源、不NaN置0。须确认有限原处/所有mixedpurelimit/PSDphotontrace，并可有界检验一般κ/coherence、轴pole/truezeroI的差别。原eventgeometry/后处理/Cov仍缺，不能算新Q/实验CI。当前14小时以上窗口有高价值路线，继续至原deadline。
+复跑现有script均commandscope LD_PRELOAD=/opt/geant4/11.4.2/lib/libG4processes_hadronic.so PYTHONPATH=/workspace/wiki/tmp/day16-jt74/python-deps；新3script为day16_ucgretina_finite_product.py/angle_kernel_audit.py/even_kappa_u.py，sourceinputs/results在此run。不要覆盖old frozenbinaryhash；新builddir。第三方/source/binary仅tmp不stage；原helpers/raw/PLAN/Bib/credentials/继承dirty/旧reviews保留，exactmanifest/HEAD+ownlog/H3非force。
 
-复跑commandscope：LD_PRELOAD=/opt/geant4/11.4.2/lib/libG4processes_hadronic.so PYTHONPATH=/workspace/wiki/tmp/day16-jt74/python-deps python3 system/scripts/day16_ucgretina_stokes_audit.py --input <run>/ucgretina-core-audit-input-v2.json --sources tmp/day16-ucgretina --build tmp/day16-ucgretina/build-core-v2 --output <newresult>。oracle同env、validation-input-v2。不要重新编译同binary后再拿旧binaryhash做identityguard；若后续源码生成不同，需另builddir/冻新binary。
-
-本批内容指针main / Validate DAY16 public Stokes emission and zero-CG boundaries，实际hash/H3/push只记publication019/runreceipt。exactmanifest/HEAD+ownlog/H3非force，保护继承dirty/credentials/raw/PLAN/Bib/旧humanprefix；原17日报/18run-dir/session/resume/deadline不变。FSU2015公开body未得；accepted403/harvest401/OAclosed/机构profiles无PDF、Scholar/Google失败/Bing无关结果不原样重试。不读19O替身。
+上游A25/FSU、L26/Morse/Z13/JT74已canonical，旧terminalprimary/网页失败不原样重试。Geant4PRM猜测页404、真实documentationDNS失败，只有代码来源已读，不造manual引文。当前00:44仍余约14h，继续当前高信息数学与response合同路线至原15:00；不因checkpoint或跨午夜创建新run/授卡。

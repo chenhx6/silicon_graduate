@@ -286,3 +286,5 @@ Day16 Fig4追加priming：新L26-27–29公开vector曲线的literalCP/C均值�
 Day16 A25追加priming：[[nndc-2025-a25-mixing-reference-records]] N25-1–10与1041ledger补当前Ei/Ef、2009MR经phasebridge逐项匹配L26、当前评价版本更新。XUNDL POL=A0非P，NaMR值在comment；靶厚度µg/mg转录差和MgG3971身份保留。FSU2015原文尚未取得，仅评价角度35/145与概述45/135的未决口径；不能从旧M1标签替δ唯一选根。
 
 Day16 UCGretina追加priming：[[ucgretina-2021-polarized-emission-code]] UC21-1–9固定公开2021/2026内核与old10.7.4函数/installed11.4.2helpers，literalmixed/highrank 0/0×F失败、pureE2反证及photontrace已核；不是exactpaperproducer/全阵列重放。correctednative0/+.85映L26RB0/−.85，首轮identity错误与TLS失败保留。正式17不能只重跑旧168calls授卡；可沿新finite-expression/generalκ/response合同推进，原实验event/geometry/postprocess/Σ仍缺。
+
+Day16 finite/κ priming：UC21-10–13与Compton新段保存H解析消CG、samepol dκ0/d0κ及literalpureM1/evenκ U反号控制；消NaN不等于完整general Stokes通过。已冻结fullfinite/Jones代数合同待另验证；原Morseκ0/pureE2控制仍过，真实response/Cov缺口不变。正式17需新session自审，不换算旧检查数授卡。

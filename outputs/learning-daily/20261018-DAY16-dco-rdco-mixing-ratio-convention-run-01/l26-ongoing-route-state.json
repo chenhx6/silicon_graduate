@@ -1,5 +1,5 @@
 {
-  "at": "2026-10-19T00:19:56.121480+08:00",
+  "at": "2026-10-19T00:46:10.911380+08:00",
   "published_checkpoint": 15,
   "branch_subject": "main / Trace DAY16 profile thresholds and conditional identifiability",
   "original_deadline": "2026-10-19T15:00:00+08:00",
@@ -25,8 +25,8 @@
   "L25_targeted_companion_scope": "manuscript Sec5.1-5.5,Eq27-38/sourcecalTable2; oldsource/prefixhashfrozen; sourceQ.33=measuredamp.016/.048, gate/polarizingphotonandnormalizationdifferent. Not currentfull25pageread.",
   "Alikhani2012_body_status": "not obtained; exactDOIrecordclosed,ChalmersDNSfail,configuredpublisherMarkdownproviderunavailable attemptedfalse; OpenAIRErelatedURLsnotallsamepaper, useexactDOIinstancesonly",
   "next_actions": [
-    "exactmanifest/H3/publication019",
-    "finiteCGproduct derivationandPSD/generalκ tests undernewfrozencontract"
+    "exactmanifest/H3/publication020",
+    "concretefullfinitePSDinputfreeze and execute derivedformula, no originalpatch"
   ],
   "M22_input": "morse2022-calibration-input.json",
   "pending_executable_replay": "M22cuts/physicaldensity/calibrationselection andL26primaryRcoefficients/Qnormalization; first sourceRacah exploration may require trianglezero guard, no data changed",
@@ -34,10 +34,10 @@
   "scientific_annotation_status": "canonical35pages/items in report; newM22source/L26append17–26/L25append30/new25Na note; fulloldhumanprefixbytepreserved",
   "new_experimental_refit": false,
   "averaging_stage": "completed actualplot integration/declaredkernels,sourceproseapproxnotliterallyclosed;newcanonicalwritebackpending",
-  "latest_publication": "publication-018.json,pushedHEADoriginmatched",
+  "latest_publication": "publication-019.json,pushedandHEADoriginmatched",
   "averaging_result": "l26-coverage-average-audit.json",
   "source_figure_vs_actual_events": "218Cpoints/2908redPpoints;no rawresponse restored",
-  "current_route": "UCGretina literalcore andcorrectedoracle canonical37pages/items;checks013pass,publication019;nextfiniteproduct/generalκfrozen",
+  "current_route": "fullfiniteJones/generalPSDnewcontractfrozen notexecuted",
   "current_source_scope": {
     "current9objects": "NaBeO142/XUNDL23,25/NRF15whole;othersselected",
     "oldMgAdopted793": "header/targetsselected"
@@ -62,5 +62,77 @@
   "UCGretina_core": "ucgretina-core-audit-v2.json",
   "UCGretina_oracle": "ucgretina-core-validation-v2.json",
   "A25_complete": true,
-  "FSU_body": "notobtainedafterlegitimatediscovery;closedroutefornow"
+  "FSU_body": "notobtainedafterlegitimatediscovery;closedroutefornow",
+  "finite_next_input": "ucgretina-finite-product-input.json",
+  "finite_next_freeze": "ucgretina-finite-product-freeze.json",
+  "no_full_response_replay": true,
+  "finite_result": "ucgretina-finite-product-first-result.json",
+  "finite_general_validation_status": "partial/unclosed,notcanonicalyet",
+  "kappa_samepol_result": "outputs/learning-daily/20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/ucgretina-angle-kernel-comparison.json",
+  "kappa_samepol_summary": {
+    "rotatedMorseE2": {
+      "max_I_IT_same_tensor_error": 0.5999576663362229,
+      "max_I_official_sampler_error": 1.3322676295501878e-15,
+      "max_diagnostic_IQUV_residual": [
+        1.5543122344752192e-15,
+        6.661338147750939e-16,
+        1.3790551863713216,
+        1.340550892894119e-16
+      ]
+    },
+    "orientedM1": {
+      "max_I_IT_same_tensor_error": 1.1102230246251565e-15,
+      "max_I_official_sampler_error": 1.1102230246251565e-15,
+      "max_diagnostic_IQUV_residual": [
+        1.1102230246251565e-15,
+        2.498001805406602e-16,
+        8.71967124502158e-17,
+        8.881784197001252e-16
+      ]
+    },
+    "coherentSpin1mixed": {
+      "max_I_IT_same_tensor_error": 0.737488886941965,
+      "max_I_official_sampler_error": 6.661338147750939e-16,
+      "max_diagnostic_IQUV_residual": [
+        5.551115123125783e-16,
+        2.3592239273284576e-16,
+        0.3986875391486776,
+        1.6653345369377348e-16
+      ]
+    },
+    "PSDSpin2mixed": {
+      "max_I_IT_same_tensor_error": 0.6686813723369817,
+      "max_I_official_sampler_error": 8.881784197001252e-16,
+      "max_diagnostic_IQUV_residual": [
+        6.661338147750939e-16,
+        4.510281037539698e-16,
+        0.4053880480225271,
+        6.661338147750939e-16
+      ]
+    },
+    "PSDSpin2electric": {
+      "max_I_IT_same_tensor_error": 0.6686813723369817,
+      "max_I_official_sampler_error": 8.881784197001252e-16,
+      "max_diagnostic_IQUV_residual": [
+        6.661338147750939e-16,
+        4.510281037539698e-16,
+        0.4053880480225271,
+        7.771561172376096e-16
+      ]
+    },
+    "PSDhalfSpinMixed": {
+      "max_I_IT_same_tensor_error": 0.4841151424579353,
+      "max_I_official_sampler_error": 6.661338147750939e-16,
+      "max_diagnostic_IQUV_residual": [
+        6.661338147750939e-16,
+        3.191891195797325e-16,
+        0.27604032412140256,
+        6.661338147750939e-16
+      ]
+    }
+  },
+  "new_analysis_canonical_status": "UC21-10–13/method/note/report37items;required014pass;publication020next",
+  "finite_general_status": "samplerI matchesindependenttrace; ITκoddcontractdiff; pureM1qeven isolatesUopposite; nofullproducerclaim",
+  "even_kappa_U_result": "ucgretina-even-kappa-U-audit.json",
+  "next_contract": "ucgretina-full-finite-design-before.md"
 }

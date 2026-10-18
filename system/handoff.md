@@ -8,15 +8,15 @@ updated: 2026-10-19
 
 ## Active handoff — DAY16 user-resumed original study window
 
-同run2026-10-18-day-16-01/session01a14ce6-425e-77c1-a127-2ac980bd76b5，原2026-10-19 15:00上海截止不变，15–16收束；goal active/pursuing。formal16一次next17/count16、partial17，不正式17/不开18；Farmer42019保留，无新session/daemon。
+同run2026-10-18-day-16-01/session01a14ce6-425e-77c1-a127-2ac980bd76b5；原2026-10-19 15:00上海截止，15–16收束不变；goal active/pursuing。formal16一次next17/count16、partial17，不正式17/不开18；Farmer42019保留，无新session/daemon。
 
-Checkpoint019：固定UCGretina2021/2026公开ITDecay相同，README关联Morse但exactproducer未认证；新sourceUC21-1–9/Compton/note/index。literalcore实际抽取编译，old10.7.4函数rename-only+installed11.4.2mathservices，另SDKhelper；不是完整10.7.4运行。corrected168calls中48pure有限、120mixed/highrank NaN，norm全正；独立tracephysical、pure差1.11e−15/norm7.78e−16。actualCGzero、same1→1pure/mixedδ0一过一败；Morse2→0pureE2过，不能归因原实验错。
+Checkpoint020：UC21source新增10–13，有限CG乘积H与原finite处差2e−15；generalPSD初始未闭合保留。实际oldLegendre编译核Pnorm=dκ0、dκ0=(-1)^κd0κ，sampler核与ITStokesnorm核不同；samepol samplerI对photontrace1.34e−15，ITnonaxial差.48–.74。diagnosticdq0后I/Q/V闭合但U反号。另originalpure1→0M1仅偶κcoherent态/无禁戒CG的16calls，I/Q/V过、U反号；fixedJones/G4axes+KN消费者合同与truezeroI/未观察poleNaN均保留。不宣判Morseκ0pureE2标定错，不认证exactproducer或全阵列response/新δ。
 
-首TLS加载失败发生physics前，命令级preload后0；首Na−.85误作native且命名RB，保留oldinput/result后v2重冻0/+.85。F_G4/R_RB实际phasebridge1.56e−15；v2Na条件P1=.340288/.017054非新实测/δfit。verification-reopened013 required0/reportcardwriteback37changed37items、lint0errors166warnings(125key38raw3parser)。初title字段/一处wikilink替换错误已fix留档。原humanprefix/raw/PLAN/Bib保持。
+verification-reopened014 required0/reportcardwriteback37changed37items、lint0errors166warnings(125key38raw3parser)；humanprefix/raw/PLAN/Bib保持。上批019actualGitee已receipt；本批内容指针main / `Derive DAY16 finite polarization coefficients and kappa contracts`，精确hash/H3/push只在publication020/runreceipt。
 
-本批内容指针main / `Validate DAY16 public Stokes emission and zero-CG boundaries`；精确hash/H3/push仅publication019/runreceipt。下一regularized-before-analysis/hash已冻：解析消公共CG的另名实现及generalκ/PSD/poles/truezeroI；不patch原publiccode/NaN置0或用控制通过冒充全阵列response。commandscope LD_PRELOAD libG4processes_hadronic.so+PYTHONPATH repo tmp，源码/生成binary/第三方只tmp。不得改binary后仍用旧frozenhash；新builddir与合同。
+下一full-finite-design-before.md/hash已冻未执行：由Jones代数Q+iU=-2tau_plusminus*，fullq d_(q,m)收缩构建finiteIQUV，按具体新PSDseed合同验证，不能只flipU凑残差或patch原source。详continuation-current.md。actualGeant4SDK11.4.2，old10.7.4原函数rename-only，commandscope LD_PRELOAD hadroniclib+PYTHONPATH repo tmp；原binaryhash不覆盖，新builddir。Geant4PRM网页404/DNS失败仅boundary，不能造manual证据。
 
-A25source/ledger的旧2009三MR经phasebridge匹配L26/currentversion/POL=A0/MRflag/靶厚度µg-vs-mg边界保留，018actualpush已receipt。FSU2015body未得：合法书目/机构页无PDF，AP403/401、Scholar/Google失败/Bing无关身份拒绝；不重试终态或读19O替身。原17日报/18run-dir/session/resume/deadline不变，exactmanifest/HEAD+ownlog/H3Gitee非force，保护raw/PLAN/Bib/credentials/继承dirty/log/旧review。
+原17日报/18run-dir/session/resume/deadline及旧L26/L25humanprefix不变，Morse/FSU/A25旧证据边界仍有效；科学source/model/expt分层与partial17保留。exactmanifest、HEAD+ownlog、H3/Gitee非force，保护raw/PLAN/Bib/credentials/继承dirty/log/review；还有14h有高信息currentroute，不提前结束。
 
 ## Previous active handoff — DAY16 completed; Day17 is next
 

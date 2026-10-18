@@ -1,0 +1,6 @@
+{
+  "at": "2026-10-19T00:27:23.138586+08:00",
+  "sha256": "a542f41fc44368ed8aa6a65349adef74400bf6ccbe27329af6cad5e1bfd63a8e",
+  "before_general_density_numeric_execution": true,
+  "reason": "explicitJones/Stokeshelicitybridgefixedbeforetest;notdatadrivenfit"
+}

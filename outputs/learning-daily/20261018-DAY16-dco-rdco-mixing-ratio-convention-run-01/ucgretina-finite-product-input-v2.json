@@ -1,0 +1,85 @@
+{
+  "identity": "UCGRETINA-FINITE-CG-PRODUCT-AND-PSD-01",
+  "basis": "ascendingM;rho_mmprime=<m|rho|mprime>; sourceG4tensor=sum(-1)^(J-mprime)CG(Jm,J-mprime;kq)rho_mmprime *sqrt((2J+1)/(2k+1)); q>=0stored, hermitiannegativeq inferred",
+  "finite_coefficient_formula": "H_K(L,Lp)=(-1)^(L-Lp+Ji+Jf-1) CG(L1,Lp1;K2) Wigner6j(L,Lp,K;Ji,Ji,Jf) sqrt((2Ji+1)(2L+1)(2Lp+1)); derivedby3j-CG relation cancellingCGminus before division",
+  "source_preservation": "do notpatchITDecay orregeneratefrozenexistingbinary; newderivedmodel/scriptandbuildonly",
+  "base_input": "ucgretina-core-audit-input-v2.json",
+  "base_sha256": "89f7ec8bef91ec6dd2418a2f5f0baab13f7918a57be3c94cd34e607462593a48",
+  "finite_vs_literal": "comparewhereoriginalratiosfinite,statedCGsupportzerosandmixedδ0; literalNaNkept",
+  "new_cases": [
+    {
+      "id": "rotatedMorseE2",
+      "Ji2": 4,
+      "Jf2": 0,
+      "MP": 4,
+      "delta": 0,
+      "rho": "Rz(.47)Ry(.63)diag[0,.24,.52,.24,0]Ry†Rz†"
+    },
+    {
+      "id": "orientedM1",
+      "Ji2": 2,
+      "Jf2": 0,
+      "MP": 3,
+      "delta": 0,
+      "rho": "diag[.05,.15,.8]"
+    },
+    {
+      "id": "coherentSpin1mixed",
+      "Ji2": 2,
+      "Jf2": 2,
+      "MP": 304,
+      "delta": 0.3,
+      "rho": "v=[1,i/sqrt2,-.4+.2i],rho=vv†/v†v"
+    },
+    {
+      "id": "PSDSpin2mixed",
+      "Ji2": 4,
+      "Jf2": 2,
+      "MP": 304,
+      "delta": -0.3,
+      "rho": ".65 vv†/v†v +.35 I5/5, v=[1,.2+i,.5,-.3i,-.4]"
+    },
+    {
+      "id": "PSDSpin2electric",
+      "Ji2": 4,
+      "Jf2": 2,
+      "MP": 205,
+      "delta": -0.3,
+      "rho": "samePSDSpin2mixed"
+    },
+    {
+      "id": "PSDhalfSpinMixed",
+      "Ji2": 3,
+      "Jf2": 1,
+      "MP": 304,
+      "delta": -0.43,
+      "rho": ".65vv†/v†v+.35I4/4,v=[.5,i,-.7,.8-.4i]"
+    }
+  ],
+  "angles_deg": [
+    17.3,
+    45,
+    90,
+    138.2,
+    167.7
+  ],
+  "phi_rad": [
+    0,
+    0.37,
+    1.17,
+    2.4
+  ],
+  "density_checks": "Hermitian/unittrace/PSD;no clipping,oraclesumMfphoton amplitude density, IQUV physical inequalities",
+  "zero_intensity_control": "2->0pureE2|m0> attheta0;normalizedStokesundefined, compareunnormalizedkernel; noassignment0P",
+  "pole_control": "MorsepositiveI atcosθ=-1; testold/sdkLittleD literal separately,notincludeoldDNaNinfiniteCGfixclaim",
+  "scope": "mathematicalreadiness/kernel design,notnewexperiment/Q/fullresponse; generalκ failure retained",
+  "Stokes_definition_before_general_execution": {
+    "Jones_axes": "etheta,ephi as frozenGetParticleFrameX/Y, right-handedetheta×ephi=n",
+    "photon_Jones_amplitudes": "atheta=(-a_plus+a_minus)/sqrt2;aphi=-i(a_plus+a_minus)/sqrt2; nativehCShasexp(+imuφ)",
+    "Q": "Jtheta,theta-Jphi,phi",
+    "U": "2Re(Jtheta,phi)",
+    "V": "2Im(Jtheta,phi),equalsnegativehelicityintensitydifferenceinthisJonesdefinition",
+    "source_comparison": "recordQ/U/Vdifferencesandphysicalinequality; do notinfernewcodeerrorbeforeorientation/phasecrosswalk",
+    "source_oddK": "unlikepreviousaxialsymmetrictests nowusesoddKrho;nonecanbefittedorclipped"
+  }
+}

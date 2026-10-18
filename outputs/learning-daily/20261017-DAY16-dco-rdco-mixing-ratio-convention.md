@@ -93,6 +93,13 @@ updated: 2026-10-19
 
 ## Theory/analysis exercise
 
+### 有限H、同tensor角采样核与evenκ U控制
+
+[finite-product-first-result](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/ucgretina-finite-product-first-result.json)实际exit0，解析H与原非零分母乘积差≤2.00e−15，但六个一般PSD案例最初并未整体闭合；原结果保留。随后[同tensor角核比较](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/ucgretina-angle-kernel-comparison.json)抽取actualoldLegendre编译，核Pnorm=dκ0及dκ0=(−1)^κd0κ；同pol samplerI与photontrace≤1.34e−15，原IT Stokes归一核在nonaxial可差.48–.74。按恒等式作诊断收缩后I/Q/V闭合，U仍反号，不称完整修复。
+
+[evenκ独立隔离](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/ucgretina-even-kappa-U-audit.json)直接运行原literalpureM1 1→0、态[i,0,1]/sqrt2（只有q0/2），CG比均finite；16calls I/Q/V匹配而U反号，最大合同残差6.67e−16。θ45°行原U−.942809、Jones+.942809；固定G4消费端/511keV90°点KN模型给K45/K135为4.38415/.228094，不是实测counts或Q。实际old/sdk d_k00(−1)均1，先前poleNaN猜测未观察；trueI=0控制则normalizedundefined。
+
+
 ### 实际Stokes内核执行与phase身份纠正
 
 [冻结v2](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/ucgretina-core-audit-v2-freeze.json)、[core结果](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/ucgretina-core-audit-v2.json)、[独立oracle](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/ucgretina-core-validation-v2.json)来自两份实际编译脚本，最终exit0。字面168calls中pureE2/低spinM1共48finite，mixed/highrank共120 P1/P2 NaN，norm均finitepositive。实际CG分子/分母/F在mixed k0及dipole k4都为0；独立photontrace均有限物理，finitepure差≤1.11e−15、norm差≤7.78e−16。同1→1 MP3与MP304 δ0的purelimit一过一败，norm同为1.65。
@@ -309,6 +316,11 @@ N25-4/5/10给三项实际边界：POL=.043(.008)是A0而非P；官方PDF靶厚�
 
 ## Knowledge Impact and Learning Decision
 
+### 一般tensor结果的修订
+
+`revises`只消除0/0便足以验证general Stokes的初始设想：实际还需同tensor angle kernel与分析轴消费端核验。`supports`公共CG的解析有限化与pure/PSD/truezeroI分层；`limits`把代码控制直接推广为Morse标定错误、通用patch或新的实验δ。原κ0/pureE2反证保留。
+
+
 ### 软件来源的判断更新
 
 `revises`public tensor→Stokes入口尚缺的状态；`supports`同一observable的phase/pure/PSD/强度门；`limits`从pure2→0校准直接外推任意mixed/highrank emitter。来源实现的可重复条件失败不等于原论文或全Geant4失败，producer/arrayresponse/实验jointCov仍notready。
@@ -322,6 +334,11 @@ N25-4/5/10给三项实际边界：POL=.043(.008)是A0而非P；官方PDF靶厚�
 `supports` DCO多解与phase/response合同；`revises` 不分gate角色直接联合同名R的做法；`limits` 偏振符号挑根和pure reference认证全部相位。没有新Jπ、B值、wobbling/chirality结论；178W条件计算不外推A≈130。本轮按当前池/唯一Day17预习持续重查公开来源和必要输入；各问题保留原始response/producer/Σ及未得正文边界，当前原研究窗口继续，不由同一模型重复或标签复用补成确定结论。
 
 ## Durable knowledge delta
+
+### 有限系数与Stokes消费端的新durable增量
+
+[UC21source](../../knowledge/sources/ucgretina-2021-polarized-emission-code.md)新增UC21-10–13、H公式/六PSD输入/核差及U隔离边界；[Compton方法](../../knowledge/methods/compton-polarimetry.md)和[1041 ledger](../../knowledge/research-notes/gretina-25na1041-polarization-response-contract.md)保存“有限数值式≠完整偏振producer”和真实zeroI门。三个新科学审计脚本使用冻结新合同，原source/binary/hash与旧失败保留；可复用内容不只在outputs。
+
 
 ### 公开tensor→Stokes的可复用代码边界
 
@@ -1035,7 +1052,7 @@ canonical [178W知识单](../../knowledge/research-notes/w178-921-dco-gate-doubl
     },
     {
       "knowledge": "knowledge/methods/compton-polarimetry.md",
-      "summary": "保存PAQ分层、双分段actual432计数公式/derivatives、fiterrors与理想Poisson层区别、printingfailure和matchedeta/Q/fullCov门。 新增EXOGAM比值误差的任意Cov必要界及原表条件不闭合；回代不是独立P验证。 补1368文字Q与外推curve的未闭合、FOM因子化与同response身份条件。 新增GRETINA normalization/真实cut tradeoff与不同reference/Q谱系。 新增C(theta)测度/Jacobian、平均产品与经验Q重标的条件设计，实际jointkernel未恢复。 补XUNDL POL=A0与target/单位转录边界。 保存实际Stokes禁戒比值/pure反证及KN/Q归一合同。",
+      "summary": "保存PAQ分层、双分段actual432计数公式/derivatives、fiterrors与理想Poisson层区别、printingfailure和matchedeta/Q/fullCov门。 新增EXOGAM比值误差的任意Cov必要界及原表条件不闭合；回代不是独立P验证。 补1368文字Q与外推curve的未闭合、FOM因子化与同response身份条件。 新增GRETINA normalization/真实cut tradeoff与不同reference/Q谱系。 新增C(theta)测度/Jacobian、平均产品与经验Q重标的条件设计，实际jointkernel未恢复。 补XUNDL POL=A0与target/单位转录边界。 保存实际Stokes禁戒比值/pure反证及KN/Q归一合同。 补有限H解析消CG、actualsame-tensor dκ0/d0κ与literalevenκ U控制/消费端及真zeroI边界。",
       "anchor": "Gammasphere双分段的P/A/Q与actual峰面积",
       "sources": [
         {
@@ -1161,6 +1178,22 @@ canonical [178W知识单](../../knowledge/research-notes/w178-921-dco-gate-doubl
         {
           "path": "knowledge/sources/ucgretina-2021-polarized-emission-code.md",
           "locator": "UC21-9"
+        },
+        {
+          "path": "knowledge/sources/ucgretina-2021-polarized-emission-code.md",
+          "locator": "UC21-10"
+        },
+        {
+          "path": "knowledge/sources/ucgretina-2021-polarized-emission-code.md",
+          "locator": "UC21-11"
+        },
+        {
+          "path": "knowledge/sources/ucgretina-2021-polarized-emission-code.md",
+          "locator": "UC21-12"
+        },
+        {
+          "path": "knowledge/sources/ucgretina-2021-polarized-emission-code.md",
+          "locator": "UC21-13"
         }
       ]
     },
@@ -1796,7 +1829,7 @@ canonical [178W知识单](../../knowledge/research-notes/w178-921-dco-gate-doubl
     {
       "knowledge": "knowledge/research-notes/gretina-25na1041-polarization-response-contract.md",
       "anchor": "25Na1041：同号偏振如何参与分支判别",
-      "summary": "真实AD/偏振双候选与matched response/calibration谱系，明确无RDCO与无新实验CI；保存phase/pure/physical/选择失败控制。 补22Ne参考图平均边界，不迁sourceC到1041或据cut图给实际最优/新CI。 官方Ei/Ef和2009/2025 MR版本已直接补齐，不增加独立δ证据。 补publiccore边界、正确native分支及初始identity纠错。",
+      "summary": "真实AD/偏振双候选与matched response/calibration谱系，明确无RDCO与无新实验CI；保存phase/pure/physical/选择失败控制。 补22Ne参考图平均边界，不迁sourceC到1041或据cut图给实际最优/新CI。 官方Ei/Ef和2009/2025 MR版本已直接补齐，不增加独立δ证据。 补publiccore边界、正确native分支及初始identity纠错。 补有限H解析消CG、actualsame-tensor dκ0/d0κ与literalevenκ U控制/消费端及真zeroI边界。",
       "sources": [
         {
           "path": "knowledge/sources/longfellow-2026-gretina-energy-ordering-polarization.md",
@@ -1901,6 +1934,22 @@ canonical [178W知识单](../../knowledge/research-notes/w178-921-dco-gate-doubl
         {
           "path": "knowledge/sources/ucgretina-2021-polarized-emission-code.md",
           "locator": "UC21-8"
+        },
+        {
+          "path": "knowledge/sources/ucgretina-2021-polarized-emission-code.md",
+          "locator": "UC21-10"
+        },
+        {
+          "path": "knowledge/sources/ucgretina-2021-polarized-emission-code.md",
+          "locator": "UC21-11"
+        },
+        {
+          "path": "knowledge/sources/ucgretina-2021-polarized-emission-code.md",
+          "locator": "UC21-12"
+        },
+        {
+          "path": "knowledge/sources/ucgretina-2021-polarized-emission-code.md",
+          "locator": "UC21-13"
         }
       ]
     },
@@ -1954,7 +2003,7 @@ canonical [178W知识单](../../knowledge/research-notes/w178-921-dco-gate-doubl
     {
       "knowledge": "knowledge/sources/ucgretina-2021-polarized-emission-code.md",
       "anchor": "UCGretina：发射代数、软件实现与阵列响应分开",
-      "summary": "固定公开2021/2026 Stokes代码和Geant4原函数，实际core/独立trace/phase/purelimit核验；保存mixed高rank浮点失败、反证与producer边界。",
+      "summary": "固定公开2021/2026 Stokes代码和Geant4原函数，实际core/独立trace/phase/purelimit核验；保存mixed高rank浮点失败、反证与producer边界。 补有限H解析消CG、actualsame-tensor dκ0/d0κ与literalevenκ U控制/消费端及真zeroI边界。",
       "sources": [
         {
           "path": "knowledge/sources/ucgretina-2021-polarized-emission-code.md",
@@ -1991,6 +2040,22 @@ canonical [178W知识单](../../knowledge/research-notes/w178-921-dco-gate-doubl
         {
           "path": "knowledge/sources/ucgretina-2021-polarized-emission-code.md",
           "locator": "UC21-9"
+        },
+        {
+          "path": "knowledge/sources/ucgretina-2021-polarized-emission-code.md",
+          "locator": "UC21-10"
+        },
+        {
+          "path": "knowledge/sources/ucgretina-2021-polarized-emission-code.md",
+          "locator": "UC21-11"
+        },
+        {
+          "path": "knowledge/sources/ucgretina-2021-polarized-emission-code.md",
+          "locator": "UC21-12"
+        },
+        {
+          "path": "knowledge/sources/ucgretina-2021-polarized-emission-code.md",
+          "locator": "UC21-13"
         }
       ]
     }
@@ -1999,6 +2064,11 @@ canonical [178W知识单](../../knowledge/research-notes/w178-921-dco-gate-doubl
 ```
 
 ## Open questions and belief revision
+
+### 下一有界问题仍是同一Stokes合同
+
+有限H与κ指标问题已有直接来源/同输入比较；U在明确Jones/G4轴下的literal偶κ控制也已隔离。后续若构建有限general表达式，须从这些式子推导、另名保存并做PSDrho与完整IQUV/rotation/purelimit验证，不能只flipU让残差过或修改原externalcode。完整arrayproducer/response/experimentalCov继续缺失。
+
 
 ### 由实际code结果产生的下一问题
 
@@ -2023,6 +2093,13 @@ Dors[3]身份冲突已经定位到准确DOI，尚待全文给169/137的约定与
 L0为三篇主线/原图回核；L1/L2为新证据单和反向验证；L3调查已由用户恢复至原15:00截止，169参考定义/producer与新原件缺口保持开放。尚未进行experimental L4 refit；已有条件设计不冒充实际数据分析，也未取得完整input/response/Σ。未新增人审或修改旧needs_review。
 
 ## Verification and continuation
+
+
+### 有限H与一般tensor checkpoint020验收
+
+[verification-reopened-014](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/verification-reopened-014.json)实际report/card/writeback通过（仍37 changed knowledge pages/37 items），boundary/lint/diff均exit0；0errors/166warnings（125key/38raw/3parser）。新脚本finiteH、samepol-oldLegendre及originalevenκ U均exit0，初一般bridge失配保留；未把脚本0当generalvalidated。L26/L25旧humanprefix、PLAN/Bib保持。
+
+00:44上海仍距原15:00约856分钟，goal保持active。下一完整finite tensor/Jones推导已在ucgretina-full-finite-design-before.md/hash冻结，尚未新执行；先保留既有source/counterevidence，再按合同对新PSD态核全IQUV。Geant4说明网页404/DNS失败有实际记录，未据此编造manual文字；现有证据来自固定代码和数学定义。原run/学分/partial17及截止不变。
 
 
 ### UCGretina checkpoint019检查与续接

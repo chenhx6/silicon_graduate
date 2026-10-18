@@ -1,0 +1,13 @@
+{
+  "identity": "UCGRETINA-SAME-POL-ANGLE-KERNEL-COMPARISON-01",
+  "general_input": "ucgretina-finite-product-input-v2.json",
+  "general_input_sha256": "a542f41fc44368ed8aa6a65349adef74400bf6ccbe27329af6cad5e1bfd63a8e",
+  "literal_binary": "tmp/day16-ucgretina/build-core-v2/literal-stokes.so",
+  "literal_binary_sha256": "d82a858753cd02fbfcffafd0b0c9c534e38728ed4d68a72f4ee2bb7162f0a17e",
+  "old_legendre_source": "tmp/day16-ucgretina/geant4-v1074/G4LegendrePolynomial.cc",
+  "old_legendre_sha256": "14570759bd47b4ec1b9507a58e74a97fc50329f89798813d30dd632b7b8155d3",
+  "hypothesis_from_actual_source": "oldCS P_l^q sqrt((l-q)!/(l+q)!)=d_q0=(-1)^q d_0q; compare samepol officiallysampledI vs ITI before attribution",
+  "diagnostic_variant": "multiply storedpol_kq by(-1)^q only as equivalent contraction of ITd0q into sourcedq0; keep originalsamepolresults; notclaimuniversalfix",
+  "outputs": "I_sampler,I_IT,I_photon,allIQUV residuals, actual CGWignerLegendre identities, raw PSD cases unchanged",
+  "do_not": "do noteditupstream/pickphasebyfit/claimallStokespatched/independentexperiment"
+}

@@ -55,6 +55,10 @@ tags: [software-validation, pure-limit, polarization, response-readiness]
 | UC21-7 | 所选same-emitter路径/rank有F_G4(k,L,L′)=(−1)^(L′−L)R_RB，最大残差1.56×10^-15，故相邻M1/E2需δnative=−δRB。L26两支0/−.85在此映为0/+.85；同Gaussianσ/J=.56下θ90°的photontrace P1≈.340288/.017054，均是条件forward量，不是本run实测偏振或A0重拟合。 | convention-crosswalk-and-conditional-model | direct-coefficient-execution | G4 FCoefficient；L26 Eqs3–4；ucgretina-g4-rb-phase-crosscheck | true |
 | UC21-8 | Morse给的p0=.52、p±1=.24、p±2=0之2→0 pureE2控制在θ90°给P1≈1，原代码finite并与photontrace相符。它是本页必要反证：不能从mixed/highrank失败宣判Morse pureE2标定或L26实验错误；exactproducer仍未认证。 | counter-evidence-and-scope | source-input-and-code-control | M22 Sec4.2 population；ITDecay pureMP4；本页控制表 | true |
 | UC21-9 | Geant4 photon frame X=eθ/Y=eφ，Stokes轴旋转用2φ；对unpolarized electrons，Compton采样含−sin²ψ(P1cos2χ+P2sin2χ)。这一步的physical analyzing harmonic无额外1/2；若后续经验定义A0=Q Pbar/2，须由匹配jointkernel得到Q=2〈ΣP〉/Pbar，不能固定Q删半因子或称Q恒等于裸Σ。 | frame-and-response-normalization | direct-code-and-conditional-algebra | G4PolarizationHelper GetParticleFrameX/Y；G4StokesVector RotateAz；G4PolarizedComptonModel gdist | true |
+| UC21-10 | 先用原F中的3j–CG关系约去公共CG，得到有限H系数；在所选全部原分母非零处与Cplus/Cminus×F最大差2.00×10^-15。该恒等式提供禁戒项的解析处理，未将NaN强置0或修改原publicsource。 | finite-expression-design | derivation-and-conditional-computation | G4PolarizationTransition FCoefficient；本页有限H公式；ucgretina-finite-product-first-result | true |
+| UC21-11 | 实际10.7.4 Legendre函数含CS相位，sqrt((k−κ)!/(k+κ)!)P_k^κ=d_{κ0}=(−1)^κd_{0κ}；原角度sampler用前者，ITDecay Stokes归一用d_{0κ}。对相同声明PSD tensor，sampler I与独立trace差≤1.34×10^-15，IT归一核可差.48–.74；κ0轴对称控制不受此区别影响。 | source-internal-kernel-contract | direct-code-and-same-input-comparison | G4LegendrePolynomial EvalAssocLegendrePoly；G4PolarizationTransition GenerateGammaPhi；ITDecay preNorm | true |
+| UC21-12 | 仅偶κ的pure1→0 M1、态v=[i,0,1]/sqrt2使原CG比值全有限、κ转置phase恒为+。16次literal调用的I/Q/V与固定eθ/eφ Jones trace相符，但U反号，最大(I,Q,Uopposite,V)残差6.67×10^-16；θ45°/φ0给原U=−.942809、JonesU=+.942809。该控制独立于mixed NaN及κodd问题。 | isolated-linear-Stokes-sign-control | actual-original-core-and-independent-trace | ITDecay pre2/P2；G4PolarizationHelper axes；本页evenκ控制；ucgretina-even-kappa-U-audit | true |
+| UC21-13 | 在无偏振电子、511keV入射/90°Compton、相同G4正Φ轴的声明点模型中，核B=1.5，K45/K135=(B−U)/(B+U)；上述θ45°行分别给4.38415与.228094。此为消费端符号影响的条件计算，不是实际计数比或Q。另真实I=0控制保留Stokes undefined；预想d_k00(−1)NaN未观察，实际旧/新helpers均为1。 | consumer-and-failure-boundaries | source-code-and-conditional-calculation | G4PolarizedComptonModel gdist/dirx-diry；G4Clebsch WignerLittleD；本页零强度/极限控制 | true |
 
 ## Summary
 
@@ -84,6 +88,26 @@ tags: [software-validation, pure-limit, polarization, response-readiness]
 - 本次trace是声明PSD对角布居/实振幅/单emitter；轴旋转、一般κ/coherence、无强度点、真实Compton事件与background仍有额外检查。没有对整个simulation作correct/incorrect二值认证。
 - Geant4两helper共享公式/数学服务，不是独立实验；Morse calibration、tuning与同代码simulation也共享输入。若以后做修复设计，应保留literal失败，另算先消去公共CG的有限表达式，不能用“遇NaN置0”代替物理检验。
 - Q的jointkernel等式只在明确的azimuth/reference/acceptance假设下成立；缺matching selection时，不能由本页局部KN核直接重算原Q或选择1041的δ支。
+
+## 有限系数与非轴对称tensor续核
+
+设`Cminus=C(L1,L′−1→k0)`、`Cplus=C(L1,L′1→k2)`。由原FCoefficient及3j–CG关系，在本页state ordering下：
+
+`H_k(L,L′)=(-1)^(L−L′+Ji+Jf−1) Cplus {L L′ k; Ji Ji Jf} sqrt[(2Ji+1)(2L+1)(2L′+1)]`。
+
+它等于原式的`(Cplus/Cminus)F`，但求值时从未除以Cminus。k<2时Cplus直接禁戒；不是先浮点0/0再截断。独立设计脚本[finite product](../../system/scripts/day16_ucgretina_finite_product.py)保存原finite处的残差和未闭合的general测试，不覆盖原literal失败。输入/冻回执在本run `ucgretina-finite-product-input-v2.json`及其freeze。
+
+初始一般密度矩阵CG桥采用升序m、rho_mm′，`rho_kκ=sqrt[(2J+1)/(2k+1)]Σ(-1)^(J−m′) C(Jm,J−m′→kκ)rho_mm′`。六个事前固定PSD案例包括旋转后的Morse密度、oriented M1、整数/半整数coherent M1/E2与E1/M2。first-result对nonaxial量不闭合被完整保留，未从数据拟合选择新phase。
+
+随后按原代码的关联Legendre/小d恒等式比较**同一tensor**：原角度sampler核与Stokes归一核不是相同指标顺序。实际抽取旧Legendre函数执行后，Pnorm/dκ0恒等式最大差5.45×10^-15，小d转置恒等式差4.27×10^-15。相同tensor下角度sampler与photontrace的I全闭合，而ITDecay用于归一Stokes的核未闭合；这里未声称实际gamma角采样本身错误。
+
+把IT收缩按解析恒等式写成dκ0仅是诊断等价表达式：六案例的I/Q/V差≤1.56×10^-15，U仍严格反号（U_variant+U_trace≤5.07×10^-16）。因此没有把“消去0/0”称为一般tensor完整修复。
+
+为隔离U，另冻结v=[i,0,1]/sqrt2、pureM1 1→0的literal控制。它无奇κ也无禁戒CG比，原核直接运行；eθ/eφ Jones定义固定为Q=Jθθ−Jφφ、U=2ReJθφ、V=2ImJθφ。前向解析态给U=+1，选定非pole角的原U却为相反号，I/Q/V匹配。G4消费端的`dirx=sinψ cosΦ,diry=sinψ sinΦ`及`−P2 sin2Φ`把该区别传给Compton方位分布。这里的原发射实现、消费端轴、photontrace定义与条件预测同时保存；没有调整轴/sign使结果通过，也未上报或改写外部仓库。
+
+pole和零强度分别处理：actual old/SDK `d_k00(cosθ=−1)`在k0/2/4均给1，原先预想NaN不成立；pureE2 2→0、|m0>在θ0的IQUV恰为0，normalized Stokes为undefined。两个控制都保留，不能用一个“除0”标签混同。
+
+复跑还包括[angle-kernel比较](../../system/scripts/day16_ucgretina_angle_kernel_audit.py)与[evenκ U控制](../../system/scripts/day16_ucgretina_even_kappa_u.py)，均在同一命令级preload/PYTHONPATH下执行exit0。真实event/geometry/response/Cov、一般量子相位和后处理重建仍有范围边界，未发布通用patch或新实验结论。
 
 ## Knowledge Impact and Learning Decision
 

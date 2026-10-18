@@ -1,0 +1,10 @@
+{
+  "at": "2026-10-18T16:31:21.865509+00:00",
+  "numeric_execution_exit": 0,
+  "source_expression_math": "finiteH matches nonzero denominator original products to1.9984e-15",
+  "general_case_hypothesis_result": "orienteddiagonalM1 matches IQUV ~1e-15; newcoherent/nonaxialcases fail byO(0.1–2)IQUVunderinitialCGtensorbridge",
+  "interpretation": "must diagnose tensor/component/axis convention beforeattributingupstreambug; do notsilentlyflipq phases",
+  "true_zeroI": "unnormalizedIQUVzero,normalizedNone",
+  "poles": "actual oldandSDKd_k00(-1) returned1, hypothesizedpoleNaNnotobserved",
+  "next": "compare samepol literalITDecay intensity with officialG4 GenerateGammaPhi coefficients and WignerD/associatedLegendrephase; inspect explicitdyrotated source input. NoexperimentorQfit."
+}

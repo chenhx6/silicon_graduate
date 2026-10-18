@@ -1,0 +1,384 @@
+{
+  "identity": "UCGRETINA-PURE-M1-EVEN-KAPPA-STOKES-U-CONTROL-01",
+  "input_sha256": "fde2b0516b8a0b3b27a1e7c0eef70358c6dd2d0bf798a8d5d6e1fc8f644b813f",
+  "script_sha256": "3a02608efb8c38d79ecd1e2c0cbd3b094312206d6bc917540345f65cd1dd7ef6",
+  "binary_sha256": "d82a858753cd02fbfcffafd0b0c9c534e38728ed4d68a72f4ee2bb7162f0a17e",
+  "rho_min_eigenvalue": 0.0,
+  "odd_kappa_exactly_absent_within_tolerance": true,
+  "rows": [
+    {
+      "helper": "old",
+      "theta_deg": 23.4,
+      "phi_rad": 0,
+      "literal_Stokes": [
+        0.08561510682377381,
+        -0.9963282859999278,
+        0.0
+      ],
+      "photon_Jones_Stokes": [
+        0.08561510682377364,
+        0.9963282859999277,
+        0.0
+      ],
+      "residual_I_Q_Uopposite_V": [
+        4.440892098500626e-16,
+        1.6653345369377348e-16,
+        -1.1102230246251565e-16,
+        0.0
+      ],
+      "relative_K45_over_K135_literal": 4.956260628921421,
+      "relative_K45_over_K135_Jones": 0.20176501497210805
+    },
+    {
+      "helper": "old",
+      "theta_deg": 23.4,
+      "phi_rad": 0.37,
+      "literal_Stokes": [
+        0.7184286826543609,
+        -0.6956006238780412,
+        0.0
+      ],
+      "photon_Jones_Stokes": [
+        0.7184286826543606,
+        0.6956006238780411,
+        0.0
+      ],
+      "residual_I_Q_Uopposite_V": [
+        -2.220446049250313e-16,
+        3.3306690738754696e-16,
+        -1.1102230246251565e-16,
+        0.0
+      ],
+      "relative_K45_over_K135_literal": 2.729490709531774,
+      "relative_K45_over_K135_Jones": 0.366368713587431
+    },
+    {
+      "helper": "old",
+      "theta_deg": 45,
+      "phi_rad": 0,
+      "literal_Stokes": [
+        0.33333333333333337,
+        -0.9428090415820635,
+        0.0
+      ],
+      "photon_Jones_Stokes": [
+        0.33333333333333337,
+        0.9428090415820634,
+        0.0
+      ],
+      "residual_I_Q_Uopposite_V": [
+        6.661338147750939e-16,
+        0.0,
+        -1.1102230246251565e-16,
+        0.0
+      ],
+      "relative_K45_over_K135_literal": 4.3841505406298555,
+      "relative_K45_over_K135_Jones": 0.2280943573293297
+    },
+    {
+      "helper": "old",
+      "theta_deg": 45,
+      "phi_rad": 0.37,
+      "literal_Stokes": [
+        0.8227073674106691,
+        -0.5684651155596157,
+        0.0
+      ],
+      "photon_Jones_Stokes": [
+        0.8227073674106687,
+        0.5684651155596154,
+        0.0
+      ],
+      "residual_I_Q_Uopposite_V": [
+        0.0,
+        3.3306690738754696e-16,
+        -2.220446049250313e-16,
+        0.0
+      ],
+      "relative_K45_over_K135_literal": 2.2204913096756838,
+      "relative_K45_over_K135_Jones": 0.45035078301930237
+    },
+    {
+      "helper": "old",
+      "theta_deg": 90,
+      "phi_rad": 0,
+      "literal_Stokes": [
+        1.0000000000000002,
+        -1.1102230246251568e-16,
+        0.0
+      ],
+      "photon_Jones_Stokes": [
+        1.0,
+        3.213435093832951e-16,
+        0.0
+      ],
+      "residual_I_Q_Uopposite_V": [
+        0.0,
+        2.220446049250313e-16,
+        2.103212069207794e-16,
+        0.0
+      ],
+      "relative_K45_over_K135_literal": 1.0000000000000002,
+      "relative_K45_over_K135_Jones": 0.9999999999999997
+    },
+    {
+      "helper": "old",
+      "theta_deg": 90,
+      "phi_rad": 0.37,
+      "literal_Stokes": [
+        1.0000000000000004,
+        -3.315508094260596e-17,
+        0.0
+      ],
+      "photon_Jones_Stokes": [
+        1.0,
+        1.241722257558115e-16,
+        0.0
+      ],
+      "residual_I_Q_Uopposite_V": [
+        0.0,
+        4.440892098500626e-16,
+        9.101714481320555e-17,
+        0.0
+      ],
+      "relative_K45_over_K135_literal": 1.0,
+      "relative_K45_over_K135_Jones": 0.9999999999999997
+    },
+    {
+      "helper": "old",
+      "theta_deg": 131.4,
+      "phi_rad": 0,
+      "literal_Stokes": [
+        0.3914656288873463,
+        0.9201927305732397,
+        0.0
+      ],
+      "photon_Jones_Stokes": [
+        0.39146562888734626,
+        -0.9201927305732396,
+        0.0
+      ],
+      "residual_I_Q_Uopposite_V": [
+        0.0,
+        5.551115123125783e-17,
+        1.1102230246251565e-16,
+        0.0
+      ],
+      "relative_K45_over_K135_literal": 0.23957070116867463,
+      "relative_K45_over_K135_Jones": 4.174133126971688
+    },
+    {
+      "helper": "old",
+      "theta_deg": 131.4,
+      "phi_rad": 0.37,
+      "literal_Stokes": [
+        0.8431857685642009,
+        0.5376223206776284,
+        0.0
+      ],
+      "photon_Jones_Stokes": [
+        0.8431857685642007,
+        -0.5376223206776279,
+        0.0
+      ],
+      "residual_I_Q_Uopposite_V": [
+        -6.661338147750939e-16,
+        2.220446049250313e-16,
+        4.440892098500626e-16,
+        0.0
+      ],
+      "relative_K45_over_K135_literal": 0.4723042487099989,
+      "relative_K45_over_K135_Jones": 2.117279280741793
+    },
+    {
+      "helper": "sdk",
+      "theta_deg": 23.4,
+      "phi_rad": 0,
+      "literal_Stokes": [
+        0.08561510682377381,
+        -0.9963282859999278,
+        0.0
+      ],
+      "photon_Jones_Stokes": [
+        0.08561510682377364,
+        0.9963282859999277,
+        0.0
+      ],
+      "residual_I_Q_Uopposite_V": [
+        4.440892098500626e-16,
+        1.6653345369377348e-16,
+        -1.1102230246251565e-16,
+        0.0
+      ],
+      "relative_K45_over_K135_literal": 4.956260628921421,
+      "relative_K45_over_K135_Jones": 0.20176501497210805
+    },
+    {
+      "helper": "sdk",
+      "theta_deg": 23.4,
+      "phi_rad": 0.37,
+      "literal_Stokes": [
+        0.7184286826543609,
+        -0.6956006238780412,
+        0.0
+      ],
+      "photon_Jones_Stokes": [
+        0.7184286826543606,
+        0.6956006238780411,
+        0.0
+      ],
+      "residual_I_Q_Uopposite_V": [
+        -2.220446049250313e-16,
+        3.3306690738754696e-16,
+        -1.1102230246251565e-16,
+        0.0
+      ],
+      "relative_K45_over_K135_literal": 2.729490709531774,
+      "relative_K45_over_K135_Jones": 0.366368713587431
+    },
+    {
+      "helper": "sdk",
+      "theta_deg": 45,
+      "phi_rad": 0,
+      "literal_Stokes": [
+        0.33333333333333337,
+        -0.9428090415820635,
+        0.0
+      ],
+      "photon_Jones_Stokes": [
+        0.33333333333333337,
+        0.9428090415820634,
+        0.0
+      ],
+      "residual_I_Q_Uopposite_V": [
+        6.661338147750939e-16,
+        0.0,
+        -1.1102230246251565e-16,
+        0.0
+      ],
+      "relative_K45_over_K135_literal": 4.3841505406298555,
+      "relative_K45_over_K135_Jones": 0.2280943573293297
+    },
+    {
+      "helper": "sdk",
+      "theta_deg": 45,
+      "phi_rad": 0.37,
+      "literal_Stokes": [
+        0.8227073674106691,
+        -0.5684651155596157,
+        0.0
+      ],
+      "photon_Jones_Stokes": [
+        0.8227073674106687,
+        0.5684651155596154,
+        0.0
+      ],
+      "residual_I_Q_Uopposite_V": [
+        0.0,
+        3.3306690738754696e-16,
+        -2.220446049250313e-16,
+        0.0
+      ],
+      "relative_K45_over_K135_literal": 2.2204913096756838,
+      "relative_K45_over_K135_Jones": 0.45035078301930237
+    },
+    {
+      "helper": "sdk",
+      "theta_deg": 90,
+      "phi_rad": 0,
+      "literal_Stokes": [
+        1.0000000000000002,
+        -1.1102230246251568e-16,
+        0.0
+      ],
+      "photon_Jones_Stokes": [
+        1.0,
+        3.213435093832951e-16,
+        0.0
+      ],
+      "residual_I_Q_Uopposite_V": [
+        0.0,
+        2.220446049250313e-16,
+        2.103212069207794e-16,
+        0.0
+      ],
+      "relative_K45_over_K135_literal": 1.0000000000000002,
+      "relative_K45_over_K135_Jones": 0.9999999999999997
+    },
+    {
+      "helper": "sdk",
+      "theta_deg": 90,
+      "phi_rad": 0.37,
+      "literal_Stokes": [
+        1.0000000000000004,
+        -3.315508094260596e-17,
+        0.0
+      ],
+      "photon_Jones_Stokes": [
+        1.0,
+        1.241722257558115e-16,
+        0.0
+      ],
+      "residual_I_Q_Uopposite_V": [
+        0.0,
+        4.440892098500626e-16,
+        9.101714481320555e-17,
+        0.0
+      ],
+      "relative_K45_over_K135_literal": 1.0,
+      "relative_K45_over_K135_Jones": 0.9999999999999997
+    },
+    {
+      "helper": "sdk",
+      "theta_deg": 131.4,
+      "phi_rad": 0,
+      "literal_Stokes": [
+        0.3914656288873463,
+        0.9201927305732397,
+        0.0
+      ],
+      "photon_Jones_Stokes": [
+        0.39146562888734626,
+        -0.9201927305732396,
+        0.0
+      ],
+      "residual_I_Q_Uopposite_V": [
+        0.0,
+        5.551115123125783e-17,
+        1.1102230246251565e-16,
+        0.0
+      ],
+      "relative_K45_over_K135_literal": 0.23957070116867463,
+      "relative_K45_over_K135_Jones": 4.174133126971688
+    },
+    {
+      "helper": "sdk",
+      "theta_deg": 131.4,
+      "phi_rad": 0.37,
+      "literal_Stokes": [
+        0.8431857685642009,
+        0.5376223206776284,
+        0.0
+      ],
+      "photon_Jones_Stokes": [
+        0.8431857685642007,
+        -0.5376223206776279,
+        0.0
+      ],
+      "residual_I_Q_Uopposite_V": [
+        -6.661338147750939e-16,
+        2.220446049250313e-16,
+        4.440892098500626e-16,
+        0.0
+      ],
+      "relative_K45_over_K135_literal": 0.4723042487099989,
+      "relative_K45_over_K135_Jones": 2.117279280741793
+    }
+  ],
+  "max_contract_residual": 6.661338147750939e-16,
+  "analytical_forward_Jones_U": 1.0,
+  "original_core_finite_and_zeroCGproblem_absent": true,
+  "U_is_opposite_in_frozen_eTheta_ePhi_Jones_contract": true,
+  "only_U_attribution_scope": "selected coherent state + fixed code and G4consumer convention, not the original experiment",
+  "detector_response_or_real_KN_count_measurement": false
+}

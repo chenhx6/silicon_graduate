@@ -1,0 +1,7065 @@
+{
+  "identity": "UCGRETINA-SAME-POL-ANGLE-KERNEL-COMPARISON-01",
+  "input_sha256": "ec23b2165eabb4b1f68296280beab1f27890b36f743be5542b1b79f115ebd7a2",
+  "script_sha256": "6c7bee54ac0f686ecdcea39001b8e0c108a9863990ca968cb669bd5bac3779ae",
+  "old_Legendre_extract_sha256": "31852a3e442d0d4e8ffb1f2fdfdccbe703d109d8446a3abeb7e31cd8f7124dda",
+  "build": {
+    "cmd": [
+      "g++",
+      "-O0",
+      "-fno-fast-math",
+      "-shared",
+      "-fPIC",
+      "-DG4VIS_USE_OPENGL",
+      "-DG4UI_USE_TCSH",
+      "-DG4VIS_USE_OPENGLX",
+      "-DG4VIS_USE_TOOLSSG_X11_GLES",
+      "-W",
+      "-Wall",
+      "-pedantic",
+      "-Wno-non-virtual-dtor",
+      "-Wno-long-long",
+      "-Wwrite-strings",
+      "-Wpointer-arith",
+      "-Woverloaded-virtual",
+      "-Wno-variadic-macros",
+      "-Wshadow",
+      "-pipe",
+      "-pthread",
+      "-ftls-model=initial-exec",
+      "-std=c++17",
+      "-I/opt/geant4/11.4.2/include/Geant4",
+      "tmp/day16-ucgretina/build-legendre-compare/old-associated.cc",
+      "-o",
+      "tmp/day16-ucgretina/build-legendre-compare/old-associated.so",
+      "-L/opt/geant4/11.4.2/lib",
+      "-lG4OpenGL",
+      "-lG4Tree",
+      "-lG4FR",
+      "-lG4GMocren",
+      "-lG4RayTracer",
+      "-lG4VRML",
+      "-lG4ToolsSG",
+      "-lG4vis_management",
+      "-lG4modeling",
+      "-lG4gdml",
+      "-lG4interfaces",
+      "-lG4geomtext",
+      "-lG4mctruth",
+      "-lG4analysis",
+      "-lG4error_propagation",
+      "-lG4readout",
+      "-lG4physicslists",
+      "-lG4run",
+      "-lG4event",
+      "-lG4tracking",
+      "-lG4parmodels",
+      "-lG4processes_hadronic",
+      "-lG4processes_core",
+      "-lG4digits_hits",
+      "-lG4track",
+      "-lG4particles",
+      "-lG4geometry",
+      "-lG4materials",
+      "-lG4graphics_reps",
+      "-lG4intercoms",
+      "-lG4global",
+      "-lG4clhep",
+      "-lG4ptl",
+      "-Wl,-rpath,/opt/geant4/11.4.2/lib"
+    ],
+    "exit_code": 0,
+    "stderr": "",
+    "so_sha256": "b02fea6f684fbe1ca4be84e264a15db38ca5127df378661586fd4f385e4aa28b"
+  },
+  "max_Pnorm_dq0_error": 5.446716413105935e-15,
+  "max_d_transposition_identity_error": 4.260480856999038e-15,
+  "general_case_summary": {
+    "rotatedMorseE2": {
+      "max_I_IT_same_tensor_error": 0.5999576663362229,
+      "max_I_official_sampler_error": 1.3322676295501878e-15,
+      "max_diagnostic_IQUV_residual": [
+        1.5543122344752192e-15,
+        6.661338147750939e-16,
+        1.3790551863713216,
+        1.340550892894119e-16
+      ]
+    },
+    "orientedM1": {
+      "max_I_IT_same_tensor_error": 1.1102230246251565e-15,
+      "max_I_official_sampler_error": 1.1102230246251565e-15,
+      "max_diagnostic_IQUV_residual": [
+        1.1102230246251565e-15,
+        2.498001805406602e-16,
+        8.71967124502158e-17,
+        8.881784197001252e-16
+      ]
+    },
+    "coherentSpin1mixed": {
+      "max_I_IT_same_tensor_error": 0.737488886941965,
+      "max_I_official_sampler_error": 6.661338147750939e-16,
+      "max_diagnostic_IQUV_residual": [
+        5.551115123125783e-16,
+        2.3592239273284576e-16,
+        0.3986875391486776,
+        1.6653345369377348e-16
+      ]
+    },
+    "PSDSpin2mixed": {
+      "max_I_IT_same_tensor_error": 0.6686813723369817,
+      "max_I_official_sampler_error": 8.881784197001252e-16,
+      "max_diagnostic_IQUV_residual": [
+        6.661338147750939e-16,
+        4.510281037539698e-16,
+        0.4053880480225271,
+        6.661338147750939e-16
+      ]
+    },
+    "PSDSpin2electric": {
+      "max_I_IT_same_tensor_error": 0.6686813723369817,
+      "max_I_official_sampler_error": 8.881784197001252e-16,
+      "max_diagnostic_IQUV_residual": [
+        6.661338147750939e-16,
+        4.510281037539698e-16,
+        0.4053880480225271,
+        7.771561172376096e-16
+      ]
+    },
+    "PSDhalfSpinMixed": {
+      "max_I_IT_same_tensor_error": 0.4841151424579353,
+      "max_I_official_sampler_error": 6.661338147750939e-16,
+      "max_diagnostic_IQUV_residual": [
+        6.661338147750939e-16,
+        3.191891195797325e-16,
+        0.27604032412140256,
+        6.661338147750939e-16
+      ]
+    }
+  },
+  "identity_rows": [
+    {
+      "rank": 0,
+      "q": 0,
+      "theta_deg": 17.3,
+      "helper": "old",
+      "Pnorm_minus_d_q0": 0.0,
+      "d_q0_minus_phase_d_0q": 0.0
+    },
+    {
+      "rank": 0,
+      "q": 0,
+      "theta_deg": 17.3,
+      "helper": "sdk",
+      "Pnorm_minus_d_q0": 0.0,
+      "d_q0_minus_phase_d_0q": 0.0
+    },
+    {
+      "rank": 0,
+      "q": 0,
+      "theta_deg": 45,
+      "helper": "old",
+      "Pnorm_minus_d_q0": 0.0,
+      "d_q0_minus_phase_d_0q": 0.0
+    },
+    {
+      "rank": 0,
+      "q": 0,
+      "theta_deg": 45,
+      "helper": "sdk",
+      "Pnorm_minus_d_q0": 0.0,
+      "d_q0_minus_phase_d_0q": 0.0
+    },
+    {
+      "rank": 0,
+      "q": 0,
+      "theta_deg": 90,
+      "helper": "old",
+      "Pnorm_minus_d_q0": 0.0,
+      "d_q0_minus_phase_d_0q": 0.0
+    },
+    {
+      "rank": 0,
+      "q": 0,
+      "theta_deg": 90,
+      "helper": "sdk",
+      "Pnorm_minus_d_q0": 0.0,
+      "d_q0_minus_phase_d_0q": 0.0
+    },
+    {
+      "rank": 0,
+      "q": 0,
+      "theta_deg": 138.2,
+      "helper": "old",
+      "Pnorm_minus_d_q0": 0.0,
+      "d_q0_minus_phase_d_0q": 0.0
+    },
+    {
+      "rank": 0,
+      "q": 0,
+      "theta_deg": 138.2,
+      "helper": "sdk",
+      "Pnorm_minus_d_q0": 0.0,
+      "d_q0_minus_phase_d_0q": 0.0
+    },
+    {
+      "rank": 0,
+      "q": 0,
+      "theta_deg": 167.7,
+      "helper": "old",
+      "Pnorm_minus_d_q0": 0.0,
+      "d_q0_minus_phase_d_0q": 0.0
+    },
+    {
+      "rank": 0,
+      "q": 0,
+      "theta_deg": 167.7,
+      "helper": "sdk",
+      "Pnorm_minus_d_q0": 0.0,
+      "d_q0_minus_phase_d_0q": 0.0
+    },
+    {
+      "rank": 1,
+      "q": 0,
+      "theta_deg": 17.3,
+      "helper": "old",
+      "Pnorm_minus_d_q0": -1.1102230246251565e-16,
+      "d_q0_minus_phase_d_0q": 0.0
+    },
+    {
+      "rank": 1,
+      "q": 0,
+      "theta_deg": 17.3,
+      "helper": "sdk",
+      "Pnorm_minus_d_q0": -1.1102230246251565e-16,
+      "d_q0_minus_phase_d_0q": 0.0
+    },
+    {
+      "rank": 1,
+      "q": 0,
+      "theta_deg": 45,
+      "helper": "old",
+      "Pnorm_minus_d_q0": 1.1102230246251565e-16,
+      "d_q0_minus_phase_d_0q": 0.0
+    },
+    {
+      "rank": 1,
+      "q": 0,
+      "theta_deg": 45,
+      "helper": "sdk",
+      "Pnorm_minus_d_q0": 1.1102230246251565e-16,
+      "d_q0_minus_phase_d_0q": 0.0
+    },
+    {
+      "rank": 1,
+      "q": 0,
+      "theta_deg": 90,
+      "helper": "old",
+      "Pnorm_minus_d_q0": 5.721188726109833e-18,
+      "d_q0_minus_phase_d_0q": 0.0
+    },
+    {
+      "rank": 1,
+      "q": 0,
+      "theta_deg": 90,
+      "helper": "sdk",
+      "Pnorm_minus_d_q0": 5.721188726109833e-18,
+      "d_q0_minus_phase_d_0q": 0.0
+    },
+    {
+      "rank": 1,
+      "q": 0,
+      "theta_deg": 138.2,
+      "helper": "old",
+      "Pnorm_minus_d_q0": -1.1102230246251565e-16,
+      "d_q0_minus_phase_d_0q": 0.0
+    },
+    {
+      "rank": 1,
+      "q": 0,
+      "theta_deg": 138.2,
+      "helper": "sdk",
+      "Pnorm_minus_d_q0": -1.1102230246251565e-16,
+      "d_q0_minus_phase_d_0q": 0.0
+    },
+    {
+      "rank": 1,
+      "q": 0,
+      "theta_deg": 167.7,
+      "helper": "old",
+      "Pnorm_minus_d_q0": 1.1102230246251565e-16,
+      "d_q0_minus_phase_d_0q": 0.0
+    },
+    {
+      "rank": 1,
+      "q": 0,
+      "theta_deg": 167.7,
+      "helper": "sdk",
+      "Pnorm_minus_d_q0": 1.1102230246251565e-16,
+      "d_q0_minus_phase_d_0q": 0.0
+    },
+    {
+      "rank": 1,
+      "q": 1,
+      "theta_deg": 17.3,
+      "helper": "old",
+      "Pnorm_minus_d_q0": -5.551115123125783e-17,
+      "d_q0_minus_phase_d_0q": 0.0
+    },
+    {
+      "rank": 1,
+      "q": 1,
+      "theta_deg": 17.3,
+      "helper": "sdk",
+      "Pnorm_minus_d_q0": -5.551115123125783e-17,
+      "d_q0_minus_phase_d_0q": 0.0
+    },
+    {
+      "rank": 1,
+      "q": 1,
+      "theta_deg": 45,
+      "helper": "old",
+      "Pnorm_minus_d_q0": -5.551115123125783e-17,
+      "d_q0_minus_phase_d_0q": 0.0
+    },
+    {
+      "rank": 1,
+      "q": 1,
+      "theta_deg": 45,
+      "helper": "sdk",
+      "Pnorm_minus_d_q0": -5.551115123125783e-17,
+      "d_q0_minus_phase_d_0q": 0.0
+    },
+    {
+      "rank": 1,
+      "q": 1,
+      "theta_deg": 90,
+      "helper": "old",
+      "Pnorm_minus_d_q0": -1.1102230246251565e-16,
+      "d_q0_minus_phase_d_0q": 0.0
+    },
+    {
+      "rank": 1,
+      "q": 1,
+      "theta_deg": 90,
+      "helper": "sdk",
+      "Pnorm_minus_d_q0": -1.1102230246251565e-16,
+      "d_q0_minus_phase_d_0q": 0.0
+    },
+    {
+      "rank": 1,
+      "q": 1,
+      "theta_deg": 138.2,
+      "helper": "old",
+      "Pnorm_minus_d_q0": 5.551115123125783e-17,
+      "d_q0_minus_phase_d_0q": 0.0
+    },
+    {
+      "rank": 1,
+      "q": 1,
+      "theta_deg": 138.2,
+      "helper": "sdk",
+      "Pnorm_minus_d_q0": 5.551115123125783e-17,
+      "d_q0_minus_phase_d_0q": 0.0
+    },
+    {
+      "rank": 1,
+      "q": 1,
+      "theta_deg": 167.7,
+      "helper": "old",
+      "Pnorm_minus_d_q0": 2.7755575615628914e-17,
+      "d_q0_minus_phase_d_0q": 0.0
+    },
+    {
+      "rank": 1,
+      "q": 1,
+      "theta_deg": 167.7,
+      "helper": "sdk",
+      "Pnorm_minus_d_q0": 2.7755575615628914e-17,
+      "d_q0_minus_phase_d_0q": 0.0
+    },
+    {
+      "rank": 2,
+      "q": 0,
+      "theta_deg": 17.3,
+      "helper": "old",
+      "Pnorm_minus_d_q0": -2.220446049250313e-16,
+      "d_q0_minus_phase_d_0q": 0.0
+    },
+    {
+      "rank": 2,
+      "q": 0,
+      "theta_deg": 17.3,
+      "helper": "sdk",
+      "Pnorm_minus_d_q0": -2.220446049250313e-16,
+      "d_q0_minus_phase_d_0q": 0.0
+    },
+    {
+      "rank": 2,
+      "q": 0,
+      "theta_deg": 45,
+      "helper": "old",
+      "Pnorm_minus_d_q0": 1.1102230246251565e-16,
+      "d_q0_minus_phase_d_0q": 0.0
+    },
+    {
+      "rank": 2,
+      "q": 0,
+      "theta_deg": 45,
+      "helper": "sdk",
+      "Pnorm_minus_d_q0": 1.1102230246251565e-16,
+      "d_q0_minus_phase_d_0q": 0.0
+    },
+    {
+      "rank": 2,
+      "q": 0,
+      "theta_deg": 90,
+      "helper": "old",
+      "Pnorm_minus_d_q0": -1.6653345369377348e-16,
+      "d_q0_minus_phase_d_0q": 0.0
+    },
+    {
+      "rank": 2,
+      "q": 0,
+      "theta_deg": 90,
+      "helper": "sdk",
+      "Pnorm_minus_d_q0": -1.6653345369377348e-16,
+      "d_q0_minus_phase_d_0q": 0.0
+    },
+    {
+      "rank": 2,
+      "q": 0,
+      "theta_deg": 138.2,
+      "helper": "old",
+      "Pnorm_minus_d_q0": 2.220446049250313e-16,
+      "d_q0_minus_phase_d_0q": 0.0
+    },
+    {
+      "rank": 2,
+      "q": 0,
+      "theta_deg": 138.2,
+      "helper": "sdk",
+      "Pnorm_minus_d_q0": 2.220446049250313e-16,
+      "d_q0_minus_phase_d_0q": 0.0
+    },
+    {
+      "rank": 2,
+      "q": 0,
+      "theta_deg": 167.7,
+      "helper": "old",
+      "Pnorm_minus_d_q0": 0.0,
+      "d_q0_minus_phase_d_0q": 0.0
+    },
+    {
+      "rank": 2,
+      "q": 0,
+      "theta_deg": 167.7,
+      "helper": "sdk",
+      "Pnorm_minus_d_q0": 0.0,
+      "d_q0_minus_phase_d_0q": 0.0
+    },
+    {
+      "rank": 2,
+      "q": 1,
+      "theta_deg": 17.3,
+      "helper": "old",
+      "Pnorm_minus_d_q0": 0.0,
+      "d_q0_minus_phase_d_0q": 0.0
+    },
+    {
+      "rank": 2,
+      "q": 1,
+      "theta_deg": 17.3,
+      "helper": "sdk",
+      "Pnorm_minus_d_q0": 0.0,
+      "d_q0_minus_phase_d_0q": 0.0
+    },
+    {
+      "rank": 2,
+      "q": 1,
+      "theta_deg": 45,
+      "helper": "old",
+      "Pnorm_minus_d_q0": 0.0,
+      "d_q0_minus_phase_d_0q": -1.1102230246251565e-16
+    },
+    {
+      "rank": 2,
+      "q": 1,
+      "theta_deg": 45,
+      "helper": "sdk",
+      "Pnorm_minus_d_q0": 0.0,
+      "d_q0_minus_phase_d_0q": -1.1102230246251565e-16
+    },
+    {
+      "rank": 2,
+      "q": 1,
+      "theta_deg": 90,
+      "helper": "old",
+      "Pnorm_minus_d_q0": 3.6028308136423347e-17,
+      "d_q0_minus_phase_d_0q": 0.0
+    },
+    {
+      "rank": 2,
+      "q": 1,
+      "theta_deg": 90,
+      "helper": "sdk",
+      "Pnorm_minus_d_q0": 3.6028308136423347e-17,
+      "d_q0_minus_phase_d_0q": 0.0
+    },
+    {
+      "rank": 2,
+      "q": 1,
+      "theta_deg": 138.2,
+      "helper": "old",
+      "Pnorm_minus_d_q0": -1.1102230246251565e-16,
+      "d_q0_minus_phase_d_0q": 1.1102230246251565e-16
+    },
+    {
+      "rank": 2,
+      "q": 1,
+      "theta_deg": 138.2,
+      "helper": "sdk",
+      "Pnorm_minus_d_q0": -1.1102230246251565e-16,
+      "d_q0_minus_phase_d_0q": 1.1102230246251565e-16
+    },
+    {
+      "rank": 2,
+      "q": 1,
+      "theta_deg": 167.7,
+      "helper": "old",
+      "Pnorm_minus_d_q0": -1.6653345369377348e-16,
+      "d_q0_minus_phase_d_0q": 1.1102230246251565e-16
+    },
+    {
+      "rank": 2,
+      "q": 1,
+      "theta_deg": 167.7,
+      "helper": "sdk",
+      "Pnorm_minus_d_q0": -1.6653345369377348e-16,
+      "d_q0_minus_phase_d_0q": 1.1102230246251565e-16
+    },
+    {
+      "rank": 2,
+      "q": 2,
+      "theta_deg": 17.3,
+      "helper": "old",
+      "Pnorm_minus_d_q0": 4.163336342344337e-17,
+      "d_q0_minus_phase_d_0q": 0.0
+    },
+    {
+      "rank": 2,
+      "q": 2,
+      "theta_deg": 17.3,
+      "helper": "sdk",
+      "Pnorm_minus_d_q0": 4.163336342344337e-17,
+      "d_q0_minus_phase_d_0q": 0.0
+    },
+    {
+      "rank": 2,
+      "q": 2,
+      "theta_deg": 45,
+      "helper": "old",
+      "Pnorm_minus_d_q0": 0.0,
+      "d_q0_minus_phase_d_0q": 0.0
+    },
+    {
+      "rank": 2,
+      "q": 2,
+      "theta_deg": 45,
+      "helper": "sdk",
+      "Pnorm_minus_d_q0": 0.0,
+      "d_q0_minus_phase_d_0q": 0.0
+    },
+    {
+      "rank": 2,
+      "q": 2,
+      "theta_deg": 90,
+      "helper": "old",
+      "Pnorm_minus_d_q0": 0.0,
+      "d_q0_minus_phase_d_0q": 0.0
+    },
+    {
+      "rank": 2,
+      "q": 2,
+      "theta_deg": 90,
+      "helper": "sdk",
+      "Pnorm_minus_d_q0": 0.0,
+      "d_q0_minus_phase_d_0q": 0.0
+    },
+    {
+      "rank": 2,
+      "q": 2,
+      "theta_deg": 138.2,
+      "helper": "old",
+      "Pnorm_minus_d_q0": -5.551115123125783e-17,
+      "d_q0_minus_phase_d_0q": 0.0
+    },
+    {
+      "rank": 2,
+      "q": 2,
+      "theta_deg": 138.2,
+      "helper": "sdk",
+      "Pnorm_minus_d_q0": -5.551115123125783e-17,
+      "d_q0_minus_phase_d_0q": 0.0
+    },
+    {
+      "rank": 2,
+      "q": 2,
+      "theta_deg": 167.7,
+      "helper": "old",
+      "Pnorm_minus_d_q0": -6.938893903907228e-18,
+      "d_q0_minus_phase_d_0q": 0.0
+    },
+    {
+      "rank": 2,
+      "q": 2,
+      "theta_deg": 167.7,
+      "helper": "sdk",
+      "Pnorm_minus_d_q0": -6.938893903907228e-18,
+      "d_q0_minus_phase_d_0q": 0.0
+    },
+    {
+      "rank": 3,
+      "q": 0,
+      "theta_deg": 17.3,
+      "helper": "old",
+      "Pnorm_minus_d_q0": -5.551115123125783e-16,
+      "d_q0_minus_phase_d_0q": 0.0
+    },
+    {
+      "rank": 3,
+      "q": 0,
+      "theta_deg": 17.3,
+      "helper": "sdk",
+      "Pnorm_minus_d_q0": -5.551115123125783e-16,
+      "d_q0_minus_phase_d_0q": 0.0
+    },
+    {
+      "rank": 3,
+      "q": 0,
+      "theta_deg": 45,
+      "helper": "old",
+      "Pnorm_minus_d_q0": -2.498001805406602e-16,
+      "d_q0_minus_phase_d_0q": 0.0
+    },
+    {
+      "rank": 3,
+      "q": 0,
+      "theta_deg": 45,
+      "helper": "sdk",
+      "Pnorm_minus_d_q0": -2.498001805406602e-16,
+      "d_q0_minus_phase_d_0q": 0.0
+    },
+    {
+      "rank": 3,
+      "q": 0,
+      "theta_deg": 90,
+      "helper": "old",
+      "Pnorm_minus_d_q0": -1.196040855516804e-16,
+      "d_q0_minus_phase_d_0q": 0.0
+    },
+    {
+      "rank": 3,
+      "q": 0,
+      "theta_deg": 90,
+      "helper": "sdk",
+      "Pnorm_minus_d_q0": -1.196040855516804e-16,
+      "d_q0_minus_phase_d_0q": 0.0
+    },
+    {
+      "rank": 3,
+      "q": 0,
+      "theta_deg": 138.2,
+      "helper": "old",
+      "Pnorm_minus_d_q0": 2.220446049250313e-16,
+      "d_q0_minus_phase_d_0q": 0.0
+    },
+    {
+      "rank": 3,
+      "q": 0,
+      "theta_deg": 138.2,
+      "helper": "sdk",
+      "Pnorm_minus_d_q0": 2.220446049250313e-16,
+      "d_q0_minus_phase_d_0q": 0.0
+    },
+    {
+      "rank": 3,
+      "q": 0,
+      "theta_deg": 167.7,
+      "helper": "old",
+      "Pnorm_minus_d_q0": 0.0,
+      "d_q0_minus_phase_d_0q": 0.0
+    },
+    {
+      "rank": 3,
+      "q": 0,
+      "theta_deg": 167.7,
+      "helper": "sdk",
+      "Pnorm_minus_d_q0": 0.0,
+      "d_q0_minus_phase_d_0q": 0.0
+    },
+    {
+      "rank": 3,
+      "q": 1,
+      "theta_deg": 17.3,
+      "helper": "old",
+      "Pnorm_minus_d_q0": -3.3306690738754696e-16,
+      "d_q0_minus_phase_d_0q": 1.6653345369377348e-16
+    },
+    {
+      "rank": 3,
+      "q": 1,
+      "theta_deg": 17.3,
+      "helper": "sdk",
+      "Pnorm_minus_d_q0": -3.3306690738754696e-16,
+      "d_q0_minus_phase_d_0q": 1.6653345369377348e-16
+    },
+    {
+      "rank": 3,
+      "q": 1,
+      "theta_deg": 45,
+      "helper": "old",
+      "Pnorm_minus_d_q0": -2.220446049250313e-16,
+      "d_q0_minus_phase_d_0q": -5.551115123125783e-17
+    },
+    {
+      "rank": 3,
+      "q": 1,
+      "theta_deg": 45,
+      "helper": "sdk",
+      "Pnorm_minus_d_q0": -2.220446049250313e-16,
+      "d_q0_minus_phase_d_0q": -5.551115123125783e-17
+    },
+    {
+      "rank": 3,
+      "q": 1,
+      "theta_deg": 90,
+      "helper": "old",
+      "Pnorm_minus_d_q0": 5.551115123125783e-16,
+      "d_q0_minus_phase_d_0q": -7.216449660063518e-16
+    },
+    {
+      "rank": 3,
+      "q": 1,
+      "theta_deg": 90,
+      "helper": "sdk",
+      "Pnorm_minus_d_q0": 5.551115123125783e-16,
+      "d_q0_minus_phase_d_0q": -7.216449660063518e-16
+    },
+    {
+      "rank": 3,
+      "q": 1,
+      "theta_deg": 138.2,
+      "helper": "old",
+      "Pnorm_minus_d_q0": -5.551115123125783e-16,
+      "d_q0_minus_phase_d_0q": 0.0
+    },
+    {
+      "rank": 3,
+      "q": 1,
+      "theta_deg": 138.2,
+      "helper": "sdk",
+      "Pnorm_minus_d_q0": -5.551115123125783e-16,
+      "d_q0_minus_phase_d_0q": 0.0
+    },
+    {
+      "rank": 3,
+      "q": 1,
+      "theta_deg": 167.7,
+      "helper": "old",
+      "Pnorm_minus_d_q0": -5.551115123125783e-17,
+      "d_q0_minus_phase_d_0q": 1.6653345369377348e-16
+    },
+    {
+      "rank": 3,
+      "q": 1,
+      "theta_deg": 167.7,
+      "helper": "sdk",
+      "Pnorm_minus_d_q0": -5.551115123125783e-17,
+      "d_q0_minus_phase_d_0q": 1.6653345369377348e-16
+    },
+    {
+      "rank": 3,
+      "q": 2,
+      "theta_deg": 17.3,
+      "helper": "old",
+      "Pnorm_minus_d_q0": 4.163336342344337e-17,
+      "d_q0_minus_phase_d_0q": 0.0
+    },
+    {
+      "rank": 3,
+      "q": 2,
+      "theta_deg": 17.3,
+      "helper": "sdk",
+      "Pnorm_minus_d_q0": 4.163336342344337e-17,
+      "d_q0_minus_phase_d_0q": 0.0
+    },
+    {
+      "rank": 3,
+      "q": 2,
+      "theta_deg": 45,
+      "helper": "old",
+      "Pnorm_minus_d_q0": 5.551115123125783e-17,
+      "d_q0_minus_phase_d_0q": 0.0
+    },
+    {
+      "rank": 3,
+      "q": 2,
+      "theta_deg": 45,
+      "helper": "sdk",
+      "Pnorm_minus_d_q0": 5.551115123125783e-17,
+      "d_q0_minus_phase_d_0q": 0.0
+    },
+    {
+      "rank": 3,
+      "q": 2,
+      "theta_deg": 90,
+      "helper": "old",
+      "Pnorm_minus_d_q0": 8.384583460868797e-17,
+      "d_q0_minus_phase_d_0q": 0.0
+    },
+    {
+      "rank": 3,
+      "q": 2,
+      "theta_deg": 90,
+      "helper": "sdk",
+      "Pnorm_minus_d_q0": 8.384583460868797e-17,
+      "d_q0_minus_phase_d_0q": 0.0
+    },
+    {
+      "rank": 3,
+      "q": 2,
+      "theta_deg": 138.2,
+      "helper": "old",
+      "Pnorm_minus_d_q0": -1.1102230246251565e-16,
+      "d_q0_minus_phase_d_0q": 0.0
+    },
+    {
+      "rank": 3,
+      "q": 2,
+      "theta_deg": 138.2,
+      "helper": "sdk",
+      "Pnorm_minus_d_q0": -1.1102230246251565e-16,
+      "d_q0_minus_phase_d_0q": 0.0
+    },
+    {
+      "rank": 3,
+      "q": 2,
+      "theta_deg": 167.7,
+      "helper": "old",
+      "Pnorm_minus_d_q0": 3.469446951953614e-17,
+      "d_q0_minus_phase_d_0q": 0.0
+    },
+    {
+      "rank": 3,
+      "q": 2,
+      "theta_deg": 167.7,
+      "helper": "sdk",
+      "Pnorm_minus_d_q0": 3.469446951953614e-17,
+      "d_q0_minus_phase_d_0q": 0.0
+    },
+    {
+      "rank": 3,
+      "q": 3,
+      "theta_deg": 17.3,
+      "helper": "old",
+      "Pnorm_minus_d_q0": -1.734723475976807e-17,
+      "d_q0_minus_phase_d_0q": 1.3877787807814457e-17
+    },
+    {
+      "rank": 3,
+      "q": 3,
+      "theta_deg": 17.3,
+      "helper": "sdk",
+      "Pnorm_minus_d_q0": -1.734723475976807e-17,
+      "d_q0_minus_phase_d_0q": 1.3877787807814457e-17
+    },
+    {
+      "rank": 3,
+      "q": 3,
+      "theta_deg": 45,
+      "helper": "old",
+      "Pnorm_minus_d_q0": -8.326672684688674e-17,
+      "d_q0_minus_phase_d_0q": 1.6653345369377348e-16
+    },
+    {
+      "rank": 3,
+      "q": 3,
+      "theta_deg": 45,
+      "helper": "sdk",
+      "Pnorm_minus_d_q0": -8.326672684688674e-17,
+      "d_q0_minus_phase_d_0q": 1.6653345369377348e-16
+    },
+    {
+      "rank": 3,
+      "q": 3,
+      "theta_deg": 90,
+      "helper": "old",
+      "Pnorm_minus_d_q0": -3.3306690738754696e-16,
+      "d_q0_minus_phase_d_0q": 4.440892098500626e-16
+    },
+    {
+      "rank": 3,
+      "q": 3,
+      "theta_deg": 90,
+      "helper": "sdk",
+      "Pnorm_minus_d_q0": -3.3306690738754696e-16,
+      "d_q0_minus_phase_d_0q": 4.440892098500626e-16
+    },
+    {
+      "rank": 3,
+      "q": 3,
+      "theta_deg": 138.2,
+      "helper": "old",
+      "Pnorm_minus_d_q0": 2.7755575615628914e-17,
+      "d_q0_minus_phase_d_0q": 1.3877787807814457e-16
+    },
+    {
+      "rank": 3,
+      "q": 3,
+      "theta_deg": 138.2,
+      "helper": "sdk",
+      "Pnorm_minus_d_q0": 2.7755575615628914e-17,
+      "d_q0_minus_phase_d_0q": 1.3877787807814457e-16
+    },
+    {
+      "rank": 3,
+      "q": 3,
+      "theta_deg": 167.7,
+      "helper": "old",
+      "Pnorm_minus_d_q0": -8.673617379884035e-19,
+      "d_q0_minus_phase_d_0q": 5.204170427930421e-18
+    },
+    {
+      "rank": 3,
+      "q": 3,
+      "theta_deg": 167.7,
+      "helper": "sdk",
+      "Pnorm_minus_d_q0": -8.673617379884035e-19,
+      "d_q0_minus_phase_d_0q": 5.204170427930421e-18
+    },
+    {
+      "rank": 4,
+      "q": 0,
+      "theta_deg": 17.3,
+      "helper": "old",
+      "Pnorm_minus_d_q0": -6.661338147750939e-16,
+      "d_q0_minus_phase_d_0q": 0.0
+    },
+    {
+      "rank": 4,
+      "q": 0,
+      "theta_deg": 17.3,
+      "helper": "sdk",
+      "Pnorm_minus_d_q0": -6.661338147750939e-16,
+      "d_q0_minus_phase_d_0q": 0.0
+    },
+    {
+      "rank": 4,
+      "q": 0,
+      "theta_deg": 45,
+      "helper": "old",
+      "Pnorm_minus_d_q0": -6.106226635438361e-16,
+      "d_q0_minus_phase_d_0q": 0.0
+    },
+    {
+      "rank": 4,
+      "q": 0,
+      "theta_deg": 45,
+      "helper": "sdk",
+      "Pnorm_minus_d_q0": -6.106226635438361e-16,
+      "d_q0_minus_phase_d_0q": 0.0
+    },
+    {
+      "rank": 4,
+      "q": 0,
+      "theta_deg": 90,
+      "helper": "old",
+      "Pnorm_minus_d_q0": 4.440892098500626e-16,
+      "d_q0_minus_phase_d_0q": 0.0
+    },
+    {
+      "rank": 4,
+      "q": 0,
+      "theta_deg": 90,
+      "helper": "sdk",
+      "Pnorm_minus_d_q0": 4.440892098500626e-16,
+      "d_q0_minus_phase_d_0q": 0.0
+    },
+    {
+      "rank": 4,
+      "q": 0,
+      "theta_deg": 138.2,
+      "helper": "old",
+      "Pnorm_minus_d_q0": -6.661338147750939e-16,
+      "d_q0_minus_phase_d_0q": 0.0
+    },
+    {
+      "rank": 4,
+      "q": 0,
+      "theta_deg": 138.2,
+      "helper": "sdk",
+      "Pnorm_minus_d_q0": -6.661338147750939e-16,
+      "d_q0_minus_phase_d_0q": 0.0
+    },
+    {
+      "rank": 4,
+      "q": 0,
+      "theta_deg": 167.7,
+      "helper": "old",
+      "Pnorm_minus_d_q0": -4.440892098500626e-16,
+      "d_q0_minus_phase_d_0q": 0.0
+    },
+    {
+      "rank": 4,
+      "q": 0,
+      "theta_deg": 167.7,
+      "helper": "sdk",
+      "Pnorm_minus_d_q0": -4.440892098500626e-16,
+      "d_q0_minus_phase_d_0q": 0.0
+    },
+    {
+      "rank": 4,
+      "q": 1,
+      "theta_deg": 17.3,
+      "helper": "old",
+      "Pnorm_minus_d_q0": 5.551115123125783e-16,
+      "d_q0_minus_phase_d_0q": -5.551115123125783e-16
+    },
+    {
+      "rank": 4,
+      "q": 1,
+      "theta_deg": 17.3,
+      "helper": "sdk",
+      "Pnorm_minus_d_q0": 5.551115123125783e-16,
+      "d_q0_minus_phase_d_0q": -5.551115123125783e-16
+    },
+    {
+      "rank": 4,
+      "q": 1,
+      "theta_deg": 45,
+      "helper": "old",
+      "Pnorm_minus_d_q0": 9.159339953157541e-16,
+      "d_q0_minus_phase_d_0q": 1.3877787807814457e-16
+    },
+    {
+      "rank": 4,
+      "q": 1,
+      "theta_deg": 45,
+      "helper": "sdk",
+      "Pnorm_minus_d_q0": 9.159339953157541e-16,
+      "d_q0_minus_phase_d_0q": 1.3877787807814457e-16
+    },
+    {
+      "rank": 4,
+      "q": 1,
+      "theta_deg": 90,
+      "helper": "old",
+      "Pnorm_minus_d_q0": 2.6922320961831145e-16,
+      "d_q0_minus_phase_d_0q": 9.43689570931383e-16
+    },
+    {
+      "rank": 4,
+      "q": 1,
+      "theta_deg": 90,
+      "helper": "sdk",
+      "Pnorm_minus_d_q0": 2.6922320961831145e-16,
+      "d_q0_minus_phase_d_0q": 9.43689570931383e-16
+    },
+    {
+      "rank": 4,
+      "q": 1,
+      "theta_deg": 138.2,
+      "helper": "old",
+      "Pnorm_minus_d_q0": -8.326672684688674e-16,
+      "d_q0_minus_phase_d_0q": 5.551115123125783e-16
+    },
+    {
+      "rank": 4,
+      "q": 1,
+      "theta_deg": 138.2,
+      "helper": "sdk",
+      "Pnorm_minus_d_q0": -8.326672684688674e-16,
+      "d_q0_minus_phase_d_0q": 5.551115123125783e-16
+    },
+    {
+      "rank": 4,
+      "q": 1,
+      "theta_deg": 167.7,
+      "helper": "old",
+      "Pnorm_minus_d_q0": -4.440892098500626e-16,
+      "d_q0_minus_phase_d_0q": 4.440892098500626e-16
+    },
+    {
+      "rank": 4,
+      "q": 1,
+      "theta_deg": 167.7,
+      "helper": "sdk",
+      "Pnorm_minus_d_q0": -4.440892098500626e-16,
+      "d_q0_minus_phase_d_0q": 4.440892098500626e-16
+    },
+    {
+      "rank": 4,
+      "q": 2,
+      "theta_deg": 17.3,
+      "helper": "old",
+      "Pnorm_minus_d_q0": 2.7755575615628914e-17,
+      "d_q0_minus_phase_d_0q": 0.0
+    },
+    {
+      "rank": 4,
+      "q": 2,
+      "theta_deg": 17.3,
+      "helper": "sdk",
+      "Pnorm_minus_d_q0": 2.7755575615628914e-17,
+      "d_q0_minus_phase_d_0q": 0.0
+    },
+    {
+      "rank": 4,
+      "q": 2,
+      "theta_deg": 45,
+      "helper": "old",
+      "Pnorm_minus_d_q0": 1.1102230246251565e-16,
+      "d_q0_minus_phase_d_0q": 0.0
+    },
+    {
+      "rank": 4,
+      "q": 2,
+      "theta_deg": 45,
+      "helper": "sdk",
+      "Pnorm_minus_d_q0": 1.1102230246251565e-16,
+      "d_q0_minus_phase_d_0q": 0.0
+    },
+    {
+      "rank": 4,
+      "q": 2,
+      "theta_deg": 90,
+      "helper": "old",
+      "Pnorm_minus_d_q0": -3.3306690738754696e-16,
+      "d_q0_minus_phase_d_0q": 0.0
+    },
+    {
+      "rank": 4,
+      "q": 2,
+      "theta_deg": 90,
+      "helper": "sdk",
+      "Pnorm_minus_d_q0": -3.3306690738754696e-16,
+      "d_q0_minus_phase_d_0q": 0.0
+    },
+    {
+      "rank": 4,
+      "q": 2,
+      "theta_deg": 138.2,
+      "helper": "old",
+      "Pnorm_minus_d_q0": 2.220446049250313e-16,
+      "d_q0_minus_phase_d_0q": 0.0
+    },
+    {
+      "rank": 4,
+      "q": 2,
+      "theta_deg": 138.2,
+      "helper": "sdk",
+      "Pnorm_minus_d_q0": 2.220446049250313e-16,
+      "d_q0_minus_phase_d_0q": 0.0
+    },
+    {
+      "rank": 4,
+      "q": 2,
+      "theta_deg": 167.7,
+      "helper": "old",
+      "Pnorm_minus_d_q0": -5.551115123125783e-17,
+      "d_q0_minus_phase_d_0q": 0.0
+    },
+    {
+      "rank": 4,
+      "q": 2,
+      "theta_deg": 167.7,
+      "helper": "sdk",
+      "Pnorm_minus_d_q0": -5.551115123125783e-17,
+      "d_q0_minus_phase_d_0q": 0.0
+    },
+    {
+      "rank": 4,
+      "q": 3,
+      "theta_deg": 17.3,
+      "helper": "old",
+      "Pnorm_minus_d_q0": 6.938893903907228e-18,
+      "d_q0_minus_phase_d_0q": 0.0
+    },
+    {
+      "rank": 4,
+      "q": 3,
+      "theta_deg": 17.3,
+      "helper": "sdk",
+      "Pnorm_minus_d_q0": 6.938893903907228e-18,
+      "d_q0_minus_phase_d_0q": 0.0
+    },
+    {
+      "rank": 4,
+      "q": 3,
+      "theta_deg": 45,
+      "helper": "old",
+      "Pnorm_minus_d_q0": 2.7755575615628914e-16,
+      "d_q0_minus_phase_d_0q": 0.0
+    },
+    {
+      "rank": 4,
+      "q": 3,
+      "theta_deg": 45,
+      "helper": "sdk",
+      "Pnorm_minus_d_q0": 2.7755575615628914e-16,
+      "d_q0_minus_phase_d_0q": 0.0
+    },
+    {
+      "rank": 4,
+      "q": 3,
+      "theta_deg": 90,
+      "helper": "old",
+      "Pnorm_minus_d_q0": -9.05638521234164e-17,
+      "d_q0_minus_phase_d_0q": 0.0
+    },
+    {
+      "rank": 4,
+      "q": 3,
+      "theta_deg": 90,
+      "helper": "sdk",
+      "Pnorm_minus_d_q0": -9.05638521234164e-17,
+      "d_q0_minus_phase_d_0q": 0.0
+    },
+    {
+      "rank": 4,
+      "q": 3,
+      "theta_deg": 138.2,
+      "helper": "old",
+      "Pnorm_minus_d_q0": -2.220446049250313e-16,
+      "d_q0_minus_phase_d_0q": 0.0
+    },
+    {
+      "rank": 4,
+      "q": 3,
+      "theta_deg": 138.2,
+      "helper": "sdk",
+      "Pnorm_minus_d_q0": -2.220446049250313e-16,
+      "d_q0_minus_phase_d_0q": 0.0
+    },
+    {
+      "rank": 4,
+      "q": 3,
+      "theta_deg": 167.7,
+      "helper": "old",
+      "Pnorm_minus_d_q0": -1.5612511283791264e-17,
+      "d_q0_minus_phase_d_0q": 0.0
+    },
+    {
+      "rank": 4,
+      "q": 3,
+      "theta_deg": 167.7,
+      "helper": "sdk",
+      "Pnorm_minus_d_q0": -1.5612511283791264e-17,
+      "d_q0_minus_phase_d_0q": 0.0
+    },
+    {
+      "rank": 4,
+      "q": 4,
+      "theta_deg": 17.3,
+      "helper": "old",
+      "Pnorm_minus_d_q0": 1.1275702593849246e-17,
+      "d_q0_minus_phase_d_0q": 0.0
+    },
+    {
+      "rank": 4,
+      "q": 4,
+      "theta_deg": 17.3,
+      "helper": "sdk",
+      "Pnorm_minus_d_q0": 1.1275702593849246e-17,
+      "d_q0_minus_phase_d_0q": 0.0
+    },
+    {
+      "rank": 4,
+      "q": 4,
+      "theta_deg": 45,
+      "helper": "old",
+      "Pnorm_minus_d_q0": 5.551115123125783e-17,
+      "d_q0_minus_phase_d_0q": 0.0
+    },
+    {
+      "rank": 4,
+      "q": 4,
+      "theta_deg": 45,
+      "helper": "sdk",
+      "Pnorm_minus_d_q0": 5.551115123125783e-17,
+      "d_q0_minus_phase_d_0q": 0.0
+    },
+    {
+      "rank": 4,
+      "q": 4,
+      "theta_deg": 90,
+      "helper": "old",
+      "Pnorm_minus_d_q0": 3.3306690738754696e-16,
+      "d_q0_minus_phase_d_0q": 0.0
+    },
+    {
+      "rank": 4,
+      "q": 4,
+      "theta_deg": 90,
+      "helper": "sdk",
+      "Pnorm_minus_d_q0": 3.3306690738754696e-16,
+      "d_q0_minus_phase_d_0q": 0.0
+    },
+    {
+      "rank": 4,
+      "q": 4,
+      "theta_deg": 138.2,
+      "helper": "old",
+      "Pnorm_minus_d_q0": -1.3877787807814457e-17,
+      "d_q0_minus_phase_d_0q": 0.0
+    },
+    {
+      "rank": 4,
+      "q": 4,
+      "theta_deg": 138.2,
+      "helper": "sdk",
+      "Pnorm_minus_d_q0": -1.3877787807814457e-17,
+      "d_q0_minus_phase_d_0q": 0.0
+    },
+    {
+      "rank": 4,
+      "q": 4,
+      "theta_deg": 167.7,
+      "helper": "old",
+      "Pnorm_minus_d_q0": -1.3877787807814457e-17,
+      "d_q0_minus_phase_d_0q": 0.0
+    },
+    {
+      "rank": 4,
+      "q": 4,
+      "theta_deg": 167.7,
+      "helper": "sdk",
+      "Pnorm_minus_d_q0": -1.3877787807814457e-17,
+      "d_q0_minus_phase_d_0q": 0.0
+    },
+    {
+      "rank": 5,
+      "q": 0,
+      "theta_deg": 17.3,
+      "helper": "old",
+      "Pnorm_minus_d_q0": -3.3306690738754696e-16,
+      "d_q0_minus_phase_d_0q": 0.0
+    },
+    {
+      "rank": 5,
+      "q": 0,
+      "theta_deg": 17.3,
+      "helper": "sdk",
+      "Pnorm_minus_d_q0": -3.3306690738754696e-16,
+      "d_q0_minus_phase_d_0q": 0.0
+    },
+    {
+      "rank": 5,
+      "q": 0,
+      "theta_deg": 45,
+      "helper": "old",
+      "Pnorm_minus_d_q0": 1.2212453270876722e-15,
+      "d_q0_minus_phase_d_0q": 0.0
+    },
+    {
+      "rank": 5,
+      "q": 0,
+      "theta_deg": 45,
+      "helper": "sdk",
+      "Pnorm_minus_d_q0": 1.2212453270876722e-15,
+      "d_q0_minus_phase_d_0q": 0.0
+    },
+    {
+      "rank": 5,
+      "q": 0,
+      "theta_deg": 90,
+      "helper": "old",
+      "Pnorm_minus_d_q0": 2.0993342939375315e-15,
+      "d_q0_minus_phase_d_0q": 0.0
+    },
+    {
+      "rank": 5,
+      "q": 0,
+      "theta_deg": 90,
+      "helper": "sdk",
+      "Pnorm_minus_d_q0": 2.0993342939375315e-15,
+      "d_q0_minus_phase_d_0q": 0.0
+    },
+    {
+      "rank": 5,
+      "q": 0,
+      "theta_deg": 138.2,
+      "helper": "old",
+      "Pnorm_minus_d_q0": -3.3306690738754696e-16,
+      "d_q0_minus_phase_d_0q": 0.0
+    },
+    {
+      "rank": 5,
+      "q": 0,
+      "theta_deg": 138.2,
+      "helper": "sdk",
+      "Pnorm_minus_d_q0": -3.3306690738754696e-16,
+      "d_q0_minus_phase_d_0q": 0.0
+    },
+    {
+      "rank": 5,
+      "q": 0,
+      "theta_deg": 167.7,
+      "helper": "old",
+      "Pnorm_minus_d_q0": 6.661338147750939e-16,
+      "d_q0_minus_phase_d_0q": 0.0
+    },
+    {
+      "rank": 5,
+      "q": 0,
+      "theta_deg": 167.7,
+      "helper": "sdk",
+      "Pnorm_minus_d_q0": 6.661338147750939e-16,
+      "d_q0_minus_phase_d_0q": 0.0
+    },
+    {
+      "rank": 5,
+      "q": 1,
+      "theta_deg": 17.3,
+      "helper": "old",
+      "Pnorm_minus_d_q0": 3.3306690738754696e-16,
+      "d_q0_minus_phase_d_0q": 0.0
+    },
+    {
+      "rank": 5,
+      "q": 1,
+      "theta_deg": 17.3,
+      "helper": "sdk",
+      "Pnorm_minus_d_q0": 3.3306690738754696e-16,
+      "d_q0_minus_phase_d_0q": 0.0
+    },
+    {
+      "rank": 5,
+      "q": 1,
+      "theta_deg": 45,
+      "helper": "old",
+      "Pnorm_minus_d_q0": -5.828670879282072e-16,
+      "d_q0_minus_phase_d_0q": 0.0
+    },
+    {
+      "rank": 5,
+      "q": 1,
+      "theta_deg": 45,
+      "helper": "sdk",
+      "Pnorm_minus_d_q0": -5.828670879282072e-16,
+      "d_q0_minus_phase_d_0q": 0.0
+    },
+    {
+      "rank": 5,
+      "q": 1,
+      "theta_deg": 90,
+      "helper": "old",
+      "Pnorm_minus_d_q0": -3.2751579226442118e-15,
+      "d_q0_minus_phase_d_0q": 0.0
+    },
+    {
+      "rank": 5,
+      "q": 1,
+      "theta_deg": 90,
+      "helper": "sdk",
+      "Pnorm_minus_d_q0": -3.2751579226442118e-15,
+      "d_q0_minus_phase_d_0q": 0.0
+    },
+    {
+      "rank": 5,
+      "q": 1,
+      "theta_deg": 138.2,
+      "helper": "old",
+      "Pnorm_minus_d_q0": -1.1657341758564144e-15,
+      "d_q0_minus_phase_d_0q": 0.0
+    },
+    {
+      "rank": 5,
+      "q": 1,
+      "theta_deg": 138.2,
+      "helper": "sdk",
+      "Pnorm_minus_d_q0": -1.1657341758564144e-15,
+      "d_q0_minus_phase_d_0q": 0.0
+    },
+    {
+      "rank": 5,
+      "q": 1,
+      "theta_deg": 167.7,
+      "helper": "old",
+      "Pnorm_minus_d_q0": 3.885780586188048e-16,
+      "d_q0_minus_phase_d_0q": 0.0
+    },
+    {
+      "rank": 5,
+      "q": 1,
+      "theta_deg": 167.7,
+      "helper": "sdk",
+      "Pnorm_minus_d_q0": 3.885780586188048e-16,
+      "d_q0_minus_phase_d_0q": 0.0
+    },
+    {
+      "rank": 5,
+      "q": 2,
+      "theta_deg": 17.3,
+      "helper": "old",
+      "Pnorm_minus_d_q0": 4.440892098500626e-16,
+      "d_q0_minus_phase_d_0q": 0.0
+    },
+    {
+      "rank": 5,
+      "q": 2,
+      "theta_deg": 17.3,
+      "helper": "sdk",
+      "Pnorm_minus_d_q0": 4.440892098500626e-16,
+      "d_q0_minus_phase_d_0q": 0.0
+    },
+    {
+      "rank": 5,
+      "q": 2,
+      "theta_deg": 45,
+      "helper": "old",
+      "Pnorm_minus_d_q0": 1.5543122344752192e-15,
+      "d_q0_minus_phase_d_0q": 0.0
+    },
+    {
+      "rank": 5,
+      "q": 2,
+      "theta_deg": 45,
+      "helper": "sdk",
+      "Pnorm_minus_d_q0": 1.5543122344752192e-15,
+      "d_q0_minus_phase_d_0q": 0.0
+    },
+    {
+      "rank": 5,
+      "q": 2,
+      "theta_deg": 90,
+      "helper": "old",
+      "Pnorm_minus_d_q0": 1.0548165624347938e-15,
+      "d_q0_minus_phase_d_0q": 0.0
+    },
+    {
+      "rank": 5,
+      "q": 2,
+      "theta_deg": 90,
+      "helper": "sdk",
+      "Pnorm_minus_d_q0": 1.0548165624347938e-15,
+      "d_q0_minus_phase_d_0q": 0.0
+    },
+    {
+      "rank": 5,
+      "q": 2,
+      "theta_deg": 138.2,
+      "helper": "old",
+      "Pnorm_minus_d_q0": -9.43689570931383e-16,
+      "d_q0_minus_phase_d_0q": 0.0
+    },
+    {
+      "rank": 5,
+      "q": 2,
+      "theta_deg": 138.2,
+      "helper": "sdk",
+      "Pnorm_minus_d_q0": -9.43689570931383e-16,
+      "d_q0_minus_phase_d_0q": 0.0
+    },
+    {
+      "rank": 5,
+      "q": 2,
+      "theta_deg": 167.7,
+      "helper": "old",
+      "Pnorm_minus_d_q0": -8.326672684688674e-17,
+      "d_q0_minus_phase_d_0q": 0.0
+    },
+    {
+      "rank": 5,
+      "q": 2,
+      "theta_deg": 167.7,
+      "helper": "sdk",
+      "Pnorm_minus_d_q0": -8.326672684688674e-17,
+      "d_q0_minus_phase_d_0q": 0.0
+    },
+    {
+      "rank": 5,
+      "q": 3,
+      "theta_deg": 17.3,
+      "helper": "old",
+      "Pnorm_minus_d_q0": -1.3877787807814457e-16,
+      "d_q0_minus_phase_d_0q": 0.0
+    },
+    {
+      "rank": 5,
+      "q": 3,
+      "theta_deg": 17.3,
+      "helper": "sdk",
+      "Pnorm_minus_d_q0": -1.3877787807814457e-16,
+      "d_q0_minus_phase_d_0q": 0.0
+    },
+    {
+      "rank": 5,
+      "q": 3,
+      "theta_deg": 45,
+      "helper": "old",
+      "Pnorm_minus_d_q0": -7.216449660063518e-16,
+      "d_q0_minus_phase_d_0q": 0.0
+    },
+    {
+      "rank": 5,
+      "q": 3,
+      "theta_deg": 45,
+      "helper": "sdk",
+      "Pnorm_minus_d_q0": -7.216449660063518e-16,
+      "d_q0_minus_phase_d_0q": 0.0
+    },
+    {
+      "rank": 5,
+      "q": 3,
+      "theta_deg": 90,
+      "helper": "old",
+      "Pnorm_minus_d_q0": -9.43689570931383e-16,
+      "d_q0_minus_phase_d_0q": 0.0
+    },
+    {
+      "rank": 5,
+      "q": 3,
+      "theta_deg": 90,
+      "helper": "sdk",
+      "Pnorm_minus_d_q0": -9.43689570931383e-16,
+      "d_q0_minus_phase_d_0q": 0.0
+    },
+    {
+      "rank": 5,
+      "q": 3,
+      "theta_deg": 138.2,
+      "helper": "old",
+      "Pnorm_minus_d_q0": -4.996003610813204e-16,
+      "d_q0_minus_phase_d_0q": 0.0
+    },
+    {
+      "rank": 5,
+      "q": 3,
+      "theta_deg": 138.2,
+      "helper": "sdk",
+      "Pnorm_minus_d_q0": -4.996003610813204e-16,
+      "d_q0_minus_phase_d_0q": 0.0
+    },
+    {
+      "rank": 5,
+      "q": 3,
+      "theta_deg": 167.7,
+      "helper": "old",
+      "Pnorm_minus_d_q0": -1.3877787807814457e-17,
+      "d_q0_minus_phase_d_0q": 0.0
+    },
+    {
+      "rank": 5,
+      "q": 3,
+      "theta_deg": 167.7,
+      "helper": "sdk",
+      "Pnorm_minus_d_q0": -1.3877787807814457e-17,
+      "d_q0_minus_phase_d_0q": 0.0
+    },
+    {
+      "rank": 5,
+      "q": 4,
+      "theta_deg": 17.3,
+      "helper": "old",
+      "Pnorm_minus_d_q0": 2.42861286636753e-17,
+      "d_q0_minus_phase_d_0q": 0.0
+    },
+    {
+      "rank": 5,
+      "q": 4,
+      "theta_deg": 17.3,
+      "helper": "sdk",
+      "Pnorm_minus_d_q0": 2.42861286636753e-17,
+      "d_q0_minus_phase_d_0q": 0.0
+    },
+    {
+      "rank": 5,
+      "q": 4,
+      "theta_deg": 45,
+      "helper": "old",
+      "Pnorm_minus_d_q0": 1.1102230246251565e-16,
+      "d_q0_minus_phase_d_0q": 0.0
+    },
+    {
+      "rank": 5,
+      "q": 4,
+      "theta_deg": 45,
+      "helper": "sdk",
+      "Pnorm_minus_d_q0": 1.1102230246251565e-16,
+      "d_q0_minus_phase_d_0q": 0.0
+    },
+    {
+      "rank": 5,
+      "q": 4,
+      "theta_deg": 90,
+      "helper": "old",
+      "Pnorm_minus_d_q0": -3.4803173889979743e-16,
+      "d_q0_minus_phase_d_0q": 0.0
+    },
+    {
+      "rank": 5,
+      "q": 4,
+      "theta_deg": 90,
+      "helper": "sdk",
+      "Pnorm_minus_d_q0": -3.4803173889979743e-16,
+      "d_q0_minus_phase_d_0q": 0.0
+    },
+    {
+      "rank": 5,
+      "q": 4,
+      "theta_deg": 138.2,
+      "helper": "old",
+      "Pnorm_minus_d_q0": 0.0,
+      "d_q0_minus_phase_d_0q": 0.0
+    },
+    {
+      "rank": 5,
+      "q": 4,
+      "theta_deg": 138.2,
+      "helper": "sdk",
+      "Pnorm_minus_d_q0": 0.0,
+      "d_q0_minus_phase_d_0q": 0.0
+    },
+    {
+      "rank": 5,
+      "q": 4,
+      "theta_deg": 167.7,
+      "helper": "old",
+      "Pnorm_minus_d_q0": 3.903127820947816e-17,
+      "d_q0_minus_phase_d_0q": 0.0
+    },
+    {
+      "rank": 5,
+      "q": 4,
+      "theta_deg": 167.7,
+      "helper": "sdk",
+      "Pnorm_minus_d_q0": 3.903127820947816e-17,
+      "d_q0_minus_phase_d_0q": 0.0
+    },
+    {
+      "rank": 5,
+      "q": 5,
+      "theta_deg": 17.3,
+      "helper": "old",
+      "Pnorm_minus_d_q0": -3.469446951953614e-18,
+      "d_q0_minus_phase_d_0q": 2.168404344971009e-18
+    },
+    {
+      "rank": 5,
+      "q": 5,
+      "theta_deg": 17.3,
+      "helper": "sdk",
+      "Pnorm_minus_d_q0": -3.469446951953614e-18,
+      "d_q0_minus_phase_d_0q": 2.168404344971009e-18
+    },
+    {
+      "rank": 5,
+      "q": 5,
+      "theta_deg": 45,
+      "helper": "old",
+      "Pnorm_minus_d_q0": -2.498001805406602e-16,
+      "d_q0_minus_phase_d_0q": 1.5265566588595902e-16
+    },
+    {
+      "rank": 5,
+      "q": 5,
+      "theta_deg": 45,
+      "helper": "sdk",
+      "Pnorm_minus_d_q0": -2.498001805406602e-16,
+      "d_q0_minus_phase_d_0q": 1.5265566588595902e-16
+    },
+    {
+      "rank": 5,
+      "q": 5,
+      "theta_deg": 90,
+      "helper": "old",
+      "Pnorm_minus_d_q0": -1.6653345369377348e-15,
+      "d_q0_minus_phase_d_0q": 8.881784197001252e-16
+    },
+    {
+      "rank": 5,
+      "q": 5,
+      "theta_deg": 90,
+      "helper": "sdk",
+      "Pnorm_minus_d_q0": -1.6653345369377348e-15,
+      "d_q0_minus_phase_d_0q": 8.881784197001252e-16
+    },
+    {
+      "rank": 5,
+      "q": 5,
+      "theta_deg": 138.2,
+      "helper": "old",
+      "Pnorm_minus_d_q0": -1.942890293094024e-16,
+      "d_q0_minus_phase_d_0q": 1.249000902703301e-16
+    },
+    {
+      "rank": 5,
+      "q": 5,
+      "theta_deg": 138.2,
+      "helper": "sdk",
+      "Pnorm_minus_d_q0": -1.942890293094024e-16,
+      "d_q0_minus_phase_d_0q": 1.249000902703301e-16
+    },
+    {
+      "rank": 5,
+      "q": 5,
+      "theta_deg": 167.7,
+      "helper": "old",
+      "Pnorm_minus_d_q0": -2.710505431213761e-19,
+      "d_q0_minus_phase_d_0q": 3.7947076036992655e-19
+    },
+    {
+      "rank": 5,
+      "q": 5,
+      "theta_deg": 167.7,
+      "helper": "sdk",
+      "Pnorm_minus_d_q0": -2.710505431213761e-19,
+      "d_q0_minus_phase_d_0q": 3.7947076036992655e-19
+    },
+    {
+      "rank": 6,
+      "q": 0,
+      "theta_deg": 17.3,
+      "helper": "old",
+      "Pnorm_minus_d_q0": 1.1102230246251565e-16,
+      "d_q0_minus_phase_d_0q": 0.0
+    },
+    {
+      "rank": 6,
+      "q": 0,
+      "theta_deg": 17.3,
+      "helper": "sdk",
+      "Pnorm_minus_d_q0": 1.1102230246251565e-16,
+      "d_q0_minus_phase_d_0q": 0.0
+    },
+    {
+      "rank": 6,
+      "q": 0,
+      "theta_deg": 45,
+      "helper": "old",
+      "Pnorm_minus_d_q0": -2.498001805406602e-16,
+      "d_q0_minus_phase_d_0q": 0.0
+    },
+    {
+      "rank": 6,
+      "q": 0,
+      "theta_deg": 45,
+      "helper": "sdk",
+      "Pnorm_minus_d_q0": -2.498001805406602e-16,
+      "d_q0_minus_phase_d_0q": 0.0
+    },
+    {
+      "rank": 6,
+      "q": 0,
+      "theta_deg": 90,
+      "helper": "old",
+      "Pnorm_minus_d_q0": -1.9984014443252818e-15,
+      "d_q0_minus_phase_d_0q": 0.0
+    },
+    {
+      "rank": 6,
+      "q": 0,
+      "theta_deg": 90,
+      "helper": "sdk",
+      "Pnorm_minus_d_q0": -1.9984014443252818e-15,
+      "d_q0_minus_phase_d_0q": 0.0
+    },
+    {
+      "rank": 6,
+      "q": 0,
+      "theta_deg": 138.2,
+      "helper": "old",
+      "Pnorm_minus_d_q0": 6.106226635438361e-16,
+      "d_q0_minus_phase_d_0q": 0.0
+    },
+    {
+      "rank": 6,
+      "q": 0,
+      "theta_deg": 138.2,
+      "helper": "sdk",
+      "Pnorm_minus_d_q0": 6.106226635438361e-16,
+      "d_q0_minus_phase_d_0q": 0.0
+    },
+    {
+      "rank": 6,
+      "q": 0,
+      "theta_deg": 167.7,
+      "helper": "old",
+      "Pnorm_minus_d_q0": -5.551115123125783e-16,
+      "d_q0_minus_phase_d_0q": 0.0
+    },
+    {
+      "rank": 6,
+      "q": 0,
+      "theta_deg": 167.7,
+      "helper": "sdk",
+      "Pnorm_minus_d_q0": -5.551115123125783e-16,
+      "d_q0_minus_phase_d_0q": 0.0
+    },
+    {
+      "rank": 6,
+      "q": 1,
+      "theta_deg": 17.3,
+      "helper": "old",
+      "Pnorm_minus_d_q0": -2.220446049250313e-15,
+      "d_q0_minus_phase_d_0q": 9.992007221626409e-16
+    },
+    {
+      "rank": 6,
+      "q": 1,
+      "theta_deg": 17.3,
+      "helper": "sdk",
+      "Pnorm_minus_d_q0": -2.220446049250313e-15,
+      "d_q0_minus_phase_d_0q": 9.992007221626409e-16
+    },
+    {
+      "rank": 6,
+      "q": 1,
+      "theta_deg": 45,
+      "helper": "old",
+      "Pnorm_minus_d_q0": -2.1649348980190553e-15,
+      "d_q0_minus_phase_d_0q": -4.440892098500626e-16
+    },
+    {
+      "rank": 6,
+      "q": 1,
+      "theta_deg": 45,
+      "helper": "sdk",
+      "Pnorm_minus_d_q0": -2.1649348980190553e-15,
+      "d_q0_minus_phase_d_0q": -4.440892098500626e-16
+    },
+    {
+      "rank": 6,
+      "q": 1,
+      "theta_deg": 90,
+      "helper": "old",
+      "Pnorm_minus_d_q0": -2.4971113768926653e-15,
+      "d_q0_minus_phase_d_0q": 4.260480856999038e-15
+    },
+    {
+      "rank": 6,
+      "q": 1,
+      "theta_deg": 90,
+      "helper": "sdk",
+      "Pnorm_minus_d_q0": -2.4971113768926653e-15,
+      "d_q0_minus_phase_d_0q": 4.260480856999038e-15
+    },
+    {
+      "rank": 6,
+      "q": 1,
+      "theta_deg": 138.2,
+      "helper": "old",
+      "Pnorm_minus_d_q0": -1.6653345369377348e-15,
+      "d_q0_minus_phase_d_0q": 1.7763568394002505e-15
+    },
+    {
+      "rank": 6,
+      "q": 1,
+      "theta_deg": 138.2,
+      "helper": "sdk",
+      "Pnorm_minus_d_q0": -1.6653345369377348e-15,
+      "d_q0_minus_phase_d_0q": 1.7763568394002505e-15
+    },
+    {
+      "rank": 6,
+      "q": 1,
+      "theta_deg": 167.7,
+      "helper": "old",
+      "Pnorm_minus_d_q0": 1.4432899320127035e-15,
+      "d_q0_minus_phase_d_0q": -9.992007221626409e-16
+    },
+    {
+      "rank": 6,
+      "q": 1,
+      "theta_deg": 167.7,
+      "helper": "sdk",
+      "Pnorm_minus_d_q0": 1.4432899320127035e-15,
+      "d_q0_minus_phase_d_0q": -9.992007221626409e-16
+    },
+    {
+      "rank": 6,
+      "q": 2,
+      "theta_deg": 17.3,
+      "helper": "old",
+      "Pnorm_minus_d_q0": 3.3306690738754696e-16,
+      "d_q0_minus_phase_d_0q": -6.106226635438361e-16
+    },
+    {
+      "rank": 6,
+      "q": 2,
+      "theta_deg": 17.3,
+      "helper": "sdk",
+      "Pnorm_minus_d_q0": 3.3306690738754696e-16,
+      "d_q0_minus_phase_d_0q": -6.106226635438361e-16
+    },
+    {
+      "rank": 6,
+      "q": 2,
+      "theta_deg": 45,
+      "helper": "old",
+      "Pnorm_minus_d_q0": 4.510281037539698e-16,
+      "d_q0_minus_phase_d_0q": -1.249000902703301e-16
+    },
+    {
+      "rank": 6,
+      "q": 2,
+      "theta_deg": 45,
+      "helper": "sdk",
+      "Pnorm_minus_d_q0": 4.510281037539698e-16,
+      "d_q0_minus_phase_d_0q": -1.249000902703301e-16
+    },
+    {
+      "rank": 6,
+      "q": 2,
+      "theta_deg": 90,
+      "helper": "old",
+      "Pnorm_minus_d_q0": -4.996003610813204e-16,
+      "d_q0_minus_phase_d_0q": -5.551115123125783e-16
+    },
+    {
+      "rank": 6,
+      "q": 2,
+      "theta_deg": 90,
+      "helper": "sdk",
+      "Pnorm_minus_d_q0": -4.996003610813204e-16,
+      "d_q0_minus_phase_d_0q": -5.551115123125783e-16
+    },
+    {
+      "rank": 6,
+      "q": 2,
+      "theta_deg": 138.2,
+      "helper": "old",
+      "Pnorm_minus_d_q0": 3.3306690738754696e-16,
+      "d_q0_minus_phase_d_0q": -6.661338147750939e-16
+    },
+    {
+      "rank": 6,
+      "q": 2,
+      "theta_deg": 138.2,
+      "helper": "sdk",
+      "Pnorm_minus_d_q0": 3.3306690738754696e-16,
+      "d_q0_minus_phase_d_0q": -6.661338147750939e-16
+    },
+    {
+      "rank": 6,
+      "q": 2,
+      "theta_deg": 167.7,
+      "helper": "old",
+      "Pnorm_minus_d_q0": -5.551115123125783e-17,
+      "d_q0_minus_phase_d_0q": -3.608224830031759e-16
+    },
+    {
+      "rank": 6,
+      "q": 2,
+      "theta_deg": 167.7,
+      "helper": "sdk",
+      "Pnorm_minus_d_q0": -5.551115123125783e-17,
+      "d_q0_minus_phase_d_0q": -3.608224830031759e-16
+    },
+    {
+      "rank": 6,
+      "q": 3,
+      "theta_deg": 17.3,
+      "helper": "old",
+      "Pnorm_minus_d_q0": -8.326672684688674e-17,
+      "d_q0_minus_phase_d_0q": 2.0816681711721685e-16
+    },
+    {
+      "rank": 6,
+      "q": 3,
+      "theta_deg": 17.3,
+      "helper": "sdk",
+      "Pnorm_minus_d_q0": -8.326672684688674e-17,
+      "d_q0_minus_phase_d_0q": 2.0816681711721685e-16
+    },
+    {
+      "rank": 6,
+      "q": 3,
+      "theta_deg": 45,
+      "helper": "old",
+      "Pnorm_minus_d_q0": 9.43689570931383e-16,
+      "d_q0_minus_phase_d_0q": 4.440892098500626e-16
+    },
+    {
+      "rank": 6,
+      "q": 3,
+      "theta_deg": 45,
+      "helper": "sdk",
+      "Pnorm_minus_d_q0": 9.43689570931383e-16,
+      "d_q0_minus_phase_d_0q": 4.440892098500626e-16
+    },
+    {
+      "rank": 6,
+      "q": 3,
+      "theta_deg": 90,
+      "helper": "old",
+      "Pnorm_minus_d_q0": 5.446716413105935e-15,
+      "d_q0_minus_phase_d_0q": -3.9968028886505635e-15
+    },
+    {
+      "rank": 6,
+      "q": 3,
+      "theta_deg": 90,
+      "helper": "sdk",
+      "Pnorm_minus_d_q0": 5.446716413105935e-15,
+      "d_q0_minus_phase_d_0q": -3.9968028886505635e-15
+    },
+    {
+      "rank": 6,
+      "q": 3,
+      "theta_deg": 138.2,
+      "helper": "old",
+      "Pnorm_minus_d_q0": 3.885780586188048e-16,
+      "d_q0_minus_phase_d_0q": -1.1102230246251565e-16
+    },
+    {
+      "rank": 6,
+      "q": 3,
+      "theta_deg": 138.2,
+      "helper": "sdk",
+      "Pnorm_minus_d_q0": 3.885780586188048e-16,
+      "d_q0_minus_phase_d_0q": -1.1102230246251565e-16
+    },
+    {
+      "rank": 6,
+      "q": 3,
+      "theta_deg": 167.7,
+      "helper": "old",
+      "Pnorm_minus_d_q0": -6.938893903907228e-18,
+      "d_q0_minus_phase_d_0q": 0.0
+    },
+    {
+      "rank": 6,
+      "q": 3,
+      "theta_deg": 167.7,
+      "helper": "sdk",
+      "Pnorm_minus_d_q0": -6.938893903907228e-18,
+      "d_q0_minus_phase_d_0q": 0.0
+    },
+    {
+      "rank": 6,
+      "q": 4,
+      "theta_deg": 17.3,
+      "helper": "old",
+      "Pnorm_minus_d_q0": -1.734723475976807e-17,
+      "d_q0_minus_phase_d_0q": 4.5102810375396984e-17
+    },
+    {
+      "rank": 6,
+      "q": 4,
+      "theta_deg": 17.3,
+      "helper": "sdk",
+      "Pnorm_minus_d_q0": -1.734723475976807e-17,
+      "d_q0_minus_phase_d_0q": 4.5102810375396984e-17
+    },
+    {
+      "rank": 6,
+      "q": 4,
+      "theta_deg": 45,
+      "helper": "old",
+      "Pnorm_minus_d_q0": -8.326672684688674e-16,
+      "d_q0_minus_phase_d_0q": 7.216449660063518e-16
+    },
+    {
+      "rank": 6,
+      "q": 4,
+      "theta_deg": 45,
+      "helper": "sdk",
+      "Pnorm_minus_d_q0": -8.326672684688674e-16,
+      "d_q0_minus_phase_d_0q": 7.216449660063518e-16
+    },
+    {
+      "rank": 6,
+      "q": 4,
+      "theta_deg": 90,
+      "helper": "old",
+      "Pnorm_minus_d_q0": 1.0547118733938987e-15,
+      "d_q0_minus_phase_d_0q": -2.220446049250313e-16
+    },
+    {
+      "rank": 6,
+      "q": 4,
+      "theta_deg": 90,
+      "helper": "sdk",
+      "Pnorm_minus_d_q0": 1.0547118733938987e-15,
+      "d_q0_minus_phase_d_0q": -2.220446049250313e-16
+    },
+    {
+      "rank": 6,
+      "q": 4,
+      "theta_deg": 138.2,
+      "helper": "old",
+      "Pnorm_minus_d_q0": -4.440892098500626e-16,
+      "d_q0_minus_phase_d_0q": 5.551115123125783e-16
+    },
+    {
+      "rank": 6,
+      "q": 4,
+      "theta_deg": 138.2,
+      "helper": "sdk",
+      "Pnorm_minus_d_q0": -4.440892098500626e-16,
+      "d_q0_minus_phase_d_0q": 5.551115123125783e-16
+    },
+    {
+      "rank": 6,
+      "q": 4,
+      "theta_deg": 167.7,
+      "helper": "old",
+      "Pnorm_minus_d_q0": -1.0755285551056204e-16,
+      "d_q0_minus_phase_d_0q": 1.214306433183765e-17
+    },
+    {
+      "rank": 6,
+      "q": 4,
+      "theta_deg": 167.7,
+      "helper": "sdk",
+      "Pnorm_minus_d_q0": -1.0755285551056204e-16,
+      "d_q0_minus_phase_d_0q": 1.214306433183765e-17
+    },
+    {
+      "rank": 6,
+      "q": 5,
+      "theta_deg": 17.3,
+      "helper": "old",
+      "Pnorm_minus_d_q0": -2.2551405187698492e-17,
+      "d_q0_minus_phase_d_0q": 6.5052130349130266e-18
+    },
+    {
+      "rank": 6,
+      "q": 5,
+      "theta_deg": 17.3,
+      "helper": "sdk",
+      "Pnorm_minus_d_q0": -2.2551405187698492e-17,
+      "d_q0_minus_phase_d_0q": 6.5052130349130266e-18
+    },
+    {
+      "rank": 6,
+      "q": 5,
+      "theta_deg": 45,
+      "helper": "old",
+      "Pnorm_minus_d_q0": -1.1379786002407855e-15,
+      "d_q0_minus_phase_d_0q": 3.608224830031759e-16
+    },
+    {
+      "rank": 6,
+      "q": 5,
+      "theta_deg": 45,
+      "helper": "sdk",
+      "Pnorm_minus_d_q0": -1.1379786002407855e-15,
+      "d_q0_minus_phase_d_0q": 3.608224830031759e-16
+    },
+    {
+      "rank": 6,
+      "q": 5,
+      "theta_deg": 90,
+      "helper": "old",
+      "Pnorm_minus_d_q0": -1.0074592546548577e-16,
+      "d_q0_minus_phase_d_0q": 0.0
+    },
+    {
+      "rank": 6,
+      "q": 5,
+      "theta_deg": 90,
+      "helper": "sdk",
+      "Pnorm_minus_d_q0": -1.0074592546548577e-16,
+      "d_q0_minus_phase_d_0q": 0.0
+    },
+    {
+      "rank": 6,
+      "q": 5,
+      "theta_deg": 138.2,
+      "helper": "old",
+      "Pnorm_minus_d_q0": 8.326672684688674e-16,
+      "d_q0_minus_phase_d_0q": -3.0531133177191805e-16
+    },
+    {
+      "rank": 6,
+      "q": 5,
+      "theta_deg": 138.2,
+      "helper": "sdk",
+      "Pnorm_minus_d_q0": 8.326672684688674e-16,
+      "d_q0_minus_phase_d_0q": -3.0531133177191805e-16
+    },
+    {
+      "rank": 6,
+      "q": 5,
+      "theta_deg": 167.7,
+      "helper": "old",
+      "Pnorm_minus_d_q0": 2.0599841277224584e-18,
+      "d_q0_minus_phase_d_0q": -1.4094628242311558e-18
+    },
+    {
+      "rank": 6,
+      "q": 5,
+      "theta_deg": 167.7,
+      "helper": "sdk",
+      "Pnorm_minus_d_q0": 2.0599841277224584e-18,
+      "d_q0_minus_phase_d_0q": -1.4094628242311558e-18
+    },
+    {
+      "rank": 6,
+      "q": 6,
+      "theta_deg": 17.3,
+      "helper": "old",
+      "Pnorm_minus_d_q0": 1.5178830414797062e-18,
+      "d_q0_minus_phase_d_0q": 0.0
+    },
+    {
+      "rank": 6,
+      "q": 6,
+      "theta_deg": 17.3,
+      "helper": "sdk",
+      "Pnorm_minus_d_q0": 1.5178830414797062e-18,
+      "d_q0_minus_phase_d_0q": 0.0
+    },
+    {
+      "rank": 6,
+      "q": 6,
+      "theta_deg": 45,
+      "helper": "old",
+      "Pnorm_minus_d_q0": 1.8041124150158794e-16,
+      "d_q0_minus_phase_d_0q": 0.0
+    },
+    {
+      "rank": 6,
+      "q": 6,
+      "theta_deg": 45,
+      "helper": "sdk",
+      "Pnorm_minus_d_q0": 1.8041124150158794e-16,
+      "d_q0_minus_phase_d_0q": 0.0
+    },
+    {
+      "rank": 6,
+      "q": 6,
+      "theta_deg": 90,
+      "helper": "old",
+      "Pnorm_minus_d_q0": 1.887379141862766e-15,
+      "d_q0_minus_phase_d_0q": 0.0
+    },
+    {
+      "rank": 6,
+      "q": 6,
+      "theta_deg": 90,
+      "helper": "sdk",
+      "Pnorm_minus_d_q0": 1.887379141862766e-15,
+      "d_q0_minus_phase_d_0q": 0.0
+    },
+    {
+      "rank": 6,
+      "q": 6,
+      "theta_deg": 138.2,
+      "helper": "old",
+      "Pnorm_minus_d_q0": 4.85722573273506e-17,
+      "d_q0_minus_phase_d_0q": 0.0
+    },
+    {
+      "rank": 6,
+      "q": 6,
+      "theta_deg": 138.2,
+      "helper": "sdk",
+      "Pnorm_minus_d_q0": 4.85722573273506e-17,
+      "d_q0_minus_phase_d_0q": 0.0
+    },
+    {
+      "rank": 6,
+      "q": 6,
+      "theta_deg": 167.7,
+      "helper": "old",
+      "Pnorm_minus_d_q0": 4.0657581468206416e-20,
+      "d_q0_minus_phase_d_0q": 0.0
+    },
+    {
+      "rank": 6,
+      "q": 6,
+      "theta_deg": 167.7,
+      "helper": "sdk",
+      "Pnorm_minus_d_q0": 4.0657581468206416e-20,
+      "d_q0_minus_phase_d_0q": 0.0
+    }
+  ],
+  "rows": [
+    {
+      "case": "rotatedMorseE2",
+      "theta_deg": 17.3,
+      "phi_rad": 0,
+      "I_official_G4_sampler": 1.2963224968358475,
+      "I_IT_same_tensor": 1.1800153657672678,
+      "photon_trace": {
+        "IQUV": [
+          1.2963224968358462,
+          -0.005593557521258393,
+          0.2635706405937063,
+          6.757745214891724e-16
+        ],
+        "normalized": [
+          -0.004314942874872214,
+          0.20332181323478357,
+          5.213012372605194e-16
+        ]
+      },
+      "diagnostic_equivalent_dq0_contraction": {
+        "IQUV": [
+          1.2963224968358478,
+          -0.005593557521258239,
+          -0.2635706405937066,
+          5.825991099377124e-16
+        ],
+        "normalized": [
+          -0.00431494287487209,
+          -0.2033218132347836,
+          4.494245153962536e-16
+        ]
+      },
+      "diagnostic_IQUV_minus_photon": [
+        1.5543122344752192e-15,
+        1.5439038936193583e-16,
+        -0.5271412811874129,
+        -9.317541155145995e-17
+      ]
+    },
+    {
+      "case": "rotatedMorseE2",
+      "theta_deg": 17.3,
+      "phi_rad": 0.37,
+      "I_official_G4_sampler": 1.2782386392991145,
+      "I_IT_same_tensor": 1.158104141419714,
+      "photon_trace": {
+        "IQUV": [
+          1.2782386392991139,
+          0.19137105279018216,
+          0.07295561662289733,
+          5.776782199826796e-16
+        ],
+        "normalized": [
+          0.14971465179234064,
+          0.05707511444255862,
+          4.51932997659524e-16
+        ]
+      },
+      "diagnostic_equivalent_dq0_contraction": {
+        "IQUV": [
+          1.2782386392991147,
+          0.1913710527901828,
+          -0.07295561662289735,
+          5.873374300439366e-16
+        ],
+        "normalized": [
+          0.14971465179234106,
+          -0.05707511444255859,
+          4.594896539553726e-16
+        ]
+      },
+      "diagnostic_IQUV_minus_photon": [
+        8.881784197001252e-16,
+        6.38378239159465e-16,
+        -0.1459112332457947,
+        9.65921006125691e-18
+      ]
+    },
+    {
+      "case": "rotatedMorseE2",
+      "theta_deg": 17.3,
+      "phi_rad": 1.17,
+      "I_official_G4_sampler": 1.3134440394129678,
+      "I_IT_same_tensor": 1.2056760443978936,
+      "photon_trace": {
+        "IQUV": [
+          1.3134440394129665,
+          -0.19757441452612207,
+          -0.2638077334603869,
+          4.184420361136332e-16
+        ],
+        "normalized": [
+          -0.1504246915722625,
+          -0.20085190197999886,
+          3.1858383270036583e-16
+        ]
+      },
+      "diagnostic_equivalent_dq0_contraction": {
+        "IQUV": [
+          1.3134440394129676,
+          -0.19757441452612223,
+          0.26380773346038733,
+          5.067771164396215e-16
+        ],
+        "normalized": [
+          -0.1504246915722625,
+          0.200851901979999,
+          3.8583837699405994e-16
+        ]
+      },
+      "diagnostic_IQUV_minus_photon": [
+        1.1102230246251565e-15,
+        -1.6653345369377348e-16,
+        0.5276154669207742,
+        8.833508032598831e-17
+      ]
+    },
+    {
+      "case": "rotatedMorseE2",
+      "theta_deg": 17.3,
+      "phi_rad": 2.4,
+      "I_official_G4_sampler": 1.2773398208020628,
+      "I_IT_same_tensor": 1.3349457932003397,
+      "photon_trace": {
+        "IQUV": [
+          1.2773398208020623,
+          -0.1523221491296214,
+          0.655138975639642,
+          4.97293750692637e-16
+        ],
+        "normalized": [
+          -0.11924951109249522,
+          0.5128932528137028,
+          3.89319852551358e-16
+        ]
+      },
+      "diagnostic_equivalent_dq0_contraction": {
+        "IQUV": [
+          1.2773398208020628,
+          -0.15232214912962166,
+          -0.6551389756396422,
+          4.053147564033084e-16
+        ],
+        "normalized": [
+          -0.11924951109249539,
+          -0.5128932528137028,
+          3.173116110549224e-16
+        ]
+      },
+      "diagnostic_IQUV_minus_photon": [
+        4.440892098500626e-16,
+        -2.7755575615628914e-16,
+        -1.3102779512792841,
+        -9.197899428932857e-17
+      ]
+    },
+    {
+      "case": "rotatedMorseE2",
+      "theta_deg": 45,
+      "phi_rad": 0,
+      "I_official_G4_sampler": 1.2815139963994793,
+      "I_IT_same_tensor": 0.6815563300632554,
+      "photon_trace": {
+        "IQUV": [
+          1.2815139963994784,
+          -0.06034169134207346,
+          -0.20627130506806798,
+          3.7058602791341715e-16
+        ],
+        "normalized": [
+          -0.04708625228566253,
+          -0.16095907313350039,
+          2.891782914229652e-16
+        ]
+      },
+      "diagnostic_equivalent_dq0_contraction": {
+        "IQUV": [
+          1.2815139963994786,
+          -0.06034169134207344,
+          0.20627130506806807,
+          4.064020691051636e-16
+        ],
+        "normalized": [
+          -0.0470862522856625,
+          0.1609590731335004,
+          3.1712651617304566e-16
+        ]
+      },
+      "diagnostic_IQUV_minus_photon": [
+        2.220446049250313e-16,
+        2.0816681711721685e-17,
+        0.412542610136136,
+        3.581604119174645e-17
+      ]
+    },
+    {
+      "case": "rotatedMorseE2",
+      "theta_deg": 45,
+      "phi_rad": 0.37,
+      "I_official_G4_sampler": 1.2240752003582072,
+      "I_IT_same_tensor": 0.6507591320844728,
+      "photon_trace": {
+        "IQUV": [
+          1.2240752003582063,
+          0.04351242442797195,
+          -0.037970904608080704,
+          2.7248972640692437e-16
+        ],
+        "normalized": [
+          0.03554718240777914,
+          -0.031020075071342936,
+          2.226086488209095e-16
+        ]
+      },
+      "diagnostic_equivalent_dq0_contraction": {
+        "IQUV": [
+          1.2240752003582067,
+          0.04351242442797224,
+          0.03797090460808069,
+          3.380179482852265e-16
+        ],
+        "normalized": [
+          0.03554718240777936,
+          0.031020075071342912,
+          2.7614148884505687e-16
+        ]
+      },
+      "diagnostic_IQUV_minus_photon": [
+        4.440892098500626e-16,
+        2.914335439641036e-16,
+        0.0759418092161614,
+        6.552822187830215e-17
+      ]
+    },
+    {
+      "case": "rotatedMorseE2",
+      "theta_deg": 45,
+      "phi_rad": 1.17,
+      "I_official_G4_sampler": 1.3222832686866055,
+      "I_IT_same_tensor": 0.7280198113837822,
+      "photon_trace": {
+        "IQUV": [
+          1.3222832686866053,
+          -0.14335740618835993,
+          0.34304345910464573,
+          -6.812243160173109e-17
+        ],
+        "normalized": [
+          -0.10841656215672582,
+          0.25943265503569685,
+          -5.1518788156032247e-17
+        ]
+      },
+      "diagnostic_equivalent_dq0_contraction": {
+        "IQUV": [
+          1.322283268686605,
+          -0.14335740618835974,
+          -0.3430434591046458,
+          -1.0458278357917145e-16
+        ],
+        "normalized": [
+          -0.1084165621567257,
+          -0.25943265503569696,
+          -7.909257120303068e-17
+        ]
+      },
+      "diagnostic_IQUV_minus_photon": [
+        -2.220446049250313e-16,
+        1.942890293094024e-16,
+        -0.6860869182092915,
+        -3.646035197744036e-17
+      ]
+    },
+    {
+      "case": "rotatedMorseE2",
+      "theta_deg": 45,
+      "phi_rad": 2.4,
+      "I_official_G4_sampler": 0.9302670663913402,
+      "I_IT_same_tensor": 1.2837974562067354,
+      "photon_trace": {
+        "IQUV": [
+          0.9302670663913398,
+          0.18378324355328285,
+          0.6895275931856609,
+          1.0899589056276974e-17
+        ],
+        "normalized": [
+          0.19755965807346973,
+          0.7412146663005633,
+          1.1716623591285767e-17
+        ]
+      },
+      "diagnostic_equivalent_dq0_contraction": {
+        "IQUV": [
+          0.9302670663913403,
+          0.18378324355328313,
+          -0.6895275931856607,
+          4.437120627850256e-17
+        ],
+        "normalized": [
+          0.19755965807346992,
+          -0.7412146663005628,
+          4.7697277353508604e-17
+        ]
+      },
+      "diagnostic_IQUV_minus_photon": [
+        4.440892098500626e-16,
+        2.7755575615628914e-16,
+        -1.3790551863713216,
+        3.3471617222225586e-17
+      ]
+    },
+    {
+      "case": "rotatedMorseE2",
+      "theta_deg": 90,
+      "phi_rad": 0,
+      "I_official_G4_sampler": 1.0652100465600773,
+      "I_IT_same_tensor": 1.0652100465600776,
+      "photon_trace": {
+        "IQUV": [
+          1.0652100465600773,
+          0.5897755580643871,
+          -0.43716126238758884,
+          2.1799178112553949e-16
+        ],
+        "normalized": [
+          0.5536706680236178,
+          -0.41039911686838665,
+          2.0464675659932844e-16
+        ]
+      },
+      "diagnostic_equivalent_dq0_contraction": {
+        "IQUV": [
+          1.0652100465600771,
+          0.589775558064387,
+          0.4371612623875886,
+          2.2301143948242465e-16
+        ],
+        "normalized": [
+          0.5536706680236179,
+          0.4103991168683866,
+          2.093591214264303e-16
+        ]
+      },
+      "diagnostic_IQUV_minus_photon": [
+        -2.220446049250313e-16,
+        -1.1102230246251565e-16,
+        0.8743225247751775,
+        5.019658356885163e-18
+      ]
+    },
+    {
+      "case": "rotatedMorseE2",
+      "theta_deg": 90,
+      "phi_rad": 0.37,
+      "I_official_G4_sampler": 1.144502970280056,
+      "I_IT_same_tensor": 1.1445029702800564,
+      "photon_trace": {
+        "IQUV": [
+          1.1445029702800569,
+          0.7244268718132161,
+          -0.10602384033035915,
+          6.539753433766185e-17
+        ],
+        "normalized": [
+          0.6329619849181787,
+          -0.09263745318582738,
+          5.714055449035597e-17
+        ]
+      },
+      "diagnostic_equivalent_dq0_contraction": {
+        "IQUV": [
+          1.144502970280056,
+          0.7244268718132154,
+          0.10602384033035901,
+          5.326132606245833e-17
+        ],
+        "normalized": [
+          0.6329619849181786,
+          0.09263745318582733,
+          4.653664293193181e-17
+        ]
+      },
+      "diagnostic_IQUV_minus_photon": [
+        -8.881784197001252e-16,
+        -6.661338147750939e-16,
+        0.21204768066071816,
+        -1.2136208275203514e-17
+      ]
+    },
+    {
+      "case": "rotatedMorseE2",
+      "theta_deg": 90,
+      "phi_rad": 1.17,
+      "I_official_G4_sampler": 0.9645503897096157,
+      "I_IT_same_tensor": 0.9645503897096158,
+      "photon_trace": {
+        "IQUV": [
+          0.9645503897096159,
+          0.46029636189757395,
+          0.5548176097950351,
+          -5.667786309264027e-16
+        ],
+        "normalized": [
+          0.4772133906204207,
+          0.5752085279464421,
+          -5.876091461608709e-16
+        ]
+      },
+      "diagnostic_equivalent_dq0_contraction": {
+        "IQUV": [
+          0.9645503897096154,
+          0.46029636189757384,
+          -0.554817609795035,
+          -6.541166311777377e-16
+        ],
+        "normalized": [
+          0.47721339062042084,
+          -0.5752085279464422,
+          -6.781570337394857e-16
+        ]
+      },
+      "diagnostic_IQUV_minus_photon": [
+        -5.551115123125783e-16,
+        -1.1102230246251565e-16,
+        -1.10963521959007,
+        -8.733800025133495e-17
+      ]
+    },
+    {
+      "case": "rotatedMorseE2",
+      "theta_deg": 90,
+      "phi_rad": 2.4,
+      "I_official_G4_sampler": 0.6873116024069859,
+      "I_IT_same_tensor": 0.6873116024069859,
+      "photon_trace": {
+        "IQUV": [
+          0.6873116024069855,
+          0.231659366816263,
+          0.592139789261427,
+          3.269876716883092e-17
+        ],
+        "normalized": [
+          0.3370514421770054,
+          0.8615303265472835,
+          4.757488023528029e-17
+        ]
+      },
+      "diagnostic_equivalent_dq0_contraction": {
+        "IQUV": [
+          0.6873116024069861,
+          0.2316593668162631,
+          -0.5921397892614265,
+          3.5909505493394154e-17
+        ],
+        "normalized": [
+          0.3370514421770052,
+          -0.8615303265472822,
+          5.224632520044471e-17
+        ]
+      },
+      "diagnostic_IQUV_minus_photon": [
+        5.551115123125783e-16,
+        8.326672684688674e-17,
+        -1.1842795785228535,
+        3.210738324563231e-18
+      ]
+    },
+    {
+      "case": "rotatedMorseE2",
+      "theta_deg": 138.2,
+      "phi_rad": 0,
+      "I_official_G4_sampler": 0.7275599843575852,
+      "I_IT_same_tensor": 1.2706030178930487,
+      "photon_trace": {
+        "IQUV": [
+          0.7275599843575845,
+          0.5521782391262909,
+          -0.34519199359807284,
+          5.449794528138487e-17
+        ],
+        "normalized": [
+          0.7589453117241587,
+          -0.4744515930227635,
+          7.490508886288608e-17
+        ]
+      },
+      "diagnostic_equivalent_dq0_contraction": {
+        "IQUV": [
+          0.7275599843575854,
+          0.5521782391262914,
+          0.34519199359807273,
+          6.731761113530753e-19
+        ],
+        "normalized": [
+          0.7589453117241582,
+          0.47445159302276274,
+          9.25251698590145e-19
+        ]
+      },
+      "diagnostic_IQUV_minus_photon": [
+        8.881784197001252e-16,
+        4.440892098500626e-16,
+        0.6903839871961456,
+        -5.3824769170031796e-17
+      ]
+    },
+    {
+      "case": "rotatedMorseE2",
+      "theta_deg": 138.2,
+      "phi_rad": 0.37,
+      "I_official_G4_sampler": 0.6910550320055032,
+      "I_IT_same_tensor": 1.2121148795756573,
+      "photon_trace": {
+        "IQUV": [
+          0.6910550320055028,
+          0.6326877325919479,
+          -0.07656632594952638,
+          3.814856169696941e-17
+        ],
+        "normalized": [
+          0.9155388547795277,
+          -0.11079627873821297,
+          5.520336287293779e-17
+        ]
+      },
+      "diagnostic_equivalent_dq0_contraction": {
+        "IQUV": [
+          0.6910550320055036,
+          0.6326877325919482,
+          0.07656632594952634,
+          3.499199695808188e-19
+        ],
+        "normalized": [
+          0.9155388547795271,
+          0.1107962787382128,
+          5.06356155985609e-19
+        ]
+      },
+      "diagnostic_IQUV_minus_photon": [
+        7.771561172376096e-16,
+        3.3306690738754696e-16,
+        0.15313265189905273,
+        -3.779864172738859e-17
+      ]
+    },
+    {
+      "case": "rotatedMorseE2",
+      "theta_deg": 138.2,
+      "phi_rad": 1.17,
+      "I_official_G4_sampler": 0.7790773351092812,
+      "I_IT_same_tensor": 1.3152042213538977,
+      "photon_trace": {
+        "IQUV": [
+          0.7790773351092808,
+          0.4573372469834103,
+          0.48910870909849313,
+          -1.1172078782683898e-16
+        ],
+        "normalized": [
+          0.5870241969229664,
+          0.6278050805185934,
+          -1.4340140932372006e-16
+        ]
+      },
+      "diagnostic_equivalent_dq0_contraction": {
+        "IQUV": [
+          0.7790773351092816,
+          0.4573372469834108,
+          -0.48910870909849313,
+          -8.888240770765884e-17
+        ],
+        "normalized": [
+          0.5870241969229664,
+          -0.6278050805185927,
+          -1.1408675840273452e-16
+        ]
+      },
+      "diagnostic_IQUV_minus_photon": [
+        7.771561172376096e-16,
+        4.996003610813204e-16,
+        -0.9782174181969863,
+        2.2838380119180132e-17
+      ]
+    },
+    {
+      "case": "rotatedMorseE2",
+      "theta_deg": 138.2,
+      "phi_rad": 2.4,
+      "I_official_G4_sampler": 1.3004348775705654,
+      "I_IT_same_tensor": 0.9830320627757629,
+      "photon_trace": {
+        "IQUV": [
+          1.300434877570565,
+          -0.22273283646730546,
+          0.6027596112582706,
+          -1.9142403280086435e-16
+        ],
+        "normalized": [
+          -0.1712756557893991,
+          0.46350618677986305,
+          -1.4720001447398676e-16
+        ]
+      },
+      "diagnostic_equivalent_dq0_contraction": {
+        "IQUV": [
+          1.3004348775705652,
+          -0.22273283646730516,
+          -0.6027596112582707,
+          -1.5987852901828577e-16
+        ],
+        "normalized": [
+          -0.17127565578939885,
+          -0.46350618677986305,
+          -1.229423570344147e-16
+        ]
+      },
+      "diagnostic_IQUV_minus_photon": [
+        2.220446049250313e-16,
+        3.0531133177191805e-16,
+        -1.2055192225165414,
+        3.1545503782578586e-17
+      ]
+    },
+    {
+      "case": "rotatedMorseE2",
+      "theta_deg": 167.7,
+      "phi_rad": 0,
+      "I_official_G4_sampler": 1.2479640869858382,
+      "I_IT_same_tensor": 1.316022429237144,
+      "photon_trace": {
+        "IQUV": [
+          1.2479640869858377,
+          0.5135386523799599,
+          -0.47129366597816613,
+          -5.340798637575717e-16
+        ],
+        "normalized": [
+          0.4115011463353014,
+          -0.3776500228596038,
+          -4.279609239778009e-16
+        ]
+      },
+      "diagnostic_equivalent_dq0_contraction": {
+        "IQUV": [
+          1.2479640869858384,
+          0.5135386523799602,
+          0.47129366597816635,
+          -4.1536821289612306e-16
+        ],
+        "normalized": [
+          0.4115011463353013,
+          0.3776500228596037,
+          -3.3283667152581817e-16
+        ]
+      },
+      "diagnostic_IQUV_minus_photon": [
+        6.661338147750939e-16,
+        3.3306690738754696e-16,
+        0.9425873319563325,
+        1.1871165086144864e-16
+      ]
+    },
+    {
+      "case": "rotatedMorseE2",
+      "theta_deg": 167.7,
+      "phi_rad": 0.37,
+      "I_official_G4_sampler": 1.2349173653554115,
+      "I_IT_same_tensor": 1.307235049587164,
+      "photon_trace": {
+        "IQUV": [
+          1.234917365355411,
+          0.6961488483879447,
+          -0.11062670425969956,
+          -2.6703993187878585e-16
+        ],
+        "normalized": [
+          0.5637209969815202,
+          -0.08958227276030006,
+          -2.1624113432232074e-16
+        ]
+      },
+      "diagnostic_equivalent_dq0_contraction": {
+        "IQUV": [
+          1.2349173653554113,
+          0.696148848387945,
+          0.11062670425969948,
+          -4.0109502116819775e-16
+        ],
+        "normalized": [
+          0.5637209969815205,
+          0.08958227276029998,
+          -3.24795028736811e-16
+        ]
+      },
+      "diagnostic_IQUV_minus_photon": [
+        2.220446049250313e-16,
+        3.3306690738754696e-16,
+        0.22125340851939904,
+        -1.340550892894119e-16
+      ]
+    },
+    {
+      "case": "rotatedMorseE2",
+      "theta_deg": 167.7,
+      "phi_rad": 1.17,
+      "I_official_G4_sampler": 1.2630092684275769,
+      "I_IT_same_tensor": 1.3244008047433788,
+      "photon_trace": {
+        "IQUV": [
+          1.2630092684275767,
+          0.3052108530744386,
+          0.6142507726393585,
+          -4.196341786666635e-16
+        ],
+        "normalized": [
+          0.24165369226024805,
+          0.48633908554296623,
+          -3.3224948474772506e-16
+        ]
+      },
+      "diagnostic_equivalent_dq0_contraction": {
+        "IQUV": [
+          1.263009268427577,
+          0.30521085307443857,
+          -0.6142507726393585,
+          -4.0500720357894375e-16
+        ],
+        "normalized": [
+          0.2416536922602479,
+          -0.4863390855429661,
+          -3.2066843348122866e-16
+        ]
+      },
+      "diagnostic_IQUV_minus_photon": [
+        4.440892098500626e-16,
+        -5.551115123125783e-17,
+        -1.228501545278717,
+        1.462697508771976e-17
+      ]
+    },
+    {
+      "case": "rotatedMorseE2",
+      "theta_deg": 167.7,
+      "phi_rad": 2.4,
+      "I_official_G4_sampler": 1.3349607797713572,
+      "I_IT_same_tensor": 1.3037068189883478,
+      "photon_trace": {
+        "IQUV": [
+          1.3349607797713567,
+          -0.49809852048496933,
+          -0.05473501625857043,
+          -5.735908740865757e-16
+        ],
+        "normalized": [
+          -0.37311846762290674,
+          -0.041001216730835406,
+          -4.2966870845809915e-16
+        ]
+      },
+      "diagnostic_equivalent_dq0_contraction": {
+        "IQUV": [
+          1.3349607797713572,
+          -0.4980985204849693,
+          0.05473501625857094,
+          -5.150458158934439e-16
+        ],
+        "normalized": [
+          -0.37311846762290657,
+          0.041001216730835774,
+          -3.8581344388384004e-16
+        ]
+      },
+      "diagnostic_IQUV_minus_photon": [
+        4.440892098500626e-16,
+        5.551115123125783e-17,
+        0.10947003251714138,
+        5.854505819313188e-17
+      ]
+    },
+    {
+      "case": "orientedM1",
+      "theta_deg": 17.3,
+      "phi_rad": 0,
+      "I_official_G4_sampler": 1.2385218760102288,
+      "I_IT_same_tensor": 1.2385218760102288,
+      "photon_trace": {
+        "IQUV": [
+          1.2385218760102281,
+          0.036478123989771315,
+          0.0,
+          -1.0741058994406467
+        ],
+        "normalized": [
+          0.029452950889557055,
+          0.0,
+          -0.8672482256839656
+        ]
+      },
+      "diagnostic_equivalent_dq0_contraction": {
+        "IQUV": [
+          1.2385218760102288,
+          0.03647812398977133,
+          0.0,
+          -1.0741058994406472
+        ],
+        "normalized": [
+          0.029452950889557045,
+          0.0,
+          -0.8672482256839654
+        ]
+      },
+      "diagnostic_IQUV_minus_photon": [
+        6.661338147750939e-16,
+        1.3877787807814457e-17,
+        0.0,
+        -4.440892098500626e-16
+      ]
+    },
+    {
+      "case": "orientedM1",
+      "theta_deg": 17.3,
+      "phi_rad": 0.37,
+      "I_official_G4_sampler": 1.2385218760102288,
+      "I_IT_same_tensor": 1.2385218760102288,
+      "photon_trace": {
+        "IQUV": [
+          1.2385218760102283,
+          0.03647812398977158,
+          0.0,
+          -1.074105899440647
+        ],
+        "normalized": [
+          0.029452950889557256,
+          0.0,
+          -0.8672482256839655
+        ]
+      },
+      "diagnostic_equivalent_dq0_contraction": {
+        "IQUV": [
+          1.2385218760102288,
+          0.03647812398977133,
+          0.0,
+          -1.0741058994406472
+        ],
+        "normalized": [
+          0.029452950889557045,
+          0.0,
+          -0.8672482256839654
+        ]
+      },
+      "diagnostic_IQUV_minus_photon": [
+        4.440892098500626e-16,
+        -2.498001805406602e-16,
+        0.0,
+        -2.220446049250313e-16
+      ]
+    },
+    {
+      "case": "orientedM1",
+      "theta_deg": 17.3,
+      "phi_rad": 1.17,
+      "I_official_G4_sampler": 1.2385218760102288,
+      "I_IT_same_tensor": 1.2385218760102288,
+      "photon_trace": {
+        "IQUV": [
+          1.2385218760102286,
+          0.036478123989771405,
+          8.71967124502158e-17,
+          -1.074105899440647
+        ],
+        "normalized": [
+          0.02945295088955711,
+          7.040385328607282e-17,
+          -0.8672482256839654
+        ]
+      },
+      "diagnostic_equivalent_dq0_contraction": {
+        "IQUV": [
+          1.2385218760102288,
+          0.03647812398977133,
+          0.0,
+          -1.0741058994406472
+        ],
+        "normalized": [
+          0.029452950889557045,
+          0.0,
+          -0.8672482256839654
+        ]
+      },
+      "diagnostic_IQUV_minus_photon": [
+        2.220446049250313e-16,
+        -7.632783294297951e-17,
+        -8.71967124502158e-17,
+        -2.220446049250313e-16
+      ]
+    },
+    {
+      "case": "orientedM1",
+      "theta_deg": 17.3,
+      "phi_rad": 2.4,
+      "I_official_G4_sampler": 1.2385218760102288,
+      "I_IT_same_tensor": 1.2385218760102288,
+      "photon_trace": {
+        "IQUV": [
+          1.2385218760102277,
+          0.03647812398977123,
+          0.0,
+          -1.0741058994406463
+        ],
+        "normalized": [
+          0.029452950889556993,
+          0.0,
+          -0.8672482256839655
+        ]
+      },
+      "diagnostic_equivalent_dq0_contraction": {
+        "IQUV": [
+          1.2385218760102288,
+          0.03647812398977133,
+          0.0,
+          -1.0741058994406472
+        ],
+        "normalized": [
+          0.029452950889557045,
+          0.0,
+          -0.8672482256839654
+        ]
+      },
+      "diagnostic_IQUV_minus_photon": [
+        1.1102230246251565e-15,
+        9.71445146547012e-17,
+        0.0,
+        -8.881784197001252e-16
+      ]
+    },
+    {
+      "case": "orientedM1",
+      "theta_deg": 45,
+      "phi_rad": 0,
+      "I_official_G4_sampler": 1.06875,
+      "I_IT_same_tensor": 1.0687499999999999,
+      "photon_trace": {
+        "IQUV": [
+          1.0687499999999996,
+          0.20624999999999993,
+          0.0,
+          -0.7954951288348656
+        ],
+        "normalized": [
+          0.1929824561403509,
+          0.0,
+          -0.7443229275647869
+        ]
+      },
+      "diagnostic_equivalent_dq0_contraction": {
+        "IQUV": [
+          1.0687499999999999,
+          0.20625,
+          0.0,
+          -0.795495128834866
+        ],
+        "normalized": [
+          0.1929824561403509,
+          0.0,
+          -0.7443229275647869
+        ]
+      },
+      "diagnostic_IQUV_minus_photon": [
+        2.220446049250313e-16,
+        5.551115123125783e-17,
+        0.0,
+        -3.3306690738754696e-16
+      ]
+    },
+    {
+      "case": "orientedM1",
+      "theta_deg": 45,
+      "phi_rad": 0.37,
+      "I_official_G4_sampler": 1.06875,
+      "I_IT_same_tensor": 1.0687499999999999,
+      "photon_trace": {
+        "IQUV": [
+          1.0687499999999999,
+          0.20625000000000002,
+          -4.35983562251079e-17,
+          -0.795495128834866
+        ],
+        "normalized": [
+          0.19298245614035092,
+          -4.0793783602440143e-17,
+          -0.744322927564787
+        ]
+      },
+      "diagnostic_equivalent_dq0_contraction": {
+        "IQUV": [
+          1.0687499999999999,
+          0.20625,
+          0.0,
+          -0.795495128834866
+        ],
+        "normalized": [
+          0.1929824561403509,
+          0.0,
+          -0.7443229275647869
+        ]
+      },
+      "diagnostic_IQUV_minus_photon": [
+        0.0,
+        -2.7755575615628914e-17,
+        4.35983562251079e-17,
+        0.0
+      ]
+    },
+    {
+      "case": "orientedM1",
+      "theta_deg": 45,
+      "phi_rad": 1.17,
+      "I_official_G4_sampler": 1.06875,
+      "I_IT_same_tensor": 1.0687499999999999,
+      "photon_trace": {
+        "IQUV": [
+          1.0687499999999999,
+          0.2062500000000001,
+          0.0,
+          -0.795495128834866
+        ],
+        "normalized": [
+          0.192982456140351,
+          0.0,
+          -0.744322927564787
+        ]
+      },
+      "diagnostic_equivalent_dq0_contraction": {
+        "IQUV": [
+          1.0687499999999999,
+          0.20625,
+          0.0,
+          -0.795495128834866
+        ],
+        "normalized": [
+          0.1929824561403509,
+          0.0,
+          -0.7443229275647869
+        ]
+      },
+      "diagnostic_IQUV_minus_photon": [
+        0.0,
+        -1.1102230246251565e-16,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "case": "orientedM1",
+      "theta_deg": 45,
+      "phi_rad": 2.4,
+      "I_official_G4_sampler": 1.06875,
+      "I_IT_same_tensor": 1.0687499999999999,
+      "photon_trace": {
+        "IQUV": [
+          1.0687499999999996,
+          0.20624999999999993,
+          8.71967124502158e-17,
+          -0.7954951288348656
+        ],
+        "normalized": [
+          0.19298245614035087,
+          8.15875672048803e-17,
+          -0.7443229275647868
+        ]
+      },
+      "diagnostic_equivalent_dq0_contraction": {
+        "IQUV": [
+          1.0687499999999999,
+          0.20625,
+          0.0,
+          -0.795495128834866
+        ],
+        "normalized": [
+          0.1929824561403509,
+          0.0,
+          -0.7443229275647869
+        ]
+      },
+      "diagnostic_IQUV_minus_photon": [
+        2.220446049250313e-16,
+        5.551115123125783e-17,
+        -8.71967124502158e-17,
+        -3.3306690738754696e-16
+      ]
+    },
+    {
+      "case": "orientedM1",
+      "theta_deg": 90,
+      "phi_rad": 0,
+      "I_official_G4_sampler": 0.8624999999999998,
+      "I_IT_same_tensor": 0.8624999999999998,
+      "photon_trace": {
+        "IQUV": [
+          0.8624999999999999,
+          0.41250000000000003,
+          0.0,
+          -1.8075572402810345e-16
+        ],
+        "normalized": [
+          0.47826086956521746,
+          0.0,
+          -2.095718539456272e-16
+        ]
+      },
+      "diagnostic_equivalent_dq0_contraction": {
+        "IQUV": [
+          0.8624999999999998,
+          0.4125000000000001,
+          0.0,
+          -6.245004513516506e-17
+        ],
+        "normalized": [
+          0.4782608695652176,
+          0.0,
+          -7.240584943207544e-17
+        ]
+      },
+      "diagnostic_IQUV_minus_photon": [
+        -1.1102230246251565e-16,
+        5.551115123125783e-17,
+        0.0,
+        1.183056788929384e-16
+      ]
+    },
+    {
+      "case": "orientedM1",
+      "theta_deg": 90,
+      "phi_rad": 0.37,
+      "I_official_G4_sampler": 0.8624999999999998,
+      "I_IT_same_tensor": 0.8624999999999998,
+      "photon_trace": {
+        "IQUV": [
+          0.8624999999999999,
+          0.41250000000000003,
+          -2.141738536435352e-17,
+          -2.0120553399849968e-16
+        ],
+        "normalized": [
+          0.47826086956521746,
+          -2.4831751147076544e-17,
+          -2.332817785489851e-16
+        ]
+      },
+      "diagnostic_equivalent_dq0_contraction": {
+        "IQUV": [
+          0.8624999999999998,
+          0.4125000000000001,
+          0.0,
+          -6.245004513516506e-17
+        ],
+        "normalized": [
+          0.4782608695652176,
+          0.0,
+          -7.240584943207544e-17
+        ]
+      },
+      "diagnostic_IQUV_minus_photon": [
+        -1.1102230246251565e-16,
+        5.551115123125783e-17,
+        2.141738536435352e-17,
+        1.3875548886333462e-16
+      ]
+    },
+    {
+      "case": "orientedM1",
+      "theta_deg": 90,
+      "phi_rad": 1.17,
+      "I_official_G4_sampler": 0.8624999999999998,
+      "I_IT_same_tensor": 0.8624999999999998,
+      "photon_trace": {
+        "IQUV": [
+          0.8624999999999999,
+          0.41250000000000003,
+          1.4385762999451773e-17,
+          -2.0169201603206336e-16
+        ],
+        "normalized": [
+          0.47826086956521746,
+          1.6679145506610754e-17,
+          -2.338458156893488e-16
+        ]
+      },
+      "diagnostic_equivalent_dq0_contraction": {
+        "IQUV": [
+          0.8624999999999998,
+          0.4125000000000001,
+          0.0,
+          -6.245004513516506e-17
+        ],
+        "normalized": [
+          0.4782608695652176,
+          0.0,
+          -7.240584943207544e-17
+        ]
+      },
+      "diagnostic_IQUV_minus_photon": [
+        -1.1102230246251565e-16,
+        5.551115123125783e-17,
+        -1.4385762999451773e-17,
+        1.392419708968983e-16
+      ]
+    },
+    {
+      "case": "orientedM1",
+      "theta_deg": 90,
+      "phi_rad": 2.4,
+      "I_official_G4_sampler": 0.8624999999999998,
+      "I_IT_same_tensor": 0.8624999999999998,
+      "photon_trace": {
+        "IQUV": [
+          0.8624999999999998,
+          0.41249999999999987,
+          1.2686871850459978e-17,
+          -2.553819712012801e-16
+        ],
+        "normalized": [
+          0.47826086956521735,
+          1.4709416638214472e-17,
+          -2.96095039073948e-16
+        ]
+      },
+      "diagnostic_equivalent_dq0_contraction": {
+        "IQUV": [
+          0.8624999999999998,
+          0.4125000000000001,
+          0.0,
+          -6.245004513516506e-17
+        ],
+        "normalized": [
+          0.4782608695652176,
+          0.0,
+          -7.240584943207544e-17
+        ]
+      },
+      "diagnostic_IQUV_minus_photon": [
+        0.0,
+        2.220446049250313e-16,
+        -1.2686871850459978e-17,
+        1.9293192606611505e-16
+      ]
+    },
+    {
+      "case": "orientedM1",
+      "theta_deg": 138.2,
+      "phi_rad": 0,
+      "I_official_G4_sampler": 1.0917404672675544,
+      "I_IT_same_tensor": 1.0917404672675544,
+      "photon_trace": {
+        "IQUV": [
+          1.091740467267554,
+          0.18325953273244552,
+          0.0,
+          0.8386604996432192
+        ],
+        "normalized": [
+          0.16785997975426695,
+          0.0,
+          0.7681866934384578
+        ]
+      },
+      "diagnostic_equivalent_dq0_contraction": {
+        "IQUV": [
+          1.0917404672675544,
+          0.18325953273244566,
+          0.0,
+          0.8386604996432193
+        ],
+        "normalized": [
+          0.167859979754267,
+          0.0,
+          0.7681866934384577
+        ]
+      },
+      "diagnostic_IQUV_minus_photon": [
+        4.440892098500626e-16,
+        1.3877787807814457e-16,
+        0.0,
+        1.1102230246251565e-16
+      ]
+    },
+    {
+      "case": "orientedM1",
+      "theta_deg": 138.2,
+      "phi_rad": 0.37,
+      "I_official_G4_sampler": 1.0917404672675544,
+      "I_IT_same_tensor": 1.0917404672675544,
+      "photon_trace": {
+        "IQUV": [
+          1.0917404672675544,
+          0.18325953273244552,
+          0.0,
+          0.8386604996432195
+        ],
+        "normalized": [
+          0.1678599797542669,
+          0.0,
+          0.7681866934384579
+        ]
+      },
+      "diagnostic_equivalent_dq0_contraction": {
+        "IQUV": [
+          1.0917404672675544,
+          0.18325953273244566,
+          0.0,
+          0.8386604996432193
+        ],
+        "normalized": [
+          0.167859979754267,
+          0.0,
+          0.7681866934384577
+        ]
+      },
+      "diagnostic_IQUV_minus_photon": [
+        0.0,
+        1.3877787807814457e-16,
+        0.0,
+        -2.220446049250313e-16
+      ]
+    },
+    {
+      "case": "orientedM1",
+      "theta_deg": 138.2,
+      "phi_rad": 1.17,
+      "I_official_G4_sampler": 1.0917404672675544,
+      "I_IT_same_tensor": 1.0917404672675544,
+      "photon_trace": {
+        "IQUV": [
+          1.0917404672675544,
+          0.18325953273244552,
+          0.0,
+          0.8386604996432195
+        ],
+        "normalized": [
+          0.1678599797542669,
+          0.0,
+          0.7681866934384579
+        ]
+      },
+      "diagnostic_equivalent_dq0_contraction": {
+        "IQUV": [
+          1.0917404672675544,
+          0.18325953273244566,
+          0.0,
+          0.8386604996432193
+        ],
+        "normalized": [
+          0.167859979754267,
+          0.0,
+          0.7681866934384577
+        ]
+      },
+      "diagnostic_IQUV_minus_photon": [
+        0.0,
+        1.3877787807814457e-16,
+        0.0,
+        -2.220446049250313e-16
+      ]
+    },
+    {
+      "case": "orientedM1",
+      "theta_deg": 138.2,
+      "phi_rad": 2.4,
+      "I_official_G4_sampler": 1.0917404672675544,
+      "I_IT_same_tensor": 1.0917404672675544,
+      "photon_trace": {
+        "IQUV": [
+          1.0917404672675541,
+          0.18325953273244552,
+          -8.71967124502158e-17,
+          0.8386604996432193
+        ],
+        "normalized": [
+          0.16785997975426692,
+          -7.986945163666485e-17,
+          0.7681866934384579
+        ]
+      },
+      "diagnostic_equivalent_dq0_contraction": {
+        "IQUV": [
+          1.0917404672675544,
+          0.18325953273244566,
+          0.0,
+          0.8386604996432193
+        ],
+        "normalized": [
+          0.167859979754267,
+          0.0,
+          0.7681866934384577
+        ]
+      },
+      "diagnostic_IQUV_minus_photon": [
+        2.220446049250313e-16,
+        1.3877787807814457e-16,
+        8.71967124502158e-17,
+        0.0
+      ]
+    },
+    {
+      "case": "orientedM1",
+      "theta_deg": 167.7,
+      "phi_rad": 0,
+      "I_official_G4_sampler": 1.256279947490958,
+      "I_IT_same_tensor": 1.256279947490958,
+      "photon_trace": {
+        "IQUV": [
+          1.2562799474909576,
+          0.018720052509041952,
+          0.0,
+          1.0991762712396713
+        ],
+        "normalized": [
+          0.014901179109345528,
+          0.0,
+          0.8749453284158092
+        ]
+      },
+      "diagnostic_equivalent_dq0_contraction": {
+        "IQUV": [
+          1.256279947490958,
+          0.0187200525090421,
+          0.0,
+          1.0991762712396715
+        ],
+        "normalized": [
+          0.014901179109345639,
+          0.0,
+          0.874945328415809
+        ]
+      },
+      "diagnostic_IQUV_minus_photon": [
+        4.440892098500626e-16,
+        1.491862189340054e-16,
+        0.0,
+        2.220446049250313e-16
+      ]
+    },
+    {
+      "case": "orientedM1",
+      "theta_deg": 167.7,
+      "phi_rad": 0.37,
+      "I_official_G4_sampler": 1.256279947490958,
+      "I_IT_same_tensor": 1.256279947490958,
+      "photon_trace": {
+        "IQUV": [
+          1.256279947490958,
+          0.018720052509041952,
+          0.0,
+          1.0991762712396718
+        ],
+        "normalized": [
+          0.014901179109345523,
+          0.0,
+          0.8749453284158092
+        ]
+      },
+      "diagnostic_equivalent_dq0_contraction": {
+        "IQUV": [
+          1.256279947490958,
+          0.0187200525090421,
+          0.0,
+          1.0991762712396715
+        ],
+        "normalized": [
+          0.014901179109345639,
+          0.0,
+          0.874945328415809
+        ]
+      },
+      "diagnostic_IQUV_minus_photon": [
+        0.0,
+        1.491862189340054e-16,
+        0.0,
+        -2.220446049250313e-16
+      ]
+    },
+    {
+      "case": "orientedM1",
+      "theta_deg": 167.7,
+      "phi_rad": 1.17,
+      "I_official_G4_sampler": 1.256279947490958,
+      "I_IT_same_tensor": 1.256279947490958,
+      "photon_trace": {
+        "IQUV": [
+          1.2562799474909578,
+          0.01872005250904213,
+          0.0,
+          1.0991762712396715
+        ],
+        "normalized": [
+          0.014901179109345663,
+          0.0,
+          0.8749453284158091
+        ]
+      },
+      "diagnostic_equivalent_dq0_contraction": {
+        "IQUV": [
+          1.256279947490958,
+          0.0187200525090421,
+          0.0,
+          1.0991762712396715
+        ],
+        "normalized": [
+          0.014901179109345639,
+          0.0,
+          0.874945328415809
+        ]
+      },
+      "diagnostic_IQUV_minus_photon": [
+        2.220446049250313e-16,
+        -2.7755575615628914e-17,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "case": "orientedM1",
+      "theta_deg": 167.7,
+      "phi_rad": 2.4,
+      "I_official_G4_sampler": 1.256279947490958,
+      "I_IT_same_tensor": 1.256279947490958,
+      "photon_trace": {
+        "IQUV": [
+          1.2562799474909576,
+          0.01872005250904213,
+          -8.71967124502158e-17,
+          1.0991762712396713
+        ],
+        "normalized": [
+          0.014901179109345667,
+          -6.940866374916282e-17,
+          0.8749453284158092
+        ]
+      },
+      "diagnostic_equivalent_dq0_contraction": {
+        "IQUV": [
+          1.256279947490958,
+          0.0187200525090421,
+          0.0,
+          1.0991762712396715
+        ],
+        "normalized": [
+          0.014901179109345639,
+          0.0,
+          0.874945328415809
+        ]
+      },
+      "diagnostic_IQUV_minus_photon": [
+        4.440892098500626e-16,
+        -2.7755575615628914e-17,
+        8.71967124502158e-17,
+        2.220446049250313e-16
+      ]
+    },
+    {
+      "case": "coherentSpin1mixed",
+      "theta_deg": 17.3,
+      "phi_rad": 0,
+      "I_official_G4_sampler": 0.9073167018673172,
+      "I_IT_same_tensor": 1.0401608807558869,
+      "photon_trace": {
+        "IQUV": [
+          0.907316701867317,
+          0.16115429654063862,
+          0.11112843888886292,
+          0.1396884089633595
+        ],
+        "normalized": [
+          0.17761636726070681,
+          0.12248031879073024,
+          0.1539577180447264
+        ]
+      },
+      "diagnostic_equivalent_dq0_contraction": {
+        "IQUV": [
+          0.9073167018673172,
+          0.1611542965406386,
+          -0.1111284388888629,
+          0.13968840896335952
+        ],
+        "normalized": [
+          0.17761636726070676,
+          -0.12248031879073018,
+          0.1539577180447264
+        ]
+      },
+      "diagnostic_IQUV_minus_photon": [
+        1.1102230246251565e-16,
+        -2.7755575615628914e-17,
+        -0.22225687777772582,
+        2.7755575615628914e-17
+      ]
+    },
+    {
+      "case": "coherentSpin1mixed",
+      "theta_deg": 17.3,
+      "phi_rad": 0.37,
+      "I_official_G4_sampler": 0.8428824734511198,
+      "I_IT_same_tensor": 1.1108522495319753,
+      "photon_trace": {
+        "IQUV": [
+          0.8428824734511199,
+          0.18407593590637694,
+          -0.017484359361915437,
+          0.1703446739737683
+        ],
+        "normalized": [
+          0.2183886149070008,
+          -0.020743531764668234,
+          0.20209777678292995
+        ]
+      },
+      "diagnostic_equivalent_dq0_contraction": {
+        "IQUV": [
+          0.8428824734511197,
+          0.18407593590637697,
+          0.017484359361915554,
+          0.1703446739737683
+        ],
+        "normalized": [
+          0.21838861490700087,
+          0.02074353176466838,
+          0.20209777678292998
+        ]
+      },
+      "diagnostic_IQUV_minus_photon": [
+        -2.220446049250313e-16,
+        2.7755575615628914e-17,
+        0.03496871872383099,
+        0.0
+      ]
+    },
+    {
+      "case": "coherentSpin1mixed",
+      "theta_deg": 17.3,
+      "phi_rad": 1.17,
+      "I_official_G4_sampler": 0.7090570637449374,
+      "I_IT_same_tensor": 1.1278355152411061,
+      "photon_trace": {
+        "IQUV": [
+          0.7090570637449373,
+          -0.01725519079532572,
+          -0.15857378857979618,
+          0.22290683906915754
+        ],
+        "normalized": [
+          -0.024335404973178255,
+          -0.22364037633625283,
+          0.31437080379942706
+        ]
+      },
+      "diagnostic_equivalent_dq0_contraction": {
+        "IQUV": [
+          0.7090570637449373,
+          -0.01725519079532559,
+          0.15857378857979615,
+          0.22290683906915762
+        ],
+        "normalized": [
+          -0.024335404973178074,
+          0.22364037633625278,
+          0.3143708037994272
+        ]
+      },
+      "diagnostic_IQUV_minus_photon": [
+        0.0,
+        1.2836953722228372e-16,
+        0.3171475771595923,
+        8.326672684688674e-17
+      ]
+    },
+    {
+      "case": "coherentSpin1mixed",
+      "theta_deg": 17.3,
+      "phi_rad": 2.4,
+      "I_official_G4_sampler": 0.8297562002090975,
+      "I_IT_same_tensor": 1.0009917923197669,
+      "photon_trace": {
+        "IQUV": [
+          0.8297562002090977,
+          -0.049500755644811455,
+          0.12346905250888687,
+          0.2159537893533704
+        ],
+        "normalized": [
+          -0.059656987959038225,
+          0.14880160278136254,
+          0.26026173627741533
+        ]
+      },
+      "diagnostic_equivalent_dq0_contraction": {
+        "IQUV": [
+          0.8297562002090975,
+          -0.049500755644811455,
+          -0.123469052508887,
+          0.21595378935337042
+        ],
+        "normalized": [
+          -0.059656987959038246,
+          -0.14880160278136273,
+          0.2602617362774154
+        ]
+      },
+      "diagnostic_IQUV_minus_photon": [
+        -2.220446049250313e-16,
+        0.0,
+        -0.24693810501777386,
+        2.7755575615628914e-17
+      ]
+    },
+    {
+      "case": "coherentSpin1mixed",
+      "theta_deg": 45,
+      "phi_rad": 0,
+      "I_official_G4_sampler": 1.097477064220183,
+      "I_IT_same_tensor": 1.3314220183486234,
+      "photon_trace": {
+        "IQUV": [
+          1.097477064220183,
+          0.12891257420399335,
+          0.1402383929228582,
+          0.08414303575371501
+        ],
+        "normalized": [
+          0.11746265904480903,
+          0.12778252730275066,
+          0.07666951638165048
+        ]
+      },
+      "diagnostic_equivalent_dq0_contraction": {
+        "IQUV": [
+          1.097477064220183,
+          0.1289125742039935,
+          -0.1402383929228581,
+          0.0841430357537149
+        ],
+        "normalized": [
+          0.11746265904480917,
+          -0.1277825273027506,
+          0.0766695163816504
+        ]
+      },
+      "diagnostic_IQUV_minus_photon": [
+        0.0,
+        1.3877787807814457e-16,
+        -0.28047678584571634,
+        -1.1102230246251565e-16
+      ]
+    },
+    {
+      "case": "coherentSpin1mixed",
+      "theta_deg": 45,
+      "phi_rad": 0.37,
+      "I_official_G4_sampler": 0.9961849100158399,
+      "I_IT_same_tensor": 1.4680925050458717,
+      "photon_trace": {
+        "IQUV": [
+          0.9961849100158403,
+          0.15808348126391575,
+          0.0340821948534061,
+          0.1570384104619418
+        ],
+        "normalized": [
+          0.1586888936727641,
+          0.03421271945673636,
+          0.15763982056247444
+        ]
+      },
+      "diagnostic_equivalent_dq0_contraction": {
+        "IQUV": [
+          0.9961849100158401,
+          0.1580834812639157,
+          -0.03408219485340601,
+          0.15703841046194164
+        ],
+        "normalized": [
+          0.15868889367276406,
+          -0.034212719456736276,
+          0.1576398205624743
+        ]
+      },
+      "diagnostic_IQUV_minus_photon": [
+        -2.220446049250313e-16,
+        -5.551115123125783e-17,
+        -0.0681643897068121,
+        -1.6653345369377348e-16
+      ]
+    },
+    {
+      "case": "coherentSpin1mixed",
+      "theta_deg": 45,
+      "phi_rad": 1.17,
+      "I_official_G4_sampler": 0.533077219710919,
+      "I_IT_same_tensor": 1.2705661066528846,
+      "photon_trace": {
+        "IQUV": [
+          0.5330772197109196,
+          0.012582222206982036,
+          -0.11261932129276417,
+          0.2820222830505674
+        ],
+        "normalized": [
+          0.023603001107053875,
+          -0.21126267851745023,
+          0.5290458354298168
+        ]
+      },
+      "diagnostic_equivalent_dq0_contraction": {
+        "IQUV": [
+          0.5330772197109193,
+          0.01258222220698198,
+          0.1126193212927642,
+          0.28202228305056737
+        ],
+        "normalized": [
+          0.023603001107053784,
+          0.21126267851745037,
+          0.529045835429817
+        ]
+      },
+      "diagnostic_IQUV_minus_photon": [
+        -3.3306690738754696e-16,
+        -5.551115123125783e-17,
+        0.22523864258552836,
+        -5.551115123125783e-17
+      ]
+    },
+    {
+      "case": "coherentSpin1mixed",
+      "theta_deg": 45,
+      "phi_rad": 2.4,
+      "I_official_G4_sampler": 0.7336736562579653,
+      "I_IT_same_tensor": 1.0352277256695368,
+      "photon_trace": {
+        "IQUV": [
+          0.7336736562579655,
+          -0.033209943694619465,
+          0.03567698583662258,
+          0.26548911554874854
+        ],
+        "normalized": [
+          -0.04526528029369857,
+          0.04862786817042026,
+          0.3618626800679353
+        ]
+      },
+      "diagnostic_equivalent_dq0_contraction": {
+        "IQUV": [
+          0.7336736562579654,
+          -0.033209943694619486,
+          -0.03567698583662263,
+          0.26548911554874854
+        ],
+        "normalized": [
+          -0.045265280293698605,
+          -0.048627868170420335,
+          0.36186268006793537
+        ]
+      },
+      "diagnostic_IQUV_minus_photon": [
+        -1.1102230246251565e-16,
+        -2.0816681711721685e-17,
+        -0.0713539716732452,
+        0.0
+      ]
+    },
+    {
+      "case": "coherentSpin1mixed",
+      "theta_deg": 90,
+      "phi_rad": 0,
+      "I_official_G4_sampler": 1.506880733944954,
+      "I_IT_same_tensor": 1.5068807339449537,
+      "photon_trace": {
+        "IQUV": [
+          1.5068807339449537,
+          0.059498111171073724,
+          0.11899622234214796,
+          -0.039665407447382575
+        ],
+        "normalized": [
+          0.03948428686543098,
+          0.0789685737308623,
+          -0.02632285791028738
+        ]
+      },
+      "diagnostic_equivalent_dq0_contraction": {
+        "IQUV": [
+          1.5068807339449537,
+          0.05949811117107389,
+          -0.11899622234214778,
+          -0.03966540744738261
+        ],
+        "normalized": [
+          0.03948428686543109,
+          -0.07896857373086218,
+          -0.026322857910287403
+        ]
+      },
+      "diagnostic_IQUV_minus_photon": [
+        0.0,
+        1.6653345369377348e-16,
+        -0.23799244468429576,
+        -3.469446951953614e-17
+      ]
+    },
+    {
+      "case": "coherentSpin1mixed",
+      "theta_deg": 90,
+      "phi_rad": 0.37,
+      "I_official_G4_sampler": 1.5422590664378593,
+      "I_IT_same_tensor": 1.542259066437859,
+      "photon_trace": {
+        "IQUV": [
+          1.5422590664378593,
+          0.06549651356606498,
+          0.09659980866524873,
+          0.0634242200992604
+        ],
+        "normalized": [
+          0.04246790632739909,
+          0.06263526716582342,
+          0.04112423228981282
+        ]
+      },
+      "diagnostic_equivalent_dq0_contraction": {
+        "IQUV": [
+          1.542259066437859,
+          0.06549651356606477,
+          -0.09659980866524864,
+          0.06342422009926033
+        ],
+        "normalized": [
+          0.04246790632739896,
+          -0.06263526716582338,
+          0.04112423228981279
+        ]
+      },
+      "diagnostic_IQUV_minus_photon": [
+        -2.220446049250313e-16,
+        -2.0816681711721685e-16,
+        -0.19319961733049737,
+        -6.938893903907228e-17
+      ]
+    },
+    {
+      "case": "coherentSpin1mixed",
+      "theta_deg": 90,
+      "phi_rad": 1.17,
+      "I_official_G4_sampler": 0.8816249777399512,
+      "I_IT_same_tensor": 0.8816249777399512,
+      "photon_trace": {
+        "IQUV": [
+          0.8816249777399512,
+          -0.04651411046922076,
+          0.009904628956480638,
+          0.24017810779200596
+        ],
+        "normalized": [
+          -0.05275951979997192,
+          0.011234514908902864,
+          0.27242661432722043
+        ]
+      },
+      "diagnostic_equivalent_dq0_contraction": {
+        "IQUV": [
+          0.8816249777399511,
+          -0.04651411046922062,
+          -0.009904628956480713,
+          0.2401781077920058
+        ],
+        "normalized": [
+          -0.05275951979997177,
+          -0.01123451490890295,
+          0.27242661432722026
+        ]
+      },
+      "diagnostic_IQUV_minus_photon": [
+        -1.1102230246251565e-16,
+        1.3877787807814457e-16,
+        -0.01980925791296135,
+        -1.6653345369377348e-16
+      ]
+    },
+    {
+      "case": "coherentSpin1mixed",
+      "theta_deg": 90,
+      "phi_rad": 2.4,
+      "I_official_G4_sampler": 0.8468830333036494,
+      "I_IT_same_tensor": 0.8468830333036494,
+      "photon_trace": {
+        "IQUV": [
+          0.8468830333036497,
+          -0.05240461315911263,
+          -0.11453958880051499,
+          0.2167966780819476
+        ],
+        "normalized": [
+          -0.061879399041311255,
+          -0.13524841601053406,
+          0.25599364913031053
+        ]
+      },
+      "diagnostic_equivalent_dq0_contraction": {
+        "IQUV": [
+          0.8468830333036493,
+          -0.05240461315911261,
+          0.11453958880051487,
+          0.21679667808194744
+        ],
+        "normalized": [
+          -0.061879399041311255,
+          0.135248416010534,
+          0.2559936491303105
+        ]
+      },
+      "diagnostic_IQUV_minus_photon": [
+        -3.3306690738754696e-16,
+        2.0816681711721685e-17,
+        0.22907917760102986,
+        -1.6653345369377348e-16
+      ]
+    },
+    {
+      "case": "coherentSpin1mixed",
+      "theta_deg": 138.2,
+      "phi_rad": 0,
+      "I_official_G4_sampler": 1.2980960436258804,
+      "I_IT_same_tensor": 1.0656090533635392,
+      "photon_trace": {
+        "IQUV": [
+          1.2980960436258804,
+          0.09489759153659166,
+          0.02017562748873375,
+          -0.1447167190880174
+        ],
+        "normalized": [
+          0.07310521590646012,
+          0.015542476681755062,
+          -0.11148383033645981
+        ]
+      },
+      "diagnostic_equivalent_dq0_contraction": {
+        "IQUV": [
+          1.2980960436258804,
+          0.09489759153659151,
+          -0.020175627488733732,
+          -0.1447167190880173
+        ],
+        "normalized": [
+          0.07310521590646,
+          -0.01554247668175505,
+          -0.11148383033645975
+        ]
+      },
+      "diagnostic_IQUV_minus_photon": [
+        0.0,
+        -1.5265566588595902e-16,
+        -0.040351254977467485,
+        8.326672684688674e-17
+      ]
+    },
+    {
+      "case": "coherentSpin1mixed",
+      "theta_deg": 138.2,
+      "phi_rad": 0.37,
+      "I_official_G4_sampler": 1.4320532366425882,
+      "I_IT_same_tensor": 0.9630866078935122,
+      "photon_trace": {
+        "IQUV": [
+          1.4320532366425882,
+          0.08418193107460555,
+          0.10046817594455099,
+          -0.07600413498225751
+        ],
+        "normalized": [
+          0.05878407933490511,
+          0.0701567325667976,
+          -0.05307354017120707
+        ]
+      },
+      "diagnostic_equivalent_dq0_contraction": {
+        "IQUV": [
+          1.4320532366425884,
+          0.08418193107460552,
+          -0.10046817594455086,
+          -0.07600413498225735
+        ],
+        "normalized": [
+          0.05878407933490508,
+          -0.07015673256679751,
+          -0.05307354017120695
+        ]
+      },
+      "diagnostic_IQUV_minus_photon": [
+        2.220446049250313e-16,
+        -2.7755575615628914e-17,
+        -0.20093635188910186,
+        1.6653345369377348e-16
+      ]
+    },
+    {
+      "case": "coherentSpin1mixed",
+      "theta_deg": 138.2,
+      "phi_rad": 1.17,
+      "I_official_G4_sampler": 1.2705193644324138,
+      "I_IT_same_tensor": 0.5376265678520324,
+      "photon_trace": {
+        "IQUV": [
+          1.2705193644324138,
+          -0.11245122101569376,
+          0.1327157211971619,
+          0.04180807040778264
+        ],
+        "normalized": [
+          -0.08850807328381785,
+          0.1044578500040814,
+          0.03290628350750072
+        ]
+      },
+      "diagnostic_equivalent_dq0_contraction": {
+        "IQUV": [
+          1.270519364432414,
+          -0.11245122101569352,
+          -0.13271572119716185,
+          0.041808070407782685
+        ],
+        "normalized": [
+          -0.08850807328381766,
+          -0.10445785000408134,
+          0.03290628350750076
+        ]
+      },
+      "diagnostic_IQUV_minus_photon": [
+        2.220446049250313e-16,
+        2.3592239273284576e-16,
+        -0.26543144239432376,
+        4.85722573273506e-17
+      ]
+    },
+    {
+      "case": "coherentSpin1mixed",
+      "theta_deg": 138.2,
+      "phi_rad": 2.4,
+      "I_official_G4_sampler": 1.038475697685389,
+      "I_IT_same_tensor": 0.7388009376118416,
+      "photon_trace": {
+        "IQUV": [
+          1.038475697685389,
+          -0.08488918255255648,
+          -0.19934376957433883,
+          0.026223588305173535
+        ],
+        "normalized": [
+          -0.08174402419022621,
+          -0.19195804968633068,
+          0.025251999987695516
+        ]
+      },
+      "diagnostic_equivalent_dq0_contraction": {
+        "IQUV": [
+          1.038475697685389,
+          -0.08488918255255633,
+          0.19934376957433875,
+          0.02622358830517356
+        ],
+        "normalized": [
+          -0.08174402419022606,
+          0.1919580496863306,
+          0.025251999987695537
+        ]
+      },
+      "diagnostic_IQUV_minus_photon": [
+        0.0,
+        1.5265566588595902e-16,
+        0.3986875391486776,
+        2.42861286636753e-17
+      ]
+    },
+    {
+      "case": "coherentSpin1mixed",
+      "theta_deg": 167.7,
+      "phi_rad": 0,
+      "I_official_G4_sampler": 0.9972539369306858,
+      "I_IT_same_tensor": 0.8998671460807754,
+      "photon_trace": {
+        "IQUV": [
+          0.9972539369306859,
+          0.14590542277556912,
+          -0.05216001039846266,
+          -0.16346958028881722
+        ],
+        "normalized": [
+          0.14630719155106256,
+          -0.05230363949126033,
+          -0.1639197141622106
+        ]
+      },
+      "diagnostic_equivalent_dq0_contraction": {
+        "IQUV": [
+          0.9972539369306859,
+          0.14590542277556917,
+          0.05216001039846273,
+          -0.1634695802888172
+        ],
+        "normalized": [
+          0.14630719155106262,
+          0.0523036394912604,
+          -0.16391971416221057
+        ]
+      },
+      "diagnostic_IQUV_minus_photon": [
+        0.0,
+        5.551115123125783e-17,
+        0.10432002079692539,
+        2.7755575615628914e-17
+      ]
+    },
+    {
+      "case": "coherentSpin1mixed",
+      "theta_deg": 167.7,
+      "phi_rad": 0.37,
+      "I_official_G4_sampler": 1.0483891128283727,
+      "I_IT_same_tensor": 0.8519430452955707,
+      "photon_trace": {
+        "IQUV": [
+          1.0483891128283733,
+          0.1492322496451819,
+          0.06786799979003331,
+          -0.14150835711161244
+        ],
+        "normalized": [
+          0.14234433362492574,
+          0.06473550608221898,
+          -0.13497694260659315
+        ]
+      },
+      "diagnostic_equivalent_dq0_contraction": {
+        "IQUV": [
+          1.048389112828373,
+          0.14923224964518178,
+          -0.06786799979003325,
+          -0.1415083571116124
+        ],
+        "normalized": [
+          0.14234433362492566,
+          -0.06473550608221892,
+          -0.13497694260659313
+        ]
+      },
+      "diagnostic_IQUV_minus_photon": [
+        -2.220446049250313e-16,
+        -1.1102230246251565e-16,
+        -0.13573599958006655,
+        5.551115123125783e-17
+      ]
+    },
+    {
+      "case": "coherentSpin1mixed",
+      "theta_deg": 167.7,
+      "phi_rad": 1.17,
+      "I_official_G4_sampler": 1.07368644793851,
+      "I_IT_same_tensor": 0.7666839897990675,
+      "photon_trace": {
+        "IQUV": [
+          1.0736864479385104,
+          -0.07907816597001453,
+          0.16739913217126492,
+          -0.10385440814082299
+        ],
+        "normalized": [
+          -0.07365107953243283,
+          0.15591063153742235,
+          -0.09672694327121718
+        ]
+      },
+      "diagnostic_equivalent_dq0_contraction": {
+        "IQUV": [
+          1.0736864479385102,
+          -0.07907816597001438,
+          -0.16739913217126487,
+          -0.103854408140823
+        ],
+        "normalized": [
+          -0.0736510795324327,
+          -0.15591063153742235,
+          -0.09672694327121723
+        ]
+      },
+      "diagnostic_IQUV_minus_photon": [
+        -2.220446049250313e-16,
+        1.5265566588595902e-16,
+        -0.3347982643425298,
+        -1.3877787807814457e-17
+      ]
+    },
+    {
+      "case": "coherentSpin1mixed",
+      "theta_deg": 167.7,
+      "phi_rad": 2.4,
+      "I_official_G4_sampler": 0.9813741453026326,
+      "I_IT_same_tensor": 0.8558429783786358,
+      "photon_trace": {
+        "IQUV": [
+          0.9813741453026331,
+          -0.0752076044668988,
+          -0.18560752569201047,
+          -0.10883536314361794
+        ],
+        "normalized": [
+          -0.07663499678168768,
+          -0.18913023802433004,
+          -0.1109009888476893
+        ]
+      },
+      "diagnostic_equivalent_dq0_contraction": {
+        "IQUV": [
+          0.9813741453026326,
+          -0.0752076044668987,
+          0.1856075256920103,
+          -0.10883536314361794
+        ],
+        "normalized": [
+          -0.07663499678168763,
+          0.18913023802433,
+          -0.11090098884768937
+        ]
+      },
+      "diagnostic_IQUV_minus_photon": [
+        -5.551115123125783e-16,
+        9.71445146547012e-17,
+        0.3712150513840208,
+        0.0
+      ]
+    },
+    {
+      "case": "PSDSpin2mixed",
+      "theta_deg": 17.3,
+      "phi_rad": 0,
+      "I_official_G4_sampler": 1.0235890094516105,
+      "I_IT_same_tensor": 1.1326780567582455,
+      "photon_trace": {
+        "IQUV": [
+          1.0235890094516102,
+          -0.0014076276548649987,
+          -0.009905573277612201,
+          0.5000092919132056
+        ],
+        "normalized": [
+          -0.0013751883244810705,
+          -0.009677295463458652,
+          0.4884863820305052
+        ]
+      },
+      "diagnostic_equivalent_dq0_contraction": {
+        "IQUV": [
+          1.0235890094516105,
+          -0.0014076276548648972,
+          0.00990557327761216,
+          0.5000092919132062
+        ],
+        "normalized": [
+          -0.0013751883244809712,
+          0.009677295463458607,
+          0.4884863820305056
+        ]
+      },
+      "diagnostic_IQUV_minus_photon": [
+        2.220446049250313e-16,
+        1.0148132334464322e-16,
+        0.01981114655522436,
+        5.551115123125783e-16
+      ]
+    },
+    {
+      "case": "PSDSpin2mixed",
+      "theta_deg": 17.3,
+      "phi_rad": 0.37,
+      "I_official_G4_sampler": 1.1140505874798106,
+      "I_IT_same_tensor": 1.043109642971905,
+      "photon_trace": {
+        "IQUV": [
+          1.1140505874798103,
+          0.0073813203629348656,
+          -0.011161399187545683,
+          0.5532387668053028
+        ],
+        "normalized": [
+          0.0066256599528687335,
+          -0.010018754366258037,
+          0.4966011175999034
+        ]
+      },
+      "diagnostic_equivalent_dq0_contraction": {
+        "IQUV": [
+          1.1140505874798106,
+          0.0073813203629346825,
+          0.011161399187545547,
+          0.5532387668053032
+        ],
+        "normalized": [
+          0.006625659952868569,
+          0.010018754366257916,
+          0.49660111759990366
+        ]
+      },
+      "diagnostic_IQUV_minus_photon": [
+        2.220446049250313e-16,
+        -1.8301332671555315e-16,
+        0.02232279837509123,
+        3.3306690738754696e-16
+      ]
+    },
+    {
+      "case": "PSDSpin2mixed",
+      "theta_deg": 17.3,
+      "phi_rad": 1.17,
+      "I_official_G4_sampler": 1.2766182639743553,
+      "I_IT_same_tensor": 0.873020577624934,
+      "photon_trace": {
+        "IQUV": [
+          1.2766182639743555,
+          -0.004358753653869716,
+          -0.02617624381562358,
+          0.6354582059468892
+        ],
+        "normalized": [
+          -0.0034142968002824014,
+          -0.020504362622959783,
+          0.49776681399542794
+        ]
+      },
+      "diagnostic_equivalent_dq0_contraction": {
+        "IQUV": [
+          1.2766182639743553,
+          -0.004358753653869567,
+          0.026176243815623522,
+          0.6354582059468895
+        ],
+        "normalized": [
+          -0.003414296800282285,
+          0.02050436262295974,
+          0.4977668139954283
+        ]
+      },
+      "diagnostic_IQUV_minus_photon": [
+        -2.220446049250313e-16,
+        1.491862189340054e-16,
+        0.0523524876312471,
+        3.3306690738754696e-16
+      ]
+    },
+    {
+      "case": "PSDSpin2mixed",
+      "theta_deg": 17.3,
+      "phi_rad": 2.4,
+      "I_official_G4_sampler": 1.2765945361272915,
+      "I_IT_same_tensor": 0.8721248910155208,
+      "photon_trace": {
+        "IQUV": [
+          1.2765945361272912,
+          -0.03191885587148268,
+          0.0027626095863428667,
+          0.6804046846487174
+        ],
+        "normalized": [
+          -0.025003127436462727,
+          0.002164046224671764,
+          0.5329841742177669
+        ]
+      },
+      "diagnostic_equivalent_dq0_contraction": {
+        "IQUV": [
+          1.2765945361272915,
+          -0.031918855871482604,
+          -0.002762609586342934,
+          0.6804046846487178
+        ],
+        "normalized": [
+          -0.02500312743646266,
+          -0.0021640462246718165,
+          0.5329841742177671
+        ]
+      },
+      "diagnostic_IQUV_minus_photon": [
+        2.220446049250313e-16,
+        7.632783294297951e-17,
+        -0.005525219172685801,
+        4.440892098500626e-16
+      ]
+    },
+    {
+      "case": "PSDSpin2mixed",
+      "theta_deg": 45,
+      "phi_rad": 0,
+      "I_official_G4_sampler": 0.9258403676129022,
+      "I_IT_same_tensor": 1.1215734022861745,
+      "photon_trace": {
+        "IQUV": [
+          0.9258403676129024,
+          0.04859210057988083,
+          -0.08654210871913695,
+          0.4257044754654683
+        ],
+        "normalized": [
+          0.052484318333587056,
+          -0.0934741147032385,
+          0.45980332069886265
+        ]
+      },
+      "diagnostic_equivalent_dq0_contraction": {
+        "IQUV": [
+          0.9258403676129023,
+          0.04859210057988098,
+          0.08654210871913688,
+          0.42570447546546836
+        ],
+        "normalized": [
+          0.05248431833358722,
+          0.09347411470323845,
+          0.4598033206988628
+        ]
+      },
+      "diagnostic_IQUV_minus_photon": [
+        -1.1102230246251565e-16,
+        1.5265566588595902e-16,
+        0.17308421743827385,
+        5.551115123125783e-17
+      ]
+    },
+    {
+      "case": "PSDSpin2mixed",
+      "theta_deg": 45,
+      "phi_rad": 0.37,
+      "I_official_G4_sampler": 1.0755988213982102,
+      "I_IT_same_tensor": 0.9918166688798529,
+      "photon_trace": {
+        "IQUV": [
+          1.0755988213982106,
+          0.021894962356446675,
+          -0.11009869628976271,
+          0.47230722734727904
+        ],
+        "normalized": [
+          0.020356067634942746,
+          -0.10236037275184195,
+          0.4391109565677187
+        ]
+      },
+      "diagnostic_equivalent_dq0_contraction": {
+        "IQUV": [
+          1.07559882139821,
+          0.021894962356446872,
+          0.11009869628976265,
+          0.47230722734727904
+        ],
+        "normalized": [
+          0.02035606763494294,
+          0.10236037275184195,
+          0.4391109565677189
+        ]
+      },
+      "diagnostic_IQUV_minus_photon": [
+        -6.661338147750939e-16,
+        1.97758476261356e-16,
+        0.22019739257952536,
+        0.0
+      ]
+    },
+    {
+      "case": "PSDSpin2mixed",
+      "theta_deg": 45,
+      "phi_rad": 1.17,
+      "I_official_G4_sampler": 1.3664565141181038,
+      "I_IT_same_tensor": 0.6995149086896921,
+      "photon_trace": {
+        "IQUV": [
+          1.3664565141181046,
+          -0.05074457844768509,
+          -0.0714635298007539,
+          0.4805537702414793
+        ],
+        "normalized": [
+          -0.03713588974357889,
+          -0.05229842959684352,
+          0.3516787876353484
+        ]
+      },
+      "diagnostic_equivalent_dq0_contraction": {
+        "IQUV": [
+          1.366456514118104,
+          -0.0507445784476849,
+          0.07146352980075381,
+          0.4805537702414794
+        ],
+        "normalized": [
+          -0.03713588974357877,
+          0.05229842959684347,
+          0.3516787876353486
+        ]
+      },
+      "diagnostic_IQUV_minus_photon": [
+        -6.661338147750939e-16,
+        1.8735013540549517e-16,
+        0.1429270596015077,
+        5.551115123125783e-17
+      ]
+    },
+    {
+      "case": "PSDSpin2mixed",
+      "theta_deg": 45,
+      "phi_rad": 2.4,
+      "I_official_G4_sampler": 1.3476945375740348,
+      "I_IT_same_tensor": 0.690675252002907,
+      "photon_trace": {
+        "IQUV": [
+          1.347694537574035,
+          -0.06221926504037879,
+          0.06501078047967292,
+          0.6599086407455937
+        ],
+        "normalized": [
+          -0.046167186484541795,
+          0.04823851300658817,
+          0.48965742781260024
+        ]
+      },
+      "diagnostic_equivalent_dq0_contraction": {
+        "IQUV": [
+          1.3476945375740346,
+          -0.06221926504037834,
+          -0.06501078047967275,
+          0.6599086407455936
+        ],
+        "normalized": [
+          -0.046167186484541475,
+          -0.04823851300658806,
+          0.48965742781260035
+        ]
+      },
+      "diagnostic_IQUV_minus_photon": [
+        -4.440892098500626e-16,
+        4.510281037539698e-16,
+        -0.13002156095934567,
+        -1.1102230246251565e-16
+      ]
+    },
+    {
+      "case": "PSDSpin2mixed",
+      "theta_deg": 90,
+      "phi_rad": 0,
+      "I_official_G4_sampler": 0.9051815909369657,
+      "I_IT_same_tensor": 0.9051815909369658,
+      "photon_trace": {
+        "IQUV": [
+          0.9051815909369657,
+          0.024614031860342347,
+          -0.2026940240112636,
+          -0.12593135343367412
+        ],
+        "normalized": [
+          0.027192369030466065,
+          -0.2239263657598828,
+          -0.13912275138441657
+        ]
+      },
+      "diagnostic_equivalent_dq0_contraction": {
+        "IQUV": [
+          0.9051815909369656,
+          0.024614031860342396,
+          0.2026940240112635,
+          -0.1259313534336744
+        ],
+        "normalized": [
+          0.02719236903046612,
+          0.2239263657598827,
+          -0.13912275138441688
+        ]
+      },
+      "diagnostic_IQUV_minus_photon": [
+        -1.1102230246251565e-16,
+        4.85722573273506e-17,
+        0.4053880480225271,
+        -2.7755575615628914e-16
+      ]
+    },
+    {
+      "case": "PSDSpin2mixed",
+      "theta_deg": 90,
+      "phi_rad": 0.37,
+      "I_official_G4_sampler": 0.9433476210670424,
+      "I_IT_same_tensor": 0.9433476210670424,
+      "photon_trace": {
+        "IQUV": [
+          0.9433476210670426,
+          0.01988304186945214,
+          -0.18933186561243917,
+          -0.1435644596289709
+        ],
+        "normalized": [
+          0.021077110309518737,
+          -0.20070211805726662,
+          -0.15218616809207808
+        ]
+      },
+      "diagnostic_equivalent_dq0_contraction": {
+        "IQUV": [
+          0.9433476210670424,
+          0.019883041869452264,
+          0.18933186561243914,
+          -0.14356445962897108
+        ],
+        "normalized": [
+          0.021077110309518875,
+          0.2007021180572666,
+          -0.15218616809207827
+        ]
+      },
+      "diagnostic_IQUV_minus_photon": [
+        -2.220446049250313e-16,
+        1.249000902703301e-16,
+        0.3786637312248783,
+        -1.6653345369377348e-16
+      ]
+    },
+    {
+      "case": "PSDSpin2mixed",
+      "theta_deg": 90,
+      "phi_rad": 1.17,
+      "I_official_G4_sampler": 0.9918131684477586,
+      "I_IT_same_tensor": 0.9918131684477586,
+      "photon_trace": {
+        "IQUV": [
+          0.9918131684477589,
+          0.03918040945030925,
+          -0.08541894544496448,
+          -0.15834423412858248
+        ],
+        "normalized": [
+          0.03950382057502695,
+          -0.08612402835772964,
+          -0.15965127220119466
+        ]
+      },
+      "diagnostic_equivalent_dq0_contraction": {
+        "IQUV": [
+          0.9918131684477586,
+          0.039180409450309386,
+          0.08541894544496444,
+          -0.15834423412858248
+        ],
+        "normalized": [
+          0.039503820575027104,
+          0.08612402835772963,
+          -0.1596512722011947
+        ]
+      },
+      "diagnostic_IQUV_minus_photon": [
+        -3.3306690738754696e-16,
+        1.3877787807814457e-16,
+        0.1708378908899289,
+        0.0
+      ]
+    },
+    {
+      "case": "PSDSpin2mixed",
+      "theta_deg": 90,
+      "phi_rad": 2.4,
+      "I_official_G4_sampler": 0.9369946644447205,
+      "I_IT_same_tensor": 0.9369946644447205,
+      "photon_trace": {
+        "IQUV": [
+          0.9369946644447208,
+          0.0035159458835858754,
+          0.09069531171608376,
+          0.0585879844665133
+        ],
+        "normalized": [
+          0.0037523648927814176,
+          0.09679384009068118,
+          0.06252755398690937
+        ]
+      },
+      "diagnostic_equivalent_dq0_contraction": {
+        "IQUV": [
+          0.9369946644447205,
+          0.0035159458835861104,
+          -0.09069531171608375,
+          0.05858798446651323
+        ],
+        "normalized": [
+          0.00375236489278167,
+          -0.09679384009068119,
+          0.0625275539869093
+        ]
+      },
+      "diagnostic_IQUV_minus_photon": [
+        -3.3306690738754696e-16,
+        2.3505503099485736e-16,
+        -0.1813906234321675,
+        -7.632783294297951e-17
+      ]
+    },
+    {
+      "case": "PSDSpin2mixed",
+      "theta_deg": 138.2,
+      "phi_rad": 0,
+      "I_official_G4_sampler": 1.1303704444443115,
+      "I_IT_same_tensor": 0.9363446679679971,
+      "photon_trace": {
+        "IQUV": [
+          1.1303704444443115,
+          0.0011228880931787638,
+          -0.08861060741810566,
+          -0.6593829102448314
+        ],
+        "normalized": [
+          0.000993380620218511,
+          -0.07839076813589771,
+          -0.5833334669051641
+        ]
+      },
+      "diagnostic_equivalent_dq0_contraction": {
+        "IQUV": [
+          1.1303704444443112,
+          0.001122888093178691,
+          0.08861060741810554,
+          -0.6593829102448313
+        ],
+        "normalized": [
+          0.0009933806202184466,
+          0.07839076813589763,
+          -0.5833334669051642
+        ]
+      },
+      "diagnostic_IQUV_minus_photon": [
+        -2.220446049250313e-16,
+        -7.28583859910259e-17,
+        0.1772212148362112,
+        1.1102230246251565e-16
+      ]
+    },
+    {
+      "case": "PSDSpin2mixed",
+      "theta_deg": 138.2,
+      "phi_rad": 0.37,
+      "I_official_G4_sampler": 0.9969453148061237,
+      "I_IT_same_tensor": 1.085742888772971,
+      "photon_trace": {
+        "IQUV": [
+          0.9969453148061236,
+          0.019687895896782423,
+          -0.08796553140588413,
+          -0.5596968423952623
+        ],
+        "normalized": [
+          0.019748220493529412,
+          -0.08823506174256993,
+          -0.5614117786431514
+        ]
+      },
+      "diagnostic_equivalent_dq0_contraction": {
+        "IQUV": [
+          0.9969453148061236,
+          0.019687895896782572,
+          0.08796553140588403,
+          -0.5596968423952625
+        ],
+        "normalized": [
+          0.019748220493529565,
+          0.08823506174256983,
+          -0.5614117786431516
+        ]
+      },
+      "diagnostic_IQUV_minus_photon": [
+        0.0,
+        1.491862189340054e-16,
+        0.17593106281176818,
+        -2.220446049250313e-16
+      ]
+    },
+    {
+      "case": "PSDSpin2mixed",
+      "theta_deg": 138.2,
+      "phi_rad": 1.17,
+      "I_official_G4_sampler": 0.7038902520171133,
+      "I_IT_same_tensor": 1.3725716243540946,
+      "photon_trace": {
+        "IQUV": [
+          0.703890252017113,
+          0.10468789093264258,
+          -0.0757937936860377,
+          -0.2782623355328857
+        ],
+        "normalized": [
+          0.14872757597174027,
+          -0.10767842496587807,
+          -0.39532062666797746
+        ]
+      },
+      "diagnostic_equivalent_dq0_contraction": {
+        "IQUV": [
+          0.7038902520171132,
+          0.10468789093264248,
+          0.07579379368603767,
+          -0.2782623355328861
+        ],
+        "normalized": [
+          0.1487275759717401,
+          0.10767842496587798,
+          -0.3953206266679779
+        ]
+      },
+      "diagnostic_IQUV_minus_photon": [
+        2.220446049250313e-16,
+        -9.71445146547012e-17,
+        0.15158758737207537,
+        -3.885780586188048e-16
+      ]
+    },
+    {
+      "case": "PSDSpin2mixed",
+      "theta_deg": 138.2,
+      "phi_rad": 2.4,
+      "I_official_G4_sampler": 0.6971348909890084,
+      "I_IT_same_tensor": 1.3574977338514764,
+      "photon_trace": {
+        "IQUV": [
+          0.6971348909890079,
+          0.061876401476761614,
+          0.05201339956521721,
+          -0.25483287876969263
+        ],
+        "normalized": [
+          0.08875814749277447,
+          0.07461023718297485,
+          -0.36554314245865327
+        ]
+      },
+      "diagnostic_equivalent_dq0_contraction": {
+        "IQUV": [
+          0.6971348909890083,
+          0.061876401476761586,
+          -0.052013399565217125,
+          -0.2548328787696931
+        ],
+        "normalized": [
+          0.08875814749277439,
+          -0.07461023718297471,
+          -0.36554314245865377
+        ]
+      },
+      "diagnostic_IQUV_minus_photon": [
+        3.3306690738754696e-16,
+        -2.7755575615628914e-17,
+        -0.10402679913043433,
+        -4.996003610813204e-16
+      ]
+    },
+    {
+      "case": "PSDSpin2mixed",
+      "theta_deg": 167.7,
+      "phi_rad": 0,
+      "I_official_G4_sampler": 1.1214835250999093,
+      "I_IT_same_tensor": 1.0416691051228455,
+      "photon_trace": {
+        "IQUV": [
+          1.121483525099909,
+          -0.031522500593763006,
+          -0.026049107328037745,
+          -0.5913904620726117
+        ],
+        "normalized": [
+          -0.02810785882115814,
+          -0.023227365132909218,
+          -0.527328711333434
+        ]
+      },
+      "diagnostic_equivalent_dq0_contraction": {
+        "IQUV": [
+          1.1214835250999091,
+          -0.0315225005937632,
+          0.026049107328037686,
+          -0.5913904620726124
+        ],
+        "normalized": [
+          -0.02810785882115831,
+          0.023227365132909163,
+          -0.5273287113334344
+        ]
+      },
+      "diagnostic_IQUV_minus_photon": [
+        2.220446049250313e-16,
+        -1.942890293094024e-16,
+        0.052098214656075434,
+        -6.661338147750939e-16
+      ]
+    },
+    {
+      "case": "PSDSpin2mixed",
+      "theta_deg": 167.7,
+      "phi_rad": 0.37,
+      "I_official_G4_sampler": 1.054835602574058,
+      "I_IT_same_tensor": 1.1086334372942948,
+      "photon_trace": {
+        "IQUV": [
+          1.054835602574058,
+          -0.016804473928092523,
+          -0.04679605724840385,
+          -0.5436753258071928
+        ],
+        "normalized": [
+          -0.015930893768740344,
+          -0.0443633653758083,
+          -0.5154123775121844
+        ]
+      },
+      "diagnostic_equivalent_dq0_contraction": {
+        "IQUV": [
+          1.0548356025740575,
+          -0.016804473928092614,
+          0.04679605724840385,
+          -0.5436753258071931
+        ],
+        "normalized": [
+          -0.015930893768740434,
+          0.04436336537580832,
+          -0.5154123775121848
+        ]
+      },
+      "diagnostic_IQUV_minus_photon": [
+        -4.440892098500626e-16,
+        -9.020562075079397e-17,
+        0.0935921144968077,
+        -3.3306690738754696e-16
+      ]
+    },
+    {
+      "case": "PSDSpin2mixed",
+      "theta_deg": 167.7,
+      "phi_rad": 1.17,
+      "I_official_G4_sampler": 0.9307189017013704,
+      "I_IT_same_tensor": 1.2285002377393497,
+      "photon_trace": {
+        "IQUV": [
+          0.9307189017013701,
+          0.051908405032220294,
+          -0.03737654062687256,
+          -0.4401461370060537
+        ],
+        "normalized": [
+          0.055772376533162527,
+          -0.04015878538466083,
+          -0.47290985087061094
+        ]
+      },
+      "diagnostic_equivalent_dq0_contraction": {
+        "IQUV": [
+          0.9307189017013705,
+          0.05190840503222026,
+          0.03737654062687256,
+          -0.44014613700605437
+        ],
+        "normalized": [
+          0.055772376533162464,
+          0.04015878538466081,
+          -0.47290985087061144
+        ]
+      },
+      "diagnostic_IQUV_minus_photon": [
+        4.440892098500626e-16,
+        -3.469446951953614e-17,
+        0.07475308125374512,
+        -6.661338147750939e-16
+      ]
+    },
+    {
+      "case": "PSDSpin2mixed",
+      "theta_deg": 167.7,
+      "phi_rad": 2.4,
+      "I_official_G4_sampler": 0.9300202665550135,
+      "I_IT_same_tensor": 1.2289397354829235,
+      "photon_trace": {
+        "IQUV": [
+          0.9300202665550134,
+          0.001289935405190099,
+          0.04032875918783141,
+          -0.43137991297103284
+        ],
+        "normalized": [
+          0.0013869970919755173,
+          0.04336331221814923,
+          -0.4638392608033725
+        ]
+      },
+      "diagnostic_equivalent_dq0_contraction": {
+        "IQUV": [
+          0.9300202665550134,
+          0.0012899354051900585,
+          -0.040328759187831326,
+          -0.43137991297103334
+        ],
+        "normalized": [
+          0.0013869970919754737,
+          -0.04336331221814913,
+          -0.463839260803373
+        ]
+      },
+      "diagnostic_IQUV_minus_photon": [
+        0.0,
+        -4.0549161250957866e-17,
+        -0.08065751837566273,
+        -4.996003610813204e-16
+      ]
+    },
+    {
+      "case": "PSDSpin2electric",
+      "theta_deg": 17.3,
+      "phi_rad": 0,
+      "I_official_G4_sampler": 1.0235890094516105,
+      "I_IT_same_tensor": 1.1326780567582455,
+      "photon_trace": {
+        "IQUV": [
+          1.0235890094516102,
+          0.0014076276548649987,
+          0.009905573277612201,
+          0.500009291913206
+        ],
+        "normalized": [
+          0.0013751883244810705,
+          0.009677295463458652,
+          0.4884863820305055
+        ]
+      },
+      "diagnostic_equivalent_dq0_contraction": {
+        "IQUV": [
+          1.0235890094516105,
+          0.0014076276548648972,
+          -0.00990557327761216,
+          0.5000092919132062
+        ],
+        "normalized": [
+          0.0013751883244809712,
+          -0.009677295463458607,
+          0.4884863820305056
+        ]
+      },
+      "diagnostic_IQUV_minus_photon": [
+        2.220446049250313e-16,
+        -1.0148132334464322e-16,
+        -0.01981114655522436,
+        2.220446049250313e-16
+      ]
+    },
+    {
+      "case": "PSDSpin2electric",
+      "theta_deg": 17.3,
+      "phi_rad": 0.37,
+      "I_official_G4_sampler": 1.1140505874798106,
+      "I_IT_same_tensor": 1.043109642971905,
+      "photon_trace": {
+        "IQUV": [
+          1.1140505874798103,
+          -0.0073813203629348656,
+          0.011161399187545672,
+          0.5532387668053028
+        ],
+        "normalized": [
+          -0.0066256599528687335,
+          0.010018754366258029,
+          0.4966011175999034
+        ]
+      },
+      "diagnostic_equivalent_dq0_contraction": {
+        "IQUV": [
+          1.1140505874798106,
+          -0.0073813203629346825,
+          -0.011161399187545547,
+          0.5532387668053032
+        ],
+        "normalized": [
+          -0.006625659952868569,
+          -0.010018754366257916,
+          0.49660111759990366
+        ]
+      },
+      "diagnostic_IQUV_minus_photon": [
+        2.220446049250313e-16,
+        1.8301332671555315e-16,
+        -0.02232279837509122,
+        3.3306690738754696e-16
+      ]
+    },
+    {
+      "case": "PSDSpin2electric",
+      "theta_deg": 17.3,
+      "phi_rad": 1.17,
+      "I_official_G4_sampler": 1.2766182639743553,
+      "I_IT_same_tensor": 0.873020577624934,
+      "photon_trace": {
+        "IQUV": [
+          1.2766182639743555,
+          0.004358753653869716,
+          0.02617624381562359,
+          0.6354582059468892
+        ],
+        "normalized": [
+          0.0034142968002824014,
+          0.02050436262295979,
+          0.49776681399542794
+        ]
+      },
+      "diagnostic_equivalent_dq0_contraction": {
+        "IQUV": [
+          1.2766182639743553,
+          0.004358753653869567,
+          -0.026176243815623522,
+          0.6354582059468895
+        ],
+        "normalized": [
+          0.003414296800282285,
+          -0.02050436262295974,
+          0.4977668139954283
+        ]
+      },
+      "diagnostic_IQUV_minus_photon": [
+        -2.220446049250313e-16,
+        -1.491862189340054e-16,
+        -0.05235248763124711,
+        3.3306690738754696e-16
+      ]
+    },
+    {
+      "case": "PSDSpin2electric",
+      "theta_deg": 17.3,
+      "phi_rad": 2.4,
+      "I_official_G4_sampler": 1.2765945361272915,
+      "I_IT_same_tensor": 0.8721248910155208,
+      "photon_trace": {
+        "IQUV": [
+          1.2765945361272912,
+          0.03191885587148268,
+          -0.0027626095863429864,
+          0.6804046846487173
+        ],
+        "normalized": [
+          0.025003127436462727,
+          -0.002164046224671858,
+          0.5329841742177667
+        ]
+      },
+      "diagnostic_equivalent_dq0_contraction": {
+        "IQUV": [
+          1.2765945361272915,
+          0.031918855871482604,
+          0.002762609586342934,
+          0.6804046846487178
+        ],
+        "normalized": [
+          0.02500312743646266,
+          0.0021640462246718165,
+          0.5329841742177671
+        ]
+      },
+      "diagnostic_IQUV_minus_photon": [
+        2.220446049250313e-16,
+        -7.632783294297951e-17,
+        0.005525219172685921,
+        5.551115123125783e-16
+      ]
+    },
+    {
+      "case": "PSDSpin2electric",
+      "theta_deg": 45,
+      "phi_rad": 0,
+      "I_official_G4_sampler": 0.9258403676129022,
+      "I_IT_same_tensor": 1.1215734022861745,
+      "photon_trace": {
+        "IQUV": [
+          0.9258403676129024,
+          -0.04859210057988083,
+          0.0865421087191369,
+          0.4257044754654683
+        ],
+        "normalized": [
+          -0.052484318333587056,
+          0.09347411470323845,
+          0.45980332069886265
+        ]
+      },
+      "diagnostic_equivalent_dq0_contraction": {
+        "IQUV": [
+          0.9258403676129023,
+          -0.04859210057988098,
+          -0.08654210871913688,
+          0.42570447546546836
+        ],
+        "normalized": [
+          -0.05248431833358722,
+          -0.09347411470323845,
+          0.4598033206988628
+        ]
+      },
+      "diagnostic_IQUV_minus_photon": [
+        -1.1102230246251565e-16,
+        -1.5265566588595902e-16,
+        -0.1730842174382738,
+        5.551115123125783e-17
+      ]
+    },
+    {
+      "case": "PSDSpin2electric",
+      "theta_deg": 45,
+      "phi_rad": 0.37,
+      "I_official_G4_sampler": 1.0755988213982102,
+      "I_IT_same_tensor": 0.9918166688798529,
+      "photon_trace": {
+        "IQUV": [
+          1.0755988213982106,
+          -0.021894962356446675,
+          0.11009869628976279,
+          0.4723072273472792
+        ],
+        "normalized": [
+          -0.020356067634942746,
+          0.10236037275184204,
+          0.43911095656771887
+        ]
+      },
+      "diagnostic_equivalent_dq0_contraction": {
+        "IQUV": [
+          1.07559882139821,
+          -0.021894962356446872,
+          -0.11009869628976265,
+          0.47230722734727904
+        ],
+        "normalized": [
+          -0.02035606763494294,
+          -0.10236037275184195,
+          0.4391109565677189
+        ]
+      },
+      "diagnostic_IQUV_minus_photon": [
+        -6.661338147750939e-16,
+        -1.97758476261356e-16,
+        -0.22019739257952545,
+        -1.6653345369377348e-16
+      ]
+    },
+    {
+      "case": "PSDSpin2electric",
+      "theta_deg": 45,
+      "phi_rad": 1.17,
+      "I_official_G4_sampler": 1.3664565141181038,
+      "I_IT_same_tensor": 0.6995149086896921,
+      "photon_trace": {
+        "IQUV": [
+          1.3664565141181046,
+          0.05074457844768509,
+          0.07146352980075386,
+          0.4805537702414795
+        ],
+        "normalized": [
+          0.03713588974357889,
+          0.052298429596843485,
+          0.3516787876353485
+        ]
+      },
+      "diagnostic_equivalent_dq0_contraction": {
+        "IQUV": [
+          1.366456514118104,
+          0.0507445784476849,
+          -0.07146352980075381,
+          0.4805537702414794
+        ],
+        "normalized": [
+          0.03713588974357877,
+          -0.05229842959684347,
+          0.3516787876353486
+        ]
+      },
+      "diagnostic_IQUV_minus_photon": [
+        -6.661338147750939e-16,
+        -1.8735013540549517e-16,
+        -0.14292705960150767,
+        -1.1102230246251565e-16
+      ]
+    },
+    {
+      "case": "PSDSpin2electric",
+      "theta_deg": 45,
+      "phi_rad": 2.4,
+      "I_official_G4_sampler": 1.3476945375740348,
+      "I_IT_same_tensor": 0.690675252002907,
+      "photon_trace": {
+        "IQUV": [
+          1.347694537574035,
+          0.06221926504037879,
+          -0.0650107804796728,
+          0.6599086407455937
+        ],
+        "normalized": [
+          0.046167186484541795,
+          -0.04823851300658809,
+          0.48965742781260024
+        ]
+      },
+      "diagnostic_equivalent_dq0_contraction": {
+        "IQUV": [
+          1.3476945375740346,
+          0.06221926504037834,
+          0.06501078047967275,
+          0.6599086407455936
+        ],
+        "normalized": [
+          0.046167186484541475,
+          0.04823851300658806,
+          0.48965742781260035
+        ]
+      },
+      "diagnostic_IQUV_minus_photon": [
+        -4.440892098500626e-16,
+        -4.510281037539698e-16,
+        0.13002156095934556,
+        -1.1102230246251565e-16
+      ]
+    },
+    {
+      "case": "PSDSpin2electric",
+      "theta_deg": 90,
+      "phi_rad": 0,
+      "I_official_G4_sampler": 0.9051815909369657,
+      "I_IT_same_tensor": 0.9051815909369658,
+      "photon_trace": {
+        "IQUV": [
+          0.9051815909369657,
+          -0.024614031860342347,
+          0.2026940240112636,
+          -0.12593135343367418
+        ],
+        "normalized": [
+          -0.027192369030466065,
+          0.2239263657598828,
+          -0.1391227513844166
+        ]
+      },
+      "diagnostic_equivalent_dq0_contraction": {
+        "IQUV": [
+          0.9051815909369656,
+          -0.024614031860342396,
+          -0.2026940240112635,
+          -0.1259313534336744
+        ],
+        "normalized": [
+          -0.02719236903046612,
+          -0.2239263657598827,
+          -0.13912275138441688
+        ]
+      },
+      "diagnostic_IQUV_minus_photon": [
+        -1.1102230246251565e-16,
+        -4.85722573273506e-17,
+        -0.4053880480225271,
+        -2.220446049250313e-16
+      ]
+    },
+    {
+      "case": "PSDSpin2electric",
+      "theta_deg": 90,
+      "phi_rad": 0.37,
+      "I_official_G4_sampler": 0.9433476210670424,
+      "I_IT_same_tensor": 0.9433476210670424,
+      "photon_trace": {
+        "IQUV": [
+          0.9433476210670426,
+          -0.01988304186945214,
+          0.18933186561243917,
+          -0.1435644596289709
+        ],
+        "normalized": [
+          -0.021077110309518737,
+          0.20070211805726662,
+          -0.15218616809207808
+        ]
+      },
+      "diagnostic_equivalent_dq0_contraction": {
+        "IQUV": [
+          0.9433476210670424,
+          -0.019883041869452264,
+          -0.18933186561243914,
+          -0.14356445962897108
+        ],
+        "normalized": [
+          -0.021077110309518875,
+          -0.2007021180572666,
+          -0.15218616809207827
+        ]
+      },
+      "diagnostic_IQUV_minus_photon": [
+        -2.220446049250313e-16,
+        -1.249000902703301e-16,
+        -0.3786637312248783,
+        -1.6653345369377348e-16
+      ]
+    },
+    {
+      "case": "PSDSpin2electric",
+      "theta_deg": 90,
+      "phi_rad": 1.17,
+      "I_official_G4_sampler": 0.9918131684477586,
+      "I_IT_same_tensor": 0.9918131684477586,
+      "photon_trace": {
+        "IQUV": [
+          0.9918131684477589,
+          -0.03918040945030925,
+          0.08541894544496448,
+          -0.1583442341285824
+        ],
+        "normalized": [
+          -0.03950382057502695,
+          0.08612402835772964,
+          -0.15965127220119457
+        ]
+      },
+      "diagnostic_equivalent_dq0_contraction": {
+        "IQUV": [
+          0.9918131684477586,
+          -0.039180409450309386,
+          -0.08541894544496444,
+          -0.15834423412858248
+        ],
+        "normalized": [
+          -0.039503820575027104,
+          -0.08612402835772963,
+          -0.1596512722011947
+        ]
+      },
+      "diagnostic_IQUV_minus_photon": [
+        -3.3306690738754696e-16,
+        -1.3877787807814457e-16,
+        -0.1708378908899289,
+        -8.326672684688674e-17
+      ]
+    },
+    {
+      "case": "PSDSpin2electric",
+      "theta_deg": 90,
+      "phi_rad": 2.4,
+      "I_official_G4_sampler": 0.9369946644447205,
+      "I_IT_same_tensor": 0.9369946644447205,
+      "photon_trace": {
+        "IQUV": [
+          0.9369946644447208,
+          -0.0035159458835858754,
+          -0.09069531171608382,
+          0.0585879844665133
+        ],
+        "normalized": [
+          -0.0037523648927814176,
+          -0.09679384009068122,
+          0.06252755398690937
+        ]
+      },
+      "diagnostic_equivalent_dq0_contraction": {
+        "IQUV": [
+          0.9369946644447205,
+          -0.0035159458835861104,
+          0.09069531171608375,
+          0.05858798446651323
+        ],
+        "normalized": [
+          -0.00375236489278167,
+          0.09679384009068119,
+          0.0625275539869093
+        ]
+      },
+      "diagnostic_IQUV_minus_photon": [
+        -3.3306690738754696e-16,
+        -2.3505503099485736e-16,
+        0.18139062343216755,
+        -7.632783294297951e-17
+      ]
+    },
+    {
+      "case": "PSDSpin2electric",
+      "theta_deg": 138.2,
+      "phi_rad": 0,
+      "I_official_G4_sampler": 1.1303704444443115,
+      "I_IT_same_tensor": 0.9363446679679971,
+      "photon_trace": {
+        "IQUV": [
+          1.1303704444443115,
+          -0.0011228880931787638,
+          0.08861060741810567,
+          -0.6593829102448314
+        ],
+        "normalized": [
+          -0.000993380620218511,
+          0.07839076813589772,
+          -0.5833334669051641
+        ]
+      },
+      "diagnostic_equivalent_dq0_contraction": {
+        "IQUV": [
+          1.1303704444443112,
+          -0.001122888093178691,
+          -0.08861060741810554,
+          -0.6593829102448313
+        ],
+        "normalized": [
+          -0.0009933806202184466,
+          -0.07839076813589763,
+          -0.5833334669051642
+        ]
+      },
+      "diagnostic_IQUV_minus_photon": [
+        -2.220446049250313e-16,
+        7.28583859910259e-17,
+        -0.17722121483621123,
+        1.1102230246251565e-16
+      ]
+    },
+    {
+      "case": "PSDSpin2electric",
+      "theta_deg": 138.2,
+      "phi_rad": 0.37,
+      "I_official_G4_sampler": 0.9969453148061237,
+      "I_IT_same_tensor": 1.085742888772971,
+      "photon_trace": {
+        "IQUV": [
+          0.9969453148061236,
+          -0.019687895896782423,
+          0.08796553140588415,
+          -0.5596968423952624
+        ],
+        "normalized": [
+          -0.019748220493529412,
+          0.08823506174256994,
+          -0.5614117786431515
+        ]
+      },
+      "diagnostic_equivalent_dq0_contraction": {
+        "IQUV": [
+          0.9969453148061236,
+          -0.019687895896782572,
+          -0.08796553140588403,
+          -0.5596968423952625
+        ],
+        "normalized": [
+          -0.019748220493529565,
+          -0.08823506174256983,
+          -0.5614117786431516
+        ]
+      },
+      "diagnostic_IQUV_minus_photon": [
+        0.0,
+        -1.491862189340054e-16,
+        -0.17593106281176818,
+        -1.1102230246251565e-16
+      ]
+    },
+    {
+      "case": "PSDSpin2electric",
+      "theta_deg": 138.2,
+      "phi_rad": 1.17,
+      "I_official_G4_sampler": 0.7038902520171133,
+      "I_IT_same_tensor": 1.3725716243540946,
+      "photon_trace": {
+        "IQUV": [
+          0.703890252017113,
+          -0.10468789093264258,
+          0.0757937936860377,
+          -0.2782623355328857
+        ],
+        "normalized": [
+          -0.14872757597174027,
+          0.10767842496587807,
+          -0.39532062666797746
+        ]
+      },
+      "diagnostic_equivalent_dq0_contraction": {
+        "IQUV": [
+          0.7038902520171132,
+          -0.10468789093264248,
+          -0.07579379368603767,
+          -0.2782623355328861
+        ],
+        "normalized": [
+          -0.1487275759717401,
+          -0.10767842496587798,
+          -0.3953206266679779
+        ]
+      },
+      "diagnostic_IQUV_minus_photon": [
+        2.220446049250313e-16,
+        9.71445146547012e-17,
+        -0.15158758737207537,
+        -3.885780586188048e-16
+      ]
+    },
+    {
+      "case": "PSDSpin2electric",
+      "theta_deg": 138.2,
+      "phi_rad": 2.4,
+      "I_official_G4_sampler": 0.6971348909890084,
+      "I_IT_same_tensor": 1.3574977338514764,
+      "photon_trace": {
+        "IQUV": [
+          0.6971348909890079,
+          -0.061876401476761614,
+          -0.05201339956521717,
+          -0.25483287876969274
+        ],
+        "normalized": [
+          -0.08875814749277447,
+          -0.0746102371829748,
+          -0.3655431424586534
+        ]
+      },
+      "diagnostic_equivalent_dq0_contraction": {
+        "IQUV": [
+          0.6971348909890083,
+          -0.061876401476761586,
+          0.052013399565217125,
+          -0.2548328787696931
+        ],
+        "normalized": [
+          -0.08875814749277439,
+          0.07461023718297471,
+          -0.36554314245865377
+        ]
+      },
+      "diagnostic_IQUV_minus_photon": [
+        3.3306690738754696e-16,
+        2.7755575615628914e-17,
+        0.10402679913043429,
+        -3.885780586188048e-16
+      ]
+    },
+    {
+      "case": "PSDSpin2electric",
+      "theta_deg": 167.7,
+      "phi_rad": 0,
+      "I_official_G4_sampler": 1.1214835250999093,
+      "I_IT_same_tensor": 1.0416691051228455,
+      "photon_trace": {
+        "IQUV": [
+          1.121483525099909,
+          0.031522500593763006,
+          0.02604910732803776,
+          -0.5913904620726116
+        ],
+        "normalized": [
+          0.02810785882115814,
+          0.023227365132909232,
+          -0.5273287113334337
+        ]
+      },
+      "diagnostic_equivalent_dq0_contraction": {
+        "IQUV": [
+          1.1214835250999091,
+          0.0315225005937632,
+          -0.026049107328037686,
+          -0.5913904620726124
+        ],
+        "normalized": [
+          0.02810785882115831,
+          -0.023227365132909163,
+          -0.5273287113334344
+        ]
+      },
+      "diagnostic_IQUV_minus_photon": [
+        2.220446049250313e-16,
+        1.942890293094024e-16,
+        -0.05209821465607545,
+        -7.771561172376096e-16
+      ]
+    },
+    {
+      "case": "PSDSpin2electric",
+      "theta_deg": 167.7,
+      "phi_rad": 0.37,
+      "I_official_G4_sampler": 1.054835602574058,
+      "I_IT_same_tensor": 1.1086334372942948,
+      "photon_trace": {
+        "IQUV": [
+          1.054835602574058,
+          0.016804473928092523,
+          0.046796057248404035,
+          -0.5436753258071928
+        ],
+        "normalized": [
+          0.015930893768740344,
+          0.044363365375808476,
+          -0.5154123775121844
+        ]
+      },
+      "diagnostic_equivalent_dq0_contraction": {
+        "IQUV": [
+          1.0548356025740575,
+          0.016804473928092614,
+          -0.04679605724840385,
+          -0.5436753258071931
+        ],
+        "normalized": [
+          0.015930893768740434,
+          -0.04436336537580832,
+          -0.5154123775121848
+        ]
+      },
+      "diagnostic_IQUV_minus_photon": [
+        -4.440892098500626e-16,
+        9.020562075079397e-17,
+        -0.09359211449680788,
+        -3.3306690738754696e-16
+      ]
+    },
+    {
+      "case": "PSDSpin2electric",
+      "theta_deg": 167.7,
+      "phi_rad": 1.17,
+      "I_official_G4_sampler": 0.9307189017013704,
+      "I_IT_same_tensor": 1.2285002377393497,
+      "photon_trace": {
+        "IQUV": [
+          0.9307189017013701,
+          -0.051908405032220294,
+          0.0373765406268726,
+          -0.4401461370060538
+        ],
+        "normalized": [
+          -0.055772376533162527,
+          0.04015878538466088,
+          -0.47290985087061105
+        ]
+      },
+      "diagnostic_equivalent_dq0_contraction": {
+        "IQUV": [
+          0.9307189017013705,
+          -0.05190840503222026,
+          -0.03737654062687256,
+          -0.44014613700605437
+        ],
+        "normalized": [
+          -0.055772376533162464,
+          -0.04015878538466081,
+          -0.47290985087061144
+        ]
+      },
+      "diagnostic_IQUV_minus_photon": [
+        4.440892098500626e-16,
+        3.469446951953614e-17,
+        -0.07475308125374516,
+        -5.551115123125783e-16
+      ]
+    },
+    {
+      "case": "PSDSpin2electric",
+      "theta_deg": 167.7,
+      "phi_rad": 2.4,
+      "I_official_G4_sampler": 0.9300202665550135,
+      "I_IT_same_tensor": 1.2289397354829235,
+      "photon_trace": {
+        "IQUV": [
+          0.9300202665550134,
+          -0.001289935405190099,
+          -0.040328759187831444,
+          -0.43137991297103284
+        ],
+        "normalized": [
+          -0.0013869970919755173,
+          -0.043363312218149264,
+          -0.4638392608033725
+        ]
+      },
+      "diagnostic_equivalent_dq0_contraction": {
+        "IQUV": [
+          0.9300202665550134,
+          -0.0012899354051900585,
+          0.040328759187831326,
+          -0.43137991297103334
+        ],
+        "normalized": [
+          -0.0013869970919754737,
+          0.04336331221814913,
+          -0.463839260803373
+        ]
+      },
+      "diagnostic_IQUV_minus_photon": [
+        0.0,
+        4.0549161250957866e-17,
+        0.08065751837566276,
+        -4.996003610813204e-16
+      ]
+    },
+    {
+      "case": "PSDhalfSpinMixed",
+      "theta_deg": 17.3,
+      "phi_rad": 0,
+      "I_official_G4_sampler": 0.7393590478832976,
+      "I_IT_same_tensor": 1.0135057346936402,
+      "photon_trace": {
+        "IQUV": [
+          0.7393590478832973,
+          -0.06848718206662961,
+          0.08322830037368394,
+          -0.10378334621218481
+        ],
+        "normalized": [
+          -0.09263047806434613,
+          0.11256817727727456,
+          -0.14036934627270062
+        ]
+      },
+      "diagnostic_equivalent_dq0_contraction": {
+        "IQUV": [
+          0.7393590478832976,
+          -0.0684871820666296,
+          -0.08322830037368406,
+          -0.10378334621218509
+        ],
+        "normalized": [
+          -0.09263047806434607,
+          -0.11256817727727467,
+          -0.14036934627270095
+        ]
+      },
+      "diagnostic_IQUV_minus_photon": [
+        3.3306690738754696e-16,
+        1.3877787807814457e-17,
+        -0.166456600747368,
+        -2.7755575615628914e-16
+      ]
+    },
+    {
+      "case": "PSDhalfSpinMixed",
+      "theta_deg": 17.3,
+      "phi_rad": 0.37,
+      "I_official_G4_sampler": 0.7961479809501536,
+      "I_IT_same_tensor": 1.0127962766886027,
+      "photon_trace": {
+        "IQUV": [
+          0.7961479809501534,
+          0.0113234037671507,
+          0.11031441643949431,
+          -0.05619549538742446
+        ],
+        "normalized": [
+          0.014222737528815834,
+          0.138560191169286,
+          -0.07058423400177265
+        ]
+      },
+      "diagnostic_equivalent_dq0_contraction": {
+        "IQUV": [
+          0.7961479809501535,
+          0.011323403767150679,
+          -0.11031441643949448,
+          -0.056195495387424604
+        ],
+        "normalized": [
+          0.014222737528815806,
+          -0.1385601911692862,
+          -0.07058423400177283
+        ]
+      },
+      "diagnostic_IQUV_minus_photon": [
+        1.1102230246251565e-16,
+        -2.0816681711721685e-17,
+        -0.2206288328789888,
+        -1.457167719820518e-16
+      ]
+    },
+    {
+      "case": "PSDhalfSpinMixed",
+      "theta_deg": 17.3,
+      "phi_rad": 1.17,
+      "I_official_G4_sampler": 0.9429207641486101,
+      "I_IT_same_tensor": 0.9507142706398987,
+      "photon_trace": {
+        "IQUV": [
+          0.9429207641486097,
+          0.12341908685550006,
+          -0.0233176117588868,
+          -0.011625868385784196
+        ],
+        "normalized": [
+          0.1308901994187589,
+          -0.024729131699566444,
+          -0.012329634501454136
+        ]
+      },
+      "diagnostic_equivalent_dq0_contraction": {
+        "IQUV": [
+          0.94292076414861,
+          0.1234190868555,
+          0.023317611758886806,
+          -0.011625868385784483
+        ],
+        "normalized": [
+          0.1308901994187588,
+          0.024729131699566444,
+          -0.012329634501454436
+        ]
+      },
+      "diagnostic_IQUV_minus_photon": [
+        3.3306690738754696e-16,
+        -5.551115123125783e-17,
+        0.046635223517773605,
+        -2.8796409701215e-16
+      ]
+    },
+    {
+      "case": "PSDhalfSpinMixed",
+      "theta_deg": 17.3,
+      "phi_rad": 2.4,
+      "I_official_G4_sampler": 1.009592718385688,
+      "I_IT_same_tensor": 0.7346909628554583,
+      "photon_trace": {
+        "IQUV": [
+          1.0095927183856874,
+          -0.1192557318058443,
+          -0.08469987092103586,
+          -0.17369708973811998
+        ],
+        "normalized": [
+          -0.11812261482682948,
+          -0.08389508895871273,
+          -0.17204669425098182
+        ]
+      },
+      "diagnostic_equivalent_dq0_contraction": {
+        "IQUV": [
+          1.009592718385688,
+          -0.1192557318058444,
+          0.08469987092103601,
+          -0.17369708973812023
+        ],
+        "normalized": [
+          -0.11812261482682951,
+          0.08389508895871282,
+          -0.17204669425098199
+        ]
+      },
+      "diagnostic_IQUV_minus_photon": [
+        6.661338147750939e-16,
+        -9.71445146547012e-17,
+        0.16939974184207185,
+        -2.498001805406602e-16
+      ]
+    },
+    {
+      "case": "PSDhalfSpinMixed",
+      "theta_deg": 45,
+      "phi_rad": 0,
+      "I_official_G4_sampler": 0.5695844909401753,
+      "I_IT_same_tensor": 1.0523699212608109,
+      "photon_trace": {
+        "IQUV": [
+          0.5695844909401755,
+          -0.045018868923193844,
+          0.048875182577875126,
+          0.12679844735444595
+        ],
+        "normalized": [
+          -0.07903808765734503,
+          0.08580848558077853,
+          0.22261569507475198
+        ]
+      },
+      "diagnostic_equivalent_dq0_contraction": {
+        "IQUV": [
+          0.5695844909401754,
+          -0.04501886892319377,
+          -0.04887518257787516,
+          0.126798447354446
+        ],
+        "normalized": [
+          -0.07903808765734492,
+          -0.08580848558077861,
+          0.22261569507475215
+        ]
+      },
+      "diagnostic_IQUV_minus_photon": [
+        -1.1102230246251565e-16,
+        7.632783294297951e-17,
+        -0.09775036515575028,
+        5.551115123125783e-17
+      ]
+    },
+    {
+      "case": "PSDhalfSpinMixed",
+      "theta_deg": 45,
+      "phi_rad": 0.37,
+      "I_official_G4_sampler": 0.7787519409998276,
+      "I_IT_same_tensor": 1.1602799539890165,
+      "photon_trace": {
+        "IQUV": [
+          0.7787519409998277,
+          0.013728096910580528,
+          0.058049738833809886,
+          0.23130199235439372
+        ],
+        "normalized": [
+          0.017628330907214478,
+          0.07454201495701021,
+          0.29701626432857253
+        ]
+      },
+      "diagnostic_equivalent_dq0_contraction": {
+        "IQUV": [
+          0.7787519409998277,
+          0.013728096910580537,
+          -0.05804973883380994,
+          0.23130199235439383
+        ],
+        "normalized": [
+          0.01762833090721449,
+          -0.07454201495701028,
+          0.29701626432857264
+        ]
+      },
+      "diagnostic_IQUV_minus_photon": [
+        0.0,
+        8.673617379884035e-18,
+        -0.11609947766761983,
+        1.1102230246251565e-16
+      ]
+    },
+    {
+      "case": "PSDhalfSpinMixed",
+      "theta_deg": 45,
+      "phi_rad": 1.17,
+      "I_official_G4_sampler": 1.202077524757049,
+      "I_IT_same_tensor": 1.2158022625201812,
+      "photon_trace": {
+        "IQUV": [
+          1.2020775247570485,
+          0.08759527367226279,
+          -0.05216631700898098,
+          0.4533751616797132
+        ],
+        "normalized": [
+          0.07286990386910913,
+          -0.04339679923682484,
+          0.37715966927452926
+        ]
+      },
+      "diagnostic_equivalent_dq0_contraction": {
+        "IQUV": [
+          1.2020775247570492,
+          0.08759527367226276,
+          0.05216631700898099,
+          0.4533751616797133
+        ],
+        "normalized": [
+          0.07286990386910908,
+          0.04339679923682483,
+          0.37715966927452915
+        ]
+      },
+      "diagnostic_IQUV_minus_photon": [
+        6.661338147750939e-16,
+        -2.7755575615628914e-17,
+        0.10433263401796197,
+        1.1102230246251565e-16
+      ]
+    },
+    {
+      "case": "PSDhalfSpinMixed",
+      "theta_deg": 45,
+      "phi_rad": 2.4,
+      "I_official_G4_sampler": 1.0287756878131904,
+      "I_IT_same_tensor": 0.5446605453552547,
+      "photon_trace": {
+        "IQUV": [
+          1.02877568781319,
+          -0.12190743616986392,
+          -0.07526416049344405,
+          0.1627038093785924
+        ],
+        "normalized": [
+          -0.11849758661093132,
+          -0.07315896106898559,
+          0.15815285227476814
+        ]
+      },
+      "diagnostic_equivalent_dq0_contraction": {
+        "IQUV": [
+          1.0287756878131906,
+          -0.12190743616986402,
+          0.07526416049344406,
+          0.1627038093785924
+        ],
+        "normalized": [
+          -0.11849758661093135,
+          0.07315896106898556,
+          0.15815285227476802
+        ]
+      },
+      "diagnostic_IQUV_minus_photon": [
+        6.661338147750939e-16,
+        -9.71445146547012e-17,
+        0.15052832098688812,
+        0.0
+      ]
+    },
+    {
+      "case": "PSDhalfSpinMixed",
+      "theta_deg": 90,
+      "phi_rad": 0,
+      "I_official_G4_sampler": 0.7314579579053051,
+      "I_IT_same_tensor": 0.7314579579053051,
+      "photon_trace": {
+        "IQUV": [
+          0.7314579579053052,
+          -0.06739499689402981,
+          -0.026217910576414302,
+          0.15148000399879682
+        ],
+        "normalized": [
+          -0.09213789550807619,
+          -0.035843359543855674,
+          0.20709324761821443
+        ]
+      },
+      "diagnostic_equivalent_dq0_contraction": {
+        "IQUV": [
+          0.7314579579053051,
+          -0.06739499689402968,
+          0.02621791057641429,
+          0.15148000399879677
+        ],
+        "normalized": [
+          -0.09213789550807604,
+          0.03584335954385566,
+          0.20709324761821438
+        ]
+      },
+      "diagnostic_IQUV_minus_photon": [
+        -1.1102230246251565e-16,
+        1.249000902703301e-16,
+        0.05243582115282859,
+        -5.551115123125783e-17
+      ]
+    },
+    {
+      "case": "PSDhalfSpinMixed",
+      "theta_deg": 90,
+      "phi_rad": 0.37,
+      "I_official_G4_sampler": 1.0485354406931633,
+      "I_IT_same_tensor": 1.0485354406931633,
+      "photon_trace": {
+        "IQUV": [
+          1.0485354406931635,
+          -0.023564673960006083,
+          -0.04857662312346714,
+          0.4608730260452033
+        ],
+        "normalized": [
+          -0.022473893628648354,
+          -0.04632806983744318,
+          0.43953976962431557
+        ]
+      },
+      "diagnostic_equivalent_dq0_contraction": {
+        "IQUV": [
+          1.0485354406931633,
+          -0.023564673960006062,
+          0.0485766231234671,
+          0.46087302604520336
+        ],
+        "normalized": [
+          -0.02247389362864834,
+          0.04632806983744315,
+          0.43953976962431573
+        ]
+      },
+      "diagnostic_IQUV_minus_photon": [
+        -2.220446049250313e-16,
+        2.0816681711721685e-17,
+        0.09715324624693424,
+        5.551115123125783e-17
+      ]
+    },
+    {
+      "case": "PSDhalfSpinMixed",
+      "theta_deg": 90,
+      "phi_rad": 1.17,
+      "I_official_G4_sampler": 1.5273833329815494,
+      "I_IT_same_tensor": 1.5273833329815494,
+      "photon_trace": {
+        "IQUV": [
+          1.5273833329815492,
+          0.04262753108319644,
+          -0.07167663391311507,
+          1.0085799733147165
+        ],
+        "normalized": [
+          0.02790886227623343,
+          -0.0469277308226205,
+          0.6603319229272356
+        ]
+      },
+      "diagnostic_equivalent_dq0_contraction": {
+        "IQUV": [
+          1.5273833329815494,
+          0.04262753108319676,
+          0.071676633913115,
+          1.008579973314717
+        ],
+        "normalized": [
+          0.027908862276233633,
+          0.046927730822620445,
+          0.6603319229272357
+        ]
+      },
+      "diagnostic_IQUV_minus_photon": [
+        2.220446049250313e-16,
+        3.191891195797325e-16,
+        0.1433532678262301,
+        4.440892098500626e-16
+      ]
+    },
+    {
+      "case": "PSDhalfSpinMixed",
+      "theta_deg": 90,
+      "phi_rad": 2.4,
+      "I_official_G4_sampler": 0.682939778872764,
+      "I_IT_same_tensor": 0.6829397788727641,
+      "photon_trace": {
+        "IQUV": [
+          0.6829397788727644,
+          -0.07410177227419718,
+          -0.025745125818130925,
+          0.3096011211168277
+        ],
+        "normalized": [
+          -0.1085041090980333,
+          -0.03769750513086951,
+          0.4533359026587147
+        ]
+      },
+      "diagnostic_equivalent_dq0_contraction": {
+        "IQUV": [
+          0.6829397788727641,
+          -0.07410177227419705,
+          0.025745125818130918,
+          0.30960112111682747
+        ],
+        "normalized": [
+          -0.10850410909803317,
+          0.037697505130869516,
+          0.4533359026587146
+        ]
+      },
+      "diagnostic_IQUV_minus_photon": [
+        -2.220446049250313e-16,
+        1.249000902703301e-16,
+        0.05149025163626184,
+        -2.220446049250313e-16
+      ]
+    },
+    {
+      "case": "PSDhalfSpinMixed",
+      "theta_deg": 138.2,
+      "phi_rad": 0,
+      "I_official_G4_sampler": 1.0597294680320557,
+      "I_IT_same_tensor": 0.5799527955412648,
+      "photon_trace": {
+        "IQUV": [
+          1.0597294680320555,
+          -0.11277269502758547,
+          -0.08854717268872518,
+          0.3377430331782582
+        ],
+        "normalized": [
+          -0.1064164944257021,
+          -0.08355639373996038,
+          0.3187068429883861
+        ]
+      },
+      "diagnostic_equivalent_dq0_contraction": {
+        "IQUV": [
+          1.0597294680320557,
+          -0.11277269502758523,
+          0.08854717268872514,
+          0.33774303317825827
+        ],
+        "normalized": [
+          -0.10641649442570184,
+          0.08355639373996032,
+          0.3187068429883861
+        ]
+      },
+      "diagnostic_IQUV_minus_photon": [
+        2.220446049250313e-16,
+        2.3592239273284576e-16,
+        0.17709434537745034,
+        5.551115123125783e-17
+      ]
+    },
+    {
+      "case": "PSDhalfSpinMixed",
+      "theta_deg": 138.2,
+      "phi_rad": 0.37,
+      "I_official_G4_sampler": 1.1502828787489452,
+      "I_IT_same_tensor": 0.7711325791792019,
+      "photon_trace": {
+        "IQUV": [
+          1.1502828787489447,
+          -0.037629447744898986,
+          -0.12979025267900252,
+          0.586616804465055
+        ],
+        "normalized": [
+          -0.03271321206295362,
+          -0.11283333437090122,
+          0.509976124397386
+        ]
+      },
+      "diagnostic_equivalent_dq0_contraction": {
+        "IQUV": [
+          1.1502828787489452,
+          -0.03762944774489891,
+          0.12979025267900246,
+          0.5866168044650553
+        ],
+        "normalized": [
+          -0.03271321206295353,
+          0.11283333437090114,
+          0.5099761243973859
+        ]
+      },
+      "diagnostic_IQUV_minus_photon": [
+        4.440892098500626e-16,
+        7.632783294297951e-17,
+        0.259580505358005,
+        2.220446049250313e-16
+      ]
+    },
+    {
+      "case": "PSDhalfSpinMixed",
+      "theta_deg": 138.2,
+      "phi_rad": 1.17,
+      "I_official_G4_sampler": 1.1802629455308953,
+      "I_IT_same_tensor": 1.1666237414430025,
+      "photon_trace": {
+        "IQUV": [
+          1.1802629455308946,
+          0.09061075128910712,
+          -0.046211034437158,
+          0.8100460935568611
+        ],
+        "normalized": [
+          0.07677166484994533,
+          -0.03915316888676175,
+          0.6863268025350858
+        ]
+      },
+      "diagnostic_equivalent_dq0_contraction": {
+        "IQUV": [
+          1.1802629455308953,
+          0.0906107512891072,
+          0.046211034437157954,
+          0.8100460935568617
+        ],
+        "normalized": [
+          0.07677166484994535,
+          0.03915316888676169,
+          0.686326802535086
+        ]
+      },
+      "diagnostic_IQUV_minus_photon": [
+        6.661338147750939e-16,
+        8.326672684688674e-17,
+        0.09242206887431595,
+        6.661338147750939e-16
+      ]
+    },
+    {
+      "case": "PSDhalfSpinMixed",
+      "theta_deg": 138.2,
+      "phi_rad": 2.4,
+      "I_official_G4_sampler": 0.5577371281977868,
+      "I_IT_same_tensor": 1.0388352259523455,
+      "photon_trace": {
+        "IQUV": [
+          0.5577371281977866,
+          -0.05679473248370038,
+          0.042995828914706574,
+          0.1428151112702881
+        ],
+        "normalized": [
+          -0.10183064675507784,
+          0.07708977355271074,
+          0.2560616893692659
+        ]
+      },
+      "diagnostic_equivalent_dq0_contraction": {
+        "IQUV": [
+          0.5577371281977868,
+          -0.056794732483700316,
+          -0.042995828914706616,
+          0.14281511127028826
+        ],
+        "normalized": [
+          -0.10183064675507772,
+          -0.07708977355271081,
+          0.25606168936926615
+        ]
+      },
+      "diagnostic_IQUV_minus_photon": [
+        1.1102230246251565e-16,
+        6.245004513516506e-17,
+        -0.08599165782941319,
+        1.6653345369377348e-16
+      ]
+    },
+    {
+      "case": "PSDhalfSpinMixed",
+      "theta_deg": 167.7,
+      "phi_rad": 0,
+      "I_official_G4_sampler": 0.9837661286366601,
+      "I_IT_same_tensor": 0.7827918272110074,
+      "photon_trace": {
+        "IQUV": [
+          0.9837661286366598,
+          -0.10227211432543991,
+          -0.0987346425251439,
+          0.3553140508493628
+        ],
+        "normalized": [
+          -0.10395978408727333,
+          -0.10036393778059231,
+          0.3611773576121902
+        ]
+      },
+      "diagnostic_equivalent_dq0_contraction": {
+        "IQUV": [
+          0.9837661286366602,
+          -0.10227211432543987,
+          0.09873464252514393,
+          0.35531405084936313
+        ],
+        "normalized": [
+          -0.10395978408727323,
+          0.1003639377805923,
+          0.3611773576121904
+        ]
+      },
+      "diagnostic_IQUV_minus_photon": [
+        4.440892098500626e-16,
+        4.163336342344337e-17,
+        0.19746928505028782,
+        3.3306690738754696e-16
+      ]
+    },
+    {
+      "case": "PSDhalfSpinMixed",
+      "theta_deg": 167.7,
+      "phi_rad": 0.37,
+      "I_official_G4_sampler": 0.9770799627178653,
+      "I_IT_same_tensor": 0.8182571792011892,
+      "photon_trace": {
+        "IQUV": [
+          0.9770799627178652,
+          -0.01368722492917188,
+          -0.13802016206070122,
+          0.4128225360143058
+        ],
+        "normalized": [
+          -0.014008295586268314,
+          -0.14125779601168115,
+          0.4225063984179866
+        ]
+      },
+      "diagnostic_equivalent_dq0_contraction": {
+        "IQUV": [
+          0.9770799627178653,
+          -0.013687224929171732,
+          0.13802016206070133,
+          0.41282253601430596
+        ],
+        "normalized": [
+          -0.014008295586268161,
+          0.14125779601168123,
+          0.42250639841798665
+        ]
+      },
+      "diagnostic_IQUV_minus_photon": [
+        1.1102230246251565e-16,
+        1.474514954580286e-16,
+        0.27604032412140256,
+        1.6653345369377348e-16
+      ]
+    },
+    {
+      "case": "PSDhalfSpinMixed",
+      "theta_deg": 167.7,
+      "phi_rad": 1.17,
+      "I_official_G4_sampler": 0.9222562922536809,
+      "I_IT_same_tensor": 0.9165429475440781,
+      "photon_trace": {
+        "IQUV": [
+          0.9222562922536806,
+          0.12627558258787522,
+          -0.01321977292812134,
+          0.44557661531433
+        ],
+        "normalized": [
+          0.13692027221554723,
+          -0.014334163983654384,
+          0.4831375172572609
+        ]
+      },
+      "diagnostic_equivalent_dq0_contraction": {
+        "IQUV": [
+          0.9222562922536808,
+          0.12627558258787522,
+          0.013219772928121366,
+          0.4455766153143302
+        ],
+        "normalized": [
+          0.1369202722155472,
+          0.014334163983654408,
+          0.48313751725726095
+        ]
+      },
+      "diagnostic_IQUV_minus_photon": [
+        2.220446049250313e-16,
+        0.0,
+        0.026439545856242704,
+        1.6653345369377348e-16
+      ]
+    },
+    {
+      "case": "PSDhalfSpinMixed",
+      "theta_deg": 167.7,
+      "phi_rad": 2.4,
+      "I_official_G4_sampler": 0.7803132110445384,
+      "I_IT_same_tensor": 0.9818410460921848,
+      "photon_trace": {
+        "IQUV": [
+          0.7803132110445381,
+          -0.08756191753509057,
+          0.07335768139313677,
+          0.2673863583258922
+        ],
+        "normalized": [
+          -0.11221380888563835,
+          0.0940105592918761,
+          0.3426654252950108
+        ]
+      },
+      "diagnostic_equivalent_dq0_contraction": {
+        "IQUV": [
+          0.7803132110445383,
+          -0.08756191753509082,
+          -0.07335768139313686,
+          0.2673863583258924
+        ],
+        "normalized": [
+          -0.11221380888563863,
+          -0.09401055929187618,
+          0.34266542529501104
+        ]
+      },
+      "diagnostic_IQUV_minus_photon": [
+        2.220446049250313e-16,
+        -2.498001805406602e-16,
+        -0.14671536278627362,
+        2.220446049250313e-16
+      ]
+    }
+  ],
+  "upstream_modified_or_full_array_replayed": false,
+  "diagnostic_variant_is_not_a_validated_universal_fix": true
+}

@@ -1,0 +1,10 @@
+{
+  "at": "2026-10-18T16:38:54.131587+00:00",
+  "url": "https://geant4.web.cern.ch/documentation/",
+  "tool_session": 9920,
+  "execution_exit_code": 1,
+  "error": "DNS Temporaryfailure [Errno -3] before pagebody",
+  "source_body_obtained": false,
+  "previous_guessed_page": "geant4-stokes-convention-discovery.json 404",
+  "next": "useactualpinnedcodeframeandComptonconsumer;do notfabricatemanualstatementorblindlyretryfailedURL"
+}

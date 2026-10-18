@@ -1890,3 +1890,8 @@ Sciencepublication005 actualGitee成功后，依据validDay16audit/report/writeb
 ## 2026-10-19 — DAY16公开Stokes内核与禁戒CG边界
 
 同原run/session持续：UCGretina固定源码135–272抽取编译与独立trace，pureE2反证、mixed/highrank零CG比值NaN、samepathpurelimit、phaseidentity纠错均canonical37页/37items；required0/lint0errors166warnings。原第三方/源码不改，未认证exactproducer或阵列response；formal16一次/partial17。内容指针main / `Validate DAY16 public Stokes emission and zero-CG boundaries`，实际hash/push仅receipt；下一有限系数/一般κ问题已冻，原19日15:00截止不变。
+
+
+## 2026-10-19 — DAY16有限偏振系数与κ合同
+
+新增UC21-10–13：解析消CG的H、samepol角采样/Stokes归一的dκ0/d0κ区别、originalpureM1/evenκ U与KN消费端控制；初general失配/truezeroI/未观察poleNaN均保留，非实验δ或通用patch。37knowledgepages/items，required0/lint0errors166warnings；goal仍active至原15:00，formal16一次/partial17。内容指针main / `Derive DAY16 finite polarization coefficients and kappa contracts`，实际hash/push仅receipt；下一完整finiteJones合同已冻未执行。

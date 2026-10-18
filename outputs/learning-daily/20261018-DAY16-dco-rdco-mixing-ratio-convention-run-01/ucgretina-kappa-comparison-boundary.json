@@ -1,0 +1,18 @@
+{
+  "at": "2026-10-19T00:36:16.086128+08:00",
+  "finite_product_formula_verified_where_original_denominator_nonzero": 1.9984014443252818e-15,
+  "samepol_sampler_vs_photon_trace_max_I": 1.3322676295501878e-15,
+  "Pnorm_vs_dq0": 5.446716413105935e-15,
+  "dtranspose_identity": 4.260480856999038e-15,
+  "diagnostic_variant": "equivalentd_q0contractiononly,originalkept",
+  "closed_components": "I,Q,V max~1.6e-15inselectedPSDcases",
+  "unclosed_component": "U opposite-signed underfrozenJones/G4meridiancontract; mustverifyconsumer/axisbeforecallingfullfix",
+  "not_claimed": [
+    "wholeGeant4runtimevalidation",
+    "Morseexactproducer",
+    "experimentalnewdelta",
+    "independentexperiment",
+    "universalpatch"
+  ],
+  "actual_max_U_variant_plus_U_trace": 5.065392549852277e-16
+}

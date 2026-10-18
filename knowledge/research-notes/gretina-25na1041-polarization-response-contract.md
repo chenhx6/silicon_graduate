@@ -87,6 +87,11 @@ L26的AD、ξ和不同拟合处理属于同一fusion acquisition；不同核素/
 
 源Racah coefficients与显式photon trace在声明桥下mixed/pure AD与P一致到3.89×10^-16；错误同号混用可差1.5336但pure端点仍通过。此为两种数学实现的检查，不是独立实验。
 
+
+### 一般tensor续核的保留边界
+
+UC21-10–13补了有限CG乘积设计、同tensor角采样/归一的dκ0与d0κ区别，以及literalpureM1/evenκ控制的U反号。一般PSD案例是声明的数学压力测试；Morse实际κ0/pureE2控制仍通过，不用general失败改写其标定实验。不能把只消除NaN称为完整response修复，也不能把新的点Compton K比当实际Q或1041偏振。原实验two-branch inference仍等待matching jointresponse/Cov，所有新推断保持provisional。
+
 ## Failure Conditions
 
 ### 三项真实失败或表示边界
