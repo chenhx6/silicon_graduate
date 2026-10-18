@@ -9,6 +9,8 @@ updated: 2026-10-18
 
 ## Sources
 
+- [[alpaca-2023-v105-angular-correlation-code]] - 固定2023 C++/GSL实际执行、phase/role及EM元数据切换观测对象；不代原实验producer，Pythonwrapper失败保留。
+
 - [[purry-1997-phd-w178-multiparticle-structure]] - Surrey1997primary定向原读：921KICC的独立电子装置/延迟选择、truncateda2、原表及旧3525/35ns赋值修订；非整本精读/新δfit。
 
 - [[nndc-2009-178w-dco-reference-records]] - 178W137/169参考的AD、空MR/CC与125度RI字段；保留1989DCO/1979/13C谱系、same-parent条件与raw归档缺口。

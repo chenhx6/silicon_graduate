@@ -1,0 +1,16 @@
+{
+  "metadata": "Package: libgsl-dev\nVersion: 2.7.1+dfsg-6ubuntu2\nArchitecture: amd64\nDepends: libgsl27 (= 2.7.1+dfsg-6ubuntu2), libgslcblas0 (= 2.7.1+dfsg-6ubuntu2)\n",
+  "development_headers_extracted_to": "/workspace/wiki/tmp/day16-alpaca-code/gsl-local",
+  "system_install_performed": false,
+  "runtime_libraries": {
+    "libgsl.so.27": {
+      "path": "/usr/lib/x86_64-linux-gnu/libgsl.so.27.0.0",
+      "sha256": "99a902f1c0df5c709ba20cb64f014eda51b978305c2923d9397f0b1b902eda18"
+    },
+    "libgslcblas.so.0": {
+      "path": "/usr/lib/x86_64-linux-gnu/libgslcblas.so.0.0.0",
+      "sha256": "cbaeb658d6d3fd2dc46695923083c0e8b5ceb5f9fb76b1f607a643e00cb2a1c5"
+    }
+  },
+  "gsl_version_header": "#ifndef __GSL_VERSION_H__\n#define __GSL_VERSION_H__\n\n#include <gsl/gsl_types.h>\n\n#undef __BEGIN_DECLS\n#undef __END_DECLS\n#ifdef __cplusplus\n# define __BEGIN_DECLS extern \"C\" {\n# define __END_DECLS }\n#else\n# define __BEGIN_DECLS /* empty */\n# define __END_DECLS /* empty */\n#endif\n__BEGIN_DECLS\n\n\n#define GSL_VERSION \"2.7.1\"\n#define GSL_MAJOR_VERSION 2\n#define GSL_MINOR_VERSION 7\n\nGSL_VAR const char * gsl_version;\n\n__END_DECLS\n\n#endif /* __GSL_VERSION_H__ */\n"
+}

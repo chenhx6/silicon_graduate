@@ -1,0 +1,5 @@
+# ENSDF原相位说明：来源前假设
+
+已受KS70/IF21原式和ALPACA README关于ENSDF推荐的叙述priming。新问题是M.J.Martin原manual实际如何定义用于evaluation的mixing ratio，是否区分direction-correlation、oriented distribution与absorption/emission，原文是否足以为单个ENSDF MR栏的phase提供完整certificate。不能把README的转述当原manual文字，也不能把一条空MR或adoptedmultipolarity标签补成已测δ。
+
+预计可由NNDC官方资料页找到proceduremanual/phase节，先核原件版本/书目/locator；若只得整个manual，则只称针对phase章的读取，不称全manual精读。保持KS70/Biedenharn–Rose/Rose–Brink三者区分。即使manual规定defaultconvention，单个1979primary的算符/原引用冲突仍不能由default倒填。

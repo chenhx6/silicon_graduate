@@ -1,5 +1,9 @@
-# Day16同会话持续学习
+# Day16同会话持续学习：checkpoint008之后
 
-用户已明确恢复研究，继续本run/session至原2026-10-19T15:00:00+08:00；15–16点收束。不要执行旧completed/closeout-only指令；先核当前clock，保留Day16学分一次、Day17仅partial，禁止Day18。当前新route：Juel-Spez-458 Krämer-Flecken1988thesis原DCOMAP定义；freeze与baseline见reopened-*001。原始raw/PLAN/Bib和继承dirty保护。日报固定20261017文件名，所有增量canonical写回并延伸现有唯一writeback。新checkpoint发布从007编号；不要重复计卡/新session/daemon或重跑终态失败填时段。
+用户已明确恢复研究并/goal resume，原生goal active/pursuing；保持同run/session与原2026-10-19T15:00:00+08:00研究截止，15–16点收束。禁止以旧completed/closeout-only段提前终止。
 
-原生goal由用户/goal resume恢复为active；现有objective已覆盖任务不必重建。保持pursuing，单个checkpoint/文献完成不调用complete。原deadline15:00后完成closeout必要交付才可最终结束。
+已交付新Jül-Spez458目录/DCO46页取证、KS70实际network/1505上下游reference和表值未闭合、固定ALPACA2023 C++/GSL actual执行及API观测对象/缺rotation符号边界，均canonical/报告唯一writeback。当前19changed/19items，freshchecks0、0errors/152warnings。新publiccode/headers在repo tmp，原raw/PLAN/Bib/旧flags不改；源码113blobs核不改，第三方源码/binary不入Git。
+
+接下来：ENSDF官方procedures/formatmanual的phase/MR原始定义。已保存ensdf-phase-before-freeze/source与discovery/retrieval，先查看当前下载是否完成，按实际原件定位M.J.Martin phase章，不假称读整manual；缺2022review脚注/2023勘误不由旧README补齐。
+
+下一checkpoint009+，exactmanifest、log只HEAD+ownentry、H3/Gitee非force；不重复计卡。已earned16一次next17/count16、partial17，无正式17/Day18。学术问题局部饱和要重建候选池，在原时间门下继续有价值路线。

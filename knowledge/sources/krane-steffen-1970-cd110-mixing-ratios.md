@@ -143,3 +143,7 @@ TableIII的15行中8行为finite mixed ratio，7个pureE2限值保留∞（在�
 同样条件套TableI四项时无一倍margin共同交，不能强称四个central或marginalboxes都已被同δ复现。其764/1505 A44中央−.047在此模型全δ范围[−.01360544,0]外，quotedbox上端−.014也略低于该下界；这是一项打印输入/声明条件的未闭合，非统计排除源的全实验结果。缺原counts/background/response与完整Σ，不自由调误差、分支或相位补闭合。
 
 首run在任何反演前因图示能差0.11keV守卫失败；放大原图确认这是源所印数值，并非OCR错读。最终保留能差residual ledger而不把drawing当精密能量fit；相同冻结数据未修改。two-role directphoton/F核对误差1.12e−15以内，只证明本任务代数相容。决定`supports`用上/下游匹配reference和多rank共同约束；`limits`仅凭“25consistent”摘要恢复全likelihood或忽略direct/indirect口径。新claims true；所有旧flags/review保留。
+
+### 相同条件下的外部C++实现检查
+
+本日随后实际构建[[alpaca-2023-v105-angular-correlation-code]]的固定2023代码对象，AC23-5/6给first/last角色映射和独立GSL数字路径核验。无取向1505两路径、单一764–687–818中间marginal及polarizedcontrols与本任务trace相容，支持当前条件forwardmodel的实现。它未提供TableI/II的actualresponse/Σ或fullnetworkbranchweights，因此不把上面的印刷差异消除，也不将codeagreement当另一项110Cd测量。

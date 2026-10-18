@@ -1,0 +1,133 @@
+{
+  "identity": "DAY16-ALPACA-FIXED-CODE-ROLE-PHASE-01",
+  "at": "2026-10-18T16:56:55.907159+08:00",
+  "commit": "f173c2d2e2fd855451e06446a2cfcce679c42d24",
+  "code_scope": "fixed1.0.5 emission direction/direction and polarized-first direction correlations; not arbitrary beam-oriented DCO",
+  "phase_map_before_execution": {
+    "first_observed_adjacent_multipoles": "delta_B=-delta_KS_D96",
+    "last_observed_adjacent_multipoles": "delta_B=+delta_KS_D96",
+    "unobserved": "only delta squared contributes; sign immaterial",
+    "sources": [
+      "KS70 Eq12",
+      "IF21 Eq18",
+      "ALPACA README4ii/W_dir_dir::calculate_expansion_coefficients_Av"
+    ]
+  },
+  "normalization": {
+    "unpolarized_photon_density_to_ALPACA": "multiply by16*pi^2",
+    "first_polarized_photon_density_to_ALPACA": "multiply by32*pi^2; selected first linear polarization has half the unpolarized rate",
+    "ALPACA": "sphere integral4pi, angular mean1"
+  },
+  "geometry_deg": {
+    "theta": [
+      0.0,
+      35.0,
+      53.0,
+      90.0,
+      135.0,
+      180.0
+    ],
+    "phi": [
+      0.0,
+      45.0,
+      90.0,
+      130.0
+    ]
+  },
+  "roles": {
+    "first1505": [
+      3,
+      2,
+      0
+    ],
+    "second1505": [
+      5,
+      3,
+      2
+    ]
+  },
+  "delta_KS_D96_values": [
+    0.0,
+    -0.55,
+    -3.4504955344243555,
+    -0.4830818766109998,
+    null
+  ],
+  "none_meaning": "pureE2 entered as primary multipole L2 with delta0; never numerical infinity",
+  "unobserved_real_path": {
+    "gamma_indices": [
+      8,
+      5,
+      9
+    ],
+    "spins": [
+      5,
+      3,
+      2,
+      2
+    ],
+    "first": "pureE2",
+    "middle_delta_KS": -1.1,
+    "last_delta_KS": -1.2,
+    "role": "forward check at published summary coordinates; no fit or extra experiment"
+  },
+  "polarized_controls": [
+    {
+      "id": "IF21-worked-0-1-2",
+      "spins": [
+        0,
+        1,
+        2
+      ],
+      "parities": [
+        1,
+        -1,
+        1
+      ],
+      "first": [
+        "E1",
+        "M2",
+        0.0
+      ],
+      "last": [
+        "E1",
+        "M2",
+        1.0
+      ],
+      "data_role": "published model example, not experimental data"
+    },
+    {
+      "id": "mixed-first-sign-control",
+      "spins": [
+        1,
+        1,
+        0
+      ],
+      "parities": [
+        1,
+        -1,
+        1
+      ],
+      "first": [
+        "E1",
+        "M2",
+        0.3
+      ],
+      "last": [
+        "E1",
+        "M2",
+        0.0
+      ],
+      "data_role": "explicit condition design to test first-photon phase; not a level assignment"
+    }
+  ],
+  "failure_controls": [
+    "wrong first sign changes mixed correlation but pure endpoints identical",
+    "source EM-character metadata can switch AngularCorrelation from dir-dir to pol-dir",
+    "unobserved middle sign invariance",
+    "azimuth rotation/angle convention carried explicitly",
+    "all densities nonnegative on frozen grid"
+  ],
+  "numerical_tolerance": 2e-11,
+  "experimental_response_or_covariance_available": false
+}

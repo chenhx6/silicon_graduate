@@ -87,3 +87,9 @@ codeREADME自述已与作者R实现和文献交叉测试，这是software作者�
 
 - [[polarized-photon-branch-audit]]：controlledinitialdensity、Biedenharn/KSW角色、独立系数/振幅与实际source多根分层。
 - [[dco-pdco-ambiguity-worksheet]]、[[angular-correlation]]：下一角度应检查rank/condition/完整response，不套普适polarization唯一选解。
+
+## 2026-10-18 Day16恢复：固定C++实现实际执行
+
+此前七个blob/README审计仍是历史的未执行状态；本日用户恢复后，[[alpaca-2023-v105-angular-correlation-code]] AC23-1至6把同一2023commit扩展到实际构建的113blob身份检查及selected C++/GSL执行。first/last的dB=−dKS/+dKS在运行前冻结，不由输出调相位；与本任务photon trace相容范围和归一均有结果。它降低了相同条件下只依赖自写CG实现的边界，但不认证2021所有图/旧实验exactproducer，也不裁决RU09 code或缺失review脚注/勘误。
+
+固定Pythonwrapper因未导出的rotation symbol无法直接import，本任务只调用未改C++实际已有的create/evaluate/free CABI；AC23-4保留该失败，不把C++通过说成Python接口全部ready。理论/代码与原实验采集的独立性分层保持。source原claims/review flags不改。

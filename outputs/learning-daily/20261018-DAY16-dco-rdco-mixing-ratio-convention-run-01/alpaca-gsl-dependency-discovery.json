@@ -1,0 +1,26 @@
+{
+  "at": "2026-10-18T16:53:33.621332+08:00",
+  "system_runtime_gsl_version": "2.7.1+dfsg-6ubuntu2 already installed; development headers absent",
+  "system_install_performed": false,
+  "ubuntu_url_role": "standard public archive candidate, validated only if actual .deb and package metadata match",
+  "results": [
+    {
+      "name": "gnu-gsl",
+      "url": "https://ftp.gnu.org/gnu/gsl/gsl-2.7.1.tar.gz",
+      "status": 200,
+      "bytes": 7509209,
+      "sha256": "dcb0fbd43048832b757ff9942691a8dd70026d5da0ff85601e52687f6deeb34b",
+      "path": "tmp/day16-alpaca-code/gnu-gsl.tar.gz",
+      "signature_prefix_hex": "1f8b08008005a761"
+    },
+    {
+      "name": "ubuntu-dev",
+      "url": "https://archive.ubuntu.com/ubuntu/pool/universe/g/gsl/libgsl-dev_2.7.1+dfsg-6ubuntu2_amd64.deb",
+      "status": 200,
+      "bytes": 1258794,
+      "sha256": "a93350a23826d58dff49bcd6fdcbcd669c9571ff5d9b3f10ac0bdb337503d581",
+      "path": "tmp/day16-alpaca-code/ubuntu-dev.deb",
+      "signature_prefix_hex": "213c617263683e0a"
+    }
+  ]
+}

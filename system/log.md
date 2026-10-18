@@ -1834,3 +1834,8 @@ Sciencepublication005 actualGitee成功后，依据validDay16audit/report/writeb
 ## 2026-10-18T16:48:11.960721+08:00 — DAY16用户恢复checkpoint007：Cd110参考角色与原producer取证
 
 用户明确恢复原2026-10-19 15:00上海窗口、/goal resume恢复active；同run/session持续pursuing，既有Day16学分一次next17/count16、partial17不变。新DNB两页目录核Jül-Spez458/Bonn1988/Sec3.2从46页开始，body/DCOMAP仍未得。KS70原网络15gamma/31cells/26pairs、1505first/second两种reference与两个TableII候选canonical；direct/indirect字面一倍margin未闭合、图示energy残差.5keV保持，不造CI或新δ。fresh boundary/lint/diff0、0errors/150warnings，4newchanged/累计17writeback/17changed及继承保护通过。下一固定ALPACA code-object执行审计已primedfreeze，未称已build。稳定指针main / `Extend DAY16 with Cd110 reference-role and network audits`；actualH3/push/hash只本run publication007。研究继续，不以本checkpoint结束。
+
+
+## 2026-10-18T17:06:46.396253+08:00 — DAY16 checkpoint008：固定公开ALPACA实际执行
+
+同run/session/原15:00deadline持续active/pursuing，next17/count16、partial17不变。固定2023commit113blobs/hash/GPL与CMake1.0.5核验，GSL匹配devheaders只解tmp、系统无安装；实际C++build/8selectedctest/CABI运行0。新first/last1505、unobserved764–687–818和polcontrols与自写trace差≤1.12e−15；错first混合映射pure仍过，EM标签启用pol-dir的API边界canonical。Pythonwrapper缺rotated导出失败保留，未修upstream/声称全接口ready。累计19changed/19writeback，fresh boundary/lint/diff0、0errors/152warnings(118key/31raw/3parser)。下一ENSDF原manual phase/MR route已primedfreeze，不由README替代原件，原研究窗口继续。稳定指针main / `Validate DAY16 phases with the pinned ALPACA C++ implementation`；actualH3/hash/push只publication008。

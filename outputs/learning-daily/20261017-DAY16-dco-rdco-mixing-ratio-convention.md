@@ -165,6 +165,14 @@ source原197Pb正link/负inband pattern对E1/负宇称的支持保留为作者�
 
 [first-run failure](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/ks70-network-first-run-failure.json)保留在任何inverse前因图示energyclosure0.11keV守卫失败；放大确认源标签最大残差.5keV，最终保留源两层energy/residual，不篡改值/补uncertainty。新photon/F只核代数和同坐标，复用底层不算独立producer。支持matchedreference/多rank，限制总体“consistent”摘要与精确单fit混同。研究继续，原deadline与仅16学分不变。
 
+### 固定ALPACA代码对象：独立实现与观测对象边界
+
+[代码前冻结](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/alpaca-before-code-freeze.json)后取得固定2023commit的113blob源码，核GPL/1.0.5、selected公式/接口/CMake；并将匹配的GSLdevheaders仅解到tmp，系统无安装/配置改动。完整reproducibility见[canonical代码source](../../knowledge/sources/alpaca-2023-v105-angular-correlation-code.md) AC23-1至6。配置/build/所选8项ctest均实际exit0，113源blob运行后保持原hash；不把wholepackage标全读/全测。
+
+[冻结numeric输入](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/alpaca-comparison-input.json)先固定first/last dB=−dKS/+dKS和16pi²/32pi²；新[harness](../../system/scripts/day16_alpaca_code_crosscheck.py)通过实际C++/GSL既有CABI，与自写photontrace的1505两角色、实际单路764–687–818/中间全marginal、两个polarizedcontrol最大差1.12e−15；错first混合相位W最大差.6608114而pure仍通过。此为**独立数学实现**，同formalism，不增独立实验，也不使缺失的DCOMAP/RU09producer或response/Σ到手。
+
+[首Python包装失败](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/alpaca-first-wrapper-failure.json)保留undefined evaluate_angular_correlation_rotated；未改upstream source，改从实际导出的create/evaluate/free CABI执行，不声称Python/rotation全部ready。[最终结果](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/alpaca-comparison-result.json)另核API对象切换：填first EM会启用pol-dir，theta135示例Wdir=.89954143而pol两轴=.92027694/.87880592、平均回dir；仅90度检查会漏此例差别。新知识已写[双解方法单](../../knowledge/methods/dco-pdco-ambiguity-worksheet.md)与IF21/KS70反链。
+
 ## Counter-evidence and missing companion observables
 
 最直接反例是一个已知pure参考也无法验证混合项相位：两纯端点通过，错误换号仍改R。另一个反例是本点模型部分Table1不吻合（例如.637341对印值.66；1.188657对1.12），且两比值rectangle没有复现作者>85支；原因未裁决，不能报告原文错误或实验新δ。
@@ -322,7 +330,7 @@ canonical [178W知识单](../../knowledge/research-notes/w178-921-dco-gate-doubl
     },
     {
       "knowledge": "knowledge/methods/dco-pdco-ambiguity-worksheet.md",
-      "summary": "将本session178W新交付与Day15预习分开，增加canonical反链。 恢复批次新增：同一mixed跃迁的上游与下游参考：1505-keV真实表值。",
+      "summary": "将本session178W新交付与Day15预习分开，增加canonical反链。 恢复批次新增：同一mixed跃迁的上游与下游参考：1505-keV真实表值。 新增固定ALPACA独立实现/观测对象边界。",
       "anchor": "独立正式Day16的新实测对象",
       "sources": [
         {
@@ -340,17 +348,37 @@ canonical [178W知识单](../../knowledge/research-notes/w178-921-dco-gate-doubl
         {
           "path": "knowledge/sources/krane-steffen-1970-cd110-mixing-ratios.md",
           "locator": "KS70-17"
+        },
+        {
+          "path": "knowledge/sources/alpaca-2023-v105-angular-correlation-code.md",
+          "locator": "AC23-2"
+        },
+        {
+          "path": "knowledge/sources/alpaca-2023-v105-angular-correlation-code.md",
+          "locator": "AC23-3"
+        },
+        {
+          "path": "knowledge/sources/alpaca-2023-v105-angular-correlation-code.md",
+          "locator": "AC23-5"
+        },
+        {
+          "path": "knowledge/sources/alpaca-2023-v105-angular-correlation-code.md",
+          "locator": "AC23-6"
         }
       ]
     },
     {
       "knowledge": "knowledge/index.md",
-      "summary": "最小索引新增178W921计算单导航，不添加独立科学结论。",
+      "summary": "最小索引新增178W921计算单导航，不添加独立科学结论。 新增固定ALPACA独立实现/观测对象边界。",
       "anchor": "w178-921-dco-gate-double-solutions",
       "sources": [
         {
           "path": "knowledge/sources/kramer-flecken-1989-use-dco-ratios.md",
           "locator": "KF89-15"
+        },
+        {
+          "path": "knowledge/sources/alpaca-2023-v105-angular-correlation-code.md",
+          "locator": "AC23-1"
         }
       ]
     },
@@ -713,7 +741,7 @@ canonical [178W知识单](../../knowledge/research-notes/w178-921-dco-gate-doubl
     },
     {
       "knowledge": "knowledge/sources/krane-steffen-1970-cd110-mixing-ratios.md",
-      "summary": "用户恢复批次新增：Day16恢复批次：完整相关网络与1505-keV参考角色；actual source与条件计算分层。",
+      "summary": "用户恢复批次新增：Day16恢复批次：完整相关网络与1505-keV参考角色；actual source与条件计算分层。 新增固定ALPACA独立实现/观测对象边界。",
       "anchor": "Day16恢复批次：完整相关网络与1505-keV参考角色",
       "sources": [
         {
@@ -735,6 +763,56 @@ canonical [178W知识单](../../knowledge/research-notes/w178-921-dco-gate-doubl
         {
           "path": "knowledge/sources/krane-steffen-1970-cd110-mixing-ratios.md",
           "locator": "KS70-18"
+        },
+        {
+          "path": "knowledge/sources/alpaca-2023-v105-angular-correlation-code.md",
+          "locator": "AC23-5"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/sources/alpaca-2023-v105-angular-correlation-code.md",
+      "summary": "新增固定公开C++程序的actual执行/phase/observable边界；ALPACA固定公开代码对象：先辨认算的是什么",
+      "anchor": "ALPACA固定公开代码对象：先辨认算的是什么",
+      "sources": [
+        {
+          "path": "knowledge/sources/alpaca-2023-v105-angular-correlation-code.md",
+          "locator": "AC23-1"
+        },
+        {
+          "path": "knowledge/sources/alpaca-2023-v105-angular-correlation-code.md",
+          "locator": "AC23-2"
+        },
+        {
+          "path": "knowledge/sources/alpaca-2023-v105-angular-correlation-code.md",
+          "locator": "AC23-3"
+        },
+        {
+          "path": "knowledge/sources/alpaca-2023-v105-angular-correlation-code.md",
+          "locator": "AC23-4"
+        },
+        {
+          "path": "knowledge/sources/alpaca-2023-v105-angular-correlation-code.md",
+          "locator": "AC23-5"
+        },
+        {
+          "path": "knowledge/sources/alpaca-2023-v105-angular-correlation-code.md",
+          "locator": "AC23-6"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/sources/iliadis-friman-gayer-2021-polarization-direction-correlations.md",
+      "summary": "新增固定公开C++程序的actual执行/phase/observable边界；2026-10-18 Day16恢复：固定C++实现实际执行",
+      "anchor": "2026-10-18 Day16恢复：固定C++实现实际执行",
+      "sources": [
+        {
+          "path": "knowledge/sources/alpaca-2023-v105-angular-correlation-code.md",
+          "locator": "AC23-4"
+        },
+        {
+          "path": "knowledge/sources/alpaca-2023-v105-angular-correlation-code.md",
+          "locator": "AC23-5"
         }
       ]
     }
@@ -776,3 +854,8 @@ KS70追加twoangle问题因旧KS70-12已经覆盖而verified-no-op；NRF追加�
 ### 恢复checkpoint007（研究继续）
 
 2026-10-18 16:47上海，fresh boundary/lint/diff均exit0，0errors/150warnings；[恢复验收](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/verification-reopened-001.json)通过report/逐卡/唯一writeback与保护状态，累计17changed/17items，本批4页知识变化。稳定指针main / `Extend DAY16 with Cd110 reference-role and network audits`，exacthash/actualpush只回执。此为checkpoint，goal/window仍active至原2026-10-19 15:00，下一ALPACA code-object新路线已冻结问题但未执行。
+
+
+### 恢复checkpoint008（研究继续）
+
+2026-10-18T17:06:46.396253+08:00：actual ALPACA C++/GSL及selectedtests/CABI已核，required boundary/lint/diff均0，0errors/152warnings；[验收002](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/verification-reopened-002.json)通过19changed/19items和单卡coverage。稳定指针main / `Validate DAY16 phases with the pinned ALPACA C++ implementation`，actualhash/H3/push只回执。Goal/window继续active，当前转官方ENSDF原manual相位说明，不重计Day16或开启Day18。

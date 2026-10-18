@@ -1,0 +1,19 @@
+{
+  "source_blobs_preserved": 113,
+  "source_changed": false,
+  "cmake_version": "cmake version 3.28.3",
+  "compiler_version": "c++ (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0",
+  "configure_exit_code": 0,
+  "build_exit_code": 0,
+  "ctest_exit_code": 0,
+  "targeted_upstream_tests": 8,
+  "crosscheck_exit_code": 0,
+  "comparison_input_sha256": "dd5b433246a1255640e8ce45a32106bfbe716396104ac7ae8cca674d93cacd80",
+  "shared_library_sha256": "5b983b807d356db313f573c52400291b89a58a3ecf7c239ad7f6f8c4dd7051fe",
+  "direct_dependencies_installed_globally": false,
+  "logs": {
+    "configure.log": "294732c8891f82bb5c8a106375dbacf4f21798df8cc568797d67f7960560e64b",
+    "build.log": "db09dbf32ce78cfe9950e97c08747321f6dde0325c24ef510a504c3747b5ce34",
+    "ctest-targeted.log": "ce2045a845470890939918fae8d05197a9a59216520236398a03ea62449a1fcd"
+  }
+}

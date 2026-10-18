@@ -1,0 +1,72 @@
+{
+  "at": "2026-10-18T17:05:48.092277+08:00",
+  "results": [
+    {
+      "name": "format",
+      "url": "https://www.nndc.bnl.gov/ensdf/ensdf-manual.pdf",
+      "status": 200,
+      "bytes": 686034,
+      "sha256": "3400f0ae84d24f252f5bed4e6f0227304df9a4608aceb1d67e609db12605a0e9",
+      "is_pdf": true,
+      "path": "tmp/day16-ensdf-phase-manual/format.pdf",
+      "pages": 112,
+      "metadata": {
+        "format": "PDF 1.3",
+        "title": "",
+        "author": "",
+        "subject": "",
+        "keywords": "",
+        "creator": "",
+        "producer": "Acrobat Distiller 4.05 for Windows",
+        "creationDate": "D:20010309092133",
+        "modDate": "D:20010309110759-05'00'",
+        "trapped": "",
+        "encryption": null
+      },
+      "first_pages": "\n--- PDF PAGE 1 ---\nBNL-NCS-\u0005\u0001\u0006\u0005\u0005-0\u0001/0\u0002-Rev\nEv\naluated\nNuclear\nStructure\nData\nFile\nA\nMan\nual\nfor\nPreparation\nof\nData\nSets\nJagdish\nK.\nT\nuli\nF\nebruary\n,\n\u000200\u0001\nNational\nNuclear\nData\nCen\nter\nBro\nokha\nv\nen\nNational\nLab\noratory\nP\n.O.\nBo\nx\n\u0005000\nUpton,\nNew\nY\nork\n\u0001\u0001\t\u0007\u0003-\u0005000\n\n\n--- PDF PAGE 2 ---\nAbstract\nThe\nstructure\nand\nthe\nformat\nfor\nthe\nEv\naluated\nNuclear\nStructure\nData\nFILE\n(ENSDF)\nis\ndescrib\ned.\nENSDF\nis\nused\nto\nstore\nn\nuclear\nstructure\nprop\nerties\nof\nn\nuclides\nand\nthe\nresults\nof\nv\narious\nexp\nerimen\nts\nto\nderiv\ne\nthose\nprop\nerties.\n",
+      "keyword_pages": [
+        104,
+        105,
+        106,
+        107,
+        110
+      ]
+    },
+    {
+      "name": "procedures",
+      "url": "https://www.nndc.bnl.gov/ensdf/evalcorner/pdfs/ensdf-procedures.pdf",
+      "status": 200,
+      "bytes": 5478759,
+      "sha256": "f08bf2c3e7802ed741377c13344a701f54670f19e6c143be5901cd151cc256c8",
+      "is_pdf": true,
+      "path": "tmp/day16-ensdf-phase-manual/procedures.pdf",
+      "pages": 186,
+      "metadata": {
+        "format": "PDF 1.5",
+        "title": "Procedures Manual for the Evaluated Nuclear Structure Data File. BNL-NCS-40503 (Oct. 1987)",
+        "author": "M.R. Bhat",
+        "subject": "",
+        "keywords": "",
+        "creator": "Adobe Acrobat 6.02",
+        "producer": "Adobe Acrobat 6.02 Paper Capture Plug-in",
+        "creationDate": "D:20060120105505Z",
+        "modDate": "D:20060123102341-05'00'",
+        "trapped": "",
+        "encryption": null
+      },
+      "first_pages": "\n--- PDF PAGE 1 ---\nBNL-NCS-40503 \nINFORMAL REPORT \nProcedures Manual \nfor the \nEvaluated Nuclear Structure Data File \nOctober 1987 \nEdited by \nM.R. Bhat \nThe National Nuclear Data Center \nBrookhaven National Laboratory \nRESEARCH SPONSORED BY THE \nUNITED STATES DEPARTMENT OF ENERGY \nNATIONAL NUCLEAR DATA CENTER \nBROOKHAVEN NATIONAL LABORATORY \nASSOCIATED UNIVERSITIES, \nINC. \nUPTON, NEW YORK 11973 \nUNDER CONTRACT NO. DE-AC02-76CH00016 WITH THE \nUNITED STATES DEPARTMENT OF ENERGY \n\n\n--- PDF PAGE 2 ---\nTab1 e o f Contents \nI n t r o d u c t i o n \nNotes on S t a t i s t i c s f o r Physicists, Revised \nJay Orear, Laboratory f o r Nucl ear Studi es, \nCornel 1 Uni v e r s i t y . \nG e t t i n g Started on Mass-chai n Evaluations \nT. \nW. \nBurrows, National Nuclear Data Center, \nBrookhaven National Laboratory. \nOther Evaluations, Compi 1 a t i ons and Theory Papers \nT. \nW. \nBurrows, National Nuclear Data Center, \nBrookhaven N a t i onal Laboratory. \ny - r a y \nI n t e n s i t y Normal i \nz a t i o n f o r Radioactive Decays i \nn Nuclear Data \nSheets \nJ. K. \nT u l i , National Nuclear Data Center, \nBrookhaven Nati onal Laboratory. \nCalculated Uncertainties o f Absolute y-ray I n t e n s i t i e s and Decay Branching \nRatios Derived from Decay Schemes \nE. Browne, Isotopes Project, \nLawrence Berkeley Laboratory. \nAdoption o f t h e Madison Convention, Strong Spi n-Assi gnment Rule f o r Vector \nAnalyzi ng Power Measurements i n S i ngl e Nucleon Transfer Reacti ons and Weak \nSpin Assignment Rule f o r Measurements on Isobaric Analog States \nD. \nC. \nKocher, \nOak Ridge National Laboratory. \nArguments f o r I s o b a r i c Spin Assignments \nP. \nM. Endt and C. \nvan der Leun, \nFysisch Laboratorium, R i jksuni versi t e i t , Utrecht. \nS i ngl e-Nucl eon Transfer Reactions \nP. M. \nEndt, \nFysisch Laboratorium, R i jksuni v e r s i t e i t, Utrecht. \nDef i \nn i ti ons , Sum Rules and Selection Rul es i n D i r e c t Reactions \nM. \nB. \nLewis, \nOak Ridge National Laboratory. \n10. Momentum Matching and C'S \nValues \nM. \nB. \nLewis, \nOak Ridge National Laboratory. \n- iii - \n",
+      "keyword_pages": [
+        3,
+        66,
+        67,
+        74,
+        132,
+        133,
+        134,
+        135,
+        136,
+        179
+      ]
+    }
+  ]
+}

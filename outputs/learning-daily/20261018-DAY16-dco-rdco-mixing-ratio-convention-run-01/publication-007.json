@@ -1,0 +1,50 @@
+{
+  "at": "2026-10-18T16:51:22.347923+08:00",
+  "publication_index": 7,
+  "branch": "main",
+  "subject": "Extend DAY16 with Cd110 reference-role and network audits",
+  "commit": "d3d9b61d6d07012864e9a90a903f55972bc15e19",
+  "origin_main": "d3d9b61d6d07012864e9a90a903f55972bc15e19",
+  "origin_matches_HEAD": true,
+  "commands": [
+    {
+      "command": "git fetch origin main",
+      "exit_code": 0
+    },
+    {
+      "command": "git merge-base --is-ancestor origin/main HEAD",
+      "exit_code": 0
+    },
+    {
+      "command": "git push --dry-run origin HEAD:main",
+      "exit_code": 0
+    },
+    {
+      "command": "git push origin HEAD:main",
+      "exit_code": 0
+    }
+  ],
+  "status": "published",
+  "index_empty": true,
+  "inherited_dirty_preserved": {
+    "outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/completion-audit.json": true,
+    "outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/progress.jsonl": true,
+    "outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/research-checkpoint.json": true,
+    "outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/run.json": true,
+    "outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/schedule-resume-process.log": true,
+    "outputs/learning-daily/20261008-DAY9-be2-bm1-reduced-matrix-elements-strengths-run-01/run.json": true,
+    "outputs/learning-daily/20261008-clock-reminder-delivery-fix-run-01/repair-receipt.json": true,
+    "outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity-run-01/run.json": true,
+    "outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/run.json": true,
+    "outputs/learning-daily/20261016-DAY15-ado-angular-distribution-geometry-run-01/run.json": true,
+    "outputs/learning-daily/prompt-maintenance/20261016-day15-consolidation.json": true,
+    "system/scripts/run_daily_learning_daemon.py": true
+  },
+  "study_goal_status": "active",
+  "research_window_status": "active",
+  "deadline": "2026-10-19T15:00:00+08:00",
+  "curriculum_unchanged": {
+    "next": 17,
+    "completed_count": 16
+  }
+}

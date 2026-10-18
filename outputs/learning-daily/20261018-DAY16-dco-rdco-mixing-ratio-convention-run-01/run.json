@@ -87,16 +87,66 @@
       "subject": "Complete DAY16 card and reconcile course state",
       "commit_hash": "48c938e3618eaa8c2a074504fa68c017ce3b8f9d",
       "outcome": "pushed"
+    },
+    {
+      "at": "2026-10-18T16:51:22.347923+08:00",
+      "publication_index": 7,
+      "branch": "main",
+      "subject": "Extend DAY16 with Cd110 reference-role and network audits",
+      "commit": "d3d9b61d6d07012864e9a90a903f55972bc15e19",
+      "origin_main": "d3d9b61d6d07012864e9a90a903f55972bc15e19",
+      "origin_matches_HEAD": true,
+      "commands": [
+        {
+          "command": "git fetch origin main",
+          "exit_code": 0
+        },
+        {
+          "command": "git merge-base --is-ancestor origin/main HEAD",
+          "exit_code": 0
+        },
+        {
+          "command": "git push --dry-run origin HEAD:main",
+          "exit_code": 0
+        },
+        {
+          "command": "git push origin HEAD:main",
+          "exit_code": 0
+        }
+      ],
+      "status": "published",
+      "index_empty": true,
+      "inherited_dirty_preserved": {
+        "outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/completion-audit.json": true,
+        "outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/progress.jsonl": true,
+        "outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/research-checkpoint.json": true,
+        "outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/run.json": true,
+        "outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/schedule-resume-process.log": true,
+        "outputs/learning-daily/20261008-DAY9-be2-bm1-reduced-matrix-elements-strengths-run-01/run.json": true,
+        "outputs/learning-daily/20261008-clock-reminder-delivery-fix-run-01/repair-receipt.json": true,
+        "outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity-run-01/run.json": true,
+        "outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/run.json": true,
+        "outputs/learning-daily/20261016-DAY15-ado-angular-distribution-geometry-run-01/run.json": true,
+        "outputs/learning-daily/prompt-maintenance/20261016-day15-consolidation.json": true,
+        "system/scripts/run_daily_learning_daemon.py": true
+      },
+      "study_goal_status": "active",
+      "research_window_status": "active",
+      "deadline": "2026-10-19T15:00:00+08:00",
+      "curriculum_unchanged": {
+        "next": 17,
+        "completed_count": 16
+      }
     }
   ],
-  "last_checkpoint": "reopened-001",
-  "last_verification": "verification-reopened-001.json",
-  "knowledge_writeback_items": 17,
-  "last_learning_summary": "新DNB定位Jül-Spez458的DCO46页但body未得；KS70实际15gamma/31cells/26pairs、1505上下游reference及direct/indirect未闭合canonical。",
-  "knowledge_changed_pages": 17,
+  "last_checkpoint": "reopened-002",
+  "last_verification": "verification-reopened-002.json",
+  "knowledge_writeback_items": 19,
+  "last_learning_summary": "固定ALPACA C++/GSL实际执行核first/last/U/偏振与接口对象；independent implementation非独立实验。原Pythonwrapper的rotation symbol边界隔离，原response/Σ仍缺。",
+  "knowledge_changed_pages": 19,
   "uncredited_day17_preview_started": true,
   "preview_time_gate": "outputs/learning-daily/20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/day17-preview-time-gate.json",
-  "current_research_route": "新ALPACA固定公开代码对象的合法本地构建/phase角色交叉核验；不是DCOMAP或原实验producer",
+  "current_research_route": "ENSDF官方procedures/format原manual的phase/MR合同；source-before已primedfreeze，按实际取得正文继续。",
   "research_status": "active-user-resumed-original-window",
   "research_stopped_at": null,
   "original_minutes_to_deadline_at_research_stop": 1523.8833333333334,
@@ -215,5 +265,6 @@
     "status_observed": "active via get_goal",
     "deadline": "2026-10-19T15:00:00+08:00",
     "credit_policy": "Day16 kept once; partial17 only; no Day18"
-  }
+  },
+  "last_publication": "publication-007.json"
 }

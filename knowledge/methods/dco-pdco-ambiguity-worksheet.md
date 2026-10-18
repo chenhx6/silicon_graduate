@@ -249,3 +249,9 @@ KS70 Eq9在electron-mass natural units给`delta=(sqrt3/10)k Delta_BM`。本任�
 KS70-16保留同targetfirst的direct/indirect A22差−.068；TableI四项在相同forwardmodel下无一倍margin共同交。不能从无交直接判experiment错误或调Cov/误差逼合；完整producer、correctionrecipe和Σ未取到，两个configuration分开追踪。[相关程序](../../system/scripts/day16_ks70_network_reference_audit.py)只是本任务计算；实际路径为`system/scripts/day16_ks70_network_reference_audit.py`，输入/结果receipt保存sourcehash和phase依赖。
 
 KS70-17进一步提醒：例如764/658包含三条中间路径，公式应为`Ck=Bk(first) [sum_p w_p product_(u in p) Uk(u)] Ak(last)`，w是**在同一selection及响应下**的条件路径权重；不能任选branch，也不能用δ²导出的U来认定符号。原图各M1百分比是TableIII δ的派生量，不能代path强度。此边界不要求本任务编造missingbranchweights。
+
+## 参考程序必须携带观测对象合同
+
+[[alpaca-2023-v105-angular-correlation-code]] AC23-2/3/5/6给出实际固定C++/GSL交叉核验。其Biedenharn first/last坐标需用`dBfirst=−dKS`、`dBlast=dKS`；角平均1对应本页unpolarized joint density乘16pi²，first已选linear polarization则乘32pi²。该区分由条件概率/首光子率给出，不是拟合scale。对1505两角色/declaredcontrols，外部实现与本页trace差约1e−15；pure仍无法识别只改first干涉坐标的错误。
+
+接口还有一项实际使用门：ALPACA constructor以first EM是否unknown选择dir-dir或pol-dir。给EM类型不能仅当标签美化；同一3→2→0、δKS=−.55的条件例theta135时Wdir=.89954143，Wpol(phi0)=.92027694、Wpol(phi90)=.87880592，两者平均回dir。只核90度可漏掉此例的区别；后者不是直接测量的polarimeter A。此程序不带任意beam初态ρ/sigma输入，不能据此声称重放178W DCO。AC23-4另保留固定Pythonwrapper的rotation符号失败，本次实际用现有CABI，未修原程序或声称全包ready。

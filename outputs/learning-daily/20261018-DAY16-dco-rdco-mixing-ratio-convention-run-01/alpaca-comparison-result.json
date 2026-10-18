@@ -1,0 +1,2284 @@
+{
+  "identity": "DAY16-ALPACA-FIXED-CODE-ROLE-PHASE-01",
+  "commit": "f173c2d2e2fd855451e06446a2cfcce679c42d24",
+  "input_sha256": "dd5b433246a1255640e8ce45a32106bfbe716396104ac7ae8cca674d93cacd80",
+  "harness_sha256": "f7c850103bcac32dd7027509cc997b8229ec1bc98c06614f9cabfdfbf1b48ae3",
+  "external_shared_library_sha256": "5b983b807d356db313f573c52400291b89a58a3ecf7c239ad7f6f8c4dd7051fe",
+  "external_entrypoints": [
+    "create_angular_correlation",
+    "evaluate_angular_correlation",
+    "free_angular_correlation"
+  ],
+  "upstream_Python_wrapper_import_ready": false,
+  "upstream_Python_wrapper_boundary": "References an unexported evaluate_angular_correlation_rotated symbol in this fixed object; no rotation API was used or patched.",
+  "producer_scope": "fixed1.0.5 emission direction/direction and polarized-first direction correlations; not arbitrary beam-oriented DCO",
+  "max_external_vs_photon_trace_error": 1.1102230246251565e-15,
+  "max_angular_mean_error": 6.661338147750939e-16,
+  "wrong_first_sign_max_mixed_difference": 0.6608114211743166,
+  "wrong_first_sign_max_pure_difference": 9.992007221626409e-16,
+  "unobserved_middle_sign_max_difference": 0.0,
+  "API_polarization_average_to_direction_max_error": 1.1102230246251565e-16,
+  "roles": [
+    {
+      "role": "first1505",
+      "delta_KS_D96": 0.0,
+      "mean_over_sphere": 1.0000000000000004,
+      "samples": [
+        {
+          "theta_deg": 0.0,
+          "phi_deg": 0.0,
+          "external": 0.928571428571429,
+          "photon_trace": 0.9285714285714287,
+          "wrong_first_sign": 0.928571428571429
+        },
+        {
+          "theta_deg": 0.0,
+          "phi_deg": 45.0,
+          "external": 0.928571428571429,
+          "photon_trace": 0.9285714285714286,
+          "wrong_first_sign": 0.928571428571429
+        },
+        {
+          "theta_deg": 0.0,
+          "phi_deg": 90.0,
+          "external": 0.928571428571429,
+          "photon_trace": 0.9285714285714287,
+          "wrong_first_sign": 0.928571428571429
+        },
+        {
+          "theta_deg": 0.0,
+          "phi_deg": 130.0,
+          "external": 0.928571428571429,
+          "photon_trace": 0.9285714285714283,
+          "wrong_first_sign": 0.928571428571429
+        },
+        {
+          "theta_deg": 35.0,
+          "phi_deg": 0.0,
+          "external": 0.9638203494646967,
+          "photon_trace": 0.9638203494646963,
+          "wrong_first_sign": 0.9638203494646967
+        },
+        {
+          "theta_deg": 35.0,
+          "phi_deg": 45.0,
+          "external": 0.9638203494646967,
+          "photon_trace": 0.9638203494646963,
+          "wrong_first_sign": 0.9638203494646967
+        },
+        {
+          "theta_deg": 35.0,
+          "phi_deg": 90.0,
+          "external": 0.9638203494646967,
+          "photon_trace": 0.9638203494646963,
+          "wrong_first_sign": 0.9638203494646967
+        },
+        {
+          "theta_deg": 35.0,
+          "phi_deg": 130.0,
+          "external": 0.9638203494646967,
+          "photon_trace": 0.9638203494646963,
+          "wrong_first_sign": 0.9638203494646967
+        },
+        {
+          "theta_deg": 53.0,
+          "phi_deg": 0.0,
+          "external": 0.9969091440616253,
+          "photon_trace": 0.9969091440616255,
+          "wrong_first_sign": 0.9969091440616253
+        },
+        {
+          "theta_deg": 53.0,
+          "phi_deg": 45.0,
+          "external": 0.9969091440616253,
+          "photon_trace": 0.9969091440616255,
+          "wrong_first_sign": 0.9969091440616253
+        },
+        {
+          "theta_deg": 53.0,
+          "phi_deg": 90.0,
+          "external": 0.9969091440616253,
+          "photon_trace": 0.9969091440616255,
+          "wrong_first_sign": 0.9969091440616253
+        },
+        {
+          "theta_deg": 53.0,
+          "phi_deg": 130.0,
+          "external": 0.9969091440616253,
+          "photon_trace": 0.9969091440616255,
+          "wrong_first_sign": 0.9969091440616253
+        },
+        {
+          "theta_deg": 90.0,
+          "phi_deg": 0.0,
+          "external": 1.0357142857142863,
+          "photon_trace": 1.0357142857142858,
+          "wrong_first_sign": 1.0357142857142863
+        },
+        {
+          "theta_deg": 90.0,
+          "phi_deg": 45.0,
+          "external": 1.0357142857142863,
+          "photon_trace": 1.0357142857142858,
+          "wrong_first_sign": 1.0357142857142863
+        },
+        {
+          "theta_deg": 90.0,
+          "phi_deg": 90.0,
+          "external": 1.0357142857142863,
+          "photon_trace": 1.0357142857142858,
+          "wrong_first_sign": 1.0357142857142863
+        },
+        {
+          "theta_deg": 90.0,
+          "phi_deg": 130.0,
+          "external": 1.0357142857142863,
+          "photon_trace": 1.0357142857142856,
+          "wrong_first_sign": 1.0357142857142863
+        },
+        {
+          "theta_deg": 135.0,
+          "phi_deg": 0.0,
+          "external": 0.9821428571428577,
+          "photon_trace": 0.9821428571428572,
+          "wrong_first_sign": 0.9821428571428577
+        },
+        {
+          "theta_deg": 135.0,
+          "phi_deg": 45.0,
+          "external": 0.9821428571428577,
+          "photon_trace": 0.9821428571428572,
+          "wrong_first_sign": 0.9821428571428577
+        },
+        {
+          "theta_deg": 135.0,
+          "phi_deg": 90.0,
+          "external": 0.9821428571428577,
+          "photon_trace": 0.9821428571428572,
+          "wrong_first_sign": 0.9821428571428577
+        },
+        {
+          "theta_deg": 135.0,
+          "phi_deg": 130.0,
+          "external": 0.9821428571428577,
+          "photon_trace": 0.9821428571428571,
+          "wrong_first_sign": 0.9821428571428577
+        },
+        {
+          "theta_deg": 180.0,
+          "phi_deg": 0.0,
+          "external": 0.928571428571429,
+          "photon_trace": 0.9285714285714287,
+          "wrong_first_sign": 0.928571428571429
+        },
+        {
+          "theta_deg": 180.0,
+          "phi_deg": 45.0,
+          "external": 0.928571428571429,
+          "photon_trace": 0.9285714285714286,
+          "wrong_first_sign": 0.928571428571429
+        },
+        {
+          "theta_deg": 180.0,
+          "phi_deg": 90.0,
+          "external": 0.928571428571429,
+          "photon_trace": 0.9285714285714287,
+          "wrong_first_sign": 0.928571428571429
+        },
+        {
+          "theta_deg": 180.0,
+          "phi_deg": 130.0,
+          "external": 0.928571428571429,
+          "photon_trace": 0.9285714285714283,
+          "wrong_first_sign": 0.928571428571429
+        }
+      ]
+    },
+    {
+      "role": "first1505",
+      "delta_KS_D96": -0.55,
+      "mean_over_sphere": 1.0000000000000007,
+      "samples": [
+        {
+          "theta_deg": 0.0,
+          "phi_deg": 0.0,
+          "external": 0.5483987862595661,
+          "photon_trace": 0.5483987862595652,
+          "wrong_first_sign": 1.2092102074338817
+        },
+        {
+          "theta_deg": 0.0,
+          "phi_deg": 45.0,
+          "external": 0.5483987862595661,
+          "photon_trace": 0.5483987862595652,
+          "wrong_first_sign": 1.2092102074338817
+        },
+        {
+          "theta_deg": 0.0,
+          "phi_deg": 90.0,
+          "external": 0.5483987862595661,
+          "photon_trace": 0.5483987862595652,
+          "wrong_first_sign": 1.2092102074338817
+        },
+        {
+          "theta_deg": 0.0,
+          "phi_deg": 130.0,
+          "external": 0.5483987862595661,
+          "photon_trace": 0.5483987862595652,
+          "wrong_first_sign": 1.2092102074338817
+        },
+        {
+          "theta_deg": 35.0,
+          "phi_deg": 0.0,
+          "external": 0.7841101006654013,
+          "photon_trace": 0.7841101006654007,
+          "wrong_first_sign": 1.118821068694939
+        },
+        {
+          "theta_deg": 35.0,
+          "phi_deg": 45.0,
+          "external": 0.7841101006654013,
+          "photon_trace": 0.7841101006654005,
+          "wrong_first_sign": 1.118821068694939
+        },
+        {
+          "theta_deg": 35.0,
+          "phi_deg": 90.0,
+          "external": 0.7841101006654013,
+          "photon_trace": 0.7841101006654007,
+          "wrong_first_sign": 1.118821068694939
+        },
+        {
+          "theta_deg": 35.0,
+          "phi_deg": 130.0,
+          "external": 0.7841101006654013,
+          "photon_trace": 0.7841101006654005,
+          "wrong_first_sign": 1.118821068694939
+        },
+        {
+          "theta_deg": 53.0,
+          "phi_deg": 0.0,
+          "external": 0.9890383277424802,
+          "photon_trace": 0.9890383277424802,
+          "wrong_first_sign": 1.0176329484164381
+        },
+        {
+          "theta_deg": 53.0,
+          "phi_deg": 45.0,
+          "external": 0.9890383277424802,
+          "photon_trace": 0.9890383277424802,
+          "wrong_first_sign": 1.0176329484164381
+        },
+        {
+          "theta_deg": 53.0,
+          "phi_deg": 90.0,
+          "external": 0.9890383277424802,
+          "photon_trace": 0.9890383277424802,
+          "wrong_first_sign": 1.0176329484164381
+        },
+        {
+          "theta_deg": 53.0,
+          "phi_deg": 130.0,
+          "external": 0.9890383277424802,
+          "photon_trace": 0.9890383277424802,
+          "wrong_first_sign": 1.0176329484164381
+        },
+        {
+          "theta_deg": 90.0,
+          "phi_deg": 0.0,
+          "external": 1.209211629628649,
+          "photon_trace": 1.209211629628649,
+          "wrong_first_sign": 0.8788059190414914
+        },
+        {
+          "theta_deg": 90.0,
+          "phi_deg": 45.0,
+          "external": 1.209211629628649,
+          "photon_trace": 1.209211629628649,
+          "wrong_first_sign": 0.8788059190414914
+        },
+        {
+          "theta_deg": 90.0,
+          "phi_deg": 90.0,
+          "external": 1.209211629628649,
+          "photon_trace": 1.209211629628649,
+          "wrong_first_sign": 0.8788059190414914
+        },
+        {
+          "theta_deg": 90.0,
+          "phi_deg": 130.0,
+          "external": 1.209211629628649,
+          "photon_trace": 1.209211629628649,
+          "wrong_first_sign": 0.8788059190414914
+        },
+        {
+          "theta_deg": 135.0,
+          "phi_deg": 0.0,
+          "external": 0.8995414294960682,
+          "photon_trace": 0.899541429496068,
+          "wrong_first_sign": 1.064744284789647
+        },
+        {
+          "theta_deg": 135.0,
+          "phi_deg": 45.0,
+          "external": 0.8995414294960682,
+          "photon_trace": 0.899541429496068,
+          "wrong_first_sign": 1.064744284789647
+        },
+        {
+          "theta_deg": 135.0,
+          "phi_deg": 90.0,
+          "external": 0.8995414294960682,
+          "photon_trace": 0.899541429496068,
+          "wrong_first_sign": 1.064744284789647
+        },
+        {
+          "theta_deg": 135.0,
+          "phi_deg": 130.0,
+          "external": 0.8995414294960682,
+          "photon_trace": 0.8995414294960676,
+          "wrong_first_sign": 1.064744284789647
+        },
+        {
+          "theta_deg": 180.0,
+          "phi_deg": 0.0,
+          "external": 0.5483987862595661,
+          "photon_trace": 0.5483987862595653,
+          "wrong_first_sign": 1.2092102074338817
+        },
+        {
+          "theta_deg": 180.0,
+          "phi_deg": 45.0,
+          "external": 0.5483987862595661,
+          "photon_trace": 0.5483987862595652,
+          "wrong_first_sign": 1.2092102074338817
+        },
+        {
+          "theta_deg": 180.0,
+          "phi_deg": 90.0,
+          "external": 0.5483987862595661,
+          "photon_trace": 0.5483987862595653,
+          "wrong_first_sign": 1.2092102074338817
+        },
+        {
+          "theta_deg": 180.0,
+          "phi_deg": 130.0,
+          "external": 0.5483987862595661,
+          "photon_trace": 0.5483987862595653,
+          "wrong_first_sign": 1.2092102074338817
+        }
+      ]
+    },
+    {
+      "role": "first1505",
+      "delta_KS_D96": -3.4504955344243555,
+      "mean_over_sphere": 1.0000000000000007,
+      "samples": [
+        {
+          "theta_deg": 0.0,
+          "phi_deg": 0.0,
+          "external": 0.5216925571250398,
+          "photon_trace": 0.5216925571250387,
+          "wrong_first_sign": 0.9400862249242725
+        },
+        {
+          "theta_deg": 0.0,
+          "phi_deg": 45.0,
+          "external": 0.5216925571250398,
+          "photon_trace": 0.5216925571250387,
+          "wrong_first_sign": 0.9400862249242725
+        },
+        {
+          "theta_deg": 0.0,
+          "phi_deg": 90.0,
+          "external": 0.5216925571250398,
+          "photon_trace": 0.5216925571250387,
+          "wrong_first_sign": 0.9400862249242725
+        },
+        {
+          "theta_deg": 0.0,
+          "phi_deg": 130.0,
+          "external": 0.5216925571250398,
+          "photon_trace": 0.5216925571250387,
+          "wrong_first_sign": 0.9400862249242725
+        },
+        {
+          "theta_deg": 35.0,
+          "phi_deg": 0.0,
+          "external": 0.8087839343502693,
+          "photon_trace": 0.8087839343502684,
+          "wrong_first_sign": 1.0207066479705118
+        },
+        {
+          "theta_deg": 35.0,
+          "phi_deg": 45.0,
+          "external": 0.8087839343502693,
+          "photon_trace": 0.8087839343502684,
+          "wrong_first_sign": 1.0207066479705118
+        },
+        {
+          "theta_deg": 35.0,
+          "phi_deg": 90.0,
+          "external": 0.8087839343502693,
+          "photon_trace": 0.8087839343502684,
+          "wrong_first_sign": 1.0207066479705118
+        },
+        {
+          "theta_deg": 35.0,
+          "phi_deg": 130.0,
+          "external": 0.8087839343502693,
+          "photon_trace": 0.8087839343502683,
+          "wrong_first_sign": 1.0207066479705118
+        },
+        {
+          "theta_deg": 53.0,
+          "phi_deg": 0.0,
+          "external": 1.0133838216886797,
+          "photon_trace": 1.0133838216886795,
+          "wrong_first_sign": 1.0314885454264207
+        },
+        {
+          "theta_deg": 53.0,
+          "phi_deg": 45.0,
+          "external": 1.0133838216886797,
+          "photon_trace": 1.0133838216886795,
+          "wrong_first_sign": 1.0314885454264207
+        },
+        {
+          "theta_deg": 53.0,
+          "phi_deg": 90.0,
+          "external": 1.0133838216886797,
+          "photon_trace": 1.0133838216886795,
+          "wrong_first_sign": 1.0314885454264207
+        },
+        {
+          "theta_deg": 53.0,
+          "phi_deg": 130.0,
+          "external": 1.0133838216886797,
+          "photon_trace": 1.0133838216886795,
+          "wrong_first_sign": 1.0314885454264207
+        },
+        {
+          "theta_deg": 90.0,
+          "phi_deg": 0.0,
+          "external": 1.1732597089218901,
+          "photon_trace": 1.17325970892189,
+          "wrong_first_sign": 0.9640628750222737
+        },
+        {
+          "theta_deg": 90.0,
+          "phi_deg": 45.0,
+          "external": 1.1732597089218901,
+          "photon_trace": 1.17325970892189,
+          "wrong_first_sign": 0.9640628750222737
+        },
+        {
+          "theta_deg": 90.0,
+          "phi_deg": 90.0,
+          "external": 1.1732597089218901,
+          "photon_trace": 1.17325970892189,
+          "wrong_first_sign": 0.9640628750222737
+        },
+        {
+          "theta_deg": 90.0,
+          "phi_deg": 130.0,
+          "external": 1.1732597089218901,
+          "photon_trace": 1.1732597089218895,
+          "wrong_first_sign": 0.9640628750222737
+        },
+        {
+          "theta_deg": 135.0,
+          "phi_deg": 0.0,
+          "external": 0.9298436486679538,
+          "photon_trace": 0.9298436486679532,
+          "wrong_first_sign": 1.034442065617762
+        },
+        {
+          "theta_deg": 135.0,
+          "phi_deg": 45.0,
+          "external": 0.9298436486679538,
+          "photon_trace": 0.9298436486679532,
+          "wrong_first_sign": 1.034442065617762
+        },
+        {
+          "theta_deg": 135.0,
+          "phi_deg": 90.0,
+          "external": 0.9298436486679538,
+          "photon_trace": 0.9298436486679532,
+          "wrong_first_sign": 1.034442065617762
+        },
+        {
+          "theta_deg": 135.0,
+          "phi_deg": 130.0,
+          "external": 0.9298436486679538,
+          "photon_trace": 0.929843648667953,
+          "wrong_first_sign": 1.034442065617762
+        },
+        {
+          "theta_deg": 180.0,
+          "phi_deg": 0.0,
+          "external": 0.5216925571250398,
+          "photon_trace": 0.5216925571250387,
+          "wrong_first_sign": 0.9400862249242725
+        },
+        {
+          "theta_deg": 180.0,
+          "phi_deg": 45.0,
+          "external": 0.5216925571250398,
+          "photon_trace": 0.5216925571250387,
+          "wrong_first_sign": 0.9400862249242725
+        },
+        {
+          "theta_deg": 180.0,
+          "phi_deg": 90.0,
+          "external": 0.5216925571250398,
+          "photon_trace": 0.5216925571250387,
+          "wrong_first_sign": 0.9400862249242725
+        },
+        {
+          "theta_deg": 180.0,
+          "phi_deg": 130.0,
+          "external": 0.5216925571250398,
+          "photon_trace": 0.5216925571250387,
+          "wrong_first_sign": 0.9400862249242725
+        }
+      ]
+    },
+    {
+      "role": "first1505",
+      "delta_KS_D96": -0.4830818766109998,
+      "mean_over_sphere": 1.0000000000000004,
+      "samples": [
+        {
+          "theta_deg": 0.0,
+          "phi_deg": 0.0,
+          "external": 0.581554118830846,
+          "photon_trace": 0.5815541188308455,
+          "wrong_first_sign": 1.1944978621739506
+        },
+        {
+          "theta_deg": 0.0,
+          "phi_deg": 45.0,
+          "external": 0.581554118830846,
+          "photon_trace": 0.5815541188308455,
+          "wrong_first_sign": 1.1944978621739506
+        },
+        {
+          "theta_deg": 0.0,
+          "phi_deg": 90.0,
+          "external": 0.581554118830846,
+          "photon_trace": 0.5815541188308455,
+          "wrong_first_sign": 1.1944978621739506
+        },
+        {
+          "theta_deg": 0.0,
+          "phi_deg": 130.0,
+          "external": 0.581554118830846,
+          "photon_trace": 0.5815541188308455,
+          "wrong_first_sign": 1.1944978621739506
+        },
+        {
+          "theta_deg": 35.0,
+          "phi_deg": 0.0,
+          "external": 0.7985222104299272,
+          "photon_trace": 0.7985222104299267,
+          "wrong_first_sign": 1.108987476477289
+        },
+        {
+          "theta_deg": 35.0,
+          "phi_deg": 45.0,
+          "external": 0.7985222104299272,
+          "photon_trace": 0.7985222104299267,
+          "wrong_first_sign": 1.108987476477289
+        },
+        {
+          "theta_deg": 35.0,
+          "phi_deg": 90.0,
+          "external": 0.7985222104299272,
+          "photon_trace": 0.7985222104299267,
+          "wrong_first_sign": 1.108987476477289
+        },
+        {
+          "theta_deg": 35.0,
+          "phi_deg": 130.0,
+          "external": 0.7985222104299272,
+          "photon_trace": 0.7985222104299264,
+          "wrong_first_sign": 1.108987476477289
+        },
+        {
+          "theta_deg": 53.0,
+          "phi_deg": 0.0,
+          "external": 0.9888832042412476,
+          "photon_trace": 0.9888832042412478,
+          "wrong_first_sign": 1.015406495567274
+        },
+        {
+          "theta_deg": 53.0,
+          "phi_deg": 45.0,
+          "external": 0.9888832042412476,
+          "photon_trace": 0.9888832042412479,
+          "wrong_first_sign": 1.015406495567274
+        },
+        {
+          "theta_deg": 53.0,
+          "phi_deg": 90.0,
+          "external": 0.9888832042412476,
+          "photon_trace": 0.9888832042412478,
+          "wrong_first_sign": 1.015406495567274
+        },
+        {
+          "theta_deg": 53.0,
+          "phi_deg": 130.0,
+          "external": 0.9888832042412476,
+          "photon_trace": 0.988883204241248,
+          "wrong_first_sign": 1.015406495567274
+        },
+        {
+          "theta_deg": 90.0,
+          "phi_deg": 0.0,
+          "external": 1.1957077945615675,
+          "photon_trace": 1.1957077945615677,
+          "wrong_first_sign": 0.8892359228900151
+        },
+        {
+          "theta_deg": 90.0,
+          "phi_deg": 45.0,
+          "external": 1.1957077945615675,
+          "photon_trace": 1.1957077945615673,
+          "wrong_first_sign": 0.8892359228900151
+        },
+        {
+          "theta_deg": 90.0,
+          "phi_deg": 90.0,
+          "external": 1.1957077945615675,
+          "photon_trace": 1.1957077945615677,
+          "wrong_first_sign": 0.8892359228900151
+        },
+        {
+          "theta_deg": 90.0,
+          "phi_deg": 130.0,
+          "external": 1.1957077945615675,
+          "photon_trace": 1.1957077945615673,
+          "wrong_first_sign": 0.8892359228900151
+        },
+        {
+          "theta_deg": 135.0,
+          "phi_deg": 0.0,
+          "external": 0.9055248892249697,
+          "photon_trace": 0.9055248892249693,
+          "wrong_first_sign": 1.0587608250607456
+        },
+        {
+          "theta_deg": 135.0,
+          "phi_deg": 45.0,
+          "external": 0.9055248892249697,
+          "photon_trace": 0.9055248892249693,
+          "wrong_first_sign": 1.0587608250607456
+        },
+        {
+          "theta_deg": 135.0,
+          "phi_deg": 90.0,
+          "external": 0.9055248892249697,
+          "photon_trace": 0.9055248892249693,
+          "wrong_first_sign": 1.0587608250607456
+        },
+        {
+          "theta_deg": 135.0,
+          "phi_deg": 130.0,
+          "external": 0.9055248892249697,
+          "photon_trace": 0.9055248892249691,
+          "wrong_first_sign": 1.0587608250607456
+        },
+        {
+          "theta_deg": 180.0,
+          "phi_deg": 0.0,
+          "external": 0.581554118830846,
+          "photon_trace": 0.5815541188308454,
+          "wrong_first_sign": 1.1944978621739506
+        },
+        {
+          "theta_deg": 180.0,
+          "phi_deg": 45.0,
+          "external": 0.581554118830846,
+          "photon_trace": 0.5815541188308454,
+          "wrong_first_sign": 1.1944978621739506
+        },
+        {
+          "theta_deg": 180.0,
+          "phi_deg": 90.0,
+          "external": 0.581554118830846,
+          "photon_trace": 0.5815541188308454,
+          "wrong_first_sign": 1.1944978621739506
+        },
+        {
+          "theta_deg": 180.0,
+          "phi_deg": 130.0,
+          "external": 0.581554118830846,
+          "photon_trace": 0.5815541188308454,
+          "wrong_first_sign": 1.1944978621739506
+        }
+      ]
+    },
+    {
+      "role": "first1505",
+      "delta_KS_D96": null,
+      "mean_over_sphere": 1.0000000000000007,
+      "samples": [
+        {
+          "theta_deg": 0.0,
+          "phi_deg": 0.0,
+          "external": 0.7142857142857154,
+          "photon_trace": 0.7142857142857144,
+          "wrong_first_sign": 0.7142857142857154
+        },
+        {
+          "theta_deg": 0.0,
+          "phi_deg": 45.0,
+          "external": 0.7142857142857154,
+          "photon_trace": 0.7142857142857144,
+          "wrong_first_sign": 0.7142857142857154
+        },
+        {
+          "theta_deg": 0.0,
+          "phi_deg": 90.0,
+          "external": 0.7142857142857154,
+          "photon_trace": 0.7142857142857144,
+          "wrong_first_sign": 0.7142857142857154
+        },
+        {
+          "theta_deg": 0.0,
+          "phi_deg": 130.0,
+          "external": 0.7142857142857154,
+          "photon_trace": 0.7142857142857146,
+          "wrong_first_sign": 0.7142857142857154
+        },
+        {
+          "theta_deg": 35.0,
+          "phi_deg": 0.0,
+          "external": 0.9106233870453715,
+          "photon_trace": 0.9106233870453707,
+          "wrong_first_sign": 0.9106233870453715
+        },
+        {
+          "theta_deg": 35.0,
+          "phi_deg": 45.0,
+          "external": 0.9106233870453715,
+          "photon_trace": 0.9106233870453707,
+          "wrong_first_sign": 0.9106233870453715
+        },
+        {
+          "theta_deg": 35.0,
+          "phi_deg": 90.0,
+          "external": 0.9106233870453715,
+          "photon_trace": 0.9106233870453707,
+          "wrong_first_sign": 0.9106233870453715
+        },
+        {
+          "theta_deg": 35.0,
+          "phi_deg": 130.0,
+          "external": 0.9106233870453715,
+          "photon_trace": 0.9106233870453707,
+          "wrong_first_sign": 0.9106233870453715
+        },
+        {
+          "theta_deg": 53.0,
+          "phi_deg": 0.0,
+          "external": 1.0245802464028766,
+          "photon_trace": 1.0245802464028764,
+          "wrong_first_sign": 1.0245802464028766
+        },
+        {
+          "theta_deg": 53.0,
+          "phi_deg": 45.0,
+          "external": 1.0245802464028766,
+          "photon_trace": 1.0245802464028764,
+          "wrong_first_sign": 1.0245802464028766
+        },
+        {
+          "theta_deg": 53.0,
+          "phi_deg": 90.0,
+          "external": 1.0245802464028766,
+          "photon_trace": 1.0245802464028764,
+          "wrong_first_sign": 1.0245802464028766
+        },
+        {
+          "theta_deg": 53.0,
+          "phi_deg": 130.0,
+          "external": 1.0245802464028766,
+          "photon_trace": 1.0245802464028764,
+          "wrong_first_sign": 1.0245802464028766
+        },
+        {
+          "theta_deg": 90.0,
+          "phi_deg": 0.0,
+          "external": 1.071428571428572,
+          "photon_trace": 1.0714285714285716,
+          "wrong_first_sign": 1.071428571428572
+        },
+        {
+          "theta_deg": 90.0,
+          "phi_deg": 45.0,
+          "external": 1.071428571428572,
+          "photon_trace": 1.0714285714285714,
+          "wrong_first_sign": 1.071428571428572
+        },
+        {
+          "theta_deg": 90.0,
+          "phi_deg": 90.0,
+          "external": 1.071428571428572,
+          "photon_trace": 1.0714285714285716,
+          "wrong_first_sign": 1.071428571428572
+        },
+        {
+          "theta_deg": 90.0,
+          "phi_deg": 130.0,
+          "external": 1.071428571428572,
+          "photon_trace": 1.0714285714285712,
+          "wrong_first_sign": 1.071428571428572
+        },
+        {
+          "theta_deg": 135.0,
+          "phi_deg": 0.0,
+          "external": 0.9821428571428579,
+          "photon_trace": 0.9821428571428571,
+          "wrong_first_sign": 0.9821428571428579
+        },
+        {
+          "theta_deg": 135.0,
+          "phi_deg": 45.0,
+          "external": 0.9821428571428579,
+          "photon_trace": 0.9821428571428572,
+          "wrong_first_sign": 0.9821428571428579
+        },
+        {
+          "theta_deg": 135.0,
+          "phi_deg": 90.0,
+          "external": 0.9821428571428579,
+          "photon_trace": 0.9821428571428571,
+          "wrong_first_sign": 0.9821428571428579
+        },
+        {
+          "theta_deg": 135.0,
+          "phi_deg": 130.0,
+          "external": 0.9821428571428579,
+          "photon_trace": 0.9821428571428569,
+          "wrong_first_sign": 0.9821428571428579
+        },
+        {
+          "theta_deg": 180.0,
+          "phi_deg": 0.0,
+          "external": 0.7142857142857154,
+          "photon_trace": 0.7142857142857144,
+          "wrong_first_sign": 0.7142857142857154
+        },
+        {
+          "theta_deg": 180.0,
+          "phi_deg": 45.0,
+          "external": 0.7142857142857154,
+          "photon_trace": 0.7142857142857144,
+          "wrong_first_sign": 0.7142857142857154
+        },
+        {
+          "theta_deg": 180.0,
+          "phi_deg": 90.0,
+          "external": 0.7142857142857154,
+          "photon_trace": 0.7142857142857144,
+          "wrong_first_sign": 0.7142857142857154
+        },
+        {
+          "theta_deg": 180.0,
+          "phi_deg": 130.0,
+          "external": 0.7142857142857154,
+          "photon_trace": 0.7142857142857146,
+          "wrong_first_sign": 0.7142857142857154
+        }
+      ]
+    },
+    {
+      "role": "second1505",
+      "delta_KS_D96": 0.0,
+      "mean_over_sphere": 1.0000000000000004,
+      "samples": [
+        {
+          "theta_deg": 0.0,
+          "phi_deg": 0.0,
+          "external": 0.928571428571429,
+          "photon_trace": 0.9285714285714286,
+          "wrong_first_sign": 0.928571428571429
+        },
+        {
+          "theta_deg": 0.0,
+          "phi_deg": 45.0,
+          "external": 0.928571428571429,
+          "photon_trace": 0.9285714285714286,
+          "wrong_first_sign": 0.928571428571429
+        },
+        {
+          "theta_deg": 0.0,
+          "phi_deg": 90.0,
+          "external": 0.928571428571429,
+          "photon_trace": 0.9285714285714286,
+          "wrong_first_sign": 0.928571428571429
+        },
+        {
+          "theta_deg": 0.0,
+          "phi_deg": 130.0,
+          "external": 0.928571428571429,
+          "photon_trace": 0.9285714285714284,
+          "wrong_first_sign": 0.928571428571429
+        },
+        {
+          "theta_deg": 35.0,
+          "phi_deg": 0.0,
+          "external": 0.9638203494646967,
+          "photon_trace": 0.9638203494646963,
+          "wrong_first_sign": 0.9638203494646967
+        },
+        {
+          "theta_deg": 35.0,
+          "phi_deg": 45.0,
+          "external": 0.9638203494646967,
+          "photon_trace": 0.9638203494646965,
+          "wrong_first_sign": 0.9638203494646967
+        },
+        {
+          "theta_deg": 35.0,
+          "phi_deg": 90.0,
+          "external": 0.9638203494646967,
+          "photon_trace": 0.9638203494646963,
+          "wrong_first_sign": 0.9638203494646967
+        },
+        {
+          "theta_deg": 35.0,
+          "phi_deg": 130.0,
+          "external": 0.9638203494646967,
+          "photon_trace": 0.9638203494646963,
+          "wrong_first_sign": 0.9638203494646967
+        },
+        {
+          "theta_deg": 53.0,
+          "phi_deg": 0.0,
+          "external": 0.9969091440616253,
+          "photon_trace": 0.9969091440616252,
+          "wrong_first_sign": 0.9969091440616253
+        },
+        {
+          "theta_deg": 53.0,
+          "phi_deg": 45.0,
+          "external": 0.9969091440616253,
+          "photon_trace": 0.9969091440616252,
+          "wrong_first_sign": 0.9969091440616253
+        },
+        {
+          "theta_deg": 53.0,
+          "phi_deg": 90.0,
+          "external": 0.9969091440616253,
+          "photon_trace": 0.9969091440616252,
+          "wrong_first_sign": 0.9969091440616253
+        },
+        {
+          "theta_deg": 53.0,
+          "phi_deg": 130.0,
+          "external": 0.9969091440616253,
+          "photon_trace": 0.9969091440616251,
+          "wrong_first_sign": 0.9969091440616253
+        },
+        {
+          "theta_deg": 90.0,
+          "phi_deg": 0.0,
+          "external": 1.0357142857142863,
+          "photon_trace": 1.035714285714286,
+          "wrong_first_sign": 1.0357142857142863
+        },
+        {
+          "theta_deg": 90.0,
+          "phi_deg": 45.0,
+          "external": 1.0357142857142863,
+          "photon_trace": 1.035714285714286,
+          "wrong_first_sign": 1.0357142857142863
+        },
+        {
+          "theta_deg": 90.0,
+          "phi_deg": 90.0,
+          "external": 1.0357142857142863,
+          "photon_trace": 1.035714285714286,
+          "wrong_first_sign": 1.0357142857142863
+        },
+        {
+          "theta_deg": 90.0,
+          "phi_deg": 130.0,
+          "external": 1.0357142857142863,
+          "photon_trace": 1.035714285714286,
+          "wrong_first_sign": 1.0357142857142863
+        },
+        {
+          "theta_deg": 135.0,
+          "phi_deg": 0.0,
+          "external": 0.9821428571428577,
+          "photon_trace": 0.9821428571428572,
+          "wrong_first_sign": 0.9821428571428577
+        },
+        {
+          "theta_deg": 135.0,
+          "phi_deg": 45.0,
+          "external": 0.9821428571428577,
+          "photon_trace": 0.9821428571428574,
+          "wrong_first_sign": 0.9821428571428577
+        },
+        {
+          "theta_deg": 135.0,
+          "phi_deg": 90.0,
+          "external": 0.9821428571428577,
+          "photon_trace": 0.9821428571428572,
+          "wrong_first_sign": 0.9821428571428577
+        },
+        {
+          "theta_deg": 135.0,
+          "phi_deg": 130.0,
+          "external": 0.9821428571428577,
+          "photon_trace": 0.9821428571428572,
+          "wrong_first_sign": 0.9821428571428577
+        },
+        {
+          "theta_deg": 180.0,
+          "phi_deg": 0.0,
+          "external": 0.928571428571429,
+          "photon_trace": 0.9285714285714286,
+          "wrong_first_sign": 0.928571428571429
+        },
+        {
+          "theta_deg": 180.0,
+          "phi_deg": 45.0,
+          "external": 0.928571428571429,
+          "photon_trace": 0.9285714285714286,
+          "wrong_first_sign": 0.928571428571429
+        },
+        {
+          "theta_deg": 180.0,
+          "phi_deg": 90.0,
+          "external": 0.928571428571429,
+          "photon_trace": 0.9285714285714286,
+          "wrong_first_sign": 0.928571428571429
+        },
+        {
+          "theta_deg": 180.0,
+          "phi_deg": 130.0,
+          "external": 0.928571428571429,
+          "photon_trace": 0.9285714285714284,
+          "wrong_first_sign": 0.928571428571429
+        }
+      ]
+    },
+    {
+      "role": "second1505",
+      "delta_KS_D96": -0.55,
+      "mean_over_sphere": 1.0000000000000004,
+      "samples": [
+        {
+          "theta_deg": 0.0,
+          "phi_deg": 0.0,
+          "external": 0.7827223800596798,
+          "photon_trace": 0.7827223800596796,
+          "wrong_first_sign": 0.7827223800596798
+        },
+        {
+          "theta_deg": 0.0,
+          "phi_deg": 45.0,
+          "external": 0.7827223800596798,
+          "photon_trace": 0.7827223800596796,
+          "wrong_first_sign": 0.7827223800596798
+        },
+        {
+          "theta_deg": 0.0,
+          "phi_deg": 90.0,
+          "external": 0.7827223800596798,
+          "photon_trace": 0.7827223800596796,
+          "wrong_first_sign": 0.7827223800596798
+        },
+        {
+          "theta_deg": 0.0,
+          "phi_deg": 130.0,
+          "external": 0.7827223800596798,
+          "photon_trace": 0.7827223800596793,
+          "wrong_first_sign": 0.7827223800596798
+        },
+        {
+          "theta_deg": 35.0,
+          "phi_deg": 0.0,
+          "external": 0.8920877593111124,
+          "photon_trace": 0.8920877593111121,
+          "wrong_first_sign": 0.8920877593111124
+        },
+        {
+          "theta_deg": 35.0,
+          "phi_deg": 45.0,
+          "external": 0.8920877593111124,
+          "photon_trace": 0.8920877593111123,
+          "wrong_first_sign": 0.8920877593111124
+        },
+        {
+          "theta_deg": 35.0,
+          "phi_deg": 90.0,
+          "external": 0.8920877593111124,
+          "photon_trace": 0.8920877593111121,
+          "wrong_first_sign": 0.8920877593111124
+        },
+        {
+          "theta_deg": 35.0,
+          "phi_deg": 130.0,
+          "external": 0.8920877593111124,
+          "photon_trace": 0.892087759311112,
+          "wrong_first_sign": 0.8920877593111124
+        },
+        {
+          "theta_deg": 53.0,
+          "phi_deg": 0.0,
+          "external": 0.9920279678018772,
+          "photon_trace": 0.9920279678018771,
+          "wrong_first_sign": 0.9920279678018772
+        },
+        {
+          "theta_deg": 53.0,
+          "phi_deg": 45.0,
+          "external": 0.9920279678018772,
+          "photon_trace": 0.9920279678018773,
+          "wrong_first_sign": 0.9920279678018772
+        },
+        {
+          "theta_deg": 53.0,
+          "phi_deg": 90.0,
+          "external": 0.9920279678018772,
+          "photon_trace": 0.9920279678018771,
+          "wrong_first_sign": 0.9920279678018772
+        },
+        {
+          "theta_deg": 53.0,
+          "phi_deg": 130.0,
+          "external": 0.9920279678018772,
+          "photon_trace": 0.992027967801877,
+          "wrong_first_sign": 0.9920279678018772
+        },
+        {
+          "theta_deg": 90.0,
+          "phi_deg": 0.0,
+          "external": 1.1058739804298992,
+          "photon_trace": 1.105873980429899,
+          "wrong_first_sign": 1.1058739804298992
+        },
+        {
+          "theta_deg": 90.0,
+          "phi_deg": 45.0,
+          "external": 1.1058739804298992,
+          "photon_trace": 1.1058739804298992,
+          "wrong_first_sign": 1.1058739804298992
+        },
+        {
+          "theta_deg": 90.0,
+          "phi_deg": 90.0,
+          "external": 1.1058739804298992,
+          "photon_trace": 1.105873980429899,
+          "wrong_first_sign": 1.1058739804298992
+        },
+        {
+          "theta_deg": 90.0,
+          "phi_deg": 130.0,
+          "external": 1.1058739804298992,
+          "photon_trace": 1.1058739804298992,
+          "wrong_first_sign": 1.1058739804298992
+        },
+        {
+          "theta_deg": 135.0,
+          "phi_deg": 0.0,
+          "external": 0.9477542171701163,
+          "photon_trace": 0.947754217170116,
+          "wrong_first_sign": 0.9477542171701163
+        },
+        {
+          "theta_deg": 135.0,
+          "phi_deg": 45.0,
+          "external": 0.9477542171701163,
+          "photon_trace": 0.947754217170116,
+          "wrong_first_sign": 0.9477542171701163
+        },
+        {
+          "theta_deg": 135.0,
+          "phi_deg": 90.0,
+          "external": 0.9477542171701163,
+          "photon_trace": 0.947754217170116,
+          "wrong_first_sign": 0.9477542171701163
+        },
+        {
+          "theta_deg": 135.0,
+          "phi_deg": 130.0,
+          "external": 0.9477542171701163,
+          "photon_trace": 0.947754217170116,
+          "wrong_first_sign": 0.9477542171701163
+        },
+        {
+          "theta_deg": 180.0,
+          "phi_deg": 0.0,
+          "external": 0.7827223800596798,
+          "photon_trace": 0.7827223800596796,
+          "wrong_first_sign": 0.7827223800596798
+        },
+        {
+          "theta_deg": 180.0,
+          "phi_deg": 45.0,
+          "external": 0.7827223800596798,
+          "photon_trace": 0.7827223800596796,
+          "wrong_first_sign": 0.7827223800596798
+        },
+        {
+          "theta_deg": 180.0,
+          "phi_deg": 90.0,
+          "external": 0.7827223800596798,
+          "photon_trace": 0.7827223800596796,
+          "wrong_first_sign": 0.7827223800596798
+        },
+        {
+          "theta_deg": 180.0,
+          "phi_deg": 130.0,
+          "external": 0.7827223800596798,
+          "photon_trace": 0.7827223800596793,
+          "wrong_first_sign": 0.7827223800596798
+        }
+      ]
+    },
+    {
+      "role": "second1505",
+      "delta_KS_D96": -3.4504955344243555,
+      "mean_over_sphere": 1.0,
+      "samples": [
+        {
+          "theta_deg": 0.0,
+          "phi_deg": 0.0,
+          "external": 0.9008493595564768,
+          "photon_trace": 0.9008493595564772,
+          "wrong_first_sign": 0.9008493595564768
+        },
+        {
+          "theta_deg": 0.0,
+          "phi_deg": 45.0,
+          "external": 0.9008493595564768,
+          "photon_trace": 0.900849359556477,
+          "wrong_first_sign": 0.9008493595564768
+        },
+        {
+          "theta_deg": 0.0,
+          "phi_deg": 90.0,
+          "external": 0.9008493595564768,
+          "photon_trace": 0.9008493595564772,
+          "wrong_first_sign": 0.9008493595564768
+        },
+        {
+          "theta_deg": 0.0,
+          "phi_deg": 130.0,
+          "external": 0.9008493595564768,
+          "photon_trace": 0.9008493595564767,
+          "wrong_first_sign": 0.9008493595564768
+        },
+        {
+          "theta_deg": 35.0,
+          "phi_deg": 0.0,
+          "external": 0.9582876827298549,
+          "photon_trace": 0.958287682729855,
+          "wrong_first_sign": 0.9582876827298549
+        },
+        {
+          "theta_deg": 35.0,
+          "phi_deg": 45.0,
+          "external": 0.9582876827298549,
+          "photon_trace": 0.958287682729855,
+          "wrong_first_sign": 0.9582876827298549
+        },
+        {
+          "theta_deg": 35.0,
+          "phi_deg": 90.0,
+          "external": 0.9582876827298549,
+          "photon_trace": 0.958287682729855,
+          "wrong_first_sign": 0.9582876827298549
+        },
+        {
+          "theta_deg": 35.0,
+          "phi_deg": 130.0,
+          "external": 0.9582876827298549,
+          "photon_trace": 0.958287682729855,
+          "wrong_first_sign": 0.9582876827298549
+        },
+        {
+          "theta_deg": 53.0,
+          "phi_deg": 0.0,
+          "external": 1.0013897440405446,
+          "photon_trace": 1.0013897440405448,
+          "wrong_first_sign": 1.0013897440405446
+        },
+        {
+          "theta_deg": 53.0,
+          "phi_deg": 45.0,
+          "external": 1.0013897440405446,
+          "photon_trace": 1.0013897440405448,
+          "wrong_first_sign": 1.0013897440405446
+        },
+        {
+          "theta_deg": 53.0,
+          "phi_deg": 90.0,
+          "external": 1.0013897440405446,
+          "photon_trace": 1.0013897440405448,
+          "wrong_first_sign": 1.0013897440405446
+        },
+        {
+          "theta_deg": 53.0,
+          "phi_deg": 130.0,
+          "external": 1.0013897440405446,
+          "photon_trace": 1.0013897440405448,
+          "wrong_first_sign": 1.0013897440405446
+        },
+        {
+          "theta_deg": 90.0,
+          "phi_deg": 0.0,
+          "external": 1.0385929848024966,
+          "photon_trace": 1.0385929848024966,
+          "wrong_first_sign": 1.0385929848024966
+        },
+        {
+          "theta_deg": 90.0,
+          "phi_deg": 45.0,
+          "external": 1.0385929848024966,
+          "photon_trace": 1.0385929848024966,
+          "wrong_first_sign": 1.0385929848024966
+        },
+        {
+          "theta_deg": 90.0,
+          "phi_deg": 90.0,
+          "external": 1.0385929848024966,
+          "photon_trace": 1.0385929848024966,
+          "wrong_first_sign": 1.0385929848024966
+        },
+        {
+          "theta_deg": 90.0,
+          "phi_deg": 130.0,
+          "external": 1.0385929848024966,
+          "photon_trace": 1.0385929848024966,
+          "wrong_first_sign": 1.0385929848024966
+        },
+        {
+          "theta_deg": 135.0,
+          "phi_deg": 0.0,
+          "external": 0.9834490914535681,
+          "photon_trace": 0.9834490914535681,
+          "wrong_first_sign": 0.9834490914535681
+        },
+        {
+          "theta_deg": 135.0,
+          "phi_deg": 45.0,
+          "external": 0.9834490914535681,
+          "photon_trace": 0.9834490914535682,
+          "wrong_first_sign": 0.9834490914535681
+        },
+        {
+          "theta_deg": 135.0,
+          "phi_deg": 90.0,
+          "external": 0.9834490914535681,
+          "photon_trace": 0.9834490914535681,
+          "wrong_first_sign": 0.9834490914535681
+        },
+        {
+          "theta_deg": 135.0,
+          "phi_deg": 130.0,
+          "external": 0.9834490914535681,
+          "photon_trace": 0.983449091453568,
+          "wrong_first_sign": 0.9834490914535681
+        },
+        {
+          "theta_deg": 180.0,
+          "phi_deg": 0.0,
+          "external": 0.9008493595564768,
+          "photon_trace": 0.9008493595564772,
+          "wrong_first_sign": 0.9008493595564768
+        },
+        {
+          "theta_deg": 180.0,
+          "phi_deg": 45.0,
+          "external": 0.9008493595564768,
+          "photon_trace": 0.900849359556477,
+          "wrong_first_sign": 0.9008493595564768
+        },
+        {
+          "theta_deg": 180.0,
+          "phi_deg": 90.0,
+          "external": 0.9008493595564768,
+          "photon_trace": 0.9008493595564772,
+          "wrong_first_sign": 0.9008493595564768
+        },
+        {
+          "theta_deg": 180.0,
+          "phi_deg": 130.0,
+          "external": 0.9008493595564768,
+          "photon_trace": 0.9008493595564767,
+          "wrong_first_sign": 0.9008493595564768
+        }
+      ]
+    },
+    {
+      "role": "second1505",
+      "delta_KS_D96": -0.4830818766109998,
+      "mean_over_sphere": 1.0000000000000004,
+      "samples": [
+        {
+          "theta_deg": 0.0,
+          "phi_deg": 0.0,
+          "external": 0.7911031630958313,
+          "photon_trace": 0.7911031630958313,
+          "wrong_first_sign": 0.7911031630958313
+        },
+        {
+          "theta_deg": 0.0,
+          "phi_deg": 45.0,
+          "external": 0.7911031630958313,
+          "photon_trace": 0.7911031630958315,
+          "wrong_first_sign": 0.7911031630958313
+        },
+        {
+          "theta_deg": 0.0,
+          "phi_deg": 90.0,
+          "external": 0.7911031630958313,
+          "photon_trace": 0.7911031630958313,
+          "wrong_first_sign": 0.7911031630958313
+        },
+        {
+          "theta_deg": 0.0,
+          "phi_deg": 130.0,
+          "external": 0.7911031630958313,
+          "photon_trace": 0.7911031630958313,
+          "wrong_first_sign": 0.7911031630958313
+        },
+        {
+          "theta_deg": 35.0,
+          "phi_deg": 0.0,
+          "external": 0.8959358246854173,
+          "photon_trace": 0.8959358246854173,
+          "wrong_first_sign": 0.8959358246854173
+        },
+        {
+          "theta_deg": 35.0,
+          "phi_deg": 45.0,
+          "external": 0.8959358246854173,
+          "photon_trace": 0.8959358246854172,
+          "wrong_first_sign": 0.8959358246854173
+        },
+        {
+          "theta_deg": 35.0,
+          "phi_deg": 90.0,
+          "external": 0.8959358246854173,
+          "photon_trace": 0.8959358246854173,
+          "wrong_first_sign": 0.8959358246854173
+        },
+        {
+          "theta_deg": 35.0,
+          "phi_deg": 130.0,
+          "external": 0.8959358246854173,
+          "photon_trace": 0.895935824685417,
+          "wrong_first_sign": 0.8959358246854173
+        },
+        {
+          "theta_deg": 53.0,
+          "phi_deg": 0.0,
+          "external": 0.9921256508218999,
+          "photon_trace": 0.9921256508219,
+          "wrong_first_sign": 0.9921256508218999
+        },
+        {
+          "theta_deg": 53.0,
+          "phi_deg": 45.0,
+          "external": 0.9921256508218999,
+          "photon_trace": 0.9921256508219,
+          "wrong_first_sign": 0.9921256508218999
+        },
+        {
+          "theta_deg": 53.0,
+          "phi_deg": 90.0,
+          "external": 0.9921256508218999,
+          "photon_trace": 0.9921256508219,
+          "wrong_first_sign": 0.9921256508218999
+        },
+        {
+          "theta_deg": 53.0,
+          "phi_deg": 130.0,
+          "external": 0.9921256508218999,
+          "photon_trace": 0.9921256508218999,
+          "wrong_first_sign": 0.9921256508218999
+        },
+        {
+          "theta_deg": 90.0,
+          "phi_deg": 0.0,
+          "external": 1.1021958941149166,
+          "photon_trace": 1.1021958941149164,
+          "wrong_first_sign": 1.1021958941149166
+        },
+        {
+          "theta_deg": 90.0,
+          "phi_deg": 45.0,
+          "external": 1.1021958941149166,
+          "photon_trace": 1.1021958941149166,
+          "wrong_first_sign": 1.1021958941149166
+        },
+        {
+          "theta_deg": 90.0,
+          "phi_deg": 90.0,
+          "external": 1.1021958941149166,
+          "photon_trace": 1.1021958941149164,
+          "wrong_first_sign": 1.1021958941149166
+        },
+        {
+          "theta_deg": 90.0,
+          "phi_deg": 130.0,
+          "external": 1.1021958941149166,
+          "photon_trace": 1.1021958941149164,
+          "wrong_first_sign": 1.1021958941149166
+        },
+        {
+          "theta_deg": 135.0,
+          "phi_deg": 0.0,
+          "external": 0.9494651840268342,
+          "photon_trace": 0.9494651840268343,
+          "wrong_first_sign": 0.9494651840268342
+        },
+        {
+          "theta_deg": 135.0,
+          "phi_deg": 45.0,
+          "external": 0.9494651840268342,
+          "photon_trace": 0.9494651840268343,
+          "wrong_first_sign": 0.9494651840268342
+        },
+        {
+          "theta_deg": 135.0,
+          "phi_deg": 90.0,
+          "external": 0.9494651840268342,
+          "photon_trace": 0.9494651840268343,
+          "wrong_first_sign": 0.9494651840268342
+        },
+        {
+          "theta_deg": 135.0,
+          "phi_deg": 130.0,
+          "external": 0.9494651840268342,
+          "photon_trace": 0.9494651840268341,
+          "wrong_first_sign": 0.9494651840268342
+        },
+        {
+          "theta_deg": 180.0,
+          "phi_deg": 0.0,
+          "external": 0.7911031630958313,
+          "photon_trace": 0.7911031630958313,
+          "wrong_first_sign": 0.7911031630958313
+        },
+        {
+          "theta_deg": 180.0,
+          "phi_deg": 45.0,
+          "external": 0.7911031630958313,
+          "photon_trace": 0.7911031630958315,
+          "wrong_first_sign": 0.7911031630958313
+        },
+        {
+          "theta_deg": 180.0,
+          "phi_deg": 90.0,
+          "external": 0.7911031630958313,
+          "photon_trace": 0.7911031630958313,
+          "wrong_first_sign": 0.7911031630958313
+        },
+        {
+          "theta_deg": 180.0,
+          "phi_deg": 130.0,
+          "external": 0.7911031630958313,
+          "photon_trace": 0.7911031630958312,
+          "wrong_first_sign": 0.7911031630958313
+        }
+      ]
+    },
+    {
+      "role": "second1505",
+      "delta_KS_D96": null,
+      "mean_over_sphere": 1.0,
+      "samples": [
+        {
+          "theta_deg": 0.0,
+          "phi_deg": 0.0,
+          "external": 1.0119047619047619,
+          "photon_trace": 1.0119047619047619,
+          "wrong_first_sign": 1.0119047619047619
+        },
+        {
+          "theta_deg": 0.0,
+          "phi_deg": 45.0,
+          "external": 1.0119047619047619,
+          "photon_trace": 1.011904761904762,
+          "wrong_first_sign": 1.0119047619047619
+        },
+        {
+          "theta_deg": 0.0,
+          "phi_deg": 90.0,
+          "external": 1.0119047619047619,
+          "photon_trace": 1.0119047619047619,
+          "wrong_first_sign": 1.0119047619047619
+        },
+        {
+          "theta_deg": 0.0,
+          "phi_deg": 130.0,
+          "external": 1.0119047619047619,
+          "photon_trace": 1.0119047619047619,
+          "wrong_first_sign": 1.0119047619047619
+        },
+        {
+          "theta_deg": 35.0,
+          "phi_deg": 0.0,
+          "external": 1.0152536066203148,
+          "photon_trace": 1.0152536066203148,
+          "wrong_first_sign": 1.0152536066203148
+        },
+        {
+          "theta_deg": 35.0,
+          "phi_deg": 45.0,
+          "external": 1.0152536066203148,
+          "photon_trace": 1.015253606620315,
+          "wrong_first_sign": 1.0152536066203148
+        },
+        {
+          "theta_deg": 35.0,
+          "phi_deg": 90.0,
+          "external": 1.0152536066203148,
+          "photon_trace": 1.0152536066203148,
+          "wrong_first_sign": 1.0152536066203148
+        },
+        {
+          "theta_deg": 35.0,
+          "phi_deg": 130.0,
+          "external": 1.0152536066203148,
+          "photon_trace": 1.0152536066203146,
+          "wrong_first_sign": 1.0152536066203148
+        },
+        {
+          "theta_deg": 53.0,
+          "phi_deg": 0.0,
+          "external": 1.0066724210157918,
+          "photon_trace": 1.0066724210157922,
+          "wrong_first_sign": 1.0066724210157918
+        },
+        {
+          "theta_deg": 53.0,
+          "phi_deg": 45.0,
+          "external": 1.0066724210157918,
+          "photon_trace": 1.0066724210157922,
+          "wrong_first_sign": 1.0066724210157918
+        },
+        {
+          "theta_deg": 53.0,
+          "phi_deg": 90.0,
+          "external": 1.0066724210157918,
+          "photon_trace": 1.0066724210157922,
+          "wrong_first_sign": 1.0066724210157918
+        },
+        {
+          "theta_deg": 53.0,
+          "phi_deg": 130.0,
+          "external": 1.0066724210157918,
+          "photon_trace": 1.0066724210157922,
+          "wrong_first_sign": 1.0066724210157918
+        },
+        {
+          "theta_deg": 90.0,
+          "phi_deg": 0.0,
+          "external": 0.9821428571428572,
+          "photon_trace": 0.9821428571428571,
+          "wrong_first_sign": 0.9821428571428572
+        },
+        {
+          "theta_deg": 90.0,
+          "phi_deg": 45.0,
+          "external": 0.9821428571428572,
+          "photon_trace": 0.9821428571428574,
+          "wrong_first_sign": 0.9821428571428572
+        },
+        {
+          "theta_deg": 90.0,
+          "phi_deg": 90.0,
+          "external": 0.9821428571428572,
+          "photon_trace": 0.9821428571428571,
+          "wrong_first_sign": 0.9821428571428572
+        },
+        {
+          "theta_deg": 90.0,
+          "phi_deg": 130.0,
+          "external": 0.9821428571428572,
+          "photon_trace": 0.9821428571428571,
+          "wrong_first_sign": 0.9821428571428572
+        },
+        {
+          "theta_deg": 135.0,
+          "phi_deg": 0.0,
+          "external": 1.0119047619047619,
+          "photon_trace": 1.0119047619047619,
+          "wrong_first_sign": 1.0119047619047619
+        },
+        {
+          "theta_deg": 135.0,
+          "phi_deg": 45.0,
+          "external": 1.0119047619047619,
+          "photon_trace": 1.0119047619047616,
+          "wrong_first_sign": 1.0119047619047619
+        },
+        {
+          "theta_deg": 135.0,
+          "phi_deg": 90.0,
+          "external": 1.0119047619047619,
+          "photon_trace": 1.0119047619047619,
+          "wrong_first_sign": 1.0119047619047619
+        },
+        {
+          "theta_deg": 135.0,
+          "phi_deg": 130.0,
+          "external": 1.0119047619047619,
+          "photon_trace": 1.0119047619047616,
+          "wrong_first_sign": 1.0119047619047619
+        },
+        {
+          "theta_deg": 180.0,
+          "phi_deg": 0.0,
+          "external": 1.0119047619047619,
+          "photon_trace": 1.011904761904762,
+          "wrong_first_sign": 1.0119047619047619
+        },
+        {
+          "theta_deg": 180.0,
+          "phi_deg": 45.0,
+          "external": 1.0119047619047619,
+          "photon_trace": 1.011904761904762,
+          "wrong_first_sign": 1.0119047619047619
+        },
+        {
+          "theta_deg": 180.0,
+          "phi_deg": 90.0,
+          "external": 1.0119047619047619,
+          "photon_trace": 1.011904761904762,
+          "wrong_first_sign": 1.0119047619047619
+        },
+        {
+          "theta_deg": 180.0,
+          "phi_deg": 130.0,
+          "external": 1.0119047619047619,
+          "photon_trace": 1.0119047619047619,
+          "wrong_first_sign": 1.0119047619047619
+        }
+      ]
+    }
+  ],
+  "unobserved": [
+    {
+      "theta_deg": 0.0,
+      "phi_deg": 0.0,
+      "external": 0.9484692967457043,
+      "complete_photon_marginal": 0.9484692967457039,
+      "reversed_middle_delta": 0.9484692967457043
+    },
+    {
+      "theta_deg": 0.0,
+      "phi_deg": 45.0,
+      "external": 0.9484692967457043,
+      "complete_photon_marginal": 0.948469296745704,
+      "reversed_middle_delta": 0.9484692967457043
+    },
+    {
+      "theta_deg": 0.0,
+      "phi_deg": 90.0,
+      "external": 0.9484692967457043,
+      "complete_photon_marginal": 0.9484692967457039,
+      "reversed_middle_delta": 0.9484692967457043
+    },
+    {
+      "theta_deg": 0.0,
+      "phi_deg": 130.0,
+      "external": 0.9484692967457043,
+      "complete_photon_marginal": 0.9484692967457041,
+      "reversed_middle_delta": 0.9484692967457043
+    },
+    {
+      "theta_deg": 35.0,
+      "phi_deg": 0.0,
+      "external": 0.9742812888941972,
+      "complete_photon_marginal": 0.974281288894197,
+      "reversed_middle_delta": 0.9742812888941972
+    },
+    {
+      "theta_deg": 35.0,
+      "phi_deg": 45.0,
+      "external": 0.9742812888941972,
+      "complete_photon_marginal": 0.974281288894197,
+      "reversed_middle_delta": 0.9742812888941972
+    },
+    {
+      "theta_deg": 35.0,
+      "phi_deg": 90.0,
+      "external": 0.9742812888941972,
+      "complete_photon_marginal": 0.974281288894197,
+      "reversed_middle_delta": 0.9742812888941972
+    },
+    {
+      "theta_deg": 35.0,
+      "phi_deg": 130.0,
+      "external": 0.9742812888941972,
+      "complete_photon_marginal": 0.9742812888941966,
+      "reversed_middle_delta": 0.9742812888941972
+    },
+    {
+      "theta_deg": 53.0,
+      "phi_deg": 0.0,
+      "external": 0.9980254152970688,
+      "complete_photon_marginal": 0.9980254152970687,
+      "reversed_middle_delta": 0.9980254152970688
+    },
+    {
+      "theta_deg": 53.0,
+      "phi_deg": 45.0,
+      "external": 0.9980254152970688,
+      "complete_photon_marginal": 0.9980254152970687,
+      "reversed_middle_delta": 0.9980254152970688
+    },
+    {
+      "theta_deg": 53.0,
+      "phi_deg": 90.0,
+      "external": 0.9980254152970688,
+      "complete_photon_marginal": 0.9980254152970687,
+      "reversed_middle_delta": 0.9980254152970688
+    },
+    {
+      "theta_deg": 53.0,
+      "phi_deg": 130.0,
+      "external": 0.9980254152970688,
+      "complete_photon_marginal": 0.9980254152970687,
+      "reversed_middle_delta": 0.9980254152970688
+    },
+    {
+      "theta_deg": 90.0,
+      "phi_deg": 0.0,
+      "external": 1.0252718377020322,
+      "complete_photon_marginal": 1.025271837702032,
+      "reversed_middle_delta": 1.0252718377020322
+    },
+    {
+      "theta_deg": 90.0,
+      "phi_deg": 45.0,
+      "external": 1.0252718377020322,
+      "complete_photon_marginal": 1.0252718377020322,
+      "reversed_middle_delta": 1.0252718377020322
+    },
+    {
+      "theta_deg": 90.0,
+      "phi_deg": 90.0,
+      "external": 1.0252718377020322,
+      "complete_photon_marginal": 1.025271837702032,
+      "reversed_middle_delta": 1.0252718377020322
+    },
+    {
+      "theta_deg": 90.0,
+      "phi_deg": 130.0,
+      "external": 1.0252718377020322,
+      "complete_photon_marginal": 1.025271837702032,
+      "reversed_middle_delta": 1.0252718377020322
+    },
+    {
+      "theta_deg": 135.0,
+      "phi_deg": 0.0,
+      "external": 0.9874874596302635,
+      "complete_photon_marginal": 0.9874874596302632,
+      "reversed_middle_delta": 0.9874874596302635
+    },
+    {
+      "theta_deg": 135.0,
+      "phi_deg": 45.0,
+      "external": 0.9874874596302635,
+      "complete_photon_marginal": 0.9874874596302632,
+      "reversed_middle_delta": 0.9874874596302635
+    },
+    {
+      "theta_deg": 135.0,
+      "phi_deg": 90.0,
+      "external": 0.9874874596302635,
+      "complete_photon_marginal": 0.9874874596302632,
+      "reversed_middle_delta": 0.9874874596302635
+    },
+    {
+      "theta_deg": 135.0,
+      "phi_deg": 130.0,
+      "external": 0.9874874596302635,
+      "complete_photon_marginal": 0.9874874596302632,
+      "reversed_middle_delta": 0.9874874596302635
+    },
+    {
+      "theta_deg": 180.0,
+      "phi_deg": 0.0,
+      "external": 0.9484692967457043,
+      "complete_photon_marginal": 0.9484692967457039,
+      "reversed_middle_delta": 0.9484692967457043
+    },
+    {
+      "theta_deg": 180.0,
+      "phi_deg": 45.0,
+      "external": 0.9484692967457043,
+      "complete_photon_marginal": 0.948469296745704,
+      "reversed_middle_delta": 0.9484692967457043
+    },
+    {
+      "theta_deg": 180.0,
+      "phi_deg": 90.0,
+      "external": 0.9484692967457043,
+      "complete_photon_marginal": 0.9484692967457039,
+      "reversed_middle_delta": 0.9484692967457043
+    },
+    {
+      "theta_deg": 180.0,
+      "phi_deg": 130.0,
+      "external": 0.9484692967457043,
+      "complete_photon_marginal": 0.9484692967457041,
+      "reversed_middle_delta": 0.9484692967457043
+    }
+  ],
+  "polarized": [
+    {
+      "case": "IF21-worked-0-1-2",
+      "samples": [
+        {
+          "theta_deg": 0.0,
+          "phi_deg": 0.0,
+          "external": 1.4854101966249682,
+          "polarized_first_trace": 1.4854101966249682
+        },
+        {
+          "theta_deg": 0.0,
+          "phi_deg": 45.0,
+          "external": 1.4854101966249682,
+          "polarized_first_trace": 1.4854101966249686
+        },
+        {
+          "theta_deg": 0.0,
+          "phi_deg": 90.0,
+          "external": 1.4854101966249682,
+          "polarized_first_trace": 1.4854101966249682
+        },
+        {
+          "theta_deg": 0.0,
+          "phi_deg": 130.0,
+          "external": 1.4854101966249682,
+          "polarized_first_trace": 1.4854101966249682
+        },
+        {
+          "theta_deg": 35.0,
+          "phi_deg": 0.0,
+          "external": 1.0063249992196348,
+          "polarized_first_trace": 1.0063249992196348
+        },
+        {
+          "theta_deg": 35.0,
+          "phi_deg": 45.0,
+          "external": 1.2458675979223015,
+          "polarized_first_trace": 1.2458675979223017
+        },
+        {
+          "theta_deg": 35.0,
+          "phi_deg": 90.0,
+          "external": 1.4854101966249682,
+          "polarized_first_trace": 1.4854101966249684
+        },
+        {
+          "theta_deg": 35.0,
+          "phi_deg": 130.0,
+          "external": 1.2874637336606203,
+          "polarized_first_trace": 1.2874637336606205
+        },
+        {
+          "theta_deg": 53.0,
+          "phi_deg": 0.0,
+          "external": 0.5565991270610424,
+          "polarized_first_trace": 0.556599127061042
+        },
+        {
+          "theta_deg": 53.0,
+          "phi_deg": 45.0,
+          "external": 1.0210046618430053,
+          "polarized_first_trace": 1.021004661843005
+        },
+        {
+          "theta_deg": 53.0,
+          "phi_deg": 90.0,
+          "external": 1.4854101966249682,
+          "polarized_first_trace": 1.4854101966249686
+        },
+        {
+          "theta_deg": 53.0,
+          "phi_deg": 130.0,
+          "external": 1.1016478366563294,
+          "polarized_first_trace": 1.1016478366563296
+        },
+        {
+          "theta_deg": 90.0,
+          "phi_deg": 0.0,
+          "external": 0.029179606750063924,
+          "polarized_first_trace": 0.02917960675006309
+        },
+        {
+          "theta_deg": 90.0,
+          "phi_deg": 45.0,
+          "external": 0.7572949016875159,
+          "polarized_first_trace": 0.7572949016875157
+        },
+        {
+          "theta_deg": 90.0,
+          "phi_deg": 90.0,
+          "external": 1.4854101966249678,
+          "polarized_first_trace": 1.4854101966249678
+        },
+        {
+          "theta_deg": 90.0,
+          "phi_deg": 130.0,
+          "external": 0.8837307957848239,
+          "polarized_first_trace": 0.8837307957848237
+        },
+        {
+          "theta_deg": 135.0,
+          "phi_deg": 0.0,
+          "external": 0.7572949016875159,
+          "polarized_first_trace": 0.7572949016875157
+        },
+        {
+          "theta_deg": 135.0,
+          "phi_deg": 45.0,
+          "external": 1.121352549156242,
+          "polarized_first_trace": 1.121352549156242
+        },
+        {
+          "theta_deg": 135.0,
+          "phi_deg": 90.0,
+          "external": 1.485410196624968,
+          "polarized_first_trace": 1.4854101966249682
+        },
+        {
+          "theta_deg": 135.0,
+          "phi_deg": 130.0,
+          "external": 1.184570496204896,
+          "polarized_first_trace": 1.1845704962048962
+        },
+        {
+          "theta_deg": 180.0,
+          "phi_deg": 0.0,
+          "external": 1.4854101966249682,
+          "polarized_first_trace": 1.4854101966249682
+        },
+        {
+          "theta_deg": 180.0,
+          "phi_deg": 45.0,
+          "external": 1.4854101966249682,
+          "polarized_first_trace": 1.4854101966249686
+        },
+        {
+          "theta_deg": 180.0,
+          "phi_deg": 90.0,
+          "external": 1.4854101966249682,
+          "polarized_first_trace": 1.4854101966249682
+        },
+        {
+          "theta_deg": 180.0,
+          "phi_deg": 130.0,
+          "external": 1.4854101966249682,
+          "polarized_first_trace": 1.4854101966249682
+        }
+      ]
+    },
+    {
+      "case": "mixed-first-sign-control",
+      "samples": [
+        {
+          "theta_deg": 0.0,
+          "phi_deg": 0.0,
+          "external": 1.1628440366972472,
+          "polarized_first_trace": 1.1628440366972472
+        },
+        {
+          "theta_deg": 0.0,
+          "phi_deg": 45.0,
+          "external": 1.1628440366972472,
+          "polarized_first_trace": 1.1628440366972472
+        },
+        {
+          "theta_deg": 0.0,
+          "phi_deg": 90.0,
+          "external": 1.1628440366972472,
+          "polarized_first_trace": 1.1628440366972472
+        },
+        {
+          "theta_deg": 0.0,
+          "phi_deg": 130.0,
+          "external": 1.1628440366972472,
+          "polarized_first_trace": 1.1628440366972472
+        },
+        {
+          "theta_deg": 35.0,
+          "phi_deg": 0.0,
+          "external": 1.273764952902668,
+          "polarized_first_trace": 1.2737649529026678
+        },
+        {
+          "theta_deg": 35.0,
+          "phi_deg": 45.0,
+          "external": 1.082482964752504,
+          "polarized_first_trace": 1.0824829647525038
+        },
+        {
+          "theta_deg": 35.0,
+          "phi_deg": 90.0,
+          "external": 0.8912009766023401,
+          "polarized_first_trace": 0.89120097660234
+        },
+        {
+          "theta_deg": 35.0,
+          "phi_deg": 130.0,
+          "external": 1.0492671960897206,
+          "polarized_first_trace": 1.0492671960897206
+        },
+        {
+          "theta_deg": 53.0,
+          "phi_deg": 0.0,
+          "external": 1.3778884074599755,
+          "polarized_first_trace": 1.377888407459976
+        },
+        {
+          "theta_deg": 53.0,
+          "phi_deg": 45.0,
+          "external": 1.007046584409965,
+          "polarized_first_trace": 1.0070465844099654
+        },
+        {
+          "theta_deg": 53.0,
+          "phi_deg": 90.0,
+          "external": 0.6362047613599545,
+          "polarized_first_trace": 0.6362047613599546
+        },
+        {
+          "theta_deg": 53.0,
+          "phi_deg": 130.0,
+          "external": 0.9426505776346484,
+          "polarized_first_trace": 0.9426505776346488
+        },
+        {
+          "theta_deg": 90.0,
+          "phi_deg": 0.0,
+          "external": 1.4999999999999996,
+          "polarized_first_trace": 1.4999999999999998
+        },
+        {
+          "theta_deg": 90.0,
+          "phi_deg": 45.0,
+          "external": 0.918577981651376,
+          "polarized_first_trace": 0.918577981651376
+        },
+        {
+          "theta_deg": 90.0,
+          "phi_deg": 90.0,
+          "external": 0.33715596330275266,
+          "polarized_first_trace": 0.3371559633027523
+        },
+        {
+          "theta_deg": 90.0,
+          "phi_deg": 130.0,
+          "external": 0.817615107709709,
+          "polarized_first_trace": 0.817615107709709
+        },
+        {
+          "theta_deg": 135.0,
+          "phi_deg": 0.0,
+          "external": 1.3314220183486234,
+          "polarized_first_trace": 1.331422018348624
+        },
+        {
+          "theta_deg": 135.0,
+          "phi_deg": 45.0,
+          "external": 1.0407110091743115,
+          "polarized_first_trace": 1.0407110091743117
+        },
+        {
+          "theta_deg": 135.0,
+          "phi_deg": 90.0,
+          "external": 0.7499999999999996,
+          "polarized_first_trace": 0.7499999999999999
+        },
+        {
+          "theta_deg": 135.0,
+          "phi_deg": 130.0,
+          "external": 0.990229572203478,
+          "polarized_first_trace": 0.9902295722034782
+        },
+        {
+          "theta_deg": 180.0,
+          "phi_deg": 0.0,
+          "external": 1.1628440366972472,
+          "polarized_first_trace": 1.1628440366972472
+        },
+        {
+          "theta_deg": 180.0,
+          "phi_deg": 45.0,
+          "external": 1.1628440366972472,
+          "polarized_first_trace": 1.1628440366972472
+        },
+        {
+          "theta_deg": 180.0,
+          "phi_deg": 90.0,
+          "external": 1.1628440366972472,
+          "polarized_first_trace": 1.1628440366972472
+        },
+        {
+          "theta_deg": 180.0,
+          "phi_deg": 130.0,
+          "external": 1.1628440366972472,
+          "polarized_first_trace": 1.1628440366972472
+        }
+      ]
+    }
+  ],
+  "API_observable_switch": [
+    {
+      "theta_deg": 0.0,
+      "unknown_EM_selects_dir_dir": 0.5483987862595661,
+      "known_EM_selects_pol_dir_phi0": 0.5483987862595661,
+      "known_EM_selects_pol_dir_phi90": 0.5483987862595661
+    },
+    {
+      "theta_deg": 35.0,
+      "unknown_EM_selects_dir_dir": 0.7841101006654013,
+      "known_EM_selects_pol_dir_phi0": 0.8024201771992086,
+      "known_EM_selects_pol_dir_phi90": 0.7658000241315941
+    },
+    {
+      "theta_deg": 53.0,
+      "unknown_EM_selects_dir_dir": 0.9890383277424802,
+      "known_EM_selects_pol_dir_phi0": 1.0081981880203832,
+      "known_EM_selects_pol_dir_phi90": 0.9698784674645774
+    },
+    {
+      "theta_deg": 90.0,
+      "unknown_EM_selects_dir_dir": 1.209211629628649,
+      "known_EM_selects_pol_dir_phi0": 1.2092102074338815,
+      "known_EM_selects_pol_dir_phi90": 1.2092130518234165
+    },
+    {
+      "theta_deg": 135.0,
+      "unknown_EM_selects_dir_dir": 0.8995414294960682,
+      "known_EM_selects_pol_dir_phi0": 0.9202769399506449,
+      "known_EM_selects_pol_dir_phi90": 0.8788059190414915
+    },
+    {
+      "theta_deg": 180.0,
+      "unknown_EM_selects_dir_dir": 0.5483987862595661,
+      "known_EM_selects_pol_dir_phi0": 0.5483987862595661,
+      "known_EM_selects_pol_dir_phi90": 0.5483987862595661
+    }
+  ],
+  "all_checks_passed": true,
+  "new_experimental_result": false,
+  "boundary": "Independent public C++/GSL implementation, same published formalism. No actual DCOMAP/RU09 production code, finite response, events or covariance recovered."
+}

@@ -10,9 +10,11 @@ updated: 2026-10-18
 
 2026-10-18T16:31:18.642920+08:00：用户明确恢复持续学习，同run2026-10-18-day-16-01/session01a14ce6-425e-77c1-a127-2ac980bd76b5，原2026-10-19 15:00上海研究截止不变，15–16点收束。此前completed/closeout-only已被本次用户指令覆盖；前次成果/发布历史保留，next17/count16、completed16/partial17不重复计卡，不开Day18。Farmer PID42019 running保留，无新session/daemon/nativegoal；用户/goal resume已恢复原生goal为active，保留原objective并持续pursuing。
 
-恢复checkpoint007已把Jül-Spez458目录/DCO46页取证、KS70 actual15gamma/31cells/26pairs和1505上下游reference/两支、direct-indirect未闭合写canonical。fresh boundary/lint/diff0、0error/150warnings，累计17changed/17writeback；旧raw/PLAN/Bib/reviews及继承dirty保护。稳定指针main / `Extend DAY16 with Cd110 reference-role and network audits`，exacthash/actualH3/push只runreceipt。下一路线ALPACA固定commit公开code-object构建/phase-role交叉核验已primedfreeze，尚未build；不当DCOMAP/原实验producer或新增独立实验。研究/goal持续active至原deadline，不因该checkpoint停止。
+恢复checkpoint008：新ALPACA固定2023 C++/GSL对象actualbuild/8selectedctest/CABI执行0，113源blobs不改、devheaders仅tmp。first/last1505与U/polcontrols核相位/归一，EM标签改观测对象；Pythonwrapper缺rotated导出失败保留，未修upstream/未说全包ready。Canonical19changed/19writeback，fresh boundary/lint/diff0、0errors/152warnings(118key/31raw/3parser)。Jül-Spez458仅目录/DCO46页；KS70印刷/branchweights/原responseΣ仍未闭合。
 
-恢复baseline/冻结/输入/结果/continuation均在原18日run-dir；日报固定17日文件名、唯一writeback沿用。新checkpoint显式manifest007+，log仅ownentry，H3/Gitee非force发布。
+稳定指针main / `Validate DAY16 phases with the pinned ALPACA C++ implementation`，actualhash/H3/push仅publication008/runreceipt。下一ENSDF官方phase/procedures/format原件route已primedfreeze；不靠ALPACA README补原文。Goal/window持续active至原2026-10-19 15:00上海，随后closeout，不因checkpoint完成提前停。累计Day16学分一次、partial17，不开Day18；保护raw/PLAN/Bib/旧review与继承dirty/log，精确manifest/H3/Gitee非force。
+
+原session/resume及deadline、固定17日文件名报告、18日run-dir/continuation沿用。
 
 ## Previous active handoff — DAY16 completed; Day17 is next
 
